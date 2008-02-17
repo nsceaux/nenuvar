@@ -1,20 +1,23 @@
-\include "italiano.ly"
-\include "common/includes.ily"
-\include "common/clef-key.ily"
-\include "common/titling.ily"
-\include "common/music-commands.ily"
-
-\layout {
-  %incipit-width = 15\mm
-  #(define (compute-indent amount)
-    (let ((indent (* amount mm)))
-      (if (eqv? #t (ly:get-option 'ancient-style))
-          indent
-          (+ indent incipit-width mm))))
-
-  smallindent = #(compute-indent 10)
+\header {
+  copyrightYear = "2007"
+  title = \markup \column {
+    \fill-line { "Pièces d'orgues" }
+    \fill-line { "consistantes" }
+    \fill-line { "en deux messes" }
+  }
+  composer = "François Couperin"
+  date = "1689-1690"
+  notes = \markup \column {
+    \line { Documents originaux :}
+    \null
+    \wordwrap {
+      Pièces d'orgue consistantes en deux messes, François Couperin, 1689-1690
+    }
+    \with-url #"http://www.bibliotheques.versailles.fr/simclient/Integration/DOSSIERSDOCS_VERSAILLES/DossiersDoc/voirDossManuscrit.asp?INSTANCE=DOSSIERSDOCS_VERSAILLES&DOSS=BKDD_BMVMsmus_000001_MSMUS4"
+    \typewriter "http://www.bibliotheques.versailles.fr"
+  }
 }
 
-
-\setOpus "Couperin/Orgue/MesseCouvents"
-\includeScore "Akyrie"
+\include "common/common14.ily"
+\pageBreak
+{ \staffStart \keys la \major \clef "treble" do' }
