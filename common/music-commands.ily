@@ -129,3 +129,23 @@ custosNote =
               #(markup #:null #:raise 0.0 #:musicglyph "custodes.mensural.u0")
               \once \override Voice.Stem #'stencil = ##f #}
               note)))
+
+%%%
+%%% Note formatting tweaks
+%%%
+
+forceStemLength = 
+#(define-music-function (parser location length music) (number? ly:music?)
+  #{
+  \override Voice.Stem #'details = #`((lengths . (,$length))
+                                      (beamed-lengths . (,(- $length 1.0)))
+                                      (beamed-minimum-free-lengths . (,(- $length 1.0)))
+                                      (beamed-extreme-minimum-free-lengths . (,(- $length 1.0)))
+                                      (stem-shorten . (1.0 0.5)))
+  $music
+  \revert Voice.Stem #'details
+  #})
+
+
+
+fractionTime = \once \override Staff.TimeSignature #'style = #'()

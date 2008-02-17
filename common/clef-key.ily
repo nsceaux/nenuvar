@@ -43,10 +43,6 @@
 #(set-object-property! 'key  'backend-type? ly:music?)
 #(set-object-property! 'key  'backend-doc "Incipit key music")
 
-\layout {
-  incipit-width = 15\mm
-}
-
 staffStart = {
   \set Staff.vocalName = ""
   \once \override Staff.InstrumentName #'self-alignment-X = #RIGHT
@@ -94,10 +90,10 @@ staffStart = {
                         (haute-contre soprano . alto)
                         (taille mezzosoprano . alto)
                         (quinte alto . alto)
+                        (basse bass . bass)
                         (vdessus treble . treble)
                         (vhaute-contre alto . G_8)
-                        (vtaille tenor . G_8)
-                        (basse bass . bass)))
+                        (vtaille tenor . G_8)))
 
 clef =
 #(define-music-function (parser location clef-name) (string?)

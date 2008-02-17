@@ -200,6 +200,12 @@
       \fromproperty #'toc:page
     }
   }
+  tocBoldPieceMarkup = \markup \fill-line {
+    \line-width-ratio #0.7 \fill-line {
+      \line { \bold \fromproperty #'toc:text }
+      \bold \fromproperty #'toc:page
+    }
+  }
   tocSceneMarkup = \markup \italic \column {
     \fill-line { \fromproperty #'toc:text }
   }
