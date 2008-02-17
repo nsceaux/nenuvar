@@ -18,7 +18,7 @@
   }
 }
 
-\include "common/common16.ily"
+\include "common/common14.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Title page
@@ -26,8 +26,8 @@
 \pageBreak
 
 %%% notes
-%\markup \null
-%\pageBreak
+\markup \null
+\pageBreak
 
 %%% Table of contents
 \markuplines \table-of-contents
@@ -85,43 +85,55 @@ pieceB =
 \includeScore "Bfugue"
 \piece "Récit de cromorne"
 \includeScore "Crecit"
+\pageBreakCond #'(a4)
 \piece "Trio de deux dessus de cromorne et la basse de tierce"
 \includeScore "Dtrio"
 \pieceB "Dialogue sur la trompette du G.O. et sur la montre," "le bourdon et le nasard du positif"
 \includeScore "Edialogue"
 
+\pageBreakCond #'(a4)
 \partie "Gloria"
 \includeScore "Fgloria"
 \piece "Petite fugue sur le cromorne"
 \includeScore "Gfugue"
+\pageBreakCond #'(a4)
 \piece "Duo sur les tierces"
 \includeScore "Hduo"
+\pageBreakCond #'(a4)
 \piece "Basse de trompette"
 \includeScore "Itrompette"
 \piece "Cromorne en taille"
 \includeScore "Jcromorne"
+\pageBreakCond #'(a4)
 \piece "Dialogue sur la voix humaine"
 \includeScore "Kdialogue"
+\pageBreakCond #'(a4)
 \pieceB "Dialogue sur les tierces" "et la basse sur la trompette"
 \includeScore "Ldialogue"
+\pageBreakCond #'(a4)
 \piece "Récit de tierce"
 \includeScore "Mrecit"
+\pageBreakCond #'(a4)
 \piece "Dialogue sur les grands jeux"
 \includeScore "Ndialogue"
 
+\pageBreakCond #'(a4)
 \partie "Offertoire"
 \includeScore "Ooffertoire"
 
+\pageBreakCond #'(a4)
 \partie "Sanctus"
 \includeScore "Psanctus"
 \piece "Récit de cornet"
 \includeScore "Qrecit"
 
+\pageBreakCond #'(a4)
 \partie "Élévation"
 \includeScore "Relevation"
 
 \partie "Agnus Dei"
 \includeScore "SagnusDei"
+\pageBreakCond #'(a4)
 \piece "Dialogue sur les grands jeux"
 \includeScore "Tdialogue"
 
