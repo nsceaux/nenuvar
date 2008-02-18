@@ -96,6 +96,7 @@
     \Score
     \override BarNumber #'padding = #2 
     \override InstrumentName #'space-alist = #'((left-edge extra-space . 2.0))
+    \override VerticalAlignment #'max-stretch = #ly:align-interface::calc-max-stretch
     \accepts "StaffGroupNoBar"
   }
   \context {
@@ -115,14 +116,25 @@
     \Staff
     \name Staff
     \override VerticalAxisGroup #'minimum-Y-extent = #'(-4 . 4)
+    %% Figured bass
+    figuredBassAlterationDirection = #RIGHT
+    \override BassFigureAlignment #'stacking-dir = #UP
+    \override BassFigureAlignmentPositioning #'direction = #DOWN
   }
-  RemoveEmptyStaffContext= \context {
+  RemoveEmptyStaffContext = \context {
     \Staff
     \remove "Axis_group_engraver"
     \consists "Hara_kiri_engraver"
     \override Beam #'auto-knee-gap = #'()
     \override VerticalAxisGroup #'remove-empty = ##t
     \override VerticalAxisGroup #'minimum-Y-extent = #'(-4 . 4)
+  }
+  \context {
+    \Staff
+    \name SmallStaff
+    \description "Staff with small notes"
+    fontSize = #-2
+    \override StaffSymbol #'staff-space = #(magstep -2)
   }
 }
 

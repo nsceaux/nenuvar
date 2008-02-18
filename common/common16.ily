@@ -4,6 +4,7 @@
 \include "common/titling.ily"
 \include "common/music-commands.ily"
 \include "common/marks.ily"
+\include "common/staff.ily"
 \layout { incipit-width = 12\mm }
 \include "common/layout.ily"
 

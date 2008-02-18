@@ -87,13 +87,17 @@ staffStart = {
 }
 
 #(define french-clefs '((dessus french . treble)
+                        (dessus2 soprano . treble)
                         (haute-contre soprano . alto)
                         (taille mezzosoprano . alto)
                         (quinte alto . alto)
                         (basse bass . bass)
                         (vdessus treble . treble)
+                        (vbas-dessus soprano . treble)
+                        (vpetite-haute-contre mezzosoprano . treble)
                         (vhaute-contre alto . G_8)
-                        (vtaille tenor . G_8)))
+                        (vtaille tenor . G_8)
+                        (vbasse bass . bass)))
 
 clef =
 #(define-music-function (parser location clef-name) (string?)

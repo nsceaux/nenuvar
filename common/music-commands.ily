@@ -146,6 +146,18 @@ forceStemLength =
   \revert Voice.Stem #'details
   #})
 
+%%%
+%%% Misc utilities
+%%%
 
+fractionTime = \once \override Staff.TimeSignature #'style = #'numbered
+cTime = \once \override Staff.TimeSignature #'style = #'C
+digitTime = \once \override Staff.TimeSignature #'style = #'single-digit
 
-fractionTime = \once \override Staff.TimeSignature #'style = #'()
+instrumentName =
+#(define-music-function (parser location name) (markup?)
+   #{ \set Staff.instrumentName = \markup \large $name #})
+
+characterName =
+#(define-music-function (parser location name) (markup?)
+  #{ \set Staff . instrumentName = \markup \large \smallCaps $name #})
