@@ -57,6 +57,36 @@
 \pieceToc \markup { Aricie : \italic { Hippolyte amoureux m'occupera sans cesse } }
 \includeScore "ABBaricie"
 \pieceToc \markup { Hippolyte, Aricie }
-%\includeScore "ABChippolyteAricie"
+\includeScore "ABChippolyteAricie"
 \pieceToc \markup { Hippolyte et Aricie :  \italic { Nous brûlons des plus pures flammes } }
-%\includeScore "ABDduo"
+\includeScore "ABDduo"
+%%
+\scene "Scène III"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps { Hippolyte, Aricie, } la grande prêtresse de Diane,
+  troupe de prêtresses de Diane.
+}
+\pieceTocTitle "Marche"
+\includeScore "ACAmarche"
+\pieceToc \markup { Chœur de prêtresses : \italic { Dans ce paisible séjour Règne l'aimable innocence }}
+\includeScore "ACBchoeur"
+\pieceTocTitle "Premier Air"
+\includeScore "ACCair"
+\pieceToc \markup { Une prêtresse : \italic { Dieu d’Amour, pour nos asiles, tes tourments ne sont pas faits. } }
+\includeScore "ACDpretresse"
+\pieceTocTitle "Deuxième Air"
+\includeScore "ACEair"
+\pieceTocTitle "Première Gavotte"
+\includeScore "ACFgavotte"
+\pieceToc \markup { La prêtresse, chœur : \italic { De l’Amour fuyez les charmes } }
+\includeScore "ACGpretresseChoeur"
+\pieceTocTitle  "Deuxième Gavotte"
+\includeScore "ACHgavotte"
+\pieceToc \markup { La prêtresse, chœur : \italic { La paix et l’indifférence Comblent ici nos désirs } }
+\includeScore "ACIpretresseChoeur"
+\markup \title \fill-line {
+  \line {
+    On reprend la première gavotte 
+    page \page-refII #'ACFgavotte .
+  }
+}

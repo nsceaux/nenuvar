@@ -20,7 +20,7 @@
 
 \paper {
   %% Page breaking
-  %%#(define page-breaking ly:minimal-breaking)
+  #(define page-breaking ly:minimal-breaking)
   page-limit-inter-system-space = ##t
   page-limit-inter-system-space-factor = 1.4
 
@@ -111,6 +111,10 @@
     \name StaffGroupNoBracket
     \description "Like StaffGroup, but without brackets"
     \remove "System_start_delimiter_engraver"
+  }
+  \context {
+    \ChoirStaff
+    \consists "Instrument_name_engraver"
   }
   \context {
     \Staff

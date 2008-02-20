@@ -3,3 +3,4 @@
 *.midi
 *.pdf
 test.ly
+.DS_Store
