@@ -1,4 +1,4 @@
-\utDeux mi'4 mi' |
+\clef "haute-contre" mi'4 mi' |
 mi'2 mi'4 |
 mi' fa'8 mi' re'4 |
 do'8 do'' si'4 la' |

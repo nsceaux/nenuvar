@@ -1,4 +1,4 @@
-\utUn do''4 sold' |
+\clef "haute-contre" do''4 sold' |
 la' re''8 do'' si'4 |
 la' sol' sol' |
 sol'8 mi'' re''4 do'' |

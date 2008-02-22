@@ -1,4 +1,4 @@
-\utTrois 
+\clef "vhaute-contre" 
 R1
 R1
 R1*3

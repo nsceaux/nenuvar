@@ -1,15 +1,15 @@
 \score {
   \new StaffGroup <<
-    \newStaff << \instrumentName \markup Flûtes
-                 \global \includeDessus "flutes" >>
-    \newStaff << \instrumentName \markup Violons
-                 \global \includeDessus "violons" >>
-    \newStaff << \instrumentName \markup \instruments { Haute- contres }
-                 \global \includeHauteContre "haute-contre" >>
-    \newStaff << \instrumentName \markup Tailles
-                 \global \includeTaille "taille" >>
-    \newStaff << \instrumentName \markup Basses
-                 \global \includeBasse "basse" >>
+    \new Staff << \instrumentName \markup Flûtes
+                  \global \includeNotes "flutes" >>
+    \new Staff << \instrumentName \markup Violons
+                  \global \includeNotes "violons" >>
+    \new Staff << \instrumentName \markup Haute-contres
+                  \global \includeNotes "haute-contre" >>
+    \new Staff << \instrumentName \markup Tailles
+                  \global \includeNotes "taille" >>
+    \new Staff << \instrumentName \markup Basses
+                  \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
   \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 160 4) } }

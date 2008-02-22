@@ -30,6 +30,9 @@
   right-margin = 10\mm
   #(define line-width (- paper-width (* 20 mm)))
 
+  ragged-bottom = ##f
+  ragged-last-bottom = ##f
+
   between-system-space = 10 \mm
   after-title-space = 5 \mm
   before-title-space = 10 \mm
@@ -88,9 +91,6 @@
   noindent = #(compute-indent 0)
   largeindent = #(compute-indent 25)
   indent = \smallindent
-
-  ragged-bottom = ##f
-  ragged-last-bottom = ##f
 
   \context {
     \Score

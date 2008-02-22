@@ -1,3 +1,22 @@
+#(define-markup-command (characteri paper props name) (markup?)
+  (interpret-markup paper props
+   (markup #:huge #:smallCaps name)))
+
+#(define-markup-command (character paper props name) (markup?)
+  (interpret-markup paper props
+   (markup #:null #:translate  (cons -4 2) #:characteri name)))
+
+#(define-markup-command (character-text paper props name text) (markup? markup?)
+  (interpret-markup paper props
+   (markup #:null #:translate  (cons -4 2)
+    #:line (#:characteri name #:huge " " #:huge #:italic text))))
+
+#(define-public (make-character-mark clefs name)
+  #{ << { \set Staff.forceClef = ##t \clef #$clefs
+          \once \override Staff . Clef #'full-size-change = ##t }
+        s1*0 ^\markup \character $name >> #})
+
+
 markUpBegin = {
   \once \override Score . RehearsalMark #'break-visibility = #end-of-line-invisible
   \once \override Score . RehearsalMark #'direction = #UP

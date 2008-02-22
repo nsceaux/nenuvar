@@ -91,14 +91,28 @@
   }
 }
 %%
-\scene "Scène IV" \markup \smallCaps { Phèdre, Aricie, Hippolyte. }
+\scene "Scène IV"
+\sceneDescription \markup \smallCaps { Phèdre, Aricie, Hippolyte. }
 \pieceToc \markup { Phèdre, Aricie, Hippolyte, chœur de prêtresses }
 \includeScore "ADAphedreAricieChoeurHippolyte"
 \pieceToc \markup { Phèdre : \italic { Périsse la vaine puissance Qui s’élève contre les Rois } }
-\air "ADBphedre"
+\includeScore "ADBphedre"
 \pieceToc \markup { La prêtresse, chœur : \italic { Dieux vengeurs, lancez le tonnerre } }
 \includeScore "ADCprelude"
 \includeScore "ADDpretresseChoeur"
-\pieceTocTitle \markup "Bruit de tonnerre"
+\pieceTocTitle "Bruit de tonnerre"
 \includeScore "ADEtonnerre"
 %%
+\scene "Scène V"
+\sceneDescription \markup { \smallCaps Diane, et les acteurs
+                            de la scène précédente. }
+\pieceToc \markup { Diane, Aricie, Hippolyte }
+\includeScore "AEAdianeAricieHippolyte"
+%%
+\scene "Scène VI"
+\sceneDescription \markup \smallCaps Phèdre.
+\pieceToc \markup { Phèdre : \italic { Que rien n’échappe à ma fureur } }
+\includeScore "AFAphedre"
+\pieceTocTitle "Entr'acte"
+\includeScore "AFBentracte"
+\actEnd \markup { FIN DU PREMIER ACTE }

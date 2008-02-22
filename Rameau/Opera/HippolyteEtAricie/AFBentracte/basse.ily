@@ -1,4 +1,4 @@
-\faQuatre la4 mi |
+\clef "basse" la4 mi |
 la sold8 la si sold |
 la4 si8 do' re' si |
 do'4 re'8 mi' fa' re' |

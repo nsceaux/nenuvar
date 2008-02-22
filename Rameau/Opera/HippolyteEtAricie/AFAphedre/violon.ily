@@ -1,4 +1,4 @@
-\utUn r2 |
+\clef "dessus2" r2 |
 R1*3 |
 R1*5 |
 R1*3 |

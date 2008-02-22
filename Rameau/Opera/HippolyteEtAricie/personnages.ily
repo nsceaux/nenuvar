@@ -11,11 +11,6 @@
    (markup #:null #:translate  (cons -4 2)
     #:line (#:characteri name #:huge " " #:huge #:italic text))))
 
-#(define (make-character-mark clefs name)
-  #{ << { \set Staff.forceClef = ##t \clef #$clefs
-          \once \override Staff . Clef #'full-size-change = ##t }
-        s1*0 ^\markup \character $name >> #})
-
 hippolyteMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Hippolyte"))
@@ -35,7 +30,7 @@ dianeMark =
 dianeMarkText =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark "vbas-dessus"
-   (markup #:character-text "Diane" $text)))
+   (markup #:character-text "Diane" text)))
 
 theseeMark =
 #(define-music-function (parser location) ()
@@ -44,7 +39,7 @@ theseeMark =
 theseeMarkText =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark "vbasse"
-   (markup #:character-text "Thésée" $text)))
+   (markup #:character-text "Thésée" text)))
 
 tisiphoneMark =
 #(define-music-function (parser location) ()
@@ -65,4 +60,4 @@ oenoneMark =
 oenoneMarkText =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark "vbas-dessus"
-   (markup #:character-text "Œnone" $text)))
+   (markup #:character-text "Œnone" text)))

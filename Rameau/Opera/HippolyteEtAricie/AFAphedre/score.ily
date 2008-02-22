@@ -2,14 +2,14 @@
   \new StaffGroupNoBar <<
     \newHaraKiriStaff <<
       \instrumentName \markup Violons
-      \global \includeDessus "violon" >>
-    \newStaffWithLyrics <<
+      \global \includeNotes "violon" >>
+    \new Staff \withLyrics <<
       \characterName \markup Phèdre
-      \global \includeVoix "phedre"
+      \global \includeNotes "phedre"
     >> \includeLyrics "paroles"
-    \newStaff << \instrumentName \markup Basses
-                 { s2 s1*3 s1*5 s1*3 \break }
-                 \global \includeBasse "basse" >>
+    \new Staff << \instrumentName \markup Basses
+                 %{ s2 s1*3 s1*5 s1*3 \break %}
+                 \global \includeNotes "basse" >>
   >>
   \layout { 
     indent = \largeindent
