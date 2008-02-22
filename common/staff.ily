@@ -22,3 +22,30 @@ withLyrics =
             $music >>
             \lyricsto $name \new Lyrics $lyrics
             >> #}))
+
+newHaraKiriStaff =
+#(define-music-function (parser location music) (ly:music?)
+   (make-music
+    'ContextSpeccedMusic
+    'create-new #t
+    'property-operations '((push VerticalAxisGroup #t remove-empty)
+                           (push VerticalAxisGroup #f remove-first)
+                           (push Beam () auto-knee-gap)
+                           (consists "Hara_kiri_engraver")
+                           (remove "Axis_group_engraver"))
+    'context-type 'Staff
+    'element music))
+
+newHaraKiriStaffB =
+#(define-music-function (parser location music) (ly:music?)
+   (make-music
+    'ContextSpeccedMusic
+    'create-new #t
+    'property-operations '((push VerticalAxisGroup #t remove-empty)
+                           (push VerticalAxisGroup #t remove-first)
+                           (push Beam () auto-knee-gap)
+                           (consists "Hara_kiri_engraver")
+                           (remove "Axis_group_engraver")
+                           (remove "Instrument_name_engraver"))
+    'context-type 'Staff
+    'element music))

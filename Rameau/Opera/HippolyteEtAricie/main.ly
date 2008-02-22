@@ -90,3 +90,15 @@
     page \page-refII #'ACFgavotte .
   }
 }
+%%
+\scene "Scène IV" \markup \smallCaps { Phèdre, Aricie, Hippolyte. }
+\pieceToc \markup { Phèdre, Aricie, Hippolyte, chœur de prêtresses }
+\includeScore "ADAphedreAricieChoeurHippolyte"
+\pieceToc \markup { Phèdre : \italic { Périsse la vaine puissance Qui s’élève contre les Rois } }
+\air "ADBphedre"
+\pieceToc \markup { La prêtresse, chœur : \italic { Dieux vengeurs, lancez le tonnerre } }
+\includeScore "ADCprelude"
+\includeScore "ADDpretresseChoeur"
+\pieceTocTitle \markup "Bruit de tonnerre"
+\includeScore "ADEtonnerre"
+%%

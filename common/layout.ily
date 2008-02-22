@@ -105,6 +105,8 @@
     \description "Like StaffGroup, but without spanbar"
     \remove "Span_bar_engraver"
     \accepts "StaffGroupNoBracket"
+    \accepts "InnerStaffGroup"
+    \accepts "InnerChoirStaff"
   }
   \context {
     \StaffGroup
