@@ -103,6 +103,15 @@
   (symbol? markup?)
   (page-ref-aux layout props label "000" next))
 
+#(define-markup-command (super layout props arg) (markup?)
+  (ly:stencil-translate-axis
+   (interpret-markup
+    layout
+    (cons `((font-size . ,(- (chain-assoc-get 'font-size props 0) 3))) props)
+    arg)
+   (* 0.25 (chain-assoc-get 'baseline-skip props))
+   Y))
+
 %%% Guile does not deal with accented letters
 #(use-modules (ice-9 regex))
 %%;; actually defined below, in a closure

@@ -116,3 +116,90 @@
 \pieceTocTitle "Entr'acte"
 \includeScore "AFBentracte"
 \actEnd \markup { FIN DU PREMIER ACTE }
+
+
+%%% Acte Second
+\act "Acte Second"
+\scene "Scène Première"
+\sceneDescription \markup \column {
+  \fill-line { \line { Le théâtre représente les Enfers } }
+  \fill-line { \line \smallCaps { Thésée, Tisiphone. } }
+}
+\pieceTocTitle "Ritournelle"
+\includeScore "BAAritournelle"
+\pieceToc \markup Thésée
+\includeScore "BABthesee"
+\pieceToc \markup { Tisiphone : \italic { Non, dans le séjour ténébreux C’est en vain qu’on gémit } }
+\includeScore "BACtisiphone"
+\pieceToc \markup { Thésée, Tisiphone }
+\includeScore "BADtheseeTisiphone"
+\pieceToc \markup { Thésée, Tisiphone : \italic { Contente-toi d’une victime. } } 
+\includeScore "BAEtheseeTisiphone"
+%%
+\scene "Scène II"
+\sceneDescription \markup {
+  \smallCaps { Pluton, Thésée, } les trois Parques.
+}
+\pieceTocTitle "Entrée de Pluton"
+\includeScore "BBAentree"
+\pieceToc \markup { Thésée, Pluton }
+\includeScore "BBBthesee"
+\includeScore "BBCplutonThesee"
+\pieceToc \markup { Thésée : \italic { Sous les drapeaux de Mars, unis par la valeur } }
+\includeScore "BBDthesee"
+\pieceToc \markup { Thésée, Pluton }
+\includeScore "BBEplutonThesee"
+%%
+\scene "Scène III"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Pluton, troupe de divinités infernales,
+  les trois Parques.
+}
+\pieceToc \markup { Pluton, chœur : \italic { Que l’Averne, que le Ténare } }
+\includeScore "BCAplutonChoeur"
+\pieceTocTitle "Premier air infernal"
+\includeScore "BCBair"
+\pieceTocTitle "Deuxième air de furies"
+\includeScore "BCCair"
+\pieceToc \markup { Chœur : \italic { Pluton commande, vengeons notre Roi. } }
+\includeScore "BCDchoeur"
+\markup \title \fill-line {
+  \line {
+    On reprend le deuxième air de furies entier
+    page \page-refII #'BCCair .
+  }
+}
+%%
+\scene "Scène IV"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Thésée, \smallCaps Tisiphone, les acteurs de le scène 
+  précédente.
+}
+\pieceToc \markup { Thésée, Tisiphone }
+\includeScore "BDAtheseeTisiphone"
+\pieceTocAndTitle \markup { TRIO DES TROIS PARQUES } \markup { Trio des trois Parques : \italic { Du Destin le vouloir suprême } }
+\includeScore "BDBparques"
+\includeScore "BDCthesee"
+\pieceToc \markup { Thésée : \italic { Puisque Pluton est inflexible } }
+\includeScore "BDDthesee"
+\pieceToc \markup { Chœur : \italic { Non, Neptune aurait beau t’entendre } }
+\includeScore "BDEchoeur"
+%%
+\scene "Scène V"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Mercure, \smallCaps Pluton et les trois Parques.
+}
+\pieceToc \markup { Mercure, Pluton }
+\includeScore "BEAmercurePluton"
+\pieceToc \markup { Pluton, les Parques : \italic { Vous, qui de l’avenir percez la nuit profonde } }
+\includeScore "BEBplutonParques"
+%%
+\scene "Scène VI"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Thésée et \smallCaps Mercure.
+}
+\pieceToc \markup { Thésée, Mercure }
+\includeScore "BFAtheseeMercure"
+\pieceTocTitle "Entr'acte"
+\includeScore "BFBentracte"
+\actEnd \markup { FIN DU DEUXIÈME ACTE }
