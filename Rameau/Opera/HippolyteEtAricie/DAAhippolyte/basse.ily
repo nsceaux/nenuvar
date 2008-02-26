@@ -1,4 +1,4 @@
-\faQuatre r4 la, re4. si,8 |
+\clef "basse" r4 la, re4. si,8 |
 mi4. re8 do8. do16 fa4 ~|
 fa8 si, mi8. la,16 mi,2 |
 la,4. la8-"doux" si4 dod' |

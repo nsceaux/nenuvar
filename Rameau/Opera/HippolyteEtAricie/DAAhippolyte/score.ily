@@ -1,23 +1,21 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \newStaff << \instrumentName \markup Flûtes
-                   \global \includeDessus "flute" >>
-      \newStaff << \instrumentName \markup Violons
-                   \global \includeDessus "violon" >>
-      \newStaff << \instrumentName \markup \instruments { Haute- contres }
-                   \global \includeHauteContre "haute-contre" >>
-      \newStaff << \instrumentName \markup Tailles
-                   \global \includeTaille "taille" >>
+      \new Staff << \instrumentName \markup Flûtes
+                    \global \includeNotes "flute" >>
+      \new Staff << \instrumentName \markup Violons
+                    \global \includeNotes "violon" >>
+      \new Staff << \instrumentName \markup Haute-contres
+                    \global \includeNotes "haute-contre" >>
+      \new Staff << \instrumentName \markup Tailles
+                    \global \includeNotes "taille" >>
     >>
-    \newHaraKiriStaff <<
-      \newStaffWithLyrics <<
-        \characterName \markup Hippolyte
-        \global \includeVoix "hippolyte"
-      >> \includeLyrics "paroles"
-    >>
-    \newStaff << \instrumentName \markup \instruments { Basse continue }
-                 \global \includeBasse "basse" >>
+    \newHaraKiriStaff \withLyrics <<
+      \characterName \markup Hippolyte
+      \global \includeNotes "hippolyte"
+    >> \includeLyrics "paroles"
+    \new Staff << \instrumentName \markup { Basse continue }
+                  \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
   \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 88 4) } }

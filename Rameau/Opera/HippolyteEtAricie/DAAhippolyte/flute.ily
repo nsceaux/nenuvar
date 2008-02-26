@@ -1,4 +1,4 @@
-\solUn la''4. mi''8 \appoggiatura mi'' fa''4 fa''8. re''16 |
+\clef "dessus" la''4. mi''8 \appoggiatura mi'' fa''4 fa''8. re''16 |
 si'2 mi''4. ( la'8 )|
 re''4. ( si'16 do'' ) do''4 ( si'8. ) la'16 |
 la'4. la''8-"doux" la''8. ( sol''16 ) sol''8 ( fa''16 mi'' )|

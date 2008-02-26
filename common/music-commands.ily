@@ -150,6 +150,21 @@ forceStemLength =
 %%% Misc utilities
 %%%
 
+altKeys =
+#(define-music-function (parser location fractions) (list?)
+   (let ((num1 (number->string (car fractions)))
+         (den1 (number->string (cadr fractions)))
+         (num2 (number->string (caddr fractions)))
+         (den2 (number->string (cadddr fractions))))
+   #{
+     \once \override Staff.TimeSignature #'stencil = #ly:text-interface::print
+     \once \override Staff.TimeSignature #'text =
+     #(markup #:override '(baseline-skip . 0)
+              #:number #:line (#:center-align ($num1 $den1)
+                               #:hspace 0.5
+                               #:center-align ($num2 $den2)))
+     #}))
+   
 fractionTime = \once \override Staff.TimeSignature #'style = #'numbered
 cTime = \once \override Staff.TimeSignature #'style = #'C
 digitTime = \once \override Staff.TimeSignature #'style = #'single-digit

@@ -1,4 +1,4 @@
-\utUn r4 do'' do'' si'8. si'16 |
+\clef "haute-contre" r4 do'' do'' si'8. si'16 |
 sold'2 la' ~|
 la'8 si'16 ( la' ) sold'8. ( la'16 ) la'4. la'16 sold' |
 \appoggiatura sold'8 la'4. dod''8-"doux" re''4 mi'' ~|

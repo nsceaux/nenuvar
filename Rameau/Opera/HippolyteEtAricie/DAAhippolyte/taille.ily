@@ -1,4 +1,4 @@
-\utDeux r4 la' la' re'8. re'16 |
+\clef "taille" r4 la' la' re'8. re'16 |
 re'4.( si8) do'2 |
 si4. la8 mi'2 |
 mi'4. mi'8 fa'8. ( mi'16 ) la'4 |
