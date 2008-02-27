@@ -2,11 +2,12 @@
 %%%
 %%% Author: Nicolas Sceaux <nicolas.sceaux@free.fr>
 %%%
-#(ly:add-option 'letter #f "Letter book option")
-#(ly:add-option 'relied-book #f "Relied 210x273 book option")
 %% Paper size
 #(use-modules (srfi srfi-39))
 #(define-public *paper-size* (make-parameter 'a4))
+
+#(ly:add-option 'letter #f "Letter book option")
+#(ly:add-option 'relied-book #f "Relied 210x273 book option")
 
 #(set! paper-alist
    (cons '("relied-book" . (cons (* 20.955 mm) (* 27.31 mm)))
@@ -17,6 +18,8 @@
        (else (*paper-size* 'a4)))
 
 #(set-default-paper-size (symbol->string (*paper-size*)))
+
+#(ly:set-option 'point-and-click #f)
 
 \paper {
   %% Page breaking
