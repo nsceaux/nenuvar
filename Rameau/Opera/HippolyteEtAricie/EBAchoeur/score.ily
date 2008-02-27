@@ -2,6 +2,7 @@
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff << \instrumentName \markup \center-align { Hautbois Violons }
+                    { s2.*17 \noBreak s2.*18 \noBreak }
                     \global \includeNotes "dessus" >>
       \new Staff << \instrumentName \markup \center-align { Haute-contres Tailles }
                     \global \includeNotes "haute-contre-taille" >>

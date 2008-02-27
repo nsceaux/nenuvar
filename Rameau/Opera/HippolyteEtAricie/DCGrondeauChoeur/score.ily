@@ -3,7 +3,7 @@
     \new StaffGroupNoBracket <<
       \new Staff << \instrumentName \markup { Hautbois I }
                    \keepWithTag #'autres \global
-                    { s2. s1.*48 \noBreak }
+                    { s2. s1.*48 \noBreak s1.*16 \noBreak }
                    \includeNotes "hautbois1" >>
       \new Staff << \instrumentName \markup { Hautbois II }
                    \keepWithTag #'autres \global
