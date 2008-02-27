@@ -2,5 +2,6 @@
 *.ps
 *.midi
 *.pdf
+*.tar.gz
 test.ly
 .DS_Store
