@@ -83,6 +83,12 @@ staffStart = {
              (ly:output-def-set-variable! layout 'ragged-right #f)
              (ly:score-add-output-def! score layout)
              (set! (ly:grob-property grob 'long-text) (markup #:score score)))))
+     ;; hack. Why are Staff.InstrumentName overrides permanent,
+     ;; even with \once, and non re-overridable?
+     (let ((short-text (ly:grob-property grob 'text)))
+       (if (markup? short-text)
+           (set! (ly:grob-property grob 'text)
+                 (markup #:null #:raise -4.5 #:concat (short-text #:hspace 0.5)))))
      (ly:system-start-text::print grob))
 }
 

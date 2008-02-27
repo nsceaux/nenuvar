@@ -26,9 +26,9 @@
 
   %% Margins, line width
   page-top-space = #(* 5 mm)
-  left-margin = 10\mm
-  right-margin = 10\mm
-  #(define line-width (- paper-width (* 20 mm)))
+  left-margin = 12\mm
+  right-margin = 12\mm
+  #(define line-width (- paper-width (* 24 mm)))
 
   ragged-bottom = ##f
   ragged-last-bottom = ##f
@@ -91,6 +91,7 @@
   noindent = #(compute-indent 0)
   largeindent = #(compute-indent 25)
   indent = \smallindent
+  small-indent = 5\mm
 
   \context {
     \Score
