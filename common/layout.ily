@@ -12,7 +12,7 @@
 %%% otherwise: A4
 
 #(set! paper-alist
-   (cons '("relied-book" . (cons (* 20.955 mm) (* 27.31 mm)))
+   (cons '("relied-book" . (cons (* 209.55 mm) (* 273.1 mm)))
          paper-alist))
 
 #(cond ((ly:get-option 'letter) (*paper-size* 'letter))
