@@ -123,9 +123,6 @@
 %%% Rehearsal numbers
 %%%
 
-#(ly:add-option 'use-rehearsal-numbers #f
-  "It true, print rehearsal numbers before pieces.")
-
 #(define-public rehearsal-number #f)
 #(define-public increase-rehearsal-major-number #f)
 #(let ((major-number 0)

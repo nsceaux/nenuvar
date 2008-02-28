@@ -6,8 +6,10 @@
 #(use-modules (srfi srfi-39))
 #(define-public *paper-size* (make-parameter 'a4))
 
-#(ly:add-option 'letter #f "Letter book option")
-#(ly:add-option 'relied-book #f "Relied 210x273 book option")
+%%% Paper size options:
+%%% letter: Letter book option
+%%% relied-book: Relied 210x273 book option
+%%% otherwise: A4
 
 #(set! paper-alist
    (cons '("relied-book" . (cons (* 20.955 mm) (* 27.31 mm)))

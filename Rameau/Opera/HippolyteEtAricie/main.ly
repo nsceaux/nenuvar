@@ -337,7 +337,7 @@
 }
 \pieceTocAndTitle \markup "DEUXIÈME RONDEAU" \markup { Deuxième rondeau, une chasseresse, chœur : \italic { À la chasse, à la chasse, Armez-vous } }
 \includeScore "DCGrondeauChoeur"
-\pieceTocAndTitle \markup "Bruit de mer et vents" \markup { Chœur, Hippolyte, Aricie : \italic { Quel bruit ! Quels vents ! Quelle montagne humide ! } }
+\pieceTocAndTitle \markup "BRUIT DE MER ET VENTS" \markup { Chœur, Hippolyte, Aricie : \italic { Quel bruit ! Quels vents ! Quelle montagne humide ! } }
 \includeScore "DCHchoeurHippolyteAricie"
 \includeScore "DCIchoeurAricie"
 %%

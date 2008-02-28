@@ -35,8 +35,6 @@
 
 #(use-modules (ice-9 regex))
 
-#(ly:add-option 'ancient-style #f "It true, use ancient alternative clefs and keys")
-
 %% to avoid warnings:
 #(set-object-property! 'clef 'backend-type? ly:music?)
 #(set-object-property! 'clef 'backend-doc "Incipit clef music")
