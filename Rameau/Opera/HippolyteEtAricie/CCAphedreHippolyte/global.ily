@@ -44,4 +44,4 @@
 \fractionTime \time 2/2 \grace s8 s1*3
 \time 4/4 s1*2
 \fractionTime \time 2/2 s1*3
-\time 4/4 s4
+\time 4/4 s4 \bar "" \break

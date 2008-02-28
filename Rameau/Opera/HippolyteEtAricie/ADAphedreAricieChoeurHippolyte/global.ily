@@ -17,4 +17,4 @@
 \time 3/4 s2.*2
 \fractionTime \time 2/2 s1*2
 \time 4/4 s1*3
-\time 6/8 s4.
+\time 6/8 s4. \bar "" \break
