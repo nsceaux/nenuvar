@@ -533,5 +533,6 @@
     jouent également mal sur quelque instrument que ce soit.
   }
 }
+\pageBreak
 \pieceTocTitle "Allemande"
 \includeScore "allemande"
