@@ -146,6 +146,8 @@ forceStemLength =
   \revert Voice.Stem #'details
   #})
 
+shiftOnce = { \once \override NoteColumn #'horizontal-shift = #1 }
+
 %%%
 %%% Misc utilities
 %%%

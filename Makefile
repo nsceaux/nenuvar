@@ -14,10 +14,10 @@ endef
 
 define DELIVERY_RULE_template
 $(1)-delivery:
-	if [ -e $(OUTPUT_DIR)/$(notdir $(1)).pdf ]; then mv -f $(OUTPUT_DIR)/$(notdir $(1)).pdf $(DELIVERY_DIR)/ fi
-	if [ -e $(OUTPUT_DIR)/$(notdir $(1))-letter.pdf ]; then mv -f $(OUTPUT_DIR)/$(notdir $(1))-letter.pdf $(DELIVERY_DIR)/ fi
-	if [ -e $(OUTPUT_DIR)/$(notdir $(1))-relied.pdf ]; then mv -f $(OUTPUT_DIR)/$(notdir $(1))-relied.pdf $(DELIVERY_DIR)/ fi
-	git archive --prefix=$(notdir $(1))/ HEAD $(1) common | gzip > $(DELIVERY_DIR)/$(notdir $(1)).tar.gz
+	if [ -e $(OUTPUT_DIR)/$(notdir $(1)).pdf ]; then mv -f $(OUTPUT_DIR)/$(notdir $(1)).pdf $(DELIVERY_DIR)/; fi
+	if [ -e $(OUTPUT_DIR)/$(notdir $(1))-letter.pdf ]; then mv -f $(OUTPUT_DIR)/$(notdir $(1))-letter.pdf $(DELIVERY_DIR)/; fi
+	if [ -e $(OUTPUT_DIR)/$(notdir $(1))-relied.pdf ]; then mv -f $(OUTPUT_DIR)/$(notdir $(1))-relied.pdf $(DELIVERY_DIR)/; fi
+	git archive --prefix=$(notdir $(1))/ HEAD $(1) common Makefile | gzip > $(DELIVERY_DIR)/$(notdir $(1)).tar.gz
 	tar zcf $(DELIVERY_DIR)/$(notdir $(1))-midi.tar.gz $(OUTPUT_DIR)/$(notdir $(1)).midi $(OUTPUT_DIR)/$(notdir $(1))-?.midi $(OUTPUT_DIR)/$(notdir $(1))-??.midi $(OUTPUT_DIR)/$(notdir $(1))-???.midi
 endef
 
@@ -35,6 +35,7 @@ endef
 
 $(eval $(call ALL_SCORE_RULES_template,Rameau/Opera/HippolyteEtAricie))
 $(eval $(call ALL_SCORE_RULES_template,Couperin/Orgue/MesseCouvents))
+$(eval $(call ALL_SCORE_RULES_template,Couperin/Clavecin/lArtDeToucherLeClavecin))
 
 help:
 	@echo "usage: make <score-rule>"
