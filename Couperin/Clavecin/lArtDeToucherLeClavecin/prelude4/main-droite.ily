@@ -28,7 +28,7 @@
     \appoggiatura mi'8 fa'2 ( fa' ) 
   }
   \new Voice {
-    r r4  \oneVoice r8 fa' -4
+    r2 r4  \oneVoice r8 fa'-4
     \appoggiatura fa' mi'4 -3 fa'8 -4 re' -2 
     \appoggiatura re'  \voiceTwo mib' _\markup \finger "2-1" re' do'4  ~
     do'4. do'8  \appoggiatura do' sib2  ~

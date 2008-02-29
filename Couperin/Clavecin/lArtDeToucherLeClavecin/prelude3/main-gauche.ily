@@ -21,7 +21,7 @@
     sol,2. ^\mordent sol, ^\mordent 
   }
   \new Voice {
-    \voiceTwo sol,  \voiceOne sol,,  ~
+    \voiceTwo sol,2. \voiceOne sol,,  ~
     sol,,2 s1  \voiceTwo
     s1. 
     do'2 fa'4 sib mib2 

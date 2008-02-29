@@ -175,6 +175,11 @@
    (markup #:fill-line (#:override '(line-width . 80)
                         #:fontsize 2 arg))))
 
+#(define-markup-command (small-title layout props arg) (markup?)
+  (interpret-markup layout props
+   (markup #:fill-line (#:override '(line-width . 80)
+                        #:fontsize 0 #:italic arg))))
+
 %%%
 %%% Table of contents
 %%%
@@ -256,6 +261,18 @@ pieceTitle =
                   #:hspace 1
                   #:huge (string-upper-case title))
           (markup #:title (string-upper-case title))))
+    (add-no-page-break parser)
+    (make-music 'Music 'void #t)))
+
+pieceSTitle =
+#(define-music-function (parser location title) (markup?)
+  (let ((rehearsal (rehearsal-number)))
+    (add-toplevel-markup parser 
+      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+          (markup #:rehearsal-number rehearsal
+                  #:hspace 1
+                  #:huge title)
+          (markup #:small-title title)))
     (add-no-page-break parser)
     (make-music 'Music 'void #t)))
 

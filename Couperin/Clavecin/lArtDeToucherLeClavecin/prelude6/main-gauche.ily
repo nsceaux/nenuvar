@@ -1,6 +1,6 @@
 \clef "alto/G_8"
 \oneVoice 
-si-\markup \finger "1-5"-\mordent si'8  (|
+si4-\markup \finger "1-5"-\mordent si'8  (|
 lad'4  )-\prall la'8  (-\mordent |
 sold'4  )-\prall sol'8 -\mordent |
 fad'16 sol' fad' mi' re'8  |

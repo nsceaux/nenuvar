@@ -112,6 +112,24 @@
    (* 0.25 (chain-assoc-get 'baseline-skip props))
    Y))
 
+#(define-markup-list-command (paragraph paper props text) (markup-list?)
+  (let ((indentation (markup #:pad-to-box (cons 0 3) (cons 0 0) #:null)))
+   (interpret-markup-list paper props
+    (make-override-lines-markup-list '(baseline-skip . 0)
+     (make-justified-lines-markup-list (cons indentation text))))))
+
+#(define-markup-list-command (columns paper props text) (markup-list?)
+  (interpret-markup-list paper props
+   (make-override-lines-markup-list '(baseline-skip . 1)
+    (make-column-lines-markup-list text))))
+
+#(define-markup-command (boxed-justify layout props text) (markup-list?)
+  (interpret-markup layout props
+   (make-override-markup '(box-padding . 1)
+    (make-box-markup
+     (make-column-markup
+      (make-justified-lines-markup-list text))))))
+
 %%% Guile does not deal with accented letters
 #(use-modules (ice-9 regex))
 %%;; actually defined below, in a closure

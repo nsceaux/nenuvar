@@ -1,7 +1,7 @@
 <<
   \clef "bass"
   \new Voice {
-    r2  \voiceOne
+    r2 \voiceOne
     re1 ^\mordent
     do'4 \rest do'8 \rest do'16 \rest sol64 *4/3 la sib  < la sol >2 ~
     la4 do' \rest do' \rest la 
@@ -17,12 +17,12 @@
     la2  ~ la8. re16 _3 mi8. ^\mordent_2 fa16 _1 \voiceOne
     r4 sol ^\mordent ~ sol8 si \rest si4 \rest
     si8 \rest fa ^\mordent ~ fa4  ~ fa2 
-    sol ^\markup { \finger "2-1"} la8. ^\markup { \finger "2-1"} sol16 *1/2 fa mi32 *2/1 re do sib, 
+    sol ^\markup { \finger "2-1"} la8. ^\markup { \finger "2-1"} sol16 *1/2 fa mi32*2/1 re do sib, 
     la,2 ^\markup { \finger "4-1"} ~ < la, la,, >
     r re _\mordent
   }
   \new Voice {
-    s  \voiceTwo
+    s2 \voiceTwo
     r re, 
     mi _\markup { \finger "3-5"} ~ mi 
     fa  \appoggiatura { sol8  } fad2 

@@ -1,7 +1,7 @@
 <<
   \clef "bass"
   \new Voice {
-    \voiceOne mi-\mordent mi8 fad4 fad8 |
+    \voiceOne mi4-\mordent mi8 fad4 fad8 |
     sol4-\mordent sol8 s si4 |
     %% 3
     \oneVoice \stemUp mi16 \clef "alto/G_8" mi' re' mi' si re' \stemNeutral dod'-\prall fad' mi' fad' dod' mi' |

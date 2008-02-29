@@ -2,7 +2,7 @@
   \clef "alto/G_8"
   \new Voice {
     \oneVoice
-    r r16 la sib do' \appoggiatura do'8 re'-\mordent mib'16 re' \appoggiatura re'8 mib'8.-\mordent fa'16 |
+    r4 r16 la sib do' \appoggiatura do'8 re'-\mordent mib'16 re' \appoggiatura re'8 mib'8.-\mordent fa'16 |
     \appoggiatura re'8 do'8.-\prall do'16 fa'16. [ mib'32 re' do' sib la ] \appoggiatura la8 sib8. [-\mordent \compressMusic #'(2 . 3) { sib32 do' re' ] } \appoggiatura re'8 do'8.-\prall re'16 |
     %% 3
     la8-\prall \appoggiatura sol fa r16 r32 sol [ la sib do' re' ] \appoggiatura re'8 mib'8. [-\mordent \compressMusic #'(2 . 3) { mib'32 fa' sol' ] } \appoggiatura sol'8 fa'8.-\prall sol'16 |

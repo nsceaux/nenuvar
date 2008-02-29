@@ -8,15 +8,15 @@
 
 %%% Paper size options:
 %%% letter: Letter book option
-%%% relied-book: Relied 210x273 book option
+%%% hardcover: Hardcover 210x273 book option
 %%% otherwise: A4
 
 #(set! paper-alist
-   (cons '("relied-book" . (cons (* 209.55 mm) (* 273.1 mm)))
+   (cons '("hardcover" . (cons (* 209.55 mm) (* 273.1 mm)))
          paper-alist))
 
 #(cond ((ly:get-option 'letter) (*paper-size* 'letter))
-       ((ly:get-option 'relied-book) (*paper-size* 'relied-book))
+       ((ly:get-option 'hardcover) (*paper-size* 'hardcover))
        (else (*paper-size* 'a4)))
 
 #(set-default-paper-size (symbol->string (*paper-size*)))

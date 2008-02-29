@@ -25,7 +25,7 @@
   }
   \new Voice {
     \voiceTwo
-    s s4 mi'8 do' _2 ~
+    s2 s4 mi'8 do' _2 ~
     do'4. do'8 _3 ~ do' do' si4 _2 ~
     si4. si8 _3 ~ si si la4  ~
     la4. sol8  ~ sol4. sol8  ~
