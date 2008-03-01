@@ -44,6 +44,8 @@
   between-title-space = 2 \mm
   between-system-padding = 4 \mm
 
+  scoreTitleMarkup = #f
+
   oddFooterMarkup = \markup \column {
     \fill-line {
       %% put copyright only on pagenr. 1 

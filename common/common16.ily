@@ -33,6 +33,5 @@
       }
     }
   }
-  scoreTitleMarkup = \markup \null
 }
 
