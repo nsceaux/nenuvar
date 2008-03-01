@@ -101,6 +101,7 @@ staffStart = {
                         (vpetite-haute-contre mezzosoprano . treble)
                         (vhaute-contre alto . G_8)
                         (vtaille tenor . G_8)
+                        (vbasse-taille varbaritone . bass)
                         (vbasse bass . bass)))
 
 clef =

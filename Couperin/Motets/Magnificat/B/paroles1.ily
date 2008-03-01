@@ -1,0 +1,12 @@
+Qui -- a fe -- cit mi -- hi ma -- gna,
+qui po -- tens est, qui po -- tens est,
+et sanc -- tum no -- men e -- jus no -- men e -- jus,
+et sanc -- tum no -- men e -- jus no -- men e __ jus,
+qui -- a fe -- cit mi -- hi ma -- gna,
+qui -- a fe -- cit mi -- hi ma -- gna,
+qui po -- tens est,
+et sanc -- tum no -- men e -- jus,
+et sanc -- tum no -- men e -- jus no -- men e -- jus,
+qui -- a fe -- cit mi -- hi ma -- gna,
+qui po -- tens est,
+et sanc -- tum et sanc -- tum no -- men e -- jus.

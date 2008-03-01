@@ -92,7 +92,7 @@ motet =
 \includeScore "B"
 \includeScore "C"
 \includeScore "D"
-%{
+
 %%%
 \motet "SalvumMeFacDeus"
 "Salvum me fac Deus" "Basse, basse continue et symphonie"
@@ -136,7 +136,9 @@ motet =
 "Ad te levavi oculos meos" "Basse, basse continue et deux dessus"
 \includeScore "A"
 \includeScore "B"
+\includeScore "C"
 
+%{
 %%%
 \motet "ElevationOMisteriumIneffabile"
 "O misterium ineffabile" "Dessus, basse, basse continue"
