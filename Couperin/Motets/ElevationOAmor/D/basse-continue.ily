@@ -1,4 +1,4 @@
-\faQuatre la,4 si, dod la, |
+\clef "basse" la,4 si, dod la, |
 mi fad re mi |
 la,2 la |
 sold fad |

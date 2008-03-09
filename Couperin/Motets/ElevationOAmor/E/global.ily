@@ -1,3 +1,3 @@
 \oldKey re \major
 \newKey la \major
-\time 2/2 s1*27 \bar "|."
+\time 3/2 s1.*54 \bar "|."

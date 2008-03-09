@@ -159,3 +159,4 @@ motet =
 \includeScore "B"
 \includeScore "C"
 \includeScore "D"
+\includeScore "E"

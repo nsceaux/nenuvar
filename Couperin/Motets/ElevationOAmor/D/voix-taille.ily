@@ -1,4 +1,4 @@
-\utQuatre r2 mi4 la |
+\clef "vtaille" r2 mi4 la |
 sold la si ( dod'8 ) re' |
 dod'4 -\mordent la dod' re' |
 si -\mordent dod' re'8 [ dod' ] si [ la ]|
