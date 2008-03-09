@@ -144,7 +144,6 @@ motet =
 \includeScore "B"
 \includeScore "C"
 
-%{
 %%%
 \motet "ElevationOMisteriumIneffabile"
 "O misterium ineffabile" "Dessus, basse, basse continue"
@@ -160,5 +159,3 @@ motet =
 \includeScore "B"
 \includeScore "C"
 \includeScore "D"
-%%\includeScore "E"
-%}

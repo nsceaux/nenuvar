@@ -1,4 +1,4 @@
-\clef "haute-contre" r2 la4. do'8 |
+\clef "vhaute-contre" r2 la4. do'8 |
 si2 mi'4. si8 |
 do'2 r8 do' re' mi' |
 fa'4. mi'8 re'4 sol' |
