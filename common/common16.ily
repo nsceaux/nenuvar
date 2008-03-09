@@ -1,4 +1,3 @@
-\include "italiano.ly"
 \include "common/includes.ily"
 \include "common/clef-key.ily"
 \include "common/titling.ily"

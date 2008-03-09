@@ -25,6 +25,8 @@
     }
   }
 }
+
+\include "italiano.ly"
 \include "common/common16.ily"
 
 \opusTitle "Motets et élévations"
@@ -44,6 +46,10 @@
 \pageBreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\layout {
+  \context { \Score \override VerticalAlignment #'max-stretch = ##f }
+}
+
 #(define-markup-command (title-motet layout props title subtitle)
                         (string? string?)
   (interpret-markup layout props
@@ -58,8 +64,8 @@ motet =
   (*current-opus* name)
   (add-page-break parser)
   (add-toc-item parser 'tocPieceMarkup title)
-  (add-odd-page-header-text parser (string-upper-case (*current-opus-title*)) #f)
-  (add-even-page-header-text parser (string-upper-case title) #f)
+  (add-even-page-header-text parser (string-upper-case (*current-opus-title*)) #f)
+  (add-odd-page-header-text parser (string-upper-case title) #f)
   (add-toplevel-markup parser (markup #:title-motet title subtitle))
   (add-no-page-break parser)
   (make-music 'Music 'void #t))

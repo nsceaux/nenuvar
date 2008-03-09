@@ -18,6 +18,7 @@
   }
 }
 
+\include "italiano.ly"
 \include "common/common14.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -33,6 +34,10 @@
 \markuplines \table-of-contents
 \pageBreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\layout {
+  \context { \Score \override VerticalAlignment #'max-stretch = ##f }
+}
 
 #(define-markup-command (title-messe layout props title)
                         (string?)

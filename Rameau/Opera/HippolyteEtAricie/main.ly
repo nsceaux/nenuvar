@@ -15,6 +15,8 @@
     \tiny \typewriter "http://www.bibliotheques.versailles.fr"
   }
 }
+
+\include "italiano.ly"
 \include "common/common14.ily"
 
 \setOpus "Rameau/Opera/HippolyteEtAricie"

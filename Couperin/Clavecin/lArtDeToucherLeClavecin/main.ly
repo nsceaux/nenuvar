@@ -17,6 +17,7 @@
   }
 }
 
+\include "italiano.ly"
 \include "common/common16.ily"
 \setOpus "Couperin/Clavecin/lArtDeToucherLeClavecin"
 \opusTitle "L'Art de toucher le clavecin"
@@ -81,7 +82,7 @@ chapterB =
 
 %%% notes
 \markup \null
-%%\pageBreak
+\pageBreak
 
 %%% Table of contents
 \markuplines \table-of-contents
