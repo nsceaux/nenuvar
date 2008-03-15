@@ -8,6 +8,9 @@
 %%%   ancient-style
 %%%     When true, use ancient clefs, instead of modern ones.
 %%%
+%%%   non-incipit
+%%%     When true, do not print incipit in modern style.
+%%%
 %%% Music functions
 %%% ===============
 %%%   \clef "ancient/modern"
@@ -41,7 +44,12 @@
 #(set-object-property! 'key  'backend-type? ly:music?)
 #(set-object-property! 'key  'backend-doc "Incipit key music")
 
-staffStart = {
+staffStart =
+#(define-music-function (parser location) ()
+   (if (or (eqv? #t (ly:get-option 'non-incipit))
+           (eqv? #t (ly:get-option 'ancient-style)))
+       (make-music 'Music)
+       #{
   \set Staff.vocalName = ""
   \once \override Staff.InstrumentName #'self-alignment-X = #RIGHT
   \once \override Staff.InstrumentName #'self-alignment-Y = #UP
@@ -88,7 +96,7 @@ staffStart = {
            (set! (ly:grob-property grob 'text)
                  (markup #:null #:raise -4.5 #:concat (short-text #:hspace 0.5)))))
      (ly:system-start-text::print grob))
-}
+  #}))
 
 #(define french-clefs '((dessus french . treble)
                         (dessus2 soprano . treble)
@@ -114,23 +122,27 @@ clef =
           (modern-clef (cond (match (match:substring match 2))
                              (clefs (symbol->string (cddr clefs)))
                              (else clef-name))))
-     (if (eqv? #t (ly:get-option 'ancient-style))
-         ;; ancient clef only
-         (make-clef-set ancient-clef)
-         ;; modern clef + ancient clef in incipit
-         (make-music
-          'SequentialMusic
-          'elements (list (make-music
-                           'ContextSpeccedMusic
-                           'context-type 'Staff
-                           'element (make-music
-                                     'OverrideProperty
-                                     'pop-first #t
-                                     'grob-property-path '(clef)
-                                     'grob-value (make-clef-set ancient-clef)
-                                     'once #t
-                                     'symbol 'InstrumentName))
-                          (make-clef-set modern-clef))))))
+     (cond ((eqv? #t (ly:get-option 'ancient-style))
+            ;; ancient clef only
+            (make-clef-set ancient-clef))
+           ((eqv? #t (ly:get-option 'non-incipit))
+            ;; modern clef only
+            (make-clef-set modern-clef))
+           (else
+            ;; modern clef + ancient clef in incipit
+            (make-music
+             'SequentialMusic
+             'elements (list (make-music
+                              'ContextSpeccedMusic
+                              'context-type 'Staff
+                              'element (make-music
+                                        'OverrideProperty
+                                        'pop-first #t
+                                        'grob-property-path '(clef)
+                                        'grob-value (make-clef-set ancient-clef)
+                                        'once #t
+                                        'symbol 'InstrumentName))
+                             (make-clef-set modern-clef)))))))
 
 #(define (make-key-set note key-alist)
    (let ((pitch (ly:music-property (car (ly:music-property

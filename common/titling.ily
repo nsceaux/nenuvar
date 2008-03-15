@@ -308,17 +308,27 @@ pieceNoTitle =
 
 opusTitle =
 #(define-music-function (parser location title) (string?)
-   (*current-opus-title* title)
+   (*current-opus-title* (if (*current-part*)
+                             (string-append title ", " (*current-part-name*))
+                             title))
    (make-music 'Music 'void #t))
 
 ouverture =
 #(define-music-function (parser location title) (string?)
-  (add-page-break parser)
-  (add-toc-item parser 'tocPieceMarkup title)
-  (add-even-page-header-text parser (string-upper-case (*current-opus-title*)) #f)
-  (add-odd-page-header-text parser (string-upper-case title) #f)
-  (add-toplevel-markup parser (markup #:act (string-upper-case title)))
-  (add-no-page-break parser)
+  (let ((rehearsal (rehearsal-number)))
+    (add-page-break parser)
+    (add-toc-item parser 'tocPieceMarkup
+      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+          (markup #:rehearsal-number-toc rehearsal title)
+          title))
+    (add-even-page-header-text parser (string-upper-case (*current-opus-title*)) #f)
+    (add-odd-page-header-text parser (string-upper-case title) #f)
+    (add-toplevel-markup parser (markup #:act (string-upper-case title)))
+    (add-no-page-break parser)
+    (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+        (begin
+         (add-toplevel-markup parser (markup #:rehearsal-number rehearsal))
+         (add-no-page-break parser))))
   (make-music 'Music 'void #t))
 
 act =

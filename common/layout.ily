@@ -90,15 +90,16 @@
 \layout {
   #(define (compute-indent amount)
     (let ((indent (* amount mm)))
-      (if (eqv? #t (ly:get-option 'ancient-style))
-          indent
+      (if (or (eqv? #t (ly:get-option 'ancient-style))
+              (eqv? #t (ly:get-option 'non-incipit)))
+          (begin ;(format #t "~% indent: ~a" indent)
+           indent)
           (+ indent (* incipit-width mm)))))
 
   smallindent = #(compute-indent 10)
   noindent = #(compute-indent 0)
   largeindent = #(compute-indent 25)
   indent = \smallindent
-  small-indent = 5\mm
 
   \context {
     \Score

@@ -13,6 +13,18 @@
 %%% Title page
 %%%
 \paper {
+  tocPieceMarkup = \markup \fill-line {
+    \line-width-ratio #0.8 \fill-line {
+      \line { \fromproperty #'toc:text }
+      \fromproperty #'toc:page
+    }
+  }
+  tocBoldPieceMarkup = \markup \fill-line {
+    \line-width-ratio #0.8 \fill-line {
+      \line { \bold \fromproperty #'toc:text }
+      \bold \fromproperty #'toc:page
+    }
+  }
   bookTitleMarkup = \markup \when-property #'header:title \column {
     \vspace #6
     \fill-line { \fontsize #8 \italic \fromproperty #'header:composer }
@@ -25,9 +37,15 @@
     \vspace #6
     \fill-line { \fontsize #4 \fromproperty #'header:date }
     \vspace #1 
+    \on-the-fly #(lambda (layout props arg)
+                   (if (*current-part*)
+                       (interpret-markup layout props
+                         (markup #:fill-line (#:column (#:vspace 3
+                                                        #:fill-line (#:fontsize 4 (*current-part-name*))))))
+                       empty-stencil))
     \fill-line {
       \when-property #'header:arrangement \column {
-        \vspace #4
+        \vspace #3
         \fill-line { \fontsize #2 \fromproperty #'header:arrangement }
       }
     }

@@ -118,6 +118,45 @@
               (include-pathname "score")))))
 
 %%%
+%%% Separate parts
+%%%
+#(define *part-specs* (make-parameter (list)))
+#(define *current-part-spec* (make-parameter #f))
+#(define *current-part* (make-parameter #f))
+#(define *current-part-name* (make-parameter ""))
+#(define *current-note-filename* (make-parameter #f))
+#(define *default-note-filename* (make-parameter #f))
+#(define *default-score-filename* (make-parameter #f))
+
+#(define-public (include-part-score parser name note-filename score-filename from-templates)
+   (collect-music-for-book
+    parser
+    (make-music 'Music
+                'page-marker #t
+                'page-label (string->symbol name)))
+   (parameterize ((*current-piece* name)
+                  (*current-note-filename* note-filename))
+     (ly:parser-parse-string
+      (ly:parser-clone parser)
+      (format #f "\\include \"~a\""
+              (if from-templates
+                  (string-append "templates/" score-filename ".ily")
+                  (include-pathname score-filename))))))
+
+setPart =
+#(define-music-function (parser location name) (string?)
+   (let* ((key (string->symbol name))
+          (spec (assoc key (*part-specs*))))
+     (if spec
+         (begin
+           (*current-part* key)
+           (*current-part-name* (cadr spec))
+           (*default-score-filename* (caddr spec))
+           (*default-note-filename* (cadddr spec))
+           (*current-part-spec* (car (cddddr spec))))))
+   (make-music 'Music 'void #t))
+
+%%%
 %%% Music functions
 %%%
 
@@ -183,6 +222,24 @@ setOpus =
    (make-music 'Music 'void #t))
 
 includeScore =
-#(define-music-function (parser location name) (string?)
-   (include-score parser name)
+#(define-music-function (parser location piece) (string?)
+   (if (*current-part*)
+       (let ((piece-spec (assoc (string->symbol piece)
+                                (*current-part-spec*))))
+         ;; a piece description is list which elements are
+         ;;  - the piece name
+         ;;  - use-template [bool]: if true, use score from template
+         ;;  - score-filename: the score filename to use (may be #f)
+         ;;  - note-filename: the notes filename to use (may be #f)
+         ;; When a filename is #f, the default filename is used.
+         (if piece-spec
+             (let ((from-templates (cadr piece-spec))
+                   (score-filename (or (caddr piece-spec) (*default-score-filename*)))
+                   (note-filename (or (caddr piece-spec) (*default-note-filename*))))
+               (include-part-score parser piece note-filename score-filename from-templates))
+             ;; piece data not found
+             (format #t "~%*** Error: no `~a' piece found for `~a' part in part specs."
+                     piece (*current-part*))))
+       ;; conductor score
+       (include-score parser piece))
    (make-music 'Music 'void #t))

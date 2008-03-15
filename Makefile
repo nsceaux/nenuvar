@@ -60,10 +60,18 @@ $(1)-all: $(1) $(1)-letter $(1)-hardcover $(1)-delivery
 .PHONY: $(1)-all
 endef
 
+define MAKE_PART_RULE
+$(1)-$(2):
+	lilypond -dpart=$(2) -o $(OUTPUT_DIR)/$(notdir $(1))-$(2) $(1)/part.ly
+.PHONY: $(1)-$(2)
+endef
+
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Motets))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin))
+
+$(eval $(call MAKE_PART_RULE,Rameau/Opera/HippolyteEtAricie,dessus1))
 
 help:
 	@echo "usage: make <score-rule>"
