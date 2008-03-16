@@ -21,12 +21,12 @@
 
 \include "italiano.ly"
 \include "common/common18.ily"
-
-\setOpus "Rameau/Opera/HippolyteEtAricie"
-\opusTitle "Hippolyte et Aricie"
+%%\paper { #(define page-breaking ly:page-turn-breaking) }
 \include "Rameau/Opera/HippolyteEtAricie/personnages.ily"
 \include "Rameau/Opera/HippolyteEtAricie/part-specs.ily"
 \setPart #(symbol->string (ly:get-option 'part))
+\setOpus "Rameau/Opera/HippolyteEtAricie"
+\opusTitle "Hippolyte et Aricie"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Title page
 \markup \null

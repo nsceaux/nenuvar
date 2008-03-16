@@ -1,6 +1,6 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \instrumentName \markup { Violons II }
+    \new Staff << \instrumentName \markup { Violons I }
                  \global \includeNotes "violon1" >>
     \new Staff << \instrumentName \markup { Violons II }
                  \global \includeNotes "violon2" >>

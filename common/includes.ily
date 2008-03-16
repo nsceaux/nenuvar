@@ -247,9 +247,9 @@ includeScore =
              ;;    the instrument name to print at the beginning of the part score
              ;;  #:score
              ;;    the score filename to use for the part score
-             ;;  #:score-ragged
+             ;;  #:ragged
              ;;    use a ragged-last score
-             ;;  #:score-indent
+             ;;  #:indent
              ;;    first system indentation
              (let parse-props ((props (cdr piece-spec)))
                (if (not (or (null? props) (null? (cdr props))))
@@ -261,7 +261,7 @@ includeScore =
                        ((#:score)
                         (set! score-filename (cadr props))
                         (set! from-templates #f))
-                       ((#:instrument-name) (set! instrument-name (cadr props))))
+                       ((#:instrument) (set! instrument-name (cadr props))))
                      (parse-props (cddr props)))))
              ;; if piece-spec is undefined, use the "silence.ily" note file.
              (begin
