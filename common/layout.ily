@@ -107,6 +107,7 @@
     \override InstrumentName #'space-alist = #'((left-edge extra-space . 2.0))
     \override VerticalAlignment #'max-stretch = #ly:align-interface::calc-max-stretch
     \accepts "StaffGroupNoBar"
+    skipBars = ##t
   }
   \context {
     \StaffGroup

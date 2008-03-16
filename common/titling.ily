@@ -232,7 +232,10 @@ pieceToc =
           title))
     (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
         (begin
-         (add-toplevel-markup parser (markup #:rehearsal-number rehearsal))
+         (add-toplevel-markup parser
+          (markup #:rehearsal-number rehearsal
+                  #:hspace 1
+                  #:huge title))
          (add-no-page-break parser)))
     (make-music 'Music 'void #t)))
 

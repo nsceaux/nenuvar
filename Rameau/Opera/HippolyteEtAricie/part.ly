@@ -123,7 +123,7 @@
 \includeScore "AFBentracte"
 \actEnd \markup { FIN DU PREMIER ACTE }
 
-
+%{
 %%% Acte Second
 \act "Acte Second"
 \scene "Scène Première"
@@ -443,3 +443,4 @@
 \pieceTocTitle "Chaconne"
 \includeScore "EFJchaconne"
 \actEnd \markup { FIN DE LA TRAGÉDIE }
+%}

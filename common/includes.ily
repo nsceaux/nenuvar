@@ -125,17 +125,21 @@
 #(define *current-part* (make-parameter #f))
 #(define *current-part-name* (make-parameter ""))
 #(define *current-note-filename* (make-parameter #f))
+#(define *current-instrument-name* (make-parameter #f))
+#(define *current-score-ragged* (make-parameter #f))
+#(define *current-score-indent* (make-parameter #f))
 #(define *default-note-filename* (make-parameter #f))
-#(define *default-score-filename* (make-parameter #f))
 
-#(define-public (include-part-score parser name note-filename score-filename from-templates)
+#(define-public (include-part-score parser
+                                    name
+                                    score-filename
+                                    from-templates)
    (collect-music-for-book
     parser
     (make-music 'Music
                 'page-marker #t
                 'page-label (string->symbol name)))
-   (parameterize ((*current-piece* name)
-                  (*current-note-filename* note-filename))
+   (parameterize ((*current-piece* name))
      (ly:parser-parse-string
       (ly:parser-clone parser)
       (format #f "\\include \"~a\""
@@ -151,9 +155,8 @@ setPart =
          (begin
            (*current-part* key)
            (*current-part-name* (cadr spec))
-           (*default-score-filename* (caddr spec))
-           (*default-note-filename* (cadddr spec))
-           (*current-part-spec* (car (cddddr spec))))))
+           (*default-note-filename* (caddr spec))
+           (*current-part-spec* (car (cdddr spec))))))
    (make-music 'Music 'void #t))
 
 %%%
@@ -224,22 +227,54 @@ setOpus =
 includeScore =
 #(define-music-function (parser location piece) (string?)
    (if (*current-part*)
+       ;; a part score
        (let ((piece-spec (assoc (string->symbol piece)
-                                (*current-part-spec*))))
-         ;; a piece description is list which elements are
-         ;;  - the piece name
-         ;;  - use-template [bool]: if true, use score from template
-         ;;  - score-filename: the score filename to use (may be #f)
-         ;;  - note-filename: the notes filename to use (may be #f)
-         ;; When a filename is #f, the default filename is used.
+                                (*current-part-spec*)))
+             (score-filename "score")
+             (note-filename (*default-note-filename*))
+             (from-templates #t)
+             (score-ragged #f)
+             (score-indent #f)
+             (instrument-name #f))
          (if piece-spec
-             (let ((from-templates (cadr piece-spec))
-                   (score-filename (or (caddr piece-spec) (*default-score-filename*)))
-                   (note-filename (or (caddr piece-spec) (*default-note-filename*))))
-               (include-part-score parser piece note-filename score-filename from-templates))
-             ;; piece data not found
-             (format #t "~%*** Error: no `~a' piece found for `~a' part in part specs."
-                     piece (*current-part*))))
+             ;; a piece description is list which elements are
+             ;;  - the piece name
+             ;;  - alternate keywords and values.
+             ;;  The keyword may be:
+             ;;  #:notes
+             ;;    the note filename to be included in the part score
+             ;;  #:instrument
+             ;;    the instrument name to print at the beginning of the part score
+             ;;  #:score
+             ;;    the score filename to use for the part score
+             ;;  #:score-ragged
+             ;;    use a ragged-last score
+             ;;  #:score-indent
+             ;;    first system indentation
+             (let parse-props ((props (cdr piece-spec)))
+               (if (not (or (null? props) (null? (cdr props))))
+                   (begin
+                     (case (car props)
+                       ((#:notes) (set! note-filename (cadr props)))
+                       ((#:ragged) (set! score-ragged (cadr props)))
+                       ((#:indent) (set! score-indent (cadr props)))
+                       ((#:score)
+                        (set! score-filename (cadr props))
+                        (set! from-templates #f))
+                       ((#:instrument-name) (set! instrument-name (cadr props))))
+                     (parse-props (cddr props)))))
+             ;; if piece-spec is undefined, use the "silence.ily" note file.
+             (begin
+               (set! score-ragged #t)
+               (set! note-filename "silence")))
+         (parameterize ((*current-score-ragged* score-ragged)
+                        (*current-note-filename* note-filename)
+                        (*current-instrument-name* instrument-name)
+                        (*current-score-indent* score-indent))
+           (include-part-score parser
+                               piece
+                               score-filename
+                               from-templates)))
        ;; conductor score
        (include-score parser piece))
    (make-music 'Music 'void #t))
