@@ -49,3 +49,10 @@ newHaraKiriStaffB =
                            (remove "Instrument_name_engraver"))
     'context-type 'Staff
     'element music))
+
+newSmallStaff = 
+#(define-music-function (parser location music) (ly:music?)
+   #{ \new Staff \with {
+        fontSize = #-2
+        \override StaffSymbol #'staff-space = #(magstep -2)
+      } << $music >> #})

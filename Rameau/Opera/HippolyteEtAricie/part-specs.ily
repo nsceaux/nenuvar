@@ -55,4 +55,28 @@
       (BEBplutonParques #:notes "violon1" #:instrument "Violons")
       ;; BFAtheseeMercure
       (BFBentracte #:instrument "Violons")
+
+      (CAAphedre #:score "score-dessus1")
+      ;; CBAphedre
+      (CCAphedreHippolyte #:notes "violon1" #:instrument "Violons")
+      ;; CDAtheseeHippolytePhedre
+      ;; CEAtheseeHippolyte
+      ;; CFAtheseeOenone
+      (CGAthesee #:notes "violon" #:instrument "Violons")
+      (CGBthesee #:instrument "Violons")
+      (CGCthesee #:notes "violon1" #:instrument "Violons")
+      (CGDthesee #:notes "violon" #:instrument "Violons")
+      (CGEannonce #:notes "violon-hautbois"
+                  #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+      ;; CGFthesee
+      (CGGmarche)
+      (CGHchoeur #:notes "dessus1"
+                  #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+      (CGIair)
+      (CGJair)
+      (CGKrigaudon)
+      (CGLrigaudon #:notes "hautbois" #:instrument "Hautbois")
+      (CGMmatelote #:notes "dessus1"
+                  #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+      (CGNentracte)
     ))))
