@@ -265,7 +265,7 @@ includeScore =
                      (parse-props (cddr props)))))
              ;; if piece-spec is undefined, use the "silence.ily" note file.
              (begin
-               (set! score-name "score-silence")
+               (set! score-filename "score-silence")
                (set! score-ragged #t)
                (set! note-filename "silence")))
          (parameterize ((*current-score-ragged* score-ragged)

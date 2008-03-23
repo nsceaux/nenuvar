@@ -2,48 +2,48 @@
 << 
   { \stemUp sol'4^"Hautbois seul" |
     sib' la' re'' do'' |
-    mib'' s s la'^"Hautbois" |
+    mib'' fa''2\rest la'4 |
     sib' la' sol' fad' |
-    sol' s s r |
-    R1 |
-    s
-    r4 sol'^"Hautbois" fa' mib' |
-    re' s s r |
-    r2 r4 re''^"Hautbois" |
-    mib'' s s r |
-    R1 |
-    r4 s s fad''^"Hautbois" |
+    sol' fa''\rest fa''2\rest |
+    \oneVoice R1 |
+    \voiceOne R1
+    \oneVoice r4 \voiceOne sol' fa' mib' |
+    re' fa''2\rest \oneVoice r4 |
+    r2 r4 \voiceOne re'' |
+    mib'' fa''4\rest fa''2\rest |
+    \oneVoice R1 \voiceOne |
+    fa''2\rest fa''4\rest fad'' |
     sol'' fad'' do'' sib' |
-    la' s s fad''^"Hautbois" |
+    la' la''2\rest fad''4 |
     sol'' fad'' do'' sib' |
-    la' s s r |
-    r4 fad'^"Hautbois" sol' re' |
-    r s s r |
-    r4 mib'^"Hautbois" re' fad' |
-    sol' s s
+    la' la''4\rest la''2\rest |
+    \oneVoice r4 \voiceOne fad' sol' re' |
+    R1 |
+    \oneVoice r4 \voiceOne mib' re' fad' |
+    sol' fa''2\rest
   }
   \new Voice { 
     \stemDown s4 |
     s1 |
-    s4 sol'_\markup \column { Violons doux } do' s |
+    si4\rest_\markup { Violons doux } sol' do' si4\rest |
     s1 |
-    s4 re'_"Violons" sol s |
+    si4\rest re' sol si4\rest |
     s1 |
-    s4 sib'_"Violons" fa' s |
+    si4\rest sib' fa' si4\rest |
     s1 |
-    s4 sib'_"Violons" sib s |
+    fa4\rest sib' sib s |
     s1 |
-    s4 sol'_"Violons" do' s |
+    si4\rest sol' do' si4\rest |
     s1 |
-    s4 la'_"Violons" re' s |
+    si4\rest la' re' si4\rest |
     s1 |
-    s4 re''_"Violons" re' s |
+    si4\rest re'' re' si4\rest |
     s1 |
-    s4 re''_"Violons" fad' s |
+    si4\rest re'' fad' si4\rest |
     s1 |
-    s4 sol'_"Violons" sol s |
+    si4\rest sol' sol si4\rest |
     s1 |
-    s4 sol'_"Violons" sol
+    si4\rest sol' sol
   }
 >>
     

@@ -4,7 +4,7 @@
      ;; long part name, default note-filename, piece specs
      "Premier dessus" "dessus"
      ((AAAouverture #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
-      (AABouverture #:indent 0)
+      (AABouverture #:indent 0 #:notes "dessus1")
       (AACaricie #:score "score-dessus1")
       ;;ABAhippolyteAricie
       (ABBaricie #:score "score-dessus1")
@@ -14,10 +14,12 @@
       (ACAmarche #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
       (ACBchoeur #:notes "dessus1"
                  #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
-      (ACCair #:score "score-dessus1")
+      (ACCair #:notes "dessus1"
+              #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
       (ACDpretresse #:notes "hautbois"
                     #:instrument "Hautbois seul")
-      (ACEair #:score "score-dessus")
+      (ACEair #:notes "dessus1"
+              #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
       (ACFgavotte)
       (ACGpretresseChoeur #:instrument "Violons")
       (ACHgavotte)
@@ -29,7 +31,8 @@
       (ADEtonnerre #:notes "violon1" #:instrument "Violons")
       ;; AEAdianeAricieHippolyte
       (AFAphedre #:notes "violon" #:instrument "Violons")
-      (AFBentracte #:score "score-dessus")
+      (AFBentracte #:notes "dessus1"
+                   #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
 
       (BAAritournelle #:notes "violon1" #:instrument "Violons")
       ;; BABthesee
@@ -50,7 +53,7 @@
       ;; BDBparques
       ;; BDCthesee
       (BDDthesee #:notes "violon" #:instrument "Violons")
-      (BDEchoeur #:notes "violon" #:instrument "Violons")
+      (BDEchoeur #:notes "violon1" #:instrument "Violons")
       (BEAmercurePluton #:score "score-dessus1")
       (BEBplutonParques #:notes "violon1" #:instrument "Violons")
       ;; BFAtheseeMercure
@@ -58,11 +61,11 @@
 
       (CAAphedre #:score "score-dessus1")
       ;; CBAphedre
-      (CCAphedreHippolyte #:notes "violon1" #:instrument "Violons")
+      (CCAphedreHippolyte #:score "score-violon1")
       ;; CDAtheseeHippolytePhedre
       ;; CEAtheseeHippolyte
       ;; CFAtheseeOenone
-      (CGAthesee #:notes "violon" #:instrument "Violons")
+      (CGAthesee #:notes "violon1" #:instrument "Violons")
       (CGBthesee #:instrument "Violons")
       (CGCthesee #:notes "violon1" #:instrument "Violons")
       (CGDthesee #:notes "violon" #:instrument "Violons")

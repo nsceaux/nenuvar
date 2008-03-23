@@ -155,20 +155,26 @@
 
 #(define-markup-command (act layout props arg) (markup?)
   (interpret-markup layout props
-    (markup #:column (#:vspace 3
-                      #:pad-markup 3 #:fill-line (#:fontsize 6 arg)))))
+    (if (*current-part*)
+        (markup #:pad-markup 2 #:fill-line (#:fontsize 6 arg))
+        (markup #:column (#:vspace 3
+                          #:pad-markup 3 #:fill-line (#:fontsize 6 arg))))))
 
 #(define-markup-command (scene layout props arg) (markup?)
   (interpret-markup layout props
-   (markup #:column (#:vspace 1
-                     #:fill-line (#:fontsize 4 arg)
-                     #:vspace 1))))
+    (if (*current-part*)
+        (markup #:pad-markup 1 #:fill-line (#:fontsize 4 arg))
+        (markup #:column (#:vspace 1
+                          #:fill-line (#:fontsize 4 arg)
+                          #:vspace 1)))))
 
 #(define-markup-command (scene-description layout props arg) (markup?)
   (interpret-markup layout props
-   (markup #:column (#:fill-line (#:override '(line-width . 80)
-                                  #:fontsize 2 arg))
-                     #:vspace 1)))
+    (if (*current-part*)
+        empty-markup
+        (markup #:column (#:fill-line (#:override '(line-width . 80)
+                                       #:fontsize 2 arg)
+                          #:vspace 1)))))
 
 #(define-markup-command (title layout props arg) (markup?)
   (interpret-markup layout props
