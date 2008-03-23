@@ -296,7 +296,6 @@
 \includeScore "CGNentracte"
 \actEnd \markup { FIN DU TROISIÈME ACTE }
 
-%{
 %%% Acte Quatrième
 \act "Acte Quatrième"
 \scene "Scène Première"
@@ -357,6 +356,7 @@
 \includeScore "DDBentracte"
 \actEnd \markup { FIN DU QUATRIÈME ACTE }
 
+%{
 %%% Acte Cinquième
 \act "Acte Cinquième"
 \scene "Scène Première"

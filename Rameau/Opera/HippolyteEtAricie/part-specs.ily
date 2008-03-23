@@ -82,4 +82,21 @@
       (CGMmatelote #:notes "dessus1"
                   #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
       (CGNentracte)
+
+      (DAAhippolyte #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
+      ;; DBAhippolyteAricie
+      ;; DBBhippolytearicie
+      (DBCannonce #:notes "hautbois" #:instrument "Hautbois")
+      ;; DBDhippolyte
+      (DCAchoeur #:score "score-dessus1")
+      (DCBentree)
+      (DCCrondeau #:score "score-dessus1")
+      (DCDchasseresse #:notes "hautbois" #:instrument "Un hautbois")
+      (DCEmenuet #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+      (DCFmenuet #:notes "hautbois" #:instrument "Hautbois")
+      (DCGrondeauChoeur #:score "score-dessus1")
+      (DCHchoeurHippolyteAricie #:score "score-dessus")
+      (DCIchoeurAricie #:notes "violon1" #:instrument "Violons")
+      (DDAphedreChoeur #:notes "violon1" #:instrument "Violons")
+      (DDBentracte)
     ))))
