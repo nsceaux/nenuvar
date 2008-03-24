@@ -1,6 +1,7 @@
 \score {
   \new StaffGroup <<
     \new Staff << \instrumentName \markup Dessus
+                  { s2.*8 \break }
                   \global \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup Haute-contres
                   \global \includeNotes "haute-contre" >>

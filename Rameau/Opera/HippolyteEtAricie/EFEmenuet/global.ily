@@ -1,3 +1,3 @@
 \keys mi \minor
-\time 3/4 s2.*8 \bar ":|:" \break
+\time 3/4 s2.*8 \bar ":|:"
 s2.*20 \bar ":|"

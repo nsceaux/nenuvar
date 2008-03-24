@@ -157,7 +157,7 @@ setPart =
            (*current-part* key)
            (*current-part-name* (cadr spec))
            (*default-note-filename* (caddr spec))
-           (*current-part-spec* (car (cdddr spec))))))
+           (*current-part-spec* (cdddr spec)))))
    (make-music 'Music 'void #t))
 
 %%%
@@ -230,7 +230,7 @@ includeScore =
    (if (*current-part*)
        ;; a part score
        (let ((piece-spec (assoc (string->symbol piece)
-                                (*current-part-spec*)))
+                                (cadr (*current-part-spec*))))
              (score-filename "score")
              (note-filename (*default-note-filename*))
              (from-templates #t)

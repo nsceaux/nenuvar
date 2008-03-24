@@ -1,6 +1,7 @@
 \score {
   \new StaffGroup <<
     \new Staff << \instrumentName \markup "Petites flûtes"
+                  { s2 s1*11 s2 \break }
                   \global \includeNotes "flute" >>
     \new Staff << \instrumentName \markup Hautbois
                   \global \includeNotes "hautbois" >>

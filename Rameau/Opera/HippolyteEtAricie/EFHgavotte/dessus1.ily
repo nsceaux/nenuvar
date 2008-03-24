@@ -10,7 +10,7 @@ do''2 mi''(^"Hautbois" |
 re'' ) fa'' (|
 mi'' ) do'''8^"Violons"_"doux" si'' la'' do''' |
 si''4 mi'' la''2 |
-sold''^"Tous"_"fort" la'8 si' do'' la' |
+sold'' la'8^"Tous"_"fort" si' do'' la' |
 si' do'' re'' r do'' re'' mi'' do'' |
 re'' mi'' fa'' r mi'' fad'' sol'' la'' |
 fad'' sold'' la'' re'' do''4 si' |

@@ -362,7 +362,6 @@
 \includeScore "DDBentracte"
 \actEnd \markup { FIN DU QUATRIÈME ACTE }
 
-%{
 %%% Acte Cinquième
 \act "Acte Cinquième"
 \scene "Scène Première"
@@ -449,4 +448,3 @@
 \pieceTocTitle "Chaconne"
 \includeScore "EFJchaconne"
 \actEnd \markup { FIN DE LA TRAGÉDIE }
-%}
