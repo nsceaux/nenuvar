@@ -86,13 +86,13 @@
       (DAAhippolyte #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
       ;; DBAhippolyteAricie
       ;; DBBhippolytearicie
-      (DBCannonce #:notes "hautbois" #:instrument "Hautbois")
+      (DBCannonce #:notes "hautbois" #:instrument "Hautbois" #:tag autres)
       ;; DBDhippolyte
       (DCAchoeur #:score "score-dessus1")
-      (DCBentree)
+      (DCBentree #:tag autres)
       (DCCrondeau #:score "score-dessus1")
       (DCDchasseresse #:notes "hautbois" #:instrument "Un hautbois")
-      (DCEmenuet #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+      (DCEmenuet #:tag autres #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
       (DCFmenuet #:notes "hautbois" #:instrument "Hautbois")
       (DCGrondeauChoeur #:score "score-dessus1")
       (DCHchoeurHippolyteAricie #:score "score-dessus")

@@ -1,6 +1,6 @@
 \score {
   \new Staff <<
-    \global
+    \keepWithTag #(or (*current-tag*) (list)) \global
     \includeNotes #(*current-note-filename*)
     #(ly:export (if (*current-instrument-name*)
                     (make-music 'ContextSpeccedMusic

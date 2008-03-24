@@ -128,6 +128,7 @@
 #(define *current-instrument-name* (make-parameter #f))
 #(define *current-score-ragged* (make-parameter #f))
 #(define *current-score-indent* (make-parameter #f))
+#(define *current-tag* (make-parameter #f))
 #(define *default-note-filename* (make-parameter #f))
 
 #(define-public (include-part-score parser
@@ -235,7 +236,8 @@ includeScore =
              (from-templates #t)
              (score-ragged #f)
              (score-indent #f)
-             (instrument-name #f))
+             (instrument-name #f)
+             (tag #f))
          (if piece-spec
              ;; a piece description is list which elements are
              ;;  - the piece name
@@ -251,6 +253,8 @@ includeScore =
              ;;    use a ragged-last score
              ;;  #:indent
              ;;    first system indentation
+             ;;  #:tag
+             ;;    tag name of the music to be kept
              (let parse-props ((props (cdr piece-spec)))
                (if (not (or (null? props) (null? (cdr props))))
                    (begin
@@ -258,6 +262,7 @@ includeScore =
                        ((#:notes) (set! note-filename (cadr props)))
                        ((#:ragged) (set! score-ragged (cadr props)))
                        ((#:indent) (set! score-indent (cadr props)))
+                       ((#:tag) (set! tag (cadr props)))
                        ((#:score)
                         (set! score-filename (cadr props))
                         (set! from-templates #f))
@@ -271,7 +276,8 @@ includeScore =
          (parameterize ((*current-score-ragged* score-ragged)
                         (*current-note-filename* note-filename)
                         (*current-instrument-name* instrument-name)
-                        (*current-score-indent* score-indent))
+                        (*current-score-indent* score-indent)
+                        (*current-tag* tag))
            (include-part-score parser
                                piece
                                score-filename

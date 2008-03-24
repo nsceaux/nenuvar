@@ -1,5 +1,5 @@
 \score {
-  \newSmallStaff <<
+  \newTinyStaff <<
     \global
     \includeNotes #(*current-note-filename*)
     #(ly:export (if (*current-instrument-name*)

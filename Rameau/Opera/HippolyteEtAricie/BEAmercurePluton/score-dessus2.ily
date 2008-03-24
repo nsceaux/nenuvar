@@ -1,10 +1,11 @@
 \score {
-  \new StaffGroup <<
-    \new Staff << \instrumentName \markup Flûtes
-                  %% { s2.*8 s1 \break }
-                  \global \includeNotes "flute2" >>
-    \newHaraKiriStaff << \instrumentName \markup Violons
-                         \global \includeNotes "violon2" >>
+  \new Staff <<
+    \instrumentName \markup \center-align { Flûtes Violons }
+    { s2.*8 s1 
+      R1*9 r2 r4 R2.*24 R1*3 R1*2 R2. R1 R2. R1 }
+    \global
+    << { s4*0^"Flûtes" \includeNotes "flute2" }
+       \\ { s4*0_"Violons" \includeNotes "violon2" } >>
   >>
   \layout { indent = \largeindent }
 }

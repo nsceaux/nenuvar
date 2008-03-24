@@ -21,6 +21,12 @@
 
 \include "italiano.ly"
 \include "common/common18.ily"
+\layout {
+  \context {
+    \Score
+    \override VerticalAlignment #'max-stretch = ##f
+  }
+}
 %%\paper { #(define page-breaking ly:page-turn-breaking) }
 \include "Rameau/Opera/HippolyteEtAricie/personnages.ily"
 \include "Rameau/Opera/HippolyteEtAricie/part-specs.ily"

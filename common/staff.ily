@@ -53,6 +53,13 @@ newHaraKiriStaffB =
 newSmallStaff = 
 #(define-music-function (parser location music) (ly:music?)
    #{ \new Staff \with {
+        fontSize = #-1
+        \override StaffSymbol #'staff-space = #(magstep -1)
+      } << $music >> #})
+
+newTinyStaff = 
+#(define-music-function (parser location music) (ly:music?)
+   #{ \new Staff \with {
         fontSize = #-2
         \override StaffSymbol #'staff-space = #(magstep -2)
       } << $music >> #})

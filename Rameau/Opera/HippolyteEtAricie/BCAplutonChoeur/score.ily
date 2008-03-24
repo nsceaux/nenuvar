@@ -3,7 +3,7 @@
     \new StaffGroupNoBracket <<
       \new Staff <<
         \instrumentName \markup { Violons I }
-        { s2.*40 s4. s4.^\markup { Violons I } }
+        { s2.*40 s4. \bar "" \break s4.^\markup { Violons I } }
         \global \includeNotes "violon1" >>
       \new Staff <<
         \instrumentName \markup { Violons II }
