@@ -15,16 +15,16 @@
 %%%
 %%% Special variables
 %%% =================
-%%%   (*current-composer*)
+%%%   (*composer*)
 %%%     the composer identifier in the project herarchy (a string)
 %%%
-%%%   (*current-category*)
+%%%   (*category*)
 %%%     the category identifier in the project herarchy (a string)
 %%%
-%%%   (*current-opus*)
+%%%   (*opus*)
 %%%     the opus identifier in the project herarchy (a string)
 %%%
-%%%   (*current-piece*)
+%%%   (*piece*)
 %%%     the piece identifier in the project herarchy (a string)
 %%%
 %%% Scheme functions
@@ -85,16 +85,16 @@
 #(use-modules (srfi srfi-39)
               (ice-9 regex))
 
-#(define *current-composer* (make-parameter ""))
-#(define *current-category* (make-parameter ""))
-#(define *current-opus* (make-parameter ""))
-#(define *current-piece* (make-parameter ""))
+#(define *composer* (make-parameter ""))
+#(define *category* (make-parameter ""))
+#(define *opus* (make-parameter ""))
+#(define *piece* (make-parameter ""))
 
 #(define-public (include-pathname name)
-   (let ((hierarchy (list (*current-composer*)
-                          (*current-category*)
-                          (*current-opus*)
-                          (*current-piece*))))
+   (let ((hierarchy (list (*composer*)
+                          (*category*)
+                          (*opus*)
+                          (*piece*))))
      (string-append
       (apply string-append
              (map (lambda (dir)
@@ -111,7 +111,7 @@
     (make-music 'Music
                 'page-marker #t
                 'page-label (string->symbol name)))
-   (parameterize ((*current-piece* name))
+   (parameterize ((*piece* name))
      (ly:parser-parse-string
       (ly:parser-clone parser)
       (format #f "\\include \"~a\""
@@ -121,14 +121,15 @@
 %%% Separate parts
 %%%
 #(define *part-specs* (make-parameter (list)))
-#(define *current-part-spec* (make-parameter #f))
-#(define *current-part* (make-parameter #f))
-#(define *current-part-name* (make-parameter ""))
-#(define *current-note-filename* (make-parameter #f))
-#(define *current-instrument-name* (make-parameter #f))
-#(define *current-score-ragged* (make-parameter #f))
-#(define *current-score-indent* (make-parameter #f))
-#(define *current-tag* (make-parameter #f))
+#(define *part-spec* (make-parameter #f))
+#(define *part* (make-parameter #f))
+#(define *part-name* (make-parameter ""))
+#(define *note-filename* (make-parameter #f))
+#(define *instrument-name* (make-parameter #f))
+#(define *score-ragged* (make-parameter #f))
+#(define *score-indent* (make-parameter #f))
+#(define *tag* (make-parameter #f))
+#(define *part-spec-fallbacks* (make-parameter (list)))
 #(define *default-note-filename* (make-parameter #f))
 
 #(define-public (include-part-score parser
@@ -140,7 +141,7 @@
     (make-music 'Music
                 'page-marker #t
                 'page-label (string->symbol name)))
-   (parameterize ((*current-piece* name))
+   (parameterize ((*piece* name))
      (ly:parser-parse-string
       (ly:parser-clone parser)
       (format #f "\\include \"~a\""
@@ -154,10 +155,10 @@ setPart =
           (spec (assoc key (*part-specs*))))
      (if spec
          (begin
-           (*current-part* key)
-           (*current-part-name* (cadr spec))
+           (*part* key)
+           (*part-name* (cadr spec))
            (*default-note-filename* (caddr spec))
-           (*current-part-spec* (cdddr spec)))))
+           (*part-spec* (cdddr spec)))))
    (make-music 'Music 'void #t))
 
 %%%
@@ -166,7 +167,7 @@ setPart =
 
 global = 
 #(define-music-function (parser location) ()
-  (let* ((global-symbol (string->symbol (format "global~a~a" (*current-opus*) (*current-piece*))))
+  (let* ((global-symbol (string->symbol (format "global~a~a" (*opus*) (*piece*))))
          (global-music (ly:parser-lookup parser global-symbol))
          (start-overrides (ly:parser-lookup parser 'staffStart)))
    (if (not (ly:music? global-music))
@@ -194,7 +195,7 @@ includeFigures =
 
 setComposer =
 #(define-music-function (parser location name) (string?)
-   (*current-composer* name)
+   (*composer* name)
    (make-music 'Music 'void #t))
 
 setCategory =
@@ -202,10 +203,10 @@ setCategory =
    (let ((match (string-match "^(.*)/(.*)$" name)))
      (if match
          (begin ;; composer/category
-           (*current-composer* (match:substring match 1))
-           (*current-category* (match:substring match 2)))
+           (*composer* (match:substring match 1))
+           (*category* (match:substring match 2)))
          ;; category
-         (*current-category* name)))
+         (*category* name)))
    (make-music 'Music 'void #t))
 
 setOpus =
@@ -213,24 +214,24 @@ setOpus =
    (let ((match (string-match "^(.*)/(.*)/(.*)$" name)))
      (if match
          (begin ;; composet/category/opus
-           (*current-composer* (match:substring match 1))
-           (*current-category* (match:substring match 2))
-           (*current-opus* (match:substring match 3)))
+           (*composer* (match:substring match 1))
+           (*category* (match:substring match 2))
+           (*opus* (match:substring match 3)))
          (let ((match (string-match "^(.*)/(.*)$" name)))
            (if match
                (begin ;; category/opus
-                 (*current-category* (match:substring match 1))
-                 (*current-opus* (match:substring match 2)))
+                 (*category* (match:substring match 1))
+                 (*opus* (match:substring match 2)))
                ;; opus
-               (*current-opus* name)))))
+               (*opus* name)))))
    (make-music 'Music 'void #t))
 
 includeScore =
 #(define-music-function (parser location piece) (string?)
-   (if (*current-part*)
+   (if (*part*)
        ;; a part score
        (let ((piece-spec (assoc (string->symbol piece)
-                                (cadr (*current-part-spec*))))
+                                (cadr (*part-spec*))))
              (score-filename "score")
              (note-filename (*default-note-filename*))
              (from-templates #t)
@@ -273,11 +274,11 @@ includeScore =
                (set! score-filename "score-silence")
                (set! score-ragged #t)
                (set! note-filename "silence")))
-         (parameterize ((*current-score-ragged* score-ragged)
-                        (*current-note-filename* note-filename)
-                        (*current-instrument-name* instrument-name)
-                        (*current-score-indent* score-indent)
-                        (*current-tag* tag))
+         (parameterize ((*score-ragged* score-ragged)
+                        (*note-filename* note-filename)
+                        (*instrument-name* instrument-name)
+                        (*score-indent* score-indent)
+                        (*tag* tag))
            (include-part-score parser
                                piece
                                score-filename

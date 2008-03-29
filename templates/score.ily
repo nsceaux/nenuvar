@@ -1,19 +1,19 @@
 \score {
   \new Staff <<
-    \keepWithTag #(or (*current-tag*) (list)) \global
-    \includeNotes #(*current-note-filename*)
-    #(ly:export (if (*current-instrument-name*)
+    \keepWithTag #(or (*tag*) (list)) \global
+    \includeNotes #(*note-filename*)
+    #(ly:export (if (*instrument-name*)
                     (make-music 'ContextSpeccedMusic
                       'context-type 'Staff
                       'element (make-music 'PropertySet
-                                 'value (markup #:large (*current-instrument-name*))
+                                 'value (markup #:large (*instrument-name*))
                                  'symbol 'instrumentName))
                     (make-music 'Music)))
   >>
   \layout {
-    indent = #(if (*current-instrument-name*)
+    indent = #(if (*instrument-name*)
                   largeindent
-                  (or (*current-score-indent*) smallindent))
-    ragged-last = #(*current-score-ragged*)
+                  (or (*score-indent*) smallindent))
+    ragged-last = #(*score-ragged*)
   }
 }

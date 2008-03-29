@@ -26,10 +26,10 @@
     \fill-line { \fontsize #6 \fromproperty #'header:date }
     \vspace #1 
     \on-the-fly #(lambda (layout props arg)
-                   (if (*current-part*)
+                   (if (*part*)
                        (interpret-markup layout props
                          (markup #:fill-line (#:column (#:vspace 6
-                                                        #:fill-line (#:fontsize 6 (*current-part-name*))))))
+                                                        #:fill-line (#:fontsize 6 (*part-name*))))))
                        empty-stencil))
     \fill-line {
       \when-property #'header:arrangement \column {

@@ -1,7 +1,7 @@
 %%% -*- Mode: scheme -*-
 #(*part-specs*
   `((dessus1
-     ;; long part name, default note-filename, piece specs
+     ;; long part name, default note-filename, fallbacks, piece specs
      "Premier dessus" "dessus" ()
      ((AAAouverture #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
       (AABouverture #:indent 0 #:notes "dessus1")

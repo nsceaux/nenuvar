@@ -155,14 +155,14 @@
 
 #(define-markup-command (act layout props arg) (markup?)
   (interpret-markup layout props
-    (if (*current-part*)
+    (if (*part*)
         (markup #:pad-markup 2 #:fill-line (#:fontsize 6 arg))
         (markup #:column (#:vspace 3
                           #:pad-markup 3 #:fill-line (#:fontsize 6 arg))))))
 
 #(define-markup-command (scene layout props arg) (markup?)
   (interpret-markup layout props
-    (if (*current-part*)
+    (if (*part*)
         (markup #:pad-markup 1 #:fill-line (#:fontsize 4 arg))
         (markup #:column (#:vspace 1
                           #:fill-line (#:fontsize 4 arg)
@@ -170,7 +170,7 @@
 
 #(define-markup-command (scene-description layout props arg) (markup?)
   (interpret-markup layout props
-    (if (*current-part*)
+    (if (*part*)
         empty-markup
         (markup #:column (#:fill-line (#:override '(line-width . 80)
                                        #:fontsize 2 arg)
@@ -312,13 +312,13 @@ pieceNoTitle =
 
 %%% Sections
 #(use-modules (srfi srfi-39))
-#(define-public *current-opus-title* (make-parameter ""))
-#(define-public *current-act-title* (make-parameter ""))
+#(define-public *opus-title* (make-parameter ""))
+#(define-public *act-title* (make-parameter ""))
 
 opusTitle =
 #(define-music-function (parser location title) (string?)
-   (*current-opus-title* (if (*current-part*)
-                             (string-append title ", " (*current-part-name*))
+   (*opus-title* (if (*part*)
+                             (string-append title ", " (*part-name*))
                              title))
    (make-music 'Music 'void #t))
 
@@ -330,7 +330,7 @@ ouverture =
       (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
           (markup #:rehearsal-number-toc rehearsal title)
           title))
-    (add-even-page-header-text parser (string-upper-case (*current-opus-title*)) #f)
+    (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
     (add-odd-page-header-text parser (string-upper-case title) #f)
     (add-toplevel-markup parser (markup #:act (string-upper-case title)))
     (add-no-page-break parser)
@@ -345,11 +345,11 @@ act =
   (increase-rehearsal-major-number)
   (add-page-break parser)
   (add-toc-item parser 'tocActMarkup act-title)
-  (add-even-page-header-text parser (string-upper-case (*current-opus-title*)) #f)
-  (*current-act-title* act-title)
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
+  (*act-title* act-title)
   (add-odd-page-header-text
     parser
-    (format #f "~a." (string-upper-case (*current-act-title*)))
+    (format #f "~a." (string-upper-case (*act-title*)))
     #f)
   (add-toplevel-markup parser
     (markup #:act (string-upper-case act-title)))
@@ -370,7 +370,7 @@ scene =
   (add-odd-page-header-text
     parser
     (format #f "~a, ~a."
-           (string-upper-case (*current-act-title*))
+           (string-upper-case (*act-title*))
            (string-upper-case title))
     #t)
   (add-toplevel-markup parser
