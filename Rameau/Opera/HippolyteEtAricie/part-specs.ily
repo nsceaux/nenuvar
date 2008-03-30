@@ -140,7 +140,7 @@
                (ACBchoeur #:notes "dessus1")
                (ACCair)
                (ACEair)
-               (ACFgavotte #:notes "dessus")
+               (ACFgavotte #:notes "violon")
                (ACGpretresseChoeur #:notes "dessus")
                (ACHgavotte #:notes "dessus")
                (ACIpretresseChoeur #:notes "dessus")
@@ -164,11 +164,26 @@
                (BDDthesee #:notes "violon")
                (BDEchoeur)
                (BEAmercurePluton #:notes "violon1-complet")
-               (BEBplutonParques)
+               (BEBplutonParques
+                #:music ,#{ \repeat unfold 8 { s1\noBreak } s1*2 \break
+                            \repeat unfold 6 { s1\noBreak } s1 \break #})
                (BFBentracte #:notes "dessus")
                
                (CAAphedre)
-               (CCAphedreHippolyte #:notes "violon1-complet")
+               (CCAphedreHippolyte
+                #:notes "violon1-complet"
+                #:music ,#{ s2. \noBreak s1\noBreak s2.\noBreak s1\noBreak s1\noBreak
+                                s2.*2\noBreak s1\noBreak s1*4\noBreak s2.\break
+
+                                s1*2\noBreak s2.\noBreak s1\noBreak s2.*2\noBreak s1*2\noBreak
+                                s2.*2\noBreak s1*2\noBreak s2.\noBreak s1\noBreak s1*3\break
+
+                                s2.\noBreak s1\noBreak s1\noBreak s1*2\noBreak s2.\noBreak
+                                s1*2\noBreak s2.\noBreak s1\noBreak s2.\noBreak s1\break
+
+                                s2.\noBreak s1\noBreak s2.*2\noBreak s1*2\noBreak s1*3\noBreak
+                                s2.\noBreak s1\noBreak s1\break
+                                #})
                (CGAthesee)
                (CGBthesee #:notes "dessus")
                (CGCthesee)
@@ -184,9 +199,9 @@
 
                (DAAhippolyte #:notes "violon")
                (DCAchoeur)
-               (DCBentree #:notes "dessus")
+               (DCBentree #:notes "dessus" #:tag autres)
                (DCCrondeau)
-               (DCEmenuet #:notes "violons")
+               (DCEmenuet #:notes "violons" #:tag autres)
                (DCGrondeauChoeur)
                (DCHchoeurHippolyteAricie #:notes "violon")
                (DCIchoeurAricie)
@@ -217,19 +232,28 @@
                (ACBchoeur #:notes "dessus1")
                (ACCair)
                (ACEair)
-               (ACFgavotte #:notes "dessus")
+               (ACFgavotte #:notes "flute-hautbois")
                (ACHgavotte #:notes "dessus")
+               (ADEtonnerre #:silence #t)
                (AFBentracte)
                (BEAmercurePluton #:notes "flute1-complet")
+               (BEBplutonParques #:silence #t)
                (CAAphedre #:notes "flute")
+               (CGCthesee #:silence #t)
                (CGGmarche #:notes "dessus")
                (CGIair #:notes "violons")
                (CGJair #:notes "dessus")
                (CGKrigaudon #:notes "dessus")
                (CGNentracte #:notes "dessus")
-               (DAAhippolyte #:notes "flute")
-               (DCBentree #:notes "dessus")
-               (DCHchoeurHippolyteAricie #:notes "flute")
+               (DAAhippolyte #:notes "flute"
+                             #:music ,#{ s1*5 \break s1*4 \break #})
+               (DCBentree #:notes "dessus" #:tag autres)
+               (DCHchoeurHippolyteAricie #:notes "flute"
+                                         #:music ,#{ %
+                                                     s1*3 \break
+                                                     s1*2 \break
+                                                     s1*2 \break
+                                                     s1*4 \break #})
                (DDBentracte #:notes "violons")
                (EAAaricie #:notes "flute")
                (EABaricie)
@@ -250,10 +274,13 @@
                (AAAouverture)
                (AABouverture #:indent 0 #:notes "dessus1")
                (ACDpretresse #:notes "hautbois" #:instrument "Hautbois seul")
-               (ACFgavotte)
+               (ACFgavotte #:notes "flute-hautbois")
                (ACHgavotte)
                (ADCprelude #:notes "trompettes-hautbois")
+               (ADEtonnerre #:silence #t)
                (BBAentree #:notes "hautbois")
+               (BEBplutonParques #:silence #t)
+               (CGCthesee #:silence #t)
                (CGEannonce #:notes "violon-hautbois" #:ragged #t)
                (CGGmarche)
                (CGHchoeur #:notes "hautbois1")
@@ -264,12 +291,12 @@
                (CGLrigaudon #:notes "hautbois")
                (CGMmatelote #:notes "hautbois" #:instrument "Hautbois seul")
                (CGNentracte)
-               (DBCannonce #:notes "hautbois" #:ragged #t)
+               (DBCannonce #:notes "hautbois" #:ragged #t #:tag autres)
                (DCAchoeur #:notes "hautbois1")
-               (DCBentree)
+               (DCBentree #:tag autres)
                (DCCrondeau #:notes "hautbois1")
                (DCDchasseresse #:notes "hautbois" #:instrument "Un hautbois")
-               (DCEmenuet #:notes "hautbois")
+               (DCEmenuet #:notes "hautbois" #:tag autres)
                (DCFmenuet #:notes "hautbois")
                (DCGrondeauChoeur #:notes "hautbois1")
                (DDBentracte #:notes "hautbois")

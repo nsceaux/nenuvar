@@ -9,6 +9,7 @@
                                  'value (markup #:large (*instrument-name*))
                                  'symbol 'instrumentName))
                     (make-music 'Music)))
+    #(ly:export (or (*score-extra-music*) (make-music 'Music)))
   >>
   \layout {
     indent = #(if (*instrument-name*)

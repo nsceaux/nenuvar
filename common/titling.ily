@@ -163,7 +163,7 @@
 #(define-markup-command (scene layout props arg) (markup?)
   (interpret-markup layout props
     (if (*part*)
-        (markup #:pad-markup 1 #:fill-line (#:fontsize 4 arg))
+        (markup #:pad-markup 0.5 #:fill-line (#:fontsize 4 arg))
         (markup #:column (#:vspace 1
                           #:fill-line (#:fontsize 4 arg)
                           #:vspace 1)))))
@@ -383,4 +383,11 @@ sceneDescription =
   (add-toplevel-markup parser
    (markup #:scene-description description))
   (add-no-page-break parser)
+  (make-music 'Music 'void #t))
+
+%%% Conditionnal page breaks
+partPageBreak =
+#(define-music-function (parser location parts) (list?)
+  (if (memq (*part*) parts)
+      (add-page-break parser))
   (make-music 'Music 'void #t))

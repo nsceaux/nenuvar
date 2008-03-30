@@ -128,6 +128,7 @@
 #(define *instrument-name* (make-parameter #f))
 #(define *score-ragged* (make-parameter #f))
 #(define *score-indent* (make-parameter #f))
+#(define *score-extra-music* (make-parameter #f))
 #(define *tag* (make-parameter #f))
 
 #(define-public (include-part-score parser
@@ -168,8 +169,10 @@
 
 `piece-spec' should be a list, which first-element is the peice name,
 then consisting of alterning keywords and values, the keywords being any
-combination of keywordified list above (eg. #:score, #:ragged, etc).
-"
+combination from the following list:
+  #:score #:ragged #:indent #:tag #:notes #:instrument #:silence #:music
+where #:silence, when associated to a true value, forces the printing of rests
+      #:music allows to include some extra music"
   (let ((name (car piece-spec))
         (score "score")
         (from-templates #t)
@@ -177,7 +180,8 @@ combination of keywordified list above (eg. #:score, #:ragged, etc).
         (indent #f)
         (tag #f)
         (notes default-note-filename)
-        (instrument #f))
+        (instrument #f)
+        (music #f))
     (let parse-props ((props (cdr piece-spec)))
       (if (not (or (null? props) (null? (cdr props))))
           (begin
@@ -189,7 +193,15 @@ combination of keywordified list above (eg. #:score, #:ragged, etc).
               ((#:score)
                (set! score (cadr props))
                (set! from-templates #f))
-              ((#:instrument) (set! instrument (cadr props))))
+              ((#:instrument) (set! instrument (cadr props)))
+              ((#:music) (set! music (cadr props)))
+              ((#:silence)
+               (if (cadr props)
+                   (begin
+                     (set! score "score-silence")
+                     (set! ragged #t)
+                     (set! notes "silence")
+                     (set! from-templates #t)))))
             (parse-props (cddr props)))))
     `((name . ,name)
       (score . ,score)
@@ -198,7 +210,8 @@ combination of keywordified list above (eg. #:score, #:ragged, etc).
       (indent . ,indent)
       (tag . ,tag)
       (notes . ,notes)
-      (instrument . ,instrument))))
+      (instrument . ,instrument)
+      (music . ,music))))
 
 setPart =
 #(define-music-function (parser location name) (string?)
@@ -308,18 +321,15 @@ includeScore =
        ;; a part score
        (let ((piece (hashq-ref (*part-specs*)
                                (string->symbol name)
-                               (let ((piece-silence
-                                      (make-piece (list (string->symbol name)
-                                                        #:score "score-silence"
-                                                        #:ragged #t)
-                                                  "silence")))
-                                 (assoc-set! piece-silence 'from-templates #t)
-                                 piece-silence))))
+                               (make-piece (list (string->symbol name)
+                                                 #:silence #t)
+                                           "silence"))))
          (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
                         (*note-filename* (assoc-ref piece 'notes))
                         (*instrument-name* (assoc-ref piece 'instrument))
                         (*score-indent* (assoc-ref piece 'indent))
-                        (*tag* (assoc-ref piece 'tag)))
+                        (*tag* (assoc-ref piece 'tag))
+                        (*score-extra-music* (assoc-ref piece 'music)))
            (include-part-score parser
                                name
                                (assoc-ref piece 'score)
