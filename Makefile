@@ -6,10 +6,10 @@ HARDCOVER_BOOK_FLAG=-d hardcover
 
 SCORES=
 
-define MAKE_SCORE_RULE
-$(1)$(2):
-	lilypond $(3) -o $(OUTPUT_DIR)/$(notdir $(1))$(2) $(1)/main.ly
-.PHONY: $(1)$(2)
+##################################################################################
+
+define ALL_SCORE_PDFs
+$(word 1,$(subst /, ,$(1)))_$(notdir $(1))_PDFs
 endef
 
 define DELIVERY_DIRECTORY
@@ -20,19 +20,46 @@ define DELIVERY_FILE
 $(call DELIVERY_DIRECTORY,$(1))/$(notdir $(1))
 endef
 
-define DELIVER_PDF
-	@echo mv -f $(OUTPUT_DIR)/$(notdir $(1)).pdf $(call DELIVERY_DIRECTORY,$(1))/
-	@if [ -e $(OUTPUT_DIR)/$(notdir $(1)).pdf ]; then mv -f $(OUTPUT_DIR)/$(notdir $(1)).pdf $(call DELIVERY_DIRECTORY,$(1))/; fi
+define MAKE_SCORE_RULE
+$(1)$(2):
+	lilypond $(3) -o $(OUTPUT_DIR)/$(notdir $(1))$(2) $(1)/main.ly
+.PHONY: $(1)$(2)
+$(call ALL_SCORE_PDFs,$(1))+=$(1)$(2)
+endef
+
+define MAKE_PART_RULE
+$(1)-$(2):
+	lilypond -dpart=$(2) -o $(OUTPUT_DIR)/$(notdir $(1))-$(2) $(1)/part.ly
+.PHONY: $(1)-$(2)
+$(call ALL_SCORE_PDFs,$(1))+=$(1)-$(2)
+endef
+
+define DELIVER_PDF_RULE
+$(call DELIVERY_DIRECTORY,$(1))/$(notdir $(1)).pdf:
+	@if [ -e $(OUTPUT_DIR)/$(notdir $(1)).pdf ]; then \
+		mkdir -p $(call DELIVERY_DIRECTORY,$(1)); \
+		echo mv -f $(OUTPUT_DIR)/$(notdir $(1)).pdf $(call DELIVERY_DIRECTORY,$(1))/; \
+		mv -f $(OUTPUT_DIR)/$(notdir $(1)).pdf $(call DELIVERY_DIRECTORY,$(1))/; \
+	fi
 endef
 
 define DELIVER_MIDI_ARCHIVE
 	@echo tar zcf $(DELIVERY_DIR)/$(notdir $(1))-midi.tar.gz $(OUTPUT_DIR)/$(notdir $(1))\*.midi
 	@if [ -e $(OUTPUT_DIR)/$(notdir $(1))-100.midi ]; then \
-	  tar zcf $(call DELIVERY_FILE,$(1))-midi.tar.gz $(OUTPUT_DIR)/$(notdir $(1)).midi $(OUTPUT_DIR)/$(notdir $(1))-?.midi $(OUTPUT_DIR)/$(notdir $(1))-??.midi $(OUTPUT_DIR)/$(notdir $(1))-???.midi ;\
+	  tar zcf $(call DELIVERY_FILE,$(1))-midi.tar.gz \
+		$(OUTPUT_DIR)/$(notdir $(1)).midi \
+		$(OUTPUT_DIR)/$(notdir $(1))-?.midi \
+		$(OUTPUT_DIR)/$(notdir $(1))-??.midi \
+		$(OUTPUT_DIR)/$(notdir $(1))-???.midi ;\
 	elif [ -e $(OUTPUT_DIR)/$(notdir $(1))-10.midi ]; then \
-	  tar zcf $(call DELIVERY_FILE,$(1))-midi.tar.gz $(OUTPUT_DIR)/$(notdir $(1)).midi $(OUTPUT_DIR)/$(notdir $(1))-?.midi $(OUTPUT_DIR)/$(notdir $(1))-??.midi ;\
+	  tar zcf $(call DELIVERY_FILE,$(1))-midi.tar.gz \
+		$(OUTPUT_DIR)/$(notdir $(1)).midi \
+		$(OUTPUT_DIR)/$(notdir $(1))-?.midi \
+		$(OUTPUT_DIR)/$(notdir $(1))-??.midi ;\
 	else \
-	  tar zcf $(call DELIVERY_FILE,$(1))-midi.tar.gz $(OUTPUT_DIR)/$(notdir $(1)).midi $(OUTPUT_DIR)/$(notdir $(1))-?.midi ;\
+	  tar zcf $(call DELIVERY_FILE,$(1))-midi.tar.gz \
+		$(OUTPUT_DIR)/$(notdir $(1)).midi \
+		$(OUTPUT_DIR)/$(notdir $(1))-?.midi ;\
 	fi
 endef
 
@@ -41,40 +68,32 @@ define DELIVER_SOURCE_ARCHIVE
 endef
 
 define MAKE_DELIVERY_RULE
-$(1)-delivery:
+$(foreach pdf,$($(call ALL_SCORE_PDFs,$(1))),$(eval $(call DELIVER_PDF_RULE,$(pdf))))
+$(1)-delivery: $(foreach pdf,$($(call ALL_SCORE_PDFs,$(1))),$(call DELIVERY_DIRECTORY,$(pdf))/$(notdir $(pdf)).pdf)
 	mkdir -p $(call DELIVERY_DIRECTORY,$(1))
-	$(call DELIVER_PDF,$(1))
-	$(call DELIVER_PDF,$(1)-letter)
-	$(call DELIVER_PDF,$(1)-hardcover)
+	$(foreach pdf,$($(call ALL_SCORE_PDFs,$(1))),$(call DELIVER_PDF,$(pdf)))
 	$(call DELIVER_MIDI_ARCHIVE,$(1))
 	$(call DELIVER_SOURCE_ARCHIVE,$(1))
 endef
 
+
 define MAKE_ALL_SCORE_RULES
-$(call MAKE_SCORE_RULE,$(1),,)
-$(call MAKE_SCORE_RULE,$(1),-letter,$(LETTER_FLAG))
-$(call MAKE_SCORE_RULE,$(1),-hardcover,$(HARDCOVER_BOOK_FLAG))
+$(eval $(call MAKE_SCORE_RULE,$(1),,))
+$(eval $(call MAKE_SCORE_RULE,$(1),-letter,$(LETTER_FLAG)))
+$(eval $(call MAKE_SCORE_RULE,$(1),-hardcover,$(HARDCOVER_BOOK_FLAG)))
+$(foreach part,$(2),$(eval $(call MAKE_PART_RULE,$(1),$(part))))
 $(call MAKE_DELIVERY_RULE,$(1))
 SCORES+=$(1)
-$(1)-all: $(1) $(1)-letter $(1)-hardcover $(1)-delivery
+$(1)-all: $($(call ALL_SCORE_PDFs,$(1))) $(1)-delivery
 .PHONY: $(1)-all
 endef
 
-define MAKE_PART_RULE
-$(1)-$(2):
-	lilypond -dpart=$(2) -o $(OUTPUT_DIR)/$(notdir $(1))-$(2) $(1)/part.ly
-.PHONY: $(1)-$(2)
-endef
+##################################################################################
 
-$(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie))
-$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents))
-$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Motets))
-$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin))
-
-$(eval $(call MAKE_PART_RULE,Rameau/Opera/HippolyteEtAricie,dessus1))
-$(eval $(call MAKE_PART_RULE,Rameau/Opera/HippolyteEtAricie,violon1))
-$(eval $(call MAKE_PART_RULE,Rameau/Opera/HippolyteEtAricie,flute1))
-$(eval $(call MAKE_PART_RULE,Rameau/Opera/HippolyteEtAricie,hautbois1))
+$(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie,violon1 flute1 hautbois1))
+$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Motets,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin,))
 
 help:
 	@echo "usage: make <score-rule>"
@@ -82,6 +101,7 @@ help:
 	@echo "  <score>           Build a A4 PDF score"
 	@echo "  <score>-letter    Build a Letter PDF score"
 	@echo "  <score>-hardcover Build a hardcover sized PDF score"
+	@echo "  <score>-<part>    Build a PDF part score"
 	@echo "  <score>-delivery  Make archives and move PDF to delivery directory"
 	@echo "  <score>-all       Build all PDF formats and make delivery"
 	@echo "score:"
