@@ -269,7 +269,7 @@
 \includeScore "CGAthesee"
 \pieceToc \markup { Thésée : \italic { Puissant Maître des flots, favorable Neptune } }
 \includeScore "CGBthesee"
-\pieceToc \markup { Thésée : \italic { Mais de courroux l'nde s'agite } }
+\pieceToc \markup { Thésée : \italic { Mais de courroux l'onde s'agite } }
 \includeScore "CGCthesee"
 \includeScore "CGDthesee"
 \pieceTocTitle "Annonce"

@@ -72,6 +72,9 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Motets))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin))
 
 $(eval $(call MAKE_PART_RULE,Rameau/Opera/HippolyteEtAricie,dessus1))
+$(eval $(call MAKE_PART_RULE,Rameau/Opera/HippolyteEtAricie,violon1))
+$(eval $(call MAKE_PART_RULE,Rameau/Opera/HippolyteEtAricie,flute1))
+$(eval $(call MAKE_PART_RULE,Rameau/Opera/HippolyteEtAricie,hautbois1))
 
 help:
 	@echo "usage: make <score-rule>"
