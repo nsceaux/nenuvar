@@ -35,12 +35,13 @@ $(call ALL_SCORE_PDFs,$(1))+=$(1)-$(2)
 endef
 
 define DELIVER_PDF_RULE
-$(call DELIVERY_DIRECTORY,$(1))/$(notdir $(1)).pdf:
+$(call DELIVERY_DIRECTORY,$(1))/$(notdir $(1)):
 	@if [ -e $(OUTPUT_DIR)/$(notdir $(1)).pdf ]; then \
 		mkdir -p $(call DELIVERY_DIRECTORY,$(1)); \
 		echo mv -f $(OUTPUT_DIR)/$(notdir $(1)).pdf $(call DELIVERY_DIRECTORY,$(1))/; \
 		mv -f $(OUTPUT_DIR)/$(notdir $(1)).pdf $(call DELIVERY_DIRECTORY,$(1))/; \
 	fi
+.PHONY: $(call DELIVERY_DIRECTORY,$(1))/$(notdir $(1))
 endef
 
 define DELIVER_MIDI_ARCHIVE
@@ -69,7 +70,7 @@ endef
 
 define MAKE_DELIVERY_RULE
 $(foreach pdf,$($(call ALL_SCORE_PDFs,$(1))),$(eval $(call DELIVER_PDF_RULE,$(pdf))))
-$(1)-delivery: $(foreach pdf,$($(call ALL_SCORE_PDFs,$(1))),$(call DELIVERY_DIRECTORY,$(pdf))/$(notdir $(pdf)).pdf)
+$(1)-delivery: $(foreach pdf,$($(call ALL_SCORE_PDFs,$(1))),$(call DELIVERY_DIRECTORY,$(pdf))/$(notdir $(pdf)))
 	mkdir -p $(call DELIVERY_DIRECTORY,$(1))
 	$(foreach pdf,$($(call ALL_SCORE_PDFs,$(1))),$(call DELIVER_PDF,$(pdf)))
 	$(call DELIVER_MIDI_ARCHIVE,$(1))
