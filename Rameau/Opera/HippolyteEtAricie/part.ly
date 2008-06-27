@@ -82,7 +82,7 @@
 \includeScore "ACAmarche"
 \pieceToc \markup { Chœur de prêtresses : \italic { Dans ce paisible séjour Règne l'aimable innocence }}
 \includeScore "ACBchoeur"
-\partPageBreak #'(hautbois1) %%%
+%{ ======== %} \partPageBreak #'(hautbois1 flute1)
 \pieceTocTitle "Premier Air"
 \includeScore "ACCair"
 \pieceToc \markup { Une prêtresse : \italic { Dieu d’Amour, pour nos asiles, tes tourments ne sont pas faits. } }
@@ -104,6 +104,7 @@
   }
 }
 %%
+%{ ======== %} \partPageBreak #'(violon1)
 \scene "Scène IV"
 \sceneDescription \markup \smallCaps { Phèdre, Aricie, Hippolyte. }
 \pieceToc \markup { Phèdre, Aricie, Hippolyte, chœur de prêtresses }
@@ -112,8 +113,9 @@
 \includeScore "ADBphedre"
 \pieceToc \markup { La prêtresse, chœur : \italic { Dieux vengeurs, lancez le tonnerre } }
 \includeScore "ADCprelude"
-\partPageBreak #'(hautbois1) %%%
+%{ ======== %} \partPageBreak #'(hautbois1 flute1)
 \includeScore "ADDpretresseChoeur"
+%{ ======== %} \partPageBreak #'(violon1)
 \pieceTocTitle "Bruit de tonnerre"
 \includeScore "ADEtonnerre"
 %%
@@ -123,7 +125,7 @@
 \pieceToc \markup { Diane, Aricie, Hippolyte }
 \includeScore "AEAdianeAricieHippolyte"
 %%
-\partPageBreak #'(hautbois1) %%%
+%{ ======== %} \partPageBreak #'(hautbois1 flute1 violon1)
 \scene "Scène VI"
 \sceneDescription \markup \smallCaps Phèdre.
 \pieceToc \markup { Phèdre : \italic { Que rien n’échappe à ma fureur } }
@@ -143,7 +145,7 @@
 \includeScore "BAAritournelle"
 \pieceToc \markup Thésée
 \includeScore "BABthesee"
-\partPageBreak #'(hautbois1) %%%
+%{ ======== %} \partPageBreak #'(hautbois1 flute1 violon1)
 \pieceToc \markup { Tisiphone : \italic { Non, dans le séjour ténébreux C’est en vain qu’on gémit } }
 \includeScore "BACtisiphone"
 \pieceToc \markup { Thésée, Tisiphone }
@@ -200,7 +202,7 @@
 \pieceToc \markup { Chœur : \italic { Non, Neptune aurait beau t’entendre } }
 \includeScore "BDEchoeur"
 %%
-\partPageBreak #'(hautbois1) %%%
+%{ ======== %} \partPageBreak #'(hautbois1 flute1)
 \scene "Scène V"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Mercure, \smallCaps Pluton et les trois Parques.
@@ -266,7 +268,7 @@
 \pieceToc \markup { Thésée, Œnone }
 \includeScore "CFAtheseeOenone"
 %%
-\partPageBreak #'(hautbois1) %%%
+%{ ======== %} \partPageBreak #'(hautbois1 flute1)
 \scene "Scène VII"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Thésée, une matelote, peuples et matelots.
@@ -277,6 +279,7 @@
 \includeScore "CGBthesee"
 \pieceToc \markup { Thésée : \italic { Mais de courroux l'onde s'agite } }
 \includeScore "CGCthesee"
+%{ ======== %} \partPageBreak #'(violon1)
 \includeScore "CGDthesee"
 \pieceTocTitle "Annonce"
 \includeScore "CGEannonce"
@@ -286,7 +289,7 @@
 \includeScore "CGGmarche"
 \pieceTocAndTitle \markup "CHŒUR" \markup { Chœur de matelots : \italic { Que ce rivage retentisse De la gloire du dieu des flots } }
 \includeScore "CGHchoeur"
-\partPageBreak #'(hautbois1) %%%
+%{ ======== %} \partPageBreak #'(hautbois1 flute1)
 \pieceTocTitle "Premier air des matelots"
 \includeScore "CGIair"
 \pieceTocTitle "Deuxième air des matelots"
@@ -344,6 +347,7 @@
 \includeScore "DCBentree"
 \pieceTocTitle "Premier rondeau"
 \includeScore  "DCCrondeau"
+%{ ======== %} \partPageBreak #'(violon1)
 \pieceToc \markup { Une chasseresse : \italic { Amants, quelle est votre faiblesse ? } }
 \includeScore "DCDchasseresse"
 \pieceTocTitle "Premier menuet"
@@ -353,7 +357,7 @@
 \markup \title \fill-line {
   \line { On reprend le premier menuet page \page-refIII #'DCEmenuet . }
 }
-\partPageBreak #'(hautbois1) %%%
+%{ ======== %} \partPageBreak #'(hautbois1 flute1)
 \pieceTocAndTitle \markup "DEUXIÈME RONDEAU" \markup { Deuxième rondeau, une chasseresse, chœur : \italic { À la chasse, à la chasse, Armez-vous } }
 \includeScore "DCGrondeauChoeur"
 \pieceTocAndTitle \markup "BRUIT DE MER ET VENTS" \markup { Chœur, Hippolyte, Aricie : \italic { Quel bruit ! Quels vents ! Quelle montagne humide ! } }
@@ -431,6 +435,7 @@
 }
 \pieceTocAndTitle \markup MARCHE \markup { Chœur : \italic { Chantons sur la Musette } }
 \includeScore "EFAmarcheChoeur"
+%{ ======== %} \partPageBreak #'(violon1)
 \pieceTocTitle "Rondeau"
 \includeScore "EFBrondeau"
 \pieceToc \markup { Un bergère : \italic { Plaisirs, doux Vainqueurs } }
@@ -451,6 +456,7 @@
 \markup \title \fill-line {
   \line { On reprend la première gavotte page \page-refIII #'EFGgavotte . }
 }
+%{ ======== %} \partPageBreak #'(violon1)
 \pieceToc \markup { Aricie ou une bergère : \italic { Rossignols amoureux, répondez à nos voix } }
 \includeScore "EFIariette"
 \pieceTocTitle "Chaconne"

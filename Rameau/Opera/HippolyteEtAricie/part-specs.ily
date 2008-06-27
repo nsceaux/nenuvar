@@ -161,12 +161,33 @@
                (BCCair #:notes "dessus")
                (BCDchoeur #:notes "dessus")
                (BDAtheseeTisiphone #:notes "violon")
-               (BDDthesee #:notes "violon")
+               (BDDthesee #:notes "violon"
+                          #:music ,#{ %
+                                      s1*5 \break
+                                      s1*5 \break
+                                      s1*6 \break
+                                      s1*6 \break
+                                      s1*5 \break
+                                      s1*5 \break
+                                      s1*5 \break
+                                      s1*5 \break #})
                (BDEchoeur)
                (BEAmercurePluton #:notes "violon1-complet")
                (BEBplutonParques
                 #:music ,#{ \repeat unfold 8 { s1\noBreak } s1*2 \break
-                            \repeat unfold 6 { s1\noBreak } s1 \break #})
+                            \repeat unfold 6 { s1\noBreak } s1 \break
+                            s1*2 \break
+                            s1*2 \break
+                            s1*2 \break
+                            s1*2 \break
+                            s1*2 \break
+                            s1*2 \break
+                            s1*3 \break
+                            s1*3 \break
+                            s1*2 \break
+                            s1 \noBreak s1*2 \noBreak s1\noBreak s1 \break
+                            \repeat unfold 3 { s1\noBreak }
+                            #})
                (BFBentracte #:notes "dessus")
                
                (CAAphedre)
@@ -190,7 +211,16 @@
                (CGDthesee #:notes "violon")
                (CGEannonce #:notes "violon-hautbois" #:ragged #t)
                (CGGmarche #:notes "dessus")
-               (CGHchoeur)
+               (CGHchoeur #:music ,#{ s1*113 #(ly:export (if #(eqv? (*part*) 'violon1)
+                                                             (make-music 'EventChord
+                                                                         'page-marker #t
+                                                                         'line-break-permission 'force
+                                                                         'page-break-permission 'force
+                                                                         'elements (list (make-music 'LineBreakEvent
+                                                                                                     'break-permission 'force)
+                                                                                         (make-music 'PageBreakEvent
+                                                                                                     'break-permission 'force)))
+                                                             (make-music 'Music))) #})
                (CGIair #:notes "violons")
                (CGJair #:notes "dessus")
                (CGKrigaudon #:notes "dessus")
@@ -202,7 +232,21 @@
                (DCBentree #:notes "dessus" #:tag autres)
                (DCCrondeau)
                (DCEmenuet #:notes "violons" #:tag autres)
-               (DCGrondeauChoeur)
+               (DCGrondeauChoeur #:music ,#{ %
+                                             s2. s1.*2 \break
+                                             s1.\noBreak s1.\noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\noBreak s1.\noBreak s1.*3 \noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\noBreak s1.*3 \noBreak s1.\noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\break
+                                             s1.\noBreak s1.\noBreak s1.\noBreak s1.*7 \break
+                                             #})
                (DCHchoeurHippolyteAricie #:notes "violon")
                (DCIchoeurAricie)
                (DDAphedreChoeur)
@@ -220,9 +264,15 @@
                (EFEmenuet #:notes "dessus")
                (EFGgavotte #:notes "violon")
                (EFHgavotte)
-               (EFIariette #:notes "violons1")
-               (EFJchaconne)
-               )
+               (EFIariette #:notes "violons1"
+                           #:music ,#{ s4 s2.*9 \break #})
+               (EFJchaconne #:music ,#{ %
+                                        s2.*8 \break
+                                        s2.*8 \break
+                                        s2.*8 \break
+                                        s2.*13 \break \grace s8
+
+                                              #}))
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     (flute1    "Flûte I" ((hautbois1 "Hautbois") (violon1 "Violons"))
                "flute1"
@@ -265,8 +315,17 @@
                (EFGgavotte #:notes "flute" #:instrument "Petites flûtes")
                (EFIariette
                 #:instrument ,(markup #:concat ("P" #:super "ère") "flûte seule"))
-               (EFJchaconne)
-               )
+               (EFJchaconne #:music ,#{ %
+                                        s2.*6 \break
+                                        s2.*9 \break
+                                        s2.*9 \break
+                                        s2.*18 \break
+                                        s2.*7 \break
+                                        s2.*5 \break
+                                        s2.*4 \break
+                                        s2.*4 \break
+                                        s2.*11 \break
+                                        s2.*6 \break #}))
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     (hautbois1 "Hautbois I" ((flute1 "Flûtes") (violon1 "Violons"))
                ;; default note-filename, piece specs
