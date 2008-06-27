@@ -257,13 +257,10 @@ setPart =
 global = 
 #(define-music-function (parser location) ()
   (let* ((global-symbol (string->symbol (format "global~a~a" (*opus*) (*piece*))))
-         (global-music (ly:parser-lookup parser global-symbol))
-         (start-overrides (ly:parser-lookup parser 'staffStart)))
+         (global-music (ly:parser-lookup parser global-symbol)))
    (if (not (ly:music? global-music))
        (let* ((global-file (include-pathname "global")))
-         (if (not (ly:music? start-overrides))
-             (set! start-overrides (make-music 'Music)))
-         (set! global-music #{ \notemode { $start-overrides \include $global-file } #})
+         (set! global-music #{ \notemode { \staffStart \include $global-file } #})
          (ly:parser-define! parser global-symbol global-music)))
    (ly:music-deep-copy global-music)))
 
