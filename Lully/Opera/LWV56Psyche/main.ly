@@ -148,45 +148,75 @@
 %%
 \scene "Scène IV"
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps Psyché, le Roi }
+  \smallCaps Psyché, le Roi.
 }
 \pieceToc \markup { Psyché, le Roi }
 \includeScore "BDApsycheRoi"
 \actEnd \markup { FIN DU PREMIER ACTE }
-%{
+
 %% Deuxième acte
-\act "Acte Second" "Scène Première"
-\piece "CAAsymphonie" "Symphonie"
-\air "CABvulcain" \markup { Vulcain : \italic { Cyclopes, achevez ce superbe palais }}
+\act "Acte Second"
+\scene "Scène Première"
+\sceneDescription \markup \wordwrap-center \smallCaps { Vulcain. }
+\pieceTocTitle "Symphonie"
+\includeScore "CAAsymphonie"
+\pieceToc \markup { Vulcain : \italic { Cyclopes, achevez ce superbe palais }}
+\includeScore "CABvulcain"
 %%
 \scene "Scène II"
-\air "CBAvulcainZephir" \markup { Zéphir, Vulcain }
-\piece "CBBair" "Air"
-\air "CBCvulcain" \markup { Vucain : \italic { Dépéchez, préparez ces lieux }}
-\air "CBDritournelle" \markup "Ritournelle"
+\sceneDescription \markup \wordwrap-center \smallCaps { Zéphir, Vulcain. }
+\pieceToc \markup { Zéphir, Vulcain }
+\includeScore "CBAvulcainZephir"
+\pieceTocTitle "Air"
+\includeScore "CBBair"
+\pieceToc \markup { Vucain : \italic { Dépéchez, préparez ces lieux }}
+\includeScore "CBCvulcain"
+\pieceToc \markup "Ritournelle"
+\includeScore "CBDritournelle"
 %%
 \scene "Scène III"
-\air "CCAritournelle" \markup Ritournelle
-\air "CCBvenusVulcain" \markup { Venus, Vulcain }
-\air "CCCritournelle" \markup Ritournelle
+\sceneDescription \markup \wordwrap-center \smallCaps { Vénus, Vulcain. }
+\pieceToc \markup Ritournelle
+\includeScore "CCAritournelle"
+\pieceToc \markup { Venus, Vulcain }
+\includeScore "CCBvenusVulcain"
+\pieceToc \markup Ritournelle
+\includeScore "CCCritournelle"
 %%
 \scene "Scène IV"
-\air "CDApsyche" \markup { Psyché : \italic { Où suis-je ? }}
+\sceneDescription \markup \wordwrap-center \smallCaps { Psyché. }
+\pieceToc \markup { Psyché : \italic { Où suis-je ? }}
+\includeScore "CDApsyche"
 %%
 \scene "Scène V"
-\piece "CEAritournelle" "Ritournelle"
-\air "CEBpsycheNympheZephirAmour" \markup { Psyché, une Nymphe, Zéphir, l'Amour }
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps { Psyché, Zéphir, l'Amour, } une Nymphe.
+}
+\pieceTocTitle "Ritournelle"
+\includeScore "CEAritournelle"
+\pieceToc \markup { Psyché, une Nymphe, Zéphir, l'Amour }
+\includeScore "CEBpsycheNympheZephirAmour"
 %%
 \scene "Scène VI"
-\piece "CFAritournelle" "Ritournelle"
-\air "CFBamourPsyche" \markup { Psyché, l'Amour }
-\piece "CFCritournelle" "Ritournelle"
-\air "CFDamour" \markup { L'Amour : \italic { Venez voir ce palais }}
-\piece "CFEair" "Air"
-\air "CFFnymphe" \markup { Première Nymphe : \italic { Aimable jeunesse, suivez la tendresse }}
-\air "CFGnymphes" \markup { Deuxième et troisième Nymphes : \italic { Chacun est obligé d'aimer à son tour }}
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps { Psyché, Zéphir, l'Amour, } trois Nymphes.
+}
+\pieceTocTitle "Ritournelle"
+\includeScore "CFAritournelle"
+\pieceToc \markup { Psyché, l'Amour }
+\includeScore "CFBamourPsyche"
+\pieceTocTitle "Ritournelle"
+\includeScore "CFCritournelle"
+\pieceToc \markup { L'Amour : \italic { Venez voir ce palais }}
+\includeScore "CFDamour"
+\pieceTocTitle "Air"
+\includeScore "CFEair"
+\pieceToc \markup { Première Nymphe : \italic { Aimable jeunesse, suivez la tendresse }}
+\includeScore "CFFnymphe"
+\pieceToc \markup { Deuxième et troisième Nymphes : \italic { Chacun est obligé d'aimer à son tour }}
+\includeScore "CFGnymphes"
 \actEnd \markup { "FIN DU SECOND ACTE" }
-
+%{
 %% Troisième acte
 \act "Acte Troisième" "Scène Première"
 \piece "DAAritournelle" "Ritournelle"

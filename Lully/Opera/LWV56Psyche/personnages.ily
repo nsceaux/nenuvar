@@ -39,7 +39,7 @@ nympheMark =
 
 amourMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Amour"))
+  (make-character-mark "vhaute-contre" "Amour"))
 
 fleuveMark =
 #(define-music-function (parser location) ()
