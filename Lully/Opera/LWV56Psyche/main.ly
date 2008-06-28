@@ -47,8 +47,8 @@
 %%% Prologue
 \ouverture "Ouverture"
 \includeScore "AAAouverture"
-%{
-\prologue "Prologue" \markup \wordwrap-center {
+\act "Prologue"
+\sceneDescription \markup \wordwrap-center {
   La scène représente sur le devant un lieu champêtre,
   et dans l'enfoncement un rocher percé à jour, à travers
   duquel on voit la mer en éloignement. 
@@ -61,31 +61,40 @@
   Flore chante ce récit pour inviter Vénus à descendre
   en terre.
 }
-\air "ABflore" \markup { Flore : \italic { Ce n'est plus le temps de la guerre }}
-\cosmeticPageBreak #'all
-\airTitre "ACchoeur" \markup \wordwrap-center {
+\pieceToc \markup { Flore : \italic { Ce n'est plus le temps de la guerre }}
+\includeScore "AABflore"
+\pieceTocAndTitle \markup \wordwrap-center {
   Chœur des divinités de la terre et des eaux, composé de Flore,
   Nymphes, Palaemon, Vertumne, Sylvains, Faunes, Dryades et Naïades.
 } \markup { Chœur : \italic { Nous goûtons une paix profonde } }
-\cosmeticPageBreak #'all
-\airTitre "ADritournelle" \markup \wordwrap-center {
+\includeScore "AACchoeur"
+\pieceTocAndTitle \markup \wordwrap-center {
   Entrée de ballet composée de deux Dryades, quatre Sylvains, deux
   Fleuves et deux Naïades.
 } \markup { Entrée de ballet }
-\air "AEvertumnePalaemon" \markup { Vertumne, Palaemon : \italic { Rendez-vous, beautés curelles } }
-\air "AFmenuet" \markup Ritournelle
-\air "AGflore" \markup { Flore : \italic { Est-on sage dans le bel âge }}
-\markup \titre \line {
-  On reprend le chœur 
-  \italic { Nous goûtons une paix profonde }
-  page \page-ref #'ACchoeur "00" "?" \hspace #-1 .
+\includeScore "AADritournelle"
+\pieceToc \markup { Vertumne, Palaemon : \italic { Rendez-vous, beautés curelles } }
+\includeScore "AAEvertumnePalaemon"
+\pieceTocTitle "Ritournelle"
+\includeScore "AAFmenuet"
+\pieceToc \markup { Flore : \italic { Est-on sage dans le bel âge }}
+\includeScore "AAGflore"
+\markup \title \fill-line {
+  \line {
+    On reprend le chœur 
+    \italic { Nous goûtons une paix profonde }
+    page \page-refII #'AACchoeur .
+  }
 }
-\air "AHvenus" \markup { Venus : \italic { Pourquoi du ciel m'obliger à descendre }}
-\air "AIritournelle" \markup Ritournelle
-\air "AJvenus" \markup { Venus : \italic { Mon fils, si tu plains mes malheurs }}
+\pieceToc \markup { Venus : \italic { Pourquoi du ciel m'obliger à descendre }}
+\includeScore "AAHvenus"
+\pieceTocTitle "Ritournelle"
+\includeScore "AAIritournelle"
+\pieceToc \markup { Venus : \italic { Mon fils, si tu plains mes malheurs }}
+\includeScore "AAJvenus"
 
 \actEnd \markup { FIN DU PROLOGUE }
-
+%{
 %% Premier acte
 \act "Acte Premier" "Scène Première"
 \piece "BAAritournelle" "Ritournelle"
