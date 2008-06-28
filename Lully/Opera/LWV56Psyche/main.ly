@@ -28,7 +28,7 @@
 
 \setOpus "Lully/Opera/LWV56Psyche"
 \opusTitle "Psyché"
-%%\include "Lully/Opera/LWV56Psyche/personnages.ily"
+\include "Lully/Opera/LWV56Psyche/personnages.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Title page
@@ -94,19 +94,30 @@
 \includeScore "AAJvenus"
 
 \actEnd \markup { FIN DU PROLOGUE }
-%{
+
 %% Premier acte
-\act "Acte Premier" "Scène Première"
-\piece "BAAritournelle" "Ritournelle"
-\air "BABaglaureCidippe" \markup { Aglaure, Cidippe }
+\act "Acte Premier"
+\scene "Scène Première"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps { Aglaure, Cidippe. }
+}
+\pieceTocTitle "Ritournelle"
+\includeScore "BAAritournelle"
+\pieceToc \markup { Aglaure, Cidippe }
+\includeScore "BABaglaureCidippe"
 %%
 \scene "Scène II"
-\air "BBAaglaureCidippeLycas" \markup { Aglaure, Cidippe, Lycas }
+\sceneDescription \markup \column {
+  \fill-line { \line \smallCaps { Aglaure, Cidippe, Lycas, } }
+  \fill-line { \line { une femme affligée, deux hommes désolés. } }
+}
+\pieceToc \markup { Aglaure, Cidippe, Lycas }
+\includeScore "BBAaglaureCidippeLycas"
 \score {
-  \newStaff {
-    \key re \minor
+  \new Staff {
+    \keys re \minor
     \time 4/4
-    \clef bass 
+    \clef "basse" 
     sol,4 sol, la, si, | \custosNote do4
   }
   \layout {
@@ -115,20 +126,34 @@
     \context { \Staff \remove "Time_signature_engraver" }
   }
 }
-\air "BBBritournelle" \markup Ritournelle
-\air "BBCaffliges" \markup \italic { Deh piangete al pianto mio }
-\air "BBDritournelle" \markup Ritournelle
-\air "BBEaffliges" \markup \italic { Com'esser può fra voi }
-\air "BBFritournelle" \markup Ritournelle
-\air "BBGdesolee" \markup \italic { Ahi! ch'indarno si tarda! }
+\pieceToc \markup Ritournelle
+\includeScore "BBBritournelle"
+\pieceToc \markup \italic { Deh piangete al pianto mio }
+\includeScore "BBCaffliges"
+\pieceToc \markup Ritournelle
+\includeScore "BBDritournelle"
+\pieceToc \markup \italic { Com'esser può fra voi }
+\includeScore "BBEaffliges"
+\pieceToc \markup Ritournelle
+\includeScore "BBFritournelle"
+\pieceToc \markup \italic { Ahi! ch'indarno si tarda! }
+\includeScore "BBGdesolee"
 %%
 \scene "Scène III"
-\air "BCAaglaureCidippePsyche" \markup { Aglaure, Cidippe, Psyché }
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps { Aglaure, Cidippe, Psyché. }
+}
+\pieceToc \markup { Aglaure, Cidippe, Psyché }
+\includeScore "BCAaglaureCidippePsyche"
 %%
 \scene "Scène IV"
-\air "BDApsycheRoi" \markup { Psyché, le Roi }
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Psyché, le Roi }
+}
+\pieceToc \markup { Psyché, le Roi }
+\includeScore "BDApsycheRoi"
 \actEnd \markup { FIN DU PREMIER ACTE }
-
+%{
 %% Deuxième acte
 \act "Acte Second" "Scène Première"
 \piece "CAAsymphonie" "Symphonie"

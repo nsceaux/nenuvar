@@ -12,9 +12,11 @@
     #:line (#:characteri name #:huge " " #:huge #:italic text))))
 
 #(define-public (make-character-mark clefs name)
-  #{ << { \set Staff.forceClef = ##t \clef #$clefs
-          \once \override Staff . Clef #'full-size-change = ##t }
-        s1*0 ^\markup \character $name >> #})
+   (if (string=? clefs "")
+       #{ s1*0 ^\markup \character $name #}
+       #{ << { \set Staff.forceClef = ##t \clef #$clefs
+               \once \override Staff . Clef #'full-size-change = ##t }
+             s1*0 ^\markup \character $name >> #}))
 
 
 markUpBegin = {
