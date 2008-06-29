@@ -86,7 +86,7 @@
     page \page-refII #'AACchoeur .
   }
 }
-\pieceToc \markup { Venus : \italic { Pourquoi du ciel m'obliger à descendre }}
+\pieceToc \markup { Vénus : \italic { Pourquoi du ciel m'obliger à descendre }}
 \includeScore "AAHvenus"
 \pieceTocTitle "Ritournelle"
 \includeScore "AAIritournelle"
@@ -216,92 +216,157 @@
 \pieceToc \markup { Deuxième et troisième Nymphes : \italic { Chacun est obligé d'aimer à son tour }}
 \includeScore "CFGnymphes"
 \actEnd \markup { "FIN DU SECOND ACTE" }
-%{
+
 %% Troisième acte
-\act "Acte Troisième" "Scène Première"
-\piece "DAAritournelle" "Ritournelle"
-\air "DABvenus" \markup { Venus : \italic { Pompe que ce palais de tous côtés étale }}
+\act "Acte Troisième"
+\scene "Scène Première"
+\sceneDescription \markup \wordwrap-center { \smallCaps Vénus. }
+\pieceTocTitle "Ritournelle"
+\includeScore "DAAritournelle"
+\pieceToc \markup { Vénus : \italic { Pompe que ce palais de tous côtés étale }}
+\includeScore "DABvenus"
 %%
 \scene "Scène II"
-\airTitre "DBApsyche" \markup "Ritournelle" \markup { Psyché : \italic { Que fais-tu, montre-toi }}
-\air "DBBpsycheVenus" \markup { Psyché, Venus }
+\sceneDescription \markup \wordwrap-center \smallCaps { Vénus, Psyché. }
+\pieceTocAndTitle \markup "Ritournelle" \markup { Psyché : \italic { Que fais-tu, montre-toi }}
+\includeScore "DBApsyche"
+\pieceToc  \markup { Psyché, Venus }
+\includeScore "DBBpsycheVenus"
 %%
 \scene "Scène III"
-\air "DCApsycheAmour" \markup { Psyché, l'Amour }
+\sceneDescription \markup \wordwrap-center \smallCaps { Psyché, l'Amour. }
+\pieceToc \markup { Psyché, l'Amour }
+\includeScore "DCApsycheAmour"
 %%
 \scene "Scène IV"
-\air "DDApsyche" \markup { Psyché : \italic { Arrêtez cher amant }}
+\sceneDescription \markup \wordwrap-center \smallCaps { Psyché. }
+\pieceToc \markup { Psyché : \italic { Arrêtez cher amant }}
+\includeScore "DDApsyche"
 %%
 \scene "Scène V"
-\air "DEApsycheVenus" \markup { Psyché, Venus }
-\piece "DEBritournelle" "Ritournelle"
-\air "DECpsyche" \markup { Psyché : \italic { Vous m'abandonnez donc }}
+\sceneDescription \markup \wordwrap-center \smallCaps { Vénus, Psyché. }
+\pieceToc \markup { Psyché, Venus }
+\includeScore "DEApsycheVenus"
+\pieceTocTitle "Ritournelle"
+\includeScore "DEBritournelle"
+\pieceToc \markup { Psyché : \italic { Vous m'abandonnez donc }}
+\includeScore "DECpsyche"
 %%
 \scene "Scène VI"
-\air "DFAfleuvePsyche" \markup { Psyché, le Fleuve }
+\sceneDescription \markup \wordwrap-center { \smallCaps Psyché, le Fleuve. }
+\pieceToc \markup { Psyché, le Fleuve }
+\includeScore "DFAfleuvePsyche"
 \actEnd \markup { FIN DU TROISIÈME ACTE }
 
 %% Quatrième acte
-\act "Acte Quatrième" "Scène Première"
-\piece "EAAritournelle" "Ritournelle"
-\air "EABpsyche" \markup { Psyché : \italic { Par quels noirs et fâcheux passages }}
-\markup \titre \line {
-  On reprend la ritournelle page
-  \page-ref #'EAAritournelle "000" "?" \hspace #-1 .
+\act "Acte Quatrième"
+\scene "Scène Première"
+\sceneDescription \markup \wordwrap-center { \smallCaps Psyché. }
+\pieceTocTitle "Ritournelle"
+\includeScore "EAAritournelle"
+\pieceToc \markup { Psyché : \italic { Par quels noirs et fâcheux passages }}
+\includeScore "EABpsyche"
+\markup \title \fill-line {
+  \line { On reprend la ritournelle page \page-refIII #'EAAritournelle . }
 }
-\air "EACpsyche" \markup { Psyché : \italic { N'y pensons plus mon bonheur a changé }}
-\air "EADair" \markup Air
-\air "EAEfuries" \markup { Furies : \italic { Où penses-tu porter tes pas téméraires }}
-\air "EAFpsycheFuries" \markup { Psyché, Furies }
-\air "EAGfuries" \markup { Furies : \italic { Cependant montrons-lui ce que ces lieux terribles }}
-\piece "EAHair" "Air des Furies"
+\pieceToc \markup { Psyché : \italic { N'y pensons plus mon bonheur a changé }}
+\includeScore "EACpsyche"
+\scene "Scène II"
+\sceneDescription \markup \wordwrap-center { \smallCaps Psyché, Furies. }
+\pieceToc \markup Air
+\includeScore "EADair"
+\pieceToc \markup { Furies : \italic { Où penses-tu porter tes pas téméraires }}
+\includeScore "EAEfuries"
+\pieceToc \markup { Psyché, Furies }
+\includeScore "EAFpsycheFuries"
+\pieceToc \markup { Furies : \italic { Cependant montrons-lui ce que ces lieux terribles }}
+\includeScore "EAGfuries"
+\pieceTocTitle "Air des Furies"
+\includeScore "EAHair"
 \includeScore "EAIair"
-\air "EAJfuries" \markup { Furies : \italic { Venez venez, Nymphe de l'Achéron }}
-\air "EAKnymphesPsyche" \markup { Nymphes, Psyché : \italic { En vain ce soin vous embarrasse }}
+\pieceToc \markup { Furies : \italic { Venez venez, Nymphe de l'Achéron }}
+\includeScore "EAJfuries"
+\scene "Scène III"
+\sceneDescription \markup \wordwrap-center { \smallCaps Psyché, Nymphes. }
+\pieceToc \markup { Nymphes, Psyché : \italic { En vain ce soin vous embarrasse }}
+\includeScore "EAKnymphesPsyche"
 \actEnd \markup { FIN DU QUATRIÈME ACTE }
 
 %% Cinquième acte
-\act "Cinquième Acte" "Scène Première"
-\piece "FAAritournelle" "Ritournelle"
-\air "FABpsyche" \markup { Psyché : \italic { Si je fais vanité de ma tendresse extrême }}
+\act "Cinquième Acte"
+\scene "Scène Première"
+\sceneDescription \markup \wordwrap-center { \smallCaps Psyché. }
+\pieceTocTitle "Ritournelle"
+\includeScore "FAAritournelle"
+\pieceToc \markup { Psyché : \italic { Si je fais vanité de ma tendresse extrême }}
+\includeScore "FABpsyche"
 %%
 \scene "Scène II"
-\air "FBAvenusPsyche" \markup { Venus, Psyché }
+\sceneDescription \markup \wordwrap-center \smallCaps { Vénus, Psyché. }
+\pieceToc \markup { Vénus, Psyché }
+\includeScore "FBAvenusPsyche"
 %%
 \scene "Scène III"
-\air "FCAmercureVenus" \markup { Mercure, Venus }
+\sceneDescription \markup \wordwrap-center \smallCaps { Mercure, Vénus. }
+\pieceToc \markup { Mercure, Vénus }
+\includeScore "FCAmercureVenus"
 %%
 \scene "Scène Dernière"
-\piece "FDAprelude" "Prélude"
-\air "FDBjupiterVenusPsycheAmour" \markup { Jupiter, Venus, Psyché, l'Amour }
-\air "FDCjupiter" \markup { Jupiter : \italic { Aimez sans trouble et sans alarmes }}
-\air "FDDritournelle" \markup Ritournelle
-\air "FDEapollon" \markup { Apollon : \italic { Unissons-nous, troupe immortelle }}
-\airTitre "FDFchoeur" \markup CHŒUR \markup { Chœur : \italic { Célébrons ce grand jour }}
-\air "FDGritournelle" \markup Ritournelle
-\air "FDHbacchus" \markup { Bacchus : \italic { Si quelque fois suivant nos douces lois }}
-\air "FDImome" \markup { Mome : \italic { Je cherche à médire sur la Terre et dans les cieux }}
-\air "FDJmars" \markup { Mars : \italic { Mes plus fiers ennemis, vaincus ou pleins d'effroi }}
-\air "FDKchoeur" \markup { Chœur : \italic { Chantons les plaisirs charmants }}
-\air "FDLritournelle" \markup Ritournelle
-\air "FDMapollon" \markup { Apollon : \italic { Le dieu qui nous engage à lui faire la cour }}
-\air "FDNritournelle" \markup Ritournelle
-\air "FDOaDeux" \markup \italic { Gardez-vous, beautés sévères }
-\piece "FDPair" "Premier Air"
-\air "FDQbacchus" \markup { Bacchus : \italic { Admirons le jus de la treille }}
-\piece "FDRair" "Deuxième Air"
-\air "FDSsilene" \markup { Silène : \italic { Bacchus veut qu'on boive à longs traits }}
-\air "FDTaTrois" \markup \italic { Voulez-vous des douceurs parfaites }
-\piece "FDUentree" "Entrée pour la suite de Mome"
-\air "FDVmome" \markup { Mome : \italic { Folatrons, divertissons-nous }}
-\air "FDWmars" \markup \italic { Laissons en paix toute la terre }
-\piece "FDXprelude" "Prélude"
-\piece "FDYrondeau" "Rondeau des enseignes"
-\piece "FDZair" "Deuxième Air"
+\pieceTocTitle "Prélude"
+\includeScore "FDAprelude"
+\pieceToc \markup { Jupiter, Vénus, Psyché, l'Amour }
+\includeScore "FDBjupiterVenusPsycheAmour"
+\pieceToc \markup { Jupiter : \italic { Aimez sans trouble et sans alarmes }}
+\includeScore "FDCjupiter"
+\pieceToc \markup Ritournelle
+\includeScore "FDDritournelle"
+\pieceToc \markup { Apollon : \italic { Unissons-nous, troupe immortelle }}
+\includeScore "FDEapollon"
+\pieceTocAndTitle \markup CHŒUR \markup { Chœur : \italic { Célébrons ce grand jour }}
+\includeScore "FDFchoeur"
+\pieceToc \markup Ritournelle
+\includeScore "FDGritournelle"
+\pieceToc \markup { Bacchus : \italic { Si quelque fois suivant nos douces lois }}
+\includeScore "FDHbacchus"
+\pieceToc \markup { Mome : \italic { Je cherche à médire sur la Terre et dans les cieux }}
+\includeScore "FDImome"
+\pieceToc \markup { Mars : \italic { Mes plus fiers ennemis, vaincus ou pleins d'effroi }}
+\includeScore "FDJmars"
+\pieceToc \markup { Chœur : \italic { Chantons les plaisirs charmants }}
+\includeScore "FDKchoeur"
+\pieceToc \markup Ritournelle
+\includeScore "FDLritournelle"
+\pieceToc \markup { Apollon : \italic { Le dieu qui nous engage à lui faire la cour }}
+\includeScore "FDMapollon"
+\pieceToc \markup Ritournelle
+\includeScore "FDNritournelle"
+\pieceToc \markup \italic { Gardez-vous, beautés sévères }
+\includeScore "FDOaDeux"
+\pieceTocTitle "Premier Air"
+\includeScore "FDPair"
+\pieceToc \markup { Bacchus : \italic { Admirons le jus de la treille }}
+\includeScore "FDQbacchus"
+\pieceTocTitle "Deuxième Air"
+\includeScore "FDRair"
+\pieceToc \markup { Silène : \italic { Bacchus veut qu'on boive à longs traits }}
+\includeScore "FDSsilene"
+\pieceToc \markup \italic { Voulez-vous des douceurs parfaites }
+\includeScore "FDTaTrois"
+\pieceTocTitle "Entrée pour la suite de Mome"
+\includeScore "FDUentree"
+\pieceToc \markup { Mome : \italic { Folatrons, divertissons-nous }}
+\includeScore "FDVmome"
+\pieceToc \markup \italic { Laissons en paix toute la terre }
+\includeScore "FDWmars"
+\pieceTocTitle "Prélude"
+\includeScore "FDXprelude"
+\pieceTocTitle "Rondeau des enseignes"
+\includeScore "FDYrondeau"
+\pieceTocTitle "Deuxième Air"
+\includeScore "FDZair"
 
-\markup \titre \line { 
-  On reprend le chœur \italic { Chantons les plaisirs charmants }
-  page \page-ref #'FDKchoeur "000" "?" \hspace #-1 .
+\markup \title \fill-line {
+  \line { On reprend le chœur \italic { Chantons les plaisirs charmants }
+          page \page-refIII #'FDKchoeur . }
 }
 \actEnd \markup { FIN DU CINQUIÈME ET DERNIER ACTE. }
-%}

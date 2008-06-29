@@ -112,9 +112,9 @@
   fa'8 
 }
 \amourMark {
-  fa''8 re''8 re''8 la'4 r8 fa''8 |
-  mi''4 mi''8 fa''8 re''4 re''8 mi''8 |
-  dod''4 dod''8 
+  fa' re' re' la4 r8 fa'  |
+  mi'4 mi'8 fa' re'4 re'8 mi'  |
+  dod'4 dod'8  
 }
 \psycheMark {
   la'8 la'8 re''8 |
@@ -122,11 +122,11 @@
   mi''4 
 }
 \amourMark {
-  do''8 do''8 sol'4 sol'8 la'8 |
-  sib'4 sib'8 do''8 re''4 re''8 mi''8 |
-  fa''4 la'8 la'8 la'4 sib'8 do''8 |
-  re''8 sib'8 sib'8 sib'8 sib'4 ( la'8 ) sib'8 |
-  la'4 la'8 
+  do'8 do' sol4 sol8 la  |
+  sib4 sib8 do' re'4 re'8 mi'  |
+  fa'4 la8 la la4 sib8 do'  |
+  re' sib sib sib sib4  ( la8  ) sib  |
+  la4 la8  
 }
 \psycheMark {
   r8 do''8 do''16 do''16 do''8 la'8 |
@@ -134,11 +134,11 @@
   mi'4 
 }
 \amourMark {
-  la'8 la'16 la'16 re''8 la'8 |
-  sib'8 re''8 sib'8 sib'8 sib'8 sib'8 |
-  sol'4 do''8 do''8 do''8 re''8 |
-  sol'2 sol'4 la'4 |
-  fa'4 fa'8 r8 
+  la8 la16 la re'8 la  |
+  sib re' sib sib sib sib  |
+  sol4 do'8 do' do' re'  |
+  sol2 sol4 la  |
+  fa fa8 r  
 }
 \psycheMark {
   fa''4 r8 do''16 do''16 |
