@@ -1,8 +1,9 @@
 %%% -*- Mode: scheme -*-
 #(*all-part-specs*
   `((dessus1 "Dessus I" ()
-             ;; default note-filename, piece specs
-             "dessus"
+             ;; default note-filename, default score file
+             "dessus" "score"
+             ;; piece specs
              (AAAouverture)
              (AACchoeur)
              (AADritournelle)
@@ -53,7 +54,7 @@
              (FDZair))
     (dessus2 "Dessus II" ()
              ;; default note-filename, piece specs
-             "dessus"
+             "dessus" "score"
              (AAAouverture)
              (AACchoeur)
              (AADritournelle)
@@ -102,4 +103,160 @@
              (FDXprelude #:tag violons)
              (FDYrondeau)
              (FDZair))
+    (haute-contre "Haute-contre de violon" ()
+             ;; default note-filename, piece specs
+             "haute-contre" "score"
+             (AAAouverture)
+             (AACchoeur)
+             (AADritournelle)
+             (AAFmenuet)
+             (AAIritournelle)
+             
+             (BBBritournelle)
+             (BBFritournelle)
+
+             (CAAsymphonie)
+             (CBBair)
+             (CBCvulcain)
+             (CBDritournelle)
+             (CCCritournelle)
+             (CFEair)
+             
+             (EADair)
+             (EAHair)
+             (EAIair)
+             
+             (FDAprelude)
+             (FDDritournelle)
+             (FDFchoeur #:music ,#{ s1*22 s2.*11 \pageBreak #})
+             (FDGritournelle)
+             (FDKchoeur)
+             (FDLritournelle)
+             (FDNritournelle)
+             (FDPair)
+             (FDRair)
+             (FDUentree)
+             (FDXprelude #:tag violons)
+             (FDYrondeau)
+             (FDZair))
+    (taille "Taille de violon" ()
+             ;; default note-filename, piece specs
+             "taille" "score-alto"
+             (AAAouverture)
+             (AACchoeur)
+             (AADritournelle)
+             (AAFmenuet)
+             (AAIritournelle)
+             
+             (BBBritournelle)
+             (BBFritournelle
+              #:music ,#{ \repeat unfold 10 {s1\noBreak} s1 \break
+                          \repeat unfold 11 {s1\noBreak} s1 \break
+                          \repeat unfold 10 {s1\noBreak} 
+                          #})
+
+             (CAAsymphonie)
+             (CBBair)
+             (CBCvulcain)
+             (CBDritournelle)
+             (CCCritournelle)
+             (CFEair)
+             
+             (EADair)
+             (EAHair)
+             (EAIair)
+             
+             (FDAprelude)
+             (FDDritournelle)
+             (FDFchoeur #:music ,#{ s1*22 s2.*11 \pageBreak #})
+             (FDGritournelle)
+             (FDKchoeur)
+             (FDLritournelle)
+             (FDNritournelle)
+             (FDPair)
+             (FDRair)
+             (FDUentree)
+             (FDXprelude #:tag violons)
+             (FDYrondeau)
+             (FDZair))
+    (quinte "Quinte de violon" ()
+             ;; default note-filename, piece specs
+             "quinte" "score-alto"
+             (AAAouverture)
+             (AACchoeur)
+             (AADritournelle)
+             (AAFmenuet)
+             (AAIritournelle)
+             
+             (BBBritournelle)
+             (BBFritournelle)
+
+             (CAAsymphonie)
+             (CBBair)
+             (CBCvulcain)
+             (CBDritournelle)
+             (CCCritournelle)
+             (CFEair)
+             
+             (EADair)
+             (EAHair)
+             (EAIair)
+             
+             (FDAprelude)
+             (FDDritournelle)
+             (FDFchoeur #:music ,#{ s1*22 s2.*40 \pageBreak #})
+             (FDGritournelle)
+             (FDKchoeur)
+             (FDLritournelle)
+             (FDNritournelle)
+             (FDPair)
+             (FDRair)
+             (FDUentree)
+             (FDXprelude #:tag violons)
+             (FDYrondeau)
+             (FDZair))
+    (basse "Basse" ()
+           "basse" "score-basse"
+           (AAAouverture)
+           (AACchoeur)
+           (AADritournelle)
+           (AAFmenuet)
+           (AAIritournelle)
+
+           (BAAritournelle)
+           (BBBritournelle)
+           (BBFritournelle)
+
+           (CAAsymphonie)
+           (CBBair)
+           (CBDritournelle)
+           (CCAritournelle)
+           (CCCritournelle)
+           (CEAritournelle)
+           (CFAritournelle)
+           (CFCritournelle)
+           (CFEair)
+
+           (DAAritournelle)
+           (DEBritournelle)
+
+           (EAAritournelle #:notes "basse2")
+           (EADair)
+           (EAHair)
+           (EAIair)
+
+           (FAAritournelle)
+           (FDAprelude)
+           (FDDritournelle)
+           (FDFchoeur)
+           (FDGritournelle)
+           (FDKchoeur)
+           (FDLritournelle)
+           (FDNritournelle)
+           (FDPair)
+           (FDRair)
+           (FDUentree)
+           (FDXprelude)
+           (FDYrondeau)
+           (FDZair))
     ))

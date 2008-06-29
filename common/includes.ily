@@ -148,7 +148,7 @@
                   (string-append "templates/" score-filename ".ily")
                   (include-pathname score-filename))))))
 
-#(define (make-piece piece-spec default-note-filename)
+#(define (make-piece piece-spec default-note-filename default-score-filename)
   "Return an associative list defining a part piece, with the following keys:
  - name          the piece name.
  - score         the part piece filename (without directory, nor extension)
@@ -174,7 +174,7 @@ combination from the following list:
 where #:silence, when associated to a true value, forces the printing of rests
       #:music allows to include some extra music"
   (let ((name (car piece-spec))
-        (score "score")
+        (score default-score-filename)
         (from-templates #t)
         (ragged #f)
         (indent #f)
@@ -215,10 +215,10 @@ where #:silence, when associated to a true value, forces the printing of rests
 
 setPart =
 #(define-music-function (parser location name) (string?)
-   (define (add-piece! pieces-htable piece-spec forced default-note-filename instrument)
+   (define (add-piece! pieces-htable piece-spec forced default-note-filename default-score-filename instrument)
      (let ((piece-name (car piece-spec)))
        (if (or forced (not (hashq-ref pieces-htable piece-name #f)))
-           (let ((piece (make-piece piece-spec default-note-filename)))
+           (let ((piece (make-piece piece-spec default-note-filename default-score-filename)))
              (if (and instrument
                       (not (assoc-ref piece 'instrument)))
                  (assoc-set! piece 'instrument instrument))
@@ -229,12 +229,13 @@ setPart =
          (let ((part-name (cadr spec))
                (fallbacks (caddr spec))
                (default-notes (cadddr spec))
-               (piece-specs (cddddr spec)))
+               (default-score (car (cddddr spec)))
+               (piece-specs (cdr (cddddr spec))))
            (*part* part-key)
            (*part-name* part-name)
            (*part-specs* (make-hash-table 150))
            (for-each (lambda (piece-spec)
-                      (add-piece! (*part-specs*) piece-spec #t default-notes #f))
+                      (add-piece! (*part-specs*) piece-spec #t default-notes default-score #f))
                     piece-specs)
            (for-each (lambda (fallback)
                       (let* ((key (car fallback))
@@ -244,7 +245,7 @@ setPart =
                             (let ((default-notes (cadddr spec))
                                   (piece-specs (cddddr spec)))
                               (for-each (lambda (piece-spec)
-                                         (add-piece! (*part-specs*) piece-spec #f default-notes instrument))
+                                         (add-piece! (*part-specs*) piece-spec #f default-notes default-score instrument))
                                        piece-specs)))))
                     fallbacks))
          (ly:warning "No `~a' part defined for this opus" part-key)))
@@ -320,7 +321,8 @@ includeScore =
                                (string->symbol name)
                                (make-piece (list (string->symbol name)
                                                  #:silence #t)
-                                           "silence"))))
+                                           "silence"
+                                           "score-silence"))))
          (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
                         (*note-filename* (assoc-ref piece 'notes))
                         (*instrument-name* (assoc-ref piece 'instrument))

@@ -187,6 +187,7 @@
 \includeScore "CBBair"
 \pieceToc \markup { Vucain : \italic { Dépéchez, préparez ces lieux }}
 \includeScore "CBCvulcain"
+%{ ======== %} \partPageBreak #'(basse)
 \pieceToc \markup "Ritournelle"
 \includeScore "CBDritournelle"
 %%
@@ -338,6 +339,7 @@
 \includeScore "FDDritournelle"
 \pieceToc \markup { Apollon : \italic { Unissons-nous, troupe immortelle }}
 \includeScore "FDEapollon"
+%{ ======== %} \partPageBreak #'(basse)
 \pieceTocAndTitle \markup CHŒUR \markup { Chœur : \italic { Célébrons ce grand jour }}
 \includeScore "FDFchoeur"
 \pieceToc \markup Ritournelle
@@ -358,6 +360,7 @@
 \includeScore "FDNritournelle"
 \pieceToc \markup \italic { Gardez-vous, beautés sévères }
 \includeScore "FDOaDeux"
+%{ ======== %} \partPageBreak #'(haute-contre taille quinte)
 \pieceTocTitle "Premier Air"
 \includeScore "FDPair"
 \pieceToc \markup { Bacchus : \italic { Admirons le jus de la treille }}
@@ -376,7 +379,7 @@
 \includeScore "FDWmars"
 \pieceTocTitle "Prélude"
 \includeScore "FDXprelude"
-%{ ======== %} \partPageBreak #'(dessus1)
+%{ ======== %} \partPageBreak #'(dessus1 haute-contre taille)
 \pieceTocTitle "Rondeau des enseignes"
 \includeScore "FDYrondeau"
 \pieceTocTitle "Deuxième Air"
