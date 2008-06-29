@@ -90,7 +90,7 @@
 \includeScore "AAHvenus"
 \pieceTocTitle "Ritournelle"
 \includeScore "AAIritournelle"
-\pieceToc \markup { Venus : \italic { Mon fils, si tu plains mes malheurs }}
+\pieceToc \markup { Vénus : \italic { Mon fils, si tu plains mes malheurs }}
 \includeScore "AAJvenus"
 
 \actEnd \markup { FIN DU PROLOGUE }
@@ -178,7 +178,7 @@
 \sceneDescription \markup \wordwrap-center \smallCaps { Vénus, Vulcain. }
 \pieceToc \markup Ritournelle
 \includeScore "CCAritournelle"
-\pieceToc \markup { Venus, Vulcain }
+\pieceToc \markup { Vénus, Vulcain }
 \includeScore "CCBvenusVulcain"
 \pieceToc \markup Ritournelle
 \includeScore "CCCritournelle"
@@ -230,7 +230,7 @@
 \sceneDescription \markup \wordwrap-center \smallCaps { Vénus, Psyché. }
 \pieceTocAndTitle \markup "Ritournelle" \markup { Psyché : \italic { Que fais-tu, montre-toi }}
 \includeScore "DBApsyche"
-\pieceToc  \markup { Psyché, Venus }
+\pieceToc  \markup { Psyché, Vénus }
 \includeScore "DBBpsycheVenus"
 %%
 \scene "Scène III"
@@ -245,7 +245,7 @@
 %%
 \scene "Scène V"
 \sceneDescription \markup \wordwrap-center \smallCaps { Vénus, Psyché. }
-\pieceToc \markup { Psyché, Venus }
+\pieceToc \markup { Psyché, Vénus }
 \includeScore "DEApsycheVenus"
 \pieceTocTitle "Ritournelle"
 \includeScore "DEBritournelle"
