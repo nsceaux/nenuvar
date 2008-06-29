@@ -92,10 +92,12 @@ endef
 ##################################################################################
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie,violon1 flute1 hautbois1))
+
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Motets,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin,))
-$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,))
+
+$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,dessus1 dessus2))
 
 help:
 	@echo "usage: make <score-rule>"

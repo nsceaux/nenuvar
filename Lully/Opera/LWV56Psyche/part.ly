@@ -23,12 +23,23 @@
   }
 }
 
-\include "italiano.ly"
-\include "common/common14.ily"
+#(ly:set-option 'non-incipit #t)
+#(ly:set-option 'use-rehearsal-numbers #t)
 
+\include "italiano.ly"
+\include "common/common18.ily"
+\layout {
+  \context {
+    \Score
+    \override VerticalAlignment #'max-stretch = ##f
+  }
+}
+
+\include "Lully/Opera/LWV56Psyche/personnages.ily"
+\include "Lully/Opera/LWV56Psyche/part-specs.ily"
+\setPart #(symbol->string (ly:get-option 'part))
 \setOpus "Lully/Opera/LWV56Psyche"
 \opusTitle "Psyché"
-\include "Lully/Opera/LWV56Psyche/personnages.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Title page
@@ -63,12 +74,13 @@
 }
 \pieceToc \markup { Flore : \italic { Ce n'est plus le temps de la guerre }}
 \includeScore "AABflore"
-\pieceTocAndTitle \markup \wordwrap-center {
+\pieceTocAndTitle \markup \wordwrap {
   Chœur des divinités de la terre et des eaux, composé de Flore,
   Nymphes, Palaemon, Vertumne, Sylvains, Faunes, Dryades et Naïades.
 } \markup { Chœur : \italic { Nous goûtons une paix profonde } }
 \includeScore "AACchoeur"
-\pieceTocAndTitle \markup \wordwrap-center {
+%{ ======== %} \partPageBreak #'(dessus1 dessus2)
+\pieceTocAndTitle \markup \wordwrap {
   Entrée de ballet composée de deux Dryades, quatre Sylvains, deux
   Fleuves et deux Naïades.
 } \markup { Entrée de ballet }
@@ -113,6 +125,7 @@
 }
 \pieceToc \markup { Aglaure, Cidippe, Lycas }
 \includeScore "BBAaglaureCidippeLycas"
+%{
 \score {
   \new Staff {
     \keys re \minor
@@ -126,10 +139,13 @@
     \context { \Staff \remove "Time_signature_engraver" }
   }
 }
+%}
+%{ ======== %} \partPageBreak #'(dessus1 dessus2)
 \pieceToc \markup Ritournelle
 \includeScore "BBBritournelle"
 \pieceToc \markup \italic { Deh piangete al pianto mio }
 \includeScore "BBCaffliges"
+%{ ======== %} \partPageBreak #'(dessus1 dessus2)
 \pieceToc \markup Ritournelle
 \includeScore "BBDritournelle"
 \pieceToc \markup \italic { Com'esser può fra voi }
@@ -360,6 +376,7 @@
 \includeScore "FDWmars"
 \pieceTocTitle "Prélude"
 \includeScore "FDXprelude"
+%{ ======== %} \partPageBreak #'(dessus1)
 \pieceTocTitle "Rondeau des enseignes"
 \includeScore "FDYrondeau"
 \pieceTocTitle "Deuxième Air"
