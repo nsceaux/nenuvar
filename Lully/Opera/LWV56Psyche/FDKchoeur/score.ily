@@ -1,17 +1,24 @@
 \score {
   <<
     \new StaffGroup <<
-      \new Staff << \global \clef "dessus" \includeNotes "dessus" >>
-      \new Staff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \new Staff << \global \clef "taille" \includeNotes "taille" >>
-      \new Staff << \global \clef "quinte" \includeNotes "quinte" >>
-      \new Staff << \global \clef "basse" \includeNotes "basse" >>
+      \new Staff << \instrumentName \markup Dessus
+                    \global \clef "dessus" \includeNotes "dessus" >>
+      \new Staff << \instrumentName \markup "Haute-contres"
+                    \global \clef "haute-contre" \includeNotes "haute-contre" >>
+      \new Staff << \instrumentName \markup Tailles
+                    \global \clef "taille" \includeNotes "taille" >>
+      \new Staff << \instrumentName \markup Quintes
+                    \global \clef "quinte" \includeNotes "quinte" >>
+      \new Staff << \instrumentName \markup Basses
+                    \global \clef "basse" \includeNotes "basse" >>
     >>
     \new StaffGroup <<
-      \new Staff << \global \clef "dessus" \includeNotes "trompette" >>
-      \new Staff << \global \clef "basse" \includeNotes "timbales" >>
+      \new Staff << \instrumentName \markup Trompette
+                    \global \clef "dessus" \includeNotes "trompette" >>
+      \new Staff << \instrumentName \markup Timbales
+                    \global \clef "basse" \includeNotes "timbales" >>
     >>
-    \new ChoirStaff <<
+    \new ChoirStaff \with { instrumentName = "CHŒUR            " }<<
       \new Staff \withLyrics <<
         \global \clef "vdessus" \includeNotes "voix-dessus" 
       >> \includeLyrics "paroles"
@@ -26,10 +33,11 @@
       >> \includeLyrics "paroles"
     >>
     \new StaffGroup <<
-      \new Staff << \global \clef "basse" \includeNotes "basse-continue"
+      \new Staff << \instrumentName \markup \center-align { Basse continue }
+                    \global \clef "basse" \includeNotes "basse-continue"
                     \includeFigures "chiffres" >>
     >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
   \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 120 4) } }
 }

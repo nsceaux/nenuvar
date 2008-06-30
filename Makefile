@@ -65,7 +65,7 @@ define DELIVER_MIDI_ARCHIVE
 endef
 
 define DELIVER_SOURCE_ARCHIVE
-	git archive --prefix=$(notdir $(1))/ HEAD $(1) common Makefile | gzip > $(call DELIVERY_FILE,$(1)).tar.gz
+	git archive --prefix=$(notdir $(1))/ HEAD $(1) common templates Makefile | gzip > $(call DELIVERY_FILE,$(1)).tar.gz
 endef
 
 define MAKE_DELIVERY_RULE
