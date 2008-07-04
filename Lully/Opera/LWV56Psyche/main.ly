@@ -47,7 +47,7 @@
 %%% Prologue
 \ouverture "Ouverture"
 \includeScore "AAAouverture"
-\act "Prologue"
+\actn "Prologue"
 \sceneDescription \markup \wordwrap-center {
   La scène représente sur le devant un lieu champêtre,
   et dans l'enfoncement un rocher percé à jour, à travers
@@ -284,7 +284,7 @@
 \pieceTocTitle "Air des Furies"
 \includeScore "EAHair"
 \includeScore "EAIair"
-\pieceToc \markup { Furies : \italic { Venez venez, Nymphe de l'Achéron }}
+\pieceToc \markup { Furies : \italic { Venez venez, Nymphes de l'Achéron }}
 \includeScore "EAJfuries"
 \scene "Scène III"
 \sceneDescription \markup \wordwrap-center { \smallCaps Psyché, Nymphes. }

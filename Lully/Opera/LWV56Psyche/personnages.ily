@@ -1,3 +1,15 @@
+vertumneMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Vertumne"))
+
+palaemonMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vtaille" "Palaemon"))
+
+vertumnePalaemonMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Vertumne & Palaemon"))
+
 aglaureMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Aglaure"))
@@ -5,6 +17,10 @@ aglaureMark =
 cidippeMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Cidippe"))
+
+aglaureCidippeMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Aglaure & Cidippe"))
 
 psycheMark =
 #(define-music-function (parser location) ()
@@ -48,6 +64,10 @@ fleuveMark =
 furieMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Une Furie"))
+
+furiesMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Furies"))
 
 mercureMark =
 #(define-music-function (parser location) ()
