@@ -20,7 +20,6 @@
 
 \include "italiano.ly"
 \include "common/common14.ily"
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Title page
 \markup \null
@@ -48,7 +47,7 @@
 
 messe =
 #(define-music-function (parser location title) (string?)
-  (*current-opus-title* title)
+  (*opus-title* title)
   (add-page-break parser)
   (add-toc-item parser 'tocActMarkup title)
   (add-even-page-header-text parser (string-upper-case title) #f)
