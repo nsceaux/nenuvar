@@ -1,6 +1,6 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff << 
+    \newTinyStaff << 
       \context Voice = "dessus" \with { autoBeaming = ##f } << 
         \global \clef "vdessus" \includeNotes "voix-dessus-bis"
       >>

@@ -118,7 +118,6 @@
 }
 \pieceTocTitle "Ritournelle"
 \includeScore "BAAritournelle"
-%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Aglaure, Cidippe }
 \includeScore "BABaglaureCidippe"
 %%
@@ -297,6 +296,7 @@
 \includeScore "EAEfuries"
 \pieceToc \markup { Psyché, Furies }
 \includeScore "EAFpsycheFuries"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Furies : \italic { Cependant montrons-lui ce que ces lieux terribles }}
 \includeScore "EAGfuries"
 \pieceTocTitle "Air des Furies"
@@ -334,17 +334,20 @@
 \includeScore "FDAprelude"
 \pieceToc \markup { Jupiter, Vénus, Psyché, l'Amour }
 \includeScore "FDBjupiterVenusPsycheAmour"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Jupiter : \italic { Aimez sans trouble et sans alarmes }}
 \includeScore "FDCjupiter"
 \pieceToc \markup Ritournelle
 \includeScore "FDDritournelle"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Apollon : \italic { Unissons-nous, troupe immortelle }}
 \includeScore "FDEapollon"
-%{ ======== %} \partPageBreak #'(basse)
+%{ ======== %} \partPageBreak #'(basse basse-continue)
 \pieceTocAndTitle \markup CHŒUR \markup { Chœur : \italic { Célébrons ce grand jour }}
 \includeScore "FDFchoeur"
 \pieceToc \markup Ritournelle
 \includeScore "FDGritournelle"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Bacchus : \italic { Si quelque fois suivant nos douces lois }}
 \includeScore "FDHbacchus"
 \pieceToc \markup { Mome : \italic { Je cherche à médire sur la Terre et dans les cieux }}
@@ -366,16 +369,20 @@
 \includeScore "FDPair"
 \pieceToc \markup { Bacchus : \italic { Admirons le jus de la treille }}
 \includeScore "FDQbacchus"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceTocTitle "Deuxième Air"
 \includeScore "FDRair"
 \pieceToc \markup { Silène : \italic { Bacchus veut qu'on boive à longs traits }}
 \includeScore "FDSsilene"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup \italic { Voulez-vous des douceurs parfaites }
 \includeScore "FDTaTrois"
 \pieceTocTitle "Entrée pour la suite de Mome"
 \includeScore "FDUentree"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Mome : \italic { Folatrons, divertissons-nous }}
 \includeScore "FDVmome"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup \italic { Laissons en paix toute la terre }
 \includeScore "FDWmars"
 \pieceTocTitle "Prélude"

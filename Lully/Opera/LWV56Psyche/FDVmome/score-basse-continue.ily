@@ -1,6 +1,6 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff \withLyrics <<
+    \newTinyStaff \withLyrics <<
       \characterName \markup Mome
       \global \clef "vbasse" \includeNotes "mome" 
     >> \includeLyrics "paroles"

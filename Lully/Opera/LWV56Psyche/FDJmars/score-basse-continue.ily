@@ -1,8 +1,8 @@
 \score {
   \new StaffGroupNoBar <<
     \newTinyStaff \withLyrics <<
-      \characterName \markup Mome
-      \global \clef "vbasse" \includeNotes "mome" 
+      \characterName \markup Mars
+      \global \clef "basse" \includeNotes "mars" 
     >> \includeLyrics "paroles"
     \new Staff << \global \clef "basse" \includeNotes "basse" >>
   >>

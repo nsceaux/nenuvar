@@ -1,10 +1,9 @@
 \score {
   \new StaffGroupNoBar <<
     \newTinyStaff \withLyrics <<
-      \characterName \markup Mome
-      \global \clef "vbasse" \includeNotes "mome" 
+      \global \includeNotes "jupiter-venus-psyche-amour"
     >> \includeLyrics "paroles"
     \new Staff << \global \clef "basse" \includeNotes "basse" >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
 }
