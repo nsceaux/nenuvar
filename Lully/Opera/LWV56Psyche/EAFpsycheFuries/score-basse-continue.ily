@@ -24,5 +24,4 @@
     >>
   >>
   \layout { }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 102 4) } }
 }

@@ -4,11 +4,11 @@
 
 #(define-markup-command (character paper props name) (markup?)
   (interpret-markup paper props
-   (markup #:null #:translate  (cons -4 2) #:characteri name)))
+   (markup #:null #:translate  (cons -4 1) #:characteri name)))
 
 #(define-markup-command (character-text paper props name text) (markup? markup?)
   (interpret-markup paper props
-   (markup #:null #:translate  (cons -4 2)
+   (markup #:null #:translate  (cons -4 1)
     #:line (#:characteri name #:huge " " #:huge #:italic text))))
 
 #(define-public (make-character-mark clefs name)

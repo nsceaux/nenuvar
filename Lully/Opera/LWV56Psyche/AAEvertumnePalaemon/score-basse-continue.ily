@@ -1,8 +1,7 @@
 \score {
   \new StaffGroupNoBar <<
-    <<
-      \context Voice = "voix" << 
-        \set Voice . autoBeaming = ##f
+    \newTinyStaff <<
+      \context Voice = "voix" \with { autoBeaming = ##f } << 
         \global \includeNotes "vertumne-palaemon"
       >>
       \lyricsto "voix" \new Lyrics \includeLyrics "paroles"
@@ -12,5 +11,4 @@
                   \includeFigures "chiffres" >>
   >>
   \layout { }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 120 4) } }
 }

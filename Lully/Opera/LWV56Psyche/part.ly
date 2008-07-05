@@ -74,6 +74,7 @@
 }
 \pieceToc \markup { Flore : \italic { Ce n'est plus le temps de la guerre }}
 \includeScore "AABflore"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceTocAndTitle \markup \wordwrap {
   Chœur des divinités de la terre et des eaux, composé de Flore,
   Nymphes, Palaemon, Vertumne, Sylvains, Faunes, Dryades et Naïades.
@@ -98,8 +99,10 @@
     page \page-refII #'AACchoeur .
   }
 }
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Vénus : \italic { Pourquoi du ciel m'obliger à descendre }}
 \includeScore "AAHvenus"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceTocTitle "Ritournelle"
 \includeScore "AAIritournelle"
 \pieceToc \markup { Vénus : \italic { Mon fils, si tu plains mes malheurs }}
@@ -115,9 +118,11 @@
 }
 \pieceTocTitle "Ritournelle"
 \includeScore "BAAritournelle"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Aglaure, Cidippe }
 \includeScore "BABaglaureCidippe"
 %%
+%{ ======== %} \partPageBreak #'(basse-continue)
 \scene "Scène II"
 \sceneDescription \markup \column {
   \fill-line { \line \smallCaps { Aglaure, Cidippe, Lycas, } }
@@ -125,29 +130,16 @@
 }
 \pieceToc \markup { Aglaure, Cidippe, Lycas }
 \includeScore "BBAaglaureCidippeLycas"
-%{
-\score {
-  \new Staff {
-    \keys re \minor
-    \time 4/4
-    \clef "basse" 
-    sol,4 sol, la, si, | \custosNote do4
-  }
-  \layout {
-    indent = \noindent
-    ragged-right = ##t
-    \context { \Staff \remove "Time_signature_engraver" }
-  }
-}
-%}
 %{ ======== %} \partPageBreak #'(dessus1 dessus2)
 \pieceToc \markup Ritournelle
 \includeScore "BBBritournelle"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup \italic { Deh piangete al pianto mio }
 \includeScore "BBCaffliges"
-%{ ======== %} \partPageBreak #'(dessus1 dessus2)
+%{ ======== %} \partPageBreak #'(dessus1 dessus2 basse-continue)
 \pieceToc \markup Ritournelle
 \includeScore "BBDritournelle"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup \italic { Com'esser può fra voi }
 \includeScore "BBEaffliges"
 \pieceToc \markup Ritournelle
