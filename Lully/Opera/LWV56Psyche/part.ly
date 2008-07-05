@@ -187,11 +187,13 @@
 \sceneDescription \markup \wordwrap-center \smallCaps { Vénus, Vulcain. }
 \pieceToc \markup Ritournelle
 \includeScore "CCAritournelle"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Vénus, Vulcain }
 \includeScore "CCBvenusVulcain"
 \pieceToc \markup Ritournelle
 \includeScore "CCCritournelle"
 %%
+%{ ======== %} \partPageBreak #'(basse-continue)
 \scene "Scène IV"
 \sceneDescription \markup \wordwrap-center \smallCaps { Psyché. }
 \pieceToc \markup { Psyché : \italic { Où suis-je ? }}
@@ -203,6 +205,7 @@
 }
 \pieceTocTitle "Ritournelle"
 \includeScore "CEAritournelle"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Psyché, une Nymphe, Zéphir, l'Amour }
 \includeScore "CEBpsycheNympheZephirAmour"
 %%
@@ -216,12 +219,15 @@
 \includeScore "CFBamourPsyche"
 \pieceTocTitle "Ritournelle"
 \includeScore "CFCritournelle"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { L'Amour : \italic { Venez voir ce palais }}
 \includeScore "CFDamour"
 \pieceTocTitle "Air"
 \includeScore "CFEair"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Première Nymphe : \italic { Aimable jeunesse, suivez la tendresse }}
 \includeScore "CFFnymphe"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Deuxième et troisième Nymphes : \italic { Chacun est obligé d'aimer à son tour }}
 \includeScore "CFGnymphes"
 \actEnd \markup { "FIN DU SECOND ACTE" }
@@ -232,9 +238,11 @@
 \sceneDescription \markup \wordwrap-center { \smallCaps Vénus. }
 \pieceTocTitle "Ritournelle"
 \includeScore "DAAritournelle"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Vénus : \italic { Pompe que ce palais de tous côtés étale }}
 \includeScore "DABvenus"
 %%
+%{ ======== %} \partPageBreak #'(basse-continue)
 \scene "Scène II"
 \sceneDescription \markup \wordwrap-center \smallCaps { Vénus, Psyché. }
 \pieceTocAndTitle \markup "Ritournelle" \markup { Psyché : \italic { Que fais-tu, montre-toi }}
@@ -258,6 +266,7 @@
 \includeScore "DEApsycheVenus"
 \pieceTocTitle "Ritournelle"
 \includeScore "DEBritournelle"
+%{ ======== %} \partPageBreak #'(basse-continue)
 \pieceToc \markup { Psyché : \italic { Vous m'abandonnez donc }}
 \includeScore "DECpsyche"
 %%
