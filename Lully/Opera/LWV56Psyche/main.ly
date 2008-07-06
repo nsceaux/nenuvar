@@ -23,8 +23,6 @@
   }
 }
 
-#(ly:set-option 'use-rehearsal-numbers #t)
-
 \include "italiano.ly"
 \include "common/common14.ily"
 
@@ -50,7 +48,7 @@
 \ouverture "Ouverture"
 \includeScore "AAAouverture"
 \actn "Prologue"
-\sceneDescription \markup \wordwrap-center {
+\sceneDescription \markup \justify {
   La scène représente sur le devant un lieu champêtre,
   et dans l'enfoncement un rocher percé à jour, à travers
   duquel on voit la mer en éloignement. 

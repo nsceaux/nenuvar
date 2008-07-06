@@ -101,6 +101,8 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin,))
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,dessus1 dessus2 haute-contre taille quinte basse trompette tambour timbales basse-continue voix))
 
+$(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Opera/GiulioCesare,))
+
 help:
 	@echo "usage: make <score-rule>"
 	@echo "score-rule:"

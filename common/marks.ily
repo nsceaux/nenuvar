@@ -47,31 +47,45 @@ segnoMark = {
 }
 segnoMarkDown = { 
   \once \override Score . RehearsalMark #'break-visibility = #end-of-line-invisible
+  \once \override Score . RehearsalMark #'direction = #DOWN
+  \once \override Score . RehearsalMark #'self-alignment-X = #CENTER
+  \mark \markup \musicglyph #"scripts.segno"
+}
+segnoMarkEnd = { 
+  \once \override Score . RehearsalMark #'break-visibility = #begin-of-line-invisible
   \once \override Score . RehearsalMark #'direction = #UP
   \once \override Score . RehearsalMark #'self-alignment-X = #CENTER
   \mark \markup \musicglyph #"scripts.segno"
 }
 
-fineMark = {
+dacapoOverrides = {
   \once \override Score . RehearsalMark #'break-visibility = #begin-of-line-invisible
   \once \override Score . RehearsalMark #'direction = #DOWN
   \once \override Score . RehearsalMark #'self-alignment-X = #RIGHT
   \once \override Score . RehearsalMark #'padding = #2
-  \mark \markup \right-align \italic Fin.
+}
+fineMark = {
+  \dacapoOverrides \mark \markup \right-align \italic Fin.
 }
 
 dalSegnoMark = {
-  \once \override Score . RehearsalMark #'break-visibility = #begin-of-line-invisible
-  \once \override Score . RehearsalMark #'direction = #DOWN
-  \once \override Score . RehearsalMark #'self-alignment-X = #RIGHT
-  \once \override Score . RehearsalMark #'padding = #2
-  \mark \markup \right-align \italic "Dal Segno."
+  \dacapoOverrides \mark \markup \right-align \italic "Dal Segno."
 }
 
 dacapoMark = {
-  \once \override Score . RehearsalMark #'break-visibility = #begin-of-line-invisible
-  \once \override Score . RehearsalMark #'direction = #DOWN
-  \once \override Score . RehearsalMark #'self-alignment-X = #RIGHT
-  \once \override Score . RehearsalMark #'padding = #2
-  \mark \markup \right-align \italic "Da Capo."
+  \dacapoOverrides \mark \markup \right-align \italic "Da Capo."
 }
+
+dacapoMarkText =
+#(define-music-function (parser location text) (markup?)
+  #{
+    \dacapoOverrides 
+    \mark \markup \column \right-align { \italic "Da Capo." $text }
+  #})
+
+dalsegnoMarkText =
+#(define-music-function (parser location text) (markup?)
+  #{
+    \dacapoOverrides 
+    \mark \markup \column \right-align { \italic "Dal Segno." $text }
+  #})
