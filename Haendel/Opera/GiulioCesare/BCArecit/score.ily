@@ -1,0 +1,18 @@
+%% Recitativo
+\score {
+  \new StaffGroupNoBar <<
+    \new Staff \withRecit <<
+      \keepWithTag #'recit \global \includeNotes "recit"
+    >> \includeLyrics "lyrics"
+    \new Staff <<
+      \keepWithTag #'() \global
+      \clef bass \includeNotes "bassi"
+      \includeFigures "figures"
+    >>
+  >>
+  \layout {
+    indent = \noindent
+    \context { \Staff \remove "Time_signature_engraver" }
+  }
+  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 120 4) } }
+}

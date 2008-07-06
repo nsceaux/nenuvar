@@ -110,7 +110,11 @@ staffStart =
                         (vhaute-contre alto . G_8)
                         (vtaille tenor . G_8)
                         (vbasse-taille varbaritone . bass)
-                        (vbasse bass . bass)))
+                        (vbasse bass . bass)
+
+                        (vtenor tenor . G_8)
+                        (valto  alto . treble)
+                        ))
 
 clef =
 #(define-music-function (parser location clef-name) (string?)

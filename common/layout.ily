@@ -2,6 +2,7 @@
 %%%
 %%% Author: Nicolas Sceaux <nicolas.sceaux@free.fr>
 %%%
+\version "2.11.50"
 %% Paper size
 #(use-modules (srfi srfi-39))
 #(define-public *paper-size* (make-parameter 'a4))
@@ -103,6 +104,7 @@
 
   \context {
     \Score
+    \name Score
     \override BarNumber #'padding = #2 
     \override InstrumentName #'space-alist = #'((left-edge extra-space . 2.0))
     \override VerticalAlignment #'max-stretch = #ly:align-interface::calc-max-stretch

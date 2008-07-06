@@ -1,7 +1,7 @@
 %%% -*- Mode: scheme -*-
 
 #(use-modules (ice-9 format))
-#(define gen-unique-context
+#(define-public gen-unique-context
   ;; Generate a uniqueSchemeContextXX symbol, that may be (hopefully) unique.
   (let ((var-idx -1))
     (lambda ()
