@@ -339,8 +339,7 @@
           (FDSsilene #:score "score-voix")
           (FDTaTrois #:score "score-voix")
           (FDVmome #:score "score-voix")
-          (FDWmars #:score "score-voix")
-          )
+          (FDWmars #:score "score-voix"))
     
     (basse-continue "Basse continue" ()
           "basse" "score-basse-continue"
@@ -408,7 +407,7 @@
           (EAHair #:score-template "score-basse")
           (EAIair #:score-template "score-basse")
           (EAJfuries #:score-template "score-basse")
-           (EAKnymphesPsyche #:score "score-basse-continue")
+          (EAKnymphesPsyche #:score "score-basse-continue")
 
           (FAAritournelle #:score-template "score-basse")
           (FABpsyche #:score "score-basse-continue")
