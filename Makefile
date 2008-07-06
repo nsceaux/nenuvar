@@ -1,6 +1,7 @@
 OUTPUT_DIR=out
 DELIVERY_DIR=delivery
 
+REHEARSAL_FLAG=-d use-rehearsal-numbers
 LETTER_FLAG=-d letter
 HARDCOVER_BOOK_FLAG=-d hardcover
 
@@ -82,6 +83,7 @@ define MAKE_ALL_SCORE_RULES
 $(eval $(call MAKE_SCORE_RULE,$(1),,))
 $(eval $(call MAKE_SCORE_RULE,$(1),-letter,$(LETTER_FLAG)))
 $(eval $(call MAKE_SCORE_RULE,$(1),-hardcover,$(HARDCOVER_BOOK_FLAG)))
+$(eval $(call MAKE_SCORE_RULE,$(1),-rehearsal,$(REHEARSAL_FLAG)))
 $(foreach part,$(2),$(eval $(call MAKE_PART_RULE,$(1),$(part))))
 $(call MAKE_DELIVERY_RULE,$(1))
 SCORES+=$(1)
@@ -97,12 +99,13 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Motets,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin,))
 
-$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,dessus1 dessus2 haute-contre taille quinte basse trompette tambour timbales basse-continue))
+$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,dessus1 dessus2 haute-contre taille quinte basse trompette tambour timbales basse-continue voix))
 
 help:
 	@echo "usage: make <score-rule>"
 	@echo "score-rule:"
 	@echo "  <score>           Build a A4 PDF score"
+	@echo "  <score>-rehearsal Build a A4 PDF score with rehearsal numbers"
 	@echo "  <score>-letter    Build a Letter PDF score"
 	@echo "  <score>-hardcover Build a hardcover sized PDF score"
 	@echo "  <score>-<part>    Build a PDF part score"

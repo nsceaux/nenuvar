@@ -23,6 +23,8 @@
   }
 }
 
+#(ly:set-option 'use-rehearsal-numbers #t)
+
 \include "italiano.ly"
 \include "common/common14.ily"
 
