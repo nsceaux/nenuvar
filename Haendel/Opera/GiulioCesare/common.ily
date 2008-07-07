@@ -6,12 +6,14 @@
   indent = \largeindent
   \context { \Score \remove "Mark_engraver" }
   \context { \Staff \consists "Mark_engraver" }
+  \context { \GrandStaff \consists "Instrument_name_engraver" }
 }
 
 withRecit =
 #(define-music-function (parser location music lyrics) (ly:music? ly:music?)
    (let ((name (symbol->string (gen-unique-context))))
      #{  << \context Voice = $name \with { autoBeaming = ##f } <<
+            \set Staff . explicitClefVisibility = #end-of-line-invisible
             \override Staff . Clef #'full-size-change = ##t
             %%\override Staff . Clef #'break-visibility = #end-of-line-invisible
             \override Score.BreakAlignment #'break-align-orders =
@@ -90,7 +92,10 @@ dacapoOverrides = {
   \once \override Staff . RehearsalMark #'self-alignment-X = #RIGHT
   \once \override Staff . RehearsalMark #'padding = #2
 }
-
+customDaCapoMark =
+#(define-music-function (parser location text) (markup?)
+   #{ \dacapoOverrides
+      \mark \markup \right-align \italic $text #})
 fineMark = { \dacapoOverrides \mark \markup \right-align \italic Fine. }
 scoreFine = { \tag #'(down partDown partBoth) \fineMark }
 scoreDaCapo = { \tag #'(down partDown partBoth) \dacapoMark }

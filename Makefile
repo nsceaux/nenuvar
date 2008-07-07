@@ -91,6 +91,10 @@ $(1)-all: $($(call ALL_SCORE_PDFs,$(1))) $(1)-delivery
 .PHONY: $(1)-all
 endef
 
+archive:
+	git archive HEAD | gzip > delivery/backup.tar.gz
+.PHONY: archive
+
 ##################################################################################
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie,violon1 flute1 hautbois1))

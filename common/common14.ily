@@ -31,12 +31,8 @@
                          (markup #:fill-line (#:column (#:vspace 6
                                                         #:fill-line (#:fontsize 6 (*part-name*))))))
                        empty-stencil))
-    \fill-line {
-      \when-property #'header:arrangement \column {
-        \vspace #6
-        \fill-line { \fontsize #3 \fromproperty #'header:arrangement }
-      }
-    }
+    \vspace #6
+    \fill-line { \fontsize #3 \fromproperty #'header:editions }
   }
 }
 
