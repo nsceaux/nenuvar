@@ -250,7 +250,6 @@ ouverture =
                   (markup (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
                                (make-width-markup rehearsal-number-cell-width rehearsal)
                                (make-null-markup))
-                          #:width character-cell-width #:null
                           #:italic #:smallCaps title))
     (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
     (add-odd-page-header-text parser (string-upper-case title) #f)
@@ -260,6 +259,25 @@ ouverture =
         (begin
          (add-toplevel-markup parser (markup #:rehearsal-number rehearsal))
          (add-no-page-break parser))))
+  (make-music 'Music 'void #t))
+
+piece =
+#(define-music-function (parser location title)
+                        (string?)
+  (let ((rehearsal (rehearsal-number)))
+    (add-toc-item parser
+                  'tocPieceMarkup 
+                  (markup (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+                               (make-width-markup rehearsal-number-cell-width rehearsal)
+                               (make-null-markup))
+                          #:italic #:smallCaps title))
+    (add-toplevel-markup parser 
+      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+          (markup #:rehearsal-number rehearsal
+                  #:hspace 1
+                  #:huge title)
+          (markup #:title (string-upper-case title))))
+    (add-no-page-break parser))
   (make-music 'Music 'void #t))
 
 coro =

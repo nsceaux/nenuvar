@@ -11,7 +11,7 @@
   }
 }
 #(ly:set-option 'ancient-style #t)
-#(ly:set-option 'no-incipit #t)
+#(ly:set-option 'non-incipit #t)
 #(ly:set-option 'use-rehearsal-numbers #t)
 \include "common/common14.ily"
 
@@ -185,3 +185,145 @@
             }
 \includeScore "BKDcorneliaSesto"
 \actEnd \markup { FINE DELL' ATTO PRIMO. }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Atto Secondo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\act "Atto Secondo"
+\scene "Scena I"
+\sceneDescription \markup \wordwrap-center {
+  Deliziosa selva di cedri con il monte Parnasso nel prospetto,
+  quale contiene in se la reggia della Virtù.
+  \smallCaps Cleopatra, e \smallCaps Nireno.
+}
+\recitativoToc
+\includeScore "CAArecit"
+%%
+\scene "Scena II"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Nireno, e poi \smallCaps Cesare.
+}
+\recitativo
+\includeScore "CBArecit"
+\markup \large \fill-line {
+  \line { Quì s'ode vaga Sinfonia di varj stromenti. }
+}
+\piece "Sinfonia."
+\includeScore "CBBsinfonia"
+\recitativo
+\includeScore "CBCrecit"
+\markup \large \column {
+  \fill-line { \line { Quì s'apre il Parnasso, e vedesi in trono la Virtù } }
+  \fill-line { \line { assista delle nove Muse. } }
+}
+\includeScore "CBDsinfonia"
+\recitativo
+\includeScore "CBErecit"
+\aria "Cleopatra." "Aria." "V'adoro, pupille, saette d'Amore"
+\includeScore "CBFcleopatra"
+\includeScore "CBGrecit"
+\recitativo
+\includeScore "CBHrecit"
+\aria "Cesare." "Aria." "Se in fiorito ameno prato"
+\includeScore "CBIcesare"
+%%
+\scene "Scena III"
+\sceneDescription \markup \wordwrap-center { 
+  Giardino del serraglio, dove corrisponde quello delle fiere.
+  \smallCaps Cornelia con picciola zappa nelle mani, che in coltivando 
+  fiori, epio \smallCaps Achilla.
+}
+\aria "Cornelia." "Arioso." "Deh, piangete, oh mesti lumi"
+\includeScore "CCAcornelia"
+\recitativo
+\includeScore "CCBrecit"
+%%
+\scene "Scena IV"
+\sceneDescription \markup \wordwrap-center { 
+  Mentre \smallCaps Cornelia fugge, 
+  incontra \smallCaps Tolomeo, che la prende per la mano.
+}
+\recitativo
+\includeScore "CDArecit"
+\aria "Achilla." "Aria." "Se a me non sei crudele, ogn'or"
+\includeScore "CDBachilla"
+\recitativo
+\includeScore "CDCrecit"
+\aria "Tolomeo." "Aria." "Sì spietata, il tuo rigore sveglia"
+\includeScore "CDDtolomeo"
+%%
+\scene "Scena V"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Cornelia, che rientra, e poi \smallCaps Sesto.
+}
+\recitativoToc
+\includeScore "CEArecit"
+%%
+\scene "Scena VI"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Nireno, e detti.
+}
+\recitativo
+\includeScore "CFArecit"
+\aria "Cornelia." "Aria." "Cessa omai di sospirare! non è sempre"
+\includeScore "CFBcornelia"
+\recitativo
+\includeScore "CFCrecit"
+\aria "Sesto." "Aria." "L'angue offeso mai riposa"
+\includeScore "CFDsesto"
+%%
+\scene "Scena VII"
+\sceneDescription \markup \wordwrap-center { 
+  Luogo di delizie. \smallCaps Cleopatra, e poi \smallCaps Cesare.
+}
+\recitativo
+\includeScore "CGArecit"
+\aria "Cleopatra." "Aria." "Venere bella, per un istante, deh"
+\includeScore "CGBcleopatra"
+\recitativo
+\includeScore "CGCrecit"
+%%
+\scene "Scena VIII"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Curio con spada impugnata, e detti.
+}
+\recitativo
+\includeScore "CHArecit"
+\aria "Cesare." "Aria." "Al lampo dell'armi quest'alma guerriera"
+\includeScore "CHBcesare"
+\aria "Cleopatra." "Recit." "Che sento? oh Dio!"
+\includeScore "CHCrecit"
+\aria "Cleopatra." "Aria." "Se pietà di me non senti, giusto ciel"
+\includeScore "CHDcleopatra"
+%%
+\scene "Scena IX"
+\sceneDescription \markup \center-align {
+  \line { Camera nel Serraglio. }
+  \wordwrap-center {
+    \smallCaps Tolomeo circondato dalla sue favorite, 
+    e \smallCaps Cornelia frà loro, e poi \smallCaps Sesto.
+  }
+}
+\aria "Tolomeo." "Arioso." "Belle dee di questo core"
+\includeScore "CIAtolomeo"
+\recitativo
+\includeScore "CIBrecit"
+%%
+\scene "Scena X"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Achilla, e detti.
+}
+\recitativoToc
+\includeScore "CJArecit"
+%%
+\scene "Scena XI"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Sesto, e \smallCaps Cornelia.
+}
+\recitativo
+\includeScore "CKArecit"
+\aria "Sesto." "Aria." "L'aura che spira tiranno e fiero"
+\includeScore "CKBsesto"
+\actEnd \markup { FINE DELL' ATTO SECONDO. }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Atto Terzo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\act "Atto Terzo"
+\scene "Scena I"
