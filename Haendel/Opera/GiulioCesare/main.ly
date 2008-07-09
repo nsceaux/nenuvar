@@ -12,7 +12,6 @@
 }
 #(ly:set-option 'ancient-style #t)
 #(ly:set-option 'non-incipit #t)
-#(ly:set-option 'use-rehearsal-numbers #t)
 \include "common/common14.ily"
 
 \setOpus "Haendel/Opera/GiulioCesare"
@@ -327,3 +326,128 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Atto Terzo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \act "Atto Terzo"
 \scene "Scena I"
+\sceneDescription \markup \wordwrap-center {
+  Bosco vicino alla città di Alessandria.
+  \smallCaps Achilla con seguito di Soldati.
+}
+\recitativo
+\includeScore "DAArecit"
+\aria "Achilla." "Aria." "Dal fulgor di questa spada"
+\includeScore "DABachilla"
+%%
+\scene "Scena II"
+\sceneDescription \markup \wordwrap-center {
+  Al suono d'una bellica Sinfonia segue la battaglia trà soldati
+  di \smallCaps Cleopatra, e di \smallCaps Tolomeo, e questi ultimi
+  hanno la vittoria; finita la Sinfonia entra \smallCaps Tolomeo con
+  \smallCaps Cleopatra prigioniera.
+}
+\piece "Sinfonia."
+\includeScore "DBAsinfonia"
+\recitativo
+\includeScore "DBBrecit"
+\aria "Tolomeo." "Aria." "Domerò la tua fierezza ch'il mio trono"
+\includeScore "DBCtolomeo"
+%%
+\scene "Scena III"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Cleopatra sole con guardie.
+}
+\recitativo
+\includeScore "DCArecit"
+\aria "Cleopatra." "Aria." "Piangerò la sorte mia, si crudele"
+\includeScore "DCBcleopatra"
+%%
+\scene "Scena IV"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps {Giulio Cesare,} da una parte, poi \smallCaps Sesto 
+  dall' altra con \smallCaps Nireno, ed \smallCaps Achilla, steso
+  sul margine del porto mortalmente ferito.
+}
+\aria "Cesare." "Recit." "Dall' ondoso periglio salvo mi"
+\includeScore "DDArecit"
+\aria "Cesare." "Aria." "Aure, deh, per pietà spirate"
+\includeScore "DDBcesare"
+\recitativo
+\includeScore "DDCrecit"
+%%
+\scene "Scena V"
+\sceneDescription \markup \wordwrap-center { 
+  \smallCaps { Giulio Cesare,} che raspisce il sigillo a 
+  \smallCaps Sesto, e \smallCaps Curio, e \smallCaps Nireno.
+}
+\recitativo
+\includeScore "DEArecit"
+\aria "Cesare." "Aria." "Quel torrente che cade dal monte"
+\includeScore "DEBcesare"
+%%
+\scene "Scena VI"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Sesto, e \smallCaps Nireno.
+}
+\recitativo
+\includeScore "DFArecit"
+\aria "Sesto." "Aria." "La giustizia ha già sull'arco"
+\includeScore "DFBsesto"
+%%
+\scene "Scena VII"
+\sceneDescription \markup \center-align {
+  \line { Appartamento di Cleopatra. }
+  \wordwrap-center {
+    \smallCaps Cleopatra (con guardie) frà le sue damigelle,
+    che piangono, e poi \smallCaps Cesare con soldati.
+  }
+}
+\aria "Cleopatra." "Recit." "Voi, che mie fide ancelle"
+\includeScore "DGAcleopatra"
+\recitativo
+\includeScore "DGBrecit"
+\aria "Cleopatra." "Aria." "Da tempeste il legno infranto"
+\includeScore "DGCcleopatra"
+%%
+\scene "Scena VIII"
+\sceneDescription \markup \center-align {
+  \line { Sala Regia. }
+  \wordwrap-center {
+    \smallCaps Cornelia, e \smallCaps Tolomeo.
+  }
+}
+\recitativoToc
+\includeScore "DHArecit"
+%%
+\scene "Scena IX"
+\sceneDescription \markup \wordwrap-center {
+  Mentre \smallCaps Cornelia corre alla vita di \smallCaps Tolomeo,
+  sopragiunge \smallCaps Sesto con spada nuda in mano.
+}
+\recitativo
+\includeScore "DIArecit"
+\aria "Cornelia." "Aria." "Non ha più che temere quest' alma"
+\includeScore "DIBcornelia"
+%%
+\scene "Scena Ultima"
+\sceneDescription \markup \center-align {
+  \line { Porto di Alessandria. }
+  \wordwrap-center {
+    \smallCaps Cesare, \smallCaps Cleopatra, e seguito d'Egizii con
+    trombe e timpani; finita la Sinfonia entrano \smallCaps Curio e
+    \smallCaps Nireno, e poi \smallCaps Sesto e \smallCaps Cornelia, 
+    con un paggio, che porta lo scettro e la corona di \smallCaps Tolomeo.
+  }
+}
+\piece "Sinfonia."
+\includeScore "DJAsinfonia"
+\recitativo
+\includeScore "DJBrecit"
+\ariaCustom \markup \column \smallCaps { Cleopatra. Cesare. }
+            \markup \vcenter Duetto.
+            \markup \column {
+              \line { Caro! più amabile beltà mai non }
+              \line { Bella! più amabile beltà mai non }
+            }
+\includeScore "DJCcleopatraCesare"
+\recitativo
+\includeScore "DJDrecit"
+\coro "Coro." "Ritorni omai nel nostro core"
+\includeScore "DJEcoro"
+\actEnd \markup { FINE DELL' OPERA. }
