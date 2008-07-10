@@ -83,6 +83,7 @@
 %%% None
 
 #(use-modules (srfi srfi-39)
+              (ice-9 optargs)
               (ice-9 regex))
 
 #(define *composer* (make-parameter ""))
@@ -129,7 +130,10 @@
 #(define *score-ragged* (make-parameter #f))
 #(define *score-indent* (make-parameter #f))
 #(define *score-extra-music* (make-parameter #f))
-#(define *tag* (make-parameter #f))
+#(define *tag-global* (make-parameter #f))
+#(define *tag-notes* (make-parameter #f))
+#(define *figures* (make-parameter #f))
+#(define *clef* (make-parameter #f))
 
 #(define-public (include-part-score parser
                                     name
@@ -148,7 +152,15 @@
                   (string-append "templates/" score-filename ".ily")
                   (include-pathname score-filename))))))
 
-#(define (make-piece piece-spec default-note-filename default-score-filename)
+#(define* (make-piece piece-spec
+                      #:key
+                      (score #f)
+                      (score-template "score")
+                      notes
+                      (clef "treble")
+                      (figures "chiffres")
+                      (tag-global #f)
+                      (tag-notes #f))
   "Return an associative list defining a part piece, with the following keys:
  - name          the piece name.
  - score         the part piece filename (without directory, nor extension)
@@ -159,29 +171,34 @@
                    Default: #f
  - indent        the value of the layout indent variable
                    Default: #f (which means that the globally defined indent is used)
- - tag           the tag to be used when including the 'global.ily' file:
+ - tag-global    the tag to be used when including the 'global.ily' file:
                    \\keepWithTag #tag \\global
+                   Default: #f (do not use a tag)
+ - tag-notes     the tag to be used when including the note file:
                    Default: #f (do not use a tag)
  - notes         the note filename (without directory, nor extension)
                    Default: default-note-filename
- - instrument    the instrumnt name to be printed before the first staff
+ - instrument    the instrument name to be printed before the first staff
                    Default: #f (do not print instrument name)
 
-`piece-spec' should be a list, which first-element is the peice name,
+`piece-spec' should be a list, which first-element is the piece name,
 then consisting of alterning keywords and values, the keywords being any
 combination from the following list:
-  #:score #:ragged #:indent #:tag #:notes #:instrument #:silence #:music
-where #:silence, when associated to a true value, forces the printing of rests
-      #:music allows to include some extra music"
+  #:score #:score-template #:ragged #:indent #:tag-global #:tag-notes
+  #:notes #:instrument #:music
+#:music allows to include some extra music
+The keyword arguments give default values to be used when non-specified in `piece-spec'."
   (let ((name (car piece-spec))
-        (score default-score-filename)
-        (from-templates #t)
+        (score (or score score-template))
+        (from-templates (not score))
         (ragged #f)
         (indent #f)
-        (tag #f)
-        (notes default-note-filename)
+        (tag-global tag-global)
+        (tag-notes tag-notes)
+        (notes notes)
         (instrument #f)
         (music #f))
+    (if clef (*clef* clef)) ;; hack: set *clef* for silence scores
     (let parse-props ((props (cdr piece-spec)))
       (if (not (or (null? props) (null? (cdr props))))
           (begin
@@ -189,7 +206,8 @@ where #:silence, when associated to a true value, forces the printing of rests
               ((#:notes) (set! notes (cadr props)))
               ((#:ragged) (set! ragged (cadr props)))
               ((#:indent) (set! indent (cadr props)))
-              ((#:tag) (set! tag (cadr props)))
+              ((#:tag-global) (set! tag-global (cadr props)))
+              ((#:tag-notes) (set! tag-notes (cadr props)))
               ((#:score)
                (set! score (cadr props))
                (set! from-templates #f))
@@ -197,31 +215,27 @@ where #:silence, when associated to a true value, forces the printing of rests
                (set! score (cadr props))
                (set! from-templates #t))
               ((#:instrument) (set! instrument (cadr props)))
-              ((#:music) (set! music (cadr props)))
-              ((#:silence)
-               (if (cadr props)
-                   (begin
-                     (set! score "score-silence")
-                     (set! ragged #t)
-                     (set! notes "silence")
-                     (set! from-templates #t)))))
+              ((#:music) (set! music (cadr props))))
             (parse-props (cddr props)))))
     `((name . ,name)
       (score . ,score)
       (from-templates . ,from-templates)
       (ragged . ,ragged)
       (indent . ,indent)
-      (tag . ,tag)
+      (tag-global . ,tag-global)
+      (tag-notes . ,tag-notes)
       (notes . ,notes)
+      (clef . ,clef)
       (instrument . ,instrument)
+      (figures . ,figures)
       (music . ,music))))
 
 setPart =
 #(define-music-function (parser location name) (string?)
-   (define (add-piece! pieces-htable piece-spec forced default-note-filename default-score-filename instrument)
+   (define (add-piece! pieces-htable piece-spec forced instrument . defaults)
      (let ((piece-name (car piece-spec)))
        (if (or forced (not (hashq-ref pieces-htable piece-name #f)))
-           (let ((piece (make-piece piece-spec default-note-filename default-score-filename)))
+           (let ((piece (apply make-piece piece-spec defaults)))
              (if (and instrument
                       (not (assoc-ref piece 'instrument)))
                  (assoc-set! piece 'instrument instrument))
@@ -231,14 +245,13 @@ setPart =
      (if spec
          (let ((part-name (cadr spec))
                (fallbacks (caddr spec))
-               (default-notes (cadddr spec))
-               (default-score (car (cddddr spec)))
-               (piece-specs (cdr (cddddr spec))))
+               (defaults (cadddr spec))
+               (piece-specs (cddddr spec)))
            (*part* part-key)
            (*part-name* part-name)
            (*part-specs* (make-hash-table 150))
            (for-each (lambda (piece-spec)
-                      (add-piece! (*part-specs*) piece-spec #t default-notes default-score #f))
+                      (apply add-piece! (*part-specs*) piece-spec #t #f defaults))
                     piece-specs)
            (for-each (lambda (fallback)
                       (let* ((key (car fallback))
@@ -248,7 +261,8 @@ setPart =
                             (let ((default-notes (cadddr spec))
                                   (piece-specs (cddddr spec)))
                               (for-each (lambda (piece-spec)
-                                         (add-piece! (*part-specs*) piece-spec #f default-notes default-score instrument))
+                                         (apply add-piece! (*part-specs*) piece-spec
+                                                #f instrument defaults))
                                        piece-specs)))))
                     fallbacks))
          (ly:warning "No `~a' part defined for this opus" part-key)))
@@ -323,14 +337,18 @@ includeScore =
        (let ((piece (hashq-ref (*part-specs*)
                                (string->symbol name)
                                (make-piece (list (string->symbol name)
-                                                 #:silence #t)
-                                           "silence"
-                                           "score-silence"))))
+                                                 #:ragged #t
+                                                 #:notes "silence"
+                                                 #:score-template "score-silence")
+                                           #:clef #f))))
          (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
                         (*note-filename* (assoc-ref piece 'notes))
                         (*instrument-name* (assoc-ref piece 'instrument))
                         (*score-indent* (assoc-ref piece 'indent))
-                        (*tag* (assoc-ref piece 'tag))
+                        (*tag-global* (assoc-ref piece 'tag-global))
+                        (*tag-notes* (assoc-ref piece 'tag-notes))
+                        (*figures* (assoc-ref piece 'figures))
+                        (*clef* (or (assoc-ref piece 'clef) (*clef*)))
                         (*score-extra-music* (assoc-ref piece 'music)))
            (include-part-score parser
                                name

@@ -16,23 +16,26 @@ belongs to list2 under test."
 
 #(define (symbol-or-symbols? x)
    (or (null? x)
+       (not x)
        (symbol? x)
        (and (list? x) (every symbol? x))))
 
 keepWithTag =
 #(define-music-function (parser location tags music)
                         (symbol-or-symbols? ly:music?)
-   (music-filter
-    (lambda (m)
-      (let ((m.tags (ly:music-property m 'tags)))
-        (cond ((symbol? tags)
-               (or (null? m.tags) (memq tags m.tags)))
-              ((null? tags)
-               (null? m.tags))
-              ((list? tags)
-               (or (null? m.tags) (has-some-member? tags m.tags)))
-              (else #t))))
-    music))
+   (if tags
+       (music-filter
+        (lambda (m)
+          (let ((m.tags (ly:music-property m 'tags)))
+            (cond ((symbol? tags)
+                   (or (null? m.tags) (memq tags m.tags)))
+                  ((null? tags)
+                   (null? m.tags))
+                  ((list? tags)
+                   (or (null? m.tags) (has-some-member? tags m.tags)))
+                  (else #t))))
+        music)
+       music))
 
 tag =
 #(define-music-function (parser location tags arg)

@@ -1,8 +1,8 @@
 \score {
   \new Staff <<
-    \keepWithTag #(or (*tag*) (list)) \global
-    \clef "bass"
-    \includeNotes #(*note-filename*)
+    \keepWithTag #(*tag-global*) \global
+    \keepWithTag #(*tag-notes*) \includeNotes #(*note-filename*)
+    \clef #(*clef*)
     #(ly:export (if (*instrument-name*)
                     (make-music 'ContextSpeccedMusic
                       'context-type 'Staff
