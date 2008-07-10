@@ -16,9 +16,9 @@
     }
   }
 }
-
+#(set-global-staff-size 16)
 \include "italiano.ly"
-\include "common/common16.ily"
+\include "common/common.ily"
 \setOpus "Couperin/Clavecin/lArtDeToucherLeClavecin"
 \opusTitle "L'Art de toucher le clavecin"
 

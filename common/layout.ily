@@ -2,9 +2,7 @@
 %%%
 %%% Author: Nicolas Sceaux <nicolas.sceaux@free.fr>
 %%%
-\version "2.11.50"
 %% Paper size
-#(use-modules (srfi srfi-39))
 #(define-public *paper-size* (make-parameter 'a4))
 
 %%% Paper size options:
@@ -45,47 +43,6 @@
   between-title-space = 2 \mm
   between-system-padding = 4 \mm
 
-  scoreTitleMarkup = #f
-
-  oddFooterMarkup = \markup \column {
-    \fill-line {
-      %% put copyright only on pagenr. 1 
-      \on-the-fly #(lambda (layout props arg)
-		     (if (and (= 1 (chain-assoc-get 'page:page-number props -1))
-                              (not (chain-assoc-get 'page:last?  props #f)))
-		         (interpret-markup layout props arg)
-		         empty-stencil))
-      \fromproperty #'header:longcopyright
-    }
-    \fill-line {
-      %% put tagline on last page
-      \on-the-fly #(lambda (layout props arg)
-                     (if (chain-assoc-get 'page:last?  props #f)
-                         (interpret-markup layout props arg)
-                         empty-stencil))
-      \fill-line { \fromproperty #'header:tagline }
-    }
-  }
-  evenFooterMarkup = \markup \column {
-    \fill-line {
-      %% put notice on second page
-      \on-the-fly #(lambda (layout props arg)
-		     (if (= 2 (chain-assoc-get 'page:page-number props -1))
-                         (interpret-markup layout props arg)
-                         empty-stencil))
-      \fill-line { \fromproperty #'header:notes }
-    }
-    \fill-line {
-      %% put tagline on last page
-      \on-the-fly #(lambda (layout props arg)
-                     (if (chain-assoc-get 'page:last?  props #f)
-                         (interpret-markup layout props arg)
-                         empty-stencil))
-      \fill-line { \fromproperty #'header:tagline }
-    }
-  }
-
-  tocTitle = "TABLE DES MATIÈRES"
 }
 
 \layout {
@@ -153,46 +110,6 @@
     \description "Staff with small notes"
     fontSize = #-2
     \override StaffSymbol #'staff-space = #(magstep -2)
-  }
-}
-
-\header {
-  maintainer = "Nicolas Sceaux"
-  maintainerEmail = "nicolas.sceaux@free.fr"
-  maintainerWeb = "http://nicolas.sceaux.free.fr"
-  copyright = \markup \copyright
-  longcopyright = \markup \center-align {
-    \line { \copyright \hspace #-1 . }
-    \line { Licensed under the Creative Commons Attribution 3.0 License }
-  }
-  
-  tagline = \markup { 
-    \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7)
-    \box \center-align {
-      \small \line { 
-        \copyright
-        \with-url #"http://nicolas.sceaux.free.fr" \teeny "<nicolas.sceaux@free.fr>"
-        \hspace #-1 .
-        Typeset using \with-url #"http://www.LilyPond.org" 
-        \line { \teeny www. \hspace #-1.0 LilyPond \hspace #-1.0 \teeny .org }
-        #(ly:export (string-append "version " (lilypond-version))) \hspace #-1 .
-      }
-      \small \line {
-        Sheet music from \with-url #"http://www.MutopiaProject.org"
-        \concat { \teeny www. MutopiaProject \teeny .org }
-        and \with-url #"http://nicolas.sceaux.free.fr"
-        nicolas.sceaux.free.fr
-      }
-      \small \line {
-        \italic Free to download, with the \italic freedom
-        to distribute, modify and perform.
-      }
-      \teeny \line { 
-        Licensed under the Creative Commons Attributio 3.0 License, 
-        for details see: \hspace #-0.5 
-        \with-url #"http://creativecommons.org/licenses/by/3.0" 
-        http://creativecommons.org/licenses/by/3.0 }
-    }
   }
 }
 

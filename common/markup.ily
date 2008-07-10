@@ -53,9 +53,18 @@
       (interpret-markup layout props markp)
       (ly:make-stencil '()  '(1 . -1) '(1 . -1))))
 
-#(define-markup-command (line-width-ratio layout props width-ratio arg) (number? markup?)
+#(define-markup-command (apply-fromproperty layout props fn symbol)
+  (procedure? symbol?)
+  (let ((m (chain-assoc-get symbol props)))
+    (if (markup? m)
+        (interpret-markup layout props (fn m))
+        empty-stencil)))
+
+#(define-markup-command (line-width-ratio layout props width-ratio arg)
+  (number? markup?)
   (interpret-markup layout props
-   (markup #:override (cons 'line-width (* width-ratio (chain-assoc-get 'line-width props)))
+   (markup #:override (cons 'line-width (* width-ratio
+                                           (chain-assoc-get 'line-width props)))
            arg)))
 
 #(define-markup-list-command (wordwrap-center-lines layout props args)

@@ -27,7 +27,8 @@
 }
 
 \include "italiano.ly"
-\include "common/common16.ily"
+#(set-global-staff-size 16)
+\include "common/common.ily"
 
 \opusTitle "Motets et élévations"
 \setCategory "Couperin/Motets"

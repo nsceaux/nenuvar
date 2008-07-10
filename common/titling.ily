@@ -203,13 +203,13 @@
     \vspace #2
   }
   tocPieceMarkup = \markup \fill-line {
-    \line-width-ratio #0.7 \fill-line {
+    \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \fill-line {
       \line { \fromproperty #'toc:text }
       \fromproperty #'toc:page
     }
   }
   tocBoldPieceMarkup = \markup \fill-line {
-    \line-width-ratio #0.7 \fill-line {
+    \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \fill-line {
       \line { \bold \fromproperty #'toc:text }
       \bold \fromproperty #'toc:page
     }

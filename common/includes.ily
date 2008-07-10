@@ -348,7 +348,7 @@ includeScore =
                         (*tag-global* (assoc-ref piece 'tag-global))
                         (*tag-notes* (assoc-ref piece 'tag-notes))
                         (*figures* (assoc-ref piece 'figures))
-                        (*clef* (or (assoc-ref piece 'clef) (*clef*)))
+                        (*clef* (or (assoc-ref piece 'clef) (*clef*) "treble"))
                         (*score-extra-music* (assoc-ref piece 'music)))
            (include-part-score parser
                                name

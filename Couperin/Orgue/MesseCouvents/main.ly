@@ -19,7 +19,8 @@
 }
 
 \include "italiano.ly"
-\include "common/common14.ily"
+#(set-global-staff-size 14)
+\include "common/common.ily"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Title page
 \markup \null

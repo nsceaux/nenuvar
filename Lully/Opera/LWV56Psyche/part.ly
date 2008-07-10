@@ -27,7 +27,8 @@
 #(ly:set-option 'use-rehearsal-numbers #t)
 
 \include "italiano.ly"
-\include "common/common18.ily"
+#(set-global-staff-size 18)
+\include "common/common.ily"
 \layout {
   \context {
     \Score
