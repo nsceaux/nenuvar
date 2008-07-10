@@ -36,23 +36,19 @@
     >>
     \new InnerChoirStaff <<
       \new Staff \withLyrics <<
-        \characterName \markup "Durastanti."
         \keepWithTag #'other \global
         \clef treble
         \includeNotes "soprano"
       >> \includeLyrics "soprano-lyrics"
       \new Staff \withLyrics <<
-        \characterName \markup "Robinson."
         \keepWithTag #'other \global
         \clef valto \includeNotes "alto"
       >> \includeLyrics "alto-lyrics"
       \new Staff \withLyrics <<
-        \characterName \markup \center-align \smallCaps { "Bigongi, e" "Berenstadt." } 
         \keepWithTag #'other \global
         \clef vtenor \includeNotes "tenor"
       >> \includeLyrics "tenor-lyrics"
       \new Staff \withLyrics <<
-        \characterName \markup \center-align \smallCaps { "Boschi, e" "Le Guare." }
         \keepWithTag #'other \global
         \clef bass \includeNotes "bass"
       >> \includeLyrics "bass-lyrics"

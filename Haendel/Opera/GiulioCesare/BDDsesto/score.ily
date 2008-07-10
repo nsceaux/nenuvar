@@ -19,13 +19,13 @@
         >>
       >>
       \new Staff \withLyrics <<
-        \characterName \markup "Sesto."
+        \characterName \markup "Sesto.   "
         \keepWithTag #'() \global
         \sesto \includeNotes "sesto"
       >> \includeLyrics "sesto-lyrics" 
     >>
     \new Staff <<
-      \instrumentName \markup "Bassi."
+      \instrumentName \markup "Bassi.   "
       \keepWithTag #'down \global
       \clef bass \includeNotes "bassi"
     >>

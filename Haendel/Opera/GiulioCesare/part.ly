@@ -10,15 +10,25 @@
     \fill-line { \line { Edited by Frideric Chrysander } }
   }
 }
-#(ly:set-option 'ancient-style #t)
+#(ly:set-option 'ancient-style #f)
 #(ly:set-option 'non-incipit #t)
-#(set-global-staff-size 14)
+#(ly:set-option 'use-rehearsal-numbers #t)
+#(set-global-staff-size (if (eqv? (ly:get-option 'part) 'reduction)
+                            16 18))
 \include "common/common.ily"
 
+\layout {
+  \context {
+    \Score
+    \override VerticalAlignment #'max-stretch = ##f
+  }
+}
+
+\include "Haendel/Opera/GiulioCesare/common.ily"
+\include "Haendel/Opera/GiulioCesare/part-specs.ily"
+\setPart #(symbol->string (ly:get-option 'part))
 \setOpus "Haendel/Opera/GiulioCesare"
 \opusTitle "Giulio Cesare"
-\include "Haendel/Opera/GiulioCesare/common.ily"
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Title page
@@ -185,7 +195,7 @@
             }
 \includeScore "BKDcorneliaSesto"
 \actEnd \markup { FINE DELL' ATTO PRIMO. }
-
+%{
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Atto Secondo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \act "Atto Secondo"
 \scene "Scena I"
@@ -452,3 +462,4 @@
 \coro "Coro." "Ritorni omai nel nostro core"
 \includeScore "DJEcoro"
 \actEnd \markup { FINE DELL' OPERA. }
+%}
