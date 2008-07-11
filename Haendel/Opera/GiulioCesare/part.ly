@@ -326,7 +326,7 @@
 \aria "Sesto." "Aria." "L'aura che spira tiranno e fiero"
 \includeScore "CKBsesto"
 \actEnd \markup { FINE DELL' ATTO SECONDO. }
-%{
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Atto Terzo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \act "Atto Terzo"
 \scene "Scena I"
@@ -455,4 +455,3 @@
 \coro "Coro." "Ritorni omai nel nostro core"
 \includeScore "DJEcoro"
 \actEnd \markup { FINE DELL' OPERA. }
-%}
