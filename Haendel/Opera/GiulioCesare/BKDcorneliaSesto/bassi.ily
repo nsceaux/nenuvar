@@ -1,5 +1,5 @@
-r4 r8 r4 b8 ^\p g(  fis) e b4 b,8 |
-e4. r4 d8^\markup \italic { un poco più \dynamic f } g e b, d4 d,8 |
+r4 r8 r4 b8\p g(  fis) e b4 b,8 |
+e4. r4 d8-\markup \italic { un poco più \dynamic f } g e b, d4 d,8 |
 g, b a g fis e b,4 b,8 fis4 fis8 |
 g,4 g,8 g4 g8 a,4 a,8 a4 a8 |
 %%5

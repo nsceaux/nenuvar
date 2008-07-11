@@ -195,7 +195,7 @@
             }
 \includeScore "BKDcorneliaSesto"
 \actEnd \markup { FINE DELL' ATTO PRIMO. }
-%{
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Atto Secondo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \act "Atto Secondo"
 \scene "Scena I"
@@ -213,17 +213,10 @@
 }
 \recitativo
 \includeScore "CBArecit"
-\markup \large \fill-line {
-  \line { Quì s'ode vaga Sinfonia di varj stromenti. }
-}
 \piece "Sinfonia."
 \includeScore "CBBsinfonia"
 \recitativo
 \includeScore "CBCrecit"
-\markup \large \column {
-  \fill-line { \line { Quì s'apre il Parnasso, e vedesi in trono la Virtù } }
-  \fill-line { \line { assista delle nove Muse. } }
-}
 \includeScore "CBDsinfonia"
 \recitativo
 \includeScore "CBErecit"
@@ -333,7 +326,7 @@
 \aria "Sesto." "Aria." "L'aura che spira tiranno e fiero"
 \includeScore "CKBsesto"
 \actEnd \markup { FINE DELL' ATTO SECONDO. }
-
+%{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Atto Terzo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \act "Atto Terzo"
 \scene "Scena I"

@@ -5,12 +5,12 @@
       \new Staff <<
         \instrumentName \markup Tutti.
         \keepWithTag #'up \global
-        \clef treble \includeNotes "tutti"
+        \clef treble \keepWithTag #'tutti \includeNotes "tutti"
       >>
       \new Staff <<
         \instrumentName \markup {Violino II.}
         \keepWithTag #'() \global
-        \clef treble \includeNotes "violino2"
+        \clef treble \keepWithTag #'tutti \includeNotes "violino2"
       >>
       \new Staff <<
         \instrumentName \markup Viola.

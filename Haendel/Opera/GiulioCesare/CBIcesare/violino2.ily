@@ -31,7 +31,7 @@ g''8. d''16 g''(  d'') g''(  d'') a''(  d'') a''(  d'') a''(  d'') a''(  d'') |
 d'4 r8 e'' fis''4 r |
 R1*16 |
 
-r2 e''8^"Viol. I. II." d'' c'' a' |
+r2 e''8-\tag #'tutti ^"Viol. I. II." d'' c'' a' |
 %%65
 fis''8. \trill e''32 fis'' g''8 a' a'4. g'8 |
 g'4 r r2 |

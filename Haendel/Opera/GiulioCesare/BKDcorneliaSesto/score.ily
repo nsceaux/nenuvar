@@ -9,7 +9,7 @@
       >>
       \new Staff <<
         \instrumentName \markup { Violino II. }
-        \keepWithTag #'() \global
+        \keepWithTag #'violino2 \global
         \clef treble \includeNotes "violino2"
       >>
       \new Staff <<

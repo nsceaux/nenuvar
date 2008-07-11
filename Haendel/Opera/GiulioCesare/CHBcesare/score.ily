@@ -28,7 +28,7 @@
       \new Staff <<
         \set Staff.alignAboveContext = "bassi"
         \keepWithTag #'() \global
-        \clef alto
+        \clef "valto"
         \new Voice <<
           { \oneVoice s1*2 
             \voiceOne s4 \oneVoice s4 \voiceOne s2
