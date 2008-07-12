@@ -10,8 +10,9 @@
       \new Staff <<
         \keepWithTag #'() \global
         \clef treble
-        \new Voice { \voiceOne \includeNotes "violino1" }
-        \new Voice { \voiceTwo \includeNotes "violino2" }
+        \set Staff.printPartCombineTexts = ##f
+        \reduction \includeNotes "violino1-reduction"
+                   \includeNotes "violino2-reduction"
       >>
       \new Staff <<
         \keepWithTag #'partDown \global

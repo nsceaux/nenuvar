@@ -11,7 +11,7 @@
                (BCArecit #:score "score")
                (BCBcesare)
                (BDArecit #:score "score")
-               (BDBcornelia)
+               (BDBcornelia)              ;; perfectible
                (BDCrecit #:score "score")
                (BDDsesto)
                (BEArecit #:score "score")

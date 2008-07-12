@@ -24,7 +24,7 @@
       \new Staff <<
         \instrumentName \markup \center-align { "Viola" "da Gamba." }
         \keepWithTag #'() \global
-        \clef bass
+        \clef tenor
         \includeNotes "gamba"
       >>
       \new Staff <<

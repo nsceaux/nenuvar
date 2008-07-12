@@ -19,7 +19,7 @@
         \clef treble
         {
           \set Staff.printPartCombineTexts = ##f
-          \partcombine \includeNotes "violino1-1" \includeNotes "violino2-1"
+          \reduction \includeNotes "violino1-1" \includeNotes "violino2-1"
           \oneVoice \includeNotes "violini-2"
         }
       >>

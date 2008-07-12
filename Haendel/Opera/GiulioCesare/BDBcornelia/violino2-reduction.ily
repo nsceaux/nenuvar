@@ -1,16 +1,16 @@
-r8 fis' g' |
+r8 fis' g'16. b'32 |
 d'4. |
-g'8 d'4 |
+g'8 d'8. b'16 |
 d'8 cis' d' |
 %%5
-a d'4 |
+a( d') a' |
 a8( cis') e' |
 a d'16( fis') a'8 |
-cis' e'4 |
-r8 b' b' |
+cis' e' a' |
+\voiceTwo a'4. |
 %%10
-b'4 cis''8 |
-d'' d'4 |
+a'8 gis' a' |\oneVoice
+d'' d'8. a'16 |
 cis'8 d' cis' |
 r e' d' |
 r g'16 fis' e' d' |
@@ -19,17 +19,17 @@ cis'4.^\fermata |
 e'4 fis'8 |
 dis'4 e'8 |
 e'4 dis'8 |
-e'4. |
+e' b' e'' |
 %%20
-r8 e' a' |
-fis'4 e'8 |
-fis' d'4 |
+cis'' e' a' |
+fis'8 d'' e'8 |
+fis' d'8. a'16 |
 e'4. |
 fis' |
 %%25
 g' |
 a' |
-d'4 d'8 |
+d'8 a' d'8 |
 cis'4 b8 |
 r d'( cis') |
 %%30
@@ -39,7 +39,7 @@ r g' fis' |
 e'4. |
 e'8. b'16 a'8 |
 %%35
-b e'4 |
+b e' cis'8 |
 r8 fis' a' |
 r a' g' |
 r g' fis' ~ |
@@ -51,19 +51,19 @@ r d' cis' |
 r e' d'^\fermata |
 d'4 fis'8 |
 %%45
-g'4. |
-g'4 fis'8 |
 g'4 g'8 |
+g' b' fis'8 |
+g' b' g'8 |
 fis' fis' b' |
 g'8. fis'16 e'8 |
 %%50
-r a' fis' |
+c''8 a' fis' |
 dis'8. e'16 fis'8 |
 dis' fis' g' |
-g' fis' a' |
+g'( fis') a' |
 a' g' b' |
 %%55
-b' a'4 |
+b' a' e'' |
 a'8. b'16 g'8 |
 e'4 dis'8 |
 e' c'( b) |

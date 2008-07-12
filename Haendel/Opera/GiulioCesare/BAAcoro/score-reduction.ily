@@ -25,7 +25,7 @@
         \keepWithTag #'other \global
         \clef treble
         \set Staff.printPartCombineTexts = ##f
-        \partcombine 
+        \reduction 
         \includeNotes "violino1" 
         \includeNotes "violino2"
       >>

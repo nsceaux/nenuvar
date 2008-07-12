@@ -14,7 +14,7 @@
 \include "common/marks.ily"
 \include "common/staff.ily"
 \include "common/layout.ily"
-
+\include "common/reduction.ily"
 \layout { incipit-width = #(* (*staff-size*) (/ 15.0 20.0) mm) }
 
 %%% Title page

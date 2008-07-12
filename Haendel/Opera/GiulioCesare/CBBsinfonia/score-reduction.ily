@@ -10,7 +10,7 @@
         \keepWithTag #'() \global
         \clef treble
         \set Staff.printPartCombineTexts = ##f
-        \partcombine \includeNotes "tutti" \includeNotes "harpe1"
+        \reduction \includeNotes "tutti" \includeNotes "harpe1"
       >>
       \new Staff <<
         \keepWithTag #'() \global
