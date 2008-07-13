@@ -7,7 +7,7 @@ b, g, b, g, d,4 |
 r8 e g e b,4 |
 r8 c' e' c' g4 |
 r8 a c' a a,4 |
-r8 b dis' b e4 |
+dis'8 b dis' b e4 |
 %%10
 r8 b dis' b e4 |
 b, r r |

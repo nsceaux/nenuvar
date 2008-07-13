@@ -53,19 +53,19 @@ d8. e16 f8 |
 %%45
 bes, c c, |
 f,4. |
-a16. ^\f g32 f8 e |
+a16. \f g32 f8 e |
 f c r |
-d' _\p c' r |
+d' \p c' r |
 %%50
 a16. _\f g32 f8 bes, |
 c c, r |
-f _\p f, r |
-f _\f f, r |
-f _\p f, r |
+f \p f, r |
+f \f f, r |
+f \p f, r |
 %%55
 bes, c f |
 bes, c c, |
-f,4. ^\fermata |
+f,4. \fermata |
 d16. e32 f8 g |
 e d r |
 %%60
@@ -88,10 +88,10 @@ gis, e, a, |
 d e e, |
 %%75
 a,4. |
-a16. _\f g32 f8 e |
+a16. \f g32 f8 e |
 f c r |
-d' _\p c' r |
-a16. _\f g32 f8 bes, |
+d' \p c' r |
+a16. \f g32 f8 bes, |
 %%80
 c c, r |
-f _\p f, r
+f \p f, r

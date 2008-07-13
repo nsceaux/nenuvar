@@ -11,7 +11,7 @@
         \keepWithTag #'() \global
         \clef treble
         \set Staff.printPartCombineTexts = ##f
-        \reduction \includeNotes "flauti" \includeNotes "violino1"
+        \reduction \includeNotes "flauti" \includeNotes "violino1-reduction"
       >>
       \new Staff <<
         \keepWithTag #'partDown \global
