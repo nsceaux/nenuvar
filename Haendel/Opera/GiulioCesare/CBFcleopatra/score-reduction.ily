@@ -2,6 +2,7 @@
 \score {
   <<
     \new Staff \withLyrics <<
+      { s2.*34 s2 \pageBreak }
       \characterName \markup Cleopatra.
       \keepWithTag #'partUp \global
       \cleopatra \includeNotes "cleopatra"

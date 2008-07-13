@@ -2,6 +2,15 @@
 \score {
   <<
     \new Staff \withLyrics <<
+      { s1*3 \break
+        s1*3 \break
+        s1*3 \break
+        s1*3 \break
+        s1*3 \break
+        s1*3 \break
+        s1*3 \break
+        s1*3 \break
+      }
       \characterName \markup Cornelia.
       \keepWithTag #'partUp \global
       \cornelia \includeNotes "cornelia" 

@@ -61,6 +61,7 @@
 }
 \coro "Coro." "Viva il nostre Alcide"
 \includeScore "BAAcoro"
+\partPageBreak #'(reduction) %%%%%%%%%%
 \aria "Cesare." "Aria." "Presti omai l'Egizia terra"
 \includeScore "BABcesare"
 \recitativo
@@ -82,6 +83,7 @@
 \aria "Cesare." "Aria." "Empio, dirò, tu sei, togliti"
 \includeScore "BCBcesare"
 %%
+\partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena IV"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Curio, \smallCaps Sesto, e \smallCaps Cornelia, che ritorna
@@ -96,6 +98,7 @@
 \aria "Sesto." "Aria." "Svegliatevi nel core, furie d'un alma offesa"
 \includeScore "BDDsesto"
 %%
+\partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena V"
 \sceneDescription \markup \center-align {
   Gabinetto.
@@ -106,6 +109,7 @@
 }
 \recitativo
 \includeScore "BEArecit"
+\partPageBreak #'(reduction) %%%%%%%%%%
 \aria "Cleopatra." "Aria." "Non disperar; chi sà? se al regno"
 \includeScore "BEBcleopatra"
 %%
@@ -133,15 +137,13 @@
 \includeScore "BGCcesare"
 \recitativo
 \includeScore "BGDrecit"
+\partPageBreak #'(reduction) %%%%%%%%%%
 \aria "Cleopatra." "Aria." "Tutto può donna vezzosa, s'amorosa"
 \includeScore "BGEcleopatra"
-\noPageBreak
-\markup \large \fill-line {
- "(Mentre Cleopatra vuol partire, vien ritenuta da Nireno.)"
-}
 \recitativo
 \includeScore "BGFrecit"
 %%
+\partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena VIII"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Cornelia, e poi \smallCaps Nireno che sopraviene; 
@@ -149,6 +151,7 @@
 }
 \aria "Cornelia." "Arioso." "Nel tuo seno, amico sasso"
 \includeScore "BHAcornelia"
+\partPageBreak #'(reduction) %%%%%%%%%%
 \recitativo
 \includeScore "BHBrecit"
 \aria "Sesto." "Aria." "Cara speme, questo core tu cominci a lusingar"
@@ -294,6 +297,7 @@
 \includeScore "CHBcesare"
 \aria "Cleopatra." "Recit." "Che sento? oh Dio!"
 \includeScore "CHCrecit"
+\partPageBreak #'(reduction) %%%%%%%%%%
 \aria "Cleopatra." "Aria." "Se pietà di me non senti, giusto ciel"
 \includeScore "CHDcleopatra"
 %%
@@ -353,6 +357,7 @@
 \aria "Tolomeo." "Aria." "Domerò la tua fierezza ch'il mio trono"
 \includeScore "DBCtolomeo"
 %%
+\partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena III"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Cleopatra sole con guardie.
@@ -362,6 +367,7 @@
 \aria "Cleopatra." "Aria." "Piangerò la sorte mia, si crudele"
 \includeScore "DCBcleopatra"
 %%
+\partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena IV"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps {Giulio Cesare,} da una parte, poi \smallCaps Sesto 
@@ -372,9 +378,11 @@
 \includeScore "DDArecit"
 \aria "Cesare." "Aria." "Aure, deh, per pietà spirate"
 \includeScore "DDBcesare"
+\partPageBreak #'(reduction) %%%%%%%%%%
 \recitativo
 \includeScore "DDCrecit"
 %%
+\partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena V"
 \sceneDescription \markup \wordwrap-center { 
   \smallCaps { Giulio Cesare,} che raspisce il sigillo a 
@@ -382,9 +390,11 @@
 }
 \recitativo
 \includeScore "DEArecit"
+\partPageBreak #'(reduction) %%%%%%%%%%
 \aria "Cesare." "Aria." "Quel torrente che cade dal monte"
 \includeScore "DEBcesare"
 %%
+\partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena VI"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Sesto, e \smallCaps Nireno.
@@ -409,6 +419,7 @@
 \aria "Cleopatra." "Aria." "Da tempeste il legno infranto"
 \includeScore "DGCcleopatra"
 %%
+\partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena VIII"
 \sceneDescription \markup \center-align {
   \line { Sala Regia. }
@@ -419,6 +430,7 @@
 \recitativoToc
 \includeScore "DHArecit"
 %%
+\partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena IX"
 \sceneDescription \markup \wordwrap-center {
   Mentre \smallCaps Cornelia corre alla vita di \smallCaps Tolomeo,
