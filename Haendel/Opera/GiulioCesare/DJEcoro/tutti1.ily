@@ -52,7 +52,7 @@ b'4 a'8 g' fis'4. g'8 |
 g' d'' e'' fis'' g''4 c'' |
 b'4. a'8 a'4. g'8 |
 %%45
-g'2. d''4^"Oboe senza Viol." |
+g'2. d''4-\tag #'tutti ^"Oboe senza Viol." |
 ees''2 r4 c'' |
 d''8 c'' d''2 bes'4 |
 c'' bes'8 a' bes'4 c'' |
@@ -80,7 +80,7 @@ a'8 g' a'4 d''2 |
 r4 g' c''2 |
 r4 d'' bes' c'' |
 d'' c''8 bes' a'4. g'8 |
-g'2. g'4^"(Tutti.)" |
+g'2. g'4-\tag #'tutti ^"(Tutti.)" |
 %%70
 d''2 c'' |
 b'4 a'8 g' fis'4 g' |

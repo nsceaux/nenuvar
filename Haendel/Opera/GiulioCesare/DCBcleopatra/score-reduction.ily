@@ -18,9 +18,8 @@
         \keepWithTag #'() \global
         \clef treble
         {
-          \set Staff.printPartCombineTexts = ##f
-          \reduction \includeNotes "violino1-1" \includeNotes "violino2-1"
-          \oneVoice \includeNotes "violini-2"
+          \includeNotes "violini-reduction"
+          \includeNotes "violini-2"
         }
       >>
       \new Staff <<

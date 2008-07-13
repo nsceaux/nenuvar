@@ -10,13 +10,12 @@
       \new Staff <<
         \keepWithTag #'() \global
         \clef treble
-        \set Staff.printPartCombineTexts = ##f
-        \reduction \includeNotes "violino1" \includeNotes "violino2"
+        \includeNotes "violini-reduction"
       >>
       \new Staff <<
         \keepWithTag #'partDown \global
         \clef bass
-        \includeNotes "bassi"
+        \includeNotes "bassi-reduction"
         \includeFigures "figures"
       >>
     >>
