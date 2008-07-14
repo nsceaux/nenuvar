@@ -1,4 +1,4 @@
-\version "2.11.50"
+\version "2.11.52"
 #(use-modules (srfi srfi-39))
 #(define-public *staff-size*
   (make-parameter (let ((module (ly:output-def-scope
@@ -6,6 +6,8 @@
                                                    '$defaultpaper))))
                     (/ (module-ref module 'staff-height)
                        (eval 'pt module)))))
+
+\layout { incipit-width = #(* (*staff-size*) (/ 15.0 20.0) mm) }
 
 \include "common/includes.ily"
 \include "common/clef-key.ily"
@@ -15,7 +17,6 @@
 \include "common/staff.ily"
 \include "common/layout.ily"
 \include "common/reduction.ily"
-\layout { incipit-width = #(* (*staff-size*) (/ 15.0 20.0) mm) }
 
 %%% Title page
 %%%
@@ -25,7 +26,7 @@
   maintainerWeb = "http://nicolas.sceaux.free.fr"
   copyright = \markup \copyright
   longcopyright = \markup \center-align {
-    \line { \copyright \hspace #-1 . }
+    \line { \copyright }
     \line { Licensed under the Creative Commons Attribution 3.0 License }
   }
   
@@ -36,22 +37,27 @@
         \copyright
         \with-url #"http://nicolas.sceaux.free.fr" \teeny "<nicolas.sceaux@free.fr>"
         \hspace #-1 .
+      %}
+      %\small \line {
         Typeset using \with-url #"http://www.LilyPond.org" 
         \line { \teeny www. \hspace #-1.0 LilyPond \hspace #-1.0 \teeny .org }
-        #(ly:export (string-append "version " (lilypond-version))) \hspace #-1 .
+        #(ly:export (string-append "version " (lilypond-version))) \hspace #-1 
+        on \concat { \today . }
       }
       \small \line {
         Sheet music from \with-url #"http://www.MutopiaProject.org"
         \concat { \teeny www. MutopiaProject \teeny .org }
         and \with-url #"http://nicolas.sceaux.free.fr"
-        nicolas.sceaux.free.fr
+        \typewriter \tiny nicolas.sceaux.free.fr
       }
       \small \line {
         \italic Free to download, with the \italic freedom
         to distribute, modify and perform.
       }
       \teeny \line { 
-        Licensed under the Creative Commons Attributio 3.0 License, 
+        Licensed under the Creative Commons Attributio 3.0 License,
+      %}
+      %\teeny \line { 
         for details see: \hspace #-0.5 
         \with-url #"http://creativecommons.org/licenses/by/3.0" 
         http://creativecommons.org/licenses/by/3.0 }

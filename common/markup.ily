@@ -48,6 +48,14 @@
                  (format #f "~a-~a" year this-year))
              maintainer))))
 
+#(define-markup-command (today layout props) ()
+  (let ((today (gmtime (current-time))))
+   (interpret-markup layout props
+     (format #f "~a-~a-~a"
+             (+ 1900 (tm:year today))
+             (1+ (tm:mon today))
+             (tm:mday today)))))
+
 #(define-markup-command (when-property layout props symbol markp) (symbol? markup?)
   (if (chain-assoc-get symbol props)
       (interpret-markup layout props markp)
@@ -77,7 +85,6 @@
   (interpret-markup layout props
    (make-column-markup
     (make-wordwrap-center-lines-markup-list args))))
-
 
 #(define (page-ref-aux layout props label gauge next)
   (let* ((gauge-stencil (interpret-markup layout props gauge))
@@ -121,16 +128,14 @@
    (* 0.25 (chain-assoc-get 'baseline-skip props))
    Y))
 
-#(define-markup-list-command (paragraph paper props text) (markup-list?)
+#(define-markup-list-command (paragraph layout props text) (markup-list?)
   (let ((indentation (markup #:pad-to-box (cons 0 3) (cons 0 0) #:null)))
-   (interpret-markup-list paper props
-    (make-override-lines-markup-list '(baseline-skip . 0)
-     (make-justified-lines-markup-list (cons indentation text))))))
+    (interpret-markup-list layout props
+       (make-justified-lines-markup-list (cons indentation text)))))
 
 #(define-markup-list-command (columns paper props text) (markup-list?)
   (interpret-markup-list paper props
-   (make-override-lines-markup-list '(baseline-skip . 1)
-    (make-column-lines-markup-list text))))
+    (make-column-lines-markup-list text)))
 
 #(define-markup-command (boxed-justify layout props text) (markup-list?)
   (interpret-markup layout props

@@ -100,7 +100,7 @@ staffStart =
 
 #(define french-clefs '((dessus french . treble)
                         (dessus2 soprano . treble)
-                        (haute-contre soprano . alto)
+                        (haute-contre soprano . treble)
                         (taille mezzosoprano . alto)
                         (quinte alto . alto)
                         (basse bass . bass)
