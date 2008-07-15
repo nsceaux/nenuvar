@@ -47,5 +47,8 @@
 \pageBreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/Aprologue.ily"
+%% Première journée
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/AAsonnetRoi.ily"
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ABlouangesReine.ily"
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ACcollation.ily"
 

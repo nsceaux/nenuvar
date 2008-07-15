@@ -81,6 +81,14 @@
         (interpret-markup layout props (markup #:fill-line (#:stencil stencil))))
    (interpret-markup-list layout props (make-wordwrap-lines-markup-list args))))
 
+#(define-markup-list-command (centered-lines layout props args)
+  (markup-list?)
+  (let ((baseline-skip (chain-assoc-get 'baseline-skip props)))
+    (space-lines baseline-skip
+      (interpret-markup-list layout props
+        (map (lambda (arg) (markup #:fill-line (arg)))
+             args)))))
+
 #(define-markup-command (wordwrap-center layout props args) (markup-list?)
   (interpret-markup layout props
    (make-column-markup

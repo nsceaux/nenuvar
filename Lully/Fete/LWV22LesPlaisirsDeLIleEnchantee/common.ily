@@ -1,3 +1,7 @@
+\layout {
+  indent = \smallindent
+}
+
 #(define-markup-command (approximatively-centered layout props arg) (markup?)
   (let* ((arg-stencil (interpret-markup layout props arg))
          (width (interval-length (ly:stencil-extent arg-stencil X)))
@@ -35,7 +39,23 @@
    (make-column-lines-markup-list
     (make-approximatively-centered-lines-markup-list args))))
 
-partie =
+\paper {
+  tocSectionMarkup = \markup \fill-line {
+    \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \fill-line {
+      \line { \fromproperty #'toc:text }
+      \fromproperty #'toc:page
+    }
+  }
+  tocPieceMarkup = \markup \fill-line {
+    \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \fill-line {
+      \line { \hspace #5 \fromproperty #'toc:text }
+      \fromproperty #'toc:page
+    }
+  }
+
+}
+
+tocChapter =
 #(define-music-function (parser location title) (string?)
   (increase-rehearsal-major-number)
   (add-page-break parser)
@@ -46,4 +66,20 @@ partie =
     parser
     (format #f "~a." (string-upper-case (*act-title*)))
     #f)
+  (make-music 'Music 'void #t))
+
+tocSection =
+#(define-music-function (parser location title) (string?)
+  (add-toc-item parser 'tocSectionMarkup title)
+  (add-odd-page-header-text
+    parser
+    (format #f "~a, ~a."
+           (string-upper-case (*act-title*))
+           (string-upper-case title))
+    #t)
+  (make-music 'Music 'void #t))
+
+tocSubSection =
+#(define-music-function (parser location title) (string?)
+  (add-toc-item parser 'tocPieceMarkup title)
   (make-music 'Music 'void #t))
