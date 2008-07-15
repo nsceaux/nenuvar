@@ -1,9 +1,6 @@
-\tocChapter "Première Journée"
-
 \markuplines {
   \act "LES PLAISIRS DE L'ÎLE ENCHANTÉE"
-  \strut
-  \strut
+  \vspace #3
   \scene-description \justify {
     Course de bague, collation ornée de machines, comédie de Molière
     intitulée la Princesse d'Élide, mêlée de danse et de musique, ballet
@@ -11,6 +8,7 @@
     magnifiques, faites par le Roi à Versailles le 7 mai 1664, et
     continuées plusieurs autres jours.
   }
+  \vspace #3
   \paragraph {
     Le Roi, voulant donner aux Reines et à toute sa cour le plaisir de
     quelques fêtes peu communes, dans un lieu orné de tous les agréments
@@ -74,9 +72,44 @@
     carré, et de diverses peintures avec les armes de sa Majesté. 
   }
 }
-\tocSection "Course de bague"
-\tocSubSection "Sonnet pour le Roi"
+
+%%%%%%
+\pageBreak
+\tocJournee "Première journée"
+\markup \act \line { PREMIÈRE JOURNÉE }
+\tocSpectacle "Course de bague"
+\tocPiece "Sonnet pour le Roi"
 \markuplines {
+  \centered-lines { \title "Avant-Propos" \hspace #1 }
+  \paragraph {
+    Les charmes d'Alcine, qui n'avait pas moins de beauté que de
+    savoir, retenant auprès d'elle, par un double enchantement, le
+    brave Roger et plusieurs autres vaillants chevaliers, toutes ses
+    pensées ne s'occupèrent plus qu'à empêcher leur fuite, pour faire
+    durer ses plaisirs. Elle joignit à la force et à la situation de
+    son palais, le pouvoir de ses démons, la fierté de ses géants, et
+    celle de ses bêtes farouches. Mais elle n'eut pas moins de
+    confiance aux divertissements des promenades, de la dance, des
+    tournois, des festins, de la comédie, et de la musique. Et comme
+    elle avait autant d'amants que de captifs, et qu'ils ne pensaient
+    tous qu'à lui plaire, ces illustres guerriers font une partie de
+    course de bague, et prenant pour sujet les jeux pythiens, auxquels
+    Apollon présidait, ils font leur entrée dans la lice, avec tous
+    les ornements dont ils peuvent l'accompagner, dans le plus beau
+    lieu que la Nature et l'Art aient jamais formé, et embelli pour le
+    plaisir de la vie. Mais cette belle magicienne, de qui les
+    enchantements étaient d'une force prodigieuse, n'étant pas
+    satisfaite que sa puissance parût en un seul endroit de la terre,
+    afin de porter en tous lieux le triomphe de sa beauté, par les
+    hommages de ces chevaliers, a rendu son île flottante. Et après
+    avoir visité plusieurs climats, elle la fait aborder en France, ou
+    par le respect et l'admiration que lui causent les rares qualités
+    de la Reine. Elle ordonne à ces guerriers de faire, en faveur de
+    Sa Majesté, tout ce qu'ils auront pu inventer pour lui plaire par
+    leur adresse, et par leur magnificence.
+  }
+  \centered-lines { \hspace #1 \separation-line #20 \hspace #1 }
+
   \paragraph {
     Toute la cour s'étant placée le septième, il entra dans la place
     un héraut d'armes, représenté par M. des Bardins, vêtu d'un habit
@@ -145,6 +178,7 @@
     \line { C'est avoir sur les bras deux étranges querelles. }
     \line { Qui sort à son honneur de ce double combat }
     \line { Doit être ce me semble un terrible soldat. }
+    \null
   }
 
   \paragraph {
@@ -181,6 +215,7 @@
     \line { Il efface l'éclat des héros anciens }
     \line { N'a que l'honneu en vue, et ne tire l'épée }
     \line { Que pour des intérêts qui ne sont pas les siens. }
+    \null
   }
   \paragraph {
     Le duc de Noailles juge du camp sous le nom d'Ogier le Danois,
@@ -194,6 +229,7 @@
     \line { De servir dignement le plus puissant des rois }
     \line { Comme pour bien juger, il faut savoir bien faire }
     \line { Je doute que personne appelle de sa voix. }
+    \null
   }
   \paragraph {
     Le duc de Guise et le comte d'Armagnac marchaient ensembles après
@@ -217,6 +253,7 @@
     \line { Aussi nulle beauté ne s'en verra trompée }
     \line { Et quand il sera temps d'aller aux ennemis }
     \line { C'est où je me ferai tout blanc de mon épée. }
+    \null
   }
   \paragraph {
     Les ducs de Foix et de Coaslin qui paraissaient ensuite, étaient
@@ -237,6 +274,7 @@
     \line { J'aurai vaincu sept rois, et par mon grand courage }
     \line { Les verrai tous soumis au pouvoir de Roger, }
     \line { Que je ne serai pas content de mon ouvrage. }
+    \null
   }
   \paragraph {
     Après eux marchaient le comte du Lude et le prince de Marcillac,
@@ -257,6 +295,7 @@
     \line { Et ma bonne fortune a son comble arrivée, }
     \line { Quand vous saurez mon zèle, aimable fleur de lys, }
     \line { Au milieu de mon cœur profondément gravé. }
+    \null
   }
   \paragraph {
     Les marquis de Villequier et de Soyécourt marchaient ensuite, l'un
@@ -277,6 +316,7 @@
     \line { Et même les géants, de médiocres hommes }
     \line { Et ce franc chevalier à tout venant tout prêt }
     \line { Toujours pour quelque joûte à la lance en arrêt. }
+    \null
   }
   \paragraph {
     Les marquis d'Humières et de la Vallière des suivaient, ce premier
@@ -297,6 +337,7 @@
     \line { Quand on est amoureux au souverain degré, }
     \line { Mourir entre les bras d'une belle personne, }
     \line { Est de toutes les morts la plus douce à mon gré. }
+    \null
   }
   \paragraph {
     Monsieur le Duc marchait seul portant pour sa livrée le couleur de
@@ -313,12 +354,13 @@
     \line { Quand il est question de se mettre en campagne, }
     \line { \hspace #5 Et pour ne vous en point mentir, }
     \line { \hspace #5 C'est le pur sang de Charlemagne. }
+    \null
   }
   \paragraph {
     Un char de dix huit pieds de haut, de vingt quatre de long, et de
     quize de large parassait ensuite, éclatant d'or et de diverses
     couleurs. Il représentait celui d'Apollon en l'honneur duquel se
-    célébraient autrefois les jeux sythiens, que ces chevaliers
+    célébraient autrefois les jeux pythiens, que ces chevaliers
     s'étaient proposés d'imiter en leurs courses, et en leur
     équipage. Cette divinité brillante de lumières était assise au
     plus haut du chat, ayant à ses pieds les quatre âges, ou siècles

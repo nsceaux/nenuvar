@@ -47,8 +47,10 @@
 \pageBreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% Première journée
+%%% Première journée
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/AAsonnetRoi.ily"
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ABlouangesReine.ily"
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ACcollation.ily"
 
+%%% Seconde journée
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BA.ily"

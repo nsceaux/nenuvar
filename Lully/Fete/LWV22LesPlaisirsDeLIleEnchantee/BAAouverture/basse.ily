@@ -2,7 +2,7 @@ sol1 |
 re4 sol, mib2 |
 re4. do8 si,2 |
 do4 la, sib, do |
-fa,4. fa8 mib4. re8 |
+fa,4. fa8 mib4 re |
 do2 re |
 mib2. do4 |
 re8 do sib, la, sol,2 |

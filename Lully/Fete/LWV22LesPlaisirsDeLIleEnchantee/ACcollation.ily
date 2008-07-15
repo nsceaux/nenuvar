@@ -1,4 +1,4 @@
-\tocSection "Collation"
+\tocSpectacle "Collation"
 \pageBreak
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
@@ -80,7 +80,7 @@
     Printemps lui adressa le premiers ces vers.
   }
 }
-\tocSubSection "Vers à la Reine"
+\tocPiece "Vers à la Reine"
 \markuplines {
   \verseTitle { Le Printemps à la Reine }
   \verse-lines {

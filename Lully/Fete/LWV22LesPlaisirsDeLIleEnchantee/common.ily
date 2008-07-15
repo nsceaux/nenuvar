@@ -2,60 +2,53 @@
   indent = \smallindent
 }
 
-#(define-markup-command (approximatively-centered layout props arg) (markup?)
-  (let* ((arg-stencil (interpret-markup layout props arg))
-         (width (interval-length (ly:stencil-extent arg-stencil X)))
-         (line-width (chain-assoc-get 'line-width props))
-         (gap 40));(* 5 (truncate (/ (- line-width width) 10)))))
-    (interpret-markup layout props (markup #:hspace gap #:stencil arg-stencil))))
-
-#(define-markup-list-command (approximatively-centered-lines layout props args) (markup-list?)
-  (let* ((stencils (map (lambda (markp)
-                          (interpret-markup layout props markp))
-                        args))
-         (width (apply max
-                  (map (lambda (stencl)
-                         (interval-length (ly:stencil-extent stencl X)))
-                       stencils)))
-         (line-width (chain-assoc-get 'line-width props))
-         (gap 40));(* 5 (truncate (/ (- line-width width) 10)))))
-    (interpret-markup-list layout props
-      (map (lambda (stencl) (markup #:hspace gap #:stencil stencl))
-           stencils))))
+#(define-markup-list-command (hshift-lines layout props amount args)
+  (number? markup-list?)
+  (interpret-markup-list layout props
+    (map (lambda (s) (markup #:hspace amount #:stencil s))
+         (interpret-markup-list layout props args))))
 
 #(define-markup-command (verseTitle layout props args) (markup-list?)
   (interpret-markup layout props
     (markup #:column
-     (#:null
+     (#:strut
       #:fontsize 1 #:italic (make-fill-line-markup (list (make-line-markup args)))
       #:null))))
 
 #(define-markup-command (verses layout props args) (markup-list?)
   (interpret-markup layout props
-   (make-approximatively-centered-markup (make-column-markup args))))
+    (markup #:hspace 40 (make-column-markup args))))
 
 #(define-markup-list-command (verse-lines layout props args) (markup-list?)
   (interpret-markup-list layout props
    (make-column-lines-markup-list
-    (make-approximatively-centered-lines-markup-list args))))
+    (make-hshift-lines-markup-list 40 args))))
 
-\paper {
-  tocSectionMarkup = \markup \fill-line {
-    \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \fill-line {
-      \line { \fromproperty #'toc:text }
-      \fromproperty #'toc:page
-    }
-  }
-  tocPieceMarkup = \markup \fill-line {
-    \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \fill-line {
-      \line { \hspace #5 \fromproperty #'toc:text }
-      \fromproperty #'toc:page
-    }
-  }
+#(define-markup-list-command (avant-propos layout props args) (markup-list?)
+  (let* ((line-width (chain-assoc-get 'line-width props))
+         (new-line-width (* line-width 0.70))
+         (gap (/ (- line-width new-line-width) 2)))
+    (interpret-markup-list layout props
+      (append!
+        (cons (markup #:column (#:fill-line (#:title "Avant-propos")
+                                #:hspace 1))
+              (make-hshift-lines-markup-list gap
+                (make-override-lines-markup-list `(line-width . ,new-line-width)
+                  (make-paragraph-markup-list args))))
+       (list (markup #:column
+              (#:hspace 1 #:separation-line 20)))))))
 
-}
+#(define-markup-list-command (paragraph layout props args) (markup-list?)
+  (let* ((indentation (markup #:pad-to-box (cons 0 3) (cons 0 0) #:null))
+         (line-width (chain-assoc-get 'line-width props 80))
+         (new-line-width (* line-width 0.80))
+         (gap (* 0.5 (- line-width new-line-width))))
+    (interpret-markup-list layout props
+      (make-hshift-lines-markup-list gap
+        (make-override-lines-markup-list `(line-width . ,new-line-width)
+          (make-justified-lines-markup-list (cons indentation args)))))))
 
-tocChapter =
+tocJournee =
 #(define-music-function (parser location title) (string?)
   (increase-rehearsal-major-number)
   (add-page-break parser)
@@ -68,9 +61,9 @@ tocChapter =
     #f)
   (make-music 'Music 'void #t))
 
-tocSection =
+tocSpectacle =
 #(define-music-function (parser location title) (string?)
-  (add-toc-item parser 'tocSectionMarkup title)
+  (add-toc-item parser 'tocSceneMarkup title)
   (add-odd-page-header-text
     parser
     (format #f "~a, ~a."
@@ -79,7 +72,12 @@ tocSection =
     #t)
   (make-music 'Music 'void #t))
 
-tocSubSection =
+tocPartie =
+#(define-music-function (parser location title) (string?)
+  (add-toc-item parser 'tocBoldPieceMarkup title)
+  (make-music 'Music 'void #t))
+
+tocPiece =
 #(define-music-function (parser location title) (string?)
   (add-toc-item parser 'tocPieceMarkup title)
   (make-music 'Music 'void #t))

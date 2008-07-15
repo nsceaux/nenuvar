@@ -1,7 +1,7 @@
-sol4. la8 sib4 re' |
-re'4. do'8 sib la sol4 |
-la2 si8 do' re'4 |
-sol do' sib8 la sol4 |
+sol4. la8 sib do' re'4 |
+sol8 la sib4 do' la |
+la4. la8 si4. do'8 |
+sol4 do' sib8 la sol4 |
 la2 ~ la4. sol8 |
 sol4. la8 sib do' re'4 |
 sol8 la sib4 do' la |

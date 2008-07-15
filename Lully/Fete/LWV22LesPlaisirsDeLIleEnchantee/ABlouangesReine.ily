@@ -1,4 +1,4 @@
-\tocSubSection "Louange de la Reine"
+\tocPiece "Louange de la Reine"
 \markuplines {
   \paragraph {
     Lorsque l’on eut fait halte en cet état, un profond silence, causé
@@ -92,9 +92,8 @@
     \line { À de plus doux combats cette lice s’apprête, }
     \line { Allons la faire ouvrir, et ployons des lauriers, }
     \line { Pour couronner le front de nos fameux guerriers. }
+    \null
   }
-}
-\markuplines {
   \paragraph {
     Tous ces récits achevés, la Course de Bague commença, en laquelle
     après que le Roi eût fait admirer l’adresse et la grâce qu’il a en

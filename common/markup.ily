@@ -75,6 +75,14 @@
                                            (chain-assoc-get 'line-width props)))
            arg)))
 
+#(define-markup-list-command (line-width-ratio-lines layout props width-ratio args)
+  (number? markup-list?)
+  (interpret-markup-list layout props
+    (make-override-lines-markup-list
+      (cons 'line-width (* width-ratio
+                           (chain-assoc-get 'line-width props)))
+      args)))
+
 #(define-markup-list-command (wordwrap-center-lines layout props args)
   (markup-list?)
   (map (lambda (stencil)
@@ -144,6 +152,10 @@
 #(define-markup-list-command (columns paper props text) (markup-list?)
   (interpret-markup-list paper props
     (make-column-lines-markup-list text)))
+
+#(define-markup-command (separation-line layout props width) (number?)
+  (interpret-markup layout props
+   (markup #:fill-line (#:draw-line (cons (/ (* 20 width) (*staff-size*)) 0)))))
 
 #(define-markup-command (boxed-justify layout props text) (markup-list?)
   (interpret-markup layout props
