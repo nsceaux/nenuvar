@@ -81,3 +81,33 @@ tocPiece =
 #(define-music-function (parser location title) (string?)
   (add-toc-item parser 'tocPieceMarkup title)
   (make-music 'Music 'void #t))
+
+%%%
+%%% Pour la comédie
+%%%
+
+#(define-markup-command (personnage layout props markp) (markup?)
+  (interpret-markup layout props
+   (markup #:pad-markup 2 #:fill-line (#:fontsize 2 markp))))
+
+#(define-markup-list-command (didascalie layout props args) (markup-list?)
+  (map (lambda (stil)
+        (interpret-markup layout props
+         (markup #:fill-line (#:stencil stil))))
+   (interpret-markup-list layout props
+    (make-override-lines-markup-list '(line-width . 80)
+     (make-wordwrap-center-lines-markup-list 
+      (map (lambda (arg) (markup #:italic arg))
+       args))))))
+
+#(define-markup-list-command (texte layout props args) (markup-list?)
+  (let* ((line-width (chain-assoc-get 'line-width props))
+         (new-line-width (* line-width 0.80))
+         (gap (* 0.5 (- line-width new-line-width))))
+    (interpret-markup-list layout props
+      (make-hshift-lines-markup-list gap
+        (make-override-lines-markup-list `(line-width . ,new-line-width)
+          (make-justified-lines-markup-list args))))))
+
+#(define-markup-command (invisible layout props arg) (markup?)
+  (interpret-markup layout props (make-with-color-markup white arg)))

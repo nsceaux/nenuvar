@@ -71,8 +71,9 @@
   \scene "SCÈNE II"
   \scene-description \wordwrap-center { Valets de chiens et musiciens }
 }
+\tocPiece "Valets de chiens et musiciens"
 \noPageBreak
-\markuplines \paragraph {
+\markuplines \paragraph \italic {
   Pendant que l'Aurore chantait ce récit, quatre valets de chiens
   étaient couchés sur l'herbe, dont l'un (sous la figure de Lyciscas,
   représenté par le sieur de Molière, excellent acteur, de l'invention
@@ -83,3 +84,49 @@
   chanté, s'écrièrent en "concert :"
 }
 \includeScore "BADvalets"
+
+\markuplines {
+  \personnage Lyciscas
+  \didascalie { en s'éveillant. }
+  \texte { 
+    Par la morbleu vous êtes de grands braillards vous autres, et vous
+    avez la gueule ouverte de bon matin ?
+  }
+}
+
+\includeScore "BAEdialogue"
+\markuplines {
+  \personnage Lyciscas
+  \didascalie { en se levant. }
+  \texte {
+    Quoi toujours ? A-t-on jamais vu une pareille furie de "chanter :"
+    par le sang bleu j'enrage, puisque me voilà éveillé il faut que
+    j'éveille les autres, et que je les tourmente comme on m'a
+    fait. Allons "ho ?"  Messieurs, debout, debout, vite c'est trop
+    dormir. Je vais faire un bruit de diable partout, debout, debout,
+    debout : Allons vite, ho, ho, "ho ?" debout, "debout !" Pour la
+    chasse ordonnée il faut préparer tout, debout, debout, Lyciscas,
+    "debout ?"  "Ho !" "ho !" "ho !" "ho !" ho.
+  }
+  \line { \strut }
+}
+\markuplines {
+  \paragraph \italic {
+    Lyciscas s'étant levé avec toutes les peines du monde, et s'étant
+    mis à crier de toute sa force, plusieurs cors et trompes de chasse
+    se firent entendre, et concertées avec les violons commencèrent
+    l'air d'une entrée, sur laquelle six valets de chiens dansèrent
+    avec beaucoup de justesse et "disposition ;" reprenant à certaines
+    cadences le son de leurs cors et "trompes :" c'étaient les sieurs
+    Paysan, Chicanneau, Noblet, Pesan, Bonard, et La Pierre.
+  }
+}
+\pieceTocTitle "Entrée de valets de chiens endormis"
+\includeScore "BAFentree"
+\pieceTocAndTitle \markup \center-align { 
+  \line { DEUXIÈME AIR DES VALETS DE CHIENS }
+  \line { ET DES CHASSEURS AVEC DES CORS DE CHASSE }
+}  \markup { Deuxième air des valets de chiens et des chasseurs }
+\includeScore "BAGair"
+\pieceTocTitle "Troisième air pour les valets de chiens éveillés"
+\includeScore "BAHair"
