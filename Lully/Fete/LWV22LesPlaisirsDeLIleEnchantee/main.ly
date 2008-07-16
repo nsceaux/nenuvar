@@ -48,12 +48,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% Première journée
-%\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/AAsonnetRoi.ily"
-%\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ABlouangesReine.ily"
-%\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ACcollation.ily"
+%%% Course de bague
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/AAsonnetRoi.ily"
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ABlouangesReine.ily"
+%%% Collation
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ACcollation.ily"
 
 %%% Seconde journée
+%%% La Princesse d'Élide
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BAintermedeI.ily"
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BBacteI.ily"
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BCintermedeII.ily"
-
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BDacteII.ily"
