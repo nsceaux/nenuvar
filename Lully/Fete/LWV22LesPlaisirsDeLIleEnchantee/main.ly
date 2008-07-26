@@ -46,7 +46,7 @@
 \markuplines \table-of-contents
 \pageBreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{
+
 %%% Première journée
 %%% Course de bague
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/AAsonnetRoi.ily"
@@ -60,5 +60,4 @@
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BBacteI.ily"
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BCintermedeII.ily"
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BDacteII.ily"
-%}
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BEintermedeIII.ily"

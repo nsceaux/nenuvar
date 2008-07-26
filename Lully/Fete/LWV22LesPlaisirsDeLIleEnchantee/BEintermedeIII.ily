@@ -113,3 +113,36 @@
   dire celle qu'il lui avait ouï chanter quelques jours auparavant, il
   continua "ainsi :"
 }
+\pieceToc \markup { Satyre : \italic { Dans vos chants si doux } }
+\includeScore "BECsatyre"
+\markuplines {
+  \paragraph \italic {
+    Cette seconde chanson ayant touché Moron fort sensiblement, il pria
+    le satyre de la lui apprendre à "chanter ;" et lui "dit :"
+  }
+  \personnage Moron
+  \texte { Ah qu'elle est "belle !" "Apprends-la-moi ?" }
+}
+\includeScore "BEDdialogue"
+\markuplines {
+  \personnage Moron
+  \texte { Fa toi-même. }
+}
+\markuplines \paragraph \italic {
+    Le satyre s'en mit en colère, et peu à peu se mettant en posture
+    d'en venir à des coups de poing, les violons reprirent un air sur
+    lequel ils dansèrent une plaisante entrée.
+}
+\pieceTocTitle "Ritournelle et entrée pour la posture des satyres."
+\includeScore "BEEritournelle"
+\markuplines {
+  \justified-lines \small {
+    [NdE : seules les parties de dessus de la loure et de la gigue qui
+    suivent sont présentes dans le manuscrit, sur une feuille
+    volante.]
+  }
+}
+\pieceTocTitle "Loure en suite"
+\includeScore "BEFloure"
+\pieceTocTitle "Gigue en suite"
+\includeScore "BEGgigue"

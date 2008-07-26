@@ -111,3 +111,11 @@ tocPiece =
 
 #(define-markup-command (invisible layout props arg) (markup?)
   (interpret-markup layout props (make-with-color-markup white arg)))
+
+satyreMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Satyre"))
+
+moronMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Moron"))
