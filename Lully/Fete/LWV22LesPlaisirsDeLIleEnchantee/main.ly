@@ -62,9 +62,8 @@
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BDacteII.ily"
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BEintermedeIII.ily"
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BFacteIII.ily"
-%}
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BGintermedeIV.ily"
-%{
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BHacteIV.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BJacteV.ily"
 %}
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BIintermedeV.ily"
+%%\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BJacteV.ily"
