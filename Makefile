@@ -103,8 +103,12 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Motets,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin,))
 
-$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,dessus1 dessus2 haute-contre taille quinte basse trompette tambour timbales basse-continue voix))
+$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,\
+	dessus1 dessus2 haute-contre taille quinte basse trompette \
+	tambour timbales basse-continue voix))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee,))
+
+$(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/Opera/DavidEtJonathas,))
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Opera/GiulioCesare,reduction))
 
