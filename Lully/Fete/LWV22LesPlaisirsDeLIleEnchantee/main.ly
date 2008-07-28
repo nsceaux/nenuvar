@@ -89,3 +89,5 @@
 
 %%% Troisième journée
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/CAballet.ily"
+
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/CBfin.ily"
