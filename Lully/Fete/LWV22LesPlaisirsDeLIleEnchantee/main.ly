@@ -36,7 +36,7 @@
       : les plaisirs de l'isle enchantée, course de bague, collation
       ornée de machines, mêlée de dances & de musique, ballet du
       palais d'Alcine, feu d'artifice, et autres fêtes galantes de
-      Versailles }
+      Versailles. }
       Paris, 1684.
       \with-url #"http://gallica.bnf.fr/notice?N=FRBNF37242581"
       \tiny \typewriter "http://gallica.bnf.fr"
@@ -88,3 +88,4 @@
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BKintermedeVI.ily"
 
 %%% Troisième journée
+\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/CAballet.ily"
