@@ -6,5 +6,5 @@
     \new Staff << \global \clef "basse" \includeNotes "basse" >>
   >>
   \layout { }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 112 4) } }
+  \midi { }
 }

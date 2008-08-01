@@ -181,3 +181,8 @@ instrumentName =
 characterName =
 #(define-music-function (parser location name) (markup?)
   #{ \set Staff . instrumentName = \markup \large \smallCaps $name #})
+
+midiTempo =
+#(define-music-function (parser location quater-nb-par-min) (number?)
+   #{ \set Score . tempoWholesPerMinute =
+      #(ly:make-moment $(/ quater-nb-par-min 4) 1 0 1) #})

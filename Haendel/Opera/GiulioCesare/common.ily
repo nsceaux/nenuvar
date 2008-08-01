@@ -9,30 +9,6 @@
   \context { \GrandStaff \consists "Instrument_name_engraver" }
 }
 
-withRecit =
-#(define-music-function (parser location music lyrics) (ly:music? ly:music?)
-   (let ((name (symbol->string (gen-unique-context))))
-     #{  << \context Voice = $name \with { autoBeaming = ##f } <<
-            \set Staff . explicitClefVisibility = #end-of-line-invisible
-            \override Staff . Clef #'full-size-change = ##t
-            %%\override Staff . Clef #'break-visibility = #end-of-line-invisible
-            \override Score.BreakAlignment #'break-align-orders =
-            ##(; end-of-line:
-               (instrument-name left-edge ambitus breathing-sign
-                clef key-cancellation key-signature
-                time-signature custos staff-bar)
-               ; unbroken
-               (instrument-name left-edge ambitus breathing-sign
-                staff-bar clef key-cancellation key-signature
-                staff time-signature custos)
-               ; begin of line
-               (instrument-name left-edge ambitus breathing-sign
-                clef key-cancellation key-signature staff-bar
-                time-signature custos))
-            $music >>
-            \lyricsto $name \new Lyrics $lyrics
-          >> #}))
-
 %%%
 %%% Marking commands
 %%%
