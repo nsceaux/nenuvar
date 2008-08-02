@@ -113,14 +113,14 @@
       \fill-line { \fromproperty #'header:tagline }
     }
   }
-  evenFooterMarkup = \markup \abs-fontsize #12 \column {
+  evenFooterMarkup = \markup \column {
     \fill-line {
       %% put notice on second page
       \on-the-fly #(lambda (layout props arg)
 		     (if (= 2 (chain-assoc-get 'page:page-number props -1))
                          (interpret-markup layout props arg)
                          empty-stencil))
-      \fill-line { \fromproperty #'header:notes }
+       \abs-fontsize #8 \fill-line { \fromproperty #'header:notes }
     }
     \fill-line {
       %% put tagline on last page

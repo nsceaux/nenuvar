@@ -159,3 +159,23 @@
 \sceneDescription \markup \wordwrap-center \smallCaps {
   Troupe de guerriers, de pasteurs et de captifs
 }
+\pieceTocTitle "Marche triomphante"
+\includeScore "BAAmarche"
+\pieceToc \markup {
+  Un guerrier, chœur :
+  \italic { Du plus grand des héros publions les exploits }
+}
+\includeScore "BABguerriers"
+\pieceToc \markup { Bergères : \italic { Le Ciel dans nos bois le fit naître } }
+\includeScore "BACbergers"
+\pieceToc \markup { Un guerrier, chœur : \italic { Jeune, et terrible dans la guerre } }
+\includeScore "BADguerriers"
+\pieceToc \markup { Captives : \italic { Cédons ; rien ne peut se défendre } }
+\includeScore "BAEcaptifs"
+\pieceToc \markup { Un guerrier : \italic { Le Dieu qui lance le tonnerre } }
+\includeScore "BAFguerrier"
+
+\scene "Scène II"
+\sceneDescription \markup \wordwrap-center \smallCaps {
+  David, troupe de David
+}
