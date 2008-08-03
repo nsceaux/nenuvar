@@ -157,7 +157,7 @@
 }
 \scene "Scène Première"
 \sceneDescription \markup \wordwrap-center \smallCaps {
-  Troupe de guerriers, de pasteurs et de captifs
+  Troupes de guerriers, de pasteurs et de captifs
 }
 \pieceTocTitle "Marche triomphante"
 \includeScore "BAAmarche"
@@ -177,5 +177,19 @@
 
 \scene "Scène II"
 \sceneDescription \markup \wordwrap-center \smallCaps {
-  David, troupe de David
+  David, troupes de guerriers, de pasteurs et de captifs
+}
+\pieceToc \markup { David : \italic { Allez, le Ciel attend un légitime hommage } }
+\includeScore "BBAdavid"
+
+\scene "Scène III"
+\sceneDescription \markup \smallCaps David
+\pieceToc \markup {
+  David : \italic { Ciel ! quel triste combat en ces lieux me rappelle ? }
+}
+\includeScore "BCAdavid"
+
+\scene "Scène IV"
+\sceneDescription \markup \wordwrap-center \smallCaps {
+  Achis, David, troupes de guerriers, de pasteurs et de captifs
 }
