@@ -17,7 +17,7 @@
     \new Staff \withLyrics <<
       \characterName \markup "La Pythonisse"
       \keepWithTag #'didascalies \global
-      \clef "alto/treble" \includeNotes "pythonisse"
+      \clef "vhaute-contre" \includeNotes "pythonisse"
     >> \includeLyrics "paroles"
     \new Staff << \instrumentName \markup { Basse continue }
                   \keepWithTag #'() \global

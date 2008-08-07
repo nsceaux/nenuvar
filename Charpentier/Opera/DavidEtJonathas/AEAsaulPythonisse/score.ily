@@ -5,7 +5,7 @@
       \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
     >>
     \newHaraKiriStaffB \withLyrics <<
-      \global \clef "alto/treble" \includeNotes "pythonisse"
+      \global \clef "vhaute-contre" \includeNotes "pythonisse"
     >> \includeLyrics "paroles-pythonisse"
     \new Staff \withLyrics <<
       \characterName \markup Saül

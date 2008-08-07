@@ -2,7 +2,7 @@
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
       \characterName \markup "La Pythonisse"
-      \global \clef "alto/treble" \includeNotes "pythonisse"
+      \global \clef "vhaute-contre" \includeNotes "pythonisse"
     >> \includeLyrics "paroles1"
     \new Staff \withLyrics <<
       \characterName \markup Saül
