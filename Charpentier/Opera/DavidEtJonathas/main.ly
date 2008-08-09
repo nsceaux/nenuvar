@@ -198,3 +198,25 @@
 \pieceToc \markup { Achis : \italic { Le Ciel enfin favorable à mes vœux } }
 \includeScore "BDBachis"
 \pieceToc \markup { David, Achis, chœur }
+\includeScore "BDCdavidAchis"
+\pieceToc \markup { Captifs : \italic { Après les fureurs de l'orage } }
+\includeScore "BDDcaptifs"
+\pieceTocTitle "Menuet"
+\includeScore "BDEmenuet"
+\pieceTocTitle "Prélude"
+\includeScore "BDFprelude"
+\actEnd \markup { FIN DU PREMIER ACTE }
+
+%%% Acte Second
+\act "Acte Second"
+\markuplines \paragraph {
+  Le premier soin de David et de Jonathas est de demander à se voir
+  durant la trève. Joadab jaloux de la gloire de David, et espérant de
+  le faire périr plus aisément dans une bataille, s'efforce de lui
+  persuader de combattre, mais en vain. Il forme le dessein d'accuser
+  David auprès de Saül, de le vouloir tromper sous l'apparence d'une
+  fausse paix. David et Jonathas commencent à goûter les douceurs de
+  la paix, qui leur est prmise, et qui les rejoint tous deux.
+}
+\scene "Scène Première"
+\sceneDescription \markup \wordwrap-center \smallCaps { Joadab, David }
