@@ -99,24 +99,25 @@
 %%%
 %%% Utilities for adding (no-)page breaks and toplevel markups
 %%%
+
 #(define-public (add-page-break parser)
-  (collect-music-for-book parser 
+  (add-music parser 
    (make-music 'Music
 	       'page-marker #t
 	       'line-break-permission 'force
 	       'page-break-permission 'force)))
 
 #(define-public (add-no-page-break parser)
-  (collect-music-for-book parser 
+  (add-music parser 
    (make-music 'Music
 	       'page-marker #t
 	       'page-break-permission 'forbid)))
 
 #(define-public (add-toplevel-markup parser text)
-  (collect-scores-for-book parser (list text)))
+  (add-score parser (list text)))
 
 #(define-public (add-toc-item parser markup-symbol text)
-  (collect-music-for-book parser
+  (add-music parser
    (add-toc-item! markup-symbol text)))
 
 %%%

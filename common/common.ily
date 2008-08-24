@@ -37,8 +37,8 @@
         \copyright
         \with-url #"http://nicolas.sceaux.free.fr" \teeny "<nicolas.sceaux@free.fr>"
         \hspace #-1 .
-      %}
-      %\small \line {
+      %% }
+      %% \small \line {
         Typeset using \with-url #"http://www.LilyPond.org" 
         \line { \teeny www. \hspace #-1.0 LilyPond \hspace #-1.0 \teeny .org }
         #(ly:export (string-append "version " (lilypond-version))) \hspace #-1 
@@ -56,8 +56,8 @@
       }
       \teeny \line { 
         Licensed under the Creative Commons Attributio 3.0 License,
-      %}
-      %\teeny \line { 
+      %% }
+      %% \teeny \line { 
         for details see: \hspace #-0.5 
         \with-url #"http://creativecommons.org/licenses/by/3.0" 
         http://creativecommons.org/licenses/by/3.0 }

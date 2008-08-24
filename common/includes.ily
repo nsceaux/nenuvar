@@ -82,6 +82,33 @@
 %%% ===========
 %%% None
 
+
+%%%
+%%% Book parts
+%%% Memorize the current bookpart to $current-bookpart,
+%%% so that new scores can be added to it programmaticaly
+
+#(ly:parser-define! parser '$current-bookpart #f)
+
+#(define (toplevel-bookpart-handler parser book-part)
+   (ly:parser-define! parser '$current-bookpart book-part)
+   (collect-bookpart-for-book parser book-part))
+
+#(define (add-score parser score)
+   (let ((book-part (ly:parser-lookup parser '$current-bookpart)))
+     (if book-part
+         (ly:book-add-score! book-part score)
+         (collect-scores-for-book parser score))))
+
+#(define (add-music parser music)
+  (collect-music-aux (lambda (score)
+		       (add-score parser score))
+                     parser
+		     music))
+
+%%%
+%%%
+%%%
 #(use-modules (srfi srfi-39)
               (ice-9 optargs)
               (ice-9 regex))
@@ -107,11 +134,10 @@
       ".ily")))
 
 #(define-public (include-score parser name)
-   (collect-music-for-book
-    parser
-    (make-music 'Music
-                'page-marker #t
-                'page-label (string->symbol name)))
+   (add-music parser
+              (make-music 'Music
+                          'page-marker #t
+                          'page-label (string->symbol name)))
    (parameterize ((*piece* name))
      (ly:parser-parse-string
       (ly:parser-clone parser)
@@ -139,11 +165,10 @@
                                     name
                                     score-filename
                                     from-templates)
-   (collect-music-for-book
-    parser
-    (make-music 'Music
-                'page-marker #t
-                'page-label (string->symbol name)))
+   (add-music parser
+              (make-music 'Music
+                          'page-marker #t
+                          'page-label (string->symbol name)))
    (parameterize ((*piece* name))
      (ly:parser-parse-string
       (ly:parser-clone parser)
