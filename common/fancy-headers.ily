@@ -114,3 +114,9 @@
   evenHeaderMarkup = \markup \even-header
   oddHeaderMarkup = \markup \odd-header
 }
+
+resetHeaders =
+#(define-music-function (parser location) ()
+   (add-even-page-header-text parser "" #f)
+   (add-odd-page-header-text parser "" #f)
+   (make-music 'Music 'void #t))

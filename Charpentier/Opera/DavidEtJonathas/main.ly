@@ -115,8 +115,7 @@
 }
 
 \bookpart {
-  #(add-even-page-header-text parser "" #f)
-  #(add-odd-page-header-text parser "" #f)
+  \resetHeaders
   
   \markuplines {
     \act "DAVID ET JONATAS"
