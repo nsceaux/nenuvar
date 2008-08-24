@@ -88,23 +88,37 @@
 %%% Memorize the current bookpart to $current-bookpart,
 %%% so that new scores can be added to it programmaticaly
 
-#(ly:parser-define! parser '$current-bookpart #f)
+#(ly:parser-define! parser '$current-bookpart-scores (list))
 
 #(define (toplevel-bookpart-handler parser book-part)
-   (ly:parser-define! parser '$current-bookpart book-part)
+   (map (lambda (score)
+          (ly:book-add-score! book-part score))
+        (reverse! (ly:parser-lookup parser '$current-bookpart-scores)))
+   (ly:parser-define! parser '$current-bookpart-scores (list))
    (collect-bookpart-for-book parser book-part))
 
 #(define (add-score parser score)
-   (let ((book-part (ly:parser-lookup parser '$current-bookpart)))
-     (if book-part
-         (ly:book-add-score! book-part score)
-         (collect-scores-for-book parser score))))
+   (ly:parser-define!
+    parser '$current-bookpart-scores
+    (cons score (ly:parser-lookup parser '$current-bookpart-scores))))
 
 #(define (add-music parser music)
   (collect-music-aux (lambda (score)
 		       (add-score parser score))
                      parser
 		     music))
+
+#(define (bookpart-score-handler book-part score)
+   (add-score parser score))
+
+#(define (toplevel-score-handler parser score)
+   (add-score parser score))
+
+#(define (bookpart-text-handler book-part text)
+   (add-score parser text))
+
+#(define (bookpart-music-handler parser book-part music)
+   (add-music parser music))
 
 %%%
 %%%
