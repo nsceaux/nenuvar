@@ -1,3 +1,4 @@
+\version "2.11.57"
 %%% -*- Mode: scheme -*-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -165,9 +166,9 @@ altKeys =
      \once \override Staff.TimeSignature #'stencil = #ly:text-interface::print
      \once \override Staff.TimeSignature #'text =
      #(markup #:override '(baseline-skip . 0)
-              #:number #:line (#:center-align ($num1 $den1)
+              #:number #:line (#:center-column ($num1 $den1)
                                #:hspace 0.5
-                               #:center-align ($num2 $den2)))
+                               #:center-column ($num2 $den2)))
      #}))
    
 fractionTime = \once \override Staff.TimeSignature #'style = #'numbered

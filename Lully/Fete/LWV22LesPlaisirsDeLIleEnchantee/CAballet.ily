@@ -1,3 +1,4 @@
+\version "2.11.57"
 \tocJournee "Troisième journée"
 \tocPiece "Louanges de la Reine Mère"
 
@@ -237,9 +238,9 @@
 \markup \column {
   \act "BALLET DU PALAIS D'ALCINE"
   \scene "PREMIÈRE ENTRÉE"
-  \scene-description \center-align {
+  \scene-description \center-column {
     \line { Quatre géants, et quatre nains. }
-    \smaller \smaller \center-align {
+    \smaller \smaller \center-column {
       \line { Géants. Les sieurs Mançeau, Vagnard, Pesan, et Joubert. }
       \line { Nains. Les deux petits Des-airs, le petit Vagnard, et le petit Tutin. }
     }

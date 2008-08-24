@@ -1,3 +1,4 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new Staff <<
@@ -11,7 +12,7 @@
       \global \includeNotes "thesee"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup \center-align { "Basse continue" Contre-basse }
+      \instrumentName \markup \center-column { "Basse continue" Contre-basse }
       \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }

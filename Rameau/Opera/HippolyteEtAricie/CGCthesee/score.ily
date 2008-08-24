@@ -1,3 +1,4 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
@@ -32,7 +33,7 @@
       \global \includeNotes "thesee"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup \center-align {
+      \instrumentName \markup \center-column {
         "Basse du" "petit chœur" "Contre-basse"
       }
       \global \includeNotes "contre-basse"

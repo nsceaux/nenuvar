@@ -1,14 +1,15 @@
+\version "2.11.57"
 %% Duetto. Cleopatra e Cesare: Caro/Bella, più amabile beltà
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff <<
-        \instrumentName \markup \center-align { "Violino I" "Oboe I." }
+        \instrumentName \markup \center-column { "Violino I" "Oboe I." }
         \keepWithTag #'up \global
         \clef treble \includeNotes "tutti1"
       >>
       \new Staff <<
-        \instrumentName \markup \center-align { "Violino II" "Oboe II." }
+        \instrumentName \markup \center-column { "Violino II" "Oboe II." }
         \keepWithTag #'() \global
         \clef treble \includeNotes "tutti2"
       >>

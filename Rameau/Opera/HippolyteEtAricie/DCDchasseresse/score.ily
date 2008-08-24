@@ -1,3 +1,4 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new Staff << \instrumentName \markup "Un hautbois"
@@ -7,7 +8,7 @@
       \global \includeNotes "chasseresse"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup \center-align {
+      \instrumentName \markup \center-column {
         "Un basson" "Basse continue"
       }
       \global \includeNotes "basse" >>

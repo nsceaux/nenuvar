@@ -1,9 +1,10 @@
+\version "2.11.57"
 %% Aria. Cleopatra: Piangerò la sorte mia
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff <<
-        \instrumentName \markup \center-align { "Traversa," "e Violino I." } 
+        \instrumentName \markup \center-column { "Traversa," "e Violino I." } 
         \keepWithTag #'up \global
         \clef treble
         {

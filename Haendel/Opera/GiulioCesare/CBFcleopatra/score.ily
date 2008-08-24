@@ -1,10 +1,11 @@
+\version "2.11.57"
 %% Cleopatra: V'adoro, pupile.
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff <<
         { s2.*34 s2 \break }
-        \instrumentName \markup \center-align { "Oboe, e" "Violino I." }
+        \instrumentName \markup \center-column { "Oboe, e" "Violino I." }
         \keepWithTag #'(up tutti) \global
         \clef treble
         \includeNotes "tutti"
@@ -22,13 +23,13 @@
         \includeNotes "viola"
       >>
       \new Staff <<
-        \instrumentName \markup \center-align { "Viola" "da Gamba." }
+        \instrumentName \markup \center-column { "Viola" "da Gamba." }
         \keepWithTag #'() \global
         \clef tenor
         \includeNotes "gamba"
       >>
       \new Staff <<
-        \instrumentName \markup \center-align {
+        \instrumentName \markup \center-column {
           "Teorba, Harpe," "Bassons e" "Violoncelli." }
         \keepWithTag #'() \global
         \clef bass

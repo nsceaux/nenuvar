@@ -1,6 +1,7 @@
+\version "2.11.57"
 \score {
   \new StaffGroup <<
-    \new Staff << \instrumentName \markup \center-align { Hautbois Violons }
+    \new Staff << \instrumentName \markup \center-column { Hautbois Violons }
                   { s2.*8 \break }
                   \keepWithTag #'autres \global
                   \includeNotes "dessus" >>
@@ -13,7 +14,7 @@
     \new Staff << \instrumentName \markup Tailles
                   \keepWithTag #'autres \global
                   \includeNotes "taille" >>
-    \new Staff << \instrumentName \markup \center-align { Bassons Basses }
+    \new Staff << \instrumentName \markup \center-column { Bassons Basses }
                   \keepWithTag #'autres \global
                   \includeNotes "basse" >>
   >>

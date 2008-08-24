@@ -1,17 +1,18 @@
+\version "2.11.57"
 %% Coro. Viva il nostre Alcide
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new InnerStaffGroup <<
         \new Staff <<
-          \instrumentName \markup \center-align { "Corno I.II." " in A." }
+          \instrumentName \markup \center-column { "Corno I.II." " in A." }
           \keepWithTag #'(up horn-A) \global
           \new Voice { \voiceOne \includeNotes "corno1" }
           \new Voice { \voiceTwo \includeNotes "corno2" }
           \new Voice { \oneVoice \includeNotes "corno12-rests" }
         >>
         \new Staff <<
-          \instrumentName \markup \center-align { "Corno III.IV." "in D." }
+          \instrumentName \markup \center-column { "Corno III.IV." "in D." }
           \keepWithTag #'horn-D \global
           \new Voice {\voiceOne \includeNotes "corno3" }
           \new Voice {\voiceTwo \includeNotes "corno4" }
@@ -19,12 +20,12 @@
         >>
       >>
       \new Staff <<
-        \instrumentName \markup \center-align { "Violino I.II." "Oboe I." }
+        \instrumentName \markup \center-column { "Violino I.II." "Oboe I." }
         \keepWithTag #'other \global
         \clef treble \includeNotes "violino1"
       >>
       \new Staff <<
-        \instrumentName \markup \center-align { "Violino III." "Oboe II." }
+        \instrumentName \markup \center-column { "Violino III." "Oboe II." }
         \keepWithTag #'other \global
         \clef treble \includeNotes "violino2"
       >>

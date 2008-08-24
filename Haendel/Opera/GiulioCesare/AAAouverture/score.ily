@@ -1,7 +1,8 @@
+\version "2.11.57"
 \score {
   \context StaffGroup <<
     \new Staff <<
-      \instrumentName \markup \center-align { "Tutti Oboe," "e Violino I.II." }
+      \instrumentName \markup \center-column { "Tutti Oboe," "e Violino I.II." }
       \keepWithTag #'() \global
       \clef treble \includeNotes "tutti" >>
     \new Staff <<

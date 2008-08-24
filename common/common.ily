@@ -1,4 +1,4 @@
-\version "2.11.52"
+\version "2.11.57"
 #(use-modules (srfi srfi-39))
 #(define-public *staff-size*
   (make-parameter (let ((module (ly:output-def-scope
@@ -25,14 +25,14 @@
   maintainerEmail = "nicolas.sceaux@free.fr"
   maintainerWeb = "http://nicolas.sceaux.free.fr"
   copyright = \markup \copyright
-  longcopyright = \markup \center-align {
+  longcopyright = \markup \center-column {
     \line { \copyright }
     \line { Licensed under the Creative Commons Attribution 3.0 License }
   }
   
   tagline = \markup { 
     \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7)
-    \box \center-align {
+    \box \center-column {
       \small \line { 
         \copyright
         \with-url #"http://nicolas.sceaux.free.fr" \teeny "<nicolas.sceaux@free.fr>"

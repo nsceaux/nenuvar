@@ -1,3 +1,4 @@
+\version "2.11.57"
 \score {
   <<
     \new StaffGroup <<
@@ -33,7 +34,7 @@
       >> \includeLyrics "paroles"
     >>
     \new StaffGroup <<
-      \new Staff << \instrumentName \markup \center-align { Basse continue }
+      \new Staff << \instrumentName \markup \center-column { Basse continue }
                     \global \clef "basse" \includeNotes "basse-continue"
                     \includeFigures "chiffres" >>
     >>

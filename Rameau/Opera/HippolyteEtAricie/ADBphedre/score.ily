@@ -1,3 +1,4 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
@@ -13,7 +14,7 @@
       \global \includeNotes "phedre"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup \center-align { "Violons III" Clavecin }
+      \instrumentName \markup \center-column { "Violons III" Clavecin }
       \global \includeNotes "violon3" >>
   >>
   \layout { indent = \largeindent }

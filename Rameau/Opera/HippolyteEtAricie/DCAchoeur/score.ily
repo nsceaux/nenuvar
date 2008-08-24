@@ -1,3 +1,4 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
@@ -41,7 +42,7 @@
         \includeNotes "voix-basse"
       >> \includeLyrics "paroles-basse"
     >>
-    \new Staff << \instrumentName \markup \center-align { Basses Bassons }
+    \new Staff << \instrumentName \markup \center-column { Basses Bassons }
                   \keepWithTag #'autres \global
                   \includeNotes "basse" >>
   >>

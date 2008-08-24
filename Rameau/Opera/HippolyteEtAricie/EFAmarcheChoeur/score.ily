@@ -1,14 +1,15 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff <<
-        \instrumentName \markup \center-align {
+        \instrumentName \markup \center-column {
           \line { Hautbois I }
           \line { Musettes I } }
         \global \includeNotes "hautbois1"
       >>
       \new Staff <<
-        \instrumentName \markup \center-align {
+        \instrumentName \markup \center-column {
           \line { Hautbois II }
           \line { Musettes II } }
         \global \includeNotes "hautbois2"

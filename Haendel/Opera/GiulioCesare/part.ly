@@ -1,3 +1,4 @@
+\version "2.11.57"
 \header {
   copyrightYear = "2001"
   composer = "George Frideric Handel"
@@ -100,7 +101,7 @@
 %%
 \partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena V"
-\sceneDescription \markup \center-align {
+\sceneDescription \markup \center-column {
   Gabinetto.
   \wordwrap-center {
     \smallCaps Cleopatra con seguito, di Egizii damigelli,
@@ -302,7 +303,7 @@
 \includeScore "CHDcleopatra"
 %%
 \scene "Scena IX"
-\sceneDescription \markup \center-align {
+\sceneDescription \markup \center-column {
   \line { Camera nel Serraglio. }
   \wordwrap-center {
     \smallCaps Tolomeo circondato dalla sue favorite, 
@@ -405,7 +406,7 @@
 \includeScore "DFBsesto"
 %%
 \scene "Scena VII"
-\sceneDescription \markup \center-align {
+\sceneDescription \markup \center-column {
   \line { Appartamento di Cleopatra. }
   \wordwrap-center {
     \smallCaps Cleopatra (con guardie) frà le sue damigelle,
@@ -421,7 +422,7 @@
 %%
 \partPageBreak #'(reduction) %%%%%%%%%%
 \scene "Scena VIII"
-\sceneDescription \markup \center-align {
+\sceneDescription \markup \center-column {
   \line { Sala Regia. }
   \wordwrap-center {
     \smallCaps Cornelia, e \smallCaps Tolomeo.
@@ -442,7 +443,7 @@
 \includeScore "DIBcornelia"
 %%
 \scene "Scena Ultima"
-\sceneDescription \markup \center-align {
+\sceneDescription \markup \center-column {
   \line { Porto di Alessandria. }
   \wordwrap-center {
     \smallCaps Cesare, \smallCaps Cleopatra, e seguito d'Egizii con

@@ -1,3 +1,4 @@
+\version "2.11.57"
 \chapterB "Petite dissertation sur la manière de doigter les agréments" \markup \column { 
   \fill-line { "PETITE DISSERTATION, SUR LA MANIÈRE" }
   \fill-line { "DE DOIGTER, POUR PARVENIR À L'INTELLIGENCE" }
@@ -75,13 +76,13 @@
           \new Staff {
             \clef treble
             s4
-            do''8^\mordent^\markup \center-align { \italic "Signe" }
-            _\markup \center-align { \italic "pincé simple" }
+            do''8^\mordent^\markup \center-column { \italic "Signe" }
+            _\markup \center-column { \italic "pincé simple" }
             s4 \bar "|"
           }
           \new Staff {
             \clef treble s4 \acciaccatura { do''8[ si'] } 
-            do''8_\markup \center-align { \italic "effet" }
+            do''8_\markup \center-column { \italic "effet" }
             s4
           }
         >>
@@ -103,13 +104,13 @@
           \new Staff {
             \clef treble s4
             do''2*1/2^\mordent^\markup \italic \hspace #1
-            _\markup \center-align { \italic "pincé double" }
+            _\markup \center-column { \italic "pincé double" }
             s2 \bar "|"
           }
           \new Staff {
             \clef treble s4 
             \acciaccatura { do''8[ si' do'' si' do'' si'] } 
-            do''2*1/2_\markup \center-align { \italic "effet" }  
+            do''2*1/2_\markup \center-column { \italic "effet" }  
             s2
           }
         >>
@@ -131,7 +132,7 @@
   }
   \fill-line {
     \null
-    \center-align {
+    \center-column {
       \italic Exemple
       \score { 
         \new Staff {
@@ -445,7 +446,7 @@
 
   \fill-line {
     \null
-    \center-align {
+    \center-column {
       \italic Exemple
       \score {
         \new StaffGroupNoBar <<
@@ -463,7 +464,7 @@
             \stemDown
             s4 
             mi''2 (^\markup { \null \raise #0.5 "1" }
-            \grace { re''16 [ mi'' re'' _\markup \center-align { \italic "effet" }
+            \grace { re''16 [ mi'' re'' _\markup \center-column { \italic "effet" }
                               mi'' ^"2" re'' mi'' ] }
             re''8 )^\markup { \null \raise #0.5 "3" }
             s4.  

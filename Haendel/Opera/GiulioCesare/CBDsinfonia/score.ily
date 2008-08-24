@@ -1,8 +1,9 @@
+\version "2.11.57"
 %% Sinfonia
 \score {
   \new StaffGroup <<
     \new Staff <<
-      \instrumentName \markup \center-align { "Oboe, e" "Violino I." }
+      \instrumentName \markup \center-column { "Oboe, e" "Violino I." }
       \keepWithTag #'() \global
       \clef treble \includeNotes "tutti"
     >>
@@ -27,7 +28,7 @@
       >>
     >>
     \new Staff <<
-      \instrumentName \markup \center-align { "Viola" "da Gamba." }
+      \instrumentName \markup \center-column { "Viola" "da Gamba." }
       \keepWithTag #'() \global
       \clef bass \includeNotes "gamba"
     >>
@@ -37,7 +38,7 @@
       \clef bass \includeNotes "teorba"
     >>
     \new Staff <<
-      \instrumentName \markup \center-align { "Bassons, e" "Violoncelli." }
+      \instrumentName \markup \center-column { "Bassons, e" "Violoncelli." }
       \keepWithTag #'() \global
       \clef bass \includeNotes "bassi"
     >>
@@ -51,12 +52,12 @@
     }
     <<
       \new Staff \with { \override InstrumentName #'self-alignment-X = #CENTER } <<
-        \instrumentName \markup \center-align { "Oboe I.  " "Violino I." }
+        \instrumentName \markup \center-column { "Oboe I.  " "Violino I." }
         \keepWithTag #'() \global
         \clef treble \includeNotes "orch-tutti1"
       >>
       \new Staff \with { \override InstrumentName #'self-alignment-X = #CENTER } <<
-        \instrumentName \markup \center-align { "Oboe II.  " "Violino II." }
+        \instrumentName \markup \center-column { "Oboe II.  " "Violino II." }
         \keepWithTag #'() \global
         \clef treble \includeNotes "orch-tutti2"
       >>

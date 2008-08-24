@@ -1,3 +1,4 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
@@ -27,7 +28,7 @@
     \newHaraKiriStaffB \withLyrics <<
       \global \includeNotes "hippolyte-aricie"
     >> \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup \center-align { Basses Bassons }
+    \new Staff << \instrumentName \markup \center-column { Basses Bassons }
                   \global \includeNotes "basse" >>
     \new Staff << \instrumentName \markup Contre-basses
                   \global \includeNotes "contre-basse" >>

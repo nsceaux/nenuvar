@@ -1,11 +1,12 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \characterName \markup \center-align \smallCaps { Première Captive }
+      \characterName \markup \center-column \smallCaps { Première Captive }
       \global \clef "vdessus" \includeNotes "voix-dessus1"
     >> \includeLyrics "paroles1"
     \new Staff \withLyrics <<
-      \characterName \markup \center-align \smallCaps { Seconde Captive }
+      \characterName \markup \center-column \smallCaps { Seconde Captive }
       \global \clef "vdessus" \includeNotes "voix-dessus2"
     >> \includeLyrics "paroles2"
     \new Staff << \instrumentName \markup { Basse continue }

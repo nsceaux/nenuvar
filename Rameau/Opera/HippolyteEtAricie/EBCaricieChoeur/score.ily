@@ -1,3 +1,4 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
@@ -32,7 +33,7 @@
       \characterName \markup Aricie
       \keepWithTag #'() \global \includeNotes "aricie"
     >> \includeLyrics "paroles-aricie"
-    \new Staff << \instrumentName \markup \center-align { Bassons Basses }
+    \new Staff << \instrumentName \markup \center-column { Bassons Basses }
                   \keepWithTag #'basse \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }

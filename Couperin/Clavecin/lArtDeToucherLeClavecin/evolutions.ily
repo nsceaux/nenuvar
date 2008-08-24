@@ -1,3 +1,4 @@
+\version "2.11.57"
 \chapterB "Évolutions ou petits exercices pour former les mains" \markup \column {
   \fill-line { "ÉVOLUTIONS OU PETITS EXERCICES" }
   \fill-line { "POUR FORMER LES MAINS" }
@@ -211,7 +212,7 @@
   }
   \fill-line {
     \null
-    \center-align {
+    \center-column {
       \italic \line {
         Autre progrès de tierces coulées.
       }

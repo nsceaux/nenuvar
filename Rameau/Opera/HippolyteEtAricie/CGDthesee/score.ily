@@ -1,3 +1,4 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
@@ -27,7 +28,7 @@
       \global \includeNotes "thesee"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup \center-align { Clavecin "Basses de violon" }
+      \instrumentName \markup \center-column { Clavecin "Basses de violon" }
       \global \includeNotes "basse"
     >>
   >>

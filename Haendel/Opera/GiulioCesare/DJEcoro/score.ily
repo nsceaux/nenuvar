@@ -1,10 +1,11 @@
+\version "2.11.57"
 %% Coro. Ritorni omai nel nostro core
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new InnerStaffGroup <<
         \new Staff <<
-          \instrumentName \markup \center-align {
+          \instrumentName \markup \center-column {
             "Corno I."
             \smaller \italic "ex G." 
           }
@@ -17,7 +18,7 @@
           \includeNotes "corno2"
         >>
         \new Staff <<
-          \instrumentName \markup \center-align {
+          \instrumentName \markup \center-column {
             "Corno III."
             \smaller \italic "ex D." 
           }
@@ -32,12 +33,12 @@
       >>
     
       \new Staff <<
-        \instrumentName \markup \center-align { "Oboe I." "Violino I." } 
+        \instrumentName \markup \center-column { "Oboe I." "Violino I." } 
         \keepWithTag #'other \global
         \clef treble \includeNotes "tutti1"
       >>
       \new Staff <<
-        \instrumentName \markup \center-align { "Oboe II." "Violino II." } 
+        \instrumentName \markup \center-column { "Oboe II." "Violino II." } 
         \keepWithTag #'other \global
         \clef treble \includeNotes "tutti2"
       >>

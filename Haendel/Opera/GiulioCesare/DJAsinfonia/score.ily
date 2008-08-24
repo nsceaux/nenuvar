@@ -1,9 +1,10 @@
+\version "2.11.57"
 %% Sinfonia
 \score {
   \new StaffGroup <<
     \new InnerStaffGroup <<
       \new Staff <<
-        \instrumentName \markup \center-align { 
+        \instrumentName \markup \center-column { 
           "Corno I. II." \smaller \italic "ex G." }
         \keepWithTag #'(corno up) \global
         \clef treble
@@ -22,7 +23,7 @@
         \new Voice { \voiceTwo \includeNotes "corno2" }
       >>
       \new Staff <<
-        \instrumentName \markup \center-align {
+        \instrumentName \markup \center-column {
           "Corno III. IV." \smaller \italic "ex D." } 
         \keepWithTag #'corno \global
         \clef treble

@@ -1,9 +1,10 @@
+\version "2.11.57"
 %% Aria. Cleopatra: Non disperar, chi sa ?
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff <<
-      \instrumentName \markup \center-align { Violini unisoni. }
+      \instrumentName \markup \center-column { Violini unisoni. }
         \keepWithTag #'up \global
         \clef treble \includeNotes "violini" 
       >>

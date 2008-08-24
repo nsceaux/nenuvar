@@ -1,9 +1,10 @@
+\version "2.11.57"
 %%% -*- Mode: scheme -*-
 #(*all-part-specs*
   `((dessus1 "Premier dessus" ()
              ;; default note-filename, piece specs
              "dessus"
-             (AAAouverture #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+             (AAAouverture #:instrument ,(markup #:center-column ("Hautbois" "Violons")))
              (AABouverture #:indent 0 #:notes "dessus1")
              (AACaricie #:score "score-dessus1")
              ;;ABAhippolyteAricie
@@ -11,15 +12,15 @@
              ;;ABChippolyteAricie
              (ABDduo #:notes "violon1"
                      #:instrument "Violons")
-             (ACAmarche #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
+             (ACAmarche #:instrument ,(markup #:center-column ("Flûtes" "Violons")))
              (ACBchoeur #:notes "dessus1"
-                        #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
+                        #:instrument ,(markup #:center-column ("Flûtes" "Violons")))
              (ACCair #:notes "dessus1"
-                     #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
+                     #:instrument ,(markup #:center-column ("Flûtes" "Violons")))
              (ACDpretresse #:notes "hautbois"
                            #:instrument "Hautbois seul")
              (ACEair #:notes "dessus1"
-                     #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
+                     #:instrument ,(markup #:center-column ("Flûtes" "Violons")))
              (ACFgavotte)
              (ACGpretresseChoeur #:instrument "Violons")
              (ACHgavotte)
@@ -32,7 +33,7 @@
              ;; AEAdianeAricieHippolyte
              (AFAphedre #:notes "violon" #:instrument "Violons")
              (AFBentracte #:notes "dessus1"
-                          #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
+                          #:instrument ,(markup #:center-column ("Flûtes" "Violons")))
 
              (BAAritournelle #:notes "violon1" #:instrument "Violons")
              ;; BABthesee
@@ -40,7 +41,7 @@
              ;; BADtheseeTisiphone
              (BAEtheseeTisiphone #:notes "violon1" #:instrument "Violons")
              (BBAentree #:notes "dessus1"
-                        #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+                        #:instrument ,(markup #:center-column ("Hautbois" "Violons")))
              ;; BBBthesee
              ;; BBCplutonThesee
              (BBDthesee #:notes "violon1" #:instrument "Violons")
@@ -70,20 +71,20 @@
              (CGCthesee #:notes "violon1" #:instrument "Violons")
              (CGDthesee #:notes "violon" #:instrument "Violons")
              (CGEannonce #:notes "violon-hautbois"
-                         #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+                         #:instrument ,(markup #:center-column ("Hautbois" "Violons")))
              ;; CGFthesee
              (CGGmarche)
              (CGHchoeur #:notes "dessus1"
-                        #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+                        #:instrument ,(markup #:center-column ("Hautbois" "Violons")))
              (CGIair)
              (CGJair)
              (CGKrigaudon)
              (CGLrigaudon #:notes "hautbois" #:instrument "Hautbois")
              (CGMmatelote #:notes "dessus1"
-                          #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+                          #:instrument ,(markup #:center-column ("Hautbois" "Violons")))
              (CGNentracte)
 
-             (DAAhippolyte #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
+             (DAAhippolyte #:instrument ,(markup #:center-column ("Flûtes" "Violons")))
              ;; DBAhippolyteAricie
              ;; DBBhippolytearicie
              (DBCannonce #:notes "hautbois" #:instrument "Hautbois" #:tag autres)
@@ -92,7 +93,7 @@
              (DCBentree #:tag autres)
              (DCCrondeau #:score "score-dessus1")
              (DCDchasseresse #:notes "hautbois" #:instrument "Un hautbois")
-             (DCEmenuet #:tag autres #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+             (DCEmenuet #:tag autres #:instrument ,(markup #:center-column ("Hautbois" "Violons")))
              (DCFmenuet #:notes "hautbois" #:instrument "Hautbois")
              (DCGrondeauChoeur #:score "score-dessus1")
              (DCHchoeurHippolyteAricie #:score "score-dessus")
@@ -103,30 +104,30 @@
              (EAAaricie #:score "score-dessus1")
              (EABaricie #:score "score-dessus1")
              (EBAchoeur #:notes "dessus1"
-                        #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+                        #:instrument ,(markup #:center-column ("Hautbois" "Violons")))
              ;; EBBaricie
              (EBCaricieChoeur #:notes "dessus1"
-                              #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+                              #:instrument ,(markup #:center-column ("Hautbois" "Violons")))
              (ECAdiane #:notes "flute1" #:instrument "Flûtes")
              ;; EDAdiane
              (EEAritournelle)
              ;; EEBaricieHippolyte
              ;; EECdiane
              (EEDannonce #:ragged #t
-                         #:instrument ,(markup #:center-align ("Hautbois" "Musettes" "Violons")))
+                         #:instrument ,(markup #:center-column ("Hautbois" "Musettes" "Violons")))
              ;; EEEdiane
              (EFAmarcheChoeur #:score "score-dessus1")
-             (EFBrondeau #:instrument ,(markup #:center-align ("Flûtes" "Violons")))
+             (EFBrondeau #:instrument ,(markup #:center-column ("Flûtes" "Violons")))
              ;; EFCbergere
              (EFDmenuet)
              (EFEmenuet)
              ;; EFFdiane
-             (EFGgavotte #:instrument ,(markup #:center-align ("Flûtes" "Hautbois" "Violons")))
+             (EFGgavotte #:instrument ,(markup #:center-column ("Flûtes" "Hautbois" "Violons")))
              (EFHgavotte #:notes "dessus1"
-                         #:instrument ,(markup #:center-align ("Hautbois" "Violons")))
+                         #:instrument ,(markup #:center-column ("Hautbois" "Violons")))
              (EFIariette #:score "score-dessus1")
              (EFJchaconne #:notes "dessus1"
-                          #:instrument ,(markup #:center-align ("Flûtes" "Hautbois" "Violons"))))
+                          #:instrument ,(markup #:center-column ("Flûtes" "Hautbois" "Violons"))))
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     (violon1   "Violon I" ((hautbois1 "Hautbois") (flute1 "Flûtes"))

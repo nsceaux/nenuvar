@@ -1,9 +1,10 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \instrumentName \markup Violons
     \newHaraKiriStaff << \global \includeNotes "violon" >>
     \new Staff \withLyrics <<
-      \characterName \markup \center-align \smallCaps { Thésée Tisiphone }
+      \characterName \markup \center-column \smallCaps { Thésée Tisiphone }
       \global \includeNotes "thesee-tisiphone"
     >> \includeLyrics "paroles"
     \new Staff <<

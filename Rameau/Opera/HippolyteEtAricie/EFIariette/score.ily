@@ -1,20 +1,21 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff << %\newHaraKiriStaff <<
-        \instrumentName \markup \center-align { "Deux flûtes" seules }
+        \instrumentName \markup \center-column { "Deux flûtes" seules }
         \set Staff.shortInstrumentName = "Fl"
         \global \includeNotes "flute"
       >>
       \newHaraKiriStaff <<
-        \instrumentName \markup \center-align {
+        \instrumentName \markup \center-column {
           \line { Violon I  \small { dans } }
           \line \small { deux premiers dessus } }
         \set Staff.shortInstrumentName = "Vl 1"
         \global \includeNotes "violon1"
       >>
       \newHaraKiriStaff <<
-        \instrumentName \markup \center-align {
+        \instrumentName \markup \center-column {
           \line { Violon II \small { dans } }
           \line \small { deux seconds dessus } }
         \set Staff.shortInstrumentName = "Vl 2"
@@ -23,14 +24,14 @@
       >>
     >>
     \new Staff \withLyrics <<
-      \characterName \markup \center-align {
+      \characterName \markup \center-column {
         \line { \smallCaps Aricie ou }
         \line { une bergère }
       }
       \global \includeNotes "bergere"
     >> \includeLyrics "paroles"
     \newHaraKiriStaff <<
-      \instrumentName \markup \center-align {
+      \instrumentName \markup \center-column {
         \line { Violons \small { dans le } }
         \line \small { reste des dessus }
       }

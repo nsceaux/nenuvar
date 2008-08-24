@@ -1,3 +1,4 @@
+\version "2.11.57"
 \tocJournee "Seconde journée"
 \tocSpectacle "La Princesse d'Élide"
 
@@ -123,7 +124,7 @@
 }
 \pieceTocTitle "Entrée de valets de chiens endormis"
 \includeScore "BAFentree"
-\pieceTocAndTitle \markup \center-align { 
+\pieceTocAndTitle \markup \center-column { 
   \line { DEUXIÈME AIR DES VALETS DE CHIENS }
   \line { ET DES CHASSEURS AVEC DES CORS DE CHASSE }
 }  \markup { Deuxième air des valets de chiens et des chasseurs }

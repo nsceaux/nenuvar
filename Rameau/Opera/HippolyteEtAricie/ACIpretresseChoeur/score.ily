@@ -1,9 +1,10 @@
+\version "2.11.57"
 \score {
   <<
     \new StaffGroup <<
       \new Staff << \instrumentName \markup Violons
                    \global \includeNotes "dessus" >>
-      \new Staff << \instrumentName \markup \center-align { Haute-contres Tailles }
+      \new Staff << \instrumentName \markup \center-column { Haute-contres Tailles }
                    \global \includeNotes "haute-contre" >>
       \new Staff << \instrumentName \markup { Basses de violons }
                    \global \includeNotes "basse" >>

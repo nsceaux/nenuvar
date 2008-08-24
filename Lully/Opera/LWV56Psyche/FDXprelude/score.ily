@@ -1,3 +1,4 @@
+\version "2.11.57"
 \score {
   \new StaffGroup <<
     \new InnerStaffGroup <<
@@ -25,7 +26,7 @@
                     \keepWithTag #'() \global
                     \clef "basse" \includeNotes "timbales" >>
     >>
-    \new Staff << \instrumentName \markup \center-align { Basse continue }
+    \new Staff << \instrumentName \markup \center-column { Basse continue }
                   \keepWithTag #'() \global
                   \clef "basse" \includeNotes "basse-continue" >>
   >>

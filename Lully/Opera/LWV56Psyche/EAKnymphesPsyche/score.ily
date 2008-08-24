@@ -1,12 +1,13 @@
+\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \newHaraKiriStaff \withLyrics <<
-      \characterName \markup \center-align \smallCaps { Première Nymphe }
+      \characterName \markup \center-column \smallCaps { Première Nymphe }
       \set Staff.shortInstrumentName = \markup { \concat { 1 \super è } N }
       \global \clef "vdessus" \includeNotes "nymphe1"
     >> \includeLyrics "paroles1"
     \newHaraKiriStaff \withLyrics << 
-      \characterName \markup \center-align \smallCaps { Deuxième Nymphe }
+      \characterName \markup \center-column \smallCaps { Deuxième Nymphe }
       \set Staff.shortInstrumentName = \markup { \concat { 2 \super è } N }
       \global \clef "vbas-dessus" \includeNotes "nymphe2"
     >> \includeLyrics "paroles2"

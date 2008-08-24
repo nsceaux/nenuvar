@@ -1,8 +1,9 @@
+\version "2.11.57"
 %% Aria. Tolomeo: Domerò la tua fierezza
 \score {
   \new StaffGroupNoBar <<
     \new Staff <<
-      \instrumentName \markup \center-align { Violini unisoni. } 
+      \instrumentName \markup \center-column { Violini unisoni. } 
       \keepWithTag #'up \global
       \clef treble \includeNotes "violini" 
     >>

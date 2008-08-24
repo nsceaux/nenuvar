@@ -1,7 +1,8 @@
+\version "2.11.57"
 \score {
   \new StaffGroup <<
     \newSmallStaff <<
-        \instrumentName \markup \center-align { Hautbois Musettes }
+        \instrumentName \markup \center-column { Hautbois Musettes }
         \global \includeNotes "hautbois2"
       >>
       \newSmallStaff <<

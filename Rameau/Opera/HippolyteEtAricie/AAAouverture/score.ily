@@ -1,6 +1,7 @@
+\version "2.11.57"
 \score {
   \new StaffGroup <<
-    \new Staff << \instrumentName \markup \center-align { Hautbois Violons }
+    \new Staff << \instrumentName \markup \center-column { Hautbois Violons }
                  \global \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup Haute-contres
                  \global \includeNotes "haute-contre" >>
