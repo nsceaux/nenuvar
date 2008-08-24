@@ -92,11 +92,12 @@
           (ly:book-add-score! book-part score))
         (reverse! (ly:parser-lookup parser 'toplevel-scores)))
    (ly:parser-define! parser 'toplevel-scores (list))
-   (collect-bookpart-for-book parser book-part))
+   (ly:parser-define! parser 'toplevel-bookparts
+                      (cons book-part (ly:parser-lookup parser 'toplevel-bookparts))))
 
 #(define (add-score parser score)
    (ly:parser-define! parser 'toplevel-scores
-                      (cons score toplevel-scores)))
+                      (cons score (ly:parser-lookup parser 'toplevel-scores))))
 
 #(define (add-music parser music)
   (collect-music-aux (lambda (score)
