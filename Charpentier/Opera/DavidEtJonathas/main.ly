@@ -236,7 +236,11 @@
   \includeScore "CABdavid"
 
   \scene "Scène II"
-  \sceneDescription \markup \wordwrap-center \smallCaps {
-    Joadab, chœurs.
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps Joadab, chœurs de la suite de David et de Jonathas.
   }
+  \pieceToc \markup { Joadab : \italic { Dépit jaloux, haine cruelle } }
+  \includeScore "CBAjoadab"
+  \pieceToc \markup { Chœur : \italic { Tout suit vos vœux ; Cessez de craindre. } }
+  \includeScore "CBBchoeur"
 }
