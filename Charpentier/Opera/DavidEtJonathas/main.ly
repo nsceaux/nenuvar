@@ -143,7 +143,7 @@
         \line { \smallCaps Joadab, un des chefs de l'armée des Philistins, ennemi de David. }
         \line { Troupe de guerriers et de captifs, de peuple et de 
                 pasteurs que David a délivrés. }
-        \line { Chœur de la suite de Saül, d'Achis, de David, de Jonathas et de Jodab. }
+        \line { Chœur de la suite de Saül, d'Achis, de David, de Jonathas et de Joadab. }
       }
     }
   }
@@ -236,11 +236,14 @@
   \includeScore "CABdavid"
 
   \scene "Scène II"
-  \sceneDescription \markup \wordwrap-center {
-    \smallCaps Joadab, chœurs de la suite de David et de Jonathas.
+  \sceneDescription \markup \wordwrap-center \smallCaps {
+    Joadab, chœurs de la suite de David et de Jonathas.
   }
   \pieceToc \markup { Joadab : \italic { Dépit jaloux, haine cruelle } }
   \includeScore "CBAjoadab"
   \pieceToc \markup { Chœur : \italic { Tout suit vos vœux ; Cessez de craindre. } }
   \includeScore "CBBchoeur"
+  \pieceToc \markup { Joadab : \italic { David, au comble de la gloire } }
+  \includeScore "CBCjoadabChoeur"
+  \includeScore "CBDjoadab"
 }
