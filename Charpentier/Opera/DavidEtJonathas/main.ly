@@ -246,8 +246,33 @@
   \pieceToc \markup { Joadab : \italic { David, au comble de la gloire } }
   \includeScore "CBCjoadabChoeur"
   \includeScore "CBDjoadab"
+  \scene "Scène III"
+  \sceneDescription \markup \wordwrap-center \smallCaps {
+    David, Jonathas, troupes de la suite de l'un et de l'autre.
+  }
   \pieceToc \markup { Jonathas, David, chœur :
                       \italic { À votre bras vainqueur rien ne peut résister } }
   \includeScore "CCAdavidJonathas"
   \markup { [Il manque deux pages manuscrites.] }
+  \actEnd \markup { FIN DU DEUXIÈME ACTE }
+}
+
+
+%%% Acte Troisième
+\bookpart {
+  \act "Acte Troisième"
+  \markuplines \paragraph {
+    Saül souçonnant tout de David et cherchant toujours l'occasion de
+    le perdre, ajoute aisément foi à l'accusation de Joadab. Il
+    demande pour dondition de la paix qu'on lui livre David. Achis sûr
+    de son innocence et son protecteur, le refuse. Cependant David
+    paraît devant Saül avec Jonathas. Saül lui reproche sa "trahison ;"
+    David étonné et voyant que sa présence irrite Saül, se
+    retire. Saül le "poursuit ;" et Joadab se réjouit de l'heureux
+    succès de son accusation.
+  }
+  \scene "Scène Première"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Saül, Achis }
+  \pieceToc \markup { Symphonie }
+  \includeScore "DAAsymphonie"
 }
