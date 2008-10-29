@@ -246,4 +246,8 @@
   \pieceToc \markup { Joadab : \italic { David, au comble de la gloire } }
   \includeScore "CBCjoadabChoeur"
   \includeScore "CBDjoadab"
+  \pieceToc \markup { Jonathas, David, chœur :
+                      \italic { À votre bras vainqueur rien ne peut résister } }
+  \includeScore "CCAdavidJonathas"
+  \markup { [Il manque deux pages manuscrites.] }
 }
