@@ -275,4 +275,6 @@
   \sceneDescription \markup \wordwrap-center \smallCaps { Saül, Achis }
   \pieceToc \markup { Symphonie }
   \includeScore "DAAsymphonie"
+  \pieceToc \markup { Saül, Achis : \italic { Ah ! je dois assurer et ma vie et l'empire. } }
+  \includeScore "DABsaulAchis"
 }
