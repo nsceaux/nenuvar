@@ -277,4 +277,9 @@
   \includeScore "DAAsymphonie"
   \pieceToc \markup { Saül, Achis : \italic { Ah ! je dois assurer et ma vie et l'empire. } }
   \includeScore "DABsaulAchis"
+
+  \scene "Scène II"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Saül }
+  \pieceToc \markup { Saül : \italic { Objet d'une implacable haine } }
+  \includeScore "DBAsaul"
 }
