@@ -2,6 +2,10 @@ saulMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Saül"))
 
+saulMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark "vbasse" (markup #:character-text "Saül" text)))
+
 ombreMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "L'ombre de Samuel"))
@@ -9,6 +13,18 @@ ombreMark =
 achisMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Achis"))
+
+jonathasMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Jonathas"))
+
+jonathasMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark "vdessus" (markup #:character-text "Jonathas" text)))
+
+davidMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "David"))
 
 #(define-markup-list-command (hshift-lines layout props amount args)
   (number? markup-list?)

@@ -58,7 +58,7 @@ sib,1 |
 fa2 fa,4. sol,8 |
 lab,2 sib, |
 mib,1 | %{%}
-r4 mib sol sib |
+r4 mib^"sourdine" sol sib |
 mib1 |
 mib |
 r2 r4 mib |

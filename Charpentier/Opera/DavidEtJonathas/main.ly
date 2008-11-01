@@ -257,7 +257,6 @@
   \actEnd \markup { FIN DU DEUXIÈME ACTE }
 }
 
-
 %%% Acte Troisième
 \bookpart {
   \act "Acte Troisième"
@@ -282,4 +281,12 @@
   \sceneDescription \markup \wordwrap-center \smallCaps { Saül }
   \pieceToc \markup { Saül : \italic { Objet d'une implacable haine } }
   \includeScore "DBAsaul"
+
+  \scene "Scène III"
+  \sceneDescription \markup \wordwrap-center \smallCaps { 
+    Saül, Davis, Jonathas, Joadab, troupes...
+  }
+  \pieceToc \markup { Jonathas, Saül, David :
+                      \italic { David peut-il attendre un regard favorable ? } }
+  \includeScore "DCAjonathasDavidSaul"
 }

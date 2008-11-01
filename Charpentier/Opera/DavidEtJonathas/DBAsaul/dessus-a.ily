@@ -33,7 +33,7 @@ mib''2 r |
 r4 mib''8 fa'' sol''4 fa''8 sol'' |
 lab''2 r |
 r4 sol''8 fa'' mib''4 do'' |
-re''2 fa'' |
+re''2 fa''^"sourdine" |
 mib''4 re'' do'' sib' |
 la'2 re''4. re''8 |
 mib''1 |
