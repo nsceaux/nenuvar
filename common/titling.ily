@@ -246,6 +246,14 @@ pieceToc =
          (add-no-page-break parser)))
     (make-music 'Music 'void #t)))
 
+inMusicPieceToc =
+#(define-music-function (parser location title) (markup?)
+  (let ((rehearsal (rehearsal-number)))
+    (add-toc-item! 'tocPieceMarkup
+      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+          (markup #:rehearsal-number-toc rehearsal title)
+          title))))
+
 pieceTocTitle =
 #(define-music-function (parser location title) (string?)
   (let ((rehearsal (rehearsal-number)))
@@ -393,6 +401,19 @@ scene =
     (markup #:scene (string-upper-case title)))
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
+
+inMusicScene =
+#(define-music-function (parser location title) (string?)
+  (make-music 'SimultaneousMusic
+   'elements (list (in-music-add-odd-page-header-text
+                     (format #f "~a, ~a."
+                       (string-upper-case (*act-title*))
+                       (string-upper-case title))
+                     #t)
+                   (add-toc-item! 'tocSceneMarkup title)
+                   (make-music 'EventChord
+                     'elements (list (make-music 'MarkEvent
+                                       'label (markup #:scene (string-upper-case title))))))))
 
 sceneDescription =
 #(define-music-function (parser location description) (markup?)

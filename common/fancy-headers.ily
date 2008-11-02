@@ -31,6 +31,8 @@
 
 #(define-public add-odd-page-header-text #f)
 #(define-public add-even-page-header-text #f)
+#(define-public in-music-add-odd-page-header-text #f)
+#(define-public in-music-add-even-page-header-text #f)
 #(define header-markup-aux #f)
 #(let ((odd-label-header-table (list))
        (odd-page-header-table (list))
@@ -93,6 +95,16 @@
          (make-music 'Music
           'page-marker #t
           'page-label label)))))
+  (set! in-music-add-odd-page-header-text
+   (lambda (text display-1st)
+     (let ((label (gensym "header")))
+       (set! odd-label-header-table
+             (cons (list label text display-1st)
+                   odd-label-header-table))
+       (make-music 'EventChord
+         'page-marker #t
+         'page-label label
+         'elements (list (make-music 'LabelEvent 'page-label label))))))
   (set! add-even-page-header-text
    (lambda (parser text display-1st)
      (let ((label (gensym "header")))
@@ -101,8 +113,18 @@
                    even-label-header-table))
        (add-music parser
          (make-music 'Music
-          'page-marker #t
-          'page-label label))))))
+           'page-marker #t
+           'page-label label)))))
+  (set! in-music-add-even-page-header-text
+   (lambda (text display-1st)
+     (let ((label (gensym "header")))
+       (set! even-label-header-table
+             (cons (list label text display-1st)
+                   even-label-header-table))
+       (make-music 'EventChord
+         'page-marker #t
+         'page-label label
+         'elements (list (make-music 'LabelEvent 'page-label label)))))))
 
 #(define-markup-command (odd-header layout props) ()
    (header-markup-aux layout props #t))

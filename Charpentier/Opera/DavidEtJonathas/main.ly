@@ -289,4 +289,9 @@
   \pieceToc \markup { Jonathas, Saül, David :
                       \italic { David peut-il attendre un regard favorable ? } }
   \includeScore "DCAjonathasDavidSaul"
+  \pieceToc \markup { Saül, David, Jonathas : \italic { Ah ! plus tôt dès ce jour vange-moi d'un perfide. } }
+  \includeScore "DCBjonathasDavidSaulJoadab"
+  \pieceTocTitle "Gigue"
+  \includeScore "DDBgigue"
+  \actEnd \markup { FIN DU TROISIÈME ACTE }
 }
