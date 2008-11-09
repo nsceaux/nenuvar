@@ -314,6 +314,15 @@
   \sceneDescription \markup \wordwrap-center \smallCaps { David. }
   \pieceTocTitle "Prélude"
   \includeScore "EAAprelude"
+  \pieceToc \markup { David : \italic { Souverain juge des mortels } }
+  \includeScore "EABdavid"
+
+  \scene "Scène II"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Jonathas, David. }
+  \pieceToc \markup { Jonathas, David : \italic { Vous me fuyez / Toujours vous me suivez }
+  \includeScore "EBAjonathasDavid"
+
+  \scene "Scène III"
 
   \actEnd \markup { FIN DU QUATRIÈME ACTE }
 }
