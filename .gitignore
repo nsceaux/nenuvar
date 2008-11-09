@@ -1,7 +1,11 @@
-*~
-*.ps
 *.midi
 *.pdf
+*.ps
 *.tar.gz
-test.ly
+*~
 .DS_Store
+/stats.csv
+/test-1-stats
+/test-2-stats
+/test-page-layout.ly
+test.ly
