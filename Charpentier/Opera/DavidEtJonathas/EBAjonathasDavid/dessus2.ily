@@ -36,7 +36,7 @@ sold'2 la' ~|
 la'4 si' sold'4. la'8 |
 la'1 |
 R1*6 |
-r8 re'' re''4 re'' r8 mi'' |
+r8^"Violons et flûtes" re'' re''4 re'' r8 mi'' |
 dod''4. dod''8 re'' la' la'8. sol'16 |
 la'2 r4 |
 R2.*14 |
