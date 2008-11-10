@@ -328,6 +328,9 @@
   \includeScore "ECAjonathasChoeur"
 
   \scene "Scène IV"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Saül, Achis. }
+  \pieceToc \markup { Saül, Achis }
+  \includeScore "EDAsaulAchis"
 
   \actEnd \markup { FIN DU QUATRIÈME ACTE }
 }
