@@ -324,13 +324,20 @@
 
   \scene "Scène III"
   \sceneDescription \markup \wordwrap-center \smallCaps { Jonathas, troupes d'Israëlites et de Philistins. }
-  \pieceToc \markup { Jonathas, chœur : \italic {  A-t-on jamais souffer une plus rude peine ? } }
+  \pieceToc \markup { Jonathas, chœur : \italic {  A-t-on jamais souffert une plus rude peine ? } }
   \includeScore "ECAjonathasChoeur"
 
   \scene "Scène IV"
   \sceneDescription \markup \wordwrap-center \smallCaps { Saül, Achis. }
   \pieceToc \markup { Saül, Achis }
   \includeScore "EDAsaulAchis"
+
+  \scene "Scène V"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Achis, Joadab, troupes. }
+  \pieceToc \markup { Joadab : \italic { Enfin vous m'écoutez, Seigneur } }
+  \includeScore "EEAjoadab"
+  \pieceToc \markup { Achis, chœur : \italic { Courons, courons : cherchons dans les combats } }
+  \includeScore "EEBachisChoeur"
 
   \actEnd \markup { FIN DU QUATRIÈME ACTE }
 }
