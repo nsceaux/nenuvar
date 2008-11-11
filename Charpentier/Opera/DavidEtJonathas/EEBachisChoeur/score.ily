@@ -15,7 +15,7 @@
       >>
       \newHaraKiriStaffB << \global \clef "haute-contre" \includeNotes "haute-contre" >>
       \newHaraKiriStaffB << \global \clef "taille" \includeNotes "taille" >>
-      %%\newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
+      \newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
     >>
     \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<

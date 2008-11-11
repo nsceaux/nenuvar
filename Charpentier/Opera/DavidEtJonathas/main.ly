@@ -338,6 +338,29 @@
   \includeScore "EEAjoadab"
   \pieceToc \markup { Achis, chœur : \italic { Courons, courons : cherchons dans les combats } }
   \includeScore "EEBachisChoeur"
-
+  \pieceTocTitle "Rigaudon"
+  \includeScore "EECrigaudon"
+  \pieceTocTitle "Bourrée"
+  \includeScore "EEDbourree"
   \actEnd \markup { FIN DU QUATRIÈME ACTE }
+}
+
+%%% Acte Cinquième
+\bookpart {
+  \act "Acte Cinquième"
+  \markuplines \paragraph {
+
+    La bataille se donne, et Saül la perd. Jonathas blessé à mort est
+    rencontré par "Saül ;" quel désespoir pour ce prince et ce père
+    "malheureux ?" Il retourne chercher "David :" cependant David
+    paraît de son côté cherchant Jonathas. Quelle "douleur !" Jonathas
+    meurt dans les bras de son ami. Saül prêt à tomber entre les mains
+    des Philistins, se perce de son épée, et est rapporté dans cet
+    état. Achis paraît en même temps triomphant, et apprend à David
+    que les Israëlites l'ont élu pour roi. David se retire confus et
+    percé de douleur.
+
+  }
+  \scene "Scène Première"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Jonathas. }
 }
