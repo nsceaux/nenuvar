@@ -362,5 +362,9 @@
 
   }
   \scene "Scène Première"
-  \sceneDescription \markup \wordwrap-center \smallCaps { Jonathas. }
+  \sceneDescription \markup \wordwrap-center \smallCaps { Jonathas, blessé. }
+  \pieceTocTitle "Bruit d'armes"
+  \includeScore "FAAouverture"
+  \pieceToc \markup { Jonathas : \italic { Courez ; Saül attend un secours nécessaire. } }
+  \includeScore "FABjonathas"
 }
