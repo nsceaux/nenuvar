@@ -383,4 +383,9 @@
   }
   \pieceToc \markup { Chœur : \italic { Victoire ! Victoire ! Tout cède à nos coups } }
   \includeScore "FCAchoeur"
+
+  \scene "Scène IV"
+  \sceneDescription \markup \wordwrap-center \smallCaps {
+    Jonathas, David, troupes de gardes et de Philistins.
+  }
 }
