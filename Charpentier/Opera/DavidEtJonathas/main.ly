@@ -388,4 +388,9 @@
   \sceneDescription \markup \wordwrap-center \smallCaps {
     Jonathas, David, troupes de gardes et de Philistins.
   }
+  \pieceToc \markup { David, Jonathas :
+                      \italic { Qu'on sauve Jonathas... allez... soins superflus ! } }
+  \includeScore "FDAdavidJonathas"
+  \pieceToc \markup { David, chœur : \italic { Jamais amour plus fidèle et plus tendre } }
+  \includeScore "FDBdavidChoeur"
 }
