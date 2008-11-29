@@ -386,11 +386,24 @@
 
   \scene "Scène IV"
   \sceneDescription \markup \wordwrap-center \smallCaps {
-    Jonathas, David, troupes de gardes et de Philistins.
+    Jonathas, David, troupes...
   }
   \pieceToc \markup { David, Jonathas :
                       \italic { Qu'on sauve Jonathas... allez... soins superflus ! } }
   \includeScore "FDAdavidJonathas"
   \pieceToc \markup { David, chœur : \italic { Jamais amour plus fidèle et plus tendre } }
   \includeScore "FDBdavidChoeur"
+
+  \scene "Scène V"
+  \sceneDescription \markup \wordwrap-center \smallCaps {
+    Saül blessé entre les bras des soldats, David, troupes...
+  }
+  \pieceToc \markup { Saül, David :
+                      \italic { Vois traître, et reconnais ta nouvelle victime. } }
+  \includeScore "FEAdavidSaul"
+
+  \scene "Scène dernière"
+  \sceneDescription \markup \wordwrap-center \smallCaps {
+    Achis, David, troupe de triomphants.
+  }
 }
