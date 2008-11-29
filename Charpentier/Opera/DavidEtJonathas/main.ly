@@ -367,4 +367,20 @@
   \includeScore "FAAouverture"
   \pieceToc \markup { Jonathas : \italic { Courez ; Saül attend un secours nécessaire. } }
   \includeScore "FABjonathas"
+
+  \scene "Scène II"
+  \sceneDescription \markup \wordwrap-center \smallCaps {
+    Saül, Jonathas, troupe de gardes.
+  }
+  \pieceToc \markup { Saül, Jonathas, chœur :
+                      \italic { Que vois-je ? quoi, je perds et mon fils et l'Empire ! } }
+  \includeScore "FBAsaulJonathas"
+  \noPageBreak \markup { [Il manque une page manuscrite.] }
+
+  \scene "Scène III"
+  \sceneDescription \markup \wordwrap-center \smallCaps {
+    Jonathas, troupes de gardes et de Philistins.
+  }
+  \pieceToc \markup { Chœur : \italic { Victoire ! Victoire ! Tout cède à nos coups } }
+  \includeScore "FCAchoeur"
 }
