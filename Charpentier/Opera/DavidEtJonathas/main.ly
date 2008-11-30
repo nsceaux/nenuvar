@@ -406,4 +406,13 @@
   \sceneDescription \markup \wordwrap-center \smallCaps {
     Achis, David, troupe de triomphants.
   }
+  \pieceTocTitle "Marche triomphante"
+  \includeScore "FFAmarche"
+  \pieceToc \markup {
+    Achis, David : \italic { Joignez à vos exploits l'honneur du diadème. } }
+  \includeScore "FFBachisDavid"
+  \pieceToc \markup {
+    Chœur : \italic { Du plus grands des héros chantons, chantons la gloire. } }
+  \includeScore "FFCchoeur"
+  \actEnd \markup { FIN DE LA TRAGÉDIE }
 }

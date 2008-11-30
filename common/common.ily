@@ -99,7 +99,8 @@
       %% put copyright only on pagenr. 1 
       \on-the-fly #(lambda (layout props arg)
 		     (if (and (= 1 (chain-assoc-get 'page:page-number props -1))
-                              (not (chain-assoc-get 'page:last?  props #f)))
+                              (not (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
+                                        (chain-assoc-get 'page:is-last-bookpart props #f))))
 		         (interpret-markup layout props (make-abs-fontsize-markup 12 arg))
 		         empty-stencil))
       \fromproperty #'header:longcopyright
@@ -124,10 +125,7 @@
     }
     \fill-line {
       %% put tagline on last page
-      \on-the-fly #(lambda (layout props arg)
-                     (if (chain-assoc-get 'page:last?  props #f)
-                         (interpret-markup layout props arg)
-                         empty-stencil))
+      \on-the-fly #last-page
       \fill-line { \fromproperty #'header:tagline }
     }
   }

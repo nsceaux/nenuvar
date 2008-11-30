@@ -14,6 +14,10 @@ achisMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Achis"))
 
+achisMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark "vbasse" (markup #:character-text "Achis" text)))
+
 jonathasMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Jonathas"))
