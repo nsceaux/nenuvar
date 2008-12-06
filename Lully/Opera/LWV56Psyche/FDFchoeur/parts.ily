@@ -1,0 +1,8 @@
+\piecePartSpecs #`((basse-continue #:notes "basse-continue #:score-template "score-basse"")
+                   (voix)
+                   (basse)
+                   (quinte)
+                   (taille)
+                   (haute-contre)
+                   (dessus2)
+                   (dessus1))

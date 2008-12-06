@@ -158,10 +158,10 @@
 %%%
 %%% Separate parts
 %%%
-#(define *all-part-specs* (make-parameter (list)))
-#(define *part-specs* (make-parameter #f))
-#(define *part* (make-parameter #f))
-#(define *part-name* (make-parameter ""))
+#(define *opus-part-specs* (make-parameter #f)) % all part global specs
+#(define *part* (make-parameter #f)) % The chosen part identifer
+#(define *part-name* (make-parameter "")) % The chosen part name
+#(define *piece-description* (make-parameter #f)) % the current piece description
 #(define *note-filename* (make-parameter #f))
 #(define *instrument-name* (make-parameter #f))
 #(define *score-ragged* (make-parameter #f))
@@ -224,8 +224,7 @@ combination from the following list:
   #:notes #:instrument #:music
 #:music allows to include some extra music
 The keyword arguments give default values to be used when non-specified in `piece-spec'."
-  (let ((name (car piece-spec))
-        (score (or score score-template))
+  (let ((score (or score score-template))
         (from-templates (not score))
         (ragged #f)
         (indent #f)
@@ -235,7 +234,7 @@ The keyword arguments give default values to be used when non-specified in `piec
         (instrument #f)
         (music #f))
     (if clef (*clef* clef)) ;; hack: set *clef* for silence scores
-    (let parse-props ((props (cdr piece-spec)))
+    (let parse-props ((props piece-spec))
       (if (not (or (null? props) (null? (cdr props))))
           (begin
             (case (car props)
@@ -253,8 +252,7 @@ The keyword arguments give default values to be used when non-specified in `piec
               ((#:instrument) (set! instrument (cadr props)))
               ((#:music) (set! music (cadr props))))
             (parse-props (cddr props)))))
-    `((name . ,name)
-      (score . ,score)
+    `((score . ,score)
       (from-templates . ,from-templates)
       (ragged . ,ragged)
       (indent . ,indent)
@@ -266,42 +264,51 @@ The keyword arguments give default values to be used when non-specified in `piec
       (figures . ,figures)
       (music . ,music))))
 
-setPart =
-#(define-music-function (parser location name) (string?)
-   (define (add-piece! pieces-htable piece-spec forced instrument . defaults)
-     (let ((piece-name (car piece-spec)))
-       (if (or forced (not (hashq-ref pieces-htable piece-name #f)))
-           (let ((piece (apply make-piece piece-spec defaults)))
-             (if (and instrument
-                      (not (assoc-ref piece 'instrument)))
-                 (assoc-set! piece 'instrument instrument))
-             (hashq-set! pieces-htable piece-name piece)))))
-   (let* ((part-key (string->symbol name))
-          (spec (assoc part-key (*all-part-specs*))))
+piecePartSpecs =
+#(define-music-function (parser location piece-specs) (list?)
+   "Define the part spec for a piece, by setting the *piece-description* special variable"
+   (define (get-part-opus-spec part opus-specs)
+     (let ((spec (assoc part opus-specs)))
+       (and spec (cdr spec))))
+   (define (get-part-piece parts piece-specs defaults)
+     (if (null? parts)
+         ;; default silent piece
+         (make-piece (list #:ragged #t
+                           #:notes "silence"
+                           #:score-template "score-silence")
+                     #:clef #f)
+         (let* ((part (caar parts))
+                (part-name (cadar parts))
+                (spec-result (assoc part piece-specs))
+                (spec (and spec-result (cdr spec-result))))
+           (if spec
+               (let ((piece (apply make-piece spec defaults)))
+                 (if (and part-name (not (assoc-ref piece 'instrument)))
+                     (assoc-set! piece 'instrument part-name))
+                 piece)
+               (get-part-piece (cdr parts) piece-specs defaults)))))
+   (define (get-fallbacks part-opus-spec)
+     (and part-opus-spec (cadr part-opus-spec)))
+   (define (get-defaults part-opus-spec)
+     (and part-opus-spec (caddr part-opus-spec)))
+   
+   (let ((part-opus-spec (get-part-opus-spec (*part*) (*opus-part-specs*))))
+     (*piece-description*
+      (get-part-piece (cons (list (*part*) #f) (get-fallbacks part-opus-spec))
+                      piece-specs
+                      (get-defaults part-opus-spec))))
+   (make-music 'Music 'void #t))
+
+opusPartSpecs =
+#(define-music-function (parser location opus-specs) (list?)
+   (*opus-part-specs* opus-specs)
+   (let* ((name (ly:get-option 'part))
+          (spec (assoc name (*opus-part-specs*))))
      (if spec
-         (let ((part-name (cadr spec))
-               (fallbacks (caddr spec))
-               (defaults (cadddr spec))
-               (piece-specs (cddddr spec)))
-           (*part* part-key)
-           (*part-name* part-name)
-           (*part-specs* (make-hash-table 150))
-           (for-each (lambda (piece-spec)
-                      (apply add-piece! (*part-specs*) piece-spec #t #f defaults))
-                    piece-specs)
-           (for-each (lambda (fallback)
-                      (let* ((key (car fallback))
-                             (instrument (cadr fallback))
-                             (spec (assoc key (*all-part-specs*))))
-                        (if spec
-                            (let ((default-notes (cadddr spec))
-                                  (piece-specs (cddddr spec)))
-                              (for-each (lambda (piece-spec)
-                                         (apply add-piece! (*part-specs*) piece-spec
-                                                #f instrument defaults))
-                                       piece-specs)))))
-                    fallbacks))
-         (ly:warning "No `~a' part defined for this opus" part-key)))
+         (begin
+           (*part* name)
+           (*part-name* (cadr spec)))
+         (ly:warning "No `~a' part defined for this opus" name)))
    (make-music 'Music 'void #t))
 
 %%%
@@ -368,28 +375,31 @@ setOpus =
 
 includeScore =
 #(define-music-function (parser location name) (string?)
-   (if (*part*)
-       ;; a part score
-       (let ((piece (hashq-ref (*part-specs*)
-                               (string->symbol name)
-                               (make-piece (list (string->symbol name)
-                                                 #:ragged #t
-                                                 #:notes "silence"
-                                                 #:score-template "score-silence")
-                                           #:clef #f))))
-         (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
-                        (*note-filename* (assoc-ref piece 'notes))
-                        (*instrument-name* (assoc-ref piece 'instrument))
-                        (*score-indent* (assoc-ref piece 'indent))
-                        (*tag-global* (assoc-ref piece 'tag-global))
-                        (*tag-notes* (assoc-ref piece 'tag-notes))
-                        (*figures* (assoc-ref piece 'figures))
-                        (*clef* (or (assoc-ref piece 'clef) (*clef*) "treble"))
-                        (*score-extra-music* (assoc-ref piece 'music)))
-           (include-part-score parser
-                               name
-                               (assoc-ref piece 'score)
-                               (assoc-ref piece 'from-templates))))
-       ;; conductor score
-       (include-score parser name))
+   (parameterize ((*piece* name))
+     ;;(format #t "Reading ~a~%" name)
+     (if (*part*)
+         (begin ;; a part score
+           ;; Include the parts.ily file, describing
+           ;; the parts defined for this piece.
+           ;; It should contain a call to \piecePartSpec
+           ;; which set *piece-description*
+           (ly:parser-parse-string (ly:parser-clone parser)
+                                   (format #f "\\include \"~a\""
+                                           (include-pathname "parts")))
+           (let ((piece (*piece-description*)))
+             (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
+                            (*note-filename* (assoc-ref piece 'notes))
+                            (*instrument-name* (assoc-ref piece 'instrument))
+                            (*score-indent* (assoc-ref piece 'indent))
+                            (*tag-global* (assoc-ref piece 'tag-global))
+                            (*tag-notes* (assoc-ref piece 'tag-notes))
+                            (*figures* (assoc-ref piece 'figures))
+                            (*clef* (or (assoc-ref piece 'clef) (*clef*) "treble"))
+                            (*score-extra-music* (assoc-ref piece 'music)))
+               (include-part-score parser
+                                   name
+                                   (assoc-ref piece 'score)
+                                   (assoc-ref piece 'from-templates)))))
+         ;; conductor score
+         (include-score parser name)))
    (make-music 'Music 'void #t))

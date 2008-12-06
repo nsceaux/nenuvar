@@ -107,10 +107,7 @@
     }
     \fill-line {
       %% put tagline on last page
-      \on-the-fly #(lambda (layout props arg)
-                     (if (chain-assoc-get 'page:last?  props #f)
-                         (interpret-markup layout props arg)
-                         empty-stencil))
+      \on-the-fly #last-page
       \fill-line { \fromproperty #'header:tagline }
     }
   }

@@ -1,0 +1,1 @@
+\piecePartSpecs #`( (basse-continue #:score-template "score-basse") (timbales) (trompette) (basse) (quinte #:tag violons) (taille #:tag violons) (haute-contre #:tag violons) (dessus2 #:tag violons) (dessus1 #:tag violons) )

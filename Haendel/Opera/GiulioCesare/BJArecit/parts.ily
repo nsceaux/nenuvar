@@ -1,0 +1,1 @@
+\piecePartSpecs #'((reduction #:score "score"))
