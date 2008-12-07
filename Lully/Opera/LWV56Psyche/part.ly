@@ -29,11 +29,6 @@
 \include "italiano.ly"
 #(set-global-staff-size 18)
 \include "common/common.ily"
-\layout {
-  \context { \Score \override VerticalAlignment #'max-stretch = ##f }
-  \context { \Staff \consists "Page_turn_engraver" }
-}
-\paper { #(define page-breaking ly:page-turn-breaking) }
 
 \include "Lully/Opera/LWV56Psyche/personnages.ily"
 \setOpus "Lully/Opera/LWV56Psyche"
@@ -46,12 +41,16 @@
 (taille "Taille de violon" () (#:notes "taille" #:clef "alto"))
 (quinte "Quinte de violon" () (#:notes "quinte" #:clef "alto"))
 (basse "Basse" () (#:notes "basse" #:clef "bass"))
-(trompette "Trompette" () (#:notes "trompette"))
-(timbales "Timbales" () (#:notes "timbales" #:clef "bass"))
-(tambour "Tambour" () (#:notes "tambour" #:clef "bass"))
 (voix "Parties vocales" () (#:score "score-voix"))
 (basse-continue "Basse continue" () (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue")))
 
+\layout {
+  \context { \Score \override VerticalAlignment #'max-stretch = ##f }
+  \context { \Staff \consists "Page_turn_engraver" }
+}
+\paper { #(define page-breaking (if (eqv? (*part*) 'voix)
+                                    ly:optimal-breaking
+                                    ly:page-turn-breaking)) }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }

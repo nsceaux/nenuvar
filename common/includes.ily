@@ -193,6 +193,7 @@
                       (score #f)
                       (score-template "score")
                       notes
+                      (ragged #f)
                       (clef "treble")
                       (figures "chiffres")
                       (tag-global #f)
@@ -226,7 +227,7 @@ combination from the following list:
 The keyword arguments give default values to be used when non-specified in `piece-spec'."
   (let ((score (or score score-template))
         (from-templates (not score))
-        (ragged #f)
+        (ragged ragged)
         (indent #f)
         (tag-global tag-global)
         (tag-notes tag-notes)
@@ -267,10 +268,17 @@ The keyword arguments give default values to be used when non-specified in `piec
 piecePartSpecs =
 #(define-music-function (parser location piece-specs) (list?)
    "Define the part spec for a piece, by setting the *piece-description* special variable"
-   (define (get-part-opus-spec part opus-specs)
-     (let ((spec (assoc part opus-specs)))
+   (define (get-part-opus-spec part)
+     (let ((spec (assoc part (*opus-part-specs*))))
        (and spec (cdr spec))))
-   (define (get-part-piece parts piece-specs defaults)
+   (define (get-fallbacks part)
+     (let ((part-opus-spec (get-part-opus-spec part)))
+       (or (and part-opus-spec (cadr part-opus-spec)) (list))))
+   (define (get-defaults part)
+     (let ((part-opus-spec (get-part-opus-spec part)))
+       (or (and part-opus-spec (caddr part-opus-spec)) (list))))
+   
+   (define (get-part-piece parts piece-specs)
      (if (null? parts)
          ;; default silent piece
          (make-piece (list #:ragged #t
@@ -282,26 +290,28 @@ piecePartSpecs =
                 (spec-result (assoc part piece-specs))
                 (spec (and spec-result (cdr spec-result))))
            (if spec
-               (let ((piece (apply make-piece spec defaults)))
+               (let ((piece (apply make-piece spec (get-defaults part))))
                  (if (and part-name (not (assoc-ref piece 'instrument)))
                      (assoc-set! piece 'instrument part-name))
                  piece)
-               (get-part-piece (cdr parts) piece-specs defaults)))))
-   (define (get-fallbacks part-opus-spec)
-     (and part-opus-spec (cadr part-opus-spec)))
-   (define (get-defaults part-opus-spec)
-     (and part-opus-spec (caddr part-opus-spec)))
+               (get-part-piece (cdr parts) piece-specs)))))
    
-   (let ((part-opus-spec (get-part-opus-spec (*part*) (*opus-part-specs*))))
-     (*piece-description*
-      (get-part-piece (cons (list (*part*) #f) (get-fallbacks part-opus-spec))
-                      piece-specs
-                      (get-defaults part-opus-spec))))
+   (let* ((part-opus-spec (get-part-opus-spec (*part*)))
+          (parts (append (list (list (*part*) #f))
+                         (get-fallbacks (*part*))
+                         (list (list 'silence #f)))))
+     (*piece-description* (get-part-piece parts piece-specs)))
    (make-music 'Music 'void #t))
 
 opusPartSpecs =
 #(define-music-function (parser location opus-specs) (list?)
-   (*opus-part-specs* opus-specs)
+   (let* ((silence-specs '(silence "" ()
+                                   (#:ragged #t #:notes "silence"
+                                    #:score-template "score-silence")))
+          (full-opus-specs (if (not (assoc 'silence opus-specs))
+                               (cons silence-specs opus-specs)
+                               opus-specs)))
+     (*opus-part-specs* full-opus-specs))
    (let* ((name (ly:get-option 'part))
           (spec (assoc name (*opus-part-specs*))))
      (if spec

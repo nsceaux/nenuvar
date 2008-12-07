@@ -28,11 +28,15 @@ $(1)$(2):
 $(call ALL_SCORE_PDFs,$(1))+=$(1)$(2)
 endef
 
-define MAKE_PART_RULE
+define MAKE_PART_RULE_AUX
 $(1)-$(2):
-	lilypond -dpart=$(2) -o $(OUTPUT_DIR)/$(notdir $(1))-$(2) $(1)/part.ly
+	lilypond -dpart=$(2) -o $(OUTPUT_DIR)/$(notdir $(1))-$(2) $(1)/$(3).ly
 .PHONY: $(1)-$(2)
 $(call ALL_SCORE_PDFs,$(1))+=$(1)-$(2)
+endef
+
+define MAKE_PART_RULE
+$(eval $(call MAKE_PART_RULE_AUX,$(1),$(2),part))
 endef
 
 define DELIVER_PDF_RULE
@@ -78,13 +82,13 @@ $(1)-delivery: $(foreach pdf,$($(call ALL_SCORE_PDFs,$(1))),$(call DELIVERY_DIRE
 	$(call DELIVER_SOURCE_ARCHIVE,$(1))
 endef
 
-
 define MAKE_ALL_SCORE_RULES
 $(eval $(call MAKE_SCORE_RULE,$(1),,))
 $(eval $(call MAKE_SCORE_RULE,$(1),-letter,$(LETTER_FLAG)))
-$(eval $(call MAKE_SCORE_RULE,$(1),-hardcover,$(HARDCOVER_BOOK_FLAG)))
+#$(eval $(call MAKE_SCORE_RULE,$(1),-hardcover,$(HARDCOVER_BOOK_FLAG)))
 $(eval $(call MAKE_SCORE_RULE,$(1),-rehearsal,$(REHEARSAL_FLAG)))
 $(foreach part,$(2),$(eval $(call MAKE_PART_RULE,$(1),$(part))))
+$(foreach part,$(4),$(eval $(call MAKE_PART_RULE_AUX,$(1),$(part),$(3))))
 $(call MAKE_DELIVERY_RULE,$(1))
 SCORES+=$(1)
 $(1)-all: $($(call ALL_SCORE_PDFs,$(1))) $(1)-delivery
@@ -97,20 +101,19 @@ archive:
 
 ##################################################################################
 
-$(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie,violon1 flute1 hautbois1))
+$(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie,violon1 flute1 hautbois1,,))
 
-$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents,))
-$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Motets,))
-$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents,,,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Motets,,,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin,,,))
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,\
-	dessus1 dessus2 haute-contre taille quinte basse trompette \
-	tambour timbales basse-continue voix))
-$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee,))
+dessus1 dessus2 haute-contre taille quinte basse basse-continue voix,part5,trompette tambour timbales))
+$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee,,,))
 
-$(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/Opera/DavidEtJonathas,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/Opera/DavidEtJonathas,,,))
 
-$(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Opera/GiulioCesare,reduction))
+$(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Opera/GiulioCesare,reduction,,))
 
 help:
 	@echo "usage: make <score-rule>"

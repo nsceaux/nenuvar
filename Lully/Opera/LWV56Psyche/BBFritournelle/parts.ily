@@ -1,4 +1,4 @@
-\piecePartSpecs #`((basse-continue #:score-template "score-basse")
+\piecePartSpecs #`((basse-continue #:score-template "score")
                    (basse)
                    (quinte)
                    (taille)
