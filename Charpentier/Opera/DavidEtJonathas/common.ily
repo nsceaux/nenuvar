@@ -6,6 +6,10 @@ saulMarkText =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark "vbasse" (markup #:character-text "Saül" text)))
 
+pythonisseMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "La Pythonisse"))
+
 ombreMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "L'ombre de Samuel"))

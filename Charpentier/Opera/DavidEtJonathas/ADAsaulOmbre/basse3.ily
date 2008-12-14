@@ -28,7 +28,7 @@ re2 mi fa |
 fa2. sol4 mi2 |
 fa1. |
 r1 re2 |
-re1 r2 |
+re1. |
 r1 mi2 |
 mi1. |
 r1 fa2 |

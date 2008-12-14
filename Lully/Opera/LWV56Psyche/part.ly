@@ -34,15 +34,14 @@
 \setOpus "Lully/Opera/LWV56Psyche"
 \opusTitle "Psyché"
 
-\opusPartSpecs #'(
-(dessus1 "Dessus I" () (#:notes "dessus"))
-(dessus2 "Dessus II" () (#:notes "dessus"))
-(haute-contre "Haute-contre de violon" () (#:notes "haute-contre"))
-(taille "Taille de violon" () (#:notes "taille" #:clef "alto"))
-(quinte "Quinte de violon" () (#:notes "quinte" #:clef "alto"))
-(basse "Basse" () (#:notes "basse" #:clef "bass"))
-(voix "Parties vocales" () (#:score "score-voix"))
-(basse-continue "Basse continue" () (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue")))
+\opusPartSpecs #`((dessus1 "Dessus I" () (#:notes "dessus"))
+                  (dessus2 "Dessus II" () (#:notes "dessus"))
+                  (haute-contre "Haute-contre de violon" () (#:notes "haute-contre"))
+                  (taille "Taille de violon" () (#:notes "taille" #:clef "alto"))
+                  (basse "Basse" () (#:notes "basse" #:clef "bass"))
+                  (voix "Parties vocales" () (#:score "score-voix"))
+                  (basse-continue "Basse continue" ()
+                   (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue")))
 
 \layout {
   \context { \Score \override VerticalAlignment #'max-stretch = ##f }

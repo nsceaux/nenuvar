@@ -1,13 +1,9 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
-    >>
-    \newHaraKiriStaffB \withLyrics <<
+    \newTinyHaraKiriStaffB \withLyrics <<
       \global \clef "vhaute-contre" \includeNotes "pythonisse"
     >> \includeLyrics "paroles-pythonisse"
-    \new Staff \withLyrics <<
+    \newTinyStaff \withLyrics <<
       \characterName \markup Saül
       \global \clef "vbasse" \includeNotes "saul"
     >> \includeLyrics "paroles-saul"
@@ -16,5 +12,4 @@
                   \includeFigures "chiffres" >>
   >>
   \layout { indent = \largeindent }
-  \midi { }
 }
