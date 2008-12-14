@@ -30,14 +30,14 @@ si,4. la,8 si,8 sol,8 |
 do8 si,8 la,4 sol,4 |
 re4 re,2 |
 sol,2 sol4 |
-si,2. |
+si,2. |\allowPageTurn
 do4. si,8 la,4 |
 sol,4 fad,4 mi,4 |
 re,4 re8 mi8 re8 do8 |
 si,4. la,8 si,8 sol,8 |
 do8 si,8 la,4 sol,4 |
 re4 re,2 |
-sol,2. |
+sol,2. |\allowPageTurn
 sol2 mi4 |
 fa2 re4 |
 sol4 do4 sol,2 |

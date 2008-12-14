@@ -115,7 +115,7 @@
   \includeScore "AAIritournelle"
   \pieceToc \markup { Vénus : \italic { Mon fils, si tu plains mes malheurs }}
   \includeScore "AAJvenus"
-
+  \noPageTurn
   \actEnd \markup { FIN DU PROLOGUE }
 }
 \bookpart {
@@ -217,6 +217,7 @@
   \includeScore "CFAritournelle"
   \pieceToc \markup { Psyché, l'Amour }
   \includeScore "CFBamourPsyche"
+  %{%} \partNoPageTurn #'(basse-continue)
   \pieceTocTitle "Ritournelle"
   \includeScore "CFCritournelle"
   \pieceToc \markup { L'Amour : \italic { Venez voir ce palais }}
@@ -238,10 +239,11 @@
   \includeScore "DAAritournelle"
   \pieceToc \markup { Vénus : \italic { Pompe que ce palais de tous côtés étale }}
   \includeScore "DABvenus"
+  %{%} \partNoPageTurn #'(basse-continue)
   %%
   \scene "Scène II"
   \sceneDescription \markup \wordwrap-center \smallCaps { Vénus, Psyché. }
-  \pieceTocAndTitle \markup "Ritournelle" \markup { Psyché : \italic { Que fais-tu, montre-toi }}
+  \pieceToc \markup { Psyché : \italic { Que fais-tu, montre-toi }}
   \includeScore "DBApsyche"
   \pieceToc  \markup { Psyché, Vénus }
   \includeScore "DBBpsycheVenus"

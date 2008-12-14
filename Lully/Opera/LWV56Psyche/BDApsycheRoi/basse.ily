@@ -14,7 +14,7 @@ do2 sib,8 la,8 |
 sol,2 mi,2 |
 fa,2 fa4 mib8 re8 |
 do2 re4. do8 |
-si,1 |
+si,1 |\allowPageTurn
 do2 fa4 fa,4 |
 sib,2. lab,8 sol,8 |
 fa,2 fa,2 |
@@ -44,7 +44,7 @@ sib,4 sib4 mi2 |
 fa4. sib,8 do4 do,4 |
 fa,2 fa8 mib8 |
 re2 do2 |
-sib,1 |
+sib,1 |\allowPageTurn
 mib2 mib8 re8 do8 sib,8 |
 lab,4. sol,16 lab,16 sib,2 |
 mib2 lab8 fa8 |

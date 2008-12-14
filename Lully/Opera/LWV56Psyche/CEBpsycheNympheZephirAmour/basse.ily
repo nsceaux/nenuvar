@@ -53,7 +53,7 @@ la,4 la8 si8 la8 sol8 |
 fa2 sol4 |
 la8 re8 la,2 |
 re2 re2 |
-mi1 |
+mi1 |\allowPageTurn
 la4. sol8 fa8 mi8 |
 re2 mi8 mi,8 |
 la,4 la4 re4 |

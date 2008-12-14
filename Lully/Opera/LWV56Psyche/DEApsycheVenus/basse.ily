@@ -27,7 +27,7 @@ sib,2 si,4 |
 do4 la,4 sol,8 fa,8 do4 |
 fa,2 fa2 |
 dod2. |
-re1 |
+re1 |\allowPageTurn
 fa,2 fad,2 |
 sol,2 sol2 |
 mi2 fa2 |

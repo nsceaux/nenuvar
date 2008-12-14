@@ -1,6 +1,6 @@
 \score {
   \new StaffGroupNoBar <<
-    \newTinyHaraKiriStaff \withLyrics << 
+    \newTinyHaraKiriStaffB \withLyrics << 
       \global
       \clef "vpetite-haute-contre" \includeNotes "petite-haute-contre"
     >> \includeLyrics "paroles1"

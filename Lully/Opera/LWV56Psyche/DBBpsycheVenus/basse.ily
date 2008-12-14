@@ -11,7 +11,7 @@ sol2 si,4 |
 do2 re2 |
 sol,1 |
 sol2 fa4 mib4 |
-re1 |
+re1 |\allowPageTurn
 mib2 mi2 |
 fa2 la,2 |
 sib,2 do2 |
@@ -59,7 +59,7 @@ fad1 |
 sol2 la2 |
 sib2 la8 sib8 sol4 |
 fa2. fa8. mib16 |
-re1 |
+re1 |\allowPageTurn
 mib2. do4 |
 sol2 sol,2 |
 do1 |

@@ -30,11 +30,11 @@ fa2 re4 |
 mib2 mi2 |
 fa2 re8 mib8 do4 |
 sib,1 |
-sib2. |
+sib2. |\allowPageTurn
 fad4 sol2 |
 lab4. fa8 sol8 sol,8 |
-do2. |
+do2. |\allowPageTurn
 re2. do4 |
 sib,4 sol,4 re8 re,8 |
 sol,2 sol,8. la,16 |
-\custosNote sib,4 
+\custosNote sib,4

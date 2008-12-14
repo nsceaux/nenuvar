@@ -21,7 +21,7 @@ do'4. la8 sib8 la8 sol4 |
 re'4 sib8 sol8 do'8 fa8 do4 |
 fa,1 |
 fa1 |
-sib,1 |
+sib,1 |\allowPageTurn
 mib2 si,2 |
 do2 lab4. fa8 |
 sol2 sol8 fa8 |

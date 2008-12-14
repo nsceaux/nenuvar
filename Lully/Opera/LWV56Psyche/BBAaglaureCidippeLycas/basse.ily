@@ -29,7 +29,7 @@ re4. mib8 re8 do8 sib,8 la,8 |
 sol,2 sol4 fa4 |
 mib2 re2 |
 do2 sol4 sol,4 |
-re1 |
+re1 |\allowPageTurn
 re2. |
 sol,4 sol4 si,2 |
 do4 re4 re,4 |
@@ -67,7 +67,7 @@ mib4 mib4 do4. do8 |
 re4 sol,4 re,2 |
 sol,1 |
 sol,1 |
-sol,1 |
+sol,1 |\allowPageTurn
 la,1 |
 re4. mib8 re8 do8 sib,8 la,8 |
 sol,2 sol2 ~ |

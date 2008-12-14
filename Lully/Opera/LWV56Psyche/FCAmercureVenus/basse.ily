@@ -51,7 +51,7 @@ fa,2 fa4 |
 mi4. fa8 mi8 re8 |
 dod2. |
 re4. mi8 fa8 re8 |
-mi2. |
+mi2. |\allowPageTurn
 sold,2 la,4 |
 si,2 do8 re8 |
 mi2 mi'8 re'8 |

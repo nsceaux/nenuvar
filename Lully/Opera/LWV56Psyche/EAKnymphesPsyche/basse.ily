@@ -63,7 +63,7 @@ la,4 re2 |
 sol,4 re,2 |
 sol,4 sol4 mi2 |
 fa2 re2 |
-mi1 |
+mi1 |\allowPageTurn
 mi2 la,2 |
 re4. mi8 re8 do8 si,8 la,8 |
 sol,2 sol2 |

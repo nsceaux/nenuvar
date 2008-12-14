@@ -13,7 +13,7 @@ la4 mi4 fa2 |
 mi2 re2 |
 do2 dod2 |
 re2 red2 |
-mi1 |
+mi1 |\allowPageTurn
 fa2 fad2 |
 sol2 sold2 |
 la2 sol8 la8 si8 si,8 |
@@ -60,10 +60,10 @@ mi4 la,2 |
 mi,4 mi8 fa8 mi8 re8 |
 do2 si,8 la,8 |
 mi4 mi,2 |
-la,2 la,2 |
+la,2 la,2 |\allowPageTurn
 la,2 la,4 re4 |
 si,1 |
-do1 |
+do1 |\allowPageTurn
 fa2 re2 |
 mi1 |
 mi1 |
@@ -107,4 +107,4 @@ mi4. fa8 mi8 re8 |
 do8 re8 mi4 la4 |
 sold4. fad8 sold8 mi8 |
 la8 re8 mi4 mi,4 |
-\custosNote la,4 
+\custosNote la,4

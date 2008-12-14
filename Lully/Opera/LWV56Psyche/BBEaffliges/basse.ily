@@ -9,11 +9,11 @@ sol,4 sol8. fa16 mib2 ~ |
 mib2 fa4 fad4 |
 sol4 sol,8. fa,16 mib,2 |
 fa,2 sol,4 |
-do4 do'4 si2 |
+do4 do'4 si2 |\noPageTurn
 do'2 do2 |
 fa2 la,2 |
 sib,2. sib,4 |
-mib1 |
+mib1 |\allowPageTurn
 mib4. fa8 sol4. lab8 |
 sib4 sib,8 do8 re4. mib8 |
 fa4. sol8 lab4. sib8 |

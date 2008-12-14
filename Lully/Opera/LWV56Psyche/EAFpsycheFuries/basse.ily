@@ -60,7 +60,7 @@ sol2. sol4 |
 re2. re4 |
 mib2. do4 |
 fa2. fa,4 |
-sib,2 sib,4 r4 | %%%
+sib,2 sib,4 r4 |\allowPageTurn %%%
 sib,2 sib2 |
 la2. |
 sol2 la4 |

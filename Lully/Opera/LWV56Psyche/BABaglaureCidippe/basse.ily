@@ -14,7 +14,7 @@ mi2 sold,2 |
 la,1 |
 re4. do8 si,2 |
 do2. re8 re,8 |
-sol,2. |
+sol,2. |\allowPageTurn
 sol4 si4 sol4 |
 do'4 re'4 re4 |
 sol2. |
