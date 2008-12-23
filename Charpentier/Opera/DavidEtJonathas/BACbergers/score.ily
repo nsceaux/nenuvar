@@ -1,10 +1,10 @@
 \score {
   \new StaffGroupNoBar <<
-    \new InnerStaffGroup <<
+    \new StaffGroup <<
       \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus1" >>
       \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
     >>
-    \new InnerChoirStaff <<
+    \new ChoirStaff <<
       \new Staff \withLyrics <<
         \characterName \markup "Une Bergère"
         \global \clef "vdessus" \includeNotes "berger1"

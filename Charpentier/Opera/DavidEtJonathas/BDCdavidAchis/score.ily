@@ -1,6 +1,6 @@
 \score {
   \new StaffGroupNoBar <<
-    \new InnerStaffGroup <<
+    \new StaffGroup <<
       \newHaraKiriStaffB << \global \clef "dessus"
                     { \includeNotes "dessus1-A" \break
                       \includeNotes "dessus-B"
@@ -11,8 +11,10 @@
                             \includeNotes "haute-contre" >>
       \newHaraKiriStaffB << \global \clef "taille"
                             \includeNotes "taille" >>
+      \newHaraKiriStaffB << \global \clef "basse"
+                            \includeNotes "basse" >>
     >>
-    \new InnerChoirStaff <<
+    \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
         \global \clef "vdessus" \includeNotes "voix-dessus"
       >> \includeLyrics "paroles-dessus"
@@ -28,7 +30,7 @@
         \global \clef "vbasse" \includeNotes "voix-basse"
       >> \includeLyrics "paroles-basse"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse"
+    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
                   \includeFigures "chiffres" >>
   >>
   \layout { indent = \largeindent }

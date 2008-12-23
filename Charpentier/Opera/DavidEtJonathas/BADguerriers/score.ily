@@ -1,6 +1,6 @@
 \score {
   \new StaffGroupNoBar <<
-    \new InnerStaffGroup <<
+    \new StaffGroup <<
       \new Staff << \global \clef "dessus"
                     { \includeNotes "dessus1-A" \break
                       \includeNotes "dessus-B"
@@ -16,7 +16,7 @@
       \newHaraKiriStaffB << \global \clef "taille"
                             \includeNotes "taille" >>
     >>
-    \new InnerChoirStaff <<
+    \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
         \global \clef "vdessus" \includeNotes "voix-dessus"
       >> \includeLyrics "paroles-dessus"

@@ -72,9 +72,34 @@ re4 re re dod re re |
 re re re re fad, fad, |
 sol, sol sol fad sol8 fa mi re |
 do4 re8 do si,4 do re re, |
-sol,2. |
-R2.*26 |
-r2 la2. la4 |
+sol,2 sol,4 |
+re re' do' |
+si2. |
+do'4 sold4. sold8 |
+la2. |
+sol |
+fad2 si8 la |
+sol fad mi2 |
+si4 si si |
+do'4. si8 do'4 |
+la2 la4 |
+si4. la8 si4 |
+sol2 sold4 |
+la2 dod4 |
+re2 re4 |
+mi fad2 |
+sol4. sol8 fad sol |
+mi2. |
+la4 si2 |
+do' do'4 |
+do'2 si4 |
+la2 sol4 |
+la fad4. sol8 |
+si2 red4 |
+mi2 re4 |
+do8 la, si,2 |
+mi,2. |
+la,1 la2 |
 sold1. |
 la2 la,2. si,4 |
 dod2 mi1 |
