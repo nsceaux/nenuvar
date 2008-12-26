@@ -4,7 +4,7 @@
       \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus1" >>
       \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
     >>
-    \new InnerChoirStaff <<
+    \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
         \global \clef "vdessus" \includeNotes "jonathas"
       >> \includeLyrics "paroles2"

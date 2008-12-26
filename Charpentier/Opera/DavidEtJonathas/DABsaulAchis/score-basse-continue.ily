@@ -1,14 +1,10 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
-    >>
     \new ChoirStaff <<
-      \new Staff \withLyrics <<
+      \newTinyStaff \withLyrics <<
         \global \clef "vbasse" \includeNotes "saul-achis"
       >> \includeLyrics "paroles1"
-      \newHaraKiriStaffB \withLyrics <<
+      \newTinyHaraKiriStaffB \withLyrics <<
         \global \clef "vbasse" \includeNotes "achis"
       >> \includeLyrics "paroles2"
     >>
@@ -16,5 +12,4 @@
                   \includeFigures "chiffres" >>
   >>
   \layout { }
-  \midi { }
 }

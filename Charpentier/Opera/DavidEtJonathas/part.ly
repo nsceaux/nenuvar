@@ -165,7 +165,7 @@
   \includeScore "BDFprelude"
   \actEnd \markup { FIN DU PREMIER ACTE }
 }
-%{
+
 %%% Acte Second
 \bookpart {
   \act "Acte Second"
@@ -228,7 +228,7 @@
   \includeScore "DDBgigue"
   \actEnd \markup { FIN DU TROISIÈME ACTE }
 }
-
+%{
 %%% Acte Quatrième
 \bookpart {
   \act "Acte Quatrième"
