@@ -25,7 +25,7 @@ Par -- mi de mor -- tel -- les hor -- reurs,
 j'i -- rai cher -- cher
 j'i -- rai cher -- cher et sau -- ver ce que j'ai -- me.
 Et sau -- ver et sau -- ver ce que j'ai -- me.
- 
+
 Je ne puis.
 
 Ce mo -- ment,

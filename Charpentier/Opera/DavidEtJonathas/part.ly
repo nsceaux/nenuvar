@@ -228,7 +228,7 @@
   \includeScore "DDBgigue"
   \actEnd \markup { FIN DU TROISIÈME ACTE }
 }
-%{
+
 %%% Acte Quatrième
 \bookpart {
   \act "Acte Quatrième"
@@ -266,7 +266,7 @@
   \includeScore "EEDbourree"
   \actEnd \markup { FIN DU QUATRIÈME ACTE }
 }
-
+%{
 %%% Acte Cinquième
 \bookpart {
   \act "Acte Cinquième"

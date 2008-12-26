@@ -4,7 +4,7 @@
       \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus1" >>
       \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus2" >>
     >>
-    \new InnerChoirStaff <<
+    \new ChoirStaff <<
       \new Staff \withLyrics <<
         \characterName \markup Jonathas
         \global \clef "vdessus" \includeNotes "jonathas"
