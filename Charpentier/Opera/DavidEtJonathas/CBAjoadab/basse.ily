@@ -1,34 +1,32 @@
 sol,2. sol4 |
 fad4. mi8 fad4 re |
-sol2 sol4 sol |
-fad4. mi8 fad4 re |
-sol4. la8 si4 sol |
-re' < fad re' > sol mi |
-re mi do4. la,8 |
-re re re mi fa2 |
-mi do4. fa,8 |
-sol,4 sol,8 la, si,4. sol,8 |
-do4 re8 mi fa mi re sol |
-do2 mi |
-la,8 mi fad sold la sol fa mi |
-fa4 mi8 re mi2 |
-la,8 la la mi fa sol fa mi |
+sol sol r2 |
+R1 |
+r4 r8 la8 si4 sol |
+re' re' r2 |
+R1 |
+r8 re re mi fa2 |
+mi r |
+R1 |
+r4 re8 mi fa mi re sol |
+do2 r |
+R1*2 |
+
+r8 la la mi fa sol fa mi |
 re4 re mi mi, |
-la,2 fa4 sol |
-la4. fa8 sol4 la |
+la,2 r |
+R1 |
 re8 do sib, la, sol,4. sol,8 |
 la,2. la,4 |
-re,2 la,4. fa,8 |
-sol,4 sol,8 la, si,4. sol,8 |
-do2. do'4 |
-si si, mi2 |
-re4. mi8 fad4 re |
-sol4. la8 si4 sol |
-do'2 do'4 la |
-fa re sol sol |
-mi la fad4. sol8 |
-re4 do re re, |
-sol,2. sol4 |
+re,2 r |
+R1 |
+r2 r4 do' |
+si si, r2 |
+R1 |
+r4 sol8 la8 si4 sol |
+do'4 do' r2 |
+R1*3 |
+r2 r4 sol4 |
 fad sol8 fad mi4 la |
 re re' si4. sol8 |
 do'4 do' la fa |

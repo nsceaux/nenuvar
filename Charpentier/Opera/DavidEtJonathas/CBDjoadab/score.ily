@@ -12,6 +12,7 @@
                         }
         }
       >>
+      \newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
     >>
     \new Staff \withLyrics <<
       { s1*8 \break }
@@ -19,7 +20,7 @@
       \global \clef "vtaille" \includeNotes "joadab"
     >> \includeLyrics "paroles"
     \new Staff << \instrumentName \markup Basses
-                  \global \clef "basse" \includeNotes "basse"
+                  \global \clef "basse" \includeNotes "basse-continue"
                   \includeFigures "chiffres" >>
   >>
   \layout {

@@ -17,7 +17,7 @@ mi'' fa'' re''2 |
 do'' r4 |
 R2.*3 |
 R1*25 |
-r4 sol'' mi'' |
+r4^"Jonathas" sol'' mi'' |
 fa'' sol''8 [ fa'' ] mi'' [ re'' ]|
 mi''4 mi'' sol'' ~|
 sol''8 fa'' mi''4. fa''8 |
@@ -27,7 +27,7 @@ si'4 si' mi'' ~|
 mi''8 fa'' re''4. do''8 |
 do''2. |
 R2.*3 |
-r4 mi'' do'' |
+r4^"Jonathas" mi'' do'' |
 re'' re'' si' |
 sol' sol' do'' |
 la' do''4. re''8 |

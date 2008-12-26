@@ -13,7 +13,7 @@
       \global \clef "vtaille" \includeNotes "joadab"
     >> \includeLyrics "paroles"
     \new Staff << \instrumentName \markup Basses
-                  \global \clef "basse" \includeNotes "basse"
+                  \global \clef "basse" \includeNotes "basse-continue"
                   \includeFigures "chiffres" >>
   >>
   \layout { indent = \largeindent }

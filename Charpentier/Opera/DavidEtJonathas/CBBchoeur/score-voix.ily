@@ -19,9 +19,6 @@
         \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
       >> \includeLyrics "paroles3"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
   >>
   \layout { }
-  \midi { }
 }

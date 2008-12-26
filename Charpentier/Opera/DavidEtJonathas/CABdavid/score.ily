@@ -9,7 +9,7 @@
       \newHaraKiriStaff <<
         \global \clef "dessus" \includeNotes "dessus2" >>
     >>
-    \new InnerChoirStaff <<
+    \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
         { s1*23 s2 s2^\markup { Chœur de la suite de Jonathas,
                                 qu'on entend et qu'on ne voit point. } }

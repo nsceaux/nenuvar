@@ -3,7 +3,6 @@
     \new StaffGroupNoBracket <<
       \new GrandStaff <<
         \newHaraKiriStaffB <<
-          { s1 \set Staff. shortInstrumentName = "Ds" }
           \global \clef "dessus" 
           { \includeNotes "dessus1-a"
             \includeNotes "dessus-b"
@@ -16,7 +15,6 @@
             \includeNotes "dessus1-i"
             \includeNotes "dessus-j" } >>
         \newHaraKiriStaffB <<
-        { s1 \set Staff. shortInstrumentName = "Ds2" }
         \global \clef "dessus"
         { \includeNotes "dessus2-a"
           \includeNotes "dessus-silence-b" \break
@@ -30,19 +28,16 @@
           \includeNotes "dessus-silence-j" } >>
       >>
       \newHaraKiriStaffB <<
-        { s1 \set Staff. shortInstrumentName = "HC" }
         \global \clef "haute-contre" \includeNotes "haute-contre"
       >>
       \newHaraKiriStaffB <<
-        { s1 \set Staff. shortInstrumentName = "Ta" }
         \global \clef "taille" \includeNotes "taille"
       >>
       \newHaraKiriStaffB <<
-        { s1 \set Staff. shortInstrumentName = "Ba" }
         \global \clef "basse" \includeNotes "basse"
       >>
     >>
-    \new InnerChoirStaff <<
+    \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
         \global \clef "vdessus" \includeNotes "voix-dessus1"
       >> \includeLyrics "paroles-dessus1"
@@ -71,9 +66,6 @@
                   \global \clef "basse" \includeNotes "basse-continue"
                   \includeFigures "chiffres" >>
   >>
-  \layout {
-    indent = \largeindent
-    short-indent = 0.5\cm
-  }
+  \layout { indent = \largeindent }
   \midi { }
 }
