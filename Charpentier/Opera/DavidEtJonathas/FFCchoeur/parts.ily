@@ -4,4 +4,4 @@
                    (taille)
                    (basse #:score "score-basse")
                    (voix)
-                   (basse-continue))
+                   (basse-continue #:notes "basse-continue"))
