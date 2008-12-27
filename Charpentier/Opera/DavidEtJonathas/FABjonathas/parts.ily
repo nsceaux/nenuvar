@@ -3,4 +3,5 @@
                    (haute-contre)
                    (taille)
                    (basse)
-                   (basse-continue #:score-template "score"))
+                   (voix)
+                   (basse-continue #:score "score-basse-continue"))

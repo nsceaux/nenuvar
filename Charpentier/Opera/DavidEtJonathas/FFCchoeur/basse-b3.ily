@@ -11,4 +11,3 @@ sol sol8 la sol4. sol8 |
 mi4 do' si sol |
 do' fa sol sol, |
 do2. r4 |
-R1*31 |

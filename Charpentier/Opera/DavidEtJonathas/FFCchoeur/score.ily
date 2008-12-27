@@ -21,24 +21,25 @@
                            { \includeNotes "basse-a"
                              \includeNotes "basse-b1"
                              \includeNotes "basse-c"
-                             \includeNotes "basse-d1"
-                             \includeNotes "basse-e"
-                             \includeNotes "basse-f1"
-                             \includeNotes "basse-g" } >>
+                             \includeNotes "basse-d"
+                             \includeNotes "basse-e1"
+                             \includeNotes "basse-f"
+                             \includeNotes "basse-g1"
+                             \includeNotes "basse-h" } >>
       \newHaraKiriStaffB << \global \clef "basse"
                            { s1*10 \break
                              \includeNotes "basse-b2"
-                             s1*49 \break
-                             \includeNotes "basse-d2" \break
+                             R1*80 \break
+                             \includeNotes "basse-e2" \break
                              s1*28 \break
-                             \includeNotes "basse-f2" \break } >>
+                             \includeNotes "basse-g2" \break } >>
       \newHaraKiriStaffB << \global \clef "basse"
-                           { s1*10 \break
+                           { s1*10
                              \includeNotes "basse-b3"
-                             s1*49 \break
-                             \includeNotes "basse-d3" \break
-                             s1*28 \break
-                             \includeNotes "basse-f3" \break } >>
+                             R1*80
+                             \includeNotes "basse-e3"
+                             s1*28
+                             \includeNotes "basse-g3" \break } >>
     >>
     \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
