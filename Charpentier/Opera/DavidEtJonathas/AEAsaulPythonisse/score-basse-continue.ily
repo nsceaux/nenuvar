@@ -1,12 +1,9 @@
 \score {
   \new StaffGroupNoBar <<
-    \newTinyHaraKiriStaffB \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "pythonisse"
-    >> \includeLyrics "paroles-pythonisse"
-    \newTinyStaff \withLyrics <<
+    \newTinyHaraKiriStaff \withLyrics <<
       \characterName \markup Saül
-      \global \clef "vbasse" \includeNotes "saul"
-    >> \includeLyrics "paroles-saul"
+      \global \clef "vbasse" \includeNotes "reduction"
+    >> \includeLyrics "paroles-reduction"
     \new Staff << \global \clef "basse" \includeNotes "basse"
                   \instrumentName \markup { Basse continue }
                   \includeFigures "chiffres" >>

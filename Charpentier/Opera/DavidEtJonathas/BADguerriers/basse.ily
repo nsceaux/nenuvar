@@ -53,7 +53,7 @@ fad4 fad sol |
 la la re |
 la,4. la8 la la |
 si4 dod'4. dod'8 |
-re'4 sol la |
+re'4 sol la |\allowPageTurn
 re re2 |
 la4 la2 |
 mi4 mi2 |
@@ -77,8 +77,8 @@ re'4 sol la |
 re8 dod re mi fad sol |
 la4 la8 la sol fad |
 mi4. mi8 mi fad |
-sol4 sol2 |
-r4 re2 |
+sol4 sol2 |\allowPageTurn
+r4 re2 |\allowPageTurn
 r4 fad2 |
 r8 dod mi mi re dod |
 si,4 mi mi, |

@@ -46,7 +46,7 @@ fa ( fa ) fa ( fa )|
 re s2. |
 s1 |
 sol,4 ( sol, ) re ( re )|
-mib ( mib ) fa ( fa )|
+mib ( mib ) fa ( fa )|\noPageTurn
 sib, ( sib, ) sib, ( sib, )|
 si, ( si, ) si, ( si, )|
 do ( do ) re ( re )|
@@ -56,9 +56,9 @@ sol, ( sol, ) do ( mib )|
 re ( re ) re ( re )|
 sol,1 |
 mib4. re8 mib4 sib, |
-mib,2 r |
+mib,2 r |\allowPageTurn
 mib re |
-do r |
+do r |\allowPageTurn
 r8 do' sib la sib do' |
 re'8. do'16 sib8 la sib do' |
 fa sol la sib sol re |

@@ -443,6 +443,15 @@ partPageBreak =
       (add-page-break parser))
   (make-music 'Music 'void #t))
 
+partBlankPageBreak =
+#(define-music-function (parser location parts) (list?)
+  (if (memq (*part*) parts)
+      (begin
+       (add-page-break parser)
+       (add-toplevel-markup parser (markup #:null))
+       (add-page-break parser)))
+  (make-music 'Music 'void #t))
+
 partNoPageTurn =
 #(define-music-function (parser location parts) (list?)
   (if (memq (*part*) parts)

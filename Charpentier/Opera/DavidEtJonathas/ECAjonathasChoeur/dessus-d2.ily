@@ -7,7 +7,7 @@ la'1. |
 R1*4 |
 do''1 sol'2 |
 la'2. sol'4 la'2 |
-si'1 si'2 |
+si'1 si'2 |\noPageTurn
 r1 sol'2 |
 fa' sol'2. sol'4 |
 sol'1 sol'2 |

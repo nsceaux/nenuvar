@@ -14,5 +14,4 @@
                   \includeFigures "chiffres" >>
   >>
   \layout { indent = \largeindent }
-  \midi { }
 }

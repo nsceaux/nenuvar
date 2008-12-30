@@ -10,7 +10,7 @@ mi re8 dod si,4 |
 la, mi mi, |
 la,4. si,8 dod4 |
 re mi mi, |
-la,2. |
+la,2. |\allowPageTurn
 la |
 la,4. la,8 si,4 |
 do fad,4. fad,8 |

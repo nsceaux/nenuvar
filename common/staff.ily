@@ -70,6 +70,7 @@ newTinyHaraKiriStaff =
                            (push Beam () auto-knee-gap)
                            (consists "Hara_kiri_engraver")
                            (remove "Axis_group_engraver")
+                           (remove "Page_turn_engraver")
                            (push StaffSymbol ,(magstep -2) staff-space)
                            (assign fontSize -2))
     'context-type 'Staff
@@ -100,6 +101,7 @@ newTinyHaraKiriStaffB =
                            (consists "Hara_kiri_engraver")
                            (remove "Axis_group_engraver")
                            (remove "Instrument_name_engraver")
+                           (remove "Page_turn_engraver")
                            (push StaffSymbol ,(magstep -2) staff-space)
                            (assign fontSize -2))
     'context-type 'Staff
@@ -117,6 +119,7 @@ newTinyStaff =
    #{ \new Staff \with {
         fontSize = #-2
         \override StaffSymbol #'staff-space = #(magstep -2)
+        \remove "Page_turn_engraver"
       } << $music >> #})
 
 dessusHauteContreTailleQuinteBasse =

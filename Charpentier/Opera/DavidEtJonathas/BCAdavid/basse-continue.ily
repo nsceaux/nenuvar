@@ -98,7 +98,7 @@ la fad4. sol8 |
 si2 red4 |
 mi2 re4 |
 do8 la, si,2 |
-mi,2. |
+mi,2. |\allowPageTurn
 la,1 la2 |
 sold1. |
 la2 la,2. si,4 |
@@ -115,7 +115,7 @@ red1. |
 mi2. re4 do si, |
 la,1. |
 si, |
-mi |
+mi |\allowPageTurn
 r2 r r4 sol, |
 la,2. si,4 dod2 |
 re1. |

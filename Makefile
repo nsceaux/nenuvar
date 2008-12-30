@@ -1,6 +1,8 @@
 OUTPUT_DIR=out
 DELIVERY_DIR=delivery
 
+LILYPOND_CMD=lilypond -ddelete-intermediate-files
+
 REHEARSAL_FLAG=-d use-rehearsal-numbers
 LETTER_FLAG=-d letter
 HARDCOVER_BOOK_FLAG=-d hardcover
@@ -23,14 +25,14 @@ endef
 
 define MAKE_SCORE_RULE
 $(1)$(2):
-	lilypond $(3) -o $(OUTPUT_DIR)/$(notdir $(1))$(2) $(1)/main.ly
+	$(LILYPOND_CMD) $(3) -o $(OUTPUT_DIR)/$(notdir $(1))$(2) $(1)/main.ly
 .PHONY: $(1)$(2)
 $(call ALL_SCORE_PDFs,$(1))+=$(1)$(2)
 endef
 
 define MAKE_PART_RULE_AUX
 $(1)-$(2):
-	lilypond -dpart=$(2) -o $(OUTPUT_DIR)/$(notdir $(1))-$(2) $(1)/$(3).ly
+	$(LILYPOND_CMD) -dpart=$(2) -o $(OUTPUT_DIR)/$(notdir $(1))-$(2) $(1)/$(3).ly
 .PHONY: $(1)-$(2)
 $(call ALL_SCORE_PDFs,$(1))+=$(1)-$(2)
 endef
@@ -112,7 +114,7 @@ dessus1 dessus2 haute-contre taille quinte basse basse-continue voix,part5,tromp
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee,,,))
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/Opera/DavidEtJonathas,\
-dessus1 dessus2 haute-contre taille basse basse-continue voix,,))
+dessus1 dessus2 haute-contre taille basse voix,part-bc,basse-continue))
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Opera/GiulioCesare,reduction,,))
 

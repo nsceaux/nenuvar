@@ -44,21 +44,14 @@
 \setOpus "Charpentier/Opera/DavidEtJonathas"
 \opusTitle "David et Jonathas"
 
-\opusPartSpecs #`((dessus1 "Dessus I" () (#:notes "dessus"))
-                  (dessus2 "Dessus II" () (#:notes "dessus"))
-                  (haute-contre "Haute-contre de violon" () (#:notes "haute-contre"))
-                  (taille "Taille de violon" () (#:notes "taille" #:clef "alto"))
-                  (quinte "Quinte de violon" () (#:notes "quinte" #:clef "alto"))
-                  (basse "Basse" () (#:notes "basse" #:clef "bass"))
-                  (voix "Parties vocales" () (#:score "score-voix")))
+\opusPartSpecs #`((basse-continue "Basse continue" ()
+                   (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue")))
 
 \layout {
   \context { \Score \override VerticalAlignment #'max-stretch = ##f }
   \context { \Staff \consists "Page_turn_engraver" }
 }
-\paper { #(define page-breaking (if (eqv? (*part*) 'voix)
-                                    ly:optimal-breaking
-                                    ly:page-turn-breaking)) }
+\paper { #(define page-breaking ly:page-turn-breaking) }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
@@ -71,7 +64,7 @@
   \pageBreak
   
   %% Table of contents
-  \markuplines \table-of-contents
+  %%\markuplines \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Prologue
@@ -94,7 +87,7 @@
   \sceneDescription \markup \smallCaps { La Pythonisse }
   \pieceToc \markup { La Pythonisse : \italic { Retirez-vous, affreux Tonnerre. } }
   \includeScore "ACApythonisse"
-  
+
   \scene "Scène IV"
   \sceneDescription \markup \smallCaps { L'Ombre de Samuel, Saül, La Pythonisse }
   \pieceToc \markup { L'Ombre de Samuel, Saül }
@@ -104,7 +97,6 @@
   \sceneDescription \markup \smallCaps { Saül, La Pythonisse }
   \pieceToc \markup { Saül : \italic { Est-ce assez ? ai-je enfin épuisé ta colère ? } }
   \includeScore "AEAsaulPythonisse"
-  
   \actEnd \markup { FIN DU PROLOGUE }
 }
 
@@ -117,20 +109,29 @@
   }
   \pieceTocTitle "Marche triomphante"
   \includeScore "BAAmarche"
+}
+\bookpart {
   \pieceToc \markup {
     Un guerrier, chœur :
     \italic { Du plus grand des héros publions les exploits }
   }
   \includeScore "BABguerriers"
+}
+\bookpart {
   \pieceToc \markup { Bergères : \italic { Le Ciel dans nos bois le fit naître } }
   \includeScore "BACbergers"
+}
+\bookpart {
   \pieceToc \markup { Un guerrier, chœur : \italic { Jeune, et terrible dans la guerre } }
   \includeScore "BADguerriers"
+
   \pieceToc \markup { Captives : \italic { Cédons ; rien ne peut se défendre } }
   \includeScore "BAEcaptifs"
+
   \pieceToc \markup { Un guerrier : \italic { Le Dieu qui lance le tonnerre } }
   \includeScore "BAFguerrier"
-
+}
+\bookpart {
   \scene "Scène II"
   \sceneDescription \markup \wordwrap-center \smallCaps {
     David, troupes de guerriers, de pasteurs et de captifs
@@ -163,7 +164,7 @@
   \includeScore "BDFprelude"
   \actEnd \markup { FIN DU PREMIER ACTE }
 }
-
+%{
 %%% Acte Second
 \bookpart {
   \act "Acte Second"
@@ -196,8 +197,8 @@
   \includeScore "CCAdavidJonathas"
   \markup { [Il manque deux pages manuscrites.] }
   \actEnd \markup { FIN DU DEUXIÈME ACTE }
-}
-
+}%}
+%{
 %%% Acte Troisième
 \bookpart {
   \act "Acte Troisième"
@@ -323,3 +324,4 @@
   \includeScore "FFCchoeur"
   \actEnd \markup { FIN DE LA TRAGÉDIE }
 }
+%}
