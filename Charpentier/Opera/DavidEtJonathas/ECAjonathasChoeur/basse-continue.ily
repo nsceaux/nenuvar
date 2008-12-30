@@ -84,7 +84,7 @@ do2. re4 mi2 |
 fa2. mi4 re2 |
 sol4 fa mi re do2 |
 fa sol sol, |
-do1. |
+do1. |\allowPageTurn
 dod |
 re |
 fa |
@@ -95,7 +95,7 @@ do |
 re |
 sold, |
 la,2 fa,1 |
-mi,1. |
+mi,1. |\allowPageTurn
 la,2. la4 |
 sol1 |
 fa |

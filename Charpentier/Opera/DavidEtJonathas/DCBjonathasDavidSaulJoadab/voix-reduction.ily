@@ -19,42 +19,10 @@ sib4. sib8 sib re' |
 sol2 sol8 la |
 sib4 do' re' |
 mib'2. |
-R2. |
-r4 re' sib |
-do' la re' |
-sol2 do'8 sib |
-la4 sol fa |
-do' do' do |
-re4. re8 mi fa |
-mi2 mi8 mi |
-fa4 fa fa |
-sol2 sol4 |
-la4. sol8 la fa |
-sib4 la sol |
-la sib do' |
-fa2 \jonathasMark sol''4 |
+R2.*13 |
+r2 \jonathasMark sol''4 |
 la''2 r8 re'' |
 sol''4. fa''8 mi'' re'' |
 mi''4 do'' r |
 R2.*5 |
-\joadabMark r4 sol la |
-sib sib do' |
-re'2 r4 |
-r re' mib' |
-fa'2. |
-do'4 do'8 do' re' mib' |
-re'4. do'8 ( sib4 )|
-re' re' re' |
-sib4. sib8 do' re' |
-sol2 sol8 sol |
-do'4 do'4. re'8 |
-si2 do'8 re' |
-mib'4 mib' fa' |
-re' re' re' |
-fa'4. fa'8 mib' re' |
-mib'2 mib'8 fa' |
-re'4. mi'8 fa'4 |
-mi'2 do'8 do' |
-fa'2 fa'8 mi' |
-fa'2. |
-\break
+R2.*53

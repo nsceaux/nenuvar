@@ -1,13 +1,10 @@
 \score {
   \new StaffGroupNoBar <<
     \new ChoirStaff <<
-      \newTinyHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles-dessus"
-      \newTinyStaff \withLyrics <<
+      \newTinyHaraKiriStaff \withLyrics <<
         \characterName \markup David
-        \global \clef "vhaute-contre" \includeNotes "david"
-      >> \includeLyrics "paroles"
+        \global \clef "vhaute-contre" \includeNotes "reduction"
+      >> \includeLyrics "paroles-reduction"
     >>
     \new Staff << \instrumentName \markup Basses
                   \global \clef "basse" \includeNotes "basse"

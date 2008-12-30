@@ -6,7 +6,7 @@
     >> \includeLyrics "paroles"
     \new Staff << \instrumentName \markup Basses
                   \global \clef "basse" \includeNotes "basse-continue"
-                  { s1*9
+                  { s1*8 \break s1
                     \once \override TextScript #'extra-offset = #'(7 . 5)
                     s4 -\markup \column {
                       \line { Ritournelle comme }

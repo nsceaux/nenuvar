@@ -1,6 +1,6 @@
 #(define-markup-command (characteri paper props name) (markup?)
   (interpret-markup paper props
-   (markup #:huge #:smallCaps name)))
+   (markup #:large #:smallCaps name)))
 
 #(define-markup-command (character paper props name) (markup?)
   (interpret-markup paper props

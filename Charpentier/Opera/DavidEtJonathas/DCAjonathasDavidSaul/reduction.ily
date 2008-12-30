@@ -25,50 +25,7 @@ do' la sib sol |
 la2. sib4 |
 sol fa sib do' |
 fa1 |
-r2 r4 do' |
-sol la sib do' |
-re'2. re'4 |
-re'4. re'8 do'4 re' |
-sib2 sib4 re' |
-do' sib la4. sol8 |
-fad2. fad4 |
-sol re mib do |
-re2 re4 re'8 do' |
-sib4 do'8 re' sol4 sol8 fa |
-mib4. do8 re2 |
-sol,2. sol8 fa |
-mi4 fa8 sol do2 |
-r4 do'8 sib la4 sib8 do' |
-fa4 fa8 mi re4. sib,8 |
-do1 |
-fa |
-\davidMark la'2 la'2. sib'4 |
-sol'1. |
-do''2 fa'2. sol'4 |
-mi'2 mi'2. sol'4 |
-la'2. sib'4 do''2 |
-sib'4( la') sol'2. la'4 |
-fa'1. |
-R1.*3 |
-r2 do' do' |
-re'2. mi'4 fa'2 |
-mi'1. |
-r2 fa'2. fa'4 |
-sol'1 la'4 sib' |
-la'1. |
-r2 la'4 sol' fa' mi' |
-re'2 re' sib' |
-sol' mi' sol'4 sol' |
-sol'1 fa'4 mi' |
-mi'2 ( re'2. ) mi'4 |
-do'1. |
-R1. |
-r2 do''4 sib' la' sol' |
-fa'2 sol' la' |
-sib' sol' la'4 la' |
-la'1 sol'4 fa' |
-fa'2 ( mi'2. ) fa'4 |
-fa'1. |
+R1*17 | R1.*29 |
 \saulMark r8 do' la16 la la sib do'8 do'16 re' mib'8 re'16 do' |
 re'8 re' r re' re'4 r16 sib do' re' |
 sol4 r8 mib' do'4 r16 sib sib la |
@@ -87,34 +44,12 @@ re' re' r |
 r sol' sol'4. sol'8 |
 sol'4. sol'8 sol'2 ~|
 sol'4 fa'8 mi' re'4 re'8 mi' |
-do'1*3/4 \clef "vdessus" sol''4 |
+do'1*3/4 \jonathasMark sol''4 |
 mi''2 r8 mi'' fa'' sol'' |
 do''4. do''8 re'' mi'' fa'' re'' |
-sol''2.*1/3 \clef "vhaute-contre" sol'4 sol' |
+sol''2.*1/3 \davidMark sol'4 sol' |
 la' fa' sol' |
-mi'2*1/2 \clef "vdessus" dod''4 dod'' |
+mi'2*1/2 \jonathasMark dod''4 dod'' |
 re''4. mi''8 fa''4 |
 dod'' dod'' r |
-%{%}<<
-{ \voiceTwo r4_"David" la' la'4. la'8 |
-  la'4. la'8 la'2 ~|
-  la'4 sol'8 fa' mi'4 mi'8 fa' |
-  \voiceOne re''4. re''8 re''4 | }
-\new Voice \with { autoBeaming = ##f } {
-  \voiceOne r2^"Jonathas" r4 re'' |
-  re''4. re''8 do''4. re''8 |
-  si'4 dod''8 re'' re''4 re''8 dod'' |
-  \voiceTwo re'2 r4 | } >>
-\oneVoice mi'' do'' re'' |
-si'2*1/2 \clef "vhaute-contre" sol' sol' |
-sol'4. re'8 sol'4 |
-mi' mi' r |
-\clef "vdessus" << { \voiceOne r4 do'' do''4. do''8 |
-     do''4. do''8 do''2 ~|
-     do''4 sib'8 la' sol'4 sol'8 la' |
-     fa'1 | }
-   \new Voice \with { autoBeaming = ##f } {
-     \voiceTwo r2 r4 fa' |
-     fa'4. fa'8 mib'4. fa'8 |
-     re'4 mi'8 fa' fa'4 fa'8 mi' |
-     fa'1 | } >>
+R1*3 | R2.*5 | R1*4 |

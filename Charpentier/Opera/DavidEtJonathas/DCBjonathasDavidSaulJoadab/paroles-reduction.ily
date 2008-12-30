@@ -18,17 +18,6 @@ Hé -- "las !"
 %% SAÜL
 J'i -- rai moi- mê -- me... il me "fuit !" et son cri -- me
 en -- fin en ce mo -- ment se dé -- couvre à mes yeux.
-%% (Au gardes)
-Hâ -- tez- vous de ser -- vir la fu -- reur qui m'a -- ni -- me.
-Peut- ê -- tre puis-je en -- cor le re -- joindre en ces lieux
-peut- ê -- tre puis-je en -- cor le re -- joindre en ces lieux.
 
 %% JONATHAS
 O "Ciel !" pro -- tè -- ge l'in -- no -- cen -- ce.
-
-%% JOADAB
-A -- che -- vons a -- che -- "vons ;" mon bon -- heur pas -- se mon es -- pé -- ran -- ce.
-Mal -- gré les droits que j'ai tra -- his,
-jou -- ïs -- sons des dou -- ceurs d'une heu -- reu -- se ven -- gean -- ce.
-Pour perdre un en -- ne -- mi tout doit ê -- tre per -- mis
-tout doit ê -- tre per -- mis.

@@ -115,7 +115,7 @@ red1. |
 mi2. re4 do si, |
 la,1. |
 si, |
-mi |\allowPageTurn
+mi |
 r2 r r4 sol, |
 la,2. si,4 dod2 |
 re1. |

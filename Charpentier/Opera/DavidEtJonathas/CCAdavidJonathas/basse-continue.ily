@@ -17,7 +17,7 @@ do8 fa sol4 sol, |
 do4. do'8 si do' |
 la4. la8 mi4 |
 fa4. mi8 re4 |
-do sol sol, |
+do sol sol, |\allowPageTurn
 do2 do' |
 si2. sol4 |
 do'2 mi |
@@ -42,7 +42,7 @@ la4 re'8 do' sib sib la sol |
 fad2. fad4 |
 sol8 la sib la sol sol fa sol |
 mib4 do re2 |
-sol,2 sol8 fa mi re |
+sol,2 sol8 fa mi re |\allowPageTurn
 do2 do'4 |
 do' si2 |
 do'4 do' mi |
@@ -54,14 +54,14 @@ fa sol sol, |
 do2 do'4 |
 do' si2 |
 do'4 do' mi |
-fa sol sol, |
+fa sol sol, |\allowPageTurn
 do2 do'4 |
 do' si2 |
 do'4 do' mi fa do2 |
 sol4. fa8 mi4 |
 fa fa4. fa8 |
 sol fa mi re do4 |
-fa sol sol, |
+fa sol sol, |\allowPageTurn
 do do' do' |
 do' si si |
 do' do' mi |
@@ -113,7 +113,7 @@ fa do2 |
 sol4. fa8 mi4 |
 fa fa4. fa8 |
 sol fa mi re do4 |
-fa sol sol, |
+fa sol sol, |\allowPageTurn
 do do' do' |
 do' si si |
 do' do' mi |
@@ -125,7 +125,7 @@ fa sol sol, |
 do do' do' |
 do' si si |
 do' do' mi |
-fa do2 |
+fa do2 |\allowPageTurn
 sol4. fa8 mi4 |
 fa fa4. fa8 |
 sol fa mi re do4 |
@@ -162,11 +162,11 @@ sol, sol8 fa mi re |
 do4 do do |
 sol, sol8 fa mi re |
 do4 do do |
-sol,2. ~|
+sol,2. ~|\allowPageTurn
 sol,2 sol4 |
 do8 si, do re mi sol |
 do la, re mi do re |
-sol,2. ~|
+sol,2. ~|\allowPageTurn
 sol,4 sol8 la si sol |
 do si, do re mi sol |
 do la, re mi do re |
@@ -178,7 +178,7 @@ sol, sol8 fa mi re |
 do4 do do |
 sol, sol8 fa mi re |
 do4 do do |
-sol,2. ~|
+sol,2. ~|\allowPageTurn
 sol,4 sol8 la si sol |
 do si, do re mi sol |
 do la, re mi do re |

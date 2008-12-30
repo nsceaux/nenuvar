@@ -1,11 +1,9 @@
 \score {
   \new StaffGroupNoBar <<
-    \newTinyHaraKiriStaffB \withLyrics <<
-      \global \clef "vbasse" \includeNotes "saul"
-    >> \includeLyrics "paroles2"
     \newTinyHaraKiriStaff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "achis-saul"
-    >> \includeLyrics "paroles1"
+      \global \clef "vbasse" \includeNotes "reduction"
+      { s1*3 s2.*9 s1 \break }
+    >> \includeLyrics "paroles-reduction"
     \new Staff << \global \clef "basse" \includeNotes "basse"
                   \includeFigures "chiffres" >>
   >>

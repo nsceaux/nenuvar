@@ -64,7 +64,7 @@
   \pageBreak
   
   %% Table of contents
-  %%\markuplines \table-of-contents
+  \markuplines \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Prologue
@@ -152,6 +152,8 @@
   }
   \pieceToc \markup Ritournelle
   \includeScore "BDAritournelle"
+}
+\bookpart {
   \pieceToc \markup { Achis : \italic { Le Ciel enfin favorable à mes vœux } }
   \includeScore "BDBachis"
   \pieceToc \markup { David, Achis, chœur }
@@ -164,7 +166,7 @@
   \includeScore "BDFprelude"
   \actEnd \markup { FIN DU PREMIER ACTE }
 }
-%{
+
 %%% Acte Second
 \bookpart {
   \act "Acte Second"
@@ -172,11 +174,13 @@
   \sceneDescription \markup \wordwrap-center \smallCaps { Joadab, David }
   \pieceToc \markup { Joadab : \italic { Quel inutile soin en ces lieux vous arrête ? } }
   \includeScore "CAAjoadab"
+  \noPageTurn
   \pieceToc \markup {
     David : \italic { Entre la paix et la victoire Un héros peut se partager }
   }
   \includeScore "CABdavid"
-
+}
+\bookpart {
   \scene "Scène II"
   \sceneDescription \markup \wordwrap-center \smallCaps {
     Joadab, chœurs de la suite de David et de Jonathas.
@@ -187,6 +191,8 @@
   \includeScore "CBBchoeur"
   \pieceToc \markup { Joadab : \italic { David, au comble de la gloire } }
   \includeScore "CBCjoadabChoeur"
+}
+\bookpart {
   \includeScore "CBDjoadab"
   \scene "Scène III"
   \sceneDescription \markup \wordwrap-center \smallCaps {
@@ -197,8 +203,8 @@
   \includeScore "CCAdavidJonathas"
   \markup { [Il manque deux pages manuscrites.] }
   \actEnd \markup { FIN DU DEUXIÈME ACTE }
-}%}
-%{
+}
+
 %%% Acte Troisième
 \bookpart {
   \act "Acte Troisième"
@@ -208,12 +214,14 @@
   \includeScore "DAAsymphonie"
   \pieceToc \markup { Saül, Achis : \italic { Ah ! je dois assurer et ma vie et l'empire. } }
   \includeScore "DABsaulAchis"
-
+}
+\bookpart {
   \scene "Scène II"
   \sceneDescription \markup \wordwrap-center \smallCaps { Saül }
   \pieceToc \markup { Saül : \italic { Objet d'une implacable haine } }
   \includeScore "DBAsaul"
-
+}
+\bookpart {
   \scene "Scène III"
   \sceneDescription \markup \wordwrap-center \smallCaps { 
     Saül, Davis, Jonathas, Joadab, troupes...
@@ -221,6 +229,8 @@
   \pieceToc \markup { Jonathas, Saül, David :
                       \italic { David peut-il attendre un regard favorable ? } }
   \includeScore "DCAjonathasDavidSaul"
+}
+\bookpart {
   \pieceToc \markup { Saül, David, Jonathas : \italic { Ah ! plus tôt dès ce jour vange-moi d'un perfide. } }
   \includeScore "DCBjonathasDavidSaulJoadab"
   \pieceTocTitle "Gigue"
@@ -275,7 +285,8 @@
   \includeScore "FAAouverture"
   \pieceToc \markup { Jonathas : \italic { Courez ; Saül attend un secours nécessaire. } }
   \includeScore "FABjonathas"
-
+}
+\bookpart {
   \scene "Scène II"
   \sceneDescription \markup \wordwrap-center \smallCaps {
     Saül, Jonathas, troupe de gardes.
@@ -301,7 +312,8 @@
   \includeScore "FDAdavidJonathas"
   \pieceToc \markup { David, chœur : \italic { Jamais amour plus fidèle et plus tendre } }
   \includeScore "FDBdavidChoeur"
-
+}
+\bookpart {
   \scene "Scène V"
   \sceneDescription \markup \wordwrap-center \smallCaps {
     Saül blessé entre les bras des soldats, David, troupes...
@@ -324,4 +336,4 @@
   \includeScore "FFCchoeur"
   \actEnd \markup { FIN DE LA TRAGÉDIE }
 }
-%}
+
