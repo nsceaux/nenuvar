@@ -19,25 +19,31 @@
 }
 
 \include "italiano.ly"
-#(set-global-staff-size 14)
+#(set-global-staff-size 16)
 \include "common/common.ily"
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Title page
-\markup \null
-\pageBreak
-
-%%% notes
-\markup \null
-\pageBreak
-
-%%% Table of contents
-\markuplines \table-of-contents
-\pageBreak
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \layout {
   \context { \Score \override VerticalAlignment #'max-stretch = ##f }
+  \context { \Staff \consists "Page_turn_engraver"
+             minimumPageTurnLength = #(ly:make-moment 12 1) }
 }
+\paper { #(define page-breaking ly:page-turn-breaking) }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  %% Title page
+  \markup \null
+  \pageBreak
+  
+  %% notes
+  \markup \null
+  \pageBreak
+
+  %% Table of contents
+  \markuplines \table-of-contents
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 #(define-markup-command (title-messe layout props title)
                         (string?)
@@ -82,66 +88,54 @@ pieceB =
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setOpus "Couperin/Orgue/MesseCouvents"
 
-\messe "Messe pour les convents"
+\bookpart {
+  \messe "Messe pour les convents"
 
-\partie "Kyrie"
-\includeScore "Akyrie"
-\piece "Fuge sur la trompette"
-\includeScore "Bfugue"
-\piece "Récit de cromorne"
-\includeScore "Crecit"
-\pageBreakCond #'(a4)
-\piece "Trio de deux dessus de cromorne et la basse de tierce"
-\includeScore "Dtrio"
-\pieceB "Dialogue sur la trompette du G.O. et sur la montre," "le bourdon et le nasard du positif"
-\includeScore "Edialogue"
+  \partie "Kyrie"
+  \includeScore "Akyrie"
+  \piece "Fugue sur la trompette"
+  \includeScore "Bfugue"
+  \piece "Récit de cromorne"
+  \includeScore "Crecit"
+  \piece "Trio de deux dessus de cromorne et la basse de tierce"
+  \includeScore "Dtrio"
+  \pieceB "Dialogue sur la trompette du G.O. et sur la montre," "le bourdon et le nasard du positif"  \includeScore "Edialogue"
 
-\pageBreakCond #'(a4)
-\partie "Gloria"
-\includeScore "Fgloria"
-\piece "Petite fugue sur le cromorne"
-\includeScore "Gfugue"
-\pageBreakCond #'(a4)
-\piece "Duo sur les tierces"
-\includeScore "Hduo"
-\pageBreakCond #'(a4)
-\piece "Basse de trompette"
-\includeScore "Itrompette"
-\piece "Cromorne en taille"
-\includeScore "Jcromorne"
-\pageBreakCond #'(a4)
-\piece "Dialogue sur la voix humaine"
-\includeScore "Kdialogue"
-\pageBreakCond #'(a4)
-\pieceB "Dialogue sur les tierces" "et la basse sur la trompette"
-\includeScore "Ldialogue"
-\pageBreakCond #'(a4)
-\piece "Récit de tierce"
-\includeScore "Mrecit"
-\pageBreakCond #'(a4)
-\piece "Dialogue sur les grands jeux"
-\includeScore "Ndialogue"
+  \partie "Gloria"
+  \includeScore "Fgloria"
+  \piece "Petite fugue sur le cromorne"
+  \includeScore "Gfugue"
+  \piece "Duo sur les tierces"
+  \includeScore "Hduo"
+  \piece "Basse de trompette"
+  \includeScore "Itrompette"
+  \piece "Cromorne en taille"
+  \includeScore "Jcromorne"
+  \piece "Dialogue sur la voix humaine"
+  \includeScore "Kdialogue"
+  \pieceB "Dialogue sur les tierces" "et la basse sur la trompette"
+  \includeScore "Ldialogue"
+  \piece "Récit de tierce"
+  \includeScore "Mrecit"
+  \piece "Dialogue sur les grands jeux"
+  \includeScore "Ndialogue"
 
-\pageBreakCond #'(a4)
-\partie "Offertoire"
-\includeScore "Ooffertoire"
+  \partie "Offertoire"
+  \includeScore "Ooffertoire"
 
-\pageBreakCond #'(a4)
-\partie "Sanctus"
-\includeScore "Psanctus"
-\piece "Récit de cornet"
-\includeScore "Qrecit"
+  \partie "Sanctus"
+  \includeScore "Psanctus"
+  \piece "Récit de cornet"
+  \includeScore "Qrecit"
 
-\pageBreakCond #'(a4)
-\partie "Élévation"
-\includeScore "Relevation"
+  \partie "Élévation"
+  \includeScore "Relevation"
 
-\partie "Agnus Dei"
-\includeScore "SagnusDei"
-\pageBreakCond #'(a4)
-\piece "Dialogue sur les grands jeux"
-\includeScore "Tdialogue"
+  \partie "Agnus Dei"
+  \includeScore "SagnusDei"
+  \piece "Dialogue sur les grands jeux"
+  \includeScore "Tdialogue"
 
-\partie "Deo Gratias"
-\includeScore "UdeoGratias"
-
+  \partie "Deo Gratias"
+  \includeScore "UdeoGratias"
+}
