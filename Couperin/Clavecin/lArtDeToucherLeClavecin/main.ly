@@ -32,6 +32,7 @@
 }
 
 \paper {
+  #(define page-breaking ly:minimal-breaking)
   tocChapterMarkup = \markup \fill-line {
     \line-width-ratio #0.7 \fill-line {
       \line { \fromproperty #'toc:text }
@@ -58,7 +59,7 @@ chapter =
 #(define-music-function (parser location title) (string?)
   (add-page-break parser)
   (add-toc-item parser 'tocChapterMarkup title)
-  (add-even-page-header-text parser (string-upper-case (*current-opus-title*)) #f)
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
   (add-odd-page-header-text parser (string-upper-case title) #f)
   (add-toplevel-markup parser (markup #:chapter (string-upper-case title)))
   (add-no-page-break parser)
@@ -69,13 +70,14 @@ chapterB =
 #(define-music-function (parser location toc-title title) (string? markup?)
   (add-page-break parser)
   (add-toc-item parser 'tocChapterMarkup toc-title)
-  (add-even-page-header-text parser (string-upper-case (*current-opus-title*)) #f)
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
   (add-odd-page-header-text parser (string-upper-case toc-title) #f)
   (add-toplevel-markup parser (markup #:chapter title))
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bookpart {
 %%% Title page
 \markup \null
 \pageBreak
@@ -86,7 +88,7 @@ chapterB =
 
 %%% Table of contents
 \markuplines \table-of-contents
-\pageBreak
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include "Couperin/Clavecin/lArtDeToucherLeClavecin/preface.ily"

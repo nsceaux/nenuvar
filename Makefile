@@ -64,7 +64,7 @@ define DELIVER_MIDI_ARCHIVE
 		$(OUTPUT_DIR)/$(notdir $(1)).midi \
 		$(OUTPUT_DIR)/$(notdir $(1))-?.midi \
 		$(OUTPUT_DIR)/$(notdir $(1))-??.midi ;\
-	elif [ -e $(OUTPUT_DIR)/$(notdir $(1))-?.midi ]; then \
+	elif [ -e $(OUTPUT_DIR)/$(notdir $(1))-2.midi ]; then \
 	  tar zcf $(call DELIVERY_FILE,$(1))-midi.tar.gz \
 		$(OUTPUT_DIR)/$(notdir $(1)).midi \
 		$(OUTPUT_DIR)/$(notdir $(1))-?.midi ;\
