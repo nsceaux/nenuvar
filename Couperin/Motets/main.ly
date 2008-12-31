@@ -34,22 +34,10 @@
 \setCategory "Couperin/Motets"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Title page
-\markup \null
-\pageBreak
 
-%%% notes
-\markup \null
-\pageBreak
+\paper { #(define page-breaking ly:optimal-breaking) }
 
-%%% Table of contents
-\markuplines \table-of-contents
-\pageBreak
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\layout {
-  \context { \Score \override VerticalAlignment #'max-stretch = ##f }
-}
+\layout { \context { \Score \override VerticalAlignment #'max-stretch = ##f } }
 
 #(define-markup-command (title-motet layout props title subtitle)
                         (string? string?)
@@ -62,102 +50,136 @@
 
 motet =
 #(define-music-function (parser location name title subtitle) (string? string? string?)
-  (*current-opus* name)
+  (*opus* name)
   (add-page-break parser)
   (add-toc-item parser 'tocPieceMarkup title)
-  (add-even-page-header-text parser (string-upper-case (*current-opus-title*)) #f)
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
   (add-odd-page-header-text parser (string-upper-case title) #f)
   (add-toplevel-markup parser (markup #:title-motet title subtitle))
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  %% Title page
+  \markup \null
+  \pageBreak
+
+  %% notes
+  \markup \null
+  \pageBreak
+
+  %% Table of contents
+  \markuplines \table-of-contents
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%
-\motet "AspiratioMentisAdDeum"
-"Aspiratio mentis ad Deum" "Haute-contre, taille, basse continue"
-\includeScore "A"
-\includeScore "B"
-\includeScore "C"
-\includeScore "D"
-\includeScore "E"
-\includeScore "F"
+\bookpart {
+  \motet "AspiratioMentisAdDeum"
+  "Aspiratio mentis ad Deum" "Haute-contre, taille, basse continue"
+  \includeScore "A"
+  \includeScore "B"
+  \includeScore "C"
+  \includeScore "D"
+  \includeScore "E"
+  \includeScore "F"
+}
 
 %%%
-\motet "DialogusInterJesumEtHominem"
-"Dialogus inter Jesum et hominem" "Haute-contre, basse, basse continue"
-\includeScore "A"
-\includeScore "B"
-\includeScore "C"
-\includeScore "D"
-\includeScore "E"
+\bookpart {
+  \motet "DialogusInterJesumEtHominem"
+  "Dialogus inter Jesum et hominem" "Haute-contre, basse, basse continue"
+  \includeScore "A"
+  \includeScore "B"
+  \includeScore "C"
+  \includeScore "D"
+  \includeScore "E"
+}
 
 %%%
-\motet "SalveRegina"
-"Salve Regine" "Haute-contre, basse continue"
-\includeScore "A"
-\includeScore "B"
-\includeScore "C"
-\includeScore "D"
+\bookpart {
+  \motet "SalveRegina"
+  "Salve Regine" "Haute-contre, basse continue"
+  \includeScore "A"
+  \includeScore "B"
+  \includeScore "C"
+  \includeScore "D"
+}
 
 %%%
-\motet "SalvumMeFacDeus"
-"Salvum me fac Deus" "Basse, basse continue et symphonie"
-\includeScore "A"
-\includeScore "B"
-\includeScore "C"
-\includeScore "D"
-\includeScore "E"
-\includeScore "F"
-\includeScore "G"
-\includeScore "H"
-\includeScore "I"
-\includeScore "J"
+\bookpart {
+  \motet "SalvumMeFacDeus"
+  "Salvum me fac Deus" "Basse, basse continue et symphonie"
+  \includeScore "A"
+  \includeScore "B"
+  \includeScore "C"
+  \includeScore "D"
+  \includeScore "E"
+  \includeScore "F"
+  \includeScore "G"
+  \includeScore "H"
+  \includeScore "I"
+  \includeScore "J"
+}
 
 %%%
-\motet "PrecatioAdDeum"
-"Precatio ad Deum" "Deux basse-tailles, basse, basse continue"
-\includeScore "A"
-\includeScore "B"
-\includeScore "C"
-\includeScore "D"
-\includeScore "E"
+\bookpart {
+  \motet "PrecatioAdDeum"
+  "Precatio ad Deum" "Deux basse-tailles, basse, basse continue"
+  \includeScore "A"
+  \includeScore "B"
+  \includeScore "C"
+  \includeScore "D"
+  \includeScore "E"
+}
 
 %%%
-\motet "UsquequoDomine"
-"Usquequo Domine" "Haute-contre, basse continue"
-\includeScore "A"
-\includeScore "B"
+\bookpart {
+  \motet "UsquequoDomine"
+  "Usquequo Domine" "Haute-contre, basse continue"
+  \includeScore "A"
+  \includeScore "B"
+}
 
 %%%
-\motet "Magnificat"
-"Magnificat" "Deux dessus, basse continue"
-\includeScore "A"
-\includeScore "B"
-\includeScore "C"
-\includeScore "D"
-\includeScore "E"
+\bookpart {
+  \motet "Magnificat"
+  "Magnificat" "Deux dessus, basse continue"
+  \includeScore "A"
+  \includeScore "B"
+  \includeScore "C"
+  \includeScore "D"
+  \includeScore "E"
+}
 
 %%%
-\motet "AdTeLevaviOculosMeos"
-"Ad te levavi oculos meos" "Basse, basse continue et deux dessus"
-\includeScore "A"
-\includeScore "B"
-\includeScore "C"
+\bookpart {
+  \motet "AdTeLevaviOculosMeos"
+  "Ad te levavi oculos meos" "Basse, basse continue et deux dessus"
+  \includeScore "A"
+  \includeScore "B"
+  \includeScore "C"
+}
 
 %%%
-\motet "ElevationOMisteriumIneffabile"
-"O misterium ineffabile" "Dessus, basse, basse continue"
-\includeScore "A"
-\includeScore "B"
-\includeScore "C"
-\includeScore "D"
+\bookpart {
+  \motet "ElevationOMisteriumIneffabile"
+  "O misterium ineffabile" "Dessus, basse, basse continue"
+  \includeScore "A"
+  \includeScore "B"
+  \includeScore "C"
+  \includeScore "D"
+}
 
 %%%
-\motet "ElevationOAmor"
-"O Amor" "Haute-contre, taille, basse, basse continue"
-\includeScore "A"
-\includeScore "B"
-\includeScore "C"
-\includeScore "D"
-\includeScore "E"
+\bookpart {
+  \motet "ElevationOAmor"
+  "O Amor" "Haute-contre, taille, basse, basse continue"
+  \includeScore "A"
+  \includeScore "B"
+  \includeScore "C"
+  \includeScore "D"
+  \includeScore "E"
+}

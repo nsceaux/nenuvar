@@ -5,7 +5,7 @@ LILYPOND_CMD=lilypond -ddelete-intermediate-files
 
 REHEARSAL_FLAG=-d use-rehearsal-numbers
 LETTER_FLAG=-d letter
-HARDCOVER_BOOK_FLAG=-d hardcover
+#HARDCOVER_BOOK_FLAG=-d hardcover
 
 SCORES=
 
@@ -87,7 +87,6 @@ endef
 define MAKE_ALL_SCORE_RULES
 $(eval $(call MAKE_SCORE_RULE,$(1),,))
 $(eval $(call MAKE_SCORE_RULE,$(1),-letter,$(LETTER_FLAG)))
-#$(eval $(call MAKE_SCORE_RULE,$(1),-hardcover,$(HARDCOVER_BOOK_FLAG)))
 $(eval $(call MAKE_SCORE_RULE,$(1),-rehearsal,$(REHEARSAL_FLAG)))
 $(foreach part,$(2),$(eval $(call MAKE_PART_RULE,$(1),$(part))))
 $(foreach part,$(4),$(eval $(call MAKE_PART_RULE_AUX,$(1),$(part),$(3))))
@@ -124,7 +123,6 @@ help:
 	@echo "  <score>           Build a A4 PDF score"
 	@echo "  <score>-rehearsal Build a A4 PDF score with rehearsal numbers"
 	@echo "  <score>-letter    Build a Letter PDF score"
-	@echo "  <score>-hardcover Build a hardcover sized PDF score"
 	@echo "  <score>-<part>    Build a PDF part score"
 	@echo "  <score>-delivery  Make archives and move PDF to delivery directory"
 	@echo "  <score>-all       Build all PDF formats and make delivery"
