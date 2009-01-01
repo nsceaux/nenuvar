@@ -18,3 +18,27 @@ sagesseSuiteMark =
 gloireSuiteMark =
 #(define-music-function (parser location) ()
   (make-character-mark "" "Suite de la Gloire"))
+%%
+pheniceMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Phénice"))
+
+sidonieMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Sidonie"))
+
+armideMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Armide"))
+
+pheniceMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Phénice"))
+
+sidonieMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Sidonie"))
+
+armideMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Armide"))

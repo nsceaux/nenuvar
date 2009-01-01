@@ -81,3 +81,14 @@
   \includeScore "AAKchoeur"
   \actEnd \markup { FIN DU PROLOGUE }
 }
+
+%%% Acte I
+\bookpart {
+  \act "Acte Premier"
+  \scene "Scène Première"
+  \sceneDescription \markup \smallCaps { Armide, Phénice, Sidonie }
+  \pieceToc \markup { Armide, Phénice, Sidonie }
+  \includeScore "BAAarmidePheniceSidonie"
+  %%
+  
+}
