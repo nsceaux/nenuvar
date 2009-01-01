@@ -1,0 +1,5 @@
+\includeNotes "dessus-a" \bar "dashed"
+\includeNotes "dessus-b2" \bar "dashed"
+\includeNotes "dessus-c" \bar "dashed"
+\includeNotes "dessus-d2" \bar "dashed"
+\includeNotes "dessus-e"

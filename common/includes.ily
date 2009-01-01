@@ -314,11 +314,11 @@ opusPartSpecs =
      (*opus-part-specs* full-opus-specs))
    (let* ((name (ly:get-option 'part))
           (spec (assoc name (*opus-part-specs*))))
-     (if spec
-         (begin
-           (*part* name)
-           (*part-name* (cadr spec)))
-         (ly:warning "No `~a' part defined for this opus" name)))
+     (cond (spec
+            (*part* name)
+            (*part-name* (cadr spec)))
+           (name
+            (ly:warning "No `~a' part defined for this opus" name))))
    (make-music 'Music 'void #t))
 
 %%%
