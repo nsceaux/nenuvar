@@ -18,4 +18,4 @@ si,4 mi4 la4. la8 |
 la4. la8 sol4. sol8 |
 fa4. fa8 fa8 mi8 fa8 re8 |
 mi4 la,4 mi,2 |
-la,2 la,8 si,8 | \custosNote do4
+la,2 la,8 si,8 | \custosNote do4 \bar ""

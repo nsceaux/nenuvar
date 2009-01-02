@@ -42,3 +42,15 @@ sidonieMark =
 armideMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Armide"))
+
+hidraotMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Hidraot"))
+
+hidraotMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Hidraot"))
+
+aronteMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Aronte"))

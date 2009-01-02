@@ -144,11 +144,11 @@
       name
       ".ily")))
 
-#(define-public (include-score parser name)
+#(define*-public (include-score parser name #:optional label)
    (add-music parser
               (make-music 'Music
                           'page-marker #t
-                          'page-label (string->symbol name)))
+                          'page-label (string->symbol (or label name))))
    (parameterize ((*piece* name))
      (ly:parser-parse-string
       (ly:parser-clone parser)
@@ -172,14 +172,15 @@
 #(define *figures* (make-parameter #f))
 #(define *clef* (make-parameter #f))
 
-#(define-public (include-part-score parser
+#(define*-public (include-part-score parser
                                     name
                                     score-filename
-                                    from-templates)
+                                    from-templates
+                                    #:optional label)
    (add-music parser
               (make-music 'Music
                           'page-marker #t
-                          'page-label (string->symbol name)))
+                          'page-label (string->symbol (or label name))))
    (parameterize ((*piece* name))
      (ly:parser-parse-string
       (ly:parser-clone parser)
@@ -412,4 +413,36 @@ includeScore =
                                    (assoc-ref piece 'from-templates)))))
          ;; conductor score
          (include-score parser name)))
+   (make-music 'Music 'void #t))
+
+reIncludeScore =
+#(define-music-function (parser location name label) (string? string?)
+   (parameterize ((*piece* name))
+     ;;(format #t "Reading ~a~%" name)
+     (if (*part*)
+         (begin ;; a part score
+           ;; Include the parts.ily file, describing
+           ;; the parts defined for this piece.
+           ;; It should contain a call to \piecePartSpec
+           ;; which set *piece-description*
+           (ly:parser-parse-string (ly:parser-clone parser)
+                                   (format #f "\\include \"~a\""
+                                           (include-pathname "parts")))
+           (let ((piece (*piece-description*)))
+             (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
+                            (*note-filename* (assoc-ref piece 'notes))
+                            (*instrument-name* (assoc-ref piece 'instrument))
+                            (*score-indent* (assoc-ref piece 'indent))
+                            (*tag-global* (assoc-ref piece 'tag-global))
+                            (*tag-notes* (assoc-ref piece 'tag-notes))
+                            (*figures* (assoc-ref piece 'figures))
+                            (*clef* (or (assoc-ref piece 'clef) (*clef*) "treble"))
+                            (*score-extra-music* (assoc-ref piece 'music)))
+               (include-part-score parser
+                                   name
+                                   (assoc-ref piece 'score)
+                                   (assoc-ref piece 'from-templates)
+                                   label))))
+         ;; conductor score
+         (include-score parser name label)))
    (make-music 'Music 'void #t))
