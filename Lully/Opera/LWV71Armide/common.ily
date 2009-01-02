@@ -54,3 +54,15 @@ hidraotMarkNoClef =
 aronteMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Aronte"))
+%%
+renaudMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Renaud"))
+
+artemidoreMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vtaille" "Artémidore"))
+
+choeurBergersMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Chœur de bergers et bergères héroïques"))

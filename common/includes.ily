@@ -233,6 +233,7 @@ The keyword arguments give default values to be used when non-specified in `piec
         (tag-global tag-global)
         (tag-notes tag-notes)
         (notes notes)
+        (clef clef)
         (instrument #f)
         (music #f))
     (if clef (*clef* clef)) ;; hack: set *clef* for silence scores
@@ -241,6 +242,7 @@ The keyword arguments give default values to be used when non-specified in `piec
           (begin
             (case (car props)
               ((#:notes) (set! notes (cadr props)))
+              ((#:clef) (set! clef (cadr props)))
               ((#:ragged) (set! ragged (cadr props)))
               ((#:indent) (set! indent (cadr props)))
               ((#:tag-global) (set! tag-global (cadr props)))
