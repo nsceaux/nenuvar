@@ -77,3 +77,27 @@ haineMark =
 haineMarkNoClef =
 #(define-music-function (parser location) ()
   (make-character-mark "" "La Haine"))
+%%
+chevalierMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Le Chevalier"))
+
+chevalierMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Le Chevalier"))
+
+ubaldeMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Ubalde"))
+
+ubaldeMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Ubalde"))
+
+lucindeMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Lucinde"))
+
+lucindeMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Lucinde"))
