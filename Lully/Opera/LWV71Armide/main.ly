@@ -158,6 +158,7 @@
   \scene "Scène III"
   \sceneDescription \markup { \smallCaps Renaud, seul. }
   \pieceToc \markup { Renaud : \italic { Plus j'observe ces lieux, et plus je les admire. } }
+  \includeScore "CCArenaud"
 
   \scene "Scène IV"
   \sceneDescription \markup \column {
@@ -179,7 +180,7 @@
   \markup \title \wordwrap-center {
     On reprend le second air page \page-refIII #'CDDair ,
     et le premier air page \page-refIII #'CDCair " ;"
-    puis la bergère chante ce qui suit sur la finale de l'air.
+    puis on enchaîne ce qui suit sur la finale de l'air.
   }
   \includeScore "CDFbergere"
   \includeScore "CDGchoeur"
@@ -193,4 +194,50 @@
   \pieceTocTitle "Entr'acte"
   \reIncludeScore "AADentree" "CEBentract"
   \actEnd \markup { FIN DU SECOND ACTE }
+}
+
+%%% Acte III
+\bookpart {
+  \act "Acte Troisième"
+  \scene "Scène Première"
+  \sceneDescription \markup \column {
+    \fill-line { \line { Le théâtre change et représente un désert. } }
+    \fill-line { \line { \smallCaps Armide, seule. } }
+  }
+  \pieceToc \markup { Armide : \italic { Ah, si la liberté doit m'être ravie. } }
+  \includeScore "DAAarmide"
+
+  \scene "Scène II"
+  \sceneDescription \markup \smallCaps { Armide, Phenice, Sidonie }
+  \pieceToc \markup { Armide, Phénice, Sidonie : \italic { Que ne peut point votre art } }
+  \includeScore "DBAarmidePheniceSidonie"
+
+  \scene "Scène III"
+  \sceneDescription \markup { \smallCaps Armide, seule. }
+  \pieceToc \markup { Armide : \italic { Venez, Haine implacable. } }
+  \includeScore "DCAarmide"
+
+  \scene "Scène IV"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps Armide, \smallCaps { La Haine, } Suite de la Haine.
+  }
+  \pieceToc \markup {
+    La Haine, chœur :
+    \italic { Plus on connait l'Amour et plus on le déteste. } }
+  \includeScore "DDAhaine"
+  \pieceToc \markup Ritournelle
+  \includeScore "DDBritournelle"
+  \pieceToc \markup {
+    La Haine, chœur :
+    \italic { Amour, sors pour jamais d'un cœur qui te chasse. } }
+  \includeScore "DDChaine"
+  \pieceTocTitle "Air"
+  \includeScore "DDDair"
+  \pieceToc \markup {
+    La Haine, Armide :
+    \italic { Sort du sein d'Armide, Amour, brise ta chaîne } }
+  \includeScore "DDEarmideHaine"
+  \pieceTocTitle "Entr'acte"
+  \reIncludeScore "DDDair" "DDFair"
+  \actEnd \markup { FIN DU TROISIÈME ACTE }
 }

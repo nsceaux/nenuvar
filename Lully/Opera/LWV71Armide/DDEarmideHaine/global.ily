@@ -1,0 +1,10 @@
+\oldKey la \minor
+\newKey re \minor
+\midiTempo #100 \time 4/4 s1*9
+\time 3/4 s2.
+\time 4/4 s1*9
+\time 3/4 s2.*2
+\time 4/4 s1*3
+\time 3/4 s2.
+\time 4/4 s1*11
+\time 6/4 s2. s2 \bar "|."

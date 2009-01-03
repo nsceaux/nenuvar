@@ -1,3 +1,6 @@
+#(set-cdr! (assoc 'haute-contre french-clefs)
+          '(soprano . alto))
+
 %%%
 gloireMark =
 #(define-music-function (parser location) ()
@@ -33,11 +36,11 @@ armideMarkNoClef =
 
 pheniceMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Phénice"))
+  (make-character-mark "vdessus" "Phénice"))
 
 sidonieMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Sidonie"))
+  (make-character-mark "vdessus" "Sidonie"))
 
 armideMark =
 #(define-music-function (parser location) ()
@@ -66,3 +69,11 @@ artemidoreMark =
 choeurBergersMark =
 #(define-music-function (parser location) ()
   (make-character-mark "" "Chœur de bergers et bergères héroïques"))
+%%
+haineMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vtaille" "La Haine"))
+
+haineMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "La Haine"))
