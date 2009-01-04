@@ -9,3 +9,4 @@ mi'8 mi'8 fa'8 dod'8 re'8 sol8 sol8 sol16 [ la16 ]|
 si8 sol8 sol8 sol16 do'16 si8 do'8 si8. do'16 |
 do'2 r1 |
 R1.*6 |
+R2.*64 R1 R2.*4 R1 R2.*30 R1*6

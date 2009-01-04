@@ -13,11 +13,14 @@
       \global \clef "vbasse" \includeNotes "voix-basse"
     >> \includeLyrics "paroles-choeur"
     \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "lucinde2"
-    >> \includeLyrics "paroles-lucinde2"
-    \newHaraKiriStaff \withLyrics <<
-      \global \includeNotes "lucinde-ubalde-chevalier"
-    >> \includeLyrics "paroles"
+      \global \clef "vdessus" \includeNotes "lucinde"
+    >> \includeLyrics "paroles-lucinde"
+    \newHaraKiriStaffB \withLyrics <<
+      \global \clef "vhaute-contre" \includeNotes "chevalier"
+    >> \includeLyrics "paroles-chevalier"
+    \newHaraKiriStaffB \withLyrics <<
+      \global \clef "vbasse" \includeNotes "ubalde"
+    >> \includeLyrics "paroles-ubalde"
   >>
   \layout { }
 }

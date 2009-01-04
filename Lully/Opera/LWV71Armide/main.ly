@@ -267,7 +267,17 @@
   \pieceTocTitle "Canaries"
   \includeScore "EBCcanaries"
   \pieceToc \markup { Lucinde, le Chevalier danois, Ubalde }
-  \includeScore "EBDcanaries"
+  \includeScore "EBDlucindeChevalierUbalde"
 
   \scene "Scène III"
+  \sceneDescription \markup \smallCaps { Ubalde, Le Chevalier Danois }
+  \pieceToc \markup { Le Chevalier danois, Ubalde }
+  \includeScore "ECAchevalierUbalde"
+
+  \scene "Scène IV"
+  \sceneDescription \markup { \smallCaps Mélisse, \smallCaps Ubalde,
+                              et \smallCaps { Le Chevalier Danois } }
+  \pieceToc \markup { Mélisse, Ubalde, le Chevalier danois }
+  \includeScore "EDAmelisseChevalierUbalde"
+  \reIncludeScore "EABair" "EDBentracte"
 }

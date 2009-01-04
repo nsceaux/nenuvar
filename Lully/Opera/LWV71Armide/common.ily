@@ -101,3 +101,11 @@ lucindeMark =
 lucindeMarkNoClef =
 #(define-music-function (parser location) ()
   (make-character-mark "" "Lucinde"))
+
+melisseMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Mélisse"))
+
+melisseMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Mélisse"))

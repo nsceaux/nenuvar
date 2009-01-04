@@ -1,7 +1,7 @@
 \ubaldeMark r4 r8 r16 do'16 sol2 |
 mi8 mi16 mi16 fa8 la8 re4 re8 r16 re'16 |
 si4. re'8 sol8 sol8 sol8 fad8 |
-sol4 \chevalierMark r8 r16 sol'16 re'4 re'8 mi'8 |
+sol2*1/2 \chevalierMark r8 r16 sol'16 re'4 re'8 mi'8 |
 do'4 do'8 re'8 si4 si8 mi'8 |
 do'8 do'8 r8 do'16 fa'16 re'8. sol'16 |
 mi'4 \lucindeMark r8 sol''8 mi''8 mi''8 re''8 mi''8 |
@@ -23,7 +23,7 @@ sol'2 si'4 do''4. do''8 re''8 mi''8 |
 la'4 fa''4 re''4 mi''4 re''4. do''8 |
 do''2 r4 |
 R2.*2 |
-r4 r4 \lucindeMarkNoClef mi''4 |
+r2 \lucindeMarkNoClef mi''4 |
 do''4. do''8 do''8 mi'8 |
 fa'4 mi'4 la'4 |
 la'4 si'4. do''8 |
@@ -83,7 +83,7 @@ sold'2 si'8 mi''8 |
 dod''4 dod''8 dod''8 re''8 mi''8 |
 fa''4 fa''4 re''8 si'8 |
 mi''8 sold'8 la'4 la'8 sold'8 |
-la'4 \ubaldeMark r8 r16 do'16 la8. re'16 |
+la'2*1/2 \ubaldeMark r8 r16 do'16 la8. re'16 |
 si4 si8 do'8 fad4 fad8 sol8 |
 mi4 mi4 \chevalierMark r8 mi'8 |
 do'8 do'8 do'8 sib8 sib8. la16 |
@@ -120,7 +120,7 @@ fa'4 fa'4 re'4 |
 si4 mi'4. mi'8 |
 mi'8. [ re'16 ] re'4 si4 |
 do'4 si4. la8 |
-la4 \ubaldeMark r8 do'8 la4 fa8 la8 |
+la2*1/2 \ubaldeMark r8 do'8 la4 fa8 la8 |
 re4 re8 sol8 do4 do8 do'8 |
 la8 re'8 si8 do'8 la8. la16 la8 si8 |
 sol2 r8 si8 do'8. do'16 |
