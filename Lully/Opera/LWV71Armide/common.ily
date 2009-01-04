@@ -62,6 +62,10 @@ renaudMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Renaud"))
 
+renaudMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Renaud"))
+
 artemidoreMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vtaille" "Artémidore"))
@@ -109,3 +113,7 @@ melisseMark =
 melisseMarkNoClef =
 #(define-music-function (parser location) ()
   (make-character-mark "" "Mélisse"))
+%%
+amantMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Un Amant fortuné"))

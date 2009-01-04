@@ -1,0 +1,10 @@
+\includeNotes "taille-a"
+\includeNotes "taille-b"
+\includeNotes "taille-c"
+\includeNotes "taille-d"
+\includeNotes "taille-e"
+\includeNotes "taille-f"
+\includeNotes "taille-g"
+\includeNotes "taille-h"
+\includeNotes "taille-i"
+

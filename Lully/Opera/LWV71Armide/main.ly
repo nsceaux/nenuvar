@@ -280,4 +280,37 @@
   \pieceToc \markup { Mélisse, Ubalde, le Chevalier danois }
   \includeScore "EDAmelisseChevalierUbalde"
   \reIncludeScore "EABair" "EDBentracte"
+  \actEnd \markup { FIN DU QUATRIÈME ACTE }
+}
+
+%%% Acte V
+\bookpart {
+  \act "Acte Cinquième"
+  \sceneDescription \markup \wordwrap-center {
+    Le théâtre change et représente le palais enchanté d'Armide.
+  }
+  \scene "Scène Première"
+  \sceneDescription \markup \smallCaps { Renaud, Armide. }
+  \pieceToc \markup { Armide, Renaud }
+  \includeScore "FAAarmideRenaud"
+
+  \scene "Scène II"
+  \pieceTocTitle "Passacaille"
+  \includeScore "FBApassacaille"
+  \pieceToc \markup {
+    Un amant fortuné, chœur :
+    \italic { Les plaisirs ont choisi pour asile ce séjour agréable et tranquille }
+  }
+  \includeScore "FBBamant"
+  \markup \title \wordwrap-center {
+    On reprend le premier récit et le premier couplet du chœur
+    de la passacaille page \page-refIII #'FBBamant " "
+    jusqu'au mot \italic fin. Puis on joue la passacaille de violons 
+    page \page-refIII #'FBApassacaille "000" ,
+    et on reprend encore le premier récit et le premier couplet du chœur.
+  }
+  \pieceToc \markup { Renaud : \italic { Allez, éloignez-vous de moi doux plaisirs. } }
+  \includeScore "FBCrenaud"
+
+  \scene "Scène III"
 }
