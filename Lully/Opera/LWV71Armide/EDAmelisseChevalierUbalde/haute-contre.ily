@@ -1,4 +1,4 @@
-s4 R2.*43 R1 R2.*50 |
+r4 R2.*43 R1 R2.*50 |
 r2 r8 sol'8 sol'8 sol'8 |
 la'8 do''8 do''8 do''8 do''8 re''8 do''4 |
 do''4. do''16 re''16 mi''4. \smallNotes { mi'16 fa'16 sol'16 }|
@@ -9,4 +9,4 @@ si'8 la'8 la'8. la'16 sol'8 sol'8 mi'8. mi'16 |
 la'8 la'8 fa'8. fa'16 fa'8 sol'8 sol'8. sol'16 |
 sol'4. sol'8 la'8 la'8 sol'8. sol'16 |
 mi'1 |
-R1*31 R1*6 R1*7 R2.*10 
+R1*31 R1*6 R1*7 R2.*10 r2

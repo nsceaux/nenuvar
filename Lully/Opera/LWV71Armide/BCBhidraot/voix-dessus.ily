@@ -1,4 +1,4 @@
-%{r4%} s4 R2.*55 |
+r4 R2.*55 |
 r2 re''4 |
 mi''4 mi''4 do''4 |
 la'4 la'4 si'4 |
@@ -22,7 +22,7 @@ la'4 do''4 fa''4 |
 mi''4 re''4. do''8 |
 do''2. |
 R2.*13 |
-r4 r4 re''4 |
+r2 re''4 |
 mi''4 mi''4 fa''4 |
 re''4 re''4 mi''4 |
 dod''4 dod''4 mi''8 fa''8 |

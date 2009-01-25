@@ -1,4 +1,4 @@
-s1 R1.*6 |
+r1 R1.*6 |
 r2 do'4 la4 si4 do'4 |
 fa4 re4 sol4 do2 do4 |
 fa4 fa8 fa8 fa8 mi8 re2 do4 |

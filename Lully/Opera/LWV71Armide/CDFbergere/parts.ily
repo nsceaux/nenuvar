@@ -4,5 +4,5 @@
                    (taille)
                    (quinte)
                    (basse)
-                   (voix))
+                   (voix)
                    (basse-continue))

@@ -46,5 +46,5 @@ fad'2 \gloireMark re''4 |
 si'2 si'4 |
 mi''4. mi''8 fad''4 |
 sol''4 fad''4. sol''8 |
-sol''2 %{r4%} s4 |
+sol''2 r4 |
 R2.*51 |

@@ -1,4 +1,4 @@
-sib''8_"sourdines" la''8 si''8 la''8 sol''8 fad''8 |
+sib''8_"sourdines" la''8 sib''8 la''8 sol''8 fad''8 |
 sol''8 la''8 sol''8 fad''8 sol''8 la''8 |
 fad''4. fad''8 sol''8 la''8 |
 re''8. re''16 si'8. si'16 do''8 re''8 |

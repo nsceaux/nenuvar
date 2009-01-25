@@ -42,4 +42,4 @@ do''8 fa''8 fa''8 fa''16 mib''16 re''8 re''16 mib''16 fa''8 re''8 |
 sib'8 do''8 do''8 do''16 sib'16 la'8 la'8 la'8 la'16 si'16 |
 do''4 do''8. do''16 do''8 re''8 do''8. sib'16 |
 sib'2 r2 |
-R1*3 R1*5 R2.*2 R1 R2.*7 R1*20 R2. R1 R1 R1*2 R2. R1 R2. R1*3 R1
+R1*3 R1*5 R2.*2 R1 R2.*7 R1*20 R2. R1 R1 R1*2 R2. R1 R2. R1*3 R1 r2

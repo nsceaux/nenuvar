@@ -9,3 +9,4 @@ dod''8 dod''8 re''8 mi''8 fa''8 mi''8 re''8 do''8 |
 re''8 si'8 sol''8 sol''16 sol''16 fa''8 mi''8 re''8. do''16 |
 do''2 r1 |
 R1.*6 |
+R2.*64 R1 R2.*4 R1 R2.*30 R1*6 r4

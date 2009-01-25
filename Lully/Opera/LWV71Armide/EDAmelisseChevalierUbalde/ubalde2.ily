@@ -1,4 +1,4 @@
-s4 | R2.*23 |
+r4 | R2.*23 |
 r2 \ubaldeMarkNoClef do'8 do'8 |
 si4 si4 dod'4 |
 re'8. la16 la8 la8 si8 do'8 |

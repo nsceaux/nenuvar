@@ -1,4 +1,4 @@
-s2 R2.*15 r4
+r2 R2.*15 r4
 sol4 sol4 |
 fa4 fa4. fa8 |
 mib4 mib4. mib8 |

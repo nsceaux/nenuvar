@@ -27,4 +27,4 @@ si2 r8 sol8 mi8 mi8 |
 la2 r8 fa16 mi16 re8 re16 mi16 |
 do4. r16 do'16 la8. la16 sib8 do'8 |
 re'4 r8 re'16 do'16 sib8 sib16 la16 sol8 sol16 la16 |
-fa2 s2 R1*19 s2
+fa2 r2 R1*19 r2

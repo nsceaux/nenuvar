@@ -1,5 +1,5 @@
 R2.*49 |
-%{r2%} s2 sol'4 |
+r2 sol'4 |
 mi'2 mi'4 |
 fa'4 fa'4 re'4 |
 la'4 la'4 fa'4 |

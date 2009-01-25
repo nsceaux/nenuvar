@@ -1,5 +1,5 @@
 R1*17 R2. R1 R1*22 |
-s2 fa'8 fa'16 fa'16 fa'8 fa'8 |
+r2 fa'8 fa'16 fa'16 fa'8 fa'8 |
 mi'4. mi'8 fa'8 fa'8 fa'8 re'8 |
 do'4 do'8 do'16 do'16 re'8 re'16 re'16 mi'8 fa'8 mi'4 mi'4 r8 mi'8 fa'8 fa'8 |
 re'2 r8 fa'16 fa'16 fa'8 fa'16 mi'16 |

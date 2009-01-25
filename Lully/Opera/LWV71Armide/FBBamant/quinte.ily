@@ -1,4 +1,4 @@
-s2 R2.*15 r4
+r2 R2.*15 r4
 sib4 sib4 |
 la4 la4 re'4 |
 re'4 re'4 do'4 |

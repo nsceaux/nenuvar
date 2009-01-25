@@ -130,3 +130,14 @@
   tocTitle = "TABLE DES MATIÈRES"
 }
 
+%%%
+%%% The following hack make regular rests hara-kiri-able
+%%%
+#(let* ((rest-def (assoc 'Rest all-grob-descriptions))
+        (meta-def (assoc 'meta (cdr rest-def)))
+        (interfaces-def (assoc 'interfaces (cdr meta-def)))
+        (interfaces (filter (lambda (interface)
+                              (not (eqv? interface 'rhythmic-grob-interface)))
+                            (cdr interfaces-def))))
+  (set-cdr! interfaces-def interfaces))
+

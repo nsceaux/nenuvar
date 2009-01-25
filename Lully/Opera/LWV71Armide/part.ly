@@ -17,15 +17,36 @@
   }
 }
 
+#(ly:set-option 'non-incipit #t)
+#(ly:set-option 'use-rehearsal-numbers #t)
+
 \include "italiano.ly"
-#(set-global-staff-size 14)
+#(set-global-staff-size 18)
 \include "common/common.ily"
 
 \setOpus "Lully/Opera/LWV71Armide"
 \opusTitle "Armide"
 \include "Lully/Opera/LWV71Armide/common.ily"
 
-\paper { #(define page-breaking ly:optimal-breaking) }
+\opusPartSpecs #`(
+  (dessus1 "Dessus I" () (#:notes "dessus"))
+  (dessus2 "Dessus II" () (#:notes "dessus"))
+  (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
+  (taille "Taille" () (#:notes "taille" #:clef "alto"))
+  (quinte "Quinte" () (#:notes "quinte" #:clef "alto"))
+  (basse "Basse" () (#:notes "basse" #:clef "bass"))
+  (voix "Parties vocales" () (#:score "score-voix"))
+  (basse-continue "Basse continue" ()
+   (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue")))
+
+\layout {
+  \context { \Score \override VerticalAlignment #'max-stretch = ##f }
+  \context { \Staff \consists "Page_turn_engraver" }
+}
+
+\paper { #(define page-breaking (if (eqv? (*part*) 'voix)
+                                    ly:optimal-breaking
+                                    ly:page-turn-breaking)) }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {
@@ -55,7 +76,7 @@
   \pageBreak
   \pieceToc \markup {
     La Gloire, la Sagesse, chœurs :
-    \italic { D'une égale tendresse, nous aimons le même vainqueur } }
+    \italic { D'une égale tendresse } }
   \includeScore "AACgloireSagesse"
   \pageBreak
   \pieceTocTitle "Entrée"
@@ -113,7 +134,7 @@
     Phénice, chœur :
     \italic { Suivons Armide, et chantons sa victoire. } }
   \includeScore "BCDphenice"
-  \markup \title \fill-line {
+  \markup \small-title \fill-line {
     \line { On reprend le rondeau page \page-refII #'BCCrondeau . }
   }
   \pieceTocTitle "Sarabande"
@@ -122,7 +143,7 @@
     Sidonie, chœur :
     \italic { Que la douceur d'un triomphe est extrême. } }
   \includeScore "BCFsidonie"
-  \markup \title \fill-line {
+  \markup \small-title \fill-line {
     \line { On reprend la sarabande page \page-refII #'BCEsarabande . }
   }
 
@@ -178,7 +199,7 @@
     Une bergère héroïque :
     \italic { On s'étonnerait moins que la saison nouvelle } }
   \includeScore "CDEbergere"
-  \markup \title \wordwrap-center {
+  \markup \small-title \wordwrap-center {
     On reprend le second air page \page-refIII #'CDDair ,
     et le premier air page \page-refIII #'CDCair " ;"
     puis on enchaîne ce qui suit sur la finale de l'air.
@@ -300,10 +321,10 @@
   \includeScore "FBApassacaille"
   \pieceToc \markup {
     Un amant fortuné, chœur :
-    \italic { Les plaisirs ont choisi pour asile ce séjour agréable et tranquille }
+    \italic { Les plaisirs ont choisi pour asile }
   }
   \includeScore "FBBamant"
-  \markup \title \wordwrap-center {
+  \markup \small-title \wordwrap-center {
     On reprend le premier récit et le premier couplet du chœur
     de la passacaille page \page-refIII #'FBBamant " "
     jusqu'au mot \italic fin. Puis on joue la passacaille de violons 

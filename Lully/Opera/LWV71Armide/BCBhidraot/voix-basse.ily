@@ -1,4 +1,4 @@
-%{r4%} s4 R2.*55 |
+r4 R2.*55 |
 r2 sol4 |
 do'4 do'4 mi4 |
 fa4 fa4 re4 |
@@ -22,7 +22,7 @@ fa4 mi4 re4 |
 do4 sol,4 sol,4 |
 do2. |
 R2.*13 |
-r4 r4 sol4 |
+r2 sol4 |
 do'4 do'4 la4 |
 sib4 sib4 sol4 |
 la4 la4 la8 fa8 |

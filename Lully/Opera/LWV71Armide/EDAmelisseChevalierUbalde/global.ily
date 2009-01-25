@@ -7,4 +7,4 @@
 \midiTempo #80 \time 4/4 s1*6
 \midiTempo #160 \time 2/2 s1*7
 \midiTempo #80 \time 3/4 s2.*10
-\time 6/4 
+\time 6/4 s2 \bar ""

@@ -42,4 +42,4 @@ la''16 sib''16 la''16 sib''16 do'''16 sib''16 la''16 sol''16 fa''8 sib''8 lab''8
 sol''8. lab''16 sol''16 fa''16 mib''16 re''16 do''8 fa''8 do''8 do''16 re''16 |
 mib''16 re''16 mib''16 fa''16 sol''16 la''16 sib''16 sol''16 la''8 sib''8 la''8. sib''16 |
 sib''2 r2 |
-R1*3 R1*5 R2.*2 R1 R2.*7 R1*20 R2. R1 R1 R1*2 R2. R1 R2. R1*3 R1
+R1*3 R1*5 R2.*2 R1 R2.*7 R1*20 R2. R1 R1 R1*2 R2. R1 R2. R1*3 R1 r2
