@@ -1,6 +1,6 @@
 \score {
   \new StaffGroupNoBar <<
-    \newHaraKiriStaff \withLyrics <<
+    \newTinyHaraKiriStaff \withLyrics <<
       \global \includeNotes "lucinde-ubalde-chevalier"
     >> \includeLyrics "paroles"
     \new Staff <<

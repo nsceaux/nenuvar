@@ -1,4 +1,4 @@
-R2.*82 |
+\clef "vbasse" R2.*82 |
 r4 do'4 do'4 |
 la4 la4 la4 |
 sol2 sol4 |

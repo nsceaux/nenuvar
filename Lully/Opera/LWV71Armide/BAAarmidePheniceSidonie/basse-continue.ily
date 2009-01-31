@@ -74,7 +74,7 @@ la8 sol8 fa8 mi8 re8 sol8 do8 si,8 do8 re8 mi8 do8 |
 fa4 mi8 re8 do8 sib,8 la,8 sib,8 la,8 sol,8 la,8 fa,8 |
 sib,8 do8 re8 do8 sib,8 la,8 sol,8 fa,8 do4 do,4 |
 fa,4 fa4 ( mib2 )|
-re1 |
+re1 |\allowPageTurn
 la,1 |
 sib,2. |
 do2 re8 re,8 |
@@ -97,7 +97,7 @@ sol,2 sol2 |
 re2 si,2 |
 do4 lab8 fa8 sol8 sol,8 |
 do1 ~|
-do1 |
+do1 |\allowPageTurn
 fa2 sib,2 ~|
 sib,2 si,4 |
 do2 la,4 |
@@ -113,7 +113,7 @@ fa8 mi16 re16 la8 la,8 re8. dod16 re8 mi8 |
 fa4 fa8 mi8 re8 do8 si,8 sol,8 |
 do8 do'8 do'8 sib8 la8 sol8 fa8 mib8 |
 re8. mib16 re8 do8 sib,16 la,16 sol,16 fa,16 do8 do,8 |
-fa,2. do4 |
+fa,2. do4 |\allowPageTurn
 fa4 fa8 mi8 re4 re4 |
 fa4 re4 la4 la8 sol8 |
 fa4 mi4 re2 |
@@ -136,10 +136,10 @@ fa4 fa,2 |
 sib,2 ~ sib,8 do8 |
 re2 re,2 |
 sol,2 sol2 |
-mi1 |
+mi1 |\allowPageTurn
 fa2 re4 |
 sol2 sol,2 |
-do1 ~|
+do1 ~|\allowPageTurn
 do2 do'4 ( sib4 )|
 la2 sib2 |
 sol1 ~|
@@ -148,22 +148,22 @@ re,2 re2. ~ re16 mi16 fa16 re16 |
 sol2. ~ sol16 la16 sol16 fa16 mi4 ~ mi16 re16 mi16 do16 |
 fa2. mib16 re16 do16 sib,16 la,4 ~ la,16 sol,16 la,16 fa,16 |
 sib,4 ~ sib,16 do16 re16 sib,16 do2. ~ do16 sib,16 do16 do,16 |
-fa,1 |
+fa,1 |\allowPageTurn
 fa4. fa16*2/3 mi16*2/3 re16*2/3 do4. do16*2/3 sib,16*2/3 la,16*2/3 |
 sol,4. sol16*2/3 fa16*2/3 mi16*2/3 re4. re16*2/3 do16*2/3 sib,16*2/3 |
 la,4 ~ la,8. la,16 sib,4. sib,16*2/3 la,16*2/3 sol,16*2/3 |
 fa,2 fa2 ( mib2 )|
-re1. |
+re1. |\allowPageTurn
 mib1 re2 |
 do1 |
 la,1 |
 sib,1 |
 la,2 re4 re,4 |
-sol,1 |
-do1. |
+sol,1 |\allowPageTurn
+do1. |\allowPageTurn
 fa2 re2 sol2 |
 si,2 do4 ( si,4 )|
-la,1 |
+la,1 |\allowPageTurn
 sib,2 sol,4 |
 do4 la,4 re4 |
 sib,4 sol,4 do8 do,8 |
@@ -197,4 +197,4 @@ do4 do8 sib,8 la,8 fa,8 |
 sib,8 do8 sib,8 la,8 sol,8 fa,8 |
 do4 la,4 re4 |
 sib,4 do4 do,4 |
-fa,2 ~ fa,8 fa8 mi8 re8 |
+fa,2 ~ fa,8 fa8 mi8 re8 |\noPageTurn

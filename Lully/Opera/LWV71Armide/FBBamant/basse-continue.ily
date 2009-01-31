@@ -30,7 +30,7 @@ sol,4 sol4 sol4 |
 fa4 mib4 re4 |
 do4 sib,4 la,4 |
 sol,4 re4 re,4 |
-sol,4 \clef "mezzosoprano/treble" r8 sol'8 sib'8 sol'8  |
+sol,4 \allowPageTurn \clef "mezzosoprano/treble" r8 sol'8 sib'8 sol'8  |
 re''4. mib''8 fa''8 re''8 |
 mib''4. re''8 mib''8 do''8 |
 re''4 re'2 |
@@ -158,4 +158,4 @@ sol,4 sol4 sol4 |
 fa4 re4. re8 |
 mib4. re8 do4 |
 do4 re4 re,4 |
-sol,4 
+sol,4 \noPageTurn

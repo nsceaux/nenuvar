@@ -46,7 +46,7 @@ sol,1 ~|
 sol,2. |
 sol2. |
 re2. ~|
-re1 |
+re1 |\allowPageTurn
 mib2 mi4 |
 fa2 sol2 |
 la2 sol4. fa8 |

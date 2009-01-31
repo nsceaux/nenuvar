@@ -1,4 +1,4 @@
-R1*43 R1.*3 R1*3 R1. R1*9 R1. R1*2 R2.*30 |
+\clef "vbasse" R1*43 R1.*3 R1*3 R1. R1*9 R1. R1*2 R2.*30 |
 la4 la4 la4 |
 fa2 fa4 |
 do'4 do'4 do8 do8 |

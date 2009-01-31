@@ -1,4 +1,4 @@
-sib'8 sib'8 la'8 sib'8 do''8 |
+sib'8[ sib'8 la'8 sib'8 do''8] |
 la'8 sol'8 la'8 sib'8 la'8 sib'8 |
 sol'8 fad'8 sol'8 la'8 sol'8 la'8 |
 fad'8 sol'8 fad'8 sol'8 la'8 fad'8 |

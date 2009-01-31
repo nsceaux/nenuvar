@@ -48,7 +48,7 @@ si,1 |
 mi4. re8 do8 si,8 |
 la,2 la4 fad4 |
 sol4 mi4 la4 la,4 |
-re1 ~|
+re1 ~|\allowPageTurn
 re2 do8 si,8 |
 la,2 sol,8 fad,8 |
 mi,4 mi4 ~ mi8. re16 |

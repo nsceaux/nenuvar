@@ -35,7 +35,7 @@ R1*9 |
 R1. |
 R1*2 |
 R2.*13 |
-r4 r4 mi''8 fa''8 |
+r2 mi''8 fa''8 |
 sol''2 sol''8 sol''8 |
 fa''4 re''4 si'4 |
 do''4 si'4. la'8 |

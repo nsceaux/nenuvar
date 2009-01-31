@@ -61,7 +61,7 @@ la,4 la8 sol8 fa4 mi4 re4 do4 |
 sol2 re4 re8 do8 |
 si,4 do4 sol,2 |
 do4. re8 do8 si,8 |
-la,2. |
+la,2. |\allowPageTurn
 la2 la4 |
 sold2 mi4 |
 la2 la4 |

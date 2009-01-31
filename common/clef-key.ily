@@ -116,8 +116,7 @@ staffStart =
                         (valto  alto . treble)
                         ))
 
-clef =
-#(define-music-function (parser location clef-name) (string?)
+#(define (make-ancient-or-modern-clef clef-name)
    (let* ((match (string-match "^(.*)/(.*)$" clef-name))
           (clefs (assoc (string->symbol clef-name) french-clefs))
           (ancient-clef (cond (match (match:substring match 1))
@@ -147,6 +146,20 @@ clef =
                                         'once #t
                                         'symbol 'InstrumentName))
                              (make-clef-set modern-clef)))))))
+
+clef =
+#(define-music-function (parser location clef-name) (string?)
+   (make-ancient-or-modern-clef clef-name))
+
+forcedClef =
+#(define-music-function (parser location clef-name) (string?)
+   (make-music 'SequentialMusic
+               'elements (list (make-music 'ContextSpeccedMusic
+                                           'context-type 'Staff
+                                           'element (make-music 'PropertySet
+                                                                'value #t
+                                                                'symbol 'forceClef))
+                               (make-ancient-or-modern-clef clef-name))))
 
 #(define (make-key-set note key-alist)
    (let ((pitch (ly:music-property (car (ly:music-property

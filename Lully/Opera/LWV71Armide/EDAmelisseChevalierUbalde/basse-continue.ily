@@ -32,7 +32,7 @@ mi8 la,8 si,2 |
 mi2 la8 mi8 |
 fa4 re2 |
 sol4 mi4 la8 fa8 |
-sol4 sol,2 |
+sol4 sol,2 |\allowPageTurn
 do4. si,8 la,4 |
 mi4. re8 do4 |
 si,4 mi4 mi,4 |

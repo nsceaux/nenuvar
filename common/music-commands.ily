@@ -187,3 +187,9 @@ midiTempo =
 #(define-music-function (parser location quater-nb-par-min) (number?)
    #{ \set Score . tempoWholesPerMinute =
       #(ly:make-moment $(/ quater-nb-par-min 4) 1 0 1) #})
+
+%%%
+%%% On-demand hara-kiri
+%%%
+startHaraKiri = \set Staff.keepAliveInterfaces = #'()
+stopHaraKiri = \unset Staff.keepAliveInterfaces

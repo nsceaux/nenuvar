@@ -1,32 +1,18 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        { s2.*49 s2 \break \sagesseSuiteMark }
-        \global \clef "vdessus" \includeNotes "sagesse-dessus"
-      >> \includeLyrics "sagesse-paroles1"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vbas-dessus" \includeNotes "sagesse-bas-dessus"
-      >> \includeLyrics "sagesse-paroles1"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "sagesse-haute-contre"
-      >> \includeLyrics "sagesse-paroles3"
-    >>
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        { s2.*53 s2 \gloireSuiteMark }
-        \global \clef "vdessus" \includeNotes "gloire-dessus"
-      >> \includeLyrics "gloire-paroles"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "gloire-haute-contre"
-      >> \includeLyrics "gloire-paroles"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vtaille" \includeNotes "gloire-taille"
-      >> \includeLyrics "gloire-paroles"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vbasse" \includeNotes "gloire-basse"
-      >> \includeLyrics "gloire-paroles"
-    >>
+  \new ChoirStaff <<
+    \newHaraKiriStaffB \withLyrics <<
+      { s2.*49 s2 \bar "" \break \sagesseSuiteMark s4 s2.*3 s2 \gloireSuiteMark }
+      \global \includeNotes "voix-dessus-dessus"
+    >> \includeLyrics "paroles1"
+    \newHaraKiriStaffB \withLyrics <<
+      \global \includeNotes "voix-haute-contre-bas-dessus"
+    >> \includeLyrics "paroles1"
+    \newHaraKiriStaffB \withLyrics <<
+      \global \includeNotes "voix-taille-haute-contre"
+    >> \includeLyrics "paroles3"
+    \newHaraKiriStaffB \withLyrics <<
+      \global \includeNotes "voix-basse"
+    >> \includeLyrics "paroles4"
     \newHaraKiriStaffB \withLyrics <<
       { s2.*42 \break }
       \global \clef "vbas-dessus" \includeNotes "gloire2"

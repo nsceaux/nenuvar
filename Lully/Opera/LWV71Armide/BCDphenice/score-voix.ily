@@ -13,7 +13,8 @@
       \global \clef "vbasse" \includeNotes "voix-basse"
     >> \includeLyrics "paroles-choeur"
     \newHaraKiriStaff \withLyrics <<
-      { s2.*8 \break s2.*8 \break }
+      { s2.*8 \break s2.*8 \break
+        s2.*16 \break s2.*8 \break s2.*16 \break }
       \global \clef "vdessus" \includeNotes "phenice"
     >> \includeLyrics "paroles"
   >>

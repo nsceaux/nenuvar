@@ -17,7 +17,7 @@ do4. la,8 re4. do8 |
 si,1 |
 la,4 re4 re,4 |
 sol,2 sol4 ( fa8 ) mi8 |
-re1 |
+re1 |\allowPageTurn
 la4. sol8 fa4. re8 |
 mi4. do8 re8 do8 si,8 la,8 |
 mi4 do4 si,8. la,16 mi8 mi,8 |
@@ -72,7 +72,7 @@ fa4. re8 sol8 do8 |
 si,4 do4 sol8. fa16 |
 mib8 re8 do8 fa,8 sol,4 |
 do8 do'16 si16 la8 sol16 fa16 mi8 fa8 |
-do2 ~ do8 do8 |
+do2 ~ do8 do8 |\allowPageTurn
 do4 si,2 |
 do2 do8 si,8 |
 la,8 mi8 fa8 mi8 re8 do8 |

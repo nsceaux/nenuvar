@@ -1,4 +1,4 @@
-R2.*53 |
+\clef "vbasse" R2.*53 |
 r2 sol4 |
 mi2 mi4 |
 la4 la4 si4 |

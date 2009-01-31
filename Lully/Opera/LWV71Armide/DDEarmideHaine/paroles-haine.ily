@@ -5,7 +5,7 @@ que pour mé -- pri -- ser ma puis -- san -- ce;
 suis l'A -- mour puis -- que tu le veux,
 in -- for -- tu -- née Ar -- mi -- de,
 suis l'A -- mour qui te gui -- de
-dans un a -- bŷme af -- freux.
+dans un a -- bîme af -- freux.
 Sur ces bords é -- car -- tés c'est en vain que tu ca -- ches
 le Hé -- ros dont ton cœur s'est trop lais -- sé tou -- cher.
 La Gloire à qui tu l'ar -- ra -- che

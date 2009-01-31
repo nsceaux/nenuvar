@@ -1,32 +1,18 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        { s2.*107 \sagesseSuiteMark s2. \noBreak }
-        \global \clef "vdessus" \includeNotes "sagesse-dessus"
-      >> \includeLyrics "sagesse-paroles1"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vbas-dessus" \includeNotes "sagesse-bas-dessus"
-      >> \includeLyrics "sagesse-paroles1"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "sagesse-haute-contre"
-      >> \includeLyrics "sagesse-paroles3"
-    >>
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        { s2.*82 \gloireSuiteMark }
-        \global \clef "vdessus" \includeNotes "gloire-dessus"
-      >> \includeLyrics "gloire-paroles"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "gloire-haute-contre"
-      >> \includeLyrics "gloire-paroles"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vtaille" \includeNotes "gloire-taille"
-      >> \includeLyrics "gloire-paroles"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vbasse" \includeNotes "gloire-basse"
-      >> \includeLyrics "gloire-paroles4"
-    >>
+  \new ChoirStaff <<
+    \newHaraKiriStaffB \withLyrics <<
+      { s2.*82 \gloireSuiteMark s2.*25 s2 \sagesseSuiteMark s4 \noBreak s2. \noBreak }
+      \global \includeNotes "voix-dessus-dessus"
+    >> \includeLyrics "paroles-choeur1"
+    \newHaraKiriStaffB \withLyrics <<
+      \global \includeNotes "voix-haute-contre-bas-dessus"
+    >> \includeLyrics "paroles-choeur1"
+    \newHaraKiriStaffB \withLyrics <<
+      \global \includeNotes "voix-taille-haute-contre"
+    >> \includeLyrics "paroles-choeur3"
+    \newHaraKiriStaffB \withLyrics <<
+      \global \includeNotes "voix-basse"
+    >> \includeLyrics "paroles-choeur4"
     \newHaraKiriStaff \withLyrics <<
       \global \clef "vbas-dessus" \includeNotes "gloire-sagesse"
     >> \includeLyrics "paroles-gloire-sagesse"

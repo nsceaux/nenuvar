@@ -15,7 +15,9 @@ si4 do'4 re'4 |
 mib'4 mi'4 fad'4 |
 sol'4 fad'4. sol'8 |
 sol'4 r2 |
-R2.*31 |
+R2.*15 |
+r4 r2 |
+R2.*15 |
 r4 re'4 sol'4 |
 sol'4 fa'4. mib'8 |
 re'8 mib'8 [ re'8 ] do'8 ( sib4 )|

@@ -7,7 +7,7 @@ fa2 re2 |
 mib4. do8 re2 |
 sib,4 la,8 sol,8 re4 re,4 |
 sol,2 sol4 ~|
-sol2 re2 ~|
+sol2 re2 ~|\allowPageTurn
 re4. mib8 fa4 fa,4 |
 sib,2 sib,8. la,16 |
 sol,4 sol4 fad4 |

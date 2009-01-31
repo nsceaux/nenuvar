@@ -1,4 +1,4 @@
-re''8 re''8 do''8 re''8 mib''8 |
+re''8[ re''8 do''8 re''8 mib''8] |
 do''8 sib'8 do''8 re''8 do''8 re''8 |
 sib'8 la'8 sib'8 do''8 sib'8 do''8 |
 la'8 sib'8 la'8 sib'8 do''8 la'8 |

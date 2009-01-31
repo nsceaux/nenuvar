@@ -1,4 +1,4 @@
-sol'8 sib'8 re''8 sib'8 sol'8 |
+sol'8[ sib'8 re''8 sib'8 sol'8] |
 re''8 re''16 mi''16 fa''8 la''8 fa''8 re''8 |
 sol''8 sol''16 la''16 sib''8 sol''8 do'''8 sib''16 la''16 |
 sib''8 la''16 sol''16 fad''4. sol''8 |

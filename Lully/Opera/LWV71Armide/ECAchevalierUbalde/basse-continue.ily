@@ -62,7 +62,7 @@ la4 sol4 fad4 sol4 |
 mi4 do4 re4 re,4 |
 sol,1 |
 do2 do'4 do'8 do'8 |
-sol,1 ~|
+sol,1 ~|\allowPageTurn
 sol,4 sol4 do'4 la4 |
 mi'4 do'4 si4 la4 |
 sold4 la4 mi2 |

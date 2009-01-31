@@ -4,13 +4,24 @@ ré -- u -- nis -- sons nos voix, que cha -- cun nous ré -- pon -- de,
 que cha -- cun nous ré -- pon -- de, 
 ré -- u -- nis -- sons nos voix, que cha -- cun nous ré -- pon -- de.
 
-Chan -- tons, chan -- tons ses glo -- ri -- eux ex -- ploits.
+Chan -- tons, chan -- tons la dou -- ceur de ses lois.
 
 Chan -- tons, chan -- tons ses glo -- ri -- eux ex -- ploits.
+
+Chan -- tons, chan -- tons la dou -- ceur de ses lois.
+
+Chan -- tons, chan -- tons ses glo -- ri -- eux ex -- ploits.
+
+Chan -- tons, chan -- tons la dou -- ceur de ses lois.
 
 Chan -- tons, chan -- tons ses glo -- ri -- eux ex -- ploits,
 chan -- tons, chan -- tons ses glo -- ri -- eux ex -- ploits.
 
+Chan -- tons la dou -- ceur de ses lois,
+chan -- tons, chan -- tons la dou -- ceur de ses lois.
+
 Chan -- tons, chan -- tons ses glo -- ri -- eux ex -- ploits.
+
+Chan -- tons, chan -- tons la dou -- ceur de ses lois.
 
 Chan -- tons, chan -- tons ses glo -- ri -- eux ex -- ploits.

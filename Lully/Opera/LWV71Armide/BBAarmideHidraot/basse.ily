@@ -18,8 +18,8 @@ re,4 re4 ~ re2 |
 do2. |
 fa4 re4 mi4 |
 la,2. re4 |
-si,2. |
-do2. |
+si,2. |\allowPageTurn
+do2. |\allowPageTurn
 re2 si,4 |
 la,8 sol,8 re8 re,8 sol,2 |
 sol2 dod2 |
@@ -70,7 +70,7 @@ sol4 fa2 |
 mi2 mi'4 |
 do'4 si4 la4 |
 sold4 sold4 la4 |
-mi2. |
+mi2. |\allowPageTurn
 do4 re4 mi4 |
 fa2 re4 |
 mi2 mi4 |
@@ -85,7 +85,7 @@ sol2 sol4 |
 mi4 mi4 fa4 |
 re2 do4 |
 sol,2 sol,4 |
-do1 |
+do1 |\allowPageTurn
 do'2 do'4 do'4 |
 si2. si4 |
 la2 mi2 |
@@ -104,7 +104,7 @@ la,4 la8 sol8 fa4. mi8 |
 re4. re8 sol4 sol8 fa8 |
 mi4. mi8 la8 sol8 fa8 mi8 |
 re4. do8 sol4 sol,4 |
-do2. ~ do4 do'4 do'4 |
+do2. ~\bar "" \allowPageTurn do4 do'4 do'4 |
 la4 la4 mi4 fa4 fa4 re4 |
 la4 la4 fa4 do'2 la4 |
 re'4 si4 la4 sol4 re4 re4 |

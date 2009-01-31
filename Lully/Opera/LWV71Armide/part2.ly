@@ -60,7 +60,7 @@
   \pageBreak
   
   %% Table of contents
- \markuplines \table-of-contents
+  \markuplines \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Prologue
@@ -134,6 +134,8 @@
   \noPageTurn \markup \small-title \fill-line {
     \line { On reprend le rondeau page \page-refII #'BCCrondeau . }
   }
+}
+\bookpart {
   \pieceTocTitle "Sarabande"
   \includeScore "BCEsarabande"
   \pieceToc \markup {
@@ -328,8 +330,6 @@
     page \page-refIII #'FBApassacaille ,
     et on reprend encore le premier récit et le premier couplet du chœur.
   }
-  \partPageTurn #'(basse-continue)
-
   \pieceToc \markup { Renaud : \italic { Allez, éloignez-vous de moi doux plaisirs. } }
   \includeScore "FBCrenaud"
 
@@ -343,8 +343,7 @@
   \sceneDescription \markup \smallCaps { Armide, Renaud, Ubalde, le Chevalier Danois. }
   \pieceToc \markup { Armide, Renaud, le Chevalier Danois, Ubalde }
   \includeScore "FDAarmideRenaudUbladeChevalier"
-  \partPageBreak #'(taille)
-
+  
   \scene "Scène V"
   \sceneDescription \markup { \smallCaps Armide, seule. }
   \pieceToc \markup { Armide : \italic { Le perfide Renaud me fuit } }

@@ -1,8 +1,8 @@
 \score {
   \new StaffGroupNoBar <<
-    \newTinyHaraKiriStaffB \withLyrics <<
-      \global \clef "vbasse" \includeNotes "reduction"
-    >> \includeLyrics "paroles-reduction"
+    \newTinyHaraKiriStaff \withLyrics <<
+      \global \clef "vdessus" \includeNotes "lucinde"
+    >> \includeLyrics "paroles"
     \new Staff << \global \clef "basse" \includeNotes "basse-continue"
                   \includeFigures "chiffres" >>
   >>
