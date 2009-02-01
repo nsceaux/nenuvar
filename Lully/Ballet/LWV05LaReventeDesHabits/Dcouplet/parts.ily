@@ -1,0 +1,1 @@
+\piecePartSpecs #`((basse #:score "score"))

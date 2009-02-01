@@ -83,6 +83,30 @@
                            (chain-assoc-get 'line-width props)))
       args)))
 
+#(define-markup-list-command (with-line-width-ratio layout props width-ratio args)
+  (number? markup-list?)
+  (let* ((line-width (chain-assoc-get 'line-width props))
+         (new-line-width (* width-ratio line-width))
+         (indent (* 0.5 (- line-width new-line-width)))
+         (stencils (interpret-markup-list layout
+                     (cons `((line-width . ,new-line-width)) props)
+                     args)))
+    (interpret-markup-list layout props
+      (map (lambda (stencil)
+             (markup #:hspace indent #:stencil stencil))
+           stencils))))
+
+#(define-markup-list-command (indented-lines layout props indent args)
+  (number? markup-list?)
+  (let* ((new-line-width (- (chain-assoc-get 'line-width props) indent))
+         (lines (interpret-markup-list layout
+                 (cons `((line-width . ,new-line-width)) props)
+                 args)))
+   (interpret-markup-list layout props
+    (map (lambda (line)
+          (markup #:hspace indent #:stencil line))
+     lines))))
+
 #(define-markup-list-command (wordwrap-center-lines layout props args)
   (markup-list?)
   (map (lambda (stencil)
