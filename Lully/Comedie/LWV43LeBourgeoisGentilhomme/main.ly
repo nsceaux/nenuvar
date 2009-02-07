@@ -97,10 +97,15 @@
   }
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Acte 1
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body01.ily"
 \bookpart {
   \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body02.ily"
   \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body03.ily"
 }
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body04.ily"
+\bookpart {
+  \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body05.ily"
+  \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body06.ily"
+  \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body07.ily"
+  \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body08.ily"
+}
