@@ -1,4 +1,24 @@
-%%% -*- Mode: Scheme -*-
+%%%x -*- Mode: Scheme -*-
+
+\paper {
+  tocPieceMarkup = \markup \fill-line {
+    \line-width-ratio #0.7 \fill-line {
+      \line { \fromproperty #'toc:text }
+      \fromproperty #'toc:page
+    }
+  }
+  tocSceneMarkup = \markup \fill-line {
+    \line-width-ratio #0.7 \fill-line {
+      \bold \line { \fromproperty #'toc:text }
+      \fromproperty #'toc:page
+    }
+  }
+  tocActMarkup = \markup \large \italic \column {
+    \vspace #1
+    \fontsize #2 \fill-line { \fromproperty #'toc:text }
+    \vspace #1
+  }
+}
 
 #(define-markup-list-command (didascalie layout props args) (markup-list?)
    (map (lambda (stil)
