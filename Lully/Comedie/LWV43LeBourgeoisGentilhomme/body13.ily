@@ -44,7 +44,7 @@
   \includeScore "BSfiestas"
   \pieceTocTitle "Premier air des Espagnols"
   \reIncludeScore "BNair" "BSair"
-%{
+
   %% Quatrième Entrée
   \scene "Quatrième Entrée"
   \sceneDescription \markup \wordwrap-center {
@@ -54,10 +54,7 @@
   \includeScore "BTritournelle"
   \pieceToc \markup \italic { Di rigori armata il seno }
   \includeScore "BUrigori"
-  \markup \titre \line {
-    On reprend la ritournelle italienne page 
-    \page-refIII #'BTritournelle .
-  }
+  \reIncludeScore "BTritournelle" "BTritournelleBis"
   \pieceToc \markup \italic { Ma si caro è'l mio tormento }
   \includeScore "BVtormento"
   \pieceTocTitle "L'entrée des Scaramouches, Trivelins et Arlequin représentant une nuit."
@@ -66,9 +63,7 @@
   \includeScore "BXchaconne"
   \pieceToc \markup \italic { Bel tempo che vola rapisce il contento }
   \includeScore "BYbeltempo"
-  \markup \titre \line { 
-    On reprend la chaconne page \page-refIII #'BXchaconne .
-  }
+  \reIncludeScore "BXchaconne" "BXchaconneBis"
 
   %% Cinquième Entrée
   \scene "Cinquième Entrée"
@@ -85,5 +80,4 @@
   \scene "Sixième Entrée"
   \pieceToc \markup \italic { Quels spectacles charmants }
   \includeScore "CDspectacle"
-%}
 }

@@ -531,7 +531,7 @@
 }
 \bookpart {
   \paper { #(define page-breaking ly:optimal-breaking) }
-  \pieceTocTitle "Dialogue en musique"
+  \intermede "Premier Intermède"
   \pieceTocTitle "Ritournelle"
   \includeScore "AEritournelle"
   \pieceToc \markup { 
@@ -593,7 +593,6 @@
 }
 \bookpart {
   \paper { #(define page-breaking ly:optimal-breaking) }
-  \intermede "Premier Intermède"
   \pieceToc \markup Air
   \includeScore "ALdanceurs"
   \pieceTocTitle "Canarie"
