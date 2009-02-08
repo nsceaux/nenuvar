@@ -109,3 +109,5 @@
   \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body07.ily"
   \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body08.ily"
 }
+\include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body09.ily"
+\include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body10.ily"

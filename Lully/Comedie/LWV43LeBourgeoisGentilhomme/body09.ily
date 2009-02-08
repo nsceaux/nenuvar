@@ -106,9 +106,12 @@
 }
 \bookpart {
   \paper { #(define page-breaking ly:optimal-breaking) }
-  \piece "AQchansonA" "Première chanson à boire"
-  \piece "ARchansonB" "Deuxième chanson à boire"
-  \piece "ASchansonC" "Troisième chanson à boire"
+  \pieceTocTitle "Première chanson à boire"
+  \includeScore "AQchansonA"
+  \pieceTocTitle "Deuxième chanson à boire"
+  \includeScore "ARchansonB"
+  \pieceTocTitle "Troisième chanson à boire"
+  \includeScore "ASchansonC"
 }
 \bookpart {
   \markuplines \columns {
@@ -696,15 +699,6 @@
       faire place à ce que j'aperçois venir. Vous pourrez voir
       une partie de l'histoire, tandis que je vous conterai le
       reste.
-    }
-    \didascalie {
-      La cérémonie turque pour ennoblir le bourgeois se fait en danse
-      et en musique, et compose le quatrième intermède.
-    }
-    \didascalie {
-      Le mufti, quatre dervis, six Turcs dansants, six Turcs
-      musiciens, et autres joueurs d'instruments à la turque, sont les acteurs
-      de cette cérémonie.
     }
   }
 }

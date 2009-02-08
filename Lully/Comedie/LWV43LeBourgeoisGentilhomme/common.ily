@@ -27,7 +27,7 @@
         (interpret-markup-list
          layout props
          (make-override-lines-markup-list
-          `(baseline-skip . 0.5)
+          `(baseline-skip . 1)
           (make-override-lines-markup-list
            '(line-width . 80)
            (make-wordwrap-center-lines-markup-list 
