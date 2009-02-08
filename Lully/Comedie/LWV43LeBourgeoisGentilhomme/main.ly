@@ -97,6 +97,7 @@
   }
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Acte 1
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body01.ily"
 \bookpart {
   \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body02.ily"
@@ -110,4 +111,12 @@
   \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body08.ily"
 }
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body09.ily"
+%% 4eme intermede
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body10.ily"
+%% Acte 5
+\bookpart {
+  \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body11.ily"
+  \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body12.ily"
+}
+%% Ballet
+\include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body13.ily"
