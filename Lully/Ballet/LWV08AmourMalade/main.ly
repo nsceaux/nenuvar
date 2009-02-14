@@ -466,7 +466,7 @@
       "On commence d'être en santé."
     }
   }
-  \pieceTocTitle "Troisième air pour le concert du divertissement."
+  \pieceTocTitle "Troisième air pour le concert du divertissement"
   \includeScore "AJair"
 }
 %%%%%%%%%%% Deuxième entrée %%%%%%%%%%%%%
@@ -520,7 +520,6 @@
     \ver "Ne trouvent à la fin que peine et que souffrance !"
   }
 }
-%{
 %%%%%%%%%%% Quatrième entrée %%%%%%%%%%%%%
 \bookpart {
   \act "Quatrième Entrée"
@@ -733,4 +732,3 @@
   \pieceTocTitle "Troisième ritournelle"
   \includeScore "BZritournelle"
 }
-%}
