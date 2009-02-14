@@ -1,7 +1,7 @@
 \override Voice . TextScript #'padding = #0
 \override Voice . TextScript #'direction = #DOWN
 \override Voice . TextScript #'extra-spacing-width = #'(0 . 0)
-\override Voice . TextScript #'infinite-spacing-height = ##t
+\override Voice . TextScript #'extra-spacing-height = #'(-inf.0 . +inf.0)
 \set Staff.instrumentName = \markup Lyciscas
 s1-" "
 s1
@@ -17,12 +17,12 @@ s2.-\markup \column {
   \line { qu'un petit quart d'heure. }
 }
 s2.*3 s4
-\once \override Voice . TextScript #'infinite-spacing-height = ##f
+\once \override Voice . TextScript #'extra-spacing-height = #'(0 . 0)
 s2-\markup { Hé ! }
 \noBreak
 s2.-\markup { je vous prie ?  }
 s4
-\override Voice . TextScript #'infinite-spacing-height = ##f
+\override Voice . TextScript #'extra-spacing-height = #'(0 . 0)
 s2-\markup { Un moment. }
 s2. s4
 s2-\markup { De grâce. }
@@ -32,7 +32,7 @@ s2-\markup { Eh. }
 s2. s4
 s2-\markup { Je... }
 s2. s2.
-\override Voice . TextScript #'infinite-spacing-height = ##t
+\override Voice . TextScript #'extra-spacing-height = #'(-inf.0 . +inf.0)
 \once \override Voice . TextScript #'extra-offset = #(cons -5 0)
 s2.-\markup { J'aurai fait incontinent. }
 s2.*28
@@ -54,7 +54,7 @@ s2 s4-\markup \override #'(line-width . 30) \wordwrap {
 }
 s1*2
 %%\once \override Voice . TextScript #'extra-offset = #(cons -5 0)
-\override Voice . TextScript #'infinite-spacing-height = ##f
+\override Voice . TextScript #'extra-spacing-height = #'(0 . 0)
 s1-\markup \override #'(line-width . 50) \wordwrap {
   Oh! oh! oh! oh. La peste soit des gens avec leurs chiens de
   hurlements, je me donne au diable si je ne vous "assomme ;" mais voyez

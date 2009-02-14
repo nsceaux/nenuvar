@@ -52,40 +52,75 @@
 \opusTitle "Les Plaisirs de l'Île Enchantée"
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/common.ily"
 
+\paper { #(define page-breaking ly:optimal-breaking) }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Title page
-\markup \null
-\pageBreak
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  %% Title page
+  \markup \null
+  \pageBreak
 
-%%% notes
-\markup \null
-\pageBreak
+  %% notes
+  \markup \null
+  \pageBreak
 
-%%% Table of contents
-\markuplines \table-of-contents
-\pageBreak
+  %% Table of contents
+  \markuplines \table-of-contents
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% Première journée
-%%% Course de bague
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/AAsonnetRoi.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ABlouangesReine.ily"
-%%% Collation
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  %% Course de bague
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/AAsonnetRoi.ily"
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ABlouangesReine.ily"
+}
+%% Collation
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/ACcollation.ily"
 
 %%% Seconde journée
 %%% La Princesse d'Élide
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BAintermedeI.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BBacteI.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BCintermedeII.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BDacteII.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BEintermedeIII.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BFacteIII.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BGintermedeIV.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BHacteIV.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BIintermedeV.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BJacteV.ily"
-\include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BKintermedeVI.ily"
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BBacteI.ily"
+}
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BCintermedeII.ily"
+}
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BDacteII.ily"
+}
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BEintermedeIII.ily"
+}
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BFacteIII.ily"
+}
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BGintermedeIV.ily"
+}
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BHacteIV.ily"
+}
+\bookpart {
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BIintermedeV.ily"
+}
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BJacteV.ily"
+}
+\bookpart {
+  \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/BKintermedeVI.ily"
+}
 
 %%% Troisième journée
 \include "Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee/CAballet.ily"

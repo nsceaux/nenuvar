@@ -1,7 +1,7 @@
 \override Voice . TextScript #'padding = #0
 \override Voice . TextScript #'direction = #DOWN
 \override Voice . TextScript #'extra-spacing-width = #'(0 . 0)
-\override Voice . TextScript #'infinite-spacing-height = ##t
+\override Voice . TextScript #'extra-spacing-height = #'(-inf.0 . +inf.0)
 s1*2
 s1-\markup \override #'(line-width . 40) \wordwrap {
   Ah! Satyre mon ami, tu sais bien ce que tu m'as promis, il y a

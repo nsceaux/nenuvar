@@ -1,4 +1,3 @@
-\pageBreak
 \markup \column {
   \vspace #10
   \fill-line { \scene \line { NOMS DES ACTEURS DE LE COMÉDIE } }
