@@ -112,6 +112,7 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin,,,)
 
 ### Lully
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Ballet/LWV05LaReventeDesHabits,dessus haute-contre taille quinte basse,,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Ballet/LWV08AmourMalade,,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,\
 dessus1 dessus2 haute-contre taille quinte basse basse-continue voix,part5,trompette tambour timbales))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee,,,))
