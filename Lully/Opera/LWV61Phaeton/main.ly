@@ -47,7 +47,21 @@
   \actn "Prologue"
   \pieceTocTitle "Ouverture"
   \includeScore "AAAouverture"
-  \pieceToc "Troupe d'Astrée"
+  \pieceToc \markup { Troupe d'Astrée \italic { Cherchons la paix dans cet asile } }
   \includeScore "AABtroupe"
-  %% page 12
+  \pieceToc \markup { Astrée : \italic { Dans cette paisible retraite } }
+  \includeScore "AACastree"
+  \pieceToc \markup { Troupe d'Astrée \italic { Danc ces lieux tout rit sans cesse } }
+  \includeScore "AADtroupe"
+  \sceneDescription \markup \wordwrap-center {
+    Saturne vient trouver Astrée, pour l'inviter à retourner avec lui
+    sur la Terre. Ce dieu conduit les mêmes suivants qui
+    l'accompagnaient au temps de l'Âge "d'or :" les uns dansent, et
+    les autres "chantent ;" et Saturne même chante avec eux.
+  }
+  \pieceToc \markup { Saturne, chœur : \italic { Que les mortels se réjouissent } }
+  \includeScore "AAEchoeur"
+  \pieceToc \markup { Saturne : \italic { Un héros qui mérite une gloire immortelle } }
+  \includeScore "AAFsaturne"
+  %% page 40
 }
