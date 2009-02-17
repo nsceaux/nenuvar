@@ -1,5 +1,5 @@
 R2.*24 |
-mi''4 fa'' sol'' |
+mi''4^\markup \character "Troupe des compagnes d'Astrée" fa'' sol'' |
 fa''2. |
 mi''4 mi'' fa'' |
 re''2 re''4 |

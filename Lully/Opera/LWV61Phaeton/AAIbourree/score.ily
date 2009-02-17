@@ -20,8 +20,15 @@
       \lyricsto "bas-dessus" \new Lyrics \includeLyrics "paroles1"
       \lyricsto "bas-dessus" \new Lyrics \includeLyrics "paroles2"
     >>
+    \newHaraKiriStaffB <<
+      \new Voice = "haute-contre" \with { autoBeaming = ##f } <<
+        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
+      >>
+      \lyricsto "haute-contre" \new Lyrics \includeLyrics "paroles1"
+      \lyricsto "haute-contre" \new Lyrics \includeLyrics "paroles2"
+    >>
     \new Staff <<
-      { s2.*8 \break s2.*8 \break s2.*8 \break }
+      { s4 s1*7 s2 s4 s4 s1*13 s2 s4 \break }
       \global \clef "basse" \includeNotes "basse-continue"
       \includeFigures "chiffres"
     >>

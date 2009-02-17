@@ -296,6 +296,14 @@ pieceTitle =
     (add-no-page-break parser)
     (make-music 'Music 'void #t)))
 
+pieceSimpleTitle =
+#(define-music-function (parser location title) (string?)
+  (let ((rehearsal (rehearsal-number)))
+    (add-toplevel-markup parser 
+      (markup #:title (string-upper-case title)))
+    (add-no-page-break parser)
+    (make-music 'Music 'void #t)))
+
 pieceSTitle =
 #(define-music-function (parser location title) (markup?)
   (let ((rehearsal (rehearsal-number)))

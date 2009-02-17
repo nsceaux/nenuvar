@@ -47,11 +47,13 @@
   \actn "Prologue"
   \pieceTocTitle "Ouverture"
   \includeScore "AAAouverture"
-  \pieceToc \markup { Troupe d'Astrée \italic { Cherchons la paix dans cet asile } }
+  \pieceToc \markup { Troupe d'Astrée : \italic { Cherchons la paix dans cet asile } }
+  \pieceSimpleTitle "Troupe d'Astrée dansante"
   \includeScore "AABtroupe"
   \pieceToc \markup { Astrée : \italic { Dans cette paisible retraite } }
   \includeScore "AACastree"
-  \pieceToc \markup { Troupe d'Astrée \italic { Danc ces lieux tout rit sans cesse } }
+  \pieceToc \markup { Troupe d'Astrée : \italic { Danc ces lieux tout rit sans cesse } }
+  \pieceSimpleTitle "Troupe d'Astrée dansante"
   \includeScore "AADtroupe"
   \sceneDescription \markup \wordwrap-center {
     Saturne vient trouver Astrée, pour l'inviter à retourner avec lui
@@ -60,8 +62,15 @@
     les autres "chantent ;" et Saturne même chante avec eux.
   }
   \pieceToc \markup { Saturne, chœur : \italic { Que les mortels se réjouissent } }
+  \pieceSimpleTitle "Chœur"
   \includeScore "AAEchoeur"
   \pieceToc \markup { Saturne : \italic { Un héros qui mérite une gloire immortelle } }
   \includeScore "AAFsaturne"
-  %% page 40
+  \pieceToc \markup { Astrée : \italic { Jeux innocents, rassemblez-vous } }
+  \includeScore "AAGastree"
+  \pieceTocTitle "Air pour les suivants de Saturne"
+  \includeScore "AAHair"
+  \pieceTocTitle "Bourrée pour les suivants de Saturne et les suivantes d'Astrée"
+  \includeScore "AAIbourree"
+  %% page 54
 }

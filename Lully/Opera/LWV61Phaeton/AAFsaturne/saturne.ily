@@ -1,4 +1,4 @@
-r4 do8 do sol4 sol8 sol |
+r4 do8^\markup \character Saturne do sol4 sol8 sol |
 la4 la8 si do'4 do'8 re' |
 si4 si sol8 sol |
 re2 re4 mi |

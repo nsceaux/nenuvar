@@ -1,5 +1,5 @@
 R2.*16 |
-mi''4 fa''2 |
+mi''4^\markup \character "Troupe d'Astrée" fa''2 |
 mi'' re''4 |
 do'' re''2 |
 mi'' mi''4 |

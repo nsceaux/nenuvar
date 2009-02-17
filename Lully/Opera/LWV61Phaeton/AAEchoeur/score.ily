@@ -1,10 +1,7 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \new GrandStaff <<
-        \new Staff << \global \clef "dessus" \includeNotes "dessus1" >>
-        \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
-      >>
+      \new Staff << \global \clef "dessus" \includeNotes "dessus" >>
       \new Staff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
       \new Staff << \global \clef "taille" \includeNotes "taille" >>
       \new Staff << \global \clef "quinte" \includeNotes "quinte" >>
