@@ -1,14 +1,14 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \new Staff << \global \clef "dessus" \includeNotes "dessus" >>
-      \new Staff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \new Staff << \global \clef "taille" \includeNotes "taille" >>
-      \new Staff << \global \clef "quinte" \includeNotes "quinte" >>
-      \new Staff << \global \clef "basse" \includeNotes "basse" >>
+      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus" >>
+      \newHaraKiriStaffB << \global \clef "haute-contre" \includeNotes "haute-contre" >>
+      \newHaraKiriStaffB << \global \clef "taille" \includeNotes "taille" >>
+      \newHaraKiriStaffB << \global \clef "quinte" \includeNotes "quinte" >>
+      \newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
     >>
     \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
+      \newHaraKiriStaff \withLyrics <<
         \global \clef "vdessus" \includeNotes "voix-dessus"
       >> \includeLyrics "paroles-dessus"
       \newHaraKiriStaffB \withLyrics <<
@@ -17,13 +17,14 @@
       \newHaraKiriStaffB \withLyrics <<
         \global \clef "vtaille" \includeNotes "voix-taille"
       >> \includeLyrics "paroles-taille"
-      \newHaraKiriStaffB \withLyrics <<
+      \newHaraKiriStaff \withLyrics <<
         \global \clef "vbasse" \includeNotes "voix-basse"
       >> \includeLyrics "paroles-basse"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  { s1*41 \break }
-                  \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \clef "basse" \includeNotes "basse-continue"
+      \includeFigures "chiffres"
+    >>
   >>
   \layout { }
   \midi { }

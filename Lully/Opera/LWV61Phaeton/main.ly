@@ -36,6 +36,15 @@
   
   %% notes
   \markup \null
+%{
+AAEchoeur:
+page xxi manquante (remplacée par page xxxi mal numérotée) = mesures 52 à 57
+--> utilisation des mesures ???
+
+AAJsaturneAstree:
+page lviii manquante (mesures 73 à 79)
+--> utilisation des mesures 118 à 124
+%}
   \pageBreak
   
   %% Table of contents
@@ -72,5 +81,7 @@
   \includeScore "AAHair"
   \pieceTocTitle "Bourrée pour les suivants de Saturne et les suivantes d'Astrée"
   \includeScore "AAIbourree"
-  %% page 54
+  \pieceToc \markup { Astrée, Saturne, chœur : \italic { On a vu ce héros terrible dans la guerre } }
+  \includeScore "AAJsaturneAstree"
 }
+%% page 68
