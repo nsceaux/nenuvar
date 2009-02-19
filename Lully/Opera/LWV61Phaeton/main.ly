@@ -96,6 +96,11 @@ page lviii manquante (mesures 73 à 79)
   \pieceToc \markup { Libye : \italic { Heureuse une âme indifférente ! } }
   \includeScore "BAAlibye"
   \scene "Scène II"
-  \sceneDescription \markup \wordwrap-center \smallCaps { Théone, Libye }
-  %% page 72
+  \sceneDescription \markup \wordwrap-center \smallCaps { Théone, Libye. }
+  \pieceToc \markup { Théone, Libye : \italic { Je ne vous croyais pas dans un lieu solitaire } }
+  \includeScore "BBAtheoneLibye"
+  \scene "Scène III"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Phaéton, Théone. }
+  \pieceToc \markup { Phaéton, Théone : \italic { Vous passez sans me voir ? } }
+  %% page 79
 }
