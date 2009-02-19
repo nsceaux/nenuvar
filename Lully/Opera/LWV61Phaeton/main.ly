@@ -83,5 +83,19 @@ page lviii manquante (mesures 73 à 79)
   \includeScore "AAIbourree"
   \pieceToc \markup { Astrée, Saturne, chœur : \italic { On a vu ce héros terrible dans la guerre } }
   \includeScore "AAJsaturneAstree"
+  \pieceNoTitle
+  \reIncludeScore "AAAouverture" "AAAouverturebis"
+  \actEnd \markup { FIN DU PROLOGUE }
 }
-%% page 68
+
+%%% Acte I
+\bookpart {
+  \act "Acte Premier"
+  \scene "Scène I"
+  \sceneDescription \markup \wordwrap-center { \smallCaps Libye, seule. }
+  \pieceToc \markup { Libye : \italic { Heureuse une âme indifférente ! } }
+  \includeScore "BAAlibye"
+  \scene "Scène II"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Théone, Libye }
+  %% page 72
+}
