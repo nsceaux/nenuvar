@@ -110,5 +110,7 @@ page lviii manquante (mesures 73 à 79)
   \scene "Scène V"
   \sceneDescription \markup \wordwrap-center { \smallCaps Protée et sa suite. }
   \pieceToc \markup { Protée : \italic { Heureux qui peut voir du rivage } }
-  %% page 93
+  \includeScore "BEAprotee"
+  \scene "Scène VI"
+  %% page 100
 }
