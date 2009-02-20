@@ -380,7 +380,7 @@ act =
   (*act-title* act-title)
   (add-odd-page-header-text
     parser
-    (format #f "~a." (string-upper-case (*act-title*)))
+    (format #f "~a" (string-upper-case (*act-title*)))
     #f)
   (add-toplevel-markup parser
     (markup #:act (string-upper-case act-title)))
@@ -395,7 +395,7 @@ actn =
   (*act-title* act-title)
   (add-odd-page-header-text
     parser
-    (format #f "~a." (string-upper-case (*act-title*)))
+    (format #f "~a" (string-upper-case (*act-title*)))
     #f)
   (add-toplevel-markup parser
     (markup #:act (string-upper-case act-title)))

@@ -23,7 +23,7 @@
 
 \setOpus "Lully/Opera/LWV61Phaeton"
 \opusTitle "Phaéton"
-%%\include "Lully/Opera/LWV61Phaeton/common.ily"
+\include "Lully/Opera/LWV61Phaeton/common.ily"
 
 \paper { #(define page-breaking ly:optimal-breaking) }
 
@@ -102,5 +102,9 @@ page lviii manquante (mesures 73 à 79)
   \scene "Scène III"
   \sceneDescription \markup \wordwrap-center \smallCaps { Phaéton, Théone. }
   \pieceToc \markup { Phaéton, Théone : \italic { Vous passez sans me voir ? } }
-  %% page 79
+  \includeScore "BCAphaetonTheone"
+  \scene "Scène IV"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaéton. }
+  \pieceToc \markup { Clymène, Phaéton : \italic { Vous paraissez chagrin, mon fils } }
+  %% page 86
 }

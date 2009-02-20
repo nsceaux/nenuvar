@@ -5,3 +5,7 @@ theoneMark =
 libyeMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Libye"))
+
+phaetonMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Phaéton"))
