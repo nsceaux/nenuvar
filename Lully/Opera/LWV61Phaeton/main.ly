@@ -106,5 +106,9 @@ page lviii manquante (mesures 73 à 79)
   \scene "Scène IV"
   \sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaéton. }
   \pieceToc \markup { Clymène, Phaéton : \italic { Vous paraissez chagrin, mon fils } }
-  %% page 86
+  \includeScore "BDAclymenePhaeton"
+  \scene "Scène V"
+  \sceneDescription \markup \wordwrap-center { \smallCaps Protée et sa suite. }
+  \pieceToc \markup { Protée : \italic { Heureux qui peut voir du rivage } }
+  %% page 93
 }

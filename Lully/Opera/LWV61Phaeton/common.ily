@@ -9,3 +9,7 @@ libyeMark =
 phaetonMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Phaéton"))
+
+clymeneMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Clymène"))
