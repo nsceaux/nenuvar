@@ -5,6 +5,6 @@
     >> \includeLyrics "paroles"
     \new Staff << \global \includeNotes "basse" >>
   >>
-  \layout { }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 80 4) } }
+  \layout { indent = \noindent }
+  \midi { }
 }

@@ -11,14 +11,11 @@ re'''4. ( mi'''8 ) la''8. ( do'''16 )|
 si''4. ( la''8 ) sol''8.( la''16 )|
 fad''8.( re''16) fad''8.( la''16) re'''8 r |
 R2.*2 |
-
 r4 la''4. ( sol''16 fad'' )|
 \appoggiatura fad''8 mi''2 mi''8. fad''16 |
 \appoggiatura dod''8 re''2 r4 |
 R2.*3 |
-
-
-r4 r re'''8. dod'''16 |
+r2 re'''8. dod'''16 |
 si''2 lad''8. si''16 |
 fad''2. ~|
 fad''2 ~ fad''8. si''16 |

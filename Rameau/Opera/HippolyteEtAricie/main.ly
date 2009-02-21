@@ -46,7 +46,6 @@
 \bookpart {
   \ouverture "Ouverture"
   \includeScore "AAAouverture"
-  \includeScore "AABouverture"
 }
 
 %%% Acte Premier
@@ -58,7 +57,7 @@
     \fill-line { \line { On y voit un autel. } }
   }
   \pieceToc \markup { Aricie : \italic { Temple sacré, séjour tranquille } }
-  \includeScore "AACaricie"
+  \includeScore "AABaricie"
   %%
   \scene "Scène II"
   \sceneDescription \markup \smallCaps { Hippolyte, Aricie. }

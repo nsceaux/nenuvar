@@ -16,7 +16,7 @@ fad''2 ( mi''8 ) r |
 re''2 re''8 dod'' |
 re''2. |
 R2.*3 |
-r4 r r8 fad'' |
+r2 r8 fad'' |
 fad''2. |
 dod''2 dod''8 re'' |
 lad'2 dod''8 red'' |

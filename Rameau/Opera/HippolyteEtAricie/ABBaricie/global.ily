@@ -1,5 +1,5 @@
 \keys si \minor
-\time 3/4
-\markUpBegin \mark "Sans lenteur"
+\midiTempo #108 \time 3/4
+\tempo "Sans lenteur"
 \partial 4 s4 s2.*31 
-\time 2/2 s2 \bar "" \break
+\fractionTime \time 2/2 s2 \bar "" \break

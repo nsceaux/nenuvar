@@ -32,7 +32,7 @@ mon trou -- ble, mes sou -- pirs, vos mal -- heurs, vos ap -- pas,
 tout vous an -- nonce un cœur trop sen -- sible et trop ten -- dre.
 
 %% ARICIE.
-"Ah !" que ve -- nez "-vous" de m’ap -- pren -- "dre !"
+"Ah !" que ve -- nez- vous de m’ap -- pren -- "dre !"
 C’en est "fait ;" pour ja -- mais mon re -- pos est per -- du.
 Peut -- ê -- tre votre in -- dif -- fé -- ren -- ce
 tôt ou tard me l’au -- rait ren -- "du ;"
@@ -40,8 +40,8 @@ mais votre a -- mour m’en ô -- te l’es -- pé -- ran -- ce.
 C’en est "fait ;" pour ja -- mais mon re -- pos est per -- du.
 
 %% HIPPOLYTE.
-Qu’en -- tends -- "je !" Quel trans -- port de mon â -- me s’em -- pa -- "re !"
+Qu’en -- tends- "je !" Quel trans -- port de mon â -- me s’em -- pa -- "re !"
 
 %% ARICIE.
-Oub -- li -- ez "-vous" qu’on nous sé -- pa -- "re !"
+Oub -- li -- ez- vous qu’on nous sé -- pa -- "re !"
 Quel tem -- ple re -- dou -- table, et quel af -- freux li -- "en !"

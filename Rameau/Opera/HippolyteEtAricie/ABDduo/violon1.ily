@@ -1,6 +1,6 @@
 \clef "dessus" re''8.-"doux" dod''16 |
-dod''8 r r r16 mi'' re''8. dod''16 |
-si'4 fad'8 r r dod'' |
+dod''8 r4 r16 mi'' re''8. dod''16 |
+si'4 fad'8 r r dod''8 |
 re''4. re''8 re''8. dod''16 |
 \appoggiatura dod''8 re''4-\prall  la'8 r r4 |
 si' dod''8 re'' re'' ( dod''16 ) dod'' |
@@ -16,7 +16,7 @@ fad''8. sol''32 fad'' mi''16( fad'') mi''( fad'') sol''8 r |
 r4 r8 si' dod''16( la') re''8 |
 re''4 ~ re''4. ( dod''8 )|
 \appoggiatura dod'' re''4 -\prall la'8 r r4 |
-r r re'' |
+r2 re''4 |
 re''8 ( dod''16 si' ) do''4. ( si'8 )|
 si'2 mi''4 |
 mi''8. ( re''32 dod'' ) re''4. ( dod''8 )|
@@ -31,8 +31,8 @@ re''4 ( dod''2 )|
 si' fad''4 |
 fad''8. ( mi''16 ) mi''8 r mi''4 |
 mi''2 ~ mi''8. ( fad''32 mi'')|
-re''8 r r4 r |
-r r mi'' |
+re''8 r r2 |
+r mi''4 |
 mi''2\fermata mi''8 re'' |
 re''4 ( dod''2 )|
 si'2. |

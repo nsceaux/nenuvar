@@ -1,6 +1,6 @@
 \clef "vhaute-contre" r4 |
 R2. |
-r4 r r8 dod' |
+r2 r8 dod' |
 re'4. fad'8 mi' sol' |
 fad'2. |
 sold'4 lad'8 si' fad' [ mi'16 ] mi' |
@@ -20,7 +20,7 @@ fad'4 fad'8 fad' sol' la' |
 mi'2. |
 sol'4 sol'8 sol' la' si' |
 fad'2. |
-r4 r fad' |
+r2 fad'4 |
 sol'4. la'8 mi' sol' |
 fad'2 si'4 |
 mi' ~ mi'16 [\melisma sol' fad' mi' ] re' [ mi' dod' mi' ]|

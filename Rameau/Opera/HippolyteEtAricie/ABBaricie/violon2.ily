@@ -1,6 +1,6 @@
-\clef "dessus2" r4-"très doux" |
+\clef "dessus2" r4 |
 R2. |
-r4 r re''8. dod''16 |
+r2 re''8.-"très doux" dod''16 |
 si'2 ( lad'8. ) si'16 |
 fad'2 si'4 |
 dod''8. re''16 dod''4 si' |
@@ -20,7 +20,7 @@ mi' |
 sol' |
 fad' |
 R2. |
-r4 r re''8. dod''16 |
+r2 re''8. dod''16 |
 si'2 ( lad'8. ) si'16 |
 fad'2 si'4 |
 dod''8. re''16 dod''4 si' |

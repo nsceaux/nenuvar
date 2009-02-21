@@ -6,7 +6,7 @@ la'( sol'8) r sol'4 |
 sol'( fad'8) r fad'4 |
 fad'2( mi'8.) re'16 |
 dod'2 r4 |
-\clef "dessus2" r r re' |
+\clef "dessus2" r2 re'4 |
 dod'2. |
 si |
 la |
@@ -19,14 +19,12 @@ mi'4. ( re'16 ) dod' re'4 ~|
 re'8. mi'16 dod'4. re'8 |
 re'2. |
 R2.*3 |
-
-
-r4 r fad'-"doux" |
+r2 fad'4-"doux" |
 fad' ( mi'8 ) r mi'4 |
 mi' ( re'8 ) r re'4 |
 re'2 ~ re'8 dod'16 ( re' )|
 dod'2 r4 |
-r r re' |
+r2 re'4 |
 dod'2. |
 si |
 la |
@@ -39,8 +37,7 @@ mi'4. ( re'16 dod' ) re'4 ~|
 re'8. mi'16 dod'4. re'8 |
 re'2 \fermata r4 |
 R2.*2 |
-
-r4 r r8 fad'-"doux" |
+r2 r8 fad'-"doux" |
 fad'2 ~ fad'8. fad'16 |
 si2 red'4 |
 mi'2 sold4 |

@@ -5,7 +5,7 @@ si4. sol8 la la, |
 re2. |
 re4 dod8 si, sol4 |
 fad2. |
-r4 r fad |
+r2 fad4 |
 si2. |
 la2 sol8 fad |
 mi2 mi4 |
@@ -16,7 +16,7 @@ sol2 mi4 |
 la4. sol8 fad re |
 la,2. |
 re |
-r4 r re |
+r2 re4 |
 la la,2 |
 mi mi4 |
 si si,2 |

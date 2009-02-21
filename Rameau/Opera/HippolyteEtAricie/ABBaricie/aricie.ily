@@ -1,6 +1,6 @@
 \clef "vbas-dessus" r4 |
 R2. |
-r4 r re''8. dod''16 |
+r2 re''8. dod''16 |
 si'2 lad'8 si' |
 fad'2 si'4 |
 dod''8 re'' dod''4 si' |
@@ -20,13 +20,13 @@ la'4. ( sold'8 ) r dod'' |
 mi''4. re''8 dod'' re'' |
 lad'2 r4 |
 R2. |
-r4 r re''8 dod'' |
+r2 re''8 dod'' |
 si'2 lad'8 si' |
 fad'2 si'4 |
 dod''8 re'' dod''4 si' |
 fad''2. ~|
 fad''2 fad''8 r |
-r4 r fad''8 sol'' |
+r2 fad''8 sol'' |
 sol''2 fad''8 mi''16 [ red'' ]|
 \appoggiatura red''8 mi''2 dod''8. si'32 [ lad' ]|
 si'8 [ la'16 sol' ] fad'4. si'8 |

@@ -8,7 +8,6 @@ dod''2 fad''4-"à demi" |
 dod''8.( mi''16) re''8.( fad''16) si'8.( re''16) |
 dod''2 r4 |
 R2.*2 |
-
 la''4. (-"doux" re'''8 ) fad''8. ( la''16 )|
 \appoggiatura la''8 si''2 ~ si''8. si''16 |
 mi''2 r4 |
@@ -16,9 +15,7 @@ r fad''4. ( mi''16 ) re'' |
 re''2 re''8. dod''16 |
 \appoggiatura dod''8 re''2 r4 |
 R2.*3 |
-
-
-r4 r fad''8.-"doux" mi''16 |
+r2 fad''8.-"doux" mi''16 |
 re''2 ( dod''8. ) si'16 |
 lad'2 si'8. dod''16 |
 \appoggiatura dod''8 re''2 mi''8.( re''16) |
