@@ -1,4 +1,4 @@
-\clef "vbasse" r4^\markup \huge \italic { à Pluton } r8 do' do' do' do' do' |
+\clef "vbasse" r4^\markup \large \italic { à Pluton } r8 do' do' do' do' do' |
 mi'2 do'4 sol |
 mi2 mi4 sol |
 re2 r4 re'8 re' |

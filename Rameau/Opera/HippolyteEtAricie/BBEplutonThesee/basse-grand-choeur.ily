@@ -9,7 +9,7 @@ sol4. mi8 la4 la, |
 re,2 r4 re8 fa |
 si,4 do8 mi fa,4 |
 mi,2 r |
-r r4 mi, |
+r^"Vite nourrir les sons sans les détacher" r4 mi, |
 la, la,8. la,16 mi4 mi8. mi16 |
 fa4 r r2 |
 r4 r8 fa, sol,4 sol, |

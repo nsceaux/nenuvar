@@ -6,7 +6,7 @@
     \new Staff <<
       \instrumentName \markup { Basson II }
       \global \includeNotes "basson2" >>
-    \new Staff \withLyrics <<
+    \newTinyStaff \withLyrics <<
       \characterName \markup Thésée
       \global \includeNotes "thesee"
     >> \includeLyrics "paroles"
@@ -15,5 +15,4 @@
       \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { }
 }
