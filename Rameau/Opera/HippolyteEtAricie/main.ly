@@ -116,11 +116,9 @@
 %%% Acte Second
 \bookpart {
   \act "Acte Second"
+  \sceneDescription \markup \wordwrap-center { Le théâtre représente les Enfers. }
   \scene "Scène Première"
-  \sceneDescription \markup \column {
-    \fill-line { \line { Le théâtre représente les Enfers. } }
-    \fill-line { \line \smallCaps { Thésée, Tisiphone. } }
-  }
+  \sceneDescription \markup \wordwrap-center \smallCaps { Thésée, Tisiphone. }
   \pieceTocTitle "Ritournelle"
   \includeScore "BAAritournelle"
   \pieceToc \markup Thésée

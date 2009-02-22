@@ -1,6 +1,6 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff \withLyrics <<
+    \newTinyStaff \withLyrics <<
       \characterName \markup Thésée
       \global \includeNotes "thesee"
     >> \includeLyrics "paroles"
@@ -9,5 +9,4 @@
   >>
   \layout { indent = \largeindent
             ragged-right = ##t }
-  \midi { }
 }
