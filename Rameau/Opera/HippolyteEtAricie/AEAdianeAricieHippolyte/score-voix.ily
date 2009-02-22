@@ -1,5 +1,5 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new Staff \withLyrics <<
       \global \includeNotes "diane-aricie"
     >> \includeLyrics "paroles"
@@ -8,8 +8,6 @@
         s1 \noBreak }
       \global \includeNotes "hippolyte"
     >> \includeLyrics "paroles-hippolyte"
-    \new Staff << \global \includeNotes "basse" >>
   >>
   \layout { }
-  \midi { }
 }

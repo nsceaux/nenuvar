@@ -1,7 +1,16 @@
-\clef "basse" r2 R1*3
-R1*5
-R1*3
-r8 r16 mi16 mi8. mi16 la8. la16 la8. mi16 |
+\clef "basse" re'4 la |
+fa re sib re |
+dod2 mi |
+fa,4 re sol, la, |
+re,2 re ~|
+re4. do8 sib,2 |
+la, r4 dod |
+re2 r4 mi |
+fa2 r4 fad |
+sol4. mi8 la4. re8 |
+dod2 re |
+fa mi |
+la,8. mi16 mi8. mi16 la8. la16 la8. mi16 |
 fa4. la8-"doux" re8. fa16 sib,8. re16 |
 sol,8. sol16 sol8. sol16 sib8. sib16 sib8. sol16 |
 la2 r4 r8 la, |

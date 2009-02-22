@@ -6,7 +6,7 @@ sa fou -- dre vo -- le de -- vant moi.
 
 %% (à Phèdre.)
 Toi, trem -- ble, Rei -- ne sa -- cri -- lè -- "ge ;"
-pen -- ses "-tu" m’ho -- no -- rer par d’in -- jus -- tes ri -- "gueurs ?"
+pen -- ses- tu m’ho -- no -- rer par d’in -- jus -- tes ri -- "gueurs ?"
 Ap -- prends que Di -- a -- ne pro -- tè -- ge
 la li -- ber -- té des cœurs.
 
@@ -20,5 +20,5 @@ dans son temple et dans les fo -- rêts.
 Dé -- es -- se, par -- don -- nez…
 
 %% DIANE.
-Vot -- re ver -- tu m’est chè -- "re ;"
+Vo -- tre ver -- tu m’est chè -- "re ;"
 et c’est au cri -- me seul que je dois ma co -- lè -- re.

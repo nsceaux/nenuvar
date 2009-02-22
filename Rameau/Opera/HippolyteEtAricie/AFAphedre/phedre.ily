@@ -11,7 +11,7 @@ la'8 la' fa''4. do''8 ~ do''16 do'' do'' re'' |
 << { \appoggiatura re'' mi''2 si' ~| } { s8 s4.^\markup "Silence" } >>
 si'8 si'16 si' do''8 re'' sold'4. la'8 |
 la'2 la'8 r r4 |
-r8^\markup "Mesuré" la' la' la' re'' re'' re'' fa'' |
+r8 la' la' la' re'' re'' re'' fa'' |
 sib'4 sib'8 re'' sol'4 sol'8 sol' |
 mi'4. mi'8 la' la' la' mi' |
 \appoggiatura mi' fa'2 fa'8 r r4 |

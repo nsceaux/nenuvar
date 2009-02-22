@@ -23,8 +23,12 @@ mib''4. mib''8 la'4 la'8 la'16 sib' |
 fa'4 fa'8 r sib'4 mib'' |
 do''2 fa'' |
 re''2. re''8 mib'' |
-mib''4. \aricieMark sib'8 si'8. si'16 si'8. re''16 |
-sol'2 \dianeMark mi''8 mi''16 mi'' fad''8 sol'' |
+mib''4. \aricieMark <<
+  { \voiceOne sib'8 si'8. si'16 si'8. re''16 sol'2 }
+  \new Voice \with { autoBeaming = ##f } {
+    \voiceTwo sol'8_\markup \character Hippolyte sol'8. fa'16 fa'8. sol'16 mi'2
+  } >>
+\oneVoice \dianeMark mi''8 mi''16 mi'' fad''8 sol'' |
 fad''4 fad''8 r re''4 re''16 re'' re'' re'' |
 sol''4 do''8 sib' la'4. la'16 sib' |
 sol'2 sol'8 r r4 |
