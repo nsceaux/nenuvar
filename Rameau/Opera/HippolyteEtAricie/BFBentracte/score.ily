@@ -12,5 +12,5 @@
                   \global \includeNotes "contre-basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 120 4) } }
+  \midi { }
 }

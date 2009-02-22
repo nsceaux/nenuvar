@@ -4,9 +4,7 @@
       \new Staff << \instrumentName \markup Dessus
                     { s2 s1*3 s2 \break s2 s1*5 s2 \break
                       s2 s1*3 s2 s2 s1*3 s2 s2 s1*5 s2 s2 s1*5 s2 \break
-                      s2 s1*3 s2 s2 s1*7 s2 \break
-                      s2 s1*3 s2 s2 s1*3 s2 s2 s1*7 s2 s2 s1*7 s2 \break
-                      s2 s1*3 s2 \break }
+                      s2 s1*3 s2 s2 s1*7 s2 \break }
                     \global \includeNotes "dessus" >>
       \new Staff <<
         \instrumentName \markup Haute-contres
@@ -49,9 +47,7 @@
     \newHaraKiriStaffB <<
       { \startHaraKiri s2 s1*9 s2 \stopHaraKiri
         s2 s1*3 s2 s2 s1*3 s2 s2 s1*5 s2 s2 s1*5 s2
-        \startHaraKiri s2 s1*3 s2 s2 s1*7 s2 \stopHaraKiri
-        s2 s1*3 s2 s2 s1*3 s2 s2 s1*7 s2 s2 s1*7 s2
-        \startHaraKiri s2 s1*9 s2 \stopHaraKiri }
+        \startHaraKiri s2 s1*3 s2 s2 s1*7 s2 \stopHaraKiri }
       \global \includeNotes "basse-continue" >>
   >>
   \layout { indent = \largeindent }

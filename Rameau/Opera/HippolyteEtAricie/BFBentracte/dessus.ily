@@ -32,7 +32,7 @@ fad''8 la''16 sol'' fad'' sol'' la'' sol'' fad'' mi'' re'' do'' |
 si'8 si''16 la'' sol'' la'' si'' la'' sol'' fad'' mi'' re'' |
 mi''8 fad''16 sol'' la'8 si'16 do'' re'8 sol''16 fad'' |
 sol''8 fad''16 mi'' re'' sol'' fad'' mi'' re'' do'' si' la' |
-sol'4 r r |
+sol'4 r2 |
 r8 re'16 mi' fad' mi' re' mi' fad' sol' la' si' |
 sol''8 fad''16 mi'' re'' sol'' fad'' mi'' re'' do'' si' la' |
-sol'4 r r |
+sol'4 r2 |

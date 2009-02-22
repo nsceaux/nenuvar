@@ -1,6 +1,6 @@
 \score {
-  <<
-    \new StaffGroup <<
+  \new StaffGroupNoBar <<
+    \new StaffGroupNoBracket <<
       \new Staff << \instrumentName \markup { Violons I }
                     \global \includeNotes "violon1" >>
       \new Staff << \instrumentName \markup { Violons II }
@@ -37,5 +37,5 @@
                   \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 120 4) } }
+  \midi { }
 }

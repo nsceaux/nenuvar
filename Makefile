@@ -103,7 +103,8 @@ archive:
 ##################################################################################
 
 ### Rameau
-$(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie,violon1 flute1 hautbois1,,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie,\
+violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basse voix trompette timbales basse-continue,,))
 
 ### Couperin
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents,,,))

@@ -36,8 +36,4 @@ mi'2 la'4 la' |
 la'4. la'8 la'4. re'8 |
 sib'4 la'8 r la'4. sol'8 |
 fa'4. mi'16 [ re' ] dod'4. re'8 |
-re'2 r2 |
-R1*3 |
-r2 r2 |
-R1*5 |
-r2
+re'2

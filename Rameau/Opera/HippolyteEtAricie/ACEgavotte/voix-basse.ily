@@ -35,8 +35,4 @@ la2 dod'4 re' |
 la \appoggiatura sol8 fa4 mi4. re8 |
 sol4 sol8 r fa4. mi8 |
 fa4. sol8 la4 la, |
-re2 r2 |
-R1*3 |
-r2 r2 |
-R1*5 |
-r2
+re2

@@ -11,7 +11,7 @@ si si16 si re'8 re' fad4 |
 sol4. fad16 mi la8 la, |
 re2. |
 re'8 dod'16 si la re' do' si la sol fad la |
-sol4 r r |
+sol4 r2 |
 r8 re16 mi fad mi re mi fad sol la si |
 do'8 la fad re la, fad, |
 re,2 r8 r16 re |
@@ -35,4 +35,4 @@ sol2. |
 r16 re mi fad sol fad sol la si la si do' |
 re'8 la fad re la, fad, |
 sol,2. ~|
-sol,4 r r |
+sol,4 r2 |

@@ -11,7 +11,7 @@ si re' fad |
 sol4. mi8 la4 |
 re2. |
 re4 re re |
-sol r r |
+sol r2 |
 re2. |
 re4 re re |
 re2 r8 r16 re |
@@ -35,4 +35,4 @@ sol2. |
 re4 sol si |
 re' re re |
 sol2. |
-sol,4 r r |
+sol,4 r2 |

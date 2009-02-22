@@ -36,8 +36,4 @@ dod''2 mi''4 fa'' |
 \appoggiatura fa''8 mi''4. la''8 la''4 ( sol''8. ) fa''16 |
 \appoggiatura fa''8 mi''4 \appoggiatura re''8 dod''4 re''4. mi''8 |
 la'4. fa''8 mi''4. re''8 |
-re''2 r2 |
-R1*3 |
-r2 r2 |
-R1*5 |
-r2
+re''2

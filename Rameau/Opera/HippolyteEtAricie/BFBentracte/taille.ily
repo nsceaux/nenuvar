@@ -33,4 +33,4 @@ sol'4. sol'16 sol' sol'8 re' |
 re'2. |
 R2.*2 |
 re'2.~|
-re'4 r r |
+re'4 r2 |

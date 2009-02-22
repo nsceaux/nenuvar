@@ -36,8 +36,4 @@ la2 la4 si |
 dod' re' dod'4. re'8 |
 re'4 mi'8 r fa'4. dod'8 |
 re'4. re'8 la4. la8 |
-la2 r2 |
-R1*3 |
-r2 r2 |
-R1*5 |
-r2
+la2
