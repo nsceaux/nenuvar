@@ -1,6 +1,6 @@
 \score {
-  <<
-    \new StaffGroup <<
+  \new StaffGroupNoBar <<
+    \new StaffGroupNoBracket <<
       \new Staff <<
         \instrumentName \markup Violons
         \global \includeNotes "violon"
@@ -14,11 +14,12 @@
         \global \includeNotes "taille"
       >>
     >>
-    \new ChoirStaff \with { instrumentName = "Chœur              " } <<
+    \new ChoirStaff <<
       \new Staff \withLyrics <<
         \global \includeNotes "voix-haute-contre"
       >> \includeLyrics "paroles-haute-contre"
       \new Staff \withLyrics <<
+        \instrumentName \markup Chœur
         \global \includeNotes "voix-taille"
       >> \includeLyrics "paroles-taille"
       \new Staff \withLyrics <<
@@ -32,5 +33,5 @@
     indent = \largeindent
     incipit-width = #(* incipit-width 1.2)
   }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 160 4) } }
+  \midi { }
 }

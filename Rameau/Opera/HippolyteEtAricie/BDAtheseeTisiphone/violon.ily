@@ -19,5 +19,5 @@ r2 r4 re'' ~|
 re''2. re''8 dod'' |
 \appoggiatura dod'' re''2 r |
 R1*2 |
-%{r2 r |%} s1
+r2 r |
 R1*6 |

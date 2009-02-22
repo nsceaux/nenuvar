@@ -8,8 +8,7 @@ lab' sol' lab' |
 sib'2 mib'4 lab'4. lab'8 lab' fa' |
 sol'2. |
 R2.*2 |
-
-r4 r reb' |
+r2 reb'4 |
 mib' mib' fa' |
 solb' solb' lab' |
 fa'2 fa'8 r |
@@ -17,8 +16,7 @@ fa'4 fa' mib' |
 mib'2 reb' do'4. sib8 |
 sib2. |
 R2.*2 |
-
-r4 r sol' |
+r2 sol'4 |
 sib' lab' sol' |
 fa' mib' reb' |
 do'2 do'8 r |

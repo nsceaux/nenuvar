@@ -1,5 +1,5 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new Staff \withLyrics <<
       \characterName \markup { \concat { P \super \smallCaps re } \smallCaps Parque }
       \global \includeNotes "parque1"
@@ -12,10 +12,6 @@
       \characterName \markup { \concat { 3 \super \smallCaps e } \smallCaps Parque }
       \global \includeNotes "parque3"
     >> \includeLyrics "paroles"
-    \new Staff <<
-      \instrumentName \markup { Basse continue }
-      \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { }
 }

@@ -1,2 +1,2 @@
 \keys do \minor
-\time 4/4 s1*4 \bar "|."
+\midiTempo #80 \time 4/4 s1*4 \bar "|."

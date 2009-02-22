@@ -38,4 +38,4 @@ lab mib lab do' lab mib |
 do4 do do |
 reb2 lab, mib4. mib8 |
 lab,4. do8 mib lab |
-do'4 r r |
+do'4 r2 |
