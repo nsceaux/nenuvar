@@ -22,7 +22,7 @@
 
 \setOpus "Rameau/Opera/HippolyteEtAricie"
 \opusTitle "Hippolyte et Aricie"
-\include "Rameau/Opera/HippolyteEtAricie/personnages.ily"
+\include "Rameau/Opera/HippolyteEtAricie/common.ily"
 
 \paper { #(define page-breaking ly:optimal-breaking) }
 
@@ -79,22 +79,12 @@
   \includeScore "ACAmarche"
   \pieceToc \markup { Chœur de prêtresses : \italic { Dans ce paisible séjour Règne l'aimable innocence }}
   \includeScore "ACBchoeur"
-  \pieceTocTitle "Premier Air"
-  \includeScore "ACCair"
-  \pieceToc \markup { Une prêtresse : \italic { Dieu d’Amour, pour nos asiles, tes tourments ne sont pas faits. } }
-  \includeScore "ACDpretresse"
+  \pieceTocAndTitle \markup "PREMIER AIR" \markup { Premier air : \italic { Dieu d’Amour, pour nos asiles, tes tourments ne sont pas faits. } }
+  \includeScore "ACCpretresse"
   \pieceTocTitle "Deuxième Air"
-  \includeScore "ACEair"
-  \pieceTocTitle "Première Gavotte"
-  \includeScore "ACFgavotte"
-  \pieceToc \markup { La prêtresse, chœur : \italic { De l’Amour fuyez les charmes } }
-  \includeScore "ACGpretresseChoeur"
-  \pieceTocTitle  "Deuxième Gavotte"
-  \includeScore "ACHgavotte"
-  \pieceToc \markup { La prêtresse, chœur : \italic { La paix et l’indifférence Comblent ici nos désirs } }
-  \includeScore "ACIpretresseChoeur"
-  \pieceNoTitle
-  \reIncludeScore "ACFgavotte" "ACFgavotteBis"
+  \includeScore "ACDair"
+  \pieceTocAndTitle \markup "GAVOTTE" \markup { Gavotte : \italic { De l’Amour fuyez les charmes } }
+  \includeScore "ACEgavotte"
   %%
   \scene "Scène IV"
   \sceneDescription \markup \smallCaps { Phèdre, Aricie, Hippolyte. }

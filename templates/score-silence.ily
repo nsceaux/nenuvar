@@ -17,6 +17,10 @@
                   largeindent
                   (or (*score-indent*) smallindent))
     ragged-last = #(*score-ragged*)
-    \context { \Score \override RehearsalMark #'font-size = #0 }
+    \context {
+      \Score
+      \override RehearsalMark #'font-size = #0
+      \override MetronomeMark #'font-size = #-1
+    }
   }
 }

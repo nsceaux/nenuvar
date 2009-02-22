@@ -27,13 +27,19 @@
 \opusTitle "Hippolyte et Aricie"
 \include "Rameau/Opera/HippolyteEtAricie/personnages.ily"
 
-\opusPartSpecs #`((dessus1 "Dessus I" () (#:notes "dessus"))
-                  (dessus2 "Dessus II" () (#:notes "dessus"))
-                  (haute-contre "Haute-contre de violon" () (#:notes "haute-contre"))
-                  (taille "Taille de violon" () (#:notes "taille" #:clef "alto"))
-                  (quinte "Quinte de violon" () (#:notes "quinte" #:clef "alto"))
-                  (basse "Basse" () (#:notes "basse" #:clef "bass"))
-                  (voix "Parties vocales" () (#:score "score-voix")))
+\opusPartSpecs #`(
+  (violon1 "Violon I" ((flute1 "Flûtes") (hautbois1 "Hautbois")) (#:notes "dessus"))
+  (violon2 "Violon II" ((flute2 "Flûtes") (hautbois2 "Hautbois")) (#:notes "dessus"))
+  (flute1 "Flûte I" ((violon1 "Violons") (hautbois1 "Hautbois")) (#:notes "dessus"))
+  (flute2 "Flûte II" ((violon2 "Violons") (hautbois2 "Hautbois")) (#:notes "dessus"))
+  (hautbois1 "Hautbois I" ((violon1 "Violons") (flute1 "Flûtes")) (#:notes "dessus"))
+  (hautbois2 "Hautbois II" ((violon2 "Violons") (flute2 "Flûtes")) (#:notes "dessus"))
+  (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "treble"))
+  (taille "Taille" () (#:notes "taille" #:clef "alto"))
+  (basse "Basse" () (#:notes "basse" #:clef "bass"))
+  (voix "Parties vocales" () (#:score "score-voix"))
+  (basse-continue "Basse continue" ()
+   (#:notes "basse" #:clef "bass")))
 
 \layout {
   \context { \Score \override VerticalAlignment #'max-stretch = ##f }

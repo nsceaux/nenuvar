@@ -1,4 +1,3 @@
-\version "2.11.57"
 \score {
   <<
     \new StaffGroup <<
@@ -29,5 +28,5 @@
     >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 132 4) } }
+  \midi { }
 }

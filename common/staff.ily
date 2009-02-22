@@ -17,9 +17,7 @@
 withLyrics =
 #(define-music-function (parser location music lyrics) (ly:music? ly:music?)
    (let ((name (symbol->string (gen-unique-context))))
-     #{  << \context Voice = $name << 
-            \set Voice . autoBeaming = ##f
-            $music >>
+     #{  << \context Voice = $name \with { autoBeaming = ##f } $music
             \lyricsto $name \new Lyrics $lyrics
             >> #}))
 

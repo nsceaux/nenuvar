@@ -9,7 +9,7 @@
 #(define-markup-command (character-text paper props name text) (markup? markup?)
   (interpret-markup paper props
    (markup #:null #:translate  (cons -4 1)
-    #:line (#:characteri name #:huge " " #:huge #:italic text))))
+    #:line (#:characteri name #:large " " #:large #:italic text))))
 
 #(define-public (make-character-mark clefs name)
    (if (string=? clefs "")
