@@ -1,5 +1,5 @@
-\clef "vhaute-contre" s2.*40 |
-s4. r4 sol'16 sol' |
+\clef "vhaute-contre" R2.*40 |
+r2*3/4 r4 sol'16^\markup \character Chœur sol' |
 sol'4. sol'8 r16 sol' sol' sol' |
 do''4. do''8 r sol'16 sol' |
 sol'4. fa'8 r16 fa' fa' fa' |

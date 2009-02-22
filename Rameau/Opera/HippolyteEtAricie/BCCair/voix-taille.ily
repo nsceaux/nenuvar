@@ -1,4 +1,7 @@
-\clef "vtaille" R2. |
+\clef "vtaille"
+R2. R2.*11 R2.*2 R2.*2
+R2.*17 R2.*3 R2.*2
+R2. |
 do'4 do' do' |
 re' re' sol |
 la la la |

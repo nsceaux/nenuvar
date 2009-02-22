@@ -153,12 +153,10 @@
   \includeScore "BCAplutonChoeur"
   \pieceTocTitle "Premier air infernal"
   \includeScore "BCBair"
-  \pieceTocTitle "Deuxième air de furies"
+  \pieceTocAndTitle \markup "DEUXIÈME AIR DE FURIES" \markup {
+    Deuxième air de furies : \italic { Pluton commande, vengeons notre Roi. }
+  }
   \includeScore "BCCair"
-  \pieceToc \markup { Chœur : \italic { Pluton commande, vengeons notre Roi. } }
-  \includeScore "BCDchoeur"
-  \pieceNoTitle
-  \reIncludeScore "BCCair" "BCCairBis"
   %%
   \scene "Scène IV"
   \sceneDescription \markup \wordwrap-center {

@@ -1,5 +1,5 @@
-\clef "vtaille" s2.*40 |
-s4. r4 mib'16 mib' |
+\clef "vtaille" R2.*40 |
+r2*3/4 r4 mib'16 mib' |
 mib'4. mib'8 r16 mib' mib' mib' |
 mib'4. mib'8 r mib'16 mib' |
 mib'4. re'8 r16 re' re' re' |

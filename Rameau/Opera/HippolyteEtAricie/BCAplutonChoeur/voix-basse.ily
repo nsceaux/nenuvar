@@ -1,5 +1,5 @@
-\clef "vbasse" s2.*40 |
-s4. r4 do'16 do' |
+\clef "vbasse" R2.*40 |
+r2*3/4 r4 do'16 do' |
 do'4. do'8 r16 do' do' mib' |
 lab4. lab8 r mib16 mib |
 fa4. fa8 r16 fa fa re |

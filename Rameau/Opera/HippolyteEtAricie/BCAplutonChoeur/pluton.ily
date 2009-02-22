@@ -1,5 +1,4 @@
 \clef "vbasse" R2.*2 |
-
 r8 sol sol mib mib do |
 sol sol sol do' do' mib' |
 do'4. do'8 r sol16 la |
@@ -33,20 +32,8 @@ re'8. mib'16 re' do' si8 si do' |
 sol2. |
 do'8. sib16 lab sol fa8 fa sol |
 do2. |
-R2.*5 |
-
-
-
-
-r2*3/4 r2*3/4 |
-R2.*7 |
-
-
-
-
-
-
-r2*3/4 r8 r sib16 sib |
+R2.*13 |
+r2*3/4 r8 r sib16^\markup \character Pluton sib |
 sib2. ~|
 sib4. sib8 r16 la la la |
 re'2. |

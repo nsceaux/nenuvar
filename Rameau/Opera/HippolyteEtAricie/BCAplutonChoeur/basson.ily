@@ -37,7 +37,7 @@ fa,8-"fort" lab, do fa lab do' |
 do4. r2*3/4 |
 sol,8 si, re sol si re' |
 sol'4. r2*3/4 |
-r2*3/4 r2*3/4 |
+R2. |
 mib'16 ( re' ) do' ( si ) do' ( re' ) mib' ( re' ) do' ( si ) do' ( re' )|
 mib' ( fa' ) mib' ( reb' ) mib' ( sib ) do' ( sib ) do' ( reb' ) mib' ( sol )|
 lab ( sib ) do' ( sib ) lab ( sib ) do' ( %{reb'%} re' ) do' ( sib ) lab ( fa )|
