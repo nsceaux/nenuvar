@@ -1,5 +1,5 @@
 \clef "vdessus" s8 R2.*2 R1 R1*2 R1*6 |
-r2 r4 mi'' |
+r2 r4 mi''^\markup \character Chœur |
 fa''2 fa''4 fa''8 fa'' |
 re''4 re''8 re'' sol''4 sol''8 sol'' |
 mi''2 do''4 do''8 re'' |

@@ -38,8 +38,8 @@ re, |
 re, |
 re, |
 re, |
-re,16 sol' re' sol' re' sol' re' sol' |
-re' sol' re' sol' re' sol' re' sol' |
+re,16 sol re sol re sol re sol |
+re sol re sol re sol re sol |
 sol8\> sol sol sol |
 sol sol sol sol \! |
 sol r r4 

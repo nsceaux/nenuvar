@@ -1,4 +1,4 @@
 \keys re \major
-\time 3/4
+\midiTempo #120 \time 3/4
 \markUpBegin \mark Prélude
 s2.*10 \bar "|."

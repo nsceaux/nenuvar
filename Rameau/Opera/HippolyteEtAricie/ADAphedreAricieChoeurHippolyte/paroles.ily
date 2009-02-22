@@ -41,7 +41,7 @@ dès mes plus ten -- dres ans je lui don -- nai ma foi.
 
 %% HIPPOLYTE.
 Je sais tout ce que je lui dois
-mais, ne puis "-je" pour lui faire é -- cla -- ter mon zè -- le,
+mais, ne puis- je pour lui faire é -- cla -- ter mon zè -- le,
 qu’en ou -- tra -- geant une Im -- mor -- tel -- "le ?"
 
 %% PHEDRE.

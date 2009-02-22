@@ -15,6 +15,14 @@
     \new Staff << \instrumentName \markup Contre-basses
                  \global \includeNotes "contre-basse" >>
   >>
-  \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 80 4) } }
+  \layout {
+    indent = \largeindent
+    %% TODO: remove this when < and > are duely taken into
+    %% account in vertical extent estimation
+    \context {
+      \Score
+      \override VerticalAlignment #'max-stretch = ##f
+    }
+  }
+  \midi { }
 }
