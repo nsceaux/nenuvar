@@ -1,6 +1,19 @@
 #(set-cdr! (assoc 'haute-contre french-clefs)
           '(soprano . alto))
 
+\opusPartSpecs #`(
+  (dessus1 "Dessus I" () (#:notes "dessus"))
+  (dessus2 "Dessus II" () (#:notes "dessus"))
+  (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
+  (haute-contre-treble "Haute-contre" ((haute-contre #f "treble")) (#:notes "haute-contre" #:clef "treble"))
+  (taille "Taille" () (#:notes "taille" #:clef "alto"))
+  (quinte "Quinte" () (#:notes "quinte" #:clef "alto"))
+  (basse "Basse" () (#:notes "basse" #:clef "bass"))
+  (voix "Parties vocales" () (#:score "score-voix"))
+  (basse-continue "Basse continue" ()
+   (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue")))
+
+
 %%%
 gloireMark =
 #(define-music-function (parser location) ()

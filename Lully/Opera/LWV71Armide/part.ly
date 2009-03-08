@@ -28,17 +28,6 @@
 \opusTitle "Armide"
 \include "Lully/Opera/LWV71Armide/common.ily"
 
-\opusPartSpecs #`(
-  (dessus1 "Dessus I" () (#:notes "dessus"))
-  (dessus2 "Dessus II" () (#:notes "dessus"))
-  (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
-  (taille "Taille" () (#:notes "taille" #:clef "alto"))
-  (quinte "Quinte" () (#:notes "quinte" #:clef "alto"))
-  (basse "Basse" () (#:notes "basse" #:clef "bass"))
-  (voix "Parties vocales" () (#:score "score-voix"))
-  (basse-continue "Basse continue" ()
-   (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue")))
-
 \layout {
   \context { \Score \override VerticalAlignment #'max-stretch = ##f }
   \context { \Staff \consists "Page_turn_engraver" }

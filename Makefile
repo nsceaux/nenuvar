@@ -120,7 +120,7 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,\
 dessus1 dessus2 haute-contre taille quinte basse basse-continue voix,part5,trompette tambour timbales))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV61Phaeton,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV71Armide,\
-dessus1 dessus2 taille basse-continue voix,part2,haute-contre quinte basse))
+dessus1 dessus2 taille basse-continue voix,part2,haute-contre haute-contre-treble quinte basse))
 
 ### Charpentier
 $(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/Opera/DavidEtJonathas,\

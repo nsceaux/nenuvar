@@ -290,10 +290,15 @@ piecePartSpecs =
                      #:clef #f)
          (let* ((part (caar parts))
                 (part-name (cadar parts))
+                (forced-clef (if (null? (cddar parts)) #f (caddar parts)))
                 (spec-result (assoc part piece-specs))
                 (spec (and spec-result (cdr spec-result))))
            (if spec
-               (let ((piece (apply make-piece spec (get-defaults part))))
+               (let* ((default-spec (append (get-defaults part)
+                                            (if forced-clef
+                                                (list #:clef forced-clef)
+                                                (list))))
+                       (piece (apply make-piece spec default-spec)))
                  (if (and part-name (not (assoc-ref piece 'instrument)))
                      (assoc-set! piece 'instrument part-name))
                  piece)
