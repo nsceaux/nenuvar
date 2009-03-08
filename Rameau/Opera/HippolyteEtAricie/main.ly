@@ -37,6 +37,14 @@
   \markup \null
   \pageBreak
 
+%{
+Ambitus (à vérifier)
+Phèdre    re' sol''
+Aricie    re' si''
+Hippolyte sol si'
+Thésée    sol, sol''
+%}
+
   %% Table of contents
   \markuplines \table-of-contents
 }
@@ -95,8 +103,12 @@
   \pieceToc \markup { La prêtresse, chœur : \italic { Dieux vengeurs, lancez le tonnerre } }
   \includeScore "ADCprelude"
   \includeScore "ADDpretresseChoeur"
+  %% TODO: \pageBreak to be removed when < and > duely taken into
+  %% account in vertical extent estimation
+  \pageBreak
   \pieceTocTitle "Bruit de tonnerre"
   \includeScore "ADEtonnerre"
+  \pageBreak
   %%
   \scene "Scène V"
   \sceneDescription \markup { \smallCaps Diane, et les acteurs

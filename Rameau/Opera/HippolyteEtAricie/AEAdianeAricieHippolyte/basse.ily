@@ -19,7 +19,7 @@ sol4. fa8 mib2 |
 re si,4 |
 do2 re |
 sol, mib, |
-la,1 |
+lab,1 |
 sib,2 sol, |
 lab,1 |
 sib, |

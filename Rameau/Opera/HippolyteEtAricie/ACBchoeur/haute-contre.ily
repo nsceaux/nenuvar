@@ -1,5 +1,4 @@
 \clef "haute-contre" R2.*2 |
-
 re'4 re' re' |
 la' la'4. la'8 |
 fad'4 sol'4. fad'8 |
@@ -7,7 +6,7 @@ mi'8. sol'16 fad'4. sol'16 la' |
 re'2 re'8 mi' |
 do'2 do'8 re' |
 sol4 sol8 r r4 |
-r r sol |
+r2 sol4 |
 sold8. si16 mi'4 mi'8 sold |
 la2 la4 |
 si2 si4 |

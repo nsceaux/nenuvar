@@ -28,8 +28,8 @@ mi'4 r16 mi'8 sol'16 fad'4 ( mi'8 ) re'16 dod' |
 \appoggiatura dod'8 re'2 re'8 re'16 re' dod' [ si ]\appoggiatura la8 sold |
 dod'4 red'8 mi' red'4 mid'8 fad' |
 fad'2. ( mid'4 )|
-\appoggiatura mid'8 fad'4 \aricieMark la' r16 la' la' re'' si'8 si'16 dod'' |
-\appoggiatura re''8 mi'' mi'' r la'16 la' sol'4 re''8. fad''16 |
+\appoggiatura mid'8 fad'4 \aricieMark la' r16 la' la' re'' dod''8 dod''16 re'' |
+\appoggiatura re''8 mi'' mi'' r la'16 la' fad'4 re''8. fad''16 |
 si'8 sol''16 fad'' mi''4. mi''16 fad'' |
 \appoggiatura mi''8 re''2 \markUpBegin \mark Air fad''4 |
 fad''16 [ mi'' ] mi''8 mi'' re'' dod'' si' |

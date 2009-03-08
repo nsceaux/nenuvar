@@ -7,7 +7,7 @@ si'8 do''16 si' la'2 ~|
 la' sol'16 ( fad' ) sol'8 |
 sol'2 sol'8 fad' |
 sol'4 re'8 r r4 |
-r r si' |
+r2 si'4 |
 si'8. si'16 sold'4 sold'8 si' |
 mi'2 dod''4 |
 re''2 re''4 |

@@ -2,7 +2,7 @@
 Prin -- ces -- se, quels ap -- prêts me frap -- pent dans ce Tem -- "ple !"
 
 %% ARICIE.
-Dia -- ne pré -- side en ces li -- "eux ;"
+Di -- a -- ne pré -- side en ces "lieux ;"
 lui con -- sa -- crer mes jours, c’est sui -- vre votre e -- xem -- ple.
 
 %% HIPPOLYTE.
