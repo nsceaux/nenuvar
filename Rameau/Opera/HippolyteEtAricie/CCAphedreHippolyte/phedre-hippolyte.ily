@@ -84,9 +84,11 @@ re''4 re''8 re'' \appoggiatura re'' mib''4. mib''8 |
 si' si' r re''16 re'' re''8. sol''16 mi''8 mi''16 sol'' |
 do''8 do'' fa''4. la'16 la' sib' sib' sib' do'' |
 re''8. fa''16 fa''8 mib'' re'' do'' sib' la' |
-sol' sol' mi''4^\markup \italic \column {
+sol' sol' mi''4
+\once \override TextScript #'self-alignment-X = #RIGHT
+mi''8^\markup \italic \column {
   \line { (Phèdre tire l’épée d’Hippolyte qui la }
   \line { lui arrache sur le champ de la main.) }
-} mi''8 \hippolyteMark do' do' do' |
+} \hippolyteMark do' do' do' |
 sol'4 \phedreMark do''8 do'' sol'4 sol'8 sol' |
 mi'8. 

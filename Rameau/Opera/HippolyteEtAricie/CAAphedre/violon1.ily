@@ -7,7 +7,7 @@ re''4 dod''8 ( si'16 lad' )\appoggiatura lad'8 si'8. dod''16 |
 \appoggiatura dod''8 re''4 \appoggiatura dod''8 si'4 r8 fad' |
 sold'8. ( lad'16 ) si'8. ( dod''16 ) re''8. ( dod''32 si' )|
 \appoggiatura si'8 dod''4 fad' r |
-r r fad''-"doux" ~|
+r2 fad''4-"doux" ~|
 fad'' mi'' re'' |
 dod''2. ~|
 dod''4 si' la' |
@@ -16,9 +16,6 @@ fad' fad'4 ~|
 fad'8 ( mi'16 re' ) dod'4. si8 |
 si2. |
 R2.*5 |
-
-
-
 r4 r8 fad'-"doux" sold'8. ( lad'16 )|
 si'8. ( dod''16 ) re''8. ( mi''16 ) fad''4 ~|
 fad''8. ( mi''16 ) re''8. ( dod''16 ) si'8. dod''16 |
@@ -26,10 +23,7 @@ lad'4 dod''4. ( mi''8 )|
 re''8. ( lad'16 ) si'4. ( dod''16 re'' )|
 dod''8. ( fad'16 ) fad'4 r |
 R2.*4 |
-
-
-
-r4 r r8 si' |
+r2 r8 si' |
 mi''2. ~|
 mi''4. ( re''16 dod'' ) fad''8. dod''16 |
 \appoggiatura dod''8 re''4 la' r8 re'' |

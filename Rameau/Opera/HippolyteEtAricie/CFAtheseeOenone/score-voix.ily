@@ -1,13 +1,11 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \newHaraKiriStaff \withLyrics <<
       \global \includeNotes "thesee-debut"
     >> \includeLyrics "paroles-debut"
     \newHaraKiriStaffB \withLyrics <<
         \global \includeNotes "thesee-oenone"
       >> \includeLyrics "paroles"
-    \new Staff << \global \includeNotes "basse" >>
   >>
   \layout { }
-  \midi { }
 }

@@ -1,10 +1,9 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff \withLyrics <<
-      \global \includeNotes "thesee-phedre-hippolyte"
+    \newTinyStaff \withLyrics <<
+      \global \includeNotes "thesee-hippolyte"
     >> \includeLyrics "paroles"
     \new Staff << \global \includeNotes "basse" >>
   >>
   \layout { }
-  \midi { }
 }

@@ -1,6 +1,6 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff \withLyrics <<
+    \newTinyStaff \withLyrics <<
       \characterName \markup Phèdre
       \global \includeNotes "phedre"
     >> \includeLyrics "paroles"
@@ -8,5 +8,4 @@
                  \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { }
 }
