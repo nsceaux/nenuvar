@@ -1,9 +1,6 @@
 s2
 R1
 R1*4
-
-
-
 \oenoneMarkText \markup \italic "à part" \grace s8
 sol''8. re''16 sib'8 sib'16 sol' re''8 re''16 re'' re''8 re''16 mi'' |
 \appoggiatura mi''8 fa''4 fa''8 r re''^\markup \italic "à Thésée" re''16 re'' re''8. re''16 |
@@ -18,4 +15,4 @@ do''4 r8 r16 fa'' fa''8 fa'' mib'' re'' |
 sib2 sib8 \oenoneMark sol'16 sol' sol'8. sol'16 |
 mi'4 mi'8 r \theseeMark r mi mi mi |
 la4 r8 mi mi mi fad sol |
-fad2 fad8 r r4
+fad2 fad8 r

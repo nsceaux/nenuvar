@@ -1,5 +1,5 @@
 \keys si \minor
-\markUpBegin \mark "Fort et marqué, sans vitesse"
+\midiTempo #80 \tempo "Fort et marqué, sans vitesse"
 \time 2/2 \partial 2. s2. s1*39 
 \time 3/4 s2.
 \time 4/4 \grace s8 s1*4

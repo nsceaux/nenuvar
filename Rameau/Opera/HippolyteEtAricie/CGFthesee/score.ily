@@ -4,9 +4,9 @@
       \characterName \markup Thésée
       \global \includeNotes "thesee"
     >> \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup Basses
+    \new Staff << \instrumentName \markup { Basse continue }
                   \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 108 4) } }
+  \midi { }
 }

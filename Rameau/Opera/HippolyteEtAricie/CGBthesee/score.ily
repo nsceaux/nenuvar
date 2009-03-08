@@ -19,8 +19,8 @@
       \global \includeNotes "thesee"
     >> \includeLyrics "paroles"
     \new Staff << \instrumentName \markup Basses
-                  \global \includeNotes "basse" >>
+                  \global \includeNotes "basse-continue" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 80 4) } }
+  \midi { }
 }

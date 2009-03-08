@@ -37,14 +37,5 @@ mid,4 r r2 |
 mi,4 r r2 |
 re,4 ( re, ) mi, ( mi, )|
 fad, ( fad, ) fad, ( fad, )|
-si,1 |
-si,2 lad,4 |
-si,2 re,4. mi,8 |
-fad,4 fad mid2 |
-fad4. si,8 dod2 |
-fad,4 r red,2 |
-mi,1 |
-la,2 sol,4 |
-fad, sol, la, |
-re, re mi4. fad8 |
-si,1 |
+si,2 r |
+R2. R1*4 R1 R2.*2 R1 R1

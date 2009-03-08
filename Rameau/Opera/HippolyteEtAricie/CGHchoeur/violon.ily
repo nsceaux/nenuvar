@@ -1,9 +1,4 @@
 \clef "dessus" R1*6 |
-
-
-
-
-
 sol'2 si'4 do'' |
 re'' re'' mi'' fad'' |
 sol'' sol'' sol'' sol'' |
@@ -26,12 +21,6 @@ si'2 la'8 r r si' |
 la'2 la' |
 sol'2. r4 |
 R1*7 |
-
-
-
-
-
-
 r4 re'' re'' do'' |
 si' re'' re'' sol'' |
 fad''2 r4 la' |
@@ -48,16 +37,6 @@ sol''2. ( fad''8 ) mi'' |
 fad''2 ( mi''4. ) re''8 |
 re''2. r4 |
 R1*11 |
-
-
-
-
-
-
-
-
-
-
 r4 re'' re'' do'' |
 si' re'' re'' sol'' |
 fad''2 r4 re'' |

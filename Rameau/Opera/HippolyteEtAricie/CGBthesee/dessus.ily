@@ -1,4 +1,4 @@
-\clef "dessus" r4 r re''8 mi''16 ( fad'' )~|
+\clef "dessus" r2 re''8 mi''16 ( fad'' )~|
 fad''8 dod'' re'' ( mi'' )~ mi'' lad' si' ( dod'' )~|
 dod'' dod'' re'' ( lad' ) si' ( fad' ) sol' ( red' )|
 mi' ( re'' ) dod'' ( si' ) dod'' ( mi' ) fad' ( dod' )|

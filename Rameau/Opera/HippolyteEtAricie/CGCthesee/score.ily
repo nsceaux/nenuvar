@@ -1,9 +1,7 @@
-\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff <<
-        \repeat unfold 9 { s1 \noBreak s1 \break }
         \instrumentName \markup { Violons I }
         \global \includeNotes "violon1"
       >>

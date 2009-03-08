@@ -1,4 +1,5 @@
-\clef "vbasse" R1 |
+\clef "vbasse" r2 |
+R1 |
 r2 r4 re'8 re' |
 \appoggiatura dod' si2. si8 re' |
 sol8. sol16 sol8. si16 mi8. mi16 |
@@ -9,14 +10,10 @@ sold4 sold8 r r dod'16 dod' re'8. dod'16 |
 dod'2 ( si4 ) lad8 si |
 \appoggiatura si dod'2 r |
 R1*3 |
-
-
 r4 dod'8 dod' fad4 fad8 fad |
 red4. si8 si4 red8 mi16 fad |
 \appoggiatura fad8 sold4 sold8 r r4 |
 R2.*3 |
-
-
 fad4 r8 si sold4 -\prall sold8 sold |
 mid4. dod'8 dod'4 sold8 lad16 si |
 lad1 |

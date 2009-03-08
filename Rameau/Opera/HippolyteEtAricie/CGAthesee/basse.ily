@@ -1,4 +1,5 @@
-\clef "basse" si,1 |
+\clef "basse" re4 fad |
+si,1 |
 R1 |
 si, ~|
 si,2. |
@@ -22,9 +23,7 @@ si,2 lad,8. si,16 dod4 |
 fad,1 |
 r16 fad fad fad fad fad fad fad fad2 |
 r16 fad, fad, fad, fad, fad, fad, fad, fad,2 |
-mi,2. |
-red,2 mi, |
-fad, r4 fad |
-mi1 |
-red4. mi8 fad2 |
-si,4 \custosNote si 
+R2. |
+R1*3 |
+R1 |
+r4
