@@ -1,0 +1,7 @@
+\piecePartSpecs #`((hautbois1 #:notes "hautbois" #:instrument "Hautbois seul")
+                   (hautbois2 #:notes "hautbois" #:instrument "Hautbois seul")
+                   (violon1 #:notes "violon")
+                   (violon2 #:notes "violon")
+                   (basse #:score "score-basse")
+                   (basse-continue #:score "score-basse")
+                   (voix))

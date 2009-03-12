@@ -1,7 +1,7 @@
 \score {
   \new StaffGroup <<
     \new Staff << \instrumentName \markup Dessus
-                  { s4 s1*7 s2. \break }
+                  %%{ s4 s1*7 s2. \break }
                   \global \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup Haute-contres
                   \global \includeNotes "haute-contre" >>
@@ -13,5 +13,5 @@
                   \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 160 4) } }
+  \midi { }
 }

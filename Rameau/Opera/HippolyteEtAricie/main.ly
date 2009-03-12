@@ -276,7 +276,7 @@ Thésée    sol, sol''
   \pieceTocTitle "Deuxième air des matelots"
   \includeScore "CGJair"
   \markup \title \fill-line {
-    \line { Il faut ici le flageolet et le tambourin. }
+    \line { [Il faut ici le flageolet et le tambourin.] }
   }
   \pieceTocTitle "Premier rigaudon"
   \includeScore "CGKrigaudon"

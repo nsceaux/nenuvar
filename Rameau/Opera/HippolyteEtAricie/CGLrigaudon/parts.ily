@@ -1,0 +1,6 @@
+\piecePartSpecs #`((hautbois1 #:notes "hautbois")
+                   (hautbois2 #:notes "hautbois")
+                   (haute-contre #:notes "haute-contre-taille")
+                   (taille #:notes "haute-contre-taille")
+                   (basse #:score "score-basse")
+                   (basse-continue #:score "score-basse"))
