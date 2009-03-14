@@ -3,11 +3,11 @@ R1 |
 r2 sol4. sol8 |
 do2 do4 re |
 sol,2. r4 |
-mib2 re4 |
-do do'4. do'8 |
+R2. |
+r4 do'4. do'8 |
 la2 la8 sib |
-fa2 r4 fa, |
-sib,2 sib4 |
+fa4 r r2 |
+r2 sib4 |
 la4. la8 la re' |
 sol2 sol4 |
 sib4. sib8 sib sol |
@@ -15,14 +15,10 @@ la2. |
 re'4. do'8 sib la |
 sol2 sol8 la |
 re2. |
-r2 re4 |
-mib2 r4 |
-re do si, |
-do2 r |
+R2.*3 |
+R1*3 |
+R2. |
 R1 |
-r2 do4 sib, |
-mib2. |
-re2 r |
 r4 r8 sol,16-"doux" sol, sol,4 r |
 r16 \repeat unfold 15 la, |
 \repeat unfold 16 si, |

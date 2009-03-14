@@ -1,4 +1,3 @@
-\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
@@ -34,5 +33,5 @@
                   \global \includeNotes "contre-basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 120 4) } }
+  \midi { }
 }

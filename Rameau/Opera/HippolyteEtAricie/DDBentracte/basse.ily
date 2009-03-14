@@ -22,7 +22,7 @@ re2 re,4 r |
 R1*3 |
 
 
-r2^"Bassons" r4 sib8 do' |
+r2 r4^"Bassons" sib8 do' |
 re'2 re |
 sol4 mib'^"Tous" re'8 do' sib la |
 sol4 do re re, |

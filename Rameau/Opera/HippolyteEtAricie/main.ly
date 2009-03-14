@@ -208,12 +208,12 @@ Thésée    sol, sol''
 %%% Acte troisième
 \bookpart {
   \act "Acte Troisième"
-  \scene "Scène Première"
-  \sceneDescription \markup \column {
-    \fill-line { \line { Le théâtre représente une partie du Palais } }
-    \fill-line { \line { de Thésée sur le rivage de la mer. } }
-    \fill-line { \line { \smallCaps Phèdre, seule. } }
+  \sceneDescription \markup \wordwrap-center {
+    Le théâtre représente une partie du Palais de Thésée sur le rivage
+    de la mer.
   }
+  \scene "Scène Première"
+  \sceneDescription \markup \fill-line { \line { \smallCaps Phèdre, seule. } }
   \pieceToc \markup { Phèdre : \italic { Cruelle Mère des Amours } }
   \includeScore "CAAphedre"
   %%
@@ -294,12 +294,12 @@ Thésée    sol, sol''
 %%% Acte Quatrième
 \bookpart {
   \act "Acte Quatrième"
-  \scene "Scène Première"
-  \sceneDescription \markup \column {
-    \fill-line { \line { Le théâtre représente un bois consacré } }
-    \fill-line { \line { à Diane sur le rivage de la mer. } }
-    \fill-line { \line { \smallCaps Hippolyte, seul. } }
+  \sceneDescription \wordwrap-center {
+    Le théâtre représente un bois consacré à Diane sur le rivage de la
+    mer.
   }
+  \scene "Scène Première"
+  \sceneDescription \markup \fill-line { \line { \smallCaps Hippolyte, seul. } }
   \pieceToc \markup { Hippolyte : \italic { Ah ! Faut-il en un jour, perdre tout ce que j’aime ! } }
   \includeScore  "DAAhippolyte"
   %%
@@ -362,13 +362,13 @@ Thésée    sol, sol''
 %%% Acte Cinquième
 \bookpart {
   \act "Acte Cinquième"
-  \scene "Scène Première"
-  \sceneDescription \markup \column {
-    \fill-line { \line { Le théâtre représente un jardin délicieux, } }
-    \fill-line { \line { qui forme les avenues de la forêt d'Aricie. } }
-    \fill-line { \line { On y voit Aricie couchée sur un lit de verdure. } }
-    \fill-line { \line { \smallCaps Aricie, seule. } }
+  \sceneDescription \markup \wordwrap-center {
+    Le théâtre représente un jardin délicieux, qui forme les avenues
+    de la forêt d'Aricie.  On y voit Aricie couchée sur un lit de
+    verdure.
   }
+  \scene "Scène Première"
+  \sceneDescription \markup \fill-line { \line { \smallCaps Aricie, seule. } }
   \pieceToc \markup { Aricie : \italic { Où suis-je ? de mes sens j’ai recouvré l’usage } }
   \includeScore "EAAaricie"
   \pieceToc \markup { Aricie : \italic { Quels doux Concerts } }

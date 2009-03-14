@@ -58,7 +58,7 @@ si8 mi fad4 fad, |
 si,2 mid,4 |
 fad,4. mi,8 re,2 |
 dod,2. |
-R2. |
+R2. |\allowPageTurn
 r2 mid |
 fad2. |
 sold1 |

@@ -1,4 +1,4 @@
 \keys la \minor
-\time 3/4
+\midiTempo #160 \time 3/4
 s2.*16 \fineMark \bar "||"
 s2.*16 \dacapoMark \bar "|."

@@ -7,7 +7,7 @@
                     (make-music 'ContextSpeccedMusic
                       'context-type 'Staff
                       'element (make-music 'PropertySet
-                                 'value (markup #:large (*instrument-name*))
+                                 'value (make-large-markup (*instrument-name*))
                                  'symbol 'instrumentName))
                     (make-music 'Music)))
     #(ly:export (or (*score-extra-music*) (make-music 'Music)))

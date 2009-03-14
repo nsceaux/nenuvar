@@ -18,7 +18,7 @@
         \global \includeNotes "taille"
       >>
     >>
-    \new ChoirStaff \with { instrumentName = "Chœur         " } <<
+    \new ChoirStaff <<
       \newHaraKiriStaff \withLyrics <<
         \global \includeNotes "voix-dessus"
       >> \includeLyrics "paroles-choeur"
@@ -38,9 +38,9 @@
     >> \includeLyrics "paroles-phedre"
     \newHaraKiriStaff <<
       \instrumentName \markup Basses
-      \global \includeNotes "basse"
+      \global \includeNotes "basse-continue"
     >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 104 4) } }
+  \midi { }
 }

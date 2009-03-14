@@ -46,7 +46,7 @@ la2*3/2 r |
 R1. |
 r4*3/2 si4 si8 fad2*3/2 |
 r8 re' re' re' re' re' re' re' re' la la la |
-re2*3/2 fad4*3/2-"Un basson seul" re |
+re2*3/2 fad4*3/2^"Un basson seul" re |
 la2*3/2 r |
 r si |
 la sol4 fad8 mi4 re8 |
@@ -56,13 +56,13 @@ r8 mi' mi' mi' mi' mi' mi4*3/2 mi |
 la dod re mi |
 la,8 la la la la la re'4*3/2 r |
 R1. |
-r4*3/2 si4 si8 fad2*3/2 |
+r4*3/2 si4^"Tous" si8 fad2*3/2 |
 r8 re' re' re' re' re' re' re' re' re' re' re |
 la2*3/2 r |
 R1. |
 r4*3/2 si4 si8 fad2*3/2 |
 r8 re' re' re' re' re' re' re' re' la la la |
-re2*3/2 \clef "tenor" re'4*3/2-"Un basson seul" si |
+re2*3/2 \clef "tenor" re'4*3/2^"Un basson seul" si |
 fad'2*3/2 r |
 r sol' |
 fad' mi'4 re'8 dod'4 si8 |
@@ -72,7 +72,7 @@ fad8 fad' mi' re' dod' si lad dod' si lad si dod' |
 \clef "basse" re4*3/2 mi fad fad, |
 si,8 si si si fad si re'4*3/2 r |
 R1. |
-r4*3/2 si4 si8 fad2*3/2 |
+r4*3/2 si4^"Tous" si8 fad2*3/2 |
 r8 re' re' re' re' re' re' re' re' re' re' re |
 la2*3/2 r |
 R1. |

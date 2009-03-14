@@ -5,8 +5,7 @@ fad mi re dod4 re8 |
 la4. r4 r8 |
 \clef "basse" r4 sol8 fad4 mi8 |
 re4 dod8 si, la, sol, |
-fad, mi, re, |
-la,4 la,8 |
+fad, mi, re, la,4 la,8 |
 re,4 \fermata \clef "tenor" fad'8 fad'4 fad'8 |
 sol'4 fad'8 mi'4 sol'8 |
 re' \clef "basse" fad fad fad fad fad |

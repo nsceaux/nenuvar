@@ -55,7 +55,7 @@ mi''4. re''8 r4 r8 re'' mi'' fad'' fad'' fad'' |
 si'4*3/2 r r8 sold' la' si' la' sold' |
 la' dod'' re'' mi'' re'' dod'' fad''4*3/2 si' |
 dod''8 la' la' la' la' la' re'4*3/2 r |
-r8 la'' la'' la'' la'' la'' la''2*3/2 |
+r8 la''^"Tous" la'' la'' la'' la'' la''2*3/2 |
 r8 fad'' fad'' fad'' fad'' fad'' fad'' la' la' la' la' la' |
 re'' re'' re'' fad'' fad'' fad'' la'' sol'' fad'' fad'' mi'' re'' |
 mi'' la' la' la' la' la' la'2*3/2 |
@@ -71,7 +71,7 @@ si'2*3/2 r8 dod'' dod'' sold' sold' sold' |
 dod'2*3/2 r8 lad' si' dod'' si' lad' |
 si' si'' lad'' si'' lad'' si'' si'4*3/2 lad' |
 si'8 fad' fad' fad' fad' fad' re'4*3/2 r |
-r8 la'' la'' la'' la'' la'' la''2*3/2 |
+r8 la''^"Tous" la'' la'' la'' la'' la''2*3/2 |
 r8 fad'' fad'' fad'' fad'' fad'' fad'' la' la' la' la' la' |
 re'' re'' re'' fad'' fad'' fad'' la'' sol'' fad'' fad'' mi'' re'' |
 mi'' la' la' la' la' la' la'2*3/2 |

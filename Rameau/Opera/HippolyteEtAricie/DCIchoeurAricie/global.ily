@@ -1,8 +1,8 @@
 \keys sib \major
-\markUpBegin \mark "Vite"
+\midiTempo #120 \tempo "Vite"
 \fractionTime \time 2/2
 s1*4
-\markUpBegin \mark "Lent"
+\tempo "Lent"
 s1*4
 \time 4/4 s1
 \fractionTime \time 2/2

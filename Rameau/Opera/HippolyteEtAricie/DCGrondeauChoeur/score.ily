@@ -24,7 +24,7 @@
                    \keepWithTag #'autres \global
                    \includeNotes "basson" >>
     >>
-    \new ChoirStaff \with { instrumentName = "Chœur        " } <<
+    \new ChoirStaff <<
       \newHaraKiriStaff \withLyrics <<
         \keepWithTag #'autres \global
         \includeNotes "voix-dessus"
@@ -47,5 +47,5 @@
                   \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 144 4) } }
+  \midi { }
 }

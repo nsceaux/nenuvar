@@ -1,5 +1,5 @@
 \clef "vbas-dessus" R1*3 |
-\markUpBegin \mark "Récitatif" 
+\tempo "Récitatif" 
 r4 fa''8 fa'' fa''4 fa''8 fa'' |
 fa''1 |
 r2 \fermata re''4 re''8 re'' |

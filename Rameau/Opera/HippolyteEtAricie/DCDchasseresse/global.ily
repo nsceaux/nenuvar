@@ -1,5 +1,5 @@
 \keys re \major
-\markUpBegin \mark "Gai et piqué"
+\midiTempo #144 \tempo "Gai et piqué"
 \time 6/8 \partial 2 s2 s2.*7 s4 \bar "||" \fineMark
 \set Score.repeatCommands = #'((volta "1."))
 s8 s4.

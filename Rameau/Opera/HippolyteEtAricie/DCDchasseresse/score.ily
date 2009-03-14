@@ -1,4 +1,3 @@
-\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new Staff << \instrumentName \markup "Un hautbois"
@@ -14,5 +13,5 @@
       \global \includeNotes "basse" >>
   >>
   \layout { indent=\largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 144 4) } }
+  \midi { }
 }

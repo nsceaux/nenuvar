@@ -7,6 +7,7 @@
   (hautbois1 "Hautbois I" ((violon1 "Violons") (flute1 "Flûtes")) (#:notes "dessus"))
   (hautbois2 "Hautbois II" ((violon2 "Violons") (flute2 "Flûtes")) (#:notes "dessus"))
   (trompette "Trompette" () (#:notes "trompette"))
+  (cor "Cors" () (#:notes "cor"))
   (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
   (taille "Taille" () (#:notes "taille" #:clef "alto"))
   (basse "Basse" () (#:notes "basse" #:clef "bass"))

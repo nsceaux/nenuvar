@@ -1,4 +1,3 @@
-\version "2.11.57"
 \score {
   \new StaffGroup <<
     \new Staff << \instrumentName \markup \center-column { Hautbois Violons }
@@ -19,5 +18,5 @@
                   \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 180 4) } }
+  \midi { }
 }

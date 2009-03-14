@@ -19,11 +19,11 @@
                   \includeNotes "taille" >>
     \new Staff << \instrumentName \markup Bassons
                   \keepWithTag #'autres \global
-                  \includeNotes "basse" >>
+                  \includeNotes "basson" >>
     \new Staff << \instrumentName \markup Basses
                   \keepWithTag #'autres \global
                   \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 144 4) } }
+  \midi { }
 }
