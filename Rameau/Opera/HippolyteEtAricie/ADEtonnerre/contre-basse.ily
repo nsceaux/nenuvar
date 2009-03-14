@@ -1,46 +1,46 @@
-\clef "basse" sol,16 sol, sol, sol, sol, sol, sol, sol, |
-sol, sol, sol, sol, sol, sol, sol, sol, |
-sol, sol, sol, sol, sol, sol, sol, sol, |
-sol, sol, sol, sol, la, la, la, la, |
-la, la, la, la, la, la, la, la, |
-la, la, la, la, la, la, la, la, |
-la, la, la, la, si, si, si, si, |
-si, si, si, si, si, si, si, si, |
-si, si, si, si, si, si, si, si, |
-si, si, si, si, do do do do |
-do do do do do do do do |
-do do do do do do do do |
-do do do do re re re re |
-re, re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
+\clef "basse" \repeat tremolo 8 sol,16 |
+\repeat tremolo 8 sol, |
+\repeat tremolo 8 sol, |
+\repeat tremolo 4 sol, \repeat tremolo 4 la, |
+\repeat tremolo 8 la, |
+\repeat tremolo 8 la, |
+\repeat tremolo 4 la, \repeat tremolo 4 si, |
+\repeat tremolo 8 si, |
+\repeat tremolo 8 si, |
+\repeat tremolo 4 si, \repeat tremolo 4 do |
+\repeat tremolo 8 do |
+\repeat tremolo 8 do |
+\repeat tremolo 4 do \repeat tremolo 4 re |
+\repeat tremolo 8 re, |
+\repeat tremolo 8 re, |
+\repeat tremolo 8 re, |
+\repeat tremolo 8 re, |
+\repeat tremolo 8 re, |
+\repeat tremolo 8 re, |
+\repeat tremolo 8 re, |
+\repeat tremolo 8 re, |
+\repeat tremolo 8 re, |
+\repeat tremolo 8 re, |
+\repeat tremolo 8 re, |
 re,8 r r4 |
-re,16 re, re, re, re, re, re, re, |
-re, re, re, re, re, re, re, re, |
+\repeat tremolo 8 re,16 |
+\repeat tremolo 8 re, |
 sol,8 r r16 sol, sol, sol, |
 do8 r r16 la, la, la, |
 re8 r r16 si, si, si, |
 mi8 r r16 do do do |
 do8 r r16 do do do |
 do8 r r4 |
-si,16 si, si, si, si, si, si, si, |
-si, si, si, si, si, si, si, si, |
-do do do do mi mi mi mi |
-re re re re re re re re |
-re re re re re re re re |
-re re re re re re re re |
-re re re re re re re re |
+\repeat tremolo 8 si,16 |
+\repeat tremolo 8 si, |
+\repeat tremolo 4 do \repeat tremolo 4 mi |
+\repeat tremolo 8 re |
+\repeat tremolo 8 re |
+\repeat tremolo 8 re |
+\repeat tremolo 8 re |
 re32 re mi fad sol la si do' re' re' do' si la sol fad mi |
 re16 sol fad mi re sol fad mi |
 re sol fad mi re do si, la, |
-sol, sol, sol, sol, sol, sol, sol, sol, |
-sol, sol, sol, sol, sol, sol, sol, sol, |
+\repeat tremolo 8 sol, |
+\repeat tremolo 8 sol, |
 \custosNote sol,2 

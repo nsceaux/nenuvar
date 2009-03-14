@@ -294,7 +294,7 @@ Thésée    sol, sol''
 %%% Acte Quatrième
 \bookpart {
   \act "Acte Quatrième"
-  \sceneDescription \wordwrap-center {
+  \sceneDescription \markup \wordwrap-center {
     Le théâtre représente un bois consacré à Diane sur le rivage de la
     mer.
   }

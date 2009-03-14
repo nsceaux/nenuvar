@@ -1,27 +1,27 @@
-\clef "haute-contre" sol32-"doux" sol sol sol sol sol sol sol sol sol sol sol sol sol sol sol |
-sol32 sol sol sol sol sol sol sol sol sol sol sol sol sol sol sol |
-sol32-"fort" sol sol sol sol sol sol sol sol sol sol sol sol sol sol sol |
-sol sol sol sol sol sol sol sol la-"doux" la la la la la la la |
-la la la la la la la la la la la la la la la la |
-la la-"fort" la la la la la la la la la la la la la la |
-la la la la la la la la si-"doux" si si si si si si si |
-si si si si si si si si si si si si si si si si |
-si si-"fort" si si si si si si si si si si si si si si |
-si si si si si si si si do'-"doux" do' do' do' do' do' do' do' |
-do' do' do' do' do' do' do' do' do' do' do' do' do' do' do' do' |
-do' do'-"fort" do' do' do' do' do' do' do' do' do' do' do' do' do' do' |
-do' do' do' do' do' do' do' do' re' re' re' re' re' re' re' re' |
-re' re' re' re' re' re' re' re' fad' fad' fad' fad' fad' fad' fad' fad' |
-sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' |
-la' la' la' la' la' la' la' la' la' la' la' la' la' la' la' la' |
-si' si' si' si' si' si' si' si' si' si' si' si' si' si' si' si' |
-la' la' la' la' la' la' la' la' la' la' la' la' la' la' la' la' |
-do'' do'' do'' do'' do'' do'' do'' do'' do'' do'' do'' do'' do'' do'' do'' do'' |
-si' si' si' si' si' si' si' si' si' si' si' si' si' si' si' si' |
-la' la' la' la' la' la' la' la' la' la' la' la' la' la' la' la' |
-si' si' si' si' si' si' si' si' si' si' si' si' si' si' si' si' |
-la' la' la' la' la' la' la' la' la' la' la' la' la' la' la' la' |
-la' la' la' la' la' la' la' la' la' la' la' la' la' la' la' la' |
+\clef "haute-contre" \repeat tremolo 16 sol32-"doux" |
+\repeat tremolo 16 sol32 |
+\repeat tremolo 16 sol32-"fort" |
+\repeat tremolo 8 sol \repeat tremolo 8 la-"doux" |
+\repeat tremolo 16 la |
+\repeat tremolo 16 la-"fort" |
+\repeat tremolo 8 la \repeat tremolo 8 si-"doux" |
+\repeat tremolo 16 si |
+\repeat tremolo 16 si-"fort" |
+\repeat tremolo 8 si \repeat tremolo 8 do'-"doux" |
+\repeat tremolo 16 do' |
+\repeat tremolo 16 do'-"fort" |
+\repeat tremolo 8 do' \repeat tremolo 8 re' |
+\repeat tremolo 8 re' \repeat tremolo 8 fad' |
+\repeat tremolo 16 sol' |
+\repeat tremolo 16 la' |
+\repeat tremolo 16 si' |
+\repeat tremolo 16 la' |
+\repeat tremolo 16 do'' |
+\repeat tremolo 16 si' |
+\repeat tremolo 16 la' |
+\repeat tremolo 16 si' |
+\repeat tremolo 16 la' |
+\repeat tremolo 16 la' |
 la'8 r r4 |
 r32 re'' do'' si' la' re'' do'' si' la' re'' do'' si' la' sol' fad' mi' |
 re' sol' fad' mi' re' sol' fad' mi' re' sol' fad' mi' re' do' si la |
@@ -31,16 +31,16 @@ re' re' re' re' re'8 r32 si si si si si si si |
 mi' mi' mi' mi' mi'8 r32 do' do' do' do' do' do' do' |
 do' do' do' do' do'8 r32 do' do' do' do' do' do' do' |
 do'8 r r4 |
-sol'32 sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' |
-sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' sol' |
-sol' sol' sol' sol' sol' sol' sol' sol' sol'16 sol' sol' do'' |
+\repeat tremolo 16 sol'32 |
+\repeat tremolo 16 sol' |
+\repeat tremolo 8 sol' sol'16 sol' sol' do'' |
 la'4 r32 re' mi' fad' sol' la' si' do'' |
-re'' re'' re'' re'' re'' re'' re'' re'' re'' re'' do'' si' la' sol' fad' mi' |
-re' re' re' re' re' re' re' re' re' re' mi' fad' sol' la' si' do'' |
-re'' re'' re'' re'' re'' re'' re'' re'' re'' re'' do'' si' la' sol' fad' mi' |
+\repeat tremolo 8 re'' re'' re'' do'' si' la' sol' fad' mi' |
+\repeat tremolo 8 re' re' re' mi' fad' sol' la' si' do'' |
+\repeat tremolo 8 re'' re'' re'' do'' si' la' sol' fad' mi' |
 re' re' mi' fad' sol' la' si' do'' re'' re'' do'' si' la' sol' fad' mi' |
-re' sol' fad' mi' re' sol' fad' mi' re' sol' fad' mi' re' sol' fad' mi' |
+\repeat percent 4 { re' sol' fad' mi' } |
 re' sol' fad' mi' re' sol' fad' mi' re' sol' fad' mi' re' do' si la |
-sol\> sol sol sol sol sol sol sol sol sol sol sol sol sol sol sol |
-sol sol sol sol sol sol sol sol sol sol sol sol sol sol sol sol\! |
-sol8 r r4 
+\repeat tremolo 16 sol\> |
+\repeat tremolo 16 sol |
+sol8\! r r4 
