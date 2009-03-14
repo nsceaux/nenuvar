@@ -83,8 +83,7 @@ newHaraKiriStaffB =
                            (push VerticalAxisGroup #t remove-first)
                            (push Beam () auto-knee-gap)
                            (consists "Hara_kiri_engraver")
-                           (remove "Axis_group_engraver")
-                           (remove "Instrument_name_engraver"))
+                           (remove "Axis_group_engraver"))
     'context-type 'Staff
     'element music))
 
@@ -98,7 +97,6 @@ newTinyHaraKiriStaffB =
                            (push Beam () auto-knee-gap)
                            (consists "Hara_kiri_engraver")
                            (remove "Axis_group_engraver")
-                           (remove "Instrument_name_engraver")
                            (remove "Page_turn_engraver")
                            (push StaffSymbol ,(magstep -2) staff-space)
                            (assign fontSize -2))

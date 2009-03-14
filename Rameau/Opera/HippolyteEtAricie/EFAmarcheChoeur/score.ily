@@ -1,4 +1,3 @@
-\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
@@ -35,7 +34,7 @@
         \global \includeNotes "basson"
       >>
     >>
-    \new ChoirStaff \with { instrumentName = "Chœur          " } <<
+    \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
         \global \includeNotes "voix-dessus1"
       >> \includeLyrics "paroles-dessus1"
@@ -58,5 +57,5 @@
     >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 132 4) } }
+  \midi { }
 }

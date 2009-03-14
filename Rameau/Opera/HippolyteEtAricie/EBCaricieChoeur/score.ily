@@ -1,41 +1,42 @@
-\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff << \instrumentName \markup { Hautbois I }
-                    \keepWithTag #'() \global \includeNotes "hautbois1" >>
+                    \global \includeNotes "hautbois1" >>
       \new Staff << \instrumentName \markup { Hautbois II }
-                    \keepWithTag #'() \global \includeNotes "hautbois2" >>
+                    \global \includeNotes "hautbois2" >>
       \new Staff << \instrumentName \markup { Violons I }
-                    \keepWithTag #'() \global \includeNotes "violon1" >>
+                    \global \includeNotes "violon1" >>
       \new Staff << \instrumentName \markup { Violons II }
-                    \keepWithTag #'() \global \includeNotes "violon2" >>
+                    \global \includeNotes "violon2" >>
       \new Staff << \instrumentName \markup Haute-contres
-                    \keepWithTag #'() \global \includeNotes "haute-contre" >>
+                    \global \includeNotes "haute-contre" >>
       \new Staff << \instrumentName \markup Tailles
-                    \keepWithTag #'() \global \includeNotes "taille" >>
+                    \global \includeNotes "taille" >>
+      \new Staff << \instrumentName \markup Basses
+                    \global \includeNotes "basse" >>
     >>
-    \new ChoirStaff \with { instrumentName = "Chœur          " } <<
+    \new ChoirStaff <<
       \new Staff \withLyrics <<
-        \keepWithTag #'() \global \includeNotes "voix-dessus"
+        \global \includeNotes "voix-dessus"
       >> \includeLyrics "paroles-dessus"
       \new Staff \withLyrics <<
-        \keepWithTag #'() \global \includeNotes "voix-haute-contre"
+        \global \includeNotes "voix-haute-contre"
       >> \includeLyrics "paroles-haute-contre"
       \new Staff \withLyrics <<
-        \keepWithTag #'() \global \includeNotes "voix-taille"
+        \global \includeNotes "voix-taille"
       >> \includeLyrics "paroles-taille"
       \new Staff \withLyrics <<
-        \keepWithTag #'() \global \includeNotes "voix-basse"
+        \global \includeNotes "voix-basse"
       >> \includeLyrics "paroles-basse"
     >>
     \new Staff \withLyrics <<
       \characterName \markup Aricie
-      \keepWithTag #'() \global \includeNotes "aricie"
+      \global \includeNotes "aricie"
     >> \includeLyrics "paroles-aricie"
-    \new Staff << \instrumentName \markup \center-column { Bassons Basses }
-                  \keepWithTag #'basse \global \includeNotes "basse" >>
+    \new Staff << \instrumentName \markup { Basse continue }
+                  \global \includeNotes "basse-continue" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 120 4) } }
+  \midi { }
 }

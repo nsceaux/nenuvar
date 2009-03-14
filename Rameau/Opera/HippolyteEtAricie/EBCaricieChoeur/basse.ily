@@ -1,15 +1,7 @@
 \clef "basse" re'4 do' |
-si2 sol4-"Basse continue" |
-do'2 si4 |
-la2 fad8 sol |
-re2 r4 |
-r sol fad |
-mi4. mi8 la4 |
-fad \appoggiatura mi8 re4 r |
-R2.*3 |
-
-
-r4 sol,-"Tous" sol, |
+si2 r4 |
+R2.*9 |
+r4 sol, sol, |
 do,2 r4 |
 R2. |
 r4 la,-"doux" la, |
@@ -29,5 +21,5 @@ si4 do' la |
 re'8. ( do'16 ) si8. ( la16 ) sol8. ( fad16 )|
 mi8. ( re16 ) do4 re |
 sol,2. ~|
-sol,4.-"Toutes les basses" sol,8 fad,8. mi,16 |
+sol,4. sol,8 fad,8. mi,16 |
 re,2. |

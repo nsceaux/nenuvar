@@ -29,3 +29,4 @@ sol'' \appoggiatura fad''8 mi''4 la'' |
 fad'' \appoggiatura mi''8 re''4 sol'' |
 sol''4. la''8 fad''4 |
 sol''2. |
+R2.*2

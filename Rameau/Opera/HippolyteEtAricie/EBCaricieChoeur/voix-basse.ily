@@ -12,4 +12,4 @@ r2 r8 re |
 re2 do8 si, |
 mi4 do re |
 sol,2. |
-R2.*8 |
+R2.*10 |

@@ -22,4 +22,4 @@ r2 r8 la' |
 fad'2 mi'8 re' |
 sol'4 sol' fad' |
 sol'2. |
-R2.*8 |
+R2.*10 |

@@ -16,5 +16,5 @@
     indent = \largeindent
     incipit-width = #(* incipit-width 1.2)
   }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 180 4) } }
+  \midi { }
 }

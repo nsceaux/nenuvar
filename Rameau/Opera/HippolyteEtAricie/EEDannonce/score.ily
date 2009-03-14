@@ -1,4 +1,3 @@
-\version "2.11.57"
 \score {
   \new StaffGroup <<
     \new Staff << \instrumentName \markup \center-column { Hautbois Musettes }
@@ -14,5 +13,5 @@
     indent = \largeindent
     ragged-right = ##t
   }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 132 4) } }
+  \midi { }
 }

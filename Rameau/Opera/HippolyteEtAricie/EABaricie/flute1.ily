@@ -51,15 +51,9 @@ red''4. fad''8 mi''8.( red''16) |
 mi''8.( fad''16) red''4. mi''8 |
 mi''2 r4 |
 R2.*2 |
-
 r4 la'' la'' |%
 la''2. |%
 R2.*6 |%
-
-
-
-
-
 r4 r8 dod''' dod''' ( si''16. lad''32 )|
 \appoggiatura lad''8 si''4 dod'''8. ( re'''32 mi''' ) re''' ( dod'''16. ) re'''32 ( si''16. )|
 si''4 ( lad''4. ) si''8 |

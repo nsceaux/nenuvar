@@ -12,4 +12,4 @@ r2 r8 la |
 la2 la8 si |
 \appoggiatura la sol4 do' la |
 si2. |
-R2.*8 |
+R2.*10 |

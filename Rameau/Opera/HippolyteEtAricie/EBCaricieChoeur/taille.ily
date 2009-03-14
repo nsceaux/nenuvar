@@ -29,3 +29,4 @@ si'2 la'4 |
 la' sol' re' |
 mi'4. mi'8 re'4 |
 re'2. |
+R2.*2

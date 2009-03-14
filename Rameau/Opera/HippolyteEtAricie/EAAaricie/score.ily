@@ -27,8 +27,8 @@
       \global \includeNotes "aricie"
     >> \includeLyrics "paroles"
     \new Staff << \instrumentName \markup { Basse continue }
-                  \global \includeNotes "basse" >>
+                  \global \includeNotes "basse-continue" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 120 4) } }
+  \midi { }
 }

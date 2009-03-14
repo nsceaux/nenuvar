@@ -1,4 +1,3 @@
-\version "2.11.57"
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
@@ -8,7 +7,7 @@
       \new Staff << \instrumentName \markup \center-column { Haute-contres Tailles }
                     \global \includeNotes "haute-contre-taille" >>
     >>
-    \new ChoirStaff \with { instrumentName = "Chœur          " } <<
+    \new ChoirStaff <<
       \new Staff \withLyrics <<
         \global \includeNotes "voix-dessus"
       >> \includeLyrics "paroles-dessus"
@@ -26,5 +25,5 @@
                   \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 160 4) } }
+  \midi { }
 }

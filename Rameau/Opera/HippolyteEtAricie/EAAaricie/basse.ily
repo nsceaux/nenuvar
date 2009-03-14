@@ -14,12 +14,6 @@ do' ( si ) do' ( la )|
 si ( red' ) mi' ( sol )|
 la ( do' ) si ( la )|
 sol2 \appoggiatura fad8 mi4 r |
-r mi fa ( mi )|
-re ( fad ) sol ( fad ) |
-mi r r2 |
-mi fad |
-sol r4 |
-r2 fad8. sold16 |
-la2 r4 |
-lad2 r |
-si r |
+R1*4 
+R2.*3
+R1*2

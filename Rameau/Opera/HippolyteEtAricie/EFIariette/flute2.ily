@@ -46,8 +46,9 @@ mi''8 r r2 |
 la''8. ( mi''16 )\appoggiatura mi''8 fad''4 si'16 r r8 |
 r r16 fad''16*1/2( mi'' ) fad''32*4/3( mi'' ) fad'' ( mi'' ) fad'' ( mi'' ) mi''8. re''16 |
 dod''8 r r2 |
-fad''8 sold''32 ( fad'' ) sold'' ( fad'' ) sold'' ( fad'' ) sold'' ( fad'' ) sold'' ( fad'' ) sold'' ( fad'' ) fad''8. ( mi''32 fad'' )| si'8 r r2 |
-si' dod''32 ( si' ) dod'' ( si' ) dod'' ( si' ) dod'' ( si' ) dod'' ( si' ) dod'' ( si' ) si'8. ( dod''32 re'' )|
+fad''8 sold''32 ( fad'' ) sold'' ( fad'' ) sold'' ( fad'' ) sold'' ( fad'' ) sold'' ( fad'' ) sold'' ( fad'' ) fad''8. ( mi''32 fad'' )|
+si'8 r r2 |
+si'8 dod''32 ( si' ) dod'' ( si' ) dod'' ( si' ) dod'' ( si' ) dod'' ( si' ) dod'' ( si' ) si'8. ( dod''32 re'' )|
 sold'8 r8 r2 |
 r16 si'16 ( la' ) si' ( la' ) si' ( la' ) si' ( la' ) si' ( la' ) do'' (|
 si' ) do'' ( si' ) do'' ( si'32*8/7 ) dod''( si' ) dod'' ( si' ) dod'' ( si' ) si'8. la'32*2/3( sold' dod'' )|

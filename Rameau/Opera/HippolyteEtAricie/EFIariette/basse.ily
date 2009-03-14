@@ -1,4 +1,4 @@
-\clef "basse" s4 |
+\clef "basse" r4 |
 R2.*55 |
 la2. |
 si4 dod' dod |

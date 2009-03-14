@@ -1,9 +1,6 @@
 \score {
   \new StaffGroupNoBar <<
-    \newHaraKiriStaffB <<
-      { s2.*6 \break s2._"Basson seul et violoncelles" }
-      \global \includeNotes "basson"
-    >>
+    \newHaraKiriStaffB << \global \includeNotes "basson" >>
     \new Staff \withLyrics <<
       \characterName \markup Diane
       \global \includeNotes "diane"
@@ -14,5 +11,5 @@
     >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 108 4) } }
+  \midi { }
 }

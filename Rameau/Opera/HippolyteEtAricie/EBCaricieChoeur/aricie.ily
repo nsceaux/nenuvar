@@ -21,4 +21,4 @@ do''2. ~|
 do''2 do''8 re'' |
 \appoggiatura do'' si'4 la'4. sol'8 |
 sol'2. |
-R2.*8 |
+R2.*10 |

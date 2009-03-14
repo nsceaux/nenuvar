@@ -14,4 +14,4 @@ r2 r8 re' |
 re'2 re'8 sol' |
 \appoggiatura fad' mi'4 mi' re' |
 re'2. |
-R2.*8 |
+R2.*10 |

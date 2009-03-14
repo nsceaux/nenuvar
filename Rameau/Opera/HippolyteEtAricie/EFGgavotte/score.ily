@@ -1,4 +1,3 @@
-\version "2.11.57"
 \score {
   \new StaffGroup <<
     \new Staff << \instrumentName \markup "Petites flûtes"
@@ -16,5 +15,5 @@
                   \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Score tempoWholesPerMinute = #(ly:make-moment 180 4) } }
+  \midi { }
 }
