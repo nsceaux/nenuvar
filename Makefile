@@ -136,7 +136,7 @@ help:
 	@echo "  <score>-rehearsal Build a A4 PDF score with rehearsal numbers"
 	@echo "  <score>-letter    Build a Letter PDF score"
 	@echo "  <score>-<part>    Build a PDF part score"
-	@echo "  <score>-delivery  Make archives and move PDF to delivery directory"
+	@echo "  <score>-delivery  Make archive and move PDFs to delivery directory"
 	@echo "  <score>-all       Build all PDF formats and make delivery"
 	@echo "score:"
 	@for score in $(SCORES); do echo "  $$score"; done

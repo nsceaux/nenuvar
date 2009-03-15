@@ -202,3 +202,15 @@ percent-repeat-item-interface
 percent-repeat-interface
 stanza-number-interface)
 revertNoHaraKiri = \unset Staff.keepAliveInterfaces
+
+%%%
+ifLetter =
+#(define-music-function (parser location music) (ly:music?)
+   (if (eqv? #t (ly:get-option 'letter))
+       music
+       (make-music 'Music 'void #t)))
+unlessLetter =
+#(define-music-function (parser location music) (ly:music?)
+   (if (not (eqv? #t (ly:get-option 'letter)))
+       music
+       (make-music 'Music 'void #t)))

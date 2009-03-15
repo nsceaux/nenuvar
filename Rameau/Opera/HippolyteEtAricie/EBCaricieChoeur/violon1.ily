@@ -1,11 +1,7 @@
 \clef "dessus" la'4 re'' |
 sol'2 r4 |
 R2.*5 |
-
-
-
-
-r2 re''4-"un peu doux" |
+r2 re''4-"un peu doux" |\noBreak
 fad'2 re'4 |
 sol'2 sol4 |
 re'2 r4 |

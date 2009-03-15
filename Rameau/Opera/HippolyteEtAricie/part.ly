@@ -20,7 +20,7 @@
 #(ly:set-option 'use-rehearsal-numbers #t)
 
 \include "italiano.ly"
-#(set-global-staff-size 14)
+#(set-global-staff-size 18)
 \include "common/common.ily"
 
 \setOpus "Rameau/Opera/HippolyteEtAricie"
@@ -330,7 +330,7 @@
   \includeScore "DCEmenuet"
   \pieceTocTitle "Deuxième menuet"
   \includeScore "DCFmenuet"
-  \markup \title \fill-line {
+  \markup \small-title \fill-line {
     \line { On reprend le premier menuet page \page-refIII #'DCEmenuet . }
   }
   \pieceTocAndTitle \markup "DEUXIÈME RONDEAU" \markup {
@@ -426,7 +426,7 @@
   \includeScore "EFDmenuet"
   \pieceTocTitle "Deuxième menuet"
   \includeScore "EFEmenuet"
-  \markup \title \fill-line {
+  \markup \small-title \fill-line {
     \line { On reprend le premier menuet page \page-refIII #'EFDmenuet . }
   }
   \pieceToc \markup { Diane }
@@ -435,7 +435,7 @@
   \includeScore "EFGgavotte"
   \pieceTocTitle "Deuxième gavotte"
   \includeScore "EFHgavotte"
-  \markup \title \fill-line {
+  \markup \small-title \fill-line {
     \line { On reprend la première gavotte page \page-refIII #'EFGgavotte . }
   }
   \pieceToc \markup { Aricie ou une bergère : \italic { Rossignols amoureux, répondez à nos voix } }
