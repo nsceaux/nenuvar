@@ -8,7 +8,7 @@ r2 fa''8_"fort" mi'' re'' do'' |
 si' sol' do'' fa'' mi''4 re'' |
 do''2 r2 |
 R1 |
-r2 mi''_"doux" re'' do'' mi'' |
+r2 mi''8_"doux" re'' do'' mi'' |
 re''4 do'' re''2 |
 si' r |
 r la'8_"fort" si' do'' la' |

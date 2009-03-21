@@ -5,6 +5,4 @@
                    (haute-contre #:tag-global autres)
                    (taille #:tag-global autres)
                    (cor #:tag-global cor)
-                   (basse #:score "score-basse")
-                   (voix)
-                   (basse-continue #:score "score-basse"))
+                   (basse #:score "score-basse"))
