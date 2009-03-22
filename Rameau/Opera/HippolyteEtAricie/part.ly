@@ -91,10 +91,12 @@
   \includeScore "ACBchoeur"
   \pieceTocAndTitle \markup "PREMIER AIR" \markup { Premier air : \italic { Dieu d’Amour, pour nos asiles, tes tourments ne sont pas faits. } }
   \includeScore "ACCpretresse"
+  \partPageBreak #'(basse-continue)
   \pieceTocTitle "Deuxième Air"
   \includeScore "ACDair"
   \pieceTocAndTitle \markup "GAVOTTE" \markup { Gavotte : \italic { De l’Amour fuyez les charmes } }
   \includeScore "ACEgavotte"
+  \partPageTurn #'(basse-continue)
   %%
   \scene "Scène IV"
   \sceneDescription \markup \smallCaps { Phèdre, Aricie, Hippolyte. }
@@ -107,6 +109,7 @@
   \includeScore "ADDpretresseChoeur"
   \pieceTocTitle "Bruit de tonnerre"
   \includeScore "ADEtonnerre"
+  \partPageTurn #'(basse-continue)
   %%
   \scene "Scène V"
   \sceneDescription \markup { \smallCaps Diane, et les acteurs
@@ -148,6 +151,7 @@
   \includeScore "BBAentree"
   \pieceToc \markup { Thésée, Pluton }
   \includeScore "BBBthesee"
+  \partNoPageTurn #'(basse-continue)
   \includeScore "BBCplutonThesee"
   \pieceToc \markup { Thésée : \italic { Sous les drapeaux de Mars, unis par la valeur } }
   \includeScore "BBDthesee"
@@ -398,7 +402,7 @@
     \fill-line { }
     \fill-line { \line { Les Zéphirs amènent Hippolyte dans un char } }
   }
-  \pieceTocTitle "Vole des Zéphirs"
+  \pieceTocTitle "Vol des Zéphirs"
   \includeScore "EEAritournelle"
   \pieceTocAndTitle \markup { DUO } \markup {
     Hippolyte, Aricie : \italic { Aricie / Hippolyte est-ce vous que je vois. }

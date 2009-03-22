@@ -5,7 +5,7 @@ si,1 |
 do2 mi,-"fort" |
 fa, r4 fa,8-"doux" sol, |
 do4 fa, r8 fa,-"fort" sol,4 |
-do,2 r |
+do,2 r |\noPageTurn
 r do-"doux" |
 sol sol, |
 re, fa, |

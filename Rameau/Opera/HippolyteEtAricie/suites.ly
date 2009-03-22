@@ -134,6 +134,6 @@
   %%\pieceTocTitle "Entr'acte"
   %%\includeScore "DDBentracte"
   \scene "Acte V"
-  \pieceTocTitle "Vole des Zéphirs"
+  \pieceTocTitle "Vol des Zéphirs"
   \includeScore "EEAritournelle"
 }

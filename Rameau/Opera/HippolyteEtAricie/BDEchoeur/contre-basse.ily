@@ -1,9 +1,9 @@
 \clef "basse" lab2. |
-r8 lab, do mib mib, mib |
-lab,4 lab lab |
+lab,2 mib,4 |
+lab, lab lab |
 do'2 lab4 |
-mib'8 sib sol mib sib, sol, |
-mib,4 mib' reb' |
+mib'2 mib'8 r |
+mib,4 mib' reb'  |
 do' sib lab  |
 sol8 sib mib' mib lab do' |
 fa4. fa8 fa sib |

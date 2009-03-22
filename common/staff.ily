@@ -74,6 +74,22 @@ newTinyHaraKiriStaff =
     'context-type 'Staff
     'element music))
 
+newSmallHaraKiriStaff =
+#(define-music-function (parser location music) (ly:music?)
+   (make-music
+    'ContextSpeccedMusic
+    'create-new #t
+    'property-operations `((push VerticalAxisGroup #t remove-empty)
+                           (push VerticalAxisGroup #f remove-first)
+                           (push Beam () auto-knee-gap)
+                           (consists "Hara_kiri_engraver")
+                           (remove "Axis_group_engraver")
+                           (remove "Page_turn_engraver")
+                           (push StaffSymbol ,(magstep -1) staff-space)
+                           (assign fontSize -1))
+    'context-type 'Staff
+    'element music))
+
 newHaraKiriStaffB =
 #(define-music-function (parser location music) (ly:music?)
    (make-music
@@ -100,6 +116,22 @@ newTinyHaraKiriStaffB =
                            (remove "Page_turn_engraver")
                            (push StaffSymbol ,(magstep -2) staff-space)
                            (assign fontSize -2))
+    'context-type 'Staff
+    'element music))
+
+newSmallHaraKiriStaffB =
+#(define-music-function (parser location music) (ly:music?)
+   (make-music
+    'ContextSpeccedMusic
+    'create-new #t
+    'property-operations `((push VerticalAxisGroup #t remove-empty)
+                           (push VerticalAxisGroup #t remove-first)
+                           (push Beam () auto-knee-gap)
+                           (consists "Hara_kiri_engraver")
+                           (remove "Axis_group_engraver")
+                           (remove "Page_turn_engraver")
+                           (push StaffSymbol ,(magstep -1) staff-space)
+                           (assign fontSize -1))
     'context-type 'Staff
     'element music))
 

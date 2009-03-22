@@ -1,14 +1,10 @@
 \score {
   \new StaffGroup <<
-    \new Staff <<
-      \instrumentName \markup Bassons
-      \global \includeNotes "basson"
-    >>
-    \new Staff <<
+    \newSmallStaff <<
       \instrumentName \markup Violoncelles
       \global \includeNotes "violoncelle"
     >>
-    \new Staff <<
+    \newSmallStaff <<
       \instrumentName \markup \center-column { Clavecin Basses "de violon" }
       \global \includeNotes "basse"
     >>

@@ -2,5 +2,5 @@
                    (violon2)
                    (haute-contre)
                    (taille)
-                   (basse #:score "score-basse")
-                   (basse-continue #:score "score-basse"))
+                   (basson #:notes "basse" #:instrument "Basses")
+                   (basse #:score "score-basse"))

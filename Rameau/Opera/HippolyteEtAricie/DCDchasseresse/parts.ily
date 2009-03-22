@@ -1,5 +1,4 @@
-\piecePartSpecs #`((hautbois1 #:notes "hautbois" #:instrument "Un hautbois")
-                   (hautbois2 #:notes "hautbois" #:instrument "Un hautbois")
+\piecePartSpecs #`((hautbois #:instrument "Un hautbois")
+                   (basson #:instrument "Un basson" #:notes "basse")
                    (voix)
-                   (basse-continue
-                    #:instrument ,(markup #:center-column ("Un basson" "Basse continue"))))
+                   (basse-continue))

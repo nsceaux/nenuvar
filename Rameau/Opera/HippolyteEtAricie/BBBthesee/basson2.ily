@@ -3,7 +3,6 @@ sol |
 R1 |
 la2 sol |
 R1*2 |
-
 fa1 ~|
 fa |
 sol2 r |

@@ -260,7 +260,7 @@ Thésée    sol, sol''
   \includeScore "CGAthesee"
   \pieceToc \markup { Thésée : \italic { Puissant Maître des flots, favorable Neptune } }
   \includeScore "CGBthesee"
-  \pieceToc \markup { Thésée : \italic { Mais de courroux l'onde s'agite } }
+  \pieceTocAndTitle \markup { Prélude pour le frémissement des flots } \markup { Thésée : \italic { Mais de courroux l'onde s'agite } }
   \includeScore "CGCthesee"
   \includeScore "CGDthesee"
   \pieceTocTitle "Annonce"
@@ -403,7 +403,7 @@ Thésée    sol, sol''
     \fill-line { }
     \fill-line { \line { Les Zéphirs amènent Hippolyte dans un char } }
   }
-  \pieceTocTitle "Vole des Zéphirs"
+  \pieceTocTitle "Vol des Zéphirs"
   \includeScore "EEAritournelle"
   \pieceTocAndTitle \markup { DUO } \markup {
     Hippolyte, Aricie : \italic { Aricie / Hippolyte est-ce vous que je vois. }

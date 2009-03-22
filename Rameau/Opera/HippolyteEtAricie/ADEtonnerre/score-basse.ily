@@ -1,7 +1,5 @@
 \score {
   \new StaffGroup <<
-    \newSmallStaff << \instrumentName \markup Bassons
-                      \global \includeNotes "bassons" >>
     \newSmallStaff << \instrumentName \markup Basses
                       \global \includeNotes "basse" >>
     \newSmallStaff << \instrumentName \markup Contre-basses

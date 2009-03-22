@@ -4,6 +4,7 @@
 *.tar.gz
 *~
 .DS_Store
+/make-ha-suites.sh
 /stats.csv
 /test-1-stats
 /test-2-stats

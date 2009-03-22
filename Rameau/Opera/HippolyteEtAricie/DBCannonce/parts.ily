@@ -1,5 +1,3 @@
-\piecePartSpecs #`((hautbois1 #:notes "hautbois" #:tag-global autres)
-                   (hautbois2 #:notes "hautbois" #:tag-global autres)
+\piecePartSpecs #`((hautbois #:tag-global autres)
                    (cor #:tag-global cor #:instrument "Cors en ré")
-                   (basse #:notes "basson" #:tag-global autres #:instrument "Basson")
-                   (basse-continue #:notes "basson" #:tag-global autres #:instrument "Basson"))
+                   (basson #:tag-global autres))
