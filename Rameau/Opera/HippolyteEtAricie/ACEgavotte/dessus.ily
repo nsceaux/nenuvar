@@ -5,8 +5,8 @@ la' re'' \appoggiatura re''8 dod''4. ( si'16 dod'' )|
 mi''2 mi''4 fad'' |
 \appoggiatura mi''8 re''4 \appoggiatura dod''8 si'4 mi''4. fad''8 |
 dod''2 re''4. la'8 |
-si'4 la'8 r re''4._"doux"^"Violons" dod''8 |
-si'4 la'8 r re''4.-"fort" mi''8 |
+si'4 la'8 r re''4.\p^"Violons" dod''8 |
+si'4 la'8 r re''4.\f mi''8 |
 mi''4. ( fad''16 sol'' ) mi''4. re''8 |
 re''2 %{%} r2 |
 R1*3 |

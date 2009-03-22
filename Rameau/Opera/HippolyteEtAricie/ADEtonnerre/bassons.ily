@@ -1,16 +1,16 @@
-\clef "basse" sol,2-"doux" |
+\clef "basse" sol,2\p |
 sol, \< |
 sol, |
-sol,4 \! la,-"doux" |
+sol,4 \! la,\p |
 la,2 \< |
 la, |
-la,4 \! si,-"doux" |
+la,4 \! si,\p |
 si,2 \< |
 si, |
-si,4 \! do -"doux" |
+si,4 \! do \p |
 do2 \< |
 do |
-do4\! re-"fort" |
+do4\! re\f |
 re,2 |
 re, |
 re, |

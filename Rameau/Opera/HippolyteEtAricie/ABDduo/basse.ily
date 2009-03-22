@@ -1,4 +1,4 @@
-\clef "basse" si4-"doux" |
+\clef "basse" si4\p |
 mi2 fad4 |
 si,2 r8 fad |
 si4. sol8 la la, |

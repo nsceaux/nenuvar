@@ -4,13 +4,13 @@ re'' mi'' fa'' r mi'' fad'' sol'' la'' |
 fad'' sold'' la'' si'' sold''( la'' ) la''8. ( sold''32 la'' )|
 si''4 r do'''2 |
 si'' la'' |
-sol'' fa''8_"fort" mi'' re'' do'' |
+sol'' fa''8\f mi'' re'' do'' |
 si' sol' do'' fa'' mi''4 re'' |
 do''2 mi''( |
 re'' ) fa'' (|
 mi'' ) r2 |
 R1 |
-r2 la'8_"fort" si' do'' la' |
+r2 la'8\f si' do'' la' |
 si' do'' re'' r do'' re'' mi'' do'' |
 re'' mi'' fa'' r mi'' fad'' sol'' la'' |
 fad'' sold'' la'' re'' do''4 si' |

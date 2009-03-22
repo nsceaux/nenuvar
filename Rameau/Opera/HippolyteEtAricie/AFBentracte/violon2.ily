@@ -1,5 +1,5 @@
 \includeNotes "dessus-a"
-<< s4*0_"doux" \includeNotes "dessus-b2" >>
+<< s4*0\p \includeNotes "dessus-b2" >>
 \includeNotes "violon-c2"
 \includeNotes "violon-csuite"
 \includeNotes "dessus-d"

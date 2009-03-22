@@ -16,19 +16,19 @@ mib'2 re'8 ( fa' )|
 fa'2 mib'8 ( sol' )|
 fa'2 fa'4 |
 sol' fa'2 |
-fa' sib4-"doux" |
+fa' sib4\p |
 fa'2 do'4 |
 sol'2 fa'4 |
 mib'2 do'4 |
 re' r2 |
 R2. |
-r4 re''-"fort" re'' ~ |
+r4 re''\f re'' ~ |
 re'' sol'2 ~|
 sol'4 fad' sol' ~|
 sol'8 la' fad'4. sol'8 |
 sol'4 r2 |
 R2. |
-r4 re''-"fort" re'' ~|
+r4 re''\f re'' ~|
 re'' sol'2 ~|
 sol'4 fad' sol' ~|
 sol'8 la' fad'4. sol'8 |

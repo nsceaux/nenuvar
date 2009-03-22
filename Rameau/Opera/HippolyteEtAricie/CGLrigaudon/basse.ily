@@ -1,7 +1,5 @@
-\clef "basse" r4-"très doux" |
+\clef "basse" r4\pp |
 R1*3 |
-
-
 r4 sol sol, r |
 R1 |
 r4 re re, r |

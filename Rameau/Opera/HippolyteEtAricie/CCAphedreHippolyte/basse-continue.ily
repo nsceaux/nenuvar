@@ -53,7 +53,7 @@ la,2. |
 sib,2 sol, |
 la,4. sib,8 do4 do, |
 fa, r8 do'-"tous" do'8. do'16 la8. fa16 |
-do'4 r16 la-"doux" sib do' fa'4 r8 fa |
+do'4 r16 la\p sib do' fa'4 r8 fa |
 la,4 la8. fa16 do'4 do'8. fa16 |
 do8. do16 mi8. do16 fa8. fa16 la8. do'16 |
 fa'2 r4 r8 fa |

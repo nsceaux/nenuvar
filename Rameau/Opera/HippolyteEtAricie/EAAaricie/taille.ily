@@ -1,4 +1,4 @@
-\clef "taille" sol'4(-"doux" fad' ) mi' ( red' )|
+\clef "taille" sol'4(\p fad' ) mi' ( red' )|
 mi' ( fad' ) sol' ( red' )|
 mi' mi' fad' ( sold' )|
 la' ( sol' ) fad' ( mi' )|

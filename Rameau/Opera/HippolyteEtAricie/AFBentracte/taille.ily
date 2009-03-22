@@ -16,19 +16,19 @@ si re'2 |
 do'4 mi' do' |
 re'2 do'4 |
 do'2 si4 |
-do'2 do'4-"doux" |
+do'2 do'4\p |
 sol'2 re'4 |
 la'2 sol'4 |
 fa'2 re'4 |
 mi' r r |
 R2. |
-r4 si'-"fort" do'' |
+r4 si'\f do'' |
 do''4. do'8 re' mi' |
 fa'4 mi' mi' |
 re' re'2 |
 do'4 r r |
 R2. |
-r4 si'-"fort" do'' |
+r4 si'\f do'' |
 do''4. do'8 re' mi' |
 fa'4 mi' mi' |
 re' re'2 |

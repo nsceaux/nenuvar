@@ -16,7 +16,7 @@ dod'2 si4 |
 sol' fad' mi' |
 re'2. |
 R2.*5 |
-r2 r8 fad'-"doux" |
+r2 r8 fad'\p |
 sol'8. ( lad'16 ) si'8. ( dod''16 ) re''4 ~|
 re''8. ( dod''16 ) fad'2 ~|
 fad'4 r r8 lad' |

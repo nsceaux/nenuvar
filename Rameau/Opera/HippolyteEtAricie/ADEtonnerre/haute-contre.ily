@@ -1,15 +1,15 @@
-\clef "haute-contre" \repeat tremolo 16 sol32-"doux" |
+\clef "haute-contre" \repeat tremolo 16 sol32\p |
 \repeat tremolo 16 sol32 |
-\repeat tremolo 16 sol32-"fort" |
-\repeat tremolo 8 sol \repeat tremolo 8 la-"doux" |
+\repeat tremolo 16 sol32\f |
+\repeat tremolo 8 sol \repeat tremolo 8 la\p |
 \repeat tremolo 16 la |
-\repeat tremolo 16 la-"fort" |
-\repeat tremolo 8 la \repeat tremolo 8 si-"doux" |
+\repeat tremolo 16 la\f |
+\repeat tremolo 8 la \repeat tremolo 8 si\p |
 \repeat tremolo 16 si |
-\repeat tremolo 16 si-"fort" |
-\repeat tremolo 8 si \repeat tremolo 8 do'-"doux" |
+\repeat tremolo 16 si\f |
+\repeat tremolo 8 si \repeat tremolo 8 do'\p |
 \repeat tremolo 16 do' |
-\repeat tremolo 16 do'-"fort" |
+\repeat tremolo 16 do'\f |
 \repeat tremolo 8 do' \repeat tremolo 8 re' |
 \repeat tremolo 8 re' \repeat tremolo 8 fad' |
 \repeat tremolo 16 sol' |

@@ -1,6 +1,6 @@
 \clef "tenor" r2*3/4 r8 do' do' |
 mib' do' do' sol do' do' |
-mib' mib'-"doux" mib' sol' sol' sol' |
+mib' mib'\p mib' sol' sol' sol' |
 sol do' do' mib' mib' sol' |
 mib'4. r2*3/4 |
 R2. |
@@ -19,9 +19,9 @@ re8 fad la re' fad' la' |
 re'4. ~ re'8 do' mib' |
 re fad la re' fad' la' |
 re'4. r2*3/4 |
-sol,8-"fort" si, re sol si re' |
+sol,8\f si, re sol si re' |
 fa'4. r2*3/4 |
-do8 mib sol si-"doux" re' fa' |
+do8 mib sol si\p re' fa' |
 fa4. r2*3/4 |
 re8 fa sol sol si re' |
 sol'4. r2*3/4 |
@@ -33,7 +33,7 @@ sol,8 si, re sol si re' ~|
 re'4 do'8 re' fa'4 |
 mib'16 re' do'8 sol do' mib' do' |
 lab'4. r2*3/4 |
-fa,8-"fort" lab, do fa lab do' |
+fa,8\f lab, do fa lab do' |
 do4. r2*3/4 |
 sol,8 si, re sol si re' |
 sol'4. r2*3/4 |

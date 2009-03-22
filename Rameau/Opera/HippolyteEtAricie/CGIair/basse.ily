@@ -20,10 +20,8 @@ sol2. fa4 |
 mib4. sib,8 do4. ( sib,16 do )|
 re2 re,4 r |
 R1*3 |
-
-
-r2 r4 sib8^"Bassons"_"doux" do' |
+r2 r4 sib8^"Bassons"\p do' |
 re'2 re |
-sol4 mib'^"Tous"_"fort" re'8 do' sib la |
+sol4 mib'^"Tous"\f re'8 do' sib la |
 sol4 do re re, |
 sol,1 |

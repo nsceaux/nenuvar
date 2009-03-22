@@ -19,7 +19,7 @@ sol'4. la'8 fad'4 ~|
 fad'8. mi'16 mi'4. re'8 |
 re'2. |
 R2.*3 |
-r2 la'4-"doux" |
+r2 la'4\p |
 la' ( sol'8 ) r sol'4 |
 sol' ( fad'8 ) r fad'4 |
 fad'2 ( mi'8. ) re'16 |
@@ -37,7 +37,7 @@ sol'4. la'8 fad'4 ~|
 fad'8. mi'16 mi'4. re'8 |
 re'2 \fermata r4 |
 R2. |
-r2 r8 fad''-"doux" |
+r2 r8 fad''\p |
 fad''4 dod'' dod''8. dod''16 |
 lad'2 lad'8. si'16 |
 si'2 r4 |

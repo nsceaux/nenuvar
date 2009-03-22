@@ -1,8 +1,6 @@
 \clef "haute-contre" r4 |
 R1*3 |
-
-
-r4 sib'-"doux" sib' r |
+r4 sib'\p sib' r |
 R1 |
 r4 sib' sib' r |
 r sib' sib' fa' |

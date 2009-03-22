@@ -20,18 +20,15 @@ dod''8 la''16 sol'' fad'' mi'' re'' dod'' |
 re''8 re'' sol'' sol''16 fad'' |
 fad''4 ( mi'' )|
 re''8 dod''16 si' la' sol' fad' mi' |
-re'8 re''16-"doux" mi'' fad'' re'' mi'' fad'' |
+re'8 re''16\p mi'' fad'' re'' mi'' fad'' |
 sol''8 re''16 sol' do''8 do''16 re'' |
-si'4 si'8 r16 si''-"fort" |
+si'4 si'8 r16 si''\f |
 si''8. la''16 la''8 la'' |
 la'' la''16 la'' sol''8 sol''16 la'' |
 sol''4 ( fad'' )|
 mi''2 |
 R2*4 |
-
-
-
-r4 sol'8-"fort" sol' |
+r4 sol'8\f sol' |
 si' si' re'' re''16 re'' |
 la' si' la' si' do'' re'' do'' re'' |
 si'4 si'8 r |

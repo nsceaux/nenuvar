@@ -1,6 +1,6 @@
 \clef "dessus" r4 |
 R2.*6 |
-r8 r16 mi''(-"très doux" si''8. ) mi''16 ( si''8. ) mi''16 (|
+r8 r16 mi''(\pp si''8. ) mi''16 ( si''8. ) mi''16 (|
 si''4 ~ si''16 mi'' ( si'' ) mi'' ( si''32 ) mi'' ( si'' ) mi'' ( si'' ) mi'' ( si'' ) mi'' (|
 mi'''16 ) mi'' ( mi''' ) r r2 |
 R2.*8 |

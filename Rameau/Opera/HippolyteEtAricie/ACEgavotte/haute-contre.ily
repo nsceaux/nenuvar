@@ -5,8 +5,8 @@ la'2 la'4. re''8 |
 dod''2 dod''4. ( si'16 la' )|
 si'4 re'' si'4. si'8 |
 mi'2 la'4. la'8 |
-mi'4 fad'8 r la'4.-"doux" la'8 |
-mi'4 fad'8 r la'4.-"fort" la'8 |
+mi'4 fad'8 r la'4.\p la'8 |
+mi'4 fad'8 r la'4.\f la'8 |
 la'4 la' la' mi' |
 fad'2 %{%} r2 |
 R1*3 |

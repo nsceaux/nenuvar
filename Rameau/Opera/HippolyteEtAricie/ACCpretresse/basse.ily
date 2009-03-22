@@ -17,16 +17,16 @@ mib ( re ) do ( sib, )|
 la, ( sib, ) re, ( mib, )|
 fa,2 r |
 R1*3 |
-r2 sol4 (-"fort" fa )|
+r2 sol4 (\f fa )|
 mib ( re ) do ( re )|
-sol, ( re, ) sol (-"doux" fa )|
+sol, ( re, ) sol (\p fa )|
 mib ( re ) do ( mib )|
 re2 r |
-r mib'4 (-"fort" re' )|
+r mib'4 (\f re' )|
 do'4. ( sib8 ) la4 ( sol )|
 fad ( sol ) do ( re )|
 sol2 r |
-r mib4 (-"doux" re )|
+r mib4 (\p re )|
 do4. ( sib,8 ) la,4 ( sol, )|
 fad, ( sol, ) do, ( re, )|
 sol,2 sol4 ( sib, )|

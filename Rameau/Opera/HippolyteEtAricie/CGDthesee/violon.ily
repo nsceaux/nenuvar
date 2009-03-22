@@ -1,6 +1,6 @@
-\clef "dessus" sol8.-"fort" la32 ( si do' re' mi' fad' ) sol'8 si' re'' |
+\clef "dessus" sol8.\f la32 ( si do' re' mi' fad' ) sol'8 si' re'' |
 sol''4. si'' |
-re''' r16 sol''-"doux" la'' si'' do''' re''' |
+re''' r16 sol''\p la'' si'' do''' re''' |
 mi'''8 do''' sol'' mi'' do'' sol' |
 do'4. sol''16 fa'' mi'' re'' do'' si' |
 la'8 re'' do'' si' la' sol' |

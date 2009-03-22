@@ -1,6 +1,5 @@
 \clef "dessus" R1*2 |
-
-mi''2-"doux" mi'' |
+mi''2\p mi'' |
 mi'' mi''4. fad''8 |
 red''4 ( mi'' ) fad'' ( sol'' )|
 la''2 fad'' |

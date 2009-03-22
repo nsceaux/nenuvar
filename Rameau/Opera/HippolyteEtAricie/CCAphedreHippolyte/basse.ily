@@ -5,7 +5,7 @@ r2 la,4 |
 sib,2 r4 |
 R1*2 R1*3 R2. R1 R1 |
 r4 r8 do' do'8. do'16 la8. fa16 |
-do'4 r16 la-"doux" sib do' fa'4 r8 fa |
+do'4 r16 la\p sib do' fa'4 r8 fa |
 la,4 la8. fa16 do'4 do'8. fa16 |
 do8. do16 mi8. do16 fa8. fa16 la8. do'16 |
 fa'2 r4 r8 fa |

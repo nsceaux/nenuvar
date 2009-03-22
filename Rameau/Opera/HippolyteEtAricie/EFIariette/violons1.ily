@@ -1,4 +1,4 @@
-\clef "dessus2" la'4_"Très doux" |
+\clef "dessus2" la'4\pp |
 sold'2. |
 fad'2 re'4 |
 mi'2. |
@@ -10,7 +10,7 @@ R2.*2 |
 
 r4 mi'' mi' |
 %{%}<<
-{ la''16\rest mi''^\markup { Deux premiers violons très doux } la'' ( mi'' ) la'' la''\rest la''8\rest \oneVoice r4 \voiceOne |
+{ la''16\rest mi''^\markup { Deux premiers violons } \pp la'' ( mi'' ) la'' la''\rest la''8\rest \oneVoice r4 \voiceOne |
   la''16\rest dod'' la'' ( dod'' ) la'' la''\rest la''8\rest \oneVoice r4 \voiceOne |
   la''16\rest si' fad'' ( si' ) fad'' la''\rest la''8\rest la''4\rest |
   la''16\rest si' mi'' ( si' ) mi'' la''\rest la''8\rest \oneVoice r4 \voiceOne |

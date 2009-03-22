@@ -1,6 +1,6 @@
 \clef "haute-contre" r4 |
 R1 |
-r2 sol'4.-"doux" sol'8 |
+r2 sol'4.\p sol'8 |
 mib'2 mib'4 re' |
 re'2. r4 |
 R2. |
@@ -16,14 +16,10 @@ la'4. la'8 la' la' |
 sib'2 sib'8 la' |
 la'2. |
 R2.*3 |
-
-
 R1*3 |
-
-
 R2. |
 R1 |
-r4 r8 sib16-"doux" sib sib4 r |
+r4 r8 sib16\p sib sib4 r |
 r8 \repeat unfold 14 do'16 |
 \repeat unfold 16 sol |
 \repeat unfold 16 sol |
@@ -68,7 +64,7 @@ sib2 mib' | la re' | re' mib' }
      re | fa |
      mib2 r | re la |
      sol1 | } >>
-la2 sol'4.-"doux" sol'8 |
+la2 sol'4.\p sol'8 |
 sol'2 sol'4 sol' |
 la'2 r |
 r sol'4. re'8 |

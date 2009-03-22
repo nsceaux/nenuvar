@@ -1,4 +1,4 @@
-\clef "basse" mi4(-"doux" fad ) sol ( la )|
+\clef "basse" mi4(\p fad ) sol ( la )|
 sol ( fad ) mi ( si, )|
 do2. si,4 |
 la, ( si, ) do ( la, )|

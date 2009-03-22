@@ -1,4 +1,4 @@
-\clef "basse" la4.-"doux" |
+\clef "basse" la4.\p |
 si8 la sold |
 fad mi re |
 dod la,16 mi la la, |
@@ -33,5 +33,5 @@ dod8 mi16 la dod la |
 re8 fad16 la re la |
 mi mi la mi la mi |
 mi,8 sold4 |
-la la16-"fort" la,32 la, |
+la la16\f la,32 la, |
 la,4. |

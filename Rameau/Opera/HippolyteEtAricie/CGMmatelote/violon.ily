@@ -1,6 +1,6 @@
 \clef "dessus2" r4 |
 R1 |
-r4 sol'-"doux" do' r |
+r4 sol'\p do' r |
 R1 |
 r4 re' sol r |
 R1 |

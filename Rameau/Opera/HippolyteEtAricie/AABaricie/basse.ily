@@ -29,11 +29,11 @@ fad8.( mi16) fad8.( sol16) la8.( fad16) |
 sol8.( mi16) la4 la, |
 re,2\fermata r4 |
 R2.*8 |
-r2 r8 dod' -"doux" |
+r2 r8 dod'\p |
 dod'2 si8. ( la16 )|
 sold2 ~ sold8. fad16 |
 dod2 r4 |
 r r8 la, la,8. si,16 |
 dod2 dod,4 |
-fad, fad8. -"fort" sol16 fad8. mi16 |
+fad, fad8.\f sol16 fad8. mi16 |
 re4 re' dod' |

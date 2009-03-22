@@ -16,7 +16,7 @@ re'' si' mi'' ~|
 mi'' do'' fa'' ~|
 fa'' mi''8 re'' mi''4 ~|
 mi''8 fa'' re''4. do''8 |
-do''2 mi''4-"doux" |
+do''2 mi''4\p |
 mi'' ( re'' -\prall ) fa'' |
 fa''( mi'' -\prall ) mi'' |
 la'' si''8 do''' si'' la'' |
@@ -28,7 +28,7 @@ la'' si''8 do''' si'' la'' |
   mi''4_"Violons" la'2 |
   mi''4 la'2 |
   mi'4 
-} >>  mi''-"fort"^"Tous" la'' ~|
+} >>  mi''\f^"Tous" la'' ~|
 la''8 sol'' fa'' mi'' re'' do'' |
 \appoggiatura do'' re''4 \appoggiatura do''8 si'4 mi'' ~|
 mi''8 fa'' si'4. la'8 |
@@ -37,7 +37,7 @@ la'4 << { do'''8^"Flûtes" si'' do''' la'' |
           si''4 }
         \\ { la'2_"Violons" |
              mi''4 la'2 |
-             mi'4 } >> mi''4-"fort"^"Tous" la'' ~|
+             mi'4 } >> mi''4\f^"Tous" la'' ~|
 la''8 sol'' fa'' mi'' re'' do'' |
 \appoggiatura do''2 re''4 \appoggiatura do''8 si'4 mi'' ~|
 mi''8 fa'' si'4. la'8 |

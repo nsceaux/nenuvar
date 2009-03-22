@@ -2,14 +2,14 @@
 mib sib sib sib mib' sib sib sib sol sib sib sib mib' sib sib sib |
 mib sib sib sib mib' sib sib sib sol sib sib sib mib' mib mib mib |
 sib,4 r r2 |
-sib,4 (-"doux" sib, ) lab, ( lab, )|
+sib,4 (\p sib, ) lab, ( lab, )|
 sol,2 \fermata r |
 sol,4 ( sol, ) fa, ( fa, )|
 mi,2 r |
 r r4 mib, |
 fa,2 r |
 r r4 fad, |
-sol,2 sol4-"doux" sol |
+sol,2 sol4\p sol |
 \appoggiatura fa8 mib2 mib4 mib |
 re2 r |
 r mib4. mib8 |

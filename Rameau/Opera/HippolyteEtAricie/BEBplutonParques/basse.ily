@@ -5,9 +5,8 @@ mib, |
 R |
 re, |
 do, |
-lab,-"fort" |
+lab,\f |
 R1*2 |
-
 mib,1 |
 re, |
 dod, |
@@ -23,7 +22,7 @@ mib,4 r r2 |
 r8 r16 mib mib8. mib,16 mib,8. mib16 mib8. mib,16 |
 re,4 r r8 r16 re re8. re,16 |
 sol,2 r |
-r8 r16 sol-"doux" sol8. sol,16 sol,8. sol16 sol8. sol,16 |
+r8 r16 sol\p sol8. sol,16 sol,8. sol16 sol8. sol,16 |
 la,8. la16 la8. la,16 la,8. la16 la8. la,16 |
 sib,8. sib16 sib8. sib,16 sib,8. sib16 sib8. sib,16 |
 mib,8. mib16 mib8. mib,16 mib,8. mib16 mib8. mib16 |

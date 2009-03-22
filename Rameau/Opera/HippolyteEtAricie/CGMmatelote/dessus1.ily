@@ -25,7 +25,7 @@
   \new Voice { 
     \stemDown s4 |
     s1 |
-    si4\rest_\markup { Violons doux } sol' do' si4\rest |
+    si4\rest_"Violons"\p sol' do' si4\rest |
     s1 |
     si4\rest re' sol si4\rest |
     s1 |

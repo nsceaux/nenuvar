@@ -10,8 +10,8 @@ R2.*3 |
 r4 sol, sol, |
 do,2 r4 |
 R2. |
-r4 la,-"doux" la, |
-re,2 \clef "alto" r8 re'-"fort" |
+r4 la,\p la, |
+re,2 \clef "alto" r8 re'\f |
 re'2 re'8 si |
 mi'4 do' re' |
 sol2 r4 |

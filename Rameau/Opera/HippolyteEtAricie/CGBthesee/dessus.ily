@@ -8,12 +8,12 @@ red'' red'' ( mi'' ) sol'' ~ sol'' fad'' sol'' ( la'' )~|
 la'' la'' sol'' ( fad'' ) mi'' ( re'' ) dod'' ( si' )~|
 si' si' ( lad' ) dod'' ~ dod'' mi' fad' ( dod' )|
 re' ( fad' ) si' ( re' ) re' ( dod' ) si' ( lad' )|
-\appoggiatura lad' si' ( fad' ) re' ( si ) r re'-"doux" mi' ( fad' )~|
+\appoggiatura lad' si' ( fad' ) re' ( si ) r re'\p mi' ( fad' )~|
 fad' fad' mi' ( red' ) mi' mi' re' ( dod' )|
 re' ( fad' ) si' ( re'' ) fad'' ( si'' ) fad'' ( re'' )|
 sol'' ( mi'' ) fad'' ( sol'' ) dod'' ( mi'' ) re'' ( dod'' )~|
-dod'' dod'' re'' ( lad' ) si' (-"fort" fad' ) sol' ( red' )|
-mi' ( re'' ) dod'' ( si' ) dod'' ( mi' ) fad' (-"doux" dod' )|
+dod'' dod'' re'' ( lad' ) si' (\f fad' ) sol' ( red' )|
+mi' ( re'' ) dod'' ( si' ) dod'' ( mi' ) fad' (\p dod' )|
 re' ( fad' ) si' ( si )~ si ( sol' ) si' ( si )|
 fad'4 ( sol'8. ) fad'16 fad'4 ( mi'8. ) re'16 |
 dod'2 r |
@@ -21,8 +21,8 @@ r8 sold' la' ( si' )~ si' si' dod'' ( re'' ) ~|
 re'' re'' dod'' ( fad'' )~ fad'' dod'' si' ( dod'' )|
 \appoggiatura si' la'2 mid'4 fad' |
 fad'2 ( mid'4. ) fad'8 |
-fad' dod''-"fort" si' ( lad' )~ lad' mi'' re'' ( dod'' )~|
-dod'' sol'' fad'' ( mi'' ) re'' ( dod'' ) si' (-"doux" lad' )|
+fad' dod''\f si' ( lad' )~ lad' mi'' re'' ( dod'' )~|
+dod'' sol'' fad'' ( mi'' ) re'' ( dod'' ) si' (\p lad' )|
 si' ( fad' ) sol' ( fad' ) r2 |
 r8 fad' sol' ( fad' ) si'4. ( lad'16 si' )|
 lad'2 r |

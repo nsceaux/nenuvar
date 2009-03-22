@@ -11,11 +11,11 @@ re'' \appoggiatura do''8 sib' r <<
     mi'' ( fa'' ) dod'' ( re'' )|
     la'2 } 
   \\ { r2_"Violons" |
-       sib'4 (_"très doux" la' ) mi' ( fa' )|
-       dod' ( re' ) } >> mi''4_"fort"^"Tous" ( fa'' )|
-sib'' ( la'' ) dod'' (_"doux" re'' )|
-sol'' (_"fort" fa'' ) si' (_"doux" do'' )|
-dod'' (_"fort" re'' ) fa'' ( mi'' )|
+       sib'4 (\pp la' ) mi' ( fa' )|
+       dod' ( re' ) } >> mi''4\f^"Tous" ( fa'' )|
+sib'' ( la'' ) dod'' (\p re'' )|
+sol'' (\f fa'' ) si' (\p do'' )|
+dod'' (\f re'' ) fa'' ( mi'' )|
 re''2 fa''4 ( sib' )|
 do'' ( sib' ) mib'' ( re'' )|
 sol'' ( fa'' ) la'' ( sib'' )|
@@ -26,18 +26,18 @@ la'2 << { do''4 (^"Flûtes" re'' )|
           mib'' ( re'' ) mib'' ( do'' )|
           sib'2 }
         \\ { r2_"Violons" |
-             fa'1-"doux" ~|
+             fa'1\p ~|
              fa' ~|
              fa'4 ( sol' ) mib' ( fa' )|
-             sib2 } >> re''-"fort"^"Tous" |
+             sib2 } >> re''\f^"Tous" |
 sol' mib''4 re''8. do''16 |
-sib'4 la' re''2-"doux" |
+sib'4 la' re''2\p |
 sol' mib''4 la'8. ( sib'16 )|
-fad'2 la'4 (-"fort" sib' )|
+fad'2 la'4 (\f sib' )|
 la' ( sol' ) do'' ( si' )|
-mib''4. ( re''8 ) fad''4 (-"fort" sol'' )|
+mib''4. ( re''8 ) fad''4 (\f sol'' )|
 do'' ( sib' ) do'' ( la' )|
-sol'2 la'4 (-"doux" sib' )|
+sol'2 la'4 (\p sib' )|
 la' ( sol' ) do'' ( si' )|
 mib''4. ( re''8 ) fad''4 ( sol'' ) |
 do'' ( sib' ) do'' ( la' )|

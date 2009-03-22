@@ -6,6 +6,6 @@ mi''2 mi''4 fad'' |
 \appoggiatura mi''8 re''4 \appoggiatura dod''8 si'4 mi''4. fad''8 |
 dod''2 re''4. la'8 |
 si'4 la'8 r r2 |
-r2 re''4.-"fort" mi''8 |
+r2 re''4.\f mi''8 |
 mi''4. ( fad''16 sol'' ) mi''4. re''8 |
 re''2 

@@ -16,14 +16,10 @@ re'4. mi'8 re' re' |
 re'2 sol'8 mi' |
 fa'2. |
 R2.*3 |
-
-
 R1*3 |
-
-
 R2. |
 R1 |
-r4 r8 sol16-"doux" sol sol4 r |
+r4 r8 sol16\p sol sol4 r |
 r8 \repeat unfold 14 fa16 |
 \repeat unfold 16 fa |
 mib \repeat unfold 15 sol |
@@ -68,7 +64,7 @@ sib2 mib' | la re' | re' mib' | }
      re | fa |
      mib2 r | re la |
      sol1 | } >>
-la2 re'4.-"doux" re'8 |
+la2 re'4.\p re'8 |
 re'2 do'4 do' |
 do'2 r |
 r sib4. sib8 |

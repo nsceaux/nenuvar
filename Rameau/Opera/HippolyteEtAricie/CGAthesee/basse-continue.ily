@@ -14,7 +14,7 @@ fad ~ fad fad ~ fad |
 fad ~ fad fad ~ fad |
 fad2 fad, |
 si,2. si,4 |
-mi,2 mi4-"doux" |
+mi,2 mi4\p |
 si2 si,4 |
 fad2 red4 |
 sold mi mi, |

@@ -2,12 +2,12 @@
 R1 |
 r2 mi'4. ( re'8 )|
 re'4 fa'8 mi' re' do' si la |
-sol2 r4 sol-"fort" |
-la do'-"doux" la sol |
-sol do'4.-"fort" la8 sol4 |
+sol2 r4 sol\f |
+la do'\p la sol |
+sol do'4.\f la8 sol4 |
 sol2 r |
 R1 |
-r2 sib4.-"doux" ( la8 )|
+r2 sib4.\p ( la8 )|
 la2 ~ la4. si8 |
 sold2 r4 do'8 si |
 mi4 r r2 |

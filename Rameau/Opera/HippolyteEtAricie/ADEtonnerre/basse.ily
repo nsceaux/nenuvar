@@ -1,15 +1,15 @@
-\clef "basse" \repeat tremolo 16 sol,32-"très doux"\< |
+\clef "basse" \repeat tremolo 16 sol,32\pp\< |
 \repeat tremolo 16 sol, |
-\repeat tremolo 16 sol,\!-"fort" |
+\repeat tremolo 16 sol,\!\f |
 \repeat tremolo 8 sol, \repeat tremolo 8 la,\> |
 \repeat tremolo 16 la, |
-\repeat tremolo 16 la,\!-"fort" |
+\repeat tremolo 16 la,\!\f |
 \repeat tremolo 8 la, \repeat tremolo 8 si,\> |
 \repeat tremolo 16 si, |
-\repeat tremolo 16 si,\!-"fort" |
+\repeat tremolo 16 si,\!\f |
 \repeat tremolo 8 si, \repeat tremolo 8 do\> |
 \repeat tremolo 16 do |
-\repeat tremolo 16 do\!-"fort" |
+\repeat tremolo 16 do\!\f |
 \repeat tremolo 8 do \repeat tremolo 8 re |
 \repeat tremolo 16 re, |
 \repeat tremolo 16 re, |
@@ -60,7 +60,7 @@ do8 r r4 |
   >>
 re re mi fad sol la si do' re' re' do' si la sol fad mi |
 \repeat percent 4 { re\> sol fad mi } |
-re sol fad mi re sol fad mi\! re sol-"fort" fad mi re do si, la, |
+re sol fad mi re sol fad mi\! re sol\f fad mi re do si, la, |
 \repeat tremolo 16 sol,\> |
 \repeat tremolo 16 sol, |
 sol,8\! r r4 

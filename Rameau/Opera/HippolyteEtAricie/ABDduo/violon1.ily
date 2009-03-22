@@ -1,4 +1,4 @@
-\clef "dessus" re''8.-"doux" dod''16 |
+\clef "dessus" re''8.\p dod''16 |
 dod''8 r4 r16 mi'' re''8. dod''16 |
 si'4 fad'8 r r dod''8 |
 re''4. re''8 re''8. dod''16 |

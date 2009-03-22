@@ -1,4 +1,4 @@
-\clef "dessus2" la'4_"Très doux" |
+\clef "dessus2" la'4\pp |
 sold'2. |
 fad'2 re'4 |
 mi'2. |

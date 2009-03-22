@@ -2,11 +2,11 @@
 R1 |
 r2 la' ~|
 la'4. ( sol'8 ) sol'4 re' ~|
-re'4. do'8-"fort" do'2 ~|
-do'4 fa'8-"doux" mi' re' re' re' mi' |
-\appoggiatura re'8 do' mi'4-"fort" ~ mi' re'8 re'4 |
+re'4. do'8\f do'2 ~|
+do'4 fa'8\p mi' re' re' re' mi' |
+\appoggiatura re'8 do' mi'4\f ~ mi' re'8 re'4 |
 do'2 r |
-r mi'4.-"doux" ( re'8 )|
+r mi'4.\p ( re'8 )|
 re'2 re'4 re'8 mi' |
 fa'2 ~ fa'4. ( si8 )|
 si2 r4 mi'8 re' |

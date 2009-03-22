@@ -1,7 +1,7 @@
 \clef "dessus" R2.*3 |
 
 
-si'8.(-"doux" la'16) sol'8.( fad'16) sol'8.( red'16) |
+si'8.(\p la'16) sol'8.( fad'16) sol'8.( red'16) |
 mi'4 mi'' mi'' |
 mi''4. mi''8 fad''8.( sol''16) |
 red''4 mi''8.( red''16) mi''8.( fad''16) |
@@ -18,7 +18,7 @@ si'8.( la'16) sol'8.( fad'16) sol'8.( red'16) |
 mi'4 sol' mi' |
 si2 r4 |
 r8 red'' mi''8.( red''16) mi''8.( fad''16) |
-red''4 si''-"très doux" si'' |
+red''4 si''\pp si'' |
 si''2. |
 r2 mi''4 |
 sold'2 si'4 |
@@ -30,7 +30,7 @@ R2.*2 |
 
 fad'4 sol'8.( fad'16) mi'8.( sol'16) |
 fad'4.( mi'16 red') mi'8.( fad'16) |
-red'2 \clef "dessus2" r8 si-"doux" |
+red'2 \clef "dessus2" r8 si\p |
 \appoggiatura si do'2. |
 dod'4 dod'8. dod'16 re'8. mi'16 |
 red'2 si4 |

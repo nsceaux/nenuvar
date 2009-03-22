@@ -1,4 +1,4 @@
-\clef "haute-contre" sol'4-"doux" fad'2 |
+\clef "haute-contre" sol'4\p fad'2 |
 sol'4 la' sol' |
 fad' mi'2 |
 fad' fad'4 |

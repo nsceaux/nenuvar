@@ -1,4 +1,4 @@
-\clef "dessus" la'4-"doux" |
+\clef "dessus" la'4\p |
 sib' la' sib' la' |
 do''2. re''8 mib'' |
 re''4 sol'' sib' la' |

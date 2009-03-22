@@ -1,6 +1,6 @@
 \clef "dessus2" r8 sol' sol' mib' mib' do' |
 sol' sol' sol' do'' do'' mib'' |
-do''4. r8 sol'-"doux" sol' |
+do''4. r8 sol'\p sol' |
 mib' do' do'' do'' do'' sol' |
 do''4. r2*3/4 |
 mib'16 ( fa' ) sol' ( lab' ) sol' ( fa' ) mib' ( fa' ) sol' ( fa' ) mib' ( re' )|
@@ -20,9 +20,9 @@ re'16 ( sol' ) la' ( sib' ) la' ( sol' ) fad' ( sol' ) la' ( sib' ) la' ( re'' )
 re'4 re'8 mib'16 ( fa' ) mib' ( re' ) do' ( sib )|
 la ( sib ) do' ( re' ) do' ( sib ) la ( sib ) do' ( re' ) do' ( sib )|
 la ( sib ) do' ( re' ) mib' ( fad' ) sol'8. la'16 fad'8 |
-sol'4. ~ sol'16 (-"fort" la' ) si' ( do'' ) re'' ( do'' )|
+sol'4. ~ sol'16 (\f la' ) si' ( do'' ) re'' ( do'' )|
 si' ( do'' ) re'' ( mib'' ) fa'' ( mib'' ) re'' ( do'' ) si' ( la' ) sol' ( fa' )|
-mib' mib' re' ( do' ) si ( la ) sol (-"doux" la ) si ( do' ) si ( la )|
+mib' mib' re' ( do' ) si ( la ) sol (\p la ) si ( do' ) si ( la )|
 sol ( la ) si ( do' ) re' ( do' ) si ( do' ) re' ( mib' ) fa' ( sol' )|
 si ( do' ) re' ( mib' ) re' ( do' ) si ( do' ) re' ( mib' ) re' ( do' )|
 si ( do' ) re' ( mib' ) re' ( do' ) si ( do' ) re'8 re' |
@@ -32,7 +32,7 @@ do''16 ( sib' ) lab' ( sib' ) lab' ( sol' ) fa' ( sol' ) lab' ( sib' ) lab' ( so
 fa' ( sol' ) fa' ( sol' ) lab' ( fa' ) re'8 sol'16 ( la' ) si' ( do'' )|
 si' ( do'' ) re'' ( mib'' ) re'' ( do'' ) si' ( do'' ) si' ( la' ) sol' ( fa' )|
 mib' ( do' ) re' ( mib' ) fa' ( sol' ) lab'8 re'4 |
-mib'16 (-"fort" fa' ) sol' ( lab' ) sol' ( fa' ) mib' ( fa' ) sol' ( lab' ) sol' ( fa' |
+mib'16 (\f fa' ) sol' ( lab' ) sol' ( fa' ) mib' ( fa' ) sol' ( lab' ) sol' ( fa' |
 mib' ( fa' ) mib' ( reb' ) do' ( sib ) do' ( reb' ) mib' ( fa' ) mib' ( reb' )|
 do' ( reb' ) do' ( sib ) lab ( sol ) lab ( sib ) do' ( reb' ) do' ( sib )|
 lab8 lab'16 ( sol' ) fa' ( mib' ) re' ( mib' ) re' ( do' ) fa' ( mib' )|

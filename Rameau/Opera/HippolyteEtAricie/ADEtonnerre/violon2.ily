@@ -1,15 +1,15 @@
-\clef "dessus2" \repeat tremolo 16 sol32\<-"doux" |
+\clef "dessus2" \repeat tremolo 16 sol32\<\p |
 \repeat tremolo 16 sol32 |
-sol16\! mi''32-"fort" mi'' re'' re'' do'' do'' si' si' la' la' sol' sol' fad' fad' |
+sol16\! mi''32\f mi'' re'' re'' do'' do'' si' si' la' la' sol' sol' fad' fad' |
 mi' mi' re' re' do' do' si si \repeat tremolo 8 la\> |
 \repeat tremolo 16 la |
-la16\! fad''32-"fort" fad'' mi'' mi'' re'' re'' do'' do'' si' si' la' la' sol' sol' |
+la16\! fad''32\f fad'' mi'' mi'' re'' re'' do'' do'' si' si' la' la' sol' sol' |
 fad' fad' mi' mi' re' re' do' do' \repeat tremolo 8 si\> |
 \repeat tremolo 16 si |
-si16\! sol''32-"fort" sol'' fad'' fad'' mi'' mi'' re'' re'' do'' do'' si' si' la' la' |
+si16\! sol''32\f sol'' fad'' fad'' mi'' mi'' re'' re'' do'' do'' si' si' la' la' |
 sol' sol' fad' fad' mi' mi' re' re' \repeat tremolo 8 do'\> |
 \repeat tremolo 16 do' |
-do'16\! la''32-"fort" la'' sol'' sol'' fad'' fad'' mi'' mi'' re'' re'' do'' do'' si' si' |
+do'16\! la''32\f la'' sol'' sol'' fad'' fad'' mi'' mi'' re'' re'' do'' do'' si' si' |
 la' la' sol' sol' fad' fad' mi' mi' \repeat tremolo 8 re' |
 \repeat tremolo 16 re' |
 \repeat tremolo 16 re' |
@@ -40,7 +40,7 @@ mi'' fad'' sol'' fad'' mi'' re'' do'' si' la' si' do'' si' la' sol' fad' mi' |
 \repeat tremolo 8 re'' re'' re'' do'' si' la' sol' fad' mi' |
 \repeat tremolo 16 re' |
 \repeat percent 4 { re'\> sol' fad' mi' } |
-re' sol' fad' mi' re' sol' fad' mi' re'\! sol'-"fort" fad' mi' re' do' si la |
+re' sol' fad' mi' re' sol' fad' mi' re'\! sol'\f fad' mi' re' do' si la |
 \repeat tremolo 16 sol\> |
 \repeat tremolo 16 sol |
 sol8\! r r4 
