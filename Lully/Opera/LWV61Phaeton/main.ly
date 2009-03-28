@@ -112,5 +112,32 @@ page lviii manquante (mesures 73 à 79)
   \pieceToc \markup { Protée : \italic { Heureux qui peut voir du rivage } }
   \includeScore "BEAprotee"
   \scene "Scène VI"
-  %% page 100
+  \sceneDescription \markup \wordwrap-center { \smallCaps Clymène, \smallCaps Protée endormi. }
+  \pieceToc \markup { Clymène : \italic { Vous avec qui le sang me lie } }
+  \includeScore "BFAclymene"
+  \scene "Scène VII"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps Triton, suivants de Triton, \smallCaps Protée endormi.
+    Triton sort de la mer, accompagné d'une troupe de suivants, dont
+    une partie fait un concert d'instruments, et l'autre partie dance.
+    Ils éveillent Protée, et l'invitent à prendre part à leurs divertissements,
+    Triton chante au milieu de ses suivants.
+  }
+  \pieceToc \markup { Triton : \italic { Que Protée vec nous partage } }
+  \includeScore "BGAair"
+  \pieceToc \markup { Triton : \italic { La plaisir est nécessaire } }
+  \includeScore "BGBrondeau"
+  \pieceToc \markup { Protée, Triton }
+  \includeScore "BGCproteeTriton"
+  \sceneDescription \markup \wordwrap-center {
+    Protée disparaît et se transforme successivement en tigre, en
+    arbre, en dragon, en fontaine et en flame. Tandis qu'il prend ces
+    formes différentes, il est sans cesse suivi et environné par les
+    suivants de Triton, et Triton lui fait entendre qu'il ne le
+    quittera point malgré ses transformations.
+  }
+  \pieceToc \markup { Triton : \italic { C'est un secret qu'il faut qu'on vous arrache } }
+  \includeScore "BGDtriton"
+  \scene "Scène VIII"
+  %% page 117
 }
