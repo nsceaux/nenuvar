@@ -22,9 +22,9 @@ si,2 mi |
 la4. re8 mi4 |
 la,2 r4 |
 sol,2 fad, |
-si,1 |
+si,1 |\allowPageTurn
 si,2 lad,4 |
-si,1 |
+si,1 |\allowPageTurn
 mi2 sold, |
 la, si, |
 mi,4 do, do'2 |
@@ -41,7 +41,7 @@ mi1 |\allowPageTurn
 fa2 sol4 |
 do2. dod4 |
 re2 fa4 |
-mi2 r |
+mi2 r |\allowPageTurn
 r2 la,4-"Basses et contre-basses" |\noBreak
 sib,2. ~|
 sib,2-"Basse continue" sol, |

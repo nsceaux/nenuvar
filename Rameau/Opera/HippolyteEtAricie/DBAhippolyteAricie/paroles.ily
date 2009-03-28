@@ -7,15 +7,15 @@ Hé -- "las !" Plus je vous vois plus ma dou -- leur aug -- men -- te,
 je sens mieux tous mes maux en voy -- ant tant d’ap -- pas.
 
 %% ARICIE.
-"Quoi !" L’i -- nim -- i -- tié de la Rei -- ne,
-vous fait "-el" -- le quit -- ter l’ob -- jet de votre a -- "mour ?"
+"Quoi !" L’i -- ni -- mi -- tié de la Rei -- ne,
+vous fait- el -- le quit -- ter l’ob -- jet de votre a -- "mour ?"
 
 %% HIPPOLYTE.
 "Non !" Je ne fui -- rais pas de cet heu -- reux sé -- jour,
 si je n’y crai -- gnais que sa hai -- ne.
 
 %% ARICIE.
-Que di -- tes "-vous…"
+Que di -- tes- vous…
 
 %% HIPPOLYTE.
 Gar -- dez d’o -- ser por -- ter les yeux
@@ -45,7 +45,7 @@ que l’a -- mour a faits l’un pour l’au -- "tre !"
 Hé bien dai -- gnez me sui -- vre.
 
 %% ARICIE.
-Ô "ciel !" Que di -- tes "-vous ?"
+Ô "ciel !" Que di -- tes- "vous ?"
 Moi, vous sui -- "vre !"
 
 %% HIPPOLYTE.

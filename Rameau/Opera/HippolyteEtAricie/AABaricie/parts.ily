@@ -1,6 +1,6 @@
 \piecePartSpecs #`((violon1)
                    (violon2)
-                   (flute)
+                   (flute #:notes "flutes")
                    (voix)
                    (basse #:instrument "Basse continue")
                    (basse-continue))

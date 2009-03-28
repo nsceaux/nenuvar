@@ -127,6 +127,13 @@
 	       'page-break-permission 'force
 	       'page-turn-permission 'force)))
 
+#(define-public (add-allow-page-turn parser)
+  (add-music parser 
+   (make-music 'Music
+	       'page-marker #t
+	       'line-break-permission 'force
+	       'page-turn-permission 'allow)))
+
 #(define-public (add-toplevel-markup parser text)
   (add-score parser (list text)))
 
@@ -449,6 +456,12 @@ partPageBreak =
 #(define-music-function (parser location parts) (list?)
   (if (memq (*part*) parts)
       (add-page-break parser))
+  (make-music 'Music 'void #t))
+
+partNoPageBreak =
+#(define-music-function (parser location parts) (list?)
+  (if (memq (*part*) parts)
+      (add-no-page-break parser))
   (make-music 'Music 'void #t))
 
 partBlankPageBreak =

@@ -22,5 +22,6 @@
       \override RehearsalMark #'font-size = #0
       \override MetronomeMark #'font-size = #-1
     }
+    \context { \Staff \remove "Page_turn_engraver" }
   }
 }

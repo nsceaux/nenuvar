@@ -57,6 +57,7 @@
   smallindent = #(compute-indent 10)
   noindent = #(compute-indent 0)
   largeindent = #(compute-indent 25)
+  hugeindent = #(compute-indent 35)
   indent = \smallindent
 
   \context {

@@ -10,4 +10,4 @@
                     (voix)
                     (basson, breaks)
                     (basse ,breaks)
-                    (basse-continue #:notes "basse-continue")))
+                    (basse-continue #:notes "basse-continue" #:music ,breaks)))

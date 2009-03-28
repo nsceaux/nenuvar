@@ -46,7 +46,7 @@ mi'' la' la' la' la' la' la'2*3/2 |
 r8 la'' la'' la'' la'' la'' la''2*3/2 |
 r8 fad'' fad'' fad'' fad'' fad'' fad'' la' la' la' la' la' |
 re'' re'' re'' fad'' fad'' fad'' la'' sol'' fad'' fad'' mi'' re'' |
-re'' la' la' fad' fad' fad' << { re''4.*3/2 ^"Un hautbois seul" fad''8*3/2 } \\ { re'4.*3/2 r8*3/2 } >> |
+re'' la' la' fad' fad' fad' << { re''4.*3/2 ^"Un hautbois seul" fad''8*3/2 } \\ { re'4.*3/2 r8*3/2 } >> |\noBreak
 mi''4.*3/2 fad''8*3/2 dod''4*3/2 la' |
 re'' dod''8*3/2 r re''2*3/2 |
 dod''2*3/2 si'4 la'8 sol'4 fad'8 |
@@ -62,7 +62,7 @@ mi'' la' la' la' la' la' la'2*3/2 |
 r8 la'' la'' la'' la'' la'' la''2*3/2 |
 r8 fad'' fad'' fad'' fad'' fad'' fad'' la' la' la' la' la' |
 re'' re'' re'' fad'' fad'' fad'' la'' sol'' fad'' fad'' mi'' re'' |
-re'' la' la' fad' fad' fad' << { si'4.*3/2^\markup { \concat { P \super er } hautbois seul } re''8  } \\ { re'4.*3/2 r8*3/2 } >> |
+re'' la' la' fad' fad' fad' << { si'4.*3/2^\markup { \concat { P \super er } hautbois seul } re''8  } \\ { re'4.*3/2 r8*3/2 } >> |\noBreak
 dod''4.*3/2 re''8*3/2 lad'4*3/2 fad' |
 si' lad'8*3/2 r si'2*3/2 |
 la' sol'4 fad'8 mi'4 re'8 |

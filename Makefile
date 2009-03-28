@@ -104,7 +104,7 @@ archive:
 
 ### Rameau
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie,\
-violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse voix basse-continue,,))
+violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse voix,part-bc,basse-continue))
 
 ### Couperin
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents,,,))

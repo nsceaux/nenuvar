@@ -1,4 +1,4 @@
-\clef "vbas-dessus" r8 r r16 fa'' |
+\clef "vbas-dessus" r4 r16 fa'' |
 do''8 do'' do'' la' la' la' |
 re''4. re''8 re''8. sib'16 |
 fa''4 fa''8 fa''4 fa''16 fa' |

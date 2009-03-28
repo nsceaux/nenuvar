@@ -29,6 +29,7 @@
 
 \layout {
   \context { \Score \override VerticalAlignment #'max-stretch = ##f }
+  \context { \Staff \consists "Page_turn_engraver" }
 }
 
 \paper { #(define page-breaking (if (eqv? (*part*) 'voix)
@@ -68,10 +69,14 @@
   \pieceToc \markup { Aricie : \italic { Temple sacré, séjour tranquille } }
   \includeScore "AABaricie"
   %%
+}
+\bookpart {
   \scene "Scène II"
   \sceneDescription \markup \smallCaps { Hippolyte, Aricie. }
   \pieceToc \markup { Hippolyte, Aricie }
   \includeScore "ABAhippolyteAricie"
+}
+\bookpart {
   \pieceToc \markup { Aricie : \italic { Hippolyte amoureux m'occupera sans cesse } }
   \includeScore "ABBaricie"
   \pieceToc \markup { Hippolyte, Aricie }
@@ -88,31 +93,42 @@
   \includeScore "ACAmarche"
   \pieceToc \markup { Chœur de prêtresses : \italic { Dans ce paisible séjour Règne l'aimable innocence }}
   \includeScore "ACBchoeur"
+}
+\bookpart {
   \pieceTocAndTitle \markup "PREMIER AIR" \markup { Premier air : \italic { Dieu d’Amour, pour nos asiles, tes tourments ne sont pas faits. } }
   \includeScore "ACCpretresse"
   \pieceTocTitle "Deuxième Air"
   \includeScore "ACDair"
   \pieceTocAndTitle \markup "GAVOTTE" \markup { Gavotte : \italic { De l’Amour fuyez les charmes } }
   \includeScore "ACEgavotte"
+  \partPageTurn #'(basse-continue)
   %%
+}
+\bookpart {
   \scene "Scène IV"
   \sceneDescription \markup \smallCaps { Phèdre, Aricie, Hippolyte. }
   \pieceToc \markup { Phèdre, Aricie, Hippolyte, chœur de prêtresses }
   \includeScore "ADAphedreAricieChoeurHippolyte"
+}
+\bookpart {
   \pieceToc \markup { Phèdre : \italic { Périsse la vaine puissance Qui s’élève contre les Rois } }
   \includeScore "ADBphedre"
   \pieceToc \markup { La prêtresse, chœur : \italic { Dieux vengeurs, lancez le tonnerre } }
-  \includeScoreNoPageTurn "ADCprelude"
+  \includeScore "ADCprelude"
   \includeScore "ADDpretresseChoeur"
   \pieceTocTitle "Bruit de tonnerre"
   \includeScore "ADEtonnerre"
   %%
+}
+\bookpart {
   \scene "Scène V"
   \sceneDescription \markup { \smallCaps Diane, et les acteurs
                               de la scène précédente. }
   \pieceToc \markup { Diane, Aricie, Hippolyte }
   \includeScore "AEAdianeAricieHippolyte"
   %%
+}
+\bookpart {
   \scene "Scène VI"
   \sceneDescription \markup \smallCaps Phèdre.
   \pieceToc \markup { Phèdre : \italic { Que rien n’échappe à ma fureur } }
@@ -130,12 +146,10 @@
   \sceneDescription \markup \wordwrap-center \smallCaps { Thésée, Tisiphone. }
   \pieceTocTitle "Ritournelle"
   \includeScore "BAAritournelle"
-  \partPageBreak #'(flute1 flute2 hautbois1 hautbois2)
   \pieceToc \markup Thésée
   \includeScore "BABthesee"
   \pieceToc \markup { Tisiphone : \italic { Non, dans le séjour ténébreux C’est en vain qu’on gémit } }
   \includeScore "BACtisiphone"
-  \partPageBreak #'(flute1 flute2 hautbois1 hautbois2)
   \pieceToc \markup { Thésée, Tisiphone }
   \includeScore "BADtheseeTisiphone"
   \pieceToc \markup { Thésée, Tisiphone : \italic { Contente-toi d’une victime. } } 
@@ -190,7 +204,6 @@
   }
   \pieceToc \markup { Mercure, Pluton }
   \includeScore "BEAmercurePluton"
-  \partPageBreak #'(basson)
   \pieceToc \markup { Pluton, les Parques : \italic { Vous, qui de l’avenir percez la nuit profonde } }
   \includeScore "BEBplutonParques"
   %%
@@ -217,6 +230,8 @@
   \pieceToc \markup { Phèdre : \italic { Cruelle Mère des Amours } }
   \includeScore "CAAphedre"
   %%
+}
+\bookpart {
   \scene "Scène II"
   \sceneDescription \markup \wordwrap-center {
     \smallCaps Phèdre, seule.
@@ -231,6 +246,8 @@
   \pieceToc \markup { Phèdre, Hippolyte }
   \includeScore "CCAphedreHippolyte"
   %%
+}
+\bookpart {
   \scene "Scène IV"
   \sceneDescription \markup \wordwrap-center {
     \smallCaps { Thésée, Phèdre, Hippolyte. }
@@ -252,13 +269,14 @@
   \pieceToc \markup { Thésée, Œnone }
   \includeScore "CFAtheseeOenone"
   %%
+}
+\bookpart {
   \scene "Scène VII"
   \sceneDescription \markup \wordwrap-center {
     \smallCaps Thésée, une matelote, peuples et matelots.
   }
   \pieceToc \markup { Thésée }
   \includeScore "CGAthesee"
-  \partPageBreak #'(basson)
   \pieceToc \markup { Thésée : \italic { Puissant Maître des flots, favorable Neptune } }
   \includeScore "CGBthesee"
   \pieceToc \markup { Thésée : \italic { Mais de courroux l'onde s'agite } }
@@ -330,13 +348,12 @@
   \pieceToc \markup { Une chasseresse : \italic { Amants, quelle est votre faiblesse ? } }
   \includeScore "DCDchasseresse"
   \pieceTocTitle "Premier menuet"
-  \includeScoreNoPageTurn "DCEmenuet"
+  \includeScore "DCEmenuet"
   \pieceTocTitle "Deuxième menuet"
-  \includeScoreNoPageTurn "DCFmenuet"
+  \includeScore "DCFmenuet"
   \markup \small-title \fill-line {
     \line { On reprend le premier menuet page \page-refIII #'DCEmenuet . }
-  }\allowPageTurn
-  \partPageBreak #'(hautbois1 hautbois2)
+  }
   \pieceTocAndTitle \markup "DEUXIÈME RONDEAU" \markup {
     Deuxième rondeau, une chasseresse, chœur : \italic { À la chasse, à la chasse, Armez-vous }
   }
@@ -370,6 +387,8 @@
   \sceneDescription \markup \fill-line { \line { \smallCaps Aricie, seule. } }
   \pieceToc \markup { Aricie : \italic { Où suis-je ? de mes sens j’ai recouvré l’usage } }
   \includeScore "EAAaricie"
+}
+\bookpart {
   \pieceToc \markup { Aricie : \italic { Quels doux Concerts } }
   \includeScore "EABaricie"
   %%
@@ -381,8 +400,9 @@
   \includeScore "EBAchoeur"
   \includeScore "EBBaricie"
   \includeScore "EBCaricieChoeur"
-  \partPageBreak #'(violon2)
   %% 
+}
+\bookpart {
   \scene "Scène III"
   \sceneDescription \markup \wordwrap-center {
     \smallCaps Diane seule.
@@ -425,31 +445,27 @@
   \includeScore "EFAmarcheChoeur"
   \pieceTocTitle "Rondeau"
   \includeScore "EFBrondeau"
-  \partPageBreak #'(basson)
   \pieceToc \markup { Un bergère : \italic { Plaisirs, doux Vainqueurs } }
   \includeScore "EFCbergere"
   \pieceTocTitle "Premier menuet"
-  \includeScoreNoPageTurn "EFDmenuet"
+  \includeScore "EFDmenuet"
   \pieceTocTitle "Deuxième menuet"
-  \includeScoreNoPageTurn "EFEmenuet"
+  \includeScore "EFEmenuet"
   \markup \small-title \fill-line {
     \line { On reprend le premier menuet page \page-refIII #'EFDmenuet . }
-  }\allowPageTurn
+  }
   \pieceToc \markup { Diane }
   \includeScore "EFFdiane"
-  \partPageTurn #'(violon1)
   \pieceTocTitle "Première gavotte"
-  \includeScoreNoPageTurn "EFGgavotte"
+  \includeScore "EFGgavotte"
   \pieceTocTitle "Deuxième gavotte"
-  \includeScoreNoPageTurn "EFHgavotte"
+  \includeScore "EFHgavotte"
   \markup \small-title \fill-line {
     \line { On reprend la première gavotte page \page-refIII #'EFGgavotte . }
-  }\allowPageTurn
-  \partPageBreak #'(flute1 flute2)
+  }
   \pieceToc \markup { Aricie ou une bergère : \italic { Rossignols amoureux, répondez à nos voix } }
   \includeScore "EFIariette"
   \pieceTocTitle "Chaconne"
   \includeScore "EFJchaconne"
   \actEnd \markup { FIN DE LA TRAGÉDIE }
 }
-
