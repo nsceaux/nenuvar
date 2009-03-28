@@ -28,7 +28,13 @@
 \include "Rameau/Opera/HippolyteEtAricie/common.ily"
 
 \layout {
-  \context { \Score \override VerticalAlignment #'max-stretch = ##f }
+  \context {
+    \Score
+    \override VerticalAlignment #'max-stretch =
+    #(if (eqv? (*part*) 'voix)
+      ly:align-interface::calc-max-stretch
+      #f)
+  }
 }
 
 \paper { #(define page-breaking (if (eqv? (*part*) 'voix)
@@ -76,6 +82,7 @@
   \includeScore "ABBaricie"
   \pieceToc \markup { Hippolyte, Aricie }
   \includeScore "ABChippolyteAricie"
+  \partPageBreak #'(voix)
   \pieceToc \markup { Hippolyte et Aricie :  \italic { Nous brûlons des plus pures flammes } }
   \includeScore "ABDduo"
   %%

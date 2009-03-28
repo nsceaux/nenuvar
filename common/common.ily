@@ -92,6 +92,23 @@
     \fill-line { \fontsize #2 \fromproperty #'header:editions }
     \fill-line { \fontsize #2 \fromproperty #'header:arrangement }
   }
+  shortBookTitleMarkup =  \markup {
+    \override #'(baseline-skip . 3.5) \column {
+      \huge \larger \bold \fill-line { \larger \fromproperty #'header:title }
+      \fill-line {
+        \fromproperty #'header:poet
+        \on-the-fly #(lambda (layout props arg)
+                      (if (*part*)
+                       (interpret-markup layout props (markup (*part-name*)))
+                       empty-stencil)) \null
+        \fromproperty #'header:composer
+      }
+      \fill-line {
+        \null
+        \fromproperty #'header:date
+      }
+    }
+  }
   scoreTitleMarkup = #f
 
   oddFooterMarkup = \markup \column {
