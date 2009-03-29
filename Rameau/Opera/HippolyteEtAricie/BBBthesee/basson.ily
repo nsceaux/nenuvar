@@ -1,7 +1,7 @@
 \clef "tenor" R1 |
 << sol' \\ sol >> |
 R1 |
-<< fa'1 \\ la2 sol >> |
+<< fa'1 \\ { la2 sol } >> |
 R1*2 |
 <<
   { re'1 ~ re' ~ re'4. sol8 do'4 r | }

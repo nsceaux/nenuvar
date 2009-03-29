@@ -6,4 +6,5 @@
                    (taille)
                    (cor #:tag-global cor)
                    (basson #:tag-global autres #:notes "basse")
-                   (basse #:tag-global autres))
+                   (basse #:tag-global autres)
+                   (voix))

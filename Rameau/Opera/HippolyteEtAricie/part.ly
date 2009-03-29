@@ -197,7 +197,6 @@
   }
   \pieceToc \markup { Mercure, Pluton }
   \includeScore "BEAmercurePluton"
-  \partPageBreak #'(basson)
   \pieceToc \markup { Pluton, les Parques : \italic { Vous, qui de l’avenir percez la nuit profonde } }
   \includeScore "BEBplutonParques"
   %%
@@ -265,7 +264,6 @@
   }
   \pieceToc \markup { Thésée }
   \includeScore "CGAthesee"
-  \partPageBreak #'(basson)
   \pieceToc \markup { Thésée : \italic { Puissant Maître des flots, favorable Neptune } }
   \includeScore "CGBthesee"
   \pieceToc \markup { Thésée : \italic { Mais de courroux l'onde s'agite } }
@@ -343,7 +341,7 @@
   \markup \small-title \fill-line {
     \line { On reprend le premier menuet page \page-refIII #'DCEmenuet . }
   }\allowPageTurn
-  \partPageBreak #'(hautbois1 hautbois2)
+  \partPageBreak #'(hautbois1 hautbois2 basson)
   \pieceTocAndTitle \markup "DEUXIÈME RONDEAU" \markup {
     Deuxième rondeau, une chasseresse, chœur : \italic { À la chasse, à la chasse, Armez-vous }
   }
@@ -432,7 +430,6 @@
   \includeScore "EFAmarcheChoeur"
   \pieceTocTitle "Rondeau"
   \includeScore "EFBrondeau"
-  \partPageBreak #'(basson)
   \pieceToc \markup { Un bergère : \italic { Plaisirs, doux Vainqueurs } }
   \includeScore "EFCbergere"
   \pieceTocTitle "Premier menuet"
