@@ -1,4 +1,5 @@
-\proteeMark r4 r8 mi' do' do' do' do' |
+\proteeMark R1 |
+r4 r8 mi' do' do' do' do' |
 la la16 la fa8 fa16 mi mi4 mi |
 do'8 do'16 do' do'8. mi'16 la8. la16 la8 re' |
 si4 \tritonMark r8 mi' sold sold sold la |

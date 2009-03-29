@@ -1,3 +1,4 @@
+\custosNote do2 ~ do8 re do si, |
 la,1 ~|
 la, ~|
 la4 ~ la8. sol16 fa2 |

@@ -139,5 +139,25 @@ page lviii manquante (mesures 73 à 79)
   \pieceToc \markup { Triton : \italic { C'est un secret qu'il faut qu'on vous arrache } }
   \includeScore "BGDtriton"
   \scene "Scène VIII"
-  %% page 117
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps { Triton, Clymène } et les mêmes acteurs de la scène
+    précédente.
+  }
+  \pieceToc \markup { Triton, Protée }
+  \includeScore "BHAtritonProtee"
+  \pieceToc \markup { Protée : \italic { Le sort de Phaéton se découvre à mes yeux } }
+  \includeScore "BHBprotee"
+  \pieceTocTitle "Entr'acte"
+  \includeScore "BHCentracte"
+  \score {
+    { \fractionTime \time 2/2 \clef "basse" do2~ do8 re do si, la,1 \laissezVibrer }
+    \layout { ragged-right = ##t }
+  }
+  \actEnd \markup { FIN DU PREMIER ACTE }
+}
+
+\bookpart {
+  \act "Acte Second"
+  \scene "Scène I"
+  %% page 124
 }
