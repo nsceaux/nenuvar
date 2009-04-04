@@ -22,7 +22,7 @@ Puis -- qu'il n'a pu trou -- ver mes yeux as -- sez char -- mants,
 qu'il m'aime au moins par mes en -- chan -- te -- ments,
 que s'il se peut, je le ha -- ïs -- se.
 
-Ve -- nez, ve -- nez fé -- con -- der mes dé -- sirs,
+Ve -- nez, ve -- nez se -- con -- der mes dé -- sirs,
 dé -- mons, trans -- for -- mez "- vous" en d'ai -- ma -- bles zé -- phirs.
 Ve -- nez, "ve -"
 "- phirs."
