@@ -109,3 +109,4 @@ la,4 la dod2 |
 re2. re4 |
 mi la, mi,2 |
 la,2. si,4 |
+\set Staff.whichBar = "|"

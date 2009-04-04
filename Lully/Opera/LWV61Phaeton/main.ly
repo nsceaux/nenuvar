@@ -151,7 +151,8 @@ page lviii manquante (mesures 73 à 79)
   \includeScore "BHCentracte"
   \score {
     { \fractionTime \time 2/2 \clef "basse" do2~ do8 re do si, la,1 \laissezVibrer }
-    \layout { ragged-right = ##t }
+    \layout { ragged-right = ##t
+              indent = 0 }
   }
   \actEnd \markup { FIN DU PREMIER ACTE }
 }
@@ -159,5 +160,12 @@ page lviii manquante (mesures 73 à 79)
 \bookpart {
   \act "Acte Second"
   \scene "Scène I"
-  %% page 124
+  \sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaéton. }
+  \pieceToc \markup { Ritournelle }
+  \includeScore "CAAritournelle"
+  \pieceToc \markup { Clymène, Phaéton }
+  \includeScore "CABclymenePhaeton"
+  \scene "Scène II"
+  \sceneDescription \markup \wordwrap-center { \smallCaps Théone, seule. }
+  %% page 130
 }

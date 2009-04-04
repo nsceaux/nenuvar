@@ -8,4 +8,4 @@
 \time 3/2 s1.
 \fractionTime \time 2/2 s1*5
 \time 3/2 s1.
-\fractionTime \time 2/2 s1
+\fractionTime \time 2/2 s1 \bar "|."
