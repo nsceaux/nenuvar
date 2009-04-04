@@ -1,6 +1,4 @@
-\clef "taille" R1*3 |
-
-
+\clef "vtaille" R1*3 |
 re2 mi4 fad |
 sol la si do' |
 re' re' re' re' |
@@ -26,17 +24,6 @@ re' \melismaEnd do'8 r r re' |
 mi'2 re' |
 si1 |
 R1*12 |
-
-
-
-
-
-
-
-
-
-
-
 r4 re' re' do' |
 si2 si4 dod'8 re' |
 dod'2 dod'8 r dod'4 |
@@ -48,14 +35,6 @@ re'1 |
 re'2 ( dod'4. ) re'8 |
 re'1 |
 R1*9 |
-
-
-
-
-
-
-
-
 re2 mi4 fad |
 sol la si do' |
 re' re' re' re' |
@@ -103,11 +82,6 @@ fad'2. ( mi'8 )[ re' ]|
 re'2 ( dod'4. ) re'8 |
 re'1 |
 R1*6 |
-
-
-
-
-
 re2 mi4 fad |
 sol la si do' |
 re' re' re' re' |
@@ -140,16 +114,10 @@ re' \melismaEnd re'8 r r re' |
 mi'2 la |
 la1 |
 R1*5 |
-
-
-
-
 fad'2 fad'4 fad' |
 fad' fad' fad' mi' |
 fad' fad'8 r r2 |
 R1*3 |
-
-
 r2 re'4 re' |
 re'2 re'8 r r re' |
 mi'2 re' |
