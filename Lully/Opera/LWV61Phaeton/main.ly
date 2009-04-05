@@ -171,5 +171,9 @@ page lviii manquante (mesures 73 à 79)
   \includeScore "CBAtheone"
   \scene "Scène III"
   \sceneDescription \markup \wordwrap-center { \smallCaps Libye et \smallCaps Théone. }
-  %% page 130
+  \pieceToc \markup { Libye, Théone : \italic { Que l'incertitude est un rigoureux tourment ! } }
+  \includeScore "CCAlibyeTheone"
+  \scene "Scène IV"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Libye. }
+  %% page 138
 }
