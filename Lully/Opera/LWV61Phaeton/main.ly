@@ -167,5 +167,9 @@ page lviii manquante (mesures 73 à 79)
   \includeScore "CABclymenePhaeton"
   \scene "Scène II"
   \sceneDescription \markup \wordwrap-center { \smallCaps Théone, seule. }
+  \pieceToc \markup { Théone : \italic { Il me fuit, l'inconstant ! } }
+  \includeScore "CBAtheone"
+  \scene "Scène III"
+  \sceneDescription \markup \wordwrap-center { \smallCaps Libye et \smallCaps Théone. }
   %% page 130
 }
