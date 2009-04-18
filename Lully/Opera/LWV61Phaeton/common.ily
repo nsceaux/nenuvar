@@ -33,3 +33,7 @@ proteeMark =
 tritonMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Triton"))
+
+epaphusMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Épaphus"))

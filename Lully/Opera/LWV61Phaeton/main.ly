@@ -175,5 +175,7 @@ page lviii manquante (mesures 73 à 79)
   \includeScore "CCAlibyeTheone"
   \scene "Scène IV"
   \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Libye. }
-  %% page 138
+  \pieceToc \markup { Libye, Épaphus : \italic { Quel malheur ! Dieux ! quelle tristesse ! } }
+  \includeScore "CDAepaphusLibye"
+  %% page 146
 }
