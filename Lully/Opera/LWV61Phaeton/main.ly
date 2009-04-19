@@ -204,4 +204,21 @@ page lviii manquante (mesures 73 à 79)
   \actEnd \markup { FIN DU DEUXIÈME ACTE }
 }
 
-%% page 174
+\bookpart {
+  \act "Acte Troisième"
+  \scene "Scène I"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps { Théone, Phaéton, } suivants de Phéaton.
+  }
+  \pieceToc \markup { Théone, Phéaton : \italic { Ah ! Phéaton, est-il possible } }
+  \includeScore "DAAtheonePhaeton"
+  \scene "Scène II"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps Phaéton, suivants de Phaéton.
+  }
+  \pieceToc { Phaéton : \italic { Je plains ses malheurs } }
+  \includeScore "DBAphaeton"
+  %% page 181
+
+  \actEnd \markup { FIN DU TROISIÈME ACTE }
+}
