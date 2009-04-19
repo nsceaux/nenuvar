@@ -177,5 +177,31 @@ page lviii manquante (mesures 73 à 79)
   \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Libye. }
   \pieceToc \markup { Libye, Épaphus : \italic { Quel malheur ! Dieux ! quelle tristesse ! } }
   \includeScore "CDAepaphusLibye"
-  %% page 146
+  \scene "Scène V"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps { Libye, Merops, Clymène, Phaéton, } deux rois tributaires de Merops,
+    troupe d'Égyptiens et d'Égyptiennes, troupe d'Éthiopiens et d'Éthiopiennes,
+    troupe d'Indiens et d'Indiennes.
+  }
+  \pieceTocTitle "Prélude"
+  \includeScore "CEAprelude"
+  \pieceToc \markup { Merops, chœur : \italic { Que de tous côtés on entende } }
+  \includeScore "CEBmeropsChoeur"
+  \sceneDescription \markup \center-column {
+    CHACONNE
+    \wordwrap-center { où dansent une troupe d'Égyptiens et d'Égyptiennes,
+                       une troupe d'Éthiopiens et d'Éthiopiennes,
+                       une troupe d'Indiens et d'Indiennes. }
+  }
+  \pieceToc \markup Chaconne
+  \includeScore "CECchaconne"
+  \pieceTocAndTitle \markup { PETIT AIR POUR LES MÊMES } \markup { Petit air }
+  \includeScore "CEDair"
+  \pieceTocAndTitle \markup CHŒUR \markup { Chœur : \italic { Que de tous côtés on entende } }
+  \includeScore "CEEchoeur"
+  \pieceTocTitle "Entr'acte"
+  \reIncludeScore "CEDair" "CEFair"
+  \actEnd \markup { FIN DU DEUXIÈME ACTE }
 }
+
+%% page 174
