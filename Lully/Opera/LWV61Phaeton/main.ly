@@ -218,7 +218,11 @@ page lviii manquante (mesures 73 à 79)
   }
   \pieceToc { Phaéton : \italic { Je plains ses malheurs } }
   \includeScore "DBAphaeton"
-  %% page 181
+  \scene "Scène III"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps { Épaphus, Phaéton, } suite de Phaéton.
+  }
+  %% page 185
 
   \actEnd \markup { FIN DU TROISIÈME ACTE }
 }
