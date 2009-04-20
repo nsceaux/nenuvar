@@ -224,7 +224,25 @@ page lviii manquante (mesures 73 à 79)
   }
   \pieceToc \markup { Épaphus, Phaéton }
   \includeScore "DCAepaphusPhaeton"
-  %% page 194
+  \scene "Scène IV"
+  \sceneDescription \markup \wordwrap-center \smallCaps {
+    Merops, Clymène, Épaphus, Phaéton. 
+  }
+  \sceneDescription \markup \center-column {
+    MARCHE
+    \wordwrap-center { où dansent les peuples qui portent des présents à Isis. }
+  }
+  \pieceToc \markup Marche
+  \includeScore "DDAmarche"
+  \pieceTocAndTitle \markup { AIR POUR LES MÊMES } \markup { Air }
+  \includeScore "DDBair"
+  \pieceToc \markup { Merops, Clymène, chœur : \italic { Nous révérons votre puissance } }
+  \includeScore "DDCmeropsClymeneChoeur"
+  \pieceToc \markup { Phaéton, Épaphus, Merops, Clymène }
+  \includeScore "DDDphaetonEpaphusMeropsClymene"
+  \scene "Scène V"
+  \pieceTocTitle "Entrée des Furies"
+  %% page 214
 
   \actEnd \markup { FIN DU TROISIÈME ACTE }
 }
