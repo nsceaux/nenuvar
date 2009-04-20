@@ -222,7 +222,9 @@ page lviii manquante (mesures 73 à 79)
   \sceneDescription \markup \wordwrap-center {
     \smallCaps { Épaphus, Phaéton, } suite de Phaéton.
   }
-  %% page 185
+  \pieceToc \markup { Épaphus, Phaéton }
+  \includeScore "DCAepaphusPhaeton"
+  %% page 194
 
   \actEnd \markup { FIN DU TROISIÈME ACTE }
 }
