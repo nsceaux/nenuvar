@@ -242,7 +242,12 @@ page lviii manquante (mesures 73 à 79)
   \includeScore "DDDphaetonEpaphusMeropsClymene"
   \scene "Scène V"
   \pieceTocTitle "Entrée des Furies"
-  %% page 214
+  \includeScore "DEAfuries"
+  \scene "Scène VI"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaéton. }
+  \pieceToc \markup { Clymène, Phaéton }
+  %% page 217
 
   \actEnd \markup { FIN DU TROISIÈME ACTE }
 }
+%% 226
