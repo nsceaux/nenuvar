@@ -246,8 +246,16 @@ page lviii manquante (mesures 73 à 79)
   \scene "Scène VI"
   \sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaéton. }
   \pieceToc \markup { Clymène, Phaéton }
-  %% page 217
-
+  \includeScore "DFAclymenePhaeton"
+  \pieceToc \markup { Clymène : \italic { Vous êtes son fils je le jure } }
+  \includeScore "DFBclymene"
+  \pieceToc \markup { Clymène, Phaéton }
+  \includeScore "DFCclymenePhaeton"
   \actEnd \markup { FIN DU TROISIÈME ACTE }
 }
-%% 226
+
+\bookpart {
+  \act "Acte Quatrième"
+  \scene "Scène I"
+  %% 226
+}
