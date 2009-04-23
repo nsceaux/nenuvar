@@ -216,7 +216,7 @@ page lviii manquante (mesures 73 à 79)
   \sceneDescription \markup \wordwrap-center {
     \smallCaps Phaéton, suivants de Phaéton.
   }
-  \pieceToc { Phaéton : \italic { Je plains ses malheurs } }
+  \pieceToc \markup { Phaéton : \italic { Je plains ses malheurs } }
   \includeScore "DBAphaeton"
   \scene "Scène III"
   \sceneDescription \markup \wordwrap-center {
@@ -257,5 +257,11 @@ page lviii manquante (mesures 73 à 79)
 \bookpart {
   \act "Acte Quatrième"
   \scene "Scène I"
-  %% 226
+  \sceneDescription \markup \wordwrap-center \smallCaps {
+    Les heures du jour, le Printemps, l'Éte, l'Automne, l'Hiver,
+    suite des quatres saisons.
+  }
+  \pieceToc \markup { Chœur des heures du jour et des quatres saisons : \italic { Sans le dieu qui nous éclaire } }
+  \includeScore "EAAchoeur"
+  %% 242
 }
