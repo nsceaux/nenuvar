@@ -9,13 +9,6 @@
       \newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
     >>
     \newHaraKiriStaffB \withLyrics <<
-      {
-        s4 s2.*30 s2
-        s4^\markup \character "Chœur des heures du jour" s2.*28 s2
-        s4 s2.*30 s2
-        s4^\markup \character "Une des heures du jour" s2.*30 s2
-        s4^\markup \column \smallCaps { "Chœur des heures du jour" "et des quatre saisons" }
-      }
       \global \includeNotes "voix1"
     >> \includeLyrics "paroles1"
     \newHaraKiriStaffB \withLyrics <<
@@ -28,10 +21,19 @@
       \global \includeNotes "voix4"
     >> \includeLyrics "paroles4"
     \new Staff <<
-      { s4 s2.*30 s2 \break
-        s4 s2.*28 s2 \break
+      {
+        \markUpBegin \mark \markup \smaller \smallCaps Ritournelle
         s4 s2.*30 s2 \break
-        s4 s2.*30 s2 \break }
+        \markUpBegin \mark \markup \smaller \smallCaps "Chœur des heures du jour"
+        s4 s2.*28 s2 \break
+        \markUpBegin \mark \markup \smaller \smallCaps Ritournelle
+        s4 s2.*30 s2 \break
+        \markUpBegin \mark \markup \smaller \smallCaps "Récit d'une des heures du jour"
+        s4 s2.*30 s2 \break
+        \markUpBegin \mark \markup \column \smaller \smallCaps {
+          "Chœur des heures du jour" "et des quatre saisons"
+        }
+      }
       \global \clef "alto" \includeNotes "basse-continue"
       \includeFigures "chiffres"
     >>

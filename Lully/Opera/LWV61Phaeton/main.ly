@@ -261,7 +261,26 @@ page lviii manquante (mesures 73 à 79)
     Les heures du jour, le Printemps, l'Éte, l'Automne, l'Hiver,
     suite des quatres saisons.
   }
-  \pieceToc \markup { Chœur des heures du jour et des quatres saisons : \italic { Sans le dieu qui nous éclaire } }
+  \pieceToc \markup { Chœur des heures et des saisons : \italic { Sans le dieu qui nous éclaire } }
   \includeScore "EAAchoeur"
-  %% 242
+  \pieceToc \markup { L'Automne : \italic { C'est par vous, ô Soleil ! Que le ciel s'illumine } }
+  \includeScore "EABautomne"
+  \pieceToc \markup { Chœur des heures et des saisons : \italic { Sans le dieu qui nous éclaire } }
+  \includeScore "EACchoeur"
+  \pieceToc \markup { Le Soleil }
+  \includeScore "EADsoleil"
+  \sceneDescription \markup \wordwrap-center {
+    Le printemps et sa suite dansent sur les airs qui suivent.
+  }
+  \pieceTocTitle "Premier air"
+  \includeScore "EAEair"
+  \pieceTocAndTitle \markup "DEUXIÈME AIR" \markup {
+    Deuxième air, chœur : \italic { Dans ce palais Bravez l'envie }
+  }
+  \includeScore "EAFairChoeur"
+  \pieceToc \markup { Chœur : \italic { Dans cette demeure charmante } }
+  \includeScore "EAGchoeur"
+  \scene "Scène II"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Le Soleil, Phaéton. }
+  %% 265
 }

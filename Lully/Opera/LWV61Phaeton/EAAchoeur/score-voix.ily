@@ -2,11 +2,16 @@
   \new ChoirStaff <<
     \new Staff \withLyrics <<
       {
+        \markUpBegin \mark \markup \smaller \smallCaps Ritournelle
         s4 s2.*30 s2
-        s4^\markup \character "Chœur des heures du jour" s2.*28 s2
+        \markUpBegin \mark \markup \smaller \smallCaps "Chœur des heures du jour"
+        s4 s2.*28 s2
         s4 \break s2.*30 s2
-        s4^\markup \character "Une des heures du jour" s2.*30 s2
-        s4^\markup \column \smallCaps { "Chœur des heures du jour" "et des quatre saisons" }
+        \markUpBegin \mark \markup \smaller \smallCaps "Récit d'une des heures du jour"
+        s4 s2.*30 s2 \break
+        \markUpBegin \mark \markup \column \smaller \smallCaps {
+          "Chœur des heures du jour" "et des quatre saisons"
+        }
       }
       \global \includeNotes "voix1"
     >> \includeLyrics "paroles1"
