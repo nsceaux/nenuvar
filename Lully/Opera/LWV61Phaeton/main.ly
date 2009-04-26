@@ -299,7 +299,14 @@ page lviii manquante (mesures 73 à 79)
   \act "Acte Cinquième"
   \scene "Scène I"
   \sceneDescription \markup \wordwrap-center {
-    \smallCaps Clymène, deux suivantes.
+    \smallCaps Clymène, deux suivants.
   }
+  \pieceToc \markup Ritournelle
+  \includeScore "FAAritournelle"
+  \pieceToc \markup { Clymène : \italic { Que l'on chante, que tout réponde } }
+  \includeScore "FABclymeneMerops"
+  \scene "Scène II"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus et Clymène. }
+  \pieceToc \markup { Épaphus : \italic { Dieu qui vous déclarez mon père } }
   %% 294
 }
