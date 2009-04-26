@@ -306,7 +306,10 @@ page lviii manquante (mesures 73 à 79)
   \pieceToc \markup { Clymène : \italic { Que l'on chante, que tout réponde } }
   \includeScore "FABclymeneMerops"
   \scene "Scène II"
-  \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus et Clymène. }
+  \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Clymène. }
   \pieceToc \markup { Épaphus : \italic { Dieu qui vous déclarez mon père } }
-  %% 294
+  \includeScore "FBAepaphus"
+  \scene "Scène III"
+  \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Libye. }
+  %% 301
 }
