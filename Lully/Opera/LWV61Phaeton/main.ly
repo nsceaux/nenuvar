@@ -282,5 +282,24 @@ page lviii manquante (mesures 73 à 79)
   \includeScore "EAGchoeur"
   \scene "Scène II"
   \sceneDescription \markup \wordwrap-center \smallCaps { Le Soleil, Phaéton. }
-  %% 265
+  \pieceToc \markup { Le Soleil, Phaéton }
+  \includeScore "EBAsoleilPhaeton"
+  \pieceToc \markup { Le Soleil : \italic { C'est toi que j'en atteste } }
+  \includeScore "EBBsoleil"
+  \pieceToc \markup { Le Soleil, Phaéton }
+  \includeScore "EBCsoleilPhaeton"
+  \pieceToc \markup { Chœur : \italic { Allez répandre la lumière } }
+  \includeScore "EBDchoeur"
+  \pieceTocTitle "Entr'acte"
+  \includeScore "EBEentracte"
+  \actEnd \markup { FIN DU QUATRIÈME ACTE }
+}
+
+\bookpart {
+  \act "Acte Cinquième"
+  \scene "Scène I"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps Clymène, deux suivantes.
+  }
+  %% 294
 }
