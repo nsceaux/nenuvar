@@ -325,5 +325,12 @@ page lviii manquante (mesures 73 à 79)
   \sceneDescription \markup \wordwrap-center {
     \smallCaps Clymène, \smallCaps Théone, et tous les acteurs de la scène précédente.
   }
-  %% 323
+  \pieceToc \markup { Théone, Clymène }
+  \includeScore "FDAtheoneClymene"
+  \pieceToc \markup { Chœur : \italic { Dieux ! quel feu vient partout s'étendre ! } }
+  \includeScore "FDBchoeur"
+  \pieceToc \markup { Déesse de la Terre }
+  \includeScore "FDCdeesse"
+  \pieceToc \markup { Chœur : \italic { Ô dieu qui lance le tonnerre } }
+  %% 333
 }
