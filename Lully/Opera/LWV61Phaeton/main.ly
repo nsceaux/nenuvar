@@ -315,5 +315,15 @@ page lviii manquante (mesures 73 à 79)
   \includeScore "FCAlibyeEpaphus"
   \pieceToc \markup { Clymène, Merops, chœur : \italic { Que l'on chante, que tout réponde } }
   \includeScore "FCBchoeur"
-  %% 307
+  \pieceTocTitle "Bourrée pour les Égyptiens"
+  \includeScore "FCDbourree"
+  \pieceTocAndTitle \markup { DEUXIÈME AIR } \markup {
+    Deuxième air, une bergère égyptienne : \italic { Ce beau jour ne permet qu'à l'aurore }
+  }
+  \includeScore "FCEair"
+  \scene "Scène IV"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps Clymène, \smallCaps Théone, et tous les acteurs de la scène précédente.
+  }
+  %% 323
 }
