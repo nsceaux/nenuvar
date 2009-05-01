@@ -311,5 +311,9 @@ page lviii manquante (mesures 73 à 79)
   \includeScore "FBAepaphus"
   \scene "Scène III"
   \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Libye. }
-  %% 301
+  \pieceToc \markup { Libye, Épaphus : \italic { O rigoureux martyre ! } }
+  \includeScore "FCAlibyeEpaphus"
+  \pieceToc \markup { Clymène, Merops, chœur : \italic { Que l'on chante, que tout réponde } }
+  \includeScore "FCBchoeur"
+  %% 307
 }
