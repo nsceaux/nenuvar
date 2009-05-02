@@ -81,12 +81,10 @@
     tâchent de divertir cette déesse.
   }
   \pieceToc \markup { Troupe d'Astrée : \italic { Cherchons la paix dans cet asile } }
-  \pieceSimpleTitle "Troupe d'Astrée dansante"
   \includeScore "AABtroupe"
   \pieceToc \markup { Astrée : \italic { Dans cette paisible retraite } }
   \includeScore "AACastree"
   \pieceToc \markup { Troupe d'Astrée : \italic { Danc ces lieux tout rit sans cesse } }
-  \pieceSimpleTitle "Troupe d'Astrée dansante"
   \includeScore "AADtroupe"
   \sceneDescription \markup \wordwrap-center {
     Saturne vient trouver Astrée, pour l'inviter à retourner avec lui
@@ -95,7 +93,6 @@
     les autres "chantent ;" et Saturne même chante avec eux.
   }
   \pieceToc \markup { Saturne, chœur : \italic { Que les mortels se réjouissent } }
-  \pieceSimpleTitle "Chœur"
   \includeScore "AAEchoeur"
   \pieceToc \markup { Saturne : \italic { Un héros qui mérite une gloire immortelle } }
   \includeScore "AAFsaturne"
@@ -123,10 +120,12 @@
   \sceneDescription \markup \wordwrap-center { \smallCaps Libye, seule. }
   \pieceToc \markup { Libye : \italic { Heureuse une âme indifférente ! } }
   \includeScore "BAAlibye"
+  \partPageTurn #'(dessus1 dessus2)
   \scene "Scène II"
   \sceneDescription \markup \wordwrap-center \smallCaps { Théone, Libye. }
   \pieceToc \markup { Théone, Libye : \italic { Je ne vous croyais pas dans un lieu solitaire } }
   \includeScore "BBAtheoneLibye"
+  \partPageBreak #'(dessus1 dessus2)
   \scene "Scène III"
   \sceneDescription \markup \wordwrap-center \smallCaps { Phaéton, Théone. }
   \pieceToc \markup { Phaéton, Théone : \italic { Vous passez sans me voir ? } }
@@ -135,6 +134,7 @@
   \sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaéton. }
   \pieceToc \markup { Clymène, Phaéton : \italic { Vous paraissez chagrin, mon fils } }
   \includeScore "BDAclymenePhaeton"
+  \partPageTurn #'(dessus1 dessus2)
   \scene "Scène V"
   \sceneDescription \markup \center-column {
     \wordwrap-center {
@@ -163,7 +163,7 @@
       Triton chante au milieu de ses suivants.
     }
   }
-  \pieceToc \markup { Triton : \italic { Que Protée vec nous partage } }
+  \pieceToc \markup { Triton : \italic { Que Protée avec nous partage } }
   \includeScore "BGAair"
   \sceneDescription \markup \wordwrap-center {
     Les suivants de Triton continuent leurs concerts d'instruments,

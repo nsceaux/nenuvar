@@ -1,8 +1,8 @@
 \score {
   \new StaffGroupNoBar <<
-    \newTinyStaff \withLyrics <<
-      \global \includeNotes "clymene-phaeton"
-    >> \includeLyrics "paroles"
+    \newTinyHaraKiriStaff \withLyrics <<
+      \global \includeNotes "reduction"
+    >> \includeLyrics "paroles-reduction"
     \new Staff <<
       \global \clef "basse" \includeNotes "basse-continue"
       \includeFigures "chiffres"

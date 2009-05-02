@@ -5,4 +5,4 @@
                    (quinte)
                    (basse)
                    (voix)
-                   (basse-continue #:score "score-basse-continue"))
+                   (basse-continue #:notes "basse-continue"))

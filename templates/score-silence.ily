@@ -21,6 +21,7 @@
       \Score
       \override RehearsalMark #'font-size = #0
       \override MetronomeMark #'font-size = #-1
+      %%\override SpacingSpanner #'common-shortest-duration = #(ly:make-moment 1 0)
     }
     \context { \Staff \remove "Page_turn_engraver" }
   }

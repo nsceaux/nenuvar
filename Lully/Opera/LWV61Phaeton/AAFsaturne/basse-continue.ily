@@ -15,7 +15,7 @@ sol mi |
 fa8 mi re do sol do |
 sol,2 mi, |
 fa, sol, |
-do,2. |
+do,2. |\allowPageTurn
 do2 do4 |
 sol4. sol8 sol4 |
 mi fa re |

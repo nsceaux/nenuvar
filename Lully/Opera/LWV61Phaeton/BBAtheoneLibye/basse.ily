@@ -61,8 +61,8 @@ do'4 do la, |
 sib,8 do sib, la, sol, fa, |
 do4 do,2 |
 fa,2. |
-fa1 |
-sib, |
+fa1 |\allowPageTurn
+sib, |\allowPageTurn
 mib2 re4. do8 |
 si,2. |
 do |
@@ -73,7 +73,7 @@ sol do4 sol, |
 do2 sol, ~|
 sol,1 |
 do4 fa, do,2 |
-fa,1 |\allowPageTurn
+fa,1 |
 fa4 fa sol la |
 sib2 si4 sol |
 do' do'8 sib la2 |

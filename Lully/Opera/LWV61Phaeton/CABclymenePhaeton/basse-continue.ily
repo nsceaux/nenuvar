@@ -76,7 +76,7 @@ mi' mi2 |
 la4 sol fa2 ~|
 fa2. ~|
 fa2 mi4. re8 |
-do1 |
+do1 |\allowPageTurn
 fa2 mi4. re8 |
 dod2. |
 re2 la4 la, |

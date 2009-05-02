@@ -24,15 +24,30 @@
   }
 }
 
+#(ly:set-option 'non-incipit #t)
+#(ly:set-option 'use-rehearsal-numbers #t)
+
 \include "italiano.ly"
-#(set-global-staff-size 14)
+#(set-global-staff-size 18)
 \include "common/common.ily"
 
 \setOpus "Lully/Opera/LWV61Phaeton"
 \opusTitle "Phaéton"
 \include "Lully/Opera/LWV61Phaeton/common.ily"
 
-\paper { #(define page-breaking ly:optimal-breaking) }
+\layout {
+  \context {
+    \Score
+    \override VerticalAlignment #'max-stretch =
+    #(if (eqv? (*part*) 'voix)
+      ly:align-interface::calc-max-stretch
+      #f)
+  }
+}
+
+\paper { #(define page-breaking (if (eqv? (*part*) 'voix)
+                                    ly:optimal-breaking
+                                    ly:page-turn-breaking)) }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {
@@ -43,66 +58,13 @@
   
   %% notes
   \markup \null
-%{
-AAEchoeur:
-page xxi manquante (remplacée par page xxxi mal numérotée) = mesures 52 à 57
---> utilisation des mesures ???
-
-AAJsaturneAstree:
-page lviii manquante (mesures 73 à 79)
---> utilisation des mesures 118 à 124
-%}
   \pageBreak
   
   %% Table of contents
   \markuplines \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\bookpart {
-  \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplines {
-    \with-line-width-ratio #0.6
-    \override-lines #'(baseline-skip . 3.5) {
-      \vspace #3
-      \scene \line { ACTEURS DU PROLOGUE }
-      \vspace #1
-      \wordwrap-lines { \smallCaps Astrée, déesse, fille de Jupiter et de Thémis }
-      \wordwrap-lines { Troupe de compagnes d'Astrée }
-      \wordwrap-lines { \smallCaps Saturne, dieu qui régnait durant l'âge d'or }
-      \wordwrap-lines { Troupe de suivants de Saturne }
-      \vspace #3
-      \scene \line { ACTEURS DE LA TRAGÉDIE }
-      \vspace #1
-      \wordwrap-lines { \smallCaps Libye, fille de Merops, roi d'Égypte }
-      \wordwrap-lines { \smallCaps Théone, fille de Protée }
-      \wordwrap-lines { \smallCaps Phaéton, fils du Soleil et de Clymène }
-      \wordwrap-lines { \smallCaps Clymène, fille de l'Océan et de Thétys }
-      \wordwrap-lines { \smallCaps Protée, dieu marin conducteur des troupeaux de Neptune }
-      \wordwrap-lines { Troupe des suivants de Protée }
-      \wordwrap-lines { \smallCaps Triton, dieu marin, frère de Clymène }
-      \wordwrap-lines { Troupe des suivants de Triton }
-      \wordwrap-lines { \smallCaps Épaphus, fils de Jupiter et de la déesse Isis }
-      \wordwrap-lines { \smallCaps Merops, roi d'Égypte, qui a épousé Clymène après la mort d'une première épouse, dont il a eu Libye }
-      \wordwrap-lines { Troupe d'Égyptiens et d'Égyptiennes }
-      \wordwrap-lines { Un roi éthiopien, tributaire de Merops }
-      \wordwrap-lines { Troupe d'Éthiopiens et d'Éthiopiennes }
-      \wordwrap-lines { Un roi indien, tributaire de Merops }
-      \wordwrap-lines { Troupe d'Indiens et d'Indiennes }
-      \wordwrap-lines { Troupe de prêtresses de la déesse Isis }
-      \wordwrap-lines { Troupe de jeunes personnes choisies pour porter des offrandes au temple d'Isis }
-      \wordwrap-lines { Des furies et des fantômes terribles }
-      \wordwrap-lines { \smallCaps { Les Vents } }
-      \wordwrap-lines { \smallCaps { Le Soleil } }
-      \wordwrap-lines { \smallCaps { Les Heures du jour } }
-      \wordwrap-lines { \smallCaps {Les Saisons de l'année } }
-      \wordwrap-lines { Quatre quadrilles, dont chacune accompagne une des quatres saisons }
-      \wordwrap-lines { Troupe de pasteurs égyptiens }
-      \wordwrap-lines { Troupe de bergères égyptiennes }
-      \wordwrap-lines { \smallCaps { La déesse de la Terre } }
-      \wordwrap-lines { \smallCaps Jupiter }
-    }
-  }
-}
+
 %%% Prologue
 \bookpart {
   \actn "Prologue"
@@ -119,12 +81,10 @@ page lviii manquante (mesures 73 à 79)
     tâchent de divertir cette déesse.
   }
   \pieceToc \markup { Troupe d'Astrée : \italic { Cherchons la paix dans cet asile } }
-  \pieceSimpleTitle "Troupe d'Astrée dansante"
   \includeScore "AABtroupe"
   \pieceToc \markup { Astrée : \italic { Dans cette paisible retraite } }
   \includeScore "AACastree"
   \pieceToc \markup { Troupe d'Astrée : \italic { Danc ces lieux tout rit sans cesse } }
-  \pieceSimpleTitle "Troupe d'Astrée dansante"
   \includeScore "AADtroupe"
   \sceneDescription \markup \wordwrap-center {
     Saturne vient trouver Astrée, pour l'inviter à retourner avec lui
@@ -133,13 +93,11 @@ page lviii manquante (mesures 73 à 79)
     les autres "chantent ;" et Saturne même chante avec eux.
   }
   \pieceToc \markup { Saturne, chœur : \italic { Que les mortels se réjouissent } }
-  \pieceSimpleTitle "Chœur"
   \includeScore "AAEchoeur"
   \pieceToc \markup { Saturne : \italic { Un héros qui mérite une gloire immortelle } }
   \includeScore "AAFsaturne"
   \pieceToc \markup { Astrée : \italic { Jeux innocents, rassemblez-vous } }
   \includeScore "AAGastree"
-  \pageBreak
   \pieceTocTitle "Air pour les suivants de Saturne"
   \includeScore "AAHair"
   \pieceTocTitle "Bourrée pour les suivants de Saturne et les suivantes d'Astrée"
@@ -162,10 +120,14 @@ page lviii manquante (mesures 73 à 79)
   \sceneDescription \markup \wordwrap-center { \smallCaps Libye, seule. }
   \pieceToc \markup { Libye : \italic { Heureuse une âme indifférente ! } }
   \includeScore "BAAlibye"
+}
+\bookpart {
   \scene "Scène II"
   \sceneDescription \markup \wordwrap-center \smallCaps { Théone, Libye. }
   \pieceToc \markup { Théone, Libye : \italic { Je ne vous croyais pas dans un lieu solitaire } }
   \includeScore "BBAtheoneLibye"
+}
+\bookpart {
   \scene "Scène III"
   \sceneDescription \markup \wordwrap-center \smallCaps { Phaéton, Théone. }
   \pieceToc \markup { Phaéton, Théone : \italic { Vous passez sans me voir ? } }
@@ -235,11 +197,6 @@ page lviii manquante (mesures 73 à 79)
   \includeScore "BHBprotee"
   \pieceTocTitle "Entr'acte"
   \includeScore "BHCentracte"
-  \score {
-    { \fractionTime \time 2/2 \clef "basse" do2~ do8 re do si, la,1 \laissezVibrer }
-    \layout { ragged-right = ##t
-              indent = 0 }
-  }
   \actEnd \markup { FIN DU PREMIER ACTE }
 }
 

@@ -6,21 +6,8 @@ do''8 do'' mib''8. mib''16 mib''8 re'' |
 re'' re'' re'' re''16 mib'' do''8. do''16 do''8 re'' |
 si'4 \libyeMark r16 sol' sol' sol' do''8. do''16 do''8 si' |
 do''2 r |
-\theoneMark la' la'4 la' la' fa' |
-do''4. do''8 re''2 re''4 mi''8 fa'' |
-mi''2 do'' fa''4. mi''8 |
-re''2 do''4. sib'8 |
-la'4. sib'8 do''4 do'' sib' la' |
-sol'1 |
-sol'2. sol''4 mi''4. mi''8 |
-fa''4 mib'' mib'' fa'' |
-re'' re'' mib''4. mib''8 mib''4 re'' |
-do'' sib' la'2 |
-sol'4. sib'8 sib'4 do'' |
-re''4. re''8 re''4 mi'' |
-fa'' do'' re''4. re''8 re''4 do'' |
-sib' la' sol'2 |
-fa'4 \libyeMark do''8 do'' dod''4 dod''8 dod'' |
+R1.*3 R1 R1. R1 R1. R1 R1. R1*3  R1. R1 
+r4 \libyeMark do''8 do'' dod''4 dod''8 dod'' |
 re''4 re''8 re'' mi''4 mi''8 mi'' |
 fa''4 r sib'8 sib' |
 sib'4 la'8 la' la' sol' |
@@ -61,26 +48,8 @@ re''4 re''8. re''16 mi''4 re''8. do''16 |
 do''4 \theoneMark r8 sol' sib'16 sib' sib' re'' sib'8. sib'16 |
 sol'4 sol' \libyeMark r16 re'' re'' re'' sol''8 re'' |
 mi''4 la'8 sib' sol'4 sol'8 la' |
-fa'4 fa' r do'' |
-la' la' sib' do'' |
-re'' re''8 mi'' fa''4 fa''8 sol'' |
-mi''2 fa''4 fa''8 mib'' |
-re''4 do'' sib'2 |
-la'4 la'8. sib'16 sib'4. la'8 |
-sol'2 sol'4. do''8 |
-sol'2 sol'4 sol' |
-sol' la' sib' sol' |
-re''2 do''4 re'' |
-si'2 do''4 re'' |
-mi'' mi'' mi'' fa'' fa''4. mi''8 |
-re''2 re''4 mi'' |
-do''2. do''4 |
-do'' re'' mi'' do'' |
-fa''2 do''4 do'' |
-re''2 re''4 la' |
-sib' sol' sib' sib' sib' la' |
-sol'2 sol'4 la' |
-fa'2 r |
+fa'4 fa' r \custosNote do'' |
+R1*10 R1. R1*5 R1. R1*2
 r8 la' la' la' re''8. fa''16 |
 dod''4 dod''8 dod''16 dod'' dod''8 mi'' |
 la'4 la'8 r16 re' la'8 la' la' la' |
@@ -91,73 +60,9 @@ dod''4 dod'' r8 la'16 la' la'8 la'16 la' |
 fad'8. fad'16 sol'8 sol' sol' fad' |
 sol'4 \theoneMark r8 re'' sib' r16 sib' sib'8. sib'16 |
 sib'4 la'8 sib' sol'4 la'8 sib' |
-la'2 r8 do'' |
-do''4. do''8 re'' mi'' |
-fa''2 sib'4 |
-sib'8 la' sol'4. do''8 |
-la'4 fa' fa'' |
-re''4. re''8 mi'' fa'' |
-sol''2 re''8 re'' |
-mi''4 re''4. do''8 |
-do''2 r8 do'' |
-do''2 r8 mi'' |
-fa''4. fa''8 fa'' mi'' |
-re''2 re''8 re'' |
-sol''4 sol'' mi'' |
-dod'' la'8. la'16 si'8 dod'' |
-re''8. mi''16 mi''4. re''8 |
-re''2 la'4 |
-la'4. la'8 la' sib' |
-do''2 do''8 do'' |
-re''4 re'' sib' |
-sol' mi'8. do''16 do''8 do'' |
-re''8. mi''16 mi''4. fa''8 |
-fa''4 << { \voiceOne do''4. do''8 |
-           re''4 re''4. mi''8 |
-           fa''4 fa''8 fa'' mib''16 [ re'' ] mib''8 |
-           re''4. re''8 mi'' fa'' |
-           mi''4 do''4. do''8 |
-           la'4 la' sib' |
-           la' la' re''8 re'' |
-           re''4 do'' sib' |
-           sib' ( la'2 )|
-           sol'4 re''2 |
-           \oneVoice r4 \voiceOne mib''4. mib''8 |
-           do''4 do'' re'' |
-           si' si' re''8 re'' |
-           re''4 re'' mib'' |
-           re'' re'' sol''8. sol''16 |
-           mi''4 mi'' mi'' |
-           fa'' fa'' r8 fa'' |
-           sol''4 sol''4. sol''8 |
-           do''4 do'' do''8 do'' |
-           re''4 mi'' fa'' |
-           fa'' ( mi''2 )|
-           fa'' }
-         \new Voice \with { autoBeaming = ##f } {
-           \voiceTwo la'4. la'8 |
-           sib'4 sib'4. do''8 |
-           la'4 la'8 sib' do'' do'' |
-           fa'4. fa'8 sol' la' |
-           sol'4 mi'4. la'8 |
-           fad'4 fad' sol' |
-           fad' fad' sib'8 sib' |
-           sib'4 la' sol' |
-           sol' ( fad'2 )|
-           sol'4 si'2 |
-           s4 do''4. sol'8 |
-           lab'4 lab' fa' |
-           re' re' si'8 si' |
-           si'4 si' do'' |
-           do''2 ( si'4 )|
-           do''2 do''4 ~|
-           do'' sib'4. sib'8 |
-           sib'4 sib'4. do''8 |
-           la'4 la' la'8 la' |
-           sib'4 sib' la' |
-           la' ( sol'2 )|
-           fa' }
-       >> \oneVoice r8 do''16 do'' fa''8 fa''16 la' |
+la'2 r8 \custosNote do'' |
+R2.*41
+\custosNote fa''2 r8 do''16 do'' fa''8 fa''16 la' |
 sib'4 sib'8 re'' sib'4 sib'8 sib' |
 sol'4 r8 do''16 do'' la'4 \libyeMark r8 do''16 do'' |
 re''4 re''8 re'' sol'4 sol'8 la' |
