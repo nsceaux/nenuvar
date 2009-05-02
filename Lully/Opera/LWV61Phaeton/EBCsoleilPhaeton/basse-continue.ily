@@ -42,7 +42,7 @@ re do |
 sib,4 la,2 |
 sol,4 sol do2 |
 fa mib |
-re1 ~|
+re1 ~|\allowPageTurn
 re2 sol |
 do' mi |
 fa1 |

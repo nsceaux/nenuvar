@@ -60,7 +60,7 @@ si,4. do16 la, si,4 |
 mi,2 mi4 |
 la fa sol2 ~|
 sol sol, |
-do1 |
+do1 |\allowPageTurn
 re |
 mi2 la, |
 re1 |

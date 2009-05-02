@@ -317,7 +317,7 @@
   \includeScore "DFCclymenePhaeton"
   \actEnd \markup { FIN DU TROISIÈME ACTE }
 }
-
+\markup\null
 \bookpart {
   \act "Acte Quatrième"
   \sceneDescription \markup \wordwrap-center {

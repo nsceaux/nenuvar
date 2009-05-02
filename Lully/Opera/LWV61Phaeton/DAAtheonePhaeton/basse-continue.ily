@@ -36,7 +36,7 @@ re do sol sol, |
 do2. do4 |
 sol2 ( fa4 ) mib |
 re1 ~|
-re |
+re |\allowPageTurn
 mib1. |
 fa2 fa, |
 sib, sib |
@@ -94,7 +94,7 @@ sol4. fa8 mib4 |
 re2 sol4. fa8 |
 mi1 |
 fa2 mib |
-re1 |
+re1 |\allowPageTurn
 mib2 re8 do |
 sol4. mib8 lab fa sol sol, |
 do2 sib,4. la,8 |

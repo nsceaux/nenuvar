@@ -18,7 +18,7 @@ fa fad1 |
 sol fa2 |
 mib1. |
 re4 do sol,2 |
-do,1. |
+do,1. |\allowPageTurn
 do2 ( sib, ) lab, |
 sol,1. |
 lab,2 fa,1 |
@@ -80,7 +80,7 @@ sol, do ~|
 do1 |
 re2 sib, |
 do4 re mib8 do re re, |
-sol,2. |
+sol,2. |\allowPageTurn
 do |
 fa ~|
 fa2 fa4 |
