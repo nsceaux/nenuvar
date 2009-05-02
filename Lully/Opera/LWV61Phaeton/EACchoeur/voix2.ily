@@ -60,3 +60,4 @@ sol' sol'8 sol' la' sib' |
 la'4. sib'8 sib' sib' |
 sol'4 fa'4. fa'8 |
 re'2 r
+\stopStaff

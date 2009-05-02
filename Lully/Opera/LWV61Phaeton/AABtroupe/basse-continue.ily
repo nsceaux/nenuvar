@@ -46,5 +46,5 @@ do8 re mi2 |
 fa4 re sol |
 do sol,2 |
 do2. ~|
-do4. re8 do si, |
+\once \set Staff.whichBar = "|" do4. re8 do si, |
 

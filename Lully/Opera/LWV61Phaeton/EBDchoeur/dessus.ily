@@ -1,4 +1,4 @@
-r r8 re'' |
+r4 r8 re'' |
 re''4. mib''8 fa''4. fa''8 |
 fa''4 re'' sol''2 ~|
 sol'' fa''4 fa''8 fa'' |

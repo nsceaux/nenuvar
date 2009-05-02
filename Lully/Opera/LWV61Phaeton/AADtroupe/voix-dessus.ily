@@ -15,3 +15,4 @@ mi'' mi'' do'' |
 la' re'' si' |
 do'' si'4. la'8 |
 la'2. |
+\stopStaff

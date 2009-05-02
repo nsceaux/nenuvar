@@ -130,3 +130,4 @@ sol''4 r \phaetonMark re'8 re' |
 si4 r8 si16 si mi'8 mi' |
 dod'4 dod' dod'4. re'8 |
 re'2 r1 |
+\stopStaff

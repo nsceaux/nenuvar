@@ -23,3 +23,4 @@ mi'' mi'' do'' |
 la' re'' si' |
 do'' si'4. do''8 |
 do''2. |
+\stopStaff

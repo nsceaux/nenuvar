@@ -23,3 +23,4 @@ sol'' sol'' mi'' |
 do'' fa'' re'' |
 mi'' re''4. do''8 |
 do''2. |
+\stopStaff

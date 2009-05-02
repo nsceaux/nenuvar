@@ -48,4 +48,4 @@ la ~ la8 re la,4 |
 re si,8. do16 re4 re, |
 sol,1 |
 sol2 ~ sol8 sol fad mi |
-\set Staff.whichBar = "|" \custosNote re2 
+\once \set Staff.whichBar = "|" \custosNote re2 

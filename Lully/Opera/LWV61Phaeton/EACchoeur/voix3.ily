@@ -60,3 +60,4 @@ sib sib8 sib do' fa |
 fa4. fa8 sib sib |
 sib4 la4. sib8 |
 sib2 r
+\stopStaff

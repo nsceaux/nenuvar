@@ -45,3 +45,4 @@ dod'4 dod'8 mi' mi' fad' mi'8. re'16 |
 re'4 r16 re' re' mi' la8. la16 la8 si |
 sol2 r |
 R1 |
+\stopStaff

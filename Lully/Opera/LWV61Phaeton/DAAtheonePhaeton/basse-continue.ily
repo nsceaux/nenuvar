@@ -141,6 +141,6 @@ sib,4 do re8 mib re re, |
 sol,2. |
 sol2 mi4 |
 la2 la, |
-re2. do4 si,4. la,8 ||
-\set Staff.whichBar = "|"
-\custosNote sol,1 
+re2. do4 si,4. la,8 |
+\once \set Staff.whichBar = "|"
+\custosNote sol,4

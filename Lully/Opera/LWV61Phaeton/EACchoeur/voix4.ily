@@ -45,3 +45,4 @@ mib4 mib8 re do sib, |
 fa4. re8 re re |
 mib4 fa fa |
 sib,2 r
+\stopStaff

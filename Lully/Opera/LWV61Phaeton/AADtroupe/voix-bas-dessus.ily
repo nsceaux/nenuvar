@@ -15,3 +15,4 @@ do'' do'' la' |
 fad' si' sold' |
 la' sold'4. la'8 |
 la'2. |
+\stopStaff

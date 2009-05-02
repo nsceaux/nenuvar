@@ -60,3 +60,4 @@ sol'' sol''8 fa'' mib'' re'' |
 do''4. fa''8 fa'' fa'' |
 sol''4 do''4. sib'8 |
 sib'2 r
+\stopStaff
