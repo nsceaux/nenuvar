@@ -45,3 +45,7 @@ meropsMark =
 soleilMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Le Soleil"))
+
+jupiterMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Jupiter"))
