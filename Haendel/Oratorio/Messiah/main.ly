@@ -9,9 +9,11 @@
 
 #(set-global-staff-size 14)
 #(ly:set-option 'non-incipit #t)
+#(ly:set-option 'use-rehearsal-numbers #t)
 \include "italiano.ly"
 \include "common/common.ily"
 \setOpus "Haendel/Oratorio/Messiah"
+\opusTitle "Messiah"
 \include "Haendel/Oratorio/Messiah/common.ily"
 
 \paper { #(define page-breaking ly:optimal-breaking) }
@@ -35,31 +37,36 @@
   \part "Part I"
   \pieceTocTitle "Sinfonia"
   \includeScore "AAsinfonia"
-  \pageBreak
-  \pieceToc \markup { Recitative (tenore): \italic { Comfort ye, my people } }
+}
+\bookpart {
+  \pieceToc \markup { Recitative: \italic { Comfort ye, my people } (tenore) }
   \includeScore "ABrecitTenore"
-  \pageBreak
-  \pieceToc \markup { Air (tenore): \italic { Every valley shall be exhalted } }
-  %% 24
+}
+\bookpart {
+  \pieceToc \markup { Air: \italic { Every valley shall be exhalted } (tenore) }
+  \includeScore "ACairTenore"
+}
+\bookpart {
   \pieceToc \markup { Chorus: \italic { And the glory of the Lord } }
-  \pieceToc \markup { Recitative (basso): \italic { Thus saith the Lord of Hosts } }
-  \pieceToc \markup { Air (basso): \italic { But who may abide the day of His coming } }
+  %% 30
+  \pieceToc \markup { Recitative: \italic { Thus saith the Lord of Hosts } (basso) }
+  \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (basso) }
   \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
-  \pieceToc \markup { Recitative (contr'alto): \italic { Behold, a virgin shall conceive } }
-  \pieceToc \markup { Air (contr'alto): \italic { O thou that tellest good tidings } }
+  \pieceToc \markup { Recitative: \italic { Behold, a virgin shall conceive } (contr'alto) }
+  \pieceToc \markup { Air: \italic { O thou that tellest good tidings } (contr'alto) }
   \pieceToc \markup { Chorus: \italic { O thou that tellest good tidings } }
-  \pieceToc \markup { Recitative (basso): \italic { For, behold! darkness shall cover } }
-  \pieceToc \markup { Air (basso): \italic { The people that walked in darkness } }
+  \pieceToc \markup { Recitative: \italic { For, behold! darkness shall cover } (basso) }
+  \pieceToc \markup { Air: \italic { The people that walked in darkness } (basso) }
   \pieceToc \markup { Chorus: \italic { For unto us a child is born } }
   \pieceTocTitle "Pifa"
-  \pieceToc \markup { Recitative (soprano): \italic { There were sheperds abiding } }
-  \pieceToc \markup { Recitative (soprano): \italic { And lo! the angel of the Lord } }
-  \pieceToc \markup { Recitative (soprano): \italic { And the angel said unto them } }
-  \pieceToc \markup { Recitative (soprano): \italic { And suddenly there was with the angel } }
+  \pieceToc \markup { Recitative: \italic { There were sheperds abiding } (soprano) }
+  \pieceToc \markup { Recitative: \italic { And lo! the angel of the Lord } (soprano) }
+  \pieceToc \markup { Recitative: \italic { And the angel said unto them } (soprano) }
+  \pieceToc \markup { Recitative: \italic { And suddenly there was with the angel } (soprano) }
   \pieceToc \markup { Chorus: \italic { Glory to God in the highest } }
-  \pieceToc \markup { Air (soprano): \italic { Rejoice greatly, O daughter of Zion } }
-  \pieceToc \markup { Recitative (soprano): \italic { Then shall the eyes of the blind } }
-  \pieceToc \markup { Air (soprano): \italic { He shall feed His flock } }
+  \pieceToc \markup { Air: \italic { Rejoice greatly, O daughter of Zion } (soprano) }
+  \pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (soprano) }
+  \pieceToc \markup { Air: \italic { He shall feed His flock } (soprano) }
   \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
   \markup\null
 }
