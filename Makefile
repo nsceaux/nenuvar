@@ -132,6 +132,7 @@ dessus1 dessus2 haute-contre taille basse voix,part-bc,basse-continue))
 
 ### Haendel
 $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Opera/GiulioCesare,reduction,,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Oratorio/Messiah,,))
 
 help:
 	@echo "usage: make <score-rule>"

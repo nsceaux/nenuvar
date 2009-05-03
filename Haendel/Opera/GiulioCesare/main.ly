@@ -1,4 +1,3 @@
-\version "2.11.57"
 \header {
   copyrightYear = "2001"
   composer = "George Frideric Handel"
