@@ -1,6 +1,6 @@
 #(ly:set-option 'non-incipit #t)
 \paper {
-  tocTitle = "TABLE OF CONTENTS"
+  tocTitle = "CONTENTS"
 }
 
 \opusPartSpecs #`(
@@ -8,7 +8,7 @@
   (violino2 "violino II" () (#:notes "violino2"))
   (viola "Viola" () (#:notes "viola" #:clef "alto"))
   (bassi "Bassi" () (#:notes "bassi" #:clef "bass" #:score-template "score-bassi"))
-  (voix "Vocales parts" () (#:score "score-vocal")))
+  (vocal "Vocales parts" () (#:score "score-vocal")))
 
 part=
 #(define-music-function (parser location act-title) (string?)
