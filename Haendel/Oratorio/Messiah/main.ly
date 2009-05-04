@@ -48,8 +48,11 @@
 }
 \bookpart {
   \pieceToc \markup { Chorus: \italic { And the glory of the Lord } }
-  %% 30
+  \includeScore "ADchorus"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { Thus saith the Lord of Hosts } (basso) }
+  %% 30
   \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (basso) }
   \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
   \pieceToc \markup { Recitative: \italic { Behold, a virgin shall conceive } (contr'alto) }
