@@ -40,11 +40,11 @@
 }
 \bookpart {
   \pieceToc \markup { Recitative: \italic { Comfort ye, my people } (tenore) }
-  \includeScore "ABrecitTenore"
+  \includeScore "ABrecitTenor"
 }
 \bookpart {
   \pieceToc \markup { Air: \italic { Every valley shall be exhalted } (tenore) }
-  \includeScore "ACairTenore"
+  \includeScore "ACairTenor"
 }
 \bookpart {
   \pieceToc \markup { Chorus: \italic { And the glory of the Lord } }
@@ -52,8 +52,11 @@
 }
 \bookpart {
   \pieceToc \markup { Recitative: \italic { Thus saith the Lord of Hosts } (basso) }
-  %% 30
+  \includeScore "AErecitBass"
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (basso) }
+  %% 40
   \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
   \pieceToc \markup { Recitative: \italic { Behold, a virgin shall conceive } (contr'alto) }
   \pieceToc \markup { Air: \italic { O thou that tellest good tidings } (contr'alto) }
