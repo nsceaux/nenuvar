@@ -2,7 +2,7 @@
   copyrightYear = "2009"
   title = "Messiah"
   composer = "George Frideric Handel"
-  poet="Charles Jennens"
+  poet=" "
   opus = "HWV 56"
   date = "1741"
 }
@@ -39,11 +39,11 @@
   \includeScore "AAsinfonia"
 }
 \bookpart {
-  \pieceToc \markup { Recitative: \italic { Comfort ye, my people } (tenore) }
+  \pieceToc \markup { Recitative: \italic { Comfort ye, my people } (tenor) }
   \includeScore "ABrecitTenor"
 }
 \bookpart {
-  \pieceToc \markup { Air: \italic { Every valley shall be exhalted } (tenore) }
+  \pieceToc \markup { Air: \italic { Every valley shall be exhalted } (tenor) }
   \includeScore "ACairTenor"
 }
 \bookpart {
@@ -51,18 +51,19 @@
   \includeScore "ADchorus"
 }
 \bookpart {
-  \pieceToc \markup { Recitative: \italic { Thus saith the Lord of Hosts } (basso) }
+  \pieceToc \markup { Recitative: \italic { Thus saith the Lord of Hosts } (bass) }
   \includeScore "AErecitBass"
 }
 \bookpart {
-  \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (basso) }
-  %% 40
+  \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (bass) }
+  \includeScore "AFairBass"
   \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
+  %% 60
   \pieceToc \markup { Recitative: \italic { Behold, a virgin shall conceive } (contr'alto) }
   \pieceToc \markup { Air: \italic { O thou that tellest good tidings } (contr'alto) }
   \pieceToc \markup { Chorus: \italic { O thou that tellest good tidings } }
-  \pieceToc \markup { Recitative: \italic { For, behold! darkness shall cover } (basso) }
-  \pieceToc \markup { Air: \italic { The people that walked in darkness } (basso) }
+  \pieceToc \markup { Recitative: \italic { For, behold! darkness shall cover } (bass) }
+  \pieceToc \markup { Air: \italic { The people that walked in darkness } (bass) }
   \pieceToc \markup { Chorus: \italic { For unto us a child is born } }
   \pieceTocTitle "Pifa"
   \pieceToc \markup { Recitative: \italic { There were sheperds abiding } (soprano) }
