@@ -59,11 +59,12 @@
   \includeScore "AFairBass"
   \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
   \includeScore "AGchorus"
+  \pieceToc \markup { Recitative: \italic { Behold, a virgin shall conceive } (contr'alto) }
+  \includeScore "AHrecitAlto"
 }
 \bookpart {
-  \pieceToc \markup { Recitative: \italic { Behold, a virgin shall conceive } (contr'alto) }
-  %% 66
   \pieceToc \markup { Air: \italic { O thou that tellest good tidings } (contr'alto) }
+  %% 67
   \pieceToc \markup { Chorus: \italic { O thou that tellest good tidings } }
   \pieceToc \markup { Recitative: \italic { For, behold! darkness shall cover } (bass) }
   \pieceToc \markup { Air: \italic { The people that walked in darkness } (bass) }
