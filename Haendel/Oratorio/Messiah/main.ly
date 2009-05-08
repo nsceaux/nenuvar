@@ -66,8 +66,11 @@
   \pieceToc \markup { Air: \italic { O thou that tellest good tidings } (contr'alto) }
   \includeScore "AIairAlto"
   \pieceToc \markup { Chorus: \italic { O thou that tellest good tidings } }
-  %% 71
+  \includeScore "AJchorus"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { For, behold! darkness shall cover } (bass) }
+  %% 76
   \pieceToc \markup { Air: \italic { The people that walked in darkness } (bass) }
   \pieceToc \markup { Chorus: \italic { For unto us a child is born } }
   \pieceTocTitle "Pifa"
