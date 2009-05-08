@@ -5,6 +5,10 @@
   poet=" "
   opus = "HWV 56"
   date = "1741"
+  editions = \markup \column {
+    \fill-line { \line { Based on the Deutsche Händelgesellschaft Edition } }
+    \fill-line { \line { Edited by Frideric Chrysander } }
+  }
 }
 
 #(set-global-staff-size 14)
@@ -26,13 +30,16 @@
   \pageBreak
 
   %% notes
-  \markup \null
-  \pageBreak
+  %\markup \null
+  %\pageBreak
 
   %% Table of contents
   \markuplines \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% PART I
+%%%
 \bookpart {
   \part "Part I"
   \pieceTocTitle "Sinfonia"
@@ -70,8 +77,9 @@
 }
 \bookpart {
   \pieceToc \markup { Recitative: \italic { For, behold! darkness shall cover } (bass) }
-  %% 76
+  \includeScore "AKrecitBass"
   \pieceToc \markup { Air: \italic { The people that walked in darkness } (bass) }
+  %% 78
   \pieceToc \markup { Chorus: \italic { For unto us a child is born } }
   \pieceTocTitle "Pifa"
   \pieceToc \markup { Recitative: \italic { There were sheperds abiding } (soprano) }
@@ -83,5 +91,52 @@
   \pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (soprano) }
   \pieceToc \markup { Air: \italic { He shall feed His flock } (soprano) }
   \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
+  \markup\null
+}
+
+%%%
+%%% PART II
+%%%
+\bookpart {
+  \part "Part II"
+  \pieceToc \markup { Chorus: \italic { Behold the Lamb of God! } }
+  \pieceToc \markup { Air: \italic { Ha was despised and rejected } (alto) }
+  \pieceToc \markup { Chorus: \italic { Surely He hath borne our griefs } }
+  \pieceToc \markup { Chorus: \italic { All we like sheep have gone } }
+  \pieceToc \markup { Recitative: \italic { All they that see Him } (tenor) }
+  \pieceToc \markup { Chorus: \italic { He trusted in God that He would } }
+  \pieceToc \markup { Recitative: \italic { Thy rebuke hath broken } (tenor) }
+  \pieceToc \markup { Air: \italic { Behold, and see if there be } (tenor) }
+  \pieceToc \markup { Recitative: \italic { He was cut off out of the land } (tenor) }
+  \pieceToc \markup { Air: \italic { But thou didst not leave } (tenor) }
+  \pieceToc \markup { Chorus: \italic { Lift up your heads, O ye gates } }
+  \pieceToc \markup { Recitative: \italic { Unto which of the angels } (tenor) }
+  \pieceToc \markup { Chorus: \italic { Let all the angels of God worship } }
+  \pieceToc \markup { Air: \italic { Thou art gone up on high } (bass) }
+  \pieceToc \markup { Chorus: \italic { The Lord gave the word } }
+  \pieceToc \markup { Air: \italic { How beautiful are the feet } (soprano) }
+  \pieceToc \markup { Air: \italic { Why do the nations so furiously } (bass) }
+  \pieceToc \markup { Chorus: \italic { Let us break their bonds } }
+  \pieceToc \markup { Recitative: \italic { He that dwelleth in heaven } (tenor) }
+  \pieceToc \markup { Air: \italic { Thou shalt break them with a rod } (tenor) }
+  \pieceToc \markup { Chorus: \italic { Hallelujah } }
+  \markup\null
+}
+
+%%%
+%%% PART III
+%%%
+\bookpart {
+  \part "Part III"
+  \pieceToc \markup { Air: \italic { I know that my Redeemer liveth } (soprano) }
+  \pieceToc \markup { Chorus and soli: \italic { Since by man came death } }
+  \pieceToc \markup { Recitative: \italic { Behold, I tell you a mistery } (bass) }
+  \pieceToc \markup { Air: \italic { The trumpet shall sound } (bass) }
+  \pieceToc \markup { Recitative: \italic { Then shall be brought to pass } (contr'alto) }
+  \pieceToc \markup { Duet: \italic { O death! where is thy string? } (contr'alto and tenor) }
+  \pieceToc \markup { Chorus: \italic { But thanks be to God } }
+  \pieceToc \markup { Air: \italic { If God be for us } (soprano) }
+  \pieceToc \markup { Chorus: \italic { Worthy is the Lamb } }
+  \pieceToc \markup { Chorus: \italic { Amen } }
   \markup\null
 }
