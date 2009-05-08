@@ -85,8 +85,11 @@
 }
 \bookpart {
   \pieceToc \markup { Chorus: \italic { For unto us a child is born } }
-  %% 82
+  \includeScore "AMchorus"
+}
+\bookpart {
   \pieceTocTitle "Pifa"
+  %% 94
   \pieceToc \markup { Recitative: \italic { There were sheperds abiding } (soprano) }
   \pieceToc \markup { Recitative: \italic { And lo! the angel of the Lord } (soprano) }
   \pieceToc \markup { Recitative: \italic { And the angel said unto them } (soprano) }
