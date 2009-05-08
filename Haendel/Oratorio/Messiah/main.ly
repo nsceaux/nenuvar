@@ -78,9 +78,14 @@
 \bookpart {
   \pieceToc \markup { Recitative: \italic { For, behold! darkness shall cover } (bass) }
   \includeScore "AKrecitBass"
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { The people that walked in darkness } (bass) }
-  %% 78
+  \includeScore "ALairBass"
+}
+\bookpart {
   \pieceToc \markup { Chorus: \italic { For unto us a child is born } }
+  %% 82
   \pieceTocTitle "Pifa"
   \pieceToc \markup { Recitative: \italic { There were sheperds abiding } (soprano) }
   \pieceToc \markup { Recitative: \italic { And lo! the angel of the Lord } (soprano) }
