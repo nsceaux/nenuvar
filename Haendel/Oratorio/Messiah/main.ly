@@ -97,9 +97,13 @@
   \pieceToc \markup { Recitative: \italic { And lo! the angel of the Lord } (soprano) }
   \includeScore "APrecitSoprano"
   \pieceToc \markup { Recitative: \italic { And the angel said unto them } (soprano) }
-  %% 98
+  \includeScore "AQrecitSoprano"
   \pieceToc \markup { Recitative: \italic { And suddenly there was with the angel } (soprano) }
+  \includeScore "ARrecitSoprano"
+}
+\bookpart {
   \pieceToc \markup { Chorus: \italic { Glory to God in the highest } }
+  %% 100
   \pieceToc \markup { Air: \italic { Rejoice greatly, O daughter of Zion } (soprano) }
   \pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (soprano) }
   \pieceToc \markup { Air: \italic { He shall feed His flock } (soprano) }
