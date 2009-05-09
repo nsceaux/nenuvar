@@ -35,10 +35,9 @@
         \global \clef "bass" \includeNotes "vbasso"
       >> \includeLyrics "lyrics4"
     >>
-    \new Staff <<
-      \instrumentName \markup Bassi
-      \global \clef "bass" \includeNotes "bassi"
-      \includeFigures "figures" >>
+    \new Staff << \instrumentName \markup Bassi
+                  \global \clef "bass" \includeNotes "bassi"
+                  \includeFigures "figures" >>
   >>
   \layout { indent = \largeindent }
   \midi { }

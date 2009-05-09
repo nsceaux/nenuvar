@@ -1,10 +1,10 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff << \instrumentName \markup "Violini"
+    \new Staff << \instrumentName \markup Violini
                   \global \clef "treble" \includeNotes "violini" >>
     \new Staff \withLyrics <<
-      \characterName \markup "Contr'alto"
-      \global \clef "treble" \includeNotes "valto"
+      \characterName \markup Soprano
+      \global \clef "treble" \includeNotes "vsoprano"
     >> \includeLyrics "lyrics"
     \new Staff << \instrumentName \markup Bassi
                   \global \clef "bass" \includeNotes "bassi"

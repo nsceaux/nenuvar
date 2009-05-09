@@ -105,8 +105,9 @@
   \pieceToc \markup { Chorus: \italic { Glory to God in the highest } }
   \includeScore "ASchorus"
   \pieceToc \markup { Air: \italic { Rejoice greatly, O daughter of Zion } (soprano) }
-  %% 105
+  \includeScore "ATairSoprano"
   \pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (soprano) }
+  %% 118
   \pieceToc \markup { Air: \italic { He shall feed His flock } (soprano) }
   \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
   \markup\null
