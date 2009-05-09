@@ -103,8 +103,9 @@
 }
 \bookpart {
   \pieceToc \markup { Chorus: \italic { Glory to God in the highest } }
-  %% 100
+  \includeScore "ASchorus"
   \pieceToc \markup { Air: \italic { Rejoice greatly, O daughter of Zion } (soprano) }
+  %% 105
   \pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (soprano) }
   \pieceToc \markup { Air: \italic { He shall feed His flock } (soprano) }
   \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
