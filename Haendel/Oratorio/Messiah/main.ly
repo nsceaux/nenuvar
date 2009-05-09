@@ -89,8 +89,11 @@
 }
 \bookpart {
   \pieceTocTitle "Pifa"
-  %% 94
+  \includeScore "ANpifa"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { There were sheperds abiding } (soprano) }
+  %% 95
   \pieceToc \markup { Recitative: \italic { And lo! the angel of the Lord } (soprano) }
   \pieceToc \markup { Recitative: \italic { And the angel said unto them } (soprano) }
   \pieceToc \markup { Recitative: \italic { And suddenly there was with the angel } (soprano) }

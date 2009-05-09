@@ -1,0 +1,5 @@
+\piecePartSpecs #`((violino1)
+                   (violino2)
+                   (violino3)
+                   (viola)
+                   (bassi))
