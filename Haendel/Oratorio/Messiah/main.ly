@@ -104,13 +104,19 @@
 \bookpart {
   \pieceToc \markup { Chorus: \italic { Glory to God in the highest } }
   \includeScore "ASchorus"
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { Rejoice greatly, O daughter of Zion } (soprano) }
   \includeScore "ATairSoprano"
   \pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (soprano) }
-  %% 118
+  \includeScore "AUrecitSoprano"
   \pieceToc \markup { Air: \italic { He shall feed His flock } (soprano) }
+  \includeScore "AVairSoprano"
   \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
-  \markup\null
+}
+\bookpart {
+  \includeScore "AWchorus"
+  \actEnd \markup { END OF THE FIRST PART }
 }
 
 %%%
