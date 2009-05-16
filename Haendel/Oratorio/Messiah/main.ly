@@ -125,7 +125,9 @@
 \bookpart {
   \part "Part II"
   \pieceToc \markup { Chorus: \italic { Behold the Lamb of God! } }
+  \includeScore "BAchorus"
   \pieceToc \markup { Air: \italic { Ha was despised and rejected } (alto) }
+  %% 138
   \pieceToc \markup { Chorus: \italic { Surely He hath borne our griefs } }
   \pieceToc \markup { Chorus: \italic { All we like sheep have gone } }
   \pieceToc \markup { Recitative: \italic { All they that see Him } (tenor) }
