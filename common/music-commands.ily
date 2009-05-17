@@ -214,3 +214,24 @@ unlessLetter =
    (if (not (eqv? #t (ly:get-option 'letter)))
        music
        (make-music 'Music 'void #t)))
+
+%%%
+applyDurations =
+#(define-music-function (parser location pattern music) (ly:music? ly:music?)
+  "\\applyDurations { c'16. c32 } { c d e f }
+==>
+{ c16. d32 e16. f32 }"
+   (let ((durations (apply circular-list
+                      (let ((result (list)))
+                        (music-map (lambda (event)
+                                     (if (eqv? (ly:music-property event 'name) 'NoteEvent)
+                                         (set! result (cons (ly:music-property event 'duration) result)))
+                                     event)
+                                  pattern)
+                        (reverse! result)))))
+    (music-map (lambda (event)
+                 (cond ((eqv? (ly:music-property event 'name) 'NoteEvent)
+                        (set! (ly:music-property event 'duration) (car durations))
+                        (set! durations (cdr durations))))
+                 event)
+               music)))
