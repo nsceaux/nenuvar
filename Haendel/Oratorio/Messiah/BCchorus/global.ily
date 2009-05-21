@@ -1,6 +1,5 @@
-\key sib \major
-\time 4/4
-\tempo "Largo" \midiTempo #68
+\key do \minor %% actually \key fa \minor
+\tempo "Largo e staccato" \midiTempo #44
 #(revert-auto-beam-setting '(end 1 32 4 4) 1 8 'Staff)
 #(revert-auto-beam-setting '(end 1 32 4 4) 2 8 'Staff)
 #(revert-auto-beam-setting '(end 1 32 4 4) 3 8 'Staff)
@@ -12,4 +11,5 @@
 #(revert-auto-beam-setting '(end 1 8 4 4) 3 4 'Staff)
 #(override-auto-beam-setting '(end 1 8 * *) 2 4 'Staff)
 #(override-auto-beam-setting '(end 1 8 * *) 4 4 'Staff)
-s1*32 \bar "|."
+\time 4/4 s1*26 \bar "|."
+\time 2/2

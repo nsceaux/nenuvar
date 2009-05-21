@@ -129,8 +129,10 @@
   \pieceToc \markup { Air: \italic { Ha was despised and rejected } (alto) }
   \includeScore "BBairAlto"
   \pieceToc \markup { Chorus: \italic { Surely He hath borne our griefs } }
-  %% 150
+  \includeScore "BCchorus"
+  \includeScore "BDchorus"
   \pieceToc \markup { Chorus: \italic { All we like sheep have gone } }
+  \includeScore "BEchorus"
   \pieceToc \markup { Recitative: \italic { All they that see Him } (tenor) }
   \pieceToc \markup { Chorus: \italic { He trusted in God that He would } }
   \pieceToc \markup { Recitative: \italic { Thy rebuke hath broken } (tenor) }
