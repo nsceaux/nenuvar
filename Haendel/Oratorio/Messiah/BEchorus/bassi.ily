@@ -1,7 +1,7 @@
 fa,8 fa la fa la fa sib fa |
 la fa la fa la fa sib fa |
 la fa la, fa, la, fa, sib, fa, |
-la, fa, \clef "alto" << { s do' re' do' fa' mi' | la' sol' }
+la, fa, \clef "alto" << { s do' re' do' fa' mi' | la'[ sol'] }
                         \\ { la fa sib la re' do' | fa' mi' re' do' } >> sib la sol fa |\clef "bass" 
 mi do mi do la fa la fa |
 do' do mi do mi do fa do |

@@ -33,22 +33,18 @@
   tagline = \markup { 
     \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7)
     \box \center-column {
-      \small \line { 
+      \small \line {
         \copyright
         \with-url #"http://nicolas.sceaux.free.fr" \teeny "<nicolas.sceaux@free.fr>"
         \hspace #-1 .
-      %% }
-      %% \small \line {
-        Typeset using \with-url #"http://www.LilyPond.org" 
-        \line { \teeny www. \hspace #-1.0 LilyPond \hspace #-1.0 \teeny .org }
-        #(ly:export (string-append "version " (lilypond-version))) \hspace #-1 
-        on \concat { \today . }
       }
       \small \line {
-        Sheet music from \with-url #"http://www.MutopiaProject.org"
-        \concat { \teeny www. MutopiaProject \teeny .org }
-        and \with-url #"http://nicolas.sceaux.free.fr"
-        \typewriter \tiny nicolas.sceaux.free.fr
+        Sheet music from \with-url #"http://nicolas.sceaux.free.fr"
+        \typewriter \tiny http://nicolas.sceaux.free.fr
+        typeset using \with-url #"http://www.LilyPond.org" 
+        \line { \teeny www. \hspace #-1.0 LilyPond \hspace #-1.0 \teeny .org }
+        #(ly:export (string-append "version " (lilypond-version)))
+        on \concat { \today . }
       }
       \small \line {
         \italic Free to download, with the \italic freedom
@@ -56,11 +52,10 @@
       }
       \teeny \line { 
         Licensed under the Creative Commons Attributio 3.0 License,
-      %% }
-      %% \teeny \line { 
         for details see: \hspace #-0.5 
         \with-url #"http://creativecommons.org/licenses/by/3.0" 
-        http://creativecommons.org/licenses/by/3.0 }
+        http://creativecommons.org/licenses/by/3.0
+      }
     }
   }
 }

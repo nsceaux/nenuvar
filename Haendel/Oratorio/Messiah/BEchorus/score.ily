@@ -20,8 +20,7 @@
       >> \includeLyrics "lyrics4"
     >>
     \new Staff << \global \clef "bass" \includeNotes "bassi"
-                  %%\includeFigures "figures"
-                >>
+                  \includeFigures "figures" >>
   >>
   \layout { indent = \smallindent }
   \midi { }

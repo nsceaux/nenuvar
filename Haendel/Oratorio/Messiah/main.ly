@@ -112,9 +112,9 @@
   \includeScore "AUrecitSoprano"
   \pieceToc \markup { Air: \italic { He shall feed His flock } (soprano) }
   \includeScore "AVairSoprano"
-  \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
 }
 \bookpart {
+  \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
   \includeScore "AWchorus"
   \actEnd \markup { END OF THE FIRST PART }
 }
@@ -130,11 +130,17 @@
   \includeScore "BBairAlto"
   \pieceToc \markup { Chorus: \italic { Surely He hath borne our griefs } }
   \includeScore "BCchorus"
+}
+\bookpart {
   \includeScore "BDchorus"
   \pieceToc \markup { Chorus: \italic { All we like sheep have gone } }
   \includeScore "BEchorus"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { All they that see Him } (tenor) }
+  \includeScore "BFrecitTenor"
   \pieceToc \markup { Chorus: \italic { He trusted in God that He would } }
+  %% 169
   \pieceToc \markup { Recitative: \italic { Thy rebuke hath broken } (tenor) }
   \pieceToc \markup { Air: \italic { Behold, and see if there be } (tenor) }
   \pieceToc \markup { Recitative: \italic { He was cut off out of the land } (tenor) }

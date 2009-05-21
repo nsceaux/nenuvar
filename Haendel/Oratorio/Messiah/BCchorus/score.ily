@@ -28,8 +28,7 @@
     >>
     \new Staff << \instrumentName \markup Bassi
                   \global \clef "bass" \includeNotes "bassi"
-                  %%\includeFigures "figures"
-                >>
+                  \includeFigures "figures" >>
   >>
   \layout { indent = \largeindent }
   \midi { }
