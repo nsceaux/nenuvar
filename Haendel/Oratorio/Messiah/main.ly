@@ -126,7 +126,7 @@
   \part "Part II"
   \pieceToc \markup { Chorus: \italic { Behold the Lamb of God! } }
   \includeScore "BAchorus"
-  \pieceToc \markup { Air: \italic { Ha was despised and rejected } (alto) }
+  \pieceToc \markup { Air: \italic { He was despised and rejected } (alto) }
   \includeScore "BBairAlto"
   \pieceToc \markup { Chorus: \italic { Surely He hath borne our griefs } }
   \includeScore "BCchorus"
@@ -158,7 +158,10 @@
   \pieceToc \markup { Chorus: \italic { Lift up your heads, O ye gates } }
   \includeScore "BLchorus"
   \pieceToc \markup { Recitative: \italic { Unto which of the angels } (tenor) }
-  %% 193
+  \includeScore "BMrecitTenor"
+}
+\bookpart {
+  %% 194
   \pieceToc \markup { Chorus: \italic { Let all the angels of God worship } }
   \pieceToc \markup { Air: \italic { Thou art gone up on high } (bass) }
   \pieceToc \markup { Chorus: \italic { The Lord gave the word } }

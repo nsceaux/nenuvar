@@ -10,12 +10,12 @@
     >>
     \new ChoirStaff <<
       \new Staff \withLyrics <<
-        \characterName \markup { Canto I }
+        \characterName \markup "Canto I"
         { s1*30 \break s2 s4. s8^"Canto I II"}
         \global \clef "treble" \includeNotes "vcanto1"
       >> \includeLyrics "lyrics11"
       \newHaraKiriStaff \withLyrics <<
-        \characterName \markup { Canto II }
+        \characterName \markup "Canto II"
         \global \clef "treble" \includeNotes "vcanto2"
       >> \includeLyrics "lyrics12"
       \new Staff \withLyrics <<
