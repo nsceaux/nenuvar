@@ -141,11 +141,18 @@
   \includeScore "BFrecitTenor"
   \pieceToc \markup { Chorus: \italic { He trusted in God that He would } }
   \includeScore "BGchorus"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { Thy rebuke hath broken } (tenor) }
   \includeScore "BHrecitTenor"
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { Behold, and see if there be } (tenor) }
-  %% 180
+  \includeScore "BIairTenor"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { He was cut off out of the land } (tenor) }
+  %% 181
   \pieceToc \markup { Air: \italic { But thou didst not leave } (tenor) }
   \pieceToc \markup { Chorus: \italic { Lift up your heads, O ye gates } }
   \pieceToc \markup { Recitative: \italic { Unto which of the angels } (tenor) }

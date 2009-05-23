@@ -1,6 +1,6 @@
 r4 do'8 do' mi'4 r8 sib |
 mi4 mi8 fa fa4 r |
-r fa8 fa la4 r8 sold |
+r fa8 fa la4 r8 sol |
 la8. la16 la4 r la8 la |
 do'4 r8 re' sib8. sib16 sib4 |
 r sib8 sib sol4 r8 sol |

@@ -1,5 +1,5 @@
-mib''2 mib'' ~|
-mib'' do'' ~|
+mib''2 mi'' ~|
+mi'' do'' ~|
 do''1 |
 fad'' ~|
 fad''2 re'' ~|
