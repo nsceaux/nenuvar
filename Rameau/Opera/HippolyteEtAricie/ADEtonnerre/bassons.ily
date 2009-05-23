@@ -27,9 +27,9 @@ re,2 re, |
 sol,8 r sol,4 |
 do, la, |
 re, si,, |
-do, la,, |
-la,,2 ~|
-la,,4 r |
+mi, do, |
+do,2 ~|
+do,4 r |
 re'8 re' re' re' |
 re' re' re' re' |
 re' re' do' do' |
