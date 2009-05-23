@@ -152,8 +152,9 @@
 }
 \bookpart {
   \pieceToc \markup { Recitative: \italic { He was cut off out of the land } (tenor) }
-  %% 181
+  \includeScore "BJrecitTenor"
   \pieceToc \markup { Air: \italic { But thou didst not leave } (tenor) }
+  %% 182
   \pieceToc \markup { Chorus: \italic { Lift up your heads, O ye gates } }
   \pieceToc \markup { Recitative: \italic { Unto which of the angels } (tenor) }
   \pieceToc \markup { Chorus: \italic { Let all the angels of God worship } }
