@@ -140,8 +140,9 @@
   \pieceToc \markup { Recitative: \italic { All they that see Him } (tenor) }
   \includeScore "BFrecitTenor"
   \pieceToc \markup { Chorus: \italic { He trusted in God that He would } }
-  %% 169
+  \includeScore "BGchorus"
   \pieceToc \markup { Recitative: \italic { Thy rebuke hath broken } (tenor) }
+  %% 178
   \pieceToc \markup { Air: \italic { Behold, and see if there be } (tenor) }
   \pieceToc \markup { Recitative: \italic { He was cut off out of the land } (tenor) }
   \pieceToc \markup { Air: \italic { But thou didst not leave } (tenor) }
