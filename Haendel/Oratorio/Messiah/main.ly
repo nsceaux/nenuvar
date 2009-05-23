@@ -156,8 +156,9 @@
   \pieceToc \markup { Air: \italic { But thou didst not leave } (tenor) }
   \includeScore "BKairTenor"
   \pieceToc \markup { Chorus: \italic { Lift up your heads, O ye gates } }
-  %% 185
+  \includeScore "BLchorus"
   \pieceToc \markup { Recitative: \italic { Unto which of the angels } (tenor) }
+  %% 193
   \pieceToc \markup { Chorus: \italic { Let all the angels of God worship } }
   \pieceToc \markup { Air: \italic { Thou art gone up on high } (bass) }
   \pieceToc \markup { Chorus: \italic { The Lord gave the word } }
