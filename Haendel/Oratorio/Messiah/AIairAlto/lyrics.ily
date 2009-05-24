@@ -12,8 +12,8 @@ Be -- hold __ your God, __
 be -- hold __ your God!
 say un -- to the ci -- ties of Ju -- dah,
 Be -- hold __ your God, __
-Be -- hold __ your God, __
-be -- hold __ your God!
+be -- hold __ your God, __
+be -- hold your God!
 O! thou that tell -- est good ti -- dings to Zi -- on,
 a -- rise, shine, for thy light is come,
 a -- rise, a -- rise, a -- rise, shine, for thy light is come,

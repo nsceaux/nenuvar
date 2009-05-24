@@ -22,7 +22,7 @@ fad'4 re'8 mi'16 [ re' ] dod'8 mi' |
 fad'16 [\melisma mi' re'8 fad' ] mi'16 [ re' dod'8 mi' ]|
 fad'16 [ mi' re'8 fad' ] sold'16 [ fad' mi'8 sold' ]|
 la'2. ~|
-la'8 sold' fad' sold' mi' la' |
+la'8[ sold' fad'] sold'[ mi' la'] |
 fad' sold'4 \melismaEnd la'4. |
 R2.*4 |
 r4 r8 r4 la'8 |

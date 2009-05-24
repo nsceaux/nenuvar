@@ -161,8 +161,9 @@
   \includeScore "BMrecitTenor"
 }
 \bookpart {
-  %% 194
   \pieceToc \markup { Chorus: \italic { Let all the angels of God worship } }
+  \includeScore "BNchorus"
+  %% 198
   \pieceToc \markup { Air: \italic { Thou art gone up on high } (bass) }
   \pieceToc \markup { Chorus: \italic { The Lord gave the word } }
   \pieceToc \markup { Air: \italic { How beautiful are the feet } (soprano) }
