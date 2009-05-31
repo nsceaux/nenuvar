@@ -167,8 +167,13 @@
   \includeScore "BOairBass"
   \pieceToc \markup { Chorus: \italic { The Lord gave the word } }
   \includeScore "BPchorus"
-  %% 218
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { How beautiful are the feet } (soprano) }
+  \includeScore "BQairSoprano"
+}
+\bookpart {
+  %% 222
   \pieceToc \markup { Air: \italic { Why do the nations so furiously } (bass) }
   \pieceToc \markup { Chorus: \italic { Let us break their bonds } }
   \pieceToc \markup { Recitative: \italic { He that dwelleth in heaven } (tenor) }
