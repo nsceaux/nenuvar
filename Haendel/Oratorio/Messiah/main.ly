@@ -173,8 +173,9 @@
   \includeScore "BQairSoprano"
 }
 \bookpart {
-  %% 222
   \pieceToc \markup { Air: \italic { Why do the nations so furiously } (bass) }
+  \includeScore "BRairBass"
+  %% 254
   \pieceToc \markup { Chorus: \italic { Let us break their bonds } }
   \pieceToc \markup { Recitative: \italic { He that dwelleth in heaven } (tenor) }
   \pieceToc \markup { Air: \italic { Thou shalt break them with a rod } (tenor) }
