@@ -173,8 +173,9 @@
   \includeScore "BRairBass"
   \pieceToc \markup { Chorus: \italic { Let us break their bonds } }
   \includeScore "BSchorus"
-  %% 254
   \pieceToc \markup { Recitative: \italic { He that dwelleth in heaven } (tenor) }
+  \includeScore "BTrecitTenor"
+  %% 262
   \pieceToc \markup { Air: \italic { Thou shalt break them with a rod } (tenor) }
   \pieceToc \markup { Chorus: \italic { Hallelujah } }
   \markup\null
