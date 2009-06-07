@@ -177,9 +177,8 @@
   \includeScore "BTrecitTenor"
   \pieceToc \markup { Air: \italic { Thou shalt break them with a rod } (tenor) }
   \includeScore "BUairTenor"
-  %% 266
   \pieceToc \markup { Chorus: \italic { Hallelujah } }
-  \markup\null
+  \includeScore "BVchorus"
 }
 
 %%%
@@ -187,6 +186,7 @@
 %%%
 \bookpart {
   \part "Part III"
+  %% 278
   \pieceToc \markup { Air: \italic { I know that my Redeemer liveth } (soprano) }
   \pieceToc \markup { Chorus and soli: \italic { Since by man came death } }
   \pieceToc \markup { Recitative: \italic { Behold, I tell you a mistery } (bass) }

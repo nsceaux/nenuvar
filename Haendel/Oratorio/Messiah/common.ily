@@ -12,6 +12,7 @@
   (oboe2 "Oboe II" ((violino2 "Violino")) (#:notes "oboe2"))
   (tromba1 "Tromba I" () (#:notes "tromba1"))
   (tromba2 "Tromba II" () (#:notes "tromba2"))
+  (tromba2 "Tympani" () (#:notes "timpani" #:clef "bass"))
   (bassi "Bassi" () (#:notes "bassi" #:clef "bass" #:score-template "score-bassi"))
   (vocal "Vocales parts" () (#:score "score-vocal")))
 
