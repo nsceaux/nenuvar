@@ -1,0 +1,7 @@
+\piecePartSpecs #`((tromba1 #:notes "tromba")
+                   (tromba2 #:notes "tromba")
+                   (violino1)
+                   (violino2)
+                   (viola)
+                   ;;(vocal)
+                   (bassi #:score-template "score"))

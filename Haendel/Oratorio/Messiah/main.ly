@@ -201,9 +201,10 @@
   \includeScore "CBchorus"
   \pieceToc \markup { Recitative: \italic { Behold, I tell you a mistery } (bass) }
   \includeScore "CCrecitBass"
-  %% 288
   \pieceToc \markup { Air: \italic { The trumpet shall sound } (bass) }
+  \includeScore "CDairBass"
   \pieceToc \markup { Recitative: \italic { Then shall be brought to pass } (contr'alto) }
+  %% 298
   \pieceToc \markup { Duet: \italic { O death! where is thy string? } (contr'alto and tenor) }
   \pieceToc \markup { Chorus: \italic { But thanks be to God } }
   \pieceToc \markup { Air: \italic { If God be for us } (soprano) }
