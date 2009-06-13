@@ -104,7 +104,7 @@
 \bookpart {
   \pieceToc \markup { Chorus: \italic { Glory to God in the highest } }
   \includeScore "ASchorus"
-}
+}%% TODO letter: fix page breaking
 \bookpart {
   \pieceToc \markup { Air: \italic { Rejoice greatly, O daughter of Zion } (soprano) }
   \includeScore "ATairSoprano"
@@ -165,20 +165,29 @@
   \includeScore "BNchorus"
   \pieceToc \markup { Air: \italic { Thou art gone up on high } (bass) }
   \includeScore "BOairBass"
+}
+\bookpart {
   \pieceToc \markup { Chorus: \italic { The Lord gave the word } }
   \includeScore "BPchorus"
   \pieceToc \markup { Air: \italic { How beautiful are the feet } (soprano) }
   \includeScore "BQairSoprano"
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { Why do the nations so furiously } (bass) }
   \includeScore "BRairBass"
+}
+\bookpart {
   \pieceToc \markup { Chorus: \italic { Let us break their bonds } }
   \includeScore "BSchorus"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { He that dwelleth in heaven } (tenor) }
   \includeScore "BTrecitTenor"
   \pieceToc \markup { Air: \italic { Thou shalt break them with a rod } (tenor) }
   \includeScore "BUairTenor"
   \pieceToc \markup { Chorus: \italic { Hallelujah } }
   \includeScore "BVchorus"
+  \actEnd \markup { END OF THE SECOND PART }
 }
 
 %%%
@@ -186,8 +195,9 @@
 %%%
 \bookpart {
   \part "Part III"
-  %% 278
   \pieceToc \markup { Air: \italic { I know that my Redeemer liveth } (soprano) }
+  \includeScore "CAairSoprano"
+  %% 284
   \pieceToc \markup { Chorus and soli: \italic { Since by man came death } }
   \pieceToc \markup { Recitative: \italic { Behold, I tell you a mistery } (bass) }
   \pieceToc \markup { Air: \italic { The trumpet shall sound } (bass) }
