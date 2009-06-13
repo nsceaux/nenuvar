@@ -204,6 +204,7 @@
   \pieceToc \markup { Air: \italic { The trumpet shall sound } (bass) }
   \includeScore "CDairBass"
   \pieceToc \markup { Recitative: \italic { Then shall be brought to pass } (contr'alto) }
+  \includeScore "CErecitAlto"
   %% 298
   \pieceToc \markup { Duet: \italic { O death! where is thy string? } (contr'alto and tenor) }
   \pieceToc \markup { Chorus: \italic { But thanks be to God } }
