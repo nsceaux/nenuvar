@@ -199,8 +199,9 @@
   \includeScore "CAairSoprano"
   \pieceToc \markup { Chorus and soli: \italic { Since by man came death } }
   \includeScore "CBchorus"
-  %% 288
   \pieceToc \markup { Recitative: \italic { Behold, I tell you a mistery } (bass) }
+  \includeScore "CCrecitBass"
+  %% 288
   \pieceToc \markup { Air: \italic { The trumpet shall sound } (bass) }
   \pieceToc \markup { Recitative: \italic { Then shall be brought to pass } (contr'alto) }
   \pieceToc \markup { Duet: \italic { O death! where is thy string? } (contr'alto and tenor) }
