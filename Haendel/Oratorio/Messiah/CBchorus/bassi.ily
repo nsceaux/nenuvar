@@ -25,5 +25,5 @@ la4. la,8 do4 mi |
 la re mi mi, |
 la,4. si,8 do si, do re |
 mi4 fad8 sold la si do' re' |
-mi' sold la re mi mi, |
+mi' sold la re mi4 mi, |
 la,4 r r2 |

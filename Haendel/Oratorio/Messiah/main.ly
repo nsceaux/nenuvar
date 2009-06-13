@@ -197,8 +197,9 @@
   \part "Part III"
   \pieceToc \markup { Air: \italic { I know that my Redeemer liveth } (soprano) }
   \includeScore "CAairSoprano"
-  %% 284
   \pieceToc \markup { Chorus and soli: \italic { Since by man came death } }
+  \includeScore "CBchorus"
+  %% 288
   \pieceToc \markup { Recitative: \italic { Behold, I tell you a mistery } (bass) }
   \pieceToc \markup { Air: \italic { The trumpet shall sound } (bass) }
   \pieceToc \markup { Recitative: \italic { Then shall be brought to pass } (contr'alto) }
