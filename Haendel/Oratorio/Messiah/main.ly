@@ -209,9 +209,10 @@
   \includeScore "CFduo"
   \pieceToc \markup { Chorus: \italic { But thanks be to God } }
   \includeScore "CGchorus"
-  %% 310
   \pieceToc \markup { Air: \italic { If God be for us } (soprano) }
+  \includeScore "CHairSoprano"
   \pieceToc \markup { Chorus: \italic { Worthy is the Lamb } }
+  %% 316
   \pieceToc \markup { Chorus: \italic { Amen } }
   \markup\null
 }
