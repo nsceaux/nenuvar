@@ -208,7 +208,8 @@
   \pieceToc \markup { Duet: \italic { O death! where is thy string? } (contr'alto and tenor) }
   \includeScore "CFduo"
   \pieceToc \markup { Chorus: \italic { But thanks be to God } }
-  %% 302
+  \includeScore "CGchorus"
+  %% 310
   \pieceToc \markup { Air: \italic { If God be for us } (soprano) }
   \pieceToc \markup { Chorus: \italic { Worthy is the Lamb } }
   \pieceToc \markup { Chorus: \italic { Amen } }
