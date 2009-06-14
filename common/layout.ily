@@ -98,6 +98,7 @@
     \name Staff
     \override VerticalAxisGroup #'minimum-Y-extent = #'(-4 . 4)
     %% Figured bass
+    ignoreFiguredBassRest = ##f
     figuredBassAlterationDirection = #RIGHT
     \override BassFigureAlignment #'stacking-dir = #UP
     \override BassFigureAlignmentPositioning #'direction = #DOWN

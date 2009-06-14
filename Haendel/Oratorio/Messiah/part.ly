@@ -11,7 +11,7 @@
   }
 }
 
-#(set-global-staff-size 14)
+#(set-global-staff-size 18)
 #(ly:set-option 'non-incipit #t)
 #(ly:set-option 'use-rehearsal-numbers #t)
 \include "italiano.ly"
@@ -20,7 +20,19 @@
 \opusTitle "Messiah"
 \include "Haendel/Oratorio/Messiah/common.ily"
 
-\paper { #(define page-breaking ly:optimal-breaking) }
+\layout {
+  \context {
+    \Score
+    \override VerticalAlignment #'max-stretch =
+    #(if (eqv? (*part*) 'voix)
+      ly:align-interface::calc-max-stretch
+      #f)
+  }
+}
+
+\paper { #(define page-breaking (if (eqv? (*part*) 'voix)
+                                    ly:optimal-breaking
+                                    ly:page-turn-breaking)) }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {
@@ -44,54 +56,32 @@
   \part "Part I"
   \pieceTocTitle "Sinfonia"
   \includeScore "AAsinfonia"
-}
-\bookpart {
   \pieceToc \markup { Recitative: \italic { Comfort ye, my people } (tenor) }
   \includeScore "ABrecitTenor"
-}
-\bookpart {
   \pieceToc \markup { Air: \italic { Every valley shall be exhalted } (tenor) }
   \includeScore "ACairTenor"
-}
-\bookpart {
   \pieceToc \markup { Chorus: \italic { And the glory of the Lord } }
   \includeScore "ADchorus"
-}
-\bookpart {
   \pieceToc \markup { Recitative: \italic { Thus saith the Lord of Hosts } (bass) }
   \includeScore "AErecitBass"
-}
-\bookpart {
   \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (bass) }
   \includeScore "AFairBass"
   \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
   \includeScore "AGchorus"
   \pieceToc \markup { Recitative: \italic { Behold, a virgin shall conceive } (contr'alto) }
   \includeScore "AHrecitAlto"
-}
-\bookpart {
   \pieceToc \markup { Air: \italic { O thou that tellest good tidings } (contr'alto) }
   \includeScore "AIairAlto"
   \pieceToc \markup { Chorus: \italic { O thou that tellest good tidings } }
   \includeScore "AJchorus"
-}
-\bookpart {
   \pieceToc \markup { Recitative: \italic { For, behold! darkness shall cover } (bass) }
   \includeScore "AKrecitBass"
-}
-\bookpart {
   \pieceToc \markup { Air: \italic { The people that walked in darkness } (bass) }
   \includeScore "ALairBass"
-}
-\bookpart {
   \pieceToc \markup { Chorus: \italic { For unto us a child is born } }
   \includeScore "AMchorus"
-}
-\bookpart {
   \pieceTocTitle "Pifa"
   \includeScore "ANpifa"
-}
-\bookpart {
   \pieceToc \markup { Recitative: \italic { There were sheperds abiding } (soprano) }
   \includeScore "AOrecitSoprano"
   \pieceToc \markup { Recitative: \italic { And lo! the angel of the Lord } (soprano) }
@@ -100,20 +90,14 @@
   \includeScore "AQrecitSoprano"
   \pieceToc \markup { Recitative: \italic { And suddenly there was with the angel } (soprano) }
   \includeScore "ARrecitSoprano"
-}
-\bookpart {
   \pieceToc \markup { Chorus: \italic { Glory to God in the highest } }
   \includeScore "ASchorus"
-}%% TODO letter: fix page breaking
-\bookpart {
   \pieceToc \markup { Air: \italic { Rejoice greatly, O daughter of Zion } (soprano) }
   \includeScore "ATairSoprano"
   \pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (soprano) }
   \includeScore "AUrecitSoprano"
   \pieceToc \markup { Air: \italic { He shall feed His flock } (soprano) }
   \includeScore "AVairSoprano"
-}
-\bookpart {
   \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
   \includeScore "AWchorus"
   \actEnd \markup { END OF THE FIRST PART }
@@ -130,27 +114,17 @@
   \includeScore "BBairAlto"
   \pieceToc \markup { Chorus: \italic { Surely He hath borne our griefs } }
   \includeScore "BCchorus"
-}
-\bookpart {
   \includeScore "BDchorus"
   \pieceToc \markup { Chorus: \italic { All we like sheep have gone } }
   \includeScore "BEchorus"
-}
-\bookpart {
   \pieceToc \markup { Recitative: \italic { All they that see Him } (tenor) }
   \includeScore "BFrecitTenor"
   \pieceToc \markup { Chorus: \italic { He trusted in God that He would } }
   \includeScore "BGchorus"
-}
-\bookpart {
   \pieceToc \markup { Recitative: \italic { Thy rebuke hath broken } (tenor) }
   \includeScore "BHrecitTenor"
-}
-\bookpart {
   \pieceToc \markup { Air: \italic { Behold, and see if there be } (tenor) }
   \includeScore "BIairTenor"
-}
-\bookpart {
   \pieceToc \markup { Recitative: \italic { He was cut off out of the land } (tenor) }
   \includeScore "BJrecitTenor"
   \pieceToc \markup { Air: \italic { But thou didst not leave } (tenor) }
@@ -159,28 +133,18 @@
   \includeScore "BLchorus"
   \pieceToc \markup { Recitative: \italic { Unto which of the angels } (tenor) }
   \includeScore "BMrecitTenor"
-}
-\bookpart {
   \pieceToc \markup { Chorus: \italic { Let all the angels of God worship } }
   \includeScore "BNchorus"
   \pieceToc \markup { Air: \italic { Thou art gone up on high } (bass) }
   \includeScore "BOairBass"
-}
-\bookpart {
   \pieceToc \markup { Chorus: \italic { The Lord gave the word } }
   \includeScore "BPchorus"
   \pieceToc \markup { Air: \italic { How beautiful are the feet } (soprano) }
   \includeScore "BQairSoprano"
-}
-\bookpart {
   \pieceToc \markup { Air: \italic { Why do the nations so furiously } (bass) }
   \includeScore "BRairBass"
-}
-\bookpart {
   \pieceToc \markup { Chorus: \italic { Let us break their bonds } }
   \includeScore "BSchorus"
-}
-\bookpart {
   \pieceToc \markup { Recitative: \italic { He that dwelleth in heaven } (tenor) }
   \includeScore "BTrecitTenor"
   \pieceToc \markup { Air: \italic { Thou shalt break them with a rod } (tenor) }

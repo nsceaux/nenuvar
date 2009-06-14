@@ -1,0 +1,8 @@
+\piecePartSpecs #`((tromba1)
+                   (tromba2)
+                   (tympani)
+                   (violino1)
+                   (violino2)
+                   (viola)
+                   ;;(vocal)
+                   (bassi))
