@@ -35,7 +35,7 @@ r2 r8 re''\p sol''4 |
 r8 mi'' la'' re'' re''4 sol'' |
 r mi'' r la'' |
 la' r r2 |
-R1*6 |
+R1*6 |\allowPageTurn
 r2 r16 re'' \f mi'' fad'' sol'' la'' si'' do''' |
 re''' do''' re''' do''' si'' do''' si'' do''' re''' do''' re''' do''' si'' do''' si'' do''' |
 re''' do''' re''' do''' si'' do''' si'' do''' re''' do''' re''' do''' si'' do''' si'' do''' |

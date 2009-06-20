@@ -214,5 +214,6 @@
   \pieceToc \markup { Chorus: \italic { Worthy is the Lamb } }
   \includeScore "CIchorus"
   \pieceToc \markup { Chorus: \italic { Amen } }
-  %%\includeScore "CJchorus"
+  \includeScore "CJchorus"
+  \actEnd \markup { END OF THE ORATORIO }
 }
