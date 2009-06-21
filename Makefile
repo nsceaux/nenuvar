@@ -15,6 +15,10 @@ define ALL_SCORE_PDFs
 $(word 1,$(subst /, ,$(1)))_$(notdir $(1))_PDFs
 endef
 
+define ALL_PART_PDFs
+$(word 1,$(subst /, ,$(1)))_$(notdir $(1))_PART_PDFs
+endef
+
 define DELIVERY_DIRECTORY
 $(DELIVERY_DIR)/$(word 1,$(subst /, ,$(1)))
 endef
@@ -35,6 +39,7 @@ $(1)-$(2):
 	$(LILYPOND_CMD) -dpart=$(2) -o $(OUTPUT_DIR)/$(notdir $(1))-$(2) $(1)/$(3).ly
 .PHONY: $(1)-$(2)
 $(call ALL_SCORE_PDFs,$(1))+=$(1)-$(2)
+$(call ALL_PART_PDFs,$(1))+=$(1)-$(2)
 endef
 
 define MAKE_PART_RULE
@@ -93,7 +98,8 @@ $(foreach part,$(4),$(eval $(call MAKE_PART_RULE_AUX,$(1),$(part),$(3))))
 $(call MAKE_DELIVERY_RULE,$(1))
 SCORES+=$(1)
 $(1)-all: $($(call ALL_SCORE_PDFs,$(1))) $(1)-delivery
-.PHONY: $(1)-all
+$(1)-parts: $($(call ALL_PART_PDFs,$(1))) $(1)-delivery
+.PHONY: $(1)-all $(1)-parts
 endef
 
 archive:

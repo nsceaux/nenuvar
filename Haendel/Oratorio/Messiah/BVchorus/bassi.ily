@@ -11,12 +11,12 @@ re'8 la r dod'16 dod' re'8 la r dod' |
 re' dod' si4 la r |
 la2-"Tasto solo" si4 dod' |
 re'8 re re'2 dod'4 |
-si2 la4 r8 dod'16-"Tutti" dod' |
+si2 la4 r8 dod'16^"Tutti" dod' |
 re'8 la r dod'16 dod' re'8 la r dod'16 dod' |
 re'8 la r dod'16 dod' re'8 la r4 |
 re2-"Tasto solo" mi4 fad |
 sol8 sol, sol2 fad4 |
-mi2 re4 r8 fad16-"Tutti" fad |
+mi2 re4 r8 fad16^"Tutti" fad |
 sol8 re r fad16 fad sol8 re r fad16 fad |
 sol8 re r fad16 fad sol8 re r4 |
 \clef "treble" re''4. \clef "bass" re'8 dod'8 la r re'16 re' |

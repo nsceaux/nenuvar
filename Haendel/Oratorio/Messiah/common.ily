@@ -8,13 +8,13 @@
   (violino2 "Violino II" () (#:notes "violino2"))
   (violino3 "Violino III" ((violino2 #f)) (#:notes "violino3"))
   (viola "Viola" () (#:notes "viola" #:clef "alto"))
-  (oboe1 "Oboe I" ((violino1 "Violino")) (#:notes "oboe1"))
-  (oboe2 "Oboe II" ((violino2 "Violino")) (#:notes "oboe2"))
+  (oboe1 "Oboe I" ((violino1 "Violino")) (#:notes "oboe1" #:instrument "Oboe"))
+  (oboe2 "Oboe II" ((violino2 "Violino")) (#:notes "oboe2" #:instrument "Oboe"))
   (tromba1 "Tromba I" () (#:notes "tromba1"))
   (tromba2 "Tromba II" () (#:notes "tromba2"))
-  (tromba2 "Tympani" () (#:notes "timpani" #:clef "bass"))
+  (tympani "Timpani" () (#:notes "tympani" #:clef "bass"))
   (bassi "Bassi" () (#:notes "bassi" #:clef "bass" #:score-template "score-bassi"))
-  (vocal "Vocales parts" () (#:score "score-vocal")))
+  (vocal "Vocals parts" () (#:score "score-vocal")))
 
 part=
 #(define-music-function (parser location act-title) (string?)

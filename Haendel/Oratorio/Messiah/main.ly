@@ -6,7 +6,7 @@
   opus = "HWV 56"
   date = "1741"
   editions = \markup \column {
-    \fill-line { \line { Based on the Deutsche Händelgesellschaft Edition } }
+    \fill-line { \line { Based upon the Deutsche Händelgesellschaft Edition } }
     \fill-line { \line { Edited by Frideric Chrysander } }
   }
 }
@@ -201,6 +201,8 @@
   \includeScore "CBchorus"
   \pieceToc \markup { Recitative: \italic { Behold, I tell you a mistery } (bass) }
   \includeScore "CCrecitBass"
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { The trumpet shall sound } (bass) }
   \includeScore "CDairBass"
   \pieceToc \markup { Recitative: \italic { Then shall be brought to pass } (contr'alto) }

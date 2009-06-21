@@ -6,12 +6,12 @@
   opus = "HWV 56"
   date = "1741"
   editions = \markup \column {
-    \fill-line { \line { Based on the Deutsche Händelgesellschaft Edition } }
+    \fill-line { \line { Based upon the Deutsche Händelgesellschaft Edition } }
     \fill-line { \line { Edited by Frideric Chrysander } }
   }
 }
 
-#(set-global-staff-size 18)
+#(set-global-staff-size (if (eqv? #f (ly:get-option 'vocal)) 16 18))
 #(ly:set-option 'non-incipit #t)
 #(ly:set-option 'use-rehearsal-numbers #t)
 \include "italiano.ly"
@@ -21,16 +21,10 @@
 \include "Haendel/Oratorio/Messiah/common.ily"
 
 \layout {
-  \context {
-    \Score
-    \override VerticalAlignment #'max-stretch =
-    #(if (eqv? (*part*) 'voix)
-      ly:align-interface::calc-max-stretch
-      #f)
-  }
+  \context { \Score \override VerticalAlignment #'max-stretch = #f }
 }
 
-\paper { #(define page-breaking (if (eqv? (*part*) 'voix)
+\paper { #(define page-breaking (if (eqv? (*part*) 'vocal)
                                     ly:optimal-breaking
                                     ly:page-turn-breaking)) }
 
@@ -178,5 +172,6 @@
   \pieceToc \markup { Chorus: \italic { Worthy is the Lamb } }
   \includeScore "CIchorus"
   \pieceToc \markup { Chorus: \italic { Amen } }
-  %%\includeScore "CJchorus"
+  \includeScore "CJchorus"
+  \actEnd \markup { END OF THE ORATORIO }
 }
