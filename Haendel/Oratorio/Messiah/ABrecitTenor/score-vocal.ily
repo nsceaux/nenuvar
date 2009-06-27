@@ -14,10 +14,10 @@
           << { la'4 ~ la'8. sold'32 fad' } \\ { <red' la>8 <red' la> <red' la> <red' la> } >> |
           << { mi'8 mi'16. -\trill red'32 mi'8 la' sold'4 fad'8. mi'16 }
              \\ { si8 si la <mi' la> <mi' si> <mi' si> <red' la> <red' la> } >> |
-          <mi' sold>4 r <sold'' si'>8. <fad'' la'>16 <mi'' sold'>4 |
+          <mi' sold>4 r <sold'' si''>8. <fad'' la''>16 <mi'' sold''>4 |
           <mi' sold' si>8-.( <mi' sold' si>-. <mi' sold' si>-. <mi' sold' si>-. )
           << { si'4 ~ si'8. la'32 sold' } \\ { <mi' si>8 <mi' si> <mi' si> <mi' si> } >>|
-          <mi' fad' si> <mi' fad' si> <mi' fad' si> <mi' fad' si> <mi' fad' si> <mi' fad' si> <red' si' fad'> <red' si' fad'> |
+          <mi' fad'> <mi' fad'> <mi' fad'> <mi' fad'> <mi' fad'> <mi' fad'> <red' si' fad'> <red' si' fad'> |
           <sold' si' mi'>8. <fad' la' si>16 <mi' sold' si>4 <si' sold''>8. <fad'' la'>16 <mi'' sold'>4
           R1^\fermataMarkup |
           <mi' sold' si>8 <mi' sold' si> <mi' sold' si> <mi' sold' si> <mi' si' si> <mi' si' si> <mi' si' si> <mi' si' si> |
@@ -73,7 +73,7 @@
           mi8 mi mi mi sold sold sold sold |
           %% 10
           <dod dod'> <dod dod'> <dod dod'> <dod dod'> <dod dod'> <dod dod'> <dod dod'> <dod dod'> |
-          si,4 r sol,2\rest |%%r8. si16 si4 |
+          si,4 r s2 |
           mi4 dod << { si8. fad16 si4 } \\ si,4 >> |
           la fad mi r |
           mi'8 mi' mi' mi' sold sold sold sold |

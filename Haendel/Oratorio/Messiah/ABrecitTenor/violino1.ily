@@ -1,7 +1,7 @@
 sold'8-.( sold'-. sold'-. sold'-.) si'4 ~ si'8. la'32 sold' |
 fad'8 fad' fad' fad' la'4 ~ la'8. sold'32 fad' |
 mi'8 mi'16. -\trill red'32 mi'8 la' sold'4 fad'8. mi'16 |
-mi'4 r si'8. la'16 sold'4 |
+mi'4 r si''8. la''16 sold''4 |
 sold'8-.( sold'-. sold'-. sold'-.) si'4 ~ si'8. la'32 sold' |
 fad'8 fad' fad' fad' fad' fad' si' si' |
 si'8. la'16 sold'4 sold''8. fad''16 mi''4 |
