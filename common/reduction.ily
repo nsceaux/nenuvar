@@ -460,6 +460,10 @@ the mark when there are no spanners active.
                     (list->vector (reverse! (cdar context-list)
                                             '()))))))
 
+reduction =
+#(define-music-function (parser location part1 part2) (ly:music? ly:music?)
+   (make-part-combine-music parser (list music1 music2)))
+
 %%%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 %%%;;; 
 %%%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;#(use-modules (oop goops))
@@ -578,7 +582,6 @@ the mark when there are no spanners active.
 
 #(define (combine-two-musics music1 music2)
    (let ((music-acc  (make <music-accumulator>))
-         (music-acc1 (make <music-accumulator>))
          (music-acc2 (make <music-accumulator>)))
      (map (lambda (id-mom-musics)
             (let* ((id (first id-mom-musics))
@@ -586,18 +589,15 @@ the mark when there are no spanners active.
                    (music-events (third id-mom-musics))
                    (music (make-music 'EventChord 'elements music-events)))
               (case id
-                ((one) (add-music-event music-acc1 music moment))
                 ((two) (add-music-event music-acc2 music moment))
-                ((shared solo) (add-music-event music-acc music moment)))))
+                ((one shared solo) (add-music-event music-acc music moment)))))
           (partcombine->music music1 music2 $defaultlayout))
      (list (music-sequence music-acc)
-           (music-sequence music-acc1)
            (music-sequence music-acc2))))
 
-reduction =
+reductionB =
 #(define-music-function (parser location part1 part2) (ly:music? ly:music?)
    (let* ((seqs1+2 (combine-two-musics part1 part2))
           (notes1+2 (first seqs1+2))
-          (notes1-2 (second seqs1+2))
-          (notes2-1 (third seqs1+2)))
-     #{ << $notes1+2 << $notes1-2 \\ $notes2-1 >> >> #}))
+          (notes2 (second seqs1+2)))
+     #{ << $notes1+2 $notes2 >> #}))

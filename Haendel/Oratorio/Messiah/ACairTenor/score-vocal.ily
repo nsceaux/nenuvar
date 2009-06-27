@@ -45,7 +45,7 @@
           <dod'' lad'>4 r <lad'' mi''>8( <si'' mi''>) <dod''' mi''>( <si'' mi''>8) |
           <lad'' mi''>4 r <lad' mi'>8 <si' mi'> <dod'' mi'> <si' mi'>8 |
           <lad' mi'> <si' mi'> <dod'' mi' fad'> <dod' mi' fad'> <si red' fad'>4 r8 <dod'' lad'> |
-          <red'' fad'> <si' sold''> <fad'' si'>8 <lad' fad'> << si'4 \\ { <red' fad'>8 sold' } >> fad'8 <dod' lad fad'> |
+          <red'' fad'> <si' sold''> <fad'' si'>8 <lad' fad'> << si'4 \\ { <red' fad'>8[ sold'] } >> fad'8 <dod' lad fad'> |
           <si fad'>8 mi' << si'4 \\ { red'8 sold' } >> <si' fad'>8 <si' fad'> <lad' mi'> <mi'' lad'> |
           <red'' si' fad'> <red'' si' fad'> <red'' fad'> <red'' fad'> <sold'' red'' sold'> <sold'' red'' sold'> <sold'' red'' sold'> <sold'' red'' sold'> |
           <sold'' dod''> <sold'' dod''> <sold'' dod''> <sold'' dod''> <fad'' dod''> <fad'' dod''> <fad'' fad'> <fad'' fad'> |
@@ -193,5 +193,4 @@
     >>
   >>
   \layout { indent = \largeindent }
-  \midi { }
 }

@@ -3,5 +3,5 @@
                    (oboe1 #:notes "oboe")
                    (oboe2 #:notes "oboe")
                    (viola)
-                   ;;(vocal)
+                   (vocal)
                    (bassi))
