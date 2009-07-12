@@ -286,5 +286,9 @@
       >>
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    indent = \largeindent
+    \context { \Staff \override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3) }
+    \context { \Lyrics \override VerticalAxisGroup #'minimum-Y-extent = #'(-0.75 . 1.5) }
+  }
 }

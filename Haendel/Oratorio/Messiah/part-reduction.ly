@@ -52,16 +52,26 @@
   \includeScore "AAsinfonia"
   \pieceToc \markup { Recitative: \italic { Comfort ye, my people } (tenor) }
   \includeScore "ABrecitTenor"
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { Every valley shall be exhalted } (tenor) }
   \includeScore "ACairTenor"
+}
+\bookpart {
+  \paper { between-system-padding = 0\mm }
   \pieceToc \markup { Chorus: \italic { And the glory of the Lord } }
   \includeScore "ADchorus"
   \pieceToc \markup { Recitative: \italic { Thus saith the Lord of Hosts } (bass) }
   \includeScore "AErecitBass"
+}
+\bookpart {
+  \paper { between-system-padding = 0\mm }
   \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (bass) }
   \includeScore "AFairBass"
   \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
   \includeScore "AGchorus"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { Behold, a virgin shall conceive } (contr'alto) }
   \includeScore "AHrecitAlto"
   \pieceToc \markup { Air: \italic { O thou that tellest good tidings } (contr'alto) }
