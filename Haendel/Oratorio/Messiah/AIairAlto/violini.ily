@@ -3,10 +3,10 @@ re''4 mi''8 dod'' re'' mi'' |
 fad'' sol'' fad'' fad'' \trill mi'' la' |
 la''16 si'' la'' la' si' la' sol'' la'' sol'' la' si' la' |
 fad'' sol'' fad'' la' si' la' mi'' fad'' mi'' la'' si'' dod''' |
-re''' dod''' re''' la si do' si la sol si' dod'' re'' |
+\override Beam #'auto-knee-gap = #1 re''' dod''' re''' la si do' si la sol si' dod'' re'' |
 mi'' re'' mi'' si dod' re' dod' si la dod'' re'' mi'' |
-fad'' mi'' fad'' dod' re' mi' re' dod' si re'' mi'' fad'' |
-mi'' re'' dod'' mi'' fad'' sol'' fad'' mi'' re'' la'' si'' dod''' |
+fad'' mi'' fad'' dod' re' mi' re' dod' si re' mi' fad' |
+mi' re' dod' mi' fad' sol' fad' mi' re' la'' si'' dod''' \revert Beam #'auto-knee-gap |
 re'''8 dod''' si'' la'' sol'' fad'' |
 mi'4. \trill mi' \trill |
 mi'4 \trill re''8 dod''16 mi'' la' sol'' fad'' re'' |
