@@ -10,5 +10,5 @@
                     \clef alto s8 s1*9 s2.
                     \clef treble
                     #})
-                   ;;(vocal)
+                   (vocal)
                    (bassi))
