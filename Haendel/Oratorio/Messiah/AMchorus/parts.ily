@@ -3,5 +3,5 @@
                    (oboe1)
                    (oboe2)
                    (viola)
-                   ;;(vocal)
+                   (vocal)
                    (bassi))

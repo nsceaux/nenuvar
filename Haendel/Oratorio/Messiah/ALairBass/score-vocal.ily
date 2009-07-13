@@ -16,5 +16,5 @@
     >>
   >>
   \layout { indent = \largeindent }
-  \midi { \context { \Voice \remove "Dynamic_performer" } }
+  %%\midi { \context { \Voice \remove "Dynamic_performer" } }
 }
