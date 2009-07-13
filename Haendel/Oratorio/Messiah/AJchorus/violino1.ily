@@ -7,7 +7,7 @@ r4 r8 r4 mi''8 |
 la'4 si'8 sold' la' si' |
 dod''4 re''8 si' dod'' re'' |
 mi'' fad'' mi'' re'' dod'' si'32 ( dod'' re''16 )|
-mi''4 si''32 ( dod''' re'''16 ) dod''' si'' la''8 r |
+dod''4 si''32 ( dod''' re'''16 ) dod''' si'' la''8 r |
 r4 re''32 mi'' fad''16 mi'' re'' dod''8 mi''32 fad'' sol''16 |
 fad'' mi'' re'' fad'' sold'' la'' sold'' fad'' mi'' sold'' la'' si'' |
 la'' sold'' fad'' la'' si'' dod''' si'' la'' sold'' si'' dod''' re''' |
@@ -35,11 +35,11 @@ re''4 mi''8 dod'' re'' mi'' |
 fad'' sol'' fad'' fad'' \trill mi'' la' |
 la''16 si'' la'' la' si' la' sol'' la'' sol'' la' si' la' |
 fad'' sol'' fad'' la' si' la' mi'' fad'' mi'' la'' si'' dod''' |
-re''' dod''' re''' la si do' si la sol si' dod'' re'' |
+re''' dod''' re''' la si do' si la sol si' dod''! re'' |
 mi'' re'' mi'' si dod' re' dod' si la dod'' re'' mi'' |
 fad'' mi'' fad'' dod' re' mi' re' dod' si re' mi' fad' |
-mi' re' dod' mi' fad' sol' fad' mi' re' la' si' dod'' |
-re''8 dod'' si' la' sol' fad' |
+mi' re' dod' mi' fad' sol' fad' mi' re' la'' si'' dod''' |
+re'''8 dod''' si'' la'' sol'' fad'' |
 mi'4. \trill mi' \trill |
 mi'4 \trill re''8 dod''16 mi'' la' sol'' fad'' re'' |
 mi'' sol' fad' re'' mi' dod'' re''8 re' \fermata r |
