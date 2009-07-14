@@ -1,7 +1,7 @@
 \clef "tenor" re'4 dod'8. si16 la4 r |
 si la8. sol16 re'4 re'8 re' |
 sol'1 |
-fad'2 r |
+re'2 r |
 \clef "bass" r r4 la-"Tutti" |
 la2. la,4 |
 la,1 |
