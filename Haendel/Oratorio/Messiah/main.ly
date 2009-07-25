@@ -62,8 +62,10 @@
   \includeScore "AErecitBass"
 }
 \bookpart {
-  \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (bass) }
-  \includeScore "AFairBass"
+  %%\pieceToc \markup { Air: \italic { But who may abide the day of His coming } (bass) }
+  %%\includeScore "AFAairBass"
+  \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (contr'alto) }
+  \includeScore "AFBairAlto"
   \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
   \includeScore "AGchorus"
   \pieceToc \markup { Recitative: \italic { Behold, a virgin shall conceive } (contr'alto) }
