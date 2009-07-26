@@ -65,11 +65,13 @@
   \includeScore "AErecitBass"
 }
 \bookpart {
-  \paper { between-system-padding = 0\mm }
   %%\pieceToc \markup { Air: \italic { But who may abide the day of His coming } (bass) }
   %%\includeScore "AFAairBass"
   \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (contr'alto) }
   \includeScore "AFBairAlto"
+}
+\bookpart {
+  \paper { between-system-padding = 0\mm }
   \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
   \includeScore "AGchorus"
 }
@@ -78,26 +80,41 @@
   \includeScore "AHrecitAlto"
   \pieceToc \markup { Air: \italic { O thou that tellest good tidings } (contr'alto) }
   \includeScore "AIairAlto"
+}
+\bookpart {
+  \paper { between-system-padding = 0\mm }
   \pieceToc \markup { Chorus: \italic { O thou that tellest good tidings } }
   \includeScore "AJchorus"
   \pieceToc \markup { Recitative: \italic { For, behold! darkness shall cover } (bass) }
   \includeScore "AKrecitBass"
   \pieceToc \markup { Air: \italic { The people that walked in darkness } (bass) }
   \includeScore "ALairBass"
+}
+\bookpart {
+  \paper { between-system-padding = 0\mm }
   \pieceToc \markup { Chorus: \italic { For unto us a child is born } }
   \includeScore "AMchorus"
+}
+\bookpart {
   \pieceTocTitle "Pifa"
   \includeScore "ANpifa"
   \pieceToc \markup { Recitative: \italic { There were sheperds abiding } (soprano) }
   \includeScore "AOrecitSoprano"
   \pieceToc \markup { Recitative: \italic { And lo! the angel of the Lord } (soprano) }
   \includeScore "APrecitSoprano"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { And the angel said unto them } (soprano) }
   \includeScore "AQrecitSoprano"
   \pieceToc \markup { Recitative: \italic { And suddenly there was with the angel } (soprano) }
   \includeScore "ARrecitSoprano"
+}
+\bookpart {
+  \paper { between-system-padding = 0\mm }
   \pieceToc \markup { Chorus: \italic { Glory to God in the highest } }
   \includeScore "ASchorus"
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { Rejoice greatly, O daughter of Zion } (soprano) }
   \includeScore "ATairSoprano"
   %%\pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (soprano) }
@@ -108,6 +125,9 @@
   \includeScore "AUBrecitAlto"
   \pieceToc \markup { Air: \italic { He shall feed His flock } (alto, soprano) }
   \includeScore "AVBairAltoSoprano"
+}
+\bookpart {
+  \paper { between-system-padding = 0\mm }
   \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
   \includeScore "AWchorus"
   \actEnd \markup { END OF THE FIRST PART }

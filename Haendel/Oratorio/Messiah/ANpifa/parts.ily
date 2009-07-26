@@ -2,4 +2,4 @@
                    (violino2)
                    (violino3)
                    (viola)
-                   (bassi))
+                   (bassi #:score-template "score"))

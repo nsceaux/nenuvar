@@ -1,5 +1,23 @@
 \score {
   \notemode <<
+    \new ChoirStaff <<
+      \new Staff \withLyrics <<
+        \characterName \markup Canto
+        \global \clef "treble" \includeNotes "vcanto"
+      >> \includeLyrics "lyrics1"
+      \new Staff \withLyrics <<
+        \characterName \markup Alto
+        \global \clef "treble" \includeNotes "valto"
+      >> \includeLyrics "lyrics2"
+      \new Staff \withLyrics <<
+        \characterName \markup Tenore
+        \global \clef "G_8" \includeNotes "vtenore"
+      >> \includeLyrics "lyrics3"
+      \new Staff \withLyrics <<
+        \characterName \markup Basso
+        \global \clef "bass" \includeNotes "vbasso"
+      >> \includeLyrics "lyrics4"
+    >>
     \new PianoStaff <<
       \new Staff <<
         \global
@@ -132,6 +150,10 @@
       >>
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    indent = \largeindent
+    \context { \Staff \override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3) }
+    \context { \Lyrics \override VerticalAxisGroup #'minimum-Y-extent = #'(-0.75 . 1.5) }
+  }
   %%\midi { \context { \Voice \remove "Dynamic_performer" } }
 }

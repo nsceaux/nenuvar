@@ -64,7 +64,7 @@ re'' \p r la' \p r |
 mi'4 \p r re' \f r |
 mi'4 \p r re' \f r |
 sold'8 \p si' sold' mi' si4 r |
-R1*3 |
+R1*3 |\allowPageTurn
 R4.*4 |
 r4 la'8 |
 sol' sib' la' |

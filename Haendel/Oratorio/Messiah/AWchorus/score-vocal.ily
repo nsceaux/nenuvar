@@ -138,6 +138,10 @@
       >>
     >>
   >>
-  \layout { indent = \largeindent }
-  \midi { \context { \Voice \remove "Dynamic_performer" } }
+  \layout {
+    indent = \largeindent
+    \context { \Staff \override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3) }
+    \context { \Lyrics \override VerticalAxisGroup #'minimum-Y-extent = #'(-0.75 . 1.5) }
+  }
+  %%\midi { \context { \Voice \remove "Dynamic_performer" } }
 }

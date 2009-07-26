@@ -14,7 +14,7 @@
   (tromba2 "Tromba II" () (#:notes "tromba2"))
   (tympani "Timpani" () (#:notes "tympani" #:clef "bass"))
   (bassi "Bassi" () (#:notes "bassi" #:clef "bass" #:score-template "score-bassi"))
-  (vocal "Vocals parts" () (#:score "score-vocal")))
+  (vocal "Vocal parts and keyboard reduction" () (#:score "score-vocal")))
 
 part=
 #(define-music-function (parser location act-title) (string?)

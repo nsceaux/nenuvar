@@ -49,7 +49,7 @@ re' re' mib' mib' re' re' do' do' sib sib sib sib do' do' re' re' |
 \repeat unfold 8 re' \repeat unfold 8 sol' |
 \repeat unfold 8 sol' \repeat unfold 4 sib \repeat unfold 4 re' |
 \repeat unfold 8 sol' \repeat unfold 8 re' |
-\repeat unfold 16 sol'\p |
+s1*0\p \repeat unfold 16 sol'16 |
 fa'4\f r fa'\p r |
 mi'\f r la'\p r |
 la'\f r fa'\p r |
@@ -64,7 +64,7 @@ fa'\p r do'\p r |
 do'4\p r si\f r |
 la\p r sold\f r |
 mi'\p r si'\f r |
-R1*3 |
+R1*3 |\allowPageTurn
 R4.*4 |
 r4 re'8 |
 re' sol' mi' |
@@ -79,7 +79,7 @@ R4.^\fermataMarkup |
 r4 re'8 |
 sib4 la8 |
 la4 r8 |
-R1 |
+R1 |\noBreak
 fa'16 fa' mi' mi' re' re' sib' sib' la' la' sol' sol' fa' fa' mi' mi' |
 re'4 r r2 |
 fa'16 fa' sol' sol' la' la' fa' fa' mi' mi' sol' sol' fa' fa' mi' mi' |

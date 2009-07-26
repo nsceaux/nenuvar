@@ -2,4 +2,4 @@
                    (violino2)
                    (viola)
                    ;;(vocal)
-                   (bassi))
+                   (bassi #:clef "treble"))

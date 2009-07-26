@@ -194,6 +194,7 @@
                       (score #f)
                       (score-template "score")
                       notes
+                      (instrument #f)
                       (ragged #f)
                       (clef "treble")
                       (figures "chiffres")
@@ -234,7 +235,7 @@ The keyword arguments give default values to be used when non-specified in `piec
         (tag-notes tag-notes)
         (notes notes)
         (clef clef)
-        (instrument #f)
+        (instrument instrument)
         (music #f))
     (if clef (*clef* clef)) ;; hack: set *clef* for silence scores
     (let parse-props ((props piece-spec))
@@ -392,6 +393,7 @@ setOpus =
    (make-music 'Music 'void #t))
 
 #(define (include-score-helper parser name label allow-page-turn)
+   ;;(format #t "Including score `~a'~%" name)
    (parameterize ((*piece* name))
      ;;(format #t "Reading ~a~%" name)
      (if (*part*)

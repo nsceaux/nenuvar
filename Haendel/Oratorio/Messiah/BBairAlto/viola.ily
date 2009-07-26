@@ -27,7 +27,7 @@ sib2 do' |
 re' mib'4. re'8 |
 solb'4 fa'2 sib4 |
 do' sib sib r |
-R1*3 |
+R1*3 |\allowPageTurn
 r2 mib' ~|
 mib'1 |
 re'4 r r2 |

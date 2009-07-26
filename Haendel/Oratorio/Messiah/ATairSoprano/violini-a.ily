@@ -74,7 +74,7 @@ re''4 do''8 re''4 do''8 re''4 fa''8 mib''4 re''8 |
 do''4. r4 r8 r do'' re'' mib'' re'' do'' |
 r sib' do'' re'' do'' sib' r la' sib' do'' sib' la' |
 r sib' do'' re'' do'' sib' r2*3/2 |
-R1. |
+R1. |\allowPageTurn
 r4 r8 r4 fa'8 \f sib'4 fa'8 r4 fa'8 |
 do''4 fa'8 r4 do''8 re'' do'' sib' re'' fa'' mi'' |
 fa''4 fa'8 r4 fa'8 fa'' mib'' re'' mib'' re'' do'' |
