@@ -110,10 +110,14 @@
 \bookpart {
   \pieceToc \markup { Air: \italic { Rejoice greatly, O daughter of Zion } (soprano) }
   \includeScore "ATairSoprano"
-  \pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (soprano) }
-  \includeScore "AUrecitSoprano"
-  \pieceToc \markup { Air: \italic { He shall feed His flock } (soprano) }
-  \includeScore "AVairSoprano"
+  %%\pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (soprano) }
+  %%\includeScore "AUArecitSoprano"
+  %%\pieceToc \markup { Air: \italic { He shall feed His flock } (soprano) }
+  %%\includeScore "AVAairSoprano"
+  \pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (alto) }
+  \includeScore "AUBrecitAlto"
+  \pieceToc \markup { Air: \italic { He shall feed His flock } (alto, soprano) }
+  \includeScore "AVBairAltoSoprano"
 }
 \bookpart {
   \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
