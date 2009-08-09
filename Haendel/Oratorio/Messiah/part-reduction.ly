@@ -85,6 +85,8 @@
   \paper { between-system-padding = 0\mm }
   \pieceToc \markup { Chorus: \italic { O thou that tellest good tidings } }
   \includeScore "AJchorus"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { For, behold! darkness shall cover } (bass) }
   \includeScore "AKrecitBass"
   \pieceToc \markup { Air: \italic { The people that walked in darkness } (bass) }
@@ -127,7 +129,10 @@
   \includeScore "AVBairAltoSoprano"
 }
 \bookpart {
-  \paper { between-system-padding = 0\mm }
+  \paper {
+    between-system-padding = 0\mm
+    #(define page-breaking ly:minimal-breaking)
+  }
   \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
   \includeScore "AWchorus"
   \actEnd \markup { END OF THE FIRST PART }
