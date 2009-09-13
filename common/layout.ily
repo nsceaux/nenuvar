@@ -68,8 +68,6 @@
     %\override VerticalAlignment #'max-stretch = #ly:align-interface::calc-max-stretch
     \accepts "StaffGroupNoBar"
     skipBars = ##t
-    %% Beaming: group 8th notes 4 by 4 (instead of 2 by 2) in 4/4
-    beamSettings = #(append '((((4 . 4) end) . (((1 . 8) . (2 2))))) default-beam-settings)
   }
   \context {
     \StaffGroup

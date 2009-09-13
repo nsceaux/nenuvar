@@ -1,15 +1,4 @@
-\header {
-  copyrightYear = "2009"
-  title = "Messiah"
-  composer = "George Frideric Handel"
-  poet=" "
-  opus = "HWV 56"
-  date = "1741"
-  editions = \markup \column {
-    \fill-line { \line { Based upon the Deutsche Händelgesellschaft Edition } }
-    \fill-line { \line { Edited by Frideric Chrysander } }
-  }
-}
+\header { copyrightYear = "2009" }
 
 #(set-global-staff-size (if (eqv? #f (ly:get-option 'vocal)) 16 18))
 #(ly:set-option 'non-incipit #t)
@@ -32,13 +21,18 @@
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   %% Title page
-  \markup \null
-  \pageBreak
-
-  %% notes
-  %\markup \null
-  %\pageBreak
-
+  \header {
+    title = "Messiah"
+    composer = "George Frideric Handel"
+    poet=" "
+    opus = "HWV 56"
+    date = "1741"
+    editions = \markup \column {
+      \fill-line { \line { Based upon the Deutsche Händelgesellschaft Edition } }
+      \fill-line { \line { Edited by Frideric Chrysander } }
+    }
+  }
+  \markup\null\pageBreak
   %% Table of contents
   \markuplines \table-of-contents
 }

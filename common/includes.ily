@@ -403,3 +403,16 @@ includeScoreNoPageTurn =
 reIncludeScore =
 #(define-music-function (parser location name label) (string? string?)
    (include-score-helper parser name label #t))
+
+%%%
+%%%
+%%%
+#(define (toplevel-score-handler parser score)
+    (cond ((ly:parser-lookup parser '$current-bookpart)
+          ((ly:parser-lookup parser 'bookpart-score-handler)
+           (ly:parser-lookup parser '$current-bookpart) score))
+          ((ly:parser-lookup parser '$current-book)
+           ((ly:parser-lookup parser 'book-score-handler)
+            (ly:parser-lookup parser '$current-book) score))
+          (else
+           ((collect-scores-for-book parser score)))))

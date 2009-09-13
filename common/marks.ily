@@ -35,6 +35,7 @@ markDownBegin = {
 
 markDownEnd = {
   \once \override Score . RehearsalMark #'break-visibility = #begin-of-line-invisible
+  \once \override Score . RehearsalMark #'after-line-breaking = ##t
   \once \override Score . RehearsalMark #'direction = #DOWN
   \once \override Score . RehearsalMark #'self-alignment-X = #RIGHT
   \once \override Score . RehearsalMark #'padding = #3
@@ -53,6 +54,7 @@ segnoMarkDown = {
 }
 segnoMarkEnd = { 
   \once \override Score . RehearsalMark #'break-visibility = #begin-of-line-invisible
+  \once \override Score . RehearsalMark #'after-line-breaking = ##t
   \once \override Score . RehearsalMark #'direction = #UP
   \once \override Score . RehearsalMark #'self-alignment-X = #CENTER
   \mark \markup \musicglyph #"scripts.segno"
@@ -63,7 +65,9 @@ dacapoOverrides = {
   \once \override Score . RehearsalMark #'direction = #DOWN
   \once \override Score . RehearsalMark #'self-alignment-X = #RIGHT
   \once \override Score . RehearsalMark #'padding = #2
+  \once \override Score . RehearsalMark #'after-line-breaking = ##t
 }
+
 fineMark = {
   \dacapoOverrides \mark \markup \right-align \italic Fin.
 }
