@@ -82,41 +82,6 @@
 %%% ===========
 %%% None
 
-
-%%%
-%%% Book parts
-%%% 
-
-#(define (toplevel-bookpart-handler parser book-part)
-   (map (lambda (score)
-          (ly:book-add-score! book-part score))
-        (reverse! (ly:parser-lookup parser 'toplevel-scores)))
-   (ly:parser-define! parser 'toplevel-scores (list))
-   (ly:parser-define! parser 'toplevel-bookparts
-                      (cons book-part (ly:parser-lookup parser 'toplevel-bookparts))))
-
-#(define (add-score parser score)
-   (ly:parser-define! parser 'toplevel-scores
-                      (cons score (ly:parser-lookup parser 'toplevel-scores))))
-
-#(define (add-music parser music)
-  (collect-music-aux (lambda (score)
-		       (add-score parser score))
-                     parser
-		     music))
-
-#(define (bookpart-score-handler book-part score)
-   (add-score parser score))
-
-#(define (toplevel-score-handler parser score)
-   (add-score parser score))
-
-#(define (bookpart-text-handler book-part text)
-   (add-score parser text))
-
-#(define (bookpart-music-handler parser book-part music)
-   (add-music parser music))
-
 %%%
 %%%
 %%%

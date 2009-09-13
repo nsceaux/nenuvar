@@ -235,3 +235,28 @@ applyDurations =
                         (set! durations (cdr durations))))
                  event)
                music)))
+
+%%%
+%% double pointée triple x2
+dpts =
+#(define-music-function (parser location chords) (ly:music?)
+   (define (make-16.-32-16.-32 chord)
+     (let ((pitches '()))
+       (music-map (lambda (m)
+                    (if (eqv? (ly:music-property m 'name) 'NoteEvent)
+                        (set! pitches (cons (ly:music-property m 'pitch) pitches))))
+                  chord)
+       (let ((chord16. (make-music 'EventChord
+                         'elements (map (lambda (pitch)
+                                          (make-music 'NoteEvent
+                                           'duration (ly:make-duration 4 1 1 1)
+                                           'pitch pitch))
+                                        pitches)))
+             (chord32  (make-music 'EventChord
+                         'elements (map (lambda (pitch)
+                                          (make-music 'NoteEvent
+                                           'duration (ly:make-duration 5 0 1 1)
+                                           'pitch pitch))
+                                        pitches))))
+         (make-music 'SequentialMusic 'elements (list chord16. chord32 chord16. chord32)))))
+   (make-music 'SequentialMusic 'elements (map make-16.-32-16.-32 (ly:music-property chords 'elements))))

@@ -26,16 +26,3 @@ index 97b5846..ce2de75 100644
      }
  
    /* this should only actually modify first-page-number if
-diff --git a/scm/layout-page-layout.scm b/scm/layout-page-layout.scm
-index ffd6d63..5e195b6 100644
---- a/scm/layout-page-layout.scm
-+++ b/scm/layout-page-layout.scm
-@@ -87,7 +87,7 @@
- 	 ; the system heights are estimated, we aren't using skyline distances
- 	 ; yet, etc. If we overstretch because of underestimation, the result
- 	 ; is very bad. So we stick in some extra space, just to be sure.
--	 (buffer (/ height 10.0))
-+	 (buffer 0);(/ height 10.0))
- 	 (total-system-height (+ (apply + (map height-estimate systems))
- 				 (total-padding systems)))
- 	 (height-left (- height total-system-height buffer)))

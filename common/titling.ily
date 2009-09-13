@@ -135,7 +135,7 @@
 	       'page-turn-permission 'allow)))
 
 #(define-public (add-toplevel-markup parser text)
-  (add-score parser (list text)))
+  (add-text parser text))
 
 #(define-public (add-toc-item parser markup-symbol text)
   (add-music parser
