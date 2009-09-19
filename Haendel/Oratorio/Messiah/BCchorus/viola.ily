@@ -4,7 +4,7 @@ mi'4 r16 fa' fa'16. fa'32 sib'4 r16 mib' mib'16. mib'32 |
 lab'4 r16 mib' mib'16. mib'32 fa'4 r16 do' do'16. do'32 |
 do'4 r16 reb' reb'16. reb'32 do'8 reb' sol do' |
 do'16. fa'32 fa'16. fa'32 lab'16. do'32 do'16. do'32 mi'4 r16 mi' mi'16. mi'32 |
-fa'4 r16 mib' mib'16. mib'32 reb'16. reb'32 reb'16. reb'32 reb'16. reb'32 reb'16. reb'32 |
+fa'4 r16 mib' mib'16. mib'32 re'16. re'32 re'16. re'32 re'16. re'32 re'16. re'32 |
 mib'16. mib'32 mib'16. mib'32 mib'16. mib'32 do'16. do'32 re'16. re'32 re'16. re'32 re'16. re'32 re'16. re'32 |
 mib'4 r16 do' do'16. do'32 do''4 r16 mib' mib'16. mib'32 |
 mib'4 r16 mib' mib'16. mib'32 la'16. la'32 la'16. la'32 la'16. la'32 la'16. la'32 |

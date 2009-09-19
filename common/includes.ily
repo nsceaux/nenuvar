@@ -415,4 +415,4 @@ reIncludeScore =
            ((ly:parser-lookup parser 'book-score-handler)
             (ly:parser-lookup parser '$current-book) score))
           (else
-           ((collect-scores-for-book parser score)))))
+           (collect-scores-for-book parser score))))
