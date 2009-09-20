@@ -62,7 +62,7 @@ R1 |
 r4 fa' do' re' |
 mib'2. reb'8 do' |
 reb'1 |
-re' |
+re'! |
 mib'4 mib' sib do' |
 reb'2. do'8 sib |
 do'1 |
