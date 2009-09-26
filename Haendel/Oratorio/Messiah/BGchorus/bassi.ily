@@ -19,7 +19,7 @@ do4 \clef "treble" << { fa' ~ fa'8 mib'16 re' mib'8 fa' |
                       \\ { r8 re' sol si do' re' |
                            mib' do' fa' fa' sib4 r8 mib' |
                            lab4. lab8 sol si do' re' |
-                           si4 } >> \clef "bass" sol do do8 re |
+                           sol4 } >> \clef "bass" sol do do8 re |
 mib4 re8 do sol sib la sol |
 fad4 sol8 la sib sol do' do' |
 fa fa sib sib mib4. mib8 |
