@@ -8,9 +8,9 @@ re'4 re'8. mi'16 mi'4 r8 do' |
 re'8. do'16 re'8. mi'16 fa'4 fa'8 sib' |
 la'16 sol' fa'4 sib'8 la'16 sol' fa'8 fa' sib' |
 la'16 sol' fa'8 fa' sib' la'16 sol' fa'8 \clef "bass" r do |
-re8. do16 re8. mi16 fa8 do r4 |
-r2 r4 r8 do |
-re4 r8 mi fa fa r fa |
+re8. do16 re8. mi16 fa8 do r do |
+re8. do16 re8. mi16 fa8 do r do |
+re4 r8 mi fa fa, r fa |
 sib8. la16 sib8 sol la fa r fa |
 sib8. la16 sib8 sol la fa \clef "treble" r fa' |
 re'4 mi'8. fa'16 sol'4 r8 sol' |
