@@ -23,11 +23,6 @@
 #(ly:set-option 'point-and-click #f)
 
 \paper {
-  %% Page breaking
-  #(define page-breaking ly:minimal-breaking)
-  page-limit-inter-system-space = ##t
-  page-limit-inter-system-space-factor = 1.4
-
   %% Margins, line width
   page-top-space = #(* 5 mm)
   left-margin = 12\mm

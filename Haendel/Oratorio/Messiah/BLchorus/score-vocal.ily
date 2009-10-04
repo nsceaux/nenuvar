@@ -124,7 +124,7 @@
           <mi'' sib'>8 <re'' la'> <do'' sol''> <sib'' mi'' do''> << { la''4. sol''8 } \\ { <fa'' do''>4 <fa'' re''> } >>|
           << { sol''4. fa''8 } \\ { <fa'' do''>4 <do'' mi''> } >> <fa'' la'>8 <do'' la'> <la' fa'>4 |
           r r8 <fa'' re''> <fa'' la'> <sol'' sib'>16 <la'' do''> <sib'' re'' fa''>8 <sib'' re'' fa''> |
-          <la'' do'' fa''> <fa'' la'> r <fa'' fa''> <la'' fa''> <sib'' sol''>16 <do''' la''> <re''' sib'' fa''>8 <re''' sib'' fa''> |
+          <la'' do'' fa''> <fa'' la'> r fa'' <la'' fa''> <sib'' sol''>16 <do''' la''> <re''' sib'' fa''>8 <re''' sib'' fa''> |
           <do''' la'' fa''> <la'' fa''> r4 <la'' do'' fa''>2 |
           <sib'' re'' fa''>1 |
           <la'' do'' fa''>\breve*1/2 |
