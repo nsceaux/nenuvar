@@ -19,3 +19,6 @@
 
 \piece "Tambourin"
 \includeScore "Tambourin"
+
+\piece "La marche des Scythes"
+\includeScore "LaMarcheDesScythes"

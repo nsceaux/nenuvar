@@ -141,6 +141,10 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Opera/GiulioCesare,reduction,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Oratorio/Messiah,\
 violino1 violino2 violino3 viola oboe1 oboe2 bassi tromba1 tromba2 tympani,part-reduction,vocal))
 
+### Pancrace Royer
+$(eval $(call MAKE_ALL_SCORE_RULES,PancraceRoyer/PremierLivre,,,))
+
+
 help:
 	@echo "usage: make <score-rule>"
 	@echo "score-rule:"

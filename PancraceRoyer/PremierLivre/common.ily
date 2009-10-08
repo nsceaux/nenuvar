@@ -27,9 +27,9 @@ piece=
   (increase-rehearsal-major-number)
   (add-page-break parser)
   (add-toc-item parser 'tocPieceMarkup title)
-  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #t)
-  (add-odd-page-header-text parser  (string-upper-case (title)) #t)
-  (add-toplevel-markup parser (markup #:piece title))
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
+  (add-odd-page-header-text parser  (string-upper-case title) #f)
+  (add-toplevel-markup parser (markup #:title (string-upper-case title)))
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
 
