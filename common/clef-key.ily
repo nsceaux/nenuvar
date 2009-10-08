@@ -95,7 +95,7 @@ staffStart =
        (if (markup? short-text)
            (set! (ly:grob-property grob 'text)
                  (markup #:null #:raise -4.5 #:concat (short-text #:hspace 0.5)))))
-     (ly:system-start-text::print grob))
+     (system-start-text::print grob))
   #}))
 
 #(define french-clefs '((dessus french . treble)
