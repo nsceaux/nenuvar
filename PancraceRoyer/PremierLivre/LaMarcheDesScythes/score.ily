@@ -3,8 +3,7 @@
     \new PianoStaff <<
       \new Staff = "up" <<
         \global
-        {
-          %% rondeau
+        { %% rondeau
           r4 \comma mib' mib' mib' |
           \appoggiatura re'8 do'4-\turn re' re' re' |
           \appoggiatura do'8 si4-\turn do' do' do' |
@@ -118,9 +117,64 @@
                                    la'' re'' <dod'' mi''>2 | } >>
           \repeat unfold 2 { re''16 la' fad' re' \change Staff = "down" la fad la \change Staff = "up" re' }|
           \repeat unfold 2 { re''16 la' fad' re' \change Staff = "down" la fad la \change Staff = "up" re' }|
-          \repeat unfold 2 { do'' la' fad' re' \change Staff = "down" la fad la \change Staff = "up" re' }
-          \repeat unfold 2 { do'' la' fad' re' \change Staff = "down" la fad la \change Staff = "up" re' }
-          
+          \repeat unfold 2 { do'' la' fad' re' \change Staff = "down" la fad la \change Staff = "up" re' }|
+          \repeat unfold 2 { do'' la' fad' re' \change Staff = "down" la fad la \change Staff = "up" re' }|
+          r4 << { sol'' sol'' sol'' |
+                  fa'' fa'' fa'' fa'' |
+                  mib''2 lab'' |
+                  lab''4. lab''16*2/3[ sol'' fa''] sol''2 ~|
+                  sol''4. sol''16*2/3[ fa'' mi''] fa''2*1/2 re''4 ~|
+                  <re'' fa''>4. fa''16*2/3[ mib'' re''] mib''2*1/2 ~ do''4 ~|
+                  <mib'' do''>4. mib''16*2/3[ re'' do''] re''2 ~|
+                  re''4. re''16*2/3[ do'' si'] do''4. do''16*2/3[ re'' mib''] } \\
+                { s4 mib'' mib'' |
+                  mib'' re''8 -\prall do'' re''4 re'' |
+                  re'' sol' <do'' mib''>2 |
+                  <re'' fa''> <reb'' mi'' sol''> ~|
+                  <do'' mi''>~ do''4 \comma re''8 do'' |
+                  si'2 sib'4 do''8 sib' |
+                  la'2 <lab' si'>~ |
+                  <sol' si'> ~ sol' } >>|
+          <si re' fa' sol'>2 <do' mib' sol'> |
+          \voiceTwo \repeat unfold 4 { sol'16 re' si sol }|
+          \repeat unfold 4 { sol' mib' do' sol }|
+          \repeat unfold 4 { sol' re' si sol }|
+          \repeat unfold 4 { sol' mib' do' sol }|
+          \repeat unfold 4 { sib' fa' re' sib }|
+          \repeat unfold 4 { sib' sol' mib' sib }|
+          \repeat unfold 4 { sib' fa' re' sib }|
+          \repeat unfold 4 { sib' sol' mib' sib }|
+          \repeat unfold 4 { do'' sol' mi' do' }|
+          \repeat unfold 4 { do'' lab' fa' do' }|
+          \repeat unfold 4 { do'' sol' mi' do' }|
+          \repeat unfold 4 { do'' lab' fa' do' }|
+          \repeat unfold 4 { re'' la' fad' re' }|
+          \repeat unfold 4 { re'' sib' sol' re' }|
+          \repeat unfold 4 { re'' la' fad' re' }|
+          re''[ si' sol' re'] \oneVoice
+          << { sol''4 sol'' sol'' |
+               fa'' fa'' fa'' fa'' |
+               mib''2 mib'' |
+               re''4 sol'' sol'' sol'' |
+               fa'' fa'' fa'' fa'' |
+               mib''2 mib'' } \\
+             { r4 mib'' mib'' |
+               mib'' re''8 -\prall do'' re''4 re'' |
+               re'' sol' <fad' la'>2 |
+               <sol' si'>4 r mib'' mib'' |
+               mib'' re''8 -\prall do'' re''4 re'' |
+               re'' sol' <fad' la'>2 | } >>
+          <sol' si' re''>4 r \repeat unfold 10 { do''32 sib' lab' sol' fa' mib' re' do' }|
+          r do'' si' la' sol' fa' mib' re' do'16 re'32 mib' fa' sol' la' si'
+          do''16 si'32 la' sol' fa' mib' re' do' sol' fa' mib' re' do' si la |
+          sol sol'' fa'' mib'' re'' do'' si' la' sol' do'' si' la' sol' fa' mib' re'
+          do' sol' fa' mib' re' do' si la sol16 la32 si do' re' mib' fa' |
+          sol' \change Staff = "down" \voiceOne do' si la sol fa mib re do16 re32 mib fa sol la si
+          do'16 si32 la sol fa mib re do16 re32 mib fa sol la si
+          si2 \mark \markup \smaller "Arpège" <do mib fad la do'>2 | %% TODO: point d'orgue à l'envers
+          <do mib fad la do'> <do mib fad la do'> |
+          <re fad sol si> r |
+          \oneVoice \change Staff = "up" r4 \comma mib' mib' mib' |
         }
       >>
       \new Staff = "down" <<
@@ -133,15 +187,15 @@
           sol,8 fa mib re sol,16[ sol fa sol] sol,[ sol fa sol] |
           \voiceTwo lab,2 sib,,8 \comma re sib,,8 \comma re |
           mib,2 ~ << mib, \new Voice { \voiceFour mib4 mib,\rest } >> |
-          fa,1_\prall |
-          \grace { mib,16[ fa,] } <sol,, sol,>4 sol, \comma sol, sol, |
+          fa,1*3/4_\prall \afterGrace s4 { mib,16[ fa,] } |
+          <sol,, sol,>4 sol, \comma sol, sol, |
           << { \afterGrace s64 <mib, sol,>8 } \\ { <do do,>4\fermata } >> \oneVoice sol8 fa sol fa \comma sol sol, |
           %%
           do,2 do |
           sol sol, |
           lab, ~ << { \voiceTwo lab, } \new Voice { \voiceOne lab8 lab\rest lab4\rest } >> | \oneVoice
-          sib,1 -\prall |
-          \grace { lab,16[ sib, ]} <do, do>4 \comma do do \comma do |
+          sib,1*3/4 -\prall \afterGrace s4 { lab,16[ sib, ]} |
+          <do, do>4 \comma do do \comma do |
           << { r2 fa | r mi | mib re |
                mib,4 mib re do |} \\
              { fa,2 ~ fa, | fa, mi, | mib, re, |
@@ -219,7 +273,46 @@
           \repeat unfold 2 { re, re fad re } \repeat unfold 2 { re, re sol re }|
           re,2 <re, re> |
           \repeat unfold 3 { <re, re> <re, re> | }
-          
+          \repeat unfold 2 { sol,16 sol si sol } \repeat unfold 2 { sol, sol do' sol }|
+          \repeat unfold 2 { sol, sol do' sol } \repeat unfold 2 { sol,16 sol si sol }|
+          \repeat unfold 4 { do do' mib' do' }|
+          \repeat unfold 2 { si, si re' si } \repeat unfold 2 { si, si reb' si }|
+          \repeat unfold 2 { la, la do' la } \repeat unfold 2 { lab, lab do' lab }|
+          \repeat unfold 2 { sol, sol si sol } \repeat unfold 2 { sol, sol sib sol }|
+          \repeat unfold 2 { fad, fad la fad } \repeat unfold 2 { fa, fa lab fa }|
+          \repeat unfold 2 { mi, mi sol mi } \repeat unfold 2 { mib, mib sol mib }|
+          \repeat unfold 2 { re, re fa re } \repeat unfold 2 { do, do mib do }|
+          <sol,, sol,>4 \change Staff = "up" \voiceOne <si' re''> <si' re''> <si' re''>|
+          <do'' mib''> \change Staff = "down" <do do,> <do do,> <do do,>|
+          <sol,, sol,> \change Staff = "up" <si' re''> <si' re''> <si' re''>|
+          <do'' mib''> \change Staff = "down" <do do,> <do do,> <do do,>|
+          <sib,, sib,> \change Staff = "up"  <re'' fa''> <re'' fa''> <re'' fa''>|
+          <mib'' sol''> \change Staff = "down" <mib, mib> <mib, mib> <mib, mib>|
+          <sib,, sib,> \change Staff = "up" <re'' fa''> <re'' fa''> <re'' fa''>|
+          <mib'' sol''> \change Staff = "down" <mib, mib> <mib, mib> <mib, mib>|
+          <do, do> \change Staff = "up" <mi'' sol''> <mi'' sol''> <mi'' sol''>|
+          <fa'' lab''> \change Staff = "down" <fa, fa> <fa, fa> <fa, fa>|
+          <do, do> \change Staff = "up" <mi'' sol''> <mi'' sol''> <mi'' sol''>|
+          <fa'' lab''> \change Staff = "down" <fa, fa> <fa, fa> <fa, fa>|
+          <re, re> \change Staff = "up" <fad'' la''> <fad'' la''> <fad'' la''>|
+          <sol'' sib''> \change Staff = "down" <sol, sol> <sol, sol> <sol, sol>|
+          <re, re> \change Staff = "up" <fad'' la''> <fad'' la''> <fad'' la''>|
+          <sol'' si''> \change Staff = "down" \oneVoice sol,16 sol si sol \repeat unfold 2 { sol, sol do' sol }|
+          \repeat unfold 2 { sol, sol do' sol } \repeat unfold 2 { sol, sol si sol }|
+          \repeat unfold 2 { sol, sol si sol } \repeat unfold 2 { sol, sol do' sol }|
+          \repeat unfold 2 { sol, sol si sol } \repeat unfold 2 { sol, sol do' sol }|
+          \repeat unfold 2 { sol, sol do' sol } \repeat unfold 2 { sol, sol si sol }|
+          \repeat unfold 2 { sol, sol si sol } \repeat unfold 2 { sol, sol do' sol }|
+          sol,4 r <do do,> r |
+          <fa, fa> r <sol sol,> r |
+          <lab, lab> r <mib, mib> <fa, fa> |
+          <sol, sol> r r2 |
+          <sol,, sol,>2 ~ <sol,, sol,> |
+          \voiceTwo <sol,, sol,>2 ~ <sol,, sol,> |
+          r2 <sol,, do, mib, fad,> |
+          <sol,, do, mib, fad,> <sol,, do, mib, fad,> |
+          <sol,, sol,> r |
+          do,4 sol8 fa sol fa \comma sol sol, |
         }
       >>
     >>
