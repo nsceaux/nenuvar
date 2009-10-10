@@ -2,15 +2,6 @@
   copyrightYear = "2009"
   composer = "Pancrace Royer"
   date = "1746"
-  notes = \markup \column {
-    \line { Document original :}
-    \hspace #1
-    \wordwrap {
-      Joseph-Nicolas-Pancrace Royer (ca. 1705–1755),
-      \italic { Pièces pour clavecin, premier livre, }
-      Gravé par Labassé, Paris, 1746.
-    }
-  }
 }
 
 #(set-global-staff-size 16)
