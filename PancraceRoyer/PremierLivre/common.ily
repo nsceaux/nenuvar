@@ -24,38 +24,7 @@ piece=
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
 
-#(define-public (calc-comma-stencils grob)
-  (list
-   empty-stencil 
-   (ly:stencil-aligned-to (ly:stencil-aligned-to
-                           (grob-interpret-markup grob (markup #:fontsize 10 ","))
-                           Y CENTER)
-                          X LEFT)))
-
-\layout {
-  \context {
-    \Voice
-    \override ParenthesesItem #'stencils = #calc-comma-stencils
-  }
-}
-
-comma = 
-#(define-music-function (parser loc arg) (ly:music?)
-   (_i "Tag @var{arg} to be parenthesized.")
-
-   (if (memq 'event-chord (ly:music-property arg 'types))
-     ; arg is an EventChord -> set the parenthesize property on all child notes and rests
-     (map
-       (lambda (ev)
-	 (if (or (memq 'note-event (ly:music-property ev 'types))
-		 (memq 'rest-event (ly:music-property ev 'types)))
-	   (set! (ly:music-property ev 'parenthesize) #t)))
-       (ly:music-property arg 'elements))
-     ; No chord, simply set property for this expression:
-     (set! (ly:music-property arg 'parenthesize) #t))
-   arg)
-
-
+%% Suspension
 #(define-markup-command (suspension layout props) ()
    (interpret-markup layout props
      (make-with-dimensions-markup '(-0.4 . 1.6) '(0 . 1.3)
@@ -68,3 +37,38 @@ comma =
   stroke"))))
 
 suspension=^\markup \suspension
+
+%% Coulé
+#(define-public (coule-note-head grob)
+  (ly:stencil-combine-at-edge
+   (ly:note-head::print grob)
+   1
+   -1
+   (ly:make-stencil
+    (list 'draw-line 0.1 -0.5 -0.1 2.0 0.2)
+    '(0 . 0)
+    '(0 . 0))))
+
+coule =
+#(define-music-function (parser location note) (ly:music?)
+   (set! (ly:music-property note 'tweaks)
+         (acons 'stencil coule-note-head
+                (ly:music-property note 'tweaks)))
+   note)
+
+#(define-public (coule2-note-head grob)
+  (ly:stencil-combine-at-edge
+   (ly:note-head::print grob)
+   1
+   -1
+   (ly:make-stencil
+    (list 'draw-line 0.1 -0.5 -0.5 2.0 -0.2)
+    '(0 . 0)
+    '(0 . 0))))
+
+couleB =
+#(define-music-function (parser location note) (ly:music?)
+   (set! (ly:music-property note 'tweaks)
+         (acons 'stencil coule2-note-head
+                (ly:music-property note 'tweaks)))
+   note)

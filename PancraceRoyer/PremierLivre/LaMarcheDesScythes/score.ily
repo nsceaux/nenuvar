@@ -9,18 +9,18 @@
           \appoggiatura do'8 si4-\turn do' do' do' |
           do' sib8 -\prall la re'2 ~|
           re'8 re' do' -\turn si \appoggiatura { do'16[ re'] } mib'2 |
-          \change Staff = "down" \voiceOne si8 fa si re' ~
-          << { \voiceOne re'2(| \hideNotes re'8) \unHideNotes }
-             \new Voice { \voiceThree si lab fa \tieDown si ~| <si re'> re' sol si^\prall } >>
-          \voiceOne do' sol mib do' |
+          \clef "bass" si8 fa si re' ~
+          << { re'2~| \hideNotes re'8 \unHideNotes } \\
+             { si lab fa \tieDown si ~| \oneVoice <si re'> re' sol si^\prall } >>
+          do' sol mib do' |
           mib ( re mib ) do'-| mib ( re mib ) do'-| |
           mib ( re mib ) do'-| mib do' re si-\turn |
-          <mib sol do'>4\fermata \change Staff = "up" \oneVoice mib'\mordent mib' mib' |
+          <mib sol do'>4\fermata \clef "treble" mib'\mordent mib' mib' |
           %%
           << { do'4 s2 \hideNotes mib'4 ~ |
                \unHideNotes mib' } \\
-             { do'8 sol mib' sol  r8 do'\mordent mib' do' ~|
-               do' sib \change Staff = "down" \oneVoice mi \change Staff = "up" sib ~ sib reb' mi' sib ~ |
+             { do'8 sol mib' sol r8 do'\mordent mib' do' ~|
+               do' sib mi' sib ~ \oneVoice sib reb' mi' sib ~ |
                sib do'\mordent mi' sib r do' fa' do' |} >>
           lab ( sol lab ) fa'-| lab ( sol lab ) fa'-| |
           lab ( sol lab ) fa'-| lab fa' sol mi'-\turn |
@@ -89,7 +89,7 @@
           <mi' sol'> do'' [ sol' mi' ] <do' mi'> sol' [ mi' do' ]
           \change Staff = "down" <sol do'> mi' [ do' sol ] <mi sol> do' [ sol mi ]|
           \change Staff = "up" r4 <mi' sol' do''>-| r <re' fa' sol' si'>-| |
-          r2 do'''4.^"Petit clavier" r8 |
+          r2 do'''4.^"Petit clavier"_\suspension r8 |
           r4 mib'\mordent mib' mib' |
           mib'16 do' mib' do'' fa' do' fa' do'' sol' do' sol' do'' lab' do' lab' do'' |
           mib' do' mib' do'' fa' do' fa' do'' sol' do' sol' do'' lab' do' lab' do'' |
@@ -105,10 +105,10 @@
           mib'' sol' mib'' sol'' re'' sol' re'' sol'' do'' sol' do'' sol'' sib' sol' sib' sol'' |
           <la' re'' fad''>8 r << { re'''4 re''' re''' |
                                    do'''2 do'''4 do''' |
-                                   sib''2 sib'' |
+                                   sib''2 <\couleB sib''> |
                                    <la' re'' fad'' la''>4 re''' re''' re''' |
                                    do'''2 do'''4 do''' |
-                                   sib'' s sib''2 | } \\
+                                   sib'' s <\couleB sib''>2 | } \\
                                  { re''4\rest sib'' sib'' |
                                    sib''4 la''8^\prall sol'' la''4 la'' |
                                    la'' re'' <dod'' mi''>2 |
@@ -135,7 +135,7 @@
                   si'2 sib'4 do''8 sib' |
                   la'2 <lab' si'>~ |
                   <sol' si'> ~ sol' } >>|
-          <si re' fa' sol'>2 <do' mib' sol'> |
+          <si re' fa' sol'>2 <do' \coule mib' sol'> |
           \voiceTwo \repeat unfold 4 { sol'16 re' si sol }|
           \repeat unfold 4 { sol' mib' do' sol }|
           \repeat unfold 4 { sol' re' si sol }|
@@ -154,24 +154,24 @@
           re''[ si' sol' re'] \oneVoice
           << { sol''4 sol'' sol'' |
                fa'' fa'' fa'' fa'' |
-               mib''2 mib'' |
+               mib''2 <\couleB mib''> |
                re''4 sol'' sol'' sol'' |
                fa'' fa'' fa'' fa'' |
-               mib''2 mib'' } \\
+               mib''2 <\couleB mib''> } \\
              { r4 mib'' mib'' |
                mib'' re''8 -\prall do'' re''4 re'' |
                re'' sol' <fad' la'>2 |
-               <sol' si'>4 r mib'' mib'' |
+               <sol' \coule si'>4 r mib'' mib'' |
                mib'' re''8 -\prall do'' re''4 re'' |
                re'' sol' <fad' la'>2 | } >>
-          <sol' si' re''>4 r \repeat unfold 10 { do''32 sib' lab' sol' fa' mib' re' do' }|
+          <sol' \coule si' re''>4 r \repeat unfold 10 { do''32 sib' lab' sol' fa' mib' re' do' }|
           r do'' si' la' sol' fa' mib' re' do'16 re'32 mib' fa' sol' la' si'
           do''16 si'32 la' sol' fa' mib' re' do' sol' fa' mib' re' do' si la |
           sol sol'' fa'' mib'' re'' do'' si' la' sol' do'' si' la' sol' fa' mib' re'
           do' sol' fa' mib' re' do' si la sol16 la32 si do' re' mib' fa' |
           sol' \change Staff = "down" \voiceOne do' si la sol fa mib re do16 re32 mib fa sol la si
           do'16 si32 la sol fa mib re do16 re32 mib fa sol la si
-          si2\suspension \mark \markup \smaller "Arpège" <do mib fad la do'>2 | %% TODO: point d'orgue à l'envers
+          si2\suspension \mark \markup \smaller "Arpège" <do mib fad la do'>2 |
           <do mib fad la do'> <do mib fad la do'> |
           <re fad sol si> r |
           \oneVoice \change Staff = "up" r4 mib'\mordent mib' mib' |
@@ -185,14 +185,14 @@
           sol, re mib re mib re mib\mordent mib, |
           fa, mib re do fa,16[ fa mib fa] fa,[ fa mib fa] |
           sol,8 fa mib re sol,16[ sol fa sol] sol,[ sol fa sol] |
-          \voiceTwo lab,2 sib,,8 \mordent re sib,,8 re\mordent |
-          mib,2 ~ << mib, \new Voice { \voiceFour mib4 mib,\rest } >> |
+          lab,2 sib,,8 \mordent re sib,,8 re\mordent |
+          mib,2 ~ << mib, \\ { mib,\rest } >> |
           fa,1*3/4_\prall \afterGrace s4 { mib,16[ fa,] } |
           <sol,, sol,>4 sol, sol,\mordent sol, |
-          << { \afterGrace s64 <mib, sol,>8 } \\ { <do do,>4\fermata } >> \oneVoice sol8 fa sol fa sol\mordent sol, |
+          << << do4\fermata \new Voice { \voiceThree <mib, sol,>8 } >> \\ do,4 >> sol8 fa sol fa sol\mordent sol, |
           %%
           do,2 do |
-          sol sol, |
+          sol\mordent sol, |
           lab, ~ << { \voiceTwo lab, } \new Voice { \voiceOne lab8 lab\rest lab4\rest } >> | \oneVoice
           sib,1*3/4 -\prall \afterGrace s4 { lab,16[ sib, ]} |
           <do, do>4 do\mordent do do\mordent |
