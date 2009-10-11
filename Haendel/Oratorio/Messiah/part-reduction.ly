@@ -164,8 +164,10 @@
   \includeScore "BMrecitTenor"
   \pieceToc \markup { Chorus: \italic { Let all the angels of God worship } }
   \includeScore "BNchorus"
-  \pieceToc \markup { Air: \italic { Thou art gone up on high } (bass) }
-  \includeScore "BOairBass"
+  %%\pieceToc \markup { Air: \italic { Thou art gone up on high } (bass) }
+  %%\includeScore "BOAairBass"
+  \pieceToc \markup { Air: \italic { Thou art gone up on high } (alto) }
+  \includeScore "BOCairAlto"
   \pieceToc \markup { Chorus: \italic { The Lord gave the word } }
   \includeScore "BPchorus"
   \pieceToc \markup { Air: \italic { How beautiful are the feet } (soprano) }
