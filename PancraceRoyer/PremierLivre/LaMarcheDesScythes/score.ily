@@ -4,7 +4,7 @@
       \new Staff = "up" <<
         \global
         { %% rondeau
-          r4 \comma mib' mib' mib' |
+          r4 mib'\mordent mib' mib' |
           \appoggiatura re'8 do'4-\turn re' re' re' |
           \appoggiatura do'8 si4-\turn do' do' do' |
           do' sib8 -\prall la re'2 ~|
@@ -15,20 +15,20 @@
           \voiceOne do' sol mib do' |
           mib ( re mib ) do'-| mib ( re mib ) do'-| |
           mib ( re mib ) do'-| mib do' re si-\turn |
-          <mib sol do'>4\fermata \change Staff = "up" \oneVoice \comma mib' mib' mib' |
+          <mib sol do'>4\fermata \change Staff = "up" \oneVoice mib'\mordent mib' mib' |
           %%
           << { do'4 s2 \hideNotes mib'4 ~ |
                \unHideNotes mib' } \\
-             { do'8 sol mib' sol  r8 \comma do' mib' do' ~|
+             { do'8 sol mib' sol  r8 do'\mordent mib' do' ~|
                do' sib \change Staff = "down" \oneVoice mi \change Staff = "up" sib ~ sib reb' mi' sib ~ |
-               sib \comma do' mi' sib r do' fa' do' |} >>
+               sib do'\mordent mi' sib r do' fa' do' |} >>
           lab ( sol lab ) fa'-| lab ( sol lab ) fa'-| |
           lab ( sol lab ) fa'-| lab fa' sol mi'-\turn |
-          fa' do' lab' do' ~ do' \comma re' lab' do' ~|
+          fa' do' lab' do' ~ do' re'\mordent lab' do' ~|
           do' si sol' re' r si-\turn do' si |
           r la fa' do' fa lab si re' ~|
           re' sol do' la re' si mib' do' |
-          re'4-\turn \comma mib' mib' mib' |
+          re'4-\turn mib'\mordent mib' mib' |
           %%
           \set Staff.tieWaitForNote = ##t
           r8^"Façon d'arpéger" sol32[ do' re' mib']
@@ -57,9 +57,9 @@
           <sol si re' la'> <sol si re' la'> |
           <sol sib re' sol'> <sol sib re' sol'> |
           r2 s |
-          r4 \comma mib' mib' mib' |
+          r4 mib'\mordent mib' mib' |
           %%
-          r4 la'' \comma la'' la'' |
+          r4 la'' la''\mordent la'' |
           la'' sol''8 -\prall fad'' sol'' sol'' la'' si'' |
           << { do'''2 ~ do'''8 do''' re''' do''' |
                si''2 ~ si''8 si'' do''' sold'' |
@@ -78,8 +78,8 @@
           si' la' sol' la' si' do'' re''32 mi'' fa'' sol'' si'16 la' si' mi'' si' la' si' mi'' |
           do'' si' la' si' do'' re'' mi''32 fa'' sol'' la'' do''16 si' do'' fa'' do'' si' do'' fa'' |
           re'' do'' si' do'' re'' mi'' fa''32 sol'' la'' si'' re''16 do'' re'' sol'' re'' do'' re'' sol'' |
-          \oneVoice mi''16*1/2 do'' re'' mi'' fa''32 sol'' la'' si'' do'''4 \comma la'' la'' |
-          la''16 sol'' fa'' mi'' re'' do'' si' la' \comma sol''4 \comma sol'' |
+          \oneVoice mi''16*1/2 do'' re'' mi'' fa''32 sol'' la'' si'' do'''4 la''\mordent la'' |
+          la''16 sol'' fa'' mi'' re'' do'' si' la' sol''4\mordent sol''\mordent |
           sol''16 fa'' mi'' re'' do'' si' la' sol' fa'' mi'' re'' do'' si' la' sol' fa' |
           fa'' mi'' re'' do'' si' la' sol' fa' mi'' re'' do'' si' la' sol' fa' mi' |
           mi'' re'' do'' si' la' sol' fa' mi' re'' do'' si' la' sol' fa' mi' re' |
@@ -90,7 +90,7 @@
           \change Staff = "down" <sol do'> mi' [ do' sol ] <mi sol> do' [ sol mi ]|
           \change Staff = "up" r4 <mi' sol' do''>-| r <re' fa' sol' si'>-| |
           r2 do'''4.^"Petit clavier" r8 |
-          r4 \comma mib' mib' mib' |
+          r4 mib'\mordent mib' mib' |
           mib'16 do' mib' do'' fa' do' fa' do'' sol' do' sol' do'' lab' do' lab' do'' |
           mib' do' mib' do'' fa' do' fa' do'' sol' do' sol' do'' lab' do' lab' do'' |
           mib' do' mib' do'' fa' do' fa' do'' sol' do' sol' do'' mib' do' mib' do'' |
@@ -131,7 +131,7 @@
                   mib'' re''8 -\prall do'' re''4 re'' |
                   re'' sol' <do'' mib''>2 |
                   <re'' fa''> <reb'' mi'' sol''> ~|
-                  <do'' mi''>~ do''4 \comma re''8 do'' |
+                  <do'' mi''>~ do''4 re''8\mordent do'' |
                   si'2 sib'4 do''8 sib' |
                   la'2 <lab' si'>~ |
                   <sol' si'> ~ sol' } >>|
@@ -171,36 +171,36 @@
           do' sol' fa' mib' re' do' si la sol16 la32 si do' re' mib' fa' |
           sol' \change Staff = "down" \voiceOne do' si la sol fa mib re do16 re32 mib fa sol la si
           do'16 si32 la sol fa mib re do16 re32 mib fa sol la si
-          si2 \mark \markup \smaller "Arpège" <do mib fad la do'>2 | %% TODO: point d'orgue à l'envers
+          si2\suspension \mark \markup \smaller "Arpège" <do mib fad la do'>2 | %% TODO: point d'orgue à l'envers
           <do mib fad la do'> <do mib fad la do'> |
           <re fad sol si> r |
-          \oneVoice \change Staff = "up" r4 \comma mib' mib' mib' |
+          \oneVoice \change Staff = "up" r4 mib'\mordent mib' mib' |
         }
       >>
       \new Staff = "down" <<
         \global \clef "bass"
         {
-          do,4 sol8 fa sol fa \comma sol sol, |
-          lab, mib fa mib fa mib \comma fa fa, |
-          sol, re mib re mib re \comma mib mib, |
+          do,4 sol8 fa sol fa sol\mordent sol, |
+          lab, mib fa mib fa mib fa\mordent fa, |
+          sol, re mib re mib re mib\mordent mib, |
           fa, mib re do fa,16[ fa mib fa] fa,[ fa mib fa] |
           sol,8 fa mib re sol,16[ sol fa sol] sol,[ sol fa sol] |
-          \voiceTwo lab,2 sib,,8 \comma re sib,,8 \comma re |
+          \voiceTwo lab,2 sib,,8 \mordent re sib,,8 re\mordent |
           mib,2 ~ << mib, \new Voice { \voiceFour mib4 mib,\rest } >> |
           fa,1*3/4_\prall \afterGrace s4 { mib,16[ fa,] } |
-          <sol,, sol,>4 sol, \comma sol, sol, |
-          << { \afterGrace s64 <mib, sol,>8 } \\ { <do do,>4\fermata } >> \oneVoice sol8 fa sol fa \comma sol sol, |
+          <sol,, sol,>4 sol, sol,\mordent sol, |
+          << { \afterGrace s64 <mib, sol,>8 } \\ { <do do,>4\fermata } >> \oneVoice sol8 fa sol fa sol\mordent sol, |
           %%
           do,2 do |
           sol sol, |
           lab, ~ << { \voiceTwo lab, } \new Voice { \voiceOne lab8 lab\rest lab4\rest } >> | \oneVoice
           sib,1*3/4 -\prall \afterGrace s4 { lab,16[ sib, ]} |
-          <do, do>4 \comma do do \comma do |
+          <do, do>4 do\mordent do do\mordent |
           << { r2 fa | r mi | mib re |
                mib,4 mib re do |} \\
              { fa,2 ~ fa, | fa, mi, | mib, re, |
                mib, re,4 do, } >>|
-          <sol,, sol,>4 sol8 fa sol fa \comma sol sol, |
+          <sol,, sol,>4 sol8 fa sol fa sol\mordent sol, |
           %%
           \set Staff.tieWaitForNote = ##t
           do,32[~ mib,~ sol,~ do]~ <do, mib, sol, do>4. do,32[~ mib,~ sol,~ do]~ <do, mib, sol, do>4. |
@@ -224,7 +224,7 @@
           <re, sol, sib,! re> <re, sol, sib,! re> |
           << \new Voice { \voiceTwo re,2 } \new Voice { \voiceOne re } \new Voice { \voiceOne \afterGrace s64 {sol,16[ la,]} } >>
           re'32 do' si la sol fad sol la sol fad mi re do si, do re |
-          sol,,4 sol8 fa sol fa \comma sol sol, |
+          sol,,4 sol8 fa sol fa sol\mordent sol, |
           %%
           \repeat unfold 4 { do16 do' mi' do' } |
           \repeat unfold 4 { si, si re' si } |
@@ -251,7 +251,7 @@
           s1
           <do, do>4 r sol,-| r |
           do r s2 |
-          r4 sol8 fa sol fa \comma sol sol, |
+          r4 sol8 fa sol fa sol\mordent sol, |
           %%
           << { do,4 re, mib, fa, } \\ { do,8 do re, re mib, mib fa, fa } >>|
           << { do,4 re, mib, fa, } \\ { do,8 do re, re mib, mib fa, fa } >>|
@@ -311,8 +311,8 @@
           \voiceTwo <sol,, sol,>2 ~ <sol,, sol,> |
           r2 <sol,, do, mib, fad,> |
           <sol,, do, mib, fad,> <sol,, do, mib, fad,> |
-          <sol,, sol,> r |
-          do,4 sol8 fa sol fa \comma sol sol, |
+          <sol,, sol,> r |\oneVoice
+          do,4 sol8 fa sol fa sol\mordent sol, |
         }
       >>
     >>

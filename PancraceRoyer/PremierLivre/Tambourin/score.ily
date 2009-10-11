@@ -11,19 +11,19 @@
           re''16 dod'' re'' mi'' fad'' mi'' fad'' sol'' |
           la''8 sol'' fad'' -\prall mi'' |
           mi''16 sol'' fad'' mi'' fad'' mi'' re'' dod'' |
-          \comma re''4 \comma re' \fermata |
+          re''4\mordent re'\mordent \fermata |
           mi''16 re'' mi'' fad'' mi'' re'' mi'' fad'' |
           mi'' re'' mi'' fad'' mi'' re'' mi'' fad'' |
           mi''8 la'' dod'' -\prall re'' |
           mi''16 re'' dod'' si' la'4 |
           si'16 dod'' si' dod'' re''8 re'' |
-          \comma re'4 \comma re' |
+          re'4\mordent re'\mordent |
           si'16 dod'' si' dod'' re''8 re'' |
-          \comma mi'4 \comma mi' |
+          mi'4\mordent mi'\mordent |
           dod''16 ( re'' dod'' re'' ) mi'' ( fad'' mi'' re'' )|
           dod'' ( re'' dod'' re'' ) mi'' ( fad'' mi'' re'' )|
           dod'' ( mi'' re'' dod'' ) si' ( re'' dod'' si' )|
-          \comma la'4 \comma la' |
+          la'4\mordent la'\mordent |
           re''16 dod'' re'' mi'' fad'' mi'' fad'' sol'' |
           la''8 sol'' fad'' -\prall mi'' |
           mi''16 fad'' sol''8 sol'' fad'' -\prall |
@@ -31,7 +31,7 @@
           re''16 dod'' re'' mi'' fad'' mi'' fad'' sol'' |
           la''8 sol'' fad'' -\prall mi'' |
           mi''16 sol'' fad'' mi'' fad'' mi'' re'' dod'' |
-          \comma re''4 \comma re' \fermata |
+          re''4\mordent re'\mordent \fermata |
           fa''16 sol'' la''8 re'' fa'' |
           mi'' sold'' \appoggiatura sold'' la''4 |
           re''16 mi'' fa''8 sib' re'' |
