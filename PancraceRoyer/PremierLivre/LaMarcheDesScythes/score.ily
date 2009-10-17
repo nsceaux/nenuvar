@@ -5,16 +5,16 @@
         \global
         { %% rondeau
           r4 mib'\mordent mib' mib' |
-          \appoggiatura re'8 do'4-\turn re' re' re' |
-          \appoggiatura do'8 si4-\turn do' do' do' |
+          \appoggiatura re'8 do'4-\pralldown re' re' re' |
+          \appoggiatura do'8 si4-\pralldown do' do' do' |
           do' sib8 -\prall la re'2 ~|
-          re'8 re' do' -\turn si \appoggiatura { do'16[ re'] } mib'2 |
+          re'8 re' do' -\pralldown si \appoggiatura { do'16[ re'] } mib'2 |
           \clef "bass" si8 fa si re' ~
           << { re'2~| \hideNotes re'8 \unHideNotes } \\
              { si lab fa \tieDown si ~| \oneVoice <si re'> re' sol si^\prall } >>
           do' sol mib do' |
           mib ( re mib ) do'-| mib ( re mib ) do'-| |
-          mib ( re mib ) do'-| mib do' re si-\turn |
+          mib ( re mib ) do'-| mib do' re si-\pralldown |
           <mib sol do'>4\fermata \clef "treble" mib'\mordent mib' mib' |
           %%
           << { do'4 s2 \hideNotes mib'4 ~ |
@@ -23,12 +23,12 @@
                do' sib mi' sib ~ \oneVoice sib reb' mi' sib ~ |
                sib do'\mordent mi' sib r do' fa' do' |} >>
           lab ( sol lab ) fa'-| lab ( sol lab ) fa'-| |
-          lab ( sol lab ) fa'-| lab fa' sol mi'-\turn |
+          lab ( sol lab ) fa'-| lab fa' sol mi'-\pralldown |
           fa' do' lab' do' ~ do' re'\mordent lab' do' ~|
-          do' si sol' re' r si-\turn do' si |
+          do' si sol' re' r si-\pralldown do' si |
           r la fa' do' fa lab si re' ~|
           re' sol do' la re' si mib' do' |
-          re'4-\turn mib'\mordent mib' mib' |
+          re'4-\pralldown mib'\mordent mib' mib' |
           %%
           \set Staff.tieWaitForNote = ##t
           r8^"Façon d'arpéger" sol32[ do' re' mib']

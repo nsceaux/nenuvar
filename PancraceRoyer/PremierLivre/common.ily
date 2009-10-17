@@ -14,13 +14,14 @@
 \opusTitle "Premier Livre"
 
 piece=
-#(define-music-function (parser location title) (string?)
+#(define-music-function (parser location title subtitle) (string? string?)
   (increase-rehearsal-major-number)
   (add-page-break parser)
   (add-toc-item parser 'tocPieceMarkup title)
   (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
   (add-odd-page-header-text parser  (string-upper-case title) #f)
-  (add-toplevel-markup parser (markup #:title (string-upper-case title)))
+  (add-toplevel-markup parser (markup #:column (#:title (string-upper-case title)
+                                                #:small-title subtitle)))
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
 

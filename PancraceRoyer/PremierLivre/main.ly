@@ -26,11 +26,14 @@
   \markuplines \table-of-contents
 }
 
-\piece "La Majestueuse"
+\piece "La Majestueuse" "Courante"
 \includeScore "LaMajestueuse"
 
-\piece "Tambourin"
+\piece "La Zaïde" "Rondeau"
+\includeScore "LaZaide"
+
+\piece "Tambourin" "Suite des Matelots"
 \includeScore "Tambourin"
 
-\piece "La marche des Scythes"
+\piece "La marche des Scythes" "Rondeau"
 \includeScore "LaMarcheDesScythes"
