@@ -14,14 +14,12 @@
 \opusTitle "Premier Livre"
 
 piece=
-#(define-music-function (parser location title subtitle) (string? string?)
+#(define-music-function (parser location title) (string?)
   (increase-rehearsal-major-number)
   (add-page-break parser)
   (add-toc-item parser 'tocPieceMarkup title)
-  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
-  (add-odd-page-header-text parser  (string-upper-case title) #f)
-  (add-toplevel-markup parser (markup #:column (#:title (string-upper-case title)
-                                                #:small-title subtitle)))
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #t)
+  (add-odd-page-header-text parser  (string-upper-case title) #t)
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
 
@@ -73,3 +71,11 @@ couleB =
          (acons 'stencil coule2-note-head
                 (ly:music-property note 'tweaks)))
    note)
+
+\layout {
+  indent = 3.0 \cm
+  \context {
+    \PianoStaff
+    \override InstrumentName #'font-size = #2
+  }
+}

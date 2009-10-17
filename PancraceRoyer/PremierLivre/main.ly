@@ -26,14 +26,22 @@
   \markuplines \table-of-contents
 }
 
-\piece "La Majestueuse" "Courante"
-\includeScore "LaMajestueuse"
+\bookpart {
+  \piece "La Majestueuse"
+  \includeScore "LaMajestueuse"
+}
+\bookpart {
+  \piece "La Zaïde"
+  \includeScore "LaZaide"
+}
+\bookpart {
+  \piece "Les Matelots"
+  \includeScore "LesMatelots"
 
-\piece "La Zaïde" "Rondeau"
-\includeScore "LaZaide"
-
-\piece "Tambourin" "Suite des Matelots"
-\includeScore "Tambourin"
-
-\piece "La marche des Scythes" "Rondeau"
-\includeScore "LaMarcheDesScythes"
+  \piece "Tambourin"
+  \includeScore "Tambourin"
+}
+\bookpart {
+  \piece "La Marche des Scythes"
+  \includeScore "LaMarcheDesScythes"
+}

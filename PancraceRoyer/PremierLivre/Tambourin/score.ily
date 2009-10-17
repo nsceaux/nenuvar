@@ -1,6 +1,6 @@
 \score {
   \notemode {
-    \new PianoStaff <<
+    \new PianoStaff \with { instrumentName = \markup \center-column { \smallCaps Tambourin \line \smaller { Suite des Matelots } } } <<
       \new Staff = "up" <<
         \global
         {

@@ -1,6 +1,6 @@
 \score {
   \notemode {
-    \new PianoStaff <<
+    \new PianoStaff \with { instrumentName = \markup \center-column \smallCaps { "La Marche" "des Scythes" } } <<
       \new Staff = "up" <<
         \global
         { %% rondeau
@@ -185,8 +185,8 @@
           sol, re mib re mib re mib\mordent mib, |
           fa, mib re do fa,16[ fa mib fa] fa,[ fa mib fa] |
           sol,8 fa mib re sol,16[ sol fa sol] sol,[ sol fa sol] |
-          lab,2 sib,,8 \mordent re sib,,8 re\mordent |
-          mib,2 ~ << mib, \\ { mib,\rest } >> |
+          lab,2 sib,,8 re \mordent sib,,8 re\mordent |
+          mib,2 ~ << { \voiceTwo mib, } \new Voice { \voiceOne mib4 mib\rest } >> |\oneVoice
           fa,1*3/4_\prall \afterGrace s4 { mib,16[ fa,] } |
           <sol,, sol,>4 sol, sol,\mordent sol, |
           << << do4\fermata \new Voice { \voiceThree <mib, sol,>8 } >> \\ do,4 >> sol8 fa sol fa sol\mordent sol, |
