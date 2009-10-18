@@ -42,6 +42,13 @@
   \includeScore "Tambourin"
 }
 \bookpart {
+  \piece "L'Incertaine"
+  \includeScore "LIncertaine"
+}
+
+
+
+\bookpart {
   \piece "La Marche des Scythes"
   \includeScore "LaMarcheDesScythes"
 }
