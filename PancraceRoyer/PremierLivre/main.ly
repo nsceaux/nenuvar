@@ -37,8 +37,6 @@
 \bookpart {
   \piece "Les Matelots"
   \includeScore "LesMatelots"
-
-  \piece "Tambourin"
   \includeScore "Tambourin"
 }
 \bookpart {
@@ -53,6 +51,7 @@
 \bookpart {
   \piece "La Bagatelle"
   \includeScore "LaBagatelle"
+  \includeScore "SuiteDeLaBagatelle"
 }
 
 
