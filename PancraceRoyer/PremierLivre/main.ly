@@ -50,6 +50,10 @@
   \piece "L'Aimable"
   \includeScore "LAimable"
 }
+\bookpart {
+  \piece "La Bagatelle"
+  \includeScore "LaBagatelle"
+}
 
 
 \bookpart {
