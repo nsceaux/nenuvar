@@ -42,10 +42,14 @@
   \includeScore "Tambourin"
 }
 \bookpart {
+  \paper { page-count = 2 }
   \piece "L'Incertaine"
   \includeScore "LIncertaine"
 }
-
+\bookpart {
+  \piece "L'Aimable"
+  \includeScore "LAimable"
+}
 
 
 \bookpart {
