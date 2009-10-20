@@ -72,6 +72,23 @@ couleB =
                 (ly:music-property note 'tweaks)))
    note)
 
+#(define-public (coule3-note-head grob)
+  (ly:stencil-combine-at-edge
+   (ly:note-head::print grob)
+   1
+   -1
+   (ly:make-stencil
+    (list 'draw-line 0.1 -0.5 1.5 2.0 1.8)
+    '(0 . 0)
+    '(0 . 0))))
+
+couleC =
+#(define-music-function (parser location note) (ly:music?)
+   (set! (ly:music-property note 'tweaks)
+         (acons 'stencil coule3-note-head
+                (ly:music-property note 'tweaks)))
+   note)
+
 \layout {
   indent = 3.0 \cm
   \context {

@@ -57,6 +57,10 @@
   \piece "La Remouleuse"
   \includeScore "LaRemouleuse"
 }
+\bookpart {
+  \piece "Les tendres sentiments"
+  \includeScore "LesTendresSentiments"
+}
 
 
 \bookpart {

@@ -8,7 +8,7 @@
                si' ( sol' ) do'' do'' si' -\prall do'' |
                do'' ( la' ) re'' re'' do'' -\prall re'' |
                re'' si' do'' ~ do'' ( la' ) re'' |
-               si' -\prall \appoggiatura la' sol' si' si' la' -\prall si' |
+               si' -\prall \slurDown \appoggiatura la' sol' \slurUp si' si' la' -\prall si' |
                si' ( sol' ) do'' do'' si' -\prall do'' |
                do'' ( la' ) re'' re'' do'' -\prall re'' |
                re'' do'' -\prall si' si'8. -\prall la'16 sol'8 |
