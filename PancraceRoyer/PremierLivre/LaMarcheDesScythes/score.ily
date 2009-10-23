@@ -39,7 +39,7 @@
           << \new Voice { \voiceOne do''4 } { \voiceTwo \tieUp do''16[ ~ sol'~ mib' ~ \tieDown do'] ~ } >>
           \oneVoice <do' mib' sol' do''>8 do'16[ mib'32 sol']
           << \new Voice { \voiceOne do''4 } { \voiceTwo do''16[ sol' mib' do'] } >> |
-          \oneVoice <re' fa' lab' re''>2 <re' fa' lab' re''>2 |
+          \newSpacingSection \oneVoice <re' fa' lab' re''>2 <re' fa' lab' re''>2 |
           <re' fa' sol' si' re''> <re' fa' sol' si' re''> |
           <do' mi' sol' do''> <do' mi' sol' do''> |
           <do' mib'! fad' la'! do''> <do' mib'! fad' la'! do''> |
@@ -56,7 +56,7 @@
           <la do'! re' fad' la'> <la do'! re' fad' la'> |
           <sol si re' la'> <sol si re' la'> |
           <sol sib re' sol'> <sol sib re' sol'> |
-          r2 s |
+          \newSpacingSection r2 s |
           r4 mib'\mordent mib' mib' |
           %%
           r4 la'' la''\mordent la'' |
@@ -109,10 +109,10 @@
                                    <la' re'' fad'' la''>4 re''' re''' re''' |
                                    do'''2 do'''4 do''' |
                                    sib'' s <\couleB sib''>2 | } \\
-                                 { re''4\rest sib'' sib'' |
+                                 { sib'4\rest sib'' sib'' |
                                    sib''4 la''8^\prall sol'' la''4 la'' |
                                    la'' re'' <dod'' mi''>2 |
-                                   s4 re''\rest sib'' sib'' |
+                                   s4 sib'\rest sib'' sib'' |
                                    sib'' la''8^\prall sol'' la''4 la'' |
                                    la'' re'' <dod'' mi''>2 | } >>
           \repeat unfold 2 { re''16 la' fad' re' \change Staff = "down" la fad la \change Staff = "up" re' }|

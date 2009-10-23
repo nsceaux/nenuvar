@@ -187,7 +187,7 @@
           <sib, sib,,>2 r4 |
           \repeat unfold 6 { <sol, si, re>16 sol }|
           \repeat unfold 6 { <sol, si, re> sol }|
-          \repeat unfold 6 { <sol, sib, re> sol }|
+          \repeat unfold 6 { <sol, si, re> sol }|
           <do do,>4 r2 |
           \repeat unfold 6 { <la, dod mi>16 la }|
           \repeat unfold 6 { <la, dod mi> la }|

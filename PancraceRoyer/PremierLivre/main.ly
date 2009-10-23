@@ -88,6 +88,7 @@
 
 
 \bookpart {
+  \paper { page-count = 4 }
   \piece "La Marche des Scythes"
   \includeScore "LaMarcheDesScythes"
 }
