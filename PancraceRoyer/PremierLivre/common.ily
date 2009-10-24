@@ -23,6 +23,11 @@ piece=
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
 
+updown = { \change Staff = "down" \voiceOne }
+upup = { \change Staff = "up" \oneVoice }
+downup = { \change Staff = "up" \voiceTwo }
+downdown = { \change Staff = "down" \oneVoice }
+
 %% Suspension
 #(define-markup-command (suspension layout props) ()
    (interpret-markup layout props

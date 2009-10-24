@@ -90,8 +90,11 @@
   \piece "Allemande"
   \includeScore "Allemande"
 }
-
-
+\bookpart {
+  \paper { page-count = 2 }
+  \piece "La Sensible"
+  \includeScore "LaSensible"
+}
 \bookpart {
   \paper { page-count = 4 }
   \piece "La Marche des Scythes"
