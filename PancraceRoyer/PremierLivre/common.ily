@@ -89,6 +89,40 @@ couleC =
                 (ly:music-property note 'tweaks)))
    note)
 
+#(define-public (barre-note-head grob)
+  (ly:stencil-combine-at-edge
+   (ly:note-head::print grob)
+   1
+   -1
+   (ly:make-stencil
+    (list 'draw-line 0.1 -0.2 3.0 2.3 1.4)
+    '(0 . 0)
+    '(0 . 0))))
+
+barre =
+#(define-music-function (parser location note) (ly:music?)
+   (set! (ly:music-property note 'tweaks)
+         (acons 'stencil barre-note-head
+                (ly:music-property note 'tweaks)))
+   note)
+
+#(define-public (barre2-note-head grob)
+  (ly:stencil-combine-at-edge
+   (ly:note-head::print grob)
+   1
+   -1
+   (ly:make-stencil
+    (list 'draw-line 0.1 -0.2 1.4 2.3 3.0)
+    '(0 . 0)
+    '(0 . 0))))
+
+barreB =
+#(define-music-function (parser location note) (ly:music?)
+   (set! (ly:music-property note 'tweaks)
+         (acons 'stencil barre2-note-head
+                (ly:music-property note 'tweaks)))
+   note)
+
 \layout {
   indent = 3.0 \cm
   \context {

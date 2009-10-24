@@ -85,6 +85,11 @@
   \includeScore "LeVertigo"
   \markup \vspace #2 %% TODO: remove this hack
 }
+\bookpart {
+  \paper { page-count = 2 }
+  \piece "Allemande"
+  \includeScore "Allemande"
+}
 
 
 \bookpart {
