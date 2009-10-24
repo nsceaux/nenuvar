@@ -133,3 +133,13 @@ noPageBreakCond =
                            'break-permission '())))
        (make-music 'Music 'void #t)))
 
+whenAfour =
+#(define-music-function (location parser music) (ly:music?)
+   (if (eqv? (*paper-size*) 'a4)
+       music
+       (make-music 'Music 'void #t)))
+whenLetter =
+#(define-music-function (location parser music) (ly:music?)
+   (if (eqv? (*paper-size*) 'letter)
+       music
+       (make-music 'Music 'void #t)))

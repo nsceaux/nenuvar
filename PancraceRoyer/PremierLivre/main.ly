@@ -98,7 +98,11 @@
   \includeScore "LaSensible"
 }
 \bookpart {
-  \paper { page-count = 4 }
+  \paper { page-count = 1 }
   \piece "La Marche des Scythes"
   \includeScore "LaMarcheDesScythes"
+}
+\bookpart {
+  \markup\null
+  %% tagline
 }
