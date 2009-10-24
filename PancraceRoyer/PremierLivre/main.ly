@@ -2,7 +2,7 @@
 
 \bookpart {
   \header {
-    title = \markup \center-column { "Premier livre" "de pièces pour clavecin" }
+    title = \markup \center-column { "Premier Livre" "de pièces pour clavecin" }
     notes = \markup \column {
       \line { Document original :}
       \hspace #1
@@ -23,7 +23,9 @@
   \pageBreak
 
   %% Table of contents
+  \markup \vspace #6
   \markuplines \table-of-contents
+  \markup \vspace #10
 }
 
 \bookpart {
