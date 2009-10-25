@@ -14,7 +14,7 @@ do'2. do'8 sib |
 la fa sol la sib do' re' mi' |
 fa'4 mi'8 re' do' sib la sol |
 fa2 ~ fa8 fa' fa' mib' |
-re'4 do'8 sib mib'4 fa8 mib |
+re'4 do'8 sib fa'4 fa8 mib |
 re sib, do re mib fa sol la |
 sib4 la8 sol fa mib re do |
 sib,4 sib8 la sol4 fa8 mib |
