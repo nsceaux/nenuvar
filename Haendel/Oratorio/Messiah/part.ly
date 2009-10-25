@@ -1,37 +1,10 @@
-\header { copyrightYear = "2009" }
-
-#(set-global-staff-size (if (eqv? #f (ly:get-option 'vocal)) 16 18))
-#(ly:set-option 'non-incipit #t)
-#(ly:set-option 'use-rehearsal-numbers #t)
-\include "italiano.ly"
-\include "common/common.ily"
-\setOpus "Haendel/Oratorio/Messiah"
-\opusTitle "Messiah"
 \include "Haendel/Oratorio/Messiah/common.ily"
-
-\layout {
-  \context { \Score \override VerticalAlignment #'max-stretch = ##f }
-}
-
-\paper { #(define page-breaking (if (eqv? (*part*) 'vocal)
-                                    ly:optimal-breaking
-                                    ly:page-turn-breaking)) }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {
+  \header { title = "Messiah" }
   \paper { #(define page-breaking ly:minimal-breaking) }
   %% Title page
-  \header {
-    title = "Messiah"
-    composer = "George Frideric Handel"
-    poet=" "
-    opus = "HWV 56"
-    date = "1741"
-    editions = \markup \column {
-      \fill-line { \line { Based upon the Deutsche Händelgesellschaft Edition } }
-      \fill-line { \line { Edited by Frideric Chrysander } }
-    }
-  }
   \markup\null\pageBreak
   %% Table of contents
   \markuplines \table-of-contents

@@ -1,7 +1,31 @@
-#(ly:set-option 'non-incipit #t)
+\header {
+  copyrightYear = "2009"
+  composer = "George Frideric Handel"
+  poet=" "
+  opus = "HWV 56"
+  date = "1741"
+  editions = \markup \column {
+    \fill-line { \line { Based upon the Deutsche Händelgesellschaft Edition } }
+    \fill-line { \line { Edited by Frideric Chrysander } }
+  }
+}
 \paper {
   tocTitle = "CONTENTS"
+  #(define page-breaking (cond ((eqv? #f (ly:get-option 'part)) ly:optimal-breaking)
+                               ((eqv? (ly:get-option 'part) 'vocal) ly:optimal-breaking)
+                               (else ly:page-turn-breaking)))
 }
+
+#(set-global-staff-size (cond ((eqv? #f (ly:get-option 'part)) 14)
+                              ((eqv? (ly:get-option 'part) 'vocal) 16)
+                              (else 18)))
+#(ly:set-option 'non-incipit #t)
+#(ly:set-option 'use-rehearsal-numbers #t)
+
+\include "italiano.ly"
+\include "common/common.ily"
+\setOpus "Haendel/Oratorio/Messiah"
+\opusTitle "Messiah"
 
 \opusPartSpecs #`(
   (violino1 "Violono I" () (#:notes "violino1"))

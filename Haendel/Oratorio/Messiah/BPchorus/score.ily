@@ -29,6 +29,12 @@
     \new Staff << \instrumentName \markup Bassi
                   \global \clef "bass" \includeNotes "bassi" >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    indent = \largeindent
+    \context {
+      \Voice
+      \override Beam #'breakable = ##t
+    }
+  }
   \midi { }
 }
