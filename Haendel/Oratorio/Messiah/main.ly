@@ -151,23 +151,27 @@
   \pieceToc \markup { Chorus: \italic { The Lord gave the word } }
   \includeScore "BPchorus"
   \pieceToc \markup { Air: \italic { How beautiful are the feet } (soprano) }
-  \includeScore "BQairSoprano"
+  \includeScore "BQBairSoprano"
+}
+\bookpart {
+  \pieceToc \markup { Chorus: \italic { Their sound is gone out into all lands } }
+  \includeScore "BRchorus"
 }
 \bookpart {
   \pieceToc \markup { Air: \italic { Why do the nations so furiously } (bass) }
-  \includeScore "BRairBass"
+  \includeScore "BSairBass"
 }
 \bookpart {
   \pieceToc \markup { Chorus: \italic { Let us break their bonds } }
-  \includeScore "BSchorus"
+  \includeScore "BTchorus"
 }
 \bookpart {
   \pieceToc \markup { Recitative: \italic { He that dwelleth in heaven } (tenor) }
-  \includeScore "BTrecitTenor"
+  \includeScore "BUrecitTenor"
   \pieceToc \markup { Air: \italic { Thou shalt break them with a rod } (tenor) }
-  \includeScore "BUairTenor"
+  \includeScore "BVairTenor"
   \pieceToc \markup { Chorus: \italic { Hallelujah } }
-  \includeScore "BVchorus"
+  \includeScore "BWchorus"
   \actEnd \markup { END OF THE SECOND PART }
 }
 
