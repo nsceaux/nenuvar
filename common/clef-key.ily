@@ -52,8 +52,6 @@ staffStart =
        #{
   \set Staff.vocalName = ""
   \once \override Staff.InstrumentName #'self-alignment-X = #RIGHT
-  \once \override Staff.InstrumentName #'self-alignment-Y = #UP
-  \once \override Staff.InstrumentName #'Y-offset = #4
   \once \override Staff.InstrumentName #'padding = #0
   \once \override Staff.InstrumentName #'stencil = 
   #(lambda (grob)
@@ -67,7 +65,8 @@ staffStart =
                           'elements (list (make-music
                                            'ContextSpeccedMusic
                                            'context-type 'Staff
-                                           'property-operations '((remove "Time_signature_engraver"))
+                                           'property-operations '((remove "Time_signature_engraver")
+                                                                  (push VerticalAxisGroup (-2 . 2) Y-extent))
                                            'element (make-music
                                                      'PropertySet
                                                      'symbol 'instrumentName
