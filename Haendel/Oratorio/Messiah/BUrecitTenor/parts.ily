@@ -1,2 +1,2 @@
-\piecePartSpecs #`(;;(vocal)
+\piecePartSpecs #`((vocal)
                    (bassi #:score "score-bassi"))
