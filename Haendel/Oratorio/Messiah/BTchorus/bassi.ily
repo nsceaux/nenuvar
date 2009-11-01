@@ -40,7 +40,7 @@ fa do re la, si, sol, |
 do4 do, mi'8 si |
 do' sol la16 si do'8 si16 do' re'8 |
 do' sol la mi fad re |
-sol4 sol8 \clef "treble" << { si' do'' la' } \\ { re' mi' fad' } >>|
+sol4 sol,8 \clef "treble" << { si' do'' la' } \\ { re' mi' fad' } >>|
 \clef "bass" sol re mi si, do la, |
 sol,4 sol, r |
 \clef "treble" << { r sol'' mi'' |
