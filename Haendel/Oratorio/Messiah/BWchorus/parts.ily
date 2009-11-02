@@ -4,5 +4,5 @@
                    (violino1)
                    (violino2)
                    (viola)
-                   ;;(vocal)
+                   (vocal)
                    (bassi))
