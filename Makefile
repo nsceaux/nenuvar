@@ -139,7 +139,7 @@ dessus1 dessus2 haute-contre taille basse voix,part-bc,basse-continue))
 ### Haendel
 $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Opera/GiulioCesare,reduction,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Oratorio/Messiah,\
-violino1 violino2 violino3 viola oboe1 oboe2 bassi tromba1 tromba2 tympani,part-reduction,vocal))
+violino1 violino2 violino3 viola oboe1 oboe2 bassi tromba1 tromba2 tympani vocal vocal-keyboard keyboard,,))
 
 ### Pancrace Royer
 $(eval $(call MAKE_ALL_SCORE_RULES,PancraceRoyer/PremierLivre,,,))

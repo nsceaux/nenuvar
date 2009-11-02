@@ -6,4 +6,6 @@
                    (oboe2 #:notes "oboe")
                    (viola)
                    (vocal)
+                   (vocal-keyboard)
+                   (keyboard)
                    (bassi #:clef "tenor"))

@@ -4,4 +4,6 @@
                    (oboe2 #:notes "oboe" #:music ,#{ \clef treble \grace s8 #})
                    (viola #:music ,#{ \clef alto \grace s8 #})
                    (vocal)
+                   (vocal-keyboard)
+                   (keyboard)
                    (bassi #:music ,#{ \clef bass \grace s8 #}))

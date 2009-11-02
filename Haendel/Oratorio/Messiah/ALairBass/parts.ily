@@ -17,4 +17,6 @@
                     \clef treble
                     #})
                    (vocal)
+                   (vocal-keyboard)
+                   (keyboard)
                    (bassi #:score-template "score"))

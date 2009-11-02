@@ -12,12 +12,12 @@
 \paper {
   tocTitle = "CONTENTS"
   #(define page-breaking (cond ((eqv? #f (ly:get-option 'part)) ly:optimal-breaking)
-                               ((eqv? (ly:get-option 'part) 'vocal) ly:optimal-breaking)
+                               ((memq (ly:get-option 'part) '(vocal vocal-keyboard keyboard)) ly:optimal-breaking)
                                (else ly:page-turn-breaking)))
 }
 
 #(set-global-staff-size (cond ((eqv? #f (ly:get-option 'part)) 14)
-                              ((eqv? (ly:get-option 'part) 'vocal) 16)
+                              ((memq (ly:get-option 'part) '(vocal vocal-keyboard keyboard)) 16)
                               (else 18)))
 #(ly:set-option 'non-incipit #t)
 #(ly:set-option 'use-rehearsal-numbers #t)
@@ -38,7 +38,10 @@
   (tromba2 "Tromba II" () (#:notes "tromba2"))
   (tympani "Timpani" () (#:notes "tympani" #:clef "bass"))
   (bassi "Bassi" () (#:notes "bassi" #:clef "bass" #:score-template "score-bassi"))
-  (vocal "Vocal parts and keyboard reduction" () (#:score "score-vocal")))
+  (vocal "Vocal parts" () (#:score-template "score-vocal"))
+  (vocal-keyboard "Vocal parts and keyboard reduction" () (#:score-template "score-vocal-keyboard"))
+  (keyboard "Keyboard reduction" () (#:score-template "score-keyboard"))
+)
 
 part=
 #(define-music-function (parser location act-title) (string?)
