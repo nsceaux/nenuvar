@@ -4,4 +4,6 @@
                    (oboe1 #:instrument "Oboe" #:notes "oboe1")
                    (oboe2 #:instrument "Oboe" #:notes "oboe2")
                    (vocal)
+                   (vocal-keyboard)
+                   (keyboard)
                    (bassi))

@@ -5,4 +5,6 @@
                    (violino2)
                    (viola)
                    (vocal)
+                   (vocal-keyboard)
+                   (keyboard)
                    (bassi))
