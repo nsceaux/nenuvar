@@ -260,3 +260,10 @@ dpts =
                                         pitches))))
          (make-music 'SequentialMusic 'elements (list chord16. chord32 chord16. chord32)))))
    (make-music 'SequentialMusic 'elements (map make-16.-32-16.-32 (ly:music-property chords 'elements))))
+
+%% Staff change
+
+updown = { \change Staff = "down" \voiceOne }
+upup = { \change Staff = "up" \oneVoice }
+downup = { \change Staff = "up" \voiceTwo }
+downdown = { \change Staff = "down" \oneVoice }
