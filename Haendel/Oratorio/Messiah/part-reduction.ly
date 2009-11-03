@@ -203,7 +203,7 @@
   \pieceToc \markup { Recitative: \italic { Then shall be brought to pass } (contr'alto) }
   \includeScore "CErecitAlto"
   \pieceToc \markup { Duet: \italic { O death! where is thy string? } (contr'alto and tenor) }
-  \includeScore "CFduo"
+  \includeScore "CFBduo"
   \pieceToc \markup { Chorus: \italic { But thanks be to God } }
   \includeScore "CGchorus"
   \pieceToc \markup { Air: \italic { If God be for us } (soprano) }
