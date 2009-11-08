@@ -1,3 +1,19 @@
+diff --git a/lily/extender-engraver.cc b/lily/extender-engraver.cc
+index 041f904..f3f711d 100644
+--- a/lily/extender-engraver.cc
++++ b/lily/extender-engraver.cc
+@@ -98,11 +98,6 @@ Extender_engraver::stop_translation_timestep ()
+ 	    {
+ 	      Pointer_group_interface::add_grob (pending_extender_,
+ 						 ly_symbol2scm ("heads"), h);
+-             if (!melisma_busy (voice))
+-               {
+-                 completize_extender (pending_extender_);
+-                 pending_extender_ = 0;
+-               }
+ 	    }
+ 	}
+       else
 diff --git a/lily/page-turn-page-breaking.cc b/lily/page-turn-page-breaking.cc
 index 97b5846..ce2de75 100644
 --- a/lily/page-turn-page-breaking.cc
