@@ -12,7 +12,7 @@
 \paper {
   tocTitle = "CONTENTS"
   #(define page-breaking (cond ((eqv? #f (ly:get-option 'part)) ly:optimal-breaking)
-                               ((memq (ly:get-option 'part) '(vocal vocal-keyboard keyboard)) ly:optimal-breaking)
+                               ((memq (ly:get-option 'part) '(vocal vocal-keyboard)) ly:optimal-breaking)
                                (else ly:page-turn-breaking)))
 }
 

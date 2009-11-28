@@ -170,9 +170,9 @@
 \bookpart {
   \pieceToc \markup { Chorus and soli: \italic { Since by man came death } }
   \includeScore "CBchorus"
-  \pieceToc \markup { Recitative: \italic { Behold, I tell you a mistery } (bass) }
 }
 \bookpart {
+  \pieceToc \markup { Recitative: \italic { Behold, I tell you a mistery } (bass) }
   \includeScore "CCrecitBass"
   \pieceToc \markup { Air: \italic { The trumpet shall sound } (bass) }
   \includeScore "CDairBass"

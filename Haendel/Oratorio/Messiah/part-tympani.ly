@@ -22,9 +22,6 @@
 %%% PART III
 %%%
 \partNoBreak "Part III"
-\pieceTocNb "3-4" \markup { Air: \italic { The trumpet shall sound } (bass) }
-\includeScore "CDairBass"
-
 \pieceTocNb "3-9" \markup { Chorus: \italic { Worthy is the Lamb } }
 \includeScore "CIchorus"
 \pieceTocNb "3-10" \markup { Chorus: \italic { Amen } }

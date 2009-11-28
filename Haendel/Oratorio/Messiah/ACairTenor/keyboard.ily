@@ -44,11 +44,11 @@
       <sold'' dod''> <sold'' dod''> <sold'' dod''> <sold'' dod''> <fad'' dod''> <fad'' dod''> <fad'' fad'> <fad'' fad'> |
       <fad'' si'> <fad'' si'> <fad'' si'> <fad'' si'> <mi'' si'> <mi'' si'> <mi'' si' sold'> <mi'' si' sold'> |
       <mi'' dod'' lad'> <mi'' si'> <mi'' dod'' lad'> <mi'' si'> <mi'' dod'' lad'> <mi'' si'> <mi'' dod'' lad'> <mi'' si'> |
-      <mi'' dod'' lad'>4 <red'' si'> r2 |
+      <mi'' dod'' lad'>4 <red'' si'> r2 |\allowPageTurn
       r8 <fad' red' si>\p <sold' mi' si>( <fad' red' si>) <sold' mi' si>( <fad' red' si>) <sold' mi' si>( <fad' red' si>) |
       <sold'' mi''>( <fad'' red''>) <sold'' mi''>( <fad'' red''>) <sold'' mi''>( <fad'' red''>) <sold'' mi''> <dod'' lad' fad'>-| \f |
       << { red''8. mi''16 dod''4-\trill } \\ { <fad' si'>8 <sold' si'> si' lad' } >> <red' fad' si'>4 r |
-      R1 |
+      R1 |\allowPageTurn
       <mi'' si' sold'>4\f <sold'' mi'' si'> <la'' mi''> la' |
       r2 r4 r8 <sold'' re'' si'> |
       <la'' mi'' la'>4 r r r8 <sold'' si' mi''> |

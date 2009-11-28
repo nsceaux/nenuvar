@@ -138,14 +138,15 @@ dessus1 dessus2 haute-contre taille basse voix,part-bc,basse-continue))
 
 ### Haendel
 $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Opera/GiulioCesare,reduction,,))
-$(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Oratorio/Messiah,\
-violino1 violino2 violino3 viola oboe1 oboe2 bassi,,))
+
 $(eval $(call MAKE_PART_RULE_AUX,Haendel/Oratorio/Messiah,tromba1,part-tromba))
 $(eval $(call MAKE_PART_RULE_AUX,Haendel/Oratorio/Messiah,tromba2,part-tromba))
 $(eval $(call MAKE_PART_RULE_AUX,Haendel/Oratorio/Messiah,tympani,part-tympani))
 $(eval $(call MAKE_PART_RULE_AUX,Haendel/Oratorio/Messiah,vocal,part-vocal))
 $(eval $(call MAKE_PART_RULE_AUX,Haendel/Oratorio/Messiah,keyboard,part-keyboard))
 $(eval $(call MAKE_PART_RULE_AUX,Haendel/Oratorio/Messiah,vocal-keyboard,part-vocal-keyboard))
+$(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Oratorio/Messiah,\
+violino1 violino2 violino3 viola oboe1 oboe2 bassi,,))
 
 ### Pancrace Royer
 $(eval $(call MAKE_ALL_SCORE_RULES,PancraceRoyer/PremierLivre,,,))

@@ -48,7 +48,7 @@
       << { si''8[ la'']  } \\ <mi'' si'>4 >> <mi'' sold'' si'> <mi'' dod'' la''> |
       <fad'' re''' la''>2 <fad'' re''' la''>4 |
       <mi'' dod''' la''>2 r4 |
-      R2.*5 |
+      R2.*5 |\allowPageTurn
       r4 <red'' si' fad'> <sold'' mi''> |
       << { <fad'' red''>8 <mi'' dod''> <red'' si'>4 <sold'' mi''> } \\ { fad'2 si'4 } >> |
       << { <fad'' red''>8 <mi'' dod''> <red'' si'>4 } \\ fad'2 >> <si'' red'' fad''>4 |

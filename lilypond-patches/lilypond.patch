@@ -1,24 +1,8 @@
-diff --git a/lily/extender-engraver.cc b/lily/extender-engraver.cc
-index 041f904..f3f711d 100644
---- a/lily/extender-engraver.cc
-+++ b/lily/extender-engraver.cc
-@@ -98,11 +98,6 @@ Extender_engraver::stop_translation_timestep ()
- 	    {
- 	      Pointer_group_interface::add_grob (pending_extender_,
- 						 ly_symbol2scm ("heads"), h);
--             if (!melisma_busy (voice))
--               {
--                 completize_extender (pending_extender_);
--                 pending_extender_ = 0;
--               }
- 	    }
- 	}
-       else
 diff --git a/lily/page-turn-page-breaking.cc b/lily/page-turn-page-breaking.cc
-index 97b5846..ce2de75 100644
+index 163cdd1..0d64515 100644
 --- a/lily/page-turn-page-breaking.cc
 +++ b/lily/page-turn-page-breaking.cc
-@@ -125,12 +125,7 @@ Page_turn_page_breaking::calc_subproblem (vsize ending_breakpoint)
+@@ -136,12 +136,7 @@ Page_turn_page_breaking::calc_subproblem (vsize ending_breakpoint)
        int p_num = robust_scm2int (book_->paper_->c_variable ("first-page-number"), 1);
        if (start > 0)
          {
@@ -31,7 +15,7 @@ index 97b5846..ce2de75 100644
          }
  
        Line_division min_division;
-@@ -252,10 +247,6 @@ Page_turn_page_breaking::make_pages (vector<Break_node> const &soln, SCM systems
+@@ -263,10 +258,6 @@ Page_turn_page_breaking::make_pages (vector<Break_node> const &soln, SCM systems
      {
        for (vsize j = 0; j < soln[i].page_count_; j++)
  	lines_per_page.push_back (soln[i].system_count_[j]);
