@@ -23,20 +23,22 @@
   \includeScore "ABrecitTenor"
   \pieceToc \markup { Air: \italic { Every valley shall be exhalted } (tenor) }
   \includeScore "ACairTenor"
-  \pieceToc \markup { Chorus: \italic { And the glory of the Lord } }
-  \includeScore "ADchorus"
 }
 \bookpart {
+  \pieceToc \markup { Chorus: \italic { And the glory of the Lord } }
+  \includeScore "ADchorus"
   \pieceToc \markup { Recitative: \italic { Thus saith the Lord of Hosts } (bass) }
   \includeScore "AErecitBass"
   \pieceToc \markup { Air: \italic { But who may abide the day of His coming } (contr'alto) }
   \includeScore "AFBairAlto"
-  \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
-  \includeScore "AGchorus"
 }
 \bookpart {
+  \pieceToc \markup { Chorus: \italic { And He shall purify the sons of Levi } }
+  \includeScore "AGchorus"
   \pieceToc \markup { Recitative: \italic { Behold, a virgin shall conceive } (contr'alto) }
   \includeScore "AHrecitAlto"
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { O thou that tellest good tidings } (contr'alto) }
   \includeScore "AIairAlto"
 }
@@ -49,14 +51,16 @@
 \bookpart {
   \pieceToc \markup { Air: \italic { The people that walked in darkness } (bass) }
   \includeScore "ALairBass"
-  \pieceToc \markup { Chorus: \italic { For unto us a child is born } }
-  \includeScore "AMchorus"
 }
 \bookpart {
+  \pieceToc \markup { Chorus: \italic { For unto us a child is born } }
+  \includeScore "AMchorus"
   \pieceTocTitle "Pifa"
   \includeScore "ANpifa"
   \pieceToc \markup { Recitative: \italic { There were sheperds abiding } (soprano) }
   \includeScore "AOrecitSoprano"
+}
+\bookpart {
   \pieceToc \markup { Recitative: \italic { And lo! the angel of the Lord } (soprano) }
   \includeScore "APrecitSoprano"
   \pieceToc \markup { Recitative: \italic { And the angel said unto them } (soprano) }
@@ -67,16 +71,16 @@
 \bookpart {
   \pieceToc \markup { Chorus: \italic { Glory to God in the highest } }
   \includeScore "ASchorus"
+}
+\bookpart {
   \pieceToc \markup { Air: \italic { Rejoice greatly, O daughter of Zion } (soprano) }
   \includeScore "ATairSoprano"
-}
-\bookpart {
   \pieceToc \markup { Recitative: \italic { Then shall the eyes of the blind } (alto) }
   \includeScore "AUBrecitAlto"
-  \pieceToc \markup { Air: \italic { He shall feed His flock } (alto, soprano) }
-  \includeScore "AVBairAltoSoprano"
 }
 \bookpart {
+  \pieceToc \markup { Air: \italic { He shall feed His flock } (alto, soprano) }
+  \includeScore "AVBairAltoSoprano"
   \pieceToc \markup { Chorus: \italic { His yoke is easy, His burthen } }
   \includeScore "AWchorus"
   \actEnd \markup { END OF THE FIRST PART }
@@ -100,8 +104,6 @@
 }
 \bookpart {
   \includeScore "BDchorus"
-}
-\bookpart {
   \pieceToc \markup { Chorus: \italic { All we like sheep have gone } }
   \includeScore "BEchorus"
   \pieceToc \markup { Recitative: \italic { All they that see Him } (tenor) }

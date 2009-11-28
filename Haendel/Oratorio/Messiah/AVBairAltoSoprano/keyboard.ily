@@ -153,7 +153,7 @@
       do1. |
       fa4 sib,8 do4 do,8 fa4 mib8 re4 do8 |
       sib,1. ~|
-      sib, ~|
+      sib, ~|\allowPageTurn
       sib,4. ~ sib,4 sib8 la4 sol8 fa4 mib8 |
       re4. fa sol4 fa8 mi4 re8 |
       do1. |

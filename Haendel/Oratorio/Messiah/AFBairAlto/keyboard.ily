@@ -35,7 +35,7 @@
       r4 <la' fa' do'>8 |
       <sib' sol' mi'> <re'' sib'>16 <do'' la'> <sib' sol'> <la' fa'> |
       <la' fa'>8 <sol' mi'> r |
-      R4.*14 |
+      R4.*14 |\allowPageTurn
       \repeat tremolo 8 <fa'' la' do''>16 \repeat tremolo 8 <sib' mi' sib> |
       \repeat tremolo 4 <do'' do' fa'> \repeat tremolo 4 <fa' do' la>
       \repeat tremolo 4 <la' fa' do'> \repeat tremolo 4 <do'' la' fa'> |

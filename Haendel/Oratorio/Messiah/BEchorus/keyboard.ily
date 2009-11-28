@@ -43,7 +43,7 @@
       do''4 <do'' do'>8 <do'' do'> do''4 <do''' do''>8 <do''' do''> |
       do'''4 <do'' do'>8 <do'' do'> do'4 <fa'' fa' do''>8 <mi'' la' do''> |
       <re'' sib'> <do'' la'> <sib' sol'> <la' fa'> <sol' mi'>4 fa'8 mi' |
-      re' do' sib la sol4 r |
+      re' do' sib la sol4 r |\allowPageTurn
       r2 r4 r8 <sol'' mi'' do''> |
       <do''' fa'' do''>4 <la'' fa'' do''> <sol'' mi'' do''> r8 do' |
       re' do' fa' mi' la' sol' r8 fa'8 |

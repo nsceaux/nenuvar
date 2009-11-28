@@ -68,7 +68,7 @@
       r <re'' si' sol'> r <mi'' si' sol'> |
       r <mi'' do'' la'> r8 <re'' si' mi'> <do'' la' mi'>8. <si' sol'>16 |
       <la' fad'>8 <re' fad'> <re'' sol' re'>4 r2 |
-      R1*5 |
+      R1*5 |\allowPageTurn
       r2 r16 <mi'' do''> <fa'' re''> <sol'' mi''> <la'' fa''> <sol'' mi''> <la'' fa''> <fa'' re''> |
       <sol'' mi''> <fa'' re''> <sol'' mi''> <fa'' re''> <mi'' do''> <fa'' re''> <mi'' do''> <fa'' re''>
       <sol'' mi''> <fa'' re''> <sol'' mi''> <fa'' re''> <mi'' do''> <fa'' re''> <mi'' do''> <fa'' re''> |

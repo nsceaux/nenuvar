@@ -43,7 +43,7 @@
       r4 r8 <mib'' do''> <reb'' sib'> <do'' lab'> r <reb'' sib'> |
       <do'' lab'> <sib' sol'> r <sib' sol' mib'> << { <sib' sol'>4 <lab' fa'> } \\ { do'4. do'8 } >> |
       <lab' fa' re'>4 <sol' mib' sol> r2 |
-      R1 |
+      R1 |\allowPageTurn
       r4 r8 <sib' sol'>\f << { mib''4 fa'' } \\ { sol'8 sib' <mib'' do''> <re'' sib'> } >> |
       <sol'' mib'' sib'> <fa'' re'' sib'> r <sol'' re''> << { lab'' sol''16 fa'' sol''8 mib'' }
                                                             \\ { mib'' <re'' sib'> sib' do'' } >> |
