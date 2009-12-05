@@ -115,6 +115,8 @@ $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,trompette,part-t
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,timbales,part-trompette-timbales))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,cor,part-cor))
 
+$(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/PiecesDeClavecinEnConcerts,violon flute viole clavecin,,))
+
 ### Couperin
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Orgue/MesseCouvents,,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Motets,,,))

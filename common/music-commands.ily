@@ -267,3 +267,9 @@ updown = { \change Staff = "down" \voiceOne }
 upup = { \change Staff = "up" \oneVoice }
 downup = { \change Staff = "up" \voiceTwo }
 downdown = { \change Staff = "down" \oneVoice }
+
+%% repeats
+
+ru =
+#(define-music-function (parser location times music) (number? ly:music?)
+   (make-repeat "unfold" times music '()))

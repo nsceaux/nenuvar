@@ -63,8 +63,8 @@
     \Score
     \name Score
     \override BarNumber #'padding = #2 
+    \override InstrumentName #'font-size = #1.0
     \override InstrumentName #'space-alist = #'((left-edge extra-space . 2.0))
-    %\override VerticalAlignment #'max-stretch = #ly:align-interface::calc-max-stretch
     \accepts "StaffGroupNoBar"
     skipBars = ##t
   }
