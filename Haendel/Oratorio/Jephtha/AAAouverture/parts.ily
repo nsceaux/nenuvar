@@ -1,0 +1,8 @@
+\piecePartSpecs #'((violino1 #:notes "tutti1")
+                   (violino2)
+                   (viola)
+                   (oboe1 #:notes "tutti1")
+                   (oboe2 #:notes "tutti1")
+                   (bassi)
+                   (keyboard)
+                   (vocal-keyboard #:score-template "score-keyboard"))

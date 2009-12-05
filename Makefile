@@ -148,6 +148,8 @@ $(eval $(call MAKE_PART_RULE_AUX,Haendel/Oratorio/Messiah,vocal-keyboard,part-vo
 $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Oratorio/Messiah,\
 violino1 violino2 violino3 viola oboe1 oboe2 bassi,,))
 
+$(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Oratorio/Jephtha,,,))
+
 ### Pancrace Royer
 $(eval $(call MAKE_ALL_SCORE_RULES,PancraceRoyer/PremierLivre,,,))
 
