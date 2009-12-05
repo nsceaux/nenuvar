@@ -3,6 +3,6 @@
                    (viola)
                    (oboe1 #:notes "tutti1")
                    (oboe2 #:notes "tutti1")
-                   (bassi)
+                   (bassi #:score-template "score")
                    (keyboard)
                    (vocal-keyboard #:score-template "score-keyboard"))

@@ -16,4 +16,5 @@
 \bookpart {
   \ouverture "Ouverture"
   \includeScore "AAAouverture"
+  \includeScore "AABmenuet"
 }
