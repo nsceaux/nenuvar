@@ -180,7 +180,7 @@
   \includeScore "CErecitAlto"
 }
 \bookpart {
-  \pieceToc \markup { Duet: \italic { O death! where is thy string? } (contr'alto and tenor) }
+  \pieceToc \markup { Duet: \italic { O death! where is thy sting? } (contr'alto and tenor) }
   \includeScore "CFBduo"
 }
 \bookpart {

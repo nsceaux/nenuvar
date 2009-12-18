@@ -132,7 +132,7 @@
   \includeScore "CDairBass"
   \pieceToc \markup { Recitative: \italic { Then shall be brought to pass } (contr'alto) }
   \includeScore "CErecitAlto"
-  \pieceToc \markup { Duet: \italic { O death! where is thy string? } (contr'alto and tenor) }
+  \pieceToc \markup { Duet: \italic { O death! where is thy sting? } (contr'alto and tenor) }
   \includeScore "CFBduo"
   \pieceToc \markup { Chorus: \italic { But thanks be to God } }
   \includeScore "CGchorus"
