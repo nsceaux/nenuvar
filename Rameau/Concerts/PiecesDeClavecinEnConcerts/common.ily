@@ -13,6 +13,9 @@
 \setOpus "Rameau/Concerts/PiecesDeClavecinEnConcerts"
 \opusTitle "Pièces de clavecin en concerts"
 
+\layout {
+  indent = \largeindent
+}
 
 \opusPartSpecs #`(
   (violon "Violon" () (#:notes "violon"))
@@ -20,3 +23,7 @@
   (viole "Viole" () (#:notes "viole" #:clef "bass"))
   (clavecin "Clavecin" () (#:score-template "score-clavecin"))
 )
+
+mordentC=\mordent
+mordentA=\mordent
+mordentB=\mordent

@@ -25,36 +25,44 @@
   maintainerEmail = "nicolas.sceaux@free.fr"
   maintainerWeb = "http://nicolas.sceaux.free.fr"
   copyright = \markup \copyright
-  longcopyright = \markup \center-column {
-    \line { \copyright }
-    \line { Licensed under the Creative Commons Attribution 3.0 License }
+  longcopyright = \markup \column {
+    \fill-line { \copyright }
+    \fill-line { "Licensed under the Creative Commons Attribution 3.0 License" }
   }
   
   tagline = \markup { 
     \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7)
-    \box \center-column {
-      \small \line {
-        \copyright
-        \with-url #"http://nicolas.sceaux.free.fr" \teeny "<nicolas.sceaux@free.fr>"
-        \hspace #-1 .
+    \box \column {
+      \small \fill-line {
+        \line {
+          \copyright
+          \with-url #"http://nicolas.sceaux.free.fr" \teeny "<nicolas.sceaux@free.fr>"
+          \hspace #-1 .
+        }
       }
-      \small \line {
-        Sheet music from \with-url #"http://nicolas.sceaux.free.fr"
-        \typewriter \tiny http://nicolas.sceaux.free.fr
-        typeset using \with-url #"http://www.LilyPond.org" 
-        \line { \teeny www. \hspace #-1.0 LilyPond \hspace #-1.0 \teeny .org }
-        #(ly:export (string-append "version " (lilypond-version)))
-        on \concat { \today . }
+      \small \fill-line {
+        \line {
+          Sheet music from \with-url #"http://nicolas.sceaux.free.fr"
+          \typewriter \tiny http://nicolas.sceaux.free.fr
+          typeset using \with-url #"http://www.LilyPond.org" 
+          \line { \teeny www. \hspace #-1.0 LilyPond \hspace #-1.0 \teeny .org }
+          #(ly:export (string-append "version " (lilypond-version)))
+          on \concat { \today . }
+        }
       }
-      \small \line {
-        \italic Free to download, with the \italic freedom
-        to distribute, modify and perform.
+      \small \fill-line {
+        \line {
+          \italic Free to download, with the \italic freedom
+          to distribute, modify and perform.
+        }
       }
-      \teeny \line { 
-        Licensed under the Creative Commons Attributio 3.0 License,
-        for details see: \hspace #-0.5 
-        \with-url #"http://creativecommons.org/licenses/by/3.0" 
-        http://creativecommons.org/licenses/by/3.0
+      \teeny \fill-line {
+        \line {
+          Licensed under the Creative Commons Attributio 3.0 License,
+          for details see: \hspace #-0.5 
+          \with-url #"http://creativecommons.org/licenses/by/3.0" 
+          http://creativecommons.org/licenses/by/3.0
+        }
       }
     }
   }
@@ -67,7 +75,7 @@
     \when-property #'header:poet \column { \null \null \null }
     \fill-line { \fontsize #6 \italic \fromproperty #'header:poet }
     \null \null \null \null \null \null
-    \fill-line { \fontsize #12
+    \fontsize #12 \fill-line {
                  \apply-fromproperty #make-smallCaps-markup #'header:title }
     \null \null \null \null \null \null
     \fill-line { \postscript #(format #f "~a 0 moveto ~a 0 rlineto stroke"
