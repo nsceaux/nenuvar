@@ -2,6 +2,7 @@
   \new Staff = "up" <<
     \global \clef "treble"
     \new Voice = "one" {
+      \tempo "Rondeau gracieux"
       \override Staff.NoteCollision #'merge-differently-dotted = ##t
       \voiceOne sol'4 do'' |
       do''8( sib') lab'8( sol') \oneVoice lab'4.\mordentC sib'8 |
@@ -115,12 +116,3 @@
     }
   >>
 >>
-
-
-
-
-
-
-
-
-

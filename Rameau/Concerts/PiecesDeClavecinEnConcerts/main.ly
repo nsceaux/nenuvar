@@ -11,6 +11,8 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   %% Title page
   \markup \null \pageBreak
+  %% notes
+  \markup \null \pageBreak
   %% Table of contents
   \markuplines \table-of-contents
 }
@@ -27,4 +29,7 @@
 \bookpart {
   \pieceTocTitle "La Livri"
   \includeScore "ABlivri"
+}
+\bookpart {
+  \includeScore "AClivri"
 }

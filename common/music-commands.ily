@@ -273,3 +273,20 @@ downdown = { \change Staff = "down" \oneVoice }
 ru =
 #(define-music-function (parser location times music) (number? ly:music?)
    (make-repeat "unfold" times music '()))
+
+%% Tweak on articulations
+
+tweakArticulation =
+#(define-music-function (parser location property value music)
+     (symbol? scheme? ly:music?)
+   "Like \\tweak, but apply the tweak to articulation event found
+found inside @var{music}."
+   (if (equal? (object-property property 'backend-type?) #f)
+       (begin
+	 (ly:warning (_ "cannot find property type-check for ~a") property)
+	 (ly:warning (_ "doing assignment anyway"))))
+   (for-each (lambda (event)
+               (set! (ly:music-property event 'tweaks)
+                     (acons property value (ly:music-property event 'tweaks))))
+             (ly:music-property music 'articulations))
+   music)

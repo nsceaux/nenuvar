@@ -15,6 +15,9 @@
 
 \layout {
   indent = \largeindent
+  \context {
+    \Staff \override NoteCollision #'merge-differently-dotted = ##t
+  }
 }
 
 \opusPartSpecs #`(
@@ -24,6 +27,7 @@
   (clavecin "Clavecin" () (#:score-template "score-clavecin"))
 )
 
-mordentC=\mordent
-mordentA=\mordent
-mordentB=\mordent
+mordentC = \mordent
+mordentA = \mordent
+mordentB = \mordent
+trill = #(make-articulation "stopped")
