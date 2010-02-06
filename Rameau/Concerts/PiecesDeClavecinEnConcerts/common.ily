@@ -16,7 +16,8 @@
 \layout {
   indent = \largeindent
   \context {
-    \Staff \override NoteCollision #'merge-differently-dotted = ##t
+    \Staff
+    \override NoteCollision #'merge-differently-dotted = ##t
   }
 }
 
