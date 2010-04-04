@@ -10,6 +10,7 @@
 
 \include "italiano.ly"
 \include "common/common.ily"
+\include "common/side-ornementations.ily"
 \setOpus "Rameau/Concerts/PiecesDeClavecinEnConcerts"
 \opusTitle "Pièces de clavecin en concerts"
 
@@ -28,7 +29,24 @@
   (clavecin "Clavecin" () (#:score-template "score-clavecin"))
 )
 
-mordentC = \mordent
-mordentA = \mordent
-mordentB = \mordent
 trill = #(make-articulation "stopped")
+mordentA=\mordent
+mordentB=\mordent
+mordentC=\mordent
+
+#(define-public (barre-down-note-head grob)
+  (ly:stencil-combine-at-edge
+   (ly:note-head::print grob)
+   1
+   -1
+   (ly:make-stencil
+    (list 'draw-line 0.1 -0.9 -1.1 1.6 -0.6)
+    '(0 . 0)
+    '(0 . 0))))
+barreDown =
+#(define-music-function (parser location note) (ly:music?)
+   (set! (ly:music-property note 'tweaks)
+         (acons 'stencil barre-down-note-head
+                (ly:music-property note 'tweaks)))
+   note)
+

@@ -53,7 +53,7 @@
       fa'' re'' mi'' do'' re'' si' do'' la' |
       sold' mi' fad' re' mi' do' re' si |
       do'~ mi' la'~ do' la'4 s |
-      <do' mi' la'\mordentB>1 |
+      <do' mi' \parb la'>1 |
       do''8 si' la' sol' fa' mi' re' do' |
       do''4 r r2 |
       do''8 si' la' sol' fa' mi' re' do' |
@@ -75,7 +75,7 @@
       la''8 fa'' sol'' mi'' \oneVoice fa'' re'' mi'' do'' |
       si' sol' la' fa' sol' mi' fa' re' |
       mi'( sol' do'' mi') \voiceOne do''4 s |
-      \oneVoice <mi' sol' do''\mordentB>1 |
+      \oneVoice <mi' sol' \parb do''>1 |
       <mi' sol' do''>8 <mi'' sol''> q q q q q q | %% petite reprise
       <si' re''> <re'' fa''> q q <si' re''> <re'' fa''> <sol' si'> <re'' fa''> |
       <do'' mi''> <mi'' sol''> q q q q q q |
@@ -84,7 +84,7 @@
       la''8 fa'' sol'' mi'' \oneVoice fa'' re'' mi'' do'' |
       si' sol' la' fa' sol' mi' fa' re' |
       mi'( sol' do'' mi') \voiceOne do''4 s |
-      \oneVoice <mi' sol' do''\mordentB>1 |
+      \oneVoice <mi' sol' \parb do''>1 |
       R1 |
     }
     \new Voice = "two" {
@@ -157,16 +157,16 @@
       <sol, sol,,> sol4( fad)\prall |
       \voiceOne mi2 \downup \voiceOne <mi'' sol''> |
       <sol'' do'''> \downdown \voiceOne <mi sol> |
-      fa\mordentA \downup \voiceOne <fa'' la''> |
+      \para fa \downup \voiceOne <fa'' la''> |
       <la'' do'''> \downdown fa4( mi\prall) |
       \voiceOne re2 \downup \voiceOne <fad'' la''> |
       <la'' re'''> \downdown \voiceOne <fad la> |
-      sol2\mordentA \downup \voiceOne <sol'' si''> |
+      \para sol2 \downup \voiceOne <sol'' si''> |
       <si'' re'''> \downdown sol4( fad\prall) |
       \voiceOne mi2 \downup \voiceOne <sold'' si''> |
       <si'' mi'''> \downdown \voiceOne <sold si> |
-      la2\mordentA \downup \voiceOne <la'' do'''> |
-      <do''' mi'''> \downdown \voiceOne la\mordentA |
+      \para la2 \downup \voiceOne <la'' do'''> |
+      <do''' mi'''> \downdown \voiceOne \para la |
       \oneVoice re4 mi fa re |
       mi fad sold mi |
       \voiceOne la2 mi |
@@ -174,7 +174,7 @@
       la,4 r r2 |
       mi,8 fa, sol, la, si, do re mi |
       mi,4 r r mi |
-      \voiceOne fa2\mordentA \downup \voiceOne <do'' fa''> |
+      \voiceOne \para fa2 \downup \voiceOne <do'' fa''> |
       <fa'' la''> \downdown fa4 fa, |
       mi mi, \downup \voiceOne <do'' mi''>2 |
       <mi'' sol''> \downdown mi4 mi, |

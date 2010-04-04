@@ -33,3 +33,7 @@
 \bookpart {
   \includeScore "AClivri"
 }
+\bookpart {
+  \pieceTocTitle "Le Vézinet"
+  \includeScore "ADvezinet"
+}

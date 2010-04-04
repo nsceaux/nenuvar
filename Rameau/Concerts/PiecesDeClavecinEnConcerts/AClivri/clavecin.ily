@@ -11,8 +11,8 @@
       <la sol'>) sib( sol') do'(~ <do' sol'>) lab( fa') sib(~ |
       <sib fa'>) \updown\tieDown sol( mib') lab(~ <lab mib'>) fa( re') sol(~ |
       <sol re'>) mib( do') lab do' re do' <fa sol si> |
-      <\tweakArticulation #'Y-offset #-1 mib\mordentB sol \tweakArticulation #'Y-offset #6.5 do'\mordentB>2 \upup mib'8( sol') do' la\laissezVibrer |\break %% reprise |
-      \updown <\tweakArticulation #'Y-offset #-1 mib\mordentB sol \tweakArticulation #'Y-offset #6.5 do'\mordentB>2
+      <\parb mib sol \parb do'>2 \upup mib'8( sol') do' la\laissezVibrer |\break %% reprise |
+      \updown <\parb mib sol \parb do'>2
       \upup r4 r8 <do' mib'> |
       <do' mib'>4( <si re'>8) r r4 \voiceOne r8 <re' fa'> \oneVoice |
       q4( <do' mib'>8) r r4 r8 <mib' sol'> |
@@ -20,12 +20,12 @@
       q4( <mib' sol'>8) r r4 sol'8 sib' |
       \voiceOne sib'4. s8 lab'4. sol'8 |\oneVoice
       <re' fa'>4\prall sib'8 do'' \voiceOne re'' mib'' fa'' re'' |\oneVoice
-      mib''\mordentA sib' lab'\prall sol' sib' mib'( sol') sib |
+      \para mib'' sib' lab'\prall sol' sib' mib'( sol') sib |
       do'( mib') \updown <fa lab>( <sib re'>) <sol sib mib'> mib'( \upup sol') sib |
       do'( mib') \updown <fa lab>( <sib re'>) <sol sib mib'> mib'( \upup sol') sib |
       do' re' mib'( do') mib'4. re'8 |
       <sol sib mib'>2 mib'8( sol') do' la\laissezVibrer |\break %% reprise du rondeau
-      \updown <\tweakArticulation #'Y-offset #-1 mib\mordentB sol \tweakArticulation #'Y-offset #6.5 do'\mordentB>2
+      \updown <\parb mib sol \parb do'>2
       \upup do'8( mib' sol' la') |
      \voiceOne re'( fad' sol' sib') \oneVoice la( do' re' fad') |
       sol( sib re' sol') re''( sib') mib''( do'') |
@@ -55,37 +55,37 @@
     \global \clef "bass"
     \new Voice = "one" {
       \set tieWaitForNote = ##t
-      \voiceOne do2\mordentA |
+      \voiceOne \para do2 |
       \oneVoice sol,8( sol) mi,( mi) fa,( fa) re,( re) |
       \voiceTwo mib,( mib) do,( do) re,( re) si,,( si,) |
       sib,4\rest do fa,4. re,8 |
       sol,8 fa mib\prall re \voiceOne do2 |
       \oneVoice sol,8( sol) mi,( mi) fa,( fa) re,( re) |
       \voiceTwo mib,( mib) do,( do) re,( re) si,,( si,) |
-      do,8( do) fa,4 \once\override Script #'Y-offset = #0 sol,2^\mordentA |
-      do,8 sol, la, si, \voiceOne do2\mordentA | %% reprise
+      do,8( do) fa,4 \once\override Script #'Y-offset = #0 \para sol,2 |
+      do,8 sol, la, si, \voiceOne \para do2 | %% reprise
       \voiceTwo do,8 mib, sol, do \oneVoice mib8 sol do' do |
       sol,8 si, re sol si \downup re' fa' \downdown sol, |
-      do, mib, sol, do mib sol do'\mordentA mib |
-      sib, re fa sib \downup re' fa' lab'\mordentA \downdown sib, |
+      do, mib, sol, do mib sol \para do' mib |
+      sib, re fa sib \downup re' fa' \para lab' \downdown sib, |
       mib, sol, sib, mib sol sib mib' mib |
-      lab4.\mordentA sol8 fa4.\prall mib8 |
+      \para lab4. sol8 fa4.\prall mib8 |
       sib,2 sib4 lab |
       <sol sib mib' sol'>2 sol, |
       \voiceTwo lab,4 sib, sol,2 |
       lab,4 sib, sol,2 |
       \voiceOne \tieDown mib8 fa sol4 fa8~ sib <fa lab>4 |
-      <mib mib,>8 fa mib\prall re do2\mordentA | %% reprise du rondeau
-      \voiceTwo do,8 sol, la, si, \voiceOne do2\mordentA |
-      sib,\mordentA la,\mordentA |
-      sol,\mordentA sol\mordentA |
-      fad\prall fa\mordentA |
-      mi\prall mib\mordentA |
+      <mib mib,>8 fa mib\prall re \para do2 | %% reprise du rondeau
+      \voiceTwo do,8 sol, la, si, \voiceOne \para do2 |
+      \para sib, \para la, |
+      \para sol, \para sol |
+      fad\prall \para fa |
+      mi\prall \para mib |
       \oneVoice <re, re>8 do' sib\prall la sib4. do'8 |
       sib2 la4. sol8 |
       fad4\prall fa mib re |
-      do sib,8\mordentA do \voiceOne re2 |
-      \oneVoice <sol,, sol,>8 sol, la, si, \voiceOne do2\mordentA |
+      do \para sib,8 do \voiceOne re2 |
+      \oneVoice <sol,, sol,>8 sol, la, si, \voiceOne \para do2 |
     }
     \new Voice = "two" {
       \voiceTwo r4 do, |
