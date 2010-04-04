@@ -4,7 +4,8 @@
 \bookpart {
   \header {
     title = \markup \column {
-      \fill-line { "PIÈCES DE CLAVECIN" }
+      \fill-line { "PIÈCES DE" }
+      \fill-line { "CLAVECIN" }
       \fill-line { "EN CONCERTS" }
     }
   }
@@ -36,4 +37,12 @@
 \bookpart {
   \pieceTocTitle "Le Vézinet"
   \includeScore "ADvezinet"
+}
+%%%
+%%% Deuxième Concert
+%%%
+\bookpart {
+  \act "Deuxième Concert"
+  \pieceTocTitle "La Laborde"
+  \includeScore "BAlaborde"
 }

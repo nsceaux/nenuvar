@@ -156,13 +156,19 @@ parc =
                       (markup #:fontsize -4 #:musicglyph "accidentals.rightparen")
                       RIGHT))
 
-
 %% Prall after note head
 pralla =
 #(define-music-function (parser loc arg) (ly:music?)
    (side-ornate-event arg
-                      (markup #:concat #:hspace 0.2 #:musicglyph "scripts.prall")
+                      (markup #:concat (#:hspace 0.2 #:musicglyph "scripts.prall"))
                       RIGHT))
+
+%% Prall before note head
+prallb =
+#(define-music-function (parser loc arg) (ly:music?)
+   (side-ornate-event arg
+                      (markup #:concat (#:musicglyph "scripts.prall" #:hspace 0.2))
+                      LEFT))
 
 %%%
 
