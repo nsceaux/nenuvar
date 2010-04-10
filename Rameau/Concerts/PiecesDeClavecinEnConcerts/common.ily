@@ -50,3 +50,42 @@ barreDown =
                 (ly:music-property note 'tweaks)))
    note)
 
+#(define-public (barre-up-note-head grob)
+  (ly:stencil-combine-at-edge
+   (ly:note-head::print grob)
+   1
+   -1
+   (ly:make-stencil
+    (list 'draw-line 0.1 -0.2 1.6 2.3 2.8)
+    '(0 . 0)
+    '(0 . 0))))
+barreUp =
+#(define-music-function (parser location note) (ly:music?)
+   (set! (ly:music-property note 'tweaks)
+         (acons 'stencil barre-up-note-head
+                (ly:music-property note 'tweaks)))
+   note)
+
+%%%
+%%% Collision avoidance
+%%%
+shiftNote =
+#(define-music-function (parser location amount) (number?)
+   #{
+\once \override NoteHead #'X-offset = #$amount
+\once \override Stem #'X-offset = #$amount
+\once \override Beam #'X-offset = #$amount
+      #})
+
+shiftRest =
+#(define-music-function (parser location amount) (number?)
+   #{
+\once \override Rest #'X-offset = #$amount
+      #})
+
+stemLength =
+#(define-music-function (parser location len) (number?)
+   #{
+\once \override Voice.Stem #'length-fraction = #$len
+\once \override Voice.Beam #'length-fraction = #$len
+          #})
