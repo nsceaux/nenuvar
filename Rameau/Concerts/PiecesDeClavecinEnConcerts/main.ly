@@ -50,3 +50,7 @@
   \pieceTocTitle "La Boucon"
   \includeScore "BBboucon"
 }
+\bookpart {
+  \pieceTocTitle "L'Agaçante"
+  \includeScore "BCagacante"
+}
