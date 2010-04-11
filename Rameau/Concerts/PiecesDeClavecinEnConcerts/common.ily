@@ -30,9 +30,21 @@
 )
 
 trill = #(make-articulation "stopped")
-mordentA=\mordent
-mordentB=\mordent
-mordentC=\mordent
+
+%% Suspension
+#(define-markup-command (suspension layout props) ()
+   (interpret-markup layout props
+     (make-with-dimensions-markup '(-0.4 . 1.6) '(0 . 1.3)
+       (make-postscript-markup "
+  0.2 setlinewidth
+  1.6 -0.2 moveto
+  0.6 -0.2 1 0 180 arc
+  stroke
+  0.6 1.1 0.3 0 361 arc
+  stroke"))))
+
+suspension=^\markup \suspension
+
 
 #(define-public (barre-down-note-head grob)
   (ly:stencil-combine-at-edge
