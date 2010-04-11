@@ -58,3 +58,7 @@
   \pieceTocTitle "Menuet"
   \includeScore "BDmenuet"
 }
+\bookpart {
+  \pieceTocTitle "L'Agaçante"
+  \includeScore "BEagacante"
+}
