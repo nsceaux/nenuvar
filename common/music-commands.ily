@@ -196,11 +196,11 @@ stopHaraKiri = \unset Staff.keepAliveInterfaces
 
 noHaraKiri = \set Staff.keepAliveInterfaces =
 #'(multi-measure-interface
-rhythmic-grob-interface
-lyric-interface
-percent-repeat-item-interface
-percent-repeat-interface
-stanza-number-interface)
+   rhythmic-grob-interface
+   lyric-interface
+   percent-repeat-item-interface
+   percent-repeat-interface
+   stanza-number-interface)
 revertNoHaraKiri = \unset Staff.keepAliveInterfaces
 
 %%%

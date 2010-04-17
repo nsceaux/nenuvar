@@ -70,3 +70,7 @@
   \pieceTocTitle "La Lapoplinière"
   \includeScore "CAlapopliniere"
 }
+\bookpart {
+  \pieceTocTitle "La Timide"
+  \includeScore "CBtimide"
+}
