@@ -112,6 +112,11 @@
     fontSize = #-2
     \override StaffSymbol #'staff-space = #(magstep -2)
   }
+  \context {
+    \PianoStaff
+    \name PianoStaff
+    \override StaffGrouper #'between-staff-spacing #'stretchability = #1
+  }
 }
 
 pageBreakCond =

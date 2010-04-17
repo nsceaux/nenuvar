@@ -62,3 +62,11 @@
   \pieceTocTitle "L'Agaçante"
   \includeScore "BEagacante"
 }
+%%%
+%%% Troisième Concert
+%%%
+\bookpart {
+  \act "Troisième Concert"
+  \pieceTocTitle "La Lapoplinière"
+  \includeScore "CAlapopliniere"
+}
