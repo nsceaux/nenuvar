@@ -74,3 +74,7 @@
   \pieceTocTitle "La Timide"
   \includeScore "CBtimide"
 }
+\bookpart {
+  \pieceTocTitle "Tambourin"
+  \includeScore "CCtambourin"
+}
