@@ -82,3 +82,11 @@
   \pieceTocTitle "La Timide"
   \includeScore "CDtimide"
 }
+%%%
+%%% Quatrième Concert
+%%%
+\bookpart {
+  \act "Quatrième Concert"
+  \pieceTocTitle "La Pantomime"
+  \includeScore "DApantomime"
+}
