@@ -1,5 +1,5 @@
 R2 |
-s16 mi' mi'( mi'') mi''4 |
+r16 mi' mi'( mi'') mi''4 |
 r16 la' la'( la'') la''4 |
 r16 fad'' re'' si' sold' si' mi' sold' |
 \appoggiatura sold'8 la' la r4 |

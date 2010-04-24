@@ -90,3 +90,7 @@
   \pieceTocTitle "La Pantomime"
   \includeScore "DApantomime"
 }
+\bookpart {
+  \pieceTocTitle "L'Indiscrète"
+  \includeScore "DBindiscrete"
+}
