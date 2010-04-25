@@ -94,3 +94,10 @@
   \pieceTocTitle "L'Indiscrète"
   \includeScore "DBindiscrete"
 }
+\bookpart {
+  \pieceTocTitle "La Rameau"
+  \includeScore "DCrameau"
+}
+%%%
+%%% Cinquième Concert
+%%%
