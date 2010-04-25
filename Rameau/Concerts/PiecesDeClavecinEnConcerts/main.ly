@@ -106,3 +106,7 @@
   \pieceTocTitle "La Forqueray"
   \includeScore "EAforqueray"
 }
+\bookpart {
+  \pieceTocTitle "La Cupis"
+  \includeScore "EBcupis"
+}
