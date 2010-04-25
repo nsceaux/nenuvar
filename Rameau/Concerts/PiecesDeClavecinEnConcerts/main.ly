@@ -101,3 +101,8 @@
 %%%
 %%% Cinquième Concert
 %%%
+\bookpart {
+  \act "Cinquième Concert"
+  \pieceTocTitle "La Forqueray"
+  \includeScore "EAforqueray"
+}
