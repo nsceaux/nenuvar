@@ -110,3 +110,7 @@
   \pieceTocTitle "La Cupis"
   \includeScore "EBcupis"
 }
+\bookpart {
+  \pieceTocTitle "La Marais"
+  \includeScore "ECmarais"
+}
