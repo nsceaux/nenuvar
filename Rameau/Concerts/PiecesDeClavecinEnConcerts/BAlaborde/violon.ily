@@ -5,7 +5,7 @@ do''2 la'\trill |
 \appoggiatura la'8 si'2 r4 re'' |
 sol'4 sol'8( si') la'( do'') si'( re'') |
 do''2 la'\trill |
-\appoggiatura la'8 si'8*2/3[(-. re''-. do''])-. si'[(-. la'-. sol']-.) \appoggiatura sol'8 la'4 re' |
+\appoggiatura la'8 \times 2/3 { si'8[(-. re''-. do''])-. } si'8*2/3[(-. la'-. sol']-.) \appoggiatura sol'8 la'4 re' |
 sol'1~ |
 sol'2. fad'4\trill |
 \appoggiatura fad'8 sol'4 re'8( fad') mi'( sol') fad'( la') |

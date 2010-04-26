@@ -5,7 +5,7 @@ r4 <sol si>8( <si re'>) <la do'>( <do' mi'>) <si re'>( <re' fa'>) |
 <sol re' sol'>4 <sol si>8( <si re'>) <la do'>( <do' mi'>) <si re'>( <re' fa'>) |
 <do' mi'>2. <si sol'>4 |
 <la sol'>2 << { fad'4.\trill( mi'16 fad' ) } \\ re'2 >> |
-<\barreDown sol re' sol'>4 sol fad8*2/3[(-. la-. sol]-.) fad[-.( mi-. re]-.) |
+<\barreDown sol re' sol'>4 sol \times 2/3 { fad8[(-. la-. sol]-.) } fad8*2/3[-.( mi-. re]-.) |
 mi[-.( sol-. fad]-.) mi[-.( re-. do]-.) si,4 r |
 r4 sol'8( si') la'( do'') fad'( la') |
 re'4 si8( re') dod'( mi') re'( fad') |

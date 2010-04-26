@@ -1,1 +1,1 @@
-r2 R1*7 R1 R1 R1*11 R1 R1*9
+r2\noBreak R1*7\noBreak R1\noBreak R1\noBreak R1*35\noBreak r2
