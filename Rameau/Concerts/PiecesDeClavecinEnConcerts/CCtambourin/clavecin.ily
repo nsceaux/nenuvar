@@ -28,12 +28,6 @@
       mi' re' dod' re' mi'8 <si re' fad' la'> |
       <dod' mi' la'>4. <re' sold'>8\prall |
       <dod' mi' la'>4 <la dod' mi' la'> |
-      \ru#6 { <dod'' mi''>16 <si' re''> <la' dod''> <si' re''> }|
-      <dod'' mi''>4 r |
-      mi'16 re' dod' re' mi' re' dod' re' |
-      mi' re' dod' re' mi'8 <si re' fad' la'> |
-      <dod' mi' la'>4. <re' sold'>8\prall |
-      <dod' mi' la'>4 <la dod' mi' la'> |
       R2*2 |
       <si mi' sold' si'>4 q |
       q8 mi''mi' fad' |
@@ -97,11 +91,6 @@
       <si,, si,> q |
       <re re,> q |
       <la,, la,> q |
-      s2*4 |
-      r8 la la, si, |
-      dod la dod re |
-      mi4 mi, |
-      <la, la,,> q |
       s2*4 |
       r8 la la, si, |
       dod la dod re |

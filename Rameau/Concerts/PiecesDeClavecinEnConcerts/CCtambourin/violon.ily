@@ -25,12 +25,6 @@ dod'' la'' dod''\trill si' |
 mi'' la'' la' si' |
 dod'' la'' dod''\trill si' |
 la'4 la' |
-R2*3 |
-r8 la'' la' si' |
-dod'' la'' dod''\trill si' |
-mi'' la'' la' si' |
-dod'' la'' dod''\trill si' |
-la'4 la' |
 si'4 si' si'8 mi'' mi' fad' |
 sold' mi'' sold'\trill fad' |
 mi'4 mi' |

@@ -23,11 +23,6 @@ r8 la' la si |
 dod' la' dod'\trill si |
 mi' la' mi' mi |
 la4 la, |
-R2*4 |
-r8 la' la si |
-dod' la' dod'\trill si |
-mi' la' mi' mi |
-la4 la, |
 R2 |
 si4 si |
 si8 mi' mi fad |
