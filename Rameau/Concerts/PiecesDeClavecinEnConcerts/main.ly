@@ -114,3 +114,7 @@
   \pieceTocTitle "La Marais"
   \includeScore "ECmarais"
 }
+\bookpart {
+  \pieceTocTitle "L'Indiscrète"
+  \includeScore "EDindiscrete"
+}
