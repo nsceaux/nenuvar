@@ -48,7 +48,7 @@
       <mi' sold' si'>4. <si' re''>8 << do''4 \\ { la'8 fad' } >> |
       <si mi' sold' si'>4 r32 mi'( fad' sold' la' si' do'' re'') mi''( la' si' do'' re'' mi'' fad'' sold'') |
       la''8. <do'' la'>16 <sold' si'>4.\prall la'8 |
-      <do' mi' la'>8 do'' si'( la') sol'(\prall fad') |
+      <do' mi' la'>8 do'' sib'( la') sol'(\prall fad') |
       <re' \parc sol'>8. la'16 la'4.\prall sol'16 la' |
       <re' sib'>8 sib' la'( sol') fa'(\prall mi') |
       <do' \parc fa'>8. sol'16 sol'4.\prall fa'16 sol' |
@@ -65,6 +65,7 @@
       \updown <mi la dod' mi'>4 \upup r32 la si dod' re' mi' fa' sol'
       << { la'4~ | la'8. re''16 dod''4.\prall re''8 }
         \\ { la'8. <dod' mi'>16 <re' fa'>8. sib'16 mi'4 sol' }>> |
+      <fa' la' re''>2. |
       <fa' la' re''>2. |
     }
     \new Voice = "two" {
@@ -142,6 +143,7 @@
       \voiceTwo <sol, sol,,>2~ \oneVoice q8. <sol la~>16 |
       <fa la>8. sol16 la4~ <la la,> |
       << re4.*2/3 \\ r4 >> re,8 dod re mi |
+      <re, re>2. |
     }
   >>
 >>

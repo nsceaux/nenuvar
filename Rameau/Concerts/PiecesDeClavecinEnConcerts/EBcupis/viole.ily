@@ -53,3 +53,4 @@ r8 <dod' mi'> <mi' sol'>( <dod' mi'>) <re' fa'>( <si re'>) |
 <dod' mi'>2 r8 r16 mi' |
 fa'8.( mi'32)\trill re' la4 \clef "bass" la, |
 re,2. |
+re,2. |

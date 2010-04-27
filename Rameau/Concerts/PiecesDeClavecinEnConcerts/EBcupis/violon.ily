@@ -60,3 +60,4 @@ la''~ |
 la''2 r32 re''( mi'' fa'' sol'' la'' si'' dod''') |
 re'''8. fa''16 mi''4.\trill re''8 |
 re''2. |
+re''2. |

@@ -115,7 +115,7 @@
   \context {
     \PianoStaff
     \name PianoStaff
-    \override StaffGrouper #'between-staff-spacing #'stretchability = #1
+    \override StaffGrouper #'between-staff-spacing #'stretchability = #0
   }
 }
 

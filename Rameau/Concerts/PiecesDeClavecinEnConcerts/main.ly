@@ -30,8 +30,6 @@
 \bookpart {
   \pieceTocTitle "La Livri"
   \includeScore "ABlivri"
-}
-\bookpart {
   \includeScore "AClivri"
 }
 \bookpart {
