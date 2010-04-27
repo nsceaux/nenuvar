@@ -1,4 +1,5 @@
 \piecePartSpecs #'((violon)
                    (flute)
                    (viole)
+                   (violon-viole)
                    (clavecin))

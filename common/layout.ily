@@ -39,9 +39,9 @@
   after-title-spacing           = #'((space . 6)  (padding . 1) (minimum-distance . 2))
 
   top-system-spacing            = #'((space . 1)  (padding . 1) (minimum-distance . 0))
-  between-system-spacing        = #'((space . 8)  (padding . 1) (minimum-distance . 8))
+  between-system-spacing        = #'((space . 12)  (padding . 1) (minimum-distance . 8))
   bottom-system-spacing         = #'((space . 1)  (padding . 1) (minimum-distance . 0) (stretchability . 5))
-  between-scores-system-spacing = #'((space . 14) (padding . 1) (minimum-distance . 8))
+  between-scores-system-spacing = #'((space . 16) (padding . 1) (minimum-distance . 8))
 }
 
 \layout {
@@ -115,7 +115,7 @@
   \context {
     \PianoStaff
     \name PianoStaff
-    \override StaffGrouper #'between-staff-spacing #'stretchability = #0
+    \override StaffGrouper #'between-staff-spacing #'stretchability = #1
   }
 }
 

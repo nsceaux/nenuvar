@@ -1,5 +1,5 @@
 \header {
-  copyrightYear = "2009"
+  copyrightYear = "2010"
   composer = "Jean-Philippe Rameau"
   date = "1741"
 }
@@ -26,8 +26,8 @@
   (violon "Violon" () (#:notes "violon"))
   (flute "Flûte" () (#:notes "flute"))
   (viole "Viole" () (#:notes "viole" #:clef "bass"))
-  (clavecin "Clavecin" () (#:score-template "score-clavecin"))
-)
+  (violon-viole "Violon & Viole" () (#:score-template "score-violon-viole"))
+  (clavecin "Clavecin" () (#:score-template "score-clavecin")))
 
 trill = #(make-articulation "stopped")
 

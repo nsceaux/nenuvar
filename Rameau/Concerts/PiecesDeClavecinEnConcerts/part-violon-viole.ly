@@ -1,5 +1,7 @@
 \include "Rameau/Concerts/PiecesDeClavecinEnConcerts/common.ily"
 
+#(set-global-staff-size 18)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {
   \header {
@@ -21,7 +23,7 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   %% Title page
   \markup \null \pageBreak
-  %% notes
+  %% Notes
   \markup \null \pageBreak
   %% Table of contents
   \markuplines \table-of-contents
@@ -35,13 +37,11 @@
   \act "Premier Concert"
   \pieceTocTitle "La Coulicam"
   \includeScore "AAcoulicam"
+  \markup\null %% hack
 }
 \bookpart {
-  \paper { page-count = 1 }
   \pieceTocTitle "La Livri"
   \includeScore "ABlivri"
-}
-\bookpart {
   \includeScore "AClivri"
 }
 \bookpart {
@@ -61,14 +61,14 @@
   \includeScore "BBboucon"
 }
 \bookpart {
+  \paper { page-count = 2 }
   \pieceTocTitle "L'Agaçante"
   \includeScore "BCagacante"
 }
 \bookpart {
+  \paper { page-count = 2 }
   \pieceTocTitle "Menuet"
   \includeScore "BDmenuet"
-}
-\bookpart {
   \pieceTocTitle "L'Agaçante"
   \includeScore "BEagacante"
 }
@@ -87,8 +87,6 @@
 \bookpart {
   \pieceTocTitle "Tambourin"
   \includeScore "CCtambourin"
-}
-\bookpart {
   \pieceTocTitle "La Timide"
   \includeScore "CDtimide"
 }
@@ -101,6 +99,7 @@
   \includeScore "DApantomime"
 }
 \bookpart {
+  \paper { page-count = 2 }
   \pieceTocTitle "L'Indiscrète"
   \includeScore "DBindiscrete"
 }
@@ -115,6 +114,7 @@
   \act "Cinquième Concert"
   \pieceTocTitle "La Forqueray"
   \includeScore "EAforqueray"
+  \markup\null %% hack
 }
 \bookpart {
   \pieceTocTitle "La Cupis"
@@ -123,8 +123,6 @@
 \bookpart {
   \pieceTocTitle "La Marais"
   \includeScore "ECmarais"
-}
-\bookpart {
   \pieceTocTitle "L'Indiscrète"
   \includeScore "EDindiscrete"
 }

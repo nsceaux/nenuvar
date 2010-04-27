@@ -32,9 +32,11 @@
 %%% Premier Concert
 %%%
 \bookpart {
+  \paper { page-count = 2 }
   \act "Premier Concert"
   \pieceTocTitle "La Coulicam"
   \includeScore "AAcoulicam"
+  \markup \vspace #25
 }
 \bookpart {
   \paper { page-count = 1 }
@@ -42,9 +44,11 @@
   \includeScore "ABlivri"
 }
 \bookpart {
+  \paper { page-count = 1 }
   \includeScore "AClivri"
 }
 \bookpart {
+  \paper { page-count = 2 }
   \pieceTocTitle "Le Vézinet"
   \includeScore "ADvezinet"
 }
@@ -52,23 +56,28 @@
 %%% Deuxième Concert
 %%%
 \bookpart {
+  \paper { page-count = 2 }
   \act "Deuxième Concert"
   \pieceTocTitle "La Laborde"
   \includeScore "BAlaborde"
 }
 \bookpart {
+  \paper { page-count = 1 }
   \pieceTocTitle "La Boucon"
   \includeScore "BBboucon"
 }
 \bookpart {
+  \paper { page-count = 1 }
   \pieceTocTitle "L'Agaçante"
   \includeScore "BCagacante"
 }
 \bookpart {
+  \paper { page-count = 2 }
   \pieceTocTitle "Menuet"
   \includeScore "BDmenuet"
 }
 \bookpart {
+  \paper { page-count = 2 }
   \pieceTocTitle "L'Agaçante"
   \includeScore "BEagacante"
 }
@@ -76,15 +85,18 @@
 %%% Troisième Concert
 %%%
 \bookpart {
+  \paper { page-count = 2 }
   \act "Troisième Concert"
   \pieceTocTitle "La Lapoplinière"
   \includeScore "CAlapopliniere"
 }
 \bookpart {
+  \paper { page-count = 2 }
   \pieceTocTitle "La Timide"
   \includeScore "CBtimide"
 }
 \bookpart {
+  \paper { page-count = 2 }
   \pieceTocTitle "Tambourin"
   \includeScore "CCtambourin"
 }
