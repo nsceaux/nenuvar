@@ -3,6 +3,7 @@
   composer = "Jean-Philippe Rameau"
   poet = "Louis Fuzelier"
   date = "1736"
+  subtitle = "Ballet Héroïque"
 }
 
 #(set-global-staff-size
