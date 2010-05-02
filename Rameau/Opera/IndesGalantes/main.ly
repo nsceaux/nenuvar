@@ -64,4 +64,9 @@
 \bookpart {
   \pieceTocTitle "Air grave pour deux Polonais"
   \includeScore "ABCair"
+  %% il manque deux menuets ici
+}
+\bookpart {
+  \pieceToc \markup { Hébé, chœur : \italic { Musettes, résonnez dans ce riant bocage } }
+  \includeScore "ABFhebeChoeur"
 }

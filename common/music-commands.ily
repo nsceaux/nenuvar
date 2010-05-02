@@ -280,6 +280,10 @@ ru =
 #(define-music-function (parser location times music) (number? ly:music?)
    (make-repeat "unfold" times music '()))
 
+rp =
+#(define-music-function (parser location times music) (number? ly:music?)
+   (make-repeat "percent" times music '()))
+
 %% Tweak on articulations
 
 tweakArticulation =
