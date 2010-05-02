@@ -23,22 +23,22 @@
 #(set-cdr! (assoc 'haute-contre french-clefs)
           '(soprano . alto))
 
-\opusPartSpecs #`(
-  (violon1 "Violon I" () (#:notes "dessus" #:tag-notes violon1))
-  (violon2 "Violon II" () (#:notes "dessus" #:tag-notes violon2))
-  (violon3 "Violon III" ((violon2 #f)) (#:notes "dessus3" #:tag-notes violon3))
-  (flute1 "Flûte I" () (#:notes "dessus" #:tag-notes flute1))
-  (flute2 "Flûte II" () (#:notes "dessus" #:tag-notes flute2))
-  (hautbois1 "Hautbois I" () (#:notes "dessus" #:tag-notes hautbois1))
-  (hautbois2 "Hautbois II" () (#:notes "dessus" #:tag-notes hautbois2))
+\opusPartSpecs
+#`((dessus "" () (#:notes "dessus" #:tag-notes dessus))
+   
+   (violon1 "Violon I" ((dessus #f)) (#:notes "dessus" #:tag-notes violon1))
+   (violon2 "Violon II" ((dessus #f)) (#:notes "dessus" #:tag-notes violon2))
+   (flute1 "Flûte I" ((dessus #f)) (#:notes "dessus" #:tag-notes flute1))
+   (flute2 "Flûte II" ((dessus #f)) (#:notes "dessus" #:tag-notes flute2))
+   (hautbois1 "Hautbois I" ((dessus #f)) (#:notes "dessus" #:tag-notes hautbois1))
+   (hautbois2 "Hautbois II" ((dessus #f)) (#:notes "dessus" #:tag-notes hautbois2))
 
-  (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
-  (taille "Taille" () (#:notes "taille" #:clef "alto"))
-  (basse "Basses" () (#:notes "basse" #:clef "bass" #:tag-notes basse))
-  (basson "Bassons" ((basse #f)) (#:notes "basse" #:clef "bass" #:tag-notes basson))
+   (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
+   (taille "Taille" () (#:notes "taille" #:clef "alto"))
+   (basse "Basses" () (#:notes "basse" #:clef "bass" #:tag-notes basse))
+   (basson "Bassons" ((basse #f)) (#:notes "basse" #:clef "bass" #:tag-notes basson))
 
-  (voix "Parties volcales" () (#:score "score-voix"))
-  (basse-continue "Basse continue" ((basse #f)) (#:notes "basse" #:clef "bass"))
-)
+   (voix "Parties volcales" () (#:score "score-voix"))
+   (basse-continue "Basse continue" ((basse #f)) (#:notes "basse" #:clef "bass")))
 
 trill = #(make-articulation "stopped")
