@@ -36,10 +36,14 @@
 %%% Ouverture
 \bookpart {
   \act "Prologue"
-  \scene "Scene Première"
   \sceneDescription \markup \fill-line {
     \line { Le Théâtre représente le palais d'Hébé. }
   }
   \pieceTitle "Ouverture"
   \includeScore "AAAouverture"
+}
+\bookpart {
+  \scene "Scene Première"
+  \sceneDescription \markup \fill-line { \line { \smallCaps Hébé } }
+  \includeScore "AABhebe"
 }

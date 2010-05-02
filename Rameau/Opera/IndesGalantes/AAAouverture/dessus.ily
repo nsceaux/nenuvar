@@ -66,14 +66,17 @@ mi''2 r |
   sold'2
 }
 <<
-  \tag #'hautbois1 \hbI
-  \tag #'hautbois2 \hbII
-  \tag #'dessus << << s4*0^"Hautbois" \hbI >> \\ \hbII >>
-  \tag #'(violon1 flute1) << s4*0^"Hautbois" \hbI >>
-  \tag #'(violon2 flute2) << s4*0^"Hautbois" \hbII >>
+  \tag #'hautbois1 { \hbI r2 }
+  \tag #'hautbois2 { \hbII r2 }
+  \tag #'dessus { << { s4*0^"Hautbois" \hbI } \\ \hbII >> r2 }
+  \tag #'(violon1 flute1) <<
+    \new Voice { \voiceTwo R1*5 }
+    \new CueVoice { \voiceOne s4*0^"Hautbois" \hbI si'2\rest } >>
+  \tag #'(violon2 flute2) <<
+    \new Voice { \voiceTwo R1*5 }
+    \new CueVoice { \voiceOne s4*0^"Hautbois" \hbII si'2\rest } >>
 >>
-r2 |
-r8-\tag #'(dessus violon1 violon2 flute1 flute2) ^"Tous" mi'' re'' do'' si' la' sold' fad' |
+r8-\tag #'dessus ^"Tous" mi'' re'' do'' si' la' sold' fad' |
 mi'2~ mi'8 sold' fad' sold' |
 la' si' sold' la' si' do'' la' si' |
 do''2~ do''8 re'' si' do'' |
@@ -94,24 +97,28 @@ la''2 r |
   si'4. do''8 re'' re'' do'' si' |
   la'4.\trill si'8 do'' do'' si' la' |
   si'4. do''8 re'' re'' do'' si' |
-  la'2\trill r |
+  la'2\trill
 }
 \setMusic #'hbII {
   fad'4. sol'8 la' la' sol' fad' |
   sol'4. la'8 si' si' la' sol' |
   fad'4.\trill sol'8 la' la' sol' fad' |
   sol'4. la'8 si' si' la' sol' |
-  fad'2\trill r2 |
+  fad'2\trill
 }
 <<
-  \tag #'hautbois1 \hbI
-  \tag #'hautbois2 \hbII
-  \tag #'dessus << << s4*0^"Hautbois" \hbI >> \\ \hbII >>
-  \tag #'(violon1 flute1) << s4*0^"Hautbois" \hbI >>
-  \tag #'(violon2 flute2) << s4*0^"Hautbois" \hbII >>
+  \tag #'hautbois1 { \hbI r2 }
+  \tag #'hautbois2 { \hbII r2 }
+  \tag #'dessus { << { s4*0^"Hautbois" \hbI } \\ \hbII >> r2 }
+  \tag #'(violon1 flute1) <<
+    \new Voice { \voiceTwo R1*5 }
+    \new CueVoice { \voiceOne s4*0^"Hautbois" \hbI si'2\rest } >>
+  \tag #'(violon2 flute2) <<
+    \new Voice { \voiceTwo R1*5 }
+    \new CueVoice { \voiceOne s4*0^"Hautbois" \hbII si'2\rest } >>
 >>
 R1 |
-r4-\tag #'(dessus violon1 violon2 flute1 flute2) ^"Tous" re''8 mi'' fad'' sol'' la'' fad'' |
+r4-\tag #'dessus ^"Tous" re''8 mi'' fad'' sol'' la'' fad'' |
 sol'' fad'' mi'' re'' do'' si' la' sol' |
 mi'' re'' do'' si' la' sol' fad' mi' |
 re' mi' fad' sol' la' si' do'' la' |
