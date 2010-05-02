@@ -55,7 +55,13 @@
     Troupe de jeunesse française, espagnole, italienne et polonaise, qui
     accourt et forme des danses gracieuses.
   }
-  \includeScore "AACentree"
+}
+\bookpart {
+  \includeScore "ABAentree"
   \pieceToc \markup { Hébé : \italic { Amants sûrs de plaire, Suivez votre ardeur ! } }
-  \includeScore "AADhebe"
+  \includeScore "ABBhebe"
+}
+\bookpart {
+  \pieceTocTitle "Air grave pour deux Polonais"
+  \includeScore "ABCair"
 }
