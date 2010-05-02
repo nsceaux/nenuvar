@@ -1,5 +1,4 @@
 \version "2.11.57"
-%%% -*- Mode: scheme -*-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
@@ -48,6 +47,13 @@ property of @var{arg}."
              (cons tags (ly:music-property arg 'tags))
              (append tags (ly:music-property arg 'tags))))
    arg)
+
+%%% Music binding construct
+
+setMusic =
+#(define-music-function (parser location sym music) (symbol? ly:music?)
+   (ly:parser-define! parser sym music)
+   (make-music 'Music 'void #t))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
