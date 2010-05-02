@@ -43,7 +43,19 @@
   \includeScore "AAAouverture"
 }
 \bookpart {
-  \scene "Scene Première"
+  \scene "Scène Première"
   \sceneDescription \markup \fill-line { \line { \smallCaps Hébé } }
+  \pieceToc \markup { Hébé : \italic { Vous, qui d'Hébé suivez les lois } }
   \includeScore "AABhebe"
+}
+\bookpart {
+  \scene "Scène Deuxième"
+  \pieceTocTitle "Entrée des quatre Nations"
+  \sceneDescription \markup \wordwrap-center {
+    Troupe de jeunesse française, espagnole, italienne et polonaise, qui
+    accourt et forme des danses gracieuses.
+  }
+  \includeScore "AACentree"
+  \pieceToc \markup { Hébé : \italic { Amants sûrs de plaire, Suivez votre ardeur ! } }
+  \includeScore "AADhebe"
 }
