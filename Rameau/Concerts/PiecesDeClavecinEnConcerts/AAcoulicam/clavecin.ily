@@ -12,7 +12,7 @@
            \override Voice.Tie #'details = #'((height-limit . 0.8) (note-head-gap . 1.0))
            \override Voice.Stem #'length-fraction = #0.7
            \override Voice.Beam #'length-fraction = #0.7
-do''2 ~ <do'' mi''>4 } >>|
+           do''2 ~ <do'' mi''>4 } >>|
       <do'' fa'' \parc lab''>2. do'''8 lab'' |
       << { fa''4-\prall fa''8 lab'' \parb re''4. fa''8 } \\
          { \override Voice.Stem #'length-fraction = #0.7
