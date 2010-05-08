@@ -69,6 +69,8 @@
 \bookpart {
   \pieceToc \markup { Hébé, chœur : \italic { Musettes, résonnez dans ce riant bocage } }
   \includeScore "ABFhebeChoeur"
-  \pieceToc "Musette en rondeau"
+  \pieceToc \markup "Musette en rondeau"
   \includeScore "ABGrondeau"
+  \pieceToc \markup { Hébé :  \italic { Qu'entends-je ! Les tambours font taire nos musettes ? } }
+  \includeScore "ABHhebe"
 }
