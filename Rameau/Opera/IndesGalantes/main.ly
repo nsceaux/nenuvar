@@ -94,3 +94,7 @@
   \pieceToc \markup { Bellone : \italic { C'est la gloire qui rend les héros immortels } }
   \includeScore "ACDbellone"
 }
+\bookpart {
+  \pieceTocTitle "Air pour les amants et amantes qui suivent Bellone"
+  \includeScore "ACEair"
+}
