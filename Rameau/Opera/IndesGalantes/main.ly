@@ -98,3 +98,7 @@
   \pieceTocTitle "Air pour les amants et amantes qui suivent Bellone"
   \includeScore "ACEair"
 }
+\bookpart {
+  \pieceToc \markup { Chœur : \italic { Vous nous abandonnez. Quelle peine mortelle ! } }
+  \includeScore "ACFchoeur"
+}

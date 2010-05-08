@@ -1,0 +1,6 @@
+\piecePartSpecs #`((violon1)
+                   (violon2)
+                   (haute-contre #:notes "haute-contre-taille")
+                   (taille #:notes "haute-contre-taille")
+                   (basse)
+                   (voix))
