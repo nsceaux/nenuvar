@@ -105,4 +105,16 @@
   \sceneDescription \markup \left-align \center-column { \smallCaps Hébé }
   \pieceToc \markup { Hébé : \italic { Bellone les entraîne... } }
   \includeScore "ADAhebe"
+  \scene "Scène V"
+  \sceneDescription \markup \left-align \center-column {
+    \line { \smallCaps L'Amour, \smallCaps Hébé, suite de Hébé. }
+    \wordwrap-center {
+      \smallCaps L'Amour descend des cieux sur des nuages; il porte des 
+      traits nouveaux; il est accompagné d'une troupe
+      d'Amours armés comme lui, dont les uns tiennent des
+      brandons et les autres arborent des étendards galants.
+    }
+  }
+  \pieceTocTitle "Annonce de l'Amour"
+  \includeScore "AEAhebe"
 }
