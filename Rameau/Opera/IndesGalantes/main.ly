@@ -116,5 +116,7 @@
     }
   }
   \pieceTocTitle "Annonce de l'Amour"
-  \includeScore "AEAhebe"
+  \includeScore "AEAannonce"
+  \pieceToc \markup { L'Amour, Hébé : \italic { Pourquoi Mars à l'Amour déclara-t-il la guerre ? } }
+  \includeScore "AEBamourHebe"
 }
