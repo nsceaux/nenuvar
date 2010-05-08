@@ -82,6 +82,7 @@
       Elle invite la suite d'Hébé à n'aimer que la gloire.
     }
   }
-  \pieceToc \markup { Bellone : \italic { La Gloire vous appelle : écoutez ses trompettes ! } }
+  \pieceToc \markup { Bellone, Chœur : \italic { La Gloire vous appelle : écoutez ses trompettes ! } }
   \includeScore "ACAbellone"
+  \includeScore "ACBchoeur"
 }
