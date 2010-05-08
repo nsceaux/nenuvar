@@ -43,3 +43,13 @@
    (voix "Parties volcales" () (#:score "score-voix")))
 
 trill = #(make-articulation "stopped")
+
+%%%
+
+hebeMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Hébé"))
+
+amourMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "L'Amour"))

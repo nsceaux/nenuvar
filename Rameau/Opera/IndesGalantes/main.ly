@@ -97,8 +97,12 @@
 \bookpart {
   \pieceTocTitle "Air pour les amants et amantes qui suivent Bellone"
   \includeScore "ACEair"
-}
-\bookpart {
   \pieceToc \markup { Chœur : \italic { Vous nous abandonnez. Quelle peine mortelle ! } }
   \includeScore "ACFchoeur"
+}
+\bookpart {
+  \scene "Scène IV"
+  \sceneDescription \markup \left-align \center-column { \smallCaps Hébé }
+  \pieceToc \markup { Hébé : \italic { Bellone les entraîne... } }
+  \includeScore "ADAhebe"
 }
