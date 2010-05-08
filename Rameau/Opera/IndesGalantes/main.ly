@@ -62,7 +62,6 @@
 \bookpart {
   \pieceTocTitle "Air grave pour deux Polonais"
   \includeScore "ABCair"
-  %% il manque deux menuets ici
 }
 \bookpart {
   \pieceToc \markup { Hébé, chœur : \italic { Musettes, résonnez dans ce riant bocage } }
@@ -119,4 +118,8 @@
   \includeScore "AEAannonce"
   \pieceToc \markup { L'Amour, Hébé : \italic { Pourquoi Mars à l'Amour déclara-t-il la guerre ? } }
   \includeScore "AEBamourHebe"
+}
+\bookpart {
+  \pieceToc \markup { L'Amour : \italic { Ranimez vos flambeaux, remplissez vos carquois } }
+  \includeScore "AECamour"
 }
