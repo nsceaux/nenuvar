@@ -1,0 +1,6 @@
+\piecePartSpecs #`((dessus)
+                   (haute-contre)
+                   (taille)
+                   (trompette)
+                   (basse)
+                   (timbales))

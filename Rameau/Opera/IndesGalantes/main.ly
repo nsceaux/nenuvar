@@ -86,3 +86,7 @@
   \includeScore "ACAbellone"
   \includeScore "ACBchoeur"
 }
+\bookpart {
+  \pieceTocTitle "Air pour deux guerriers portant les drapeaux"
+  \includeScore "ACCair"
+}

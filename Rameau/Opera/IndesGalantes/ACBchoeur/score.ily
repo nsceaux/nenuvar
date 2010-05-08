@@ -26,8 +26,11 @@
       >> \includeLyrics "paroles4"
     >>
     \new Staff <<
-      \instrumentName \markup \center-column { Timbales Basses }
-      \global \keepWithTag #'conducteur \includeNotes "basse" >>
+      \instrumentName "Timbales"
+      \global \keepWithTag #'timbales \includeNotes "basse" >>
+    \new Staff <<
+      \instrumentName "Basses"
+      \global \keepWithTag #'basse \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
   \midi { }
