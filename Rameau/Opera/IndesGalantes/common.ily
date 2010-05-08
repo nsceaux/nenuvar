@@ -32,13 +32,14 @@
    (flute2 "Flûte II" ((dessus #f)) (#:notes "dessus" #:tag-notes flute2))
    (hautbois1 "Hautbois I" ((dessus #f)) (#:notes "dessus" #:tag-notes hautbois1))
    (hautbois2 "Hautbois II" ((dessus #f)) (#:notes "dessus" #:tag-notes hautbois2))
+   (trompette "Trompette" () (#:notes "dessus" #:tag-notes trompette))
 
    (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
    (taille "Taille" () (#:notes "taille" #:clef "alto"))
-   (basse "Basses" () (#:notes "basse" #:clef "bass" #:tag-notes basse))
-   (basson "Bassons" ((basse #f)) (#:notes "basse" #:clef "bass" #:tag-notes basson))
+   (basse "Basses" () (#:notes "basse" #:clef "basse" #:tag-notes basse))
+   (basson "Bassons" ((basse #f)) (#:notes "basse" #:clef "basse" #:tag-notes basson))
+   (timbales "Timbales" () (#:notes "basse" #:clef "basse" #:tag-notes timbales))
 
-   (voix "Parties volcales" () (#:score "score-voix"))
-   (basse-continue "Basse continue" ((basse #f)) (#:notes "basse" #:clef "bass")))
+   (voix "Parties volcales" () (#:score "score-voix")))
 
 trill = #(make-articulation "stopped")

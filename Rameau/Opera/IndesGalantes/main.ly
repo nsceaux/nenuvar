@@ -49,14 +49,12 @@
   \includeScore "AABhebe"
 }
 \bookpart {
-  \scene "Scène Deuxième"
+  \scene "Scène II"
   \pieceTocTitle "Entrée des quatre Nations"
   \sceneDescription \markup \wordwrap-center {
     Troupe de jeunesse française, espagnole, italienne et polonaise, qui
     accourt et forme des danses gracieuses.
   }
-}
-\bookpart {
   \includeScore "ABAentree"
   \pieceToc \markup { Hébé : \italic { Amants sûrs de plaire, Suivez votre ardeur ! } }
   \includeScore "ABBhebe"
@@ -73,4 +71,17 @@
   \includeScore "ABGrondeau"
   \pieceToc \markup { Hébé :  \italic { Qu'entends-je ! Les tambours font taire nos musettes ? } }
   \includeScore "ABHhebe"
+}
+\bookpart {
+  \scene "Scène III"
+  \sceneDescription \markup \left-align \center-column {
+    \line { \smallCaps Bellone, \smallCaps Hébé et sa suite.}
+    \wordwrap-center {
+      \smallCaps Bellone arrive au bruit des tambours et des trompettes
+      qui la précèdent avec des guerriers portant des drapeaux.
+      Elle invite la suite d'Hébé à n'aimer que la gloire.
+    }
+  }
+  \pieceToc \markup { Bellone : \italic { La Gloire vous appelle : écoutez ses trompettes ! } }
+  \includeScore "ACAbellone"
 }
