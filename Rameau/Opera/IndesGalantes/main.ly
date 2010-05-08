@@ -90,3 +90,7 @@
   \pieceTocTitle "Air pour deux guerriers portant les drapeaux"
   \includeScore "ACCair"
 }
+\bookpart {
+  \pieceToc \markup { Bellone : \italic { C'est la gloire qui rend les héros immortels } }
+  \includeScore "ACDbellone"
+}

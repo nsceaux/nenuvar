@@ -8,16 +8,13 @@ r4 re8 re re re re re |
     re4 fad sol2 |
     re4 fad sol2 |
     re2 la, |
+    re4. re16*2/3 re re re4 re,
   }
   \tag #'timbales {
     re2 r |
-    R1*2
+    R1*2 |
+    re4. re16*2/3 re re re4 re
   }
->>
-re4. re16*2/3 re re re4
-<<
-  \tag #'basse re,
-  \tag #'timbales re
 >>
 la,2 la, |
 la,1 |
@@ -41,11 +38,21 @@ R1 |
 la,4. la,16*2/3 la, la, la,4. la,16*2/3 la, la, |
 la,2 la, |
 la,1 |
-R1 |
-r2 r4 r16 re re re |
-re2 r |
-la, la, |
-re4. re16*2/3 re re re4. re16*2/3 re re |
-re1~ |
-re2. r4 |
-re1\repeatTie |
+    R1 |
+    r2 r4 r16 re re re |
+    re2 r |
+    la, la, |
+<<
+  \tag #'basse {
+    re,1~ |
+    re,1~ |
+    re,2. r4 |
+    re,1\repeatTie
+  }
+  \tag #'timbales {
+    re4. re16*2/3 re re re4. re16*2/3 re re |
+    re1~ |
+    re2. r4 |
+    re1\repeatTie |
+  }
+>>
