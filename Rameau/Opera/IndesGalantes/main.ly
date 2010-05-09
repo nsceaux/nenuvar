@@ -10,9 +10,9 @@
       \line { Documents originaux :}
       \hspace #1
       \wordwrap {
-        \italic { Les Indes Galantes } ballet heroïque mis en musique
+        \italic { Les Indes Galantes, } ballet heroïque mis en musique
         par Mr. Rameau et représenté par lacademie royalle de musique le
-        23e Aout 1736. Les parolles sont de Mr. Fuzelier.
+        23e Aout 1736. Les parolles sont de Mr. Fuzelier. 1750.
         \with-url #"http://numerique.bibliotheque.toulouse.fr/ark:/74899/B315556101_CONS0192"
         \tiny \typewriter "http://numerique.bibliotheque.toulouse.fr"
       }
@@ -32,8 +32,9 @@
   \markuplines \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%% Ouverture
+%%%
+%%% Prologue
+%%%
 \bookpart {
   \act "Prologue"
   \sceneDescription \markup \fill-line {
@@ -65,11 +66,13 @@
 }
 \bookpart {
   \pieceToc \markup { Hébé, chœur : \italic { Musettes, résonnez dans ce riant bocage } }
-  \includeScore "ABFhebeChoeur"
+  \includeScore "ABDhebeChoeur"
+}
+\bookpart {
   \pieceToc \markup "Musette en rondeau"
-  \includeScore "ABGrondeau"
+  \includeScore "ABErondeau"
   \pieceToc \markup { Hébé :  \italic { Qu'entends-je ! Les tambours font taire nos musettes ? } }
-  \includeScore "ABHhebe"
+  \includeScore "ABFhebe"
 }
 \bookpart {
   \scene "Scène III"
@@ -134,6 +137,15 @@
   \includeScore "AEFmenuet"
 }
 \bookpart {
-  \pieceToc \markup { L'Amour, Hébé : \italic { Traversez les plus vastes mers } }
+  \pieceToc \markup { L'Amour, Hébé, Chœur : \italic { Traversez les plus vastes mers } }
   \includeScore "AEGamourHebe"
 }
+\bookpart {
+  \includeScore "AEHchoeur"
+  \actEnd "Fin du prologue"
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% Première Entrée
+%%%
