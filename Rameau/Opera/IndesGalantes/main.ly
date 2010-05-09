@@ -133,3 +133,7 @@
   \pieceTocTitle "Deuxième menuet"
   \includeScore "AEFmenuet"
 }
+\bookpart {
+  \pieceToc \markup { L'Amour, Hébé : \italic { Traversez les plus vastes mers } }
+  \includeScore "AEGamourHebe"
+}
