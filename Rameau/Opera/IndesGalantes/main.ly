@@ -127,3 +127,9 @@
   \pieceTocTitle "Air pour les Amours"
   \includeScore "AEDair"
 }
+\bookpart {
+  \pieceTocTitle "Premier menuet"
+  \includeScore "AEEmenuet"
+  \pieceTocTitle "Deuxième menuet"
+  \includeScore "AEFmenuet"
+}
