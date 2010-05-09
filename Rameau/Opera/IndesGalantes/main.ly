@@ -123,3 +123,7 @@
   \pieceToc \markup { L'Amour : \italic { Ranimez vos flambeaux, remplissez vos carquois } }
   \includeScore "AECamour"
 }
+\bookpart {
+  \pieceTocTitle "Air pour les Amours"
+  \includeScore "AEDair"
+}
