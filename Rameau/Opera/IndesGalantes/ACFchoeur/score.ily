@@ -5,7 +5,7 @@
         \instrumentName "Violons"
         \global \keepWithTag #'dessus \includeNotes "dessus" >>
       \new Staff <<
-        \instrumentName \markup \center-column { Haute-contre Taille }
+        \instrumentName \markup \center-column { Haute-contres Tailles }
         \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille" >>
       >>
       \new ChoirStaff \with { instrumentName = \markup \smallCaps "Chœur             " } <<

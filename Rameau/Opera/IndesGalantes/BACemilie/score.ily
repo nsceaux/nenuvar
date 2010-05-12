@@ -1,7 +1,7 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \new Staff << \instrumentName "Dessus"
+      \new Staff << \instrumentName "Violons"
         \global \includeNotes "dessus" >>
       \new Staff << \instrumentName "Haute-contres"
         \global \includeNotes "haute-contre" >>
@@ -9,13 +9,11 @@
         \global \includeNotes "taille" >>
     >>
     \new Staff \withLyrics <<
-      \characterName "Bellone"
-      \global \includeNotes "bellone"
+      \characterName "Émilie"
+      \global \includeNotes "emilie"
     >> \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup Timbales
-      \global \keepWithTag #'timbales \includeNotes "basse" >>
     \new Staff << \instrumentName \markup Basses
-      \global \keepWithTag #'basse \includeNotes "basse" >>
+      \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
   \midi { }

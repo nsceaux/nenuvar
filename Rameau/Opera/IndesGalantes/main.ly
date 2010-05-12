@@ -165,4 +165,6 @@
     \italic { C'est Osman qui me suit, ne lui cachons plus rien ! }
   }
   \includeScore "BABemilieOsman"
+  \pieceToc \markup { Émilie : \italic { Dans le séjour témoin de ma naissance } }
+  \includeScore "BACemilie"
 }

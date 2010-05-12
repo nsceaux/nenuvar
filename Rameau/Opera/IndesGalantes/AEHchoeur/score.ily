@@ -5,10 +5,10 @@
         \instrumentName "Dessus"
         \global \keepWithTag #'dessus \includeNotes "dessus" >>
       \new Staff <<
-        \instrumentName "Haute-contre"
+        \instrumentName "Haute-contres"
         \global \includeNotes "haute-contre" >>
       \new Staff <<
-        \instrumentName "Taille"
+        \instrumentName "Tailles"
         \global \includeNotes "taille" >>
     >>
     \new ChoirStaff \with { instrumentName = \markup \smallCaps "Chœur             " } <<
