@@ -160,4 +160,9 @@
 \bookpart {
   \scene "Scène Première"
   \sceneDescription \markup \fill-line { \line \smallCaps { Émilie, Osman } }
+  \pieceToc \markup {
+    Émilie, Osman :
+    \italic { C'est Osman qui me suit, ne lui cachons plus rien ! }
+  }
+  \includeScore "BABemilieOsman"
 }
