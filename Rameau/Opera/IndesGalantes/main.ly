@@ -35,7 +35,7 @@
 %%%
 %%% Prologue
 %%%
-\bookpart {
+%{\bookpart {
   \act "Prologue"
   \sceneDescription \markup \fill-line {
     \line { Le Théâtre représente le palais d'Hébé. }
@@ -142,10 +142,22 @@
 }
 \bookpart {
   \includeScore "AEHchoeur"
-  \actEnd "Fin du prologue"
+  \actEnd "FIN DU PROLOGUE"
 }
-
+%}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Première Entrée
 %%%
+\bookpart {
+  \entree "Première Entrée" "Le Turc généreux"
+  \sceneDescription \markup \fill-line {
+    \line { Le théâtre représente les jardins d'Osman Pacha terminés par la mer. }
+  }
+  \pieceTocTitle "Ritournelle"
+  \includeScore "BAAritournelle"
+}
+\bookpart {
+  \scene "Scène Première"
+  \sceneDescription \markup \fill-line { \line \smallCaps { Émilie, Osman } }
+}
