@@ -93,3 +93,10 @@ dalsegnoMarkText =
     \dacapoOverrides 
     \mark \markup \column \right-align { \italic "Dal Segno." $text }
   #})
+
+fineMarkText =
+#(define-music-function (parser location text) (markup?)
+  #{
+    \dacapoOverrides 
+    \mark \markup \column \right-align { \italic "Fin." $text }
+  #})

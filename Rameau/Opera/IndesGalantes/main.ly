@@ -183,6 +183,9 @@
   \includeScore "BAEosman"
 }
 \bookpart {
-  \pieceToc \markup { Osman Émilie, }
+  %% Scène II
+  \pieceToc \markup { Osman, Émilie }
   \includeScore "BBAosmanEmilie"
+  \pieceTocTitle "Tempête"
+  \includeScore "BBBtempete"
 }
