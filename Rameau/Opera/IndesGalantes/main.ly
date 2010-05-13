@@ -182,3 +182,7 @@
   \pieceToc \markup { Osman : \italic { C'est trop m'accabler par vos pleurs, } }
   \includeScore "BAEosman"
 }
+\bookpart {
+  \pieceToc \markup { Osman Émilie, }
+  \includeScore "BBAosmanEmilie"
+}

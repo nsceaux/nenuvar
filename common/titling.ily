@@ -458,6 +458,22 @@ inMusicScene =
         \once \override Score . RehearsalMark #'font-size = #0
         \mark \markup \scene $(string-upper-case title) #}))
 
+inMusicSceneDesc =
+#(define-music-function (parser location title description) (string? markup?)
+   (let ((label-music (make-music 'SimultaneousMusic
+                        'elements (list (in-music-add-odd-page-header-text
+                                          (format #f "~a, ~a."
+                                            (string-upper-case (*act-title*))
+                                            (string-upper-case title))
+                                          #t)
+                                        (add-toc-item! 'tocSceneMarkup title)))))
+     #{ $label-music
+        \once \override Score . RehearsalMark #'font-size = #0
+        \mark \markup \center-column {
+          \scene $(string-upper-case title)
+          \scene-description $description
+        } #}))
+
 sceneDescription =
 #(define-music-function (parser location description) (markup?)
   (add-toplevel-markup parser
