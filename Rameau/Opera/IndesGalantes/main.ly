@@ -8,13 +8,22 @@
     title = "Les Indes Galantes"
     notes = \markup \column {
       \line { Documents originaux :}
-      \hspace #1
+      \vspace #0.5
       \wordwrap {
         \italic { Les Indes Galantes, } ballet heroïque mis en musique
         par Mr. Rameau et représenté par lacademie royalle de musique le
         23e Aout 1736. Les parolles sont de Mr. Fuzelier. 1750.
         \with-url #"http://numerique.bibliotheque.toulouse.fr/ark:/74899/B315556101_CONS0192"
         \tiny \typewriter "http://numerique.bibliotheque.toulouse.fr"
+      }
+      \vspace #1
+      \line { Le basse chiffrée, qui ne figure par sur ce manuscrit, est extraite de : }
+      \vspace #0.5
+      \wordwrap {
+        \italic { J.P. Rameau: Oeuvres Complètes, Tome VII, }
+        Paris: A. Durand et Fils, 1895. Édité par Paul Dukas.
+        \with-url #"http://imslp.org/wiki/Les_Indes_Galantes_(Rameau,_Jean-Philippe)"
+        \tiny \typewriter "http://imslp.org"
       }
     }
   }
@@ -160,11 +169,14 @@
 \bookpart {
   \scene "Scène Première"
   \sceneDescription \markup \fill-line { \line \smallCaps { Émilie, Osman } }
-  \pieceToc \markup {
-    Émilie, Osman :
-    \italic { C'est Osman qui me suit, ne lui cachons plus rien ! }
-  }
+  \pieceToc \markup { Émilie, Osman :
+    \italic { C'est Osman qui me suit, ne lui cachons plus rien ! } }
   \includeScore "BABemilieOsman"
   \pieceToc \markup { Émilie : \italic { Dans le séjour témoin de ma naissance } }
   \includeScore "BACemilie"
+}
+\bookpart {
+  \pieceToc \markup { Émilie, Osman :
+    \italic { Qu'en peignant vos malheurs vous redoublez mes maux ! } }
+  \includeScore "BADemilieOsman"
 }
