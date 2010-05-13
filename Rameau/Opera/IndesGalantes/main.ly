@@ -169,14 +169,16 @@
 \bookpart {
   \scene "Scène Première"
   \sceneDescription \markup \fill-line { \line \smallCaps { Émilie, Osman } }
-  \pieceToc \markup { Émilie, Osman :
-    \italic { C'est Osman qui me suit, ne lui cachons plus rien ! } }
+  \pieceToc \markup { Émilie, Osman }
   \includeScore "BABemilieOsman"
   \pieceToc \markup { Émilie : \italic { Dans le séjour témoin de ma naissance } }
   \includeScore "BACemilie"
 }
 \bookpart {
-  \pieceToc \markup { Émilie, Osman :
-    \italic { Qu'en peignant vos malheurs vous redoublez mes maux ! } }
+  \pieceToc \markup { Émilie, Osman }
   \includeScore "BADemilieOsman"
+}
+\bookpart {
+  \pieceToc \markup { Osman : \italic { C'est trop m'accabler par vos pleurs, } }
+  \includeScore "BAEosman"
 }
