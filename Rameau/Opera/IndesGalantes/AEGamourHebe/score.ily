@@ -10,7 +10,7 @@
     >> \includeLyrics "paroles2"
     \new Staff <<
       \instrumentName "Basses"
-      \global \includeNotes "basse" >>
+      \global \includeNotes "basse" \includeFigures "chiffres" >>
   >>
   \layout { indent = \largeindent }
   \midi { }

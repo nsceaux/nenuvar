@@ -2,5 +2,5 @@
                    (violon2)
                    (haute-contre)
                    (taille)
-                   (basse)
+                   (basse #:score-template "score-basse-continue")
                    (voix))

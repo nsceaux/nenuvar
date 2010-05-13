@@ -3,7 +3,7 @@ sol2 sol,4 |
 re1 |
 la,2 fad, |
 sol,2. sold,4 |
-la,4 sol, fad,8. sol,16 la,4 |
+la,4 sol,! fad,8. sol,16 la,4 |
 re,2. |
 sol4 la si |
 do'2~ do'8. la16 |
