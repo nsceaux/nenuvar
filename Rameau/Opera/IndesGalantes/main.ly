@@ -189,3 +189,7 @@
   \pieceTocTitle "Tempête"
   \includeScore "BBBtempete"
 }
+\bookpart {
+  \pieceToc \markup { Chœur : \italic { Ciel ! De plus d'une mort nous redoutons les coups ! } }
+  \includeScore "BBCchoeur"
+}
