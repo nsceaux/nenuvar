@@ -6,20 +6,20 @@ fa' fa' re'' re'' \ru#8 re'' \ru#12 fa' |
 \ru#24 re' |
 do'4 r2 \ru#12 fa'16 |
 mib' sol' sol' sol' \ru#8 sol' \ru#12 mib'' |
-mib'' do' do' do' \ru#20 do' |
+mib'' do' do' do' \ru#8 do' \ru#12 do' |
 \ru#12 re' \ru#12 sol' |
 \ru#12 la' \ru#12 do'' |
 \ru#24 fad' |
 \ru#12 sol' sol'4 fad' sol' |
-re'16 la' la' la' \ru#20 la' |
+re'16 la' la' la' \ru#8 la' \ru#12 la' |
 \ru#12 do'' \ru#12 la' |
 sib' sol sol sol\ru#8 sol \ru#8 sol' \ru#4 fad' |
-sol'16 re' re' re' \ru#20 re' |
+sol'16 re' re' re' \ru#8 re' \ru#12 re' |
 \ru#12 re' \ru#12 sol' |
 mi'4 la la dod' dod' dod' |
 mi' mi' mi' la' la' la' |
 la'2. r |
-\ru#20 fa'16 \ru#4 la' |
+\ru#12 fa'16 \ru#8 fa'16 \ru#4 la' |
 \ru#12 la' \ru#12 fa' |
 \ru#12 fa' \ru#12 mi' |
 dod'4 r2 \ru#12 fa'16 |
@@ -29,7 +29,7 @@ la'2 r4 \ru#12 sib'16 |
 \ru#24 sol' |
 \ru#12 fad' fad'4 re' re' |
 re'2 re'4 re' re' la |
-sib16 re' re' re' \ru#20 re' |
+sib16 re' re' re' \ru#8 re' \ru#12 re' |
 \ru#12 sib' \ru#12 re' |
 \ru#12 re' \ru#8 do' \ru#4 si |
 \ru#12 do' \ru#12 mib' |

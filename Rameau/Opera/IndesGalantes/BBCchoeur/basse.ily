@@ -6,13 +6,13 @@ r2 r2. |
 R1. |
 \ru#12 sol,16 sol4 sol sol |
 re' re' re' mib' mib' mib' |
-sib16 sib, sib, sib,\ru#20 sib, |
+sib16 sib, sib, sib, \ru#8 sib, \ru#12 sib, |
 sib,4 sib, sib, re re re |
 fa fa fa la la la |
-do'16 do do do \ru#20 do |
+do'16 do do do \ru#8 do \ru#12 do |
 do4 do do mib mib mib |
 sol sol sol sib sib sib |
-re'16 re re re \ru#20 re |
+re'16 re re re \ru#8 re \ru#12 re |
 re4 r2
 <<
   \setMusic #'basson {
@@ -23,7 +23,7 @@ re4 r2
   \setMusic #'basse {
     r2. |
     R1. |
-    r16 re, re, re, \ru#20 re, |
+    r16 re, re, re, \ru#8 re, \ru#12 re, |
   }
   \tag #'basson \basson
   \tag #'basse \basse
@@ -33,7 +33,7 @@ re,4 r2 r4 re' do' |
 sib2 sib4 sib sib re' |
 sol16 sol, sol, sol, \ru#8 sol, sol,4 sol la |
 sib2. sib2 \appoggiatura la8 sol4 |
-la16 la, la, la, \ru#20 la, |
+la16 la, la, la, \ru#8 la, \ru#12 la, |
 la,4 r2 r2. |
 r4 re re fa fa fa |
 la la la re' re' re' |
@@ -65,7 +65,7 @@ r2 r2. |
 \ru#12 sol,16 sol,4 sol sol |
 sol2 sol4 sol sol re |
 mib2. mib4 mib sol |
-do16 mib, mib, mib, \ru#20 mib, |
+do16 mib, mib, mib, \ru#8 mib, \ru#12 mib, |
 mib,4 r2 r4 do' do' |
 do'2 do'4 do' do' la |
 re'16 re, re, re, \ru#8 re, |

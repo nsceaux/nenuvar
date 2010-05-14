@@ -278,7 +278,9 @@ downdown = { \change Staff = "down" \oneVoice }
 
 ru =
 #(define-music-function (parser location times music) (number? ly:music?)
-   (make-repeat "unfold" times music '()))
+   (if (eqv? #t (ly:get-option 'use-tremolo-repeat))
+       (make-repeat "tremolo" times music '())
+       (make-repeat "unfold" times music '())))
 
 rp =
 #(define-music-function (parser location times music) (number? ly:music?)

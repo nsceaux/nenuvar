@@ -3,7 +3,7 @@
                    (flute1 #:notes "flute" #:indent 0)
                    (flute2 #:notes "flute" #:indent 0)
                    (hautbois1 #:notes "silence" #:score-template "score-silence" #:ragged #t)
-                   (hautbois2 #:notes "silence" #:score-template "score-silence" #:ragged #t)
+                   (hautbois1 #:notes "silence" #:score-template "score-silence" #:ragged #t)
                    (haute-contre #:indent 0)
                    (taille #:indent 0)
                    (basson #:indent 0)

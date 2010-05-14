@@ -6,19 +6,19 @@ fa'' fa'' fa'' fa'' fa'' sol''16 la'' sib''8 la''16 sol'' fa''8 mib''16 re'' do'
 \ru#24 fa'16 |
 fa'4 la' la' do'' do'' do'' |
 mib'' mib'' mib'' sol'' sol'' sol'' |
-sol''16 sol' sol' sol' \ru#20 sol' |
+sol''16 sol' sol' sol' \ru#8 sol' \ru#12 sol' |
 sol'4 sib' sib' re'' re'' re'' |
 fad'' fad'' fad'' la'' la'' la'' |
 la''16 la' la' la' \ru#8 la' la'4~ la'8. re'16 mi'16 fa' sol' la' |
 sib'4~ sib'8. la'16 sol' la' sib' do'' re''4 do'' sib' |
 la' re' re' fad' fad' fad' |
 la' la' la' re'' re'' re'' |
-re''16 re' re' re' \ru#20 re' |
+re''16 re' re' re' \ru#8 re' \ru#12 re' |
 re'4 r2 r4 sol'' fa'' |
 mi''2 mi''4 mi'' mi'' sol'' |
 dod''2. r4 la' la' |
 sol'2. sol'2 \appoggiatura fa'8 mi'4 |
-fa'16 la la la \ru#20 la |
+fa'16 la la la \ru#8 la \ru#12 la |
 la4 r2 r4 fa'' mi'' |
 re''2 re''4 re'' re'' fa'' |
 sib'2. sib'4 sib' sib' |
@@ -31,10 +31,11 @@ la''4~ la''16 sib'' la'' sol'' fad''16 sol'' fad'' mi'' re''4. do''16 sib' la' s
 re'4 r2 r r16 re'' mi'' fad'' |
 sol''4 sol' sol' sib' sib' sib' |
 re'' re'' re'' sol'' sol'' sol'' |
-sol''16 sol' sol' sol' \ru#20 sol' |
+sol''16 sol' sol' sol' \ru#8 sol' \ru#12 sol' |
 sol'4 sol' sol' do'' do'' do'' |
 mib'' mib'' mib'' sol'' sol'' sol'' |
-sol''16 sol' sol' sol' \ru#20 sol' |\override TupletBracket #'bracket-visibility = ##f
+sol''16 sol' sol' sol' \ru#8 sol' \ru#12 sol' |
+\override TupletBracket #'bracket-visibility = ##f
 fad'8 r \times 4/6 { r16 re'''[ la'' la'' fad'' fad''] } \times 4/6 { re''[ re'' la' la' fad' fad'] } |
 re'4 fad' sol' |
 sol'2 sol'8 r |

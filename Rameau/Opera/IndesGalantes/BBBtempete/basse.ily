@@ -33,8 +33,8 @@ r32 sib la sol fa mib re do sib, sib, la, sol, fa, mib, re, do, sib,,8 r r4 |
   \setMusic #'basson {
     la16 sib la sib la sib la sib la sib la sib sol sib sol sib |
     sol8 la sol la fad la re fad |
-    \ru#4 { sol, sol } |
-    \ru#4 { la,16 sol } \ru#4 { la, fa } |
+    sol, sol sol, sol sol, sol sol, sol |
+    la,16 sol la, sol la, sol la, sol la, fa la, fa la, fa la, fa |
     sib, fa sib, fa sib, sol sib, sol do sol do sol do la dod la |
     re la re la re la re la do8 fad do fad |
     si,16 sol si, sol sol, sol sol, sol fa sol fa sol fa sol fa sol |

@@ -193,3 +193,7 @@
   \pieceToc \markup { Chœur : \italic { Ciel ! De plus d'une mort nous redoutons les coups ! } }
   \includeScore "BBCchoeur"
 }
+\bookpart {
+  \pieceToc \markup { Émilie : \italic { Que ces cris agitent mes sens ! } }
+  \includeScore "BBDemilie"
+}

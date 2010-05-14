@@ -15,16 +15,17 @@ sib' sol' la' sib' do'' re'' mi'' fad'' sol''8 r |
 \ru#8 sol''32 \ru#8 fa''32 \ru#8 mib''32 \ru#8 re''32 |
 \ru#8 do''32 \ru#8 sib'32 la'32 fa' sol' la' sib' do'' re'' mib'' fa'' fa'' fa'' fa'' fa'' fa'' sol'' la'' |
 \ru#32 sib''32 |
-\ru#2 { sib''32 la'' sol'' fa'' mib'' re'' do'' sib' } fa'4 r8 r32 sol' fa' mib' |
-re'8 r r4 \ru#4 { sol'16( sib') } |
+sib''32 la'' sol'' fa'' mib'' re'' do'' sib' sib''32 la'' sol'' fa'' mib'' re'' do'' sib'
+fa'4 r8 r32 sol' fa' mib' |
+re'8 r r4 sol'16( sib') sol'16( sib') sol'16( sib') sol'16( sib') |
 \setMusic #'reprise {
-  \ru#6 { la' do'' } sib' re'' sib' re'' |
+  la' do'' la' do'' la' do'' la' do'' la' do'' la' do'' sib' re'' sib' re'' |
   sol'8 la' sol' la' fad' la' re' fad' |
   sol sol' sol sol' sib sol' sib sol' |
-  \ru#4 { do'16 sol' } do' fa' do' fa' la fa' la fa' |
+  do'16 sol' do'16 sol' do'16 sol' do'16 sol' do' fa' do' fa' la fa' la fa' |
   sib fa' sib fa' sib sol' si sol' do' sol' do' sol' do' la' dod' la' |
-  \ru#4 { re'8 la' } |
-  \ru#4 { sol'16 si' } \ru#4 { fa' re'' } |
+  re'8 la' re' la' re' la' re' la' |
+  sol'16 si' sol'16 si' sol'16 si' sol'16 si' fa' re'' fa' re'' fa' re'' fa' re'' |
   mib' do'' mib' do'' do' mib' do' mib' re' sol' re' sol' re' fad' re' fad' |
   sol'4 r16 r32 re' mi' fa' sol' la' sib'4 re''32 re'' re'' re'' sol'' sol'' sol'' sol'' |
 }
