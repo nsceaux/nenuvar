@@ -1,0 +1,5 @@
+\piecePartSpecs #`((dessus #:indent 0)
+                   (haute-contre #:indent 0)
+                   (taille #:indent 0)
+                   (basse #:indent 0)
+                   (voix))

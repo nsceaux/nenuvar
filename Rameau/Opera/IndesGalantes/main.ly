@@ -179,7 +179,7 @@
   \includeScore "BADemilieOsman"
 }
 \bookpart {
-  \pieceToc \markup { Osman : \italic { C'est trop m'accabler par vos pleurs, } }
+  \pieceToc \markup { Osman : \italic { C'est trop m'accabler par vos pleurs } }
   \includeScore "BAEosman"
 }
 \bookpart {
@@ -196,4 +196,9 @@
 \bookpart {
   \pieceToc \markup { Émilie : \italic { Que ces cris agitent mes sens ! } }
   \includeScore "BBDemilie"
+}
+\bookpart {
+  \pieceToc \markup { Chœur : \italic { Que nous sert d'échapper à la fureur des mers ? } }
+  \includeScore "BBEchoeur"
+
 }
