@@ -202,3 +202,9 @@
   \includeScore "BBEchoeur"
   \includeScore "BBFemilie"
 }
+\bookpart {
+  \scene "Scène Première"
+  \sceneDescription \markup \fill-line { \line { \smallCaps { Émilie, Valère } (en esclave) } }
+  \pieceToc \markup { Émilie, Valère }
+  \includeScore "BCAemilieValere"
+}

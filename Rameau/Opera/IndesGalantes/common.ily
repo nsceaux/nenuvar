@@ -58,6 +58,14 @@ emilieMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Émilie"))
 
+valereMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Valère"))
+
+valereMarkNoClef =
+#(define-music-function (parser location) ()
+  (make-character-mark "" "Valère"))
+
 osmanMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Osman"))
