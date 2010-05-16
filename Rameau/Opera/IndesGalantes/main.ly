@@ -233,3 +233,7 @@
   \pieceToc \markup { Chœur : \italic { Volez, Zéphyrs, tendres amants de Flore ! } }
   \includeScore "BECchoeur"
 }
+\bookpart {
+  \pieceTocTitle "Air pour les esclaves africains"
+  \includeScore "BEDair"
+}
