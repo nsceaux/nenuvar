@@ -214,3 +214,14 @@
   \pieceToc \markup { Émilie, Valère, Osman }
   \includeScore "BDAevo"
 }
+\bookpart {
+  \scene "Scène V"
+  \sceneDescription \markup \fill-line {
+    \line \smallCaps { Émilie, Valère, }
+    \line { Provençaux et Provençales de leur escadre, }
+    \line { Esclaves africains d'Osman }
+  }
+ }
+ \pieceTocTitle "Marche"
+ \includeScore "BEAmarche"
+}
