@@ -18,6 +18,13 @@
                \once \override Staff . Clef #'full-size-change = ##t }
              s1*0 ^\markup \character $name >> #}))
 
+#(define-public (make-character-mark-text clefs name text)
+   (if (string=? clefs "")
+       #{ s1*0 ^\markup \character-text $name $text #}
+       #{ << { \set Staff.forceClef = ##t \clef #$clefs
+               \once \override Staff . Clef #'full-size-change = ##t }
+             s1*0 ^\markup \character-text $name $text >> #}))
+
 
 markUpBegin = {
   \once \override Score . RehearsalMark #'break-visibility = #end-of-line-invisible
