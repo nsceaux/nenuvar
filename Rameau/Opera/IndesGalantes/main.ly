@@ -225,3 +225,7 @@
  \pieceTocTitle "Marche"
  \includeScore "BEAmarche"
 }
+\bookpart {
+  \pieceToc \markup { Émilie, Valère : \italic { Volez, Zéphyrs, tendres amants de Flore ! } }
+  \includeScore "BEBduo"
+}
