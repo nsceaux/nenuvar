@@ -229,3 +229,7 @@
   \pieceToc \markup { Émilie, Valère : \italic { Volez, Zéphyrs, tendres amants de Flore ! } }
   \includeScore "BEBduo"
 }
+\bookpart {
+  \pieceToc \markup { Chœur : \italic { Volez, Zéphyrs, tendres amants de Flore ! } }
+  \includeScore "BECchoeur"
+}
