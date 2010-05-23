@@ -251,3 +251,7 @@
   \pieceTocTitle "Tambourin"
   \includeScore "BEHtambourin"
 }
+\bookpart {
+  \pieceToc \markup { Émilie : \italic { Hâtez-vous de vous embarquer } }
+  \includeScore "BEIariette"
+}
