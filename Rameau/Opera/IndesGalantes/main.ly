@@ -289,5 +289,9 @@
 \bookpart {
   \scene "Scène II"
   \sceneDescription \markup \fill-line { \line { \smallCaps Phani seule } }
-
+  \pieceToc \markup { Phani :
+    \italic { Viens, hymen, viens m'unir au vainqueur que j'adore ! } }
+  \includeScore "CBAphani"
+  \scene "Scène III"
+  \sceneDescription \markup  \fill-line { \line \smallCaps { Phani, Huascar } }
 }
