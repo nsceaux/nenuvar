@@ -241,3 +241,9 @@
   \pieceToc \markup { Valère : \italic { Hâtez-vous de vous embarquer } }
   \includeScore "BEEvalere"
 }
+\bookpart {
+  \pieceTocTitle "Rigaudon"
+  \includeScore "BEFrigaudon"
+  \pieceToc \markup { Émilie : \italic { Fuyez, vents orageux ! } }
+  \includeScore "BEGemilie"
+}
