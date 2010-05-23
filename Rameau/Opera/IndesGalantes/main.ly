@@ -237,3 +237,7 @@
   \pieceTocTitle "Air pour les esclaves africains"
   \includeScore "BEDair"
 }
+\bookpart {
+  \pieceToc \markup { Valère : \italic { Hâtez-vous de vous embarquer } }
+  \includeScore "BEEvalere"
+}
