@@ -43,8 +43,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Prologue
-%%%
-%{\bookpart {
+%%% 
+\bookpart {
   \act "Prologue"
   \sceneDescription \markup \fill-line {
     \line { Le Théâtre représente le palais d'Hébé. }
@@ -153,7 +153,7 @@
   \includeScore "AEHchoeur"
   \actEnd "FIN DU PROLOGUE"
 }
-%}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Première Entrée
@@ -221,9 +221,8 @@
     \line { Provençaux et Provençales de leur escadre, }
     \line { Esclaves africains d'Osman }
   }
- }
- \pieceTocTitle "Marche"
- \includeScore "BEAmarche"
+  \pieceTocTitle "Marche"
+  \includeScore "BEAmarche"
 }
 \bookpart {
   \pieceToc \markup { Émilie, Valère : \italic { Volez, Zéphyrs, tendres amants de Flore ! } }
@@ -254,4 +253,15 @@
 \bookpart {
   \pieceToc \markup { Émilie : \italic { Hâtez-vous de vous embarquer } }
   \includeScore "BEIariette"
+}
+\bookpart {
+  \pieceTocTitle "Tambourin"
+  \reIncludeScore "BEHtambourin" "BEItambourin"
+}
+\bookpart {
+  \pieceToc \markup { Émilie : \italic { Partez ! On languit sur le rivage } }
+  \includeScore "BEJemilie"
+  \pieceTocTitle "Entr'acte"
+  \reIncludeScore "BEFrigaudon" "BEJrigaudon"
+  \actEnd "FIN DE LA PREMIÈRE ENTRÉE"
 }
