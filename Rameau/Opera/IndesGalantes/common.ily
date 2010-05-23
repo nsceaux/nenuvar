@@ -54,6 +54,8 @@ amourMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "L'Amour"))
 
+%%
+
 emilieMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Émilie"))
@@ -77,6 +79,17 @@ osmanMark =
 osmanMarkText =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark-text "vbasse" "Osman" (markup #:smaller text)))
+
+%%%
+
+carlosMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Carlos"))
+
+phaniMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Phani"))
+
 
 %%%
 

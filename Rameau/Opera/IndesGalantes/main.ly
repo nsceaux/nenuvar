@@ -281,5 +281,13 @@
   }
   \pieceTocTitle "Ritournelle"
   \includeScore "CAAritournelle"
+  \scene "Scène Première"
+  \sceneDescription \markup \fill-line { \line \smallCaps { Phani, Carlos } }
+  \pieceToc \markup { Phani, Carlos }
+  \includeScore "CABcarlosPhani"
+}
+\bookpart {
+  \scene "Scène II"
+  \sceneDescription \markup \fill-line { \line { \smallCaps Phani seule } }
 
 }
