@@ -43,7 +43,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Prologue
-%%% 
+%%%
+%{
 \bookpart {
   \act "Prologue"
   \sceneDescription \markup \fill-line {
@@ -264,4 +265,21 @@
   \pieceTocTitle "Entr'acte"
   \reIncludeScore "BEFrigaudon" "BEJrigaudon"
   \actEnd "FIN DE LA PREMIÈRE ENTRÉE"
+}
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% Première Entrée
+%%%
+\bookpart {
+  \entree "Deuxième Entrée" "Les Incas du Pérou"
+  \sceneDescription \markup \fill-line {
+    \line { Le théâtre représente un désert du Pérou, terminé par une montagne aride. }
+    \line { Le sommet en est couronné par la bouche d'un volcan formée }
+    \line { de rochers calcinés et couverts de cendres. }
+  }
+  \pieceTocTitle "Ritournelle"
+  \includeScore "CAAritournelle"
+
 }
