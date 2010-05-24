@@ -302,5 +302,6 @@
   \includeScore "CCAhuascar"
 }
 \bookpart {
-  
+  \pieceToc \markup { Huascar : \italic { Obéissons sans balancer } }
+  \includeScore "CCBhuascar"
 }
