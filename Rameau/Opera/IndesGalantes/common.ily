@@ -90,6 +90,14 @@ phaniMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Phani"))
 
+huascarMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Huascar"))
+
+huascarMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vbasse" "Huascar" (markup #:smaller text)))
+
 
 %%%
 

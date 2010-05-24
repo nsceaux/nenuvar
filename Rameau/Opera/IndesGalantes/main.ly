@@ -274,10 +274,12 @@
 %%%
 \bookpart {
   \entree "Deuxième Entrée" "Les Incas du Pérou"
-  \sceneDescription \markup \fill-line {
-    \line { Le théâtre représente un désert du Pérou, terminé par une montagne aride. }
-    \line { Le sommet en est couronné par la bouche d'un volcan formée }
-    \line { de rochers calcinés et couverts de cendres. }
+  \sceneDescription \markup \left-align \center-column {
+    \wordwrap-center {
+      Le théâtre représente un désert du Pérou, terminé par une montagne
+      aride.  Le sommet en est couronné par la bouche d'un volcan formée
+      de rochers calcinés et couverts de cendres.
+    }
   }
   \pieceTocTitle "Ritournelle"
   \includeScore "CAAritournelle"
@@ -292,6 +294,13 @@
   \pieceToc \markup { Phani :
     \italic { Viens, hymen, viens m'unir au vainqueur que j'adore ! } }
   \includeScore "CBAphani"
+}
+\bookpart {
   \scene "Scène III"
   \sceneDescription \markup  \fill-line { \line \smallCaps { Phani, Huascar } }
+  \pieceToc \markup { Huascar }
+  \includeScore "CCAhuascar"
+}
+\bookpart {
+  
 }
