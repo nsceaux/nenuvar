@@ -217,7 +217,7 @@
 }
 \bookpart {
   \scene "Scène V"
-  \sceneDescription \markup \fill-line {
+  \sceneDescription \markup \left-align \center-column {
     \line \smallCaps { Émilie, Valère, }
     \line { Provençaux et Provençales de leur escadre, }
     \line { Esclaves africains d'Osman }
@@ -304,4 +304,16 @@
 \bookpart {
   \pieceToc \markup { Huascar : \italic { Obéissons sans balancer } }
   \includeScore "CCBhuascar"
+}
+\bookpart {
+  \pieceToc \markup { Phani, Huascar }
+  \includeScore "CCCphaniHuascar"
+
+  \scene "Scène IV"
+  \sceneDescription \markup \left-align \center-column {
+    \line { \smallCaps Huascar et un Inca, son confident. }
+    \line { On entend un prélude qui annonce la fête du Soleil. }
+  }
+  \pieceToc \markup { Huascar }
+  \includeScore "CDAhuascar"
 }
