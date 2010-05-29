@@ -331,3 +331,7 @@
   \pieceTocTitle "Adoration du Soleil"
   \includeScore "CEBprelude"
 }
+\bookpart {
+  \pieceToc { Huascar, chœur : \italic { Brillant soleil, jamais nos yeux, dans ta carrière } }
+  \includeScore "CEChuascarChoeur"
+}
