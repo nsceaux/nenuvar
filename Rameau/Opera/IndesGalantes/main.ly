@@ -317,3 +317,17 @@
   \pieceToc \markup { Huascar }
   \includeScore "CDAhuascar"
 }
+\bookpart {
+  \scene "Scène V"
+  \sceneDescription \markup \left-align \center-column {
+    \line { Fête du Soleil }
+    \wordwrap-center {
+      \smallCaps Huascar, \smallCaps Phani, ramenée par des Incas, Pallas et Incas,
+      Sacrificateurs, Péruviens et Péruviennes.
+    }
+  }
+  \pieceToc \markup { Huascar : \italic { Soleil, on a détruit tes superbes asiles } }
+  \includeScore "CEAhuascar"
+  \pieceTocTitle "Adoration du Soleil"
+  \includeScore "CEBprelude"
+}
