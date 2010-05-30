@@ -351,3 +351,14 @@
   \pieceToc \markup { Huascar : \italic { Permettez, astre du jour } }
   \includeScore "CEHhuascar"
 }
+\bookpart {
+  \pieceTocTitle "Première Gavotte"
+  \includeScore "CEIgavotte"
+}
+\bookpart {
+  \pieceTocTitle "Deuxième Gavotte"
+  \includeScore "CEJgavotte"
+}
+\bookpart {
+
+}
