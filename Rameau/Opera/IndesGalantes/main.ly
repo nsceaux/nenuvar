@@ -345,3 +345,9 @@
   \pieceToc \markup { Huascar, chœur : \italic { Clair flambeau du monde } }
   \includeScore "CEFhuascarChoeur"
 }
+\bookpart {
+  \pieceToc "Loure en rondeau"
+  \includeScore "CEGloure"
+
+
+}
