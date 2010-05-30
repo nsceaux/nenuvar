@@ -348,6 +348,6 @@
 \bookpart {
   \pieceToc "Loure en rondeau"
   \includeScore "CEGloure"
-
-
+  \pieceToc \markup { Huascar : \italic { Permettez, astre du jour } }
+  \includeScore "CEHhuascar"
 }
