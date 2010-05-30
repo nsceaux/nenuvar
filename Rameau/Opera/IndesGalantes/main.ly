@@ -340,5 +340,7 @@
   \includeScore "CEDair"
 }
 \bookpart {
+  \pieceTocTitle "Danse de Péruviens et de Péruviennes"
+  \includeScore "CEErondeau"
 
 }

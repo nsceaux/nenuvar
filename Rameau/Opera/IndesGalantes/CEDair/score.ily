@@ -1,6 +1,6 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \instrumentName "Violons"
+    \new Staff << \instrumentName "Dessus"
       \global \includeNotes "dessus" >>
     \new Staff << \instrumentName "Haute-contres"
       \global \includeNotes "haute-contre" >>
