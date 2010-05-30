@@ -335,3 +335,10 @@
   \pieceToc { Huascar, chœur : \italic { Brillant soleil, jamais nos yeux, dans ta carrière } }
   \includeScore "CEChuascarChoeur"
 }
+\bookpart {
+  \pieceTocTitle "Air des Incas pour la dévotion du Soleil"
+  \includeScore "CEDair"
+}
+\bookpart {
+
+}
