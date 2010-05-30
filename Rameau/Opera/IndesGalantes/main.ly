@@ -338,9 +338,10 @@
 \bookpart {
   \pieceTocTitle "Air des Incas pour la dévotion du Soleil"
   \includeScore "CEDair"
-}
-\bookpart {
   \pieceTocTitle "Danse de Péruviens et de Péruviennes"
   \includeScore "CEErondeau"
-
+}
+\bookpart {
+  \pieceToc \markup { Huascar, chœur : \italic { Clair flambeau du monde } }
+  \includeScore "CEFhuascarChoeur"
 }
