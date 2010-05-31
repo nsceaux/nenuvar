@@ -7,23 +7,21 @@
   \header {
     title = "Les Indes Galantes"
     notes = \markup \column {
-      \line { Documents originaux :}
-      \vspace #0.5
-      \wordwrap {
-        \italic { Les Indes Galantes, } ballet heroïque mis en musique
-        par Mr. Rameau et représenté par lacademie royalle de musique le
-        23e Aout 1736. Les parolles sont de Mr. Fuzelier. 1750.
+      \line { Cette édition est basée sur le manuscrit :}
+      \line {
+        \hspace #6 J.P. Rameau, L. Fuzelier. \italic { Les Indes Galantes. } 1750.
+        \smaller
         \with-url #"http://numerique.bibliotheque.toulouse.fr/ark:/74899/B315556101_CONS0192"
-        \tiny \typewriter "http://numerique.bibliotheque.toulouse.fr"
+        \typewriter "http://numerique.bibliotheque.toulouse.fr"
       }
-      \vspace #1
+      
       \line { Le basse chiffrée, qui ne figure par sur ce manuscrit, est extraite de : }
-      \vspace #0.5
-      \wordwrap {
-        \italic { J.P. Rameau: Oeuvres Complètes, Tome VII, }
-        Paris: A. Durand et Fils, 1895. Édité par Paul Dukas.
+      \line {
+        \hspace #6 J.P. Rameau. \italic { Oeuvres Complètes, Tome VII. }
+        Paris: A. Durand et Fils, 1895. Éditeur Paul Dukas.
+        \smaller
         \with-url #"http://imslp.org/wiki/Les_Indes_Galantes_(Rameau,_Jean-Philippe)"
-        \tiny \typewriter "http://imslp.org"
+        \typewriter "http://imslp.org"
       }
     }
   }
@@ -44,7 +42,6 @@
 %%%
 %%% Prologue
 %%%
-%{
 \bookpart {
   \act "Prologue"
   \sceneDescription \markup \fill-line {
@@ -266,7 +263,6 @@
   \reIncludeScore "BEFrigaudon" "BEJrigaudon"
   \actEnd "FIN DE LA PREMIÈRE ENTRÉE"
 }
-%}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
@@ -383,7 +379,7 @@
   \pieceToc \markup { Huascar : \italic { La flamme se rallume encore } }
   \includeScore "CGAhuascar"
 
-  \markup \large \fill-line { On joue les menuets pour entr'acte. }
+  \markup \large \fill-line { \line { On joue les menuets pour entr'acte. } }
   \actEnd "FIN DE LA DEUXIÈME ENTRÉE"
 }
 %% page 198

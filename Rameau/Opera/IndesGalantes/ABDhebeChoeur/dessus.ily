@@ -5,7 +5,7 @@
 
 %% Musettes
 \setMusic #'Amus {
-  r8^"Musettes" |
+  r8 |
   R2. |
   r2 r8 sol' |
   si'8.( la'16) si'8.( do''16) si'8.( do''16) |
@@ -117,11 +117,13 @@
   si'2
 }
 <<
-  \tag #'hautbois1 \musetteI
-  \tag #'hautbois2 \musetteII
+  \tag #'hautbois1 { s8*0^"Musettes" \musetteI }
+  \tag #'hautbois2 { s8*0^"Musettes" \musetteII }
   \tag #'dessus \musettes
-  \tag #'violon1 << \new CueVoice \musetteI { s4 s2.*29 mi'2\rest } >>
-  \tag #'violon2 << \new CueVoice \musetteII { s4 s2.*29 do'2\rest } >>
+  \tag #'violon1 << \new CueVoice { s8*0^"Musettes" \musetteI }
+    { s8 s2.*29 mi'2\rest } >>
+  \tag #'violon2 << \new CueVoice { s8*0^"Musettes" \musetteII }
+    { s8 s2.*29 do'2\rest } >>
   \tag #'flute1 \fluteI
   \tag #'flute2 \fluteII
   \tag #'flute1-conducteur { \noHaraKiri \fluteI }
