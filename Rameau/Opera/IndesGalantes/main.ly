@@ -363,3 +363,11 @@
   \pieceTocTitle "Tremblement de terre"
   \includeScore "CEKchoeur"
 }
+\bookpart {
+  \scene "Scène VI"
+  \sceneDescription \markup \left-align \center-column {
+    \line \smallCaps { Phani, huascar, Carlos }
+  }
+  \pieceToc \markup { Phani, Huascar, Carlos }
+  \includeScore "CFAphaniHuascarCarlos"
+}
