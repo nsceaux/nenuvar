@@ -360,5 +360,6 @@
   \includeScore "CEJgavotte"
 }
 \bookpart {
-
+  \pieceTocTitle "Tremblement de terre"
+  \includeScore "CEKchoeur"
 }
