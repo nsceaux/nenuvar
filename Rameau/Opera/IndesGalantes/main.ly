@@ -372,7 +372,18 @@
   \includeScore "CFAphaniHuascarCarlos"
 }
 \bookpart {
-  \pieceToc { Phani, Carlos, Huascar : \italic { Pour jamais, l'amour nous engage. } }
+  \pieceToc \markup { Phani, Carlos, Huascar :
+    \italic { Pour jamais, l'amour nous engage. } }
   \includeScore "CFBtrio"
+  \scene "Scène VII"
+  \sceneDescription \markup \left-align \center-column {
+    \line { Les mêmes }
+    \line { Le volcan se rallume, et le tremblement de terre recommence. }
+  }
+  \pieceToc \markup { Huascar : \italic { La flamme se rallume encore } }
+  \includeScore "CGAhuascar"
 
+  \markup \large \fill-line { On joue les menuets pour entr'acte. }
+  \actEnd "FIN DE LA DEUXIÈME ENTRÉE"
 }
+%% page 198
