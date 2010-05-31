@@ -332,7 +332,7 @@
   \includeScore "CEBprelude"
 }
 \bookpart {
-  \pieceToc { Huascar, chœur : \italic { Brillant soleil, jamais nos yeux, dans ta carrière } }
+  \pieceToc \markup { Huascar, chœur : \italic { Brillant soleil, jamais nos yeux, dans ta carrière } }
   \includeScore "CEChuascarChoeur"
 }
 \bookpart {
@@ -366,8 +366,13 @@
 \bookpart {
   \scene "Scène VI"
   \sceneDescription \markup \left-align \center-column {
-    \line \smallCaps { Phani, huascar, Carlos }
+    \line \smallCaps { Phani, Huascar, Carlos }
   }
   \pieceToc \markup { Phani, Huascar, Carlos }
   \includeScore "CFAphaniHuascarCarlos"
+}
+\bookpart {
+  \pieceToc { Phani, Carlos, Huascar : \italic { Pour jamais, l'amour nous engage. } }
+  \includeScore "CFBtrio"
+
 }
