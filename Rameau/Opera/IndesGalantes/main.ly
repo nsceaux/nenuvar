@@ -38,6 +38,7 @@
   %% Table of contents
   \markuplines \table-of-contents
 }
+%{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Prologue
@@ -266,7 +267,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
-%%% Première Entrée
+%%% Deuxième Entrée
 %%%
 \bookpart {
   \entree "Deuxième Entrée" "Les Incas du Pérou"
@@ -383,3 +384,28 @@
   \actEnd "FIN DE LA DEUXIÈME ENTRÉE"
 }
 %% page 198
+%} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% Troisième Entrée
+%%%
+\bookpart {
+  \entree "Troisième Entrée" "Les Sauvages"
+  \sceneDescription \markup \left-align \center-column {
+    \wordwrap-center {
+      Le théâtre représente un bosquet d'une forêt de l'Amérique,
+      voisine des colonies françaises et espagnoles où doit se célébrer
+      la cérémonie du Grand Calumet de la Paix.
+    }
+  }
+  \pieceTocTitle "Ritournelle"
+  \includeScore "DAAritournelle"
+  \scene "Scène Première"
+  \sceneDescription \markup \left-align \center-column {
+    \line { \smallCaps Adario commandant les guerriers de la nation sauvage. }
+    \line { On entend les fanfares des trompettes françaises. }
+  }
+  \pieceTocTitle { Adario : \italic { Rivaux de mes exploits, rivaux de mes amours } }
+  \includeScore "DABadario"
+}

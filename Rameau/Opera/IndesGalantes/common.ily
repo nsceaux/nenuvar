@@ -32,7 +32,7 @@
    (flute2 "Flûte II" ((dessus #f) (violon2 "Violons")) (#:notes "dessus" #:tag-notes flute2))
    (hautbois1 "Hautbois I" ((dessus #f) (violon1 "Violons")) (#:notes "dessus" #:tag-notes hautbois1))
    (hautbois2 "Hautbois II" ((dessus #f) (violon2 "Violons")) (#:notes "dessus" #:tag-notes hautbois2))
-   (trompette "Trompette" () (#:notes "dessus" #:tag-notes trompette))
+   (trompette "Trompettes" () (#:notes "dessus" #:tag-notes trompette))
 
    (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
    (taille "Taille" () (#:notes "taille" #:clef "alto"))
