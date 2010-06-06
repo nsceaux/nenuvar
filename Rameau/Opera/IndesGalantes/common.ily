@@ -100,6 +100,10 @@ huascarMarkText =
 
 %%%
 
+zimaMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Zima"))
+
 alvarMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Alvar"))

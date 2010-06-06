@@ -419,4 +419,13 @@
   \pieceToc \markup { Damon, Alvar }
   \includeScore "DBAalvarDamon"
 }
+\bookpart {
+  \scene "Scène III"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps Zima, fille du chef de la nation sauvage, 
+    \smallCaps { Alvar, Damon, Adario } caché.
+  }
+  \pieceToc \markup { Zima, Damon, Alvar }
+  \includeScore "DCAzad"
+}
 \markup\null
