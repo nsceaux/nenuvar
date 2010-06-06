@@ -98,6 +98,20 @@ huascarMarkText =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark-text "vbasse" "Huascar" (markup #:smaller text)))
 
+%%%
+
+alvarMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Alvar"))
+
+alvarMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vbasse" "Alvar" (markup #:smaller text)))
+
+damonMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Damon"))
+
 
 %%%
 

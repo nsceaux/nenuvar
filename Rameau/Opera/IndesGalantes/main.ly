@@ -406,6 +406,17 @@
     \line { \smallCaps Adario commandant les guerriers de la nation sauvage. }
     \line { On entend les fanfares des trompettes françaises. }
   }
-  \pieceTocTitle { Adario : \italic { Rivaux de mes exploits, rivaux de mes amours } }
+  \pieceToc \markup { Adario : \italic { Rivaux de mes exploits, rivaux de mes amours } }
   \includeScore "DABadario"
 }
+\bookpart {
+  \scene "Scène II"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps Damon, officier français,
+    \smallCaps { Don Alvar, } officier espagnol,
+    \smallCaps Adario caché.
+  }
+  \pieceToc \markup { Damon, Alvar }
+  \includeScore "DBAalvarDamon"
+}
+\markup\null
