@@ -104,6 +104,10 @@ zimaMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Zima"))
 
+zimaMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vbas-dessus" "Zima" (markup #:smaller text)))
+
 alvarMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Alvar"))
@@ -116,6 +120,9 @@ damonMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Damon"))
 
+damonMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vhaute-contre" "Damon" (markup #:smaller text)))
 
 %%%
 
