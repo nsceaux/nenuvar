@@ -427,5 +427,7 @@
   }
   \pieceToc \markup { Zima, Damon, Alvar }
   \includeScore "DCAzad"
+  \pieceToc \markup { Damon : \italic { La terre, les cieux et les mers } }
+  \includeScore "DCBdamon"
 }
 \markup\null
