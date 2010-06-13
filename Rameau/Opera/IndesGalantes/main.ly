@@ -473,7 +473,7 @@
 \bookpart {
   \pieceTocTitle "Danse du Grand Calumet de la Paix, exécutée par les Sauvages."
   \includeScore "DFBair"
-
-
+  \pieceToc \markup { Zima, Adario, chœur : \italic { Forêts paisibles } }
+  \includeScore "DFCduoChoeur"
 }
 \markup\null
