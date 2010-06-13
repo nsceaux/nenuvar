@@ -470,4 +470,10 @@
   \pieceToc \markup { Adario, chœur : \italic { Bannissons les tristes alarmes ! } }
   \includeScore "DFAadarioChoeur"
 }
+\bookpart {
+  \pieceTocTitle "Danse du Grand Calumet de la Paix, exécutée par les Sauvages."
+  \includeScore "DFBair"
+
+
+}
 \markup\null
