@@ -445,5 +445,11 @@
   \includeScore "DDAzada"
 
 
+  \scene "Scène V"
+  \sceneDescription \markup \left-align \center-column {
+    \line \smallCaps { Zima, Adario. }
+  }
+  \pieceToc \markup { Zima, Adario }
+  \includeScore "DEAadarioZima"
 }
 \markup\null
