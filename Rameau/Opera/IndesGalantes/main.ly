@@ -444,7 +444,6 @@
   \pieceToc \markup { Zima, Adario, Damon, Alvar }
   \includeScore "DDAzada"
 
-
   \scene "Scène V"
   \sceneDescription \markup \left-align \center-column {
     \line \smallCaps { Zima, Adario. }
@@ -456,5 +455,13 @@
   \pieceToc \markup { Zima :
     \italic { Sur nos bords l'amour vole et prévient nos désirs. } }
   \includeScore "DEBzima"
+}
+\bookpart {
+  \pieceToc \markup { Zima, Adario :
+    \italic { Hymen, viens nous unir d'une chaîne éternelle ! } }
+  \includeScore "DECduo"
+}
+\bookpart {
+  \scene "Scène VI"
 }
 \markup\null
