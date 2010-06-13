@@ -463,5 +463,11 @@
 }
 \bookpart {
   \scene "Scène VI"
+  \sceneDescription \markup \wordwrap-center {
+    \smallCaps { Zima, Adario, } Françaises en habits d'amazones,
+    guerriers français et sauvages, sauvagesses, bergers de la colonie.
+  }
+  \pieceToc \markup { Adario, chœur : \italic { Bannissons les tristes alarmes ! } }
+  \includeScore "DFAadarioChoeur"
 }
 \markup\null
