@@ -434,4 +434,16 @@
   \pieceToc \markup { Zima, Damon, Alvar }
   \includeScore "DCCzad"
 }
+\bookpart {
+  \scene "Scène IV"
+  \sceneDescription \markup \left-align \center-column {
+    \line \smallCaps { Zima, Damon, Alvar, Adario. }
+    \line { \smallCaps Adario sortant avec vivacité de la forêt, }
+    \line { \smallCaps Zima, charmée de son transport, lui présente la main. }
+  }
+  \pieceToc \markup { Zima, Adario, Damon, Alvar }
+  \includeScore "DDAzada"
+
+
+}
 \markup\null

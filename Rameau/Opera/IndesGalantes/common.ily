@@ -124,6 +124,10 @@ damonMarkText =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark-text "vhaute-contre" "Damon" (markup #:smaller text)))
 
+adarioMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vtaille" "Adario"))
+
 %%%
 
 entree =
