@@ -452,4 +452,9 @@
   \pieceToc \markup { Zima, Adario }
   \includeScore "DEAadarioZima"
 }
+\bookpart {
+  \pieceToc \markup { Zima :
+    \italic { Sur nos bords l'amour vole et prévient nos désirs. } }
+  \includeScore "DEBzima"
+}
 \markup\null
