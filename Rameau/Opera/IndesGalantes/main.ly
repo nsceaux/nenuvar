@@ -480,4 +480,8 @@
   \pieceTocTitle "Menuets"
   \includeScore "DFDmenuet"
 }
+\bookpart {
+  \pieceToc \markup { Zima : \italic { Régnez, plaisirs et jeux ! } }
+  \includeScore "DFEzima"
+}
 \markup\null
