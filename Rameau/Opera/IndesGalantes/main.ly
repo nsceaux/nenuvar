@@ -476,4 +476,8 @@
   \pieceToc \markup { Zima, Adario, chœur : \italic { Forêts paisibles } }
   \includeScore "DFCduoChoeur"
 }
+\bookpart {
+  \pieceTocTitle "Menuets"
+  \includeScore "DFDmenuet"
+}
 \markup\null
