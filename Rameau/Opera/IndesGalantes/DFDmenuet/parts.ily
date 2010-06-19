@@ -7,7 +7,9 @@
                      (flute1 #:music ,breaks
                              #:instrument ,(markup #:center-column ("Trompettes"
                                                                     "Hautbois")))
-                     (flute2 #:music ,breaks)
+                     (flute2 #:music ,breaks
+                             #:instrument ,(markup #:center-column ("Trompettes"
+                                                                    "Hautbois")))
                      (haute-contre #:notes "haute-contre-taille"
                                    #:music ,breaks
                                    #:tag-notes haute-contre)

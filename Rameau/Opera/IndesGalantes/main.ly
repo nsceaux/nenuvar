@@ -38,7 +38,7 @@
   %% Table of contents
   \markuplines \table-of-contents
 }
-%{
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Prologue
@@ -383,8 +383,6 @@
   \markup \large \fill-line { \line { On joue les menuets pour entr'acte. } }
   \actEnd "FIN DE LA DEUXIÈME ENTRÉE"
 }
-%% page 198
-%} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
@@ -483,5 +481,14 @@
 \bookpart {
   \pieceToc \markup { Zima : \italic { Régnez, plaisirs et jeux ! } }
   \includeScore "DFEzima"
+}
+\bookpart {
+  \pieceTocTitle "Chaconne"
+  \includeScore "DFFchaconne"
+}
+\bookpart {
+  \pieceTocTitle "Entr'acte"
+  \reIncludeScore "DFDmenuet" "DFFmenuet"
+  \actEnd "FIN DE LA TROISIÈME ENTRÉE"
 }
 \markup\null
