@@ -503,7 +503,7 @@
   \sceneDescription \markup \left-align \center-column {
     \line \larger { Fête Persane }
     \wordwrap-center {
-      Le théâtre représente les jardins du palais d'Ali.
+      Le théâtre représente les jardins du palais.
     }
   }
   \pieceTocTitle "Ritournelle"
@@ -553,4 +553,23 @@
   \pieceToc \markup { Tacmas }
   \includeScore "EDCtacmas"
 }
+\bookpart {
+  \scene "Scène V"
+  \sceneDescription \markup \left-align \center-column {
+    \line { La Fête des Fleurs. }
+    \wordwrap-center {
+      La ferme s'ouvre ; alors tout le théâtre représente des berceaux
+      illuminés et décorés de guirlandes et de pots de fleurs. Des
+      symphonistes et des esclaves chantants sont distribués dans des
+      balcons et des feuillages. D'aimables odalisques de diverses
+      nations de l'Asie portent dans leurs habits les fleurs les plus
+      "belles :" l'une a pour parure la "rose ;" l'autre, la
+      "jonquille;" enfin toutes se singularisent par des fleurs
+      différentes.
+    }
+  }
+  \pieceTocTitle "Marche"
+  \includeScore "EEAmarche"
+}
+%% 277
 \markup\null
