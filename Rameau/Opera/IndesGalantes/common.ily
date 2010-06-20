@@ -142,6 +142,18 @@ atalideMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Atalide"))
 
+atalideMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vdessus" "Atalide" (markup #:smaller text)))
+
+tacmasMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Tacmas"))
+
+tacmasMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vhaute-contre" "Tacmas" (markup #:smaller text)))
+
 %%%
 
 entree =

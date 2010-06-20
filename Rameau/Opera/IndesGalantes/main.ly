@@ -535,4 +535,18 @@
   \pieceToc \markup { Fatime, Atalide }
   \includeScore "EBDfatimeAtalide"
 }
+\bookpart {
+  \scene "Scène III"
+  \sceneDescription \markup \left-align \center-column {
+    \line \smallCaps { Fatime, Atalide, Tacmas }
+  }
+  \pieceToc \markup { Atalide, Tacmas }
+  \includeScore "ECAatalideTacmas"
+  \scene "Scène IV"
+  \sceneDescription \markup \left-align \center-column {
+    \line \smallCaps { Fatime, Tacmas }
+  }
+  \pieceToc \markup { Fatime, Tacmas }
+  \includeScore "EDAfatimeTacmas"
+}
 \markup\null
