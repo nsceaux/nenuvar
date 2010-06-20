@@ -138,6 +138,10 @@ fatimeMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Fatime"))
 
+atalideMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Atalide"))
+
 %%%
 
 entree =

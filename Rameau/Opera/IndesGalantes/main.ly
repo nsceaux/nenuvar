@@ -520,4 +520,12 @@
   \pieceToc \markup { Roxane, Fatime }
   \includeScore "EADroxaneFatime"
 }
+\bookpart {
+  \scene "Scène II"
+  \sceneDescription \markup \left-align \center-column {
+    \line \smallCaps { Fatime, Atalide }
+  }
+  \pieceToc \markup { Fatime, Atalide }
+  \includeScore "EBAfatimeAtalide"
+}
 \markup\null
