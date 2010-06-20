@@ -38,7 +38,7 @@
   %% Table of contents
   \markuplines \table-of-contents
 }
-
+%{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Prologue
@@ -490,5 +490,29 @@
   \pieceTocTitle "Entr'acte"
   \reIncludeScore "DFDmenuet" "DFFmenuet"
   \actEnd "FIN DE LA TROISIÈME ENTRÉE"
+}
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% Quatrième Entrée
+%%%
+\bookpart {
+  \entree "Quatrième Entrée" "Les Fleurs"
+  \sceneDescription \markup \left-align \center-column {
+    \line \larger { Fête Persane }
+    \wordwrap-center {
+      Le théâtre représente les jardins du palais d'Ali.
+    }
+  }
+  \pieceTocTitle "Ritournelle"
+  \includeScore "EAAritournelle"
+}
+\bookpart {
+  \scene "Scène Première"
+  \sceneDescription \markup \left-align \center-column {
+    \line { \smallCaps Tacmas, prince persan déguisé en marchande du sérail, }
+    \line { \smallCaps Ali, favori de Tacmas. }
+  }
 }
 \markup\null
