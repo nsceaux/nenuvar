@@ -8,14 +8,15 @@
     title = "Les Indes Galantes"
     notes = \markup \column {
       \line { Cette édition est basée sur le manuscrit :}
+      \line { \hspace #6 J.P. Rameau, L. Fuzelier. \italic { Les Indes Galantes. } 1750. }
       \line {
-        \hspace #6 J.P. Rameau, L. Fuzelier. \italic { Les Indes Galantes. } 1750.
-        \smaller
+        \hspace #6 \smaller
         \with-url #"http://numerique.bibliotheque.toulouse.fr/ark:/74899/B315556101_CONS0192"
         \typewriter "http://numerique.bibliotheque.toulouse.fr"
+        Ref. bibl : Fonds musicaux anciens, Toulouse 2583
       }
       
-      \line { Le basse chiffrée, qui ne figure par sur ce manuscrit, est extraite de : }
+      \line { Le basse chiffrée, qui ne figure par sur ce manuscrit, est tirée de : }
       \line {
         \hspace #6 J.P. Rameau. \italic { Oeuvres Complètes, Tome VII. }
         Paris: A. Durand et Fils, 1895. Éditeur Paul Dukas.
@@ -529,9 +530,9 @@
   \includeScore "EBAfatimeAtalide"
   \pieceToc \markup { Atalide : \italic { La chaîne qui m'engage } }
   \includeScore "EBBatalide"
-}
-\bookpart {
   \pieceToc \markup { Fatime : \italic { Un inconstant devrait-il être heureux ? } }
   \includeScore "EBCfatime"
+  \pieceToc \markup { Fatime, Atalide }
+  \includeScore "EBDfatimeAtalide"
 }
 \markup\null
