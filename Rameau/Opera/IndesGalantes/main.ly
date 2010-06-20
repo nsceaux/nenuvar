@@ -530,4 +530,8 @@
   \pieceToc \markup { Atalide : \italic { La chaîne qui m'engage } }
   \includeScore "EBBatalide"
 }
+\bookpart {
+  \pieceToc \markup { Fatime : \italic { Un inconstant devrait-il être heureux ? } }
+  \includeScore "EBCfatime"
+}
 \markup\null
