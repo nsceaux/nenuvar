@@ -515,5 +515,7 @@
   }
   \pieceToc \markup { Roxane, Fatime }
   \includeScore "EABroxaneFatime"
+  \pieceToc \markup { Fatime : \italic { L'Hiver, dans ces jardins, n'ose outrager les fleurs } }
+  \includeScore "EACfatime"
 }
 \markup\null
