@@ -548,5 +548,7 @@
   }
   \pieceToc \markup { Fatime, Tacmas }
   \includeScore "EDAfatimeTacmas"
+  \pieceToc \markup { Fatime, Tacmas : \italic { Après l'orage, un doux repos calme les cœurs } }
+  \includeScore "EDBduo"
 }
 \markup\null
