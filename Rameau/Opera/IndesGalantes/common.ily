@@ -130,6 +130,16 @@ adarioMark =
 
 %%%
 
+roxaneMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Roxane"))
+
+fatimeMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Fatime"))
+
+%%%
+
 entree =
 #(define-music-function (parser location entree-title1 entree-title2) (string? string?)
    (let ((act-title (format #f "~a : ~a" entree-title1 entree-title2)))

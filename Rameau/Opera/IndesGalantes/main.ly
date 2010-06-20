@@ -511,8 +511,9 @@
 \bookpart {
   \scene "Scène Première"
   \sceneDescription \markup \left-align \center-column {
-    \line { \smallCaps Tacmas, prince persan déguisé en marchande du sérail, }
-    \line { \smallCaps Ali, favori de Tacmas. }
+    \line \smallCaps { Roxane, Fatime }
   }
+  \pieceToc \markup { Roxane, Fatime }
+  \includeScore "EABroxaneFatime"
 }
 \markup\null
