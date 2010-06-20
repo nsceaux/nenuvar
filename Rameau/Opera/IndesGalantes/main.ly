@@ -527,5 +527,7 @@
   }
   \pieceToc \markup { Fatime, Atalide }
   \includeScore "EBAfatimeAtalide"
+  \pieceToc \markup { Atalide : \italic { La chaîne qui m'engage } }
+  \includeScore "EBBatalide"
 }
 \markup\null
