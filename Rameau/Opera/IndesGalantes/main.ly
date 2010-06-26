@@ -581,5 +581,9 @@
   \pieceTocTitle "Deuxième air"
   \includeScore "EEEair"
 }
+\bookpart {
+  \pieceToc \markup { Air italien : \italic { Fra le pupille di vaghe belle } }
+  \includeScore "EEFairItalien"
+}
 %% 292
 \markup\null
