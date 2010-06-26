@@ -577,5 +577,10 @@
   \pieceTocTitle "Premier air des Persans"
   \includeScore "EECair"
 }
+\bookpart {
+  \pieceToc \markup { Tacmas : \italic { L'éclat des roses les plus belles } }
+  \includeScore "EEDtacmas"
+
+}
 %% 292
 \markup\null
