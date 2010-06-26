@@ -573,5 +573,9 @@
   \pieceToc \markup { Chœur : \italic { Dans le sein de Thétis précipitez vos feux } }
   \includeScore "EEBchoeur"
 }
+\bookpart {
+  \pieceTocTitle "Premier air des Persans"
+  \includeScore "EECair"
+}
 %% 292
 \markup\null
