@@ -570,6 +570,8 @@
   }
   \pieceTocTitle "Marche"
   \includeScore "EEAmarche"
+  \pieceToc \markup { Chœur : \italic { Dans le sein de Thétis précipitez vos feux } }
+  \includeScore "EEBchoeur"
 }
-%% 277
+%% 292
 \markup\null

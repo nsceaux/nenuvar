@@ -1,0 +1,17 @@
+Dans le sein de Thé -- tis pré -- ci -- pi -- tez vos feux,
+fuy -- ez, as -- tre du jour, lais -- sez ré -- gner les om -- "bres !"
+Fuy -- ez, as -- tre du jour, lais -- sez ré -- gner les om -- "bres !"
+Nuit, é -- ten -- dez vos voi -- les som -- "bres !"
+Vos tran -- quil -- les mo -- ments,
+vos tran -- quil -- les mo -- ments fa -- vo -- ri -- sent nos jeux.
+
+Fuy -- ez, fuy -- ez, fuy -- ez, as -- tre du jour,
+fuy -- ez, fuy -- ez, lais -- sez ré -- gner les om -- bres,
+lais -- sez ré -- gner __ les om -- "bres !"
+
+Fuy -- ez, fuy -- ez, as -- tre du jour.
+Nuit, é -- ten -- dez vos voi -- les som -- "bres !"
+Nuit, é -- ten -- dez vos voi -- les som -- "bres !"
+Vos tran -- quil -- les mo -- ments fa -- vo -- ri -- sent nos jeux.
+Vos tran -- quil -- les mo -- ments fa -- vo -- ri -- sent nos jeux.
+Vos tran -- quil -- les mo -- ments fa -- vo -- ri -- sent nos jeux.
