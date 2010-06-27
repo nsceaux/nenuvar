@@ -585,5 +585,9 @@
   \pieceToc \markup { Air italien : \italic { Fra le pupille di vaghe belle } }
   \includeScore "EEFairItalien"
 }
-%% 292
+\bookpart {
+  \pieceToc \markup { Fatime, chœur : \italic { Triomphez, agréables fleurs ! } }
+  \includeScore "EEGfatimeChoeur"
+}
+%% 304
 \markup\null
