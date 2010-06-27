@@ -589,5 +589,10 @@
   \pieceToc \markup { Fatime, chœur : \italic { Triomphez, agréables fleurs ! } }
   \includeScore "EEGfatimeChoeur"
 }
+\bookpart {
+  \pieceTocTitle "Premier rondeau"
+  \includeScore "EEHrondeau"
+  
+}
 %% 304
 \markup\null
