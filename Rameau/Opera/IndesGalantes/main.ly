@@ -592,7 +592,8 @@
 \bookpart {
   \pieceTocTitle "Premier rondeau"
   \includeScore "EEHrondeau"
-  
+  \pieceTocTitle "Deuxième rondeau"
+  \includeScore "EEIrondeau"
 }
 %% 304
 \markup\null
