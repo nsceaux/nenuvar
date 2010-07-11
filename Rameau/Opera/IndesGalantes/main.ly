@@ -610,7 +610,8 @@
 \bookpart {
   \pieceTocTitle "Air pour Zéphir"
   \includeScore "EEMzephir"
-
+  \pieceTocTitle "Air pour les Fleurs"
+  \includeScore "EENfleurs"
 
 }
 \markup\null
