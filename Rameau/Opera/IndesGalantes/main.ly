@@ -607,4 +607,10 @@
   \pieceTocTitle "Orage"
   \includeScore "EELorage"
 }
+\bookpart {
+  \pieceTocTitle "Air pour Zéphir"
+  \includeScore "EEMzephir"
+
+
+}
 \markup\null
