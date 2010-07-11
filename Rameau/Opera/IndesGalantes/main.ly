@@ -599,4 +599,8 @@
   \pieceToc \markup { Fatime : \italic { Papillon inconstant } }
   \inconstant "EEJair"
 }
+\bookpart {
+  \pieceTocTitle "Gavotte"
+  \includeScore "EEKgavotte"
+}
 \markup\null
