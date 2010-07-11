@@ -595,5 +595,8 @@
   \pieceTocTitle "Deuxième rondeau"
   \includeScore "EEIrondeau"
 }
-%% 304
+\bookpart {
+  \pieceToc \markup { Fatime : \italic { Papillon inconstant } }
+  \inconstant "EEJair"
+}
 \markup\null
