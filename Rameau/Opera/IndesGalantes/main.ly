@@ -603,4 +603,8 @@
   \pieceTocTitle "Gavotte"
   \includeScore "EEKgavotte"
 }
+\bookpart {
+  \pieceTocTitle "Orage"
+  \includeScore "EELorage"
+}
 \markup\null
