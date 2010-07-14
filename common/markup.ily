@@ -96,6 +96,39 @@
              (markup #:hspace indent #:stencil stencil))
            stencils))))
 
+#(define-markup-command (force-line-width-ratio layout props ratio arg)
+     (number? markup?)
+   (let* ((new-line-width (* ratio (chain-assoc-get 'line-width props)))
+          (line-stencil (interpret-markup layout props
+                                  (markup #:override (cons 'line-width new-line-width)
+                                          arg)))
+          (gap (- new-line-width
+                  (interval-length (ly:stencil-extent line-stencil X)))))                  
+     (interpret-markup layout props (markup #:concat (#:stencil line-stencil #:hspace gap)))))
+
+#(define-markup-list-command (two-column-lines layout props col1 col2)
+   (markup-list? markup-list?)
+   (interpret-markup-list layout props
+                          (make-column-lines-markup-list
+                           (let ((result '()))
+                             (let map-on-lists ((col1 col1)
+                                                (col2 col2))
+                               (if (and (null? col1) (null? col2))
+                                   (reverse! result)
+                                   (let ((line-col1 (if (null? col1) "" (car col1)))
+                                         (line-col2 (if (null? col2) "" (car col2)))
+                                         (rest-col1 (if (null? col1) '() (cdr col1)))
+                                         (rest-col2 (if (null? col2) '() (cdr col2))))
+                                     (set! result (cons
+                                                   (markup #:fill-line
+                                                           (#:null
+                                                            #:force-line-width-ratio 0.45 line-col1
+                                                            #:null
+                                                            #:force-line-width-ratio 0.45 line-col2
+                                                            #:null))
+                                                   result))
+                                     (map-on-lists rest-col1 rest-col2))))))))
+
 #(define-markup-list-command (indented-lines layout props indent args)
   (number? markup-list?)
   (let* ((new-line-width (- (chain-assoc-get 'line-width props) indent))

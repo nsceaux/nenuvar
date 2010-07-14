@@ -6,12 +6,34 @@
   subtitle = "Ballet Héroïque"
 }
 
+%% Staff size:
+%%  14 for lead sheets
+%%  16 for vocal parts
+%%  18 for instruments
 #(set-global-staff-size
   (cond ((eqv? #f (ly:get-option 'part)) 14)
-        ((memq (ly:get-option 'part) '(vocal vocal-keyboard keyboard)) 16)
+        ((memq (ly:get-option 'part) '(voix)) 16)
         (else 18)))
 
+%% Line/page breaking algorithm
+%%  optimal   for lead sheets
+%%  page-turn for instruments and vocal parts
+\paper {
+  #(define page-breaking (if (eqv? (ly:get-option 'part) #f)
+                             ly:optimal-breaking
+                             ly:page-turn-breaking))
+}
+
+%% Use rehearsal numbers in parts
+#(if (symbol? (ly:get-option 'part))
+     (ly:set-option 'use-rehearsal-numbers #t))
+
+%% No incipits for parts
 #(ly:set-option 'non-incipit (not (not (ly:get-option 'part))))
+
+%% Tremolo for string instruments
+#(if (memq (ly:get-option 'part) '(violon1 violon2 haute-contre taille basse))
+     (ly:set-option 'use-tremolo-repeat #t))
 
 \include "italiano.ly"
 \include "common/common.ily"
@@ -40,7 +62,7 @@
    (basson "Bassons" ((basse #f)) (#:notes "basse" #:clef "basse" #:tag-notes basson))
    (timbales "Timbales" () (#:notes "basse" #:clef "basse" #:tag-notes timbales))
 
-   (voix "Parties volcales" () (#:score "score-voix")))
+   (voix "Parties vocales" () (#:score "score-voix")))
 
 trill = #(make-articulation "stopped")
 
