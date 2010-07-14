@@ -7,10 +7,10 @@
       \new Staff <<
         \instrumentName \markup \center-column { "Flûtes II" "Violons Ib" }
         \global \keepWithTag #'dessus2 \includeNotes "dessus2" >>
+      \new Staff <<
+        \instrumentName \markup { Violons II }
+        \global \includeNotes "dessus3" >>
     >>
-    \new Staff <<
-      \instrumentName \markup { Violons II }
-      \global \includeNotes "dessus3" >>
     \new Staff \withLyrics <<
       \characterName "Hébé"
       \global \includeNotes "hebe"

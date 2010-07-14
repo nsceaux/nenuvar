@@ -14,5 +14,5 @@
       \global \keepWithTag #'conducteur \includeNotes "voix-basse"
     >> \includeLyrics "paroles4"
   >>
-  \layout { }
+  \layout { indent = \noindent }
 }

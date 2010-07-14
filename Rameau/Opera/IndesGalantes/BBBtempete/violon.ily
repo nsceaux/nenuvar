@@ -1,9 +1,20 @@
 \clef "dessus2" \ru#4 sib8 \ru#8 sib16 |
 \ru#8 sib16 \ru#16 sib32 |
-\ru#16 <sib re'>32 \ru#8 fa'32 \ru#8 <sib fa'>32 |
-\ru#16 <fa' sib'>32 \ru#16 <fa' re''>32 |
-\ru#16 <re'' fa''>32 \ru#16 <re'' sib''>32 |
-<re'' sib''>8 r r4 r2 |
+<<
+  \tag #'violon1 {
+    \ru#16 re'32 \ru#16 fa' |
+    \ru#16 sib' \ru#16 re'' |
+    \ru#16 fa'' \ru#16 sib'' |
+    sib''8 
+  }
+  \tag #'violon2 {
+    \ru#32 sib32 |
+    \ru#32 fa' |
+    \ru#32 re'' |
+    re''8 
+  }
+>>
+r8 r4 r2 |
 r32 sib'' la'' sol'' fa'' mib'' re'' do'' sib' sib' la' sol' fa' mib' re' do' sib8 r r4 |
 \ru#16 fa'32 fa'32 fa' sol' la' sib' do'' re'' mib'' fa''8 r |
 r32 sib' la' sol' fa' mib' re' do' sib do' re' mib' fa' sol' lab' fa'

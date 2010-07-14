@@ -58,13 +58,14 @@ re'' r4
     fad'8 la'16 sol' fad' mi'
   }
 >>
-re'8 r8 <<
+re'8 r8 \custosNote la'8 |
+<<
   \tag #'(conducteur violon1) \new Voice {
-    \tag #'conducteur \voiceOne \custosNote mi''8 |
+    \tag #'conducteur \voiceOne
     re''8 la'16 sol' fad' mi'
   }
   \tag #'(conducteur violon2) \new Voice {
-    \tag #'conducteur \voiceTwo \custosNote dod''8 |
+    \tag #'conducteur \voiceTwo
     fad'8 la'16 sol' fad' mi'
   }
 >>

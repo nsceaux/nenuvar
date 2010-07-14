@@ -5,7 +5,9 @@ fad'8 sol' la' sol' la' sol' |
 fad'4
 <<
   \setMusic #'ht {
-    \ru#8 <fad' la'>4 |
+    <fad' la'>4 q |
+    q q q |
+    q q q |
     dod''2. |
   }
   \setMusic #'t {

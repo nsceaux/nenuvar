@@ -9,5 +9,4 @@
     >>
   >>
   \layout { indent = \noindent }
-  \midi { }
 }

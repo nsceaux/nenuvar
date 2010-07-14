@@ -9,5 +9,4 @@
     >> \keepWithTag #'voix2 \includeLyrics "paroles"
   >>
   \layout { indent = \largeindent }
-  \midi { }
 }

@@ -12,5 +12,4 @@
     >>
   >>
   \layout { indent = \largeindent }
-  \midi { }
 }

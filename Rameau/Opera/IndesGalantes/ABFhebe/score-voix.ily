@@ -4,5 +4,4 @@
     \global \includeNotes "hebe"
   >> \includeLyrics "paroles"
   \layout { indent = \largeindent }
-  \midi { }
 }

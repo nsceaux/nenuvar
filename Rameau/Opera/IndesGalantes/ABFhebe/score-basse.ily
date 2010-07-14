@@ -9,5 +9,4 @@
       \global \includeNotes "basse" \includeFigures "chiffres" >>
   >>
   \layout { indent = \largeindent }
-  \midi { }
 }

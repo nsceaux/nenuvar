@@ -44,6 +44,6 @@ lab'4 \ru#8 fa''32 \ru#8 lab'' |
 re''8 r mib''4 si' |
 do''32 sol' la' si' do'' re'' mib'' fa'' sol'' do'' re'' mib'' fa'' sol'' la'' si'' do'''8 r |
 r2 r8 r32 do''' sib'' la'' |
-sol''4 \ru#8 sol''32 r32 \ru#7 si \ru#8 sol''32 |
+sol''4 \ru#8 sol''32 r32 si si si si si si si \ru#8 sol''32 |
 \ru#8 do' \ru#8 sol'' \ru#8 re' re'8. sol''32 fad'' |
 sol''16 fa''32 mib'' re'' do'' sib' la' sol'16 fa'32 mib' re' do' sib la sol8 r r4 |

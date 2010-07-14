@@ -20,7 +20,7 @@ fad''2. |
 sol''4 sol''8 fad'' mi'' re'' |
 dod'' re'' re''4.( dod''8) |
 re''2 r4 |
-R2. |
+R2. |\allowPageTurn
 r2 r8 re'' |
 do''[\melisma re'' do'' si' la' do''] |
 si'2\melismaEnd r8 sol'' |
@@ -59,7 +59,7 @@ mi''[\melisma re'' mi'' fa''] mi''[ re''16\trill do''] |
 re''8[ do'' re'' mi''] re''[ do''16\trill si'] |
 do''4.\melismaEnd re''8 si' do'' |
 la'2.\trill |
-R2. |
+R2. |\allowPageTurn
 r2 r8 re'' |
 re''2.~ |
 re''2 r8 sol'' |

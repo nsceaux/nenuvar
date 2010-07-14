@@ -14,12 +14,30 @@ mi''4\trill la'
   }
   \tag #'(violon2 hautbois2 flute2 dessus2) {
     r2 |
-    \times 2/3 { <la'' dod'''>8[ <si'' re'''> <dod''' mi'''>]
-      <dod''' mi'''>[ <si'' re'''> <la'' dod'''>] }
-    <la'' dod'''>8 la' la' la' |
-    \times 2/3 { <la'' dod'''>8[ <si'' re'''> <dod''' mi'''>]
-      <dod''' mi'''>[ <si'' re'''> <la'' dod'''>] }
-    <la'' dod'''>8 la' la' la' |
+    <<
+      \tag #'violon2 <<
+        { \times 2/3 { dod'''8[ re''' mi'''] mi'''[ re''' dod'''] } dod'''8 la' la' la' |
+          \times 2/3 { dod'''8[ re''' mi'''] mi'''[ re''' dod'''] } dod'''8 la' la' la' | } \\
+        { \times 2/3 { la''8[ si'' dod'''] dod'''[ si'' la''] } la''8 la' la' la' |
+          \times 2/3 { la''8[ si'' dod'''] dod'''[ si'' la''] } la''8 la' la' la' | }
+      >>
+      \tag #'flute2 {
+        \times 2/3 { dod'''8[ re''' mi'''] mi'''[ re''' dod'''] } dod'''8 la' la' la' |
+        \times 2/3 { dod'''8[ re''' mi'''] mi'''[ re''' dod'''] } dod'''8 la' la' la' |
+      }
+      \tag #'hautbois2 {
+        \times 2/3 { la''8[ si'' dod'''] dod'''[ si'' la''] } la''8 la' la' la' |
+        \times 2/3 { la''8[ si'' dod'''] dod'''[ si'' la''] } la''8 la' la' la' |
+      }
+      \tag #'dessus2 {
+        \times 2/3 { <la'' dod'''>8[ <si'' re'''> <dod''' mi'''>]
+          <dod''' mi'''>[ <si'' re'''> <la'' dod'''>] }
+        <la'' dod'''>8 la' la' la' |
+        \times 2/3 { <la'' dod'''>8[ <si'' re'''> <dod''' mi'''>]
+          <dod''' mi'''>[ <si'' re'''> <la'' dod'''>] }
+        <la'' dod'''>8 la' la' la' |
+      }
+    >>
     r2 r8 mi' re' re' |
     dod'2
   }
@@ -90,13 +108,41 @@ la''4 fad''\trill
     r4 la' |
     la'2 r4 sold' |
     la'2 r |
-    \times 2/3 { <la'' dod'''>8[ <si'' re'''> <dod''' mi'''>]
-      <dod''' mi'''>[ <si'' re'''> <la'' dod'''>] }
-    <la'' dod'''>8 la' la' la' |
+    <<
+      \tag #'violon2 <<
+        { \times 2/3 { dod'''8[ re''' mi'''] mi'''[ re''' dod'''] } dod'''8 la' la' la' | } \\
+        { \times 2/3 { la''8[ si'' dod'''] dod'''[ si'' la''] } la''8 la' la' la' | }
+      >>
+      \tag #'flute2 {
+        \times 2/3 { dod'''8[ re''' mi'''] mi'''[ re''' dod'''] } dod'''8 la' la' la' |
+      }
+      \tag #'hautbois2 {
+        \times 2/3 { la''8[ si'' dod'''] dod'''[ si'' la''] } la''8 la' la' la' |
+      }
+      \tag #'dessus2 {
+        \times 2/3 { <la'' dod'''>8[ <si'' re'''> <dod''' mi'''>]
+          <dod''' mi'''>[ <si'' re'''> <la'' dod'''>] }
+        <la'' dod'''>8 la' la' la' |
+      }
+    >>
     R1 |
-    \times 2/3 { <la'' dod'''>8[ <si'' re'''> <dod''' mi'''>]
-      <dod''' mi'''>[ <si'' re'''> <la'' dod'''>] }
-    <la'' dod'''>8 la' la' la' |
+    <<
+      \tag #'violon2 <<
+        { \times 2/3 { dod'''8[ re''' mi'''] mi'''[ re''' dod'''] } dod'''8 la' la' la' | } \\
+        { \times 2/3 { la''8[ si'' dod'''] dod'''[ si'' la''] } la''8 la' la' la' | }
+      >>
+      \tag #'flute2 {
+        \times 2/3 { dod'''8[ re''' mi'''] mi'''[ re''' dod'''] } dod'''8 la' la' la' |
+      }
+      \tag #'hautbois2 {
+        \times 2/3 { la''8[ si'' dod'''] dod'''[ si'' la''] } la''8 la' la' la' |
+      }
+      \tag #'dessus2 {
+        \times 2/3 { <la'' dod'''>8[ <si'' re'''> <dod''' mi'''>]
+          <dod''' mi'''>[ <si'' re'''> <la'' dod'''>] }
+        <la'' dod'''>8 la' la' la' |
+      }
+    >>
     r2 r8 mi' re' re' |
     dod'4
   }
@@ -134,7 +180,7 @@ re''\trill dod'' r4 r
     \new CueVoice << \voiceOne s4*0^"Hautbois" \hbtI >>
     { \voiceTwo r4 | R1*3 | r2 \oneVoice }
   >>
->> r4 sol''8. la''16 |
+>> r4 sol''8.-\tag #'dessus1 ^"Tous" la''16 |
 si''8. la''16 sol''8. la''16 si''8. mi''16 la''4~ |
 \times 2/3 { la''8[ sol'' fad''] mi''[ fad'' re''] dod''[ si' la'] } la''4~ |
 \times 2/3 { la''8[ sol'' fad''] mi''[ fad'' re''] dod''[ re'' mi''] } la'8 r |
@@ -196,7 +242,7 @@ re''\trill dod'' r4 r
     { \voiceTwo r4 | R1 \oneVoice }
   >>
 >>
-<< \tag #'(violon1 hautbois1 flute1 dessus1) sol''4.\trill
+<< \tag #'(violon1 hautbois1 flute1 dessus1) sol''4.\trill -\tag #'dessus1 ^"Tous"
     \tag #'(violon2 hautbois2 flute2 dessus2) mi''4. >>
 fad''8 \times 2/3 { mi''8[( fad'' re'']) dod''[( re'' si']) |
   la'[( sol' fad']) fad''[( mi'' re'']) } dod''4. re''8 |

@@ -116,7 +116,7 @@ $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,timbales,part-tr
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,cor,part-cor))
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/IndesGalantes,\
-violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse voix,part-bc,basse-continue))
+violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse voix,,))
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/PiecesDeClavecinEnConcerts,,,))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Concerts/PiecesDeClavecinEnConcerts,violon-viole,part-violon-viole))
