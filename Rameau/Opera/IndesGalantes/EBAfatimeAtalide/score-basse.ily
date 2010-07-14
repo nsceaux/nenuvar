@@ -6,7 +6,7 @@
     >> \includeLyrics "paroles"
     \new Staff <<
       \instrumentName \markup \center-column { Basse continue }
-      \global \includeNotes "basse" >>
+      \global \includeNotes "basse" \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
 }

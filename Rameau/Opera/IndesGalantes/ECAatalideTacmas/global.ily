@@ -8,4 +8,4 @@ s2.*3
 \fractionTime \time 2/2 \midiTempo #160
 s1*2
 \time 4/4 \midiTempo #80
-\grace s8 s4. \bar ""
+\grace s8 s4. \break\bar ""

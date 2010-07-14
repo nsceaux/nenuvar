@@ -1,4 +1,4 @@
 \piecePartSpecs #`((flute1)
                    (flute2)
                    (voix)
-                   (basse))
+                   (basse #:score-template "score-basse-continue"))

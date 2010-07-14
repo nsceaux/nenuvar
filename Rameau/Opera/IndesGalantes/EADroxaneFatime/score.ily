@@ -4,7 +4,7 @@
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \global \includeNotes "basse" >>
+      \global \includeNotes "basse" \includeFigures "chiffres" >>
   >>
   \layout { indent = \noindent }
   \midi { }

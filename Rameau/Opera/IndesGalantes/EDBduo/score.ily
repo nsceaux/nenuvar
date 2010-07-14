@@ -18,7 +18,7 @@
     >> \includeLyrics "paroles2"
     \new Staff <<
       \instrumentName \markup \center-column { Basse continue }
-      \global \includeNotes "basse" >>
+      \global \includeNotes "basse" \includeFigures "chiffres" >>
   >>
   \layout { indent = \largeindent }
   \midi { }

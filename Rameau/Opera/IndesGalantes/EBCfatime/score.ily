@@ -14,7 +14,7 @@
     >> \keepWithTag #'voix \includeLyrics "paroles"
     \newHaraKiriStaff <<
       \instrumentName \markup \center-column { Basse continue }
-      \global \includeNotes "basse"
+      \global \includeNotes "basse" \includeFigures "chiffres"
     >>
   >>
   \layout { indent = \largeindent }
