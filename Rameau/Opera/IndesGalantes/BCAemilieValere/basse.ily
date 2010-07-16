@@ -36,7 +36,7 @@ si, sid, |
 dod fad~ |
 fad4. mi8 re8. dod16 |
 si,1 |
-dod2 r |
+dod2 r |\allowPageTurn
 sid, dod |
 fad,2. |
 si~ |

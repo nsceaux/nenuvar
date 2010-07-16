@@ -16,7 +16,7 @@ r4
   dod''2\trill dod''8 re'' |
 }
 \keepWithTag #'() \choeur
-re''2. |
+re''2. | \allowPageTurn
 R2.*15 |
 r4
 \keepWithTag #'() \choeur

@@ -74,7 +74,7 @@ sol,4 sol fad sol |
 mi sol do re8 mi |
 re2 la, |
 re, r |
-r2 r4 re' |
+r2-\tag #'basse ^"Bassons" r4 re' |
 << { re'1~ | re'~ | re' | re'4 }
   \\ { sol2. sol4 | re2. re4 | sol,2. sol,4 | re,4 } >>
 re8-\tag #'basse ^"Tous" mi fad sol la si |

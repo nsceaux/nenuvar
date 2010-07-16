@@ -5,4 +5,5 @@
                    (flute1 #:instrument "Hautbois seul")
                    (flute2 #:instrument "Hautbois seul")
                    (voix)
+                   (basson) ; no figures
                    (basse #:score-template "score-basse-continue"))

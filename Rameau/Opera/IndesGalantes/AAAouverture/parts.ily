@@ -7,4 +7,4 @@
                    (haute-contre)
                    (taille)
                    (basse)
-                   (basson))
+                   (basson #:instrument "Basson"))

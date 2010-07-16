@@ -5,5 +5,5 @@
                    (flute1 #:instrument "Hautbois" #:tag-notes hautbois1)
                    (flute2 #:instrument "Hautbois" #:tag-notes hautbois2)
                    (voix)
-                   (basson #:notes "basson" #:clef "tenor")
+                   (basson #:instrument "Basson" #:notes "basson" #:clef "tenor")
                    (basse #:score-template "score-basse-continue"))

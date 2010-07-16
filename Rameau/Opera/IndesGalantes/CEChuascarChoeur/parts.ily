@@ -7,4 +7,5 @@
                    (haute-contre)
                    (taille)
                    (voix)
+                   (basson) ; no figures
                    (basse #:score-template "score-basse-continue"))

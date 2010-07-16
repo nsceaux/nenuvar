@@ -7,4 +7,5 @@
                    (flute2 #:notes "flute")
                    (timbales #:notes "timbales")
                    (voix)
+                   (basson) ; no figures
                    (basse #:score-template "score-basse-continue"))

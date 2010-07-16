@@ -10,5 +10,6 @@
                              #:music ,breaks2)
                      (voix)
                      (silence #:ragged #f)
+                     (basson) ; no figures
                      (basse #:score-template "score-basse-continue"
                             #:music ,breaks)))

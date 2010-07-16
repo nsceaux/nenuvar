@@ -49,7 +49,7 @@ mi''1 |
 mi''4 r re''8 mi'' fad'' re'' |
 sol''2 dod''4. re''8 |
 re''2( dod'')\trill |
-si'1 |
+si'1 |\allowPageTurn
 R1*2 |
 r4 r8 si' mi''4. mi''8 |
 mi''1~ |

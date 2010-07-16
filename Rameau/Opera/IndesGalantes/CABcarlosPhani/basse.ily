@@ -38,7 +38,7 @@ re2 dod |
 re2~ re8. do16 sib,8. la,16 |
 sol,2 sol |
 mib1 |
-re2 r |
+re2 r |\allowPageTurn
 si,1 |
 do |
 re4. mib8 fa4 |

@@ -8,4 +8,4 @@
                    (taille #:notes "haute-contre-taille" #:tag-notes taille)
                    (voix)
                    (basse)
-                   (basson))
+                   (basson #:instrument "Basson"))

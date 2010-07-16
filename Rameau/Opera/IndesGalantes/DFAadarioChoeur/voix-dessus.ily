@@ -40,7 +40,7 @@ fa''2 fa''8 r do'' do'' |
 re''4 do'' sib' sib'8 la' |
 sol'2.\trill do''8 do'' |
 sib'4 la' sol'8 sol' do''4 |
-la'1\trill |
+la'1\trill |\allowPageTurn
 do''2 do''4 do'' |
 do''2.~ do''8 re'' |
 si'2 r4 si'8 si' |

@@ -8,4 +8,5 @@
                    (flute1 #:notes "flute")
                    (flute2 #:notes "flute")
                    (voix)
+                   (basson #:instrument "Basson")
                    (basse #:score-template "score-basse-continue"))

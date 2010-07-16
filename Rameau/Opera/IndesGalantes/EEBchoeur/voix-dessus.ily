@@ -76,7 +76,7 @@ dod''4. si'8 si' si' |
 si'2 la'4 |
 la'( sold'2) |
 fad'2. |
-R2.*8 |
+R2.*8 |\allowPageTurn
 re''4 re'' re'' |
 re''2 re''4 |
 re''2 re''4 |

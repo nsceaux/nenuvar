@@ -6,5 +6,5 @@
                    (flute2 #:instrument ,(markup #:center-column ("Hautbois" "Musettes")))
                    (haute-contre)
                    (taille)
-                   (basse)
-                   (basson))
+                   (basse #:music ,#{ s4 s2.*27\noBreak #})
+                   (basson #:instrument "Basson"))

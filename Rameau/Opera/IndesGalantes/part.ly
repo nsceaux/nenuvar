@@ -130,8 +130,10 @@
   \includeScore "BBBtempete"
   \pieceToc \markup { Chœur : \italic { Ciel ! De plus d'une mort nous redoutons les coups ! } }
   \includeScore "BBCchoeur"
+  %{ *** %}\partNoPageTurn #'(violon1 violon2 flute1 flute2 haute-contre taille basse basson)
   \pieceToc \markup { Émilie : \italic { Que ces cris agitent mes sens ! } }
   \includeScore "BBDemilie"
+  %{ *** %}\partNoPageTurn #'(violon1 violon2 flute1 flute2 haute-contre taille basse basson)
   \pieceToc \markup { Chœur : \italic { Que nous sert d'échapper à la fureur des mers ? } }
   \includeScore "BBEchoeur"
   \includeScore "BBFemilie"
@@ -139,6 +141,7 @@
   \sceneDescription \markup \fill-line { \line { \smallCaps { Émilie, Valère } (en esclave) } }
   \pieceToc \markup { Émilie, Valère }
   \includeScore "BCAemilieValere"
+  %{==========%}\partPageBreak #'(hautbois2)
   \scene "Scène IV"
   \sceneDescription \markup \fill-line { \line \smallCaps { Émilie, Valère, Osman } }
   \pieceToc \markup { Émilie, Valère, Osman }
@@ -159,6 +162,7 @@
   \includeScore "BEDair"
   \pieceToc \markup { Valère : \italic { Hâtez-vous de vous embarquer } }
   \includeScore "BEEvalere"
+  %{==========%}\partPageBreak #'(voix)
   \pieceTocTitle "Rigaudon"
   \includeScore "BEFrigaudon"
   \pieceToc \markup { Émilie : \italic { Fuyez, vents orageux ! } }
@@ -204,6 +208,7 @@
   \sceneDescription \markup  \fill-line { \line \smallCaps { Phani, Huascar } }
   \pieceToc \markup { Huascar }
   \includeScore "CCAhuascar"
+  %{==========%}\partPageBreak #'(voix)
   \pieceToc \markup { Huascar : \italic { Obéissons sans balancer } }
   \includeScore "CCBhuascar"
   \pieceToc \markup { Phani, Huascar }
@@ -238,6 +243,7 @@
   \includeScore "CEFhuascarChoeur"
   \pieceToc "Loure en rondeau"
   \includeScore "CEGloure"
+  %{==========%}\partPageBreak #'(hautbois1)
   \pieceToc \markup { Huascar : \italic { Permettez, astre du jour } }
   \includeScore "CEHhuascar"
   \pieceTocTitle "Première Gavotte"

@@ -6,5 +6,5 @@
                    (flute2 #:tag-notes hautbois2 #:notes "hautbois" #:instrument "Hautbois")
                    (haute-contre)
                    (taille)
-                   (basson)
+                   (basson #:instrument "Basson")
                    (basse))

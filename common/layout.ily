@@ -34,12 +34,12 @@
 
   %% Note: these are not scaled; they are in staff-spaces.
   top-title-spacing             = #'((space . 0)  (padding . 1) (minimum-distance . 0))
-  before-title-spacing          = #'((space . 10) (padding . 1) (minimum-distance . 8))
+  before-title-spacing          = #'((space . 14) (padding . 1) (minimum-distance . 8))
   between-title-spacing         = #'((space . 1)  (padding . 0.5))
   after-title-spacing           = #'((space . 6)  (padding . 1) (minimum-distance . 2))
 
   top-system-spacing            = #'((space . 1)  (padding . 1) (minimum-distance . 0))
-  between-system-spacing        = #'((space . 12)  (padding . 1) (minimum-distance . 8))
+  between-system-spacing        = #'((space . 12) (padding . 1) (minimum-distance . 8))
   bottom-system-spacing         = #'((space . 1)  (padding . 1) (minimum-distance . 0) (stretchability . 5))
   between-scores-system-spacing = #'((space . 16) (padding . 1) (minimum-distance . 8))
 }

@@ -6,5 +6,5 @@
                    (flute2)
                    (haute-contre)
                    (taille)
-                   (basson)
+                   (basson #:instrument "Basson")
                    (basse))

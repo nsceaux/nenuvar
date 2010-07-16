@@ -25,7 +25,7 @@ sib'2. sib'4 sib' sib' |
 mi'2. r4 la' la' |
 la'2. sol'4( fad'4.) sol'8 |
 fad'2. fad'4 r2 |
-R1.*2 |
+R1.*2 |\allowPageTurn
 fad''2. r2. |
 R1. |
 r4 sol' sol' sib' sib' sib' |

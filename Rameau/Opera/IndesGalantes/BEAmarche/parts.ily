@@ -6,5 +6,5 @@
                    (hautbois2)
                    (haute-contre)
                    (taille)
-                   (basson #:notes "basson" #:clef "tenor")
+                   (basson #:instrument "Basson" #:notes "basson" #:clef "tenor")
                    (basse))

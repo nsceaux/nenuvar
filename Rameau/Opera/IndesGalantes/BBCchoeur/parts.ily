@@ -6,6 +6,6 @@
                    (hautbois2 #:notes "silence" #:score-template "score-silence" #:ragged #t)
                    (haute-contre #:indent 0)
                    (taille #:indent 0)
-                   (basson #:indent 0)
+                   (basson #:instrument "Basson" #:indent 0)
                    (basse #:score-template "score-basse-continue" #:indent 0)
                    (voix))

@@ -7,5 +7,5 @@
                    (haute-contre #:notes "haute-contre-taille" #:tag-notes haute-contre)
                    (taille #:notes "haute-contre-taille" #:tag-notes taille)
                    (voix)
-                   (basson #:notes "basson")
+                   (basson #:instrument "Basson" #:notes "basson")
                    (basse))

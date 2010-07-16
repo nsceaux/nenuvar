@@ -8,5 +8,5 @@
                    (haute-contre)
                    (taille)
                    (timbales #:notes "timbales")
-                   (basson)
+                   (basson #:instrument "Basson")
                    (basse))

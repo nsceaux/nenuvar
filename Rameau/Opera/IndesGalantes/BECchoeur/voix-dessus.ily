@@ -72,7 +72,7 @@ fa''2.~ |
 fa''4 mi'' re'' |
 re'' re'' dod'' |
 re''2 r4 |
-R2.*3 |
+R2.*3 |\allowPageTurn
 r2 r8 re' |
 re'[ mi' fad' sol' la' sib']( |
 do''8) re'' mib''4. la'8 |

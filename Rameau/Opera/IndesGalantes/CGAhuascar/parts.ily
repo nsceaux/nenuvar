@@ -6,6 +6,6 @@
                    (flute2 #:notes "silence" #:score-template "score-silence" #:ragged #t)
                    (haute-contre #:notes "haute-contre-taille")
                    (taille #:notes "haute-contre-taille")
-                   (basson)
+                   (basson #:instrument "Basson" #:music ,#{ s1*16 \pageBreak #})
                    (basse #:score-template "score-basse-continue")
                    (voix))

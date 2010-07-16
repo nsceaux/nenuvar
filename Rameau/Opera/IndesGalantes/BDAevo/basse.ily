@@ -27,7 +27,7 @@ si,2 si4 |
 red1 |
 mi2. |
 la,2 si, |
-mi,1 |
+mi,1 |\allowPageTurn
 sol,4 |
 sol, sol, |
 sol, sol, |

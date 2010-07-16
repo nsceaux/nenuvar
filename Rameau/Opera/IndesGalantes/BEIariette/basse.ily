@@ -15,7 +15,7 @@ mib4 re8 mib |
 fa4 fa, |
 sib,2 |
 R2 |
-sib4\p _"sans bassons" r |
+sib4_\markup { \dynamic p sans bassons } r |
 fa r |
 fa r |
 sib r |
@@ -51,7 +51,7 @@ mib |
 mi |
 fa4 r |
 fa'8 _"tous" mib'16 re' do' sib la sol |
-fa8 mib16\p_"sans bassons" re do sib, la, sol, |
+fa8 mib16_\markup { \dynamic p sans bassons } re do sib, la, sol, |
 fa,4 r |
 R2 |
 fa4 mib |
@@ -69,7 +69,7 @@ re2 |
 mib |
 mi |
 fa2~ |
-fa8\f _"avec bassons" mib16 re do sib, la, sol, |
+fa8_\markup { \dynamic f sans bassons } mib16 re do sib, la, sol, |
 fa,4 mib, |
 re, r8 mib, |
 fa,2 |
