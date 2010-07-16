@@ -306,6 +306,21 @@ pieceTocTitle =
     (add-no-page-break parser)
     (make-music 'Music 'void #t)))
 
+pieceTocTitleNb =
+#(define-music-function (parser location number title) (string? string?)
+   (add-toc-item parser 'tocPieceMarkup
+                 (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+                     (markup #:rehearsal-number-toc number title)
+                     title))
+   (add-toplevel-markup parser 
+                        (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+                            (markup #:rehearsal-number number
+                                    #:hspace 1
+                                    #:huge (string-upper-case title))
+                            (markup #:title (string-upper-case title))))
+   (add-no-page-break parser)
+   (make-music 'Music 'void #t))
+
 pieceTitle =
 #(define-music-function (parser location title) (string?)
   (let ((rehearsal (rehearsal-number)))

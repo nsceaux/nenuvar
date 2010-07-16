@@ -1,13 +1,14 @@
 \clef "dessus"
-la'4 |
 <<
   \tag #'(violons violon1 violon2) {
+    la'4 |
     la'2 la'8 r la' re'' |
     dod''2\trill r4 re''8 mi'' |
     fad''2 fad''4 la'' |
     fad''4.
   }
   \tag #'trompette {
+    r4 |
     R1*3 |
     r4 r8
   }
