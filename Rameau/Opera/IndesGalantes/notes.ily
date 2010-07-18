@@ -353,6 +353,12 @@
     \line { Gavotte }
   }
 
+  \null\line\bold { Basse chiffrée }
+  \paragraph {
+    La basse chiffrée de Dukas a été utilisée pour cette édition, le
+    manuscrit de 1750 n'en comportant pas.
+  }
+
   \null\line\bold { Orchestration }
   \paragraph {
     Excepté dans les pièces où un instrument (violon, hautbois,
@@ -360,8 +366,8 @@
     appliquées aux trois instruments dans les partitions séparées,
     et les passages hors de l'ambitus du hautbois ou de la flûte ont
     été laissés tels quels.  Il revient à l'interprète de décider si
-    l'instrument doit jouer cette partie, transposer d'une octave
-    les passages trop graves ou laisser un silence, etc.
+    l'instrument doit jouer cette partie, transposer les passages trop
+    graves ou trop aigüs, ou laisser un silence, etc.
   }
 
   \paragraph {

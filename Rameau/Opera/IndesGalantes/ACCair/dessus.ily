@@ -17,7 +17,7 @@ mi''2.\trill ~ mi''8. re''32*2/3 mi'' fad'' |
 sol''4 mi' sol'' mi' |
 sol''2.\trill ~ sol''8. fad''32*2/3 sol'' la'' |
 <<
-  \tag #'(violon1 hautbois1 hautbois2 flute1 flute2) { si''4 re' si'' re' }
+  \tag #'(violon1 hautbois1 hautbois2 flute1 flute2 trompette) { si''4 re' si'' re' }
   \tag #'violon2 { si'' sol si'' sol }
   \tag #'dessus { si'' <re' sol> si'' <re' sol> }
 >>
