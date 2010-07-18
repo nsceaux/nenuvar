@@ -162,6 +162,8 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Oratorio/Jephtha,,,))
 ### Pancrace Royer
 $(eval $(call MAKE_ALL_SCORE_RULES,PancraceRoyer/PremierLivre,,,))
 
+### Boismortier
+$(eval $(call MAKE_ALL_SCORE_RULES,Boismortier/SuitesADeuxMusettes,,,))
 
 help:
 	@echo "usage: make <score-rule>"
