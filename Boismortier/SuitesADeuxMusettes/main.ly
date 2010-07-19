@@ -33,8 +33,9 @@
   \pageBreak
   \pieceTocTitle "Sarabande"
   \includeScore "AEsarabande"
-  \pieceTocTitle "Menuets"
+  \pieceTocTitle "Premier menuet"
   \includeScore "AFmenuet"
+  \pieceTocTitle "Deuxième menuet"
   \includeScore "AGmenuet"
 }
 
@@ -49,4 +50,10 @@
   \includeScore "BCrondeau"
   \pieceTocTitle "Deuxième rondeau"
   \includeScore "BDrondeau"
+  \pieceTocTitle "Branle"
+  \includeScore "BEbranle"
+  \pieceTocTitle "Premier rigaudon"
+  \includeScore "BFrigaudon"
+  \pieceTocTitle "Deuxième rigaudon"
+  \includeScore "BGrigaudon"
 }
