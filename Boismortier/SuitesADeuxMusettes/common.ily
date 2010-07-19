@@ -5,10 +5,9 @@
   date = "1727"
 }
 
-#(set-global-staff-size 16)
+#(set-global-staff-size 18)
 \paper {
-  #(define page-breaking ;ly:page-turn-breaking
-     ly:optimal-breaking)
+  #(define page-breaking ly:optimal-breaking)
 }
 
 #(ly:set-option 'non-incipit #t)

@@ -2,19 +2,9 @@
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
-    title = \markup \left-align \center-column {
-      \line { Six Suites }
-      \line { à deux musettes }
-      \fontsize #-5 \wordwrap-center {
-        qui conviennent aux vielles, flûtes à bec, traversières
-        et hautbois
-      }
-    }
+    title = \markup \fontsize #-1 \line { Suites à deux musettes }
   }
   %% title page
-  \markup\null
-  \pageBreak
-  %% notes
   \markup\null
   \pageBreak
   %% toc
@@ -30,7 +20,6 @@
   \includeScore "ACgavotte"
   \pieceTocTitle "Gigue"
   \includeScore "ADgigue"
-  \pageBreak
   \pieceTocTitle "Sarabande"
   \includeScore "AEsarabande"
   \pieceTocTitle "Premier menuet"
@@ -48,12 +37,23 @@
   \pageBreak
   \pieceTocTitle "Rondeau"
   \includeScore "BCrondeau"
+  \pageBreak
   \pieceTocTitle "Deuxième rondeau"
   \includeScore "BDrondeau"
+  \pageBreak
   \pieceTocTitle "Branle"
   \includeScore "BEbranle"
   \pieceTocTitle "Premier rigaudon"
   \includeScore "BFrigaudon"
   \pieceTocTitle "Deuxième rigaudon"
   \includeScore "BGrigaudon"
+}
+\bookpart {
+  \act "Troisième suite"
+  \pieceTocTitle "Rondeau"
+  \includeScore "CArondeau"
+  %% \pieceTocTitle "?"
+  \includeScore "CB"
+  \pieceTocTitle "Chaconne"
+  \includeScore "CCchaconne"
 }
