@@ -37,3 +37,16 @@
   \includeScore "AFmenuet"
   \includeScore "AGmenuet"
 }
+
+\bookpart {
+  \act "Deuxième suite"
+  \pieceTocTitle "Prélude"
+  \includeScore "BAprelude"
+  \pieceTocTitle "Gigue"
+  \includeScore "BBgigue"
+  \pageBreak
+  \pieceTocTitle "Rondeau"
+  \includeScore "BCrondeau"
+  \pieceTocTitle "Deuxième rondeau"
+  \includeScore "BDrondeau"
+}
