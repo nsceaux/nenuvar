@@ -26,4 +26,14 @@
   \includeScore "AAallemande"
   \pieceTocTitle "Rigaugon"
   \includeScore "ABrigaudon"
+  \pieceTocTitle "Gavotte en rondeau"
+  \includeScore "ACgavotte"
+  \pieceTocTitle "Gigue"
+  \includeScore "ADgigue"
+  \pageBreak
+  \pieceTocTitle "Sarabande"
+  \includeScore "AEsarabande"
+  \pieceTocTitle "Menuets"
+  \includeScore "AFmenuet"
+  \includeScore "AGmenuet"
 }
