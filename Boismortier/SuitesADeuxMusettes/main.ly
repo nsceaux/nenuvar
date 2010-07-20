@@ -71,4 +71,21 @@
   \act "Quatrième suite"
   \pieceTocTitle "Allemande"
   \includeScore "DAallemande"
+  \pieceTocTitle "Paysanne"
+  \includeScore "DBpaysanne"
+  \pageBreak
+  \pieceTocTitle "Rondeau"
+  \includeScore "DCrondeau"
+  \pieceTocTitle "Loure"
+  \includeScore "DDloure"
+  \pieceTocTitle "Menuet"
+  \includeScore "DEmenuet"
+  \pageBreak
+  \pieceTocTitle "Première gavotte"
+  \includeScore "DFgavotte"
+  \pieceTocTitle "Deuxième gavotte"
+  \includeScore "DGgavotte"
+}
+\bookpart {
+  \act "Cinquième suite"
 }
