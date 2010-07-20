@@ -3,6 +3,7 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
     title = \markup \fontsize #-1 \line { Suites à deux musettes }
+    poet = \markup\null
   }
   %% title page
   \markup\null
@@ -56,4 +57,18 @@
   \includeScore "CB"
   \pieceTocTitle "Chaconne"
   \includeScore "CCchaconne"
+  \pieceTocTitle "Bourrée"
+  \includeScore "CDbourree"
+  \pageBreak
+  \pieceTocTitle "Sarabande"
+  \includeScore "CEsarabande"
+  \pieceTocTitle "Première gavotte"
+  \includeScore "CFgavotte"
+  \pieceTocTitle "Deuxième gavotte"
+  \includeScore "CGgavotte"
+}
+\bookpart {
+  \act "Quatrième suite"
+  \pieceTocTitle "Allemande"
+  \includeScore "DAallemande"
 }
