@@ -5,6 +5,9 @@
     title = \markup \fontsize #-1 \line { Suites à deux musettes }
     poet = \markup\null
   }
+  %% notes
+  \markup\null
+  \pageBreak
   %% title page
   \markup\null
   \pageBreak
@@ -12,7 +15,8 @@
   \markuplines \table-of-contents
 }
 \bookpart {
-  \act "Première suite"
+  \act "XVIIè œuvre"
+  \scene "Première suite"
   \pieceTocTitle "Allemande"
   \includeScore "AAallemande"
   \pieceTocTitle "Rigaugon"
@@ -23,14 +27,14 @@
   \includeScore "ADgigue"
   \pieceTocTitle "Sarabande"
   \includeScore "AEsarabande"
-  \pieceTocTitle "Premier menuet"
+  \pieceTocTitle "Menuet"
   \includeScore "AFmenuet"
   \pieceTocTitle "Deuxième menuet"
   \includeScore "AGmenuet"
 }
 
 \bookpart {
-  \act "Deuxième suite"
+  \scene "Deuxième suite"
   \pieceTocTitle "Prélude"
   \includeScore "BAprelude"
   \pieceTocTitle "Gigue"
@@ -44,13 +48,13 @@
   \pageBreak
   \pieceTocTitle "Branle"
   \includeScore "BEbranle"
-  \pieceTocTitle "Premier rigaudon"
+  \pieceTocTitle "Rigaudon"
   \includeScore "BFrigaudon"
   \pieceTocTitle "Deuxième rigaudon"
   \includeScore "BGrigaudon"
 }
 \bookpart {
-  \act "Troisième suite"
+  \scene "Troisième suite"
   \pieceTocTitle "Rondeau"
   \includeScore "CArondeau"
   %% \pieceTocTitle "?"
@@ -62,13 +66,13 @@
   \pageBreak
   \pieceTocTitle "Sarabande"
   \includeScore "CEsarabande"
-  \pieceTocTitle "Première gavotte"
+  \pieceTocTitle "Gavotte"
   \includeScore "CFgavotte"
   \pieceTocTitle "Deuxième gavotte"
   \includeScore "CGgavotte"
 }
 \bookpart {
-  \act "Quatrième suite"
+  \scene "Quatrième suite"
   \pieceTocTitle "Allemande"
   \includeScore "DAallemande"
   \pieceTocTitle "Paysanne"
@@ -81,11 +85,47 @@
   \pieceTocTitle "Menuet"
   \includeScore "DEmenuet"
   \pageBreak
-  \pieceTocTitle "Première gavotte"
+  \pieceTocTitle "Gavotte"
   \includeScore "DFgavotte"
   \pieceTocTitle "Deuxième gavotte"
   \includeScore "DGgavotte"
 }
 \bookpart {
-  \act "Cinquième suite"
+  \scene "Cinquième suite"
+  \pieceTocTitle "Prélude"
+  \includeScore "EAprelude"
+  \pieceTocTitle "Marche"
+  \includeScore "EBmarche"
+  %%\pieceTocTitle "?"
+  \includeScore "EC"
+  \pageBreak
+  \pieceTocTitle "Rondeau"
+  \includeScore "EDrondeau"
+  \pageBreak
+  \pieceTocTitle "Deuxième rondeau"
+  \includeScore "EErondeau"
+  \pageBreak
+  \pieceTocTitle "Sarabande"
+  \includeScore "EFsarabande"
+  \pieceTocTitle "Passepied"
+  \includeScore "EGpassepied"
+  \pieceTocTitle "Deuxième passepied"
+  \includeScore "EHpassepied"
+}
+\bookpart {
+  \scene "Sixième suite"
+  \pieceTocTitle "Prélude"
+  \pieceTocTitle "Allemande"
+  \pieceTocTitle "Rondeau"
+  \pieceTocTitle "Canaries"
+  \pieceTocTitle "Courante"
+  \pieceTocTitle "Sarabande"
+  \pieceTocTitle "Menuet"
+  \pieceTocTitle "Deuxième menuet"
+  \markup\null
+}
+\bookpart {
+  \act "XIè œuvre"
+  \scene "Première suite"
+  \markup\null
 }
