@@ -15,7 +15,7 @@
   \markuplines \table-of-contents
 }
 \bookpart {
-  \act "XVIIè œuvre"
+  \act "Œuvre XVII"
   \scene "Première suite"
   \pieceTocTitle "Allemande"
   \includeScore "AAallemande"
@@ -115,17 +115,27 @@
 \bookpart {
   \scene "Sixième suite"
   \pieceTocTitle "Prélude"
+  \includeScore "FAprelude"
   \pieceTocTitle "Allemande"
+  \includeScore "FBallemande"
+  \pageBreak
   \pieceTocTitle "Rondeau"
+  \includeScore "FCrondeau"
+  \pageBreak
   \pieceTocTitle "Canaries"
+  \includeScore "FDcanaries"
   \pieceTocTitle "Courante"
+  \includeScore "FEcourante"
+  \pageBreak
   \pieceTocTitle "Sarabande"
+  \includeScore "FFsarabande"
   \pieceTocTitle "Menuet"
+  \includeScore "FGmenuet"
   \pieceTocTitle "Deuxième menuet"
-  \markup\null
+  \includeScore "FHmenuet"
 }
 \bookpart {
-  \act "XIè œuvre"
+  \act "Œuvre XI"
   \scene "Première suite"
   \markup\null
 }
