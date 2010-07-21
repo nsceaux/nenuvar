@@ -137,5 +137,12 @@
 \bookpart {
   \act "Œuvre XI"
   \scene "Première suite"
-  \markup\null
+  \pieceTocTitle "Ouverture"
+  \includeScore "GAouverture"
+  \pieceTocTitle "Musette"
+  \pieceTocTitle "Vielle"
+  \pieceTocTitle "Menuet"
+  \pieceTocTitle "Sarabande"
+  \pieceTocTitle "Contredanse"
+  \pieceTocTitle "Deuxième contredanse"
 }
