@@ -139,8 +139,12 @@
   \scene "Première suite"
   \pieceTocTitle "Ouverture"
   \includeScore "GAouverture"
+  \pageBreak
   \pieceTocTitle "Musette"
+  \includeScore "GBmusette"
+  \pageBreak
   \pieceTocTitle "Vielle"
+  \includeScore "GCvielle"
   \pieceTocTitle "Menuet"
   \pieceTocTitle "Sarabande"
   \pieceTocTitle "Contredanse"

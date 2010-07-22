@@ -16,5 +16,6 @@ trill = #(make-articulation "stopped")
 
 \include "italiano.ly"
 \include "common/common.ily"
+\include "common/dashed-repeats.ily"
 \setOpus "Boismortier/SuitesADeuxMusettes"
 \opusTitle "Six suites pour deux musettes"
