@@ -133,7 +133,12 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin,,,)
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Ballet/LWV05LaReventeDesHabits,dessus haute-contre taille quinte basse,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Ballet/LWV08AmourMalade,,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee,,,))
-$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Comedie/LWV43LeBourgeoisGentilhomme,,,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Comedie/LWV43LeBourgeoisGentilhomme,\
+dessus1 dessus2 haute-contre taille quinte basse,,))
+Lully/Comedie/LWV43LeBourgeoisGentilhomme-rehearsal-short:
+	$(LILYPOND_CMD) $(REHEARSAL_FLAG) -o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-rehearsal-short Lully/Comedie/LWV43LeBourgeoisGentilhomme/main-rehearsal-short.ly
+.PHONY: Lully/Comedie/LWV43LeBourgeoisGentilhomme-rehearsal-short
+
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,\
 dessus1 dessus2 haute-contre taille quinte basse basse-continue voix,part5,trompette tambour timbales))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV61Phaeton,\

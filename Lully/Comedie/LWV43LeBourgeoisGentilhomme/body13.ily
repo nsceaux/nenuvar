@@ -1,5 +1,8 @@
 \bookpart {
-  \paper { #(define page-breaking ly:optimal-breaking) }
+  \paper {
+    #(define page-breaking ly:optimal-breaking)
+    page-count = 9
+  }
   \act "Ballet des Nations"
   %% Première Entrée
   \scene "Première Entrée"
@@ -12,7 +15,9 @@
   \includeScore "BIentree"
   \pieceTocTitle "Dialogue des gens qui en musique demandent des livres"
   \includeScore "BJlivre"
-
+}
+\bookpart {
+  \paper { #(define page-breaking ly:optimal-breaking) }
   %% Deuxième Entrée
   \scene "Deuxième Entrée"
   \sceneDescription \markup \wordwrap-center {
@@ -20,7 +25,9 @@
   }
   \pieceToc \markup { Les trois Importuns dancent. }
   \includeScore "BLentree"
-
+}
+\bookpart {
+  \paper { #(define page-breaking ly:optimal-breaking) }
   %% Troisième Entrée
   \scene "Troisième Entrée"
   \sceneDescription \markup \wordwrap-center {
@@ -44,7 +51,9 @@
   \includeScore "BSfiestas"
   \pieceTocTitle "Premier air des Espagnols"
   \reIncludeScore "BNair" "BSair"
-
+}
+\bookpart {
+  \paper { #(define page-breaking ly:optimal-breaking) }
   %% Quatrième Entrée
   \scene "Quatrième Entrée"
   \sceneDescription \markup \wordwrap-center {
@@ -64,7 +73,9 @@
   \pieceToc \markup \italic { Bel tempo che vola rapisce il contento }
   \includeScore "BYbeltempo"
   \reIncludeScore "BXchaconne" "BXchaconneBis"
-
+}
+\bookpart {
+  \paper { #(define page-breaking ly:optimal-breaking) }
   %% Cinquième Entrée
   \scene "Cinquième Entrée"
   \pieceTocTitle "Menuet"
@@ -75,7 +86,9 @@
   \includeScore "CBmenuet"
   \pieceToc \markup \italic { Vois ma Climène }
   \includeScore "CCclimene"
-
+}
+\bookpart {
+  \paper { #(define page-breaking ly:optimal-breaking) }
   %% Sixième Entrée
   \scene "Sixième Entrée"
   \pieceToc \markup \italic { Quels spectacles charmants }

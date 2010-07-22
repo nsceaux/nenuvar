@@ -311,7 +311,7 @@
   }
 
   \pieceToc \markup { Une musicienne : \italic { Je languis nuit et jour } }
-  \includeScore "ACmusicienne" 
+  \includeScore "ACmusicienne"
 
   \markuplines \columns {
     \personnage "Monsieur Jourdain."
@@ -547,7 +547,7 @@
   \pieceTocTitle "Ritournelle"
   \includeScore "AIritournelle"
   \pieceToc \markup {
-    Deuxieme musicien : \italic { Il serait doux d'entrer sous l'amoureuse loi }
+    Deuxième musicien : \italic { Il serait doux d'entrer sous l'amoureuse loi }
   }
   \includeScore "AJmusicien"
   \pieceToc \markup {

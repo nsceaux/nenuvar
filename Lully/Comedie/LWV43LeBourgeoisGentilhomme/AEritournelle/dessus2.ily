@@ -15,4 +15,4 @@ fad''2 fad''8. fad''16 |
 mi''4. mi''8 la''4 ~|
 la''4 sol''4. la''8 |
 fad''8 sol''8 mi''4. re''8 |
-re''2. |
+re''2. | \bar "|."

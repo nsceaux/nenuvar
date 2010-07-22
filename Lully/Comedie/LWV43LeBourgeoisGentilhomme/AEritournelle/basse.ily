@@ -15,4 +15,4 @@ si4. do'8 si8 la8 |
 sold4 la4. la8 |
 si4 dod'2 |
 re'8 sol8 la4 la,4 |
-\custosNote re2. |
+\custosNote re4

@@ -1,5 +1,4 @@
 \keys re \minor
-\markUpBegin \mark "Ritournelle"
 \midiTempo #132 \time 3/2 s1.*36
 \fractionTime \time 2/2 s1
 \time 3/2 s1.*11

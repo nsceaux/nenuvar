@@ -15,4 +15,4 @@ mi''4 re''4. re''8 |
 re''4 dod''4. dod''8 |
 re''4 mi''2 |
 re''8 mi''8 dod''4. re''8 |
-re''2. |
+re''2. | \bar "|."

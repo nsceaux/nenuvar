@@ -71,7 +71,7 @@ mib4 mi4. mi8 |
 fa2 fa4 |
 sol4 la2 |
 sib8 mib8 fa4 fa,4 |
-sib,2. |
+sib,2. |\allowPageTurn
 
 sib2 sib,4 |
 fa2 fa4 |

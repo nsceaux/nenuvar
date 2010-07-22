@@ -1,3 +1,1 @@
-R1*10
-R1.
-R1
+R1*10\noBreak R1.\noBreak R1
