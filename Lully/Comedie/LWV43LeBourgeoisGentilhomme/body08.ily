@@ -521,7 +521,7 @@
     plusieurs mets.
   }
 }
-\intermede "Troisième Intermède"
+%\intermede "Troisième Intermède"
 \markuplines \columns {
   \didascalie { Il faut deux airs ici. }
 }
