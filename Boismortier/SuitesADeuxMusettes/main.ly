@@ -146,7 +146,15 @@
   \pieceTocTitle "Vielle"
   \includeScore "GCvielle"
   \pieceTocTitle "Menuet"
+  \includeScore "GDmenuet"
+  \pageBreak
   \pieceTocTitle "Sarabande"
+  \includeScore "GEsarabande"
   \pieceTocTitle "Contredanse"
+  \includeScore "GFcontredanse"
   \pieceTocTitle "Deuxième contredanse"
+  \includeScore "GHcontredanse"
+}
+\bookpart {
+  \scene "Deuxième suite"
 }
