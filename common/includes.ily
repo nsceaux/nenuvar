@@ -1,4 +1,3 @@
-%%% -*- Mode: scheme -*-
 %%% includes.ily -- commands for including files from a project hierarchy
 %%%
 %%% Author: Nicolas Sceaux <nicolas.sceaux@free.fr>
@@ -88,6 +87,34 @@
 #(use-modules (srfi srfi-39)
               (ice-9 optargs)
               (ice-9 regex))
+
+%% Define the *target* and *target-full* variables
+#(define-public *target*
+   (make-parameter (cond ((symbol? (ly:get-option 'target)) (ly:get-option 'target))
+                         ((symbol? (ly:get-option 'part)) (ly:get-option 'part))
+                         ((eqv? (ly:get-option 'letter))  'full-letter)
+                         ((eqv? (ly:get-option 'use-rehearsal-numbers)) 'full-rehearsal)
+                         (else 'full-a4))))
+#(define-public *target-full* (make-parameter (not (symbol? (ly:get-option 'part)))))
+
+%% The newBookPart command uses the *target* variable value to decide
+%% whether it should actually start a new book part
+newBookPart =
+#(define-music-function (parser location targets) (list?)
+   "To be used at toplevel, to start a new implicit bookpart, if
+*target* is a member of `targets'.  If there is some toplevel music or
+text, add it to a bookpart, and add that bookpart to the list of
+toplevel bookparts."
+  (if (and (or (null? targets)
+               (memq (*target*) targets)
+               (and (*target-full*) (memq 'full targets)))
+           (pair? (ly:parser-lookup parser 'toplevel-scores)))
+      (begin
+        (ly:parser-define! parser 'toplevel-bookparts
+          (cons (ly:make-book-part (ly:parser-lookup parser 'toplevel-scores))
+                (ly:parser-lookup parser 'toplevel-bookparts)))
+	(ly:parser-define! parser 'toplevel-scores (list))))
+   (make-music 'Music 'void #t))
 
 #(define *composer* (make-parameter ""))
 #(define *category* (make-parameter ""))
