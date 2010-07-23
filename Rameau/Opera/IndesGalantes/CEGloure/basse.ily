@@ -37,14 +37,15 @@
   \tag #'basse {
     \rondeau
     \new CueVoice { s4*0^"Basson" \coupletI }
-    \rondeau
+    %\rondeau
     \new CueVoice { s4*0^"Basson" \coupletII }
-    \rondeau
+    %\rondeau
   }
   \tag #'conducteur {
     \rondeau
     s4*0_"Bassons" \coupletI
-    s4*0_"Tous" \rondeau
+    %s4*0_"Tous" \rondeau
     s4*0_"Bassons" \coupletII
-    s4*0_"Tous" \rondeau }
+    %s4*0_"Tous" \rondeau
+  }
 >>

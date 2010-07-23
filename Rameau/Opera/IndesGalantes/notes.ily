@@ -1,11 +1,12 @@
 \markuplines \column-lines {
   \act { NOTES }
 
-  \paragraph { Cette édition est basée sur un manuscrit de la
-    bibliothèque de Toulouse [1], daté de 1750.  Il présente
-    quelques différences par rapport aux versions couramment
-    entendues, dont les principales, relevées par rapport à l'édition
-    de Dukas [2], sont décrites ci-après.
+  \paragraph {
+    Cette édition est basée sur un manuscrit conservé à la
+    bibliothèque de Toulouse [1], daté de 1750.  Il présente quelques
+    différences par rapport aux versions couramment entendues, dont
+    les principales, relevées par rapport à l'édition de Dukas [2],
+    sont décrites ci-après.
   }
 
   \null\line\bold { Prologue }
@@ -373,8 +374,8 @@
   \paragraph {
     Dans la partition séparée de bassons, "\"Basson\"" est indiqué au
     début des pièces avec basson obligé.  Pour les autres pièces, la
-    partie de basse, sans indication d'instrument, excepté pour les
-    récits où "\"Basse continue\"" est indiqué.
+    partie de basses est utilisée, sans indication d'instrument,
+    excepté pour les récits où "\"Basse continue\"" est indiqué.
   }
 
   \paragraph {

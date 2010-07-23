@@ -7,6 +7,7 @@
     \new Staff << \instrumentName "Tailles"
       \global \includeNotes "taille" >>
     \new Staff << \instrumentName "Basses"
+      { s1*16\break s1*16\break s1*16 }
       \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }

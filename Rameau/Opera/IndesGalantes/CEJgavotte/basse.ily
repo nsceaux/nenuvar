@@ -32,7 +32,7 @@ re4 mi fa2 |
 >>
 la8-\tag #'conducteur _"Tous" fa sol2 |
 do
-\tag #'() \rondeau
+%\tag #'() \rondeau
  r4 la |
 la( sol8) r r4 sol |
 sol4( fa8) r r4 sol |
@@ -54,4 +54,4 @@ si,4 r
 >>
 do'8-\tag #'conducteur _"Tous" la si2 |
 mi
-\tag #'() \rondeau
+%\tag #'() \rondeau

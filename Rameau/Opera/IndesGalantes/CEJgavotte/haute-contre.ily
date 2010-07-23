@@ -23,7 +23,7 @@ re'2 r |
 R1*2 |
 r4 do''8 do'' do''4 si'\trill |
 do''2
-\tag #'() \rondeau
+%\tag #'() \rondeau
 r4 re'' |
 re''2 r4 la' |
 la'2 r4 do'' |
@@ -34,4 +34,4 @@ fad'2 r |
 R1*2 |
 r4 mi''8 mi'' mi''4 red'' |
 mi''2
-\tag #'() \rondeau
+%\tag #'() \rondeau

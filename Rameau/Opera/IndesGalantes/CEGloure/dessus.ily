@@ -55,27 +55,21 @@
   mid'2.~ mid'4.
 }
 <<
-  \tag #'hautbois1 { \rondeau \coupletIa \rondeau \coupletIIa \rondeau }
+  \tag #'hautbois1 { \rondeau \coupletIa \coupletIIa }
   \tag #'(violon1 flute1) {
     \rondeau
     \new CueVoice { s4*0^"Hautbois" \coupletIa }
-    \rondeau
     \new CueVoice { s4*0^"Hautbois" \coupletIIa }
-    \rondeau
   }
-  \tag #'hautbois2 { \rondeau \coupletIb \rondeau \coupletIIb \rondeau }
+  \tag #'hautbois2 { \rondeau \coupletIb \coupletIIb }
   \tag #'(violon2 flute2) {
     \rondeau
     \new CueVoice { s4*0^"Hautbois" \coupletIb }
-    \rondeau
     \new CueVoice { s4*0^"Hautbois" \coupletIIb }
-    \rondeau
   }
   \tag #'conducteur {
     \rondeau
     << { s4*0^"Hautbois" \coupletIa } \\ \coupletIb >>
-    s4*0^"Tous" \rondeau
     << { s4*0^"Hautbois" \coupletIIa } \\ \coupletIIb >>
-    s4*0^"Tous" \rondeau
   }
 >>

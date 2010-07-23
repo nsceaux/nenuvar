@@ -34,13 +34,13 @@
     r4 la8( sol) fad(\trill mi) |
     re4 si mi |
     fad2
-    \rondeauBasson
+    %\rondeauBasson
     r4 |
     R2.*5 |
     r4 si8( la) sol( fad) |
     mi4 do'4 fad |
     sol2
-    \rondeauBasson
+    %\rondeauBasson
   }
   \tag #'basse {
     \clef "basse"
@@ -53,7 +53,7 @@
     R2.*2 |
     si,4 sol, la, |
     re,2
-    \rondeauBasse
+    %\rondeauBasse
     r4 |
     R2.*3 |
     r2 si,4 |
@@ -61,6 +61,6 @@
     R2. |
     do4 la, si, |
     mi,2
-    \rondeauBasse
+    %\rondeauBasse
   }
 >>

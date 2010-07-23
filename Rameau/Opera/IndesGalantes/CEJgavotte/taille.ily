@@ -23,7 +23,7 @@ si2 r |
 R1*2 |
 r4 mi'8 la' sol'4 fa' |
 mi'2
-\tag #'() \rondeau
+%\tag #'() \rondeau
 r4 do'' |
 do''4( si'8) r r4 mi' |
 mi'( fa'8) r r4 sib' |
@@ -34,4 +34,4 @@ la'2 r |
 R1*2 |
 r4 sol'8 do'' si'4 la' |
 sold'2
-\tag #'() \rondeau
+%\tag #'() \rondeau

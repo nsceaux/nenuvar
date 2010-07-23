@@ -45,7 +45,7 @@
   \includeScore "ABCair"
   \pieceToc \markup { Hébé, chœur : \italic { Musettes, résonnez dans ce riant bocage } }
   \includeScore "ABDhebeChoeur"
-  \pieceToc \markup "Musette en rondeau"
+  \pieceTocTitle "Musette en rondeau"
   \includeScore "ABErondeau"
   \pieceToc \markup { Hébé :  \italic { Qu'entends-je ! Les tambours font taire nos musettes ? } }
   \includeScore "ABFhebe"
@@ -241,7 +241,7 @@
   \includeScore "CEErondeau"
   \pieceToc \markup { Huascar, chœur : \italic { Clair flambeau du monde } }
   \includeScore "CEFhuascarChoeur"
-  \pieceToc "Loure en rondeau"
+  \pieceTocTitle "Loure en rondeau"
   \includeScore "CEGloure"
   %{==========%}\partPageBreak #'(hautbois1)
   \pieceToc \markup { Huascar : \italic { Permettez, astre du jour } }

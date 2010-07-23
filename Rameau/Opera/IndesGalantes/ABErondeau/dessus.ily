@@ -74,29 +74,29 @@
   \tag #'(hautbois1 hautbois2 flute1 flute2 musettes) {
     \rondeau
     \rIhb
-    \rondeau
+    %\rondeau
     \rIIhb
-    \rondeau
+    %\rondeau
   }
   \tag #'violon1 {
     \rondeau
     \rIvI \rIvfin
-    \rondeau
+    %\rondeau
     \rIIv
-    \rondeau
+    %\rondeau
   }
   \tag #'violon2 {
     \rondeau
     \rIvII \rIvfin
-    \rondeau
+    %\rondeau
     \rIIv
-    \rondeau
+    %\rondeau
   }
   \tag #'violons {
     \rondeau
     << \rIvI \\ \rIvII >> \rIvfin
-    \rondeau
+    %\rondeau
     \rIIv
-    \rondeau
+    %\rondeau
   }
 >>

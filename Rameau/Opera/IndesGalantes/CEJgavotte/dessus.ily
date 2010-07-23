@@ -36,7 +36,7 @@ sol'2
 >>
 do''8-\tag #'conducteur ^"Tous" re'' re''2\trill |
 do''
-\tag #'() \rondeau
+%\tag #'() \rondeau
 mi''4\p fad'' |
 fad'' sol'' sol'' dod'' |
 dod''( re''8) r re''4 mi'' |
@@ -60,4 +60,4 @@ si'2
 >>
 mi''8-\tag #'conducteur ^"Tous" fad'' fad''2\trill |
 mi''
-\tag #'() \rondeau
+%\tag #'() \rondeau

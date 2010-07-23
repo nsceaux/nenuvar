@@ -8,9 +8,7 @@
       \global \includeNotes "taille" >>
     \new Staff << \instrumentName "Basses"
       { s2 s1*11 s2 \break
-        s2 s1*7 s2 \break
-        s2 s1*11 s2 \break
-        s2 s1*9 s2 \break }
+        s2 s1*7 s2 \break }
       \global \keepWithTag #'conducteur \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }

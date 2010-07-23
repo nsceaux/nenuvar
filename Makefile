@@ -29,7 +29,7 @@ endef
 
 define MAKE_SCORE_RULE
 $(1)$(2):
-	$(LILYPOND_CMD) $(3) -o $(OUTPUT_DIR)/$(notdir $(1))$(2) $(1)/main.ly
+	$(LILYPOND_CMD) $(3) -o $(OUTPUT_DIR)/$(notdir $(1))$(2) $(1)/$(4).ly
 .PHONY: $(1)$(2)
 $(call ALL_SCORE_PDFs,$(1))+=$(1)$(2)
 endef
@@ -90,9 +90,9 @@ $(1)-delivery: $(foreach pdf,$($(call ALL_SCORE_PDFs,$(1))),$(call DELIVERY_DIRE
 endef
 
 define MAKE_ALL_SCORE_RULES
-$(eval $(call MAKE_SCORE_RULE,$(1),,))
-$(eval $(call MAKE_SCORE_RULE,$(1),-letter,$(LETTER_FLAG)))
-$(eval $(call MAKE_SCORE_RULE,$(1),-rehearsal,$(REHEARSAL_FLAG)))
+$(eval $(call MAKE_SCORE_RULE,$(1),,,main))
+$(eval $(call MAKE_SCORE_RULE,$(1),-letter,$(LETTER_FLAG),main))
+$(eval $(call MAKE_SCORE_RULE,$(1),-rehearsal,$(REHEARSAL_FLAG),main))
 $(foreach part,$(2),$(eval $(call MAKE_PART_RULE,$(1),$(part))))
 $(foreach part,$(4),$(eval $(call MAKE_PART_RULE_AUX,$(1),$(part),$(3))))
 $(call MAKE_DELIVERY_RULE,$(1))
@@ -109,17 +109,21 @@ archive:
 ##################################################################################
 
 ### Rameau
+# Hippolyte et Aricie
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/HippolyteEtAricie,\
 violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse voix,part-bc,basse-continue))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,trompette,part-trompette-timbales))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,timbales,part-trompette-timbales))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,cor,part-cor))
-
+# Les Indes Galantes
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/IndesGalantes,\
 violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse voix,,))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/IndesGalantes,trompette,part-trompette))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/IndesGalantes,timbales,part-timbales))
+# Suite des Indes Galantes
+$(eval $(call MAKE_SCORE_RULE,Rameau/Opera/IndesGalantes,-suites,$(REHEARSAL_FLAG),suites-main))
 
+# Pièces de Clavecin en Concerts
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/PiecesDeClavecinEnConcerts,,,))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Concerts/PiecesDeClavecinEnConcerts,violon-viole,part-violon-viole))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Concerts/PiecesDeClavecinEnConcerts,clavecin,part-clavecin))
@@ -135,9 +139,7 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Ballet/LWV08AmourMalade,,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee,,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Comedie/LWV43LeBourgeoisGentilhomme,\
 dessus1 dessus2 haute-contre taille quinte basse,,))
-Lully/Comedie/LWV43LeBourgeoisGentilhomme-rehearsal-short:
-	$(LILYPOND_CMD) $(REHEARSAL_FLAG) -o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-rehearsal-short Lully/Comedie/LWV43LeBourgeoisGentilhomme/main-rehearsal-short.ly
-.PHONY: Lully/Comedie/LWV43LeBourgeoisGentilhomme-rehearsal-short
+$(eval $(call MAKE_SCORE_RULE,Lully/Comedie/LWV43LeBourgeoisGentilhomme,-rehearsal-short,$(REHEARSAL_FLAG),main-rehearsal-short))
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Opera/LWV56Psyche,\
 dessus1 dessus2 haute-contre taille quinte basse basse-continue voix,part5,trompette tambour timbales))

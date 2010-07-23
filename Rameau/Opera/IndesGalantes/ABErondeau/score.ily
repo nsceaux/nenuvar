@@ -11,6 +11,8 @@
     \new Staff << \instrumentName \markup Bassons
       \global \keepWithTag #'basson \includeNotes "basse" >>
     \new Staff << \instrumentName \markup Basses
+      { s4 s2.*7 s2\break
+        s4 s2.*7 s2\break }
       \global \keepWithTag #'basse \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }

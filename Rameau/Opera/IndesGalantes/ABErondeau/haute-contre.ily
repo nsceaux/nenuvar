@@ -16,7 +16,7 @@ r4 |
 R2.*6 |
 si4 re' la |
 la2
-\rondeau
+%\rondeau
 sol8 la |
 si( la) si( do') la( si) |
 do'2 si4 |
@@ -26,4 +26,4 @@ la'2~ la'8 sol' |
 red'4 mi' si |
 do' mi' si |
 si2
-\rondeau
+%\rondeau

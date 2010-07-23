@@ -28,10 +28,9 @@ sol''4
     \new CueVoice { \voiceOne << r16^"Hautbois" \hII >> }
     \new Voice { \voiceTwo r8 | R4.*3 | r4 }
   >>
-  \tag #'dessus <<
-    r16^"Hautbois"
-    << \hI \hII >>
-  >>
+  \tag #'dessus << r16^"Hautbois" << \hI \hII >> >>
+  \tag #'hautbois << r16 << \hI \hII >> >>
+  \tag #'violon { r8 | R4.*3 | r4 }
 >>
 re''8-\tag #'dessus ^"Tous" mi''( dod'') re'' |
 mi''( dod'') re'' |
@@ -62,10 +61,9 @@ re''4
     \new CueVoice { \voiceTwo << r16_"Hautbois" \hII >> }
     \new Voice { \voiceOne r8 | R4. | r4 }
   >>
-  \tag #'dessus <<
-    r16^"Hautbois"
-    << \hI \hII >>
-  >>
+  \tag #'dessus << r16^"Hautbois" << \hI \hII >> >>
+  \tag #'hautbois << r16 << \hI \hII >> >>
+  \tag #'violon { r8 | R4. | r4 }
 >>
 re''8-\tag #'dessus ^"Tous" |
 mi'' dod''4 |
@@ -94,10 +92,9 @@ re''
     \new CueVoice { \voiceOne s8*0^"Hautbois" \h }
     \new Voice { \voiceTwo r8 | R4. | r4 }
   >>
-  \tag #'dessus <<
-    s8*0^"Hautbois"_"Violons"
-    << \h \\ << \vI \vII >> >>
-  >>
+  \tag #'dessus << s8*0^"Hautbois"_"Violons" << \h \\ << \vI \vII >> >> >>
+  \tag #'hautbois \h
+  \tag #'violon << \vI \\ \vII >>
 >>
 fad''8-\tag #'dessus ^"Tous" |
 sol''16 la'' la''8.(\trill sol''32 la'') |
@@ -106,7 +103,7 @@ si''4
   \setMusic #'hI {
     \appoggiatura la''8 sol'' |
     \appoggiatura fad'' mi'' la''4 |
-    red''8 \appoggiatura dod'' si'
+    \slurDown red''8[ \appoggiatura dod'' si'] \slurNeutral
   }
   \setMusic #'hII {
     si'8 |
@@ -128,6 +125,10 @@ si''4
     \new Voice << { \voiceOne \grace s8 \voiceOne } \hI  >>
     \new Voice { \voiceTwo \hII }
   >>
+  \tag #'hautbois <<
+    \new Voice << { \grace s8 \voiceOne } \hI  >>
+    \new Voice << { \grace s8 \voiceTwo } \hII >> >>
+  \tag #'violon { r8 | R4. | r4 }
 >>
 mi''8-\tag #'dessus ^"Tous" |
 mi''8. fad''16 red''8 |
@@ -189,6 +190,8 @@ mi''4
       << \Bv \\ \Bh >>
     >>
   }
+  \tag #'hautbois { << r16 \AhI \AhII >> \Bh }
+  \tag #'violon { r8 | R4.*3 | r4 \Bv }
 >>
 re'''8-\tag #'dessus ^"Tous" |
 si''\trill la'' re''' |
@@ -216,10 +219,9 @@ sol''4
     \new CueVoice { \voiceOne << r16^"Hautbois" \hII >> }
     \new Voice { \voiceTwo r8 | R4. | r4 }
   >>
-  \tag #'dessus <<
-    r16^"Hautbois"
-    << \hI \hII >>
-  >>
+  \tag #'dessus << r16^"Hautbois" << \hI \hII >> >>
+  \tag #'hautbois << r16 \hI \hII >>
+  \tag #'violon { r8 | R4. | r4 }
 >>
 sol''8-\tag #'dessus ^"Tous" |
 la'' fad''4\trill |
