@@ -35,7 +35,7 @@ la2 r8 si16 si |
 la2 r8 dod'16 dod' |
 re'2 sol'8 sol' |
 fad'4 r2 |
-R2.*7 |
+R2.*7 |\allowPageTurn
 r4 la'4 la' |
 re'2 si'4 |
 dod'2 la'4 |
@@ -153,7 +153,7 @@ la2 r8 si16 si |
 la2 r8 dod'16 dod' |
 re'4. re'8 sol' sol' |
 fad'4 r2 |
-R2.*7 |
+R2.*7 |\allowPageTurn
 r4 re' re' |
 re' r8 re' re'4 |
 re'2 fad'4 |

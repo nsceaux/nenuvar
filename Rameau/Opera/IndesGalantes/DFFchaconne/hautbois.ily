@@ -80,7 +80,7 @@ la' la'4.\p si'8 |
 sol'4. la'8 \appoggiatura la'8 sib'4 |
 dod'4 la'2 |
 fa'4 r2 |
-R2.*19 |
+R2.*19 |\allowPageTurn
 re''8 re''16 mi'' fad'' sol'' fad'' sol'' la''8 la'' |
 la'' re''16 mi'' fad'' sol'' fad'' sol'' la''8 re'' |
 sol'' si''16 la'' sol'' fad'' mi'' re'' mi'' re'' dod'' si' |

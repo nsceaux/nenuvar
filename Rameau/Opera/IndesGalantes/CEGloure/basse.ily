@@ -33,7 +33,13 @@
   dod4. mid8 sold4 dod'4.
 }
 <<
-  \tag #'basson { \rondeau \coupletI \rondeau \coupletII \rondeau }
+  \tag #'basson {
+    \rondeau
+    \coupletI
+    %\rondeau
+    \coupletII
+    %\rondeau
+  }
   \tag #'basse {
     \rondeau
     \new CueVoice { s4*0^"Basson" \coupletI }

@@ -20,7 +20,7 @@ $(word 1,$(subst /, ,$(1)))_$(notdir $(1))_PART_PDFs
 endef
 
 define DELIVERY_DIRECTORY
-$(DELIVERY_DIR)/$(word 1,$(subst /, ,$(1)))
+$(DELIVERY_DIR)/$(firstword $(subst /, ,$(1)))/$(firstword $(subst -, ,$(lastword $(subst /, ,$(1)))))
 endef
 
 define DELIVERY_FILE
@@ -121,7 +121,9 @@ violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson bas
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/IndesGalantes,trompette,part-trompette))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/IndesGalantes,timbales,part-timbales))
 # Suite des Indes Galantes
-$(eval $(call MAKE_SCORE_RULE,Rameau/Opera/IndesGalantes,-suites,$(REHEARSAL_FLAG),suites-main))
+$(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/IndesGalantesSuites,\
+violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse,part-tt,\
+trompette timbales))
 
 # Pièces de Clavecin en Concerts
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/PiecesDeClavecinEnConcerts,,,))

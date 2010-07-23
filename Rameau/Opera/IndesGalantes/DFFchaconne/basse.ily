@@ -120,13 +120,13 @@ la,4 do2 |
 sib,4. la,8 sol,4 |
 fa,8 sol, la,4 la, |
 re, r2 |
-R2.*3 |
+R2.*3 |\allowPageTurn
 r4 re2 |
 la4 la,2 |
 mi,2 mi4 |
 fa8. sol16 la4 la, |
 re, r2 |
-R2.*3 |
+R2.*3 |\allowPageTurn
 r4 re2 |
 la4 la,2 |
 mi,2 mi4 |
@@ -235,7 +235,7 @@ R2. |
 r8 dod16 mi la,4 r |
 r8 r16 sol, la,4 la, |
 re, r2 |
-R2.*7 |
+R2.*7 |\allowPageTurn
 r4 re sol |
 fad r8 re sol4 |
 fad2 re4 |

@@ -55,7 +55,7 @@ r8 mi'' fad''( re'') mi''( sol'') |
   \tag #'conducteur << << \vI \\ \vII >> { s2. r8 } >>
 >>
 r2 |
-R2.*7 |
+R2.*7 |\allowPageTurn
 r4 la' re'' |
 si'2 mi''4 |
 la'2 re''4 |
@@ -207,7 +207,7 @@ mi'' dod''16 si' dod''8 la'16 sold' la'8 la16 la |
   \tag #'conducteur << << \vI \\ \vII >> { s2.*2 r8 s8 s2 s2. r8 } >>
 >>
 r2 |
-R2.*7 |
+R2.*7 |\allowPageTurn
 r4 re''4 si' |
 la' r8 re'' si'4\trill |
 la'2 re''4 |

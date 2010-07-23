@@ -6,13 +6,17 @@
     poet = #f
     title = \markup \left-align \center-column {
       "Les Indes Galantes"
-      \fontsize #-4 "Suites pour orchestre"
+      \fontsize #-4 "Suites"
     }
   }
   \paper { #(define page-breaking ly:minimal-breaking) }
 
   %% Title page
   \markup \null
+  \pageBreak
+
+  %% Notes
+  \include "Rameau/Opera/IndesGalantes/notes.ily"
   \pageBreak
 
   %% Table of contents
@@ -34,8 +38,7 @@
   \pieceTocTitle "Musette en rondeau"           \includeScore "ABErondeau"
 }
 \bookpart {
-  \pieceTocTitle "Menuet I"                     \includeScore "AEEmenuet"
-  \pieceTocTitle "Menuet II"                    \includeScore "AEFmenuet"
+  \pieceTocTitle "Menuet I/II" \includeScore "AEEmenuet" \includeScore "AEFmenuet"
   \pieceTocTitle "Air pour les Amours"          \includeScore "AEDair"
 }
 
@@ -89,8 +92,7 @@
   \pieceTocTitle "Danse de Péruviens et de Péruviennes" \includeScore "CEErondeau"
 }
 \bookpart {
-  \pieceTocTitle "Gavotte I"                            \includeScore "CEIgavotte"
-  \pieceTocTitle "Gavotte II"                           \includeScore "CEJgavotte"
+  \pieceTocTitle "Gavotte I/II" \includeScore "CEIgavotte" \includeScore "CEJgavotte"
 }
 
 %%% CINQUIÈME SUITE
@@ -105,4 +107,3 @@
 \bookpart {
   \pieceTocTitle "Chaconne"                                     \includeScore "DFFchaconne"
 }
-
