@@ -292,7 +292,7 @@
   \paragraph {
     Pour l'entr'acte, l'édition de Dukas indique de rejouer l'air pour
     les esclaves africains de la première entrée, tandis que le
-    manuscrit indique de jouer les menuets (de la première entrée ?)
+    manuscrit indique de jouer les menuets (du prologue ?)
   }
 
   \null\line\bold { Les Sauvages }

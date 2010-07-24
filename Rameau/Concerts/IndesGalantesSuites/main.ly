@@ -16,7 +16,7 @@
   \pageBreak
 
   %% Notes
-  \include "Rameau/Opera/IndesGalantes/notes.ily"
+  \include "Rameau/Concerts/IndesGalantesSuites/notes.ily"
   \pageBreak
 
   %% Table of contents
