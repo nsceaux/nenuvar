@@ -59,7 +59,7 @@ red' red'
 >>
 \tag #'reduction \valereMark fad'8. fad'16 si8 si16 si |
 sold4 sold8 sold16 sold dod'8. dod'16 |
-lad2. |
+lad2. |\allowPageTurn
 r4 fad4. si8 |
 lad2 si4 |
 mi'2 red'8 dod' |

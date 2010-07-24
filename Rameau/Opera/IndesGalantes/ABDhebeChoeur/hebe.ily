@@ -38,7 +38,7 @@ re''~ |
 re''~ |
 re''~ |
 re''2 r4 |
-R2.*2 |
+R2.*2 |\allowPageTurn
 r4 r8 la' la' si' |
 do''4. re''8 mi'' fad'' |
 sol''4.(\melisma fad''16[ mi'']) re''8[ mi''] |

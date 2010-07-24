@@ -21,7 +21,7 @@ r si'8 dod'' red'' si' |
 mi''2 fad''4. sold''8 |
 sold''2( fad'')\trill |
 mi''1 |
-R1*3 |
+R1*3 |\allowPageTurn
 r4 r8 mi' la'4. la'8 |
 dod''1~ |
 dod''~ |

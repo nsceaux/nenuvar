@@ -7,7 +7,7 @@ sib'4 sib'8 reb'' sib'4 lab'8 sol' |
 lab'2 lab'4 r8 do'' |
 fa'4 fa'8 fa' sol'4 sol'8 sol' |
 mi'2 mi'4 r |
-R1*4 |
+R1*4 |\allowPageTurn
 r8 fa' fa' fa' fa' do' |
 fa' fa' lab' lab' lab' fa' |
 do''2. |

@@ -35,7 +35,7 @@ fad'4\trill \phaniMark r8 la' la'4 r8 re'' |
 sold'4 r8 mi'' do'' do''16 do'' do''8 do''16 si' |
 si'8\trill si' r16 re'' mi'' fa'' mi''8\trill mi''16 sol'' do''8 do''16 mi'' |
 la'8 la' r4 sib' mi'16 mi' fad' sol' |
-fad'1\trill |
+fad'1\trill |\allowPageTurn
 r4 sib'8 sol' re''4 re''8 re'' |
 sol''2 mib''4 mib''8 mib'' |
 si'2 r8 re'' re'' si'16 re'' |

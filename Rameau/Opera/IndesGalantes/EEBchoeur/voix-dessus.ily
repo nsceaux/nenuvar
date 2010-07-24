@@ -16,7 +16,7 @@ si'4. si'8 dod'' re'' |
 la'2( sol'8)\trill fad' |
 fad'4( mi'2)\trill |
 re'2 r4 |
-R2.*3 |
+R2.*3 |\allowPageTurn
 r2 r8
 <<
   { \voiceOne fad''8 |
@@ -40,7 +40,7 @@ r2 r8
     si'[ dod''] si'4~ si'16[ la' sold' la'] |
     la'2\trill la'8
   }
->> r8 |
+>> r8 |\allowPageTurn
 R2.*5 |
 mi''4 mi'' mi'' |
 mi''2 mi''4 |

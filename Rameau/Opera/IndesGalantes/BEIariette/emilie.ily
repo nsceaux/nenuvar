@@ -29,7 +29,7 @@ sol'4 la'8. sib'16 |
 sol'8\trill fa'16[ mi'] fa'8. sol'16 |
 sol'2\trill |
 fa' |
-R2*3 |
+R2*3 |\allowPageTurn
 fa''8 fa''16 mib'' re''[ do''] sib'[ la'] |
 sol'2 |
 sol''8 sol''16 fa'' mi''[ re''] do''[ sib'] |
@@ -47,7 +47,7 @@ do''4 re''8 mib'' |
 do''\trill sib'16[ la'] sol'[ fa'] sib'8 |
 sib'4.( la'8) |
 sib'2 |
-R2*6 |
+R2*6 |\allowPageTurn
 r4 r8 fa'' |
 fa''2~ |
 fa''16[\melisma mib'' re'' mib''32 fa''] fa''8.([\trill mib''32 fa'')] |

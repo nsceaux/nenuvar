@@ -37,7 +37,7 @@ sib'2 r8 <<
     fad'2. |
   }
 >>
-R2.*2 |
+R2.*2 |\allowPageTurn
 r2 r8 sol'' |
 sol''2.~ |
 sol''~ |
