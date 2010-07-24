@@ -2,11 +2,11 @@
   \act { NOTES }
 
   \paragraph {
-    Cette édition est basée sur un manuscrit conservé à la
-    bibliothèque de Toulouse [1], daté de 1750.  Il présente quelques
-    différences par rapport aux versions couramment entendues, dont
-    les principales, relevées par rapport à l'édition de Dukas [2],
-    sont décrites ci-après.
+    Cette édition des \italic { Indes Galantes } est basée sur un
+    manuscrit conservé à la bibliothèque de Toulouse [1], daté de
+    1750.  Il présente quelques différences par rapport aux versions
+    couramment entendues, dont les principales, relevées par rapport à
+    l'édition de Dukas [2], sont décrites ci-après.
   }
 
   \null\line\bold { Prologue }
@@ -379,11 +379,11 @@
   }
 
   \paragraph {
-    Si une erreur flagrante d'orchestration a été commise, ou si
-    vous souhaitez réaliser des changements par exemple dans les
-    parties séparées, merci de me faire part de vos remarques en
-    m'écrivant à l'adresse \with-url #"mailto:nicolas.sceaux@free.fr"
-    \smaller \typewriter "nicolas.sceaux@free.fr".
+    Si une erreur d'orchestration a été commise, ou si vous souhaitez
+    réaliser des changements par exemple dans les parties séparées,
+    merci de me faire part de vos remarques en m'écrivant à l'adresse
+    \with-url #"mailto:nicolas.sceaux@free.fr" \smaller \typewriter
+    "nicolas.sceaux@free.fr".
   }
 
   \null\line\bold { Références }

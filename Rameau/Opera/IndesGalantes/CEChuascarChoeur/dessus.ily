@@ -19,7 +19,7 @@ si''8 fad'' la'' red'' mi''4. fad''8 |
 sold''2( fad''4.)\trill mi''8 |
 mi'' mi'' sold'' sold'' si'' sold'' si'' si'' |
 mi'''1 |
-R1*4 |
+R1*4 |\allowPageTurn
 r8 si' mi'' mi'' sold''2 |
 r8 mi'' la'' la'' dod''' mi'' la'' dod''' |
 si'' mi'' si'' re''' dod''' mi'' la'' dod''' |

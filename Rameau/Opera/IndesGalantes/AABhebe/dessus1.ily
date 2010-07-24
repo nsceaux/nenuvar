@@ -40,7 +40,7 @@ fad'' si'' la'' sol'' fad'' mi'' red'' dod'' si'8 r |
 r2 sol''8. red''16 |
 mi''2 fad''8. sol''16 |
 red''2 r4 |
-R2. |
+R2. |\allowPageTurn
 r8 red''16 mi'' fad'' sol'' fad'' sol'' la'' si'' la'' si'' |
 do'''4. do'''8 do''' si''16 la'' |
 la''8 sol''16 fad'' fad''4.\trill mi''8 |
