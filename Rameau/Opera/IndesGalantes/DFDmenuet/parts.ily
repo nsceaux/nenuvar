@@ -3,7 +3,7 @@
                      (violon2 #:music ,breaks)
                      (hautbois1 #:music ,breaks)
                      (hautbois2 #:music ,breaks)
-                     (trompette)
+                     (trompette #:music ,breaks #:ragged #t)
                      (flute1 #:music ,breaks
                              #:instrument ,(markup #:center-column ("Trompettes"
                                                                     "Hautbois")))

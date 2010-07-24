@@ -23,10 +23,12 @@
 %{ n°3 %}
 \pieceToc \markup { Fatime : \italic { L'Hiver, dans ces jardins, n'ose outrager les fleurs } }
 \includeScore "EACfatime"
+\partNoPageTurn #'(basse basson)
 
 %{ n°4 %}
 \pieceToc \markup { Roxane, Fatime }
 \includeScore "EADroxaneFatime"
+\partNoPageTurn #'(basse basson)
 
 %{ n°5 %}\newBookPart #'(full)
 \scene "Scène II"
@@ -47,6 +49,7 @@
 %{ n°8 %}
 \pieceToc \markup { Fatime, Atalide }
 \includeScore "EBDfatimeAtalide"
+\partNoPageTurn #'(basse basson)
 
 %{ n°9 %}\newBookPart #'(full)
 \scene "Scène III"
@@ -55,6 +58,7 @@
 }
 \pieceToc \markup { Atalide, Tacmas }
 \includeScore "ECAatalideTacmas"
+\partNoPageTurn #'(basse basson)
 
 %{ n°10 %}
 \scene "Scène IV"

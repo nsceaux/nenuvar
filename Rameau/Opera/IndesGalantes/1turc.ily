@@ -22,6 +22,7 @@
 %{ n°4 %}\newBookPart #'(full)
 \pieceToc \markup { Émilie, Osman }
 \includeScore "BADemilieOsman"
+\partNoPageTurn #'(basse basson)
 
 %{ n°5 %}\newBookPart #'(full)
 \pieceToc \markup { Osman : \italic { C'est trop m'accabler par vos pleurs } }

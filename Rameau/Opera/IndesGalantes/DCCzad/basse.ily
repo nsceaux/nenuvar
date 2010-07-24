@@ -70,7 +70,7 @@ re~ re8*2/3[ mi re] dod2 |
 do sib, |
 mib do4.(\trill sib,16 do) |
 re2 r |
-R1*2 |
+R1*2 |\allowPageTurn
 r8*2/3 re'[ dod'] re'[ dod' re'] re4 re, |
 sol,2 r |
 sol8*2/3([ la) sol] sib([ do') sib] re'4 re |

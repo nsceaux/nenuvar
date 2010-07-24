@@ -1,7 +1,7 @@
 OUTPUT_DIR=out
 DELIVERY_DIR=delivery
 
-LILYPOND_CMD=lilypond -ddelete-intermediate-files
+LILYPOND_CMD=lilypond -ddelete-intermediate-files -dno-protected-scheme-parsing
 
 REHEARSAL_FLAG=-d use-rehearsal-numbers
 LETTER_FLAG=-d letter
@@ -115,12 +115,15 @@ violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson bas
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,trompette,part-trompette-timbales))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,timbales,part-trompette-timbales))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/HippolyteEtAricie,cor,part-cor))
+
 # Les Indes Galantes
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/IndesGalantes,\
-violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse voix,,))
-$(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/IndesGalantes,trompette,part-trompette))
-$(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/IndesGalantes,timbales,part-timbales))
-# Suite des Indes Galantes
+violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse voix,part-tt,\
+trompette timbales))
+$(eval $(call MAKE_SCORE_RULE,Rameau/Opera/IndesGalantes,1,,main1))
+$(eval $(call MAKE_SCORE_RULE,Rameau/Opera/IndesGalantes,2,,main2))
+
+# Suites des Indes Galantes
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/IndesGalantesSuites,\
 violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse,part-tt,\
 trompette timbales))

@@ -77,11 +77,12 @@
 \includeScore "CEErondeau"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°13 %}\newBookPart #'()
+%{ n°13 %}\newBookPart #'(full violon1 violon2 flute1 flute2 hautbois1 hautbois2
+                               haute-contre taille)
 \pieceToc \markup { Huascar, chœur : \italic { Clair flambeau du monde } }
 \includeScore "CEFhuascarChoeur"
 
-%{ n°14 %}\newBookPart #'(full)
+%{ n°14 %}\newBookPart #'(full basse basson)
 \pieceTocTitle "Loure en rondeau"
 \includeScore "CEGloure"
 

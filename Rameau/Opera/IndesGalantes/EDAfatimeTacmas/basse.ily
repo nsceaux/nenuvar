@@ -14,7 +14,7 @@ la2 re4 mi |
 fad2 mi4 la |
 re2 si, |
 mi dod |
-fad r |
+fad r |\allowPageTurn
 r4 si fad |
 sol4.( fad16\trill mi) re4 |
 re' dod' si |

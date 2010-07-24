@@ -16,7 +16,7 @@ mib do re re, |
 sol,2 sol, |
 
 \setMusic #'refrain {
-  sol2 sol,4 sol |
+  sol2 sol,4 sol |\noBreak
   re2 fad8 la re' re |
   fad,4 la, re re, |
   sol,2 sib,8 re sol sib |

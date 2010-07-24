@@ -16,7 +16,7 @@ mi |
 la2. |
 mi |
 fad2 mi8 mi, |
-la,2. |
+la,2. |\allowPageTurn
 r2 la4 dod |
 re4. mi8 fad4 |
 mi2.~ |
@@ -25,7 +25,7 @@ mi4. re8 dod4 |
 sold, la,2 |
 mi, dod4 |
 lad,2. |
-si,2 r4 |
+si,2 r4 |\allowPageTurn
 r2 si,4 |
 dod2. re8 mi |
 la,2 lad, |

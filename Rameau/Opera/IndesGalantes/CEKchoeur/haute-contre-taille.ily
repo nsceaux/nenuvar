@@ -23,7 +23,7 @@ sol4 r8 sol32 sol sol sol sol8 sol sol sol |
   \tag #'haute-contre { \ru#8 do' \ru#8 sib }
   \tag #'conducteur { \ru#8 do' \ru#8 <sib do'> }
   \tag #'taille \ru#16 do'
->>|
+>>
 sol4 r r2 |
 R1 |
 do'8-. do'-. do'-. do'-. do'-. do'-. do'-. do'-. |
@@ -31,7 +31,7 @@ do'8-. do'-. do'-. do'-. do'-. do'-. do'-. do'-. |
 sol4 r sib r |
 lab16 do' do' do' do' do' do' do' do' do' do' do' |
 do' do' do' do' do' do' do' do' do' do' do' fa' |
-mi'32 <do' do> q q q q q q q q q q \ru#12 q |
+mi'32 <do' do> q q q q q q q q q q \ru#12 <do' do> |
 q16 mib' mib' mib' mib' mib' mib' mib' mib' mib' mib' mib' |
 mib' mib' mib' mib' mib' mib' mib' mib' mib' mib' mib' lab' |
 sol'32 mib' mib' mib' mib' mib' mib' mib' mib' mib' mib' mib' \ru#12 mib' |

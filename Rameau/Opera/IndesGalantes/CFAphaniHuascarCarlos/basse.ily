@@ -29,7 +29,7 @@ sib,2 r4 r8 sib, |
 lab,4 sol, do |
 fa, r8 fa sib8. mib16 |
 sib,2 lab, |
-sol,4 r r2 |
+sol,4 r r2 |\allowPageTurn
 r2 fa,4 |
 mib, r mib, |
 re,2 sol,4 |

@@ -31,6 +31,7 @@
 }
 \pieceToc \markup { Damon, Alvar }
 \includeScore "DBAalvarDamon"
+\partNoPageTurn #'(basse basson)
 
 %{ n°4 %}\newBookPart #'(full)
 \scene "Scène III"
@@ -48,6 +49,7 @@
 %{ n°6 %}\newBookPart #'(full)
 \pieceToc \markup { Zima, Damon, Alvar }
 \includeScore "DCCzad"
+\partNoPageTurn #'(basse basson)
 
 %{ n°7 %}\newBookPart #'(full)
 \scene "Scène IV"
@@ -76,7 +78,8 @@
 \includeScore "DECduo"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°11 %}\newBookPart #'()
+%{ n°11 %}\newBookPart #'(full violon1 violon2 flute1 flute2 hautbois1 hautbois2
+                               haute-contre taille basse basson)
 \scene "Scène VI"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Zima, Adario, } Françaises en habits d'amazones,

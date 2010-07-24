@@ -13,7 +13,7 @@ sol4 mib fa8 sol |
 do2. |
 mib4 re re, |
 sol,2 r4 |
-R2.*35 |
+R2.*35 |\allowPageTurn
 r4 sib,8. do16 re8 re, |
 sol,8. fa16 mib4 re8 do16 fa |
 sib,2 sol, |
