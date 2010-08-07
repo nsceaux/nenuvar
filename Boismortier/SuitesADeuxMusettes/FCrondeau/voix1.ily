@@ -7,9 +7,9 @@ sol''4 re'' mi'' re''8 do'' |
 re''4 \appoggiatura do''8 si'4 re'' do''8 si' |
 mi''4 fad''8 sol'' la'4.\trill sol'8 |
 sol'2 si'8 la' si' do'' |
-si'4\mordent la' si'8 la' si' do'' |
-re''2 la''8 sol'' fad''\mordent mi'' |
-fad''4 re'' la''8 sol'' fad''\mordent mi'' |
+si'4\prall la' si'8 la' si' do'' |
+re''2 la''8 sol'' fad''\prall mi'' |
+fad''4 re'' la''8 sol'' fad''\prall mi'' |
 re''2 si'8 do'' si' la' |
 sol' fad' sol' la' si' re'' do'' si' |
 la'2\trill re''8 do'' si' la' |
@@ -27,7 +27,7 @@ la'' si''8 do''' si''4 la''8 sol'' |
 la''4 re'' sol'' fad''8 mi'' |
 re''4 mi''8 re'' do''2\trill |
 si'\trill re''4 mi''8 fa'' |
-mi''4\mordent re'' re'' mi''8 fa'' |
+mi''4\prall re'' re'' mi''8 fa'' |
 mi''2\trill do'''8 si'' la'' sol'' |
 do''' si'' la'' sol'' fad''4.\trill sol''8 |
 la''2 sol''8 si'' la'' si'' |

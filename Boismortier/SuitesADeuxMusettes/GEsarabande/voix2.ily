@@ -4,7 +4,7 @@ do''8 re'' si' do'' re'' si' |
 do''2 sol'4 |
 R2. |
 mi''8 re'' mi'' fa'' sol''4 |
-do''8 si' re'' do'' si'\mordent la' |
+do''8 si' re'' do'' si'\prall la' |
 sol'2. |
 R2. |
 si'8 do'' si' la' si' sol' |

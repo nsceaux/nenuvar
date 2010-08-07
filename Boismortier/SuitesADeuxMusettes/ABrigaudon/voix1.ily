@@ -2,14 +2,14 @@ sol'4 |
 do''2 mi'' |
 sol''2. do'''4 |
 sol'' la'' sol'' fa'' |
-mi''\mordent re''8 mi'' do''4 sol' |
+mi''\prall re''8 mi'' do''4 sol' |
 do''2 mi'' |
 sol''2. do'''4 |
-sol'' la'' sol''\mordent fa'' |
+sol'' la'' sol''\prall fa'' |
 mi''2. re''8 mi'' |
 fa''2 fa'' |
 fa''2. mi''8 re'' |
-mi''4 mi'' mi'' re''8\mordent do'' |
+mi''4 mi'' mi'' re''8\prall do'' |
 re''4 sol' sol' mi''8 fa'' |
 sol''4 do''' do''' si''8 la'' |
 sol''2. mi''8 fa'' |

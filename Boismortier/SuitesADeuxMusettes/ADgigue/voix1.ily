@@ -1,7 +1,7 @@
 sol''8 |
 mi'' fa'' sol'' re'' mi'' fa'' |
 mi'' re'' mi'' do''4 sol'8 |
-do'' re'' do'' si'\mordent la' si' |
+do'' re'' do'' si'\prall la' si' |
 do''4. sol'4 sol''8 |
 mi'' fa'' sol'' re'' mi'' fa'' mi'' re'' mi'' do''4 sol'8 |
 do'' re'' mi'' mi'' re'' do'' |

@@ -4,7 +4,7 @@ mi''8 fa'' re'' mi'' fa'' sol'' |
 mi''2\trill \appoggiatura re''8 do''4 |
 mi''8 re'' mi'' fa'' sol''4 |
 do''4. re''8 mi''4 |
-mi''8 re'' fa'' mi'' re''\mordent do'' |
+mi''8 re'' fa'' mi'' re''\prall do'' |
 sol''2. |
 si'8 do'' si' la' si' sol' |
 re''4. mi''8 fa''4 |

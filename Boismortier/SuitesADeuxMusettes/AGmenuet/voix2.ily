@@ -7,15 +7,15 @@ do''2 re''4 |
 si' do''2 |
 sol'2. |
 si'8 do'' re''4 re'' |
-re'' do''\mordent si' |
+re'' do''\prall si' |
 do'' si' do'' |
 sol'2 re''4 |
 mib'' re''8 mib'' do''4 |
-si'\mordent sol' si' |
+si'\prall sol' si' |
 do''8 re'' mib''4 re'' |
 do''2 sol'4 |
 si'8 do'' re''4 re'' |
-re'' do''\mordent si' |
+re'' do''\prall si' |
 do'' si' do'' |
 sol'2 re''4 |
 mib'' re''8 mib'' do''4 |

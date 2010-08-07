@@ -20,5 +20,5 @@ la' sol'8 fad' sol' la' |
 si'4 la'8 si' sol'4 |
 si' sol'8 la' si' do'' |
 si'2\trill fad'4 |
-sol' la' fad'\mordent |
+sol' la' fad'\prall |
 sol'2. |

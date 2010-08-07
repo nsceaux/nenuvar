@@ -3,7 +3,7 @@ r4 re''8 |
 sol'' fad'' mi'' |
 re''4 do''8 |
 si'4 sol'8 |
-do'' si'\mordent la' |
+do'' si'\prall la' |
 sol'4 si'8 |
 la' sol'4 |
 re''4 r8 |
@@ -11,7 +11,7 @@ r4 re''8 |
 sol'' fad'' mi'' |
 re''4 do''8 |
 si' sol'4 |
-do''8 si'\mordent la' |
+do''8 si'\prall la' |
 sol'4 fad'8 |
 sol' fad'4\trill |
 sol' sol'8 |
@@ -23,10 +23,10 @@ si'4 do''8 |
 si' sol' si' |
 do'' la'4\trill |
 sol' si'8 |
-re'' do''16\mordent si' do''8 |
-do'' si'16\mordent la' si'8 |
-si' la'16\mordent sol' la'8 |
-la' sol'16\mordent fad' sol'8 |
+re'' do''16\prall si' do''8 |
+do'' si'16\prall la' si'8 |
+si' la'16\prall sol' la'8 |
+la' sol'16\prall fad' sol'8 |
 sol' la' si' |
 fad' sol' la' |
 sol' do'' si' |
@@ -35,7 +35,7 @@ r4 re''8 |
 sol'' fad'' mi'' |
 re''4 do''8 |
 si'4 sol'8 |
-do'' si'\mordent la' |
+do'' si'\prall la' |
 sol'4 si'8 |
 la' sol'4 |
 re''4 r8 |
@@ -43,7 +43,7 @@ r4 re''8 |
 sol'' fad'' mi'' |
 re''4 do''8 |
 si' sol'4 |
-do''8 si'\mordent la' |
+do''8 si'\prall la' |
 sol'4 fad'8 |
 sol' fad'4\trill |
 sol' r8 |
@@ -67,7 +67,7 @@ r4 re''8 |
 sol'' fad'' mi'' |
 re''4 do''8 |
 si'4 sol'8 |
-do'' si'8\mordent la' |
+do'' si'8\prall la' |
 sol'4 si'8 |
 la' sol'4 |
 re''4 r8 |
@@ -75,7 +75,7 @@ r4 re''8 |
 sol'' fad'' mi'' |
 re''4 do''8 |
 si'4 sol'8 |
-do'' si'8\mordent la' |
+do'' si'8\prall la' |
 sol'4 fad'8 |
 sol' fad'4\trill |
 sol'4. |

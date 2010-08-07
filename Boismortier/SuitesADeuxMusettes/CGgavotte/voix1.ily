@@ -1,7 +1,7 @@
 do''4 re'' |
 mib'' fa'' |
 sol'' sol'' |
-mib''\mordent \appoggiatura re''8 do''4 |
+mib''\prall \appoggiatura re''8 do''4 |
 do''' do''' |
 sol'' lab''8. sol''16 |
 fa''4.\trill sol''8 |

@@ -1,9 +1,9 @@
 r4. |
-re''8. do''16 re''8 si'8.\mordent la'16 sol'8 |
+re''8. do''16 re''8 si'8.\prall la'16 sol'8 |
 re''8. do''16 re''8 si'4.\trill |
 do''8. re''16 si'8 la'8. si'16 do''8 |
 si'4\trill sol'8 r4. |
-re''8. do''16 re''8 si'8.\mordent la'16 sol'8 |
+re''8. do''16 re''8 si'8.\prall la'16 sol'8 |
 re''8. do''16 re''8 si'4.\trill |
 do''8. re''16 si'8 la'8. si'16 do''8 |
 si'4.\trill re''8. do''16 re''8 |

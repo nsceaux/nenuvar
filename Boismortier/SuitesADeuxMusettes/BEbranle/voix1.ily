@@ -1,6 +1,6 @@
 sol''4 sol'' |
 sol'' re'' mi'' re''8 do'' |
-si'4\mordent sol' sol'' sol'' |
+si'4\prall sol' sol'' sol'' |
 sol'' re'' mi'' re''8 do'' |
 si'2\trill si'4 si' |
 si' la'8 si' do''4 si' |

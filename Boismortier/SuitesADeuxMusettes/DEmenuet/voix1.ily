@@ -3,7 +3,7 @@ fad''4.\trill mi''8 re''4 |
 si'' do''' si'' |
 la''2\trill re''4 |
 sol'' fad''8 mi'' re'' do'' |
-si'4\mordent la'8 si' sol'4 |
+si'4\prall la'8 si' sol'4 |
 si'8 do'' do''2\trill |
 re''2. |
 la'8 si' do''4 do'' |

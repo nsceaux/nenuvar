@@ -58,13 +58,13 @@ fa''~ |
 fa'' |
 mi''8 fa'' sol'' |
 do'' la' fa'' |
-mi''16\mordent re'' re''8.\trill do''16 |
+mi''16\prall re'' re''8.\trill do''16 |
 do''2 mi''4. fa''8 |
 re''4.\trill re''8 sol''4. sol''8 |
 sol''4 fa''8 mi'' fa''4. sol''8 |
 mi''2\trill la''4. la''8 |
 la''8 re'' mi'' fa'' sol''4. sol''8 |
 sol''8 do'' re'' mi'' fa''4. fa''8 |
-fa''8 sol'' mi''\mordent re'' re''4.\trill do''8 |
+fa''8 sol'' mi''\prall re'' re''4.\trill do''8 |
 do''4 sol''8 |
 do''1

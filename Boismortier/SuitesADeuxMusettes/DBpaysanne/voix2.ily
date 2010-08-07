@@ -1,10 +1,10 @@
 R1 |
 sol''2 sol'' |
-si'4\mordent la'8 si' sol'4 do'' |
+si'4\prall la'8 si' sol'4 do'' |
 si' sol' si' re'' |
 si' sol' si' do'' |
 si'8 la' si' do'' si'4 re'' |
-do'' si' la'\mordent sol' |
+do'' si' la'\prall sol' |
 re''1 |
 si'8 la' sol' la' si'4 do'' |
 si'8 la' si' do'' si'4 do'' |

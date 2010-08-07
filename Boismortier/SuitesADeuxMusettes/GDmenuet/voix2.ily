@@ -2,8 +2,8 @@ R2. |
 do''8 re'' mi'' fa'' sol''4 |
 do'' do'' do'' |
 do''8 re'' mi'' fa'' sol'' mi'' |
-fa''4 mi''\mordent re'' |
-mi'' re''\mordent do'' |
+fa''4 mi''\prall re'' |
+mi'' re''\prall do'' |
 si' do''2 |
 si'8 la' si' do'' si'4 |
 sol'2. |

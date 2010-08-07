@@ -2,9 +2,9 @@ do''8 re'' mi'' fa'' sol''4 |
 do''4 do'' do'' |
 do''8 re'' mi'' fa'' sol''4 |
 do''2. |
-la''4 sol''\mordent fa'' |
-sol'' fa''\mordent mi'' |
-fa'' mi''2\mordent |
+la''4 sol''\prall fa'' |
+sol'' fa''\prall mi'' |
+fa'' mi''2\prall |
 re''8 do'' re'' mi'' re''4 |
 re''2.\trill |
 sol'8 la' si' do'' re''4 |

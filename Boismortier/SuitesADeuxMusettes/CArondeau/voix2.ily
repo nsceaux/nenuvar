@@ -20,9 +20,9 @@ fa'' si'4.\trill do''8 |
 do''2 do''4 |
 mi''8 fa'' sol''4 do'' |
 mi'' re'' do'' |
-fa'' mi''\mordent re'' |
+fa'' mi''\prall re'' |
 mi'' do'' mi'' |
-fa'' mi''\mordent re'' |
+fa'' mi''\prall re'' |
 mi''4. re''8 mi'' fa'' |
 mi''4 re''2\trill |
 do'' sol'4 |

@@ -33,11 +33,11 @@ si''4.\trill la''8 sol''4 |
 r4 mi'' la''~ |
 la''8 re'' mi'' fa'' sol''4~ |
 sol''8 do'' re'' mi'' fa'' sol'' |
-mi''\mordent re'' re''4.\trill do''8 |
+mi''\prall re'' re''4.\trill do''8 |
 do''4 mi'' la''~ |
 la''8 re'' mi'' fa'' sol''4~ |
 sol''8 do'' re'' mi'' fa'' sol'' |
-mi''\mordent re'' re''4.\trill do''8 |
+mi''\prall re'' re''4.\trill do''8 |
 do''4 mib''4. mib''8 |
 re''4 sol''8 fa'' mib'' re'' |
 mib''4 lab''8 sol'' fa'' mib'' |

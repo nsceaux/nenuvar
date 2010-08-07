@@ -20,7 +20,7 @@ sol' la' si' |
 do'' re'' si' |
 la' si' do'' |
 re'' mi'' do'' |
-si'\mordent la' si' |
+si'\prall la' si' |
 do'' si' la' |
 sol' sol'' fa'' |
 mi'' re'' do'' |

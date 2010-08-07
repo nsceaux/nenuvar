@@ -1,11 +1,11 @@
 mib''8 |
 re'' sol''4 |
 mib''8 do'' sol'' |
-lab'' sol''\mordent fa'' |
+lab'' sol''\prall fa'' |
 sol''4. |
 do'''8 mib'' re'' |
 sol'' do'' si' |
-fa'' mib''\mordent re'' |
+fa'' mib''\prall re'' |
 mib'' re''16 mib'' do''8 |
 re'' mib'' fa'' |
 sol''4. |
@@ -26,18 +26,18 @@ sol''4. |
 re''4 mib''8 |
 re'' si' do'' |
 re''4 mib''8 |
-fa'' mib''\mordent re'' |
+fa'' mib''\prall re'' |
 mib'' sol'' do''' |
 fa''16 mib'' re'' mib'' fa''8 |
 sol'' mib''4\trill |
 re''4\trill mib''8 |
 re'' sol''4 |
 mib''8 do'' sol'' |
-lab'' sol''\mordent fa'' |
+lab'' sol''\prall fa'' |
 sol''4. |
 do'''8 mib'' re'' |
 sol'' do'' si' |
-fa'' mib''\mordent re'' |
+fa'' mib''\prall re'' |
 mib'' re''16 mib'' do''8 |
 re'' mib'' fa'' |
 sol''4. |
@@ -61,7 +61,7 @@ sol'' si' do'' |
 re''4 sol'8 |
 do'' re'' mib'' |
 fa''16 mib'' re'' fa'' mib'' re'' |
-mib''8 re''\mordent do'' |
+mib''8 re''\prall do'' |
 sol''4 mib''8 |
 re'' sol''4 |
 mib''8 do'' sol'' |
@@ -69,7 +69,7 @@ lab''16 sib'' lab'' sol'' lab'' fa'' |
 sol''4. |
 do'''8 mib'' re'' |
 sol'' do'' si' |
-fa'' mib''\mordent re'' |
+fa'' mib''\prall re'' |
 mib'' re''16 mib'' do''8 |
 re'' mib'' fa'' |
 sol''4. |

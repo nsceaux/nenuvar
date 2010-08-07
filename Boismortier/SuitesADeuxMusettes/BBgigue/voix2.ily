@@ -17,7 +17,7 @@ si' la' si' do'' re'' do'' |
 si'4 la'8 sol'4 do''8 |
 si'4 la'8 sol'4 fad'8 |
 sol'4 fad'8 sol'4 la'8 |
-si' do'' si' la'4\mordent sol'8 |
+si' do'' si' la'4\prall sol'8 |
 re''4.~ re''4 si'8 |
 do''4 do''8 do'' si' la' |
 si' la' si' sol'4 re''8 |
