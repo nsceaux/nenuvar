@@ -1,0 +1,49 @@
+nénuvar - baroque music scores typeset with GNU LilyPond
+
+Available scores:
+
+J.B. Lully
+* La Revente des habits (ballet, LWV05)
+* Amour malade (ballet, LWV08)
+* Les Plaisirs de l'île enchantée (ballet, LWV22)
+* Le Bourgeois gentilhomme (comédie-ballet, LWV43)
+* Psyché (tragédie lyrique, LWV56)
+* Phaeton (tragédie lyrique, LWV61)
+* Armide (tragédie lyrique, LWV71)
+
+M.A. Charpentier
+* David et Jonathas (tragédie en musique)
+
+F. Couperin
+* Messe pour les couvents (orgue)
+* Motets et élévations à une, deux ou trois voix
+* L'Art de toucher le clavecin
+
+Pancrace Royer
+* Premier livre de pièces de clavecin
+
+Boismortier
+* Suites à deux musettes (opus 17, opus 11)
+
+J.P. Rameau
+* Les Indes galantes (opéra-ballet)
+* Hippolyte et Aricie (tragédie en musique)
+* Pièces de clavecin en concert (violon, viole, clavecin)
+
+G.F. Handel:
+* Giulio Cesare
+* Messiah
+
+
+To get score making usage, try:
+  $ make help
+
+For instance, to build Les Indes Galantes full score:
+  $ make Rameau/Opera/IndesGalantes
+To make the first violin part:
+  $ make Rameau/Opera/IndesGalantes-violon1
+
+
+---
+Nicolas Sceaux <nicolas.sceaux@free.fr>
+
