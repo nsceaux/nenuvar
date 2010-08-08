@@ -29,8 +29,8 @@
   \scene "Deuxième suite"
   \pieceTocTitle "Prélude"           \includeScore "BAprelude"
   \pieceTocTitle "Gigue"             \includeScore "BBgigue"   \pageBreak
-  \pieceTocTitle "Rondeau"           \includeScore "BCrondeau" \pageBreak
-  \pieceTocTitle "Deuxième rondeau"  \includeScore "BDrondeau" \pageBreak
+  \pieceTocTitle "Rondeau I/II"      \includeScore "BCrondeau" \pageBreak
+                                     \includeScore "BDrondeau" \pageBreak
   \pieceTocTitle "Branle"            \includeScore "BEbranle"
   \pieceTocTitle "Rigaudon I/II"     \includeScore "BFrigaudon" \includeScore "BGrigaudon"
 }
@@ -93,4 +93,12 @@
 }
 \bookpart {
   \scene "Troisième suite"
+  \pieceTocTitle "Allemande"     \includeScore "IAallemande"
+  \pieceTocTitle "Fanfare"       \includeScore "IBfanfare" \pageBreak
+  \pieceTocTitle "Menuet"        \includeScore "ICmenuet"
+  \pieceTocTitle "Courante"      \includeScore "IDcourante"
+  \pieceTocTitle "Rondeau"       \includeScore "IErondeau"
+  \pieceTocTitle "Pavanne"       \includeScore "IFpavanne" \pageBreak
+  %{ \pieceTocTitle "?" %}       \includeScore "IG"
+  \pieceTocTitle "Rigaudon I/II" \includeScore "IHrigaudon" \includeScore "IIrigaudon"
 }
