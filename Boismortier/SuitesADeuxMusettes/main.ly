@@ -1,4 +1,22 @@
 \include "Boismortier/SuitesADeuxMusettes/common.ily"
+
+%{
+includeNotes = 
+#(define-music-function (parser location pathname) (string?)
+  (let ((include-file (include-pathname pathname)))
+   #{ \notemode { \transpose do' sol { \include $include-file } } #}))
+
+global = 
+#(define-music-function (parser location) ()
+  (let* ((global-symbol (string->symbol (format "global~a~a" (*opus*) (*piece*))))
+         (global-music (ly:parser-lookup parser global-symbol)))
+   (if (not (ly:music? global-music))
+       (let* ((global-file (include-pathname "global")))
+         (set! global-music #{ \notemode { \staffStart \transpose do' sol \include $global-file } #})
+         (ly:parser-define! parser global-symbol global-music)))
+   (ly:music-deep-copy global-music)))
+%}
+
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
@@ -72,6 +90,7 @@
   \pieceTocTitle "Sarabande"   \includeScore "FFsarabande"
   \pieceTocTitle "Menuet I/II" \includeScore "FGmenuet" \includeScore "FHmenuet"
 }
+%%%
 \bookpart {
   \act "Œuvre XI"
   \scene "Première suite"
@@ -101,4 +120,17 @@
   \pieceTocTitle "Pavanne"       \includeScore "IFpavanne" \pageBreak
   %{ \pieceTocTitle "?" %}       \includeScore "IG"
   \pieceTocTitle "Rigaudon I/II" \includeScore "IHrigaudon" \includeScore "IIrigaudon"
+}
+\bookpart {
+  \scene "Quatrième suite"
+  \pieceTocTitle "Prélude"      \includeScore "JAprelude"
+  \pieceTocTitle "Paysanne"     \includeScore "JBpaysanne" \pageBreak
+  \pieceTocTitle "Rondeau I/II" \includeScore "JCrondeau" \pageBreak
+  \includeScore "JDrondeau" \pageBreak
+  %{ \pieceTocTitle "?" %}      \includeScore "JE"
+  \pieceTocTitle "Gavotte I/II" \includeScore "JFgavotte"
+  \includeScore "JGgavotte"
+}
+\bookpart {
+  \scene "Cinquième suite"
 }
