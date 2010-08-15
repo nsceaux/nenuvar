@@ -125,12 +125,22 @@ global =
   \scene "Quatrième suite"
   \pieceTocTitle "Prélude"      \includeScore "JAprelude"
   \pieceTocTitle "Paysanne"     \includeScore "JBpaysanne" \pageBreak
-  \pieceTocTitle "Rondeau I/II" \includeScore "JCrondeau" \pageBreak
+  \pieceTocTitle "Rondeau I/II" \includeScore "JCrondeau"
   \includeScore "JDrondeau" \pageBreak
   %{ \pieceTocTitle "?" %}      \includeScore "JE"
-  \pieceTocTitle "Gavotte I/II" \includeScore "JFgavotte"
-  \includeScore "JGgavotte"
+  \pieceTocTitle "Gavotte I/II" \includeScore "JFgavotte" \includeScore "JGgavotte"
 }
 \bookpart {
   \scene "Cinquième suite"
+  \pieceTocTitle "Allemande"         \includeScore "KAallemande"
+  \pieceTocTitle "Marche des Oberés" \includeScore "KBmarche" \pageBreak
+  \pieceTocTitle "Musette"           \includeScore "KCmusette"
+  \pieceTocTitle "Gavotte"           \includeScore "KDgavotte"
+  %{ \pieceTocTitle "?" %}           \includeScore "KE"
+  %{ \pieceTocTitle "?" %}           \includeScore "KF" \pageBreak
+  \pieceTocTitle "Sarabande"         \includeScore "KGsarabande"
+  \pieceTocTitle "Passepied I/II"    \includeScore "KHpassepied" \includeScore "KIpassepied"
+}
+\bookpart {
+  \scene "Sixième suite"
 }
