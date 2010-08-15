@@ -20,14 +20,57 @@ global =
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
-    title = \markup \fontsize #-1 \line { Suites à deux musettes }
+    title = \markup \left-align \center-column {
+      \fontsize #-1 \line { Suites à deux musettes }
+      \fontsize #-7 \line { opus 17 & 11 }
+    }
     poet = \markup\null
   }
-  %% notes
-  \markup\null
-  \pageBreak
   %% title page
   \markup\null
+  \pageBreak
+  %% notes
+  \markuplines \column-lines {
+    \act { NOTES }
+    \paragraph {
+      Ce recueil regroupe douze suites pour deux musettes, opus 17 [1]
+      et opus 11 [2] de Joseph Bodin de Boismortier.  Le titre de
+      l'édition originale indique que les suites \italic { conviennent
+        aux vielles, flûtes à bec, traversières, et hautbois. }
+    }
+    \null
+    \paragraph {
+      De façon à presenter la partition sous une forme plus familière
+      pour le lecteur actuel, certaines modification ont été apportées
+      à la notation de la gravure originale.  La clé de sol deuxième
+      ligne remplace la clé de sol première ligne. Les armures mineures
+      ont été augmentées d'un bémol : deux bémols pour les pièces en mineur
+      des suites en sol, et trois bémols pour les pièces en mineur des
+      suites en do.  Les indications de mesure \concat { \number 2 , }
+      \number 3 ont été remplacées par les indications
+      \concat { \number 2 / \number 2 ,}  \concat { \number 3 / \number 4 .} 
+    }
+    \null\line\bold { Références }
+    \null
+    \line {
+      \hspace #3
+      \column {
+        \line { [1] Joseph Bodin de Boismortier. \italic { XVIIe œuvre. } Paris: Boivin, 1727. }
+        \line { \smaller
+          \with-url #"http://numerique.bibliotheque.toulouse.fr/ark:/74899/B315556101_CONS0965_1"
+          \typewriter "http://numerique.bibliotheque.toulouse.fr"
+        }
+        \line { Ref. bibl : Fonds musicaux anciens, Toulouse 300, RISM B3369 }
+        \null
+        \line { [2] Joseph Bodin de Boismortier. \italic { XIe œuvre. } Paris: Boivin, 1727. }
+        \line { \smaller
+          \with-url #"http://numerique.bibliotheque.toulouse.fr/ark:/74899/B315556101_CONS0965_2"
+          \typewriter "http://numerique.bibliotheque.toulouse.fr"
+        }
+        \line { Ref. bibl : Fonds musicaux anciens, Toulouse 299, RISM B3362 }
+      }
+    }
+  }
   \pageBreak
   %% toc
   \markuplines \table-of-contents
