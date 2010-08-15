@@ -36,7 +36,7 @@ global =
       Ce recueil regroupe douze suites pour deux musettes, opus 17 [1]
       et opus 11 [2] de Joseph Bodin de Boismortier.  Le titre de
       l'édition originale indique que les suites \italic { conviennent
-        aux vielles, flûtes à bec, traversières, et hautbois. }
+        aux vièles, flûtes à bec, traversières, et hautbois. }
     }
     \null
     \paragraph {
