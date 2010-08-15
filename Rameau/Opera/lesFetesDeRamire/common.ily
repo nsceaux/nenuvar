@@ -60,8 +60,12 @@
               (#:notes "dessus" #:tag-notes hautbois1))
    (hautbois2 "Hautbois II" ((dessus #f) (dessus2 #f))
               (#:notes "dessus" #:tag-notes hautbois2))
+
    (cor1 "Cor I" () (#:notes "cor" #:tag-notes cor1))
    (cor2 "Cor II" () (#:notes "cor" #:tag-notes cor2))
+   (trompette1 "Trompette I" () (#:notes "trompette" #:tag-notes trompette1))
+   (trompette2 "Trompette II" () (#:notes "trompette" #:tag-notes trompette2))
+   (timbales "Timbales" () (#:notes "timbales" #:tag-notes timbales #:clef "basse"))
 
    (haute-contre "Haute-contre" ()
                  (#:notes "haute-contre-taille" #:tag-notes haute-contre #:clef "alto"))
@@ -74,3 +78,13 @@
    (voix "Parties vocales" () (#:score "score-voix")))
 
 trill = #(make-articulation "stopped")
+
+%%%
+
+isbeMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Isbé"))
+
+fatimeMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Fatime"))

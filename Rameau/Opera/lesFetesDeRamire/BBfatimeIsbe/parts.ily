@@ -1,0 +1,6 @@
+\piecePartSpecs #`((trompette1 #:tag-global without-marks)
+                   (trompette2 #:tag-global without-marks)
+                   (timbales #:tag-global without-marks)
+                   (silence #:tag-global without-marks)
+                   (basse #:score "score-basse" #:tag-global without-marks)
+                   (voix))

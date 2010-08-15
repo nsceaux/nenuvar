@@ -35,13 +35,14 @@
 \sceneDescription \markup \wordwrap-center {
   Le théâtre représente une prison.
 }
-\pieceTocTitle "Ouverture"
-\includeScore "AAouverture"
-\includeScore "ABouverture"
-\includeScore "ACouverture"
+\pieceTocTitle "Ouverture" \includeScore "AAouverture"
+%{ n°2 %}
+\pieceNoTitle \includeScore "ABouverture"
+%{ n°3 %}
+\pieceNoTitle \includeScore "ACouverture"
 
 %% scene I
-%{ n°2 %}\newBookPart #'(full)
+%{ n°4 %}\newBookPart #'(full)
 \scene "Scène Première"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Fatime, \smallCaps Isbe, confidente de Fatime.
@@ -49,7 +50,7 @@
 \pieceToc \markup {
   Fatime : \italic { Ô mort, vient terminer les douleurs de ma vie }
 } \includeScore "BAfatime"
-%{ n° %}
+%{ n°5 %}
 \pieceToc \markup { Fatime, Isbe } \includeScore "BBfatimeIsbe"
 
 %% scene II
