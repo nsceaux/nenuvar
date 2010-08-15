@@ -143,4 +143,13 @@ global =
 }
 \bookpart {
   \scene "Sixième suite"
+  \pieceTocTitle "Prélude"     \includeScore "LAprelude"
+  \pieceTocTitle "Rondeau"     \includeScore "LBrondeau" \pageBreak
+  \pieceTocTitle "Allemande"   \includeScore "LCallemande"
+  \pieceTocTitle "Villageoise" \includeScore "LDvillageoise"
+  \pieceTocTitle "Branle"      \includeScore "LEbranle"
+  \pieceTocTitle "Menuet"      \includeScore "LFmenuet"
+  \pieceTocTitle "Brunette"    \includeScore "LGbrunette" \pageBreak
+  \pieceTocTitle "Gigue I/II"  \includeScore "LHgigue" \includeScore "LIgigue"
+  \actEnd "FIN"
 }

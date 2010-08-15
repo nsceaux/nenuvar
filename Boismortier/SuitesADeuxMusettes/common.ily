@@ -1,7 +1,6 @@
 \header {
   copyrightYear = "2010"
   composer = "Joseph Bodin de Boismortier"
-  opus = "17e Œuvre"
   date = "1727"
 }
 
@@ -18,4 +17,4 @@ trill = #(make-articulation "stopped")
 \include "common/common.ily"
 \include "common/dashed-repeats.ily"
 \setOpus "Boismortier/SuitesADeuxMusettes"
-\opusTitle "Six suites pour deux musettes"
+\opusTitle "Suites à deux musettes"
