@@ -62,8 +62,8 @@
 \pieceToc \markup {
   Un guerrier, chœur : \italic { Jeune beauté, cessez de vous plaindre }
 } \includeScore "CAguerrierChoeur"
-%% %{ n° %}
-%% \pieceTocTitle "Entrée des guerriers" \includeScore "CCentree"
+%{ n°7 %}
+\pieceTocTitle "Entrée des guerriers" \includeScore "CBentree"
 %% %{ n° %}
 %% \pieceToc \markup {
 %%   Un guerrier : \italic { Lorsque Vénus vient embellir la Terre }
