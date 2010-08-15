@@ -128,6 +128,10 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/IndesGalantesSuites,\
 violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse,part-tt,\
 trompette timbales))
 
+# Les Indes Galantes
+$(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/lesFetesDeRamire,\
+violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basse voix,,))
+
 # Pièces de Clavecin en Concerts
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/PiecesDeClavecinEnConcerts,,,))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Concerts/PiecesDeClavecinEnConcerts,violon-viole,part-violon-viole))
