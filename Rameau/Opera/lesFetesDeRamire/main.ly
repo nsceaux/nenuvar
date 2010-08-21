@@ -74,8 +74,8 @@
 \pieceToc \markup {
   Deux guerriers : \italic { Si quelque tiran vous opprime }
 } \includeScore "CEguerriersChoeur"
-%% %{ n° %}
-%% \pieceToc \markup Passepied \includeScore "CFpassepied"
+%{ n°11 %}
+\pieceTocTitle "Passepied" \includeScore "CFpassepied"
 
 %% %% scene III
 %% %{ n° %}
