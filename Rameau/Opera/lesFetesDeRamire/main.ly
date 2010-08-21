@@ -103,8 +103,8 @@
 } \includeScore "ECdevin"
 %{ n°17 %}
 \pieceTocTitle "Menuet I/II" \includeScore "EDmenuet" \includeScore "EEmenuet"
-%% %{ n° %}
-%% \pieceTocTitle "Tambourin" \includeScore "EFtambourin"
+%{ n°18 %}
+\pieceTocTitle "Tambourin" \includeScore "EFtambourin"
 
 %% %% scene V
 %% %{ n° %}
