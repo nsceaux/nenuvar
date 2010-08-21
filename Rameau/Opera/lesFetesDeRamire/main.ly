@@ -97,10 +97,10 @@
 } \includeScore "EBdevin"
 %{ n°15 %}
 \reIncludeScore "EAentree" "EBentree"
-%% %{ n° %}
-%% \pieceToc \markup {
-%%   Le devin : \italic { L'astre éclatant et doux de la fille de l'onde }
-%% } \includeScore "ECdevin"
+%{ n°16 %}
+\pieceToc \markup {
+  Le devin : \italic { L'astre éclatant et doux de la fille de l'onde }
+} \includeScore "ECdevin"
 %% %{ n° %}
 %% \pieceTocTitle "Menuet I/II" \includeScore "EDmenuet" \includeScore "EEmenuet"
 %% %{ n° %}
