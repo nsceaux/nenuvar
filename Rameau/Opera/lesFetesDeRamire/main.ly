@@ -127,15 +127,15 @@
 } \includeScore "GBramire"
 \includeScore "GCramire"
 
-%% %% scene VII
-%% %{ n° %}
-%% \scene "Scène Dernière"
-%% \sceneDescription \markup \wordwrap-center {
-%%   Chœur et troupe de la suite de Ramire,
-%%   sous la forme des Grâces, des Amours et des Plaisirs,
-%%   et les acteurs précédents 
-%% }
-%% \pieceTocTitle "Sarabande en rondeau" \includeScore "HAsarabande"
+%% scene VII
+%{ n°22 %}
+\scene "Scène Dernière"
+\sceneDescription \markup \wordwrap-center {
+  Chœur et troupe de la suite de Ramire,
+  sous la forme des Grâces, des Amours et des Plaisirs,
+  et les acteurs précédents.
+}
+\pieceTocTitle "Sarabande en rondeau" \includeScore "HAsarabande"
 %% %{ n° %}
 %% \pieceTocAndTitle \markup {
 %%   Trio des trois Grâces : \italic { La nature en vous formant }
@@ -172,7 +172,7 @@
 %% \pieceToc \markup {
 %%   Fatime : \italic { Ah ! n'est-ce pas assez des maux que j'ai soufferts }
 %% } \includeScore "HMfatime"
-%% \markup \titre \wordwrap-center {
+%% \sceneDescription \markup \wordwrap-center {
 %%   Fatime donne la main à Ramire, une nouvelle troupe
 %%   des suivants de Ramire se joint aux autres.
 %% }
