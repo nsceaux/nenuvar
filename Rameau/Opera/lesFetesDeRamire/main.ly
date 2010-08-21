@@ -83,14 +83,14 @@
 \sceneDescription \markup \wordwrap-center \smallCaps { Fatime, Isbe. }
 \pieceToc \markup { Fatime, Isbe } \includeScore "DAfatimeIsbe"
 
-%% %% scene IV
-%% %{ n° %}
-%% \scene "Scène IV"
-%% \sceneDescription \markup \wordwrap-center {
-%%   \smallCaps { Fatime, Isbe, } chœur et troupe de Bohémiens, de Bohémiennes,
-%%   de devins et de devineresses, qui entrent en dansant.
-%% }
-%% \pieceTocTitle "Entrée des Bohémiens" \includeScore "EAentree"
+%% scene IV
+%{ n°13 %}
+\scene "Scène IV"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps { Fatime, Isbe, } chœur et troupe de Bohémiens, de Bohémiennes,
+  de devins et de devineresses, qui entrent en dansant.
+}
+\pieceTocTitle "Entrée des Bohémiens" \includeScore "EAentree"
 %% %{ n° %}
 %% \pieceToc \markup {
 %%   Un devin : \italic { Nous enchaînons le temps }
