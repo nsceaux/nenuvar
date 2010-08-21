@@ -64,10 +64,10 @@
 } \includeScore "CAguerrierChoeur"
 %{ n°7 %}
 \pieceTocTitle "Entrée des guerriers" \includeScore "CBentree"
-%% %{ n° %}
-%% \pieceToc \markup {
-%%   Un guerrier : \italic { Lorsque Vénus vient embellir la Terre }
-%% } \includeScore "CDguerrier"
+%{ n°8 %}
+\pieceToc \markup {
+  Un guerrier : \italic { Lorsque Vénus vient embellir la Terre }
+} \includeScore "CCguerrier"
 %% %{ n° %}
 %% \pieceTocTitle "Air en trio" \includeScore "CEtrio"
 %% %{ n° %}
