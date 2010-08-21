@@ -1,0 +1,7 @@
+\piecePartSpecs #`((violon1)
+                   (violon2)
+                   (haute-contre)
+                   (taille)
+                   (basse #:score-template "score-basse-continue")
+                   (voix)
+                   (silence #:tag-global without-marks))

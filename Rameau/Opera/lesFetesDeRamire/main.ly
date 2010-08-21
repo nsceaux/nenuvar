@@ -121,10 +121,10 @@
   Une troupe paraît au fond du théâtre, sous la forme des Grâces,
   des Amours, des Plaisirs et des Jeux.
 }
-%% %{ n° %}
-%% \pieceToc \markup {
-%%   Ramire : \italic { Grâces, Plaisirs, Amours }
-%% } \includeScore "GBramire"
+%{ n°21 %}
+\pieceToc \markup {
+  Ramire : \italic { Grâces, Plaisirs, Amours }
+} \includeScore "GBramire"
 %% \includeScore "GCramire"
 
 %% %% scene VII
