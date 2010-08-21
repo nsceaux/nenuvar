@@ -1,0 +1,8 @@
+\piecePartSpecs #(let ((bar-music #{ s2 s2.*43 \bar "|." #}))
+                   `((violon1 #:notes "dessus1" #:music ,bar-music)
+                     (hautbois1 #:notes "dessus1" #:music ,bar-music)
+                     (flute1 #:notes "dessus1" #:music ,bar-music)
+                     (violon2 #:notes "dessus2" #:music ,bar-music)
+                     (hautbois2 #:notes "dessus2" #:music ,bar-music)
+                     (flute2 #:notes "dessus2" #:music ,bar-music)
+                     (basse #:instrument ,(markup #:center-column ("Bassons" "Basses")))))

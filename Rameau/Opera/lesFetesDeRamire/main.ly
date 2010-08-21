@@ -68,8 +68,8 @@
 \pieceToc \markup {
   Un guerrier : \italic { Lorsque Vénus vient embellir la Terre }
 } \includeScore "CCguerrier"
-%% %{ n° %}
-%% \pieceTocTitle "Air en trio" \includeScore "CEtrio"
+%{ n°9 %}
+\pieceTocTitle "Air en trio" \includeScore "CDtrio"
 %% %{ n° %}
 %% \pieceToc \markup {
 %%   Deux guerriers : \italic { Si quelque tiran vous oprime }
