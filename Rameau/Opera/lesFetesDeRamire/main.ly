@@ -70,18 +70,12 @@
 } \includeScore "CCguerrier"
 %{ n°9 %}
 \pieceTocTitle "Air en trio" \includeScore "CDtrio"
+%{ n°10 %}
+\pieceToc \markup {
+  Deux guerriers : \italic { Si quelque tiran vous opprime }
+} \includeScore "CEguerriersChoeur"
 %% %{ n° %}
-%% \pieceToc \markup {
-%%   Deux guerriers : \italic { Si quelque tiran vous oprime }
-%% } \includeScore "CFguerriers"
-%% %{ n° %}
-%% \pieceToc \markup Symphonie \includeScore "CGsymphonie"
-%% %{ n° %}
-%% \pieceToc \markup {
-%%   Chœur : \italic { À votre présence tout doit s'enflammer }
-%% } \includeScore "CHchoeur"
-%% %{ n° %}
-%% \pieceToc \markup Passepied \includeScore "CIpassepied"
+%% \pieceToc \markup Passepied \includeScore "CFpassepied"
 
 %% %% scene III
 %% %{ n° %}

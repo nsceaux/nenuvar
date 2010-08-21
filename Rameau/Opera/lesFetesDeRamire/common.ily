@@ -88,3 +88,11 @@ isbeMark =
 fatimeMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Fatime"))
+
+premierGuerrierMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Premier Guerrier"))
+
+deuxiemeGuerrierMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Deuxième Guerrier"))
