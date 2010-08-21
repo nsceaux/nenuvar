@@ -125,7 +125,7 @@
 \pieceToc \markup {
   Ramire : \italic { Grâces, Plaisirs, Amours }
 } \includeScore "GBramire"
-%% \includeScore "GCramire"
+\includeScore "GCramire"
 
 %% %% scene VII
 %% %{ n° %}
