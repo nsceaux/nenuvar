@@ -96,3 +96,7 @@ premierGuerrierMark =
 deuxiemeGuerrierMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Deuxième Guerrier"))
+
+ramireMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Ramire"))

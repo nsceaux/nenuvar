@@ -112,15 +112,15 @@
 \sceneDescription \markup \wordwrap-center \smallCaps { Fatime, Isbe. }
 \pieceToc \markup { Fatime, Isbe } \includeScore "FAisbeFatime"
 
-%% %% scene VI
-%% %{ n° %}
-%% \scene "Scène VI"
-%% \sceneDescription \markup \wordwrap-center \smallCaps { Ramire, Fatime, Isbe. }
-%% \pieceToc \markup { Ramire, Fatime } \includeScore "GAramireFatime"
-%% \markup \titre \wordwrap-center {
-%%   Une troupe paraît au fond du théâtre, sous la forme des Grâces,
-%%   des Amours, des Plaisirs et des Jeux.
-%% }
+%% scene VI
+%{ n°20 %}
+\scene "Scène VI"
+\sceneDescription \markup \wordwrap-center \smallCaps { Ramire, Fatime, Isbe. }
+\pieceToc \markup { Ramire, Fatime } \includeScore "GAramireFatime"
+\sceneDescription \markup \wordwrap-center {
+  Une troupe paraît au fond du théâtre, sous la forme des Grâces,
+  des Amours, des Plaisirs et des Jeux.
+}
 %% %{ n° %}
 %% \pieceToc \markup {
 %%   Ramire : \italic { Grâces, Plaisirs, Amours }
