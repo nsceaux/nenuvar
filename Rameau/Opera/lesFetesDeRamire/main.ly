@@ -106,11 +106,11 @@
 %{ n°18 %}
 \pieceTocTitle "Tambourin" \includeScore "EFtambourin"
 
-%% %% scene V
-%% %{ n° %}
-%% \scene "Scène V"
-%% \sceneDescription \markup \wordwrap-center \smallCaps { Fatime, Isbe. }
-%% \pieceToc \markup { Fatime, Isbe } \includeScore "FAisbeFatime"
+%% scene V
+%{ n°19 %}
+\scene "Scène V"
+\sceneDescription \markup \wordwrap-center \smallCaps { Fatime, Isbe. }
+\pieceToc \markup { Fatime, Isbe } \includeScore "FAisbeFatime"
 
 %% %% scene VI
 %% %{ n° %}
