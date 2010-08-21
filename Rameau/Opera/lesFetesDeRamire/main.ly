@@ -91,12 +91,12 @@
   de devins et de devineresses, qui entrent en dansant.
 }
 \pieceTocTitle "Entrée des Bohémiens" \includeScore "EAentree"
-%% %{ n° %}
-%% \pieceToc \markup {
-%%   Un devin : \italic { Nous enchaînons le temps }
-%% } \includeScore "EBdevin"
-%% %{ n° %}
-%% \reIncludeScore "EAentree" "EBentree"
+%{ n°14 %}
+\pieceToc \markup {
+  Un devin : \italic { Nous enchaînons le temps }
+} \includeScore "EBdevin"
+%{ n°15 %}
+\reIncludeScore "EAentree" "EBentree"
 %% %{ n° %}
 %% \pieceToc \markup {
 %%   Le devin : \italic { L'astre éclatant et doux de la fille de l'onde }
