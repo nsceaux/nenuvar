@@ -6,12 +6,12 @@ la,2 re4 si, |
 mi2 dod |
 re ~ re4. re16 mi |
 la,4 re'8 |
-re' ( dod' ) si |
-la ( sol ) fad |
-fad ( mi ) re |
+re'( dod')\trill si |
+la( sol)\trill fad |
+fad( mi)\trill re |
 la4 re'8 |
-re' ( dod' ) si |
-la ( sol ) fad |
+re'( dod')\trill si |
+la( sol)\trill fad |
 sol la la, |
 re4 %{%} \clef "tenor" re'8^"Bassons" |
 sol'4 sol8 |
@@ -20,8 +20,8 @@ sol'4 la'8 |
 re'4 \clef "basse" re8 |
 sol4 sol,8 |
 re re, re' |
-re' ( dod' re' )|
-la4 %{%} re'8_"Tous" |
+re'( dod'\trill re')|
+la4 %{%} re'8_"B.C." |
 re' dod' si |
 la sol fad |
 fad mi re |

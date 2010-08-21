@@ -1,2 +1,1 @@
-r8
-R4.*7 r4 r8 R4.*8
+r8\noBreak R4.*23\noBreak r4

@@ -1,8 +1,8 @@
-\clef "basse" fad4 mi re |
+\clef "basse" fad4 mi\trill re |
 sol fad si ~|
 si( sol mi) |
 la2( sol4) |
-fad4. mi8 re4 |
+fad4 mi\trill re |
 sol2 fad4 |
 dod re re, |
 la,2. |
@@ -41,4 +41,4 @@ sol4 fad si |
 mi2 r8 dod |
 re8.( dod16) si,4 mi |
 la,2. |
-fad4 mi re |
+fad4 mi\trill re |

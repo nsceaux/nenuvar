@@ -12,7 +12,7 @@ re re re |
 re re re |
 re sol sol, |
 <<
-  { la,^"Bassons" fad ( mi )|
+  { la,^"Bassons" fad( mi )|
     la, la ( sol )|
     la, fad ( mi )|
     la, la ( sol )|
@@ -57,5 +57,5 @@ la re' do' |
 si sol\p do' |
 la re' re\f |
 sol r2 |
-sol4. sol8 fad mi |
+sol4. sol8 fad\trill mi |
 re2. \bar "|."
