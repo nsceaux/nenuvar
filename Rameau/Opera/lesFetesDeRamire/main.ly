@@ -77,11 +77,11 @@
 %{ n°11 %}
 \pieceTocTitle "Passepied" \includeScore "CFpassepied"
 
-%% %% scene III
-%% %{ n° %}
-%% \scene "Scène III"
-%% \sceneDescription \markup \wordwrap-center \smallCaps { Fatime, Isbe. }
-%% \pieceToc \markup { Fatime, Isbe } \includeScore "DAfatimeIsbe"
+%% scene III
+%{ n°12 %}
+\scene "Scène III"
+\sceneDescription \markup \wordwrap-center \smallCaps { Fatime, Isbe. }
+\pieceToc \markup { Fatime, Isbe } \includeScore "DAfatimeIsbe"
 
 %% %% scene IV
 %% %{ n° %}
