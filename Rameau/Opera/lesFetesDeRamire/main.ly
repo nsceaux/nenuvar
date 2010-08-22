@@ -136,10 +136,10 @@
   et les acteurs précédents.
 }
 \pieceTocTitle "Sarabande en rondeau" \includeScore "HAsarabande"
-%% %{ n° %}
-%% \pieceTocAndTitle \markup {
-%%   Trio des trois Grâces : \italic { La nature en vous formant }
-%% } "Trio des trois Graces" \includeScore "HBgraces"
+%{ n°23 %}
+\pieceToc \markup {
+  Trio des trois Grâces : \italic { La nature en vous formant }
+} \includeScore "HBgraces"
 %% %{ n° %}
 %% \pieceTocTitle "Gavotte en rondeau" \includeScore "HCgavotte"
 %% %{ n° %}
