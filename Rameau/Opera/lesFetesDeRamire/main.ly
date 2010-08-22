@@ -140,8 +140,8 @@
 \pieceToc \markup {
   Trio des trois Grâces : \italic { La nature en vous formant }
 } \includeScore "HBgraces"
-%% %{ n° %}
-%% \pieceTocTitle "Gavotte en rondeau" \includeScore "HCgavotte"
+%{ n°24 %}
+\pieceTocTitle "Gavotte en rondeau" \includeScore "HCgavotte"
 %% %{ n° %}
 %% \pieceToc \markup {
 %%   Une Grâce : \italic { Echo, voix errante }
