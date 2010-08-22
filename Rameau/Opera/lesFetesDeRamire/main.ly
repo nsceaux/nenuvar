@@ -142,10 +142,10 @@
 } \includeScore "HBgraces"
 %{ n°24 %}
 \pieceTocTitle "Gavotte en rondeau" \includeScore "HCgavotte"
-%% %{ n° %}
-%% \pieceToc \markup {
-%%   Une Grâce : \italic { Echo, voix errante }
-%% } \includeScore "HDgrace"
+%{ n° %}
+\pieceToc \markup {
+  Une Grâce : \italic { Echo, voix errante }
+} \includeScore "HDgrace"
 %% %{ n° %}
 %% \reIncludeScore "HCgavotte" "HDgavotte"
 %% %{ n° %}
