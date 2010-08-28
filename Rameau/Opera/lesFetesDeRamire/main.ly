@@ -177,10 +177,10 @@
   des suivants de Ramire se joint aux autres.
 }
 
-%% %{ n° %}
-%% \entree "Entrée des Français"
-%% \pieceTocTitle "Chaconne" \includeScore "HNchaconne"
-%% %{ n° %}
+%{ n°34 %}
+\entree "Entrée des Français"
+\pieceTocTitle "Chaconne" \includeScore "HNchaconne"
+%{ n° %}
 %% \pieceTocAndTitle \markup {
 %%   Duo, chœur : { Amour, dieu charmant }
 %% } "Duo" \includeScore "HOduo"
