@@ -158,8 +158,8 @@
 \pieceToc \markup {
   La même Grâce : \italic { Non, le plus grand empire ne peut remplir un cœur }
 } \includeScore "HHgrace"
-%% %{ n° %}
-%% \pieceTocTitle "Gavotte vive" \includeScore "HIgavotte"
+%{ n°30 %}
+\pieceTocTitle "Gavotte vive" \includeScore "HIgavotte"
 %% %{ n° %}
 %% \pieceToc \markup {
 %%   Une autre Grâce, chœur : \italic { Beauté fière, objet charmant }
