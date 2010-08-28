@@ -169,13 +169,13 @@
   Ramire : \italic { Le pardonnerez-vous cet amour qui m'enchaîne }
 } \includeScore "HKramire"
 %{ n°33 %}
-%% \pieceToc \markup {
-%%   Fatime : \italic { Ah ! n'est-ce pas assez des maux que j'ai soufferts }
-%% } \includeScore "HMfatime"
-%% \sceneDescription \markup \wordwrap-center {
-%%   Fatime donne la main à Ramire, une nouvelle troupe
-%%   des suivants de Ramire se joint aux autres.
-%% }
+\pieceToc \markup {
+  Fatime : \italic { Ah ! n'est-ce pas assez des maux que j'ai soufferts }
+} \includeScore "HLfatime"
+\sceneDescription \markup \wordwrap-center {
+  Fatime donne la main à Ramire, une nouvelle troupe
+  des suivants de Ramire se joint aux autres.
+}
 
 %% %{ n° %}
 %% \entree "Entrée des Français"
