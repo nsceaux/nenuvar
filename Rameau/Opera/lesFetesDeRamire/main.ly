@@ -152,8 +152,8 @@
 \pieceToc \markup {
   La même Grâce : \italic { Vents furieux, tristes tempêtes }
 } \includeScore "HEariette"
-%% %{ n° %}
-%% \pieceTocTitle "Menuet I/II" \includeScore "HFmenuet" \includeScore "HGmenuet"
+%{ n°28 %}
+\pieceTocTitle "Menuet I/II" \includeScore "HFmenuet" \includeScore "HGmenuet"
 %% %{ n° %}
 %% \pieceToc \markup {
 %%   La même Grâce : \italic { Non, le plus grand empire ne peut remplir un cœur }

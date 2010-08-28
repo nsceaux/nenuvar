@@ -1,4 +1,5 @@
-\clef "dessus" R1*75 |
+\clef "dessus" R1*74 |
+r2 r2 |
 sib''4.(-\tag #'conducteur ^"Flûtes" do'''8 ) lab''4. ( sib''8 )|
 sol''4. ( lab''8 ) fa''4. ( lab''8 )|
 sol''4. ( lab''8 ) fa''4. ( sol''8 )|
