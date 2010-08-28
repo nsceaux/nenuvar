@@ -163,12 +163,12 @@
 %{ n°31 %}
 \pieceToc \markup {
   Une autre Grâce, chœur : \italic { Beauté fière, objet charmant }
-} \includeScore "HJgrace" \includeScore "HKchoeur"
-%{ n° %}
-%% \pieceToc \markup {
-%%   Ramire : \italic { Le pardonnerez-vous cet amour qui m'enchaîne }
-%% } \includeScore "HLramire"
-%% %{ n° %}
+} \includeScore "HJgraceChoeur"
+%{ n°32 %}
+\pieceToc \markup {
+  Ramire : \italic { Le pardonnerez-vous cet amour qui m'enchaîne }
+} \includeScore "HKramire"
+%{ n°33 %}
 %% \pieceToc \markup {
 %%   Fatime : \italic { Ah ! n'est-ce pas assez des maux que j'ai soufferts }
 %% } \includeScore "HMfatime"
