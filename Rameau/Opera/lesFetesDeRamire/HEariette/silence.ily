@@ -1,0 +1,1 @@
+R1*19\noBreak R1*55\noBreak r2\noBreak r2\noBreak R1*18

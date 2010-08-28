@@ -142,16 +142,16 @@
 } \includeScore "HBgraces"
 %{ n°24 %}
 \pieceTocTitle "Gavotte en rondeau" \includeScore "HCgavotte"
-%{ n° %}
+%{ n°25 %}
 \pieceToc \markup {
   Une Grâce : \italic { Echo, voix errante }
 } \includeScore "HDgrace"
-%% %{ n° %}
-%% \reIncludeScore "HCgavotte" "HDgavotte"
-%% %{ n° %}
-%% \pieceToc \markup {
-%%   La même Grâce : \italic { Vents furieux, tristes tempêtes }
-%% } \includeScore "HEariette"
+%{ n°26 %}
+\reIncludeScore "HCgavotte" "HDgavotte"
+%{ n°27 %}
+\pieceToc \markup {
+  La même Grâce : \italic { Vents furieux, tristes tempêtes }
+} \includeScore "HEariette"
 %% %{ n° %}
 %% \pieceTocTitle "Menuet I/II" \includeScore "HFmenuet" \includeScore "HGmenuet"
 %% %{ n° %}
