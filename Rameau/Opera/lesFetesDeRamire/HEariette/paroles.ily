@@ -8,9 +8,9 @@ vents __ fu -- ri -- eux __
 fuy -- ez __ de nos cli -- mats __
 fuy -- ez, fuy -- ez __ de nos cli -- mats.
 
-Beaux jours, __ le -- vez "- vous" sur nos tê -- tes,
+Beaux jours, __ le -- vez- vous sur nos tê -- tes,
 fleurs, nais -- sez sur nos pas.
-Beaux jours, le -- vez "- vous" sur nos tê -- tes,
+Beaux jours, le -- vez- vous sur nos tê -- tes,
 fleurs, nais -- sez sur nos pas.
 
 Vents __ fu -- "ri -"

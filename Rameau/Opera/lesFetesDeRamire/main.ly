@@ -154,10 +154,10 @@
 } \includeScore "HEariette"
 %{ n°28 %}
 \pieceTocTitle "Menuet I/II" \includeScore "HFmenuet" \includeScore "HGmenuet"
-%% %{ n° %}
-%% \pieceToc \markup {
-%%   La même Grâce : \italic { Non, le plus grand empire ne peut remplir un cœur }
-%% } \includeScore "HHgrace"
+%{ n°29 %}
+\pieceToc \markup {
+  La même Grâce : \italic { Non, le plus grand empire ne peut remplir un cœur }
+} \includeScore "HHgrace"
 %% %{ n° %}
 %% \pieceTocTitle "Gavotte vive" \includeScore "HIgavotte"
 %% %{ n° %}
