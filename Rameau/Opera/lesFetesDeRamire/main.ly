@@ -192,8 +192,8 @@
 \pieceToc \markup {
   Ramire : \italic { Ces beaux nœuds, peuples heureux }
 } \includeScore "HRramire"
-%{ n° %}
-%% \pieceTocTitle "Musette" \includeScore "HZAmusette"
+%{ n°39 %}
+\pieceTocTitle "Musette" \includeScore "HSmusette"
 %% %{ n° %}
 %% \pieceTocTitle "Tambourin I/II" \includeScore "HZBtambourin" \includeScore "HZCtambourin"
 %% \actEnd "FIN"
