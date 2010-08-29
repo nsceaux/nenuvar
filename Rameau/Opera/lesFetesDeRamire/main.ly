@@ -187,8 +187,8 @@
 %{ n°36 %}
 \pieceTocTitle "Sarabande" \includeScore "HOsarabande"
 %{ n°37 %}
-%% \pieceTocTitle "Gavotte I/II" \includeScore "HWgavotte" \includeScore "HXgavotte"
-%% %{ n° %}
+\pieceTocTitle "Gavotte I/II" \includeScore "HPgavotte" \includeScore "HQgavotte"
+%{ n°38 %}
 %% \pieceToc \markup {
 %%   Ramire : \italic { Ces beaux nœuds, peuples heureux }
 %% } \includeScore "HYramire"
