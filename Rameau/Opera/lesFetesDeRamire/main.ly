@@ -184,9 +184,9 @@
 \pieceToc \markup {
   Ramire, un guerrier : \italic { À jamais sans partage unissez vos droits }
 } \includeScore "HNramireGuerrier"
-%{ n° %}
-%% \pieceTocTitle "Sarabande" \includeScore "HVsarabande"
-%% %{ n° %}
+%{ n°36 %}
+\pieceTocTitle "Sarabande" \includeScore "HOsarabande"
+%{ n°37 %}
 %% \pieceTocTitle "Gavotte I/II" \includeScore "HWgavotte" \includeScore "HXgavotte"
 %% %{ n° %}
 %% \pieceToc \markup {
