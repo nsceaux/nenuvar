@@ -194,6 +194,6 @@
 } \includeScore "HRramire"
 %{ n°39 %}
 \pieceTocTitle "Musette" \includeScore "HSmusette"
-%% %{ n° %}
-%% \pieceTocTitle "Tambourin I/II" \includeScore "HZBtambourin" \includeScore "HZCtambourin"
-%% \actEnd "FIN"
+%{ n°40 %}
+\pieceTocTitle "Tambourin I/II" \includeScore "HTtambourin" \includeScore "HUtambourin"
+\actEnd "FIN"
