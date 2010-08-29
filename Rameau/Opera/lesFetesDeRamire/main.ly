@@ -189,10 +189,10 @@
 %{ n°37 %}
 \pieceTocTitle "Gavotte I/II" \includeScore "HPgavotte" \includeScore "HQgavotte"
 %{ n°38 %}
-%% \pieceToc \markup {
-%%   Ramire : \italic { Ces beaux nœuds, peuples heureux }
-%% } \includeScore "HYramire"
-%% %{ n° %}
+\pieceToc \markup {
+  Ramire : \italic { Ces beaux nœuds, peuples heureux }
+} \includeScore "HRramire"
+%{ n° %}
 %% \pieceTocTitle "Musette" \includeScore "HZAmusette"
 %% %{ n° %}
 %% \pieceTocTitle "Tambourin I/II" \includeScore "HZBtambourin" \includeScore "HZCtambourin"
