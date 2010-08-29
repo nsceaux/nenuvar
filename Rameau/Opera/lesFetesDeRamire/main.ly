@@ -180,10 +180,11 @@
 %{ n°34 %}
 \scene "Entrée des Français"
 \pieceTocTitle "Chaconne" \includeScore "HMchaconne"
-%% \pieceTocAndTitle \markup {
-%%   Ramire, un guerrier : \italic { À jamais sans partage unissez vos droits }
-%% } "Duo" \includeScore "HUramireGuerrier"
-%% %{ n° %}
+%{ n°35 %}
+\pieceToc \markup {
+  Ramire, un guerrier : \italic { À jamais sans partage unissez vos droits }
+} \includeScore "HNramireGuerrier"
+%{ n° %}
 %% \pieceTocTitle "Sarabande" \includeScore "HVsarabande"
 %% %{ n° %}
 %% \pieceTocTitle "Gavotte I/II" \includeScore "HWgavotte" \includeScore "HXgavotte"
