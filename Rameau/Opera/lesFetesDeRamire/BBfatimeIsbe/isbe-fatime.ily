@@ -15,7 +15,7 @@ dod''2\trill mi'' |
 fa''4 r16 re''16 re'' do'' si'4. do''16 re'' |
 sold'4. mi'8 fad' sold' |
 la'2 si'4 dod''8 re'' |
-dod''2\trill dod'' |
+dod''2\trill dod'' |\allowPageTurn
 R1*3 |
 r2 r4 r8 la' |
 re''4. re''8 la' la' |

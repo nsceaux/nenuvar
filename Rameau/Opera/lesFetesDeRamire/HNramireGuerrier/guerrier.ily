@@ -17,7 +17,7 @@ re2 ~ re8*2/3[ mi re ](|
 dod2)\trill\melismaEnd dod4 |
 re8 re mi4. mi8 |
 la,2. |
-r4 r re8 re |
+r2 re8 re |
 la4 la la |
 re' re' re'8 re' |
 dod'2\trill mi'4 |
@@ -32,12 +32,12 @@ sol4 ~ sol8*2/3[ la sol ] fad [ sol fad ](|
 sol4 )\melismaEnd mi\trill fad |
 sol la4. la,8 |
 re2. |
-r4 r r8 la |
+r2 r8 la |
 re'4 ~\melisma re'8*2/3[ mi' re' ] dod' [ re' dod' ]|
 si4 ~ si8*2/3[ do' si ] la [ si la ](|
 sol2. )\melismaEnd |
-sol8 r r4 r |
-r r r8 sol |
+sol8 r r2 |
+r2 r8 sol |
 fad2 ~ fad16 [ la sol la ](|
 si2 ) si8 r |
 si sol la4. la8 |

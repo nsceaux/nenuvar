@@ -34,7 +34,7 @@ mi'4 ~ mi'8*2/3[ fad' mi' ] re' [ mi' re' ](|
 mi'4)\melismaEnd dod'\trill re' |
 mi'8. [ fad'32 sol' ] fad'4.\trill mi'16 [ re' ]|
 re'2. |
-r4 r r8 re' |
+r2 r8 re' |
 fad'4 ~\melisma fad'8*2/3[ sol' fad' ] mi' [ fad' mi' ]|
 sol'4 ~ sol'8*2/3[ la' sol' ] fad' [ sol' fad' ](|
 si'2.)\melismaEnd |

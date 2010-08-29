@@ -196,9 +196,9 @@ mi''4\trill r2 |
   \tag #'(violon2 flute2 hautbois2 conducteur2 conducteur1) \new Voice {
     \tag #'(conducteur2 conducteur1) \voiceTwo
     <<
-      \tag #'(violon2 flute2 hautbois2) R2.*11\allowPageTurn
+      \tag #'(violon2 flute2 hautbois2) R2.*11
       s2.*11
-    >>
+    >> \allowPageTurn
     r2 r8 la' |
     si'2 ( dod''8 ) re'' |
     dod''2. |

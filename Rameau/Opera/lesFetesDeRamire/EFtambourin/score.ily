@@ -9,6 +9,8 @@
     \new Staff << \global \includeNotes "basse"
                  \instrumentName "Basses" >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    incipit-width = #(* (*staff-size*) (/ 17.0 20.0) mm)
+    indent = \largeindent }
   \midi { \context { \Voice \remove "Dynamic_performer" } }
 }

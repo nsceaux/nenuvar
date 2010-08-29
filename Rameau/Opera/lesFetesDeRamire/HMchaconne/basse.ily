@@ -240,7 +240,7 @@ la2 \clef "taille" re'4 |
 la'2 re'4 |
 la'2 \clef "basse" re4 |
 la2 r4 |
-R2.*3 |
+R2.*3 |\allowPageTurn
 \clef "taille" r4 re'' re' |
 la' \clef "basse" fa2 |
 sol4 mi2 |

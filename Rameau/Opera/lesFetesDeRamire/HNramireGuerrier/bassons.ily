@@ -17,7 +17,7 @@ la2. ~|
 la2 sold4\trill |
 \appoggiatura sold8 la2 r4 |
 R2.*4 |
-\clef "tenor" r4 r r8 fad' |
+\clef "tenor" r2 r8 fad' |
 mi'8.\trill re'16 dod'8. si16 la4 ~|
 la2 re'4 ~|
 re' re'4. re'8 |
@@ -29,8 +29,8 @@ mi'8. ( re'16 ) dod'8.(\trill si16) la4 ~|
 la2 dod'4\trill |
 re'2. ~|
 re'2 si8. ( mi16 )|
-la4 r r |
-r r r8 dod' |
+la4 r2 |
+r2 r8 dod' |
 re'4 ~ re'16 ( mi' ) re' ( mi' ) fad'4 ~|
 fad' ~ fad'16 ( sol' mi' fad' ) sol'4 |
 re'2 dod'4\trill |

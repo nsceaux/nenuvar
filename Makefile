@@ -128,7 +128,7 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/IndesGalantesSuites,\
 violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basson basse,part-tt,\
 trompette timbales))
 
-# Les Indes Galantes
+# Les Fêtes de Ramire
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/lesFetesDeRamire,\
 violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basse voix,,))
 

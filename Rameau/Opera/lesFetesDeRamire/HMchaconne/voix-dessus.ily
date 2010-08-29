@@ -39,7 +39,7 @@ mi''4 la''8 sol'' fad''\trill mi'' |
 sol''2 fad''8 mi'' |
 fad''4( mi''2)\trill |
 re''4 %{%} \revertNoHaraKiri r2 |
-R2.*43 | \noHaraKiri
+R2.*43 | \noHaraKiri \allowPageTurn
 R2.*3 |
 r4 la'4. re''8 |
 fa''4. mi''8 re''4 |

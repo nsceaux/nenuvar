@@ -11,6 +11,6 @@ R2. |
 fad'8. fad'16 la'8. la'16 re''8. re''16 |
 fad''4 la'' re'' |
 fad'8. fad'16 la'8. la'16 re''8. re''16 |
-re'4 r r |
-r re' re' |
+re'4 r2 |
+r4 re' re' |
 re'2. |
