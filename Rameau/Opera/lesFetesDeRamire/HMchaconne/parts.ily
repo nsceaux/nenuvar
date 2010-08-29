@@ -6,4 +6,5 @@
                    (hautbois2)
                    (haute-contre #:notes "haute-contre")
                    (taille #:notes "taille")
-                   (basse))
+                   (basse #:score-template "score-basse-continue")
+                   (voix))

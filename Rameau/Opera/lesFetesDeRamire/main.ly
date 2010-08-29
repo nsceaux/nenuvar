@@ -178,27 +178,8 @@
 }
 
 %{ n°34 %}
-\entree "Entrée des Français"
-\pieceTocTitle "Chaconne" \includeScore "HNchaconne"
-%{ n° %}
-%% \pieceTocAndTitle \markup {
-%%   Duo, chœur : { Amour, dieu charmant }
-%% } "Duo" \includeScore "HOduo"
-%% %{ n° %}
-%% \pieceTocTitle "Chaconne" \includeScore "HPchaconne"
-%% %{ n° %}
-%% \pieceToc \markup {
-%%   Ramire, chœur : \italic { Mars, Amour, sont nos dieux }
-%% } \includeScore "HQramire"
-%% %{ n° %}
-%% \pieceTocTitle "Deuxième chaconne" \includeScore "HRchaconne"
-%% %{ n° %}
-%% \pieceToc \markup {
-%%   Ramire, chœur : \italic { La gloire toujours nous appelle }
-%% } \includeScore "HSramire"
-%% %{ n° %}
-%% \pieceTocTitle "Chaconne" \includeScore "HTchaconne"
-%% %{ n° %}
+\scene "Entrée des Français"
+\pieceTocTitle "Chaconne" \includeScore "HMchaconne"
 %% \pieceTocAndTitle \markup {
 %%   Ramire, un guerrier : \italic { À jamais sans partage unissez vos droits }
 %% } "Duo" \includeScore "HUramireGuerrier"
