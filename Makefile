@@ -131,6 +131,10 @@ trompette timbales))
 # Les Fêtes de Ramire
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/lesFetesDeRamire,\
 violon1 flute1 hautbois1 violon2 flute2 hautbois2 haute-contre taille basse voix,,))
+$(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/lesFetesDeRamire,trompette1,part-trompette))
+$(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/lesFetesDeRamire,trompette2,part-trompette))
+$(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/lesFetesDeRamire,cor1,part-cor))
+$(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/lesFetesDeRamire,cor2,part-cor))
 
 # Pièces de Clavecin en Concerts
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/PiecesDeClavecinEnConcerts,,,))

@@ -1,6 +1,6 @@
 \score {
   \new Staff \withLyrics <<
-    \global \includeNotes "isbe-fatime"
+    \keepWithTag #'no-marks \global \includeNotes "isbe-fatime"
   >> \includeLyrics "paroles"
   \layout { }
 }
