@@ -148,7 +148,7 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Couperin/Clavecin/lArtDeToucherLeClavecin,,,)
 
 ### Lully
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Ballet/LWV05LaReventeDesHabits,dessus haute-contre taille quinte basse,,))
-$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Ballet/LWV08AmourMalade,,,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Lully/Ballet/LWV08AmourMalade,dessus haute-contre taille quinte basse,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Fete/LWV22LesPlaisirsDeLIleEnchantee,,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Lully/Comedie/LWV43LeBourgeoisGentilhomme,\
 dessus1 dessus2 haute-contre taille quinte basse,,))
