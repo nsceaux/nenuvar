@@ -136,6 +136,10 @@ $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/lesFetesDeRamire,trompette2,part-t
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/lesFetesDeRamire,cor1,part-cor))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Opera/lesFetesDeRamire,cor2,part-cor))
 
+# Les Paladins
+$(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Opera/Paladins,\
+violon1 flute1 hautbois1 violon2 flute2 hautbois2 parties basson1 basson2 basse voix,,))
+
 # Pièces de Clavecin en Concerts
 $(eval $(call MAKE_ALL_SCORE_RULES,Rameau/Concerts/PiecesDeClavecinEnConcerts,,,))
 $(eval $(call MAKE_PART_RULE_AUX,Rameau/Concerts/PiecesDeClavecinEnConcerts,violon-viole,part-violon-viole))
