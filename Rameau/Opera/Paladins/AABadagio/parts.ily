@@ -1,0 +1,8 @@
+\piecePartSpecs #`((violon1 #:notes "dessus1")
+                   (violon2 #:notes "dessus2")
+                   (flute1 #:notes "flute")
+                   (flute2 #:notes "flute")
+                   (hautbois1 #:notes "silence" #:ragged #t #:score-template "score-silence")
+                   (hautbois2 #:notes "silence" #:ragged #t #:score-template "score-silence")
+                   (parties)
+                   (basse))

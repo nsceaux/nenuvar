@@ -21,3 +21,43 @@ Description : Présentation musicale : [Partition]
 Description : Incipit : Triste séjour, solitude ennuyeuse
 
 %}
+
+\markuplines {
+  \line \bold { Notes générales }
+  \paragraph {
+    Les nuances indiquées sur le manuscrit,
+    \italic { très doux, doux, à demi, fort, etc, } ont été remplacées par les
+    indications de nuance :
+    \concat { \dynamic pp , }
+    \concat { \dynamic p , }
+    \concat { \dynamic mp , }
+    \concat { \dynamic f , } etc.
+  }
+  \paragraph {
+    Les indications de mesures \concat { \number 2 , " " \number 3 } ont
+    été systématiquement remplacées par les indications de mesures
+    \concat { \number 2 / \number 2 , " " \number 3 / \number 4 . }
+  }
+  \paragraph { "" }
+  \bold Ouverture
+  \paragraph {
+    L'indication suivante est inscrite sur les quatre dernières mesures
+    des parties de violons du menuet en rondeau de l'ouverture (page 4
+    du manuscrit) :
+    \italic { "\"avec" violons, très doux, qui enflent ensensiblement
+      jusqu'au plus fort pour le "dacapo.\"" }
+    Un crescendo a été indiqué dans cette édition, de \dynamic pp
+    à \concat { \dynamic f . }
+  }
+  \paragraph { "" }
+  \line \bold { Acte I scène I }
+  \paragraph {
+    La partition comporte l'indication suivantes (page 5 du manuscrit) :
+  }
+  \indented-lines #10 \justified-lines \italic {
+    Partout où il y a \normal-text doux ou \normal-text d il en faut
+    toujours exclure les hautbois, bassons ou petites flûtes, excepté
+    que cela ne soit écrit exprès pour ces mêmes instruments.
+  }
+  \null
+}

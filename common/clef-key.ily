@@ -1,4 +1,3 @@
-%%% -*- Mode: scheme -*-
 %%% clef.ily  -- ancient and modern clef command
 %%%
 %%% Author: Nicolas Sceaux <nicolas.sceaux@free.fr>

@@ -59,9 +59,9 @@
    (parties "Parties" () (#:notes "parties" #:clef "alto"))
    (basse "Basses" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basses))
-   (basson1 "Basson I" ((basse #f))
+   (basson1 "Basson I" ()
             (#:notes "basse" #:clef "basse" #:tag-notes basson1 #:instrument "Basson"))
-   (basson2 "Basson II" ((basse #f))
+   (basson2 "Basson II" ()
             (#:notes "basse" #:clef "basse" #:tag-notes basson2 #:instrument "Basson"))
 
    (voix "Parties vocales" () (#:score "score-voix")))
