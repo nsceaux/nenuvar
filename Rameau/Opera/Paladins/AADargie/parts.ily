@@ -7,4 +7,4 @@
                               #:music ,breaks)
                      (basson2 #:notes "basson" #:score-template "score-basse-continue-voix"
                               #:music ,breaks)
-                     (voix)))
+                     (voix #:instrument ,(markup #:character "Argie"))))

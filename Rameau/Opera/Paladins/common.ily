@@ -64,8 +64,17 @@
    (basson2 "Basson II" ()
             (#:notes "basse" #:clef "tenor" #:tag-notes basson2))
 
-   (voix "Parties vocales" () (#:score "score-voix")))
+   (voix "Parties vocales" ()
+         (#:notes "voix" #:tag-notes voix #:score-template "score-voix")))
 
 trill = #(make-articulation "stopped")
 
 %%%
+
+nerineMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Nérine"))
+
+argieMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Argie"))

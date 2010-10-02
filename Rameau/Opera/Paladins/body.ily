@@ -1,13 +1,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°1 %}\newBookPart #'()
 \actn "Ouverture"
-\pieceTocTitle "Ouverture vive"
-\includeScore "AAAouverture"
-\pieceToc "Adagio"
-\includeScore "AABadagio"
-\pieceTocTitle "Menuet en rondeau"
-\includeScore "AACmenuet"
+\pieceTocTitle "Ouverture vive"    \includeScore "AAAouverture"
+%{ n°2 %}
+\pieceToc "Adagio"                 \includeScore "AABadagio"
+%{ n°3 %}
+\pieceTocTitle "Menuet en rondeau" \includeScore "AACmenuet"
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°4 %}\newBookPart #'()
 \act "Acte Premier"
 \sceneDescription \markup \wordwrap-center {
@@ -19,3 +19,5 @@
 \sceneDescription \markup \wordwrap-center \smallCaps { Argie, Nérine. }
 \pieceToc \markup { Argie : \italic { Triste séjour, solitude ennuyeuse } }
 \includeScore "AADargie"
+%{ n°5 %}
+\pieceToc \markup { Nérine, Argie. } \includeScore "AAEargieNerine"

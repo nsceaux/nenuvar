@@ -22,8 +22,10 @@ Description : Incipit : Triste séjour, solitude ennuyeuse
 
 %}
 
-\markuplines {
-  \line \bold { Notes générales }
+\markuplines \column-lines {
+  \act { NOTES }
+
+  \null\line\bold { Notes générales }
   \paragraph {
     Les nuances indiquées sur le manuscrit,
     \italic { très doux, doux, à demi, fort, etc, } ont été remplacées par les
@@ -31,15 +33,23 @@ Description : Incipit : Triste séjour, solitude ennuyeuse
     \concat { \dynamic pp , }
     \concat { \dynamic p , }
     \concat { \dynamic mp , }
-    \concat { \dynamic f , } etc.
+
+    \concat { \dynamic f , } etc.  Toujours s'agissant des nuances, la
+    partition originale comporte l'indication (page 5) : 
   }
+  \indented-lines #10 \justified-lines \italic {
+    Partout où il y a \normal-text doux ou \normal-text d il en faut
+    toujours exclure les hautbois, bassons ou petites flûtes, excepté
+    que cela ne soit écrit exprès pour ces mêmes instruments.
+  }
+  \null
   \paragraph {
     Les indications de mesures \concat { \number 2 , " " \number 3 } ont
     été systématiquement remplacées par les indications de mesures
     \concat { \number 2 / \number 2 , " " \number 3 / \number 4 . }
   }
-  \paragraph { "" }
-  \bold Ouverture
+
+  \null\bold Ouverture
   \paragraph {
     L'indication suivante est inscrite sur les quatre dernières mesures
     des parties de violons du menuet en rondeau de l'ouverture (page 4
@@ -49,15 +59,36 @@ Description : Incipit : Triste séjour, solitude ennuyeuse
     Un crescendo a été indiqué dans cette édition, de \dynamic pp
     à \concat { \dynamic f . }
   }
-  \paragraph { "" }
-  \line \bold { Acte I scène I }
+
+  \null\line\bold { Acte I scène I : récit de Nérine et Argie (page 5) }
   \paragraph {
-    La partition comporte l'indication suivantes (page 5 du manuscrit) :
-  }
-  \indented-lines #10 \justified-lines \italic {
-    Partout où il y a \normal-text doux ou \normal-text d il en faut
-    toujours exclure les hautbois, bassons ou petites flûtes, excepté
-    que cela ne soit écrit exprès pour ces mêmes instruments.
+    Mesure 9, basse chiffrée du premier temps : le chiffre indiqué est
+    difficilement lisible, \number 9 est retenu.
   }
   \null
+  \paragraph {
+    Le bas de la page étant partiellement endommagé, les notes de la
+    basse continue ne sont pas visibles du dernier temps de la mesure
+    15 et la fin de la mesure 16.  Compte-tenu de la basse chiffrée et
+    des autres parties, il a été retenu :
+  }
+  \wordwrap-center {
+    \score {
+      \new Staff <<
+        { \key sol \minor
+          \override Score.BarNumber #'break-visibility = #'#(#f #t #t)
+          \set Score.barNumberVisibility = #(every-nth-bar-number-visible 1)
+          \set Score.currentBarNumber = #15
+          \clef "basse" \fractionTime \time 2/2
+          sol,4. fa,8 sol,4 la, |
+          \time 3/4 re,2 re4 |
+          \fractionTime \time 2/2 mib2
+        }
+        \figuremode {
+          <9>4 <5 6/>8 <6> <5 6/>4 <_+ 5 8> <6>2 <6/>4 <6>2
+        }
+      >>
+      \layout { indent = 0 }
+    }
+  }
 }
