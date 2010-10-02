@@ -18,4 +18,4 @@
 \scene "Scène Première"
 \sceneDescription \markup \wordwrap-center \smallCaps { Argie, Nérine. }
 \pieceToc \markup { Argie : \italic { Triste séjour, solitude ennuyeuse } }
-%\includeScore "AADargie"
+\includeScore "AADargie"

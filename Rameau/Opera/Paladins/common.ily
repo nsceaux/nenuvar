@@ -60,9 +60,9 @@
    (basse "Basses" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basses))
    (basson1 "Basson I" ()
-            (#:notes "basse" #:clef "basse" #:tag-notes basson1 #:instrument "Basson"))
+            (#:notes "basse" #:clef "tenor" #:tag-notes basson1))
    (basson2 "Basson II" ()
-            (#:notes "basse" #:clef "basse" #:tag-notes basson2 #:instrument "Basson"))
+            (#:notes "basse" #:clef "tenor" #:tag-notes basson2))
 
    (voix "Parties vocales" () (#:score "score-voix")))
 
