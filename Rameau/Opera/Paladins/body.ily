@@ -21,3 +21,6 @@
 \includeScore "AADargie"
 %{ n°5 %}
 \pieceToc \markup { Nérine, Argie. } \includeScore "AAEargieNerine"
+%{ n°6 %}
+\pieceToc \markup { Nérine : \italic { L'amant peu sensible et volage } }
+\includeScore "AAFnerine"
