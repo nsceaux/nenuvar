@@ -79,6 +79,13 @@ argieMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Argie"))
 
+orcanMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Orcan"))
+
+orcanMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vbasse" "Orcan" text))
 
 %%%
 

@@ -12,7 +12,7 @@ re'2 re4 |
 sol2 si,4 |
 do4. si,8 la, sol, |
 re4 r2 |
-r8 re16 re, re,4 r |
+r8 re16\f re, re,4 r |
 \clef "tenor" r2 r8 re'\p |
 sol'4 sol r8 sol'16 fad' |
 mi'4 mi r8 mi'16 re' dod'4 dod r8 dod'16 si |

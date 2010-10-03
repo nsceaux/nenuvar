@@ -21,7 +21,6 @@ Notice manuscrit autographe BNF :
     sol-2 pour les violons au lieu de sol-1, mais la clé originale est
     rappelée en début de pièce, dans l'incipit.
   }
-  \null
   \paragraph {
     Également pour faciliter la lecture, les nuances indiquées sur le
     manuscrit, \italic { très doux, doux, à demi, fort, etc, } ont été
@@ -30,42 +29,43 @@ Notice manuscrit autographe BNF :
     \concat { \dynamic p , }
     \concat { \dynamic mp , }
     \concat { \dynamic f , } etc.  Toujours s'agissant des nuances, la
-    partition originale comporte l'indication (page 5) : 
-  }
-  \indented-lines #10 \justified-lines \italic {
-    Partout où il y a \normal-text doux ou \normal-text d il en faut
-    toujours exclure les hautbois, bassons ou petites flûtes, excepté
-    que cela ne soit écrit exprès pour ces mêmes instruments.
-  }
-  \paragraph {
+    partition originale comporte l'indication (page 5) :
+    \italic {
+      "\"Partout" où il y a \normal-text doux ou \normal-text d il en faut
+      toujours exclure les hautbois, bassons ou petites flûtes, excepté
+      que cela ne soit écrit exprès pour ces mêmes "instruments.\"" }
     En conséquence, sauf mention explicite pour ces instruments, les
     nuances  \dynamic p n'ont pas été reportées dans les parties séparées
     des hautbois, flûtes et bassons.
   }
-  \null
   \paragraph {
     Les indications de mesures \number 2 et \number 3 ont
     été systématiquement remplacées par les indications de mesures
     \concat { \number 2 / \number 2 } et \concat { \number 3 / \number 4 . }
   }
+  \null
+  \paragraph {
+    Dans la suite, les difficultés rencontrées dans chaque pièce sont
+    décrites, avec les numéros de page du manuscrit suivis des numéros
+    de page de cette édition.
+  }
 
-  \null\bold Ouverture
+  \null\line\bold { Ouverture (page 4 / page \page-refI #'AACmenuet ) }
   \paragraph {
     L'indication suivante est inscrite sur les quatre dernières mesures
-    des parties de violons du menuet en rondeau de l'ouverture (page 4
-    du manuscrit) :
+    des parties de violons du menuet en rondeau de l'ouverture :
     \italic { "\"avec" violons, très doux, qui enflent ensensiblement
       jusqu'au plus fort pour le "dacapo.\"" }
     Un crescendo a été indiqué dans cette édition, de \dynamic pp
     à \concat { \dynamic f . }
   }
 
-  \null\line\bold { Acte I scène I : récit de Nérine et Argie (page 5) }
+  \null\line\bold { Acte I scène I : récit de Nérine et Argie
+    (page 5 / page \page-refII #'AAEargieNerine ) }
   \paragraph {
     Mesure 9, basse chiffrée du premier temps : le chiffre indiqué est
     difficilement lisible, \number 9 est retenu.
   }
-  \null
   \paragraph {
     Le bas de la page étant partiellement endommagé, les notes de la
     basse continue ne sont pas visibles du dernier temps de la mesure
@@ -90,5 +90,10 @@ Notice manuscrit autographe BNF :
       >>
       \layout { indent = 0 }
     }
+  }
+  \null\line\bold { Acte I scène II : annonce du geolier
+    (page 8 / page \page-refI #'ABAannonce ) }
+  \paragraph {
+    Les mesures 13 et 14 sont suspectes. La fin de la mesure 14 est illisible.
   }
 }
