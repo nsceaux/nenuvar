@@ -24,11 +24,13 @@
 %{ n°6 %}
 \pieceToc \markup { Nérine : \italic { L'amant peu sensible et volage } }
 \includeScore "AAFnerine"
-%{ n°7 %}
+%{ n°7 %}\newBookPart #'(full)
 \scene "Scène II"
 \sceneDescription \markup \wordwrap-center \smallCaps { Argie, Nérine, Orcan. }
 \pieceToc \markup { Nérine, Argie, Orcan }
 \includeScore "ABAannonce"
-%{ n°8 %}
+%{ n°8 %}\newBookPart #'(full)
 \scene "Scène III"
 \sceneDescription \markup \wordwrap-center \smallCaps { Nérine, Orcan. }
+\includeScore "ACAnerineOrcan"
+%{ n°9 %}

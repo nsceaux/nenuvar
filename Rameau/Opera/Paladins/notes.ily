@@ -40,7 +40,7 @@ Notice manuscrit autographe BNF :
   }
   \paragraph {
     Les indications de mesures \number 2 et \number 3 ont
-    été systématiquement remplacées par les indications de mesures
+    été remplacées par les indications de mesures
     \concat { \number 2 / \number 2 } et \concat { \number 3 / \number 4 . }
   }
   \null
@@ -54,7 +54,7 @@ Notice manuscrit autographe BNF :
   \paragraph {
     L'indication suivante est inscrite sur les quatre dernières mesures
     des parties de violons du menuet en rondeau de l'ouverture :
-    \italic { "\"avec" violons, très doux, qui enflent ensensiblement
+    \italic { "\"avec" violons, très doux, qui enflent insensiblement
       jusqu'au plus fort pour le "dacapo.\"" }
     Un crescendo a été indiqué dans cette édition, de \dynamic pp
     à \concat { \dynamic f . }
@@ -95,5 +95,10 @@ Notice manuscrit autographe BNF :
     (page 8 / page \page-refI #'ABAannonce ) }
   \paragraph {
     Les mesures 13 et 14 sont suspectes. La fin de la mesure 14 est illisible.
+  }
+  \null\line\bold { Acte I scène III : Nérine, Orcan
+    (page 9 / page \page-refII #'ACAnerineOrcan ) }
+  \paragraph {
+    Mesure 72, l'indication de mesure \number 2 est remplacée par \concat { \number 6 / \number 8 . }
   }
 }

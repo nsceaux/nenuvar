@@ -75,6 +75,10 @@ nerineMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Nérine"))
 
+nerineMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vdessus" "Nérine" text))
+
 argieMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Argie"))
