@@ -39,9 +39,11 @@ Notice manuscrit autographe BNF :
     des hautbois, flûtes et bassons.
   }
   \paragraph {
-    Les indications de mesures \number 2 et \number 3 ont
-    été remplacées par les indications de mesures
-    \concat { \number 2 / \number 2 } et \concat { \number 3 / \number 4 . }
+    Les indications de mesures \number 3 sont remplacées par les
+    indications de mesures \concat { \number 3 / \number 4 , }
+    et les indications \number 2 sont explicitées par les indications
+    \concat { \number 2 / \number 2 , }   \concat { \number 2 / \number 4 } 
+    ou \concat { \number 6 / \number 8 . }
   }
   \null
   \paragraph {
@@ -95,10 +97,5 @@ Notice manuscrit autographe BNF :
     (page 8 / page \page-refI #'ABAannonce ) }
   \paragraph {
     Les mesures 13 et 14 sont suspectes. La fin de la mesure 14 est illisible.
-  }
-  \null\line\bold { Acte I scène III : Nérine, Orcan
-    (page 9 / page \page-refII #'ACAnerineOrcan ) }
-  \paragraph {
-    Mesure 72, l'indication de mesure \number 2 est remplacée par \concat { \number 6 / \number 8 . }
   }
 }

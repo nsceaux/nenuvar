@@ -471,7 +471,8 @@ inMusicScene =
                                         (add-toc-item! 'tocSceneMarkup title)))))
      #{ $label-music
         \once \override Score . RehearsalMark #'font-size = #0
-        \mark \markup \scene $(string-upper-case title) #}))
+        \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
+        \mark \markup \fontsize #4 $(string-upper-case title) #}))
 
 inMusicSceneDesc =
 #(define-music-function (parser location title description) (string? markup?)
@@ -481,12 +482,17 @@ inMusicSceneDesc =
                                             (string-upper-case (*act-title*))
                                             (string-upper-case title))
                                           #t)
-                                        (add-toc-item! 'tocSceneMarkup title)))))
+                                        (add-toc-item! 'tocSceneMarkup title))))
+         (description-markup (if (*part*)
+                                 empty-markup
+                                 (markup #:fontsize 2 description))))
      #{ $label-music
         \once \override Score . RehearsalMark #'font-size = #0
-        \mark \markup \center-column {
-          \scene $(string-upper-case title)
-          \scene-description $description
+        \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
+        \mark \markup \left-align \center-column {
+          \fontsize #4 $(string-upper-case title)
+          \vspace #1
+          $description-markup
         } #}))
 
 sceneDescription =

@@ -32,5 +32,8 @@
 %{ n°8 %}\newBookPart #'(full)
 \scene "Scène III"
 \sceneDescription \markup \wordwrap-center \smallCaps { Nérine, Orcan. }
+\pieceToc \markup { Nérine, Orcan }
 \includeScore "ACAnerineOrcan"
 %{ n°9 %}
+\pieceToc \markup { Orcan, Nérine, Argie }
+\includeScore "ACBnerineOrcanArgie"
