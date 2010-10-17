@@ -37,3 +37,12 @@
 %{ n°9 %}
 \pieceToc \markup { Orcan, Nérine, Argie }
 \includeScore "ACBnerineOrcanArgie"
+%% Scène IV
+%{ n°10 %}
+\pieceToc \markup { Argie, Nérine }
+\includeScore "ADAargieNerine"
+\scene "Scène V"
+\sceneDescription \markup \left-align\center-column {
+  \line { Entrée des pélerins. }
+  \line \smallCaps { Nérine, Orcan. }
+}

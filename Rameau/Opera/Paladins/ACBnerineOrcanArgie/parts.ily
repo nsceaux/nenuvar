@@ -5,6 +5,8 @@
                      (hautbois2 #:notes "musette" #:instrument ,instr-musette)
                      (flute1 #:notes "musette" #:instrument ,instr-musette)
                      (flute2 #:notes "musette" #:instrument ,instr-musette)
+                     (musette1)
+                     (musette2)
                      (parties)
                      (basse #:score-template "score-basse-continue-voix")
                      (voix)))

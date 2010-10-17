@@ -54,7 +54,11 @@
            (#:notes "dessus" #:tag-notes flute2))
    (hautbois1 "Hautbois I" ((flute1 "Flûtes") (violon1 "Violons"))
               (#:notes "dessus" #:tag-notes hautbois1))
-   (hautbois2 "Hautbois II" ((flute2 "Flûtes") (violon2 "Violons")) (#:notes "dessus" #:tag-notes hautbois2))
+   (hautbois2 "Hautbois II"
+              ((flute2 "Flûtes") (violon2 "Violons"))
+              (#:notes "dessus" #:tag-notes hautbois2))
+   (musette1 "Musette I" () (#:notes "musette" #:tag-notes musette1))
+   (musette2 "Musette II" () (#:notes "musette" #:tag-notes musette2))
    
    (parties "Parties" () (#:notes "parties" #:clef "alto"))
    (basse "Basses" ()
