@@ -66,3 +66,7 @@ trill = #(make-articulation "stopped")
 tempsMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse-taille" "Le Temps"))
+
+floreMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Flore"))

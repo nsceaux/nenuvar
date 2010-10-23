@@ -9,3 +9,6 @@
 \includeScore "AACchoeur"
 %{ n°4 %}\newBookPart #'(full)
 \pieceTocTitle "Air pour Flore" \includeScore "AADair"
+%{ n°5 %}\newBookPart #'(full)
+\pieceToc \markup { Le Temps, Flore } \includeScore "AAEtempsFlore"
+%{ n°6 %}
