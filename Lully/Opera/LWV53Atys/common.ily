@@ -58,3 +58,9 @@
          (#:notes "voix" #:tag-notes voix #:score-template "score-voix")))
 
 trill = #(make-articulation "stopped")
+
+%%%
+
+tempsMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse-taille" "Le Temps"))
