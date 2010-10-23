@@ -52,6 +52,8 @@
            (#:notes "taille" #:clef "alto"))
    (quinte "Quinte" ()
            (#:notes "quinte" #:clef "quinte"))
+   (basse "Basses" ()
+          (#:notes "basse" #:clef "basse"))
    (basse-continue "Basse continue" ()
                    (#:notes "basse" #:clef "basse" #:score-template "score-basse-continue"))
    (voix "Parties vocales" ()
