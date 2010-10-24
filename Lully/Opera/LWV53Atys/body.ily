@@ -17,3 +17,7 @@
 \includeScore "AAFtempsFloreChoeur"
 %{ n°7 %}\newBookPart #'(full)
 \pieceTocTitle "Air pour la suite de Flore" \includeScore "AAGair"
+%{ n°8 %}
+\pieceToc \markup { Un Zéphir : 
+  \italic { Le printemps quelques fois est moins doux qu'il ne semble } }
+\includeScore "AAHzephir"

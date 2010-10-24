@@ -70,3 +70,7 @@ tempsMark =
 floreMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Flore"))
+
+zephirMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Un Zéphir"))
