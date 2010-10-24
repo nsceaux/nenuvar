@@ -28,3 +28,5 @@
   \italic { Retirez-vous, cessez de prevenir le temps } }
 \includeScore "AAJmelpomene"
 %{ n°11 %}
+\pieceTocTitle "Air pour la suite de Melpomène" \includeScore "AAKair"
+%{ n°12 %}
