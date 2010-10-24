@@ -24,3 +24,7 @@
 %{ n°9 %}
 \pieceTocTitle "Prélude pour Melpomène" \includeScore "AAIair"
 %{ n°10 %}
+\pieceToc \markup { Melpomène : 
+  \italic { Retirez-vous, cessez de prevenir le temps } }
+\includeScore "AAJmelpomene"
+%{ n°11 %}
