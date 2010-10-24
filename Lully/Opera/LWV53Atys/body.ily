@@ -33,3 +33,9 @@
 \pieceToc \markup { Iris, Melpomène, Flore, chœur }
 \includeScore "AALirisMelpomeneFloreChoeur"
 %{ n°13 %}\newBookPart #'(full)
+\pieceTocTitle "Menuet" \includeScore "AAMair"
+%{ n°15 %}\newBookPart #'(full)
+\pieceTocTitle "Ouverture" \reIncludeScore "AAAouverture" "AANouverture"
+\actEnd "FIN DU PROLOGUE"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
