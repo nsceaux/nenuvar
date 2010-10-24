@@ -29,4 +29,7 @@
 \includeScore "AAJmelpomene"
 %{ n°11 %}
 \pieceTocTitle "Air pour la suite de Melpomène" \includeScore "AAKair"
-%{ n°12 %}
+%{ n°12 %}\newBookPart #'(full)
+\pieceToc \markup { Iris, Melpomène, Flore, chœur }
+\includeScore "AALirisMelpomeneFloreChoeur"
+%{ n°13 %}\newBookPart #'(full)

@@ -43,9 +43,9 @@
 #`((dessus "" ()
            (#:notes "dessus"))
    (dessus1 "Dessus I" ((dessus #f))
-            (#:notes "dessus1"))
+            (#:notes "dessus1" #:tag-notes dessus1))
    (dessus2 "Dessus II" ((dessus #f))
-            (#:notes "dessus2"))
+            (#:notes "dessus2" #:tag-notes dessus2))
    (haute-contre "Haute-contre" ()
                  (#:notes "haute-contre" #:clef "treble"))
    (taille "Taille" ()
@@ -78,3 +78,7 @@ zephirMark =
 melpomeneMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Melpomène"))
+
+irisMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Iris"))
