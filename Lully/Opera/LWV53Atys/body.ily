@@ -12,3 +12,8 @@
 %{ n°5 %}\newBookPart #'(full)
 \pieceToc \markup { Le Temps, Flore } \includeScore "AAEtempsFlore"
 %{ n°6 %}
+\pieceToc \markup { Le Temps, Flore, chœur :
+  \italic { Les plaisirs à ses yeux ont beau se présenter } }
+\includeScore "AAFtempsFloreChoeur"
+%{ n°7 %}\newBookPart #'(full)
+
