@@ -30,7 +30,7 @@
 %{ n°11 %}
 \pieceTocTitle "Air pour la suite de Melpomène" \includeScore "AAKair"
 %{ n°12 %}\newBookPart #'(full)
-\pieceToc \markup { Iris, Melpomène, Flore, chœur }
+\pieceToc \markup { Iris, Melpomène, Flore, le Temps, chœur }
 \includeScore "AALirisMelpomeneFloreChoeur"
 %{ n°13 %}\newBookPart #'(full)
 \pieceTocTitle "Menuet" \includeScore "AAMair"
@@ -39,3 +39,10 @@
 \actEnd "FIN DU PROLOGUE"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{ n°1 %}\newBookPart #'()
+\act "Acte Premier"
+\sceneDescription \markup \wordwrap-center {
+  Le théaâre représente une montagne consacrée à Cybèle.
+}
+\pieceToc \markup { Atys, Idas : \italic { Allons, allons, accourez tous } }
+\includeScore "BAAatysIdas"

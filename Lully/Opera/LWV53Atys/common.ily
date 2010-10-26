@@ -82,3 +82,20 @@ melpomeneMark =
 irisMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Iris"))
+
+%%
+atysMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Atys"))
+
+idasMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Idas"))
+
+sangarideMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Sangaride"))
+
+dorisMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Doris"))

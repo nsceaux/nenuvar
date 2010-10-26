@@ -1,11 +1,11 @@
-Ses jus -- tes loix,
+Ses jus -- tes lois,
 ses grands ex -- ploits,
-ses jus -- tes loix,
+ses jus -- tes lois,
 ses grands ex -- ploits
 ren -- dent sa mé -- moire é -- ter -- nel -- le.
-Ses jus -- tes loix,
+Ses jus -- tes lois,
 ses grands ex -- ploits,
-ses jus -- tes loix,
+ses jus -- tes lois,
 ses grands ex -- ploits
 ren -- dent sa mé -- moire é -- ter -- nel -- "le :"
 Cha -- que jour, chaque ins -- tant,
