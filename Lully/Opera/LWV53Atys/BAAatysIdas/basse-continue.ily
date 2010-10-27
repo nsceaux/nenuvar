@@ -42,8 +42,8 @@ sib,1~ |
 sib,4 sib la fa |
 sib sib8 la sol fa mib re |
 do4 mib8 re do sib, la, sol, |
-re4. re8 sib,4. sib,8 |
-do4 do re2 |
+re2 sib, |
+do4 do re re, |
 sol,2. sol |
 fad |
 sol |
@@ -72,12 +72,12 @@ sol,2 %{%} sol2 |
 re1 |
 mib2 re4. mib8 |
 do1 |
-sib, |\allowPageBreak
+sib, |\allowPageTurn
 sib2 sib4 la |
 sol2 sol4 do' |
 fa2. fa4 |
-sol2 sol |
-la fa |
+sol sol2 la8 sib |
+la2 fa |
 dod re |
 la,1 |
 re4. re'8 re'4. do'8 |
