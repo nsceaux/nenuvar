@@ -1,5 +1,5 @@
-\clef "vbasse" R1 R1*11 R1 R1 R1*11 R1*2 R1*8 |
-r4 sol^\markup\character "Idas" fad re |
+\idasMark R1 |
+r4 sol fad re |
 sol sib8[ la] sol[ fa] mib[ re] |
 mib4 mib8[ re] do[ re] mib[ do] |
 fa4. fa8 re4. re8 |

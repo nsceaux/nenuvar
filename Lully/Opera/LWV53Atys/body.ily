@@ -42,7 +42,18 @@
 %{ n°1 %}\newBookPart #'()
 \act "Acte Premier"
 \sceneDescription \markup \wordwrap-center {
-  Le théaâre représente une montagne consacrée à Cybèle.
+  Le théâtre représente une montagne consacrée à Cybèle.
 }
-\pieceToc \markup { Atys, Idas : \italic { Allons, allons, accourez tous } }
-\includeScore "BAAatysIdas"
+\scene "Scène Première"
+\sceneDescription \markup { \smallCaps Atys, seul. }
+\pieceToc \markup { Atys Idas : \italic { Allons, allons, accourez tous } }
+\includeScore "BAAatys"
+%{ n°2 %}
+\scene "Scène II"
+\pieceToc \markup { Atys, Idas }
+\includeScore "BBAatysIdas"
+%{ n°3 %}\newBookPart #'()
+\scene "Scène III"
+\sceneDescription \markup \smallCaps { Sangaride, Doris, Atys, Idas. }
+\pieceToc \markup { Sangaride, Doris, Atys, Idas } \includeScore "BCAsdai"
+%{ n°4 %}\newBookPart #'()

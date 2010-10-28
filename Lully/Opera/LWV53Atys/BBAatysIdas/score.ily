@@ -1,8 +1,8 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \includeNotes "dessus1" >>
-      \newHaraKiriStaff << \global \includeNotes "dessus2" >>
+      \newHaraKiriStaffB << \global \includeNotes "dessus1" >>
+      \newHaraKiriStaffB << \global \includeNotes "dessus2" >>
     >>
     \newHaraKiriStaffB \withLyrics <<
       \global \includeNotes "voix"
@@ -15,6 +15,5 @@
       \includeFigures "chiffres"
     >>
   >>
-  \layout { }
-  \midi { }
+  \layout { indent = \noindent }
 }
