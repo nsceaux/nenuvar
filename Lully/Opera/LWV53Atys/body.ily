@@ -52,8 +52,10 @@
 \scene "Scène II"
 \pieceToc \markup { Atys, Idas }
 \includeScore "BBAatysIdas"
-%{ n°3 %}\newBookPart #'()
+%{ n°3 %}\newBookPart #'(full)
 \scene "Scène III"
 \sceneDescription \markup \smallCaps { Sangaride, Doris, Atys, Idas. }
 \pieceToc \markup { Sangaride, Doris, Atys, Idas } \includeScore "BCAsdai"
-%{ n°4 %}\newBookPart #'()
+%{ n°4 %}\newBookPart #'(full)
+\scene "Scène IV"
+\sceneDescription \markup \smallCaps { Sangaride, Doris. }

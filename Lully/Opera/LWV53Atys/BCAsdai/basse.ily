@@ -67,7 +67,7 @@ fad1 |
 mi |
 fad |
 sol |
-fad2 la4 la, |
+fad4 re la la, |
 re2. re4 |
 do2. si,8 do |
 re2 re, |
@@ -88,7 +88,7 @@ sol8 fad mi4 re |
 do8 si, la,2 |
 si, si8 la |
 sold2. |
-la2( sol4) |
+la2 sol4 |
 fad2 re4 |
 sol sol, re |
 dod2 re4 |

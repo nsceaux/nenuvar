@@ -1,5 +1,5 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new Staff \withLyrics <<
       { s1*12 s1.*15 \break
         s1*8 s1*14 \break }
@@ -14,11 +14,6 @@
     \newHaraKiriStaffB \withLyrics <<
       \global \includeNotes "idas"
     >> \includeLyrics "paroles-idas"
-    \new Staff <<
-      \global \clef "basse" \includeNotes "basse"
-      \includeFigures "chiffres"
-    >>
   >>
   \layout { }
-  \midi { }
 }

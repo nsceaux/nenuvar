@@ -1,9 +1,9 @@
 \keys sol \major
 \fractionTime \time 2/2 \midiTempo #160
 s1*12
-\time 3/2
+\time 3/2 \midiTempo #320
 s1.*15
-\time 2/2
+\time 2/2 \midiTempo #160
 s1*8
 \fractionTime \time 2/2
 s1*45
