@@ -46,10 +46,11 @@
 }
 \scene "Scène Première"
 \sceneDescription \markup { \smallCaps Atys, seul. }
-\pieceToc \markup { Atys Idas : \italic { Allons, allons, accourez tous } }
-\includeScore "BAAatys"
+\pieceToc \markup { Atys Idas :
+  \italic { Allons, allons, accourez tous } } \includeScore "BAAatys"
 %{ n°2 %}
 \scene "Scène II"
+\sceneDescription \markup \smallCaps { Atys, Idas. }
 \pieceToc \markup { Atys, Idas }
 \includeScore "BBAatysIdas"
 %{ n°3 %}\newBookPart #'(full)
@@ -59,3 +60,8 @@
 %{ n°4 %}\newBookPart #'(full)
 \scene "Scène IV"
 \sceneDescription \markup \smallCaps { Sangaride, Doris. }
+\pieceToc \markup { Sangaride, Doris :
+  \italic { Atys est trop heureux } } \includeScore "BDAsangarideDoris"
+%{ n°5 %}
+\scene "Scène V"
+\sceneDescription \markup \smallCaps { Sangaride, Atys, Doris. }
