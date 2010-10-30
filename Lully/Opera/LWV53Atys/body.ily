@@ -64,7 +64,11 @@
 %{ n°5 %}
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Sangaride, Atys, Doris. }
-\pieceToc \markup { Atys, Sangaride } \includeScore "BEAatysDoris"
+\pieceToc \markup { Atys, Doris } \includeScore "BEAatysDoris"
 %{ n°6 %}
 \scene "Scène VI"
 \sceneDescription \markup \smallCaps { Sangaride, Atys. }
+\pieceToc \markup { Atys, Sangaride } \includeScore "BFAatysSangaride"
+%{ n°7 %}
+\scene "Scène VII"
+\sceneDescription \markup \smallCaps { Sangaride, Atys, les Phrygiens. }
