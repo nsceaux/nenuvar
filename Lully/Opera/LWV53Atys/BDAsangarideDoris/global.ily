@@ -1,4 +1,5 @@
-\keys re \minor
+\oldKey la \minor
+\newKey re \minor
 \time 3/4 \midiTempo #120
 s2.*9
 \time 4/4 \midiTempo #80
