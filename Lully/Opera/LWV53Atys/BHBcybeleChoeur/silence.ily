@@ -1,0 +1,1 @@
+R1\noBreak R2.\noBreak R1\noBreak R1*9\noBreak R1*78

@@ -79,7 +79,12 @@
 \pieceTocTitle "Premier air des Phrygiens" \includeScore "BGBphrygiens"
 %{ n°9 %}
 \pieceTocTitle "Second air des Phrygiens"  \includeScore "BGCphrygiens"
-%{ n°10 %}
+%{ n°10 %}\newBookPart #'(full)
 \scene "Scène VIII"
 \sceneDescription \markup { \smallCaps Cybèle sur son char. }
 \pieceToc "Prélude pour Cybèle" \includeScore "BHAprelude"
+%{ n°11 %}
+\pieceToc \markup { Cybèle, chœur :
+  \italic { Vous devez vous animer d'une ardeur nouvelle }
+} \includeScore "BHBcybeleChoeur"
+\actEnd "FIN DU PREMIER ACTE"

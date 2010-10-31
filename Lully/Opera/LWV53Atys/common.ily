@@ -99,3 +99,7 @@ sangarideMark =
 dorisMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Doris"))
+
+cybeleMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Cybèle"))
