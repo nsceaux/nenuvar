@@ -77,3 +77,7 @@
 } \includeScore "BGAatysSangarideChoeur"
 %{ n°8 %}
 \pieceTocTitle "Premier air des Phrygiens" \includeScore "BGBphrygiens"
+%{ n°9 %}
+\pieceTocTitle "Second air des Phrygiens"  \includeScore "BGCphrygiens"
+%{ n°10 %}
+
