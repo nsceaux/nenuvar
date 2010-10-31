@@ -69,9 +69,11 @@
 \scene "Scène VI"
 \sceneDescription \markup \smallCaps { Sangaride, Atys. }
 \pieceToc \markup { Atys, Sangaride } \includeScore "BFAatysSangaride"
-%{ n°7 %}\newBookPart #'(full)
+%{ n°7 %}
 \scene "Scène VII"
 \sceneDescription \markup \smallCaps { Sangaride, Atys, les Phrygiens. }
 \pieceToc \markup { Atys, Sangaride, chœur :
   \italic { Commençons, commençons de célébrer ici sa fête solemnelle. }
 } \includeScore "BGAatysSangarideChoeur"
+%{ n°8 %}
+\pieceTocTitle "Premier air des Phrygiens" \includeScore "BGBphrygiens"
