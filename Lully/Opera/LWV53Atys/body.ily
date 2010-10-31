@@ -80,4 +80,6 @@
 %{ n°9 %}
 \pieceTocTitle "Second air des Phrygiens"  \includeScore "BGCphrygiens"
 %{ n°10 %}
-
+\scene "Scène VIII"
+\sceneDescription \markup { \smallCaps Cybèle sur son char. }
+\pieceToc "Prélude pour Cybèle" \includeScore "BHAprelude"
