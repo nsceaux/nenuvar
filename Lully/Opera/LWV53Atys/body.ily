@@ -46,9 +46,9 @@
 }
 \scene "Scène Première"
 \sceneDescription \markup { \smallCaps Atys, seul. }
-\pieceToc \markup { Atys Idas :
+\pieceToc \markup { Atys :
   \italic { Allons, allons, accourez tous } } \includeScore "BAAatys"
-%{ n°2 %}
+%{ n°2 %}\newBookPart #'(full)
 \scene "Scène II"
 \sceneDescription \markup \smallCaps { Atys, Idas. }
 \pieceToc \markup { Atys, Idas } \includeScore "BBAatysIdas"
@@ -65,10 +65,13 @@
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Sangaride, Atys, Doris. }
 \pieceToc \markup { Atys, Doris } \includeScore "BEAatysDoris"
-%{ n°6 %}
+%{ n°6 %}\newBookPart #'(full)
 \scene "Scène VI"
 \sceneDescription \markup \smallCaps { Sangaride, Atys. }
 \pieceToc \markup { Atys, Sangaride } \includeScore "BFAatysSangaride"
-%{ n°7 %}
+%{ n°7 %}\newBookPart #'(full)
 \scene "Scène VII"
 \sceneDescription \markup \smallCaps { Sangaride, Atys, les Phrygiens. }
+\pieceToc \markup { Atys, Sangaride, chœur :
+  \italic { Commençons, commençons de célébrer ici sa fête solemnelle. }
+} \includeScore "BGAatysSangarideChoeur"

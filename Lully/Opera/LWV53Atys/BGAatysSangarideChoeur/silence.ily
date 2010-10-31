@@ -1,0 +1,10 @@
+R1*2\noBreak
+R2.*2\noBreak
+R1*5\noBreak
+R2.*71\noBreak
+R1\noBreak
+R1.\noBreak
+R1\noBreak
+R2.*100\noBreak
+R1*30\noBreak
+R2.*22
