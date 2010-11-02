@@ -104,4 +104,4 @@
 %{ n°3 %}\newBookPart #'(full)
 \scene "Scène III"
 \sceneDescription \markup \smallCaps { Cybèle, Celænus. }
-
+\pieceTocTitle "Prélude" \includeScore "CBAprelude"
