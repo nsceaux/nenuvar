@@ -100,4 +100,8 @@
 \sceneDescription \markup \smallCaps { Celænus, Atys. }
 \pieceTocTitle "Ritournelle" \includeScore "CAAritournelle"
 %{ n°2 %}
-\pieceToc \markup { Celænus, Atys } \includeScore "CBAcelaenusAtys"
+\pieceToc \markup { Celænus, Atys } \includeScore "CABcelaenusAtys"
+%{ n°3 %}\newBookPart #'(full)
+\scene "Scène III"
+\sceneDescription \markup \smallCaps { Cybèle, Celænus. }
+

@@ -103,3 +103,7 @@ dorisMark =
 cybeleMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Cybèle"))
+
+celaenusMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse-taille" "Celænus"))
