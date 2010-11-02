@@ -9,7 +9,7 @@ la dé -- es -- se des -- cend, al -- lons, al -- lons au de -- vant d'el -- le.
 \tag #'voix {
 % Atys et Sangaride.
 Com -- men -- çons, com -- men -- çons
-de cé -- lé -- brer i -- ci sa fê -- te so -- lem -- nel -- le,
+de cé -- lé -- brer i -- ci sa fê -- te so -- len -- nel -- le,
 com -- men -- çons nos jeux,
 com -- men -- çons, com -- men -- çons nos jeux et nos chan -- sons.
 Com -- men -- çons, com -- men -- çons nos jeux, nos jeux et nos chan -- sons.

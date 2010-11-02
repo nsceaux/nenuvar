@@ -73,7 +73,7 @@
 \scene "Scène VII"
 \sceneDescription \markup \smallCaps { Sangaride, Atys, les Phrygiens. }
 \pieceToc \markup { Atys, Sangaride, chœur :
-  \italic { Commençons, commençons de célébrer ici sa fête solemnelle. }
+  \italic { Commençons, commençons de célébrer ici sa fête solennelle. }
 } \includeScore "BGAatysSangarideChoeur"
 %{ n°8 %}
 \pieceTocTitle "Premier air des Phrygiens" \includeScore "BGBphrygiens"
@@ -87,4 +87,17 @@
 \pieceToc \markup { Cybèle, chœur :
   \italic { Vous devez vous animer d'une ardeur nouvelle }
 } \includeScore "BHBcybeleChoeur"
+\pieceTocTitle "Entr'acte"  \reIncludeScore "BGCphrygiens" "BHCphrygiens"
 \actEnd "FIN DU PREMIER ACTE"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{ n°1 %}\newBookPart #'()
+\act "Acte Second"
+\sceneDescription \markup \wordwrap-center {
+  Le théâtre représente le temple de Cybèle.
+}
+\scene "Scène Première"
+\sceneDescription \markup \smallCaps { Celænus, Atys. }
+\pieceTocTitle "Ritournelle" \includeScore "CAAritournelle"
+%{ n°2 %}
+\pieceToc \markup { Celænus, Atys } \includeScore "CBAcelaenusAtys"
