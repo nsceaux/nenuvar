@@ -113,4 +113,5 @@
 \pieceTocTitle \markup { Cybèle, Mélisse } \includeScore "CCAcybeleMelisse"
 %{ n°6 %}\newBookPart #'(full)
 \scene "Scène IV"
-
+\pieceTocTitle \markup { Chœur :
+  \italic { Célébrons la gloire immortelle } } \includeScore "CDAchoeur"
