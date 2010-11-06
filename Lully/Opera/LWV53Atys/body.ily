@@ -110,3 +110,7 @@
 %{ n°5 %}\newBookPart #'(full)
 \scene "Scène III"
 \sceneDescription \markup \smallCaps { Cybèle, Mélisse. }
+\pieceTocTitle \markup { Cybèle, Mélisse } \includeScore "CCAcybeleMelisse"
+%{ n°6 %}\newBookPart #'(full)
+\scene "Scène IV"
+
