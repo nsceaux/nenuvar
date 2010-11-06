@@ -216,6 +216,42 @@ do''
     do''4 do'' do'' |
     re'' re'' mi'' |
     mi''( re''2)\trill |
+    do''2 r4 |
+    R2.*4 |
+    r2 r8 re'' |
+    mi''2. |
+    re''4 re'' re'' |
+    do''2 r8 re'' |
+    si'2 r8 do'' |
+    la'4 re'' re'' |
+    re'' do'' do'' |
+    do''2( si'4) |
+    do'' mi'' mi'' |
+    la' si'4. la'8 |
+    si'4( la'2) |
+    sol'2 r4 |
+    r2 r8 re'' |
+    do''2. |
+    r2 r8 do'' |
+    do''2. |
+    mi''4 mi'' do'' |
+    la'2 re''4 |
+    si'2. |
+    r2 r8 mi'' |
+    do''4 do'' re'' |
+    si' si' do'' |
+    do''2( si'4) |
+    do''2 r4 |
+    R2.*4 |
+    r2 r8 re'' |
+    mi''2 r8 mi'' |
+    re''2. |
+    do''4 do'' do'' |
+    si'2 r8 mi'' |
+    mi''2 r8 re'' |
+    re''4 do'' do'' |
+    re'' re'' mi'' |
+    mi''4( re''2) |
     do''2. |
   }
   \tag #'basse { r2 R2.*70 R1 R1. R1 R2.*100 R1*30 R2.*22 }

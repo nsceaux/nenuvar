@@ -231,4 +231,47 @@ sol2 r8 sol |
 mi4 mi fa |
 re re do |
 sol sol,2 |
+do2 do4 |
+si,8 la, si, sol, la, si, |
+do si, do re mi fa |
+sol4 fa8 mi re do |
+si,2. |
+do4 sol,4. sol8 |
+do'2. |
+sib2 sib4 |
+la2 la4 |
+sol2. |
+fa |
+mi |
+re |
+do2 do4 |
+do4 si,4. do8 |
+re4 re,2 |
+sol,4 sol sol |
+re re8 mi fa re |
+la4 la la |
+mi mi8 fa sol mi |
+fa mi fa sol la si |
+do'2 la4 |
+re'2 re4 |
+sol4 sol sol |
+mi mi8 fa sol mi |
+fa4 fa re |
+sol sol do |
+sol,2. |
+do2 do4 |
+si,8 la, si, sol, la, si, |
+do si, do re mi fa |
+sol4 fa8 mi re do |
+si,2. |
+do4 sol,4. sol8 |
+do'2 do'4 |
+sib2. |
+la2 la4 |
+sol2 sol4 |
+fa2 fa4 |
+mi2 fa4 |
+re2 do4 |
+sol4 sol,2 |
 do2. |
+

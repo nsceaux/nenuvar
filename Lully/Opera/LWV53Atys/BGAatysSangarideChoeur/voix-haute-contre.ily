@@ -93,35 +93,51 @@ mi'4 mi' la' |
 sol'2 r8 sol' |
 sol'2 la'4 |
 fa' fa' sol' |
-%% À partir d'ici, pas de source disponible pour
-%% la partie de haute-contre du chœur
-s2.*2 |
-s2 r4 |
-r2 r8 s |
-s2.*3 |
-s2 r4 |
+%% 
+mi' mi' fa' |
+fa'( mi'2) |
+re' r4 |
+r2 r8 sol' |
+sol'4 sol' la' |
+fa' fa' sol' |
+sol'4.( fa'8[ mi' fa']) |
+mi'2 r4 |
 R2.*4 |
-r2 r8 s |
-s2.*2 |
-s2 r8 s |
-s2 r8 s |
-s2.*6 |
-s2 r4 |
-r2 r8 s |
-s2 r4 |
-r2 r8 s |
-s2.*3 |
-s2 r4 |
-r2 r8 s |
-s2.*3 |
-s2 r4 |
+r2 r8 sol' |
+sol'2. |
+sol'4 sol' sol' |
+sol'2 r8 fa' |
+fa'2 r8 mi' |
+mi'4 re'8[ mi'] fa'4 |
+sol'4 sol' sol' |
+fa'2. |
+mi'4 sol' sol' |
+fad' sol'4. sol'8 |
+sol'2( fad'4) |
+sol'2 r4 |
+r2 r8 fa' |
+mi'2. |
+r2 r8 sol' |
+la'2. |
+sol'4 sol' la' |
+fad'2 fad'4 |
+sol'2. |
+r2 r8 sol' |
+la'4 fa' fa' |
+re' re' mi' |
+mi'( re'2) |
+do'2 r4 |
 R2.*4 |
-r2 r8 s |
-s2.*3 |
-s2 r8 s |
-s2 r8 s |
-s2.*3 |
-s2 r8 mi'^\markup\character "Atys" |
+r2 r8 sol' |
+sol'2 r8 la' |
+sol'2. |
+sol'4 sol' fad' |
+sol'2 r8 mi' |
+fa'2 r8 fa' |
+sol'4 sol' la' |
+fa' fa' sol' |
+sol'4.( fa'8[ mi' fa']) |
+mi'2 r8 mi'^\markup\character "Atys" |
 fa'4 re'4.\trill do'8 |
 si4 si do' |
 do'4( si2)\trill |
@@ -132,14 +148,17 @@ re'2 re'4 |
 si si do' |
 la si do' |
 do'2( si4) |
-do'2 r8 s |
-s2.*2 |
-s2 r8 s |
-s2 r4 |
+do'2 r8 sol' |
+sol'2. |
+sol'4 sol' sol' |
+fad'2 r8 fad' |
+sol'2 r4 |
 R2.*9 |
-r2 r8 s |
-s2.*3 |
-s2 mi'4.^\markup\character "Atys" mi'8 |
+r2 r8 sol' |
+sol'4 sol' fa' |
+fa' fa' sol' |
+sol'4.( fa'8[ mi' fa']) |
+mi'2 mi'4.^\markup\character "Atys" mi'8 |
 re'2\trill re'4. mi'8 |
 do'2 do'4. do'8 |
 do'2 do'4 re' |
@@ -147,12 +166,27 @@ mi'2 si4 si |
 do'2 do'4. re'8 |
 si2\trill re'4. re'8 |
 re'2 do'4. si8 |
-la2 s |
-s1*5 |
-s2. r4 |
-r2 s |
-s1*13 |
-s2. r8 sol' |
+la2 fad'4. fad'8 |
+sol'2. sol'4 |
+la'2 la'4 re' |
+sol'1 |
+fad'4. fad'8 fad'[ sol'] la'[ fad'] |
+sol'4 sol'8 sol' sol'4. sol'8 |
+sol'2 la'4 r |
+R1 |
+r4 re' re'8[ mi'] fa'[ re'] |
+sol'4 sol'8 sol' sol'[ fa'] sol'[ mi'] |
+fa'4 fa' fa'4. fa'8 |
+mi'4 mi' mi' mi'8 fa' |
+re'4 re'8 re' re'[ mi'] fad'[ sol'] |
+la'1 |
+re'2 sol'4. sol'8 |
+sol'2 fa'4. fa'8 |
+mi'4 mi' mi' mi'8 la' |
+fad'4 fad' sol'4. sol'8 |
+sol'2 fa'4. fa'8 |
+fa'4. fa'8 mi'4 mi'8 fa' re'4 re'8 sol' sol'4. sol'8 |
+sol'2 sol'4 r8 sol' |
 fa'2. |
 fa'4 re' re' |
 mi'2 la'4 |
@@ -167,7 +201,47 @@ mi'4 mi' la' |
 sol'2 r8 sol' |
 sol'2 la'4 |
 fa' fa' sol' |
-s2.*2 |
-s2 s4 |
-s2 r8 s |
-s2.*4 |
+mi' mi' fa' |
+fa'( mi'2) |
+re' r4 |
+r2 r8 sol' |
+sol'4 sol' la' |
+fa' fa' sol' |
+sol'4.( fa'8[ mi' fa']) |
+mi'2 r4 |
+R2.*4 |
+r2 r8 sol' |
+sol'2. |
+sol'4 sol' sol' |
+sol'2 r8 fa' |
+fa'2 r8 mi' |
+mi'4 re'8[ mi'] fa'4 |
+sol' sol' sol' |
+fa'2. |
+mi'4 sol' sol' |
+fad' sol'4. sol'8 |
+sol'2( fad'4) |
+sol'2 r4 |
+r2 r8 fa' |
+mi'2. |
+r2 r8 sol' |
+la'2. |
+sol'4 sol' la' |
+fad'2 fad'4 |
+sol'2. |
+r2 r8 sol' |
+la'4 fa' fa' |
+re' re' mi' |
+mi'( re'2) |
+do' r4 |
+R2.*4 |
+r2 r8 sol' |
+sol'2 r8 la' |
+sol'2. |
+sol'4 sol' fad' |
+sol'2 r8 mi' |
+fa'2 r8 fa' |
+sol'4 sol' la' |
+fa' fa' sol' |
+sol'4.( fa'8[ mi' fa']) |
+mi'2. |

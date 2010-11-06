@@ -57,7 +57,7 @@ do'2. |
 re'4 la si |
 do'2 la4 |
 si2 si4 |
-si la la |
+la la la |
 la la la |
 mi'2 re'4 |
 dod' la4. la8 |
@@ -67,3 +67,152 @@ la do' mi' |
 do'2 r8 sol' |
 sol'2 fa'4 |
 fa' fa' mi' |
+mi'4 mi' re' |
+re' la2 |
+la4 re'4. re'8 |
+re'2 r8 re' |
+do'4 do' do' |
+fa'4 re' sol |
+sol2. |
+sol4 do'4. do'8 |
+re' do' si4 la |
+sol2. |
+sol |
+sol |
+sol4 sol4. sol'8 |
+mi'2. |
+re'4 re' re' |
+do'2 r8 do' |
+re'2 r8 mi' |
+fa'4 la la |
+si do' do' |
+re'2. |
+sol4 do' do' |
+la sol4. sol8 |
+re'2 re'4 |
+si4 si si |
+la re' la |
+la do' do' |
+do' do'4. do'8 |
+do'4 do'4. do'8 |
+do'4 mi' mi' |
+re'2 re'4 |
+re' re'4. re'8 |
+do'2 r8 do' |
+do'4 do' re' |
+re' re' do' |
+do' sol2 |
+sol4 do'4. do'8 |
+re' do' si4 la |
+sol2. |
+sol |
+sol |
+sol4 sol4. sol'8 |
+mi'2 r8 do' |
+re'2. |
+do'4 do' do' |
+re'2 r8 do' |
+do'2 r8 re' |
+mi'4 mi' do' |
+fa' re' sol |
+sol2. |
+sol2 r4 |
+R2.*10 |
+r2 r8 do' |
+re'2. |
+do'4 do' re' |
+la2 r8 re' |
+re'2 r4 |
+R2.*9 |
+r2 r8 re' |
+do'4 do' do' |
+fa'4 re' sol |
+sol2. |
+sol2 r |
+R1*7 |
+r2 re'4 re' |
+re'2. sib4 |
+la2 la4 sib |
+sib2 do' |
+la4. la8 re'4. re'8 |
+re'4. re'8 re'4. re'8 |
+do'2 sol4. sol8 |
+sol2 sol4 sol |
+la2. la4 |
+si2 do'4 do' |
+re'1 |
+sol2 mi' |
+re' si4. si8 |
+do'1 |
+re'2 re'4. re'8 |
+re'2 la4. la8 |
+la2 mi'4. mi'8 |
+re'2 re'4. re'8 |
+re'2 la4. la8 |
+si2 do'4. do'8 |
+re'4. re'8 re'2 |
+do'2 do'4 r8 do' |
+do'2. |
+re'4 la si |
+do'2 la4 |
+si2 si4 |
+la la la |
+la la la |
+mi'2 re'4 |
+dod' la4. la8 |
+la4 re'4. re'8 |
+re'4 re'8 do' si4 |
+la do' mi' |
+re'2 r8 sol' |
+sol'2 fa'4 |
+fa' fa' mi' |
+mi' mi' re' |
+re' la2 |
+la4 re'4. re'8 |
+re'2 r8 re' |
+do'4 do' do' |
+fa' re' sol |
+sol2. |
+sol4 do'4. do'8 |
+re' do' si4 la |
+sol2. |
+sol |
+sol |
+sol4 sol4. sol'8 |
+mi'2. |
+re'4 re' re' |
+do'2 r8 do' |
+re'2 r8 mi' |
+fa'4 la la |
+si do' do' |
+re'2. |
+sol4 do' do' |
+la sol4. sol8 |
+re'2 re'4 |
+si4 si si |
+la re' la |
+la do' do' |
+do' do'4. do'8 |
+do'4 do'4. do'8 |
+do'4 mi' mi' |
+re'2 re'4 |
+re'4 re'4. re'8 |
+do'2 r8 do' |
+do'4 do' re' |
+re' re' do' |
+do' sol2 |
+sol4 do'4. do'8 |
+re' do' si4 la |
+sol2. |
+sol |
+sol |
+sol4 sol4. sol'8 |
+mi'2 r8 do' |
+re'2. |
+do'4 do' do' |
+re'2 r8 do' |
+do'2 r8 re' |
+mi'4 mi' do' |
+fa' re' sol |
+sol2. |
+sol |

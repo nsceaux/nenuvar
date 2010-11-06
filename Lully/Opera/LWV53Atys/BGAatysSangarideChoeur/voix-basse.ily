@@ -128,7 +128,7 @@ sib2. sib4 |
 fad2 fad4 sol |
 mib1 |
 re4. re8 re[ mi] fad[ re] |
-sol4 sol8 sol sol[ la] sib[ sol] |
+sol4 sol8 sol sol[ la] si[ sol] |
 do'2 do'4 r |
 r2 sol4. sol8 |
 fa2. fa4 |
@@ -166,4 +166,40 @@ sol2 r8 sol |
 mi4 mi fa |
 re re do |
 sol( sol,2) |
+do r4 |
+R2.*4 |
+r2 r8 sol |
+do'2. |
+sib4 sib sib |
+la2 r8 la |
+sol2 r8 sol |
+fa4 fa fa |
+mi mi mi |
+re2. |
+do4 do do |
+do4 si,4. do8 |
+re2. |
+sol,2 r4 |
+r2 r8 re |
+la2. |
+r2 r8 mi |
+fa2. |
+do'4 do' la |
+re'2 re4 |
+sol2. |
+r2 r8 mi |
+fa4 fa re |
+sol sol do |
+sol,2. |
+do2 r4 |
+R2.*4 |
+r2 r8 sol |
+do'2 r8 do' |
+sib2. |
+la4 la la |
+sol2 r8 sol |
+fa2 r8 fa |
+mi4 mi fa |
+re re do |
+sol4( sol,2) |
 do2. |

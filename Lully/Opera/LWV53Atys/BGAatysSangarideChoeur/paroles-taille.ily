@@ -39,3 +39,11 @@ ve -- nez, fa -- vo -- ra -- ble Cy -- bè -- le.
 Ve -- nez, rei -- ne des dieux, ve -- nez,
 ve -- nez, fa -- vo -- ra -- ble Cy -- bè -- le.
 Ve -- nez, fa -- vo -- ra -- ble Cy -- bè -- le.
+
+Ve -- nez, rei -- ne des dieux,
+ve -- nez, ve -- nez, fa -- vo -- ra -- ble Cy -- bè -- le,
+fa -- vo -- ra -- ble Cy -- bè -- le.
+Ve -- nez, ve -- nez, rei -- ne des dieux,
+ve -- nez, ve -- nez, fa -- vo -- ra -- ble Cy -- bè -- le.
+Ve -- nez, ve -- nez, rei -- ne des dieux,
+ve -- nez, ve -- nez, fa -- vo -- ra -- ble Cy -- bè -- le.

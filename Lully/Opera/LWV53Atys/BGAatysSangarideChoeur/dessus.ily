@@ -2,7 +2,7 @@
 R2.*2
 R1*5
 R2.*21 |
-r4 r8 mi'' mi''4 |
+r4 r8 mi'' mi''4 |\noHaraKiri
 re''4. re''8 mi''4 |
 fa''2 fa''4 |
 mi''2 mi''4 |
@@ -244,4 +244,46 @@ si'2\trill r8 si' |
 do''4 do'' do'' |
 re'' re'' mi'' |
 mi''( re''2)\trill |
+do''8 si' do'' re'' mi'' fa'' |
+sol''2.~ |
+sol''4 fa''8 mi'' re'' do'' |
+si'2 do''8 si'16 do'' |
+re''8 do'' re'' mi'' fa'' sol'' |
+mi''8 fa'' re''4. do''8 |
+do''2. |
+re''4 sol'' sol'' |
+sol''2 r8 fa'' |
+fa''2 r8 mi'' |
+mi''4 re'' re'' |
+re'' do'' do'' |
+do''2 si'4 |
+do'' mi'' mi'' |
+fad''4 sol''4. sol''8 |
+sol''4 fad''2 |
+sol''4 re''8 do'' re'' mi'' |
+fa''4 fa''4. fa''8 |
+mi''4 mi''8 re'' mi'' fa'' |
+sol''4 sol''4. sol''8 |
+do''4. si'8 do'' re'' |
+mi''4 mi'' la'' |
+fad''2 fad''4 |
+sol''4 re''4. re''8 |
+sol''2 r8 sol'' |
+do''4 fa''4. fa''8 |
+fa''4 fa'' mi'' |
+mi'' re''2 |
+do''8 si' do'' re'' mi'' fa'' |
+sol''2.~ |
+sol''4 fa''8 mi'' re'' do'' |
+si'2 do''8 si'16 do'' |
+re''8 do'' re'' mi'' fa'' sol'' |
+mi'' fa'' re''4. do''8 |
+do''2 r8 sol'' |
+sol''2. |
+sol''4 sol'' fad'' |
+sol''2 r8 mi'' |
+mi''2 r8 re'' |
+re''4 do'' do'' |
+re'' re'' mi'' |
+mi''4 re''2 |
 do''2. |

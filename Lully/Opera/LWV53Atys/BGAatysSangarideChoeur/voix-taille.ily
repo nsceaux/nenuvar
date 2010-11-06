@@ -114,8 +114,8 @@ sol2 r4 |
 R2.*10 |
 r2 r8 do' |
 si2.\trill |
-si4 si do' |
-sol2 r8 re' |
+do'4 do' re' |
+la2 r8 re' |
 re'2 r4 |
 R2.*9 |
 r2 r8 re' |
@@ -167,12 +167,11 @@ r2 r8 re' |
 mi'4 do' la |
 si si do' |
 do'( si2)\trill |
-do'2. |
-%{
+do'2 r4 |
 R2.*4 |
 r2 r8 si |
-do'2 r4 |
-re' re' re' |
+do'2. |
+re'4 re' re' |
 la2 r8 la |
 re'2 r8 do' |
 do'4 la la |
@@ -183,12 +182,12 @@ re' re'4. mi'8 |
 re'4.( do'8 si[ do']) |
 si2\trill r4 |
 r2 r8 la |
-la2 r4 |
+la2. |
 r2 r8 do' |
 do'2. |
 do'4 do' do' |
 re'2 re'4 |%93
-re'2 r4 |
+re'2. |
 r2 r8 do' |
 do'4 la la |
 sol sol sol |
@@ -197,14 +196,14 @@ mi2\trill r4 |
 R2.*4 |
 r2 r8 si |
 do'2 r8 do' |
-re'2 r4 |
+re'2. |
 la8[ si] do'4 la |
 re'2 r8 si |
 la2\trill r8 la |
 sol4 do' la |
 si si do' |
 do'( si2)\trill |
-do'2 r4 |
+do'2. %{ r4 |
 R2.*10 |
 r2 r8 do' |
 si2\trill r4 |
