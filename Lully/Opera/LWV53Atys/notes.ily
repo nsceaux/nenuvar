@@ -3,3 +3,5 @@ la fin du chœur est manquante dans le manuscrit (à partir de la mesure 106)
 
 acte 1, scène 8 :
 le chœur en entier en manquant dans le manuscrit
+
+acte 2 scène 4 entrée des nations : beaucoup de problèmes de notes, à vérifier

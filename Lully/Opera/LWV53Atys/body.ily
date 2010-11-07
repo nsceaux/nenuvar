@@ -113,5 +113,29 @@
 \pieceTocTitle \markup { Cybèle, Mélisse } \includeScore "CCAcybeleMelisse"
 %{ n°6 %}\newBookPart #'(full)
 \scene "Scène IV"
-\pieceTocTitle \markup { Chœur :
+\sceneDescription \markup { \smallCaps Atys, les peuples et les zéphirs. }
+\pieceToc \markup { Chœur :
   \italic { Célébrons la gloire immortelle } } \includeScore "CDAchoeur"
+%{ n°7 %}\newBookPart #'(full)
+\pieceTocTitle "Entrée des Nations" \includeScore "CDBnations"
+%{ n°8 %}
+\pieceTocTitle "Entrée des zéphirs" \includeScore "CDCzephirs"
+%{ n°9 %}
+\pieceToc \markup { Chœur :
+  \italic { Que devant nous tout s'abaisse et tout tremble } } \includeScore "CDDchoeur"
+%{ n°10 %}
+\pieceToc \markup { Atys } \includeScore "CDEatys"
+%{ n°11 %}
+\pieceToc \markup { Chœur :
+  \italic { Que la puissante Cybèle nous rende à jamais heureux } } \includeScore "CDFchoeur"
+%{ n°12 %}
+\pieceToc \markup { Chœur :
+  \italic { Que devant nous tout s'abaisse et tout tremble }
+} \reIncludeScore "CDDchoeur" "CDGchoeur"
+%{ n°13 %}
+\pieceTocTitle "Entr'acte" \reIncludeScore "CDCzephirs" "CDHzephirs"
+\actEnd "FIN DU SECOND ACTE"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{ n°1 %}\newBookPart #'()
+\act "Acte Troisième"
