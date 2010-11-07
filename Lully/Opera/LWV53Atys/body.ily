@@ -125,9 +125,9 @@
   \italic { Que devant nous tout s'abaisse et tout tremble } } \includeScore "CDDchoeur"
 %{ n°10 %}
 \pieceToc \markup { Atys } \includeScore "CDEatys"
-%{ n°11 %}\newBookPart #'(full)
+%{ n°11 %}
 \pieceToc \markup { Chœur :
-  \italic { Que la puissante Cybèle nous rende à jamais heureux } } %\includeScore "CDFchoeur"
+  \italic { Que la puissante Cybèle nous rende à jamais heureux } } \includeScore "CDFchoeur"
 %{ n°12 %}
 \pieceToc \markup { Chœur :
   \italic { Que devant nous tout s'abaisse et tout tremble }
