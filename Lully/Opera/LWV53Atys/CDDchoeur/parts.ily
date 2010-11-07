@@ -1,0 +1,7 @@
+\piecePartSpecs #`((dessus)
+                   (haute-contre)
+                   (taille)
+                   (quinte)
+                   (basse)
+                   (basse-continue)
+                   (voix #:score "score-voix"))
