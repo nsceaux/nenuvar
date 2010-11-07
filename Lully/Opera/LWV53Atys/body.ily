@@ -106,11 +106,11 @@
 \sceneDescription \markup \smallCaps { Cybèle, Celænus, Mélisse. }
 \pieceTocTitle "Prélude" \includeScore "CBAprelude"
 %{ n°4 %}
-\pieceTocTitle \markup { Cybèle, Celænus } \includeScore "CBBcybeleCelaenus"
+\pieceToc \markup { Cybèle, Celænus } \includeScore "CBBcybeleCelaenus"
 %{ n°5 %}\newBookPart #'(full)
 \scene "Scène III"
 \sceneDescription \markup \smallCaps { Cybèle, Mélisse. }
-\pieceTocTitle \markup { Cybèle, Mélisse } \includeScore "CCAcybeleMelisse"
+\pieceToc \markup { Cybèle, Mélisse } \includeScore "CCAcybeleMelisse"
 %{ n°6 %}\newBookPart #'(full)
 \scene "Scène IV"
 \sceneDescription \markup { \smallCaps Atys, les peuples et les zéphirs. }
@@ -120,14 +120,14 @@
 \pieceTocTitle "Entrée des Nations" \includeScore "CDBnations"
 %{ n°8 %}
 \pieceTocTitle "Entrée des zéphirs" \includeScore "CDCzephirs"
-%{ n°9 %}
+%{ n°9 %}\newBookPart #'(full)
 \pieceToc \markup { Chœur :
   \italic { Que devant nous tout s'abaisse et tout tremble } } \includeScore "CDDchoeur"
 %{ n°10 %}
 \pieceToc \markup { Atys } \includeScore "CDEatys"
-%{ n°11 %}
+%{ n°11 %}\newBookPart #'(full)
 \pieceToc \markup { Chœur :
-  \italic { Que la puissante Cybèle nous rende à jamais heureux } } \includeScore "CDFchoeur"
+  \italic { Que la puissante Cybèle nous rende à jamais heureux } } %\includeScore "CDFchoeur"
 %{ n°12 %}
 \pieceToc \markup { Chœur :
   \italic { Que devant nous tout s'abaisse et tout tremble }
