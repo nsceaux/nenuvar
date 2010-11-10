@@ -139,3 +139,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°1 %}\newBookPart #'()
 \act "Acte Troisième"
+\sceneDescription \markup \wordwrap-center {
+  Le théâtre représente le palais du sacrificateur de Cybèle.
+}
+\scene "Scène Première"
+\sceneDescription \markup \smallCaps { Atys seul. }
+\pieceTocTitle "Ritournelle" \includeScore "DAAritournelle"
+%{ n°2 %}

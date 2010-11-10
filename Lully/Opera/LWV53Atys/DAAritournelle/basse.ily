@@ -1,0 +1,19 @@
+\clef "basse" sol,4 sol2 |
+si,2. |
+do4 la,2 |
+re sol,4 |
+do, re,2 |
+sol,4 sol2 |
+re sol4 |
+do2 fa4 |
+sib sol2 |
+do'4 fa2 |
+do4 dod2 |
+re sol,4 |
+la,2. |
+re4 sol2 |
+si,2. |
+do4 la,2 |
+re sol,4 |
+do, re,2 |
+sol,4 sol2 |
