@@ -17,3 +17,4 @@ mib''4 mi''4. mi''8 |
 fad''4 fad'' sol'' |
 sol'' fad''4.( mi''16 fad'') |
 sol''2 r4 |
+R2.*20

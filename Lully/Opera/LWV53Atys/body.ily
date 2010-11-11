@@ -144,5 +144,6 @@
 }
 \scene "Scène Première"
 \sceneDescription \markup \smallCaps { Atys seul. }
-\pieceTocTitle "Ritournelle" \includeScore "DAAritournelle"
+\pieceToc \markup { Atys :
+  \italic { Que servent les faveurs que nous fait la fortune } } \includeScore "DAAatys"
 %{ n°2 %}

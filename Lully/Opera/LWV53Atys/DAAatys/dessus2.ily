@@ -17,3 +17,4 @@ sol' do''4. do''8 |
 do''4 la' sib' |
 la' la'4.\trill sol'8 |
 sol'2 r4 |
+R2.*20

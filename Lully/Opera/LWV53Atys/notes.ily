@@ -15,3 +15,5 @@ Clairement, il doit y avoir dans l'effectif de l'orchestre au moins :
 - une haute-contre
 - une taille
 - une basse de hautbois
+
+acte 3 scène 1 : sur le manuscrit, on reprend la ritournelle.
