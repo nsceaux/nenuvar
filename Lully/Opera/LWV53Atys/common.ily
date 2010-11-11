@@ -100,6 +100,14 @@ dorisMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Doris"))
 
+dorisIdasMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Doris et Idas"))
+
+dorisAtysIdasMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Doris, Atys et Idas"))
+
 cybeleMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Cybèle"))

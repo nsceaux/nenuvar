@@ -147,3 +147,9 @@
 \pieceToc \markup { Atys :
   \italic { Que servent les faveurs que nous fait la fortune } } \includeScore "DAAatys"
 %{ n°2 %}
+\scene "Scène II"
+\sceneDescription \markup \smallCaps { Atys, Doris, Idas. }
+\pieceToc \markup { Atys, Doris, Idas. } \includeScore "DBAatysIdasDoris"
+%{ n°3 %}
+\scene "Scène III"
+\sceneDescription \markup \smallCaps { Atys seul. }
