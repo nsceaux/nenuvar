@@ -119,3 +119,16 @@ melisseMark =
 celaenusMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse-taille" "Celænus"))
+
+%%
+morpheeMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Morphée"))
+
+sommeilMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Le Sommeil"))
+
+phobetorMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Phobetor"))

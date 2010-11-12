@@ -159,3 +159,5 @@
 } \includeScore "DCAatys"
 %{ n°4 %}
 \scene "Scène IV"
+\sceneDescription \markup \smallCaps { Le Sommeil. }
+\pieceToc \markup { Le Sommeil, Morphée, Phantase, Phobetor } \includeScore "DDAsommeil"
