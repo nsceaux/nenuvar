@@ -136,3 +136,7 @@ phantaseMark =
 phobetorMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Phobetor"))
+
+songeFunesteMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Un songe funeste"))
