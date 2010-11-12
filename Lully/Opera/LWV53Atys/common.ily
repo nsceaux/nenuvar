@@ -129,6 +129,10 @@ sommeilMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Le Sommeil"))
 
+phantaseMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vtaille" "Phantase"))
+
 phobetorMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Phobetor"))
