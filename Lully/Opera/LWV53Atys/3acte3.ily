@@ -29,3 +29,6 @@
 %{ n°6 %}
 \pieceTocTitle "Entrée des songes agréables" \includeScore "DDCsongesAgreables"
 %{ n°7 %}
+\pieceToc \markup { Phobetor, Morphée, Phantase :
+  \italic { Goûte en paix chaque jour une douceur nouvelle } } \includeScore "DDDsommeil"
+%{ n°8 %}
