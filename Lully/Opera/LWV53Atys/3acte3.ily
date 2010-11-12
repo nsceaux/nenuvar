@@ -38,3 +38,7 @@
   \italic { Garde-toi d'offenser un amour glorieux } } \includeScore "DDFfuneste"
 %{ n°10 %}
 \pieceTocTitle "Entrée des songes funestes" \includeScore "DDGsongesFunestes"
+%{ n°11 %}\newBookPart #'(full)
+\pieceToc \markup { Chœur des songes funestes :
+  \italic { L'amour qu'on outrage Se transforme en rage } } \includeScore "DDHchoeur"
+%{ n°12 %}
