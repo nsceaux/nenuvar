@@ -27,3 +27,5 @@
 \pieceToc \markup { Morphée, Phantase, Phobetor :
   \italic { Écoute, écoute Atys la gloire qui t'appelle } } \includeScore "DDBsommeil"
 %{ n°6 %}
+\pieceTocTitle "Entrée des songes agréables" \includeScore "DDCsongesAgreables"
+%{ n°7 %}
