@@ -37,3 +37,4 @@
 \pieceToc \markup { Un songe funeste :
   \italic { Garde-toi d'offenser un amour glorieux } } \includeScore "DDFfuneste"
 %{ n°10 %}
+\pieceTocTitle "Entrée des songes funestes" \includeScore "DDGsongesFunestes"
