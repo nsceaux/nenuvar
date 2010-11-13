@@ -47,3 +47,8 @@
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Cybèle, Atys. }
 \pieceToc \markup { Cybèle, Atys } \includeScore "DEAcybeleAtys"
+%{ n°14 %}
+\scene "Scène VI"
+\sceneDescription \markup \smallCaps { Cybèle, Atys, Sangaride. }
+\pieceToc \markup { Cybèle, Atys, Sangaride } \includeScore "DFAcybeleAtysSangaride"
+%{ n°15 %}
