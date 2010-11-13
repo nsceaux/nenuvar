@@ -42,3 +42,4 @@
 \pieceToc \markup { Chœur des songes funestes :
   \italic { L'amour qu'on outrage Se transforme en rage } } \includeScore "DDHchoeur"
 %{ n°12 %}
+\pieceTocTitle "Deuxième entrée des songes funestes" \includeScore "DDIsongesFunestes"
