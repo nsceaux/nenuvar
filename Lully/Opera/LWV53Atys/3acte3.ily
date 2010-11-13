@@ -41,7 +41,7 @@
 %{ n°11 %}\newBookPart #'(full)
 \pieceToc \markup { Chœur des songes funestes :
   \italic { L'amour qu'on outrage Se transforme en rage } } \includeScore "DDHchoeur"
-%{ n°12 %}
+%{ n°12 %}\newBookPart #'(full)
 \pieceTocTitle "Deuxième entrée des songes funestes" \includeScore "DDIsongesFunestes"
 %{ n°13 %}\newBookPart #'(full)
 \scene "Scène V"
@@ -51,9 +51,13 @@
 \scene "Scène VI"
 \sceneDescription \markup \smallCaps { Cybèle, Atys, Sangaride. }
 \pieceToc \markup { Cybèle, Atys, Sangaride } \includeScore "DFAcybeleAtysSangaride"
-%{ n°15 %}
+%{ n°15 %}\newBookPart #'(full)
 \scene "Scène VII"
 \sceneDescription \markup \smallCaps { Cybèle, Mélisse. }
 \pieceToc \markup { Cybèle, Mélisse } \includeScore "DGAcybeleMelisse"
-%{ n°16 %}
+%{ n°16 %}\newBookPart #'(full)
 \scene "Scène VIII"
+\sceneDescription \markup \smallCaps { Cybèle seule. }
+\pieceToc \markup { Cybèle :
+  \italic { Espoir si cher et si doux } } \includeScore "DHAcybele"
+\actEnd "FIN DU TROISIÈME ACTE"
