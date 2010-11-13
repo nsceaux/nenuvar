@@ -43,3 +43,7 @@
   \italic { L'amour qu'on outrage Se transforme en rage } } \includeScore "DDHchoeur"
 %{ n°12 %}
 \pieceTocTitle "Deuxième entrée des songes funestes" \includeScore "DDIsongesFunestes"
+%{ n°13 %}\newBookPart #'(full)
+\scene "Scène V"
+\sceneDescription \markup \smallCaps { Cybèle, Atys. }
+\pieceToc \markup { Cybèle, Atys } \includeScore "DEAcybeleAtys"
