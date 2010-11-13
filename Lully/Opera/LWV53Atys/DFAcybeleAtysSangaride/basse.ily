@@ -52,7 +52,7 @@ fa,1 |
 fa2 dod |
 re la,4 |
 la sib8 sol la la, |
-re2. do8 sib, |
+re2. do8 si, |
 la,2 la4 sol |
 fa1 |
 mi2 mi, |
