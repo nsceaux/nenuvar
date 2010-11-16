@@ -10,3 +10,5 @@
 \scene "Scène II"
 \sceneDescription \markup \smallCaps { Celænus, Sangaride. }
 \pieceTocTitle "Prélude" \includeScore "EBAprelude"
+%{ n°3 %}
+\pieceToc \markup { Sangaride, Celænus } \includeScore "EBBcelaenusSangaride"
