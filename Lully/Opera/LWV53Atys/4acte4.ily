@@ -28,3 +28,7 @@
 \pieceTocTitle "Prélude" \includeScore "EEAprelude"
 %{ n°7 %}
 \pieceToc \markup { Sangar, chœur des Fleuves } \includeScore "EEBsangarChoeur"
+%{ n°8 %}
+\pieceToc \markup { Sangar, chœur des Fleuves :
+  \italic { Que l'on chante, que l'on danse } } \includeScore "EECsangarChoeur"
+%{ n°9 %}
