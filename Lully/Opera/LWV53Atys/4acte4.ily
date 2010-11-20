@@ -34,4 +34,7 @@
 %{ n°9 %}\newBookPart #'(full)
 \pieceToc \markup { Chœur :
   \italic { La beauté la plus sévère } } \includeScore "EEDfluteChoeur"
-%{ n°10 %}\newBookPart #'(full)
+%{ n°10 %}
+\pieceToc \markup { Chœur :
+  \italic { L'hymen seul ne saurait plaire } } \includeScore "EEEfluteChoeur"
+%{ n°11 %}
