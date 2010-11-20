@@ -21,3 +21,7 @@
 \sceneDescription \markup \smallCaps { Sangaride, Atys. }
 \pieceTocTitle "Ritournelle" \includeScore "EDAritournelle"
 %{ n°5 %}
+\pieceToc \markup { Sangaride, Atys } \includeScore "EDBsangarideAtys"
+%{ n°6 %}
+\scene "Scène V"
+\sceneDescription \markup \smallCaps { Le Fleuve Sangar, les Fleuves. }

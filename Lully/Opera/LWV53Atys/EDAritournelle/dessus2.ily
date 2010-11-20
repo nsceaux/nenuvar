@@ -6,5 +6,5 @@ si'2 si'4 |
 r do''4. sib'8 |
 la'4 re''4. re''8 |
 re''4 si' do''~ |
-do''8 re'' si'4. do''8 |
+do''8 re'' si'4.\trill do''8 |
 do''2. |
