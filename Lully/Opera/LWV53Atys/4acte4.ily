@@ -25,3 +25,4 @@
 %{ n°6 %}
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Le Fleuve Sangar, les Fleuves. }
+\pieceToc "Prélude" \includeScore "EEAprelude"
