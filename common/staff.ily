@@ -1,5 +1,3 @@
-%%% -*- Mode: scheme -*-
-
 #(use-modules (ice-9 format))
 #(define-public gen-unique-context
   ;; Generate a uniqueSchemeContextXX symbol, that may be (hopefully) unique.
@@ -19,6 +17,14 @@ withLyrics =
    (let ((name (symbol->string (gen-unique-context))))
      #{  << \context Voice = $name \with { autoBeaming = ##f } $music
             \lyricsto $name \new Lyrics $lyrics
+            >> #}))
+
+withLyricsB =
+#(define-music-function (parser location music lyrics1 lyrics2) (ly:music? ly:music? ly:music?)
+   (let ((name (symbol->string (gen-unique-context))))
+     #{  << \context Voice = $name \with { autoBeaming = ##f } $music
+            \lyricsto $name \new Lyrics $lyrics1
+            \lyricsto $name \new Lyrics $lyrics2
             >> #}))
 
 withRecit =
