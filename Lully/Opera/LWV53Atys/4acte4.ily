@@ -19,3 +19,5 @@
 %{ n°4 %}
 \scene "Scène IV"
 \sceneDescription \markup \smallCaps { Sangaride, Atys. }
+\pieceTocTitle "Ritournelle" \includeScore "EDAritournelle"
+%{ n°5 %}
