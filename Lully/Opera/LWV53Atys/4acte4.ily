@@ -25,4 +25,6 @@
 %{ n°6 %}
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Le Fleuve Sangar, les Fleuves. }
-\pieceToc "Prélude" \includeScore "EEAprelude"
+\pieceTocTitle "Prélude" \includeScore "EEAprelude"
+%{ n°7 %}
+\pieceToc \markup { Sangar, chœur des Fleuves } \includeScore "EEBsangarChoeur"
