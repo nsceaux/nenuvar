@@ -40,3 +40,9 @@
 %{ n°11 %}
 \pieceToc \markup { Deux divinités :
   \italic { D'une constance extrême } } \includeScore "EEFmenuetDuo"
+%{ n°12 %}
+\pieceToc \markup { Chœur :
+  \italic { Un grand calme est trop fâcheux } } \includeScore "EEGgavotteChoeur"
+%{ n°6 %}\newBookPart #'(full)
+\scene "Scène V"
+\sceneDescription \markup \smallCaps { Celænus, Sangaride, Atys. }
