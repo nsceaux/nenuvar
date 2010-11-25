@@ -1,0 +1,1 @@
+R2.*6\noBreak R2.*10\noBreak R2.*6\noBreak R2.*12

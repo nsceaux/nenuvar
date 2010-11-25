@@ -32,9 +32,11 @@
 \pieceToc \markup { Sangar, chœur des Fleuves :
   \italic { Que l'on chante, que l'on danse } } \includeScore "EECsangarChoeur"
 %{ n°9 %}\newBookPart #'(full)
-\pieceToc \markup { Chœur :
+\pieceToc \markup { Trois divinités :
   \italic { La beauté la plus sévère } } \includeScore "EEDfluteChoeur"
 %{ n°10 %}
-\pieceToc \markup { Chœur :
+\pieceToc \markup { Trois divinités :
   \italic { L'hymen seul ne saurait plaire } } \includeScore "EEEfluteChoeur"
 %{ n°11 %}
+\pieceToc \markup { Deux divinités :
+  \italic { D'une constance extrême } } \includeScore "EEFmenuetDuo"
