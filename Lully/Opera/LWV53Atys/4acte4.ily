@@ -50,3 +50,6 @@
 %{ n°15 %}\newBookPart #'(full)
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Celænus, Sangaride, Atys. }
+\pieceToc \markup { Atys, Celænus, Sangar, chœur } \includeScore "EFAchoeur"
+%{ n°16 %}\newBookPart #'(full)
+\pieceToc "Entr'acte" \includeScore "EFBgavotte"

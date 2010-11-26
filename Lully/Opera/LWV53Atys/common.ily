@@ -145,3 +145,7 @@ songeFunesteMark =
 sangarMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Sangar"))
+
+choeurMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Chœur"))
