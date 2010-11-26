@@ -34,15 +34,15 @@
 %{ n°9 %}\newBookPart #'(full)
 \pieceToc \markup { Trois divinités :
   \italic { La beauté la plus sévère } } \includeScore "EEDfluteChoeur"
-%{ n°10 %}
+%{ n°10 %}\newBookPart #'(full)
 \pieceToc \markup { Trois divinités :
   \italic { L'hymen seul ne saurait plaire } } \includeScore "EEEfluteChoeur"
-%{ n°11 %}
+%{ n°11 %}\newBookPart #'(full)
 \pieceTocTitle "Menuet" \includeScore "EEFmenuet"
 %{ n°12 %}
 \pieceToc \markup { Deux divinités :
-  \italic { D'une constance extrême } } \includeScore "EEGgavotteChoeur"
-%{ n°13 %}
+  \italic { D'une constance extrême } } \includeScore "EEGduo"
+%{ n°13 %}\newBookPart #'(full)
 \pieceTocTitle "Gavotte" \includeScore "EEHgavotte"
 %{ n°14 %}
 \pieceToc \markup { Chœur :
@@ -52,4 +52,5 @@
 \sceneDescription \markup \smallCaps { Celænus, Sangaride, Atys. }
 \pieceToc \markup { Atys, Celænus, Sangar, chœur } \includeScore "EFAchoeur"
 %{ n°16 %}\newBookPart #'(full)
-\pieceToc "Entr'acte" \includeScore "EFBgavotte"
+\pieceTocTitle "Entr'acte" \includeScore "EFBgavotte"
+\actEnd "FIN DU QUATRIÈME ACTE"
