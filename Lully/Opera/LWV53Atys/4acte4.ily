@@ -38,11 +38,15 @@
 \pieceToc \markup { Trois divinités :
   \italic { L'hymen seul ne saurait plaire } } \includeScore "EEEfluteChoeur"
 %{ n°11 %}
-\pieceToc \markup { Deux divinités :
-  \italic { D'une constance extrême } } \includeScore "EEFmenuetDuo"
+\pieceTocTitle "Menuet" \includeScore "EEFmenuet"
 %{ n°12 %}
+\pieceToc \markup { Deux divinités :
+  \italic { D'une constance extrême } } \includeScore "EEGgavotteChoeur"
+%{ n°13 %}
+\pieceTocTitle "Gavotte" \includeScore "EEHgavotte"
+%{ n°14 %}
 \pieceToc \markup { Chœur :
-  \italic { Un grand calme est trop fâcheux } } \includeScore "EEGgavotteChoeur"
-%{ n°6 %}\newBookPart #'(full)
+  \italic { Un grand calme est trop fâcheux } } \includeScore "EEIchoeur"
+%{ n°15 %}\newBookPart #'(full)
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Celænus, Sangaride, Atys. }
