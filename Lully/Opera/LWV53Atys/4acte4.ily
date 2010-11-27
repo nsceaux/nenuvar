@@ -49,7 +49,7 @@
   \italic { Un grand calme est trop fâcheux } } \includeScore "EEIchoeur"
 %{ n°15 %}\newBookPart #'(full)
 \scene "Scène V"
-\sceneDescription \markup \smallCaps { Celænus, Sangaride, Atys. }
+\sceneDescription \markup \smallCaps { Celænus, Sangar, Atys. }
 \pieceToc \markup { Atys, Celænus, Sangar, chœur } \includeScore "EFAchoeur"
 %{ n°16 %}\newBookPart #'(full)
 \pieceTocTitle "Entr'acte" \includeScore "EFBgavotte"
