@@ -6,3 +6,6 @@
 \scene "Scène Première"
 \sceneDescription \markup \smallCaps { Celænus, Cybèle, Mélisse. }
 \pieceTocTitle "Ritournelle" \includeScore "FAAritournelle"
+%{ n°2 %}
+\pieceToc \markup { Celænus, Cybèle } \includeScore "FABcelaenusCybele"
+%{ n°3 %}
