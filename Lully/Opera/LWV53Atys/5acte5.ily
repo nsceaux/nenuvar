@@ -9,3 +9,9 @@
 %{ n°2 %}
 \pieceToc \markup { Celænus, Cybèle } \includeScore "FABcelaenusCybele"
 %{ n°3 %}
+\scene "Scène II"
+\sceneDescription \markup \smallCaps { Celænus, Cybèle, Sangaride, Atys. }
+\pieceToc \markup { Celænus, Cybèle, Sangaride, Atys } \includeScore "FBAccsa"
+%{ n°4 %}
+\scene "Scène III"
+\sceneDescription \markup \smallCaps { Celænus, Sangaride, Atys. }
