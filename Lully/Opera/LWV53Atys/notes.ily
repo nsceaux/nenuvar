@@ -17,3 +17,6 @@ Clairement, il doit y avoir dans l'effectif de l'orchestre au moins :
 - une basse de hautbois
 
 acte 3 scène 1 : sur le manuscrit, on reprend la ritournelle.
+
+acte 5 scène 3
+Celaenus et B.C. mesures 28-29

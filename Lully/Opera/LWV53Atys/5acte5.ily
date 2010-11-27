@@ -14,4 +14,10 @@
 \pieceToc \markup { Celænus, Cybèle, Sangaride, Atys } \includeScore "FBAccsa"
 %{ n°4 %}
 \scene "Scène III"
-\sceneDescription \markup \smallCaps { Celænus, Sangaride, Atys. }
+\sceneDescription \markup \smallCaps { Celænus, Cybèle, Sangaride, Atys. }
+\pieceTocTitle "Prélude" \includeScore "FCAprelude"
+%{ n°5 %}
+\pieceToc \markup { Atys, Sangaride, Celænus, Cybèle, chœur } \includeScore "FCBascc"
+%{ n°6 %}
+\scene "Scène IV"
+\sceneDescription \markup \smallCaps { Cybèle, Atys. }
