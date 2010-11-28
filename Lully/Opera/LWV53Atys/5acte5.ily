@@ -37,3 +37,4 @@
 %{ n°10 %}
 \pieceToc \markup { Cybèle, chœur } \includeScore "FGBcybeleChoeur"
 %{ n°11 %}
+\pieceTocTitle "Entrée des Nymphes" \includeScore "FGCnymphes"
