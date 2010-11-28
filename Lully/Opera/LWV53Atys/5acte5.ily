@@ -30,3 +30,8 @@
 \scene "Scène VI"
 \sceneDescription \markup \smallCaps { Cybèle, Idas, Atys. }
 \pieceToc \markup { Cybèle, Idas, Atys } \includeScore "FFAcybeleIdasAtys"
+%{ n°9 %}
+\scene "Scène VI"
+\sceneDescription \markup \smallCaps { Cybèle, chœurs. }
+\pieceTocTitle "Ritournelle" \includeScore "FGAritournelle"
+%{ n°10 %}
