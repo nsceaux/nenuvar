@@ -44,4 +44,4 @@
 \pieceTocTitle "Deuxième entrée des Corybantes" \includeScore "FGEcorybantes"
 %{ n°14 %}\newBookPart #'(full)
 \pieceToc \markup { Cybèle, chœur } \includeScore "FGFcybeleChoeur"
-\actEnd { FIN DU CINQUIÈME ET DERNIER ACTE }
+\actEnd "FIN DU CINQUIÈME ET DERNIER ACTE"
