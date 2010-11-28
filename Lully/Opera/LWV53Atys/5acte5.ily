@@ -35,3 +35,5 @@
 \sceneDescription \markup \smallCaps { Cybèle, chœurs. }
 \pieceTocTitle "Ritournelle" \includeScore "FGAritournelle"
 %{ n°10 %}
+\pieceToc \markup { Cybèle, chœur } \includeScore "FGBcybeleChoeur"
+%{ n°11 %}
