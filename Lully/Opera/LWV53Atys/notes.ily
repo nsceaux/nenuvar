@@ -26,6 +26,10 @@ mesure xx atys, "ah quelle barbare"
 si8 si --> sol8 sol8
 
 acte 5 scene 7
-permière entrée des corybantes, mesure 4 haute-contre
+première entrée des corybantes, mesure 4 haute-contre
 1ère édition : la'4 si'2 (sonne bizarre)
 manuscrit : si'4 si'2
+
+deuxième entrée des corybantes, dernière mesure quinte
+1ère édition : si1 (manifestement incorrect : accord do majeur)
+manuscrit : sol

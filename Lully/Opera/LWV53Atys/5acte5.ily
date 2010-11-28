@@ -40,3 +40,5 @@
 \pieceTocTitle "Entrée des Nymphes" \includeScore "FGCnymphes"
 %{ n°12 %}
 \pieceTocTitle "Première entrée des Corybantes" \includeScore "FGDcorybantes"
+%{ n°13 %}
+\pieceTocTitle "Deuxième entrée des Corybantes" \includeScore "FGEcorybantes"
