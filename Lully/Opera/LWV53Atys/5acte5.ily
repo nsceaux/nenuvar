@@ -26,3 +26,7 @@
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Cybèle, Mélisse. }
 \pieceToc \markup { Cybèle, Mélisse } \includeScore "FEAcybeleMelisse"
+%{ n°8 %}
+\scene "Scène VI"
+\sceneDescription \markup \smallCaps { Cybèle, Idas, Atys. }
+\pieceToc \markup { Cybèle, Idas, Atys } \includeScore "FFAcybeleIdasAtys"
