@@ -20,3 +20,7 @@ acte 3 scène 1 : sur le manuscrit, on reprend la ritournelle.
 
 acte 5 scène 3
 Celaenus et B.C. mesures 28-29
+
+acte 5 scène 4
+mesure xx atys, "ah quelle barbare"
+si8 si --> sol8 sol8
