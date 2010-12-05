@@ -11,6 +11,7 @@
   }
   \null
   \three-cells-title "" "Ballard 1689" "Manuscrit"
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% AAAouverture, quinte, mesure 7
   \three-cells
   \column { \line { \bold Ouverture (page \page-refIII #'AAAouverture )} \line { Mesure 7, quinte } }
@@ -34,7 +35,7 @@
       }
     }
     \wordwrap { Le guidon présent à la fin de la mesure précédente
-      pointe sur le la et non si\tiny\flat. }
+      pointe sur le la et non sur un si\tiny\flat. }
   }
   %% AAAouverture, dessus, mesure 11
   \three-cells
@@ -59,7 +60,7 @@
   }
   %% AAAouverture, dessus et haute-contre, mesure 15
   \three-cells
-  \column { \line { Mesure 15, } \line { dessus, haute-contre } }
+  \wordwrap { Mesure 15, dessus, haute-contre }
   \score {
     \new StaffGroup <<
       \new Staff {
@@ -399,4 +400,79 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% AABleTemps, mesure 5
+  \three-cells
+  \column {
+    \line { \bold Prologue }
+    \line { \bold { Le Temps } %: \italic { En vain j'ai respecté } }
+      (page \page-refIII #'AABleTemps ) }
+    \line { Mesure 5 } }
+  \score { 
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #5
+      \set autoBeaming = ##f
+      \key re \minor \clef "varbaritone"
+      sib8 sib16 sib sib8 sib16 la la4 la8 fa |
+    } \addlyrics { noms si fa -- meux dans l'his -- toi -- re du }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #5
+      \set autoBeaming = ##f
+      \key re \minor \clef "varbaritone"
+      sib8 sib16 sib sib8 sib16 la la8 la r fa |
+    } \addlyrics { noms si fa -- meux dans l'his -- toi -- re du }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AABleTemps, mesure 13
+  \three-cells
+  \line { Mesure 13 }
+  \score {
+    \new StaffGroupNoBar <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #13
+        \set autoBeaming = ##f
+        \key re \minor \clef "varbaritone"
+        sol8 sol mib do re4 re8[ do16] re |
+        \override Score.TimeSignature #'style = #'single-digit \time 3/4 sol,2. \bar "|."
+      } \addlyrics { les a pres -- que tous ef -- fa -- cez. }
+      \new Staff {
+        \key re \minor \clef "bass"
+        do2 re4 re, | sol,2.
+      }
+    >>
+    \layout { indent = 0 }
+  }
+  \score {
+    \new StaffGroupNoBar <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #13
+        \set autoBeaming = ##f
+        \key re \minor \clef "varbaritone"
+        sol8 sol mib do re4 re16[ do] re8 |
+        \override Score.TimeSignature #'style = #'single-digit \time 3/4 sol,2. \bar "|."
+      } \addlyrics { les a pres -- que tous ef -- fa -- cez. }
+      \new Staff {
+        \key re \minor \clef "bass"
+        do2 re | sol,2.
+      }
+    >>
+    \layout { indent = 0 }
+  }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% 
 }

@@ -9,6 +9,7 @@ fad, |
 sol,1 |
 la,2 re,4 re |
 sol,2 mib |
-re do |
-do re |
+re do~ |
+% Manuscrit : do re |
+do re4 re, |
 sol,2. |

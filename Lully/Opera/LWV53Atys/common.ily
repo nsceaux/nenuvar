@@ -170,3 +170,7 @@ choeurMark =
                               #:force-line-width-ratio 7/20 #:bold #:fill-line (cell2)
                               #:force-line-width-ratio 1/20 #:null
                               #:force-line-width-ratio 7/20 #:bold #:fill-line (cell3)))))
+
+#(define-markup-command (sep layout props) ()
+   (interpret-markup layout props
+                     (markup #:fill-line (#:draw-line '(30 . 0)))))
