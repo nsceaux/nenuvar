@@ -5,10 +5,18 @@ R2.*2 |
 do''4 do''4. fa''8 |
 re''2.\trill |
 re''4. re''8 mib''8. mib''16 |
-mib''4 re'' re'' |
+% Manuscrit : mib''4 re'' re'' |
+mib''4 re''4. re''8 |
 re''2 do''4 |
 re''2. |
-R2.*8 |
+R2.*2 |
+% Manuscrit : R2.*2
+re''4 re''4. sol''8 |
+mi''2.\trill |
+R2.*2 |
+% Manuscrit : R2.*2
+do''4 do''4. fa''8 |
+re''2.\trill |
 re''4. re''8 sol''8. sol''16 |
 sol''4. la''8 fa''4 |
 mi''4.\trill mi''8 la''4 |

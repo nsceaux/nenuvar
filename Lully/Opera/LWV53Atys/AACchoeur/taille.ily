@@ -4,11 +4,20 @@ sol'2. |
 R2.*2 |
 fa'4 fa'4. fa'8 |
 fa'2. |
-sol'4. sol'8 mib'8. mib'16 |
-fa'4 fa' sib |
+% Manuscrit : sol'4. sol'8 mib'?8. mib'16 |
+sol'4. sol'8 sol'8. sol'16 |
+% Manuscrit : fa'4 fa' sib |
+do'4 fa' sib |
 sib2 do'4 |
 la2. |
-R2.*8 |
+R2.*2 |
+% Manuscrit : R2.*2 |
+sol'4 sol'4. sol'8 |
+sol'2. |
+R2.*2 |
+% Manuscrit : R2.*2
+fa'4 fa'4. fa'8 |
+fa'2. |
 sol'4. sol'8 sol'8. sol'16 |
 mi'4 mi' re' |
 mi' mi'4. re'8 |

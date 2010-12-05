@@ -1,5 +1,6 @@
 \clef "vbasse" R2.*2 |
-sol4 sol8[ la] sib[ sol] |
+% Manuscrit : sol4 sol8[ la] sib[ sol] |
+sol4 sol8[ la] si[ sol] |
 do'2. |
 R2.*2 |
 fa4 fa8[ sol] la[ fa] |
@@ -9,7 +10,8 @@ fa4 fa sol |
 mib2. |
 re |
 R2.*2 |
-sol4 sol8[ la] sib[ sol] |
+% sol4 sol8[ la] sib[ sol] |
+sol4 sol8[ la] si[ sol] |
 do'2. |
 R2.*2 |
 fa4 fa8[ sol] la[ fa] |

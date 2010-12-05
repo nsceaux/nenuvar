@@ -4,7 +4,8 @@ sol'4 sol'4. sol'8 |
 sol'2. |
 la'4 la'4. la'8 |
 la'2.\trill |
-fa'4 fa'4. fa'8 |
+% Manuscrit : fa'4 fa'4. fa'8 |
+fa'4 fa' fa' |
 fa'2. |
 sol'4. sol'8 sol'8. sol'16 |
 do'4 fa' re' |
@@ -30,7 +31,8 @@ fa'2 la'4 |
 sol' sol' fad' |
 sol' sol'4. sol'8 |
 fad'2 fad'8 fad' |
-sol'4 sol'4. sol'8 |
+% sol'4 sol'4. sol'8 |
+sol'4. sol'8 sol'4 |
 fa'2( mib'4) |
 re' fa'4. fa'8 |
 fa'4 fa' fa' |
@@ -41,6 +43,7 @@ sol'2 sol'4 |
 sol' fa'4. fa'8 |
 fa'4 fa' sol' |
 fad'2 fad'8 fad' |
-sol'4 sol'4. sol'8 |
+% sol'4 sol'4. sol'8 |
+sol'4 sol' sol' |
 sol'2( fad'4) |
 sol'2. |

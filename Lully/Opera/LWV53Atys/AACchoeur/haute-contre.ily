@@ -1,14 +1,23 @@
 \clef "haute-contre" R2.*2 |
-sib'4 sib'4. sib'8 |
+% Manuscrit : sib'4 sib'4. sib'8 |
+si'4 si'4. si'8 |
 do''2. |
 R2.*2 |
 la'4 la'4. la'8 |
 sib'2. |
-sib'4. sib'8 sib'8. do''16 |
+% Manuscrit : sib'4. sib'8 sib'8. do''16 |
+sib'4. sib'8 sol'8. sol'16 |
 la'4 la' sib' |
 sol'2. |
 fad' |
-R2.*8 |
+R2.*2 |
+% Manuscrit : R2.*2
+si'4 si'4. si'8 |
+do''2. |
+R2.*2 |
+% Manuscrit : R2.*2
+la'4 la'4. la'8 |
+sib'2. |
 sib'4. sib'8 sib'8. sib'16 |
 la'4 la' la' |
 la'2. |
