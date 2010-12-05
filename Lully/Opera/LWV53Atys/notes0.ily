@@ -175,7 +175,7 @@
         \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
         \set Score.currentBarNumber = #21
         \key re \minor \clef "mezzosoprano" \time 6/4
-        mib'8 fa' sol'4. la'8 fad'4.( mi'?16) fad' sol'4 |
+        mib'8 fa' sol'4. la'8 fad'4.( mi'16) fad' sol'4 |
       }
       \new Staff {
         \key re \minor \clef "bass" \time 6/4
@@ -819,6 +819,109 @@
         sol4 sol mib' | re'2( do'4) | si2. |
       } \addlyrics { gloi -- re nou -- vel -- le. }
     >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \line { \bold { Air pour les nymphes de Flore } (page \page-refIII #'AADair ) }
+  %% AADair mesure 11
+  \three-cells
+  \line { Mesure 11, haute-contre }
+  \score { 
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #11
+      \key re \minor \clef "soprano" \time 3/4
+      sib'4 la'4. sib'8 |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score { 
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #11
+      \key re \minor \clef "soprano" \time 3/4
+      sib'8 la' la'4. sib'8 |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AADair mesure 23
+  \three-cells
+  \line { Mesure 23, quinte }
+  \score { 
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #23
+      \key re \minor \clef "alto" \time 3/4
+      mi'4 mi'4. mi'8 |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score { 
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #23
+      \key re \minor \clef "alto" \time 3/4
+      mi'4. mi'8 mi'4 |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AADair mesure 28
+  \three-cells
+  \line { Mesure 28, quinte }
+  \score { 
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #28
+      \key re \minor \clef "alto" \time 3/4
+      re'4. re'8 re'4 |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score { 
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #28
+      \key re \minor \clef "alto" \time 3/4
+      re'4 re'4. re'8 |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AADair mesure 29
+  \three-cells
+  \line { Mesure 29, taille }
+  \score { 
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #29
+      \key re \minor \clef "mezzosoprano" \time 3/4
+      re'4 re'4. re'8 | si2. | \bar "|."
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score { 
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #29
+      \key re \minor \clef "mezzosoprano" \time 3/4
+      re'4 re'4. do'8 | si2. | \bar "|."
+    }
     \layout {
       indent = 0
       \context { \Staff \remove "Time_signature_engraver" }
