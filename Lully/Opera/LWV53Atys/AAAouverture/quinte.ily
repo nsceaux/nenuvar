@@ -4,7 +4,8 @@ sib4 re' re'2 |
 re'2. re'4 |
 do' do' re'4. re'8 |
 sol2 do' |
-sib4. sib8 sib la sol4 |
+% Manuscrit : sib4. sib8 sib la sol4
+la4. la8 sib la sol4 |
 la1 |
 sib2. sib4 |
 do'2. re'4 |
@@ -21,15 +22,17 @@ sol4 do'2 la4 re'4. re'8 |
 re'2. re'2 re'4 |
 do'2 do'4 do'2 do'4 |
 sib2 fa4 fa2 fa'4 |
-fa'4. re'8 mib'4 re'2. |
+% Manuscrit : fa'4. re'8 mib'4 re'2. |
+fa'4. re'8 re'4 re'2. |
 re'4 mi'2 mi' mi'8 mi' |
 re'2 la4 la2 la4 |
 la re'2 re'4 sol2 |
 la la la4. la8 |
-la2 la8 la sib la sib do' sib la |
+la2~ la8 la sib la sib do' sib la |
 sol2 sol8 sol la4 fa2 |
 sib sib4 sib2 sib8 sib |
-la2 la8 la re'2. |
+% Manuscrit : la2 la8 la re'2
+la2 la4 la re'2 |
 sol2 sol4 la re'4. re'8 |
 re'2 re'4. re'8 |
 re'4. re'8 do'4. do'8 |

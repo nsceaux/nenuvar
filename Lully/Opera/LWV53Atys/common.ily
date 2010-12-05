@@ -149,3 +149,24 @@ sangarMark =
 choeurMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Chœur"))
+
+%%%%
+
+#(define-markup-command (three-cells layout props cell1 cell2 cell3)
+   (markup? markup? markup?)
+   (interpret-markup layout props
+                     (markup #:line
+                             (#:force-line-width-ratio 4/20 cell1
+                              #:force-line-width-ratio 1/20 #:null
+                              #:force-line-width-ratio 7/20 cell2
+                              #:force-line-width-ratio 1/20 #:null
+                              #:force-line-width-ratio 7/20 cell3))))
+#(define-markup-command (three-cells-title layout props cell1 cell2 cell3)
+   (markup? markup? markup?)
+   (interpret-markup layout props
+                     (markup #:line
+                             (#:force-line-width-ratio 4/20 #:bold #:fill-line (cell1)
+                              #:force-line-width-ratio 1/20 #:null
+                              #:force-line-width-ratio 7/20 #:bold #:fill-line (cell2)
+                              #:force-line-width-ratio 1/20 #:null
+                              #:force-line-width-ratio 7/20 #:bold #:fill-line (cell3)))))

@@ -161,22 +161,21 @@
 
 #(define (page-ref-aux layout props label gauge next)
   (let* ((gauge-stencil (interpret-markup layout props gauge))
-	 (x-ext (ly:stencil-extent gauge-stencil X))
-	 (y-ext (ly:stencil-extent gauge-stencil Y)))
+         (x-ext (ly:stencil-extent gauge-stencil X))
+         (y-ext (ly:stencil-extent gauge-stencil Y)))
     (ly:make-stencil
      `(delay-stencil-evaluation
        ,(delay (ly:stencil-expr
-		(let* ((table (ly:output-def-lookup layout 'label-page-table))
-		       (label-page (and (list? table) (assoc label table)))
-		       (page-number (and label-page (cdr label-page)))
-		       (page-markup (if page-number
-                                        (markup #:concat ((format "~a" page-number) next))
-                                        "?"))
-		       (page-stencil (interpret-markup layout props page-markup))
-		       (gap (- (interval-length x-ext)
-			       (interval-length (ly:stencil-extent page-stencil X)))))
-		  (interpret-markup layout props
-				    (markup #:concat (page-markup #:hspace gap)))))))
+                (let* ((table (ly:output-def-lookup layout 'label-page-table))
+                       (label-page (and (list? table) (assoc label table)))
+                       (page-number (and label-page (cdr label-page)))
+                       (page-markup (markup #:concat ((format "~a" (or page-number "?"))
+                                                      next)))
+                       (page-stencil (interpret-markup layout props page-markup))
+                       (gap (- (interval-length x-ext)
+                               (interval-length (ly:stencil-extent page-stencil X)))))
+                  (interpret-markup layout props
+                                    (markup #:concat (page-markup #:hspace gap)))))))
      x-ext
      y-ext)))
 
