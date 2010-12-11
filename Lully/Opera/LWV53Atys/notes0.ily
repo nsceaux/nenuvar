@@ -1072,6 +1072,161 @@
   }
   \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \line { \bold { Air pour la suite de Flore } (page \page-refIII #'AAGair ) }
+  %% AAGair taille mesure 4
+  \three-cells
+  \line { Mesure 4, taille }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #4
+      \key sol \major \clef "mezzosoprano" \time 2/2
+      re'4 mi' re'4. re'8 | si2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #4
+      \key sol \major \clef "mezzosoprano" \time 2/2
+      re'4 mi' re'4. do'8 | si2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAGair dessus, mesure 7
+  \three-cells
+  \line { Mesure 7, dessus }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #7
+      \key sol \major \clef "french" \time 2/2
+      fad''4 mi''8 re'' mi''4 re''8 do'' | re''4
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \column {
+    \score {
+      { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #7
+        \key sol \major \clef "french" \time 2/2
+        fad''4 mi''8 re'' mi''4 re''8 dod'' | re''4
+      }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \wordwrap { \bold { Version retenue } (passage en ré majeur, do
+      \super\tiny\sharp présent dans la partie de quinte) }
+  }
+  %% AAGair haute-contre mesure 9
+  \three-cells
+  \line { Mesure 9, haute-contre }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #9
+      \key sol \major \clef "soprano" \time 2/2
+      re''2 sol'4 sol'8 la' | si'4
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #9
+      \key sol \major \clef "soprano" \time 2/2
+      re''4 fad' sol' sol'8 la' | si'4
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAGair taille mesure 11-13
+  \three-cells
+  \line { Mesures 11-13, taille }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #11
+      \key sol \major \clef "mezzosoprano" \time 2/2
+      re'8 do' si4 re' mi' | re' mi' mi' re' | \break re'4 mi' re'4. re'8 | si2
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #11
+      \key sol \major \clef "mezzosoprano" \time 2/2
+      re'4 do'8 si re'4 mi' | re' mi' mi' re' | \break re' mi' re' do' | si2
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAGair taille mesure 18
+  \three-cells
+  \line { Mesure 18, taille }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #18
+      \key sol \major \clef "mezzosoprano" \time 2/2
+      re'4 re' re' mi' |
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #18
+      \key sol \major \clef "mezzosoprano" \time 2/2
+      re'4 mi' re' mi' |
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAGair taille mesure 22
+  \three-cells
+  \line { Mesure 22, taille }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #22
+      \key sol \major \clef "mezzosoprano" \time 2/2
+      re'4 mi' re'4. re'8 | si2 \bar "|."
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #22
+      \key sol \major \clef "mezzosoprano" \time 2/2
+      re'4 mi' re'4. do'8 | si2 \bar "|."
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
 }
 
 
