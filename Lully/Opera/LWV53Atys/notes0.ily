@@ -999,7 +999,7 @@
   }
   %% AAFtempsFloreChoeur mesure 75
   \three-cells
-  \wordwrap { Mesures 75, taille chantante et taille de violon }
+  \wordwrap { Mesure 75, taille chantante et taille de violon }
   \score {
     \new StaffGroup <<
       \new Staff {
@@ -1040,7 +1040,7 @@
   }
   %% AAFtempsFloreChoeur mesure 76
   \three-cells
-  \wordwrap { Mesures 76, haute-contre chantante }
+  \wordwrap { Mesure 76, haute-contre chantante }
   \score {
     \new Staff {
       \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
@@ -1235,7 +1235,7 @@
       (page \page-refIII #'AAHzephir ) }
     %% AAHzephir mesure 17
     \three-cells
-    \wordwrap { Mesures 17, basse continue }
+    \wordwrap { Mesure 17, basse continue }
     \score {
       { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
         \set Score.currentBarNumber = #17
@@ -1310,6 +1310,39 @@
     \layout {
       indent = 0
       \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \column {
+    \line { \bold { Melpomène : \italic { Retirez-vous cessez de prévenir le temps } }
+      (page \page-refIII #'AAJmelpomene ) }
+    %% AAJmelpomene mesure 3
+    \three-cells
+    \wordwrap { Mesure 3 }
+    \score {
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #3
+        \key do \major \clef "soprano" \time 3/4
+        la'4 r16 la' la' la' la'8 do'' | fa'8.
+      } \addlyrics { Temps, ne me dé -- ro -- bez point }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \score {
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #3
+        \key do \major \clef "soprano" \time 3/4
+        la'4. la'8\trill la'16 la' la' do'' | fa'8.
+      } \addlyrics { Temps, ne me dé -- ro -- bez point }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
     }
   }
   \sep
