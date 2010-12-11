@@ -4,7 +4,7 @@ fa''4 fa'' mib'' |
 re''2\trill r4 |
 r re''4. mi''8 |
 fa''4 fa''4. fa''8 |
-fa''4( mi''2) |
+fa''2( mi''4) | % fa''4( mi''2) |
 fa''4 fa''4. fa''8 |
 re''4\trill re''4. mi''8 |
 re''4( dod''2) |

@@ -6,10 +6,10 @@ r sib4. sib8 |
 la4 la sib |
 sol2. |
 fa4 re4. re8 |
-sib4 sib sol |
+sib4 sib4. sol8 | % sib4 sib sol |
 la2. |
 re4 re4. re8 |
-sol4 sol sol |
+sol4 sol4. sol8 | % sol4 sol sol |
 do2 r4 |
 r fa4. fa8 |
 re8[\melisma do re mib fa re] |
@@ -25,7 +25,7 @@ sib[ la sib do' re' sib] |
 do'[ sib do' re' mib' do'] |
 re'4\melismaEnd re' sol |
 re2. |
-sol4 sol4. sol8 |
+%{ sol4 %} sol,4 sol4. sol8 |
 do4 do4. do8 |
 re2 r4 |
 r sol4. sol8 |

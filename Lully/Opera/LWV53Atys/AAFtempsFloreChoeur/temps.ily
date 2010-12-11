@@ -1,9 +1,9 @@
 \tempsMark r4 sol la |
 sib fad4. fad8 |
-sol4 sol sol |
-fa4 mib8[ re] mib4 |
+sol4. sol8 sol4 | % sol4 sol sol |
+fa4 mib( re8) mib | % fa4 mib8[ re] mib4 |
 re2 r8 re |
-sol4. fa8 mib8. re16 |
+sol4. fa8 mib re | % mib8. re16 |
 do2\trill do4 |
 fa4. mib8 re4 |
 mib4 fa2 |
@@ -19,7 +19,7 @@ la4\trill la sib |
 fa2 fa8 fa |
 sol[\melisma fa sol la sib sol] |
 la4\melismaEnd la sib |
-sib2( la4) |
+sib4( la2) | % sib2( la4) |
 sib4 sib4. sib8 |
 fad4 fad sol |
 re2. |
@@ -38,5 +38,5 @@ sib[ la sib do' re' sib] |
 do'[ sib do' re' mib' do'] |
 re'4\melismaEnd re' sol |
 re2. |
-sol,2. |
+sol2. |
 R2.*35 |

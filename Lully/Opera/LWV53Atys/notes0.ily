@@ -872,4 +872,206 @@
       \layout { indent = 3\cm }
     }
   }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \column {
+    \line { \bold { Le Temps, Flore, chœur } :
+      \italic { Les plaisirs à ses yeux ont beau se présenter }
+      (page \page-refIII #'AAFtempsFloreChoeur ) }
+    %% AAFtempsFloreChoeur mesure 56
+    \three-cells
+    \wordwrap { Mesures 56-57, haute-contre chantante }
+    \score {
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #56
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto" \time 3/4
+        fa'4 fa'4. fa'8 | fa'2. | re'4
+      } \addlyrics { gloi -- re l'ap -- pel -- le }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \score {
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #56
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto" \time 3/4
+        fa'4 fa' fa' | fa'2( mib'4) | re'4
+      } \addlyrics { gloi -- re l'ap -- pel -- le }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  %% AAFtempsFloreChoeur taille, mesures 55-57
+  \three-cells
+  \line { Mesures 55-57, taille }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #55
+      \key re \minor \clef "mezzosoprano" \time 3/4
+      mib'2 mib'4 | re' fa' sol' | fa'2 fa'4 | re'
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #55
+      \key re \minor \clef "mezzosoprano" \time 3/4
+      re'4 fa' sol' | la' re'4. re'8 | mib'2 mib'4 | re'
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAFtempsFloreChoeur taille et quinte, mesures 66-68
+  \three-cells
+  \line { Mesures 66-68, taille et quinte }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #66
+        \key re \minor \clef "mezzosoprano" \time 3/4
+        re'2 la4 | sib4 sol'4. fa'8 | mib'4 mib'4. mib'8 | re'2
+      }
+      \new Staff {
+        \key re \minor \clef "alto" \time 3/4
+        la4 re'2 | re'4 sib4. sib8 | sol4 la4. la8 | la2
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #66
+        \key re \minor \clef "mezzosoprano" \time 3/4
+        re'2 do'4 | sib sol'4. sol'8 | mib'4 mib'4. mib'8 | re'2
+      }
+      \new Staff {
+        \key re \minor \clef "alto" \time 3/4
+        re'2. | re'4 sib4. sib8 | sol4 la4. sib8 | la2
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAFtempsFloreChoeur quinte, mesure 74
+  \three-cells
+  \line { Mesure 74, quinte }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #74
+      \key re \minor \clef "alto" \time 3/4
+      re'4 re'8 do' sib4 | re'2. |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #74
+      \key re \minor \clef "alto" \time 3/4
+      re'4 re'8 do' sib sol | re'2. |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAFtempsFloreChoeur mesure 75
+  \three-cells
+  \wordwrap { Mesures 75, taille chantante et taille de violon }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #75
+        \set autoBeaming = ##f
+        \key re \minor \clef "tenor" \time 3/4
+        re'2. | si2. \bar "|."
+      } \addlyrics { "- pel" -- le. }
+      \new Staff {
+        \key re \minor \clef "mezzosoprano" \time 3/4
+        re'2 re'4 | si2. \bar "|."
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #75
+        \set autoBeaming = ##f
+        \key re \minor \clef "tenor" \time 3/4
+        re'2( la4) | si2. \bar "|."
+      } \addlyrics { "- pel" -- le. }
+      \new Staff {
+        \key re \minor \clef "mezzosoprano" \time 3/4
+        re'2 do'4 | si2. \bar "|."
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAFtempsFloreChoeur mesure 76
+  \three-cells
+  \wordwrap { Mesures 76, haute-contre chantante }
+  \score {
+    \new Staff {
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #75
+      \set autoBeaming = ##f
+      \key re \minor \clef "alto" \time 3/4
+      sol'4( fad'2) | fa'2. \bar "|."
+    } \addlyrics { "- pel" -- le. }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \column {
+    \score {
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #75
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto" \time 3/4
+        sol'4( fad'2) | sol'2. \bar "|."
+      } \addlyrics { "- pel" -- le. }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \line { \bold { Version retenue } (accord final en sol). }
+  }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 }
+
+

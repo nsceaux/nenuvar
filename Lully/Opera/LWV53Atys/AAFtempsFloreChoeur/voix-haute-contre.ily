@@ -24,7 +24,7 @@ sol'4 fa'4. fa'8 |
 fa'4 fa' sib'8. sib'16 |
 sol'4 la'4. la'8 |
 fad'4 fad' sol' |
-sol'4( fad'2) |
+sol'2( fad'4) | % sol'4( fad'2) |
 sol'4 sol'4. sol'8 |
 sol'4 mib'4. mib'8 |
 re'2 r4 |
