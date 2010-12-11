@@ -1,5 +1,5 @@
-\clef "basse" do1~ |
-do4. do'8 si4. do'8 |
+\clef "basse" % do1~ |
+do4. do'8 si4 do' | % si4. do'8
 la4. sol8 fad2 |
 sol sol, |
 fa, mi, |

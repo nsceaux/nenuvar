@@ -1261,6 +1261,59 @@
   }
   \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \line { \bold { Prélude pour Melpomène } (page \page-refIII #'AAIair ) }
+  %% AAIair basse mesure 1
+  \three-cells
+  \line { Mesure 1 }
+  \score {
+    { \key do \major \clef "basse" \time 2/2
+      do4. do'8 si4. do'8 |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \column {
+    \score {
+      { \key do \major \clef "basse" \time 2/2
+        do1~ | do4. do'8 si4. do'8 |
+      }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \wordwrap { Un do ronde est indiqué à la basse continue avant le
+      début du prelude. }
+  }
+  %% AAIair haute-contre mesure 8
+  \three-cells
+  \line { Mesure 8, haute-contre }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #8
+      \key sol \major \clef "soprano" \time 2/2
+      la'2 do''4. do''8 | si'2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #8
+      \key sol \major \clef "soprano" \time 2/2
+      la'2 do''4. re''8 | si'2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 }
 
 

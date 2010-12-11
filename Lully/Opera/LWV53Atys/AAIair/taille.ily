@@ -1,4 +1,4 @@
-\clef "taille" R1 |
+\clef "taille" % R1 |
 mi'4. mi'8 re'4 mi' |
 mi'2 re'4. re'8 |
 re'4. si8 sol'4. sol'8 |

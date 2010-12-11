@@ -1,4 +1,4 @@
-\clef "quinte" R1 |
+\clef "quinte" % R1 |
 do'4. do'8 re'4 do' |
 do'2 la4 re' |
 re'4. re'8 re'4 sol |
