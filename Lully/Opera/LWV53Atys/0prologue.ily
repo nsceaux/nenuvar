@@ -20,6 +20,8 @@
 \pieceToc \markup { Un Zéphir : 
   \italic { Le printemps quelques fois est moins doux qu'il ne semble } }
 \includeScore "AAHzephir"
+\noBreak\markup\fill-line { \null
+  \line \italic { On reprend la gavotte précédente, page \page-refIII #'AAGair . } }
 %{ n°9 %}
 \pieceTocTitle "Prélude pour Melpomène" \includeScore "AAIair"
 %{ n°10 %}

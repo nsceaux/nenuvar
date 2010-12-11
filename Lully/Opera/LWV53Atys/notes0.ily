@@ -875,8 +875,8 @@
   \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \column {
-    \line { \bold { Le Temps, Flore, chœur } :
-      \italic { Les plaisirs à ses yeux ont beau se présenter }
+    \line { \bold { Le Temps, Flore, chœur :
+      \italic { Les plaisirs à ses yeux ont beau se présenter } }
       (page \page-refIII #'AAFtempsFloreChoeur ) }
     %% AAFtempsFloreChoeur mesure 56
     \three-cells
@@ -1227,6 +1227,40 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \column {
+    \line { \bold { Un Zéphir :
+      \italic { Le printemps quelque fois est mois doux qu'il ne semble } }
+      (page \page-refIII #'AAHzephir ) }
+    %% AAHzephir mesure 17
+    \three-cells
+    \wordwrap { Mesures 17, basse continue }
+    \score {
+      { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #17
+        \key sol \major \clef "bass" \time 3/4
+        sol,4 re re'8 do'
+      }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \score {
+      { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #17
+        \key sol \major \clef "bass" \time 3/4
+        sol,4 sol re'8 do'
+      }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 }
 
 
