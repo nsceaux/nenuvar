@@ -1,4 +1,4 @@
-\clef "vtaille" re' re'4. re'8 |
+\clef "vtaille" re'4 re'4. re'8 |
 re'2. |
 % Manuscrit : sib4 sib8[ do'] re'[ sib] |
 si4 si8[ do'] re'[ si] |

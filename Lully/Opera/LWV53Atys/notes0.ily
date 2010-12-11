@@ -1,11 +1,60 @@
 \markuplines \column-lines {
 \line\bold { Différences Ballard 1689 et Manuscrit }
   \paragraph {
-    Les différences rencontrées entre l'édition Ballard 1689 et le
-    manuscrit sont relevées ici.  À quelques exceptions près, les
-    différences de rythmes du type \note-by-number #3 #0 #UP
-    \note-by-number #3 #0 #UP au lieu de \note-by-number #3 #1 #UP
-    \note-by-number #4 #0 #UP ne sont pas indiquées ici.
+    Les différences significatives rencontrées entre l'édition Ballard
+    1689 et le manuscrit sont relevées ici. Les très nombreuses
+    différences de rythme telles que
+    \vcenter \score {
+      { sol'8[ sol'] }
+      \layout { indent = 0
+        \context { \Staff \remove "Time_signature_engraver"
+          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
+        \context { \Score \remove "Bar_number_engraver" }
+      }
+    }
+    / \vcenter \score {
+      { sol'8.[ sol'16] }
+      \layout { indent = 0
+        \context { \Staff \remove "Time_signature_engraver"
+          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
+        \context { \Score \remove "Bar_number_engraver" }
+      }
+    }
+    ou bien
+    \vcenter \score {
+      { sol'4 sol'4. sol'8 }
+      \layout { indent = 0
+        \context { \Staff \remove "Time_signature_engraver"
+          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
+        \context { \Score \remove "Bar_number_engraver" }
+      }
+    }
+    / \vcenter \score {
+      { sol'4. sol'8 sol'4 }
+      \layout { indent = 0
+        \context { \Staff \remove "Time_signature_engraver"
+          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
+        \context { \Score \remove "Bar_number_engraver" }
+      }
+    }
+    ou encore \vcenter \score {
+      { sol'2 sol'4 }
+      \layout { indent = 0
+        \context { \Staff \remove "Time_signature_engraver"
+          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
+        \context { \Score \remove "Bar_number_engraver" }
+      }
+    }
+    / \vcenter \score {
+      { sol'4 sol'2 }
+      \layout { indent = 0
+        \context { \Staff \remove "Time_signature_engraver"
+          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
+        \context { \Score \remove "Bar_number_engraver" }
+      }
+    }
+    ne sont pas indiquées, de même que les cas où le manuscrit est
+    moins élaboré, par exemple lorsqu'il manque une note de passage.
     Sauf indication contraire, c'est la version Ballard 1689 qui a
     été retenue dans cette édition.
   }
@@ -37,58 +86,6 @@
     }
     \wordwrap { Le guidon présent à la fin de la mesure précédente
       pointe sur le la et non sur un si\tiny\flat. }
-  }
-  %% AAAouverture, dessus, mesure 11
-  \three-cells
-  \line { Mesure 11, dessus }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #11
-      \key re \minor \clef "french" la''2. la''4 | sib''4 }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #11
-      \key re \minor \clef "french" la''2. r8 la'' | sib''4 }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  %% AAAouverture, dessus et haute-contre, mesure 15
-  \three-cells
-  \wordwrap { Mesure 15, dessus, haute-contre }
-  \score {
-    \new StaffGroup <<
-      \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-        \set Score.currentBarNumber = #15
-        \key re \minor \clef "french" re''2~ re''8 re'' mi'' fad'' }
-      \new Staff {
-        \key re \minor \clef "soprano" fad'2~ fad'8 fad' sol' la' }
-    >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  \score {
-    \new StaffGroup <<
-      \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-        \set Score.currentBarNumber = #15
-        \key re \minor \clef "french" re''2 r8 re'' mi'' fad'' }
-      \new Staff {
-        \key re \minor \clef "soprano" fad'2 r8 fad' sol' la' }
-    >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
   }
   %% AAAouverture, taille et basse, mesure 19-21
   \three-cells
@@ -295,31 +292,6 @@
       \set Score.currentBarNumber = #31
       \key re \minor \clef "bass" \time 6/4
       mi8 re mi do re mi fa mi fa sol fa mib |
-    }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  %% AAAouverture, quinte, mesure 32
-  \three-cells
-  \line { Mesure 32, quinte }
-  \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #32
-      \key re \minor \clef "alto" \time 6/4
-      la2 la4 la re'2 |
-    }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #32
-      \key re \minor \clef "alto" \time 6/4
-      la2 la8 la re'2*3/2 |
     }
     \layout {
       indent = 0
@@ -702,33 +674,6 @@
     ni aux mesures 35-38.
     \bold { C'est la version qui est retenue dans cette édition. }
   }
-  %% AACchoeur, mesure 33
-  \three-cells
-  \wordwrap { Mesure 33, haute-contre chantante }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #33
-      \set autoBeaming = ##f
-      \key re \minor \clef "alto" \time 3/4
-      sol'4. sol'8 sol'4 |
-    } \addlyrics { gloi -- re "nou -" }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #33
-      \set autoBeaming = ##f
-      \key re \minor \clef "alto" \time 3/4
-      sol'4 sol'4. sol'8 |
-    } \addlyrics { gloi -- re "nou -" }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
   %% AACchoeur, mesure 37
   \three-cells
   \line { Mesure 37, dessus chantante }
@@ -751,33 +696,6 @@
       \key re \minor \clef "soprano" \time 3/4
       mib''4 mib''4. fa''8 | re''4
     } \addlyrics { "- stant," cha -- que jour, }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  %% AACchoeur, mesure 43
-  \three-cells
-  \line { Mesure 43, dessus chantante }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #43
-      \set autoBeaming = ##f
-      \key re \minor \clef "soprano" \time 3/4
-      la'2 re''8. re''16 | sib'4
-    } \addlyrics { "- stant," u -- ne "gloi -" }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #43
-      \set autoBeaming = ##f
-      \key re \minor \clef "soprano" \time 3/4
-      la'2 re''8 re'' | sib'4
-    } \addlyrics { "- stant," u -- ne "gloi -" }
     \layout {
       indent = 0
       \context { \Staff \remove "Time_signature_engraver" }
@@ -852,56 +770,6 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  %% AADair mesure 23
-  \three-cells
-  \line { Mesure 23, quinte }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #23
-      \key re \minor \clef "alto" \time 3/4
-      mi'4 mi'4. mi'8 |
-    }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #23
-      \key re \minor \clef "alto" \time 3/4
-      mi'4. mi'8 mi'4 |
-    }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  %% AADair mesure 28
-  \three-cells
-  \line { Mesure 28, quinte }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #28
-      \key re \minor \clef "alto" \time 3/4
-      re'4. re'8 re'4 |
-    }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #28
-      \key re \minor \clef "alto" \time 3/4
-      re'4 re'4. re'8 |
-    }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
-  }
   %% AADair mesure 29
   \three-cells
   \line { Mesure 29, taille }
@@ -925,6 +793,83 @@
     \layout {
       indent = 0
       \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \line { \bold { Le Temps, Flore } (page \page-refIII #'AAEtempsFlore ) }
+  %% AAEtempsFlore mesure 5
+  \three-cells
+  \line { Mesure 5 }
+  \score {
+    \new Staff {
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #5
+      \set autoBeaming = ##f
+      \key re \minor \clef "varbaritone" \time 4/4 \partial 2.
+      r8 do' do'8. do'16 sib8. la16 | sib8 sib
+    } \addlyrics { Quel dieu les fait re -- naî -- tre }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new Staff {
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #5
+      \set autoBeaming = ##f
+      \key re \minor \clef "varbaritone" \time 4/4 \partial 2.
+      r8 do' do'4 do'8 sib16 la | sib8 sib
+    } \addlyrics { Quel dieu les fait re -- naî -- tre }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAEtempsFlore mesures 26-27
+  \line { À partir de la mesure 26, le manuscrit comporte une mesure de plus que Ballard. }
+  \line {
+    \hspace #10
+    \score {
+      \new StaffGroupNoBar \with {
+        instrumentName = "Ballard 1689"
+        \consists "Instrument_name_engraver" } <<
+        \new Staff {
+          \once \override Score.TimeSignature #'stencil = ##f
+          \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+          \set Score.currentBarNumber = #26
+          \set autoBeaming = ##f
+          \key re \minor \clef "soprano" \time 2/2
+          r2 r4 sib'8 re'' | sib'4 sib'8 sib' sol'4. sol'8 | do''2
+        } \addlyrics { Pour luy fai -- re ma cour mes soins }
+        \new Staff {
+          \key re \minor \clef "bass"
+          sol,1~ | sol,2 mib | mi!1*1/2
+        }
+      >>
+      \layout { indent = 3\cm }
+    }
+  }
+  \line { \hspace #10
+    \score {
+      \new StaffGroupNoBar \with {
+        instrumentName = "Manuscrit"
+        \consists "Instrument_name_engraver" } <<
+        \new Staff {
+          \once \override Score.TimeSignature #'stencil = ##f
+          \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+          \set Score.currentBarNumber = #26
+          \set autoBeaming = ##f
+          \key re \minor \clef "soprano" \time 2/2
+          r2 sib'4. re''8 | sib'2 sib'4. sib'8 | sol'2. sol'4 | do''2
+        } \addlyrics { Pour luy fai -- re ma cour mes soins }
+        \new Staff {
+          \key re \minor \clef "bass"
+          sol,1~ | sol, | mib | | mi!1*1/2
+        }
+      >>
+      \layout { indent = 3\cm }
     }
   }
 }

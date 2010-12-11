@@ -1,11 +1,11 @@
-\clef "basse" sol,1 |
-sol, |
+\clef "basse" sol,1~ |
+sol,~ |
 sol,2 re |
 mib2 mi4 |
 fa2 fad |
 sol4 sol, la,2 |
-re, re |
-si, do |
+re, re4. do8 | % Manuscrit : re2
+si,2 do~ |
 do la, |
 sib,2. |
 mib2 do |
@@ -22,11 +22,10 @@ mib mi1 |
 fa4 mib re do |
 sib,2 do |
 re4 mib8 do re4 re, |
-sol,1 |
-sol, |
-sol, |
-mib |
-mi |
+sol,1~ |
+% sol,~ | sol, | mib |
+sol,~ | sol,2 mib |
+mi!1 |
 fa2. fa8 mib |
 re4 re8 do sib,4 sib |
 mib2 fa4 fa, |
@@ -39,4 +38,4 @@ re4 sol8 la sib4 si |
 do'2 dod' |
 re'8 do' sib la sol fa mib re |
 do re mib do re4 re, |
-sol,2. |
+sol,2.\laissezVibrer |

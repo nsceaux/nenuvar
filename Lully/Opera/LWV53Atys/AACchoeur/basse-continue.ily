@@ -1,4 +1,4 @@
-\clef "basse" re' re'4. re'8 |
+\clef "basse" re'4 re'4. re'8 |
 re'2. |
 % Manuscrit : sol4 sol sol |
 sol4 sol8 la si sol |

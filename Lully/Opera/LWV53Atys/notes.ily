@@ -39,12 +39,11 @@
   }
   \paragraph {
     Le manuscrit non daté est légèrement lacunaire : il manque par
-    exemple quelques feuillets dans les chœurs du premier acte. Il est
-    rythmiquement moins élaboré que Ballard 1689, notamment dans la
-    basse continue, et présente en quelqu'endroits des différences
-    harmoniques.  Par ailleurs, il comporte des indications de reprises
-    supplémentaires, avec mesures de première et seconde fois. Ces
-    différences sont relevées plus bas.
+    exemple quelques feuillets dans les chœurs du premier acte. Il
+    présente des différences de rythme ainsi que quelques différence
+    par rapport à Ballard 1689.  Par ailleurs, il comporte des
+    indications de reprises supplémentaires, avec mesures de première
+    et seconde fois. Ces différences sont relevées plus bas.
   }
   \paragraph {
     La seconde édition Baussen 1709 est une partition réduite. Étant
