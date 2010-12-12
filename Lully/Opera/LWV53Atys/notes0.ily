@@ -1644,4 +1644,94 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \column {
+    \line { \bold { Menuet }
+      (page \page-refIII #'AAMair ) }
+    %% AAMair  mesure 8
+    \three-cells
+    \wordwrap { Mesure 8, taille }
+    \score {
+      {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #8
+        \key sol \major \clef "mezzosoprano" \time 3/4
+        re'4 si2
+      }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \score {
+      {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #8
+        \key sol \major \clef "mezzosoprano" \time 3/4
+        re'4 la2
+      }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  %% AAMair  mesure 17
+  \three-cells
+  \wordwrap { Mesures 17-21, taille }
+  \score {
+    {
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #17
+      \key sol \major \clef "mezzosoprano" \time 3/4
+      re'4 re'4. re'8 | si2. |\break
+      mi'4 mi' mi' | re'4 la2 | si2 si4 |
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    {
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #17
+      \key sol \major \clef "mezzosoprano" \time 3/4
+      re'4 re'4. do'8 | si2. |\break
+      mi'8 re' mi' fad' mi'4 | re' re'2 | re'2 si4 |
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAMair  mesure 19
+  \three-cells
+  \wordwrap { Mesures 19-22, quinte }
+  \score {
+    {
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #19
+      \key sol \major \clef "alto" \time 3/4
+      sol4 sol sol | re'4 re'2 | re'2 re'4 | do'4 sol la |
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    {
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #19
+      \key sol \major \clef "alto" \time 3/4
+      do'4 do' mi' | la4 re'2 | sol2 sol4 | sol2 la4 |
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \sep
 }

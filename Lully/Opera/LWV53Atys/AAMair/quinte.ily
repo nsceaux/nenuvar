@@ -16,9 +16,9 @@ sol2 sol4 |
 sol2 la4 |
 si8 do' re'4. re'8 |
 re'2. |
-do'4 do' mi' |
-la re'2 |
-sol2 sol4 |
-sol2 la4 |
+sol4 sol sol | % do'4 do' mi'
+re'4 re'2 | % la4 re'2
+re'2 re'4 | % sol2 sol4
+do'4 sol la | % sol2 la4
 si8 do' re'4. re'8 |
 re'2. |

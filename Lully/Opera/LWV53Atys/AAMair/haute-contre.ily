@@ -12,8 +12,8 @@ si' la'4. sol'8 |
 fad'2. |
 la'8 sol' la' si' la'4 |
 mi' fad'4. mi'16 fad' |
-sol'2. |
-sol'4 sol' fad' |
+sol'2 sol'4 | % sol'2.
+sol'4. sol'8 fad'4 | % sol'4 sol' fad'
 sol' fad'4. sol'8 |
 sol'2. |
 sol'4 sol' sol' |
