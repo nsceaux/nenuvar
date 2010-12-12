@@ -804,7 +804,7 @@
   \score {
     \new Staff {
       \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #5
+      \set Score.currentBarNumber = #6
       \set autoBeaming = ##f
       \key re \minor \clef "varbaritone" \time 4/4 \partial 2.
       r8 do' do'8. do'16 sib8. la16 | sib8 sib
@@ -817,7 +817,7 @@
   \score {
     \new Staff {
       \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #5
+      \set Score.currentBarNumber = #6
       \set autoBeaming = ##f
       \key re \minor \clef "varbaritone" \time 4/4 \partial 2.
       r8 do' do'4 do'8 sib16 la | sib8 sib
@@ -1347,6 +1347,84 @@
   }
   \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \line { \bold { Air pour la suites de Melpomène }
+    (page \page-refIII #'AAKair ) }
+  %% AAKair  mesure 12
+  \three-cells
+  \wordwrap { Mesure 12, haute-contre, basse }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #12
+        \key do \major \clef "soprano" \time 2/2
+        sol'2 r8 si' si'16 la' si' dod'' | re''8
+      }
+      \new Staff { \key do \major \clef "bass"
+        sol,2 r8 sol sol sol | re
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #12
+        \key do \major \clef "soprano" \time 2/2
+        sol'2 r8 si' si'16 la' si' do'' | re''8
+      }
+      \new Staff { \key do \major \clef "bass"
+        sol,2 sol,8 sol sol sol | re
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AAKair  mesure 19
+  \three-cells
+  \wordwrap { Mesure 19, haute-contre, taille }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #19
+        \key do \major \clef "soprano" \time 2/2
+        do''4. re''8 si'4. si'8 | do''2
+      }
+      \new Staff {
+        \key do \major \clef "mezzosoprano" \time 2/2
+        fa'4 la' sol'4. sol'8 | mi'2
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #19
+        \key do \major \clef "soprano" \time 2/2
+        do''4. do''8 si'4. do''8 | do''2
+      }
+      \new Staff {
+        \key do \major \clef "mezzosoprano" \time 2/2
+        fa'4 la' sol'4. fa'8 | mi'2
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 }
-
-

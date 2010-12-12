@@ -7,13 +7,13 @@ do'2. sol4 |
 la2. la4 |
 la2. la4 |
 la2 si4 re' |
-do'2 la4. la8 |
+do'4. la8 la2 | % do'2 la4. la8 |
 sol1 |
 sol2 r8 sol sol sol |
 fa la la4 la8 do' do' do' |
 do' la si4 si8 si si si |
-la mi' mi'8. mi'16 re'8 re' la la |
-sol si si si do'4 sol8 sol |
+la mi' %{ mi'8. mi'16 %} mi'8 mi' re'8 re' la la |
+sol si si si do'4 %{ sol8 sol %} sol8. sol16 |
 la2. la4 |
 la2 do'4. do'8 |
 do'4. do'8 sol4. sol8 |
