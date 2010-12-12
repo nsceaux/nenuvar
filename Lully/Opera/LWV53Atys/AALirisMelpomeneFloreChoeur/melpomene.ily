@@ -1,4 +1,4 @@
-\clef "vbas-dessus" R1*12 |
+\clef "vbas-dessus" R1*11 |
 R2.*4 |
 R1 |
 R2.*14 |

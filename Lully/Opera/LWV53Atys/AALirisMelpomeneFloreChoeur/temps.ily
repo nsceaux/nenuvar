@@ -1,4 +1,4 @@
-\clef "vbasse-taille" R1*12
+\clef "vbasse-taille" R1*11
 R2.*4
 R1
 R2.*27

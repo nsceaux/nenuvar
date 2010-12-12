@@ -1337,7 +1337,7 @@
         \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
         \set Score.currentBarNumber = #3
         \key do \major \clef "soprano" \time 3/4
-        la'4. la'8\trill la'16 la' la' do'' | fa'8.
+        la'4. la'8 la'16 la' la' do'' | fa'8.
       } \addlyrics { Temps, ne me dé -- ro -- bez point }
       \layout {
         indent = 0
@@ -1427,4 +1427,221 @@
   }
   \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \line { \bold { Iris, Melpomène, Flore, chœur }
+    (page \page-refIII #'AALirisMelpomeneFloreChoeur ) }
+  %% AALirisMelpomeneFloreChoeur basse mesure 1
+  \line { Ritournelle }
+  \line {
+    \score {
+      \new StaffGroupNoBar <<
+        \new Staff {
+          \markUpBegin \mark \markup \smaller\smaller "Ballard 1689"
+          \override Score.BarNumber #'break-visibility = #'#(#f #t #t)
+          \set Score.currentBarNumber = #1
+          \key sol \major \clef "french" \time 2/2
+          r4 r8 re'' re''4. re''8 |
+          sol''4 sol''8 fad'' mi''4 fad''8 sol'' |
+          fad''4. fad''8 sol''4. sol''8 |
+          sol''4 fad''8 sol'' mi''4. re''8 |
+          re''4. fad''8 fad''4. sold''8 |
+          la''4. mi''8 mi''4. fad''8 |
+          sol''4. sol''8 sol''4. la''8 |
+          si''4 la''8 sol'' fad''4. sol''8 |
+          sol''2
+        }
+        \new Staff {
+          \key sol \major \clef "french"
+          r4 r8 si' si'4. si'8 |
+          mi''4 mi''8 re'' dod''4 re''8 mi'' |
+          re''4. re''8 si'4. si'8 |
+          mi''4 re''8 mi'' dod''4. si'16 dod'' |
+          re''4. la'8 la'4. si'8 |
+          do''4. do''8 do''4. re''8 |
+          si'4. si'8 si'4. do''8 |
+          re''4 do''8 si' la'4. sol'8 |
+          sol'2
+        }
+        \new Staff {
+          \key sol \major \clef "bass"
+          sol,4. sol8 sol4. sol8 |
+          mi4. mi8 la4. la8 |
+          re4. re8 mi4 mi8 re |
+          dod4 re la,2 |
+          re4 re' do'4. si8 |
+          la4 la, do la, |
+          mi4. mi8 re4. do8 |
+          si,4 do re re, |
+          sol,1*1/2
+        } \new FiguredBass \figuremode { <_>1 <7>2 <_+> <_>1 <6 5->2 <4>4 <_+>
+          <_>2 <6 4>4. <6+>8 <_>2 <6>4 <6> <_>2 <6 4>4. <6>8 <6>4 <6> <4> <_+> }
+      >>
+      \layout {
+        indent = 0 ragged-right = ##f
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  \line {
+    \score {
+      \new StaffGroupNoBar <<
+        \new Staff {
+          \override Score.BarNumber #'break-visibility = #'#(#f #t #t)
+          \set Score.currentBarNumber = #0
+          \key sol \major \clef "french" \time 2/2
+          \markUpBegin \mark \markup \smaller\smaller "Manuscrit"
+          R1 |
+          r4 r8 re'' re''4. re''8 |
+          sol''4 sol''8 fad'' mi''4 fad''8 sol'' |
+          fad''4. fad''8 sol''4. sol''8 |
+          sol''4 fad''8 sol'' mi''4. re''8 |
+          re''4. fad''8 fad''4. sold''8 |
+          la''4. mi''8 mi''4. fad''8 |
+          sol''4. sol''8 sol''4. la''8 |
+          si''4 la''8 sol'' fad''4. sol''8 |
+          sol''2
+        }
+        \new Staff {
+          \key sol \major \clef "french" \time 2/2
+          R1 |
+          r2 r4 r8 sol' |
+          sol'4. sol'8 do''4 do''8 si' |
+          la'4 si'8 do'' si'4. mi''8 |
+          mi''4 re''8 mi'' dod''4. re''8 |
+          re''4. la'8 la'4. si'8 |
+          do''4. la'8 la'4. la'8 |
+          si'4. si'8 si'4. do''8 |
+          re''4 do''8 si' la'4. sol'8 |
+          sol'2
+        }
+        \new Staff {
+          \key sol \major \clef "bass" \time 2/2
+          sol,1~ |
+          sol,4. sol8 sol4. sol8 |
+          mi4. mi8 la4. la8 |
+          re4. re8 mi4 mi8 re |
+          dod4 re la,2 |
+          re4. re'8 do'4. si8 |
+          la4 la, do la, |
+          mi4. mi8 re4 do |
+          si, do re re, |
+          sol,1*1/2
+        } \new FiguredBass \figuremode { <_>1*2 <_->2 <_-> <_> <5> <5-> <_+>
+          <_+> <6 4+>4. <6+>8 <_->1 <_>2 <6 4>
+          
+        }
+      >>
+      \layout {
+        indent = 0 ragged-right = ##f
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  \three-cells
+  \line { Mesure 31 et suivantes }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t)
+        \set Score.currentBarNumber = #31
+        \key sol \major \clef "soprano" \time 3/4
+        \set autoBeaming = ##f
+        r2 re''8. re''16^\markup\right-align\character "Flore" |
+        mi''4 mi''4. mi''8 | do''2.*1/3
+      } \addlyrics { Ren -- dons- nous, s'il se peut, }
+      \new Staff {
+        \key sol \major \clef "soprano"
+        \set autoBeaming = ##f
+        r2 si'8. si'16^\markup\right-align\character "Melpomène" |
+        do''4 do''4. do''8 | la'2.*1/3
+      } \addlyrics { Ren -- dons- nous, s'il se peut, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t)
+        \set Score.currentBarNumber = #31
+        \key sol \major \clef "soprano" \time 3/4
+        \set autoBeaming = ##f
+        r2 re''8. re''16^\markup\right-align\character "Melpomène" |
+        mi''4 mi''4. mi''8 | do''2.*1/3
+      } \addlyrics { Ren -- dons- nous, s'il se peut, }
+      \new Staff {
+        \key sol \major \clef "soprano"
+        \set autoBeaming = ##f
+        r2 si'8. si'16^\markup\right-align\character "Flore" |
+        do''4 do''4. do''8 | la'2.*1/3
+      } \addlyrics { Ren -- dons- nous, s'il se peut, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AALirisMelpomeneFloreChoeur taille mesures 44-50
+  \three-cells
+  \line { Mesures 44-50, taille }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #44
+      \key sol \major \clef "mezzosoprano" \time 2/2
+      r2 sol'4. sol'8 |
+      sol'4 sol'8 sol' la'4. la'8 | \break
+      la'4 la' la'4. la'8 |
+      sol'2 re'4. re'8 | \break
+      re'2 re'4. re'8 |
+      la'2 mi'4. mi'8 |
+      re'2 r |
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #44
+      \key sol \major \clef "mezzosoprano" \time 2/2
+      r2 sol'4. sol'8 |
+      sol'4 mi'8 mi' mi'4. mi'8 | \break
+      re'4 re' la'4. la'8 |
+      sol'2 fad'4 la' | \break
+      sol'2 si'4. si'8 |
+      la'2 la'4. la'8 |
+      la'2 r
+    }
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% AALirisMelpomeneFloreChoeur haute-contre mesure 47
+  \three-cells
+  \line { Mesure 47, haute-contre }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #47
+      \key sol \major \clef "soprano" \time 2/2
+      re''2 do''4. do''8 | si'2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #47
+      \key sol \major \clef "soprano" \time 2/2
+      re''2 do''4 si'8 do'' | si'2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
 }

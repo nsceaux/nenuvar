@@ -1,4 +1,4 @@
-\clef "vhaute-contre" R1*12 |
+\clef "vhaute-contre" R1*11 |
 R2.*4 |
 R1 |
 R2.*27 |
@@ -16,7 +16,7 @@ fad'2. |
 sol'4 sol'4. sol'8 |
 sol'2 sol'4 |
 fa'4. fa'8 fa' fa' |
-fa'2 fa'8 fa' |
+fa'4 fa' fa' | % fa'2 fa'8 fa'
 mi'4. mi'8 mi'4 |
 mi'2 mi'4 |
 fad'4 fad'4. fad'8 |
@@ -57,6 +57,6 @@ R2.*3 |
 r2 fad'4 |
 sol'4. sol'8 sol' sol' |
 sol'4 sol' la' |
-sol' sol'4. sol'8 |
-sol'4( fad'2) |
+sol'4. sol'8 sol'4 | % sol'4 sol'4. sol'8
+sol'2( fad'4) | % sol'4( fad'2)
 sol'2. |

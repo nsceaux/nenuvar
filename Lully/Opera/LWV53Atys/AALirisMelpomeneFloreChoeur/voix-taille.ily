@@ -1,4 +1,4 @@
-\clef "vtaille" R1*12 |
+\clef "vtaille" R1*11 |
 R2.*4 |
 R1 |
 R2.*27 |
@@ -16,7 +16,7 @@ la2. |
 mi'4 mi'4. mi'8 |
 mi'2 do'4 |
 la4. la8 la la |
-la4 la4. la8 |
+la4 la la | % la4 la4. la8
 la4. la8 sold4 |
 la2 la4 |
 la4 la4. re'8 |
@@ -44,7 +44,7 @@ sib4 sib sib |
 la4. la8 la4 |
 la2 la4 |
 si4 si4. si8 |
-sol2. |
+sold2. | % sol2.
 do'4 do'4. do'8 |
 si2 si4 |
 do'4. do'8 do' do' |
@@ -58,5 +58,5 @@ r2 re'4 |
 re'4. re'8 do' si |
 do'4 mi'4. mi'8 |
 mi'4 mi' mi' |
-re'2( do'4) |
+re'2. | % re'2( do'4)
 si2. |

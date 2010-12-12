@@ -2,38 +2,38 @@
   <<
     \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
-        { s1*12 s2.*4 s1 s2.*27 \noHaraKiri }
-        \global \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles1"
+        { s1*11 s2.*4 s1 s2.*27 \noHaraKiri }
+        \global \keepWithTag #'choeur \includeNotes "voix"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
-        { s1*12 s2.*4 s1 s2.*27 \noHaraKiri }
+        { s1*11 s2.*4 s1 s2.*27 \noHaraKiri }
         \global \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles1"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
-        { s1*12 s2.*4 s1 s2.*27 \noHaraKiri }
+        { s1*11 s2.*4 s1 s2.*27 \noHaraKiri }
         \global \includeNotes "voix-taille"
-      >> \includeLyrics "paroles1"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
-        { s1*12 s2.*4 s1 s2.*27 \noHaraKiri }
+        { s1*11 s2.*4 s1 s2.*27 \noHaraKiri }
         \global \includeNotes "voix-basse"
-      >> \includeLyrics "paroles1"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
     >>
     \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "voix" %% Iris
-      >> \includeLyrics "paroles"
+        \global \keepWithTag #'iris \includeNotes "voix"
+      >> \keepWithTag #'iris \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
-        { s1*12 s2.*4 s1 s2.*14 \noHaraKiri }
-        \global \includeNotes "melpomene"
-      >> \includeLyrics "paroles-melpomene"
+        { s1*11 s2.*4 s1 s2.*14 \noHaraKiri }
+        \global \keepWithTag #'flore \includeNotes "voix"
+      >> \keepWithTag #'flore \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
-        { s1*12 s2.*4 s1 s2.*14 \noHaraKiri }
-        \global \includeNotes "flore"
-      >> \includeLyrics "paroles-melpomene"
+        { s1*11 s2.*4 s1 s2.*14 \noHaraKiri }
+        \global \keepWithTag #'melpomene \includeNotes "voix"
+      >> \keepWithTag #'melpomene \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
-        { s1*12 s2.*4 s1 s2.*27 s1*6 \noHaraKiri }
-        \global \includeNotes "temps"
-      >> \includeLyrics "paroles-temps"
+        { s1*11 s2.*4 s1 s2.*27 s1*6 \noHaraKiri }
+        \global \keepWithTag #'temps \includeNotes "voix"
+      >> \keepWithTag #'temps \includeLyrics "paroles"
     >>
   >>
   \layout { }
