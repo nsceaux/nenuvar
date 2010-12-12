@@ -62,6 +62,7 @@
   \three-cells-title "" "Ballard 1689" "Manuscrit"
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% AAAouverture, quinte, mesure 7
+  \line \large { Prologue }
   \line { \bold Ouverture (page \page-refIII #'AAAouverture ) }
   \three-cells
   \line { Mesure 7, quinte }
@@ -376,11 +377,8 @@
   \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% AABleTemps, mesure 5
-  \column {
-    \line { \bold Prologue }
-    \line { \bold { Le Temps : \italic { En vain j'ai respecté } }
+  \line { \bold { Le Temps : \italic { En vain j'ai respecté } }
       (page \page-refIII #'AABleTemps ) }
-  }
   \three-cells
   \line { Mesure 5 }
   \score { 

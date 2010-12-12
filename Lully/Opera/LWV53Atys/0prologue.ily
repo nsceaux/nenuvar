@@ -20,7 +20,7 @@
 \pieceToc \markup { Un Zéphir : 
   \italic { Le printemps quelques fois est moins doux qu'il ne semble } }
 \includeScore "AAHzephir"
-\noBreak\markup\fill-line { \null
+\markup\fill-line { \null
   \line \italic { On reprend la gavotte précédente, page \page-refIII #'AAGair . } }
 %{ n°9 %}
 \pieceTocTitle "Prélude pour Melpomène" \includeScore "AAIair"
@@ -30,7 +30,7 @@
 \includeScore "AAJmelpomene"
 %{ n°11 %}
 \pieceTocTitle "Air pour la suite de Melpomène" \includeScore "AAKair"
-%{ n°12 %}\newBookPart #'(full)
+%{ n°12 %}
 \pieceToc \markup { Iris, Melpomène, Flore, le Temps, chœur }
 \includeScore "AALirisMelpomeneFloreChoeur"
 %{ n°13 %}\newBookPart #'(full)
