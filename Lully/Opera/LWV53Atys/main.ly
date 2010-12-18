@@ -24,4 +24,5 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Lully/Opera/LWV53Atys/notes.ily"
   \include "Lully/Opera/LWV53Atys/notes0.ily"
+  \include "Lully/Opera/LWV53Atys/notes1.ily"
 }

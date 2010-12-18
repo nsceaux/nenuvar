@@ -1,5 +1,5 @@
 \markuplines \column-lines {
-\line\bold { Différences Ballard 1689 et Manuscrit }
+  \section \line { Différences Ballard 1689 et Manuscrit }
   \paragraph {
     Les différences significatives rencontrées entre l'édition Ballard
     1689 et le manuscrit sont relevées ici. Les très nombreuses
@@ -59,10 +59,10 @@
     été retenue dans cette édition.
   }
   \null
-  \three-cells-title "" "Ballard 1689" "Manuscrit"
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% AAAouverture, quinte, mesure 7
-  \line \large { Prologue }
+  \section Prologue
+  \three-cells-title "" "Ballard 1689" "Manuscrit"
   \line { \bold Ouverture (page \page-refIII #'AAAouverture ) }
   \three-cells
   \line { Mesure 7, quinte }

@@ -1,4 +1,4 @@
-\clef "vhaute-contre" R1*13 |
+\clef "vhaute-contre" R1*12 |
 r4 r8 sol^\markup\character "Atys" sib4. sol8 |
 re'4 mib'8[ re'] do'[ sib] do'[ la] |
 sib4. re'8 re'4. re'8 |

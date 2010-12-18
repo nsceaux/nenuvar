@@ -1,8 +1,9 @@
-\pieceToc "NOTES"
+\pieceToc "Test"
+\notesSection "NOTES"
 \markuplines \column-lines {
   \act { NOTES }
   
-  \null\line\bold { Sources }
+  \section Sources
   \paragraph {
     Plusieurs sources ont été exploitées pour préparer cette édition
     \concat { d' \italic { Atys } } : éditions complète, réduite, manuscrit,
@@ -57,7 +58,7 @@
     Ballard 1689.  Ces indications ont été ajoutée dans cette édition.
   }
 
-  \null\line\bold { Adaptations dans la notation }
+  \section \line { Adaptations dans la notation }
   
 }
 

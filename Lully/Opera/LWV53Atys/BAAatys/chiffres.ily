@@ -5,7 +5,7 @@
 <6> <5 6>1 <_> <_- 7>4\bassFigureExtendersOn <7>\bassFigureExtendersOff
 <5 6>4.\bassFigureExtendersOn <6>8\bassFigureExtendersOff <_+>1
 <_+>4.\bassFigureExtendersOn <_+>8\bassFigureExtendersOff <6>2
-<_- 5 6>2 <_+>4\bassFigureExtendersOn <_+>\bassFigureExtendersOff <_>1
+<_- 5 6>2 <_+>4\bassFigureExtendersOn <_+>\bassFigureExtendersOff %<_>1
 
 % 28
 <_>1 <_>2 <5/> <_>1 <_>2 <_->

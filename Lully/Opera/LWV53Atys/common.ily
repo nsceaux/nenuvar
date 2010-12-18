@@ -174,3 +174,33 @@ choeurMark =
 #(define-markup-command (sep layout props) ()
    (interpret-markup layout props
                      (markup #:fill-line (#:draw-line '(30 . 0)))))
+
+\paper {
+  tocNotesMarkup = \markup \fill-line {
+    \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \column {
+      \vspace #1
+      \sep
+      \vspace #1
+      \fill-line {
+        \line { \fromproperty #'toc:text }
+        \fromproperty #'toc:page
+      }
+    }
+  }
+}
+
+notesSection =
+#(define-music-function (parser location title) (markup?)
+  (add-page-break parser)
+  (add-toc-item parser 'tocNotesMarkup title)
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
+  (*act-title* title)
+  (add-odd-page-header-text
+    parser
+    (format #f "~a" (string-upper-case (*act-title*)))
+    #f)
+  (make-music 'Music 'void #t))
+
+#(define-markup-command (section layout props title) (markup?)
+   (interpret-markup layout props
+                     (markup #:column (#:vspace 1 #:fontsize 2 title #:vspace 0.5))))
