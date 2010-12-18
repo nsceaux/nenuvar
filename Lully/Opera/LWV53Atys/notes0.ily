@@ -1,5 +1,5 @@
 \markuplines \column-lines {
-  \section \line { Différences Ballard 1689 et Manuscrit }
+  \section \line { Comparaison entre Ballard 1689 et Manuscrit }
   \paragraph {
     Les différences significatives rencontrées entre l'édition Ballard
     1689 et le manuscrit sont relevées ici. Les très nombreuses

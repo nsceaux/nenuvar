@@ -1,19 +1,19 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff \withLyrics <<
+    \newHaraKiriStaff \withLyrics <<
       { s1*12 s1.*15 \break
         s1*8 s1*14 \break }
-      \global \includeNotes "voix"
-    >> \includeLyrics "paroles"
+      \global \keepWithTag #'sangaride \includeNotes "voix"
+    >> \keepWithTag #'sangaride \includeLyrics "paroles"
     \newHaraKiriStaff \withLyrics <<
-      \global \includeNotes "doris"
-    >> \includeLyrics "paroles-doris"
+      \global \keepWithTag #'doris \includeNotes "voix"
+    >> \keepWithTag #'doris \includeLyrics "paroles"
     \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "atys"
-    >> \includeLyrics "paroles-atys"
+      \global \keepWithTag #'atys \includeNotes "voix"
+    >> \keepWithTag #'atys \includeLyrics "paroles"
     \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "idas"
-    >> \includeLyrics "paroles-idas"
+      \global \keepWithTag #'idas \includeNotes "voix"
+    >> \keepWithTag #'idas \includeLyrics "paroles"
     \new Staff <<
       \global \clef "basse" \includeNotes "basse"
       \includeFigures "chiffres"

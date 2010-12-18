@@ -136,7 +136,7 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \line { \hspace #40 Dans cette édition, l'altération est proposée entre parenthèses. }
+  \line { \hspace #40 Dans cette édition, l'altération du manuscrit est proposée entre parenthèses. }
   %% BBAatysIdas mesure 131
   \three-cells
   \wordwrap { Mesure 131, Idas }
@@ -206,6 +206,271 @@
       indent = 0
       \context { \Staff \remove "Time_signature_engraver" }
     }
+  }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% BCAsdai mesure 16
+  \line { \bold { Scène III } (page \page-refIII #'BCAsdai ) }
+  \three-cells
+  \wordwrap { Mesure 16, basse continue }
+  \score {
+    {
+      \once \override Score.TimeSignature #'stencil = ##f
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #16 \time 3/2
+      \key sol \major \clef "bass"
+      si1 sol2 | la1
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    {
+      \once \override Score.TimeSignature #'stencil = ##f
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #16 \time 3/2
+      \key sol \major \clef "bass"
+      si1 sold2 | la1
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \line { \hspace #40 Dans cette édition, l'altération du manuscrit est proposée entre parenthèses. }
+  %% BCAsdai mesures 34-35
+  \three-cells
+  \wordwrap { Mesures 34-35, Atys }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #34 \time 2/2
+        \set autoBeaming = ##f
+        \key sol \major \clef "alto"
+        re'4. re'8 re'4. re'8 | si4 mi' re'2 | si1*1/2
+      } \addlyrics { "- pects" ne doit- on point lui ren -- "dre ?" }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #34 \time 2/2
+        \set autoBeaming = ##f
+        \key sol \major \clef "alto"
+        re'4. re'8 re'4. do'8 | si4 mi' re'4.( do'8) | si1*1/2
+      } \addlyrics { "- pects" ne doit- on point lui ren -- "dre ?" }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BCAsdai mesure 42
+  \three-cells
+  \wordwrap { Mesure 42, Atys }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #42 \time 2/2
+        \set autoBeaming = ##f
+        \key sol \major \clef "alto"
+        la4 fa' mi'2 |
+        dod'4.
+      } \addlyrics { va des -- cen -- dre }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #42 \time 2/2
+        \set autoBeaming = ##f
+        \key sol \major \clef "alto"
+        la4 fa' mi'4.( re'8) |
+        dod'4.
+      } \addlyrics { va des -- cen -- dre }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BCAsdai mesure 44
+  \three-cells
+  \wordwrap { Mesure 44, Doris }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #44 \time 2/2
+        \set autoBeaming = ##f
+        \key sol \major \clef "soprano"
+        fad'4 fad' la'4. la'8 | sol'4.
+      } \addlyrics { -lons, ac -- cou -- rez tous  }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #44 \time 2/2
+        \set autoBeaming = ##f
+        \key sol \major \clef "soprano"
+        fad'4 fad'8[ sol'] la'[ sol'] la'[ fad'] | sol'4.
+      } \addlyrics { -lons, ac -- cou -- rez tous  }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BCAsdai mesure 101
+  \three-cells
+  \wordwrap { Mesure 101, basse continue }
+  \score {
+    {
+      \once \override Score.TimeSignature #'stencil = ##f
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #101 \time 3/4
+      \key sol \major \clef "bass"
+      re2 mi4 | la,4 mi4. re8 | do4.
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    {
+      \once \override Score.TimeSignature #'stencil = ##f
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #101 \time 3/4
+      \key sol \major \clef "bass"
+      re2 mi8 mi, | la,4 mi,4 mi8 re | do4.
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BCAsdai mesure 160-161
+  \three-cells
+  \wordwrap { Mesure 160-161, Atys, basse continue }
+  \score {
+    \new StaffGroupNoBar <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #160 \time 3/4
+        \set autoBeaming = ##f
+        \key sol \major \clef "alto"
+        sol4. sol8 la4 | si si( la) | sol2*1/2
+      } \addlyrics { -tant qu'il m'est pos -- si -- ble, }
+      \new Staff {
+        \key sol \major \clef "bass"
+        mi2 do4 | re4 re,2 | sol,4
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new StaffGroupNoBar <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #160 \time 3/4
+        \set autoBeaming = ##f
+        \key sol \major \clef "alto"
+        sol4. sol8 la si | si4( la2) | sol2*1/2
+      } \addlyrics { -tant qu'il m'est pos -- si -- ble, }
+      \new Staff {
+        \key sol \major \clef "bass"
+        mi2 do4 | do4 re re, | sol,4
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BCAsdai mesure 188
+  \three-cells
+  \wordwrap { Mesure 188, Atys }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #188 \time 3/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        la8 sib do'8. do'16 do'8 si16[ la] | \time 4/4 sib4 r8
+      } \addlyrics { -cun s'a -- van -- ce prés de vous, }
+    >>
+    \layout { indent = 0 }
+  }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #188 \time 3/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        la8 sib do'8 do' do'[ sib16] la | \time 4/4 sib4. 
+      } \addlyrics { -cun s'a -- van -- ce prés de vous, }
+    >>
+    \layout { indent = 0 }
+  }
+  %% BCAsdai mesure 113
+  \three-cells
+  \wordwrap { Mesure 113, basse continue }
+  \score {
+    {
+      \once \override Score.TimeSignature #'stencil = ##f
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #113 \time 2/2
+      \key re \minor \clef "bass"
+      sol,1 \bar "|."
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    {
+      \once \override Score.TimeSignature #'stencil = ##f
+      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \set Score.currentBarNumber = #113 \time 2/2
+      \key re \minor \clef "bass"
+      sol,2. fa,8 mi, | \time 3/4 re,2.
+    }
+    \layout { indent = 0 }
   }
   \sep
 }

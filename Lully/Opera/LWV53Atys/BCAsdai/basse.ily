@@ -8,12 +8,12 @@ mi do4 la, |
 re2 mi4 mi, |
 la,2 mi4 re8 do |
 si,2 do |
-re4. re8 si,4 sol, |
+re2 %{ re4. re8 %} si,4 sol, |
 do2 re4 re, |
 sol,1. |
 sol,1 sol2 |
 la1. |
-si1 sold2 |
+si1 sold?2 |
 la1 si2 |
 do'4 la si2 si, |
 mi1 mi4 re |
@@ -30,19 +30,19 @@ la,2 la4. la8 |
 fa2 re |
 sol4 do sol,2 |
 do2 do4. do8 |
-sol,2 sol4. sol8 |
+sol,2 sol | % sol4. sol8
 re2. re4 |
-mi4 do re2 |
-sol,1~ |
-sol,4 sol sol4. sol8 |
+mi4 do re re, | % re2
+% sol,1~ | sol,4 sol sol4. sol8 |
+sol,1 | sol2. sol4 |
 do4 do8 si, do re mi do |
-fa2 fa4. fa8 |
-re2. re4 |
+fa2. fa4 | % fa2 fa4. fa8
+re4 re8 mi fa mi fa re | % re2. re4
 mi2 do |
 re2 mi4 mi, |
-la,2. la4 |
-re re8 mi fad mi fad re |
-sol4. sol8 sol4. sol8 |
+la,2 la | % la,2. la4
+re4 re8 mi fad mi fad re |
+sol2. sol4 | % sol4. sol8 sol4. sol8
 do'4 do'8 si la sol fad mi |
 re2 si, |
 do re4 re, |
@@ -67,7 +67,7 @@ fad1 |
 mi |
 fad |
 sol |
-fad4 re la la, |
+%{fad4 re %} fad2 la4 la, |
 re2. re4 |
 do2. si,8 do |
 re2 re, |
@@ -76,14 +76,14 @@ mi si, |
 do1 |
 si,2 la,4. sol,8 |
 fad,1 |
-sol, |
+sol,~ |
 sol, |
 do1. |
 re2 re4 |
 sol2 do'8 si |
 la2 sol4 |
 fad2 mi4 |
-re4. mi8 fad4 |
+re4. mi8 %{ fad4 %} fad8 re |
 sol8 fad mi4 re |
 do8 si, la,2 |
 si, si8 la |
@@ -98,8 +98,8 @@ re4. re8 mi fad |
 sol2 fa4 |
 mi4. re8 do4 |
 fa4. sol8 fa mi |
-re2 mi8 mi, |
-la,4 mi, mi8 re |
+re2 %{ mi8 mi, %} mi4 |
+la,4 %{ mi,4 mi8 re %} mi4. re8 |
 do4. si,8 la,4 |
 sold,2. |
 la,2 fad,4 |
@@ -124,13 +124,21 @@ la2 sib4 |
 sol la la, |
 re2 re8 mi |
 fa2 fa4 |
-mi2 fa4 |
+mi2 fad4 |
 sol4 sol,2 |
 re4. mi8 re do |
 si,4. la,8 sol,4 |
 fad, sol,2 |
 re,2. |
-sol, |
+sol,4. sol8 re mi | % sol,2.
+fa2 fa4 |
+mi2 fad4 |
+sol4 sol,2 |
+re4. mi8 re do |
+si,4. la,8 sol,4 |
+fad, sol,2 |
+re4 re,2 | % re,2.
+sol,2. |
 sol |
 fad |
 mi2 do4 |
@@ -140,7 +148,7 @@ fad2. |
 mi |
 re4 re,2 |
 sol,4 sol2 |
-fad2. |
+fad2 re4 | % fad2.
 mi2 do4~ |
 do re re, |
 sol, sol2 |
@@ -150,8 +158,8 @@ re4 re,2 |
 sol,4 sol2 |
 fad re4 |
 mi2 do4 |
-do re re, |
-sol, sol2 |
+re4 re,2 | % do4 re re,
+sol,4 sol2 |
 fad2. |
 mi |
 re4 re,2 |
@@ -172,7 +180,7 @@ fad2. |
 mi2 do4 |
 re re,2 |
 sol,4 sol2 |
-fad2. |
+fad2 re4 | % fad2.
 mi2 do4 |
 re re,2 |
 sol,2. |
@@ -192,4 +200,4 @@ sib sib8 la sol fa mib re |
 do4 mib8 re do sib, la, sol, |
 re2 sib, |
 do re4 re, |
-sol,2. fa,8 mi, |
+sol,1 | % sol,2. fa,8 mi,
