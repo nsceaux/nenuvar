@@ -3,7 +3,6 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BAAatys ritournelle
   \line { \bold { Scène I } (page \page-refIII #'BAAatys ) }
-  \line { Ritournelle }
   \line { Dans le manuscrit, la ritournelle est jouée deux fois : }
   \score {
     \new StaffGroup <<
@@ -64,4 +63,149 @@
     >>
     \layout { indent = 0.5\cm }
   }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% BBAatysIdas mesure 48
+  \line { \bold { Scène II } (page \page-refIII #'BBAatysIdas ) }
+  \three-cells
+  \wordwrap { Mesure 48, Idas }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #48 \time 2/2
+        \set autoBeaming = ##f
+        \key re \minor \clef "bass"
+        dod4. dod8 re4. re8 | la,1 |
+      } \addlyrics { "- mour" qui vous é -- "veil -" }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #48 \time 2/2
+        \set autoBeaming = ##f
+        \key re \minor \clef "bass"
+        dod4 dod re8[ dod] re4 | la,1 |
+      } \addlyrics { "- mour" qui vous é -- "veil -" }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BBAatysIdas mesure 81
+  \three-cells
+  \wordwrap { Mesure 81, Atys }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #81 \time 3/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        re'4 sol'8[ fa'] sol'4 | fad'2. |
+      } \addlyrics { ne sont pas grands, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #81 \time 3/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        re'4 sol'8[ fad'] sol'4 | fad'2. |
+      } \addlyrics { ne sont pas grands, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \line { \hspace #40 Dans cette édition, l'altération est proposée entre parenthèses. }
+  %% BBAatysIdas mesure 131
+  \three-cells
+  \wordwrap { Mesure 131, Idas }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #131 \time 2/2
+        \set autoBeaming = ##f
+        \key re \minor \clef "bass"
+        dod2 r8 la la16 la la sib | sol4.
+      } \addlyrics { bien que si vous en dou -- tez, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #131 \time 2/2
+        \set autoBeaming = ##f
+        \key re \minor \clef "bass"
+        dod2 la8. la16 la8 la16 sib | sol4.
+      } \addlyrics { bien que si vous en dou -- tez, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BBAatysIdas mesure 161
+  \three-cells
+  \wordwrap { Mesure 161, Atys }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #161 \time 2/2
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        fa'4. fa'8 mib'4. re'8 | mib'2 mib'4 r8 do' | sol4.
+      } \addlyrics { cœur n'est que trop ten -- dre, l'a -- mour }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #161 \time 2/2
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        fa'2 fa'4 mib'8 re' | mib'2 mib'4. do'8 | sol4.
+      } \addlyrics { cœur n'est que trop ten -- dre, l'a -- mour }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \sep
 }

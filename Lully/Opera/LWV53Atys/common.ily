@@ -203,4 +203,4 @@ notesSection =
 
 #(define-markup-command (section layout props title) (markup?)
    (interpret-markup layout props
-                     (markup #:column (#:vspace 1 #:fontsize 2 title #:vspace 0.5))))
+                     (markup #:column (#:vspace 1 #:fontsize 2 #:bold title #:vspace 0.5))))

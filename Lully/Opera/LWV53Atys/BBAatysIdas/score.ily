@@ -5,11 +5,11 @@
       \newHaraKiriStaffB << \global \includeNotes "dessus2" >>
     >>
     \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "voix"
-    >> \includeLyrics "paroles"
+      \global \keepWithTag #'atys \includeNotes "voix"
+    >> \keepWithTag #'atys \includeLyrics "paroles"
     \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "idas"
-    >> \includeLyrics "paroles-idas"
+      \global \keepWithTag #'idas \includeNotes "voix"
+    >> \keepWithTag #'idas \includeLyrics "paroles"
     \new Staff <<
       \global \clef "basse" \includeNotes "basse-continue"
       \includeFigures "chiffres"

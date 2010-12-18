@@ -71,7 +71,7 @@
 
 <5 6> <_+> <6> <5 6>
 
-<4>4 <_+> <_+>2.\bassFigureExtendersOn <_+>4\bassFigureExtendersOff <_>1 <_- 7>2 <5 6>
+<4>4 <_+> <_+>2..\bassFigureExtendersOn <_+>8\bassFigureExtendersOff <_>1 <_- 7>2 <5 6>
 
 % 35
 <_+>2. <6>4 <_> <_- 4 5> <4> <_+> <_>1
@@ -92,4 +92,4 @@
 <_->4\bassFigureExtendersOn <_->\bassFigureExtendersOff <7>2 <6>
 <_+>4\bassFigureExtendersOn <_+>\bassFigureExtendersOff <6>2 <_-> <5 6>
 
-<4> <_+>
+<4> <_+> <_!>

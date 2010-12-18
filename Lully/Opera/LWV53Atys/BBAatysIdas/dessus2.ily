@@ -11,7 +11,7 @@ fa''4 mi''2 fa''8 re'' |
 dod''4 dod'' re''4. re''8 |
 mi''4 mi'' la' re'' |
 re''2 dod''4.( si'16 dod'') |
-re''4 la' la'4. la'8 |
+%{ re''4 la' %} re''4. la'8 la'4. la'8 |
 sib'4 re''2 do''8 sib' |
 la' sib' do''4 sib' sib'8 la' |
 sol'4 sol' sol' la' |

@@ -1,11 +1,11 @@
 \score {
   \new ChoirStaff <<
     \new Staff \withLyrics <<
-      \global \includeNotes "voix"
-    >> \includeLyrics "paroles"
-    \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "idas"
-    >> \includeLyrics "paroles-idas"
+      \global \keepWithTag #'atys \includeNotes "voix"
+    >> \keepWithTag #'atys \includeLyrics "paroles"
+    \new Staff \withLyrics <<
+      \global \keepWithTag #'idas \includeNotes "voix"
+    >> \keepWithTag #'idas \includeLyrics "paroles"
   >>
   \layout { }
 }
