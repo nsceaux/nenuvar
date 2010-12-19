@@ -1,1 +1,1 @@
-R1*4\noBreak r2
+R1*4\noBreak R2.*4
