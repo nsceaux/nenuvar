@@ -1,15 +1,11 @@
-\clef "basse" la4 |
-sol2. |
-fa |
-mi2 mi,4 |
-la,1 |
+\clef "basse" la,1 |
 fa2. |
 mi4. re8 do si, |
 la, sol, fad,2 |
 sol,4 sol mi8 fa re4 |
 do1 |
 fa2 mi4 |
-re la8 la, re2 |
+re la8 la, re2~ |
 re4 do8 si, la,2 |
 mi2 dod4 |
 re sol, re, |
@@ -26,12 +22,12 @@ mi re4 dod |
 re2 la~ |
 la fad |
 sol mi |
-fa sol4 sol, |
+fa sol | % sol4 sol,
 do2 do'4 si8 la |
 sol2 sold |
 la fa4 |
 mi2 sold,4 |
-la, la2 |
+la, fa2 | % la2
 re2 mi4 |
 la,4. si,8 dod4 |
 re4 fad sol~ |
@@ -57,8 +53,8 @@ la,2 re |
 mi red |
 mi2. la,4 |
 re2 fad, |
-sol,4 sol8 fa mi2 |
-re4 re mi8 do re4 |
+sol,4 %{ sol8 fa %} sol4 mi2 |
+re2 mi8 do re re, | % re4 re mi8 do re4
 sol,2 la, |
 si, do |
 si,4 si sold2 |
@@ -106,7 +102,7 @@ la2. |
 si |
 la4 si si, |
 mi2 mi4 |
-fa sold2 |
+fad sold2 |
 la la,4~ |
 la, sold,4. la,16 si, |
 do2 la,4 |
@@ -124,16 +120,16 @@ fa2 re |
 sol sold |
 la fa |
 mi mi,4 |
-la,2 la4~ |
+%{la,2 la4~ |
 la sold2 |
 la4 la,4. si,8 |
 do2 re4 |
 mi si, do |
 fa, sol,2 |
-do4. re8 do si, |
+do4. re8 do si, | %}
 la,2 la4~ |
 la4 sold2 |
-la4 la,4. si,8 |
+la4 la, si, | % la,4. si,8
 do2 re4 |
 mi4 si, do |
 fa, sol,2 |

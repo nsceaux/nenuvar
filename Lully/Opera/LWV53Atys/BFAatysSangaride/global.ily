@@ -1,6 +1,4 @@
 \keys la \minor
-\time 3/4 \partial 4 \midiTempo #160
-s4 s2.*3
 \time 4/4 \midiTempo #80
 s1
 \time 3/4
@@ -58,4 +56,5 @@ s2.*36
 \time 4/4 \midiTempo #80
 s1*4
 \time 3/4 \midiTempo #120
-s2.*27
+s2.*20
+\bar "|."

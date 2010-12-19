@@ -751,4 +751,183 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% BFAatysSangaride
+  \line { \bold { Scène VI } (page \page-refIII #'BFAatysSangaride ) }
+  %% BFAatysSangaride mesure 57
+  \three-cells
+  \wordwrap { Mesure 57, Sangaride }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #57 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        fad'8 fad' r16 la' la' si' sol'4 sol'8 sol'16 fad' | % sol'4
+      } \addlyrics { plain -- dre si vous sa -- viez tous vos mal- }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #57 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        fad'8 fad' r16 la' la' si' sol'8. sol'16 sol'8. fad'16 | % sol'4
+      } \addlyrics { plain -- dre si vous sa -- viez tous vos mal- }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BFAatysSangaride mesure 80
+  \three-cells
+  \wordwrap { Mesure 80, Atys }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #80 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key la \minor \clef "alto"
+        sold4 r8 sold16 sold la4 si8. do'16 | si4 si
+      } \addlyrics { -quoy vou -- lez- vous que je vi -- ve }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #80 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key la \minor \clef "alto"
+        sold4 r8 sold16 sold la4. si16 do' | si4 si
+      } \addlyrics { -quoy vou -- lez- vous que je vi -- ve }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BFAatysSangaride mesure 92
+  \three-cells
+  \wordwrap { Mesures 92-93, Atys }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #92 \time 3/4
+        \set autoBeaming = ##f
+        \key la \minor \clef "alto"
+        sol'4 fa'4. fa'8 | mi'4 mi'4. mi'8 |
+      } \addlyrics { -mour fit nos cœur l'un pour }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #92 \time 3/4
+        \set autoBeaming = ##f
+        \key la \minor \clef "alto"
+        sol'4 fa'4( mi'8.) fa'16 | mi'4 mi'( re'8) mi' |
+      } \addlyrics { -mour fit nos cœur l'un pour }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BFAatysSangaride mesure 97
+  \three-cells
+  \wordwrap { Mesures 96-100, Sangaride, Atys }
+  \score {
+    \new ChoirStaff <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #96 \time 3/4
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        la'4\trill si'4. la'8 | sold'4 la'4. la'8 | sold'2 r8 sold' |
+        la'2 la'8 la' | fad'2 fad'8 fad' | sol'4 sol'
+      } \addlyrics { voir les sé -- pare à ja -- "mais ?"
+        L'a -- mour fit nos cœur l'un pour l'au -- tre }
+      \new Staff {
+        \set autoBeaming = ##f
+        \key la \minor \clef "alto"
+         mi'4 re'4. re'8 | re'4 do'4. do'8 | si2 r8 si | \break
+        do'2 do'8 do' | la2 la8 re' | si4 si
+      } \addlyrics { voir les sé -- pare à ja -- "mais ?"
+        L'a -- mour fit nos cœur l'un pour l'au -- tre }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #96 \time 3/4
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        la'4\trill si'4. si'8 | sold'4 la'4.( sold'16) la' | sold'2 sold'4 |
+        la'2 la'8 la' | fad'4 fad'4. fad'8 | sol'4 sol'
+      } \addlyrics { voir les sé -- pare à ja -- "mais ?"
+        L'a -- mour fit nos cœur l'un pour l'au -- tre }
+      \new Staff {
+        \set autoBeaming = ##f
+        \key la \minor \clef "alto"
+        mi'4 re'4. re'8 | re'4 do'4.( si16) do' | si2 si4 | \break
+        do'2 do'8 do' | la4 la4. re'8 | si4 si
+      } \addlyrics { voir les sé -- pare à ja -- "mais ?"
+        L'a -- mour fit nos cœur l'un pour l'au -- tre }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \null\justify {
+    Dans le manuscrit, \italic { Aimons un bien plus durable que la beauté }
+    (Atys) est chanté deux fois :
+  }
+  \score {
+    \new StaffGroupNoBar <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #124 \clef "alto" \time 3/4
+        r8 mi' do'4 la | re' re' si | do'2 la4 | r mi' fa' |
+        sol'2 mi'4 | fa' re'2 | do'2. | \break
+        r8 mi' do'4 la | re' re' si | do'2 la4 | r mi' fa' |
+        sol'2 mi'4 | fa' re'2 | do' do'4 |
+      } \addlyrics {
+        Ai -- mons un bien plus du -- ra -- ble
+        que l'é -- clat de la beau -- té.
+        Ai -- mons un bien plus du -- ra -- ble
+        que l'é -- clat de la beau -- "té :"
+        rien }
+      \new Staff <<
+        { \clef "bass" la,2 la4~ | la sold2 | la4 la,4. si,8 | do2 re4 |
+          mi si, do | fa, sol,2 | do4. re8 do si, |
+          la,2 la4~ | la4 sold2 | la4 la,4. si,8 | do2 re4 |
+          mi4 si, do | fa, sol,2 | do do4 | }
+        \figuremode { <_>2. <2 4>2. <_>2.*5  <_>2. <2 4>2. <_>2.*5 }
+      >>
+    >>
+    \layout { indent = 0.5\cm }
+  }
 }
