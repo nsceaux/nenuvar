@@ -1,7 +1,7 @@
 \oldKey la \minor
 \newKey re \minor
 \time 3/4 \midiTempo #120
-s2.*9
+s2.*8
 \time 4/4 \midiTempo #80
 s1*5
 \time 3/4

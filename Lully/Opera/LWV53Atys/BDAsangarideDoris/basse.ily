@@ -1,5 +1,5 @@
-\clef "basse" re,2. |
-re |
+\clef "basse" % re,2. |
+re2. |
 do |
 sib, |
 la, |
@@ -49,7 +49,7 @@ re1~ |
 re |
 la, |
 re2 mi4 mi, |
-la,2 la, |
+la,2. la,4 | % la,2 la,
 re4. do8 sib,2 |
 fad, sol, |
 sol mi |
@@ -72,17 +72,17 @@ fad2. |
 sol2 la4 |
 sib sol4. fa8 |
 do'4. sib8 la4 |
-sib2 sib4~ |
-sib do' do |
+sib2. | % sib2 sib4~
+sib4 do' do |
 fa fa8 mi re4 |
 sol2. |
 la4 la8 sol fa mi |
-re do sib,4. la,8 |
+re do %{ sib,4. la,8 %} sib,2 |
 la,4 la8 sol fad4 |
 sol sol8 fa mi4 |
 la8 re la,2 |
-re re |
-re mi |
+re1~ | % re2 re
+re2 mi |
 fa fa8 mib re do |
 sib,2 si, |
 do4 dod re2 |
@@ -97,7 +97,7 @@ re |
 dod2 re~ |
 re do |
 sib,1 |
-la,2. |
+la,2 la,4 | % la,2.
 re2 re4 |
 la2 la8 fa |
 sol2. |
@@ -123,4 +123,4 @@ do' do2 |
 fa2 fa4 |
 mi2 re4 |
 la2 la,4 |
-re2 do8 sib, |
+re2 do8 si, |

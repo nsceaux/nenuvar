@@ -271,7 +271,7 @@
     si( la2)\trill |
     sol2. |
     r4 re'8. re'16 %{ re'8 re' %} sol4 sol8 sol |
-    la sib do'8. do'16 do'8 si16[ la] | % do'8 do' do'[ sib16] la
+    la sib do'8. do'16 do'8 sib16[ la] | % do'8 do' do'[ sib16] la
     %{ sib4. %} sib4 r8 re'8 mib' mib'16 mib' do'8\trill do'16 do' |
     la2\trill la4 r |
     r4 r8 sol sib4. sol8 |

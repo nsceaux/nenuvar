@@ -429,7 +429,7 @@
         \set Score.currentBarNumber = #188 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
-        la8 sib do'8. do'16 do'8 si16[ la] | \time 4/4 sib4 r8
+        la8 sib do'8. do'16 do'8 sib16[ la] | \time 4/4 sib4 r8
       } \addlyrics { -cun s'a -- van -- ce prés de vous, }
     >>
     \layout { indent = 0 }
@@ -446,14 +446,14 @@
     >>
     \layout { indent = 0 }
   }
-  %% BCAsdai mesure 113
+  %% BCAsdai mesure 203
   \three-cells
-  \wordwrap { Mesure 113, basse continue }
+  \wordwrap { Mesure 203, basse continue }
   \score {
     {
       \once \override Score.TimeSignature #'stencil = ##f
       \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #113 \time 2/2
+      \set Score.currentBarNumber = #203 \time 2/2
       \key re \minor \clef "bass"
       sol,1 \bar "|."
     }
@@ -465,12 +465,290 @@
   \score {
     {
       \once \override Score.TimeSignature #'stencil = ##f
-      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #113 \time 2/2
+      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #203 \time 2/2
       \key re \minor \clef "bass"
-      sol,2. fa,8 mi, | \time 3/4 re,2.
+      sol,2. fa,8 mi, | \time 3/4 re,2. | \custosNote re4
     }
     \layout { indent = 0 }
   }
   \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% BDAsangarideDoris
+  \line { \bold { Scène IV } (page \page-refIII #'BDAsangarideDoris ) }
+  \justify {
+    Dans le manuscrit, l'armure comporte un bémol, tandis que dans la
+    version Ballard, l'armure est vide. Mais dans l'un comme l'autre cas,
+    les \italic si bémol sont explicités par une altération.  Dans le
+    manuscrit, quelques \italic si n'ont pas d'altération ; ils devraient
+    être bémol d'après l'armure.  Dans Ballard, ces \italic si sont également
+    sans altération, et donc bécarre.  On considère par conséquent, qu'en
+    dépit de l'armure différente, les deux sources concordent, et les
+    \italic si en question sont indiqués bécarre dans cette édition, où un
+    bémol est placé dans l'armure. Ces cas sont détaillés ci-dessous.
+  }
+  %% BDAsangarideDoris mesure 10
+  \null\three-cells
+  \wordwrap { Mesure 10, Doris }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #10 \time 4/4
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        r8 fa'16 sol' la'8 la'16 si'^\markup\concat\vcenter{( \natural ) }
+        do''8. do''16 do'' sib' sib' la' %| la'4
+      } \addlyrics { L'a -- mi -- tié fut tou -- jours é -- gale en -- tre vous deux, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #10 \time 4/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "soprano"
+        r8 fa'16 sol' la'8 la'16 sib'^\markup\concat\vcenter{( \flat ) }
+        do''8. do''16 do'' sib'! sib' la' %| la'4
+      } \addlyrics { L'a -- mi -- tié fut tou -- jours é -- gale en -- tre vous deux, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BDAsangarideDoris mesure 14
+  \three-cells
+  \wordwrap { Mesure 14, Doris }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #14 \time 3/4
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        re''4 r8 re''16 re'' la'8. si'16^\markup\concat\vcenter{( \natural ) } | do''8.
+      } \addlyrics { Vous, qu'au -- jour -- d'hui l'hy -- men }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #14 \time 3/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "soprano"
+        re''4 r8 re''16 re'' la'8. sib'16^\markup\concat\vcenter{( \flat ) } | do''8.
+      } \addlyrics { Vous, qu'au -- jour -- d'hui l'hy -- men }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BDAsangarideDoris mesure 22
+  \three-cells
+  \wordwrap { Mesure 22, Sangaride }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #22 \time 3/4
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        re''2 la'8 si'^\markup\concat\vcenter{( \natural ) } | do''4
+      } \addlyrics { -reux. Sou -- ve -- rain }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #22 \time 3/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "soprano"
+        re''2 la'8 sib'^\markup\concat\vcenter{( \flat ) } | do''4
+      } \addlyrics { -reux. Sou -- ve -- rain }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BDAsangarideDoris mesure 34
+  \three-cells
+  \wordwrap { Mesure 34, Sangaride }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+        \set Score.currentBarNumber = #34 \time 3/4 \bar ""
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        fa'4. sol'8 la' si'^\markup\concat\vcenter{( \natural ) } | do''4
+      } \addlyrics { -tys ne con -- naît point }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+        \set Score.currentBarNumber = #34 \time 3/4 \bar ""
+        \set autoBeaming = ##f
+        \key re \minor \clef "soprano"
+        fa'4. sol'8 la' sib'^\markup\concat\vcenter{( \flat ) } | do''4
+      } \addlyrics { -tys ne con -- naît point }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BDAsangarideDoris mesure 46
+  \three-cells
+  \wordwrap { Mesure 46, Doris }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #46
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        \time 4/4 r4 r8 re'' si'8. si'16 si'8. si'16 |
+        \override Score.TimeSignature #'style = #'single-digit \time 3/4 sold'4
+      } \addlyrics { Quel mal vous fait l'a -- "mour ?" }
+    >>
+    \layout { indent = 0 }
+  }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \set Score.currentBarNumber = #46
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        \time 4/4 r4 r8 re'' si'4 si'8 si'16 si' |
+        \override Score.TimeSignature #'style = #'single-digit \time 3/4 sold'4
+      } \addlyrics { Quel mal vous fait l'a -- "mour ?" }
+    >>
+    \layout { indent = 0 }
+ }
+  %% BDAsangarideDoris mesure 69
+  \three-cells
+  \wordwrap { Mesure 69, Doris }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #69
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano" \time 4/4
+        fa'4 re'' re''8. re''16 la'8 si'^\markup\concat\vcenter{( \natural ) } |
+        do''4 do''
+      } \addlyrics { -tys, lui dont l'in -- dif -- fé -- ren -- ce }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #69
+        \set autoBeaming = ##f
+        \key re \minor \clef "soprano" \time 4/4
+        fad'4 r re''8 re''16 re'' la'8 sib'^\markup\concat\vcenter{( \flat ) } |
+        do''4 do''
+      } \addlyrics { -tys, lui dont l'in -- dif -- fé -- ren -- ce }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BDAsangarideDoris mesure 76
+  \three-cells
+  \wordwrap { Mesures 76-77, Sangaride }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #76 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        la'4 la'8 r16 do'' fa''4 fa''8 la'16 si'^\markup\concat\vcenter{( \natural ) } |\break
+        do''4 r8 do'' dod'' dod'' re'' mi'' | fa''4 fa''
+      } \addlyrics { -sa -- ge, j'ap -- pel -- le ma rai -- son,
+        j'a -- ni -- me mon cou -- ra -- ge, }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #76 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        la'4 la'8 r16 do'' fa''8. fa''16 la'8. sib'16 |\break
+        do''4. do''8 dod''4 dod''8 re''16 mi'' | fa''4 fa''8 r
+      } \addlyrics { -sa -- ge, j'ap -- pel -- le ma rai -- son,
+        j'a -- ni -- me mon cou -- ra -- ge, }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BDAsangarideDoris mesure 80
+  \three-cells
+  \wordwrap { Mesure 80, Sangaride }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #80 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        mi''4. mi''8 re'' do'' si' la' | sold'4 sold'8
+      } \addlyrics { cœur en souf -- fre d'a -- van -- ta -- ge, }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #80 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key la \minor \clef "soprano"
+        mi''4 mi'' re''8 do'' si'8. la'16 | sold'4 sold'8
+      } \addlyrics { cœur en souf -- fre d'a -- van -- ta -- ge, }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
 }
