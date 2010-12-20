@@ -1072,4 +1072,139 @@
     intermédiaires semblent perdues.
   }
   \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% BGBphrygiens
+  \line { \bold { Entrée des Phrygiens } (page \page-refIII #'BGBphrygiens ) }
+  %% mesure 3
+  \three-cells
+  \wordwrap { Mesure 3, quinte }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \set Score.currentBarNumber = #3 \time 2/2 \bar ""
+      \key do \major \clef "alto"
+      re'4 sol sol sol | la2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \column {
+    \score {
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+        \set Score.currentBarNumber = #3 \time 2/2 \bar ""
+        \key do \major \clef "alto"
+        do'4 sol sol sol | la2
+      }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \wordwrap { \bold { Version retenue } (accord de do majeur sur le
+      premier temps, suivant une septième de dominante) }
+  }
+  %% mesure 6
+  \three-cells
+  \wordwrap { Mesure 6, haute-contre }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \set Score.currentBarNumber = #6 \time 2/2 \bar ""
+      \key do \major \clef "soprano"
+       do''2 si'4. si'8 | la'2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \set Score.currentBarNumber = #6 \time 2/2 \bar ""
+      \key do \major \clef "soprano"
+       re''2 si'4. si'8 | la'2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% mesure 12
+  \three-cells
+  \wordwrap { Mesure 12, haute-contre }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \set Score.currentBarNumber = #12 \time 2/2 \bar ""
+      \key do \major \clef "soprano"
+      si'4 sold'~ sold'8 la' si' sold' | la'
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \set Score.currentBarNumber = #12 \time 2/2 \bar ""
+      \key do \major \clef "soprano"
+      si'4. sold'8 la' si' sold'4 | la'
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% mesure 14
+  \three-cells
+  \wordwrap { Mesure 14, taille }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \set Score.currentBarNumber = #14 \time 2/2 \bar ""
+      \key do \major \clef "mezzosoprano"
+      dod'4 dod'8 re' mi'4. la'8 | la'4
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \column {
+    \score {
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+        \set Score.currentBarNumber = #14 \time 2/2 \bar ""
+        \key do \major \clef "mezzosoprano"
+        do'4 do'8 re' mi'4. la'8 | la'4
+      }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \wordwrap { Le \italic do bécarre est confirmé par la basse chiffrée du manuscrit. }
+  }
+  %% mesure 20
+  \three-cells
+  \wordwrap { Mesure 20, basse }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \set Score.currentBarNumber = #20 \time 2/2 \bar ""
+      \key do \major \clef "basse"
+      do1 \bar "|."
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \set Score.currentBarNumber = #20 \time 2/2 \bar ""
+      \key do \major \clef "basse"
+      do8 re16 mi fa sol la si do'2 \bar "|."
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
 }

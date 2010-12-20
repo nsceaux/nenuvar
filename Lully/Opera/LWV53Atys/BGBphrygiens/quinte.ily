@@ -1,6 +1,6 @@
 \clef "quinte" sol' sol'8 fa' mi'4. mi'8 |
 re'2 re'4. re'8 |
-do'4 sol sol sol |
+%{ Ballard : re'4 %} do'4 sol sol sol |
 la2 la |
 la la4. la8 |
 la2 sol4. sol8 |

@@ -16,5 +16,7 @@ re4 re'8 do' si2 |
 do'4 si8 la sold2 |
 la4 la8 sol fad2 |
 sol4. fa8 mi re do re |
-mi4. fa8 sol4 sol, |
-do8 re16 mi fa sol la si do'2 |
+%{ mi4. fa8 %} mi4 fa sol4 sol, |
+% do8 re16 mi fa sol la si do'2 |
+do1 |
+
