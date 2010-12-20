@@ -10,17 +10,17 @@
     \new ChoirStaff <<
       \new Staff \withLyrics <<
         { s1*2 s2.*2 s1*5 s2.*21 \break }
-        \global \keepWithTag #'voix \includeNotes "voix"
-      >> \includeLyrics "paroles"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles-haute-contre"
+        \global \keepWithTag #'dessus \includeNotes "voix"
+      >> \keepWithTag #'dessus \includeLyrics "paroles"
+      \new Staff \withLyrics <<
+        \global \keepWithTag #'haute-contre \includeNotes "voix"
+      >> \keepWithTag #'haute-contre \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
         \global \includeNotes "voix-taille"
-      >> \includeLyrics "paroles-taille"
+      >> \keepWithTag #'taille \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
         \global \includeNotes "voix-basse"
-      >> \includeLyrics "paroles-basse"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
     \new Staff <<
       \global \includeNotes "basse-continue"

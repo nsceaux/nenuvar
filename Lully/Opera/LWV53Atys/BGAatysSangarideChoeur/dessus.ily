@@ -139,7 +139,7 @@ re''2 r8 re'' |
 mi''2 fa''4 |
 re'' re'' mi'' |
 dod'' dod'' re'' |
-re''2( dod''4) |
+re''4 dod''2 | % re''2( dod''4)
 re''4 re''8 mi'' re'' do'' |
 si'2\trill r8 si' |
 do''4 do'' do'' |
@@ -188,7 +188,7 @@ re''4 do'' do'' |
 re'' re'' mi'' |
 mi''( re''2)\trill |
 do''2 r4 |
-R2.*10 |
+R2.*10 |\allowPageTurn
 r2 r8 mi'' |
 re''2. |
 mi''4 mi'' re'' |
@@ -206,7 +206,7 @@ sol''2. sol''4 |
 la''2 re''4 re'' |
 re''2( do'') |
 re''4. fad''8 fad'' sol'' la'' fad'' |
-sol''4. sol''8 sol''4. fad''8 |
+sol''4. sol''8 sol''4. fa''8 |
 mi''2 mi''4. mi''8 |
 re''2 re''4. re''8 |
 re''2. re''4 |

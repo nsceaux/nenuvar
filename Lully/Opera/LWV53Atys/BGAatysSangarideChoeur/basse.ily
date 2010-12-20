@@ -115,13 +115,13 @@ do4 sol,4. sol8 |
 do'2 do'4 |
 sib2. |
 la4 la la |
-sol2 sol4 |
+sol2 r8 sol |
 fa2 r8 fa |
 mi4 mi fa |
 re re do |
 sol sol,2 |
 do r4 |
-R2.*10 |
+R2.*10 |\allowPageTurn
 r2 r8 do |
 sol2. |
 do'4 do' si |

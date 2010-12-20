@@ -476,7 +476,7 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BDAsangarideDoris
   \line { \bold { Scène IV } (page \page-refIII #'BDAsangarideDoris ) }
-  \justify {
+  \paragraph {
     Dans le manuscrit, l'armure comporte un bémol, tandis que dans la
     version Ballard, l'armure est vide. Mais dans l'un comme l'autre cas,
     les \italic si bémol sont explicités par une altération.  Dans le
@@ -901,7 +901,7 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \null\justify {
+  \null\paragraph {
     Dans le manuscrit, \italic { Aimons un bien plus durable que la beauté }
     (Atys) est chanté deux fois :
   }
@@ -930,4 +930,146 @@
     >>
     \layout { indent = 0.5\cm }
   }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% BGAatysSangarideChoeur
+  \line { \bold { Scène VII } (page \page-refIII #'BGAatysSangarideChoeur ) }
+  %% BGAatysSangarideChoeur mesure 20
+  \three-cells
+  \wordwrap { Mesure 20, Sangaride }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #20 \time 3/4 \bar ""
+        \set autoBeaming = ##f
+        \key do \major \clef "soprano"
+        do''4. do''8 si'4^\markup\concat\vcenter{( \natural ) } | la'4.
+      } \addlyrics { jeux, com -- men -- çons }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #20 \time 3/4 \bar ""
+        \set autoBeaming = ##f
+        \key do \major \clef "soprano"
+        do''4. do''8 sib'4 | la'4.
+      } \addlyrics { jeux, com -- men -- çons }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BGAatysSangarideChoeur mesure 26
+  \three-cells
+  \wordwrap { Mesure 26, Sangaride }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #26 \time 3/4 \bar ""
+        \set autoBeaming = ##f
+        \key do \major \clef "soprano"
+        sib'4. sib'8 sib'4 | la'2
+      } \addlyrics { -çons, com -- men -- çons }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \set Score.currentBarNumber = #26 \time 3/4 \bar ""
+        \set autoBeaming = ##f
+        \key do \major \clef "soprano"
+        sib'4. sib'8 sib'8[ do''] | la'2
+      } \addlyrics { -çons, com -- men -- çons }
+    >>
+    \layout {
+      indent = 0 ragged-right = ##t
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \null\paragraph {
+    Dans le chœur \italic { Commençons nos jeux et nos chansons, }
+    le manuscrit ne comporte pas d'indication d'instrumentation dans les
+    passages marqués aux hautbois dans Ballard 1689.
+  }
+  \null
+  %% BGAatysSangarideChoeur mesure 42
+  \three-cells
+  \wordwrap { Mesure 42, quinte }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \set Score.currentBarNumber = #42 \time 3/4 \bar ""
+      \key do \major \clef "alto"
+      fad'4. fad'8 fad'4 | re'2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \set Score.currentBarNumber = #42 \time 3/4 \bar ""
+      \key do \major \clef "alto"
+      re'4. re'8 re'4 | re'2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% BGAatysSangarideChoeur mesure 61
+  \three-cells
+  \wordwrap { Mesure 61, taille de violon et haute-contre chantante }
+  \score {
+    \new StaffGroupNoBar <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+        \set Score.currentBarNumber = #61 \time 3/4 \bar ""
+        \key do \major \clef "mezzosoprano"
+        la'2 sol'4 | sol'2
+      }
+      \new Staff {
+        \clef "alto" la'2 sol'4 | sol'2
+      } \addlyrics { jeux, nos jeux }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new StaffGroupNoBar <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+        \set Score.currentBarNumber = #61 \time 3/4 \bar ""
+        \key do \major \clef "mezzosoprano"
+        sol'2 sol'4 | sol'2
+      }
+      \new Staff {
+        \clef "alto" sol'2 sol'4 | sol'2
+      } \addlyrics { jeux, nos jeux }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \null\paragraph {
+    Le manuscrit comporte une indication de reprise mesure 91, puis
+    s'interrompt à la fin de la mesure 105 : le feuillet suivant comporte
+    l'entrée des Phrygiens. La numérotation des feuillets est continue,
+    elle doit être postérieure à la composition du manuscrit. Les pages
+    intermédiaires semblent perdues.
+  }
+  \sep
 }

@@ -12,7 +12,7 @@ la mi'2 |
 dod' r4 |
 R2.*2 |
 r4 r8 mi' mi'4 |
-re'4. re'8 re'4 |
+fad'4. fad'8 fad'4 | % re'4. re'8 re'4
 re'2 si4 |
 do'2 do'4 |
 re'2 re'4 |
@@ -64,7 +64,7 @@ dod' la4. la8 |
 la4 re'4. re'8 |
 re'4 re'8 do' si4 |
 la do' mi' |
-do'2 r8 sol' |
+re'2 r8 sol' |
 sol'2 fa'4 |
 fa' fa' mi' |
 mi'4 mi' re' |
@@ -117,7 +117,7 @@ mi'4 mi' do' |
 fa' re' sol |
 sol2. |
 sol2 r4 |
-R2.*10 |
+R2.*10 |\allowPageTurn
 r2 r8 do' |
 re'2. |
 do'4 do' re' |

@@ -114,7 +114,7 @@ R2.*10 |
 r2 r8 do |
 sol2. |
 do'4 do' si |
-la2 r8 la |
+la2 r8 sol | % la
 sol2 r4 |
 R2.*9 |
 r2 r8 sol |
@@ -161,8 +161,8 @@ do'2 la4 |
 sib4 sib sol |
 la la re |
 la,2. |
-re2 re4 |
-sol2 r8 sol |
+re2 r4 |
+r2 r8 sol |
 mi4 mi fa |
 re re do |
 sol( sol,2) |

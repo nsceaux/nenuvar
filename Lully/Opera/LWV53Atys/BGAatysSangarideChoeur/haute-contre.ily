@@ -117,7 +117,7 @@ sol'4 sol' la' |
 si' si' do'' |
 do''2 si'4 |
 do''2 r4 |
-R2.*10 |
+R2.*10 |\allowPageTurn
 r2 r8 do'' |
 si'2. |
 do''4 do'' sol' |

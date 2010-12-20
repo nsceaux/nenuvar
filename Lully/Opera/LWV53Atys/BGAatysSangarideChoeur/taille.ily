@@ -29,7 +29,7 @@ R2.*2 |
 r4 r8 la' la'4 |
 sol'4. sol'8 sol'4 |
 mi'2 la'4 |
-sol'2 sol'4 |
+%{ sol'2 %} la'2 sol'4 |
 sol'2 sol'4 |
 la' sol'2 |
 sol' r4 |
@@ -46,7 +46,7 @@ r4 r8 sol' sol'4 |
 sol'4. fa'8 mi'4 |
 fa'2 la'4 |
 sol'2 sol'4 |
-la' sol'2 |
+la'2 sol'4 | % la'4 sol'2
 fa'4 re'2 |
 mi'4 r r2 |
 R1. |
@@ -66,7 +66,7 @@ sol'4 sol'4. sol'8 |
 do'4 mi' la' |
 sol'2 r8 sol' |
 sol'2 la'4 |
-fa' sol' sol' |
+fa' fa' sol' | % fa' sol' sol'
 sol' sol' fa' |
 fa' mi'2 |
 re'4 fad'4. fad'8 |
@@ -117,7 +117,7 @@ sol'4 sol' fa' |
 fa' fa' mi'8 fa' |
 sol'2 sol'4 |
 mi'2 r4 |
-R2.*10 |
+R2.*10 |\allowPageTurn
 r2 r8 sol' |
 sol'2. |
 sol'4 sol' sol' |
