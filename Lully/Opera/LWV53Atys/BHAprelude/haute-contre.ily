@@ -11,8 +11,8 @@ si'4. si'8 la'4. si'8 |
 sold'2 la'4. la'8 |
 la'2. la'4 |
 la'4 fa'2 fa'4 |
-mi' mi' mi'2 |
-mi' do''4. mi''8 |
+mi' mi' %{ mi'2 %} mi'4. mi'8 |
+mi'2 do''4. mi''8 |
 mi''2. mi''4 |
 la'8 sol' fa'2 fa'4 |
 mi'2 mi'4. mi'8 |

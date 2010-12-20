@@ -1207,4 +1207,60 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+  \sep
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% BHAprelude
+  \line { \bold { Scène VII, Prélude } (page \page-refIII #'BHAprelude ) }
+  \paragraph {
+    Dans Ballard 1689, le prélude s'achève mesure 15, tandis que dans le
+    manuscrit, les quatre dernières mesures du prélude sont reprises.
+    \bold { Cette édition contient la reprise des quatre dernières mesures. }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \clef "french" la''4. la''8 mi''4. fad''8 |
+        sol''2. la''8 mi'' |
+        fa''4. fa''8 fa''4. sol''8 |
+        mi''4. mi''8 mi''4. fa''8 |
+        re''4. re''8 re''4 do''8 si' |
+        do''4 la' fa''4. fa''8 |
+        fa''4 mi''8 fa'' re''4. do''8 |
+        do''2 mi''4. mi''8 |
+        mi''4. fa''8 re''4. re''8 |
+        re''4. mi''8 do''4. do''8 |
+        si'2 mi''4. mi''8 |
+        la''4. sol''8 sol''4 fa''8 mi'' |
+        fa''2 si'4. si'8 |
+        si'4 do''8 re'' si'4. la'8 |
+        la'2 \bar ":" mi''4. mi''8 |
+        la''4. sol''8 sol''4 fa''8 mi'' |
+        fa''2 si'4. si'8 |
+        si'4 do''8 re'' si'4. la'8 |
+        la'1 | \bar "|."
+      }
+      \new Staff {
+        \clef "bass" la,2 la4. la8 |
+        mi2~ mi8 mi re do |
+        re2~ re8 re do si, |
+        do2~ do8 do si, la, |
+        si,2 mi4 mi, |
+        la, la re2 |
+        sol4 do sol,2 |
+        do~ do8 do re mi |
+        fa2 fad4. fad8 |
+        sold4. sold8 la4 la, |
+        mi2 do |
+        dod2. dod4 |
+        re2. re4 |
+        mi4 la, mi,2 |
+        la,2 la |
+        dod2. dod4 |
+        re2. re4 |
+        mi4 la, mi,2 |
+        la,1 |
+      }
+    >>
+    \layout { indent = 0.5\cm }
+  }
 }
