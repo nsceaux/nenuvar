@@ -152,28 +152,39 @@ choeurMark =
 
 %%%%
 
-#(define-markup-command (three-cells layout props cell1 cell2 cell3)
-   (markup? markup? markup?)
-   (interpret-markup layout props
-                     (markup #:line
-                             (#:force-line-width-ratio 4/20 cell1
-                              #:force-line-width-ratio 1/20 #:null
-                              #:force-line-width-ratio 7/20 cell2
-                              #:force-line-width-ratio 1/20 #:null
-                              #:force-line-width-ratio 7/20 cell3))))
-#(define-markup-command (three-cells-title layout props cell1 cell2 cell3)
-   (markup? markup? markup?)
-   (interpret-markup layout props
-                     (markup #:line
-                             (#:force-line-width-ratio 4/20 #:bold #:fill-line (cell1)
-                              #:force-line-width-ratio 1/20 #:null
-                              #:force-line-width-ratio 7/20 #:bold #:fill-line (cell2)
-                              #:force-line-width-ratio 1/20 #:null
-                              #:force-line-width-ratio 7/20 #:bold #:fill-line (cell3)))))
-
 #(define-markup-command (sep layout props) ()
    (interpret-markup layout props
                      (markup #:fill-line (#:draw-line '(30 . 0)))))
+
+#(define-markup-command (excerpts layout props place excerpt1 excerpt2)
+   (markup? markup? markup?)
+   (interpret-markup layout props
+                     (markup #:column (#:null
+                                       place
+                                       #:line (#:force-line-width-ratio 1/20 #:null
+                                               #:force-line-width-ratio 9/20 excerpt1
+                                               #:force-line-width-ratio 1/20 #:null
+                                               #:force-line-width-ratio 9/20 excerpt2)))))
+
+#(define-markup-command (excerpts-end layout props place excerpt1 excerpt2)
+   (markup? markup? markup?)
+   (interpret-markup layout props
+                     (markup #:column (#:null
+                                       place
+                                       #:line (#:force-line-width-ratio 1/20 #:null
+                                               #:force-line-width-ratio 9/20 excerpt1
+                                               #:force-line-width-ratio 1/20 #:null
+                                               #:force-line-width-ratio 9/20 excerpt2)
+                                       #:null
+                                       #:sep))))
+
+#(define-markup-command (excerpts-no-title layout props excerpt1 excerpt2)
+   (markup? markup?)
+   (interpret-markup layout props
+                     (markup #:column (#:line (#:force-line-width-ratio 1/20 #:null
+                                               #:force-line-width-ratio 9/20 excerpt1
+                                               #:force-line-width-ratio 1/20 #:null
+                                               #:force-line-width-ratio 9/20 excerpt2)))))
 
 \paper {
   tocNotesMarkup = \markup \fill-line {

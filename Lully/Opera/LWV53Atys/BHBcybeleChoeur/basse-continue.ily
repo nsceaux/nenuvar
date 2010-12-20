@@ -50,9 +50,9 @@ mi re mi mi, |
 la,2 %{%} la4. la8 |
 si4 si si4.\trill si8 |
 do'2 sol4 sol |
-la fa sol2 |
+la fa sol sol, |
 do2 do4. do8 |
-sol4 sol fa mi |
+sol4. sol8 fa4. mi8 |
 re2 re4 re |
 la sol fa2\trill |
 mi mi4 re |
@@ -63,15 +63,15 @@ la,2 la4. la8 |
 re2. re4 |
 sol2 sol4 mi |
 fa2 fa4 fa |
-sol2 sol, |
+sol2. sol,4 |
 do4 si,\trill do re |
 mi re mi do |
 sol la si sol |
 do'2 do'4. si8 |
 la2. la4 |
 si2 si4 sol |
-la2. la4 |
-si2 si, |
+la2 la4 la |
+si2. si,4 |
 mi2. do4 |
 re2 re4 re |
 mi2 mi, |%113 |

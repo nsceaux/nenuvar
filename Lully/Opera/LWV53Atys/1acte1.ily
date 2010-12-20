@@ -46,5 +46,5 @@
 \pieceToc \markup { Cybèle, chœur :
   \italic { Vous devez vous animer d'une ardeur nouvelle }
 } \includeScore "BHBcybeleChoeur"
-\pieceTocTitle "Entr'acte"  \reIncludeScore "BGCphrygiens" "BHCphrygiens"
+%\pieceTocTitle "Entr'acte"  \reIncludeScore "BGCphrygiens" "BHCphrygiens"
 \actEnd "FIN DU PREMIER ACTE"

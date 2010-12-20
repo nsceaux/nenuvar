@@ -1,79 +1,82 @@
 \markuplines \column-lines {
-  \section \line { Acte I }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BAAatys ritournelle
-  \line { \bold { Scène I } (page \page-refIII #'BAAatys ) }
-  \line { Dans le manuscrit, la ritournelle est jouée deux fois : }
-  \score {
-    \new StaffGroup <<
-      \new Staff {
-        \key re \minor \clef "french"
-        \override Score.TimeSignature #'style = #'single-digit \time 2/2
-        r4 r8 sol' sib'4. sol'8 |
-        \repeat volta 2 {
-          re''4 mib''8 re'' do'' sib' do'' la' |
-          sib'4. re''8 re''4. mib''8 |
-          fa''4 fa''8 sol'' fa'' mib'' re'' do'' |
-          sib'2 mib''8 fa'' mib'' re'' |
-          do''4. fa''8 fa''4 fa''8 mib''16 fa'' |
-          sol''8 fa'' mib'' re'' do''4. sib'8 |
-          sib'4 fa'' sib''4. sib''8 |
-          sib''2 la''4. sib''8 |
-          fad''4 sib''8 la'' sol'' fad'' sol'' la'' |
-          fad''4. mi''16 fad'' sol''4. fa''?8 |
-          mib'' re'' do'' sib' la'4. sol'8 |
+  \column {
+    \section \line { Acte I }
+    \line { \bold { Scène I } (page \page-refIII #'BAAatys ) }
+    \line { Dans le manuscrit, la ritournelle est jouée deux fois : }
+    \score {
+      \new StaffGroup <<
+        \new Staff {
+          \key re \minor \clef "french"
+          \override Score.TimeSignature #'style = #'single-digit \time 2/2
+          r4 r8 sol' sib'4. sol'8 |
+          \repeat volta 2 {
+            re''4 mib''8 re'' do'' sib' do'' la' |
+            sib'4. re''8 re''4. mib''8 |
+            fa''4 fa''8 sol'' fa'' mib'' re'' do'' |
+            sib'2 mib''8 fa'' mib'' re'' |
+            do''4. fa''8 fa''4 fa''8 mib''16 fa'' |
+            sol''8 fa'' mib'' re'' do''4. sib'8 |
+            sib'4 fa'' sib''4. sib''8 |
+            sib''2 la''4. sib''8 |
+            fad''4 sib''8 la'' sol'' fad'' sol'' la'' |
+            fad''4. mi''16 fad'' sol''4. fa''?8 |
+            mib'' re'' do'' sib' la'4. sol'8 |
+          }
+          \alternative { { sol'4. sol'8 sib'4. sol'8 | } { sol'1 \bar "||" } }
         }
-        \alternative { { sol'4. sol'8 sib'4. sol'8 | } { sol'1 \bar "||" } }
-      }
-      \new Staff {
-        \key re \minor \clef "french"
-        R1*2 |
-        r4 r8 sib' sib'4. do''8 |
-        re''4 re''8 mib'' re'' do'' sib' la' |
-        sol'2 do''8 re'' do'' sib' |
-        la'4. re''8 re''4 re''8 do''16 re'' |
-        mib''8 re'' do'' sib' la'4. sib'8 |
-        sib'4 re'' re''4. re''8 |
-        mib''4 do''8 re'' mib'' re'' do'' sib' |
-        la'4 re''8 do'' sib' la' sib' do'' |
-        la'4. la'8 sib'4 do''8 re'' |
-        do'' sib' la' sol' fad'4. sol'8 |
-        sol'2 r |
-        sol'1 |
-      }
-      \new Staff <<
-        { \key re \minor \clef "bass"
-          sol2. sol4 |
-          fad1 |
-          sol2 fa4. mib8 |
-          re2. re4 |
-          mib8 fa mib re do2 |
-          fa8 sol fa mib re4 sib, |
-          mib2 fa4 fa, |
-          sib, sib8 la sol fa mib re |
-          do4 mib8 re do sib, la, sol, |
-          re2 sol, |
-          re,4 re8 do sib,4. sib,8 |
-          do2 re4 re, |
-          sol,2. sol4 |
-          sol,1 |
-        } \figuremode { <_>1 <6>2 <5-> <_> <4>4. <6>8 <6>1 <_> <_>2 <6>
-          <6>1 <_>1 <_>4 <4 6> <6> <6+> <_+>1 <_+>2 <6> <_- 6> <_+> }
+        \new Staff {
+          \key re \minor \clef "french"
+          R1*2 |
+          r4 r8 sib' sib'4. do''8 |
+          re''4 re''8 mib'' re'' do'' sib' la' |
+          sol'2 do''8 re'' do'' sib' |
+          la'4. re''8 re''4 re''8 do''16 re'' |
+          mib''8 re'' do'' sib' la'4. sib'8 |
+          sib'4 re'' re''4. re''8 |
+          mib''4 do''8 re'' mib'' re'' do'' sib' |
+          la'4 re''8 do'' sib' la' sib' do'' |
+          la'4. la'8 sib'4 do''8 re'' |
+          do'' sib' la' sol' fad'4. sol'8 |
+          sol'2 r |
+          sol'1 |
+        }
+        \new Staff <<
+          { \key re \minor \clef "bass"
+            sol2. sol4 |
+            fad1 |
+            sol2 fa4. mib8 |
+            re2. re4 |
+            mib8 fa mib re do2 |
+            fa8 sol fa mib re4 sib, |
+            mib2 fa4 fa, |
+            sib, sib8 la sol fa mib re |
+            do4 mib8 re do sib, la, sol, |
+            re2 sol, |
+            re,4 re8 do sib,4. sib,8 |
+            do2 re4 re, |
+            sol,2. sol4 |
+            sol,1 |
+          } \figuremode { <_>1 <6>2 <5-> <_> <4>4. <6>8 <6>1 <_> <_>2 <6>
+            <6>1 <_>1 <_>4 <4 6> <6> <6+> <_+>1 <_+>2 <6> <_- 6> <_+> }
+        >>
       >>
-    >>
-    \layout { indent = 0.5\cm }
+      \layout { indent = 0.5\cm }
+    }
+    \null\sep
   }
-  \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BBAatysIdas mesure 48
-  \line { \bold { Scène II } (page \page-refIII #'BBAatysIdas ) }
-  \three-cells
-  \wordwrap { Mesure 48, Idas }
+  \excerpts \column {
+    \line { \bold { Scène II } (page \page-refIII #'BBAatysIdas ) }
+    \wordwrap { Mesure 48, Idas }
+  }
   \score {
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #48 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "bass"
@@ -89,7 +92,7 @@
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #48 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "bass"
@@ -102,13 +105,12 @@
     }
   }
   %% BBAatysIdas mesure 81
-  \three-cells
-  \wordwrap { Mesure 81, Atys }
+  \excerpts \wordwrap { Mesure 81, Atys }
   \score {
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #81 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
@@ -120,31 +122,32 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \score {
-    <<
-      \new Staff {
-        \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-        \set Score.currentBarNumber = #81 \time 3/4
-        \set autoBeaming = ##f
-        \key re \minor \clef "alto"
-        re'4 sol'8[ fad'] sol'4 | fad'2. |
-      } \addlyrics { ne sont pas grands, }
-    >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
+  \column {
+    \score {
+      <<
+        \new Staff {
+          \once \override Score.TimeSignature #'stencil = ##f
+          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set Score.currentBarNumber = #81 \time 3/4
+          \set autoBeaming = ##f
+          \key re \minor \clef "alto"
+          re'4 sol'8[ fad'] sol'4 | fad'2. |
+        } \addlyrics { ne sont pas grands, }
+      >>
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
     }
+    \wordwrap { Dans cette édition, l'altération du manuscrit est proposée entre parenthèses. }
   }
-  \line { \hspace #40 Dans cette édition, l'altération du manuscrit est proposée entre parenthèses. }
   %% BBAatysIdas mesure 131
-  \three-cells
-  \wordwrap { Mesure 131, Idas }
+  \excerpts \wordwrap { Mesure 131, Idas }
   \score {
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #131 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "bass"
@@ -160,7 +163,7 @@
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #131 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "bass"
@@ -173,13 +176,12 @@
     }
   }
   %% BBAatysIdas mesure 161
-  \three-cells
-  \wordwrap { Mesure 161, Atys }
+  \excerpts-end \wordwrap { Mesure 161, Atys }
   \score {
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #161 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
@@ -195,7 +197,7 @@
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #161 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
@@ -207,16 +209,17 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \sep
+
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BCAsdai mesure 16
-  \line { \bold { Scène III } (page \page-refIII #'BCAsdai ) }
-  \three-cells
-  \wordwrap { Mesure 16, basse continue }
+  \excerpts \column {
+    \line { \bold { Scène III } (page \page-refIII #'BCAsdai ) }
+    \wordwrap { Mesure 16, basse continue }
+  }
   \score {
     {
       \once \override Score.TimeSignature #'stencil = ##f
-      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
       \set Score.currentBarNumber = #16 \time 3/2
       \key sol \major \clef "bass"
       si1 sol2 | la1
@@ -226,28 +229,29 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \score {
-    {
-      \once \override Score.TimeSignature #'stencil = ##f
-      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-      \set Score.currentBarNumber = #16 \time 3/2
-      \key sol \major \clef "bass"
-      si1 sold2 | la1
+  \column {
+    \score {
+      {
+        \once \override Score.TimeSignature #'stencil = ##f
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #16 \time 3/2
+        \key sol \major \clef "bass"
+        si1 sold2 | la1
+      }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \wordwrap { Dans cette édition, l'altération du manuscrit est proposée entre parenthèses. }
   }
-  \line { \hspace #40 Dans cette édition, l'altération du manuscrit est proposée entre parenthèses. }
   %% BCAsdai mesures 34-35
-  \three-cells
-  \wordwrap { Mesures 34-35, Atys }
+  \excerpts \wordwrap { Mesures 34-35, Atys }
   \score {
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #34 \time 2/2
         \set autoBeaming = ##f
         \key sol \major \clef "alto"
@@ -263,7 +267,7 @@
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #34 \time 2/2
         \set autoBeaming = ##f
         \key sol \major \clef "alto"
@@ -276,13 +280,12 @@
     }
   }
   %% BCAsdai mesure 42
-  \three-cells
-  \wordwrap { Mesure 42, Atys }
+  \excerpts \wordwrap { Mesure 42, Atys }
   \score {
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #42 \time 2/2
         \set autoBeaming = ##f
         \key sol \major \clef "alto"
@@ -299,7 +302,7 @@
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #42 \time 2/2
         \set autoBeaming = ##f
         \key sol \major \clef "alto"
@@ -313,13 +316,12 @@
     }
   }
   %% BCAsdai mesure 44
-  \three-cells
-  \wordwrap { Mesure 44, Doris }
+  \excerpts \wordwrap { Mesure 44, Doris }
   \score {
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #44 \time 2/2
         \set autoBeaming = ##f
         \key sol \major \clef "soprano"
@@ -335,7 +337,7 @@
     <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #44 \time 2/2
         \set autoBeaming = ##f
         \key sol \major \clef "soprano"
@@ -348,12 +350,11 @@
     }
   }
   %% BCAsdai mesure 101
-  \three-cells
-  \wordwrap { Mesure 101, basse continue }
+  \excerpts \wordwrap { Mesure 101, basse continue }
   \score {
     {
       \once \override Score.TimeSignature #'stencil = ##f
-      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
       \set Score.currentBarNumber = #101 \time 3/4
       \key sol \major \clef "bass"
       re2 mi4 | la,4 mi4. re8 | do4.
@@ -366,7 +367,7 @@
   \score {
     {
       \once \override Score.TimeSignature #'stencil = ##f
-      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
       \set Score.currentBarNumber = #101 \time 3/4
       \key sol \major \clef "bass"
       re2 mi8 mi, | la,4 mi,4 mi8 re | do4.
@@ -377,13 +378,12 @@
     }
   }
   %% BCAsdai mesure 160-161
-  \three-cells
-  \wordwrap { Mesure 160-161, Atys, basse continue }
+  \excerpts \wordwrap { Mesure 160-161, Atys, basse continue }
   \score {
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #160 \time 3/4
         \set autoBeaming = ##f
         \key sol \major \clef "alto"
@@ -403,7 +403,7 @@
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #160 \time 3/4
         \set autoBeaming = ##f
         \key sol \major \clef "alto"
@@ -420,12 +420,11 @@
     }
   }
   %% BCAsdai mesure 188
-  \three-cells
-  \wordwrap { Mesure 188, Atys }
+  \excerpts \wordwrap { Mesure 188, Atys }
   \score {
     <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #188 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
@@ -437,7 +436,7 @@
   \score {
     <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #188 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
@@ -447,12 +446,11 @@
     \layout { indent = 0 }
   }
   %% BCAsdai mesure 203
-  \three-cells
-  \wordwrap { Mesure 203, basse continue }
+  \excerpts-end \wordwrap { Mesure 203, basse continue }
   \score {
     {
       \once \override Score.TimeSignature #'stencil = ##f
-      \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
       \set Score.currentBarNumber = #203 \time 2/2
       \key re \minor \clef "bass"
       sol,1 \bar "|."
@@ -472,10 +470,10 @@
     }
     \layout { indent = 0 }
   }
-  \sep
+
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BDAsangarideDoris
-  \line { \bold { Scène IV } (page \page-refIII #'BDAsangarideDoris ) }
+  \null\line { \bold { Scène IV } (page \page-refIII #'BDAsangarideDoris ) }
   \paragraph {
     Dans le manuscrit, l'armure comporte un bémol, tandis que dans la
     version Ballard, l'armure est vide. Mais dans l'un comme l'autre cas,
@@ -488,12 +486,11 @@
     bémol est placé dans l'armure. Ces cas sont détaillés ci-dessous.
   }
   %% BDAsangarideDoris mesure 10
-  \null\three-cells
-  \wordwrap { Mesure 10, Doris }
+  \excerpts\wordwrap { Mesure 10, Doris }
   \score {
     <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #10 \time 4/4
         \set autoBeaming = ##f
         \key la \minor \clef "soprano"
@@ -509,7 +506,7 @@
   \score {
     <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #10 \time 4/4
         \set autoBeaming = ##f
         \key re \minor \clef "soprano"
@@ -523,8 +520,7 @@
     }
   }
   %% BDAsangarideDoris mesure 14
-  \three-cells
-  \wordwrap { Mesure 14, Doris }
+  \excerpts \wordwrap { Mesure 14, Doris }
   \score {
     <<
       \new Staff {
@@ -556,8 +552,7 @@
     }
   }
   %% BDAsangarideDoris mesure 22
-  \three-cells
-  \wordwrap { Mesure 22, Sangaride }
+  \excerpts \wordwrap { Mesure 22, Sangaride }
   \score {
     <<
       \new Staff {
@@ -589,8 +584,7 @@
     }
   }
   %% BDAsangarideDoris mesure 34
-  \three-cells
-  \wordwrap { Mesure 34, Sangaride }
+  \excerpts \wordwrap { Mesure 34, Sangaride }
   \score {
     <<
       \new Staff {
@@ -622,12 +616,11 @@
     }
   }
   %% BDAsangarideDoris mesure 46
-  \three-cells
-  \wordwrap { Mesure 46, Doris }
+  \excerpts \wordwrap { Mesure 46, Doris }
   \score {
     <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #46
         \set autoBeaming = ##f
         \key la \minor \clef "soprano"
@@ -640,7 +633,7 @@
   \score {
     <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #46
         \set autoBeaming = ##f
         \key la \minor \clef "soprano"
@@ -651,8 +644,7 @@
     \layout { indent = 0 }
  }
   %% BDAsangarideDoris mesure 69
-  \three-cells
-  \wordwrap { Mesure 69, Doris }
+  \excerpts \wordwrap { Mesure 69, Doris }
   \score {
     <<
       \new Staff {
@@ -686,8 +678,7 @@
     }
   }
   %% BDAsangarideDoris mesure 76
-  \three-cells
-  \wordwrap { Mesures 76-77, Sangaride }
+  \excerpts \wordwrap { Mesures 76-77, Sangaride }
   \score {
     <<
       \new Staff {
@@ -721,8 +712,7 @@
     }
   }
   %% BDAsangarideDoris mesure 80
-  \three-cells
-  \wordwrap { Mesure 80, Sangaride }
+  \excerpts-end \wordwrap { Mesure 80, Sangaride }
   \score {
     <<
       \new Staff {
@@ -751,13 +741,14 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \sep
+
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BFAatysSangaride
-  \line { \bold { Scène VI } (page \page-refIII #'BFAatysSangaride ) }
   %% BFAatysSangaride mesure 57
-  \three-cells
-  \wordwrap { Mesure 57, Sangaride }
+  \excerpts \column {
+    \line { \bold { Scène VI } (page \page-refIII #'BFAatysSangaride ) }
+    \wordwrap { Mesure 57, Sangaride }
+  }
   \score {
     <<
       \new Staff {
@@ -787,8 +778,7 @@
     }
   }
   %% BFAatysSangaride mesure 80
-  \three-cells
-  \wordwrap { Mesure 80, Atys }
+  \excerpts \wordwrap { Mesure 80, Atys }
   \score {
     <<
       \new Staff {
@@ -818,12 +808,11 @@
     }
   }
   %% BFAatysSangaride mesure 92
-  \three-cells
-  \wordwrap { Mesures 92-93, Atys }
+  \excerpts \wordwrap { Mesures 92-93, Atys }
   \score {
     <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #92 \time 3/4
         \set autoBeaming = ##f
         \key la \minor \clef "alto"
@@ -838,7 +827,7 @@
   \score {
     <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #92 \time 3/4
         \set autoBeaming = ##f
         \key la \minor \clef "alto"
@@ -851,12 +840,11 @@
     }
   }
   %% BFAatysSangaride mesure 97
-  \three-cells
-  \wordwrap { Mesures 96-100, Sangaride, Atys }
+  \excerpts \wordwrap { Mesures 96-100, Sangaride, Atys }
   \score {
     \new ChoirStaff <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #96 \time 3/4
         \set autoBeaming = ##f
         \key la \minor \clef "soprano"
@@ -880,7 +868,7 @@
   \score {
     \new ChoirStaff <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #96 \time 3/4
         \set autoBeaming = ##f
         \key la \minor \clef "soprano"
@@ -901,42 +889,46 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \null\paragraph {
-    Dans le manuscrit, \italic { Aimons un bien plus durable que la beauté }
-    (Atys) est chanté deux fois :
-  }
-  \score {
-    \new StaffGroupNoBar <<
-      \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #124 \clef "alto" \time 3/4
-        r8 mi' do'4 la | re' re' si | do'2 la4 | r mi' fa' |
-        sol'2 mi'4 | fa' re'2 | do'2. | \break
-        r8 mi' do'4 la | re' re' si | do'2 la4 | r mi' fa' |
-        sol'2 mi'4 | fa' re'2 | do' do'4 |
-      } \addlyrics {
-        Ai -- mons un bien plus du -- ra -- ble
-        que l'é -- clat de la beau -- té.
-        Ai -- mons un bien plus du -- ra -- ble
-        que l'é -- clat de la beau -- "té :"
-        rien }
-      \new Staff <<
-        { \clef "bass" la,2 la4~ | la sold2 | la4 la,4. si,8 | do2 re4 |
-          mi si, do | fa, sol,2 | do4. re8 do si, |
-          la,2 la4~ | la4 sold2 | la4 la,4. si,8 | do2 re4 |
-          mi4 si, do | fa, sol,2 | do do4 | }
-        \figuremode { <_>2. <2 4>2. <_>2.*5  <_>2. <2 4>2. <_>2.*5 }
+  \null
+  \column { 
+    \wordwrap {
+      Dans le manuscrit, \italic { Aimons un bien plus durable que la beauté }
+      (Atys) est chanté deux fois :
+    }
+    \score {
+      \new StaffGroupNoBar <<
+        \new Staff {
+          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set Score.currentBarNumber = #124 \clef "alto" \time 3/4
+          r8 mi' do'4 la | re' re' si | do'2 la4 | r mi' fa' |
+          sol'2 mi'4 | fa' re'2 | do'2. |
+          r8 mi' do'4 la | re' re' si | do'2 la4 | r mi' fa' |
+          sol'2 mi'4 | fa' re'2 | do' do'4 |
+        } \addlyrics {
+          Ai -- mons un bien plus du -- ra -- ble
+          que l'é -- clat de la beau -- té.
+          Ai -- mons un bien plus du -- ra -- ble
+          que l'é -- clat de la beau -- "té :"
+          rien }
+        \new Staff <<
+          { \clef "bass" la,2 la4~ | la sold2 | la4 la,4. si,8 | do2 re4 |
+            mi si, do | fa, sol,2 | do4. re8 do si, |
+            la,2 la4~ | la4 sold2 | la4 la,4. si,8 | do2 re4 |
+            mi4 si, do | fa, sol,2 | do do4 | }
+          \figuremode { <_>2. <2 4>2. <_>2.*5  <_>2. <2 4>2. <_>2.*5 }
+        >>
       >>
-    >>
-    \layout { indent = 0.5\cm }
+      \layout { indent = 0\cm }
+    }
+    \null\sep
   }
-  \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BGAatysSangarideChoeur
-  \line { \bold { Scène VII } (page \page-refIII #'BGAatysSangarideChoeur ) }
   %% BGAatysSangarideChoeur mesure 20
-  \three-cells
-  \wordwrap { Mesure 20, Sangaride }
+  \excerpts \column {
+    \line { \bold { Scène VII } (page \page-refIII #'BGAatysSangarideChoeur ) }
+    \wordwrap { Mesure 20, Sangaride }
+  }
   \score {
     <<
       \new Staff {
@@ -966,8 +958,7 @@
     }
   }
   %% BGAatysSangarideChoeur mesure 26
-  \three-cells
-  \wordwrap { Mesure 26, Sangaride }
+  \excerpts \wordwrap { Mesure 26, Sangaride }
   \score {
     <<
       \new Staff {
@@ -1001,10 +992,8 @@
     le manuscrit ne comporte pas d'indication d'instrumentation dans les
     passages marqués aux hautbois dans Ballard 1689.
   }
-  \null
   %% BGAatysSangarideChoeur mesure 42
-  \three-cells
-  \wordwrap { Mesure 42, quinte }
+  \excerpts \wordwrap { Mesure 42, quinte }
   \score {
     { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
       \set Score.currentBarNumber = #42 \time 3/4 \bar ""
@@ -1028,8 +1017,7 @@
     }
   }
   %% BGAatysSangarideChoeur mesure 61
-  \three-cells
-  \wordwrap { Mesure 61, taille de violon et haute-contre chantante }
+  \excerpts \wordwrap { Mesure 61, taille de violon et haute-contre chantante }
   \score {
     \new StaffGroupNoBar <<
       \new Staff {
@@ -1064,20 +1052,24 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \null\paragraph {
-    Le manuscrit comporte une indication de reprise mesure 91, puis
-    s'interrompt à la fin de la mesure 105 : le feuillet suivant comporte
-    l'entrée des Phrygiens. La numérotation des feuillets est continue,
-    elle doit être postérieure à la composition du manuscrit. Les pages
-    intermédiaires semblent perdues.
+  \column {
+    \null
+    \paragraph {
+      Le manuscrit comporte une indication de reprise mesure 91, puis
+      s'interrompt à la fin de la mesure 105 : le feuillet suivant comporte
+      l'entrée des Phrygiens. La numérotation des feuillets est continue,
+      elle doit être postérieure à la composition du manuscrit. Les pages
+      intermédiaires semblent perdues.
+    }
+    \null\sep
   }
-  \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BGBphrygiens
-  \line { \bold { Entrée des Phrygiens } (page \page-refIII #'BGBphrygiens ) }
   %% mesure 3
-  \three-cells
-  \wordwrap { Mesure 3, quinte }
+  \excerpts \column {
+    \line { \bold { Entrée des Phrygiens } (page \page-refIII #'BGBphrygiens ) }
+    \wordwrap { Mesure 3, quinte }
+  }
   \score {
     { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
       \set Score.currentBarNumber = #3 \time 2/2 \bar ""
@@ -1105,8 +1097,7 @@
       premier temps, suivant une septième de dominante) }
   }
   %% mesure 6
-  \three-cells
-  \wordwrap { Mesure 6, haute-contre }
+  \excerpts \wordwrap { Mesure 6, haute-contre }
   \score {
     { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
       \set Score.currentBarNumber = #6 \time 2/2 \bar ""
@@ -1130,8 +1121,7 @@
     }
   }
   %% mesure 12
-  \three-cells
-  \wordwrap { Mesure 12, haute-contre }
+  \excerpts \wordwrap { Mesure 12, haute-contre }
   \score {
     { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
       \set Score.currentBarNumber = #12 \time 2/2 \bar ""
@@ -1155,8 +1145,7 @@
     }
   }
   %% mesure 14
-  \three-cells
-  \wordwrap { Mesure 14, taille }
+  \excerpts \wordwrap { Mesure 14, taille }
   \score {
     { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
       \set Score.currentBarNumber = #14 \time 2/2 \bar ""
@@ -1183,8 +1172,7 @@
     \wordwrap { Le \italic do bécarre est confirmé par la basse chiffrée du manuscrit. }
   }
   %% mesure 20
-  \three-cells
-  \wordwrap { Mesure 20, basse }
+  \excerpts-end \wordwrap { Mesure 20, basse }
   \score {
     { \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
       \set Score.currentBarNumber = #20 \time 2/2 \bar ""
@@ -1207,60 +1195,140 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BHAprelude
-  \line { \bold { Scène VII, Prélude } (page \page-refIII #'BHAprelude ) }
-  \paragraph {
-    Dans Ballard 1689, le prélude s'achève mesure 15, tandis que dans le
-    manuscrit, les quatre dernières mesures du prélude sont reprises.
-    \bold { Cette édition contient la reprise des quatre dernières mesures. }
+  \column {
+    \null\line { \bold { Scène VII, Prélude } (page \page-refIII #'BHAprelude ) }
+    \paragraph {
+      Dans Ballard 1689, le prélude s'achève mesure 15, tandis que dans le
+      manuscrit, les quatre dernières mesures du prélude sont reprises.
+      \bold { Cette édition contient la reprise des quatre dernières mesures. }
+    }
+  }
+  \column {
+    \score {
+      \new StaffGroup <<
+        \new Staff {
+          \clef "french" la''4. la''8 mi''4. fad''8 |
+          sol''2. la''8 mi'' |
+          fa''4. fa''8 fa''4. sol''8 |
+          mi''4. mi''8 mi''4. fa''8 |
+          re''4. re''8 re''4 do''8 si' |
+          do''4 la' fa''4. fa''8 |
+          fa''4 mi''8 fa'' re''4. do''8 |
+          do''2 mi''4. mi''8 |
+          mi''4. fa''8 re''4. re''8 |
+          re''4. mi''8 do''4. do''8 |
+          si'2 mi''4. mi''8 |
+          la''4. sol''8 sol''4 fa''8 mi'' |
+          fa''2 si'4. si'8 |
+          si'4 do''8 re'' si'4. la'8 |
+          la'2 \bar ":" mi''4. mi''8 |
+          la''4. sol''8 sol''4 fa''8 mi'' |
+          fa''2 si'4. si'8 |
+          si'4 do''8 re'' si'4. la'8 |
+          la'1 | \bar "|."
+          }
+        \new Staff {
+          \clef "bass" la,2 la4. la8 |
+          mi2~ mi8 mi re do |
+          re2~ re8 re do si, |
+          do2~ do8 do si, la, |
+          si,2 mi4 mi, |
+          la, la re2 |
+          sol4 do sol,2 |
+          do~ do8 do re mi |
+          fa2 fad4. fad8 |
+          sold4. sold8 la4 la, |
+          mi2 do |
+          dod2. dod4 |
+          re2. re4 |
+          mi4 la, mi,2 |
+          la,2 la |
+          dod2. dod4 |
+          re2. re4 |
+          mi4 la, mi,2 |
+          la,1 |
+        }
+      >>
+      \layout { indent = 0.5\cm }
+    }
+    \null\sep
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% BHBcybeleChoeur
+  %% mesure 1
+  \excerpts \column {
+    \line { \bold { Cybèle, chœur } (page \page-refIII #'BHBcybeleChoeur ) }
+    \wordwrap { Mesure 1, Cybèle }
   }
   \score {
-    \new StaffGroup <<
+    <<
       \new Staff {
-        \clef "french" la''4. la''8 mi''4. fad''8 |
-        sol''2. la''8 mi'' |
-        fa''4. fa''8 fa''4. sol''8 |
-        mi''4. mi''8 mi''4. fa''8 |
-        re''4. re''8 re''4 do''8 si' |
-        do''4 la' fa''4. fa''8 |
-        fa''4 mi''8 fa'' re''4. do''8 |
-        do''2 mi''4. mi''8 |
-        mi''4. fa''8 re''4. re''8 |
-        re''4. mi''8 do''4. do''8 |
-        si'2 mi''4. mi''8 |
-        la''4. sol''8 sol''4 fa''8 mi'' |
-        fa''2 si'4. si'8 |
-        si'4 do''8 re'' si'4. la'8 |
-        la'2 \bar ":" mi''4. mi''8 |
-        la''4. sol''8 sol''4 fa''8 mi'' |
-        fa''2 si'4. si'8 |
-        si'4 do''8 re'' si'4. la'8 |
-        la'1 | \bar "|."
-      }
-      \new Staff {
-        \clef "bass" la,2 la4. la8 |
-        mi2~ mi8 mi re do |
-        re2~ re8 re do si, |
-        do2~ do8 do si, la, |
-        si,2 mi4 mi, |
-        la, la re2 |
-        sol4 do sol,2 |
-        do~ do8 do re mi |
-        fa2 fad4. fad8 |
-        sold4. sold8 la4 la, |
-        mi2 do |
-        dod2. dod4 |
-        re2. re4 |
-        mi4 la, mi,2 |
-        la,2 la |
-        dod2. dod4 |
-        re2. re4 |
-        mi4 la, mi,2 |
-        la,1 |
-      }
+        \markUpBegin \mark \markup \smaller\smaller "Ballard 1689"
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+        \set Score.currentBarNumber = #1 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key do \major \clef "soprano"
+        r8 mi''16 mi'' do''8 do''16 mi'' la' la' la' mi' fa'8. sol'16 | mi'8 mi'
+      } \addlyrics { Ve -- nez tous dans mon Temple "&" que cha -- cun re -- ve -- re }
     >>
-    \layout { indent = 0.5\cm }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \markUpBegin \mark \markup \smaller\smaller "Manuscrit"
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+        \set Score.currentBarNumber = #1 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key do \major \clef "soprano"
+        r8 mi''16 mi'' do''8\trill do''16 mi'' la'8 la'16 la' mi'8 fa'16 sol' | | mi'8 mi'
+      } \addlyrics { Ve -- nez tous dans mon Temple et qu'un cha -- cun re -- ve -- re }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% mesure 10
+  \excerpts-end \wordwrap { Mesure 10, Cybèle }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+        \set Score.currentBarNumber = #10 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key do \major \clef "soprano"
+        la'4 la' re''8. re''16 si'8 si'16 si' | sold'4
+      } \addlyrics { -ma -- ge, Mais l'hom -- ma -- ge des cœurs }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+        \set Score.currentBarNumber = #10 \time 4/4 \bar ""
+        \set autoBeaming = ##f
+        \key do \major \clef "soprano"
+        la'4 la' re''8. do''16 si'8 si'16 si' | sold'4
+      } \addlyrics { -ma -- ge, Mais l'hom -- ma -- ge des cœurs }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \null\paragraph {
+    Le manuscrit s'interrompt à la fin de la mesure 49, et ne contient
+    pas le chœur \italic { Nous devons nous animer d'une ardeur nouvelle. }
+    La page suivante commence le deuxième acte.
   }
 }

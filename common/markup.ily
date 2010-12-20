@@ -102,8 +102,9 @@
           (line-stencil (interpret-markup layout props
                                   (markup #:override (cons 'line-width new-line-width)
                                           arg)))
-          (gap (- new-line-width
-                  (interval-length (ly:stencil-extent line-stencil X)))))                  
+          (gap (max 0
+                    (- new-line-width
+                       (interval-length (ly:stencil-extent line-stencil X))))))
      (interpret-markup layout props (markup #:concat (#:stencil line-stencil #:hspace gap)))))
 
 #(define-markup-list-command (two-column-lines layout props col1 col2)

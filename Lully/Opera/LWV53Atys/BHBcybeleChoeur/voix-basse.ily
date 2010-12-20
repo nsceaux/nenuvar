@@ -25,7 +25,7 @@ r2 r4 sol |
 do'2 do'4. si8 |
 la2. la4 |
 si2 si4 sol |
-la2 la4. la8 |
+la2 la4 la |
 si2. si,4 |
 mi2. do4 |
 re2 re4 re |
