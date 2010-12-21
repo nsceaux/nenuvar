@@ -1,7 +1,7 @@
 \notesSubSection "Acte II"
 \markuplines \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %% CABcelaenusAtys mesure xx
+  %% CABcelaenusAtys mesure 18
   \excerpts \column {
     \section \line { Acte II }
     \line { \bold { Scène I : Celænus, Atys } (page \page-refIII #'CABcelaenusAtys ) }
@@ -299,6 +299,144 @@
         la4 la8. la16 la4 si8. do'16 | si4
       } \addlyrics { prest, lais -- se- moi seul i -- cy }
     >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% CBAprelude mesure 2
+  \excerpts \column {
+    \line { \bold { Scène II : prélude } (page \page-refIII #'CBAprelude ) }
+    \line { Mesure 2, dessus }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #2 \time 2/2
+      \key sol \major \clef "french"
+      si'4 sol' re''4. do''16 si' | la'4.
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #2 \time 2/2
+      \key sol \major \clef "french"
+      si'4 fad' re''4. do''16 si' | la'4.
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% Mesure 3
+  \excerpts \line { Mesure 3, quinte, basse }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #3 \time 2/2
+        \key sol \major \clef "alto"
+        la4 re' do' la | la2.*2/3
+      }
+      \new Staff {
+        \key sol \major \clef "bass"
+        re4 do8 si, la,4 la | sol2
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #3 \time 2/2
+        \key sol \major \clef "alto"
+        sol4 re' do' la | la2.*2/3
+      }
+      \new Staff {
+        \key sol \major \clef "bass"
+        re4~ re8 do16 si, la,4. la8 | sol2
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% Mesure 9
+  \excerpts \line { Mesure 9, haute-contre }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #9 \time 2/2
+      \key sol \major \clef "soprano"
+      dod''2 re''4. re''8 | re''2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #9 \time 2/2
+      \key sol \major \clef "soprano"
+      do''2 re''4. re''8 | re''2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% Mesure 14
+  \excerpts \line { Mesure 14, taille }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #14 \time 2/2
+      \key sol \major \clef "mezzosoprano"
+      re'2 re'4. re'8 | si4.
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #14 \time 2/2
+      \key sol \major \clef "mezzosoprano"
+      re'2 re'4. do'8 | si4.
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% Mesure 18
+  \excerpts-end \line { Mesure 18, taille }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #18 \time 2/2
+      \key sol \major \clef "mezzosoprano"
+      re'2 re'~ | re'
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #18 \time 2/2
+      \key sol \major \clef "mezzosoprano"
+      do'2 re'~ | re'
+    }
     \layout {
       indent = 0
       \context { \Staff \remove "Time_signature_engraver" }
