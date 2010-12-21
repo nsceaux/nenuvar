@@ -227,3 +227,10 @@ notesSubSection =
 #(define-markup-command (section layout props title) (markup?)
    (interpret-markup layout props
                      (markup #:column (#:vspace 1 #:fontsize 2 #:bold title #:vspace 0.5))))
+
+\layout {
+  \context {
+    \Voice
+    \override Script #'avoid-slur = #'outside
+  }
+}
