@@ -1,3 +1,4 @@
+\notesSubSection "Acte I"
 \markuplines \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BAAatys ritournelle
@@ -72,36 +73,42 @@
     \line { \bold { Scène II } (page \page-refIII #'BBAatysIdas ) }
     \wordwrap { Mesure 48, Idas }
   }
-  \score {
-    <<
-      \new Staff {
-        \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #48 \time 2/2
-        \set autoBeaming = ##f
-        \key re \minor \clef "bass"
-        dod4. dod8 re4. re8 | la,1 |
-      } \addlyrics { "- mour" qui vous é -- "veil -" }
-    >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
+  \column {
+    \fill-line { \line \bold { Ballard 1689 } }
+    \score {
+      <<
+        \new Staff {
+          \once \override Score.TimeSignature #'stencil = ##f
+          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set Score.currentBarNumber = #48 \time 2/2
+          \set autoBeaming = ##f
+          \key re \minor \clef "bass"
+          dod4. dod8 re4. re8 | la,1 |
+        } \addlyrics { "- mour" qui vous é -- "veil -" }
+      >>
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
     }
   }
-  \score {
-    <<
-      \new Staff {
-        \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #48 \time 2/2
-        \set autoBeaming = ##f
-        \key re \minor \clef "bass"
-        dod4 dod re8[ dod] re4 | la,1 |
-      } \addlyrics { "- mour" qui vous é -- "veil -" }
-    >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
+  \column {
+    \fill-line { \line \bold { Manuscrit } }
+    \score {
+      <<
+        \new Staff {
+          \once \override Score.TimeSignature #'stencil = ##f
+          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set Score.currentBarNumber = #48 \time 2/2
+          \set autoBeaming = ##f
+          \key re \minor \clef "bass"
+          dod4 dod re8[ dod] re4 | la,1 |
+        } \addlyrics { "- mour" qui vous é -- "veil -" }
+      >>
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
     }
   }
   %% BBAatysIdas mesure 81
@@ -1295,7 +1302,7 @@
     }
   }
   %% mesure 10
-  \excerpts-end \wordwrap { Mesure 10, Cybèle }
+  \excerpts \wordwrap { Mesure 10, Cybèle }
   \score {
     <<
       \new Staff {
@@ -1326,9 +1333,12 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \null\paragraph {
-    Le manuscrit s'interrompt à la fin de la mesure 49, et ne contient
-    pas le chœur \italic { Nous devons nous animer d'une ardeur nouvelle. }
-    La page suivante commence le deuxième acte.
+  \column {
+    \null\paragraph {
+      Le manuscrit s'interrompt à la fin de la mesure 49, et ne contient
+      pas le chœur \italic { Nous devons nous animer d'une ardeur nouvelle. }
+      La page suivante commence le deuxième acte.
+    }
+    \null\sep
   }
 }

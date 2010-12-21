@@ -1,4 +1,3 @@
-\pieceToc "Test"
 \notesSection "NOTES"
 \markuplines \column-lines {
   \act { NOTES }
@@ -41,10 +40,10 @@
   \paragraph {
     Le manuscrit non daté est légèrement lacunaire : il manque par
     exemple quelques feuillets dans les chœurs du premier acte. Il
-    présente des différences de rythme ainsi que quelques différence
-    par rapport à Ballard 1689.  Par ailleurs, il comporte des
-    indications de reprises supplémentaires, avec mesures de première
-    et seconde fois. Ces différences sont relevées plus bas.
+    présente des variations de rythme ainsi que quelques différences
+    harmoniques par rapport à Ballard 1689.  Par ailleurs, il comporte
+    des indications de reprises supplémentaires. Ces différences sont
+    relevées plus bas.
   }
   \paragraph {
     La seconde édition Baussen 1709 est une partition réduite. Étant
@@ -55,11 +54,11 @@
   \paragraph {
     Les parties séparées du matériel de 1703 copié par Philidor l'Aisné
     comportent des signes d'ornementation en plus grande abondance que
-    Ballard 1689.  Ces indications ont été ajoutée dans cette édition.
+    Ballard 1689.  Ces indications ont été ajoutées dans cette édition.
   }
 
   \section \line { Adaptations dans la notation }
-  
+  \line { [ici expliquer les adaptations sur les clés/armures/mesures] }
 }
 
 

@@ -1,3 +1,4 @@
+\notesSubSection "Prologue"
 \markuplines \column-lines {
   \section \line { Comparaison entre Ballard 1689 et Manuscrit }
   \paragraph {
@@ -67,16 +68,20 @@
     \line { \bold Ouverture (page \page-refIII #'AAAouverture ) }
     \line { Mesure 7, quinte }
   }
-  \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #7
-      \key re \minor \clef "alto" la4. la8 sib la sol4 | la1 | }
-    \layout {
-      indent = 0 ragged-rigth = ##f
-      \context { \Staff \remove "Time_signature_engraver" }
+  \column {
+    \fill-line { \line \bold { Ballard 1689 } }
+    \score { 
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #7
+        \key re \minor \clef "alto" la4. la8 sib la sol4 | la1 | }
+      \layout {
+        indent = 0 ragged-rigth = ##f
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
     }
   }
   \column {
+    \fill-line { \line \bold { Manuscrit } }
     \score {
       { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
         \set Score.currentBarNumber = #7

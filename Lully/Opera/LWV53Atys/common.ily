@@ -187,16 +187,17 @@ choeurMark =
                                                #:force-line-width-ratio 9/20 excerpt2)))))
 
 \paper {
-  tocNotesMarkup = \markup \fill-line {
-    \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \column {
-      \vspace #1
-      \sep
-      \vspace #1
-      \fill-line {
+  tocNotesMarkup = \markup \column {
+    \vspace #1
+    \sep
+    \vspace #1
+    \fill-line {
+      \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \fill-line {
         \line { \fromproperty #'toc:text }
         \fromproperty #'toc:page
       }
     }
+    \vspace #0.5
   }
 }
 
@@ -210,6 +211,17 @@ notesSection =
     parser
     (format #f "~a" (string-upper-case (*act-title*)))
     #f)
+  (make-music 'Music 'void #t))
+
+notesSubSection =
+#(define-music-function (parser location title) (markup?)
+  (add-toc-item parser 'tocPieceMarkup title)
+  (add-odd-page-header-text
+    parser
+    (format #f "~a, ~a."
+           (string-upper-case (*act-title*))
+           (string-upper-case title))
+    #t)
   (make-music 'Music 'void #t))
 
 #(define-markup-command (section layout props title) (markup?)
