@@ -160,7 +160,7 @@
   \column {
     \null\line { Mesure 70 et suivantes, Atys }
     \wordwrap { Dans le manuscrit, les vers
-      \italic { Qu'un indifférent est heureux ! Il jouit d'un desting paisible }
+      \italic { Qu'un indifférent est heureux ! Il jouit d'un destin paisible }
       sont chantés deux fois.
     }
     \score {
@@ -437,6 +437,102 @@
       \key sol \major \clef "mezzosoprano"
       do'2 re'~ | re'
     }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% CBBcybeleCelaenus mesure 5
+  \excerpts \column {
+    \line { \bold { Cybèle, Celænus } (page \page-refIII #'CBBcybeleCelaenus ) }
+    \line { Mesure 5, Cybèle }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #5 \time 4/4
+        \key sol \major \clef "soprano"
+        mi'8 mi'16 fad' sol'8. sol'16 la'8. la'16 si'8. do''16 | si'8 si'
+      } \addlyrics { Roy de Phry -- gie au -- roit la pre -- fe -- ren -- ce }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #5 \time 4/4
+        \key sol \major \clef "soprano"
+        mi'8 mi'16 fad' sold'8. sold'16 la'8. si'16 do''8. re''16 | si'8 si'
+      } \addlyrics { Roy de Phry -- gie au -- roit la pre -- fe -- ren -- ce }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% CBBcybeleCelaenus mesure 22
+  \excerpts \line { Mesure 22, Celænus }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #22 \time 4/4
+        \key sol \major \clef "varbaritone"
+        si4 r8 re'16 re' sol8. sol16 re8 mi16 fa | mi8 mi
+      } \addlyrics { -sir. Je suis Roy, Nep -- tune est mon pe -- re, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #22 \time 4/4
+        \key sol \major \clef "varbaritone"
+        si4 r8 do'16 do' sol8. sol16 re8 mi16 fa | mi8 mi
+      } \addlyrics { -sir. Je suis Roy, Nep -- tune est mon pe -- re, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% CBBcybeleCelaenus mesure 31
+  \excerpts-end \line { Mesures 31 et 33, Cybèle }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #31 \time 4/4
+        \key sol \major \clef "soprano"
+        do''4 do''8 do'' re''4. re''8 | mi''4. do''8 la'4. la'8 |
+        la'4. si'8 do''4. do''8 | si'4.
+      } \addlyrics { gran -- de di -- vi -- ni -- té doit fai -- re sa fe -- li -- ci -- té }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #31 \time 4/4
+        \key sol \major \clef "soprano"
+        do''4 do''8 do'' re''4( do''8) re''8 | mi''4. do''8 la'4. la'8 |
+        la'4. si'8 do''4( si'8) do''8 | si'4.
+      } \addlyrics { gran -- de di -- vi -- ni -- té doit fai -- re sa fe -- li -- ci -- té }
+    >>
     \layout {
       indent = 0
       \context { \Staff \remove "Time_signature_engraver" }
