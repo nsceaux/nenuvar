@@ -1333,11 +1333,15 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+  \null\paragraph {
+    Le manuscrit s'interrompt à la fin de la mesure 49, et ne contient
+    pas le chœur \italic { Nous devons nous animer d'une ardeur nouvelle. }
+    La page suivante commence le deuxième acte.
+  }
   \column {
     \null\paragraph {
-      Le manuscrit s'interrompt à la fin de la mesure 49, et ne contient
-      pas le chœur \italic { Nous devons nous animer d'une ardeur nouvelle. }
-      La page suivante commence le deuxième acte.
+      L'édition Baussen 1709 indique de jouer pour l'entr'acte le second
+      air des Phrygiens (page \page-refIII #'BGCphrygiens .) }
     }
     \null\sep
   }

@@ -6,15 +6,15 @@ re4 re la sol |
 fa mi fa2 |
 mi la, |
 mi4 si mi' re' |
-dod'4 la re' do' |
+dod'4 la re' do'? |
 si sol do' sib |
 la fa do' do |
 fa2. fa4 |
 do'4. do'8 sib4 la |
 sol2 la |
-sib4. sib8 la4 sol |
+sib4. sib8 %{ la4 sol %} la4. sol8 |
 fa2 sol |
-la sol4. fa8 |
+%{ la2 %} la4. la8 sol4. fa8 |
 mi4. fa8 mi4 re |
 dod2 re |
 la, sol, |
