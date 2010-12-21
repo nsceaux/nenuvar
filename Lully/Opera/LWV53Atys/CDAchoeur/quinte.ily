@@ -2,7 +2,7 @@
 do'2. mi'4 |
 re'2 re'4 re' |
 re'2 re' |
-mi'4 mi'8 mi' si4 si |
+mi'4 mi'8 mi' %{ si4 si %} si4. si8 |
 la2 la4. la8 |
 si2 la4. la8 |
 la2. re'8 re' |
@@ -19,12 +19,13 @@ sol2 do'4 do' |
 do'2 do'4 do' |
 re'2. re'4 |
 re'2 si4 sol |
-re'2. do'4 |
+re'2. %{ do'4 %} re'4 |
 si2 re'4 re' |
 do'2. do'4 |
 re'4. re'8 do'4. do'8 |
 do'2 si4 si |
-do' si mi' mi' |
+% do' si mi' mi' |
+do' do' mi' re' |
 mi'2. mi'4 |
 si2 red'4 red' |
 mi'2 do'4. do'8 |
@@ -35,7 +36,7 @@ si2. si4 |
 si2 si4 do' |
 si2. la4 |
 sold2 si4 si |
-do'4. do'8 do'4. si8 |
+do'4. do'8 %{ do'4. %} si4. si8 |
 si2. si4 |
 la4 la la la |
 mi2. mi4 |
@@ -50,9 +51,20 @@ la1 |
 la2. la4 |
 sol2 re'4. re'8 |
 do' re' do' si la4. la8 |
-la2 la4. la8 |
+la2 sol4. sol8 |
 la2 re'4 re' |
-re'2 do'4 si |
+re'2 si4 si |
+do'2. do'4 |
+si2 la4 la |
+sol1 |
+la2. la4 |
+sol2 re'4. re'8 |
+do' re' do' si la4. la8 |
+% la2 la4. la8 |
+la2 sol4. sol8 |
+la2 re'4 re' |
+% re'2 do'4 si |
+re'2 si4 si |
 la2. la4 |
 si2 sol4 sol |
 re'1 |

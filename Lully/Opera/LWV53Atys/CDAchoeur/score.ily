@@ -21,7 +21,7 @@
         \global \includeNotes "voix-basse"
       >> \includeLyrics "paroles"
     >>
-    \new Staff << \global \includeNotes "basse"
+    \new Staff << \global \includeNotes "basse-continue"
       \includeFigures "chiffres" >>
   >>
   \layout { }

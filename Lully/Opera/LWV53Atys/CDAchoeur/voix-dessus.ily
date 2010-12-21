@@ -11,7 +11,7 @@ mi''2 mi''4 mi'' |
 do''2 do'' |
 re''4 re''8 re'' re''4. re''8 |
 si'2\trill do''4. do''8 |
-si'2 si'4 dod''8[ re''] |
+si'2 si'4( dod''8) re'' | % si'4 dod''8[ re''] |
 dod''2. dod''4 |
 re''4 re'' re'' do'' |
 si'2.\trill si'4 |
@@ -45,6 +45,13 @@ mi''2. mi''4 |
 la'2 re''4. re''8 |
 re''2( dod'') |
 re''2 r |
+R1*3 |
+r2 la'4 la' |
+si'2 si'4 si' |
+do''2. do''4 |
+si'2 dod''4 re'' |
+re''2( dod'') |
+re'' r |
 R1*3 |
 r2 la'4 la' |
 si'2 si'4. si'8 |

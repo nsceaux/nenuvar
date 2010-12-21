@@ -3,5 +3,5 @@
                    (taille)
                    (quinte)
                    (basse)
-                   (basse-continue)
+                   (basse-continue #:notes "basse-continue")
                    (voix #:score "score-voix"))

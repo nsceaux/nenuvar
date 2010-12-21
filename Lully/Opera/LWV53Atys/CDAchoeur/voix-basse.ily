@@ -9,7 +9,7 @@ re2. re8 re |
 sol2. sol4 |
 mi2 mi4 mi |
 fa2 fa |
-re4 re8 re re4 re |
+re4 re8 re re4. re8 | % re4 re
 mi2 do4 do |
 re2 mi8[ re] mi4 |
 la,2. la4 |
@@ -44,6 +44,13 @@ fa2 mi4 re |
 dod2. dod4 |
 re2 re4 sol, |
 la,1 |
+re2 r |
+R1*3 |
+r2 re'4 do' |
+si2 la4 sol |
+fad2. fad4 |
+sol2 sol4 fad |
+mi1 |
 re2 r |
 R1*3 |
 r2 re'4 do' |

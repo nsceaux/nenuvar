@@ -749,4 +749,192 @@
     }
     \null\sep
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% CDAchoeur mesure 23
+  \excerpts \column {
+    \line { \bold { Scène IV, chœur \italic { Célébrons la gloire immortelle } }
+      (page \page-refIII #'CDAchoeur ) }
+    \line { Mesure 23, dessus }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #23 \time 2/2
+      \key sol \major \clef "french"
+      mi''4 fa''8 mi'' re'' mi'' do'' re'' | si'4.
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #23 \time 2/2
+      \key sol \major \clef "french"
+      mi''4 re''8 mi'' fa'' mi'' re'' do'' | si'4.
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% CDAchoeur mesure 24
+  \excerpts \line { Mesure 24, basses }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #24 \time 2/2
+      \key sol \major \clef "bass"
+      sol4 fa mi do | sol,2.
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #24 \time 2/2
+      \key sol \major \clef "bass"
+      sol4 fa mi re | sol,2.
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \null\paragraph { Le manuscrit ne comporte pas les mesures 50 à 58. }
+  %% CDAchoeur mesure 61
+  \column {
+    \line { Mesures 61-67 }
+    \score {
+      \new StaffGroupNoBar <<
+        \new ChoirStaff <<
+          \new Staff {
+            \key sol \major \clef "soprano"
+            R1 | r2 la'4 la' | si'2 si'4. si'8 |
+            do''2. re''4 | si'2 si'4 do'' | si'2( la') | sol'1 |
+          } \addlyrics { Ho -- no -- rons, ho -- no -- rons le choix de Cy -- be -- le. }
+          \new Staff {
+            \key sol \major \clef "alto"
+            R1 | r2 fad'4 fad' | sol'2 sol'4. sol'8 |
+            la'2. la'4 | sol'2 sol'4 sol' | sol'2( fad') | sol'1 |
+          } \addlyrics { Ho -- no -- rons, ho -- no -- rons le choix de Cy -- be -- le. }
+          \new Staff {
+            \key sol \major \clef "tenor"
+            R1 | r2 re'4 re' | re'2 re'4 re' |
+            re'2. re'4 | re'2 re'4 mi' | re'1 | si |
+          } \addlyrics { Ho -- no -- rons, ho -- no -- rons le choix de Cy -- be -- le. }
+          \new Staff {
+            \key sol \major \clef "bass"
+            R1 | r2 re'4 do' | si2 la4 sol |
+            fad2. fad4 | sol2 sol4 do | re1 | sol, |
+          } \addlyrics { Ho -- no -- rons, ho -- no -- rons le choix de Cy -- be -- le. }
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+            \set Score.currentBarNumber = #61 \time 2/2
+            \key sol \major \clef "french" \markUpBegin \mark \markup \smaller\smaller"Ballard 1689"
+            la'4. la'8 si'4. do''8 | la'2~ la'4. sol'8 | sol'2 si'4 si' |
+            do''2. re''4 | si'2 si'4 do'' | si'2( la') | sol'1 | \bar "|."
+          }
+          \new Staff {
+            \key sol \major \clef "soprano"
+            fad'4. fad'8 sol'4. sol'8 | sol'2 fad'4 fad' | sol'2 sol'4 sol' |
+            la'2. la'4 | sol'2 sol'4. sol'8 | sol'2( fad') | sol'1
+          }
+          \new Staff {
+            \key sol \major \clef "mezzosoprano"
+            re'2 re'4. re'8 | re'2 re'4 re' | re'2 re'4 re' |
+            re'2. re'4 | re'2 re'4 mi' | re'2. do'4 | si1
+          }
+          \new Staff {
+            \key sol \major \clef "alto"
+            la2 sol4. sol8 | la2 re'4 re' | re'2 si4 si |
+            la2. la4 | si2 sol4 sol | re'1 | re'
+          }
+          \new Staff {
+            \key sol \major \clef "bass"
+            re2 si,4 sol, | re2 re'4 do' | si2 la4 sol |
+            fad2. fad4 | sol2 sol4 do | re2 re, | sol,1 |
+          }
+          \new Staff <<
+            { \key sol \major \clef "bass"
+              re2 si,4 sol, | re2 re'4 do' | si2 la4 sol |
+              fad2. fad4 | sol2 sol4 do | re2 re, | sol,1 |
+            }
+            \figuremode { <_>2 <6> <_+>1 <6> <5- 6> <_> <4> <_+> }
+          >>
+        >>
+      >>
+      \layout {
+        indent = 0 ragged-right = ##f
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  \column {
+    \score {
+      \new StaffGroupNoBar <<
+        \new ChoirStaff <<
+          \new Staff {
+            \key sol \major \clef "soprano"
+            R1 | r2 la'4 la' | si'2 si'4. si'8 |
+            do''2. re''4 | si'2 si'4 do'' | si'2( la') | sol'1
+          } \addlyrics { Ho -- no -- rons, ho -- no -- rons le choix de Cy -- be -- le. }
+          \new Staff {
+            \key sol \major \clef "alto"
+            R1 | r2 fad'4 fad' | sol'2 sol'4. sol'8 |
+            la'2. la'4 | sol'2 sol'4 sol' | sol'2( fad') | sol'1
+          } \addlyrics { Ho -- no -- rons, ho -- no -- rons le choix de Cy -- be -- le. }
+          \new Staff {
+            \key sol \major \clef "tenor"
+            R1 | r2 re'4 re' | re'2 re'4. re'8 |
+            re'2. re'4 | re'2 re'4 mi' | re'2.( do'4) | si1 |
+          } \addlyrics { Ho -- no -- rons, ho -- no -- rons le choix de Cy -- be -- le. }
+          \new Staff {
+            \key sol \major \clef "bass"
+            R1 | r2 re'4 do' | si2 la4 sol |
+            fad2. fad4 | sol2 sol4 do | re1 | sol,1 |
+          } \addlyrics { Ho -- no -- rons, ho -- no -- rons le choix de Cy -- be -- le. }
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+            \set Score.currentBarNumber = #61 \time 2/2
+            \key sol \major \clef "french" \markUpBegin \mark \markup \smaller\smaller"Manuscrit"
+            la'4. la'8 si'4. do''8 | la'2 la'4. la'8 | sol'2 si'4 si' |
+            do''2. re''4 | si'2 si'4 do'' | si'2( la') | sol'1 | \bar "|."
+          }
+          \new Staff {
+            \key sol \major \clef "soprano"
+            fad'4. fad'8 sol'4. sol'8 | fad'2 fad'4. fad'8 | sol'2. sol'4 |
+            mi'2 mi'4 fad' | sol'2 sol'4 la' | sol'2 fad' | sol'1 |
+          }
+          \new Staff {
+            \key sol \major \clef "mezzosoprano"
+            re'2 re'4. re'8 | re'2. re'4 | re'2 re'4 re' |
+            re'2 re'4 re' | re'2. re'4 | re'2. re'4 | si1 |
+          }
+          \new Staff {
+            \key sol \major \clef "alto"
+            la2 la4. la8 | la2 re'4 re' | re'2 do'4 si |
+            la2. la4 | si2 sol4 sol | re'1 | re' |
+          }
+          \new Staff <<
+            { \key sol \major \clef "bass"
+              re2 si,4 sol, | re2 re'4 do' | si2 la4 sol |
+              fad2. fad4 | sol2 sol4 do | re1 | sol, |
+            }
+            \figuremode { <_+>2 }
+          >>
+        >>
+      >>
+      \layout {
+        indent = 0 ragged-right = ##f
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \null\sep
+  }
 }

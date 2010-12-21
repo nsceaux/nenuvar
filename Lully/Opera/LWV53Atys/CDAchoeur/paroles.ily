@@ -10,3 +10,4 @@ Ho -- no -- rons, ho -- no -- rons le choix de Cy -- bè -- le.
 A -- tys doit dis -- pen -- ser ses lois.
 Ho -- no -- rons, ho -- no -- rons le choix de Cy -- bè -- le.
 Ho -- no -- rons, ho -- no -- rons le choix de Cy -- bè -- le.
+Ho -- no -- rons, ho -- no -- rons le choix de Cy -- bè -- le.
