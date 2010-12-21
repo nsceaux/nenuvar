@@ -13,11 +13,11 @@ s1*3
 s2.*21
 \midiTempo #80
 s2.*3
-\midiTempo #160 \bar "|:" s2.*6 \alternatives s2. s2. s2.*14
+\midiTempo #160 s2.*21
 \time 4/4 \midiTempo #80
 s1*4
 \time 3/4 \midiTempo #160
-s2.*23
+s2.*18
 \time 4/4 \midiTempo #80
 s1*5
 \time 3/4

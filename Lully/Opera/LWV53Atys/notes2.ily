@@ -538,4 +538,215 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% CCAcybeleMelisse mesure 15
+  \excerpts \column {
+    \line { \bold { Scène III } (page \page-refIII #'CCAcybeleMelisse ) }
+    \line { Mesure 15, Cybèle }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #15 \time 4/4
+        \key sol \major \clef "soprano"
+        r8 re'16 mi' fad'8 fad'16 sol' la'8. la'16 la' si' do'' la' | mi''2
+      } \addlyrics { Je par -- tis à re -- gret pour re -- tour -- ner aux cieux, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #15 \time 4/4
+        \key sol \major \clef "soprano"
+        r8 re'16 mi' fad'8 fad'16 sold' la'8. la'16 la' si' do'' la' | mi''2
+      } \addlyrics { Je par -- tis à re -- gret pour re -- tour -- ner aux cieux, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% CCAcybeleMelisse mesure 29
+  \excerpts \line { Mesure 29, Cybèle }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #29 \time 3/4
+        \key sol \major \clef "soprano"
+        do''4 la' si' | si'4( la'2) | sol'2
+      } \addlyrics { voit ce qu'on ay -- "me ?" }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #29 \time 3/4
+        \key sol \major \clef "soprano"
+        do''2 si'8 do'' | si'4( la'2) | sol'2
+      } \addlyrics { voit ce qu'on ay -- "me ?" }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% CCAcybeleMelisse mesure 36
+  \excerpts \line { Mesure 36, Cybèle }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #36 \time 3/4
+        \key sol \major \clef "soprano"
+        la'4 fad' sol' | sol'4( fad'2) | mi'4
+      } \addlyrics { voit ce qu'on ay -- me. }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #36 \time 3/4
+        \key sol \major \clef "soprano"
+        la'4( sol') fad'8 sol' | sol'4( fad'2) | mi'4
+      } \addlyrics { voit ce qu'on ay -- me. }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% Mesure 41
+  \column {
+    \null\line { Mesure 41 et suivantes, Mélisse }
+    \wordwrap { Dans le manuscrit, les vers
+      \italic { Vous méprisiez trop l'amour, Son nom vous semblait étrange }
+      sont chantés deux fois.
+    }
+    \score {
+      \new StaffGroupNoBar <<
+        \new Staff {
+          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set Score.currentBarNumber = #41 \time 3/4
+          \set autoBeaming = ##f
+          \key sol \major \clef "soprano"
+          \bar "|:" sol'4 la' si' | fad' sol' mi' |
+          si'2 mi''4 | do''2 do''8. do''16 |
+          do''2 si'4 | si'( la'2) |
+          \alternatives { sol'2. | } { sol'2 si'8 do'' | }
+        } \addlyrics {
+          Vous mé -- pri -- siez trop l'a -- mour,
+          son nom vous sem -- bloit es -- tran -- ge, "- ge," à la
+        }
+        \new Staff {
+          \key sol \major \clef "bass"
+          mi2. | red4 mi do |
+          si, si8 la sold4 | la4. la,8 si, do |
+          re2 sol,4~ | sol, re,2 |
+          sol,4 sol8 la sol fad | sol,4 sol2 |
+        }
+      >>
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  %% Mesure 67
+  \column {
+    \null\line { Mesure 67 et suivantes, Mélisse }
+    \wordwrap { Dans le manuscrit, les vers
+      \italic { Vous braviez à tord l'Amour qui vous blesse }
+      sont chantés deux fois.
+    }
+    \score {
+      \new StaffGroupNoBar <<
+        \new Staff {
+          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set Score.currentBarNumber = #67 \time 3/4
+          \set autoBeaming = ##f
+          \key sol \major \clef "soprano"
+          r4 si' si' | mi''4.( red''8) mi''4 |
+          red''2 si'4 | fad' sol' la' |
+          sol'2 mi'4 | r si' si' |
+          mi''4.( red''8) mi''4 | red''2 si'4 |
+          fad' sol' la' | sol'2 mi'4 |
+        } \addlyrics {
+          Vous bra -- viez à tort l'A -- mour qui vous bles -- se,
+          Vous bra -- viez à tort l'A -- mour qui vous bles -- se,
+        }
+        \new Staff {
+          \key sol \major \clef "bass"
+          mi'2 re'4 | do'2. |
+          si4. la8 sol la | si4 si,2 |
+          mi2. | mi'2 re'4 |
+          do'2. | si4. la8 sol la |
+          si4 si,2 | mi,2. |
+        }
+      >>
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  %% CCAcybeleMelisse mesure 
+  \excerpts \line { Mesures 79-80, Cybèle }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set autoBeaming = ##f
+        \set Score.currentBarNumber = #79 \time 3/4
+        \key sol \major \clef "soprano"
+        si'4 do'' re'' | do''2. |
+      } \addlyrics { cœur le plus fort }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \column {
+    \score {
+      <<
+        { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set autoBeaming = ##f
+          \set Score.currentBarNumber = #79 \time 3/4
+          \key sol \major \clef "soprano"
+          si'4 do'' re'' | dod''2. |
+        } \addlyrics { cœur le plus fort }
+      >>
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \wordwrap { Baussen 1709 contient deux \italic do dièse,
+      confirmés par sa basse chiffrée. }
+  }
+  \column {
+    \null\paragraph {
+      La page 138 de l'édition Ballard 1689, correspondant aux mesures 98
+      à 114, est manquante dans la copie qui a servi à préparer cette
+      édition.  C'est donc le manuscrit qui a été utilisé sur cette
+      portion.
+    }
+    \null\sep
+  }
 }

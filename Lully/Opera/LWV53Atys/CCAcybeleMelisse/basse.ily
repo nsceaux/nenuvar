@@ -12,7 +12,7 @@ re2. |
 si, |
 do |
 dod2 re~ |
-re do2 |
+re do!2 |
 sold,1 |
 la,2. |
 si,2 si,4 |
@@ -44,14 +44,14 @@ si, si8 la sold4 |
 la4. la,8 si, do |
 re2 sol,4~ |
 sol, re,2 |
-sol,4 sol8 la sol fad |
+%sol,4 sol8 la sol fad |
 sol,4 sol2 |
 fad2. |
 mi |
 re2 si,4 |
-mi2 la,4~ |
-la, mi,2 |
-la, la8 sol |
+% mi2 la,4~ | la, mi,2 |
+mi2 la,4 | mi,2. |
+la,2 la8 sol |
 fad2 sol4 |
 do2. |
 si,2 si8 la sold2. |
@@ -68,11 +68,11 @@ mi'2 re'4 |
 do'2. |
 si4. la8 sol la |
 si4 si,2 |
-mi2. |
+%{mi2. |
 mi'2 re'4 |
 do'2. |
 si4. la8 sol la |
-si4 si,2 |
+si4 si,2 |%}
 mi,2. |
 mi4. si8 do' re' |
 mi'4 re' do' |
