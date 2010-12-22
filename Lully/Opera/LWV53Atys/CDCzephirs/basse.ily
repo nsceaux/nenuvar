@@ -31,7 +31,7 @@ sol2 sol4 |
 sol, sol, sol, |
 do4. re8 mib4 |
 lab fa sol |
-do2 do,4 |
+do2 %{ do,4 %} do4 |
 do do do |
 fa2 fa4 |
 re re re |

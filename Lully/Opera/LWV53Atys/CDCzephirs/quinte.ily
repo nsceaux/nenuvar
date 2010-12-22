@@ -3,12 +3,12 @@ re'2 la4 |
 sol do' la |
 la2 la4 |
 R2.*4 |
-re'4 re'8 mib' fa'4 |
+re'4 re'8 mi' fa'4 |
 mib'4 sol2 |
 re'4 la2 |
 sib4. do'8 re'4 |
 R2.*4 |
-sib4 sib sib |
+sol4 re'8 do' sib4 | % sib4 sib sib |
 sib8 do' re'4 re' |
 do' do'2 |
 sib4 fa2 |

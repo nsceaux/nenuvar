@@ -1036,4 +1036,118 @@
     }
     \null\sep
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% CDCzephirs mesure 17
+  \excerpts \column {
+    \line { \bold { Entrée des Zéphir } (page \page-refIII #'CDCzephirs ) }
+    \line { Mesure 17, quinte }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #17 \time 3/4
+      \key re \minor \clef "alto"
+      sol4 re'8 do' sib4 | sib8 do' re'4 re' |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #17 \time 3/4
+      \key re \minor \clef "alto"
+      sib4 sib sib | sib8 do' re'4 re' |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% CDCzephirs mesure 35
+  \excerpts \line { Mesures 35-36, haute-contre et taille de hautbois }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #35 \time 3/4
+        \key re \minor \clef "soprano"
+        mib'8 fa' sol' fa' mib' re' | do'4. sib8 la4 |
+      }
+      \new Staff {
+        \key re \minor \clef "mezzosoprano"
+        sol'4 sol' sol' | fa'2 do'4 |
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #35 \time 3/4
+        \key re \minor \clef "soprano"
+        sol'4 sol' sol' | fa'2 do'4 |
+      }
+      \new Staff {
+        \key re \minor \clef "mezzosoprano"
+        mib'8 fa' sol' fa' mib' re' | do'4. sib8 la4 |
+      }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% CDCzephirs mesure 43
+  \excerpts \line { Mesure 43, haute-contre de hautbois }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #43 \time 3/4
+      \key re \minor \clef "soprano"
+      sol'4 sol' la' | fad'2 fad'4 |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #43 \time 3/4
+      \key re \minor \clef "soprano"
+      sol'8 la' la'4. sol'8 | fad'2. |
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% CDCzephirs mesure 60
+  \excerpts-end \line { Mesure 60, haute-contre }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #59 \time 3/4
+      \key re \minor \clef "soprano"
+      sib'4 do'' la' | sib'2. |\bar "|."
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #59 \time 3/4
+      \key re \minor \clef "soprano"
+      sib'4 do'' la' | si'2. |\bar "|."
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
 }
