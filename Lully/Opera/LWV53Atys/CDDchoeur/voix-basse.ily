@@ -4,7 +4,7 @@ fa fa fa |
 sib,2 sib,4 |
 fa fa re |
 sol4. sol8 sol4 |
-fa mib4. re8 |
+fa mib4. %{ re8 %} mib8 |
 re2. |
 sib4 sib sib |
 la2 sib4 |
@@ -20,5 +20,5 @@ fa fa fa |
 sib,2 sib,4 |
 fa mib re |
 do sib, la, |
-sol, re re |
+sol, %{ re4 re %} re4. re8 |
 sol,2. |

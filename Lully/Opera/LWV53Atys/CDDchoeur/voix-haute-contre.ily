@@ -8,14 +8,14 @@ re' sol'4. la'8 |
 fad'2. |
 fa'4 fa' sol' |
 la'2 fa'4 |
-sib' sol'4. fa'16[ sol'] |
+sib' sol'4. %{ fa'16[ sol'] %} sol'8 |
 la'2 la'4 |
 la' sol' sol' |
 la' la' fa' |
 sol' mi' la' |
 fad'2. |
 sol'4 re' sol' |
-sol'2 mi'4 |
+sol'2 mib'4 |
 fa' do' fa' |
 fa'2 fa'4 |
 fa' fa' fa' |

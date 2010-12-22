@@ -1150,4 +1150,103 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% CDDchoeur mesure 11
+  \excerpts \column {
+    \line { \bold { Chœur : \italic { Que devant vous tout s'abaisse } }
+      (page \page-refIII #'CDDchoeur ) }
+    \line { Mesure 11, dessus et taille de violons, dessus et haute-contre chantantes }
+  }
+  \score {
+    \new StaffGroupNoBar <<
+      \new ChoirStaff <<
+        \new Staff {
+          \set autoBeaming = ##f
+          \key re \minor \clef "soprano"
+          fa''4 mi''4. mi''8 | fa''2 do''4 |
+        } \addlyrics { de voir en -- sem -- ble }
+        \new Staff {
+          \set autoBeaming = ##f
+          \key re \minor \clef "tenor"
+          sib' sol'4. sol'8 | la'2 la'4 |
+        } \addlyrics { de voir en -- sem -- ble }
+      >>
+      \new StaffGroup <<
+        \new Staff {
+          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set Score.currentBarNumber = #17 \time 3/4
+          \key re \minor \clef "french"
+          fa''4 mi''4. mi''8 | fa''2 do''4 |
+        }
+        \new Staff {
+          \key re \minor \clef "mezzosoprano"
+          sol' sol'4. sol'8 | la'2 fa'4 |
+        }
+      >>
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    \new StaffGroupNoBar <<
+      \new ChoirStaff <<
+        \new Staff {
+          \set autoBeaming = ##f
+          \key re \minor \clef "soprano"
+          fa''4 mi''4. re''16[ mi''] | fa''2 do''4 |
+        } \addlyrics { de voir en -- sem -- ble }
+        \new Staff {
+          \set autoBeaming = ##f
+          \key re \minor \clef "tenor"
+          sib' sol'4. fa'16[ sol'] | la'2 la'4 |
+        } \addlyrics { de voir en -- sem -- ble }
+      >>
+      \new StaffGroup <<
+        \new Staff {
+          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set Score.currentBarNumber = #17 \time 3/4
+          \key re \minor \clef "french"
+          fa''4 mi''4. re''16 mi'' | fa''2 do''4 |
+        }
+        \new Staff {
+          \key re \minor \clef "mezzosoprano"
+          sol' sol'4. fa'16 sol' | la'2 fa'4 |
+        }
+      >>
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% CDDchoeur mesure 24
+  \excerpts-end \line { Mesure 24, quinte }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #23 \time 3/4
+      \key re \minor \clef "alto"
+      re'4 re' la | sib2. |\bar "|."
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \column {
+    \score {
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #23 \time 3/4
+        \key re \minor \clef "alto"
+        re'4 re' la | si2. |\bar "|."
+      }
+      \layout {
+        indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \wordwrap { \bold { Version retenue } car les tailles chantent
+      également un \italic si bécarre sur Ballard 1689. }
+  }
 }
