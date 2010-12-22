@@ -1,5 +1,5 @@
 \clef "vtaille" r4 sib sib sib |
-sib2 sib4 sib |
+sib2 %{ sib4 sib %} sib4. sib8 |
 la2 la4 la |
 sib2 sib4 sib |
 la2. la4 |
