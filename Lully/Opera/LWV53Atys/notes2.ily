@@ -937,4 +937,103 @@
     }
     \null\sep
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% CDBnations mesure 4
+  \excerpts \column {
+    \line { \bold { Entrée des Nations } (page \page-refIII #'CDBnations ) }
+    \line { Mesure 4, quinte }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #4 \time 2/2
+      \key sol \major \clef "alto"
+      sol4 re' si4. la8 | sol2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+      \set Score.currentBarNumber = #4 \time 2/2
+      \key sol \major \clef "alto"
+      sol4 re' do'4. la8 | sol2
+    }
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  % Mesure 13
+  \column {
+    \wordwrap { Mesures 13-15 : le manuscrit présente quelques
+      différences harmoniques, ainsi qu'une reprise de la seconde partie. }
+    \score {
+      \new StaffGroup <<
+        \new Staff {
+          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set Score.currentBarNumber = #61 \time 2/2
+          \key sol \major \clef "french" \markUpBegin \mark \markup \smaller\smaller"Ballard 1689"
+          dod''8. si'16 la'8. mi''16 mi''8. fad''16 sol''8. la''16 |
+          fad''4 si''8. si''16 mi''8. la''16 fad''8. sol''16 | sol''1
+        }
+        \new Staff {
+          \key sol \major \clef "soprano"
+          la'2 dod''4 dod'' | re''4 re''8. re''16 do''8. do''16 la'8. la'16 | si'1
+        }
+        \new Staff {
+          \key sol \major \clef "mezzosoprano"
+          mi'8 re' dod'4 la la'8 la' | la'4 sol'8 sol' sol'4 re'8. re'16 | re'1
+        }
+        \new Staff {
+          \key sol \major \clef "alto"
+          mi4 mi'8. mi'16 mi'4. mi'8 | re'4 re' mi'8. la16 la8. sol16 | sol1
+        }
+        \new Staff {
+          \key sol \major \clef "bass"
+          la,2 la | re4 si, do re | sol,1 \bar "|."
+        }
+      >>
+      \layout {
+        indent = 0 %ragged-right = ##f
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  \column {
+    \score {
+      \new StaffGroup <<
+        \new Staff {
+          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+          \set Score.currentBarNumber = #61 \time 2/2
+          \key sol \major \clef "french" \markUpBegin \mark \markup \smaller\smaller"Manuscrit"
+          do''8. si'16 la'8. mi''16 mi''8. fad''16 sol''8. la''16 |
+          fad''4 si''8. si''16 mi''8. la''16 fad''8. sol''16 | sol''1 | sol''
+        }
+        \new Staff {
+          \key sol \major \clef "soprano" la'2 do''4 dod'' |
+          re''4 re''8. re''16 do''8. do''16 la'8. la'16 | si'1 | si'
+        }
+        \new Staff {
+          \key sol \major \clef "mezzosoprano" mi'8. re'16 dod'4 la la'8 la' |
+          la'4 sol'8 sol' sol'4 re'8. re'16 | re'1 | re'
+        }
+        \new Staff {
+          \key sol \major \clef "alto" mi4 mi'8. mi'16 mi'4. mi'8 |
+          re'4 re' mi'8 la la la | sol1 | sol
+        }
+        \new Staff <<
+          { \key sol \major \clef "bass" la,2 la | re4 si, do re |
+            \alternatives { sol,2 sol8 la si do' | } { sol,1 \bar "|." } }
+          \figuremode { <_!>2 <_!>4 <_+> }
+        >>
+      >>
+      \layout {
+        indent = 0 %ragged-right = ##f
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+    \null\sep
+  }
 }

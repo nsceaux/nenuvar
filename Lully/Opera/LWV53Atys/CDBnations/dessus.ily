@@ -10,7 +10,7 @@ fad''8 mi''16 fad'' sol''8. fad''16 mi''8. mi''16 mi''8. fad''16 |
 red''8. dod''16 si'8. si''16 si''8. la''16 sol''8.\trill fad''16 |
 sol''8. fad''16 mi''8. mi''16 la''8. la''16 la''8. mi''16 |
 fa''8. fa''16 fa''8. mi''16 re''8. dod''16 re''8. mi''16 |
-dod''8. si'16 la'8. mi''16 mi''8. fad''16 sol''8. la''16 |
+%{ do''8. %}dod''8. si'16 la'8. mi''16 mi''8. fad''16 sol''8. la''16 |
 fad''4\trill si''8. si''16 mi''8. la''16 fad''8.\trill sol''16 |
+%sol''1 |
 sol''1 |
-sol'' |

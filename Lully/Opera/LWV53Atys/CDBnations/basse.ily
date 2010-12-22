@@ -9,8 +9,8 @@ re2~ re8 la si do' |
 re'4 si do' la |
 si2 si, |
 mi4. re8 dod2 |
-re4. do8 sib,2 |
+re4. do!8 sib,2 |
 la,2 la |
 re4 si, do re |
-sol,2 sol8 la si do' |
+%sol,2 sol8 la si do' |
 sol,1 |
