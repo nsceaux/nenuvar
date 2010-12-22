@@ -23,19 +23,20 @@
 \sceneDescription \markup { \smallCaps Atys, les peuples et les zéphirs. }
 \pieceToc \markup { Chœur :
   \italic { Célébrons la gloire immortelle } } \includeScore "CDAchoeur"
-%{ n°7 %}\newBookPart #'(full)
+%{ n°7 %}
 \pieceTocTitle "Entrée des Nations" \includeScore "CDBnations"
 %{ n°8 %}
 \pieceTocTitle "Entrée des zéphirs" \includeScore "CDCzephirs"
-%{ n°9 %}\newBookPart #'(full)
+%{ n°9 %}
 \pieceToc \markup { Chœur :
   \italic { Que devant nous tout s'abaisse et tout tremble } } \includeScore "CDDchoeur"
-%{ n°10 %}
-\pieceToc \markup { Atys } \includeScore "CDEatys"
+%{ n°10 %}\newBookPart #'(full)
+\pieceToc \markup { Atys :
+  \italic { Indigne que je suis des honneurs qu'on m'adresse } } \includeScore "CDEatys"
 %{ n°11 %}
 \pieceToc \markup { Chœur :
   \italic { Que la puissante Cybèle nous rende à jamais heureux } } \includeScore "CDFchoeur"
-%{ n°12 %}
+%{ n°12 %}\newBookPart #'(full)
 \pieceToc \markup { Chœur :
   \italic { Que devant nous tout s'abaisse et tout tremble }
 } \reIncludeScore "CDDchoeur" "CDGchoeur"

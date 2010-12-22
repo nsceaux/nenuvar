@@ -1341,7 +1341,7 @@
   \column {
     \null\paragraph {
       L'édition Baussen 1709 indique de jouer pour l'entr'acte le second
-      air des Phrygiens (page \page-refIII #'BGCphrygiens .) }
+      air des Phrygiens (page \page-refIII #'BGCphrygiens .)
     }
     \null\sep
   }
