@@ -1249,4 +1249,68 @@
     \wordwrap { \bold { Version retenue } car les tailles chantent
       également un \italic si bécarre sur Ballard 1689. }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% CDEatys mesure 3
+  \excerpts \column {
+    \line { \bold { Atys : \italic { Indigne que je suis } } (page \page-refIII #'CDEatys ) }
+    \line { Mesure 3, Atys }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #3 \time 4/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        la4 la8 fa la8. la16 la8 si | do'4.
+      } \addlyrics { -dres -- se, je dois les re -- ce -- voir }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #3 \time 4/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        la4 la8 fa sib8. sib16 la8 sib | do'4.
+      } \addlyrics { -dres -- se, je dois les re -- ce -- voir }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  %% CDEatys mesure 8
+  \excerpts-end \line { Mesure , Atys }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #8 \time 3/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        sib8 sib r re' re'8. mi'16 | fa'4 fa'8.
+      } \addlyrics { ze -- le, que la puis -- san -- te }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
+  \score {
+    <<
+      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #8 \time 3/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        sib4 sib8 re' re'8. mi'16 | fa'4 fa'8.
+      } \addlyrics { ze -- le, que la puis -- san -- te }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
 }
