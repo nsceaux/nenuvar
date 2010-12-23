@@ -40,6 +40,7 @@
 \pieceToc \markup { Chœur :
   \italic { Que devant nous tout s'abaisse et tout tremble }
 } \reIncludeScore "CDDchoeur" "CDGchoeur"
-%{ n°13 %}
-\pieceTocTitle "Entr'acte" \reIncludeScore "CDCzephirs" "CDHzephirs"
+\noPageBreak
+\markup \large { On reprend l'entrée des zéphirs pour l'entr'acte (page \ref-refIII #'CDCzephirs .) }
+%\pieceTocTitle "Entr'acte" \reIncludeScore "CDCzephirs" "CDHzephirs"
 \actEnd "FIN DU SECOND ACTE"
