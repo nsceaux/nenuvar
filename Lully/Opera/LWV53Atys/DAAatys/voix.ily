@@ -1,7 +1,7 @@
 \clef "vhaute-contre" R2.*18 |
-r2 re'4^\markup\character "Atys" |
+r2 r8 re'^\markup\character "Atys" |
 re'4. re'8 mib' fa' |
-mib'2 do'8. do'16 |
+mib'2 %{ do'8. do'16 %} do'8 do' |
 do'4( sib)\trill la8 sib |
 la4\trill la re'8. mib'16 |
 do'2\trill sib4 |
@@ -14,7 +14,7 @@ do'4 sol'8 fa' mib' re' |
 do'2\trill re'8 mib' |
 re'4\trill sib r8 re' |
 re'4. re'8 mib' fa' |
-mib'2 do'8. do'16 |
+mib'2 %{ do'8. do'16 %} do'8 do' |
 do'4( sib)\trill la8 sib |
 la4\trill la re'8. mib'16 |
 do'2\trill sib4 |

@@ -353,4 +353,36 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DCAatys mesure 25
+  \excerpts-end \column {
+    \line { \bold { Scène III } (page \page-refIII #'DCAatys ) }
+    \line { Mesure 25, Atys }
+  }
+  \score {
+    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #25 \time 4/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        mib'4 mib'8. fa'16 sol'8 mib'16 sol' mib'8 mib'16 re' | re'4 re'
+      } \addlyrics { -mour mal -- gré toy me con -- traint à me ren -- dre, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }    
+  \score {
+    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
+        \set Score.currentBarNumber = #25 \time 4/4
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        mib'4 mib'8 fa' sol' sol'16 fa' mib'8\trill mib'16 re' | re'4 re'
+      } \addlyrics { -mour mal -- gré toy me con -- traint à me ren -- dre, }
+    >>
+    \layout {
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
 }
