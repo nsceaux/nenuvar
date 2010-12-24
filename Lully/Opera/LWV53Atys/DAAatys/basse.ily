@@ -16,7 +16,7 @@ si,2. |
 do4 la,2 |
 re sol,4 |
 do, re,2 |
-sol,4 sol2 |
+sol,2 sol4 | % sol,4 sol2 |
 si,2. |
 do |
 re4 sol,2 |

@@ -31,16 +31,15 @@
   \null
 
   \paragraph {
-    La source considérée comme canonique, et le principal matériel grâce
-    auquel cette édition a été préparée, est la première édition,
-    Ballard 1689.  L'édition proposée ici est donc essentiellement une
-    restranscription, en notation modernisée, de l'édition Ballard 1689,
-    sauf exceptions listées plus bas.
+    L'édition Ballard 1689 a été considérée comme le matériel principal.
+    L'édition proposée ici est essentiellement une restranscription, en
+    notation modernisée, de l'édition Ballard 1689, sauf exceptions listées
+    plus bas.
   }
   \paragraph {
     Le manuscrit non daté est légèrement lacunaire : il manque par
     exemple quelques feuillets dans les chœurs du premier acte. Il
-    présente des variations de rythme ainsi que quelques différences
+    présente des variations de rythme et quelques différences
     harmoniques par rapport à Ballard 1689.  Par ailleurs, il comporte
     des indications de reprises supplémentaires. Ces différences sont
     relevées plus bas.
@@ -58,29 +57,11 @@
   }
 
   \section \line { Adaptations dans la notation }
-  \line { [ici expliquer les adaptations sur les clés/armures/mesures] }
+  \line { [ici expliquer les adaptations sur les clés/armures/mesures, les paroles, etc] }
 }
 
 
 %{
-acte 1, scène 7 :
-la fin du chœur est manquante dans le manuscrit (à partir de la mesure 106)
-
-acte 1, scène 8 :
-le chœur en entier en manquant dans le manuscrit
-
-acte 2 scène 4 entrée des nations : beaucoup de problèmes de notes, à vérifier
-
-Faire des parties séparées pour les hautbois :
-- (un chœur du premier acte)
-- CDCzephirs
-ou bien non.
-Clairement, il doit y avoir dans l'effectif de l'orchestre au moins :
-- deux dessus
-- une haute-contre
-- une taille
-- une basse de hautbois
-
 acte 3 scène 1 : sur le manuscrit, on reprend la ritournelle.
 
 acte 5 scène 3

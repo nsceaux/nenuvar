@@ -2,11 +2,12 @@
 \markuplines \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% DAAatys mesure xx
-  \excerpts \column {
+  \column {
     \section \line { Acte III }
     \line { \bold { Scène I } (page \page-refIII #'DAAatys ) }
-    \line { À FAIRE }
+    \paragraph { Dans le manuscrit, on reprend la ritournelle sur la dernière mesure. }
   }
+  \excerpts \line { Mesure xx }
   \column {
     \fill-line { \line \bold { Ballard 1689 } }
     \score {
