@@ -14,17 +14,17 @@
     >>
     \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
-        \global \keepWithTag #'voix \includeNotes "voix"
-      >> \keepWithTag #'voix \includeLyrics "paroles"
+        \global \keepWithTag #'sommeil \includeNotes "voix"
+      >> \keepWithTag #'sommeil \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "morphee"
-      >> \includeLyrics "paroles-morphee"
+        \global \keepWithTag #'morphee \includeNotes "voix"
+      >> \keepWithTag #'morphee \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "phantase"
-      >> \includeLyrics "paroles-phantase"
+        \global \keepWithTag #'phantase \includeNotes "voix"
+      >> \keepWithTag #'phantase \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "phobetor"
-      >> \includeLyrics "paroles-phobetor"
+        \global \keepWithTag #'phobetor \includeNotes "voix"
+      >> \keepWithTag #'phobetor \includeLyrics "paroles"
     >>
     \new Staff << \global \includeNotes "basse-continue" \includeFigures "chiffres" >>
   >>

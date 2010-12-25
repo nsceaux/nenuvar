@@ -42,7 +42,7 @@ r2 r4 re'' |
 \afterGrace sol''1( la''16) |
 \afterGrace sol''1( la''16) |
 sol''2 fad''4.( mi''16 fad'') |
-sol''2 r |
+sol''2 r |\allowPageTurn
 R1*47 |
 R1*29 |
 R1*47 |

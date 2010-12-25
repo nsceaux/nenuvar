@@ -40,7 +40,7 @@ la'2. la'4 |
 \afterGrace sib'1( do''16) |
 \afterGrace sib'1( do''16) |
 la'4. la'8 la'4.\trill sol'8 |
-sol'2 r |
+sol'2 r |\allowPageTurn
 R1*47 |
 sib'4. sib'8 do''4 sib' |
 la'2 la'4 sib' |
