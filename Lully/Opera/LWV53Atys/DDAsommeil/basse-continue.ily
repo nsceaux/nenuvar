@@ -72,7 +72,7 @@ fad( mi) fa( re) |
 mib( re) mib( do) |
 re( do) si,2 |
 do4( re) mib( do) |
-sol( sol) fa( mib) |
+sol2 fa4( mib) |
 re2 do4( sib,) |
 fa( sol) la( fa) |
 sib2 la |

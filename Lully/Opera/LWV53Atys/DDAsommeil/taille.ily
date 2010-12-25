@@ -10,7 +10,8 @@ re'1 |
 mib'4( fa') mib'( re') |
 do'2 fa'4 fa' |
 re' r r2 |
-R1*6 |
+R1*5 |
+<< \new CueVoice { \voiceOne \afterGrace mib'1( fa'16) } \\ R1 >>
 \afterGrace mib'1( fa'16) |
 re'2. re'4 |
 \afterGrace re'1( mib'16) |

@@ -55,7 +55,7 @@ sib'4. do''8 re''2 |
 sol'4 sol'' fa''4. sol''8 |
 mib''4. re''8 do''2\trill |
 re''4 re'' mib''2~ |
-mib'' re''4 mib'' |
+mib'' re''4 mi''? |
 fa''4 fa'' fa'' mi'' |
 fa''2 fa''4 fa'' |
 fa''2 mi''4.\trill re''8 |
