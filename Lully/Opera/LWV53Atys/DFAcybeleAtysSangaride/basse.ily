@@ -4,7 +4,7 @@ la, la |
 fa4. mi8 re4 re' |
 do'2 sib |
 la la, |
-re sib, |
+re sib,~ |
 sib, do |
 fa,4 fa fad2 |
 sol re4 sol8 sol, |

@@ -17,7 +17,7 @@
     \tag #'basse \sangarideMark r4 la' |
     fa'1 |
     sib'4. sib'8 sib'4. do''8 |
-    la'2\trill la'4 si' |
+    la'2\trill la'4 si'! |
     dod'' re'' dod''4. re''8 |
     re''4
     \tag #'sangaride {
@@ -44,7 +44,7 @@
       \tag #'cybele { r2 | R1*4 | r4 }
     >>
     \tag #'basse \cybeleMark r8 la' fa'4\trill r16 fa' sol' la' |
-    sib'8. sib'16 la'8.\trill la'16 la'8. sib'16 |
+    sib'8. sib'16 la'8.\trill la'16 la'8. si'?16 |
     do''8 do'' r la'16 la' re''8 re''16 la' |
     sib'8 sib' sol'\trill sol'16 sol' do''8 do''16 do'' |
     la'8\trill la' r do'' do''8. la'16 la' la' si' do'' |
@@ -64,7 +64,7 @@
     do''8. do''16 re''8. re''16 mi''8. fa''16 |
     mi''8\trill mi'' r do''16 do'' sol'8\trill sol'16 la' |
     sib'4 r8 re'' sib'\trill la' sol'8. fa'16 |
-    mi'4\trill r8 la' fa'8. sol'16 la'8. si'16 |
+    mi'4\trill r8 la' fa'8. sol'16 la'8. si'!16 |
     do''4 do''8 re'' mi''4\trill mi''8 do'' |
     fa''4 fa''8 r la' la'16 la' si'8. do''16 |
     si'4\trill mi''8. fa''16 re''4 re''8 dod'' |

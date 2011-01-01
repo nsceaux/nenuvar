@@ -1047,4 +1047,87 @@
     >>
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DFAcybeleAtysSangaride mesure 23
+  \excerpts \column {
+    \line { \bold { Scène 6 : Atys, Sangaride, Cybèle }
+      (page \page-refIII #'DFAcybeleAtysSangaride ) }
+    \line { Mesure 23, Atys }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #23 \time 2/2 \key do \major \clef "alto"
+        re'4. re'8 re'4 mi' | fa'2
+      } \addlyrics { sont les pro -- tec -- teurs }
+    >>
+    \layout { \quoteLayout }
+  }
+  \column {
+    \score {
+      <<
+        { \set autoBeaming = ##f
+          \startQuote #23 \time 2/2 \key do \major \clef "alto"
+          <mi' sol'>4. q8 q4. <re' fa'>8 | fa'2
+        } \addlyrics { sont les pro -- tec -- teurs }
+      >>
+      \layout { \quoteLayout }
+    }
+    \wordwrap { Portée tracée à la main avec plusieurs notes non
+      raturées, difficilement lisibles. }
+  }
+  %% mesure 34
+  \excerpts \line { Mesure 34, Atys }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #33 \time 4/4 \key do \major \clef "alto"
+        r4 fa'2 re'8 re' | la4
+      } \addlyrics { "Ah !" c'en est trop... }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #33 \time 4/4 \key do \major \clef "alto"
+        r4 fa'2 re'8. re'16 | si4
+      } \addlyrics { "Ah !" c'en est trop... }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 38
+  \excerpts \line { Mesure 38, Cybèle }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #38 \time 4/4 \key do \major \clef "soprano"
+        sold'8 sold' r mi''16 fa'' re''8 re''16 do'' si'8. la'16 | la'4
+      } \addlyrics { -tè -- re, d'un a -- mour qui vous fait hon -- neur. }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #38 \time 4/4 \key do \major \clef "soprano"
+        sold'8 sold' mi''8. fa''16 re''8 re''16 do'' si'8. la'16 | la'4
+      } \addlyrics { -tè -- re, d'un a -- mour qui vous fait hon -- neur. }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 44
+  \excerpts-end \line { Mesure 44, basse continue }
+  \score {
+    { \startQuote #44 \time 4/4 \key do \major \clef "bass"
+      mi4. re8 do4 do'8 sib | la sol fa4
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #44 \time 4/4 \key do \major \clef "bass"
+      mi4. re8 do4 do'8 si | la sol fa4
+    }
+    \layout { \quoteLayout }
+  }
 }
