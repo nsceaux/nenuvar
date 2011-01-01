@@ -746,4 +746,22 @@
     }
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DDDsommeil mesure 2
+  \excerpts-end \column {
+    \line { \bold { Morphée, Phantase, Phobetor } (page \page-refIII #'DDDsommeil ) }
+    \line { Mesure 2, flûte I }
+  }
+  \score {
+    { \startQuote #1 \time 2/2 \key re \minor \clef "french"
+      r2 re''4 sol'' | sol''2 fa''4. fa''8 |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #1 \time 2/2 \key re \minor \clef "french"
+      r2 re''4 sol'' | fa''2 fa''4. fa''8 |
+    }
+    \layout { \quoteLayout }
+  }
 }
