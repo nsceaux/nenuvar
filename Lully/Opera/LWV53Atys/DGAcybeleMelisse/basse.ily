@@ -48,7 +48,7 @@ do2 si,4 la, |
 sol,8 sol mi8. re16 do8 fa, sol,4 |
 do2 do'8 re' do' si |
 la2 sold |
-la sol4 fa |
+la sol!4 fa |
 mi2. do4 |
 si, la, sold,2 |
 la, la8 sol la si |

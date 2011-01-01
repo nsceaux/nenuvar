@@ -1130,4 +1130,98 @@
     }
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DGAcybeleMelisse mesure 8
+  \excerpts \column {
+    \line { \bold { Scène 7 : Cybèle, Mélisse }
+      (page \page-refIII #'DGAcybeleMelisse ) }
+    \line { Mesure 8, basse continue }
+  }
+  \score {
+    { \startQuote #8 \time 2/2 \key do \major \clef "bass"
+      re4. mi8 fad2 | sol4
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #8 \time 2/2 \key do \major \clef "bass"
+      re4. mi8 red2 | sol4
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesures 21-25
+  \column {
+    \null\wordwrap { Mesures 21-25 : dans le manuscrit, les vers de Mélisse
+      \italic { Ce n'est pas un si grand crime de ne s'exprimer pas bien }
+      sont chantés deux fois. }
+    \score {
+      \new StaffGroupNoBar <<
+        \new Staff { \set autoBeaming = ##f
+          \startQuote #21 \time 2/2 \key do \major \clef "soprano"
+          \repeat volta 2 {
+            r2 \bar "|:" do''4 re'' |
+            mi'' si' do'' re'' |
+            do'' la' do'' si' |
+            la' sol' fad'4. mi'8 |
+          } \alternative { { mi'2*2 } { mi'2. si'4 | } }
+        } \addlyrics {
+          Ce n'est pas un si grand cri -- me
+          de ne s'ex -- pri -- mer pas bien. bien. Un
+        }
+        \new Staff {
+          \key do \major \clef "bass"
+          la,2 la,4 si, |
+          do4 re mi mi, |
+          la,2 la4 sol |
+          fad mi si si, |
+          mi8*2 re do si, |
+          mi4 fa sol mi | }
+      >>
+      \layout { \quoteLayout }
+    }
+  }
+  %% mesure 25
+  \excerpts \line { Mesure 25, basse continue }
+  \score {
+    { \startQuote #25 \key do \major \clef "bass"
+      mi4 fad sold mi | la2 }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #25 \key do \major \clef "bass"
+      mi4 fa sol mi | la2 }
+    \layout { \quoteLayout }
+  }
+  %% mesure 39
+  \excerpts \line { Mesure 39, Cybèle }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #39 \key do \major \clef "soprano"
+        \time 4/4 fad'8 fad' si'16 si' dod'' red'' mi''4 mi''8 red''! | mi''4
+      } \addlyrics { -fan -- ce, ils pour -- raient en -- fin trop s'ai -- mer. }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #39 \key do \major \clef "soprano"
+        \time 4/4 fa'8 fa' si'16 si' dod'' re'' mi''4 mi''8 dod'' | mi''4
+      } \addlyrics { -fan -- ce, ils pour -- raient en -- fin trop s'ai -- mer. }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 73
+  \excerpts-end \line { Mesure 73, basse continue }
+  \score {
+    { \startQuote #73 \key do \major \clef "bass"
+      la,2~ la,8 la, sol, fad, | \bar "|." }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #73 \key do \major \clef "bass"
+      la,2~ la,8 la, sol, fa, | mi,1 }
+    \layout { \quoteLayout }
+  }
 }

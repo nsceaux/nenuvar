@@ -40,7 +40,7 @@
     << \tag #'basse { si'16\trill si' s8 } \tag #'cybele { si'8\trill si' } >>
     << \tag #'cybele { r4 r2 | R1*20 | r2 } { s2. s1*20 s2 } >>
     \tag #'basse \cybeleMark do''4-\tag #'cybele ^\markup\character "Cybèle" r8 do'' |
-    mi'\trill mi' r fad' sol' sol'16 sol' sol'8 fa'16 mi' |
+    mi'\trill mi' r fad' sol' sol'16 sol' sol'8 fa'?16 mi' |
     fa'4 fa' r8 re''16 do'' si'8\trill do''16 re'' |
     sold'4 do''8 re''16 mi'' si'8.\trill do''16 |
     la'4 la' r2 |
