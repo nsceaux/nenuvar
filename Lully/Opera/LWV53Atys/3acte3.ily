@@ -60,6 +60,5 @@
 \sceneDescription \markup \smallCaps { Cybèle seule. }
 \pieceToc \markup { Cybèle :
   \italic { Espoir si cher et si doux } } \includeScore "DHAcybele"
-%{ n°17 %}
-\pieceTocTitle "Entr'acte" \reIncludeScore "CDBnations" "DHBentracte"
+%\pieceTocTitle "Entr'acte" \reIncludeScore "CDBnations" "DHBentracte"
 \actEnd "FIN DU TROISIÈME ACTE"

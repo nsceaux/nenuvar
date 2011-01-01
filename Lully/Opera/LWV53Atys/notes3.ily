@@ -1026,7 +1026,7 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% DEAcybeleAtys mesure 1
   \excerpts-end \column {
-    \line { \bold { Scène 5 : Atys, Cybèle } (page \page-refIII #'DEAcybeleAtys ) }
+    \line { \bold { Scène V } (page \page-refIII #'DEAcybeleAtys ) }
     \line { Mesure 1, Atys }
   }
   \score {
@@ -1050,8 +1050,7 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% DFAcybeleAtysSangaride mesure 23
   \excerpts \column {
-    \line { \bold { Scène 6 : Atys, Sangaride, Cybèle }
-      (page \page-refIII #'DFAcybeleAtysSangaride ) }
+    \line { \bold { Scène VI } (page \page-refIII #'DFAcybeleAtysSangaride ) }
     \line { Mesure 23, Atys }
   }
   \score {
@@ -1133,8 +1132,7 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% DGAcybeleMelisse mesure 8
   \excerpts \column {
-    \line { \bold { Scène 7 : Cybèle, Mélisse }
-      (page \page-refIII #'DGAcybeleMelisse ) }
+    \line { \bold { Scène VII } (page \page-refIII #'DGAcybeleMelisse ) }
     \line { Mesure 8, basse continue }
   }
   \score {
@@ -1223,5 +1221,36 @@
     { \startQuote #73 \key do \major \clef "bass"
       la,2~ la,8 la, sol, fa, | mi,1 }
     \layout { \quoteLayout }
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DHAcybele mesure 23
+  \excerpts \column {
+    \line { \bold { Scène VIII } (page \page-refIII #'DHAcybele ) }
+    \line { Mesure 23, Cybèle }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #23 \time 3/4 \key mi \minor \clef "soprano"
+        do''4 si'8 si'16 si' si'8 la' | si'4 si'
+      } \addlyrics { -mant que je de -- vois at -- ten -- "dre ?" }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #23 \time 3/4 \key mi \minor \clef "soprano"
+        do''4 si'8 si'16 si' si'8 lad' | si'4 si'
+      } \addlyrics { -mant que je de -- vois at -- ten -- "dre ?" }
+    >>
+    \layout { \quoteLayout }
+  }
+  \column {
+    \null\paragraph {
+      Le manuscrit et l'édition Baussen 1709 indiquent de jouer pour l'entr'acte
+      le second l'entrée des Nations (page \page-refIII #'CDBnations .)
+    }
+    \null\sep
   }
 }

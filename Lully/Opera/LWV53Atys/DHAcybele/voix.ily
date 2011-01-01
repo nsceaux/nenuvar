@@ -9,7 +9,7 @@ si'8.\trill si'16 si'8. la'16 sol'8.\trill fad'16 |
 sol'4 r16 mi'' mi'' re'' dod''8. si'16 |
 lad'4 dod''8 re'' si'4 si'8 lad' |
 si' si' r red''16 red'' mi''8 mi''16 si' |
-do''8. do''16 do''8. do''16 re''8. mi''16 |
+do''!8. do''16 do''8. do''16 re''8. mi''16 |
 la'4\trill re''8 re''16 re'' re''8 si' |
 do''4 si'8 si'16 si' si'8 la' |
 si'4 si' r8 sol' la' si' |
