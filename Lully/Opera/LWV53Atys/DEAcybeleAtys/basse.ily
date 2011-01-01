@@ -35,7 +35,7 @@ do4. re8 mi fad |
 sol4 re mi |
 fa8 sib, do2 |
 fa, fa |
-sib, do |
+sib, do~ |
 do2. sol,4 |
 fad,2 sol, |
 re mib4 fa8 fa, |

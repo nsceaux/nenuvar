@@ -1023,4 +1023,28 @@
     }
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DEAcybeleAtys mesure 1
+  \excerpts-end \column {
+    \line { \bold { Scène 5 : Atys, Cybèle } (page \page-refIII #'DEAcybeleAtys ) }
+    \line { Mesure 1, Atys }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #1 \time 4/4 \key re \minor \clef "alto"
+        r4 r8 fa' la8. la16 la8 sib | do'4
+      } \addlyrics { Ve -- nez à mon se -- cours }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #1 \time 4/4 \key re \minor \clef "alto"
+        r4 r8 do' la8. la16 la8 sib | do'4
+      } \addlyrics { Ve -- nez à mon se -- cours }
+    >>
+    \layout { \quoteLayout }
+  }
 }
