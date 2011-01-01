@@ -234,3 +234,26 @@ notesSubSection =
     \override Script #'avoid-slur = #'outside
   }
 }
+
+startQuote =
+#(define-music-function (parser location bar-num) (number?)
+   #{ \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \bar ""
+      \set Score.currentBarNumber = #$bar-num #})
+
+quoteLayout = \layout {
+  indent = 0
+  ragged-right = ##t
+  \context { \Staff \remove "Time_signature_engraver" }
+}
+
+onlyNotesLayout = \layout {
+  indent = 0
+  \context {
+    \Staff
+    \remove "Time_signature_engraver"
+    \remove "Clef_engraver"
+    \remove "Staff_symbol_engraver"
+  }
+  \context { \Score \remove "Bar_number_engraver" }
+}

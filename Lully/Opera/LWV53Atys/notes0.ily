@@ -5,55 +5,13 @@
     Les différences significatives rencontrées entre l'édition Ballard
     1689 et le manuscrit sont relevées ici. Les très nombreuses
     différences de rythme telles que
-    \vcenter \score {
-      { sol'8[ sol'] }
-      \layout { indent = 0
-        \context { \Staff \remove "Time_signature_engraver"
-          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
-        \context { \Score \remove "Bar_number_engraver" }
-      }
-    }
-    / \vcenter \score {
-      { sol'8.[ sol'16] }
-      \layout { indent = 0
-        \context { \Staff \remove "Time_signature_engraver"
-          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
-        \context { \Score \remove "Bar_number_engraver" }
-      }
-    }
+    \vcenter \score { { sol'8[ sol'] } \layout { \onlyNotesLayout } }
+    / \vcenter \score { { sol'8.[ sol'16] } \layout { \onlyNotesLayout } }
     ou bien
-    \vcenter \score {
-      { sol'4 sol'4. sol'8 }
-      \layout { indent = 0
-        \context { \Staff \remove "Time_signature_engraver"
-          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
-        \context { \Score \remove "Bar_number_engraver" }
-      }
-    }
-    / \vcenter \score {
-      { sol'4. sol'8 sol'4 }
-      \layout { indent = 0
-        \context { \Staff \remove "Time_signature_engraver"
-          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
-        \context { \Score \remove "Bar_number_engraver" }
-      }
-    }
-    ou encore \vcenter \score {
-      { sol'2 sol'4 }
-      \layout { indent = 0
-        \context { \Staff \remove "Time_signature_engraver"
-          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
-        \context { \Score \remove "Bar_number_engraver" }
-      }
-    }
-    / \vcenter \score {
-      { sol'4 sol'2 }
-      \layout { indent = 0
-        \context { \Staff \remove "Time_signature_engraver"
-          \remove "Clef_engraver" \remove "Staff_symbol_engraver" }
-        \context { \Score \remove "Bar_number_engraver" }
-      }
-    }
+    \vcenter \score { { sol'4 sol'4. sol'8 } \layout { \onlyNotesLayout } }
+    / \vcenter \score { { sol'4. sol'8 sol'4 } \layout { \onlyNotesLayout } }
+    ou encore \vcenter \score { { sol'2 sol'4 } \layout { \onlyNotesLayout } }
+    / \vcenter \score { { sol'4 sol'2 } \layout { \onlyNotesLayout } }
     ne sont pas indiquées, de même que les cas où le manuscrit est
     moins élaboré, par exemple lorsqu'il manque une note de passage.
     Sauf indication contraire, c'est la version Ballard 1689 qui a
@@ -71,25 +29,17 @@
   \column {
     \fill-line { \line \bold { Ballard 1689 } }
     \score { 
-      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #7
+      { \startQuote #7
         \key re \minor \clef "alto" la4. la8 sib la sol4 | la1 | }
-      \layout {
-        indent = 0 ragged-rigth = ##f
-        \context { \Staff \remove "Time_signature_engraver" }
-      }
+      \layout { \quoteLayout }
     }
   }
   \column {
     \fill-line { \line \bold { Manuscrit } }
     \score {
-      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #7
+      { \startQuote #7
         \key re \minor \clef "alto" sib4. sib8 sib la sol4 | la1 | }
-      \layout {
-        indent = 0
-        \context { \Staff \remove "Time_signature_engraver" }
-      }
+      \layout { \quoteLayout }
     }
     \wordwrap { Le guidon présent à la fin de la mesure précédente
       pointe sur un \italic la et non sur un \italic si\tiny\flat. }
@@ -100,8 +50,7 @@
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #19
+        \startQuote #19
         \key re \minor \clef "mezzosoprano" \time 6/4
         sol'8 fa' sol' la' sol' la' fad'2~ fad'8 mi'16 fad' |
       }
@@ -110,16 +59,12 @@
         R1. |
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #19
+        \startQuote #19
         \key re \minor \clef "mezzosoprano" \time 6/4
         sol'8 fad' sol' la' sol' la' fad'!2 fad'8 mi'16 fad'
       }
@@ -128,17 +73,13 @@
         R1. |
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \excerpts-no-title
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #20
+        \startQuote #20
         \key re \minor \clef "mezzosoprano" \time 6/4
         sol'2 sol'4 la'2 re'4 |
       }
@@ -147,16 +88,12 @@
         sol8 fa sol la sol la fa mib fa sol fa sol |
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #20
+        \startQuote #20
         \key re \minor \clef "mezzosoprano" \time 6/4
         sol'2 sol'4 la'2 re'4 |
       }
@@ -165,17 +102,13 @@
         sol8 fad sol la sol la fad mi fad sol fad sol |
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \excerpts-no-title
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #21
+        \startQuote #21
         \key re \minor \clef "mezzosoprano" \time 6/4
         mib'8 fa' sol'4. la'8 fad'4.( mi'16) fad' sol'4 |
       }
@@ -184,16 +117,12 @@
         mib8 re mib fa mib fa re2. |
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #21
+        \startQuote #21
         \key re \minor \clef "mezzosoprano" \time 6/4
         mi'8 fad' sol'4. la'8 fad'4. mi'16 fad' sol'4
       }
@@ -202,174 +131,115 @@
         mi8 re mib fa mib fa re2. |
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAAouverture, quinte, mesure 25
   \excerpts \line { Mesure 25, quinte }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #25
+    { \startQuote #25
       \key re \minor \clef "alto" \time 6/4
       fa'4. re'8 re'4 re'2. | }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #25
+    { \startQuote #25
       \key re \minor \clef "alto" \time 6/4
       fa'4. re'8 mib'4 re'2. | }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAAouverture, haute-contre, mesure 27
   \excerpts \line { Mesure 27, haute-contre }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #27
+    { \startQuote #27
       \key re \minor \clef "soprano" \time 6/4
       la'2 la'4 la'8 si' dod'' re'' mi''4 | la'2 }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #27
+    { \startQuote #27
       \key re \minor \clef "soprano" \time 6/4
       la'2 la'4 la'8 sib' do'' re'' mi''4 | la'2 }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAAouverture, basse, mesure 28
   \excerpts \line { Mesure 28, basse }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #28
+    { \startQuote #28
       \key re \minor \clef "bass" \time 6/4
       re8 do re mib re do sib, la, sib, do sib, do |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #28
+    { \startQuote #28
       \key re \minor \clef "bass" \time 6/4
       re8 do re mi re do sib, la, sib, do sib, do |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAAouverture, basse, mesure 31
   \excerpts \line { Mesure 31, basse }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #31
+    { \startQuote #31
       \key re \minor \clef "bass" \time 6/4
       mi8 re mi do re mi fa mib fa sol fa mib |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #31
+    { \startQuote #31
       \key re \minor \clef "bass" \time 6/4
       mi8 re mi do re mi fa mi fa sol fa mib |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAAouverture, haute-contre, mesure 34
   \excerpts \line { Mesure 34, haute-contre }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #34
+    { \startQuote #34
       \key re \minor \clef "soprano" \time 6/4
       sib'8 la' sib' do'' re'' do'' re'' do'' re'' mib'' re'' do'' |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #34
+    { \startQuote #34
       \key re \minor \clef "soprano" \time 6/4
       sib'8 la' sib' do'' re'' re'' re'' do'' re'' mib'' re'' do'' |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAAouverture, haute-contre, mesure 36
   \excerpts \line { Mesure 36, haute-contre }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #36
+    { \startQuote #36
       \key re \minor \clef "soprano" \time 2/2
       re''4. re''8 sol'2 | la'2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #36
+    { \startQuote #36
       \key re \minor \clef "soprano" \time 2/2
       re''4. re''8 sol'4. sol'8 | la'2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAAouverture, taille, mesures 37-38
   \excerpts-end \line { Mesures 37-38, taille }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #37
+    { \startQuote #37
       \key re \minor \clef "mezzosoprano" \time 2/2
       sol'2 fa'4. mi'8 | re'2. re'4 |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #37
+    { \startQuote #37
       \key re \minor \clef "mezzosoprano" \time 2/2
       sol'2 mi'4. mi'8 | re'2 re'4. re'8 |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% AABleTemps, mesure 5
@@ -379,28 +249,20 @@
     \line { Mesure 5 }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #5
+    { \startQuote #5
       \set autoBeaming = ##f
       \key re \minor \clef "varbaritone"
       sib8 sib16 sib sib8 sib16 la la4 la8 fa |
     } \addlyrics { noms si fa -- meux dans l'his -- toi -- re du }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #5
+    { \startQuote #5
       \set autoBeaming = ##f
       \key re \minor \clef "varbaritone"
       sib8 sib16 sib sib8 sib16 la la8 la r fa |
     } \addlyrics { noms si fa -- meux dans l'his -- toi -- re du }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AABleTemps, mesure 13
   \excerpts-end \line { Mesure 13 }
@@ -408,8 +270,7 @@
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #13
+        \startQuote #13
         \set autoBeaming = ##f
         \key re \minor \clef "varbaritone"
         sol8 sol mib do re4 re8[ do16] re |
@@ -426,8 +287,7 @@
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #13
+        \startQuote #13
         \set autoBeaming = ##f
         \key re \minor \clef "varbaritone"
         sol8 sol mib do re4 re16[ do] re8 |
@@ -451,8 +311,7 @@
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #3
+        \startQuote #3
         \set autoBeaming = ##f
         \key re \minor \clef "tenor" \time 3/4
         si4 si8[ do'] re'[ si] | do'2.
@@ -474,8 +333,7 @@
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #3
+        \startQuote #3
         \set autoBeaming = ##f
         \key re \minor \clef "tenor" \time 3/4
         sib4 sib8[ do'] re'[ sib] | do'2.
@@ -499,8 +357,7 @@
     \new Staff <<
       {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #5
+        \startQuote #5
         \key re \minor \clef "bass" \time 3/4
         fa'4 fa'4. fa'8 | fa'2.
       } \new FiguredBass \figuremode { <_>2 <_>8 <4 6> }
@@ -511,8 +368,7 @@
     \score {
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #5
+        \startQuote #5
         \key re \minor \clef "bass" \time 3/4
         fa4 fa4. fa8 | fa2.
       }
@@ -527,8 +383,7 @@
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #7
+        \startQuote #7
         \set autoBeaming = ##f
         \key re \minor \clef "soprano" \time 3/4
         do''4 do'' fa'' | re''2.
@@ -550,8 +405,7 @@
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #7
+        \startQuote #7
         \set autoBeaming = ##f
         \key re \minor \clef "soprano" \time 3/4
         do''4 do''4. fa''8 | re''2.
@@ -574,8 +428,7 @@
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #9
+        \startQuote #9
         \key re \minor \clef "french" \time 3/4
         re''4. re''8 mib''8. mib''16 | mib''4 re''4. re''8 |
       }
@@ -599,8 +452,7 @@
       \new StaffGroupNoBar <<
         \new Staff {
           \once \override Score.TimeSignature #'stencil = ##f
-          \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-          \set Score.currentBarNumber = #9
+          \startQuote #9
           \key re \minor \clef "french" \time 3/4
           re''4. re''8 mib''8. mib''16 | mib''4 re'' re'' |
         }
@@ -624,28 +476,20 @@
   %% AACchoeur, mesure 12
   \excerpts \line { Mesure 12, taille chantante }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #11
+    { \startQuote #11
       \set autoBeaming = ##f
       \key re \minor \clef "tenor" \time 3/4
       sib2( do'4) | la2. |
     } \addlyrics { "- ne" -- le }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #11
+    { \startQuote #11
       \set autoBeaming = ##f
       \key re \minor \clef "tenor" \time 3/4
       sib2( do'4) | re'2. |
     } \addlyrics { "- ne" -- le }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \excerpts \wordwrap { Mesures 15-16 et 19-20, violons }
   \wordwrap { Les violons jouent comme aux mesures 3-4 et 7-8 sur
@@ -666,36 +510,27 @@
   %% AACchoeur, mesure 37
   \excerpts \line { Mesure 37, dessus chantante }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #37
+    { \startQuote #37
       \set autoBeaming = ##f
       \key re \minor \clef "soprano" \time 3/4
       mib''4 mib''4. mib''8 | re''4
     } \addlyrics { "- stant," cha -- que jour, }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #37
+    { \startQuote #37
       \set autoBeaming = ##f
       \key re \minor \clef "soprano" \time 3/4
       mib''4 mib''4. fa''8 | re''4
     } \addlyrics { "- stant," cha -- que jour, }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AACchoeur, mesure 44-45
   \excerpts-end \wordwrap { Mesure 44-45, haute-contre et taille chantantes }
   \score {
     \new StaffGroupNoBar <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #44
+        \startQuote #44
         \set autoBeaming = ##f
         \key re \minor \clef "alto" \time 3/4 \bar "|."
         sol'4 sol' sol' | sol'2( fad'4) | sol'2. |
@@ -705,16 +540,12 @@
         sol4 sol mib' | re'2. | si2. |
       } \addlyrics { gloi -- re nou -- vel -- le. }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new StaffGroupNoBar <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #44
+        \startQuote #44
         \set autoBeaming = ##f
         \key re \minor \clef "alto" \time 3/4 \bar "|."
         sol'4 sol'4. sol'8 | sol'2( fad'4) | sol'2. |
@@ -724,10 +555,7 @@
         sol4 sol mib' | re'2( do'4) | si2. |
       } \addlyrics { gloi -- re nou -- vel -- le. }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -737,50 +565,34 @@
     \line { Mesure 11, haute-contre }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #11
+    { \startQuote #11
       \key re \minor \clef "soprano" \time 3/4
       sib'4 la'4. sib'8 |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #11
+    { \startQuote #11
       \key re \minor \clef "soprano" \time 3/4
       sib'8 la' la'4. sib'8 |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AADair mesure 29
   \excerpts-end \line { Mesure 29, taille }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #29
+    { \startQuote #29
       \key re \minor \clef "mezzosoprano" \time 3/4
       re'4 re'4. re'8 | si2. | \bar "|."
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score { 
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #29
+    { \startQuote #29
       \key re \minor \clef "mezzosoprano" \time 3/4
       re'4 re'4. do'8 | si2. | \bar "|."
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -791,29 +603,21 @@
   }
   \score {
     \new Staff {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #6
+      \startQuote #6
       \set autoBeaming = ##f
       \key re \minor \clef "varbaritone" \time 4/4 \partial 2.
       r8 do' do'8. do'16 sib8. la16 | sib8 sib
     } \addlyrics { Quel dieu les fait re -- naî -- tre }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new Staff {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #6
+      \startQuote #6
       \set autoBeaming = ##f
       \key re \minor \clef "varbaritone" \time 4/4 \partial 2.
       r8 do' do'4 do'8 sib16 la | sib8 sib
     } \addlyrics { Quel dieu les fait re -- naî -- tre }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAEtempsFlore mesures 26-27
   \excerpts-end \wordwrap { À partir de la mesure 26, le manuscrit comporte
@@ -822,8 +626,7 @@
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #26
+        \startQuote #26
         \set autoBeaming = ##f
         \key re \minor \clef "soprano" \time 2/2
         r2 r4 sib'8 re'' | sib'4 sib'8 sib' sol'4. sol'8 | do''2
@@ -839,8 +642,7 @@
     \new StaffGroupNoBar <<
       \new Staff {
         \once \override Score.TimeSignature #'stencil = ##f
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #26
+        \startQuote #26
         \set autoBeaming = ##f
         \key re \minor \clef "soprano" \time 2/2
         r2 sib'4. re''8 | sib'2 sib'4. sib'8 | sol'2. sol'4 | do''2
@@ -863,61 +665,44 @@
   }
   \score {
     \new Staff {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #56
+      \startQuote #56
       \set autoBeaming = ##f
       \key re \minor \clef "alto" \time 3/4
       fa'4 fa'4. fa'8 | fa'2. | re'4
     } \addlyrics { gloi -- re l'ap -- pel -- le }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new Staff {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #56
+      \startQuote #56
       \set autoBeaming = ##f
       \key re \minor \clef "alto" \time 3/4
       fa'4 fa' fa' | fa'2( mib'4) | re'4
     } \addlyrics { gloi -- re l'ap -- pel -- le }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAFtempsFloreChoeur taille, mesures 55-57
   \excerpts \line { Mesures 55-57, taille }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #55
+    { \startQuote #55
       \key re \minor \clef "mezzosoprano" \time 3/4
       mib'2 mib'4 | re' fa' sol' | fa'2 fa'4 | re'
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #55
+    { \startQuote #55
       \key re \minor \clef "mezzosoprano" \time 3/4
       re'4 fa' sol' | la' re'4. re'8 | mib'2 mib'4 | re'
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAFtempsFloreChoeur taille et quinte, mesures 66-68
   \excerpts \line { Mesures 66-68, taille et quinte }
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #66
+        \startQuote #66
         \key re \minor \clef "mezzosoprano" \time 3/4
         re'2 la4 | sib4 sol'4. fa'8 | mib'4 mib'4. mib'8 | re'2
       }
@@ -926,16 +711,12 @@
         la4 re'2 | re'4 sib4. sib8 | sol4 la4. la8 | la2
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #66
+        \startQuote #66
         \key re \minor \clef "mezzosoprano" \time 3/4
         re'2 do'4 | sib sol'4. sol'8 | mib'4 mib'4. mib'8 | re'2
       }
@@ -944,42 +725,30 @@
         re'2. | re'4 sib4. sib8 | sol4 la4. sib8 | la2
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAFtempsFloreChoeur quinte, mesure 74
   \excerpts \line { Mesure 74, quinte }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #74
+    { \startQuote #74
       \key re \minor \clef "alto" \time 3/4
       re'4 re'8 do' sib4 | re'2. |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #74
+    { \startQuote #74
       \key re \minor \clef "alto" \time 3/4
       re'4 re'8 do' sib sol | re'2. |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAFtempsFloreChoeur mesure 75
   \excerpts \wordwrap { Mesure 75, taille chantante et taille de violon }
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #75
+        \startQuote #75
         \set autoBeaming = ##f
         \key re \minor \clef "tenor" \time 3/4
         re'2. | si2. \bar "|."
@@ -989,16 +758,12 @@
         re'2 re'4 | si2. \bar "|."
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #75
+        \startQuote #75
         \set autoBeaming = ##f
         \key re \minor \clef "tenor" \time 3/4
         re'2( la4) | si2. \bar "|."
@@ -1008,39 +773,28 @@
         re'2 do'4 | si2. \bar "|."
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAFtempsFloreChoeur mesure 76
   \excerpts-end \wordwrap { Mesure 76, haute-contre chantante }
   \score {
     \new Staff {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #75
+      \startQuote #75
       \set autoBeaming = ##f
       \key re \minor \clef "alto" \time 3/4
       sol'4( fad'2) | fa'2. \bar "|."
     } \addlyrics { "- pel" -- le. }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \column {
     \score {
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #75
+        \startQuote #75
         \set autoBeaming = ##f
         \key re \minor \clef "alto" \time 3/4
         sol'4( fad'2) | sol'2. \bar "|."
       } \addlyrics { "- pel" -- le. }
-      \layout {
-        indent = 0
-        \context { \Staff \remove "Time_signature_engraver" }
-      }
+      \layout { \quoteLayout }
     }
     \line { \bold { Version retenue } (accord final en sol). }
   }
@@ -1052,51 +806,35 @@
     \line { Mesure 4, taille }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #4
+    { \startQuote #4
       \key sol \major \clef "mezzosoprano" \time 2/2
       re'4 mi' re'4. re'8 | si2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #4
+    { \startQuote #4
       \key sol \major \clef "mezzosoprano" \time 2/2
       re'4 mi' re'4. do'8 | si2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAGair dessus, mesure 7
   \excerpts \line { Mesure 7, dessus }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #7
+    { \startQuote #7
       \key sol \major \clef "french" \time 2/2
       fad''4 mi''8 re'' mi''4 re''8 do'' | re''4
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \column {
     \score {
-      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #7
+      { \startQuote #7
         \key sol \major \clef "french" \time 2/2
         fad''4 mi''8 re'' mi''4 re''8 dod'' | re''4
       }
-      \layout {
-        indent = 0
-        \context { \Staff \remove "Time_signature_engraver" }
-      }
+      \layout { \quoteLayout }
     }
     \wordwrap { \bold { Version retenue } (passage en ré majeur, do
       \super\tiny\sharp présent dans la partie de quinte) }
@@ -1104,98 +842,66 @@
   %% AAGair haute-contre mesure 9
   \excerpts \line { Mesure 9, haute-contre }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #9
+    { \startQuote #9
       \key sol \major \clef "soprano" \time 2/2
       re''2 sol'4 sol'8 la' | si'4
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #9
+    { \startQuote #9
       \key sol \major \clef "soprano" \time 2/2
       re''4 fad' sol' sol'8 la' | si'4
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAGair taille mesure 11-13
   \excerpts \line { Mesures 11-13, taille }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #11
+    { \startQuote #11
       \key sol \major \clef "mezzosoprano" \time 2/2
       re'8 do' si4 re' mi' | re' mi' mi' re' | \break re'4 mi' re'4. re'8 | si2
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #11
+    { \startQuote #11
       \key sol \major \clef "mezzosoprano" \time 2/2
       re'4 do'8 si re'4 mi' | re' mi' mi' re' | \break re' mi' re' do' | si2
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAGair taille mesure 18
   \excerpts \line { Mesure 18, taille }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #18
+    { \startQuote #18
       \key sol \major \clef "mezzosoprano" \time 2/2
       re'4 re' re' mi' |
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #18
+    { \startQuote #18
       \key sol \major \clef "mezzosoprano" \time 2/2
       re'4 mi' re' mi' |
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAGair taille mesure 22
   \excerpts-end \line { Mesure 22, taille }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #22
+    { \startQuote #22
       \key sol \major \clef "mezzosoprano" \time 2/2
       re'4 mi' re'4. re'8 | si2 \bar "|."
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #22
+    { \startQuote #22
       \key sol \major \clef "mezzosoprano" \time 2/2
       re'4 mi' re'4. do'8 | si2 \bar "|."
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1207,26 +913,18 @@
     \wordwrap { Mesure 17, basse continue }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #17
+    { \startQuote #17
       \key sol \major \clef "bass" \time 3/4
       sol,4 re re'8 do'
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #17
+    { \startQuote #17
       \key sol \major \clef "bass" \time 3/4
       sol,4 sol re'8 do'
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1239,20 +937,14 @@
     { \key do \major \clef "basse" \time 2/2
       do4. do'8 si4. do'8 |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \column {
     \score {
       { \key do \major \clef "basse" \time 2/2
         do1~ | do4. do'8 si4. do'8 |
       }
-      \layout {
-        indent = 0
-        \context { \Staff \remove "Time_signature_engraver" }
-      }
+      \layout { \quoteLayout }
     }
     \wordwrap { Un do ronde est indiqué à la basse continue avant le
       début du prelude. }
@@ -1260,26 +952,18 @@
   %% AAIair haute-contre mesure 8
   \excerpts-end \line { Mesure 8, haute-contre }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #8
+    { \startQuote #8
       \key sol \major \clef "soprano" \time 2/2
       la'2 do''4. do''8 | si'2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #8
+    { \startQuote #8
       \key sol \major \clef "soprano" \time 2/2
       la'2 do''4. re''8 | si'2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1291,27 +975,19 @@
   }
   \score {
     \new Staff {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #3
+      \startQuote #3
       \key do \major \clef "soprano" \time 3/4
       la'4 r16 la' la' la' la'8 do'' | fa'8.
     } \addlyrics { Temps, ne me dé -- ro -- bez point }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new Staff {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #3
+      \startQuote #3
       \key do \major \clef "soprano" \time 3/4
       la'4. la'8 la'16 la' la' do'' | fa'8.
     } \addlyrics { Temps, ne me dé -- ro -- bez point }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1324,8 +1000,7 @@
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #12
+        \startQuote #12
         \key do \major \clef "soprano" \time 2/2
         sol'2 r8 si' si'16 la' si' dod'' | re''8
       }
@@ -1333,16 +1008,12 @@
         sol,2 r8 sol sol sol | re
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #12
+        \startQuote #12
         \key do \major \clef "soprano" \time 2/2
         sol'2 r8 si' si'16 la' si' do'' | re''8
       }
@@ -1350,18 +1021,14 @@
         sol,2 sol,8 sol sol sol | re
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAKair  mesure 19
   \excerpts-end \wordwrap { Mesure 19, haute-contre, taille }
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #19
+        \startQuote #19
         \key do \major \clef "soprano" \time 2/2
         do''4. re''8 si'4. si'8 | do''2
       }
@@ -1370,16 +1037,12 @@
         fa'4 la' sol'4. sol'8 | mi'2
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new StaffGroup <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #19
+        \startQuote #19
         \key do \major \clef "soprano" \time 2/2
         do''4. do''8 si'4. do''8 | do''2
       }
@@ -1388,10 +1051,7 @@
         fa'4 la' sol'4. fa'8 | mi'2
       }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1404,9 +1064,7 @@
       \new StaffGroupNoBar <<
         \new Staff {
           \markUpBegin \mark \markup \smaller\smaller "Ballard 1689"
-          \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
-          \set Score.currentBarNumber = #1
-          \key sol \major \clef "french" \time 2/2
+          \startQuote #1 \key sol \major \clef "french" \time 2/2
           r4 r8 re'' re''4. re''8 |
           sol''4 sol''8 fad'' mi''4 fad''8 sol'' |
           fad''4. fad''8 sol''4. sol''8 |
@@ -1449,10 +1107,8 @@
   \score {
     \new StaffGroupNoBar <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
-        \set Score.currentBarNumber = #0
-        \key sol \major \clef "french" \time 2/2
         \markUpBegin \mark \markup \smaller\smaller "Manuscrit"
+        \startQuote #0 \key sol \major \clef "french" \time 2/2
         R1 |
         r4 r8 re'' re''4. re''8 |
         sol''4 sol''8 fad'' mi''4 fad''8 sol'' |
@@ -1498,8 +1154,7 @@
   \score {
     \new ChoirStaff <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #31
+        \startQuote #31
         \key sol \major \clef "soprano" \time 3/4
         \set autoBeaming = ##f
         r2 re''8.^\markup\character "Flore" re''16 |
@@ -1512,16 +1167,12 @@
         do''4 do''4. do''8 | la'2.*1/3
       } \addlyrics { Ren -- dons- nous, s'il se peut, }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new ChoirStaff <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #31
+        \startQuote #31
         \key sol \major \clef "soprano" \time 3/4
         \set autoBeaming = ##f
         r2 re''8.^\markup\character "Melpomène" re''16 |
@@ -1534,16 +1185,12 @@
         do''4 do''4. do''8 | la'2.*1/3
       } \addlyrics { Ren -- dons- nous, s'il se peut, }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AALirisMelpomeneFloreChoeur taille mesures 44-50
   \excerpts \line { Mesures 44-50, taille }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #44
+    { \startQuote #44
       \key sol \major \clef "mezzosoprano" \time 2/2
       r2 sol'4. sol'8 |
       sol'4 sol'8 sol' la'4. la'8 | \break
@@ -1553,14 +1200,10 @@
       la'2 mi'4. mi'8 |
       re'2 r |
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #44
+    { \startQuote #44
       \key sol \major \clef "mezzosoprano" \time 2/2
       r2 sol'4. sol'8 |
       sol'4 mi'8 mi' mi'4. mi'8 | \break
@@ -1570,34 +1213,23 @@
       la'2 la'4. la'8 |
       la'2 r
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AALirisMelpomeneFloreChoeur haute-contre mesure 47
   \excerpts-end \line { Mesure 47, haute-contre }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #47
+    { \startQuote #47
       \key sol \major \clef "soprano" \time 2/2
       re''2 do''4. do''8 | si'2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #47
+    { \startQuote #47
       \key sol \major \clef "soprano" \time 2/2
       re''2 do''4 si'8 do'' | si'2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1608,80 +1240,56 @@
   }
   \score {
     {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #8
+      \startQuote #8
       \key sol \major \clef "mezzosoprano" \time 3/4
       re'4 si2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #8
+      \startQuote #8
       \key sol \major \clef "mezzosoprano" \time 3/4
       re'4 la2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAMair  mesure 17
   \excerpts \wordwrap { Mesures 17-21, taille }
   \score {
     {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #17
+      \startQuote #17
       \key sol \major \clef "mezzosoprano" \time 3/4
       re'4 re'4. re'8 | si2. |\break
       mi'4 mi' mi' | re'4 la2 | si2 si4 |
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #17
+      \startQuote #17
       \key sol \major \clef "mezzosoprano" \time 3/4
       re'4 re'4. do'8 | si2. |\break
       mi'8 re' mi' fad' mi'4 | re' re'2 | re'2 si4 |
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% AAMair  mesure 19
   \excerpts-end \wordwrap { Mesures 19-22, quinte }
   \score {
     {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #19
+      \startQuote #19
       \key sol \major \clef "alto" \time 3/4
       sol4 sol sol | re'4 re'2 | re'2 re'4 | do'4 sol la |
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     {
-      \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #19
+      \startQuote #19
       \key sol \major \clef "alto" \time 3/4
       do'4 do' mi' | la4 re'2 | sol2 sol4 | sol2 la4 |
     }
-    \layout {
-      indent = 0 ragged-right = ##t
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
 }

@@ -17,122 +17,89 @@
   \column {
     \fill-line { \line \bold { Ballard 1689 } }
     \score {
-      << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-          \set Score.currentBarNumber = #7 \time 3/4
+      << { \startQuote #7 \time 3/4
           \set autoBeaming = ##f
           \key re \minor \clef "alto"
           r4 r8 re'16 do' si8 si16 si | do'4
         } \addlyrics { Vous de -- vez a -- vec moy }
       >>
-      \layout {
-        indent = 0
-        \context { \Staff \remove "Time_signature_engraver" }
-      }
+      \layout { \quoteLayout }
     }
   }
   \column {
     \fill-line { \line \bold { Manuscrit } }
     \score {
-      << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-          \set Score.currentBarNumber = #7 \time 3/4
+      << { \startQuote #7 \time 3/4
           \set autoBeaming = ##f
           \key re \minor \clef "alto"
           r4 r8 re'16 do' si8 si16 do' | do'4
         } \addlyrics { Vous de -- vez a -- vec moy }
       >>
-      \layout {
-        indent = 0
-        \context { \Staff \remove "Time_signature_engraver" }
-      }
+      \layout { \quoteLayout }
     }
   }
   %% DBAatysIdasDoris mesure 17
   \excerpts \line { Mesure 17, basse continue }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #17 \time 4/4
+    { \startQuote #17 \time 4/4
       \key re \minor \clef "bass"
       mib2 do | re
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #17 \time 4/4
+    { \startQuote #17 \time 4/4
       \key re \minor \clef "bass"
       mi2 do | re
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DBAatysIdasDoris mesure 18
   \excerpts \line { Mesure 18, Atys }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #18 \time 4/4
+    << { \startQuote #18 \time 4/4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         r4 r8 re' re'8. re'16 re'8 mib' | fa'4
       } \addlyrics { Qui peut la dé -- ga -- ger }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #18 \time 4/4
+    << { \startQuote #18 \time 4/4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         r4 r8 re' re'8. re'16 re'8 mi' | fa'4
       } \addlyrics { Qui peut la dé -- ga -- ger }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DBAatysIdasDoris mesure 26
   \excerpts \line { Mesure 26, Atys }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #26 \time 2/2
+    << { \startQuote #26 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         si8. re'16 re'8 mib' mib'4( re'8.) do'16 | do'4
       } \addlyrics { -rer de son di -- vin se -- cours, }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #26 \time 4/4
+    << { \startQuote #26 \time 4/4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         si8. re'16 re'8 mib'16 mib'16( re'4.) do'8 | do'4
       } \addlyrics { -rer de son di -- vin se -- cours, }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DBAatysIdasDoris mesure 45
   \excerpts \line { Mesure 45, Doris }
   \score {
     \new StaffGroupNoBar <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #45 \time 3/4
+        \startQuote #45 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "soprano"
         sib'4 si'4. si'8 | do''4.
@@ -143,215 +110,152 @@
         \figuremode { <_->4 <_!>2 <6> }
       >>
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #45 \time 3/4
+    << { \startQuote #45 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "soprano"
         si'4 si'4. si'8 | do''4.
       } \addlyrics { Il faut sou -- vent }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DBAatysIdasDoris mesure 50
   \excerpts \line { Mesure 50, Idas }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #50 \time 3/4
+    << { \startQuote #50 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "bass"
         mib4 mib4. mib8 | re2 re4 |
       } \addlyrics { peu d'in -- no -- cen -- ce }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #50 \time 3/4
+    << { \startQuote #50 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "bass"
         mib4 mib( re8) mib | re2 re4 |
       } \addlyrics { peu d'in -- no -- cen -- ce }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DBAatysIdasDoris mesure 54
   \excerpts \line { Mesure 54, Doris }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #54 \time 3/4
+    << { \startQuote #54 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "soprano"
         re''4 sib'4. sib'8 | la'2
       } \addlyrics { -ve -- nir heu -- reux }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #54 \time 3/4
+    << { \startQuote #54 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "soprano"
         re''4 sib'4.( la'16) sib' | la'2
       } \addlyrics { -ve -- nir heu -- reux }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DBAatysIdasDoris mesure 56
   \excerpts \line { Mesures 56-59, basse continue }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #56 \time 3/4
+    { \startQuote #56 \time 3/4
       \key re \minor \clef "bass"
       do'2 do'4 | re' mib' do' | re' re2 | sol sol4 |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #56 \time 3/4
+    { \startQuote #56 \time 3/4
       \key re \minor \clef "bass"
       do4 do2 | re4 mib do | re re,2 | sol, sol,4 |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DBAatysIdasDoris mesure 60
   \excerpts \line { Mesures 60-61, Idas }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #60 \time 3/4
+    << { \startQuote #60 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "bass"
         re2 mib4 | do re2 | sol,4
       } \addlyrics { peu d'in -- no -- cen -- ce }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #60 \time 3/4
+    << { \startQuote #60 \time 3/4
         \set autoBeaming = ##f
         \key re \minor \clef "bass"
         re mib do | re( re,2) | sol,4
       } \addlyrics { peu d'in -- no -- cen -- ce }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DBAatysIdasDoris mesure 67
   \excerpts \line { Mesure 67, Atys }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-        \set Score.currentBarNumber = #67 \time 3/4 \partial 4
+    << { \startQuote #67 \time 3/4 \partial 4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         r8 re'16 re' | si8 do'16 re' mib'8.
       } \addlyrics { Je ne puis me ré -- soudre }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #t #t) \bar ""
-        \set Score.currentBarNumber = #67 \time 3/4 \partial 4
+    << { \startQuote #67 \time 3/4 \partial 4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         r8 re'16 re' | do'8 do'16 re' mib'8.
       } \addlyrics { Je ne puis me ré -- soudre }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DBAatysIdasDoris mesure 76
   \excerpts \line { Mesure 76, Doris }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #76 \time 2/2
+    << { \startQuote #76 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "soprano"
         la'4 sib' sol'2 | fad'2.
       } \addlyrics { -con -- nais -- can -- ce }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #76 \time 2/2
+    << { \startQuote #76 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "soprano"
         la'4 sib' sol'4.( la'8) | fad'2.
       } \addlyrics { -con -- nais -- can -- ce }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DBAatysIdasDoris mesure 79
   \excerpts-end \line { Mesure 79, Atys }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #79 \time 2/2
+    << { \startQuote #79 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         sol'4. sol'8 sol'4 fa' | sol'2 sol'4.
       } \addlyrics { -por -- te la ba -- lan -- ce }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #79 \time 2/2
+    << { \startQuote #79 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         sol'4. sol'8 sol'4 fad' | sol'2 sol'4.
       } \addlyrics { -por -- te la ba -- lan -- ce }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% DCAatys mesure 25
@@ -360,30 +264,22 @@
     \line { Mesure 25, Atys }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #25 \time 4/4
+    << { \startQuote #25 \time 4/4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         mib'4 mib'8. fa'16 sol'8 mib'16 sol' mib'8 mib'16 re' | re'4 re'
       } \addlyrics { -mour mal -- gré toy me con -- traint à me ren -- dre, }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #25 \time 4/4
+    << { \startQuote #25 \time 4/4
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         mib'4 mib'8 fa' sol' sol'16 fa' mib'8\trill mib'16 re' | re'4 re'
       } \addlyrics { -mour mal -- gré toy me con -- traint à me ren -- dre, }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% DDAsommeil mesure 1
@@ -392,125 +288,85 @@
     \line { Mesure 1, quinte }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #1 \time 2/2
+    { \startQuote #1 \time 2/2
       \key re \minor \clef "alto"
       sol4( fad) sol( la) | sib
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #1 \time 2/2
+    { \startQuote #1 \time 2/2
       \key re \minor \clef "alto"
       sol4( fa) sol( la) | sib
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 10
   \excerpts \line { Mesure 10, flûte I }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #10 \time 2/2
+    { \startQuote #10 \time 2/2
       \key re \minor \clef "french"
       mi''4. mi''8 mi''4. re''8 | re''1 |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #10 \time 2/2
+    { \startQuote #10 \time 2/2
       \key re \minor \clef "french"
       fa''4. mi''8 mi''4. re''8 | re''1 |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 12
   \excerpts \line { Mesure 12, basse continue }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #12 \time 2/2
+    { \startQuote #12 \time 2/2
       \key re \minor \clef "bass"
       sol4( lab) sol( fa) | mib
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #12 \time 2/2
+    { \startQuote #12 \time 2/2
       \key re \minor \clef "bass"
       sol4( la) sol( fa) | mib
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 14
   \excerpts \line { Mesure 14, taille }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #14 \time 2/2
+    { \startQuote #14 \time 2/2
       \key re \minor \clef "mezzosoprano"
       do'2 fa'4 fa' | re'
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \column {
     \score {
-      { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #14 \time 2/2
+      { \startQuote #14 \time 2/2
         \key re \minor \clef "mezzosoprano"
         do'2 fa'4 mi' | re'
       }
-      \layout {
-        indent = 0
-        \context { \Staff \remove "Time_signature_engraver" }
-      }
+      \layout { \quoteLayout }
     }
     \wordwrap { Le \italic mi devrait probablement être bémol. }
   }
   %% DDAsommeil mesure 21
   \excerpts \line { Mesure 21, taille }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #21 \time 2/2
+    { \startQuote #21 \time 2/2
       \key re \minor \clef "mezzosoprano"
       R1 | \afterGrace mib'1( fa'16) |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #21 \time 2/2
+    { \startQuote #21 \time 2/2
       \key re \minor \clef "mezzosoprano"
       \afterGrace mib'1( fa'16) | mib'1
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \paragraph {
       Comme les hautes-contre, quintes et basses reprennent sur la
@@ -521,126 +377,86 @@
   %% DDAsommeil mesure 40
   \excerpts \line { Mesures 40-42, dessus }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #40 \time 2/2
+    { \startQuote #40 \time 2/2
       \key re \minor \clef "french"
       re''4( mi'') fa''( sol'') |
       mi''( fad'') sol''( la'') |
       fad''( sol'') la''( sib'') |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #40 \time 2/2
+    { \startQuote #40 \time 2/2
       \key re \minor \clef "french"
       re''4( mib'') fa''( sol'') |
       mi''( fa'') sol'' la'' |
       fa'' sol'' la'' sib'' |
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 49
   \excerpts \line { Mesure 49, haute-contre }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #49 \time 2/2
+    { \startQuote #49 \time 2/2
       \key re \minor \clef "soprano"
       sol'1 | sol'2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #49 \time 2/2
+    { \startQuote #49 \time 2/2
       \key re \minor \clef "soprano"
       \afterGrace sol'1( la'8) | sol'2
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 49
   \excerpts \line { Mesure 49, basse continue }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #49 \time 2/2
+    { \startQuote #49 \time 2/2
       \key re \minor \clef "bass"
       sib4( la) sol( fa) | mib
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #49 \time 2/2
+    { \startQuote #49 \time 2/2
       \key re \minor \clef "bass"
       sib4 la sol fa8 fa, | mib4
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 61
   \excerpts \line { Mesure 61, basse continue }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #61 \time 2/2
+    { \startQuote #61 \time 2/2
       \key re \minor \clef "bass"
       sol4( fad) sol( sol,) | re
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #61 \time 2/2
+    { \startQuote #61 \time 2/2
       \key re \minor \clef "bass"
       sol4( fa) sol( sol,) | re
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 65
   \excerpts \line { Mesure 65, basse continue }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #65 \time 2/2
+    { \startQuote #65 \time 2/2
       \key re \minor \clef "bass"
       re4( do) sib,( sol,) | re
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #65 \time 2/2
+    { \startQuote #65 \time 2/2
       \key re \minor \clef "bass"
       re4 do sib, la, | re
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 70
   \column {
@@ -653,58 +469,41 @@
   %% DDAsommeil mesure 71
   \excerpts \line { Mesure 71, basse continue }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #71 \time 2/2
+    { \startQuote #71 \time 2/2
       \key re \minor \clef "bass"
       fad4( mi) fa( re) | mib
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #71 \time 2/2
+    { \startQuote #71 \time 2/2
       \key re \minor \clef "bass"
       fad4 mi fad! re | mib
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 85
   \excerpts \line { Mesure 85, basse continue }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #85 \time 2/2
+    { \startQuote #85 \time 2/2
       \key re \minor \clef "bass"
       mi( re) mi( do) | fa
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #85 \time 2/2
+    { \startQuote #85 \time 2/2
       \key re \minor \clef "bass"
       mib!( re) mib!( do) | fa
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 99
   \excerpts \line { Mesure 99, Morphée }
   \score {
     \new StaffGroupNoBar <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #99 \time 2/2
+        \startQuote #99 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         fad'4. fad'8 fad'4. fad'8 | sol'2.*1/3
@@ -715,16 +514,12 @@
         \figuremode { <_+>1 <6>4 }
       >>
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
     \new StaffGroupNoBar <<
       \new Staff {
-        \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #99 \time 2/2
+        \startQuote #99 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "alto"
         fa'4. fa'8 fad'4. fad'8 | sol'2.*1/3
@@ -735,10 +530,7 @@
         \figuremode { <_!>2 <_+> <6>4 }
       >>
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% Mesure 102
   \null\wordwrap { Mesures 102-104 : le manuscrit ne comporte pas ces mesures
@@ -746,26 +538,18 @@
   %% DDAsommeil mesure 116
   \excerpts \line { Mesure 116, flûte II }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #116 \time 2/2
+    { \startQuote #116 \time 2/2
       \key re \minor \clef "french"
       mib''4. re''8 do''2 | re''4
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-      \set Score.currentBarNumber = #116 \time 2/2
+    { \startQuote #116 \time 2/2
       \key re \minor \clef "french"
       mib''4. re''8 do''4. sib'16 do'' | re''4
     }
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% Mesure 134
   \column {
@@ -780,141 +564,141 @@
   %% DDAsommeil mesure 152
   \excerpts \line { Mesure 152, Phantase/Morphée }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #152 \time 2/2
+    << { \startQuote #152 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "tenor" sib4. sib8 la4. la8 | si4.
       } \addlyrics { -pos est "doux !" Dor -- mons }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #152 \time 2/2
+    << { \startQuote #152 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "tenor" sib4( la8) sib la4. la8 | si4.
       } \addlyrics { "[-pos" est "doux !" Dor -- "mons]" }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 154
   \excerpts \line { Mesure 154, Morphée/Le Sommeil }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #154 \time 2/2
+    << { \startQuote #154 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "alto" fa'4 fa' fa' re' | mib'2.
       } \addlyrics { -pos, que le re -- pos }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #154 \time 2/2
+    << { \startQuote #154 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "alto" fa'4 fa' fa' mib'8[ re'] | mib'2.
       } \addlyrics { -pos, que le re -- pos }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 155
   \excerpts \line { Mesure 155, Phantase/Morphée }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #155 \time 2/2
+    << { \startQuote #155 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "tenor" re'4 do' do'2 | si4
       } \addlyrics { -mons, dor -- mons tous, }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #155 \time 2/2
+    << { \startQuote #155 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "tenor" re'4 do' do'8[( sib] do'4) | si4
       } \addlyrics { "[-mons," dor -- mons "tous,]" }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 159
   \excerpts \line { Mesure 159, Phantase/Morphée }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #158 \time 2/2
+    << { \startQuote #158 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "tenor"
         re'4 do' do'2~ | do'( si) | do'2.
       } \addlyrics { -mons, dor -- mons __ tous, }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #158 \time 2/2
+    << { \startQuote #158 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "tenor"
         re'4 do' do'2~ | do'4 si si2 | do'2.
       } \addlyrics { "[-mons," dor -- mons, dor -- mons "tous,]" }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   %% DDAsommeil mesure 177
   \excerpts \line { Mesure 177, Phobetor }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #177 \time 2/2
+    << { \startQuote #177 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "bass"
         mib4. mib8 mib4. mib8 | re1 |
       } \addlyrics { "ah !" que le re -- pos }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \score {
-    << { \override Score.BarNumber #'break-visibility = #'#(#f #f #t) \bar ""
-        \set Score.currentBarNumber = #177 \time 2/2
+    << { \startQuote #177 \time 2/2
         \set autoBeaming = ##f
         \key re \minor \clef "bass"
         mib4. mib8 mib4( re8) mib8 | re1 |
       } \addlyrics { "ah !" que le re -- pos }
     >>
-    \layout {
-      indent = 0
-      \context { \Staff \remove "Time_signature_engraver" }
-    }
+    \layout { \quoteLayout }
   }
   \column {
     \null\paragraph {
       Le manuscrit ne comporte pas d'indication de reprise du prélude du sommeil.
     }
     \null\sep
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DDBsommeil mesure 21
+  \excerpts \column {
+    \line { \bold { Morphée, Phantase, Phobetor } (page \page-refIII #'DDBsommeil ) }
+    \line { Mesure 21, Morphée, Phantase, Phobetor }
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff \with { autoBeaming = ##f instrumentName = "Morphée" } {
+        \startQuote #21 \time 3/2 \key re \minor \clef "alto"
+        fad'4 sol' la'4. la'8 re'4. mi'8 | fad'2
+      } \addlyrics { -man -- de la fi -- dé -- li -- té }
+      \new Staff \with { autoBeaming = ##f instrumentName = "Phantase" } {
+        \key re \minor \clef "tenor"
+        do'4 do' do'4. re'8 sib4. sib8 | la2
+      } \addlyrics { -man -- de la fi -- dé -- li -- té }
+      \new Staff \with { autoBeaming = ##f instrumentName = "Phobetor" } {
+        \key re \minor \clef "bass"
+        la4 sol fad4. fad8 sol4. sol8 | re2
+      } \addlyrics { -man -- de la fi -- dé -- li -- té }
+    >>
+    \layout { \quoteLayout indent = 2\cm }
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff \with { autoBeaming = ##f instrumentName = "Morphée" } {
+        \startQuote #21 \time 3/2 \key re \minor \clef "alto"
+        fa'?4 sol' la' la' re'4. mi'8 | fad'2
+      } \addlyrics { -man -- de la fi -- dé -- li -- té }
+      \new Staff \with { autoBeaming = ##f instrumentName = "Phobetor" } {
+        \key re \minor \clef "tenor"
+        do'4 do'4. do'8 re'4 sib( la8) sib | la2
+      } \addlyrics { -man -- de la fi -- dé -- li -- té }
+      \new Staff \with { autoBeaming = ##f instrumentName = "Phantase" } {
+        \key re \minor \clef "bass"
+        la4 sol fad4. fad8 sol4( fad8) sol | re2
+      } \addlyrics { -man -- de la fi -- dé -- li -- té }
+    >>
+    \layout { \quoteLayout indent = 2\cm }
   }
 }
