@@ -158,6 +158,16 @@ forceStemLength =
 
 shiftOnce = { \once \override NoteColumn #'horizontal-shift = #1 }
 
+shiftNote =
+#(define-music-function (parser location amount) (number?)
+   #{ \once \override NoteHead #'X-offset = #$amount
+      \once \override Stem #'X-offset = #$amount
+      \once \override Beam #'X-offset = #$amount #})
+
+shiftRest =
+#(define-music-function (parser location amount) (number?)
+   #{ \once \override Rest #'X-offset = #$amount #})
+
 %%%
 %%% Misc utilities
 %%%

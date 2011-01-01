@@ -41,6 +41,6 @@
   \italic { Que devant nous tout s'abaisse et tout tremble }
 } \reIncludeScore "CDDchoeur" "CDGchoeur"
 \noPageBreak
-\markup \large { On reprend l'entrée des zéphirs pour l'entr'acte (page \ref-refIII #'CDCzephirs .) }
+\markup \large { On reprend l'entrée des zéphirs pour l'entr'acte (page \page-refIII #'CDCzephirs .) }
 %\pieceTocTitle "Entr'acte" \reIncludeScore "CDCzephirs" "CDHzephirs"
 \actEnd "FIN DU SECOND ACTE"

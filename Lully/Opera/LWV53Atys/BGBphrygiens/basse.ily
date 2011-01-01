@@ -17,6 +17,4 @@ do'4 si8 la sold2 |
 la4 la8 sol fad2 |
 sol4. fa8 mi re do re |
 %{ mi4. fa8 %} mi4 fa sol4 sol, |
-% do8 re16 mi fa sol la si do'2 |
-do1 |
-
+<< do1 \\ \new CueVoice { \voiceTwo \shiftNote #1 do8 re16 mi fa sol la si do'2 } >> |

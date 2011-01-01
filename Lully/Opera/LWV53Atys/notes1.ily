@@ -946,12 +946,15 @@
     }
     \layout { \quoteLayout }
   }
-  \score {
-    { \startQuote #20 \time 2/2
-      \key do \major \clef "basse"
-      do8 re16 mi fa sol la si do'2 \bar "|."
+  \column {
+    \score {
+      { \startQuote #20 \time 2/2
+        \key do \major \clef "basse"
+        do8 re16 mi fa sol la si do'2 \bar "|."
+      }
+      \layout { \quoteLayout }
     }
-    \layout { \quoteLayout }
+    \wordwrap { La version du manuscrit est proposée dans cette édition, en petites notes. }
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BHAprelude

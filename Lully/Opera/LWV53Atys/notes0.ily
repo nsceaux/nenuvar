@@ -375,7 +375,7 @@
       \layout { indent = 0 }
     }
     \wordwrap { Les notes à l'octave supérieures sont également
-      présentes sur la manuscrit et raturées. }
+      présentes sur le manuscrit, et raturées. }
   }
   %% AACchoeur, mesure 7
   \excerpts \line { Mesure 7 }
@@ -1059,7 +1059,7 @@
     \line { \bold { Iris, Melpomène, Flore, chœur }
       (page \page-refIII #'AALirisMelpomeneFloreChoeur ) }
     %% AALirisMelpomeneFloreChoeur basse mesure 1
-    \line { Ritournelle }
+    \wordwrap { Ritournelle : la partie de deuxième dessus est différente. }
     \score {
       \new StaffGroupNoBar <<
         \new Staff {
