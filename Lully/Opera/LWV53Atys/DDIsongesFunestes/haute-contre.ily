@@ -9,7 +9,7 @@ re''2. re''4 do''2~ |
 do''4. re''8 do''2 do''4. do''8 |
 la'1. |
 la' |
-la'4 la'8 si' do''4. do''8 sib'4. sib'8 |
+la'4 la'8 si' do''4. do''8 sib'?4. sib'8 |
 sib'4. la'8 sol'4. sol'8 do''4. do''8 |
 la'4. fad'16 fad' fad'4 fad' fad' fad' |
 sol'4. si'16 si' si'4 si' si' si' |

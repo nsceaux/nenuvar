@@ -10,8 +10,8 @@
 
 % 135
 <_>1 <5 6>2 <_+>4..\bassFigureExtendersOn <_+>16\bassFigureExtendersOff <_>1
-<_+>4..\bassFigureExtendersOn <_+>16\bassFigureExtendersOff <_>1
-<_+>1\bassFigureExtendersOn <_+>4 <_+>\bassFigureExtendersOff
+<_!>4..\bassFigureExtendersOn <_!>16\bassFigureExtendersOff <_>1
+<_!>1\bassFigureExtendersOn <_!>4 <_!>\bassFigureExtendersOff
 
 <_>1.*2 <_>1 <5 6>2
 

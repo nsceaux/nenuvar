@@ -889,7 +889,7 @@
   \column {
     \null\line { \bold { Chœur des songes funestes :
         \italic { L'amour qu'on outrage se transforme en rage } }
-      (page \page-refIII #'DDGsongesFunestes ) }
+      (page \page-refIII #'DDHchoeur ) }
     \wordwrap { Dans le manuscrit, la partie de basse continue contient
       d'un bout à l'autre des rythmes différents. }
     \score {
@@ -945,7 +945,7 @@
     \layout { \quoteLayout }
   }
   %% mesure 19
-  \excerpts \line { Mesure 19, haute-contre }
+  \excerpts-end \line { Mesure 19, haute-contre }
   \score {
     <<
       { \startQuote #19 \time 3/2 \key sol \minor \clef "alto"
@@ -960,6 +960,67 @@
         lab'1 lab'2 |
       } \addlyrics { trem -- ble, }
     >>
+    \layout { \quoteLayout }
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DDIsongesFunestes mesure 7
+  \excerpts \column {
+    \line { \bold { Deuxième air des songes funestes }
+      (page \page-refIII #'DDIsongesFunestes ) }
+    \line { Mesures 7-8, dessus }
+  }
+  \score {
+    { \startQuote #7 \time 3/2 \key sol \minor \clef "french"
+      sib''2. r8 la'' la''2~ | la''4. sol''8 sol''2. r8 la''
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #7 \time 3/2 \key re \minor \clef "french"
+      sib''2. r8 sib'' la''2 | r4 r8 sol''8 sol''2. r8 la''
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 9
+  \excerpts \line { Mesure 9, haute-contre }
+  \score {
+    { \startQuote #9 \time 3/2 \key sol \minor \clef "soprano"
+      do''4. re''8 do''2 do''4. do''8 | la'1. | \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #9 \time 3/2 \key re \minor \clef "soprano"
+      do''4. re''8 do''2 do''4. sib'8 | la'1. | \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 23
+  \excerpts \line { Mesure 23, taille }
+  \score {
+    { \startQuote #23 \time 3/2 \key sol \minor \clef "mezzosoprano"
+      sol'4 fa' mib'8 fa' sol'4 fa'4. fa'8 | re'1. | \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #23 \time 3/2 \key re \minor \clef "mezzosoprano"
+      do'8 sib la4 la re'4. re'8 mi' fa' | fa'1. | \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 24
+  \excerpts-end \line { Mesure 24, basses }
+  \score {
+    { \startQuote #24 \time 3/2 \key sol \minor \clef "bass"
+      sib,2. sib,8 do re4 re8 sib, | \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #24 \time 3/2 \key re \minor \clef "bass"
+      sib,2. sib,8 do re4 re8 mib | \bar ":|"
+    }
     \layout { \quoteLayout }
   }
 }
