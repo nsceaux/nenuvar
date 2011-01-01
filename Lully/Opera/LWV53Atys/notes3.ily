@@ -764,4 +764,61 @@
     }
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DDFfuneste mesure 2
+  \excerpts \column {
+    \line { \bold { Un songe funeste : \italic { Garde-toi d'offenser un amour glorieux } }
+      (page \page-refIII #'DDFfuneste ) }
+    \line { Mesure 2, un songe funeste }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #2 \time 4/4 \key sol \minor \clef "bass"
+        fa4 fa8. sol16 lab4 lab8. sol16 | sol4
+      } \addlyrics { -ser un a -- mour glo -- ri -- eux, }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #2 \time 4/4 \key re \minor \clef "bass"
+        fa4 fa8. sol16 lab4 lab8. sib16 | sol4
+      } \addlyrics { -ser un a -- mour glo -- ri -- eux, }
+    >>
+    \layout { \quoteLayout }
+  }
+  \excerpts \line { Mesure 11, basse continue }
+  \score {
+    { \startQuote #11 \time 4/4 \key sol \minor \clef "bass"
+      fa4. mib?8 re4 la, | sib,4.
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #11 \time 4/4 \key re \minor \clef "bass"
+      fa4. mi?8 re4 la, | sib,4.
+    }
+    \layout { \quoteLayout }
+  }
+  \excerpts-end \line { Mesure 14, un songe funeste }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #14 \time 4/4 \key sol \minor \clef "bass"
+        la4 la8 fa16 fa sib4 sib8 la | sib1 \bar "|."
+      } \addlyrics { -fen -- ce un a -- mour tout puis -- sant. }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \startQuote #14 \time 4/4 \key re \minor \clef "bass"
+        la4 la8 la16 fa sib4 sib8 la | sib1 \bar "|."
+      } \addlyrics { -fen -- ce un a -- mour tout puis -- sant. }
+    >>
+    \layout { \quoteLayout }
+  }
 }
