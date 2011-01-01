@@ -884,4 +884,82 @@
     }
     \wordwrap { Les autres parties de violons jouent \italic si \flat - \italic fa. }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DDHchoeur mesure 8
+  \column {
+    \null\line { \bold { Chœur des songes funestes :
+        \italic { L'amour qu'on outrage se transforme en rage } }
+      (page \page-refIII #'DDGsongesFunestes ) }
+    \wordwrap { Dans le manuscrit, la partie de basse continue contient
+      d'un bout à l'autre des rythmes différents. }
+    \score {
+      \new Staff <<
+        { \key re \minor \time 3/2 \clef "bass"
+          sib,2. sib,4 sib, sib, | mib1. | do | re2 do4 re re2 |
+          sol,2. sol | mib1. | fa2. fa4 re2 | mib2 mib4 do fa fa, |
+          sib,1. | sib2 sib sib | fa2 fa fa4 re | mib1. |
+          sib2 sib sib, | fa1. | do | sol, |
+          sol2 sol sol | do1. | fa | do' |
+          fa1 fa4 do | fa1. | do2 do do | sol1. |
+          la | sib | mib2. do4 fa fa, | sib,2 r1 \bar "|." }
+        \figuremode { <_>1.*2 <7>2 <6>1 <_>1 <4>4 <3> <_->2. <_-> <_>1.*9
+          <_->1. <_> <_-> <_-> <_>1.*4 <_->1. <_-> }
+      >>
+      \layout { indent = 5\mm }
+    }
+  }
+  %% mesure 8
+  \excerpts \line { Mesure 8, haute-contre }
+  \score {
+    <<
+      { \startQuote #8 \time 3/2 \key sol \minor \clef "alto"
+        mib'4 mib' mib' sol' fa'4. fa'8 | fa'1. |
+      } \addlyrics { pas aux plus char -- mants ap -- pas. }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #8 \time 3/2 \key re \minor \clef "alto"
+        mib'4 mib' mib' la' fa'4. fa'8 | fa'1. |
+      } \addlyrics { pas aux plus char -- mants ap -- pas. }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 18
+  \excerpts \line { Mesure 18, taille I }
+  \score {
+    <<
+      { \startQuote #19 \time 3/2 \key sol \minor \clef "tenor"
+        mi'2 mi' r |
+      } \addlyrics { -el -- le, }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #19 \time 3/2 \key re \minor \clef "tenor"
+        mib'2 mib' r |
+      } \addlyrics { -el -- le, }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 19
+  \excerpts \line { Mesure 19, haute-contre }
+  \score {
+    <<
+      { \startQuote #19 \time 3/2 \key sol \minor \clef "alto"
+        la'1 la'2 |
+      } \addlyrics { trem -- ble, }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #19 \time 3/2 \key re \minor \clef "alto"
+        lab'1 lab'2 |
+      } \addlyrics { trem -- ble, }
+    >>
+    \layout { \quoteLayout }
+  }
 }
