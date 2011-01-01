@@ -730,7 +730,7 @@
       sol'4 sol'4.( fa'16 sol') | sol'2. \bar ":|" }
       \layout { \quoteLayout }
     }
-    \line { Les autres parties jouent un accord de \italic ré majeur. }
+    \wordwrap { Les autres parties jouent un accord de \italic ré majeur. }
   }
   %% mesure 24
   \excerpts-end \line { Mesure 24, haute-contre }
@@ -820,5 +820,68 @@
       } \addlyrics { -fen -- ce un a -- mour tout puis -- sant. }
     >>
     \layout { \quoteLayout }
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DDGsongesFunestes mesure 8
+  \excerpts \column {
+    \line { \bold { Entrée des songes funestes } (page \page-refIII #'DDGsongesFunestes ) }
+    \line { Mesure 8, taille }
+  }
+  \score {
+    { \startQuote #8 \time 2/2 \key sol \minor \clef "mezzosoprano"
+      sib4. re'8 re'4. do'8 | sib2.
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #8 \time 2/2 \key re \minor \clef "mezzosoprano"
+      do'4. re'8 re'4. do'8 | sib2.
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 18-20
+  \excerpts \line { Mesures 18-20, taille }
+  \score {
+    { \startQuote #18 \time 2/2 \key sol \minor \clef "mezzosoprano"
+      lab'2. fa'4 | re'4. re'8 re'4. mib'8 | fa'4 sol'2 sol'4 |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #18 \time 2/2 \key re \minor \clef "mezzosoprano"
+      lab'2. sol'4 | mi'4. mi'8 mi'4. fa'8 | sol'4 sol'2 sol'4 |
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 22
+  \excerpts \line { Mesure 22, taille }
+  \score {
+    { \startQuote #22 \time 2/2 \key sol \minor \clef "mezzosoprano"
+      mi'4 r16 mi' fa' sol' la'4. la'8 |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #22 \time 2/2 \key re \minor \clef "mezzosoprano"
+      fad'4 r16 mi' fa'? sol' la'4. la'8 |
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 31
+  \excerpts-end \line { Mesure 31, taille }
+  \score {
+    { \startQuote #30 \time 2/2 \key sol \minor \clef "mezzosoprano"
+      fa'4 fa' fa'4. mib'8 | re'1 |
+    }
+    \layout { \quoteLayout }
+  }
+  \column {
+    \score {
+      { \startQuote #3 \time 2/2 \key re \minor \clef "mezzosoprano"
+        fa'4 fa' fa'4. mib'8 | mi'1 |
+      }
+      \layout { \quoteLayout }
+    }
+    \wordwrap { Les autres parties de violons jouent \italic si \flat - \italic fa. }
   }
 }
