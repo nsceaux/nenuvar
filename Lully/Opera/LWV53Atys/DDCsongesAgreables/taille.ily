@@ -1,7 +1,7 @@
 \clef "taille" r4 sib' la' |
 sol' fad' sol' |
 la'2. |
-re'4 fa' re' |
+re'4 fa'! re' |
 sib fa' do' |
 re'2 fa'8 sol' |
 la'2 sol'4 |

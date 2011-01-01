@@ -663,7 +663,7 @@
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% DDBsommeil mesure 21
-  \excerpts \column {
+  \excerpts-end \column {
     \line { \bold { Morphée, Phantase, Phobetor } (page \page-refIII #'DDBsommeil ) }
     \line { Mesure 21, Morphée, Phantase, Phobetor }
   }
@@ -682,7 +682,7 @@
         la4 sol fad4. fad8 sol4. sol8 | re2
       } \addlyrics { -man -- de la fi -- dé -- li -- té }
     >>
-    \layout { \quoteLayout indent = 2\cm }
+    \layout { \quoteLayout indent = 15\mm }
   }
   \score {
     \new ChoirStaff <<
@@ -699,6 +699,51 @@
         la4 sol fad4. fad8 sol4( fad8) sol | re2
       } \addlyrics { -man -- de la fi -- dé -- li -- té }
     >>
-    \layout { \quoteLayout indent = 2\cm }
+    \layout { \quoteLayout indent = 15\mm }
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% DDCsongesAgreables mesure 7
+  \excerpts \column {
+    \line { \bold { Entrée des songes agréables } (page \page-refIII #'DDCsongesAgreables ) }
+    \line { Mesure 7, quinte }
+  }
+  \score {
+    { \startQuote #7 \time 3/4 \key re \minor \clef "alto"
+      do'2 sol'8 fa' | mib'4 }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #7 \time 3/4 \key re \minor \clef "alto"
+      re'2 sol'8 fa' | mib'4 }
+    \layout { \quoteLayout }
+  }
+  %% mesure 10
+  \excerpts \line { Mesure 10, taille }
+  \score {
+    { \startQuote #9 \time 3/4 \key re \minor \clef "mezzosoprano"
+      sol'4 sol'4.( fa'16 sol') | la'2. \bar ":|" }
+    \layout { \quoteLayout }
+  }
+  \column {
+    \score {
+      { \startQuote #9 \time 3/4 \key re \minor \clef "mezzosoprano"
+      sol'4 sol'4.( fa'16 sol') | sol'2. \bar ":|" }
+      \layout { \quoteLayout }
+    }
+    \line { Les autres parties jouent un accord de \italic ré majeur. }
+  }
+  %% mesure 24
+  \excerpts-end \line { Mesure 24, haute-contre }
+  \score {
+    { \startQuote #24 \time 3/4 \key re \minor \clef "soprano"
+      sib'4 sib'4. do''8 | re''2
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #24 \time 3/4 \key re \minor \clef "soprano"
+      sib'4 re''4. re''8 | re''2
+    }
+    \layout { \quoteLayout }
   }
 }

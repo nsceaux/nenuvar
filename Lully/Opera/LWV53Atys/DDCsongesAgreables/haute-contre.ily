@@ -1,7 +1,7 @@
 \clef "haute-contre" r4 sol' fad' |
 sol' la' sib' |
 fad'2. |
-sol'4 fa' fa' |
+sol'4 fa'! fa' |
 sol' fa'4. fa'8 |
 fa'2 sib'4 |
 do''2 re''4 |
