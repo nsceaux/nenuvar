@@ -123,12 +123,12 @@
                                         (chain-assoc-get 'page:is-last-bookpart props #f))))
 		         (interpret-markup layout props (make-abs-fontsize-markup 12 arg))
 		         empty-stencil))
-      \fromproperty #'header:longcopyright
+      \abs-fontsize #10 \fromproperty #'header:longcopyright
     }
     \fill-line {
       %% put tagline on last page
       \on-the-fly #last-page
-      \fill-line { \fromproperty #'header:tagline }
+      \abs-fontsize #12 \fill-line { \fromproperty #'header:tagline }
     }
   }
   evenFooterMarkup = \markup \column {
@@ -143,7 +143,7 @@
     \fill-line {
       %% put tagline on last page
       \on-the-fly #last-page
-      \fill-line { \fromproperty #'header:tagline }
+      \abs-fontsize #12 \fill-line { \fromproperty #'header:tagline }
     }
   }
 
