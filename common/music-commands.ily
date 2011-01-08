@@ -204,6 +204,19 @@ midiTempo =
    #{ \set Score . tempoWholesPerMinute =
       #(ly:make-moment $(/ quater-nb-par-min 4) 1 0 1) #})
 
+%% figure extenders
+figExtOn = \bassFigureExtendersOn
+figExtOff = \bassFigureExtendersOff
+
+figPosOn = {
+  \bassFigureExtendersOn
+  \override BassFigureContinuation #'stencil = ##f
+}
+figPosOff = {
+  \bassFigureExtendersOff
+  \revert BassFigureContinuation #'stencil
+}
+
 %%%
 %%% On-demand hara-kiri
 %%%
@@ -312,3 +325,32 @@ found inside @var{music}."
                      (acons property value (ly:music-property event 'tweaks))))
              (ly:music-property music 'articulations))
    music)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Selection of version: urtext or modified
+origVersion =
+#(define-music-function (parser location music) (ly:music?)
+   (if (eqv? #t (ly:get-option 'ancient-style))
+       music
+       (make-music 'Music)))
+
+modVersion =
+#(define-music-function (parser location music) (ly:music?)
+   (if (not (eqv? #t (ly:get-option 'ancient-style)))
+       music
+       (make-music 'Music)))
+
+#(define-markup-command (orig-version layout props markp) (markup?)
+   (if (eqv? #t (ly:get-option 'ancient-style))
+       (interpret-markup layout props markp)
+       empty-stencil))
+
+#(define-markup-command (mod-version layout props markp) (markup?)
+   (if (not (eqv? #t (ly:get-option 'ancient-style)))
+       (interpret-markup layout props markp)
+       empty-stencil))
+
+#(define-markup-command (annotation layout props markp) (markup?)
+   (if (eqv? #t (ly:get-option 'ancient-style))
+       (interpret-markup layout props (markup #:with-color red markp))
+       empty-stencil))
