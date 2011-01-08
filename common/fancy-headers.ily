@@ -29,6 +29,17 @@
 %%% None
 %%%
 
+#(define-markup-command (page-header layout props text) (markup?)
+   (let* ((page-number (chain-assoc-get 'page:page-number props -1))
+          (page-number-markup (number->string page-number))
+          (text-markup (markup #:italic (or text ""))))
+     (if (or (= page-number 1) (not text))
+         empty-stencil
+         (interpret-markup layout props
+                           (if (odd? page-number)
+                               (markup #:fill-line (#:null text-markup page-number-markup))
+                               (markup #:fill-line (page-number-markup text-markup #:null)))))))
+
 #(define-public add-odd-page-header-text #f)
 #(define-public add-even-page-header-text #f)
 #(define-public in-music-add-odd-page-header-text #f)
@@ -76,13 +87,10 @@
                               (set! odd-page-header-table page-header-table)
                               (set! even-page-header-table page-header-table))))
                      (interpret-markup layout props
-                       (let* ((page-number (chain-assoc-get 'page:page-number props -1))
-                              (text (page-text page-number (if odd odd-page-header-table even-page-header-table)))
-                              (text-markup (markup #:italic (or text "")))
-                              (page-number-markup (number->string page-number)))
-                         (cond ((or (= 1 page-number) (not text)) (markup #:null))
-                               (odd (markup #:fill-line (#:null text-markup page-number-markup)))
-                               (else (markup #:fill-line (page-number-markup text-markup #:null))))))))))
+                                       (markup #:page-header (page-text (chain-assoc-get 'page:page-number props -1)
+                                                                        (if odd
+                                                                            odd-page-header-table
+                                                                            even-page-header-table))))))))
        (cons 0 0)
        (ly:stencil-extent (interpret-markup layout props "XXX") Y))))
   (set! add-odd-page-header-text
