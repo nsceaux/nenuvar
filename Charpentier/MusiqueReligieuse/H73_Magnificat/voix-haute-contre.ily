@@ -1,4 +1,4 @@
-\clef "vhaute-contre" R2.*24 |
+\clef "vhaute-contre" R2.*24 \origVersion \noHaraKiri |
 sib4 re'4. mi'8 |
 fa'2 re'8 re'16 re' |
 sol'4. fad'8 sol' la' |
@@ -42,13 +42,13 @@ fa'4 do'8 re' mi' fa' |
 sol'4 sol8 la sib do' |
 re'2. |
 R2.*3 |
-r2 la'4 |
+r4 r4 la'4 |
 sib'4. la'8 sol'4 |
 la' fa' r |
 R2. |
-r2 fa'4 |
+r4 r4 fa'4 |
 fa'4. sol'8 mi'4 |
-la'4 la'4. la'8 |
+la'4^\markup \annotation { Texte manquant sur trois mesures } la'4. la'8 |
 sol'[ la'16 sib'] sol'2\prall |
 fa'2. |
 R2.*4 |
@@ -57,7 +57,7 @@ fa'4. mib'8 re'4 |
 sol'4 sol'4. la'8 |
 fad'4 sol'( fad') |
 sol'2. |
-la'4 fad' re' |
+la'4 fa' re' |
 sol' mib' do' |
 re'8[ mi'] fad'[ sol' la' fad']( |
 sol'2) sol'4 |
@@ -73,7 +73,7 @@ r4 do' fa' |
 sib2 do'4 |
 sib4( la2)\prall |
 sol2. |
-R2.*59 |
+<< R2.*59 \origVersion { \skip 2.*10 \revertNoHaraKiri \skip 2.*26 \noHaraKiri } >> |
 sib4 re' sib |
 fa'4. mib'8 re'4 |
 sol'4. fa'8 mib'4 |
@@ -88,7 +88,7 @@ do' re' mib' |
 fa'4. mib'8 re'4 |
 re'4 re' mib' |
 la4. la8 re'4~ |
-re'8[ do' si re'16 do' sib8\prall la] | %% check
+re'8[ do' si8. re'16 do'16 sib?8\prall^\markup\annotation\center-align \line { Altération non explicite } la16] | %% check
 sib4( la2)\prall |
 sol2. |
 re'4 re'8[ do'] re'[ si] |

@@ -2,6 +2,6 @@
   sol,4 sol2 |
   fa2. |
   mib |
-  re |
+  re | \allowPageTurn
 }
 sol,2.

@@ -27,7 +27,7 @@ glo -- ri -- a pa -- tri
 glo -- ri -- a fi -- li -- o
 glo -- ri -- a glo -- ri -- a glo -- ri -- a spi -- ri -- tu -- i sanc -- to.
 Si -- cut e -- rat in prin -- ci -- pi -- o,
-et nunc _ et sem -- per,
+et nunc et sem -- per,
 et in sæ  -- cu -- la sæ -- cu -- lo -- rum.
 Glo -- ri -- a pa -- tri
 glo -- ri -- a fi -- li -- o

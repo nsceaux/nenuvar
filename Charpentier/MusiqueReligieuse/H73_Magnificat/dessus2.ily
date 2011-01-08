@@ -101,11 +101,11 @@ re''4. mi''8 fa'' re'' |
 sol''4 sol'8 la' sib' do'' |
 re''2. |
 R2. |
-r2 re''4 |
+r4 r4 re''4 |
 re''4. mib''8 do''4 |
 fa''4 re'' r |
 R2.*2 |
-r2 sol'4 |
+r4 r4 sol'4 |
 la' la' la' |
 sib'4. la'8 sib' do'' |
 la'4 la' sib' |
@@ -115,7 +115,7 @@ r4 sib'4. sib'8 |
 do''4 la' re'' |
 do''4.\prall sib'8 do''4 |
 re''2.~ |
-re''4 r2 |
+re''4 r4 r4 |
 R2.*7 |
 re''4 sib' sol' |
 do''2 re''4 |
@@ -204,7 +204,7 @@ R2.*4 |
 r4 re'' re'' |
 re''2 sol'4 |
 la'4. sib'8 do''4 |
-sib'4 r2 |
+sib'4 r4 r4 |
 R2. |
 r4 sol' do'' |
 do''4. mib''8 re'' do'' |

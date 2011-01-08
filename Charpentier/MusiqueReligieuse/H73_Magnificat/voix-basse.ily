@@ -1,4 +1,4 @@
-\clef "basse" R2.*48 |
+\clef "basse" << R2.*48 \origVersion { \skip 2.*24 \noHaraKiri } >> |
 sol4 sol sol |
 fa8[ mib fa sol fa sol]( |
 mib)[ re mib fa mib fa]( |
@@ -23,12 +23,12 @@ do' la re' |
 re' re'( do') |
 re'2. |
 R2.*3 |
-r2 la4 |
+r4 r4 la4 |
 sib sib sib |
 si4. si8 do' re' |
 mib'4 do' do' |
 re' re' r |
-r2 sol4 |
+r4 r4 sol4 |
 do'4 la re' |
 re'8[ do' sib la sol la]( |
 fad2) fad4 |
@@ -45,7 +45,7 @@ fa2. |
 mib |
 re2 re'4 |
 sib sol r |
-r2 fa4 |
+r4 r4 fa4 |
 mib do mib |
 re2 re4 |
 r sol8[ fa sol mi]( |
@@ -53,7 +53,7 @@ fa2) re4 |
 mib4. re8( do4) |
 re4 re re' |
 sib sol r |
-r2 fa4 |
+r4 r4 fa4 |
 mib do mib |
 re2 re4 |
 r sol8[ fa sol mi]( |
@@ -61,7 +61,7 @@ fa2) re4 |
 mib4. re8( do4) |
 re2. |
 sol, |
-R2.*47 |
+<< R2.*47 \origVersion { \skip 2.*10 \revertNoHaraKiri \skip 2.*26 \noHaraKiri } >> |
 sib4 sib4. do'8 |
 la2\prall la4 |
 sol sol8[ la] sib[ do'] |
@@ -107,7 +107,7 @@ mib4. re8 mib4 |
 re2 re4 |
 sol4. la8 sib4 |
 fa4. fa8 fa sol |
-mi4. re8 do4 | %%  premier temps : mi bémol à la basse continue
+mi?4.^\markup\annotation\center-align \line { Altération manquante } re8 do4 | %%  premier temps : mi bémol à la basse continue
 re2. |
 sol, |
 R2.*3 |

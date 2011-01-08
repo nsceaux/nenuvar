@@ -7,7 +7,10 @@ in De -- o in De -- o sa -- lu -- ta -- ri me -- o.
 Et mi -- se -- ri -- cor -- di -- a e -- jus
 et mi -- se -- ri -- cor -- di -- a mi -- se -- ri -- cor -- di -- a e -- jus
 a pro -- ge -- ni -- e in pro -- ge -- ni -- es in pro -- ge -- ni -- es
-ti -- men -- ti -- bus e -- um ti -- men -- ti -- bus ti -- men -- ti -- bus e -- um.
+ti -- men -- ti -- bus e -- um ti -- men -- ti -- bus
+\override LyricText #'font-shape = #'italic
+ti -- men -- ti -- bus e -- um.
+\revert LyricText #'font-shape
 
 Fe -- cit po -- ten -- ti -- am in bra -- chi -- o su -- o.
 Dis -- per -- sit dis -- per -- sit su -- per -- bos men -- te cor -- dis su -- i.

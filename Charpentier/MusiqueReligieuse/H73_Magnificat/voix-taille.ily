@@ -1,4 +1,4 @@
-\clef "vtaille" R2.*47 |
+\clef "vtaille" << R2.*47 \origVersion { \skip 2.*24 \noHaraKiri } >> |
 re'4 re' re' |
 sib8[ la sib do' sib do']( |
 la)[ sol la sib la sib]( |
@@ -74,7 +74,7 @@ r la re' |
 sol2 sol4 |
 sol2( fad4) |
 sol2. |
-R2.*36 |
+<< R2.*36 \origVersion { \skip 2.*10 \revertNoHaraKiri \skip 2.*26 \noHaraKiri } >> |
 re'4 re'4. re'8 |
 sol2 do'4 |
 fad sol la |
@@ -95,7 +95,7 @@ sol4.( fad8)[ sol la]( |
 fad4) fad fad |
 sol8[ fad sol la] sib4 |
 la2 la4 |
-r2 do'4~ |
+r4 r4 do'4~ |
 do' do'8[ sib] do'[ la] |
 sib4. sib8 sib4 |
 la2. |
@@ -131,8 +131,9 @@ r4 re' sib |
 do'4. sib8( la4) |
 sib2 do'4 |
 re'4. re'8 re'4 |
-r4 re' mib' | %% tie ?
-mib'2 re'4~ |
+r4 re' \tieDashed mib'^\markup\annotation\center-align \column {
+  \line { Pas de liaison } \line { sur le manuscrit } } ~ | %% tie ?
+mib'2 \tieSolid re'4~ |
 re'4 sol'2 |
 fad'2. |
 R2.*5 |
