@@ -9,7 +9,7 @@
     re''4 la'8 la'16 la' si'8. do''16 |
     si'4\trill
     << { s2. | s1 | s2 } \tag #'sangaride { r4 r2 | R1 | r2 } >>
-    \tag #'basse \sangarideMark r8 la'16 la' la'8 si'16 dod'' |
+    \tag #'basse \sangarideMark r8 la'16 la' la'8 si'16 do'' |
     re''4 re''8. re''16 re''4 re''8. dod''16 |
     re''4
     << { s2 | s2. | s4. } \tag #'sangaride { r2 | R2. | r4 r8 } >>

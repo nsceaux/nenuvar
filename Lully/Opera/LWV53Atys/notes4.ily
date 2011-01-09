@@ -189,4 +189,116 @@
     >>
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EBAprelude mesure 12
+  \excerpts \column {
+    \line { \bold { Scène II, prélude } (page \page-refIII #'EBAprelude ) }
+    \line { Mesures 12-13, haute-contre }
+  }
+  \score {
+    { \startQuote #13 \time 2/2
+      \key do \major \clef "soprano"
+      do''2. do''4 | do''2 la' | sol'4.
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #13 \time 2/2
+      \key do \major \clef "soprano"
+      do''2 la' | sol'4. do''8 si'4 la' | sol'4.
+    }
+    \layout { \quoteLayout }
+  }
+  %% EBAprelude mesure 13
+  \excerpts-end \line { Mesure 13, dessus }
+  \score {
+    { \startQuote #13 \time 2/2
+      \key do \major \clef "french"
+      la''8 sib'' la'' sol'' fa'' mi'' re'' do'' | si'4.
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #13 \time 2/2
+      \key do \major \clef "french"
+      la''8 si'' la'' sol'' fa'' mi'' re'' do'' | si'4.
+    }
+    \layout { \quoteLayout }
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EBBcelaenusSangaride mesure 5
+  \excerpts \column {
+    \line { \bold { Celænus, Sangaride } (page \page-refIII #'EBBcelaenusSangaride ) }
+    \line { Mesure 5, basse continue }
+  }
+  \score {
+    { \startQuote #5 \time 2/2
+      \key do \major \clef "bass"
+      mi4 fad sol do | sol,1 |
+    } 
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #5 \time 2/2
+      \key do \major \clef "bass"
+      mi4 fa sol do | sol,1 |
+    } 
+    \layout { \quoteLayout }
+  }
+  %% mesure 8
+  \excerpts \line { Mesure 8, Celænus }
+  \score {
+    <<
+      { \startQuote #8 \time 3/4 \set autoBeaming = ##f
+        \key do \major \clef "varbaritone"
+        do'4 r8 do'16 do' la8\trill la16 la | fad8.
+      } \addlyrics { -tant d'où des -- pend la dou -- ceur }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #8 \time 3/4 \set autoBeaming = ##f
+        \key do \major \clef "varbaritone"
+        do'4 r8 do'16 si la8\trill la16 sol | fad8.
+      } \addlyrics { -tant d'où des -- pend la dou -- ceur }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 21
+  \excerpts \line { Mesure 21, Sangaride }
+  \score {
+    <<
+      { \startQuote #20 \time 3/4 \set autoBeaming = ##f
+        \key do \major \clef "soprano"
+        do''4 r8 do''16 si' la'8 la'16 sol' | fad'8 fad'
+      } \addlyrics { -ray, je des -- pens de mon pe -- re, }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #20 \time 3/4 \set autoBeaming = ##f
+        \key do \major \clef "soprano"
+        do''4 r8 do''16 si' la'8 la'16 sol' | fa'8 fa'
+      } \addlyrics { -ray, je des -- pens de mon pe -- re, }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 25
+  \excerpts-end \line { Mesures 25-26, basse continue }
+  \score {
+    { \startQuote #25 \time 4/4
+      \key do \major \clef "bass"
+      la,2. la4 | fa4. re8 la4 la, |
+    } 
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #25 \time 4/4
+      \key do \major \clef "bass"
+      la,2. la8 sol | fa4. mi8 la4 la, |
+    } 
+    \layout { \quoteLayout }
+  }
 }
