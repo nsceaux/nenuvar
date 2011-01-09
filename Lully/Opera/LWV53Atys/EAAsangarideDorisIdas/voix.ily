@@ -41,7 +41,7 @@
     dod''4 re''8 re''16 re'' re''8 dod'' |
     re''2 re''4 r |
     << { s2.*21 | s1 } \tag #'sangaride { R2.*21 | R1 } >>
-    \tag #'basse \sangarideMark r4 sol'8 la' si' si' si' si'16 la' |
+    \tag #'basse \sangarideMark r4 sol'8 la' si' si' si'\trill si'16 la' |
     si'8 si' mi''8. si'16 dod''8 red'' mi'' mi''16 red'' |
     mi''4 mi'' r2 |
     R1 |
@@ -50,7 +50,8 @@
     mi''4 re''8 do'' si'4\trill si'8 do'' |
     re''4 mi''8 fa'' mi''2\trill |
     r4 do''8 si' la'4\trill la'8 si' |
-    sol'4 r8 si'16 si' mi''8 mi''16 si' do''4. la'8 la'16 la' mi' fad' |
+    sol'4 r8 si'16 si' mi''8 mi''16 si' |
+    do''4. la'8 la'16 la' mi' fad' |
     sol'8 sol' r8 si'16 si' si'8 do''16 re'' |
     mi''8. mi''16 fa''8. mi''16 re''8.\trill do''16 |
     do''8. mi''16 si'8\trill si'16 do'' re''8 do''16 si' |

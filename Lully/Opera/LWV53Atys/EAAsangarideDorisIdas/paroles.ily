@@ -1,7 +1,7 @@
 %% ACTE 4 SCENE 1
 % Doris
 \tag #'(doris basse) {
-  Quoy, vous pleu -- "rez ?"
+  Quoi, vous pleu -- "rez ?"
 }
 % Idas
 \tag #'(idas basse) {
