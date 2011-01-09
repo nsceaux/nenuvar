@@ -301,4 +301,30 @@
     } 
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% ECAcelaenusSangaride mesure 20
+  \excerpts-end \column {
+    \line { \bold { Scène III } (page \page-refIII #'ECAcelaenusSangaride ) }
+    \line { Mesures 20-21, Celænus }
+  }
+  \score {
+    <<
+      { \startQuote #20 \set autoBeaming = ##f
+        \key do \major \clef "varbaritone"
+        \digitTime\time 3/4 re4 r16 sib sib sib do'8. re'16 |\break
+        \time 4/4 fad4 la8. la16 sib4 la8. sol16 | sol2
+      } \addlyrics { vœux, que les mo -- ments sont longs pour mon cœur a -- mou -- reux }
+    >>
+    \layout { \quoteLayout \context { \Staff \consists "Time_signature_engraver" } }
+  }
+  \score {
+    <<
+      { \startQuote #20 \set autoBeaming = ##f
+        \key do \major \clef "varbaritone"
+        \digitTime\time 3/4 re4 sib8 sib16 sib do'8. re'16 |\break
+        \time 4/4 fad4 la8. la16 sib4 la8. sib16 | sol2
+      } \addlyrics { vœux, que les mo -- ments sont longs pour mon cœur a -- mou -- reux }
+    >>
+    \layout { \quoteLayout \context { \Staff \consists "Time_signature_engraver" } }
+  }
 }
