@@ -14,6 +14,6 @@ s1*9
 s1.
 \time 2/2
 s1*3
-\time 3/4
+\digitTime\time 3/4
 s2.*17
 \bar "|."
