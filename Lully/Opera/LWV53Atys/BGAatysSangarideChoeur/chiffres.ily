@@ -3,12 +3,12 @@
 
 % 62
 <_>2. <_+ 7>8 <3> <4 6>4 <_+ 5> <_>2 <5/ 6>
-<3>4.\bassFigureExtendersOn <3>8\bassFigureExtendersOff
-<6>4.\bassFigureExtendersOn <6>8\bassFigureExtendersOff
+<3>4.\figExtOn <3>8\bassFigureExtendersOff
+<6>4.\figExtOn <6>8\bassFigureExtendersOff
 
 <_>2 <6> <_>1 <_>4 <6> <4 6> <3 5> <_>2 <6>4
 
-<3>4.\bassFigureExtendersOn <3>8\bassFigureExtendersOff <6+>4 <_>2.
+<3>4.\figExtOn <3>8\bassFigureExtendersOff <6+>4 <_>2.
 <_>2 <6>4 <7>2 <6>4 <_+>2. <_+>
 
 <_- 5 7>4 <4 6> <_+ 5> <_>2 <5/>4 <_>2 <7>4 <5>2 <6>4 <_>2.
@@ -17,43 +17,43 @@
 <_>2. <_>2 <6>4 <4 6> <3>2 <_>2. <5/>
 <_>2.*2 <_>2 <6>4 <4 6> <3 5>2 <_>2.
 
-<3>4.\bassFigureExtendersOn <3>8\bassFigureExtendersOff <6+>4
+<3>4.\figExtOn <3>8\bassFigureExtendersOff <6+>4
 <_>2. <_>2 <6>4 <7>2 <6>4 <_+>2 <6>4 <5 6> <_+>2
 
 % 64
 <_+>2. <4 6>4 <_+ 5 7> <4 6> <_+>2 <4 6>4 <_+>2.
-<_+>2\bassFigureExtendersOn <_+>4\bassFigureExtendersOff <6>2.
+<_+>2\figExtOn <_+>4\bassFigureExtendersOff <6>2.
 
 <_>2. <_+ 7> <5 6>4 <_+>2 <_> <4 6>4 <5 7>4 <4 6>2 <4 6>4 <5 7> <4 6> <3>2.
 
 <_>2.*3 <_- 5 6>4 <_+>2 <_+>2. <4 6->4 <7>2
 
 % 65
-<_+>2 <4 6->4\bassFigureExtendersOn <6->4\bassFigureExtendersOff <_+>2
+<_+>2 <4 6->4\figExtOn <6->4\bassFigureExtendersOff <_+>2
 <_>2. <7>2 <6>4 <5/>2. <_>
 
-<_>2. <_>2 <4 6>4 <3 7>2. <4 6>2 <5 7>2 <3>2\bassFigureExtendersOn <3>4\bassFigureExtendersOff <6>2. <_>
+<_>2. <_>2 <4 6>4 <3 7>2. <4 6>2 <5 7>2 <3>2\figExtOn <3>4\bassFigureExtendersOff <6>2. <_>
 
 <_>2. <_>2 <6>4 <5 6>2 <_>2. <4 6>4 <5 7>2 <_>2. <6>2.
 
 % 66
 <_>2.*2 <_>2 <6>4 <5 6>2. <_>2.. <6>8
 <_>1. <_>1 <_>2. <_>2 <6>4
-<_>2. <3>4\bassFigureExtendersOn <3>\bassFigureExtendersOff <6> <6>2 <5 6>4 <_>2. <7>4 <4> <3> <_>2.*2
+<_>2. <3>4\figExtOn <3>\bassFigureExtendersOff <6> <6>2 <5 6>4 <_>2. <7>4 <4> <3> <_>2.*2
 <_>2.*2 <_+>2. <6> <_>2 <5 6>4 <4 6>4 <_+ 5>2 <_>2.
 
 % 67
 <_>2.*2 <7>4 <6>2 <5/>2. <_>2 <6>4 <_>2 <_- 5 6>4
 <_+>2. <4>2 <_+>4 <_>2.*2 <6>2. <6> <4>4 <3>2
-<_>2. <6> <_> <3>2\bassFigureExtendersOn <3>8 <3>\bassFigureExtendersOff <5 6>2. <_>
+<_>2. <6> <_> <3>2\figExtOn <3>8 <3>\bassFigureExtendersOff <5 6>2. <_>
 
-<_> <6>2\bassFigureExtendersOn <6>4\bassFigureExtendersOff
+<_> <6>2\figExtOn <6>4\bassFigureExtendersOff
 <7>2 <6>4 <7>2 <6>4 <7>4 <6>2 <7>4 <6>2 <7>2 <6>4
 
 % 68
 <_>2. <4+>4 <6>2 <4 6>4 <_+ 5>2 <_>2.*3 <6>2.
 <_>2.*2 <_+>2. <_> <6> <_>2.*2
-<4>4 <3>2 <_>2. <6> <_> <3>2\bassFigureExtendersOn <3>8 <3>\bassFigureExtendersOff <5/>2. <_>
+<4>4 <3>2 <_>2. <6> <_> <3>2\figExtOn <3>8 <3>\bassFigureExtendersOff <5/>2. <_>
 <_>2. <6> <7>2 <6+>4 <_>2 <6>4 <7>2 <6>4 <7>4 <6>2 <6>2.
 
 % 69
@@ -65,7 +65,7 @@
 % 70
 <_>4 <_+>2 <_>2. <6> <7>4 <6>2 <4 6>4 <3 5>2 <_>1 <5/>
 
-<_> <_>2 <7>4 <6> <_+>2.\bassFigureExtendersOn <_+>4\bassFigureExtendersOff
+<_> <_>2 <7>4 <6> <_+>2.\figExtOn <_+>4\bassFigureExtendersOff
 <_>2 <6+> <_> <6> <7 9> <6 8>
 
 <_+>1 <6> <5/>2. <_->4 <7>2 <6> <_+>1 <_>
@@ -82,15 +82,15 @@
 <_>2 <_- 5 6>4 <_+ 7>2. <4>4 <_+>2 <_>2.*2 <6>2. <6>
 
 %%
-<4>4 <3>2 <_>2. <6> <_> <3>2\bassFigureExtendersOn <3>8 <3>\bassFigureExtendersOff <5 6>2. <_>
+<4>4 <3>2 <_>2. <6> <_> <3>2\figExtOn <3>8 <3>\bassFigureExtendersOff <5 6>2. <_>
 
-<_> <6>2\bassFigureExtendersOn <6>4\bassFigureExtendersOff
+<_> <6>2\figExtOn <6>4\bassFigureExtendersOff
 <7>2 <6>4 <7>2 <6>4 <7>4 <6>2 <7>4 <6>2 <7>2 <6>4
 
 % 68
 <_>2. <4+>4 <6>2 <4 6>4 <_+ 5>2 <_>2.*3 <6>2.
 <_>2.*2 <_+>2. <_> <6> <_>2.*2
-<4>4 <3>2 <_>2. <6> <_> <3>2\bassFigureExtendersOn <3>8 <3>\bassFigureExtendersOff <5/>2. <_>
+<4>4 <3>2 <_>2. <6> <_> <3>2\figExtOn <3>8 <3>\bassFigureExtendersOff <5/>2. <_>
 <_>2. <6> <7>2 <6+>4 <_>2 <6>4 <7>2 <6>4 <7>4 <6>2 <6>2.
 
 % 69

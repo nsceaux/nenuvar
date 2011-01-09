@@ -8,7 +8,7 @@
 <_>1 <_>4 <6> <_!> <6> <5/>
 <_> <6> <_> <5 6>2.
 <_>4 <6>2 <5/>4 <_>2.
-<_>2 <5/>4 <_-> <_!>\bassFigureExtendersOn <_!>\bassFigureExtendersOff <_>2
+<_>2 <5/>4 <_-> <_!>\figExtOn <_!>\bassFigureExtendersOff <_>2
 % 200
 <5/> <_>1
 <_>2 <5/>4 <_>2 <6>4. <5 6>8

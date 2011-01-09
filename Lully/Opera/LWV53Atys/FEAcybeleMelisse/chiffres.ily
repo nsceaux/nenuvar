@@ -10,4 +10,4 @@
 <6+>2 <_>2. <6>4 <_>2
 <5/ 6> <_>1 <7>4 <6>
 <_+>8 <5 6> <_+>4 <_+>1.
-<_+>8\bassFigureExtendersOn <_+>8\bassFigureExtendersOff <6> <6+> <_>2 <5 6>4 <4>8 <_+>
+<_+>8\figExtOn <_+>8\bassFigureExtendersOff <6> <6+> <_>2 <5 6>4 <4>8 <_+>

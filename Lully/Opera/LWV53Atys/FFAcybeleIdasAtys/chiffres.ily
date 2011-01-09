@@ -2,7 +2,7 @@
 <_+>1 <_>2 <5/ 6>4 <_>2
 <5/>4 <_>1
 <5/ 6>2 <_->4 <5 6> <_+>1 <_>2.
-<6>4\bassFigureExtendersOn <6>4\bassFigureExtendersOff <7> <6> <_+>2. <5/>4
+<6>4\figExtOn <6>4\bassFigureExtendersOff <7> <6> <_+>2. <5/>4
 <_>2 <4!>4 <6>8 <6!> <_->2 <4>4 <_+> <_>2
 
 % 211

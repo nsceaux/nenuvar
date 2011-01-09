@@ -3,5 +3,5 @@
 
 % 198
 <_>4 <6> <_> <6> <_>1
-<3>4..\bassFigureExtendersOn <3>16\bassFigureExtendersOff <6>2 <_>4 <6>2.
-<3>4..\bassFigureExtendersOn <3>16\bassFigureExtendersOff <_>2 <_> <_>8 <5 6>
+<3>4..\figExtOn <3>16\bassFigureExtendersOff <6>2 <_>4 <6>2.
+<3>4..\figExtOn <3>16\bassFigureExtendersOff <_>2 <_> <_>8 <5 6>

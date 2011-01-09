@@ -1,5 +1,5 @@
 % 162
-<_>2 <4>2 <_+>4 <_+>4\bassFigureExtendersOn <_+>4\bassFigureExtendersOff <_>
+<_>2 <4>2 <_+>4 <_+>4\figExtOn <_+>4\bassFigureExtendersOff <_>
 <6>4 <_>2 <6>8 <6+> <_>2.
 <_>1 <6>2 <7>4 <6+> <_>2
 % 163

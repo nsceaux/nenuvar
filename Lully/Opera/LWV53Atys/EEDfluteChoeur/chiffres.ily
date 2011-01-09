@@ -1,10 +1,10 @@
 % 181
 <_>2 <_>1*2 <7>4 <3>2. <_>1
-<_>2 <5 6> <_+> <6> <_>4 <5 6> <_+>2 <_+>2.\bassFigureExtendersOn <_+>4\bassFigureExtendersOff <_>1
+<_>2 <5 6> <_+> <6> <_>4 <5 6> <_+>2 <_+>2.\figExtOn <_+>4\bassFigureExtendersOff <_>1
 % 182
 <_>1 <_+>2 <_+> <_>1 <7> <7>2 <6> <_>1.
 
 
 <_>2 <_>1*2 <7>4 <3>2. <_>1
-<_>2 <5 6> <_+> <6> <_>4 <5 6> <_+>2 <_+>2.\bassFigureExtendersOn <_+>4\bassFigureExtendersOff <_>1
+<_>2 <5 6> <_+> <6> <_>4 <5 6> <_+>2 <_+>2.\figExtOn <_+>4\bassFigureExtendersOff <_>1
 <_>1 <_+>2 <_+> <_>1 <7> <7>2 <6> <_>1.
