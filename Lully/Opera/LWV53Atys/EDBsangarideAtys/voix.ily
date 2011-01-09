@@ -17,7 +17,7 @@
     la'4\trill la'8. la'16 re''8 re''16 re'' |
     si'8 si'
     << { s4 } \tag #'sangaride { r4 } >>
-    \tag #'basse \sangarideMark si'8 si' si'8. re''16 |
+    \tag #'basse \sangarideMark si'!8 si' si'8. re''16 |
     sol'4
     << { s2. s4 } \tag #'sangaride { r4 r2 | r4 } >>
     \tag #'basse \sangarideMark r8 mib'' mib''\trill re'' re''8. re''16 |
@@ -181,7 +181,7 @@
         r4 r8 mib' fa' sol' fa'8.\trill mib'16 |
         mib'4
       } >>
-    \atysMark r8 sol' re'\trill re'
+    \tag #'basse \atysMark r8 sol' re'\trill re'
     << { s4 s1*2 s2. s4. } \tag #'atys {
         fa'8. sol'16 |
         mi'4 r8 mi' fad' sol' fad'8. sol'16 |

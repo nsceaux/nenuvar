@@ -327,4 +327,190 @@
     >>
     \layout { \quoteLayout \context { \Staff \consists "Time_signature_engraver" } }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EDAritournelle
+  \column {
+    \null
+    \line { \bold { Scène IV, ritournelle } (page \page-refIII #'EDAritournelle ) }
+    \wordwrap { Dans le manuscrit, les mesures 1 à 5 sont jouées deux fois. }
+    \null\sep
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EDBsangarideAtys mesure 7
+  \excerpts \column {
+    \line { \bold { Sangaride, Atys } (page \page-refIII #'EDBsangarideAtys ) }
+    \line { Mesure 7, Sangaride }
+  }
+  \score {
+    <<
+      { \startQuote #7 \set autoBeaming = ##f
+        \key sol \minor \clef "soprano" \time 4/4
+        r4 r8 si' si'8. si'16 si'8. si'16 | do''4
+      } \addlyrics { E -- par -- gnez- vous le soin }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #7 \set autoBeaming = ##f
+        \key sol \minor \clef "soprano" \time 4/4
+        r4 r8 sib' sib'8. sib'16 sib'8. sib'16 | do''4
+      } \addlyrics { E -- par -- gnez- vous le soin }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 18
+  \excerpts \line { Mesure 18, basse continue }
+  \score {
+    { \startQuote #18
+      \key sol \minor \clef "bass"
+      \digitTime\time 3/4 re2. | \time 4/4 sol2.
+    }
+    \layout { \quoteLayout \context { \Staff \consists "Time_signature_engraver" } }
+  }
+  \score {
+    { \startQuote #18
+      \key sol \minor \clef "bass"
+      \digitTime\time 3/4 fa2._\markup { \italic ré corrigé en \italic fa } |
+      \time 4/4 sol2.
+    }
+    \layout { \quoteLayout \context { \Staff \consists "Time_signature_engraver" } }
+  }
+  %% mesure 21
+  \excerpts \line { Mesure 21, Atys }
+  \score {
+    <<
+      { \startQuote #21 \set autoBeaming = ##f
+        \key sol \minor \clef "alto" \time 4/4
+        sol4 r8 sol' fa'8. fa'16 fa'8. sol'16 | mib'4
+      } \addlyrics { "-roux !" Pour -- quoy m'a -- ban -- don -- ner }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #21 \set autoBeaming = ##f
+        \key sol \minor \clef "alto" \time 4/4
+        sol4 r8 sol' fa'8. fa'16 fa'8. re'16 | mib'4
+      } \addlyrics { "-roux !" Pour -- quoy m'a -- ban -- don -- ner }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 51
+  \excerpts \line { Mesure 51, Sangaride }
+  \score {
+    <<
+      { \startQuote #51 \set autoBeaming = ##f
+        \key sol \minor \clef "soprano" \time 3/4
+        do''8 do''16 do'' re''8 re''16 mib'' fa''8 fa'' | re''4 re''
+      } \addlyrics { -té de vou -- loir me trom -- per en -- co -- "re ?" }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #51 \set autoBeaming = ##f
+        \key sol \minor \clef "soprano" \time 3/4
+        do''8 do''16 do'' do''8 re''16 mib'' fa''8 fa'' | re''4 re''
+      } \addlyrics { -té de vou -- loir me trom -- per en -- co -- "re ?" }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 53
+  \excerpts \line { Mesure 53, Atys }
+  \score {
+    <<
+      { \startQuote #53 \set autoBeaming = ##f
+        \key sol \minor \clef "alto" \time 4/4
+        do'4 r r8 sol' sol' sol' | do'4
+      } \addlyrics { "-hir ?" Vous le pen -- "sez ?" }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #53 \set autoBeaming = ##f
+        \key sol \minor \clef "alto" \time 4/4
+        do'4 r sol'4 sol'8 sol' | do'4
+      } \addlyrics { "-hir ?" Vous le pen -- "sez ?" }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 55
+  \excerpts \line { Mesure 55, Atys }
+  \score {
+    <<
+      { \startQuote #55 \set autoBeaming = ##f
+        \key sol \minor \clef "alto" \time 4/4
+        sol4 r8 sol' mib' mib'16 mib' mib'8 sib16 do' | re'8 re'16
+      } \addlyrics { "cez !" Hé bien, il ne faut plus rien tai -- re, }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #55 \set autoBeaming = ##f
+        \key sol \minor \clef "alto" \time 4/4
+        sol4 r8 sol' mib'16 mib' mib' mib' sib8 do' | re'8 re'16
+      } \addlyrics { "cez !" Hé bien, il ne faut plus rien tai -- re, }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 84
+  \excerpts \line { Mesure 84, basse continue }
+  \column {
+    \score {
+      { \startQuote #84
+        \key sol \minor \clef "bass" \time 2/2
+        re'4 do' re' re | sol2. }
+      \layout { \quoteLayout }
+    }
+    \justify {
+      Même si seule une inter-ligne apparaît sur la partition imprimée,
+      la première noire est placée plus haut que la troisième, ce qui
+      laisse penser que le première noire est en fait un \italic mi.
+      \bold { Un \italic mi \flat a été retenu pour cette édition. }
+    }
+  }
+  \score {
+    { \startQuote #84
+      \key sol \minor \clef "bass" \time 2/2
+      mib'4 do' re' re | sol2.
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 90
+  \excerpts \line { Mesure 90, Atys }
+  \score {
+    <<
+      { \startQuote #90 \set autoBeaming = ##f
+        \key sol \minor \clef "alto" \time 2/2
+        re'2 mib'4. lab'8 | re'2
+      } \addlyrics { -mais, en dé -- pit }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #90 \set autoBeaming = ##f
+        \key sol \minor \clef "alto" \time 2/2
+        re'2 mib'4. la'8 | re'2
+      } \addlyrics { -mais, en dé -- pit }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 102
+  \excerpts-end \line { Mesures 97-103 : le manuscrit a un ou deux bémols à la clé. }
+  \score {
+    { \startQuote #102
+      \key do \major \clef "bass" \time 3/4
+      sol8 mi la fa sol sol, | do2. \bar "|." }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #102
+      \key sol \minor \clef "bass" \time 3/4
+      sol8 mib lab fa sol sol, | do2. \bar "|." }
+    \layout { \quoteLayout }
+  }
 }

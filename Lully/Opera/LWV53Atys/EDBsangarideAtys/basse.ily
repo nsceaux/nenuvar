@@ -81,7 +81,7 @@ fa,1 |
 sib,2 sib |
 do'1 |
 re' |
-re'4 do' re' re |
+mib'4 do' re' re |
 sol2. sol4 |
 lab2 la |
 si do'4 do |
