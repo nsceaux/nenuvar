@@ -2,6 +2,8 @@
   composer = "Marc-Antoine Charpentier"
 }
 
+
+
 %% Staff size:
 %%  12 for urtext lead sheet
 %%  14 for lead sheets
@@ -29,6 +31,11 @@
 
 %% No incipits for parts
 #(ly:set-option 'non-incipit (not (not (ly:get-option 'part))))
+
+%% No key signature modification
+#(ly:set-option 'forbid-key-modification #t)
+
+\layout { reference-incipit-width = #(* 1/2 mm) }
 
 \include "italiano.ly"
 \include "common/common.ily"

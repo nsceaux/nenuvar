@@ -10,6 +10,9 @@
 %%%   non-incipit
 %%%     When true, do not print incipit in modern style.
 %%%
+%%%   forbid-key-modification
+%%%     When true, always use original key signature.
+%%%
 %%% Music functions
 %%% ===============
 %%%   \clef "ancient/modern"
@@ -54,8 +57,11 @@ staffStart =
   \once \override Staff.InstrumentName #'padding = #0
   \once \override Staff.InstrumentName #'stencil = 
   #(lambda (grob)
-     (let ((clef (ly:grob-property grob 'clef))
-            (key (ly:grob-property grob 'key)))
+     (let* ((clef (ly:grob-property grob 'clef))
+            (forbid-key-modification (eqv? #t (ly:get-option 'forbid-key-modification)))
+            (key (if forbid-key-modification
+                     (ly:make-music 'Music)
+                     (ly:grob-property grob 'key))))
        (if (and (ly:music? clef) (ly:music? key))
            (let* ((instrument-name (ly:grob-property grob 'long-text))
                   (layout (ly:output-def-clone (ly:grob-layout grob)))
@@ -80,7 +86,9 @@ staffStart =
                   (mm (ly:output-def-lookup layout 'mm))
                   (indent (ly:output-def-lookup layout 'indent))
                   (incipit-width (ly:output-def-lookup layout 'incipit-width))
-                  (width (* (if (number? incipit-width) incipit-width 15)
+                  (width (* (if (number? incipit-width)
+                                incipit-width
+                                (if forbid-key-modification 10 15))
                             mm)))
              (ly:output-def-set-variable! layout 'line-width indent)
              (ly:output-def-set-variable! layout 'indent (- indent width))
@@ -172,7 +180,8 @@ forcedClef =
 oldKey =
 #(define-music-function (parser location note key-alist) (ly:music? list?)
    (let ((key-set (make-key-set note key-alist)))
-     (if (eqv? #t (ly:get-option 'ancient-style))
+     (if (or (eqv? #t (ly:get-option 'ancient-style))
+             (eqv? #t (ly:get-option 'forbid-key-modification)))
          key-set
          (make-music 'ContextSpeccedMusic
                      'context-type 'Staff
@@ -185,14 +194,16 @@ oldKey =
 
 newKey =
 #(define-music-function (parser location note key-alist) (ly:music? list?)
-   (if (eqv? #t (ly:get-option 'ancient-style))
+   (if (or (eqv? #t (ly:get-option 'ancient-style))
+           (eqv? #t (ly:get-option 'forbid-key-modification)))
        (make-music 'Music)
        (make-key-set note key-alist)))
 
 keys =
 #(define-music-function (parser location note key-alist) (ly:music? list?)
    (let ((key-set (make-key-set note key-alist)))
-     (if (eqv? #t (ly:get-option 'ancient-style))
+     (if (or (eqv? #t (ly:get-option 'ancient-style))
+             (eqv? #t (ly:get-option 'forbid-key-modification)))
          key-set
          (make-music
           'SequentialMusic
