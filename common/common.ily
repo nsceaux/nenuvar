@@ -7,10 +7,10 @@
                     (/ (module-ref module 'staff-height)
                        (eval 'pt module)))))
 
-\layout { incipit-width = #(* (*staff-size*) 1/2 mm) }
+\layout { incipit-width = #(* (*staff-size*) (/ 15.0 20.0) mm) }
 
 \include "common/includes.ily"
-\include "common/clef.ily"
+\include "common/clef-key.ily"
 \include "common/titling.ily"
 \include "common/music-commands.ily"
 \include "common/marks.ily"

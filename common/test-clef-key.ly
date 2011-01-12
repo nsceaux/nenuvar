@@ -1,5 +1,5 @@
 \version "2.11.39"
-\include "clef.ily"
+\include "clef-key.ily"
 %#(ly:set-option 'ancient-style #t)
 
 { \staffStart

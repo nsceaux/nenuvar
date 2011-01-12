@@ -27,6 +27,10 @@
 %%%     - \clef "treble" otherwise, but with an soprano clef in an incipit
 %%%       preceeding the first line.
 %%%
+%%%  \oldKey pitch mode
+%%%  \newKey pitch mode
+%%%  \keys pitch mode
+%%%
 %%% Dependencies
 %%% ============
 %%% This feature relies on LilyPond >=2.11.40
@@ -36,6 +40,8 @@
 %% to avoid warnings:
 #(set-object-property! 'clef 'backend-type? ly:music?)
 #(set-object-property! 'clef 'backend-doc "Incipit clef music")
+#(set-object-property! 'key  'backend-type? ly:music?)
+#(set-object-property! 'key  'backend-doc "Incipit key music")
 
 staffStart =
 #(define-music-function (parser location) ()
@@ -48,8 +54,9 @@ staffStart =
   \once \override Staff.InstrumentName #'padding = #0
   \once \override Staff.InstrumentName #'stencil = 
   #(lambda (grob)
-     (let ((clef (ly:grob-property grob 'clef)))
-       (if (ly:music? clef)
+     (let ((clef (ly:grob-property grob 'clef))
+            (key (ly:grob-property grob 'key)))
+       (if (and (ly:music? clef) (ly:music? key))
            (let* ((instrument-name (ly:grob-property grob 'long-text))
                   (layout (ly:output-def-clone (ly:grob-layout grob)))
                   (music (make-music
@@ -58,13 +65,13 @@ staffStart =
                                            'ContextSpeccedMusic
                                            'context-type 'Staff
                                            'property-operations '((remove "Time_signature_engraver")
-                                                                  (remove "Key_engraver")
                                                                   (push VerticalAxisGroup (-2 . 2) Y-extent))
                                            'element (make-music
                                                      'PropertySet
                                                      'symbol 'instrumentName
                                                      'value instrument-name))
                                           clef
+                                          key
                                           (make-music
                                            'SkipMusic
                                            'duration
@@ -73,7 +80,7 @@ staffStart =
                   (mm (ly:output-def-lookup layout 'mm))
                   (indent (ly:output-def-lookup layout 'indent))
                   (incipit-width (ly:output-def-lookup layout 'incipit-width))
-                  (width (* (if (number? incipit-width) incipit-width 10)
+                  (width (* (if (number? incipit-width) incipit-width 15)
                             mm)))
              (ly:output-def-set-variable! layout 'line-width indent)
              (ly:output-def-set-variable! layout 'indent (- indent width))
@@ -154,7 +161,6 @@ forcedClef =
                                                                 'symbol 'forceClef))
                                (make-ancient-or-modern-clef clef-name))))
 
-%%% Deprecated functions, for compatibility
 #(define (make-key-set note key-alist)
    (let ((pitch (ly:music-property (car (ly:music-property
                                          note 'elements))
@@ -165,12 +171,40 @@ forcedClef =
 
 oldKey =
 #(define-music-function (parser location note key-alist) (ly:music? list?)
-   (make-key-set note key-alist))
+   (let ((key-set (make-key-set note key-alist)))
+     (if (eqv? #t (ly:get-option 'ancient-style))
+         key-set
+         (make-music 'ContextSpeccedMusic
+                     'context-type 'Staff
+                     'element (make-music 'OverrideProperty
+                                          'pop-first #t
+                                          'grob-property-path '(key)
+                                          'grob-value key-set
+                                          'once #t
+                                          'symbol 'InstrumentName)))))
 
 newKey =
 #(define-music-function (parser location note key-alist) (ly:music? list?)
-   (make-music 'Music))
+   (if (eqv? #t (ly:get-option 'ancient-style))
+       (make-music 'Music)
+       (make-key-set note key-alist)))
 
 keys =
 #(define-music-function (parser location note key-alist) (ly:music? list?)
-   (make-key-set note key-alist))
+   (let ((key-set (make-key-set note key-alist)))
+     (if (eqv? #t (ly:get-option 'ancient-style))
+         key-set
+         (make-music
+          'SequentialMusic
+          'elements (list key-set
+                          (make-music
+                           'ContextSpeccedMusic
+                           'context-type 'Staff
+                           'element (make-music
+                                     'OverrideProperty
+                                     'pop-first #t
+                                     'grob-property-path '(key)
+                                     'grob-value key-set
+                                     'once #t
+                                     'symbol 'InstrumentName)))))))
+
