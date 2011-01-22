@@ -61,7 +61,7 @@ fa''8 mib'' re'' re'' mi'' fad'' |
 sol''2 sol''4 |
 sol''4. la''8 fad''4 |
 sol''2. |
-R2.*5 |
+R2.*5 |\allowPageTurn
 r4 la'' sol'' |
 fad''4. mi''8 fad''4 |
 sol''4 re'' mi'' |

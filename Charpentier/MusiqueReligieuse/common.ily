@@ -85,6 +85,8 @@
             (#:notes "dessus1"))
    (dessus2 "Seconds dessus de violons" ()
             (#:notes "dessus2"))
+   (dessus "Dessus de violons" ()
+           (#:notes "dessus"))
    (basse-continue "Basse continue" ()
                    (#:notes "basse" #:clef "basse" #:score-template "score-basse-continue"))
    (voix "Parties vocales" ()

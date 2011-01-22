@@ -172,7 +172,7 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/Opera/DavidEtJonathas,\
 dessus1 dessus2 haute-contre taille basse voix,part-bc,basse-continue))
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/MusiqueReligieuse/H73_Magnificat,\
-dessus1 dessus2 voix basse-continue,,))
+dessus voix basse-continue,,))
 $(eval $(call MAKE_SCORE_RULE,Charpentier/MusiqueReligieuse/H73_Magnificat,-orig,-dancient-style,main))
 
 ### Haendel
