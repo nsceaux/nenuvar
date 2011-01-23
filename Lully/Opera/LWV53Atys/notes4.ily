@@ -582,4 +582,28 @@
     }
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EEBsangarChoeur mesure 7
+  \excerpts-end \column {
+    \line { \bold { Sangar, chœur des Fleuves } (page \page-refIII #'EEBsangarChoeur ) }
+    \line { Mesure 7, Sangar }
+  }
+  \score {
+    <<
+      { \startQuote #7 \set autoBeaming = ##f
+        \key do \major \clef "bass" \time 4/4
+        mi4 r8 do' la8. la16 mi8. fa16 | sol4
+      } \addlyrics { -rents, voy -- ez quel est l'es -- poux }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #7 \set autoBeaming = ##f
+        \key do \major \clef "bass" \time 4/4
+        mi4 r8 do' la8. la16 mi8. fad16 | sol4
+      } \addlyrics { -rents, voy -- ez quel est l'es -- poux }
+    >>
+    \layout { \quoteLayout }
+  }
 }
