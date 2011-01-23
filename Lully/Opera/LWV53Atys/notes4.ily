@@ -607,7 +607,7 @@
     \layout { \quoteLayout }
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %% EDAritournelle
+  %% EECsangarChoeur
   \column {
     \null
     \line { \bold { Sangar, chœur des Fleuves : \italic { Que l'on chante } }
@@ -615,5 +615,105 @@
     \wordwrap { Dans le manuscrit, les mesures 52 à 58, identiques au
       mesures 38 à 44, ne sont pas notées. }
     \null\sep
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EEDfluteChoeur
+  \column {
+    \null
+    \line { \bold { Dieux du Fleuves, Divinités des fontaines et des ruisseaux :
+      \italic { La beauté la plus sévère } }
+      (page \page-refIII #'EEDfluteChoeur) }
+    \wordwrap {
+      Dans le manuscrit, le trio chanté est placé avant le trio pour
+      flûtes, dont seules les premières mesure de la partie de première
+      flûte sont notées.  Par ailleurs, il comporte des vers supplémentaires :
+    }
+  }
+  \score {
+    <<
+      { \set autoBeaming = ##f
+        \key do \major \digitTime \time 2/2 \clef "treble"
+        \partial 2 mi''4. mi''8 |
+        re''4 re'' sol''4. sol''8 |
+        mi''4 mi'' fa''4. fa''8 |
+        fa''4 mi'' re''4. do''8 |
+        do''2 \bar "||" mi''4. mi''8 |
+        re''4 re'' sol''4. sol''8 |
+        mi''4 mi'' fa''4. fa''8 |
+        fa''4 mi'' re''4. do''8 |
+        do''2 \bar ":|"
+      } \addlyrics {
+        La beau -- té la plus sé -- vè -- re
+        prend pi -- tié d'un long tour -- ment,
+        et l'a -- mant qui per -- sé -- vè -- re
+        de -- vient un heu -- reux a -- mant.
+      } \addlyrics {
+        Il n'est point de ré -- sis -- tan -- ce
+        dont le temps ne vienne à bout,
+        et l'ef -- fort de la cons -- tan -- ce
+        à la fin doit vain -- cre tout.
+      }
+    >>
+    \layout { indent = 0 }
+  }
+  %% mesure 26
+  \excerpts \line { Mesure 26, bas-dessus }
+  \score {
+    <<
+      { \startQuote #26 \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 2/2
+        si'4 si' si'4. mi''8 | dod''4 re''
+      } \addlyrics { rou -- te en s'ef -- for -- çant }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #26 \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 2/2
+        si'4 si' mi''4. mi''8 | dod''4 re''
+      } \addlyrics { rou -- te en s'ef -- for -- çant }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 30
+  \excerpts \line { Mesure 30, bas-dessus }
+  \score {
+    <<
+      { \startQuote #30 \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 2/2
+        do''4 do'' la'4. la'8 | si'4
+      } \addlyrics { gout -- te per -- ce le }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #30 \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 2/2
+        la'4 la' la'4. la'8 | si'4
+      } \addlyrics { gout -- te per -- ce le }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 31
+  \excerpts-end \line { Mesure 31, dessus }
+  \score {
+    <<
+      { \startQuote #31 \set autoBeaming = ##f
+        \key do \major \clef "treble" \time 2/2
+        re''4 mi'' re''4. do''8 | do''2 \bar "|."
+      } \addlyrics { le plus dur ro -- cher. }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #31 \set autoBeaming = ##f
+        \key do \major \clef "treble" \time 2/2
+        re''4 mi''8[ fa''] re''4. do''8 | do''2 \bar "|."
+      } \addlyrics { le plus dur ro -- cher. }
+    >>
+    \layout { \quoteLayout }
   }
 }
