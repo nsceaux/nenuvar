@@ -606,4 +606,14 @@
     >>
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EDAritournelle
+  \column {
+    \null
+    \line { \bold { Sangar, chœur des Fleuves : \italic { Que l'on chante } }
+      (page \page-refIII #'EECsangarChoeur) }
+    \wordwrap { Dans le manuscrit, les mesures 52 à 58, identiques au
+      mesures 38 à 44, ne sont pas notées. }
+    \null\sep
+  }
 }

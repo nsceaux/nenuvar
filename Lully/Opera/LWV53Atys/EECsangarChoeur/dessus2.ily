@@ -22,7 +22,7 @@ fa''2 la''4 re'' do'' sib' |
 la'2\trill la'4 r la' re'' |
 sib'2 sib'4 mib''4. re''8 do'' sib' |
 la'4 la' re'' sib'2 do''4 |
-la'2 re''4 si'2\trill si'4 |
+la'2 re''4 si'!2\trill si'4 |
 r si' si' do''4. re''8 mi''4 |
 la'4 la' la' re'' la' re'' |
 si'2\trill mi''4 do'' re'' si' |
