@@ -3,7 +3,7 @@ la' la'4 |
 re'' re''2 |
 si'\trill si'4 |
 si' dod''2 |
-re'' do''4 |
+re'' do''!4 |
 re'' si'2\trill |
 do''2. |
 si'4 si'2 |

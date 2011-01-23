@@ -716,4 +716,41 @@
     >>
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EEEfluteChoeur
+  \column {
+    \null
+    \line { \bold { Dieux du Fleuves, Divinités des fontaines et des ruisseaux :
+      \italic { L'hymen seul ne saurait plaire } }
+      (page \page-refIII #'EEEfluteChoeur) }
+    \wordwrap {
+      De même que dans la pièce précédente, dans le manuscrit, le trio chanté
+      est placé avant le trio pour flûtes, qui n'est pas du tout noté (les
+      portées sont vides.) Le manuscrit comporte des vers supplémentaires :
+    }
+    \score {
+      <<
+        { \set autoBeaming = ##f
+          \key do \major \digitTime \time 3/4 \clef "treble"
+          \set Score.measureLength = #(ly:make-moment 6 4) \partial 2.
+          mi''4 mi''2 | do'' do''4 fa'' fa''2 | re'' re''4
+          sol'' mi''2 | fa'' mi''4 fa'' re''2 | do''2. \bar "||"
+          mi''4 mi''2 | do'' do''4 fa'' fa''2 | re'' re''4
+          sol'' mi''2 | fa'' mi''4 fa'' re''2 | do''2. \bar ":|"
+        } \addlyrics {
+          L'hy -- men seul ne sçau -- roit plai -- re,
+          il a beau flat -- ter nos vœux.
+          L'a -- mour seul a droit de fai -- re
+          les plus doux de tous les nœuds.
+        } \addlyrics {
+          L'a -- mour trou -- ble tout le mon -- de,
+          c'est la sour -- ce de nos pleurs.
+          C'est un feu brû -- lant dans l'on -- de,
+          c'est l'es -- cüeil des plus grands cœurs.
+        }
+      >>
+      \layout { indent = 0 }
+    }
+    \null\sep
+  }
 }
