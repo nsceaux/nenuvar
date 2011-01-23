@@ -1,6 +1,6 @@
 \clef "basse" do2 do |
 sol sol |
-do'8( si) do'( re') do'( si) la( sol) |
+do'8( sib) do'( re') do'( sib) la( sol) |
 fa2 fad |
 sol8( la) sol( fa) mi( re) do( si,) |
 la,2 la |

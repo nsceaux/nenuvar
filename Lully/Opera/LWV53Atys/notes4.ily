@@ -513,4 +513,73 @@
       sol8 mib lab fa sol sol, | do2. \bar "|." }
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EEAprelude mesure 8
+  \excerpts \column {
+    \line { \bold { Scène V, Prélude pour le Fleuves }
+      (page \page-refIII #'EEAprelude ) }
+    \line { Mesure 8, dessus }
+  }
+  \score {
+    { \startQuote #8
+      \key do \major \clef "french" \time 2/2
+      mi''8( fa'') sol''( mi'') la''( si'') la''( sol'') | fad''2
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #8
+      \key do \major \clef "french" \time 2/2
+      mi''8 fa'' sol'' mi'' la'' sib'' la'' sol'' | fad''2
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 10
+  \excerpts \line { Mesure 10, dessus }
+  \score {
+    { \startQuote #10
+      \key do \major \clef "french" \time 2/2
+      sol''4. la''8 fad''4. sol''8 | sol''4
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #10
+      \key do \major \clef "french" \time 2/2
+      sol''4. la''8 fad''4. mi''16 fad'' | sol''4
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 17
+  \excerpts \line { Mesure 17, quinte }
+  \score {
+    { \startQuote #17
+      \key do \major \clef "alto" \time 2/2
+      re'8 si si4 do' la | si
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #17
+      \key do \major \clef "alto" \time 2/2
+      re'4 si do' la | si
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 18
+  \excerpts-end \line { Mesure 18, haute-contre }
+  \score {
+    { \startQuote #18
+      \key do \major \clef "soprano" \time 2/2
+      si'4. si'8 la' la' sol'8. sol'16 | mi'1 |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #18
+      \key do \major \clef "soprano" \time 2/2
+      si'4. si'8 la' la' sol'8. fa'16 | mi'1 |
+    }
+    \layout { \quoteLayout }
+  }
 }
