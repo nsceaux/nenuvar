@@ -516,7 +516,7 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% EEAprelude mesure 8
   \excerpts \column {
-    \line { \bold { Scène V, Prélude pour le Fleuves }
+    \line { \bold { Scène V, prélude pour le Fleuves }
       (page \page-refIII #'EEAprelude ) }
     \line { Mesure 8, dessus }
   }
@@ -620,7 +620,7 @@
   %% EEDfluteChoeur
   \column {
     \null
-    \line { \bold { Dieux du Fleuves, Divinités des fontaines et des ruisseaux :
+    \line { \bold { Dieux du fleuve, divinités des fontaines et des ruisseaux :
       \italic { La beauté la plus sévère } }
       (page \page-refIII #'EEDfluteChoeur) }
     \wordwrap {
@@ -720,7 +720,7 @@
   %% EEEfluteChoeur
   \column {
     \null
-    \line { \bold { Dieux du Fleuves, Divinités des fontaines et des ruisseaux :
+    \line { \bold { Dieux du fleuve, divinités des fontaines et des ruisseaux :
       \italic { L'hymen seul ne saurait plaire } }
       (page \page-refIII #'EEEfluteChoeur) }
     \wordwrap {
@@ -752,5 +752,41 @@
       \layout { indent = 0 }
     }
     \null\sep
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EEFmenuet mesure 2
+  \excerpts \column {
+    \line { \bold { Menuet } (page \page-refIII #'EEFmenuet ) }
+    \line { Mesures 2-3, quinte }
+  }
+  \score {
+    { \startQuote #2
+      \key la \minor \clef "alto" \time 3/4
+      la2 re'4 | do' la si |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #2
+      \key la \minor \clef "alto" \time 3/4
+      la4 re' do' | la2 si4 |
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 3
+  \excerpts-end \line { Mesure 3, haute-contre }
+  \score {
+    { \startQuote #3
+      \key la \minor \clef "soprano" \time 3/4
+      do''8 si' do'' re'' do''4 | la'
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #3
+      \key la \minor \clef "soprano" \time 3/4
+      do''8 si' do'' re'' si'4 | la'
+    }
+    \layout { \quoteLayout }
   }
 }
