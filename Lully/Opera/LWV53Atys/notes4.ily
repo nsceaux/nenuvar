@@ -1024,7 +1024,7 @@
   }
   \score {
     <<
-      { \startQuote #11
+      { \startQuote #11 \set autoBeaming = ##f
         \key do \major \clef "alto" \time 2/2
         re'4 mi' sol' re' | mi'
       } \addlyrics { bien heu -- reux a -- mants. }
@@ -1033,11 +1033,39 @@
   }
   \score {
     <<
-      { \startQuote #11
+      { \startQuote #11 \set autoBeaming = ##f
         \key do \major \clef "alto" \time 2/2
         fa'4 sol' sol' re' | mi'
       } \addlyrics { bien heu -- reux a -- mants. }
     >>
     \layout { \quoteLayout }
+  }
+  %% mesure 33
+  \excerpts \line { Mesure 33, dessus chantant }
+  \score {
+    <<
+      { \startQuote #33 \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 2/2
+        re''4 r r8 re'' re'' re'' | si'
+      } \addlyrics { nous, op -- po -- sons- nous }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #33 \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 2/2
+        re''4 r r8 re'' re'' do'' | si'
+      } \addlyrics { nous, op -- po -- sons- nous }
+    >>
+    \layout { \quoteLayout }
+  }
+  %%
+  \column {
+    \null\justify {
+      Le manuscrit comporte l'indication suivante à la fin du quatrième acte :
+      \italic { on reprend pour entr'acte le menuet de Flore. }
+    }
+    \null\sep
   }
 }
