@@ -845,4 +845,71 @@
     \null\sep
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EEHgavotte mesure 7
+  \excerpts \column {
+    \line { \bold { Gavotte } (page \page-refIII #'EEHgavotte ) }
+    \line { Mesure 7, haute-contre }
+  }
+  \score {
+    { \startQuote #7
+      \key la \minor \clef "soprano" \time 2/2
+      re''4 si' do''4. do''8 | si'4
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #7
+      \key la \minor \clef "soprano" \time 2/2
+      re''4 si' do''4 do''8 re'' | si'4
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 8
+  \excerpts \line { Mesure 8, taille }
+  \score {
+    { \startQuote #8
+      \key la \minor \clef "mezzosoprano" \time 2/2
+      sol'4 mi' mi'4. mi'8 | re'4
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #8
+      \key la \minor \clef "mezzosoprano" \time 2/2
+      sol'8 fa' mi'4 mi'4. mi'8 | re'4
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 11
+  \excerpts \line { Mesure 11, haute-contre }
+  \score {
+    { \startQuote #11
+      \key la \minor \clef "soprano" \time 2/2
+      si'4 mi' mi'2 | mi'
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #11
+      \key la \minor \clef "soprano" \time 2/2
+      sold'4 la' mi'2~ | mi'
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 16
+  \excerpts-end \line { Mesure 16, quinte }
+  \score {
+    { \startQuote #15
+      \key la \minor \clef "alto" \time 2/2
+      re'4 mi' mi'4. si8 | do'2 \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #15
+      \key la \minor \clef "alto" \time 2/2
+      re'4 mi' mi'4. si8 | dod'2 \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
 }

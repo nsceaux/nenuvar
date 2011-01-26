@@ -1,11 +1,11 @@
 \clef "haute-contre" la'4 sold' |
-la'2 la'4 sol' |
+la'2 la'4 sol'! |
 sol' sol'8 la' si'4 si'8 do'' |
 la'4 si'8 do'' re'' do'' si' la' |
 sold'4 la' do'' do''8 re'' |
-mi''4 dod'' re'' re''8 do'' |
+mi''4 dod'' re'' re''8 do''? |
 si'2 si'4 dod'' |
-re'' si' do''4. do''8 |
+re'' si' do''!4. do''8 |
 si'4 do'' la'4. la'8 |
 la'4 la' sol'4. sol'8 |
 sol'4 sol' sol' la' |
