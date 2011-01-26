@@ -912,4 +912,132 @@
     }
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EEIchoeur mesure 0
+  \excerpts \column {
+    \line { \bold { Gavotte } (page \page-refIII #'EEHgavotte ) }
+    \line { Mesures 0-2, haute-contre chantante }
+  }
+  \score {
+    <<
+      { \startQuote #1
+        \key la \minor \clef "alto" \time 2/2 \partial 2
+        mi'4 mi' | do' do' re' mi' | mi'2 mi'4 mi' | do'
+      } \addlyrics { Un grand calme est trop fas -- cheux nous ai -- mons }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #1
+        \key la \minor \clef "alto" \time 2/2 \partial 2
+        mi'4 sol' | do' do' re' mi' | mi'2 mi'4 sol' | do'
+      } \addlyrics { Un grand calme est trop fas -- cheux nous ai -- mons }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 2
+  \excerpts \line { Mesures 2-3, taille chantante }
+  \score {
+    <<
+      { \startQuote #2
+        \key la \minor \clef "tenor" \time 2/2
+        sold2 la4 sold | la la sold la |
+      } \addlyrics { -cheux, nous ai -- mons mieux la tour- }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #2
+        \key la \minor \clef "tenor" \time 2/2
+        sold2 la4 la | sold la4. sold8 la4 |
+      } \addlyrics { -cheux, nous ai -- mons mieux la tour- }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 5
+  \excerpts \line { Mesure 5, dessus }
+  \score {
+    { \startQuote #5
+      \key la \minor \clef "french" \time 2/2
+      re''4 mi'' fa'' mi'' | re''
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #5
+      \key la \minor \clef "french" \time 2/2
+      re''4 mi'' fa'' mi''8 fa'' | re''4
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 5
+  \excerpts \line { Mesures 5-6, quinte }
+  \score {
+    { \startQuote #5
+      \key la \minor \clef "alto" \time 2/2
+      re'4 do' do' do' | re' mi' do'4. do'8 | re'4
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #5
+      \key la \minor \clef "alto" \time 2/2
+      re'4 mi' do'4. do'8 | re'4 do' do'4. do'8 | re'4
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 12
+  \excerpts \line { Mesures 12-14, haute-contre chantante }
+  \score {
+    <<
+      { \startQuote #13
+        \key la \minor \clef "alto" \time 2/2 \partial 2
+        mi'4 mi' | do' do' re' mi' | mi' do' \bar "|."
+      } \addlyrics { nous ai -- mons mieux la tour -- men -- te }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #13
+        \key la \minor \clef "alto" \time 2/2 \partial 2
+        mi'4 sol' | do' do' re' mi' | mi' dod' \bar "|."
+      } \addlyrics { nous ai -- mons mieux la tour -- men -- te }
+    >>
+    \layout { \quoteLayout }
+  }
+  %%
+  \column {
+    \null\justify {
+      Le manuscrit comporte l'indication suivante à la fin du chœur :
+      \italic { on reprend la symphonie et ensuitte le mesme chœur. }
+    }
+    \null\sep
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% EEIchoeur mesure 11
+  \excerpts \column {
+    \line { \bold { Scène V } (page \page-refIII #'EFAchoeur ) }
+    \line { Mesure 11, haute-contre chantante }
+  }
+  \score {
+    <<
+      { \startQuote #11
+        \key do \major \clef "alto" \time 2/2
+        re'4 mi' sol' re' | mi'
+      } \addlyrics { bien heu -- reux a -- mants. }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #11
+        \key do \major \clef "alto" \time 2/2
+        fa'4 sol' sol' re' | mi'
+      } \addlyrics { bien heu -- reux a -- mants. }
+    >>
+    \layout { \quoteLayout }
+  }
 }
