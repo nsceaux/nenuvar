@@ -17,7 +17,7 @@
     fad'\trill re'' re'' re'' fad'8. fad'16 sol'8 sol'16 sol' la'8 si'16 do'' |
     si'4\trill r8 re''16 re'' si'8\trill si'16 si' |
     do''4 la'8.\trill la'16 la'8 la'16 sol' |
-    fad'8\trill fad' si' si'16 la' la'8. sol'16 |
+    fad'8\trill fad' si' si'16 la' la'8. sold'16 |
     sold'4 r si'16 si' si' si' mi'8 fad'16 sold' |
     la'8. la'16 la' la' si' dod'' re''8. re''16 re'' re'' re'' mi'' |
     dod''8\trill dod''

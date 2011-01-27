@@ -56,7 +56,7 @@
     Ballard 1689.  Ces indications ont été ajoutées dans cette édition.
   }
 
-  \section \line { Adaptations dans la notation }
+  \section \line { Choix éditoriaux }
   \line { [ici expliquer les adaptations sur les clés/armures/mesures, les paroles, etc] }
 }
 

@@ -2,7 +2,7 @@
 la'4 la'8 si' dod''4 si'8 la' |
 re''2 re''4. re''8 |
 re''4. do''8 do''4. re''8 |
-si'2. si'8 dod'' |
+si'2. si'8 dod''! |
 re''4. re''8 dod''4. dod''8 |
 fad'4. re''8 re''4. re''8 |
 re''4 dod'' si'4. mi''8 |

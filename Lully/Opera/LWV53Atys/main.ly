@@ -27,6 +27,6 @@
   %\include "Lully/Opera/LWV53Atys/notes1.ily"
   %\include "Lully/Opera/LWV53Atys/notes2.ily"
   %\include "Lully/Opera/LWV53Atys/notes3.ily"
-  \include "Lully/Opera/LWV53Atys/notes4.ily"
-  %\include "Lully/Opera/LWV53Atys/notes5.ily"
+  %\include "Lully/Opera/LWV53Atys/notes4.ily"
+  \include "Lully/Opera/LWV53Atys/notes5.ily"
 }

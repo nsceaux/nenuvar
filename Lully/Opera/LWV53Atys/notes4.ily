@@ -1019,7 +1019,7 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% EEIchoeur mesure 11
   \excerpts \column {
-    \line { \bold { Scène V } (page \page-refIII #'EFAchoeur ) }
+    \line { \bold { Scène VI } (page \page-refIII #'EFAchoeur ) }
     \line { Mesure 11, haute-contre chantante }
   }
   \score {
