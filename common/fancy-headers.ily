@@ -86,11 +86,13 @@
                           (if odd
                               (set! odd-page-header-table page-header-table)
                               (set! even-page-header-table page-header-table))))
-                     (interpret-markup layout props
-                                       (markup #:page-header (page-text (chain-assoc-get 'page:page-number props -1)
-                                                                        (if odd
-                                                                            odd-page-header-table
-                                                                            even-page-header-table))))))))
+                      (let ((page-number-markup (or (page-text (chain-assoc-get 'page:page-number props -1)
+                                                               (if odd
+                                                                   odd-page-header-table
+                                                                   even-page-header-table))
+                                                    "")))
+                        (interpret-markup layout props
+                                          (markup #:page-header page-number-markup)))))))
        (cons 0 0)
        (ly:stencil-extent (interpret-markup layout props "XXX") Y))))
   (set! add-odd-page-header-text
