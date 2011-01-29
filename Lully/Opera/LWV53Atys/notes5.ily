@@ -349,4 +349,77 @@
     }
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% FDAatysCybele mesure 13
+  \excerpts \column {
+    \line { \bold { Scène IV } (page \page-refIII #'FDAatysCybele ) }
+    \line { Mesure 13, Atys }
+  }
+  \score {
+    <<
+      { \startQuote #13 \set autoBeaming = ##f
+        \key do \major \clef "alto" \time 4/4
+        fa'4 r16 re' re' re' la8. la16 la8. si16 | do'4 do'8.
+      } \addlyrics { "-cours ?" Di -- vi -- ni -- té tou -- te puis -- san -- te }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #13 \set autoBeaming = ##f
+        \key do \major \clef "alto" \time 4/4
+        fa'4 r16 re' re' re' la4 la8 la16 si | do'4 do'8 r16
+      } \addlyrics { "-cours ?" Di -- vi -- ni -- té tou -- te puis -- san -- te }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 19
+  \excerpts \line { Mesure 19, Atys }
+  \column {
+    \score {
+      <<
+        { \startQuote #19 \set autoBeaming = ##f
+          \key do \major \clef "alto" \time 4/4 \partial 2
+          sol'4 re'16 re' re' re' | si8 si
+        } \addlyrics { Ah quel -- le bar -- ba -- ri -- "e !" }
+      >>
+      \layout { \quoteLayout }
+    }
+    \wordwrap {
+      L'exemplaire du Ballard 1689 utilisé est raturé : les deux
+      dernières notes sont corrigées en \italic sol.
+    }
+  }
+  \column {
+    \score {
+      <<
+        { \startQuote #19 \set autoBeaming = ##f
+          \key do \major \clef "alto" \time 4/4 \partial 2
+          sol'4 re'16 re' re' re' | sol8 sol
+        } \addlyrics { Ah quel -- le bar -- ba -- ri -- "e !" }
+      >>
+      \layout { \quoteLayout }
+    }
+    \wordwrap \bold { Version retenue. }
+  }
+  %% mesure 55
+  \excerpts-end \line { Mesure 55, Atys }
+  \score {
+    <<
+      { \startQuote #55 \set autoBeaming = ##f
+        \key do \major \clef "alto" \time 4/4
+        mib'8 mib'16 mib' la8 la16 sib sib8 sib r re'16 re' | mi'8.
+      } \addlyrics { maux que la ra -- ge peut fai -- "re !" Bien heu -- reux }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #55 \set autoBeaming = ##f
+        \key do \major \clef "alto" \time 4/4
+        mib'8. mib'16 mib' la la sib sib8 sib r re'16 re' | mi'8.
+      } \addlyrics { maux que la ra -- ge peut fai -- "re !" Bien heu -- reux }
+    >>
+    \layout { \quoteLayout }
+  }
 }

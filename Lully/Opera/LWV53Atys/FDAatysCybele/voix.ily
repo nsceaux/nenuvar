@@ -95,7 +95,7 @@
     sol2\trill sol'4. sol'8 |
     do'4 lab' fa'8 re'16 re' |
     si8 si mib'8. mib'16 mib'8 fa'16 sol' |
-    lab'8 re'16 fa' si8. si16 si8 do'16 re' |
+    lab'8 re'16 fa' si8. si16 si8 si16 do' |
     do'4 << \tag #'atys do'4 \tag #'basse { do'8 s } >>
     << { s2 s1*6 s4. } \tag #'atys { r2 | R1*6 | r4 r8 } >>
     \tag #'basse \atysMark mib'8 sol\trill sol r mib'16 mib' |
@@ -115,7 +115,7 @@
     do'2 do'4
     << { s4 s1*6 s2 } \tag #'atys { r4 | R1*6 | r2 } >>
     \tag #'basse \atysMark re'4 re'16 re' re' re' |
-    sib8 sib16 sib do'8 do'16 do' do'8 re' |
+    si8 si16 si do'8 do'16 do' do'8 re' |
     mib'4 sol'8 sol'16 sol' do'8. do'16 do'8. do'16 |
     la8\trill la16 fa' fa' fa' mib' re' mib'8 mib' |
     lab'8. fa'16 re'8.\trill re'16 si8\trill si16 do' |
