@@ -8,7 +8,7 @@ Il est ai -- sé d'ai -- mer un cri -- mi -- nel ai -- ma -- ble
 a -- près l'a -- voir pu -- ni.
 Il est ai -- sé d'ai -- mer un cri -- mi -- nel ai -- ma -- ble
 a -- près l'a -- voir pu -- ni.
-Que son dé -- ses -- poir m'é -- pou -- van -- "te !"
+Que son dés -- es -- poir m'é -- pou -- van -- "te !"
 Ses jours sont en pé -- ril, et j'en fré -- mis d'ef -- "froi :"
 je veux d'un soin si cher ne me fi -- er qu'à moi.
 Al -- lons... mais quel spec -- tacle à mes yeux se pré -- sen -- "te ?"

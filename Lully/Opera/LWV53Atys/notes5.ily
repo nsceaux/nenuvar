@@ -422,4 +422,28 @@
     >>
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% FEAcybeleMelisse mesure 14
+  \excerpts-end \column {
+    \line { \bold { Scène V } (page \page-refIII #'FEAcybeleMelisse ) }
+    \line { Mesure 14, Cybèle }
+  }
+  \score {
+    <<
+      { \startQuote #14 \set autoBeaming = ##f
+        \key re \minor \clef "soprano" \time 4/4
+        sol'4 r8 re'' re'' re''16 mib'' fa''8 fa''16 fa'' | sib'8 sib'
+      } \addlyrics { -ni. Que son dés -- es -- poir m'é -- pou -- van -- "te !" }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #14 \set autoBeaming = ##f
+        \key re \minor \clef "soprano" \time 4/4
+        sol'4 r8 re'' re'' re''16 mi'' fa''8 fa''16 fa'' | sib'8 sib'
+      } \addlyrics { -ni. Que son dés -- es -- poir m'é -- pou -- van -- "te !" }
+    >>
+    \layout { \quoteLayout }
+  }
 }
