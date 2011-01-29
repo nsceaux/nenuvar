@@ -1,4 +1,4 @@
-\clef "basse" re'4 r8 re' |
+\clef "basse" re4 re' r8 re' |
 do'4 do' r8 do' |
 sib4 sib r8 sol |
 la4 la r8 la, |

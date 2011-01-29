@@ -1,7 +1,7 @@
 \oldKey la \minor
 \newKey re \minor
-\digitTime\time 3/4 \midiTempo #80 \partial 2
-s2 s2.*3
+\digitTime\time 3/4 \midiTempo #80
+s2.*4
 \time 4/4
 s1*7
 \time 2/2 \midiTempo #160

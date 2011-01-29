@@ -48,4 +48,4 @@ sol,2 la,~ |
 la,1 |
 re2 la4 fad |
 sol8 mi la fad si sol la la, |
-re4 \custosNote re'
+\custosNote re4

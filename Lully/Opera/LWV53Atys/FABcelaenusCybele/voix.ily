@@ -40,9 +40,9 @@
     re''4
     << { s2. s2.. } \tag #'cybele { r4 r2 | r2 r4 r8 } >>
     \tag #'basse \cybeleMark mi''8 dod''8.\trill dod''16 dod''8. mi''16 la'8 la'16 la' mi'8 fad'16 sol' |
-    fad'8.\trill la'16 la' la' la' si' do''8 %{ dod''8 1ère édition %} la'16 la' re''8 re''16 re'' |
+    fad'8.\trill la'16 la' la' la' si' do''?8 %{ dod''8 1ère édition %} la'16 la' re''8 re''16 re'' |
     si'8\trill si'16 mi'' dod''8\trill mi''16 fad'' re''4 re''8 dod'' |
-    re''4
+    \custosNote re''4
   }
 
   %% Celænus
@@ -73,6 +73,6 @@
         R1*2 | R2.*2 | R1*3 | R2. | R1*2 | r4 } >>
     \tag #'basse \celaenusMark r8 la fad8.\trill fad16 sol8 la |
     si8 si16 si sol8\trill sol16 si mi4 << \tag #'celaenus mi4 \tag #'basse { mi8 s } >>
-    \tag #'celaenus { R1*3 | r4 }
+    \tag #'celaenus { R1*3 | }
   }
 >>

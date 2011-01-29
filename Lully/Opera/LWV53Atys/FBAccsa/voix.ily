@@ -1,7 +1,7 @@
 <<
   %% Cybèle
   \tag #'(cybele basse) {
-    \cybeleMark r2 |
+    \cybeleMark re''4 r2 |
     R2.*3 |
     r4 r8 la' re'' re''16 fa'' re''8\trill re''16 mi'' |
     dod''4 dod'' r2 |
@@ -27,7 +27,7 @@
     sib'4 r16 sib' sib' do'' la'4 re'' |
     << \tag #'cybele dod''4 \tag #'basse { dod''8 s } >>
     << { s4. } \tag #'cybele { r4 r8 } >>
-    \tag #'basse \cybeleMark la'8 si'16\trill si' do'' re'' |
+    \tag #'basse \cybeleMark la'8 si'16\trill si' do''? re'' |
     mi''4 << \tag #'cybele mi''4 \tag #'basse { mi''8 s } >>
     << { s2 s2. s1*2 s2. } \tag #'cybele { r2 | R2. | R1*2 | R2. } >>
     \tag #'basse \cybeleMark r2 la'4 |
@@ -43,7 +43,7 @@
     re'' mi'' fa'' |
     mi''2\trill do''4 |
     la'4.\trill la'8 fa''4 |
-    mi''4. fa''8 dod''4 |
+    re''4. mi''8 dod''4 |
     re'' re'' r2 |%%
     do''8. do''16 la'8\trill la'16 do'' fa'8 do''16 do'' fa''8 fa''16 fa'' |
     re''4\trill re''8 re''16 re'' re''8 fa'' |
@@ -57,7 +57,7 @@
 
   %% Sangaride
   \tag #'(sangaride basse) {
-    << { s2 s2.*3 s1*2 } \tag #'sangaride { \sangarideMark r2 | R2.*3 | R1*2 } >>
+    << { s2.*4 s1*2 } \tag #'sangaride { \sangarideMark R2.*4 | R1*2 } >>
     \tag #'basse \sangarideMark re''4 r8 la' sib'4 sib'8 sib' |
     sol'4\trill sol'8 la' fa'4\trill fa'8 sol' |
     mi'4\trill r16 la' la' la' fad'8. fad'16 fad'8. sol'16 |
@@ -97,8 +97,7 @@
 
   %% Atys
   \tag #'atys {
-    \atysMark r2 |
-    R2.*3 |
+    \atysMark R2.*4 |
     R1*2 |
     fa'4 r8 fa' re'4\trill re'8 sol' |
     mi'4\trill mi'8 fa' re'4\trill re'8 mi' |
@@ -128,7 +127,7 @@
     R1 |
     r8 mi'16 mi' mi'8 mi'16 mi' fa'4 r |
     r4 r8 mi' mi'8. mi'16 mi'8 fad' |
-    sol'4 fa'8. mi'16 re'8 re'16 mi' |
+    sol'4 fa'!8. mi'16 re'8 re'16 mi' |
     dod'2 dod' |
     fa'8. fa'16 mi'8.\trill re'16 re'4 re'8. dod'16 |
     re'2 r4 |
@@ -143,8 +142,7 @@
 
   %% Celænus
   \tag #'celaenus {
-    \celaenusMark r2 |
-    R2.*3 |
+    \celaenusMark R2.*4 |
     r4 r8 re fa fa16 re sib8 sib16 sol |
     la4 la r2 |
     R1*3 |

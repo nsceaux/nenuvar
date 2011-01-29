@@ -1,3 +1,6 @@
+\tag #'(cybele basse) {
+  -gé.
+}
 %% ACTE 5 SCENE 2
 % Cybele et Celaenus.
 \tag #'(cybele celaenus basse) {

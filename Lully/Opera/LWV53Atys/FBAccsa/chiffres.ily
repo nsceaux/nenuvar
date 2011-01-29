@@ -1,5 +1,5 @@
 %% 192
-<_>2 <6>4\figExtOn <6>\bassFigureExtendersOff <_>
+<_>2. <6>4\figExtOn <6>\bassFigureExtendersOff <_>
 <7> <6> <_>8 <_- 5 6> <4>4 <_+>2 <_>2. <_>8. <_- 5 6>16
 
 <_+>1 <_>2 <_-> <_>4. <6>8 <_>4. <_- 5 6>8

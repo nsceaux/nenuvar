@@ -44,4 +44,3 @@ s2.
 \time 4/4
 s1*7
 \digitTime\time 3/4
-s4
