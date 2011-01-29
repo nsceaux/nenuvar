@@ -446,4 +446,28 @@
     >>
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% FFAcybeleIdasAtys mesure 5
+  \excerpts-end \column {
+    \line { \bold { Scène VI } (page \page-refIII #'FFAcybeleIdasAtys ) }
+    \line { Mesure 5, Cybèle }
+  }
+  \score {
+    <<
+      { \startQuote #5 \set autoBeaming = ##f
+        \key re \minor \clef "soprano" \time 4/4
+        sol'8 sol' r re'' mib'' do''16 do'' la'8 sib'16 do'' | fad'2
+      } \addlyrics { -ri -- e, c'est moy qui luy per -- ce le cœur. }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #5 \set autoBeaming = ##f
+        \key re \minor \clef "soprano" \time 4/4
+        sol'8 sol' r re'' mi'' do''16 do'' la'8 sib'16 do'' | fad'2
+      } \addlyrics { -ri -- e, c'est moy qui luy per -- ce le cœur. }
+    >>
+    \layout { \quoteLayout }
+  }
 }
