@@ -108,7 +108,7 @@
         \celaenusMark R1*5 R2.*2 R1*2 R2. R1 R2. R1 R2. R1*3
         R2.*3 R1*2 R2. R1 R2. R1*2 r4 } >>
     \tag #'basse \celaenusMark r8 si-\tag #'celaenus ^\markup\character "Celænus"
-    do' do'16 do' sol8\trill la16 sib |
+    do' do'16 do' sol8\trill la16 sib? |
     la4 la r2 |
     << { s1*16 } \tag #'celaenus { R1*16 } >>
     \tag #'basse \celaenusMark r8 do16-\tag #'celaenus ^\markup\character "Celænus" do

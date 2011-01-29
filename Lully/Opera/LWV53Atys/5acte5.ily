@@ -15,7 +15,7 @@
 %{ n°4 %}\newBookPart #'(full)
 \scene "Scène III"
 \sceneDescription \markup \smallCaps { Celænus, Cybèle, Sangaride, Atys. }
-\pieceTocTitle "Prélude" \includeScore "FCAprelude"
+\pieceTocTitle "Prélude pour Alecton" \includeScore "FCAprelude"
 %{ n°5 %}
 \pieceToc \markup { Atys, Sangaride, Celænus, Cybèle, chœur } \includeScore "FCBascc"
 %{ n°6 %}\newBookPart #'(full)
