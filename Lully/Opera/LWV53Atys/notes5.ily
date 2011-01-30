@@ -907,4 +907,203 @@
     }
     \null\wordwrap \bold { Version retenue. }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% FGFcybeleChoeur mesure 10
+  \excerpts \column {
+    \line { \bold { Cybèle, chœur } (page \page-refIII #'FGFcybeleChoeur ) }
+    \line { Mesures 10-11, dessus, taille }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \startQuote #10
+        \key do \major \clef "french" \time 3/4
+        re''8. re''16 mi''8. fa''16 re''8. do''16 | do''2
+      }
+      \new Staff {
+        \key do \major \clef "mezzosoprano" \time 3/4
+        sol'8 sol' sol'8. sol'16 sol'8. sol'16 | sol'2
+      }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \startQuote #10
+        \key do \major \clef "french" \time 3/4
+        re''8. re''16 sol''8. sol''16 fa''8. sol''16 | sol''2
+      }
+      \new Staff {
+        \key do \major \clef "mezzosoprano" \time 3/4
+        sol'8 sol' do'8. do'16 re'8. re'16 | mi'2
+      }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 16
+  \excerpts \line { Mesure 16, Cybèle, dessus chantant }
+  \score {
+    \new ChoirStaff <<
+      \new Staff {
+        \startQuote #16 \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 3/2
+        do''2 sib'4 sib'8 la' si'?4. do''8 | si'2
+      } \addlyrics { eaux per -- dent tous leurs ap -- pas }
+      \new Staff {
+        \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 3/2
+        fad'2 sol'4 sol'8 sol' fad'4. fad'8 | sol'2
+      } \addlyrics { eaux per -- dent tous leurs ap -- pas }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff {
+        \startQuote #16 \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 3/2
+        do''2 re''4 re''8 do'' do''4( si'8) do'' | si'2
+      } \addlyrics { eaux per -- dent tous leurs ap -- pas }
+      \new Staff {
+        \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 3/2
+        fad'2 fad'4 fad'8 fad' fad'4 fad' | sol'2
+      } \addlyrics { eaux per -- dent tous leurs ap -- pas }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 18
+  \excerpts \line { Mesures 18-19, haute-contre }
+  \score {
+    { \startQuote #18
+      \key do \major \clef "soprano" \time 2/2
+      do''4. do''8 do''4. do''8 | do''2 do''4. sib'8 |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #18
+      \key do \major \clef "soprano" \time 2/2
+      do''4. do''8 re''4. re''8 | mi''4. re''8 do''4. si'8 |
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 19
+  \excerpts \line { Mesure 19, dessus chantant }
+  \score {
+    <<
+      { \startQuote #19 \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 2/2
+        sol''8[ la'' sol'' fa'' mi'' re'' do'' sib']( | la'2)
+      } \addlyrics { "- pon -" }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #19 \set autoBeaming = ##f
+        \key do \major \clef "soprano" \time 2/2
+        sol''8[ la'' sol'' fa'' mi'' re'' do'' si']( | la'2)
+      } \addlyrics { "[- pon -]" }
+    >>
+    \layout { \quoteLayout }
+  }
+  \column {
+    \null\line { Mesures 23-28 }
+    \wordwrap { La version du manuscrit, qui diffère de la version Ballard 1689
+      sur la plupart des parties, est donnée ici :
+    }
+    \score {
+      \new StaffGroupNoBar <<
+        \new StaffGroup <<
+          \new Staff {
+            \startQuote #23 \key do \major \clef "french" \time 2/2
+            fa''2 do''4. re''8 | mi''4. mi''8 mi''4. fa''8 |
+            re''2 r8 sol'' sol'' la'' | fad''4. fad''8 sol''4. sol''8 |
+            la''1 | re''4. re''8 re''4. re''8 | si'2
+          }
+          \new Staff {
+            \clef "soprano" do''2 do''4. do''8 | do''4. do''8 do''4. re''8 |
+            si'2 r8 re'' re'' re'' | re''4 re'' re''4. re''8 |
+            re''4 re'' r8 la' la' la' | si'4. si'8 si'4. si'8 | sol'2
+          }
+          \new Staff {
+            \clef "mezzosoprano" la'2 fa'4 la' | sol'4. sol'8 sol'4. sol'8 |
+            sol'2 r | r r8 re' re' re' |
+            re'4. mi'8 fad'?4. fad'8 | sol'4. sol'8 sol'4. sol'8 | sol'2
+          }
+          \new Staff {
+            \clef "alto" do'2 do' | do'4. do'8 do'4. do'8 |
+            re'2 r8 re' re' re' | re'4. re'8 re'4. re'8 |
+            re'2 re'4. re'8 | re'2 si4. si8 | si2
+          }
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \clef "soprano" \set autoBeaming = ##f
+            la'8[ sol' la' si' do'' si' do'' re'']( | mi''4.) mi''8 mi''4. fa''8 |
+            re''2 r8 si' si' do'' | la'4 la' si'4. do''8 |
+            re''4 re'' r8 re'' re'' re'' | re''4. re''8 re''4. re''8 | si'2
+          }
+          \new Staff {
+            \clef "alto" \set autoBeaming = ##f
+            fa'2 fa'4 la' | sol'4. sol'8 sol'4. sol'8 |
+            sol'2 r8 sol' sol' sol' | fad'4. fad'8 sol'4. sol'8 |
+            la'4. la'8 fad'4. fad'8 | sol'4. sol'8 sol'4. sol'8 | sol'2
+          }
+          \new Staff {
+            \clef "tenor" \set autoBeaming = ##f
+            do'1~ | do'4. do'8 do'4. do'8 |
+            si2 r8 re' re' re' | re'4 re' re'4. si8 |
+            la4 la la4. la8 | si4 si re'4. re'8 | mi'2
+          }
+          \new Staff {
+            \clef "bass" \set autoBeaming = ##f
+            fa8[ mi fa sol la si la si]( | do'4.) do'8 do'4. do'8 |
+            sol2 r8 sol sol sol | re'4\melisma mi'8[ re' do' si la sol] |
+            fad?[ sol fad mi re mi re do] | si,4.\melismaEnd si,8 si,4. si,8 | mi2
+          } \addlyrics { trem -- ble sous nos pas, que le ton -- ner -- re nous ré- }
+        >>
+        \new Staff {
+          \clef "bass" fa4. sol8 la4. si8 | do'2 do |
+          sol2. sol4 | re'2 si |
+          fad4. mi8 re4. do8 | si,2. si,4 | mi2.*2/3
+        }
+      >>
+      \layout { \quoteLayout ragged-right = ##f }
+    }
+  }
+  %% mesure 29
+  \excerpts \line { Mesure 29, taille }
+  \score {
+    { \startQuote #29
+      \key do \major \clef "mezzosoprano" \time 2/2
+      mi'2 mi'4 sol'8 sol' | sol'2
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #29
+      \key do \major \clef "mezzosoprano" \time 2/2
+      sol'2 sol'4 sol'8 sol' | sol'2
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 40
+  \excerpts-end \line { Mesure 40, taille }
+  \score {
+    { \startQuote #40
+      \key do \major \clef "mezzosoprano" \time 2/2
+      sol'4. fa'8 mi'4. fa'8 | re'2
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #40
+      \key do \major \clef "mezzosoprano" \time 2/2
+      sol'4 sol' sol'4. sol'8 | sol'2
+    }
+    \layout { \quoteLayout }
+  }
 }

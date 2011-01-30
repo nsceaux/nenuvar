@@ -14,7 +14,7 @@
     re''2 do''4 do''8 do'' do''4 si' |
     la'2\trill la' re''4. re''8 |
     re''2 do''4. do''8 |
-    do''2 sib'4 sib'8 la' si'4. do''8 |
+    do''2 sib'4 sib'8 la' si'?4. do''8 |
     si'2\trill
     << { s2 s1*23 s2 } \tag #'cybele { r2 | R1*23 | r2 } >>
     \tag #'basse \cybeleMark si'8 si'16 si' si'8. si'16 |
@@ -42,7 +42,7 @@
     << { s2 s1 s1.*2 s1 s1. s2 } \tag #'choeur {
         do''4. do''8 |
         la'2 si'4. si'8 |
-        sold'2 la'4 la'8 la' la'4 sol' |
+        sold'2 la'4 la'8 la' la'4 sol'? |
         fad'2 fad' sib'4. sib'8 |
         sol'2 la'4. la'8 |
         fad'2 sol'4 sol'8 sol' fad'4. fad'8 |

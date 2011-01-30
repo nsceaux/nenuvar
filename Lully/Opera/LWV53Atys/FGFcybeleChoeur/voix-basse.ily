@@ -34,7 +34,7 @@ re'4. re'8 re'4. re'8 |
 sol2 sol4 sol8 sol |
 mi2 mi4 mi |
 fa2. re4 |
-sol4\melisma la8[ sol] fa[ mi re do]( |
+sol4\melisma la8[ sol fa mi re do]( |
 si,4)\melismaEnd si, do8[ si,] do4 |
 sol,2 r2 |
 R1 |
