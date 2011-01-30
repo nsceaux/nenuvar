@@ -470,4 +470,24 @@
     >>
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% FGAritournelle mesure 4
+  \excerpts-end \column {
+    \line { \bold { Scène VII, ritournelle } (page \page-refIII #'FGAritournelle ) }
+    \line { Mesure 4, dessus II }
+  }
+  \score {
+    { \startQuote #4
+      \key do \major \clef "french" \time 2/2
+      si'2 si'4. si'8 | la'4.
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #4
+      \key do \major \clef "french" \time 2/2
+      si'2 si'4. do''8 | la'4.
+    }
+    \layout { \quoteLayout }
+  }
 }
