@@ -1091,7 +1091,7 @@
     \layout { \quoteLayout }
   }
   %% mesure 40
-  \excerpts-end \line { Mesure 40, taille }
+  \excerpts \line { Mesure 40, taille }
   \score {
     { \startQuote #40
       \key do \major \clef "mezzosoprano" \time 2/2
