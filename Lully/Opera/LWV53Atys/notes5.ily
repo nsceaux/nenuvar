@@ -675,7 +675,7 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% FGBcybeleChoeur mesure 8
   \excerpts-end \column {
-    \line { \bold { Entrée des nymphes } (page \page-refIII #'FGCnymphes ) }
+    \line { \bold { Entrée des Nymphes } (page \page-refIII #'FGCnymphes ) }
     \line { Mesure 14, flûte }
   }
   \score {
@@ -689,6 +689,100 @@
     { \startQuote #14
       \key sol \minor \clef "french" \time 3/2
       mib''4. fa''8 re''2. r8 do'' | do''1.~ | do'' \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% FGCnymphes mesure 4
+  \excerpts \column {
+    \line { \bold { Première entrée des Corybantes } (page \page-refIII #'FGDcorybantes ) }
+    \line { Mesure 4, haute-contre }
+  }
+  \score {
+    { \startQuote #4
+      \key do \major \clef "soprano" \time 6/4
+      la'4 si'2 dod''4 dod''4.( si'16 dod'') | re''4.
+    }
+    \layout { \quoteLayout }
+  }
+  \column {
+    \score {
+      { \startQuote #4
+        \key do \major \clef "soprano" \time 6/4
+        si'4 si'2 dod''4 dod''4. si'16 dod'' | re''4.
+      }
+      \layout { \quoteLayout }
+    }
+    \null\wordwrap \bold { Version retenue. }
+  }
+  %% mesure 5
+  \excerpts \line { Mesure 5, dessus, haute-contre, taille }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \startQuote #5
+        \key do \major \clef "french" \time 6/4
+        fad''4. re''16 re'' re''8 re'' la'4 re''2 |
+      }
+      \new Staff {
+        \key do \major \clef "soprano" \time 6/4
+        re''4. fad'16 fad' fad'8 fad' fad'4 fad'2 |
+      }
+      \new Staff {
+        \key do \major \clef "mezzosoprano" \time 6/4
+        re'4. re'16 re' re'8 re' re'4 re'2 |
+      }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \startQuote #5
+        \key do \major \clef "french" \time 6/4
+        fad''4. re''16*2/3 re'' re'' re''8 re'' la'4 re''2 |
+      }
+      \new Staff {
+        \key do \major \clef "soprano" \time 6/4
+        re''4. fad'16*2/3 fad' fad' fad'8 fad' fad'4 fad' mi' |
+      }
+      \new Staff {
+        \key do \major \clef "mezzosoprano" \time 6/4
+        re'4. re'16 re' re'8 re'16 re' re'4 re'2 |
+      }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 6
+  \excerpts \line { Mesure 6, taille }
+  \score {
+    { \startQuote #6
+      \key do \major \clef "mezzosoprano" \time 6/4
+      re'4 re'8 do' si4 si2. | \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #6
+      \key do \major \clef "mezzosoprano" \time 6/4
+      re'4. re'16 do' si4 si2. | \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 9
+  \excerpts-end \line { Mesures 9-10, taille }
+  \score {
+    { \startQuote #9
+      \key do \major \clef "mezzosoprano" \time 6/4
+      mi'4 dod'8 re' mi' dod' re'4 re' re' | re'4 mi' mi' mi' la si |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #9
+      \key do \major \clef "mezzosoprano" \time 6/4
+      mi'4 dod'8 re' mi' dod' re'4. re'8 \newSpacingSection re'8. re'32 re' |
+      \newSpacingSection do'4 re' re' re' la si |
     }
     \layout { \quoteLayout }
   }
