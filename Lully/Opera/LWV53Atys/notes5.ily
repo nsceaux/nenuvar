@@ -672,4 +672,24 @@
     >>
     \layout { \quoteLayout }
   }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% FGBcybeleChoeur mesure 8
+  \excerpts-end \column {
+    \line { \bold { Entrée des nymphes } (page \page-refIII #'FGCnymphes ) }
+    \line { Mesure 14, flûte }
+  }
+  \score {
+    { \startQuote #14
+      \key sol \minor \clef "french" \time 3/2
+      mib''2 re''2. do''4 | do''1. | \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #14
+      \key sol \minor \clef "french" \time 3/2
+      mib''4. fa''8 re''2. r8 do'' | do''1.~ | do'' \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
 }
