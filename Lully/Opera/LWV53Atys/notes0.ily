@@ -17,6 +17,7 @@
     Sauf indication contraire, c'est la version Ballard 1689 qui a
     été retenue dans cette édition. À gauche sont présentés les
     extraits tirés de Ballard 1689, et à droite ceux du manuscrit.
+    Les numéros de pages sont ceux de cette édition.
   }
   \null
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
