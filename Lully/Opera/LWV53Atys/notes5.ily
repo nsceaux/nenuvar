@@ -693,7 +693,7 @@
     \layout { \quoteLayout }
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %% FGCnymphes mesure 4
+  %% FGDcorybantes mesure 4
   \excerpts \column {
     \line { \bold { Première entrée des Corybantes } (page \page-refIII #'FGDcorybantes ) }
     \line { Mesure 4, haute-contre }
@@ -785,5 +785,126 @@
       \newSpacingSection do'4 re' re' re' la si |
     }
     \layout { \quoteLayout }
+  }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% FGEcorybantes mesure 1
+  \excerpts \column {
+    \line { \bold { Deuxième entrée des Corybantes } (page \page-refIII #'FGEcorybantes ) }
+    \line { Mesures 1-2, quinte }
+  }
+  \score {
+    { \key do \major \clef "alto" \digitTime\time 2/2
+      sol'8 do' do' do' re' re' si si | do' do' la la si sol sol8. sol16 |
+    }
+    \layout { indent=0 }
+  }
+  \score {
+    { \key do \major \clef "alto" \digitTime\time 2/2
+      sol'8 mi' do' do' re' re' si si | do' do' la la si si sol sol |
+    }
+    \layout { indent=0 }
+  }
+  %% mesure 6
+  \excerpts \line { Mesure 6, taille }
+  \score {
+    { \startQuote #6
+      \key do \major \clef "mezzosoprano" \time 3/4
+      do'4 re'4. re'8 | si2
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #6
+      \key do \major \clef "mezzosoprano" \time 3/4
+      do'4 do'4. re'8 | si2
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 11
+  \excerpts \line { Mesure 11, haute-contre }
+  \score {
+    { \startQuote #11
+      \key do \major \clef "soprano" \time 3/4
+      sol'4 sol' fad' | sol'2. | \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #11
+      \key do \major \clef "soprano" \time 3/4
+      sol'4 fad'4. sol'8 | sol'2. | \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 21
+  \excerpts \line { Mesure 21, taille }
+  \score {
+    { \startQuote #21
+      \key do \major \clef "mezzosoprano" \time 2/2
+      fa'8 fa'16 fa' re'8 re' re' re'16 re' re'8 re' |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #21
+      \key do \major \clef "mezzosoprano" \time 2/2
+      fa'8 fa'16 fa' re'8 re'16 re' re'8 re'16 re' re'8 re' |
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 21
+  \excerpts \line { Mesures 21-22, haute-contre }
+  \score {
+    { \startQuote #21
+      \key do \major \clef "soprano" \time 2/2
+      \once \override Score.TimeSignature #'stencil = ##f
+      la'8 la'16 la' la'8 la' si' si' si' si' |
+      \digitTime\time 3/4 do''4. mi'8 mi' fa' |
+    }
+    \layout { indent=0 }
+  }
+  \score {
+    { \startQuote #21
+      \key do \major \clef "soprano" \time 2/2
+      \once \override Score.TimeSignature #'stencil = ##f
+      la'8 la'16 la' la'8 la' si' si'16 si' si'8 si' |
+      \digitTime\time 3/4 do''4 mi'4. fa'8 |
+    }
+    \layout { indent=0 }
+  }
+  %% mesure 25
+  \excerpts \line { Mesure 25, haute-contre }
+  \score {
+    { \startQuote #25
+      \key do \major \clef "soprano" \time 2/2
+      la'8 la'16 la' la'8 la' sol' sol' si' si' |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #25
+      \key do \major \clef "soprano" \time 2/2
+      la'8 la'16 la' la'8 la' sol' sol'16 sol' sol'8 si' |
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 32
+  \excerpts-end \line { Mesure 32, quinte }
+  \score {
+    { \startQuote #31
+      \key do \major \clef "alto" \time 2/2
+      sol8 sol do' do' do' la sol8. sol16 | si1 | \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+  \column {
+    \score {
+      { \startQuote #31
+        \key do \major \clef "alto" \time 2/2
+        sol8 sol do' do' do' la sol8. sol16 | sol1 | \bar "|."
+      }
+      \layout { \quoteLayout }
+    }
+    \null\wordwrap \bold { Version retenue. }
   }
 }
