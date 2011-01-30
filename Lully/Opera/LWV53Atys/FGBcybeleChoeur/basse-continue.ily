@@ -61,7 +61,7 @@ lab fa sol sol, |
 do1 |
 sol,2 sol |
 lab1 |
-la |
+la! |
 sib2. sol4 |
 lab2 sib4 sib, |
 mib1 |

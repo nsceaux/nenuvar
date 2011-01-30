@@ -489,5 +489,187 @@
       si'2 si'4. do''8 | la'4.
     }
     \layout { \quoteLayout }
+ }
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %% FGBcybeleChoeur mesure 8
+  \excerpts \column {
+    \line { \bold { Cybèle, chœur } (page \page-refIII #'FGBcybeleChoeur ) }
+    \line { Mesure 8, basse continue }
+  }
+  \score {
+    { \startQuote #8
+      \key do \major \clef "bass" \time 2/2
+      sol4 fa sol sol, | do1 | \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #8
+      \key do \major \clef "bass" \time 2/2
+      sol4 la8 fa sol4 sol, | do1 | \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+  %% Mesure 9
+  \column {
+    \null\line { Mesure 9 }
+    \justify {
+      Sur le manuscrit, il est indiqué de reprendre la ritournelle après
+      \italic { Secondez mes tristes regrets. }
+    }
+  }
+  %% mesure 10
+  \excerpts \line { Mesure 10, basse continue }
+  \score {
+    { \startQuote #10
+      \key do \major \clef "bass" \time 4/4
+      do1 | sol,4
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #10
+      \key do \major \clef "bass" \time 4/4
+      do4. si,8 la,8. sol,16 fad,4 | sol,4
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 20
+  \excerpts \line { Mesure 20, basse continue }
+  \score {
+    { \startQuote #20
+      \key do \major \clef "bass" \time 4/4
+      la2 la8 si do' fa | sol2
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #20
+      \key do \major \clef "bass" \time 4/4
+      la4 la, la8 si do' fa | sol2
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 30
+  \excerpts \line { Mesures 30-31, taille chantante }
+  \score {
+    <<
+      { \startQuote #30 \set autoBeaming = ##f
+        \key sol \minor \clef "tenor" \time 4/4
+        re'4 re' r r8 sib16 sib | lab2 do'8. do'16 do'8. do'16 | sib4
+      } \addlyrics { -tu -- re. Cé -- lé -- brons son nou -- veau des -- tin }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    <<
+      { \startQuote #30 \set autoBeaming = ##f
+        \key re \minor \clef "tenor" \time 4/4
+        re'4 re' r r8 sol16 sol | lab2 lab8. lab16 lab8. lab16 | sib4
+      } \addlyrics { -tu -- re. Cé -- lé -- brons son nou -- veau des -- tin }
+    >>
+    \layout { \quoteLayout }
+  }
+  %% mesure 60
+  \excerpts \line { Mesureq 60-61, haute-contre, taille, basse chantantes }
+  \score {
+    \new ChoirStaff <<
+      \new Staff <<
+        { \startQuote #60 \set autoBeaming = ##f
+          \key sol \minor \clef "alto" \time 4/4
+          mib'4 fa' re'4. re'8 | mib'4 mib' r2 |
+        } \addlyrics { tou -- te la na -- tu -- re. }
+      >>
+      \new Staff <<
+        { \startQuote #60 \set autoBeaming = ##f
+          \key sol \minor \clef "tenor" \time 4/4
+          lab4. lab8 sol4. sol8 | sol4 sol r2 |
+        } \addlyrics { tou -- te la na -- tu -- re. }
+      >>
+      \new Staff <<
+        { \set autoBeaming = ##f
+          \key sol \minor \clef "bass" \time 4/4
+          lab4 fa sol4. sol8 | do4 do r2 |
+        } \addlyrics { tou -- te la na -- tu -- re. }
+      >>
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff <<
+        { \startQuote #60 \set autoBeaming = ##f
+          \key re \minor \clef "alto" \time 4/4
+          mib'?4 fa' re'4. re'8 | do'4 do' r2 |
+        } \addlyrics { tou -- te la na -- tu -- re. }
+      >>
+      \new Staff <<
+        { \startQuote #60 \set autoBeaming = ##f
+          \key re \minor \clef "tenor" \time 4/4
+          lab4. lab8 lab4. lab8 | sol4 sol r2 |
+        } \addlyrics { tou -- te la na -- tu -- re. }
+      >>
+      \new Staff <<
+        { \set autoBeaming = ##f
+          \key re \minor \clef "bass" \time 4/4
+          lab4 fa sol8[ fa] sol4 | do4 do r2 |
+        } \addlyrics { tou -- te la na -- tu -- re. }
+      >>
+    >>
+    \layout { \quoteLayout }
+  }
+  \column {
+    \null\line { Mesures 68-72 }
+    \justify {
+      Les vers de Cybèle seule,
+      \italic { que cet arbre sacré soit révéré de toute la nature, }
+      ne figurent pas dans le manuscrit.
+    }
+  }
+  %% mesure 83
+  \excerpts \line { Mesure 83, dessus }
+  \score {
+    { \startQuote #83
+      \key sol \minor \clef "french" \time 4/4
+      do''4 do'' fa'' fa''8 fa'' | re''4 re''
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #83
+      \key re \minor \clef "french" \time 4/4
+      do''4 do'' fa'' fa''8 mib''? | re''4 re''
+    }
+    \layout { \quoteLayout }
+  }
+  %% mesure 86
+  \excerpts-end \line { Mesures 86-87, haute-contre, taille }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \startQuote #86
+        \key sol \minor \clef "soprano" \time 4/4
+        r2 re''4 re''8 re'' | si'4 si' do''2 |
+      }
+      \new Staff {
+        \key sol \minor \clef "mezzosoprano" \time 4/4
+        r2 la'4 la'8 la' | sol'4 sol' sol'2 |
+      }
+    >>
+    \layout { \quoteLayout }
+  }
+  \score {
+    \new StaffGroup <<
+      \new Staff {
+        \startQuote #86
+        \key re \minor \clef "soprano" \time 4/4
+        r2 si'4 si'8 si' | si'4 si' do''2 |
+      }
+      \new Staff {
+        \key re \minor \clef "mezzosoprano" \time 4/4
+        r2 re'4 re'8 re' | re'4 sol' sol'2 |
+      }
+    >>
+    \layout { \quoteLayout }
   }
 }
