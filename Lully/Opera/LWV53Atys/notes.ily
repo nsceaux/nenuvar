@@ -1,5 +1,5 @@
 \notesSection "NOTES"
-\markuplines \column-lines {
+\markuplines \fontsize-lines #2 \column-lines {
   \act { NOTES }
   
   \section \line { Sources et choix éditoriaux }
@@ -7,7 +7,7 @@
     Plusieurs sources ont été exploitées pour préparer cette édition
     \concat { d' \italic { Atys } } :
   }
-  \line { \vspace #1.0 \hspace #2
+  \wordwrap-lines { \vspace #1.0 \hspace #2
     \bold { [Ballard 1689] } Paris : Christophe Ballard, 1689.
     Première édition, partition complète imprimée. }
   \paragraph {
@@ -15,7 +15,7 @@
     L'édition proposée ici en est essentiellement une retranscription, en
     notation modernisée, sauf exceptions listées plus bas.
   }
-  \line { \vspace #1.0 \hspace #2
+  \wordwrap-lines { \vspace #1.0 \hspace #2
     \bold { [Manuscrit] } Partition complète manuscrite, non datée.
     Bibliothèque municipale de Versailles, manuscrit musical 100. }
   \paragraph {
@@ -28,7 +28,7 @@
     En cas de doute sur l'édition Ballard 1689, le manuscrit a été
     consulté pour décider d'une éventuelle correction.
   }
-  \line { \vspace #1.0 \hspace #2
+  \wordwrap-lines { \vspace #1.0 \hspace #2
     \bold { [Baussen 1709] } Paris : Henri de Baussen, 1709.
     Seconde édition, partition réduite gravée. }
   \paragraph {

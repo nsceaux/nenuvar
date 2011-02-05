@@ -1,5 +1,5 @@
 \notesSubSection "Acte V"
-\markuplines \column-lines {
+\markuplines \fontsize-lines #2 \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% FABcelaenusCybele mesure 49
   \excerpts-end \column {
@@ -1091,7 +1091,7 @@
     \layout { \quoteLayout }
   }
   %% mesure 40
-  \excerpts \line { Mesure 40, taille }
+  \excerpts-end \line { Mesure 40, taille }
   \score {
     { \startQuote #40
       \key do \major \clef "mezzosoprano" \time 2/2

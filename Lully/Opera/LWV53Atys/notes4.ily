@@ -1,5 +1,5 @@
 \notesSubSection "Acte IV"
-\markuplines \column-lines {
+\markuplines \fontsize-lines #2 \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% EAAsangarideDorisIdas mesure 6
   \excerpts \column {

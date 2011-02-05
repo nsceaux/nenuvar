@@ -1,5 +1,5 @@
 \notesSubSection "Acte I"
-\markuplines \column-lines {
+\markuplines \fontsize-lines #2 \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BAAatys ritournelle
   \column {

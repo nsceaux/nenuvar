@@ -155,6 +155,18 @@
         (map (lambda (arg) (markup #:fill-line (arg)))
              args)))))
 
+#(define-markup-list-command (fontsize-lines layout props increment args)
+   (number? markup-list?)
+   #:properties ((font-size 0)
+                 (word-space 1)
+                 (baseline-skip 2))
+   (interpret-markup-list layout
+                          (cons `((baseline-skip . ,(* baseline-skip (magstep increment)))
+                                  (word-space . ,(* word-space (magstep increment)))
+                                  (font-size . ,(+ font-size increment)))
+                                props)
+                          args))
+
 #(define-markup-command (wordwrap-center layout props args) (markup-list?)
   (interpret-markup layout props
    (make-column-markup
