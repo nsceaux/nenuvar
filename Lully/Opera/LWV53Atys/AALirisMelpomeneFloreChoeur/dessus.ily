@@ -38,7 +38,7 @@ re''2 sol''4. sol''8 %{ sol''4 sol'' %} |
 mi''2 mi''4 la'' |
 fad''2 r |
 R1*6 |
-R2.*9 |
+R2.*9 |\allowPageTurn
 re''4 re'' sol'' |
 fad''2. |
 sol''4 sol''4. sol''8 |

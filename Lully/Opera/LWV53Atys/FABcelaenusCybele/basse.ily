@@ -26,7 +26,7 @@ la2. |
 si2 si,4 |
 mi2.~ mi8 re |
 dod2 si, |
-la,1~ |
+la,1~ |\allowPageTurn
 la,2 dod |
 re si, |
 mi4 fad8 re mi mi, |

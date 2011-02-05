@@ -39,7 +39,7 @@ mi,2 la, |
 si, mi |
 sold,4 la, fa |
 re2 mi4 |
-la,1 |
+la,1 |\allowPageTurn
 la2 fad |
 sol4. fa8 mi4 re |
 do2. si,8 la, |
@@ -69,7 +69,7 @@ do re |
 mi2 la4 |
 fa2 dod4 |
 re2. |
-la,1 |
+la,1 |\allowPageTurn
 mi2 do |
 re mi4 mi, |
 la,2 la4 sol |

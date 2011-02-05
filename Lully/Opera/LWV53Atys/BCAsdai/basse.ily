@@ -78,7 +78,7 @@ si,2 la,4. sol,8 |
 fad,1 |
 sol,~ |
 sol, |
-do1. |
+do1. |\allowPageTurn
 re2 re4 |
 sol2 do'8 si |
 la2 sol4 |

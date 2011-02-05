@@ -28,7 +28,7 @@ re %{ re, %} fad, |
 sol,4 sol mi2 |
 fa mi8 fa sol sol, |
 do2. sib,4 |
-la,1 |
+la,1 |\allowPageTurn
 sib,2. |
 si,! |
 do4 dod2 |
@@ -82,7 +82,7 @@ re mi fa re |
 mi2 la, |
 mi,1 |
 la,2 la |
-fad1 |
+fad1 |\allowPageTurn
 sol2~ sol8 sol, la, sib, |
 do2~ do8 do re mi |
 fa4. sol8 %{ fa4. mi8 %} fa4 mi |

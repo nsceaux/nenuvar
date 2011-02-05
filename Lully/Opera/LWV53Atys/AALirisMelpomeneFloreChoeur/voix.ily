@@ -189,7 +189,7 @@
     si'2\trill re''4. re''8 |
     re''2 dod''4. re''8 |
     re''2
-    << { s2 s1*6 s2.*9 } \tag #'choeur { r2 | R1*6 | R2.*9 | } >>
+    << { s2 s1*6 s2.*9 } \tag #'choeur { r2 |\allowPageTurn R1*6 | R2.*9 | } >>
     \tag #'basse \choeurMark re''4 re''4. re''8 |
     re''2. |
     si'4 si'4. si'8 |

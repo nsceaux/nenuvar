@@ -71,7 +71,7 @@ sib,4 sib2 |
 la sib4 |
 sol do'4. sib8 |
 la4. sol8 fa4 |
-sol2. |
+sol2. |\allowPageTurn
 la2 sib4 |
 sol la4. sol8 |
 fa sol fa mi re do |

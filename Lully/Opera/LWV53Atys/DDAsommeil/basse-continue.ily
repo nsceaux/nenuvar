@@ -105,7 +105,7 @@ re( do) re( re,) |
 sol,2 sol |
 fa fa4 sol |
 mib1 |
-re |
+re |\allowPageTurn
 re'4. do'8 sib4. la8 |
 sol2 fa4. mib8 |
 re2 do4 sib, |

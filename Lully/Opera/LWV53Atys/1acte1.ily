@@ -11,7 +11,7 @@
 \scene "Scène II"
 \sceneDescription \markup \smallCaps { Atys, Idas. }
 \pieceToc \markup { Atys, Idas } \includeScore "BBAatysIdas"
-%{ n°3 %}\newBookPart #'(full)
+%{ n°3 %}\newBookPart #'(full voix)
 \scene "Scène III"
 \sceneDescription \markup \smallCaps { Sangaride, Doris, Atys, Idas. }
 \pieceToc \markup { Sangaride, Doris, Atys, Idas } \includeScore "BCAsdai"
@@ -24,15 +24,15 @@
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Sangaride, Atys, Doris. }
 \pieceToc \markup { Atys, Doris } \includeScore "BEAatysDoris"
-%{ n°6 %}\newBookPart #'(full)
+%{ n°6 %}\newBookPart #'(full voix)
 \scene "Scène VI"
 \sceneDescription \markup \smallCaps { Sangaride, Atys. }
 \pieceToc \markup { Atys, Sangaride } \includeScore "BFAatysSangaride"
-%{ n°7 %}
+%{ n°7 %}\newBookPart #'(voix)
 \scene "Scène VII"
 \sceneDescription \markup \smallCaps { Sangaride, Atys, les Phrygiens. }
 \pieceToc \markup { Atys, Sangaride, chœur :
-  \italic { Commençons, commençons de célébrer ici sa fête solennelle. }
+  \italic { Commençons de célébrer ici sa fête solennelle. }
 } \includeScore "BGAatysSangarideChoeur"
 %{ n°8 %}
 \pieceTocTitle "Premier air des Phrygiens" \includeScore "BGBphrygiens"

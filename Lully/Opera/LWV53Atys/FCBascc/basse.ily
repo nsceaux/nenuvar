@@ -42,7 +42,7 @@ lab1 |
 sol2. fa4 |
 mib2. mib4 |
 fa2 sol4 sol, |
-do1 |
+do1 |\allowPageTurn
 do1 |
 fa, |
 sol,2 sol |

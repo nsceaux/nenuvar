@@ -12,7 +12,7 @@
 \scene "Scène II"
 \sceneDescription \markup \smallCaps { Atys, Doris, Idas. }
 \pieceToc \markup { Atys, Doris, Idas. } \includeScore "DBAatysIdasDoris"
-%{ n°3 %}\newBookPart #'(full)
+%{ n°3 %}\newBookPart #'(full voix)
 \scene "Scène III"
 \sceneDescription \markup \smallCaps { Atys seul. }
 \pieceToc \markup { Atys :
@@ -44,7 +44,7 @@
   \italic { L'amour qu'on outrage Se transforme en rage } } \includeScore "DDHchoeur"
 %{ n°11 %}
 \pieceTocTitle "Deuxième entrée des songes funestes" \includeScore "DDIsongesFunestes"
-%{ n°12 %}\newBookPart #'(full)
+%{ n°12 %}\newBookPart #'(full voix)
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Cybèle, Atys. }
 \pieceToc \markup { Cybèle, Atys } \includeScore "DEAcybeleAtys"
@@ -52,7 +52,7 @@
 \scene "Scène VI"
 \sceneDescription \markup \smallCaps { Cybèle, Atys, Sangaride. }
 \pieceToc \markup { Cybèle, Atys, Sangaride } \includeScore "DFAcybeleAtysSangaride"
-%{ n°14 %}\newBookPart #'(full)
+%{ n°14 %}\newBookPart #'(full voix)
 \scene "Scène VII"
 \sceneDescription \markup \smallCaps { Cybèle, Mélisse. }
 \pieceToc \markup { Cybèle, Mélisse } \includeScore "DGAcybeleMelisse"

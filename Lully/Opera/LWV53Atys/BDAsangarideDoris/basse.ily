@@ -55,7 +55,7 @@ fad, sol, |
 sol mi |
 fa2. fa4 |
 mi1 |
-re |
+re |\allowPageTurn
 fad,2 sol, |
 do re |
 mi fa8 re mi mi, |

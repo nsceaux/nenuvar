@@ -58,7 +58,7 @@ re2. |
 la2 la,4 |
 mi2. |
 la4 fa mi |
-re1 |
+re1 |\allowPageTurn
 sol4 la si |
 do'2 la4 |
 re' si4. si8 |
@@ -119,7 +119,7 @@ si2 fad |
 sol la4 si |
 do' la re' si |
 mi' do' re' re |
-sol1 |
+sol1 |\allowPageTurn
 mi2. mi8 re |
 do1 |
 re4 si,8 do re4 re, |

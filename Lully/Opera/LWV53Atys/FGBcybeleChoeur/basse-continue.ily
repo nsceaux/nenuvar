@@ -6,7 +6,7 @@ la2 fad |
 sol mi |
 fa1 |
 sol4 fa sol sol, |
-do1 |
+do1 |\allowPageTurn
 do |
 sol,4 sol8 fa mi fa mi re |
 do2 si,4 sib, |
@@ -89,7 +89,7 @@ sol sol, |
 do do' |
 si sib |
 la lab |
-sol1 |
+sol1 |\allowPageTurn
 mi |
 fa4. mib8 re4 do |
 sib,1 |

@@ -18,7 +18,7 @@ re2. |
 mi2 do |
 re4 mi mi, |
 la,4. la8 re'4 sib |
-sol do' la2 |
+sol do' la2 |\allowPageTurn
 sib8 la sol fa do2 |
 fa,4 fa mi2 |
 re sol |

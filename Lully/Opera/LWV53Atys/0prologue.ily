@@ -10,7 +10,7 @@
 \pieceTocTitle "Air pour Flore" \includeScore "AADair"
 %{ n°5 %}\newBookPart #'(full)
 \pieceToc \markup { Le Temps, Flore } \includeScore "AAEtempsFlore"
-%{ n°6 %}
+%{ n°6 %}\newBookPart #'(voix)
 \pieceToc \markup { Le Temps, Flore, chœur :
   \italic { Les plaisirs à ses yeux ont beau se présenter } }
 \includeScore "AAFtempsFloreChoeur"

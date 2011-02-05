@@ -12,7 +12,7 @@ do2 re4 re, |
 sol,2 sol |
 la sib |
 mib re4 |
-do1 |
+do1 |\allowPageTurn
 lab |
 sol2 do |
 fa sib, |

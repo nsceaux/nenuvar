@@ -41,7 +41,7 @@ sol2 mi |
 fa2. |
 do2 lab |
 fa4 fad2 |
-sol2. |
+sol2. |\allowPageTurn
 do2 fa4 |
 re4. mib8 fa fa, |
 sib,2 sib |

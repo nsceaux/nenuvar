@@ -18,7 +18,8 @@
 %%  optimal   for lead sheets
 %%  page-turn for instruments and vocal parts
 \paper {
-  #(define page-breaking (if (eqv? (ly:get-option 'part) #f)
+  #(define page-breaking (if (or (eqv? (ly:get-option 'part) #f)
+                                 (eqv? (ly:get-option 'part) 'voix))
                              ly:optimal-breaking
                              ly:page-turn-breaking))
 }
@@ -52,7 +53,7 @@
            (#:notes "taille" #:clef "alto"))
    (quinte "Quintes de violon" ()
            (#:notes "quinte" #:clef "quinte"))
-   (basse "Basses de violon, hautbois" ()
+   (basse "Basses de violon, bassons" ()
           (#:notes "basse" #:clef "basse"))
    (basse-continue "Basse continue" ()
                    (#:notes "basse" #:clef "basse" #:score-template "score-basse-continue"))

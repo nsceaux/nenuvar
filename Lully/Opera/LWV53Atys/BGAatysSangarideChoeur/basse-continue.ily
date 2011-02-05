@@ -179,7 +179,7 @@ sol, re,2 |
 sol,2 sol4 | mi2 fa4 | re2 do4 |
 sol sol,2 |
 do2. do4 |
-sold,1 |
+sold,1 |\allowPageTurn
 la, |
 la,4 sol, fa,2 |
 mi, mi4 mi |

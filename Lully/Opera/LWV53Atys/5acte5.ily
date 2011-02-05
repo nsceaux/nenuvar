@@ -8,7 +8,7 @@
 \pieceTocTitle "Ritournelle" \includeScore "FAAritournelle"
 %{ n°2 %}
 \pieceToc \markup { Celænus, Cybèle } \includeScore "FABcelaenusCybele"
-%{ n°3 %}\newBookPart #'(full)
+%{ n°3 %}\newBookPart #'(full voix)
 \scene "Scène II"
 \sceneDescription \markup \smallCaps { Celænus, Cybèle, Sangaride, Atys. }
 \pieceToc \markup { Celænus, Cybèle, Sangaride, Atys } \includeScore "FBAccsa"
@@ -36,7 +36,7 @@
 \pieceTocTitle "Ritournelle" \includeScore "FGAritournelle"
 %{ n°10 %}
 \pieceToc \markup { Cybèle, chœur } \includeScore "FGBcybeleChoeur"
-%{ n°11 %}
+%{ n°11 %}\newBookPart #'(dessus1 dessus2)
 \pieceTocTitle "Entrée des Nymphes" \includeScore "FGCnymphes"
 %{ n°12 %}
 \pieceTocTitle "Première entrée des Corybantes" \includeScore "FGDcorybantes"

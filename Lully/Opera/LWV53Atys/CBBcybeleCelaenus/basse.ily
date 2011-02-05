@@ -14,7 +14,7 @@ do2. |
 re4. sol,8 re,4 |
 sol,1 |
 sol2 red |
-mi1 |
+mi1 |\allowPageTurn
 si,2 do |
 dod2. |
 re2 mi~ |

@@ -14,7 +14,7 @@
 \pieceTocTitle "Prélude" \includeScore "CBAprelude"
 %{ n°4 %}
 \pieceToc \markup { Cybèle, Celænus } \includeScore "CBBcybeleCelaenus"
-%{ n°5 %}\newBookPart #'(full)
+%{ n°5 %}\newBookPart #'(full voix)
 \scene "Scène III"
 \sceneDescription \markup \smallCaps { Cybèle, Mélisse. }
 \pieceToc \markup { Cybèle, Mélisse } \includeScore "CCAcybeleMelisse"

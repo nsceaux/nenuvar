@@ -16,7 +16,7 @@ re4 do sol,2 |
 do si, |
 la, la4. sol8 |
 fa1 |
-mi |
+mi |\allowPageTurn
 la,2. |
 re2 re8 do |
 si,4 fad,2 |
