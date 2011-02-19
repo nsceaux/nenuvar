@@ -17,7 +17,7 @@ fa''4. mi''8 mi''4.\trill re''8 |
 re''2~ re''8 re'' mi'' fad'' |
 re''1 |
 re''8 do'' re'' mib'' re'' do'' sib'4 sol' sol'' |
-fad''2~ fad''8 mi''16 fad'' sol''4. fad''8 sol'' la'' |
+fad''2\trill~ fad''8 mi''16 fad'' sol''4. fad''8 sol'' la'' |
 sib''4. la''8 sib'' do''' la''2\trill~ la''8 sol''16 la'' |
 sib''4 re'' mib'' mib'' re''4.\trill re''8 |
 re''4 do''4.\trill sib'16 do'' re''2 sol''8 sol'' |
@@ -29,7 +29,7 @@ re''4 sol''8 la'' sol'' fa'' mi''2\trill~ mi''8 mi'' |
 fa''4 re''4.\trill re''8 la''8 sol'' la'' sib'' la'' sol'' |
 fa''4. sol''8 fa'' mi'' re'' dod'' re'' mi'' re'' mi'' |
 dod''4.( si'16 dod'') re''4 mi'' mi''4.\trill re''8 |
-re''2 re''8 re'' sib'4 sol'4. sol'8 |
+re''2 re''8 re'' sib'4 sol'4.\trill sol'8 |
 do''4. re''8 do'' sib' la'2\trill la''8 la'' |
 sib''4. sib''8 la'' sib'' sol''2\trill sol''8 sol'' |
 la''4. la''8 sol'' la'' fad''4. re''8 mi'' fad'' |

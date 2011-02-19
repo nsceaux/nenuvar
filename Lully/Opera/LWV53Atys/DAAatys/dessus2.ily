@@ -8,9 +8,9 @@ la'4\trill la' r8 si' |
 do''4 do'' r8 la' |
 sib'4 re''4. re''8 |
 mi''4 fa''4. fa''8 |
-fa''4 mi''4. mi''8 |
+fa''4 mi''4.\trill mi''8 |
 la'4 re''4. re''8 |
-re''4 dod''4. si'16 dod'' |
+re''4 dod''4.(\trill si'16 dod'') |
 re''4 re''4. re''8 |
 re''2 re''4 |
 sol' do''4. do''8 |

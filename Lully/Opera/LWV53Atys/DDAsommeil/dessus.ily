@@ -6,7 +6,7 @@ la'4( sib') do''( re'') |
 sib'(\trill sol') r2 |
 R1*4 |
 re''4( mib'') re''( do'') |
-si'1 |
+si'1\trill |
 \afterGrace do''1( re''16) |
 \afterGrace do''1( re''16) |
 si'4 r r2 |
@@ -29,9 +29,9 @@ R1*3 |
 fa''4( sol'') fa''( mib'') |
 re''( mi'') fa''( sol'') |
 mi''( fad'') sol''( la'') |
-fad''( sol'') la''( sib'') |
-sol''1~ |
-sol''2 fad''4.( mi''16 fad'') |
+fad''(\trill sol'') la''( sib'') |
+sol''1\trill~ |
+sol''2 fad''4.\trill( mi''16 fad'') |
 sol''2 r |
 R1*3 |
 re''4( do'') sib'( la') |

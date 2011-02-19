@@ -674,7 +674,7 @@
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% FGBcybeleChoeur mesure 8
-  \excerpts-end \column {
+  \excerpts \column {
     \line { \bold { Entrée des Nymphes } (page \page-refIII #'FGCnymphes ) }
     \line { Mesure 14, flûte }
   }
@@ -691,6 +691,11 @@
       mib''4. fa''8 re''2. r8 do'' | do''1.~ | do'' \bar "|."
     }
     \layout { \quoteLayout }
+  }
+  \column {
+    \null\wordwrap { Dans le matériel Philidor 1703, la deuxième partie
+      de l'air se joue deux fois. }
+    \sep
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% FGDcorybantes mesure 4

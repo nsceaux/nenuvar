@@ -6,8 +6,8 @@ do''4 do''4. fa''8 |
 re''2.\trill |
 re''4. re''8 mib''8. mib''16 |
 % Manuscrit : mib''4 re'' re'' |
-mib''4 re''4. re''8 |
-re''2 do''4 |
+mib''4 re''4.\trill re''8 |
+re''2\trill do''4 |
 re''2. |
 R2.*2 |
 % Manuscrit : R2.*2
@@ -30,7 +30,7 @@ re'' sib''4. la''8 |
 sol''4 sol''4. la''8 |
 fad''2 fad''8 fad'' |
 sol''4 re'' mib'' |
-re'' do''2\trill |
+re''( do''2)\trill |
 sib'4 r2 |
 r4 do'' re'' |
 mib'' r2 |

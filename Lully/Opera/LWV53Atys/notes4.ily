@@ -332,7 +332,8 @@
   \column {
     \null
     \line { \bold { Scène IV, ritournelle } (page \page-refIII #'EDAritournelle ) }
-    \wordwrap { Dans le manuscrit, les mesures 1 à 5 sont jouées deux fois. }
+    \wordwrap { Dans le manuscrit et le matériel Philidor 1703, les
+      mesures 1 à 5 sont jouées deux fois. }
     \null\sep
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -12,7 +12,7 @@ fa''4 mi''4.\trill %{ re''16 mi'' %} mi''8 |
 fa''2 do''4 |
 fa'' re'' sol'' |
 mi'' fa'' re'' |
-mi'' dod''4. re''8 |
+mi'' dod''4.\trill re''8 |
 re''2. |
 re''4 sol'' re'' |
 mib''2 do''4 |

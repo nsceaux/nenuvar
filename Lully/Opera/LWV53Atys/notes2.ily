@@ -604,22 +604,107 @@
     }
     \layout { \quoteLayout }
   }
-  \null\paragraph { Le manuscrit ne comporte pas les mesures 50 à 58. }
-  %% CDAchoeur mesure 61
-  \excerpts \line { Mesure 61, quinte }
+  %% CDAchoeur mesure 24
+  \excerptsC \line { Mesures 24-25, dessus }
+  \column {
+    \line \bold { Ballard 1689 }
+    \score {
+      { \startQuote #24 \time 2/2
+        \key sol \major \clef "french"
+        si'4. si'8 do''4. re''8 | re''2~ re''4. do''8 |
+      }
+      \layout { \quoteLayout }
+    }
+  }
+  \column {
+    \line \bold { Manuscrit }
+    \score {
+      { \startQuote #24 \time 2/2
+        \key sol \major \clef "french"
+        si'4. si'8 do''4. do''8 | re''2~ re''4. do''8 |
+      }
+      \layout { \quoteLayout }
+    }
+  }
+  \column {
+    \line \bold { Philidor 1703, Baussen 1709 }
+    \score {
+      { \startQuote #24 \time 2/2
+        \key sol \major \clef "french"
+        si'4.\trill si'8 do''4. re''8 | mi''2( re''4.)\trill do''8 |
+      }
+      \layout { \quoteLayout }
+    }
+  }
+  %% CDAchoeur mesure 43
+  \excerptsC \line { Mesures 43-44, dessus }
   \score {
-    { \startQuote #61 \time 2/2
-      \key sol \major \clef "alto"
-      la2 sol4. sol8 | la2
+    { \startQuote #43 \time 2/2
+      \key sol \major \clef "french"
+      dod''4. dod''8 re''4. mi''8 | mi''2~ mi''4. re''8 |
     }
     \layout { \quoteLayout }
   }
   \score {
-    { \startQuote #61 \time 2/2
-      \key sol \major \clef "alto"
-      la2 la4. la8 | la2
+    { \startQuote #43 \time 2/2
+      \key sol \major \clef "french"
+      dod''4. dod''8 re''4. re''8 | mi''2~ mi''4. re''8 |
     }
     \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #43 \time 2/2
+      \key sol \major \clef "french"
+      dod''4.\trill dod''8 re''4. mi''8 | fa''2( mi''4.)\trill re''8 |
+    }
+    \layout { \quoteLayout }
+  }
+  %% CDAchoeur mesure 53
+  \excerptsC \line { Mesures 53 et 62, dessus }
+  \score {
+    { \startQuote #52 \time 2/2
+      \key sol \major \clef "french"
+      la'4. la'8 si'4. do''8 | la'2~ la'4. sol'8 |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #52 \time 2/2
+      \key sol \major \clef "french"
+      la'4. la'8 si'4. do''8 | la'2 la'4. la'8 |
+    }
+    \layout { \quoteLayout }
+  }
+  \score {
+    { \startQuote #52 \time 2/2
+      \key sol \major \clef "french"
+      la'4. la'8 si'4. do''8 | si'2( la'4.)\trill sol'8 |
+    }
+    \layout { \quoteLayout }
+  }
+  %%
+  \null\wordwrap { Le manuscrit ne comporte pas les mesures 50 à 58. }
+  %% CDAchoeur mesure 61
+  \excerpts \line { Mesure 61, quinte }
+  \column {
+    \line \bold { Ballard 1689 }
+    \score {
+      { \startQuote #61 \time 2/2
+        \key sol \major \clef "alto"
+        la2 sol4. sol8 | la2
+      }
+      \layout { \quoteLayout }
+    }
+  }
+  \column {
+    \line \bold { Manuscrit }
+    \score {
+      { \startQuote #61 \time 2/2
+        \key sol \major \clef "alto"
+        la2 la4. la8 | la2
+      }
+      \layout { \quoteLayout }
+    }
   }
   %% CDAchoeur mesure 62
   \excerpts \line { Mesures 62-65, haute-contre }
@@ -855,78 +940,133 @@
     \layout { \quoteLayout }
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %% CDDchoeur mesure 11
+  %% CDDchoeur mesure 4
   \excerpts \column {
     \line { \bold { Chœur : \italic { Que devant vous tout s'abaisse } }
       (page \page-refIII #'CDDchoeur ) }
-    \line { Mesure 11, dessus et taille de violons, dessus et haute-contre chantantes }
+    \line { Mesure 4, dessus de violons }
   }
-  \score {
-    \new StaffGroupNoBar <<
-      \new ChoirStaff <<
-        \new Staff {
-          \set autoBeaming = ##f
-          \key re \minor \clef "soprano"
-          fa''4 mi''4. mi''8 | fa''2 do''4 |
-        } \addlyrics { de voir en -- sem -- ble }
-        \new Staff {
-          \set autoBeaming = ##f
-          \key re \minor \clef "tenor"
-          sib' sol'4. sol'8 | la'2 la'4 |
-        } \addlyrics { de voir en -- sem -- ble }
-      >>
-      \new StaffGroup <<
-        \new Staff {
-          \startQuote #17 \time 3/4
-          \key re \minor \clef "french"
-          fa''4 mi''4. mi''8 | fa''2 do''4 |
-        }
-        \new Staff {
-          \key re \minor \clef "mezzosoprano"
-          sol' sol'4. sol'8 | la'2 fa'4 |
-        }
-      >>
-    >>
-    \layout { \quoteLayout }
+  \column {
+    \line \bold { Ballard 1689, manuscrit }
+    \score {
+      { \startQuote #4 \time 3/4
+        \key re \minor \clef "french"
+        re''2 sib'4 |
+      }
+      \layout { \quoteLayout }
+    }
   }
-  \score {
-    \new StaffGroupNoBar <<
-      \new ChoirStaff <<
-        \new Staff {
-          \set autoBeaming = ##f
-          \key re \minor \clef "soprano"
-          fa''4 mi''4. re''16[ mi''] | fa''2 do''4 |
-        } \addlyrics { de voir en -- sem -- ble }
-        \new Staff {
-          \set autoBeaming = ##f
-          \key re \minor \clef "tenor"
-          sib' sol'4. fa'16[ sol'] | la'2 la'4 |
-        } \addlyrics { de voir en -- sem -- ble }
+  \column {
+    \line \bold { Philidor 1703 }
+    \score {
+      { \startQuote #4 \time 3/4
+        \key re \minor \clef "french"
+        re''4.\trill do''8( sib'4)
+      }
+      \layout { \quoteLayout }
+    }
+  }
+  %% mesure 11
+  \excerpts \line { Mesure 11, dessus et taille de violons,
+    dessus et haute-contre chantantes }
+  \column {
+    \line \bold { Ballard 1689 }
+    \score {
+      \new StaffGroupNoBar <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set autoBeaming = ##f
+            \key re \minor \clef "soprano"
+            fa''4 mi''4. mi''8 | fa''2 do''4 |
+          } \addlyrics { de voir en -- sem -- ble }
+          \new Staff {
+            \set autoBeaming = ##f
+            \key re \minor \clef "tenor"
+            sib' sol'4. sol'8 | la'2 la'4 |
+          } \addlyrics { de voir en -- sem -- ble }
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \startQuote #11 \time 3/4
+            \key re \minor \clef "french"
+            fa''4 mi''4. mi''8 | fa''2 do''4 |
+          }
+          \new Staff {
+            \key re \minor \clef "mezzosoprano"
+            sol' sol'4. sol'8 | la'2 fa'4 |
+          }
+        >>
       >>
-      \new StaffGroup <<
-        \new Staff {
-          \startQuote #17 \time 3/4
-          \key re \minor \clef "french"
-          fa''4 mi''4. re''16 mi'' | fa''2 do''4 |
-        }
-        \new Staff {
-          \key re \minor \clef "mezzosoprano"
-          sol' sol'4. fa'16 sol' | la'2 fa'4 |
-        }
+      \layout { \quoteLayout }
+    }
+  }
+  \column {
+    \line \bold { Manuscrit }
+    \score {
+      \new StaffGroupNoBar <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set autoBeaming = ##f
+            \key re \minor \clef "soprano"
+            fa''4 mi''4. re''16[ mi''] | fa''2 do''4 |
+          } \addlyrics { de voir en -- sem -- ble }
+          \new Staff {
+            \set autoBeaming = ##f
+            \key re \minor \clef "tenor"
+            sib' sol'4. fa'16[ sol'] | la'2 la'4 |
+          } \addlyrics { de voir en -- sem -- ble }
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \startQuote #11 \time 3/4
+            \key re \minor \clef "french"
+            fa''4 mi''4. re''16 mi'' | fa''2 do''4 |
+          }
+          \new Staff {
+            \key re \minor \clef "mezzosoprano"
+            sol' sol'4. fa'16 sol' | la'2 fa'4 |
+          }
+        >>
       >>
-    >>
-    \layout { \quoteLayout }
+      \layout { \quoteLayout }
+    }
+  }
+  %% mesure 18
+  \excerpts \line { Mesures 18 et 20, dessus de violons }
+  \column {
+    \line \bold { Ballard 1689, manuscrit }
+    \score {
+      { \startQuote #18 \time 3/4
+        \key re \minor \clef "french"
+        re''4 sol'' re'' | mib''2 do''4 | do'' fa'' do'' | re''2 sib'4 | 
+      }
+      \layout { \quoteLayout }
+    }
+  }
+  \column {
+    \line \bold { Philidor 1703 }
+    \score {
+      { \startQuote #18 \time 3/4
+        \key re \minor \clef "french"
+        re''4 sol'' re'' | mib''4. re''8 do''4 | do'' fa'' do'' | re''4. do''8 sib'4 | 
+      }
+      \layout { \quoteLayout }
+    }
   }
   %% CDDchoeur mesure 24
   \excerpts-end \line { Mesure 24, quinte }
-  \score {
-    { \startQuote #23 \time 3/4
-      \key re \minor \clef "alto"
-      re'4 re' la | sib2. |\bar "|."
+  \column {
+    \line \bold { Ballard 1689 }
+    \score {
+      { \startQuote #23 \time 3/4
+        \key re \minor \clef "alto"
+        re'4 re' la | sib2. |\bar "|."
+      }
+      \layout { \quoteLayout }
     }
-    \layout { \quoteLayout }
   }
   \column {
+    \line \bold { Manuscrit }
     \score {
       { \startQuote #23 \time 3/4
         \key re \minor \clef "alto"

@@ -5,7 +5,8 @@
   \column {
     \section \line { Acte I }
     \line { \bold { Scène I } (page \page-refIII #'BAAatys ) }
-    \line { Dans le manuscrit, la ritournelle est jouée deux fois : }
+    \wordwrap { Dans le manuscrit, ainsi que dans les parties séparées
+      Philidor 1703, la ritournelle est jouée deux fois : }
     \score {
       \new StaffGroup <<
         \new Staff {
@@ -962,7 +963,8 @@
     \null\line { \bold { Scène VII, Prélude } (page \page-refIII #'BHAprelude ) }
     \paragraph {
       Dans Ballard 1689, le prélude s'achève mesure 15, tandis que dans le
-      manuscrit, les quatre dernières mesures du prélude sont reprises.
+      manuscrit et le matériel Philidor 1703, les quatre dernières mesures
+      du prélude sont reprises.
       \bold { Cette édition contient la reprise des quatre dernières mesures. }
     }
   }

@@ -38,7 +38,7 @@
     cette édition.
   }
   %\line { \vspace #1.0 \hspace #2
-  %  \bold { [Matériel 1703] } Versailles : Philidor l'Aisné, 1703.
+  %  \bold { [Philidor 1703] } Versailles : Philidor l'Aisné, 1703.
   %  Parties séparées manuscrites de \italic Thésée et \italic Atys.
   %  Bibliothèque municipale de Versailles. }
   %\line { \hspace #6 Manuscrit musical 291 : 2.dessus chantante. }

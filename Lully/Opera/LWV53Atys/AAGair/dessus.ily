@@ -1,13 +1,13 @@
 \clef "dessus" si'4 do''8(\trill si'16 do'') |
 re''4 do''8 si' do''4 si'8 la' |
-si'4 sol' si' do''8\trill si'16 do'' |
+si'4 sol' si' do''8(\trill si'16 do'') |
 re''4 do''8 si' do''4 si'8 la' |
 si' la' si' do'' la'4.\trill sol'8 |
 sol'2 re''4 sol'' |
 fad'' sol''8 la'' sol''4 fad''8 mi'' |
 fad''4 mi''8 re'' mi''4 re''8 dod'' |
 re''4 mi''8 fad'' mi''4 fad''8 sol'' |
-fad''4 re'' si' do''8\trill si'16 do'' |
+fad''4 re'' si' do''8(\trill si'16 do'') |
 re''4 do''8 si' do''4 si'8 la' |
 si'4 sol' si' do''8(\trill si'16 do'') |
 re''4 do''8 si' do''4 si'8 la' |

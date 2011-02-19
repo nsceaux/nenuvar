@@ -5,7 +5,8 @@
   \column {
     \section \line { Acte III }
     \line { \bold { Scène I } (page \page-refIII #'DAAatys ) }
-    \paragraph { Dans le manuscrit, on reprend la ritournelle sur la dernière mesure. }
+    \wordwrap { Dans le manuscrit et le matériel Philidor 1703,
+      on reprend la ritournelle sur la dernière mesure. }
     \null\sep
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -368,11 +369,16 @@
     }
     \layout { \quoteLayout }
   }
-  \paragraph {
+  \justify {
       Comme les hautes-contre, quintes et basses reprennent sur la
       mesure 21, et que dans Ballard 1689 seule les tailles reprennent
       sur la mesure suivante, la version du manuscrit est suggérée dans
       cette édition, en notes plus petites.
+  }
+  %% mesure 26
+  \null\wordwrap {
+    Sur la matériel Philidor 1703, le mot \italic fin se trouve sur la
+    mesure 26 du prélude.
   }
   %% DDAsommeil mesure 40
   \excerpts \line { Mesures 40-42, dessus }
@@ -1010,7 +1016,7 @@
     \layout { \quoteLayout }
   }
   %% mesure 24
-  \excerpts-end \line { Mesure 24, basses }
+  \excerpts \line { Mesure 24, basses }
   \score {
     { \startQuote #24 \time 3/2 \key sol \minor \clef "bass"
       sib,2. sib,8 do re4 re8 sib, | \bar ":|"
@@ -1022,6 +1028,13 @@
       sib,2. sib,8 do re4 re8 mib | \bar ":|"
     }
     \layout { \quoteLayout }
+  }
+  \column {
+    \null\wordwrap { Sur le matériel Philidor 1703, il est noté de
+      reprendre le chœur \italic { l'amour qu'on outrage } puis la
+      deuxième entrée.
+    }
+    \sep
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% DEAcybeleAtys mesure 1
