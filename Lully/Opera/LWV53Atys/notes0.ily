@@ -580,7 +580,7 @@
     \layout { \quoteLayout }
   }
   %% AADair mesure 29
-  \excerpts-end \line { Mesure 29, taille }
+  \excerpts \line { Mesure 29, taille }
   \score { 
     { \startQuote #29
       \key re \minor \clef "mezzosoprano" \time 3/4
@@ -595,7 +595,11 @@
     }
     \layout { \quoteLayout }
   }
-
+  \column {
+    \null\wordwrap { Dans la partie de basse continue de Philidor 1703,
+      le dernier rondeau est joué deux fois. }
+    \sep
+  }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% AAEtempsFlore mesure 5
   \excerpts \column {

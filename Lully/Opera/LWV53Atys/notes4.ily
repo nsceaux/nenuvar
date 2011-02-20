@@ -752,6 +752,17 @@
       >>
       \layout { indent = 0 }
     }
+  }
+  \null\column {
+    \wordwrap {
+      Dans le matériel Philidor 1703, les pièces se succèdent ainsi :
+    }
+    \paragraph { Flûtes, \italic { La beauté la plus sévère
+        prend pitié d'un long tourment. } }
+    \paragraph { Flûtes, \italic { L'hymen seul ne saurait plaire. } }
+    \paragraph { Flûtes, \italic { Il n'est point de résistance
+        dont le temps ne vienne à bout } }
+    \paragraph { Flûtes, \italic { L'amour trouble tout le monde. } }
     \null\sep
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -842,6 +853,13 @@
         }
       >>
       \layout { indent = 0 }
+    }
+  }
+  \null\column {
+    \justify {
+      Dans le matériel Philidor 1703, les six dernières mesures
+      \italic { (et du moment que j'aime c'est pour aimer toujours) }
+      sont jouées deux fois.
     }
     \null\sep
   }
@@ -1010,10 +1028,12 @@
     \layout { \quoteLayout }
   }
   %%
-  \column {
-    \null\justify {
+  \null\column {
+    \justify {
       Le manuscrit comporte l'indication suivante à la fin du chœur :
       \italic { on reprend la symphonie et ensuitte le mesme chœur. }
+      De même, dans le matériel Philidor 1703, la gavotte et le chœur
+      \italic { un grand calme est trop fâcheux } sont joués deux fois.
     }
     \null\sep
   }

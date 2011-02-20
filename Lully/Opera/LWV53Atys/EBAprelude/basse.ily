@@ -1,6 +1,6 @@
 \clef "basse" do2 do'4. do'8 |
-si2 do'4 do |
-fa2 fad |
+si2\trill do'4 do |
+fa2 fad\trill |
 sol mi4. mi8 |
 la2 re |
 la,2. la,4 |

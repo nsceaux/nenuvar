@@ -2,7 +2,7 @@
 do2 si, |
 do la,4 mi, |
 fa, fa2 |
-mi4 fad sol do |
+mi4 fad\trill sol do |
 sol,1 |
 re,2. |
 la, |
@@ -10,16 +10,16 @@ re4 mib8 do re re, |
 sol,2. mi,4 |
 fa,2 sol, |
 sol mi |
-fa fad |
-sol4. fa8 mi2 |
+fa fad\trill |
+sol4. fa!8 mi2\trill |
 re4 do sol,2 |
-do si, |
+do si,\trill |
 la, la4. sol8 |
 fa1 |
 mi |\allowPageTurn
 la,2. |
 re2 re8 do |
-si,4 fad,2 |
+si,4 fad,2\trill |
 sol,4 sol dod2 |
 re sib, |
 la,2. la4 |

@@ -1,4 +1,4 @@
-\clef "basse" fa,2 fa4 mi |
+\clef "basse" fa,2 fa4 mi\trill |
 fa1 |
 re |
 do~ |
@@ -11,33 +11,33 @@ la,2. |
 sib,1~ |
 sib,2 si,4 |
 do1 |
-fa4 fad sol |
+fa4 fad\trill sol |
 mi2 fa4 la, |
 sib,2 do |
-do'4 la sib fad |
+do'4 la sib fad\trill |
 sol2. |
-re2 si,4 |
+re2 si,4\trill |
 do sol sol, |
-do2 mi, |
+do2 mi,\trill |
 fa,1 |
-sib,2 si,4 |
+sib,2 si,4\trill |
 do do' la sib8 sol |
 la fa sib sol la la, |
-re2. fad,4 |
+re2. fad,4\trill |
 sol,1 |
 sol2 mi |
 fa1 |
 re2 sol |
 do'4. la8 re' sib do' do |
 fa2 sib |
-sol re'4 re |
+sol\trill re'4 re |
 sol2 do'4 do |
 fa1 |
 sib,2 fa |
 do' do |
 fa2. mib8 re |
 do2. do'4 |
-si2 r4 do' |
+si2\trill r4 do' |
 lab1 |
 sol2. fa4 |
 mib2. mib4 |

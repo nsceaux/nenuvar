@@ -1,5 +1,5 @@
 \clef "basse" re4 re' r8 re' |
-do'4 do' r8 do' |
+do'4\trill do' r8 do' |
 sib4 sib r8 sol |
 la4 la r8 la, |
 re2. sib8. sol16 |
@@ -9,23 +9,23 @@ do'4. la8 sib4. sol8 |
 la4 la, re2 |
 sol do'4 do |
 fa1 |
-mi2 re |
+mi2\trill re |
 do4. do8 sol8. la16 |
 sib4 sol8. la16 sib8 do' |
 re'4 re sol8 sol, |
-re2 dod4 |
+re2 dod4\trill |
 re2. |
 mi2 do |
 re4 mi mi, |
 la,4. la8 re'4 sib |
 sol do' la2 |\allowPageTurn
 sib8 la sol fa do2 |
-fa,4 fa mi2 |
+fa,4 fa mi2\trill |
 re sol |
 la sol |
 fa4 re la la, |
 re4. mi8 fa2 |
-mi4 re2 |
+mi4\trill re2 |
 do4 do'4. do'8 sib la |
 sol2 do'4. la8 |
 sib2 la4 sol |
@@ -45,7 +45,7 @@ sol2 sol,4 |
 do2 do4 |
 fa2 re4 |
 mi2 mi4 |
-la si dod' |
+la si dod'\trill |
 re'2 re'4 |
 si2 sol4 |
 do'2 do4 |

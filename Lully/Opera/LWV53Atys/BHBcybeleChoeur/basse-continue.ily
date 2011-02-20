@@ -4,15 +4,15 @@ fa,2 re, |
 mi, mi4 la, |
 re1 |
 sol8 fa mi re16 do sol4 sol, |
-do4 do'2 si4 |
-do'2 si4 la |
+do4 do'2 si4\trill |
+do'2 si4\trill la |
 sol2 fa4 mi |
 re1 |
 mi4 do8 si,16 la, mi4 mi, |
 la,1~ |
-la,2 la4 sold |
-la4 sol fa2 |
-mi sold, |
+la,2 la4 sold\trill |
+la4 sol fa2\trill |
+mi sold,\trill |
 la,4 re, mi,2 |
 la,4 si, do la, |
 fa mi fa re |
@@ -26,14 +26,14 @@ mi re mi mi, |
 la, si, do la, |
 re mi fad re |
 sol la sol fa |
-mi mi re do |
+mi mi re\trill do |
 sol fa sol sol, |
 do si, do re |
 mi re mi do |
 sol fa sol mi |
 fa mi fa re |
 mi2. do4 |
-si,2. la,4 |
+si,2.\trill la,4 |
 mi4 re mi mi, |
 la, si, do re |
 mi fad sold mi |

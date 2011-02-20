@@ -1,5 +1,5 @@
 \clef "basse" re1~ |
-re2. dod4 |
+re2. dod4\trill |
 re1 |
 sol,2 la, |
 re,1 |
@@ -13,10 +13,10 @@ la,1 |
 fad,1~ |
 fad, |
 sol,4 sol fa |
-mi2 si, |
+mi2 si,\trill |
 do re |
 mi fa8 re mi mi, |
-la,4 la fad2 |
+la,4 la fad2\trill |
 sol mi |
 fa1 |
 sib,8 la, sol, fa, %{ do2 %} do4 do, |
@@ -30,22 +30,22 @@ fa mi8 fa sol sol, |
 do2. sib,4 |
 la,1 |\allowPageTurn
 sib,2. |
-si,! |
+si,!\trill |
 do4 dod2 |
 re2. fad,4 |
 sol, re, re8 do sib,4 |
 la,2. |
 fad,4 sol, do do, |
-fa,2 fa4 dod |
+fa,2 fa4 dod\trill |
 re sib, mib8 do re re, |
 sol,2.~ |
 sol, |
 re2 re,4 |
-la,4. la8 fad4 |
+la,4. la8 fad4\trill |
 sol8 mi la re la,4 |
 re1 |
 la,2 mi |
-fa mi4 re |
+fa mi4\trill re |
 do1 |
 re4 sol, re,2 |
 sol, sol |
@@ -53,25 +53,25 @@ mi fad |
 sol sol, |
 la, re8 do sib,4 |
 la,2 la4 sol |
-fa2 mi |
+fa2 mi\trill |
 re1 |
 mi2 mi, |
 la,1 |
 re2 sol, |
 do do, |
-fa,4 fa fad2 |
+fa,4 fa fad2\trill |
 sol sold4 |
 la2 fa4 |
-mi4. re8 la,2 |
+mi4.\trill re8 la,2 |
 re1~ | %re,1 |
 re~ |
 re2 do4 sib, |
 la,2. la4 |
 re re' do' la |
 sib2. sol4 |
-la4. sol8 fad2 |
+la4. sol8 fad2\trill |
 sol sol, |
-%{ re4 do %} re4. do8 sib,2 |
+%{ re4 do %} re4. do8 sib,2\trill |
 % la, la8 sol fa mi |
 la,2 la |
 re2. re4 |
@@ -82,29 +82,29 @@ re mi fa re |
 mi2 la, |
 mi,1 |
 la,2 la |
-fad1 |\allowPageTurn
+fad1\trill |\allowPageTurn
 sol2~ sol8 sol, la, sib, |
 do2~ do8 do re mi |
 fa4. sol8 %{ fa4. mi8 %} fa4 mi |
-re4. mi8 fad2 |
+re4. mi8 fad2\trill |
 sol la4 sib |
 la2 la, |
 re1 |
 do |
 sib, |
 la,2 la4. sol8 |
-fad1 |
+fad1\trill |
 sol2 %{ sol4. fa8 %} sol4 fa |
-mi2 fa4 sib, |
+mi2\trill fa4 sib, |
 do2 do, |
 %fa, fa8 sol fa mi | re1 |
 fa,2 fa | % fa2 fa, |
-mi re |
+mi\trill re |
 do la, |
 re1 |
-mi |
+mi\trill |
 fa |
-mi2. re4 |
+mi2.\trill re4 |
 do2 si,4 la, |
 mi2 fa4 re |
 mi2 mi, |
@@ -117,7 +117,7 @@ fad,1 |
 sol, |
 la, |
 re,2 re |
-dod re8 do? sib,4 |
-la,4. sol,8 fad,2 |
+dod\trill re8 do? sib,4 |
+la,4. sol,8 fad,2\trill |
 sol, la, |
 re,2. mi,8 fad, |

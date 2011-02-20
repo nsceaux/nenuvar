@@ -5,9 +5,9 @@ sol,4 sol mi2 |
 fa re4 |
 sol4. mi8 la fa sol sol, |
 do2. |
-si,4 la, re re, |
+si,4\trill la, re re, |
 sol,1 |
-sol2 sold |
+sol2 sold\trill |
 la1 |
 si2 dod' |
 re' re |
@@ -32,7 +32,7 @@ lab1 |
 sol2. fa4 |
 mib2. mib4 |
 fa2 sol4 sol, |
-do1 |\allowPageTurn
+do1~ |\allowPageTurn
 do |
 fa |
 sol2. |
@@ -44,10 +44,10 @@ mi4 fa2 |
 sol4 do2 |
 fa,4 sol,2 |
 do2 re |
-mib re4 do |
+mib re4\trill do |
 sib, sib8 lab sol lab sib sib, |
 mib1~ |
-mib2 mi |
+mib2 mi\trill |
 fa re |
 sol lab8 fa sol sol, |
 do1~ |
@@ -56,17 +56,17 @@ do4 fa sib,2 |
 do re4 re, |
 sol,2 sol |
 mib2. |
-fa2 sib |
+fa2 sib~ |
 sib8 lab sol fa mib2~ |
 mib sib,4 sol, |
 fa, fa re |
 mib do sol2 |
-mib mi |
-fa fad |
+mib mi\trill |
+fa fad\trill |
 sol4 mib fa sol8 sol, |
 do2. do'4 |
-si2. do'4 |
-lab1 |
+si2.\trill do'4 |
+lab1\trill |
 sol2. fa4 |
 mib2. mib4 |
 fa2 sol4 sol, |

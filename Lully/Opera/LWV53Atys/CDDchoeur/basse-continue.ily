@@ -4,10 +4,10 @@ fa2 fa,4 | % fa fa fa
 sib,2 sib,4 |
 %{ fa fa %} fa2 re4 |
 %{ sol4. sol8 %} sol2 sol4 |
-fa %{ mib4. re8 %} mib2 |
+fa %{ mib4. re8 %} mib2\trill |
 re2. |
 sib4 sib sib |
-la2 sib4 |
+la2\trill sib4 |
 sol do' do |
 fa2 fa4 |
 re sol mi |

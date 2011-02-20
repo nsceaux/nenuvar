@@ -46,7 +46,7 @@ sol4 sol sol |
 re2 re4 |
 sol2 sol4 |
 % la la la |
-la2 la4 |
+la2\trill la4 |
 % sib sib sol |
 sib2 sol4 |
 re'2 re4 |

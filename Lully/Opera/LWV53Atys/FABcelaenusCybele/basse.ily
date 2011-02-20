@@ -1,14 +1,14 @@
 \clef "basse" re2. re8 dod |
 si,2. |
 mi~ |
-mi2 sold, |
+mi2 sold,\trill |
 la, mi |
 si,1 mi2 |
 la,2.~ |
 la,4. sol,8 fad,2 |
-sol, sold,4 la,8 fa, |
+sol, sold,4\trill la,8 fa, |
 mi,2 mi8. re16 dod8. si,16 |
-la,8 sol, fad,2 |
+la,8 sol, fad,2\trill |
 sol, la, |
 re1~ |
 re |
@@ -25,7 +25,7 @@ sol, sol2 |
 la2. |
 si2 si,4 |
 mi2.~ mi8 re |
-dod2 si, |
+dod2\trill si, |
 la,1~ |\allowPageTurn
 la,2 dod |
 re si, |
@@ -39,9 +39,9 @@ fad4 sol8 mi la fad |
 si4 si,2 |
 mi4. re8 dod2 |
 fad1 |
-lad,2 si,4 si |
-red2. |
-mi4. re8 dod4 si, |
+lad,2\trill si,4 si |
+red2.\trill |
+mi4. re8 dod4\trill si, |
 la, la dod8. re16 la,4 |
 re2~ re8 do si, la, |
 sol,2 la,~ |

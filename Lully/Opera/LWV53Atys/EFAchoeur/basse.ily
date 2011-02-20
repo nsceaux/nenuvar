@@ -1,14 +1,14 @@
 \clef "basse" do2. do4 |
 sol2 do' |
-si4 do' la2 |
+si4 do' la2\trill |
 sol2. mi4 |
 fa2. fa4 |
-re2 mi |
+re2\trill mi |
 do4 re mi mi, |
 la,2. la4 |
 re2. re4 |
 sol4. fa8 mi4. mi8 |
-re4 do sol,2 |
+re4\trill do sol,2 |
 do1 |
 fa2 mi |
 re1 |
@@ -19,10 +19,10 @@ do'2 do |
 fa1 |
 re2 re,4 |
 la,2. fad,4 |
-sol, sol sold2 |
+sol, sol sold2\trill |
 la2. |
 re2 mi4 mi, |
-la,2 fad,~ |
+la,2 fad,\trill~ |
 fad, sol,4 |
 mib2~ mib8 do |
 re2 sib,8 sol, re,4 |

@@ -13,7 +13,7 @@ sol,2 sol4 do |
 si, mi do re |
 sol, do, re,2 |
 sol, sol8 la si sol |
-do'4 do si, la, |
+do'4 do si,\trill la, |
 mi mi8 re do4 do8 si, |
 la,2 re4 re, |
 sol, re sol do si, mi do re |

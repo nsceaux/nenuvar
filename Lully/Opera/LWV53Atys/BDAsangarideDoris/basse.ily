@@ -9,12 +9,12 @@ sib, |
 la, |
 re,1 |
 re2 la,4 mi, |
-fa, fa mi2 |
+fa, fa mi2\trill |
 re2. mi4 |
 fa dod re2~ |
 re2. |
-la4 fad2 |
-sol4 sol, re8 do sib,4 |
+la4 fad2\trill |
+sol4 sol, re8 do sib,4\trill |
 la,2. |
 re2. | do | sib, | la, |
 re | do | sib, | la, |
@@ -33,16 +33,16 @@ do'4. sib8 la4 |
 sib4. la8 sol fa |
 do'4 do2 |
 fa2. |
-mi4. fa8 mi re |
-dod2. |
+mi4.\trill fa8 mi re |
+dod2.\trill |
 re2 mi8 la, |
 mi,2. |
 la,4 la4. sol8 |
-fad2. |
+fad2.\trill |
 sol |
-fa8 sol la4 la, |
+fa!8 sol la4 la, |
 re2 la,8 sol, |
-fad,2. |
+fad,2.\trill |
 sol,4 sol2 |
 fa8 sol la4 la, |
 re1~ |
@@ -51,7 +51,7 @@ la, |
 re2 mi4 mi, |
 la,2. la,4 | % la,2 la,
 re4. do8 sib,2 |
-fad, sol, |
+fad,\trill sol, |
 sol mi |
 fa2. fa4 |
 mi1 |
@@ -62,40 +62,40 @@ mi fa8 re mi mi, |
 la,2 re |
 sol, la, |
 re4 mi fa~ |
-fa mi2 |
+fa mi2\trill |
 fa2. |
 fa2 mi8 re |
-dod2 re4 |
+dod2\trill re4 |
 mi mi,2 |
 la,4 la sol |
-fad2. |
+fad2.\trill |
 sol2 la4 |
-sib sol4. fa8 |
+sib sol4.\trill fa8 |
 do'4. sib8 la4 |
 sib2. | % sib2 sib4~
 sib4 do' do |
 fa fa8 mi re4 |
 sol2. |
 la4 la8 sol fa mi |
-re do %{ sib,4. la,8 %} sib,2 |
+re do %{ sib,4. la,8 %} sib,2\trill |
 la,4 la8 sol fad4 |
 sol sol8 fa mi4 |
 la8 re la,2 |
 re1~ | % re2 re
-re2 mi |
+re2 mi\trill |
 fa fa8 mib re do |
-sib,2 si, |
-do4 dod re2 |
-mi fad |
-sol4 sol, re8 do sib,4 |
-la,2 la4 fad |
-sol2 sold |
+sib,2 si,\trill |
+do4 dod\trill re2 |
+mi fad\trill |
+sol4 sol, re8 do sib,4\trill |
+la,2 la4 fad\trill |
+sol2 sold\trill |
 la4. sol8 fa2 |
 sol4. sol8 la sib la la, |
 re1~ |
 re |
-dod2 re~ |
-re do |
+dod2\trill re~ |
+re do! |
 sib,1 |
 la,2 la,4 | % la,2.
 re2 re4 |
@@ -116,11 +116,11 @@ re,2. |
 sol,4 sol2 |
 re do8 sib, |
 la, sol, fa,4 fa |
-sib,4 si,2 |
+sib,4 si,2\trill |
 do4 do'8 sib la4 |
-sol2 fa4 |
+sol2\trill fa4 |
 do' do2 |
 fa2 fa4 |
-mi2 re4 |
+mi2\trill re4 |
 la2 la,4 |
-re2 do8 si, |
+re2 do8\trill si, |

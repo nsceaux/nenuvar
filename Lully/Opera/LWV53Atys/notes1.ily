@@ -939,23 +939,36 @@
     \wordwrap { Le \italic do bécarre est confirmé par la basse chiffrée du manuscrit. }
   }
   %% mesure 20
-  \excerpts-end \wordwrap { Mesure 20, basse }
-  \score {
-    { \startQuote #20 \time 2/2
-      \key do \major \clef "basse"
-      do1 \bar "|."
-    }
-    \layout { \quoteLayout }
-  }
+  \excerptsC-end \wordwrap { Mesure 20, basse }
   \column {
+    \line \bold { Ballard 1689 }
     \score {
       { \startQuote #20 \time 2/2
         \key do \major \clef "basse"
-        do8 re16 mi fa sol la si do'2 \bar "|."
+        do1 \bar ":|"
       }
       \layout { \quoteLayout }
     }
-    \wordwrap { La version du manuscrit est proposée dans cette édition, en petites notes. }
+  }
+  \column {
+    \line \bold { Manuscrit }
+    \score {
+      { \startQuote #20 \time 2/2
+        \key do \major \clef "basse"
+        do4. re8*1/2 mi fa sol la si do'4 \bar ":|"
+      }
+      \layout { \quoteLayout }
+    }
+  }
+  \column {
+    \line \bold { Philidor 1703 }
+    \score {
+      { \startQuote #20 \time 2/2
+        \key do \major \clef "basse"
+        \alternatives { do4 re8 mi fa sol la si } do1 \bar "|."
+      }
+      \layout { \quoteLayout }
+    }
   }
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BHAprelude
@@ -1025,29 +1038,35 @@
     \line { \bold { Cybèle, chœur } (page \page-refIII #'BHBcybeleChoeur ) }
     \wordwrap { Mesure 1, Cybèle }
   }
-  \score {
-    <<
-      \new Staff {
-        \markUpBegin \mark \markup \smaller\smaller "Ballard 1689"
-        \startQuote #1 \time 4/4
-        \set autoBeaming = ##f
-        \key do \major \clef "soprano"
-        r8 mi''16 mi'' do''8 do''16 mi'' la' la' la' mi' fa'8. sol'16 | mi'8 mi'
-      } \addlyrics { Ve -- nez tous dans mon Temple "&" que cha -- cun re -- ve -- re }
-    >>
-    \layout { \quoteLayout }
+  \column {
+    \line \bold { Ballard 1689 }
+    \score {
+      <<
+        \new Staff {
+          \markUpBegin \mark \markup \smaller\smaller "Ballard 1689"
+          \startQuote #1 \time 4/4
+          \set autoBeaming = ##f
+          \key do \major \clef "soprano"
+          r8 mi''16 mi'' do''8 do''16 mi'' la' la' la' mi' fa'8. sol'16 | mi'8 mi'
+        } \addlyrics { Ve -- nez tous dans mon Temple "&" que cha -- cun re -- ve -- re }
+      >>
+      \layout { \quoteLayout }
+    }
   }
-  \score {
-    <<
-      \new Staff {
-        \markUpBegin \mark \markup \smaller\smaller "Manuscrit"
-        \startQuote #1 \time 4/4
-        \set autoBeaming = ##f
-        \key do \major \clef "soprano"
-        r8 mi''16 mi'' do''8\trill do''16 mi'' la'8 la'16 la' mi'8 fa'16 sol' | | mi'8 mi'
-      } \addlyrics { Ve -- nez tous dans mon Temple et qu'un cha -- cun re -- ve -- re }
-    >>
-    \layout { \quoteLayout }
+  \column {
+    \line \bold { Manuscrit }
+    \score {
+      <<
+        \new Staff {
+          \markUpBegin \mark \markup \smaller\smaller "Manuscrit"
+          \startQuote #1 \time 4/4
+          \set autoBeaming = ##f
+          \key do \major \clef "soprano"
+          r8 mi''16 mi'' do''8\trill do''16 mi'' la'8 la'16 la' mi'8 fa'16 sol' | | mi'8 mi'
+        } \addlyrics { Ve -- nez tous dans mon Temple et qu'un cha -- cun re -- ve -- re }
+      >>
+      \layout { \quoteLayout }
+    }
   }
   %% mesure 10
   \excerpts \wordwrap { Mesure 10, Cybèle }
