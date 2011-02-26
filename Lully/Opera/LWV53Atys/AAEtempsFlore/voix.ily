@@ -6,13 +6,13 @@
     %{ re8. re16 %} re8\trill re re8 mib fa4. fa8 |
     sol8. sol16 sol8. la16 sib8. do'16 |
     la8\trill la r8 do' do'8. do'16 sib8. la16 |% r8 do' do'4 do'8 sib16 la |
-    sib8 sib sol sol16 la dod8. dod16 dod8. re16 |
+    sib8 sib sol sol16 la dod8.\trill dod16 dod8. re16 |
     re4 r r8 re' re' fad |
     sol4 sol8. sol16 mi4\trill mi |
     do'4 %{ do'8. do'16 %} do'8 do' fa4 fa8 fa |
     %{re4.\trill %} re4\trill r8 fa8 sib8. sib16 |
     sol8 sol r sol la8. la16 la8. la16 |
-    fad2
+    fad2\trill
     \tag #'temps { r2 R1*8 R1. R1*19 R2. }
   }
   %% Flore

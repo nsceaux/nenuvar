@@ -9,8 +9,8 @@ do'2 sol4 sol |
 la fa sol2 |
 do do4. do8 |
 sol4. sol8 fa4. mi8 |
-re2 re4 re |
-la sol fa2 |
+re2\trill re4 re |
+la sol fa2\trill |
 mi r |
 R1*2 |
 r2 r4 mi |

@@ -70,17 +70,17 @@ la'2
     r2 r4 re'' |
     mi''2 mi''4. mi''8 |
     mi''2. fad''4 |
-    red''2 red''4 si' |
+    red''2\trill red''4 si' |
     do''2 la'4.\trill sol'8 |
     fad'2( sold'4.) la'8 |
-    sold'2. mi''4 |
+    sold'2.\trill mi''4 |
     mi''2 re''4.\trill do''8 |
     do''2( si'4.)\trill la'8 |
     la'2 r |
     R1*2 |
     r2 r4 do'' |
     do''2 si'4.\trill la'8 |
-    la'2( sold'4.) la'8 |
+    la'2( sold'4.\trill) la'8 |
     la'2 r |
     R1*2 |
     r2 r4 mi'' |

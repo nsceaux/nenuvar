@@ -533,8 +533,8 @@
       \new Staff {
         \startQuote #44
         \set autoBeaming = ##f
-        \key re \minor \clef "alto" \time 3/4 \bar "|."
-        sol'4 sol' sol' | sol'2( fad'4) | sol'2. |
+        \key re \minor \clef "alto" \time 3/4
+        sol'4 sol' sol' | sol'2( fad'4) | sol'2. | \bar "|."
       } \addlyrics { gloi -- re nou -- vel -- le. }
       \new Staff {
         \key re \minor \clef "tenor" \time 3/4
@@ -548,8 +548,8 @@
       \new Staff {
         \startQuote #44
         \set autoBeaming = ##f
-        \key re \minor \clef "alto" \time 3/4 \bar "|."
-        sol'4 sol'4. sol'8 | sol'2( fad'4) | sol'2. |
+        \key re \minor \clef "alto" \time 3/4
+        sol'4 sol'4. sol'8 | sol'2( fad'4) | sol'2. | \bar "|."
       } \addlyrics { gloi -- re nou -- vel -- le. }
       \new Staff {
         \key re \minor \clef "tenor" \time 3/4

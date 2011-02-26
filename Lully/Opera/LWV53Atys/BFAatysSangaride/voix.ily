@@ -8,7 +8,7 @@
     << \tag #'sangaride do''4 \tag #'basse { do''8 s } >>
     << { s2.*2 s1*2 s4 } \tag #'sangaride { r4 r2 | R2. | R1*2 | r4 } >>
     \tag #'basse \sangarideMark r16 mi' mi' mi' la'8. la'16 |
-    fad'8 la'16 la' si'4 la'8.\trill sol'16 |
+    fad'8\trill la'16 la' si'4 la'8.\trill sol'16 |
     sol'4
     << { s2.*6 s1*2 s4 } \tag #'sangaride { r4 r2 | R2.*5 | R1*2 | r4 } >>
     \tag #'basse \sangarideMark r8 mi'' la'4
@@ -24,7 +24,7 @@
     \tag #'basse \sangarideMark si'4 r mi'' |
     << { s2. } \tag #'sangaride { r2 r4 } >>
     \tag #'basse \sangarideMark r8 la'16 sol' |
-    fad'4
+    fad'4\trill
     << { s2.*3 s1*4 s2. s1 s2.*2 s1*2 s4. }
       \tag #'sangaride { r4 r2 | R2.*2 | R1*4 | R2. | R1 | R2.*2 | R1*2 | r4 r8 } >>
     \tag #'basse \sangarideMark mi''8 fa''4
@@ -35,15 +35,15 @@
     << { s2. s1 s4. } \tag #'sangaride { r4 r2 | R1 | r4 r8 } >>
     \tag #'basse \sangarideMark si'8 mi''8. mi''16 %{ mi''8 si' %} mi''8. si'16 |
     do''8. do''16 do''8. si'16 la'8.\trill sol'16 |
-    fad'4 r16 si' si' si' mi''8. mi''16 |
-    dod''4 r8 dod''16 red'' mi''4 mi''8 red'' |
+    fad'4\trill r16 si' si' si' mi''8. mi''16 |
+    dod''4\trill r8 dod''16 red'' mi''4 mi''8 red'' |
     mi''4
     << { s2.*3 s4 } \tag #'sangaride { r4 r2 | R2.*2 | r4 } >>
     \tag #'basse \sangarideMark r16 sol' sol' sol' sol'4 sol'8 fa'16 mi' |
     mi'4\trill << \tag #'sangaride mi'4 \tag #'basse { mi'8 s } >>
     << { s2 s2.*3 s1*3 s4 } \tag #'sangaride { r2 | r2.*3 | R1*3 | r4 } >>
-    \tag #'basse \sangarideMark r8 do'' do''8. do''16 dod''8. dod''16 |
-    %{ re''4. %} re''4 r8 fa''8 dod''8. dod''16 dod''8. re''16 |
+    \tag #'basse \sangarideMark r8 do'' do''8. do''16 dod''8.\trill dod''16 |
+    %{ re''4. %} re''4 r8 fa''8 dod''8.\trill dod''16 dod''8. re''16 |
     re''8 re'' r re'' si'4\trill sol'8 sol'16 sol' |
     do''8. do''16 re''8 mi'' mi''4( re''8.)\trill do''16 |
     do''4
@@ -52,37 +52,37 @@
     do''2 si'8. si'16 |
     sold'4 la'4. mi'8 |
     fad'4 sol'4. sol'8 |
-    sol'2( fad'4) |
+    sol'2( fad'4\trill) |
     sol'2 si'8. si'16 |
     si'2 si'4 |
     do''8[ re''] si'4.\trill do''8 |
     do''2 r8 mi'' |
-    dod''4 re''4. re''8 |
-    re''4 dod''4. dod''8 |
+    dod''4\trill re''4. re''8 |
+    re''4 dod''4.\trill dod''8 |
     re''4 re'' r8 la' |
     si'4. si'8 do''8. si'16 |
     la'4\trill si'4. la'8 | % si'8
-    sold'4 la'4. la'8 | % la'4.( sold'16) la'
-    sold'2 r8 sold' | % sold'4
+    sold'4\trill la'4. la'8 | % la'4.( sold'16) la'
+    sold'2\trill r8 sold' | % sold'4
     la'2 la'8 la' |
     fad'2 fad'8 fad' | % fad'4 fad'4. fad'8
     sol'4 sol' si' |
     do''4. la'8 la'8. sol'16 |
-    fad'2 fad'8 fad' |
-    sol'4 fad'( sol'8) la' |
-    sold'2 mi''4 |
+    fad'2\trill fad'8 fad' |
+    sol'4 fad'( sold'?8) la' |
+    sold'2\trill mi''4 |
     re''4.\trill re''8 do''\trill si' |
     do''2 do''4 |
     si'4.\trill si'8 si' si' |
     mi'4 la'4. sol'8 |
-    fad'4 sold'4. sold'8 |
+    fad'4 sold'4.\trill sold'8 |
     la'8[ si'] sold'4.\trill la'8 |
     la'2 mi''4 |
     re''4.\trill re''8 do''\trill si' |
     do''2 do''4 |
     si'4.\trill si'8 si' si' |
     mi'4 la'4. sol'8 |
-    fad'4 sold'4. sold'8 |
+    fad'4 sold'4.\trill sold'8 |
     la'[ si'] sold'4.\trill la'8 |
     la'4
     << { s2. s1 s4 } \tag #'sangaride { r4 r2 | R1 | r4 } >>

@@ -3,9 +3,9 @@ R2.*4 |
 R1 |
 R2.*27 |
 r2 sol4. sol8 |
-do'4 do'8 do' la4. la8 |
+do'4 do'8 do' la4.\trill la8 |
 re'4 re' re4. re8 |
-mi2 fad4. fad8 |
+mi2 fad4.\trill fad8 |
 sol2 sol4 sol %{ sol4. sol8 %} |
 la2 la4. la8 |
 re2 r |
@@ -14,9 +14,9 @@ R2.*9 |
 sol4 sol4. sol8 |
 re2. |
 mi4 mi4. mi8 |
-do2 do4 |
+do2\trill do4 |
 fa4. fa8 fa fa |
-re4 re re |
+re4\trill re re |
 mi4. re8 mi4 |
 la,2 la,4 |
 re4 re4. re8 |

@@ -7,7 +7,7 @@ fa4 fa8[ sol] la[ fa] |
 sib2. |
 sol4. sol8 sol8. sol16 |
 fa4 fa sol |
-mib2. |
+mib2.\trill |
 re |
 R2.*2 |
 % sol4 sol8[ la] sib[ sol] |
@@ -36,7 +36,7 @@ do do'4. do'8 |
 sol4 sol sol |
 re2 re4 |
 sol2 sol4 |
-la la la |
+la\trill la la |
 sib sib sol |
 re'2 re8 re |
 mib4 mib do |

@@ -90,12 +90,12 @@
     \clef "vbas-dessus" R1*11 | R2.*4 | R1 | R2.*14 |
     r2 si'8.^\markup\character "Melpomène" si'16 |
     do''4 do''4. do''8 |
-    la'2. |
+    la'2.\trill |
     re''4 re''8 do'' si'8. la'16 %{ si'8 la' %} |
-    sold'2 r8 sold' |
+    sold'2\trill r8 sold' |
     la'4 mi'4. fad'8 |
     sol'4 sol'4. la'8 %{ sol'4 la' %} |
-    si'4 si'4. si'8 |
+    si'4 si'4.\trill si'8 |
     do''4. si'8 la'8. sol'16 |
     fad'2\trill fad'4 |
     sol' la' si' |
@@ -107,16 +107,16 @@
     do''4 do''8 do'' si'4.\trill la'8 |
     sol'4 sol' sol'4. sol'8 |
     do''2 %{ do''4 do'' %} do''4. do''8 |
-    si'2 si'4 do'' |
-    re''2 %{ do''4. si'8 %} do''4 si' |
+    si'2\trill si'4 do'' |
+    re''2 %{ do''4. si'8 %} do''4\trill si' |
     la'2.\trill |
     si'4 si' do'' |
-    la'2 %{ la'4 %} si'4 |
+    la'2\trill %{ la'4 %} si'4 |
     sol'4.( fad'8) sol'4 |
-    fad'2 si'4 |
+    fad'2\trill si'4 |
     sol'4. sol'8 la' si' |
     do''4 la'4. sol'8 |
-    sol'4. sol'8 fad'4 |
+    sol'4. sol'8 fad'4\trill |
     sol'2 sol'4 |
     R2.*10 |
     si'4 si' do'' |
@@ -125,15 +125,15 @@
     fad'4 fad' sol' |
     la'2. |
     sol'4 la'8[ sol'] fad'[ mi'] |
-    fad'2 r4 |
+    fad'2\trill r4 |
     R2.*6 |
     dod''4 dod''4 re'' | % dod''4. re''8
-    dod''2 r4 |
+    dod''2\trill r4 |
     R2.*14 |
     fad'4 fad' sol' |
     la'2. |
     sol'4 la'8[ sol'] fad'[ mi'] |
-    fad'2 r4 |
+    fad'2\trill r4 |
     R2.*5 |
   }
   %% Temps
@@ -152,7 +152,7 @@
       si2 si4 do' |
       re'2. |
       sol4 sol4. sol8 |
-      fad2 fad4 |
+      fad2\trill fad4 |
       mi2 r8 re |
       re2 si,4 |
       mi4. mi8 mi re |
@@ -163,7 +163,7 @@
       sol4 sol4. sol8 |
       sol2 r4 |
       R2.*6 |
-      re4 re4. re8 |
+      re4 re4.\trill re8 |
       re2.~ |
       re~ |
       re2 r4 |
@@ -187,7 +187,7 @@
     la'4\trill la' re''4. re''8 |
     re''2 do''4( si'8) do'' |
     si'2\trill re''4. re''8 |
-    re''2 dod''4. re''8 |
+    re''2 dod''4.\trill re''8 |
     re''2
     << { s2 s1*6 s2.*9 } \tag #'choeur { r2 |\allowPageTurn R1*6 | R2.*9 | } >>
     \tag #'basse \choeurMark re''4 re''4. re''8 |
@@ -197,7 +197,7 @@
     do''4. do''8 do'' do'' |
     fa''2 re''8 do'' |
     si'4.\trill dod''8 re''4 |
-    dod''2 dod''4 |
+    dod''2\trill dod''4 |
     re''4 re''4. re''8 |
     si'2.\trill |
     << { s2. s2 } \tag #'choeur { R2. | r2 } >>
@@ -215,20 +215,20 @@
     la'4.\trill si'8 do''4 |
     si'2\trill si'4 |
     si' si'4. mi''8 |
-    dod''2. |
+    dod''2.\trill |
     << { s2. s2 } \tag #'choeur { R2. | r2 } >>
     \tag #'basse \choeurMark mi''4 |
     fa''4. fa''8 fa'' fa'' |
     re''4 re'' re'' |
-    re''4. re''8 dod''4 |
+    re''4. re''8 dod''4\trill |
     re''2 re''4 |
     re'' re''4. re''8 |
     si'2.\trill |
     mi''4 mi''4. mi''8 |
-    re''2 re''4 |
+    re''2\trill re''4 |
     mi''4. mi''8 mi'' mi'' |
     do''4 do'' do'' |
-    do''4. do''8 si'4 |
+    do''4. do''8 si'4\trill |
     do''2 do''4 |
     si'4 si'4. si'8 |
     la'2.\trill |

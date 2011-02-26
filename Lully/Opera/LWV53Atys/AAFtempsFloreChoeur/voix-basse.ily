@@ -3,8 +3,8 @@ r4 sol4. sol8 |
 re4 re mib |
 sib,2 r4 |
 r sib4. sib8 |
-la4 la sib |
-sol2. |
+la4\trill la sib |
+sol2.\trill |
 fa4 re4. re8 |
 sib4 sib4. sol8 | % sib4 sib sol |
 la2. |
@@ -17,7 +17,7 @@ mib[ re mib fa sol la] |
 sib4\melismaEnd sib mib |
 fa2. |
 sib,4 sib4. sib8 |
-fad4 fad sol |
+fad4\trill fad sol |
 re2 r4 |
 r sol4. sol8 |
 la8[\melisma sol la sib do' la] |
@@ -26,7 +26,7 @@ do'[ sib do' re' mib' do'] |
 re'4\melismaEnd re' sol |
 re2. |
 %{ sol4 %} sol,4 sol4. sol8 |
-do4 do4. do8 |
+do4 do4.\trill do8 |
 re2 r4 |
 r sol4. sol8 |
 la[\melisma sol la sib do' la] |

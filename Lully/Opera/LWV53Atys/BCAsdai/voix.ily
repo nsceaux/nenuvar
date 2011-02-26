@@ -3,11 +3,11 @@
   \tag #'(sangaride basse) {
     \sangarideMark r4 r8 si' si'4.\trill do''8 |
     re''4 mi''8[ re''] do''[ si'] la'[ sol'] |
-    fad'4. re''8 re''4. re''8 |
-    mi''[ re''] do''[ si'] si'4( la') |
+    fad'4.\trill re''8 re''4. re''8 |
+    mi''[ re''] do''[ si'] si'4( la'\trill) |
     sol'4. re''8 %{ re''4 re'' %} re''4. re''8 |
     mi''4 fa''8[ mi''] re''[ do''] si'[ la'] |
-    sold'4. mi''8 mi''4. mi''8 |
+    sold'4.\trill mi''8 mi''4. mi''8 |
     fa''8[ mi''] re''[ do''] do''4( si')\trill |
     la'4. do''8 si'4.\trill do''8 |
     re''4 mi''8[ re''] do''[ si'] la'[ sol'] |
@@ -23,7 +23,7 @@
     << { s2. s1.*4 s1 } \tag #'sangaride { r4 r2 | R1.*4 | r1 } >>
     \tag #'basse \sangarideMark mi''2-\tag #'sangaride ^\markup\character "Sangaride" |\noBreak
     la'\trill la' si'4 do'' |
-    si'2.\trill mi''4 dod''2 |
+    si'2.\trill mi''4 dod''2\trill |
     re'' re'' dod'' %{ re''2. dod''4 %} |
     re''2 la'4. si'8 |
     do''2 do''4. do''8 |
@@ -31,14 +31,14 @@
     si'4 do'' do''( si')\trill |
     do''2 sol'4. la'8 |
     si'2 si'4. do''8 |
-    la'4.\trill la'8 la'4. la'8 |
+    la'4. la'8 la'4.\trill la'8 |
     sol'4 do'' la'2\trill |
     sol'1 |
     r4 si' si'4. si'8 |
     do''4 mi''8[ fa''] sol''[ fa''] mi''[ re''] |
     do''4. la'8 la'4. la'8 |
     re''4 fa''8[ mi''] re''[ do''] si'[ la'] |
-    sold'4. mi''8 mi''4. mi''8 |
+    sold'4.\trill mi''8 mi''4. mi''8 |
     fa''8[ mi''] re''[ do''] do''4( si')\trill |
     la'4. dod''8 dod''4. dod''8 |
     re''2 r8 re'' re'' do'' |
@@ -56,13 +56,13 @@
     do''4. re''8 do''4( si')\trill |
     la'2. do''8 mi'' |
     do''4.\trill do''8 do''4 do''8 si' |
-    si'2\trill la'4. si'8 |
-    sol'4\trill sol'8 sol' sol'4. la'8 |
+    si'2 la'4.\trill si'8 |
+    sol'4 sol'8 sol' sol'4. la'8 |
     fad'2\trill fad'4
     << { s4 s1*12 s4 } \tag #'sangaride { r4 | R1*12 | r4 } >>
     \tag #'basse \sangarideMark si'8-\tag #'sangaride ^\markup\character Sangaride re'' si'4\trill si'8 sol' |
     do''4. do''8 re'' re'' mi'' fa'' |
-    mi''4\trill mi'' r mi'8 fad' |
+    mi''4\trill mi'' r mi'8 fad'! |
     sol'4 la'8 si' do''4. mi''8 |
     do''4\trill do'' do'' si' |
     si'2\trill r8 si' si' re'' |
@@ -77,12 +77,12 @@
     si'4.\trill la'8( sol'4) |
     r si' mi'' |
     dod''2 %{ re''8[ dod''] %} re''4 |
-    re''4 re'' dod'' |
+    re''4 re'' dod''\trill |
     re''2. |
     la'4 la' si' |
     do''2. |
     si'4 do''8[ si'] la'[ sol'] |
-    fad'2. |
+    fad'2.\trill |
     re''4. la'8 si'4 |
     do'' si'2 |
     si'4( la'2)\trill |
@@ -90,7 +90,7 @@
     la'4 la' si' |
     do''2. |
     si'4 do''8[ si'] la'[ sol'] |
-    fad'2. |
+    fad'2.\trill |
     re''4. la'8 si'4 |
     do'' si'2 |
     si'4( la'2)\trill |
@@ -311,17 +311,17 @@
     re4 re8[ mi] fad[ mi] fad[ re] |
     sol4. sol8 sol4. sol8 |
     do'4 do'8[ si] la[ sol] fad[ mi] |
-    re4. re8 si,4. si,8 |
+    re4. re8 si,4.\trill si,8 |
     do4 do re2 |
     sol, r |
     R1*31 R1. R2.*65 R2.*40 R1 R2. R1 R1*2 |
-    r4 sol^\markup\character "Idas" fad re |
+    r4 sol^\markup\character "Idas" fad\trill re |
     sol sib8[ la] sol[ fa] mib[ re] |
     mib4 mib8[ re] do[ re] mib[ do] |
     fa4. fa8 re4. re8 |
     mib4 mib fa2 |
     sib,2 r | % sib,1
-    r4 sib la fa |
+    r4 sib la\trill fa |
     sib4 sib8[ la] sol[ fa] mib[ re] |
     do4 mib8[ re] do[ sib,] la,[ sol,] |
     re4. re8 sib,4. sib,8 |

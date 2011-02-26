@@ -8,26 +8,26 @@
     la'4. re''8 si'4. mi''8 |
     do''8. do''16 %{ re''8. mi''16 %} re''8 mi'' mi''4( re'') |
     do'' %{ duo %} r8 sol' la'4 |
-    si'4. si'8 dod''4 |
+    si'4.\trill si'8 dod''4 |
     re''2. |
     do''4 do'' si' |
     la'4.( sold'8) la'4 |
-    sold'2 si'4 |
+    sold'2\trill si'4 |
     dod''4. dod''8 re''[ dod''] |
     re''4 re''( dod'') |
     re''4. re''8 do''4 |
-    si'2 si'4 |
+    si'2\trill si'4 |
     do''4. do''8 si'4 | % sib'4
     la'4. si'8 do''4 |
-    si'2 mi''4 |
+    si'2\trill mi''4 |
     do''2 re''4 |
-    do''4( si'4.) do''8 |
+    do''4( si'4.\trill) do''8 |
     do''4. sol'8 la'4 |
     sib'4. sib'8 sib'4 | % sib'8[ do''] |
-    la'2 re''4 |
-    si'2 mi''4 |
+    la'2\trill re''4 |
+    si'2\trill mi''4 |
     do''2 re''4 |
-    do''4( si'4.) do''8 |
+    do''4( si'4.\trill) do''8 |
     do''4 %{ choeur %}
     <<
       \tag #'basse { r2 | R2.*49 | r4 }
@@ -36,60 +36,60 @@
         re''2 re''4 |
         do''2 si'4 |
         la'4.( sold'8) la'4 |
-        sold'2 la'4~ |
-        la'8 si' sold'2 |
+        sold'2\trill la'4~ |
+        la'8 si' sold'2\trill |
         la'2 r4 |
         R2.*2 |\allowPageTurn
         r4 r8 dod'' dod''4 |
         re''4. la'8 la'4 |
-        si'2 si'4 |
+        si'2\trill si'4 |
         do''2 do''4 |
-        la'2 si'4 |
-        do'' la'2 |
+        la'2\trill si'4 |
+        do'' la'2\trill |
         sol' r4 |
         R2.*2 |\allowPageTurn
         r4 r8 re'' re''4 |
         mi''4. re''8 mi''4 |
         fa''2 fa''4 |
         re''2 re''4 |
-        mi'' dod''2 |
+        mi'' dod''2\trill |
         re'' r4 |
         R2.*2 |\allowPageTurn
         r4 r8 la' la'4 |
-        si'4. si'8 si'4 |
+        si'4.\trill si'8 si'4 |
         do''2 do''4 |
         re''2 re''4 |
         mi''2 mi''4 |
         fa'' mi''2 |
-        re'' r4 |
+        re''\trill r4 |
         R2.*2 |\allowPageTurn
         r4 r8 si' si'4 |
         do''4. re''8 mi''4 |
         do''2 fa''4 |
-        re''2 sol''4 |
-        mi''2 mi''4 |
-        re'' re''2 |
+        re''2\trill sol''4 |
+        mi''2\trill mi''4 |
+        re'' re''2\trill |
         do'' r4 |
         R2. |\allowPageTurn
         r4 r8 si' si'4 |
         do''4. re''8 mi''4 |
         do''2 fa''4 |
         re''2 sol''4 |
-        mi''2 mi''4 |
-        re'' re''2 |
+        mi''2\trill mi''4 |
+        re'' re''2\trill |
         do''4
       } >>
     \sangarideMark do''8 do'' si'4 si'8 do'' |
-    la'2 la'4 la'8 la' re''4. re''8 |
-    si'2 si'4
+    la'2\trill la'4 la'8 la' re''4. re''8 |
+    si'2\trill si'4
     << { s2. } \tag #'dessus { r4 | r2 } >>
     \tag #'basse \sangarideMark r8 do'' |
-    si'2. |
+    si'2.\trill |
     la'4 la' si' |
     do''2 re''4 |
     mi'' do'' re'' |
     si' si' do'' |
-    do''2( si'4) | % do''4( si'2)
+    do''2( si'4\trill) | % do''4( si'2)
     do''2
     <<
       \tag #'basse { r4 R2.*63 r2 }
@@ -98,10 +98,10 @@
         do''2. |
         fa''4 fa'' fa'' |
         mi''2 do''4 |
-        si'2 mi''4 |
+        si'2\trill mi''4 |
         mi'' mi'' mi'' |
         do'' do'' re'' |
-        do''( si'2) |
+        do''( si'2\trill) |
         la' r4 |
         r2 r8 fa'' |
         re''2. |
@@ -110,7 +110,7 @@
         mi''2 fa''4 |
         re'' re'' mi'' |
         dod'' dod'' re'' |
-        re''2( dod''4) |
+        re''2( dod''4\trill) |
         re''2 r4 |
         r2 r8 si' |
         do''4 do'' do'' |
@@ -135,12 +135,12 @@
         r2 r8 do'' |
         do''2. |
         mi''4 mi'' do'' |
-        la'2 re''4 |
+        la'2\trill re''4 |
         si'2.\trill |
         r2 r8 mi'' |
         do''4 do'' re'' |
         si'\trill si' do'' |
-        do''2( si'4) |
+        do''2( si'4\trill) |
         do''2 r4 |
         R2.*4 |\allowPageTurn
         r2 r8 re'' |
@@ -151,7 +151,7 @@
         mi''2 r8 re'' |
         re''4 do'' do'' |
         re'' re'' mi'' |
-        mi''( re''2) |
+        mi''( re''2\trill) |
         do''2 } >>
     << { s4 s2.*10 s2 } \tag #'dessus { r4 | R2.*10 | r2 } >>
     <<\tag #'basse { r4 R2.*3 r2 } 
@@ -159,7 +159,7 @@
         r8 mi''^\markup\character "Chœur" |
         re''2.\trill |
         mi''4 mi'' re'' |
-        do''2 r8 do'' |
+        do''2\trill r8 do'' |
         si'2\trill
       } >>
     \sangarideMark re''4 |\noBreak
@@ -184,31 +184,31 @@
     si'2\trill si'4. si'8 |
     mi'2 mi'4. mi'8 |
     la'2 la'4 si' |
-    sold'2 sold'4 sold' |
+    sold'2\trill sold'4 sold' |
     la'2 fad'4 fad' |
     sol'2 si'4. si'8 |
     si'2 la'4. sol'8 |
-    fad'2
+    fad'2\trill
     <<\tag #'basse { r2 R1*21 R2.*64 }
       \tag #'dessus {
         la'4.^\markup\character "Chœur" la'8 |
         sib'2. re''4 |
         re''2 re''4 re'' |
-        re''2( do'') |
+        re''2( do''\trill) |
         re''4. re''8 la'4. la'8 |
         si'4\trill si'8 si' si'[ do''] re''[ si'] |
         mi''2 mi''4 r |
         r2 re''4. re''8 |
         re''2. re''4 |
         re''2 do''4 do'' |
-        do''2( si') |
+        do''2( si'\trill) |
         do''2. do''4 |
         re''2 re''4 re'' |
-        do''1 |
+        do''1\trill |
         si'2\trill si'4. si'8 |
         la'2\trill re''4. re''8 |
         re''2 do''4. do''8 |
-        do''4. do''8 si'4 si'8 do'' |
+        do''4. do''8 si'4\trill si'8 do'' |
         la'4\trill la' la'4. la'8 |
         si'4 si' do'' do''8 do'' |
         do''4 do''8 do'' si'[ do''] re''[ si'] |
@@ -228,7 +228,7 @@
         mi''2 fa''4 |
         re''4 re'' mi'' |
         dod'' dod'' re'' |
-        re''2( dod''4) |
+        re''2( dod''4\trill) |
         re''2 r4 |
         r2 r8 si' |
         do''4 do'' do'' |
@@ -240,13 +240,13 @@
         mi''2. |
         re''4 re'' re'' |
         do''2 r8 re'' |
-        si'2 r8 do'' |
+        si'2\trill r8 do'' |
         la'4 re'' re'' |
         re'' do'' do'' |
         do''2( si'4) |
         do'' mi'' mi'' |
         la' si'4. la'8 |
-        si'4( la'2) |
+        si'4( la'2\trill) |
         sol'2 r4 |
         r2 r8 re'' |
         do''2. |
@@ -254,22 +254,22 @@
         do''2. |
         mi''4 mi'' do'' |
         la'2 re''4 |
-        si'2. |
+        si'2.\trill |
         r2 r8 mi'' |
         do''4 do'' re'' |
         si' si' do'' |
-        do''2( si'4) |
+        do''2( si'4\trill) |
         do''2 r4 |
         R2.*4 |
         r2 r8 re'' |
         mi''2 r8 mi'' |
-        re''2. |
+        re''2.\trill |
         do''4 do'' do'' |
-        si'2 r8 mi'' |
+        si'2\trill r8 mi'' |
         mi''2 r8 re'' |
         re''4 do'' do'' |
         re'' re'' mi'' |
-        mi''4( re''2) |
+        mi''4( re''2\trill) |
         do''2. | } >>
   }
   %% Haute-contre / Atys

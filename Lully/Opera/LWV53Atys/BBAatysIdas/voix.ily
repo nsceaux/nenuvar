@@ -96,13 +96,13 @@
     << { s1*12 s2.*25 s2 }
       \tag #'idas {
         \idasMark R1 |
-        r4 sol fad re |
+        r4 sol fad\trill re |
         sol sib8[ la] sol[ fa] mib[ re] |
         mib4 mib8[ re] do[ re] mib[ do] |
         fa4. fa8 re4. re8 |
         mib4 mib fa2 |
         sib,2 r | % sib,1
-        r4 sib la fa |
+        r4 sib la\trill fa |
         sib sib8[ la] sol[ fa] mib[ re] |
         do4 mib8[ re] do[ sib,] la,[ sol,] |
         re4. re8 sib,4. sib,8 |
@@ -121,64 +121,64 @@
     fa4. fa8 fa4. fa8 |
     sol4 sol2 la8 sib |
     la4 la fa4. fa8 |
-    %{ dod4 dod re8[ dod] re4 %} dod4. dod8 re4. re8 |
+    %{ dod4 dod re8[ dod] re4 %} dod4.\trill dod8 re4. re8 |
     la,1 |
     re4. re'8 re'4. do'8 |
     sib4 sib2 la8 sol |
-    fad4. sol8 sol4 re |
+    fad4.\trill sol8 sol4 re |
     %{ mib4 mib %} mib4. mib8 mib4 do |
     re1 |
     sol,4
     << { s2. s1 s2.*29 s4 } \tag #'idas { r4 r2 | R1 | R2.*29 | r4 } >>
     \tag #'basse \idasMark re-\tag #'idas ^\markup\character Idas sol |
-    fad2 fad4 |
+    fad2\trill fad4 |
     sol la sib |
     la2\trill re'4 |
     sib sol do' |
     la2\trill sib8[ la] |
-    sib4 sib( la) |
+    sib4 sib( la\trill) |
     sib4 re sol |
     sib4 re mi |
     fa re sol |
-    fad2 sol4 |
+    fad2\trill sol4 |
     la2. |
     la4. sib8 do'4 |
-    fad2. |
+    fad2.\trill |
     sol4 la sib |
     sib( la2)\trill |
     sol4 re mi |
     sol r8 sib8 %{ sol\trill sol %} sol8.\trill sol16 re8. mi16 |
     fa4. fa8 fa4 mib8 mib16 re |
     re4\trill r16 sib do' re' sol8. sol16 la8. sib16 |
-    fad2 r |
+    fad2\trill r |
     r sol4 sol |
     sol2 fa4. fa8 |
     fa4 mib8[ re] mib2\trill |
     re1 |
     re'4 re'8 do' sib4. la8 |
     sol2\trill sol4 la |
-    sib2 sib4 la |
+    sib2 sib4 la\trill |
     sib1 |
     sib,4 sib,8 do re4. %{ mi8 %} mib8 |
     fa2 fa4 sol8 la |
     sib2. mi4 |
     fa2 fa |
-    r4 fad fad fad |
+    r4 fad fad\trill fad |
     sol do re( do8) re |
     sol,4
     << { s2. s1*3 s2 } \tag #'idas { r4 r2 | R1*3 | r2 } >>
     \tag #'basse \idasMark r4 re8-\tag #'idas ^\markup\character Idas re |
     sol4 sol r8 sol %{ sol8 fa %} sol8. fa16 |
     mi4\trill do8. do16 fa4 %{ fa8. fa16 %} fa8 fa |
-    fa4 mi fa fa |
+    fa4 mi\trill fa fa |
     r do'8 do' do'4 re'8 la |
     sib4. la8 sol fa mi re |
-    dod2 %{ la8. la16 la8 la16 sib %} r8 la la16 la la sib |
+    dod2\trill %{ la8. la16 la8 la16 sib %} r8 la la16 la la sib |
     sol4.\trill fa8 mi8.\trill mi16 mi8. fa16 |
     re4\trill re r2 |
     r r4 sib |
     sib4. la8 la4( sib8) do' |
-    fad2. sib4 |
+    fad2.\trill sib4 |
     sol( fad8) sol sol4 fad |
     sol2. sib4 |
     re4.\trill re8 re4 mib |
@@ -197,7 +197,7 @@
     fa2( mi)\trill |
     re2. sib4 |
     sib4. la8 la4( sib8) do' |
-    fad2. sib4 |
+    fad2.\trill sib4 |
     sol4( fad8) sol sol4 fad |
     sol2
     \tag #'idas { r2 | R1*5 | R1. | R1*4 }

@@ -20,8 +20,8 @@
     la'4 la' mi''8 mi'' |
     fa''4 fa'' re'' |
     mi''2 mi''8 fa'' |
-    re''2\trill dod''8 re'' |
-    dod''4 %{ la'4. %} la'4 r8 mi'8 |
+    re''2 dod''8 re'' |
+    dod''4\trill %{ la'4. %} la'4 r8 mi'8 |
     fa'4. sol'8 la' %{ sib' %} si' |
     do''4 la'4. la'8 |
     la'4 sol'8[ fa'] sol'4 |
@@ -42,20 +42,20 @@
     do''4 sib'4.\trill la'8 |
     sol'2\trill r8 do'' |
     re''4. re''8 %{ mi''8 fa'' %} mi''8. fa''16 |
-    fa''2( mi''4) |
+    fa''2( mi''4\trill) |
     fa'' do''4. do''8 |
-    dod''2 dod''8 re'' |
+    dod''2\trill dod''8 re'' |
     mi''2 mi''8 fa'' |
     re''2\trill si'8 do'' |
     do''4( si'2)\trill |
     la'2 do''4 |
     do''4. do''8 do''[ si'16] do'' |
     si'2\trill si'8 dod'' |
-    re''4 dod''4. re''8 |
+    re''4 dod''4.\trill re''8 |
     re''2 r8 do'' |
     do''4. do''8 do''[ si'16] do'' |
     si'2\trill si'8 dod'' |
-    re''4 dod''4. re''8 |
+    re''4 dod''4.\trill re''8 |
     re''2
     << { s1*4 } \tag #'sangaride { r2 | R1*3 | r2 } >>
     \tag #'basse \sangarideMark r4 la'8 la' |
@@ -64,12 +64,12 @@
     sol'4\trill sol'8 la'16 sib' do''8 do''16 do'' sol'8\trill la'16 sib' |
     la'4\trill la'8 r16 do'' %{ fa''8. fa''16 la'8. sib'16 %} fa''4 fa''8 la'16 si' |
     % do''4. do''8 dod''4 dod''8 re''16 mi'' |
-    do''4 r8 do'' dod'' dod'' re'' mi'' |
+    do''4 r8 do'' dod''\trill dod'' re'' mi'' |
     fa''4 %{ fa''8 r %} fa''4 r8 la' la' si' |
     do'' do'' do'' re'' si'4\trill re'' |
     % mi''4 mi'' re''8 do'' si'8. la'16 |
     mi''4. mi''8 re'' do'' si' la' |
-    sold'4 sold'8 si'16 do'' la'4 la'8 sold' |
+    sold'4\trill sold'8 si'16 do'' la'4 la'8 sold' |
     la'2
     << { s2 s1 s2.*20 s1*2 s4. } \tag #'sangaride { r2 | R1 | R2.*20 | R1*2 | r4 r8 } >>
     \tag #'basse \sangarideMark do''8 do'' la' sib' do'' |
@@ -79,7 +79,7 @@
     sib'8 sib' r16 sib' sib' %{ sib' %} do'' la'8 la' la' sol' |
     la'4 la' dod''8 dod''16 dod'' re''8. re''16 |
     si'4.\trill si'8 si' do'' re''8. mi''16 |
-    dod''2 fa''8 fa''16 mi'' re''8. do''?16 |
+    dod''2\trill fa''8 fa''16 mi'' re''8. do''?16 |
     si'4.\trill si'8 dod'' re'' re'' dod'' |
     re''2 r4 la'8 la' |
     fa'4\trill sol'8 la' sib'4. sib'8 |
@@ -92,8 +92,8 @@
     re''4.\trill re''8 re'' re'' |
     mi'' fa'' mi''4( re'')\trill |
     do''2 mi''4 |
-    mi'' re''4. do''8 |
-    si'4\trill si'4. do''8 |
+    mi'' re''4.\trill do''8 |
+    si'4 si'4. do''8 |
     do''4( si'2)\trill |
     la' mi''8 mi'' |
     fa''2 fa''8 mi'' |
@@ -102,7 +102,7 @@
     do''2 do''8 do'' |
     do''2 sib'4 |
     la'2\trill la'8 sib' |
-    sol'2 sib'8 do'' |
+    sol'2\trill sib'8 do'' |
     la'2\trill la'8 sib' |
     do''2 do''8 do'' |
     re''2 %{ mi''8. fa''16 %} mi''8 fa'' |
@@ -110,7 +110,7 @@
     sib'2\trill la'4 |
     sol'2\trill sol'8. la'16 |
     fa'2 do''8 do'' |
-    dod''2 re''4 |
+    dod''2\trill re''4 |
     %{ re''4.( dod''8) %} re''2 dod''8 re'' |
     re''2. |
   }
