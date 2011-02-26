@@ -12,7 +12,7 @@
 \scene "Scène II"
 \sceneDescription \markup \smallCaps { Celænus, Cybèle, Sangaride, Atys. }
 \pieceToc \markup { Celænus, Cybèle, Sangaride, Atys } \includeScore "FBAccsa"
-%{ n°4 %}\newBookPart #'(full)
+%{ n°4 %}%\newBookPart #'(full)
 \scene "Scène III"
 \sceneDescription \markup \smallCaps { Celænus, Cybèle, Sangaride, Atys. }
 \pieceTocTitle "Prélude pour Alecton" \includeScore "FCAprelude"
@@ -26,7 +26,7 @@
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Cybèle, Mélisse. }
 \pieceToc \markup { Cybèle, Mélisse } \includeScore "FEAcybeleMelisse"
-%{ n°8 %}\newBookPart #'(full)
+%{ n°8 %}
 \scene "Scène VI"
 \sceneDescription \markup \smallCaps { Cybèle, Idas, Atys. }
 \pieceToc \markup { Cybèle, Idas, Atys } \includeScore "FFAcybeleIdasAtys"

@@ -26,18 +26,21 @@
 %{ n°5 %}\newBookPart #'(full)
 \pieceToc \markup { Morphée, Phantase, Phobetor :
   \italic { Écoute, écoute Atys la gloire qui t'appelle } } \includeScore "DDBsommeil"
-%{ n°6 %}\newBookPart #'(full)
+%{ n°6 %}
 \pieceTocTitle "Entrée des songes agréables" \includeScore "DDCsongesAgreables"
-%{ n°7 %}\newBookPart #'(full)
+%{ n°7 %}
 \pieceToc \markup { Phobetor, Morphée, Phantase :
   \italic { Goûte en paix chaque jour une douceur nouvelle } } \includeScore "DDDsommeil"
-\noPageBreak\markup \large {
-  On reprend l'entrée des songes agréables (page \page-refIII #'DDCsongesAgreables .)
+\noPageBreak\markup\fill-line {
+  \null
+  \line \italic { On reprend l'entrée des songes agréables, page
+    \page-refIII #'DDCsongesAgreables . }
 }
-%{ n°8 %}\newBookPart #'(full)
+\markup\null
+%{ n°8 %}
 \pieceToc \markup { Un songe funeste :
   \italic { Garde-toi d'offenser un amour glorieux } } \includeScore "DDFfuneste"
-%{ n°9 %}
+%{ n°9 %}\newBookPart #'(full)
 \pieceTocTitle "Entrée des songes funestes" \includeScore "DDGsongesFunestes"
 %{ n°10 %}
 \pieceToc \markup { Chœur des songes funestes :
@@ -56,7 +59,7 @@
 \scene "Scène VII"
 \sceneDescription \markup \smallCaps { Cybèle, Mélisse. }
 \pieceToc \markup { Cybèle, Mélisse } \includeScore "DGAcybeleMelisse"
-%{ n°15 %}\newBookPart #'(full)
+%{ n°15 %}
 \scene "Scène VIII"
 \sceneDescription \markup \smallCaps { Cybèle seule. }
 \pieceToc \markup { Cybèle :

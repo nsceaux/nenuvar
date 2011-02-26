@@ -37,22 +37,22 @@
     aspect, elle a été la source de la basse chiffrée présentée dans
     cette édition.
   }
-  %\line { \vspace #1.0 \hspace #2
-  %  \bold { [Philidor 1703] } Versailles : Philidor l'Aisné, 1703.
-  %  Parties séparées manuscrites de \italic Thésée et \italic Atys.
-  %  Bibliothèque municipale de Versailles. }
-  %\line { \hspace #6 Manuscrit musical 291 : 2.dessus chantante. }
-  %\line { \hspace #6 Manuscrit musical 293 : basse chantante. }
-  %\line { \hspace #6 Manuscrit musical 294 : taille chantante. }
-  %\line { \hspace #6 Manuscrit musical 295 : 1.dessus de violon, flûte et hautbois. }
-  %\line { \hspace #6 Manuscrit musical 296 : 2.dessus de violon, flûte et hautbois. }
-  %\line { \hspace #6 Manuscrit musical 297 : 1.basse continue. }
-  %\line { \hspace #6 Manuscrit musical 298 : 2.basse continue. }
-  %\paragraph {
-  %  Les parties séparées du matériel de 1703 copié par Philidor l'Aisné
-  %  comportent des signes d'ornementation en plus grande abondance que
-  %  Ballard 1689.  Ces indications ont été ajoutées dans cette édition.
-  %}
+  \wordwrap-lines { \vspace #1.0 \hspace #2
+    \bold { [Philidor 1703] } Versailles : Philidor l'Aisné, 1703.
+    Parties séparées manuscrites de \italic Thésée et \italic Atys.
+    Bibliothèque municipale de Versailles. }
+  \line { \hspace #6 Manuscrit musical 291 : 2.dessus chantante. }
+  \line { \hspace #6 Manuscrit musical 293 : basse chantante. }
+  \line { \hspace #6 Manuscrit musical 294 : taille chantante. }
+  \line { \hspace #6 Manuscrit musical 295 : 1.dessus de violon, flûte et hautbois. }
+  \line { \hspace #6 Manuscrit musical 296 : 2.dessus de violon, flûte et hautbois. }
+  \line { \hspace #6 Manuscrit musical 297 : 1.basse continue. }
+  \line { \hspace #6 Manuscrit musical 298 : 2.basse continue. }
+  \paragraph {
+    Les parties séparées du matériel de 1703 copié par Philidor l'Aisné
+    sont proches du manuscrit non daté. Les indications d'interprétation
+    qui y sont contenues ont été ajoutées dans cette édition.
+  }
   \null
 
   \paragraph {
@@ -61,81 +61,79 @@
     cette édition se distingue de la première édition Ballard
     1689 par certaines modifications de notation. En premier lieu, les clés
     utilisées sont modifiées, de façon à faciliter la lecture. Les
-    correspondances sont les suivantes, pour les instruments :
+    correspondances sont les suivantes :
   }
-  \line\bold {
-    \force-line-width-ratio #2/8 \null
-    \force-line-width-ratio #1/8 \line { Ballard 1689 }
-    \force-line-width-ratio #1/8 \line { Cette édition }
-  }
-  \line \vcenter {
-    \force-line-width-ratio #1/8 \null
-    \force-line-width-ratio #1/8 \line { Dessus }
-    \force-line-width-ratio #1/8 \score { { \clef "french" do''4 } \layout { \quoteLayout } }
-    \force-line-width-ratio #1/8 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
-  }
-  \line \vcenter {
-    \force-line-width-ratio #1/8 \null
-    \force-line-width-ratio #1/8 \line { Haute-contre }
-    \force-line-width-ratio #1/8 \score { { \clef "soprano" do''4 } \layout { \quoteLayout } }
-    \force-line-width-ratio #1/8 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
-  }
-  \line \vcenter {
-    \force-line-width-ratio #1/8 \null
-    \force-line-width-ratio #1/8 \line { Taille }
-    \force-line-width-ratio #1/8 \score { { \clef "mezzosoprano" do'4 } \layout { \quoteLayout } }
-    \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
-  }
-  \line \vcenter {
-    \force-line-width-ratio #1/8 \null
-    \force-line-width-ratio #1/8 \line { Quinte }
-    \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
-    \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
-  }
-  \line \vcenter {
-    \force-line-width-ratio #1/8 \null
-    \force-line-width-ratio #1/8 \line { Basse }
-    \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
-    \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
-  }
-  \line { Pour les voix : }
-  \line \vcenter {
-    \force-line-width-ratio #1/8 \null
-    \force-line-width-ratio #1/8 \line { Dessus }
+  \fill-line {
+    \null
     \column {
+      \line\bold {
+        \force-line-width-ratio #1/8 \line { Instruments }
+        \force-line-width-ratio #1/8 \line { Ballard 1689 }
+        \force-line-width-ratio #1/8 \line { Cette édition }
+      }
       \line \vcenter {
+        \force-line-width-ratio #1/8 \line { Dessus }
         \force-line-width-ratio #1/8 \score { { \clef "french" do''4 } \layout { \quoteLayout } }
         \force-line-width-ratio #1/8 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
       }
       \line \vcenter {
+        \force-line-width-ratio #1/8 \line { Haute-contre }
         \force-line-width-ratio #1/8 \score { { \clef "soprano" do''4 } \layout { \quoteLayout } }
         \force-line-width-ratio #1/8 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
       }
+      \line \vcenter {
+        \force-line-width-ratio #1/8 \line { Taille }
+        \force-line-width-ratio #1/8 \score { { \clef "mezzosoprano" do'4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
+      }
+      \line \vcenter {
+        \force-line-width-ratio #1/8 \line { Quinte }
+        \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
+      }
+      \line \vcenter {
+        \force-line-width-ratio #1/8 \line { Basse }
+        \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
+      }
     }
-  }
-  \line \vcenter {
-    \force-line-width-ratio #1/8 \null
-    \force-line-width-ratio #1/8 \line { Haute-contre }
-    \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
-    \force-line-width-ratio #1/8 \score { { \clef "G_8" do'4 } \layout { \quoteLayout } }
-  }
-  \line \vcenter {
-    \force-line-width-ratio #1/8 \null
-    \force-line-width-ratio #1/8 \line { Taille }
-    \force-line-width-ratio #1/8 \score { { \clef "tenor" do'4 } \layout { \quoteLayout } }
-    \force-line-width-ratio #1/8 \score { { \clef "G_8" do'4 } \layout { \quoteLayout } }
-  }
-  \line \vcenter {
-    \force-line-width-ratio #1/8 \null
-    \force-line-width-ratio #1/8 \line { Basse-taille }
-    \force-line-width-ratio #1/8 \score { { \clef "varbaritone" do'4 } \layout { \quoteLayout } }
-    \force-line-width-ratio #1/8 \score { { \clef "bass" do'4 } \layout { \quoteLayout } }
-  }
-  \line \vcenter {
-    \force-line-width-ratio #1/8 \null
-    \force-line-width-ratio #1/8 \line { Basse }
-    \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
-    \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
+    \null
+    \column {
+      \line\bold {
+        \force-line-width-ratio #1/8 \line { Voix }
+        \force-line-width-ratio #1/8 \line { Ballard 1689 }
+        \force-line-width-ratio #1/8 \line { Cette édition }
+      }
+      \line \vcenter {
+        \force-line-width-ratio #1/8 \line { Dessus }
+        \force-line-width-ratio #1/8 \line \general-align #Y #DOWN {
+          \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
+          \score { { \clef "soprano" do''4 } \layout { \quoteLayout } }
+        }
+        \force-line-width-ratio #1/8 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
+      }
+      \line \vcenter {
+        \force-line-width-ratio #1/8 \line { Haute-contre }
+        \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \score { { \clef "G_8" do'4 } \layout { \quoteLayout } }
+      }
+      \line \vcenter {
+        \force-line-width-ratio #1/8 \line { Taille }
+        \force-line-width-ratio #1/8 \score { { \clef "tenor" do'4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \score { { \clef "G_8" do'4 } \layout { \quoteLayout } }
+      }
+      \line \vcenter {
+        \force-line-width-ratio #1/8 \line { Basse-taille }
+        \force-line-width-ratio #1/8 \score { { \clef "varbaritone" do'4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \score { { \clef "bass" do'4 } \layout { \quoteLayout } }
+      }
+      \line \vcenter {
+        \force-line-width-ratio #1/8 \line { Basse }
+        \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
+      }
+    }
+    \null
   }
   \paragraph {
     Pour chaque partie, la clé utilisée dans la partition originale est

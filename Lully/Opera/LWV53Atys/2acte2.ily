@@ -25,22 +25,24 @@
   \italic { Célébrons la gloire immortelle } } \includeScore "CDAchoeur"
 %{ n°7 %}
 \pieceTocTitle "Entrée des Nations" \includeScore "CDBnations"
-%{ n°8 %}
+%{ n°8 %}\newBookPart #'(full)
 \pieceTocTitle "Entrée des zéphirs" \includeScore "CDCzephirs"
-%{ n°9 %}
+%{ n°9 %}\newBookPart #'(full)
 \pieceToc \markup { Chœur :
   \italic { Que devant nous tout s'abaisse et tout tremble } } \includeScore "CDDchoeur"
-%{ n°10 %}\newBookPart #'(full)
+%{ n°10 %}
 \pieceToc \markup { Atys :
   \italic { Indigne que je suis des honneurs qu'on m'adresse } } \includeScore "CDEatys"
 %{ n°11 %}
 \pieceToc \markup { Chœur :
   \italic { Que la puissante Cybèle nous rende à jamais heureux } } \includeScore "CDFchoeur"
-%{ n°12 %}\newBookPart #'(full)
+%{ n°12 %}
 \pieceToc \markup { Chœur :
   \italic { Que devant nous tout s'abaisse et tout tremble }
 } \reIncludeScore "CDDchoeur" "CDGchoeur"
-\noPageBreak
-\markup \large { On reprend l'entrée des zéphirs pour l'entr'acte (page \page-refIII #'CDCzephirs .) }
+\noPageBreak \markup \large {
+  On reprend pour l'entr'acte l'entrée des zéphirs page \page-refIII #'CDCzephirs .
+}
+\markup\null
 %\pieceTocTitle "Entr'acte" \reIncludeScore "CDCzephirs" "CDHzephirs"
 \actEnd "FIN DU SECOND ACTE"

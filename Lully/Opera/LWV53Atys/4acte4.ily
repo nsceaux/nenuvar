@@ -51,6 +51,6 @@
 \scene "Scène V"
 \sceneDescription \markup \smallCaps { Celænus, Sangar, Atys. }
 \pieceToc \markup { Atys, Celænus, Sangar, chœur } \includeScore "EFAchoeur"
-%{ n°16 %}\newBookPart #'(full)
+%{ n°16 %}
 \pieceTocTitle "Entr'acte" \includeScore "EFBgavotte"
 \actEnd "FIN DU QUATRIÈME ACTE"

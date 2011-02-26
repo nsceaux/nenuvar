@@ -8,7 +8,7 @@
 \includeScore "AACchoeur"
 %{ n°4 %}\newBookPart #'(full)
 \pieceTocTitle "Air pour Flore" \includeScore "AADair"
-%{ n°5 %}\newBookPart #'(full)
+%{ n°5 %}
 \pieceToc \markup { Le Temps, Flore } \includeScore "AAEtempsFlore"
 %{ n°6 %}\newBookPart #'(voix)
 \pieceToc \markup { Le Temps, Flore, chœur :
@@ -20,8 +20,11 @@
 \pieceToc \markup { Un Zéphir : 
   \italic { Le printemps quelques fois est moins doux qu'il ne semble } }
 \includeScore "AAHzephir"
-\markup\fill-line { \null
-  \line \italic { On reprend la gavotte précédente, page \page-refIII #'AAGair . } }
+\noPageBreak\markup\fill-line {
+  \null
+  \line \italic { On reprend la gavotte précédente, page \page-refIII #'AAGair . }
+}
+\markup\null
 %{ n°9 %}
 \pieceTocTitle "Prélude pour Melpomène" \includeScore "AAIair"
 %{ n°10 %}

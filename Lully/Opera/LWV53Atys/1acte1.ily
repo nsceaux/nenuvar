@@ -42,7 +42,7 @@
 \scene "Scène VIII"
 \sceneDescription \markup { \smallCaps Cybèle sur son char. }
 \pieceToc "Prélude pour Cybèle" \includeScore "BHAprelude"
-%{ n°11 %}
+%{ n°11 %}\newBookPart #'(full)
 \pieceToc \markup { Cybèle, chœur :
   \italic { Vous devez vous animer d'une ardeur nouvelle }
 } \includeScore "BHBcybeleChoeur"
