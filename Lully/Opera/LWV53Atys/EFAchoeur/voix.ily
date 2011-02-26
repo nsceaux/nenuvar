@@ -52,9 +52,9 @@
     re''4 mi'' do''( si'8) do'' |
     si'2.\trill mi''4 |
     do''2. do''4 |
-    re''4. re''8 si'4. si'8 |
+    re''4. re''8 si'4.\trill si'8 |
     do''4. do''8 si'4. mi''8 |
-    dod''2. mi''4 |
+    dod''2.\trill mi''4 |
     fa''2. fa''4 |
     re''4.\trill re''8 mi''4. sol''8 |
     fa''4. mi''8 re''4.\trill do''8 |
@@ -66,14 +66,14 @@
       \tag #'choeur { r2 | R2. | R1*2 | R2. | R1*2 | R2.*2 | R1 | r2 } >>
     \tag #'basse \choeurMark r8 re'' re'' re'' |
     mi''4 r r8 mi'' mi'' mi'' |
-    do'' do'' do'' re'' si'4. mi''8 |
-    dod''4 dod'' r8 dod'' dod'' dod'' |
+    do'' do'' do'' re'' si'4.\trill mi''8 |
+    dod''4\trill dod'' r8 dod'' dod'' dod'' |
     re''4 r r8 re'' re'' re'' |
     si'\trill si' si' do'' la'4. re''8 |
     si'2\trill si' |
     << { s1*7 s2. } \tag #'choeur { R1*7 | R2. | } >>
     \tag #'basse \choeurMark mi''4 mi'' mi'' |
-    do''2 do''4 |
+    do''2\trill do''4 |
     fa'' fa'' fa'' |
     re''2\trill re''4 |
     re'' re'' sol'' |

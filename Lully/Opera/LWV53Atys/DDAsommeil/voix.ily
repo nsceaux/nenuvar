@@ -137,14 +137,14 @@
     la4. re'8 re'4. re'8 |
     re'2( do'4\trill sib8) do' |
     re'4 sib la sol |
-    fad sol la2~ |
+    fad\trill sol la2~ |
     la4 sol sol2~ |
     sol( fad) |
     sol do'4. sib8 |
     la4. la8 la4 sib |
     sol4. sol8 sol4. la8 |
     fad4. fad8 sol4( fad8) sol |
-    sol2( fad4.) sol8 |
+    sol2( fad4.\trill) sol8 |
     sol1 |
   }
 
@@ -162,12 +162,12 @@
     r2 r4 r8 fa |
     sib4.(\melisma la8 sol4. fa8 |
     mib2)\melismaEnd re4. mib8 |
-    do2 fa8[ mib] fa4 |
+    do2\trill fa8[ mib] fa4 |
     sib,1 |
     r4 sib sib sib |
     la la sol4.\trill sol8 |
     fa2 fa4 fa |
-    sol2 sol4 sol |
+    sol2 sol4\trill sol |
     la2. la4 |
     fa4 fa dod re |
     la,1 |
@@ -188,7 +188,7 @@
       sol |
       re |
       la2. sol4 |
-      fad4. fad8 sol4. fad8 |
+      fad4.\trill fad8 sol4. fad8 |
       mi2 fa~ |
       fa4. fa8 mib4 re8[ do] |
       si,2. si,4 |
@@ -198,7 +198,7 @@
       sol |
       r2 sol4 fa |
       mib re do sib, |
-      la,2. la,4 |
+      la,2.\trill la,4 |
       sib, do re mib |
       fa2. fa4 |
       fa1~ |

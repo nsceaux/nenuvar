@@ -1,17 +1,17 @@
 \clef "vtaille" r2 sib4 sib sib sib |
 sol sol sol sol sol sol |
 la la la la la la |
-fad fad sol sol fad4. sol8 |
+fad fad sol sol fad4.\trill sol8 |
 sol2 sol4 sol sol sol |
 sol sol sol la sib do' |
 la la la la sib sib |
 sol sol sol do' la4. sib8 |
 sib1. |
 sib4 sib sib sib sib sib |
-la la la la la sib |
-sol2 sol sib4 sib |
+la\trill la la la la sib |
+sol2\trill sol sib4 sib |
 sib2 sib4 sib sib sib |
-la2. fa4 fa fa |
+la2.\trill fa4 fa fa |
 sol2. sol4 sol sol |
 sol1. |
 si4 si8 si si4 si si si |

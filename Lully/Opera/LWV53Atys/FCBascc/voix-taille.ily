@@ -4,7 +4,7 @@ r4 r8 do' sib sib r re' |
 re' re' re'8. re'16 re'4 r8 re' |
 si4 si8 si do'8. do'16 do'8. do'16 |
 do'2 r |
-r4 r8 sib la4 r8 do' |
+r4 r8 sib la4\trill r8 do' |
 do'2 r |
 R1 |
 r2 r4 do' |

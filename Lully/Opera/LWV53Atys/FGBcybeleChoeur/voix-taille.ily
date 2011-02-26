@@ -31,7 +31,7 @@ lab4 lab do' do'8 do' |
 sib4 sib r2 |
 R1 |
 r2 re'4 re'8 re' |
-re'4 re' do'2 |
+re'4 re' do'2\trill |
 r si4 si8 do' |
 do'2 r2 |
 R1*7 |

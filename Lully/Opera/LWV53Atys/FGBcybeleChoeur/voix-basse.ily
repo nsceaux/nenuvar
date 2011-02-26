@@ -1,17 +1,17 @@
 \clef "vbasse" R1 | R2. | R1*13 | R2. | R1*9 |
 r2 r4 sol8 sol |
 do'2 lab8. lab16 fa8. fa16 |
-sib4 r8 sib si4 r8 si |
+sib4 r8 sib si4\trill r8 si |
 do'4 do'8 do' re'4 re'8 re |
 sol4 sol r r8 mib16 mib |
 lab2 fa8. fa16 fa8. fa16 |
-sib4 r8 sib si4 r8 si |
+sib4 r8 sib si4\trill r8 si |
 do'4 do'8 fa sol4 sol8 sol, |
 do4 do r2 |
 R1*21 |
 r2 r4 do'8. do'16 |
-mi2 mi4. mi8 |
-fa2 fad4 fad8 fad |
+mi2\trill mi4. mi8 |
+fa2 fad4\trill fad8 fad |
 sol2. mib4 |
 lab fa sol4. sol8 |
 do4 do r2 |

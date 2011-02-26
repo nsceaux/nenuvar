@@ -37,16 +37,16 @@
         la4.\trill la8 la4 si |
         do'2 sib4. sib8 |
         sib2 sib4 mib' |
-        re'2 re'4. re'8 |
-        do'4 do' do'4. re'8 sib4. sib8 |
-        la2 re'4 re' |
+        re'2\trill re'4. re'8 |
+        do'4\trill do' do'4. re'8 sib4. sib8 |
+        la2\trill re'4 re' |
         sib2 sib4 do' |
         sib2( la)\trill |
         sol2. |
       } >>
     \tag #'basse \phantaseMark r4-\tag #'phantase ^\markup\character "Phantase" sib do' |
     re' la sib |
-    fad2. |
+    fad2.\trill |
     la4 sib4. do'8 |
     sib4 \trill sol mib' |
     do'\trill re' mib' |
@@ -69,7 +69,7 @@
     do2 sol4. sol8 |
     mib2 mib4 mib |
     sib2 sib4. sib8 |
-    la4 sol fad4. fad8 sol4. sol8 |
+    la4 sol fad4.\trill fad8 sol4. sol8 |
     re2 re4 re |
     mib2 mib4 do |
     re1 |

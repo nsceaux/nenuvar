@@ -6,7 +6,7 @@ la4 r4 r2 |
 R1 |
 r2 r4 si8 si |
 do'4 do'8 do' do'4. re'8 |
-si8 si do'8. re'16 si8. do'16 |
+si8 si do'8. re'16 si8.\trill do'16 |
 do'2 r2 |
 R1 |
 R1.*2 |
@@ -20,7 +20,7 @@ re'2 re'4 re' |
 do'2. do'4 |
 do'2 do'4 do' |
 do'4. do'8 do'4. re'8 |
-si2 r8 re' re' re' |
+si2\trill r8 re' re' re' |
 re'4 re' re' si |
 la la re'4. re'8 |
 si4 si re'4. re'8 |

@@ -155,7 +155,7 @@
   %% Idas
   \tag #'(idas basse) {
     \idasMark r4 sib8 sib16 sib sol8.\trill sol16 sol8. sol16 |
-    re4 re8 r 
+    re4\trill re8 r 
     << { s2 s2. s1 s4 } \tag #'idas { r2 | R2. | R1 | r4 } >>
     \tag #'basse \idasMark r8 do'16 do' la8\trill la16 la |
     fad4
@@ -163,7 +163,7 @@
       r2 |
       R1 |
       r4 do'8 do' do'4 do'8 do' |
-      fad4 fad8 fad fad4 fad8 fad |
+      fad4\trill fad8 fad fad4 fad8 fad |
       sol4 sol r sol8 sol |
       re'4 re'8 do' sib4( la8) sib |
       la4\trill la8 la sib sol la la, |
@@ -176,7 +176,7 @@
       R1 |
       r4 r8 fa16 fa mib4 mib8 mib |
       % re8. re16 re8. re16 re8. re16 |
-      re8. re16 re8 re re8. re16 |
+      re8.\trill re16 re8 re re8. re16 |
       mib4 mib8 mib16 fa sol8 sol16 la |
       sib4 re8 mib fa4 fa8 fa |
       sib,4 r r2 |
@@ -201,8 +201,8 @@
       do2 do8 do |
       sol2 fa4 |
       mib4 mib4. mib8 | % mib4 mib( re8) mib |
-      re2 re4 |
-      si4 si4. si8 |
+      re2\trill re4 |
+      si4 si4.\trill si8 |
       do'4 sib! la |
       fad sol sol, |
       re2 sol8 sol |

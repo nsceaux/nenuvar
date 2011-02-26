@@ -1,15 +1,15 @@
 \clef "vtaille" do'4 do' |
 do' la sold la |
-sold2 la4 sold |
+sold2\trill la4 sold |
 la la sold la |
-sold la mi'4. mi'8 |
-re'4 do' do' do' |
-si do' do'4. do'8 |
+sold\trill la mi'4. mi'8 |
+re'4\trill do' do' do' |
+si\trill do' do'4. do'8 |
 re'4 do' mi' re' |
 re'2 si4 si |
-la re' dod' re' |
-dod' re' re'4. la8 |
+la re' dod'\trill re' |
+dod'\trill re' re'4. la8 |
 si4 do' do'4. re'8 |
-si2 do'4 do' |
+si2\trill do'4 do' |
 do' la sold la |
 sold la

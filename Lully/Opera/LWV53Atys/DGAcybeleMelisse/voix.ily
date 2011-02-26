@@ -59,17 +59,17 @@
     mi''4. fa''8 re''4.\trill sol''8 |
     mi''4\trill do'' r mi'' |
     re''\trill re''8 do'' si'4\trill si'8 la' |
-    sold'2 r4 mi'' |
+    sold'2\trill r4 mi'' |
     fa'' re'' si' sold' |
     la' si' si'2\trill |
     la'4
     << { s2 s2.*2 s1 s2. s1 s2.*7 s1 s8 }
       \tag #'melisse { r2 R2.*2 R1 R2. R1 R2.*7 R1 r8 } >>
     \tag #'basse \melisseMark sol'16-\tag #'melisse ^\markup\character "Mélisse" sol' do''8 do''16 re'' mi''8 mi''16 fa'' re''8\trill re''16 mi'' |
-    do''2 r |
+    do''2\trill r |
     r4 mi'' mi'' si' |
     do''4. do''8 si'4. la'8 |
-    sold'2. la'4 |
+    sold'2.\trill la'4 |
     si' do'' re'' si' |
     do''8[ re'' do''] si'( la'2) |
     r4 mi' mi'4. fad'8 |

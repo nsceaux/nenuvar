@@ -7,7 +7,7 @@ la2 fad4. fad8 |
 sol2 la8[ sol] la4 |
 re2. re8 re |
 sol2. sol4 |
-mi2 mi4 mi |
+mi2\trill mi4 mi |
 fa2 fa |
 re4 re8 re re4. re8 | % re4 re
 mi2 do4 do |
@@ -29,7 +29,7 @@ si2 r |
 R1*2 |
 r2 si4 la |
 sol2 fad4 mi |
-red2. red4 |
+red2.\trill red4 |
 mi2 mi4 la, |
 si,1 |
 mi2 r |
@@ -41,21 +41,21 @@ la,2 r |
 R1*2 |
 r2 la4 sol |
 fa2 mi4 re |
-dod2. dod4 |
+dod2.\trill dod4 |
 re2 re4 sol, |
 la,1 |
 re2 r |
 R1*3 |
 r2 re'4 do' |
 si2 la4 sol |
-fad2. fad4 |
+fad2.\trill fad4 |
 sol2 sol4 fad |
-mi1 |
+mi1\trill |
 re2 r |
 R1*3 |
 r2 re'4 do' |
 si2 la4 sol |
-fad2. fad4 |
+fad2.\trill fad4 |
 sol2 sol4 do |
 re1 |
 sol, |

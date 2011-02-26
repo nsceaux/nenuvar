@@ -7,9 +7,9 @@
     \tag #'basse \choeurMark r2 r4 mib''4 |
     re''2\trill r4 mib'' |
     do''2. do''4 |
-    si'2 si' |
+    si'2\trill si' |
     r do''4. do''8 |
-    do''2 si'4. si'8 |
+    do''2 si'4.\trill si'8 |
     do''2 do''
     << { s1*2 s2.*2 s1 s2. s1 s2.*3 s1*12 s2. s1*3 s2. s1*4 s2. }
       \tag #'choeur { R1*2 | R2.*2 | R1 | R2. | R1 |
@@ -17,9 +17,9 @@
     \tag #'basse \choeurMark mib''4 |
     re''2\trill r4 mib'' |
     do''2. do''4 |
-    si'2 si' |
+    si'2\trill si' |
     r do''4. do''8 |
-    do''2 si'4. si'8 |
+    do''2 si'4.\trill si'8 |
     do''8 do''
     \tag #'choeur { r4 r2 R1 R2. R1 R2.*3 }
   }

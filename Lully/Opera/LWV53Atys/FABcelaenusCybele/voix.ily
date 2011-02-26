@@ -52,11 +52,11 @@
     sol sol r mi16 fad sol8 sol16 la |
     si4 si8 si mi'4 mi'8 mi' |
     dod'8.\trill mi16 mi mi mi fad sol8 sol16 sol sol8 sol16 fad |
-    fad4\trill fad8 si si si dod' re' sold4. la8 |
+    fad4\trill fad8 si si si dod' re' sold4.\trill la8 |
     la4 r8 mi16 mi la8 la16 si |
     dod'8. la16 la la si dod' re' la la la fad8.\trill la16 |
     re8 re r16 re' re' do' si8.\trill si16 do'8. la16 |
-    mi'4 r8 si16 si sold8 sold16 sold la8 si |
+    mi'4 r8 si16 si sold8\trill sold16 sold la8 si |
     dod' dod' re'4 re'16 dod' si la |
     sol4\trill sol8 fad mi4\trill mi8 fad |
     re4

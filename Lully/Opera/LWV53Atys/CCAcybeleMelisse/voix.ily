@@ -104,7 +104,7 @@
     << { s2 s2. s4. } \tag #'melisse { r2 | R2. | r4 r8 } >>
     \tag #'basse \melisseMark mi'' la'16\trill la' si' do'' |
     si'8.\trill si'16 dod''8 re'' mi''[ red''?16] mi'' |
-    red''4
+    red''4\trill
     << { s2.*6 s1*3 s2.*21 s4 } \tag #'melisse { r4 r2 | R2.*5 | R1*3 | R2.*21 | r4 } >>
     \tag #'basse \melisseMark r8 si'16 si' mi''8 mi''16 mi'' |
     %{ si'8 r16 %} si'8. si'16 sol'4\trill sol'8 sol'16 fad' |
@@ -129,14 +129,14 @@
     r4 si'4. si'8 |
     do''2 r4 |
     r dod''4. dod''8 |
-    red''2 mi''4 |
+    red''2\trill mi''4 |
     % mi''4( red''2) |
-    mi''2( red''4) |
+    mi''2( red''4\trill) |
     mi''4
     << { s2. s1*3 s2. } \tag #'melisse {  r4 r2 | R1*3 | R2. } >>
     \tag #'basse \melisseMark r4 si' si' |
     mi''4.( red''8) mi''4 |
-    red''2 si'4 |
+    red''2\trill si'4 |
     fad'\trill sol' la' |
     sol'2\trill mi'4 |
     %{ r si' si' |
@@ -146,12 +146,13 @@
     sol'2\trill mi'4 | %}
     r2 mi''4 |
     si'\trill si' do'' |
-    re''2. do''4 do'' la' |
+    re''2. |
+    do''4\trill do'' la' |
     si'4 si' do'' |
     si'( la'2)\trill |
     sol'2 si'4 |
     %si' dod'' re'' | dod''2. |
-    si'4 do'' re'' | do''2. |
+    si'4 do'' re'' | do''2.\trill |
     la'4 si' do'' |
     si' la'4.\trill sol'8 |
     sol'4( fad'2)\trill |

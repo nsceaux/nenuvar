@@ -3,8 +3,8 @@ si4. si8 do'4. do'8 |
 re'4 do' do'4. do'8 |
 re'2. do'4 |
 la2. la4 |
-si4. si8 sold4. sold8 |
-la4. la8 la4 sold |
+si4. si8 sold4.\trill sold8 |
+la4. la8 la4 sold\trill |
 la2. dod'4 |
 re'2. re'4 |
 si4. si8 do'4. do'8 |
@@ -23,16 +23,16 @@ R2.*2 |
 R1 |
 r2 r8 si si si |
 do'4 r r8 do' do' do' |
-la la la la sold4. sold8 |
+la la la la sold4.\trill sold8 |
 la4 la r8 mi' mi' mi' |
 re'4 r r8 la la la |
-sol mi' mi' mi' re'4. re'8 |
-re'2 re' |
+sol mi' mi' mi' re'4.\trill re'8 |
+re'2\trill re' |
 R1*7 |
 R2. |
 do'4 do' do' |
-la2 la4 |
+la2\trill la4 |
 re' re' re' |
-si2 si4 |
+si2\trill si4 |
 si si si |
 do'2 do'4 |

@@ -11,7 +11,7 @@ sol2 mi4 fa2. |
 re4 re re mi2 mi4 |
 la,2 la,4 la la la |
 re2 re4 sol2. |
-mi4 re do sol2 sol4 |
+mi4 re\trill do sol2 sol4 |
 do2 do4 r2 do'4 |
 la\trill la la sib2 sib4 |
 sol2\trill sol4 la2 la4 |
@@ -29,7 +29,7 @@ sol2 mi4 la fa sol |
 do2 do4 do do2 |
 sol2 sol4 mi mi2 |
 la2 la4 fa fa2 |
-do'2. do'4 si do' |
+do'2. do'4 si\trill do' |
 sol2. sol4 sol2 |
 re2 re4 re re2 |
 la2 la4 mi mi2 |

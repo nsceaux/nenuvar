@@ -855,6 +855,10 @@
       \layout { indent = 0 }
     }
   }
+  \null\justify {
+    Le matériel Philidor 1703 comporte une voix de basse supplémentaire,
+    ajoutée dans cette édition sur une portée plus petite.
+  }
   \null\column {
     \justify {
       Dans le matériel Philidor 1703, les six dernières mesures

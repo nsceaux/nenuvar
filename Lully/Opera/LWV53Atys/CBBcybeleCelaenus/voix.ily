@@ -59,7 +59,7 @@
     do'8. do'16 do'8. mi'16 la8.\trill la16 si8. do'16 |
     si4\trill r8 %{ do'16 do' %} re'16 re' sol8. sol16 re8 mi16 fa |
     mi8\trill mi r mi' si8. si16 si8. si16 |
-    do'8. do'16 re'8. mi'16 sold8. la16 |
+    do'8. do'16 re'8. mi'16 sold8.\trill la16 |
     la4 r8 do'16 do' do'8 do'16 do' do'8. si16 |
     si8\trill si r si16 la sol8 sol16 fad |
     mi8.\trill mi16 mi8. fad16 fad4( mi8.)\trill re16 |
@@ -72,7 +72,7 @@
     re'4 re'8 si si8. si16 do'8. re'16 |
     mi'4 mi'8. si16 si8. do'16 si8.\trill la16 |
     la2 do'8 do'16 si la sol fad mi |
-    red8 red r si sold8. sold16 la8. si16 |
+    red8\trill red r si sold8. sold16 la8. si16 |
     do'4 do'8 do'16 do' do'8. si16 |
     si4\trill r8 re' sol8 sol16 sol re8 mi16 fa |
     mi8\trill mi r mi' do'8.\trill si16 la8. sol16 |

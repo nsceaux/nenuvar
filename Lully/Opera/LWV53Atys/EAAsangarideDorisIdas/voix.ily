@@ -18,13 +18,13 @@
     sol'4 r8 do'' la'8.\trill la'16 si'8 do'' |
     si'4\trill r8 si' mi''8. mi''16 mi''8 si' |
     do''4 do''8. do''16 la'4\trill la'8. la'16 |
-    fad'8 fad' r re'' si'4\trill do''8 do''16 re'' |
+    fad'8\trill fad' r re'' si'4\trill do''8 do''16 re'' |
     mi''8 mi'' r do''16 mi'' la'8\trill la'16 si' |
     \tag #'sangaride sol'4 \tag #'basse { sol'8 s }
     << { s2 | s2.*3 | s2 } \tag #'sangaride { r2 | R2.*3 | r2 } >>
     \tag #'basse \sangarideMark re''8 re''16 re'' fad'8.\trill fad'16 |
     sol'4 r8 si'16 re'' sol'8\trill sol'16 sol' |
-    mi'4\trill r8 do''16 mi'' do''8.\trill do''16 mi'8 mi'16 fad' |
+    mi'4\trill r8 do''16 mi'' do''8.\trill do''16 mi'8\trill mi'16 fad' |
     sol'4 la'8 si' do''4 do''8 re'' |
     si'\trill si' r si'16 mi'' dod''4\trill dod''8. fad''16 |
     red''8\trill red'' r si'16 si' la'8.\trill sol'16 fad'8\trill fad'16 sol' |
@@ -38,7 +38,7 @@
     fad'8\trill fad' r16 la' la' la' la'8 si' |
     do''4 do''8 do''16 do'' do''8. si'16 |
     si'4\trill r16 si' si' si' mi''8. mi''16 |
-    dod''4 re''8 re''16 re'' re''8 dod'' |
+    dod''4\trill re''8 re''16 re'' re''8 dod'' |
     re''2 re''4 r |
     << { s2.*21 | s1 } \tag #'sangaride { R2.*21 | R1 } >>
     \tag #'basse \sangarideMark r4 sol'8 la' si' si' si'\trill si'16 la' |
@@ -50,7 +50,7 @@
     mi''4 re''8 do'' si'4\trill si'8 do'' |
     re''4 mi''8 fa'' mi''2\trill |
     r4 do''8 si' la'4\trill la'8 si' |
-    sol'4 r8 si'16 si' mi''8 mi''16 si' |
+    sol'4\trill r8 si'16 si' mi''8 mi''16 si' |
     do''4. la'8 la'16 la' mi' fad' |
     sol'8 sol' r8 si'16 si' si'8 do''16 re'' |
     mi''8. mi''16 fa''8. mi''16 re''8.\trill do''16 |
@@ -77,7 +77,7 @@
     si'\trill si' mi''2~ |
     mi''4. re''8 re''4 do'' |
     si'2\trill dod''4 re'' |
-    dod''4 dod'' dod'' re'' |
+    dod''4\trill dod'' dod'' re'' |
     mi'' mi'' mi''4. mi''8 |
     la'4 la' re''2~ |
     re''4. do''8 do''4 do'' |
@@ -85,7 +85,7 @@
     la'4\trill la' la' la' |
     si' si' do'' do'' |
     re''2.( mi''4) |
-    dod''4. mi''8 mi''4. mi''8 |
+    dod''4.\trill mi''8 mi''4. mi''8 |
     re''4\trill re'' re''4. re''8 |
     mi''2 mi'' |
     la'4. la'8 si'4 si' |
@@ -214,12 +214,12 @@
       R1*2 |
       r4 r8 do'16 do' la4\trill r |
       r4 r8 sol sol8. sol16 sol8. sol16 |
-      sol4 fad8. fad16 mi4 mi8. fad16 |
-      re4 re r2 |
+      sol4 fad8. fad16 mi4\trill mi8. fad16 |
+      re4\trill re r2 |
       R2. |
       R1*5 |
       R2. |
-      r8 sol sol8. sol16 mi8. mi16 |
+      r8 sol sol8. sol16 mi8.\trill mi16 |
       fa8. fa16 re8. re16 re8. re16 |
       mi8 mi sold8. sold16 sold8 sold16 sold |
       la8. la16 la8. la16 si8 do' |
@@ -234,9 +234,9 @@
         fad4\trill fad sol |
         mi2.\trill |
         re4 re mi |
-        fad fad4. fad8 |
+        fad fad4.\trill fad8 |
         sol4 sol fa |
-        mi re do |
+        mi re\trill do |
         sol2 sol,4 |
         do do re |
         mi mi fad |
@@ -271,7 +271,7 @@
       fa re mi2 |
       la,4 la la si |
       dod' dod' dod'8[ si] dod'4 |
-      re'4 re' re' do' |
+      re'4 re' re' do'! |
       si si fad fad |
       sol sol la si |
       do' la re' si |
@@ -288,7 +288,7 @@
       re2. re4 |
       mi2 mi4 mi |
       la, la la si |
-      dod' dod' dod'4. dod'8 |
+      dod' dod' dod'4.\trill dod'8 |
       re'2 re' |
       r4 la la la |
       re' re' sol4. sol8 |
@@ -296,7 +296,7 @@
       re'4. re'8 do'4 do' |
       si2 mi'4 mi |
       la4 la la sol |
-      fad fad sol4. sol8 |
+      fad\trill fad sol4. sol8 |
       do4 do do'2~ |
       do'4. do'8 si4 si |
       la2 la4 la |

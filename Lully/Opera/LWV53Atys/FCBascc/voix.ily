@@ -16,9 +16,9 @@
     \tag #'basse \choeurMark r2 r4 mib'' |
     re''2\trill r4 mib'' |
     do''2. do''4 |
-    si'2 si' |
+    si'2\trill si' |
     r do''4. do''8 |
-    do''2 si'4. si'8 |
+    do''2 si'4.\trill si'8 |
     do''2 do'' |\break
     \tag #'choeur { R1*3 R2. R1*3 R2.*2 R1*2 }
   }
@@ -34,7 +34,7 @@
       \tag #'sangaride { r4 r2 | R2. | R1 | R2. | r4 r8 } >>
     \tag #'basse \sangarideMark fa''8-\tag #'sangaride ^\markup\character "Sangaride"
     la'4 re''8 re''16 re'' |
-    si'4 r4
+    si'4\trill r4
     << { s2 s1*7 s2 } \tag #'sangaride { r2 | R1*7 | r2 } >>
     \tag #'basse \sangarideMark r4
     fa''-\tag #'sangaride ^\markup\character "Sangaride" |

@@ -1,6 +1,6 @@
 \clef "basse" r2 r4 do |
 sol4. sol8 do'4. do'8 |
-si4 do' la4. sol8 |
+si4 do' la4.\trill sol8 |
 sol2. mi4 |
 fa2. fa4 |
 re4. re8 mi4. mi8 |
@@ -8,7 +8,7 @@ do4 re mi4. mi8 |
 la,2. la4 |
 re2. re4 |
 sol4. fa8 mi4. mi8 |
-re4 do sol,4. do8 |
+re4\trill do sol,4. do8 |
 do4 r r2 |
 R1*2 |
 R2.*2 |

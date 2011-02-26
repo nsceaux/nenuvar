@@ -6,8 +6,8 @@
     \tag #'basse \sangarideMark r4 r8 la'16 la' |
     re''8. re''16 re''8 re''16 mi'' fa''4 fa'' |
     mi''\trill mi''8 fa'' re''8.\trill re''16 re''8. mi''16 |
-    dod''4 r r la'16 la' la' la' |
-    fad'4 fad'8 sol' sol'4
+    dod''4\trill r r la'16 la' la' la' |
+    fad'4\trill fad'8 sol' sol'4
     << \tag #'basse { sol'8 s8 } \tag #'sangaride sol'4 >>
     << { s1 | s8 } \tag #'sangaride { R1 | r8 } >>
     \tag #'basse { s16 \sangarideMark do''16 } \tag #'sangaride do''8

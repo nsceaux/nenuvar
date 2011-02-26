@@ -82,13 +82,13 @@
     si4\trill r8 sol16 sol sol8 la16 si |
     do'4 do'8 do' re'4 re'8[ do'16] re' |
     mi'4 mi'8 mi fad8. fad16 fad8. fad16 |
-    sold4 sold8. sold16 %{ la4 la8. sold16 %} la4. la16 sold |
+    sold4\trill sold8. sold16 %{ la4 la8. sold16 %} la4. la16 sold |
     la4
     << { s2. s1*3 s4 } \tag #'celaenus { r4 r2 | R1*3 | r4 } >>
     \tag #'basse \celaenusMark la r8 la16 la la8. sib16 |
     sol8\trill sol16 sol sol8 fa16 mi fa4 fa |
     r8 la16 la re'8 re'16 re' si\trill si si si do'8. do'16 |
-    sold8 sold
+    sold8\trill sold
     << { s2. s1*3 s4 } \tag #'celaenus { r4 r2 | R1*3 | r4 } >>
     \tag #'basse \celaenusMark r8 sol mi\trill mi mi sol |
     do4 r8 do'16 do' fa4 fa8. fa16 |
@@ -99,10 +99,10 @@
     << \tag #'celaenus fa4 \tag #'basse { fa8 s } >>
     << { s2. s8 } \tag #'celaenus { r4 r2 | r8 } >>
     \tag #'basse \celaenusMark re16 mi fa8 fa16 sol la8. la16 re' re' re' mi' |
-    dod'4 r8 la16 la la8 si16 dod' |
+    dod'4\trill r8 la16 la la8 si16 dod' |
     re'8 re'16 re' sib8\trill sib16 sib sol\trill sol do' do' mi8 mi16 fa |
     fa4 fa do'8 do'16 do' la8.\trill la16 |
-    fad4. sib8 sol8.\trill sol16 sol8 fad |
+    fad4.\trill sib8 sol8.\trill sol16 sol8 fad |
     sol4 r8 sib16 re' sib8\trill sib16 sib |
     sol8.\trill sol16 re8. re16 %{ re8. mi16 %} re8 mi |
     fa8 fa fa8. la16 fa8\trill fa16 mi |
@@ -114,15 +114,15 @@
     % sol4.\trill do'8 do'4 do'8 sib16 la |
     sol4.\trill do'8 do'8. do'16 sib8. la16 |
     sib8 sib r sib16 la sol8\trill sol16 fa mi8. re16 |
-    %{ dod8 r16 %} dod8. la16 mi8.\trill mi16 fa8. fa16 fa8 sol |
+    %{ dod8 r16 %} dod8.\trill la16 mi8.\trill mi16 fa8. fa16 fa8 sol |
     la4
     << { s2. s1*3 s8 } \tag #'celaenus { r4 r2 | R1*3 | r8 } >>
     \tag #'basse \celaenusMark r16 la la la la la mi8.\trill mi16 mi fad sol la |
-    fad8 fad r la sib sib16 la sol8\trill sol16 fa? |
+    fad8\trill fad r la sib sib16 la sol8\trill sol16 fa? |
     mi4\trill r8 do'16 do' sol8\trill sol16 sol la8. sib16 |
     la8\trill la r la re'8. re'16 re'8. re'16 |
     si8.\trill si16 si8. do'16 re'8. mi'16 |
-    dod'8 dod' r la16 la re'8 re'16 la |
+    dod'8\trill dod' r la16 la re'8 re'16 la |
     sol4\trill sol8 fa mi4\trill mi8. fa16 |
     %{ re2 %} re4 r4
     << { s2 s1 s8 } \tag #'celaenus { r2 | R1 | r8 } >>
@@ -145,15 +145,15 @@
     si2\trill %{ si4. do'8 %} si4 do' |
     % la2 la4( sold8) la |
     la2 la4 si |
-    sold1 |
+    sold1\trill |
     do'4 do' re' mi' |
-    sold2 la4( sold8) la |
-    la2( sold) |
+    sold2 la4( sold8\trill) la |
+    la2( sold\trill) |
     la2. la4 |
     mi4.\trill mi8 mi4( re8) mi |
     fa2 la4. la8 |
     re'2 re'4. mi'8 |
-    dod'1 |
+    dod'1\trill |
     re'4. do'8 sib4.\trill la8 |
     sib2 sol4.\trill fa8 |
     fa2( mi)\trill |

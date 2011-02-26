@@ -6,6 +6,9 @@
     \new Staff \withLyrics <<
       \global \includeNotes "voix-haute-contre"
     >> \includeLyrics "paroles"
+    \newTinyStaff \withLyrics <<
+      \global \includeNotes "voix-basse"
+    >> \includeLyrics "paroles"
   >>
   \layout { indent = \noindent }
 }
