@@ -22,7 +22,7 @@ re2 do4 |
 sib,4. fa8 sol la |
 sib la sol4\trill fa |
 do' do2 |
-fa,2. |
+fa,2. |\allowPageTurn
 fa~ |
 fa4 mi2\trill |
 fa fa8 mib |

@@ -23,7 +23,7 @@ sib4. sib8 sib4 la |
 sol2. sol4 |
 re'2 re |
 la4 sol la la, |
-re1~ |
+re1~ |\allowPageTurn
 re2. |
 la,4 la fad\trill |
 sol2 mi4 |

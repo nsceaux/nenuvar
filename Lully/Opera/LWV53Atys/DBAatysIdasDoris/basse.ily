@@ -21,7 +21,7 @@ fa2 mib2\trill |
 re2. |
 mib4. mib16 fa sol8 sol16 la |
 sib4 re8 mib fa4 fa, |
-sib,1 |\allowPageTurn
+sib,1 |%\allowPageTurn
 fa2 fad4\trill |
 sol4. do8 sol,2 |
 do1~ |
@@ -58,7 +58,7 @@ do'2 do'4 | re' mib' do' | re' re2 | sol sol4 |
 do2 do4 |
 re mib do |
 re re,2 |
-sol,1 |
+sol,1 |\allowPageTurn
 la,2 si, |
 do4. do16 re mib8. fa16 sol8. la16 |
 sib8. sib16 sib8. do'16 re'4 re | % sib4 sib8 do' re'4 re |

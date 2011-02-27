@@ -53,12 +53,12 @@ sol,2 sol |
 do re |
 sold,\trill la, |
 si, mi |
-dod1\trill |
+dod1\trill |\allowPageTurn
 re2. |
 la2 la,4 |
 mi2. |
 la4 fa mi\trill |
-re1 |\allowPageTurn
+re1 |
 sol4 la si |
 do'2 la4 |
 re' si4. si8 |
