@@ -1,8 +1,12 @@
 \header {
+  title = \markup \center-column {
+    \line { Prélude sur une basse obligée }
+    \line { pour Magnificat à trois voix }
+    \line { sur la même basse avec symphonie }
+  }
+  opus = "H.73"
   composer = "Marc-Antoine Charpentier"
 }
-
-
 
 %% Staff size:
 %%  12 for urtext lead sheet
@@ -40,6 +44,21 @@
 \include "italiano.ly"
 \include "common/common.ily"
 \setOpus "Charpentier/MusiqueReligieuse"
+
+\paper {
+  bookTitleMarkup = \markup \abs-fontsize #12 \column {
+    \column {
+      \fontsize #1 \bold \fill-line { \fromproperty #'header:title }
+      \null
+      \fontsize #0 \fill-line {
+        \fromproperty #'header:opus
+        \fromproperty #'header:instrument
+        \fromproperty #'header:composer
+      }
+      \null
+    }
+  }
+}
 
 \header {
   maintainer = \markup { Nicolas Sceaux, Sébastien Amadieu,
@@ -85,11 +104,11 @@
             (#:notes "dessus1"))
    (dessus2 "Seconds dessus de violons" ()
             (#:notes "dessus2"))
-   (dessus "Dessus de violons" ()
+   (dessus "Violons" ()
            (#:notes "dessus"))
    (basse-continue "Basse continue" ()
                    (#:notes "basse" #:clef "basse" #:score-template "score-basse-continue"))
-   (voix "Parties vocales" ()
+   (voix "Haute-contre, taille, basse" ()
          (#:notes "voix" #:tag-notes voix #:score-template "score-voix")))
 
 trill = #(make-articulation "stopped")
