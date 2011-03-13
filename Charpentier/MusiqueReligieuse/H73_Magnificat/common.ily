@@ -39,7 +39,14 @@
 %% No key signature modification
 #(ly:set-option 'forbid-key-modification #t)
 
-\layout { reference-incipit-width = #(* 1/2 mm) }
+\layout {
+  reference-incipit-width = #(* 1/2 mm)
+  \context {
+    \Voice
+    \override FootnoteItem #'annotation-line = ##f
+    \override FootnoteItem #'color = #red
+  }
+}
 
 \include "italiano.ly"
 \include "common/common.ily"

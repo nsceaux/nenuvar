@@ -30,8 +30,14 @@
     \vspace #2
   }
   \includeScore "H73_Magnificat"
-  \markup \column {
-    \orig-version \fontsize #2 \fill-line {
+  \markup \orig-version \on-the-fly
+  #(lambda (layout props arg)
+     (let ((stencil (interpret-markup layout props arg)))
+       (ly:make-stencil (ly:stencil-expr (ly:stencil-aligned-to stencil Y DOWN))
+                        (ly:stencil-extent stencil X)
+                        '(1 . -1))))
+  \column {
+    \fontsize #2 \fill-line {
       \null
       \column {
         \line { elle avoit 229 }
@@ -40,6 +46,6 @@
         \line { La basse est repettez 89 fois }
       }
     }
-    \vspace #1
+    \vspace #6
   }
 }

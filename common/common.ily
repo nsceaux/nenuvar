@@ -1,4 +1,4 @@
-\version "2.13.52"
+\version "2.13.54"
 #(use-modules (srfi srfi-39))
 #(define-public *staff-size*
   (make-parameter (let ((module (ly:output-def-scope
@@ -119,36 +119,40 @@
   }
   scoreTitleMarkup = #f
 
-  oddFooterMarkup = \markup \column {
-    \fill-line {
-      %% put copyright only on pagenr. 1 
-      \on-the-fly #(lambda (layout props arg)
-		     (if (and (= 1 (chain-assoc-get 'page:page-number props -1))
-                              (not (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
-                                        (chain-assoc-get 'page:is-last-bookpart props #f))))
-		         (interpret-markup layout props (make-abs-fontsize-markup 12 arg))
-		         empty-stencil))
-      \abs-fontsize #10 \fromproperty #'header:longcopyright
-    }
-    \fill-line {
-      %% put tagline on last page
-      \on-the-fly #last-page
-      \abs-fontsize #12 \fill-line { \fromproperty #'header:tagline }
+  oddFooterMarkup = \markup {
+    \column {
+      \fill-line {
+        %% put copyright only on pagenr. 1 
+        \on-the-fly #(lambda (layout props arg)
+                       (if (and (= 1 (chain-assoc-get 'page:page-number props -1))
+                                (not (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
+                                          (chain-assoc-get 'page:is-last-bookpart props #f))))
+                           (interpret-markup layout props (make-abs-fontsize-markup 12 arg))
+                           empty-stencil))
+        \abs-fontsize #10 \fromproperty #'header:longcopyright
+      }
+      \fill-line {
+        %% put tagline on last page
+        \on-the-fly #last-page
+        \abs-fontsize #12 \fill-line { \fromproperty #'header:tagline }
+      }
     }
   }
-  evenFooterMarkup = \markup \column {
-    \fill-line {
-      %% put notice on second page
-      \on-the-fly #(lambda (layout props arg)
-		     (if (= 2 (chain-assoc-get 'page:page-number props -1))
-                         (interpret-markup layout props arg)
-                         empty-stencil))
-       \abs-fontsize #8 \fill-line { \fromproperty #'header:notes }
-    }
-    \fill-line {
-      %% put tagline on last page
-      \on-the-fly #last-page
-      \abs-fontsize #12 \fill-line { \fromproperty #'header:tagline }
+  evenFooterMarkup = \markup {
+    \column {
+      \fill-line {
+        %% put notice on second page
+        \on-the-fly #(lambda (layout props arg)
+                       (if (= 2 (chain-assoc-get 'page:page-number props -1))
+                           (interpret-markup layout props arg)
+                           empty-stencil))
+        \abs-fontsize #8 \fill-line { \fromproperty #'header:notes }
+      }
+      \fill-line {
+        %% put tagline on last page
+        \on-the-fly #last-page
+        \abs-fontsize #12 \fill-line { \fromproperty #'header:tagline }
+      }
     }
   }
 

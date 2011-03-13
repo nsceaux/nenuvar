@@ -66,9 +66,10 @@ r4 la'' sol'' |
 fad''4. mi''8 fad''4 |
 sol''4 re'' mi'' |
 fa''4. mib''8 re''4 |
-re''4. mib''8 do''4\prall ^\markup\annotation\center-align \column {
-  \line { L'ornement n'apparaît pas }
-  \line { clairement sur le manuscrit } } |
+re''4. mib''8
+\origVersion \footnoteGrob #'Script #'(0 . 1) \markup a. \markup {
+  a. Violon I, mesure 115 : l'ornement n'apparaît pas clairement sur le manuscrit }
+do''4\prall |
 re''2. |
 r4 \origVersion \stemUp r4 re''4 |
 re''4. re''8 do'' si' |
@@ -76,7 +77,10 @@ do''4 sol' \origVersion \stemNeutral sol'' |
 fad'' fad'' fad'' |
 sol'' sol'' sol'' |
 la'' fa'' re'' |
-re''4. mib''?8^\markup\annotation\center-align \line { Altération manquante } do''4 | %%  mi bémol ?
+re''4.
+\origVersion\footnoteGrob #'AccidentalCautionary #'(0 . 1)
+\markup a. \markup { a. Violon I, mesure 123 : altération manquante. }
+mib''?8 do''4 | %%  mi bémol ?
 do'' re''8 do'' sib' la' |
 sib'4 sol' sol'' |
 la''4. sol''8 fad'' la'' |
@@ -84,7 +88,10 @@ sol''2 sol''4 |
 sol''4. la''8 fad''4 |
 fa''!2 mi''4 |
 mib''2 re''4 |
-re''4. mib''?8^\markup\annotation\center-align \line { Altération manquante } do''4 | %%  mi bémol ?
+re''4.
+\origVersion\footnoteGrob #'AccidentalCautionary #'(0 . 1)
+\markup b. \markup { b. Violon I, mesure 131 : altération manquante. }
+mib''?8 do''4 | %%  mi bémol ?
 sib' la'4.\prall sol'8 |
 sol'2. |
 R2.*5 |
