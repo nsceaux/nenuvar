@@ -233,6 +233,12 @@
      (make-column-markup
       (make-justified-lines-markup-list text))))))
 
+#(define-markup-command (after-system layout props arg) (markup?)
+   (let ((stencil (interpret-markup layout props arg)))
+     (ly:make-stencil (ly:stencil-expr (ly:stencil-aligned-to stencil Y DOWN))
+                      (ly:stencil-extent stencil X)
+                      '(1 . -1))))
+
 %%% Guile does not deal with accented letters
 #(use-modules (ice-9 regex))
 %%;; actually defined below, in a closure
