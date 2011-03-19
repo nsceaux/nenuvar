@@ -1,4 +1,4 @@
-\include "Charpentier/MusiqueReligieuse/H73_Magnificat/common.ily"
+\include "Charpentier/MusiqueSacree/H73_Magnificat/common.ily"
 \header {
   instrument = \markup \orig-version \fontsize #-3 \center-column {
     \fontsize #3 \italic Urtext
