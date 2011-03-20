@@ -1829,17 +1829,17 @@ mensura = #(define-music-function (parser location vals music) (list? ly:music?)
                               'value fakesign))
                           '())
                         (list
-                          (make-music
-                            'PropertySet
-                            'symbol 'beatLength
-                            'value beat)
+                          ;(make-music
+                          ;  'PropertySet
+                          ;  'symbol 'beatLength
+                          ;  'value beat)
                           (make-music
                             'PropertySet
                             'symbol 'measureLength
                             'value measurelength)
                           (make-music
                             'PropertySet
-                            'symbol 'beatGrouping
+                            'symbol 'beatStructure
                             'value beatlist)
                           )))))))
 
