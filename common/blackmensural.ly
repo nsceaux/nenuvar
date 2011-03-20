@@ -412,8 +412,8 @@ ligatura = #(define-music-function (parser location mymusic) (ly:music?)
 
          (mystencil  #f)
          (postscript "")
-         (notewidth 0.75)
-         (noteheight 0.75)
+         (notewidth 1.1)
+         (noteheight 0.9)
          (linewidth 0.11)
          (rightX (* notewidth (+ imaxall 1)))  
          (curX rightX)
@@ -1641,31 +1641,31 @@ mensura = #(define-music-function (parser location vals music) (list? ly:music?)
               (cons 'lg (lambda (color)
                 (or (assq-ref vals 'lg) 
                     (make-mensural-note-stencil 
-                       'quadrata color 0.85 0.75 (ps_virga 0.425 -1.4 color)))))   ;lg
+                       'quadrata color 1.10 0.90 (ps_virga 0.425 -1.4 color)))))   ;lg
               (cons 'br (lambda (color)
                 (or (assq-ref vals 'br) 
                     (make-mensural-note-stencil 
-                       'quadrata color 0.85 0.75 ))))                              ;br
+                       'quadrata color 1.10 0.90 ))))                              ;br
               (cons 'sb (lambda (color) 
                 (or (assq-ref vals 'sb) 
                     (make-mensural-note-stencil 
-                       'rhombus  color 0.8 1.1 ))))                                ;sb
+                       'rhombus  color 1.3 1.1 ))))                                ;sb
               (cons 'mn (lambda (color) 
                 (or (assq-ref vals 'mn) 
                 (make-mensural-note-stencil 
-                       'rhombus  color 0.8 1.1 'stem_above))))                     ;mn
+                       'rhombus  color 1.3 1.1 'stem_above))))                     ;mn
               (cons 'sm (lambda (color) 
                 (or (assq-ref vals 'sm) 
                         (if unflagged_sm                                          ;sm
                           (make-mensural-note-stencil
                             'rhombus
                             (case color (( black ) 'blackhollow ) (( white blackhollow hollow ) 'black) (else color))
-                            0.8 1.1
+                            1.3 1.1
                             'stem_above)
                           (make-mensural-note-stencil 
                             'rhombus  
                             color 
-                            0.8 1.1 
+                            1.3 1.1 
                             'flag_above_right)))))
               (cons 'fu (lambda (color) 
                 (or (assq-ref vals 'fu)                                   ;fu
@@ -1673,12 +1673,12 @@ mensura = #(define-music-function (parser location vals music) (list? ly:music?)
                           (make-mensural-note-stencil
                             'rhombus
                             (case color (( black ) 'blackhollow ) (( white blackhollow hollow ) 'black) (else color))
-                            0.8 1.1
+                            1.3 1.1
                             'flag_above_right)
                           (make-mensural-note-stencil 
                            'rhombus
                            color 
-                           0.8 1.1 
+                           1.3 1.1 
                            'double_flag_above_right)))))
               (cons 'sf (lambda (color) 
                 (or (assq-ref vals 'sf)                                   ;semifusa
@@ -1686,12 +1686,12 @@ mensura = #(define-music-function (parser location vals music) (list? ly:music?)
                           (make-mensural-note-stencil
                             'rhombus
                             (case color (( black ) 'blackhollow ) (( white blackhollow hollow ) 'black) (else color))
-                            0.8 1.1
+                            1.3 1.1
                             'double_flag_above_right)
                           (make-mensural-note-stencil 
                            'rhombus
                            color 
-                           0.8 1.1 
+                           1.3 1.1 
                            'triple_flag_above_right)))))
              ))
              (notesettings
