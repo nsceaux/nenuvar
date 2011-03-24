@@ -66,12 +66,10 @@
           (#:notes "dessus" #:tag-notes flute2))
   (hautbois1 "Hautbois I" (;
                            (hautbois #f) (dessus1 #f) (dessus #f)
-                           (flute1 "Flûtes") (flutes "Flûtes")
                            (violon1 "Violons") (violon "Violons"))
              (#:notes "dessus" #:tag-notes hautbois1))
   (hautbois2 "Hautbois II" (;
                            (hautbois #f) (dessus2 #f) (dessus #f)
-                           (flute2 "Flûtes") (flutes "Flûtes")
                            (violon2 "Violons") (violon "Violons"))
              (#:notes "dessus" #:tag-notes hautbois2))
   (trompette "Trompette" () (#:notes "trompette"))

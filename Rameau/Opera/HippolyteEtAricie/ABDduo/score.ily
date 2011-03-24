@@ -18,5 +18,5 @@
                   \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
-  \midi { }
+  \midi { \context { \Voice \remove "Dynamic_performer" } }
 }

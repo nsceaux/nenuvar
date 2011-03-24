@@ -1,6 +1,1 @@
-\keys si \minor
-r4 r2 R1
-R2.
-R1
-R1*4
-r2
+r4\noBreak r2\noBreak R1\noBreak R2.\noBreak R1\noBreak R1*4\noBreak \grace s8 r2

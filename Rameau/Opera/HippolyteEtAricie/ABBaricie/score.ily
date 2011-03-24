@@ -14,5 +14,5 @@
     >> \includeLyrics "paroles"
   >>
   \layout { indent = \largeindent }
-  \midi { }
+  \midi { \context { \Voice \remove "Dynamic_performer" } }
 }
