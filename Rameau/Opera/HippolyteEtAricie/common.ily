@@ -84,9 +84,16 @@
   (voix "Parties vocales" () (#:score "score-voix"))
   (timbales "Timbales" () (#:notes "timbales" #:clef "bass"))
   (basse-continue "Basse continue" ((basse #f))
-                  (#:notes "basse" #:tag-notes basse #:clef "bass")))
+                  (#:notes "basse" #:tag-notes basse #:clef "bass"
+                           #:score-template "score-basse-continue2")))
 
 %%%%%%%%%
+
+%%% Figured bass
+includeFigures = 
+#(define-music-function (parser location pathname) (string?)
+  (let ((include-file (include-pathname pathname)))
+     #{ \new FiguredBass \figuremode { \include $include-file } #}))
 
 trill = #(make-articulation "stopped")
 

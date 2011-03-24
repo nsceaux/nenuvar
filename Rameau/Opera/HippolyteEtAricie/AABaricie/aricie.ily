@@ -2,28 +2,28 @@
 la'2 la'8 la' |
 re''2. |
 r8 mi'' mi''4 ( fad''8 ) sol'' |
-fad''4 \appoggiatura mi''8 re''4 fad''8. la''16 |
-dod''2 dod''8 mi'' |
+fad''4\trill \appoggiatura mi''8 re''4 fad''8. la''16 |
+dod''2\trill dod''8 mi'' |
 la'2. |
-si'4 si'8 la' sol' fad' |
-mi'2 la'8 sol' |
-fad'2 mi'8 re' |
+si'4 si'8 la' sol'\trill fad' |
+mi'2\trill la'8 sol' |
+fad'2\trill mi'8 re' |
 la'2. |
 re''4 re''8 dod''16 [ si' ] si'8 [ dod''16 ] re'' |
-dod''2 \appoggiatura si'8 la'4 |
+dod''2\trill \appoggiatura si'8 la'4 |
 mi''2 fad''8 sol'' |
-fad''2 ( mi''8 ) r |
+fad''2 ( mi''8\trill ) r |
 re''2 re''8 dod'' |
 re''2. |
 R2.*3 |
-r2 r8 fad'' |
+r4 r r8 fad'' |
 fad''2. |
 dod''2 dod''8 re'' |
-lad'2 dod''8 red'' |
+lad'2\trill dod''8 red'' |
 mi''2 mi''8 red'' |
-red''4 red''8 r fad''4 |
+red''4\trill red''8 r fad''4 |
 si' si'8 r mi'' mi'' |
-dod''2. |
+dod''2.\trill |
 re''4 re''8 dod'' si' la' |
 sold'2 r8 dod'' |
 \appoggiatura dod'' re''2 red''8 red'' |
