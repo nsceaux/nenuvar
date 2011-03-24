@@ -1,1 +1,1 @@
-R2.*39
+R2.*28\noBreak R1.\noBreak R2.*6\noBreak R1.\noBreak R2.

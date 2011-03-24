@@ -8,11 +8,8 @@
         \instrumentName \markup \center-column { "Violons II" "Flûtes II" }
         \global \includeNotes "dessus2" >>
       \new Staff <<
-        \instrumentName \markup Haute-contres
-        \global \includeNotes "haute-contre" >>
-      \new Staff <<
-        \instrumentName \markup Tailles
-        \global \includeNotes "taille" >>
+        \instrumentName \markup \center-column { Haute-contres Tailles }
+        \global \includeNotes "parties" >>
     >>
     \new ChoirStaff <<
       \new Staff \withLyrics <<
