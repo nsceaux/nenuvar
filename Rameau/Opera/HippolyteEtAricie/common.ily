@@ -81,7 +81,7 @@
   (basse "Basses" () (#:notes "basse" #:clef "bass" #:tag-notes basse))
   (basson "Bassons" ((basse "Basses"))
           (#:notes "basse" #:clef "bass" #:tag-notes basson #:instrument "Bassons"))
-  (voix "Parties vocales" () (#:score "score-voix"))
+  (voix "Parties vocales" () (#:score-template "score-voix"))
   (timbales "Timbales" () (#:notes "timbales" #:clef "bass"))
   (basse-continue "Basse continue" ((basse #f))
                   (#:notes "basse" #:tag-notes basse #:clef "bass"

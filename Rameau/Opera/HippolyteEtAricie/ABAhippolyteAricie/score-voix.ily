@@ -1,6 +1,11 @@
 \score {
-  \new Staff \withLyrics <<
-    \global \includeNotes "hippolyte-aricie"
-  >> \includeLyrics "paroles"
-  \layout { }
+  \new ChoirStaff <<
+    \new Staff \withLyrics <<
+      \global \keepWithTag #'aricie \includeNotes "voix"
+    >> \keepWithTag #'aricie \includeLyrics "paroles"
+    \new Staff \withLyrics <<
+      \global \keepWithTag #'hippolyte \includeNotes "voix"
+    >> \keepWithTag #'hippolyte \includeLyrics "paroles"
+  >>
+  \layout { indent = \largeindent }
 }
