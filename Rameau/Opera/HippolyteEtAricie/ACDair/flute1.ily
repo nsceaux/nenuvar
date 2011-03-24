@@ -1,6 +1,0 @@
-\includeNotes "dessus-a"
-\includeNotes "dessus-b1"
-\includeNotes "flute-c1"
-\includeNotes "dessus-d"
-\includeNotes "flute-e1"
-\includeNotes "dessus-f"

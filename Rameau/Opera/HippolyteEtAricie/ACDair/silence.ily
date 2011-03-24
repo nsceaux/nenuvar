@@ -1,2 +1,1 @@
-r2 R2.*7 r4
-r2 R2.*25 r4 r2
+r2\noBreak R2.*7\noBreak r4\noBreak r2\noBreak R2.*25\noBreak r4\noBreak r2

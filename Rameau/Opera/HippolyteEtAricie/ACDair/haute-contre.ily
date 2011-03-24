@@ -5,8 +5,8 @@ fa'8 re'' do''4 sib' |
 la' sib' fad' |
 sol' la'8 sib' la' sib' |
 la'4. sol'8 fa' mi' |
-re'4 dod'4. re'8 |
-re'4 sib do' |
+re'4 dod'4.\trill re'8 |
+re'4 sib do'\trill |
 re' mib'8 re' mib' do' |
 re'4 mib'8 re' mib' do' |
 re'4 mib'8 fa' sol' mib' |
@@ -20,17 +20,17 @@ fa' sib4\p |
 fa'2 do'4 |
 sol'2 fa'4 |
 mib'2 do'4 |
-re' r2 |
+re' r4 r |
 R2. |
 r4 re''\f re'' ~ |
 re'' sol'2 ~|
 sol'4 fad' sol' ~|
-sol'8 la' fad'4. sol'8 |
-sol'4 r2 |
+sol'8 la' fad'4.\trill sol'8 |
+sol'4 r4 r |
 R2. |
 r4 re''\f re'' ~|
 re'' sol'2 ~|
 sol'4 fad' sol' ~|
-sol'8 la' fad'4. sol'8 |
+sol'8 la' fad'4.\trill sol'8 |
 sol'4 
 sol'2 
