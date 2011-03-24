@@ -1,5 +1,6 @@
-\piecePartSpecs #`((violon #:notes "dessus")
-                   (flute #:notes "dessus")
+\piecePartSpecs #`((violon)
+                   (flute)
+                   (hautbois #:instrument ,(markup #:center-column ("Flûtes" "Violons")))
                    (haute-contre)
                    (taille)
                    (basse))

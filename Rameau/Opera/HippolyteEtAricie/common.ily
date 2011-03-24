@@ -50,17 +50,17 @@
   (flute "" () (#:notes "dessus" #:tag-notes flutes))
   (hautbois "" () (#:notes "dessus" #:tag-notes hautbois))
   ;; real parts
-  (violon1 "Violon I" ((violons #f) (dessus1 #f) (dessus #f))
+  (violon1 "Violon I" ((violon #f) (dessus1 #f) (dessus #f))
            (#:notes "dessus" #:tag-notes violon1))
-  (violon2 "Violon II" ((violons #f) (dessus2 #f) (dessus #f))
+  (violon2 "Violon II" ((violon #f) (dessus2 #f) (dessus #f))
            (#:notes "dessus" #:tag-notes violon2))
   (flute1 "Flûte I" (;
-                     (flutes #f) (dessus1 #f) (dessus #f)
+                     (flute #f) (dessus1 #f) (dessus #f)
                      (hautbois1 "Hautbois") (hautbois "Hautbois")
                      (violon1 "Violons") (violon "Violons"))
           (#:notes "dessus" #:tag-notes flute1))
   (flute2 "Flûte II" (;
-                     (flutes #f) (dessus2 #f) (dessus #f)
+                     (flute #f) (dessus2 #f) (dessus #f)
                      (hautbois2 "Hautbois") (hautbois "Hautbois")
                      (violon2 "Violons") (violon "Violons"))
           (#:notes "dessus" #:tag-notes flute2))

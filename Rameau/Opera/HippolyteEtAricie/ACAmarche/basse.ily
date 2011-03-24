@@ -3,10 +3,10 @@ re do |
 si, fad, |
 sol, re, |
 sol sol |
-fad4. ( sol8 ) fad4 ( mi8 ) re |
+fad4.( sol8) fad4( mi8\trill) re |
 la2 la, |
 re la, |
-re'4. mi'8 re'4 ( dod'8 ) si |
+re'4. mi'8 re'4( dod'8\trill) si |
 la4 sol fad mi |
 re sol, la, la, |
 re,1 |
@@ -19,13 +19,12 @@ do4 re mi fa |
 sol2 sol, |
 do1 |
 R1 |
-sol4. ( si8 ) la4. ( do'8 )|
-si4 si la sol |
+sol4.( si8) la4.( do'8) |
+si4 si la\trill sol |
 re'1 |
 R1*2 |
-
 sol2 sol |
-re4. mi8 re4 ( do8 ) si, |
+re4. mi8 re4( do8\trill) si, |
 do2 re |
 mi2. fad4 |
 sol mi do re |

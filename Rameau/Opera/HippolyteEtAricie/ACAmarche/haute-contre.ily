@@ -8,7 +8,7 @@ re' dod' |
 re' dod' |
 re'4. dod'8 re'4 ( mi'8 ) fad' |
 sol'4 mi' fad' dod' |
-re'2. dod'4 |
+re'2. dod'4\trill |
 re'1 |
 fad'4. ( sol'8 ) fad'4. ( sol'8 )|
 la'2 re' |
@@ -21,9 +21,9 @@ sol'1 |
 R1 |
 sol'2 fad' |
 sol'4. sol'8 la'4. si'8 |
-fad'1 |
+fad'1\trill |
 sol'2 sol' |
-fad'4. sol'8 fad'4 ( mi'8 ) re' |
+fad'4. sol'8 fad'4( mi'8\trill) re' |
 sol'2 sol' |
 fad' la'4. ( si'8 )|
 \appoggiatura la' sol'2 re' ~|
