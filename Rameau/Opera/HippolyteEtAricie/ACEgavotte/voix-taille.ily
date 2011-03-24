@@ -7,7 +7,7 @@ R1*3 |
 r2 re'4 re' |
 re' la la4. la8 |
 la4 \appoggiatura sol8 fad r la4 re' |
-fad' dod' re'4. mi'8 |
+sol' dod' re'4. mi'8 |
 dod'2 r |
 R1*5 |
 r2 dod'4. si16 [ la ]|
@@ -26,7 +26,7 @@ r2 re'4 mi' |
 mi' fa' \appoggiatura mi'8 re'4. sol'8 |
 mi'4 mi'8 r fa'4. mi'8 |
 re'4 re' re' mi' |
-dod'2 r |
+dod'2\trill r |
 R1*7 |
 r2 la4 si |
 dod'4. re'8 dod'4. re'8 |

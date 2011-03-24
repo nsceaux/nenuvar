@@ -7,25 +7,18 @@
                       s2 s1*3 s2 s2 s1*7 s2 \break }
                     \global \includeNotes "dessus" >>
       \new Staff <<
-        \instrumentName \markup Haute-contres
+        \instrumentName \markup \center-column { Haute-contres Tailles }
         { s2 s1*3 s2 s2 s1*5 s2
           s2 s1*3 s2 s2 s1*3 s2 s2 s1*5 s2 s2 s1*5 s2
           s4*0^"Haute-contres et tailles" }
-        \global \includeNotes "haute-contre" >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup Tailles
-        { s2 s1*3 s2 s2 s1*5 s2
-          s2 s1*3 s2 s2 s1*3 s2 s2 s1*5 s2 s2 s1*5 s2
-          \startHaraKiri s2 s1*3 s2 s2 s1*7 s2
-          s2 s1*3 s2 s2 s1*3 s2 s2 s1*7 s2 s2 s1*7 s2 \stopHaraKiri }
-        \global \includeNotes "taille" >>
+        \global \keepWithTag #'parties \includeNotes "parties" >>
       \newHaraKiriStaffB <<
         { \startHaraKiri s2 s1*3 s2 s2 s1*5 s2
           s2 s1*3 s2 s2 s1*3 s2 s2 s1*5 s2 s2 s1*5 s2 \stopHaraKiri
           s2^"Bassons" s1*3 s2 s2 s1*7 s2 \startHaraKiri }
-        \global \includeNotes "basson" >>
+        \global \keepWithTag #'basson \includeNotes "basse" >>
       \new Staff << \instrumentName \markup Basses
-                    \global \includeNotes "basse" >>
+                    \global \keepWithTag #'basse \includeNotes "basse" >>
     >>
     \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
@@ -42,13 +35,13 @@
       >> \includeLyrics "paroles"
     >>
     \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "pretresse"
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
     \newHaraKiriStaffB <<
       { \startHaraKiri s2 s1*9 s2 \stopHaraKiri
         s2 s1*3 s2 s2 s1*3 s2 s2 s1*5 s2 s2 s1*5 s2
         \startHaraKiri s2 s1*3 s2 s2 s1*7 s2 \stopHaraKiri }
-      \global \includeNotes "basse-continue" >>
+      \global \keepWithTag #'basse-continue \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
   \midi { }

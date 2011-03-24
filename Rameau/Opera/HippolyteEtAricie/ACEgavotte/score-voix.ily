@@ -1,20 +1,19 @@
 \score {
   \new ChoirStaff <<
     \new Staff \withLyrics <<
-      { s2 s1*3 s2 s2 s1*5 s2
-        s2 s1*3 s2 s2 s1*3 s2 s2 s1*5 s2 s2 s1*5 s2 \break }
-      \global \includeNotes "pretresse"
+      { s2 s1*29 s2 \break }
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff \withLyrics <<
+    \newHaraKiriStaffB \withLyrics <<
       \global \includeNotes "voix-dessus"
     >> \includeLyrics "paroles"
-    \new Staff \withLyrics <<
+    \newHaraKiriStaffB \withLyrics <<
       \global \includeNotes "voix-haute-contre"
     >> \includeLyrics "paroles"
-    \new Staff \withLyrics <<
+    \newHaraKiriStaffB \withLyrics <<
       \global \includeNotes "voix-taille"
     >> \includeLyrics "paroles"
-    \new Staff \withLyrics <<
+    \newHaraKiriStaffB \withLyrics <<
       \global \includeNotes "voix-basse"
     >> \includeLyrics "paroles"
   >>
