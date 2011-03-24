@@ -1,30 +1,8 @@
 \header {
-  copyrightYear = "2007"
   title = "Hippolyte et Aricie"
-  composer = "Jean-Philippe Rameau"
-  poet = "Simon-Joseph Pellegrin"
-  date = "Version de 1742"
-  notes = \markup \column {
-    \line { Documents originaux :}
-    \hspace #1
-    \wordwrap { 
-      Jean-Philippe Rameau, \italic { Hippolyte et Aricie, }
-      tragédie en cinq actes, livret de Simon-Joseph Pellegrin.
-    }
-    \with-url #"http://www.bibliotheques.versailles.fr"
-    \tiny \typewriter "http://www.bibliotheques.versailles.fr"
-  }
 }
 
-\include "italiano.ly"
-#(set-global-staff-size 14)
-\include "common/common.ily"
-
-\setOpus "Rameau/Opera/HippolyteEtAricie"
-\opusTitle "Hippolyte et Aricie"
 \include "Rameau/Opera/HippolyteEtAricie/common.ily"
-
-\paper { #(define page-breaking ly:optimal-breaking) }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {

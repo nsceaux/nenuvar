@@ -15,9 +15,19 @@ la4 do8. re16 mi4 mi, |
 la,8. la16 la,8. la,16 re,2 |
 la,1 |
 R1*4 |
-\clef "tenor" r8 la_"Bassons" la si dod' dod' dod' re' |
-mi' mi' mi' fa' sol' sol' fa' mi' |
-fa' \clef "basse" re'[_"Tous" re' do'] sib sib sib la |
+<<
+  \setMusic #'basson {
+    \clef "tenor" r8 la la si dod' dod' dod' re' |
+    mi' mi' mi' fa' sol' sol' fa' mi' |
+    fa'
+  }
+  \tag #'basson \basson
+  \tag #'basse << \new CueVoice { \voiceOne s8*0^"Bassons" \basson }
+    { \voiceTwo R1*2 r8 }
+  >>
+  \tag #'tous << s8*0^"Bassons" \basson >>
+>>
+\oneVoice \clef "basse" re'8[-\tag #'tous _"Tous" re' do'] sib sib sib la |
 sol sol sol fa mi mi mi re |
 dod4 la, re re, |
 la,8 la la sol fad fad fad mi |
@@ -31,10 +41,26 @@ R1 |
 r8 fa, fa, sol, la, la, la, fa, |
 sib, sib, sib, do re re mi fa |
 mi do fa sib, do4 do, |
-fa,8 fa[_"Bassons" fa sol] la la la sib |
-do' do[_"Tous" do do] sib, sib, sib, la, |
-sol, sol[_"Bassons" sol la] sib sib sib do' |
-re' re[_"Tous" re do] sib, sib, sib, sol, |
+fa,8
+<<
+  \setMusic #'basson { fa8[ fa sol] la la la sib | do' }
+  \tag #'basson \basson
+  \tag #'basse << \new CueVoice { \voiceOne s8*0^"Bassons" \basson }
+    { \voiceTwo r8 r4 r2 r8 }
+  >>
+  \tag #'tous << s8*0^"Bassons" \basson >>
+>>
+\oneVoice do8[-\tag #'tous _"Tous" do do] sib, sib, sib, la, |
+sol,
+<<
+  \setMusic #'basson { sol8[ sol la] sib sib sib do' | re' }
+  \tag #'basson \basson
+  \tag #'basse << \new CueVoice { \voiceOne s8*0^"Bassons" \basson }
+    { \voiceTwo r8 r4 r2 r8 }
+  >>
+  \tag #'tous << s8*0^"Bassons" \basson >>
+>>
+\oneVoice re8[-\tag #'tous _"Tous" re do] sib, sib, sib, sol, |
 la,2 r |
 R1*2 |
 r8 la, la, si, dod dod dod re |

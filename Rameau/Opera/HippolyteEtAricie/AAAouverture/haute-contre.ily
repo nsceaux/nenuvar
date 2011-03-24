@@ -11,7 +11,7 @@ mi'8. la'16 la'8. la'16 fa'2 |
 r8 mi' sold'8. sold'16 si'2 |
 r8 si' re''8. re''16 re''2 |
 r8 re'' re''8. re''16 re''8. si'16 si'8. si'16 |
-la'4 la'2 sold'4 |
+la'4 la'2 sold'4\trill |
 la'8. mi'16 mi'8. mi'16 fa'2 |
 la'1 |
 R1*2 |
@@ -44,7 +44,7 @@ do'' dod'' dod'' re'' la'2 |
 sol'4. fa'8 dod' dod' re' mi' |
 la2 r8 la' la' si' |
 sold' sold' la' si' mi'4. la'8 |
-la'4. si'8 sold'4. la'8 |
+la'4. si'8 sold'4.\trill la'8 |
 la'2 r |
 R1 |
 r4 r8 dod'' re''4. re''8 |

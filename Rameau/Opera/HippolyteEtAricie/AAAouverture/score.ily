@@ -2,13 +2,13 @@
 \score {
   \new StaffGroup <<
     \new Staff << \instrumentName \markup \center-column { Hautbois Violons }
-                 \global \includeNotes "dessus" >>
+      \global \keepWithTag #'dessus \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup Haute-contres
-                 \global \includeNotes "haute-contre" >>
+      \global \includeNotes "haute-contre" >>
     \new Staff << \instrumentName \markup Tailles
-                 \global \includeNotes "taille" >>
-    \new Staff << \instrumentName \markup Basses
-                 \global \includeNotes "basse" >>
+      \global \includeNotes "taille" >>
+    \new Staff << \instrumentName \markup \center-column { Bassons Basses }
+      \global \keepWithTag #'tous \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
   \midi { }
