@@ -8,7 +8,7 @@
       \global \includeNotes "voix-dessus"
     >> \includeLyrics "paroles-dessus"
     \new Staff \withLyrics <<
-      \instrumentName \markup Chœur
+      \instrumentName \markup\character Chœur
         \global \includeNotes "voix-haute-contre"
     >> \includeLyrics "paroles-haute-contre"
     \new Staff \withLyrics <<

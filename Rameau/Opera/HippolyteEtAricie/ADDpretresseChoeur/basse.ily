@@ -21,7 +21,7 @@ si4. dod'16 re' |
 la4 la, |
 re8 dod16 si, la, sol, fad, mi, |
 re,8. re'16\p re'8 do' |
-si si16 do' la8 la16 re' |
+si\trill si16 do' la8\trill la16 re' |
 sol4 r8 r16 sol\f |
 la8. la16 la8 la |
 si si16 si mi'8 mi'16 la |
@@ -45,10 +45,10 @@ re' dod'16 si la sol fad mi |
 re mi fad sol la si dod' re' |
 re4 r8 r16 sol |
 sol8. fa16 mi8 re |
-do do16 do si,8 si,16 do |
+do do16 do si,8\trill si,16 do |
 re2 |
 sol4 r8 r16 sol |
 sol8. fa16 mi8 re |
-do do16 do si,8 si,16 do |
+do do16 do si,8\trill si,16 do |
 re4 re, |
 sol,2 |

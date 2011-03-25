@@ -1,5 +1,4 @@
 \clef "vtaille" R2*2 |
-
 r4 sol8 sol |
 si si re' re'16 re' |
 la [\melisma si do' la ] si [ la sol si ](|
@@ -21,7 +20,6 @@ re'4. mi'16 re' |
 re'4. ( dod'8 )|
 re'4 r |
 R2*2 |
-
 r4 r8 r16 sol' |
 sol'8. sol'16 sol'8 fad' |
 fad' fad'16 fad' si8 si16 do' |
@@ -46,7 +44,7 @@ la2 |
 la8 r r r16 si |
 si8. sol16 la8 si |
 do' si16 la si8 si16 la |
-la2 |
+la2\trill |
 sol4 r8 r16 si |
 si8. sol16 la8 si |
 do' si16 la si8 la16 sol |

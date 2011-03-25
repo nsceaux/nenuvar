@@ -21,11 +21,11 @@ fad'8 fad' mi' mi'16 la' |
 la'2 |
 la'4 r8 r16 re' |
 re'8. re'16 re'8 do' |
-si si16 do' la8 la16 re' |
+si\trill si16 do' la8\trill la16 re' |
 sol4 sol8 r16 si' |
 si'8. la'16 la'8 la' |
 la' la'16 la' sol'8 sol'16 la' |
-sol'4 ( fad' )|
+sol'4( fad'\trill) |
 mi'2 |
 R2 |
 r4 la8 la |

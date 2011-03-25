@@ -1,4 +1,4 @@
-Dieux ven -- geurs, lan -- cez le ton -- ner __ re,
+Dieux ven -- geurs, lan -- cez le ton -- ner -- re,
 lan -- cez, lan -- cez le ton -- ner -- re,
 
 lan -- cez, lan -- cez le ton -- ner -- re,

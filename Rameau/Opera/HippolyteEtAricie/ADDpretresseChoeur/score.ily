@@ -1,14 +1,10 @@
 \score {
   <<
     \new StaffGroup <<
-      \new Staff << \instrumentName \markup { Violons I }
-                   \global \includeNotes "dessus1" >>
-      \new Staff << \instrumentName \markup { Violons II }
-                   \global \includeNotes "dessus2" >>
-      \new Staff << \instrumentName \markup Haute-contres
-                    \global \includeNotes "haute-contre" >>
-      \new Staff << \instrumentName \markup Tailles
-                    \global \includeNotes "taille" >>
+      \new Staff << \instrumentName \markup Violons
+                   \global \keepWithTag #'violons \includeNotes "dessus" >>
+      \new Staff << \instrumentName \markup \center-column { Haute-contres Tailles }
+                    \global \keepWithTag #'parties \includeNotes "parties" >>
     >>
     \new ChoirStaff <<
       \new Staff \withLyrics <<
@@ -19,7 +15,7 @@
         \global \includeNotes "voix-dessus"
       >> \includeLyrics "paroles-dessus"
       \new Staff \withLyrics <<
-        \instrumentName \markup Chœur
+        \instrumentName \markup\character Chœur
         \global \includeNotes "voix-haute-contre"
       >> \includeLyrics "paroles-haute-contre"
       \new Staff \withLyrics <<
