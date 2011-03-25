@@ -7,14 +7,14 @@
       \new Staff <<
         \instrumentName \markup { Violons II }
         \global \includeNotes "violon2" >>
+      \new Staff <<
+        \instrumentName \markup \center-column { "Violons III" Clavecin }
+        \global \includeNotes "violon3" \includeFigures "chiffres" >>
     >>
     \new Staff \withLyrics <<
       \characterName \markup Phèdre
-      \global \includeNotes "phedre"
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff <<
-      \instrumentName \markup \center-column { "Violons III" Clavecin }
-      \global \includeNotes "violon3" >>
   >>
   \layout { indent = \largeindent }
   \midi { }

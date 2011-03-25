@@ -1,6 +1,6 @@
 \clef "dessus" r2*3/4 |
 R2. |
-r2*3/4 r4 sib'8 |
+r2*3/4 r4 sib'8\p |
 la' do'' fa'' la'' do''' fa'' |
 sol'' mi'' do'' sol' mi' do' |
 sol sib re' sol' sib' re'' |
@@ -17,7 +17,7 @@ la'' fa'' re'' la' fa' re' |
 mi' sol' do'' mi'' sol'' do''' |
 r fa'' mi'' fa'' do'' re'' |
 sol' do'' mi'' sol'' do''' sol'' |
-mi''4 mib''8 re'' re'' mi'' |
+mi''4\trill mib''8 re'' re'' mi'' |
 fa'' re'' la' fa' la' re'' |
 fa'' sib'' fa'' re'' sib' re'' |
 do''4. \fermata re''8. re''16 sol'8 |
