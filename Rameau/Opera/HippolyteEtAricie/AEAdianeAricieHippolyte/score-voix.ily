@@ -1,13 +1,15 @@
 \score {
   \new ChoirStaff <<
     \new Staff \withLyrics <<
-      \global \includeNotes "diane-aricie"
-    >> \includeLyrics "paroles"
+      \characterName "Diane"
+      \global \keepWithTag #'diane \includeNotes "voix"
+    >> \keepWithTag #'diane \includeLyrics "paroles"
     \newHaraKiriStaffB \withLyrics <<
-      { s1 s1 s1*3 s2. s1*3 s1 s1 s1 s1 s1*2 s1*3 s2. s1*6
-        s1 \noBreak }
-      \global \includeNotes "hippolyte"
-    >> \includeLyrics "paroles-hippolyte"
+      \global \keepWithTag #'aricie \includeNotes "voix"
+    >> \keepWithTag #'aricie \includeLyrics "paroles"
+    \newHaraKiriStaffB \withLyrics <<
+      \global \keepWithTag #'hippolyte \includeNotes "voix"
+    >> \keepWithTag #'hippolyte \includeLyrics "paroles"
   >>
-  \layout { }
+  \layout { indent = \largeindent }
 }

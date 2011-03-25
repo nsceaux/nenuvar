@@ -1,15 +1,20 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \global \includeNotes "diane-aricie"
-    >> \includeLyrics "paroles"
+      \characterName "Diane"
+      \global \keepWithTag #'diane \includeNotes "voix"
+    >> \keepWithTag #'diane \includeLyrics "paroles"
     \newHaraKiriStaffB \withLyrics <<
-      { s1 s1 s1*3 s2. s1*3 s1 s1 s1 s1 s1*2 s1*3 s2. s1*6
-        s1 \noBreak }
-      \global \includeNotes "hippolyte"
-    >> \includeLyrics "paroles-hippolyte"
-    \new Staff << \global \includeNotes "basse" >>
+      \global \keepWithTag #'aricie \includeNotes "voix"
+    >> \keepWithTag #'aricie \includeLyrics "paroles"
+    \newHaraKiriStaffB \withLyrics <<
+      \global \keepWithTag #'hippolyte \includeNotes "voix"
+    >> \keepWithTag #'hippolyte \includeLyrics "paroles"
+    \new Staff <<
+      \instrumentName \markup \center-column { Basse continue }
+      \global \includeNotes "basse" \includeFigures "chiffres"
+    >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
   \midi { }
 }
