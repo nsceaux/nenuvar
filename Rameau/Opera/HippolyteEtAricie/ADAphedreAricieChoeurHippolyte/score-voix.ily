@@ -1,17 +1,26 @@
 \score {
   \new ChoirStaff <<
-    \new Staff \withLyrics <<
-      \global \includeNotes "phedre-aricie-hippolyte"
-    >> \includeLyrics "paroles"
     \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "voix-dessus1"
-    >> \includeLyrics "paroles-choeur"
+      \global \keepWithTag #'choeur \includeNotes "voix"
+    >> \keepWithTag #'choeur \includeLyrics "paroles"
     \newHaraKiriStaffB \withLyrics <<
       \global \includeNotes "voix-dessus2"
-    >> \includeLyrics "paroles-choeur"
+    >> \keepWithTag #'choeur \includeLyrics "paroles"
     \newHaraKiriStaffB \withLyrics <<
       \global \includeNotes "voix-haute-contre"
-    >> \includeLyrics "paroles-choeur"
+    >> \keepWithTag #'choeur \includeLyrics "paroles"
+    \newHaraKiriStaff \withLyrics <<
+      \characterName "Phèdre" \set Staff.shortInstrumentName = "Ph."
+      \global \keepWithTag #'phedre \includeNotes "voix"
+    >> \keepWithTag #'phedre \includeLyrics "paroles"
+    \newHaraKiriStaff \withLyrics <<
+      \characterName "Aricie" \set Staff.shortInstrumentName = "A."
+      \global \keepWithTag #'aricie \includeNotes "voix"
+    >> \keepWithTag #'aricie \includeLyrics "paroles"
+    \newHaraKiriStaff \withLyrics <<
+      \characterName "Hippolyte" \set Staff.shortInstrumentName = "H."
+      \global \keepWithTag #'hippolyte \includeNotes "voix"
+    >> \keepWithTag #'hippolyte \includeLyrics "paroles"
   >>
-  \layout { }
+  \layout { indent = \largeindent short-indent = 5\mm }
 }

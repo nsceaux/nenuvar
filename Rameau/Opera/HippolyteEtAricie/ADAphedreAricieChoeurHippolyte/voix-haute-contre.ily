@@ -7,7 +7,7 @@ sib4. sib8 do'4 do' |
 fa2 fa8 r r4 |
 R1 |
 r8 sol sol sol sol4. sol8 |
-re'2 re'4 re'8 do' sib4. la8 |
+re'2 re'4 re'8 do' sib4.\trill la8 |
 la2 r2
 R1*3
 R2.

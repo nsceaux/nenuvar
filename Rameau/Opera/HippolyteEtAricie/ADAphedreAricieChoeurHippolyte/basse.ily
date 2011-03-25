@@ -10,7 +10,7 @@ la,2 r4 re |
 sol,1 |
 re2. dod4 |
 re2 ~ re8. do16 sib,4 |
-la,2 r4 \clef "alto" la' |
+la,2 \clef "alto" r4 la' |
 re''2 re'4 re'8 re' |
 sol'4 sol'8 sol' sol'4 sol'8 sol' |
 do'2 la4 la8 la |
@@ -18,7 +18,7 @@ sib4. sib8 do'4 do' |
 fa2 \clef "basse" r |
 fa4. fa8 do4 la,8. re16 |
 sol,8 \clef "alto" sol[ sol sol] sol4. sol8 |
-re'2 re'4 re'8 do' sib4. la8 |
+re'2 re'4 re'8 do' sib4.\trill la8 |
 la4 \clef "basse" r sold la8 mi |
 fa2 fad |
 sol4 r mi2 |

@@ -112,6 +112,14 @@ phedreMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Phèdre"))
 
+choeurMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Chœur"))
+
+petitChoeurMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Petit chœur"))
+
 dianeMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Diane"))

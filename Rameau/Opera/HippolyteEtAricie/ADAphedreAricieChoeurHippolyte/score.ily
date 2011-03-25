@@ -2,25 +2,34 @@
   \new StaffGroupNoBar <<
     \newHaraKiriStaffB <<
       { s8 s2.*2 s1 s1*2 s1*6 s2 s4 s4^"Haute-contres et tailles" } 
-      \global \includeNotes "haute-contre"
+      \global \includeNotes "parties"
     >>
     \new ChoirStaff <<
       \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "voix-dessus1"
-      >> \includeLyrics "paroles-choeur"
+        \global \keepWithTag #'choeur \includeNotes "voix"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
-          \global \includeNotes "voix-dessus2"
-        >> \includeLyrics "paroles-choeur"
+        \global \includeNotes "voix-dessus2"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
       \newHaraKiriStaffB \withLyrics <<
         \global \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles-choeur"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      \newHaraKiriStaff \withLyrics <<
+        \characterName "Phèdre" \set Staff.shortInstrumentName = "Ph."
+        \global \keepWithTag #'phedre \includeNotes "voix"
+      >> \keepWithTag #'phedre \includeLyrics "paroles"
+      \newHaraKiriStaff \withLyrics <<
+        \characterName "Aricie" \set Staff.shortInstrumentName = "A."
+        \global \keepWithTag #'aricie \includeNotes "voix"
+      >> \keepWithTag #'aricie \includeLyrics "paroles"
+      \newHaraKiriStaff \withLyrics <<
+        \characterName "Hippolyte" \set Staff.shortInstrumentName = "H."
+        \global \keepWithTag #'hippolyte \includeNotes "voix"
+      >> \keepWithTag #'hippolyte \includeLyrics "paroles"
     >>
-    \new Staff \withLyrics <<
-      { s8 s2.*2 s1 s1*2 s1*6 \break \grace s8 } 
-      \global \includeNotes "phedre-aricie-hippolyte"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \includeNotes "basse" >>
+    \new Staff << \instrumentName \markup \center-column { Basse continue }
+      \global \includeNotes "basse" \includeFigures "chiffres" >>
   >>
-  \layout { }
+  \layout { indent = \largeindent short-indent = 5\mm }
   \midi { }
 }
