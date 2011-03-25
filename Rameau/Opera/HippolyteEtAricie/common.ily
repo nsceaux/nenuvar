@@ -72,7 +72,7 @@
                            (hautbois #f) (dessus2 #f) (dessus #f)
                            (violon2 "Violons") (violon "Violons"))
              (#:notes "dessus" #:tag-notes hautbois2))
-  (trompette "Trompette" () (#:notes "trompette"))
+  (trompette "Trompette" () (#:notes "dessus" #:tag-notes trompette))
   (cor "Cors en ré" () (#:notes "cor"))
   (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
   (taille "Taille" () (#:notes "taille" #:clef "alto"))

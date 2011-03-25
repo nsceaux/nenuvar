@@ -1,13 +1,13 @@
 \score {
   \new StaffGroup <<
     \new Staff << \instrumentName \markup \center-column { Trompettes Hautbois }
-                  \global \includeNotes "trompettes-hautbois" >>
+                  \global \keepWithTag #'trompette \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup { Violons I }
-                  \global \includeNotes "violon1" >>
+                  \global \keepWithTag #'violon1 \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup { Violons II }
-                  \global \includeNotes "violon2" >>
+                  \global \keepWithTag #'violon2 \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup \center-column { Haute-contres Tailles }
-                  \global \includeNotes "haute-contre" >>
+                  \global \includeNotes "parties" >>
     \new Staff << \instrumentName \markup Timbales
                   \global \includeNotes "timbales" >>
     \new Staff << \instrumentName \markup Basses
