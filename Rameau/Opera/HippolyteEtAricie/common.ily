@@ -32,7 +32,7 @@
 #(ly:set-option 'non-incipit (not (not (ly:get-option 'part))))
 
 %% Tremolo for string instruments
-#(if (memq (ly:get-option 'part) '(violon1 violon2 haute-contre taille basse))
+#(if (memq (ly:get-option 'part) '(violon1 violon2 haute-contre taille basse basse-continue))
      (ly:set-option 'use-tremolo-repeat #t))
 
 \include "italiano.ly"

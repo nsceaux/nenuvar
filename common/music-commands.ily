@@ -307,7 +307,9 @@ ru =
 
 rp =
 #(define-music-function (parser location times music) (number? ly:music?)
-   (make-repeat "percent" times music '()))
+   (if (eqv? #t (ly:get-option 'use-tremolo-repeat))
+       (make-repeat "percent" times music '())
+       (make-repeat "unfold" times music '())))
 
 %% Tweak on articulations
 
