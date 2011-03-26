@@ -26,12 +26,12 @@ red8 fad16 si si, si |
 mi8 sold16 si sold mi |
 fad mi fad la sold si |
 la8 la, r |
-r4 r8 |
+r4 la,8 |
 re,8. mi,16 fad,8 |
 mi, sold,16 si, mi re |
 dod8 mi16 la dod la |
 re8 fad16 la re la |
 mi mi la mi la mi |
-mi,8 sold4 |
+mi,8 sold4\trill |
 la la16\f la,32 la, |
-la,4. |
+la,4.\trill |

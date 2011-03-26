@@ -1,6 +1,6 @@
 \clef "basse" r2 fad |
-si,8. dod16 re2 |
-dod r4 r8 dod |
+si,8. dod16 re4~ re\trill |
+dod2 r4 r8 dod |
 fad2 dod |
 re1 |
 re, ~|

@@ -1,4 +1,5 @@
 \piecePartSpecs #`((violon1)
                    (violon2)
-                   (voix)
-                   (basse))
+                   (voix #:instrument ,(markup #:character "Tisiphone"))
+                   (basse)
+                   (basse-continue))

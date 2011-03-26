@@ -8,4 +8,4 @@ Et les plain -- tes des mal -- heu -- reux
 et les plain -- tes des mal -- heu -- reux
 ir -- ri -- tent no -- tre bar -- ba -- ri -- e,
 ir -- ri -- tent no -- tre bar -- ba -- ri -- e,
-ir -- ri -- tent no -- tre bar -- ba -- ri __ e.
+ir -- ri -- tent no -- tre bar -- ba -- ri -- e.

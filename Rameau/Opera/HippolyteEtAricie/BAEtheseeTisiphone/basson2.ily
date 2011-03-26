@@ -7,14 +7,14 @@ la do'\p la sol |
 sol do'4.\f la8 sol4 |
 sol2 r |
 R1 |
-r2 sib4.\p ( la8 )|
+r2 sib4.\p( la8) |
 la2 ~ la4. si8 |
-sold2 r4 do'8 si |
+sold2\trill r4 do'8 si |
 mi4 r r2 |
 R1 |
 r2 r8 si do' si |
-la2. ~ sold8 la |
-sold2 r4 la |
+la2.( sold8) la |
+sold2\trill r4 la |
 mi2 r |
 r mi' ~|
 mi'4 fa'8 mi' re' do' si la |

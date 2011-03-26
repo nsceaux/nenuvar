@@ -2,8 +2,8 @@
 R1*3 |
 r16 r32 do'''\f si'' la'' sol'' fa'' mi''16. la''32 sol'' fa'' mi'' re'' do''16. do''32 si' la' sol' fa' mi'16. la'32 sol' fa' mi' re' |
 do'8 re'32 mi' fa' sol' la'8 r r fa'16\p mi' la'8 sol' |
-mi' sol''\f ~ sol''4 fa'' r8 fa'' |
-mi''2 r |
+mi'\trill sol''\f ~ sol''4 fa'' r8 fa'' |
+mi''2\trill r |
 R1*4 |
 r16 mi''\mp sol'' mi'' do'' do'' mi'' do'' la' la' do'' la' fad' fad' la' fad' |
 red'4 mi'2 fad'8 sol' |

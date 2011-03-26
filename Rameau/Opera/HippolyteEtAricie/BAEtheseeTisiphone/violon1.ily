@@ -1,8 +1,8 @@
 \clef "dessus" r2 |
 R1*3 |
 r4 r16 r32 do'''\f si'' la'' sol'' fa'' mi''16. la''32 sol'' fa'' mi'' re'' do''16. fa''32 mi'' re'' do'' si' |
-la'8 si'32 do'' re'' mi'' fa''8 r r r32 fa''\p mi'' re'' do''8 si' |
-do'' re''32\f mi'' fa'' sol'' la''8 r r r32 la'' si'' do''' sol''8 si'' |
+la'8 si'32 do'' re'' mi'' fa''8 r r r32 fa''\p mi'' re'' do''8 si'\trill |
+do'' re''32\f mi'' fa'' sol'' la''8 r r r32 la'' si'' do''' sol''8 si''\trill |
 do'''4 r r2 |
 R1*4 |
 r16 la''\mp do''' la'' mi'' mi'' la'' mi'' do'' do'' mi'' do'' la' la' do'' la' |

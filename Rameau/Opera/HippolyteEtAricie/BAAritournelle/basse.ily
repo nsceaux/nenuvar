@@ -1,9 +1,4 @@
 \clef "basse" R2*6 |
-
-
-
-
-
 la4. sold16 fad |
 mi fad mi re dod re dod si, |
 la,8 dod mi la |
