@@ -2,7 +2,7 @@
   copyrightYear = "2007"
   composer = "Jean-Philippe Rameau"
   poet = "Simon-Joseph Pellegrin"
-  date = "Version de 1742(?), sans prologue"
+  date = "Version de 1742?, sans prologue"
 }
 
 %% Staff size:

@@ -26,7 +26,7 @@
 \pieceToc \markup { Hippolyte et Aricie :  \italic { Nous brûlons des plus pures flammes } }
 \includeScore "ABDduo"
 %%
-%{ n°7 %}
+%{ n°7 %}\newBookPart #'(full)
 \scene "Scène III"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Hippolyte, Aricie, } la grande prêtresse de Diane,
@@ -43,11 +43,11 @@
 %{ n°10 %}
 \pieceTocTitle "Deuxième Air"
 \includeScore "ACDair"
-%{ n°11 %}
+%{ n°11 %}\newBookPart #'(full)
 \pieceTocAndTitle \markup "GAVOTTE" \markup { Gavotte : \italic { De l’Amour fuyez les charmes } }
 \includeScore "ACEgavotte"
 %%
-%{ n°12 %}
+%{ n°12 %}\newBookPart #'(full)
 \scene "Scène IV"
 \sceneDescription \markup \smallCaps { Phèdre, Aricie, Hippolyte. }
 \pieceToc \markup { Phèdre, Aricie, Hippolyte, chœur de prêtresses }
@@ -58,19 +58,20 @@
 %{ n°14 %}
 \pieceToc \markup { La prêtresse, chœur : \italic { Dieux vengeurs, lancez le tonnerre } }
 \includeScore "ADCprelude"
+\newBookPart #'(full)
 \includeScore "ADDpretresseChoeur"
-%{ n°15 %}
+%{ n°15 %}\newBookPart #'(full)
 \pieceTocTitle "Bruit de tonnerre"
 \includeScore "ADEtonnerre"
 %%
-%{ n°16 %}
+%{ n°16 %}\newBookPart #'(full)
 \scene "Scène V"
 \sceneDescription \markup { \smallCaps Diane, et les acteurs
   de la scène précédente. }
 \pieceToc \markup { Diane, Aricie, Hippolyte }
 \includeScore "AEAdianeAricieHippolyte"
 %%
-%{ n°17 %}
+%{ n°17 %}\newBookPart #'(full)
 \scene "Scène VI"
 \sceneDescription \markup \smallCaps Phèdre.
 \pieceToc \markup { Phèdre : \italic { Que rien n’échappe à ma fureur } }
