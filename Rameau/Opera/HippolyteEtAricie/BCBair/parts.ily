@@ -1,4 +1,4 @@
-\piecePartSpecs #`((violon #:notes "dessus")
+\piecePartSpecs #`((violon)
                    (haute-contre)
                    (taille)
                    (basson #:notes "basse" #:instrument "Basses")

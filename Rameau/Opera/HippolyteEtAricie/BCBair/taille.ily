@@ -2,7 +2,7 @@
 r r8 r16 do'32 do' do'4. do'32*4/3 sib la |
 sib4. fa'32*4/3 fa' fa' fa'4 la' |
 sol' mi' fa'4. sol'8 |
-mi'2 r4 r8 r16 la'32 la' |
+mi'2\trill r4 r8 r16 la'32 la' |
 do''4. do'32*4/3 do' do' do'4 re' |
 re'4. fa'32*4/3 mi' re' do'4. do'8 |
 do'4. la'8 sol'4 sol' |

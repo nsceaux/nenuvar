@@ -1,1 +1,1 @@
-r4 R1*7 R1 R1 R1*14 R1 R1
+r4\noBreak R1*7\noBreak R1\noBreak R1\noBreak R1*14\noBreak R1\noBreak R1
