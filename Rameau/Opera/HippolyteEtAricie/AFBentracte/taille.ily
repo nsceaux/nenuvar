@@ -1,12 +1,12 @@
-\clef "haute-contre" mi'4 mi' |
+\clef "taille" mi'4 mi' |
 mi'2 mi'4 |
 mi' fa'8 mi' re'4 |
 do'8 do'' si'4 la' |
 mi' mi' mi' |
 mi' la' red' |
 mi' do'' si' |
-la'8 do'' si'4 la' |
-sold' do' re' |
+sol'8 do'' si'4 la' |
+sold' do' re'\trill |
 mi' fa'8 mi' fa' re' |
 mi'4 fa'8 mi' fa' re' |
 mi'4 fa'8 sol' la' fa' |
@@ -15,7 +15,7 @@ mi'2 re'4 |
 si re'2 |
 do'4 mi' do' |
 re'2 do'4 |
-do'2 si4 |
+do'2 si4\trill |
 do'2 do'4\p |
 sol'2 re'4 |
 la'2 sol'4 |

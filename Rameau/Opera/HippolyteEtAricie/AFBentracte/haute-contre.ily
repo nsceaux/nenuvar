@@ -5,8 +5,8 @@ sol'8 mi'' re''4 do'' |
 si' do'' sold' |
 la' si'8 do'' si' do'' |
 si'4. la'8 sol' fad' |
-mi'4 red'4. mi'8 |
-mi'4 do' re' |
+mi'4 red'4.\trill mi'8 |
+mi'4 do' re'\trill |
 mi' fa'8 mi' fa' re' |
 mi'4 fa'8 mi' fa' re' |
 mi'4 fa'8 sol' la' fa' |
@@ -25,12 +25,12 @@ R2. |
 r4 mi''\f mi'' ~|
 mi'' la'2 ~|
 la'4 sold' la' ~|
-la'8 si' sold'4. la'8 |
+la'8 si' sold'4.\trill la'8 |
 la'4 r r |
 R2. |
 r4 mi''\f mi'' ~|
 mi'' la'2 ~|
 la'4 sold' la' ~|
-la'8 si' sold'4. la'8 |
+la'8 si' sold'4.\trill la'8 |
 la'4 |
 la'2. |

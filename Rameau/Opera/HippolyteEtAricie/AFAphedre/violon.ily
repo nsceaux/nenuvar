@@ -18,6 +18,6 @@ sib8. sib'16 sib'8. sib'16 sib'8. sib'16 sib'8. sib'16 |
 sib'8. sol'16 sol'8. sol'16 la'8. la'16 la'8. re'16 |
 dod'8. dod'16 dod'8. mi'16 la'8. fa'16 fa'8. re'16 |
 la'2 la |
-r8 r16 re''\f re''8. do''16 sib'8. la'16 sol'8. fad'16 |
+r8 r16 re''\f re''8. do''16 sib'8. la'16 sol'8.\trill fad'16 |
 sol'8. la'16 sib'8. sol'16 la'4 la |
 re'2 

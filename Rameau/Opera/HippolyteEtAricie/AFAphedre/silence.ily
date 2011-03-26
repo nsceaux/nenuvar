@@ -1,4 +1,1 @@
-r2 R1*3
-R1*5
-R1*3
-R1*18 r2
+r2\noBreak R1*3\noBreak R1*5\noBreak \grace s8 R1*3\noBreak R1\noBreak R1*17\noBreak r2

@@ -1,9 +1,9 @@
 \score {
   \new StaffGroup <<
     \new Staff << \instrumentName \markup Flûtes
-                  \global \includeNotes "flutes" >>
+                  \global \keepWithTag #'flutes \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup Violons
-                  \global \includeNotes "violons" >>
+                  \global \keepWithTag #'violons \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup Haute-contres
                   \global \includeNotes "haute-contre" >>
     \new Staff << \instrumentName \markup Tailles

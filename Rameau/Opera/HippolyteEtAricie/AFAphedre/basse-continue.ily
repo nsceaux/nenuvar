@@ -26,6 +26,6 @@ sib,8. sib16 sib8. sib16 sib8. sib16 sib8. sib16 |
 sib8. sol16 sol8. sol16 la8. la16 la8. re16 |
 dod8. dod16 dod8. mi16 fa,8. fa16 fa8. re16 |
 la2 la, |
-r8 r16 re'\f re'8. do'16 sib8. la16 sol8. fad16 |
+r8 r16 re'\f re'8. do'16 sib8. la16 sol8.\trill fad16 |
 sol8. la16 sib8. sol16 la4 la, |
 re2
