@@ -1,15 +1,15 @@
 \score {
   \new StaffGroup <<
     \new Staff << \instrumentName \markup Hautbois
-                  \global \includeNotes "hautbois" >>
+                  \global \keepWithTag #'hautbois \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup Violons
-                  \global \includeNotes "violons" >>
+                  \global \keepWithTag #'violons \includeNotes "dessus" >>
     \new Staff << \instrumentName \markup \center-column { Haute-contres Tailles }
-                  \global \includeNotes "haute-contre-taille" >>
+                  \global \includeNotes "parties" >>
     \new Staff << \instrumentName \markup Bassons
-                  \global \includeNotes "basson" >>
+                  \global \keepWithTag #'basson \includeNotes "basse" >>
     \new Staff << \instrumentName \markup { Basse continue }
-                  \global \includeNotes "basse" >>
+                  \global \keepWithTag #'basse \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
   \midi { }

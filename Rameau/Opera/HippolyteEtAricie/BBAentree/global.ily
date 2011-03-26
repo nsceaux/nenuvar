@@ -1,7 +1,6 @@
 \keys do \major
-#(override-auto-beam-setting '(end 1 16 2 2) 1 4)
-#(override-auto-beam-setting '(end 1 16 2 2)  3 4)
-#(override-auto-beam-setting '(end 1 32 2 2)  1 8)
-#(override-auto-beam-setting '(end 1 32 2 2)  1 4)
 \tempo "Vite" \midiTempo #120
-\fractionTime \time 2/2 s1*9 \bar "|."
+\digitTime \time 2/2
+\set Timing.baseMoment = #(ly:make-moment 1 16)
+\set Timing.beatStructure = #'(4 4 4 4)
+s1*9 \bar "|."
