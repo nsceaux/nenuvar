@@ -1,17 +1,17 @@
 \clef "vbasse" R2.*2 |
 r8 sol sol mib mib do |
 sol sol sol do' do' mib' |
-do'4. do'8 r sol16 la |
+do'4.\trill do'8 r sol16 lab |
 sib4. sib8 r16 sib sib sib |
 mib4. mib8 r lab16 sib |
 do'4. do'8 r16 do' do' do' |
 fa4. sib8 sib sib |
 re'4. re'8 re' sib |
 mib'4. mib'8 r4 |
-do'8. sib16 lab sol fa8 fa sib |
+do'8. sib16 lab sol fa8\trill fa sib |
 mib4. r4 sol16 mib |
 sib4. sib8 r16 sib sib sib |
-si4. si8 r si16 si |
+si4.\trill si8 r si16 si |
 do'4. do'8 r16 do' do' do |
 sol4. sol8 sol sol |
 mib'4. do'8 re' mib' |
@@ -28,9 +28,9 @@ fa4. fa8 r16 fa mib re |
 mib4. sol8 sol sol |
 do'4. sib8 lab sol |
 fa4. fa8 r r |
-re'8. mib'16 re' do' si8 si do' |
+re'8. mib'16 re' do' si8\trill si do' |
 sol2. |
-do'8. sib16 lab sol fa8 fa sol |
+do'8. sib16 lab sol fa8\trill fa sol |
 do2. |
 R2.*13 |
 r2*3/4 r8 r sib16^\markup \character Pluton sib |
@@ -43,7 +43,7 @@ fa' fa'8 r16 re' re' re' |
 si4. do'8 do' mib' |
 do'4. do'8 do' sol |
 do' do' r mib'4. ~|
-mib'8. re'16 do' sib la8 la sol |
+mib'8. re'16 do' sib la8\trill la sol |
 re'2. |
 re'4. ~ re'4 re'8 |
 mib'4. ~ mib'4 mib'8 |

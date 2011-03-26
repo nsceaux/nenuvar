@@ -17,14 +17,13 @@ fa8 fa fa16 sol lab8 lab16 lab lab fa |
 sol4. do'8 do' do' |
 do'4. do'8 do' sol |
 do'4. do'8 r4 |
-mib'8. re'16 do' sib la8 la sol |
+mib'8. re'16 do' sib la8\trill la sol |
 re'2. |
 sol8. sol16 sol sol sol8 sol sib |
 mib2. |
 sib,8. sib,16 sib, sib, do8 do re |
 sol,2. |
 R2.*2 |
-
 r4 mib16 mib fa8 fa16 fa sol sol |
 do4. do8 r4 |
 r sol16 sol lab8 lab16 lab sib sib |

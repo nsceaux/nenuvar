@@ -3,25 +3,25 @@ r2*3/4 r4 sol'16^\markup \character Chœur sol' |
 sol'4. sol'8 r16 sol' sol' sol' |
 do''4. do''8 r sol'16 sol' |
 sol'4. fa'8 r16 fa' fa' fa' |
-re'4. sol'8 sol' sol' |
+re'4.\trill sol'8 sol' sol' |
 sol'4. lab'8 lab' sib' |
-sol'4. sol'8 r r |
+sol'4.\trill sol'8 r r |
 mib'8. mib'16 mib' mib' lab'8 lab' fa' |
 sol'2. |
 r2*3/4 r4 sol'16 sol' |
 sol'4. sol'8 r16 sol' sol' fad' |
 sol'4. sol'8 r sib'16 sib' |
 sib'4. sib'8 r16 sib' sib' la' |
-sib'4 lab'16 lab' lab'8 lab'16 lab' lab' sol' |
+sib'4 lab'!16 lab' lab'8 lab'16 lab' lab' sol' |
 lab'8 lab' lab'16 sol' fa'8 fa'16 fa' fa' fa' |
 re'4. mib'8 mib' do' |
-sol'4. fa'8 fa' fa' |
-fa'4. fa'8 r4 |
-sol'8. sol'16 la' sib' fad'8 fad' sol' |
+sol'4. sol'8 sol' sol' |
+sol'4. sol'8 r4 |
+sol'8. sol'16 la' sib' fad'8\trill fad' sol' |
 la'4. la'4 la'8 |
 sib'4. sib'8 r4 |
 r2*3/4 sol'4. ~|
-sol'8. sol'16 sol' sol' sol'8 sol' fad' |
+sol'8. sol'16 sol' sol' sol'8 sol' fad'\trill |
 sol'2. |
 R2. |
 r2*3/4 r4 do'16 do' |

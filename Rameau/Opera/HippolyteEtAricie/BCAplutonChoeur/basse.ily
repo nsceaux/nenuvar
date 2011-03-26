@@ -23,7 +23,7 @@ re'8. do'16 sib la sol8 do re |
 sol,4. r2*3/4 |
 sol,8\f sol, sol, sol, sol, sol, |
 sol,4. r2*3/4 |
-sol,8\p sol, sol, sol, sol, sol, |
+sol,8^\p sol, sol, sol, sol, sol, |
 sol,4. r2*3/4 |
 sol,8 sol, sol, sol, sol, sol, |
 do4. r2*3/4 |
@@ -33,7 +33,7 @@ fa8 fa re sol sol do |
 sol,4. r2*3/4 |
 do'8. sib16 lab sol fa8 fa sol |
 do4. r2*3/4 |
-lab,8\f lab, lab, lab, lab, lab, |
+lab,8^\f lab, lab, lab, lab, lab, |
 fa,4. r2*3/4 |
 fa,8 fa, fa, fa, fa, fa, |
 sol,4. r2*3/4 |
@@ -48,7 +48,7 @@ mib4. r2*3/4 |
 lab,8. lab,16 lab, sol, fa,8 fa, sib, |
 mib,4. r2*3/4 |
 R2. |
-r4 mib16 mib do8 do16 do re re |
+r4 sib,16 sib, do8 do16 do re re |
 sol,4. r2*3/4 |
 r4 re16 re mib8 mib16 mib fa fa |
 sib,4 fa16 fa fa8 fa16 fa fa do |

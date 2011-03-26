@@ -1,44 +1,5 @@
-\clef "basse" do,4. r2*3/4 |
-R2. |
-r2*3/4 r8 do\p do |
-do do do do do do |
-do,4. r2*3/4 |
-sol,8 sol, sol, sol, sol, sol, |
-lab,4. r2*3/4 |
-lab,8 lab, lab, lab, lab, lab, |
-sib,4. r2*3/4 |
-lab,8 lab, lab, lab, lab, lab, |
-sol,4. r2*3/4 |
-lab,8 lab, lab, sib, sib, sib, |
-mib,4. r2*3/4 |
-mib8 mib mib mib mib mib |
-re4. r2*3/4 |
-do8 do do do do do |
-sol,4. r2*3/4 |
-do8 do do do re mib |
-re4. r2*3/4 |
-sol8. fa16 mib re do8 do la, |
-re4. r2*3/4 |
-re'8. do'16 sib la sol8 do re |
-sol,4. r2*3/4 |
-sol,8\f sol, sol, sol, sol, sol, |
-sol,4. r2*3/4 |
-sol,8\p sol, sol, sol, sol, sol, |
-sol,4. r2*3/4 |
-sol,8 sol, sol, sol, sol, sol, |
-do4. r2*3/4 |
-do,8 do, do, do, do, do, |
-fa,4. r2*3/4 |
-fa8 fa re sol sol do |
-sol,4. r2*3/4 |
-do'8. sib16 lab sol fa8 fa sol |
-do4. r2*3/4 |
-lab,8\f lab, lab, lab, lab, lab, |
-fa,4. r2*3/4 |
-fa,8 fa, fa, fa, fa, fa, |
-sol,4. r2*3/4 |
-do8 mib do mib,16 fa, sol,8 sol, |
-lab, fa, sol, do,4. |
+\clef "basse" R2.*40
+r2*3/4 do,4. |
 do8 do do do do do |
 lab,4 lab,8 lab,4 mib,8 |
 fa,4 fa,8 fa,4 re,8 |

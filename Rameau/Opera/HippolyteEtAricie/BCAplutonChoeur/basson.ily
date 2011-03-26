@@ -2,7 +2,7 @@
 mib' do' do' sol do' do' |
 mib' mib'\p mib' sol' sol' sol' |
 sol do' do' mib' mib' sol' |
-mib'4. r2*3/4 |
+mib'4.\trill r2*3/4 |
 R2. |
 lab,8 do mib lab do' mib' lab, r r r2*3/4 |
 sib,8 re fa sib re' fa' |
@@ -59,7 +59,7 @@ sol'16 ( fa' ) mib' ( re' ) do' ( sib ) la8 la sol |
 re'2. |
 re'16 ( do' ) sib ( la ) sib ( do' ) re' ( do' ) sib ( la ) sib8 |
 mib'4. r2*3/4 |
-sol8. sol16 sol sol la8 la8. sol16 |
+sol8. sol16 sol sol la8 la8.\trill sol16 |
 sol4. sol16 ( la ) si ( do' ) re' ( mib' )|
 fa'4. fa'16 ( mib' ) re' ( do' ) si ( sol )|
 do'4. r2*3/4 |
