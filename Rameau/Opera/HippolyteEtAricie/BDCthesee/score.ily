@@ -1,10 +1,13 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \global \includeNotes "thesee"
+      \characterName "Thésée"
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff << \global \includeNotes "basse" >>
+    \new Staff <<
+      \instrumentName "Basse continue"
+      \global \includeNotes "basse" \includeFigures "chiffres" >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
   \midi { }
 }

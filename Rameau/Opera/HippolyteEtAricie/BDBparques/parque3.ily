@@ -11,7 +11,7 @@ sib la sol4. do'8 |
 fa1 |
 fa4 fa8 fa fa4 fa |
 fa2. fa4 |
-mi4. mi8 re4. do8 |
+mi4. mi8 re4.\trill do8 |
 sol2( sol,) |
 do1 |
 do'4 do'8 do' do'4. do'8 |
@@ -20,7 +20,7 @@ do' sib la4. re'8 |
 sol1 |
 sol4 sol8 sol sol4 sol |
 re'2. la4 |
-sib4. la8 sol4. fa8 |
+sib4. la8 sol4.\trill fa8 |
 do'2 ( do )|
 fa1 |
 la,4 la,8 la, la,4 la, |

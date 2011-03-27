@@ -1,3 +1,2 @@
-\piecePartSpecs #`((voix)
-                   (basse #:instrument "Basse continue")
+\piecePartSpecs #`((voix #:score "score-voix")
                    (basse-continue))
