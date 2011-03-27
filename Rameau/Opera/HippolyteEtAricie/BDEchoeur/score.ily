@@ -3,7 +3,7 @@
     \new StaffGroupNoBracket <<
       \new Staff <<
         \instrumentName \markup Dessus
-        \global \includeNotes "violon"
+        \global \keepWithTag #'dessus \includeNotes "dessus"
       >>
       \new Staff <<
         \instrumentName \markup Haute-contres
@@ -19,7 +19,7 @@
         \global \includeNotes "voix-haute-contre"
       >> \includeLyrics "paroles-haute-contre"
       \new Staff \withLyrics <<
-        \instrumentName \markup Chœur
+        \characterName "Chœur"
         \global \includeNotes "voix-taille"
       >> \includeLyrics "paroles-taille"
       \new Staff \withLyrics <<
@@ -27,10 +27,10 @@
       >> \includeLyrics "paroles-basse"
     >>
     \new Staff << \instrumentName \markup Basses
-                  \global \includeNotes "basse" >>
+     \global \keepWithTag #'basse \includeNotes "basse" >>
     \newHaraKiriStaff << \instrumentName \markup { Contre-basses }
-                         { s2.*5 \startHaraKiri }
-                         \global \includeNotes "contre-basse" >>
+                { s2.*5 \startHaraKiri }
+                \global \keepWithTag #'contrebasse \includeNotes "basse" >>
   >>
   \layout {
     indent = \largeindent

@@ -1,10 +1,16 @@
 \clef "basse" lab2. |
-r8 lab, do mib mib, mib |
+<<
+  \tag #'basse { r8 lab, do mib mib, mib | }
+  \tag #'contrebasse { lab,2 mib,4 | }
+>>
 lab,4 lab lab |
 do'2 lab4 |
-mib'8 sib sol mib sib, sol, |
+<<
+  \tag #'basse { mib'8 sib sol mib sib, sol, | }
+  \tag #'contrebasse { mib'2 mib'8 r | }
+>>
 mib,4 mib' reb' |
-do' sib lab  |
+do' sib lab |
 sol8 sib mib' mib lab do' |
 fa4. fa8 fa sib |
 mib2. ~|
@@ -38,4 +44,4 @@ lab mib lab do' lab mib |
 do4 do do |
 reb2 lab, mib4. mib8 |
 lab,4. do8 mib lab |
-do'4 r2 |
+do'4 r4 r |
