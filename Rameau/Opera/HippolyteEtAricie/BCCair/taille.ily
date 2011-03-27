@@ -1,7 +1,7 @@
 \clef "taille" R2. |
 fa'8 mi'16 re' do' fa' mi' re' do' sib la fa |
 sib4 sol do' |
-la2. |
+la2.\trill |
 r8 la16 la la8 la fa4 |
 fa8 fa'16 fa' fa'8 fa' fa'4 |
 mi'8 sol'16 sol' sol'8 sol' sol'4 |
@@ -9,15 +9,15 @@ sol'8 mi'16 mi' fa'8 fa' fa'4 |
 fa'8 fa'16 fa' fa'8 re' mi'4 |
 mi'8 la'16 la' sol'8 sol' sol'4 |
 sol'8 fa'16 mi' fa'8 fa' re' sol' |
-mi'2. |
+mi'2.\trill |
 R2.*2 |
-mi'2. |
+mi'2.\trill |
 R2. |
 r8 mi'16 mi' mi'8 sol'16 sol' sol'8 sib16 sib |
 la4. fa'16 fa' fa'8 fa' |
 fa' sol'16 sol' sol'4. sib'8 |
 mi'4. mi'16 mi' dod'8 la |
-re'8. mi'16 mi'4. re'8 |
+re'8. mi'16 mi'4.\trill re'8 |
 re'2 r8 re'16 re' |
 re'2 r8 sib16 sib |
 sib2 r8 do'16 sib |
@@ -33,7 +33,7 @@ fa'4. fa'16 fa' fa'8 do' |
 do'2. |
 R2.*2 |
 do'2.~ |
-do'4 r2 |
+do'4 r4 r |
 %%%
 R2. |
 fa'8 mi'16 re' do' fa' mi' re' do' sib la fa |
@@ -54,10 +54,10 @@ sol'4 sol' mi' |
 fa'8 la'16 la' la'4. la'8 |
 fa' sol'16 sol' sol'4. sol'8 |
 mi'4 mi' mi' |
-re' sol' mi' |
+re' sol' mi'\trill |
 re' r r8 re'16 re' |
 re'2 r8 sol'16 sol' |
-mi'2 r8 mi'16 do' |
+mi'2\trill r8 mi'16 do' |
 fa'2 r8 fa'16 fa' |
 fa'2 r8 fa'16 fa' |
 fa'2 r8 re''16 re'' |
@@ -71,4 +71,4 @@ do'8 do'16 do' do'8 do' do'4 |
 do'2. |
 R2. |
 do'8 do'16 do' do'8 do' do'4 |
-do'4 r2 |
+do'4 r4 r |

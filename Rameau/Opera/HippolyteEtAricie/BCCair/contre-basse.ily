@@ -9,7 +9,7 @@ la do' mi |
 fa4. re8 sol4 |
 do2. |
 do4 do do |
-fa r2 |
+fa r4 r |
 do2. |
 do4 do do |
 do2 r8 r16 do |
@@ -32,7 +32,7 @@ sib4. sol8 do'4 |
 fa2. |
 do4 fa la do' do do |
 fa2. |
-fa,4 r2 |
+fa,4 r4 r |
 %%%
 R2.*3 |
 fa4 fa la, |
@@ -45,7 +45,7 @@ la do' mi |
 fa4. re8 sol4 |
 do2. |
 do4 do do |
-fa r2 |
+fa r4 r |
 do4 do do |
 do do do |
 do2 r8 r16 do |
@@ -69,4 +69,4 @@ fa2. |
 do4 fa la |
 do' do do |
 fa fa, fa, |
-fa, r2 |
+fa, r4 r |

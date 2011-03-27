@@ -1,13 +1,13 @@
 \clef "dessus" fa''8 mi''16 re'' do'' fa'' mi'' re'' do'' sib' la' sol' |
 fa'4 do'' fa'' ~|
-fa''8. sol''16 sol''4. ( fa''16 sol'' )|
+fa''8. sol''16 sol''4.\trill( fa''16 sol'') |
 la''4 fa'' do'' |
 la' fa' do'' |
 re''8 fa''16 mi'' re'' mi'' fa'' mi'' re'' do'' sib' la' |
 sol'8 do'16 do' mi'8 sol' do''4 |
 la'8 fa'16 fa' la'8 do'' fa''4 |
 si'8 sol'16 sol' si'8 re'' sol''4 |
-mi''8 sol''16 fa'' mi'' fa'' sol'' fa'' mi'' re'' do'' sib' %{si'%} |
+mi''8\trill sol''16 fa'' mi'' fa'' sol'' fa'' mi'' re'' do'' sib' %{si'%} |
 la'8 si'16 do'' re'8 mi'16 fa' sol8 do''16 si' |
 do''8 si'16 la' sol' do'' si' la' sol' fa' mi' re' |
 do'2. |
@@ -26,27 +26,27 @@ do''8 do''16 sib' la' sib' do'' sib' la' sol' fa' mi' |
 re'16. mi'32 fa' sol' la' sib' do''4. do''16 la' |
 re''8 re''16 do'' sib' do'' re'' do'' sib' la' sol' fa' |
 mi'8 do'16 do' mi'8 sol' do''4 |
-la'8 fa'16 fa' la'8 do'' fa''4 |
-re''8 sol'16 sol' sib'8 re'' sol''4 |
-mi''8 sol''16 fa'' mi'' fa'' sol'' fa'' mi'' re'' do'' sib' |
+la'8\trill fa'16 fa' la'8 do'' fa''4 |
+re''8\trill sol'16 sol' sib'8 re'' sol''4 |
+mi''8\trill sol''16 fa'' mi'' fa'' sol'' fa'' mi'' re'' do'' sib' |
 la'8 la''16 sol'' fa'' sol'' la'' sol'' fa'' mi'' re'' do'' |
 re''8 mi''16 fa'' sol'8 la'16 sib' do'8 fa''16 mi'' |
 fa''8 mi''16 re'' do'' fa'' mi'' re'' do'' sib' la' sol' |
-fa'4 r2 |
+fa'4 r4 r |
 r8 do'16 re' mi' re' do' re' mi' fa' sol' la' |
 fa''8 mi''16 re'' do'' fa'' mi'' re'' do'' sib' la' sol' |
-fa'4 r2 |
+fa'4 r4 r |
 %%%
 fa''8 mi''16 re'' do'' fa'' mi'' re'' do'' sib' la' sol' |
 fa'4 do'' fa'' ~|
-fa''8. sol''16 sol''4. ( fa''16 sol'' )|
+fa''8. sol''16 sol''4.\trill( fa''16 sol'') |
 la''4 fa'' do'' |
 la' fa' do'' |
 re''8 fa''16 mi'' re'' mi'' fa'' mi'' re'' do'' sib' la' |
 sol'8 do'16 do' mi'8 sol' do''4 |
-la'8 fa'16 fa' la'8 do'' fa''4 |
+la'8\trill fa'16 fa' la'8 do'' fa''4 |
 si'8 sol'16 sol' si'8 re'' sol''4 |
-mi''8 sol''16 fa'' mi'' fa'' sol'' fa'' mi'' re'' do'' sib' %{si'%} |
+mi''8\trill sol''16 fa'' mi'' fa'' sol'' fa'' mi'' re'' do'' sib' %{si'%} |
 la'8 si'16 do'' re'8 mi'16 fa' sol8 do''16 si' |
 do''8 si'16 la' sol' do'' si' la' sol' fa' mi' re' |
 do'2. |
@@ -65,13 +65,13 @@ r8 do''16 sib' la' sib' do'' sib' la' sol' fa' mi' |
 re'4 r r |
 r8 re''16 do'' sib' do'' re'' do'' sib' la' sol' fa' |
 mi'8 do'16 do' mi'8 sol' do''4 |
-la'8 fa'16 fa' la'8 do'' fa''4 |
-re''8 fa'16 fa' sib'8 re'' sol''4 |
-mi''8 sol''16 fa'' mi'' fa'' sol'' fa'' mi'' re'' do'' sib' |
+la'8\trill fa'16 fa' la'8 do'' fa''4 |
+re''8\trill fa'16 fa' sib'8 re'' sol''4 |
+mi''8\trill sol''16 fa'' mi'' fa'' sol'' fa'' mi'' re'' do'' sib' |
 la'8 la''16 sol'' fa'' sol'' la'' sol'' fa'' mi'' re'' do'' |
 re''8 mi''16 fa'' sol'8 la'16 sib' do'8 fa''16 mi'' |
 fa''8 mi''16 re'' do'' fa'' mi'' re'' do'' sib' la' sol' |
 fa'2. |
 r8 do'16 re' mi' re' do' re' mi' fa' sol' la' |
 fa''8 mi''16 re'' do'' fa'' mi'' re'' do'' sib' la' sol' |
-fa'4 r2 |
+fa'4 r4 r |

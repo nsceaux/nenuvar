@@ -6,7 +6,7 @@ la'4^\markup \character Chœur la' la' |
 fa' fa' mi' |
 fa' fa' fa' |
 fa'2. fa'4 fa' sib' |
-sol' sol' sol' |
+sol'\trill sol' sol' |
 do'2 fa'4 |
 re'2 sol'4 |
 sol' sol' sol' |
@@ -32,7 +32,7 @@ do'4 do' do' |
 do' do' sib |
 sib2 sib8 r |
 la4 do' fa' |
-fa'4. fa'8 mi'4 |
+fa'4. fa'8 mi'4\trill |
 fa' fa' fa' |
 fa'2. |
 R |

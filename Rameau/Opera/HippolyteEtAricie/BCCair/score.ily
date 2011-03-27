@@ -2,7 +2,6 @@
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff << \instrumentName \markup Violons
-                    { s2.*38 \break }
                     \global \includeNotes "dessus" >>
       \new Staff << \instrumentName \markup Haute-contres
                     \global \includeNotes "haute-contre" >>

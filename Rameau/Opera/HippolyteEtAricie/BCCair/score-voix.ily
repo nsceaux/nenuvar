@@ -1,13 +1,13 @@
 \score {
   \new ChoirStaff <<
     \new Staff \withLyrics <<
-      \global \includeNotes "voix-haute-contre"
+      \removeWithTag #'no-voix \global \includeNotes "voix-haute-contre"
     >> \includeLyrics "paroles-haute-contre"
-    \new Staff \withLyrics <<
-      \global \includeNotes "voix-taille"
+    \newHaraKiriStaffB \withLyrics <<
+      \removeWithTag #'no-voix \global \includeNotes "voix-taille"
     >> \includeLyrics "paroles-taille"
-    \new Staff \withLyrics <<
-      \global \includeNotes "voix-basse"
+    \newHaraKiriStaffB \withLyrics <<
+      \removeWithTag #'no-voix \global \includeNotes "voix-basse"
     >> \includeLyrics "paroles-basse"
   >>
   \layout { }

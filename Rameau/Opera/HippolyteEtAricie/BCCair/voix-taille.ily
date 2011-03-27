@@ -7,7 +7,7 @@ re' re' sol |
 la la la |
 la2. |
 re'4 re' sol' |
-mi' mi' do' |
+mi'\trill mi' do' |
 la2 re'4 |
 si2 si4 |
 do' mi' do' |
@@ -22,16 +22,16 @@ do' fa' fa' |
 fa' mi' mi' |
 mi' mi' mi' |
 la sib la |
-fad sol sol |
+fad\trill sol sol |
 sol8 sol sol'4 sol' |
 sol' fa' mi' |
 fa'2. ~|
 fa'4 fa' fa' |
 fa' fa' fa' |
-mi'2. |
+mi'2.\trill |
 fa'4 do' la |
 fa fa sib |
-sol2 sol8 r |
+sol2\trill sol8 r |
 fa4 fa do' |
 re'4. re'8 sol4 |
 la la la |
