@@ -1,6 +1,6 @@
-\piecePartSpecs #`((violon)
+\piecePartSpecs #`((violon #:notes "violon")
                    (haute-contre)
                    (taille)
-                   (voix)
+                   (voix #:instrument ,(markup #:character "Thésée"))
                    (basse)
                    (basse-continue))
