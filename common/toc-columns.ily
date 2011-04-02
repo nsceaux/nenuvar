@@ -1,8 +1,104 @@
+#(define-markup-command (fromproperty layout props sym) (symbol?)
+   (let ((m (chain-assoc-get sym props)))
+     (cond ((string? m)
+            (interpret-markup layout props (make-simple-markup m)))
+           ((markup? m)
+            (if (eqv? wordwrap-markup (car m))
+                (interpret-markup layout props m)
+                (interpret-markup layout props (make-line-markup (list m)))))
+           (else
+            empty-stencil))))
+
+#(define-markup-command (line layout props args) (markup-list?)
+  #:properties ((word-space)
+                (line-width #f)
+                (text-direction RIGHT)
+                (fill-with-dots #f))
+   "Like built-in @code{line}, but fill the line
+with dots in property @code{fill-with-dots} is true."
+   (let* ((props (cons `((fill-with-dots . #f)) props))
+          (line (let ((stencils (interpret-markup-list layout props args)))
+                  (if (= text-direction LEFT)
+                      (set! stencils (reverse stencils)))
+                  (stack-stencil-line
+                   word-space
+                   (remove ly:stencil-empty? stencils)))))
+     (if (not fill-with-dots)
+         line
+         (interpret-markup layout props
+                           (markup #:fill-with-pattern 0.5 RIGHT "."
+                                   #:stencil line
+                                   #:null)))))
+
+#(define-markup-command (simple layout props str) (string?)
+  #:properties ((fill-with-dots #f))
+   "Like built-in @code{simple}, but fill the line
+with dots in property @code{fill-with-dots} is true."
+   (if fill-with-dots
+       (interpret-markup layout props (make-line-markup (list str)))
+       (interpret-markup layout props str)))
+
+#(define-markup-command (wordwrap layout props args) (markup-list?)
+   #:properties ((baseline-skip 0.3)
+                 (fill-with-dots #f)
+                 wordwrap-internal-markup-list)
+   "Like built-in @code{wordwrap}, but fill the last line
+with dots in property @code{fill-with-dots} is true."
+   (let* ((no-dots-props (if fill-with-dots (cons `((fill-with-dots . #f)) props) props))
+          (lines (space-lines
+                  baseline-skip
+                  (wordwrap-internal-markup-list layout no-dots-props #f args))))
+     (stack-lines DOWN 0 0
+                  (space-lines
+                   baseline-skip
+                   (if (or (null? lines) (not fill-with-dots))
+                       lines
+                       (let* ((reversed-lines (reverse! lines)))
+                         (reverse! (cons (interpret-markup
+                                          layout props
+                                          (make-line-markup
+                                           (list (make-stencil-markup (car reversed-lines)))))
+                                         (cdr reversed-lines)))))))))
+
+#(define-markup-command (toc-filled-line layout props text page) (markup? markup?)
+   #:properties ((line-width #f)
+                 (word-space 0)
+                 (baseline-skip 0.3))
+   (let* ((line-width (or line-width (ly:output-def-lookup layout 'line-width)))
+          (page-number-stencil (interpret-markup layout props page))
+          (page-number-width (interval-length (ly:stencil-extent page-number-stencil X)))
+          (page-number-height (interval-length (ly:stencil-extent page-number-stencil Y)))
+          (text-max-width (- line-width page-number-width word-space))
+          (text-stencil (interpret-markup
+                         layout props 
+                         (markup #:override '(fill-with-dots . #t)
+                                 #:override `(line-width . ,text-max-width)
+                                 text)))
+          (y-offset (min 0 (+ (cdr (ly:stencil-extent page-number-stencil Y))
+                              (- (interval-length (ly:stencil-extent page-number-stencil Y))
+                                 (interval-length (ly:stencil-extent text-stencil Y)))))))
+     ;(format #t "~%~a ~a ~a"
+     ;        (ly:stencil-extent text-stencil Y)
+     ;        (ly:stencil-extent page-number-stencil Y)
+     ;        y-offset)
+     (ly:stencil-add text-stencil
+                     (ly:stencil-translate-axis
+                      (ly:stencil-translate-axis page-number-stencil
+                                                 (- line-width page-number-width) X)
+                      y-offset Y))))
+
+#(define-markup-command (paper-prop layout props name default)
+  (symbol? markup?)
+  "Get the value of a \\paper property, or defaults to some value"
+  (let ((val (ly:output-def-lookup layout name)))
+    (interpret-markup layout props (if (markup? val)
+                                      val
+                                      default))))
+
 \paper {
   tocTitleMarkup = \markup \column {
     \vspace #2
-    %\fontsize #6 \fill-line { \paper-prop #'tocTitle "TABLE OF CONTENTS" }
-    \fontsize #6 \fill-line { "TABLE DES MATIÈRES" }
+    \fontsize #6 \fill-line { \paper-prop #'tocTitle "TABLE OF CONTENTS" }
     \vspace #2
   }
 
@@ -16,10 +112,9 @@
     \larger\fromproperty #'toc:text \fromproperty #'toc:page
   }
 
-  tocPieceMarkup = \markup \fill-with-pattern #0.5 #RIGHT .
-  \fromproperty #'toc:text \fromproperty #'toc:page
+  tocPieceMarkup = \markup \toc-filled-line \fromproperty #'toc:text \fromproperty #'toc:page
 
-  tocBoldPieceMarkup = \markup \fill-with-pattern #0.5 #RIGHT .
+  tocBoldPieceMarkup = \markup \toc-filled-line 
   \bold\fromproperty #'toc:text \fromproperty #'toc:page
 
 }
@@ -36,16 +131,16 @@
          (line-width (or line-width (ly:output-def-lookup layout 'line-width)))
          (column-width (/ (- line-width
                              (* (- column-number 1) inter-column-padding))
-                             column-number)))
+                          column-number)))
      (car (space-lines
            baseline-skip
            (list (interpret-markup
                   layout
-                  (cons (list (cons 'line-width (if (eqv? toc-markup section-markup)
-                                                    line-width
-                                                    column-width))
-                              (cons 'toc:page (markup #:page-ref label "XXX" "?"))
-                              (cons 'toc:text text))
+                  (cons `((line-width . ,(if (eqv? toc-markup section-markup)
+                                             line-width
+                                             column-width))
+                          (toc:page . ,(markup #:page-ref label "XXX" "?"))
+                          (toc:text . ,text))
                         props)
                   (ly:output-def-lookup layout toc-markup)))))))
 
@@ -55,7 +150,7 @@
    (let* ((item-stencils
            (map (lambda (item)
                   (interpret-markup
-                   layout props
+                  layout props
                    (markup
                     #:override `(inter-column-padding . ,inter-column-padding)
                     #:toc-item item)))
@@ -77,13 +172,13 @@
        (if (null? lines)
            ;; the end result: the section title and the items on several columns
            (stack-lines
-            -1 0 0
+            DOWN 0 0
             (list title-stencil
                   (stack-stencil-line
                    0
                    (reverse! (if current-column-lines
                                  (cons (stack-lines
-                                        -1 0 0
+                                        DOWN 0 0
                                         (reverse! current-column-lines))
                                        previous-columns)
                                  previous-columns)))))
@@ -102,7 +197,7 @@
                                (cons (ly:make-stencil
                                       "" (cons 0 inter-column-padding) '(0 . 0))
                                      (cons (stack-lines
-                                            -1 0 0
+                                            DOWN 0 0
                                             (reverse! (cons line current-column-lines)))
                                            previous-columns)))
                  ;; go on filling this column
@@ -125,7 +220,7 @@
      (if (null? toc-items)
          ;; finalize last section and return the markup list
          (cons (interpret-markup layout props
-			         (ly:output-def-lookup layout 'tocTitleMarkup))
+                                 (ly:output-def-lookup layout 'tocTitleMarkup))
                (reverse!
                 (cons (interpret-markup
                        layout props

@@ -28,6 +28,7 @@ variable markup"
 \markuplines \override-lines #'(column-number . 3) \table-of-contents
 \pageBreak
 
+\tocItem "Ouverture"
 \tocActItem "Acte I"
 \tocSceneItem "Scène I"
 \tocItem "Pièce 1.1.1"
@@ -67,8 +68,8 @@ variable markup"
 \tocItem "Pièce 3.3.2"
 \tocItem "Pièce 3.3.3"
 \tocSceneItem "Scène VI"
-\tocItem "Pièce 3.4.1"
-\tocItem "Pièce 3.4.2"
-\tocItem "Pièce 3.4.3"
+\tocItem "Pièce 3.4.1 (string)"
+\tocItem \markup { Pièce 3.4.2 (line) }
+\tocItem \markup \wordwrap { Pièce 3.4.3 very looooong text text text text text (wordwrap) }
 
 \markup\null
