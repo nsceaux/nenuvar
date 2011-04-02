@@ -4,50 +4,46 @@
   Le théâtre représente une partie du Palais de Thésée sur le rivage
   de la mer.
 }
-\scene "Scène Première"
+\scene "Scène Première" "SCÈNE I : Phèdre"
 \sceneDescription \markup \fill-line { \line { \smallCaps Phèdre, seule. } }
 \pieceToc \markup { Phèdre : \italic { Cruelle Mère des Amours } }
 \includeScore "CAAphedre"
-%%
-\scene "Scène II"
-\sceneDescription \markup \wordwrap-center {
-  \smallCaps Phèdre, seule.
-}
-\pieceToc \markup { Phèdre }
 \includeScore "CBAphedre"
 %%
-\scene "Scène III"
+\scene "Scène II" "SCÈNE II : Phèdre, Hippolyte, Œnone"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Phèdre, Hippolyte. }
 }
 \pieceToc \markup { Phèdre, Hippolyte }
 \includeScore "CCAphedreHippolyte"
 %%
-\scene "Scène IV"
+\scene "Scène III" \markup \wordwrap {
+  SCÈNE III : Thésée et les acteurs de la scène précédente
+}
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Thésée, Phèdre, Hippolyte. }
 }
 \pieceToc \markup { Thésée, Phèdre, Hippolyte }
 \includeScore "CDAtheseeHippolytePhedre"
 %%
-\scene "Scène V"
+\scene "Scène IV" \markup \wordwrap {
+  SCÈNE IV : Thésée, Hippolyte, Œnone
+}
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Thésée, Hippolyte. }
 }
 \pieceToc \markup { Thésée, Hippolyte }
 \includeScore "CEAtheseeHippolyte"
 %%
-\scene "Scène VI"
+\scene "Scène V" "SCÈNE V : Thésée, Œnone"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Thésée, Œnone. }
 }
 \pieceToc \markup { Thésée, Œnone }
 \includeScore "CFAtheseeOenone"
 %%
-\scene "Scène VII"
-\sceneDescription \markup \wordwrap-center {
-  \smallCaps Thésée, une matelote, peuples et matelots.
-}
+\scene "Scène VI" "SCÈNE VI : Thésée"
+\sceneDescription \markup \smallCaps Thésée.
 \pieceToc \markup { Thésée }
 \includeScore "CGAthesee"
 \pieceToc \markup { Thésée : \italic { Puissant Maître des flots, favorable Neptune } }
@@ -59,9 +55,16 @@
 \includeScore "CGEannonce"
 \pieceToc \markup { Thésée }
 \includeScore "CGFthesee"
+%%
+\scene "Scène VII" "SCÈNE VII : Thésée, peuples et matelors"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Thésée, peuples et matelots.
+}
 \pieceTocTitle "Marche des matelots"
 \includeScore "CGGmarche"
-\pieceTocAndTitle \markup "CHŒUR" \markup { Chœur de matelots : \italic { Que ce rivage retentisse De la gloire du dieu des flots } }
+\pieceTocAndTitle \markup "CHŒUR" \markup \wordwrap {
+  Chœur de matelots : \italic { Que ce rivage retentisse De la gloire du dieu des flots }
+}
 \includeScore "CGHchoeur"
 \pieceTocTitle "Premier air des matelots"
 \includeScore "CGIair"

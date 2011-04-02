@@ -5,37 +5,36 @@
   de la forêt d'Aricie.  On y voit Aricie couchée sur un lit de
   verdure.
 }
-\scene "Scène Première"
+\scene "Scène Première" "SCÈNE I : Aricie"
 \sceneDescription \markup \fill-line { \line { \smallCaps Aricie, seule. } }
 \pieceToc \markup { Aricie : \italic { Où suis-je ? de mes sens j’ai recouvré l’usage } }
 \includeScore "EAAaricie"
 \pieceToc \markup { Aricie : \italic { Quels doux Concerts } }
 \includeScore "EABaricie"
 %%
-\scene "Scène II"
+\scene "Scène II" \markup\wordwrap {
+  SCÈNE II : Diane, Aricie, bergers et bergères
+}
 \sceneDescription \markup \wordwrap-center {
-  Troupe de bergers et de bergères et \smallCaps Aricie.
+  \smallCaps Diane, \smallCaps Aricie, troupe de bergers et de bergères.
 }
 \pieceToc \markup { Chœur, Aricie : \italic { Descendez, brillante immortelle } }
 \includeScore "EBAchoeur"
 \includeScore "EBBaricie"
 \includeScore "EBCaricieChoeur"
-%% 
-\scene "Scène III"
-\sceneDescription \markup \wordwrap-center {
-  \smallCaps Diane seule.
-}
 \pieceToc \markup { Diane : \italic { Peuples toujours soumis à mon obéissance } }
 \includeScore "ECAdiane"
-%% 
-\scene "Scène IV"
+%%
+\scene "Scène III" "SCÈNE III : Diane, Aricie"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Diane seule.
 }
 \pieceToc \markup { Diane }
 \includeScore "EDAdiane"
 %%
-\scene "Scène V"
+\scene "Scène IV" \markup\wordwrap {
+  SCÈNE IV : Diane, Hippolyte, Aricie
+}
 \sceneDescription \markup \column {
   \fill-line { \line \smallCaps { Diane, Hippolyte, Aricie. } }
   \fill-line { }
@@ -54,7 +53,9 @@
 \pieceToc \markup { Diane }
 \includeScore "EEEdiane"
 %%
-\scene "Scène VI"
+\scene "Scène V" \markup\wordwrap {
+  SCÈNE V : Diane, Hippolyte, habitants de la forêt d'Aricie
+}
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Diane, Hippolyte, Aricie, }
   habitants de la forêt d'Aricie et une bergère.

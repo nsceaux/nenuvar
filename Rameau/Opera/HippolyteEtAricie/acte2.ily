@@ -1,7 +1,7 @@
 %{ n°1 %}\newBookPart #'()
 \act "Acte Second"
-\sceneDescription \markup \wordwrap-center { Le théâtre représente les Enfers. }
-\scene "Scène Première"
+\sceneDescription \markup \wordwrap-center { Le théâtre représente l'entrée des Enfers. }
+\scene "Scène Première" "SCÈNE I : Thésée, Tisiphone"
 \sceneDescription \markup \wordwrap-center \smallCaps { Thésée, Tisiphone. }
 \pieceTocTitle "Ritournelle"
 \includeScore "BAAritournelle"
@@ -9,7 +9,9 @@
 \pieceToc \markup Thésée
 \includeScore "BABthesee"
 %{ n°3 %}
-\pieceToc \markup { Tisiphone : \italic { Non, dans le séjour ténébreux C’est en vain qu’on gémit } }
+\pieceToc \markup \wordwrap {
+  Tisiphone : \italic { Non, dans le séjour ténébreux C’est en vain qu’on gémit }
+}
 \includeScore "BACtisiphone"
 %{ n°4 %}
 \pieceToc \markup { Thésée, Tisiphone }
@@ -19,7 +21,9 @@
 \includeScore "BAEtheseeTisiphone"
 %%
 %{ n°6 %}
-\scene "Scène II"
+\scene "Scène II" \markup \wordwrap {
+  SCÈNE II : Pluton, Thésée, Tisiphone, les trois Parques, divinités infernales
+}
 \sceneDescription \markup {
   \smallCaps { Pluton, Thésée, } les trois Parques.
 }
@@ -37,7 +41,9 @@
 \includeScore "BBEplutonThesee"
 %%
 %{ n°10 %}
-\scene "Scène III"
+\scene "Scène III" \markup \wordwrap {
+  SCÈNE III : Pluton, les trois Parques, divinités infernales
+}
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Pluton, troupe de divinités infernales,
   les trois Parques.
@@ -54,7 +60,9 @@
 \includeScore "BCCair"
 %%
 %{ n°13 %}
-\scene "Scène IV"
+\scene "Scène IV" \markup \wordwrap {
+  SCÈNE IV : Thésée, Tisiphone et les acteurs de la scène précédente
+}
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Thésée, \smallCaps Tisiphone, les acteurs de le scène 
   précédente.
@@ -73,7 +81,9 @@
 \includeScore "BDEchoeur"
 %%
 %{ n°17 %}
-\scene "Scène V"
+\scene "Scène V" \markup \wordwrap {
+  SCÈNE IV : Mercure et les acteurs de la scène précédente
+}
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Mercure, \smallCaps Pluton et les trois Parques.
 }
@@ -84,7 +94,7 @@
 \includeScore "BEBplutonParques"
 %%
 %{ n°19 %}
-\scene "Scène VI"
+\scene "Scène VI" "SCÈNE VI : Thésée, Mercure"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Thésée et \smallCaps Mercure.
 }

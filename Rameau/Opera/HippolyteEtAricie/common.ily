@@ -2,7 +2,7 @@
   copyrightYear = "2007"
   composer = "Jean-Philippe Rameau"
   poet = "Simon-Joseph Pellegrin"
-  date = "Version de 1742?, sans prologue"
+  date = "Version de 1757"
 }
 
 %% Staff size:
@@ -37,6 +37,7 @@
 
 \include "italiano.ly"
 \include "common/common.ily"
+\include "common/toc-columns.ily"
 \setOpus "Rameau/Opera/HippolyteEtAricie"
 \opusTitle "Hippolyte et Aricie"
 
@@ -86,6 +87,23 @@
                            #:score-template "score-basse-continue2")))
 
 %%%%%%%%%
+
+scene =
+#(define-music-function (parser location title toc-title) (string? markup?)
+  (add-toc-item parser 'tocSceneMarkup (if (and (string? toc-title)
+                                                (string-null? toc-title))
+                                           (string-upper-case title)
+                                           toc-title))
+  (add-odd-page-header-text
+    parser
+    (format #f "~a, ~a."
+           (string-upper-case (*act-title*))
+           (string-upper-case title))
+    #t)
+  (add-toplevel-markup parser
+    (markup #:scene (string-upper-case title)))
+  (add-no-page-break parser)
+  (make-music 'Music 'void #t))
 
 %%% Figured bass
 includeFigures = 

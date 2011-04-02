@@ -44,7 +44,9 @@ with dots in property @code{fill-with-dots} is true."
                  wordwrap-internal-markup-list)
    "Like built-in @code{wordwrap}, but fill the last line
 with dots in property @code{fill-with-dots} is true."
-   (let* ((no-dots-props (if fill-with-dots (cons `((fill-with-dots . #f)) props) props))
+   (let* ((no-dots-props (if fill-with-dots
+                             (cons `((fill-with-dots . #f)) props)
+                             props))
           (lines (space-lines
                   baseline-skip
                   (wordwrap-internal-markup-list layout no-dots-props #f args))))
@@ -63,7 +65,8 @@ with dots in property @code{fill-with-dots} is true."
 #(define-markup-command (toc-filled-line layout props text page) (markup? markup?)
    #:properties ((line-width #f)
                  (word-space 0)
-                 (baseline-skip 0.3))
+                 (baseline-skip 0.3)
+                 (fill-line-with-dots #t))
    (let* ((line-width (or line-width (ly:output-def-lookup layout 'line-width)))
           (page-number-stencil (interpret-markup layout props page))
           (page-number-width (interval-length (ly:stencil-extent page-number-stencil X)))
@@ -71,16 +74,12 @@ with dots in property @code{fill-with-dots} is true."
           (text-max-width (- line-width page-number-width word-space))
           (text-stencil (interpret-markup
                          layout props 
-                         (markup #:override '(fill-with-dots . #t)
+                         (markup #:override `(fill-with-dots . ,fill-line-with-dots)
                                  #:override `(line-width . ,text-max-width)
                                  text)))
           (y-offset (min 0 (+ (cdr (ly:stencil-extent page-number-stencil Y))
                               (- (interval-length (ly:stencil-extent page-number-stencil Y))
                                  (interval-length (ly:stencil-extent text-stencil Y)))))))
-     ;(format #t "~%~a ~a ~a"
-     ;        (ly:stencil-extent text-stencil Y)
-     ;        (ly:stencil-extent page-number-stencil Y)
-     ;        y-offset)
      (ly:stencil-add text-stencil
                      (ly:stencil-translate-axis
                       (ly:stencil-translate-axis page-number-stencil
@@ -101,22 +100,21 @@ with dots in property @code{fill-with-dots} is true."
     \fontsize #6 \fill-line { \paper-prop #'tocTitle "TABLE OF CONTENTS" }
     \vspace #2
   }
-
   tocActMarkup = \markup \large \italic \column {
     \vspace #1
     \fontsize #2 \fill-line { \fromproperty #'toc:text }
     \vspace #1
   }
-
-  tocSceneMarkup = \markup \fill-line {
-    \larger\fromproperty #'toc:text \fromproperty #'toc:page
+  tocSceneMarkup = \markup {
+    \override #'(fill-line-with-dots . #f) \toc-filled-line
+    \larger\fromproperty #'toc:text "" %\fromproperty #'toc:page
   }
-
-  tocPieceMarkup = \markup \toc-filled-line \fromproperty #'toc:text \fromproperty #'toc:page
-
-  tocBoldPieceMarkup = \markup \toc-filled-line 
-  \bold\fromproperty #'toc:text \fromproperty #'toc:page
-
+  tocPieceMarkup = \markup {
+    \toc-filled-line \fromproperty #'toc:text \fromproperty #'toc:page
+  }
+  tocBoldPieceMarkup = \markup {
+    \toc-filled-line \bold\fromproperty #'toc:text \fromproperty #'toc:page
+  }
 }
 
 #(define-markup-command (toc-item layout props toc-item) (list?)

@@ -4,12 +4,12 @@
   Le théâtre représente un bois consacré à Diane sur le rivage de la
   mer.
 }
-\scene "Scène Première"
+\scene "Scène Première" "SCÈNE I : Hippolyte"
 \sceneDescription \markup \fill-line { \line { \smallCaps Hippolyte, seul. } }
 \pieceToc \markup { Hippolyte : \italic { Ah ! Faut-il en un jour, perdre tout ce que j’aime ! } }
 \includeScore  "DAAhippolyte"
 %%
-\scene "Scène II"
+\scene "Scène II" "SCÈNE II : Hippolyte, Aricie"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Hippolyte, Aricie. }
 }
@@ -22,7 +22,9 @@
 \pieceToc \markup { Hippolyte }
 \includeScore "DBDhippolyte"
 %%
-\scene "Scène III"
+\scene "Scène III" \markup \wordwrap {
+  SCÈNE III : Hippolyte, Aricie, chasseurs et chasseresses.
+}
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Hippolyte, Aricie, } une chasseresse,
   troupe de chasseurs et de chasseresses.
@@ -44,17 +46,19 @@
 \markup \title \fill-line {
   \line { On reprend le premier menuet page \page-refIII #'DCEmenuet . }
 }
-\pieceTocAndTitle \markup "DEUXIÈME RONDEAU" \markup {
+\pieceTocAndTitle \markup "DEUXIÈME RONDEAU" \markup \wordwrap {
   Deuxième rondeau, une chasseresse, chœur : \italic { À la chasse, à la chasse, Armez-vous }
 }
 \includeScore "DCGrondeauChoeur"
-\pieceTocAndTitle \markup "BRUIT DE MER ET VENTS" \markup {
+\pieceTocAndTitle \markup "BRUIT DE MER ET VENTS" \markup \wordwrap {
   Chœur, Hippolyte, Aricie : \italic { Quel bruit ! Quels vents ! Quelle montagne humide ! }
 }
 \includeScore "DCHchoeurHippolyteAricie"
 \includeScore "DCIchoeurAricie"
 %%
-\scene "Scène IV"
+\scene "Scène IV" \markup \wordwrap {
+  SCÈNE IV : Phèdre, chasseurs et chasseresses.
+}
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Phèdre, troupe de chasseurs et de chasseresses.
 }
