@@ -172,12 +172,12 @@
     dans Ballard 1689, et répétées dans une même mesure, mais un
     retour à l'altération de l'armure n'est pas toujours explicité.
   }
-  \paragraph {
-    Dans les pièces de mesure \concat { \number 3 , } deux soupirs
-    consécutifs \musicglyph #"rests.2" \musicglyph #"rests.2" sont
-    remplacés dans cette édition par une demie-pause
-    \concat { \musicglyph #"rests.1" . }
-  }
+  %\paragraph {
+  %  Dans les pièces de mesure \concat { \number 3 , } deux soupirs
+  %  consécutifs \musicglyph #"rests.2" \musicglyph #"rests.2" sont
+  %  remplacés dans cette édition par une demie-pause
+  %  \concat { \musicglyph #"rests.1" . }
+  %}
   \paragraph {
     Enfin, l'orthographe des textes est modernisée, également dans le
     but d'en faciliter la lecture.

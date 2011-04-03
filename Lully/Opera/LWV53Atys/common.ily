@@ -37,6 +37,7 @@
 
 \include "italiano.ly"
 \include "common/common.ily"
+\include "common/toc-columns.ily"
 \setOpus "Lully/Opera/LWV53Atys"
 \opusTitle "Atys"
 
@@ -59,6 +60,24 @@
                    (#:notes "basse" #:clef "basse" #:score-template "score-basse-continue"))
    (voix "Parties vocales" ()
          (#:notes "voix" #:tag-notes voix #:score-template "score-voix")))
+
+%% For better looking two-column TOC
+scene =
+#(define-music-function (parser location title toc-title) (string? markup?)
+  (add-toc-item parser 'tocSceneMarkup (if (and (string? toc-title)
+                                                (string-null? toc-title))
+                                           (string-upper-case title)
+                                           toc-title))
+  (add-odd-page-header-text
+    parser
+    (format #f "~a, ~a."
+           (string-upper-case (*act-title*))
+           (string-upper-case title))
+    #t)
+  (add-toplevel-markup parser
+    (markup #:scene (string-upper-case title)))
+  (add-no-page-break parser)
+  (make-music 'Music 'void #t))
 
 trill = #(make-articulation "stopped")
 
@@ -215,9 +234,6 @@ choeurMark =
 
 \paper {
   tocNotesMarkup = \markup \column {
-    \vspace #1
-    \sep
-    \vspace #1
     \fill-line {
       \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \fill-line {
         \line { \fromproperty #'toc:text }
@@ -231,7 +247,8 @@ choeurMark =
 notesSection =
 #(define-music-function (parser location title) (markup?)
   (add-page-break parser)
-  (add-toc-item parser 'tocNotesMarkup title)
+  (add-toc-item parser 'tocActMarkup (markup #:sep))
+  (add-toc-item parser 'tocPieceMarkup title)
   (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
   (*act-title* title)
   (add-odd-page-header-text

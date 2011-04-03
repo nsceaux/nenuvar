@@ -28,9 +28,9 @@
   \include "Lully/Opera/LWV53Atys/notes3.ily"
   \include "Lully/Opera/LWV53Atys/notes4.ily"
   \include "Lully/Opera/LWV53Atys/notes5.ily"
-  \markuplines \fontsize-lines #2 \column-lines {
-    \paragraph {
-      Un grand merci à Jérémie et Loïc pour leur aide et leurs encouragements. -NS
-    }
-  }
+  %\markuplines \fontsize-lines #2 \column-lines {
+  %  \paragraph {
+  %    Un grand merci à Jérémie et Loïc pour leur aide et leurs encouragements. -NS
+  %  }
+  %}
 }

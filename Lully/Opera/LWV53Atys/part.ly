@@ -9,7 +9,7 @@
 %% Table of contents
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplines \table-of-contents
+  \markuplines \abs-fontsize-lines #8 \table-of-contents
 }
 
 \include "Lully/Opera/LWV53Atys/0prologue.ily"
