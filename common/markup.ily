@@ -167,6 +167,20 @@
                                 props)
                           args))
 
+#(define-markup-list-command (abs-fontsize-lines layout props size args)
+  (number? markup-list?)
+  (let* ((ref-size (ly:output-def-lookup layout 'text-font-size 12))
+         (text-props (list (ly:output-def-lookup layout 'text-font-defaults)))
+         (ref-word-space (chain-assoc-get 'word-space text-props 0.6))
+         (ref-baseline (chain-assoc-get 'baseline-skip text-props 3))
+         (magnification (/ size ref-size)))
+    (interpret-markup-list layout
+                           (cons `((baseline-skip . ,(* magnification ref-baseline))
+                                   (word-space . ,(* magnification ref-word-space))
+                                   (font-size . ,(magnification->font-size magnification)))
+                                 props)
+                           args)))
+
 #(define-markup-command (wordwrap-center layout props args) (markup-list?)
   (interpret-markup layout props
    (make-column-markup
