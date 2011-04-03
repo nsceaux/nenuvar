@@ -144,6 +144,8 @@ with dots in property @code{fill-with-dots} is true."
 
 #(define-markup-command (toc-section layout props title-item items) (list? list?)
    #:properties ((column-number 2)
+                 (sub-section-markup 'tocSceneMarkup)
+                 (sub-section-padding 1)
                  (inter-column-padding 6))
    (let* ((item-stencils
            (map (lambda (item)
@@ -153,16 +155,23 @@ with dots in property @code{fill-with-dots} is true."
                     #:override `(inter-column-padding . ,inter-column-padding)
                     #:toc-item item)))
                 items))
+          (sub-sections (map (lambda (item)
+                               (eqv? (cadr item) sub-section-markup))
+                             items))
           (title-stencil (if (null? title-item)
                              empty-stencil
                              (interpret-markup layout props
                                                (markup #:toc-item title-item))))
           (total-height
-           (reduce + 0 (map (lambda (stencil)
-                              (interval-length (ly:stencil-extent stencil Y)))
-                            item-stencils)))
+           (+ (reduce + 0 (map (lambda (stencil)
+                                 (interval-length (ly:stencil-extent stencil Y)))
+                               item-stencils))
+              (reduce + 0 (map (lambda (val)
+                                 (if val sub-section-padding 0))
+                               (cdr sub-sections)))))
           (average-height (/ total-height column-number)))
      (let fill-columns ((lines item-stencils)
+                        (sub-sections sub-sections)
                         (current-column-index 1)
                         (current-column-height 0)
                         (current-column-lines '())
@@ -183,27 +192,64 @@ with dots in property @code{fill-with-dots} is true."
            ;; go on collecting the item stencils into columns
            (let* ((line (car lines))
                   (height (interval-length (ly:stencil-extent line Y))))
-             (if (and (> current-column-height 0)
-                      (< current-column-index column-number)
-                      (>= (+ current-column-height height) average-height))
-                 ;; with this line, the column is filled,
-                 ;; so finalize it and start a new one
-                 (fill-columns (cdr lines)
-                               (1+ current-column-index)
-                               0
-                               '()
-                               (cons (ly:make-stencil
-                                      "" (cons 0 inter-column-padding) '(0 . 0))
-                                     (cons (stack-lines
-                                            DOWN 0 0
-                                            (reverse! (cons line current-column-lines)))
-                                           previous-columns)))
-                 ;; go on filling this column
-                 (fill-columns (cdr lines)
-                               current-column-index
-                               (+ current-column-height height)
-                               (cons line current-column-lines)
-                               previous-columns)))))))
+             (cond ;((and (car sub-sections)
+                   ;      (> current-column-height 0)
+                   ;      (< current-column-index column-number)
+                   ;      (>= (+ current-column-height height sub-section-padding) average-height))
+                   ; ;; this a new subsection, and the current column is full
+                   ; ;; => start a new column
+                   ; (fill-columns (cdr lines)
+                   ;               (cdr sub-sections)
+                   ;               (1+ current-column-index)
+                   ;               height
+                   ;               (list line)
+                   ;               (cons ;; inter-column filler
+                   ;                     (ly:make-stencil "" (cons 0 inter-column-padding) '(0 . 0))
+                   ;                     ;; filled column
+                   ;                     (cons (stack-lines DOWN 0 0
+                   ;                                        (reverse! current-column-lines))
+                   ;                           previous-columns))))
+                   ((car sub-sections)
+                    ;; this is new subsection, and the current column is not
+                    ;; yet full => go on filling this column
+                    (fill-columns (cdr lines)
+                                  (cdr sub-sections)
+                                  current-column-index
+                                  (+ current-column-height height sub-section-padding)
+                                  (cons line
+                                        ;; if this is not the first line in the column,
+                                        ;; add padding before
+                                        (if (not (null? current-column-lines))
+                                            (cons (ly:make-stencil "" '(0 . 0)
+                                                                   (cons 0 sub-section-padding))
+                                                  current-column-lines)
+                                            current-column-lines))
+                                  previous-columns))
+                   ((and (> current-column-height 0)
+                         (< current-column-index column-number)
+                         (>= (+ current-column-height height) average-height))
+                    ;; this is a new line, which ends filling this column
+                    ;; => start a new column after it
+                    (fill-columns (cdr lines)
+                                  (cdr sub-sections)
+                                  (1+ current-column-index)
+                                  0
+                                  '()
+                                  (cons (ly:make-stencil
+                                         "" (cons 0 inter-column-padding) '(0 . 0))
+                                        (cons (stack-lines
+                                               DOWN 0 0
+                                               (reverse! (cons line current-column-lines)))
+                                              previous-columns))))
+                   (else
+                    ;; this is a new line, and there is still room is this
+                    ;; column => go on filling it
+                    (fill-columns (cdr lines)
+                                  (cdr sub-sections)
+                                  current-column-index
+                                  (+ current-column-height height)
+                                  (cons line current-column-lines)
+                                  previous-columns))))))))
 
 #(define-markup-list-command (table-of-contents layout props) ()
    #:properties ((section-markup 'tocActMarkup)
