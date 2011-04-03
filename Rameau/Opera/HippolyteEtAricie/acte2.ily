@@ -10,7 +10,7 @@
 \includeScore "BABthesee"
 %{ n°3 %}
 \pieceToc \markup \wordwrap {
-  \smallCaps Tisiphone : \italic { Non, dans le séjour ténébreux C’est en vain qu’on gémit }
+  \smallCaps Tisiphone : \italic { Non, dans le séjour ténébreux }
 }
 \includeScore "BACtisiphone"
 %{ n°4 %}
