@@ -386,37 +386,39 @@ setOpus =
 
 #(define (include-score-helper parser name label allow-page-turn)
    ;;(format #t "Including score `~a'~%" name)
-   (parameterize ((*piece* name))
-     ;;(format #t "Reading ~a~%" name)
-     (if (*part*)
-         (begin ;; a part score
-           ;; Include the parts.ily file, describing
-           ;; the parts defined for this piece.
-           ;; It should contain a call to \piecePartSpec
-           ;; which set *piece-description*
-           (ly:parser-parse-string (ly:parser-clone parser)
-                                   (format #f "\\include \"~a\""
-                                           (include-pathname "parts")))
-           (let ((piece (*piece-description*)))
-             (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
-                            (*note-filename* (assoc-ref piece 'notes))
-                            (*instrument-name* (assoc-ref piece 'instrument))
-                            (*score-indent* (assoc-ref piece 'indent))
-                            (*tag-global* (assoc-ref piece 'tag-global))
-                            (*tag-notes* (assoc-ref piece 'tag-notes))
-                            (*figures* (assoc-ref piece 'figures))
-                            (*clef* (or (assoc-ref piece 'clef) (*clef*) "treble"))
-                            (*score-extra-music* (assoc-ref piece 'music)))
-               (include-part-score parser
-                                   name
-                                   (assoc-ref piece 'score)
-                                   (assoc-ref piece 'from-templates))))
-           (if allow-page-turn
-               (add-allow-page-turn parser)))
-         ;; conductor score
-         (if label
-             (include-score parser name label)
-             (include-score parser name))))
+   (if (eqv? #t (ly:get-option 'non-score-print))
+       (add-toplevel-markup parser name)
+       (parameterize ((*piece* name))
+         ;;(format #t "Reading ~a~%" name)
+         (if (*part*)
+             (begin ;; a part score
+               ;; Include the parts.ily file, describing
+               ;; the parts defined for this piece.
+               ;; It should contain a call to \piecePartSpec
+               ;; which set *piece-description*
+               (ly:parser-parse-string (ly:parser-clone parser)
+                                       (format #f "\\include \"~a\""
+                                               (include-pathname "parts")))
+               (let ((piece (*piece-description*)))
+                 (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
+                                (*note-filename* (assoc-ref piece 'notes))
+                                (*instrument-name* (assoc-ref piece 'instrument))
+                                (*score-indent* (assoc-ref piece 'indent))
+                                (*tag-global* (assoc-ref piece 'tag-global))
+                                (*tag-notes* (assoc-ref piece 'tag-notes))
+                                (*figures* (assoc-ref piece 'figures))
+                                (*clef* (or (assoc-ref piece 'clef) (*clef*) "treble"))
+                                (*score-extra-music* (assoc-ref piece 'music)))
+                   (include-part-score parser
+                                       name
+                                       (assoc-ref piece 'score)
+                                       (assoc-ref piece 'from-templates))))
+               (if allow-page-turn
+                   (add-allow-page-turn parser)))
+             ;; conductor score
+             (if label
+                 (include-score parser name label)
+                 (include-score parser name)))))
    (make-music 'Music 'void #t))
 
 includeScore =
