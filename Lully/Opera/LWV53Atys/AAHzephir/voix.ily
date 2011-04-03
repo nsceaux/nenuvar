@@ -15,4 +15,4 @@ si4 do'4. re'8 | % si4 do' re' |
 do'4\trill la si~ |
 si8 do' si4( la)\trill |
 sol2 re'4 |
-sol2. |
+sol2.

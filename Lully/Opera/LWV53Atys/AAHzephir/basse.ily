@@ -15,4 +15,4 @@ sol4 la si |
 fad2\trill sol4 |
 do re re, |
 sol,4 re re'8 do' | % sol, sol re'8 do' |
-sol,2. |
+sol,2.

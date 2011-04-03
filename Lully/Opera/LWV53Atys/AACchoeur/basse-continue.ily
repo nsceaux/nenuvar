@@ -33,9 +33,9 @@ do4 do'4. do'8 |
 fa4 fa fa |
 sib,2 sib,4 |
 fa2 re4 |
-sol sol la |
+sol2 la4 |
 sib2 sol4 |
-re'2 re8 re |
+re'2 re4 |
 sol2 mib4 |
 fa fa,2 |
 sib,4 sib4. sib8 |

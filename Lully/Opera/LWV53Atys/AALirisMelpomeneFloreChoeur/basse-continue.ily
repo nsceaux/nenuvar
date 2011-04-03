@@ -86,7 +86,8 @@ re~ |
 re~ |
 re~ |
 re2 re4 |
-sol2 sol4 |
+%sol2 sol4 |
+sol4. la8 si sol |
 do'2 do'4 |
 re'2 re4 |
 sol2 sol4 |

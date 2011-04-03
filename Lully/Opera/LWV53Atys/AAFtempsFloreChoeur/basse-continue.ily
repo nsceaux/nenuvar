@@ -48,8 +48,8 @@ r sib4. sib8 |
 la2\trill la4 |
 sol2.\trill |
 fa4 re4. re8 |
-sib4 sib sol |
-la la,2 |
+sib4 sib4. sol8 |
+la4 la,2 |
 re2 re4 |
 sol4 sol sol, | % sol2 sol,4 |
 do2. |
