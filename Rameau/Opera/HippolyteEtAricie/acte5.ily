@@ -5,35 +5,35 @@
   de la forêt d'Aricie.  On y voit Aricie couchée sur un lit de
   verdure.
 }
-\scene "Scène Première" "SCÈNE I : Aricie"
+\scene "Scène Première" "SCÈNE 1 : Aricie"
 \sceneDescription \markup \fill-line { \line { \smallCaps Aricie, seule. } }
-\pieceToc \markup { Aricie : \italic { Où suis-je ? de mes sens j’ai recouvré l’usage } }
+\pieceToc \markup { \smallCaps Aricie :
+  \italic { Où suis-je ? de mes sens j’ai recouvré l’usage } }
 \includeScore "EAAaricie"
-\pieceToc \markup { Aricie : \italic { Quels doux Concerts } }
+\pieceToc \markup { \smallCaps Aricie : \italic { Quels doux Concerts } }
 \includeScore "EABaricie"
 %%
 \scene "Scène II" \markup\wordwrap {
-  SCÈNE II : Diane, Aricie, bergers et bergères
+  SCÈNE 2 : Diane, Aricie, bergers et bergères
 }
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Diane, \smallCaps Aricie, troupe de bergers et de bergères.
 }
-\pieceToc \markup { Chœur, Aricie : \italic { Descendez, brillante immortelle } }
+\pieceToc \markup { \smallCaps { Chœur, Aricie : }
+  \italic { Descendez, brillante immortelle } }
 \includeScore "EBAchoeur"
 \includeScore "EBBaricie"
 \includeScore "EBCaricieChoeur"
-\pieceToc \markup { Diane : \italic { Peuples toujours soumis à mon obéissance } }
+\pieceToc \markup { \smallCaps Diane : \italic { Peuples toujours soumis à mon obéissance } }
 \includeScore "ECAdiane"
 %%
-\scene "Scène III" "SCÈNE III : Diane, Aricie"
-\sceneDescription \markup \wordwrap-center {
-  \smallCaps Diane seule.
-}
+\scene "Scène III" "SCÈNE 3 : Diane, Aricie"
+\sceneDescription \markup \wordwrap-center { \smallCaps Diane seule. }
 \pieceToc \markup { Diane }
 \includeScore "EDAdiane"
 %%
 \scene "Scène IV" \markup\wordwrap {
-  SCÈNE IV : Diane, Hippolyte, Aricie
+  SCÈNE 4 : Diane, Hippolyte, Aricie
 }
 \sceneDescription \markup \column {
   \fill-line { \line \smallCaps { Diane, Hippolyte, Aricie. } }
@@ -43,28 +43,28 @@
 \pieceTocTitle "Vol des Zéphirs"
 \includeScore "EEAritournelle"
 \pieceTocAndTitle \markup { DUO } \markup {
-  Hippolyte, Aricie : \italic { Aricie / Hippolyte est-ce vous que je vois. }
+  \smallCaps { Hippolyte, Aricie : } \italic { Aricie/Hippolyte est-ce vous que je vois }
 }
 \includeScore "EEBaricieHippolyte"
-\pieceToc \markup { Diane }
+\pieceToc \markup \smallCaps { Diane }
 \includeScore "EECdiane"
 \pieceTocTitle "Annonce"
 \includeScore "EEDannonce"
-\pieceToc \markup { Diane }
+\pieceToc \markup \smallCaps { Diane }
 \includeScore "EEEdiane"
 %%
 \scene "Scène V" \markup\wordwrap {
-  SCÈNE V : Diane, Hippolyte, habitants de la forêt d'Aricie
+  SCÈNE 5 : Diane, Hippolyte, habitants de la forêt d'Aricie
 }
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Diane, Hippolyte, Aricie, }
   habitants de la forêt d'Aricie et une bergère.
 }
-\pieceTocAndTitle \markup MARCHE \markup { Chœur : \italic { Chantons sur la Musette } }
+\pieceTocAndTitle \markup MARCHE \markup { \smallCaps Chœur : \italic { Chantons sur la Musette } }
 \includeScore "EFAmarcheChoeur"
 \pieceTocTitle "Rondeau"
 \includeScore "EFBrondeau"
-\pieceToc \markup { Un bergère : \italic { Plaisirs, doux Vainqueurs } }
+\pieceToc \markup { \smallCaps { Une bergère : } \italic { Plaisirs, doux vainqueurs } }
 \includeScore "EFCbergere"
 \pieceTocTitle "Premier menuet"
 \includeScore "EFDmenuet"
@@ -73,7 +73,7 @@
 \markup \title \fill-line {
   \line { On reprend le premier menuet page \page-refIII #'EFDmenuet . }
 }
-\pieceToc \markup { Diane }
+\pieceToc \markup \smallCaps { Diane }
 \includeScore "EFFdiane"
 \pieceTocTitle "Première gavotte"
 \includeScore "EFGgavotte"
@@ -82,7 +82,7 @@
 \markup \title \fill-line {
   \line { On reprend la première gavotte page \page-refIII #'EFGgavotte . }
 }
-\pieceToc \markup { Aricie ou une bergère : \italic { Rossignols amoureux, répondez à nos voix } }
+\pieceToc \markup { \smallCaps { Aricie ou une bergère : } \italic { Rossignols amoureux } }
 \includeScore "EFIariette"
 \pieceTocTitle "Chaconne"
 \includeScore "EFJchaconne"

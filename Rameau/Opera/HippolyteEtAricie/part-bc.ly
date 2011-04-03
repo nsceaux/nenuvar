@@ -368,7 +368,7 @@
   \sceneDescription \markup \wordwrap-center {
     \smallCaps Phèdre, troupe de chasseurs et de chasseresses.
   }
-  \pieceToc \markup { Phédre, chœur : \italic { Quelle plainte en ces lieux m’appelle } }
+  \pieceToc \markup { Phèdre, chœur : \italic { Quelle plainte en ces lieux m’appelle } }
   \includeScore "DDAphedreChoeur"
   \pieceTocTitle "Entr'acte"
   \includeScore "DDBentracte"

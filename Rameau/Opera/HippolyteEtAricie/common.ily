@@ -41,6 +41,11 @@
 \setOpus "Rameau/Opera/HippolyteEtAricie"
 \opusTitle "Hippolyte et Aricie"
 
+includeScore =
+#(define-music-function (parser location name) (string?)
+   (add-toplevel-markup parser name)
+   (make-music 'Music 'void #t))
+
 \opusPartSpecs #`(
   ;; fake parts, for defining defaults
   (dessus "" () (#:notes "dessus" #:tag-notes dessus))
