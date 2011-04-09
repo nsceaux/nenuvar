@@ -373,6 +373,7 @@ characterLayout = \layout {
   \context {
     \Staff
     \override Clef #'full-size-change = ##t
+    \remove "Bar_engraver"
   }
   \context {
     \Voice
@@ -398,21 +399,41 @@ characterAmbitus =
                                    'duration (ly:make-duration 2 0 1 1)
                                    'pitch high-pitch)))))
      #{ \new Staff {
-  \clef $clef1 $chord
+  \clef $clef1 s16 % $chord
   %\stopStaff s1 \startStaff
   \set Staff.forceClef = ##t
-  \clef $clef2 $chord
+  \clef $clef2 s8. $chord s2
 } #}))
 
 
 #(define-markup-command (character-ambitus layout props name ambitus)
      (markup? markup?)
-   (interpret-markup layout props
-                     (markup #:force-line-width-ratio 2/12
+   (stack-lines
+    DOWN 0 0
+    (list empty-stencil
+          (interpret-markup layout props
+                            (markup 
+                             #:force-line-width-ratio 2/12
                              #:vcenter #:fill-line (#:smallCaps name)
-                             #:vcenter #:left-align ambitus)))
+                             #:vcenter #:left-align ambitus)))))
 
-#(define-markup-command (character-columns layout props col1 col2)
+#(define-markup-command (character-two-columns layout props col1 col2)
      (markup? markup?)
-   (interpret-markup layout props
-                     (markup #:fill-line (#:concat (col1 #:hspace 10 col2)))))
+   #:properties ((word-space 0.6))
+   (interpret-markup
+    layout props
+    (markup (#:concat (#:force-line-width-ratio 1/12 #:null
+                                                #:override `(word-space . ,word-space) col1
+                                                #:hspace 10
+                                                #:override `(word-space . ,word-space) col2)))))
+
+#(define-markup-command (character-three-columns layout props col1 col2 col3)
+     (markup? markup? markup?)
+   #:properties ((word-space 0.6))
+   (interpret-markup
+    layout props
+    (markup (#:concat (#:override `(word-space . ,word-space) col1
+                                  #:hspace 7
+                                  #:override `(word-space . ,word-space) col2
+                                  #:hspace 7
+                                  #:override `(word-space . ,word-space) col3)))))

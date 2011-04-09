@@ -11,6 +11,12 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \markuplines \table-of-contents
 }
+%% Characters
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Lully/Opera/LWV53Atys/personnages.ily"
+}
+
 \include "Lully/Opera/LWV53Atys/0prologue.ily"
 \include "Lully/Opera/LWV53Atys/1acte1.ily"
 \include "Lully/Opera/LWV53Atys/2acte2.ily"
