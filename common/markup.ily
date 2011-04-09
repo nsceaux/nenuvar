@@ -339,3 +339,80 @@
     (if (string? text)
         (make-small-caps (string->list text) (list) #f (list))
         text)))
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Character lists, inline quoted scores, etc.
+
+startQuote =
+#(define-music-function (parser location bar-num) (number?)
+   #{ \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+      \bar ""
+      \set Score.currentBarNumber = #$bar-num #})
+
+quoteLayout = \layout {
+  indent = 0
+  ragged-right = ##t
+  \context { \Staff \remove "Time_signature_engraver" }
+}
+
+onlyNotesLayout = \layout {
+  indent = 0
+  \context {
+    \Staff
+    \remove "Time_signature_engraver"
+    \remove "Clef_engraver"
+    \remove "Staff_symbol_engraver"
+  }
+  \context { \Score \remove "Bar_number_engraver" }
+}
+
+characterLayout = \layout {
+  \quoteLayout
+  line-width = 18\mm
+  ragged-right = ##f
+  \context {
+    \Staff
+    \override Clef #'full-size-change = ##t
+  }
+  \context {
+    \Voice
+    \remove "Stem_engraver"
+  }
+}
+
+characterAmbitus =
+#(define-music-function (parser location clef1 clef2 low-note high-note)
+     (string? string? ly:music? ly:music?)
+   (let* ((low-pitch (ly:music-property (car (ly:music-property low-note 'elements))
+                                        'pitch))
+          (high-pitch (ly:music-property (car (ly:music-property high-note 'elements))
+                                         'pitch))
+          (chord (make-music
+                  'EventChord
+                  'elements (list (make-music
+                                   'NoteEvent
+                                   'duration (ly:make-duration 2 0 1 1)
+                                   'pitch low-pitch)
+                                  (make-music
+                                   'NoteEvent
+                                   'duration (ly:make-duration 2 0 1 1)
+                                   'pitch high-pitch)))))
+     #{ \new Staff {
+  \clef $clef1 $chord
+  %\stopStaff s1 \startStaff
+  \set Staff.forceClef = ##t
+  \clef $clef2 $chord
+} #}))
+
+
+#(define-markup-command (character-ambitus layout props name ambitus)
+     (markup? markup?)
+   (interpret-markup layout props
+                     (markup #:force-line-width-ratio 2/12
+                             #:vcenter #:fill-line (#:smallCaps name)
+                             #:vcenter #:left-align ambitus)))
+
+#(define-markup-command (character-columns layout props col1 col2)
+     (markup? markup?)
+   (interpret-markup layout props
+                     (markup #:fill-line (#:concat (col1 #:hspace 10 col2)))))
