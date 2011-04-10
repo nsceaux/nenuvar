@@ -179,6 +179,9 @@ $(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/MusiqueSacree/H13_Victimae,\
 basse-continue,,))
 $(eval $(call MAKE_SCORE_RULE,Charpentier/MusiqueSacree/H13_Victimae,-orig,-dancient-style,main))
 
+$(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/NoelsInstruments,,,))
+$(eval $(call MAKE_SCORE_RULE,Charpentier/NoelsInstruments,-urtext,-dancient-style,main))
+
 ### Haendel
 $(eval $(call MAKE_ALL_SCORE_RULES,Haendel/Opera/GiulioCesare,reduction,,))
 
