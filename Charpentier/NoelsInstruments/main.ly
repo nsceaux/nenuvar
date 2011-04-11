@@ -10,12 +10,12 @@
 
 \bookpart {
   \paper {
-    #(define original-page-number-table '((1  . "Vol. 15 p. 21-v")
-                                          (2  . "Vol. 15 p. 22-r")
-                                          (3  . "Vol. 15 p. 22-v")
-                                          (4  . "Vol. 15 p. 23-r")
-                                          (5  . "Vol. 15 p. 23-v")
-                                          (6  . "Vol. 15 p. 24-r")))
+    #(define original-page-number-table '((1  . "Vol. 5 p. 21-v")
+                                          (2  . "Vol. 5 p. 22-r")
+                                          (3  . "Vol. 5 p. 22-v")
+                                          (4  . "Vol. 5 p. 23-r")
+                                          (5  . "Vol. 5 p. 23-v")
+                                          (6  . "Vol. 5 p. 24-r")))
   }
   \markup \orig-version \vspace #40
   \pieceTocTitle "Les Bourgeois de Chastre"

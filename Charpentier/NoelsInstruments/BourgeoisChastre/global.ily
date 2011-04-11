@@ -1,24 +1,26 @@
 \keys sib \major
-\digitTime \time 2/2 \midiTempo #160
+\time 2/2 \midiTempo #180 \partial 8
 <<
-  {
-    \partial 8 s8 s1*32
-    \time 6/4 s1.*32
-    \digitTime \time 2/2
-    s2 s4. \bar "|."
-  }
+  { s8 \segnoMark s1*27 s2. \modVersion\fineMark
+    s4 s1*28 \modVersion\dalSegnoMark \bar "|." }
   \origVersion {
-    s8 \ru#7 { s1\noBreak } s1\break
-    \ru#7 { s1\noBreak } s1\pageBreak
-
+    s8\noBreak \ru#8 { s1\noBreak } s1\break
+    \ru#9 { s1\noBreak } s2 \bar "" \break
+    s2 \ru#7 { s1\noBreak } s1\break
     \ru#8 { s1\noBreak } s1\break
-    \ru#7 { s1\noBreak } s1.\break
-    \ru#5 { s1.\noBreak } s1.\break
-    \ru#5 { s1.\noBreak } s2. \bar "" \break
-    s2. \ru#3 { s1.\noBreak } s1.\pageBreak
-
-    \ru#4 { s1.\noBreak } s1.\break
-    \ru#4 { s1.\noBreak } s1.\break
-    \ru#5 { s1.\noBreak } s2 s4.
+    \ru#7 { s1\noBreak } s1\pageBreak
+    
+    \ru#8 { s1\noBreak } s2 \bar "" \break
+    s2\noBreak \ru#2 { s1\noBreak } s1
+    \once \override Score . RehearsalMark #'break-visibility = #begin-of-line-invisible
+    \once \override Score . RehearsalMark #'direction = #UP
+    \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
+    \mark \markup \line {
+      \musicglyph #"scripts.segno"
+      \column {
+        \line { Comme au commencement }
+        \line { jusque au trio }
+      }
+    }
   }
 >>
