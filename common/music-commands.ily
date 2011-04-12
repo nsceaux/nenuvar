@@ -55,6 +55,12 @@ setMusic =
    (ly:parser-define! parser sym music)
    (make-music 'Music 'void #t))
 
+%% Force clef printing, with full size
+forceFullClef = {
+  \set Staff.forceClef = ##t
+  \override Staff.Clef #'full-size-change = ##t
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Repeat with alternatives

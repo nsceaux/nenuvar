@@ -20,4 +20,6 @@
   \markup \orig-version \vspace #40
   \pieceTocTitle "Les Bourgeois de Chastre"
   \includeScore "BourgeoisChastre"
+  \pieceTocTitle "Ou s'en vont ces guays bergers"
+  \includeScore "GaisBergers"
 }

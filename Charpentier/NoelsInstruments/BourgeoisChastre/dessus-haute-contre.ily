@@ -149,15 +149,10 @@
   \tag #'haute-contre { \clef "haute-contre" \debutHauteContre |
     R1*27 | r2 r4 r8 re' | }
   \tag #'haute-contre-conducteur {
-    \clef "haute-contre"
-    \debutHauteContre
-    \set Staff.forceClef = ##t
-    \override Staff.Clef #'full-size-change = ##t
-    \clef "dessus"
-    \finDessusII
-    \set Staff.forceClef = ##t
-    \override Staff.Clef #'full-size-change = ##t
-    \clef "haute-contre" re'8_\markup\orig-version\whiteout\general-align #X #0 Tous
+    \clef "haute-contre" \debutHauteContre
+    \forceFullClef \clef "dessus" \finDessusII
+    \forceFullClef \clef "haute-contre" re'8
+    _\markup\orig-version\whiteout\general-align #X #0 Tous
     ^\markup\mod-version\whiteout\general-align #X #0 "h-c."
   }
 >>
