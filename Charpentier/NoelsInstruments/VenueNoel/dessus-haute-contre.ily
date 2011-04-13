@@ -157,7 +157,7 @@
     mi''8
     _\markup\orig-version\whiteout "Sd violon et flûte seuls"
     ^\markup\mod-version\whiteout { \concat { 2 \super e } violon et flûte seuls }
-    re'' mi'' fa'' |
+    re'' mi'' fa'' |\modVersion\noBreak
     mi'' fa'' mi'' re'' do'' si' do'' re'' |
     do'' re'' do'' si' la'4 sold' |
     la'8
@@ -177,7 +177,7 @@
   \setMusic #'JdessusI {
     la''8_\markup\orig-version\whiteout "Pr violon et flûte seuls"
     ^\markup\mod-version\whiteout { \concat { 1 \super ers } violon et flûte seuls }
-    sol'' la'' sib'' |
+    sol'' la'' sib'' |\modVersion\noBreak
     la''4. sol''8 fa''4\prall mi'' |
     re''2
   }
@@ -185,7 +185,7 @@
     fa''8
     _\markup\orig-version\whiteout "Sd violon et flûte seuls"
     ^\markup\mod-version\whiteout { \concat { 2 \super e } violon et flûte seuls }
-    mi'' fa'' sol'' |
+    mi'' fa'' sol'' |\modVersion\noBreak
     fa''4. mi''8 re''4 dod'' |
     re''2
   }

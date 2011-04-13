@@ -21,8 +21,8 @@
 }
 
 %% Use rehearsal numbers in parts
-#(if (symbol? (ly:get-option 'part))
-     (ly:set-option 'use-rehearsal-numbers #t))
+%#(if (symbol? (ly:get-option 'part))
+%     (ly:set-option 'use-rehearsal-numbers #t))
 
 %% No incipits for parts
 #(ly:set-option 'non-incipit (not (not (ly:get-option 'part))))

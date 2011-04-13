@@ -1,9 +1,11 @@
+#(ly:set-option 'use-rehearsal-numbers #f)
 \header {
   %title = "Noëls sur les instruments"
   opus = "H.534"
   composer = "Marc-Antoine Charpentier"
   copyrightYear = "2011"
 }
+
 
 \include "Charpentier/MusiqueSacree/common.ily"
 \setOpus "Charpentier/NoelsInstruments"
@@ -61,3 +63,15 @@
     }
   }
 }
+
+\opusPartSpecs
+#`((dessus1 "Premiers dessus de violons et flûtes" ()
+           (#:notes "dessus" #:tag-notes dessus1 #:clef "treble"))
+   (dessus2 "Seconds dessus de violons et flûtes" ()
+            (#:notes "dessus" #:tag-notes dessus2 #:clef "treble"))
+   (haute-contre "Haute-contre" ()
+                 (#:notes "haute-contre" #:tag-notes haute-contre #:clef "treble"))
+   (taille "Taille" ()
+           (#:notes "taille" #:clef "alto"))
+   (basse "Basses" ()
+          (#:notes "basse" #:clef "basse" #:score-template "score-basse-continue2")))

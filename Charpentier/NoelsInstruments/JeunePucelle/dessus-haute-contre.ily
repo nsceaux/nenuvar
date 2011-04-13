@@ -59,7 +59,8 @@
   \setMusic #'BdessusI {
     r4 |
     r2 r4 la'_\markup\orig-version\whiteout "Pr violon seul"
-    ^\markup\mod-version\whiteout { \concat { 1 \super er } violon seul } |
+    ^\markup\mod-version\whiteout { \concat { 1 \super er } violon seul }
+    \modVersion\noBreak |
     re'' mi'' fa''8 mi'' fa'' sol'' |
     mi''2\prall re''4 dod'' |
     re''2 mi'' |
@@ -133,6 +134,7 @@
   \setMusic #'FdessusI {
     mi''4_\markup\orig-version\whiteout "Pr violon seul"
     ^\markup\mod-version\whiteout { \concat { 1 \super er } violon seul } |
+    \modVersion\noBreak
     fa''4. mi''8 re'' mi'' fa''4 |
     mi''4.\prall re''8 dod''4 la'4_\markup\orig-version\whiteout "Pr flûte seule"
     ^\markup\mod-version\whiteout { \concat { 1 \super ère } flûte seule } |
