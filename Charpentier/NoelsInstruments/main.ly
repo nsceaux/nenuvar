@@ -28,4 +28,6 @@
   \includeScore "DitesMarie"
   \pieceTocTitle "À la venue de Noël"
   \includeScore "VenueNoel"
+  \pieceTocTitle "Une jeune pucelle"
+  \includeScore "JeunePucelle"
 }
