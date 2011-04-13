@@ -2,10 +2,10 @@
   \new StaffGroup <<
     \modVersion \new GrandStaff <<
       \new Staff <<
-        \instrumentName \markup \center-column { "Flûtes I" "Violons I" }
+        \instrumentName \markup { \concat { 1 \super ers } dessus }
         \global \keepWithTag #'dessus1 \includeNotes "dessus-haute-contre" >>
       \new Staff <<
-        \instrumentName \markup \center-column { "Flûtes II" "Violons II" }
+        \instrumentName \markup { \concat { 2 \super e } dessus }
         \global \keepWithTag #'dessus2 \includeNotes "dessus-haute-contre" >>
     >>
     \origVersion \new Staff <<

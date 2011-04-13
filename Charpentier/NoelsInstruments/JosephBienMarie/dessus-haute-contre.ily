@@ -25,7 +25,7 @@
   \setMusic #'BdessusI {
     r2 |
     R1 |
-    r2 la''4_\markup\orig-version\whiteout { Pr fl et vion seul }
+    r2 la''4_\markup\orig-version\whiteout { Pr flûte et violon seuls }
     ^\markup\mod-version\whiteout { \concat { 1 \super ers } flûte et violon seuls } la'' |
     fa'' la'' sol'' fa'' |
     mi''\prall re'' re'' re'' |
@@ -35,7 +35,7 @@
     re''2
   }
   \setMusic #'BdessusII {
-    la''4_\markup\orig-version\whiteout { Sd fl et vion seul }
+    la''4_\markup\orig-version\whiteout { Sd flûte et violon seuls }
     ^\markup\mod-version\whiteout { \concat { 2 \super e } flûte et violon seuls } la'' |
     fa'' la'' sol'' fa'' |
     mi''\prall re'' fa'' fa'' |
@@ -73,7 +73,7 @@
   }
 
   \setMusic #'DdessusI {
-    la'4_\markup\orig-version\whiteout { Pr fl et vion seul }
+    la'4_\markup\orig-version\whiteout { Pr flûte et violon seuls }
     ^\markup\mod-version\whiteout { \concat { 1 \super ers } flûte et violon seuls } re'' |
     \modVersion\noBreak
     dod'' la' re'' mi'' |
@@ -82,7 +82,7 @@
     re''2
   }
   \setMusic #'DdessusII {
-    fa'4_\markup\orig-version\whiteout { Sd fl et vion seul }
+    fa'4_\markup\orig-version\whiteout { Sd flûte et violon seuls }
     ^\markup\mod-version\whiteout { \concat { 2 \super e } flûte et violon seuls } fa' |
     sol' la' si' dod'' |
     re'' la' sol' la' |
@@ -104,14 +104,14 @@
   }
   
   \setMusic #'FdessusI {
-    la''4_\markup\orig-version\whiteout { Pr fl et vion seul }
+    la''4_\markup\orig-version\whiteout { Pr flûte et violon seuls }
     ^\markup\mod-version\whiteout { \concat { 1 \super ers } flûte et violon seuls } la'' |
     \modVersion\noBreak
     fa'' la'' sol'' fa'' |
     mi''\prall re''
   }
   \setMusic #'FdessusII {
-    mi''4_\markup\orig-version\whiteout { Sd fl et vion seul }
+    mi''4_\markup\orig-version\whiteout { Sd flûte et violon seuls }
     ^\markup\mod-version\whiteout { \concat { 2 \super e } flûte et violon seuls } mi'' |
     la' la' sol' la' |
     sib' la'
@@ -131,13 +131,13 @@
   }
 
   \setMusic #'HdessusI {
-    sol''4_\markup\orig-version\whiteout { Pr fl et vion seul }
+    sol''4_\markup\orig-version\whiteout { Pr flûte et violon seuls }
     ^\markup\mod-version\whiteout { \concat { 1 \super ers } flûte et violon seuls } fa'' |
     mi'' re'' mi'' dod'' |
     re''2\trill
   }
   \setMusic #'HdessusII {
-    sol'4_\markup\orig-version\whiteout { Sd fl et vion seul }
+    sol'4_\markup\orig-version\whiteout { Sd flûte et violon seuls }
     ^\markup\mod-version\whiteout { \concat { 2 \super e } flûte et violon seuls } la' sib' la' sol' la' |
     fa' fa''
   }

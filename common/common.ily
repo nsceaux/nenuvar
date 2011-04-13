@@ -31,6 +31,7 @@
   maintainerWeb = "http://nicolas.sceaux.free.fr"
   copyright = \markup \copyright
   longcopyright = \markup \column {
+    \vspace #1
     \fill-line { \copyright }
     \fill-line { "Licensed under the Creative Commons Attribution 3.0 License" }
   }

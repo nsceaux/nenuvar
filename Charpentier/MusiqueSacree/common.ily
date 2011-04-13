@@ -44,7 +44,7 @@
 
 %%% Titling
 \paper {
-  bookTitleMarkup = \markup \abs-fontsize #12 \column {
+  bookTitleMarkup = \markup \when-property #'header:title \abs-fontsize #12 \column {
     \column {
       \fontsize #1 \bold \fill-line { \fromproperty #'header:title }
       \null
@@ -69,8 +69,8 @@ pieceTocTitle =
       (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
           (markup #:rehearsal-number rehearsal
                   #:hspace 1
-                  #:huge title)
-          (markup #:fill-line (#:huge title))))
+                  #:fontsize 3 title)
+          (markup #:fill-line (#:fontsize 3 title))))
     (add-no-page-break parser)
     (make-music 'Music 'void #t)))
 
@@ -79,10 +79,17 @@ trill = #(make-articulation "stopped")
 
 %% In urtext version, add original manuscript page numbers in page header
 #(define-markup-command (page-header layout props text) (markup?)
-   (let* ((page-number (chain-assoc-get 'page:page-number props -1))
+   (define (ancestor layout)
+     "Return the topmost layout ancestor"
+     (let ((parent (ly:output-def-parent layout)))
+       (if (not (ly:output-def? parent))
+           layout
+           (ancestor parent))))
+   (let* ((first-page-number (ly:output-def-lookup (ancestor layout) 'first-page-number))
+          (page-number (chain-assoc-get 'page:page-number props -1))
           (page-number-markup (number->string page-number))
           (text-markup (markup #:italic (or text "")))
-          (part-page-number (1+ (- page-number (ly:output-def-lookup layout 'first-page-number))))
+          (part-page-number (1+ (- page-number first-page-number)))
           (orig-page-number-table (ly:output-def-lookup layout 'original-page-number-table '()))
           (orig-page-number-markup (if (eqv? #t (ly:get-option 'ancient-style))
                                        (let ((num-text (assoc part-page-number orig-page-number-table)))

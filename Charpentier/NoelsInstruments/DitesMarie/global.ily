@@ -11,7 +11,9 @@
   \modVersion {
     s1. \segnoMark s1.*25 s1
     %\dacapoOverrides \mark \markup \right-align \italic (Fin.)
-    s2 s1.*33 \override Score.RehearsalMark #'font-size = #1 \dalSegnoMark \bar "|."
+    s2 s1.*33
+    \dacapoOverrides \mark \markup \musicglyph #"scripts.segno"
+    \bar "|."
   }
   \origVersion {
     \ru#9 { s1.\noBreak } s1.\break

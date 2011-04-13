@@ -1,26 +1,33 @@
 \score {
   \new StaffGroup <<
-    \new Staff <<
-      \modVersion \instrumentName \markup \center-column { Flûtes Violons }
-      \origVersion \instrumentName "Tous" 
+    \modVersion \new GrandStaff <<
+      \new Staff <<
+        \instrumentName \markup "Dessus"
+        \global \keepWithTag #'dessus1 \includeNotes "dessus-haute-contre" >>
+      \newHaraKiriStaffB <<
+        { \startHaraKiri s8 s1*27\break \stopHaraKiri }
+        \global \keepWithTag #'dessus2 \includeNotes "dessus-haute-contre" >>
+    >>
+    \origVersion \new Staff <<
       \global \keepWithTag #'dessus1 \includeNotes "dessus-haute-contre" >>
-    \new Staff <<
+    \modVersion \new Staff <<
       \modVersion \instrumentName "Haute-contres"
-      \origVersion \instrumentName "Tous"
-      \global \keepWithTag #'haute-contre-conducteur \includeNotes "dessus-haute-contre" >>
+      \global \keepWithTag #'haute-contre \includeNotes "dessus-haute-contre" >>
+    \origVersion \new Staff <<
+      \global \keepWithTag #'haute-contre-dessus2 \includeNotes "dessus-haute-contre" >>
     \new Staff <<
       \modVersion \instrumentName "Tailles"
-      \origVersion \instrumentName "Tous" 
       \global \includeNotes "taille" >>
     \new Staff <<
       \modVersion \instrumentName "Basses"
-      \origVersion \instrumentName "Tous" 
       \global \includeNotes "basse"
       \new FiguredBass \includeFigures "chiffres" >>
   >>
   \layout {
     ragged-last = #(eqv? (ly:get-option 'ancient-style) #t)
-    indent = \largeindent
+    indent = #(if (eqv? (ly:get-option 'ancient-style) #t)
+                  (* 10 mm)
+                  largeindent)
   }
   \midi { }
 }
