@@ -1,6 +1,9 @@
 \include "Charpentier/NoelsInstruments/common.ily"
 
-\header { title = "Noëls sur les instruments" }
+\header {
+  title = "Noëls sur les instruments"
+  instrument = #(*part-name*)
+}
 \pieceTocTitle "Les Bourgeois de Châtre"
 \includeScore "BourgeoisChastre"
 \pieceTocTitle "Où s'en vont ces gais bergers"

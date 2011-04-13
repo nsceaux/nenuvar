@@ -65,9 +65,9 @@
 }
 
 \opusPartSpecs
-#`((dessus1 "Premiers dessus de violons et flûtes" ()
+#`((dessus1 ,(markup #:concat ("1" #:super "er") "dessus") ()
            (#:notes "dessus" #:tag-notes dessus1 #:clef "treble"))
-   (dessus2 "Seconds dessus de violons et flûtes" ()
+   (dessus2 ,(markup #:concat ("2" #:super "e") "dessus") ()
             (#:notes "dessus" #:tag-notes dessus2 #:clef "treble"))
    (haute-contre "Haute-contre" ()
                  (#:notes "haute-contre" #:tag-notes haute-contre #:clef "treble"))
