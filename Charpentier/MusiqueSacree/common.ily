@@ -42,6 +42,7 @@
 \include "italiano.ly"
 \include "common/common.ily"
 
+%%% Titling
 \paper {
   bookTitleMarkup = \markup \abs-fontsize #12 \column {
     \column {
@@ -57,6 +58,23 @@
   }
 }
 
+pieceTocTitle =
+#(define-music-function (parser location title) (string?)
+  (let ((rehearsal (rehearsal-number)))
+    (add-toc-item parser 'tocPieceMarkup
+      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+          (markup #:rehearsal-number-toc rehearsal title)
+          title))
+    (add-toplevel-markup parser 
+      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+          (markup #:rehearsal-number rehearsal
+                  #:hspace 1
+                  #:huge title)
+          (markup #:fill-line (#:huge title))))
+    (add-no-page-break parser)
+    (make-music 'Music 'void #t)))
+
+%%%
 trill = #(make-articulation "stopped")
 
 %% In urtext version, add original manuscript page numbers in page header

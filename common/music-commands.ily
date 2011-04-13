@@ -217,10 +217,12 @@ figExtOff = \bassFigureExtendersOff
 figPosOn = {
   \bassFigureExtendersOn
   \override BassFigureContinuation #'stencil = ##f
+  \override Staff.BassFigureContinuation #'stencil = ##f
 }
 figPosOff = {
   \bassFigureExtendersOff
   \revert BassFigureContinuation #'stencil
+  \revert Staff.BassFigureContinuation #'stencil
 }
 
 %%%

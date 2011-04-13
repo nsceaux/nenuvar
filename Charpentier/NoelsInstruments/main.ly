@@ -22,4 +22,8 @@
   \includeScore "BourgeoisChastre"
   \pieceTocTitle "Ou s'en vont ces guays bergers"
   \includeScore "GaisBergers"
+  \pieceTocTitle "Joseph est bien marié"
+  \includeScore "JosephBienMarie"
+  \pieceTocTitle "Or nous dites Marie"
+  \includeScore "DitesMarie"
 }
