@@ -26,4 +26,6 @@
   \includeScore "JosephBienMarie"
   \pieceTocTitle "Or nous dites Marie"
   \includeScore "DitesMarie"
+  \pieceTocTitle "À la venue de Noël"
+  \includeScore "VenueNoel"
 }
