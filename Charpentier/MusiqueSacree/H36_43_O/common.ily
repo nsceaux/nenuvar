@@ -2,6 +2,11 @@
 \setOpus "Charpentier/MusiqueSacree/H36_43_O"
 
 \header {
+  opus = "H.36-43"
+  composer = "Marc-Antoine Charpentier"
+}
+
+\header {
   maintainer = \markup { Nicolas Sceaux, Sébastien Amadieu,
     \with-url #"http://www.precipitations.com" \smallCaps Précipitations }
   tagline = \markup {
