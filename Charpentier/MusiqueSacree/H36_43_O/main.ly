@@ -10,3 +10,5 @@
 \includeScore "OSalutaris"
 \pieceTocTitle "Premier O : O Sapienta"
 \includeScore "OSapientia"
+\pieceTocTitle "Deuxième O : O Adonaï"
+\includeScore "OAdonai"

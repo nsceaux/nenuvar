@@ -41,3 +41,5 @@
 
 \pieceTocTitle "Premier O"
 \includeScore "OSapientia"
+\pieceTocTitle "Deuxième O"
+\includeScore "OAdonai"
