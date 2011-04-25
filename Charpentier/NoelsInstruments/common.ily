@@ -96,7 +96,7 @@ dans le manuscrit.
    ;                       #:clef "treble"))
    (dessus2 ,(markup #:concat ("2" #:super "e") "dessus") ()
             (#:notes "dessus"
-                     #:tag-notes dessus2-haute-contre
+                     #:tag-notes haute-contre-dessus2
                      #:clef "treble"))
    (taille "Taille" ()
            (#:notes "taille" #:clef "alto"))
