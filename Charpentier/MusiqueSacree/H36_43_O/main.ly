@@ -16,3 +16,5 @@
 \includeScore "ORadix"
 \pieceTocTitle "Quatrième O : O Clavis David"
 \includeScore "OClavis"
+\pieceTocTitle "Cinquième O : O Oriens"
+\includeScore "OOriens"

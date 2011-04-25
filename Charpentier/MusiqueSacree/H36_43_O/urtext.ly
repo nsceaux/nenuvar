@@ -47,3 +47,5 @@
 \includeScore "ORadix"
 \pieceTocTitle "Quatrième O"
 \includeScore "OClavis"
+\pieceTocTitle "Cinquième O"
+\includeScore "OOriens"
