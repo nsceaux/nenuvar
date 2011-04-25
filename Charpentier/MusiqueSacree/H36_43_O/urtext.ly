@@ -43,3 +43,5 @@
 \includeScore "OSapientia"
 \pieceTocTitle "Deuxième O"
 \includeScore "OAdonai"
+\pieceTocTitle "Troisième O"
+\includeScore "ORadix"

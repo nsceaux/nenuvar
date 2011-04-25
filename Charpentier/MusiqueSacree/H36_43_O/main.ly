@@ -12,3 +12,5 @@
 \includeScore "OSapientia"
 \pieceTocTitle "Deuxième O : O Adonaï"
 \includeScore "OAdonai"
+\pieceTocTitle "Troisème O : O Radix Iesse"
+\includeScore "ORadix"
