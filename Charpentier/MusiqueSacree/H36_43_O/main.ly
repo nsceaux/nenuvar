@@ -14,3 +14,5 @@
 \includeScore "OAdonai"
 \pieceTocTitle "Troisème O : O Radix Iesse"
 \includeScore "ORadix"
+\pieceTocTitle "Quatrième O : O Clavis David"
+\includeScore "OClavis"

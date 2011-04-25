@@ -5,7 +5,7 @@
     \time 2/2 s1*26
     \modVersion \tempo "Gai"
     \origVersion \tempo "guay"
-    \time 3/4 s2.*36 \bar "|."
+    \digitTime\time 3/4 s2.*36 \bar "|."
   }
   \origVersion {
     \override Score.NonMusicalPaperColumn #'line-break-permission = ##f
