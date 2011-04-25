@@ -68,4 +68,7 @@ do''1. |
 sib' |
 la'~ |
 la'8*2 sib' la'2. la'8*2 |
-la'1 \modVersion { r2 | }
+<<
+  \origVersion la'1
+  \modVersion { la'1 r2 | la'1 }
+>>

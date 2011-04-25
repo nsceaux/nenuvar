@@ -75,7 +75,8 @@
   }
   \setMusic #'BdessusII {
     la'4_\markup\orig-version\whiteout "Sd violon seul"
-    ^\markup\mod-version\whiteout { \concat { 2 \super e } violon seul } |
+    ^\markup\mod-version\whiteout { \concat { 2 \super e } violon seul }
+    \modVersion\noBreak |
     re'' mi'' fa'' fa''~ |
     fa'' mi'' re''8 dod'' re'' mi'' |
     dod''2 re''4 mi'' |
@@ -98,7 +99,8 @@
     fa''2 -\tag #'dessus1 ~
   }
   \setMusic #'Chc {
-    do''2_\markup\orig-version\whiteout "tous" ~ |
+    do''2_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version\whiteout "Tous" ~ |
     do'' do''4 do'' |
     do''2
   }
@@ -126,7 +128,8 @@
     sol''4.\prall fa''8 mi''4
   }
   \setMusic #'Ehc {
-    sol'4_\markup\orig-version\whiteout "tous" |
+    sol'4_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version\whiteout "Tous" |
     la' la' la'8 sib' do''4 |
     sib'4.\prall la'8 sol'4
   }
@@ -168,7 +171,8 @@
   }
   \setMusic #'Ghc {
     r2 |
-    do''2_\markup\orig-version\whiteout "tous" do''4 do''8 sib' |
+    do''2_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version\whiteout "Tous" do''4 do''8 sib' |
     la'4. sol'8 fa'4 sol' |
     la'8 sib' do''4 do'' do'' |
     sib'8 do'' re''4 do'' do'' |
@@ -189,11 +193,11 @@
   }
   \tag #'haute-contre-dessus2 {
     \Ahc
-    \forceFullClef \clef "dessus" \BdessusII
-    \forceFullClef \clef "haute-contre" \Chc
-    \forceFullClef \clef "dessus" \DdessusII
-    \forceFullClef \clef "haute-contre" \Ehc
-    \forceFullClef \clef "dessus" \FdessusII
-    \forceFullClef \clef "haute-contre" \Ghc
+    \fullClef \clef "dessus" \BdessusII
+    \fullClef \clef "haute-contre" \Chc
+    \fullClef \clef "dessus" \DdessusII
+    \fullClef \clef "haute-contre" \Ehc
+    \fullClef \clef "dessus" \FdessusII
+    \fullClef \clef "haute-contre" \Ghc
   }
 >>

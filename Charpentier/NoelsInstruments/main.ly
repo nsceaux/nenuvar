@@ -4,8 +4,6 @@
   \header { title = "Noëls sur les instruments" }
   \pieceTocTitle "Les Bourgeois de Châtre"
   \includeScore "BourgeoisChastre"
-}
-\bookpart {
   \pieceTocTitle "Où s'en vont ces gais bergers"
   \includeScore "GaisBergers"
 }

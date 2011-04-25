@@ -61,6 +61,9 @@ forceFullClef = {
   \override Staff.Clef #'full-size-change = ##t
 }
 
+%% Print clef in full size
+fullClef = \override Staff.Clef #'full-size-change = ##t
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Repeat with alternatives

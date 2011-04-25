@@ -183,7 +183,7 @@ basse-continue,,))
 $(eval $(call MAKE_SCORE_RULE,Charpentier/MusiqueSacree/H13_Victimae,-orig,-dancient-style,main))
 
 $(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/NoelsInstruments,\
-dessus1 dessus2 haute-contre taille basse,,))
+dessus1 dessus2 taille basse,,))
 $(eval $(call MAKE_SCORE_RULE,Charpentier/NoelsInstruments,-urtext,-dancient-style,urtext))
 
 ### Haendel

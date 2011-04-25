@@ -1,25 +1,28 @@
 \score {
   \new StaffGroup <<
-    \modVersion \new GrandStaff <<
+    %{\modVersion <<
+      \new GrandStaff <<
+        \new Staff <<
+          \instrumentName \markup "Dessus"
+          \global \keepWithTag #'dessus1 \includeNotes "dessus-haute-contre" >>
+        \new Staff <<
+          \global \keepWithTag #'dessus2 \includeNotes "dessus-haute-contre" >>
+      >>
       \new Staff <<
-        \instrumentName \markup { \concat { 1 \super ers } dessus }
+        \instrumentName "Haute-contres"
+        \global \keepWithTag #'haute-contre \includeNotes "dessus-haute-contre" >>
+    >>%}
+    %\origVersion <<
+      \new Staff <<
         \global \keepWithTag #'dessus1 \includeNotes "dessus-haute-contre" >>
       \new Staff <<
-        \instrumentName \markup { \concat { 2 \super e } dessus }
-        \global \keepWithTag #'dessus2 \includeNotes "dessus-haute-contre" >>
-    >>
-    \origVersion \new Staff <<
-      \global \keepWithTag #'dessus1-conducteur \includeNotes "dessus-haute-contre" >>
-    \modVersion \new Staff <<
-      \modVersion \instrumentName "Haute-contres"
-      \global \keepWithTag #'haute-contre \includeNotes "dessus-haute-contre" >>
-    \origVersion \new Staff <<
-      \global \keepWithTag #'haute-contre-dessus2 \includeNotes "dessus-haute-contre" >>
+        \global \keepWithTag #'haute-contre-dessus2 \includeNotes "dessus-haute-contre" >>
+    %>>
     \new Staff <<
-      \modVersion \instrumentName "Tailles"
+      %\modVersion \instrumentName "Tailles"
       \global \includeNotes "taille" >>
     \new Staff <<
-      \modVersion \instrumentName "Basses"
+      %\modVersion \instrumentName "Basses"
       \global \includeNotes "basse"
       \modVersion \new FiguredBass \includeFigures "chiffres"
       \origVersion \includeFigures "chiffres"
@@ -27,9 +30,9 @@
   >>
   \layout {
     ragged-last = #(eqv? (ly:get-option 'ancient-style) #t)
-    indent = #(if (eqv? (ly:get-option 'ancient-style) #t)
-                  (* 10 mm)
-                  largeindent)
+    %indent = #(if (eqv? (ly:get-option 'ancient-style) #t)
+    %              (* 10 mm)
+    %              largeindent)
   }
   \midi { }
 }

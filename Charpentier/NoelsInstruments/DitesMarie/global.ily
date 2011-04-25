@@ -9,11 +9,10 @@
      (select-head-glyph style duration-log)))
 <<
   \modVersion {
-    s1. \segnoMark s1.*25 s1
+    s1. \bar "|:" s1.*25 s1
     %\dacapoOverrides \mark \markup \right-align \italic (Fin.)
-    s2 s1.*33
-    \dacapoOverrides \mark \markup \musicglyph #"scripts.segno"
-    \bar "|."
+    s2 s1.*32
+    \alternatives s1. { s1 \bar "|." }
   }
   \origVersion {
     \ru#9 { s1.\noBreak } s1.\break

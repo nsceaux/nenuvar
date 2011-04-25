@@ -76,5 +76,11 @@ fa2. mi8*2 fa2 |
 sol1.~ |
 sol2 la8*2 sol fa mi |
 re sol, la,1 |
-\origVersion { re1 }
-\modVersion { re1.*2/3~ \hideNotes re2 | }
+<<
+  \origVersion { re1 }
+  \modVersion {
+    re1~ re2*3/4^\markup\mod-version\whiteout\center-align "acc seul" ~
+    \hideNotes re8 \unHideNotes |
+    re1
+  }
+>>

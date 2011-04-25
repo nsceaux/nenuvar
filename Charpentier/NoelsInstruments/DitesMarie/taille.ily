@@ -68,4 +68,7 @@ la'2. sol'8*2 fa' mi' |
 re'2 mi'8*2 fa' sol' fa' |
 mi'2 mi' re'8*2 dod' |
 re' mi' dod'2 re'8*2 mi' |
-fa'1 \modVersion { r2 | }
+<<
+  \origVersion fa'1
+  \modVersion { fa'1 r2 | fa'1 }
+>>

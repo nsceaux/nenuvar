@@ -41,7 +41,8 @@
     re''
   }
   \setMusic #'Chc {
-    dod''4_\markup\orig-version\whiteout "tous" re'' |
+    dod''4_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version "Tous" re'' |
     dod'' si' mi' mi' |
     fad' si' dod'' re'' |
     dod'' re'' dod''2\prall |
@@ -75,7 +76,8 @@
     re''2._\markup\orig-version\whiteout\center-align "guay"
   }
   \setMusic #'Ehc {
-    dod''4_\markup\orig-version\whiteout "tous" re'' |
+    dod''4_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version "Tous" re'' |
     dod'' si' dod''8 si' la' mi' |
     fad'4 fad''8 mi'' re''4 re'' |
     si'8 dod'' re'' si' la'2 |
@@ -118,7 +120,8 @@
     mi''2. |
   }
   \setMusic #'Ghc {
-    re''4_\markup\orig-version\whiteout "tous" dod'' re'' |
+    re''4_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version "Tous" dod'' re'' |
     si' dod'' dod'' |
     re''8 dod'' re'' mi'' re'' mi'' |
     dod''4 si' dod'' |
@@ -152,7 +155,8 @@
     re''2. |
   }
   \setMusic #'Ihc {
-    dod''4_\markup\orig-version\whiteout "tous" dod'' re'' |
+    dod''4_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version "Tous" dod'' re'' |
     si'4. dod''8 re''4 |
     si' la'2 |
     la'2. |
@@ -194,7 +198,8 @@
     re''2
   }
   \setMusic #'Khc {
-    dod''4_\markup\orig-version\whiteout "tous" dod'' re'' |
+    dod''4_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version "Tous" dod'' re'' |
     dod'' re''8 dod'' si' la' |
     sol'2 sol'4 |
     fad' mi' la'~ |
@@ -216,15 +221,15 @@
   }
   \tag #'haute-contre-dessus2 {
     \Ahc
-    \forceFullClef \clef "dessus" \BdessusII
-    \forceFullClef \clef "haute-contre" \Chc
-    \forceFullClef \clef "dessus" \DdessusII
-    \forceFullClef \clef "haute-contre" \Ehc
-    \forceFullClef \clef "dessus" \FdessusII
-    \forceFullClef \clef "haute-contre" \Ghc
-    \forceFullClef \clef "dessus" \HdessusII
-    \forceFullClef \clef "haute-contre" \Ihc
-    \forceFullClef \clef "dessus" \JdessusII
-    \forceFullClef \clef "haute-contre" \Khc
+    \fullClef \clef "dessus" \BdessusII
+    \fullClef \clef "haute-contre" \Chc
+    \fullClef \clef "dessus" \DdessusII
+    \fullClef \clef "haute-contre" \Ehc
+    \fullClef \clef "dessus" \FdessusII
+    \fullClef \clef "haute-contre" \Ghc
+    \fullClef \clef "dessus" \HdessusII
+    \fullClef \clef "haute-contre" \Ihc
+    \fullClef \clef "dessus" \JdessusII
+    \fullClef \clef "haute-contre" \Khc
   }
 >>

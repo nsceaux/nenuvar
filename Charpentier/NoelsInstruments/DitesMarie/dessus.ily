@@ -61,8 +61,8 @@ fa''1. |
 sol''2 mi'' fa'' |
 re''1 r2 |
 r r <<
-  \origVersion re''_\markup\whiteout "tous fort"
-  \modVersion re''^\markup\center-align "Tous" \f >> |
+  \origVersion re''_\markup\whiteout "tous fort"^"sans cornet"
+  \modVersion re''^\markup "Tous sans cornet" \f >> |
 mi''1. |
 dod''8*2 mi'' re'' fa'' mi'' sol'' |
 fa''1 mi''2 |
@@ -87,4 +87,7 @@ fa''2. sol''8*2 la''2 |
 sib''8*2 la'' sol'' fa'' mi'' re'' |
 dod''2 dod'' la''8*2 sol'' |
 fa'' mi'' mi''2.\prall re''8*2 |
-re''1 \modVersion { re''2 | }
+<<
+  \origVersion re''1
+  \modVersion { re''1 re''2 | re''1 }
+>>

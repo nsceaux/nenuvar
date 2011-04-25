@@ -61,7 +61,8 @@
     re''2
   }
   \setMusic #'Chc {
-    re''4_\markup\orig-version\whiteout "tous" re'' |
+    re''4_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version\whiteout "Tous" re'' |
     re'' la' sol' la' |
     sib'2 la'4 dod'' |
     re'' do'' sib'2 |
@@ -98,7 +99,8 @@
     mi''\prall re''
   }
   \setMusic #'Ehc {
-    mi''4_\markup\orig-version\whiteout "tous" dod'' |
+    mi''4_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version\whiteout "Tous" dod'' |
     re'' re'' si' re'' |
     dod'' re''
   }
@@ -151,7 +153,8 @@
     re''2
   }
   \setMusic #'Ihc {
-    re''4_\markup\orig-version\whiteout "tous" mi'' |
+    re''4_\markup\orig-version\whiteout "tous"
+    ^\markup\mod-version\whiteout "Tous" mi'' |
     dod''2 do''4. re''8 |
     sib'4 sib' la'4. la'8 |
     la'2
@@ -170,13 +173,13 @@
   }
   \tag #'haute-contre-dessus2 {
     \Ahc
-    \forceFullClef \clef "dessus" \BdessusII
-    \forceFullClef \clef "haute-contre" \Chc
-    \forceFullClef \clef "dessus" \DdessusII
-    \forceFullClef \clef "haute-contre" \Ehc
-    \forceFullClef \clef "dessus" \FdessusII
-    \forceFullClef \clef "haute-contre" \Ghc
-    \forceFullClef \clef "dessus" \HdessusII
-    \forceFullClef \clef "haute-contre" \Ihc
+    \fullClef \clef "dessus" \BdessusII
+    \fullClef \clef "haute-contre" \Chc
+    \fullClef \clef "dessus" \DdessusII
+    \fullClef \clef "haute-contre" \Ehc
+    \fullClef \clef "dessus" \FdessusII
+    \fullClef \clef "haute-contre" \Ghc
+    \fullClef \clef "dessus" \HdessusII
+    \fullClef \clef "haute-contre" \Ihc
   }
 >>

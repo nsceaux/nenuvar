@@ -6,7 +6,8 @@ re2 re4 re |
 la sol fa mi |
 re do sib, la, |
 sol, fa, mi, la, |
-re,2 dod4_\markup\orig-version "acc seul" ^\markup\mod-version "acc seul" dod |
+re,2 dod4_\markup\orig-version "acc seul"
+^\markup\mod-version\whiteout "acc seul" dod |
 re fa sol2 |
 la4 sib fa fa |
 sib fa sol re |
@@ -30,7 +31,8 @@ sol, fa, mi, la, |
 re, re_\markup\orig-version "tous" dod
 ^\markup\mod-version "Tous" la, |
 re re sol re |
-la re dod_\markup\orig-version "acc seul" ^\markup\mod-version "acc seul" dod |
+la re dod_\markup\orig-version "acc seul"
+^\markup\mod-version\whiteout "acc seul" dod |
 re do sib, la, |
 sol, fa, mi,_\markup\orig-version "tous"
 ^\markup\mod-version "Tous" mi, |

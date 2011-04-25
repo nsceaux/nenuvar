@@ -138,25 +138,31 @@
     do''8 sib' la' sib' sol'4 la'8 sib' |
     la'2\prall sib'4.
   }
+
+  %%%%%%%
   \tag #'dessus1 {
     \clef "dessus" \debutDessus
     sib'4. fa'8_\markup\orig-version\whiteout { Pr violon seul } 
     ^\markup\mod-version\general-align #X #0 \line { \concat { 1 \super er } violon seul } |
     \finDessusI fa'8_\markup\orig-version\whiteout\general-align #X #0 Tous
-    ^\markup\mod-version\general-align #X #0 Tous | }
-  \tag #'dessus2 { \clef "dessus" \debutDessus sib'2 |
-    \finDessusII fa'8^\markup\general-align #X #0 Tous | }
-  \tag #'haute-contre { \clef "haute-contre" \debutHauteContre |
-    R1*27 | r2 r4 r8 re' | }
+    ^\markup\mod-version\general-align #X #0 Tous |
+  }
+
+  \tag #'dessus2 {
+    \clef "dessus" \debutDessus sib'2 |
+    \finDessusII fa'8^\markup\general-align #X #0 Tous |
+  }
+
+  \tag #'haute-contre {
+    \clef "haute-contre" \debutHauteContre |
+    R1*27 | r2 r4 r8 re' |
+  }
+
   \tag #'haute-contre-dessus2 {
     \clef "haute-contre" \debutHauteContre
-    \forceFullClef \clef "dessus" \finDessusII
-    \forceFullClef \clef "haute-contre" re'8
+    \fullClef \clef "dessus" \finDessusII
+    \fullClef \clef "haute-contre" re'8
     _\markup\orig-version\whiteout\general-align #X #0 Tous
-    ^\markup\mod-version\whiteout\general-align #X #0 "h-c."
-  }
->>
-<<
-  \tag #'(dessus1 dessus) {
+    ^\markup\mod-version\whiteout\general-align #X #0 Tous
   }
 >>
