@@ -1,5 +1,6 @@
 \markuplines \fontsize-lines #2 \column-lines {
-  \scene \line { ACTEURS DU PROLOGUE }
+  \vspace #1
+  \fontsize #2 \fill-line { \line { PERSONNAGES DU PROLOGUE } }
   \vspace #1
   \character-two-columns \column {
     \character-ambitus "Le Temps" \score {
@@ -40,7 +41,7 @@
     }
   }
   \vspace #3
-  \scene \line { ACTEURS DE LA TRAGÉDIE }
+  \fontsize #2 \fill-line { \line { PERSONNAGES DE LA TRAGÉDIE } }
   \vspace #1
   \character-three-columns
   % 1st column

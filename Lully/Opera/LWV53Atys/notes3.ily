@@ -563,7 +563,7 @@
       Mesures 134-145 : le manuscrit ne comporte pas la reprise des
       premiers vers du Sommeil. Puis, le trio fait place au Sommeil,
       Morphée et Phobetor, tandis que dans Ballard 1689 ce sont Morphée,
-      Phantase et Phobetor. Dans le manuscrit, les paroles ne sont
+      Phantase et Phobetor. Dans le manuscrit, les paroles ne sont pas
       indiquées sur toutes les voix.
     }
   }
@@ -1262,7 +1262,7 @@
   \column {
     \null\paragraph {
       Le manuscrit et l'édition Baussen 1709 indiquent de jouer pour l'entr'acte
-      le second l'entrée des Nations (page \page-refIII #'CDBnations .)
+      l'entrée des Nations (page \page-refIII #'CDBnations .)
     }
     \null\sep
   }

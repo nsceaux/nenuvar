@@ -45,6 +45,6 @@
 \noPageBreak \markup \large {
   On reprend pour l'entr'acte l'entrée des zéphirs page \page-refIII #'CDCzephirs .
 }
-\markup\null
+\markup\vspace #2
 %\pieceTocTitle "Entr'acte" \reIncludeScore "CDCzephirs" "CDHzephirs"
 \actEnd "FIN DU SECOND ACTE"

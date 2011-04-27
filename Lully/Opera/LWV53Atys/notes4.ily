@@ -938,8 +938,10 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% EEIchoeur mesure 0
   \excerpts \column {
-    \line { \bold { Gavotte } (page \page-refIII #'EEHgavotte ) }
+    \line { \bold { Chœur : \italic { Un grand calme est trop fâcheux } }
+      (page \page-refIII #'EEIchoeur ) }
     \line { Mesures 0-2, haute-contre chantante }
+    \null
   }
   \score {
     <<

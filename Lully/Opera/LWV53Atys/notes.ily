@@ -71,31 +71,41 @@
         \force-line-width-ratio #1/8 \line { Ballard 1689 }
         \force-line-width-ratio #1/8 \line { Cette édition }
       }
-      \line \vcenter {
+      \line\vcenter {
         \force-line-width-ratio #1/8 \line { Dessus }
-        \force-line-width-ratio #1/8 \score { { \clef "french" do''4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \concat {
+          \null \raise #-2 \score { { \clef "french" do''4 } \layout { \quoteLayout } }
+        }
         \force-line-width-ratio #1/8 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
       }
-      \line \vcenter {
+      \line\vcenter {
         \force-line-width-ratio #1/8 \line { Haute-contre }
-        \force-line-width-ratio #1/8 \score { { \clef "soprano" do''4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \concat {
+          \null \raise #-2 \score { { \clef "soprano" do''4 } \layout { \quoteLayout } }
+        }
         \force-line-width-ratio #1/8 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
       }
-      \line \vcenter {
+      \null
+      \line\vcenter {
         \force-line-width-ratio #1/8 \line { Taille }
         \force-line-width-ratio #1/8 \score { { \clef "mezzosoprano" do'4 } \layout { \quoteLayout } }
-        \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \concat {
+          \null \raise #-1 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
+        }
       }
-      \line \vcenter {
+      \null
+      \line\vcenter {
         \force-line-width-ratio #1/8 \line { Quinte }
         \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
         \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
       }
-      \line \vcenter {
+      \null
+      \line\vcenter {
         \force-line-width-ratio #1/8 \line { Basse }
         \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
         \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
       }
+      \vspace #1
     }
     \null
     \column {
@@ -104,30 +114,43 @@
         \force-line-width-ratio #1/8 \line { Ballard 1689 }
         \force-line-width-ratio #1/8 \line { Cette édition }
       }
-      \line \vcenter {
+      \line\vcenter {
         \force-line-width-ratio #1/8 \line { Dessus }
-        \force-line-width-ratio #1/8 \line \general-align #Y #DOWN {
-          \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
-          \score { { \clef "soprano" do''4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \concat {
+          \null\raise #-1 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
+          \hspace #1
+          \raise #-3 \score { { \clef "soprano" do''4 } \layout { \quoteLayout } }
         }
-        \force-line-width-ratio #1/8 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \concat {
+          \null\raise #-1 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
+        }
       }
-      \line \vcenter {
+      \vspace #0.2
+      \line\vcenter {
         \force-line-width-ratio #1/8 \line { Haute-contre }
-        \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \concat {
+          \null\raise #-0.75
+          \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
+        }
         \force-line-width-ratio #1/8 \score { { \clef "G_8" do'4 } \layout { \quoteLayout } }
       }
-      \line \vcenter {
+      \line\vcenter {
         \force-line-width-ratio #1/8 \line { Taille }
         \force-line-width-ratio #1/8 \score { { \clef "tenor" do'4 } \layout { \quoteLayout } }
-        \force-line-width-ratio #1/8 \score { { \clef "G_8" do'4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \concat {
+          \null\raise #-0.5
+          \score { { \clef "G_8" do'4 } \layout { \quoteLayout } }
+        }
       }
-      \line \vcenter {
+      \line\vcenter {
         \force-line-width-ratio #1/8 \line { Basse-taille }
-        \force-line-width-ratio #1/8 \score { { \clef "varbaritone" do'4 } \layout { \quoteLayout } }
+        \force-line-width-ratio #1/8 \concat {
+          \null\raise #-0.8 \score { { \clef "varbaritone" do'4 } \layout { \quoteLayout } }
+        }
         \force-line-width-ratio #1/8 \score { { \clef "bass" do'4 } \layout { \quoteLayout } }
       }
-      \line \vcenter {
+      \null
+      \line\vcenter {
         \force-line-width-ratio #1/8 \line { Basse }
         \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
         \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
@@ -147,22 +170,28 @@
     bémols dans cette édition. L'armure originale est rappelée, de même
     que les clés, dans l'incipit en début de pièce.
     La raison de ce choix est de lever pour le lecteur toute ambiguïté
-    sur l'altération des notes. Par ailleurs, l'usage concernant les armures
-    des pièces en mineur au XVIIè ou XVIIIè siècle en France était contesté :
-  }
-  \indented-lines #4 \justified-lines \italic {
-    Pourquoi je mets un bémol de plus qu'à l'ordinaire dans tous les
-    tons qui ont le mode mineur ? (...) Il est absolument nécessaire,
-    parce que tout ton qui a le mode mineur a la sixième de sa finale
-    essentiellement mineure. C'est pour cela qu'il faut le mettre à la
-    clef et non pas dans le courant de l'air comme accidentel, ainsi
-    qu'il se pratique ordinairement, ce qui est une erreur considérable
-    qui n'a pas été reconnue jusqu'à présent.
-  }
-  \justified-lines {
-    (Michel de Saint-Laurent, \italic { Nouveau Traité de l'accompagnement } (1707),
-    cité par Laurent Fichet, \italic { Le langage musical baroque : éléments et structures, }
-    Zurfluh, 2000, p. 35.)
+    sur l'altération des
+    \footnote \concat { notes \super 1 . }
+    \fontsize #-2 \column {
+      \justified-lines {
+        1. L'usage concernant les armures des pièces en mineur au XVIIè
+        ou XVIIIè siècle en France était contesté :
+      }
+      \indented-lines #4 \justified-lines \italic {
+        Pourquoi je mets un bémol de plus qu'à l'ordinaire dans tous les
+        tons qui ont le mode mineur ? (...) Il est absolument nécessaire,
+        parce que tout ton qui a le mode mineur a la sixième de sa finale
+        essentiellement mineure. C'est pour cela qu'il faut le mettre à la
+        clef et non pas dans le courant de l'air comme accidentel, ainsi
+        qu'il se pratique ordinairement, ce qui est une erreur considérable
+        qui n'a pas été reconnue jusqu'à présent.
+      }
+      \justified-lines {
+        (Michel de Saint-Laurent, \italic { Nouveau Traité de l'accompagnement } (1707),
+        cité par Laurent Fichet, \italic { Le langage musical baroque : éléments et structures, }
+        Zurfluh, 2000, p. 35.)
+      }
+    }
   }
   \null
   \paragraph {

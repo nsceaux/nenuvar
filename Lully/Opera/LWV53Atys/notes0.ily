@@ -952,7 +952,7 @@
       \layout { \quoteLayout }
     }
     \wordwrap { Un do ronde est indiqué à la basse continue avant le
-      début du prelude. }
+      début du prélude. }
   }
   %% AAIair haute-contre mesure 8
   \excerpts-end \line { Mesure 8, haute-contre }
@@ -980,7 +980,7 @@
   }
   \score {
     \new Staff {
-      \startQuote #3
+      \startQuote #3 \set autoBeaming = ##f
       \key do \major \clef "soprano" \time 3/4
       la'4 r16 la' la' la' la'8 do'' | fa'8.
     } \addlyrics { Temps, ne me dé -- ro -- bez point }
@@ -988,7 +988,7 @@
   }
   \score {
     \new Staff {
-      \startQuote #3
+      \startQuote #3 \set autoBeaming = ##f
       \key do \major \clef "soprano" \time 3/4
       la'4. la'8 la'16 la' la' do'' | fa'8.
     } \addlyrics { Temps, ne me dé -- ro -- bez point }
@@ -998,7 +998,7 @@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% AAKair  mesure 12
   \excerpts \column {
-    \line { \bold { Air pour la suites de Melpomène }
+    \line { \bold { Air pour la suite de Melpomène }
       (page \page-refIII #'AAKair ) }
     \wordwrap { Mesure 12, haute-contre, basse }
   }
