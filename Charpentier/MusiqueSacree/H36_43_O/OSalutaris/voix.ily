@@ -27,7 +27,7 @@
     mi'\prall mi' la' |
     fa'4. fa'8 fa'4 |
     mi'2. |
-    fa'\prall |
+    fa'\dotPrall |
     sol'~ |
     sol'4 fa' mi' |
     re'4. re'8 re'4 |
@@ -45,14 +45,14 @@
     mi'4\prall mi' la' |
     fa'4. fa'8 fa'4 |
     sol'2. |
-    la'\prall |
+    la'\dotPrall |
     sib' |
     fa'4 sol'2 |
     do'4 fa' fa' |
     fa'( mi'4.\prall) fa'8 |
     fa'2. |
     do' |
-    re'\prall |
+    re'\dotPrall |
     mi' |
     r4 la re' |
     si\prall si mi' |
