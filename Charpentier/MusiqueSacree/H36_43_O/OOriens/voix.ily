@@ -36,8 +36,7 @@
     mi' mi' mi' |
     fad'8*2[ sol' la' sol' fad' mi']( |
     re')[ fad' mi' sol' fad' la']( |
-    sol'1.)^\markup \override #'(word-space . 3) \line \vcenter {
-      •  \musicglyph #"scripts.prall" } |
+    sol'1.)^\dotPrall |
     fad'1 r2 |
     R1. |
     r2 r sold' |
@@ -122,8 +121,7 @@
     r2 la2. sol8*2 |
     fad2 fad fad |
     sol sol fad |
-    mi1.^\markup \override #'(word-space . 3) \line \vcenter {
-      •  \musicglyph #"scripts.prall" } |
+    mi1.^\dotPrall |
     re1 re'2 |
     si2. dod'8*2 si8.*2\prall la16*2 |
     sold1 r2 |

@@ -1,7 +1,15 @@
 \score {
   \new StaffGroupNoBar <<
     \origVersion \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \includeNotes "dessus" >>
+      \newHaraKiriStaff <<
+        \override Staff.InstrumentName #'self-alignment-Y = #UP
+        \instrumentName \markup \center-column {
+          \fontsize #2 "Quatrième O"
+          après
+          \line \italic { Les Bourgeois de Chatres }
+        }
+        \global \includeNotes "dessus"
+      >>
       \newHaraKiriStaff << \global \includeNotes "haute-contre" >>
       \newHaraKiriStaff << \global \includeNotes "taille" >>
     >>
@@ -29,10 +37,17 @@
     >>
     \new Staff <<
       \global \includeNotes "basse"
+      \override Staff.InstrumentName #'self-alignment-X = #RIGHT
+      \origVersion \instrumentName \markup \center-column {
+        "Basses continue" "et de ch."
+      }
       \new FiguredBass \includeFigures "chiffres"
     >>
   >>
   \layout {
+    indent = #(if (eqv? (ly:get-option 'ancient-style) #t)
+                  (* 35 mm)
+                  smallindent)
     ragged-last = #(eqv? (ly:get-option 'ancient-style) #t)
   }
   \midi { }

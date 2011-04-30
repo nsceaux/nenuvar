@@ -1,6 +1,14 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
+      \origVersion {
+        \override Staff.InstrumentName #'self-alignment-Y = #UP
+        \instrumentName \markup \center-column {
+          \fontsize #2 { "Salut pour" "la veille des O" }
+          après
+          \line \italic { Laissez paître [vos bêtes] }
+        }
+      }
       \global \keepWithTag #'vhaute-contre \includeNotes "voix"
     >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
     \new Staff \withLyrics <<
@@ -14,6 +22,10 @@
       \new FiguredBass \includeFigures "chiffres"
     >>
   >>
-  \layout { }
+  \layout {
+    indent = #(if (eqv? (ly:get-option 'ancient-style) #t)
+                  (* 30 mm)
+                  smallindent)
+  }
   \midi { }
 }

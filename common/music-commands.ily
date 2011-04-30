@@ -64,6 +64,14 @@ forceFullClef = {
 %% Print clef in full size
 fullClef = \override Staff.Clef #'full-size-change = ##t
 
+dotPrall =
+#(make-music 'TextScriptEvent
+             'direction UP
+             'text (markup #:override '(word-space . 2)
+                           #:line (#:vcenter "•"
+                                             #:vcenter #:musicglyph "scripts.prall" )))
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Repeat with alternatives

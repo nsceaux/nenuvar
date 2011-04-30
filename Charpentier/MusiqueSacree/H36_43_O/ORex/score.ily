@@ -6,14 +6,15 @@
           \override Staff.InstrumentName #'self-alignment-Y = #UP
           \instrumentName \markup \center-column {
             \fontsize #2 "Sixième O"
-            \line { après \italic Joseph }
-            \line \italic { est bien marié }
+            après
+            \line \italic { Joseph est bien marié }
           }
         }
         \global \includeNotes "dessus1" >>
       \new Staff << \global \includeNotes "dessus2" >>
     >>
     \new Staff \withLyrics <<
+      \override Staff.InstrumentName #'self-alignment-X = #RIGHT
       \origVersion \instrumentName "Mr Chopelet"
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"

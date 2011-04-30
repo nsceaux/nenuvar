@@ -5,8 +5,7 @@
     fa'2 sol' fa' |
     \whiteNoteHeadsOn mib'( re' mib'8*2[ fa']) | \whiteNoteHeadsOff
     re'2 mib' re' |
-    do'1.^\markup \override #'(word-space . 3) \line \vcenter {
-      •  \musicglyph #"scripts.prall" } |
+    do'1.^\dotPrall |
     sib2 r4 do' |
     re' mi' fa' fa' |
     mib'4. fa'8 re'4 re' |
@@ -64,8 +63,7 @@
     \clef "vtaille" r2 re'1 |
     r2 do'1 |
     re'2 mib' re' |
-    do'1.^\markup \override #'(word-space . 3) \line \vcenter {
-      •  \musicglyph #"scripts.prall" } |
+    do'1.^\dotPrall |
     sib |
     R1. |
     R1 |
@@ -131,8 +129,7 @@
     r2 la1 |
     R1.*2 |
     fa2 sol fa |
-    mib1.^\markup \override #'(word-space . 3) \line \vcenter {
-      •  \musicglyph #"scripts.prall" } |
+    mib1.^\dotPrall |
     re4 fa sol la |
     sib sol la4. la8 |
     sib4 la r sol |
@@ -156,8 +153,7 @@
     R1*2 |
     r4 do' fad2 |
     sol4 sol fa!4. sol8 |
-    mib1^\markup \override #'(word-space . 3) \line \vcenter {
-      •  \musicglyph #"scripts.prall" } |
+    mib1^\dotPrall |
     re |
     r4 re' do' |
     sib2 la4 |

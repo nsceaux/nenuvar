@@ -4,9 +4,9 @@
       \origVersion {
         \override Staff.InstrumentName #'self-alignment-Y = #UP
         \instrumentName \markup \center-column {
-          \fontsize #2 "Troisième O"
+          \fontsize #2 "Septième O"
           après
-          \line \italic { Vous qui désirez sans fin }
+          \line \italic { Or nous dites Marie }
         }
       }
       \global \keepWithTag #'vhaute-contre \includeNotes "voix"
@@ -24,8 +24,9 @@
   >>
   \layout {
     indent = #(if (eqv? (ly:get-option 'ancient-style) #t)
-                  (* 35 mm)
+                  (* 30 mm)
                   smallindent)
+    ragged-last = #(eqv? (ly:get-option 'ancient-style) #t)
   }
   \midi { }
 }

@@ -13,7 +13,9 @@
                                         (9  . "Vol. 5 p. 28-v")
                                         (10 . "Vol. 5 p. 29-r")
                                         (11 . "Vol. 5 p. 29-v")
-                                        (12 . "Vol. 5 p. 30-r")))
+                                        (12 . "Vol. 5 p. 30-r")
+                                        (13 . "Vol. 5 p. 30-v")))
+  ragged-last-bottom = ##t
 }
 
 \header {
@@ -28,20 +30,18 @@
 }
 
 \markup\vspace #40
-\pieceTocTitle "Salut pour la veille des O"
 \includeScore "OSalutaris"
 \markup \wordwrap {
-  Au lieu de l'O Salutaris precedent l'on peut chanter
+  Au lieu de \concat { l' \italic O } \italic Salutaris precedent l'on peut chanter
   \italic { o admirabile commercium }
-  Cayer
-  \concat { LXX \super 1 \footnote . 
-    "1. Antienne à 3 voix pareilles pour la veille des O, H.49, volume 26." }
+  Cayer LXX
+  [Antienne à 3 voix pareilles pour la veille des O, H.49]
 }
 \pageBreak
-
 \includeScore "OSapientia"
 \includeScore "OAdonai"
 \includeScore "ORadix"
 \includeScore "OClavis"
 \includeScore "OOriens"
-\includeScore "OORex"
+\includeScore "ORex"
+\includeScore "OEmmanuel"

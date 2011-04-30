@@ -18,6 +18,15 @@
         \global \keepWithTag #'vdessus \includeNotes "voix"
       >> \keepWithTag #'vdessus \includeLyrics "paroles"
       \new Staff \withLyrics <<
+        \origVersion {
+          \override Staff.InstrumentName #'self-alignment-Y = #UP
+          \instrumentName \markup \center-column {
+            \fontsize #2 "Cinquième O"
+            après
+            \line \italic { Où s'en vont }
+            \line \italic { ces guays bergers }
+          }
+        }
         \global \keepWithTag #'vhaute-contre \includeNotes "voix"
       >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
       \new Staff \withLyrics <<
@@ -32,6 +41,10 @@
       \new FiguredBass \includeFigures "chiffres"
     >>
   >>
-  \layout { }
+  \layout {
+    indent = #(if (eqv? (ly:get-option 'ancient-style) #t)
+                  (* 30 mm)
+                  smallindent)
+  }
   \midi { }
 }
