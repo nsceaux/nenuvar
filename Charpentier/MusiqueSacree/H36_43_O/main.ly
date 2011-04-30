@@ -18,3 +18,5 @@
 \includeScore "OClavis"
 \pieceTocTitle "Cinquième O : O Oriens"
 \includeScore "OOriens"
+\pieceTocTitle "Sixième O : O Rex gentium"
+\includeScore "ORex"

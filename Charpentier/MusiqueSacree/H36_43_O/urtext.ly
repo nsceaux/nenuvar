@@ -39,13 +39,9 @@
 }
 \pageBreak
 
-\pieceTocTitle "Premier O"
 \includeScore "OSapientia"
-\pieceTocTitle "Deuxième O"
 \includeScore "OAdonai"
-\pieceTocTitle "Troisième O"
 \includeScore "ORadix"
-\pieceTocTitle "Quatrième O"
 \includeScore "OClavis"
-\pieceTocTitle "Cinquième O"
 \includeScore "OOriens"
+\includeScore "OORex"
