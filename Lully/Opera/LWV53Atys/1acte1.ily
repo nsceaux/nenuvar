@@ -11,11 +11,11 @@
 \scene "Scène II" "SCÈNE 2 : Atys, Idas"
 \sceneDescription \markup \smallCaps { Atys, Idas. }
 \pieceToc \markup \smallCaps { Atys, Idas } \includeScore "BBAatysIdas"
-%{ n°3 %}\newBookPart #'(full voix)
+%{ n°3 %}\newBookPart #'(full voix basse-continue)
 \scene "Scène III" "SCÈNE 3 : Sangaride, Doris, Atys, Idas"
 \sceneDescription \markup \smallCaps { Sangaride, Doris, Atys, Idas. }
 \pieceToc \markup \smallCaps { Sangaride, Doris, Atys, Idas } \includeScore "BCAsdai"
-%{ n°4 %}\newBookPart #'(full)
+%{ n°4 %}\newBookPart #'(full basse-continue)
 \scene "Scène IV" "SCÈNE 4 : Sangaride, Doris"
 \sceneDescription \markup \smallCaps { Sangaride, Doris. }
 \pieceToc \markup { \smallCaps { Sangaride, Doris : }
