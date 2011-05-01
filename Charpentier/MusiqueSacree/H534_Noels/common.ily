@@ -8,7 +8,7 @@
 
 
 \include "Charpentier/MusiqueSacree/common.ily"
-\setOpus "Charpentier/NoelsInstruments"
+\setOpus "Charpentier/MusiqueSacree/H534_Noels"
 
 \layout {
   \context {

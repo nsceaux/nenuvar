@@ -1,4 +1,4 @@
-\include "Charpentier/NoelsInstruments/common.ily"
+\include "Charpentier/MusiqueSacree/H534_Noels/common.ily"
 
 \bookpart {
   \header { title = "Noëls sur les instruments" }

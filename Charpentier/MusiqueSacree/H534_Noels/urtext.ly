@@ -1,5 +1,5 @@
 #(ly:set-option 'ancient-style #t)
-\include "Charpentier/NoelsInstruments/common.ily"
+\include "Charpentier/MusiqueSacree/H534_Noels/common.ily"
 \paper {
   #(define original-page-number-table '((1  . "Vol. 5 p. 22-v")
                                         (2  . "Vol. 5 p. 23-r")
