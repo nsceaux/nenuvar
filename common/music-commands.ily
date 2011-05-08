@@ -64,6 +64,7 @@ forceFullClef = {
 %% Print clef in full size
 fullClef = \override Staff.Clef #'full-size-change = ##t
 
+%% Articulation used Charpentier: a dot, followed by a prall sign
 dotPrall =
 #(make-music 'TextScriptEvent
              'direction UP
@@ -71,6 +72,20 @@ dotPrall =
                            #:line (#:vcenter "•"
                                              #:vcenter #:musicglyph "scripts.prall" )))
 
+%% For quarter note with eighth note flag and half note note head (in e.g. 3/2)
+#(define-public (calc-white-note-head-glyph grob)
+   (let ((style (ly:grob-property grob 'style))
+         (duration-log (min 1 (ly:grob-property grob 'duration-log))))
+     (select-head-glyph style duration-log)))
+
+whiteNoteHeadsOn = {
+  \override Staff.NoteHead #'style = #'baroque
+  \override Staff.NoteHead #'glyph-name = #calc-white-note-head-glyph
+}
+whiteNoteHeadsOff = {
+  \revert Staff.NoteHead #'style
+  \revert Staff.NoteHead #'glyph-name
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
@@ -375,3 +390,13 @@ modVersion =
    (if (eqv? #t (ly:get-option 'ancient-style))
        (interpret-markup layout props (markup #:with-color red markp))
        empty-stencil))
+
+verticalTweak =
+#(define-music-function (parser location tweak) (list?)
+   "Specify hard coded vertical spacing.  setting lilypond option
+`apply-vertical-tweaks' to #f get rid off these tweaks."
+   (if (eqv? #t (ly:get-option 'apply-vertical-tweaks))
+       #{
+\overrideProperty #"Score.NonMusicalPaperColumn"
+#'line-break-system-details #$tweak #}
+       (make-music 'Music 'void #t)))

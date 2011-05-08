@@ -2,6 +2,19 @@
   \new StaffGroupNoBar <<
     \new StaffGroup <<
       \newHaraKiriStaff <<
+        %% Vertical tweaks
+        { s1*11 s2.*4 s1 s2.*27
+          \repeat unfold 13 {
+            \verticalTweak #'((Y-offset . 30)
+                              (alignment-distances . (12 12 12 12 16 12 12 12 16 12 12 16)))
+            s1
+          }
+          \repeat unfold 60 {
+            \verticalTweak #'((Y-offset . 30)
+                              (alignment-distances . (12 12 12 12 16 12 12 12 16 12 12 16)))
+            s2.
+          }
+        }
         { s1*11 s2.*4 s1 s2.*27 \noHaraKiri }
         \global \keepWithTag #'dessus1 \includeNotes "dessus" >>
       \newHaraKiriStaff <<
