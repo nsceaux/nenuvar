@@ -2,10 +2,13 @@
 \time 3/2 \midiTempo #200
 <<
   \modVersion {
+    %\markUpBegin\mark\markup { \concat { 1 \super er } couplet }
     s1.*8 \bar ":|"
-    s1.*10 \bar ":|"
-    s1.*8 \bar ":|"
+    s1.*10 \bar "||"
+    %\markUpBegin\mark\markup { \concat { 2 \super e } couplet }
+    s1.*8 \bar "||"
     s1.*10 s1.*10 \bar "||"
+    %\markUpBegin\mark\markup { \concat { 3 \super e } couplet }
     s1.*8 s1.*8 \bar "||"
     s1.*10 s1.*10 \bar "|."
   }

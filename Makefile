@@ -185,8 +185,7 @@ $(eval $(call MAKE_SCORE_RULE,Charpentier/MusiqueSacree/H13_Victimae,-orig,-danc
 $(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/MusiqueSacree/H534_Noels,\
 dessus1 dessus2 taille basse,,))
 $(eval $(call MAKE_SCORE_RULE,Charpentier/MusiqueSacree/H534_Noels,-urtext,-dancient-style,urtext))
-$(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/MusiqueSacree/H531_Noels,\
-dessus1 dessus2 taille basse,,))
+$(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/MusiqueSacree/H531_Noels,,,))
 $(eval $(call MAKE_SCORE_RULE,Charpentier/MusiqueSacree/H531_Noels,-urtext,-dancient-style,urtext))
 
 ### Haendel
