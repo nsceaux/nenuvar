@@ -5,3 +5,5 @@
 \includeScore "Ocreateur"
 \pieceTocTitle "Laissez paître vos bêtes"
 \includeScore "LaissezPaitre"
+\pieceTocTitle "Vous qui désirez sans fin"
+\includeScore "VousQuiDesirez"
