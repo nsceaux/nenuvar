@@ -1,7 +1,7 @@
 \include "Charpentier/MusiqueSacree/H531_Noels/common.ily"
 
-\bookpart {
-  \header { title = "Noëls pour les instruments" }
-  \pieceTocTitle "O Createur"
-  \includeScore "Ocreateur"
-}
+\header { title = "Noëls pour les instruments" }
+\pieceTocTitle "O Createur"
+\includeScore "Ocreateur"
+\pieceTocTitle "Laissez paître vos bêtes"
+\includeScore "LaissezPaitre"

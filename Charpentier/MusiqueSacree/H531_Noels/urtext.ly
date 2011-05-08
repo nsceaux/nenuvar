@@ -18,4 +18,8 @@
   }
   \markup \vspace #25
   \includeScore "Ocreateur"
+  
+  \pieceTocTitle "Autre Noel"
+  \includeScore "LaissezPaitre"
+  \pageBreak
 }
