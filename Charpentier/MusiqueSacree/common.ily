@@ -78,21 +78,6 @@ pieceTocTitle =
 %%%
 trill = #(make-articulation "stopped")
 
-%% For quarter note with eighth note flag and half note note head (in e.g. 3/2)
-#(define-public (calc-white-note-head-glyph grob)
-   (let ((style (ly:grob-property grob 'style))
-         (duration-log (min 1 (ly:grob-property grob 'duration-log))))
-     (select-head-glyph style duration-log)))
-
-whiteNoteHeadsOn = {
-  \override Staff.NoteHead #'style = #'baroque
-  \override Staff.NoteHead #'glyph-name = #calc-white-note-head-glyph
-}
-whiteNoteHeadsOff = {
-  \revert Staff.NoteHead #'style
-  \revert Staff.NoteHead #'glyph-name
-}
-
 %% In urtext version, add original manuscript page numbers in page header
 #(define-markup-command (page-header layout props text) (markup?)
    (define (ancestor layout)

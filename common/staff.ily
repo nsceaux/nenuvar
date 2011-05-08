@@ -12,6 +12,22 @@
                                                          (char->integer #\0)))))
                                   (string->list (number->string var-idx)))))))))
 
+haraKiri = \with {
+  \override VerticalAxisGroup #'remove-empty = ##t
+  \override VerticalAxisGroup #'remove-first = ##f
+  \override Beam #'auto-knee-gap = #'()
+  \consists "Hara_kiri_engraver"
+  \remove "Axis_group_engraver"
+}
+
+haraKiriFirst = \with {
+  \override VerticalAxisGroup #'remove-empty = ##t
+  \override VerticalAxisGroup #'remove-first = ##t
+  \override Beam #'auto-knee-gap = #'()
+  \consists "Hara_kiri_engraver"
+  \remove "Axis_group_engraver"
+}
+
 withLyrics =
 #(define-music-function (parser location music lyrics) (ly:music? ly:music?)
    (let ((name (symbol->string (gen-unique-context))))
