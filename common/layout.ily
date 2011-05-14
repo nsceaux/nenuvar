@@ -24,9 +24,10 @@
 
 \paper {
   %% Margins, line width
-  left-margin = 12\mm
-  right-margin = 12\mm
-  #(define line-width (- paper-width (* 24 mm)))
+  two-sided = ##t
+  inner-margin = 15\mm
+  outer-margin = 10\mm
+  #(define line-width (- paper-width (* 25 mm)))
 
   ragged-bottom = ##f
   ragged-last-bottom = ##f
