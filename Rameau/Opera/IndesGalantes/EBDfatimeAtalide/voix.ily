@@ -4,7 +4,7 @@ fad' re'' re''8. mib''16 la'4\trill la'8 la'16 sib' |
 sol'8 sol' r sol''16 sol'' mi''8\trill mi''16 sol'' |
 do''4 r8 do''16 fa'' sib'4 r8 sib'16 la' |
 la'8\trill la' r la'16 sib' do''8 la'16 re'' dod''8. re''16 |
-mi''8 \fatimeMark la' la'4 la'8 si'16 dod'' |
+mi''8 \fatimeMarkTextCol "gai" la' la'4 la'8 si'16 dod'' |
 re''8 re'' sol''4 sol''8 sol''16 fad'' |
 fad''4\trill fad''8 \atalideMark re''16 dod'' si'8. la'16 la'8.[ sol'32\trill fad'] |
 fad'4\trill la'8 si'16 dod'' re''8 si' |

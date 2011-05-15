@@ -34,4 +34,4 @@ dod'2 dod'4 fad' la' dod'' |
 re'2 fad'4 sold' si' re'' |
 mid'2 sold'4 mid' dod' mid' |
 fad'4. sold'8 la'4 mid'4 fad'2 |
-mid'2.~ mid''4.
+mid'2.~ mid'4.

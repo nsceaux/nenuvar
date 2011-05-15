@@ -10,7 +10,7 @@ la'4 la'8 \tag #'voix {
   dod''4 \appoggiatura si'8 la' fa'' mi'' re'' |
   dod'' re'' la' sib' sol' do'' |
   fa'4. r8 la' do'' |
-  si'4 si'8 mi'' fa'' re'' |
+  si'4\trill si'8 mi'' fa'' re'' |
   dod''16[\melisma si' dod'' la' si' dod''] re''[ mi'']~ mi''4\trill\melismaEnd |
   re''4. r8 la' do'' |
   sib'4 sib'8 sol' fa'\trill mi' |

@@ -33,7 +33,7 @@ re' <<
     re''2 s8 fad'' |
     fad''8. mi''16 mi''4\trill re''8 dod'' |
     re''4. re''8 mi'' fad'' |
-    fad''2~ mi''8\trill re'' |
+    fad''2( mi''8)\trill re'' |
     dod''2\trill s4 |
     s2. |
     s4. dod''8 re'' mi'' |
@@ -216,7 +216,7 @@ fad''4.( mi''8) re''\trill dod'' |
 si'2 si'8 lad' |
 \appoggiatura lad'8 si'2 <<
   \tag #'(hautbois1 conducteur) \new Voice {
-    \tag #'conducteur \voiceOne fad''4_\p -\tag #'conducteur ^"Hautbois"
+    \tag #'conducteur \voiceOne fad''4_\p ^"gai" -\tag #'conducteur ^"Hautbois"
     sol''( fad'') sol'' |
     fad''
   }

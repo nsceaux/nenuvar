@@ -1,5 +1,6 @@
 \clef "vtaille" r8 |
-R1*13 |
+R1*11 |\noHaraKiri
+R1*2 |
 fa'2 do'4 lab |
 fa2 fa4 fa8 lab |
 reb2 reb4 r8 reb' |

@@ -2,7 +2,7 @@
   copyrightYear = "2010"
   composer = "Jean-Philippe Rameau"
   poet = "Louis Fuzelier"
-  date = "1736"
+  date = "Version de 1743"
   subtitle = "Ballet Héroïque"
 }
 
@@ -19,7 +19,8 @@
 %%  optimal   for lead sheets
 %%  page-turn for instruments and vocal parts
 \paper {
-  #(define page-breaking (if (eqv? (ly:get-option 'part) #f)
+  #(define page-breaking (if (or (eqv? (ly:get-option 'part) #f)
+                                 (eqv? (ly:get-option 'part) 'voix))
                              ly:optimal-breaking
                              ly:page-turn-breaking))
 }
@@ -37,6 +38,7 @@
 
 \include "italiano.ly"
 \include "common/common.ily"
+\include "common/toc-columns.ily"
 \setOpus "Rameau/Opera/IndesGalantes"
 \opusTitle "Les Indes Galantes"
 
@@ -160,6 +162,10 @@ fatimeMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Fatime"))
 
+fatimeMarkTextCol =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text-col "vdessus" "Fatime" text))
+
 atalideMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Atalide"))
@@ -196,3 +202,55 @@ entree =
                                                    (string-upper-case entree-title2))))
      (add-no-page-break parser)
      (make-music 'Music 'void #t)))
+
+%% For better looking two-column TOC
+scene =
+#(define-music-function (parser location title toc-title) (string? markup?)
+  (add-toc-item parser 'tocSceneMarkup (if (and (string? toc-title)
+                                                (string-null? toc-title))
+                                           (string-upper-case title)
+                                           toc-title))
+  (add-odd-page-header-text
+    parser
+    (format #f "~a, ~a."
+           (string-upper-case (*act-title*))
+           (string-upper-case title))
+    #t)
+  (add-toplevel-markup parser
+    (markup #:scene (string-upper-case title)))
+  (add-no-page-break parser)
+  (make-music 'Music 'void #t))
+
+inMusicScene =
+#(define-music-function (parser location title toc-title) (string? markup?)
+   (add-toc-item parser 'tocSceneMarkup toc-title)
+   (let ((label-music (make-music 'SimultaneousMusic
+                        'elements (list (in-music-add-odd-page-header-text
+                                          (format #f "~a, ~a."
+                                            (string-upper-case (*act-title*))
+                                            (string-upper-case title))
+                                          #t)))))
+     #{ $label-music
+        \once \override Score . RehearsalMark #'font-size = #0
+        \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
+        \mark \markup \fontsize #4 $(string-upper-case title) #}))
+
+%% Editorial notes
+notesSection =
+#(define-music-function (parser location title) (markup?)
+  (add-page-break parser)
+  (add-toc-item parser 'tocPieceMarkup title)
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
+  (*act-title* title)
+  (add-odd-page-header-text
+    parser
+    (format #f "~a" (string-upper-case (*act-title*)))
+    #f)
+  (make-music 'Music 'void #t))
+
+\layout {
+  \context {
+    \Voice
+    \override Script #'avoid-slur = #'outside
+  }
+}

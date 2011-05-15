@@ -1,5 +1,6 @@
 \clef "vdessus" r8 |
-R1*13 |
+R1*11 |\noHaraKiri
+R1*2 |
 fa''2 do''4 lab' |
 fa'2 fa'4 fa'8 lab' |
 reb'2 reb'4 r8 sib' |

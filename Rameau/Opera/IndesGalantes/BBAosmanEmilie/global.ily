@@ -7,7 +7,7 @@ s1*3
 \fractionTime \time 2/2 \midiTempo #160
 s2
 %%\inMusicSceneDesc "Scène II" \markup { \smallCaps Émilie seule }
-\inMusicScene "Scène II"
+\inMusicScene "Scène II" "Scène 2 : Émilie, Osman, chœur de matelots"
 s2 s1*3
 \time 4/4 \midiTempo #80
 s1

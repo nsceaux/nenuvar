@@ -14,33 +14,33 @@
 \includeScore "CAAritournelle"
 
 %{ n°2 %}
-\scene "Scène Première"
+\scene "Scène Première" "Scène 1 : Phani, Carlos"
 \sceneDescription \markup \fill-line { \line \smallCaps { Phani, Carlos } }
 \pieceToc \markup { Phani, Carlos }
 \includeScore "CABcarlosPhani"
 
-%{ n°3 %}\newBookPart #'(full)
-\scene "Scène II"
+%{ n°3 %}
+\scene "Scène II" "Scène 2 : Phani"
 \sceneDescription \markup \fill-line { \line { \smallCaps Phani seule } }
-\pieceToc \markup { Phani : \italic { Viens, hymen, viens m'unir au vainqueur que j'adore ! } }
+\pieceToc \markup { Phani : \italic { Viens, hymen, viens m'unir au vainqueur } }
 \includeScore "CBAphani"
 
-%{ n°1 %}\newBookPart #'(full)
-\scene "Scène III"
+%{ n°1 %}
+\scene "Scène III" "Scène 3 : Phani, Huascar"
 \sceneDescription \markup  \fill-line { \line \smallCaps { Phani, Huascar } }
 \pieceToc \markup { Huascar }
 \includeScore "CCAhuascar"
 
-%{ n°5 %}\newBookPart #'(full)
+%{ n°5 %}
 \pieceToc \markup { Huascar : \italic { Obéissons sans balancer } }
 \includeScore "CCBhuascar"
 
-%{ n°6 %}\newBookPart #'(full)
+%{ n°6 %}
 \pieceToc \markup { Phani, Huascar }
 \includeScore "CCCphaniHuascar"
 
 %{ n°7 %}
-\scene "Scène IV"
+\scene "Scène IV" "Scène 4 : Huascar et un Inca"
 \sceneDescription \markup \left-align \center-column {
   \line { \smallCaps Huascar et un Inca, son confident. }
   \line { On entend un prélude qui annonce la fête du Soleil. }
@@ -49,7 +49,7 @@
 \includeScore "CDAhuascar"
 
 %{ n°8 %}\newBookPart #'(full)
-\scene "Scène V"
+\scene "Scène V" "Scène 5 : Huascar, Phani, Incas"
 \sceneDescription \markup \left-align \center-column {
   \line { Fête du Soleil }
   \wordwrap-center {
@@ -64,8 +64,8 @@
 \pieceTocTitle "Adoration du Soleil"
 \includeScore "CEBprelude"
 
-%{ n°10 %}\newBookPart #'(full)
-\pieceToc \markup { Huascar, chœur : \italic { Brillant soleil, jamais nos yeux, dans ta carrière } }
+%{ n°10 %}
+\pieceToc \markup { Huascar, chœur : \italic { Brillant soleil, jamais nos yeux } }
 \includeScore "CEChuascarChoeur"
 
 %{ n°11 %}\newBookPart #'(full)
@@ -82,7 +82,7 @@
 \pieceToc \markup { Huascar, chœur : \italic { Clair flambeau du monde } }
 \includeScore "CEFhuascarChoeur"
 
-%{ n°14 %}\newBookPart #'(full basse basson)
+%{ n°14 %}\newBookPart #'(basse basson)
 \pieceTocTitle "Loure en rondeau"
 \includeScore "CEGloure"
 
@@ -91,7 +91,7 @@
 \includeScore "CEHhuascar"
 
 %{ n°16 %}\newBookPart #'(full)
-\pieceTocTitle "Gavotte I/II"
+\pieceTocTitle "Gavottes I & II"
 \includeScore "CEIgavotte" \noPageTurn
 
 %{===%}\newBookPart #'(full)
@@ -102,19 +102,19 @@
 \includeScore "CEKchoeur"
 
 %{ n°18 %}\newBookPart #'(full)
-\scene "Scène VI"
+\scene "Scène VI" "Scène 6 : Phani, Huascar, Carlos"
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Phani, Huascar, Carlos }
 }
 \pieceToc \markup { Phani, Huascar, Carlos }
 \includeScore "CFAphaniHuascarCarlos"
 
-%{ n°19 %}\newBookPart #'(full)
-\pieceToc \markup { Phani, Carlos, Huascar : \italic { Pour jamais, l'amour nous engage. } }
+%{ n°19 %}
+\pieceToc \markup { Phani, Carlos, Huascar : \italic { Pour jamais, l'amour } }
 \includeScore "CFBtrio"
 
 %{ n°20 %}\newBookPart #'(full)
-\scene "Scène VII"
+\scene "Scène VII" "Scène 7 : Huascar"
 \sceneDescription \markup \left-align \center-column {
   \line { Les mêmes }
   \line { Le volcan se rallume, et le tremblement de terre recommence. }
@@ -122,4 +122,5 @@
 \pieceToc \markup { Huascar : \italic { La flamme se rallume encore } }
 \includeScore "CGAhuascar"
 \markup \large \fill-line { \line { On joue les menuets pour entr'acte. } }
+\markup \vspace #3
 \actEnd "FIN DE LA DEUXIÈME ENTRÉE"

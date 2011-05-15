@@ -11,6 +11,12 @@
    (markup #:null #:translate  (cons -4 1)
     #:line (#:characteri name #:large " " #:large #:italic text))))
 
+#(define-markup-command (character-text-col paper props name text) (markup? markup?)
+  (interpret-markup paper props
+   (markup #:null #:translate  (cons -4 0)
+    #:column (#:characteri name
+                           #:line (#:null #:translate (cons 4 0) text)))))
+
 #(define-public (make-character-mark clefs name)
    (if (string=? clefs "")
        #{ s1*0 ^\markup \character $name #}
@@ -24,6 +30,13 @@
        #{ << { \set Staff.forceClef = ##t \clef #$clefs
                \once \override Staff . Clef #'full-size-change = ##t }
              s1*0 ^\markup \character-text $name $text >> #}))
+
+#(define-public (make-character-mark-text-col clefs name text)
+   (if (string=? clefs "")
+       #{ s1*0 ^\markup \character-text-col $name $text #}
+       #{ << { \set Staff.forceClef = ##t \clef #$clefs
+               \once \override Staff . Clef #'full-size-change = ##t }
+             s1*0 ^\markup \character-text-col $name $text >> #}))
 
 
 markUpBegin = {

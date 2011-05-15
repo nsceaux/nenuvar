@@ -1,19 +1,26 @@
+\notesSection "Notes"
 \markuplines \column-lines {
   \act { NOTES }
 
   \paragraph {
     Cette édition des \italic { Indes Galantes } est basée sur un
-    manuscrit conservé à la bibliothèque de Toulouse [1], daté de
-    1750.  Il présente quelques différences par rapport aux versions
-    couramment entendues, dont les principales, relevées par rapport à
-    l'édition de Dukas [2], sont décrites ci-après.
+    manuscrit conservé à la bibliothèque de Toulouse [1], daté de 1750.
+    La distribution indiquée au début du manuscrit correspond aux
+    représentations de novembre 1743.
+    Il présente quelques différences par rapport aux versions orignales
+    de 1735-1736, lesquelles sont décrites ci-dessus.  Les documents qui
+    ont permis de réaliser cette comparaison sont le livret des
+    représentations de 1736 du prologue et des quatre entrées [3], et
+    l'édition de Dukas [2].
   }
 
   \null\line\bold { Prologue }
-  \paragraph { Dans le prologue, l'ordre des pièces est différent : }
+
+  \paragraph { Dans le prologue, l'ordre des pièces du manuscrit est
+    différent de celui de la version de 1736 : }
 
   \two-column-lines {
-    \fill-line { \line \italic { Dukas } }
+    \fill-line { \line \italic { Version 1736 } }
     \line \bold { Scène I }
     \line { Hébé : \italic { Vous, qui d'Hébé suivez les lois } }
     \line \bold { Scène II }
@@ -73,10 +80,10 @@
 
   \null\line\bold { Le Turc généreux }
   \paragraph { Le récit de la scène 4 de la première entrée,
-    \italic { Le Turc généreux, } est raccourci :
+    \italic { Le Turc généreux, } est plus court dans le manuscrit :
   }
   \two-column-lines {
-    \fill-line { \line \italic { Dukas } }
+    \fill-line { \line \italic { Version 1736 } }
     \line \bold \large { SCÈNE IV }
     \line { \bold OSMAN \italic { (à Valère) } }
     \line { Esclave, je viens de t'entendre, }
@@ -137,9 +144,10 @@
   }
   \null
 
-  \paragraph { Dans la scène 5 (scène 6 chez Dukas), l'ordre des pièces diffère : }
+  \paragraph { Dans la scène 5 (scène 6 de la version de 1736), l'ordre
+    des pièces diffère : }
   \two-column-lines {
-    \fill-line { \line \italic { Dukas } }
+    \fill-line { \line \italic { Version 1736 } }
     \line \bold { Scène VI }
     \line { Marche }
     \line { Émilie, Valère, chœur : \italic { Volez, Zéphirs } }
@@ -171,7 +179,7 @@
 
   \paragraph { La ritournelle introduisant l'entrée est différente :
     fuguée à cinq voix chez Dukas, en trio dans le manuscrit de
-    1750 (appendice n°5 chez Ducas.)
+    1750 (appendice n°5 chez Dukas.)
   }
   \null
   \paragraph {
@@ -184,7 +192,7 @@
     est plus court :
   }
   \two-column-lines {
-    \fill-line { \line \italic { Dukas } }
+    \fill-line { \line \italic { Version 1736 } }
     \line \large \bold { Scène VI }
     \line { \bold HUASCAR \italic { (à Phani qui traverse le théâtre en s'enfuyant) } }
     \line { Arrêtez ! Par ces feux le ciel vient de m'apprendre }
@@ -292,20 +300,20 @@
   \paragraph {
     Pour l'entr'acte, l'édition de Dukas indique de rejouer l'air pour
     les esclaves africains de la première entrée, tandis que le
-    manuscrit indique de jouer les menuets (du prologue ?)
+    manuscrit indique de jouer les menuets (du prologue ?).
   }
 
   \null\line\bold { Les Sauvages }
   \paragraph {
     L'entrée \italic { Les Sauvages } est placée dans le manuscrit en
     troisième position, avant l'entrée \italic { Les Fleurs },
-    c'est-à-dire de manière inversée par rapport à Dukas.
+    c'est-à-dire de manière inversée par rapport à la version de 1736.
   }
 
   \null\line\bold { Les Fleurs }
   \paragraph {
-    Les premières scènes de l'entrée \italic { Les Fleurs } est
-    notablement plus courte dans le manuscrit, et les personnages
+    Les premières scènes de l'entrée \italic { Les Fleurs } sont
+    notablement plus courtes dans le manuscrit, et les personnages
     sont différents (Roxane, Fatime, Atalide, Tacmas au lieu de Ali,
     Tacmas, Zaïre, Fatime).  Cette version correspond à l'appendice
     n°7 de Dukas.
@@ -315,7 +323,7 @@
       , } scène 8 chez Dukas) présente les différences suivantes :
   }
   \two-column-lines {
-    \fill-line { \line \italic { Dukas } }
+    \fill-line { \line \italic { Version 1736 } }
     \line \bold { Scène VIII }
     \line { Marche }
     \line { Chœur : \italic { Dans le sein de Thétis } }
@@ -360,15 +368,13 @@
     manuscrit de 1750 n'en comportant pas.
   }
 
-  \null\line\bold { Orchestration }
+  \null\line\bold { Matériel d'orchestre }
   \paragraph {
     Excepté dans les pièces où un instrument (violon, hautbois,
     flûte) est explicitement indiqué, les parties de dessus ont été
     appliquées aux trois instruments dans les partitions séparées,
     et les passages hors de l'ambitus du hautbois ou de la flûte ont
-    été laissés tels quels.  Il revient à l'interprète de décider si
-    l'instrument doit jouer cette partie, transposer les passages trop
-    graves ou trop aigüs, ou laisser un silence, etc.
+    été laissés tels quels.
   }
 
   \paragraph {
@@ -377,10 +383,10 @@
     partie de basses est utilisée, sans indication d'instrument,
     excepté pour les récits où "\"Basse continue\"" est indiqué.
   }
-
+  \null
   \paragraph {
-    Si une erreur d'orchestration a été commise, ou si vous souhaitez
-    réaliser des changements par exemple dans les parties séparées,
+    Cette édition n'est en aucun cas figée, et il est possible
+    d'effectuer des corrections.  Aussi, si des erreurs ont été commises,
     merci de me faire part de vos remarques en m'écrivant à l'adresse
     \with-url #"mailto:nicolas.sceaux@free.fr" \smaller \typewriter
     "nicolas.sceaux@free.fr".
@@ -402,5 +408,13 @@
     \smaller
     \with-url #"http://imslp.org/wiki/Les_Indes_Galantes_(Rameau,_Jean-Philippe)"
     \typewriter "http://imslp.org"
+  }
+  \null
+  \line {
+    \hspace #3 [3] Louis Fuzelier. \italic { Les Indes galantes. }
+    Paris: Jean-Baptiste-Christophe Ballard, 1736.
+    \smaller
+    \with-url #"http://gallica.bnf.fr/ark:/12148/bpt6k108558p"
+    \typewriter "http://gallica.bnf.fr"
   }
 }

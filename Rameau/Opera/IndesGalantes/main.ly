@@ -1,17 +1,26 @@
 \include "Rameau/Opera/IndesGalantes/common.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Title page
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  %% Title page
   \header { title = "Les Indes Galantes" }
   \markup \null
-  \pageBreak
-  %% notes
+}
+%% Table of contents
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \markuplines \override-lines #'(column-number . 2) \table-of-contents
+}
+%% Notes
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Rameau/Opera/IndesGalantes/notes.ily"
-  \pageBreak
-  %% Table of contents
-  \markuplines \table-of-contents
+}
+%% Characters
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Rameau/Opera/IndesGalantes/personnages.ily"
 }
 
 \include "Rameau/Opera/IndesGalantes/0prologue.ily"

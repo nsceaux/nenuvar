@@ -15,7 +15,7 @@ sol'4( fad'4.)\trill sol'8 |
 sol'2. |
 r4 re'4. re'8 |
 re'8.[ do'16] do'4. re'8 |
-do'2~ sib8[\trill la] |
+do'2( sib8)[\trill la] |
 sib4( la4.)\trill sol8 |
 sol2\fermata r8 sib |
 do'4. do'8 re' mib' |

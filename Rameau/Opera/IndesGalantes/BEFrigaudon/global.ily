@@ -4,4 +4,4 @@
 \partial 4 s4 s1*7 s2. \bar ":|" s4 s1*11 s2. \bar "|." \fineMark
 \break
 \tempo "Deuxième rigaudon" \keys sol \minor
-\partial 4 s4 s1*7 s2. \bar ":|" s4 s1*15 s2. \bar "|." \dacapoMark
+s4 s1*7 s2. \bar ":|" s4 s1*15 s2. \bar "|." \dacapoMark

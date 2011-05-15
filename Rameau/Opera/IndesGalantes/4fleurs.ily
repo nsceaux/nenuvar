@@ -12,8 +12,8 @@
 \pieceTocTitle "Ritournelle"
 \includeScore "EAAritournelle"
 
-%{ n°2 %}\newBookPart #'(full)
-\scene "Scène Première"
+%{ n°2 %}
+\scene "Scène Première" "Scène 1 : Roxane, Fatime"
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Roxane, Fatime }
 }
@@ -21,7 +21,7 @@
 \includeScore "EABroxaneFatime"
 
 %{ n°3 %}
-\pieceToc \markup { Fatime : \italic { L'Hiver, dans ces jardins, n'ose outrager les fleurs } }
+\pieceToc \markup { Fatime : \italic { L'Hiver, dans ces jardins, n'ose outrager } }
 \includeScore "EACfatime"
 \partNoPageTurn #'(basse basson)
 
@@ -30,8 +30,8 @@
 \includeScore "EADroxaneFatime"
 \partNoPageTurn #'(basse basson)
 
-%{ n°5 %}\newBookPart #'(full)
-\scene "Scène II"
+%{ n°5 %}
+\scene "Scène II" "Scène 2 : Fatime, Atalide"
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Fatime, Atalide }
 }
@@ -52,7 +52,7 @@
 \partNoPageTurn #'(basse basson)
 
 %{ n°9 %}\newBookPart #'(full)
-\scene "Scène III"
+\scene "Scène III" "Scène 3 : Fatime, Atalide, Tacmas"
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Fatime, Atalide, Tacmas }
 }
@@ -61,7 +61,7 @@
 \partNoPageTurn #'(basse basson)
 
 %{ n°10 %}
-\scene "Scène IV"
+\scene "Scène IV" "Scène 4 : Fatime, Tacmas"
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Fatime, Tacmas }
 }
@@ -69,7 +69,7 @@
 \includeScore "EDAfatimeTacmas"
 
 %{ n°11 %}
-\pieceToc \markup { Fatime, Tacmas : \italic { Après l'orage, un doux repos calme les cœurs } }
+\pieceToc \markup { Fatime, Tacmas : \italic { Après l'orage, un doux repos } }
 \includeScore "EDBduo"
 
 %{ n°12 %}
@@ -78,7 +78,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°13 %}\newBookPart #'()
-\scene "Scène V"
+\scene "Scène V" "Scène 5 : Fête des Fleurs"
 \sceneDescription \markup \left-align \center-column {
   \line { La Fête des Fleurs. }
   \justify {
@@ -119,8 +119,8 @@
 \pieceToc \markup { Fatime, chœur : \italic { Triomphez, agréables fleurs ! } }
 \includeScore "EEGfatimeChoeur"
 
-%{ n°20 %}\newBookPart #'(full)
-\pieceTocTitle "Rondeau I/II"
+%{ n°20 %}
+\pieceTocTitle "Rondeaux I & II"
 \includeScore "EEHrondeau" \noPageTurn \includeScore "EEIrondeau"
 
 %{ n°21 %}\newBookPart #'(full)
@@ -147,3 +147,4 @@
 \pieceTocTitle "Gavotte"
 \includeScore "EEOgavotte"
 \actEnd "FIN DE LA QUATRIÈME ENTRÉE"
+\markup\null

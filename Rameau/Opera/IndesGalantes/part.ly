@@ -1,15 +1,18 @@
 \include "Rameau/Opera/IndesGalantes/common.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Title page
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  %% Title page
   \header { title = "Les Indes Galantes" }
   \markup \null
-  \pageBreak
-  %% Table of contents
-  \markuplines \table-of-contents
 }
+%% Table of contents
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \markuplines\abs-fontsize-lines #8 \table-of-contents
+}
+
 \partBlankPageBreak #'(basson)
 \include "Rameau/Opera/IndesGalantes/0prologue.ily"
 \include "Rameau/Opera/IndesGalantes/1turc.ily"

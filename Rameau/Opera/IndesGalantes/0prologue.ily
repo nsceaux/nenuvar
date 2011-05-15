@@ -6,17 +6,17 @@
 \sceneDescription \markup \fill-line {
   \line { Le Théâtre représente le palais d'Hébé. }
 }
-\pieceTitle "Ouverture"
+\pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
 
 %{ n°2 %}\newBookPart #'(full)
-\scene "Scène Première"
+\scene "Scène Première" "Scène 1 : Hébé"
 \sceneDescription \markup \fill-line { \line { \smallCaps Hébé } }
 \pieceToc \markup { Hébé : \italic { Vous, qui d'Hébé suivez les lois } }
 \includeScore "AABhebe"
 
 %{ n°3 %}\newBookPart #'(full)
-\scene "Scène II"
+\scene "Scène II" \markup \wordwrap { Scène 2 : Troupe de jeunesse française, espagnole, italienne et polonaise }
 \pieceTocTitle "Entrée des quatre Nations"
 \sceneDescription \markup \wordwrap-center {
   Troupe de jeunesse française, espagnole, italienne et polonaise, qui
@@ -25,7 +25,7 @@
 \includeScore "ABAentree"
 
 %{ n°4 %}
-\pieceToc \markup { Hébé : \italic { Amants sûrs de plaire, Suivez votre ardeur ! } }
+\pieceToc \markup { Hébé : \italic { Amants sûrs de plaire } }
 \includeScore "ABBhebe"
 
 %{ n°5 %}\newBookPart #'(full)
@@ -39,12 +39,12 @@
 \pieceTocTitle "Musette en rondeau" \includeScore "ABErondeau"
 
 %{ n°8 %}
-\pieceToc \markup { Hébé :  \italic { Qu'entends-je ! Les tambours font taire nos musettes ? } }
+\pieceToc \markup { Hébé :  \italic { Qu'entends-je ! } }
 \includeScore "ABFhebe"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°9 %}\newBookPart #'()
-\scene "Scène III"
+\scene "Scène III" "Scène 3 : Bellone, Hébé et sa suite"
 \sceneDescription \markup \left-align \center-column {
   \line { \smallCaps Bellone, \smallCaps Hébé et sa suite.}
   \wordwrap-center {
@@ -53,7 +53,7 @@
     Elle invite la suite d'Hébé à n'aimer que la gloire.
   }
 }
-\pieceToc \markup { Bellone, Chœur : \italic { La Gloire vous appelle : écoutez ses trompettes ! } }
+\pieceToc \markup { Bellone, Chœur : \italic { La Gloire vous appelle } }
 \includeScore "ACAbellone"
 
 %{===%}
@@ -68,21 +68,21 @@
 \includeScore "ACDbellone"
 
 %{ n°12 %}\newBookPart #'(full)
-\pieceTocTitle "Air pour les amants et amantes qui suivent Bellone"
+\pieceTocTitle "Air pour les amants et amantes qui suivent bellone"
 \includeScore "ACEair"
 
 %{ n°13 %}
-\pieceToc \markup { Chœur : \italic { Vous nous abandonnez. Quelle peine mortelle ! } }
+\pieceToc \markup { Chœur : \italic { Vous nous abandonnez } }
 \includeScore "ACFchoeur"
 
 %{ n°14 %}\newBookPart #'(full)
-\scene "Scène IV"
+\scene "Scène IV" "Scène 4 : Hébé"
 \sceneDescription \markup \left-align \center-column { \smallCaps Hébé }
-\pieceToc \markup { Hébé : \italic { Bellone les entraîne... } }
+\pieceToc \markup { Hébé : \italic { Bellone les entraîne } }
 \includeScore "ADAhebe"
 
 %{ n°15 %}\newBookPart #'(violon2)
-\scene "Scène V"
+\scene "Scène V" "Scène 5 : L'Amour, Hébé et sa suite"
 \sceneDescription \markup \left-align \center-column {
   \line { \smallCaps L'Amour, \smallCaps Hébé, suite de Hébé. }
   \wordwrap-center {
@@ -96,11 +96,11 @@
 \includeScore "AEAannonce"
 
 %{ n°16 %}
-\pieceToc \markup { L'Amour, Hébé : \italic { Pourquoi Mars à l'Amour déclara-t-il la guerre ? } }
+\pieceToc \markup { L'Amour, Hébé : \italic { Pourquoi Mars à l'Amour } }
 \includeScore "AEBamourHebe"
 
 %{ n°17 %}\newBookPart #'(full)
-\pieceToc \markup { L'Amour : \italic { Ranimez vos flambeaux, remplissez vos carquois } }
+\pieceToc \markup { L'Amour : \italic { Ranimez vos flambeaux } }
 \includeScore "AECamour"
 
 %{ n°18 %}\newBookPart #'(full)
@@ -108,15 +108,13 @@
 \includeScore "AEDair"
 
 %{ n°19 %}
-\pieceTocTitle "Menuet I/II"
+\pieceTocTitle "Menuets I & II"
 \includeScore "AEEmenuet"
 \noPageTurn
 \includeScore "AEFmenuet"
 
-%{ n°20 %}\newBookPart #'(full)
+%{ n°20 %}
 \pieceToc \markup { L'Amour, Hébé, Chœur : \italic { Traversez les plus vastes mers } }
 \includeScore "AEGamourHebe"
-
-%{===%}\newBookPart #'(full)
 \includeScore "AEHchoeur"
 \actEnd "FIN DU PROLOGUE"

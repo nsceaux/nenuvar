@@ -2,8 +2,11 @@
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff <<
-        \instrumentName "Violons"
-        \global \keepWithTag #'conducteur \includeNotes "dessus" >>
+        \instrumentName "Violons I"
+        \global \keepWithTag #'violon1 \includeNotes "dessus" >>
+      \new Staff <<
+        \instrumentName "Violons II"
+        \global \keepWithTag #'violon2 \includeNotes "dessus" >>
       \new Staff <<
         \instrumentName \markup \center-column { Haute-contres Tailles }
         \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille" >>
@@ -12,16 +15,16 @@
         \global \includeNotes "basson" >>
     >>
     \new ChoirStaff <<
-      \new Staff \withLyrics <<
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-dessus"
       >> \includeLyrics "paroles1"
-      \new Staff \withLyrics <<
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-haute-contre"
       >> \includeLyrics "paroles24"
-      \new Staff \withLyrics <<
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-taille"
       >> \includeLyrics "paroles3"
-      \new Staff \withLyrics <<
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-basse"
       >> \includeLyrics "paroles24"
     >>
@@ -29,6 +32,9 @@
       \instrumentName "Basses"
       \global \includeNotes "basse" >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    indent = \largeindent
+    incipit-width = 1.2\cm
+  }
   \midi { }
 }

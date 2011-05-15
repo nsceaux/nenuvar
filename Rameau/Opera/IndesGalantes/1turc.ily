@@ -10,7 +10,7 @@
 \includeScore "BAAritournelle"
 
 %{ n°2 %}\newBookPart #'(full)
-\scene "Scène Première"
+\scene "Scène Première" "Scène 1 : Émilie, Osman"
 \sceneDescription \markup \fill-line { \line \smallCaps { Émilie, Osman } }
 \pieceToc \markup { Émilie, Osman }
 \includeScore "BABemilieOsman"
@@ -19,17 +19,18 @@
 \pieceToc \markup { Émilie : \italic { Dans le séjour témoin de ma naissance } }
 \includeScore "BACemilie"
 
-%{ n°4 %}\newBookPart #'(full)
+%{ n°4 %}
 \pieceToc \markup { Émilie, Osman }
 \includeScore "BADemilieOsman"
 \partNoPageTurn #'(basse basson)
 
-%{ n°5 %}\newBookPart #'(full)
+%{ n°5 %}
 \pieceToc \markup { Osman : \italic { C'est trop m'accabler par vos pleurs } }
 \includeScore "BAEosman"
 
 %{ n°6 %}\newBookPart #'(full)
 %% Scène II
+%\scene "Scène II" "Scène 2 : Émilie, Osman, chœur de matelots"
 \pieceToc \markup { Osman, Émilie }
 \includeScore "BBAosmanEmilie"
 
@@ -38,7 +39,7 @@
 \includeScore "BBBtempete"
 
 %{ n°8 %}\newBookPart #'(full)
-\pieceToc \markup { Chœur : \italic { Ciel ! De plus d'une mort nous redoutons les coups ! } }
+\pieceToc \markup { Chœur : \italic { Ciel ! De plus d'une mort } }
 \includeScore "BBCchoeur"
 \partNoPageTurn #'(violon1 violon2 flute1 flute2 haute-contre taille basse basson)
 %{ n°9 %}\newBookPart #'(full)
@@ -48,25 +49,24 @@
 %{ n°10 %}\newBookPart #'(full)
 \pieceToc \markup { Chœur : \italic { Que nous sert d'échapper à la fureur des mers ? } }
 \includeScore "BBEchoeur"
-
 %{===%}
 \includeScore "BBFemilie"
 
 %{ n°11 %}\newBookPart #'(full)
-\scene "Scène III"
+\scene "Scène III" "Scène 3 : Émilie, Valère"
 \sceneDescription \markup \fill-line { \line { \smallCaps { Émilie, Valère } (en esclave) } }
 \pieceToc \markup { Émilie, Valère }
 \includeScore "BCAemilieValere"
 
 %{ n°12 %}\newBookPart #'(full)
-\scene "Scène IV"
+\scene "Scène IV" "Scène 4 : Émilie, Valère, Osman"
 \sceneDescription \markup \fill-line { \line \smallCaps { Émilie, Valère, Osman } }
 \pieceToc \markup { Émilie, Valère, Osman }
 \includeScore "BDAevo"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°13 %}\newBookPart #'()
-\scene "Scène V"
+\scene "Scène V" \markup \wordwrap { Scène 5 : Émilie, Valère, provençaux et provençales, escalves africains }
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Émilie, Valère, }
   \line { Provençaux et Provençales de leur escadre, }
@@ -75,12 +75,12 @@
 \pieceTocTitle "Marche"
 \includeScore "BEAmarche"
 
-%{ n°14 %}\newBookPart #'(full)
-\pieceToc \markup { Émilie, Valère : \italic { Volez, Zéphyrs, tendres amants de Flore ! } }
+%{ n°14 %}
+\pieceToc \markup { Émilie, Valère : \italic { Volez, Zéphyrs } }
 \includeScore "BEBduo"
 
-%{ n°15 %}\newBookPart #'(full)
-\pieceToc \markup { Chœur : \italic { Volez, Zéphyrs, tendres amants de Flore ! } }
+%{ n°15 %}
+\pieceToc \markup { Chœur : \italic { Volez, Zéphyrs } }
 \includeScore "BECchoeur"
 
 %{ n°16 %}\newBookPart #'(full)
@@ -92,7 +92,7 @@
 \includeScore "BEEvalere"
 
 %{ n°18 %}\newBookPart #'(full)
-\pieceTocTitle "Rigaudon I/II"
+\pieceTocTitle "Rigaudons I & II"
 \includeScore "BEFrigaudon"
 
 %{ n°19 %}
@@ -100,7 +100,7 @@
 \includeScore "BEGemilie"
 
 %{ n°20 %}\newBookPart #'(full)
-\pieceTocTitle "Tambourin I/II"
+\pieceTocTitle "Tambourins I & II"
 \includeScore "BEHtambourin"
 
 %{ n°21 %}\newBookPart #'(full)
@@ -108,7 +108,7 @@
 \includeScore "BEIariette"
 
 %{ n°22 %}\newBookPart #'(full)
-\pieceTocTitle "Tambourin I/II"
+\pieceTocTitle "Tambourins I & II"
 \reIncludeScore "BEHtambourin" "BEItambourin"
 
 %{ n°23 %}\newBookPart #'(full)

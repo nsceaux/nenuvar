@@ -52,7 +52,7 @@ la4. fad8 sol sol, |
 re2. |
 R2.*2 |
 r4 r8 re re re |
-sol2.~ |
+sol2. |
 r4 r8 sol sol sol |
 do'2. |
 r4 r8 la la la |

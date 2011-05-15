@@ -1,20 +1,22 @@
 \include "Rameau/Opera/IndesGalantes/common.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Title page
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  %% Title page
   \header { title = "Les Indes Galantes" }
   \markup \null
-  \pageBreak
-  %% Table of contents
-  \markuplines \table-of-contents
+}
+%% Table of contents
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \markuplines\abs-fontsize-lines #8 \table-of-contents
 }
 
 %%% Prologue scène 3
 \bookpart {
   \actn "Prologue"
-  \scene "Scène III"
+  \scene "Scène III" "Scène 3 : Bellone, Hébé et sa suite"
   \pieceTocNb "0-9" \markup {
     Bellone, Chœur : \italic { La Gloire vous appelle : écoutez ses trompettes ! } }
   \includeScore "ACAbellone"
