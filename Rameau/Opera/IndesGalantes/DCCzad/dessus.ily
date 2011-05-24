@@ -47,8 +47,10 @@ R1*2 |
     la'4 re'8 re'4. |
     si2
   }
-  \tag #'(conducteur1 hautbois1 violon1 flute1) << { s4. s4 s8^"Hautbois" } \hbtI >>
-  \tag #'(conducteur2 hautbois2 violon2 flute2) << { s4. s4 s8^"Hautbois" } \hbtII >>
+  \tag #'(conducteur1 hautbois1 violon1 flute1) <<
+    { s4. s4 s8^\markup\whiteout "Hautbois" } \hbtI >>
+  \tag #'(conducteur2 hautbois2 violon2 flute2) <<
+    { s4. s4 s8^\markup\whiteout "Hautbois" } \hbtII >>
 >>
 <<
   \setMusic #'vlnI {

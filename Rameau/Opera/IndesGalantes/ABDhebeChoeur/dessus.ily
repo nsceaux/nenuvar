@@ -88,7 +88,7 @@
 \setMusic #'fluteI {
   r8 |
   R2.*17 |
-  r2 r8 re''^"Petites flûtes" |\noBreak
+  r2 r8 re''^\markup\whiteout "Petites flûtes" |\noBreak
   sol''8.( la''32 sol'') sol''4.(\trill fad''16 sol'') |
   la''8.( si''32 la'') la''4.(\trill sol''16 la'') |
   si''4 r2 |
@@ -104,7 +104,7 @@
 \setMusic #'fluteII {
   r8 |
   R2.*18 |
-  r2 r8 re'''^"Petites flûtes" |\noBreak
+  r2 r8 re'''^\markup\whiteout "Petites flûtes" |\noBreak
   fad''8.( sol''32 fad'') fad''4.(\trill mi''16 fad'') |
   sol''4 r2 |
   R2.*2 |

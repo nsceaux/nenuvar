@@ -14,7 +14,7 @@ R2. |
 \tag #'haute-contre { \rp#7 re'2. | re'2 }
 \tag #'taille { \rp#7 sol2. | sol2 }
 \tag #'conducteur { \ru#7 <sol re'>2. | <sol re'>2 }
-r4-\tag #'conducteur ^"Haute-contres et tailles"|
+r4-\tag #'conducteur ^\markup\whiteout "Haute-contres et tailles"|
 r2 r8 sol'8 |
 si'2 si'8 si' |
 re''2 si'8 si' |
