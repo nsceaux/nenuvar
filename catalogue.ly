@@ -1,8 +1,8 @@
 \version "2.15.0"
-\include "common/common.ily"
+\include "common/catalogue.ily"
 
 #(define nenuvar-catalog
-   `(("Lully, Jean-Baptiste (1632-1687)"
+   `(("Jean-Baptiste Lully (1632-1687)"
       (("La revente des habits du ballet"
         #:description "Ballet créé au Louvre en 1660, livret de Benserade."
         #:key "Lully/Ballet/LWV05"
@@ -35,7 +35,7 @@
         #:key "Lully/Ballet/LWV22"
         #:opus "LWV-22"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=27"
-        #:main ((a4 #f)))
+        #:main ((a4 "Partition complète")))
 
         ("Le Bourgeois Gentilhomme"
         #:description "Comédie ballet de Molière et Lully, 1670."
@@ -118,7 +118,7 @@
                  (basse-continue "Basse continue")
                  (voix "Parties vocales")))))
 
-     ("Charpentier, Marc-Antoine (1643-1703)"
+     ("Marc-Antoine Charpentier (1643-1703)"
       (("David et Jonathas"
         #:description "Tragédie en musique, livret de F. de P. Bretonneau, 1688."
         #:key "Charpentier/Opera/DavidEtJonathas"
@@ -181,12 +181,8 @@
                  (basse-continue "Basse continue")
                  (voix "Parties vocales")))))
 
-     ("Couperin, François (1668-1733)"
-      (("L'Art de toucher le clavecin"
-        #:key "Couperin/Clavecin/lArtDeToucherLeClavecin"
-        #:url "http://nicolas.sceaux.free.fr/index.php?p=4"
-        #:main ((a4 "Livre complet")))
-       ("Motets à voix seule, deux ou trois parties"
+     ("François Couperin (1668-1733)"
+      (("Motets à voix seule, deux ou trois parties"
         #:key "Couperin/Motets"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=23"
         #:description
@@ -201,136 +197,103 @@
                            "Élévation O misterium ineffabile"
                            "Élévation O amor"))
         #:main ((a4 "Partition complète")))
+       ("Messe pour les convents"
+        #:description "Pour orgue."
+        #:key "Couperin/Orgue/MesseCouvents"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=25"
+        #:main ((a4 "Partition complète")))
+       ("L'Art de toucher le clavecin"
+        #:key "Couperin/Clavecin/lArtDeToucherLeClavecin"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=4"
+        #:main ((a4 "Livre complet")))))
+
+     ("Joseph Bodin de Boismortier (1689-1755)"
+      (("Suites à deux musettes"
+        #:description ,(markup #:wordwrap-string "Douze suites pour deux musettes, opus 17 et opus 11, qui conviennent aux vièles, flûtes à bec, flûtes traversieres, et haubois.")
+        #:key "PancraceRoyer/PremierLivre"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=48"
+        #:main ((a4 "Partition complète")))))
+
+     ("Joseph Nicolas Pancrace Royer (1705-1755)"
+      (("Premier livre de pièces de clavecin"
+        #:key "PancraceRoyer/PremierLivre"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=41"
+        #:main ((a4 "Partition complète")))))
+
+     ("Jean-Philippe Rameau (1683-1764)"
+      (("Hippolyte et Aricie"
+        #:description ,(markup #:wordwrap-string  "Tragédie lyrique, livret de S-J. Pellegrin, version de 1757.")
+        #:key "Rameau/Opera/HippolyteEtAricie"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=24"
+        #:main ((a4 "Conducteur")
+                (rehearsal #f))
+        #:parts ((flute1 "Flûte I")
+                 (flute2 "Flûte II")
+                 (hautbois1 "Hautbois I")
+                 (hautbois2 "Hautbois II")
+                 (trompette "Trompette")
+                 (cor "Cor en ré")
+                 (basson "Basson")
+                 (violon1 "Violon I")
+                 (violon2 "Violon II")
+                 (haute-contre "Haute-contre")
+                 (taille "Taille")
+                 (basse "Basses")
+                 (timbales "Timbales")
+                 (basse-continue "Basse continue")
+                 (voix "Parties vocales")))
+       ("Les Indes Galantes"
+        #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1743.")
+        #:key "Rameau/Opera/IndesGalantes"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
+        #:main ((a4 "Conducteur")
+                (rehearsal #f))
+        #:parts ((flute1 "Flûte I")
+                 (flute2 "Flûte II")
+                 (hautbois1 "Hautbois I")
+                 (hautbois2 "Hautbois II")
+                 (trompette "Trompette")
+                 (basson "Basson")
+                 (violon1 "Violon I")
+                 (violon2 "Violon II")
+                 (haute-contre "Haute-contre")
+                 (taille "Taille")
+                 (basse "Basses")
+                 (timbales "Timbales")
+                 (voix "Parties vocales")))
+       ("Les Fêtes de Ramire"
+        #:description ,(markup #:wordwrap-string  "Acte de ballet, livret de Voltaire, 1745.")
+        #:key "Rameau/Opera/lesFetesDeRamire"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=22"
+        #:main ((a4 "Conducteur")
+                (rehearsal #f))
+        #:parts ((flute1 "Flûte I")
+                 (flute2 "Flûte II")
+                 (hautbois1 "Hautbois I")
+                 (hautbois2 "Hautbois II")
+                 (trompette1 "Trompette I")
+                 (trompette2 "Trompette II")
+                 (cor1 "Cor I")
+                 (cor2 "Cor II")
+                 (violon1 "Violon I")
+                 (violon2 "Violon II")
+                 (haute-contre "Haute-contre")
+                 (taille "Taille")
+                 (basse "Basses")
+                 (voix "Parties vocales")))
+       ("Les Paladins [EN COURS]"
+        #:description ,(markup #:wordwrap-string  "Comédie lyrique, livret de J-F. Duplat de Monticourt, 1760.")
+        #:key "Rameau/Opera/Paladins"
+        #:main ((a4 #f)
+                (rehearsal #f)))
+       ("Pièces de clavecin en concert"
+        #:description "Pour violon, viole, clavecin. 1741."
+        #:key "Rameau/Concerts/PiecesDeClavecinEnConcerts"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=44"
+        #:main ((a4 "Conducteur"))
+        #:parts ((violon-viole "Violon et viole")
+                 (clavecin "Clavecin")))
        ))))
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-#(use-modules (ice-9 optargs))
-
-#(define-markup-command (column layout props args)
-     (markup-list?)
-   #:category align
-   #:properties ((baseline-skip))
-   (let ((arg-stencils (interpret-markup-list layout props args)))
-     (stack-lines -1 0.0 0
-                  (space-lines baseline-skip
-                               (remove ly:stencil-empty? arg-stencils)))))
-
-#(define (print-score key name title . rest)
-   (markup #:hspace 5 "⁃" title))
-
-#(define* (print-opus title #:key description key opus url main parts)
-   (let ((title-markup (make-fontsize-markup
-                        1
-                        (make-concat-markup
-                         (append! (if opus
-                                      (list (markup #:fontsize -2 #:concat ("[" opus "]")
-                                                    #:hspace 1))
-                                      (list))
-                                  (list (markup #:italic title))))))
-         (descr-markup (make-column-markup (if description (list description) (list))))
-         (books-markup (make-column-markup
-                         (if main
-                             (map (lambda (book-spec)
-                                    (markup #:hspace 3 (cadr book-spec)))
-                                  (filter cadr main))
-                             (list))))
-         (parts-markup (make-column-markup
-                         (if parts
-                             (cons (markup #:hspace 3 "Matériel d'orchestre :")
-                                   (map (lambda (part-spec)
-                                          (apply print-score key part-spec))
-                                        parts))
-                             (list))))
-         (url-markup (make-column-markup
-                      (if url
-                          (list (markup #:fontsize -2 #:with-url url #:typewriter url))
-                          (list)))))
-     (markup #:force-line-width-ratio 0.45
-             #:column (#:fontsize 1 title-markup
-                                  descr-markup
-                                  books-markup
-                                  parts-markup
-                                  url-markup
-                                  #:vspace 1))))
-
-#(define-markup-command (composer-section layout props composer-works) (list?)
-   #:properties ((column-number 2)
-                 (inter-column-padding 6))
-   (let* ((title-item (car composer-works))
-          (items (cadr composer-works))
-          (item-stencils
-           (map (lambda (item)
-                  (interpret-markup layout props
-                                    (apply print-opus item)))
-                items))
-          (title-stencil
-           (if (null? title-item)
-               empty-stencil
-               (interpret-markup
-                layout props
-                (markup #:column (#:fill-line (#:fontsize 3 #:italic title-item) #:vspace 0.5)))))
-          (total-height (reduce + 0 (map (lambda (stencil)
-                                           (interval-length (ly:stencil-extent stencil Y)))
-                                         item-stencils)))
-          (average-height (/ total-height column-number)))
-     (let fill-columns ((lines item-stencils)
-                        (current-column-index 1)
-                        (current-column-height 0)
-                        (current-column-lines '())
-                        (previous-columns '()))
-       (if (null? lines)
-           ;; the end result: the section title and the items on several columns
-           (stack-lines
-            DOWN 0 0
-            (list title-stencil
-                  (stack-stencil-line
-                   0
-                   (reverse! (if current-column-lines
-                                 (cons (stack-lines
-                                        DOWN 0 0
-                                        (reverse! current-column-lines))
-                                       previous-columns)
-                                 previous-columns)))))
-           ;; go on collecting the item stencils into columns
-           (let* ((line (car lines))
-                  (height (interval-length (ly:stencil-extent line Y))))
-             (if (and (< current-column-index column-number)
-                      (>= (+ current-column-height height) average-height))
-                 ;; this line ends filling this column
-                 ;; => start a new column after it
-                 (fill-columns (cdr lines)
-                               (1+ current-column-index)
-                               0
-                               '()
-                               (cons (ly:make-stencil
-                                      "" (cons 0 inter-column-padding) '(0 . 0))
-                                     (cons (stack-lines
-                                            DOWN 0 0
-                                            (reverse! (cons line current-column-lines)))
-                                           previous-columns)))
-                 ;; there is still room in this column
-                 ;; => go on filling it
-                 (fill-columns (cdr lines)
-                               current-column-index
-                               (+ current-column-height height)
-                               (cons line current-column-lines)
-                               previous-columns)))))))
-
-#(define-markup-list-command (catalog layout props catalog) (list?)
-   (interpret-markup-list
-    layout props
-    (make-column-lines-markup-list
-     (map (lambda (composer-works)
-            (markup #:composer-section composer-works))
-          catalog))))
-           
-
-\header {
-  tagline = ##f
-  longcopyright = ##f
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 #(set-global-staff-size 16)
 \bookpart {
