@@ -18,7 +18,7 @@ re |
 re'4 re'8 mi' re'4 la |
 si la8 sol fad4 mi8 re |
 sol la sol fad mi4 re |
-la la, la, r |
+la la, la, r |\allowPageTurn
 r2 la4 sol |
 fad1 |
 mi2 la |

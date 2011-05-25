@@ -18,7 +18,7 @@
   \actn "Prologue"
   \scene "Scène III" "Scène 3 : Bellone, Hébé et sa suite"
   \pieceTocNb "0-9" \markup {
-    Bellone, Chœur : \italic { La Gloire vous appelle : écoutez ses trompettes ! } }
+    Bellone, Chœur : \italic { La Gloire vous appelle } }
   \includeScore "ACAbellone"
   \includeScore "ACBchoeur"
   \pieceTocTitleNb "0-10" "Air pour deux guerriers portant les drapeaux"

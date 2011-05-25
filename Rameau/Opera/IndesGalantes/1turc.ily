@@ -66,7 +66,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°13 %}\newBookPart #'()
-\scene "Scène V" \markup \wordwrap { Scène 5 : Émilie, Valère, provençaux et provençales, escalves africains }
+\scene "Scène V" \markup \wordwrap { Scène 5 : Émilie, Valère, provençaux et provençales, esclaves africains }
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Émilie, Valère, }
   \line { Provençaux et Provençales de leur escadre, }
