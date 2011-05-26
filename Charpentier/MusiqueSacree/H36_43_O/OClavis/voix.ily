@@ -16,7 +16,7 @@
     do''1^\markup\orig-version "tous" |
     do''2. r4 |
     R1*2 |
-    r4 mi''^\markup\orig-version "tous" fa'' |
+    r4^\markup\orig-version\center-align "tous" mi'' fa'' |
     mi''2 mi''4 |
     R1*10 |
     R1. |
@@ -55,7 +55,7 @@
     mi'2. mi'4^\markup "seul" |
     fa' fa' fa'4. mi'8 |
     fa'1 |
-    r4^\markup\mod-version "tous" sol'^\markup\orig-version "tous" la' |
+    r4^\markup\mod-version "tous"^\markup\orig-version\center-align "tous" sol' la' |
     sol'2 sol'4 |
     R1 |
     r2 do'^\markup "seul" |
@@ -100,7 +100,7 @@
     lab1^\markup\orig-version "tous" |
     sol2. r4 |
     R1*2 |
-    r4 do'^\markup\orig-version "tous" do' |
+    r4^\markup\orig-version\center-align "tous" do' do' |
     do'2 do'4 |
     R1 |
     r2 la^\markup "seul" |
@@ -145,7 +145,7 @@
     fa1^\markup\orig-version "tous" |
     do2. r4 |
     R1*2 |
-    r4 do^\markup\orig-version "tous" fa |
+    r4^\markup\orig-version\center-align "tous" do fa |
     do2 do4 |
     do2^\markup "seul" re |
     mi fa~ |

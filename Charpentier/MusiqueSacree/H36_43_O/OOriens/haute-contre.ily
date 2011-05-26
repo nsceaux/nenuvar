@@ -1,5 +1,5 @@
 \clef "haute-contre" R1.*13 |
-r4 dod''^\markup\orig-version "tous" dod'' |
+r4_\markup\orig-version\large "reprise" dod''^\markup\orig-version "tous" dod'' |
 re'' re'' re'' |
 si' si' si' |
 dod'' dod''4. dod''8 |
@@ -14,7 +14,7 @@ lad'1 si'2 |
 dod'' fad'1 |
 fad'1. |
 R1. |
-\whiteNoteHeadsOff r4 si' dod'' |
+\whiteNoteHeadsOff r4^\markup\orig-version\bold\center-align "guay" si' dod'' |
 si' fad' fad' |
 sold' sold' fad' |
 mi' mi'4. mi'8 |

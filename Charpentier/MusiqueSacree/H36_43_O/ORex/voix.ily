@@ -4,7 +4,7 @@ dod'8 la r4 r la'8 sol' |
 fa'8.\prall mi'16 re'4 sol'~ sol'16 fa' mi' re' |
 dod'8[ la re' do'?16 re']( si8)[ re' sol' fa'16 sol']( |
 mi'8)[ fa'16 sol' la' sib' sol' la']( fa'8)[ sol'16 la' sib' la' sol' fad']( |
-sol'4) fa'8.\prall mi'16 fa'4( mi')\prall |
+sol'4) fa'8.\prall mi'16 \slurPrall fa'4( mi') |
 re' r r2 |
 R1*2 |
 r4 fa' mi'8 fa' sol'8. mi'16 |

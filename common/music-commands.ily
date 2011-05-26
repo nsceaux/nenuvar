@@ -65,12 +65,58 @@ forceFullClef = {
 fullClef = \override Staff.Clef #'full-size-change = ##t
 
 %% Articulation used Charpentier: a dot, followed by a prall sign
+dotSign = "╸"
 dotPrall =
 #(make-music 'TextScriptEvent
              'direction UP
              'text (markup #:override '(word-space . 2)
-                           #:line (#:vcenter "•"
-                                             #:vcenter #:musicglyph "scripts.prall" )))
+                           #:line (#:vcenter dotSign #:vcenter #:musicglyph "scripts.prall" )))
+
+doublePrall =
+#(make-music 'TextScriptEvent
+             'direction UP
+             'text (markup #:override '(baseline-skip . 0)
+                           #:left-align #:column (#:musicglyph "scripts.prall" #:musicglyph "scripts.prall")))
+
+%% A slur and a prall, both joined on their right ends
+slurPrall = {
+  \once\override Slur #'direction = #UP
+  \once\override Slur #'text = \markup\musicglyph #"scripts.prall"
+  \once\override Slur #'stencil =
+  #(lambda (grob)
+     (let* ((slur-stencil (ly:slur::print grob))
+            (coords (ly:slur::calc-control-points grob))
+            (X-ext (ly:stencil-extent slur-stencil X))
+            (Y-ext (ly:stencil-extent slur-stencil Y))
+            (text-stencil (ly:text-interface::print grob))
+            (text-width (interval-length (ly:stencil-extent text-stencil X)))
+            (prall-stencil (ly:stencil-translate
+                            (ly:stencil-aligned-to text-stencil X LEFT)
+                            (cons (- (cdr X-ext) text-width 0.17)
+                                  (+ (if (< (cdr (list-ref coords 3)) 2.8)
+                                         (- 2.8 (cdr (list-ref coords 3)))
+                                         0.5)
+                                     (- (cdr (list-ref coords 3)) 0.15)))))
+            (combo-stencil (ly:stencil-add slur-stencil prall-stencil)))
+       (ly:stencil-translate combo-stencil (cons 0 0))))
+  \once\override Slur #'control-points =
+  #(lambda (grob)
+     (let* ((coords (ly:slur::calc-control-points grob))
+            (point-0 (list-ref coords 0))
+            (point-1 (list-ref coords 1))
+            (point-2 (list-ref coords 2))
+            (point-3 (list-ref coords 3))
+            (text-stencil (ly:text-interface::print grob))
+            (text-width (interval-length (ly:stencil-extent text-stencil X))))
+       (set-cdr! point-1 (+ (cdr point-1) 1))
+       (set-car! point-2 (+ (car point-2) (/ text-width 1.0)))
+       (set-car! point-3 (+ (car point-3) 0.34 (/ text-width 2.0)))
+       (set-cdr! point-3 (if (< (cdr point-3) 2.8)
+                             2.8
+                             (+ 0.5 (cdr point-3))))
+       (set-cdr! point-2 (+ (cdr point-3) 2.0))
+       coords))
+}
 
 %% For quarter note with eighth note flag and half note note head (in e.g. 3/2)
 #(define-public (calc-white-note-head-glyph grob)
@@ -250,6 +296,68 @@ figPosOff = {
   \revert BassFigureContinuation #'stencil
   \revert Staff.BassFigureContinuation #'stencil
 }
+
+%% geometric figures
+
+#(define-markup-command (triangle-up layout props a b c) (markup? markup? markup?)
+   (let ((base (interpret-markup layout props (markup #:tiny #:line (#:number b #:number c))))
+         (top (interpret-markup layout props (markup #:tiny #:number a))))
+     (let* ((base-width (interval-length (ly:stencil-extent base X)))
+            (top-width (interval-length (ly:stencil-extent top X)))
+            (top-left-padding (/ (- base-width top-width) 2.0)))
+       (stack-lines DOWN 0.0 2
+                    (list
+                     (stack-stencil-line 0 (list (ly:make-stencil "" `(0 . ,top-left-padding) '(0 . 0))
+                                                 top))
+                     base)))))
+
+#(define-markup-command (triangle-down layout props a b c) (markup? markup? markup?)
+   (let ((base (interpret-markup layout props (markup #:tiny #:line (#:number a #:number b))))
+         (bottom (interpret-markup layout props (markup #:tiny #:number c))))
+     (let* ((base-width (interval-length (ly:stencil-extent base X)))
+            (bottom-width (interval-length (ly:stencil-extent bottom X)))
+            (bottom-left-padding (/ (- base-width bottom-width) 2.0)))
+       (stack-lines DOWN 0.0 2
+                    (list
+                     base
+                     (stack-stencil-line 0 (list (ly:make-stencil "" `(0 . ,bottom-left-padding) '(0 . 0))
+                                                 bottom)))))))
+
+#(define-markup-command (parallelogram-up-left layout props a b c d) (markup? markup? markup? markup?)
+   (let ((top (interpret-markup layout props (markup #:tiny #:line (#:number a #:number b))))
+         (bottom (interpret-markup layout props (markup #:tiny #:line (#:number c #:number d)))))
+     (let* ((top-width (interval-length (ly:stencil-extent top X)))
+            (bottom-left-padding (/ (- top-width
+                                       (interval-length
+                                        (ly:stencil-extent
+                                         (interpret-markup layout props (markup #:tiny #:number c)) X)))
+                                    2.0)))
+       (stack-lines DOWN 0.0 2
+                    (list
+                     top
+                     (stack-stencil-line 0 (list (ly:make-stencil "" `(0 . ,bottom-left-padding) '(0 . 0))
+                                                 bottom)))))))
+
+#(define-markup-command (square layout props a b c d) (markup? markup? markup? markup?)
+   (let ((top (interpret-markup layout props (markup #:tiny #:line (#:number a #:number b))))
+         (bottom (interpret-markup layout props (markup #:tiny #:line (#:number c #:number d)))))
+     (stack-lines DOWN 0.0 2 (list top bottom))))
+
+#(define-markup-command (figure-sharp layout props) ()
+   (interpret-markup
+    layout props
+    (markup #:tiny #:concat (#:null #:raise 0.7 #:fontsize -2 #:sharp))))
+
+#(define-markup-command (figure-flat layout props) ()
+   (interpret-markup
+    layout props
+    (markup #:tiny #:concat (#:null #:raise 0.7 #:fontsize -2 #:flat))))
+
+#(define-markup-command (paren-sharp layout props num) (markup?)
+   (interpret-markup
+    layout props
+    (markup #:tiny #:concat (#:null #:raise 0.2 #:line ("(" #:figure-sharp ")")
+                                    #:number num ))))
 
 %%%
 %%% On-demand hara-kiri

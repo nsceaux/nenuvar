@@ -65,7 +65,7 @@
     re' sib re'4. mi'8 |
     fa'4 fa' sib4. do'8 |
     re'4 re' re' re' |
-    mib'8[ re' mib' fa' mib' fa' mib' re']( |
+    mib'8[ re' mib' fa' mib' fa' mib'( re'] |
     do')[ sib do' reb' do' reb' do' sib]( |
     lab4) do' sib2 |
     sib4 sib lab4. sib8 |

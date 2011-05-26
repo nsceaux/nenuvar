@@ -149,7 +149,8 @@
     re'2 si2. si4 |
     \whiteNoteHeadsOn
     do'1 sib8*2[ la] |
-    sol2~ sol2.\prall fa8*2 |
+    \override TextScript #'padding = #1 sol2^\dotSign ~ sol2.\prall fa8*2 |
+    \revert TextScript #'padding
     \whiteNoteHeadsOff |
     fa1. |
     la2 fa2. la4 |
@@ -181,7 +182,7 @@
     r4 sol do' |
     la4\prall la re' |
     sib4. sib8 sib4 |
-    la sol2 |
+    la sol2\prall |
     fa4 re fa |
     do2~ do8. do16 |
     fa2. |

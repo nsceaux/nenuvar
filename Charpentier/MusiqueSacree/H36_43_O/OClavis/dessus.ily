@@ -1,7 +1,7 @@
 \clef "dessus" r2 r4 fa''_\markup\orig-version\whiteout "tous" |
 re''2\prall do''4 do'' |
 re''1~ |
-re''4 mib''8 re'' do''4.\prall sib'16 do'' |
+re''4 mib''8 re'' do''4.\doublePrall sib'16 do'' |
 re''2 r |
 r4 la' sib' do'' |
 re''2 do'' |
@@ -21,7 +21,7 @@ R1. |
 re''2_\markup\orig-version\whiteout "tous" re''1~ |
 re'' do''2 |
 re'' re'' mib''2 | % ???
-\whiteNoteHeadsOn do''8*2[ re''] %{ ??? %} mib''2. fa''8*2 |
+\whiteNoteHeadsOn fa''8*2[ do''16*2 re''] mib''2. fa''8*2 |
 re''1.\prall |
 do'' |
 re''1 do''2 |

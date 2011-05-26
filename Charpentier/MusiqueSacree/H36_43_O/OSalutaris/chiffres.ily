@@ -1,20 +1,21 @@
 %%
-<_>1. <9 7>2 <8 6>1 <7 3>1 <6 4>4\figExtOn <6 3>\figExtOff <7>2 <6>1
-<7>1. <5 4>2\figExtOn <5 3>1\figExtOff <_>1.*2 <5>2 <6>1
+<_>1. <9 7>2 <8 6>1 <7 3>1 <\markup\triangle-up 6 4 3 >2 %{<6 4>4\figExtOn <6 3>\figExtOff%} <7>2 <6>1
+<7>1. <\markup\triangle-up 5 4 3 >1. %{ <5 4>2\figExtOn <5 3>1\figExtOff %} <_>1.*2 <5>2 <6>1
 
-<_>1. <_>2 <5>1 <5>2 <6>1 \origVersion <7 3>1 \modVersion <7 _+>1 <6 4>2
-<5 4>2\figExtOn \origVersion <5 3>1 \modVersion <5 _+>1 \figExtOff
-<_>1.*2 <5 4>2\figExtOn <5 3>1\figExtOff
+<_>1. <_>2 <5>1 <5>2 <6>1 <7 3>1 <6 4>2
+<\markup\triangle-up 5 4 3 >1. %{ <5 4>2\figExtOn <5 3>1\figExtOff %}
+<_>1.*2 <\markup\triangle-up 5 4 3 >1. %{ <5 4>2\figExtOn <5 3>1\figExtOff %}
 
 %%
 <_>1. <_+>2 <5+>2. <_+>4 <5>2 <6>1 <7 _+>1. %{ 5 ou 7 ? %}
-<5 4>2\figExtOn \origVersion <5 3>1 \modVersion <5 _+>1 \figExtOff
+<\markup\triangle-up 5 4 3 >1. %{ <5 4>2\figExtOn <5 3>1\figExtOff %}
 <_+>2. <_>2.*3 <5!>2.
 
 <9>4 <8>2 <5>4 <6>2 <6>2. <9 7>4 <8 6> <7 5> <_>2.*3 <5>2 <6>4 <5>2 <6>4 <5>2 <6>4
 
 <_>2. <6>4. <6>8 <6>4 <_>2.*2 <_!>2. <_>2.*3 <6>2. <_>
 
-<_>2. <6>4 <6>2 <_>4 <6>2 <4>4 <3>2 <_>2.*2 <6>2. <5>2 <6>4 <5>2 <6>4 <5>2 <6>4
+<_>2. <6>4 <6>2 <_>4 <6->2 <\markup\triangle-up 5 4 3 >2. <_>2.*2 <6>2. <5>2 <6>4 <5>2 <6>4 <5>2 <6>4
 
-<5>2 <6>4 <_>2. <6>4 <6>2 <_>2 <5>4 <5->2. <9>1 <9> <5 4>2\figExtOn <5 3>2\figExtOff
+<5>2 <6>4 <_>2. <6>4 <6>2 <_>2 <5>4 <5->2. <9>1 <9>
+<\markup\triangle-up 5 4 3 >1 %{<5 4>2\figExtOn <5 3>2\figExtOff %}

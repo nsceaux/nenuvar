@@ -11,7 +11,7 @@ mi1 mi2 |
 la1 la2 |
 re1 re'2 |
 dod' si1 |\whiteNoteHeadsOff
-la4_\markup\orig-version\large "reprise" la^"tous" la |
+la4_\markup\orig-version\large "reprise"_\markup\orig-version\bold\center-align "guay" la^"tous" la |
 fad fad fad |
 sol2 sol4 |
 mi mi4. mi8 |
@@ -26,7 +26,7 @@ re1 si,2 |
 fad,1. |
 si, |
 R1. |
-si4 si lad |
+si4^\markup\orig-version\bold\center-align "guay" si lad |
 si si si |
 sold sold sold |
 la4 la4. sol8 |

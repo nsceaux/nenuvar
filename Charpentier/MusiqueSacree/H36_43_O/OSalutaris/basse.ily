@@ -22,7 +22,7 @@ mi1 la,2 |
 mi,1. |
 la,2 la4 |
 fad2 si4 |
-sol2 sol4 |
+sol2. |
 la2. |
 si |
 do'2 do4 |

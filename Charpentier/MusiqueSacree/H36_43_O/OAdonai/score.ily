@@ -6,7 +6,7 @@
         \instrumentName \markup \center-column {
           \fontsize #2 "Second O"
           après
-          \line \italic { [?] }
+          \line \italic { O nuit }
         }
       }
       \global \keepWithTag #'vhaute-contre \includeNotes "voix"
@@ -23,6 +23,7 @@
     >>
   >>
   \layout {
+    ragged-last = #(eqv? (ly:get-option 'ancient-style) #t)
     indent = #(if (eqv? (ly:get-option 'ancient-style) #t)
                   (* 30 mm)
                   smallindent)

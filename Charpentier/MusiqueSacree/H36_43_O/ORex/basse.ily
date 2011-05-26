@@ -1,7 +1,7 @@
 \clef "basse" re8 fa mi re dod si, dod la, |
 re re'16 do' sib8. la16 sol8 la sib sol |
 la sol16 la fa8 mi16 fa re8 sol la la, |
-re re'16 do' sib8. la16 sol8 la sib sol |
+re re'16 do' sib8. la16 sol8 la sib! sol |
 la sol16 la fad8 re sol fa?16 sol mi8 mi |
 la16 sib sol la fa8 sol16 la sib do' la sib sol fa mi re |
 dod8 la, re do?16 re sib,8 sol, la,4 |

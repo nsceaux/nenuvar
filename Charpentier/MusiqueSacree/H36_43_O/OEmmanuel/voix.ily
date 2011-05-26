@@ -22,7 +22,7 @@
     mi' mi'8 mi' fa'4. sol'8 |
     mi'2 fa'4 fa' |
     re'( mi') fa'4. sol'8 |
-    fa'2( mi')\prall |
+    \slurPrall fa'2( mi') |
     re'4 re' re' |
     mi' mi' mi' |
     fa' fa' fa' |

@@ -1,5 +1,5 @@
 \clef "taille" R1.*13 |
-r4 la'^\markup\orig-version "tous" la' |
+r4_\markup\orig-version\large "reprise" la'^\markup\orig-version "tous" la' |
 la' la' la' |
 la' la' la' |
 sol' sol'4. sol'8 |
@@ -14,7 +14,7 @@ mi' mi' re' |
 dod'1 red'8*2[ mi'] |
 red'1. |
 R1. |
-\whiteNoteHeadsOff r4 red' fad' |
+\whiteNoteHeadsOff r4^\markup\orig-version\bold\center-align "guay" red' fad' |
 fad' red' red' |
 mi' mi' re' |
 dod' dod'4. dod'8 |

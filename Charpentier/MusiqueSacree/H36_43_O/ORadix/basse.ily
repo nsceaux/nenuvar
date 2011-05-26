@@ -30,7 +30,7 @@ do fad |
 sol fa!4. sol8 |
 mib1 |
 re~ |
-re4 re' do' |
+re4_\markup\orig-version\bold\center-align guay re' do' |
 sib2 la4 |
 sol2 fad4 |
 sol fa! mib |

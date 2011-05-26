@@ -105,7 +105,7 @@
     mi'2 r4 |
     mi' re'4.\prall dod'8 |
     re'4. re'8 re'4 |
-    dod'2 dod'4 |
+    r4 dod' dod' |
     re' re' re' |
     do' do' re' |
     si2. |
@@ -132,7 +132,7 @@
   \tag #'vbasse {
     \clef "vbasse" do'1~ |
     do'2 si4. do'8 |
-    la2~ la4.\prall sol8 |
+    la2^\dotSign ~ \once\override Script #'padding = #1.1 la4.\prall sol8 |
     sol2 la4. fa8 |
     sol2~ sol4. sol8 |
     do1 |
@@ -141,7 +141,7 @@
     re2 re4 re |
     mi2. mi8 mi |
     fa2. mi4 |
-    re1*1/2 s\prall |
+    re1\dotPrall |
     do1 |
     r4 re2 re4 |
     mi2 mi4 mi |
@@ -172,7 +172,7 @@
     fa2 mi8 re |
     mi4. mi8 mi4 |
     re re re |
-    mi4 fad fad4 |
+    mi4 fad8[ mi] fad4 |
     sol2. |
     mi4 mi re |
     la2~ la8 la |

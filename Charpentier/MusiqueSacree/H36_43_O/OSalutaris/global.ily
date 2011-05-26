@@ -2,7 +2,8 @@
 <<
   {
     \time 3/2 \midiTempo #120 s1.*22
-    \time 3/4 s2.*40
+    \digitTime\time 3/4 \origVersion\tempo "guay" \modVersion\tempo "Gai"
+    s2.*40
     \time 2/2 s1*4 \bar "|."
   }
   \origVersion {
@@ -14,5 +15,6 @@
     s2.*10\break
     s2.*10\break
     s2.*10\break
+    s2.*5 s1*4 \markDownEnd\mark "66"
   }
 >>

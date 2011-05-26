@@ -16,7 +16,7 @@
     si'1( lad'2) |
     si'1. |
     R1. |
-    \whiteNoteHeadsOff R2. |
+    \whiteNoteHeadsOff s4*0^\markup\orig-version\bold\center-align "guay" R2. |
     r4 si' si' |
     si' si' si' |
     la' la'4. la'8 |
@@ -59,7 +59,7 @@
     dod'1( red'8*2)[ mi'] |
     red'1. |
     R1. |
-    \whiteNoteHeadsOff R2. |
+    \whiteNoteHeadsOff s4*0^\markup\orig-version\bold\center-align "guay" R2. |
     r4 fad' fad' |
     sold' sold' fad' |
     mi' mi'4. mi'8 |
@@ -102,7 +102,7 @@
     dod'( fad1) |
     fad1. |
     R1. |
-    \whiteNoteHeadsOff R2. |
+    \whiteNoteHeadsOff s4*0^\markup\orig-version\bold\center-align "guay" R2. |
     r4 red' red' |
     mi' mi' re' |
     dod' dod'4. dod'8 |
@@ -143,7 +143,7 @@
     fad,1. |
     si, |
     R1. |
-    R2. |
+    s4*0^\markup\orig-version\bold\center-align "guay" R2. |
     r4 si si |
     sold sold sold |
     la la4. sol8 |

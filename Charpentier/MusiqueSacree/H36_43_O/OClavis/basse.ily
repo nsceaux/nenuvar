@@ -16,7 +16,7 @@ fa^\markup "tous" |
 do2. do4^\markup "acc seul" |
 reb sib, do2 |
 fa,1 |
-r4 do4^\markup "tous" fa |
+r4 do4^\markup\mod-version "tous"_\markup\orig-version "tous" fa |
 do2 do4 |
 do2^\markup "acc seul" re |
 mi fa~ |

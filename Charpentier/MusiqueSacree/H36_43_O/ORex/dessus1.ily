@@ -1,5 +1,5 @@
 \clef "dessus"
-\origVersion s4*0^"Pr violon seul"
+\origVersion s4*0_\markup { \concat { P \super r } vi[ol]on seul }
 \modVersion s4*0^\markup { \concat { 1 \super er } violon seul }
 R1*2 |
 r8 mi'' la'' sol''16 la'' fa''8 mi'' mi''8. re''16 |
