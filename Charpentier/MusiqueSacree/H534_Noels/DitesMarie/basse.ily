@@ -10,7 +10,7 @@ mi2. fa8*2 sol2 |
 re re'8*2 do' sib la |
 sol1 la2 |
 sib sol la |
-re1 re2_\markup\orig-version\whiteout "acc seul sourdines"
+re1 re2_\markup\orig-version\whiteout "acc seul sourd[ines]"
 ^\markup\mod-version\whiteout "acc seul"
 _\markup\mod-version\whiteout "sourdines" |
 dod1. |
@@ -27,7 +27,7 @@ la1. |
 la2 la la |
 sib1. |
 la2 sol fa |
-mi1 re2_\markup\orig-version\whiteout "acc seul sourdines"
+mi1 re2_\markup\orig-version\whiteout "acc seul sourd[ines]"
 ^\markup\mod-version\whiteout "acc seul sourdines" |
 dod2. re8*2 sol,2 |
 la,1. |

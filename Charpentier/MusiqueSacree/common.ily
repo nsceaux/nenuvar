@@ -38,6 +38,10 @@
     \override FootnoteItem #'color = #red
     \override NoteHead #'style = #'baroque
   }
+  \context {
+    \Staff
+    explicitClefVisibility = ##(#f #t #t)
+  }
 }
 
 \include "italiano.ly"

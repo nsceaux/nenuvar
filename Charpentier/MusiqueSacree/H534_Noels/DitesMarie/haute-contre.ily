@@ -1,14 +1,13 @@
 \clef "haute-contre" R1. |
 r2 r <<
-  \origVersion re''_\markup\whiteout "tous fort"
-  ^\markup\orig-version \musicglyph #"scripts.segno"
-  \modVersion re''\f >> |
+  \origVersion re''_\markup\whiteout "tous fort" ^\markup \musicglyph #"scripts.segno"
+  \modVersion re''^\markup\center-align "Tous" \f >> |
 do'' do''2. re''8*2 |
 mi''2 mi'' si' |
 re'' la' re'' |
 sib'1 la'2 |
 fa' sol' mi' |
-fa'1 la'2_\markup\whiteout "sourdines" |
+fa'1 la'2_\markup\orig-version\whiteout "sourdine[s]"_\markup\mod-version\whiteout "sourdines" |
 la'1.~ |
 la' |
 sol'1 sol'2 |
@@ -18,7 +17,7 @@ si'2 si' dod'' |
 re''1 r2 |
 r r <<
   \origVersion re''_\markup\whiteout "tous fort"
-  \modVersion re''\f >> |
+  \modVersion re''^\markup\center-align "Tous" \f >> |
 dod''1. |
 dod''2 dod'' dod'' |
 re''1 sol'2 |
@@ -32,7 +31,7 @@ sib' la' la' |
 la'1 r2 |
 r2 r <<
   \origVersion re''_\markup\whiteout "tous fort"
-  \modVersion re''\f >> |
+  \modVersion re''^\markup\center-align "Tous" \f >> |
 do'' do''2. re''8*2 |
 mi''2 mi'' si' |
 re''1 re''2 |
@@ -62,7 +61,7 @@ la' sol'2. la'8*2 |
 fa'1. |
 <<
   \origVersion sol'2_\markup\whiteout "tous fort"
-  \modVersion sol'2\f >> sol' la' |
+  \modVersion sol'2^\markup\center-align "Tous" \f >> sol' la' |
 sib' sol' do'' |
 do''1. |
 sib' |

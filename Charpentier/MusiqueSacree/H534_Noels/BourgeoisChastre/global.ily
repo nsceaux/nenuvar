@@ -17,7 +17,7 @@
     \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
     \mark \markup \line {
       \musicglyph #"scripts.segno"
-      \column {
+      \override #'(baseline-skip . 3) \column {
         \line { Comme au commencement }
         \line { jusque au trio }
       }

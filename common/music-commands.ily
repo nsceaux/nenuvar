@@ -72,6 +72,15 @@ dotPrall =
              'text (markup #:override '(word-space . 2)
                            #:line (#:vcenter dotSign #:vcenter #:musicglyph "scripts.prall" )))
 
+dotDoublePrallDoublePrall =
+#(make-music 'TextScriptEvent
+             'direction UP
+             'text (markup #:override '(word-space . 2) #:override '(baseline-skip . 0)
+                           #:column (#:line (#:vcenter dotSign
+                                             #:vcenter #:musicglyph "scripts.prallprall" )
+                                     #:line (#:transparent #:vcenter dotSign
+                                             #:vcenter #:musicglyph "scripts.prallprall"))))
+
 doublePrall =
 #(make-music 'TextScriptEvent
              'direction UP
@@ -357,6 +366,12 @@ figPosOff = {
    (interpret-markup
     layout props
     (markup #:tiny #:concat (#:null #:raise 0.2 #:line ("(" #:figure-sharp ")")
+                                    #:number num ))))
+
+#(define-markup-command (paren-flat layout props num) (markup?)
+   (interpret-markup
+    layout props
+    (markup #:tiny #:concat (#:null #:raise 0.2 #:line ("(" #:figure-flat ")")
                                     #:number num ))))
 
 %%%

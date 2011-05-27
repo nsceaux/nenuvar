@@ -28,4 +28,5 @@ do'4 lab'8 sol' fa'4. fa'8 |
 fa'4 mib'8 re' sib4. re'8 |
 fa'4. mib'8 re'2 |
 R1*27 |
-r2 r4 r8 re'8_\markup\orig-version \whiteout\general-align #X #0 Tous |
+r2 r4 r8 re'8_\markup\orig-version \whiteout\general-align #X #0 tous
+^\markup\mod-version\whiteout\general-align #X #0 Tous |

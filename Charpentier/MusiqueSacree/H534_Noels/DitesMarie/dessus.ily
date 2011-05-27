@@ -1,8 +1,7 @@
 \clef "dessus" r2 r
 <<
-  \origVersion re''_\markup\whiteout "tous fort"
-  ^\markup\orig-version \musicglyph #"scripts.segno"
-  \modVersion re''\f >> |
+  \origVersion re''_\markup\whiteout "tous fort" ^\markup\musicglyph #"scripts.segno"
+  \modVersion re''^\markup\center-align "Tous" \f >> |
 la''1. |
 la''2 mi''2. fa''8*2 |
 sol''2 sol'' re'' |
@@ -10,7 +9,7 @@ fa''1. |
 sol''2 mi'' fa'' |
 re''1 r2 |
 r2 r <<
-  \origVersion re''_\markup\whiteout "premier violon seul fort"
+  \origVersion re''_\markup\whiteout "premier vi[ol]on seul fort"
   \modVersion {
     re''^\markup\whiteout { \concat { 1 \super er } violon seul } \f \noBreak
   }
@@ -30,7 +29,7 @@ fa''1 mi''2 |
 re'' sol''1 |
 fa''2 mi'' re'' |
 dod''1 <<
-  \origVersion re''2_\markup\whiteout "premier violon seul fort"
+  \origVersion re''2_\markup\whiteout "pr vi[ol]on seul fort"
   \modVersion {
     re''2^\markup\whiteout { \concat { 1 \super er } violon seul }
     \f \noBreak
@@ -50,7 +49,10 @@ fa''1. |
 sol''2 mi'' fa'' |
 re''1 r2 |
 r r <<
-  \origVersion re''_\markup\whiteout "cornet d'orgue ou le mesme violon que cy-dessus seul fort"
+  \origVersion re''_\markup\column {
+    \whiteout "cornet d'orgue ou le mesme vi[ol]on que cy-"
+    \line { \hspace #27 \whiteout "-dessus seul fort" }
+  }
   \modVersion {
     re''^\markup\whiteout { cornet d'orgue ou \concat { 1 \super er } violon seul }
     \f \noBreak } >> |
@@ -69,7 +71,7 @@ fa''1 mi''2 |
 re''2 sol''1 |
 fa''8*2 sol'' mi'' fa'' re'' mi'' |
 dod''1 <<
-  \origVersion re''2_\markup\whiteout "cornet ou le premier violon seul fort"
+  \origVersion re''2_\markup\whiteout { cornet ou le \concat { P \super r } vi[ol]on seul fort }
   \modVersion {
     re''2^\markup\whiteout { cornet ou \concat { 1 \super er } violon seul }
     \f \noBreak } >> |

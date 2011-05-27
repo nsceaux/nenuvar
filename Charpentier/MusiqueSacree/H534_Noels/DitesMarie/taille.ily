@@ -1,8 +1,7 @@
 \clef "taille" R1. |
 r2 r <<
-  \origVersion fa'_\markup\whiteout "tous fort"
-  ^\markup \musicglyph #"scripts.segno"
-  \modVersion fa'\f >> |
+  \origVersion fa'_\markup\whiteout "tous fort" ^\markup\musicglyph #"scripts.segno"
+  \modVersion fa'^\markup\center-align "Tous" \f >> |
 mi' la' la' |
 sol'1 sol'2 |
 la'8*2 sol' fa' mi' re'2~ |
@@ -18,7 +17,7 @@ re' sol' mi' |
 fa'1 r2 |
 r r <<
   \origVersion sib'_\markup\whiteout "tous fort"
-  \modVersion sib'\f >> |
+  \modVersion sib'^\markup\center-align "Tous" \f >> |
 la'1. |
 la'2 la' sol' |
 fa' re' mi' |
@@ -32,7 +31,7 @@ fa'2 mi' mi' |
 fa'1 r2 |
 r r <<
   \origVersion fa'_\markup\whiteout "tous fort"
-  \modVersion fa'\f >> |
+  \modVersion fa'^\markup\center-align "Tous" \f >> |
 mi' la' la' |
 sol'1 sol'2 |
 la'8*2 sol' fa' mi' re'2 |

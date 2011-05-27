@@ -9,8 +9,8 @@ dod4 la, re re |
 la sol fa mi8 re |
 dod4 re8 mi fa re mi mi, |
 <<
-  \origVersion { la,4_"*"_\markup "blanche pour le ch" la8_\markup "acc seul" sol }
-  \modVersion << { la,4^\markup\mod-version\whiteout "acc seul" la8 sol }
+  \origVersion { la,4_"┼"_\markup "blanche pour le ch" la8_\markup "acc seul" sol }
+  \modVersion << { la,4^\markup\whiteout "acc seul" la8 sol }
     \\ la,2 >>
 >> fa4 mi8 re |
 dod4 dod re8 dod re mi |
@@ -32,8 +32,8 @@ dod re mi dod re do? sib, la, |
 sol, sib, la, sol, fa, fa mi re |
 do re do si, la, re mi mi, |
 <<
-  \origVersion { la,4_"*"_\markup "blanche pour le ch" la8_\markup "acc seul" sol }
-  \modVersion << { la,4^\markup\mod-version\whiteout "acc seul" la8 sol }
+  \origVersion { la,4_"┼"_\markup "blanche pour le ch" la8_\markup "acc seul" sol }
+  \modVersion << { la,4^\markup\whiteout "acc seul" la8 sol }
     \\ la,2 >>
 >> fa8 sol mi re |
 dod4. la,8 re4. sib,8 |

@@ -54,4 +54,5 @@ sib,4. sib,8 sib,4. sib,8 |
 do4. do8 do8 re do sib, |
 la,2~ la,8 fa, sol, la, |
 sib,4 do8 re mib4. sib,8 |
-fa2 sib,4. sib8_\markup\whiteout\general-align #X #0 Tous |
+fa2 sib,4. sib8_\markup\orig-version \whiteout\general-align #X #0 tous
+^\markup\mod-version\whiteout\general-align #X #0 Tous |
