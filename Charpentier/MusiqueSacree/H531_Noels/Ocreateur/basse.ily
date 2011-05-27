@@ -21,7 +21,7 @@
     fa sol sol, |
     do1. |
   }
-  \setMusic #'C {
+  \setMusic #'b {
     sol2_\markup "acc seul" sol2. sol8*2 |
     do'2. sib8*2 la sol |
     fa2 do1 |
@@ -41,7 +41,7 @@
       }
     >> |
   }
-  \setMusic #'D {
+  \setMusic #'a {
     do'2_\markup\orig-version\huge\column {
       \vspace #2
       "suivez icy a la reprise"
@@ -61,13 +61,11 @@
       }
     >> |
   }
-  \origVersion { \A \B \C \D }
+  \origVersion { \A \B \b \a }
   \modVersion {
-      \A
-      \B
-      \A
-      \C \B
-      \D \A
-      \C \B
+      \A % :|
+      \B \b \B
+      \a \A
+      \b \B
   }
 >>

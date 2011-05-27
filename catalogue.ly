@@ -120,6 +120,7 @@
 
      ("Marc-Antoine Charpentier (1643-1703)"
       (("David et Jonathas"
+        #:opus "H.490"
         #:description "Tragédie en musique, livret de F. de P. Bretonneau, 1688."
         #:key "Charpentier/Opera/DavidEtJonathas"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=28"

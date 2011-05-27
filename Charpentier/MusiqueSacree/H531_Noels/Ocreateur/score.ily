@@ -34,17 +34,25 @@
       >>
     >>
     \modVersion \new StaffGroup <<
-      \new Staff <<
-        { s1.*8\break
-          s1.*10\break
-          s1.*8\break
-          s1.*20\break
-          s1.*16\break
-        }
-        \global \keepWithTag #'dessus1 \includeNotes "dessus-haute-contre"
+      \new GrandStaff <<
+        \new Staff <<
+          \global \keepWithTag #'dessus1 \includeNotes "dessus-haute-contre"
+        >>
+        \newHaraKiriStaffB <<
+          { \startHaraKiri s1.*8\break
+            s1.*10\break
+            \stopHaraKiri s1.*10\break
+            \startHaraKiri s1.*10\break
+            \stopHaraKiri s1.*8\break
+            \startHaraKiri s1.*8\break
+            \stopHaraKiri s1.*10\break
+            \startHaraKiri
+          }
+          \global \keepWithTag #'dessus2 \includeNotes "dessus-haute-contre"
+        >>
       >>
       \new Staff <<
-        \global \keepWithTag #'haute-contre-dessus2 \includeNotes "dessus-haute-contre"
+        \global \keepWithTag #'haute-contre \includeNotes "dessus-haute-contre"
       >>
       \new Staff <<
         \global \includeNotes "taille"

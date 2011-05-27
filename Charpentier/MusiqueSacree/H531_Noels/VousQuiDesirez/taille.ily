@@ -20,7 +20,7 @@ do'4. re'8 mi'4 |
 re' si2 |
 << mi'2. \\ do' >> |
 R2.*8 |
-sol'2 fa'4 |
+sol'2^\markup\mod-version\whiteout "Tous" fa'4 |
 mi'2 mi'4 |
 fa' fa'2 |
 mi'4. fad'8 sol'4 |
@@ -29,7 +29,7 @@ sol' sol'4 |
 sol' fad'2 |
 sol'2. |
 R2.*12 |
-sol'2 sol'4 |
+sol'2^\markup\mod-version\whiteout "Tous" sol'4 |
 sol'2 sol'4 |
 la'2 sold'4 |
 la'2 sol'4 |
@@ -42,7 +42,8 @@ do'4. re'8 mi'4 |
 re' si2 |
 << mi'2. \\ do' >> |
 R2.*8 |
-do'8_\markup\orig-version\whiteout "tous" si do' re' do' re' |
+do'8_\markup\orig-version\whiteout "tous"
+^\markup\mod-version\whiteout "Tous" si do' re' do' re' |
 mi' re' mi' fa' mi'4 |
 fa' fa'2\prall |
 mi'4. fad'8 sol'4 |
@@ -51,7 +52,8 @@ sol'8 la' sol' fa' mi'4 |
 sol' fad'4 sol'8 la' |
 si'2. |
 R2.*12 |
-re'4_\markup\orig-version\whiteout "tous" re' sol' |
+re'4_\markup\orig-version\whiteout "tous"
+^\markup\mod-version\whiteout "Tous" re' sol' |
 sol'2 sol'4 |
 la'2. |
 la'2 sol'4 |

@@ -29,7 +29,7 @@ do4. fa,8 sol,2 |
 do1 |
 R1 |
 r2 la_\markup\orig-version "tous"
-^\markup\mod-version\center-align "tous" |
+^\markup\mod-version\center-align "Tous" |
 fa4. fa8 sol2 |
 do2. r8 do |
 fa4. mi8 re4. sol8 |

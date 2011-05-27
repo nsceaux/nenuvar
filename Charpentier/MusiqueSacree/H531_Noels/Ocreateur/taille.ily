@@ -21,15 +21,13 @@
     re' si do'8*2 re' |
     mi'1. |
   }
-  \setMusic #'C { R1.*10 }
-  \setMusic #'D { R1.*8 }
-  \origVersion { \A \B \C \D }
+  \setMusic #'b { R1.*10 }
+  \setMusic #'a { R1.*8 }
+  \origVersion { \A \B \b \a }
   \modVersion {
-      \A
-      \B
-      \A
-      \C \B
-      \D \A
-      \C \B
+      \A % :|
+      \B \b \B
+      \a \A
+      \b \B
   }
 >>

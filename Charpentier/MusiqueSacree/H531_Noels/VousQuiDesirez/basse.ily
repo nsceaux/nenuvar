@@ -38,7 +38,7 @@ sol4 re2 |
 mi4. re8 do4~ |
 do re2 |
 sol,2. |
-sol,_\markup\orig-version\whiteout "acc seul" |
+sol,_\markup\orig-version\whiteout "acc seul"^\markup\mod-version\whiteout "acc seul" |
 sol2 sol4 |
 re4. mi8 fa sol |
 la2 mi4 |

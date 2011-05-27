@@ -1,5 +1,5 @@
 <<
-  %% chœur (tous)
+  %% couplet (chœur)
   \setMusic #'Adessus {
     \clef "dessus" \whiteNoteHeadsOn do''2^\markup\orig-version "tous" do'' sol'' |
     sol''2. la''8*2 sol''2 |
@@ -20,7 +20,7 @@
     sol' do''2. re''8*2 |
     si'1.
   }
-  %% 1er couplet (tous)
+  %% reprise (chœur)
   \setMusic #'Bdessus {
     re''2_\markup\orig-version "reprise" re''2. re''8*2 |
     mi''2. re''8*2 do''2 |
@@ -45,9 +45,9 @@
     la' sol'2. sol'8*2 |
     sol'1. |
   }
-  %% 2ème couplet (trio)
-  \setMusic #'CdessusI {
-    re''2^\markup\orig-version\whiteout "violon et flûte"
+  %% reprise (trio)
+  \setMusic #'bdessusI {
+    re''2^\markup\orig-version\whiteout "vi[ol]on et fl[ûte]"
     ^\markup\mod-version\whiteout "Violon et flûte"
     _\markup\orig-version "reprise"
     ^\markup\orig-version\huge { Pour la seconde fois apres le chœur }
@@ -64,8 +64,8 @@
       \origVersion { s1 s4. \custosNote re''8 }
     >> |
   }
-  \setMusic #'CdessusII {
-    si'2_\markup\orig-version\whiteout "violon et flûte"
+  \setMusic #'bdessusII {
+    si'2_\markup\orig-version\whiteout "vi[ol]on et fl[ûte]"
     ^\markup\mod-version\whiteout "Violon et flûte"
     si'2. si'8*2 |
     do''2. sol'8*2 la' sib' |
@@ -80,10 +80,10 @@
       \origVersion { s1 s4. \custosNote re''8 }
     >> |
   }
-  \setMusic #'Chc { R1.*10 }
-  %% 3ème couplet
-  \setMusic #'DdessusI {
-    do''2_\markup\orig-version\whiteout "violon et flûte"
+  \setMusic #'bhc { R1.*10 }
+  %% couplet (trio)
+  \setMusic #'adessusI {
+    do''2_\markup\orig-version\whiteout "vi[ol]on et fl[ûte]"
     ^\markup\mod-version\whiteout "Violon et flûte"
     ^\markup\orig-version\huge { \concat { 3 \super e } fois } do'' sol'' |
     sol''2. la''8*2 sol''2 |
@@ -94,8 +94,8 @@
     mi''2 mi''2.\prall re''8*2 |
     re''1. |
   }
-  \setMusic #'DdessusII {
-    mi''2_\markup\orig-version\whiteout "violon et flûte"
+  \setMusic #'adessusII {
+    mi''2_\markup\orig-version\whiteout "vi[ol]on et fl[ûte]"
     ^\markup\mod-version\whiteout "Violon et flûte" do'' si' |
     mi''2. mi''8*2 re''2 |
     sol' do''2. re''8*2 |
@@ -105,47 +105,39 @@
     sol' do''2. re''8*2 |
     si'1. |
   }
-  \setMusic #'Dhc { R1.*8 }
+  \setMusic #'ahc { R1.*8 }
 
   %%
   \origVersion <<
-    \tag #'dessus1 { \Adessus \Bdessus \CdessusI \DdessusI }
-    \tag #'dessus2 { \Adessus \Bdessus \CdessusII \DdessusII }
-    \tag #'haute-contre { \Ahc \Bhc \Chc \Dhc }
-    \tag #'haute-contre-dessus2 { \Ahc \Bhc \fullClef\clef "dessus" \CdessusII \DdessusII }
+    \tag #'dessus1 { \Adessus \Bdessus \bdessusI \adessusI }
+    \tag #'dessus2 { \Adessus \Bdessus \bdessusII \adessusII }
+    \tag #'haute-contre { \Ahc \Bhc \bhc \ahc }
+    \tag #'haute-contre-dessus2 { \Ahc \Bhc \fullClef\clef "dessus" \bdessusII \adessusII }
   >>
   \modVersion <<
     \tag #'dessus1 {
-      \Adessus
-      \Bdessus
-      \Adessus
-      \CdessusI \Bdessus
-      \DdessusI \Adessus
-      \CdessusI \Bdessus
+      \Adessus % :|
+      \Bdessus \bdessusI \Bdessus
+      \adessusI \Adessus
+      \bdessusI \Bdessus
     }
     \tag #'dessus2 {
-      \Adessus
-      \Bdessus
-      \Adessus
-      \CdessusII \Bdessus
-      \DdessusII \Adessus
-      \CdessusII \Bdessus
+      \Adessus % :|
+      \Bdessus \bdessusII \Bdessus
+      \adessusII \Adessus
+      \bdessusII \Bdessus
     }
     \tag #'haute-contre {
-      \Ahc
-      \Bhc
-      \Ahc
-      \Chc \Bhc
-      \Dhc \Ahc
-      \Chc \Bhc
+      \Ahc % :|
+      \Bhc \bhc \Bhc
+      \ahc \Ahc
+      \bhc \Bhc
     }
     \tag #'haute-contre-dessus2 {
-      \Ahc
-      \Bhc
-      \Ahc
-      \CdessusII \Bhc
-      \DdessusII \Ahc
-      \CdessusII \Bhc
+      \Ahc % :|
+      \Bhc \bdessusII \Bhc
+      \adessusII \Ahc
+      \bdessusII \Bhc
     }
   >>
 >>

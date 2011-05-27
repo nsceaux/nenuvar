@@ -25,7 +25,7 @@
   }
   \setMusic #'BdessusI {
     s4*0^\markup\orig-version\general-align #Y #DOWN {
-      \musicglyph #"scripts.segno" violon et flûte }
+      \musicglyph #"scripts.segno" vi[ol]on et fl[ûte] }
     _\markup\orig-version "reprise"
     ^\markup\mod-version\whiteout "violon et flûte"
     R1*2 |
@@ -47,7 +47,7 @@
   }
   \setMusic #'BdessusII {
     re''2^\markup\orig-version\whiteout \general-align #Y #DOWN {
-      \musicglyph #"scripts.segno" violon et flûte }
+      \musicglyph #"scripts.segno" vi[ol]on et fl[ûte] }
     _\markup\orig-version "reprise"
     ^\markup\mod-version\whiteout "violon et flûte" si'4. si'8 |
     do''1 |
@@ -70,7 +70,7 @@
   \setMusic #'Bhc { R1*17 }
   \setMusic #'Cdessus {
     re''2_\markup\orig-version "tous"
-    ^\markup\mod-version "tous" si'4. si'8 |
+    ^\markup\mod-version "Tous" si'4. si'8 |
     do''1 |
     re''2 si'4. si'8 |
     do''1 |
