@@ -171,6 +171,8 @@ dessus1 dessus2 haute-contre taille quinte basse basse-continue voix,,))
 $(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/Opera/DavidEtJonathas,\
 dessus1 dessus2 haute-contre taille basse voix,part-bc,basse-continue))
 
+$(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/MusiqueSacree/AntiennesNoels,,,))
+
 $(eval $(call MAKE_ALL_SCORE_RULES,Charpentier/MusiqueSacree/H36_43_O,,,))
 $(eval $(call MAKE_SCORE_RULE,Charpentier/MusiqueSacree/H36_43_O,-urtext,-dancient-style,urtext))
 

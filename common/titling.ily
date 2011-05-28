@@ -166,14 +166,18 @@
      (markup #:huge #:bold text)))
 
 #(define-markup-command (rehearsal-number-toc layout props text) (string?)
-  (let* ((gauge-stencil (interpret-markup layout props "8-88"))
+  #:properties ((rehearsal-number-gauge "8-88")
+                (rehearsal-number-align RIGHT))
+  (let* ((gauge-stencil (interpret-markup layout props rehearsal-number-gauge))
 	 (x-ext (ly:stencil-extent gauge-stencil X))
 	 (y-ext (ly:stencil-extent gauge-stencil Y))
          (stencil (interpret-markup layout props text))
-         (gap (- (interval-length x-ext)
-                 (interval-length (ly:stencil-extent stencil X)))))
+         (gap (max 0 (- (interval-length x-ext)
+                        (interval-length (ly:stencil-extent stencil X))))))
     (interpret-markup layout props
-      (markup #:concat (#:hspace gap text #:hspace 1)))))
+                      (if (= rehearsal-number-align LEFT)
+                          (markup #:concat (text #:hspace gap #:hspace 1))
+                          (markup #:concat (#:hspace gap text #:hspace 1))))))
 
 #(define-markup-command (act layout props arg) (markup?)
   (interpret-markup layout props
@@ -307,7 +311,7 @@ pieceTocTitle =
     (make-music 'Music 'void #t)))
 
 pieceTocTitleNb =
-#(define-music-function (parser location number title) (string? string?)
+#(define-music-function (parser location number title) (string? markup?)
    (add-toc-item parser 'tocPieceMarkup
                  (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
                      (markup #:rehearsal-number-toc number title)
@@ -316,8 +320,12 @@ pieceTocTitleNb =
                         (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
                             (markup #:rehearsal-number number
                                     #:hspace 1
-                                    #:huge (string-upper-case title))
-                            (markup #:title (string-upper-case title))))
+                                    #:huge (if (string? title)
+                                               (string-upper-case title)
+                                               title))
+                            (markup #:title (if (string? title)
+                                               (string-upper-case title)
+                                               title))))
    (add-no-page-break parser)
    (make-music 'Music 'void #t))
 

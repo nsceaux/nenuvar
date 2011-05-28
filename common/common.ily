@@ -17,6 +17,7 @@
 \include "common/includes.ily"
 \include "common/clef-key.ily"
 \include "common/titling.ily"
+\include "common/toc-columns.ily"
 \include "common/music-commands.ily"
 \include "common/marks.ily"
 \include "common/staff.ily"
@@ -75,7 +76,7 @@
 }
 
 \paper {
-  bookTitleMarkup = \markup \when-property #'header:title \abs-fontsize #12 \column {
+  nenuvarBookTitleMarkup = \markup \when-property #'header:title \abs-fontsize #12 \column {
     \null \null \null \null \null \null
     \fill-line { \fontsize #6 \italic \fromproperty #'header:composer }
     \when-property #'header:poet \column { \null \null \null }
@@ -101,6 +102,7 @@
     \fill-line { \fontsize #2 \fromproperty #'header:editions }
     \fill-line { \fontsize #2 \fromproperty #'header:arrangement }
   }
+  bookTitleMarkup = \nenuvarBookTitleMarkup
   shortBookTitleMarkup =  \markup {
     \override #'(baseline-skip . 3.5) \column {
       \huge \larger \bold \fill-line { \larger \fromproperty #'header:title }

@@ -8,7 +8,7 @@
      \markUpBegin\mark\markup { \concat { 2 \super e } couplet }
      s2.*16 \bar "||"
      s2.*24 \bar "||"
-     \markUpBegin\mark\markup { \concat { (3 \super e } couplet) }
+     \markUpBegin\mark\markup { \concat { [3 \super e } couplet] }
      s2.*16 \bar "||"
      s2.*24 \bar "|."
   }
