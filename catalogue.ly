@@ -2,14 +2,17 @@
 \include "common/catalogue.ily"
 
 #(define nenuvar-catalog
-   `(("Jean-Baptiste Lully (1632-1687)"
+   `(;;;
+     ;;; LULLY
+     ;;;
+     ("Jean-Baptiste Lully (1632-1687)"
       (("La revente des habits du ballet"
         #:description "Ballet créé au Louvre en 1660, livret de Benserade."
-        #:key "Lully/Ballet/LWV05"
+        #:key "Lully/Ballet/LWV05LaReventeDesHabits"
         #:opus "LWV-5"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=5"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus "Dessus")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
@@ -18,11 +21,11 @@
 
         ("Amour malade"
         #:description "Ballet créé au Louvre en 1657, un livret de F. Buti."
-        #:key "Lully/Ballet/LWV08"
+        #:key "Lully/Ballet/LWV08AmourMalade"
         #:opus "LWV-8"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=6"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus "Dessus")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
@@ -32,18 +35,19 @@
         ("Les Plaisirs de l'Île Enchantée"
         #:description
         ,(markup #:wordwrap-string "Course de bague, collation ornée de machines, comédie de Molière intitulée la Princesse d'Élide, mêlée de danse et de musique, ballet du Palais d'Alcine, feu d'artifice, et autres fêtes galantes et magnifiques, faites par le Roi à Versailles le 7 mai 1664, et continuées plusieurs autres jours.")
-        #:key "Lully/Ballet/LWV22"
+        #:key "Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee"
         #:opus "LWV-22"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=27"
-        #:main ((a4 "Partition complète")))
+        #:main ((#f "Partition complète")))
 
         ("Le Bourgeois Gentilhomme"
         #:description "Comédie ballet de Molière et Lully, 1670."
-        #:key "Lully/Ballet/LWV43"
+        #:key "Lully/Ballet/LWV43LeBourgeoisGentilhomme"
         #:opus "LWV-43"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=7"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"
+                           #:score-file "main-rehearsal-short.ly"))
         #:parts ((dessus1 "Dessus I")
                  (dessus2 "Dessus II")
                  (haute-contre "Haute-contre")
@@ -53,11 +57,11 @@
 
        ("Atys"
         #:description "Tragédie lyrique, livret de Quinault, 1676."
-        #:key "Lully/Opera/LWV53"
+        #:key "Lully/Opera/LWV53Atys"
         #:opus "LWV-53"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=53"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus1 "Premiers dessus de violon, flûte, hautbois")
                  (dessus2 "Seconds dessus de violon, flûte, hautbois")
                  (haute-contre "Haute-contres de violon, hautbois")
@@ -67,13 +71,13 @@
                  (basse-continue "Basse continue")
                  (voix "Parties vocales")))
 
-       ("Psychée"
+       ("Psyché"
         #:description "Tragédie lyrique, 1678."
-        #:key "Lully/Opera/LWV56"
+        #:key "Lully/Opera/LWV56Psyche"
         #:opus "LWV-56"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=14"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus1 "Dessus I")
                  (dessus2 "Dessus II")
                  (haute-contre "Haute-contre")
@@ -81,57 +85,61 @@
                  (quinte "Quinte")
                  (basse "Basses")
                  (basse-continue "Basse continue")
-                 (trompette "Trompette")
-                 (tambour "Tambour")
-                 (timbales "Timbales")
+                 (trompette "Trompette" #:score-file "part5.ly")
+                 (tambour "Tambour" #:score-file "part5.ly")
+                 (timbales "Timbales" #:score-file "part5.ly")
                  (voix "Parties vocales")))
 
        ("Phaéton"
         #:description "Tragédie lyrique, livret de Quinault, 1683."
-        #:key "Lully/Opera/LWV61"
+        #:key "Lully/Opera/LWV61Phaeton"
         #:opus "LWV-61"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=39"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus1 "Dessus I")
                  (dessus2 "Dessus II")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
                  (quinte "Quinte")
                  (basse "Basses")
-                 (basse-continue "Basse continue")
+                 (basse-continue "Basse continue" #:score-file "part-bc.ly")
                  (voix "Parties vocales")))
 
        ("Armide"
         #:description "Tragédie lyrique, livret de Quinault, 1686."
-        #:key "Lully/Opera/LWV71"
+        #:key "Lully/Opera/LWV71Armide"
         #:opus "LWV-71"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=21"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus1 "Dessus I")
                  (dessus2 "Dessus II")
-                 (haute-contre "Haute-contre")
+                 (haute-contre-treble "Haute-contre (clé de sol)" #:score-file "part2.ly")
+                 (haute-contre "Haute-contre (clé d'ut)" #:score-file "part2.ly")
                  (taille "Taille")
-                 (quinte "Quinte")
-                 (basse "Basses")
+                 (quinte "Quinte" #:score-file "part2.ly")
+                 (basse "Basses" #:score-file "part2.ly")
                  (basse-continue "Basse continue")
                  (voix "Parties vocales")))))
 
+     ;;;
+     ;;; CHARPENTIER
+     ;;;
      ("Marc-Antoine Charpentier (1643-1703)"
       (("David et Jonathas"
         #:opus "H.490"
         #:description "Tragédie en musique, livret de F. de P. Bretonneau, 1688."
         #:key "Charpentier/Opera/DavidEtJonathas"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=28"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus1 "Dessus I")
                  (dessus2 "Dessus II")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
                  (basse "Basses")
-                 (basse-continue "Basse continue")
+                 (basse-continue "Basse continue" #:score-file "part-bc.ly")
                  (voix "Parties vocales")))
 
        ("Prose pour le jour de Pâques"
@@ -139,18 +147,15 @@
         #:opus "H.13"
         #:key "Charpentier/MusiqueSacree/H13_Victimae"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=55"
-        #:main ((urtext "Version urtext")
-                (concert "Version de concert"))
-        )
+        #:main ((urtext "Version urtext" #:options "-dancient-style")
+                (#f "Version de concert"))
+        #:parts ((basse-continue "Basse continue")))
        ("Antiennes O de l'avent"
         #:description "Salut de la veille des O et les 7 O suivant le Romain."
         #:opus "H.36-43"
         #:key "Charpentier/MusiqueSacree/H36_43_O"
-        #:main ((urtext "Version urtext")
-                (concert "Version de concert"))
-        #:parts ((dessus "Dessus I & II")
-                 (basse-continue "Basse continue")
-                 (voix "Parties vocales")))
+        #:main ((urtext "Version urtext" #:options "-dancient-style")
+                (#f "Version de concert")))
        ("Noël sur les instruments"
         #:description
         ,(markup #:column ("O Createur"
@@ -158,8 +163,8 @@
                            "Vous qui désirez sans fin"))
         #:opus "H.531"
         #:key "Charpentier/MusiqueSacree/H531_Noels"
-        #:main ((urtext "Version urtext")
-                (concert "Version de concert")))
+        #:main ((urtext "Version urtext" #:options "-dancient-style")
+                (#f "Version de concert")))
        ("Noël sur les instruments"
         #:description
         ,(markup #:column ("Les bourgeois de Châtre"
@@ -170,18 +175,41 @@
                            "Une jeune pucelle"))
         #:opus "H.534"
         #:key "Charpentier/MusiqueSacree/H534_Noels"
-        #:main ((urtext "Version urtext")
-                (concert "Version de concert")))
+        #:main ((urtext "Version urtext" #:options "-dancient-style")
+                (#f "Version de concert")))
+       ("Antiennes O et Noëls sur les instruments"
+        #:description
+        ,(markup #:wordwrap-string "Laisser paître vos bêtes,
+O salutaris hostia,
+O Createur,
+O Sapienta,
+[O Nuit manquant],
+O Adonai,
+Les Bourgeois de Châtre,
+O Clavis David,
+Où s'en vont ces gais bergers,
+O Oriens,
+Joseph est bien marié,
+O Rex gentium,
+Or nous dites Marie,
+O Emmanuel")
+        #:opus "H.36-43"
+        #:key "Charpentier/MusiqueSacree/AntiennesNoels"
+        #:main ((urtext "Version urtext" #:options "-dancient-style")
+                (#f "Version de concert")))
        ("Magnificat"
         #:description "Prélude sur une basse obligée pour Magnificat à trois voix."
         #:opus "H.73"
         #:key "Charpentier/MusiqueSacree/H73_Magnificat"
-        #:main ((urtext "Version urtext")
-                (concert "Version de concert"))
+        #:main ((urtext "Version urtext" #:options "-dancient-style")
+                (#f "Version de concert"))
         #:parts ((dessus "Dessus I & II")
                  (basse-continue "Basse continue")
                  (voix "Parties vocales")))))
 
+     ;;;
+     ;;; COUPERIN
+     ;;;
      ("François Couperin (1668-1733)"
       (("Motets à voix seule, deux ou trois parties"
         #:key "Couperin/Motets"
@@ -197,85 +225,112 @@
                            "Ad te levavi oculos meos"
                            "Élévation O misterium ineffabile"
                            "Élévation O amor"))
-        #:main ((a4 "Partition complète")))
+        #:main ((#f "Partition complète")))
        ("Messe pour les convents"
         #:description "Pour orgue."
         #:key "Couperin/Orgue/MesseCouvents"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=25"
-        #:main ((a4 "Partition complète")))
+        #:main ((#f "Partition complète")))
        ("L'Art de toucher le clavecin"
         #:key "Couperin/Clavecin/lArtDeToucherLeClavecin"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=4"
-        #:main ((a4 "Livre complet")))))
+        #:main ((#f "Livre complet")))))
 
+     ;;;
+     ;;; BOISMORTIER
+     ;;;
      ("Joseph Bodin de Boismortier (1689-1755)"
       (("Suites à deux musettes"
         #:description ,(markup #:wordwrap-string "Douze suites pour deux musettes, opus 17 et opus 11, qui conviennent aux vièles, flûtes à bec, flûtes traversieres, et haubois.")
-        #:key "PancraceRoyer/PremierLivre"
+        #:key "Boismortier/SuitesADeuxMusettes"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=48"
-        #:main ((a4 "Partition complète")))))
+        #:main ((#f "Partition complète")))))
 
+     ;;;
+     ;;; PANCRACE ROYER
+     ;;;
      ("Joseph Nicolas Pancrace Royer (1705-1755)"
       (("Premier livre de pièces de clavecin"
         #:key "PancraceRoyer/PremierLivre"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=41"
-        #:main ((a4 "Partition complète")))))
+        #:main ((#f "Partition complète")))))
 
+     ;;;
+     ;;; RAMEAU
+     ;;;
      ("Jean-Philippe Rameau (1683-1764)"
       (("Hippolyte et Aricie"
         #:description ,(markup #:wordwrap-string  "Tragédie lyrique, livret de S-J. Pellegrin, version de 1757.")
         #:key "Rameau/Opera/HippolyteEtAricie"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=24"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
         #:parts ((flute1 "Flûte I")
                  (flute2 "Flûte II")
                  (hautbois1 "Hautbois I")
                  (hautbois2 "Hautbois II")
-                 (trompette "Trompette")
-                 (cor "Cor en ré")
+                 (trompette "Trompette" #:score-file "part-trompette-timbales.ly")
+                 (cor "Cor en ré" #:score-file "part-cor.ly")
                  (basson "Basson")
                  (violon1 "Violon I")
                  (violon2 "Violon II")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
                  (basse "Basses")
-                 (timbales "Timbales")
-                 (basse-continue "Basse continue")
+                 (timbales "Timbales" #:score-file "part-trompette-timbales.ly")
+                 (basse-continue "Basse continue" #:score-file "part-bc.ly")
                  (voix "Parties vocales")))
        ("Les Indes Galantes"
         #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1743.")
         #:key "Rameau/Opera/IndesGalantes"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
         #:parts ((flute1 "Flûte I")
                  (flute2 "Flûte II")
                  (hautbois1 "Hautbois I")
                  (hautbois2 "Hautbois II")
-                 (trompette "Trompette")
+                 (trompette "Trompette" #:score-file "part-tt.ly")
                  (basson "Basson")
                  (violon1 "Violon I")
                  (violon2 "Violon II")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
                  (basse "Basses")
-                 (timbales "Timbales")
+                 (timbales "Timbales" #:score-file "part-tt.ly")
                  (voix "Parties vocales")))
-       ("Les Fêtes de Ramire"
-        #:description ,(markup #:wordwrap-string  "Acte de ballet, livret de Voltaire, 1745.")
-        #:key "Rameau/Opera/lesFetesDeRamire"
-        #:url "http://nicolas.sceaux.free.fr/index.php?p=22"
-        #:main ((a4 "Conducteur")
-                (rehearsal #f))
+       ("Suite des Indes Galantes"
+        #:description ,(markup #:wordwrap-string  "Cinq suites pour orchestre tirées des Indes Galanes.")
+        #:key "Rameau/Concerts/IndesGalantesSuites"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
         #:parts ((flute1 "Flûte I")
                  (flute2 "Flûte II")
                  (hautbois1 "Hautbois I")
                  (hautbois2 "Hautbois II")
-                 (trompette1 "Trompette I")
-                 (trompette2 "Trompette II")
-                 (cor1 "Cor I")
-                 (cor2 "Cor II")
+                 (trompette "Trompette" #:score-file "part-tt.ly")
+                 (basson "Basson")
+                 (violon1 "Violon I")
+                 (violon2 "Violon II")
+                 (haute-contre "Haute-contre")
+                 (taille "Taille")
+                 (basse "Basses")
+                 (timbales "Timbales" #:score-file "part-tt.ly")))
+       ("Les Fêtes de Ramire"
+        #:description ,(markup #:wordwrap-string  "Acte de ballet, livret de Voltaire, 1745.")
+        #:key "Rameau/Opera/lesFetesDeRamire"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=22"
+        #:main ((#f "Conducteur")
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+        #:parts ((flute1 "Flûte I")
+                 (flute2 "Flûte II")
+                 (hautbois1 "Hautbois I")
+                 (hautbois2 "Hautbois II")
+                 (trompette1 "Trompette I" #:score-file "part-trompette.ly")
+                 (trompette2 "Trompette II" #:score-file "part-trompette.ly")
+                 (cor1 "Cor I" #:score-file "part-cor.ly")
+                 (cor2 "Cor II" #:score-file "part-cor.ly")
                  (violon1 "Violon I")
                  (violon2 "Violon II")
                  (haute-contre "Haute-contre")
@@ -285,16 +340,59 @@
        ("Les Paladins [EN COURS]"
         #:description ,(markup #:wordwrap-string  "Comédie lyrique, livret de J-F. Duplat de Monticourt, 1760.")
         #:key "Rameau/Opera/Paladins"
-        #:main ((a4 #f)
-                (rehearsal #f)))
+        #:main ((#f #f)
+                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+        #:parts ((flute1 "Flûte I")
+                 (flute2 "Flûte II")
+                 (hautbois1 "Hautbois I")
+                 (hautbois2 "Hautbois II")
+                 (basson1 "Basson I")
+                 (basson2 "Basson II")
+                 (violon1 "Violon I")
+                 (violon2 "Violon II")
+                 (parties "Parties (alto)")
+                 (basse "Basses")
+                 (voix "Parties vocales")))
        ("Pièces de clavecin en concert"
         #:description "Pour violon, viole, clavecin. 1741."
         #:key "Rameau/Concerts/PiecesDeClavecinEnConcerts"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=44"
-        #:main ((a4 "Conducteur"))
-        #:parts ((violon-viole "Violon et viole")
-                 (clavecin "Clavecin")))
-       ))))
+        #:main ((#f "Partition complète"))
+        #:parts ((violon-viole "Violon et viole" #:score-file "part-violon-viole.ly")
+                 (clavecin "Clavecin" #:score-file "part-clavecin.ly")))))
+
+     ;;;
+     ;;; HANDEL
+     ;;;
+     ("George Frideric Handel (1685-1759)"
+      (("Giulio Cesare"
+        #:description "Opera en trois actes, livret de Nicola Francesco Haym, 1724."
+        #:key "Haendel/Opera/GiulioCesare"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=3"
+        #:main ((#f "Partition complète")
+                (reduction "Réduction" #:options "-dpart=reduction" #:score-file "part.ly")))
+       ("Messiah"
+        #:description "Oratorio, 1741."
+        #:key "Haendel/Oratorio/Messiah"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=40"
+        #:main ((#f "Partition complète")
+                (rehearsal #f)
+                (keyboard "Réduction"
+                          #:options "-dpart=keyboard"
+                          #:score-file "part-keyboard.ly")
+                (keyboard-vocal "Réduction et parties vocales"
+                                #:options "-dpart=keyboard-vocal"
+                                #:score-file "part-vocal-keyboard.ly"))
+        #:parts ((oboe1 "Hautbois I")
+                 (oboe2 "Hautbois II")
+                 (violino1 "Violon I")
+                 (violino2 "Violon II")
+                 (violino3 "Violon III")
+                 (viola "Alto")
+                 (bassi "Basses")
+                 (vocal "Parties vocales")))))))
+
+#(export-makefile "Makefile" nenuvar-catalog)
 
 #(set-global-staff-size 16)
 \bookpart {
