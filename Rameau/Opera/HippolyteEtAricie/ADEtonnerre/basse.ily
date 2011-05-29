@@ -1,4 +1,4 @@
-\clef "basse" s4*0_"Très doux et augmentez de force à chaque temps" \ru#16 sol,32 |
+\clef "basse" s4*0_\markup\whiteout "Très doux et augmentez de force à chaque temps" \ru#16 sol,32 |
 \ru#16 sol, |
 s4*0\f \ru#16 sol,32 |
 \ru#8 sol, s4*0_"adoucissez" \ru#8 la,32 |

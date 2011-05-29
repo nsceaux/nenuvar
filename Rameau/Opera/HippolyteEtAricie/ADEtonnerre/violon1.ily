@@ -1,15 +1,15 @@
 \clef "dessus2"
 \override Beam #'auto-knee-gap = #2
-s4*0\<\p_"Très doux et augmentez de force à chaque temps" \ru#16 sol32 |
+s4*0\<\p_\markup\whiteout "Très doux et augmentez de force à chaque temps" \ru#16 sol32 |
 \ru#16 sol32 |
 sol16\! sol''32\f sol'' fad'' fad'' mi'' mi'' re'' re'' do'' do'' si' si' la' la' |
-sol' sol' fad' fad' mi' mi' re' re' s4*0\>_"adoucissez à chaque temps" \ru#8 do'32 |
+sol' sol' fad' fad' mi' mi' re' re' s4*0\>_\markup\whiteout "adoucissez à chaque temps" \ru#8 do'32 |
 s4*0\! \ru#16 do'32 |
 do'16 la''32\f la'' sol'' sol'' fad'' fad'' mi'' mi'' re'' re'' do'' do'' si' si' |
-la' la' sol' sol' fad' fad' mi' mi' s4*0_"adoucissez à chaque temps" \ru#8 re'32 |
+la' la' sol' sol' fad' fad' mi' mi' s4*0_\markup\whiteout "adoucissez à chaque temps" \ru#8 re'32 |
 \ru#16 re' |
 \clef "dessus" re'16 si''32\f si'' la'' la'' sol'' sol'' fad'' fad'' mi'' mi'' re'' re'' do'' do'' |
-si' si' la' la' sol' sol' fad' fad' s4*0_"adoucissez à chaque temps" \ru#8 mi'32 |
+si' si' la' la' sol' sol' fad' fad' s4*0_\markup\whiteout "adoucissez à chaque temps" \ru#8 mi'32 |
 \ru#16 mi' |
 mi'16 do'''32\f do''' si'' si'' la'' la'' sol'' sol'' fad'' fad'' mi'' mi'' re'' re'' |
 do'' do'' si' si' la' la' sol' sol' \ru#8 fad' |
@@ -39,10 +39,10 @@ mi'' fad'' sol'' fad'' mi'' re'' do'' si' la' si' do'' si' la' sol' fad' mi' |
 re' re' mi' fad' sol' la' si' do'' \ru#8 re'' |
 re'' re'' do'' si' la' sol' fad' mi' \ru#8 re' |
 re' re' mi' fad' sol' la' si' do'' \ru#8 re'' |
-re'' re'' do'' si' la' sol' fad' mi' s4*0_"adoucissez à chaque temps" \ru#8 re'32 |
+re'' re'' do'' si' la' sol' fad' mi' s4*0_\markup\whiteout "adoucissez à chaque temps" \ru#8 re'32 |
 \ru#16 re' |
 s4*0 \rp#4 { re'32 sol' fad' mi'} |
 re' sol' fad' mi' re' sol' fad' mi' re' sol'\f fad' mi' re' do' si la |
-s4*0_"adoucissez à chaque temps" \ru#16 sol32 |
+s4*0_\markup\whiteout "adoucissez à chaque temps" \ru#16 sol32 |
 \ru#16 sol |
 sol8 r r4

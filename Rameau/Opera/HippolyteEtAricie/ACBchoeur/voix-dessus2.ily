@@ -1,7 +1,7 @@
 \clef "vdessus" R2. |
 sol'4 sol' sol' |
 re'' re''4. re''8 |
-re''4 do''2 ~|
+re''4 \cesure do''2 ~|
 do''8 [\melisma re''16 do'' ] si'2 ~|
 si'8 [ do''16 si' ] la'2 ~|
 la'\melismaEnd sol'16 [ fad' ] sol'8 |
@@ -25,11 +25,11 @@ do''4. do''8 do'' si' |
 do''4. mi''8 re'' do'' |
 si'2\trill si'8 do'' |
 re''2. ~|
-re''4 do'' do'' |
+re''4 \cesure do'' do'' |
 do''2 si' la'4. si'8 |
 fad'4.\trill fad'8 fad' sol' |
-la'2 la'8 si' |
-do''4 la' re'' |
+la'2^| la'8 si' |
+do''4^| \cesure la' re'' |
 re''2.( |
 do''8\trill) si' la'4.\trill sol'8 |
 sol'4 re'' si' |

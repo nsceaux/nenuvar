@@ -176,3 +176,10 @@ oenoneMarkText =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark "vbas-dessus"
    (markup #:character-text "Œnone" text)))
+
+\layout {
+  \context {
+    \Voice
+    \override Script #'avoid-slur = #'outside
+  }
+}

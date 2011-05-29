@@ -64,6 +64,32 @@ forceFullClef = {
 %% Print clef in full size
 fullClef = \override Staff.Clef #'full-size-change = ##t
 
+%% Breathing signs from Hippolyte et Aricie
+cesure = {
+  \once\override BreathingSign #'text = \markup \fontsize #2 "|"
+  \once\override BreathingSign #'Y-offset = #0
+  \breathe
+}
+cesureCenter = {
+  \once\override BreathingSign #'text = \markup \fontsize #2 "|"
+  \once\override BreathingSign #'Y-offset = #-1
+  \breathe
+}
+cesureDown = {
+  \once\override BreathingSign #'text = \markup \fontsize #2 "|"
+  \once\override BreathingSign #'Y-offset = #-2
+  \breathe
+}
+
+%% + with an arc above (like a formata with a + signe instead of dot)
+arcTrill =
+#(make-music 'TextScriptEvent
+             'direction UP
+             'text (markup #:general-align X -0.5
+                           #:combine
+                           #:musicglyph "scripts.ufermata"
+                           #:whiteout #:musicglyph "scripts.stopped"))
+
 %% Articulation used Charpentier: a dot, followed by a prall sign
 dotSign = "╸"
 dotPrall =
@@ -125,6 +151,21 @@ slurPrall = {
                              (+ 0.5 (cdr point-3))))
        (set-cdr! point-2 (+ (cdr point-3) 2.0))
        coords))
+}
+
+%% A ^ sign between two notes (faked using a phrasing slur)
+slurCirc = {
+  \once\override PhrasingSlur #'direction = #UP
+  \once\override PhrasingSlur #'text = \markup\musicglyph #"scripts.umarcato"
+  \once\override PhrasingSlur #'stencil =
+  #(lambda (grob)
+     (let* ((slur-stencil (ly:slur::print grob))
+            (circ-stencil (ly:text-interface::print grob)))
+       (ly:stencil-translate circ-stencil
+                             (cons (/ (+ (interval-length (ly:stencil-extent circ-stencil X))
+                                         (interval-length (ly:stencil-extent slur-stencil X)))
+                                      2.0)
+                                   (max 1.2 (+ 0.5 (car (ly:stencil-extent slur-stencil Y))))))))
 }
 
 %% For quarter note with eighth note flag and half note note head (in e.g. 3/2)

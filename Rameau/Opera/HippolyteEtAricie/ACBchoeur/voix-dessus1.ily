@@ -9,7 +9,7 @@ si'4.( la'8\trill) si' do'' |
 si'4\trill \appoggiatura la'8 sol'4 si' |
 mi''2 sol''4 |
 \appoggiatura fad''8 mi''2\trill si'8 mi'' |
-dod''2\trill la''4 |
+dod''2\trill \cesure la''4 |
 la''2 re''4 |
 sol''2 sol''8 fad'' |
 fad''4( mi''2\trill) |

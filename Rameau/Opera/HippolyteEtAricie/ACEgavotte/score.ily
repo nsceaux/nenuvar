@@ -10,7 +10,7 @@
         \instrumentName \markup \center-column { Haute-contres Tailles }
         { s2 s1*3 s2 s2 s1*5 s2
           s2 s1*3 s2 s2 s1*3 s2 s2 s1*5 s2 s2 s1*5 s2
-          s4*0^"Haute-contres et tailles" }
+          s4*0^\markup\whiteout "Haute-contres et tailles" }
         \global \keepWithTag #'parties \includeNotes "parties" >>
       \newHaraKiriStaffB <<
         { \startHaraKiri s2 s1*3 s2 s2 s1*5 s2

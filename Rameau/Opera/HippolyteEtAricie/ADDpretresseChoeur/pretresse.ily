@@ -8,8 +8,8 @@ sol''8 sol''16 sol'' do''8 do''16 re'' |
 sol'4 sol'8 re'' |
 sol'' [\melisma fad''16 mi'' ] re'' [ do'' si' la' ]|
 sol' [ la' si' do'' ]( re''8 )\melismaEnd re''16 si' |
-mi''2 |
-mi''8 r r mi'' |
+\slurCirc mi''2\( |
+mi''8\) r r mi'' |
 la'' [\melisma sol''16 fad'' ] mi'' [ re'' dod'' si' ]|
 la' [ si' dod'' re'' ]( mi''8 )\melismaEnd mi''16 la'' |
 fad''4\trill fad''8 r |
@@ -17,7 +17,7 @@ r la'' fad'' la'' |
 re''4 r |
 r8 si' mi'' mi''16 sol'' |
 dod''8\trill dod''16 dod'' fad''8 la'' |
-re'' re'' sol'' sol''16 fad'' |
+re'' re'' sol''^| sol''16 fad'' |
 fad''4( mi''\trill) |
 re'' r8 r16 la'^\markup\character "Petit chœur" |
 la'8. la'16 la'8 la' |
@@ -37,18 +37,18 @@ re''8 r r4 |
 r r8 re'' |
 sol'' [\melisma fad''16 mi'' ] re'' [ do'' si' la' ]|
 sol' [ la' si' do'' ]( re''8 )\melismaEnd re''16 si' |
-mi''2 |
-mi''8 r r mi'' |
+\slurCirc mi''2\( |
+mi''8\) r r mi'' |
 la'' [\melisma sol''16 fad'' ] mi'' [ re'' dod'' si' ]|
 la' [ si' dod'' re'' ]( mi''8 )\melismaEnd mi''16 la'' |
 fad''2\trill |
 fad''8 r r re'' |
 re'' re'' re'' re''16 re'' |
-sol''2 |
-sol''8 r r4 |
+\slurCirc sol''2\( |
+sol''8\) r r4 |
 r r8 re'' |
 re'' re'' re'' re''16 re'' |
-sol''2 |
-sol''8 mi'' re'' re''16 sol'' |
+\slurCirc sol''2\( |
+sol''8\) \cesure mi'' re'' re''16 sol'' |
 sol''4. ( fad''8 )|
 sol''2 |

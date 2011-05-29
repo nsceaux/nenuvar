@@ -25,11 +25,11 @@ red''4\trill red''8 r fad''4 |
 si' si'8 r mi'' mi'' |
 dod''2.\trill |
 re''4 re''8 dod'' si' la' |
-sold'2 r8 dod'' |
+sold'2\trill r8 dod'' |
 \appoggiatura dod'' re''2 red''8 red'' |
 red''2 mid''8 fad'' |
-fad''4. ( mid''8 )\appoggiatura red'' dod''4 |
+fad''4. ( mid''8\trill )\appoggiatura red'' dod''4 |
 r r8 dod'' dod'' re'' |
-sold'4. sold'8 sold' la' |
+sold'4.\trill sold'8 sold' la' |
 fad'2. |
 la'2 la'8 la' |

@@ -76,7 +76,7 @@
 >>
 <<
   \tag #'(hautbois hautbois hautbois1 hautbois2 violon1 flute1 flute2) {
-    sib'4^"Un hautbois seul" re'' |
+    sib'4^"un hautbois seul" re'' |
     sol'2 do''4( sib') |
     la'\trill( sol') la'( sib') |
     do''( sib') la'( sol') |
