@@ -1,4 +1,9 @@
 \keys la \major
+\midiTempo #204 \digitTime \time 2/2 s1*3 \bar "||"
+
+\midiTempo #108
+\time 3/8 s4.*37 \bar "||"
+
 \midiTempo #160 \digitTime \time 2/2 s1
 \midiTempo #80 \digitTime\time 3/4 s2.
 \time 4/4 \grace s8 s1
@@ -21,4 +26,7 @@ s2
 \time 4/4 \grace s8 s1
 \midiTempo #160 \digitTime \time 2/2 s1
 \midiTempo #80 \digitTime\time 3/4 \grace s8 s2.*2
-\midiTempo #160 \digitTime \time 2/2 s2 \bar "" \break
+\midiTempo #160 \digitTime \time 2/2 s2
+
+\keys la \minor
+\midiTempo #108 s2 s1*24 \bar "|."

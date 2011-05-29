@@ -24,5 +24,10 @@
       %%\override SpacingSpanner #'common-shortest-duration = #(ly:make-moment 1 0)
     }
     \context { \Staff \remove "Page_turn_engraver" }
+    \context {
+      \Score
+      \override NonMusicalPaperColumn #'line-break-permission = ##f
+      \override NonMusicalPaperColumn #'page-break-permission = ##f
+    }
   }
 }
