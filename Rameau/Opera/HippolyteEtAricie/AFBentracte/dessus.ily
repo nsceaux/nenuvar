@@ -1,4 +1,4 @@
-\clef "dessus" la'4\trill si' |
+\clef "dessus" la'4 si'\trill |
 do'' si'8 do'' re'' si' |
 do''4 re''8 mi'' fa'' re'' |
 mi''4 fad''8 sold'' la'' si'' |

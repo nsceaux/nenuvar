@@ -87,8 +87,18 @@ arcTrill =
              'direction UP
              'text (markup #:general-align X -0.5
                            #:combine
-                           #:musicglyph "scripts.ufermata"
-                           #:whiteout #:musicglyph "scripts.stopped"))
+                           #:concat (#:null #:translate '(0.3 . 0.8) #:rotate -90
+                                            #:musicglyph "accidentals.leftparen")
+                           #:musicglyph "scripts.stopped"))
+
+arcDot =
+#(make-music 'TextScriptEvent
+             'direction UP
+             'text (markup #:general-align X -0.5
+                           #:combine
+                           #:concat (#:null #:translate '(0.3 . 0.65) #:rotate -90
+                                            #:musicglyph "accidentals.leftparen")
+                           #:musicglyph "scripts.staccato"))
 
 %% Articulation used Charpentier: a dot, followed by a prall sign
 dotSign = "╸"
