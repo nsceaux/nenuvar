@@ -20,10 +20,11 @@
     do4. do8 do4 re |
     sol,2
     << \tag #'basse { s2 s1*15 s4. } \tag #'thesee { r2 R1*3 R1*7 R1*3 R1 R1 r4 r8 } >>
-    \tag #'basse \theseeMark mi16-\tag #'thesee ^\markup\character "Thésée" mi la4 la16 la la sold |
+    \tag #'basse \theseeMark mi16-\tag #'thesee ^\markup\character "Thésée" mi
+    \slurCirc la4\( la16\) la la sold |
     la2 r8 mi16 fad sol8 sol16 la |
     fad4.\trill si8 sold8.\trill sold16 sold8 la |
-    \appoggiatura la si si mi'2 mi'16 re' do' si |
+    \appoggiatura la si si \slurCirc mi'2\( \cesureCenter mi'16\) re' do' si |
     \appoggiatura si8 do'4 do'8 si si8.[( la16\trill)] la8 la |
     fad2\trill si4 la8 do' |
     \appoggiatura mi red4. mi8 mi4. ( red8 )|
@@ -46,7 +47,7 @@
     sol2( sol,) |
     do2. r8 do' |
     do'4 re'8 mi' si4\trill si8 do' |
-    sold4.\trill mi8 mi fad sold mi |
+    sold4.\arcTrill mi8 mi fad sold mi |
     la2 la4. mi8 |
     fa2 do4. re8 |
     mi2~ mi\trill |
@@ -59,24 +60,24 @@
     sold4\trill la8 la16 la la8. re16 |
     mi2 r4 la, |
     mi mi8 mi la4 la8 si |
-    \appoggiatura si do'2 do'8 r r4 |
+    \appoggiatura si \slurCirc do'2\( do'8\) r r4 |
     la la8 la la4. do'8 |
     fa4. la8 re re mi fa |
     mi4\trill mi8 r sol2 ~|
     sol4 mi8 mi la4 la |
     fad2.\trill r8 fad |
     si2 fad4 sold8 la |
-    sold1\trill |
-    do'2 do'4 do'8 si |
+    sold1\arcTrill |
+    \slurCirc do'2\( do'4\) do'8 si |
     la2 la4 re' |
     si2\trill si8 r sol sol |
     \appoggiatura fad mi4\trill mi8 mi mi4. mi8 |
     la4 la8 r r fad sol la |
     red2\trill red4 mi8 fad |
     \appoggiatura fad sol2 r8 la la do' |
-    si2 fad4\trill fad8 sol |
+    \slurCirc si2\( fad4\)\trill fad8 sol |
     mi2 mi' ~|
-    mi' r8 re' dod' si |
+    \slurCirc mi'\( r8 re'\) dod' si |
     la2 la4 mi |
     fa2 fa8 r re' re' |
     si4\trill si8 re' sol4. la8 |
@@ -105,7 +106,7 @@
     mi4\trill mi8 r r do'16 do' do'8 do'16 sol |
     sib4 sib8 la sol4\trill sol8 la |
     \appoggiatura sol fa2 la8 la16 la re'8. re'16 |
-    fad4 la8 si do'4 do'8 si |
+    fad4 la8 si \slurCirc do'4\( do'8\) si |
     si\trill si r sol sol sol16 do' fa8 fa16 sol |
     do4 do8
     << \tag #'basse { s8 s2 s1*29 } \tag #'pluton { r8 r2 | R1*29 } >>
@@ -119,12 +120,12 @@
       \tag #'pluton { r8 r2 | R2. | R1*2 | R2. | R1*27 | r2 r4 } >>
     \tag #'basse \plutonMark r8 r16 mi-\tag #'pluton ^\markup\character "Pluton" |
     la4 r8 la16 la do'4 do'8 la |
-    mi'4 mi'8 r16 do' la4\prall la8 la16 mi |
+    \slurCirc mi'4\( mi'8\) r16 do' la4\prall la8 la16 mi |
     \appoggiatura mi8 fa4 fa8 re sol4 sol8 sol, |
     do4 sol do' r16 mi mi mi |
     la4 la8 la fad4\trill fad8 fad |
-    red4\trill red8 r r mi fad sol |
-    do2 la,4 la,8 si, |
-    mi1 |
+    red4\arcTrill red8 r r mi fad sol |
+    \slurCirc do2\( la,4\) la,8 si, |
+    mi1^\markup\right-align\italic\line { Thésée sort, suivi de Tisiphone } |
   }
 >>

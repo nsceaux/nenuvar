@@ -31,7 +31,7 @@
         \instrumentName \markup \center-column { "Basse continue" Contre-basse }
         \global \keepWithTag #'basse-continue \includeNotes "basse"
         { s1*9 s1 s2. s1*4 s1*4 s1*7 s1*3 s1 s1*5 s1*4 s1*22 s1*5
-          s1 s2. s1 s1 s2. s1 s1_"Bassons et basse continue" }
+          s1 s2. s1 s1 s2. s1 s1_\markup\whiteout "Bassons et basse continue" }
         \includeFigures "chiffres" >>
       \newHaraKiriStaffB <<
         { s1*9 s1 s2. s1*4 s1*4 s1*7 s1*3 s1 s1*5 s1*4 s1*22 s1*5

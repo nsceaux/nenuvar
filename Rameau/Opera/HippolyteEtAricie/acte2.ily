@@ -32,8 +32,8 @@
 \includeScore "BBAentree"
 %{ n°7 %}
 \pieceToc \markup \smallCaps { Thésée, Pluton }
-\includeScore "BBBthesee"
-\includeScore "BBCplutonThesee"
+\includeScore "BBBtheseePluton"
+
 %{ n°8 %}
 \pieceToc \markup { \smallCaps Thésée : \italic { Sous les drapeaux de Mars, unis par la valeur } }
 \includeScore "BBDthesee"
