@@ -10,12 +10,12 @@
 \includeScore "CAAphedre"
 \includeScore "CABphedre"
 %%
-\scene "Scène II" "SCÈNE 2 : Phèdre, Hippolyte, Œnone"
+\scene "Scène II" "SCÈNE 2 : Phèdre, Hippolyte"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Phèdre, Hippolyte. }
 }
 \pieceToc \markup \smallCaps { Phèdre, Hippolyte }
-\includeScore "CCAphedreHippolyte"
+\includeScore "CBAphedreHippolyte"
 %%
 \scene "Scène III" \markup \wordwrap { SCÈNE 3 : Thésée, les mêmes }
 \sceneDescription \markup \wordwrap-center {

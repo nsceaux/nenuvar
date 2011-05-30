@@ -17,7 +17,7 @@
 \midiTempo #160 \fractionTime \time 2/2 s1*2
 \midiTempo #80 \time 3/4 s2.
 \midiTempo #160 \fractionTime \time 2/2 s1
-\midiTempo #80 \time 4/4 s1*2 s4 \key do \major s2.
+\midiTempo #80 \time 4/4 s1*2 s4 \bar "||" \key do \major s2.
 \time 3/4 s2.
 \time 4/4 s1
 \midiTempo #160 \fractionTime \time 2/2 s1
@@ -31,7 +31,7 @@
 \time 3/4 s2.
 \midiTempo #160 \fractionTime \time 2/2 s1
 \midiTempo #80 \time 3/4 s2.*2
-\midiTempo #160 \fractionTime \time 2/2 s1*2 \key re \minor s1*3
+\midiTempo #160 \fractionTime \time 2/2 s1*2 \bar "||" \key re \minor s1*3
 \midiTempo #80 \time 3/4 \grace s8 s2.
 \time 4/4 s1
 \midiTempo #160 \fractionTime \time 2/2 s1*11
@@ -44,4 +44,4 @@
 \midiTempo #160 \fractionTime \time 2/2 \grace s8 s1*3
 \midiTempo #80 \time 4/4 s1*2
 \midiTempo #160 \fractionTime \time 2/2 s1*3
-\midiTempo #80 \time 4/4 s4 \bar "" \break
+
