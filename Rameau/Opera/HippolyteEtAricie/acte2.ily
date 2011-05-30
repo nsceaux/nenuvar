@@ -42,7 +42,7 @@
 \pieceTocTitle \markup { \smallCaps Chœur : \italic { Pluton commande } }
 \includeScore "BCDchoeur"
 %%
-%{ n°8 %}
+%{ n°9 %}
 \scene "Scène IV" \markup \wordwrap {
   SCÈNE 4 : Thésée, Tisiphone, les mêmes
 }
@@ -52,39 +52,39 @@
 }
 \pieceToc \markup \smallCaps { Thésée, Tisiphone }
 \includeScore "BDAtheseeTisiphone"
-%{ n°9 %}
+%{ n°10 %}
 \pieceTocAndTitle \markup { TRIO DES TROIS PARQUES } \markup { 
   \smallCaps { Les trois Parques : } \italic { Du Destin le vouloir suprême }
 }
 \includeScore "BDBparques"
 \includeScore "BDCthesee"
-%{ n°10 %}
+%{ n°11 %}
 \pieceToc \markup { \smallCaps Thésée : \italic { Puisque Pluton est inflexible } }
 \includeScore "BDDthesee"
-%{ n°11 %}
+%{ n°12 %}
 \pieceToc \markup { \smallCaps Chœur : \italic { Non, Neptune aurait beau t’entendre } }
 \includeScore "BDEchoeur"
 %%
-%{ n°12 %}
+%{ n°13 %}
 \scene "Scène V" \markup \wordwrap { SCÈNE 5 : Mercure, les mêmes }
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Mercure, \smallCaps Pluton et les trois Parques.
 }
 \pieceToc \markup \smallCaps { Mercure, Pluton }
 \includeScore "BEAmercurePluton"
-%{ n°13 %}
+%{ n°14 %}
 \pieceToc \markup { \smallCaps { Pluton, les Parques : }
   \italic { Vous, qui de l’avenir } }
 \includeScore "BEBplutonParques"
 %%
-%{ n°14 %}
+%{ n°15 %}
 \scene "Scène VI" "SCÈNE 6 : Thésée, Mercure"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Thésée et \smallCaps Mercure.
 }
 \pieceToc \markup \smallCaps { Thésée, Mercure }
 \includeScore "BFAtheseeMercure"
-%{ n°15 %}
+%{ n°16 %}
 \pieceTocTitle "Entr'acte"
 \includeScore "BFBentracte"
 \actEnd \markup { FIN DU DEUXIÈME ACTE }

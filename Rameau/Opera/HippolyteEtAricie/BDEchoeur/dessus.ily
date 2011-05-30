@@ -1,4 +1,4 @@
-\clef "dessus" r8 lab do' mib' lab' do'' |
+\clef "dessus" r8^"Tous" lab do' mib' lab' do'' |
 mib'' lab''4 mib'' reb''8 |
 do'' lab''4 do''' lab''8 |
 mib'' lab''4 mib'' lab''8 |

@@ -1,7 +1,7 @@
-\clef "basse" lab2. |
+\clef "basse"
 <<
-  \tag #'basse { r8 lab, do mib mib, mib | }
-  \tag #'contrebasse { lab,2 mib,4 | }
+  \tag #'basse { lab2.^"Tous" | r8 lab, do mib mib, mib | }
+  \tag #'contrebasse { lab2. | lab,2 mib,4 | }
 >>
 lab,4 lab lab |
 do'2 lab4 |
