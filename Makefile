@@ -10,54 +10,47 @@ LILYPOND_CMD=lilypond -ddelete-intermediate-files -dno-protected-scheme-parsing
 ###
 ### La revente des habits du ballet
 # Conducteur
-Lully/Ballet/LWV05LaReventeDesHabits: $(OUTPUT_DIR)/LWV05LaReventeDesHabits.pdf
-.PHONY: Lully/Ballet/LWV05LaReventeDesHabits
-$(OUTPUT_DIR)/LWV05LaReventeDesHabits.pdf:
+Lully/Ballet/LWV05LaReventeDesHabits:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV05LaReventeDesHabits  \
 	Lully/Ballet/LWV05LaReventeDesHabits/main.ly
+.PHONY: Lully/Ballet/LWV05LaReventeDesHabits
 # rehearsal
-Lully/Ballet/LWV05LaReventeDesHabits-rehearsal: $(OUTPUT_DIR)/LWV05LaReventeDesHabits-rehearsal.pdf
-.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-rehearsal
-$(OUTPUT_DIR)/LWV05LaReventeDesHabits-rehearsal.pdf:
+Lully/Ballet/LWV05LaReventeDesHabits-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV05LaReventeDesHabits-rehearsal -d use-rehearsal-numbers \
 	Lully/Ballet/LWV05LaReventeDesHabits/main.ly
+.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-rehearsal
 # Dessus
-Lully/Ballet/LWV05LaReventeDesHabits-dessus: $(OUTPUT_DIR)/LWV05LaReventeDesHabits-dessus.pdf
-.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-dessus
-$(OUTPUT_DIR)/LWV05LaReventeDesHabits-dessus.pdf:
+Lully/Ballet/LWV05LaReventeDesHabits-dessus:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV05LaReventeDesHabits-dessus -dpart=dessus  \
 	Lully/Ballet/LWV05LaReventeDesHabits/part.ly
+.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-dessus
 # Haute-contre
-Lully/Ballet/LWV05LaReventeDesHabits-haute-contre: $(OUTPUT_DIR)/LWV05LaReventeDesHabits-haute-contre.pdf
-.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-haute-contre
-$(OUTPUT_DIR)/LWV05LaReventeDesHabits-haute-contre.pdf:
+Lully/Ballet/LWV05LaReventeDesHabits-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV05LaReventeDesHabits-haute-contre -dpart=haute-contre  \
 	Lully/Ballet/LWV05LaReventeDesHabits/part.ly
+.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-haute-contre
 # Taille
-Lully/Ballet/LWV05LaReventeDesHabits-taille: $(OUTPUT_DIR)/LWV05LaReventeDesHabits-taille.pdf
-.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-taille
-$(OUTPUT_DIR)/LWV05LaReventeDesHabits-taille.pdf:
+Lully/Ballet/LWV05LaReventeDesHabits-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV05LaReventeDesHabits-taille -dpart=taille  \
 	Lully/Ballet/LWV05LaReventeDesHabits/part.ly
+.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-taille
 # Quinte
-Lully/Ballet/LWV05LaReventeDesHabits-quinte: $(OUTPUT_DIR)/LWV05LaReventeDesHabits-quinte.pdf
-.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-quinte
-$(OUTPUT_DIR)/LWV05LaReventeDesHabits-quinte.pdf:
+Lully/Ballet/LWV05LaReventeDesHabits-quinte:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV05LaReventeDesHabits-quinte -dpart=quinte  \
 	Lully/Ballet/LWV05LaReventeDesHabits/part.ly
+.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-quinte
 # Basses
-Lully/Ballet/LWV05LaReventeDesHabits-basse: $(OUTPUT_DIR)/LWV05LaReventeDesHabits-basse.pdf
-.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-basse
-$(OUTPUT_DIR)/LWV05LaReventeDesHabits-basse.pdf:
+Lully/Ballet/LWV05LaReventeDesHabits-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV05LaReventeDesHabits-basse -dpart=basse  \
 	Lully/Ballet/LWV05LaReventeDesHabits/part.ly
+.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-basse
 
 Lully/Ballet/LWV05LaReventeDesHabits-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits
@@ -89,54 +82,47 @@ Lully/Ballet/LWV05LaReventeDesHabits-all: \
 
 ### Amour malade
 # Conducteur
-Lully/Ballet/LWV08AmourMalade: $(OUTPUT_DIR)/LWV08AmourMalade.pdf
-.PHONY: Lully/Ballet/LWV08AmourMalade
-$(OUTPUT_DIR)/LWV08AmourMalade.pdf:
+Lully/Ballet/LWV08AmourMalade:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV08AmourMalade  \
 	Lully/Ballet/LWV08AmourMalade/main.ly
+.PHONY: Lully/Ballet/LWV08AmourMalade
 # rehearsal
-Lully/Ballet/LWV08AmourMalade-rehearsal: $(OUTPUT_DIR)/LWV08AmourMalade-rehearsal.pdf
-.PHONY: Lully/Ballet/LWV08AmourMalade-rehearsal
-$(OUTPUT_DIR)/LWV08AmourMalade-rehearsal.pdf:
+Lully/Ballet/LWV08AmourMalade-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV08AmourMalade-rehearsal -d use-rehearsal-numbers \
 	Lully/Ballet/LWV08AmourMalade/main.ly
+.PHONY: Lully/Ballet/LWV08AmourMalade-rehearsal
 # Dessus
-Lully/Ballet/LWV08AmourMalade-dessus: $(OUTPUT_DIR)/LWV08AmourMalade-dessus.pdf
-.PHONY: Lully/Ballet/LWV08AmourMalade-dessus
-$(OUTPUT_DIR)/LWV08AmourMalade-dessus.pdf:
+Lully/Ballet/LWV08AmourMalade-dessus:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV08AmourMalade-dessus -dpart=dessus  \
 	Lully/Ballet/LWV08AmourMalade/part.ly
+.PHONY: Lully/Ballet/LWV08AmourMalade-dessus
 # Haute-contre
-Lully/Ballet/LWV08AmourMalade-haute-contre: $(OUTPUT_DIR)/LWV08AmourMalade-haute-contre.pdf
-.PHONY: Lully/Ballet/LWV08AmourMalade-haute-contre
-$(OUTPUT_DIR)/LWV08AmourMalade-haute-contre.pdf:
+Lully/Ballet/LWV08AmourMalade-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV08AmourMalade-haute-contre -dpart=haute-contre  \
 	Lully/Ballet/LWV08AmourMalade/part.ly
+.PHONY: Lully/Ballet/LWV08AmourMalade-haute-contre
 # Taille
-Lully/Ballet/LWV08AmourMalade-taille: $(OUTPUT_DIR)/LWV08AmourMalade-taille.pdf
-.PHONY: Lully/Ballet/LWV08AmourMalade-taille
-$(OUTPUT_DIR)/LWV08AmourMalade-taille.pdf:
+Lully/Ballet/LWV08AmourMalade-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV08AmourMalade-taille -dpart=taille  \
 	Lully/Ballet/LWV08AmourMalade/part.ly
+.PHONY: Lully/Ballet/LWV08AmourMalade-taille
 # Quinte
-Lully/Ballet/LWV08AmourMalade-quinte: $(OUTPUT_DIR)/LWV08AmourMalade-quinte.pdf
-.PHONY: Lully/Ballet/LWV08AmourMalade-quinte
-$(OUTPUT_DIR)/LWV08AmourMalade-quinte.pdf:
+Lully/Ballet/LWV08AmourMalade-quinte:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV08AmourMalade-quinte -dpart=quinte  \
 	Lully/Ballet/LWV08AmourMalade/part.ly
+.PHONY: Lully/Ballet/LWV08AmourMalade-quinte
 # Basses
-Lully/Ballet/LWV08AmourMalade-basse: $(OUTPUT_DIR)/LWV08AmourMalade-basse.pdf
-.PHONY: Lully/Ballet/LWV08AmourMalade-basse
-$(OUTPUT_DIR)/LWV08AmourMalade-basse.pdf:
+Lully/Ballet/LWV08AmourMalade-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV08AmourMalade-basse -dpart=basse  \
 	Lully/Ballet/LWV08AmourMalade/part.ly
+.PHONY: Lully/Ballet/LWV08AmourMalade-basse
 
 Lully/Ballet/LWV08AmourMalade-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV08AmourMalade
@@ -168,12 +154,11 @@ Lully/Ballet/LWV08AmourMalade-all: \
 
 ### Les Plaisirs de l'Île Enchantée
 # Partition complète
-Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee: $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee.pdf
-.PHONY: Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee
-$(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee.pdf:
+Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee  \
 	Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee/main.ly
+.PHONY: Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee
 
 Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV22LesPlaisirsDeLIleEnchantee
@@ -193,61 +178,53 @@ Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee-all: \
 
 ### Le Bourgeois Gentilhomme
 # Conducteur
-Lully/Ballet/LWV43LeBourgeoisGentilhomme: $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme.pdf
-.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme
-$(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme.pdf:
+Lully/Ballet/LWV43LeBourgeoisGentilhomme:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme  \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme/main.ly
+.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme
 # rehearsal
-Lully/Ballet/LWV43LeBourgeoisGentilhomme-rehearsal: $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-rehearsal.pdf
-.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-rehearsal
-$(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-rehearsal.pdf:
+Lully/Ballet/LWV43LeBourgeoisGentilhomme-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-rehearsal -d use-rehearsal-numbers \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme/main-rehearsal-short.ly
+.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-rehearsal
 # Dessus I
-Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus1: $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus1.pdf
-.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus1
-$(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus1.pdf:
+Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus1 -dpart=dessus1  \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme/part.ly
+.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus1
 # Dessus II
-Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus2: $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus2.pdf
-.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus2
-$(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus2.pdf:
+Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus2 -dpart=dessus2  \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme/part.ly
+.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus2
 # Haute-contre
-Lully/Ballet/LWV43LeBourgeoisGentilhomme-haute-contre: $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-haute-contre.pdf
-.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-haute-contre
-$(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-haute-contre.pdf:
+Lully/Ballet/LWV43LeBourgeoisGentilhomme-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-haute-contre -dpart=haute-contre  \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme/part.ly
+.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-haute-contre
 # Taille
-Lully/Ballet/LWV43LeBourgeoisGentilhomme-taille: $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-taille.pdf
-.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-taille
-$(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-taille.pdf:
+Lully/Ballet/LWV43LeBourgeoisGentilhomme-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-taille -dpart=taille  \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme/part.ly
+.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-taille
 # Quinte
-Lully/Ballet/LWV43LeBourgeoisGentilhomme-quinte: $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-quinte.pdf
-.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-quinte
-$(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-quinte.pdf:
+Lully/Ballet/LWV43LeBourgeoisGentilhomme-quinte:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-quinte -dpart=quinte  \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme/part.ly
+.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-quinte
 # Basses
-Lully/Ballet/LWV43LeBourgeoisGentilhomme-basse: $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-basse.pdf
-.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-basse
-$(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-basse.pdf:
+Lully/Ballet/LWV43LeBourgeoisGentilhomme-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-basse -dpart=basse  \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme/part.ly
+.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-basse
 
 Lully/Ballet/LWV43LeBourgeoisGentilhomme-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme
@@ -281,75 +258,65 @@ Lully/Ballet/LWV43LeBourgeoisGentilhomme-all: \
 
 ### Atys
 # Conducteur
-Lully/Opera/LWV53Atys: $(OUTPUT_DIR)/LWV53Atys.pdf
-.PHONY: Lully/Opera/LWV53Atys
-$(OUTPUT_DIR)/LWV53Atys.pdf:
+Lully/Opera/LWV53Atys:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys  \
 	Lully/Opera/LWV53Atys/main.ly
+.PHONY: Lully/Opera/LWV53Atys
 # rehearsal
-Lully/Opera/LWV53Atys-rehearsal: $(OUTPUT_DIR)/LWV53Atys-rehearsal.pdf
-.PHONY: Lully/Opera/LWV53Atys-rehearsal
-$(OUTPUT_DIR)/LWV53Atys-rehearsal.pdf:
+Lully/Opera/LWV53Atys-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-rehearsal -d use-rehearsal-numbers \
 	Lully/Opera/LWV53Atys/main.ly
+.PHONY: Lully/Opera/LWV53Atys-rehearsal
 # Premiers dessus de violon, flûte, hautbois
-Lully/Opera/LWV53Atys-dessus1: $(OUTPUT_DIR)/LWV53Atys-dessus1.pdf
-.PHONY: Lully/Opera/LWV53Atys-dessus1
-$(OUTPUT_DIR)/LWV53Atys-dessus1.pdf:
+Lully/Opera/LWV53Atys-dessus1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-dessus1 -dpart=dessus1  \
 	Lully/Opera/LWV53Atys/part.ly
+.PHONY: Lully/Opera/LWV53Atys-dessus1
 # Seconds dessus de violon, flûte, hautbois
-Lully/Opera/LWV53Atys-dessus2: $(OUTPUT_DIR)/LWV53Atys-dessus2.pdf
-.PHONY: Lully/Opera/LWV53Atys-dessus2
-$(OUTPUT_DIR)/LWV53Atys-dessus2.pdf:
+Lully/Opera/LWV53Atys-dessus2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-dessus2 -dpart=dessus2  \
 	Lully/Opera/LWV53Atys/part.ly
+.PHONY: Lully/Opera/LWV53Atys-dessus2
 # Haute-contres de violon, hautbois
-Lully/Opera/LWV53Atys-haute-contre: $(OUTPUT_DIR)/LWV53Atys-haute-contre.pdf
-.PHONY: Lully/Opera/LWV53Atys-haute-contre
-$(OUTPUT_DIR)/LWV53Atys-haute-contre.pdf:
+Lully/Opera/LWV53Atys-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-haute-contre -dpart=haute-contre  \
 	Lully/Opera/LWV53Atys/part.ly
+.PHONY: Lully/Opera/LWV53Atys-haute-contre
 # Tailles de violon, hautbois
-Lully/Opera/LWV53Atys-taille: $(OUTPUT_DIR)/LWV53Atys-taille.pdf
-.PHONY: Lully/Opera/LWV53Atys-taille
-$(OUTPUT_DIR)/LWV53Atys-taille.pdf:
+Lully/Opera/LWV53Atys-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-taille -dpart=taille  \
 	Lully/Opera/LWV53Atys/part.ly
+.PHONY: Lully/Opera/LWV53Atys-taille
 # Quintes de violon
-Lully/Opera/LWV53Atys-quinte: $(OUTPUT_DIR)/LWV53Atys-quinte.pdf
-.PHONY: Lully/Opera/LWV53Atys-quinte
-$(OUTPUT_DIR)/LWV53Atys-quinte.pdf:
+Lully/Opera/LWV53Atys-quinte:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-quinte -dpart=quinte  \
 	Lully/Opera/LWV53Atys/part.ly
+.PHONY: Lully/Opera/LWV53Atys-quinte
 # Basses de violon, bassons
-Lully/Opera/LWV53Atys-basse: $(OUTPUT_DIR)/LWV53Atys-basse.pdf
-.PHONY: Lully/Opera/LWV53Atys-basse
-$(OUTPUT_DIR)/LWV53Atys-basse.pdf:
+Lully/Opera/LWV53Atys-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-basse -dpart=basse  \
 	Lully/Opera/LWV53Atys/part.ly
+.PHONY: Lully/Opera/LWV53Atys-basse
 # Basse continue
-Lully/Opera/LWV53Atys-basse-continue: $(OUTPUT_DIR)/LWV53Atys-basse-continue.pdf
-.PHONY: Lully/Opera/LWV53Atys-basse-continue
-$(OUTPUT_DIR)/LWV53Atys-basse-continue.pdf:
+Lully/Opera/LWV53Atys-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-basse-continue -dpart=basse-continue  \
 	Lully/Opera/LWV53Atys/part.ly
+.PHONY: Lully/Opera/LWV53Atys-basse-continue
 # Parties vocales
-Lully/Opera/LWV53Atys-voix: $(OUTPUT_DIR)/LWV53Atys-voix.pdf
-.PHONY: Lully/Opera/LWV53Atys-voix
-$(OUTPUT_DIR)/LWV53Atys-voix.pdf:
+Lully/Opera/LWV53Atys-voix:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-voix -dpart=voix  \
 	Lully/Opera/LWV53Atys/part.ly
+.PHONY: Lully/Opera/LWV53Atys-voix
 
 Lully/Opera/LWV53Atys-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV53Atys
@@ -387,96 +354,83 @@ Lully/Opera/LWV53Atys-all: \
 
 ### Psyché
 # Conducteur
-Lully/Opera/LWV56Psyche: $(OUTPUT_DIR)/LWV56Psyche.pdf
-.PHONY: Lully/Opera/LWV56Psyche
-$(OUTPUT_DIR)/LWV56Psyche.pdf:
+Lully/Opera/LWV56Psyche:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche  \
 	Lully/Opera/LWV56Psyche/main.ly
+.PHONY: Lully/Opera/LWV56Psyche
 # rehearsal
-Lully/Opera/LWV56Psyche-rehearsal: $(OUTPUT_DIR)/LWV56Psyche-rehearsal.pdf
-.PHONY: Lully/Opera/LWV56Psyche-rehearsal
-$(OUTPUT_DIR)/LWV56Psyche-rehearsal.pdf:
+Lully/Opera/LWV56Psyche-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-rehearsal -d use-rehearsal-numbers \
 	Lully/Opera/LWV56Psyche/main.ly
+.PHONY: Lully/Opera/LWV56Psyche-rehearsal
 # Dessus I
-Lully/Opera/LWV56Psyche-dessus1: $(OUTPUT_DIR)/LWV56Psyche-dessus1.pdf
-.PHONY: Lully/Opera/LWV56Psyche-dessus1
-$(OUTPUT_DIR)/LWV56Psyche-dessus1.pdf:
+Lully/Opera/LWV56Psyche-dessus1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-dessus1 -dpart=dessus1  \
 	Lully/Opera/LWV56Psyche/part.ly
+.PHONY: Lully/Opera/LWV56Psyche-dessus1
 # Dessus II
-Lully/Opera/LWV56Psyche-dessus2: $(OUTPUT_DIR)/LWV56Psyche-dessus2.pdf
-.PHONY: Lully/Opera/LWV56Psyche-dessus2
-$(OUTPUT_DIR)/LWV56Psyche-dessus2.pdf:
+Lully/Opera/LWV56Psyche-dessus2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-dessus2 -dpart=dessus2  \
 	Lully/Opera/LWV56Psyche/part.ly
+.PHONY: Lully/Opera/LWV56Psyche-dessus2
 # Haute-contre
-Lully/Opera/LWV56Psyche-haute-contre: $(OUTPUT_DIR)/LWV56Psyche-haute-contre.pdf
-.PHONY: Lully/Opera/LWV56Psyche-haute-contre
-$(OUTPUT_DIR)/LWV56Psyche-haute-contre.pdf:
+Lully/Opera/LWV56Psyche-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-haute-contre -dpart=haute-contre  \
 	Lully/Opera/LWV56Psyche/part.ly
+.PHONY: Lully/Opera/LWV56Psyche-haute-contre
 # Taille
-Lully/Opera/LWV56Psyche-taille: $(OUTPUT_DIR)/LWV56Psyche-taille.pdf
-.PHONY: Lully/Opera/LWV56Psyche-taille
-$(OUTPUT_DIR)/LWV56Psyche-taille.pdf:
+Lully/Opera/LWV56Psyche-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-taille -dpart=taille  \
 	Lully/Opera/LWV56Psyche/part.ly
+.PHONY: Lully/Opera/LWV56Psyche-taille
 # Quinte
-Lully/Opera/LWV56Psyche-quinte: $(OUTPUT_DIR)/LWV56Psyche-quinte.pdf
-.PHONY: Lully/Opera/LWV56Psyche-quinte
-$(OUTPUT_DIR)/LWV56Psyche-quinte.pdf:
+Lully/Opera/LWV56Psyche-quinte:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-quinte -dpart=quinte  \
 	Lully/Opera/LWV56Psyche/part.ly
+.PHONY: Lully/Opera/LWV56Psyche-quinte
 # Basses
-Lully/Opera/LWV56Psyche-basse: $(OUTPUT_DIR)/LWV56Psyche-basse.pdf
-.PHONY: Lully/Opera/LWV56Psyche-basse
-$(OUTPUT_DIR)/LWV56Psyche-basse.pdf:
+Lully/Opera/LWV56Psyche-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-basse -dpart=basse  \
 	Lully/Opera/LWV56Psyche/part.ly
+.PHONY: Lully/Opera/LWV56Psyche-basse
 # Basse continue
-Lully/Opera/LWV56Psyche-basse-continue: $(OUTPUT_DIR)/LWV56Psyche-basse-continue.pdf
-.PHONY: Lully/Opera/LWV56Psyche-basse-continue
-$(OUTPUT_DIR)/LWV56Psyche-basse-continue.pdf:
+Lully/Opera/LWV56Psyche-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-basse-continue -dpart=basse-continue  \
 	Lully/Opera/LWV56Psyche/part.ly
+.PHONY: Lully/Opera/LWV56Psyche-basse-continue
 # Trompette
-Lully/Opera/LWV56Psyche-trompette: $(OUTPUT_DIR)/LWV56Psyche-trompette.pdf
-.PHONY: Lully/Opera/LWV56Psyche-trompette
-$(OUTPUT_DIR)/LWV56Psyche-trompette.pdf:
+Lully/Opera/LWV56Psyche-trompette:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-trompette -dpart=trompette  \
 	Lully/Opera/LWV56Psyche/part5.ly
+.PHONY: Lully/Opera/LWV56Psyche-trompette
 # Tambour
-Lully/Opera/LWV56Psyche-tambour: $(OUTPUT_DIR)/LWV56Psyche-tambour.pdf
-.PHONY: Lully/Opera/LWV56Psyche-tambour
-$(OUTPUT_DIR)/LWV56Psyche-tambour.pdf:
+Lully/Opera/LWV56Psyche-tambour:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-tambour -dpart=tambour  \
 	Lully/Opera/LWV56Psyche/part5.ly
+.PHONY: Lully/Opera/LWV56Psyche-tambour
 # Timbales
-Lully/Opera/LWV56Psyche-timbales: $(OUTPUT_DIR)/LWV56Psyche-timbales.pdf
-.PHONY: Lully/Opera/LWV56Psyche-timbales
-$(OUTPUT_DIR)/LWV56Psyche-timbales.pdf:
+Lully/Opera/LWV56Psyche-timbales:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-timbales -dpart=timbales  \
 	Lully/Opera/LWV56Psyche/part5.ly
+.PHONY: Lully/Opera/LWV56Psyche-timbales
 # Parties vocales
-Lully/Opera/LWV56Psyche-voix: $(OUTPUT_DIR)/LWV56Psyche-voix.pdf
-.PHONY: Lully/Opera/LWV56Psyche-voix
-$(OUTPUT_DIR)/LWV56Psyche-voix.pdf:
+Lully/Opera/LWV56Psyche-voix:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV56Psyche-voix -dpart=voix  \
 	Lully/Opera/LWV56Psyche/part.ly
+.PHONY: Lully/Opera/LWV56Psyche-voix
 
 Lully/Opera/LWV56Psyche-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV56Psyche
@@ -520,75 +474,65 @@ Lully/Opera/LWV56Psyche-all: \
 
 ### Phaéton
 # Conducteur
-Lully/Opera/LWV61Phaeton: $(OUTPUT_DIR)/LWV61Phaeton.pdf
-.PHONY: Lully/Opera/LWV61Phaeton
-$(OUTPUT_DIR)/LWV61Phaeton.pdf:
+Lully/Opera/LWV61Phaeton:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton  \
 	Lully/Opera/LWV61Phaeton/main.ly
+.PHONY: Lully/Opera/LWV61Phaeton
 # rehearsal
-Lully/Opera/LWV61Phaeton-rehearsal: $(OUTPUT_DIR)/LWV61Phaeton-rehearsal.pdf
-.PHONY: Lully/Opera/LWV61Phaeton-rehearsal
-$(OUTPUT_DIR)/LWV61Phaeton-rehearsal.pdf:
+Lully/Opera/LWV61Phaeton-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-rehearsal -d use-rehearsal-numbers \
 	Lully/Opera/LWV61Phaeton/main.ly
+.PHONY: Lully/Opera/LWV61Phaeton-rehearsal
 # Dessus I
-Lully/Opera/LWV61Phaeton-dessus1: $(OUTPUT_DIR)/LWV61Phaeton-dessus1.pdf
-.PHONY: Lully/Opera/LWV61Phaeton-dessus1
-$(OUTPUT_DIR)/LWV61Phaeton-dessus1.pdf:
+Lully/Opera/LWV61Phaeton-dessus1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-dessus1 -dpart=dessus1  \
 	Lully/Opera/LWV61Phaeton/part.ly
+.PHONY: Lully/Opera/LWV61Phaeton-dessus1
 # Dessus II
-Lully/Opera/LWV61Phaeton-dessus2: $(OUTPUT_DIR)/LWV61Phaeton-dessus2.pdf
-.PHONY: Lully/Opera/LWV61Phaeton-dessus2
-$(OUTPUT_DIR)/LWV61Phaeton-dessus2.pdf:
+Lully/Opera/LWV61Phaeton-dessus2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-dessus2 -dpart=dessus2  \
 	Lully/Opera/LWV61Phaeton/part.ly
+.PHONY: Lully/Opera/LWV61Phaeton-dessus2
 # Haute-contre
-Lully/Opera/LWV61Phaeton-haute-contre: $(OUTPUT_DIR)/LWV61Phaeton-haute-contre.pdf
-.PHONY: Lully/Opera/LWV61Phaeton-haute-contre
-$(OUTPUT_DIR)/LWV61Phaeton-haute-contre.pdf:
+Lully/Opera/LWV61Phaeton-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-haute-contre -dpart=haute-contre  \
 	Lully/Opera/LWV61Phaeton/part.ly
+.PHONY: Lully/Opera/LWV61Phaeton-haute-contre
 # Taille
-Lully/Opera/LWV61Phaeton-taille: $(OUTPUT_DIR)/LWV61Phaeton-taille.pdf
-.PHONY: Lully/Opera/LWV61Phaeton-taille
-$(OUTPUT_DIR)/LWV61Phaeton-taille.pdf:
+Lully/Opera/LWV61Phaeton-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-taille -dpart=taille  \
 	Lully/Opera/LWV61Phaeton/part.ly
+.PHONY: Lully/Opera/LWV61Phaeton-taille
 # Quinte
-Lully/Opera/LWV61Phaeton-quinte: $(OUTPUT_DIR)/LWV61Phaeton-quinte.pdf
-.PHONY: Lully/Opera/LWV61Phaeton-quinte
-$(OUTPUT_DIR)/LWV61Phaeton-quinte.pdf:
+Lully/Opera/LWV61Phaeton-quinte:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-quinte -dpart=quinte  \
 	Lully/Opera/LWV61Phaeton/part.ly
+.PHONY: Lully/Opera/LWV61Phaeton-quinte
 # Basses
-Lully/Opera/LWV61Phaeton-basse: $(OUTPUT_DIR)/LWV61Phaeton-basse.pdf
-.PHONY: Lully/Opera/LWV61Phaeton-basse
-$(OUTPUT_DIR)/LWV61Phaeton-basse.pdf:
+Lully/Opera/LWV61Phaeton-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-basse -dpart=basse  \
 	Lully/Opera/LWV61Phaeton/part.ly
+.PHONY: Lully/Opera/LWV61Phaeton-basse
 # Basse continue
-Lully/Opera/LWV61Phaeton-basse-continue: $(OUTPUT_DIR)/LWV61Phaeton-basse-continue.pdf
-.PHONY: Lully/Opera/LWV61Phaeton-basse-continue
-$(OUTPUT_DIR)/LWV61Phaeton-basse-continue.pdf:
+Lully/Opera/LWV61Phaeton-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-basse-continue -dpart=basse-continue  \
 	Lully/Opera/LWV61Phaeton/part-bc.ly
+.PHONY: Lully/Opera/LWV61Phaeton-basse-continue
 # Parties vocales
-Lully/Opera/LWV61Phaeton-voix: $(OUTPUT_DIR)/LWV61Phaeton-voix.pdf
-.PHONY: Lully/Opera/LWV61Phaeton-voix
-$(OUTPUT_DIR)/LWV61Phaeton-voix.pdf:
+Lully/Opera/LWV61Phaeton-voix:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-voix -dpart=voix  \
 	Lully/Opera/LWV61Phaeton/part.ly
+.PHONY: Lully/Opera/LWV61Phaeton-voix
 
 Lully/Opera/LWV61Phaeton-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV61Phaeton
@@ -626,82 +570,71 @@ Lully/Opera/LWV61Phaeton-all: \
 
 ### Armide
 # Conducteur
-Lully/Opera/LWV71Armide: $(OUTPUT_DIR)/LWV71Armide.pdf
-.PHONY: Lully/Opera/LWV71Armide
-$(OUTPUT_DIR)/LWV71Armide.pdf:
+Lully/Opera/LWV71Armide:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide  \
 	Lully/Opera/LWV71Armide/main.ly
+.PHONY: Lully/Opera/LWV71Armide
 # rehearsal
-Lully/Opera/LWV71Armide-rehearsal: $(OUTPUT_DIR)/LWV71Armide-rehearsal.pdf
-.PHONY: Lully/Opera/LWV71Armide-rehearsal
-$(OUTPUT_DIR)/LWV71Armide-rehearsal.pdf:
+Lully/Opera/LWV71Armide-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-rehearsal -d use-rehearsal-numbers \
 	Lully/Opera/LWV71Armide/main.ly
+.PHONY: Lully/Opera/LWV71Armide-rehearsal
 # Dessus I
-Lully/Opera/LWV71Armide-dessus1: $(OUTPUT_DIR)/LWV71Armide-dessus1.pdf
-.PHONY: Lully/Opera/LWV71Armide-dessus1
-$(OUTPUT_DIR)/LWV71Armide-dessus1.pdf:
+Lully/Opera/LWV71Armide-dessus1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-dessus1 -dpart=dessus1  \
 	Lully/Opera/LWV71Armide/part.ly
+.PHONY: Lully/Opera/LWV71Armide-dessus1
 # Dessus II
-Lully/Opera/LWV71Armide-dessus2: $(OUTPUT_DIR)/LWV71Armide-dessus2.pdf
-.PHONY: Lully/Opera/LWV71Armide-dessus2
-$(OUTPUT_DIR)/LWV71Armide-dessus2.pdf:
+Lully/Opera/LWV71Armide-dessus2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-dessus2 -dpart=dessus2  \
 	Lully/Opera/LWV71Armide/part.ly
+.PHONY: Lully/Opera/LWV71Armide-dessus2
 # Haute-contre (clé de sol)
-Lully/Opera/LWV71Armide-haute-contre-treble: $(OUTPUT_DIR)/LWV71Armide-haute-contre-treble.pdf
-.PHONY: Lully/Opera/LWV71Armide-haute-contre-treble
-$(OUTPUT_DIR)/LWV71Armide-haute-contre-treble.pdf:
+Lully/Opera/LWV71Armide-haute-contre-treble:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-haute-contre-treble -dpart=haute-contre-treble  \
 	Lully/Opera/LWV71Armide/part2.ly
+.PHONY: Lully/Opera/LWV71Armide-haute-contre-treble
 # Haute-contre (clé d'ut)
-Lully/Opera/LWV71Armide-haute-contre: $(OUTPUT_DIR)/LWV71Armide-haute-contre.pdf
-.PHONY: Lully/Opera/LWV71Armide-haute-contre
-$(OUTPUT_DIR)/LWV71Armide-haute-contre.pdf:
+Lully/Opera/LWV71Armide-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-haute-contre -dpart=haute-contre  \
 	Lully/Opera/LWV71Armide/part2.ly
+.PHONY: Lully/Opera/LWV71Armide-haute-contre
 # Taille
-Lully/Opera/LWV71Armide-taille: $(OUTPUT_DIR)/LWV71Armide-taille.pdf
-.PHONY: Lully/Opera/LWV71Armide-taille
-$(OUTPUT_DIR)/LWV71Armide-taille.pdf:
+Lully/Opera/LWV71Armide-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-taille -dpart=taille  \
 	Lully/Opera/LWV71Armide/part.ly
+.PHONY: Lully/Opera/LWV71Armide-taille
 # Quinte
-Lully/Opera/LWV71Armide-quinte: $(OUTPUT_DIR)/LWV71Armide-quinte.pdf
-.PHONY: Lully/Opera/LWV71Armide-quinte
-$(OUTPUT_DIR)/LWV71Armide-quinte.pdf:
+Lully/Opera/LWV71Armide-quinte:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-quinte -dpart=quinte  \
 	Lully/Opera/LWV71Armide/part2.ly
+.PHONY: Lully/Opera/LWV71Armide-quinte
 # Basses
-Lully/Opera/LWV71Armide-basse: $(OUTPUT_DIR)/LWV71Armide-basse.pdf
-.PHONY: Lully/Opera/LWV71Armide-basse
-$(OUTPUT_DIR)/LWV71Armide-basse.pdf:
+Lully/Opera/LWV71Armide-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-basse -dpart=basse  \
 	Lully/Opera/LWV71Armide/part2.ly
+.PHONY: Lully/Opera/LWV71Armide-basse
 # Basse continue
-Lully/Opera/LWV71Armide-basse-continue: $(OUTPUT_DIR)/LWV71Armide-basse-continue.pdf
-.PHONY: Lully/Opera/LWV71Armide-basse-continue
-$(OUTPUT_DIR)/LWV71Armide-basse-continue.pdf:
+Lully/Opera/LWV71Armide-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-basse-continue -dpart=basse-continue  \
 	Lully/Opera/LWV71Armide/part.ly
+.PHONY: Lully/Opera/LWV71Armide-basse-continue
 # Parties vocales
-Lully/Opera/LWV71Armide-voix: $(OUTPUT_DIR)/LWV71Armide-voix.pdf
-.PHONY: Lully/Opera/LWV71Armide-voix
-$(OUTPUT_DIR)/LWV71Armide-voix.pdf:
+Lully/Opera/LWV71Armide-voix:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-voix -dpart=voix  \
 	Lully/Opera/LWV71Armide/part.ly
+.PHONY: Lully/Opera/LWV71Armide-voix
 
 Lully/Opera/LWV71Armide-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV71Armide
@@ -744,68 +677,59 @@ Lully/Opera/LWV71Armide-all: \
 ###
 ### David et Jonathas
 # Conducteur
-Charpentier/Opera/DavidEtJonathas: $(OUTPUT_DIR)/DavidEtJonathas.pdf
-.PHONY: Charpentier/Opera/DavidEtJonathas
-$(OUTPUT_DIR)/DavidEtJonathas.pdf:
+Charpentier/Opera/DavidEtJonathas:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DavidEtJonathas  \
 	Charpentier/Opera/DavidEtJonathas/main.ly
+.PHONY: Charpentier/Opera/DavidEtJonathas
 # rehearsal
-Charpentier/Opera/DavidEtJonathas-rehearsal: $(OUTPUT_DIR)/DavidEtJonathas-rehearsal.pdf
-.PHONY: Charpentier/Opera/DavidEtJonathas-rehearsal
-$(OUTPUT_DIR)/DavidEtJonathas-rehearsal.pdf:
+Charpentier/Opera/DavidEtJonathas-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DavidEtJonathas-rehearsal -d use-rehearsal-numbers \
 	Charpentier/Opera/DavidEtJonathas/main.ly
+.PHONY: Charpentier/Opera/DavidEtJonathas-rehearsal
 # Dessus I
-Charpentier/Opera/DavidEtJonathas-dessus1: $(OUTPUT_DIR)/DavidEtJonathas-dessus1.pdf
-.PHONY: Charpentier/Opera/DavidEtJonathas-dessus1
-$(OUTPUT_DIR)/DavidEtJonathas-dessus1.pdf:
+Charpentier/Opera/DavidEtJonathas-dessus1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DavidEtJonathas-dessus1 -dpart=dessus1  \
 	Charpentier/Opera/DavidEtJonathas/part.ly
+.PHONY: Charpentier/Opera/DavidEtJonathas-dessus1
 # Dessus II
-Charpentier/Opera/DavidEtJonathas-dessus2: $(OUTPUT_DIR)/DavidEtJonathas-dessus2.pdf
-.PHONY: Charpentier/Opera/DavidEtJonathas-dessus2
-$(OUTPUT_DIR)/DavidEtJonathas-dessus2.pdf:
+Charpentier/Opera/DavidEtJonathas-dessus2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DavidEtJonathas-dessus2 -dpart=dessus2  \
 	Charpentier/Opera/DavidEtJonathas/part.ly
+.PHONY: Charpentier/Opera/DavidEtJonathas-dessus2
 # Haute-contre
-Charpentier/Opera/DavidEtJonathas-haute-contre: $(OUTPUT_DIR)/DavidEtJonathas-haute-contre.pdf
-.PHONY: Charpentier/Opera/DavidEtJonathas-haute-contre
-$(OUTPUT_DIR)/DavidEtJonathas-haute-contre.pdf:
+Charpentier/Opera/DavidEtJonathas-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DavidEtJonathas-haute-contre -dpart=haute-contre  \
 	Charpentier/Opera/DavidEtJonathas/part.ly
+.PHONY: Charpentier/Opera/DavidEtJonathas-haute-contre
 # Taille
-Charpentier/Opera/DavidEtJonathas-taille: $(OUTPUT_DIR)/DavidEtJonathas-taille.pdf
-.PHONY: Charpentier/Opera/DavidEtJonathas-taille
-$(OUTPUT_DIR)/DavidEtJonathas-taille.pdf:
+Charpentier/Opera/DavidEtJonathas-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DavidEtJonathas-taille -dpart=taille  \
 	Charpentier/Opera/DavidEtJonathas/part.ly
+.PHONY: Charpentier/Opera/DavidEtJonathas-taille
 # Basses
-Charpentier/Opera/DavidEtJonathas-basse: $(OUTPUT_DIR)/DavidEtJonathas-basse.pdf
-.PHONY: Charpentier/Opera/DavidEtJonathas-basse
-$(OUTPUT_DIR)/DavidEtJonathas-basse.pdf:
+Charpentier/Opera/DavidEtJonathas-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DavidEtJonathas-basse -dpart=basse  \
 	Charpentier/Opera/DavidEtJonathas/part.ly
+.PHONY: Charpentier/Opera/DavidEtJonathas-basse
 # Basse continue
-Charpentier/Opera/DavidEtJonathas-basse-continue: $(OUTPUT_DIR)/DavidEtJonathas-basse-continue.pdf
-.PHONY: Charpentier/Opera/DavidEtJonathas-basse-continue
-$(OUTPUT_DIR)/DavidEtJonathas-basse-continue.pdf:
+Charpentier/Opera/DavidEtJonathas-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DavidEtJonathas-basse-continue -dpart=basse-continue  \
 	Charpentier/Opera/DavidEtJonathas/part-bc.ly
+.PHONY: Charpentier/Opera/DavidEtJonathas-basse-continue
 # Parties vocales
-Charpentier/Opera/DavidEtJonathas-voix: $(OUTPUT_DIR)/DavidEtJonathas-voix.pdf
-.PHONY: Charpentier/Opera/DavidEtJonathas-voix
-$(OUTPUT_DIR)/DavidEtJonathas-voix.pdf:
+Charpentier/Opera/DavidEtJonathas-voix:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DavidEtJonathas-voix -dpart=voix  \
 	Charpentier/Opera/DavidEtJonathas/part.ly
+.PHONY: Charpentier/Opera/DavidEtJonathas-voix
 
 Charpentier/Opera/DavidEtJonathas-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/DavidEtJonathas
@@ -841,26 +765,23 @@ Charpentier/Opera/DavidEtJonathas-all: \
 
 ### Prose pour le jour de Pâques
 # Version urtext
-Charpentier/MusiqueSacree/H13_Victimae-urtext: $(OUTPUT_DIR)/H13_Victimae-urtext.pdf
-.PHONY: Charpentier/MusiqueSacree/H13_Victimae-urtext
-$(OUTPUT_DIR)/H13_Victimae-urtext.pdf:
+Charpentier/MusiqueSacree/H13_Victimae-urtext:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H13_Victimae-urtext -dancient-style \
 	Charpentier/MusiqueSacree/H13_Victimae/main.ly
+.PHONY: Charpentier/MusiqueSacree/H13_Victimae-urtext
 # Version de concert
-Charpentier/MusiqueSacree/H13_Victimae: $(OUTPUT_DIR)/H13_Victimae.pdf
-.PHONY: Charpentier/MusiqueSacree/H13_Victimae
-$(OUTPUT_DIR)/H13_Victimae.pdf:
+Charpentier/MusiqueSacree/H13_Victimae:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H13_Victimae  \
 	Charpentier/MusiqueSacree/H13_Victimae/main.ly
+.PHONY: Charpentier/MusiqueSacree/H13_Victimae
 # Basse continue
-Charpentier/MusiqueSacree/H13_Victimae-basse-continue: $(OUTPUT_DIR)/H13_Victimae-basse-continue.pdf
-.PHONY: Charpentier/MusiqueSacree/H13_Victimae-basse-continue
-$(OUTPUT_DIR)/H13_Victimae-basse-continue.pdf:
+Charpentier/MusiqueSacree/H13_Victimae-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H13_Victimae-basse-continue -dpart=basse-continue  \
 	Charpentier/MusiqueSacree/H13_Victimae/part.ly
+.PHONY: Charpentier/MusiqueSacree/H13_Victimae-basse-continue
 
 Charpentier/MusiqueSacree/H13_Victimae-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H13_Victimae
@@ -884,19 +805,17 @@ Charpentier/MusiqueSacree/H13_Victimae-all: \
 
 ### Antiennes O de l'avent
 # Version urtext
-Charpentier/MusiqueSacree/H36_43_O-urtext: $(OUTPUT_DIR)/H36_43_O-urtext.pdf
-.PHONY: Charpentier/MusiqueSacree/H36_43_O-urtext
-$(OUTPUT_DIR)/H36_43_O-urtext.pdf:
+Charpentier/MusiqueSacree/H36_43_O-urtext:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H36_43_O-urtext -dancient-style \
 	Charpentier/MusiqueSacree/H36_43_O/main.ly
+.PHONY: Charpentier/MusiqueSacree/H36_43_O-urtext
 # Version de concert
-Charpentier/MusiqueSacree/H36_43_O: $(OUTPUT_DIR)/H36_43_O.pdf
-.PHONY: Charpentier/MusiqueSacree/H36_43_O
-$(OUTPUT_DIR)/H36_43_O.pdf:
+Charpentier/MusiqueSacree/H36_43_O:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H36_43_O  \
 	Charpentier/MusiqueSacree/H36_43_O/main.ly
+.PHONY: Charpentier/MusiqueSacree/H36_43_O
 
 Charpentier/MusiqueSacree/H36_43_O-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H36_43_O
@@ -918,19 +837,17 @@ Charpentier/MusiqueSacree/H36_43_O-all: \
 
 ### Noël sur les instruments
 # Version urtext
-Charpentier/MusiqueSacree/H531_Noels-urtext: $(OUTPUT_DIR)/H531_Noels-urtext.pdf
-.PHONY: Charpentier/MusiqueSacree/H531_Noels-urtext
-$(OUTPUT_DIR)/H531_Noels-urtext.pdf:
+Charpentier/MusiqueSacree/H531_Noels-urtext:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H531_Noels-urtext -dancient-style \
 	Charpentier/MusiqueSacree/H531_Noels/main.ly
+.PHONY: Charpentier/MusiqueSacree/H531_Noels-urtext
 # Version de concert
-Charpentier/MusiqueSacree/H531_Noels: $(OUTPUT_DIR)/H531_Noels.pdf
-.PHONY: Charpentier/MusiqueSacree/H531_Noels
-$(OUTPUT_DIR)/H531_Noels.pdf:
+Charpentier/MusiqueSacree/H531_Noels:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H531_Noels  \
 	Charpentier/MusiqueSacree/H531_Noels/main.ly
+.PHONY: Charpentier/MusiqueSacree/H531_Noels
 
 Charpentier/MusiqueSacree/H531_Noels-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H531_Noels
@@ -952,19 +869,17 @@ Charpentier/MusiqueSacree/H531_Noels-all: \
 
 ### Noël sur les instruments
 # Version urtext
-Charpentier/MusiqueSacree/H534_Noels-urtext: $(OUTPUT_DIR)/H534_Noels-urtext.pdf
-.PHONY: Charpentier/MusiqueSacree/H534_Noels-urtext
-$(OUTPUT_DIR)/H534_Noels-urtext.pdf:
+Charpentier/MusiqueSacree/H534_Noels-urtext:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H534_Noels-urtext -dancient-style \
 	Charpentier/MusiqueSacree/H534_Noels/main.ly
+.PHONY: Charpentier/MusiqueSacree/H534_Noels-urtext
 # Version de concert
-Charpentier/MusiqueSacree/H534_Noels: $(OUTPUT_DIR)/H534_Noels.pdf
-.PHONY: Charpentier/MusiqueSacree/H534_Noels
-$(OUTPUT_DIR)/H534_Noels.pdf:
+Charpentier/MusiqueSacree/H534_Noels:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H534_Noels  \
 	Charpentier/MusiqueSacree/H534_Noels/main.ly
+.PHONY: Charpentier/MusiqueSacree/H534_Noels
 
 Charpentier/MusiqueSacree/H534_Noels-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H534_Noels
@@ -986,19 +901,17 @@ Charpentier/MusiqueSacree/H534_Noels-all: \
 
 ### Antiennes O et Noëls sur les instruments
 # Version urtext
-Charpentier/MusiqueSacree/AntiennesNoels-urtext: $(OUTPUT_DIR)/AntiennesNoels-urtext.pdf
-.PHONY: Charpentier/MusiqueSacree/AntiennesNoels-urtext
-$(OUTPUT_DIR)/AntiennesNoels-urtext.pdf:
+Charpentier/MusiqueSacree/AntiennesNoels-urtext:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/AntiennesNoels-urtext -dancient-style \
 	Charpentier/MusiqueSacree/AntiennesNoels/main.ly
+.PHONY: Charpentier/MusiqueSacree/AntiennesNoels-urtext
 # Version de concert
-Charpentier/MusiqueSacree/AntiennesNoels: $(OUTPUT_DIR)/AntiennesNoels.pdf
-.PHONY: Charpentier/MusiqueSacree/AntiennesNoels
-$(OUTPUT_DIR)/AntiennesNoels.pdf:
+Charpentier/MusiqueSacree/AntiennesNoels:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/AntiennesNoels  \
 	Charpentier/MusiqueSacree/AntiennesNoels/main.ly
+.PHONY: Charpentier/MusiqueSacree/AntiennesNoels
 
 Charpentier/MusiqueSacree/AntiennesNoels-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/AntiennesNoels
@@ -1020,40 +933,35 @@ Charpentier/MusiqueSacree/AntiennesNoels-all: \
 
 ### Magnificat
 # Version urtext
-Charpentier/MusiqueSacree/H73_Magnificat-urtext: $(OUTPUT_DIR)/H73_Magnificat-urtext.pdf
-.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-urtext
-$(OUTPUT_DIR)/H73_Magnificat-urtext.pdf:
+Charpentier/MusiqueSacree/H73_Magnificat-urtext:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H73_Magnificat-urtext -dancient-style \
 	Charpentier/MusiqueSacree/H73_Magnificat/main.ly
+.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-urtext
 # Version de concert
-Charpentier/MusiqueSacree/H73_Magnificat: $(OUTPUT_DIR)/H73_Magnificat.pdf
-.PHONY: Charpentier/MusiqueSacree/H73_Magnificat
-$(OUTPUT_DIR)/H73_Magnificat.pdf:
+Charpentier/MusiqueSacree/H73_Magnificat:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H73_Magnificat  \
 	Charpentier/MusiqueSacree/H73_Magnificat/main.ly
+.PHONY: Charpentier/MusiqueSacree/H73_Magnificat
 # Dessus I & II
-Charpentier/MusiqueSacree/H73_Magnificat-dessus: $(OUTPUT_DIR)/H73_Magnificat-dessus.pdf
-.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-dessus
-$(OUTPUT_DIR)/H73_Magnificat-dessus.pdf:
+Charpentier/MusiqueSacree/H73_Magnificat-dessus:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H73_Magnificat-dessus -dpart=dessus  \
 	Charpentier/MusiqueSacree/H73_Magnificat/part.ly
+.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-dessus
 # Basse continue
-Charpentier/MusiqueSacree/H73_Magnificat-basse-continue: $(OUTPUT_DIR)/H73_Magnificat-basse-continue.pdf
-.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-basse-continue
-$(OUTPUT_DIR)/H73_Magnificat-basse-continue.pdf:
+Charpentier/MusiqueSacree/H73_Magnificat-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H73_Magnificat-basse-continue -dpart=basse-continue  \
 	Charpentier/MusiqueSacree/H73_Magnificat/part.ly
+.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-basse-continue
 # Parties vocales
-Charpentier/MusiqueSacree/H73_Magnificat-voix: $(OUTPUT_DIR)/H73_Magnificat-voix.pdf
-.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-voix
-$(OUTPUT_DIR)/H73_Magnificat-voix.pdf:
+Charpentier/MusiqueSacree/H73_Magnificat-voix:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H73_Magnificat-voix -dpart=voix  \
 	Charpentier/MusiqueSacree/H73_Magnificat/part.ly
+.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-voix
 
 Charpentier/MusiqueSacree/H73_Magnificat-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H73_Magnificat
@@ -1084,12 +992,11 @@ Charpentier/MusiqueSacree/H73_Magnificat-all: \
 ###
 ### Motets à voix seule, deux ou trois parties
 # Partition complète
-Couperin/Motets: $(OUTPUT_DIR)/Motets.pdf
-.PHONY: Couperin/Motets
-$(OUTPUT_DIR)/Motets.pdf:
+Couperin/Motets:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Motets  \
 	Couperin/Motets/main.ly
+.PHONY: Couperin/Motets
 
 Couperin/Motets-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Couperin/Motets
@@ -1109,12 +1016,11 @@ Couperin/Motets-all: \
 
 ### Messe pour les convents
 # Partition complète
-Couperin/Orgue/MesseCouvents: $(OUTPUT_DIR)/MesseCouvents.pdf
-.PHONY: Couperin/Orgue/MesseCouvents
-$(OUTPUT_DIR)/MesseCouvents.pdf:
+Couperin/Orgue/MesseCouvents:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/MesseCouvents  \
 	Couperin/Orgue/MesseCouvents/main.ly
+.PHONY: Couperin/Orgue/MesseCouvents
 
 Couperin/Orgue/MesseCouvents-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Couperin/MesseCouvents
@@ -1134,12 +1040,11 @@ Couperin/Orgue/MesseCouvents-all: \
 
 ### L'Art de toucher le clavecin
 # Livre complet
-Couperin/Clavecin/lArtDeToucherLeClavecin: $(OUTPUT_DIR)/lArtDeToucherLeClavecin.pdf
-.PHONY: Couperin/Clavecin/lArtDeToucherLeClavecin
-$(OUTPUT_DIR)/lArtDeToucherLeClavecin.pdf:
+Couperin/Clavecin/lArtDeToucherLeClavecin:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lArtDeToucherLeClavecin  \
 	Couperin/Clavecin/lArtDeToucherLeClavecin/main.ly
+.PHONY: Couperin/Clavecin/lArtDeToucherLeClavecin
 
 Couperin/Clavecin/lArtDeToucherLeClavecin-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Couperin/lArtDeToucherLeClavecin
@@ -1162,12 +1067,11 @@ Couperin/Clavecin/lArtDeToucherLeClavecin-all: \
 ###
 ### Suites à deux musettes
 # Partition complète
-Boismortier/SuitesADeuxMusettes: $(OUTPUT_DIR)/SuitesADeuxMusettes.pdf
-.PHONY: Boismortier/SuitesADeuxMusettes
-$(OUTPUT_DIR)/SuitesADeuxMusettes.pdf:
+Boismortier/SuitesADeuxMusettes:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/SuitesADeuxMusettes  \
 	Boismortier/SuitesADeuxMusettes/main.ly
+.PHONY: Boismortier/SuitesADeuxMusettes
 
 Boismortier/SuitesADeuxMusettes-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Boismortier/SuitesADeuxMusettes
@@ -1190,12 +1094,11 @@ Boismortier/SuitesADeuxMusettes-all: \
 ###
 ### Premier livre de pièces de clavecin
 # Partition complète
-PancraceRoyer/PremierLivre: $(OUTPUT_DIR)/PremierLivre.pdf
-.PHONY: PancraceRoyer/PremierLivre
-$(OUTPUT_DIR)/PremierLivre.pdf:
+PancraceRoyer/PremierLivre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/PremierLivre  \
 	PancraceRoyer/PremierLivre/main.ly
+.PHONY: PancraceRoyer/PremierLivre
 
 PancraceRoyer/PremierLivre-delivery:
 	@mkdir -p $(DELIVERY_DIR)/PancraceRoyer/PremierLivre
@@ -1218,124 +1121,107 @@ PancraceRoyer/PremierLivre-all: \
 ###
 ### Hippolyte et Aricie
 # Conducteur
-Rameau/Opera/HippolyteEtAricie: $(OUTPUT_DIR)/HippolyteEtAricie.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie
-$(OUTPUT_DIR)/HippolyteEtAricie.pdf:
+Rameau/Opera/HippolyteEtAricie:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie  \
 	Rameau/Opera/HippolyteEtAricie/main.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie
 # rehearsal
-Rameau/Opera/HippolyteEtAricie-rehearsal: $(OUTPUT_DIR)/HippolyteEtAricie-rehearsal.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-rehearsal
-$(OUTPUT_DIR)/HippolyteEtAricie-rehearsal.pdf:
+Rameau/Opera/HippolyteEtAricie-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-rehearsal -d use-rehearsal-numbers \
 	Rameau/Opera/HippolyteEtAricie/main.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-rehearsal
 # Flûte I
-Rameau/Opera/HippolyteEtAricie-flute1: $(OUTPUT_DIR)/HippolyteEtAricie-flute1.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-flute1
-$(OUTPUT_DIR)/HippolyteEtAricie-flute1.pdf:
+Rameau/Opera/HippolyteEtAricie-flute1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-flute1 -dpart=flute1  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-flute1
 # Flûte II
-Rameau/Opera/HippolyteEtAricie-flute2: $(OUTPUT_DIR)/HippolyteEtAricie-flute2.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-flute2
-$(OUTPUT_DIR)/HippolyteEtAricie-flute2.pdf:
+Rameau/Opera/HippolyteEtAricie-flute2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-flute2 -dpart=flute2  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-flute2
 # Hautbois I
-Rameau/Opera/HippolyteEtAricie-hautbois1: $(OUTPUT_DIR)/HippolyteEtAricie-hautbois1.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-hautbois1
-$(OUTPUT_DIR)/HippolyteEtAricie-hautbois1.pdf:
+Rameau/Opera/HippolyteEtAricie-hautbois1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-hautbois1 -dpart=hautbois1  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-hautbois1
 # Hautbois II
-Rameau/Opera/HippolyteEtAricie-hautbois2: $(OUTPUT_DIR)/HippolyteEtAricie-hautbois2.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-hautbois2
-$(OUTPUT_DIR)/HippolyteEtAricie-hautbois2.pdf:
+Rameau/Opera/HippolyteEtAricie-hautbois2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-hautbois2 -dpart=hautbois2  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-hautbois2
 # Trompette
-Rameau/Opera/HippolyteEtAricie-trompette: $(OUTPUT_DIR)/HippolyteEtAricie-trompette.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-trompette
-$(OUTPUT_DIR)/HippolyteEtAricie-trompette.pdf:
+Rameau/Opera/HippolyteEtAricie-trompette:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-trompette -dpart=trompette  \
 	Rameau/Opera/HippolyteEtAricie/part-trompette-timbales.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-trompette
 # Cor en ré
-Rameau/Opera/HippolyteEtAricie-cor: $(OUTPUT_DIR)/HippolyteEtAricie-cor.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-cor
-$(OUTPUT_DIR)/HippolyteEtAricie-cor.pdf:
+Rameau/Opera/HippolyteEtAricie-cor:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-cor -dpart=cor  \
 	Rameau/Opera/HippolyteEtAricie/part-cor.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-cor
 # Basson
-Rameau/Opera/HippolyteEtAricie-basson: $(OUTPUT_DIR)/HippolyteEtAricie-basson.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-basson
-$(OUTPUT_DIR)/HippolyteEtAricie-basson.pdf:
+Rameau/Opera/HippolyteEtAricie-basson:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-basson -dpart=basson  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-basson
 # Violon I
-Rameau/Opera/HippolyteEtAricie-violon1: $(OUTPUT_DIR)/HippolyteEtAricie-violon1.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-violon1
-$(OUTPUT_DIR)/HippolyteEtAricie-violon1.pdf:
+Rameau/Opera/HippolyteEtAricie-violon1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-violon1 -dpart=violon1  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-violon1
 # Violon II
-Rameau/Opera/HippolyteEtAricie-violon2: $(OUTPUT_DIR)/HippolyteEtAricie-violon2.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-violon2
-$(OUTPUT_DIR)/HippolyteEtAricie-violon2.pdf:
+Rameau/Opera/HippolyteEtAricie-violon2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-violon2 -dpart=violon2  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-violon2
 # Haute-contre
-Rameau/Opera/HippolyteEtAricie-haute-contre: $(OUTPUT_DIR)/HippolyteEtAricie-haute-contre.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-haute-contre
-$(OUTPUT_DIR)/HippolyteEtAricie-haute-contre.pdf:
+Rameau/Opera/HippolyteEtAricie-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-haute-contre -dpart=haute-contre  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-haute-contre
 # Taille
-Rameau/Opera/HippolyteEtAricie-taille: $(OUTPUT_DIR)/HippolyteEtAricie-taille.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-taille
-$(OUTPUT_DIR)/HippolyteEtAricie-taille.pdf:
+Rameau/Opera/HippolyteEtAricie-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-taille -dpart=taille  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-taille
 # Basses
-Rameau/Opera/HippolyteEtAricie-basse: $(OUTPUT_DIR)/HippolyteEtAricie-basse.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-basse
-$(OUTPUT_DIR)/HippolyteEtAricie-basse.pdf:
+Rameau/Opera/HippolyteEtAricie-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-basse -dpart=basse  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-basse
 # Timbales
-Rameau/Opera/HippolyteEtAricie-timbales: $(OUTPUT_DIR)/HippolyteEtAricie-timbales.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-timbales
-$(OUTPUT_DIR)/HippolyteEtAricie-timbales.pdf:
+Rameau/Opera/HippolyteEtAricie-timbales:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-timbales -dpart=timbales  \
 	Rameau/Opera/HippolyteEtAricie/part-trompette-timbales.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-timbales
 # Basse continue
-Rameau/Opera/HippolyteEtAricie-basse-continue: $(OUTPUT_DIR)/HippolyteEtAricie-basse-continue.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-basse-continue
-$(OUTPUT_DIR)/HippolyteEtAricie-basse-continue.pdf:
+Rameau/Opera/HippolyteEtAricie-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-basse-continue -dpart=basse-continue  \
 	Rameau/Opera/HippolyteEtAricie/part-bc.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-basse-continue
 # Parties vocales
-Rameau/Opera/HippolyteEtAricie-voix: $(OUTPUT_DIR)/HippolyteEtAricie-voix.pdf
-.PHONY: Rameau/Opera/HippolyteEtAricie-voix
-$(OUTPUT_DIR)/HippolyteEtAricie-voix.pdf:
+Rameau/Opera/HippolyteEtAricie-voix:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-voix -dpart=voix  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-voix
 
 Rameau/Opera/HippolyteEtAricie-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/HippolyteEtAricie
@@ -1387,110 +1273,95 @@ Rameau/Opera/HippolyteEtAricie-all: \
 
 ### Les Indes Galantes
 # Conducteur
-Rameau/Opera/IndesGalantes: $(OUTPUT_DIR)/IndesGalantes.pdf
-.PHONY: Rameau/Opera/IndesGalantes
-$(OUTPUT_DIR)/IndesGalantes.pdf:
+Rameau/Opera/IndesGalantes:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes  \
 	Rameau/Opera/IndesGalantes/main.ly
+.PHONY: Rameau/Opera/IndesGalantes
 # rehearsal
-Rameau/Opera/IndesGalantes-rehearsal: $(OUTPUT_DIR)/IndesGalantes-rehearsal.pdf
-.PHONY: Rameau/Opera/IndesGalantes-rehearsal
-$(OUTPUT_DIR)/IndesGalantes-rehearsal.pdf:
+Rameau/Opera/IndesGalantes-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-rehearsal -d use-rehearsal-numbers \
 	Rameau/Opera/IndesGalantes/main.ly
+.PHONY: Rameau/Opera/IndesGalantes-rehearsal
 # Flûte I
-Rameau/Opera/IndesGalantes-flute1: $(OUTPUT_DIR)/IndesGalantes-flute1.pdf
-.PHONY: Rameau/Opera/IndesGalantes-flute1
-$(OUTPUT_DIR)/IndesGalantes-flute1.pdf:
+Rameau/Opera/IndesGalantes-flute1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-flute1 -dpart=flute1  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-flute1
 # Flûte II
-Rameau/Opera/IndesGalantes-flute2: $(OUTPUT_DIR)/IndesGalantes-flute2.pdf
-.PHONY: Rameau/Opera/IndesGalantes-flute2
-$(OUTPUT_DIR)/IndesGalantes-flute2.pdf:
+Rameau/Opera/IndesGalantes-flute2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-flute2 -dpart=flute2  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-flute2
 # Hautbois I
-Rameau/Opera/IndesGalantes-hautbois1: $(OUTPUT_DIR)/IndesGalantes-hautbois1.pdf
-.PHONY: Rameau/Opera/IndesGalantes-hautbois1
-$(OUTPUT_DIR)/IndesGalantes-hautbois1.pdf:
+Rameau/Opera/IndesGalantes-hautbois1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-hautbois1 -dpart=hautbois1  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-hautbois1
 # Hautbois II
-Rameau/Opera/IndesGalantes-hautbois2: $(OUTPUT_DIR)/IndesGalantes-hautbois2.pdf
-.PHONY: Rameau/Opera/IndesGalantes-hautbois2
-$(OUTPUT_DIR)/IndesGalantes-hautbois2.pdf:
+Rameau/Opera/IndesGalantes-hautbois2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-hautbois2 -dpart=hautbois2  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-hautbois2
 # Trompette
-Rameau/Opera/IndesGalantes-trompette: $(OUTPUT_DIR)/IndesGalantes-trompette.pdf
-.PHONY: Rameau/Opera/IndesGalantes-trompette
-$(OUTPUT_DIR)/IndesGalantes-trompette.pdf:
+Rameau/Opera/IndesGalantes-trompette:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-trompette -dpart=trompette  \
 	Rameau/Opera/IndesGalantes/part-tt.ly
+.PHONY: Rameau/Opera/IndesGalantes-trompette
 # Basson
-Rameau/Opera/IndesGalantes-basson: $(OUTPUT_DIR)/IndesGalantes-basson.pdf
-.PHONY: Rameau/Opera/IndesGalantes-basson
-$(OUTPUT_DIR)/IndesGalantes-basson.pdf:
+Rameau/Opera/IndesGalantes-basson:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-basson -dpart=basson  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-basson
 # Violon I
-Rameau/Opera/IndesGalantes-violon1: $(OUTPUT_DIR)/IndesGalantes-violon1.pdf
-.PHONY: Rameau/Opera/IndesGalantes-violon1
-$(OUTPUT_DIR)/IndesGalantes-violon1.pdf:
+Rameau/Opera/IndesGalantes-violon1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-violon1 -dpart=violon1  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-violon1
 # Violon II
-Rameau/Opera/IndesGalantes-violon2: $(OUTPUT_DIR)/IndesGalantes-violon2.pdf
-.PHONY: Rameau/Opera/IndesGalantes-violon2
-$(OUTPUT_DIR)/IndesGalantes-violon2.pdf:
+Rameau/Opera/IndesGalantes-violon2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-violon2 -dpart=violon2  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-violon2
 # Haute-contre
-Rameau/Opera/IndesGalantes-haute-contre: $(OUTPUT_DIR)/IndesGalantes-haute-contre.pdf
-.PHONY: Rameau/Opera/IndesGalantes-haute-contre
-$(OUTPUT_DIR)/IndesGalantes-haute-contre.pdf:
+Rameau/Opera/IndesGalantes-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-haute-contre -dpart=haute-contre  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-haute-contre
 # Taille
-Rameau/Opera/IndesGalantes-taille: $(OUTPUT_DIR)/IndesGalantes-taille.pdf
-.PHONY: Rameau/Opera/IndesGalantes-taille
-$(OUTPUT_DIR)/IndesGalantes-taille.pdf:
+Rameau/Opera/IndesGalantes-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-taille -dpart=taille  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-taille
 # Basses
-Rameau/Opera/IndesGalantes-basse: $(OUTPUT_DIR)/IndesGalantes-basse.pdf
-.PHONY: Rameau/Opera/IndesGalantes-basse
-$(OUTPUT_DIR)/IndesGalantes-basse.pdf:
+Rameau/Opera/IndesGalantes-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-basse -dpart=basse  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-basse
 # Timbales
-Rameau/Opera/IndesGalantes-timbales: $(OUTPUT_DIR)/IndesGalantes-timbales.pdf
-.PHONY: Rameau/Opera/IndesGalantes-timbales
-$(OUTPUT_DIR)/IndesGalantes-timbales.pdf:
+Rameau/Opera/IndesGalantes-timbales:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-timbales -dpart=timbales  \
 	Rameau/Opera/IndesGalantes/part-tt.ly
+.PHONY: Rameau/Opera/IndesGalantes-timbales
 # Parties vocales
-Rameau/Opera/IndesGalantes-voix: $(OUTPUT_DIR)/IndesGalantes-voix.pdf
-.PHONY: Rameau/Opera/IndesGalantes-voix
-$(OUTPUT_DIR)/IndesGalantes-voix.pdf:
+Rameau/Opera/IndesGalantes-voix:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantes-voix -dpart=voix  \
 	Rameau/Opera/IndesGalantes/part.ly
+.PHONY: Rameau/Opera/IndesGalantes-voix
 
 Rameau/Opera/IndesGalantes-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantes
@@ -1538,103 +1409,89 @@ Rameau/Opera/IndesGalantes-all: \
 
 ### Suite des Indes Galantes
 # Conducteur
-Rameau/Concerts/IndesGalantesSuites: $(OUTPUT_DIR)/IndesGalantesSuites.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites
-$(OUTPUT_DIR)/IndesGalantesSuites.pdf:
+Rameau/Concerts/IndesGalantesSuites:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites  \
 	Rameau/Concerts/IndesGalantesSuites/main.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites
 # rehearsal
-Rameau/Concerts/IndesGalantesSuites-rehearsal: $(OUTPUT_DIR)/IndesGalantesSuites-rehearsal.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-rehearsal
-$(OUTPUT_DIR)/IndesGalantesSuites-rehearsal.pdf:
+Rameau/Concerts/IndesGalantesSuites-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-rehearsal -d use-rehearsal-numbers \
 	Rameau/Concerts/IndesGalantesSuites/main.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-rehearsal
 # Flûte I
-Rameau/Concerts/IndesGalantesSuites-flute1: $(OUTPUT_DIR)/IndesGalantesSuites-flute1.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-flute1
-$(OUTPUT_DIR)/IndesGalantesSuites-flute1.pdf:
+Rameau/Concerts/IndesGalantesSuites-flute1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-flute1 -dpart=flute1  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-flute1
 # Flûte II
-Rameau/Concerts/IndesGalantesSuites-flute2: $(OUTPUT_DIR)/IndesGalantesSuites-flute2.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-flute2
-$(OUTPUT_DIR)/IndesGalantesSuites-flute2.pdf:
+Rameau/Concerts/IndesGalantesSuites-flute2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-flute2 -dpart=flute2  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-flute2
 # Hautbois I
-Rameau/Concerts/IndesGalantesSuites-hautbois1: $(OUTPUT_DIR)/IndesGalantesSuites-hautbois1.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-hautbois1
-$(OUTPUT_DIR)/IndesGalantesSuites-hautbois1.pdf:
+Rameau/Concerts/IndesGalantesSuites-hautbois1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-hautbois1 -dpart=hautbois1  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-hautbois1
 # Hautbois II
-Rameau/Concerts/IndesGalantesSuites-hautbois2: $(OUTPUT_DIR)/IndesGalantesSuites-hautbois2.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-hautbois2
-$(OUTPUT_DIR)/IndesGalantesSuites-hautbois2.pdf:
+Rameau/Concerts/IndesGalantesSuites-hautbois2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-hautbois2 -dpart=hautbois2  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-hautbois2
 # Trompette
-Rameau/Concerts/IndesGalantesSuites-trompette: $(OUTPUT_DIR)/IndesGalantesSuites-trompette.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-trompette
-$(OUTPUT_DIR)/IndesGalantesSuites-trompette.pdf:
+Rameau/Concerts/IndesGalantesSuites-trompette:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-trompette -dpart=trompette  \
 	Rameau/Concerts/IndesGalantesSuites/part-tt.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-trompette
 # Basson
-Rameau/Concerts/IndesGalantesSuites-basson: $(OUTPUT_DIR)/IndesGalantesSuites-basson.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-basson
-$(OUTPUT_DIR)/IndesGalantesSuites-basson.pdf:
+Rameau/Concerts/IndesGalantesSuites-basson:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-basson -dpart=basson  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-basson
 # Violon I
-Rameau/Concerts/IndesGalantesSuites-violon1: $(OUTPUT_DIR)/IndesGalantesSuites-violon1.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-violon1
-$(OUTPUT_DIR)/IndesGalantesSuites-violon1.pdf:
+Rameau/Concerts/IndesGalantesSuites-violon1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-violon1 -dpart=violon1  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-violon1
 # Violon II
-Rameau/Concerts/IndesGalantesSuites-violon2: $(OUTPUT_DIR)/IndesGalantesSuites-violon2.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-violon2
-$(OUTPUT_DIR)/IndesGalantesSuites-violon2.pdf:
+Rameau/Concerts/IndesGalantesSuites-violon2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-violon2 -dpart=violon2  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-violon2
 # Haute-contre
-Rameau/Concerts/IndesGalantesSuites-haute-contre: $(OUTPUT_DIR)/IndesGalantesSuites-haute-contre.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-haute-contre
-$(OUTPUT_DIR)/IndesGalantesSuites-haute-contre.pdf:
+Rameau/Concerts/IndesGalantesSuites-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-haute-contre -dpart=haute-contre  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-haute-contre
 # Taille
-Rameau/Concerts/IndesGalantesSuites-taille: $(OUTPUT_DIR)/IndesGalantesSuites-taille.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-taille
-$(OUTPUT_DIR)/IndesGalantesSuites-taille.pdf:
+Rameau/Concerts/IndesGalantesSuites-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-taille -dpart=taille  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-taille
 # Basses
-Rameau/Concerts/IndesGalantesSuites-basse: $(OUTPUT_DIR)/IndesGalantesSuites-basse.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-basse
-$(OUTPUT_DIR)/IndesGalantesSuites-basse.pdf:
+Rameau/Concerts/IndesGalantesSuites-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-basse -dpart=basse  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-basse
 # Timbales
-Rameau/Concerts/IndesGalantesSuites-timbales: $(OUTPUT_DIR)/IndesGalantesSuites-timbales.pdf
-.PHONY: Rameau/Concerts/IndesGalantesSuites-timbales
-$(OUTPUT_DIR)/IndesGalantesSuites-timbales.pdf:
+Rameau/Concerts/IndesGalantesSuites-timbales:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-timbales -dpart=timbales  \
 	Rameau/Concerts/IndesGalantesSuites/part-tt.ly
+.PHONY: Rameau/Concerts/IndesGalantesSuites-timbales
 
 Rameau/Concerts/IndesGalantesSuites-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantesSuites
@@ -1680,117 +1537,101 @@ Rameau/Concerts/IndesGalantesSuites-all: \
 
 ### Les Fêtes de Ramire
 # Conducteur
-Rameau/Opera/lesFetesDeRamire: $(OUTPUT_DIR)/lesFetesDeRamire.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire
-$(OUTPUT_DIR)/lesFetesDeRamire.pdf:
+Rameau/Opera/lesFetesDeRamire:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire  \
 	Rameau/Opera/lesFetesDeRamire/main.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire
 # rehearsal
-Rameau/Opera/lesFetesDeRamire-rehearsal: $(OUTPUT_DIR)/lesFetesDeRamire-rehearsal.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-rehearsal
-$(OUTPUT_DIR)/lesFetesDeRamire-rehearsal.pdf:
+Rameau/Opera/lesFetesDeRamire-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-rehearsal -d use-rehearsal-numbers \
 	Rameau/Opera/lesFetesDeRamire/main.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-rehearsal
 # Flûte I
-Rameau/Opera/lesFetesDeRamire-flute1: $(OUTPUT_DIR)/lesFetesDeRamire-flute1.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-flute1
-$(OUTPUT_DIR)/lesFetesDeRamire-flute1.pdf:
+Rameau/Opera/lesFetesDeRamire-flute1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-flute1 -dpart=flute1  \
 	Rameau/Opera/lesFetesDeRamire/part.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-flute1
 # Flûte II
-Rameau/Opera/lesFetesDeRamire-flute2: $(OUTPUT_DIR)/lesFetesDeRamire-flute2.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-flute2
-$(OUTPUT_DIR)/lesFetesDeRamire-flute2.pdf:
+Rameau/Opera/lesFetesDeRamire-flute2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-flute2 -dpart=flute2  \
 	Rameau/Opera/lesFetesDeRamire/part.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-flute2
 # Hautbois I
-Rameau/Opera/lesFetesDeRamire-hautbois1: $(OUTPUT_DIR)/lesFetesDeRamire-hautbois1.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-hautbois1
-$(OUTPUT_DIR)/lesFetesDeRamire-hautbois1.pdf:
+Rameau/Opera/lesFetesDeRamire-hautbois1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-hautbois1 -dpart=hautbois1  \
 	Rameau/Opera/lesFetesDeRamire/part.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-hautbois1
 # Hautbois II
-Rameau/Opera/lesFetesDeRamire-hautbois2: $(OUTPUT_DIR)/lesFetesDeRamire-hautbois2.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-hautbois2
-$(OUTPUT_DIR)/lesFetesDeRamire-hautbois2.pdf:
+Rameau/Opera/lesFetesDeRamire-hautbois2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-hautbois2 -dpart=hautbois2  \
 	Rameau/Opera/lesFetesDeRamire/part.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-hautbois2
 # Trompette I
-Rameau/Opera/lesFetesDeRamire-trompette1: $(OUTPUT_DIR)/lesFetesDeRamire-trompette1.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-trompette1
-$(OUTPUT_DIR)/lesFetesDeRamire-trompette1.pdf:
+Rameau/Opera/lesFetesDeRamire-trompette1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-trompette1 -dpart=trompette1  \
 	Rameau/Opera/lesFetesDeRamire/part-trompette.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-trompette1
 # Trompette II
-Rameau/Opera/lesFetesDeRamire-trompette2: $(OUTPUT_DIR)/lesFetesDeRamire-trompette2.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-trompette2
-$(OUTPUT_DIR)/lesFetesDeRamire-trompette2.pdf:
+Rameau/Opera/lesFetesDeRamire-trompette2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-trompette2 -dpart=trompette2  \
 	Rameau/Opera/lesFetesDeRamire/part-trompette.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-trompette2
 # Cor I
-Rameau/Opera/lesFetesDeRamire-cor1: $(OUTPUT_DIR)/lesFetesDeRamire-cor1.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-cor1
-$(OUTPUT_DIR)/lesFetesDeRamire-cor1.pdf:
+Rameau/Opera/lesFetesDeRamire-cor1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-cor1 -dpart=cor1  \
 	Rameau/Opera/lesFetesDeRamire/part-cor.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-cor1
 # Cor II
-Rameau/Opera/lesFetesDeRamire-cor2: $(OUTPUT_DIR)/lesFetesDeRamire-cor2.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-cor2
-$(OUTPUT_DIR)/lesFetesDeRamire-cor2.pdf:
+Rameau/Opera/lesFetesDeRamire-cor2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-cor2 -dpart=cor2  \
 	Rameau/Opera/lesFetesDeRamire/part-cor.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-cor2
 # Violon I
-Rameau/Opera/lesFetesDeRamire-violon1: $(OUTPUT_DIR)/lesFetesDeRamire-violon1.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-violon1
-$(OUTPUT_DIR)/lesFetesDeRamire-violon1.pdf:
+Rameau/Opera/lesFetesDeRamire-violon1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-violon1 -dpart=violon1  \
 	Rameau/Opera/lesFetesDeRamire/part.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-violon1
 # Violon II
-Rameau/Opera/lesFetesDeRamire-violon2: $(OUTPUT_DIR)/lesFetesDeRamire-violon2.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-violon2
-$(OUTPUT_DIR)/lesFetesDeRamire-violon2.pdf:
+Rameau/Opera/lesFetesDeRamire-violon2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-violon2 -dpart=violon2  \
 	Rameau/Opera/lesFetesDeRamire/part.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-violon2
 # Haute-contre
-Rameau/Opera/lesFetesDeRamire-haute-contre: $(OUTPUT_DIR)/lesFetesDeRamire-haute-contre.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-haute-contre
-$(OUTPUT_DIR)/lesFetesDeRamire-haute-contre.pdf:
+Rameau/Opera/lesFetesDeRamire-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-haute-contre -dpart=haute-contre  \
 	Rameau/Opera/lesFetesDeRamire/part.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-haute-contre
 # Taille
-Rameau/Opera/lesFetesDeRamire-taille: $(OUTPUT_DIR)/lesFetesDeRamire-taille.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-taille
-$(OUTPUT_DIR)/lesFetesDeRamire-taille.pdf:
+Rameau/Opera/lesFetesDeRamire-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-taille -dpart=taille  \
 	Rameau/Opera/lesFetesDeRamire/part.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-taille
 # Basses
-Rameau/Opera/lesFetesDeRamire-basse: $(OUTPUT_DIR)/lesFetesDeRamire-basse.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-basse
-$(OUTPUT_DIR)/lesFetesDeRamire-basse.pdf:
+Rameau/Opera/lesFetesDeRamire-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-basse -dpart=basse  \
 	Rameau/Opera/lesFetesDeRamire/part.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-basse
 # Parties vocales
-Rameau/Opera/lesFetesDeRamire-voix: $(OUTPUT_DIR)/lesFetesDeRamire-voix.pdf
-.PHONY: Rameau/Opera/lesFetesDeRamire-voix
-$(OUTPUT_DIR)/lesFetesDeRamire-voix.pdf:
+Rameau/Opera/lesFetesDeRamire-voix:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/lesFetesDeRamire-voix -dpart=voix  \
 	Rameau/Opera/lesFetesDeRamire/part.ly
+.PHONY: Rameau/Opera/lesFetesDeRamire-voix
 
 Rameau/Opera/lesFetesDeRamire-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/lesFetesDeRamire
@@ -1840,96 +1681,83 @@ Rameau/Opera/lesFetesDeRamire-all: \
 
 ### Les Paladins [EN COURS]
 # #f
-Rameau/Opera/Paladins: $(OUTPUT_DIR)/Paladins.pdf
-.PHONY: Rameau/Opera/Paladins
-$(OUTPUT_DIR)/Paladins.pdf:
+Rameau/Opera/Paladins:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins  \
 	Rameau/Opera/Paladins/main.ly
+.PHONY: Rameau/Opera/Paladins
 # rehearsal
-Rameau/Opera/Paladins-rehearsal: $(OUTPUT_DIR)/Paladins-rehearsal.pdf
-.PHONY: Rameau/Opera/Paladins-rehearsal
-$(OUTPUT_DIR)/Paladins-rehearsal.pdf:
+Rameau/Opera/Paladins-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-rehearsal -d use-rehearsal-numbers \
 	Rameau/Opera/Paladins/main.ly
+.PHONY: Rameau/Opera/Paladins-rehearsal
 # Flûte I
-Rameau/Opera/Paladins-flute1: $(OUTPUT_DIR)/Paladins-flute1.pdf
-.PHONY: Rameau/Opera/Paladins-flute1
-$(OUTPUT_DIR)/Paladins-flute1.pdf:
+Rameau/Opera/Paladins-flute1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-flute1 -dpart=flute1  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-flute1
 # Flûte II
-Rameau/Opera/Paladins-flute2: $(OUTPUT_DIR)/Paladins-flute2.pdf
-.PHONY: Rameau/Opera/Paladins-flute2
-$(OUTPUT_DIR)/Paladins-flute2.pdf:
+Rameau/Opera/Paladins-flute2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-flute2 -dpart=flute2  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-flute2
 # Hautbois I
-Rameau/Opera/Paladins-hautbois1: $(OUTPUT_DIR)/Paladins-hautbois1.pdf
-.PHONY: Rameau/Opera/Paladins-hautbois1
-$(OUTPUT_DIR)/Paladins-hautbois1.pdf:
+Rameau/Opera/Paladins-hautbois1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-hautbois1 -dpart=hautbois1  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-hautbois1
 # Hautbois II
-Rameau/Opera/Paladins-hautbois2: $(OUTPUT_DIR)/Paladins-hautbois2.pdf
-.PHONY: Rameau/Opera/Paladins-hautbois2
-$(OUTPUT_DIR)/Paladins-hautbois2.pdf:
+Rameau/Opera/Paladins-hautbois2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-hautbois2 -dpart=hautbois2  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-hautbois2
 # Basson I
-Rameau/Opera/Paladins-basson1: $(OUTPUT_DIR)/Paladins-basson1.pdf
-.PHONY: Rameau/Opera/Paladins-basson1
-$(OUTPUT_DIR)/Paladins-basson1.pdf:
+Rameau/Opera/Paladins-basson1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-basson1 -dpart=basson1  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-basson1
 # Basson II
-Rameau/Opera/Paladins-basson2: $(OUTPUT_DIR)/Paladins-basson2.pdf
-.PHONY: Rameau/Opera/Paladins-basson2
-$(OUTPUT_DIR)/Paladins-basson2.pdf:
+Rameau/Opera/Paladins-basson2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-basson2 -dpart=basson2  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-basson2
 # Violon I
-Rameau/Opera/Paladins-violon1: $(OUTPUT_DIR)/Paladins-violon1.pdf
-.PHONY: Rameau/Opera/Paladins-violon1
-$(OUTPUT_DIR)/Paladins-violon1.pdf:
+Rameau/Opera/Paladins-violon1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-violon1 -dpart=violon1  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-violon1
 # Violon II
-Rameau/Opera/Paladins-violon2: $(OUTPUT_DIR)/Paladins-violon2.pdf
-.PHONY: Rameau/Opera/Paladins-violon2
-$(OUTPUT_DIR)/Paladins-violon2.pdf:
+Rameau/Opera/Paladins-violon2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-violon2 -dpart=violon2  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-violon2
 # Parties (alto)
-Rameau/Opera/Paladins-parties: $(OUTPUT_DIR)/Paladins-parties.pdf
-.PHONY: Rameau/Opera/Paladins-parties
-$(OUTPUT_DIR)/Paladins-parties.pdf:
+Rameau/Opera/Paladins-parties:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-parties -dpart=parties  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-parties
 # Basses
-Rameau/Opera/Paladins-basse: $(OUTPUT_DIR)/Paladins-basse.pdf
-.PHONY: Rameau/Opera/Paladins-basse
-$(OUTPUT_DIR)/Paladins-basse.pdf:
+Rameau/Opera/Paladins-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-basse -dpart=basse  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-basse
 # Parties vocales
-Rameau/Opera/Paladins-voix: $(OUTPUT_DIR)/Paladins-voix.pdf
-.PHONY: Rameau/Opera/Paladins-voix
-$(OUTPUT_DIR)/Paladins-voix.pdf:
+Rameau/Opera/Paladins-voix:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Paladins-voix -dpart=voix  \
 	Rameau/Opera/Paladins/part.ly
+.PHONY: Rameau/Opera/Paladins-voix
 
 Rameau/Opera/Paladins-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/Paladins
@@ -1973,26 +1801,23 @@ Rameau/Opera/Paladins-all: \
 
 ### Pièces de clavecin en concert
 # Partition complète
-Rameau/Concerts/PiecesDeClavecinEnConcerts: $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts.pdf
-.PHONY: Rameau/Concerts/PiecesDeClavecinEnConcerts
-$(OUTPUT_DIR)/PiecesDeClavecinEnConcerts.pdf:
+Rameau/Concerts/PiecesDeClavecinEnConcerts:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts  \
 	Rameau/Concerts/PiecesDeClavecinEnConcerts/main.ly
+.PHONY: Rameau/Concerts/PiecesDeClavecinEnConcerts
 # Violon et viole
-Rameau/Concerts/PiecesDeClavecinEnConcerts-violon-viole: $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts-violon-viole.pdf
-.PHONY: Rameau/Concerts/PiecesDeClavecinEnConcerts-violon-viole
-$(OUTPUT_DIR)/PiecesDeClavecinEnConcerts-violon-viole.pdf:
+Rameau/Concerts/PiecesDeClavecinEnConcerts-violon-viole:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts-violon-viole -dpart=violon-viole  \
 	Rameau/Concerts/PiecesDeClavecinEnConcerts/part-violon-viole.ly
+.PHONY: Rameau/Concerts/PiecesDeClavecinEnConcerts-violon-viole
 # Clavecin
-Rameau/Concerts/PiecesDeClavecinEnConcerts-clavecin: $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts-clavecin.pdf
-.PHONY: Rameau/Concerts/PiecesDeClavecinEnConcerts-clavecin
-$(OUTPUT_DIR)/PiecesDeClavecinEnConcerts-clavecin.pdf:
+Rameau/Concerts/PiecesDeClavecinEnConcerts-clavecin:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts-clavecin -dpart=clavecin  \
 	Rameau/Concerts/PiecesDeClavecinEnConcerts/part-clavecin.ly
+.PHONY: Rameau/Concerts/PiecesDeClavecinEnConcerts-clavecin
 
 Rameau/Concerts/PiecesDeClavecinEnConcerts-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/PiecesDeClavecinEnConcerts
@@ -2019,19 +1844,17 @@ Rameau/Concerts/PiecesDeClavecinEnConcerts-all: \
 ###
 ### Giulio Cesare
 # Partition complète
-Haendel/Opera/GiulioCesare: $(OUTPUT_DIR)/GiulioCesare.pdf
-.PHONY: Haendel/Opera/GiulioCesare
-$(OUTPUT_DIR)/GiulioCesare.pdf:
+Haendel/Opera/GiulioCesare:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/GiulioCesare  \
 	Haendel/Opera/GiulioCesare/main.ly
+.PHONY: Haendel/Opera/GiulioCesare
 # Réduction
-Haendel/Opera/GiulioCesare-reduction: $(OUTPUT_DIR)/GiulioCesare-reduction.pdf
-.PHONY: Haendel/Opera/GiulioCesare-reduction
-$(OUTPUT_DIR)/GiulioCesare-reduction.pdf:
+Haendel/Opera/GiulioCesare-reduction:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/GiulioCesare-reduction -dpart=reduction \
 	Haendel/Opera/GiulioCesare/part.ly
+.PHONY: Haendel/Opera/GiulioCesare-reduction
 
 Haendel/Opera/GiulioCesare-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Haendel/GiulioCesare
@@ -2053,89 +1876,77 @@ Haendel/Opera/GiulioCesare-all: \
 
 ### Messiah
 # Partition complète
-Haendel/Oratorio/Messiah: $(OUTPUT_DIR)/Messiah.pdf
-.PHONY: Haendel/Oratorio/Messiah
-$(OUTPUT_DIR)/Messiah.pdf:
+Haendel/Oratorio/Messiah:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah  \
 	Haendel/Oratorio/Messiah/main.ly
+.PHONY: Haendel/Oratorio/Messiah
 # rehearsal
-Haendel/Oratorio/Messiah-rehearsal: $(OUTPUT_DIR)/Messiah-rehearsal.pdf
-.PHONY: Haendel/Oratorio/Messiah-rehearsal
-$(OUTPUT_DIR)/Messiah-rehearsal.pdf:
+Haendel/Oratorio/Messiah-rehearsal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-rehearsal  \
 	Haendel/Oratorio/Messiah/main.ly
+.PHONY: Haendel/Oratorio/Messiah-rehearsal
 # Réduction
-Haendel/Oratorio/Messiah-keyboard: $(OUTPUT_DIR)/Messiah-keyboard.pdf
-.PHONY: Haendel/Oratorio/Messiah-keyboard
-$(OUTPUT_DIR)/Messiah-keyboard.pdf:
+Haendel/Oratorio/Messiah-keyboard:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-keyboard -dpart=keyboard \
 	Haendel/Oratorio/Messiah/part-keyboard.ly
+.PHONY: Haendel/Oratorio/Messiah-keyboard
 # Réduction et parties vocales
-Haendel/Oratorio/Messiah-keyboard-vocal: $(OUTPUT_DIR)/Messiah-keyboard-vocal.pdf
-.PHONY: Haendel/Oratorio/Messiah-keyboard-vocal
-$(OUTPUT_DIR)/Messiah-keyboard-vocal.pdf:
+Haendel/Oratorio/Messiah-keyboard-vocal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-keyboard-vocal -dpart=keyboard-vocal \
 	Haendel/Oratorio/Messiah/part-vocal-keyboard.ly
+.PHONY: Haendel/Oratorio/Messiah-keyboard-vocal
 # Hautbois I
-Haendel/Oratorio/Messiah-oboe1: $(OUTPUT_DIR)/Messiah-oboe1.pdf
-.PHONY: Haendel/Oratorio/Messiah-oboe1
-$(OUTPUT_DIR)/Messiah-oboe1.pdf:
+Haendel/Oratorio/Messiah-oboe1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-oboe1 -dpart=oboe1  \
 	Haendel/Oratorio/Messiah/part.ly
+.PHONY: Haendel/Oratorio/Messiah-oboe1
 # Hautbois II
-Haendel/Oratorio/Messiah-oboe2: $(OUTPUT_DIR)/Messiah-oboe2.pdf
-.PHONY: Haendel/Oratorio/Messiah-oboe2
-$(OUTPUT_DIR)/Messiah-oboe2.pdf:
+Haendel/Oratorio/Messiah-oboe2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-oboe2 -dpart=oboe2  \
 	Haendel/Oratorio/Messiah/part.ly
+.PHONY: Haendel/Oratorio/Messiah-oboe2
 # Violon I
-Haendel/Oratorio/Messiah-violino1: $(OUTPUT_DIR)/Messiah-violino1.pdf
-.PHONY: Haendel/Oratorio/Messiah-violino1
-$(OUTPUT_DIR)/Messiah-violino1.pdf:
+Haendel/Oratorio/Messiah-violino1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-violino1 -dpart=violino1  \
 	Haendel/Oratorio/Messiah/part.ly
+.PHONY: Haendel/Oratorio/Messiah-violino1
 # Violon II
-Haendel/Oratorio/Messiah-violino2: $(OUTPUT_DIR)/Messiah-violino2.pdf
-.PHONY: Haendel/Oratorio/Messiah-violino2
-$(OUTPUT_DIR)/Messiah-violino2.pdf:
+Haendel/Oratorio/Messiah-violino2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-violino2 -dpart=violino2  \
 	Haendel/Oratorio/Messiah/part.ly
+.PHONY: Haendel/Oratorio/Messiah-violino2
 # Violon III
-Haendel/Oratorio/Messiah-violino3: $(OUTPUT_DIR)/Messiah-violino3.pdf
-.PHONY: Haendel/Oratorio/Messiah-violino3
-$(OUTPUT_DIR)/Messiah-violino3.pdf:
+Haendel/Oratorio/Messiah-violino3:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-violino3 -dpart=violino3  \
 	Haendel/Oratorio/Messiah/part.ly
+.PHONY: Haendel/Oratorio/Messiah-violino3
 # Alto
-Haendel/Oratorio/Messiah-viola: $(OUTPUT_DIR)/Messiah-viola.pdf
-.PHONY: Haendel/Oratorio/Messiah-viola
-$(OUTPUT_DIR)/Messiah-viola.pdf:
+Haendel/Oratorio/Messiah-viola:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-viola -dpart=viola  \
 	Haendel/Oratorio/Messiah/part.ly
+.PHONY: Haendel/Oratorio/Messiah-viola
 # Basses
-Haendel/Oratorio/Messiah-bassi: $(OUTPUT_DIR)/Messiah-bassi.pdf
-.PHONY: Haendel/Oratorio/Messiah-bassi
-$(OUTPUT_DIR)/Messiah-bassi.pdf:
+Haendel/Oratorio/Messiah-bassi:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-bassi -dpart=bassi  \
 	Haendel/Oratorio/Messiah/part.ly
+.PHONY: Haendel/Oratorio/Messiah-bassi
 # Parties vocales
-Haendel/Oratorio/Messiah-vocal: $(OUTPUT_DIR)/Messiah-vocal.pdf
-.PHONY: Haendel/Oratorio/Messiah-vocal
-$(OUTPUT_DIR)/Messiah-vocal.pdf:
+Haendel/Oratorio/Messiah-vocal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-vocal -dpart=vocal  \
 	Haendel/Oratorio/Messiah/part.ly
+.PHONY: Haendel/Oratorio/Messiah-vocal
 
 Haendel/Oratorio/Messiah-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Haendel/Messiah

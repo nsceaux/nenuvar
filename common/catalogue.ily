@@ -140,12 +140,12 @@
                           (or score-file
                               (if is-part "part.ly" "main.ly")))))
      (format #t "# ~a
-~a: ~a.pdf
-.PHONY: ~a
-~a.pdf:~%	$(LILYPOND_CMD) \\
+~a:
+	$(LILYPOND_CMD) \\
 	-o ~a ~a \\
-	~a~%"
-             (or title name) target output target output output all-options ly-file)
+	~a
+.PHONY: ~a~%"
+             (or title name) target output all-options ly-file target)
      (format #f "~a.pdf" output)))
 
 #(define* (print-makefile-opus title #:key description key opus url main parts)
