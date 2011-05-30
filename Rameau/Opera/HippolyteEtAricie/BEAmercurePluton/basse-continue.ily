@@ -1,4 +1,4 @@
-\clef "basse" fa2. |
+\clef "basse" fa2.\p ^"Tous" |
 do' |
 sol |
 re' |
@@ -7,16 +7,16 @@ sib |
 do' |
 do |
 fa,1 |
-r2 fa4 sib, |
+r2^"Basse continue" fa4 sib, |
 do2 r4 la, |
-sib,2 ~ sib,8. la,16 sol,8. fa,16 |
+sib,2 ~ sib,8. la,16 sol,8.\trill fa,16 |
 do1 |
 r2 mi, |
 fa,4. fa16 mib re4. do8 |
 sib,4. do8 re2 |
 do sol,4. sol,8 |
 sib,4 la,8 fa, do4 do, |
-fa,2 r4 |
+fa,2\allowPageTurn r4\allowPageTurn |
 r r sib,8 sib, |
 re4 re sib, |
 fa2 fa,4 |
@@ -40,7 +40,7 @@ fa4. mib8 re8.( fa16) |
 sol8.( fa16) sol8.( la16) sol8.( sib16) |
 la8. fa16 sib4 mib8 re16 mib |
 fa4 fa,2 |
-sib,2. |
+sib,2. |\allowPageTurn
 R1 |
 sib,2 ~ sib,8. lab,16 sol,8. fa,16 |
 mib,4. mib16 re do8. sib,16 la,8 sib, |

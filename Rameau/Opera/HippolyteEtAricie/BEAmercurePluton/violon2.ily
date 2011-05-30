@@ -1,5 +1,5 @@
 \clef "dessus" R2. |
-r4 mi' fad' |
+r4 mi'\p fad' |
 sol' r2 |
 r4 fa' sol' |
 la'2. ~|
