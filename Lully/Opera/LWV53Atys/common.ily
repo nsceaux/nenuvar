@@ -38,6 +38,7 @@
 \include "italiano.ly"
 \include "common/common.ily"
 \include "common/toc-columns.ily"
+\include "common/livret.ily"
 \setOpus "Lully/Opera/LWV53Atys"
 \opusTitle "Atys"
 

@@ -29,6 +29,14 @@
 %%%   \wordwrap-center-lines <markup-list>
 %%%     make a markup list composed centered lines of text.
 
+%%% Redefinition of \column
+#(define-markup-command (column layout props args) (markup-list?)
+   #:properties ((baseline-skip))
+   (let ((arg-stencils (interpret-markup-list layout props args)))
+     (stack-lines -1 0.0 0
+                  (space-lines baseline-skip
+                               (remove ly:stencil-empty? arg-stencils)))))
+
 #(define-markup-command (vspace layout props amount) (number?)
   "This produces a invisible object taking vertical space."
   (let ((amount (* amount 3.0)))
