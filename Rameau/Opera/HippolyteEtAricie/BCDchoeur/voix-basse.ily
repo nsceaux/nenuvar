@@ -1,7 +1,4 @@
-\clef "vbasse"
-R2. R2.*11 R2.*2 R2.*2
-R2.*17 R2.*3 R2.*2
-R2. |
+\clef "vbasse" R2. |
 fa4 fa fa |
 sib sol do' |
 fa fa fa |
