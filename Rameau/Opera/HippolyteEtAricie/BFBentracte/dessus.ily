@@ -1,6 +1,6 @@
 \clef "dessus" sol''8 fad''16 mi'' re'' sol'' fad'' mi'' re'' do'' si' la' |
 sol'4 re'' sol'' ~|
-sol''8. la''16 la''4. ( sol''16 la'' )|
+sol''8. la''16 la''4.(\trill sol''16 la'') |
 si''4 sol'' re'' |
 si' sol' re'' |
 mi''8 sol''16 fad'' mi'' fad'' sol'' fad'' mi'' re'' do'' si' |
@@ -35,4 +35,4 @@ sol''8 fad''16 mi'' re'' sol'' fad'' mi'' re'' do'' si' la' |
 sol'4 r2 |
 r8 re'16 mi' fad' mi' re' mi' fad' sol' la' si' |
 sol''8 fad''16 mi'' re'' sol'' fad'' mi'' re'' do'' si' la' |
-sol'4 r2 |
+sol'4 r r |

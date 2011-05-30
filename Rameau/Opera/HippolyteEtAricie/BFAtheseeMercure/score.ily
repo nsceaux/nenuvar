@@ -1,10 +1,19 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \global \includeNotes "thesee-mercure"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \includeNotes "basse" >>
+      \characterName "Mercure"
+      \global \keepWithTag #'mercure \includeNotes "voix"
+    >> \keepWithTag #'mercure \includeLyrics "paroles"
+    \new Staff \withLyrics <<
+      \characterName "Thésée"
+      \global \keepWithTag #'thesee \includeNotes "voix"
+    >> \keepWithTag #'thesee \includeLyrics "paroles"
+    \new Staff <<
+      \instrumentName "Basse continue"
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+    >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
   \midi { }
 }

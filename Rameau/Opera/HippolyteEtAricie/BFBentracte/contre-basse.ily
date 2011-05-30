@@ -1,6 +1,4 @@
 \clef "basse" R2.*3 |
-
-
 sol4 sol si, |
 sol, sol si, |
 do la la, |
@@ -11,7 +9,7 @@ si re' fad |
 sol4. mi8 la4 |
 re2. |
 re4 re re |
-sol r2 |
+sol r r |
 re2. |
 re4 re re |
 re2 r8 r16 re |
@@ -35,4 +33,4 @@ sol2. |
 re4 sol si |
 re' re re |
 sol2. |
-sol,4 r2 |
+sol,4 r r |

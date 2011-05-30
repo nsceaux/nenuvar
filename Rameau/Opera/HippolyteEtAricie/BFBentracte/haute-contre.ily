@@ -11,14 +11,13 @@ re'8 re'16 re' re'8 re' re'4 |
 re'4. re'16 re' re'8 la |
 la2. |
 R2.*2 |
-
 la2. |
 R2. |
 r8 la'16 la' la'8 fad'16 fad' fad'8 la'16 la' |
 la'4 sol'8 re'16 re' re'8 re' |
 re'4 do' do' |
 si4. fad'16 fad' red'8 si |
-mi'8. fad'16 fad'4. mi'8 |
+mi'8. fad'16 fad'4.\trill mi'8 |
 mi'2 r8 mi'16 mi' |
 mi'2 r8 la'16 la' |
 la'2 r8 la'16 la' |
@@ -31,8 +30,7 @@ re''4. do''16 do'' dod''8 mi'' |
 la' la'16 la' la'8 la' la'4 |
 la'8 sol'16 sol' si'8 si' re''4 |
 re''8 do''16 si' do''8 do'' la' re'' |
-si'2. |
+si'2.\trill |
 R2.*2 |
-
-si'2. ~|
-si'4 r2 |
+si'2.\trill ~|
+si'4\trill r r |
