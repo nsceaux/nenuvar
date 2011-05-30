@@ -5,7 +5,7 @@ mib, |
 R |
 re, |
 do, |
-lab,\f |
+lab,^\f |
 R1*2 |
 mib,1 |
 re, |

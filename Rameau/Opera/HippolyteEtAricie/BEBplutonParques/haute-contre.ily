@@ -39,7 +39,7 @@ fad'4 r r8 r16 la'32 la' la'8. re''32 re'' |
 re''4 r r2 |
 R1 |
 r4 r8 r16 la'32 la' la'4 r8 r16 la' |
-sol'4 sol'8. sol'16 fad'4. sol'8 |
+sol'4 sol'8. sol'16 fad'4.\trill sol'8 |
 sol'4. r16 sib32 sib sib4 sol |
 re'2 re'4 re' |
 re'1 |
