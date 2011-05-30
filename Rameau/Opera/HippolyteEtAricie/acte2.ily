@@ -7,7 +7,7 @@
 \includeScore "BAAritournelle"
 %{ n°2 %}
 \pieceToc \markup \smallCaps { Thésée, Tisiphone }
-\includeScore "BADtheseeTisiphone"
+\includeScore "BABtheseeTisiphone"
 %%
 %{ n°3 %}
 \scene "Scène II" \markup \wordwrap {
@@ -22,7 +22,7 @@
 \pieceToc \markup \smallCaps { Thésée, Pluton }
 \includeScore "BBBtheseePluton"
 %%
-%{ n°5 %}
+%{ n°5 %}\newBookPart #'(full)
 \scene "Scène III" \markup \wordwrap {
   SCÈNE 3 : Pluton, les trois Parques, divinités infernales
 }
@@ -36,13 +36,13 @@
 \pieceTocTitle "Premier air infernal"
 \includeScore "BCBair"
 %{ n°7 %}
-\pieceTocTitle "Premier air de furies"
+\pieceTocTitle "Deuxième air de furies"
 \includeScore "BCCair"
 %{ n°8 %}
-\pieceTocTitle \markup { \smallCaps Chœur : \italic { Pluton commande } }
+\pieceToc \markup { \smallCaps Chœur : \italic { Pluton commande } }
 \includeScore "BCDchoeur"
 %%
-%{ n°9 %}
+%{ n°9 %}\newBookPart #'(full)
 \scene "Scène IV" \markup \wordwrap {
   SCÈNE 4 : Thésée, Tisiphone, les mêmes
 }
@@ -65,7 +65,7 @@
 \pieceToc \markup { \smallCaps Chœur : \italic { Non, Neptune aurait beau t’entendre } }
 \includeScore "BDEchoeur"
 %%
-%{ n°13 %}
+%{ n°13 %}\newBookPart #'(full)
 \scene "Scène V" \markup \wordwrap { SCÈNE 5 : Mercure, les mêmes }
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Mercure, \smallCaps Pluton et les trois Parques.

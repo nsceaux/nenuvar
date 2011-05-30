@@ -2,10 +2,11 @@
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
       \characterName \markup Phèdre
-      \global \includeNotes "phedre"
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup { Basse continue }
-                 \global \includeNotes "basse" >>
+    \new Staff <<
+      \instrumentName \markup { Basse continue }
+      \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
   \midi { }

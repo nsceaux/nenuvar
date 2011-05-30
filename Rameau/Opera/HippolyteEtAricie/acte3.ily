@@ -8,7 +8,7 @@
 \sceneDescription \markup \fill-line { \line { \smallCaps Phèdre, seule. } }
 \pieceToc \markup { \smallCaps Phèdre : \italic { Cruelle Mère des Amours } }
 \includeScore "CAAphedre"
-\includeScore "CBAphedre"
+\includeScore "CABphedre"
 %%
 \scene "Scène II" "SCÈNE 2 : Phèdre, Hippolyte, Œnone"
 \sceneDescription \markup \wordwrap-center {

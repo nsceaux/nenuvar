@@ -5,4 +5,4 @@ la,2. r8 dod |
 re4 si, mi2 |
 la,2. fad,4 |
 si,2 dod4. re8 |
-la,4 \laissezVibrer 
+la,4*1/2~ \hideNotes la, 

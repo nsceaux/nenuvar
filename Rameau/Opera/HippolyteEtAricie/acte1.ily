@@ -83,7 +83,7 @@
 \pieceToc \markup \smallCaps { Diane, Aricie, Hippolyte }
 \includeScore "AEAdianeAricieHippolyte"
 %%
-%{ n°17 %}\newBookPart #'(full)
+%{ n°17 %}
 \scene "Scène VI" "SCÈNE 6 : Phèdre"
 \sceneDescription \markup \smallCaps Phèdre.
 \pieceToc \markup { \smallCaps Phèdre : \italic { Que rien n’échappe à ma fureur } }

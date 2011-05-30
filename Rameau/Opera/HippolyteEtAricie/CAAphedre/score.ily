@@ -16,10 +16,13 @@
     >>
     \new Staff \withLyrics <<
       \characterName \markup Phèdre
-      \global \includeNotes "phedre"
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup { Basse continue }
-                  \global \includeNotes "basse" >>
+    \new Staff <<
+      \instrumentName \markup { Basse continue }
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+    >>
   >>
   \layout { indent = \largeindent }
   \midi { }
