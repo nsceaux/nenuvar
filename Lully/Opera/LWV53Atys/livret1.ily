@@ -528,12 +528,3 @@
   }
   \livretFinAct \line { Fin du premier Acte. }
 }
-
-%{
-  \livretPers 
-  \livretVers {
-    \line {  }
-    \sline {  }
-    \line {  }
-  }
-%}

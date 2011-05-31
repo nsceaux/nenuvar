@@ -23,6 +23,13 @@
     (markup #:force-line-width-ratio 3/20 #:null
             #:fontsize 3 #:line-width-ratio 7/10 #:pad-around 2 text)))
 
+#(define-markup-command (livretDidas layout props text) (markup?)
+   (interpret-markup
+    layout props
+    (markup #:force-line-width-ratio 3/20 #:null
+            #:fontsize 2 #:force-line-width-ratio 7/10
+            #:fill-line (#:null #:italic text))))
+
 #(define-markup-command (livretDescRef layout props ref text) (symbol? markup?)
    (interpret-markup
     layout props
@@ -42,11 +49,25 @@
                                 #:null))))
 
 #(define-markup-list-command (livretVers layout props verses) (markup-list?)
-   (interpret-markup-list layout props
-                          (map (lambda (verse)
-                                 (markup #:force-line-width-ratio 1/4 #:null
-                                         #:fontsize 2 verse))
-                               verses)))
+   (interpret-markup-list
+    layout props
+    (map (lambda (verse)
+           (markup #:force-line-width-ratio 1/4 #:null
+                   #:fontsize 2 verse))
+         verses)))
+
+#(define-markup-list-command (livretVersRef layout props ref verses) (symbol? markup-list?)
+   (interpret-markup-list
+    layout props
+    (if (null? verses)
+        '()
+        (cons (markup #:force-line-width-ratio 1/4
+                      #:line ("Page" #:page-refIII ref "")
+                      #:fontsize 2 (car verses))
+              (map (lambda (verse)
+                     (markup #:force-line-width-ratio 1/4 #:null
+                             #:fontsize 2 verse))
+                   (cdr verses))))))
 
 #(define-markup-command (sline layout props args) (markup-list?)
    (interpret-markup
