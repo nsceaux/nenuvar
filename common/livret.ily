@@ -11,9 +11,11 @@
     (markup #:fill-line (#:fontsize 5 #:pad-around 4 text))))
 
 #(define-markup-command (livretScene layout props text) (markup?)
-   (interpret-markup
-    layout props
-    (markup #:fill-line (#:fontsize 5 #:pad-around 2 text))))
+   (stack-lines DOWN 0 0
+                (list (ly:make-stencil "" '(0 . 0) '(0 . 1))
+                      (interpret-markup
+                       layout props
+                       (markup #:fill-line (#:fontsize 5 #:pad-around 2 text))))))
 
 #(define-markup-command (livretDesc layout props text) (markup?)
    (interpret-markup
@@ -49,6 +51,7 @@
 #(define-markup-command (sline layout props args) (markup-list?)
    (interpret-markup
     layout props
-    (make-line-markup (cons (make-hspace-markup 4) args))
-    ;(make-line-markup args)
-    ))
+    (make-line-markup (cons (make-hspace-markup 4) args))))
+
+#(define-markup-command (invisible layout props arg) (markup?)
+  (interpret-markup layout props (make-with-color-markup white arg)))

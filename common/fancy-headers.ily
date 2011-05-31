@@ -94,7 +94,7 @@
                         (interpret-markup layout props
                                           (markup #:page-header page-number-markup)))))))
        (cons 0 0)
-       (ly:stencil-extent (interpret-markup layout props "XXX") Y))))
+       (cons -1.0 (cdr (ly:stencil-extent (interpret-markup layout props "XXX") Y))))))
   (set! add-odd-page-header-text
    (lambda (parser text display-1st)
      (let ((label (gensym "header")))

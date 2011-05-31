@@ -388,11 +388,11 @@ setOpus =
    ;;(format #t "Including score `~a'~%" name)
    (if (eqv? #t (ly:get-option 'non-score-print))
        (begin
-         (add-toplevel-markup parser name)
          (add-music parser
                     (make-music 'Music
                                 'page-marker #t
-                                'page-label (string->symbol (or label name)))))
+                                'page-label (string->symbol (or label name))))
+         (add-toplevel-markup parser name))
        (parameterize ((*piece* name))
          ;;(format #t "Reading ~a~%" name)
          (if (*part*)
