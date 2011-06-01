@@ -48,26 +48,40 @@
                                 #:fontsize 3 #:pad-around 2 text
                                 #:null))))
 
-#(define-markup-list-command (livretVers layout props verses) (markup-list?)
-   (interpret-markup-list
-    layout props
-    (map (lambda (verse)
-           (markup #:force-line-width-ratio 1/4 #:null
-                   #:fontsize 2 verse))
-         verses)))
+#(define livret-vers-aux
+   (let ((gauge-string "L'heure aproche où l Hymen voudra qu elle se livre")
+         (gap #f))
+     (lambda (layout props ref verses)
+       (if (not gap)
+           (let ((line-width (chain-assoc-get 'line-width props 0))
+                 (gauge (interpret-markup
+                         layout props
+                         (markup #:fontsize 2 gauge-string))))
+             (set! gap (/ (- line-width
+                             (interval-length (ly:stencil-extent gauge X)))
+                          2.0))))
+       (interpret-markup-list
+        layout props
+        (cond ((null? verses)
+               '())
+              ((not ref)
+               (map (lambda (verse)
+                      (markup #:hspace gap #:fontsize 2 verse))
+                    verses))
+              (else
+               (cons (markup #:combine #:hspace gap
+                             #:line ("Page" #:page-refIII ref "")
+                             #:fontsize 2 (car verses))
+                     (map (lambda (verse)
+                            (markup #:hspace gap #:fontsize 2 verse))
+                          (cdr verses)))))))))
 
-#(define-markup-list-command (livretVersRef layout props ref verses) (symbol? markup-list?)
-   (interpret-markup-list
-    layout props
-    (if (null? verses)
-        '()
-        (cons (markup #:force-line-width-ratio 1/4
-                      #:line ("Page" #:page-refIII ref "")
-                      #:fontsize 2 (car verses))
-              (map (lambda (verse)
-                     (markup #:force-line-width-ratio 1/4 #:null
-                             #:fontsize 2 verse))
-                   (cdr verses))))))
+#(define-markup-list-command (livretVers layout props verses) (markup-list?)
+   (livret-vers-aux layout props #f verses))
+
+#(define-markup-list-command (livretVersRef layout props ref verses)
+   (symbol? markup-list?)
+   (livret-vers-aux layout props ref verses))
 
 #(define-markup-command (sline layout props args) (markup-list?)
    (interpret-markup
