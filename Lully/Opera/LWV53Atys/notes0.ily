@@ -1,4 +1,4 @@
-\notesSubSection "Prologue"
+\appendixSubSection "Prologue"
 \markuplines \fontsize-lines #2 \column-lines {
   \section \line { Comparaison entre Ballard 1689 et Manuscrit }
   \paragraph {

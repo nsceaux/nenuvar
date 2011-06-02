@@ -1,4 +1,4 @@
-\notesSection "NOTES"
+\appendixSection "NOTES"
 \markuplines \fontsize-lines #2 \column-lines {
   \act { NOTES }
   

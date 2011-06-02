@@ -1,4 +1,4 @@
-\notesSubSection "Acte II"
+\appendixSubSection "Acte II"
 \markuplines \fontsize-lines #2 \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% CABcelaenusAtys mesure 18

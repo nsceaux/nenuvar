@@ -1,4 +1,4 @@
-\notesSubSection "Acte IV"
+\appendixSubSection "Acte IV"
 \markuplines \fontsize-lines #2 \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% EAAsangarideDorisIdas mesure 6

@@ -1,4 +1,4 @@
-\notesSubSection "Acte V"
+\appendixSubSection "Acte V"
 \markuplines \column-lines {
   \livretAct \line { ACTE CINQUIESME. }
   \livretDesc \wordwrap-center {

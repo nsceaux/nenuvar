@@ -1,4 +1,4 @@
-\notesSubSection "Acte III"
+\appendixSubSection "Acte III"
 \markuplines \column-lines {
   \livretAct \line { ACTE TROISIESME. }
   \livretDesc \wordwrap-center {
@@ -143,12 +143,14 @@
       PHOBETOR, PHANTASE,
       Les Songes heureux. Les Songes funestes.
     }
-    \wordwrap { Deux Songes joüants de la Violle. }
-    \wordwrap { Deux Songes joüants du Theorbe. }
-    \wordwrap { Six Songes joüants de la Flutte. }
-    \wordwrap { Douze Songes funestes chantants. }
-    \wordwrap { Huit Songes agreables dançans. }
-    \wordwrap { Huit Songes funestes dançants. }
+    \justify {
+      Deux Songes joüants de la Violle.
+      Deux Songes joüants du Theorbe.
+      Six Songes joüants de la Flutte.
+      Douze Songes funestes chantants.
+      Huit Songes agreables dançans.
+      Huit Songes funestes dançants.
+    }
   }
   \livretPersRef #'DDAsommeil \line { LE SOMMEIL. }
   \livretVers {

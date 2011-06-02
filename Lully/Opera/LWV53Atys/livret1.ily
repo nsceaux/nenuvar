@@ -1,4 +1,4 @@
-\notesSubSection "Acte I"
+\appendixSubSection "Acte I"
 \markuplines \column-lines {
   \livretAct \line { ACTE PREMIER. }
   \livretDesc \wordwrap {

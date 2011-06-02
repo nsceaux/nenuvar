@@ -1,4 +1,4 @@
-\notesSubSection "Acte II"
+\appendixSubSection "Acte II"
 \markuplines \column-lines {
   \livretAct \line { ACTE SECOND }
   \livretDesc \wordwrap-center {

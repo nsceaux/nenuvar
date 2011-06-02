@@ -1,4 +1,4 @@
-\notesSubSection "Acte III"
+\appendixSubSection "Acte III"
 \markuplines \fontsize-lines #2 \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% DAAatys mesure xx

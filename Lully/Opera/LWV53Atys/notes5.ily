@@ -1,4 +1,4 @@
-\notesSubSection "Acte V"
+\appendixSubSection "Acte V"
 \markuplines \fontsize-lines #2 \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% FABcelaenusCybele mesure 49

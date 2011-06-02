@@ -245,10 +245,15 @@ choeurMark =
   }
 }
 
-notesSection =
-#(define-music-function (parser location title) (markup?)
+appendices =
+#(define-music-function (parser location) ()
   (add-page-break parser)
   (add-toc-item parser 'tocActMarkup (markup #:sep))
+  (make-music 'Music 'void #t))
+
+appendixSection =
+#(define-music-function (parser location title) (markup?)
+  (add-page-break parser)
   (add-toc-item parser 'tocPieceMarkup title)
   (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
   (*act-title* title)
@@ -258,7 +263,7 @@ notesSection =
     #f)
   (make-music 'Music 'void #t))
 
-notesSubSection =
+appendixSubSection =
 #(define-music-function (parser location title) (markup?)
   (add-toc-item parser 'tocPieceMarkup title)
   (add-odd-page-header-text

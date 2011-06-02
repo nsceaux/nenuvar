@@ -1,5 +1,5 @@
-\notesSection "LIVRET"
-\notesSubSection "Prologue"
+\appendixSection "LIVRET"
+\appendixSubSection "Prologue"
 \markuplines \column-lines {
   \livretAct PROLOGUE.
   \livretDesc \wordwrap {
