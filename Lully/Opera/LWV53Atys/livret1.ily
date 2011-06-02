@@ -1,7 +1,7 @@
 \appendixSubSection "Acte I"
 \markuplines \column-lines {
   \livretAct \line { ACTE PREMIER. }
-  \livretDesc \wordwrap {
+  \livretDesc \wordwrap-center {
     Le Theatre represente une montagne
     consacrée à Cybele.
   }
@@ -85,7 +85,7 @@
   }
   %%%
   \livretScene \line { SCENE TROISIEME. }
-  \livretPers \wordwrap-center { SANGARIDE, DORIS, ATYS, IDAS. }
+  \livretDescAtt \wordwrap-center { SANGARIDE, DORIS, ATYS, IDAS. }
   \livretPersRef #'BCAsdai \line { SANGARIDE, & DORIS. }
   \livretVers {
     \sline { Allons, allons, accourez tous, }
@@ -168,7 +168,7 @@
   }
   %%%
   \livretScene \line { SCENE QUATRIEME. }
-  \livretPers \wordwrap-center { SANGARIDE, DORIS. }
+  \livretDescAtt \wordwrap-center { SANGARIDE, DORIS. }
   \livretPersRef #'BDAsangarideDoris \line { SANGARIDE. }
   \livretVers {
     \sline { Atys est trop heureux. }
@@ -246,7 +246,7 @@
   }
   %%%
   \livretScene \line { SCENE CINQUIESME. }
-  \livretPers \wordwrap-center { ATYS, SANGARIDE, DORIS. }
+  \livretDescAtt \wordwrap-center { ATYS, SANGARIDE, DORIS. }
   \livretPersRef #'BEAatysDoris ATYS.
   \livretVers {
     \sline { On voit dans ces campagnes }
@@ -259,7 +259,7 @@
   }
   %%%
   \livretScene \line { SCENE SIXIESME. }
-  \livretPers \wordwrap-center { ATYS, SANGARIDE. }
+  \livretDescAtt \wordwrap-center { ATYS, SANGARIDE. }
   \livretPersRef #'BFAatysSangaride ATYS.
   \livretVers {
     \line { Sangaride, ce jour est un grand jour pour vous. }
@@ -417,7 +417,7 @@
   }
   %%%
   \livretScene \line { SCENE SEPTIESME. }
-  \livretDesc \column {
+  \livretDescAtt \column {
     \wordwrap-center { ATYS, SANGARIDE, DORIS, IDAS. }
     \wordwrap {
       Chœur de Phrygiens chantans. Chœur de Phrygiennes chantantes.
@@ -493,7 +493,7 @@
   }
   %%%
   \livretScene \line { SCENE HUITIESME. }
-  \livretDesc \wordwrap {
+  \livretDescAtt \wordwrap {
     La Déesse Cybele paroist sur son Char, &
     les Phrygiens & les Phrygiennes luy témoignent
     leur joye & leur respect.

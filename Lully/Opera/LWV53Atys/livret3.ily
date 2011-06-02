@@ -1,7 +1,7 @@
 \appendixSubSection "Acte III"
 \markuplines \column-lines {
   \livretAct \line { ACTE TROISIESME. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     Le Theatre change & represente
     le Palais du Sacrificateur
     de Cybele.
@@ -18,7 +18,7 @@
   }
   %%
   \livretScene \line { SCENE SECONDE. }
-  \livretDesc \wordwrap-center { IDAS, DORIS, ATYS. }
+  \livretDescAtt \wordwrap-center { IDAS, DORIS, ATYS. }
   \livretPersRef #'DBAatysIdasDoris IDAS.
   \livretVers {
     \sline { Peut-on icy parler sans feindre ?  }
@@ -131,7 +131,7 @@
   \livretDidas \line { Atys descend. }
   %%
   \livretScene \line { SCENE QUATRIESME. }
-  \livretDesc \column {
+  \livretDescAtt \column {
     \justify {
       Le Theatre change & represente un Antre
       entouré de Pavots & de Ruisseaux, où le
@@ -271,7 +271,7 @@
   }
   %%
   \livretScene \line { SCENE CINQUIESME. }
-  \livretDesc \wordwrap-center { ATYS, CYBELE, & MELISSE. }
+  \livretDescAtt \wordwrap-center { ATYS, CYBELE, & MELISSE. }
   \livretPersRef #'DEAcybeleAtys ATYS.
   \livretVers {
     \line { Venez à mon secours ô Dieux ! ô justes Dieux ! }
@@ -335,7 +335,7 @@
   }
   %%
   \livretScene \line { SCENE SIXIESME. }
-  \livretDesc \wordwrap-center { SANGARIDE, CYBELE, ATYS, MELISSE. }
+  \livretDescAtt \wordwrap-center { SANGARIDE, CYBELE, ATYS, MELISSE. }
   \livretPersRef #'DFAcybeleAtysSangaride
   \line { SANGARIDE se jettant aux pieds de Cybele. }
   \livretVers {
@@ -397,7 +397,7 @@
   }
   %%
   \livretScene \line { SCENE SEPTIESME. }
-  \livretDesc \wordwrap-center { CYBELE, MELISSE. }
+  \livretDescAtt \wordwrap-center { CYBELE, MELISSE. }
   \livretPersRef #'DGAcybeleMelisse CYBELE.
   \livretVers {
     \line { Qu'Atys dans ses respects mesle d'indifference ! }

@@ -1,8 +1,23 @@
 \appendixSection "LIVRET"
 \appendixSubSection "Prologue"
 \markuplines \column-lines {
+  \livretAct LIVRET
+  \fontsize-lines #1 \column-lines {
+    \wordwrap-lines {
+      Le livret présenté ici est tiré de l'ouvrage :
+    }
+    \line {
+      \hspace #2 Philippe Quinault, \italic { Atys, tragedie en musique. }
+      Paris : Christophe Ballard, 1676.
+    }
+    \line { \hspace #2 \with-url
+      #"http://gallica.bnf.fr/ark:/12148/bpt6k5448680n"
+      \typewriter\smaller http://gallica.bnf.fr/ark:/12148/bpt6k5448680n
+    }
+  }
+
   \livretAct PROLOGUE.
-  \livretDesc \wordwrap {
+  \livretDescAtt \wordwrap {
     Le Theatre represente le Palais du Temps,
     où ce Dieu paroist au milieu des douze
     Heures du Jour, & des douze

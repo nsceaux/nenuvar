@@ -1,12 +1,12 @@
 \appendixSubSection "Acte II"
 \markuplines \column-lines {
   \livretAct \line { ACTE SECOND }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     Le Theatre change & represente
     le Temple de Cybele.
   }
   \livretScene \line { SCENE PREMIERE. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     CELÆNUS Roy de Phrygie. ATYS, Suivans de Celænus.
   }
   \livretPersRef #'CABcelaenusAtys CELÆNUS.
@@ -115,7 +115,7 @@
   }
   %%
   \livretScene \line { SCENE SECONDE. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     CYBELE, CELÆNUS, MELISSE, Troupe de Prestresses de Cybele.
   }
   \livretPersRef #'CBBcybeleCelaenus CYBELE.
@@ -168,7 +168,7 @@
   }
   %%
   \livretScene \line { SCENE TROISIESME. }
-  \livretDesc \wordwrap-center { CYBELE, MELISSE. }
+  \livretDescAtt \wordwrap-center { CYBELE, MELISSE. }
   \livretPersRef #'CCAcybeleMelisse CYBELE.
   \livretVers {
     \line { Tu tétonnes, Melisse, et mon choix te surprend ? }
@@ -250,7 +250,7 @@
   }
   %%
   \livretScene \line { SCENE QUATRIESME. }
-  \livretDesc \column {
+  \livretDescAtt \column {
     \justify {
       Les Zephirs paroissent dans une gloire élevée
       & brillante. Les Peuples differens qui sont

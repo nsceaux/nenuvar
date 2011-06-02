@@ -1,12 +1,12 @@
 \appendixSubSection "Acte V"
 \markuplines \column-lines {
   \livretAct \line { ACTE CINQUIESME. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     Le Theatre change & represente
     des Jardins agreables.
   }
   \livretScene \line { SCENE PREMIERE. }
-  \livretDesc \wordwrap-center { CELÆNUS, CYBELE, MELISSE. }
+  \livretDescAtt \wordwrap-center { CELÆNUS, CYBELE, MELISSE. }
   \livretPersRef #'FABcelaenusCybele CELÆNUS.
   \livretVers {
     \line { Vous m'ostez Sangaride ? inhumaine Cybelle ; }
@@ -70,7 +70,7 @@
   }
   %%
   \livretScene \line { SCENE SECONDE. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     ATYS, SANGARIDE, CYBELE, CELÆNUS, MELISSE,
     Troupe de Prestresses de Cybele.
   }
@@ -157,7 +157,7 @@
   }
   %%
   \livretScene \line { SCENE TROISIEME. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     ALECTON, ATYS, SANGARIDE, CYBELE, CELÆNUS, MELISSE,
     IDAS, DORIS,
     \smallCaps { Troupe de Prestresses de Cybele, Chœur de Phrygiens. }
@@ -264,7 +264,7 @@
   \null
   %%
   \livretScene \line { SCENE QUATRIESME. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     ATYS, CYBELE, MELISSE, IDAS,
     \smallCaps { Chœur de Phrygiens. }
   }
@@ -364,7 +364,7 @@
   }
   %%
   \livretScene \line { SCENE CINQUIESME. }
-  \livretDesc \wordwrap-center { CYBELE, MELISSE. }
+  \livretDescAtt \wordwrap-center { CYBELE, MELISSE. }
   \livretPersRef #'FEAcybeleMelisse CYBELE.
   \livretVers {
     \line { Je commence à trouver sa peine trop cruelle, }
@@ -381,7 +381,7 @@
   }
   %%
   \livretScene \line { SCENE SIXIESME. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     ATYS, IDAS, CYBELE, MELISSE, \smallCaps { Prestresses de Cybele. }
   }
   \livretPersRef #'FFAcybeleIdasAtys \line { IDAS soûtenant Atys. }
@@ -443,7 +443,7 @@
   }
   %%
   \livretScene \line { SCENE SEPTIESME, ET DERNIERE. }
-  \livretDesc \column {
+  \livretDescAtt \column {
     \wordwrap-center {
       CYBELE, \smallCaps {
         Troupe de Nymphes des Eaux, Troupe de Divinitez des Bois,

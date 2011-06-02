@@ -1,12 +1,12 @@
 \appendixSubSection "Acte IV"
 \markuplines \column-lines {
   \livretAct \line { ACTE QUATRIESME. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     Le Theatre change & represente le Palais
     du Fleuve Sangar.
   }
   \livretScene \line { SCENE PREMIERE. }
-  \livretDesc \wordwrap-center { SANGARIDE, DORIS, IDAS. }
+  \livretDescAtt \wordwrap-center { SANGARIDE, DORIS, IDAS. }
   \livretPersRef #'EAAsangarideDorisIdas DORIS.
   \livretVers {
     \line { Quoy, vous pleurez ? }
@@ -120,7 +120,7 @@
   }
   %%
   \livretScene \line { SCENE SECONDE. }
-  \livretDesc \wordwrap-center { 
+  \livretDescAtt \wordwrap-center { 
     CELÆNUS, SUIVANS DE CELÆNUS, SANGARIDE, IDAS, & DORIS.
   }
   \livretPersRef #'EBBcelaenusSangaride CELÆNUS.
@@ -160,7 +160,7 @@
   }
   %%
   \livretScene \line { SCENE TROISIESME. }
-  \livretDesc \wordwrap-center { 
+  \livretDescAtt \wordwrap-center { 
     ATYS, CELÆNUS, SANGARIDE, DORIS, IDAS, Suivans de Celænus.
   }
   \livretPersRef #'ECAcelaenusSangaride CELÆNUS.
@@ -188,7 +188,7 @@
   }
   %%
   \livretScene \line { SCENE QUATRIESME. }
-  \livretDesc \wordwrap-center { ATYS, SANGARIDE. }
+  \livretDescAtt \wordwrap-center { ATYS, SANGARIDE. }
   \livretPersRef #'EDBsangarideAtys ATYS.
   \livretVers {
     \line { Qu'il sçait peu son malheur ! et qu'il est déplorable ! }
@@ -328,7 +328,7 @@
   }
   %%
   \livretScene \line { SCENE CINQUIESME. }
-  \livretDesc \column {
+  \livretDescAtt \column {
     \wordwrap-center {
       SANGARIDE, CELÆNUS,
       \smallCaps { le Dieux du Fleuve Sangar,
@@ -434,7 +434,7 @@
     \sline { L'eau qui tombe goute à goute }
     \sline { Perce le plus dur Rocher. }
     \null
-    \sline { L'Amour touble tout le Monde, }
+    \sline { L'Amour trouble tout le Monde, }
     \sline { C'est la source de nos pleurs ; }
     \sline { C'est un feu brûlant dans l'onde, }
     \sline { C'est l'écüeil des plus grands cœurs : }
@@ -476,7 +476,7 @@
   }
   %%
   \livretScene \line { SCENE SIXIESME. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt \wordwrap-center {
     ATYS, \smallCaps { Troupe de Zephirs volants, }
     SANGARIDE, CELÆNUS, \smallCaps {
       Le Dieu du Fleuve Sangar, Troupe de Dieux

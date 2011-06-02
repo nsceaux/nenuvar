@@ -19,7 +19,13 @@
                        (markup #:column (#:fill-line (#:fontsize 5 #:pad-around 2 text)
                                          next))))))
 
-#(define-markup-command (livretDesc layout props text next)
+#(define-markup-command (livretDesc layout props text) (markup?)
+   (interpret-markup
+    layout props
+    (markup #:force-line-width-ratio 3/20 #:null
+            #:fontsize 3 #:line-width-ratio 7/10 #:pad-around 2 text)))
+
+#(define-markup-command (livretDescAtt layout props text next)
      (markup? markup?)
    (interpret-markup
     layout props
@@ -28,14 +34,11 @@
                      #:fontsize 3 #:line-width-ratio 7/10 #:pad-around 2 text)
              next))))
 
-#(define-markup-command (livretDescRef layout props ref text next)
-     (symbol? markup? markup?)
+#(define-markup-command (livretDescRef layout props ref text) (symbol? markup?)
    (interpret-markup
     layout props
-    (markup #:column
-            (#:line (#:force-line-width-ratio 3/20 #:line ("Page" #:page-refIII ref "")
-                     #:fontsize 3 #:line-width-ratio 7/10 #:pad-around 2 text)
-             next))))
+    (markup #:force-line-width-ratio 3/20 #:line ("Page" #:page-refIII ref "")
+            #:fontsize 3 #:line-width-ratio 7/10 #:pad-around 2 text)))
 
 #(define-markup-command (livretDidas layout props text) (markup?)
    (interpret-markup

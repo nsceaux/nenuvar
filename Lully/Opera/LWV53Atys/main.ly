@@ -1,5 +1,5 @@
 \include "Lully/Opera/LWV53Atys/common.ily"
-
+#(ly:set-option 'apply-vertical-tweaks #t)
 %% Title page
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
