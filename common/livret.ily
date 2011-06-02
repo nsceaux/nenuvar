@@ -10,12 +10,13 @@
     layout props
     (markup #:fill-line (#:fontsize 5 #:pad-around 4 text))))
 
-#(define-markup-command (livretScene layout props text) (markup?)
+#(define-markup-command (livretScene layout props text next) (markup? markup?)
    (stack-lines DOWN 0 0
                 (list (ly:make-stencil "" '(0 . 0) '(0 . 1))
                       (interpret-markup
                        layout props
-                       (markup #:fill-line (#:fontsize 5 #:pad-around 2 text))))))
+                       (markup #:column (#:fill-line (#:fontsize 5 #:pad-around 2 text)
+                                         next))))))
 
 #(define-markup-command (livretDesc layout props text) (markup?)
    (interpret-markup

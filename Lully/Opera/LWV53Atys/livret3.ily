@@ -460,11 +460,3 @@
   }
   \livretFinAct \line { Fin du troisiéme Acte. }
 }
-%{
-  \livretPers 
-  \livretVers {
-    \line {  }
-    \sline {  }
-    \line {  }
-  }
-%}
