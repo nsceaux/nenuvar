@@ -539,11 +539,3 @@
   }
   \livretFinAct \line { Fin du quatriesme Acte. }
 }
-%{
-  \livretPers 
-  \livretVers {
-    \line {  }
-    \sline {  }
-    \line {  }
-  }
-%}

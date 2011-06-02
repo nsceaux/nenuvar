@@ -10,7 +10,8 @@
     layout props
     (markup #:fill-line (#:fontsize 5 #:pad-around 4 text))))
 
-#(define-markup-command (livretScene layout props text next) (markup? markup?)
+#(define-markup-command (livretScene layout props text next)
+     (markup? markup?)
    (stack-lines DOWN 0 0
                 (list (ly:make-stencil "" '(0 . 0) '(0 . 1))
                       (interpret-markup
@@ -18,11 +19,23 @@
                        (markup #:column (#:fill-line (#:fontsize 5 #:pad-around 2 text)
                                          next))))))
 
-#(define-markup-command (livretDesc layout props text) (markup?)
+#(define-markup-command (livretDesc layout props text next)
+     (markup? markup?)
    (interpret-markup
     layout props
-    (markup #:force-line-width-ratio 3/20 #:null
-            #:fontsize 3 #:line-width-ratio 7/10 #:pad-around 2 text)))
+    (markup #:column
+            (#:line (#:force-line-width-ratio 3/20 #:null
+                     #:fontsize 3 #:line-width-ratio 7/10 #:pad-around 2 text)
+             next))))
+
+#(define-markup-command (livretDescRef layout props ref text next)
+     (symbol? markup? markup?)
+   (interpret-markup
+    layout props
+    (markup #:column
+            (#:line (#:force-line-width-ratio 3/20 #:line ("Page" #:page-refIII ref "")
+                     #:fontsize 3 #:line-width-ratio 7/10 #:pad-around 2 text)
+             next))))
 
 #(define-markup-command (livretDidas layout props text) (markup?)
    (interpret-markup
@@ -30,12 +43,6 @@
     (markup #:force-line-width-ratio 3/20 #:null
             #:fontsize 2 #:force-line-width-ratio 7/10
             #:fill-line (#:null #:italic text))))
-
-#(define-markup-command (livretDescRef layout props ref text) (symbol? markup?)
-   (interpret-markup
-    layout props
-    (markup #:force-line-width-ratio 3/20 #:line ("Page" #:page-refIII ref "")
-            #:fontsize 3 #:line-width-ratio 7/10 #:pad-around 2 text)))
 
 #(define-markup-command (livretPers layout props text) (markup?)
    (interpret-markup
