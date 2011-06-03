@@ -87,7 +87,7 @@
 % Atys
 \tag #'(atys basse) {
   "Ah !" Ne m'ar -- ra -- chez pas
-  ce qui res -- te de tant d'ap -- "pâts :"
+  ce qui res -- te de tant d'ap -- "pas :"
   en fus -- siez- vous ja -- louse en -- co -- re,
   il faut que je l'a -- do -- re
   jus -- que dans l'hor -- reur du tré -- pas.

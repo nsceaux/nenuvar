@@ -74,7 +74,7 @@
   ce que l'on trouve ai -- ma -- "ble ?"
   Est-ce un grand mal de trop ai -- mer
   ce que l'on trouve ai -- ma -- "ble ?"
-  Peut- on être in -- sen -- sible aux plus char -- mants ap -- "pâts ?"
+  Peut- on être in -- sen -- sible aux plus char -- mants ap -- "pas ?"
 }
 %Atys
 \tag #'(atys basse) {

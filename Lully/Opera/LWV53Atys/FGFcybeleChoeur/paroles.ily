@@ -14,7 +14,7 @@
 }
 \tag #'(cybele choeur basse) {
   Pé -- né -- trons tous les cœurs d'u -- ne dou -- leur pro -- fon -- "de :"
-  que les bois, que les eaux, per -- dent tous leurs ap -- pâts.
+  que les bois, que les eaux, per -- dent tous leurs ap -- pas.
 }
 \tag #'(choeur basse) {
   Que le ton -- ner -- re nous ré -- pon -- "de :"

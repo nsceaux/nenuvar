@@ -101,7 +101,7 @@
 % Idas, et Doris.
 \tag #'(doris basse) {
   Une in -- fi -- dé -- li -- té cru -- el -- le
-  n'ef -- fa -- ce point tous les ap -- pâts
+  n'ef -- fa -- ce point tous les ap -- pas
   d'un in -- fi -- dè -- le,
   et la rai -- son ne re -- vient pas
   si tôt qu'on l'a rap -- pel -- le.
@@ -111,7 +111,7 @@
 }
 \tag #'(idas) {
   Une in -- fi -- dé -- li -- té cru -- el -- le
-  n'ef -- fa -- ce point tous les ap -- pâts
+  n'ef -- fa -- ce point tous les ap -- pas
   d'un in -- fi -- dè -- le,
   et la rai -- son ne re -- vient pas
   si tôt qu'on l'a rap -- pel -- le.

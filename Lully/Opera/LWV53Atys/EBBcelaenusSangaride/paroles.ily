@@ -6,7 +6,7 @@
   à ve -- nir vous pla -- cer sur un trône é -- cla -- tant,
   j'ap -- proche a -- vec trans -- port du fa -- vo -- rable ins -- tant
   d'où dé -- pend la dou -- ceur du res -- te de ma vi -- "e :"
-  mais mal -- gré les ap -- pâts du bon -- heur qui m'at -- tend,
+  mais mal -- gré les ap -- pas du bon -- heur qui m'at -- tend,
   mal -- gré tous les trans -- ports de mon âme a -- mou -- reu -- se,
   si je ne puis vous rendre heu -- reu -- se,
   je ne se -- rai ja -- mais con -- tent.
