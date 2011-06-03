@@ -137,7 +137,8 @@ with dots in property @code{fill-with-dots} is true."
                   (cons `((line-width . ,(if (eqv? toc-markup section-markup)
                                              line-width
                                              column-width))
-                          (toc:page . ,(markup #:page-ref label "XXX" "?"))
+                          (toc:page . ,(markup #:with-link label
+                                               #:page-ref label "XXX" "?"))
                           (toc:text . ,text))
                         props)
                   (ly:output-def-lookup layout toc-markup)))))))

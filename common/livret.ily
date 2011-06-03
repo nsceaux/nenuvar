@@ -79,7 +79,7 @@
    (interpret-markup
     layout props
     (markup #:combine
-            #:line ("Page" #:page-refIII ref "")
+            #:with-link ref #:line ("Page" #:page-refIII ref "")
             next)))
 
 #(define-markup-command (invisible layout props arg) (markup?)
