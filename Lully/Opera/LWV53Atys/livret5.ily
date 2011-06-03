@@ -7,154 +7,131 @@
   }
   \livretScene \line { SCENE PREMIERE. }
   \livretDescAtt \wordwrap-center { CELÆNUS, CYBELE, MELISSE. }
-  \livretPersRef #'FABcelaenusCybele CELÆNUS.
-  \livretVers {
-    \line { Vous m'ostez Sangaride ? inhumaine Cybelle ; }
-    \sline { Est-ce le prix du zele }
-    \line { Que j'ay fait avec soin éclater à vos yeux ? }
-    \line { Preparez-vous ainsi la douceur eternelle }
-    \sline { Dont vous devez combler ces lieux ? }
-    \line { Est-ce ainsi que les Roys sont protegez des Dieux ? }
-    \sline { Divinité cruelle, }
-    \sline { Descendez-vous exprés des Cieux }
-    \sline { Pour troubler un amour fidelle ? }
-    \line { Et pour venir m'oster ce que j'aime le mieux ? }
-  }
-  \livretPers CYBELE.
-  \livretVers {
-    \line { J'aimois Atys, l'Amour a fait mon injustice ; }
-    \sline { Il a pris soin de mon suplice ; }
-    \sline { Et si vous estes outragé, }
-    \sline { Bien-tost vous serez top vangé. }
-    \sline { Atys adore Sangaride. }
-  }
+  \livretRef #'FABcelaenusCybele
   \livretPers CELÆNUS.
-  \livretVers {
-    \sline { Atys l'adore ? ah le perfide ! }
-  }
+  \livretVer { Vous m'ostez Sangaride ? inhumaine Cybelle ; }
+  \livretVerC { Est-ce le prix du zele }
+  \livretVer { Que j'ay fait avec soin éclater à vos yeux ? }
+  \livretVer { Preparez-vous ainsi la douceur eternelle }
+  \livretVerC { Dont vous devez combler ces lieux ? }
+  \livretVer { Est-ce ainsi que les Roys sont protegez des Dieux ? }
+  \livretVerC { Divinité cruelle, }
+  \livretVerC { Descendez-vous exprés des Cieux }
+  \livretVerC { Pour troubler un amour fidelle ? }
+  \livretVer { Et pour venir m'oster ce que j'aime le mieux ? }
+
   \livretPers CYBELE.
-  \livretVers {
-    \line { L'Ingrat vous trahissoit, et vouloit me trahir : }
-    \line { Il s'est trompé luy mesme en croyant m'ébloüir. }
-    \line { Les Zephirs l'ont laissé, seul, avec ce qu'il aime, }
-    \sline { Dans ces aimables lieux ; }
-    \sline { Je m'y suis cachée à leurs yeux ; }
-    \line { J'y viens d'estre témoin de leur amour extresme. }
-  }
+  \livretVer { J'aimois Atys, l'Amour a fait mon injustice ; }
+  \livretVerC { Il a pris soin de mon suplice ; }
+  \livretVerC { Et si vous estes outragé, }
+  \livretVerC { Bien-tost vous serez top vangé. }
+  \livretVerC { Atys adore Sangaride. }
+
   \livretPers CELÆNUS.
-  \livretVers {
-    \line { O Ciel ! Atys plairoit aux yeux qui m'ont charmé ? }
-  }
+  \livretVerC { Atys l'adore ? ah le perfide ! }
+
   \livretPers CYBELE.
-  \livretVers {
-    \line { Eh pouvez-vous douter qu'Atys ne soit aimé ? }
-    \line { Non, non, jamais amour n'eût tant de violence, }
-    \line { Ils ont juré cent fois de s'aimer malgré nous, }
-    \sline { Et de braver nostre vengeance ; }
-    \line { Ils nous ont appelez cruels, tyrans, jaloux ; }
-    \sline { Enfin leurs cœurs d'intelligence, }
-    \line { Tous deux... ah je frémis au moment que j'y pense ! }
-    \line { Tous deux s'abandõnoient à des transports si doux, }
-    \line { Que je n'ay pû garder plus long-temps le silence, }
-    \line { Ny retenir l'éclat de mon juste couroux. }
-  }
+  \livretVer { L'Ingrat vous trahissoit, et vouloit me trahir : }
+  \livretVer { Il s'est trompé luy mesme en croyant m'ébloüir. }
+  \livretVer { Les Zephirs l'ont laissé, seul, avec ce qu'il aime, }
+  \livretVerC { Dans ces aimables lieux ; }
+  \livretVerC { Je m'y suis cachée à leurs yeux ; }
+  \livretVer { J'y viens d'estre témoin de leur amour extresme. }
+
   \livretPers CELÆNUS.
-  \livretVers {
-    \line { La mort est pour leur crime une peine legere. }
-  }
+  \livretVer { O Ciel ! Atys plairoit aux yeux qui m'ont charmé ? }
+
   \livretPers CYBELE.
-  \livretVers {
-    \line { Mon cœur à les punir est assez engagé ; }
-    \line { Je vous l'ay déja dit, croyez-en ma colere, }
-    \sline { Bient-tost vous serez trop vangé. }
-  }
+  \livretVer { Eh pouvez-vous douter qu'Atys ne soit aimé ? }
+  \livretVer { Non, non, jamais amour n'eût tant de violence, }
+  \livretVer { Ils ont juré cent fois de s'aimer malgré nous, }
+  \livretVerC { Et de braver nostre vengeance ; }
+  \livretVer { Ils nous ont appelez cruels, tyrans, jaloux ; }
+  \livretVerC { Enfin leurs cœurs d'intelligence, }
+  \livretVer { Tous deux... ah je frémis au moment que j'y pense ! }
+  \livretVer { Tous deux s'abandõnoient à des transports si doux, }
+  \livretVer { Que je n'ay pû garder plus long-temps le silence, }
+  \livretVer { Ny retenir l'éclat de mon juste couroux. }
+
+  \livretPers CELÆNUS.
+  \livretVer { La mort est pour leur crime une peine legere. }
+
+  \livretPers CYBELE.
+  \livretVer { Mon cœur à les punir est assez engagé ; }
+  \livretVer { Je vous l'ay déja dit, croyez-en ma colere, }
+  \livretVerC { Bient-tost vous serez trop vangé. }
+
   %%
   \livretScene \line { SCENE SECONDE. }
   \livretDescAtt \wordwrap-center {
     ATYS, SANGARIDE, CYBELE, CELÆNUS, MELISSE,
     Troupe de Prestresses de Cybele.
   }
-  \livretPersRef #'FBAccsa \line { CYBELE & CELÆNUS. }
-  \livretVers {
-    \sline { Venez vous livrer au suplice. }
-  }
+  \livretRef #'FBAccsa
+  \livretPers \line { CYBELE & CELÆNUS. }
+  \livretVerC { Venez vous livrer au suplice. }
+
   \livretPers \line { ATYS, & SANGARIDE. }
-  \livretVers {
-    \line { Quoy la Terre et le Ciel contre nous sont armez ? }
-    \sline { Souffrirez-vous qu'on nous punisse ? }
-  }
+  \livretVer { Quoy la Terre et le Ciel contre nous sont armez ? }
+  \livretVerC { Souffrirez-vous qu'on nous punisse ? }
+
   \livretPers \line { CYBELE, & CELÆNUS. }
-  \livretVers {
-    \sline { Oubliez-vous vostre injustice ? }
-  }
+  \livretVerC { Oubliez-vous vostre injustice ? }
+
   \livretPers \line { ATYS & SANGARIDE. }
-  \livretVers {
-    \line { Ne vous souvient-il plus de nous avoir aimez ? }
-  }
+  \livretVer { Ne vous souvient-il plus de nous avoir aimez ? }
+
   \livretPers \line { CYBELE & CELÆNUS. }
-  \livretVers {
-    \line { Vous changez mon amour en haine legitime. }
-  }
+  \livretVer { Vous changez mon amour en haine legitime. }
+
   \livretPers \line { ATYS & SANGARIDE. }
-  \livretVers {
-    \sline { Pouvez-vous condamner }
-    \sline { L'Amour qui nous anime ? }
-    \sline { Si c'est un crime, }
-    \sline { Quel crime est plus à pardonner ? }
-  }
+  \livretVerC { Pouvez-vous condamner }
+  \livretVerC { L'Amour qui nous anime ? }
+  \livretVerC { Si c'est un crime, }
+  \livretVerC { Quel crime est plus à pardonner ? }
+
   \livretPers \line { CYBELE & CELÆNUS. }
-  \livretVers {
-    \sline { Perfide, deviez-vous me taire }
-    \line { Que c'estoit vainement que je voulois vous plaire ? }
-  }
+  \livretVerC { Perfide, deviez-vous me taire }
+  \livretVer { Que c'estoit vainement que je voulois vous plaire ? }
+
   \livretPers \line { ATYS & SANGARIDE. }
-  \livretVers {
-    \sline { Ne pouvant suivre vos desirs, }
-    \sline { Nous croyons ne pouvoir mieux faire }
-    \line { Que de vous épargner de mortels déplaisirs. }
-  }
+  \livretVerC { Ne pouvant suivre vos desirs, }
+  \livretVerC { Nous croyons ne pouvoir mieux faire }
+  \livretVer { Que de vous épargner de mortels déplaisirs. }
+
   \livretPers CYBELE.
-  \livretVers {
-    \line { D'un suplice cruel craignez l'horreur extresme. }
-  }
+  \livretVer { D'un suplice cruel craignez l'horreur extresme. }
+
   \livretPers \line { CIBELE & CELÆNUS. }
-  \livretVers {
-    \sline { Craignez un funeste trépas. }
-  }
+  \livretVerC { Craignez un funeste trépas. }
+
   \livretPers \line { ATYS & SANGARIDE. }
-  \livretVers {
-    \line { Vangez-vous, s'il le faut, ne me pardonnez pas, }
-    \sline { Mais pardonnez à ce que j'aime. }
-  }
+  \livretVer { Vangez-vous, s'il le faut, ne me pardonnez pas, }
+  \livretVerC { Mais pardonnez à ce que j'aime. }
+
   \livretPers \line { CYBELE & CELÆNUS. }
-  \livretVers {
-    \line { C'est peu de nous trahir, vous nous bravez, Ingrats ? }
-  }
+  \livretVer { C'est peu de nous trahir, vous nous bravez, Ingrats ? }
+
   \livretPers \line { ATYS & SANGARIDE. }
-  \livretVers {
-    \line { Serez-vous sans pitié ? }
-  }
+  \livretVer { Serez-vous sans pitié ? }
+
   \livretPers \line { CYBELE & CELÆNUS. }
-  \livretVers {
-    \line { \invisible { Serez-vous sans pitié ? } Perdez toute esperance. }
-  }
+  \livretVer { \invisible { Serez-vous sans pitié ? } Perdez toute esperance. }
+
   \livretPers \line { ATYS & SANGARIDE. }
-  \livretVers {
-    \line { L'Amour nous a forcez à vous faire une offence, }
-    \sline { Il demande grace pour nous. }
-  }
+  \livretVer { L'Amour nous a forcez à vous faire une offence, }
+  \livretVerC { Il demande grace pour nous. }
+
   \livretPers \line { CYBELE & CELÆNUS. }
-  \livretVers {
-    \sline { L'Amour en couroux }
-    \sline { Demande vengeance. }
-  }
+  \livretVerC { L'Amour en couroux }
+  \livretVerC { Demande vengeance. }
+
   \livretPers CYBELE.
-  \livretVers {
-    \line { Toy, qui portes par tout et la rage et l'horreur, }
-    \line { Cesse de tourmenter les criminelles Ombres, }
-    \line { Vien, cruelle Alecton, sors des Royaumes sombres, }
-    \line { Inspire au cœur d'Atys ta barbare fureur. }
-  }
+  \livretVer { Toy, qui portes par tout et la rage et l'horreur, }
+  \livretVer { Cesse de tourmenter les criminelles Ombres, }
+  \livretVer { Vien, cruelle Alecton, sors des Royaumes sombres, }
+  \livretVer { Inspire au cœur d'Atys ta barbare fureur. }
+
   %%
   \livretScene \line { SCENE TROISIEME. }
   \livretDescAtt \wordwrap-center {
@@ -162,285 +139,249 @@
     IDAS, DORIS,
     \smallCaps { Troupe de Prestresses de Cybele, Chœur de Phrygiens. }
   }
-  \livretDescRef #'FCAprelude \wordwrap {
+  \livretRef #'FCAprelude
+  \livretDesc \wordwrap {
     Alecton sort des Enfers, tenant à la main un
     Flambeau qu'elle secouë en volant & en
     passant au dessus d'Atys.
   }
-  \livretPersRef #'FCBascc ATYS.
-  \livretVers {
-    \sline { Ciel ! quelle vapeur m'environne ! }
-    \line { Tous me[s] sens sont troublez, je fremis, je frissonne, }
-    \line { Je tremble, et tout à coup, une infernale ardeur }
-    \line { Vient enflammer mon sang, et devorer mon cœur. }
-    \line { Dieux ! que vois-je ? le Ciel s'arme contre la Terre ? }
-    \line { Que desordre ! quel bruit ! quel éclat de tonnerre ! }
-    \line { Quels abysmes profonds sous mes pas sont ouverts ! }
-    \line { Que de fantosmes vains sont sortis des Enfers ! }
-  }
-  \livretDidas \line { Il parle à Cybele, qu'il prend pour Sangaride. }
-  \livretVers {
-    \line { Sangaride, ah fuyez la mort que vous prepare }
-    \sline { Une Divinité barbare : }
-    \line { C'est vostre seul peril qui cause ma terreur. }
-  }
-  \livretPers SANGARIDE.
-  \livretVers {
-    \line { Atys reconnoissez vostre funeste erreur. }
-  }
-  \livretPers \line { ATYS prenant Sangaride pour un Monstre. }
-  \livretVers {
-    \line { Quel Monstre vient à nous ! quelle fureur le guide ! }
-    \line { Ah respecte, cruel, l'aimable Sangaride. }
-  }
-  \livretPers SANGARIDE.
-  \livretVers {
-    \line { Atys, mon cher Atys. }
-  }
+  \livretRef #'FCBascc
   \livretPers ATYS.
-  \livretVers {
-    \line { \invisible { Atys, mon cher Atys. } Quels hurlements affreux ! }
-  }
+  \livretVerC { Ciel ! quelle vapeur m'environne ! }
+  \livretVer { Tous me[s] sens sont troublez, je fremis, je frissonne, }
+  \livretVer { Je tremble, et tout à coup, une infernale ardeur }
+  \livretVer { Vient enflammer mon sang, et devorer mon cœur. }
+  \livretVer { Dieux ! que vois-je ? le Ciel s'arme contre la Terre ? }
+  \livretVer { Que desordre ! quel bruit ! quel éclat de tonnerre ! }
+  \livretVer { Quels abysmes profonds sous mes pas sont ouverts ! }
+  \livretVer { Que de fantosmes vains sont sortis des Enfers ! }
+
+  \livretDidas \line { Il parle à Cybele, qu'il prend pour Sangaride. }
+  \livretVer { Sangaride, ah fuyez la mort que vous prepare }
+  \livretVerC { Une Divinité barbare : }
+  \livretVer { C'est vostre seul peril qui cause ma terreur. }
+
+  \livretPers SANGARIDE.
+  \livretVer { Atys reconnoissez vostre funeste erreur. }
+
+  \livretPers \line { ATYS prenant Sangaride pour un Monstre. }
+  \livretVer { Quel Monstre vient à nous ! quelle fureur le guide ! }
+  \livretVer { Ah respecte, cruel, l'aimable Sangaride. }
+
+  \livretPers SANGARIDE.
+  \livretVer { Atys, mon cher Atys. }
+
+  \livretPers ATYS.
+  \livretVer { \invisible { Atys, mon cher Atys. } Quels hurlements affreux ! }
+
   \livretPers \line { CELÆNUS à Sangaride. }
-  \livretVers {
-    \sline { Fuyez, sauvez-vous de sa rage. }
-  }
+  \livretVerC { Fuyez, sauvez-vous de sa rage. }
+
   \livretPers \wordwrap-center {
     ATYS tenant à la main le cousteau sacré
     qui sert aux Sacrifices.
   }
-  \livretVers {
-    \line { Il faut combatre ; Amour, seconde mon courage. }
-  }
+  \livretVer { Il faut combatre ; Amour, seconde mon courage. }
+
   \livretDesc \wordwrap {
     \smallCaps Atys court aprés Sangaride qui fuït dans un
     des costez du Theatre.
   }
   \livretPers \line { CELÆNUS, & le Chœur. }
-  \livretVers {
-    \sline { Arreste, arreste malheureux. }
-  }
-  \livretDesc \wordwrap {
-    \smallCaps Celænus court aprés Atys.
-  }
+  \livretVerC { Arreste, arreste malheureux. }
+
+  \livretDesc \wordwrap { \smallCaps Celænus court aprés Atys. }
   \livretPers \line { SANGARIDE dans un des costez du Theatre. }
-  \livretVers {
-    \line { Atys ! }
-  }
+  \livretVer { Atys ! }
+
   \livretPers \line { Le Chœur. }
-  \livretVers {
-    \line { \invisible { Atys ! } O Ciel }
-  }
+  \livretVer { \invisible { Atys ! } O Ciel }
+
   \livretPers SANGARIDE.
-  \livretVers {
-    \line { \invisible { Atys ! O Ciel } Je meurs. }
-  }
+  \livretVer { \invisible { Atys ! O Ciel } Je meurs. }
+
   \livretPers \line { Le Chœur. }
-  \livretVers {
-    \line { \invisible { Atys ! O Ciel Je meurs. } Atys, Atys luy-mesme, }
-    \sline { Fait perir ce qu'il aime ! }
-  }
+  \livretVer { \invisible { Atys ! O Ciel Je meurs. } Atys, Atys luy-mesme, }
+  \livretVerC { Fait perir ce qu'il aime ! }
+
   \livretPers \line { CELÆNUS revenant sur le Theatre. }
-  \livretVers {
-    \line { Je n'ay pû retenir ses efforts furieux, }
-    \sline { Sangaride expire à vos yeux. }
-  }
+  \livretVer { Je n'ay pû retenir ses efforts furieux, }
+  \livretVerC { Sangaride expire à vos yeux. }
+
   \livretPers CYBELE.
-  \livretVers {
-    \line { Atys me sacrifie une indigne Rivale. }
-    \line { Partagez avec moy la douceur sans esgale, }
-    \line { Que l'on gouste en vengeant un amour outragé. }
-    \line { Je vous l'avois promis. }
-  }
+  \livretVer { Atys me sacrifie une indigne Rivale. }
+  \livretVer { Partagez avec moy la douceur sans esgale, }
+  \livretVer { Que l'on gouste en vengeant un amour outragé. }
+  \livretVer { Je vous l'avois promis. }
+
   \livretPers CELÆNUS.
-  \livretVers {
-    \line { \invisible { Je vous l'avois promis. } O promesse fatale ! }
-    \line { Sangaride n'est plus, et je suis trop vangé. }
-  }
+  \livretVer { \invisible { Je vous l'avois promis. } O promesse fatale ! }
+  \livretVer { Sangaride n'est plus, et je suis trop vangé. }
+
   \livretDesc \wordwrap {
     Celænus se retire au costé du Theatre, où est
     Sangaride morte.
   }
-  \null
   %%
   \livretScene \line { SCENE QUATRIESME. }
   \livretDescAtt \wordwrap-center {
     ATYS, CYBELE, MELISSE, IDAS,
     \smallCaps { Chœur de Phrygiens. }
   }
-  \livretPersRef #'FDAatysCybele ATYS.
-  \livretVers {
-    \line { Que je viens d'immoler une grande Victime ! }
-    \line { Sangaride est sauvée, et c'est par ma valeur. }
-  }
+  \livretRef #'FDAatysCybele
+  \livretPers ATYS.
+  \livretVer { Que je viens d'immoler une grande Victime ! }
+  \livretVer { Sangaride est sauvée, et c'est par ma valeur. }
+
   \livretPers \line { CYBELE touchant Atys. }
-  \livretVers {
-    \line { Acheve ma vengeance, Atys, connoy ton crime, }
-    \line { Et repren ta raison pour sentir ton malheur. }
-  }
+  \livretVer { Acheve ma vengeance, Atys, connoy ton crime, }
+  \livretVer { Et repren ta raison pour sentir ton malheur. }
+
   \livretPers ATYS.
-  \livretVers {
-    \line { Un calme heureux succede aux troubles de mon cœur. }
-    \sline { Sangaride, Nymphe charmante, }
-    \line { Qu'estes-vous devenuë ? où puis-je avoir recours ? }
-    \sline { Divinité toute puissante, }
-    \line { Cybele, ayez pitié de nos tendres amours, }
-    \line { Rendez-moy, Sangaride, espargnez ses beaux jours. }
-  }
+  \livretVer { Un calme heureux succede aux troubles de mon cœur. }
+  \livretVerC { Sangaride, Nymphe charmante, }
+  \livretVer { Qu'estes-vous devenuë ? où puis-je avoir recours ? }
+  \livretVerC { Divinité toute puissante, }
+  \livretVer { Cybele, ayez pitié de nos tendres amours, }
+  \livretVer { Rendez-moy, Sangaride, espargnez ses beaux jours. }
+
   \livretPers \line { CYBELE montrant à Atys Sangride morte. }
-  \livretVers {
-    \line { Tu la peux voir, regarde. }
-  }
+  \livretVer { Tu la peux voir, regarde. }
+
   \livretPers ATYS.
-  \livretVers {
-    \line { \invisible { Tu la peux voir, regarde. } Ah quelle barbarie ! }
-    \sline { Sangaride a perdu la vie ! }
-    \line { Ah quelle main cruelle ! ah quel cœur inhumain !... }
-  }
+  \livretVer { \invisible { Tu la peux voir, regarde. } Ah quelle barbarie ! }
+  \livretVerC { Sangaride a perdu la vie ! }
+  \livretVer { Ah quelle main cruelle ! ah quel cœur inhumain !... }
+
   \livretPers CYBELE.
-  \livretVers {
-    \line { Les coups dont elle meurt sont de ta propre main. }
-  }
+  \livretVer { Les coups dont elle meurt sont de ta propre main. }
+
   \livretPers ATYS.
-  \livretVers {
-    \line { Moy, j'aurois immolé la Beauté qui m'enchante ? }
-    \sline { O Ciel ! ma main sanglante }
-    \line { Est de ce crime horrible un tesmoin trop certain ! }
-  }
+  \livretVer { Moy, j'aurois immolé la Beauté qui m'enchante ? }
+  \livretVerC { O Ciel ! ma main sanglante }
+  \livretVer { Est de ce crime horrible un tesmoin trop certain ! }
+
   \livretPers \line { Le Chœur. }
-  \livretVers {
-    \sline { Atys, Atys luy-mesme, }
-    \sline { Fait perir ce qu'il aime. }
-  }
+  \livretVerC { Atys, Atys luy-mesme, }
+  \livretVerC { Fait perir ce qu'il aime. }
+
   \livretPers ATYS.
-  \livretVers {
-    \line { Quoy, Sangaride est morte ? Atys est son boureau ! }
-    \line { Quelle vengeance ô Dieux ! quel supplice nouveau ! }
-    \sline { Quelles horreurs sont comparables }
-    \sline { Aux horreurs que je sens ? }
-    \sline { Dieux cruels, Dieux impitoyables, }
-    \sline { N'estes-vous tout-puissants }
-    \sline { Que pour faire des miserables ? }
-  }
+  \livretVer { Quoy, Sangaride est morte ? Atys est son boureau ! }
+  \livretVer { Quelle vengeance ô Dieux ! quel supplice nouveau ! }
+  \livretVerC { Quelles horreurs sont comparables }
+  \livretVerC { Aux horreurs que je sens ? }
+  \livretVerC { Dieux cruels, Dieux impitoyables, }
+  \livretVerC { N'estes-vous tout-puissants }
+  \livretVerC { Que pour faire des miserables ? }
+
   \livretPers CYBELE.
-  \livretVers {
-    \sline { Atys, je vous ay trop aimé : }
-    \line { Cét amour par vous-mesme en couroux transformé }
-    \sline { Fait voir encor sa violence : }
-    \line { Jugez, Ingrat, jugez en ce funeste jour, }
-    \sline { De la grandeur de mon amour }
-    \sline { Par la grandeur de ma vengeance. }
-  }
+  \livretVerC { Atys, je vous ay trop aimé : }
+  \livretVer { Cét amour par vous-mesme en couroux transformé }
+  \livretVerC { Fait voir encor sa violence : }
+  \livretVer { Jugez, Ingrat, jugez en ce funeste jour, }
+  \livretVerC { De la grandeur de mon amour }
+  \livretVerC { Par la grandeur de ma vengeance. }
+
   \livretPers ATYS.
-  \livretVers {
-    \line { Barbare ! quel amour qui prend soin d'inventer }
-    \line { Les plus horribles maux que la rage peut faire ! }
-    \sline { Bien-heureux qui peut éviter }
-    \sline { Le malheur de vous plaire. }
-    \line { O Dieux ! injustes Dieux ! que n'estes-vous mortels ? }
-    \line { Faut-il que pour vous seuls vous gardiez la vengeance ? }
-    \line { C'est trop, c'est trop souffrir leur cruelle puissance, }
-    \line { Chassons les d'icy bas, renversons leurs autels. }
-    \line { Quoy, Sangaride est morte ? Atys, Atys luy-mesme }
-    \sline { Fait perir ce qu'il aime ? }
-  }
+  \livretVer { Barbare ! quel amour qui prend soin d'inventer }
+  \livretVer { Les plus horribles maux que la rage peut faire ! }
+  \livretVerC { Bien-heureux qui peut éviter }
+  \livretVerC { Le malheur de vous plaire. }
+  \livretVer { O Dieux ! injustes Dieux ! que n'estes-vous mortels ? }
+  \livretVer { Faut-il que pour vous seuls vous gardiez la vengeance ? }
+  \livretVer { C'est trop, c'est trop souffrir leur cruelle puissance, }
+  \livretVer { Chassons les d'icy bas, renversons leurs autels. }
+  \livretVer { Quoy, Sangaride est morte ? Atys, Atys luy-mesme }
+  \livretVerC { Fait perir ce qu'il aime ? }
+
   \livretPers \line { Le Chœur. }
-  \livretVers {
-    \sline { Atys, Atys luy-mesme }
-    \sline { Fait perir ce qu'il aime. }
-  }
+  \livretVerC { Atys, Atys luy-mesme }
+  \livretVerC { Fait perir ce qu'il aime. }
+
   \livretPers \line { CYBELE ordonnant d'emporter le corps de
     Sangaride morte. }
-  \livretVers {
-    \line { Ostez ce triste objet. }
-  }
+  \livretVer { Ostez ce triste objet. }
+
   \livretPers ATYS.
-  \livretVers {
-    \line { \invisible { Ostez ce triste objet. } Ah ne m'arrachez pas }
-    \sline { Ce qui reste de tant d'appas ? }
-    \sline { En fussiez-vous jalouse encore, }
-    \sline { Il faut que je l'adore }
-    \sline { Jusques dans l'horreur du trépas. }
-  }
+  \livretVer { \invisible { Ostez ce triste objet. } Ah ne m'arrachez pas }
+  \livretVerC { Ce qui reste de tant d'appas ? }
+  \livretVerC { En fussiez-vous jalouse encore, }
+  \livretVerC { Il faut que je l'adore }
+  \livretVerC { Jusques dans l'horreur du trépas. }
+
   %%
   \livretScene \line { SCENE CINQUIESME. }
   \livretDescAtt \wordwrap-center { CYBELE, MELISSE. }
-  \livretPersRef #'FEAcybeleMelisse CYBELE.
-  \livretVers {
-    \line { Je commence à trouver sa peine trop cruelle, }
-    \sline { Une tendre pitié rapelle }
-    \line { L'Amour que mon couroux croyoit avoir banny, }
-    \line { Ma Rivale n'est plus, Atys n'est plus coupable, }
-    \line { Qu'il est aisé d'aimer un criminel aimable }
-    \sline { Aprés l'avoir puny. }
-    \sline { Que son desespoir m'espouvante ! }
-    \line { Ses jours sont en peril, et j'en fremis d'effroy : }
-    \line { Je veux d'un soin si cher ne me fier qu'à moy, }
-    \line { Allons... mais quel spectable à mes yeux se presente ? }
-    \sline { C'est Atys mourant que je voy ! }
-  }
+  \livretRef #'FEAcybeleMelisse
+  \livretPers CYBELE.
+  \livretVer { Je commence à trouver sa peine trop cruelle, }
+  \livretVerC { Une tendre pitié rapelle }
+  \livretVer { L'Amour que mon couroux croyoit avoir banny, }
+  \livretVer { Ma Rivale n'est plus, Atys n'est plus coupable, }
+  \livretVer { Qu'il est aisé d'aimer un criminel aimable }
+  \livretVerC { Aprés l'avoir puny. }
+  \livretVerC { Que son desespoir m'espouvante ! }
+  \livretVer { Ses jours sont en peril, et j'en fremis d'effroy : }
+  \livretVer { Je veux d'un soin si cher ne me fier qu'à moy, }
+  \livretVer { Allons... mais quel spectable à mes yeux se presente ? }
+  \livretVerC { C'est Atys mourant que je voy ! }
+
   %%
   \livretScene \line { SCENE SIXIESME. }
   \livretDescAtt \wordwrap-center {
     ATYS, IDAS, CYBELE, MELISSE, \smallCaps { Prestresses de Cybele. }
   }
-  \livretPersRef #'FFAcybeleIdasAtys \line { IDAS soûtenant Atys. }
-  \livretVers {
-    \line { Il s'est percé le sein, et mes soins pour sa vie }
-    \sline { N'ont pû prevenir sa fureur. }
-  }
+  \livretRef #'FFAcybeleIdasAtys
+  \livretPers \line { IDAS soûtenant Atys. }
+  \livretVer { Il s'est percé le sein, et mes soins pour sa vie }
+  \livretVerC { N'ont pû prevenir sa fureur. }
+
   \livretPers CYBELE.
-  \livretVers {
-    \sline { Ah c'est ma barbarie, }
-    \sline { C'est moy, qui luy perce le cœur. }
-  }
+  \livretVerC { Ah c'est ma barbarie, }
+  \livretVerC { C'est moy, qui luy perce le cœur. }
+
   \livretPers ATYS.
-  \livretVers {
-    \sline { Je meurs, l'Amour me guide }
-    \sline { Dans la nuit du Trépas ; }
-    \sline { Je vais où sera Sangaride, }
-    \line { Inhumaine, je vais, où vous ne serez pas. }
-  }
+  \livretVerC { Je meurs, l'Amour me guide }
+  \livretVerC { Dans la nuit du Trépas ; }
+  \livretVerC { Je vais où sera Sangaride, }
+  \livretVer { Inhumaine, je vais, où vous ne serez pas. }
+
   \livretPers CYBELE.
-  \livretVers {
-    \line { Atys, il est trop vray, ma rigueur est extresme, }
-    \sline { Plaignez-vous, je veux tout souffrir. }
-    \line { Pourquoy suis-je immortelle en vous voyant perir ? }
-  }
+  \livretVer { Atys, il est trop vray, ma rigueur est extresme, }
+  \livretVerC { Plaignez-vous, je veux tout souffrir. }
+  \livretVer { Pourquoy suis-je immortelle en vous voyant perir ? }
+
   \livretPers \line { ATYS, & CYBELE. }
-  \livretVers {
-    \sline { Il est doux de mourir }
-    \sline { Avec ce que l'on aime. }
-  }
+  \livretVerC { Il est doux de mourir }
+  \livretVerC { Avec ce que l'on aime. }
+
   \livretPers CYBELE.
-  \livretVers {
-    \line { Que mon amour funeste armé contre moy-mesme, }
-    \line { Ne peut-il vous venger de toutes mes rigueurs. }
-  }
+  \livretVer { Que mon amour funeste armé contre moy-mesme, }
+  \livretVer { Ne peut-il vous venger de toutes mes rigueurs. }
+
   \livretPers ATYS.
-  \livretVers {
-    \line { Je suis assez vengé, vous m'aimez, et je meurs. }
-  }
+  \livretVer { Je suis assez vengé, vous m'aimez, et je meurs. }
+
   \livretPers CYBELE.
-  \livretVers {
-    \sline { Malgré le Destin implacable }
-    \line { Qui rend de ton trépas l'arrest irrevocable, }
-    \line { Atys, sois à jamais l'objet de mes amours : }
-    \line { Reprens un sort nouveau, deviens un Arbre aimable }
-    \sline { Que Cybele aimera toûjours. }
-  }
-  \livretDescRef #'FGAritournelle \wordwrap {
+  \livretVerC { Malgré le Destin implacable }
+  \livretVer { Qui rend de ton trépas l'arrest irrevocable, }
+  \livretVer { Atys, sois à jamais l'objet de mes amours : }
+  \livretVer { Reprens un sort nouveau, deviens un Arbre aimable }
+  \livretVerC { Que Cybele aimera toûjours. }
+
+  \livretRef #'FGAritournelle
+  \livretDesc \wordwrap {
     ATYS prend la forme de l'Arbre aimé de la Déesse Cybele,
     que l'on appelle Pin.
   }
-  \livretPersRef #'FGBcybeleChoeur CYBELE.
-  \livretVers {
-    \sline { Venez furieux Corybantes, }
-    \line { Venez joindre à mes cris vos clameurs esclatantes ; }
-    \line { Venez Nymphes des Eaux, venez Dieux des Forests, }
-    \sline { Par vos plaintes les plus touchantes }
-    \sline { Secondez mes tristes regrets. }
-  }
+  \livretRef #'FGBcybeleChoeur
+  \livretPers CYBELE.
+  \livretVerC { Venez furieux Corybantes, }
+  \livretVer { Venez joindre à mes cris vos clameurs esclatantes ; }
+  \livretVer { Venez Nymphes des Eaux, venez Dieux des Forests, }
+  \livretVerC { Par vos plaintes les plus touchantes }
+  \livretVerC { Secondez mes tristes regrets. }
+
   %%
   \livretScene \line { SCENE SEPTIESME, ET DERNIERE. }
   \livretDescAtt \column {
@@ -459,60 +400,55 @@
       Trois Nymphes dançantes.
     }
   }
-  \livretPersRef #'FGBcybeleChoeur CYBELE.
-  \livretVers {
-    \line { Atys, l'aimable Atys, malgré tous ses attraits, }
-    \sline { Descend dans la nuit éternelle ; }
-    \sline { Mais malgré la mort cruelle, }
-    \sline { L'amour de Cybele }
-    \sline { Ne mourra jamais. }
-    \sline { Sous une nouvelle figure, }
-    \line { Atys est ranimé par mon pouvoir divin ; }
-    \sline { Celebrez son nouveau destin, }
-    \sline { Pleurez sa funeste avanture. }
-  }
+  \livretRef #'FGBcybeleChoeur
+  \livretPers CYBELE.
+  \livretVer { Atys, l'aimable Atys, malgré tous ses attraits, }
+  \livretVerC { Descend dans la nuit éternelle ; }
+  \livretVerC { Mais malgré la mort cruelle, }
+  \livretVerC { L'amour de Cybele }
+  \livretVerC { Ne mourra jamais. }
+  \livretVerC { Sous une nouvelle figure, }
+  \livretVer { Atys est ranimé par mon pouvoir divin ; }
+  \livretVerC { Celebrez son nouveau destin, }
+  \livretVerC { Pleurez sa funeste avanture. }
+
   \livretPers \line { Chœur des Nymphes des Eaux,
     & des Divinitez des Bois. }
-  \livretVers {
-    \sline { Celebrons son nouveau destin, }
-    \sline { Pleurons sa funeste avanture. }
-  }
+  \livretVerC { Celebrons son nouveau destin, }
+  \livretVerC { Pleurons sa funeste avanture. }
+
   \livretPers CYBELE.
-  \livretVers {
-    \sline { Que cét Arbre sacré }
-    \sline { Soit reveré }
-    \sline { De toute la Nature. }
-    \line { Qu'il s'esleve au dessus des Arbres les plus beaux : }
-    \line { Qu'il soit voisin des Cieux, qu'il regne sur les Eaux ; }
-    \line { Qu'il ne puisse brûler que d'une flame pure. }
-    \sline { Que cét Arbre sacré }
-    \sline { Soit reveré }
-    \sline { De toute la Nature. }
-  }
+  \livretVerC { Que cét Arbre sacré }
+  \livretVerC { Soit reveré }
+  \livretVerC { De toute la Nature. }
+  \livretVer { Qu'il s'esleve au dessus des Arbres les plus beaux : }
+  \livretVer { Qu'il soit voisin des Cieux, qu'il regne sur les Eaux ; }
+  \livretVer { Qu'il ne puisse brûler que d'une flame pure. }
+  \livretVerC { Que cét Arbre sacré }
+  \livretVerC { Soit reveré }
+  \livretVerC { De toute la Nature. }
+
   \livretDesc \wordwrap { Le Chœur repete ces trois derniers Vers. }
   \livretPers CYBELE.
-  \livretVers {
-    \sline { Que ses rameaux soient toûjours verds : }
-    \sline { Que les plus rigoureux Hyvers }
-    \sline { Ne leur fassent jamais d'injure. }
-    \sline { Que cét Arbre sacré }
-    \sline { Soit reveré }
-    \sline { De toute la Nature. }
-  }
+  \livretVerC { Que ses rameaux soient toûjours verds : }
+  \livretVerC { Que les plus rigoureux Hyvers }
+  \livretVerC { Ne leur fassent jamais d'injure. }
+  \livretVerC { Que cét Arbre sacré }
+  \livretVerC { Soit reveré }
+  \livretVerC { De toute la Nature. }
+
   \livretDesc \wordwrap { Le Chœur repete ces trois derniers Vers. }
   \livretPers \line { CYBELE, & le Chœur des Divinitez des Bois & des Eaux. }
-  \livretVers {
-    \sline { Quelle douleur ! }
-  }
+  \livretVerC { Quelle douleur ! }
+
   \livretPers \line { CYBELE, & le Chœur des Corybantes. }
-  \livretVers {
-    \sline { Ah ! quelle rage ! }
-  }
+  \livretVerC { Ah ! quelle rage ! }
+
   \livretPers \line { CYBELE, & les Chœurs. }
-  \livretVers {
-    \sline { Ah ! quel malheur ! }
-  }
-  \livretDescRef #'FGCnymphes \justify {
+  \livretVerC { Ah ! quel malheur ! }
+
+  \livretRef #'FGCnymphes
+  \livretDesc \justify {
     Les Divinitez des Bois & des Eaux, avec les
     Corybantes, honorent le nouvel Arbre, & le
     consacrent à Cybele. Les regrets des Divinitez
@@ -521,34 +457,28 @@
     de Terre, par des Esclairs, & par des esclats de
     Tonnerre.
   }
-  \livretPersRef #'FGFcybeleChoeur
-  \line { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
-  \livretVers {
-    \line { Que le malheur d'Atys afflige tout le monde. }
-  }
-  \livretPers \line { CYBELE, & le Chœur des Corybantes. }
-  \livretVers {
-    \sline { Que tout sente, icy bas, }
-    \sline { L'horreur d'un si cruel trépas. }
-  }
+  \livretRef #'FGFcybeleChoeur
   \livretPers \line { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
-  \livretVers {
-    \line { Penetrons tous les Cœurs d'une douleur profonde : }
-    \line { Que les Bois, que les Eaux, perdent tous leurs appas. }
-  }
+  \livretVer { Que le malheur d'Atys afflige tout le monde. }
+
   \livretPers \line { CYBELE, & le Chœur des Corybantes. }
-  \livretVers {
-    \sline { Que le Tonnerre nous responde : }
-    \line { Que la Terre fremisse, et tremble sous nos pas. }
-  }
+  \livretVerC { Que tout sente, icy bas, }
+  \livretVerC { L'horreur d'un si cruel trépas. }
+
   \livretPers \line { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
-  \livretVers {
-    \line { Que le malheur d'Atys afflige tout le monde. }
-  }
+  \livretVer { Penetrons tous les Cœurs d'une douleur profonde : }
+  \livretVer { Que les Bois, que les Eaux, perdent tous leurs appas. }
+
+  \livretPers \line { CYBELE, & le Chœur des Corybantes. }
+  \livretVerC { Que le Tonnerre nous responde : }
+  \livretVer { Que la Terre fremisse, et tremble sous nos pas. }
+
+  \livretPers \line { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
+  \livretVer { Que le malheur d'Atys afflige tout le monde. }
+
   \livretPers \line { Tous ensemble. }
-  \livretVers {
-    \sline { Que tout sente, icy bas, }
-    \sline { L'horreur d'un si cruel trépas. }
-  }
+  \livretVerC { Que tout sente, icy bas, }
+  \livretVerC { L'horreur d'un si cruel trépas. }
+
   \livretFinAct \line { Fin du cinquiéme, & dernier Acte. }
 }

@@ -2,11 +2,11 @@
 L'a -- mour qu'on ou -- tra -- ge
 se trans -- forme en rage,
 et ne par -- don -- ne pas
-aux plus char -- mants ap -- pâts.
+aux plus char -- mants ap -- pas.
 L'a -- mour qu'on ou -- tra -- ge
 se trans -- forme en rage,
 et ne par -- don -- ne pas
-aux plus char -- mants ap -- pâts.
+aux plus char -- mants ap -- pas.
 Si tu n'ai -- mes point Cy -- bè -- le
 d'une a -- mour fi -- dè -- le,
 mal -- heu -- reux, que tu souf -- fri -- "ras !"
