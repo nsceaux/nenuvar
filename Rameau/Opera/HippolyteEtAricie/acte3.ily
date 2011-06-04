@@ -31,7 +31,7 @@
   \smallCaps { Thésée, Hippolyte. }
 }
 \pieceToc \markup \smallCaps { Thésée, Hippolyte }
-\includeScore "CEAtheseeHippolyte"
+\includeScore "CDAtheseeHippolyte"
 %%
 \scene "Scène V" "SCÈNE 5 : Thésée, Œnone"
 \sceneDescription \markup \wordwrap-center {
