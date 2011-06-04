@@ -22,7 +22,7 @@
   \smallCaps { Thésée, Phèdre, Hippolyte. }
 }
 \pieceToc \markup \smallCaps { Thésée, Phèdre, Hippolyte }
-\includeScore "CDAtheseeHippolytePhedre"
+\includeScore "CCAtheseeHippolytePhedre"
 %%
 \scene "Scène IV" \markup \wordwrap {
   SCÈNE 4 : Thésée, Hippolyte, Œnone

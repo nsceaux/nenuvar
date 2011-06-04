@@ -1,4 +1,4 @@
-\clef "basse" s16 la,2. |
+\clef "basse" sib,4 la,2. |
 sib,1 ~|
 sib, ~|
 sib,2 la, |
@@ -9,4 +9,4 @@ re,4 re dod |
 re1 ~|
 re2 do |
 si,4 sib, la,4. re,8 |
-la,2 \laissezVibrer 
+%la,2 \laissezVibrer 

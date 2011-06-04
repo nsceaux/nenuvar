@@ -14,9 +14,9 @@
 \pieceToc \markup { \smallCaps { Le Temps, Flore, chœur : }
   \italic { Les plaisirs à ses yeux } }
 \includeScore "AAFtempsFloreChoeur"
-%{ n°7 %}\newBookPart #'(full)
+%{ n°7 %}%\newBookPart #'(full)
 \pieceTocTitle "Air pour la suite de Flore" \includeScore "AAGair"
-%{ n°8 %}\newBookPart #'(full)
+%{ n°8 %}%\newBookPart #'(full)
 \pieceToc \markup { \smallCaps { Un Zéphir : }
   \italic { Le printemps quelques fois } }
 \includeScore "AAHzephir"
