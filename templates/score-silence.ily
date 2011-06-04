@@ -2,7 +2,7 @@
   \newTinyStaff <<
     \keepWithTag #(*tag-global*) \global
     \keepWithTag #(*tag-notes*) \includeNotes #(*note-filename*)
-    { \clef #(*clef*) \grace s8 }
+    \clef #(*clef*)
     #(ly:export (if (*instrument-name*)
                     (make-music 'ContextSpeccedMusic
                       'context-type 'Staff

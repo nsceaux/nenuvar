@@ -38,7 +38,7 @@
   \smallCaps { Thésée, Œnone. }
 }
 \pieceToc \markup \smallCaps { Thésée, Œnone }
-\includeScore "CFAtheseeOenone"
+\includeScore "CEAtheseeOenone"
 %%
 \scene "Scène VI" "SCÈNE 6 : Thésée"
 \sceneDescription \markup \smallCaps Thésée.
