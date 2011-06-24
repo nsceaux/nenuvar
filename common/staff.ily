@@ -28,6 +28,11 @@ haraKiriFirst = \with {
   \remove "Axis_group_engraver"
 }
 
+tinyStaff = \with {
+  \override StaffSymbol #'staff-space = #(magstep -2)
+  fontSize = #-2
+}
+
 withLyrics =
 #(define-music-function (parser location music lyrics) (ly:music? ly:music?)
    (let ((name (symbol->string (gen-unique-context))))

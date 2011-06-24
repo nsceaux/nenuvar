@@ -676,16 +676,16 @@ Lully/Opera/LWV71Armide-all: \
 ### Marc-Antoine Charpentier (1643-1703)
 ###
 ### David et Jonathas
-# Conducteur
-Charpentier/Opera/DavidEtJonathas:
+# Version urtext
+Charpentier/Opera/DavidEtJonathas-urtext:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/DavidEtJonathas  \
+	-o $(OUTPUT_DIR)/DavidEtJonathas-urtext -durtext \
 	Charpentier/Opera/DavidEtJonathas/main.ly
-.PHONY: Charpentier/Opera/DavidEtJonathas
-# rehearsal
+.PHONY: Charpentier/Opera/DavidEtJonathas-urtext
+# Version de concert, avec numéros de pièces et clés modernisées
 Charpentier/Opera/DavidEtJonathas-rehearsal:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/DavidEtJonathas-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/DavidEtJonathas-rehearsal  \
 	Charpentier/Opera/DavidEtJonathas/main.ly
 .PHONY: Charpentier/Opera/DavidEtJonathas-rehearsal
 # Dessus I
@@ -733,7 +733,7 @@ Charpentier/Opera/DavidEtJonathas-voix:
 
 Charpentier/Opera/DavidEtJonathas-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/DavidEtJonathas
-	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
+	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-urtext.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-rehearsal.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-dessus1.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-dessus1.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-dessus2.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-dessus2.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
@@ -749,7 +749,7 @@ Charpentier/Opera/DavidEtJonathas-clean:
 	@rm -f $(OUTPUT_DIR)/DavidEtJonathas-* $(OUTPUT_DIR)/DavidEtJonathas.*
 
 Charpentier/Opera/DavidEtJonathas-all: \
-	$(OUTPUT_DIR)/DavidEtJonathas.pdf \
+	$(OUTPUT_DIR)/DavidEtJonathas-urtext.pdf \
 	$(OUTPUT_DIR)/DavidEtJonathas-rehearsal.pdf \
 	$(OUTPUT_DIR)/DavidEtJonathas-dessus1.pdf \
 	$(OUTPUT_DIR)/DavidEtJonathas-dessus2.pdf \

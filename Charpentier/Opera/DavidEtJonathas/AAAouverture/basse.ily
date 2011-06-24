@@ -17,16 +17,6 @@ sol,4 sol, la,2 |
 re,8. la,16 sib,8. do16 re8. do16 sib,8. la,16 |
 re,1 |
 R2*11 |
-
-
-
-
-
-
-
-
-
-
 r8 sol sol fa16 mib |
 fa8 sol16 fa sol fa mib re |
 mib4. mib8 |

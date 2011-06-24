@@ -380,10 +380,27 @@ startQuote =
       \bar ""
       \set Score.currentBarNumber = #$bar-num #})
 
+tinyQuote = {
+  \override Score.StaffSymbol #'staff-space = #(magstep -2)
+  \set Score . fontSize = #-2
+  \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
+}
+
 quoteLayout = \layout {
   indent = 0
   ragged-right = ##t
   \context { \Staff \remove "Time_signature_engraver" }
+}
+
+quoteEmptyLayout = \layout {
+  indent = 0
+  ragged-right = ##t
+  \context {
+    \Staff
+    \remove "Time_signature_engraver"
+    \remove "Clef_engraver"
+    \remove "Staff_symbol_engraver"
+  }
 }
 
 onlyNotesLayout = \layout {

@@ -33,7 +33,7 @@ sol' sol'' sol'' fa''16 mib'' |
 fa''8 sol''16 fa'' sol'' fa'' mib'' re'' |
 mib''4 ~ mib''8 fa''16 mib'' |
 re''4. sol''8 |
-do'' lab''16 sol'' fa'' mib'' re'' do'' |
+do'' lab''16 sol'' fa'' mib''? re'' do'' |
 si'8 re''16 mib'' fa'' mib'' fa'' re'' |
 mib''8 fa''16 mib'' re''8. do''16 |
 do''8 do'' do'' sib'16 la' |
@@ -77,7 +77,7 @@ la'8 re'' la'8. sol'16 |
 sol'4. sol''8 |
 re'' re''16 mib'' fa''8 mib''16 re'' |
 mib''8 do'' do'''8. sib''16 |
-la''8 sol''16 fad'' mi'' fad'' sol'' la'' |
-fad''8 la''16 sol'' fad''8 re'' |
+la''8 sol''16 fa'' mi'' fad'' sol'' la'' |
+fad''?8 la''16 sol'' fad''!8 re'' |
 sol''8. la''16 fad''8. sol''16 |
 sol''1*1/2 |

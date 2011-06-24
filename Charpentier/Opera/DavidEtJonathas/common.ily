@@ -1,3 +1,83 @@
+\header {
+  copyrightYear = "2008"
+  composer = "Marc-Antoine Charpentier"
+  poet = "François de Paule Bretonneau"
+  opus = "H.490"
+  date = "1688"
+}
+
+%% LilyPond options:
+%%  urtext  if true, then print urtext score
+%%  part    if a symbol, then print the separate part score
+#(ly:set-option 'ancient-style (ly:get-option 'urtext))
+
+%% Staff size:
+%%  14 for lead sheets
+%%  16 for vocal parts
+%%  18 for instruments
+#(set-global-staff-size
+  (cond ((eqv? #f (ly:get-option 'part)) 14)
+        ((memq (ly:get-option 'part) '(voix)) 16)
+        (else 18)))
+
+%% Line/page breaking algorithm
+%%  optimal   for lead sheets
+%%  page-turn for instruments and vocal parts
+\paper {
+  #(define page-breaking (if (or (eqv? (ly:get-option 'part) #f)
+                                 (eqv? (ly:get-option 'part) 'voix))
+                             ly:optimal-breaking
+                             ly:page-turn-breaking))
+}
+
+%% No key signature modification
+#(ly:set-option 'forbid-key-modification #t)
+
+%% Use rehearsal numbers
+#(ly:set-option 'use-rehearsal-numbers #t)
+
+\include "italiano.ly"
+\include "common/common.ily"
+\include "common/toc-columns.ily"
+\include "common/livret.ily"
+\include "common/alterations.ily"
+\setOpus "Charpentier/Opera/DavidEtJonathas"
+\opusTitle "David et Jonathas"
+
+%% For better looking two-column TOC
+scene =
+#(define-music-function (parser location title toc-title) (string? markup?)
+  (add-toc-item parser 'tocSceneMarkup (if (and (string? toc-title)
+                                                (string-null? toc-title))
+                                           (string-upper-case title)
+                                           toc-title))
+  (add-odd-page-header-text
+    parser
+    (format #f "~a, ~a."
+           (string-upper-case (*act-title*))
+           (string-upper-case title))
+    #t)
+  (add-toplevel-markup parser
+    (markup #:scene (string-upper-case title)))
+  (add-no-page-break parser)
+  (make-music 'Music 'void #t))
+
+%%%
+%%% Music settings
+%%%
+
+\layout {
+  \context {
+    \Voice
+    \override Script #'avoid-slur = #'outside
+  }
+}
+
+trill = #(make-articulation "stopped")
+
+%%%
+%%% Character marks
+%%%
 saulMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Saül"))

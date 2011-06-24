@@ -132,8 +132,8 @@
         #:description "Tragédie en musique, livret de F. de P. Bretonneau, 1688."
         #:key "Charpentier/Opera/DavidEtJonathas"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=28"
-        #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+        #:main ((urtext "Version urtext" #:options "-durtext")
+                (rehearsal "Version de concert, avec numéros de pièces et clés modernisées"))
         #:parts ((dessus1 "Dessus I")
                  (dessus2 "Dessus II")
                  (haute-contre "Haute-contre")

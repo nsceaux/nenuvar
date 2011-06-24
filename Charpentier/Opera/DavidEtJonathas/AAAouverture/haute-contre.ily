@@ -5,7 +5,7 @@ re'2. re'4 |
 re'2. re'4 |
 re'2 sol'4. sol'8 |
 fa'4 sib' sib' do''8. sib'16 |
-la'4 la'8. si'16 do''8. do''16 sib'8. la'16 |
+la'4 la'8. si'16 do''8. do''16 sib'?8. la'16 |
 sol'4 lab' sol' sol' |
 sol' r16 sol' la' sib' do''4 do''8. sib'16 |
 la'4. la'8 sib'4 do'' |
@@ -14,10 +14,9 @@ la'1 |
 la'2. la'4 |
 la'2 ~ la'4. la'8 |
 sib'4 sib' la'4. la'8 |
-<fad' la'>2 r8 la' sib'8. do''16 |
-<fad' la'>1 |
+<<la'2 \\ fad'>> r8 la' sib'8. do''16 |
+<<la'1 \\ fad'>> |
 R2*2 |
-
 r8 re'' re'' do''16 sib' |
 do''8 re''16 do'' re'' do'' sib' la' |
 sib'4. sol'8 |
@@ -58,7 +57,14 @@ la'4. la'16 la' |
 la'8 re'' re''8. re''16 |
 re''8 re''16 do'' sib'8 sib'16 la' |
 sol'8 do'' do'' re''16 do'' |
-sib'8 do''16 re'' do''8. sib'16 |
+sib'8
+\origVersion\footnoteGrob #'NoteHead #'(-0.5 . 1)
+\markup \box 1 \markup { \box 1 Philidor : à la haute-contre et à la taille, le rythme indiqué est
+  \vcenter\score {
+    { \tinyQuote \time 4/8 la'8[ la'8*1/2 la' la'8. la'16] }
+    \layout { \quoteEmptyLayout }
+  }
+} do''16 re'' do''8. sib'16 |
 la'8 la' la' re'' |
 sib' sol'16 la' sib' la' sib' sol' |
 do''8 la'16 sib' do''8 sib'16 la' |
