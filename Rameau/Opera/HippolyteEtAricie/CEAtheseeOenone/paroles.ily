@@ -27,5 +27,5 @@
 }
 \tag #'(thesee basse) {
   %% THESEE.
-  C’en est as -- "sez ;" é -- par -- gne "-moi" le res -- te.
+  C’en est as -- "sez ;" é -- par -- gne- moi le res -- te.
 }

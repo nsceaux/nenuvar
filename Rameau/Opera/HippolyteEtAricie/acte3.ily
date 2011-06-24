@@ -55,7 +55,7 @@
 \pieceToc \markup \smallCaps { Thésée }
 \includeScore "CGFthesee"
 %%
-\scene "Scène VII" "SCÈNE 7 : Thésée, peuples et matelors"
+\scene "Scène VII" "SCÈNE 7 : Thésée, peuples et matelots"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Thésée, peuples et matelots.
 }
