@@ -100,7 +100,7 @@
          (dir (ly:item-break-dir bar-line)))
      (let* ((staff-line (ly:output-def-lookup (ly:grob-layout bar-line) 'line-thickness))
             (kern (* (ly:grob-property bar-line 'kern) staff-line))
-            (thickness (* (ly:grob-property bar-line 'hair-thickness) staff-line 2)))
+            (thickness (* 1.5 (ly:grob-property bar-line 'hair-thickness) staff-line)))
        (ly:stencil-combine-at-edge
         (make-simple-bar-line bar-line thickness #t)
         X RIGHT
@@ -167,7 +167,6 @@
 #(define-public (bar-line::custom-calc-glyph-name grob)
    (let ((glyph (ly:grob-property grob 'glyph))
          (dir (ly:item-break-dir grob)))
-     (format #t "~%glyph ~s" glyph)
      (if (= dir CENTER)
          glyph
          (let ((result (assoc glyph custom-bar-glyph-alist)))
@@ -176,7 +175,6 @@
                                      (cadr result)
                                      (cddr result))))
                  (and (string? glyph-name)
-                      (format #t " -> calculated glyph-name: ~s" glyph-name)
                       glyph-name))
                (bar-line::calc-glyph-name grob))))))
 
@@ -217,7 +215,6 @@
                 (glyph-name (ly:grob-property element 'glyph-name)))
            (if (string? glyph-name)
                (set! glyph glyph-name))))
-     (format #t "~%span-bar glyph=~s" glyph)
      (let ((span-glyph (and (string? glyph)
                             (assoc-get glyph span-bar-glyph-name-alist))))
        (if (string? span-glyph)
@@ -235,5 +232,60 @@
   \context {
     \Score
     \override SpanBar #'glyph-name = #span-bar::custom-calc-glyph-name
+  }
+}
+
+%%% Baroque volta brackets (should be more like braces, actually)
+
+#(define baroque-volta-bracket-engraver
+   (lambda (context)
+     (let ((bracket-spanner #f)
+           (start-event #f)
+           (stoppable #f))
+       `((stop-translation-timestep
+          . ,(lambda (translator)
+               (if (and bracket-spanner
+                        (not (null? (ly:spanner-bound bracket-spanner LEFT)))
+                        (not (null? (ly:spanner-bound bracket-spanner RIGHT))))
+                   (set! bracket-spanner #f))
+               (set! start-event #f)))
+         (process-music
+          . ,(lambda (translator)
+               (if (and start-event (not bracket-spanner))
+                   (begin
+                     (set! bracket-spanner
+                           (ly:engraver-make-grob translator
+                                                  'HorizontalBracket
+                                                  start-event))
+                     (set! (ly:grob-property bracket-spanner 'direction) UP)
+                     (set! (ly:grob-property bracket-spanner 'padding) 1.5)
+                     (set! (ly:grob-property bracket-spanner 'bracket-flare) '(0.0 . 0.0))
+                     (set! (ly:grob-property bracket-spanner 'thickness) 1.5)))))
+         (listeners
+          . ((note-grouping-event
+              . ,(lambda (engraver event)
+                   (if (= (ly:event-property event 'span-direction) STOP)
+                       (set! stoppable #t)
+                       (set! start-event event))))))
+         (acknowledgers
+          . ((note-column-interface
+              . ,(lambda (engraver grob source-engraver)
+                   (if bracket-spanner
+                       (begin
+                         (ly:pointer-group-interface::add-grob
+                          bracket-spanner 'side-support-elements grob)
+                         (ly:pointer-group-interface::add-grob
+                          bracket-spanner 'columns grob)
+                         (if (null? (ly:spanner-bound bracket-spanner LEFT))
+                             (ly:spanner-set-bound! bracket-spanner LEFT grob))
+                         (if stoppable
+                             (begin
+                               (set! stoppable #f)
+                               (ly:spanner-set-bound! bracket-spanner RIGHT grob)))))))))))))
+
+\layout {
+  \context {
+    \Score
+    \consists #baroque-volta-bracket-engraver
   }
 }

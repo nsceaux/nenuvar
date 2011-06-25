@@ -61,7 +61,7 @@ sib'8
 \origVersion\footnoteGrob #'NoteHead #'(-0.5 . 1)
 \markup \box 1 \markup { \box 1 Philidor : à la haute-contre et à la taille, le rythme indiqué est
   \vcenter\score {
-    { \tinyQuote \time 4/8 la'8[ la'8*1/2 la' la'8. la'16] }
+    \forceStemLength #2 { \tinyQuote \time 4/8 la'8[ la'8*1/2 la' la'8. la'16] }
     \layout { \quoteEmptyLayout }
   }
 } do''16 re'' do''8. sib'16 |

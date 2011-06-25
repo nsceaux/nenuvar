@@ -11,6 +11,9 @@
 %%  part    if a symbol, then print the separate part score
 #(ly:set-option 'ancient-style (ly:get-option 'urtext))
 
+%% use baroque style repeats
+#(ly:set-option 'baroque-repeats #t)
+
 %% Staff size:
 %%  14 for lead sheets
 %%  16 for vocal parts

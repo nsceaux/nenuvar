@@ -197,17 +197,17 @@ whiteNoteHeadsOff = {
 %%%
 %%% Repeat with alternatives
 %%%
-
 alternatives =
 #(define-music-function (parser location first second) (ly:music? ly:music?)
-   #{
-     \set Score.repeatCommands = #'((volta "1."))
-     $first
-     \bar ":|"
-     \set Score.repeatCommands = #'((volta #f) (volta "2."))
-     $second
-     \set Score.repeatCommands = #'((volta #f)) 
-   #})
+   (if (eqv? #t (ly:get-option 'baroque-repeats))
+       #{ \once \override Score.HorizontalBracket #'direction = #UP
+          s4*0\startGroup $first \bar "|:|" s4*0\stopGroup $second #}
+       #{ \set Score.repeatCommands = #'((volta "1."))
+          $first
+          \bar ":|"
+          \set Score.repeatCommands = #'((volta #f) (volta "2."))
+          $second
+          \set Score.repeatCommands = #'((volta #f)) #}))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%

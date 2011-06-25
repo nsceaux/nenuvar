@@ -1,5 +1,5 @@
 \version "2.15.0"
-\include "custom-repeats.ily"
+\include "custom-bars.ily"
 
 \score {
   \new StaffGroup <<
@@ -10,3 +10,5 @@
   >>
   \layout { ragged-right = ##t }
 }
+
+{ b1 c'\startGroup d' \bar "|:|" e'\stopGroup c' }
