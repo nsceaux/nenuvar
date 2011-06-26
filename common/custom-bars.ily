@@ -236,7 +236,7 @@
 }
 
 %%% Baroque volta brackets (should be more like braces, actually)
-
+%{
 #(define baroque-volta-bracket-engraver
    (lambda (context)
      (let ((bracket-spanner #f)
@@ -257,8 +257,13 @@
                            (ly:engraver-make-grob translator
                                                   'HorizontalBracket
                                                   start-event))
+                     (set! (ly:grob-property bracket-spanner 'Y-offset)
+                           (lambda (grob)
+                             (format #t "~%spanner Y-offset: ~a"
+                                     (ly:side-position-interface::y-aligned-side grob))
+                             (ly:side-position-interface::y-aligned-side grob)))
                      (set! (ly:grob-property bracket-spanner 'direction) UP)
-                     (set! (ly:grob-property bracket-spanner 'padding) 1.5)
+                     (set! (ly:grob-property bracket-spanner 'outside-staff-padding) 15)
                      (set! (ly:grob-property bracket-spanner 'bracket-flare) '(0.0 . 0.0))
                      (set! (ly:grob-property bracket-spanner 'thickness) 1.5)))))
          (listeners
@@ -268,20 +273,22 @@
                        (set! stoppable #t)
                        (set! start-event event))))))
          (acknowledgers
-          . ((note-column-interface
+          . ((paper-column-interface
               . ,(lambda (engraver grob source-engraver)
-                   (if bracket-spanner
+                   (let ((column (ly:context-property (ly:translator-context engraver)
+                                                    'currentCommandColumn)))
+                     (if bracket-spanner
                        (begin
                          (ly:pointer-group-interface::add-grob
                           bracket-spanner 'side-support-elements grob)
                          (ly:pointer-group-interface::add-grob
                           bracket-spanner 'columns grob)
                          (if (null? (ly:spanner-bound bracket-spanner LEFT))
-                             (ly:spanner-set-bound! bracket-spanner LEFT grob))
+                             (ly:spanner-set-bound! bracket-spanner LEFT column))
                          (if stoppable
                              (begin
                                (set! stoppable #f)
-                               (ly:spanner-set-bound! bracket-spanner RIGHT grob)))))))))))))
+                               (ly:spanner-set-bound! bracket-spanner RIGHT grob))))))))))))))
 
 \layout {
   \context {
@@ -289,3 +296,4 @@
     \consists #baroque-volta-bracket-engraver
   }
 }
+%}
