@@ -103,15 +103,19 @@ Returns @code{#f} or the reason for the invalidation, a symbol."
          (if sharp-natural 1/2 -1/2)
          alteration)))
 
+#(define (accidental-interface::calc-generic-alteration grob)
+   (if (eqv? #t (ly:get-option 'ancient-style))
+       (accidental-interface::calc-ancient-alteration grob)
+       (accidental-interface::calc-alteration grob)))
+
 \layout {
   \context {
     \Score
     autoAccidentals = #(if (eqv? #t (ly:get-option 'ancient-style))
                            `(Staff ,(make-baroque-accidental-rule 'same-octave 0))
                            `(Staff ,(make-accidental-rule 'same-octave 0)))
-    \override Accidental #'alteration = #(if (eqv? #t (ly:get-option 'ancient-style))
-                                             accidental-interface::calc-ancient-alteration 
-                                             accidental-interface::calc-alteration)
+    \override Accidental #'alteration = #accidental-interface::calc-generic-alteration
+    \override AccidentalCautionary #'alteration = #accidental-interface::calc-generic-alteration
     printKeyCancellation = #(not (eqv? #t (ly:get-option 'ancient-style)))
   }
 }
