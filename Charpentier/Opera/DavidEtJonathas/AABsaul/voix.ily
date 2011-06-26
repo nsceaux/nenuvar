@@ -1,7 +1,7 @@
 \clef "vbasse"
 <<
   \tag #'saul {
-    r2 r4 sib |
+    r2^\markup \character "[Saül]" r4 sib |
     sol2 sol4 r |
     r2 re'4. re'8 |
     la2 r |

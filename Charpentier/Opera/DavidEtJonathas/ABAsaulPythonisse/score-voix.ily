@@ -1,13 +1,11 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new Staff \withLyrics <<
-      \characterName \markup "La Pythonisse"
-      \global \clef "vhaute-contre" \includeNotes "pythonisse"
-    >> \includeLyrics "paroles1"
+      \global \keepWithTag #'pythonisse \includeNotes "voix"
+    >> \keepWithTag #'pythonisse \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \characterName \markup Saül
-      \global \clef "vbasse" \includeNotes "saul"
-    >> \includeLyrics "paroles2"
+      \global \keepWithTag #'saul \includeNotes "voix"
+    >> \keepWithTag #'saul \includeLyrics "paroles"
   >>
-  \layout { indent = \largeindent }
+  \layout { }
 }

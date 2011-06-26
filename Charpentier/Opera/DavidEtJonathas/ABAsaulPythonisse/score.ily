@@ -1,17 +1,15 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \characterName \markup "La Pythonisse"
-      \global \clef "vhaute-contre" \includeNotes "pythonisse"
-    >> \includeLyrics "paroles1"
+      \global \keepWithTag #'pythonisse \includeNotes "voix"
+    >> \keepWithTag #'pythonisse \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \characterName \markup Saül
-      \global \clef "vbasse" \includeNotes "saul"
-    >> \includeLyrics "paroles2"
-    \new Staff << \instrumentName \markup { Basse continue }
-                  \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
+      \global \keepWithTag #'saul \includeNotes "voix"
+    >> \keepWithTag #'saul \includeLyrics "paroles"
+    \new Staff <<
+      \global \clef "basse" \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
-  \layout { indent = \largeindent }
+  \layout { indent = \noindent }
   \midi { }
 }

@@ -485,3 +485,7 @@ characterAmbitus =
                                   #:override `(word-space . ,word-space) col2
                                   #:hspace 7
                                   #:override `(word-space . ,word-space) col3)))))
+
+#(define-markup-command (sline layout props args) (markup-list?)
+   (interpret-markup layout props
+                     (make-line-markup (cons (make-hspace-markup 4) args))))

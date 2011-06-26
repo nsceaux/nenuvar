@@ -5,7 +5,7 @@ mib1 |
 fa2 fa4 |
 mib2. |
 re |
-mib4. fa8 sol4 | % mi bécarre ?
+mi4. fa8 sol4 |
 do2 fa4 |
 re sib,4. sib,8 |
 mib4. re8 do4 |
