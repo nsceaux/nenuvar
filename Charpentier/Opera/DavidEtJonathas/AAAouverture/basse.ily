@@ -1,4 +1,4 @@
-sol,1 |
+\clef "basse" sol,1 |
 sol2 ~ sol4 r16 fa mib re |
 do2. do4 |
 re mib8. re16 do8. sib,16 la,8. sol,16 |
@@ -16,8 +16,23 @@ fa,2 ~ fa,4. fa,8 |
 sol,4 sol, la,2 |
 re,8. la,16 sib,8. do16 re8. do16 sib,8. la,16 |
 re,1 |
-R2*11 |
-r8 sol sol fa16 mib |
+<<
+  \tag #'basse { R2*11 r8 }
+  \tag #'basse-continue {
+    r8 \clef "dessus" la'' la'' sol''16 fad'' |
+    sol''8 la''16 sol'' la'' sol'' fad'' mi'' |
+    fad''8\noBeam \clef "haute-contre" re'' re'' do''16 sib' |
+    do''8 re''16 do'' re'' do'' sib' la' |
+    sib'4. sol'8 |
+    la'4. fa'8 |
+    sol' sol'16 fa' mib'8 do' |
+    fa' fa'16 mib' re'8 sib |
+    mib' mib'16 re' do'8 do' |
+    re'\noBeam \forcedClef "taille" re' re' do'16 sib |
+    do'8 re'16 do' re' do' sib la |
+    sib8\noBeam \clef "basse"
+  }
+>> sol8 sol fa16 mib |
 fa8 sol16 fa sol fa mib re |
 mib4. mib8 |
 re4. sol8 |

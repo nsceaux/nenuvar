@@ -1,4 +1,4 @@
-R1 |
+\clef "taille" R1 |
 sol'4 ( sol' ) sol' ( sol' )|
 re' ( re' ) re' ( re' )|
 re' ( re' ) re' ( re' )|
@@ -35,8 +35,8 @@ do' ( do' ) do' ( fa' )|
 mib' ( mib' ) mib' ( mib' )|
 mib' ( mib' ) fa' ( re' )|
 mib' ( re' ) do' ( sol' )|
-lab' ( fa' ) re' ( re' )|
-<si re'> do' do' ( si )|
+lab'? ( fa' ) re' ( re' )|
+<<re' \\ si>> do' do' ( si )|
 do' do'' la' ( la' )|
 fa' ( fa' ) fa' ( fa' )|
 fa' ( fa' ) re' ( re' )|
@@ -82,6 +82,6 @@ r8 sol' sol' fa' fa' sol' |
 sol' sol' sol' fa' fa' fa' |
 fa' fa' fa' mib' mib' sol' |
 fa' fa' fa' sol' sol' fa' |
-<re' fa'> sol' sol' sol' la' mi' |
+<< fa' \\ { re' sol' sol' sol' la' mi' } >> |
 re' la re' do' do' la |
 sib2. |

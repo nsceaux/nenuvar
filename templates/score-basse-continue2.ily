@@ -11,7 +11,7 @@
                                  'symbol 'instrumentName))
                     (make-music 'Music)))
     #(ly:export (or (*score-extra-music*) (make-music 'Music)))
-    \new FiguredBass \includeFigures "chiffres"
+    \new FiguredBass \keepWithTag #(*tag-notes*) \includeFigures "chiffres"
   >>
   \layout {
     indent = #(if (*instrument-name*)

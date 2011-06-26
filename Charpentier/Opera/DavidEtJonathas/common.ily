@@ -9,7 +9,9 @@
 %% LilyPond options:
 %%  urtext  if true, then print urtext score
 %%  part    if a symbol, then print the separate part score
-#(ly:set-option 'ancient-style (ly:get-option 'urtext))
+#(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
 
 %% use baroque style repeats
 #(ly:set-option 'baroque-repeats #t)
@@ -46,6 +48,22 @@
 \include "common/alterations.ily"
 \setOpus "Charpentier/Opera/DavidEtJonathas"
 \opusTitle "David et Jonathas"
+
+\opusPartSpecs #`((dessus "Dessus" () (#:notes "dessus"))
+                  (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
+                  (taille "Taille" () (#:notes "taille" #:clef "alto"))
+                  (basse "Basses" () (#:notes "basse" #:clef "bass" #:tag-notes basse))
+                  (basse-continue "Basse continue" ()
+                                  (
+                                   #:notes "basse" #:clef "bass"
+                                   #:tag-notes basse-continue
+                                   #:score-template "score-basse-continue2"))
+                  (voix "Parties vocales" ()
+                        (#:score-template "score-voix" #:notes "voix")))
+
+%% Ut-3 clef for haute-contres
+#(set-cdr! (assoc 'haute-contre french-clefs)
+          '(soprano . alto))
 
 %% For better looking two-column TOC
 scene =

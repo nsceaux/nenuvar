@@ -1,6 +1,5 @@
-\piecePartSpecs #`((dessus1)
-                   (dessus2)
+\piecePartSpecs #`((dessus)
                    (haute-contre)
                    (taille)
                    (basse)
-                   (basse-continue #:score-template "score"))
+                   (basse-continue))

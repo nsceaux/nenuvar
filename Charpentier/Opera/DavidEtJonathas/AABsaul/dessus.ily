@@ -1,5 +1,5 @@
-R1 |
-re''4 (_"sourdine"^"sans flûtes et sans hautbois" re'' ) re'' ( re'' ) |
+\clef "dessus" R1 |
+re''4 (^"Sans fl. et sans hautbois. Sourdine" re'' ) re'' ( re'' ) |
 re''4 ( re'' ) re'' ( re'' ) |
 re''4 ( re'' ) re'' ( re'' ) |
 re'' ( re'' ) do'' ( do'' )|
@@ -15,7 +15,7 @@ fad' ( fad' ) fad' ( sol' )|
 la' ( la' ) re'' ( re'' )|
 re'' ( re'' ) si' ( do'' )|
 re'' ( re'' ) re'' ( re'' )|
-sol' ( sol' ) do''( do'') |
+sol' ( sol' ) \slurDashed do''( do'') \slurSolid |
 do'' ( do'' ) la' ( la' ) |
 sib' ( sib' ) sib' ( sib' )|
 la' ( la' ) la' ( sol' )|
@@ -23,7 +23,7 @@ fad'2 r8 re''-"fort" re'' re'' |
 fad'4 re'8 mi' fad' sol' fad' sol' |
 la'2 r |
 r4 la''8 la'' la'' la'' la'' la'' |
-dod''4 dod''8 re'' mi'' fad'' sol'' la'' |
+dod''4 dod''8 re'' mi'' fad''? sol'' la'' |
 fad''2 r |
 r r4 re'' |
 mib'' si' do'' re'' |
@@ -50,17 +50,22 @@ do'' ( do'' ) do'' ( do'' )|
 sib' ( sib' ) sib' ( do'' )|
 re'' ( re'' ) re'' ( re'' )|
 do'' ( sib' ) la' ( sol' )|
-fad' ( fad' ) fad' ( sol' )|
+fad' ( fad' ) fad' (
+\origVersion\footnoteGrob #'NoteHead #'(-0.5 . 4)
+\markup \box 3 \markup { \box 3 Philidor : sur la quatrième noire, un
+  \italic fa et un \italic sol sont indiqués.
+  \vcenter\score {
+    { \tinyQuote \key re \minor \time 2/2 \clef "dessus"
+      fad'( fad') fad'( <fad' sol'>) }
+    \layout { \quoteLayout }
+  }
+} sol') |
 la' ( la' ) la' ( la' )|
 sol' ( sol' ) sol' ( do'' )|
 do'' ( sib' ) la' ( re'' )|
 sib'1 |
 R1*4 |
-
-
-
 R2.*2 |
-
 r8 fa'' mib'' re'' mib'' fa'' |
 sol''8. fa''16 mib''8 re'' mib'' fa'' |
 sib'4. r2*3/4|

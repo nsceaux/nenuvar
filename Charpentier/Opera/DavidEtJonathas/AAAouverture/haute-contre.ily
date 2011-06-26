@@ -1,4 +1,4 @@
-re''4 r16 mib'' re'' do'' sib'2 ~|
+\clef "haute-contre" re''4 r16 mib'' re'' do'' sib'2 ~|
 sib'4 r16 do'' sib' la' sol'4 r16 sol' la' sib' |
 do''4 do'8. re'16 mib'2 |
 re'2. re'4 |

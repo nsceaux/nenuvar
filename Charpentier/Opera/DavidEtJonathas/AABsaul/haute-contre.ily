@@ -1,4 +1,4 @@
-R1 |
+\clef "haute-contre" R1 |
 sib'4 ( sib' ) sib' ( sib' )|
 la' ( la' ) la' ( la' )|
 la' ( la' ) la' ( la' )|
@@ -23,11 +23,11 @@ re'2 r8 fad' fad' fad' |
 re'4 fad'8 mi' re' re' re' re' |
 mi'2 r |
 r4 fad'8 fad' fad' fad' fad' sol' |
-la'4 la'8 si' dod'' re'' mi'' dod'' |
+la'4 la'8 si'? dod'' re'' mi'' dod'' |
 re''2 r |
 r4 si' do'' sol' |
 sol' sol' mib' lab' |
-fa' fa' mib' mib' |
+fa' fa' mib'? mib' |
 fa' re'8 mib' fa'4 re' |
 re' ( re' ) sol' ( sol' )|
 sol' ( sol' ) sol' ( sol' )|
@@ -80,6 +80,11 @@ la'4 r8 r2*3/4 |
 r r8 la' la' |
 si' si' si' do'' do'' re'' |
 do'' sol' do'' la' la' la' |
+\origVersion\footnoteGrob #'NoteHead #'(+0.5 . 2)
+\markup \box 3 \markup { \box 3 Philidor : pour les trois premières croches,
+  des \italic si \raise #0.5 \smaller \flat et des \italic la sont notés,
+  les uns semblant corriger les autres.
+}
 sib' sib' sib' sol' do'' sib' |
 la' la' re'' sib' do'' la' |
 sib' re''16 do'' sib' la' sol'8 do''16 re'' do'' sib' |

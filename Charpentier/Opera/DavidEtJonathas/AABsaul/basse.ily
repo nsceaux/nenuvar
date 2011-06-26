@@ -1,25 +1,33 @@
-sol,4 ( sol, ) sol, ( sol, )|
-sol ( sol ) sol ( sol )|
-fad ( fad ) fad ( fad )|
-fa ( fa ) fa ( fa )|
-mi ( mi ) mib ( mib )|
-re ( re ) re ( re )|
-sol ( sol ) sol ( sol )|
-fa ( fa ) fa ( fa )|
-mib ( mib ) mib ( mib )|
-do ( do ) do ( do )|
-re ( re ) re ( re )|
-sol, ( sol, ) fa, ( fa, )|
-mib, ( mib, ) mib, ( mib, )|
-re, ( re, ) re, ( mi, )|
-fad, ( fad, ) fad, ( fad, )|
-sol, ( sol, ) sol, ( la, )|
-si, ( si, ) si, ( si, )|
-do ( do ) do ( do )|
-fad, ( fad, ) fad, ( fad, )|
-sol, ( sol, ) sol, ( sol, )|
-la, ( la, ) la, ( la, )|
+\clef "basse" sol,4( sol,) sol,( sol,) |
+sol( sol) sol( sol) |
+fad( fad) fad( fad) |
+fa!( fa) fa( fa) |
+mi( mi) mib( mib) |
+re( re) re( re) |
+sol( sol) sol( sol) |
+fa( fa) fa( fa) |
+mib( mib) mib( mib) |
+do( do) do( do) |
+re( re) re( re) |
+sol,( sol,) fa,( fa,) |
+mib,( mib,) mib,( mib,) |
+re,( re,) re,( mi,) |
+fad,( fad,) fad,( fad,) |
+sol,( sol,) sol,( la,) |
+si,( si,) si,( si,) |
+do( do) do( do) |
+fad,( fad,) fad,( fad,) |
+sol,( sol,) sol,( sol,) |
+la,( la,) la,( la,) |
 re,2 r8 re re re |
+\origVersion\footnoteGrob #'NoteHead #'(-0.5 . 2)
+\markup \box 1 \markup { \box 1 Philidor : Le rythme indiqué est
+  \vcenter\score {
+    { \tinyQuote \key re \minor \time 2/2 \clef "basse"
+      re4 re8[ re re re] \bar "|" }
+    \layout { \quoteLayout }
+  }
+}
 re4 re8 re re re re re |
 dod2. dod4 |
 re2 r8 re re re |
@@ -29,31 +37,55 @@ sol re mib si, |
 do sol, lab, fa, |
 sol, sol do do' |
 fa2. fa,4 |
-sol, ( sol, ) sol, ( sol, )|
-mib ( mib ) mib ( mib )|
-mib ( mib ) mib ( re )|
-do ( do ) do ( do )|
-lab ( lab ) fa ( sol )|
-do ( do ) do ( do )|
-lab, ( lab, ) lab, ( fa, )|
-sol, ( sol, ) sol, ( sol, )|
-do ( do ) do ( do )|
-re ( re ) re ( re )|
-sib, ( sib, ) sib, ( sib, )|
-mib ( mib ) mib ( mib )|
-do ( do ) do ( do )|
-fa ( fa ) fa ( fa )|
-re s2. |
-s1 |
-sol,4 ( sol, ) re ( re )|
-mib ( mib ) fa ( fa )|\noPageTurn
-sib, ( sib, ) sib, ( sib, )|
-si, ( si, ) si, ( si, )|
-do ( do ) re ( re )|
-do ( do ) do ( do )|
-fad, ( fad, ) fad, ( fad, )|
-sol, ( sol, ) do ( mib )|
-re ( re ) re ( re )|
+sol,( sol,) sol,( sol,) |
+mib( mib) mib( mib) |
+mib( mib) mib( re) |
+do( do) do( do) |
+lab( lab) fa( sol) |
+do( do) do( sib,) |
+lab,( lab,) lab,( fa,) |
+sol,( sol,) sol,( sol,) |
+do( do) do( do) |
+re( re) re( re) |
+sib,( sib,) sib,( sib,) |
+mib( mib) mib( mib) |
+do( do) do( do) |
+fa( fa) fa( fa) |
+<< { \origVersion\footnoteGrob #'NoteHead #'(-0.5 . 2)
+    \markup \box 1 \markup \wordwrap {
+      \box 1 Philidor : dans le système des mesures 46 à 50, le copiste
+      n'a réservé que quatre portées pour les cinq voix.  La voix de
+      \italic Saül et la basse sont sur la même portée. Néanmoins, la
+      basse n'est notée qu'à partir de la mesure 48 : elle est manquante
+      pour les mesures 46 et 47.  Le premier \italic ré de la mesure 46
+      est déduit du guidon de la fin du système précédent.  Les autres
+      notes présentées ici sont une proposition.
+    } re4 s2. s1
+  }
+ \new CueVoice { s4 re mib do | sib, sib, do re } >>
+sol,4( sol,) \slurDotted re( re) \slurSolid |
+mib( mib) fa( fa) |\noPageTurn
+sib,( sib,) sib,( sib,) |
+si,( si,) si,( si,) |
+do( do) re( re) |
+\origVersion\footnoteGrob #'NoteHead #'(-0.5 . 3)
+\markup \box 2 \markup { \box 2 Philidor : le manuscrit comporte le
+  chiffrage
+  \vcenter\score {
+    << \new Staff {
+        \tinyQuote \key re \minor \time 2/2 \clef "basse"
+        do4( do) do( do)
+      } \new FiguredBass \figuremode {
+        \set figuredBassAlterationDirection = #RIGHT <5\\>2 <6->
+      }
+    >>
+    \layout { \quoteLayout }
+  }
+}
+do4( do) do( do) |
+fad,( fad,) fad,( fad,) |
+sol,( sol,) do( mib) |
+re( re) \slurDotted re( re) \slurSolid |
 sol,1 |
 mib4. re8 mib4 sib, |
 mib,2 r |\allowPageTurn

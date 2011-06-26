@@ -44,14 +44,6 @@
 \setOpus "Charpentier/Opera/DavidEtJonathas"
 \opusTitle "David et Jonathas"
 
-\opusPartSpecs #`((dessus1 "Dessus I" () (#:notes "dessus"))
-                  (dessus2 "Dessus II" () (#:notes "dessus"))
-                  (haute-contre "Haute-contre de violon" () (#:notes "haute-contre"))
-                  (taille "Taille de violon" () (#:notes "taille" #:clef "alto"))
-                  (quinte "Quinte de violon" () (#:notes "quinte" #:clef "alto"))
-                  (basse "Basse" () (#:notes "basse" #:clef "bass"))
-                  (voix "Parties vocales" () (#:score "score-voix")))
-
 \layout {
   \context { \Score \override VerticalAlignment #'max-stretch = ##f }
   \context { \Staff \consists "Page_turn_engraver" }
