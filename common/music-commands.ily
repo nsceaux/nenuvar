@@ -428,6 +428,11 @@ figPosOff = {
     layout props
     (markup #:tiny #:concat (#:null #:raise 0.7 #:fontsize -2 #:flat))))
 
+#(define-markup-command (figure-natural layout props) ()
+   (interpret-markup
+    layout props
+    (markup #:tiny #:concat (#:null #:raise 0.7 #:fontsize -2 #:natural))))
+
 #(define-markup-command (paren-sharp layout props num) (markup?)
    (interpret-markup
     layout props

@@ -3,4 +3,4 @@
   instrument = #(*part-name*)
 }
 \includeScore "H73_Magnificat"
-\markup\null
+

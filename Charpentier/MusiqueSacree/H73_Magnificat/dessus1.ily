@@ -13,7 +13,7 @@ re''2. |
 r4 sib''8 la'' sib'' sol'' |
 la''4 la''8 sol'' la'' fad'' |
 sol''4 sol''8 fad'' sol'' mi'' |
-fa''4 fad''4. fad''8 |
+fa''!4 fad''4. fad''8 |
 sol''4 re'' mib''~ |
 mib''8 re'' mib'' do'' re''4~ |
 re''8 do'' re'' sib' do''4~ |

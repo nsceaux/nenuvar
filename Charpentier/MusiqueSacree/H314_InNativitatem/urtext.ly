@@ -14,8 +14,7 @@
   }
   instrument = \markup \fontsize #-3 \center-column {
     \fontsize #3 \italic Urtext
-    \line { Mélanges autographes, volume 15, }
-    \line { feuillets 63 et 64. }
+    \line { Mélanges autographes, volume 15, feuillets 63 et 64. }
   }
 }
 

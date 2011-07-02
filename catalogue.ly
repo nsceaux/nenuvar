@@ -210,10 +210,10 @@ O Emmanuel")
         #:description "Prélude sur une basse obligée pour Magnificat à trois voix."
         #:opus "H.73"
         #:key "Charpentier/MusiqueSacree/H73_Magnificat"
-        #:main ((urtext "Version urtext" #:options "-dancient-style")
+        #:main ((urtext "Version urtext" #:score-file "urtext")
                 (#f "Version de concert"))
         #:parts ((dessus "Dessus I & II")
-                 (basse-continue "Basse continue")
+                 (basse "Basse continue")
                  (voix "Parties vocales")))))
 
      ;;;

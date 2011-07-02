@@ -53,7 +53,7 @@ re''2. |
 re''4 mib''8 re'' do''4~ |
 do''8 sib' la'4. sol'8 |
 sol'2. |
-R2.*4 |
+R2.*4 |\allowPageTurn
 r4 re'' re'' |
 re''4. mib''8 do''4 |
 sib' la'2\prall |
@@ -116,7 +116,7 @@ do''4 la' re'' |
 do''4.\prall sib'8 do''4 |
 re''2.~ |
 re''4 r4 r4 |
-R2.*7 |
+R2.*7 |\allowPageTurn
 re''4 sib' sol' |
 do''2 re''4 |
 do''2 do''4 |
@@ -162,7 +162,7 @@ re''2 re''4 |
 re''4 si'8 re'' do''4 |
 sib' la'4.\prall sol'8 |
 sol'2. |
-R2.*59 |
+R2.*59 |\allowPageTurn
 sib'4. sib'8 sib'4 |
 la'4. la'8 la'4 |
 sib'4. sib'8 do''4 |

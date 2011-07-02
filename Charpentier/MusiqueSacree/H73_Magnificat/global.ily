@@ -3,7 +3,7 @@
 \digitTime \time 3/4 \midiTempo #120
 <<
   s2.*357
-  \origVersion {
+  \origLayout {
     s2.*11\break
     s2.*11\pageBreak
 

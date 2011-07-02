@@ -8,8 +8,6 @@
   copyrightYear = "2011"
 }
 
-#(ly:set-option 'original-layout (eqv? #t (ly:get-option 'ancient-style)))
-
 \opusPartSpecs
 #`((dessus "Violons et flûtes" ()
            (#:score "score-dessus"))

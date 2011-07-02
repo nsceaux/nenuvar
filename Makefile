@@ -991,8 +991,8 @@ Charpentier/MusiqueSacree/AntiennesNoels-all: \
 # Version urtext
 Charpentier/MusiqueSacree/H73_Magnificat-urtext:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H73_Magnificat-urtext -dancient-style \
-	Charpentier/MusiqueSacree/H73_Magnificat/main.ly
+	-o $(OUTPUT_DIR)/H73_Magnificat-urtext  \
+	Charpentier/MusiqueSacree/H73_Magnificat/urtext
 .PHONY: Charpentier/MusiqueSacree/H73_Magnificat-urtext
 # Version de concert
 Charpentier/MusiqueSacree/H73_Magnificat:
@@ -1007,11 +1007,11 @@ Charpentier/MusiqueSacree/H73_Magnificat-dessus:
 	Charpentier/MusiqueSacree/H73_Magnificat/part.ly
 .PHONY: Charpentier/MusiqueSacree/H73_Magnificat-dessus
 # Basse continue
-Charpentier/MusiqueSacree/H73_Magnificat-basse-continue:
+Charpentier/MusiqueSacree/H73_Magnificat-basse:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H73_Magnificat-basse-continue -dpart=basse-continue  \
+	-o $(OUTPUT_DIR)/H73_Magnificat-basse -dpart=basse  \
 	Charpentier/MusiqueSacree/H73_Magnificat/part.ly
-.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-basse-continue
+.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-basse
 # Parties vocales
 Charpentier/MusiqueSacree/H73_Magnificat-voix:
 	$(LILYPOND_CMD) \
@@ -1024,7 +1024,7 @@ Charpentier/MusiqueSacree/H73_Magnificat-delivery:
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat-urtext.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat-dessus.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
-	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat-basse-continue.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
+	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat-basse.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-voix.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat-voix.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H73_Magnificat/H73_Magnificat-midi.tar.gz $(OUTPUT_DIR)/H73_Magnificat.midi $(OUTPUT_DIR)/H73_Magnificat-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H73_Magnificat.midi ]; then cp $(OUTPUT_DIR)/H73_Magnificat.midi $(DELIVERY_DIR)/Charpentier/H73_Magnificat/ ; fi
 	git archive --prefix=H73_Magnificat/ HEAD Charpentier/MusiqueSacree/H73_Magnificat common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H73_Magnificat/H73_Magnificat.tar.gz
@@ -1036,7 +1036,7 @@ Charpentier/MusiqueSacree/H73_Magnificat-all: \
 	Charpentier/MusiqueSacree/H73_Magnificat-urtext \
 	Charpentier/MusiqueSacree/H73_Magnificat \
 	Charpentier/MusiqueSacree/H73_Magnificat-dessus \
-	Charpentier/MusiqueSacree/H73_Magnificat-basse-continue \
+	Charpentier/MusiqueSacree/H73_Magnificat-basse \
 	Charpentier/MusiqueSacree/H73_Magnificat-voix\
 	Charpentier/MusiqueSacree/H73_Magnificat-delivery\
 	Charpentier/MusiqueSacree/H73_Magnificat-clean

@@ -17,19 +17,22 @@
     sol'2.~ |
     sol'4( fad'4.) sol'8 |
     sol'2. |
-    << \tag #'basse { R2.*6 s2.*3 } \tag #'vhaute-contre { R2.*9 | } >>
-    \tag #'basse \forcedClef "vhaute-contre" sol'4 sol' sol' |
-    fa'8[ mib' fa' sol' fa' mib']( |
-    re')[ do' re' mi' re' mi']( |
-    fa'2) fa'4 |
-    sol'4. fad'8 sol'4 |
-    fad'4 fad' fa' |
-    fa' fa' mib' |
-    mib'2 re'4 |
-    re'4. do'8 do' re' |
-    sib4( la2)\prall |
-    sol2. |
-    << \tag #'basse { R2.*4 s2.*66 } \tag #'vhaute-contre { R2.*70 | } >>
+    << \tag #'basse { R2.*24 s2.*66 }
+      \tag #'vhaute-contre {
+        R2.*9 |
+        sol'4 sol' sol' |
+        fa'8[ mib' fa' sol' fa' mib']( |
+        re')[ do' re' mi' re' mi']( |
+        fa'2) fa'4 |
+        sol'4. fad'8 sol'4 |
+        fad'4 fad' fa' |
+        fa' fa' mib' |
+        mib'2 re'4 |
+        re'4. do'8 do' re' |
+        sib4( la2)\prall |
+        sol2. |
+        R2.*70 |
+      } >>
     \tag #'basse \forcedClef "vhaute-contre" re'4. do'8 do' re' |
     sib4. la8 sol4 |
     re'2 re'4 |
@@ -56,34 +59,32 @@
     la'4 la'4. la'8 |
     sol'[ la'16 sib'] sol'2\prall |
     fa'2. |
-    << \tag #'basse { R2. s2.*3 } \tag #'vhaute-contre { R2.*4 | } >>
-    \tag #'basse \forcedClef "vhaute-contre" re'4 re' mi' |
-    fa'4. mib'8 re'4 |
-    sol'4 sol'4. la'8 |
-    fad'4 sol'( fad') |
-    sol'2. |
-    la'4 fa' re' |
-    sol' mib' do' |
-    re'8[ mi'] fad'[ sol' la' fad']( |
-    sol'2) sol'4 |
-    r do' fa' |
-    sib2 do'4 |
-    sib( la2) |
-    sol2 r4 |
-    la' fa' re' |
-    sol' mib' do' |
-    re'8[ mi'] fad'[ sol' la' fad']( |
-    sol'2) sol'4 |
-    r4 do' fa' |
-    sib2 do'4 |
-    sib4( la2)\prall |
-    sol2. |
-    <<
-      \tag #'basse { R2.*36 s2.*23 }
-      \tag #'vhaute-contre <<
-        R2.*59
-        \origVersion { \skip 2.*10 \revertNoHaraKiri \skip 2.*26 \noHaraKiri }
-      >>
+    << \tag #'basse { R2.*25 R2.*36 s2.*23 }
+      \tag #'vhaute-contre {
+        R2.*4 |
+        re'4 re' mi' |
+        fa'4. mib'8 re'4 |
+        sol'4 sol'4. la'8 |
+        fad'4 sol'( fad') |
+        sol'2. |
+        la'4 fa' re' |
+        sol' mib' do' |
+        re'8[ mi'] fad'[ sol' la' fad']( |
+        sol'2) sol'4 |
+        r do' fa' |
+        sib2 do'4 |
+        sib( la2) |
+        sol2 r4 |
+        la' fa' re' |
+        sol' mib' do' |
+        re'8[ mi'] fad'[ sol' la' fad']( |
+        sol'2) sol'4 |
+        r4 do' fa' |
+        sib2 do'4 |
+        sib4( la2)\prall |
+        sol2. |
+        << R2.*59 \origVersion { \skip 2.*10 \revertNoHaraKiri \skip 2.*26 \noHaraKiri } >>
+      }
     >>
     \tag #'basse \forcedClef "vhaute-contre" sib4 re' sib |
     fa'4. mib'8 re'4 |
@@ -105,99 +106,102 @@
     sib?8\prall la16] | %% check
     sib4( la2)\prall |
     sol2. |
-    re'4 re'8[ do'] re'[ si] |
-    do'4. do'8 do'4 |
-    do'4 re'8[ do'] sib[ la] |
-    sib[ la sib do' re' mi']( |
-    fa'2) fa'4 |
-    sol' sol'8[ fa'] sol'[ mi'] |
-    fa'4. fa'8 fa'4 |
-    fa'4 fa' mib' |
-    mib'2 re'4 |
-    re' re' do' |
-    re'2 re'4 |
-    re'4. re'8 re'4 |
-    la'4. la'8 la'4 |
-    sol'4 sol'4. la'8 |
-    fad'2 fad'4 |
-    sol'4. re'8 mib'4 |
-    mib'2 re'4 |
-    re'4 do'4. do'8 |
-    do' sib la4. sol8 |
-    sol2. |
-    << \tag #'basse { R2.*7 s2.*5 } \tag #'vhaute-contre { R2.*12 | } >>
+    << \tag #'basse { R2.*27 s2.*5 }
+      \tag #'vhaute-contre {
+        re'4 re'8[ do'] re'[ si] |
+        do'4. do'8 do'4 |
+        do'4 re'8[ do'] sib[ la] |
+        sib[ la sib do' re' mi']( |
+        fa'2) fa'4 |
+        sol' sol'8[ fa'] sol'[ mi'] |
+        fa'4. fa'8 fa'4 |
+        fa'4 fa' mib' |
+        mib'2 re'4 |
+        re' re' do' |
+        re'2 re'4 |
+        re'4. re'8 re'4 |
+        la'4. la'8 la'4 |
+        sol'4 sol'4. la'8 |
+        fad'2 fad'4 |
+        sol'4. re'8 mib'4 |
+        mib'2 re'4 |
+        re'4 do'4. do'8 |
+        do' sib la4. sol8 |
+        sol2. |
+        R2.*12 |
+      } >>
     \tag #'basse \forcedClef "vhaute-contre" fa'4. mib'8 re'4 |
     sol'8[ fad' sol' la' sol' la']( |
     fad'4.) mi'8 fad'4 |
     sol'4. re'8 re'4 |
-    << \tag #'basse { R2.*3 s2.*4 } \tag #'vhaute-contre { R2.*7 | } >>
-    \tag #'basse \forcedClef "vhaute-contre" sol'4. fa'8 mib'4 |
-    mib'4. fa'8 re'4 |
-    re'4. re'8 sol'4 |
-    fad'4. fad'8 fad'4 |
-    sol'4. sol'8 re'4 |
-    fa'4. fa'8 fa' re' |
-    sol'4. sol'8 sol'4 |
-    sol'2( fad'4) |
-    sol'2. |
-    << \tag #'basse { R2.*3 s2.*12 } \tag #'vhaute-contre { R2.*15 | } >>
-    \tag #'basse \forcedClef "vhaute-contre" r4 re' mi' |
-    fa'4. fa'8 fa'4 |
-    r sol' sol' |
-    fa'4. fa'8 fa'4 |
-    fa'2 mi'4 |
-    fa'2 fa'4 |
-    sol'4. sol'8 sol'4 |
-    fad'2 fad'4 |
-    sol'4. re'8 mi'4 |
-    fa'4. fa'8 fa'4 |
-    sol'4. fa'8 mi'4 |
-    fad'4. fad'8 fad'4 |
-    sol'4. re'8 mib'4 |
-    mib' re'4. re'8 |
-    re'2( do'4) |
-    sib( la2) |
-    sol2. |
-    << \tag #'basse { R2.*2 s2. } \tag #'vhaute-contre { R2.*3 | } >>
-    \tag #'basse \forcedClef "vhaute-contre" r4 re' mib' |
-    r do' re' |
-    r sib do' |
-    r la re' |
-    sib sol sol' |
-    la' r fa' |
-    sol' r mi' |
-    fad' sol'( fad') |
-    sol'2. |
+    << \tag #'basse { R2.*3 }
+      \tag #'vhaute-contre {
+        R2.*7 |
+        sol'4. fa'8 mib'4 |
+        mib'4. fa'8 re'4 |
+        re'4. re'8 sol'4 |
+        fad'4. fad'8 fad'4 |
+        sol'4. sol'8 re'4 |
+        fa'4. fa'8 fa' re' |
+        sol'4. sol'8 sol'4 |
+        sol'2( fad'4) |
+        sol'2. |
+        R2.*15 |
+        r4 re' mi' |
+        fa'4. fa'8 fa'4 |
+        r sol' sol' |
+        fa'4. fa'8 fa'4 |
+        fa'2 mi'4 |
+        fa'2 fa'4 |
+        sol'4. sol'8 sol'4 |
+        fad'2 fad'4 |
+        sol'4. re'8 mi'4 |
+        fa'4. fa'8 fa'4 |
+        sol'4. fa'8 mi'4 |
+        fad'4. fad'8 fad'4 |
+        sol'4. re'8 mib'4 |
+        mib' re'4. re'8 |
+        re'2( do'4) |
+        sib( la2) |
+        sol2. |
+        R2.*3 |
+        r4 re' mib' |
+        r do' re' |
+        r sib do' |
+        r la re' |
+        sib sol sol' |
+        la' r fa' |
+        sol' r mi' |
+        fad' sol'( fad') |
+        sol'2. |
+      }
+    >>
   }
 
   %% Taille
   \tag #'(vtaille basse) {
     <<
-      \tag #'basse { s2.*47 }
+      \tag #'basse { s2.*65 }
       \tag #'vtaille <<
-        { \clef "vtaille" R2.*47 }
         \origVersion { \skip 2.*24 \noHaraKiri }
+        { \clef "vtaille" R2.*47 |
+          re'4 re' re' |
+          sib8[ la sib do' sib do']( |
+          la)[ sol la sib la sib]( |
+          do'2) do'4 |
+          do'4. sib8 la4 |
+          sib4 sib do' |
+          la la re' |
+          re'2( do'4) |
+          re'4 re'4. do'8 |
+          si4.( re'8)[ do' sib]( |
+          la4.)( do'8)[ sib la]( |
+          sol2) sol4 |
+          sol2( fad4) |
+          sol2. |
+          R2.*4 |
+        }
       >>
-    >>
-    \tag #'basse \forcedClef "vtaille" re'4 re' re' |
-    sib8[ la sib do' sib do']( |
-    la)[ sol la sib la sib]-\tag #'vtaille ( |
-    <<
-      \tag #'basse { s2.*15 }
-      \tag #'vtaille {
-        do'2) do'4 |
-        do'4. sib8 la4 |
-        sib4 sib do' |
-        la la re' |
-        re'2( do'4) |
-        re'4 re'4. do'8 |
-        si4.( re'8)[ do' sib]( |
-        la4.)( do'8)[ sib la]( |
-        sol2) sol4 |
-        sol2( fad4) |
-        sol2. |
-        R2.*4 |
-      }
     >>
     \tag #'basse \forcedClef "vtaille" re'4 re' re' |
     sol sol8 fad sol la |
@@ -235,15 +239,12 @@
     sib4( la2)\prall |
     sol2. |
     <<
-      \tag #'basse { R2.*2 s2.*58 }
-      \tag #'vtaille { R2.*60 | }
-    >>
-    \tag #'basse \forcedClef "vtaille" do'4 do' re' |
-    mib'4. re'8 do'4 |
-    re'4 re'4. do'8 |
-    <<
-      \tag #'basse { s2.*57 }
+      \tag #'basse { R2.*2 s2.*58 s2.*60 }
       \tag #'vtaille {
+        R2.*60 |
+        do'4 do' re' |
+        mib'4. re'8 do'4 |
+        re'4 re'4. do'8 |
         sib4 sib( do') |
         la2. |
         do'4 do'4. do'8 |
@@ -314,13 +315,10 @@
     do'4.) sib8 do'4 |
     re'2 la4 |
     <<
-      \tag #'basse { R2. s2.*10 }
-      \tag #'vtaille { R2.*11 | }
-    >>
-    \tag #'basse \forcedClef "vtaille" re'4. re'8 do'4 |
-    <<
-      \tag #'basse { s2.*12 }
+      \tag #'basse { R2. }
       \tag #'vtaille {
+        R2.*11 |
+        re'4. re'8 do'4 |
         sib2 sib4 |
         la4. la8 sib4 |
         sol4. sol8 sol4 |
@@ -331,22 +329,17 @@
         sib4( la2) |
         sol2. |
         R2.*3 |
-      }
-    >>
-    \tag #'basse \forcedClef "vtaille" r4 re' sib |
-    do'4. sib8( la4) |
-    sib2 do'4 |
-    re'4. re'8 re'4 |
-    r4 re' \tieDashed
-    \origVersion \footnoteGrob #'NoteHead #'(0.7 . 2) \markup b. \markup {
-      b. Haute-contre mesure 321 : pas de liaison sur le manuscrit }
-    mib' ~ | %% tie ?
-    mib'2 \tieSolid re'4~ |
-    re'4 sol'2 |
-    fad'2. |
-    <<
-      \tag #'basse { R2.*4 }
-      \tag #'vtaille {
+        r4 re' sib |
+        do'4. sib8( la4) |
+        sib2 do'4 |
+        re'4. re'8 re'4 |
+        r4 re' \tieDashed
+        \origVersion \footnoteGrob #'NoteHead #'(0.7 . 2) \markup b. \markup {
+          b. Haute-contre mesure 321 : pas de liaison sur le manuscrit }
+        mib' ~ | %% tie ?
+        mib'2 \tieSolid re'4~ |
+        re'4 sol'2 |
+        fad'2. |
         R2.*5 |
         r4 la si |
         do'4. do'8 do'4 |
@@ -497,11 +490,11 @@
     \tag #'basse \forcedClef "vbasse" sib4. la8 sol4 |
     re'8[ do' re' mib' re' mib']( |
     do'4.) sib8 la sol |
+    fad4. mi8 fad4 |
+    sol2 sol4 |
     <<
-      \tag #'basse { s2.*44 }
+      \tag #'basse { R2.*52 }
       \tag #'vbasse {
-        fad4. mi8 fad4 |
-        sol2 sol4 |
         fa4. fa8 fa sol |
         mib4. re8 mib4 |
         re2 re4 |
@@ -534,19 +527,17 @@
         re |
         sol, |
         R2.*2 |
+        r4 re re |
+        sol sol mib |
+        fa r re |
+        mib r do |
+        re re2 |
+        sol4 r mib |
+        fa r re |
+        mib r do |
+        re re2 |
+        sol,2. |
       }
     >>
-    \tag #'basse \forcedClef "vbasse" r4 re re |
-    \tag #'vbasse {
-      sol sol mib |
-      fa r re |
-      mib r do |
-      re re2 |
-      sol4 r mib |
-      fa r re |
-      mib r do |
-      re re2 |
-      sol,2. |
-    }
   }
 >>
