@@ -146,7 +146,7 @@
 	~a
 .PHONY: ~a~%"
              (or title name) target output all-options ly-file target)
-     (format #f "~a.pdf" output)))
+     (cons target (format #f "~a.pdf" output))))
 
 #(define* (print-makefile-opus title #:key description key opus url main parts)
    (let* ((split-path (string-split key #\/))
@@ -154,22 +154,26 @@
                                 (car split-path)
                                 (car (reverse split-path)))))
      (format #t "### ~a~%" title)
-     (let ((pdfs (list)))
+     (let ((pdfs '())
+           (score-targets '()))
        (if main
            (for-each (lambda (book-spec)
-                       (set! pdfs
-                             (cons (apply print-makefile-score #f key book-spec) pdfs)))
+                       (let ((target+pdf (apply print-makefile-score #f key book-spec)))
+                         (set! pdfs (cons (cdr target+pdf) pdfs))
+                         (set! score-targets (cons (car target+pdf) score-targets))))
                      main))
        (if parts
            (for-each (lambda (part-spec)
-                       (set! pdfs
-                             (cons (apply print-makefile-score #t key part-spec) pdfs)))
+                       (let ((target+pdf (apply print-makefile-score #t key part-spec)))
+                         (set! pdfs (cons (cdr target+pdf) pdfs))
+                         (set! score-targets (cons (car target+pdf) score-targets))))
                      parts))
        (set! pdfs (reverse! pdfs))
+       (set! score-targets (reverse! score-targets))
        ;; -delivery rule: PDF, MIDI archive, source archive
        (format #t "~%~a-delivery:
 	@mkdir -p ~a~{~%~a~}
-	@if [ -e $(OUTPUT_DIR)/~a.midi ]; then tar zcf ~a/~a-midi.tar.gz $(OUTPUT_DIR)/~a.midi $(OUTPUT_DIR)/~a-[0-9]*.midi; fi
+	@if [ -e $(OUTPUT_DIR)/~a-1.midi ]; then tar zcf ~a/~a-midi.tar.gz $(OUTPUT_DIR)/~a.midi $(OUTPUT_DIR)/~a-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/~a.midi ]; then cp $(OUTPUT_DIR)/~a.midi ~a/ ; fi
 	git archive --prefix=~a/ HEAD ~a common out templates Makefile README | gzip > ~a/~a.tar.gz~%"
                key
                delivery-dir
@@ -177,6 +181,7 @@
                       (format #f "	@if [ -e ~a ]; then mv -fv ~a ~a; fi" pdf pdf delivery-dir))
                     pdfs)
                (basename key) delivery-dir (basename key) (basename key) (basename key)
+               (basename key) (basename key) delivery-dir
                (basename key) key delivery-dir (basename key))
        ;; -clean rule
        (format #t "~%~a-clean:
@@ -188,7 +193,7 @@
 	~a-clean
 
 .PHONY: ~a-delivery ~a-clean ~a-all~2%"
-               key pdfs key key key key key))))
+               key score-targets key key key key key))))
 
 #(define (print-makefile-composer-work composer-work)
    (format #t "###~%### ~a~%###~%" (car composer-work))
