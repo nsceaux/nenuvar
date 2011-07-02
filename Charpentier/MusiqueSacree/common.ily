@@ -1,4 +1,7 @@
 
+#(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
+
 %% Staff size:
 %%  12 for urtext lead sheet
 %%  14 for lead sheets
@@ -30,6 +33,10 @@
 %% No key signature modification
 #(ly:set-option 'forbid-key-modification #t)
 
+\include "italiano.ly"
+\include "common/common.ily"
+\include "common/alterations.ily"
+
 \layout {
   reference-incipit-width = #(* 1/2 mm)
   \context {
@@ -40,12 +47,15 @@
   }
   \context {
     \Staff
+    \name Staff
     explicitClefVisibility = ##(#f #t #t)
+    %% Figured bass
+    ignoreFiguredBassRest = ##f
+    figuredBassAlterationDirection = #LEFT
+    \override BassFigureAlignment #'stacking-dir = #DOWN
+    %\override BassFigureAlignmentPositioning #'direction = #UP
   }
 }
-
-\include "italiano.ly"
-\include "common/common.ily"
 
 %%% Titling
 \paper {
