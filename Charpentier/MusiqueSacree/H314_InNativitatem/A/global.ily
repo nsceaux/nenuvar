@@ -1,7 +1,7 @@
 <<
   {
     \keys do \major
-    \time 4/4 \modVersion\tempo "guay" \midiTempo #92
+    \time 4/4 \modVersion\tempo "Guay" \midiTempo #92
     \overrideTimeSignatureSettings
       #'(4 . 4)         % timeSignatureFraction
       #'(1 . 2)         % baseMomentFraction
@@ -12,7 +12,7 @@
     s1*63
     \time 2/2 \midiTempo #112 \modVersion\tempo "Plus lent"
     s1*12 \bar "|."
-    \origVersion\markDownEnd\mark "111"
+    \origVersion { \markDownEnd\mark "111" }
   }
   \origLayout {
     s1*6\break

@@ -34,7 +34,7 @@ la mi fa re8. mi16 |
 fa4. fa8 sol4 mi |
 fa re sol sol8. fa16 |
 mi4 fa sol sol, |
-do1 | %%
+do1 | \allowPageTurn %%
 do4 sol mi do |
 sol4. fa8 mi2 |
 fa mi |

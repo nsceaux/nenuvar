@@ -238,7 +238,7 @@
     fa8 fa sol4 do do'8. sib16 |
     la8 sol fa8. mi16 re8 do sol4 |
     do2 r |
-    << \tag #'basse { R1*2 s1*18 } \tag #'vbasse { R1*20 | } >> %%
+    R1*20 | %%
     r2 sol4 do' |
     si sol do'4. si8 |
     la2\prall sol4. la8 |

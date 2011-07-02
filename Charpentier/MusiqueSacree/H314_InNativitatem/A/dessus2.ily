@@ -11,7 +11,7 @@ si'8. si'16 do''8 mi'' fad'' sol'' sol''8. fad''16 |
 sol''2 r |
 R1*4 |
 r4 la'8._\markup\orig-version "flute seule"
-^\markup\mod-version "Flute seule" la'16 si'8 do'' do''8.\doublePrall si'16 |
+_\markup\mod-version "Flute seule" la'16 si'8 do'' do''8.\doublePrall si'16 |
 do''2~ do''8 si'16 do'' la'8 re''16 do'' |
 si'4 si'8._\markup\orig-version "vi[ol]on et flute"
 ^\markup\mod-version "Violon et flute" si'16 do''8 la' la' re''16 do'' |
@@ -26,24 +26,24 @@ la'4 la'8 si' do'' si' do'' re'' |
 si'2 r |
 R1*2 |
 r4 sol'_\markup\orig-version "vi[ol]on et flute"
-^\markup\mod-version "Violon et flute" do''4. do''8 |
+^\markup\mod-version\whiteout "Violon et flute" do''4. do''8 |
 si'2 r4 si' |
 do''4. do''8 re''4 do'' |
 do''8 si' la' sol' la'2 |
 si'2. r4 |
 R1 |
 r2 r4 sol'8_\markup\orig-version "flute seule"
-^\markup\mod-version "Flute seule" la' |
+^\markup\mod-version\whiteout\halign #-0.5 "Flute seule" la' |
 si'4 si' si' re'' |
 si' si' si'4. si'8 |
 mi''2 r |
 r2 r4 mi''8_\markup\orig-version "flute seule"
-^\markup\mod-version "Flute seule" fa'' |
+^\markup\mod-version\whiteout "Flute seule" fa'' |
 sol''4 sol'' do'' mi'' |
 do''4 do''8 re'' mi'' do'' re'' mi'' |
 fa''2 r |
 r r4 do''_\markup\orig-version "flutes et vi[ol]ons"
-^\markup\mod-version "Flutes et violons" |
+^\markup\mod-version\whiteout\halign #-0 "Flutes et violons" |
 la' do'' sib'8 do'' sib' la' |
 sol'4 sol' do'' la' |
 sib' la' do''4. sib'8 |
@@ -52,11 +52,11 @@ fa''4 fa''8 fa'' fa''4 mi'' |
 fa'' do'' r2 |
 R1 |
 r2 la'8_\markup\orig-version "fl[ute] et vi[ol]on"
-^\markup\mod-version "Flute et violon" sol' la' si' |
+^\markup\mod-version\whiteout "Flute et violon" sol' la' si' |
 do''4 do'' r2 |
 R1 |
 r2 r4 sol'_\markup\orig-version "fl[ute] et vi[ol]on"
-^\markup\mod-version "Flute et violon" |
+^\markup\mod-version\whiteout "Flute et violon" |
 do''8 si' do'' re'' do''4.\prall si'8 |
 si'2 sol'8 la' si' dod'' |
 re'' mi'' fa''4 do''2~ |

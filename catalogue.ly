@@ -161,7 +161,10 @@
         #:opus "H.314"
         #:key "Charpentier/MusiqueSacree/H314_InNativitatem"
         #:main ((urtext "Version urtext" #:score-file "urtext.ly")
-                (#f "Version de concert")))
+                (#f "Version de concert"))
+        #:parts ((dessus "Flûtes et violons")
+                 (voix "Parties vocales")
+                 (basse "Basse continue")))
        ("Noël sur les instruments"
         #:description
         ,(markup #:column ("O Createur"

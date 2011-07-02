@@ -17,7 +17,7 @@ sol''4 re''8_\markup\orig-version "vi[ol]on et flute"
 mi''8 la''16 sol'' fa'' sol'' fa'' mi'' |
 re''8 sol' sol''4. fa''16 mi'' re''8 sol''16 fa'' |
 mi''4 r r2 |
-R1*17 | %%
+R1*17 |\allowPageTurn %%
 R1*20 |
 re''4_\markup\orig-version "vi[ol]on seul"
 ^\markup\mod-version "Violon seul" do''8 re'' mi'' fa'' sol'' mi'' |
@@ -31,9 +31,9 @@ re''2 r4 sol'' |
 mi''4. fad''8 sol''4 mi'' |
 mi'' mi'' la''2 |
 re''2. r4 |
-R1 |
+R1 |\allowPageTurn
 r2 r4 si'8_\markup\orig-version\whiteout "flute seule"
-^\markup\mod-version "Flute seule" do'' |
+^\markup\mod-version\halign #-0.5 "Flute seule" do'' |
 re''4 re'' sol'' si'' |
 sol'' re'' sol''4. sol''8 |
 sol''2 r |

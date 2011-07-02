@@ -9,3 +9,12 @@
 }
 
 #(ly:set-option 'original-layout (eqv? #t (ly:get-option 'ancient-style)))
+
+\opusPartSpecs
+#`((dessus "Violons et flûtes" ()
+           (#:score "score-dessus"))
+   (voix "Parties vocales" ()
+         (#:score "score-voix"))
+   (basse "Basse continue" ()
+          (#:notes "basse-continue" #:clef "basse"
+                   #:score-template "score-basse-continue-voix2")))
