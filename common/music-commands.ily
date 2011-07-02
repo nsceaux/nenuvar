@@ -105,7 +105,7 @@ dotSign = "╸"
 dotPrall =
 #(make-music 'TextScriptEvent
              'direction UP
-             'text (markup #:override '(word-space . 2)
+             'text (markup #:override '(word-space . 1)
                            #:line (#:vcenter dotSign #:vcenter #:musicglyph "scripts.prall" )))
 
 dotDoublePrallDoublePrall =
