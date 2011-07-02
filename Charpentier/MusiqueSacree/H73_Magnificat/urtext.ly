@@ -20,7 +20,7 @@
   }
 }
 
-\markup \vspace #50
+\markup \vspace #45
 \includeScore "H73_Magnificat"
 \markup\on-the-fly
 #(lambda (layout props arg)

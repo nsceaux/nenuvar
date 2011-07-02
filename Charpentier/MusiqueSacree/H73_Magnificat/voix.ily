@@ -502,7 +502,7 @@
         fa4. fa8 fa sol |
         \origVersion\footnoteGrob #'AccidentalCautionary #'(0 . 1)
         \markup a. \markup { a. Basse, mesure 311 : altération manquante. }
-        mi?4. re8 do4 | %%  premier temps : mi bémol à la basse continue
+        mib?4. re8 do4 | %%  premier temps : mi bémol à la basse continue
         re2. |
         sol, |
         R2.*3 |
