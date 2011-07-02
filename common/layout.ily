@@ -91,6 +91,20 @@
     \Staff
     \name Staff
     \override VerticalAxisGroup #'minimum-Y-extent = #'(-4 . 4)
+    %% ancient-style: no time signature or key signature
+    %% at an end of line.
+    \override TimeSignature #'break-visibility =
+    #(if (eqv? #t (ly:get-option 'ancient-style))
+         end-of-line-invisible
+         all-visible)
+    explicitKeySignatureVisibility =
+    #(if (eqv? #t (ly:get-option 'ancient-style))
+         end-of-line-invisible
+         all-visible)
+    explicitClefVisibility =
+    #(if (eqv? #t (ly:get-option 'ancient-style))
+         end-of-line-invisible
+         all-visible)
     %% Figured bass
     ignoreFiguredBassRest = ##f
     figuredBassAlterationDirection = #RIGHT
