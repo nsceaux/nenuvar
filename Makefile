@@ -835,6 +835,38 @@ Charpentier/MusiqueSacree/H36_43_O-all: \
 
 .PHONY: Charpentier/MusiqueSacree/H36_43_O-delivery Charpentier/MusiqueSacree/H36_43_O-clean Charpentier/MusiqueSacree/H36_43_O-all
 
+### In nativitatem domini canticum
+# Version urtext
+Charpentier/MusiqueSacree/H314_InNativitatem-urtext:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H314_InNativitatem-urtext  \
+	Charpentier/MusiqueSacree/H314_InNativitatem/urtext.ly
+.PHONY: Charpentier/MusiqueSacree/H314_InNativitatem-urtext
+# Version de concert
+Charpentier/MusiqueSacree/H314_InNativitatem:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H314_InNativitatem  \
+	Charpentier/MusiqueSacree/H314_InNativitatem/main.ly
+.PHONY: Charpentier/MusiqueSacree/H314_InNativitatem
+
+Charpentier/MusiqueSacree/H314_InNativitatem-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Charpentier/H314_InNativitatem
+	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/H314_InNativitatem-urtext.pdf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem; fi
+	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem.pdf ]; then mv -fv $(OUTPUT_DIR)/H314_InNativitatem.pdf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem; fi
+	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem/H314_InNativitatem-midi.tar.gz $(OUTPUT_DIR)/H314_InNativitatem.midi $(OUTPUT_DIR)/H314_InNativitatem-[0-9]*.midi; fi
+	git archive --prefix=H314_InNativitatem/ HEAD Charpentier/MusiqueSacree/H314_InNativitatem common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H314_InNativitatem/H314_InNativitatem.tar.gz
+
+Charpentier/MusiqueSacree/H314_InNativitatem-clean:
+	@rm -f $(OUTPUT_DIR)/H314_InNativitatem-* $(OUTPUT_DIR)/H314_InNativitatem.*
+
+Charpentier/MusiqueSacree/H314_InNativitatem-all: \
+	$(OUTPUT_DIR)/H314_InNativitatem-urtext.pdf \
+	$(OUTPUT_DIR)/H314_InNativitatem.pdf\
+	Charpentier/MusiqueSacree/H314_InNativitatem-delivery\
+	Charpentier/MusiqueSacree/H314_InNativitatem-clean
+
+.PHONY: Charpentier/MusiqueSacree/H314_InNativitatem-delivery Charpentier/MusiqueSacree/H314_InNativitatem-clean Charpentier/MusiqueSacree/H314_InNativitatem-all
+
 ### Noël sur les instruments
 # Version urtext
 Charpentier/MusiqueSacree/H531_Noels-urtext:

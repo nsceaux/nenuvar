@@ -156,6 +156,12 @@
         #:key "Charpentier/MusiqueSacree/H36_43_O"
         #:main ((urtext "Version urtext" #:options "-dancient-style")
                 (#f "Version de concert")))
+       ("In nativitatem domini canticum"
+        #:description "Motet \"Quem vidistis pastores\""
+        #:opus "H.314"
+        #:key "Charpentier/MusiqueSacree/H314_InNativitatem"
+        #:main ((urtext "Version urtext" #:score-file "urtext.ly")
+                (#f "Version de concert")))
        ("Noël sur les instruments"
         #:description
         ,(markup #:column ("O Createur"
