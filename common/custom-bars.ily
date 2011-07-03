@@ -114,15 +114,22 @@
 #(define-public (bar-line::print-baroque-repeat2 bar-line)
    (let ((glyph-name (ly:grob-property bar-line 'glyph-name))
          (dir (ly:item-break-dir bar-line)))
-     (let* ((staff-line (ly:output-def-lookup (ly:grob-layout bar-line) 'line-thickness))
-            (kern (* (ly:grob-property bar-line 'kern) staff-line))
-            (thickness (* 1 (ly:grob-property bar-line 'hair-thickness) staff-line))
-            (stencil (make-simple-bar-line bar-line thickness #t)))
+     (let* ((staff-line (ly:output-def-lookup (ly:grob-layout bar-line)
+                                              'line-thickness))
+            (kern (* (ly:grob-property bar-line 'kern 1) staff-line))
+            (thin-kern (* (ly:grob-property bar-line 'thin-kern 1) staff-line))
+            (thickness (* (ly:grob-property bar-line 'hair-thickness 1) staff-line))
+            (stencil empty-stencil))
+       (set! stencil (ly:stencil-combine-at-edge
+                      stencil
+                      X LEFT
+                      (make-simple-bar-line bar-line thickness #t)
+                      thin-kern))
        (set! stencil (ly:stencil-combine-at-edge
                       stencil
                       X RIGHT
                       (make-simple-bar-line bar-line thickness #t)
-                      kern))
+                      thin-kern))
        (set! stencil (ly:stencil-combine-at-edge
                       stencil
                       X LEFT
@@ -230,7 +237,7 @@
 #(define span-bar-glyph-name-alist
    '(("|;:" . "|")
      (":;|" . "|")
-     ;(":||:" . "||")
+     (":||:" . "||")
    ))
 
 #(define-public (span-bar::custom-calc-glyph-name grob)
