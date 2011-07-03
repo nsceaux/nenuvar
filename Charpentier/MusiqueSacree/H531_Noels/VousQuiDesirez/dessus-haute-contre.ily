@@ -160,7 +160,7 @@
     la''_\markup\orig-version\whiteout { vi[ol]on seul }
     ^\markup\mod-version\whiteout "Violon seul" la''2\prall |
     sol'' do'''4_\markup\orig-version\whiteout { fl[ûte] seul }
-    ^\markup\mod-version\whiteout "flute seule" |\modVersion\noBreak
+    ^\markup\mod-version\whiteout "Flûte seule" |\modVersion\noBreak
     si'' la''2\prall |
     sol'' do'''4_\markup\orig-version\whiteout { vi[ol]on seul }
     ^\markup\mod-version\whiteout "Violon seul" |\modVersion\noBreak
