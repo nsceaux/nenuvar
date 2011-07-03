@@ -2,7 +2,7 @@
   \tag #'vdessus {
     \clef "vdessus" R1.*13 |
     s4*0^\markup\orig-version\musicglyph #"scripts.segno" R2. |
-    r4 fad''^\markup\orig-version "tous" fad'' |
+    r4 fad''^\markup\orig-version "tous"^\markup\mod-version "Tous" fad'' |
     re'' re'' re'' |
     mi'' mi''4. mi''8 |
     \whiteNoteHeadsOn dod''1 dod''2 |
@@ -44,8 +44,8 @@
     la' |
     la'2 la'2. sold'8*2 |\whiteNoteHeadsOff
     la'2. |
-    r4^\markup\orig-version\musicglyph #"scripts.segno"
-    la'^\markup\orig-version "tous" la' |
+    r4^\markup\musicglyph #"scripts.segno"
+    la'^\markup\orig-version "tous"^\markup\mod-version "Tous" la' |
     la' la' la' |
     sol'4 sol'4. sol'8 |
     \whiteNoteHeadsOn fad'1 fad'2 |
@@ -87,8 +87,8 @@
     fad'1. |
     mi'2 re'( dod'8*2) re' |
     \whiteNoteHeadsOff dod'2. |
-    r4^\markup\orig-version\musicglyph #"scripts.segno"
-    re'^\markup\orig-version "tous" re' |
+    r4^\markup\musicglyph #"scripts.segno"
+    re'^\markup\orig-version "tous"^\markup\mod-version "Tous" re' |
     si si si |
     dod' dod'4. si8 |
     \whiteNoteHeadsOn lad1 lad2 |
@@ -129,8 +129,8 @@
     re'1. |
     dod'2 si2.\prall la8*2 |
     \whiteNoteHeadsOff la2. |
-    r4^\markup\orig-version\musicglyph #"scripts.segno"
-    fad^\markup\orig-version "tous" fad |
+    r4^\markup\musicglyph #"scripts.segno"
+    fad^\markup\orig-version "tous"^\markup\mod-version "Tous" fad |
     sol sol sol |
     mi mi4. mi8 |
     fad1. |

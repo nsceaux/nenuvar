@@ -14,7 +14,7 @@
       \origVersion \newHaraKiriStaffB \withLyrics <<
         \global \keepWithTag #'vdessus \includeNotes "voix"
       >> \keepWithTag #'vdessus \includeLyrics "paroles"
-      \modVersion \new Staff \withLyrics <<
+      \modVersion \new Staff \with { \consists "Mark_engraver" } \withLyrics <<
         \global \keepWithTag #'vdessus \includeNotes "voix"
       >> \keepWithTag #'vdessus \includeLyrics "paroles"
       \new Staff \withLyrics <<
@@ -36,7 +36,7 @@
         \global \keepWithTag #'vbasse \includeNotes "voix"
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
-    \new Staff <<
+    \new Staff \with { \consists "Mark_engraver" } <<
       \global \includeNotes "basse"
       \new FiguredBass \includeFigures "chiffres"
     >>

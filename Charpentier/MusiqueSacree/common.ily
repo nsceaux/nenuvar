@@ -75,7 +75,8 @@
 
 pieceTocTitle =
 #(define-music-function (parser location title) (markup?)
-  (let ((rehearsal (rehearsal-number)))
+  (let ((rehearsal (rehearsal-number))
+        (font-size (if (symbol? (ly:get-option 'part)) 2 3)))
     (add-toc-item parser 'tocPieceMarkup
       (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
           (markup #:rehearsal-number-toc rehearsal title)
@@ -84,8 +85,8 @@ pieceTocTitle =
       (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
           (markup #:rehearsal-number rehearsal
                   #:hspace 1
-                  #:fontsize 3 title)
-          (markup #:fill-line (#:fontsize 3 title))))
+                  #:fontsize font-size title)
+          (markup #:fill-line (#:fontsize font-size title))))
     (add-no-page-break parser)
     (make-music 'Music 'void #t)))
 
