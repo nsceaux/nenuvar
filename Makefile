@@ -807,8 +807,8 @@ Charpentier/MusiqueSacree/H13_Victimae-all: \
 # Version urtext
 Charpentier/MusiqueSacree/H36_43_O-urtext:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H36_43_O-urtext -dancient-style \
-	Charpentier/MusiqueSacree/H36_43_O/main.ly
+	-o $(OUTPUT_DIR)/H36_43_O-urtext  \
+	Charpentier/MusiqueSacree/H36_43_O/urtext.ly
 .PHONY: Charpentier/MusiqueSacree/H36_43_O-urtext
 # Version de concert
 Charpentier/MusiqueSacree/H36_43_O:
@@ -816,11 +816,53 @@ Charpentier/MusiqueSacree/H36_43_O:
 	-o $(OUTPUT_DIR)/H36_43_O  \
 	Charpentier/MusiqueSacree/H36_43_O/main.ly
 .PHONY: Charpentier/MusiqueSacree/H36_43_O
+# Dessus
+Charpentier/MusiqueSacree/H36_43_O-dessus:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H36_43_O-dessus -dpart=dessus  \
+	Charpentier/MusiqueSacree/H36_43_O/part.ly
+.PHONY: Charpentier/MusiqueSacree/H36_43_O-dessus
+# Dessus et hautes-contre
+Charpentier/MusiqueSacree/H36_43_O-dessus-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H36_43_O-dessus-haute-contre -dpart=dessus-haute-contre  \
+	Charpentier/MusiqueSacree/H36_43_O/part.ly
+.PHONY: Charpentier/MusiqueSacree/H36_43_O-dessus-haute-contre
+# Hautes-contre
+Charpentier/MusiqueSacree/H36_43_O-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H36_43_O-haute-contre -dpart=haute-contre  \
+	Charpentier/MusiqueSacree/H36_43_O/part.ly
+.PHONY: Charpentier/MusiqueSacree/H36_43_O-haute-contre
+# Tailles
+Charpentier/MusiqueSacree/H36_43_O-taille:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H36_43_O-taille -dpart=taille  \
+	Charpentier/MusiqueSacree/H36_43_O/part.ly
+.PHONY: Charpentier/MusiqueSacree/H36_43_O-taille
+# Parties vocales
+Charpentier/MusiqueSacree/H36_43_O-voix:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H36_43_O-voix -dpart=voix  \
+	Charpentier/MusiqueSacree/H36_43_O/part.ly
+.PHONY: Charpentier/MusiqueSacree/H36_43_O-voix
+# Basses et basse continue
+Charpentier/MusiqueSacree/H36_43_O-basse:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H36_43_O-basse -dpart=basse  \
+	Charpentier/MusiqueSacree/H36_43_O/part.ly
+.PHONY: Charpentier/MusiqueSacree/H36_43_O-basse
 
 Charpentier/MusiqueSacree/H36_43_O-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H36_43_O
 	@if [ -e $(OUTPUT_DIR)/H36_43_O-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-urtext.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
 	@if [ -e $(OUTPUT_DIR)/H36_43_O.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
+	@if [ -e $(OUTPUT_DIR)/H36_43_O-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-dessus.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
+	@if [ -e $(OUTPUT_DIR)/H36_43_O-dessus-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-dessus-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
+	@if [ -e $(OUTPUT_DIR)/H36_43_O-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
+	@if [ -e $(OUTPUT_DIR)/H36_43_O-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-taille.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
+	@if [ -e $(OUTPUT_DIR)/H36_43_O-voix.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-voix.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
+	@if [ -e $(OUTPUT_DIR)/H36_43_O-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-basse.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
 	@if [ -e $(OUTPUT_DIR)/H36_43_O-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H36_43_O/H36_43_O-midi.tar.gz $(OUTPUT_DIR)/H36_43_O.midi $(OUTPUT_DIR)/H36_43_O-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H36_43_O.midi ]; then cp $(OUTPUT_DIR)/H36_43_O.midi $(DELIVERY_DIR)/Charpentier/H36_43_O/ ; fi
 	git archive --prefix=H36_43_O/ HEAD Charpentier/MusiqueSacree/H36_43_O common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H36_43_O/H36_43_O.tar.gz
 
@@ -829,7 +871,13 @@ Charpentier/MusiqueSacree/H36_43_O-clean:
 
 Charpentier/MusiqueSacree/H36_43_O-all: \
 	Charpentier/MusiqueSacree/H36_43_O-urtext \
-	Charpentier/MusiqueSacree/H36_43_O\
+	Charpentier/MusiqueSacree/H36_43_O \
+	Charpentier/MusiqueSacree/H36_43_O-dessus \
+	Charpentier/MusiqueSacree/H36_43_O-dessus-haute-contre \
+	Charpentier/MusiqueSacree/H36_43_O-haute-contre \
+	Charpentier/MusiqueSacree/H36_43_O-taille \
+	Charpentier/MusiqueSacree/H36_43_O-voix \
+	Charpentier/MusiqueSacree/H36_43_O-basse\
 	Charpentier/MusiqueSacree/H36_43_O-delivery\
 	Charpentier/MusiqueSacree/H36_43_O-clean
 

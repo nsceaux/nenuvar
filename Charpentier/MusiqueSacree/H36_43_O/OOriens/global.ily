@@ -2,9 +2,9 @@
   {
     \keys re \major
     \time 3/2 \midiTempo #160 s1.*13
-    \digitTime\time 3/4 \modVersion\tempo "Gai" \origVersion\tempo "guay" s2.*4
+    \digitTime\time 3/4 \modVersion\tempo "Guay" \origVersion\tempo "guay" s2.*4
     \time 3/2 s1.*11
-    \digitTime\time 3/4 \modVersion\tempo "Gai" \origVersion\tempo "guay" s2.*4
+    \digitTime\time 3/4 \modVersion\tempo "Guay" \origVersion\tempo "guay" s2.*4
     \time 3/2 s1.*8 \bar "|."
   }
   \origVersion {

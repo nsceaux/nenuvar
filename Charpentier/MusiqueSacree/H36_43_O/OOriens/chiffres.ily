@@ -5,7 +5,7 @@
 
 %%
 <_+>1. <_>1.*2 <_+>1. <6> <9>2 <8>1 <7>2 <6+>1 <5+>1.
-<\markup\triangle-up 5 4 3 >1. %{<5 4>1\figExtOn <5 3>2\figExtOff%} <_+>1. <_>
+<\markup\triangle-up 5 4 3 >1. <_+>1. <_>
 
 <_+>2. <_+> <_>2.*2 <_>1.*2 <6 4 2>1. <_> <7>2 <6>1 <9 7 3>1 <8 6 4>2
-<\markup\triangle-up 5 4 3 >1. %{<5 4>1\figExtOn <5 3>2\figExtOff%}
+<\markup\triangle-up 5 4 3 >1.

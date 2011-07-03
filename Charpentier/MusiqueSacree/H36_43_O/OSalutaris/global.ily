@@ -2,7 +2,7 @@
 <<
   {
     \time 3/2 \midiTempo #120 s1.*22
-    \digitTime\time 3/4 \origVersion\tempo "guay" \modVersion\tempo "Gai"
+    \digitTime\time 3/4 \origVersion\tempo "guay" \modVersion\tempo "Guay"
     s2.*40
     \time 2/2 s1*4 \bar "|."
   }

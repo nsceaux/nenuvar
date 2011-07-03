@@ -154,8 +154,14 @@
         #:description "Salut de la veille des O et les 7 O suivant le Romain."
         #:opus "H.36-43"
         #:key "Charpentier/MusiqueSacree/H36_43_O"
-        #:main ((urtext "Version urtext" #:options "-dancient-style")
-                (#f "Version de concert")))
+        #:main ((urtext "Version urtext" #:score-file "urtext.ly")
+                (#f "Version de concert"))
+        #:parts ((dessus "Dessus")
+                 (dessus-haute-contre "Dessus et hautes-contre")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (voix "Parties vocales")
+                 (basse "Basses et basse continue")))
        ("In nativitatem domini canticum"
         #:description "Motet \"Quem vidistis pastores\""
         #:opus "H.314"

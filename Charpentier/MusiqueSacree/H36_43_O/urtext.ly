@@ -1,4 +1,4 @@
-#(ly:set-option 'ancient-style #t)
+#(ly:set-option 'urtext #t)
 \include "Charpentier/MusiqueSacree/H36_43_O/common.ily"
 
 \paper {

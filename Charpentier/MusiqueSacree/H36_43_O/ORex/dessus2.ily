@@ -1,6 +1,6 @@
 \clef "dessus"
 \origVersion s4*0_\markup { \concat { S \super d } vi[ol]on seul }
-\modVersion s4*0^\markup { \concat { 2 \super è } violon seul } |
+\modVersion s4*0^\markup\whiteout { \concat { 2 \super nd } violon seul } |
 R1*2 |
 r4 r8 dod'' re'' mi'' dod''8. re''16 |
 re''4 r r2 |

@@ -1,0 +1,6 @@
+\piecePartSpecs #`((dessus)
+                   (haute-contre)
+                   (dessus-haute-contre)
+                   (taille)
+                   (voix)
+                   (basse))

@@ -3,7 +3,7 @@
     \keys sib \major
     \time 3/2 \midiTempo #160 s1.*6
     \time 2/2 s1*26
-    \modVersion \tempo "Gai"
+    \modVersion \tempo "Guay"
     \origVersion \tempo "guay"
     \digitTime\time 3/4 s2.*36 \bar "|."
   }
