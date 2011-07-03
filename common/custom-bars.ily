@@ -16,22 +16,20 @@
                       (cons y1 y2))))
 
 #(define-public (make-simple-bar-line grob width rounded)
-   (let* ((staff-symbol (ly:grob-object grob 'staff-symbol))
-          (staff-extent (ly:grob-extent staff-symbol staff-symbol Y))
-          (height (interval-length staff-extent))
+   (let* ((extent (ly:grob-property grob 'bar-extent))
+          (height (interval-length extent))
           (blot-diameter (if rounded
                              (ly:output-def-lookup (ly:grob-layout grob) 'blot-diameter)
                              0)))
      (make-round-filled-box 0 width (/ height -2) (/ height 2) blot-diameter)))
 
 #(define-public (make-dotted-bar-line grob)
-   (let* ((staff-symbol (ly:grob-object grob 'staff-symbol))
-          (staff-extent (ly:grob-extent staff-symbol staff-symbol Y))
-          (position (round (* (interval-end staff-extent) 2)))
+   (let* ((extent (ly:grob-property grob 'bar-extent))
+          (position (round (* (interval-end extent) 2)))
           (correction (if (even? position) 0.5 0.0))
           (stencil empty-stencil))
-     (let ((e (round (+ (interval-end staff-extent) (- 0.5 correction)))))
-       (do ((i (round (+ (interval-start staff-extent) (- 0.5 correction)))
+     (let ((e (round (+ (interval-end extent) (- 0.5 correction)))))
+       (do ((i (round (+ (interval-start extent) (- 0.5 correction)))
                (1+ i)))
            ((>= i e))
          (set! stencil
@@ -190,7 +188,6 @@
 
 #(define custom-bar-glyph-alist
    '(("|:|" . ("|:|" . ()))
-     ;(":|" . ("|:|" . ()))
      (":||:" . (":||:" . ()))
      (";:" . (() . ";:"))
      (":;" . (":;" . ()))
