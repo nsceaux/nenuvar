@@ -17,10 +17,19 @@
       \new Staff <<
         \global \keepWithTag #'haute-contre-dessus2 \includeNotes "dessus-haute-contre" >>
     >>
-    \new Staff <<
-      \global \includeNotes "taille" >>
-    \new Staff <<
-      \global \includeNotes "basse"
+    \new Staff << \global \includeNotes "taille" >>
+    \new Staff \with { \consists "Mark_engraver" } <<
+      \global
+      \includeNotes "basse"
+      { s8 \override Staff.RehearsalMark #'direction = #DOWN s1
+        \modVersion\override Staff.RehearsalMark #'stencil = ##f
+        s1*55
+        \origVersion\override Staff.RehearsalMark #'stencil =
+        #(lambda (grob)
+           (set! (ly:grob-property grob 'text)
+                 (markup #:musicglyph "scripts.segno"))
+           (ly:text-interface::print grob))
+      }
       \modVersion \new FiguredBass \includeFigures "chiffres"
       \origVersion \includeFigures "chiffres"
     >>

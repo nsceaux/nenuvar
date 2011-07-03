@@ -1,5 +1,6 @@
 \clef "taille" r4 |
-r2 re'4_\markup\orig-version\whiteout "Tous" la'~ |
+r2 re'4_\markup\orig-version\whiteout "Tous"
+^\markup\mod-version\whiteout\center-align "Tous" la'~ |
 la' la'2 sol'4 |
 fa'2 mi'~ |
 mi' re'4 dod' |

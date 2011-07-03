@@ -2,11 +2,11 @@
 
 \bookpart {
   \header { title = "Noëls sur les instruments" }
-  \pieceTocTitle "Les Bourgeois de Châtre"
+  \pieceTocTitle "Les Bourgeois de Chastre"
   \includeScore "BourgeoisChastre"
 }
 \bookpart {
-  \pieceTocTitle "Où s'en vont ces gais bergers"
+  \pieceTocTitle "Ou sen vont ces guays bergers"
   \includeScore "GaisBergers"
 
   \pieceTocTitle "Joseph est bien marié"
@@ -16,7 +16,7 @@
   \includeScore "DitesMarie"
 }
 \bookpart {
-  \pieceTocTitle "À la venue de Noël"
+  \pieceTocTitle "A la venue de Noel"
   \includeScore "VenueNoel"
 
   \pieceTocTitle "Une jeune pucelle"

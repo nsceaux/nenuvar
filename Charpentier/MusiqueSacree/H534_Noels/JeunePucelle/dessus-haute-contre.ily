@@ -1,6 +1,7 @@
 <<
   \setMusic #'Adessus {
-    \clef "dessus" la'4_\markup\orig-version\whiteout\center-align "Tous" |
+    \clef "dessus" la'4_\markup\orig-version\whiteout\center-align "Tous"
+    ^\markup\mod-version\whiteout\center-align "Tous" |
     re'' mi'' fa'' fa'' |
     mi''2\prall re''4 dod'' |
     re''2 mi'' |
@@ -29,7 +30,8 @@
   }
   \setMusic #'Ahc {
     \clef "haute-contre" r4 |
-    r la'_\markup\orig-version\whiteout "Tous" re'' re'' |
+    r la'_\markup\orig-version\whiteout "Tous"
+    ^\markup\mod-version\whiteout\center-align "Tous" re'' re'' |
     dod''2 re''4 mi'' |
     la'2 sol'~ |
     sol' fa'4 mi' |

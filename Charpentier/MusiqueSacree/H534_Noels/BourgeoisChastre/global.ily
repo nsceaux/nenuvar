@@ -1,8 +1,11 @@
 \keys sib \major
 \time 2/2 \midiTempo #180 \partial 8
 <<
-  { s8 \segnoMark s1*27 s2. \modVersion\fineMark
-    s4 s1*28 \modVersion\dalSegnoMark \bar "|." }
+  { s8 \segnoMark s1*27 s2.
+    \modVersion { \dacapoOverrides \mark \markup \right-align \italic "[Fin.]" }
+    s4 s1*28 \bar "|."
+    \modVersion { \dacapoOverrides \mark \markup \right-align \italic "[Dal Segno.]" }
+  }
   \origVersion {
     s8\noBreak \ru#8 { s1\noBreak } s1\break
     \ru#9 { s1\noBreak } s2 \bar "" \break

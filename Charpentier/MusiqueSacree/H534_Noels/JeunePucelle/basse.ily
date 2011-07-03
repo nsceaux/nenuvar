@@ -1,5 +1,6 @@
 \clef "basse" r4 |
-r2 r4 re_\markup\orig-version\whiteout\center-align "Tous" |
+r2 r4 re_\markup\orig-version\whiteout\center-align "Tous"
+^\markup\mod-version\whiteout\center-align "Tous" |
 la sol fa mi |
 fa2 dod |
 re1~ |

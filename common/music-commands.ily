@@ -227,6 +227,15 @@ alternatives =
           $second
           \set Score.repeatCommands = #'((volta #f)) #}))
 
+modAlternatives =
+#(define-music-function (parser location first second) (ly:music? ly:music?)
+   #{ \set Score.repeatCommands = #'((volta "1."))
+      $first
+      \bar ":|"
+      \set Score.repeatCommands = #'((volta #f) (volta "2."))
+      $second
+      \set Score.repeatCommands = #'((volta #f)) #})
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% smaller notes

@@ -1,4 +1,4 @@
-#(ly:set-option 'ancient-style #t)
+#(ly:set-option 'urtext #t)
 \include "Charpentier/MusiqueSacree/H534_Noels/common.ily"
 \paper {
   #(define original-page-number-table '((1  . "Vol. 5 p. 22-v")
@@ -37,14 +37,14 @@
 }
 \bookpart {
   \markup \vspace #15
-  \pieceTocTitle "À la venue de Noël"
+  \pieceTocTitle "A la venue de Noel"
   \includeScore "VenueNoel"
   \pieceTocTitle "Une jeune pucelle"
   \includeScore "JeunePucelle"
   \markup \vspace #35
 }
 \bookpart {
-  \pieceTocTitle "Les Bourgeois de Chastre"
+  \pieceTocTitle "[Les Bourgeois de Chastre]"
   \includeScore "BourgeoisChastre"
   \markup \vspace #50
 }

@@ -1,5 +1,5 @@
-\piecePartSpecs #`((dessus1 #:notes "dessus-haute-contre")
-                   (dessus2 #:notes "dessus-haute-contre")
-                   (haute-contre #:notes "dessus-haute-contre")
+\piecePartSpecs #`((dessus)
+                   (dessus-haute-contre)
+                   (haute-contre)
                    (taille)
                    (basse))

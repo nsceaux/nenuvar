@@ -2,7 +2,7 @@
   {
     \keys re \major
     \time 2/2 \midiTempo #160 \partial 2 s2 s1*19
-    \digitTime\time 3/4 \modVersion \tempo "Gai" s2.*40
+    \digitTime\time 3/4 \modVersion \tempo "Guay" s2.*40
     \time 2/2 s2 \bar "|."
   }
   \origVersion {
