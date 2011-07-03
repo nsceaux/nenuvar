@@ -60,12 +60,15 @@
       >>
       \new ChoirStaff <<
         \new Staff \with { \haraKiri } \withLyrics <<
+          { s1*19 \noHaraKiri s1*17 \revertNoHaraKiri }
           \global \keepWithTag #'vdessus \includeNotes "voix"
         >> \keepWithTag #'vdessus \includeLyrics "paroles"
         \new Staff \with { \haraKiri } \withLyrics <<
+          { s1*19 \noHaraKiri s1*17 \revertNoHaraKiri }
           \global \keepWithTag #'vhaute-contre \includeNotes "voix"
         >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
         \new Staff \with { \haraKiri } \withLyrics <<
+          { s1*19 \noHaraKiri s1*17 \revertNoHaraKiri }
           \global \keepWithTag #'vtaille \includeNotes "voix"
         >> \keepWithTag #'vtaille \includeLyrics "paroles"
         \new Staff \with { \haraKiri } \withLyrics <<
