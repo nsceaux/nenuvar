@@ -111,6 +111,30 @@
          kern)
         kern))))
 
+#(define-public (bar-line::print-baroque-repeat2 bar-line)
+   (let ((glyph-name (ly:grob-property bar-line 'glyph-name))
+         (dir (ly:item-break-dir bar-line)))
+     (let* ((staff-line (ly:output-def-lookup (ly:grob-layout bar-line) 'line-thickness))
+            (kern (* (ly:grob-property bar-line 'kern) staff-line))
+            (thickness (* 1 (ly:grob-property bar-line 'hair-thickness) staff-line))
+            (stencil (make-simple-bar-line bar-line thickness #t)))
+       (set! stencil (ly:stencil-combine-at-edge
+                      stencil
+                      X RIGHT
+                      (make-simple-bar-line bar-line thickness #t)
+                      kern))
+       (set! stencil (ly:stencil-combine-at-edge
+                      stencil
+                      X LEFT
+                      (make-dotted-bar-line bar-line)
+                      kern))
+       (set! stencil (ly:stencil-combine-at-edge
+                      stencil
+                      X RIGHT
+                      (make-dotted-bar-line bar-line)
+                      kern))
+       stencil)))
+
 #(define-public ((bar-line::print-dashed-repeat is-start-bar with-extra-bar) bar-line)
    (let* ((staff-line (ly:output-def-lookup (ly:grob-layout bar-line) 'line-thickness))
           (thin-thickness (* (ly:grob-property bar-line 'hair-thickness) staff-line))
@@ -144,6 +168,7 @@
 
 #(define custom-bar-glyph-print-functions
    `(("|:|" . ,bar-line::print-baroque-repeat)
+     (":||:" . ,bar-line::print-baroque-repeat2)
      (";:" . ,(bar-line::print-dashed-repeat #t #f))
      (":;" . ,(bar-line::print-dashed-repeat #f #f))
      ("|;:" . ,(bar-line::print-dashed-repeat #t #t))
@@ -159,6 +184,7 @@
 #(define custom-bar-glyph-alist
    '(("|:|" . ("|:|" . ()))
      ;(":|" . ("|:|" . ()))
+     (":||:" . (":||:" . ()))
      (";:" . (() . ";:"))
      (":;" . (":;" . ()))
      ("|;:" . ("|" . ";:"))
@@ -203,7 +229,9 @@
 
 #(define span-bar-glyph-name-alist
    '(("|;:" . "|")
-     (":;|" . "|")))
+     (":;|" . "|")
+     ;(":||:" . "||")
+   ))
 
 #(define-public (span-bar::custom-calc-glyph-name grob)
    (let* ((glyph #f)
@@ -234,66 +262,3 @@
     \override SpanBar #'glyph-name = #span-bar::custom-calc-glyph-name
   }
 }
-
-%%% Baroque volta brackets (should be more like braces, actually)
-%{
-#(define baroque-volta-bracket-engraver
-   (lambda (context)
-     (let ((bracket-spanner #f)
-           (start-event #f)
-           (stoppable #f))
-       `((stop-translation-timestep
-          . ,(lambda (translator)
-               (if (and bracket-spanner
-                        (not (null? (ly:spanner-bound bracket-spanner LEFT)))
-                        (not (null? (ly:spanner-bound bracket-spanner RIGHT))))
-                   (set! bracket-spanner #f))
-               (set! start-event #f)))
-         (process-music
-          . ,(lambda (translator)
-               (if (and start-event (not bracket-spanner))
-                   (begin
-                     (set! bracket-spanner
-                           (ly:engraver-make-grob translator
-                                                  'HorizontalBracket
-                                                  start-event))
-                     (set! (ly:grob-property bracket-spanner 'Y-offset)
-                           (lambda (grob)
-                             (format #t "~%spanner Y-offset: ~a"
-                                     (ly:side-position-interface::y-aligned-side grob))
-                             (ly:side-position-interface::y-aligned-side grob)))
-                     (set! (ly:grob-property bracket-spanner 'direction) UP)
-                     (set! (ly:grob-property bracket-spanner 'outside-staff-padding) 15)
-                     (set! (ly:grob-property bracket-spanner 'bracket-flare) '(0.0 . 0.0))
-                     (set! (ly:grob-property bracket-spanner 'thickness) 1.5)))))
-         (listeners
-          . ((note-grouping-event
-              . ,(lambda (engraver event)
-                   (if (= (ly:event-property event 'span-direction) STOP)
-                       (set! stoppable #t)
-                       (set! start-event event))))))
-         (acknowledgers
-          . ((paper-column-interface
-              . ,(lambda (engraver grob source-engraver)
-                   (let ((column (ly:context-property (ly:translator-context engraver)
-                                                    'currentCommandColumn)))
-                     (if bracket-spanner
-                       (begin
-                         (ly:pointer-group-interface::add-grob
-                          bracket-spanner 'side-support-elements grob)
-                         (ly:pointer-group-interface::add-grob
-                          bracket-spanner 'columns grob)
-                         (if (null? (ly:spanner-bound bracket-spanner LEFT))
-                             (ly:spanner-set-bound! bracket-spanner LEFT column))
-                         (if stoppable
-                             (begin
-                               (set! stoppable #f)
-                               (ly:spanner-set-bound! bracket-spanner RIGHT grob))))))))))))))
-
-\layout {
-  \context {
-    \Score
-    \consists #baroque-volta-bracket-engraver
-  }
-}
-%}
