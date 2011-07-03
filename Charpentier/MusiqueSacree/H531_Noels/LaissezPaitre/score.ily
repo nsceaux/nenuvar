@@ -13,7 +13,12 @@
       >>
       \new Staff << \global \keepWithTag #'haute-contre \includeNotes "dessus-haute-contre" >>
       \new Staff << \global \includeNotes "taille" >>
-      \new Staff << \global \includeNotes "basse" \new FiguredBass \includeFigures "chiffres" >>
+      \new Staff \with { \consists "Mark_engraver" } <<
+        \global
+        { s8 s1*9 \override Staff.RehearsalMark #'direction = #DOWN }
+        \includeNotes "basse"
+        \new FiguredBass \includeFigures "chiffres"
+      >>
     >>
     \origVersion <<
       \new Staff <<

@@ -16,7 +16,7 @@
                                                             #:number (#:column ("3" "2")))))))
     \override Score.NonMusicalPaperColumn #'line-break-permission = ##f
     \override Score.NonMusicalPaperColumn #'page-break-permission = ##f
-    s1.*8 \bar ":|:" s1.*3\break
+    s1.*8 \bar ":||:" s1.*3\break
     s1.*7 \bar "|."
     \once \override Score.BreakAlignment #'break-align-orders =
     #(make-vector 3 '(span-bar
@@ -27,6 +27,6 @@
                       time-signature))
     \time 3/2 s1.*3 \break
     s1.*7\pageBreak
-    s1.*8 \bar ":|"
+    s1.*8 \bar ":||:"
   }
 >>

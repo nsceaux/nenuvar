@@ -1,6 +1,7 @@
 <<
   \setMusic #'Adessus {
-    \clef "dessus" sol'8^\markup\orig-version\center-align "tous" |
+    \clef "dessus" sol'8^\markup\orig-version\center-align "tous"
+    ^\markup\mod-version\center-align "Tous" |
     do''4. re''8 mi''4. mi''8 |
     fa''2 re''4.\prall re''8 |
     do''4. si'8 la'4 si'8 do'' |
@@ -8,7 +9,7 @@
     do''4. re''8 mi''4. mi''8 |
     fa''2 fa''4 sol''8 fa'' |
     mi''4. fa''8 re''4. do''8 |
-    << \origVersion { do''2. s4 } \modVersion { do''2. r8 sol'8 } >> |
+    do''2. s4 |
     do''1 |
   }
   \setMusic #'Ahc {
@@ -20,7 +21,7 @@
     mi'4. sol'8 do''4. do''8 |
     re''4. do''8 si'4 do''8 re'' |
     do''4 si'8 la' sol'4. sol'8 |
-    << \origVersion { sol'2. s4 } \modVersion { sol'2. r8 mi' } >>|
+    sol'2. s4 |
     sol'1 |
   }
   \setMusic #'BdessusI {

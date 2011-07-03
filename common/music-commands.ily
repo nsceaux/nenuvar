@@ -200,23 +200,26 @@ whiteNoteHeadsOff = {
 alternatives =
 #(define-music-function (parser location first second) (ly:music? ly:music?)
    (if (eqv? #t (ly:get-option 'baroque-repeats))
-       #{ \once \override Score.VoltaBracket #'stencil =
-          #(lambda (grob)
-             (let* ((volta (ly:volta-bracket-interface::print grob))
-                    (edge-heights (ly:grob-property grob 'edge-height))
-                    (height (if (pair? edge-heights)
-                                (car edge-heights)
-                                1.5))
-                    (thickness (* (ly:grob-property grob 'thickness 1.6)
-                                  (ly:staff-symbol-line-thickness grob))))
-               (ly:stencil-combine-at-edge
-                volta X RIGHT
-                (make-line-stencil thickness 0 0 0 (- height))
-                0)))
-          \once \override Score.VoltaBracket #'edge-height = #'(1.5 . 1.5)
-          \set Score.repeatCommands = #'((volta " "))
-          $first \bar "|:|" \noBreak
-          << $second >> <<{ s4*0 \set Score.repeatCommands = #'((volta #f)) } >> #}
+       (let ((repeat-bar (if (string? (ly:get-option 'baroque-repeat-bar))
+                             (ly:get-option 'baroque-repeat-bar)
+                             "|:|")))
+         #{ \once \override Score.VoltaBracket #'stencil =
+                  #(lambda (grob)
+                     (let* ((volta (ly:volta-bracket-interface::print grob))
+                            (edge-heights (ly:grob-property grob 'edge-height))
+                            (height (if (pair? edge-heights)
+                                        (car edge-heights)
+                                        1.5))
+                            (thickness (* (ly:grob-property grob 'thickness 1.6)
+                                          (ly:staff-symbol-line-thickness grob))))
+                       (ly:stencil-combine-at-edge
+                        volta X RIGHT
+                        (make-line-stencil thickness 0 0 0 (- height))
+                        0)))
+                  \once \override Score.VoltaBracket #'edge-height = #'(1.5 . 1.5)
+                  \set Score.repeatCommands = #'((volta " "))
+                  $first \bar $repeat-bar \noBreak
+                  << $second >> <<{ s4*0 \set Score.repeatCommands = #'((volta #f)) } >> #})
        #{ \set Score.repeatCommands = #'((volta "1."))
           $first
           \bar ":|"

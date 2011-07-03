@@ -1,0 +1,6 @@
+\piecePartSpecs #(let ((breaks #{ s2.*21\break s2.*40\break #}))
+                   `((dessus)
+                     (dessus-haute-contre)
+                     (haute-contre #:music ,breaks)
+                     (taille #:music ,breaks)
+                     (basse #:music ,breaks)))

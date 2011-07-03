@@ -4,6 +4,7 @@
     \line { Salut de la veille des O }
     \line { et les 7 O suivant le Romain }
   }
+  instrument = #(*part-name*)
 }
 
 \pieceTocTitle \markup { Salut pour la veille des O : \italic { O salutaris hostia } }

@@ -178,8 +178,13 @@
                            "Vous qui désirez sans fin"))
         #:opus "H.531"
         #:key "Charpentier/MusiqueSacree/H531_Noels"
-        #:main ((urtext "Version urtext" #:options "-dancient-style")
-                (#f "Version de concert")))
+        #:main ((urtext "Version urtext" #:score-file "urtext.ly")
+                (#f "Version de concert"))
+        #:parts ((dessus "Dessus")
+                 (dessus-haute-contre "Dessus et hautes-contre")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (basse "Basses et basse continue")))
        ("Noël sur les instruments"
         #:description
         ,(markup #:column ("Les bourgeois de Châtre"

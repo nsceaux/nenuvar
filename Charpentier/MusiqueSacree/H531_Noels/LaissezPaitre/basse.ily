@@ -1,4 +1,5 @@
-\clef "basse" << \origVersion s8^\markup\center-align\whiteout "tous" \modVersion r >> |
+\clef "basse" << \origVersion s8^\markup\center-align\whiteout "tous"
+  \modVersion r_\markup\center-align\whiteout "Tous" >> |
 do'4._\markup\orig-version "tous" si8 la4. sol8 |
 fa2 sol4. sol8 |
 la4. sol8 fad4. fad8 |

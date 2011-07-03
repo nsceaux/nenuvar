@@ -1,6 +1,8 @@
 
 #(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'baroque-repeats #t) %(eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'baroque-repeat-bar ":||:")
 
 %% Staff size:
 %%  12 for urtext lead sheet
@@ -39,6 +41,47 @@
 
 \layout {
   reference-incipit-width = #(* 1/2 mm)
+
+  \context {
+    \Score
+    %% Clef after bar-line (in unbroken case)
+    \override BreakAlignment #'break-align-orders =
+    ##(;; end of line
+       (left-edge
+       cue-end-clef
+       ambitus
+       breathing-sign
+       clef
+       cue-clef
+       staff-bar
+       key-cancellation
+       key-signature
+       time-signature
+       custos)
+      ;; unbroken
+      (left-edge
+       cue-end-clef
+       ambitus
+       breathing-sign
+       staff-bar
+       clef
+       cue-clef
+       key-cancellation
+       key-signature
+       time-signature
+       custos)
+      ;; begin of line
+      (left-edge
+       ambitus
+       breathing-sign
+       clef
+       key-cancellation
+       key-signature
+       staff-bar
+       time-signature
+       cue-clef
+       custos))
+  }
   \context {
     \Voice
     \override FootnoteItem #'annotation-line = ##f

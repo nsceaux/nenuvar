@@ -6,7 +6,7 @@ sol'4. fa'8 mi'4. fa'8 |
 sol'4. sol'8 la'4. mi'8 |
 la'4. la'8 re''4. re''8 |
 sol'4 do'8 re' si4 do'8 re' |
-mi'2. << \origVersion s4 \modVersion { r8 do' } >> |
+mi'2. s4 |
 mi'1 |
 R1*17 |
 r2 sol' |

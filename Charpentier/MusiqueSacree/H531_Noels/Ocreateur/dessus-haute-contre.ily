@@ -50,7 +50,7 @@
     re''2^\markup\orig-version\whiteout "vi[ol]on et fl[ûte]"
     ^\markup\mod-version\whiteout "Violon et flûte"
     _\markup\orig-version "reprise"
-    ^\markup\orig-version\huge { Pour la seconde fois apres le chœur }
+    ^\markup\orig-version\whiteout\huge { Pour la seconde fois apres le chœur }
     re''2. re''8*2 |
     mi''2. re''8*2 do''2 |
     fa''2 fa''2.\prall mi''8*2 |

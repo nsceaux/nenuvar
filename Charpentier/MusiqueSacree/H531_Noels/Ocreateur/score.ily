@@ -3,7 +3,7 @@
     \origVersion \new StaffGroup <<
       \new Staff = "A" \with { \haraKiri } <<
         { \instrumentName \markup \center-column \fontsize #2 { "Noël" "O createur" }
-          s1.*18 \stopStaff
+          s1.*18 %\stopStaff
           \override Staff.TimeSignature #'break-visibility = ##(#f #f #f)
         }
         \new Voice << { s1.*18 \change Staff = "B" } \global >>

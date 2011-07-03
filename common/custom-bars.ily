@@ -121,12 +121,12 @@
        (set! stencil (ly:stencil-combine-at-edge
                       stencil
                       X LEFT
-                      (make-simple-bar-line bar-line thickness #t)
+                      (make-simple-bar-line bar-line thickness #f)
                       thin-kern))
        (set! stencil (ly:stencil-combine-at-edge
                       stencil
                       X RIGHT
-                      (make-simple-bar-line bar-line thickness #t)
+                      (make-simple-bar-line bar-line thickness #f)
                       thin-kern))
        (set! stencil (ly:stencil-combine-at-edge
                       stencil
