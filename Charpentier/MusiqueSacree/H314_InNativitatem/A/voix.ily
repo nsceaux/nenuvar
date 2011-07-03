@@ -88,7 +88,7 @@
     do' r r la'8. sol'16 |
     fa'16[ sol' la' sol' fa' sol' fa' mi']( re'8) re' sol'8. sol'16 |
     sol'8[ fa'16 mi']( fa'4.) mi'8 re'8. re'16 |
-    sol'4( fa'8) mi' mi'4( re')\prall |
+    sol'4( fa'8)\prall mi' mi'4( re')\prall |
     mi'1 | %%
     R1*17 |
     r2 do'4 do'8 do' |

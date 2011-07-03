@@ -57,7 +57,7 @@ do''4 do'' r2 |
 R1 |
 r2 r4 sol'_\markup\orig-version "fl[ute] et vi[ol]on"
 ^\markup\mod-version\whiteout "Flute et violon" |
-do''8 si' do'' re'' do''4.\prall si'8 |
+do''8 si' do'' re'' do''4.\upprall si'8 |
 si'2 sol'8 la' si' dod'' |
 re'' mi'' fa''4 do''2~ |
 do'' do''4 do'' |
