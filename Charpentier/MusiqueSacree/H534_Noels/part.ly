@@ -5,6 +5,12 @@
   instrument = #(*part-name*)
 }
 
+\paper {
+  first-page-number = #(if (eqv? (ly:get-option 'part) 'dessus-haute-contre)
+                           2
+                           1)
+}
+
 \pieceTocTitle "Les Bourgeois de Chastre"
 \includeScore "BourgeoisChastre"
 

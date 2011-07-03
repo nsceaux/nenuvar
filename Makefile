@@ -1015,8 +1015,8 @@ Charpentier/MusiqueSacree/H531_Noels-all: \
 # Version urtext
 Charpentier/MusiqueSacree/H534_Noels-urtext:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H534_Noels-urtext -dancient-style \
-	Charpentier/MusiqueSacree/H534_Noels/main.ly
+	-o $(OUTPUT_DIR)/H534_Noels-urtext  \
+	Charpentier/MusiqueSacree/H534_Noels/urtext.ly
 .PHONY: Charpentier/MusiqueSacree/H534_Noels-urtext
 # Version de concert
 Charpentier/MusiqueSacree/H534_Noels:
@@ -1024,11 +1024,46 @@ Charpentier/MusiqueSacree/H534_Noels:
 	-o $(OUTPUT_DIR)/H534_Noels  \
 	Charpentier/MusiqueSacree/H534_Noels/main.ly
 .PHONY: Charpentier/MusiqueSacree/H534_Noels
+# Dessus
+Charpentier/MusiqueSacree/H534_Noels-dessus:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H534_Noels-dessus -dpart=dessus  \
+	Charpentier/MusiqueSacree/H534_Noels/part.ly
+.PHONY: Charpentier/MusiqueSacree/H534_Noels-dessus
+# Dessus et hautes-contre
+Charpentier/MusiqueSacree/H534_Noels-dessus-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H534_Noels-dessus-haute-contre -dpart=dessus-haute-contre  \
+	Charpentier/MusiqueSacree/H534_Noels/part.ly
+.PHONY: Charpentier/MusiqueSacree/H534_Noels-dessus-haute-contre
+# Hautes-contre
+Charpentier/MusiqueSacree/H534_Noels-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H534_Noels-haute-contre -dpart=haute-contre  \
+	Charpentier/MusiqueSacree/H534_Noels/part.ly
+.PHONY: Charpentier/MusiqueSacree/H534_Noels-haute-contre
+# Tailles
+Charpentier/MusiqueSacree/H534_Noels-taille:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H534_Noels-taille -dpart=taille  \
+	Charpentier/MusiqueSacree/H534_Noels/part.ly
+.PHONY: Charpentier/MusiqueSacree/H534_Noels-taille
+# Basses et basse continue
+Charpentier/MusiqueSacree/H534_Noels-basse:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H534_Noels-basse -dpart=basse  \
+	Charpentier/MusiqueSacree/H534_Noels/part.ly
+.PHONY: Charpentier/MusiqueSacree/H534_Noels-basse
 
 Charpentier/MusiqueSacree/H534_Noels-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H534_Noels
 	@if [ -e $(OUTPUT_DIR)/H534_Noels-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-urtext.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H534_Noels.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
+	@if [ -e $(OUTPUT_DIR)/H534_Noels-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-dessus.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
+	@if [ -e $(OUTPUT_DIR)/H534_Noels-dessus-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-dessus-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
+	@if [ -e $(OUTPUT_DIR)/H534_Noels-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
+	@if [ -e $(OUTPUT_DIR)/H534_Noels-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-taille.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
+	@if [ -e $(OUTPUT_DIR)/H534_Noels-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-basse.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H534_Noels-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H534_Noels/H534_Noels-midi.tar.gz $(OUTPUT_DIR)/H534_Noels.midi $(OUTPUT_DIR)/H534_Noels-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H534_Noels.midi ]; then cp $(OUTPUT_DIR)/H534_Noels.midi $(DELIVERY_DIR)/Charpentier/H534_Noels/ ; fi
 	git archive --prefix=H534_Noels/ HEAD Charpentier/MusiqueSacree/H534_Noels common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H534_Noels/H534_Noels.tar.gz
 
@@ -1037,7 +1072,12 @@ Charpentier/MusiqueSacree/H534_Noels-clean:
 
 Charpentier/MusiqueSacree/H534_Noels-all: \
 	Charpentier/MusiqueSacree/H534_Noels-urtext \
-	Charpentier/MusiqueSacree/H534_Noels\
+	Charpentier/MusiqueSacree/H534_Noels \
+	Charpentier/MusiqueSacree/H534_Noels-dessus \
+	Charpentier/MusiqueSacree/H534_Noels-dessus-haute-contre \
+	Charpentier/MusiqueSacree/H534_Noels-haute-contre \
+	Charpentier/MusiqueSacree/H534_Noels-taille \
+	Charpentier/MusiqueSacree/H534_Noels-basse\
 	Charpentier/MusiqueSacree/H534_Noels-delivery\
 	Charpentier/MusiqueSacree/H534_Noels-clean
 

@@ -195,8 +195,13 @@
                            "Une jeune pucelle"))
         #:opus "H.534"
         #:key "Charpentier/MusiqueSacree/H534_Noels"
-        #:main ((urtext "Version urtext" #:options "-dancient-style")
-                (#f "Version de concert")))
+        #:main ((urtext "Version urtext" #:score-file "urtext.ly")
+                (#f "Version de concert"))
+        #:parts ((dessus "Dessus")
+                 (dessus-haute-contre "Dessus et hautes-contre")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (basse "Basses et basse continue")))
        ("Antiennes O et Noëls sur les instruments"
         #:description
         ,(markup #:wordwrap-string "Laisser paître vos bêtes,
@@ -213,7 +218,7 @@ Joseph est bien marié,
 O Rex gentium,
 Or nous dites Marie,
 O Emmanuel")
-        #:opus "H.36-43"
+        #:opus "H.36-43, H.531, H.534"
         #:key "Charpentier/MusiqueSacree/AntiennesNoels"
         #:main ((urtext "Version urtext" #:options "-dancient-style")
                 (#f "Version de concert")))

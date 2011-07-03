@@ -16,9 +16,9 @@
 }
 
 \opusPartSpecs
-#`((dessus "Violons et flûtes" ()
+#`((dessus "Dessus" ()
            (#:score "score-dessus" #:clef "treble"))
-   (dessus-haute-contre "Violons, flûtes, hautes-contre" ()
+   (dessus-haute-contre "Dessus et hautes-contre" ()
                         (#:score "score-dessus-haute-contre" #:clef "treble"))
    (haute-contre "Hautes-contre" ()
                  (#:notes "dessus-haute-contre"
