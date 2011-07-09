@@ -23,7 +23,7 @@
           \instrumentName \markup \center-column {
             \fontsize #2 "Cinquième O"
             après
-            \line \italic { Où s'en vont }
+            \line \italic { Ou s'en vont }
             \line \italic { ces guays bergers }
           }
         }
