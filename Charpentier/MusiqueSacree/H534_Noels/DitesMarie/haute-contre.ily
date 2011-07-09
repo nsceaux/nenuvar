@@ -61,7 +61,7 @@ la' sol'2. la'8*2 |
 fa'1. |
 <<
   \origVersion sol'2_\markup\whiteout "tous fort"
-  \modVersion sol'2^\markup\center-align "Tous" \f >> sol' la' |
+  \modVersion sol'2^\markup\center-align\whiteout "Tous" \f >> sol' la' |
 sib' sol' do'' |
 do''1. |
 sib' |

@@ -103,7 +103,7 @@
     do''2 sib'4.
   }
   \setMusic #'finDessusII {
-    r4 r8 fa'^\markup\mod-version\whiteout \line { \concat { (2 \super nd } violon seul) } sib'4. do''8 |
+    r4 r8 fa'^\markup\mod-version\whiteout \line { \concat { [2 \super nd } violon seul] } sib'4. do''8 |
     \modVersion\noBreak
     re''2 re''4. mib''8 |
     re''4 do''8 sib' do''4 sib'8 la' |
