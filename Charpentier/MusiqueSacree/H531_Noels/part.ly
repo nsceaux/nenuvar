@@ -14,7 +14,7 @@
 \pieceTocTitle "O Createur"
 \includeScore "Ocreateur"
 
-\pieceTocTitle "[Laissez paître vos bêtes]"
+\pieceTocTitle "[Laissez paistre vos bestes]"
 \includeScore "LaissezPaitre"
 
 \pieceTocTitle "Vous qui desirez sans fin"

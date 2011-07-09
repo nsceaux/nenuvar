@@ -32,4 +32,3 @@
   }
 }
 \markup\vspace #15
-

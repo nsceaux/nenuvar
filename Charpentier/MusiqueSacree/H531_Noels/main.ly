@@ -6,7 +6,7 @@
   \includeScore "Ocreateur"
 }
 \bookpart {
-  \pieceTocTitle "[Laissez paître vos bêtes]"
+  \pieceTocTitle "[Laissez paistre vos bestes]"
   \includeScore "LaissezPaitre"
 }
 \bookpart {
