@@ -11,7 +11,6 @@
     sol'' do'''4 |
     si'' la''2 |
     sol''2. |
-    \modVersion { sol'' | }
     sol''2 sol''4 |
     re''2 mi''4 |
     fa'' fa''2 |
@@ -34,7 +33,6 @@
     si'2 mi''4 |
     re'' do''2 |
     si'2. |
-    \modVersion { si' | }
     si'2 si'4 |
     si'2 dod''4 |
     re'' la' si' |
@@ -276,19 +274,20 @@
     sol'\breve*3/8 |
   }
 
-  \tag #'dessus1 {
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \setMusic #'DessusI {
     \Adessus \BdessusI \Cdessus \DdessusI
     \Edessus \FdessusI \Gdessus \HdessusI \Idessus
   }
-  \tag #'dessus2 {
+  \setMusic #'DessusII {
     \Adessus \BdessusII \Cdessus \DdessusII
     \Edessus \FdessusII \Gdessus \HdessusII \Idessus
   }
-  \tag #'haute-contre {
+  \setMusic #'HauteContre {
     \Ahc \Bhc \Chc \Dhc
     \Ehc \Fhc \Ghc \Hhc \Ihc
   }
-  \tag #'haute-contre-dessus2 {
+  \setMusic #'HauteContreDessusII {
     \set Staff . explicitClefVisibility = ##(#f #t #t)
     \Ahc
     \fullClef \clef "dessus" \BdessusII
@@ -301,4 +300,17 @@
     \fullClef \clef "haute-contre" \Ihc
   }
 
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \origVersion <<
+    \tag #'dessus1 \DessusI
+    \tag #'dessus2 \DessusII
+    \tag #'haute-contre \HauteContre
+    \tag #'haute-contre-dessus2 \HauteContreDessusII
+  >>
+  \modVersion \transpose re' do' <<
+    \tag #'dessus1 \DessusI
+    \tag #'dessus2 \DessusII
+    \tag #'haute-contre \HauteContre
+    \tag #'haute-contre-dessus2 \HauteContreDessusII
+  >>
 >>

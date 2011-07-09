@@ -26,7 +26,6 @@
                           #:clef "treble"))
    (taille "Tailles" ()
            (#:notes "taille" #:clef "alto"))
-   (voix "" () ())
    (basse "Basses" ()
           (#:notes "basse" #:clef "basse"
                    #:score-template "score-basse-continue2")))

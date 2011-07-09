@@ -106,8 +106,8 @@ staffStart =
 
 #(define french-clefs '((dessus french . treble)
                         (dessus2 soprano . treble)
-                        (haute-contre soprano . treble)
-                        (haute-contre2 mezzosoprano . treble)
+                        (haute-contre soprano . alto)
+                        (haute-contre2 mezzosoprano . alto)
                         (taille mezzosoprano . alto)
                         (taille2 alto . alto)
                         (quinte alto . alto)
@@ -123,6 +123,11 @@ staffStart =
                         (vtenor tenor . G_8)
                         (valto  alto . treble)
                         ))
+
+#(define (set-modern-clef! tessitura clef)
+   (set-cdr! (assoc tessitura french-clefs)
+             (cons (cadr (assoc tessitura french-clefs))
+                   clef)))
 
 #(define (make-ancient-or-modern-clef clef-name)
    (let* ((match (string-match "^(.*)/(.*)$" clef-name))

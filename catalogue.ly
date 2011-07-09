@@ -139,8 +139,7 @@
                  (haute-contre "Haute-contre")
                  (taille "Taille")
                  (basse "Basses")
-                 (basse-continue "Basse continue" #:score-file "part-bc.ly")
-                 (voix "Parties vocales")))
+                 (basse-continue "Basse continue" #:score-file "part-bc.ly")))
 
        ("Prose pour le jour de Pâques"
         #:description "Victimae paschali."
@@ -155,12 +154,14 @@
         #:opus "H.36-43"
         #:key "Charpentier/MusiqueSacree/H36_43_O"
         #:main ((urtext "Version urtext" #:score-file "urtext.ly")
-                (#f "Version de concert"))
+                (#f "Version de concert")
+                (violon-iso-haute-contre
+                 "Version de concert, violon au lieu de haute-contre"
+                 #:options "-dviolon-iso-haute-contre"))
         #:parts ((dessus "Dessus")
                  (dessus-haute-contre "Dessus et hautes-contre")
                  (haute-contre "Hautes-contre")
                  (taille "Tailles")
-                 (voix "Parties vocales")
                  (basse "Basses et basse continue")))
        ("In nativitatem domini canticum"
         #:description "Motet \"Quem vidistis pastores\""
@@ -169,7 +170,6 @@
         #:main ((urtext "Version urtext" #:score-file "urtext.ly")
                 (#f "Version de concert"))
         #:parts ((dessus "Flûtes et violons")
-                 (voix "Parties vocales")
                  (basse "Basse continue")))
        ("Noël sur les instruments"
         #:description
@@ -179,7 +179,10 @@
         #:opus "H.531"
         #:key "Charpentier/MusiqueSacree/H531_Noels"
         #:main ((urtext "Version urtext" #:score-file "urtext.ly")
-                (#f "Version de concert"))
+                (#f "Version de concert")
+                (violon-iso-haute-contre
+                 "Version de concert, violon au lieu de haute-contre"
+                 #:options "-dviolon-iso-haute-contre"))
         #:parts ((dessus "Dessus")
                  (dessus-haute-contre "Dessus et hautes-contre")
                  (haute-contre "Hautes-contre")
@@ -196,7 +199,10 @@
         #:opus "H.534"
         #:key "Charpentier/MusiqueSacree/H534_Noels"
         #:main ((urtext "Version urtext" #:score-file "urtext.ly")
-                (#f "Version de concert"))
+                (#f "Version de concert")
+                (violon-iso-haute-contre
+                 "Version de concert, violon au lieu de haute-contre"
+                 #:options "-dviolon-iso-haute-contre"))
         #:parts ((dessus "Dessus")
                  (dessus-haute-contre "Dessus et hautes-contre")
                  (haute-contre "Hautes-contre")
@@ -220,17 +226,24 @@ Or nous dites Marie,
 O Emmanuel")
         #:opus "H.36-43, H.531, H.534"
         #:key "Charpentier/MusiqueSacree/AntiennesNoels"
-        #:main ((urtext "Version urtext" #:options "-dancient-style")
-                (#f "Version de concert")))
+        #:main ((urtext "Version urtext" #:score-file "urtext.ly")
+                (#f "Version de concert")
+                (violon-iso-haute-contre
+                 "Version de concert, violon au lieu de haute-contre"
+                 #:options "-dviolon-iso-haute-contre"))
+        #:parts ((dessus "Dessus")
+                 (dessus-haute-contre "Dessus et hautes-contre")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (basse "Basses et basse continue")))
        ("Magnificat"
         #:description "Prélude sur une basse obligée pour Magnificat à trois voix."
         #:opus "H.73"
         #:key "Charpentier/MusiqueSacree/H73_Magnificat"
         #:main ((urtext "Version urtext" #:score-file "urtext")
                 (#f "Version de concert"))
-        #:parts ((dessus "Dessus I & II")
-                 (basse "Basse continue")
-                 (voix "Parties vocales")))))
+        #:parts ((dessus "Dessus")
+                 (basse "Basses et basse continue")))))
 
      ;;;
      ;;; COUPERIN

@@ -724,12 +724,6 @@ Charpentier/Opera/DavidEtJonathas-basse-continue:
 	-o $(OUTPUT_DIR)/DavidEtJonathas-basse-continue -dpart=basse-continue  \
 	Charpentier/Opera/DavidEtJonathas/part-bc.ly
 .PHONY: Charpentier/Opera/DavidEtJonathas-basse-continue
-# Parties vocales
-Charpentier/Opera/DavidEtJonathas-voix:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/DavidEtJonathas-voix -dpart=voix  \
-	Charpentier/Opera/DavidEtJonathas/part.ly
-.PHONY: Charpentier/Opera/DavidEtJonathas-voix
 
 Charpentier/Opera/DavidEtJonathas-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/DavidEtJonathas
@@ -741,7 +735,6 @@ Charpentier/Opera/DavidEtJonathas-delivery:
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-taille.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-basse.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-basse-continue.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
-	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-voix.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-voix.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas/DavidEtJonathas-midi.tar.gz $(OUTPUT_DIR)/DavidEtJonathas.midi $(OUTPUT_DIR)/DavidEtJonathas-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/DavidEtJonathas.midi ]; then cp $(OUTPUT_DIR)/DavidEtJonathas.midi $(DELIVERY_DIR)/Charpentier/DavidEtJonathas/ ; fi
 	git archive --prefix=DavidEtJonathas/ HEAD Charpentier/Opera/DavidEtJonathas common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/DavidEtJonathas/DavidEtJonathas.tar.gz
 
@@ -756,8 +749,7 @@ Charpentier/Opera/DavidEtJonathas-all: \
 	Charpentier/Opera/DavidEtJonathas-haute-contre \
 	Charpentier/Opera/DavidEtJonathas-taille \
 	Charpentier/Opera/DavidEtJonathas-basse \
-	Charpentier/Opera/DavidEtJonathas-basse-continue \
-	Charpentier/Opera/DavidEtJonathas-voix\
+	Charpentier/Opera/DavidEtJonathas-basse-continue\
 	Charpentier/Opera/DavidEtJonathas-delivery\
 	Charpentier/Opera/DavidEtJonathas-clean
 
@@ -816,6 +808,12 @@ Charpentier/MusiqueSacree/H36_43_O:
 	-o $(OUTPUT_DIR)/H36_43_O  \
 	Charpentier/MusiqueSacree/H36_43_O/main.ly
 .PHONY: Charpentier/MusiqueSacree/H36_43_O
+# Version de concert, violon au lieu de haute-contre
+Charpentier/MusiqueSacree/H36_43_O-violon-iso-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H36_43_O-violon-iso-haute-contre -dviolon-iso-haute-contre \
+	Charpentier/MusiqueSacree/H36_43_O/main.ly
+.PHONY: Charpentier/MusiqueSacree/H36_43_O-violon-iso-haute-contre
 # Dessus
 Charpentier/MusiqueSacree/H36_43_O-dessus:
 	$(LILYPOND_CMD) \
@@ -840,12 +838,6 @@ Charpentier/MusiqueSacree/H36_43_O-taille:
 	-o $(OUTPUT_DIR)/H36_43_O-taille -dpart=taille  \
 	Charpentier/MusiqueSacree/H36_43_O/part.ly
 .PHONY: Charpentier/MusiqueSacree/H36_43_O-taille
-# Parties vocales
-Charpentier/MusiqueSacree/H36_43_O-voix:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H36_43_O-voix -dpart=voix  \
-	Charpentier/MusiqueSacree/H36_43_O/part.ly
-.PHONY: Charpentier/MusiqueSacree/H36_43_O-voix
 # Basses et basse continue
 Charpentier/MusiqueSacree/H36_43_O-basse:
 	$(LILYPOND_CMD) \
@@ -857,11 +849,11 @@ Charpentier/MusiqueSacree/H36_43_O-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H36_43_O
 	@if [ -e $(OUTPUT_DIR)/H36_43_O-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-urtext.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
 	@if [ -e $(OUTPUT_DIR)/H36_43_O.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
+	@if [ -e $(OUTPUT_DIR)/H36_43_O-violon-iso-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-violon-iso-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
 	@if [ -e $(OUTPUT_DIR)/H36_43_O-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-dessus.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
 	@if [ -e $(OUTPUT_DIR)/H36_43_O-dessus-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-dessus-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
 	@if [ -e $(OUTPUT_DIR)/H36_43_O-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
 	@if [ -e $(OUTPUT_DIR)/H36_43_O-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-taille.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
-	@if [ -e $(OUTPUT_DIR)/H36_43_O-voix.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-voix.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
 	@if [ -e $(OUTPUT_DIR)/H36_43_O-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H36_43_O-basse.pdf $(DELIVERY_DIR)/Charpentier/H36_43_O; fi
 	@if [ -e $(OUTPUT_DIR)/H36_43_O-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H36_43_O/H36_43_O-midi.tar.gz $(OUTPUT_DIR)/H36_43_O.midi $(OUTPUT_DIR)/H36_43_O-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H36_43_O.midi ]; then cp $(OUTPUT_DIR)/H36_43_O.midi $(DELIVERY_DIR)/Charpentier/H36_43_O/ ; fi
 	git archive --prefix=H36_43_O/ HEAD Charpentier/MusiqueSacree/H36_43_O common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H36_43_O/H36_43_O.tar.gz
@@ -872,11 +864,11 @@ Charpentier/MusiqueSacree/H36_43_O-clean:
 Charpentier/MusiqueSacree/H36_43_O-all: \
 	Charpentier/MusiqueSacree/H36_43_O-urtext \
 	Charpentier/MusiqueSacree/H36_43_O \
+	Charpentier/MusiqueSacree/H36_43_O-violon-iso-haute-contre \
 	Charpentier/MusiqueSacree/H36_43_O-dessus \
 	Charpentier/MusiqueSacree/H36_43_O-dessus-haute-contre \
 	Charpentier/MusiqueSacree/H36_43_O-haute-contre \
 	Charpentier/MusiqueSacree/H36_43_O-taille \
-	Charpentier/MusiqueSacree/H36_43_O-voix \
 	Charpentier/MusiqueSacree/H36_43_O-basse\
 	Charpentier/MusiqueSacree/H36_43_O-delivery\
 	Charpentier/MusiqueSacree/H36_43_O-clean
@@ -902,12 +894,6 @@ Charpentier/MusiqueSacree/H314_InNativitatem-dessus:
 	-o $(OUTPUT_DIR)/H314_InNativitatem-dessus -dpart=dessus  \
 	Charpentier/MusiqueSacree/H314_InNativitatem/part.ly
 .PHONY: Charpentier/MusiqueSacree/H314_InNativitatem-dessus
-# Parties vocales
-Charpentier/MusiqueSacree/H314_InNativitatem-voix:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H314_InNativitatem-voix -dpart=voix  \
-	Charpentier/MusiqueSacree/H314_InNativitatem/part.ly
-.PHONY: Charpentier/MusiqueSacree/H314_InNativitatem-voix
 # Basse continue
 Charpentier/MusiqueSacree/H314_InNativitatem-basse:
 	$(LILYPOND_CMD) \
@@ -920,7 +906,6 @@ Charpentier/MusiqueSacree/H314_InNativitatem-delivery:
 	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/H314_InNativitatem-urtext.pdf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem; fi
 	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem.pdf ]; then mv -fv $(OUTPUT_DIR)/H314_InNativitatem.pdf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem; fi
 	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H314_InNativitatem-dessus.pdf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem; fi
-	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem-voix.pdf ]; then mv -fv $(OUTPUT_DIR)/H314_InNativitatem-voix.pdf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem; fi
 	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H314_InNativitatem-basse.pdf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem; fi
 	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem/H314_InNativitatem-midi.tar.gz $(OUTPUT_DIR)/H314_InNativitatem.midi $(OUTPUT_DIR)/H314_InNativitatem-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H314_InNativitatem.midi ]; then cp $(OUTPUT_DIR)/H314_InNativitatem.midi $(DELIVERY_DIR)/Charpentier/H314_InNativitatem/ ; fi
 	git archive --prefix=H314_InNativitatem/ HEAD Charpentier/MusiqueSacree/H314_InNativitatem common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H314_InNativitatem/H314_InNativitatem.tar.gz
@@ -932,7 +917,6 @@ Charpentier/MusiqueSacree/H314_InNativitatem-all: \
 	Charpentier/MusiqueSacree/H314_InNativitatem-urtext \
 	Charpentier/MusiqueSacree/H314_InNativitatem \
 	Charpentier/MusiqueSacree/H314_InNativitatem-dessus \
-	Charpentier/MusiqueSacree/H314_InNativitatem-voix \
 	Charpentier/MusiqueSacree/H314_InNativitatem-basse\
 	Charpentier/MusiqueSacree/H314_InNativitatem-delivery\
 	Charpentier/MusiqueSacree/H314_InNativitatem-clean
@@ -952,6 +936,12 @@ Charpentier/MusiqueSacree/H531_Noels:
 	-o $(OUTPUT_DIR)/H531_Noels  \
 	Charpentier/MusiqueSacree/H531_Noels/main.ly
 .PHONY: Charpentier/MusiqueSacree/H531_Noels
+# Version de concert, violon au lieu de haute-contre
+Charpentier/MusiqueSacree/H531_Noels-violon-iso-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H531_Noels-violon-iso-haute-contre -dviolon-iso-haute-contre \
+	Charpentier/MusiqueSacree/H531_Noels/main.ly
+.PHONY: Charpentier/MusiqueSacree/H531_Noels-violon-iso-haute-contre
 # Dessus
 Charpentier/MusiqueSacree/H531_Noels-dessus:
 	$(LILYPOND_CMD) \
@@ -987,6 +977,7 @@ Charpentier/MusiqueSacree/H531_Noels-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H531_Noels
 	@if [ -e $(OUTPUT_DIR)/H531_Noels-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/H531_Noels-urtext.pdf $(DELIVERY_DIR)/Charpentier/H531_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H531_Noels.pdf ]; then mv -fv $(OUTPUT_DIR)/H531_Noels.pdf $(DELIVERY_DIR)/Charpentier/H531_Noels; fi
+	@if [ -e $(OUTPUT_DIR)/H531_Noels-violon-iso-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H531_Noels-violon-iso-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H531_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H531_Noels-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H531_Noels-dessus.pdf $(DELIVERY_DIR)/Charpentier/H531_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H531_Noels-dessus-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H531_Noels-dessus-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H531_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H531_Noels-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H531_Noels-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H531_Noels; fi
@@ -1001,6 +992,7 @@ Charpentier/MusiqueSacree/H531_Noels-clean:
 Charpentier/MusiqueSacree/H531_Noels-all: \
 	Charpentier/MusiqueSacree/H531_Noels-urtext \
 	Charpentier/MusiqueSacree/H531_Noels \
+	Charpentier/MusiqueSacree/H531_Noels-violon-iso-haute-contre \
 	Charpentier/MusiqueSacree/H531_Noels-dessus \
 	Charpentier/MusiqueSacree/H531_Noels-dessus-haute-contre \
 	Charpentier/MusiqueSacree/H531_Noels-haute-contre \
@@ -1024,6 +1016,12 @@ Charpentier/MusiqueSacree/H534_Noels:
 	-o $(OUTPUT_DIR)/H534_Noels  \
 	Charpentier/MusiqueSacree/H534_Noels/main.ly
 .PHONY: Charpentier/MusiqueSacree/H534_Noels
+# Version de concert, violon au lieu de haute-contre
+Charpentier/MusiqueSacree/H534_Noels-violon-iso-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H534_Noels-violon-iso-haute-contre -dviolon-iso-haute-contre \
+	Charpentier/MusiqueSacree/H534_Noels/main.ly
+.PHONY: Charpentier/MusiqueSacree/H534_Noels-violon-iso-haute-contre
 # Dessus
 Charpentier/MusiqueSacree/H534_Noels-dessus:
 	$(LILYPOND_CMD) \
@@ -1059,6 +1057,7 @@ Charpentier/MusiqueSacree/H534_Noels-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H534_Noels
 	@if [ -e $(OUTPUT_DIR)/H534_Noels-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-urtext.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H534_Noels.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
+	@if [ -e $(OUTPUT_DIR)/H534_Noels-violon-iso-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-violon-iso-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H534_Noels-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-dessus.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H534_Noels-dessus-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-dessus-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H534_Noels-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
@@ -1073,6 +1072,7 @@ Charpentier/MusiqueSacree/H534_Noels-clean:
 Charpentier/MusiqueSacree/H534_Noels-all: \
 	Charpentier/MusiqueSacree/H534_Noels-urtext \
 	Charpentier/MusiqueSacree/H534_Noels \
+	Charpentier/MusiqueSacree/H534_Noels-violon-iso-haute-contre \
 	Charpentier/MusiqueSacree/H534_Noels-dessus \
 	Charpentier/MusiqueSacree/H534_Noels-dessus-haute-contre \
 	Charpentier/MusiqueSacree/H534_Noels-haute-contre \
@@ -1087,8 +1087,8 @@ Charpentier/MusiqueSacree/H534_Noels-all: \
 # Version urtext
 Charpentier/MusiqueSacree/AntiennesNoels-urtext:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/AntiennesNoels-urtext -dancient-style \
-	Charpentier/MusiqueSacree/AntiennesNoels/main.ly
+	-o $(OUTPUT_DIR)/AntiennesNoels-urtext  \
+	Charpentier/MusiqueSacree/AntiennesNoels/urtext.ly
 .PHONY: Charpentier/MusiqueSacree/AntiennesNoels-urtext
 # Version de concert
 Charpentier/MusiqueSacree/AntiennesNoels:
@@ -1096,11 +1096,53 @@ Charpentier/MusiqueSacree/AntiennesNoels:
 	-o $(OUTPUT_DIR)/AntiennesNoels  \
 	Charpentier/MusiqueSacree/AntiennesNoels/main.ly
 .PHONY: Charpentier/MusiqueSacree/AntiennesNoels
+# Version de concert, violon au lieu de haute-contre
+Charpentier/MusiqueSacree/AntiennesNoels-violon-iso-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/AntiennesNoels-violon-iso-haute-contre -dviolon-iso-haute-contre \
+	Charpentier/MusiqueSacree/AntiennesNoels/main.ly
+.PHONY: Charpentier/MusiqueSacree/AntiennesNoels-violon-iso-haute-contre
+# Dessus
+Charpentier/MusiqueSacree/AntiennesNoels-dessus:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/AntiennesNoels-dessus -dpart=dessus  \
+	Charpentier/MusiqueSacree/AntiennesNoels/part.ly
+.PHONY: Charpentier/MusiqueSacree/AntiennesNoels-dessus
+# Dessus et hautes-contre
+Charpentier/MusiqueSacree/AntiennesNoels-dessus-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/AntiennesNoels-dessus-haute-contre -dpart=dessus-haute-contre  \
+	Charpentier/MusiqueSacree/AntiennesNoels/part.ly
+.PHONY: Charpentier/MusiqueSacree/AntiennesNoels-dessus-haute-contre
+# Hautes-contre
+Charpentier/MusiqueSacree/AntiennesNoels-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/AntiennesNoels-haute-contre -dpart=haute-contre  \
+	Charpentier/MusiqueSacree/AntiennesNoels/part.ly
+.PHONY: Charpentier/MusiqueSacree/AntiennesNoels-haute-contre
+# Tailles
+Charpentier/MusiqueSacree/AntiennesNoels-taille:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/AntiennesNoels-taille -dpart=taille  \
+	Charpentier/MusiqueSacree/AntiennesNoels/part.ly
+.PHONY: Charpentier/MusiqueSacree/AntiennesNoels-taille
+# Basses et basse continue
+Charpentier/MusiqueSacree/AntiennesNoels-basse:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/AntiennesNoels-basse -dpart=basse  \
+	Charpentier/MusiqueSacree/AntiennesNoels/part.ly
+.PHONY: Charpentier/MusiqueSacree/AntiennesNoels-basse
 
 Charpentier/MusiqueSacree/AntiennesNoels-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/AntiennesNoels
 	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels-urtext.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
 	@if [ -e $(OUTPUT_DIR)/AntiennesNoels.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
+	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-violon-iso-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels-violon-iso-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
+	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels-dessus.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
+	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-dessus-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels-dessus-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
+	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
+	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels-taille.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
+	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels-basse.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
 	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/AntiennesNoels/AntiennesNoels-midi.tar.gz $(OUTPUT_DIR)/AntiennesNoels.midi $(OUTPUT_DIR)/AntiennesNoels-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/AntiennesNoels.midi ]; then cp $(OUTPUT_DIR)/AntiennesNoels.midi $(DELIVERY_DIR)/Charpentier/AntiennesNoels/ ; fi
 	git archive --prefix=AntiennesNoels/ HEAD Charpentier/MusiqueSacree/AntiennesNoels common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/AntiennesNoels/AntiennesNoels.tar.gz
 
@@ -1109,7 +1151,13 @@ Charpentier/MusiqueSacree/AntiennesNoels-clean:
 
 Charpentier/MusiqueSacree/AntiennesNoels-all: \
 	Charpentier/MusiqueSacree/AntiennesNoels-urtext \
-	Charpentier/MusiqueSacree/AntiennesNoels\
+	Charpentier/MusiqueSacree/AntiennesNoels \
+	Charpentier/MusiqueSacree/AntiennesNoels-violon-iso-haute-contre \
+	Charpentier/MusiqueSacree/AntiennesNoels-dessus \
+	Charpentier/MusiqueSacree/AntiennesNoels-dessus-haute-contre \
+	Charpentier/MusiqueSacree/AntiennesNoels-haute-contre \
+	Charpentier/MusiqueSacree/AntiennesNoels-taille \
+	Charpentier/MusiqueSacree/AntiennesNoels-basse\
 	Charpentier/MusiqueSacree/AntiennesNoels-delivery\
 	Charpentier/MusiqueSacree/AntiennesNoels-clean
 
@@ -1128,24 +1176,18 @@ Charpentier/MusiqueSacree/H73_Magnificat:
 	-o $(OUTPUT_DIR)/H73_Magnificat  \
 	Charpentier/MusiqueSacree/H73_Magnificat/main.ly
 .PHONY: Charpentier/MusiqueSacree/H73_Magnificat
-# Dessus I & II
+# Dessus
 Charpentier/MusiqueSacree/H73_Magnificat-dessus:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H73_Magnificat-dessus -dpart=dessus  \
 	Charpentier/MusiqueSacree/H73_Magnificat/part.ly
 .PHONY: Charpentier/MusiqueSacree/H73_Magnificat-dessus
-# Basse continue
+# Basses et basse continue
 Charpentier/MusiqueSacree/H73_Magnificat-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H73_Magnificat-basse -dpart=basse  \
 	Charpentier/MusiqueSacree/H73_Magnificat/part.ly
 .PHONY: Charpentier/MusiqueSacree/H73_Magnificat-basse
-# Parties vocales
-Charpentier/MusiqueSacree/H73_Magnificat-voix:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H73_Magnificat-voix -dpart=voix  \
-	Charpentier/MusiqueSacree/H73_Magnificat/part.ly
-.PHONY: Charpentier/MusiqueSacree/H73_Magnificat-voix
 
 Charpentier/MusiqueSacree/H73_Magnificat-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H73_Magnificat
@@ -1153,7 +1195,6 @@ Charpentier/MusiqueSacree/H73_Magnificat-delivery:
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat-dessus.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat-basse.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
-	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-voix.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat-voix.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H73_Magnificat/H73_Magnificat-midi.tar.gz $(OUTPUT_DIR)/H73_Magnificat.midi $(OUTPUT_DIR)/H73_Magnificat-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H73_Magnificat.midi ]; then cp $(OUTPUT_DIR)/H73_Magnificat.midi $(DELIVERY_DIR)/Charpentier/H73_Magnificat/ ; fi
 	git archive --prefix=H73_Magnificat/ HEAD Charpentier/MusiqueSacree/H73_Magnificat common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H73_Magnificat/H73_Magnificat.tar.gz
 
@@ -1164,8 +1205,7 @@ Charpentier/MusiqueSacree/H73_Magnificat-all: \
 	Charpentier/MusiqueSacree/H73_Magnificat-urtext \
 	Charpentier/MusiqueSacree/H73_Magnificat \
 	Charpentier/MusiqueSacree/H73_Magnificat-dessus \
-	Charpentier/MusiqueSacree/H73_Magnificat-basse \
-	Charpentier/MusiqueSacree/H73_Magnificat-voix\
+	Charpentier/MusiqueSacree/H73_Magnificat-basse\
 	Charpentier/MusiqueSacree/H73_Magnificat-delivery\
 	Charpentier/MusiqueSacree/H73_Magnificat-clean
 

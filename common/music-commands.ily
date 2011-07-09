@@ -628,3 +628,18 @@ verticalTweak =
 \overrideProperty #"Score.NonMusicalPaperColumn"
 #'line-break-system-details #$tweak #}
        (make-music 'Music 'void #t)))
+
+
+
+%%% conditional music
+whenCondition =
+#(define-music-function (parser location condition music) (boolean? ly:music?)
+   (if condition
+       music
+       (make-music 'Music 'void #t)))
+
+unlessCondition =
+#(define-music-function (parser location condition music) (boolean? ly:music?)
+   (if condition
+       (make-music 'Music 'void #t)
+       music))

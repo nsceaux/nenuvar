@@ -33,7 +33,8 @@
         \includeFigures "chiffres"
       >>
     >>
-    \modVersion \new StaffGroup <<
+
+    \modVersion \unlessCondition #(eqv? #t (ly:get-option 'violon-iso-haute-contre)) \new StaffGroup <<
       \new GrandStaff <<
         \new Staff <<
           \global \keepWithTag #'dessus1 \includeNotes "dessus-haute-contre"
@@ -53,6 +54,29 @@
       >>
       \new Staff <<
         \global \keepWithTag #'haute-contre \includeNotes "dessus-haute-contre"
+      >>
+      \new Staff <<
+        \global \includeNotes "taille"
+      >>
+      \new Staff <<
+        \global \includeNotes "basse"
+        \new FiguredBass \includeFigures "chiffres"
+      >>
+    >>
+
+    \modVersion \whenCondition #(eqv? #t (ly:get-option 'violon-iso-haute-contre)) \new StaffGroup <<
+      \new Staff <<
+        { s1.*8\break
+          s1.*10\break
+          s1.*10\break
+          s1.*10\break
+          s1.*8\break
+          s1.*8\break
+          s1.*10\break }
+        \global \keepWithTag #'dessus1 \includeNotes "dessus-haute-contre"
+      >>
+      \new Staff <<
+        \global \keepWithTag #'haute-contre-dessus2 \includeNotes "dessus-haute-contre"
       >>
       \new Staff <<
         \global \includeNotes "taille"
