@@ -1,4 +1,4 @@
-\include "Charpentier/MusiqueSacree/common.ily"
+\include "common/charpentier-common.ily"
 
 \header {
   title = \markup \center-column {

@@ -1,4 +1,4 @@
-\include "Charpentier/MusiqueSacree/common.ily"
+\include "common/charpentier-common.ily"
 \include "common/precipitations.ily"
 \setOpus "Charpentier/MusiqueSacree/H534_Noels"
 

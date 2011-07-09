@@ -1,4 +1,4 @@
-\include "Charpentier/MusiqueSacree/common.ily"
+\include "common/charpentier-common.ily"
 \include "common/precipitations.ily"
 \setOpus "Charpentier/MusiqueSacree/H314_InNativitatem"
 
@@ -11,8 +11,6 @@
 \opusPartSpecs
 #`((dessus "Violons et flûtes" ()
            (#:score "score-dessus"))
-   (voix "Parties vocales" ()
-         (#:score "score-voix"))
    (basse "Basse continue" ()
           (#:notes "basse-continue" #:clef "basse"
                    #:score-template "score-basse-continue-voix2")))

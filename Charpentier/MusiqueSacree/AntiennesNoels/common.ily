@@ -1,5 +1,5 @@
-\include "Charpentier/MusiqueSacree/common.ily"
-\include "Charpentier/MusiqueSacree/copyright-precipitations.ily"
+\include "common/charpentier-common.ily"
+\include "common/precipitations.ily"
 
 #(ly:set-option 'use-rehearsal-numbers #t)
 

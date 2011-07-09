@@ -8,16 +8,13 @@
   composer = "Marc-Antoine Charpentier"
   copyrightYear = "2011"
 }
-
-\include "Charpentier/MusiqueSacree/common.ily"
+\include "common/charpentier-common.ily"
 \include "common/precipitations.ily"
 \setOpus "Charpentier/MusiqueSacree"
 
 \opusPartSpecs
 #`((dessus "Violons" ()
            (#:score "score-dessus"))
-   (voix "Haute-contre, taille, basse" ()
-         (#:score "score-voix"))
    (basse "Basse continue" ()
           (#:notes "basse" #:clef "basse"
                    #:score-template "score-basse-continue-voix2")))
