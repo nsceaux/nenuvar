@@ -1,4 +1,4 @@
-\piecePartSpecs #`((dessus #:score "score-dessus")
+\piecePartSpecs #`((dessus)
                    (dessus-haute-contre #:score "score-dessus")
                    (voix #:score-template "score-voix"
                          #:instrument "Mr Chopelet")

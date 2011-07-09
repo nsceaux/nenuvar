@@ -6,6 +6,6 @@ s1.*10 s1.*10\break
      #}))
                        `((dessus)
                          (dessus-haute-contre)
-                         (haute-contre #:music ,breaks)
+                         (haute-contre #:music ,breaks #:notes "dessus-haute-contre")
                          (taille #:music ,breaks)
                          (basse #:music ,breaks)))

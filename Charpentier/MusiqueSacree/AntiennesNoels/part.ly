@@ -24,43 +24,36 @@
 \pieceTocTitleNb "H.36" \markup { Salut pour la veille des O : \italic { O salutaris hostia } }
 \includeScore "H36_43_O/OSalutaris"
 
-\newBookPart #'()
 \pieceTocTitleNb "H.531/1" \markup { O Createur }
 \includeScore "H531_Noels/Ocreateur"
 \pieceTocTitleNb "H.37" \markup { Premier O : \italic { O Sapienta } }
 \includeScore "H36_43_O/OSapientia"
 
-\newBookPart #'()
 \markup { \huge { O Nuit } [manquant] }
 \markup\vspace #5
 \pieceTocTitleNb "H.38" \markup { Deuxième O : \italic { O Adonaï } }
 \includeScore "H36_43_O/OAdonai"
 
-\newBookPart #'()
 \pieceTocTitleNb "H.531/3" \markup { Vous qui desirez sans fin }
 \includeScore "H531_Noels/VousQuiDesirez"
 \pieceTocTitleNb "H.39" \markup { Troisième O : \italic { O Radix Iesse } }
 \includeScore "H36_43_O/ORadix"
 
-\newBookPart #'()
 \pieceTocTitleNb "H.534/1" \markup { Les Bourgeois de Chastre }
 \includeScore "H534_Noels/BourgeoisChastre"
 \pieceTocTitleNb "H.40" \markup { Quatrième O : \italic { O Clavis David } }
 \includeScore "H36_43_O/OClavis"
 
-\newBookPart #'()
 \pieceTocTitleNb "H.534/2" \markup { Ou s'en vont ces guays bergers }
 \includeScore "H534_Noels/GaisBergers"
 \pieceTocTitleNb "H.41" \markup { Cinquième O : \italic { O Oriens } }
 \includeScore "H36_43_O/OOriens"
 
-\newBookPart #'()
 \pieceTocTitleNb "H.534/3" \markup { Joseph est bien marié }
 \includeScore "H534_Noels/JosephBienMarie"
 \pieceTocTitleNb "H.42" \markup { Sixième O : \italic { O Rex gentium } }
 \includeScore "H36_43_O/ORex"
 
-\newBookPart #'()
 \pieceTocTitleNb "H.534/4" \markup { Or nous dites Marie }
 \includeScore "H534_Noels/DitesMarie"
 \pieceTocTitleNb "H.43" \markup { Septième O : \italic { O Emmanuel } }

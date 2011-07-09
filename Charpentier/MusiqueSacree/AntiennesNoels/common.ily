@@ -17,15 +17,3 @@
     }
   }
 }
-
-\layout {
-  \context {
-    \Staff
-    \name Staff
-    %% Figured bass
-    ignoreFiguredBassRest = ##f
-    figuredBassAlterationDirection = #LEFT
-    \override BassFigureAlignment #'stacking-dir = #DOWN
-    \override BassFigureAlignmentPositioning #'direction = #UP
-  }
-}
