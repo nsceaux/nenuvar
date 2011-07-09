@@ -1,2 +1,1 @@
-\piecePartSpecs #`((voix)
-                   (basse))
+\piecePartSpecs #`((basse))
