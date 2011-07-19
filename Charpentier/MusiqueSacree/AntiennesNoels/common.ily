@@ -17,3 +17,5 @@
     }
   }
 }
+
+\setOpus "Charpentier/MusiqueSacree"

@@ -1,10 +1,10 @@
 #(ly:set-option 'urtext #t)
 \include "Charpentier/MusiqueSacree/H531_Noels/common.ily"
 \paper {
-  #(define original-page-number-table '((1  . "Vol. 5 p. 61-r")
-                                        (2  . "Vol. 5 p. 61-v")
-                                        (3  . "Vol. 5 p. 62-r")
-                                        (4  . "Vol. 5 p. 62-v")))
+  #(define original-page-number-table '((1  . "Vol. 9 p. 61-r")
+                                        (2  . "Vol. 9 p. 61-v")
+                                        (3  . "Vol. 9 p. 62-r")
+                                        (4  . "Vol. 9 p. 62-v")))
 }
 
 \header {

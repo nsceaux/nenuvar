@@ -188,8 +188,8 @@ trill = #(make-articulation "stopped")
 
 #(if (memq (ly:get-option 'part) '(dessus dessus-haute-contre))
      (begin
-       (set-modern-clef! 'dessus 'french)
-       (set-modern-clef! 'haute-contre 'french)))
+       (set-modern-clef! 'dessus 'treble)
+       (set-modern-clef! 'haute-contre 'treble)))
 
 #(if (eqv? (ly:get-option 'violon-iso-haute-contre) #t)
      (set-modern-clef! 'haute-contre 'treble))

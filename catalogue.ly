@@ -226,7 +226,8 @@ Or nous dites Marie,
 O Emmanuel")
         #:opus "H.36-43, H.531, H.534"
         #:key "Charpentier/MusiqueSacree/AntiennesNoels"
-        #:main ((#f "Version de concert")
+        #:main ((urtext "Version urtext" #:score-file "urtext")
+                (#f "Version de concert")
                 (bis "Version de concert, violon au lieu de haute-contre"
                  #:options "-dviolon-iso-haute-contre"))
         #:parts ((dessus "Dessus")

@@ -17,8 +17,6 @@
   \table-of-contents
 }
 
-\setOpus "Charpentier/MusiqueSacree"
-
 \pieceTocTitleNb "H.531/2" \markup { Laissez paistre vos bestes }
 \includeScore "H531_Noels/LaissezPaitre"
 \pieceTocTitleNb "H.36" \markup { Salut pour la veille des O : \italic { O salutaris hostia } }

@@ -1084,6 +1084,12 @@ Charpentier/MusiqueSacree/H534_Noels-all: \
 .PHONY: Charpentier/MusiqueSacree/H534_Noels-delivery Charpentier/MusiqueSacree/H534_Noels-clean Charpentier/MusiqueSacree/H534_Noels-all
 
 ### Antiennes O et Noëls sur les instruments
+# Version urtext
+Charpentier/MusiqueSacree/AntiennesNoels-urtext:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/AntiennesNoels-urtext  \
+	Charpentier/MusiqueSacree/AntiennesNoels/urtext
+.PHONY: Charpentier/MusiqueSacree/AntiennesNoels-urtext
 # Version de concert
 Charpentier/MusiqueSacree/AntiennesNoels:
 	$(LILYPOND_CMD) \
@@ -1129,6 +1135,7 @@ Charpentier/MusiqueSacree/AntiennesNoels-basse:
 
 Charpentier/MusiqueSacree/AntiennesNoels-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/AntiennesNoels
+	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels-urtext.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
 	@if [ -e $(OUTPUT_DIR)/AntiennesNoels.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
 	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-bis.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels-bis.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
 	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/AntiennesNoels-dessus.pdf $(DELIVERY_DIR)/Charpentier/AntiennesNoels; fi
@@ -1143,6 +1150,7 @@ Charpentier/MusiqueSacree/AntiennesNoels-clean:
 	@rm -f $(OUTPUT_DIR)/AntiennesNoels-* $(OUTPUT_DIR)/AntiennesNoels.*
 
 Charpentier/MusiqueSacree/AntiennesNoels-all: \
+	Charpentier/MusiqueSacree/AntiennesNoels-urtext \
 	Charpentier/MusiqueSacree/AntiennesNoels \
 	Charpentier/MusiqueSacree/AntiennesNoels-bis \
 	Charpentier/MusiqueSacree/AntiennesNoels-dessus \
