@@ -1,4 +1,4 @@
-r8 re''16 do'' sib' la' sib' do'' re'' do'' sib' la' sib' fa' fa' fa' |
+\clef "haute-contre" r8 re''16 do'' sib' la' sib' do'' re'' do'' sib' la' sib' fa' fa' fa' |
 mib'8. mib'16 sib'8. sib'16 sol'8. sol'16 sol'8. sol'16 |
 fa'1 |
 fa'8 fa''16 mib''? re'' mib'' re'' do'' sib'8. sol'16 fa'8. fa'16 |

@@ -1,4 +1,4 @@
-R1*5 |
+\clef "vhaute-contre" R1*5 |
 r4^\markup\orig-version\character "La Pyth[onisse]" r16 fa' fa' fa' sib'8 fa' re'8. fa'16 |
 sib8 sib r fa' do' do' re'8. mib'16 |
 re'2 sib'8 sib' re' mib'16 fa' |
@@ -94,12 +94,12 @@ sib'1 ( la'2 )|
 sib'1. |
 R1. |
 R1.*8 |
-r8 sib sib16 sib sib sib sib8.
-\origVersion\footnoteGrob #'NoteHead #'(-1 . 3)
+r8 sib sib16 sib sib sib
+\origVersion\footnoteGrob #'NoteHead #'(1 . 3)
 \markup \box 1 \markup\wordwrap { \box 1 Philidor : le ♯ apparaît entre
   la croche pointée et la double-croche, et s'applique donc peut-être à
-  la croche pointée précédente. }
-si16 si si do' re' |
+  la double-croche suivante. }
+si8. si16 si si do' re' |
 mib'2 r |
 r4 sib' r r8 do'' |
 la'8. re'16 sol'8 sol'16 la' fad'8 fad' r16 la' la' sib' |

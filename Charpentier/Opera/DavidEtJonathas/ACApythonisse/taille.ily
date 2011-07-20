@@ -1,4 +1,4 @@
-r8 sib' fa' fa'16 mib' re' mib' fa' mib' re' mib' re' do' |
+\clef "taille" r8 sib' fa' fa'16 mib' re' mib' fa' mib' re' mib' re' do' |
 sib8 sib'16 lab' sol' lab' sol' fa' mib' fa' sol' fa' mib' fa' mib' re' |
 do'8 do''16 sib' la' sib' la' sol' fa' sol' la' sol' fa' sol' fa' mib' |
 re'4. re'8 re'8. mib'16 la8 fa'16 mib' |

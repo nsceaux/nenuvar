@@ -57,9 +57,7 @@
                                   (
                                    #:notes "basse" #:clef "bass"
                                    #:tag-notes basse-continue
-                                   #:score-template "score-basse-continue2"))
-                  (voix "Parties vocales" ()
-                        (#:score-template "score-voix" #:notes "voix")))
+                                   #:score-template "score-basse-continue2")))
 
 %% Ut-3 clef for haute-contres
 #(set-cdr! (assoc 'haute-contre french-clefs)

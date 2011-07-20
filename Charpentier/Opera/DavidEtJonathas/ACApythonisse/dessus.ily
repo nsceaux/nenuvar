@@ -1,4 +1,4 @@
-r8 fa''16 mib'' re'' mib'' re'' do'' sib' do'' re'' do'' sib' do'' sib' la' |
+\clef "dessus" r8 fa''16 mib'' re'' mib'' re'' do'' sib' do'' re'' do'' sib' do'' sib' la' |
 \origVersion\footnoteGrob #'NoteHead #'(1 . -1)
 \markup \box 1 \markup { \box 1 Philidor : 
   \vcenter\score {

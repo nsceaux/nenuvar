@@ -1,4 +1,4 @@
-sib,1 |
+\clef "basse" sib,1 |
 mib |
 fa16 sol la sol fa sol fa mib re mib fa mib re mib re do |
 sib, la, sib, do re re mib fa sol8. mib16 fa8. fa,16 |
