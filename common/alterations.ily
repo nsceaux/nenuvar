@@ -88,7 +88,17 @@ Returns @code{#f} or the reason for the invalidation, a symbol."
 	  (if (not (= this-alt prev-alt))
 	      (begin
 		(set! need-accidental #t)
-                (set! sharp-neutral (< prev-alt 0))))))
+                (set! sharp-neutral (< prev-alt 0)))
+              (let* ((sig-b (assoc 6 key-sig))
+                     (sig-b-alt (if (pair? sig-b) (cdr sig-b) 0))
+                     (sig-f (assoc 3 key-sig))
+                     (sig-f-alt (if (pair? sig-f) (cdr sig-f) 0)))
+                (set! sharp-neutral
+                      (cond ((< sig-b-alt 0) #t) ; sharp
+                            ((> sig-f-alt 0) #f) ; flat
+                            (else ; unknown... this is a problem
+                                  (warn "could not compute natural alteration sign")
+                                  #f)))))))
     (cons sharp-neutral need-accidental)))
 
 #(define-public ((make-baroque-accidental-rule octaveness laziness) context pitch barnum measurepos)
