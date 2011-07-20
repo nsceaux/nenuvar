@@ -7,9 +7,9 @@ sib, |
 sib,2 la, |
 sib,2. sib4 |
 mib lab fa sib, |
-do mi fa8 fa reb reb |
+do mi! fa8 fa reb reb |
 sib,2 ~ sib,8 sib sol sol |
-mi4. mi8 fa sib, do4 |
+mi!4. mi8 fa sib, do4 |
 fa,2. fa4 |
 reb2. reb4 |
 sib,2. sib,4 |
@@ -27,7 +27,7 @@ mib,2 fa, |
 solb, sol, |
 lab,1 ~|
 lab,4 solb, fa,2 |
-mib, la, |
+mib, la,! |
 sib,4. do8 reb sib, do4 |
 fa, fa8 mib re2 |
 mib re8 mib fa fa, |
@@ -37,7 +37,7 @@ sib,1 |
 r8 sib, sib, sib, sib,4 sib,8 sib, |
 mib,4 mib,8 mib, mib, mib, mib, mib, |
 mib, mib, mib, mib, mib,4 mib,8 mib, |
-re,2 r8 mi, mi, mi, |
+re,2 r8 mi,! mi, mi, |
 fa, fa, fa, fa, fa,4 fa,8 fa, |
 sib,2 r8 sib, sib, sib, |
 mib,2 fa, |
@@ -77,7 +77,7 @@ do1 fa2 |
 sib,1 sib2 |
 mib1 fa2 |
 sol re1 |
-fa2. re4 mib2 |
+fab2. re4 mib2 |
 sib,1 sib,2 |
 fa mib2. re4 |
 do1 do2 |
@@ -91,11 +91,11 @@ sol2. lab4 sol fa |
 mib re mib fa sol la |
 sib1 sib2 |
 mib1 mib2 |
-mi1 mi2 |
+mi!1 mi2 |
 fa1 fa2 |
 re1 re2 |
 mib2. re4 do sib, |
-fa2 fa,1 |
+fa2 fa, ~ fa, |
 sib,1. |\allowPageTurn
 r2 r4 sib sib4. sib8 |
 la2. la4 sib4. la8 |
@@ -128,7 +128,7 @@ fa,2 fa4. mib8 |
 re2 mib8 fa sol la |
 sib1 sib2 |
 mib1 mib2 |
-mi1 mi2 |
+mi!1 mi2 |
 fa1 fa2 |
 re1 re2 |
 mib2. re4 do sib, |
@@ -142,7 +142,7 @@ re' re' re' re' fad fad fad fad sol sol re re |
 mib1 re2 |
 do1 do2 |
 re r8 mi fad re sol sol re re |
-sol,2 r1 |\allowPageTurn
+sol,2 r r |\allowPageTurn
 mib2 re |
 do r |
 sol4. fa8 mi2 |

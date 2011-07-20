@@ -4,12 +4,6 @@ do'8 do''16 sib' la' sib' la' sol' fa' sol' la' sol' fa' sol' fa' mib' |
 re'4. re'8 re'8. mib'16 la8 fa'16 mib' |
 re'1 |
 R1*7 |
-
-
-
-
-
-
 R1 |
 r2 r4 lab |
 sib2. sib4 |
@@ -21,16 +15,6 @@ do'4 sib sib4. do'8 |
 la1 |
 R |
 R1*11 |
-
-
-
-
-
-
-
-
-
-
 R1 |
 re'4 re'8 re' re' re' re' re' |
 do' do' do' do' do'4 do'8 do' |
@@ -43,19 +27,16 @@ sib2 r8 sib sib sib |
 sib4 sib8 sib sib sib la la |
 sib1 |
 R1*3 |
-
-
 r8 la sib do' re' mi' fa' sol' |
 la' la sib do' re' mib' fa' sol' |
 fa'2. r4 |
 R1*2 |
-
 r4 sib do'4. do'8 |
 fa'2 mib'4 re'8 do' |
-sib2. r4 |
+re'2. r4 |
 R1*2 |
 r2 r4 sib'8 lab' |
-sol'4 mib' sib'8 la' sol' fa' |
+sol'4 mib' sib'8 lab'? sol' fa' |
 mib'4 fa'8 mib' re'4 sib |
 mib' fa' sib mib' ~|
 mib'8 do' do'' sib' lab' sol' fa' mib' |
@@ -69,22 +50,11 @@ mib'1 mib'2 |
 R1. |
 fa'1 fa'2 |
 R1.*2 |
-
 r1 do'2 |
 re' fa' re' |
 sol'1 fa'2 |
 fa' re' r |
 R1.*11 |
-
-
-
-
-
-
-
-
-
-
 r4 sib' sib' sib' re'4. re'8 |
 mib'2 r1 |
 R1. |
@@ -102,16 +72,13 @@ sol'2. sol'8 lab' sib'4. sib'8 |
 sib'1. |
 R1. |
 R1*4 |
-
-
-
 r2 r4 do' re'2 |
 mib'2. mib'4 fa'4. mib'8 |
 re'2. re'4 re'4. re'8 |
 do'4 r r2 |
 r4 r16 do' do' do' |
 do'4 r16 fa' fa' fa' |
-fa' sol' fa' mib' re' re' mi' fad' |
+fa' sol' fa' mib' re' re' mi'? fad' |
 sol'4 r16 sol' sol' sol' |
 sol' la' sol' fa' mi' fa' mi' do' |
 fa'4 r8 fa'16 fa' |
@@ -141,5 +108,5 @@ la'2 r8 la' la' la' sol' re' re' re' |
 re'2 r8 do' do' do' re' do' si re' |
 sol'2 r8 sol sol sol mib'4. mib'8 |
 re'2. re'8 re' re' re' re' re' |
-sib2 r1 |
+sib2 r r |
 R1*8 |
