@@ -1,31 +1,3 @@
-%{
-  notes = \markup \column {
-    \line { Documents originaux :}
-    \hspace #1
-    \wordwrap {
-      Marc-Antoine Charpentier (1643-1704),
-      \italic {
-        David et Jonathas, Tragedie mise En musique par M.r 
-        Charpentier Et Representée sur le Theatre du College de
-        Louis le Grand le XXV. fevrier 1688. }
-      Recueilli par Philidor Laisné en 1690.
-      \with-url #"http://gallica.bnf.fr/notice?N=FRBNF39618321"
-      \tiny \typewriter "http://gallica.bnf.fr"
-    }
-    \hspace #1
-    \wordwrap {
-      François de Paule Bretonneau (1660-1741), Marc-Antoine Charpentier (1643-1704),
-      \italic {
-        David et Jonathas, tragedie en musique, qui sera
-        representée sur le théatre du college de Louis le Grand,
-        le XXVIII. février }
-      Collège de Louis-le-Grand (Paris).
-      \with-url #"http://gallica.bnf.fr/notice?N=FRBNF33336938"
-      \tiny \typewriter "http://gallica.bnf.fr"
-    }
-  }
-%}
-
 \include "Charpentier/Opera/DavidEtJonathas/common.ily"
 \setOpus "Charpentier/Opera/DavidEtJonathas"
 \opusTitle "David et Jonathas"
@@ -35,20 +7,94 @@
   %% Title page
   \header {
     title = "David et Jonathas"
+    editions = #(if (eqv? #t (ly:get-option 'urtext))
+                    "Urtext" "")
   }
   \markup \null
   \pageBreak
   
   %% notes
   \markup NOTES...
+  \markup \column {
+    \line { Les deux sources : manuscrit Philidor pour la musique, livret pour le texte... }
+    \hspace #1
+    \wordwrap {
+      Marc-Antoine Charpentier (1643-1704),
+      \italic {
+        David et Jonathas, Tragedie mise En musique par M.r 
+        Charpentier Et Representée sur le Theatre du College de
+        Louis le Grand le XXV. fevrier 1688. }
+      Recueilli par Philidor Laisné en 1690.
+      \with-url #"http://gallica.bnf.fr/ark:/12148/bpt6k109662b"
+      \tiny \typewriter "http://gallica.bnf.fr/ark:/12148/bpt6k109662b"
+    }
+    \hspace #1
+    \wordwrap {
+      François de Paule Bretonneau (1660-1741), Marc-Antoine Charpentier (1643-1704),
+      \italic {
+        David et Jonathas, tragedie en musique, qui sera
+        representée sur le théatre du college de Louis le Grand,
+        le XXVIII. février }
+      Collège de Louis-le-Grand (Paris).
+      \with-url #"http://gallica.bnf.fr/ark:/12148/bpt6k716307"
+      \tiny \typewriter "http://gallica.bnf.fr/ark:/12148/bpt6k716307"
+    }
+    \hspace #1
+    \line { Description des deux versions, urtext et concert... }
+  }
   \pageBreak
   
   %% Table of contents
   \markuplines \table-of-contents
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Prologue
+%%%
+\actn "Prologue"
+\markuplines {
+  \title \line { SUJET DU PROLOGUE }
+  \vspace #2
+  \paragraph {
+    Il est rapporté dans la Sainte Ecriture, que Saül, voiant que le
+    Ciel ne lui répondoit point touchant le succez de la Bataille, qui
+    se devoit donner contre les Philistins, se déguisa, & alla
+    consulter une Pythonisse. Elle fit paroître Samüel, qui prédit à
+    Saül sa mort, celle de ses enfans, & le couronnement de David,
+    qu'il persécutoit. La Pythonisse en voiant Samüel fut effraiée, le
+    prenant pour un "Dieu ;" & elle reconnut au mesme temps Saül. On
+    suppose Saül chez la Pythonisse.
+  }
+  \vspace #3
+  \title \line { ACTEURS DU PROLOGUE }
+  \vspace #2
+  \override #'(character-width-ratio . 3/12) \fill-line {
+    \override #'(baseline-skip . 4) \large \column {
+      \character-ambitus \line { \smallCaps Saül, Roi des Israëlites. } \score {
+        \characterAmbitus "bass" "bass" fa, mib'
+        \layout { \characterLayout }
+      }
+      \character-ambitus \line \smallCaps { L'ombre de Samuel. } \score {
+        \characterAmbitus "bass" "bass" sol, re'
+        \layout { \characterLayout }
+      }
+      \character-ambitus \line \smallCaps { Une Pythonisse. } \score {
+        \characterAmbitus "alto" "G_8" sol do''
+        \layout { \characterLayout }
+      }
+      \character-ambitus \line \smallCaps { Troupe de Démons. } \vspace #2
+    }
+  }
+}
+\newBookPart #'()
 \include "Charpentier/Opera/DavidEtJonathas/prologue.ily"
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Tragédie
+%%%
+\newBookPart #'()
+\resetHeaders
+\markup\null
 %{
 \bookpart {
   \resetHeaders

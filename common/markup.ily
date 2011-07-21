@@ -416,7 +416,9 @@ onlyNotesLayout = \layout {
 
 characterLayout = \layout {
   \quoteLayout
-  line-width = 18\mm
+  line-width = #(if (eqv? #t (ly:get-option 'ancient-style))
+                    (* 10 mm)
+                    (* 18 mm))
   ragged-right = ##f
   \context {
     \Staff
@@ -446,22 +448,24 @@ characterAmbitus =
                                    'NoteEvent
                                    'duration (ly:make-duration 2 0 1 1)
                                    'pitch high-pitch)))))
-     #{ \new Staff {
-  \clef $clef1 s16 % $chord
-  %\stopStaff s1 \startStaff
+     (if (eqv? #t (ly:get-option 'ancient-style))
+         #{ \new Staff { \clef $clef1 $chord } #}
+         #{ \new Staff {
+  \clef $clef1 s16
   \set Staff.forceClef = ##t
   \clef $clef2 s8. $chord s2
-} #}))
+} #})))
 
 
 #(define-markup-command (character-ambitus layout props name ambitus)
      (markup? markup?)
+   #:properties ((character-width-ratio 2/12))
    (stack-lines
     DOWN 0 0
     (list empty-stencil
           (interpret-markup layout props
                             (markup 
-                             #:force-line-width-ratio 2/12
+                             #:force-line-width-ratio character-width-ratio
                              #:vcenter #:fill-line (#:smallCaps name)
                              #:vcenter #:left-align ambitus)))))
 

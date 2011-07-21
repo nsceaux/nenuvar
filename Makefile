@@ -682,24 +682,18 @@ Charpentier/Opera/DavidEtJonathas-urtext:
 	-o $(OUTPUT_DIR)/DavidEtJonathas-urtext -durtext \
 	Charpentier/Opera/DavidEtJonathas/main.ly
 .PHONY: Charpentier/Opera/DavidEtJonathas-urtext
-# Version de concert, avec numéros de pièces et clés modernisées
-Charpentier/Opera/DavidEtJonathas-rehearsal:
+# Version de concert, avec clés modernisées
+Charpentier/Opera/DavidEtJonathas:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/DavidEtJonathas-rehearsal  \
+	-o $(OUTPUT_DIR)/DavidEtJonathas  \
 	Charpentier/Opera/DavidEtJonathas/main.ly
-.PHONY: Charpentier/Opera/DavidEtJonathas-rehearsal
-# Dessus I
-Charpentier/Opera/DavidEtJonathas-dessus1:
+.PHONY: Charpentier/Opera/DavidEtJonathas
+# Dessus
+Charpentier/Opera/DavidEtJonathas-dessus:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/DavidEtJonathas-dessus1 -dpart=dessus1  \
+	-o $(OUTPUT_DIR)/DavidEtJonathas-dessus -dpart=dessus  \
 	Charpentier/Opera/DavidEtJonathas/part.ly
-.PHONY: Charpentier/Opera/DavidEtJonathas-dessus1
-# Dessus II
-Charpentier/Opera/DavidEtJonathas-dessus2:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/DavidEtJonathas-dessus2 -dpart=dessus2  \
-	Charpentier/Opera/DavidEtJonathas/part.ly
-.PHONY: Charpentier/Opera/DavidEtJonathas-dessus2
+.PHONY: Charpentier/Opera/DavidEtJonathas-dessus
 # Haute-contre
 Charpentier/Opera/DavidEtJonathas-haute-contre:
 	$(LILYPOND_CMD) \
@@ -722,15 +716,14 @@ Charpentier/Opera/DavidEtJonathas-basse:
 Charpentier/Opera/DavidEtJonathas-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DavidEtJonathas-basse-continue -dpart=basse-continue  \
-	Charpentier/Opera/DavidEtJonathas/part-bc.ly
+	Charpentier/Opera/DavidEtJonathas/part.ly
 .PHONY: Charpentier/Opera/DavidEtJonathas-basse-continue
 
 Charpentier/Opera/DavidEtJonathas-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/DavidEtJonathas
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-urtext.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
-	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-rehearsal.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
-	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-dessus1.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-dessus1.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
-	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-dessus2.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-dessus2.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
+	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
+	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-dessus.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-taille.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/DavidEtJonathas-basse.pdf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas; fi
@@ -743,9 +736,8 @@ Charpentier/Opera/DavidEtJonathas-clean:
 
 Charpentier/Opera/DavidEtJonathas-all: \
 	Charpentier/Opera/DavidEtJonathas-urtext \
-	Charpentier/Opera/DavidEtJonathas-rehearsal \
-	Charpentier/Opera/DavidEtJonathas-dessus1 \
-	Charpentier/Opera/DavidEtJonathas-dessus2 \
+	Charpentier/Opera/DavidEtJonathas \
+	Charpentier/Opera/DavidEtJonathas-dessus \
 	Charpentier/Opera/DavidEtJonathas-haute-contre \
 	Charpentier/Opera/DavidEtJonathas-taille \
 	Charpentier/Opera/DavidEtJonathas-basse \

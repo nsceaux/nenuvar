@@ -263,12 +263,17 @@ pieceToc =
           (markup #:rehearsal-number-toc rehearsal title)
           title))
     (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-        (begin
-         (add-toplevel-markup parser
-          (markup #:rehearsal-number rehearsal
-                  #:hspace 1
-                  #:huge title))
-         (add-no-page-break parser)))
+        (if (eqv? #t (ly:get-option 'urtext))
+            (begin
+              (add-toplevel-markup
+               parser
+               (markup #:rehearsal-number rehearsal))
+              (add-no-page-break parser))
+            (begin
+              (add-toplevel-markup
+               parser
+               (markup #:rehearsal-number rehearsal #:hspace 1 #:huge title))
+              (add-no-page-break parser))))
     (make-music 'Music 'void #t)))
 
 pieceTocNb =
@@ -278,12 +283,17 @@ pieceTocNb =
          (markup #:rehearsal-number-toc number title)
          title))
    (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-       (begin
-        (add-toplevel-markup parser
-         (markup #:rehearsal-number number
-                 #:hspace 1
-                 #:huge title))
-        (add-no-page-break parser)))
+        (if (eqv? #t (ly:get-option 'urtext))
+            (begin
+              (add-toplevel-markup parser
+                                   (markup #:rehearsal-number number))
+              (add-no-page-break parser))
+            (begin
+              (add-toplevel-markup parser
+                                   (markup #:rehearsal-number number
+                                           #:hspace 1
+                                           #:huge title))
+              (add-no-page-break parser))))
    (make-music 'Music 'void #t))
 
 inMusicPieceToc =

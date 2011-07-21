@@ -79,7 +79,7 @@ fa''2. fa''4 sol''4. la''8 |
 sib''2. sib''4 fad''4. fad''8 |
 sol''1. |
 R1. |
-R1*4 |
+R1*4 |\allowPageTurn
 r2. mib''4 fa''4. sol''8 |
 do''2. do''4 lab''4. lab''8 |
 si'2 r8 re'' mib'' fa'' sol''4. re''8 |

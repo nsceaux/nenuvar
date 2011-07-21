@@ -92,8 +92,9 @@
 #(define-public *target*
    (make-parameter (cond ((symbol? (ly:get-option 'target)) (ly:get-option 'target))
                          ((symbol? (ly:get-option 'part)) (ly:get-option 'part))
-                         ((eqv? (ly:get-option 'letter))  'full-letter)
-                         ((eqv? (ly:get-option 'use-rehearsal-numbers)) 'full-rehearsal)
+                         ((eqv? #t (ly:get-option 'letter))  'full-letter)
+                         ((eqv? #t (ly:get-option 'urtext))  'full-urtext)
+                         ((eqv? #t (ly:get-option 'use-rehearsal-numbers)) 'full-rehearsal)
                          (else 'full-a4))))
 #(define-public *target-full* (make-parameter (not (symbol? (ly:get-option 'part)))))
 

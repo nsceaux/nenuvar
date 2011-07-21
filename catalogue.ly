@@ -133,13 +133,12 @@
         #:key "Charpentier/Opera/DavidEtJonathas"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=28"
         #:main ((urtext "Version urtext" #:options "-durtext")
-                (rehearsal "Version de concert, avec numéros de pièces et clés modernisées"))
-        #:parts ((dessus1 "Dessus I")
-                 (dessus2 "Dessus II")
+                (#f "Version de concert, avec clés modernisées"))
+        #:parts ((dessus "Dessus")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
                  (basse "Basses")
-                 (basse-continue "Basse continue" #:score-file "part-bc.ly")))
+                 (basse-continue "Basse continue")))
 
        ("Prose pour le jour de Pâques"
         #:description "Victimae paschali."
