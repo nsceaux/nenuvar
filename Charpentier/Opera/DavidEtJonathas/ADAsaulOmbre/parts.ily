@@ -1,4 +1,4 @@
-\piecePartSpecs #`((voix)
-                   (basse #:score "score-basse" #:tag-global ())
-                   (basse-continue #:score "score-basse-continue")
-                   (silence #:tag-global ()))
+\piecePartSpecs #`((basse #:score "score-basse")
+                   (basse-continue #:score-template "score-basse-continue-voix2"
+                                   #:music ,#{ s1.*7\break #})
+                   (silence #:score "score-silence"))

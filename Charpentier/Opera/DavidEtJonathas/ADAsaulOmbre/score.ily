@@ -1,20 +1,28 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \keepWithTag #'() \global
-                           \clef "basse" \includeNotes "basse1" >>
-      \newHaraKiriStaff << \keepWithTag #'() \global
-                           \clef "basse" \includeNotes "basse2" >>
-      \newHaraKiriStaff << \keepWithTag #'() \global
-                           \clef "basse" \includeNotes "basse3" >>
+      \new Staff \with { \haraKiri } <<
+        \keepWithTag #'() \global
+        \keepWithTag #'basse1 \includeNotes "basse" >>
+      \new Staff \with { \haraKiri } <<
+        \keepWithTag #'() \global
+        \keepWithTag #'basse2 \includeNotes "basse" >>
+      \new Staff \with { \haraKiri } <<
+        \keepWithTag #'() \global
+        \keepWithTag #'basse3 \includeNotes "basse" >>
     >>
+    \new Staff \with { \haraKiri } \withLyrics <<
+      \keepWithTag #'() \global
+      \keepWithTag #'saul \includeNotes "voix"
+    >> \keepWithTag #'saul \includeLyrics "paroles"
     \new Staff \withLyrics <<
       \keepWithTag #'didascalies \global
-      \includeNotes "saul-ombre"
-    >> \includeLyrics "paroles"
-    \new Staff << \keepWithTag #'() \global
-                  \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+      \keepWithTag #'ombre \includeNotes "voix"
+    >> \keepWithTag #'ombre \includeLyrics "paroles"
+    \new Staff <<
+      \keepWithTag #'() \global
+      \keepWithTag #'basse-continue \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
   \layout { }
   \midi { }

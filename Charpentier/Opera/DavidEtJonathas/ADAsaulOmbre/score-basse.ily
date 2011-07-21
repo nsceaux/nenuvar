@@ -1,13 +1,17 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \keepWithTag #'() \global
-                  \clef "basse" \includeNotes "basse1" >>
-    \new Staff << \keepWithTag #'() \global
-                  \clef "basse" \includeNotes "basse2" >>
-    \new Staff << \keepWithTag #'() \global
-                  \clef "basse" \includeNotes "basse3" >>
-    \new Staff << \keepWithTag #'() \global
-                  \clef "basse" \includeNotes "basse4" >>
+    \new Staff <<
+      \keepWithTag #'() \global
+      \keepWithTag #'basse1 \includeNotes "basse" >>
+    \new Staff <<
+      \keepWithTag #'() \global
+      \keepWithTag #'basse2 \includeNotes "basse" >>
+    \new Staff <<
+      \keepWithTag #'() \global
+      \keepWithTag #'basse3 \includeNotes "basse" >>
+    \new Staff <<
+      \keepWithTag #'() \global
+      \keepWithTag #'basse4 \includeNotes "basse" >>
   >>
   \layout { }
 }
