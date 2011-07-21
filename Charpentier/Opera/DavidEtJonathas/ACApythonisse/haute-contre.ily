@@ -71,7 +71,7 @@ do''2. do''4 do''4. do''8 |
 re''2. re''4 re''4. fa''8 |
 mib''1. |
 R1. |
-R1*4 |
+R1*4 |\allowPageTurn
 r2 r4 sol' sib'4. sol'8 |
 lab'1 lab'2 |
 sol'2. sol'4 sol'4. sol'8 |

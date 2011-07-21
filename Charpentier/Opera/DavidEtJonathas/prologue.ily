@@ -34,6 +34,7 @@
 \pieceToc \markup { Saül : \italic { Est-ce assez ? ai-je enfin épuisé ta colere ? } }
 \includeScore "AEAsaulPythonisse"
 
+\markup\null
 \actEnd \markup { FIN DU PROLOGUE }
 #(if (eqv? #t (ly:get-option 'urtext))
      (add-toplevel-markup parser (markup #:vspace 45)))

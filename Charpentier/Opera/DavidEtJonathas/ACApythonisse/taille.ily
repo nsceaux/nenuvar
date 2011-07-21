@@ -71,7 +71,7 @@ fa'2. fa'4 mi'4. fad'8 |
 sol'2. sol'8 lab' sib'4. sib'8 |
 sib'1. |
 R1. |
-R1*4 |
+R1*4 |\allowPageTurn
 r2 r4 do' re'2 |
 mib'2. mib'4 fa'4. mib'8 |
 re'2. re'4 re'4. re'8 |
