@@ -1,4 +1,4 @@
-la'4 la'8 la' la'4 la' |
+\clef "haute-contre" la'4 la'8 la' la'4 la' |
 la'2 la' |
 la' la'4 re'' |
 mi'' dod''8 re'' mi'' re'' mi'' dod'' |

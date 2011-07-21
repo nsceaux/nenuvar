@@ -87,51 +87,47 @@
   }
 }
 \newBookPart #'()
-\include "Charpentier/Opera/DavidEtJonathas/prologue.ily"
+%\include "Charpentier/Opera/DavidEtJonathas/prologue.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Tragédie
 %%%
 \newBookPart #'()
 \resetHeaders
-\markup\null
-%{
-\bookpart {
-  \resetHeaders
-  
-  \markuplines {
-    \act "DAVID ET JONATAS"
-    \scene "TRAGÉDIE"
-    \paragraph {
-      Saül poursuivant David, perdit la bataille qu'il donna contre les
-      Philistins. Jonathas, fils de Saül et ami de David, y fut
-      tué. Saül se perça lui-même de son épée. La mort de Saül et celle
-      de Jonathas firent avoir la couronne à David.
-    }
-    \vspace #1
-    \paragraph {
-      La scène est proche des montagnes de Gelboé, entre le camp de Saül
-      et celui des Philistins.
-    }
-    \vspace #3
-    \title \line { ACTEURS }
-    \vspace #3
-    \fill-line {
-      \override #'(baseline-skip . 4) \large \column {
-        \line { \smallCaps Saül, Roi des Israëlites. }
-        \line { \smallCaps Jonathas, fils de Saül. }
-        \line { \smallCaps David, persécuté par Saül. }
-        \line { \smallCaps Achis, Roi des Philistins. }
-        \line { \smallCaps Joadab, un des chefs de l'armée des Philistins, ennemi de David. }
-        \line { Troupe de guerriers et de captifs, de peuple et de 
-                pasteurs que David a délivrés. }
-        \line { Chœur de la suite de Saül, d'Achis, de David, de Jonathas et de Joadab. }
-      }
+
+\markuplines {
+  \act "DAVID ET JONATAS"
+  \title \line { SUJET DE LA TRAGÉDIE }
+  \paragraph {
+    Saül poursuivant David, perdit la bataille qu'il donna contre les
+    Philistins. Jonathas fils de Saül & ami de David, y fut
+    tué. Saül se perça lui-mesme de son épée. La mort de Saül & celle
+    de Jonathas firent avoir la couronne à David.
+  }
+  \vspace #1
+  \paragraph {
+    La scène est proche des montagnes de Gelboë, entre le camp de Saül
+    et celui des Philistins.
+  }
+  \vspace #3
+  \title \line { ACTEURS }
+  \vspace #3
+  \fill-line {
+    \override #'(baseline-skip . 4) \large \column {
+      \line { \smallCaps Saül, Roi des Israëlites. }
+      \line { \smallCaps Jonathas, fils de Saül. }
+      \line { \smallCaps David, persécuté par Saül. }
+      \line { \smallCaps Achis, Roi des Philistins. }
+      \line { \smallCaps Joadab, un des chefs de l'armée des Philistins, ennemi de David. }
+      \line { Troupe de guerriers & de captifs,
+        de peuple & de pasteurs que David a délivrez. }
+      \line { Chœur de la suite de Saül, d'Achis, de David, de Jonathas et de Joadab. }
     }
   }
 }
 
 \include "Charpentier/Opera/DavidEtJonathas/acte1.ily"
+%{
 \include "Charpentier/Opera/DavidEtJonathas/acte2.ily"
 \include "Charpentier/Opera/DavidEtJonathas/acte3.ily"
 \include "Charpentier/Opera/DavidEtJonathas/acte4.ily"

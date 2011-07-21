@@ -1,4 +1,4 @@
-re'4 re'8 re' re'4 re' |
+\clef "basse" re'4 re'8 re' re'4 re' |
 re'2 re' |
 re' re' |
 dod'4 la8 si dod' si dod' la |

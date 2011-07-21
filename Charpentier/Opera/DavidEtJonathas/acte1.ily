@@ -1,16 +1,16 @@
 \newBookPart #'()
 \act "Acte Premier"
 \markuplines \paragraph {
-  David ayant vaincu les Amalécites est rappelé dans le camp des
-  Philistins, d'où il avait été renvoyé par la jalousie des chefs de
-  l'armée. Une troupe de guerriers, de captifs et de pasteurs qu'il a
-  délivrés, commence par chanter ses louanges. Achis, auprès de qui il
-  s'était auparavant retiré, va le recevoir hors du camp, et lui
-  apprend qui là même il doit y avoir une conférence entre Saül et
-  lui, pour délibérer ensemble si l'on fera la paix, ou si l'on
-  donnera la bataille.
+  David aiant vaincu les Amalécites est rappelé dans le camp des
+  Philistins, d'où il avoit été renvoyé par la jalousie des Chefs de
+  l'armée. Une troupe de guerriers, de captifs, & de pasteurs qu'il a
+  délivrez, commence par chanter ses loüanges. Achis, auprès de qui il
+  s'étoit auparavant retiré, va le recevoir hors du camp, & lui
+  apprend que là même il doit y avoir une conférence entre Saül &
+  lui, pour délibérer ensemble, si l'on fera la Paix, ou si l'on
+  donnera la Bataille.
 }
-\scene "Scène Première"
+\scene "Scène Première" "Scène 1 : troupe de guerriers, de pasteurs, et de captifs"
 \sceneDescription \markup \wordwrap-center \smallCaps {
   Troupes de guerriers, de pasteurs et de captifs
 }

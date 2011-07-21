@@ -1,4 +1,4 @@
-re''4 re''8 re'' re''4 la' |
+\clef "dessus" re''4 re''8 re'' re''4 la' |
 re'' re''8 mi'' fad''4 fad''8 mi'' |
 re''4 fad''8 mi'' re'' mi'' fad'' sol'' |
 la''4 la''8 la'' la''4 la'' |
