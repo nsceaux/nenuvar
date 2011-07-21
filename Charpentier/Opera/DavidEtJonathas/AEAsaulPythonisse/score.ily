@@ -1,20 +1,20 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "dessus1" >>
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "dessus2" >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "pythonisse"
-    >> \includeLyrics "paroles-pythonisse"
     \new Staff \withLyrics <<
-      \characterName \markup Saül
-      \global \clef "vbasse" \includeNotes "saul"
-    >> \includeLyrics "paroles-saul"
-    \new Staff << \global \clef "basse" \includeNotes "basse"
-                  \instrumentName \markup { Basse continue }
-                  \includeFigures "chiffres" >>
+      \global \keepWithTag #'saul \includeNotes "voix"
+    >> \keepWithTag #'saul \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \global \keepWithTag #'pythonisse \includeNotes "voix"
+    >> \keepWithTag #'pythonisse \includeLyrics "paroles"
+    \new Staff <<
+      \global \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres"
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

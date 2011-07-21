@@ -1,4 +1,4 @@
-R1*10 |
+\clef "dessus" R1*10 |
 R1*2|
 r4 fa'' fa'' fa'' |
 do''2. do''4 |
