@@ -1,6 +1,6 @@
-R2.*18 |
-R1*12 |
-r2 fad'8 sol' |
+\clef "dessus" R2.*18 |
+R1*12 | \noHaraKiri
+r4 r fad'8 sol' |
 la'4 la'4. la'8 |
 si'2 si'8 dod'' |
 re''4 re'' re'' |

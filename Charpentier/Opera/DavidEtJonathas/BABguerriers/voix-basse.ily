@@ -1,6 +1,6 @@
-R2.*18 |
-R1*12 |
-r2 re8 mi |
+\clef "vbasse" R2.*18 |
+R1*12 | \noHaraKiri
+r4 r re8 mi |
 fad4 fad4. fad8 |
 sol2 sol8 sol |
 fad4 sol mi |
@@ -14,16 +14,16 @@ re si, la, |
 mi2. |
 la,2 r4 |
 R2.*7 |
-r2 r8 mi |
+r4 r r8 mi^\markup\center-align "[seul]" |
 la4. si8 la sol |
 fad2 fad4 |
 sol4. sol8 sol4 fad |
 sol8 [\melisma la sol fa ] mi [ fa mi re ](|
 do2 )\melismaEnd do4 do |
-re4. mi8 fad4 re |
-sol8 [ fa ] mi [ re ] do[\melisma re mi do ]|
+re4. mi8 fad!4 re |
+sol8 [ fa ] mib? [ re ] do?[\melisma re mib! do ]|
 re1\melismaEnd |
-sol,2 r4 sol |
+sol,2 r4 sol^\markup\center-align "Tous" |
 sol2 r8 sol sol sol |
 fad2. sol8 la |
 sol4 la si ( si, )|

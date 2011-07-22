@@ -1,6 +1,6 @@
-R2.*18 |
-R1*12 |
-r2 la'8 sol' |
+\clef "haute-contre" R2.*18 |
+R1*12 | \noHaraKiri
+r4 r la'8 sol' |
 fad'4 fad'4. la'8 |
 sol'2 sol'8 sol' |
 la'4 si' dod'' |
@@ -16,7 +16,7 @@ la' mi' la' |
 la' fad' si'8 la' |
 sold'2 dod''4 |
 la'2 la'4 |
-la'8 sold' la' si' dod'' la' |
+la'8 sol' la' si' dod'' la' |
 si'4. si'8 dod''4 |
 si' si'4. mi''8 |
 dod''2 r4 |

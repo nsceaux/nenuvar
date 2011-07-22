@@ -1,6 +1,6 @@
-R2.*18 |
-R1*12 |
-r2 fad'8 mi' |
+\clef "taille" R2.*18 |
+R1*12 | \noHaraKiri
+r4 r fad'8 mi' |
 re'4 re'4. re'8 |
 re'2 re'8 re' |
 re'4 re' sol' |

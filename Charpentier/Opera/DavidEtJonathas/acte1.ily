@@ -21,7 +21,7 @@
   \italic { Du plus grand des héros publions les exploits }
 }
 \includeScore "BABguerriers"
-\pieceToc \markup { Bergères : \italic { Le Ciel dans nos bois le fit naître } }
+\pieceToc \markup { Bergers : \italic { Le Ciel dans nos bois le fit naître } }
 \includeScore "BACbergers"
 \pieceToc \markup { Un guerrier, chœur : \italic { Jeune, et terrible dans la guerre } }
 \includeScore "BADguerriers"

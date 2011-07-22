@@ -1,30 +1,30 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroup <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaffB << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaffB << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "dessus" >>
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "taille" >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \keepWithTag #'basse \includeNotes "basse" >>
     >>
     \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles-dessus"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles-haute-contre"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \includeNotes "voix-dessus"
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \includeNotes "voix-haute-contre"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
       \new Staff \withLyrics <<
-        \characterName \markup "Un Guerrier"
-        \global \clef "vtaille" \includeNotes "voix-taille"
-      >> \includeLyrics "paroles-taille"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vbasse" \includeNotes "voix-basse"
-      >> \includeLyrics "paroles-basse"
+        \global \keepWithTag #'vtaille \includeNotes "voix"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \includeNotes "voix-basse"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
-    \new Staff << \instrumentName \markup { Basse continue }
-                  \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

@@ -1,6 +1,6 @@
-R2.*18 |
-R1*12 |
-r2 la'8 sol' |
+\clef "vhaute-contre" R2.*18 |
+R1*12 | \noHaraKiri
+r4 r la'8 sol'! |
 fad'4 fad'4. la'8 |
 sol'2 sol'8 sol' |
 la'4 sol' sol' |
