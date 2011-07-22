@@ -73,7 +73,24 @@ la,2
     sol8 la sol fa mi fa mi re |
     do2 do4 do |
     re4. mi8 fad!4 re |
-    sol8 fa? mib re do? re mib! do |
+    \origVersion\footnoteGrob #'NoteHead #'(-1 . 1)
+    \markup \box 1 \markup {
+      \box 1 Philidor :
+      \vcenter\score {
+        \new ChoirStaff <<
+          \new Staff \new Voice = "basse" \with { autoBeaming = ##f } {
+            \tinyQuote \key re \major \time 2/2 \clef "bass"
+            sol8[ fab] mi[ re] dod[ re mib! dod] |
+          } \lyricsto "basse" \new Lyrics { "- sons" nos "chai -" }
+          \new Staff {
+            \tinyQuote \key re \major \time 2/2 \clef "bass"
+            sol8 fad mib re dod re mib! dod |
+          }
+        >>
+        \layout { \quoteLayout \context { \Score \ancientAccidentals } }
+      }
+    }
+    sol8 fa? mi re do? re mi do |
     re2 re, |
     sol,2.
   }

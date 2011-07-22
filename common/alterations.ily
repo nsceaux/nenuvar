@@ -118,6 +118,13 @@ Returns @code{#f} or the reason for the invalidation, a symbol."
        (accidental-interface::calc-ancient-alteration grob)
        (accidental-interface::calc-alteration grob)))
 
+ancientAccidentals = \with {
+  autoAccidentals = #`(Staff ,(make-baroque-accidental-rule 'same-octave 0))
+  \override Accidental #'alteration = #accidental-interface::calc-generic-alteration
+  \override AccidentalCautionary #'alteration = #accidental-interface::calc-generic-alteration
+  printKeyCancellation = ##f
+}
+
 \layout {
   \context {
     \Score

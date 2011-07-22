@@ -21,7 +21,7 @@ sol4. sol8 sol4 fad |
 sol8 [\melisma la sol fa ] mi [ fa mi re ](|
 do2 )\melismaEnd do4 do |
 re4. mi8 fad!4 re |
-sol8 [ fa ] mib? [ re ] do?[\melisma re mib! do ]|
+sol8 [ fa ] mi [ re ] do?[\melisma re mi do ]|
 re1\melismaEnd |
 sol,2 r4 sol^\markup\center-align "Tous" |
 sol2 r8 sol sol sol |
