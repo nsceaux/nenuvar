@@ -1,4 +1,4 @@
-re4 la fad re mi fad |
+\clef "basse" re4 la fad re mi fad |
 si, dod re dod re mi |
 fad sol fad mi fad mi |
 re dod si, mi fad sol |
@@ -55,4 +55,4 @@ re si, do la, la, si, |
 sol, sol sol sol2 fad4 |
 sol sol sol re si, sol, |
 la,4 la fad sol la la, |
-re2 
+re2

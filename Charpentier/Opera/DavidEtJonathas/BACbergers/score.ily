@@ -1,25 +1,26 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroup <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
+    \new GrandStaff <<
+      \new Staff <<
+        \global \includeNotes "dessus1" >>
+      \new Staff <<
+        \global \includeNotes "dessus2" >>
     >>
     \new ChoirStaff <<
       \new Staff \withLyrics <<
-        \characterName \markup "Une Bergère"
-        \global \clef "vdessus" \includeNotes "berger1"
-      >> \includeLyrics "paroles1"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "berger2"
-      >> \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "berger3"
-      >> \includeLyrics "paroles3"
+        \global \keepWithTag #'berger1 \includeNotes "voix"
+      >> \keepWithTag #'berger1 \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \includeNotes "berger2"
+      >> \keepWithTag #'berger2 \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \includeNotes "berger3"
+      >> \keepWithTag #'berger3 \includeLyrics "paroles"
     >>
-    \new Staff << \instrumentName \markup { Basse continue }
-                  \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \includeNotes "basse-continue"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
-  \layout { indent = \largeindent }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }
