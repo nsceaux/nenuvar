@@ -1,4 +1,4 @@
-la2 sold4 la8. sold16 |
+\clef "basse" la2 sold4 la8. sold16 |
 fad4 ~ fad16 fad mi re dod4. dod8 |
 re4 dod re2 |
 mi4. fad8 sold2 |

@@ -30,7 +30,7 @@
 \pieceToc \markup { Un guerrier : \italic { Le Dieu qui lance le tonnerre } }
 \includeScore "BAFguerrier"
 
-\scene "Scène II"
+\scene "Scène Seconde" "Scène 2 : David, troupes etc."
 \sceneDescription \markup \wordwrap-center \smallCaps {
   David, troupes de guerriers, de pasteurs et de captifs
 }
