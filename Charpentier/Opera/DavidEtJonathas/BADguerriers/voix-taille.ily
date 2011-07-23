@@ -1,7 +1,8 @@
-s2 R1*35 |
+\clef "vtaille" r2 |
+R1*35 |
 R2.*20 |
 r8 la la la la si |
-dod'4 la8 si dod' re' |
+dod'4^\markup\orig-version\musicglyph #"scripts.segno" la8 si dod' re' |
 mi' mi mi fad sol la |
 si4 si8 si la sol |
 fad4. fad8 fad sol |

@@ -1,10 +1,11 @@
-s2 R1*35 |
+\clef "vhaute-contre" r2 |
+R1*35 |
 R2.*20 |
 r4 re'2 |
-r8 mi' mi' mi' mi' fad' |
+r8 mi'^\markup\orig-version\musicglyph #"scripts.segno" mi' mi' mi' fad' |
 sol'4 sol'8 sol' fad' mi' |
 re'4. re'8 re' mi' |
-fad'4 fad' ( mi'8 ) re' |
+fad'4 fad' ( mi'8)\prall re' |
 dod'4. re'8 mi'4 |
 la8 si dod' re' mi' fad' |
 mi'4 mi'8 sol' fad' mi' |
@@ -15,7 +16,7 @@ r4 mi'2 |
 r4 sol'2 |
 r8 re' re' re' re' mi' |
 fad'4 fad'8 fad' mi' re' |
-dod'4 la'( sol'8 ) fad' |
+dod'4 la'( sol'8)\prall fad' |
 mi'4 mi' re' |
 dod'4. la'8 la' la' |
 la'4 sol'4. la'8 |

@@ -1,39 +1,49 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroup <<
-      \new Staff << \global \clef "dessus"
-                    { \includeNotes "dessus1-A" \break
-                      \includeNotes "dessus-B"
-                      \includeNotes "dessus-C" \break
-                      \includeNotes "dessus1-D" \break
-                      \includeNotes "dessus-E" } >>
-      \newHaraKiriStaff << \global \clef "dessus"
-                           { \includeNotes "dessus2-A"
-                             s2. s2.*30
-                             \includeNotes "dessus2-D" } >>
-      \newHaraKiriStaffB << \global \clef "haute-contre"
-                            \includeNotes "haute-contre" >>
-      \newHaraKiriStaffB << \global \clef "taille"
-                            \includeNotes "taille" >>
+    \new StaffGroupNoBracket <<
+      \new GrandStaff <<
+        \new Staff <<
+          \global \keepWithTag #'dessus1 \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiri } <<
+        { s2 s1*35 s2.*21 \startHaraKiri
+          s2.*30 \stopHaraKiri
+          s2.*3 \startHaraKiri }
+          \global \keepWithTag #'dessus2 \includeNotes "dessus"
+        >>
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        { s2 s1*35 s2.*20 \noHaraKiri }
+        \global \includeNotes "haute-contre"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        { s2 s1*35 s2.*21 \noHaraKiri }
+        \global \includeNotes "taille"
+      >>
     >>
     \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles-dessus"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles-haute-contre"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vtaille" \includeNotes "voix-taille"
-      >> \includeLyrics "paroles-taille"
-      \new Staff \withLyrics <<
-        \characterName \markup "Un Guerrier"
-        \global \clef "vbasse" \includeNotes "voix-basse"
-      >> \includeLyrics "paroles-basse"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+      { s2 s1*35 s2.*20\noHaraKiri s2.*61\revertNoHaraKiri }
+        \global \includeNotes "voix-dessus"
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+      { s2 s1*35 s2.*20 \noHaraKiri s2.*61\revertNoHaraKiri }
+        \global \includeNotes "voix-haute-contre"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+      { s2 s1*35 s2.*20 \noHaraKiri s2.*61\revertNoHaraKiri }
+        \global \includeNotes "voix-taille"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
+      \new Staff \with { \haraKiri } \withLyrics <<
+        { \noHaraKiri s2 s1*35 s2.*20 s2.*61\revertNoHaraKiri }
+        \global \keepWithTag #'vbasse \includeNotes "voix"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres"
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

@@ -1,7 +1,8 @@
-s2 R1*35 |
+\clef "haute-contre" r2 |
+R1*35 |
 R2.*20 |
 r8 la' la' la' la' si' |
-dod''4 la'8 si' dod'' re'' |
+dod''4^\markup\orig-version\musicglyph #"scripts.segno" la'8 si' dod'' re'' |
 si' mi' mi' fad' sol' la' |
 si'4 sol'4. sol'8 |
 la'4. la'8 la' sol' |

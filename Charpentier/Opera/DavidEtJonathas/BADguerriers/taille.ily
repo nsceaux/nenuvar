@@ -1,4 +1,5 @@
-s2 R1*35 |
+\clef "taille" r2 |
+R1*35 |
 R2.*21 |
 r8 mi' mi' mi' mi' fad' |
 sol'4 sol'8 sol' fad' mi' |

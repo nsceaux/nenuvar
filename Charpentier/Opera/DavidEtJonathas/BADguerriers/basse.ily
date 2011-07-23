@@ -1,4 +1,4 @@
-re'4. re'8 |
+\clef "basse" re'4. re'8 |
 la4. fad8 sol4 la |
 re re8 re re mi fad sol |
 la4. la8 mi fad sol la |
@@ -54,7 +54,7 @@ la la re |
 la,4. la8 la la |
 si4 dod'4. dod'8 |
 re'4 sol la |\allowPageTurn
-re re2 |
+re2. |
 la4 la2 |
 mi4 mi2 |
 sol4 sol2 |

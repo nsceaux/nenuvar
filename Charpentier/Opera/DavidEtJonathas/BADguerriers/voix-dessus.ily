@@ -1,12 +1,13 @@
-s2 R1*35 |
+\clef "vdessus" r2 |
+R1*35 |
 R2.*20 |
 r4 fad''2 |
-r4 dod''2 |
+r4 dod''2^\markup\orig-version\musicglyph #"scripts.segno" |
 r4 mi''2 |
 r8 si' si' si' si' dod'' |
 re''4 re''8 re'' dod'' si' |
 la'4. si'8 dod'' re'' |
-mi''4 mi'' ( re''8 ) dod'' |
+mi''4 mi'' ( re''8)\prall dod'' |
 si'4 si'4. dod''8 |
 re''4 re'' mi'' |
 fad'' la''2 |
