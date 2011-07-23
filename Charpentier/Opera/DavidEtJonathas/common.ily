@@ -41,6 +41,10 @@
 %% Use rehearsal numbers
 #(ly:set-option 'use-rehearsal-numbers #t)
 
+\layout {
+  reference-incipit-width = #(* 1/2 mm)
+}
+
 \include "italiano.ly"
 \include "common/common.ily"
 \include "common/toc-columns.ily"

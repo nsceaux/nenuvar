@@ -1,10 +1,5 @@
 \tag #'(basse vtaille) {
-  \origVersion {
-    \once\override FootnoteItem #'annotation-line = ##f
-    \footnoteGrob #'TextScript #'(-1 . 0)
-    \markup \box 1 \markup { \box 1 Philidor : \italic { "\"Un" du "peuple\"" } }
-  }
-  \clef "vtaille" r4^\markup\character "[Un guerrier]" r
+  \clef "vtaille" r4^\markup\character "Un du peuple" r
   \once\override TextScript #'outside-staff-priority = #10
   fad8^"guay" sol |
   la4 la4. la8 |

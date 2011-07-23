@@ -1,4 +1,4 @@
-fad''4. sold''8 sold''4. fad''16 sold'' |
+\clef "dessus" fad''4. sold''8 sold''4. fad''16 sold'' |
 la''2 ~ la''8 la'' la'' mi'' |
 fad'' sol'' la'' sol'' fad'' sol'' fad'' mi'' |
 re''4 re'' re''4. re''8 |
@@ -13,6 +13,15 @@ mi''4 do'' mi''4. do''8 |
 sol''4 mi'' la'' sol''8 fad'' |
 sol'' sol'' fad'' fad'' fad'' sol'' |
 la''4 la''8 la'' sol'' fad'' |
+\origVersion\footnoteGrob #'NoteHead #'(1 . 2)
+\markup \box 1 \markup { \box 1 Philidor : 
+  \vcenter\score {
+    { \tinyQuote \key re \major \time 3/4 \clef "french"
+      mi''4. mi''8*3/4 mi'' mi'' fad'' |
+    }
+    \layout { \quoteLayout }
+  }
+}
 mi''4. mi''8 mi'' fad'' |
 sol''4 sol''2 |
 r4 re''2 |
@@ -31,4 +40,4 @@ dod''4 dod'' re'' |
 mi'' la''4. la''8 |
 la''4 sol''8 fad'' sol'' la'' |
 fad''4 sol'' mi'' |
-\custosNote fad'' 
+fad''4 fad''2 |

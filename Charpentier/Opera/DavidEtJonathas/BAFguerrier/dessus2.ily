@@ -1,4 +1,4 @@
-la'4. si'8 si'4. la'16 si' |
+\clef "dessus" la'4. si'8 si'4. la'16 si' |
 dod''8 re'' mi'' re'' dod'' re'' dod'' si' |
 la'2 ~ la'8 si' la' sol' |
 fad'4 fad' fad'4. fad'8 |
@@ -11,7 +11,7 @@ fad'4 sol'8 la' si' la' si' fad' |
 sol'4 sol' si'4. si'8 |
 si'4 mi'' la' sol'8 la' |
 si'4 sol' do'' si'8 la' |
-si' do'' re'' re'' re'' mi'' |
+si' dod'' re'' re'' re'' mi'' |
 fad''4 fad''8 fad'' mi'' re'' |
 dod''4. dod''8 dod'' red'' |
 mi''4 mi''2 |
@@ -31,4 +31,4 @@ mi''4 la' si' |
 dod''4. dod''8 dod'' dod'' |
 re''4 mi''4. mi''8 |
 la'4 si' dod'' |
-\custosNote re'' 
+re''4 re''2 |

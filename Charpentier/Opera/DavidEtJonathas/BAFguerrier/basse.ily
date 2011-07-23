@@ -1,4 +1,4 @@
-re4 re si, mi |
+\clef "basse" re4 re si, mi |
 la,2 la4. la8 |
 re'2 re'8 re' re' la |
 si do' re' do' si do' si la |
@@ -31,4 +31,4 @@ la la re |
 la,4. la8 la la |
 si4 dod'4. dod'8 |
 re'4 sol la |
-\custosNote re 
+re4 re2 |
