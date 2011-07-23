@@ -1,27 +1,22 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \newHaraKiriStaff <<
-        \instrumentName \markup Violons
-        \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup Haute-contres
-        \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup Tailles
-        \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup Basses
-        \global \clef "basse" \includeNotes "basse" >>
+      \new Staff \with { \haraKiri } <<
+        \global \includeNotes "dessus" >>
+      \new Staff \with { \haraKiri } <<
+        \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiri } <<
+        \global \includeNotes "taille" >>
+      %\new Staff \with { \haraKiri } <<
+      %  \global \keepWithTag #'basse \includeNotes "basse" >>
     >>
     \new Staff \withLyrics <<
-      \characterName \markup David
-      \global \clef "vhaute-contre" \includeNotes "david"
-    >> \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup { Basse continue }
-                  \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+      \global \keepWithTag #'david \includeNotes "voix"
+    >> \keepWithTag #'david \includeLyrics "paroles"
+    \new Staff <<
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

@@ -1,4 +1,4 @@
-sol'1 sol'2 |
+\clef "haute-contre" sol'1 sol'2 |
 fad'1 ~ fad'4. fad'8 |
 fad'2 mi'4 fad' sol'2 |
 fad'1 sol'4 fad' |
@@ -12,7 +12,7 @@ sol'1 sol'4 la' |
 fad'1 fad'4. fad'8 |
 fad'2 mi'2. fad'4 |
 red'2. red'4 mi' fad' |
-mi'2. mi'4 fad' sold' |
+mi'2. mi'4 fad' sold'? |
 la'1. ~|
 la' |
 la'1 sol'2 |
@@ -69,7 +69,16 @@ sol'2 r8 sol' la' si' do''4 mi'' |
 do'' sol' sol' sol' sol' sol' |
 sol' sol' sol'8 sol' la' si' do''4 do''8 si' |
 la'4 fad'8 sol' la'4 la' la' fad' |
-fad' fad' fad' fad'8 sol' la'2 |
+\origVersion\footnoteGrob #'NoteHead #'(1 . 3)
+\markup \box 1 \markup { \box 1 Philidor : 
+  \vcenter\score {
+    { \tinyQuote \key mi \minor \time 3/2 \clef "soprano"
+      fad'4 fad' fad' fad'8 sol' la'4*2 |
+    }
+    \layout { \quoteLayout }
+  }
+}
+fad'4 fad' fad' fad'8 sol' la'2 |
 re'4 re' sol' la' sol'8 re' mi' fa' |
 sol' fad' sold' la' si'4 mi'' re''4. do''8 |
 do''2. |
@@ -94,7 +103,7 @@ si'1. |
 R1. |
 r2 r r4 mi'' |
 re''1 r2 |
-r4 do'' si'2. si'4 |
+r4 dod'' si'2. si'4 |
 la'1. ~|
 la'2. sol'4 sol'4. sol'8 |
 fad'4 mi' fad' fad' sol'4. la'8 |

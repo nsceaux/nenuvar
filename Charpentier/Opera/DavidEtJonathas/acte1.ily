@@ -37,14 +37,14 @@
 \pieceToc \markup { David : \italic { Allez, le Ciel attend un légitime hommage } }
 \includeScore "BBAdavid"
 
-\scene "Scène III"
+\scene "Scène Troisième" "Scène 3 : David"
 \sceneDescription \markup \smallCaps David
 \pieceToc \markup {
   David : \italic { Ciel ! quel triste combat en ces lieux me rappelle ? }
 }
 \includeScore "BCAdavid"
 
-\scene "Scène IV"
+\scene "Scène Quatrième" "Scène 4 : Achis, David, troupes etc."
 \sceneDescription \markup \wordwrap-center \smallCaps {
   Achis, David, troupes de guerriers, de pasteurs et de captifs
 }

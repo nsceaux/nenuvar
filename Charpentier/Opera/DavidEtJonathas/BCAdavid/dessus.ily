@@ -1,4 +1,13 @@
-r2 si'1 ~|
+\clef "dessus" r2 si'1~ |
+\origVersion\footnoteGrob #'NoteHead #'(1 . -1)
+\markup \box 1 \markup { \box 1 Philidor : 
+  \vcenter\score {
+    { \tinyQuote \key mi \minor \time 3/2 \clef "french"
+      r2 si'1~ | si'2*1/2~ si'2.*2/3 la'4 la'4. si'8 |
+    }
+    \layout { \quoteLayout }
+  }
+}
 si'2. la'4 la'4. si'8 |
 sol'1 do''2 ~|
 do'' si'2. si'4 |
@@ -36,7 +45,7 @@ r2 r4 dod'' dod''4. re''8 |
 mi''2. mi''4 si'4. dod''8 |
 re''2 re'' red'' |
 mi''1 re''2 |
-dod''1 dod''4. si'8 |
+dod''2~ dod'' dod''4. si'8 |
 lad'1 si'2 ~|
 si' mi''4 re'' dod''4. si'8 |
 si'1 lad'2 |
@@ -52,11 +61,11 @@ si'2. si'4 si'4. dod''8 |
 la'4 si' dod'' re'' mi''2 |
 la'1 r8 re'' re'' re'' |
 si'1 mi''4. mi''8 |
-re''2. dod''4 si' la' |
+re''2. do''4 si' la' |
 la'1 sold'2 |
 la'1. |
 r2 r r4 re'' |
-si'2 dod''2. re''4 |
+si'2 do''2. re''4 |
 sol'1. ~|
 sol' |
 sol'1 r2 |
@@ -67,21 +76,21 @@ sol'2 r8 fad' sol' la' si'4 si'8 do'' |
 re''2 r8 re'' mi'' fad'' sol''4 sol''8 re'' |
 mi''2. do''8 re'' mi'' fa'' sol''4 |
 mi'' do'' sol'' sol''8 fa'' mi''4 do'' |
-sol''4 sol''8 fa'' mi'' mi'' fad'' sold'' la''4 la''8 sol'' |
+sol''4 sol''8 fa'' mi'' mi'' fad''? sold'' la''4 la''8 sol'' |
 fad''4 re''8 mi'' fad'' sol'' la''4 fad'' re'' |
 la'' la' re'' re''8 re'' re''4 la' |
-si' sol'8 la' si' do'' re''4 si'8 sol' la' si' |
+si' sol'8[ la' si' do''] re''4 si'8 sol' la' si' |
 do'' re'' mi'' fad'' sol''4. la''8 fad''4. sol''8 |
 sol''2. |
 R2.*26 |
-r2 dod''2.-"sourdine" re''4 |
+r2^"sourdine" dod''2. re''4 |
 mi''2 si'4. si'8 dod''4 re'' |
 dod''2 la'2. la'4 |
 la'2. si'4 sold'2 |
 la'1 la'4. si'8 |
 dod''1 do''2 |
 si' mi''1 |
-la'2. si'4 dod''2 |
+la'2. si'4 dod''!2 |
 re'' do''2. re''4 |
 si'1. ~|
 si' |
@@ -102,7 +111,7 @@ re''1 mi''4 re'' |
 re''2 dod''2. re''4 |
 re''1 r2 |
 r r r4 si' |
-do''1 r2 |
+dod''1 r2 |
 r4 la'' fad''2. fad''4 |
 mi''1. ~|
 mi'' |
