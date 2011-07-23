@@ -1,10 +1,15 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \global \clef "dessus" \includeNotes "dessus" >>
-    \new Staff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-    \new Staff << \global \clef "taille" \includeNotes "taille" >>
-    \new Staff << \global \clef "basse" \includeNotes "basse" >>
+    \new Staff << \global \includeNotes "dessus" >>
+    \new Staff << \global \includeNotes "haute-contre" >>
+    \new Staff << \global \includeNotes "taille" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres"
+    >>
   >>
-  \layout { }
+  \layout {
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }

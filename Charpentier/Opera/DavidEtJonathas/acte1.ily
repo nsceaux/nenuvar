@@ -48,9 +48,8 @@
 \sceneDescription \markup \wordwrap-center \smallCaps {
   Achis, David, troupes de guerriers, de pasteurs et de captifs
 }
-\pieceToc \markup Ritournelle
-\includeScore "BDAritournelle"
 \pieceToc \markup { Achis : \italic { Le Ciel enfin favorable à mes vœux } }
+\includeScore "BDAritournelle"
 \includeScore "BDBachis"
 \pieceToc \markup { David, Achis, chœur }
 \includeScore "BDCdavidAchis"

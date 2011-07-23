@@ -1,4 +1,4 @@
-la'2. la'8 la' |
+\clef "dessus" la'2. la'8 la' |
 re''4 re'' si' si'8 si' |
 mi''4 mi'' dod''8 dod'' re'' mi'' |
 fad''4 fad''8 mi'' re'' re'' mi'' fad'' |
