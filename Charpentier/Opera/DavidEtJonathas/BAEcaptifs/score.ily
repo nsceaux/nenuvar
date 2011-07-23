@@ -1,17 +1,15 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \characterName \markup \center-column \smallCaps { Première Captive }
-      \global \clef "vdessus" \includeNotes "voix-dessus1"
-    >> \includeLyrics "paroles1"
+      \global \keepWithTag #'captif1 \includeNotes "voix"
+    >> \keepWithTag #'captif1 \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \characterName \markup \center-column \smallCaps { Seconde Captive }
-      \global \clef "vdessus" \includeNotes "voix-dessus2"
-    >> \includeLyrics "paroles2"
-    \new Staff << \instrumentName \markup { Basse continue }
-                  \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
+      \global \keepWithTag #'captif2 \includeNotes "voix"
+    >> \keepWithTag #'captif2 \includeLyrics "paroles"
+    \new Staff <<
+      \global \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

@@ -1,4 +1,4 @@
-re4 la fad |
+\clef "basse" re4 la fad |
 sol fad mi |
 re re4. sol,8 |
 la,4 la sol |
@@ -13,7 +13,7 @@ re mi mi, |
 la,2. |\allowPageTurn
 la |
 la,4. la,8 si,4 |
-do fad,4. fad,8 |
+do fad,!4. fad,8 |
 sol,4. re8 mi4 |
 si,4. si,8 do4 |
 la,2 sol,4 |
@@ -27,4 +27,4 @@ fad2 fad4 |
 sol4. fad8 mi4 |
 la2 re4 |
 sol, la,2 |
-\custosNote re4 
+\custosNote re4 \bar ""
