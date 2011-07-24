@@ -1,4 +1,4 @@
-R1 |
+\clef "dessus" R1 |
 r4 la' la' la' |
 re'' re''8 dod'' si' dod'' re'' mi'' |
 fad''4 fad''8 mi'' re''4 re'' |
@@ -15,7 +15,7 @@ sol' mi' la'2 |
 do''4 do'' la' la' |
 re'' re'' si' si' |
 sol'2 sold'4 sold' |
-la' la' re''4. dod''8 |
+la' la' re''4. dod''!8 |
 re''4 la' sold' sold' |
 la' la' la'4. sold'8 |
 la'4 si'8 do'' re'' do'' si' la' |
@@ -30,7 +30,6 @@ sol'4. fad'8 mi' fad' sol' la' |
 si'2 la'4 la' |
 si'2 si'4 |
 R2.*2 |
-
 r4 re'' mi'' |
 fad''2 fad''4 |
 fad''4. mi''8 re''4 |

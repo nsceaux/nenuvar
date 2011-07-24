@@ -1,4 +1,4 @@
-re2. re4 |
+\clef "basse" re2. re4 |
 la la8 sol fad4 sol8 la |
 si2. si4 |
 fad2. fad4 |
@@ -6,6 +6,11 @@ sol2. fad4 |
 mi re la la, |
 re2. re'4 |
 fad fad sol re |
+\origVersion\footnoteGrob #'NoteHead #'(1 . -1)
+\markup \box 1 \markup\wordwrap { \box 1 Philidor : hormis le premier
+  \italic { sol, } la basse continue n'est pas notée sur ce système
+  (mesures 9 à 12). C'est également le cas pour les mesures 25 à 28.
+}
 sol,2 la4 la |
 re'2 re'4 re' |
 si2 si4 re' |
@@ -15,7 +20,7 @@ do'2 la |
 fa2. fa4 |
 re2. re4 |
 mi2 mi4 mi' |
-do' la fa4. la8 |
+do'? la fa4. la8 |
 re4. do8 si,4 re |
 do la, mi2 |
 la,4 la re re |

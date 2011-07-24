@@ -1,4 +1,4 @@
-r4 re re re |
+\clef "vbasse" r4 re re re |
 la la8 sol fad4 sol8 la |
 si2. si8 si |
 fad2 fad4 fad |
@@ -8,14 +8,24 @@ re1 |
 R1 |
 r2 la4 la |
 re'2 re'4 re' |
-si2 si4 re' |
+si2
+\origVersion {
+  \once\override FootnoteItem #'annotation-line = ##f
+  \footnoteGrob #'NoteHead #'(-1 . -4.5)
+  \markup \box 2 \markup\wordwrap {
+    \box 2 Ici le manuscrit Philidor est difficilement lisible :
+    \italic { La Victoire en tous lieux à nos "[terres?]" affermie. }
+    Livret : \italic { La Victoire partout à vos loix asservie. }
+  }
+}
+si4 re' |
 fad2 fad4 fad |
 sol2 sol4 sol |
 do' do' la4. la8 |
 fa2. fa4 |
 re4. re8 re4 re |
 mi2 mi4 mi' |
-do' la fa4. la8 |
+do'? la fa4. la8 |
 re4. do8 si,4 re |
 do la, mi2 |
 la, r |
