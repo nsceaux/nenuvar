@@ -1,4 +1,4 @@
-re''4. la'8 si'4 |
+\clef "haute-contre" re''4. la'8 si'4 |
 dod''4. dod''8 re''4 |
 si' la'2 |
 la' sold'4 |

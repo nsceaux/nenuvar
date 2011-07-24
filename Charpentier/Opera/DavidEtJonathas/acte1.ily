@@ -57,6 +57,4 @@
 \includeScore "BDDcaptifs"
 \pieceTocTitle "Menuet"
 \includeScore "BDEmenuet"
-\pieceTocTitle "Prélude"
-\includeScore "BDFprelude"
 \actEnd \markup { FIN DU PREMIER ACTE }

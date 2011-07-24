@@ -11,6 +11,8 @@
 }
 \scene "Scène Première"
 \sceneDescription \markup \wordwrap-center \smallCaps { Joadab, David }
+\pieceTocTitle "Prélude"
+\includeScore "CAAprelude"
 \pieceToc \markup { Joadab : \italic { Quel inutile soin en ces lieux vous arrête ? } }
 \includeScore "CAAjoadab"
 \pieceToc \markup {
