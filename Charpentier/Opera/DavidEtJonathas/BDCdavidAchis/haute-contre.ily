@@ -1,4 +1,4 @@
-R1*5
+\clef "haute-contre" R1*5
 R1
 R1*7
 R1.*34

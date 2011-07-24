@@ -1,4 +1,4 @@
-R1*5
+\clef "taille" R1*5
 R1
 R1*7
 R1.*34
@@ -27,5 +27,15 @@ sol'2 si'4 si' |
 la' la' la'4. la'8 |
 la' mi' mi' mi' mi'4. mi'8 |
 mi'4 la' sol' mi' |
-re'4. mi'8 dod'4 la'8 sol' |
-fad'1 \fermata 
+re'4. mi'8 dod'4
+\origVersion\footnoteGrob #'NoteHead #'(-0.5 . 1)
+\markup \box 1 \markup { \box 1 Philidor : 
+  \vcenter\score {
+    { \tinyQuote \key re \major \time 2/2 \clef "mezzosoprano"
+      re'4. mi'8 dod'4 sol'8 fad' | mi'1\fermata |
+    }
+    \layout { \quoteLayout }
+  }
+}
+la'8 sol' |
+fad'1 \fermata

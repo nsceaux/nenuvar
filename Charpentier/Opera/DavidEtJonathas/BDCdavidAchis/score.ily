@@ -1,38 +1,38 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroup <<
-      \newHaraKiriStaffB << \global \clef "dessus"
-                    { \includeNotes "dessus1-A" \break
-                      \includeNotes "dessus-B"
-                      \includeNotes "dessus-C" } >>
-      \newHaraKiriStaffB << \global \clef "dessus"
-                            \includeNotes "dessus2-A" >>
-      \newHaraKiriStaffB << \global \clef "haute-contre"
-                            \includeNotes "haute-contre" >>
-      \newHaraKiriStaffB << \global \clef "taille"
-                            \includeNotes "taille" >>
-      \newHaraKiriStaffB << \global \clef "basse"
-                            \includeNotes "basse" >>
+    \new StaffGroupNoBracket <<
+      \new GrandStaff <<
+        \new Staff \with { \haraKiriFirst } <<
+          \global \keepWithTag #'dessus1 \includeNotes "dessus" >>
+        \new Staff \with { \haraKiriFirst } <<
+          { s1*13 s1.*34 s1*27 \startHaraKiri }
+          \global \keepWithTag #'dessus2 \includeNotes "dessus" >>
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "taille" >>
     >>
     \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles-dessus"
-      \newHaraKiriStaff \withLyrics <<
-        \characterName \markup David
-        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles-haute-contre"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vtaille" \includeNotes "voix-taille"
-      >> \includeLyrics "paroles-taille"
-      \newHaraKiriStaff \withLyrics <<
-        \characterName \markup Achis
-        \global \clef "vbasse" \includeNotes "voix-basse"
-      >> \includeLyrics "paroles-basse"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vdessus \includeNotes "voix"
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vhaute-contre \includeNotes "voix"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vtaille \includeNotes "voix"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vbasse \includeNotes "voix"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }
