@@ -10,16 +10,13 @@
   lui, pour délibérer ensemble, si l'on fera la Paix, ou si l'on
   donnera la Bataille.
 }
-\scene "Scène Première" "Scène 1 : troupe de guerriers, de pasteurs, et de captifs"
+\scene "Scène Première" "Scène 1 : Troupe de guerriers, de pasteurs, et de captifs"
 \sceneDescription \markup \wordwrap-center \smallCaps {
   Troupes de guerriers, de pasteurs et de captifs
 }
 \pieceTocTitle "Marche triomphante"
 \includeScore "BAAmarche"
-\pieceToc \markup {
-  Un guerrier, chœur :
-  \italic { Du plus grand des héros publions les exploits }
-}
+\pieceToc \markup { Un guerrier, chœur : \italic { Du plus grand des héros } }
 \includeScore "BABguerriers"
 \pieceToc \markup { Bergers : \italic { Le Ciel dans nos bois le fit naître } }
 \includeScore "BACbergers"
@@ -29,7 +26,6 @@
 \includeScore "BAEcaptifs"
 \pieceToc \markup { Un guerrier : \italic { Le Dieu qui lance le tonnerre } }
 \includeScore "BAFguerrier"
-
 \scene "Scène Seconde" "Scène 2 : David, troupes etc."
 \sceneDescription \markup \wordwrap-center \smallCaps {
   David, troupes de guerriers, de pasteurs et de captifs
@@ -45,15 +41,16 @@
 \includeScore "BCAdavid"
 
 \scene "Scène Quatrième" "Scène 4 : Achis, David, troupes etc."
-\sceneDescription \markup \wordwrap-center \smallCaps {
-  Achis, David, troupes de guerriers, de pasteurs et de captifs
+\sceneDescription \markup \center-column {
+  \line\smallCaps { Achis, David, troupes de guerriers, }
+  \line\smallCaps { de pasteurs et de captifs }
 }
 \pieceToc \markup { Achis : \italic { Le Ciel enfin favorable à mes vœux } }
 \includeScore "BDAritournelle"
 \includeScore "BDBachis"
 \pieceToc \markup { David, Achis, chœur }
 \includeScore "BDCdavidAchis"
-\pieceToc \markup { Captifs : \italic { Après les fureurs de l'orage } }
+\pieceToc \markup { Deux captifs : \italic { Après les fureurs de l'orage } }
 \includeScore "BDDcaptifs"
 \pieceTocTitle "Menuet"
 \includeScore "BDEmenuet"

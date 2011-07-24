@@ -1,6 +1,4 @@
 \include "Charpentier/Opera/DavidEtJonathas/common.ily"
-\setOpus "Charpentier/Opera/DavidEtJonathas"
-\opusTitle "David et Jonathas"
 
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
@@ -14,7 +12,7 @@
   \pageBreak
   
   %% notes
-  \markup NOTES...
+  \markup NOTES... [TODO]
   \markup \column {
     \line { Les deux sources : manuscrit Philidor pour la musique, livret pour le texte... }
     \hspace #1
@@ -87,7 +85,7 @@
   }
 }
 \newBookPart #'()
-%\include "Charpentier/Opera/DavidEtJonathas/prologue.ily"
+\include "Charpentier/Opera/DavidEtJonathas/prologue.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Tragédie
@@ -98,6 +96,7 @@
 \markuplines {
   \act "DAVID ET JONATAS"
   \title \line { SUJET DE LA TRAGÉDIE }
+  \vspace #2
   \paragraph {
     Saül poursuivant David, perdit la bataille qu'il donna contre les
     Philistins. Jonathas fils de Saül & ami de David, y fut
@@ -111,17 +110,50 @@
   }
   \vspace #3
   \title \line { ACTEURS }
-  \vspace #3
-  \fill-line {
+  \vspace #2
+  \override #'(character-width-ratio . 3/12) \fill-line {
     \override #'(baseline-skip . 4) \large \column {
-      \line { \smallCaps Saül, Roi des Israëlites. }
-      \line { \smallCaps Jonathas, fils de Saül. }
-      \line { \smallCaps David, persécuté par Saül. }
-      \line { \smallCaps Achis, Roi des Philistins. }
-      \line { \smallCaps Joadab, un des chefs de l'armée des Philistins, ennemi de David. }
-      \line { Troupe de guerriers & de captifs,
-        de peuple & de pasteurs que David a délivrez. }
-      \line { Chœur de la suite de Saül, d'Achis, de David, de Jonathas et de Joadab. }
+      \character-ambitus \line { \smallCaps Saül, Roi des Israëlites. [TODO] } \score {
+        \characterAmbitus "bass" "bass" fa, mib'
+        \layout { \characterLayout }
+      }
+      \character-ambitus \line { \smallCaps Jonathas, fils de Saül. [TODO] } \score {
+        \characterAmbitus "treble" "treble" do' do''
+        \layout { \characterLayout }
+      }
+      \character-ambitus \line { \smallCaps David, persécuté par Saül. [TODO] } \score {
+        \characterAmbitus "alto" "G_8" sol do''
+        \layout { \characterLayout }
+      }
+      \character-ambitus \line { \smallCaps Achis, Roi des Philistins. [TODO] } \score {
+        \characterAmbitus "bass" "bass" fa, mib'
+        \layout { \characterLayout }
+      }
+      \character-ambitus \wordwrap-center {
+        \smallCaps Joadab, un des chefs de l'armée des Philistins,
+        ennemi de David. [TODO]
+      } \score {
+        \characterAmbitus "bass" "bass" fa, mib'
+        \layout { \characterLayout }
+      }
+      \character-ambitus \column {
+        \wordwrap-center {
+          Troupe de guerriers & de captifs, de peuple & de pasteurs
+          que David a délivrez. [TODO]
+        }
+        \null
+        \wordwrap-center {
+          Chœur de la suite de Saül, d'Achis, de David, de Jonathas et de Joadab.
+        }
+      } \score {
+        \new ChoirStaff <<
+          \characterAmbitus "treble" "treble" do' do''
+          \characterAmbitus "alto" "G_8" sol sol'
+          \characterAmbitus "tenor" "G_8" mi mi'
+          \characterAmbitus "bass" "bass" fa, mib'
+        >>
+        \layout { \characterLayout }
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
   \tag #'basse { R2.*19 R1*6 R2.*5 | r4 }
   \tag #'basse-continue {
     \origVersion\footnoteGrob #'NoteHead #'(1 . 2)
-    \markup \box 1 \markup { \box 1 Philidor : 
+    \markup \box 2 \markup { \box 2 Philidor : 
       \vcenter\score {
         { \tinyQuote \key re \major \time 3/4 \clef "bass"
           re2*1/2 re4 re8 mi |
