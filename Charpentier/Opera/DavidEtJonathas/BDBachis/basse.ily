@@ -7,7 +7,7 @@ mi re la la, |
 re2. re'4 |
 fad fad sol re |
 \origVersion\footnoteGrob #'NoteHead #'(1 . -1)
-\markup \box 1 \markup\wordwrap { \box 1 Philidor : hormis le premier
+\markup \box 1 \markup\justify { \box 1 Philidor : hormis le premier
   \italic { sol, } la basse continue n'est pas notée sur ce système
   (mesures 9 à 12). C'est également le cas pour les mesures 25 à 28.
 }

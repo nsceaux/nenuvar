@@ -22,10 +22,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Tragédie
 %%%
+\include "Charpentier/Opera/DavidEtJonathas/acte1.ily"
 \newBookPart #'()
 \markup\null
 %{
-\include "Charpentier/Opera/DavidEtJonathas/acte1.ily"
 \include "Charpentier/Opera/DavidEtJonathas/acte2.ily"
 \include "Charpentier/Opera/DavidEtJonathas/acte3.ily"
 \include "Charpentier/Opera/DavidEtJonathas/acte4.ily"

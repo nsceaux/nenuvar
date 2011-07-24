@@ -12,8 +12,8 @@
   \pageBreak
   
   %% notes
-  \markup NOTES... [TODO]
   \markup \column {
+    \line { NOTES... "[TODO]" }
     \line { Les deux sources : manuscrit Philidor pour la musique, livret pour le texte... }
     \hspace #1
     \wordwrap {
