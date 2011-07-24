@@ -1,10 +1,10 @@
-R2.*19
+\clef "haute-contre" R2.*19
 R1*6
 R2.*5 |
 r4 dod'' dod''4. re''8 |
 mi''4 re'' mi'' dod'' |
 re'' re'' re''4. re''8 |
-si'4 sol' sol'4. sol'8 |
+re''4 si' si'4. si'8 |
 dod''4 la' si' dod'' |
 re''1 |
 dod''2 re''4 |

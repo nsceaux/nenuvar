@@ -1,4 +1,4 @@
-R2.*19
+\clef "dessus" R2.*19
 R1*6
 R2.*5 |
 r4 mi'' mi''4. fad''8 |

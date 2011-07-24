@@ -1,34 +1,34 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroup <<
-      \newHaraKiriStaffB <<
+      \new Staff \with { \haraKiriFirst } <<
         {  s2.*19 s1*6 s2.*5 \break }
-        \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaffB <<
-        \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaffB <<
-        \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaffB <<
-        \global \clef "basse" \includeNotes "basse" >>
+        \global \includeNotes "dessus" >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "taille" >>
     >>
     \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles-dessus"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles-haute-contre"
-      \newHaraKiriStaff \withLyrics <<
-        { s2.^"Deux captifs" }
-        \global \clef "vtaille" \includeNotes "voix-taille"
-      >> \includeLyrics "paroles-taille"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vbasse" \includeNotes "voix-basse"
-      >> \includeLyrics "paroles-basse"
+      \new Staff \with { \haraKiri } \withLyrics <<
+        \global \keepWithTag #'vdessus \includeNotes "voix"
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vhaute-contre \includeNotes "voix"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+      \new Staff \with { \haraKiri } \withLyrics <<
+        \global \keepWithTag #'vtaille \includeNotes "voix"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vbasse \includeNotes "voix"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
-  \layout { }
+  \layout {
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }
