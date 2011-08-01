@@ -1,4 +1,4 @@
-sol'8 la' si' la' sol' fad' |
+\clef "taille" sol'8 la' si' la' sol' fad' |
 sol'4 re'4. re'8 |
 mi'4. re'8 do'4 |
 mi' re' re' |
@@ -12,25 +12,34 @@ mi'4 mi' fa' ~|
 fa' sol'4. mi'8 |
 la'2 la'4 |
 sib' la'4. la'8 |
-<fad' la'>2 r4 |
+<< la'2 \\ fad' >> r4 |
 R2.*9 |
-r2 mi'4 |
+r4 r mi'4^\markup\orig-version\whiteout tous ^\markup\mod-version\whiteout Tous |
 re'2. |
 do'4 sol' sol' |
 la' sol'4. sol'8 |
-<mi' sol'>2 r4 |
+<< sol'2 \\ mi' >> r4 |
 R2.*9 |
-r2 re'4 |
+r4 r re'4^\markup\orig-version\whiteout tous ^\markup\mod-version\whiteout Tous |
 re' re'4. mi'8 |
 re'4 re' r |
 R2.*2 |
-r2 fad'8 sol' |
+r4 r fad'8 sold' |
 la'4 r mi'8 do' |
 re'4 re' sol' |
 sol'2. ~|
 sol'8 fa' sol' la' sol' fa' |
 mi'4 mi' mi' |
-re'8 mi' fad' mi' re' do' |
+re'8 mi'
+\origVersion\footnoteGrob #'NoteHead #'(1 . -3)
+\markup \box 1 \markup { \box 1 Philidor : 
+  \vcenter\score {
+    { \tinyQuote \key do \major \time 3/4 \clef "mezzosoprano"
+      re'8 mi' fa' mi' re' do' |
+    }
+    \layout { \quoteLayout }
+  }
+} fad'8 mi' re' do' |
 si4 si si |
 mi' mi' mi' |
 fad'4. fad'8 sol'4 |

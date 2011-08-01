@@ -1,4 +1,4 @@
-sol2 r4 |
+\clef "basse" sol2 r4 |
 r re8 re do si, |
 la,4. si,8 do4 |
 do re re, |
@@ -12,8 +12,8 @@ la2 fa4 |
 sib2 mi4 |
 fa4. mi8 re4 |
 sol la la, |
-re2 re4-"Bassons" |
-sol, sol8 fad sol do |
+re2 re4 |
+sol,^"Basson" sol8 fad sol do |
 re4 re re |
 sol sol4. do8 |
 re2. ~|
@@ -22,7 +22,7 @@ la,2 la8 si |
 do'4 do'4. do'8 |
 sol4. sol8 la4 |
 fa fa4. fa8 |
-sol4 sol do-"Tous" |
+sol4 sol do^\markup\orig-version\whiteout "[tous]" ^\markup\mod-version\whiteout "[Tous]" |
 si,2. |
 do4. re8 mi4 |
 fa sol sol, |
@@ -36,10 +36,10 @@ re2 re8 mi |
 fa4 fa4. fa8 |
 do4 do8 si, la,4 |
 sol, sol4. do8 |
-re2 re4 |
+re2 re4^\markup\orig-version\whiteout "[tous]" ^\markup\mod-version\whiteout "[Tous]" |
 sol,4 sol4. do8 |
 re4 re re |
-sol, sol4.-"Bassons" do8 |
+sol, sol4.^"Basson" do8 |
 re2 r4 |
 r re'8 re' do' si |
 la4 do'8 do' si la |

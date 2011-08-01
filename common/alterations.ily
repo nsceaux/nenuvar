@@ -96,8 +96,7 @@ Returns @code{#f} or the reason for the invalidation, a symbol."
                 (set! sharp-neutral
                       (cond ((< sig-b-alt 0) #t) ; sharp
                             ((> sig-f-alt 0) #f) ; flat
-                            (else ; unknown... this is a problem
-                                  (warn "could not compute natural alteration sign")
+                            (else ; could not be decided...
                                   #f)))))))
     (cons sharp-neutral need-accidental)))
 

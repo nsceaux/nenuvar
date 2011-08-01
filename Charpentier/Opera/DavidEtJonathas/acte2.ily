@@ -1,19 +1,19 @@
 \newBookPart #'()
 \act "Acte Second"
 \markuplines \paragraph {
-  Le premier soin de David et de Jonathas est de demander à se voir
-  durant la trève. Joadab jaloux de la gloire de David, et espérant de
-  le faire périr plus aisément dans une bataille, s'efforce de lui
+  Le premier soin de David & de Jonathas est de demander à se voir
+  durant la tréve.  Joadab jaloux de la gloire de David, & esperant de
+  le faire périr plus aisément dans une Bataille, s'efforce de lui
   persuader de combattre, mais en vain. Il forme le dessein d'accuser
-  David auprès de Saül, de le vouloir tromper sous l'apparence d'une
-  fausse paix. David et Jonathas commencent à goûter les douceurs de
-  la paix, qui leur est prmise, et qui les rejoint tous deux.
+  David auprés de Saül, de le vouloir tromper sous l'apparence d'une
+  fausse paix. David & Jonathas commencent à gouter les douceurs de
+  la Paix, qui leur est promise, & qui les rejoint tous deux.
 }
-\scene "Scène Première"
-\sceneDescription \markup \wordwrap-center \smallCaps { Joadab, David }
 \pieceTocTitle "Prélude"
 \includeScore "CAAprelude"
-\pieceToc \markup { Joadab : \italic { Quel inutile soin en ces lieux vous arrête ? } }
+\scene "Scène Première" "Scène 1 : Joadab, David"
+\sceneDescription \markup \wordwrap-center \smallCaps { Joadab, David }
+\pieceToc \markup { Joadab : \italic { Quel inutile soin en ces lieux vous arreste ? } }
 \includeScore "CAAjoadab"
 \pieceToc \markup {
   David : \italic { Entre la paix et la victoire Un héros peut se partager }
