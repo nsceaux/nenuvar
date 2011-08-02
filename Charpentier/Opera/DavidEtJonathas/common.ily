@@ -139,7 +139,7 @@ davidMark =
 
 joadabMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vtaille" "Joadab"))
+  (make-character-mark "vtaille" "Joabel"))
 
 #(define-markup-list-command (hshift-lines layout props amount args)
   (number? markup-list?)

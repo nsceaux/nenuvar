@@ -2,7 +2,7 @@
   { \oldKey do \major
     \newKey sol \major
     \midiTempo #160
-    \time 3/4 s2.*60 \modVersion\bar "|."
+    \digitTime\time 3/4 s2.*60 \modVersion\bar "|."
   }
   \origLayout {
     s2.*4\pageBreak

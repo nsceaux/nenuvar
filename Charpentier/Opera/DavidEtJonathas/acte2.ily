@@ -14,10 +14,8 @@
 \scene "Scène Première" "Scène 1 : Joadab, David"
 \sceneDescription \markup \wordwrap-center \smallCaps { Joadab, David }
 \pieceToc \markup { Joadab : \italic { Quel inutile soin en ces lieux vous arreste ? } }
-\includeScore "CAAjoadab"
-\pieceToc \markup {
-  David : \italic { Entre la paix et la victoire Un héros peut se partager }
-}
+\includeScore "CABjoadab"
+\pieceToc \markup { David : \italic { Entre la paix et la victoire } }
 \includeScore "CABdavid"
 
 \scene "Scène II"
