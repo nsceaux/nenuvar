@@ -18,9 +18,10 @@
 \pieceToc \markup { David : \italic { Entre la paix et la victoire } }
 \includeScore "CABdavid"
 
-\scene "Scène II"
+\scene "Scène Seconde" "Scène 2 : Joadab, chœurs de la suite de David et Jonathas"
 \sceneDescription \markup \wordwrap-center \smallCaps {
-  Joadab, chœurs de la suite de David et de Jonathas.
+  Joadab, chœurs de la suite de David et de Jonathas
+  qu'on entend & qu'on ne voit point.
 }
 \pieceToc \markup { Joadab : \italic { Dépit jaloux, haine cruelle } }
 \includeScore "CBAjoadab"

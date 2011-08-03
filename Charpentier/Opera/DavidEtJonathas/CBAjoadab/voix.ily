@@ -1,4 +1,4 @@
-R1*2 |
+\joadabMark R1*2 |
 r4 re' si4. sol8 |
 re'4 do'2 do'8 re' |
 si4 si r2 |
@@ -26,6 +26,6 @@ si4 si r2 |
 r4 sol' mi'4. do'8 |
 fa'4 fa' re'4. si8 |
 mi'4 do'2 do'8 si |
-si2 ( la )|
+si2( la) |
 sol r |
 R1*6 |

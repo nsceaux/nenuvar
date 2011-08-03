@@ -1,4 +1,4 @@
-r4 re'' si'4. sol'8 |
+\clef "dessus" r4 re'' si'4. sol'8 |
 re''4 do''2 do''8 re'' |
 si'4 si' r2 |
 R1 |
@@ -26,8 +26,6 @@ R1 |
 r4 fa''2 fa''8 sol'' |
 mi''4 mi'' r2 |
 R1*3 |
-
-
 r4 re'' si'4. sol'8 |
 re''4 sol'2 sol'8 la' |
 fad'4 fad' sol' sol'' |
