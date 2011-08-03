@@ -1,4 +1,4 @@
-sol4 sol sol |
+\clef "basse" sol4 sol sol |
 sol2 fad4 |
 sol2 sol,4 |
 re8 mi re do si, la, |

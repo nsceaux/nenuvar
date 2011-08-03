@@ -25,7 +25,7 @@
 }
 \pieceToc \markup { Joadab : \italic { Dépit jaloux, haine cruelle } }
 \includeScore "CBAjoadab"
-\pieceToc \markup { Chœur : \italic { Tout suit vos vœux ; Cessez de craindre. } }
+\pieceToc \markup { Chœurs : \italic { Tout suit vos vœux } }
 \includeScore "CBBchoeur"
 \pieceToc \markup { Joadab : \italic { David, au comble de la gloire } }
 \includeScore "CBCjoadabChoeur"
