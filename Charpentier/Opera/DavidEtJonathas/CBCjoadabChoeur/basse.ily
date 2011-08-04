@@ -1,4 +1,4 @@
-mi1 |
+\clef "basse" mi1 |
 mi |
 re2 do |
 si,4. si16 la sol8 la si si, |
@@ -36,3 +36,14 @@ si4 si si, |
 do2. |
 re |
 sol, |
+%%%
+re2 mi |
+re la, |
+la,1 |
+la,8 la16 sol fa8 re mi4 mi, |
+la, r sold,2 |
+la,4 la dod2 |
+re4 mi fa2~ |
+fa4 sol la la, |
+re sol,2 sol4 |
+\custosNote fad 

@@ -1,4 +1,4 @@
-R1*8 |
+\clef "vbasse" R1*8 |
 R2. |
 r4 re re |
 sol2. ~|
@@ -11,16 +11,16 @@ fad4 fad si |
 sol4. sol8 fad4 |
 mi la si |
 mi2. |
-r2 mi4^"Seul" |
+r2 mi4^\markup\center-align "Seul" |
 la la4. la8 |
 fad4 fad fad |
 si8[\melisma la si do' si la] |
-sol [ la sol fad mi re ]|
-la4 \melismaEnd la fad8 fad |
+sol [ la sol fad mi re]( |
+la4) \melismaEnd la fad8 fad |
 sol2 sol4 |
 la2 la4 |
 re2. ~|
-re2 re4^"Tous" |
+re2 re4^\markup\center-align "[Tous]" |
 sol sol4. sol8 |
 mi4 mi mi |
 la8 [\melisma sol la si la sol ]|
@@ -29,3 +29,4 @@ si4 \melismaEnd si si,8 si, |
 do2 do4 |
 re2 re4 |
 sol,2. |
+R1*9

@@ -27,15 +27,14 @@
 \includeScore "CBAjoadab"
 \pieceToc \markup { Chœurs : \italic { Tout suit vos vœux } }
 \includeScore "CBBchoeur"
-\pieceToc \markup { Joadab : \italic { David, au comble de la gloire } }
+\pieceToc \markup { Joadab : \italic { David au comble de la gloire } }
 \includeScore "CBCjoadabChoeur"
-\includeScore "CBDjoadab"
-\scene "Scène III"
+
+\scene "Scène Troisiesme" "Scène 3 : David, Jonathas, troupes etc"
 \sceneDescription \markup \wordwrap-center \smallCaps {
   David, Jonathas, troupes de la suite de l'un et de l'autre.
 }
 \pieceToc \markup { Jonathas, David, chœur :
   \italic { À votre bras vainqueur rien ne peut résister } }
 \includeScore "CCAdavidJonathas"
-\markup { [Il manque deux pages manuscrites.] }
-\actEnd \markup { FIN DU DEUXIÈME ACTE }
+\actEnd \markup { FIN DU SECOND ACTE }
