@@ -1,4 +1,4 @@
-do1 ~|
+\clef "basse" do1 ~|
 do8. re16 mi8 do sol4 sol8 fad |
 sol4. mi8 fa4 sol8 sol, |
 do8. re16 mi8 do sol la si sol |
