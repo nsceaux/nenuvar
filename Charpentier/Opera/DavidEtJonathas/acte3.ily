@@ -1,20 +1,20 @@
 \newBookPart #'()
 \act "Acte Troisième"
 \markuplines \paragraph {
-  Saül souçonnant tout de David et cherchant toujours l'occasion de
-  le perdre, ajoute aisément foi à l'accusation de Joadab. Il
-  demande pour dondition de la paix qu'on lui livre David. Achis sûr
-  de son innocence et son protecteur, le refuse. Cependant David
-  paraît devant Saül avec Jonathas. Saül lui reproche sa "trahison ;"
-  David étonné et voyant que sa présence irrite Saül, se
-  retire. Saül le "poursuit ;" et Joadab se réjouit de l'heureux
-  succès de son accusation.
+  Saül souçonnant tout de David & cherchant toûjours l'occasion de
+  le perdre, ajoûte aisément foi à l'accusation de Joadab. Il
+  demande pour condition de la Paix qu'on lui livre David. Achis seûr
+  de son innocence & son protecteur, le refuse. Cependant David
+  paroît devant Saül avec Jonathas. Saül lui reproche sa "trahison ;"
+  David étonné & voiant que sa presence irrite Saül, se
+  retire. Saül le "poursuit ;" & Joadab se réjoüit de l'heureux
+  succez de son accusation.
 }
-\scene "Scène Première"
+\scene "Scène Première" "Scène 1 : Saül, Achis"
 \sceneDescription \markup \wordwrap-center \smallCaps { Saül, Achis }
-\pieceToc \markup { Symphonie }
+\pieceToc "[Symphonie]"
 \includeScore "DAAsymphonie"
-\pieceToc \markup { Saül, Achis : \italic { Ah ! je dois assurer et ma vie et l'empire. } }
+\pieceToc \markup { Saül, Achis : \italic { Ah ! je dois assûrer} }
 \includeScore "DABsaulAchis"
 
 \scene "Scène II"

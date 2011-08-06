@@ -38,6 +38,6 @@
   David, Jonathas, troupes de la suite de l'un et de l'autre.
 }
 \pieceToc \markup { Jonathas, David, chœur :
-  \italic { À votre bras vainqueur } }
+  \italic { À votre bras vainqueur. } Chaconne }
 \includeScore "CCAdavidJonathas"
 \actEnd \markup { FIN DU SECOND ACTE }
