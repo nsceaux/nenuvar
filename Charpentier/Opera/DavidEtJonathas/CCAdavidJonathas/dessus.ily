@@ -50,7 +50,7 @@ mi''8 fa'' re''4. do''8 |
     mi''4 mi'' mi'' |
     re''4. do''8 re''4 |
     mi'' sold' sold' |
-    la' r2 |
+    la' r4 r |
     r4 mi''8 re'' do'' si' |
     do''4 re''8 do'' si' la' |
     sold'2 mi''4 |
@@ -73,7 +73,7 @@ mi''8 fa'' re''4. do''8 |
     mi''4. do''8 re'' mi'' |
     fa''4 mi''8 re'' mi''4 |
     fa'' re'' sol''8 fa'' |
-    mi''4 r2 |
+    mi''4 r4 r |
 
   }
   \tag #'dessus2 {
@@ -105,11 +105,11 @@ mi''8 fa'' re''4. do''8 |
     do''4. la'8 si' do'' |
     re'' do'' si' la' sol'4 |
     la' si'4. la'16 si' |
-    do''4 r2 |
+    do''4 r4 r |
     \startHaraKiri
   }
 >>
-R2.*7 |
+R2.*7 |\allowPageTurn
 r4 sol'' mi'' |
 fa'' sol''8 fa'' mi'' re'' |
 mi''4 mi'' sol'' ~|
@@ -140,7 +140,7 @@ do''2 r4 |
     r la''8 sol'' la'' mi'' |
     fa''4 mi''8 fa'' sol'' la'' |
     fad''2 r4 |
-    R2.*15 |
+    R2.*15 |\allowPageTurn
     r4^"Flûtes" re'' re'' |
     mi'' fa''8 mi'' re'' do'' |
     re''4 re'' si' |
@@ -151,8 +151,8 @@ do''2 r4 |
     sol''2. |
     sol''8 la'' sol'' fa'' mi'' re'' |
     mi'' la'' fad'' sol'' sol'' fad'' |
-    sol''4 r2 |
-    R2.*3 |
+    sol''4 r4 r |
+    R2.*3 |\allowPageTurn
     r4^"Violons" re'' re'' |
     mi'' fa''8 mi'' re'' do'' |
     re''4 si' si' |
@@ -161,7 +161,7 @@ do''2 r4 |
     sol''2. ~|
     sol''8 la'' sol'' fa'' mi'' re'' |
     mi'' la'' fad'' sol'' sol'' fad'' |
-    sol''4 r2 |
+    sol''4 r4 r |
 
   }
   \tag #'dessus2 {
@@ -185,7 +185,7 @@ do''2 r4 |
     r4^"Flûtes" si'8 do'' re'' si' |
     mi'' fa'' mi'' re'' do'' si' |
     do'' do'' do'' si' la' re'' |
-    si'4 r2 |
+    si'4 r4 r |
     R2.*3 |
     r4^"Violons" si' si' |
     do'' re''8 do'' si' la' |
@@ -195,7 +195,7 @@ do''2 r4 |
     r si'8 do'' re'' si' |
     mi'' fa'' mi'' re'' do'' si' |
     do'' do'' do'' si' la' re'' |
-    si'4 r2 |
+    si'4 r4 r |
     \startHaraKiri
   }
 >>
@@ -214,7 +214,7 @@ do''4 mi'' mi'' |
 re'' re'' mi'' |
 fa''4. re''8 mi''4 |
 mi'' mi''4. re''8 |
-mi''4 r2 |
+mi''4 r4 r |
 R2. |
 r4 r8 sol'' fa'' mi'' |
 re'' do'' si'4. do''8 |
@@ -223,7 +223,7 @@ dod''4. re''8 mi''4 |
 fa''4. sol''8 fa'' mi'' |
 re'' do'' si'4. do''8 |
 la'2 r4 |
-R2.*3 |
+R2.*3 |\allowPageTurn
 r4 dod'' dod'' |
 re''4. mi''8 fad''4 |
 sol''2 r4 |
@@ -231,7 +231,7 @@ R2. |
 r4 re''8 do'' re'' la' |
 sib'4 do''8 sib' la' sol' |
 fad'4. mi'8 fad'4 |
-sol' mib''8 re'' do'' sib' |
+sol' mib''8 re'' do'' sib'? |
 la'4 re''8 do'' re'' la' |
 sib'4 do''8 sib' la' sol' |
 fad'4 la'8 sib' do'' la' |
@@ -294,7 +294,7 @@ re'' sol''2 |
 
   }
   \tag #'dessus2 {
-    \startHaraKiri
+    \stopHaraKiri
     dod''4 la''4. la''8 |
     la''4 sol''4. sol''8 |
     sol''4 la''8 sol'' fa''4 |
@@ -325,7 +325,7 @@ sib'' re'' sol'' |
     re''4 do''4. do''8 |
     do''4 re''8 do'' sib'4 |
     do''8 sib' la'4 la'8 sol' |
-    fad'4 re''8 mi'' fa'' sol'' |
+    fad'4 re''8 mi'' fa''! sol'' |
     mi''4. mi''8 la'' sol'' |
     fad''4 mi''8 fad'' sol''4 ~|
     sol''8 la'' fad''4. sol''8 |
@@ -334,7 +334,7 @@ sib'' re'' sol'' |
   }
   \tag #'dessus2 {
     \stopHaraKiri
-    fad''4 re''8 mi'' fa'' sol'' |
+    fad''4 re''8 mi'' fa''? sol'' |
     mi''4. mi''8 la'' sol'' |
     fad''4 mi''8 fad'' sol'' fa'' |
     mi'' re'' do''4 do''8 sib' |
@@ -366,3 +366,4 @@ re''4 re''4. mi''8 |
 fa''4 fa''8 fa'' fa'' fa'' |
 do''4 do''4. re''8 |
 mi''4 mi''8 re'' mi'' fa'' |
+\custosNote sol''4

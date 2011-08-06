@@ -18,7 +18,7 @@ sol'2 sol'4 |
 fa' la'4. la'8 |
 sol'4 sol' do'' ~|
 do''8 re'' si'4. do''8 |
-do''4 r2 |
+do''4 r4 r |
 R2.*35 |
 r4 mi'' do'' |
 re'' re'' re'' |
@@ -37,7 +37,7 @@ fa' la'4. la'8 |
 sol'4 sol' do'' ~|
 do''8 re'' si'4. do''8 |
 do''2 r4 |
-R2.*56 |
+R2.*56 |\allowPageTurn
 r4 do''8 si' do'' sol' |
 la'4 si'8 do'' re'' si' |
 do''4 si'4. do''8 |
@@ -49,7 +49,7 @@ do''4 do'' do'' |
 si' si' dod'' |
 re''4. si'8 do''4 |
 si' do''4. la'8 |
-si'4 r2 |
+si'4 r4 r |
 R2. |
 r4 r8 do'' si'4 |
 si' si'4. mi''8 |
@@ -62,7 +62,7 @@ R2.*3 |
 r4 la' la' |
 la'4. sol'8 la'4 |
 sib'2 r4 |
-R2.*3 |
+R2.*3 |\allowPageTurn
 r4 re''8 do'' re'' la' |
 sib'4 do''8 sib' la' sol' |
 fad'4. mi'8 fad'4 |
@@ -113,8 +113,8 @@ sol' sol' sol' |
 la' si' dod'' |
 re''4. re''8 la'4 |
 sib'2 sib'4 |
-la' r2 |
-R2.*7 |
+la' r4 r |
+R2.*7 |\allowPageTurn
 r4 la' la' |
 sib'2 sib'4 |
 la'4. la'8 sib'4 |
@@ -127,7 +127,7 @@ re''4 re''4. re''8 |
 re''2. ~|
 re'' ~|
 re'' ~|
-re''4 r2 |
+re''4 r4 r |
 R2.*7 |
 r4 sib' la' |
 do''4. sib'8 la'4 |
@@ -150,3 +150,4 @@ si'4 si'4. dod''8 |
 re''4 re''8 re'' re'' re'' |
 la'4 la'4. si'8 |
 do''4 do'' do'' |
+\custosNote do''4

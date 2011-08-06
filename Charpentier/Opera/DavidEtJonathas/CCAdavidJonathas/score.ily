@@ -12,15 +12,8 @@
           \global \keepWithTag #'dessus2 \includeNotes "dessus"
         >>
       >>
-      \new Staff \with { \haraKiriFirst } <<
-        \global \includeNotes "haute-contre"
-      >>
-      \new Staff \with { \haraKiriFirst } <<
-        \global \includeNotes "taille"
-      >>
-      \new Staff \with { \haraKiriFirst } <<
-        \global \includeNotes "basse"
-      >>
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "taille" >>
     >>
     \new ChoirStaff <<
       \new Staff \with { \haraKiriFirst } \withLyrics <<
@@ -43,8 +36,9 @@
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
     \new Staff <<
-      \global \includeNotes "basse-continue"
-      \new FiguredBass \includeFigures "chiffres" >>
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres"
+    >>
   >>
   \layout { }
   \midi { }

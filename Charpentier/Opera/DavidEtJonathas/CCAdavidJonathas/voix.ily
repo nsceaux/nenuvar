@@ -24,11 +24,21 @@
         r4
       }
     >>
-    \tag #'basse \clef "vdessus" re''8 mi'' fa'' re'' |
+    \tag #'basse \clef "vdessus"
+    \origVersion {
+      \once\override FootnoteItem #'annotation-line = ##f
+      \footnoteGrob #'NoteHead #'(-1.5 . -3)
+      \markup \box 1 \markup { \box 1 Philidor : 
+        \italic { Sy l'on est sans eux /
+          Rien ne plait a nos cœurs, on ne peut vivre heureux. }
+      }
+    }
+
+    re''8 mi'' fa'' re'' |
     sol''2. ~|
     sol''8 la'' sol'' fa'' mi'' re'' |
     mi'' la'' fad'' sol'' sol'' fad'' |
-    sol''4 r2 |
+    sol''4 r4 r |
     <<
       \tag #'basse { s2.*3 s4 }
       \tag #'vdessus1 { R2.*3 | r4 }
@@ -68,7 +78,7 @@
     r4 si'8 do'' re'' si' |
     mi'' fa'' mi'' re'' do'' si' |
     do'' do'' do'' si' la' re'' |
-    si'4 r2 |
+    si'4 r4 r |
     R2.*3 |
     r4 si' si' |
     do'' re''8 [ do'' ] si' [ la' ]|
@@ -97,7 +107,7 @@
     la'4. fa''8 mi'' fa'' |
     re'' do'' si'2 |
     la' r4 |
-    r2 mi''4 |
+    r4 r mi''4 |
     fa''4. mi''8 re'' do'' |
     si'4. sol''8 re'' mi'' |
     fa''4. fa''8 do'' re'' |
@@ -119,7 +129,7 @@
       \tag #'basse { R2.*27 s2.*28 s2.*36 }
       \tag #'vdessus {
         R2.*3 |
-        r4^\markup\character "Jonathas" mi'' do'' |
+        r4^\markup\character "[Jonathas]" mi'' do'' |
         re'' re'' si' |
         sol' sol' do'' |
         la' do''4. re''8 |
@@ -175,7 +185,7 @@
         r4 sol'8 la' si' sol' |
         do'' si' do'' re'' mi'' sol'' |
         do'' la' re'' mi'' do'' re'' |
-        si'4 r2 |
+        si'4 r4 r |
         R2.*3 |
         r4 sol'' sol'' |
         do'' do'' do'' |
@@ -186,7 +196,7 @@
         r4 sol'8 la' si' sol' |
         do''8 si' do'' re'' mi'' sol'' |
         do'' la' re'' mi'' do'' re'' |
-        si'2 r4 |
+        sol'2 r4^\markup\character "Chœur des Bergers" |
         R2. |
         r4 sol''8 fa'' sol'' re'' |
         mi''4 fa''8 [ mi'' ] re'' [ do'' ]|
@@ -205,7 +215,7 @@
             fa''4. }
           \new Voice \with { autoBeaming = ##f } {
             \voiceTwo sold'4 sold' |
-            la'4. si'8 dod''4 |
+            la'4. si'8 dod''!4 |
             re''4. } >> \oneVoice sol''8 fa'' [ mi'' ]|
         re'' [ do'' ] si'4. do''8 |
         la'2 r4 |
@@ -222,7 +232,7 @@
             la' la'4. sol'8 |
             la'4 } >> \oneVoice dod'' dod'' |
         re''4. mi''8 fad''4 |
-        sol''4. << { \voiceOne fad''8 sol'' [ fa'' ]|
+        sol''4. << { \voiceOne fad''8 sol'' [ fad'' ]|
             mi'' [ re'' ] dod''4. re''8 |
             re''4 }
           \new Voice \with { autoBeaming = ##f } {
@@ -266,10 +276,10 @@
     sol'2 re'4 sol' |
     mi'4. fa'8 sol' mi' fa' sol' |
     la'4 mi'8 fa' sol'4 fa'8 mi' |
-    re' [\melisma do' re' mi' ] re' [ mi' fa' re' ]|
-    sol'4. fa'8 mi' [ re' do' si ]|
-    do' [ re' si do' ] la [ re' do' re' ]|
-    si4 \melismaEnd sol r2 |
+    re'[\melisma do' re' mi'] re'[ mi' fa' re']( |
+    sol'4. fa'8) mi'[ re' do' si] |
+    do'[ re' si do'] la[ re' do' re']( |
+    si4)\melismaEnd sol r4 r |
     r4 re'8 re' sol'4 re'8 mi' |
     fa'4. fa'8 sol' la' sib' la' |
     sol'4 fa'8 la' sol' fa' mi' re' |
@@ -290,7 +300,7 @@
     << \tag #'basse { s2.*64 s2.*24 }
       \tag #'vhaute-contre {
         R2.*12 |
-        r4 sol'^\markup\character "David" mi' |
+        r4 sol'^\markup\character "[David]" mi' |
         fa' sol'8 [ fa' ] mi' [ re' ]|
         mi'4 mi' sol' ~|
         sol'8 fa' mi'4. fa'8 |
@@ -356,7 +366,7 @@
     sol4
     <<
       \tag #'basse { s2 s2.*3 s4 }
-      \tag #'vhaute-contre { r2 | R2.*3 | r4 }
+      \tag #'vhaute-contre { r4 r | R2.*3 | r4 }
     >>
     \tag #'basse \clef "vhaute-contre"
     sol'4 sol' |
@@ -384,7 +394,7 @@
         sol' sol' sol' |
         la'4. fa'8 la'4 |
         re' la'4. la'8 |
-        sold'4 r2 |
+        sold'4 r4 r |
         R2. |
         r4 r8 mi' fa'4 |
         fa' mi'4. mi'8 |
@@ -392,7 +402,7 @@
         R2.*7 |
         r4 la' la' |
         fad'4. sol'8 la'4 |
-        sib' r2 |
+        sib' r4 r |
         R2. |
         r4 fad' fad' |
         sol' do'4. do'8 |
@@ -461,7 +471,7 @@
     si si dod' |
     re'4. si8 do'4 |
     si do'4. la8 |
-    si4 r2 |
+    si4 r4 r |
     R2. |
     r4 r8 do' si4 |
     si si4. mi'8 |
@@ -474,7 +484,7 @@
     r4 re'8 do' re' la |
     sib4 do'8 [ sib ] la [ sol ]|
     fad4. mi8 fad4 |
-    sol mib'8 [ re' ] do' [ sib ]|
+    sol mib'8 [ re' ] do' [ sib?] |
     la4 fa8 sol la fad |
     sol4 fad4. sol8 |
     sol2 r4 |
@@ -527,7 +537,7 @@
     fa4. mi8 fa4 |
     mi2. |
     R2.*3 |
-    r2 mi4 |
+    r4 r mi4 |
     la la la |
     fad2 sol8 la |
     re4 mi4. fad8 |

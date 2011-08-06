@@ -2,7 +2,17 @@
 R2.*15 |
 R1*25 |
 R2.*20 |
-r4 do'' sol' |
+r4 do''
+\origVersion\footnoteGrob #'NoteHead #'(-1 . 1)
+\markup \box 1 \markup { \box 1 Philidor : 
+  \vcenter\score {
+    { \tinyQuote \key do \major \time 3/4 \clef "mezzosoprano"
+      r4*3/4 do'' sol' sol' |
+    }
+    \layout { \quoteLayout }
+  }
+}
+sol'4 |
 la' sol' sol' |
 sol' sol' sol' |
 la' sol'4. sol'8 |
@@ -18,7 +28,7 @@ si4. si8 mi'4 |
 la re'8 mi' fa' mi' |
 re'4 sol' sol' |
 la' sol'4. sol'8 |
-<mi' sol'>4 r2 |
+<< sol'4 \\ mi' >> r4 r |
 R2.*35 |
 r4 do'' sol' |
 la' sol' sol' |
@@ -35,9 +45,9 @@ la do'4. re'8 |
 si4. si8 mi'4 |
 la re'8 mi' fa' mi' |
 re'4 sol' sol' |
-la' sol'4. < mi' sol' >8 |
-< mi' sol' >2 r4 |
-R2.*51 |
+la' sol'4. << { sol'8 sol'2 }
+  \\ { mi'8 mi'2 } >> r4 |
+R2.*51 |\allowPageTurn
 r4 sol'8 fa' sol' re' |
 mi'4 fa'8 mi' re' do' |
 si4. la8 si4 |
@@ -50,11 +60,11 @@ sol'2. |
 r4 do''8 si' do'' sol' |
 la'4 sol'8 sol' la' sol' |
 sol'4 sol'4. sol'8 |
-<mi' sol'>4 sol' sol' |
+<< sol'4 \\ mi' >> sol' sol' |
 sol' sol' sol' |
 la'4. fa'8 la'4 |
 mi' la'4. la'8 |
-sold'4 r2 |
+sold'4 r4 r |
 R2. |
 r4 r8 mi' fa'4 |
 fa' mi'4. mi'8 |
@@ -67,7 +77,7 @@ R2.*3 |
 r4 mi' mi' |
 fad'4. sol'8 re'4 |
 re'2 r4 |
-R2.*3 |
+R2.*3 |\allowPageTurn
 re'4. re'8 re'4 |
 re' do' mib' |
 re'4. re'8 re'4 |
@@ -78,7 +88,17 @@ re'4 re' sol' |
 sol' la'8 sol' fa' mi' |
 re'4 sol'8 sol' fa' sol' |
 sol'4 sol'4. sol'8 |
-sol'4 fa'8 %{ mib' %} mi' re' do' |
+sol'4 fa'8 %{ mib' %}
+\origVersion\footnoteGrob #'NoteHead #'(-1 . -2)
+\markup \box 1 \markup { \box 1 Philidor : 
+  \vcenter\score {
+    { \tinyQuote \key do \major \time 3/4 \clef "mezzosoprano"
+      sol'4 fa'8 mib' re' do' |
+    }
+    \layout { \quoteLayout }
+  }
+}
+mi'8 re' do' |
 si4. la8 si4 |
 do'4. re'8 mi'4 |
 re'2. |
@@ -118,8 +138,8 @@ re' re' sol' |
 mi' re' sol' |
 la'4. la'8 la'4 |
 sol' mi'2 |
-mi'4 r2 |
-R2.*6 |
+mi'4 r4 r |
+R2.*6 |\allowPageTurn
 r4 la' sol' |
 fa' fa' mi' |
 sol'4. fa'8 mi'4 |
@@ -133,7 +153,7 @@ la'4 fad' sol' |
 la'2. |
 sib'4 sol' fad' |
 sol' sib' sib' |
-la' r2 |
+la' r4 r |
 R2.*7 |
 r4 re' re' |
 mib'2 mib'4 |
@@ -143,7 +163,7 @@ re'4 sib la |
 do'4. sib8 la4 |
 sib4. re'8 do'4 |
 sib la4. re'8 |
-si4 si do' |
+\origVersion { sid4 sid } \modVersion { si!4 si } do' |
 re' sol la |
 si re' do' |
 si la re' |
@@ -156,3 +176,4 @@ sol' sol'8 sol' sol' sol' |
 la'4 la'4. sol'8 |
 fa'4 fa'8 fa' fa' fa' |
 sol'4 sol'4. fa'8 |
+\custosNote mi'4
