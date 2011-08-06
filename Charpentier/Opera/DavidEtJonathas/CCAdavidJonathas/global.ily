@@ -6,7 +6,7 @@
     \digitTime\time 3/4 s2.*15 
     \digitTime\time 2/2 s1*25
     \digitTime\time 3/4
-    \markUpBegin\mark "[Chaconne]"
+    \markUpBegin\mark "[CHACONNE]"
     s2.*273
     \once \override Score . RehearsalMark #'direction = #DOWN
     \once \override Score . RehearsalMark #'self-alignment-X = #LEFT

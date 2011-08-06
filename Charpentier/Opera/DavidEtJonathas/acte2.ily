@@ -9,6 +9,8 @@
   fausse paix. David & Jonathas commencent à gouter les douceurs de
   la Paix, qui leur est promise, & qui les rejoint tous deux.
 }
+#(if (eqv? #t (ly:get-option 'urtext))
+     (add-toplevel-markup parser (markup #:vspace 40)))
 \pieceTocTitle "Prélude"
 \includeScore "CAAprelude"
 \scene "Scène Première" "Scène 1 : Joadab, David"
@@ -16,8 +18,9 @@
 \pieceToc \markup { Joadab : \italic { Quel inutile soin en ces lieux vous arreste ? } }
 \includeScore "CABjoadab"
 \pieceToc \markup { David : \italic { Entre la paix et la victoire } }
-\includeScore "CABdavid"
+\includeScore "CACdavid"
 
+\newBookPart #'(full-rehearsal)
 \scene "Scène Seconde" "Scène 2 : Joadab, chœurs de la suite de David et Jonathas"
 \sceneDescription \markup \wordwrap-center \smallCaps {
   Joadab, chœurs de la suite de David et de Jonathas
@@ -35,6 +38,6 @@
   David, Jonathas, troupes de la suite de l'un et de l'autre.
 }
 \pieceToc \markup { Jonathas, David, chœur :
-  \italic { À votre bras vainqueur rien ne peut résister } }
+  \italic { À votre bras vainqueur } }
 \includeScore "CCAdavidJonathas"
 \actEnd \markup { FIN DU SECOND ACTE }

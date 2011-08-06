@@ -35,7 +35,7 @@ fad mi fad sol la fad |
 si4 si si, |
 do2. |
 re |
-sol, |
+sol, |\allowPageTurn
 %%%
 re2 mi |
 re la, |
