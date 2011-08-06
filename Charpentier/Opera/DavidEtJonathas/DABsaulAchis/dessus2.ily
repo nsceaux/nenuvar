@@ -1,5 +1,5 @@
-R1*8 |
-r1 fa''2 |
+\clef "dessus" R1*8 |
+r2 r fa''2 |
 mi''2. re''4 do'' sib' |
 la'2. sib'4 do''2 |
 fa' sib' sol' |
@@ -7,7 +7,7 @@ la'2. sib'4 do''2 |
 fa' sol' mi' |
 fa' la' do'' |
 si'2. do''4 re''2 |
-dod'' dod''1 |
+dod''1 dod''2 |
 re''2 mi'' dod'' |
 re''2. mi''4 fa''2 |
 mi''4 re'' dod''2. re''4 |

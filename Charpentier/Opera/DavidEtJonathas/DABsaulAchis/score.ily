@@ -1,19 +1,20 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
+    \new GrandStaff <<
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "dessus1" >>
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "dessus2" >>
     >>
     \new ChoirStaff <<
-      \new Staff \withLyrics <<
-        \global \clef "vbasse" \includeNotes "saul-achis"
-      >> \includeLyrics "paroles1"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vbasse" \includeNotes "achis"
-      >> \includeLyrics "paroles2"
+      \new Staff \with { \haraKiri } \withLyrics <<
+        \global \keepWithTag #'saul \includeNotes "voix"
+      >> \keepWithTag #'saul \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'achis \includeNotes "voix"
+      >> \keepWithTag #'achis \includeLyrics "paroles"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
   \layout { }
   \midi { }

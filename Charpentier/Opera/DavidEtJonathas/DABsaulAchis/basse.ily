@@ -1,5 +1,5 @@
-fa1 |
-sib, |
+\clef "basse" fa2 ~ fa |
+sib, ~ sib, |
 la,4 sol, fa,8. sol,16 la,8 sib, |
 do4. do16 re mi8 do fa sol |
 do2 sib,4. la,8 |
@@ -39,13 +39,13 @@ la1 la2 |
 sib sib la |
 sol2. sol4 fa2 |
 do'1 do'2 |
-la sib sol |
+la sib fa |
 do' do' la |
 sib2. la4 sol fa |
 mi1 fa4 mi |
 re2 sib,2. do4 |
 fa,2 fa |
-fa1 |
+fa2 ~ fa |
 fa2 mi4 fa |
 sib,1 |
 mib4 lab8 fa sol4. fa8 |
@@ -60,7 +60,7 @@ mi2. |
 fa4. fa8 mib4 |
 re do2 |
 sib,2. |
-sib, |
+si, |
 do4. sib,8 la,4 |
 re do2 |
 fa, fa4 |
@@ -110,7 +110,7 @@ do4. sib,8 la,4 |
 re4. do8 sib,4 |
 do4. do8 re sib, |
 do2. |
-fa, |
+fa, |\allowPageTurn
 do1 |
 do |
 do2 sol |
@@ -118,7 +118,7 @@ fa mib4. do8 |
 re2. do4 |
 si,2 do |
 fa4. mi8 fa do sol sol, |
-do2. do'8 sib |
+do2. do'8_"Basse continue seule" sib |
 la4 mi fa mi |
 fa mi re do |
 sol la si la8 sol |

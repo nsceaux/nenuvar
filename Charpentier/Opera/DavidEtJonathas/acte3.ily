@@ -10,14 +10,14 @@
   retire. Saül le "poursuit ;" & Joadab se réjoüit de l'heureux
   succez de son accusation.
 }
-\scene "Scène Première" "Scène 1 : Saül, Achis"
-\sceneDescription \markup \wordwrap-center \smallCaps { Saül, Achis }
 \pieceToc "[Symphonie]"
 \includeScore "DAAsymphonie"
-\pieceToc \markup { Saül, Achis : \italic { Ah ! je dois assûrer} }
+\scene "Scène Première" "Scène 1 : Saül, Achis"
+\sceneDescription \markup \wordwrap-center \smallCaps { Saül, Achis }
+\pieceToc \markup { Saül, Achis : \italic { Ah ! je dois assûrer } }
 \includeScore "DABsaulAchis"
 
-\scene "Scène II"
+\scene "Scène II" "Scène 2 : Saül"
 \sceneDescription \markup \wordwrap-center \smallCaps { Saül }
 \pieceToc \markup { Saül : \italic { Objet d'une implacable haine } }
 \includeScore "DBAsaul"
