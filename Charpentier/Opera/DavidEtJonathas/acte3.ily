@@ -17,14 +17,14 @@
 \pieceToc \markup { Saül, Achis : \italic { Ah ! je dois assûrer } }
 \includeScore "DABsaulAchis"
 
-\scene "Scène II" "Scène 2 : Saül"
+\scene "Scène Seconde" "Scène 2 : Saül"
 \sceneDescription \markup \wordwrap-center \smallCaps { Saül }
 \pieceToc \markup { Saül : \italic { Objet d'une implacable haine } }
 \includeScore "DBAsaul"
 
-\scene "Scène III"
+\scene "Scène Troisième" "Scène 3 : David, Jonathas, Joadab, troupes"
 \sceneDescription \markup \wordwrap-center \smallCaps { 
-  Saül, Davis, Jonathas, Joadab, troupes...
+  Saül, Davis, Jonathas, Joadab, troupes etc.
 }
 \pieceToc \markup { Jonathas, Saül, David :
   \italic { David peut-il attendre un regard favorable ? } }

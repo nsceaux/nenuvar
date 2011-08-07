@@ -1,4 +1,4 @@
-r2 do'' ~|
+\clef "haute-contre" r2 do'' ~|
 do''4 sol' sol'4. la'8 |
 sib'2. do''8 sib' |
 lab'2. sib'8 lab' |
@@ -46,7 +46,7 @@ fad'4 sol' sol'4. fad'8 |
 sol'1 |
 sol'2. la'4 |
 sib'2 sib'4. sib'8 |
-do''2 r4 r8 sib' |
+do''2 r4 r8 si' |
 do''2 sol' ~|
 sol' fa'4 sol' |
 lab'2. lab'4 |

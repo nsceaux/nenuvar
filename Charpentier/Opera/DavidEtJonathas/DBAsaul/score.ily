@@ -2,33 +2,30 @@
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new GrandStaff <<
-        \newHaraKiriStaff <<
-          \global \clef "dessus"
-          \instrumentName \markup Violons
-          { \includeNotes "dessus-a" \includeNotes "dessus-b1" \includeNotes "dessus-c" } >>
-        \newHaraKiriStaffB << \global \clef "dessus"
-                              { s1*28 s1*8 s1*24 s1*7 s1*10 \break
-                                \includeNotes "dessus-b2" } >>
+        \new Staff \with { \haraKiri } <<
+          \global \keepWithTag #'dessus1 \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \modVersion { s1*28 s1*8 s1*24 s1*7 s1*10 \break }
+          \global \keepWithTag #'dessus2 \includeNotes "dessus"
+        >>
       >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup Haute-contres
-        \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup Tailles
-        \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup Basses
-        \global \clef "basse" \includeNotes "basse" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "taille" >>
+      \new Staff \with { \haraKiri } <<
+        { s1*19 \startHaraKiri }
+        \global \keepWithTag #'basse \includeNotes "basse"
+      >>
     >>
-    \new Staff \withLyrics <<
-      \characterName \markup Saül 
-      \global \clef "vbasse" \includeNotes "saul"
-    >> \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \global \keepWithTag #'saul \includeNotes "voix"
+    >> \keepWithTag #'saul \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup "Basse continue"
-      \global \clef "basse" \includeNotes "basse-continue"
-      \includeFigures "chiffres" >>
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }

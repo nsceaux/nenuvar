@@ -1,4 +1,4 @@
-R1*5 |
+\clef "taille" R1*5 |
 r2 sol' ~|
 sol'4 do' do'4. re'8 |
 mib'2. fa'8 mib' |
@@ -23,7 +23,7 @@ fa'4 mib' re' si |
 do' re' mib' fa' |
 mib' re' do'2 |
 re'1 |
-r4 mi'8 fad' sol'4 fad'8 sol' |
+r4 mi'?8 fad' sol'4 fad'8 sol' |
 la'2 r |
 r4 re'8 mib' fa'4 mib'8 fa' |
 sol'2 r |
@@ -31,10 +31,20 @@ r4 do'8 re' mi'4 re'8 mi' |
 fa'2 r |
 r4 mib'8 fa' sol'4 fa' |
 fa' mib' re' re'8 do' |
-sib4 sib do' mib' |
+sib4 sib do' mib'! |
 re'2. re'4 |
 re'2. do'8 sib |
 la2 sib4 mib' |
+\origVersion\footnoteGrob #'NoteHead #'(1 . -2)
+\markup \box 2 \markup { \box 2 Philidor : 
+  \vcenter\score {
+    { \tinyQuote \key sib \major \time 2/2 \clef "mezzosoprano"
+      << { re'4 re' do' re' | re'4 re' do' re' | }
+        \\ re'1 >>
+    }
+    \layout { \quoteLayout }
+  }
+}
 re'1 |
 re'4 re' do' re' |
 sol2 re' |
@@ -87,8 +97,8 @@ sol'2. r4 |
 R1*3 |
 r4 sol' re'4. re'8 |
 sol'2. r4 |
-r mi'8 fad' sol'4 fad'8 mi' |
-fa'2 r |
+r mi'?8 fad' sol'4 fad'8 mi' |
+lab'2 r |
 R1*3 |
 r4 lab'8 sol' fa'4 mib'8 re' |
 sol'2 r |
@@ -98,7 +108,7 @@ r2 r4 sol'8 fa' |
 mi'4 re'8 do' sol'4 mi' |
 do' fa' fa' mib'8 re' |
 sol'4 sol'8 fa' mib'4 fa' |
-fa' sol'8 lab' sib'4 sib |
+fa' sol'8 lab'? sib'4 sib |
 sib sib mib' mib' |
 mib' sol'8 fa' mib'4 fa'8 sol' |
 do'4 do' fa' fa' |
