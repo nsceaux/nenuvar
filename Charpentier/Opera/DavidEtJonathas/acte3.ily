@@ -27,7 +27,7 @@
   Saül, Davis, Jonathas, Joadab, troupes etc.
 }
 \pieceToc \markup { Jonathas, Saül, David :
-  \italic { David peut-il attendre un regard favorable ? } }
+  \italic { David peut-il attendre un retour favorable ? } }
 \includeScore "DCAjonathasDavidSaul"
 \pieceToc \markup { Saül, David, Jonathas : \italic { Ah ! plus tôt dès ce jour vange-moi d'un perfide. } }
 \includeScore "DCBjonathasDavidSaulJoadab"

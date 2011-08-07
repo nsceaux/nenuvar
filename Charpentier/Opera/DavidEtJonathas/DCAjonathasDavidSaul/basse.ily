@@ -1,4 +1,4 @@
-fa,1 |
+\clef "basse" fa,1 |
 fa2 la, |
 sib, sib ~|
 sib la |
@@ -41,8 +41,8 @@ mi4 fa8 sol do2 ~|
 do4 do'8 sib la4 sib8 do' |
 fa4 fa8 mi re4. sib,8 |
 do1 |
-fa, |
-fa1. |
+fa, |\allowPageTurn
+\whiteNoteHeadsOn fa1. |
 mi |
 re |
 do |
@@ -50,12 +50,12 @@ fa1 la,2 |
 sib, do1 |
 fa, fa2 |
 sib sol sol |
-do'4 sib la sol fa2 |
+do'8*2 sib la sol fa2 |
 sib, do1 |
 fa,2 fa mi |
 re1. |
 do |
-fa2. mi4 re2 |
+fa2. mi8*2 re2 |
 do1 do'2 |
 fa fa sol |
 la1. |
@@ -63,16 +63,16 @@ sib2 sib sol |
 do'1 mi2 |
 fa1. |
 sol2 sol,1 |
-do2. re4 mi2 |
+do2. re8*2 mi2 |
 fa sol sol, |
-do4 sib la sol fa mi |
+do8*2 sib la sol fa mi |
 re2 re' do' |
 sib do' la |
 sib1. |
 do'2 do1 |
-fa1. |
-fa1 |
-sib, |
+fa1. |\allowPageTurn
+\whiteNoteHeadsOff fa2 ~ fa |
+sib, ~ sib, |
 mib2 fa |
 sib,4 fad sol si, |
 do4. re8 mi4 |

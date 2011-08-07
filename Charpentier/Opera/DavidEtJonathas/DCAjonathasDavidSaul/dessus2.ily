@@ -1,4 +1,4 @@
-R1*9 | R2.*13 | R1*2 |
+\clef "dessus" R1*9 | R2.*13 | R1*2 |
 r2 r4 fa' |
 sib' la' sib' sol' |
 la' sol' la' fa' |
@@ -19,33 +19,34 @@ do''4 r r do''8 sib' |
 la'4 sib'8 do'' fa'4 sib' ~|
 sib' la' sol'4. fa'8 |
 fa'1 |
-do''2 do''2. do''4 |
+\whiteNoteHeadsOn do''2 do''2. do''8*2 |
 do''1. |
-do''2 si'4 do'' re'' si' |
+do''2 si'8*2 do'' re'' si' |
 do''2 sol' do'' |
 do''1 do''2 |
-re'' do''2. sib'4 |
+re'' do''2. sib'8*2 |
 la'2 fa'' mi'' |
 re'' sol'' fa'' |
-mi''2. mi''4 fa''2 |
-sol''4 fa'' mi''2. fa''4 |
+mi''2. mi''8*2 fa''2 |
+sol''8*2 fa'' mi''2. fa''8*2 |
 fa''2 r1 |
 R1. |
 r2 do'' do'' |
-re''2. mi''4 fa''2 |
-mi''2. re''4 mi''2 |
+re''2. mi''8*2 fa''2 |
+mi''2. re''8*2 mi''2 |
 do''1. |
-do'''2. sib''4 la'' sol'' |
+do'''2. sib''8*2 la'' sol'' |
 fa''2 fa'' sol'' |
-mi'' do'' do'''4 sib'' |
+mi'' do'' do'''8*2 sib'' |
 la''1 la''2 |
-fa'' mi''2. fa''4 |
+fa'' mi''2. fa''8*2 |
 mi'' fa'' mi'' re'' do''2 ~|
-do''4 re'' si'2. do''4 |
-do''2 do''2. do''4 |
+do''8*2 re'' si'2. do''8*2 |
+do''2 do''2. do''8*2 |
 re''2 sib' la' |
-sol' sol' do''4 do'' |
+sol' sol' do''8*2 do'' |
 do''1 sib'2 |
-la' sol' do''4 sib' |
+la' sol' do''8*2 sib' |
 la'1. |
+\whiteNoteHeadsOff
 R1*4 | R2.*11 | R1*6 | R2.*5 | R1*3 | R2.*5 | R1*4 |
