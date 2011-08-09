@@ -29,8 +29,13 @@
 \pieceToc \markup { Jonathas, Saül, David :
   \italic { David peut-il attendre un retour favorable ? } }
 \includeScore "DCAjonathasDavidSaul"
-\pieceToc \markup { Saül, David, Jonathas : \italic { Ah ! plus tôt dès ce jour vange-moi d'un perfide. } }
-\includeScore "DCBjonathasDavidSaulJoadab"
+
+\scene "Scène Quatrième" "Scène 4 : Joadab"
+\sceneDescription \markup \wordwrap-center \smallCaps {
+  Joadab, "[troupe" de "Philistins]"
+}
+\pieceToc \markup { Joadab, chœur : \italic { Achevons ; mon bonheur passe mon esperance } }
+\includeScore "DDAjoadab"
 \pieceTocTitle "Gigue"
 \includeScore "DDBgigue"
 \actEnd \markup { FIN DU TROISIÈME ACTE }

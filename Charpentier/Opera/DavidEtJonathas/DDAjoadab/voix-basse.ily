@@ -1,4 +1,4 @@
-R1*15 | R2.*47 |
+\clef "vbasse" R2.*25 |
 r4 fa sol |
 la la sib |
 do'2. |
@@ -17,17 +17,17 @@ fa2 fa8 mib |
 re4. re8 do4 |
 si, si, r |
 R2.*3 |
-r2 do8 do |
+r4 r do8 do |
 re4 re4. mi8 |
 fa2 fa8 sol |
 la4. la8 fa4 |
 sib2 sib4 |
-r2 sol4 |
+r4 r sol4 |
 do'4. sib8 la sol |
 fa2 fa8 fa |
 mi4. fa8 sol4 |
 do2 r4 |
 R2. |
-r2 fa8 sol |
+r4 r fa8 sol |
 la4. sib8 do'4 |
 fa2. ~ fa4. 
