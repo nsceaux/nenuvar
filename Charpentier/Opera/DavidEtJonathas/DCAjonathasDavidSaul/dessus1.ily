@@ -48,4 +48,20 @@ re''1 re''2 |
 do''1. |
 do'' |
 \whiteNoteHeadsOff
-R1*4 | R2.*11 | R1*6 | R2.*5 | R1*3 | R2.*5 | R1*4 |
+R1*4 | R2.*11 | R1*6 | R2.*5 | R1*3 | R2.*5 | R1*4 |\allowPageTurn
+%%
+R1*15 | R2.*7 |
+r4 la'' sib'' |
+sol'' la'' fad'' |
+sol''4. fa''8 mi''4 |
+fa'' sol'' la'' |
+sol'' sol'' mi'' |
+fa''4. fa''8 sol'' la'' |
+sol''2 sol''8 sol'' |
+la'' sib'' la'' sol'' fa'' mib'' |
+re''4 sol''4. sol''8 |
+sol''4 fa''4. fa''8 |
+fa''4 fa'' sib'' |
+la'' re'' mi'' |
+fa''2 r4 |
+R2.*2 |\allowPageTurn

@@ -48,5 +48,24 @@
     \line { \transparent { Faut-il verser mon sang ? } Faut-il perdre la vie ? }
     \bold\line { David et Jonathas }
     \line { La plus affreuse mort ne m'arrestera pas. }
+    \bold\line { Saül à Jonathas }
+    \line { Ah ! plutost dés ce jour vange moi d'un perfide. }
+    \line { David, David conspire ; il s'arme contre moi. }
+    \line { Va prévenir les coups d'une main parricide : }
+    \line { L'orage en m'accablant doit retomber sur Toi. }
+    \line { Que vois-je ? pour lui seul ton amour s'interresse ? }
+    \sline { Cruel ! est-ce là le prix }
+    \sline { Que tu dois à ma tendresse ? }
+    \line { Quand il faut soulager la douleur qui me presse, }
+    \sline { Je ne retrouve plus mon Fils ! }
+    \bold David
+    \line { Helas ! }
+    \bold Saül
+    \line { \transparent { Helas ! } J'irai moi-mesme... il me fuit ! & son crime }
+    \line { Enfin en ce moment se découvre à mes yeux. }
+    \line { Hâtez-vous de servir la fureur qui m'anime. }
+    \line { Peut-être puis-je encor le rejoindre en ces lieux. }
+    \bold Jonathas
+    \sline { O Ciel ! protége l'innocence. }
   }
 }

@@ -16,6 +16,8 @@
       >> \keepWithTag #'saul \includeLyrics "paroles"
     >>
     \new Staff <<
+      { s1*9 s2.*13 s1*22 s1.*29 s1*4 s2.*11 s1*6 s2.*5 s1*3 s2.*5
+        s1*4\break }
       \global \includeNotes "basse"
       \new FiguredBass \includeFigures "chiffres" >>
   >>

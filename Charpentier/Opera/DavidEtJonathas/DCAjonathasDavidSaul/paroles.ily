@@ -66,3 +66,36 @@
   %% DAVID & JONATHAS
   La plus af -- freu -- se mort ne m'ar -- res -- te -- ra pas.
 }
+
+
+\tag #'(saul basse) {
+  %% SAÜL, à Jonathas
+  "Ah !" plus tost dés ce jour van -- ge moi d'un per -- fi -- de.
+  Da -- vid, Da -- vid cons -- pi -- "re ;" il s'ar -- me con -- tre moi.
+  Va va pré -- ve -- nir les coups d'u -- ne main par -- ri -- ci -- "de :"
+  l'o -- rage en m'ac -- ca -- blant doit re -- tom -- ber sur Toi.
+  
+  Que vois- "je ?" pour lui seul ton a -- mour s'in -- ter -- res -- "se ?"
+  Cru -- "el !" est- ce là le prix
+  que tu dois à ma ten -- dres -- "se ?"
+  Quand il faut sou -- la -- ger la dou -- leur qui me pres -- se,
+  je ne re -- trou -- ve plus mon "fils ?"
+}
+\tag #'(david basse) {
+  %% DAVID
+  He -- "las !"
+}
+%% Il se retire
+\tag #'(saul basse) {
+  %% SAÜL
+  J'i -- rai moi- mes -- me... il me "fuit !" et son cri -- me
+  en -- fin en ce mo -- ment se dé -- couvre à mes yeux.
+  %% (Au gardes)
+  Hâ -- tez- vous de ser -- vir la fu -- reur qui m'a -- ni -- me.
+  Peut- ê -- tre puis-je en -- cor le re -- joindre en ces lieux
+  peut- ê -- tre puis-je en -- cor le re -- joindre en ces lieux.
+}
+\tag #'(jonathas basse) {
+  %% JONATHAS
+  O "Ciel !" pro -- tè -- ge l'in -- "no -" %-- cen -- ce.
+}

@@ -50,3 +50,19 @@ la' sol' do''8*2 sib' |
 la'1. |
 \whiteNoteHeadsOff
 R1*4 | R2.*11 | R1*6 | R2.*5 | R1*3 | R2.*5 | R1*4 |
+%%
+R1*15 | R2.*7 |
+r4 fa'' sol'' |
+mi'' do'' la' |
+sib'4. la'8 sol'4 |
+re'' mi'' fa'' |
+mi''8 fa'' mi'' re'' do'' sib' |
+la'4 re''4. re''8 |
+re''4 do''4. do''8 |
+do''4 fa''8 mib'' re'' do'' |
+sib'4 sib' sib' |
+do''4. sib'8 do'' la' |
+re''4 do'' sib' |
+do'' sib'8 la' sol'4 |
+la'2 r4 |
+R2.*2 |

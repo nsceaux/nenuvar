@@ -54,6 +54,13 @@
     do''4. do''8 do''2~ |
     do''4 sib'8 la' sol'4 sol'8 la' |
     fa'1 |
+    <<
+      \tag #'basse { s1*15 s2.*19 s2 }
+      \tag #'jonathas { R1*15 R2.*19 | r4 r }
+    >>
+    \tag #'basse \jonathasMark sol''4-\tag #'jonathas ^\markup\character "Jonathas" |
+    la''2 r8 re'' |
+    sol''4. fa''8 mi'' re'' |
   }
   %% David
   \tag #'(david basse) {
@@ -132,12 +139,19 @@
     \tag #'basse \davidMark sol'4 sol' |
     sol'4. re'8 sol'4 |
     mi' mi' r |
-    \tag #'david {
-      r2 r4 fa' |
-      fa'4. fa'8 mib'4. fa'8 |
-      re'4 mi'8 fa' fa'4 fa'8 mi' |
-      fa'1 |
-    }
+    <<
+      \tag #'basse { s1*4 s1*13 s4 }
+      \tag #'david {
+        r2 r4 fa' |
+        fa'4. fa'8 mib'4. fa'8 |
+        re'4 mi'8 fa' fa'4 fa'8 mi' |
+        fa'1 |
+        R1*13 |
+        r4
+      }
+    >>
+    \tag #'basse \davidMark r8 sol'-\tag #'david ^\markup\character "David" mi'4
+    \tag #'david { r4^\markup\italic { Il se retire } | R1 | R2.*22 }
   }
   %% Saul
   \tag #'(saul basse) {
@@ -177,6 +191,50 @@
     re'8 re' r re' re'4 r16 sib do' re' |
     sol4 r8 mib' do'4 r16 sib sib la |
     sib8 sib
-    \tag #'saul { r4 r2 | R2.*11 | R1*6 | R2.*5 | R1*3 | R2.*5 | R1*4 }
+    <<
+      \tag #'basse { s2. s2.*11 s1*6 s2.*5 s1*3 s2.*5 s1*4 }
+      \tag #'saul { r4 r2 | R2.*11 | R1*6 | R2.*5 | R1*3 | R2.*5 | R1*4 }
+    >>
+    \tag #'basse \saulMark r8 fa16-\tag #'saul ^\markup\character-text "Saül" "à Jonathas"
+    fa fa8 sol16 la sib8 sib16 sib do'8 re'16 mib' |
+    re'8 sib r re' re'4 r16 mib' mib' re' |
+    do'8 do' r mib' do'8. sib16 la8. sol16 |
+    fad4 la re' re'16 do' sib la |
+    sib8 sib16 la sol8 sol16 fa mib8 mib r mib' |
+    do'16 do' do' mib' la4 r16 sib do' re' fad8. sol16 |
+    sol2-\tag #'saul ^\markup \italic { Il lui présente son épée } r | \noBreak
+    r8 do' la16 la la mi' mi8 mi16 fa sol8 sol16 la |
+    fa8 fa r do' do'4 re'16 re' sib sib |
+    sol4 do'8. do'16 do'8. fa16 fa8 mi |
+    sol4 sol r8 sol16 sol sol8 sol16 la |
+    sib4 sib8. sib16 si4. si16 do' |
+    re'8 re' r16 sol sol sol do'8. do'16 mib'8 si |
+    <<
+      \tag #'basse { do'4 s2 }
+      \tag #'saul { do'2 r4 }
+    >>
+    \tag #'basse \saulMark r16 sol sol do' |
+    la8 la r4 r fa8. fa16 |
+    sib2 sib8 do' |
+    re'4 re' re' |
+    sib4. sib8 sib re' |
+    sol2 sol8 la |
+    sib4 do' re' |
+    mib'2. |
+    R2. |
+    r4-\tag #'saul ^\markup\italic { Aux gardes } re' sib |
+    do' la re' |
+    sol2 do'8 sib |
+    la4 sol fa |
+    do' do' do |
+    re4. re8 mi fa |
+    mi2 mi8 mi |
+    fa4 fa fa |
+    sol2 sol4 |
+    la4. sol8 la fa |
+    sib4 la sol |
+    la sib do' |
+    fa2
+    \tag #'saul { r4 | R2.*2 }
   }
 >>
