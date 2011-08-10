@@ -140,7 +140,7 @@
                       kern))
        stencil)))
 
-#(define-public ((bar-line::print-dashed-repeat is-start-bar with-extra-bar) bar-line)
+#(define-public ((bar-line::print-dashed-repeat is-start-bar with-solid-bar) bar-line)
    (let* ((staff-line (ly:output-def-lookup (ly:grob-layout bar-line) 'line-thickness))
           (thin-thickness (* (ly:grob-property bar-line 'hair-thickness) staff-line))
           (kern (* (ly:grob-property bar-line 'kern) staff-line))
@@ -150,23 +150,25 @@
            (dashed-line (make-dashed-bar-line bar-line thin-thickness))
            (colon-line  (make-colon-bar-line bar-line))
            (stencil empty-stencil))
-     (cond ((and with-extra-bar is-start-bar)
+     (cond ((and with-solid-bar is-start-bar)
             ;; simple-bar + dashed-bar + colon
             (set! stencil simple-line)
             (set! stencil (ly:stencil-combine-at-edge stencil X RIGHT dashed-line kern))
             (set! stencil (ly:stencil-combine-at-edge stencil X RIGHT colon-line kern)))
-           (with-extra-bar
+           (with-solid-bar
             ;; colon + dashed-bar + simple-bar
             (set! stencil simple-line)
             (set! stencil (ly:stencil-combine-at-edge stencil X LEFT dashed-line kern))
             (set! stencil (ly:stencil-combine-at-edge stencil X LEFT colon-line kern)))
            (is-start-bar
-            ;; dashed-bar + colon
+            ;; dashed-bar + dashed-bar + colon
             (set! stencil dashed-line)
+            (set! stencil (ly:stencil-combine-at-edge stencil X RIGHT dashed-line kern))
             (set! stencil (ly:stencil-combine-at-edge stencil X RIGHT colon-line kern)))
            (else
-            ;; colon + dashed-bar
+            ;; colon + dashed-bar + dashed-bar
             (set! stencil dashed-line)
+            (set! stencil (ly:stencil-combine-at-edge stencil X LEFT dashed-line kern))
             (set! stencil (ly:stencil-combine-at-edge stencil X LEFT colon-line kern))))
        (set! stencil (ly:stencil-translate-axis stencil center Y))
        stencil)))

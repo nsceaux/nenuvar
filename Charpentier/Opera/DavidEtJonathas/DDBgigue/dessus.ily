@@ -1,4 +1,4 @@
-fa''8 mi''4 |
+\clef "dessus" fa''8 mi''4 |
 fa'' do'' re'' la'4. sib'8 do''4 |
 fa'2. ~ fa'4. fa'8 sol'4 |
 la' la' sib' do''4. sib'8 la' sol' |
@@ -30,4 +30,5 @@ sol' do'' do'' do''4. sib'8 sib'4 |
 sib' do''8 sib' la'4 sol'4. fa'8 mi'4 |
 fa' fa'' do'' mib'' fa''8 mib'' re'' do'' |
 re''4 sib'' la'' sol''4. fa''8 mi''4 |
-fa''2. ~ fa''4. 
+fa''2. ~ fa''4.
+fa''2. ~ fa''

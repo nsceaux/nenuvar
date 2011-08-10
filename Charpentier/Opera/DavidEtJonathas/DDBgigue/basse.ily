@@ -1,5 +1,5 @@
-r8 r4 |
-fa2. r |
+\clef "basse" r8 r4 |
+fa2. r2*3/2 |
 r r4 r8 fa mi4 |
 fa do re la,4. sib,8 do4 |
 fa,2 fa,4 sol,4. la,8 sib, sol, |
@@ -7,7 +7,7 @@ la,4 la8 sol fa4 sol la la, |
 re re' do' sib4. do'8 sib4 |
 la sib la sol4. la8 si4 |
 do' do' sib lab4. lab8 sol4 |
-fa1. |
+fa2.~ fa |
 sol2 lab4 sol4. sol8 fa4 |
 mib2 mib4 lab2 re4 |
 sol8 fa mib re do4 fa sol sol, |
@@ -31,3 +31,4 @@ do8 sib, la, sol, fa,4 sib, do2 |
 fa, fa4 sol la2 |
 sib4. do'8 re'4 sib do' do |
 fa2. ~ fa4. 
+fa2. ~ fa
