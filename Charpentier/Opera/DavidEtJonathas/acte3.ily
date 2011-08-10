@@ -22,19 +22,20 @@
 \pieceToc \markup { Saül : \italic { Objet d'une implacable haine } }
 \includeScore "DBAsaul"
 
+\newBookPart #'(full-rehearsal)
 \scene "Scène Troisième" "Scène 3 : David, Jonathas, Joadab, troupes"
 \sceneDescription \markup \wordwrap-center \smallCaps { 
   Saül, Davis, Jonathas, Joadab, troupes etc.
 }
 \pieceToc \markup { Jonathas, Saül, David :
-  \italic { David peut-il attendre un retour favorable ? } }
+  \italic { David peut-il attendre } }
 \includeScore "DCAjonathasDavidSaul"
 
 \scene "Scène Quatrième" "Scène 4 : Joadab"
 \sceneDescription \markup \wordwrap-center \smallCaps {
   Joadab, "[troupe" de "Philistins]"
 }
-\pieceToc \markup { Joadab, chœur : \italic { Achevons ; mon bonheur passe mon esperance } }
+\pieceToc \markup { Joadab, chœur : \italic { Achevons ; mon bonheur } }
 \includeScore "DDAjoadab"
 \pieceTocTitle "Gigue"
 \includeScore "DDBgigue"
