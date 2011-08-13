@@ -1,20 +1,19 @@
 \score {
   \new StaffGroup <<
     \new GrandStaff <<
-      \new Staff << \global \clef "dessus"
-                    { \includeNotes "dessus-a"
-                      << \includeNotes "dessus-b1" \\ \includeNotes "dessus-b2" >>
-                      \includeNotes "dessus-c"
-                      \includeNotes "dessus-d1"
-                      \includeNotes "dessus-e" } >>
-      \newHaraKiriStaffB << \global \clef "dessus"
-                            { s1*26 s1*4 s1*4 \break
-                              \includeNotes "dessus-d2" \break } >>
+      \new Staff <<
+        s4*0^"Tous"
+        \global \keepWithTag #'dessus1 \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \keepWithTag #'dessus2 \includeNotes "dessus"
+      >>
     >>
-    \newHaraKiriStaff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-    \newHaraKiriStaff << \global \clef "taille" \includeNotes "taille" >>
-    \new Staff << \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
+    \new Staff << \global \includeNotes "haute-contre" >>
+    \new Staff << \global \includeNotes "taille" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
   \layout { }
   \midi { }

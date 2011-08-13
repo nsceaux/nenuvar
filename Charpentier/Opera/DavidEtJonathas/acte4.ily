@@ -2,16 +2,16 @@
 \act "Acte Quatrième"
 \markuplines \paragraph {
   Saül, d'autant plus animé contre David, qu'il le voit plus soutenu
-  par le roi des Philistins, et prenant de là même de nouveaux
-  soupçons, se déclare enfin pour la bataille. Achis y est fortement
-  porté de son côté, apprenant le tumulte qu'il y a dans son armée,
+  par le Roi des Philistins, & prenant de là mesme de nouveaux
+  soupçons, se déclare enfin pour la Bataille. Achis y est fortement
+  porté de son costé, apprenant le tumulte qu'il y a dans son armée ;
   qui animée par les intrigues de Joadab, demande à combattre. David
   se retirant dans le camp des Philistins, est rencontré par
-  Jonathas. Quelle douleur à l'un et à l'autre d'être ainsi obligés
+  Jonathas. Quelle douleur à l'un & à l'autre d'étre ainsi obligez
   de se séparer. David lui déclare que bien loin de combattre contre
-  Saül, il ne pensera qu'à sauver son prince et son ami.
+  Saül, il ne pensera qu'à sauver son Prince & son ami.
 }
-\scene "Scène Première"
+\scene "Scène Première" "Scène 1 : David"
 \sceneDescription \markup \wordwrap-center \smallCaps { David. }
 \pieceTocTitle "Prélude"
 \includeScore "EAAprelude"

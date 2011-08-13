@@ -1,4 +1,4 @@
-r4 re''2 re''8 mi'' |
+\clef "haute-contre" r4 re''2 re''8 mi'' |
 dod''1 |
 r4 re'' la' do'' |
 sib'2 la' ~|

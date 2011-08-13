@@ -1,4 +1,4 @@
-R1*4 |
+\clef "basse" R1*4 |
 r4 la2 ~ la8 la |
 fad1 |
 r4 sol re fa |
