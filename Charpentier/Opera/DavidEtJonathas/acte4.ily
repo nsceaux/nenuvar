@@ -18,13 +18,15 @@
 \pieceToc \markup { David : \italic { Souverain juge des mortels } }
 \includeScore "EABdavid"
 
-\scene "Scène II"
+\scene "Scène Seconde" "Scène 2 : Jonathas, David"
 \sceneDescription \markup \wordwrap-center \smallCaps { Jonathas, David. }
-\pieceToc \markup { Jonathas, David : \italic { Vous me fuyez / Toujours vous me suivez } }
+\pieceToc \markup { Jonathas, David : \italic { Vous me fuiez ! } }
 \includeScore "EBAjonathasDavid"
 
-\scene "Scène III"
-\sceneDescription \markup \wordwrap-center \smallCaps { Jonathas, troupes d'Israëlites et de Philistins. }
+\scene "Scène Troisième" "Scène 3 : Jonathas"
+\sceneDescription \markup \wordwrap-center \smallCaps {
+  Jonathas, "[troupes" d'Israëlites et de "Philistins.]"
+}
 \pieceToc \markup { Jonathas, chœur : \italic {  A-t-on jamais souffert une plus rude peine ? } }
 \includeScore "ECAjonathasChoeur"
 

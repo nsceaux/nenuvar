@@ -1,5 +1,5 @@
-R2.*3 |
-r4 la'^"Flûtes" la' |
+\clef "dessus" R2.*3 |
+r4 la' la' |
 la'2. |
 la'4 sol'2 |
 la' r4 |
@@ -36,10 +36,10 @@ sold'2 la' ~|
 la'4 si' sold'4. la'8 |
 la'1 |
 R1*6 |
-r8^"Violons et flûtes" re'' re''4 re'' r8 mi'' |
+r8 re'' re''4 re'' r8 mi'' |
 dod''4. dod''8 re'' la' la'8. sol'16 |
 la'2 r4 |
-R2.*14 |
+R2.*14 |\allowPageTurn
 r4 sol'4. do''8 |
 la'4 la'4. re''8 |
 sib'4 sib'4. sib'8 |
@@ -51,7 +51,7 @@ r4 la'' fa'' |
 la'' la''4. la''8 |
 re''2 r4 |
 R2.*2 |
-r2 re''4 |
+r4 r re''4 |
 sib'2 sib'4 |
 la'4. si'8 dod''4 |
 re'' sol''8 fa'' mi'' re'' |

@@ -1,5 +1,5 @@
-R2.*3 |
-r4 la''^"Flûtes" mi'' |
+\clef "dessus" R2.*3 |
+r4 la''^"Flutes seuls" mi'' |
 fa'' fa'' mi'' |
 re''4. dod''8 re'' mi'' |
 dod''2 r4 |
@@ -34,7 +34,7 @@ si'2 do'' ~|
 do''4 si' si'4. mi''8 |
 dod''1 |
 R1*6 |
-r8^"Violons et flûtes" la'' fa''4 r8 sib'' sol''4 |
+r8^"Violons et flutes" la'' fa''4 r8 sib'' sol''4 |
 mi''4. mi''8 fa'' mi''16 fa'' re''8. re''16 |
 dod''2 r4 |
 R2.*15 |
@@ -48,7 +48,7 @@ r4 sol'' mi'' |
 fa'' sol''4. sol''8 |
 do''2. |
 R2.*4 |
-r2 re''4 |
+r4 r re''4 |
 mi''4. fa''8 sol''4 |
 sol''4. fa''8 mi''4 |
 fa'' sib''8 la'' sol'' fa'' |

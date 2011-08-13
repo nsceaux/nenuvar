@@ -1,22 +1,21 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus2" >>
+    \new GrandStaff <<
+      \new Staff << \global \includeNotes "dessus1" >>
+      \new Staff << \global \includeNotes "dessus2" >>
     >>
     \new ChoirStaff <<
       \new Staff \withLyrics <<
-        \characterName \markup Jonathas
-        \global \clef "vdessus" \includeNotes "jonathas"
-      >> \includeLyrics "paroles-jonathas"
+        \global \keepWithTag #'jonathas \includeNotes "voix"
+      >> \keepWithTag #'jonathas \includeLyrics "paroles"
       \new Staff \withLyrics <<
-        \characterName \markup David
-        \global \clef "vhaute-contre" \includeNotes "david"
-      >> \includeLyrics "paroles-david"
+        \global \keepWithTag #'david \includeNotes "voix"
+      >> \keepWithTag #'david \includeLyrics "paroles"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres" >>
   >>
-  \layout { indent = \largeindent}
+  \layout { }
   \midi { }
 }
