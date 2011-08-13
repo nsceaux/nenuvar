@@ -1,4 +1,4 @@
-re1 |
+\clef "basse" re1 |
 re |
 re |
 re |
@@ -19,14 +19,16 @@ do la, |
 mi mi, |
 la,1 |
 la,2 la4. sol8 |
+\whiteNoteHeadsOn
 fa1. |
 mi |
-fa2. fa4 mi re |
-do2. do4 re mi |
-fa2. fa4 mi re |
-do2. do'4 sib la |
+fa2. fa8*2 mi re |
+do2. do8*2 re mi |
+fa2. fa8*2 mi re |
+do2. do'8*2 sib la |
 sol1. |
 sol |
+\whiteNoteHeadsOff
 sol2 fa4 sol |
 la2. |
 la |

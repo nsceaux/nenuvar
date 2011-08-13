@@ -107,7 +107,7 @@ saulMark =
 
 saulMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark "vbasse" (markup #:character-text "Saül" text)))
+  (make-character-mark-text "vbasse" "Saül" text))
 
 pythonisseMark =
 #(define-music-function (parser location) ()
@@ -123,7 +123,7 @@ achisMark =
 
 achisMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark "vbasse" (markup #:character-text "Achis" text)))
+  (make-character-mark-text "vbasse" "Achis" text))
 
 jonathasMark =
 #(define-music-function (parser location) ()
@@ -131,11 +131,15 @@ jonathasMark =
 
 jonathasMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark "vdessus" (markup #:character-text "Jonathas" text)))
+  (make-character-mark-text "vdessus" "Jonathas" text))
 
 davidMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "David"))
+
+davidMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vhaute-contre" "David" text))
 
 joadabMark =
 #(define-music-function (parser location) ()
