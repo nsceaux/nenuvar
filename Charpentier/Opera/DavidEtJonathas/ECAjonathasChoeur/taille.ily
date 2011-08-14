@@ -1,4 +1,4 @@
-r2 mi' ~|
+\clef "taille" r2 mi' ~|
 mi'2. mi'4 |
 fa'2 sol' |
 la'4 la' la'4. la'8 |
@@ -8,7 +8,7 @@ la'1 |
 la'2. la4 |
 si2 do'4 re' |
 mi'2 mi'4. mi'8 |
-mi'1 ~|
+mi'1^\markup\orig-version\musicglyph #"scripts.segno" ~|
 mi' |
 re' |
 dod'2. re'4 |

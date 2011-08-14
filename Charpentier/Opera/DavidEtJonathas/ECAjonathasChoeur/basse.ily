@@ -1,4 +1,4 @@
-la1 |
+\clef "basse" la1 |
 sol |
 fa2 mi |
 re1 |
@@ -23,18 +23,89 @@ fa si, |
 mi la, |
 re, mi, |
 la,1 |
-R1*16 |
+<<
+  \tag #'basse { R1*16 }
+  \tag #'basse-continue {
+    la2. la4 |
+    fa2. mi4 |
+    re2 sol |
+    do1 |
+    re |
+    do2. re4 |
+    mi1 |
+    fa |
+    fa2. mi4 |
+    re1 |
+    dod2. la,4 |
+    re1~ |
+    re |
+    do2. si,4 |
+    la,1 |
+    si, |
+  }
+>>
 mi2 ~ mi8 re do si, |
 do2 sold, |
 la, la ~|
 la2. sol4 |
 si2 si, |
 mi1 |
-R1*8 |
-R1 |
-R1.*6 |
-R1*4 |
-R1.*32 |
+<<
+  \tag #'basse { R1*8 | R1 | R1.*6 | R1*4 | R1.*32 | }
+  \tag #'basse-continue {
+    mi2 r8 mi fad sold |
+    la2 r8 la si dod' |
+    re'4. dod'8 si la sold la |
+    mi mi' mi' re' dod' dod' dod' si |
+    la si dod' la re' la mi' mi |
+    la la la sol fad fad fad mi |
+    re2 re8 re mi mi, |
+    la,1 |
+    re |
+    \whiteNoteHeadsOn re1. |
+    re' |
+    do'1 la2 |
+    sib2. la8*2 sol2 |
+    sol1. |
+    la |
+    \whiteNoteHeadsOff dod2 re |
+    sol,4 sol8 fa mi4 la |
+    re2 sol4 la8 la, |
+    re2 r |\allowPageTurn
+    \whiteNoteHeadsOn do1. |
+    la, |
+    sol, |
+    r2 r sol2 |
+    la si1 |
+    do' do'2 |
+    mi fa do |
+    sol1 fa2 |
+    mi1. |
+    re1 dod2 |
+    re1 la2 |
+    mi2. fa8*2 sol2 |
+    sol1 fad2 |
+    sol2. fa8*2 mi2 |
+    fa1 do2 |
+    fa sol sol, |
+    do2. re8*2 mi2 |
+    fa2. mi8*2 re2 |
+    sol8*2 fa mi re do2 |
+    fa sol sol, |
+    do1. |\allowPageTurn
+    dod |
+    re |
+    fa |
+    fa1 mi2 |
+    fa re2. re8*2 |
+    sol1. |
+    do |
+    re |
+    sold, |
+    la,2 fa,1 |
+    mi,1. |\allowPageTurn \whiteNoteHeadsOff
+  }
+>>
 la,2. la4 |
 sol1 |
 fa |
@@ -50,7 +121,27 @@ fa si, |
 mi la, |
 re, mi, |
 la,1 |
-R1*16 |
+<<
+  \tag #'basse { R1*16 }
+  \tag #'basse-continue {
+    la2. la4 |
+    fa2. mi4 |
+    re2 mi |
+    do1 |
+    re |
+    do2. re4 |
+    mi1 |
+    fa |
+    fa2. mi4 |
+    re1 |
+    dod2. la,4 |
+    re1 |
+    re |
+    do2. si,4 |
+    la,1 |
+    si, |
+  }
+>>
 mi2 ~ mi8 re do si, |
 do2 sold, |
 la, la ~|
@@ -65,4 +156,16 @@ re ~|
 re |
 mi2 mi, |
 la,1 |
-R1*8 |
+<<
+  \tag #'basse { R1*8 }
+  \tag #'basse-continue {
+    mi2 r8 mi fad sold |
+    la2 r8 la si dod' |
+    re'4. dod'8 si la sold la |
+    mi mi' mi' re' dod' dod' dod' si |
+    la si dod' la re' la mi' mi |
+    la la la sol fad fad fad mi |
+    re2 ~ re8 re mi mi, |
+    la,1 |
+  }
+>>

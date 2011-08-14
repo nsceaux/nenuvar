@@ -16,7 +16,7 @@
             Sheet music from \with-url #"http://nicolas.sceaux.free.fr"
             \typewriter \tiny http://nicolas.sceaux.free.fr
             typeset using \with-url #"http://www.LilyPond.org" 
-            \line { \teeny www. \hspace #-1.0 LilyPond \hspace #-1.0 \teeny .org }
+            \concat { \teeny www. LilyPond \teeny .org }
             #(ly:export (string-append "version " (lilypond-version)))
             on \concat { \today . }
           }

@@ -1,4 +1,4 @@
-R1*47 |
+\clef "vdessus" R1*47 |
 r8 si' dod'' red'' mi''2 |
 r8 sold' la' si' dod''2 |
 r4 r8 mi'' re'' dod'' si' la' |

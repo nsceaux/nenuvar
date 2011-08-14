@@ -1,4 +1,4 @@
-R1*47 |
+\clef "vbasse" R1*47 |
 r2 r8 mi fad sold |
 la2 r8 la si dod' |
 re'4. dod'8 si la sold la |

@@ -1,4 +1,4 @@
-r4 la' la'4. la'8 |
+\clef "haute-contre" r4 la' la'4. la'8 |
 la'1 ~|
 la'4 si' dod''2 |
 re''1 ~|
@@ -8,7 +8,7 @@ mi''1 |
 re''4 do'' si'4. la'8 |
 sold'2 la' ~|
 la'4 si' sold'4. la'8 |
-la'1 |
+la'1^\markup\orig-version\musicglyph #"scripts.segno" |
 R1 |
 r4 re' fa' re' |
 sol'1 ~|

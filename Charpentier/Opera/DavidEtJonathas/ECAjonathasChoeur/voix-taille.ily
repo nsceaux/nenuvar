@@ -1,4 +1,4 @@
-R1*47 |
+\clef "vtaille" R1*47 |
 r2 r8 sold la si |
 dod'2 r8 dod' re' mi' |
 fad'4. dod'8 re' mi' mi' red' |
