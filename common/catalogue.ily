@@ -211,7 +211,7 @@
 
 OUTPUT_DIR=out
 DELIVERY_DIR=delivery
-LILYPOND_CMD=lilypond -ddelete-intermediate-files -dno-protected-scheme-parsing~2%")
+LILYPOND_CMD=lilypond --loglevel=WARN -ddelete-intermediate-files -dno-protected-scheme-parsing~2%")
        (for-each print-makefile-composer-work catalog))))
 
 
