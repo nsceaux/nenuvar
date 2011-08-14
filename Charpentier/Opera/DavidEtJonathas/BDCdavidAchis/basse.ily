@@ -59,8 +59,8 @@
     sol8 mi re do si,4. si,8 |
     do re do si, la,4 la, |
     re4
-    \origVersion\footnoteGrob #'NoteHead #'(-1 . 2)
-    \markup \box 1 \markup { \box 1 Philidor : 
+    \myfootnote #'NoteHead #'(-1 . 2)
+    \markup { Philidor : 
       \vcenter\score {
         { \tinyQuote \key re \major \time 2/2 \clef "bass"
           re4 mib8 dod re4 re, |

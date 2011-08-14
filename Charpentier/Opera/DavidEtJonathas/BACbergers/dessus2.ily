@@ -16,8 +16,8 @@ si' mi'' re'' dod''4. si'8 dod''4 |
 re''2 re''4 re'' re'' mi'' |
 la'2 la'4 re'' do'' la' |
 sol' si'4. dod''8 re''4 re'' mi'' |
-\origVersion\footnoteGrob #'NoteHead #'(0 . 1)
-\markup \box 1 \markup { \box 1 Philidor : 
+\myfootnote #'NoteHead #'(0 . 1)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key re \major \time 6/4 \clef "french"
       fad''4*6/7 si' dod'' re'' re'' re'' mi'' |

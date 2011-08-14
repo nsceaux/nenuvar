@@ -35,8 +35,8 @@ sib4 sib do' mib'! |
 re'2. re'4 |
 re'2. do'8 sib |
 la2 sib4 mib' |
-\origVersion\footnoteGrob #'NoteHead #'(1 . -2)
-\markup \box 2 \markup { \box 2 Philidor : 
+\myfootnote #'NoteHead #'(1 . -2)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key sib \major \time 2/2 \clef "mezzosoprano"
       << { re'4 re' do' re' | re'4 re' do' re' | }

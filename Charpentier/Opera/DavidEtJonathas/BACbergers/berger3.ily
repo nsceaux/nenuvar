@@ -13,8 +13,8 @@ r4 la'2 r2*3/2 |
 R1.*3 |
 r4 la' si' sol' sol' la' |
 fad' fad'' sol'' mi'' mi'' fad'' |
-\origVersion\footnoteGrob #'NoteHead #'(0 . 1)
-\markup \box 1 \markup { \box 1 Philidor : 
+\myfootnote #'NoteHead #'(0 . 1)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key re \major \time 6/4 \clef "treble"
       re''2*1/2 fad'4 sol' la'4 la'4. la'8 |

@@ -25,8 +25,8 @@ mi' re' mi' fa'2. |
 fa'4 fa' sol' la'4. mi'8 fa'4 |
 mi' sol' mi' la' sol'2 |
 sol'4 fa'8 mi' 
-\origVersion\footnoteGrob #'NoteHead #'(0.5 . -2)
-\markup \box 1 \markup { \box 1 Philidor : 
+\myfootnote #'NoteHead #'(0.5 . -2)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key fa \major \time 6/4 \clef "mezzosoprano"
       sol'4 fa'8*2 mi' do'4. re'8 mib'4 |

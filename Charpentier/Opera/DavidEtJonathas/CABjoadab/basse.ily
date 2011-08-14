@@ -17,19 +17,16 @@ mi4 fad sold la sol? fa |
 mi8 re mi fa mi re do si, la, si, do re |
 mi4 fad sold la re mi |
 la, la, si, dod si, dod |
-\origVersion {
-  \once\override FootnoteItem #'annotation-line = ##f
-  \footnoteGrob #'NoteHead #'(-1 . -2)
-  \markup \box 1 \markup { \box 1 Philidor : 
-    \vcenter\score {
-      \new Staff <<
-        { \tinyQuote \key re \minor \time 6/4 \clef "bass"
-          re4 re re mi re mi |
-        }
-        \new FiguredBass \figuremode { <_+>4 <6> <6+> <6> <6+> }
-      >>
-      \layout { \quoteLayout }
-    }
+\myfootnoteNoLine #'NoteHead #'(-1 . -2)
+\markup { Philidor : 
+  \vcenter\score {
+    \new Staff <<
+      { \tinyQuote \key re \minor \time 6/4 \clef "bass"
+        re4 re re mi re mi |
+      }
+      \new FiguredBass \figuremode { <_+>4 <6> <6+> <6> <6+> }
+    >>
+    \layout { \quoteLayout }
   }
 }
 re4 re re mi re mi |

@@ -3,8 +3,8 @@ R2.*15 |
 R1*25 |
 R2.*20 |
 r4 do''
-\origVersion\footnoteGrob #'NoteHead #'(-1 . 1)
-\markup \box 1 \markup { \box 1 Philidor : 
+\myfootnote #'NoteHead #'(-1 . 1)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key do \major \time 3/4 \clef "mezzosoprano"
       r4*3/4 do'' sol' sol' |
@@ -89,8 +89,8 @@ sol' la'8 sol' fa' mi' |
 re'4 sol'8 sol' fa' sol' |
 sol'4 sol'4. sol'8 |
 sol'4 fa'8 %{ mib' %}
-\origVersion\footnoteGrob #'NoteHead #'(-1 . -2)
-\markup \box 1 \markup { \box 1 Philidor : 
+\myfootnote #'NoteHead #'(-1 . -2)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key do \major \time 3/4 \clef "mezzosoprano"
       sol'4 fa'8 mib' re' do' |

@@ -20,8 +20,8 @@ fad,( fad,) fad,( fad,) |
 sol,( sol,) sol,( sol,) |
 la,( la,) la,( la,) |
 re,2 r8 re re re |
-\origVersion\footnoteGrob #'NoteHead #'(-0.5 . 2)
-\markup \box 1 \markup { \box 1 Philidor : Le rythme indiqué est
+\myfootnote #'NoteHead #'(-0.5 . 2)
+\markup { Philidor : Le rythme indiqué est
   \vcenter\score {
     { \tinyQuote \key re \minor \time 2/2 \clef "basse"
       re4 re8[ re re re] \bar "|" }
@@ -51,9 +51,9 @@ sib,( sib,) sib,( sib,) |
 mib( mib) mib( mib) |
 do( do) do( do) |
 fa( fa) fa( fa) |
-<< { \origVersion\footnoteGrob #'NoteHead #'(-0.5 . 2)
-    \markup \box 1 \markup \wordwrap {
-      \box 1 Philidor : dans le système des mesures 46 à 50, le copiste
+<< { \myfootnote #'NoteHead #'(-0.5 . 2)
+    \markup \wordwrap {
+      Philidor : dans le système des mesures 46 à 50, le copiste
       n'a réservé que quatre portées pour les cinq voix.  La voix de
       \italic Saül et la basse sont sur la même portée. Néanmoins, la
       basse n'est notée qu'à partir de la mesure 48 : elle est manquante
@@ -68,9 +68,8 @@ mib( mib) fa( fa) |\noPageTurn
 sib,( sib,) sib,( sib,) |
 si,( si,) si,( si,) |
 do( do) re( re) |
-\origVersion\footnoteGrob #'NoteHead #'(-0.5 . 3)
-\markup \box 2 \markup { \box 2 Philidor : le manuscrit comporte le
-  chiffrage
+\myfootnote #'NoteHead #'(-0.5 . 3)
+\markup { Philidor : le manuscrit comporte le chiffrage
   \vcenter\score {
     << \new Staff {
         \tinyQuote \key re \minor \time 2/2 \clef "basse"

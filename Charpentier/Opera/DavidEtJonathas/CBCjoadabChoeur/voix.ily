@@ -9,25 +9,17 @@ r8 si re' si sol4. ( fad16 ) sol |
 fad2. |
 R2.*29 |
 r8
-\origVersion {
-  \once\override FootnoteItem #'annotation-line = ##f
-  \footnoteGrob #'NoteHead #'(-2 . -3)
-  \markup \box 1 \markup { \box 1 Livret :
-    \italic { C'est trop ; à ma fureur je veux que tout réponde. }
-  }
-} re'^\markup\character Joabel la16 la la si dod'8. dod'16 dod' dod' re' mi' |
+\myfootnoteNoLine #'NoteHead #'(-2 . -3)
+\markup { Livret : \italic { C'est trop ; à ma fureur je veux que tout réponde. } }
+re'^\markup\character Joabel la16 la la si dod'8. dod'16 dod' dod' re' mi' |
 fad'8 re' r4 r8 mi' do'16 do' do' mi' |
 sold8. sold16 sold sold sold la si8.
-\origVersion {
-  \once\override FootnoteItem #'annotation-line = ##f
-  \footnoteGrob #'NoteHead #'(-0.5 . -2.5)
-  \markup \box 2 \markup { \box 2 Livret :
-    \italic { Il faut contre David que Saül me seconde. }
-  }
-} do'16 re' re' re' mi' |
+\myfootnoteNoLine #'NoteHead #'(-0.5 . -2.5)
+\markup { Livret : \italic { Il faut contre David que Saül me seconde. } }
+do'16 re' re' re' mi' |
 do'4
-\origVersion\footnoteGrob #'NoteHead #'(-1 . 1)
-\markup \box 3 \markup { \box 3 Philidor :
+\myfootnote #'NoteHead #'(-1 . 1)
+\markup { Philidor :
   peut-être un \italic mi au lieu du \italic fa
   \vcenter\score {
     \new Staff \withLyrics {

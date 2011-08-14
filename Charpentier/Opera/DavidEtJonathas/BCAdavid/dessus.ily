@@ -1,6 +1,6 @@
 \clef "dessus" r2 si'1~ |
-\origVersion\footnoteGrob #'NoteHead #'(1 . -1)
-\markup \box 1 \markup { \box 1 Philidor : 
+\myfootnote #'NoteHead #'(1 . -1)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key mi \minor \time 3/2 \clef "french"
       r2 si'1~ | si'2*1/2~ si'2.*2/3 la'4 la'4. si'8 |

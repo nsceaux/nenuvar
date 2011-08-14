@@ -25,15 +25,11 @@
       }
     >>
     \tag #'basse \clef "vdessus"
-    \origVersion {
-      \once\override FootnoteItem #'annotation-line = ##f
-      \footnoteGrob #'NoteHead #'(-1.5 . -3)
-      \markup \box 1 \markup { \box 1 Philidor : 
-        \italic { Sy l'on est sans eux /
-          Rien ne plait a nos cœurs, on ne peut vivre heureux. }
-      }
+    \myfootnoteNoLine #'NoteHead #'(-1.5 . -3)
+    \markup { Philidor : 
+      \italic { Sy l'on est sans eux /
+        Rien ne plait a nos cœurs, on ne peut vivre heureux. }
     }
-
     re''8 mi'' fa'' re'' |
     sol''2. ~|
     sol''8 la'' sol'' fa'' mi'' re'' |

@@ -19,12 +19,8 @@
     mi''4 dod'' re'' mi'' |
     fad''1 |
     mi''2 fad''4 |
-    \origVersion {
-      \once\override FootnoteItem #'annotation-line = ##f
-      \footnoteGrob #'NoteHead #'(-2 . -3)
-      \markup \box 1 \markup { \box 1 Livret :
-        \italic { les douceurs de la liberté } }
-    }
+    \myfootnoteNoLine #'NoteHead #'(-2 . -3)
+    \markup { Livret : \italic { les douceurs de la liberté } }
     re'' re'' sol'' |
     mi''4. re''8 mi''4 |
     fad'' sol'' mi'' |

@@ -38,10 +38,10 @@
     mi''4 do'' mi''4. do''8 |
     sol''4 mi'' la'' sol''8 fad'' |
     sol'' sol'' fad'' fad'' fad'' sol'' |
-    \origVersion\footnoteGrob #'NoteHead #'(1 . 1)
-    \markup \box 1 \markup\column {
+    \myfootnote #'NoteHead #'(1 . 1)
+    \markup\column {
       \justify {
-        \box 1 Philidor (page 46) : D'après les guidons de la fin du
+        Philidor (page 46) : D'après les guidons de la fin du
         premier système (mesure 31), les lignes de premier et second
         dessus sont inversées pour le second système (mesures 32 à
         36).  À la fin du second système, le guidon de la première

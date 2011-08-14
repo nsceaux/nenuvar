@@ -79,8 +79,8 @@ sol'1 |
     R1*3 |\allowPageTurn
     r4 lab''2 |
     r4 sol''2 |
-    \origVersion\footnoteGrob #'NoteHead #'(1 . 1)
-    \markup \box 1 \markup { \box 1 Philidor : 
+    \myfootnote #'NoteHead #'(1 . 1)
+    \markup { Philidor : 
       \vcenter\score {
         { \tinyQuote \key sib \major \time 3/4 \clef "french"
           fa''4*3/4 \stemUp do'' do''4.*3/4 re''8*3/4 | do''4. reb''8 sib'4 |

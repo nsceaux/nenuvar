@@ -13,6 +13,8 @@
 #(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
 
+#(ly:set-option 'print-footnotes (not (symbol? (ly:get-option 'part))))
+
 %% use baroque style repeats
 #(ly:set-option 'baroque-repeats #t)
 

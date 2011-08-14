@@ -37,11 +37,10 @@
 >> \noHaraKiri
 re8 mi |
 fad4 fad4. fad8 |
-\tag #'basse \origVersion {
-  \once\override FootnoteItem #'annotation-line = ##f
-  \footnoteGrob #'NoteHead #'(-1 . 1)
-  \markup \box 1 \markup {
-    \box 1 Philidor : à partir de ce système, la ligne de basse de violon est omise.
+\tag #'basse {
+  \myfootnoteNoLine #'NoteHead #'(-1 . 1)
+  \markup { Philidor :
+    à partir de ce système, la ligne de basse de violon est omise.
   }
 }
 sol2 sol8 sol |
@@ -73,9 +72,9 @@ la,2
     sol8 la sol fa mi fa mi re |
     do2 do4 do |
     re4. mi8 fad!4 re |
-    \origVersion\footnoteGrob #'NoteHead #'(-1 . 1)
-    \markup \box 1 \markup {
-      \box 1 Philidor :
+    \myfootnote #'NoteHead #'(-1 . 1)
+    \markup {
+      Philidor :
       \vcenter\score {
         \new ChoirStaff <<
           \new Staff \new Voice = "basse" \with { autoBeaming = ##f } {

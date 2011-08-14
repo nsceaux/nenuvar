@@ -51,8 +51,8 @@ sib' ( sib' ) sib' ( do'' )|
 re'' ( re'' ) re'' ( re'' )|
 do'' ( sib' ) la' ( sol' )|
 fad' ( fad' ) fad' (
-\origVersion\footnoteGrob #'NoteHead #'(-0.5 . 4)
-\markup \box 3 \markup { \box 3 Philidor : sur la quatrième noire, un
+\myfootnote #'NoteHead #'(-0.5 . 4)
+\markup { Philidor : sur la quatrième noire, un
   \italic fa et un \italic sol sont indiqués.
   \vcenter\score {
     { \tinyQuote \key re \minor \time 2/2 \clef "dessus"

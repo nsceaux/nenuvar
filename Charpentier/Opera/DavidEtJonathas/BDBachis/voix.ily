@@ -9,11 +9,9 @@ R1 |
 r2 la4 la |
 re'2 re'4 re' |
 si2
-\origVersion {
-  \once\override FootnoteItem #'annotation-line = ##f
-  \footnoteGrob #'NoteHead #'(-1 . -4.5)
-  \markup \box 2 \markup\wordwrap {
-    \box 2 Ici le manuscrit Philidor est difficilement lisible :
+\myfootnoteNoLine #'NoteHead #'(-1 . -4.5)
+  \markup\wordwrap {
+    Ici le manuscrit Philidor est difficilement lisible :
     \italic { La Victoire en tous lieux à nos "[terres?]" affermie. }
     Livret : \italic { La Victoire partout à vos loix asservie. }
   }

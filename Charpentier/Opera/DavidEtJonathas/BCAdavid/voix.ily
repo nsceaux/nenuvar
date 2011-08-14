@@ -81,13 +81,8 @@ mi'2. |
   \tag #'david {
     R1.*2 |
     r2
-    \origVersion {
-      \once\override FootnoteItem #'annotation-line = ##f
-      \footnoteGrob #'NoteHead #'(-1 . -2)
-      \markup \box 1 \markup { \box 1 Livret : 
-        \italic { Toi qui m'as soutenu toûjours }
-      }
-    }
+    \myfootnoteNoLine #'NoteHead #'(-1 . -2)
+    \markup { Livret : \italic { Toi qui m'as soutenu toûjours } }
     dod'2. re'4 |
     mi'2 si4. si8 dod'4 re' |
     dod'1 la'4. la'8 |

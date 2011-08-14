@@ -17,12 +17,9 @@
   R2. |
   r4 r r8 mi |
   la4. si8 la
-  \origVersion {
-    \once\override FootnoteItem #'annotation-line = ##f
-    \footnoteGrob #'NoteHead #'(-2 . -1.5)
-    \markup \box 1 \markup { \box 1 Livret :
-      \italic { Et vous qu'il a vaincus }
-    }
+  \myfootnoteNoLine #'NoteHead #'(-2 . -1.5)
+  \markup { Livret :
+    \italic { Et vous qu'il a vaincus }
   }
   sol8 |
   fad2 r8 la |
@@ -33,13 +30,8 @@
   sol2 r4 si |
   dod'2 r8 dod' red' mi' |
   red'2. si8
-  \origVersion {
-    \once\override FootnoteItem #'annotation-line = ##f
-    \footnoteGrob #'NoteHead #'(-0.8 . -2.5)
-    \markup \box 2 \markup { \box 2 Livret :
-      \italic { le seul amour nous soumet à ses loix }
-    }
-  }
+  \myfootnote #'NoteHead #'(-0.8 . -2.5)
+  \markup { Livret : \italic { le seul amour nous soumet à ses loix } }
   si8 |
   mi'4. fad'8 red'2 |
   mi' r4 mi' |

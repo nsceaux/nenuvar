@@ -69,8 +69,8 @@ sol'2 r8 sol' la' si' do''4 mi'' |
 do'' sol' sol' sol' sol' sol' |
 sol' sol' sol'8 sol' la' si' do''4 do''8 si' |
 la'4 fad'8 sol' la'4 la' la' fad' |
-\origVersion\footnoteGrob #'NoteHead #'(1 . 3)
-\markup \box 1 \markup { \box 1 Philidor : 
+\myfootnote #'NoteHead #'(1 . 3)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key mi \minor \time 3/2 \clef "soprano"
       fad'4 fad' fad' fad'8 sol' la'4*2 |

@@ -21,12 +21,9 @@
     r4 lab8 sib do'4 do'8 re' |
     mib'4 mib' r2 |
     r2
-    \origVersion {
-      \once\override FootnoteItem #'annotation-line = ##f
-      \footnoteGrob #'NoteHead #'(-1 . -5.5)
-      \markup \box 1 \markup { \box 1 Livret : 
-        \italic { Ah ! que faut-il encor pour perdre un malheureux ? }
-      }
+    \myfootnoteNoLine #'NoteHead #'(-1 . -5.5)
+    \markup { Livret : 
+      \italic { Ah ! que faut-il encor pour perdre un malheureux ? }
     }
     re'2 ~|
     re'4 sol do'2 ~|
@@ -83,17 +80,14 @@ mib1 |
 >>
 r4 do8 do fa4 fa8. lab16 |
 mi4
-\origVersion {
-  \once\override FootnoteItem #'annotation-line = ##f
-  \footnoteGrob #'NoteHead #'(-1 . -3.5)
-  \markup \box 2 \markup { \box 2 Livret : 
-    \italic { David seul en secret espére me surprendre. }
-  }
+\myfootnoteNoLine #'NoteHead #'(-1 . -3.5)
+\markup { Livret : 
+  \italic { David seul en secret espére me surprendre. }
 } sol4. lab16 sib mi8 fa |
 fa fa r4 r8 fa fa16 fa fa sol |
 lab4 sol4. sol8
-\origVersion\footnoteGrob #'NoteHead #'(1 . 1)
-\markup \box 3 \markup { \box 3 Philidor : 
+\myfootnote #'NoteHead #'(1 . 1)
+\markup { Philidor : 
   \vcenter\score {
     \new Staff <<
       \new Voice = "saul" \with { autoBeaming = ##f } {
@@ -125,12 +119,9 @@ sol2 r |
     mib mib r |
     R4.*3 |
     r2 r4 
-    \origVersion {
-      \once\override FootnoteItem #'annotation-line = ##f
-      \footnoteGrob #'NoteHead #'(-1 . -2.5)
-      \markup \box 1 \markup { \box 1 Livret : 
-        \italic { Du moins, s'il faut perir, perissons noblement. }
-      }
+    \myfootnoteNoLine #'NoteHead #'(-1 . -2.5)
+    \markup { Livret : 
+      \italic { Du moins, s'il faut perir, perissons noblement. }
     } mib4 |
     sib sib lab4. sol8 fa2. fa8 fa |
     do'2 si4. do'8 |

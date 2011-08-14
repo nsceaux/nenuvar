@@ -495,3 +495,25 @@ characterAmbitus =
 #(define-markup-command (sline layout props args) (markup-list?)
    (interpret-markup layout props
                      (make-line-markup (cons (make-hspace-markup 4) args))))
+
+%%% Foot notes
+\paper {
+  footnote-auto-numbering = ##t
+  footnote-numbering-function =
+  #(lambda (num)
+     (markup #:small #:box (number->string (+ 1 num))))
+}
+myfootnote =
+#(define-music-function (parser location grob offset text)
+     (symbol? number-pair? markup?)
+   (if (eqv? #t (ly:get-option 'print-footnotes))
+       #{ \autoFootnoteGrob $grob $offset $text #}
+       (make-music 'Music 'void #t)))
+
+myfootnoteNoLine =
+#(define-music-function (parser location grob offset text)
+     (symbol? number-pair? markup?)
+   (if (not (symbol? (*part*)))
+       #{ \once\override FootnoteItem #'annotation-line = ##f
+          \myfootnote $grob $offset $text #}
+       (make-music 'Music 'void #t)))

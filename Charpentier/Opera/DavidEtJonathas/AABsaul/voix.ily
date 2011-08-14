@@ -73,8 +73,8 @@ R2. |
     sib sib r r2*3/4 |
     r8 fa sol la la sib |
     do' do
-    \origVersion\footnoteGrob #'NoteHead #'(-0.5 . 2.5)
-    \markup \box 1 \markup { \box 1 Philidor : \italic { doit maprendre mon sort } }
+    \myfootnote #'NoteHead #'(-0.5 . 2.5)
+    \markup { Philidor : \italic { doit maprendre mon sort } }
     re8 mib mib fa |
     sol4. r2*3/4|
     r8 re' do' sib do' re' |

@@ -80,8 +80,8 @@ la'4 r8 r2*3/4 |
 r r8 la' la' |
 si' si' si' do'' do'' re'' |
 do'' sol' do'' la' la' la' |
-\origVersion\footnoteGrob #'NoteHead #'(+0.5 . 2)
-\markup \box 3 \markup { \box 3 Philidor : pour les trois premières croches,
+\myfootnote #'NoteHead #'(+0.5 . 2)
+\markup { Philidor : pour les trois premières croches,
   des \italic si \raise #0.5 \smaller \flat et des \italic la sont notés,
   les uns semblant corriger les autres.
 }

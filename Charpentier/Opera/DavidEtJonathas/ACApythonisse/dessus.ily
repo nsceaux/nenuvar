@@ -1,6 +1,6 @@
 \clef "dessus" r8 fa''16 mib'' re'' mib'' re'' do'' sib' do'' re'' do'' sib' do'' sib' la' |
-\origVersion\footnoteGrob #'NoteHead #'(1 . -1)
-\markup \box 1 \markup { \box 1 Philidor : 
+\myfootnote #'NoteHead #'(1 . -1)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key re \minor \time 2/2 \clef "french"
       sol'16[ sol''16 fa'' mib''] fa''[ mib'' re'' do''] re''[ mib'' re'' do'' re'' do'' sib'16*2] |
@@ -112,8 +112,8 @@ R1. | %{%}
 re''2_"fort" r8 fad' sol' la' sib' la' sib' sol' |
 re''1 r8 re'' mi'' fad'' |
 sol''2 r8
-\origVersion\footnoteGrob #'NoteHead #'(1 . 2)
-\markup \box 1 \markup { \box 1 Philidor : 
+\myfootnote #'NoteHead #'(1 . 2)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key re \minor \time 3/2 \clef "french"
       sol''2 r8 fad''16*2[ sol'' la'' sib'' la'' sol'' la'']

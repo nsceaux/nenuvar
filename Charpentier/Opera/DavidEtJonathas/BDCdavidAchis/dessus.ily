@@ -142,8 +142,8 @@ mi''2 r |
 R1*2 |
 la''4 la'' la''8 si'' la'' sol'' |
 fad''4 fad'' si''8 la'' sol'' fad'' |
-\origVersion\footnoteGrob #'NoteHead #'(-1 . 2)
-\markup \box 1 \markup { \box 1 Philidor : 
+\myfootnote #'NoteHead #'(-1 . 2)
+\markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key re \major \time 2/2 \clef "french"
       mi''4*1/2 mi'' fad''8 sol'' mi''4. re''8 |

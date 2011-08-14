@@ -21,9 +21,9 @@ sol,2. fa,4 |
 mib,2 fa, |
 sol,1 |
 << \tag #'basse do2 \tag #'basse-continue do,2 >> %{%}
-\tag #'basse \origVersion\footnoteGrob #'NoteHead #'(-1 . 2.5)
-\markup \box 1 \markup { \box 1 Philidor :
-  à partir de ce point la partie de basses de violons n'est plus notée.
+\tag #'basse \myfootnote #'NoteHead #'(-1 . 2.5)
+\markup {
+  Philidor : à partir de ce point la partie de basses de violons n'est plus notée.
 }
 do4 re |
 mib1 |
@@ -63,8 +63,8 @@ sol2. sol4 |
 do'2 lab4 fa8 sol |
 do1 |
 do2 do'4 sib |
-\origVersion\footnoteGrob #'NoteHead #'(1 . 1)
-\markup \box 1 \markup { \box 1 Philidor :
+\myfootnote #'NoteHead #'(1 . 1)
+\markup { Philidor :
   la première noire n'est pas notée
   \vcenter\score {
     { \tinyQuote \key sib \major \time 2/2 \clef "bass"
@@ -136,8 +136,8 @@ do do' la |
 fa fa fa |
 sib, sib lab |
 sol sol sol |
-\origVersion\footnoteGrob #'NoteHead #'(-1 . 0)
-\markup \box 1 \markup\wordwrap { \box 1 Philidor :
+\myfootnote #'NoteHead #'(-1 . 0)
+\markup\wordwrap { Philidor :
   la partie de basse n'est pas notée pour le système couvrant les mesures 111 à 115.
   Les notes de petite taille sont une proposition.
 }

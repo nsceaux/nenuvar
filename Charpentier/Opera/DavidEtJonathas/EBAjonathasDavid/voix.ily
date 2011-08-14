@@ -118,8 +118,8 @@
     >>
     \tag #'basse \davidMark la4-\tag #'david ^\markup\character "David" |
     re'4. re'8 mi' fa' |
-    \origVersion\footnoteGrob #'NoteHead #'(1 . 2)
-    \markup \box 1 \markup { \box 1 Philidor : 
+    \myfootnote #'NoteHead #'(1 . 2)
+    \markup { Philidor : 
       \vcenter\score {
         <<
           { \tinyQuote \key la \minor \time 3/4 \clef "alto"
