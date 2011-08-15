@@ -1,4 +1,4 @@
-R1*3 | R2.*9 | R1*14 |
+\clef "dessus" R1*3 | R2.*9 | R1*14 |
 r2 r8 dod'' re'' mi'' |
 fad'' fad'' fad'' mi'' re'' re'' mi'' fad'' |
 sol'' sol'' sol'' fad'' mi'' mi'' mi'' re'' |
