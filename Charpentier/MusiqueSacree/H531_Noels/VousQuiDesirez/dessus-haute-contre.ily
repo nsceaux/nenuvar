@@ -135,7 +135,9 @@
     sol'' fa''2 |
     mi''4. fa''8 sol''4 |
     re'' re''2\prall |
-    re''2. |
+    \origVersion\autoFootnoteGrob #'NoteHead #'(0 . 3) \markup {
+      Dessus, mesure 60 : un \italic ré est indiqué.
+    } do''2. |
   }
   \setMusic #'Ehc { 
     si'2^\markup\mod-version\whiteout "Tous" si'4 |
