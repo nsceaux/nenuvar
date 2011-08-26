@@ -13,9 +13,9 @@
     si'4 r r la'8. si'16 |
     do''16[ re'' do'' re'' mi''8 re''16 do'']( si'8) si' si'4 |
     do'' r r fa''8. mi''16 |
-    re''16[ mi'' fa'' mi'' re'' mi'' re'' do'']( si'8) si' mi''8. mi''16\melisma |
-    la'8\melismaEnd la' re''4 si' si'8. si'16 |
-    mi''4( re''8)\prall do'' do''4. si'8 |
+    re''16[ mi'' fa'' mi'' re'' mi'' re'' do'']( si'8) si' mi''8. mi''16 |
+    la'8 la' re''4 si' si'8. si'16 |
+    mi''4( re''8)\prall do'' \slurDashed do''4.( si'8) | \slurSolid
     do''1 | %%
     R1*16 |
     si'4 si'8 si' do''4 do''8 do'' |
