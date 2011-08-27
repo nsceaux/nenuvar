@@ -829,13 +829,13 @@ Charpentier/MusiqueSacree/H36_43_O-dessus-sol1:
 # Dessus et hautes-contre
 Charpentier/MusiqueSacree/H36_43_O-dessus-haute-contre:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H36_43_O-dessus-haute-contre -dpart=dessus-haute-contre  \
+	-o $(OUTPUT_DIR)/H36_43_O-dessus-haute-contre -dpart=dessus-haute-contre -dviolon-iso-haute-contre \
 	Charpentier/MusiqueSacree/H36_43_O/part.ly
 .PHONY: Charpentier/MusiqueSacree/H36_43_O-dessus-haute-contre
 # Dessus et hautes-contre
 Charpentier/MusiqueSacree/H36_43_O-dessus-haute-contre-sol1:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H36_43_O-dessus-haute-contre-sol1 -dpart=dessus-haute-contre -ddessus-sol1 \
+	-o $(OUTPUT_DIR)/H36_43_O-dessus-haute-contre-sol1 -dpart=dessus-haute-contre -ddessus-sol1 -dviolon-iso-haute-contre \
 	Charpentier/MusiqueSacree/H36_43_O/part.ly
 .PHONY: Charpentier/MusiqueSacree/H36_43_O-dessus-haute-contre-sol1
 # Hautes-contre
@@ -989,13 +989,13 @@ Charpentier/MusiqueSacree/H531_Noels-dessus-sol1:
 # Dessus et hautes-contre
 Charpentier/MusiqueSacree/H531_Noels-dessus-haute-contre:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H531_Noels-dessus-haute-contre -dpart=dessus-haute-contre  \
+	-o $(OUTPUT_DIR)/H531_Noels-dessus-haute-contre -dpart=dessus-haute-contre -dviolon-iso-haute-contre \
 	Charpentier/MusiqueSacree/H531_Noels/part.ly
 .PHONY: Charpentier/MusiqueSacree/H531_Noels-dessus-haute-contre
 # Dessus et hautes-contre
 Charpentier/MusiqueSacree/H531_Noels-dessus-haute-contre-sol1:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H531_Noels-dessus-haute-contre-sol1 -dpart=dessus-haute-contre -ddessus-sol1 \
+	-o $(OUTPUT_DIR)/H531_Noels-dessus-haute-contre-sol1 -dpart=dessus-haute-contre -ddessus-sol1 -dviolon-iso-haute-contre \
 	Charpentier/MusiqueSacree/H531_Noels/part.ly
 .PHONY: Charpentier/MusiqueSacree/H531_Noels-dessus-haute-contre-sol1
 # Hautes-contre
@@ -1187,13 +1187,13 @@ Charpentier/MusiqueSacree/AntiennesNoels-dessus-sol1:
 # Dessus et hautes-contre
 Charpentier/MusiqueSacree/AntiennesNoels-dessus-haute-contre:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/AntiennesNoels-dessus-haute-contre -dpart=dessus-haute-contre  \
+	-o $(OUTPUT_DIR)/AntiennesNoels-dessus-haute-contre -dpart=dessus-haute-contre -dviolon-iso-haute-contre \
 	Charpentier/MusiqueSacree/AntiennesNoels/part.ly
 .PHONY: Charpentier/MusiqueSacree/AntiennesNoels-dessus-haute-contre
 # Dessus et hautes-contre
 Charpentier/MusiqueSacree/AntiennesNoels-dessus-haute-contre-sol1:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/AntiennesNoels-dessus-haute-contre-sol1 -dpart=dessus-haute-contre -ddessus-sol1 \
+	-o $(OUTPUT_DIR)/AntiennesNoels-dessus-haute-contre-sol1 -dpart=dessus-haute-contre -ddessus-sol1 -dviolon-iso-haute-contre \
 	Charpentier/MusiqueSacree/AntiennesNoels/part.ly
 .PHONY: Charpentier/MusiqueSacree/AntiennesNoels-dessus-haute-contre-sol1
 # Hautes-contre

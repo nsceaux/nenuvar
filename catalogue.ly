@@ -159,10 +159,11 @@
                              #:options "-dviolon-iso-haute-contre"))
         #:parts ((dessus "Dessus")
                  (dessus-sol1 "Dessus" #:part dessus #:options "-ddessus-sol1")
-                 (dessus-haute-contre "Dessus et hautes-contre")
+                 (dessus-haute-contre "Dessus et hautes-contre"
+                                      #:options "-dviolon-iso-haute-contre")
                  (dessus-haute-contre-sol1 "Dessus et hautes-contre"
                                            #:part dessus-haute-contre
-                                           #:options "-ddessus-sol1")
+                                           #:options "-ddessus-sol1 -dviolon-iso-haute-contre")
                  (haute-contre "Hautes-contre")
                  (taille "Tailles")
                  (basse "Basses et basse continue")))
@@ -189,10 +190,11 @@
                              #:options "-dviolon-iso-haute-contre"))
         #:parts ((dessus "Dessus")
                  (dessus-sol1 "Dessus" #:part dessus #:options "-ddessus-sol1")
-                 (dessus-haute-contre "Dessus et hautes-contre")
+                 (dessus-haute-contre "Dessus et hautes-contre"
+                                      #:options "-dviolon-iso-haute-contre")
                  (dessus-haute-contre-sol1 "Dessus et hautes-contre"
                                            #:part dessus-haute-contre
-                                           #:options "-ddessus-sol1")
+                                           #:options "-ddessus-sol1 -dviolon-iso-haute-contre")
                  (haute-contre "Hautes-contre")
                  (taille "Tailles")
                  (basse "Basses et basse continue")))
@@ -245,9 +247,11 @@ O Emmanuel")
                                   #:options "-dviolon-iso-haute-contre -ddessus-sol1"))
         #:parts ((dessus "Dessus")
                  (dessus-sol1 "Dessus" #:part dessus #:options "-ddessus-sol1")
-                 (dessus-haute-contre "Dessus et hautes-contre")
+                 (dessus-haute-contre "Dessus et hautes-contre"
+                                      #:options "-dviolon-iso-haute-contre")
                  (dessus-haute-contre-sol1 "Dessus et hautes-contre"
-                                            #:part dessus-haute-contre #:options "-ddessus-sol1")
+                                           #:part dessus-haute-contre
+                                           #:options "-ddessus-sol1 -dviolon-iso-haute-contre")
                  (haute-contre "Hautes-contre")
                  (taille "Tailles")
                  (basse "Basses et basse continue")))
