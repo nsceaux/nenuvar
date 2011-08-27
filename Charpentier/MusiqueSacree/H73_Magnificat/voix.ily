@@ -54,8 +54,8 @@
     R2. |
     r4 r4 fa'4 |
     fa'4. sol'8 mi'4 |
-    \origVersion\footnoteGrob #'NoteHead #'(-0.5 . 1) \markup a.
-    \markup { a. Haute-contre, mesures 158 à 160 : texte manquant sur trois mesures }
+    \origVersion\autoFootnoteGrob #'NoteHead #'(-0.5 . 1)
+    \markup { Haute-contre, mesures 158 à 160 : texte manquant sur trois mesures }
     la'4 la'4. la'8 |
     sol'[ la'16 sib'] sol'2\prall |
     fa'2. |
@@ -101,8 +101,8 @@
     re'4 re' mib' |
     la4. la8 re'4~ |
     re'8[ do' si8. re'16 do'16
-    \origVersion\footnoteGrob #'AccidentalCautionary #'(0 . 3.5) \markup a.
-    \markup { a. Haute-contre, mesure 259 : altération non explicitée }
+    \origVersion\autoFootnoteGrob #'AccidentalCautionary #'(0 . 3.5)
+    \markup { Haute-contre, mesure 259 : altération non explicitée }
     sib?8\prall la16] | %% check
     sib4( la2)\prall |
     sol2. |
@@ -334,8 +334,8 @@
         sib2 do'4 |
         re'4. re'8 re'4 |
         r4 re' \tieDashed
-        \origVersion \footnoteGrob #'NoteHead #'(0.7 . 2) \markup b. \markup {
-          b. Haute-contre mesure 321 : pas de liaison sur le manuscrit }
+        \origVersion\autoFootnoteGrob #'NoteHead #'(0.7 . 2)
+        \markup { Haute-contre mesure 321 : pas de liaison sur le manuscrit }
         mib' ~ | %% tie ?
         mib'2 \tieSolid re'4~ |
         re'4 sol'2 |
@@ -500,8 +500,8 @@
         re2 re4 |
         sol4. la8 sib4 |
         fa4. fa8 fa sol |
-        \origVersion\footnoteGrob #'AccidentalCautionary #'(0 . 1)
-        \markup a. \markup { a. Basse, mesure 311 : altération manquante. }
+        \origVersion\autoFootnoteGrob #'AccidentalCautionary #'(0 . 1)
+        \markup { Basse, mesure 311 : altération manquante. }
         mib?4. re8 do4 | %%  premier temps : mi bémol à la basse continue
         re2. |
         sol, |

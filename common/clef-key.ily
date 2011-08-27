@@ -124,6 +124,9 @@ staffStart =
                         (valto  alto . treble)
                         ))
 
+#(define (modern-clef tessitura)
+   (cddr (assoc tessitura french-clefs)))
+
 #(define (set-modern-clef! tessitura clef)
    (set-cdr! (assoc tessitura french-clefs)
              (cons (cadr (assoc tessitura french-clefs))

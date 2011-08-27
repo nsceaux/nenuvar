@@ -153,10 +153,9 @@
         #:opus "H.36-43"
         #:key "Charpentier/MusiqueSacree/H36_43_O"
         #:main ((urtext "Version urtext" #:score-file "urtext.ly")
-                (#f "Version de concert")
-                (bis
-                 "Version de concert, violon au lieu de haute-contre"
-                 #:options "-dviolon-iso-haute-contre"))
+                (conducteur5 "Version de concert")
+                (conducteur4 "Version de concert, violon au lieu de haute-contre"
+                             #:options "-dviolon-iso-haute-contre"))
         #:parts ((dessus "Dessus")
                  (dessus-haute-contre "Dessus et hautes-contre")
                  (haute-contre "Hautes-contre")
@@ -167,7 +166,8 @@
         #:opus "H.314"
         #:key "Charpentier/MusiqueSacree/H314_InNativitatem"
         #:main ((urtext "Version urtext" #:score-file "urtext.ly")
-                (#f "Version de concert"))
+                (conducteur "Version de concert")
+                (conducteur-sol1 "Version de concert (dessus sol1)" #:options "-dviolon-sol1"))
         #:parts ((dessus "Flûtes et violons")
                  (basse "Basse continue")))
        ("Noël sur les instruments"
@@ -178,10 +178,9 @@
         #:opus "H.531"
         #:key "Charpentier/MusiqueSacree/H531_Noels"
         #:main ((urtext "Version urtext" #:score-file "urtext.ly")
-                (#f "Version de concert")
-                (bis
-                 "Version de concert, violon au lieu de haute-contre"
-                 #:options "-dviolon-iso-haute-contre"))
+                (conducteur5 "Version de concert")
+                (conducteur4 "Version de concert, violon au lieu de haute-contre"
+                             #:options "-dviolon-iso-haute-contre"))
         #:parts ((dessus "Dessus")
                  (dessus-haute-contre "Dessus et hautes-contre")
                  (haute-contre "Hautes-contre")
@@ -198,10 +197,9 @@
         #:opus "H.534"
         #:key "Charpentier/MusiqueSacree/H534_Noels"
         #:main ((urtext "Version urtext" #:score-file "urtext.ly")
-                (#f "Version de concert")
-                (bis
-                 "Version de concert, violon au lieu de haute-contre"
-                 #:options "-dviolon-iso-haute-contre"))
+                (conducteur5 "Version de concert")
+                (conducteur4 "Version de concert, violon au lieu de haute-contre"
+                             #:options "-dviolon-iso-haute-contre"))
         #:parts ((dessus "Dessus")
                  (dessus-haute-contre "Dessus et hautes-contre")
                  (haute-contre "Hautes-contre")
@@ -226,9 +224,11 @@ O Emmanuel")
         #:opus "H.36-43, H.531, H.534"
         #:key "Charpentier/MusiqueSacree/AntiennesNoels"
         #:main ((urtext "Version urtext" #:score-file "urtext")
-                (#f "Version de concert")
-                (bis "Version de concert, violon au lieu de haute-contre"
-                 #:options "-dviolon-iso-haute-contre"))
+                (conducteur5 "Version de concert")
+                (conducteur4 "Version de concert, violon au lieu de haute-contre"
+                             #:options "-dviolon-iso-haute-contre")
+                (conducteur4-sol1 "Version de concert, violon au lieu de haute-contre, en clé sol1"
+                                  #:options "-dviolon-iso-haute-contre -dviolon-sol1"))
         #:parts ((dessus "Dessus")
                  (dessus-haute-contre "Dessus et hautes-contre")
                  (haute-contre "Hautes-contre")

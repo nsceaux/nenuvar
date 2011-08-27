@@ -85,7 +85,7 @@
   \context {
     \Voice
     \override FootnoteItem #'annotation-line = ##f
-    \override FootnoteItem #'color = #red
+    %\override FootnoteItem #'color = #red
     \override NoteHead #'style = #'baroque
   }
   \context {
@@ -186,10 +186,10 @@ trill = #(make-articulation "stopped")
           (#:notes "basse" #:clef "basse"
                    #:score-template "score-basse-continue2")))
 
-#(if (memq (ly:get-option 'part) '(dessus dessus-haute-contre))
-     (begin
-       (set-modern-clef! 'dessus 'treble)
-       (set-modern-clef! 'haute-contre 'treble)))
+%% Clés des dessus dans le conducteur
+#(if (eqv? (ly:get-option 'violon-sol1) #t)
+     (set-modern-clef! 'dessus 'french)
+     (set-modern-clef! 'dessus 'treble))
 
 #(if (eqv? (ly:get-option 'violon-iso-haute-contre) #t)
-     (set-modern-clef! 'haute-contre 'treble))
+     (set-modern-clef! 'haute-contre (modern-clef 'dessus)))
