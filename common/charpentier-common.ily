@@ -174,9 +174,15 @@ trill = #(make-articulation "stopped")
 
 \opusPartSpecs
 #`((dessus "Dessus" ()
-           (#:score "score-dessus" #:notes "dessus" #:clef "french"))
+           (#:score "score-dessus" #:notes "dessus"
+                    #:clef ,(if (eqv? (ly:get-option 'violon-sol1) #t)
+                                "french"
+                                "treble")))
    (dessus-haute-contre "Dessus et hautes-contre" ()
-                        (#:score "score-dessus-haute-contre" #:clef "french"))
+                        (#:score "score-dessus-haute-contre"
+                                 #:clef ,(if (eqv? (ly:get-option 'violon-sol1) #t)
+                                             "french"
+                                             "treble")))
    (haute-contre "Hautes-contre" ()
                  (#:notes "haute-contre"
                   #:tag-notes haute-contre
@@ -187,7 +193,7 @@ trill = #(make-articulation "stopped")
                    #:score-template "score-basse-continue2")))
 
 %% Clés des dessus dans le conducteur
-#(if (eqv? (ly:get-option 'violon-sol1) #t)
+#(if (eqv? (ly:get-option 'dessus-sol1) #t)
      (set-modern-clef! 'dessus 'french)
      (set-modern-clef! 'dessus 'treble))
 

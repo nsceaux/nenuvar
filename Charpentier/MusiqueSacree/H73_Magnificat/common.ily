@@ -18,9 +18,3 @@
    (basse "Basse continue" ()
           (#:notes "basse" #:clef "basse"
                    #:score-template "score-basse-continue-voix2")))
-
-%% Clés dans les parties séparées
-%%  violons --> sol1
-
-#(if (eqv? (ly:get-option 'part) 'dessus)
-     (set-modern-clef! 'dessus 'french))

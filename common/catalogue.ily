@@ -123,7 +123,7 @@
 %%% Makefile generation
 %%%
 
-#(define* (print-makefile-score is-part key name title #:key score-file options)
+#(define* (print-makefile-score is-part key name title #:key score-file options part)
    (let ((target (format #f "~a~a"
                          key
                          (if name (format #f "-~a" name) "")))
@@ -132,7 +132,7 @@
                            (if name (format #f "-~a" name) "")))
          (all-options (cond (is-part
                              (format #f "-dpart=~a ~a"
-                                     name (or options "")))
+                                     (or part name) (or options "")))
                             (options options)
                             (else "")))
          (ly-file (format #f "~a/~a"
