@@ -175,12 +175,12 @@ trill = #(make-articulation "stopped")
 \opusPartSpecs
 #`((dessus "Dessus" ()
            (#:score "score-dessus" #:notes "dessus"
-                    #:clef ,(if (eqv? (ly:get-option 'violon-sol1) #t)
+                    #:clef ,(if (eqv? (ly:get-option 'dessus-sol1) #t)
                                 "french"
                                 "treble")))
    (dessus-haute-contre "Dessus et hautes-contre" ()
                         (#:score "score-dessus-haute-contre"
-                                 #:clef ,(if (eqv? (ly:get-option 'violon-sol1) #t)
+                                 #:clef ,(if (eqv? (ly:get-option 'dessus-sol1) #t)
                                              "french"
                                              "treble")))
    (haute-contre "Hautes-contre" ()

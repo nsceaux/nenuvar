@@ -15,6 +15,7 @@
 \sceneDescription \markup \wordwrap-center \smallCaps { David. }
 \pieceTocTitle "Prélude"
 \includeScore "EAAprelude"
+\newBookPart #'(basse)
 \pieceToc \markup { David : \italic { Souverain juge des mortels } }
 \includeScore "EABdavid"
 

@@ -55,19 +55,30 @@
 \setOpus "Charpentier/Opera/DavidEtJonathas"
 \opusTitle "David et Jonathas"
 
-\opusPartSpecs #`((dessus "Dessus" () (#:notes "dessus"))
-                  (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
-                  (taille "Taille" () (#:notes "taille" #:clef "alto"))
-                  (basse "Basses" () (#:notes "basse" #:clef "bass" #:tag-notes basse))
-                  (basse-continue "Basse continue" ()
-                                  (
-                                   #:notes "basse" #:clef "bass"
-                                   #:tag-notes basse-continue
-                                   #:score-template "score-basse-continue2")))
+\opusPartSpecs
+#`((dessus "Dessus" ()
+           (#:notes "dessus"
+                    #:clef ,(if (eqv? (ly:get-option 'dessus-sol1) #t)
+                                "french"
+                                "treble")))
+   (haute-contre "Haute-contre" ()
+                 (#:notes "haute-contre" #:clef "alto"))
+   (taille "Taille" ()
+           (#:notes "taille" #:clef "alto"))
+   (basse "Basses" ()
+          (#:notes "basse" #:clef "bass" #:tag-notes basse))
+   (basse-continue "Basse continue" ()
+                   (#:notes "basse" #:clef "bass"
+                            #:tag-notes basse-continue
+                            #:score-template "score-basse-continue2")))
 
-%% Ut-3 clef for haute-contres
-#(set-cdr! (assoc 'haute-contre french-clefs)
-          '(soprano . alto))
+%% Clés des hautes-contre de violons
+#(set-modern-clef! 'haute-contre 'alto)
+
+%% Clés des dessus
+#(if (eqv? (ly:get-option 'dessus-sol1) #t)
+     (set-modern-clef! 'dessus 'french)
+     (set-modern-clef! 'dessus 'treble))
 
 %% For better looking two-column TOC
 scene =

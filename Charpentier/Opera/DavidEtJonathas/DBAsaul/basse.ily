@@ -157,7 +157,7 @@ sib sib sol |
 do' lab sib |
 mib2. %{%}
 <<
-  \tag #'basse { r4 | R1*3 | r4 }
+  \tag #'basse { r4 | R1*3 |\allowPageTurn r4 }
   \tag #'basse-continue {
     mib4 |
     sib sib lab4. sol8 |
