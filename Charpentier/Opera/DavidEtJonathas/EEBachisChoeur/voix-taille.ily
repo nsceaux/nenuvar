@@ -1,5 +1,5 @@
-R1*29 |
-r2 r8 la si dod' |
+\clef "vtaille" R1*29 |
+r2 r8^"[avec Joadab]" la si dod' |
 re'1 |
 r8 mi' sol' mi' re'4. re'8 |
 re' dod' fad' mi' re'2 ~|
@@ -30,7 +30,7 @@ r8 re' re' dod' si la la sold |
 la4. la8 la si dod' la |
 mi'4 re'8 dod' re'4 dod'8 si |
 dod' dod' si la si4 si8 dod' |
-re'4 re'8 mi' fad' mi' re' do' |
+re'4 re'8 mi' fad' mi' re' do'? |
 si4. si8 si si si si |
 si4 si dod' dod' |
 fad' mi'8 re' dod'4. fad'8 |

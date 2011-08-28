@@ -41,9 +41,9 @@
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Achis, Joadab, } troupes etc.
 }
-\pieceToc \markup { Joadab : \italic { Enfin vous m'écoutez, Seigneur } }
+\pieceToc \markup { Joadab : \italic { Enfin vous m'écoutez } }
 \includeScore "EEAjoadab"
-\pieceToc \markup { Achis, chœur : \italic { Courons, courons : cherchons dans les combats } }
+\pieceToc \markup { Achis, chœur : \italic { Courons, courons } }
 \includeScore "EEBachisChoeur"
 \pieceTocTitle "Rigaudon"
 \includeScore "EECrigaudon"

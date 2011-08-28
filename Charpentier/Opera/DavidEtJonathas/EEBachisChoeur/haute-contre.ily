@@ -1,4 +1,4 @@
-R1*29 |
+\clef "haute-contre" R1*29 |
 r2 r8 la' si' dod'' |
 re''1 |
 r8 la' sol' la' fad' re' mi' fad' |
@@ -6,7 +6,7 @@ sol' mi' fad' sol' la' fad' sol' la' |
 re' re' mi' fad' sol' la' si' la'16 sol' |
 fad'8 fad' fad' fad' si' si' si' la' |
 sold'2 r8 sold' la' si' |
-la'4. sold'8 la' mi' fad' sol' |
+la'4. sold'8 la' mi' fad' sold' |
 la' la' la' sol' fad' fad' fad' mi' |
 re' re' si si mi'2 ~|
 mi'8 dod' re' mi' fad' fad' mi' mi' |

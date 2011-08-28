@@ -2,41 +2,44 @@
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new GrandStaff <<
-        \newHaraKiriStaff << \global \clef "dessus"
-                             { \includeNotes "dessus-a1"
-                               \includeNotes "dessus-b"
-                               \includeNotes "dessus-c"
-                               \includeNotes "dessus-d1"
-                               \includeNotes "dessus-e" } >>
-        \newHaraKiriStaff << \global \clef "dessus"
-                              { \includeNotes "dessus-a2" \break
-                                s1 s1*40 \break
-                                \includeNotes "dessus-d2" \break } >>
+        \new Staff <<
+          \modVersion { s1*29\break }
+          \global \keepWithTag #'dessus1 \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiri } <<
+          \global \keepWithTag #'dessus2 \includeNotes "dessus"
+        >>
       >>
-      \newHaraKiriStaffB << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaffB << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
+      \new Staff \with { \haraKiriFirst } <<
+        { s1*29 \noHaraKiri s1*42 \revertNoHaraKiri s1*6 \noHaraKiri }
+        \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiriFirst } <<
+        { s1*29 \noHaraKiri s1*42 \revertNoHaraKiri s1*6 \noHaraKiri }
+        \global \includeNotes "taille" >>
     >>
     \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles1"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vtaille" \includeNotes "voix-taille"
-      >> \includeLyrics "paroles3"
-      \newHaraKiriStaff \withLyrics <<
-        \characterName \markup Achis 
-        \global \clef "vbasse" \includeNotes "achis"
-      >> \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s1*29 \noHaraKiri s1*42 \revertNoHaraKiri s1*6 \noHaraKiri }
+        \global \includeNotes "voix-dessus"
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s1*29 \noHaraKiri s1*42 \revertNoHaraKiri s1*6 \noHaraKiri }
+        \global \includeNotes "voix-haute-contre"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s1*29 \noHaraKiri s1*42 \revertNoHaraKiri s1*6 \noHaraKiri }
+        \global \includeNotes "voix-taille"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
+      \new Staff \withLyrics <<
+        %% Achis + Basses
+        \global \includeNotes "voix"
+      >> \keepWithTag #'(achis vbasse) \includeLyrics "paroles"
     >>
     \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
-      \includeFigures "chiffres"
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres"
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

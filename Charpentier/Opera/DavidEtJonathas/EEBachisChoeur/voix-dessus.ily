@@ -1,5 +1,5 @@
-R1*29 |
-r2 r8 dod'' re'' mi'' |
+\clef "vdessus" R1*29 |
+r2^\markup\character "Chœur" r8 dod'' re'' mi'' |
 fad''4. mi''8 re'' fad'' mi'' re'' |
 dod'' dod'' re'' mi'' la' fad' sol' la' |
 si' dod'' re'' mi'' fad'' mi'' re'' dod'' |
