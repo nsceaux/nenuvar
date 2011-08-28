@@ -7,9 +7,10 @@ mi re la la, |
 re2. re'4 |
 fad fad sol re |
 \myfootnote #'NoteHead #'(1 . -1)
-\markup\justify { Philidor : hormis le premier
-  \italic { sol, } la basse continue n'est pas notée sur ce système
-  (mesures 9 à 12). C'est également le cas pour les mesures 25 à 28.
+\markup\justify {
+  Philidor : hormis le premier \italic sol, la basse continue
+  n'est pas notée sur ce système (mesures 9 à 12). C'est également le
+  cas pour les mesures 25 à 28.
 }
 sol,2 la4 la |
 re'2 re'4 re' |
