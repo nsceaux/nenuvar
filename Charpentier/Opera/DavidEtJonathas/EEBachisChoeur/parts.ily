@@ -2,4 +2,5 @@
                    (haute-contre)
                    (taille)
                    (basse)
-                   (basse-continue))
+                   (basse-continue)
+                   (silence #:score "score-silence"))

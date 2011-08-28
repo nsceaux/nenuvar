@@ -6,7 +6,7 @@ fad'' mi''8 fad'' re'' mi'' fad'' sol'' |
 la''4 sol''8 fad'' la'' sol'' fad'' mi'' |
 fad''4 mi''8 fad'' re'' mi'' fad'' sol'' |
 la''4 la' re''4. mi''8 |
-dod''2. la''4 |
+dod''2. la''4^\markup\orig-version\musicglyph #"scripts.segno" |
 sol''2 fad'' |
 mi''2. fad''4 |
 si' dod'' re'' mi''8 re'' |

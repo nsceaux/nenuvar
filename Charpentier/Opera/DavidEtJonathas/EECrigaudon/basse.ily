@@ -6,7 +6,7 @@ re2. re4 |
 dod re sol, la, |
 re,2. re4 |
 dod2 si, |
-la,2. fad,4 |
+la,2. fad,4^\markup\orig-version\musicglyph #"scripts.segno" |
 sol,8 la, si, dod re4 sol, |
 la,2 la4 fad |
 sol la si sol |

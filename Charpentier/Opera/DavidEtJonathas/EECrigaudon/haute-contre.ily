@@ -18,4 +18,4 @@ dod''2 la'4 la' |
 sol'2 fad'4 sol'8 fad' |
 mi'4 mi' fad' fad' |
 si'2 la' |
-<fad' la'>2.
+<<la'2. \\ fad'>>
