@@ -1,4 +1,4 @@
-la'4 |
+\clef "dessus" la'4 |
 si'2 dod'' |
 re'' ~ re''8 mi'' fad'' sol'' |
 la''4 fad'' sol'' mi'' |

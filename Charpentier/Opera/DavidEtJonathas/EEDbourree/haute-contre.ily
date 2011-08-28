@@ -1,4 +1,4 @@
-re''4 |
+\clef "haute-contre" re''4 |
 re'' la' si' la' |
 la' sol'8 la' fad'4 la' |
 sol' si' la' sold' |
@@ -19,4 +19,4 @@ la'2 mi'4 fad'8 fad' |
 fad'4 fad' si' si'8 si' |
 la'2. la'8 la' |
 si'4 si' la'4. la'8 |
-<fad' la'>2.
+<<la'2. \\ fad'>>

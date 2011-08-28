@@ -1,4 +1,4 @@
-fad' |
+\clef "haute-contre" fad' |
 sol'2. la'4 |
 la'2. la'4 |
 la' la' si' la' |

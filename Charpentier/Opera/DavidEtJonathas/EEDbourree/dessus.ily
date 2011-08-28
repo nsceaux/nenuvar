@@ -1,4 +1,4 @@
-la''8 sol'' |
+\clef "dessus" la''8 sol'' |
 fad''4 re'' mi'' dod'' |
 re'' dod''8 si' la'4 re''8 dod'' |
 si'4 mi'' dod'' re'' |
@@ -6,7 +6,7 @@ mi''8 re'' mi'' fad'' mi''4 la''8 sol'' |
 fad''4 mi''8 re'' mi''4 re''8 dod'' |
 re''4 dod''8 si' la'4 re''8 dod'' |
 si' mi'' re'' mi'' dod''4 re'' |
-mi''2. la''8 sol'' |
+mi''2. << \origVersion s4 \modVersion { la''8 sol'' } >> |
 mi''2. mi''8 fad'' |
 sol''4 la'' si'' la''8 sol'' |
 fad''4 mi''8 fad'' re''4 sol'' |

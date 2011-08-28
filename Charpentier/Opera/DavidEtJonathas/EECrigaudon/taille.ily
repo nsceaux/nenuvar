@@ -1,4 +1,4 @@
-re'4 |
+\clef "taille" re'4 |
 re'2 mi' |
 fad'2. fad'4 |
 mi' re' re' dod' |
