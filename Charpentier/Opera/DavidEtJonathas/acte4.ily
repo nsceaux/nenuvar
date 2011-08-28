@@ -18,6 +18,7 @@
 \pieceToc \markup { David : \italic { Souverain juge des mortels } }
 \includeScore "EABdavid"
 
+\newBookPart #'(full-rehearsal)
 \scene "Scène Seconde" "Scène 2 : Jonathas, David"
 \sceneDescription \markup \wordwrap-center \smallCaps { Jonathas, David. }
 \pieceToc \markup { Jonathas, David : \italic { Vous me fuiez ! } }
@@ -30,6 +31,7 @@
 \pieceToc \markup { Jonathas, chœur : \italic {  A-t-on jamais souffert } }
 \includeScore "ECAjonathasChoeur"
 
+\newBookPart #'(full-rehearsal)
 \scene "Scène IV" "Scène 4 : Saül, Achis"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Saül, Achis, Jonathas, Joadab, } troupes d'Israélites et de Philistins.
@@ -45,6 +47,7 @@
 \includeScore "EEAjoadab"
 \pieceToc \markup { Achis, chœur : \italic { Courons, courons } }
 \includeScore "EEBachisChoeur"
+\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Rigaudon"
 \includeScore "EECrigaudon"
 \pieceTocTitle "Bourrée"
