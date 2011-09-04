@@ -1,4 +1,4 @@
-sol''8. sol''16 mi''8. mi''16 do''8. do''16 sol'8. sol'16 |
+\clef "dessus" sol''8. sol''16 mi''8. mi''16 do''8. do''16 sol'8. sol'16 |
 do''8 do''16 re'' mi''8 mi''16 re'' do''8 mi''16 re'' do'' re'' mi'' fa'' |
 sol''1 ~|
 sol'' |

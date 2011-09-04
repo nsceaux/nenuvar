@@ -1,4 +1,4 @@
-R1*2 |
+\clef "taille" R1*2 |
 r2 sol'8. sol'16 mi'8. mi'16 |
 re'4 re' re' re' |
 mi' sol'8. sol'16 la'8. la'16 la'8. la'16 |

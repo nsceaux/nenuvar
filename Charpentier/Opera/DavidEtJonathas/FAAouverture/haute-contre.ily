@@ -1,8 +1,8 @@
-R1*2 |
+\clef "haute-contre" R1*2 |
 r2 r4 do''8. do''16 |
 si'8 si'16 do'' re''8 re''16 do'' si'8 re''16 do'' si' do'' re'' si' |
 do''4 do''8. do''16 do''8. do''16 do''8. do''16 |
-sib'8. sib'16 re''8. re''16 do''8. re''16 mib''8. mib''16 |
+sib'?8. sib'16 re''8. re''16 do''8. re''16 mib''8. mib''16 |
 re''4 si'8. si'16 mi''4 dod''8. dod''16 |
 dod''4 re'' re'' mi'' |
 do''8. do''16 re''4. si'8 do''4 ~|

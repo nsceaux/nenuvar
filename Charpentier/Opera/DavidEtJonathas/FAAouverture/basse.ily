@@ -1,4 +1,4 @@
-R1*2 |
+\clef "basse" R1*2 |
 do'8. do'16 sol8. sol16 mi8. mi16 do8. do16 |
 sol8 sol16 la si8 si16 la sol8 si16 la sol la si sol |
 do'4 do8. do16 la,8. la,16 la,8. la,16 |
@@ -12,7 +12,7 @@ fa8 la16 sol la sol fa mi re8 sol16 fa sol fa mi re |
 do8 do'16 si la la sol fa mi8. fa16 sol8. sol,16 |
 do4 do do do |
 do1 |
-R4. |
+r4 r8 |
 sol8 sol sol |
 do' do' do' |
 la4. |
