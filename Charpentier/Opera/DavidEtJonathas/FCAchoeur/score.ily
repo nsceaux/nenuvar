@@ -1,31 +1,30 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \new Staff << \global \clef "dessus" \includeNotes "dessus" >>
-      \new Staff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \new Staff << \global \clef "taille" \includeNotes "taille" >>
-      \new Staff << \global \clef "basse" \includeNotes "basse" >>
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
     >>
     \new ChoirStaff <<
       \new Staff \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles1"
+        \global \includeNotes "voix-dessus"
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
       \new Staff \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles2"
+        \global \includeNotes "voix-haute-contre"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
       \new Staff \withLyrics <<
-        \global \clef "vtaille" \includeNotes "voix-taille"
-      >> \includeLyrics "paroles3"
+        \global \includeNotes "voix-taille"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
       \new Staff \withLyrics <<
-        \global \clef "vbasse" \includeNotes "voix-basse"
-      >> \includeLyrics "paroles4"
+        \global \includeNotes "voix-basse"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "david"
-    >> \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \global \keepWithTag #'david \includeNotes "voix"
+    >> \keepWithTag #'david \includeLyrics "paroles"
     \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
-      \includeFigures "chiffres"
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres"
     >>
   >>
   \layout { }
