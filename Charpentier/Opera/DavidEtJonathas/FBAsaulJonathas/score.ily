@@ -1,29 +1,32 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
+    \new GrandStaff <<
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "dessus1" >>
+      \new Staff \with { \haraKiriFirst } << \global \includeNotes "dessus2" >>
     >>
     \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vtaille" \includeNotes "voix-taille"
-      >> \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vbasse" \includeNotes "voix-basse"
-      >> \includeLyrics "paroles2"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \includeNotes "voix-dessus"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \includeNotes "voix-haute-contre"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \includeNotes "voix-taille"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \includeNotes "voix-basse"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
     >>
-    \new Staff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "saul-jonathas"
-    >> \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \global \keepWithTag #'jonathas \includeNotes "voix"
+    >> \keepWithTag #'jonathas \includeLyrics "paroles"
+    \new Staff \with { \haraKiri } \withLyrics <<
+      \global \keepWithTag #'saul \includeNotes "voix"
+    >> \keepWithTag #'saul \includeLyrics "paroles"
     \new Staff <<
-      \global \clef "basse" \includeNotes "basse"
-      \includeFigures "chiffres"
+      \global \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres"
     >>
   >>
   \layout { }

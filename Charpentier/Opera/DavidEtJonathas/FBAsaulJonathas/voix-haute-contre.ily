@@ -1,7 +1,7 @@
-R1*8 |
+\clef "vhaute-contre" R1*8 |
 r1 r4 re'4 |
-mi'1 ~ mi'4 re' |
-re'1. |
+mib'1 ~ mib'4 re' |
+re'1.*2/3 |
 R1*9 |
 r1 r4 fa' |
 fa'1 ~ fa'4. mi'8 |
@@ -13,11 +13,11 @@ R2.*20 |
 R1*3 |
 R1*12 |
 R1*8 |
-r1 r4 re' |
+r2 r r4 re' |
 mib'1 ~ mib'4 re' |
 re'1. |
 R1*2 |
-r1 r4 sol' |
+r2 r r4 sol' |
 lab'1 ~ lab'4 sol' |
 sol'1. |
 R1*10 |

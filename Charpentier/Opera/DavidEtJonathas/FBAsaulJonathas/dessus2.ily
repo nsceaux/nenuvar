@@ -1,10 +1,10 @@
-R1*8 |
-R1.*3 |
-R1*9 |
+\clef "dessus" R1*8 |
+R1.*2 |
+R1*10 |
 R1.*2 |
 R1*2 |
 R1.*4 |
-r2 re''^"Flûtes" si' |
+r2 re'' si' |
 do'' do''2. re''4 |
 si'1 r2 |
 R1.*6 |
@@ -16,7 +16,7 @@ R1.*4 |
 sol'2. sol'4 la'2 |
 sib'1 r2 |
 R1.*3 |
-r1 si'4. do''8 |
+r2 r si'4. do''8 |
 re''1 la'4. si'8 |
 do''1 ~ do''4 sib' |
 la'2. si'4 do'' re'' |
@@ -37,7 +37,7 @@ mi''4 mi'' mi'' |
 do''2 do''4 |
 fa''4. mi''8 fa'' re'' |
 mi''4 sol'' mi'' |
-do'' r2 |
+do'' r4 r |
 R2. |
 r4 r8 fa'' mib''4 |
 re'' do'' sib' |
@@ -47,17 +47,17 @@ re''2 re''4 |
 re''8 do'' sib' la' sol'4 |
 do''8 sib' la' sol' fad'4 |
 sol'2 r4 |
-r2 mi''8 mi'' |
+r4 r mi''8 mi'' |
 do''4 do'' r |
 r r8 la' la' la' |
 sol' la' sib' do'' re''4 do''8 sib' |
 la'4 la' r2 |
 R1 |
 R1*12 |
-r2^"violons" r4 do'' |
+r2 r4 do'' |
 do''4. sib'8 la'4 fad' |
 sol'1 |
-fa'2. fa'8 mib' |
+fa'2. fa'8 mib'! |
 sol'2. la'4 |
 fad'2 sol' ~|
 sol' do'' ~|
@@ -112,3 +112,4 @@ do''4 si' do'' |
 si'2 dod''4 |
 re'' si' do'' |
 la' re'' si' |
+\custosNote do''

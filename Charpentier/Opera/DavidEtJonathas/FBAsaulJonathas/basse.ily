@@ -1,4 +1,4 @@
-sol1 |
+\clef "basse" sol1 |
 fad |
 sol2 si, |
 do mi |
@@ -8,13 +8,13 @@ fad |
 sol2 do4. re8 |
 sol,1 sol,4 sol |
 do1 ~ do4 re |
-sol,1. |
+sol,1.*2/3 |
 sol4 fa mib2 |
 re do |
 sib,8 sib16 lab sol8 sol16 fa mib2 |
 mi1 |
-fa |
-sib, |
+fa2~ fa |
+sib,1 |
 do2 reb |
 sib,1 ~|
 sib,4 lab, sib, do |
@@ -23,7 +23,7 @@ sib,1 ~ sib,4 do |
 fa,2. sol,4 |
 fa, mib, fa, sol, |
 do2 do do |
-do'1. |
+do'1. |\allowPageTurn
 sib |
 lab2. sol4 fa2 |
 sol sol sol |
@@ -38,7 +38,7 @@ sol sib sib, |
 mib2. fa4 sol2 |
 lab1 mib2 |
 sib sib,1 |
-mib1. |
+mib1. |\allowPageTurn
 mib |
 re |
 mib2. re4 do2 |
@@ -60,7 +60,7 @@ do2 do' sib |
 lab2. sol4 fa2 |
 sol2. fa4 mib2 |
 fa sol sol, |
-do1. |
+do1. |\allowPageTurn
 fad1 |
 sol |
 do'2. |
@@ -69,8 +69,8 @@ sol4 sol sol |
 mi2 mi4 |
 la4. la8 la la |
 fa2 fa4 |
-do2. |
-r2 do4 |
+do2. |\allowPageTurn
+r4 r do4 |
 fa2. |
 sib,2 do4 |
 re mib do |
@@ -83,26 +83,34 @@ sol, sol8 fa mi re |
 do2 do'8 do' |
 mi4 mi4. mi8 |
 fa4 re2 |
-sol4 sol,16 la, sib, do sib,4 do |
+sol4 \myfootnote #'NoteHead #'(0 . -1)
+\markup { Philidor : 
+  \vcenter\score {
+    { \tinyQuote \key sol \minor \time 2/2 \clef "bass"
+      sol4 sol,8*1/2 la, sib, do sib,4 do |
+    }
+    \layout { \quoteLayout }
+  }
+} sol,16 la, sib, do sib,4 do |
 fa,2 r |
-R1 |
+R1 |\allowPageTurn
 sib, |
 sol, |
-fad,4 fad8. mib16 re2 |
+fa,4 fa8. mib16 re2 |
 mib4 re mib8 mib, fa,4 |
-sib,2 r |
+sib,2 r |\allowPageTurn
 re mib |
 mib4 re do2 |
 sib,1 |
 mib2 do |
 re r |
 re1 |
-si, |
+si,2 ~ si, |
 do2. sib,4 |
 la,1 |
 sol,2. sol4 |
 re2. re8 do |
-si,2 mib |
+si,2 mib! |
 re1 |
 do |
 re2 re, |
@@ -113,7 +121,7 @@ sol1 |
 lab |
 sol ~ sol4 do' |
 fa1 ~ fa4 sol |
-do1. |
+do1. |\allowPageTurn
 r4 do' do' do' |
 sol4. do'8 la4 mi |
 fa4. sol8 la4 fa |
@@ -162,3 +170,4 @@ fa re do |
 sol2 sol4 |
 re2 mi4 |
 fa re sol |
+\custosNote do

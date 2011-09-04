@@ -1,7 +1,7 @@
-R1*8 |
-r1 r4 si |
+\clef "vtaille" R1*8 |
+r1 r4 sib |
 la1 ~ la4 si8 [ do' ]|
-si1. |
+si1.*2/3 |
 R1*9 |
 r1 r4 lab |
 sol1 ~ sol4 ( la8 ) sib |
@@ -13,11 +13,11 @@ R2.*20 |
 R1*3 |
 R1*12 |
 R1*8 |
-r1 r4 sib |
+r2 r r4 sib |
 la1 ~ la4 ( si8 ) do' |
 si1. |
 R1*2 |
-r1 r4 mib' |
+r2 r r4 mib' |
 re'1 ~ re'4 ( mi'8 ) fa' |
 mi'1. |
 R1*10 |

@@ -1,7 +1,7 @@
-R1*8 |
+\clef "vdessus" R1*8 |
 r1 r4 sol' |
 sol'1 ~ sol'4. fad'8 |
-sol'1. |
+sol'1.*2/3 |
 R1*9 |
 r1 r4 do'' |
 reb''1 ~ reb''4 do'' |
@@ -13,11 +13,11 @@ R2.*20 |
 R1*3 |
 R1*12 |
 R1*8 |
-r1 r4 sol' |
+r2 r r4 sol' |
 sol'1 ~ sol'4. fad'8 |
 sol'1. |
 R1*2 |
-r1 r4 do'' |
+r2 r r4 do'' |
 do''1 ~ do''4. si'8 |
 do''1. |
 R1*10 |

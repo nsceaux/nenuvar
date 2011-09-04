@@ -1,7 +1,7 @@
-R1*8 |
+\clef "vbasse" R1*8 |
 r1 r4 sol |
 do1 ~ do4 re |
-sol,1. |
+sol,1.*2/3 |
 R1*9 |
 r1 r4 fa |
 sib,1 ~ sib,4 do |
@@ -13,11 +13,11 @@ R2.*20 |
 R1*3 |
 R1*12 |
 R1*8 |
-r1 r4 sol |
+r2 r r4 sol |
 do1 ~ do4 re |
 sol,1. |
 R1*2 |
-r1 r4 do' |
+r2 r r4 do' |
 fa1 ~ fa4 sol |
 do1. |
 R1*10 |
