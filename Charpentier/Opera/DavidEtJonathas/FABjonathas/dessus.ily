@@ -1,4 +1,4 @@
-R1*5 |
+\clef "dessus" R1*5 |
 r8 sol' sol'8. sol'16 si'8. si'16 si'8. si'16 |
 re''8. re''16 re''8. re''16 la'8. la'16 la'8. la'16 |
 si'2 r |

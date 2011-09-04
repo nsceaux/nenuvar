@@ -1,4 +1,4 @@
-R1*5 |
+\clef "haute-contre" R1*5 |
 r8 re' re'8. re'16 sol'8. sol'16 sol'8. sol'16 |
 sol'8. sol'16 sol'8. sol'16 sol'8. sol'16 fad'8. fad'16 |
 sol'2 r |

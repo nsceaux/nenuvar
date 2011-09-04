@@ -1,4 +1,4 @@
-R1*5 |
+\clef "taille" R1*5 |
 r2 r8 re' re'8. re'16 |
 re'8. re'16 re'8. re'16 re'8. re'16 re'8. re'16 |
 re'2 r |

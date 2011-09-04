@@ -1,4 +1,4 @@
-r2 r4 r8 do'' |
+\jonathasMarkText "aux gardes" r2 r4 r8 do'' |
 sol''2 r4 r8 re'' |
 mi''2 r8 mi'' fa''8. sol''16 |
 do''2 r4 si'8 si' |
