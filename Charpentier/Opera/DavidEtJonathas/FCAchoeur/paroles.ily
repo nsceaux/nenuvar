@@ -7,7 +7,7 @@
   le Ciel est pour nous.
   Vic -- toi -- "re !" Vic -- toi -- "re !"
   Vic -- toi -- "re !" Vic -- toi -- "re !"
-  Vic -- toi -- "re !" Vic -- toi -- "re !"
+  Vic -- toi -- "re !" "Vic -"
 }
 \tag #'vhaute-contre {
   %% Victoire ! Victoire !
@@ -16,16 +16,16 @@
   cou -- rons à la gloi -- re cou -- rons à la gloi -- "re :"
   le Ciel est pour nous le Ciel est pour nous.
   Vic -- toi -- "re !" Vic -- toi -- "re !"
-  Vic -- toi -- "re !" Vic -- toi -- "re !" Vic -- toi -- "re !"
+  Vic -- toi -- "re !" Vic -- toi -- "re !" "Vic -"
 }
-\tag #'vatille {
+\tag #'vtaille {
   %% Victoire ! Victoire !
   %% Tout cède à nos 
   "coups ;"
   cou -- rons à la gloi -- "re :"
   le Ciel est pour nous le Ciel est pour nous.
   Vic -- toi -- "re !" Vic -- toi -- "re !"
-  Vic -- toi -- "re !" Vic -- toi -- "re !" Vic -- toi -- "re !"
+  Vic -- toi -- "re !" Vic -- toi -- "re !" "Vic -"
 }
 \tag #'vbasse {
   %% Victoire ! Victoire !
@@ -34,7 +34,7 @@
   cou -- rons à la gloi -- "re :"
   le Ciel est pour nous le Ciel est pour nous.
   Vic -- toi -- "re !" Vic -- toi -- "re !"
-  Vic -- toi -- "re !" Vic -- toi -- "re !" Vic -- toi -- "re !"
+  Vic -- toi -- "re !" Vic -- toi -- "re !" "Vic -"
 }
 
 %% David

@@ -11,6 +11,3 @@ r4 r si''4 |
 sol'' mi'' mi'' |
 fa'' do'' si' |
 do'' do'' fa'' |
-mi'' re''2 |
-do'' r4 |
-R2.*2 |

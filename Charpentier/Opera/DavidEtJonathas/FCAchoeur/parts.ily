@@ -2,5 +2,5 @@
                    (haute-contre)
                    (taille)
                    (basse)
-                   (basse-continue #:score-template "score-basse-continue-voix2")
+                   (basse-continue #:score-template "score-basse-continue2")
                    (silence #:score "score-silence" #:tag-notes silence))

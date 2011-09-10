@@ -29,7 +29,8 @@
 \includeScore "FBAsaulJonathas"
 \noPageBreak \markup { [Il manque une page manuscrite.] }
 
-\scene "Scène Troisième" "Scène 3 : Jonathas, troupes de gardes et de Philistins"
+\scene "Scène Troisième"
+"Scène 3 : Jonathas, troupes de gardes et de Philistins"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Jonathas, troupes de gardes et de Philistins.
 }

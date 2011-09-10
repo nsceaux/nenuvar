@@ -1,33 +1,44 @@
+%% Chœur
+\tag #'choeur { "- toi" -- "re !" }
 %% DAVID
-%% Qu'on sauve Jonathas... allez...
-soins su -- per -- "flus !"
-Je vois cou -- ler son "sang !" Jo -- na -- thas Jo -- na -- thas ne vit "plus !"
-
+\tag #'(david basse) {
+  Qu'on sau -- ve Jo -- na -- thas... cou -- rez cou -- rez...
+  soins su -- per -- "flus !"
+  Je vois cou -- ler son "sang !" Jo -- na -- thas Jo -- na -- thas ne vit "plus !"
+}
 %% JONATHAS
-Quel -- le tris -- te voix me rap -- pel -- "le ?"
-
+\tag #'(jonathas basse) {
+  Quel -- le tris -- te voix me rap -- pel -- "le ?"
+}
 %% DAVID
-Quoi, je vous "perds !"
-
+\tag #'(david basse) {
+  Quoi, je vous "perds !"
+}
 %% JONATHAS
-Le jour que je re -- vois,
-si je ne re -- trou -- vais un a -- mi si fi -- dè -- le,
-ser -- ait en -- cor plus fu -- nes -- te pour moi.
-
+\tag #'(jonathas basse) {
+  Le jour que je re -- voi,
+  si je ne re -- trou -- vois un A -- mi si Fi -- del -- le,
+  ser -- oit en -- cor plus fu -- nes -- te pour moi.
+}
 %% DAVID
-"Ah !" vi -- vez.
-
+\tag #'(david basse) {
+  "Ah !" vi -- vez.
+}
 %% JONATHAS
-Je ne puis.
-
+\tag #'(jonathas basse) {
+  Je ne puis.
+}
 %% DAVID
-Da -- vid, Da -- vid lui- mê -- me
-va cé -- der aux trans -- ports d'u -- ne dou -- leur ex -- trè -- me.
-
+\tag #'(david basse) {
+  Da -- vid, Da -- vid lui- mes -- me
+  va ce -- der aux trans -- ports d'u -- ne dou -- leur ex -- tré -- me.
+}
 %% JONATHAS
-Mal -- gré la ri -- gueur de mon sort,
-du moins je puis vous dire en -- cor _ que je vous ai -- me.
-
+\tag #'(jonathas basse) {
+  Mal -- gré la ri -- gueur de mon sort,
+  du moins je puis vous dire en -- cor _ que je vous ai -- me.
+}
 %% DAVID
-"Ciel !" "Ciel !" Il est "mort !"
- 
+\tag #'(david basse) {
+  "Ciel !" "Ciel !" Il est "mort !"
+}

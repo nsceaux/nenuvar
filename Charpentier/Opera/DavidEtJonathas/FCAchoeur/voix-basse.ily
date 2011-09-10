@@ -22,6 +22,3 @@ sol2. |
 do2 do4 |
 fa fa re |
 la la fa |
-sol2. |
-do2 r4 |
-R2.*2 |

@@ -14,6 +14,3 @@ do'2 ( si4 )|
 do'2 do'4 |
 do' do' re' |
 do' do' do' |
-do'2 ( si4 )|
-do'2 r4 |
-R2.*2 |

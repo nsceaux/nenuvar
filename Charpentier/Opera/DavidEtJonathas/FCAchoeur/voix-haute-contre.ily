@@ -14,17 +14,3 @@ sol'2. |
 sol'2 sol'4 |
 la' la' fa' |
 mi' mi' la' |
-\myfootnote #'NoteHead #'(0 . 1)
-\markup { Philidor : 
-  \vcenter\score {
-    <<
-      \new Voice \with { autoBeaming = ##f } {
-        \tinyQuote \key do \major \time 3/4 \clef "alto"
-        mi'4 mi' la' | sol'2 sol'4^"David" | mi'4.
-      } \addlyrics { -toi -- re vic -- toire Qu'on sau- }
-    >>
-    \layout { \quoteLayout }
-  }
-} sol'2. |
-mi'2 r4 |
-R2.*2

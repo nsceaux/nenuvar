@@ -19,9 +19,6 @@
         \global \includeNotes "voix-basse"
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
-    \new Staff \with { \haraKiriFirst } \withLyrics <<
-      \global \keepWithTag #'david \includeNotes "voix"
-    >> \keepWithTag #'david \includeLyrics "paroles"
     \new Staff <<
       \global \keepWithTag #'basse-continue \includeNotes "basse"
       \new FiguredBass \includeFigures "chiffres"

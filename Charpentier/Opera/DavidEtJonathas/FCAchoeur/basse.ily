@@ -21,21 +21,3 @@ sol,4 |
 do do do |
 fa fa re |
 la la fa |
-\myfootnote #'NoteHead #'(0 . 1)
-\markup { Philidor : 
-  \vcenter\score {
-    { \tinyQuote \key do \major \time 3/4 \clef "bass"
-      la4 la fa | s2^"[?]" sol,2*1/2 |
-    }
-    \layout { \quoteLayout }
-  }
-} sol4 sol,2 |
-do2
-<<
-  \tag #'basse { r4 R2.*2 }
-  \tag #'basse-continue {
-    do4 |
-    do'4. sib8 la sol |
-    re4 r r |
-  }
->>

@@ -11,6 +11,3 @@ r4 r fad'4 |
 mi' mi' mi' |
 do' do' re' |
 do' do' do' |
-do'2 si4 |
-do'2 r4 |
-R2.*2 |

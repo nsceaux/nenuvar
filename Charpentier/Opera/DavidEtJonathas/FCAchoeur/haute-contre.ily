@@ -11,6 +11,4 @@ r4 r re''4 |
 do'' do'' do'' |
 la' la' fa' |
 la' la' la' |
-sol'2. |
-sol'2 r4 |
-R2.*2 |
+

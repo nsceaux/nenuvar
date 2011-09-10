@@ -14,6 +14,4 @@ mi'' ( re''2 )|
 do'' mi''4 |
 fa'' do'' si' |
 do'' do'' fa'' |
-mi'' ( re''2 )|
-do'' r4 |
-R2.*2 |
+
