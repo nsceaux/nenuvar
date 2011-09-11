@@ -1,4 +1,4 @@
-la'4. sol'8 fad' sol' la' si' |
+\clef "taille" la'4. sol'8 fad' sol' la' si' |
 mi'2 mi'4 mi' |
 fad'4. mi'8 re' mi' fad' re' |
 dod'2 mi' |

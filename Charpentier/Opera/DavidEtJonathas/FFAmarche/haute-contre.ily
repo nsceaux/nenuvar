@@ -1,4 +1,4 @@
-re''2. re''4 |
+\clef "haute-contre" re''2. re''4 |
 mi''2 la' ~|
 la' sold' |
 la' la' |

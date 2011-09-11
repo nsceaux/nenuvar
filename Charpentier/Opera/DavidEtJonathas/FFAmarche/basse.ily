@@ -1,4 +1,4 @@
-re'2. re'4 |
+\clef "basse" re'2. re'4 |
 dod'2. dod'4 |
 si2. si4 |
 la2 la4. sol8 |
