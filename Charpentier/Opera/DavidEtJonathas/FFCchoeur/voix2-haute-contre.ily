@@ -1,4 +1,4 @@
-R1*91 |
+\clef "vhaute-contre" R1*91 |
 r2 r4 sol' |
 sol' sol' sol'4. sol'8 |
 la'2. sol'4 |
@@ -30,8 +30,8 @@ sol'4. sol'8 sol'4 fad' |
 sol'2 r |
 R1*4 |
 r2 r4 sol' |
-sol'8[ \melisma la' sol' la' ] sol' [ la' sol' fa' ]|
-mi'2 \melismaEnd do'4 mi' |
+sol'8[ \melisma la' sol' la' ] sol' [ la' sol' fa']( |
+mi'2)\melismaEnd do'4 mi' |
 sol'2 sol'4 sol' |
 sol'4. sol'8 sol'4 sol' |
 sol'2. sol'4 |

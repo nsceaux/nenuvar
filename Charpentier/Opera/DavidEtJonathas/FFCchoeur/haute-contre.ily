@@ -1,4 +1,4 @@
-r2 r4 do'' |
+\clef "haute-contre" r2 r4 do'' |
 si' sol' do'' la' |
 si' si' do''4. si'8 la'4 la' la'8 sol' fa' mi' |
 re' re'' do'' re'' si' la' sol' sol' |
@@ -7,7 +7,7 @@ la'2. la'8 si' |
 do''4 re''8 do'' si'4. dod''8 |
 re''4 la' re'' re'' |
 re''4. mi''8 re''4. re''8 |
-<si' re''>2 r2 |
+<< re''2 \\ si' >> r2 |
 R1 |
 r4 si'8 si' si'4 si' |
 do''4. si'8 do'' si' do'' la' |
@@ -20,7 +20,7 @@ R1 |
 r4 do''8 do'' re''4 si' |
 do'' la' sol'4. sol'8 |
 sol'2. r4 |
-R1*68 |
+R1*68 |\allowPageTurn
 r2 r4 mi'' |
 re'' si' do''4. do''8 |
 do''2. do''4 |
@@ -42,7 +42,7 @@ R1 |
 r2 r4 si' |
 do''8 re'' si' do'' la' re'' do'' re'' |
 si'2 r |
-R1*22 |
+R1*22 |\allowPageTurn
 r2 r4 la'8 la' |
 la'2 la'4 la' |
 si'2. si'4 |

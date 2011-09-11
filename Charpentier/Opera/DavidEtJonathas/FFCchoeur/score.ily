@@ -1,75 +1,88 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new GrandStaff <<
-        \newHaraKiriStaff << \global \clef "dessus"
-                             { \includeNotes "dessus-a"
-                               \includeNotes "dessus-b1"
-                               \includeNotes "dessus-c"
-                               \includeNotes "dessus-d1"
-                               \includeNotes "dessus-e"
-                               \includeNotes "dessus-f" } >>
-        \newHaraKiriStaffB << \global \clef "dessus"
-                              { s1*23 \break
-                                \includeNotes "dessus-b2" \break
-                                s1*27
-                                \includeNotes "dessus-d2" \break } >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new GrandStaff <<
+          \new Staff \with { \haraKiri } << \global \keepWithTag #'dessus1 \includeNotes "dessus" >>
+          \new Staff \with { \haraKiriFirst } << \global \keepWithTag #'dessus2 \includeNotes "dessus" >>
+        >>
+        \new Staff \with { \haraKiri } << \global \includeNotes "haute-contre" >>
+        \new Staff \with { \haraKiri } << \global \includeNotes "taille" >>
+        \new Staff \with { \haraKiriFirst } << \global \keepWithTag #'basse1 \includeNotes "basse" >>
+        \new Staff \with { \haraKiriFirst } << \global \keepWithTag #'basse2 \includeNotes "basse" >>
+        \new Staff \with { \haraKiriFirst } << \global \keepWithTag #'basse3 \includeNotes "basse" >>
       >>
-      \newHaraKiriStaff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaff << \global \clef "basse"
-                           { \includeNotes "basse-a"
-                             \includeNotes "basse-b1"
-                             \includeNotes "basse-c"
-                             \includeNotes "basse-d"
-                             \includeNotes "basse-e1"
-                             \includeNotes "basse-f"
-                             \includeNotes "basse-g1"
-                             \includeNotes "basse-h" } >>
-      \newHaraKiriStaffB << \global \clef "basse"
-                           { s1*10 \break
-                             \includeNotes "basse-b2"
-                             R1*80 \break
-                             \includeNotes "basse-e2" \break
-                             s1*28 \break
-                             \includeNotes "basse-g2" \break } >>
-      \newHaraKiriStaffB << \global \clef "basse"
-                           { s1*10
-                             \includeNotes "basse-b3"
-                             R1*80
-                             \includeNotes "basse-e3"
-                             s1*28
-                             \includeNotes "basse-g3" \break } >>
+      \new ChoirStaff <<
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix1-dessus1"
+        >> \keepWithTag #'voix1-dessus1 \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix1-dessus2"
+        >> \keepWithTag #'voix1-dessus2 \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix1-basse"
+        >> \keepWithTag #'voix1-basse \includeLyrics "paroles"
+      >>
+      \new ChoirStaff <<
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix2-dessus"
+        >> \keepWithTag #'voix2-dessus \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix2-haute-contre"
+        >> \keepWithTag #'voix2-haute-contre \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix2-taille"
+        >> \keepWithTag #'voix2-taille \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix2-basse"
+        >> \keepWithTag #'voix2-basse \includeLyrics "paroles"
+      >>
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \new FiguredBass \includeFigures "chiffres"
+      >>
     >>
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix1-dessus1"
-      >> \includeLyrics "paroles11"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix1-dessus2"
-      >> \includeLyrics "paroles12"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vbasse" \includeNotes "voix1-basse"
-        { s1*92 \break }
-      >> \includeLyrics "paroles13"
-    >>
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix2-dessus"
-      >> \includeLyrics "paroles21"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "voix2-haute-contre"
-      >> \includeLyrics "paroles22"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vtaille" \includeNotes "voix2-taille"
-      >> \includeLyrics "paroles23"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vbasse" \includeNotes "voix2-basse"
-      >> \includeLyrics "paroles24"
-    >>
-    \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
-      \includeFigures "chiffres"
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new GrandStaff <<
+          \new Staff << \global \keepWithTag #'dessus1 \includeNotes "dessus" >>
+          \new Staff << \global \keepWithTag #'dessus2 \includeNotes "dessus" >>
+        >>
+        \new Staff << \global \includeNotes "haute-contre" >>
+        \new Staff << \global \includeNotes "taille" >>
+        \new Staff << \global \keepWithTag #'basse1 \includeNotes "basse" >>
+        \new Staff << \global \keepWithTag #'basse2 \includeNotes "basse" >>
+        \new Staff << \global \keepWithTag #'basse3 \includeNotes "basse" >>
+      >>
+      \new ChoirStaff <<
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix1-dessus1"
+        >> \keepWithTag #'voix1-dessus1 \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix1-dessus2"
+        >> \keepWithTag #'voix1-dessus2 \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix1-basse"
+        >> \keepWithTag #'voix1-basse \includeLyrics "paroles"
+      >>
+      \new ChoirStaff <<
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix2-dessus"
+        >> \keepWithTag #'voix2-dessus \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix2-haute-contre"
+        >> \keepWithTag #'voix2-haute-contre \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix2-taille"
+        >> \keepWithTag #'voix2-taille \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix2-basse"
+        >> \keepWithTag #'voix2-basse \includeLyrics "paroles"
+      >>
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \new FiguredBass \includeFigures "chiffres"
+      >>
     >>
   >>
   \layout { }

@@ -1,4 +1,4 @@
-R1 |
+\clef "taille" R1 |
 r4 sol' mi' do' |
 sol'4. fa'8 mi'4 do' |
 fa'4. mi'8 re'4 re' |
@@ -21,7 +21,7 @@ R1 |
 r4 mi'8 mi' re'4 re' |
 do' do'8 re' si4 sol'8 fa' |
 mi'2. r4 |
-R1*68 |
+R1*68 |\allowPageTurn
 r2 r4 sol' |
 sol' sol' sol'4. sol'8 |
 la'2. sol'4 |
@@ -43,7 +43,7 @@ R1 |
 r2 r4 sol' |
 sol'8 do' re'4 re'4. re'8 |
 re'2 r |
-R1*22 |
+R1*22 |\allowPageTurn
 r2 r4 mi'8 mi' |
 fad'2 fad'4 fad' |
 fad'2. sol'4 |
@@ -75,4 +75,4 @@ sol'2 sol'4 sol' |
 sol'4. sol'8 sol'4 sol' |
 sol'2. re'4 |
 fa'4. la'8 sol'4 re' |
-do'1 |
+do'1\fermata |

@@ -1,4 +1,4 @@
-R1*91 |
+\clef "vbasse" R1*91 |
 r2 r4 do' |
 si sol do'4. si8 |
 la2. do'4 |
@@ -32,11 +32,11 @@ mi4. do8 re4 re |
 sol,2 r |
 R1*2 |
 r2 r4 fa |
-sol8 [\melisma la sol la ] sol [ la sol fa ]|
-mi [ fa mi fa ] mi [ fa mi re ]|
+sol8 [\melisma la sol la ] sol [ la sol fa]( |
+mi)[ fa mi fa ] mi [ fa mi re ]|
 do2 \melismaEnd do4 do' |
-do'8 [\melisma re' do' re' ] do' [ re' do' re' ]|
-si2 \melismaEnd si4 si |
+do'8 [\melisma re' do' re' ] do' [ re' do' re']( |
+si2)\melismaEnd si4 si |
 do'4. do'8 do'4 do |
 sol2. sol4 |
 la4. fa8 sol4 sol |

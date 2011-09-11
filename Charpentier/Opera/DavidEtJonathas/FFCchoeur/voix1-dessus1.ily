@@ -1,4 +1,4 @@
-R1*40 |
+\clef "vdessus" R1*40 |
 r4 re'' mi'' mi'' |
 do'' do''16 [ re'' mi''8 ] re''4. do''8 ( |
 si'2 ) mi''4 mi'' |
@@ -9,9 +9,11 @@ sold'2. r4 |
 R1*2 |
 r2 r4 mi'' |
 mi''8 [\melisma fa'' mi'' fa'' ] mi'' [ fa'' mi'' re'' ]|
-do'' [ re'' do'' re'' ] do'' [ re'' do'' re'' ]|
-si'2 \melismaEnd si'4 mi'' |
+do'' [ re'' do'' re'' ] do'' [ re'' do'' re'']( |
+si'2)\melismaEnd si'4 mi'' |
 re''4. do''8 si'4 mi'' |
+\myfootnote #'NoteHead #'(0 . 2)
+\markup { Philidor : dernière note des dessus et basse chantantes omise }
 do''2 r |
 R1*14 |
 r4 la' si' si' |
@@ -32,8 +34,8 @@ si'2. r4 |
 R1*2 |
 r2 r4 sol'' |
 sol''8 [\melisma la'' sol'' la'' ] sol'' [ la'' sol'' la'' ]|
-mi'' [ fa'' mi'' fa'' ] mi'' [ fa'' mi'' fa'' ]|
-re''2 \melismaEnd re''4 sol'' |
+mi'' [ fa'' mi'' fa'' ] mi'' [ fa'' mi'' fa'']( |
+re''2)\melismaEnd re''4 sol'' |
 fa''4. mi''8 re''4 sol'' |
 mi''2. r4 |
 R1*21 |
@@ -47,8 +49,8 @@ sold'2. r4 |
 R1*2 |
 r2 r4 mi'' |
 mi''8 [\melisma fa'' mi'' fa'' ] mi'' [ fa'' mi'' re''] |
-do'' [ re'' do'' re'' ] do'' [ re'' do'' re'' ]|
-si'2 \melismaEnd si'4 mi'' |
+do'' [ re'' do'' re'' ] do'' [ re'' do'' re'']( |
+si'2)\melismaEnd si'4 mi'' |
 re''4. do''8 si'4 mi'' |
 do''2. r4 |
 R1*18 |
@@ -70,7 +72,7 @@ si'2. r4 |
 R1*2 |
 r2 r4 sol'' |
 sol''8 [\melisma la'' sol'' la'' ] sol'' [ la'' sol'' fa'' ]|
-mi'' [ fa'' mi'' fa'' ] mi'' [ fa'' mi'' fa'' ]|
-re''2 \melismaEnd re''4 sol'' |
+mi'' [ fa'' mi'' fa'' ] mi'' [ fa'' mi'' fa'']( |
+re''2)\melismaEnd re''4 sol'' |
 fa''4. mi''8 re''4 sol'' |
 mi''1 \fermata |

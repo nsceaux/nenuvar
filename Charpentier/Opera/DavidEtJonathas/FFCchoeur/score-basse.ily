@@ -1,30 +1,19 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \global \clef "basse"
-                  { \includeNotes "basse-a"
-                    \includeNotes "basse-b1"
-                    \includeNotes "basse-c"
-                    \includeNotes "basse-d"
-                    \includeNotes "basse-e1"
-                    \includeNotes "basse-f"
-                    \includeNotes "basse-g1"
-                    \includeNotes "basse-h" }
-                  { s1*10 \break s1*13 \break s1*80 \break s1*7 \break
-                    s1*28 \break s1*7 \break } >>
-    \newHaraKiriStaffB << \global \clef "basse"
-                          { s1*10 
-                            \includeNotes "basse-b2"
-                            s1*80
-                            \includeNotes "basse-e2"
-                            s1*28 
-                            \includeNotes "basse-g2" } >>
-    \newHaraKiriStaffB << \global \clef "basse"
-                          { s1*10
-                            \includeNotes "basse-b3"
-                            s1*80
-                            \includeNotes "basse-e3"
-                            s1*28
-                            \includeNotes "basse-g3" } >>
+    \new Staff \with { \haraKiriFirst } <<
+      \global \keepWithTag #'basse1 \includeNotes "basse"
+    >>
+    \new Staff \with { \haraKiriFirst } <<
+      \global \keepWithTag #'basse2 \includeNotes "basse"
+    >>
+    \new Staff \with { \haraKiriFirst } <<
+      \global \keepWithTag #'basse3 \includeNotes "basse"
+    >>
+    \new Staff <<
+      { s1*91 s2. s4^"Tous" s1*18\break s4*0^"unis" }
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \new FiguredBass \includeFigures "chiffres"
+    >>
   >>
   \layout { }
 }
