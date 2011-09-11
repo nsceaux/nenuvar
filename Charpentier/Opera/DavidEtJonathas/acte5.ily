@@ -44,7 +44,7 @@
 \pieceToc \markup { David, Jonathas :
   \italic { Qu'on sauve Jonathas... allez... soins superflus ! } }
 \includeScore "FDAdavidJonathas"
-\pieceToc \markup { David, chœur : \italic { Jamais amour plus fidèle et plus tendre } }
+\pieceToc \markup { David, chœur : \italic { Jamais Amour plus fidelle et plus tendre } }
 \includeScore "FDBdavidChoeur"
 
 \scene "Scène Cinquième" "Scène 5 : Saül, David, troupes etc."
@@ -53,7 +53,7 @@
   \smallCaps David, troupes...
 }
 \pieceToc \markup { Saül, David :
-  \italic { Vois traître, et reconnais ta nouvelle victime. } }
+  \italic { Voi traitre, et reconnoi ta nouvelle victime. } }
 \includeScore "FEAdavidSaul"
 
 \scene "Scène Dernière" "Scène 6 : Achis, David, troupe de triomphants"
