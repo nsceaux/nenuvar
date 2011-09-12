@@ -69,7 +69,7 @@
   \override #'(character-width-ratio . 3/12) \fill-line {
     \override #'(baseline-skip . 4) \large \column {
       \character-ambitus \line { \smallCaps Saül, Roi des Israëlites. } \score {
-        \characterAmbitus "bass" "bass" fa, mib'
+        \characterAmbitus "bass" "bass" fa, mi'
         \layout { \characterLayout }
       }
       \character-ambitus \line \smallCaps { L'ombre de Samuel. } \score {
@@ -113,25 +113,25 @@
   \vspace #2
   \override #'(character-width-ratio . 3/12) \fill-line {
     \override #'(baseline-skip . 4) \large \column {
-      \character-ambitus \line { \smallCaps Saül, Roi des Israëlites. [TODO] } \score {
-        \characterAmbitus "bass" "bass" fa, mib'
+      \character-ambitus \line { \smallCaps Saül, Roi des Israëlites. } \score {
+        \characterAmbitus "bass" "bass" fa, mi'
         \layout { \characterLayout }
       }
-      \character-ambitus \line { \smallCaps Jonathas, fils de Saül. [TODO] } \score {
-        \characterAmbitus "treble" "treble" do' do''
+      \character-ambitus \line { \smallCaps Jonathas, fils de Saül. } \score {
+        \characterAmbitus "treble" "treble" mi' la''
         \layout { \characterLayout }
       }
-      \character-ambitus \line { \smallCaps David, persécuté par Saül. [TODO] } \score {
-        \characterAmbitus "alto" "G_8" sol do''
+      \character-ambitus \line { \smallCaps David, persécuté par Saül. } \score {
+        \characterAmbitus "alto" "G_8" sol mi''
         \layout { \characterLayout }
       }
-      \character-ambitus \line { \smallCaps Achis, Roi des Philistins. [TODO] } \score {
-        \characterAmbitus "bass" "bass" fa, mib'
+      \character-ambitus \line { \smallCaps Achis, Roi des Philistins. } \score {
+        \characterAmbitus "bass" "bass" fa, mi'
         \layout { \characterLayout }
       }
       \character-ambitus \wordwrap-center {
         \smallCaps Joadab, un des chefs de l'armée des Philistins,
-        ennemi de David. [TODO]
+        ennemi de David.
       } \score {
         \characterAmbitus "bass" "bass" fa, mib'
         \layout { \characterLayout }
@@ -139,18 +139,18 @@
       \character-ambitus \column {
         \wordwrap-center {
           Troupe de guerriers & de captifs, de peuple & de pasteurs
-          que David a délivrez. [TODO]
+          que David a délivrez.
         }
         \null
         \wordwrap-center {
-          Chœur de la suite de Saül, d'Achis, de David, de Jonathas et de Joadab.
+          Chœurs de la suite de Saül, d'Achis, de David, de Jonathas et de Joadab.
         }
       } \score {
         \new ChoirStaff <<
-          \characterAmbitus "treble" "treble" do' do''
-          \characterAmbitus "alto" "G_8" sol sol'
-          \characterAmbitus "tenor" "G_8" mi mi'
-          \characterAmbitus "bass" "bass" fa, mib'
+          \characterAmbitus "treble" "treble" re' la''
+          \characterAmbitus "alto" "G_8" sol si'
+          \characterAmbitus "tenor" "G_8" mi sol'
+          \characterAmbitus "bass" "bass" fa, mi'
         >>
         \layout { \characterLayout }
       }
@@ -162,6 +162,4 @@
 \include "Charpentier/Opera/DavidEtJonathas/acte2.ily"
 \include "Charpentier/Opera/DavidEtJonathas/acte3.ily"
 \include "Charpentier/Opera/DavidEtJonathas/acte4.ily"
-\newBookPart #'()
-\markup\null
-%\include "Charpentier/Opera/DavidEtJonathas/acte5.ily"
+\include "Charpentier/Opera/DavidEtJonathas/acte5.ily"

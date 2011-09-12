@@ -98,6 +98,20 @@ scene =
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
 
+\paper {
+  tocTitleMarkup = \markup \column {
+    \fontsize #6 \fill-line { \paper-prop #'tocTitle "TABLE OF CONTENTS" }
+  }
+  tocActMarkup = \markup \large \italic \column {
+    \vspace #1
+    \fontsize #2 \fill-line { \fromproperty #'toc:text }
+    \null
+  }
+  tocSceneMarkup = \markup \italic \column {
+    \fill-line { \fromproperty #'toc:text }
+  }
+}
+
 %%%
 %%% Music settings
 %%%

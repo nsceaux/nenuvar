@@ -25,7 +25,7 @@
   \smallCaps Saül, Jonathas, troupe de gardes.
 }
 \pieceToc \markup { Saül, Jonathas, chœur :
-  \italic { Que vois-je ? quoi, je perds et mon fils et l'Empire ! } }
+  \italic { Que vois-je ? quoi, je perds } }
 \includeScore "FBAsaulJonathas"
 \noPageBreak \markup { [Il manque une page manuscrite.] }
 
@@ -42,7 +42,7 @@
   Jonathas, David, troupes etc.
 }
 \pieceToc \markup { David, Jonathas :
-  \italic { Qu'on sauve Jonathas... allez... soins superflus ! } }
+  \italic { Qu'on sauve Jonathas... } }
 \includeScore "FDAdavidJonathas"
 \pieceToc \markup { David, chœur : \italic { Jamais Amour plus fidelle et plus tendre } }
 \includeScore "FDBdavidChoeur"
@@ -66,6 +66,6 @@
   Achis, David : \italic { Joignez à vos exploits l'honneur du diadème. } }
 \includeScore "FFBachisDavid"
 \pieceToc \markup {
-  Chœur : \italic { Du plus grands des héros chantons, chantons la gloire. } }
+  Chœur : \italic { Du plus grands des héros chantons chantons la gloire. } }
 \includeScore "FFCchoeur"
 \actEnd \markup { FIN DU CINQUIÈME ET DERNIER ACTE }

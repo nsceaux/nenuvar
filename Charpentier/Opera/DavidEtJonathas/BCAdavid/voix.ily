@@ -3,7 +3,7 @@
   \tag #'basse { R1.*74 }
   \tag #'david {
     R1.*19 |
-    r2 mi'1~ |
+    r2 mi'1^\markup\character David ~ |
     mi'2. re'4 re' re'8 mi' |
     do'2. do'4 do'2 |
     si1 si4 si |

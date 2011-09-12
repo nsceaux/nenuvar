@@ -2,7 +2,7 @@
   \tag #'(vdessus1 basse) {
     <<
       \tag #'basse { s1*5 s2.*15 s1*25 s2.*104 s4 }
-      \tag #'vdessus1 { R1*5 R2.*15 R1*25 R2.*104 | r4 }
+      \tag #'vdessus1 { \clef "vdessus" R1*5 R2.*15 R1*25 R2.*104 | r4 }
     >>
     \tag #'basse \forcedClef "vdessus" re''8 do'' re'' la' |
     sib'4 do''8 [ sib' ] la' [ sol' ]|
@@ -55,7 +55,7 @@
     R2.*132
   }
   \tag #'(vdessus2) {
-    R1*5
+    \clef "vdessus" R1*5
     R2.*15
     R1*25
     R2.*106 |
