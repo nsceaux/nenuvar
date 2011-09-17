@@ -4,7 +4,7 @@
     \clef "vdessus" mi''4( re''2) | do'' r4 | R2.*2 | R1.*9 R1.*23 R1*7
   }
   \tag #'vhaute-contre {
-    \clef "vhaute-contre" \myfootnote #'NoteHead #'(0 . 1)
+    \clef "vhaute-contre" \myfootnote #'NoteHead #'(-0.5 . 0.1)
     \markup { Philidor :
       la dernière note des hautes-contre n'est pas indiquée
       \vcenter\score {

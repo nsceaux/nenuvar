@@ -118,7 +118,7 @@
     >>
     \tag #'basse \davidMark la4-\tag #'david ^\markup\character "David" |
     re'4. re'8 mi' fa' |
-    \myfootnote #'NoteHead #'(1 . 2)
+    \myfootnote #'NoteHead #'(0 . 1.5)
     \markup { Philidor : 
       \vcenter\score {
         <<

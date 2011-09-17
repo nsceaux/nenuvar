@@ -25,7 +25,7 @@
     sol fad8 mi si4. si,8 |
     mi2 mi8 mi fad sold |
     la2 la8 la si dod' |
-    re'4. \myfootnote #'NoteHead #'(0 . 1)
+    re'4. \myfootnote #'NoteHead #'(-0.5 . 0)
     \markup { Philidor : 
       \vcenter\score {
         { \tinyQuote \key re \major \time 2/2 \clef "bass"
