@@ -20,7 +20,7 @@
     \bold \line { La Pythonisse }
     \line { Seigneur... }
     \bold Saül
-    \sline { J'entends déja la foude sur ma teste... }
+    \sline { J'entends déja la foudre sur ma teste... }
     \line { Sur moi, sur Jonathas elle doit éclater. }
     \line { Le sceptre que je perds, David le va porter ! }
     \line { Qu'il joüisse à son gré d'une injuste conqueste : }

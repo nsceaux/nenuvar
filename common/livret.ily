@@ -1,9 +1,10 @@
 %%% Commands for entering libretti
 
-#(define-markup-command (livretAct layout props text) (markup?)
+#(define-markup-command (livretAct layout props text next) (markup? markup?)
    (interpret-markup
     layout props
-    (markup #:fill-line (#:fontsize 7 #:pad-around 5 text))))
+    (markup #:column (#:fill-line (#:fontsize 7 #:pad-around 5 text)
+                      next))))
 
 #(define-markup-command (livretFinAct layout props text) (markup?)
    (interpret-markup
@@ -39,6 +40,13 @@
     layout props
     (markup #:force-line-width-ratio 3/20 #:null
             #:fontsize 2 #:force-line-width-ratio 7/10
+            #:fill-line (#:null #:italic text))))
+
+#(define-markup-command (livretDidasP layout props text) (markup?)
+   (interpret-markup
+    layout props
+    (markup #:force-line-width-ratio 3/20 #:null
+            #:fontsize 1 #:force-line-width-ratio 7/10
             #:fill-line (#:null #:italic text))))
 
 #(define-markup-command (livretPers layout props text next) (markup? markup?)
