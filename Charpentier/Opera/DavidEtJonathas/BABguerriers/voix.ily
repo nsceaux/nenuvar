@@ -17,7 +17,7 @@
   R2. |
   r4 r r8 mi |
   la4. si8 la
-  \myfootnoteNoLine #'NoteHead #'(-2 . -1.5)
+  \myfootnoteNoLine #'NoteHead #'(0 . 3)
   \markup { Livret :
     \italic { Et vous qu'il a vaincus }
   }
@@ -30,7 +30,7 @@
   sol2 r4 si |
   dod'2 r8 dod' red' mi' |
   red'2. si8
-  \myfootnote #'NoteHead #'(-0.8 . -2.5)
+  \myfootnote #'NoteHead #'(0 . 2)
   \markup { Livret : \italic { le seul amour nous soumet à ses loix } }
   si8 |
   mi'4. fad'8 red'2 |

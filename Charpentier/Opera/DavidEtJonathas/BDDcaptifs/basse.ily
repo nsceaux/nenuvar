@@ -2,7 +2,7 @@
 <<
   \tag #'basse { R2.*19 R1*6 R2.*5 | r4 }
   \tag #'basse-continue {
-    \myfootnote #'NoteHead #'(1 . 2)
+    \myfootnote #'NoteHead #'(0 . 2)
     \markup { Philidor : 
       \vcenter\score {
         { \tinyQuote \key re \major \time 3/4 \clef "bass"

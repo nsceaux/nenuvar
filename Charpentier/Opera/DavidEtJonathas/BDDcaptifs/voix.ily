@@ -19,7 +19,7 @@
     mi''4 dod'' re'' mi'' |
     fad''1 |
     mi''2 fad''4 |
-    \myfootnoteNoLine #'NoteHead #'(-2 . -3)
+    \myfootnoteNoLine #'NoteHead #'(0 . 1)
     \markup { Livret : \italic { les douceurs de la liberté } }
     re'' re'' sol'' |
     mi''4. re''8 mi''4 |

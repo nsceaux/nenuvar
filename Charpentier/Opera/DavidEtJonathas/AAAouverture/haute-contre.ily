@@ -58,7 +58,7 @@ la'8 re'' re''8. re''16 |
 re''8 re''16 do'' sib'8 sib'16 la' |
 sol'8 do'' do'' re''16 do'' |
 sib'8
-\myfootnote #'NoteHead #'(-0.5 . 1)
+\myfootnote #'NoteHead #'(0 . 1)
 \markup { Philidor :
   à la haute-contre et à la taille, le rythme indiqué est
   \vcenter\score {

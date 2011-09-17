@@ -81,7 +81,7 @@ mi'2. |
   \tag #'david {
     R1.*2 |
     r2
-    \myfootnoteNoLine #'NoteHead #'(-1 . -2)
+    \myfootnoteNoLine #'NoteHead #'(0 . 2)
     \markup { Livret : \italic { Toi qui m'as soutenu toûjours } }
     dod'2. re'4 |
     mi'2 si4. si8 dod'4 re' |

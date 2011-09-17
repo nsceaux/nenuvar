@@ -13,7 +13,7 @@ mi''4 do'' mi''4. do''8 |
 sol''4 mi'' la'' sol''8 fad'' |
 sol'' sol'' fad'' fad'' fad'' sol'' |
 la''4 la''8 la'' sol'' fad'' |
-\myfootnote #'NoteHead #'(1 . 2)
+\myfootnote #'NoteHead #'(0 . 1.5)
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key re \major \time 3/4 \clef "french"

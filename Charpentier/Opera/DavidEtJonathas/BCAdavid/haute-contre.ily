@@ -69,7 +69,8 @@ sol'2 r8 sol' la' si' do''4 mi'' |
 do'' sol' sol' sol' sol' sol' |
 sol' sol' sol'8 sol' la' si' do''4 do''8 si' |
 la'4 fad'8 sol' la'4 la' la' fad' |
-\myfootnote #'NoteHead #'(1 . 3)
+fad'4 fad' fad' fad'8 sol'
+\myfootnote #'NoteHead #'(0 . 1)
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key mi \minor \time 3/2 \clef "soprano"
@@ -77,10 +78,17 @@ la'4 fad'8 sol' la'4 la' la' fad' |
     }
     \layout { \quoteLayout }
   }
-}
-fad'4 fad' fad' fad'8 sol' la'2 |
+} la'2 |
 re'4 re' sol' la' sol'8 re' mi' fa' |
-sol' fad' sold' la' si'4 mi'' re''4. do''8 |
+sol' \myfootnote #'NoteHead #'(0 . 2)
+\markup { Philidor : 
+  \vcenter\score {
+    { \tinyQuote \key mi \minor \time 3/2 \clef "soprano"
+      sol'8 fad' sol'^\markup\sharp la' si'4 mi'' re''4. do''8 |
+    }
+    \layout { \quoteLayout }
+  }
+} fad'!8 sol' la' si'4 mi'' re''4. do''8 |
 do''2. |
 R2.*26 |
 r2 la'2. la'4 |

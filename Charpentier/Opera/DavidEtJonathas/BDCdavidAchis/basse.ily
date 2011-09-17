@@ -59,7 +59,7 @@
     sol8 mi re do si,4. si,8 |
     do re do si, la,4 la, |
     re4
-    \myfootnote #'NoteHead #'(-1 . 2)
+    \myfootnote #'NoteHead #'(0 . 2)
     \markup { Philidor : 
       \vcenter\score {
         { \tinyQuote \key re \major \time 2/2 \clef "bass"

@@ -33,7 +33,7 @@ mib' re' do'8. do'16 |
 do'8 la16 sib do'8 do'16 sib |
 sib8 sib16 do' re'8 mib'16 fa' |
 sib8 sib16 do'
-\myfootnote #'NoteHead #'(-0.5 . -2)
+\myfootnote #'NoteHead #'(0 . -3)
 \markup { Philidor : Le rythme indiqué est
   \vcenter\score {
     { \tinyQuote \key re \minor \time 4/8 \clef "taille"

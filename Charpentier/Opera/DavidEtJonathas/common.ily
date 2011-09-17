@@ -120,6 +120,8 @@ scene =
   \context {
     \Voice
     \override Script #'avoid-slur = #'outside
+    %% no line from footnotes to grobs
+    \override FootnoteItem #'annotation-line = ##f
   }
 }
 

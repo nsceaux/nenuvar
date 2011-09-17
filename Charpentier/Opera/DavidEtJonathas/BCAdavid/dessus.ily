@@ -1,5 +1,5 @@
 \clef "dessus" r2 si'1~ |
-\myfootnote #'NoteHead #'(1 . -1)
+\myfootnote #'NoteHead #'(0 . 3)
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key mi \minor \time 3/2 \clef "french"

@@ -142,7 +142,7 @@ mi''2 r |
 R1*2 |
 la''4 la'' la''8 si'' la'' sol'' |
 fad''4 fad'' si''8 la'' sol'' fad'' |
-\myfootnote #'NoteHead #'(-1 . 2)
+\myfootnote #'NoteHead #'(0 . 1)
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key re \major \time 2/2 \clef "french"

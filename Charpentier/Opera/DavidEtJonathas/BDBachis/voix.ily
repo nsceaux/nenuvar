@@ -8,7 +8,7 @@ re1 |
 R1 |
 r2 la4 la |
 re'2 re'4 re' |
-si2 \myfootnoteNoLine #'NoteHead #'(-1 . -4.5)
+si2 \myfootnoteNoLine #'NoteHead #'(0 . 1)
 \markup\wordwrap {
   Ici le manuscrit Philidor est difficilement lisible :
   \italic { La Victoire en tous lieux à nos "[terres?]" affermie. }

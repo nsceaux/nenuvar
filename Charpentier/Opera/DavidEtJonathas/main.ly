@@ -133,7 +133,7 @@
         \smallCaps Joadab, un des chefs de l'armée des Philistins,
         ennemi de David.
       } \score {
-        \characterAmbitus "bass" "bass" fa, mib'
+        \characterAmbitus "bass" "bass" fa, mi'
         \layout { \characterLayout }
       }
       \character-ambitus \column {

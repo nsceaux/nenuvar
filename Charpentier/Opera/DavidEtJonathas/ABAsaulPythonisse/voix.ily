@@ -31,7 +31,7 @@
     s4*0^\tag #'saul ^\markup\character "Saül" do'4 |
     do'4.~ do'8 sib la |
     sib4. do'8 re' re'( |
-    \myfootnote #'NoteHead #'(1 . 2)
+    \myfootnote #'NoteHead #'(0 . 2)
     \markup { Philidor : 
       \vcenter\score {
         { \tinyQuote \key re \minor \time 3/4 \clef "vbasse"

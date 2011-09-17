@@ -77,7 +77,7 @@ do1 fa2 |
 sib,1 sib2 |
 mib1 fa2 |
 sol re1 |
-fab2. re4 mib2 |
+mib2. re4 mib2 |
 sib,1 sib,2 |
 fa mib2. re4 |
 do1 do2 |

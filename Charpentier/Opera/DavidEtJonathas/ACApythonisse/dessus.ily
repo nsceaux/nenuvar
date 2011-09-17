@@ -1,5 +1,5 @@
 \clef "dessus" r8 fa''16 mib'' re'' mib'' re'' do'' sib' do'' re'' do'' sib' do'' sib' la' |
-\myfootnote #'NoteHead #'(1 . -1)
+\myfootnote #'NoteHead #'(0 . -1)
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key re \minor \time 2/2 \clef "french"
@@ -76,7 +76,16 @@ re''2 do''2. re''4 |
 sib'1. |
 r2 r4 sib'4_"fort" re''4. mi''8 |
 fa''2. fa''4 sol''4. la''8 |
-sib''2. sib''4 fad''4. fad''8 |
+sib''2. sib''4
+\myfootnote #'NoteHead #'(0 . 1)
+\markup { Philidor : doute sur l'altération des \italic fa
+  \vcenter\score {
+    { \tinyQuote \key re \minor \time 3/2 \clef "french"
+      sib''2. sib''4 fa''4.^\markup { \null \translate #'(1.5 . 0) \sharp } fa''8 |
+    }
+    \layout { \quoteLayout }
+  }
+} fad''4. fad''8 |
 sol''1. |
 R1. |
 R1*4 |\allowPageTurn
@@ -112,7 +121,7 @@ R1. | %{%}
 re''2_"fort" r8 fad' sol' la' sib' la' sib' sol' |
 re''1 r8 re'' mi'' fad'' |
 sol''2 r8
-\myfootnote #'NoteHead #'(1 . 2)
+\myfootnote #'NoteHead #'(0 . 1)
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key re \minor \time 3/2 \clef "french"

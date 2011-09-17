@@ -51,7 +51,7 @@ sib' ( sib' ) sib' ( do'' )|
 re'' ( re'' ) re'' ( re'' )|
 do'' ( sib' ) la' ( sol' )|
 fad' ( fad' ) fad' (
-\myfootnote #'NoteHead #'(-0.5 . 4)
+\myfootnote #'NoteHead #'(0 . 4)
 \markup { Philidor : sur la quatrième noire, un
   \italic fa et un \italic sol sont indiqués.
   \vcenter\score {

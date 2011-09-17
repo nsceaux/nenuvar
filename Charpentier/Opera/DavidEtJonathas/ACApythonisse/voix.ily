@@ -95,7 +95,7 @@ sib'1. |
 R1. |
 R1.*8 |
 r8 sib sib16 sib sib sib
-\myfootnote #'NoteHead #'(1 . 3)
+\myfootnote #'NoteHead #'(0 . 3)
 \markup\wordwrap { Philidor : le ♯ apparaît entre
   la croche pointée et la double-croche, et s'applique donc peut-être à
   la double-croche suivante. }

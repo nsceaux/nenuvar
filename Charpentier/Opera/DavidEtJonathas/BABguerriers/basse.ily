@@ -38,9 +38,9 @@
 re8 mi |
 fad4 fad4. fad8 |
 \tag #'basse {
-  \myfootnoteNoLine #'NoteHead #'(-1 . 1)
+  \myfootnoteNoLine #'NoteHead #'(0 . 1)
   \markup { Philidor :
-    à partir de ce système, la ligne de basse de violon est omise.
+    à partir de cette mesure, la ligne de basse de violon est omise.
   }
 }
 sol2 sol8 sol |
@@ -72,7 +72,7 @@ la,2
     sol8 la sol fa mi fa mi re |
     do2 do4 do |
     re4. mi8 fad!4 re |
-    \myfootnote #'NoteHead #'(-1 . 1)
+    \myfootnote #'NoteHead #'(0 . 1)
     \markup {
       Philidor :
       \vcenter\score {
