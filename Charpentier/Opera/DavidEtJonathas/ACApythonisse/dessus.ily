@@ -1,5 +1,5 @@
 \clef "dessus" r8 fa''16 mib'' re'' mib'' re'' do'' sib' do'' re'' do'' sib' do'' sib' la' |
-\myfootnote #'NoteHead #'(0 . -1)
+\myfootnote #'NoteHead #(if (eqv? #t (ly:get-option 'urtext)) '(0 . -1) '(0 . 3))
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key re \minor \time 2/2 \clef "french"

@@ -61,9 +61,9 @@
                     #:clef ,(if (eqv? (ly:get-option 'dessus-sol1) #t)
                                 "french"
                                 "treble")))
-   (haute-contre "Haute-contre" ()
+   (haute-contre "Hautes-contre" ()
                  (#:notes "haute-contre" #:clef "alto"))
-   (taille "Taille" ()
+   (taille "Tailles" ()
            (#:notes "taille" #:clef "alto"))
    (basse "Basses" ()
           (#:notes "basse" #:clef "bass" #:tag-notes basse))

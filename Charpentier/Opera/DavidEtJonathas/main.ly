@@ -122,7 +122,7 @@
         \layout { \characterLayout }
       }
       \character-ambitus \line { \smallCaps David, persécuté par Saül. } \score {
-        \characterAmbitus "alto" "G_8" sol mi''
+        \characterAmbitus "alto" "G_8" sol do''
         \layout { \characterLayout }
       }
       \character-ambitus \line { \smallCaps Achis, Roi des Philistins. } \score {

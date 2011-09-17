@@ -27,8 +27,7 @@
 \pieceToc \markup { Saül, Jonathas, chœur :
   \italic { Que vois-je ? quoi, je perds } }
 \includeScore "FBAsaulJonathas"
-\noPageBreak \markup { [Il manque une page manuscrite.] }
-
+\noPageTurn
 \scene "Scène Troisième"
 "SCÈNE 3 : Jonathas, troupes de gardes et de Philistins"
 \sceneDescription \markup \wordwrap-center {
@@ -47,6 +46,7 @@
 \pieceToc \markup { David, chœur : \italic { Jamais Amour plus fidelle et plus tendre } }
 \includeScore "FDBdavidChoeur"
 
+\newBookPart #'(full-rehearsal)
 \scene "Scène Cinquième" "SCÈNE 5 : Saül, David, troupes etc."
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Saül blessé entre les bras des soldats,
@@ -56,6 +56,7 @@
   \italic { Voi traitre, et reconnoi ta nouvelle victime } }
 \includeScore "FEAdavidSaul"
 
+\newBookPart #'(full-rehearsal)
 \scene "Scène Dernière" "SCÈNE 6 : Achis, David, troupe de triomphants"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Achis, David, } troupe de triomphants.
@@ -65,6 +66,7 @@
 \pieceToc \markup {
   Achis, David : \italic { Joignez à vos exploits l'honneur du diadème } }
 \includeScore "FFBachisDavid"
+\newBookPart #'(full-rehearsal)
 \pieceToc \markup {
   Chœur : \italic { Du plus grands des héros chantons la gloire. } }
 \includeScore "FFCchoeur"

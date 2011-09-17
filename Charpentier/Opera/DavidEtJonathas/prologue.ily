@@ -3,7 +3,6 @@
 #(if (eqv? #t (ly:get-option 'urtext))
      (add-toplevel-markup parser (markup #:vspace 25)))
 
-\newBookPart #'(full-rehearsal)
 \scene "Scène Première" "SCÈNE 1 : Saül"
 \sceneDescription \markup { \smallCaps Saül. }
 \pieceToc \markup { Saül : \italic { Où suis-je ? qu'ai-je fait ? } }

@@ -161,6 +161,13 @@
 %%%
 %%% Markup commands
 %%%
+
+#(define-markup-command (lead-sheet layout props arg) (markup?)
+  (interpret-markup layout props
+                    (if (*part*)
+                        empty-markup
+                        arg)))
+
 #(define-markup-command (rehearsal-number layout props text) (string?)
    (interpret-markup layout props
      (markup #:huge #:bold text)))
