@@ -21,7 +21,7 @@ sol,2. fa,4 |
 mib,2 fa, |
 sol,1 |
 << \tag #'basse do2 \tag #'basse-continue do,2 >> %{%}
-\tag #'basse \myfootnote #'NoteHead #'(-1 . 2.5)
+\tag #'basse \myfootnote #'NoteHead #'(0 . 3)
 \markup {
   Philidor : à partir de ce point la partie de basses de violons n'est plus notée.
 }
@@ -63,7 +63,7 @@ sol2. sol4 |
 do'2 lab4 fa8 sol |
 do1 |
 do2 do'4 sib |
-\myfootnote #'NoteHead #'(1 . 1)
+\myfootnote #'NoteHead #'(0 . 1)
 \markup { Philidor :
   la première noire n'est pas notée
   \vcenter\score {

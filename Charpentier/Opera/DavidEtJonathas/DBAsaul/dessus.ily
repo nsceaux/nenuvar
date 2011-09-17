@@ -79,7 +79,7 @@ sol'1 |
     R1*3 |\allowPageTurn
     r4 lab''2 |
     r4 sol''2 |
-    \myfootnote #'NoteHead #'(1 . 1)
+    \myfootnote #'NoteHead #'(0 . 1)
     \markup { Philidor : 
       \vcenter\score {
         { \tinyQuote \key sib \major \time 3/4 \clef "french"

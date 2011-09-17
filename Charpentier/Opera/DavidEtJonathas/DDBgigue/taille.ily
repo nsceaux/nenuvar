@@ -25,7 +25,7 @@ mi' re' mi' fa'2. |
 fa'4 fa' sol' la'4. mi'8 fa'4 |
 mi' sol' mi' la' sol'2 |
 sol'4 fa'8 mi' 
-\myfootnote #'NoteHead #'(0.5 . -2)
+\myfootnote #'NoteHead #(if (eqv? #t (ly:get-option 'urtext)) '(0 . 3) '(0 . 1.5))
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key fa \major \time 6/4 \clef "mezzosoprano"

@@ -35,7 +35,7 @@ sib4 sib do' mib'! |
 re'2. re'4 |
 re'2. do'8 sib |
 la2 sib4 mib' |
-\myfootnote #'NoteHead #'(1 . -2)
+\myfootnote #'NoteHead #'(0 . 2)
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key sib \major \time 2/2 \clef "mezzosoprano"

@@ -31,7 +31,7 @@ sol'2. ~|
 sol'8 fa' sol' la' sol' fa' |
 mi'4 mi' mi' |
 re'8 mi'
-\myfootnote #'NoteHead #'(1 . -3)
+\myfootnote #'NoteHead #'(0 . -4)
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key do \major \time 3/4 \clef "mezzosoprano"

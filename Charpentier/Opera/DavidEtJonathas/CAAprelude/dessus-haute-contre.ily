@@ -18,7 +18,7 @@
   }
   \setMusic #'Ahc {
     si'8 do'' re'' do'' si' 
-    \myfootnote #'NoteHead #'(-1 . 2)
+    \myfootnote #'NoteHead #'(0 . 1)
     \markup { Philidor : 
       \vcenter\score {
         { \tinyQuote \key do \major \time 3/4 \clef "soprano"

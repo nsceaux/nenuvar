@@ -3,7 +3,7 @@ R2.*15 |
 R1*25 |
 R2.*20 |
 r4 do''
-\myfootnote #'NoteHead #'(-1 . 1)
+\myfootnote #'NoteHead #'(0 . 1)
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key do \major \time 3/4 \clef "mezzosoprano"
@@ -89,7 +89,7 @@ sol' la'8 sol' fa' mi' |
 re'4 sol'8 sol' fa' sol' |
 sol'4 sol'4. sol'8 |
 sol'4 fa'8 %{ mib' %}
-\myfootnote #'NoteHead #'(-1 . -2)
+\myfootnote #'NoteHead #'(0 . 2)
 \markup { Philidor : 
   \vcenter\score {
     { \tinyQuote \key do \major \time 3/4 \clef "mezzosoprano"
