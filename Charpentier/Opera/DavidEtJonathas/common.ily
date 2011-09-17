@@ -107,9 +107,6 @@ scene =
     \fontsize #2 \fill-line { \fromproperty #'toc:text }
     \null
   }
-  tocSceneMarkup = \markup \italic \column {
-    \fill-line { \fromproperty #'toc:text }
-  }
 }
 
 %%%

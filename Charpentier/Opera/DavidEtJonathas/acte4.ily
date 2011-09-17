@@ -11,7 +11,7 @@
   de se séparer. David lui déclare que bien loin de combattre contre
   Saül, il ne pensera qu'à sauver son Prince & son ami.
 }
-\scene "Scène Première" "Scène 1 : David"
+\scene "Scène Première" "SCÈNE 1 : David"
 \sceneDescription \markup \wordwrap-center \smallCaps { David. }
 \pieceTocTitle "Prélude"
 \includeScore "EAAprelude"
@@ -20,12 +20,12 @@
 \includeScore "EABdavid"
 
 \newBookPart #'(full-rehearsal)
-\scene "Scène Seconde" "Scène 2 : Jonathas, David"
+\scene "Scène Seconde" "SCÈNE 2 : Jonathas, David"
 \sceneDescription \markup \wordwrap-center \smallCaps { Jonathas, David. }
 \pieceToc \markup { Jonathas, David : \italic { Vous me fuiez ! } }
 \includeScore "EBAjonathasDavid"
 
-\scene "Scène Troisième" "Scène 3 : Jonathas"
+\scene "Scène Troisième" "SCÈNE 3 : Jonathas"
 \sceneDescription \markup \wordwrap-center \smallCaps {
   Jonathas, "[troupes" d'Israëlites et de "Philistins.]"
 }
@@ -33,14 +33,14 @@
 \includeScore "ECAjonathasChoeur"
 
 \newBookPart #'(full-rehearsal)
-\scene "Scène IV" "Scène 4 : Saül, Achis"
+\scene "Scène IV" "SCÈNE 4 : Saül, Achis"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Saül, Achis, Jonathas, Joadab, } troupes d'Israélites et de Philistins.
 }
 \pieceToc \markup { Saül, Achis }
 \includeScore "EDAsaulAchis"
 
-\scene "Scène V" "Scène 5 : Achis, Joadab"
+\scene "Scène V" "SCÈNE 5 : Achis, Joadab"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Achis, Joadab, } troupes etc.
 }

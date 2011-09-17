@@ -12,18 +12,18 @@
 }
 \pieceToc "[Symphonie]"
 \includeScore "DAAsymphonie"
-\scene "Scène Première" "Scène 1 : Saül, Achis"
+\scene "Scène Première" "SCÈNE 1 : Saül, Achis"
 \sceneDescription \markup \wordwrap-center \smallCaps { Saül, Achis }
 \pieceToc \markup { Saül, Achis : \italic { Ah ! je dois assûrer } }
 \includeScore "DABsaulAchis"
 
-\scene "Scène Seconde" "Scène 2 : Saül"
+\scene "Scène Seconde" "SCÈNE 2 : Saül"
 \sceneDescription \markup \wordwrap-center \smallCaps { Saül }
 \pieceToc \markup { Saül : \italic { Objet d'une implacable haine } }
 \includeScore "DBAsaul"
 
 \newBookPart #'(full-rehearsal)
-\scene "Scène Troisième" "Scène 3 : David, Jonathas, Joadab, troupes"
+\scene "Scène Troisième" "SCÈNE 3 : David, Jonathas, Joadab, troupes"
 \sceneDescription \markup \wordwrap-center \smallCaps { 
   Saül, Davis, Jonathas, Joadab, troupes etc.
 }
@@ -31,7 +31,7 @@
   \italic { David peut-il attendre } }
 \includeScore "DCAjonathasDavidSaul"
 
-\scene "Scène Quatrième" "Scène 4 : Joadab"
+\scene "Scène Quatrième" "SCÈNE 4 : Joadab"
 \sceneDescription \markup \wordwrap-center \smallCaps {
   Joadab, "[troupe" de "Philistins]"
 }

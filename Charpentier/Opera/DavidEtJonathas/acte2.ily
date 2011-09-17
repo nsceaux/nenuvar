@@ -13,7 +13,7 @@
      (add-toplevel-markup parser (markup #:vspace 40)))
 \pieceTocTitle "Prélude"
 \includeScore "CAAprelude"
-\scene "Scène Première" "Scène 1 : Joadab, David"
+\scene "Scène Première" "SCÈNE 1 : Joadab, David"
 \sceneDescription \markup \wordwrap-center \smallCaps { Joadab, David }
 \pieceToc \markup { Joadab : \italic { Quel inutile soin en ces lieux vous arreste ? } }
 \includeScore "CABjoadab"
@@ -21,7 +21,7 @@
 \includeScore "CACdavid"
 
 \newBookPart #'(full-rehearsal)
-\scene "Scène Seconde" "Scène 2 : Joadab, chœurs de la suite de David et Jonathas"
+\scene "Scène Seconde" "SCÈNE 2 : Joadab, chœurs de la suite de David et Jonathas"
 \sceneDescription \markup \wordwrap-center \smallCaps {
   Joadab, chœurs de la suite de David et de Jonathas
   qu'on entend & qu'on ne voit point.
@@ -33,7 +33,7 @@
 \pieceToc \markup { Joadab : \italic { David au comble de la gloire } }
 \includeScore "CBCjoadabChoeur"
 
-\scene "Scène Troisiesme" "Scène 3 : David, Jonathas, troupes etc"
+\scene "Scène Troisiesme" "SCÈNE 3 : David, Jonathas, troupes etc"
 \sceneDescription \markup \wordwrap-center \smallCaps {
   David, Jonathas, troupes de la suite de l'un et de l'autre.
 }
