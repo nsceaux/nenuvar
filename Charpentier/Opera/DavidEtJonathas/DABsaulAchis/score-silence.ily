@@ -48,6 +48,6 @@
     \line { Il vient faire éclater son triomphe à mes yeux. }
     \bold Achis
     \sline { Bientost vous le verrez paraître. }
-    \line { Lui-mesme devant nousvous il se deffendra mieux. }
+    \line { Lui-mesme devant vous il se deffendra mieux. }
   }
 }

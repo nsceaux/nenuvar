@@ -22,7 +22,7 @@
       est une version \italic urtext, reproduisant les sauts de pages et de lignes
       du manuscrit Philidor, et utilisant les mêmes clés et la même façon d'altérer les
       notes (avec uniquement des signes \figure-flat et \figure-sharp) afin de faciliter
-      la relecture par rapport à la source.  Le second \mod-version { (celui-ci) }
+      la comparaison avec la source.  Le second \mod-version { (celui-ci) }
       diffère du premier dans les clés utilisées, qui sont "modernisées ;" sa mise en
       page n'est par ailleurs pas contrainte.
       Dans les deux cas, les écarts par rapport à la source sont signifiés par une note
@@ -33,13 +33,14 @@
       \hspace #4 Le manuscrit Philidor est lacunaire : il manque notamment deux pages
       à la fin de la chaconne du deuxième acte.  En quelques endroits, une voix est
       "manquante ;" dans ces cas, plutôt que de laisser un vide, des notes sont proposées,
-      différencées par une taille plus petite.
+      dans une taille plus petite.
     }
     \null
     \justified-lines {
-      \hspace #4 Le livret imprimé référencé ci-dessous est restitué en annexe.
-      Les indications scéniques qu'il contient ont été ajoutées dans la partitions.
+      \hspace #4 Le livret imprimé référencé ci-dessous est restitué en préambule.
+      Les indications scéniques qu'il contient ont été ajoutées dans la partition.
       Il a été consulté en cas de doute sur le texte chanté copié dans le manuscrit.
+      L'orthographe utilisée pour les textes est celle du livret imprimé.
     }
     \null
     \justified-lines {
@@ -55,8 +56,10 @@
     \justified-lines {
       \hspace #4 Cette édition est distribuée selon les termes de la licence Creative
       Commons Attribution 3.0.  Il est donc permis, et encouragé, de jouer cette
-      partition, de la distribuer, l'imprimer.  Afin de l'améliorer, il est également
-      encouragé de remonter les erreurs qui pourront être détectées, ou même des
+      partition, de la distribuer, l'imprimer.  Il est par ailleurs possible de créer
+      des variantes de ce matériel, par exemple pour changer la clé utilisée pour un
+      instrument.  En outre, afin d'améliorer cette éditions, il est encouragé de
+      remonter les erreurs qui pourront être décelées, ou même des
       propositions pour combler les lacunes du manuscrit, à l'adresse
       \concat {
         \with-url #"mailto:nicolas.sceaux@free.fr"
@@ -64,11 +67,9 @@
       }
     }
 
-
     \vspace #1.0
     \bold Références
     \column-lines {
-      
       \vspace #1.0
       \line { \hspace #2 \bold { Source : } Bibliothèque nationale de France, RES-F-924.
         \with-url #"http://gallica.bnf.fr/ark:/12148/bpt6k109662b"
@@ -95,7 +96,6 @@
         et Pierre Esclassan. M.DC.LXXXVIII
       }
       \line { \hspace #2 \bold { Date d'édition : } 1688 }
-      
     }
   }
   \pageBreak
@@ -103,6 +103,8 @@
   %% Table of contents
   \markuplines \table-of-contents
 }
+
+\include "Charpentier/Opera/DavidEtJonathas/livret.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Prologue
@@ -221,5 +223,3 @@
 \include "Charpentier/Opera/DavidEtJonathas/acte3.ily"
 \include "Charpentier/Opera/DavidEtJonathas/acte4.ily"
 \include "Charpentier/Opera/DavidEtJonathas/acte5.ily"
-
-\include "Charpentier/Opera/DavidEtJonathas/livret.ily"

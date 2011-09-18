@@ -145,4 +145,4 @@
   \livretVerC { Joüir des plaisirs les plus doux. }
   \livretDidasP\line { Les violons continüent la Chaconne pour interméde. }
 }
-\markup\separation-line #25
+\markup\sep

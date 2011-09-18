@@ -94,8 +94,8 @@
 #(define-markup-command (livretDidasP layout props text) (markup?)
    (interpret-markup
     layout props
-    (markup #:force-line-width-ratio 3/20 #:null
-            #:fontsize 0 #:force-line-width-ratio 7/10
+    (markup #:force-line-width-ratio 1/20 #:null
+            #:fontsize 0 #:force-line-width-ratio 9/10
             #:fill-line (#:null #:italic text))))
 
 #(define-markup-command (livretPers layout props text next) (markup? markup?)
@@ -107,7 +107,7 @@
              next))))
 
 #(define livret-verse-aux
-   (let ((gauge-string "L'heure aproche où l Hymen voudra qu elle se livre")
+   (let ((gauge-string "Qu entends-je ? il va périr ! quelle fureur m")
          (gap #f))
      (define (make-verse verse)
        (markup #:hspace gap #:fontsize 1 verse))
@@ -136,8 +136,12 @@
    (interpret-markup
     layout props
     (markup #:combine
-            #:with-link ref #:line ("Page" #:page-refIII ref "")
+            #:with-link ref #:line ("[Page" #:page-refIII ref "]")
             next)))
 
 #(define-markup-command (invisible layout props arg) (markup?)
   (interpret-markup layout props (make-with-color-markup white arg)))
+
+#(define-markup-command (sep layout props) ()
+   (interpret-markup layout props
+                     (markup #:pad-around 1 #:fill-line (#:draw-line '(50 . 0)))))

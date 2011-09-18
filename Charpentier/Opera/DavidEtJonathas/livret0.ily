@@ -1,3 +1,4 @@
+\markup\act LIVRET
 \markup\n-columns {
   \livretAct PROLOGUE
   \livretScene \line { SCENE PREMIERE }
