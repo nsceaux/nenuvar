@@ -58,7 +58,7 @@
       Commons Attribution 3.0.  Il est donc permis, et encouragé, de jouer cette
       partition, de la distribuer, l'imprimer.  Il est par ailleurs possible de créer
       des variantes de ce matériel, par exemple pour changer la clé utilisée pour un
-      instrument.  En outre, afin d'améliorer cette éditions, il est encouragé de
+      instrument.  En outre, afin d'améliorer cette édition, il est encouragé de
       remonter les erreurs qui pourront être décelées, ou même des
       propositions pour combler les lacunes du manuscrit, à l'adresse
       \concat {
