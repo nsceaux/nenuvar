@@ -1,5 +1,4 @@
-\markuplines \column-lines {
-  \livretAct LIVRET
+\markup\n-columns {
   \livretAct PROLOGUE
   \livretScene \line { SCENE PREMIERE }
   \livretRef #'AABsaul
@@ -52,7 +51,7 @@
   \livretVer { Tout m'obéit ; tout céde à mes charmes vainqueurs. }
   \livretVerC { Esprits que mon ordre rassemble, }
   \livretVer { Venez, venez Démons ; secondez mes Fureurs. }
-  \livretDidasP\line {
+  \livretDidasP\wordwrap {
     Une troupe de Démons se présente à la Pythonisse ;
     & elle appelle Samüel. }
   \null

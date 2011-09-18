@@ -1,4 +1,4 @@
-\markuplines \column-lines {
+\markup\n-columns {
   \livretAct\line { ACTE PREMIER }
   \livretScene\line { SCENE PREMIERE }
   \livretDescAtt\wordwrap-center {
@@ -135,7 +135,7 @@
   \livretVerC { Un cœur n'a jamais bien gouté, }
   \livretVerC { Sans les rigueurs de l'esclavage, }
   \livretVerC { Les douceurs de la liberté. }
-  \livretPers\line { Chœur }
+  \livretPers\line { CHŒUR }
   \livretVerC { Un cœur n'a jamais bien gouté, }
   \livretVerC { Sans les rigueurs de l'esclavage, }
   \livretVerC { Les douceurs de la liberté. }

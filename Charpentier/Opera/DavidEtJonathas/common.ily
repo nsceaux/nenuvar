@@ -50,7 +50,7 @@
 \include "italiano.ly"
 \include "common/common.ily"
 \include "common/toc-columns.ily"
-\include "common/livret.ily"
+\include "common/livret-columns.ily"
 \include "common/alterations.ily"
 \setOpus "Charpentier/Opera/DavidEtJonathas"
 \opusTitle "David et Jonathas"
