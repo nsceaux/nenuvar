@@ -81,6 +81,11 @@ cesureDown = {
   \breathe
 }
 
+cesureInstr = {
+  \once\override BreathingSign #'text = \markup \musicglyph #"scripts.caesura.straight"
+  \breathe
+}
+
 %% + with an arc above (like a formata with a + signe instead of dot)
 arcTrill =
 #(make-music 'TextScriptEvent

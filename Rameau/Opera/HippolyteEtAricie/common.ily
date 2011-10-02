@@ -5,6 +5,16 @@
   date = "Version de 1757"
 }
 
+%% LilyPond options:
+%%  urtext  if true, then print urtext score
+%%  part    if a symbol, then print the separate part score
+#(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
+
+%% use baroque style repeats
+#(ly:set-option 'baroque-repeats #t)
+
 %% Staff size:
 %%  14 for lead sheets
 %%  16 for vocal parts
@@ -24,12 +34,15 @@
                              ly:page-turn-breaking))
 }
 
-%% Use rehearsal numbers in parts
-#(if (symbol? (ly:get-option 'part))
-     (ly:set-option 'use-rehearsal-numbers #t))
+%% No key signature modification
+#(ly:set-option 'forbid-key-modification #t)
 
-%% No incipits for parts
-#(ly:set-option 'non-incipit (not (not (ly:get-option 'part))))
+%% Use rehearsal numbers
+#(ly:set-option 'use-rehearsal-numbers #t)
+
+\layout {
+  reference-incipit-width = #(* 1/2 mm)
+}
 
 %% Tremolo for string instruments
 #(if (memq (ly:get-option 'part) '(violon1 violon2 haute-contre taille basse basse-continue))
@@ -42,37 +55,18 @@
 \opusTitle "Hippolyte et Aricie"
 
 \opusPartSpecs #`(
-  ;; fake parts, for defining defaults
+  ;; Dessus de violons, flutes, hautbois, sans distinction
   (dessus "" () (#:notes "dessus" #:tag-notes dessus))
-  (dessus1 "" () (#:notes "dessus" #:tag-notes dessus1))
-  (dessus2 "" () (#:notes "dessus" #:tag-notes dessus2))
-
-  (violon "" () (#:notes "dessus" #:tag-notes violons))
-  (flute "" () (#:notes "dessus" #:tag-notes flutes))
-  (hautbois "" () (#:notes "dessus" #:tag-notes hautbois))
   ;; real parts
-  (violon1 "Violon I" ((violon #f) (dessus1 #f) (dessus #f))
-           (#:notes "dessus" #:tag-notes violon1))
-  (violon2 "Violon II" ((violon #f) (dessus2 #f) (dessus #f))
-           (#:notes "dessus" #:tag-notes violon2))
-  (flute1 "Flûte I" (;
-                     (flute #f) (dessus1 #f) (dessus #f)
-                     (hautbois1 "Hautbois") (hautbois "Hautbois")
-                     (violon1 "Violons") (violon "Violons"))
-          (#:notes "dessus" #:tag-notes flute1))
-  (flute2 "Flûte II" (;
-                     (flute #f) (dessus2 #f) (dessus #f)
-                     (hautbois2 "Hautbois") (hautbois "Hautbois")
-                     (violon2 "Violons") (violon "Violons"))
-          (#:notes "dessus" #:tag-notes flute2))
-  (hautbois1 "Hautbois I" (;
-                           (hautbois #f) (dessus1 #f) (dessus #f)
-                           (violon1 "Violons") (violon "Violons"))
-             (#:notes "dessus" #:tag-notes hautbois1))
-  (hautbois2 "Hautbois II" (;
-                           (hautbois #f) (dessus2 #f) (dessus #f)
-                           (violon2 "Violons") (violon "Violons"))
-             (#:notes "dessus" #:tag-notes hautbois2))
+  (violons "Violons I et II" ((violon #f) (dessus1 #f) (dessus #f))
+           (#:notes "dessus" #:tag-notes violons))
+  (flutes "Flûtes I et II" ((dessus #f)
+                            (hautbois "Hautbois")
+                            (violons "Violons"))
+          (#:notes "dessus" #:tag-notes flutes))
+  (hautbois "Hautbois I et II" ((dessus #f)
+                                (violons "Violons"))
+            (#:notes "dessus" #:tag-notes hautbois))
   (trompette "Trompette" () (#:notes "dessus" #:tag-notes trompette))
   (cor "Cors en ré" () (#:notes "cor"))
   (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
@@ -80,7 +74,6 @@
   (basse "Basses" () (#:notes "basse" #:clef "bass" #:tag-notes basse))
   (basson "Bassons" ((basse "Basses"))
           (#:notes "basse" #:clef "bass" #:tag-notes basson #:instrument "Bassons"))
-  (voix "Parties vocales" () (#:score-template "score-voix" #:notes "voix"))
   (timbales "Timbales" () (#:notes "timbales" #:clef "bass"))
   (basse-continue "Basse continue" ((basse #f))
                   (#:notes "basse" #:tag-notes basse #:clef "bass"

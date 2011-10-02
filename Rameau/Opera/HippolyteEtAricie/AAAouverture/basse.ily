@@ -25,7 +25,11 @@ R1*4 |
   \tag #'basse << \new CueVoice { \voiceOne s8*0^"Bassons" \basson }
     { \voiceTwo R1*2 r8 }
   >>
-  \tag #'tous << s8*0^"Bassons" \basson >>
+  \tag #'tous << s8*0^"Bassons" {
+      \basson
+      \once\override BreathingSign #'Y-offset = #3 \cesureInstr
+    }
+  >>
 >>
 \oneVoice \clef "basse" re'8[-\tag #'tous _"Tous" re' do'] sib sib sib la |
 sol sol sol fa mi mi mi re |
@@ -48,7 +52,12 @@ fa,8
   \tag #'basse << \new CueVoice { \voiceOne s8*0^"Bassons" \basson }
     { \voiceTwo r8 r4 r2 r8 }
   >>
-  \tag #'tous << s8*0^"Bassons" \basson >>
+  \tag #'tous {
+    s8*0^"Bassons"
+    \once\override BreathingSign #'Y-offset = #-3 \cesureInstr
+    \basson
+    \once\override BreathingSign #'Y-offset = #3 \cesureInstr
+  }
 >>
 \oneVoice do8[-\tag #'tous _"Tous" do do] sib, sib, sib, la, |
 sol,
@@ -58,7 +67,12 @@ sol,
   \tag #'basse << \new CueVoice { \voiceOne s8*0^"Bassons" \basson }
     { \voiceTwo r8 r4 r2 r8 }
   >>
-  \tag #'tous << s8*0^"Bassons" \basson >>
+  \tag #'tous {
+    s8*0^"Bassons"
+    \once\override BreathingSign #'Y-offset = #-3 \cesureInstr
+    \basson
+    \once\override BreathingSign #'Y-offset = #3 \cesureInstr
+  }
 >>
 \oneVoice re8[-\tag #'tous _"Tous" re do] sib, sib, sib, sol, |
 la,2 r |

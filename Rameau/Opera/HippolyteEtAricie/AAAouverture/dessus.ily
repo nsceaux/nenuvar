@@ -40,25 +40,26 @@ sib'2 r8 re'' do'' sib' |
 la'4 la' re''4. mi''8 |
 dod''4.\trill la'8 mi''4. mi''8 |
 <<
-  \tag #'(dessus violon1 hautbois) {
-    \tag #'dessus \voiceOne
-    mi''1-\tag #'dessus ^\markup { Violons I et hautbois } ~|
+  \tag #'(dessus violons violon1 hautbois) {
+    \tag #'(violons dessus) \voiceOne
+    mi''1-\tag #'(dessus violons) ^\markup { \concat { P \super ers } violons et les hautbois } ~|
     mi'' ~|
     mi'' ~|
     mi'' ~|
     mi''4.
   }
-  \tag #'(dessus violon2) \new Voice {
-    \tag #'dessus \voiceTwo
-    mi''8-\tag #'dessus _\markup { Violons II } mi' mi' fad' sold' sold' sold' la' |
+  \tag #'(dessus violons violon2) \new Voice {
+    \tag #'(violons dessus) \voiceTwo
+    mi''8-\tag #'(dessus violons) _\markup { \concat { 2 \super es } violons }
+    mi' mi' fad' sold' sold' sold' la' |
     si' si' si' do'' re'' re'' do''\trill si' |
-    do'' la' mi'4 r2 |
+    do'' la' la4 r2 |
     R1 |
     r4 r8 
   }
 >>
-\tag #'dessus \oneVoice
-la'8 re''4. re''8 |
+\tag #'(violons dessus) \oneVoice
+la'8-\tag #'violons ^"[unis]" re''4. re''8 |
 re''4 do''8\trill si' do''4. do''8 |
 do''4. si'8 si'4.\trill la'8 |
 la' la' la' si' dod'' dod'' dod'' re'' |
