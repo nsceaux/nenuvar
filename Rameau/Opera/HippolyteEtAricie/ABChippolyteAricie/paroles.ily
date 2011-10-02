@@ -4,10 +4,10 @@
 }
 \tag #'(aricie basse) {
   %% ARICIE.
-  Phè -- dre sur sa cap -- tive a des droits ab -- so -- "lus ;"
+  Phé -- dre sur sa cap -- tive a des droits ab -- so -- "lus ;"
   que sert de nous ai -- "mer ?" Nous ne nous ver -- rons plus.
 }
 \tag #'(hippolyte basse) {
   %% HIPPOLYTE.
-  Ô Di -- a -- "ne !" Pro -- tè -- ge u -- ne fla -- mme si bel -- le.
+  O Di -- a -- "ne !" Pro -- té -- ge u -- ne flam -- me si bel -- le.
 }

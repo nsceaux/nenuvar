@@ -1,4 +1,4 @@
-\clef "basse" s4 re2 |
+\clef "basse" \parenthesize r4 re2 |
 dod si, |
 la, lad,4 |
 si,2 re |
