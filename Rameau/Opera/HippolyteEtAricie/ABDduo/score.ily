@@ -1,10 +1,10 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new Staff << \instrumentName \markup { Violons I }
-                    \global \includeNotes "violon1" >>
-      \new Staff << \instrumentName \markup { Violons II }
-                    \global \includeNotes "violon2" >>
+    \new GrandStaff <<
+      \new Staff << \instrumentName \markup { \concat {"[P" \super rs "]" } Violons }
+                   \global \includeNotes "violon1" >>
+      \new Staff << \instrumentName \markup { \concat {"[2" \super es "]" } Violons }
+                   \global \includeNotes "violon2" >>
     >>
     \new Staff \withLyrics <<
       \characterName \markup Aricie
@@ -14,7 +14,7 @@
       \characterName \markup Hippolyte
       \global \includeNotes "hippolyte"
     >> \includeLyrics "paroles-hippolyte"
-    \new Staff << \instrumentName \markup "Basses"
+    \new Staff << \instrumentName \markup "Les Basses"
                   \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
