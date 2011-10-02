@@ -1,7 +1,7 @@
-r4\noBreak R1\noBreak R2.\noBreak \grace s8 R1\noBreak R2.*2\noBreak
-\grace s8 R1\noBreak \grace s8 R2.\noBreak R1\noBreak R2.\noBreak
-R1*2\noBreak \grace s8 R1\noBreak R2.*3\noBreak R1\noBreak R2.
-R1\noBreak R1\noBreak R1\noBreak R1\noBreak R2.*2\noBreak \grace s8
-R1*5\noBreak R1\noBreak \grace s8 R1*2\noBreak R2.*8\noBreak
-R1\noBreak R2.*2\noBreak R1\noBreak \grace s8 R1*2\noBreak R2.\noBreak
-r2
+r4 R1 R2. \grace s8 R1 R2.*2
+\grace s8 R1 \grace s8 R2. R1 R2.
+R1*2 \grace s8 R1 R2.*3 R1 R2.
+R1 R1 R1 R1 R2.*2 \grace s8
+R1*5 R1 \grace s8 R1*2 R2.*8
+R1 R2.*2 R1 \grace s8 R1*2 R2.
+r4 r

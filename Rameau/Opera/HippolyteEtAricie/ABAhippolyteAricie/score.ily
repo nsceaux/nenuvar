@@ -6,7 +6,7 @@
     \new Staff \withLyrics <<
       \global \keepWithTag #'hippolyte \includeNotes "voix"
     >> \keepWithTag #'hippolyte \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup \center-column { Basse continue }
+    \new Staff << \instrumentName "[B.C.]"
       \global \includeNotes "basse"
       \includeFigures "chiffres" >>
   >>

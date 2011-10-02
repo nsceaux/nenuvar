@@ -11,8 +11,8 @@ la2 sol4 |
 fad2 sol4 sold |
 la8. fad16 sol2 la4 |
 re2 red |
-mi2. |
-fad |
+mi2~ mi4 |
+fad2. |
 si2 la4 |
 sol4. fad8 mi4 sol |
 fad2 ~ fad8 re |
@@ -21,12 +21,12 @@ fad fad, |
 si,4 re2 re,4 |
 la,1 |
 la,2. ~|
-la, |
+la, |\allowPageTurn
 r4 dod2. |
 re2 dod |
 lad,1 |
 si,2 re |
-la,2. sold,8 fad, |
+la,2~ la,4 sold,8 fad, |
 dod2 dod, |
 fad, r8 re la8. re16 |
 la,2 re |

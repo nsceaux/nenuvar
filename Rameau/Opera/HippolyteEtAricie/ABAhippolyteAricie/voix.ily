@@ -90,6 +90,6 @@
     \tag #'basse \hippolyteMark fad dod'4 dod'16 r fad' fad' |
     red'4\trill red'8 red' mi'4 mi'8 fad' |
     \appoggiatura fad' sol'4 << \tag #'hippolyte sol'4 \tag #'basse { sol'16 s8. } >>
-    \tag #'hippolyte { r2 | R1 | R2. | r2 }
+    \tag #'hippolyte { r2 | R1 | R2. | r4 r }
   }
 >>
