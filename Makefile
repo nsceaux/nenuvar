@@ -1440,42 +1440,30 @@ PancraceRoyer/PremierLivre-all: \
 ### Jean-Philippe Rameau (1683-1764)
 ###
 ### Hippolyte et Aricie
-# Conducteur
+# Version urtext
+Rameau/Opera/HippolyteEtAricie-urtext:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/HippolyteEtAricie-urtext -durtext \
+	Rameau/Opera/HippolyteEtAricie/main.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-urtext
+# Version de concert, avec clés modernisées
 Rameau/Opera/HippolyteEtAricie:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie  \
 	Rameau/Opera/HippolyteEtAricie/main.ly
 .PHONY: Rameau/Opera/HippolyteEtAricie
-# rehearsal
-Rameau/Opera/HippolyteEtAricie-rehearsal:
+# Flûtes
+Rameau/Opera/HippolyteEtAricie-flutes:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/HippolyteEtAricie-rehearsal -d use-rehearsal-numbers \
-	Rameau/Opera/HippolyteEtAricie/main.ly
-.PHONY: Rameau/Opera/HippolyteEtAricie-rehearsal
-# Flûte I
-Rameau/Opera/HippolyteEtAricie-flute1:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/HippolyteEtAricie-flute1 -dpart=flute1  \
+	-o $(OUTPUT_DIR)/HippolyteEtAricie-flutes -dpart=flutes  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
-.PHONY: Rameau/Opera/HippolyteEtAricie-flute1
-# Flûte II
-Rameau/Opera/HippolyteEtAricie-flute2:
+.PHONY: Rameau/Opera/HippolyteEtAricie-flutes
+# Hautbois
+Rameau/Opera/HippolyteEtAricie-hautbois:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/HippolyteEtAricie-flute2 -dpart=flute2  \
+	-o $(OUTPUT_DIR)/HippolyteEtAricie-hautbois -dpart=hautbois  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
-.PHONY: Rameau/Opera/HippolyteEtAricie-flute2
-# Hautbois I
-Rameau/Opera/HippolyteEtAricie-hautbois1:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/HippolyteEtAricie-hautbois1 -dpart=hautbois1  \
-	Rameau/Opera/HippolyteEtAricie/part.ly
-.PHONY: Rameau/Opera/HippolyteEtAricie-hautbois1
-# Hautbois II
-Rameau/Opera/HippolyteEtAricie-hautbois2:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/HippolyteEtAricie-hautbois2 -dpart=hautbois2  \
-	Rameau/Opera/HippolyteEtAricie/part.ly
-.PHONY: Rameau/Opera/HippolyteEtAricie-hautbois2
+.PHONY: Rameau/Opera/HippolyteEtAricie-hautbois
 # Trompette
 Rameau/Opera/HippolyteEtAricie-trompette:
 	$(LILYPOND_CMD) \
@@ -1488,31 +1476,25 @@ Rameau/Opera/HippolyteEtAricie-cor:
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-cor -dpart=cor  \
 	Rameau/Opera/HippolyteEtAricie/part-cor.ly
 .PHONY: Rameau/Opera/HippolyteEtAricie-cor
-# Basson
+# Bassons
 Rameau/Opera/HippolyteEtAricie-basson:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-basson -dpart=basson  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
 .PHONY: Rameau/Opera/HippolyteEtAricie-basson
-# Violon I
-Rameau/Opera/HippolyteEtAricie-violon1:
+# Violons
+Rameau/Opera/HippolyteEtAricie-violons:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/HippolyteEtAricie-violon1 -dpart=violon1  \
+	-o $(OUTPUT_DIR)/HippolyteEtAricie-violons -dpart=violons  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
-.PHONY: Rameau/Opera/HippolyteEtAricie-violon1
-# Violon II
-Rameau/Opera/HippolyteEtAricie-violon2:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/HippolyteEtAricie-violon2 -dpart=violon2  \
-	Rameau/Opera/HippolyteEtAricie/part.ly
-.PHONY: Rameau/Opera/HippolyteEtAricie-violon2
-# Haute-contre
+.PHONY: Rameau/Opera/HippolyteEtAricie-violons
+# Hautes-contre
 Rameau/Opera/HippolyteEtAricie-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-haute-contre -dpart=haute-contre  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
 .PHONY: Rameau/Opera/HippolyteEtAricie-haute-contre
-# Taille
+# Tailles
 Rameau/Opera/HippolyteEtAricie-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-taille -dpart=taille  \
@@ -1536,32 +1518,22 @@ Rameau/Opera/HippolyteEtAricie-basse-continue:
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-basse-continue -dpart=basse-continue  \
 	Rameau/Opera/HippolyteEtAricie/part-bc.ly
 .PHONY: Rameau/Opera/HippolyteEtAricie-basse-continue
-# Parties vocales
-Rameau/Opera/HippolyteEtAricie-voix:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/HippolyteEtAricie-voix -dpart=voix  \
-	Rameau/Opera/HippolyteEtAricie/part.ly
-.PHONY: Rameau/Opera/HippolyteEtAricie-voix
 
 Rameau/Opera/HippolyteEtAricie-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/HippolyteEtAricie
+	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-urtext.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
-	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-rehearsal.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
-	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-flute1.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-flute1.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
-	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-flute2.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-flute2.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
-	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-hautbois1.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-hautbois1.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
-	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-hautbois2.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-hautbois2.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
+	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-flutes.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-flutes.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
+	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-hautbois.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-hautbois.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-trompette.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-trompette.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-cor.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-cor.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-basson.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-basson.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
-	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-violon1.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-violon1.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
-	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-violon2.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-violon2.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
+	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-violons.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-violons.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-haute-contre.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-taille.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-basse.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-timbales.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-basse-continue.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
-	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-voix.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-voix.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie/HippolyteEtAricie-midi.tar.gz $(OUTPUT_DIR)/HippolyteEtAricie.midi $(OUTPUT_DIR)/HippolyteEtAricie-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/HippolyteEtAricie.midi ]; then cp $(OUTPUT_DIR)/HippolyteEtAricie.midi $(DELIVERY_DIR)/Rameau/HippolyteEtAricie/ ; fi
 	git archive --prefix=HippolyteEtAricie/ HEAD Rameau/Opera/HippolyteEtAricie common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/HippolyteEtAricie/HippolyteEtAricie.tar.gz
 
@@ -1569,23 +1541,19 @@ Rameau/Opera/HippolyteEtAricie-clean:
 	@rm -f $(OUTPUT_DIR)/HippolyteEtAricie-* $(OUTPUT_DIR)/HippolyteEtAricie.*
 
 Rameau/Opera/HippolyteEtAricie-all: \
+	Rameau/Opera/HippolyteEtAricie-urtext \
 	Rameau/Opera/HippolyteEtAricie \
-	Rameau/Opera/HippolyteEtAricie-rehearsal \
-	Rameau/Opera/HippolyteEtAricie-flute1 \
-	Rameau/Opera/HippolyteEtAricie-flute2 \
-	Rameau/Opera/HippolyteEtAricie-hautbois1 \
-	Rameau/Opera/HippolyteEtAricie-hautbois2 \
+	Rameau/Opera/HippolyteEtAricie-flutes \
+	Rameau/Opera/HippolyteEtAricie-hautbois \
 	Rameau/Opera/HippolyteEtAricie-trompette \
 	Rameau/Opera/HippolyteEtAricie-cor \
 	Rameau/Opera/HippolyteEtAricie-basson \
-	Rameau/Opera/HippolyteEtAricie-violon1 \
-	Rameau/Opera/HippolyteEtAricie-violon2 \
+	Rameau/Opera/HippolyteEtAricie-violons \
 	Rameau/Opera/HippolyteEtAricie-haute-contre \
 	Rameau/Opera/HippolyteEtAricie-taille \
 	Rameau/Opera/HippolyteEtAricie-basse \
 	Rameau/Opera/HippolyteEtAricie-timbales \
-	Rameau/Opera/HippolyteEtAricie-basse-continue \
-	Rameau/Opera/HippolyteEtAricie-voix\
+	Rameau/Opera/HippolyteEtAricie-basse-continue\
 	Rameau/Opera/HippolyteEtAricie-delivery\
 	Rameau/Opera/HippolyteEtAricie-clean
 
