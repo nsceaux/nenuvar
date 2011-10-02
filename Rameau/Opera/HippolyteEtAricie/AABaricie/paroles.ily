@@ -1,6 +1,6 @@
 Tem -- ple sa -- cré, sé -- jour tran -- quil -- le,
 où Dia -- ne au -- jour -- d’hui va re -- ce -- voir mes vœux,
-à mon cœur a -- gi -- té dai -- gne ser -- vir d’a -- si -- le
+à mon cœur a -- gi -- té dai -- gne ser -- vir d’a -- sy -- le
 contre un a -- mour trop mal -- heu -- reux.
 
 Et toi, dont mal -- gré moi je rap -- pel -- le l’i -- ma -- ge,

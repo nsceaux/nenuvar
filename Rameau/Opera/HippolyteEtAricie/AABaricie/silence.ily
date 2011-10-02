@@ -1,1 +1,1 @@
-R2.*20\noBreak R2.\noBreak R2.*18\noBreak r4\noBreak r4\noBreak r4\noBreak R2.*16
+R2.*21 R2.*18 r4 r4 r4 R2.*16

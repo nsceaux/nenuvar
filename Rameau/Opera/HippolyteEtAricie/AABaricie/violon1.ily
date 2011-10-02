@@ -19,7 +19,7 @@ sol'4. la'8 fad'4\trill ~|
 fad'8. mi'16 mi'4.\trill re'8 |
 re'2. |
 R2.*3 |
-r4 r la'4\p |
+r4 r la'4_\markup\whiteout "doux" |
 la' ( sol'8 ) r sol'4 |
 sol' ( fad'8 ) r fad'4 |
 fad'2 ( mi'8.\trill ) re'16 |
@@ -37,7 +37,7 @@ sol'4. la'8 fad'4\trill ~|
 fad'8. mi'16 mi'4.\trill re'8 |
 re'2 \fermata r4 |
 R2. |
-r4 r r8 fad''\p |
+r4 r r8 fad''_\markup\whiteout "doux" |
 fad''4 dod'' dod''8. dod''16 |
 lad'2 lad'8. si'16 |
 si'2 r4 |
