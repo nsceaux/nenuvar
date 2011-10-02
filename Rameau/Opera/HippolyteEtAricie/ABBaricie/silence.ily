@@ -1,1 +1,1 @@
-r4\noBreak R2.*31\noBreak r4
+r4 R2.*31 r4
