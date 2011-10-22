@@ -20,7 +20,7 @@ sib'2
 <<
   \tag #'(flute1 flutes violon1 violons) {
     \tag #'(flutes violons) \voiceOne
-    re''4\p |
+    re''4_\markup\whiteout "doux" |
     re'' ( do'' -\prall ) mib'' |
     mib'' ( re'' )-\prall re'' |
     sol'' la''8 sib'' la'' sol'' |
@@ -52,7 +52,7 @@ sib'2
     re'4
   }
 >> \oneVoice
-re''4\f sol'' ~|
+re''4^"Tous" sol'' ~|
 sol''8 fa'' mib'' re'' do''\trill sib' |
 \appoggiatura sib' do''4 \appoggiatura sib'8 la'4 re'' ~|
 re''8 mib'' la'4.\trill sol'8 |
@@ -61,13 +61,13 @@ sol'4
   \tag #'(flute1 flutes) {
     \tag #'flutes \voiceOne
     sib''8 la'' sib'' sol'' |
-    la''8.\trill ( sol''32 la'' ) sib''8 la'' sib'' sol'' |
+    la''8.^\trill ( sol''32 la'' ) sib''8 la'' sib'' sol'' |
     la''4
   }
   \tag #'(flute2 flutes) \new Voice {
     \tag #'flutes \voiceTwo
     sol''8 fad'' sol'' mi'' |
-    fad''8.\trill ( mi''32 fad'' ) sol''8 fad'' sol'' mi'' |
+    fad''8._\trill ( mi''32 fad'' ) sol''8 fad'' sol'' mi'' |
     fad''4
   }
   \tag #'(violon1 violon2 violons) {
@@ -76,7 +76,7 @@ sol'4
     re'4
   }
 >> \oneVoice
-re''4\f sol'' ~|
+re''4^"Tous" sol'' ~|
 sol''8 fa'' mib'' re'' do''\trill sib' |
 \appoggiatura sib' do''4 \appoggiatura sib'8 la'4 re'' ~|
 re''8 mib'' la'4.\trill sol'8 |

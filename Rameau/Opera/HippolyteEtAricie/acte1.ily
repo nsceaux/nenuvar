@@ -46,49 +46,51 @@
 }
 \includeScore "ACBchoeur"
 %{ n°9 %}
-\pieceTocAndTitle \markup "PREMIER AIR" \markup \wordwrap {
-  Premier air : \italic { Dieu d’Amour, pour nos asiles } }
-\includeScore "ACCpretresse"
+\pieceTocTitle "Premier Air"
+\includeScore "ACCair"
 %{ n°10 %}
+\pieceToc \markup \wordwrap { Une prestresse : \italic { Dieu d’Amour, pour nos asyles } }
+\includeScore "ACDpretresse"
+%{ n°11 %}
 \pieceTocTitle "Deuxième Air"
-\includeScore "ACDair"
-%{ n°11 %}\newBookPart #'(full)
-\pieceTocAndTitle \markup "GAVOTTE" \markup { Gavotte : \italic { De l’Amour fuyez les charmes } }
-\includeScore "ACEgavotte"
-%%
+\includeScore "ACEair"
 %{ n°12 %}\newBookPart #'(full)
+\pieceTocAndTitle \markup "GAVOTTE" \markup { Gavotte : \italic { De l’Amour fuyez les charmes } }
+\includeScore "ACFgavotte"
+%%
+%{ n°14 %}\newBookPart #'(full)
 \scene "Scène IV" \markup \wordwrap {
   SCÈNE 4 : Phèdre, Œnone, gardes, les mêmes
 }
 \sceneDescription \markup \smallCaps { Phèdre, Aricie, Hippolyte. }
 \pieceToc \markup \smallCaps { Phèdre, Aricie, Hippolyte, chœur de prêtresses }
 \includeScore "ADAphedreAricieChoeurHippolyte"
-%{ n°13 %}
+%{ n°15 %}
 \pieceToc \markup { \smallCaps Phèdre : \italic { Périsse la vaine puissance } }
 \includeScore "ADBphedre"
-%{ n°14 %}
+%{ n°16 %}
 \pieceToc \markup { \smallCaps { La prêtresse, chœur : }
   \italic { Dieux vengeurs, lancez le tonnerre } }
 \includeScore "ADCprelude"
 \newBookPart #'(full)
 \includeScore "ADDpretresseChoeur"
-%{ n°15 %}\newBookPart #'(full)
+%{ n°17 %}\newBookPart #'(full)
 \pieceTocTitle "Bruit de tonnerre"
 \includeScore "ADEtonnerre"
 %%
-%{ n°16 %}\newBookPart #'(full)
+%{ n°18 %}\newBookPart #'(full)
 \scene "Scène V" \markup \wordwrap { SCÈNE 5 : Diane, les mêmes }
 \sceneDescription \markup { \smallCaps Diane, et les acteurs
   de la scène précédente. }
 \pieceToc \markup \smallCaps { Diane, Aricie, Hippolyte }
 \includeScore "AEAdianeAricieHippolyte"
 %%
-%{ n°17 %}
+%{ n°19 %}
 \scene "Scène VI" "SCÈNE 6 : Phèdre"
 \sceneDescription \markup \smallCaps Phèdre.
 \pieceToc \markup { \smallCaps Phèdre : \italic { Que rien n’échappe à ma fureur } }
 \includeScore "AFAphedre"
-%{ n°18 %}
+%{ n°20 %}
 \pieceTocTitle "Entr'acte"
 \includeScore "AFBentracte"
 \actEnd \markup { FIN DU PREMIER ACTE }

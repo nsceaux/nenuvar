@@ -16,19 +16,19 @@ la do'2 |
 sib4 re' sib |
 do'2 sib4 |
 sib2 la4\trill |
-sib2 sib4\p |
+sib2 sib4_\markup\whiteout "doux" |
 fa'2 do'4 |
 sol'2 fa'4 |
 mib'2 do'4 |
 re' r4 r |
 R2. |
-r4 la'\f sib' |
+r4 la'_"fort" sib' |
 sib'4. sib8 do' re' |
 mib'4 re' re' |
 do' do'2 |
 sib4 r4 r |
 R2. |
-r4 la'\f sib' |
+r4 la'_"fort" sib' |
 sib'4. sib8 do' re' |
 mib'4 re' re' |
 do' do'2 |
