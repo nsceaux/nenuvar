@@ -1,8 +1,4 @@
-\clef "vdessus" r2 |
-R1*13 |
-r2 r2 |
-R1*19 |
-r2 re''4^\markup \character "Une prêtresse" sol' |
+\clef "vdessus" re''4 sol' |
 mib''^| re'' fad'' sol'' |
 do''\trill sib' \cesure mib'' re'' |
 fad''^| sol'' do'' sib' |
