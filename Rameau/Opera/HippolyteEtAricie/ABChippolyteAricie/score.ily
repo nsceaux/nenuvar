@@ -6,7 +6,9 @@
     \new Staff \withLyrics <<
       \global \keepWithTag #'hippolyte \includeNotes "voix"
     >> \keepWithTag #'hippolyte \includeLyrics "paroles"
-    \new Staff << \global \includeNotes "basse" \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \modVersion\includeFigures "chiffres" >>
   >>
   \layout { indent = \noindent }
   \midi { }

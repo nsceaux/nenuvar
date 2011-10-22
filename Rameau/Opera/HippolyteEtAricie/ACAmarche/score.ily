@@ -1,14 +1,17 @@
-\version "2.11.57"
 \score {
-  \new StaffGroup <<
-    \new Staff << \instrumentName \markup \center-column { "Violons et" flutes }
-                  \global \includeNotes "dessus" >>
-    \new Staff << \instrumentName \markup "[Hautes-contre]"
-                 \global \includeNotes "haute-contre" >>
-    \new Staff << \instrumentName \markup "[Tailles]"
-                  \global \includeNotes "taille" >>
-    \new Staff << \instrumentName \markup "[Basses]"
-                  \global \includeNotes "basse" >>
+  <<
+    \setMusic #'staffGroup <<
+      \new Staff << \instrumentName \markup \center-column { "Violons et" flutes }
+        \global \includeNotes "dessus" >>
+      \new Staff << \instrumentName \markup "[Hautes-contre]"
+        \global \includeNotes "haute-contre" >>
+      \new Staff << \instrumentName \markup "[Tailles]"
+        \global \includeNotes "taille" >>
+      \new Staff << \instrumentName \markup "[Basses]"
+        \global \includeNotes "basse" >>
+    >>
+    \origVersion \new StaffGroupNoBar \staffGroup
+    \modVersion \new StaffGroup \staffGroup
   >>
   \layout {
     indent = \largeindent

@@ -1,4 +1,4 @@
-\clef "taille" R2.*2 |
+\tag #'haute-contre \clef "haute-contre" \tag #'taille \clef "taille" R2.*2 |
 re'4 re' re' |
 la' la'4. la'8 |
 fad'4\trill sol'4. fad'8 |
@@ -6,7 +6,7 @@ mi'8. sol'16 fad'4. sol'16 la' |
 re'2 re'8 mi' |
 do'2\trill do'8 re' |
 sol4 sol8 r r4 |
-r2 sol4 |
+r r sol4 |
 sold8.\trill si16 mi'4 mi'8 sold |
 la2 la4 |
 si2 si4 |

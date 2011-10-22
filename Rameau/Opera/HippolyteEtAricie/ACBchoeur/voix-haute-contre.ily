@@ -6,7 +6,7 @@ mi'8.)[ sol'16] fad'4. sol'16[ la'](|
 re'2)\melismaEnd re'8 mi' |
 do'2\trill do'8 re' |
 sol4 sol8 r r4 |
-r2 sol4 |
+r r sol4 |
 sold8.\trill si16 mi'4 mi'8 sold |
 la2 la4 |
 si2 si4 |

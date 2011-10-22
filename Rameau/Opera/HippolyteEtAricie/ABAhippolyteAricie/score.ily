@@ -8,7 +8,7 @@
     >> \keepWithTag #'hippolyte \includeLyrics "paroles"
     \new Staff << \instrumentName "[B.C.]"
       \global \includeNotes "basse"
-      \includeFigures "chiffres" >>
+      \modVersion \includeFigures "chiffres" >>
   >>
   \layout { indent = \largeindent }
   \midi { }
