@@ -4,10 +4,10 @@
                   `((dessus #:music ,breaks)
                     (haute-contre #:notes "parties" #:tag-notes haute-contre #:music ,breaks)
                     (taille #:notes "parties" #:tag-notes taille #:music ,breaks)
-                    (silence #:ragged #f)
-                    (voix #:score "score-voix")
                     (basson #:notes "basse" #:tag-notes basson #:music ,breaks)
                     (basse #:tag-notes basse #:music ,breaks)
                     (basse-continue #:score-template "score-basse-voix"
                                     #:tag-notes basse-continue
-                                    #:music ,breaks)))
+                                    #:music ,breaks)
+                    (silence #:score "score-silence"
+                             #:music ,#{ s2 s1*29 s2\break #})))
