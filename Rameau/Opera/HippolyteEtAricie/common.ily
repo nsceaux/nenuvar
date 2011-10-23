@@ -50,6 +50,7 @@
 
 \include "italiano.ly"
 \include "common/common.ily"
+\include "common/side-ornementations.ily"
 \include "common/toc-columns.ily"
 \setOpus "Rameau/Opera/HippolyteEtAricie"
 \opusTitle "Hippolyte et Aricie"

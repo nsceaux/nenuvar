@@ -2,7 +2,7 @@
   %% Phèdre
   \tag #'(phedre basse) {
     \phedreMark re''8 |
-    \slurCirc la'4\( la'8\) r r la'16 mi' |
+    \circA la'4 la'8 r r la'16 mi' |
     fa'4 \cesureDown r8 sol'16 la' \appoggiatura la'8 sib' sib'16 do'' |
     la'4\trill la'8 la'16 re'' si'4\trill si'8 dod''16 re'' |
     dod''2.\arcTrill
@@ -13,13 +13,13 @@
     r8 fa'' do'' do''16 re'' \appoggiatura re''8 mi''8 \cesure mi''16 fad'' fad''8\trill fad''16 sol'' |
     sol''8 
     << \tag #'basse { s2.. s1. s4 } \tag #'phedre { r8 r4 r2 | R1. | r4 } >>
-    \tag #'basse \phedreMark \slurCirc mi''4\( mi''16\) \cesure r si' si' do''8 do''16 do'' |
+    \tag #'basse \phedreMark \circA mi''4 mi''16 \cesure r si' si' do''8 do''16 do'' |
     la'8\arcTrill la' r16 la' la' la' re''4 re''8 re''16 re'' |
     si'8\trill
     << \tag #'basse { s2.. s1 s2. s4 } \tag #'phedre { r8 r4 r2 | R1 | R2. | r4 } >>
-    \tag #'basse \phedreMark \slurCirc fa''4.\( \cesureCenter do''8\) la'\trill la'16 la' |
+    \tag #'basse \phedreMark \circA fa''4. \cesureCenter do''8 la'\trill la'16 la' |
     re''4 \cesure sib'8 sib'16 sib' sib'8 re'' |
-    \slurCirc sol'4\( sol'8\) r
+    \circA sol'4 sol'8 r
     << \tag #'basse { s4 s2. s1*4 s4. } \tag #'phedre { r4 | R2. | R1*4 | r4 r8 } >>
     \tag #'basse \phedreMark la'8 fad'\trill fad'16 sol' sol'8 sol'16 fad' |
     \appoggiatura fad'8 sol'4 r8 re''16 re'' sib'8 sib'16 sol' |
@@ -62,7 +62,7 @@
     sol'4 re'8 re'16 re' mi'8 fa' |
     mi'4\trill la'4. mi'8 mi'\trill mi'16 fa' |
     fa'4. mi'8 re' do' si la |
-    \slurCirc mi'4\( mi'8\) r la'4 fa'8 re' |
+    \circA mi'4 mi'8 r la'4 fa'8 re' |
     si2\trill ~ si8 si si do' |
     la4\trill la8
     << \tag #'basse { s8 s2 s2.*2 s4. } \tag #'hippolyte { r8 r2 | R2.*2 | r4 r8 } >>

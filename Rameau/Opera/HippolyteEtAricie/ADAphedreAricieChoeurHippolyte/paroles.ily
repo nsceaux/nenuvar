@@ -1,7 +1,7 @@
 \tag #'(phedre basse) {
   %% PHEDRE, à Aricie.
   Prin -- ces -- se, ce grand jour par des nœuds é -- ter -- nels
-  va vous u -- nir aux im -- mor -- tels.
+  va vous u -- nir aux Im -- mor -- tels.
 }
 \tag #'(aricie basse) {
   %% ARICIE.
@@ -15,7 +15,7 @@
 }
 \tag #'(aricie basse) {
   %% ARICIE.
-  Sans re -- mords, com -- ment puis-je en ces lieux
+  Sans re -- mors, com -- ment puis-je en ces lieux
   of -- frir un cœur que l’on op -- pri -- "me ?"
 }
 \tag #'(choeur basse) {
@@ -29,16 +29,16 @@
 }
 \tag #'(choeur basse) {
   %% CHŒUR.
-  O -- bé -- is -- sez aux "Dieux ;" c’est le pre -- mier de -- voir.
+  O -- bé -- ïs -- sez aux "Dieux ;" c’est le pre -- mier de -- voir.
 }
 \tag #'(phedre basse) {
   %% PHEDRE, à Hippolyte.
   Prin -- ce, vous souf -- frez qu’on ou -- tra -- ge,
-  et vo -- tre père, et vo -- tre "Roi !"
+  et vo -- tre Pere, et vo -- tre "Roi !"
 }
 \tag #'(hippolyte basse) {
   %% HIPPOLYTE.
-  Vous sa -- vez quel res -- pect à Di -- a -- ne m’en -- ga -- "ge ;"
+  Vous sça -- vez quel res -- pect à Di -- a -- ne m’en -- ga -- "ge ;"
   dès mes plus ten -- dres ans je lui don -- nai ma foi.
 }
 \tag #'(phedre basse) {
@@ -47,13 +47,13 @@
 }
 \tag #'(hippolyte basse) {
   %% HIPPOLYTE.
-  Je sais tout ce que je lui dois
-  mais, ne puis- je pour lui faire é -- cla -- ter mon zè -- le,
+  Je sais tout ce que je lui "doi ;"
+  mais, ne puis- je pour lui faire é -- clat -- ter mon zé -- le,
   qu’en ou -- tra -- geant une Im -- mor -- tel -- "le ?"
 }
 \tag #'(phedre basse) {
   %% PHEDRE.
-  Lais -- sez ces dé -- tours su -- per -- "flus ;"
+  Lais -- sez des dé -- tours su -- per -- "flus ;"
   la ver -- tu quel -- que -- fois sert de pré -- texte au cri -- me.
 }
 \tag #'(hippolyte basse) {

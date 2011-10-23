@@ -58,39 +58,39 @@
 \pieceTocAndTitle \markup "GAVOTTE" \markup { Gavotte : \italic { De l’Amour fuyez les charmes } }
 \includeScore "ACFgavotte"
 %%
-%{ n°14 %}\newBookPart #'(full)
+%{ n°13 %}\newBookPart #'(full)
 \scene "Scène IV" \markup \wordwrap {
   SCÈNE 4 : Phèdre, Œnone, gardes, les mêmes
 }
 \sceneDescription \markup \smallCaps { Phèdre, Aricie, Hippolyte. }
 \pieceToc \markup \smallCaps { Phèdre, Aricie, Hippolyte, chœur de prêtresses }
 \includeScore "ADAphedreAricieChoeurHippolyte"
-%{ n°15 %}
+%{ n°14 %}
 \pieceToc \markup { \smallCaps Phèdre : \italic { Périsse la vaine puissance } }
 \includeScore "ADBphedre"
-%{ n°16 %}
+%{ n°15 %}
 \pieceToc \markup { \smallCaps { La prêtresse, chœur : }
   \italic { Dieux vengeurs, lancez le tonnerre } }
 \includeScore "ADCprelude"
 \newBookPart #'(full)
 \includeScore "ADDpretresseChoeur"
-%{ n°17 %}\newBookPart #'(full)
+%{ n°16 %}\newBookPart #'(full)
 \pieceTocTitle "Bruit de tonnerre"
 \includeScore "ADEtonnerre"
 %%
-%{ n°18 %}\newBookPart #'(full)
+%{ n°17 %}\newBookPart #'(full)
 \scene "Scène V" \markup \wordwrap { SCÈNE 5 : Diane, les mêmes }
 \sceneDescription \markup { \smallCaps Diane, et les acteurs
   de la scène précédente. }
 \pieceToc \markup \smallCaps { Diane, Aricie, Hippolyte }
 \includeScore "AEAdianeAricieHippolyte"
 %%
-%{ n°19 %}
+%{ n°18 %}
 \scene "Scène VI" "SCÈNE 6 : Phèdre"
 \sceneDescription \markup \smallCaps Phèdre.
 \pieceToc \markup { \smallCaps Phèdre : \italic { Que rien n’échappe à ma fureur } }
 \includeScore "AFAphedre"
-%{ n°20 %}
+%{ n°19 %}
 \pieceTocTitle "Entr'acte"
 \includeScore "AFBentracte"
 \actEnd \markup { FIN DU PREMIER ACTE }

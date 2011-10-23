@@ -1,4 +1,5 @@
-\clef "taille" r8 R2.*2 R1 R1*2 R1*6 |
+\tag #'haute-contre \clef "haute-contre" \tag #'taille \clef "taille"
+r8 R2.*2 R1 R1*2 R1*6 |
 r2 r4 la' |
 re'2 re'4 re'8 re' |
 sol'4 sol'8 sol' sol'4 sol'8 sol |

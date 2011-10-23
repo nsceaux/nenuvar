@@ -68,7 +68,7 @@
 %%%
 %%% Side-ornementation Engraver
 %%%
-#(define (make-side-ornementation engraver note-grob markp direction)
+#(define (make-side-ornementation engraver note-grob markp direction is-inside)
    (let ((ornementation (ly:engraver-make-grob engraver
                                                'SideOrnementation
                                                note-grob)))
@@ -79,20 +79,27 @@
      (set! (ly:grob-property ornementation 'font-size)
            (+ (ly:grob-property ornementation 'font-size 0.0)
            (ly:grob-property note-grob 'font-size 0.0)))
-     (let* ((stencil (ly:text-interface::print ornementation))
-            (width (interval-length (ly:stencil-extent stencil X)))
+     (let* ((orn-stencil (ly:text-interface::print ornementation))
+            (orn-width (interval-length (ly:stencil-extent orn-stencil X)))
             (note-column (ly:grob-object note-grob 'axis-group-parent-X))
             (accidentals (ly:note-column-accidentals note-column))
             (dot-column (ly:note-column-dot-column note-column)))
-       (if (and (= direction LEFT) (ly:grob? accidentals))
-           (set! (ly:grob-property accidentals 'padding)
-                 (+ width
-                    (ly:grob-property ornementation 'padding 0.2))))
-       (if (and (= direction RIGHT) (ly:grob? dot-column))
-           (set! (ly:grob-property dot-column 'positioning-done)
-                 (lambda (grob)
-                   (ly:dot-column::calc-positioning-done grob)
-                   (ly:grob-translate-axis! grob width X)))))))
+       (cond ((and (= direction LEFT) (ly:grob? accidentals) is-inside)
+              ;; if ornementation on the left side of the note is "inside",
+              ;; then shift the accidental to the left to make room for
+              ;; the ornementation
+              (set! (ly:grob-property accidentals 'padding)
+                    (+ orn-width
+                       (ly:grob-property ornementation 'padding 0.2))))
+             ((and (= direction RIGHT) (ly:grob? dot-column) is-inside)
+              ;; if ornementation on the right side of the note is "inside",
+              ;; then shift the dots to the right to make room for
+              ;; the ornementation
+              (set! (ly:grob-property dot-column 'positioning-done)
+                    (lambda (grob)
+                      (ly:dot-column::calc-positioning-done grob)
+                      (ly:grob-translate-axis! grob orn-width X))))
+))))
    
 #(define (side-ornementation-engraver-acknowledge-note-head engraver
                                                             note-grob
@@ -102,12 +109,14 @@
          (make-side-ornementation engraver
                                   note-grob
                                   (ly:event-property note-event 'ornementation-left)
-                                  LEFT))
+                                  LEFT
+                                  (ly:event-property note-event 'ornementation-inside)))
      (if (markup? (ly:event-property note-event 'ornementation-right))
          (make-side-ornementation engraver
                                   note-grob
                                   (ly:event-property note-event 'ornementation-right)
-                                  RIGHT))))
+                                  RIGHT
+                                  (ly:event-property note-event 'ornementation-inside)))))
 
 #(define side-ornementation-engraver
    `((acknowledgers
@@ -118,7 +127,7 @@
 %%%
 
 %% Helper music function for adding side-ornementations to note and rest events
-#(define (side-ornate-event event markp direction)
+#(define (side-ornate-event event markp direction is-inside)
    (let ((property (if (= direction LEFT)
                        'ornementation-left
                        'ornementation-right)))
@@ -127,7 +136,9 @@
          (map (lambda (ev)
                 (if (or (memq 'note-event (ly:music-property ev 'types))
                         (memq 'rest-event (ly:music-property ev 'types)))
-                    (set! (ly:music-property ev property) markp)))
+                    (begin
+                      (set! (ly:music-property ev property) markp)
+                      (set! (ly:music-property ev 'ornementation-inside) is-inside))))
               (ly:music-property event 'elements))
          (set! (ly:music-property event property) markp)))
    event)
@@ -137,38 +148,52 @@ parb =
 #(define-music-function (parser loc arg) (ly:music?)
    (side-ornate-event arg
                       (markup #:fontsize -4 #:musicglyph "accidentals.leftparen")
-                      LEFT))
+                      LEFT
+                      #t))
 
 %% Parenthesis after note head
 para =
 #(define-music-function (parser loc arg) (ly:music?)
    (side-ornate-event arg
                       (markup #:fontsize -4 #:musicglyph "accidentals.rightparen")
-                      RIGHT))
+                      RIGHT
+                      #t))
 
 %% Parenthesis before and after note head
 parc =
 #(define-music-function (parser loc arg) (ly:music?)
    (side-ornate-event arg
                       (markup #:fontsize -4 #:musicglyph "accidentals.leftparen")
-                      LEFT)
+                      LEFT
+                      #t)
    (side-ornate-event arg
                       (markup #:fontsize -4 #:musicglyph "accidentals.rightparen")
-                      RIGHT))
+                      RIGHT
+                      #t))
 
 %% Prall after note head
 pralla =
 #(define-music-function (parser loc arg) (ly:music?)
    (side-ornate-event arg
                       (markup #:concat (#:hspace 0.2 #:musicglyph "scripts.prall"))
-                      RIGHT))
+                      RIGHT
+                      #t))
 
 %% Prall before note head
 prallb =
 #(define-music-function (parser loc arg) (ly:music?)
    (side-ornate-event arg
                       (markup #:concat (#:musicglyph "scripts.prall" #:hspace 0.2))
-                      LEFT))
+                      LEFT
+                      #t))
+
+%% ^ sign after note head
+circA =
+#(define-music-function (parser loc arg) (ly:music?)
+   (side-ornate-event arg
+                      (markup #:concat (#:hspace 1 #:raise 0.5 #:musicglyph "scripts.umarcato"))
+                      RIGHT
+                      #f))
 
 %%%
 
