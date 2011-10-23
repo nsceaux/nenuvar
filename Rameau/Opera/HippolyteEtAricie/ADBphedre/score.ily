@@ -1,20 +1,40 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff \withLyrics <<
+        \characterName \markup Phèdre
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
       \new Staff <<
-        \instrumentName \markup { Violons I }
+        \instrumentName \markup { \concat { "[" 1 \super rs "]" } Violons }
         \global \includeNotes "violon1" >>
       \new Staff <<
-        \instrumentName \markup { Violons II }
+        \instrumentName \markup { \concat { "[" 2 \super es "]" } Violons }
         \global \includeNotes "violon2" >>
       \new Staff <<
-        \instrumentName \markup \center-column { "Violons III" Clavecin }
-        \global \includeNotes "violon3" \includeFigures "chiffres" >>
+        \instrumentName \markup \center-column {
+          \line { \concat { 3 \super es } Violons } Clavecin }
+        \global \includeNotes "violon3" >>
     >>
-    \new Staff \withLyrics <<
-      \characterName \markup Phèdre
-      \global \includeNotes "voix"
-    >> \includeLyrics "paroles"
+
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff <<
+          \instrumentName \markup { \concat { "[" 1 \super rs "]" } Violons }
+          \global \includeNotes "violon1" >>
+        \new Staff <<
+          \instrumentName \markup { \concat { "[" 2 \super es "]" } Violons }
+          \global \includeNotes "violon2" >>
+        \new Staff <<
+          \instrumentName \markup \center-column {
+            \line { \concat { 3 \super es } Violons } Clavecin }
+        \global \includeNotes "violon3" \includeFigures "chiffres" >>
+      >>
+      \new Staff \withLyrics <<
+        \characterName \markup Phèdre
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+    >>
   >>
   \layout { indent = \largeindent }
   \midi { }

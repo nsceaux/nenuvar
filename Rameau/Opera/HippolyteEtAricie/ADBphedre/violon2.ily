@@ -1,6 +1,6 @@
 \clef "dessus" r2*3/4 |
 R2. |
-r2*3/4 r4 sib'8\p |
+r2*3/4 r4 sib'8_\markup\whiteout "doux" |
 la' do'' fa'' la'' do''' fa'' |
 sol'' mi'' do'' sol' mi' do' |
 sol sib re' sol' sib' re'' |

@@ -1,4 +1,4 @@
-\clef "dessus2" r4 fa'8\p |
+\clef "dessus2" r4 fa'8_"doux" |
 fa' fa' fa' fa' fa' fa' |
 sib4. r8 sib sib |
 la4. r8 la' fa' |

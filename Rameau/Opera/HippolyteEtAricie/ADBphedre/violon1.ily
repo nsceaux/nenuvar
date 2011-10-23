@@ -1,5 +1,5 @@
 \clef "dessus" r2*3/4 |
-r2*3/4 r4 fa'8\p |
+r2*3/4 r4 fa'8_\markup\whiteout "doux" |
 sib8 re' fa' sib' re'' sib' |
 fa'' do'' la' fa' do'' fa'' |
 mi'' sol'' do''' mi''[ do''8.\trill( sib'32 do'']) |
