@@ -2,11 +2,11 @@
 sol2. fad4 |
 sol2. fa4 |
 mi mib re4. sol,8 |
-re,4 re8 do sib,2 ~|
+re,4 re8 do << \origVersion { sib,4 ~ sib, ~ } \modVersion { sib,2 ~ } >> |
 sib,2. |
 mib,2 do, |
 fa,1 |
-sib, |
+sib, |\allowPageTurn
 sol, |
 si, |
 do |

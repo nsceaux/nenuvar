@@ -11,8 +11,9 @@
       \global \keepWithTag #'hippolyte \includeNotes "voix"
     >> \keepWithTag #'hippolyte \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup \center-column { Basse continue }
-      \global \includeNotes "basse" \includeFigures "chiffres"
+      \instrumentName \markup "B.C."
+      \global \includeNotes "basse"
+      \modVersion\includeFigures "chiffres"
     >>
   >>
   \layout { indent = \largeindent }
