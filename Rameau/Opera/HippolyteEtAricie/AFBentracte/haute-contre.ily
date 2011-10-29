@@ -16,19 +16,19 @@ fa'2 mi'8 ( sol' )|
 sol'2 fa'8 ( la' )|
 sol'2 sol'4 |
 la' sol'2 |
-sol' do'4\p |
+sol' do'4_\markup\whiteout "doux" |
 sol'2 re'4 |
 la'2 sol'4 |
 fa'2 re'4 |
 mi' r r |
 R2. |
-r4 mi''\f mi'' ~|
+r4 mi''_"fort" mi'' ~|
 mi'' la'2 ~|
 la'4 sold' la' ~|
 la'8 si' sold'4.\trill la'8 |
 la'4 r r |
 R2. |
-r4 mi''\f mi'' ~|
+r4 mi''_"fort" mi'' ~|
 mi'' la'2 ~|
 la'4 sold' la' ~|
 la'8 si' sold'4.\trill la'8 |

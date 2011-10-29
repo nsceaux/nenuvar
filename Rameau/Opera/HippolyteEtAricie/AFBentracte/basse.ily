@@ -6,7 +6,7 @@ mi' re' do'4 si |
 la2. |
 sol4 la si |
 do'8 la si4 si, |
-mi r2 |
+mi r r |
 R2.*3 |
 r4 r do |
 fa2 re4 |

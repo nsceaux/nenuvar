@@ -32,7 +32,7 @@ do''2
     re''( do''\prall) do'' |
     do'' re''8 mi'' re'' do'' |
   }
-  { s4\p }
+  { s4_\markup\whiteout "doux" }
 >>
 <<
   \tag #'(violon1 violon2 violons) {
@@ -53,7 +53,7 @@ do''2
     sold''4
   }
 >>
-mi''4\f la'' ~|
+mi''4_"fort" ^"Tous" la'' ~|
 la''8 sol'' fa'' mi'' re''\trill do'' |
 \appoggiatura do'' re''4 \appoggiatura do''8 si'4 mi'' ~|
 mi''8 fa'' si'4.\trill la'8 |
@@ -67,7 +67,7 @@ la'4
   \tag #'(flute1 flutes) \new Voice {
     \tag #'flutes \voiceOne
     do'''8 si'' do''' la'' |
-    si''8.\trill( la''32 si'') do'''8 si'' do''' la'' |
+    si''8.^\trill( la''32 si'') do'''8 si'' do''' la'' |
     si''4
   }
   \tag #'(flute2 flutes) \new Voice {
@@ -77,7 +77,7 @@ la'4
     sold''4
   }
 >>
-mi''4\f la'' ~|
+mi''4_"fort" ^"Tous" la'' ~|
 la''8 sol'' fa'' mi'' re''\trill do'' |
 \appoggiatura do''8 re''4 \appoggiatura do''8 si'4 mi'' ~|
 mi''8 fa'' si'4.\trill la'8 |
