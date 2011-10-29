@@ -22,8 +22,8 @@ sol''^| fa'' r mib''8 re'' |
 do''4\trill sib' do'' la'\trill |
 sib'2 \cesureDown re'' |
 sol' mib''4 re''8 do'' |
-sib'4\trill la' \cesureDown \slurCirc re''2\( |
-sol'\) \cesureDown mib''4 la'8 sib' |
+sib'4\trill la' \cesureDown \circA re''2 |
+sol' \cesureDown mib''4 la'8 sib' |
 fad'2 \arcTrill la'4 sib' |
 la'\trill sol' do''4.^| si'8 |
 mib''4^| re'' \cesure fad'' sol'' |

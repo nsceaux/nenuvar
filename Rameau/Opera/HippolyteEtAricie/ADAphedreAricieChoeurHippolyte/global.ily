@@ -29,9 +29,9 @@
 
     s1*4 \break
     s1\break
-    s1 s1. \pageBreak
+    s1 s1. s2 \bar "" \pageBreak
 
-    s1*2\break
+    s2 s1\break
     s1 s2 \bar "" \break
     s2 s2. s2. \bar "" \break
     s4 s2.*3 \break

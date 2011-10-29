@@ -6,7 +6,7 @@
           \global \includeNotes "voix-dessus1"
         >> \keepWithTag #'vdessus1 \includeLyrics "paroles"
         \new Staff \withLyrics <<
-          \instrumentName \markup \center-column { "Chœur de" Prestresses }
+          \instrumentName \markup \center-column\smallCaps { "Chœur de" Prestresses }
           \global \includeNotes "voix-dessus2"
         >> \keepWithTag #'vdessus2 \includeLyrics "paroles"
         \new Staff \withLyrics <<
