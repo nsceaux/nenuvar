@@ -20,17 +20,17 @@ la8 dod'16 si la sol fad la |
 si4. dod'16 re' |
 la4 la, |
 re8 dod16 si, la, sol, fad, mi, |
-re,8. re'16\p re'8 do' |
+re,8. re'16_"doux" re'8 do' |
 si\trill si16 do' la8\trill la16 re' |
-sol4 r8 r16 sol\f |
+sol4 r8 r16 sol_\markup\whiteout "fort" |
 la8. la16 la8 la |
 si si16 si mi'8 mi'16 la |
 si4 si, |
 mi,2 |
-r4 mi8\p mi |
+r4 mi8_"doux" mi |
 la la do' do'16 do' |
 fad8 fad16 fad la8 la16 la |
-re4 re8\f re |
+re4 re8_"fort" re |
 sol sol si si16 si |
 re'4. si,8 |
 do do re re16 re |

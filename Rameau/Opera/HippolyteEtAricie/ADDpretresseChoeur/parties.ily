@@ -36,9 +36,9 @@ re'4 r8
   }
 >>
 re'8 dod'16 si la sol fad mi |
-re8. re'16\p re'8 do' |
+re8. re'16_"doux" re'8 do' |
 si\trill si16 do' la8\trill la16 re' |
-sol4 sol8 r16 si'\f |
+sol4 sol8 r16 si'_"fort" |
 dod''8. dod''16 dod''8 dod'' |
 fad' fad'16 fad' mi'8 mi'16 do'' |
 si'2 |
@@ -46,10 +46,10 @@ si'2 |
   \tag #'(haute-contre parties) si'2
   \tag #'(taille parties) sol'2
 >>
-r4 mi8\p mi |
+r4 mi8_"doux" mi |
 la la do' do'16 do' |
 fad8 fad16 fad la8 la16 la |
-re4. re''8\f |
+re4. re''8_"fort" |
 <<
   \tag #'(haute-contre parties) \new Voice {
     \tag #'parties \voiceOne

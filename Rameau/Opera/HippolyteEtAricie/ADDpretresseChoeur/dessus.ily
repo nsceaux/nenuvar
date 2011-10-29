@@ -1,4 +1,4 @@
-\clef "dessus" r4 sol'8 sol' |
+\clef "dessus" r4^"Tous" sol'8 sol' |
 si' si' re'' re''16 re'' |
 la' do'' si' la' si' do'' la' si' |
 sol' si' la' sol' fad'4\trill |
@@ -20,7 +20,7 @@ dod''8 la''16 sol'' fad'' mi'' re'' dod'' |
 re''8 re'' sol'' sol''16 fad'' |
 fad''4( mi''\trill) |
 re''8 dod''16 si' la' sol' fad' mi' |
-re'8 re''16\p mi'' fad'' re'' mi'' fad'' |
+re'8 re''16_"doux" mi'' fad'' re'' mi'' fad'' |
 <<
   \tag #'(violon1 violons) \new Voice {
     \tag #'violons \voiceOne
@@ -40,10 +40,10 @@ re'8 re''16\p mi'' fad'' re'' mi'' fad'' |
     mi''4.( red''8) |
     mi''2 |
   }
-  { s2 s4. r16 s\f }
+  { s2 s4. r16 s_"fort" }
 >>
 R2*4 |
-r4 sol'8\f sol' |
+r4 sol'8_"fort" sol' |
 si' si' re'' re''16 re'' |
 la' si' la' si' do'' re'' do'' re'' |
 si'4\trill si'8 r |

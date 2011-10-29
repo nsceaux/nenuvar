@@ -169,6 +169,7 @@ slurPrall = {
 }
 
 %% A ^ sign between two notes (faked using a phrasing slur)
+%{
 slurCirc = {
   \once\override PhrasingSlur #'direction = #UP
   \once\override PhrasingSlur #'text = \markup\musicglyph #"scripts.umarcato"
@@ -182,6 +183,7 @@ slurCirc = {
                                       2.0)
                                    (max 1.2 (+ 0.5 (car (ly:stencil-extent slur-stencil Y))))))))
 }
+%}
 
 %% For quarter note with eighth note flag and half note note head (in e.g. 3/2)
 #(define-public (calc-white-note-head-glyph grob)
