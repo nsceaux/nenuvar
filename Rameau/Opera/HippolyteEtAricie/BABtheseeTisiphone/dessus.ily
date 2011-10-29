@@ -13,7 +13,7 @@ R1*3 |
     fad' mi' re' |
     dod'
   }
-  { s4.\p }
+  { s4._\markup\whiteout "doux" }
 >>
 la'16 dod' la' dod' |
 si8 la'16 mi' la' sold' |
@@ -67,52 +67,51 @@ mi'8
     si'4\trill |
     la'16.[
   }
-  { s4 s16\f }
+  { s4 s16_"fort" }
 >> \context Voice = "violons" { mi''64*2/3 fad'' sold''] }
 la''16 la'32 la' la'16 la32 la |
 la4.\trill |
-
-R1 R2. R1 R1*3 R1 R2. R1*3 R1 R1 R1 R2 R2 R2.*5 R1*3 R1 R1 R2. R1 R1
+\allowPageTurn
+R1 R2. R1 R1*3 R1 R2. R1*3 R1 R1 R1 r2 r2 R2.*5 R1*3 R1 R1 R2. R1 R1
 R2.*2
-
 <<
   \tag #'(violon1 violons) {
      R1*4 |
-     r4-\tag #'violons ^"Violons" r16 r32 do'''\f si'' la'' sol'' fa'' mi''16. la''32 sol'' fa'' mi'' re'' do''16. fa''32 mi'' re'' do'' si' |
-     la'8 si'32 do'' re'' mi'' fa''8 r r r32 fa''\p mi'' re'' do''8 si'\trill |
-     do'' re''32\f mi'' fa'' sol'' la''8 r r r32 la'' si'' do''' sol''8 si''\trill |
+     r4-\tag #'violons ^"Violons" r16 r32 do'''_"fort" si'' la'' sol'' fa'' mi''16. la''32 sol'' fa'' mi'' re'' do''16. fa''32 mi'' re'' do'' si' |
+     la'8 si'32 do'' re'' mi'' fa''8 r r r32 fa''_"doux" mi'' re'' do''8 si'\trill |
+     do'' re''32_"fort" mi'' fa'' sol'' la''8 r r r32 la'' si'' do''' sol''8 si''\trill |
      do'''4 r r2 |
      R1*4 |
-     r16 la''\mp do''' la'' mi'' mi'' la'' mi'' do'' do'' mi'' do'' la' la' do'' la' |
+     r16 la''_"a demi" do''' la'' mi'' mi'' la'' mi'' do'' do'' mi'' do'' la' la' do'' la' |
      fad'4 si'8. ( la'16 ) la'4 r8 la'16 do'' |
-     fad' si'\f la' sol' fad' mi' red' dod' si8 r r4 |
+     fad' si'_"fort" la' sol' fad' mi' red' dod' si8 r r4 |
      R1*2 |
-     r4 r16 mi''\p re'' do'' si'8 r r4 |
+     r4 r16 mi''_"doux" re'' do'' si'8 r r4 |
      R1*2 |
-     r16 do'''\f mi''' do''' sol'' do''' mi'' sol'' do''4 r |
+     r16 do'''_"fort" mi''' do''' sol'' do''' mi'' sol'' do''4 r |
      R1 |
-     r16 si''\f re''' si'' sold'' sold'' si'' sold'' mi''8 r r16 r32 la' si' do'' re'' mi'' |
-     fa''8 r r4 r fa''8\p si' |
+     r16 si''_"fort" re''' si'' sold'' sold'' si'' sold'' mi''8 r r16 r32 la' si' do'' re'' mi'' |
+     fa''8 r r4 r fa''8_"doux" si' |
      \appoggiatura si' do''1 |
   }
   \tag #'(violon2) {
     R1*4 |
-    r16 r32 do'''\f si'' la'' sol'' fa'' mi''16. la''32 sol'' fa'' mi'' re'' do''16. do''32 si' la' sol' fa' mi'16. la'32 sol' fa' mi' re' |
-    do'8 re'32 mi' fa' sol' la'8 r r fa'16\p mi' la'8 sol' |
-    mi'\trill sol''\f ~ sol''4 fa'' r8 fa'' |
+    r16 r32 do'''_"fort" si'' la'' sol'' fa'' mi''16. la''32 sol'' fa'' mi'' re'' do''16. do''32 si' la' sol' fa' mi'16. la'32 sol' fa' mi' re' |
+    do'8 re'32 mi' fa' sol' la'8 r r fa'16_"doux" mi' la'8 sol' |
+    mi'\trill sol''_"fort" ~ sol''4 fa'' r8 fa'' |
     mi''2\trill r |
     R1*4 |
-    r16 mi''\mp sol'' mi'' do'' do'' mi'' do'' la' la' do'' la' fad' fad' la' fad' |
+    r16 mi''_"a demi" sol'' mi'' do'' do'' mi'' do'' la' la' do'' la' fad' fad' la' fad' |
     red'4 mi'2 fad'8 sol' |
-    fad'16 si'\f la' sol' fad' mi' red' dod' si8 r r4 |
+    fad'16 si'_"fort" la' sol' fad' mi' red' dod' si8 r r4 |
     R1*2 |
     r2 r4 r16 sold'\p la' si' |
     mi'4 r r2 |
     R1 |
-    r16 sol''\f do''' sol'' mi'' sol'' do'' mi'' la'4 r |
+    r16 sol''_"fort" do''' sol'' mi'' sol'' do'' mi'' la'4 r |
     R1 |
-    r16 sold''\f si'' sold'' mi'' mi'' sold'' mi'' si' re'' do'' si' do''8 r |
-    r16 do'' si' la' la'8 r r4 r8 la'16\p sold' |
+    r16 sold''_"fort" si'' sold'' mi'' mi'' sold'' mi'' si' re'' do'' si' do''8 r |
+    r16 do'' si' la' la'8 r r4 r8 la'16_"doux" sold' |
     \appoggiatura sold'8 la'1 |
   }
 >>

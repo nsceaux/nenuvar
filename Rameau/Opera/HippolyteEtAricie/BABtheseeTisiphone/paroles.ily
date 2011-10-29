@@ -1,6 +1,6 @@
 \tag #'(thesee basse) {
   %% THESEE.
-  Lais -- se- moi res -- pi -- rer, imp -- la -- ca -- ble fu -- ri -- e.
+  Lais -- se- moi res -- pi -- rer, imp -- la -- ca -- ble Fu -- ri -- e.
 }
 \tag #'(tisiphone) {
   %% TISIPHONE.
@@ -18,17 +18,17 @@
 \tag #'(thesee basse) {
   %% THESEE.
   "Dieux !" N’est- ce pas as -- sez des maux que j’ai souf -- "ferts ?"
-  J’ai vu Pi -- ri -- tho -- üs dé -- chi -- ré par Cer -- bè -- "re ;"
-  j’ai vu ce monstre af -- freux tran -- cher des jours si chers,
-  sans dai -- gner dans mon sang as -- sou -- vir sa co -- lè -- re.
-  J’at -- ten -- dais la mort sans ef -- froi,
-  et la mort fuy -- ait loin de moi,
-  et la mort fuy -- ait loin de moi.
+  J’ai vû Py -- ri -- tho -- üs dé -- chi -- ré par Cer -- be -- "re ;"
+  j’ai vû ce monstre af -- freux tran -- cher des jours si chers,
+  sans dai -- gner dans mon sang as -- sou -- vir sa co -- le -- re.
+  J’at -- ten -- dois la mort sans ef -- froi,
+  et la mort fuy -- oit loin de moi,
+  et la mort fuy -- oit loin de moi.
 }
 \tag #'(tisiphone basse) {
   %% TISIPHONE.
-  "Eh !" croy -- ais- tu que de tes pei -- nes
-  le mo -- ment de ta mort fût le der -- nier ins -- "tant ?"
+  "Eh !" croy -- ois- tu que de tes pei -- nes
+  le mo -- ment de ta mort fut le der -- nier ins -- "tant ?"
   Pi -- ri -- tho -- üs gé -- mit sous d’é -- ter -- nel -- les chaî -- "nes ;"
   trem -- ble, trem -- "ble ;" le mê -- me sort t’at -- tend.
 }

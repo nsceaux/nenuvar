@@ -5,7 +5,7 @@
       \tag #'basse { s1*3 s4.*37 }
       \tag #'tisiphone {
         \clef "vbasse" R1*3
-        mi'4. |
+        mi'4.^\markup\character Tisiphone |
         re'8 dod' si |
         la sold fad |
         mi la dod' |
@@ -45,7 +45,7 @@
       }
     >>
     << \tag #'basse { s1 s2. s1*5 s2. s1*6 s2 }
-      \tag #'tisiphone { R1 R2. R1*5 R2. R1*6 R2 } >>
+      \tag #'tisiphone { R1 R2. R1*5 R2. R1*6 r2 } >>
     \tag #'basse \tisiphoneMark re'2-\tag #'tisiphone ^\markup\character Tisiphone |
     r8 la16 la fad4\trill fad8 sol16 la |
     \appoggiatura la8 si4 -\prall si16 r sol sol re8 re16 mi |
@@ -60,7 +60,7 @@
     \tag #'tisiphone {
       R1*2 R2. R1*2 R2.*2
       R1*4 |
-      r2 sol'^\markup\character Tisiphone ~|
+      r2 sol' ~|
       sol'4 fa'8 mi' re'\trill re' re' mi' |
       \appoggiatura re' do'1 |
       R1*4 |
@@ -102,7 +102,7 @@
     mi1 |
     mi'4 ~ mi'16 dod' la fad si,4. si,16 mi |
     la,2 
-    << \tag #'basse { s2 s2.*5 s1*3 } \tag #'thesee { R2 R2.*5 R1*3 } >>
+    << \tag #'basse { s2 s2.*5 s1*3 } \tag #'thesee { r2 R2.*5 R1*3 } >>
     \tag #'basse \theseeMark do'4.-\tag #'thesee ^\markup\character Thésée re'16 mi' si4 ~ si16 sold la si |
     \appoggiatura si8 do'4 \appoggiatura si8 la4 r r8 fa |
     fa4. fa16 mi la8 la16 re |

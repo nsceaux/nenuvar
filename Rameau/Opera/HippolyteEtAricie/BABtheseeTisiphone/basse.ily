@@ -1,15 +1,15 @@
 \clef "basse"
 <<
   \tag #'basse-continue {
-    la,1 ~|
+    la,1_"B.C." ~|
     la,2. sold,4 |
     la,1 |
   }
-  \tag #'(basses basson1 basson2) { R1*3 }
+  \tag #'(basse basson1 basson2) { R1*3 }
 >>
 <<
-  \tag #'(basse-continue basses basson1) {
-    la4.^"Basses" \p |
+  \tag #'(basse-continue basse basson1) {
+    la4.^"Les Basses" _"doux" |
     si8 la sold |
     fad mi re |
     \stemUp dod la,16 mi la la, |\stemNeutral
@@ -44,7 +44,7 @@
     re8 fad16 la re la |
     mi mi la mi la mi |
     mi,8 sold4\trill |
-    la la16\f la,32 la, |
+    la la16_"fort" la,32 la, |
     la,4.\trill |\allowPageTurn
   }
   \tag #'basson2 R4.*37
@@ -81,21 +81,23 @@
     la2 dod |
     re r8 re |
     sol4 mi8 fa4 sol8 |
-    do2 r4 do8 la, |
-    mi2 mi, |
   }
-  \tag #'(basses basson1 basson2) {
-    R1 R2. R1 R1*3 R1 R2. R1*3 R1 R1 R1 R2 R2 R2.*5 R1*3 R1 R1 R2. R1 R1 R2.*2 R1*2 }
+  \tag #'(basse basson1 basson2) {
+   \allowPageTurn R1 R2. R1 R1*3 R1 R2. R1*3 R1 R1 R1 r2 r2 R2.*5 R1*3
+   R1 R1 R2. R1 R1 R2.*2
+ }
 >>
 <<
-  \tag #'(basse-continue basses) {
-    << \tag #'basse-continue { la,2 r | } \tag #'basses R1 >>
-    si,1-\tag #'basses ^"(Basse continue)" |
-    do2 mi,\f |
-    fa, r4 fa,8\p sol, |
-    do4 fa, r8 fa,\f sol,4 |
+  \tag #'(basse-continue basse) {
+    << \tag #'basse-continue do2 \tag #'basse r2 >>
+    r4-\tag #'basse _"B.C." do8 la, |
+    mi2 mi, | la,2 r |
+    si,1 |
+    do2 mi,_"fort" |
+    fa, r4 fa,8_"doux"sol, |
+    do4 fa, r8 fa,_"fort" sol,4 |
     do,2 r |\noPageTurn
-    r do\p |
+    r do_"doux" |
     sol sol, |
     re, fa, |
     mi, r4 r8 mi |
@@ -114,15 +116,16 @@
     la,1 |
   }
   \tag #'basson1 {
-    \clef "tenor" r2 la'^"Bassons" ~|
+    \clef "tenor" R1*2 |
+    r2 la' ~|
     la'4.( sol'8) sol'4 re' ~|
-    re'4. do'8\f do'2 ~|
-    do'4 fa'8\p mi' re'\trill re' re' mi' |
-    \appoggiatura re'8 do' mi'4\f ~ mi' re'8 re'4\trill |
+    re'4. do'8_"fort" do'2 ~|
+    do'4 fa'8_"doux" mi' re'\trill re' re' mi' |
+    \appoggiatura re'8 do' mi'4_"fort" ~ mi' re'8 re'4\trill |
     do'2 r |
-    r mi'4.\p ( re'8 )|
+    r mi'4._"doux" ( re'8) |
     re'2 re'4 re'8 mi' |
-    fa'2 ~ fa'4. ( si8 )|
+    fa'2 ~ fa'4. ( si8) |
     si2 r4 mi'8 re' |
     do'4 r r2 |
     R1 |
@@ -139,14 +142,15 @@
     \appoggiatura si la1 |    
   }
   \tag #'basson2 {
-    \clef "tenor" r2 mi'4. ( re'8 )|
+    \clef "tenor" R1*2 |
+    r2 mi'4.( re'8) |
     re'4 fa'8 mi' re' do' si la |
-    sol2 r4 sol\f |
-    la do'\p la sol |
-    sol do'4.\f la8 sol4 |
+    sol2 r4 sol_"fort" |
+    la do'_"doux" la sol |
+    sol do'4._"fort" la8 sol4 |
     sol2 r |
     R1 |
-    r2 sib4.\p( la8) |
+    r2 sib4._"doux"( la8) |
     la2 ~ la4. si8 |
     sold2\trill r4 do'8 si |
     mi4 r r2 |
