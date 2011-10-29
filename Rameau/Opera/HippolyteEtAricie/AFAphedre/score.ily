@@ -1,16 +1,33 @@
 \score {
-  \new StaffGroupNoBar <<
-    \newHaraKiriStaff <<
-      \instrumentName \markup Violons
-      \global \includeNotes "violon" >>
-    \new Staff \withLyrics <<
-      \characterName \markup Phèdre
-      \global \includeNotes "voix"
-    >> \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup Basses
-      { s2 s1*3 s1*5 s1*3 s1^"Toutes les basses" }
-      \global \includeNotes "basse-continue" \includeFigures "chiffres" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff \withLyrics <<
+        \characterName \markup Phèdre
+        \global \keepWithTag #'phedre \includeNotes "voix"
+      >> \keepWithTag #'phedre \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "violon" >>
+      \new Staff << \instrumentName \markup "[Basses]"
+        \global \keepWithTag #'basse-continue \includeNotes "basse" >>
+    >>
+
+    \modVersion\new StaffGroupNoBar <<
+      \new Staff <<
+        \instrumentName \markup Violons
+        \global \includeNotes "violon" >>
+      \new Staff \withLyrics <<
+        \characterName \markup Phèdre
+        \global \keepWithTag #'phedre \includeNotes "voix"
+      >> \keepWithTag #'phedre \includeLyrics "paroles"
+      \new Staff <<
+        \instrumentName \markup "[Basses]"
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres" >>
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    indent = \largeindent
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }
