@@ -33,6 +33,11 @@ tinyStaff = \with {
   fontSize = #-2
 }
 
+smallStaff = \with {
+  \override StaffSymbol #'staff-space = #(magstep -1)
+  fontSize = #-1
+}
+
 withLyrics =
 #(define-music-function (parser location music lyrics) (ly:music? ly:music?)
    (let ((name (symbol->string (gen-unique-context))))

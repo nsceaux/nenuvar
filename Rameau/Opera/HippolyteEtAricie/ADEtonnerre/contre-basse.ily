@@ -43,4 +43,4 @@ re16 sol fad mi re sol fad mi |
 re sol fad mi re do si, la, |
 \repeat unfold 8 sol, |
 \repeat unfold 8 sol, |
-\custosNote sol,2 
+\custosNote sol,2_"B.C."

@@ -1,15 +1,15 @@
-\clef "taille" s4*0\p \ru#16 sol32 |
+\clef "taille" s4*0_"doux" \ru#16 sol32 |
 \ru#16 sol32  |
-s4*0\f \ru#16 sol32 |
-\ru#8 sol s4*0\p \ru#8 la32 |
+s4*0_"fort" \ru#16 sol32 |
+\ru#8 sol s4*0_"doux" \ru#8 la32 |
 \ru#16 la |
-s4*0\f \ru#16 la32 |
-\ru#8 la s4*0\p \ru#8 si32 |
+s4*0_"fort" \ru#16 la32 |
+\ru#8 la s4*0_"doux" \ru#8 si32 |
 \ru#16 si |
-s4*0\f \ru#16 si32 |
-\ru#8 si s4*0\p \ru#8 do'32 |
+s4*0_"fort" \ru#16 si32 |
+\ru#8 si s4*0_"doux" \ru#8 do'32 |
 \ru#16 do' |
-s4*0\f \ru#16 do'32 |
+s4*0_"fort" \ru#16 do'32 |
 \ru#8 do' \ru#8 re' |
 \ru#8 re' \ru#8 la |
 \ru#16 si |
@@ -41,6 +41,6 @@ la'4\trill r32 re' mi' fad' sol' la' si' do'' |
 re' re' mi' fad' sol' la' si' do'' re'' re'' do'' si' la' sol' fad' mi' |
 \rp#4 { re' sol' fad' mi' } |
 re' sol' fad' mi' re' sol' fad' mi' re' sol' fad' mi' re' do' si la |
-s4*0_"en adoucissant" \ru#16 sol32 |
+s4*0^"en adoucissant" \ru#16 sol32 |
 \ru#16 sol |
 sol8 r r4

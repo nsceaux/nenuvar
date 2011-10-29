@@ -1,16 +1,16 @@
-\clef "basse" sol,2\p |
+\clef "basse" sol,2_"doux" |
 sol, \< |
 sol, |
-sol,4 \! la,\p |
+sol,4 \! la,_"doux" |
 la,2 \< |
 la, |
-la,4 \! si,\p |
+la,4 \! si,_"doux" |
 si,2 \< |
 si, |
-si,4 \! do \p |
+si,4 \! do _"doux" |
 do2 \< |
 do |
-do4\! re\f |
+do4\! re_"fort" |
 re,2 |
 re, |
 re, |
@@ -40,6 +40,6 @@ re, |
 re, |
 re,16 sol re sol re sol re sol |
 re sol re sol re sol re sol |
-sol8_"adoucissez" sol sol sol |
+sol8^"adoucissez" sol sol sol |
 sol sol sol sol \! |
 sol r r4 
