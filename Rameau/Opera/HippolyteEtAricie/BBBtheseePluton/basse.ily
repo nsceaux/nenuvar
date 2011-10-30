@@ -1,5 +1,5 @@
 <<
-  \tag #'basse-continue {
+  \tag #'(basse-continue basse) {
     \clef "basse" R1 |
     do |
     R1 |
@@ -14,36 +14,42 @@
     R1 |\allowPageTurn
     do2 r |
     do,2. re,4 |
-    sol,2~ %{%} sol,4. fa,8 |
-    mi,1 |
-    fa,2. fa,4 |
-    do,2. do4 |
-    si,1 |
-    do2 re |
-    sol,1 |
-    R1 |
-    r2 sol, |
-    re, re |
-    si,1 |
-    do |
-    mi,4. fa,8 do,2 |
-    fa, r |
-    fad,1 |
-    sol,2 mi,4 fa,8. sol,16 |
-    do,2 do4 re8 mi |
-    la,2 r4 dod |
-    re4. red8 mi4. la,8 |
-    sold,1 |
-    la,4. si,8 do4 la, |
-    si,2 r |
-    do4. la,8 si,2 |
-    mi,4 mi8 fa mi re do si, |
+    <<
+      \tag #'basse-continue {
+        sol,2~ %{%} sol,4. fa,8 |
+        mi,1 |
+        << \origVersion { fa,2 ~ fa,4 } \modVersion fa,2. >> fa,4 |
+        do,2. do4 |
+        si,1 |
+        do2 re |
+        sol,1 |
+        R1 |
+        r2 sol, |
+        re, re |
+        si,1 |
+        do |
+        mi,4. fa,8 do,2 |
+        fa, r |
+        fad,1 |
+        sol,2 mi,4 fa,8. sol,16 |
+        do,2 do4 re8 mi |
+        la,2 r4 dod |
+        re4. red8 mi4. la,8 |
+        sold,1 |
+        la,4. si,8 do4 la, |
+        si,2 r |
+        do4. la,8 si,2 |
+        mi,4 mi8 fa mi re do si, |
+      }
+      \tag #'basse { sol,2 r2 | R1*23 }
+    >>
+    
   }
-  \tag #'(bassons bassons-conducteur) <<
+  \tag #'(bassons basson1 basson2) <<
     { \clef "tenor" R1 | s | R1 | s | R1*2 | s1*3 r2 r8 s4. | s2. | s2 r |
       R1 | s2 r | s1 | s2 r2 | R1*3 R1*7 R1*3 R1 R1*5 R1*4 }
-    \new Voice {
-      \voiceOne s1 |
+    \tag #'(bassons basson1) \new Voice {
+      \tag #'bassons \voiceOne s1 |
       sol' |
       s1 |
       fa' |
@@ -59,8 +65,8 @@
       sol'2. sol'8 fad' |
       \appoggiatura fad' sol'2\prall s2 |
     }
-    \new Voice {
-      \voiceTwo s1 |
+    \tag #'(bassons basson2) \new Voice {
+      \tag #'bassons \voiceTwo s1 |
       sol |
       s1 |
       la2 sol |
@@ -77,14 +83,11 @@
       si2\trill s2 |
     }
   >>
-  \tag #'(basses basses-conducteur) {
-    \clef "basse" R1*9 R1 R2. R1*4 R1*4 R1*7 R1*3 R1 R1*5 R1*4
-  }
 >>
 \clef "basse"
 <<
-  \tag #'(basse-continue basses bassons) {
-    la4-\tag #'(basses bassons) -"Basse continue" la8 la mi4. mi8 |
+  \tag #'(basse-continue basse bassons basson1 basson2) {
+    la4-\tag #'(basse bassons basson1 basson2) -"B.C." la8 la mi4. mi8 |
     fa4. mi8 fa sol la si |
     do'4 do'8 do' dod'4\trill dod'8 dod' |
     re'4. mi'8 re' do' si la |
@@ -107,10 +110,9 @@
     mi2 mi, |
     la,1 |\allowPageTurn
   }
-  \tag #'(bassons-conducteur basses-conducteur) { R1*22 }
 >>
 <<
-  \tag #'(basse-continue) {
+  \tag #'basse-continue {
     fa,1 |
     mi, |
     re,2 sol, |
@@ -123,10 +125,10 @@
     si,4 do8 mi fa,4 |
     mi,2 r |
   }
-  \tag #'(bassons bassons-conducteur basses basses-conducteur) { R1*6 R2. R1*2 R2. R1 }
+  \tag #'(bassons basson1 basson2 basse) { R1*6 R2. R1*2 R2. R1 }
 >>
 <<
-  \tag #'(basse-continue bassons) {
+  \tag #'(basse-continue bassons basson1 basson2) {
     r2^"Vite nourrir les sons sans les détacher" r4 mi, |
     la, la,8. la,16 mi4 mi8. mi16 |
     fa8 fa, fa ( sol ) la la, la ( si )
@@ -155,7 +157,7 @@
     re2 mi4 mi, |
     la,1 |
   }
-  \tag #'(basses basses-conducteur) {
+  \tag #'basse {
     r2 r4 mi, |
     la, la,8. la,16 mi4 mi8. mi16 |
     fa4 r r2 |
@@ -196,5 +198,5 @@
     la, la,4. si,8 |
     mi,2. r16 fa, mi, re, |
   }
-  \tag #'(basses basses-conducteur bassons) { R1 R1*3 R1*4 }
+  \tag #'(basse bassons basson1 basson2) { R1 R1*3 R1*4 }
 >>

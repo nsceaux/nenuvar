@@ -1,5 +1,6 @@
-\clef "taille"
-R1*9 R1 R2. R1*4 R1*4 R1*7 R1*3 R1 R1*5 R1*4 |
+\tag #'(haute-contre parties) \clef "haute-contre"
+\tag #'taille \clef "taille"
+R1*9 R1 R2. R1*4 r2 r R1*3 R1*7 R1*3 R1 R1*5 R1*4 |
 mi''4 mi''8 mi'' mi''4. re''8 |
 do''2 do'' ~|
 do''4. sib'8 la'2 |
@@ -21,6 +22,12 @@ r8 mi' mi' fad' sold' la' si' sold' |
 la'2 la8( si) do'( si) |
 la2 la'4. fa'8 |
 mi'2
-<< \tag #'haute-contre { mi'2 | mi'1 | }
-  \tag #'taille { re'2 | do'1 | } >>
+<< \tag #'(haute-contre parties) \new Voice {
+    \tag #'parties \voiceOne
+    mi'2 | mi'1 |
+  }
+  \tag #'(taille parties) \new Voice {
+    \tag #'parties \voiceTwo
+    re'2 | do'1 |
+  } >>
 R1*5 R1 R2. R1 R1 R2. R1*29 R1*3 R1*4

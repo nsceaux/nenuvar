@@ -1,12 +1,12 @@
 \clef "dessus"
-R1*9 R1 R2. R1*4 R1*4 R1*7 R1*3 R1 R1*5 R1*4 |
+R1*9 R1 R2. R1*4 r2 r2 R1*3 R1*7 R1*3 R1 R1*5 R1*4 |
 do'''4 do'''8 do''' si''4.\trill do'''8  |
 \appoggiatura si'' la''2. la''4  |
 sol'' sol''8 sol'' sol''4 la''8 mi''  |
 \appoggiatura mi'' fa''4. sol''8 fa'' mi'' re'' do''  |
 si'4.\trill la'8 si' do'' re'' si'  |
 do''4 do''8 do'' si'4.\trill do''8  |
-\appoggiatura si' la'2. la'4  |
+\appoggiatura si' << \origVersion { la'2 ~ la'4 } \modVersion la'2. >> la'4  |
 sol' sol'8 sol' sol'4 la'8 mi'  |
 fa'4. mi'8 la'4. si'8  |
 sold'4.\trill la'8 si' do'' re'' si'  |

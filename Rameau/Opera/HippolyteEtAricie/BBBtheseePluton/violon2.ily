@@ -17,7 +17,7 @@ sol'2. sol'8 do''  |
 do''2.~ do''8. si'16  |
 \appoggiatura si'8 do''4. sol'8 la' si' do'' re''  |
 mi''4 fa''8 mi'' re''4\trill re''8 do'' |
-si'2.\trill si'4  |
+<< \origVersion { sib'2\trill ~ sib'4 } \modVersion si'2.\trill >> si'4  |
 mi'2. mi''8 re''  |
 do''4. re''8 \appoggiatura re'' mi''4. si'8  |
 do''2( si'4.\trill) la'8  |
