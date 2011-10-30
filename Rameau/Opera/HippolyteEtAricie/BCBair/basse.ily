@@ -1,4 +1,4 @@
-\clef "basse" r4 |
+\clef "basse" r4^"Tous" |
 fa, r8 r16 fa32 fa fa4. mib32*4/3 re do |
 sib,4 sib la do' |
 mi do fa fa, |

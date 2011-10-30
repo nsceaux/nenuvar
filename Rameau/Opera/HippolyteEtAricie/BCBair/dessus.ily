@@ -1,4 +1,4 @@
-\clef "dessus" r8 r16 do''32 do'' |
+\clef "dessus" r8^"Tous" r16 do''32 do'' |
 do''4.*7/6 re''32*2/3 do'' sib' la'4 fa' |
 re''4. do''32*4/5 sib' do'' re'' mi'' fa''4. fa''8 |
 sib''4. la''8 la''4.\trill sol''8 |
