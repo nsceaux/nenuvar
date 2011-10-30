@@ -1,48 +1,99 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new Staff <<
-        \instrumentName \markup { Violons I }
-        { s2.*40 \break s4.^"Violons I" }
-        \global \includeNotes "violon1" >>
-      \new Staff <<
-        \instrumentName \markup { Violons II }
-        { s2.*40 s4.^"Violons II" }
-        \global \includeNotes "violon2" >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup { Haute-contres }
-        { s2.*40 s4.^"Haute-contres" }
-        \global \includeNotes "haute-contre" >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup Tailles
-        { s2.*40 s4.^"Tailles" }
-        \global \includeNotes "taille" >>
-      \new Staff <<
-        \instrumentName \markup Bassons
-        { s2.*40 s4.^"Bassons" }
-        \global \includeNotes "basson" >>
-      \newHaraKiriStaffB <<
-        { \startHaraKiri s2.*40 \stopHaraKiri s4.^"Contre-basse" }
-        \global \includeNotes "contre-basse" >>
-    >>
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
+  <<
+    \origVersion \new StaffGroupNoBar <<
+      %% Chœur, Pluton
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles-haute-contre"
-      \newHaraKiriStaffB \withLyrics <<
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-taille"
-      >> \includeLyrics "paroles-taille"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "voix-basse"
-      >> \includeLyrics "paroles-basse"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
       \new Staff \withLyrics <<
         \characterName \markup Pluton
         \global \includeNotes "pluton"
-      >> \includeLyrics "paroles"
+        { s2.*40 s4. s4.^\markup\character Pluton }
+      >> \keepWithTag #'pluton \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \includeNotes "voix-basse"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      %% Violons
+      \new Staff <<
+        \instrumentName \markup { \concat { "[1" \super rs "]" } Violons }
+        { s2.*40 s4. s4.^\markup { \concat { P \super rs } Violons } }
+        \global \includeNotes "violon1" >>
+      \new Staff <<
+        \instrumentName \markup { \concat { "[2" \super ds "]" } Violons }
+        { s2.*40 s4. s4.^\markup { \concat { 2 \super es } Violons } }
+        \global \includeNotes "violon2" >>
+      \new Staff \with { \haraKiriFirst } <<
+        { s2.*40 s4. s4.^"H.contres" }
+        \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiriFirst } <<
+        { s2.*40 s4. s4.^"Tailles" }
+        \global \includeNotes "taille" >>
+      %% Bassons
+      \new Staff <<
+        \instrumentName \markup Bassons
+        { s2.*40 s4. s4.^"Bassons" }
+        \global \includeNotes "basson" >>
+      %% B.C.
+      \new Staff <<
+        \instrumentName \markup { Basse continue }
+        { s2.*40 s4. s4.^"B.C." }
+        \global \includeNotes "basse" >>
+      \new Staff \with { \haraKiriFirst } <<
+        { \startHaraKiri s2.*40 \stopHaraKiri s4.
+          s4.^"Contre basse" }
+        \global \includeNotes "contre-basse" >>
     >>
-    \new Staff <<
-      \instrumentName \markup { Basse continue }
-      \global \includeNotes "basse" \includeFigures "chiffres" >>
+
+    \modVersion \new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff <<
+          \instrumentName \markup { \concat { "[1" \super rs "]" } Violons }
+          { s2.*40 s4. s4.^\markup { \concat { P \super rs } Violons } }
+          \global \includeNotes "violon1" >>
+        \new Staff <<
+          \instrumentName \markup { \concat { "[2" \super ds "]" } Violons }
+          { s2.*40 s4. s4.^\markup { \concat { 2 \super es } Violons } }
+          \global \includeNotes "violon2" >>
+        \new Staff \with { \haraKiriFirst } <<
+          { s2.*40 s4. s4.^\markup\whiteout "Hautes-contre" }
+          \global \includeNotes "haute-contre" >>
+        \new Staff \with { \haraKiriFirst } <<
+          { s2.*40 s4. s4.^"Tailles" }
+          \global \includeNotes "taille" >>
+        \new Staff <<
+          \instrumentName \markup Bassons
+          { s2.*40 s4. s4.^"Bassons" }
+          \global \includeNotes "basson" >>
+        \new Staff \with { \haraKiriFirst } <<
+          { \startHaraKiri s2.*40 \stopHaraKiri s4.
+            s4.^\markup\whiteout "Contre basse" }
+          \global \includeNotes "contre-basse" >>
+      >>
+      \new ChoirStaff <<
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-haute-contre"
+        >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-taille"
+        >> \keepWithTag #'vtaille \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-basse"
+        >> \keepWithTag #'vbasse \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \characterName \markup Pluton
+          \global \includeNotes "pluton"
+        { s2.*40 s4. s4.^\markup\character Pluton }
+        >> \keepWithTag #'pluton \includeLyrics "paroles"
+      >>
+      \new Staff <<
+        \instrumentName "B.C."
+        { s2.*40 s4. s4.^"B.C." }
+        \global \includeNotes "basse"
+        \includeFigures "chiffres" >>
+    >>
   >>
   \layout { indent = \largeindent }
   \midi { }

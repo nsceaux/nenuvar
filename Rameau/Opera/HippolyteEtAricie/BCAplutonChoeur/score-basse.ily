@@ -1,7 +1,7 @@
 \score {
   \new StaffGroup <<
     \newSmallStaff <<
-      \instrumentName \markup \center-column { Basse continue }
+      \instrumentName "B.C."
       { s2.*41 s4.^"Basse continue" }
       \global \includeNotes "basse" >>
     \newSmallHaraKiriStaffB <<

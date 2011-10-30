@@ -3,36 +3,38 @@ r8 sol sol mib mib do |
 sol sol sol do' do' mib' |
 do'4.\trill do'8 r sol16 lab |
 sib4. sib8 r16 sib sib sib |
-\slurCirc mib4.\( mib8\) r lab16 sib |
-\slurCirc do'4.\( do'8\) r16 do' do' do' |
+\circA mib4. mib8 r lab16 sib |
+\circA do'4. do'8 r16 do' do' do' |
 fa4. sib8 sib sib |
 re'4. re'8 re' sib |
-\slurCirc mib'4.\( mib'8\) r4 |
+\circA mib'4. mib'8 r4 |
 do'8.^| sib16 lab sol fa8\trill fa sib |
 mib4. r4 sol16 mib |
-\slurCirc sib4.\( sib8\) r16 sib sib sib |
+\circA sib4. sib8 r16 sib sib sib |
 si4.\trill si8 r si16 si |
-\slurCirc do'4.\( do'8\) r16 do' do' do |
+\circA do'4. do'8 r16 do' do' do |
 sol4. sol8 sol sol |
 mib'4. do'8 re' mib' |
-\slurCirc fad4.\( fad8\) r4 |
+\circA fad4. fad8 r4 |
 sol8. fa16 mib re do8 do la, |
 re2. |
 re'8. do'16 sib la sol8 do re |
 sol,2. |
 R2. |
 r2*3/4 r4 sol16 sol |
-\slurCirc si4.\( si8\) r16 si si si |
-\slurCirc re'4.\( re'8\) r re'16 re' |
-\slurCirc fa4.\( fa8\) r16 fa mib re |
+\circA si4. si8 r16 si si si |
+\circA re'4. re'8 r re'16 re' |
+\circA fa4. fa8 r16 fa mib re |
 mib4. sol8 sol sol |
 do'4. sib8 lab sol |
-\slurCirc fa4.\( fa8\) r r |
+\circA fa4. fa8 r r |
 re'8. mib'16 re' do' si8\trill si do' |
 sol2. |
 do'8. sib16 lab sol fa8\trill fa sol |
 do2. |
-R2.*13 |
+R2.*5 |
+r2*3/4 r |
+R2.*7 |
 r2*3/4 r8 r sib16^\markup \character Pluton sib |
 sib2. ~|
 sib4. sib8 r16 la la la |
@@ -63,7 +65,7 @@ lab4. sol8 fa mi |
 fa^| fa r do'4. ~|
 do'8. do'16 re' mib' si8 si do' |
 sol4. <sol sol'> ~ |
-\slurCirc <sol sol'>\( <sol sol'>8\) r4 |
+\circA <sol sol'> <sol sol'>8 r4 |
 sol8. sol16 sol la si8 si sol |
 do'4. r2*3/4 |
 mib'2. ~|

@@ -1,4 +1,5 @@
-\clef "haute-contre" R2.*41 |
+\clef "haute-contre" R2.*40 |
+r2*3/4 r4 r8 |
 do'16( re') mib'( fa') mib'( re') do'( re') mib'( fa') sol'( mib') |
 lab'( sib') do''( reb'') do''( sib') lab'( sib') do''( reb'') do''( sib') |
 lab'( sol') fa'( mib') re'( do') lab'( sol') fa'( mib') re'( do') |

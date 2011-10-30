@@ -1,6 +1,6 @@
 \clef "dessus2" R2. |
 r8 sol' sol' mib' mib' do' |
-sol' sol'\p sol' do'' do'' mib'' |
+sol' sol'_"doux" sol' do'' do'' mib'' |
 do''\trill mib'' mib'' sol'' sol'' sol'' |
 sol''4. r2*3/4 |
 sol'16( lab') sib'( do'') sib'( lab') sol'( lab') sib'( lab') sol'( fa') |
@@ -20,9 +20,9 @@ la'16( sib') do''( re'') do''( sib') la'( sib') do''( re'') do''( la') |
 sib'( do'') sib'( la') sol'( fad') sol'( la') la'8.\trill sol'16 |
 fad'( sol') la'( sib') la'( sol') fad'( sol') la'( sib') la'( sol') |
 fad'( sol') la'( sib') do''( la') sib'8 la'8.\trill sol'16 |
-sol'(\f la') si'( do'') re''( do'') si'( do'') re''( mib'') fa''( mib'') |
+sol'(_"fort" la') si'( do'') re''( do'') si'( do'') re''( mib'') fa''( mib'') |
 re''( mib'') fa''( mib'') re''( do'') si'( la') sol'( fa') mib'( re') |
-mib'( sol') fa'( mib') re'( do') si\p do' re' mib' re' do' |
+mib'( sol') fa'( mib') re'( do') si_"doux" do' re' mib' re' do' |
 si( do') re'( mib') fa'( mib') re'( mib') fa'( sol') lab'( sol') |
 fa'( mib') fa'( sol') fa'( mib') re' mib' fa' sol' fa' mib' |
 re'( mib') fa'( sol') fa'( mib') re'( do') si( re') do'( si) |
@@ -32,7 +32,7 @@ lab'( sib') do''( reb'') do''( sib') lab'( sib') do''( reb'') do''( sib') |
 lab'( sib') lab'( sol') fa'( lab') sol'( la') si'( do'') re''( mib'') |
 re''( mib'') fa''( sol'') fa''( mib'') re'' mib'' re'' do'' si' la' |
 sol'4. do''8 do'' si' |
-do''16(\f re'') mib''( fa'') mib''( re'') do''( re'') mib''( fa'') mib''( re'') |
+do''16(_"fort" re'') mib''( fa'') mib''( re'') do''( re'') mib''( fa'') mib''( re'') |
 do''( reb'') do''( sib') lab'( sol') lab'( sib') do''( reb'') do''( sib') |
 lab'( sib') lab'( sol') fa'( mi') fa'( sol') lab'( sib') lab'( sol') |
 fa'( sol') fa'( mib') re'( do') lab'( sol') fa'( mib') re'( do') |
@@ -47,7 +47,7 @@ sol'( lab') sib'( do'') sib'( lab') sol'( lab') sib'( do'') reb''( sib') |
 do''( sib') do''( reb'') do''( sib') lab'( sol') fa'( sol') lab'( sib') |
 sol'( lab') sib'( do'') sib'( lab') sol'( lab') sib'( do'') sib'( lab') |
 sol'( lab') sib'( do'') sib'( lab') sol'4. |
-R2. |
+R2. |\allowPageTurn
 sib16( do') re'( mib') re'( do') sib( do') re'( mib') re'( do') |
 sib4. r2*3/4 |
 r4 lab''16 lab'' lab''8 lab''16 lab'' lab'' sol'' |

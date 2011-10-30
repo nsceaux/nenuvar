@@ -1,6 +1,6 @@
 \clef "basse" do,4. r2*3/4 |
 R2. |
-r2*3/4 r8 do\p do |
+r2*3/4 r8 do_"doux" do |
 do do do do do do |
 do,4. r2*3/4 |
 sol,8 sol, sol, sol, sol, sol, |
@@ -21,9 +21,9 @@ sol8. fa16 mib re do8 do la, |
 re4. r2*3/4 |
 re'8. do'16 sib la sol8 do re |
 sol,4. r2*3/4 |
-sol,8\f sol, sol, sol, sol, sol, |
+sol,8_"fort" sol, sol, sol, sol, sol, |
 sol,4. r2*3/4 |
-sol,8^\p sol, sol, sol, sol, sol, |
+sol,8^"doux" sol, sol, sol, sol, sol, |
 sol,4. r2*3/4 |
 sol,8 sol, sol, sol, sol, sol, |
 do4. r2*3/4 |
@@ -33,7 +33,7 @@ fa8 fa re sol sol do |
 sol,4. r2*3/4 |
 do'8. sib16 lab sol fa8 fa sol |
 do4. r2*3/4 |
-lab,8^\f lab, lab, lab, lab, lab, |
+lab,8^"fort" lab, lab, lab, lab, lab, |
 fa,4. r2*3/4 |
 fa,8 fa, fa, fa, fa, fa, |
 sol,4. r2*3/4 |

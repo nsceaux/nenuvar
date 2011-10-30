@@ -1,4 +1,5 @@
-\clef "taille" R2.*41 |
+\clef "taille" R2.*40 |
+r2*3/4 r4 r8 |
 mib'16( fa') sol'( lab') sol'( fa') mib'( fa') sol'( fa') mib'( re') |
 do'( reb') mib'( fa') mib'( reb') do'( reb') mib'( fa') sol'8 |
 do' lab'16( sol') fa'( mib') re'( do') lab'( sol') fa'( mib') |
