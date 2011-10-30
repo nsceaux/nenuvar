@@ -1,4 +1,4 @@
-\clef "dessus" fa''8 mi''16 re'' do'' fa'' mi'' re'' do'' sib' la' sol' |
+\clef "dessus" fa''8_"Tous" mi''16 re'' do'' fa'' mi'' re'' do'' sib' la' sol' |
 fa'4 do'' fa'' ~|
 fa''8. sol''16 sol''4.\trill( fa''16 sol'') |
 la''4 fa'' do'' |

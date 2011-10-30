@@ -1,4 +1,4 @@
-\clef "basse" R2.*3 |
+\clef "basse" s4*0^"Tous" R2.*3 |
 fa8 mi16 re do fa mi re do sib, la, sol, |
 fa,8 do16 do fa8 fa la,4 |
 sib,8 re16 re sol8 sol sol,4 |
