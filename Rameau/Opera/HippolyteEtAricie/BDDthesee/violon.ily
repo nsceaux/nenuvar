@@ -1,4 +1,4 @@
-\clef "dessus2" do'8[(^"Doux, marqué et pas vite" mib' sol']) do'' do'([ mib' sol']) mib'' |
+\clef "dessus2" do'8[(^"Doux et marqué et pas vite" mib' sol']) do'' do'([ mib' sol']) mib'' |
 sib([ re' sol']) sib' sib([ re' sol']) re'' |
 lab([ do' mib']) lab' do'([ mib' lab']) do'' |
 R1 |

@@ -1,6 +1,12 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
+  <<
+    \origVersion \new StaffGroupNoBar <<
+      %% Thésée
+      \new Staff \withLyrics <<
+        \characterName \markup Thésée
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      %% Violons
       \new Staff <<
         \instrumentName \markup Violons
         \global \includeNotes "violon"
@@ -13,14 +19,39 @@
         \instrumentName \markup Tailles
         \global \includeNotes "taille"
       >>
+      \new Staff <<
+        \instrumentName "[Basses]"
+        \global \includeNotes "basse" >>
     >>
-    \new Staff \withLyrics <<
-      \characterName \markup Thésée
-      \global \includeNotes "voix"
-    >> \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup Basses
-      \global \includeNotes "basse" \includeFigures "chiffres" >>
+
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff <<
+          \instrumentName \markup Violons
+          \global \includeNotes "violon"
+        >>
+        \new Staff <<
+          \instrumentName \markup Hautes-contre
+          \global \includeNotes "haute-contre"
+        >>
+        \new Staff <<
+          \instrumentName \markup Tailles
+          \global \includeNotes "taille"
+        >>
+      >>
+      \new Staff \withLyrics <<
+        \characterName \markup Thésée
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff <<
+        \instrumentName "[Basses]"
+        \global \includeNotes "basse"
+        \includeFigures "chiffres" >>
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    indent = \largeindent
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }

@@ -1,4 +1,4 @@
-\clef "basse" do4(\p do) do( do)|
+\clef "basse" do4(_"doux" ^"Tous" do) do( do)|
 sib,( sib,) sib,( sib,)|
 lab,( lab,) lab,( lab,)|
 mib,2 r |
