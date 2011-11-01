@@ -8,7 +8,7 @@ mib' mib'8 mib' mib'4. mib'8 |
 mib'1 ~|
 mib'2 re'4 sol' |
 sol'2 sol'4 fad' |
-\appoggiatura fad'8 \slurCirc sol'2\( sol'8\) r r4 |
+\appoggiatura fad'8 \circA sol'2 sol'8 r r4 |
 r2 sol'4 sol' |
 fa'2 r4 fa'8 mi' |
 mi'2\trill la' ~|
