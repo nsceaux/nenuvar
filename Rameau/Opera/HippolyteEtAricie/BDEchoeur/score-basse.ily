@@ -1,9 +1,10 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \instrumentName \markup Basses
+    \new Staff << \instrumentName "B.C."
      \global \keepWithTag #'basse \includeNotes "basse" >>
-    \newHaraKiriStaff << \instrumentName \markup { Contre-basses }
-      { s2.*5 \startHaraKiri }
+    \new Staff \with { \haraKiri } <<
+      \instrumentName \markup { Contre Basse }
+      { s2.*7\break \startHaraKiri }
       \global \keepWithTag #'contrebasse \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
