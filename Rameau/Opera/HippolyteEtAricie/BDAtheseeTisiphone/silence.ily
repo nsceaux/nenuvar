@@ -1,2 +1,1 @@
-R1*5\noBreak R1*6\noBreak R2.\noBreak \grace s8 R1*3\noBreak R1\noBreak R1*6\noBreak
-r2\noBreak r2\noBreak R1*6\noBreak
+R1*5 R1*6 R2. R1*3 R1 R1*6 r2 r2 R1*6

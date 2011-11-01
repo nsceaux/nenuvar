@@ -3,7 +3,7 @@
   \tag #'(thesee basse) {
     \tag #'basse \theseeMark \tag #'thesee \clef "vbasse" re'2 la8 la la8. sib16 |
     fad4.\trill la8 do'8. do'16 sib8\trill la |
-    \appoggiatura la sib4 r8 re fa fa16 sol \slurCirc la8\( la16\) sol |
+    \appoggiatura la sib4 r8 re fa fa16 sol \circA la8 la16 sol |
     la4 r8 la16 la mi'4. mi'16 fa' |
     fa'4. re'16 la \appoggiatura la8 sib4. sib16 do' |
     la2\trill la8 r la4 |
@@ -15,10 +15,10 @@
     la\trill la16 si \appoggiatura si8 do' la16 la re'8 re'16 mi' |
     dod'4\arcTrill dod'8 r mi'4 mi' |
     mi'2. do'4 |
-    \appoggiatura si8 \slurCirc la2.\( la8\) sold |
+    \appoggiatura si8 \circA la2. la8 sold |
     la2 r8 la16^"Vivement" sol fa8 mi16 re |
     dod4\trill la,8 la, mi4-| mi8 mi |
-    \slurCirc la\( la\) re'2 \cesure sib4 |
+    \circA la la re'2 \cesure sib4 |
     sol\trill sol8 fa mi4\trill la |
     re2 re4
     << \tag #'basse { s4 s1*2 s2 } \tag #'thesee { r4 R1*2 r2 } >>
@@ -26,7 +26,7 @@
     si4\trill si8 r si4 si8 re' |
     sol4 sol8 r r4 do'8 sib |
     lab4. sol8 fa4 fa8 mi |
-    \slurCirc lab4\( lab8\) r r fa sol lab |
+    \circA lab4 lab8 r r fa sol lab |
     re2\trill ~ re8 re re mib |
     do1 |
   }

@@ -14,7 +14,7 @@ la,2 r |
 r4 la sold la |
 fa re mi mi, |
 la,2 r |
-sol,1 |
+<< \origVersion { sol,2 ~ sol, } \modVersion sol,1 >> |
 fa,2 r |
 sol, la, |
 sib,1 |
@@ -24,6 +24,6 @@ fa ~ fa ~|
 fa1 |
 mib2 r4 r8 reb |
 do4 sib, lab, sol, |
-fa,1 |
+<< \origVersion { fa,2 ~ fa, } \modVersion fa,1 >> |
 sol, |
 do, |
