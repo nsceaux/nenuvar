@@ -1,7 +1,7 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \characterName \markup { \concat { 1 \super \smallCaps re } \smallCaps Parque }
+      \characterName \markup { \concat { P \super \smallCaps re } \smallCaps Parque }
       \global \includeNotes "parque1"
     >> \includeLyrics "paroles"
     \new Staff \withLyrics <<
@@ -13,8 +13,9 @@
       \global \includeNotes "parque3"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup { Basse continue }
-      \global \includeNotes "basse" \includeFigures "chiffres" >>
+      \instrumentName "B.C."
+      \global \includeNotes "basse"
+      \modVersion\includeFigures "chiffres" >>
   >>
   \layout { indent = \largeindent }
   \midi { }

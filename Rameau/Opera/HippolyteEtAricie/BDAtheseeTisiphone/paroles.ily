@@ -5,10 +5,10 @@
   par mes cris re -- dou -- blés vai -- ne -- ment je l’ap -- pel -- "le ;"
   mes cris ne sont point en -- ten -- "dus ;"
   "ah !" Mon -- trez- moi Pi -- ri -- tho -- "üs !"
-  Crai -- gnez- vous qu’à l’as -- pect d’un a -- mi si fi -- dè -- le,
-  ses tour -- ments ne soient sus -- pen -- "dus ?"
-  Traî -- ne- moi jus -- qu’à lui, re -- dou -- table Eu -- mé -- ni -- "de ;"
-  viens, je prends ton flam -- beau pour gui -- de.
+  Crai -- gnez- vous qu’à l’as -- pect d’un a -- mi si fi -- dé -- le,
+  ses tour -- mens ne soient sus -- pen -- "dus ?"
+  Traî -- ne- moi jus -- qu’à lui, re -- dou -- table Eu -- me -- ni -- "de ;"
+  viens, je prens ton flam -- beau pour gui -- de.
 }
 \tag #'(tisiphone basse) {
   %% TISIPHONE.
