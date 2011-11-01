@@ -11,6 +11,8 @@
 #(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
+#(ly:set-option 'apply-vertical-tweaks (and (not (eqv? #t (ly:get-option 'urtext)))
+                                            (not (symbol? (ly:get-option 'part)))))
 
 %% use baroque style repeats
 #(ly:set-option 'baroque-repeats #t)

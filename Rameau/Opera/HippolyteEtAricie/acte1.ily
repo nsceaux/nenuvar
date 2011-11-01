@@ -15,13 +15,15 @@
 %{ n°3 %}
 \scene "Scène II" "SCÈNE 2 : Hippolyte, Aricie"
 \sceneDescription \markup \smallCaps { Hippolyte, Aricie. }
-\pieceToc \markup { Hippolyte, Aricie }
+\pieceToc \markup { Hippolyte, Aricie : \italic { Princesse, quels apprêts me frappent } }
 \includeScore "ABAhippolyteAricie"
 %{ n°4 %}
 \pieceToc \markup { Aricie : \italic { Hippolyte amoureux m'occupera sans cesse } }
 \includeScore "ABBaricie"
 %{ n°5 %}
-\pieceToc \markup { Hippolyte, Aricie }
+\pieceToc \markup {
+  Hippolyte, Aricie : \italic { Je vous affranchirai d'une loi si cruelle }
+}
 \includeScore "ABChippolyteAricie"
 %{ n°6 %}
 \pieceToc \markup { Hippolyte, Aricie :

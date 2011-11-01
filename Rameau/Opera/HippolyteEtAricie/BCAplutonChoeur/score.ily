@@ -92,7 +92,16 @@
         \instrumentName "B.C."
         { s2.*40 s4. s4.^"B.C." }
         \global \includeNotes "basse"
-        \includeFigures "chiffres" >>
+        \includeFigures "chiffres"
+        { s2.*40 \pageBreak
+          \repeat unfold 43 {
+            \verticalTweak
+            #'((Y-offset . 24)
+               (alignment-distances . (14 14 14 14 14 20 14 14 14 20)))
+            s2.
+          }
+        }
+      >>
     >>
   >>
   \layout { indent = \largeindent }
