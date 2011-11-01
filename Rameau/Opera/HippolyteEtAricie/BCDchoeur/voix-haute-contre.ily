@@ -1,5 +1,5 @@
 \clef "vhaute-contre" R2. |
-la'4^\markup \character Chœur la' la' |
+la'4 la' la' |
 fa' fa' mi' |
 fa' fa' fa' |
 fa'2. fa'4 fa' sib' |
