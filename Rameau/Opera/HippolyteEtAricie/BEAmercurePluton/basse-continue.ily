@@ -1,4 +1,4 @@
-\clef "basse" fa2.\p ^"Tous" |
+\clef "basse" fa2._"doux" ^"Tous" |
 do' |
 sol |
 re' |
@@ -7,7 +7,7 @@ sib |
 do' |
 do |
 fa,1 |
-r2^"Basse continue" fa4 sib, |
+r2_"B.C" fa4 sib, |
 do2 r4 la, |
 sib,2 ~ sib,8. la,16 sol,8.\trill fa,16 |
 do1 |

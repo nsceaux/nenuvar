@@ -1,5 +1,5 @@
 \clef "dessus" R2. |
-r4 sol'\p la' |
+r4 sol'_"doux" la' |
 sib' r2 |
 r4 la' sib' |
 do''2. ~|
