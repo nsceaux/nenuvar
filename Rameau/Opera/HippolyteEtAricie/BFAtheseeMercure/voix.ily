@@ -12,15 +12,15 @@
   \tag #'(thesee basse) {
     \tag #'basse \theseeMark \tag #'thesee \clef "vbasse" r4 r8 mib mib fa sol lab  |
     sib4 sib8 sib mib4 mib8 do |
-    \slurCirc fa\( fa\) do'4. do'8 la\trill la16 do' |
+    \circA fa fa do'4. do'8 la\trill la16 do' |
     fa4 fa8 fa16 mib mib8 re |
-    re4\trill \slurCirc re'4.\( \cesureCenter re'16\) do' sib8 la |
-    sol sol \slurCirc sol4\( fa8\) mib16 re |
+    re4\trill \circA re'4. \cesureCenter re'16 do' sib8 la |
+    sol sol \circA sol4 fa8 mib16 re |
     \appoggiatura re8 mib4 mib'8 mib' la4. sib16 do' |
     fad4.\arcTrill sib8 sol4\prall ~ sol16 sol sol fad |
     sol4 sol8 r
     << \tag #'basse { s2 s1 s4 } \tag #'thesee { r2 R1 r4 } >>
-    \tag #'basse \theseeMark \slurCirc fa'4.\( re'8\) re' re'16 re' |
+    \tag #'basse \theseeMark \circA fa'4. re'8 re' re'16 re' |
     sol4 sol8 sol do'4 do'8 do' |
     la1\trill |
   }
