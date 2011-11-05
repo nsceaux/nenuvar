@@ -20,7 +20,7 @@ r4 sol''4. mi''8 |
 dod''2\arcTrill re''8 mi'' |
 \appoggiatura mi'' fad''2 r8 sol'' |
 fad''4( mi''8\trill) re''16[ dod''] si'[ lad'] si'8 |
-\appoggiatura si' \slurCirc dod''2\( fad'8\) r |
+\appoggiatura si' \circA dod''2 fad'8 r |
 r4 r fad''4 |
 fad''( sol''8) dod''16 r si'[ lad'] si'8 |
 re''4^|( dod''2\trill) |
