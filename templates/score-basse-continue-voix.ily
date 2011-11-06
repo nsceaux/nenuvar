@@ -1,7 +1,8 @@
 \score {
   \new StaffGroupNoBar <<
-    \newTinyHaraKiriStaffB \withLyrics <<
-      \global \keepWithTag #'basse \includeNotes "voix"
+    \new Staff \with { \haraKiriFirst \tinyStaff } \withLyrics <<
+      \keepWithTag #(*tag-global*) \global
+      \keepWithTag #'basse \includeNotes "voix"
     >> \keepWithTag #'basse \includeLyrics "paroles"
     \new Staff <<
       \keepWithTag #(*tag-global*) \global

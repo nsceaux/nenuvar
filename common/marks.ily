@@ -1,6 +1,6 @@
 #(define-markup-command (characteri paper props name) (markup?)
   (interpret-markup paper props
-   (markup #:large #:smallCaps name)))
+   (markup #:larger #:smallCaps name)))
 
 #(define-markup-command (character paper props name) (markup?)
   (interpret-markup paper props
@@ -9,7 +9,7 @@
 #(define-markup-command (character-text paper props name text) (markup? markup?)
   (interpret-markup paper props
    (markup #:null #:translate  (cons -4 1)
-    #:line (#:characteri name #:large " " #:large #:italic text))))
+    #:line (#:characteri name #:larger " " #:larger #:italic text))))
 
 #(define-markup-command (character-text-col paper props name text) (markup? markup?)
   (interpret-markup paper props
