@@ -11,17 +11,17 @@
     si,2 la,8. si,16 dod8 dod, |
     fad,4 r re2 |
     la, r8 fad, si,4 |
-    mi,1 |\allowPageTurn
+    << \origVersion { mi,2 ~ mi, } \modVersion mi,1 >> |\allowPageTurn
     si,2 re |
-    fad2. |
+    << \origVersion { fad2 ~ fad4 } \modVersion fad2. >> |
     sol2 r8 mi la8. re16 |
-    la,1 |\allowPageTurn
+    << \origVersion { la,4 ~ la,2. } \modVersion la,1 >> |\allowPageTurn
     si,2 ~ si,8 la, |
     sol,2 r4 sol |
     re'2 re4 |
     la2 lad4 |
     si mi fad fad, |
-    si,2 mi |
+    si,2 << \origVersion { mi4 ~ mi } \modVersion mi2 >> |
     la4. re8 mi4 |
     la,2 r4 |
     sol,2 fad, |
@@ -45,14 +45,14 @@
     do2. dod4 |
     re2 fa4 |
     mi2 r |\allowPageTurn
-    r2 la,4 |
+    r4 r la,4 |
     sib,2.~ |
     sib,2 sol, |
     la,1 |
     r2 dod |
     re1 |
     r2 re |
-    la,2. |
+    << \origVersion { la,4 ~ la,2 } \modVersion la,2. >> |
     sib,2 sol, |
     la,4. sib,8 do4 do, |
     fa,
@@ -61,14 +61,14 @@
     r4 r2 R1 R2. R1 R1 R2.*2 R1 R1*4 R2. R1*2 R2. R1
     R2.*2 R1*2 R2.*2 R1*2 R2. R1 R1*2 r4 r2. R2. R1 R1 R1*2
     R2. R1*2 R2. R1 R2. R1 R2. R1
-    r2 la,4_"Basses et contre-basses" | \noBreak
+    r2 la,4_"Basses et contre basse" | \noBreak
     sib,2 r4 |
     R1*2 R1*3 R2. R1 R1 |
     r4
   }
 >>
 r8 do'^"Tous" do'8. do'16 la8. fa16 |
-do'4 r16 do'16\p re' mi' fa'4 r8 fa |
+do'4 r16 do'16_"doux" re' mi' fa'4 r8 fa |
 la,4 la8. fa16 do'4 do'8. fa16 |
 do8. do16 mi8. do16 fa8. fa16 la8. do'16 |
 fa'2 r4 r8 fa |
@@ -101,7 +101,7 @@ r32 do'32 si la sol fa mi re do8 r
     si do' |
     sol2. do'8. sib!16 |
     la4. sol8 fa8. mib16 re8. do16 |
-    sib,1 |
+    << \origVersion { sib,2 ~ sib, } \modVersion sib,1 >> |
     do2 r |
     R1 |
   }

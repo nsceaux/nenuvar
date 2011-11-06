@@ -1,6 +1,5 @@
-\piecePartSpecs #`((violon1)
-                   (violon2)
+\piecePartSpecs #`((violons #:score "score-violons")
                    (basse)
-                   (voix #:score "score-voix")
                    (basse-continue #:tag-notes basse-continue
-                                   #:score-template "score-basse-continue-voix"))
+                                   #:score-template "score-basse-continue-voix")
+                   (silence #:score "score-silence"))
