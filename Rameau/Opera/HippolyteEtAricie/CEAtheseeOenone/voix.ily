@@ -3,7 +3,8 @@
   \tag #'(oenone basse) {
     << \tag #'basse { s2 s1*5 } \tag #'oenone { \clef "vbas-dessus" r2 R1*5 } >>
     \tag #'basse \oenoneMark \grace s8
-    sol''8.-\tag #'oenone ^\markup\italic "à part" re''16 sib'8 sib'16 sol' re''8 re''16 re'' re''8\trill re''16 mi'' |
+    \once\override TextScript #'padding = #3
+    \circA sol''8.-\tag #'oenone ^\markup\italic "à part" re''16 sib'8 sib'16 sol' re''8 re''16 re'' re''8\trill re''16 mi'' |
     \appoggiatura mi''8 \circA fa''4 fa''8 r re''^\markup \italic "à Thésée" re''16 re'' re''8. re''16 |
     si'4\trill r r8 re''16 re'' sol''8 sol''16 re'' |
     \appoggiatura re''8 mib''4 r sol'8 sol'16 sol' la'8. sib'16 |

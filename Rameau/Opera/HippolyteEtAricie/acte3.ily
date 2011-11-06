@@ -43,7 +43,7 @@
 \scene "Scène VI" "SCÈNE 6 : Thésée"
 \sceneDescription \markup \smallCaps Thésée.
 \pieceToc \markup \smallCaps { Thésée }
-\includeScore "CGAthesee"
+\includeScore "CFAthesee"
 \pieceToc \markup { \smallCaps Thésée : \italic { Puissant Maître des flots, favorable Neptune } }
 \includeScore "CGBthesee"
 \pieceTocAndTitle \markup { Prélude pour le frémissement des flots } \markup {
