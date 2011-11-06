@@ -9,7 +9,7 @@
     fa'4
     << \tag #'basse { s2. s1 s2.*2 s1 s2. s4. }
       \tag #'phedre { r4 r2 | R1 R2.*2 R1 R2. r4 r8 } >>
-    \tag #'basse \phedreMark la'-\tag #'phedre ^\markup\character "Pèdre" si' dod'' re'' mi'' |
+    \tag #'basse \phedreMark la'-\tag #'phedre ^\markup\character-text "Pèdre" "à Thésée" si' dod'' re'' mi'' |
     fa''4. fa''8 fad''4\trill fad''8 fad''16 sol'' |
     sol''4 r8 mi''16 mi'' dod''4\trill dod''8 re'' |
     %\appoggiatura re'' mi''4.
@@ -27,7 +27,7 @@
     \tag #'basse \theseeMark sol16 do'4 do'16 r do' re' mib'8. mib'16 |
     sib4 sib8
     << \tag #'basse { s8 s2 s4 } \tag #'thesee { r8 r2 | r4 } >>
-    \tag #'basse \theseeMark \slurCirc re'4.\( sib16\) sib sol8. -\prall sol16 |
+    \tag #'basse \theseeMark \circA re'4. sib16 sib sol8. -\prall sol16 |
     mi4\trill mi8 r16^\markup \italic "à part" do' do'8. do'16 la8. fa16 |
     \appoggiatura mi8 re8. re16 re8 re sib, do |
     fa,2. |

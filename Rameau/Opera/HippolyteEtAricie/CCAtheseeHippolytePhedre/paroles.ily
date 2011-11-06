@@ -8,7 +8,7 @@
 }
 \tag #'(hippolyte basse) {
   %% HIPPOLYTE.
-  Mon pè -- "re !"
+  Mon pe -- "re !"
 }
 \tag #'(phedre basse) {
   %% PHEDRE.
@@ -16,10 +16,10 @@
 }
 \tag #'(thesee basse) {
   %% THESEE, à part.
-  Ô trop fa -- tal o -- ra -- "cle !"
+  O trop fa -- tal O -- ra -- "cle !"
   Je trou -- ve les mal -- heurs que m’a pré -- dits l’En -- fer.
   %% (à Phèdre.)
-  Rei -- ne, dé -- voi -- lez- moi ce fu -- nes -- te mys -- tè -- re.
+  Rei -- ne, dé -- voi -- lez- moi ce fu -- nes -- te mys -- té -- re.
 }
 \tag #'(phedre basse) {
   %% PHEDRE, à Thésée.

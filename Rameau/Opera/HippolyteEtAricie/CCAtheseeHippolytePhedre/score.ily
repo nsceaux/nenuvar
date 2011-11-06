@@ -13,9 +13,9 @@
       \global \keepWithTag #'thesee \includeNotes "voix"
     >> \keepWithTag #'thesee \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName "Basse continue"
+      \instrumentName "B.C."
       \global \includeNotes "basse"
-      \includeFigures "chiffres"
+      \modVersion\includeFigures "chiffres"
     >>
   >>
   \layout { indent = \largeindent }
