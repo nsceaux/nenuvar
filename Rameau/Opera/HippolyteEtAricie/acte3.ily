@@ -45,7 +45,7 @@
 \pieceToc \markup \smallCaps { Thésée }
 \includeScore "CFAthesee"
 \pieceToc \markup { \smallCaps Thésée : \italic { Puissant Maître des flots, favorable Neptune } }
-\includeScore "CGBthesee"
+\includeScore "CFBthesee"
 \pieceTocAndTitle \markup { Prélude pour le frémissement des flots } \markup {
   \smallCaps Thésée : \italic { Mais de courroux l'onde s'agite } }
 \includeScore "CGCthesee"

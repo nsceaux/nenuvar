@@ -1,15 +1,3 @@
-r2
-R1*3
-R2.
-R1*2
-R1*2
-R1
-R1*4
-R1*2
-R2.*4
-R1*2
-R1*3
-R2.
-R1*3
-R1
-r4
+r2\noBreak R1*3\noBreak R2.\noBreak R1*2\noBreak R1*2
+R1\noBreak \grace s8 R1*4\noBreak R1*2\noBreak \grace s8 R2.*4
+R1*2\noBreak \grace s8 R1*3\noBreak R2.\noBreak R1*3\noBreak R1

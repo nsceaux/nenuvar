@@ -24,13 +24,12 @@ fad,1 |
 r16 fad fad fad fad fad fad fad fad2 |
 r16 fad, fad, fad, fad, fad, fad, fad, fad,2 |
 <<
-  \tag #'basse { R2. R1*4 r4 }
+  \tag #'basse { R2. R1*4 }
   \tag #'basse-continue {
     mi,2. |
     red,2 mi, |
     fad, r4 fad |
     mi1 |
     red4. mi8 fad2 |
-    si,4 \custosNote si
   }
 >>

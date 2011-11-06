@@ -24,4 +24,3 @@ fad8 fad r si16 lad sold8 fad mi mi16 sold |
 dod8 dod16 r fad sold lad si dod'4 dod'8 red' |
 mi'2 r8 dod'16 dod' lad8 fad |
 \circA si2 \circA si8 mi fad4 |
-si,2 

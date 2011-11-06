@@ -37,7 +37,9 @@
       >> \includeLyrics "paroles"
       \new Staff <<
         \instrumentName\markup { Toutes les Basses }
-        \global \keepWithTag #'basse-continue \includeNotes "basse" >>
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
   >>
   \layout { indent = \largeindent }

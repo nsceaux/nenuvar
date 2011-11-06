@@ -8,4 +8,4 @@ A pu -- nir un in -- grat d’où vient que je ba -- lan -- "ce ?"
 Non, non, dans un fils si cou -- pa -- ble,
 je ne vois qu’un monstre ef -- froy -- a -- "ble :"
 qu’il ne trouve en moi qu’un ven -- geur,
-qu’il ne trouve en moi _ qu’un ven -- geur.
+qu’il ne trouve en moi _ qu’un "ven -"

@@ -1,6 +1,0 @@
-\piecePartSpecs #`((violon #:notes "dessus")
-                   (haute-contre)
-                   (taille)
-                   (basse)
-                   (voix)
-                   (basse-continue #:score "score-basse-continue"))

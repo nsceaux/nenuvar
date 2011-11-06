@@ -47,4 +47,3 @@ dod''4. r32 fad' fad' fad' fad'4 r |
 R2. |
 R1*3 |
 R1 |
-r4
