@@ -1,5 +1,5 @@
 \clef "basse" \grace s8 la,2. re8. do16 |
-sib,1 |
+<< \origVersion { sib,2 ~ sib, } \modVersion sib,1 >> |
 sib,4 la,8. sib,16 do2 |
 fa,1 |
 R1 |
