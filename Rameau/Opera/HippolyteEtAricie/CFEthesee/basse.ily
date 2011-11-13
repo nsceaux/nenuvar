@@ -5,7 +5,7 @@ sol,1 |
 r2 sol ~|
 sol4 fad sol8 la |
 re1 |
-la, |
+<< \origVersion { la,2 ~ la, } \modVersion la,1 >> |
 re2 do |
 si,2. do8 re |
 sol,1 |
