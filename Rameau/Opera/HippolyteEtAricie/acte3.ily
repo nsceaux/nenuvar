@@ -49,38 +49,37 @@
 \pieceTocAndTitle \markup { Prélude pour le frémissement des flots } \markup {
   \smallCaps Thésée : \italic { Mais de courroux l'onde s'agite } }
 \includeScore "CFCthesee"
-\includeScore "CGDthesee"
 \pieceTocTitle "Annonce"
-\includeScore "CGEannonce"
+\includeScore "CFDannonce"
 \pieceToc \markup \smallCaps { Thésée }
-\includeScore "CGFthesee"
+\includeScore "CFEthesee"
 %%
 \scene "Scène VII" "SCÈNE 7 : Thésée, peuples et matelots"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Thésée, peuples et matelots.
 }
 \pieceTocTitle "Marche des matelots"
-\includeScore "CGGmarche"
+\includeScore "CGAmarche"
 \pieceTocAndTitle \markup "CHŒUR" \markup \wordwrap {
   \smallCaps { Chœur de matelots : } \italic { Que ce rivage retentisse }
 }
-\includeScore "CGHchoeur"
+\includeScore "CGBchoeur"
 \pieceTocTitle "Premier air des matelots"
-\includeScore "CGIair"
+\includeScore "CGCair"
 \pieceTocTitle "Deuxième air des matelots"
-\includeScore "CGJair"
+\includeScore "CGDair"
 \markup \title \fill-line {
   \line { [Il faut ici le flageolet et le tambourin.] }
 }
 \pieceTocTitle "Premier rigaudon"
-\includeScore "CGKrigaudon"
+\includeScore "CGErigaudon"
 \pieceTocTitle "Deuxième rigaudon"
-\includeScore "CGLrigaudon"
+\includeScore "CGFrigaudon"
 \pieceToc \markup { \smallCaps { Une matelote : }
   \italic { L’Amour, comme Neptune } }
-\includeScore "CGMmatelote"
+\includeScore "CGGmatelote"
 \pieceNoTitle
-\reIncludeScore "CGKrigaudon" "CGKrigaudonBis"
+\reIncludeScore "CGErigaudon" "CGErigaudonBis"
 \pieceTocTitle "Entr'acte"
-\includeScore "CGNentracte"
+\includeScore "CGHentracte"
 \actEnd \markup { FIN DU TROISIÈME ACTE }
