@@ -48,7 +48,7 @@
 \includeScore "CFBthesee"
 \pieceTocAndTitle \markup { Prélude pour le frémissement des flots } \markup {
   \smallCaps Thésée : \italic { Mais de courroux l'onde s'agite } }
-\includeScore "CGCthesee"
+\includeScore "CFCthesee"
 \includeScore "CGDthesee"
 \pieceTocTitle "Annonce"
 \includeScore "CGEannonce"

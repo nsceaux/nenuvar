@@ -1,8 +1,0 @@
-\piecePartSpecs #`((violon1)
-                   (violon2 #:score "score-violon2")
-                   (flute #:notes "silence" #:score-template "score-silence" #:ragged #t)
-                   (hautbois #:notes "silence" #:score-template "score-silence" #:ragged #t)
-                   (basson)
-                   (basse #:score "score-basse")
-                   (voix)
-                   (basse-continue #:score "score-basse"))
