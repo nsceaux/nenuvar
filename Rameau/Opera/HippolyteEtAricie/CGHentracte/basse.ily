@@ -12,7 +12,7 @@ la8 sol fad4 sol8 fad mi4 |
 re1 |
 re'2 re'4 re |
 la2 la |
-si8 do' re'4 si8 la sol4 |
+si8 do' re'4 si8\trill la sol4 |
 do'1 |
 R1 |
 r2 dod'8 si la4 |
@@ -28,7 +28,7 @@ sol4 sol sol fad8 mi |
 re1 |
 si,4 si, si, la,8 si, |
 do4 do do2 |
-re4 re re do8 re |
+re4 re re\trill do8 re |
 mi1 |
 fad4 fad fad mi8 re |
 sol la si4 si2 |

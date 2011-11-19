@@ -1,4 +1,5 @@
 \piecePartSpecs #`((dessus)
                    (haute-contre)
                    (taille)
-                   (basse))
+                   (basse)
+                   (silence #:tag-global silence))

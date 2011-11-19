@@ -77,7 +77,10 @@
   \italic { L’Amour, comme Neptune } }
 \includeScore "CGGmatelote"
 \pieceNoTitle
-\reIncludeScore "CGErigaudon" "CGErigaudonBis"
+\markup\large {
+  On reprend le premier rigaudon page \page-refIII #'CGErigaudon .
+}
+%\reIncludeScore "CGErigaudon" "CGErigaudonBis"
 \pieceTocTitle "Entr'acte"
 \includeScore "CGHentracte"
 \actEnd \markup { FIN DU TROISIÈME ACTE }
