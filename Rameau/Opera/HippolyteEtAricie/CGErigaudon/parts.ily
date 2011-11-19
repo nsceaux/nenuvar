@@ -1,5 +1,6 @@
 \piecePartSpecs #`((dessus)
                    (haute-contre)
                    (taille)
-                   (basson)
-                   (basse))
+                   (basson #:notes "basson")
+                   (basse)
+                   (silence #:tag-global silence))

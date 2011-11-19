@@ -68,9 +68,7 @@
 \includeScore "CGCair"
 \pieceTocTitle "Deuxième air des matelots"
 \includeScore "CGDair"
-\markup \title \fill-line {
-  \line { [Il faut ici le flageolet et le tambourin.] }
-}
+\markup \title \line { Il faut ici le flageolet et le tambourin. }
 \pieceTocTitle "Premier rigaudon"
 \includeScore "CGErigaudon"
 \pieceTocTitle "Deuxième rigaudon"

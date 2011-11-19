@@ -1,16 +1,26 @@
 \score {
-  \new StaffGroup <<
-    \new Staff << \instrumentName \markup Dessus
-                  %%{ s4 s1*7 s2. \break }
-                  \global \includeNotes "dessus" >>
-    \new Staff << \instrumentName \markup Haute-contres
-                  \global \includeNotes "haute-contre" >>
-    \new Staff << \instrumentName \markup Tailles
-                  \global \includeNotes "taille" >>
-    \new Staff << \instrumentName \markup Bassons
-                  \global \includeNotes "basson" >>
-    \new Staff << \instrumentName \markup Basses
-                  \global \includeNotes "basse" >>
+  <<
+    \setMusic #'staffGroup <<
+      \new Staff <<
+        \once \override Staff.TextScript #'outside-staff-priority = #10000
+        s4*0^\markup\large "Il faut ici le flageolet et le tambourin"
+        \instrumentName "[Dessus]"
+        \global \includeNotes "dessus" >>
+      \new Staff <<
+        \instrumentName "[Hautes-contre]"
+        \global \includeNotes "haute-contre" >>
+      \new Staff <<
+        \instrumentName "[Tailles]"
+        \global \includeNotes "taille" >>
+      \new Staff <<
+        \instrumentName "Bassons"
+        \global \includeNotes "basson" >>
+      \new Staff <<
+        \instrumentName "Les Basses"
+        \global \includeNotes "basse" >>
+    >>
+    \origVersion\new StaffGroupNoBar \staffGroup
+    \modVersion\new StaffGroup \staffGroup
   >>
   \layout { indent = \largeindent }
   \midi { }

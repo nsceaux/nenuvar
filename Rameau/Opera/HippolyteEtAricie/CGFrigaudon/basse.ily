@@ -1,4 +1,4 @@
-\clef "basse" r4\pp |
+\clef "basse" r4_"Tres doux" |
 R1*3 |
 r4 sol sol, r |
 R1 |
