@@ -1,80 +1,118 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new Staff << \instrumentName \markup \center-column { Hautbois Violons }
-                    \global
-                    { \includeNotes "dessus-a"
-                      s4*0^"Hautbois"
-                      << \includeNotes "hautbois-b1" \\ \includeNotes "hautbois-b2" >>
-                      s4*0^"Tous" \includeNotes "dessus-c"
-                      s4*0^"Hautbois"
-                      << \includeNotes "hautbois-d1" \\ \includeNotes "hautbois-d2" >>
-                      \includeNotes "hautbois-dsuite"
-                      s4*0^"Tous" \includeNotes "dessus-e"
-                      \once \override TextScript #'self-alignment-X = #CENTER
-                      s4*0^"Hautbois"
-                      << \includeNotes "hautbois-f1" \\ \includeNotes "hautbois-f2" >>
-                      <<
-                        << { s4 s2^"Hautbois"^"Violon I" } \includeNotes "hautbois-g" >>
-                        \\ << { s4 s2_"Violon II" } \includeNotes "violon-g2" >> >>
-                      s4*0^"Tous" \includeNotes "dessus-h"
-                      s4*0^"Hautbois"
-                      << \includeNotes "hautbois-i1"
-                         \\ \includeNotes "hautbois-i2" >>
-                      << { s2. s4*0^"Tous" } \includeNotes "dessus-j" >>
-                      s4*0^"Hautbois" \includeNotes "hautbois-k"
-                      s4*0^"Tous" \includeNotes "dessus-l"
-                      %%
-                      s4*0^"Hautbois" \includeNotes "hautbois-mdebut"
-                      << \includeNotes "hautbois-m1" \\ \includeNotes "hautbois-m2" >>
-                      \includeNotes "dessus-n"
-                      \includeNotes "hautbois-odebut"
-                      << \includeNotes "hautbois-o1" \\ \includeNotes "hautbois-o2" >>
-                      \includeNotes "dessus-p"
-                      << \includeNotes "hautbois-q1" \\ \includeNotes "hautbois-q2" >>
-                      \includeNotes "hautbois-rdebut"
-                      << \includeNotes "hautbois-r1" \\ \includeNotes "hautbois-r2" >>
-                      \includeNotes "dessus-s" } >>
-      \newHaraKiriStaffB << \global
-                            { s1*123 \break
-                              s4*0^"Violons"
-                              << \includeNotes "violon-m1" \\ \includeNotes "violon-m2" >>
-                              \includeNotes "dessus-n"
-                              << \includeNotes "violon-o1" \\ \includeNotes "violon-o2" >>
-                              \includeNotes "dessus-p"
-                              \includeNotes "violon-q"
-                              \includeNotes "violon-rdebut"
-                              << \includeNotes "violon-r1" \\ \includeNotes "violon-r2" >>
-                              \startHaraKiri
-                              \includeNotes "dessus-s" } >>
-      \new Staff << \instrumentName \markup \center-column { Haute-contres Tailles }
-                    \global \set Staff.printPartCombineTexts = ##f
-                    \partcombine \includeNotes "haute-contre" \includeNotes "taille" >>
-      \new Staff << \instrumentName \markup Bassons
-                    \global \includeNotes "basson" >>
+  <<
+    \origVersion <<
+      %% Chœur
+      \new StaffGroupNoBar \with { instrumentName = \markup\character Chœur } <<
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-dessus"
+        >> \keepWithTag #'vdessus \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \keepWithTag #'hc-dessus2 \includeNotes "voix-haute-contre"
+        >> \keepWithTag #'vhaute-contre-dessus2 \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-taille"
+          { s1*79 s1^"h-c. et tailles" }
+        >> \keepWithTag #'vtaille \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-basse"
+        >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      >>
+      %% Orchestre
+      \new StaffGroupNoBar <<
+        \new Staff <<
+          \instrumentName \markup { \concat { P \super ers } hautbois }
+          \global \keepWithTag #'hautbois1 \includeNotes "dessus"
+        >>
+        \new Staff <<
+          \instrumentName \markup { \concat { 2 \super mes } hautbois }
+          \global \keepWithTag #'hautbois2 \includeNotes "dessus"
+        >>
+        \new Staff <<
+          \instrumentName "Violons"
+          { s1*86
+            s4*0^\markup { \concat { P \super ers } violons }
+            s1*4 s4*0^"Violons"
+            s1*5 s4*0^"Violons"
+            s1*24 s4*0^\markup { \concat { P \super ers } violons }
+            s1*34 s4*0^"Violons" }
+          \global \keepWithTag #'violon1 \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          { \startHaraKiri s1*86 \stopHaraKiri
+            s4*0^\markup { \concat { 2 \super es } violons }
+            s1*4 \startHaraKiri
+            s1*29 \stopHaraKiri
+            s4*0^\markup { \concat { 2 \super es } violons }
+            s1*34 \startHaraKiri
+            }
+          \global \keepWithTag #'violon2 \includeNotes "dessus"
+        >>
+        \new Staff <<
+          \instrumentName "Haute-contres"
+          \global \keepWithTag #'haute-contre \includeNotes "parties"
+        >>
+        \new Staff <<
+          \instrumentName "Tailles"
+          \global \keepWithTag #'taille \includeNotes "parties"
+        >>
+        \new Staff <<
+          \instrumentName "Bassons"
+          \global \includeNotes "basson"
+        >>
+        \new Staff <<
+          \instrumentName "B.C."
+          \global \includeNotes "basse"
+        >>
+      >>
     >>
-    \new ChoirStaff <<
-      \new Staff \withLyrics <<
-        { s1^\markup \character Chœur s1*78 s1^\markup \character "Petit chœur" }
-        \global \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles-dessus"
-      \newHaraKiriStaffB \withLyrics <<
-        { s1*79 \break s1*8 \break }
-        \global \includeNotes "voix-dessus2"
-      >> \includeLyrics "paroles-dessus2"
-      \new Staff \withLyrics <<
-        \global \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles-haute-contre"
-      \new Staff \withLyrics <<
-        \global \includeNotes "voix-taille"
-      >> \includeLyrics "paroles-taille"
-      \new Staff \withLyrics <<
-        { s1*95 \noBreak }
-        \global \includeNotes "voix-basse"
-      >> \includeLyrics "paroles-basse"
+
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new GrandStaff <<
+          \new Staff <<
+            \instrumentName \markup { \concat { P \super ers } hautbois }
+            \global \keepWithTag #'hautbois1 \includeNotes "dessus"
+          >>
+          \new Staff <<
+            \instrumentName \markup { \concat { 2 \super mes } hautbois }
+            \global \keepWithTag #'hautbois2 \includeNotes "dessus"
+          >>
+        >>
+        \new Staff <<
+          \instrumentName "Bassons"
+          \global \includeNotes "basson"
+        >>
+      >>
+      \new StaffGroupNoBracket <<
+        \new Staff <<
+          \instrumentName "Violons"
+          \global \keepWithTag #'violons \includeNotes "dessus"
+        >>
+        \new Staff <<
+          \instrumentName\markup\center-column { Hautes-contre Tailles }
+          \global \keepWithTag #'parties \includeNotes "parties"
+        >>
+      >>
+      \new ChoirStaff \with { instrumentName = \markup\character "Chœur        " } <<
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-dessus"
+        >> \keepWithTag #'vdessus \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \keepWithTag #'hc-dessus2 \includeNotes "voix-haute-contre"
+        >> \keepWithTag #'vhaute-contre-dessus2 \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-taille"
+          { s1*79 s1^"h-c. et tailles" }
+          >> \keepWithTag #'vtaille \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-basse"
+        >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      >>
+      \new Staff <<
+        \instrumentName "B.C."
+        \global \includeNotes "basse"
+      >>
     >>
-    \new Staff << \instrumentName \markup { Basse continue }
-                  \global \includeNotes "basse" >>
   >>
   \layout { indent = \largeindent }
   \midi { }

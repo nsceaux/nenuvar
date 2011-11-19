@@ -1,4 +1,5 @@
-\clef "vdessus" s1*79 |
+\clef "vdessus" s1*78 |
+s2. sold'4 |
 la'2 sold'4 la'8 si' |
 do''2 re''4. do''8 |
 si'2. si'8 do'' |
