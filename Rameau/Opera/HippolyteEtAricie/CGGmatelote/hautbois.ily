@@ -1,10 +1,9 @@
 \clef "dessus" sol'4 |
 sib' la' re'' do'' |
 mib'' r r la' |
-sib' la' sol' fad' |
+sib' la' sol' fad'\trill |
 sol' r r2 |
 R1*2 |
-
 r4 sol' fa' mib' |
 re' r r r |
 r2 r4 re'' |
@@ -17,5 +16,5 @@ sol'' fad'' do'' sib' |
 la' r r2 |
 r4 fad' sol' re' |
 R1 |
-r4 mib' re' fad' |
+r4 mib' re' fad'\trill |
 sol' r r 
