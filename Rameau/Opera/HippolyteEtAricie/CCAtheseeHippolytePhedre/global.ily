@@ -10,6 +10,6 @@
     s1*2\break
     s1*2\pageBreak
     \grace s8 s2.*2 s1 s2 \bar "" \break
-    s1*3\break
+    s4 s1*3\break\noPageBreak
   }
 >>
