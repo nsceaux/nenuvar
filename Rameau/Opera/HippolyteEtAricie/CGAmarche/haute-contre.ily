@@ -6,7 +6,6 @@ sol'2. si'4 |
 la'8 sol' la' si' la'4 la' |
 sol'8 fad' sol' la' si'4 sol' |
 fad'8 mi' fad' sol' la'4 re' |
-fad'8 mi' fad' sol' la'4 re' |
 R1 |
 si'2 si' |
 do'' re'' |

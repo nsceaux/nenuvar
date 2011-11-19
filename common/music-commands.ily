@@ -248,6 +248,25 @@ modAlternatives =
       $second
       \set Score.repeatCommands = #'((volta #f)) #})
 
+%% Alternatives only on one staff
+%% Example:
+%{
+\new Voice \with { \alternativeLayout } {
+  re'2.*1/2\startGroup fad'4*1/2 \fakeBar
+  re'1*1/2\stopGroup |
+}
+%}
+alternativeLayout = \with {
+  \consists "Horizontal_bracket_engraver"
+  \override HorizontalBracket #'bracket-flare = #'(0 . 0)
+  \override HorizontalBracket #'direction = #UP
+}
+fakeBar = {
+  \once\override BreathingSign #'text = \markup \draw-line #'(0 . 4)
+  \once\override BreathingSign #'Y-offset = #-2
+  \breathe
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% smaller notes
