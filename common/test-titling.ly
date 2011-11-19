@@ -3,7 +3,7 @@
 
 \paper { tocTitle = "TABLE DES MATIÈRES" }
 #(ly:set-option 'use-rehearsal-numbers #t)
-\markuplines \table-of-contents
+\markuplist \table-of-contents
 
 \opusTitle "Titre de l'œuvre"
 \ouverture "Ouverture"

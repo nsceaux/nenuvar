@@ -1,6 +1,6 @@
 \newBookPart #'()
 \act "Acte Second"
-\markuplines \paragraph {
+\markuplist \paragraph {
   Le premier soin de David & de Jonathas est de demander à se voir
   durant la tréve.  Joadab jaloux de la gloire de David, & esperant de
   le faire périr plus aisément dans une Bataille, s'efforce de lui

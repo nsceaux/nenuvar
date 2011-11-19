@@ -24,7 +24,7 @@
         \hspace #-1 .
         Typeset using \with-url #"http://www.LilyPond.org" 
         \line { \teeny www. \hspace #-1.0 LilyPond \hspace #-1.0 \teeny .org }
-        #(ly:export (string-append "version " (lilypond-version))) \hspace #-1 
+        $(string-append "version " (lilypond-version)) \hspace #-1 
         on \concat { \today . }
       }
       \small \line {
@@ -69,7 +69,7 @@
   \pageBreak
   
   %% notes
-  \markuplines \with-line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \column-lines {
+  \markuplist \with-line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \column-lines {
     \column {
       \vspace #2
       \italic \fontsize #6 \fill-line { NOTES }
@@ -122,7 +122,7 @@
   \pageBreak
   
   %% Table of contents
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Ouverture

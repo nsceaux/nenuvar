@@ -1,6 +1,6 @@
 \appendixSection "LIVRET"
 \appendixSubSection "Prologue"
-\markuplines \column-lines {
+\markuplist \column-lines {
   \livretAct LIVRET
   \fontsize-lines #1 \column-lines {
     \wordwrap-lines {

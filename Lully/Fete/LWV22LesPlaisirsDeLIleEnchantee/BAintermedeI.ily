@@ -4,7 +4,7 @@
   \tocSpectacle "La Princesse d'Élide"
 
   \markup \act \line { SECONDE JOURNÉE }
-  \markuplines {
+  \markuplist {
     \centered-lines { \title "Avant-Propos" \hspace #1 }
     \paragraph {
       Le brave Roger et les fameux guerriers de sa quadrille avaient
@@ -76,7 +76,7 @@
   }
   \tocPiece "Valets de chiens et musiciens"
   \noPageBreak
-  \markuplines \paragraph \italic {
+  \markuplist \paragraph \italic {
     Pendant que l'Aurore chantait ce récit, quatre valets de chiens
     étaient couchés sur l'herbe, dont l'un (sous la figure de Lyciscas,
     représenté par le sieur de Molière, excellent acteur, de l'invention
@@ -88,7 +88,7 @@
   }
   \includeScore "BADvalets"
 
-  \markuplines {
+  \markuplist {
     \personnage Lyciscas
     \didascalie { en s'éveillant. }
     \texte { 
@@ -98,7 +98,7 @@
   }
   
   \includeScore "BAEdialogue"
-  \markuplines {
+  \markuplist {
     \personnage Lyciscas
     \didascalie { en se levant. }
     \texte {
@@ -113,7 +113,7 @@
     }
     \line { \strut }
   }
-  \markuplines {
+  \markuplist {
     \paragraph \italic {
       Lyciscas s'étant levé avec toutes les peines du monde, et s'étant
       mis à crier de toute sa force, plusieurs cors et trompes de chasse

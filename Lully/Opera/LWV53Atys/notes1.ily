@@ -1,5 +1,5 @@
 \appendixSubSection "Acte I"
-\markuplines \fontsize-lines #2 \column-lines {
+\markuplist \fontsize-lines #2 \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% BAAatys ritournelle
   \column {

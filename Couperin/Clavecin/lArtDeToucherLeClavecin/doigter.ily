@@ -5,7 +5,7 @@
     \fill-line { "DE CLAVECIN, DIFFICILES À DOIGTER" }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \fill-line { 
       \italic \line { 
         à La Milordine, page 6, dans les 2ème et 3ème mesures de 
@@ -343,7 +343,7 @@
     }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       Dans la Courante page 61, il y a un endroit semblable pour le changement
       du 5 au 6ème doigt.
@@ -384,7 +384,7 @@
     }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       À l'égard des \italic Ondes qui est la dernière pièce de mon premier Livre,
       et dont l'intelligence des vrais doigts est presque nécessaire dans
@@ -446,7 +446,7 @@
     }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       On verra dans le couplet qui suit qu'on peut faire deux notes de suite
       du même doigt par degrés conjoints, quand la première est aspirée, ou
@@ -503,7 +503,7 @@
     }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \italic \fill-line { \line { Fin des renvois du premier livre. } }
   }
 }

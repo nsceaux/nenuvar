@@ -15,7 +15,7 @@
 %% Table of contents
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplines \override-lines #'(column-number . 2) \table-of-contents
+  \markuplist \override-lines #'(column-number . 2) \table-of-contents
 }
 
 \include "Rameau/Opera/HippolyteEtAricie/acte1.ily"

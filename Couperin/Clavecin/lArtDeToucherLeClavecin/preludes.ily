@@ -1,7 +1,7 @@
 \bookpart {
   \paper { #(define page-breaking ly:optimal-breaking) }
   \chapter "Préludes"
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       J'ai composé les huit préludes suivants sur les tons de mes
       pièces, tant celles qui sont déja gravées, que celles qu'on
@@ -49,7 +49,7 @@
   \paper { #(define page-breaking ly:optimal-breaking) }
   \pieceTocTitle "Sixième prélude"
   \includeScore "prelude6"
-  \markuplines \columns {
+  \markuplist \columns {
     \section Observations
     \paragraph {
       Quoique ces préludes soient écrits mesurés, il y a cependant un goût

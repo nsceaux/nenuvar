@@ -10,7 +10,7 @@
   \include "Rameau/Opera/Paladins/notes.ily"
   \pageBreak
   %% Table of contents
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
 }
 
 \include "Rameau/Opera/Paladins/body.ily"

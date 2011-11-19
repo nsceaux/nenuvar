@@ -324,10 +324,10 @@ custosNote =
 forceStemLength = 
 #(define-music-function (parser location length music) (number? ly:music?)
   #{
-  \override Voice.Stem #'details = #`((lengths . (,$length))
-                                      (beamed-lengths . (,(- $length 1.0)))
-                                      (beamed-minimum-free-lengths . (,(- $length 1.0)))
-                                      (beamed-extreme-minimum-free-lengths . (,(- $length 1.0)))
+  \override Voice.Stem #'details = #`((lengths . (,length))
+                                      (beamed-lengths . (,(- length 1.0)))
+                                      (beamed-minimum-free-lengths . (,(- length 1.0)))
+                                      (beamed-extreme-minimum-free-lengths . (,(- length 1.0)))
                                       (stem-shorten . (1.0 0.5)))
   $music
   \revert Voice.Stem #'details
@@ -337,13 +337,13 @@ shiftOnce = { \once \override NoteColumn #'horizontal-shift = #1 }
 
 shiftNote =
 #(define-music-function (parser location amount) (number?)
-   #{ \once \override NoteHead #'X-offset = #$amount
-      \once \override Stem #'X-offset = #$amount
-      \once \override Beam #'X-offset = #$amount #})
+   #{ \once \override NoteHead #'X-offset = #amount
+      \once \override Stem #'X-offset = #amount
+      \once \override Beam #'X-offset = #amount #})
 
 shiftRest =
 #(define-music-function (parser location amount) (number?)
-   #{ \once \override Rest #'X-offset = #$amount #})
+   #{ \once \override Rest #'X-offset = #amount #})
 
 %%%
 %%% Misc utilities
@@ -359,9 +359,9 @@ altKeys =
      \once \override Staff.TimeSignature #'stencil = #ly:text-interface::print
      \once \override Staff.TimeSignature #'text =
      #(markup #:override '(baseline-skip . 0)
-              #:number #:line (#:center-column ($num1 $den1)
+              #:number #:line (#:center-column (num1 den1)
                                #:hspace 0.5
-                               #:center-column ($num2 $den2)))
+                               #:center-column (num2 den2)))
      #}))
    
 fractionTime = \once \override Staff.TimeSignature #'style = #'numbered
@@ -379,7 +379,7 @@ characterName =
 midiTempo =
 #(define-music-function (parser location quater-nb-par-min) (number?)
    #{ \set Score . tempoWholesPerMinute =
-      #(ly:make-moment $(/ quater-nb-par-min 4) 1 0 1) #})
+      #(ly:make-moment (/ quater-nb-par-min 4) 1 0 1) #})
 
 %% figure extenders
 figExtOn = \bassFigureExtendersOn
@@ -638,7 +638,7 @@ verticalTweak =
    (if (eqv? #t (ly:get-option 'apply-vertical-tweaks))
        #{
 \overrideProperty #"Score.NonMusicalPaperColumn"
-#'line-break-system-details #$tweak #}
+#'line-break-system-details #tweak #}
        (make-music 'Music 'void #t)))
 
 

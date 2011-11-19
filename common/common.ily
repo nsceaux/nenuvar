@@ -1,4 +1,4 @@
-\version "2.15.9"
+\version "2.15.18"
 #(use-modules (srfi srfi-39))
 #(define-public *staff-size*
   (make-parameter (let ((module (ly:output-def-scope
@@ -56,7 +56,7 @@
           \typewriter \tiny http://nicolas.sceaux.free.fr
           typeset using \with-url #"http://www.LilyPond.org" 
           \concat { \teeny www. LilyPond \teeny .org }
-          #(ly:export (string-append "version " (lilypond-version)))
+          $(string-append "version " (lilypond-version))
           on \concat { \today . }
         }
       }

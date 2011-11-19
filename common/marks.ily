@@ -20,21 +20,21 @@
 #(define-public (make-character-mark clefs name)
    (if (string=? clefs "")
        #{ s1*0 ^\markup \character $name #}
-       #{ << { \set Staff.forceClef = ##t \clef #$clefs
+       #{ << { \set Staff.forceClef = ##t \clef #clefs
                \once \override Staff . Clef #'full-size-change = ##t }
              s1*0 ^\markup \character $name >> #}))
 
 #(define-public (make-character-mark-text clefs name text)
    (if (string=? clefs "")
        #{ s1*0 ^\markup \character-text $name $text #}
-       #{ << { \set Staff.forceClef = ##t \clef #$clefs
+       #{ << { \set Staff.forceClef = ##t \clef #clefs
                \once \override Staff . Clef #'full-size-change = ##t }
              s1*0 ^\markup \character-text $name $text >> #}))
 
 #(define-public (make-character-mark-text-col clefs name text)
    (if (string=? clefs "")
        #{ s1*0 ^\markup \character-text-col $name $text #}
-       #{ << { \set Staff.forceClef = ##t \clef #$clefs
+       #{ << { \set Staff.forceClef = ##t \clef #clefs
                \once \override Staff . Clef #'full-size-change = ##t }
              s1*0 ^\markup \character-text-col $name $text >> #}))
 

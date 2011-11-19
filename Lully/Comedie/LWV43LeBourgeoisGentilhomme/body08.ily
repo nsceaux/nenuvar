@@ -3,7 +3,7 @@
 \sceneDescription \markup \wordwrap-center {
   Madame Jourdain, Cléonte, Lucile, Covielle, Nicole.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Madame Jourdain."
   \texte {
     Je suis bien aise de vous voir, Cléonte, et vous voilà
@@ -24,7 +24,7 @@
   Monsieur Jourdain, Madame Jourdain, Cléonte,
   Lucile, Covielle, Nicole.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Cléonte."
   \texte {
     Monsieur, je n'ai voulu prendre personne pour vous
@@ -185,7 +185,7 @@
 \sceneDescription \markup \wordwrap-center {
   Cléonte, Covielle.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Covielle."
   \texte {
     Vous avez fait de belles affaires avec vos beaux
@@ -262,7 +262,7 @@
 \sceneDescription \markup \wordwrap-center {
   Monsieur Jourdain, Laquais.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Monsieur Jourdain."
   \texte {
     Que diable est-ce là ! Ils n'ont rien que les grands
@@ -289,7 +289,7 @@
 \sceneDescription \markup \wordwrap-center {
   Dorimène, Dorante, Laquais.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Laquais."
   \texte {
     Monsieur dit comme cela qu'il va venir ici tout à
@@ -379,7 +379,7 @@
 \sceneDescription \markup \wordwrap-center {
   Monsieur Jourdain, Dorimène, Dorante, Laquais.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Monsieur Jourdain"
   \didascalie {
     après avoir fait deux révérences, se trouvant
@@ -522,6 +522,6 @@
   }
 }
 %\intermede "Troisième Intermède"
-\markuplines \columns {
+\markuplist \columns {
   \didascalie { Il faut deux airs ici. }
 }

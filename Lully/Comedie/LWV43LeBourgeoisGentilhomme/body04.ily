@@ -5,7 +5,7 @@
   \includeScore "AOtailleur"
 }
 \bookpart {
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Garçon tailleur."
     \texte {
       Mon gentilhomme, donnez, s'il vous plaît, aux garçons

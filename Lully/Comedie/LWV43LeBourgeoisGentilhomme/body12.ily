@@ -3,7 +3,7 @@
 \sceneDescription \markup \wordwrap-center {
   Lucile, Monsieur Jourdain, Dorante, Dorimène, etc.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Monsieur Jourdain."
   \texte {
     Venez, ma fille, approchez-vous, et venez donner
@@ -68,7 +68,7 @@
 \sceneDescription \markup \wordwrap-center {
   Madame Jourdain, Monsieur Jourdain, Cléonte, etc.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Madame Jourdain."
   \texte {
     Comment donc ? Qu'est-ce que c'est que ceci ? On

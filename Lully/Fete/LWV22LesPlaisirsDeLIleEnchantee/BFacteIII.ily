@@ -1,7 +1,7 @@
 \pageBreak
 \tocPartie "Acte Troisième"
 \tocPiece "Scène Première"
-\markuplines {
+\markuplist {
   \act "ACTE TROISIÈME"
   \vspace #1
   \title \line { ARGUMENT }
@@ -43,7 +43,7 @@
   }
 }
 \tocPiece "Scène II"
-\markuplines {
+\markuplist {
   \scene "SCÈNE II"
   \scene-description \wordwrap-center \smallCaps { Euryale, Moron, Arbate. }
   \personnage Euryale
@@ -91,7 +91,7 @@
   }
 }
 \tocPiece "Scène III"
-\markuplines {
+\markuplist {
   \scene "SCÈNE III"
   \scene-description \wordwrap-center \smallCaps { La Princesse, Moron. }
   \personnage "La Princesse"
@@ -191,7 +191,7 @@
   }
 }
 \tocPiece "Scène IV"
-\markuplines {
+\markuplist {
   \scene "SCÈNE IV"
   \scene-description \wordwrap-center \smallCaps {
     La Princesse, Euryale, Moron, Arbate.
@@ -315,7 +315,7 @@
   }
 }
 \tocPiece "Scène V"
-\markuplines {
+\markuplist {
   \scene "SCÈNE V"
   \scene-description { La Princesse, Moron, Philis, Tircis. }
   \personnage Moron

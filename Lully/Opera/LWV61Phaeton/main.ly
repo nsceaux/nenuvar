@@ -55,12 +55,12 @@ page lviii manquante (mesures 73 à 79)
   \pageBreak
   
   %% Table of contents
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplines {
+  \markuplist {
     \with-line-width-ratio #0.6
     \override-lines #'(baseline-skip . 3.5) {
       \vspace #3

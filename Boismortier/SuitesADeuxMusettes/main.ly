@@ -30,7 +30,7 @@ global =
   \markup\null
   \pageBreak
   %% notes
-  \markuplines \column-lines {
+  \markuplist \column-lines {
     \act { NOTES }
     \paragraph {
       Ce recueil regroupe douze suites pour deux musettes, opus 17 [1]
@@ -73,7 +73,7 @@ global =
   }
   \pageBreak
   %% toc
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
 }
 \bookpart {
   \act "Œuvre XVII"

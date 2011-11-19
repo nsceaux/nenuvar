@@ -1,5 +1,5 @@
 \appendixSubSection "Acte IV"
-\markuplines \fontsize-lines #2 \column-lines {
+\markuplist \fontsize-lines #2 \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% EAAsangarideDorisIdas mesure 6
   \excerpts \column {

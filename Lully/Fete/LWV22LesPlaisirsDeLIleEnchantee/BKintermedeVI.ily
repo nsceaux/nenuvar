@@ -1,6 +1,6 @@
 \pageBreak
 \tocPartie "Sixième intermède"
-\markuplines {
+\markuplist {
   \act "SIXIÈME INTERMÈDE"
   \scene-description \wordwrap-center {
     Chœur de pasteurs et de bergères qui dansent
@@ -19,7 +19,7 @@
 \includeScore "BKBritournelle"
 \pieceToc \markup { Chœur : \italic { Songez de bonne heure à suivre le plaisir de s'enflammer } }
 \includeScore "BKCchoeur"
-\markuplines {
+\markuplist {
   \paragraph \italic {
     Pendant que ces aimables personnes dansaient, il sortit de dessous
     le théâtre la machine d'un grand arbre chargé de seize faunes,

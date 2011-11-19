@@ -1,5 +1,5 @@
 \tocPiece "Louange de la Reine"
-\markuplines {
+\markuplist {
   \paragraph {
     Lorsque l’on eut fait halte en cet état, un profond silence, causé
     tout ensemble par l’attention et par le respect, donna le moyen à

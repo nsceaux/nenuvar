@@ -1,6 +1,6 @@
 \pageBreak
 \tocPartie "Quatrième intermède"
-\markuplines {
+\markuplist {
   \act "QUATRIÈME INTERMÈDE"
   \scene "SCÈNE I"
   \scene-description \wordwrap-center \smallCaps { Philis, Tircis. }
@@ -13,7 +13,7 @@
 }
 \pieceToc \markup { Tircis : \italic { Tu m'écoutes, hélas ! dans ma triste langueur } }
 \includeScore "BGAtircis"
-\markuplines {
+\markuplist {
   \personnage Philis
   \texte {
     Va, va, c'est déjà quelque chose que de toucher l'oreille, et le
@@ -55,7 +55,7 @@
 }
 \pieceToc \markup { Tircis : \italic { Arbres épais, et vous, prés émaillés } }
 \includeScore "BGBtircis"
-\markuplines {
+\markuplist {
   \personnage Moron
   \texte {
     Morbleu que n'ai-je de la "voix ?" "Ah !" nature "marâtre !"
@@ -85,7 +85,7 @@
 }
 \pieceToc \markup { Moron : \italic { Ton extrême rigueur } }
 \includeScore "BGCmoron"
-\markuplines {
+\markuplist {
   \texte { Vivat, Moron. }
   \personnage Philis
   \texte {
@@ -119,14 +119,14 @@
 }
 \pieceToc \markup { Tircis : \italic { Ah ! quelle douceur extrême } }
 \includeScore "BGDtircis"
-\markuplines {
+\markuplist {
   \personnage Moron
   \texte {
     C'est un plaisir que vous aurez quand vous voudrez.
   }
 }
 \includeScore "BGEtircis"
-\markuplines {
+\markuplist {
   \personnage Moron
   \texte {
     Je vous prie de vous mêler de vos affaires, et de me laisser tuer

@@ -24,7 +24,7 @@ intermede =
   \pageBreak
   
   %% Table of contents
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
   \pageBreak
 }
 
@@ -95,7 +95,7 @@ intermede =
 %\bookpart {
 %  \act "Acte III"
 %  \intermede "Troisième Intermède"
-%  \markuplines \didascalie { (Il manque deux airs ici.) }
+%  \markuplist \didascalie { (Il manque deux airs ici.) }
 %}
 %%% ACTE IV
 \bookpart {

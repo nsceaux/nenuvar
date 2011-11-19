@@ -4,7 +4,7 @@
   \tocPiece "Louanges de la Reine Mère"
   
   \markup \act \line { TROISIÈME JOURNÉE }
-  \markuplines {
+  \markuplist {
     \centered-lines { \title "Avant-Propos" \hspace #1 }
     \paragraph {
       Le ciel ayant résolu de donner la liberté à tant de braves

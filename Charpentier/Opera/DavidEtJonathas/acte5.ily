@@ -1,6 +1,6 @@
 \newBookPart #'()
 \act "Acte Cinquième"
-\markuplines \paragraph {
+\markuplist \paragraph {
 
   La Bataille se donne, & Saül la perd. Jonathas blessé à mort est
   rencontré par "Saül ;" quel désespoir pour ce Prince et ce Pere

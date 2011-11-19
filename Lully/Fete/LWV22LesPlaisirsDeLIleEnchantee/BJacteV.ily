@@ -1,7 +1,7 @@
 \pageBreak
 \tocPartie "Acte Cinquième"
 \tocPiece "Scène Première"
-\markuplines {
+\markuplist {
   \act "ACTE CINQUIÈME"
   \vspace #1
   \title \line { ARGUMENT }
@@ -74,7 +74,7 @@
   }
 }
 \tocPiece "Scène II"
-\markuplines {
+\markuplist {
   \scene "SCÈNE II"
   \scene-description \wordwrap-center \smallCaps {
     La Princesse, Le Prince Iphitas, Euryale, Aglante, Cynthie, Moron.
@@ -268,7 +268,7 @@
   }
 }
 \tocPiece "Scène III"
-\markuplines {
+\markuplist {
   \scene "SCÈNE III"
   \scene-description \wordwrap-center \smallCaps {
     Aristomène, Théocle, Le Prince Iphitas, La Princesse, Aglante,

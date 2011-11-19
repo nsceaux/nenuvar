@@ -1,6 +1,6 @@
 \newBookPart #'()
 \act "Acte Quatrième"
-\markuplines \paragraph {
+\markuplist \paragraph {
   Saül, d'autant plus animé contre David, qu'il le voit plus soutenu
   par le Roi des Philistins, & prenant de là mesme de nouveaux
   soupçons, se déclare enfin pour la Bataille. Achis y est fortement

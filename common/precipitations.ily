@@ -17,7 +17,7 @@
             \typewriter \tiny http://nicolas.sceaux.free.fr
             typeset using \with-url #"http://www.LilyPond.org" 
             \concat { \teeny www. LilyPond \teeny .org }
-            #(ly:export (string-append "version " (lilypond-version)))
+            $(string-append "version " (lilypond-version))
             on \concat { \today . }
           }
         }

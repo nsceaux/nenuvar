@@ -3,7 +3,7 @@
 \sceneDescription \markup \wordwrap-center {
   Dorante, Monsieur Jourdain, Madame Jourdain, Nicole.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Dorante."
   \texte {
     Mon cher ami, Monsieur Jourdain, comment vous
@@ -335,7 +335,7 @@
 \sceneDescription \markup \wordwrap-center {
   Dorante, Madame Jourdain, Nicole.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Dorante."
   \texte {
     Vous me semblez toute mélancolique : qu'avez-vous,
@@ -399,7 +399,7 @@
 \sceneDescription \markup \wordwrap-center {
   Monsieur Jourdain, Madame Jourdain, Dorante, Nicole.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Monsieur Jourdain."
   \texte {
     Voilà deux cents louis bien comptés.

@@ -56,7 +56,7 @@ pieceTocNb =
   }
   \markup\null
   \pageBreak
-  \markuplines\override-lines #'(column-number . 1)
+  \markuplist\override-lines #'(column-number . 1)
   \override-lines #'(rehearsal-number-gauge . "H.534/8")
   \override-lines #`(rehearsal-number-align . ,LEFT)
   \table-of-contents

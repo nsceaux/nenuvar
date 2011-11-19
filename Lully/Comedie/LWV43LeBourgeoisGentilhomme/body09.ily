@@ -6,7 +6,7 @@
     Dorante, Dorimène, Monsieur Jourdain, Deux musiciens, 
     une musicienne, laquais.
   }
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Dorimène."
     \texte {
       Comment, Dorante ? Voilà un repas tout à fait
@@ -114,7 +114,7 @@
   \includeScore "ASchansonC"
 }
 \bookpart {
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Dorimène."
     \texte {
       Je ne crois pas qu'on puisse mieux chanter, et cela est
@@ -177,7 +177,7 @@
     Madame Jourdain, Monsieur Jourdain, Dorimène, Dorante,
     Musiciens, Musicienne, Laquais.
   }
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Madame Jourdain."
     \texte {
       Ah, ah ! Je trouve ici bonne compagnie, et je vois bien
@@ -273,7 +273,7 @@
   \sceneDescription \markup \wordwrap-center {
     Covielle déguisé, Monsieur Jourdain, Laquais.
   }
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Covielle."
     \texte {
       Monsieur, je ne sais pas si j'ai l'honneur d'être connu
@@ -579,7 +579,7 @@
     Cléonte en Turc, avec trois pages portant sa veste,
     Monsieur Jourdain, Covielle déguisé.
   }
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Cléonte."
     \texte {
       Ambousahim oqui boraf, iordina salamalequi.
@@ -642,7 +642,7 @@
   \sceneDescription \markup \wordwrap-center {
     Dorante, Covielle.
   }
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Covielle."
     \texte {
       Ha, ha, ha. Ma foi ! Cela est tout à fait drôle. Quelle

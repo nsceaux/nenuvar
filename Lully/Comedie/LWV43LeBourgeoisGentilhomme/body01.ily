@@ -23,7 +23,7 @@
                       \italic { Je languis nuit et jour } }
   \includeScore "ABeleve"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Maître de musique"
     \didascalie { parlant à ses musiciens. }
     \texte { 
@@ -152,7 +152,7 @@
     Monsieur Jourdain, deux laquais, Maître de musique,
     Maître à danser, violons, musique et danseurs.
   }
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Monsieur Jourdain."
     \texte {
       Hé bien, messieurs ? Qu'est-ce ? Me ferez-vous voir
@@ -313,7 +313,7 @@
   \pieceToc \markup { Une musicienne : \italic { Je languis nuit et jour } }
   \includeScore "ACmusicienne"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Monsieur Jourdain."
     \texte {
       Cette chanson me semble un peu lugubre, elle endort,
@@ -351,7 +351,7 @@
 
   \includeScore "ADjourdain"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \texte {
       N'est-il pas joli ?
     }
@@ -556,7 +556,7 @@
   \includeScore "AKaTrois"
 }
 \bookpart {
-  \markuplines \columns {
+  \markuplist \columns {
     \personnage "Monsieur Jourdain."
     \texte {
       Est-ce tout ?

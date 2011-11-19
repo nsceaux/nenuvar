@@ -1,5 +1,5 @@
 \appendixSection "NOTES"
-\markuplines \fontsize-lines #2 \column-lines {
+\markuplist \fontsize-lines #2 \column-lines {
   \act { NOTES }
   
   \section \line { Sources et choix éditoriaux }

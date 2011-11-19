@@ -52,7 +52,7 @@
   \pageBreak
 
   %% notes and table of contents
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {

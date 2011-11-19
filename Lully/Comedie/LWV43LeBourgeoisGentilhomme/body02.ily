@@ -4,7 +4,7 @@
 \sceneDescription \markup \wordwrap-center {
   Monsieur Jourdain, Maître de musique, Maître à danser, Laquais.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Monsieur Jourdain."
   \texte {
     Voilà qui n' est point sot, et ces gens-là se trémoussent
@@ -96,7 +96,7 @@
 
 \includeScore "ANlalala"
 
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Monsieur Jourdain."
   \texte {
     Euh ?
@@ -156,7 +156,7 @@
   Maître à danser, Monsieur Jourdain,
   deux laquais.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Maître d'armes"
   \didascalie { après lui avoir mis le fleuret à la main. }
   \texte {
@@ -337,7 +337,7 @@
   Monsieur Jourdain, Laquais.
 }
 
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Monsieur Jourdain."
   \texte {
     Holà, monsieur le philosophe, vous arrivez tout à

@@ -1,7 +1,7 @@
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
 
-  \markuplines {
+  \markuplist {
     \paragraph {
       Il semblait que le Ciel, la Terre et l’Eau fussent tous en feu, et
       que la destruction du superbe palais d’Alcine, comme la liberté

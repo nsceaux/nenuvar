@@ -1,7 +1,7 @@
 \pageBreak
 \tocPartie "Acte Quatrième"
 \tocPiece "Scène Première"
-\markuplines {
+\markuplist {
   \act "ACTE QUATRIÈME"
   \vspace #1
   \title \line { ARGUMENT }
@@ -140,7 +140,7 @@
   }
 }
 \tocPiece "Scène II"
-\markuplines {
+\markuplist {
   \scene "SCÈNE II"
   \scene-description \wordwrap-center \smallCaps {
     La Princesse, Moron.
@@ -162,7 +162,7 @@
   }
 }
 \tocPiece "Scène III"
-\markuplines {
+\markuplist {
   \scene "SCÈNE III"
   \scene-description \wordwrap-center \smallCaps {
     La Princesse, Aglante, Moron.
@@ -207,7 +207,7 @@
   }
 }
 \tocPiece "Scène IV"
-\markuplines {
+\markuplist {
   \scene "SCÈNE IV"
   \scene-description \wordwrap-center \smallCaps {
     Aristomène, Moron, La Princesse, Aglante.
@@ -257,7 +257,7 @@
   }
 }
 \tocPiece "Scène V"
-\markuplines {
+\markuplist {
   \scene "SCÈNE V"
   \scene-description \wordwrap-center \smallCaps {
     La Princesse, Aglante, Moron.
@@ -312,7 +312,7 @@
   }
 }
 \tocPiece "Scène VI"
-\markuplines {
+\markuplist {
   \scene "SCÈNE VI"
   \personnage "La Princesse"
   \texte {

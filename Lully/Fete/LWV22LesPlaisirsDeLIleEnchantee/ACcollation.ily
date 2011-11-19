@@ -3,7 +3,7 @@
   \pieceTocTitle "Ouverture"
   \includeScore "AAAouverture"
 
-  \markuplines {
+  \markuplist {
     \paragraph {
       Pendant que les saisons se chargeaient de mets délicieux qu’elles
       devaient porter pour servir devant leurs Majestés, la magnifique
@@ -16,7 +16,7 @@
   \pieceTocTitle "Première entrée"
   \includeScore "AABentree"
 
-  \markuplines {
+  \markuplist {
     \paragraph {
       Le Printemps parut ensuite sur un cheval d’Espagne, représenté par
       Mademoiselle du Parc, qui avec le sexe et les avantages d’une
@@ -65,7 +65,7 @@
 }
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplines {
+  \markuplist {
     \paragraph {
       Elles venaient ensuite sur une machine fort ingénieuse en forme
       d’une petite montagne ou roche ombragée de plusieurs "arbres ;"
@@ -83,7 +83,7 @@
     }
   }
   \tocPiece "Vers à la Reine"
-  \markuplines {
+  \markuplist {
     \verseTitle { Le Printemps à la Reine }
     \verse-lines {
       \line { Entre toutes les fleurs nouvellement écloses, }
@@ -223,7 +223,7 @@
 }
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplines {
+  \markuplist {
     \paragraph {
       La somptuosité de cette collation passait tout ce qu’on pourrait
       écrire, tant par l’abondance, que par la délicatesse des toutes

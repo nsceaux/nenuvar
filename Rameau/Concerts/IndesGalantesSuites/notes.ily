@@ -1,4 +1,4 @@
-\markuplines \column-lines {
+\markuplist \column-lines {
   \act { NOTES }
 
   \paragraph {

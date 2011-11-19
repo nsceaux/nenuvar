@@ -1,6 +1,6 @@
 \bookpart {
   \paper { #(define page-breaking ly:optimal-breaking) }
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       La cérémonie turque pour ennoblir le bourgeois se fait en danse
       et en musique, et compose le quatrième intermède.
@@ -17,7 +17,7 @@
   \pieceToc \markup \italic { Alla akbar }
   \includeScore "AUalla"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       Le mufti invoque Mahomet avec les douze Turcs et les quatre
       dervis ; après on lui amène le bourgeois, vêtu à la turque, sans
@@ -28,7 +28,7 @@
   \pieceToc \markup \italic { Se ti sabir, ti respondir }
   \includeScore "AVmufti"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       Le mufti demande, en même langue, aux Turcs assistants de
       quelle religion est le bourgeois, et ils l'assurent qu'il est
@@ -44,7 +44,7 @@
   \pieceToc \markup \italic { Mahametta per giourdina }
   \includeScore "AYmahametta"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       Le mufti demande aux Turcs si le bourgeois sera ferme dans
       la religion mahométane, et leur chante ces paroles.
@@ -58,7 +58,7 @@
   \pieceToc \markup \italic { Ou alla akbar }
   \includeScore "BBou"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       Le mufti propose de donner le turban au bourgeois, et chante
       les paroles qui suivent.
@@ -70,7 +70,7 @@
   \pieceTocTitle "Troisième air"
   \includeScore "BDair"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       Les Turcs répètent tout ce qu'a dit le mufti pour donner le
       turban au bourgeois. Le mufti et les dervis se coiffent avec des
@@ -84,7 +84,7 @@
   \pieceToc \markup \italic { Ti star nobilé }
   \includeScore "BEnobile"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       Les Turcs répètent les mêmes vers, mettant tous le sabre à la
       main, et six d'entre eux dansent autour du bourgeois, auquel ils
@@ -95,7 +95,7 @@
   \pieceTocTitle "Quatrième air"
   \includeScore "BFair"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       Le mufti commande aux Turcs de bâtonner le bourgeois, et
       chante les paroles qui suivent.
@@ -105,7 +105,7 @@
   \pieceToc \markup \italic { Dara bastonnara }
   \includeScore "BGbastonnara"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       Les Turcs répètent les mêmes vers, et lui donnent plusieurs
       coups de bâton en cadence.
@@ -115,7 +115,7 @@
   \pieceTocTitle "Troisième air"
   \reIncludeScore "BDair" "BGair"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       Le mufti, après l'avoir fait bâtonner, lui dit en chantant :
     }
@@ -124,7 +124,7 @@
   \pieceToc \markup \italic { Non tener honta }
   \includeScore "BHaffronta"
 
-  \markuplines \columns {
+  \markuplist \columns {
     \didascalie {
       Les Turcs répètent les mêmes vers.
     }

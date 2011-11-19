@@ -84,20 +84,20 @@ barreUp =
 shiftNote =
 #(define-music-function (parser location amount) (number?)
    #{
-\once \override NoteHead #'X-offset = #$amount
-\once \override Stem #'X-offset = #$amount
-\once \override Beam #'X-offset = #$amount
+\once \override NoteHead #'X-offset = #amount
+\once \override Stem #'X-offset = #amount
+\once \override Beam #'X-offset = #amount
       #})
 
 shiftRest =
 #(define-music-function (parser location amount) (number?)
    #{
-\once \override Rest #'X-offset = #$amount
+\once \override Rest #'X-offset = #amount
       #})
 
 stemLength =
 #(define-music-function (parser location len) (number?)
    #{
-\once \override Voice.Stem #'length-fraction = #$len
-\once \override Voice.Beam #'length-fraction = #$len
+\once \override Voice.Stem #'length-fraction = #len
+\once \override Voice.Beam #'length-fraction = #len
           #})

@@ -1,6 +1,6 @@
 \bookpart {
   \chapter "Plan de cette méthode"
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       La position du corps, celle des mains, les agréments qui servent
       au jeu, de petits exercices préliminaires, et essentiels, pour

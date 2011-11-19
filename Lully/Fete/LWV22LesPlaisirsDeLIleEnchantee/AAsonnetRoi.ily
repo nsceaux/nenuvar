@@ -1,4 +1,4 @@
-\markuplines {
+\markuplist {
   \act "LES PLAISIRS DE L'ÎLE ENCHANTÉE"
   \vspace #3
   \scene-description \justify {
@@ -79,7 +79,7 @@
 \markup \act \line { PREMIÈRE JOURNÉE }
 \tocSpectacle "Course de bague"
 \tocPiece "Sonnet pour le Roi"
-\markuplines {
+\markuplist {
   \centered-lines { \title "Avant-Propos" \hspace #1 }
   \paragraph {
     Les charmes d'Alcine, qui n'avait pas moins de beauté que de

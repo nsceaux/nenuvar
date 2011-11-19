@@ -451,7 +451,7 @@ O Emmanuel")
 #(set-global-staff-size 16)
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplines \column-lines {
+  \markuplist \column-lines {
     \fill-line { \fontsize #7 \line { \italic nénuvar - catalogue } }
     \vspace #2
     \catalog #nenuvar-catalog

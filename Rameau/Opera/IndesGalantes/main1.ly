@@ -18,7 +18,7 @@
   \include "Rameau/Opera/IndesGalantes/notes.ily"
   \pageBreak
   %% Table of contents
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
 }
 
 \include "Rameau/Opera/IndesGalantes/0prologue.ily"

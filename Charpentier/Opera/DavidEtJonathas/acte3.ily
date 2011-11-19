@@ -1,6 +1,6 @@
 \newBookPart #'()
 \act "Acte Troisième"
-\markuplines \paragraph {
+\markuplist \paragraph {
   Saül souçonnant tout de David & cherchant toûjours l'occasion de
   le perdre, ajoûte aisément foi à l'accusation de Joadab. Il
   demande pour condition de la Paix qu'on lui livre David. Achis seûr

@@ -3,14 +3,14 @@
     \keepWithTag #(*tag-global*) \global
     \keepWithTag #(*tag-notes*) \includeNotes #(*note-filename*)
     \clef #(*clef*)
-    #(ly:export (if (*instrument-name*)
+    $(if (*instrument-name*)
                     (make-music 'ContextSpeccedMusic
                       'context-type 'Staff
                       'element (make-music 'PropertySet
                                  'value (markup #:large (*instrument-name*))
                                  'symbol 'instrumentName))
-                    (make-music 'Music)))
-    #(ly:export (or (*score-extra-music*) (make-music 'Music)))
+                    (make-music 'Music))
+    $(or (*score-extra-music*) (make-music 'Music))
     \new FiguredBass \keepWithTag #(*tag-notes*) \includeFigures "chiffres"
   >>
   \layout {

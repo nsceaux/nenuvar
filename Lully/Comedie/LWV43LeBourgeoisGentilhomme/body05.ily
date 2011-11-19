@@ -4,7 +4,7 @@
 \sceneDescription \markup \wordwrap-center {
   Monsieur Jourdain, Laquais.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Monsieur Jourdain."
   \texte {
     Suivez-moi, que j'aille un peu montrer mon habit
@@ -29,7 +29,7 @@
 \sceneDescription \markup \wordwrap-center {
   Nicole, Monsieur Jourdain, Laquais.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Monsieur Jourdain."
   \texte {
     Nicole !
@@ -215,7 +215,7 @@
 \sceneDescription \markup \wordwrap-center {
   Madame Jourdain, Monsieur Jourdain, Nicole, laquais.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Madame Jourdain."
   \texte {
     Ah, ah ! Voici une nouvelle histoire. Qu'est-ce que

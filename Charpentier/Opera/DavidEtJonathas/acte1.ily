@@ -1,6 +1,6 @@
 \newBookPart #'()
 \act "Acte Premier"
-\markuplines \paragraph {
+\markuplist \paragraph {
   David aiant vaincu les Amalécites est rappelé dans le camp des
   Philistins, d'où il avoit été renvoyé par la jalousie des Chefs de
   l'armée. Une troupe de guerriers, de captifs, & de pasteurs qu'il a

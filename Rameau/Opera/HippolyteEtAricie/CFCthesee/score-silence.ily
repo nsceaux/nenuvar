@@ -3,7 +3,7 @@
     \new Staff \with { \tinyStaff } <<
       \keepWithTag #'() \global \includeNotes #(*note-filename*)
       \clef #(*clef*)
-      #(ly:export (or (*score-extra-music*) (make-music 'Music)))
+      $(or (*score-extra-music*) (make-music 'Music))
     >>
     \layout {
       indent = #0

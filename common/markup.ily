@@ -380,7 +380,7 @@ startQuote =
 #(define-music-function (parser location bar-num) (number?)
    #{ \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
       \bar ""
-      \set Score.currentBarNumber = #$bar-num #})
+      \set Score.currentBarNumber = #bar-num #})
 
 tinyQuote = {
   \override Score.StaffSymbol #'staff-space = #(magstep -2)

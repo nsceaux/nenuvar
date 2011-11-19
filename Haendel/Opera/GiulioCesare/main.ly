@@ -33,7 +33,7 @@
   \pageBreak
 
   %% Table of contents
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

@@ -1,5 +1,5 @@
 \appendixSubSection "Acte I"
-\markuplines \column-lines {
+\markuplist \column-lines {
   \livretAct \line { ACTE PREMIER. }
   \livretDesc \wordwrap-center {
     Le Theatre represente une montagne

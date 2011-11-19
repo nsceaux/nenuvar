@@ -1,4 +1,4 @@
-\markuplines \fontsize-lines #2 \column-lines {
+\markuplist \fontsize-lines #2 \column-lines {
   \vspace #1
   \fontsize #2 \fill-line { \line { PERSONNAGES DU PROLOGUE } }
   \vspace #1

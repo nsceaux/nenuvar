@@ -12,7 +12,7 @@
   \pageBreak
   
   %% notes
-  \markuplines\column-lines {
+  \markuplist\column-lines {
     \act { NOTES }
     
     \vspace #1.0
@@ -101,7 +101,7 @@
   \pageBreak
   
   %% Table of contents
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
 }
 
 \include "Charpentier/Opera/DavidEtJonathas/livret.ily"
@@ -110,7 +110,7 @@
 %%% Prologue
 %%%
 \actn "Prologue"
-\markuplines {
+\markuplist {
   \title \line { SUJET DU PROLOGUE }
   \vspace #2
   \paragraph {
@@ -153,7 +153,7 @@
 \newBookPart #'()
 \resetHeaders
 
-\markuplines {
+\markuplist {
   \act "DAVID ET JONATAS"
   \title \line { SUJET DE LA TRAGÉDIE }
   \vspace #2

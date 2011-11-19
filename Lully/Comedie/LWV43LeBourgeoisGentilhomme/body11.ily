@@ -4,7 +4,7 @@
 \sceneDescription \markup \wordwrap-center {
   Madame Jourdain, Monsieur Jourdain.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Madame Jourdain."
   \texte {
     Ah mon Dieu ! Miséricorde ! Qu'est-ce que c'est donc
@@ -139,7 +139,7 @@
 \sceneDescription \markup \wordwrap-center {
   Dorante, Dorimène.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Dorante."
   \texte {
     Oui, madame, vous verrez la plus plaisante chose
@@ -201,7 +201,7 @@
 \sceneDescription \markup \wordwrap-center {
   Monsieur Jourdain, Dorante, Dorimène.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Dorante."
   \texte {
     Monsieur, nous venons rendre hommage, madame
@@ -268,7 +268,7 @@
 \sceneDescription \markup \wordwrap-center {
   Cléonte, Covielle, Monsieur Jourdain, etc.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Dorante."
   \texte {
     Monsieur, nous venons faire la révérence à votre altesse,

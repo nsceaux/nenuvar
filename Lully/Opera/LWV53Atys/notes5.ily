@@ -1,5 +1,5 @@
 \appendixSubSection "Acte V"
-\markuplines \fontsize-lines #2 \column-lines {
+\markuplist \fontsize-lines #2 \column-lines {
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   %% FABcelaenusCybele mesure 49
   \excerpts-end \column {

@@ -5,7 +5,7 @@
     \fill-line { "DES AGRÉMENTS QU'ON Y A TROUVÉ" }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       J'établis par rapport à cette méthode (séparément de mon usage) qu'on
       commencera par compter le pouce de chaque main, pour le premier

@@ -33,7 +33,7 @@
   \markup \null
   \pageBreak
   %% Table of contents
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
   \pageBreak
   %% Argument
   \markup \column {
@@ -70,7 +70,7 @@
 
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplines \two-column-lines {
+  \markuplist \two-column-lines {
     \verTitre "La Ragione fà il Prologo."
     
     \verA "On fate rumore;"
@@ -148,7 +148,7 @@
 }
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplines \two-column-lines {
+  \markuplist \two-column-lines {
     \verTitre "Il Tempo, lo Sdegno, la Ragione."
 
     \personnage "Il Tempo."
@@ -284,7 +284,7 @@
 }
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplines \two-column-lines {
+  \markuplist \two-column-lines {
     \verTitre \center-column {
       "Il Tempo, lo Sdegno, la Ragione,"
       "Amor in letto."
@@ -650,7 +650,7 @@
   \pieceTocTitle "Ritournelle"
   \includeScore "AIritournelle"
 
-  \markuplines {
+  \markuplist {
     \vspace #1
     \two-column-lines {
       \personnage "Lo Sdegno."
@@ -685,7 +685,7 @@
   \pieceTocTitle "Ritournelle"
   \includeScore "AMritournelle"
   
-  \markuplines {
+  \markuplist {
     \vspace #1
     \two-column-lines {
       \personnage "Il Tempo."
@@ -723,7 +723,7 @@
   \pieceTocTitle "Ritournelle"
   \includeScore "AQritournelle"
   
-  \markuplines {
+  \markuplist {
     \vspace #1
     \two-column-lines {
       \personnage "La Ragione."
@@ -775,7 +775,7 @@
   \pieceTocTitle "Ritournelle"
   \includeScore "AZritournelle"
   
-  \markuplines {
+  \markuplist {
     \vspace #1
     \two-column-lines {
       \personnage "Li Dottori."
@@ -812,7 +812,7 @@
   \pieceTocTitle "Ritournelle"
   \includeScore "BDritournelle"
   
-  \markuplines {
+  \markuplist {
     \vspace #1
     \two-column-lines {
       \personnage "Il Tempo."
@@ -843,7 +843,7 @@
   \pieceTocTitle "Ritournelle"
   \includeScore "BFritournelle"
 
-  \markuplines {
+  \markuplist {
     \vspace #1
     \two-column-lines {
       \personnage "Lo Sdegno."
@@ -880,7 +880,7 @@
   \pieceTocTitle "Ritournelle"
   \includeScore "BJritournelle"
   
-  \markuplines {
+  \markuplist {
     \vspace #1
     \two-column-lines {
       \personnage "La Ragione."
@@ -914,7 +914,7 @@
   \pieceTocTitle "Ritournelle"
   \includeScore "BMritournelle"
   
-  \markuplines {
+  \markuplist {
     \vspace #1
     \two-column-lines {
       \personnage "Il Tempo."
@@ -949,7 +949,7 @@
   \includeScore "BQsarabande"
   \pieceTocTitle "Ritournelle"
   \includeScore "BRritournelle"
-  \markuplines {
+  \markuplist {
     \vspace #1
     \two-column-lines {
       \personnage "Li villani."
@@ -981,7 +981,7 @@
   \includeScore "BVsarabande"
   \pieceTocTitle "Ritournelle"
   \includeScore "BWritournelle"
-  \markuplines {
+  \markuplist {
     \vspace #1
     \two-column-lines {
       \personnage "Amor."

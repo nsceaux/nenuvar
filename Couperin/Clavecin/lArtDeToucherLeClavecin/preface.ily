@@ -1,6 +1,6 @@
 \bookpart {
   \chapter "Préface"
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       La méthode que je donne, est une espèce de restitution que je fais
       au public, ayant profité autant qu'il m'a été possible des bons

@@ -3,7 +3,7 @@
 \sceneDescription \markup \wordwrap-center {
   Maître de philosophie, Monsieur Jourdain.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Maître de philosophie"
   \didascalie { En raccommodant son collet. }
   \texte {
@@ -458,7 +458,7 @@
   Maître tailleur, Garçon tailleur portant l'habit de M. Jourdain, 
   Monsieur Jourdain, Laquais.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Monsieur Jourdain."
   \texte {
     Ah vous voilà ! Je m'allais mettre en colère contre

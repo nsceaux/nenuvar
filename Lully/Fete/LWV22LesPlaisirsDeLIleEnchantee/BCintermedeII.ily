@@ -1,6 +1,6 @@
 \pageBreak
 \tocPartie "Deuxième intermède"
-\markuplines {
+\markuplist {
   \act "DEUXIÈME INTERMÈDE"
   \vspace #1
   \title \line { ARGUMENT }

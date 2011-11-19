@@ -1,5 +1,5 @@
 \appendixSubSection "Acte V"
-\markuplines \column-lines {
+\markuplist \column-lines {
   \livretAct \line { ACTE CINQUIESME. }
   \livretDescAtt \wordwrap-center {
     Le Theatre change & represente

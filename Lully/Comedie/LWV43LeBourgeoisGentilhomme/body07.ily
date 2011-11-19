@@ -3,7 +3,7 @@
 \sceneDescription \markup \wordwrap-center {
   Madame Jourdain, Nicole.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Nicole."
   \texte {
     Ma foi ! Madame, la curiosité m'a coûté quelque
@@ -47,7 +47,7 @@
 \sceneDescription \markup \wordwrap-center {
   Cléonte, Covielle, Nicole.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Nicole."
   \texte {
     Ah ! Vous voilà tout à propos. Je suis une ambassadrice
@@ -98,7 +98,7 @@
 \sceneDescription \markup \wordwrap-center {
   Cléonte, Covielle.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Cléonte."
   \texte {
     Quoi ? Traiter un amant de la sorte, et un amant le
@@ -349,7 +349,7 @@
 \sceneDescription \markup \wordwrap-center {
   Cléonte, Lucile, Covielle, Nicole.
 }
-\markuplines \columns {
+\markuplist \columns {
   \personnage "Nicole."
   \texte {
     Pour moi, j'en ai été toute scandalisée.

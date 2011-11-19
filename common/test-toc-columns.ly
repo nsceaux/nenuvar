@@ -21,11 +21,11 @@ variable markup"
    (add-toc-item! 'tocActMarkup text))
 
 %% Default: on 2 columns
-\markuplines \table-of-contents
+\markuplist \table-of-contents
 \pageBreak
 
 %% on 3 columns
-\markuplines \override-lines #'(column-number . 3) \table-of-contents
+\markuplist \override-lines #'(column-number . 3) \table-of-contents
 \pageBreak
 
 \tocItem "Ouverture"

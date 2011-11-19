@@ -3,7 +3,7 @@
     \fill-line { "ÉVOLUTIONS OU PETITS EXERCICES" }
     \fill-line { "POUR FORMER LES MAINS" }
   }
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       Tous ces progrès se doivent exercer sur tous les tons et demi-tons du
       clavier.
@@ -171,7 +171,7 @@
     \layout { indent = 0\mm }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       Cette manière ancienne n'aurait nulle liaison. Celle qui suit est la 
       vraie.
@@ -203,7 +203,7 @@
     \layout { indent = 0\mm }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       Je suis persuadé que peu de personnes dans Paris restent entêtés des
       vieilles maximes, Paris étant le centre du bon, mais comme il n'a
@@ -282,7 +282,7 @@
     \layout { indent = 0\mm }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       Ces deux chiffres, sur une même note, marquent le changement d'un
       doigt à un autre, avec la différence que le chiffre le plus
@@ -386,7 +386,7 @@
     \layout { indent = 0\mm }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       Je dirai deux mots ci-après à l'occasion des batteries.
     }
@@ -411,7 +411,7 @@
     \layout { indent = 0\mm }
   }
 
-  \markuplines \columns {
+  \markuplist \columns {
     \paragraph {
       Il est bon que ceux qui instruisent les jeunes gens leurs insinuent
       insensiblement la connaissance des intervalles, des modes, de leurs

@@ -15,7 +15,7 @@
   \markup \null
   \pageBreak
   %% Table of contents
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
 }
 
 \include "Rameau/Opera/IndesGalantes/3sauvages.ily"

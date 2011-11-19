@@ -1,6 +1,6 @@
 \pageBreak
 \tocPartie "Troisième intermède"
-\markuplines {
+\markuplist {
   \act "TROISIÈME INTERMÈDE"
   \scene "SCÈNE I"
   \scene-description \wordwrap-center \smallCaps { Moron, Philis. }
@@ -107,7 +107,7 @@
 \includeScore "BEAdialogue"
 \pieceToc \markup { Satyre : \italic { Je portais dans une cage deux moineaux } }
 \includeScore "BEBsatyre"
-\markuplines \paragraph \italic {
+\markuplist \paragraph \italic {
   Moron ne fut pas satisfait de cette chanson, quoiqu'il la trouvât
   jolie, il en demanda une plus passionnée, et priant le satyre de lui
   dire celle qu'il lui avait ouï chanter quelques jours auparavant, il
@@ -115,7 +115,7 @@
 }
 \pieceToc \markup { Satyre : \italic { Dans vos chants si doux } }
 \includeScore "BECsatyre"
-\markuplines {
+\markuplist {
   \paragraph \italic {
     Cette seconde chanson ayant touché Moron fort sensiblement, il pria
     le satyre de la lui apprendre à "chanter ;" et lui "dit :"
@@ -124,18 +124,18 @@
   \texte { Ah qu'elle est "belle !" "Apprends-la-moi ?" }
 }
 \includeScore "BEDdialogue"
-\markuplines {
+\markuplist {
   \personnage Moron
   \texte { Fa toi-même. }
 }
-\markuplines \paragraph \italic {
+\markuplist \paragraph \italic {
     Le satyre s'en mit en colère, et peu à peu se mettant en posture
     d'en venir à des coups de poing, les violons reprirent un air sur
     lequel ils dansèrent une plaisante entrée.
 }
 \pieceTocTitle "Ritournelle et entrée pour la posture des satyres."
 \includeScore "BEEritournelle"
-\markuplines {
+\markuplist {
   \justified-lines \small {
     [NdE : seules les parties de dessus de la loure et de la gigue qui
     suivent sont présentes dans le manuscrit, sur une feuille

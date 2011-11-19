@@ -24,7 +24,7 @@
 
   %% Table of contents
   \markup \vspace #6
-  \markuplines \table-of-contents
+  \markuplist \table-of-contents
   \markup \vspace #10
 }
 

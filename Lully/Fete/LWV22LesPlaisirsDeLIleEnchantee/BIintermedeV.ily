@@ -1,6 +1,6 @@
 \pageBreak
 \tocPartie "Cinquième intermède"
-\markuplines {
+\markuplist {
   \act "CINQUIÈME INTERMÈDE"
   \scene-description \wordwrap-center \smallCaps { Clymène, Philis. }
 }
@@ -8,7 +8,7 @@
 \includeScore "BIAritournelle"
 \pieceTocTitle "Dialogue de Climène et Philis"
 \includeScore "BIBclimenePhilis"
-\markuplines {
+\markuplist {
   \personnage "La Princesse"
   \didascalie { les interrompit en cet endroit et leur dit }
   \texte { 

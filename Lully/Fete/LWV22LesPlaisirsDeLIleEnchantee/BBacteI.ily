@@ -22,7 +22,7 @@
 \pageBreak
 \tocPartie "Acte Premier"
 \tocPiece "Scène Première"
-\markuplines {
+\markuplist {
   \act "ACTE PREMIER"
   \vspace #1
   \title \line { ARGUMENT }
@@ -242,7 +242,7 @@
 }
 
 \tocPiece "Scène II"
-\markuplines {
+\markuplist {
   \scene "SCÈNE II"
   \paragraph \italic {
     Moron, représenté par le sieur de Molière, arrive, et ayant le
@@ -447,7 +447,7 @@
   }
 }
 \tocPiece "Scène III"
-\markuplines {
+\markuplist {
   \scene "SCÈNE III"
   \paragraph \italic {
     La Princesse d'Élide parut ensuite, avec les princes de Messène et

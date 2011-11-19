@@ -1,7 +1,7 @@
 \pageBreak
 \tocPartie "Acte Deuxième"
 \tocPiece "Scène Première"
-\markuplines {
+\markuplist {
   \act "ACTE DEUXIÈME"
   \vspace #1
   \title \line { ARGUMENT }
@@ -172,7 +172,7 @@
 }
 
 \tocPiece "Scène II"
-\markuplines {
+\markuplist {
   \scene "SCÈNE II"
   \scene-description \wordwrap-center \smallCaps {
     Moron, La Princesse, Aglante, Cynthie, Philis.
@@ -221,7 +221,7 @@
 }
 
 \tocPiece "Scène III"
-\markuplines {
+\markuplist {
   \scene "SCÈNE III"
   \scene-description \wordwrap-center \smallCaps {
     Lycas, La Princesse, Aglante, Cynthie, Philis, Moron.
@@ -240,7 +240,7 @@
 }
 
 \tocPiece "Scène IV"
-\markuplines {
+\markuplist {
   \scene "SCÈNE IV"
   \scene-description \wordwrap-center \smallCaps {
     Le Prince, Euryale, Aristomène, Théocle, La Princesse, Aglante,
