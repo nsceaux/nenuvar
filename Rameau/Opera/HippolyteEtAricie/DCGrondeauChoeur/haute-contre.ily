@@ -30,7 +30,7 @@ la'2*3/2 la'4*3/2 la' |
 la'2*3/2 la'4*3/2 la' |
 re''2*3/2 r |
 r8 la' la' la' la' la' la' la' la' la' la' re'' |
-dod''2*3/2 la'4*3/2\p la' |
+dod''2*3/2 la'4*3/2_"doux"la' |
 la'2*3/2 la'4*3/2 la' |
 re''2*3/2 r |
 r8 la' la' la' la' la' la' la' la' la' la' la' |
@@ -40,17 +40,17 @@ r2*3/2 la'4*3/2 la' |
 la'2*3/2 la'4*3/2 la' |
 re''2*3/2 r |
 r8 la' la' la' la' la' la' la' la' la' la' re'' |
-dod''2*3/2 la'4*3/2\p la' |
+dod''2*3/2 la'4*3/2_"doux"la' |
 la'2*3/2 la'4*3/2 la' |
 re''2*3/2 r |
 r8 la' la' la' la' la' la' la' la' la' la' la' |
 la'2*3/2 r |
 R1.*7 |
-r2*3/2 la'4*3/2\p la' |
+r2*3/2 la'4*3/2_"doux"la' |
 la'2*3/2 la'4*3/2 la' |
 re''2*3/2 r |
 r8 la' la' la' la' la' la' la' la' la' la' re'' |
-dod''2*3/2 la'4*3/2\p la' |
+dod''2*3/2 la'4*3/2_"doux"la' |
 la'2*3/2 la'4*3/2 la' |
 re''2*3/2 r |
 r8 la' la' la' la' la' la' la' la' la' la' la' |

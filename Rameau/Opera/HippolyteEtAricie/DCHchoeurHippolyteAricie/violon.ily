@@ -17,6 +17,6 @@ lab''8 r r4 r2 |
 fa'' sib do' re' mib' fa' sol' la' sib' fa' sol' la' sib' do'' re'' mib'' fa'' sib' do'' re'' mib'' fa'' sol'' la'' \repeat tremolo 8 sib'' |
 \repeat tremolo 24 sib'' \repeat tremolo 8 la'' |
 sib''16. sib''32 la'' sol'' fa'' mib'' re''16. sol''32 fa'' mib'' re'' do'' sib'8 r r4 |
-r8 r16 re''\p mi'' fad'' sol'' la'' sib''8 r r4 |
+r8 r16 re''_"doux"mi'' fad'' sol'' la'' sib''8 r r4 |
 \repeat tremolo 8 sib''16 la''4. la''8 |
 fad''32 re'' do'' sib' la' sol' fad' mi' re' re' mi' fad' sol' la' sib' do'' re'' re'' mi'' fad'' sol'' la'' sib'' do''' re'''8 r |

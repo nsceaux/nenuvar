@@ -21,8 +21,8 @@ sol'' la''8 sib'' la''4 sol'' |
 fad''2 \appoggiatura mi''8 re''4 r |
 sol''4. fad''8 sol''4 la'' |
 re'' re''8 mib'' re''4 sol''8 la'' |
-sib''2 la'' sol''4 re''8\p mib'' re''4 sol''8 la'' |
+sib''2 la'' sol''4 re''8_"doux"mib'' re''4 sol''8 la'' |
 sib''2 la'' |
-sol''4 mib''\f re''8 do'' sib' la' |
+sol''4 mib''_"fort"re''8 do'' sib' la' |
 sib'4 mib'' re''8 do'' sib' la' |
 sol'1 |

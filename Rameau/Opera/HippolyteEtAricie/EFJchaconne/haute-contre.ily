@@ -26,11 +26,11 @@ do''4 do''4. do''8 |
 do''4 si'4. si'8 |
 si'2. |
 la'8. ( si'32 do'' ) si'4. la'8 |
-sold'4 do''4.\p do''8 |
+sold'4 do''4._"doux"do''8 |
 do''4 si'4. si'8 |
 si'2 r8 si' |
 mi'8. ( fa'16 ) mi'4 re' |
-do' r r8 la'\f |
+do' r r8 la'_"fort"|
 sold'4 r r8 mi' |
 sol'4 r r8 sol' |
 fad'8. ( sold'16 ) la'4 la |
@@ -38,7 +38,7 @@ mi' r r8 la' |
 sold'4 r r8 mi' |
 sol'4 r r8 sol' |
 fad'8. ( sold'16 ) la'4 la |
-mi' la'2\f |
+mi' la'2_"fort"|
 la'4 si'2 |
 si'4 si'2 |
 la'4 sold'4. la'8 |
@@ -52,10 +52,10 @@ mi'2 mi'4 |
 la'4. sold'8 la'4 |
 si'2 mi'4 |
 mi' r2 |
-mi'\p mi'4 |
+mi'_"doux"mi'4 |
 la'4. sold'8 la'4 |
 si'2 mi'4 |
-mi'4. la'8\f sold'4 |
+mi'4. la'8_"fort"sold'4 |
 la'8 mi' dod'8. la'16 sold'4 |
 la'8 mi' dod' r r mi'' |
 mi'' ( re'' ) re'' ( dod'' ) dod'' ( si' )|

@@ -6,7 +6,7 @@ re'2 r8 sol |
 sol2. |
 r4 mi' mi' |
 mi'2 r8 la |
-la2 r8 re'\f |
+la2 r8 re'_"fort"|
 re'2 re'8 si |
 mi'4 do' re' |
 sol2 r4 |

@@ -30,7 +30,7 @@ fad'2*3/2 fad'4*3/2 re' |
 dod'2*3/2 dod'4*3/2 dod' |
 si2*3/2 r |
 r8 fad' fad' fad' fad' fad' fad' mi' re' la' la' la' |
-la'2*3/2 fad'4*3/2\p re' |
+la'2*3/2 fad'4*3/2_"doux"re' |
 dod'2*3/2 dod'4*3/2 dod' |
 si2*3/2 r |
 r8 fad' fad' fad' fad' fad' fad' mi' re' re' sol' mi' |
@@ -40,7 +40,7 @@ r2*3/2 fad'4*3/2 re' |
 dod'2*3/2 dod'4*3/2 dod' |
 si2*3/2 r |
 r8 fad' fad' fad' fad' fad' fad' mi' re' la' la' la' |
-la'2*3/2 fad'4*3/2\p re' |
+la'2*3/2 fad'4*3/2_"doux"re' |
 dod'2*3/2 dod'4*3/2 dod' |
 si2*3/2 r |
 r8 fad' fad' fad' fad' fad' fad' mi' re' re' sol' mi' |
@@ -50,7 +50,7 @@ r2*3/2 fad'4*3/2 re' |
 dod'2*3/2 dod'4*3/2 dod' |
 si2*3/2 r |
 r8 fad' fad' fad' fad' fad' fad' mi' re' la' la' la' |
-la'2*3/2 fad'4*3/2\p re' |
+la'2*3/2 fad'4*3/2_"doux"re' |
 dod'2*3/2 dod'4*3/2 dod' |
 si2*3/2 r |
 r8 fad' fad' fad' fad' fad' fad' mi' re' re' sol' mi' |

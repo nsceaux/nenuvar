@@ -1,4 +1,4 @@
-\clef "basse" re'2\p dod' |
+\clef "basse" re'2_"doux"dod' |
 re' la |
 si sold |
 la sol |

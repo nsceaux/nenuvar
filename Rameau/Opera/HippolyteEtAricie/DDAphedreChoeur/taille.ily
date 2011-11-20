@@ -19,7 +19,7 @@ R2.*3 |
 R1*3 |
 R2. |
 R1 |
-r4 r8 sol16\p sol sol4 r |
+r4 r8 sol16_"doux"sol sol4 r |
 r8 \repeat unfold 14 fa16 |
 \repeat unfold 16 fa |
 mib \repeat unfold 15 sol |
@@ -64,7 +64,7 @@ sib2 mib' | la re' | re' mib' | }
      re | fa |
      mib2 r | re la |
      sol1 | } >>
-la2 re'4.\p re'8 |
+la2 re'4._"doux"re'8 |
 re'2 do'4 do' |
 do'2 r |
 r sib4. sib8 |

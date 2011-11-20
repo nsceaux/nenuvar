@@ -1,4 +1,4 @@
-\clef "basse" mi4\p la2 |
+\clef "basse" mi4_"doux"la2 |
 sol4 fad mi |
 red mi2 |
 si, la,4 |

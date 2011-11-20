@@ -2,14 +2,14 @@
 mib' sib' sib' sib' mib'' sib' sib' sib' sol' sib' sib' sib' mib'' sib' sib' sib' |
 mib' sib' sib' sib' mib'' sib' sib' sib' sol' sib' sib' sib' mib'' mib' mib' mib' |
 sib4 r r2 |
-fa'4 (\p fa' ) fa' ( fa' )|
+fa'4 (_"doux"fa' ) fa' ( fa' )|
 fa'2\fermata r |
 fa'4 ( fa' ) re' ( si ) |
 do'2 r |
 r r4 sol' |
 do'2 r |
 r r4 do' |
-sib2 sib'4\p sib' |
+sib2 sib'4_"doux"sib' |
 sib'2 la'4. la'8 |
 fad'2 r |
 r sol'4. sol'8 |

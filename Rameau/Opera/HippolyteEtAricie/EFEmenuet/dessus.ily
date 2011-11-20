@@ -1,4 +1,4 @@
-\clef "dessus" si''4\p do'''2 |
+\clef "dessus" si''4_"doux"do'''2 |
 si''4 red'' mi'' |
 la'' sol''2 |
 fad''4 si' mi'' |
@@ -20,9 +20,9 @@ fad' fad''4. sol''8 |
 red''2. |
 fad''4 \appoggiatura sol''8 la''2 |
 fad''4 lad' si' |
-fad''\p sol''2 |
+fad''_"doux"sol''2 |
 fad''4 lad' si' |
-la''\f fad''2 |
+la''_"fort"fad''2 |
 si''4 la''8 sol'' fad'' mi'' |
 fad''4 red''2 |
 mi''2. |

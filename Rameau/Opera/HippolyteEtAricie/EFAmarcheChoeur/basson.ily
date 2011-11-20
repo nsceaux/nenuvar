@@ -1,4 +1,4 @@
-\clef "basse" la8. (\p sold16 ) |
+\clef "basse" la8. (_"doux"sold16 ) |
 fad4 ( mi ) re |
 dod \appoggiatura si,8 la,4 la |
 \appoggiatura { la16 [ si ]} dod'2 la8. ( mi16 )|

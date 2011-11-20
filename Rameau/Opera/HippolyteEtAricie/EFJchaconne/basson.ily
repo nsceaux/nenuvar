@@ -34,13 +34,13 @@ do do'4. la8 |
 re'4 re'4. si8 |
 mi'2 sold4 |
 la8. ( sol16 ) fa8. ( mi16 ) fa8. ( re16 )|
-mi8. (\p re16 ) do8. ( si,16 ) do8. ( la,16 )|
+mi8. (_"doux"re16 ) do8. ( si,16 ) do8. ( la,16 )|
 re8. ( mi16 ) re8. ( do16 ) re8. ( si,16 )|
 mi8.( re16) mi8.( fad16) sold8.( mi16) |
 la8.( re16) mi4 mi, |
 la, r2 |
 R2.*7 |
-r4 dod'2 \f |
+r4 dod'2 _"fort"|
 re'4 si2 |
 mi'4 sold2 |
 la8. re16 mi4 mi |
@@ -64,7 +64,7 @@ la4 r mi8. ( fad16 )|
 sold8. ( fad16 ) sold8. ( la16 ) si8. ( dod'16 )|
 re'4. si8 dod'4 |
 fad' si4. mi'8 |
-dod'4. la8\f mi4 |
+dod'4. la8_"fort"mi4 |
 \clef "basse" la8 mi dod8. la16 si4 |
 dod'8 mi dod r r dod |
 re4 mi mi, |

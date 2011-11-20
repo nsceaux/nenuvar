@@ -19,7 +19,7 @@ R2.*3 |
 R1*3 |
 R2. |
 R1 |
-r4 r8 sol,16\p sol, sol,4 r |
+r4 r8 sol,16_"doux"sol, sol,4 r |
 r16 \repeat unfold 15 la, |
 \repeat unfold 16 si, |
 do \repeat unfold 7 do, mib, mib, mib, mib, do, do, do, do, |

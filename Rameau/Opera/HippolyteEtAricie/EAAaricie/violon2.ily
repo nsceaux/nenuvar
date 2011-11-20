@@ -1,4 +1,4 @@
-\clef "dessus" si'2\p si' |
+\clef "dessus" si'2_"doux"si' |
 si' si'4. ( la'8 )|
 \appoggiatura la'8 sol'4 sol' la' ( si' )|
 do'' ( si' ) la' ( sol' )|

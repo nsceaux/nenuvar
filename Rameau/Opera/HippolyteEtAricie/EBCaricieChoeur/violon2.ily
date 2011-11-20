@@ -5,22 +5,22 @@ r2 re''4\mp |
 fad'2 re'4 |
 sol'2 sol4 |
 re'2 r4 |
-r re''\f fa'' |
+r re''_"fort"fa'' |
 mi'' do'' sol' |
 do' r2 |
-r4 mi''\p sol'' |
-fad'' re'' re'8 la'\f |
+r4 mi''_"doux"sol'' |
+fad'' re'' re'8 la'_"fort"|
 la'2 si'8 do'' |
 do'' ( si'16 la' ) la'4. sol'8 |
 sol'2 r4 |
 r2 r8 la' |
 fad'2 mi'8 re' |
 sol'4 sol' fad' |
-sol'2 re''4\p |
+sol'2 re''4_"doux"|
 re''2. ~|
 re'' ~|
 re'' ~|
-re''2 re''4\f |
+re''2 re''4_"fort"|
 sol'' \appoggiatura fad''8 mi''4 la'' |
 fad'' \appoggiatura mi''8 re''4 sol'' |
 sol''4. la''8 fad''4 |

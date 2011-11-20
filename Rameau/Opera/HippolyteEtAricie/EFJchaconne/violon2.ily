@@ -10,23 +10,23 @@ la'4 do''4. mi''8 |
 mi'' ( re'' ) do'' ( si' ) sold' ( fa'' )|
 fa'' ( mi'' ) re'' ( do'' ) si' ( la' )|
 fad''4 \appoggiatura fad''8 sold''4. la''8 |
-sold''4 do''2 \p |
+sold''4 do''2 _"doux"|
 re''4. ( si'8 ) do''8. ( la'16 )|
 re''4. ( si'8 ) do''8. ( sold'16 )|
 la'8. ( re'16 ) mi'4 mi' |
-la do''4.\f mi''8 |
+la do''4._"fort"mi''8 |
 mi'' ( re'' ) do'' ( si' ) sold' ( fa'' )|
 fa'' ( mi'' ) re'' ( do'' ) si' ( la' )|
 fad''4 \appoggiatura fad''8 sold''4. la''8 |
-sold''4 do''2\p |
+sold''4 do''2_"doux"|
 re''4. ( si'8 ) do''8. ( la'16 )|
 re''4. ( si'8 ) do''8. ( sold'16 )|
 la'8.( re'16 ) mi'4 mi' |
 la r2 |
 R2. |
-r4 sol'4.\f si'8 |
+r4 sol'4._"fort"si'8 |
 la'4 re''4. la'8 |
-si'4 sol''4.\p sol''8 |
+si'4 sol''4._"doux"sol''8 |
 sol''4 fad''4. fad''8 |
 fad''4. sol''8 \appoggiatura fad'' mi''4 |
 do'' si' la' |
@@ -40,19 +40,19 @@ do''4 mi''4. la''8 |
 fad''4 si''4. do'''8 |
 sold''4. fad''8 mi'' re'' |
 do''8. ( re''32 mi'' ) re''4. do''8 |
-si'4 mi''4.\p la''8 |
+si'4 mi''4._"doux"la''8 |
 fad''4 si''4. do'''8 |
 sold''4. fad''8 mi''4 ~|
 mi''8. ( re''32 do'' ) si'4. la'8 |
 la'8. mi''16 la''8. mi''16 la''8 r |
 r r16 mi'' si''8. mi''16 si''8 r |
 r r16 mi'' dod'''8. mi''16 dod'''8 r |
-r4 la''8.(\p sold''16 ) la''8. ( si''16 )|
-sold''8. mi''16\f la''8. mi''16 la''8 r |
+r4 la''8.(_"doux"sold''16 ) la''8. ( si''16 )|
+sold''8. mi''16_"fort"la''8. mi''16 la''8 r |
 r r16 mi'' si''8. mi''16 si''8 r |
 r r16 mi'' dod'''8. mi''16 dod'''8 r |
-r4 la''8.(\p sold''16 ) la''8. ( si''16 )|
-sold''8 mi''4\f dod''16 mi'' la'8. mi'32 la' |
+r4 la''8.(_"doux"sold''16 ) la''8. ( si''16 )|
+sold''8 mi''4_"fort"dod''16 mi'' la'8. mi'32 la' |
 fad'8 fad''4 re''16 fad'' si'8. fad'32 si' |
 sold'8 si''4 sold''16 si'' mi''8. si'32 mi'' |
 dod''8. si'16 si'4. la'8 |
@@ -66,11 +66,11 @@ r4 mi'8. ( fad'16 ) sold'8. ( la'16 )|
 si'8.( la'16) si'8.( dod''16) re''8.( mi''16) |
 fad''4. sold''8 \appoggiatura fad'' mi''4 |
 la'' sold''4. la''8 |
-la''4 mi'8.(\p fad'16 ) sold'8. ( la'16 )|
+la''4 mi'8.(_"doux"fad'16 ) sold'8. ( la'16 )|
 si'8.( la'16) si'8.( dod''16) re''8.( mi''16) |
 fad''4. sold''8 \appoggiatura fad'' mi''4 |
 la'' sold''4. la''8 |
-la''4. la'8\f si'8. ( la'32 si' )|
+la''4. la'8_"fort"si'8. ( la'32 si' )|
 dod''8 mi' dod'8. dod''16 re''8. ( dod''32 re'' )|
 mi''8 mi' dod'8. mi''16 la''4 |
 \appoggiatura sold''8 fad''4 mi''4. re''8 |
@@ -87,14 +87,14 @@ r8 si' sold' r r4 |
 r8 la' fad' r r4 |
 r8 fad' re' r mi'4 |
 r8 la' la r r4 |
-r r8 dod''\p re''4 |
+r r8 dod''_"doux"re''4 |
 dod'' r2 |
 r4 r8 dod'' re''4 |
 dod'' r2 |
 r4 r8 mi'' mi''4 |
 mi'' ( re'' ) dod'' |
 dod'' ( si' ) la' |
-sold' si'\f dod'' |
+sold' si'_"fort"dod'' |
 dod'' ( re'' ) dod'' ~|
 dod'' ( si' ) la' ~|
 la' ( sold' ) fad' |

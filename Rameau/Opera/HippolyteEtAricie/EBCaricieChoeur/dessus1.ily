@@ -16,8 +16,8 @@ r2 << { r8^"Hautbois" la' |
 r re''\f^"Tous" fa'' |
 mi'' do'' sol' |
 do' r2 |
-r4 mi''\p sol'' |
-fad'' re'' re'8 fad''\f |
+r4 mi''_"doux"sol'' |
+fad'' re'' re'8 fad''_"fort"|
 fad''2 mi''8 re'' |
 sol''2 sol''8 fad'' |
 sol''2 r4 |

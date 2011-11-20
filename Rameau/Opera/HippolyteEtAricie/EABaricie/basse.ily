@@ -1,5 +1,5 @@
 \clef "basse" R2.*4 |
-mi'8.(\p re'16) do'8.( si16) do'8.( sold16) |
+mi'8.(_"doux"re'16) do'8.( si16) do'8.( sold16) |
 la8.( si16) la8.( sol16) fad8.( mi16) |
 si8.( la16) sol8.( fad16) sol8.( red16) |
 mi8.( re16) do8.( si,16) do8.( sold,16) |

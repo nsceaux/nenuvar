@@ -1,4 +1,4 @@
-\clef "dessus" sol''8.(\p fad''16) mi''8.( red''16) mi''8.( si'16) |
+\clef "dessus" sol''8.(_"doux"fad''16) mi''8.( red''16) mi''8.( si'16) |
 do''2 ~ do''8.( si'16) |
 la'8.( sol'16) la'8.( si'16) sol'8.( la'16) |
 si'4 si'' si'' |
@@ -30,7 +30,7 @@ r si' si' |
 dod''4.( re''32*4/3 si' dod'') dod''8. si'32 dod'' |
 re''4 dod''8.( re''16) lad'8.( si'16) |
 si'2 fad'4 |
-fad'2 r8 si'\p |%
+fad'2 r8 si'_"doux"|%
 si'4. ( la'8 ) la'8. la'16 |
 la'2. (|
 la'4. la'8 si'8. ( fad'16 )|

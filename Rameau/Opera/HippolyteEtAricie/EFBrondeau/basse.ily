@@ -4,13 +4,13 @@ si si, mi |
 la, re re, |
 sol,2. |
 R2.*3 |
-r4 mi4.\f fad8 |
+r4 mi4._"fort"fad8 |
 sol2 mi4 |
 si si, mi |
 la, re re, |
 sol,2. |
 R2.*3 |
-r4 \fermata r mi\f |
+r4 \fermata r mi_"fort"|
 fad2 re4 |
 sol2 si,4 |
 do8. ( si,16 ) la,4. sol,8 |
@@ -22,7 +22,7 @@ si si, mi |
 la, re re, |
 sol,2. |
 R2.*3 |
-r4 mi4.\f fad8 |
+r4 mi4._"fort"fad8 |
 sol2 mi4 |
 si si, mi |
 la, re re, |
