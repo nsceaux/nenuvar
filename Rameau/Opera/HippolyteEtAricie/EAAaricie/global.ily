@@ -4,5 +4,5 @@
 \time 4/4 s1
 \tempo "Plus lent"
 s1*4 
-\time 3/4 s2.*3
+\digitTime\time 3/4 s2.*3
 \time 4/4 s1*2 \bar "|."

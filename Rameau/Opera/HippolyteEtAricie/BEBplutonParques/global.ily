@@ -1,6 +1,6 @@
 <<
   { \keys sol \minor
-    \midiTempo #120 \fractionTime \time 2/2 s1*17
+    \midiTempo #120 \digitTime \time 2/2 s1*17
     \tag #'no-silence { \markUpBegin \mark "Prélude"\tempo "Lent" }
     \time 4/4 s1*29 \bar "|."
   }

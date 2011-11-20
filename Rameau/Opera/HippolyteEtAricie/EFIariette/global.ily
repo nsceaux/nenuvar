@@ -1,5 +1,5 @@
 \keys la \major
-\midiTempo #120 \time 3/4 \partial 4 s4
+\midiTempo #120 \digitTime\time 3/4 \partial 4 s4
 \once \override Staff.InstrumentName #'self-alignment-X = #CENTER
 \once \override Staff.InstrumentName #'self-alignment-Y = #CENTER
 \once \override Staff.InstrumentName #'Y-offset = #0

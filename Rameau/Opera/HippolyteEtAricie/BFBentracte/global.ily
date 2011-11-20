@@ -1,7 +1,7 @@
 <<
   { \keys sol \major
     \midiTempo #120 \tempo "Vite"
-    \time 3/4 s2.
+    \digitTime\time 3/4 s2.
     <<
       \origVersion s4*0^\markup\musicglyph #"scripts.segno"
       \modVersion { \segnoMark \bar "|;:" }
