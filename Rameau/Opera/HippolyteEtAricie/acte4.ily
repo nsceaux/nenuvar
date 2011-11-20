@@ -16,13 +16,10 @@
 }
 \pieceToc \markup \smallCaps { Hippolyte, Aricie }
 \includeScore "DBAhippolyteAricie"
-\pieceToc \markup { \smallCaps { Hippolyte, Aricie : }
-  \italic { Nous allons nous jurer une immortelle foi } }
-\includeScore "DBBhippolytearicie"
 \pieceTocTitle "Annonce"
-\includeScore "DBCannonce"
+\includeScore "DBBannonce"
 \pieceToc \markup \smallCaps { Hippolyte }
-\includeScore "DBDhippolyte"
+\includeScore "DBChippolyte"
 %%
 \scene "Scène III" \markup \wordwrap {
   SCÈNE 3 : Hippolyte, Aricie, chasseurs et chasseresses.
