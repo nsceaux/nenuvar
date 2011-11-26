@@ -370,17 +370,20 @@ shiftRest =
 
 altKeys =
 #(define-music-function (parser location fractions) (list?)
-   (let ((num1 (number->string (car fractions)))
-         (den1 (number->string (cadr fractions)))
-         (num2 (number->string (caddr fractions)))
-         (den2 (number->string (cadddr fractions))))
-   #{
-     \once \override Staff.TimeSignature #'stencil = #ly:text-interface::print
-     \once \override Staff.TimeSignature #'text =
-     #(markup #:override '(baseline-skip . 0)
-              #:number #:line (#:center-column (num1 den1)
-                               #:hspace 0.5
-                               #:center-column (num2 den2)))
+   (define (make-time-sig-markup num den . rest)
+     (if den
+         (make-center-column-markup
+          (list (number->string num)
+                (number->string den)))
+         (make-raise-markup -1 (number->string num))))
+
+   (let ((time1 (apply make-time-sig-markup fractions))
+         (time2 (apply make-time-sig-markup (cddr fractions))))
+     #{
+       \once \override Staff.TimeSignature #'stencil = #ly:text-interface::print
+       \once \override Staff.TimeSignature #'text =
+       \markup \override #'(baseline-skip . 0)
+       \number \line { $time1 $time2 }
      #}))
    
 fractionTime = \once \override Staff.TimeSignature #'style = #'numbered
