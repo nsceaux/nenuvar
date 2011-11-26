@@ -13,7 +13,7 @@
 \repeat unfold 12 sib \repeat unfold 4 mib' |
 lab8 r r4 r2 |
 R1 |
-\repeat unfold 16 la,16 |
+la,!16 \repeat unfold 15 la, |
 sib,8 r r4 r \repeat unfold 4 re,16 |
 \repeat unfold 4 sol, \repeat unfold 4 re, \repeat unfold 4 mib, \repeat unfold 4 fa, |
 sib,2 r |

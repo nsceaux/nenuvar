@@ -50,7 +50,7 @@
   Deuxième rondeau : \italic { À la chasse, à la chasse, Armez-vous }
 }
 \includeScore "DCGrondeauChoeur"
-\pieceTocAndTitle \markup "BRUIT DE MER ET VENTS" \markup \wordwrap {
+\pieceTocTitle \markup \wordwrap {
   \smallCaps { Chœur, Hippolyte, Aricie : }
   \italic { Quel bruit ! Quels vents ! }
 }

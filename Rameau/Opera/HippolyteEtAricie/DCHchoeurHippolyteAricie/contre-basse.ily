@@ -13,7 +13,7 @@ sib8 sib sib r r2 |
 \repeat unfold 6 sib mib' mib' |
 lab r r4 r2 |
 R1 |
-\repeat unfold 8 la,8 |
+la,!8 \repeat unfold 7 la, |
 sib,8 r r4 r re,8 re, |
 sol, sol, re, re, mib, mib, fa, fa, |
 sib,2 r |
