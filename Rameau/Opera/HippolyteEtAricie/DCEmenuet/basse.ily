@@ -1,5 +1,4 @@
-\clef "basse" R2.*2 |
-
+\clef "basse" s4*0^"Tous" R2.*2 |
 re4 re8 re re dod |
 re2 re,4 |
 R2. |
@@ -18,7 +17,7 @@ R2. |
 la4_"Tous" la8 la la la |
 do'2. |
 sol4 sol8 sol sol sol |
-si4 dod'2 |
+si4 dod'2\trill |
 re' re8 mi |
 fad sol la4 la, |
 re,2. |
