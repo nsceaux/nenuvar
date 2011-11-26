@@ -1,9 +1,12 @@
-\piecePartSpecs #`((hautbois1 #:tag-global autres)
-                   (hautbois2 #:tag-global autres)
-                   (violon1 #:tag-global autres)
-                   (violon2 #:tag-global autres)
+\piecePartSpecs #`((hautbois #:tag-global autres
+                             #:notes "hautbois"
+                             #:instrument "Hautbois")
+                   (violons #:tag-global autres
+                            #:notes "violon"
+                            #:instrument "Violons")
                    (haute-contre #:tag-global autres)
                    (taille #:tag-global autres)
                    (cor #:tag-global cor)
-                   (basson)
-                   (basse))
+                   (basson #:tag-global autres #:notes "basson")
+                   (basse #:tag-global autres)
+                   (silence #:tag-global autres))
