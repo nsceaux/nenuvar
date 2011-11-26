@@ -2,4 +2,5 @@
                    (haute-contre #:tag-global autres)
                    (taille #:tag-global autres)
                    (cor #:tag-global cor)
-                   (basse #:tag-global autres))
+                   (basse #:tag-global autres)
+                   (silence #:tag-global autres))

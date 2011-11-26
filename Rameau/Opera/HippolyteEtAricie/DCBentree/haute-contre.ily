@@ -17,13 +17,12 @@ la'2. si'4 |
 dod'' si' la' sold' |
 la'1 |
 R1*2 |
-
 dod''2 dod'' |
 re''2. la'4 |
 la'2. sol'4 |
 fad'1 |
 fad'2 mi' |
-dod'1 |
+dod'1\trill |
 R1 |
 lad'2 si' |
 fad' lad' ~|
@@ -33,7 +32,6 @@ si'2. re''4 |
 dod''2 si'4 lad' |
 si' fad'8 re' si2 |
 R1*2 |
-
 fad'2 la' |
 sol'4 si' si'2 ~|
 si'4 la'8 sol' la'4 re'' |
@@ -41,7 +39,7 @@ re''2. dod''8 re'' |
 mi''2. mi''4 |
 mi'' re'' re''2 |
 re''2. mi''4 |
-fad'' mi'' re'' dod'' |
+fad'' mi'' re''\trill dod'' |
 re''2. la'4 |
 la'2. sol'4 |
 fad'1 |

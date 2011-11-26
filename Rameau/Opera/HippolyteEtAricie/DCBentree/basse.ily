@@ -1,6 +1,4 @@
-\clef "basse" R1*3 |
-
-
+\clef "basse" s4*0^"Tous" R1*3 |
 re2 la, |
 re,2. re4 |
 la2 sol |

@@ -17,7 +17,6 @@ mi'2. fad'4 |
 mi'2 mi' |
 dod'1 |
 R1*2 |
-
 la'2 la' |
 la'2. fad'4 |
 mi'2. mi'4 |
@@ -33,7 +32,6 @@ fad'2. fad'4 |
 sol'2 fad' |
 fad'4 fad'8 re' si2 |
 R1*2 |
-
 re'2 re' |
 re'4 sol' sol'2 ~|
 sol'4 fad'8 mi' re'4 la' ~|
