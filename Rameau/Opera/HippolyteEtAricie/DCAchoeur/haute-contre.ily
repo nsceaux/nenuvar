@@ -23,14 +23,8 @@ sol'4. r8 si' si' |
 si'4 si'8 si' si' si' |
 si'4. r8 si' si' |
 sol'4 sol'8 sol' fad' fad' |
-mi'4. r2*3/4 |
-R2.*7 |
-
-
-
-
-
-
+mi'4.\trill r2*3/4 |
+<< \origVersion { R2.*6 r2*3/4 r } \modVersion R2.*7 >> |
 r2*3/4 re'8 dod' si |
 re'4. re'8 dod' si |
 fad'4. r2*3/4 |
@@ -39,18 +33,13 @@ si4. fad'8 fad' fad' |
 fad'2. |
 fad'4. r2*3/4 |
 R2.*3 |
-
-
 r2*3/4 mi''8 mi'' mi'' |
 mi''4. re''8 re'' la' |
 la'4. r2*3/4 |
 R2.*4 |
-
-
-
 r2*3/4 r8 la' sol' |
 fad'4 fad'8 fad' mi' re' |
-dod'4. r8 la' sol' |
+dod'4.\trill r8 la' sol' |
 fad'4 fad'8 fad' mi' re' |
 re' si' si' mi''4. ~|
 mi'' ~ mi''8 dod'' re'' |
@@ -58,20 +47,18 @@ re'4 re'8 la' la' la' |
 la'2. ~|
 la'4 la'8 r2*3/4 |
 R2.*2 |
-
 r8 la' la' la' la' la' |
-la'2. ~|
+la'2.\trill ~|
 la'4. r8 fad' fad' |
 fad'4 fad'8 mi' mi' mi' |
 mi'4. ~ mi'8 fad' mi'16 re' |
-dod'8 la' la' la' la' la' |
+dod'8\trill la' la' la' la' la' |
 la'2. |
 la' |
 R2.*2 |
-
 r2*3/4 r8 mi' mi' |
 mi' la' la' la' la' la' |
-la'2. ~|
-la' ~|
+la'2.\trill~ |
+la'~ |
 la'8 la' la' la' la' la' |
-fad'2. |
+fad'2.\trill |

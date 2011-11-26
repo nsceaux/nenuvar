@@ -2,17 +2,17 @@
 re''4 mi''8 fad''4 re''8 |
 mi''4. la'8 la' la' |
 re''4. re''8 re'' dod'' |
-re''4. re''8 r4 |
+re''4. re''8 r r |
 R2. |
 r2*3/4 r8 fad'' mi'' |
-re''4 re''8 re'' re'' dod'' |
-si'4. ~ si'8 mi' mi' |
+re''4\trill re''8 re'' re'' dod'' |
+si'4.\trill ~ si'8 mi' mi' |
 la'4 la'8 la' sold' la' |
 si'4. si'8 mi'' mi'' |
 mi''2. ~|
 mi'' ~|
 mi''4 mi''8 mi'' re'' dod'' |
-dod''4. ( si' )|
+dod''4. ( si'\trill) |
 la'2. |
 R2. |
 r2*3/4 r8 fad'' fad'' |
@@ -24,58 +24,57 @@ si'4 si'8 si' si' la' |
 si'4. r8 sol'' sol'' |
 sol''4 sol''8 sol'' sol'' fad'' |
 sol''4. sol''8 sol'' fad'' |
-mi''4 mi''8 mi'' fad'' re'' |
-dod''4. \appoggiatura si'8 la' r4 |
+mi''4\trill mi''8 mi'' fad'' re'' |
+dod''4.\trill \appoggiatura si'8 la' r4 |
 R2.*3 |
-
-
-r4 mi''8 mi''4 mi''8 |
+r8 r mi''8 mi''4 mi''8 |
 fad''4 sol''8 la''4 fad''8 |
 sol''4 re''8 re''4 re''8 |
 mi''4 fad''8 sol''4 mi''8 |
-fad''4. << { \voiceOne fad''8 mi'' re'' |
-            fad''4. fad''8 mi'' re'' |
-            dod''4. dod''8 }
-          \new Voice {
-            \voiceTwo \set Voice . autoBeaming = ##f si' lad' si' |
-            si'4. si'8 lad' si' |
-            lad'4. lad'8 } >> \oneVoice r4 |
+fad''4.
+<< { \voiceOne fad''8 mi'' re'' |
+    fad''4. fad''8 mi'' re'' |
+    dod''4.\trill dod''8 }
+  \new Voice {
+    \voiceTwo \set Voice . autoBeaming = ##f si' lad' si' |
+    si'4. si'8 lad' si' |
+    lad'4. lad'8 } >> \oneVoice r2*1/2 |
 r2*3/4 fad''8 mi'' re'' |
 fad''4. fad''8 mi'' re'' |
-re''4. ( dod'' )|
+re''4.( dod''\trill) |
 si' r2*3/4 |
 R2.*3 |
 r2*3/4 sol''8 sol'' sol'' |
 sol''4. fad''8 fad'' sol'' |
-mi''4. mi''8 r4 |
+mi''4.\trill mi''8 r r |
 r2*3/4 r8 la'' sol'' |
 fad''4 fad''8 fad'' mi'' re'' |
-dod''4. r8 la' la' |
+dod''4.\trill r8 la' la' |
 re''4. re''8 la' la' |
 mi''4. mi''8 la' la' |
 fad''4 fad''8 re'' re'' fad' |
 sol'4. ~\melisma sol'8[ fad' mi'] |
 la'4. ~ la'8[ sol' fad'] |
-si'4. ~ si'8[ dod'' re''] (|
-dod''4. )\melismaEnd dod''8 si' la' |
+si'4. ~ si'8[ dod'' re'']( |
+dod''4.\trill)\melismaEnd dod''8 si' la' |
 re''4 re''8 sol'' sol'' fad'' |
-mi''2. |
-mi''8 r4 r2*3/4 |
+mi''2.\trill |
+mi''8 r r r2*3/4 |
 R2. |
 r2*3/4 r8 mi'' mi'' |
 la''4 la''8 la'' la'' la'' |
 la''4. ~ la''8 fad'' la'' |
-fad''4. fad''8 re'' la' |
+fad''4.\trill fad''8 re'' la' |
 si'4. si'8 si' mi'' |
-dod''4. dod''8 r4 |
+dod''4.\trill dod''8 r r |
 r2*3/4 re''8 mi'' fad'' |
-fad''4. ( mi'' )|
+fad''4. ( mi''\trill) |
 re'' r2*3/4 |
 R2. |
 r2*3/4 r8 la'' sol'' |
-fad''4 fad''8 fad'' mi'' re'' |
-dod''4. r8 la' la' |
+fad''4\trill fad''8 fad'' mi'' re'' |
+dod''4.\trill r8 la' la' |
 fad''2. ~|
 fad''4 fad''8 la'' sol'' fad'' |
-fad''4. ( mi'' )|
+fad''4. ( mi'')\trill |
 re''2. |
