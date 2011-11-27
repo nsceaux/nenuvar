@@ -1,14 +1,14 @@
 \clef "vbasse" r4 |
 R1 |
 r2 sol4. sol8 |
-do2 do4 re |
+\circA do2 do4 re |
 sol,2. r4 |
 R2. |
 r4 do'4. do'8 |
-la2 la8 sib |
+la2\trill la8 sib |
 fa4 r r2 |
-r sib4 |
-la4. la8 la re' |
+r4 r sib4 |
+la4.\trill la8 la re' |
 sol2 sol4 |
 sib4. sib8 sib sol |
 la2. |

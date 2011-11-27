@@ -6,9 +6,9 @@ re'2. r4 |
 R2. |
 r4 do'4. do'8 |
 do'2 do'8 sib |
-la4 r r2 |
-r re'4 |
-do'4. do'8 do' la |
+la4\trill r r2 |
+r4 r re'4 |
+do'4.\trill do'8 do' la |
 sib2 re'4 |
 re'4. re'8 re' sol' |
 mi'2. |

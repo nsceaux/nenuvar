@@ -3,23 +3,39 @@ R1 |
 r2 sol4. sol8 |
 do2 do4 re |
 sol,2. r4 |
-R2. |
-r4 do'4. do'8 |
-la2 la8 sib |
-fa4 r r2 |
-r2 sib4 |
-la4. la8 la re' |
+<<
+  \tag #'basse { R2. | r4 }
+  \tag #'basse-continue { mib2 re4 | do }
+>> do'4. do'8 |
+la2\trill la8 sib |
+<<
+  \tag #'basse { fa4 r r2 | r4 r }
+  \tag #'basse-continue {
+    << \origVersion { fa4 ~ fa } \modVersion fa2 >> r4 fa, |
+    sib,2
+  }
+>> sib4 |
+la4.\trill la8 la re' |
 sol2 sol4 |
 sib4. sib8 sib sol |
 la2. |
 re'4. do'8 sib la |
 sol2 sol8 la |
 re2. |
-R2.*3 |
-R1*3 |
-R2. |
-R1 |
-r4 r8 sol,16_"doux"sol, sol,4 r |
+<<
+  \tag #'basse { R2.*3 R1*3 R2. R1 }
+  \tag #'basse-continue {
+    r4_"B.C." r re4 |
+    mib2 r4 |
+    re do si, |
+    do2 r |
+    R1 |\allowPageTurn
+    r2 do4 sib, |
+    mib2. |
+    re2 r |
+  }
+>>
+r4-\tag #'basse-continue _"Les Basses" r8 sol,16^"doux"sol, sol,4 r |
 r16 \repeat unfold 15 la, |
 \repeat unfold 16 si, |
 do \repeat unfold 7 do, mib, mib, mib, mib, do, do, do, do, |
@@ -27,7 +43,7 @@ do \repeat unfold 7 do, mib, mib, mib, mib, do, do, do, do, |
 sib4 ~ sib16 re' sib sol sol,4. sol,8 |
 re,2 r4 r8 re |
 mib2. r8 mib16 mib |
-re2. r8 re16 re |
+<< \origVersion { re2 ~ re4 } \modVersion re2. >> r8 re16 re |
 do8 ( do, ) do, ( do, ) do, ( do, ) do, ( do, )|
 do, ( do, ) do, ( do, ) do, ( do, ) do, ( do, )|
 fa, ( fa, ) fa, ( fa, ) fa, ( fa, ) fa, ( fa, )|
@@ -46,7 +62,7 @@ sol, ~|
 sol, ~|
 sol, ~|
 sol, ~|
-sol, ~|
+sol, |
 do, |
 mib, |
 re,2 r |

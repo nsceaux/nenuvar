@@ -6,24 +6,20 @@ sol'2. r4 |
 R2. |
 r4 sol'4._"doux"sol'8 |
 do''2 do''8 sib' |
-la'4 r r2 |
-r re''4 |
-do''4. do''8 do'' \appoggiatura sib' la' |
+la'4\trill r r2 |
+r4 r re''4 |
+do''4.\trill do''8 do'' \appoggiatura sib' la' |
 \appoggiatura la' sib'2 re''4 |
 re''4. re''8 re'' sol'' |
-mi''2. |
+mi''2.\trill |
 la'4. la'8 la' re'' |
 re''2 re''8 dod'' |
 \appoggiatura dod'' re''2. |
 R2.*3 |
-
-
 R1*3 |
-
-
 R2. |
 R1 |
-r4 r8 re'16_"doux"re' mib'4 r |
+r4^"Violons" r8 re'16_"doux"re' mib'4 r |
 r16 \repeat unfold 15 mib' |
 \repeat unfold 16 re' |
 \repeat unfold 7 re' sol \repeat unfold 8 do' |
@@ -38,12 +34,12 @@ mib'8-"détaché" fa'16 mib' mib'8 fa'16 mib' mib'8 fa'16 mib' mib'8 re'16 do' |
 fa' sib' sib sib sib sib' sib sib sib sib' sib sib sib sib' sib sib |
 sib sib' sib sib sib sib' do' do' do' sib' do' do' do' la' do' do' |
 <re' sib'>2 r16 fa'_"fort"sib' re'' fa'' sib' re'' fa'' |
-sib''8 r r2 r16 fa'_"doux"fa' fa' |
+sib''8 r r4 r r16 fa'_"doux"fa' fa' |
 fa'2 r16 fa' la' do'' fa'' do'' la' fa' |
 do'4 r16 do' sib la sib4 r16 sib do' sib |
 la4 r la''16 sol'' fa'' mib'' re'' do'' sib' la' |
 sib'2 ~ sib'8. la'16 sol' fa' mi' re' |
-sol'4 r16 sol' la' sib' mi'4. mi'16 fa' |
+sol'4 r16 sol' la' sib' mi'4.\trill mi'16 fa' |
 \appoggiatura mi'8 re'2 r |
 %{%}<< { re''1 | mib'' ~|
 mib'' | re'' ~|
@@ -70,7 +66,7 @@ re''2. ~ re''8 do'' | re''2 }
      sol' | re' ~|
      re'2 sol' | re' } >> sib'4._"doux"sib'8 |
 sib'2 la'4 sol' |
-fad'2 r |
+fad'2\trill r |
 r sol'4. sol'8 |
 sol'2 sol'4 fad' |
 sol'1 |

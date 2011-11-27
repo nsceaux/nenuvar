@@ -7,7 +7,7 @@ R2. |
 r4 do''4. do''8 |
 fa'2 fa'8 fa' |
 fa'4 r r2 |
-r fa'4 |
+r4 r fa'4 |
 la'4. la'8 la' re' |
 re'2 re'4 |
 sol'4. sol'8 sol' sib' |
@@ -25,7 +25,7 @@ r8 \repeat unfold 14 do'16 |
 \repeat unfold 16 sol |
 \repeat unfold 10 sol sib re' sol' re' sol' sib' |
 re''4 ~ re''16 re'' sib' sol' sol'4 ~ sol'16 sol' la' sib' |
-la'2 r |
+la'2\trill r |
 r4 r8 sol'16 sol' sol'4. sol'16 lab' |
 lab'2 sol' |
 sol'8 ( do' ) do' ( do' ) do' ( do' ) do' ( do' )|
@@ -48,7 +48,7 @@ re' ~| re'2 sol' |
 \\ { re1 | mib ~|
      mib | sol ~|
      sol ~| sol ~|
-     sol ~| sol ~|
+     sol ~| sol |
      la2 } >> r |
 R1 |
 %{%}<< { re' | mib' |

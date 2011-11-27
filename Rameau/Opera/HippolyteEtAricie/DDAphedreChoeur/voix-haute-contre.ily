@@ -7,7 +7,7 @@ R2. |
 r4 sol'4. sol'8 |
 fa'2 fa'8 fa' |
 fa'4 r r2 |
-r re'4 |
+r4 r re'4 |
 re'4. re'8 re' re' |
 re'2 re'4 |
 sol'4. sol'8 sol' sib' |

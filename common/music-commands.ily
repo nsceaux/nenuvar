@@ -105,6 +105,11 @@ arcDot =
                                             #:musicglyph "accidentals.leftparen")
                            #:musicglyph "scripts.staccato"))
 
+dotDot =
+#(make-music 'TextScriptEvent
+             'direction UP
+             'text (markup #:musicglyph "period" #:musicglyph "period"))
+
 %% Articulation used Charpentier: a dot, followed by a prall sign
 dotSign = "╸"
 dotPrall =

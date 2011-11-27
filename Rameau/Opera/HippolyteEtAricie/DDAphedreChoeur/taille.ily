@@ -7,7 +7,7 @@ R2. |
 r4 sol'4. sol'8 |
 fa'2 do'8 fa' |
 fa'4 r r2 |
-r re'4 |
+r4 r re'4 |
 re'4. re'8 re' re' |
 re'2 re'4 |
 re'4. re'8 re' re' |
@@ -27,7 +27,7 @@ sol re re re re re re re re sol sib re' sol' re' sol' sib' |
 re''4 ~ re''16 re'' sib' sol' re'4. re'8 |
 re'2 r4 r8 re' |
 \appoggiatura do' sib4 r16 si do' re' mib'4. re'16 do' |
-do'2 si4. re'8 |
+do'2 si4.\trill re'8 |
 sol( sol) sol( sol) sol( sol) sol( sol) |
 sol( sol) sol( sol) sol( sol) sol( sol) |
 la ( la ) la ( la ) la ( la ) la ( la ) |
@@ -48,7 +48,7 @@ re' ~| re'2 sol' |
 \\ { re1 | mib ~|
      mib | sol ~|
      sol ~| sol ~|
-     sol ~| sol ~| la2 } >>
+     sol ~| sol | la2 } >>
 r |
 R1 |
 %{%}<< { re'1 | mib' |
