@@ -134,6 +134,17 @@
         \instrumentName \markup \center-column { "Basses et" Bassons }
         \keepWithTag #'autres \global
         \includeNotes "basse"
+        { \verticalTweak
+          #'((Y-offset . 36)
+             (alignment-distances . (14 14 20 14 14 14 20 14 14 14 20)))
+          s2.
+          \repeat unfold 77 {
+            \verticalTweak
+            #'((Y-offset . 24)
+               (alignment-distances . (14 14 20 14 14 14 20 14 14 14 20)))
+            s2.
+          }
+        }
       >>
     >>
   >>

@@ -7,7 +7,7 @@ r8 sol'' sol'' sol'' sol'' sol'' sol''2*3/2\trill |
 r8 mi'' mi'' mi'' mi'' mi'' mi''\trill sol' sol' sol' sol' sol' |
 do'' do'' do'' mi'' mi'' mi'' sol'' fa'' mi'' mi''\trill re'' do'' |
 do'' sol' sol' mi' mi' mi' do'2*3/2 |
-R1.*8 |
+<< \origVersion { R1.*7 r2*3/2 r } \modVersion R1.*8 >> |\allowPageTurn
 r8 sol'' sol'' sol'' sol'' sol'' sol''2*3/2\trill |
 r8 mi'' mi'' mi'' mi'' mi'' mi''\trill sol' sol' sol' sol' sol' |
 do'' do'' do'' mi'' mi'' mi'' sol'' fa'' mi'' mi'' re'' do'' |
