@@ -1,8 +1,8 @@
-\clef "basse" r16 la la la re' la la la fad la la la re' re re re |
+\clef "basse" r16^"Tous" la la la re' la la la fad la la la re' re re re |
 mib sib sib sib mib' sib sib sib sol sib sib sib mib' sib sib sib |
 mib sib sib sib mib' sib sib sib sol sib sib sib mib' mib mib mib |
 sib,4 r r2 |
-sib,4 (_"doux"sib, ) lab, ( lab, )|
+sib,4 (^"doux"sib, ) lab, ( lab, )|
 sol,2 \fermata r |
 sol,4 ( sol, ) fa, ( fa, )|
 mi,2 r |

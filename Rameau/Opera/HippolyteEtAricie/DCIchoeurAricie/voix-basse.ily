@@ -7,7 +7,7 @@ R1 |
 R1*2 |
 r2 sol4 sol |
 \appoggiatura fa8 mib2 mib4. mib8 |
-re2 re8 r r4 |
+\circA re2 re8 r r4 |
 r2 mib4. mib8 |
-do2 do4 re |
+\circA do2 do4 re |
 sol,2. 

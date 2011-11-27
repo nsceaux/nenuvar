@@ -1,6 +1,6 @@
 \clef "vtaille" R1 |
 sol'2. sol'8 sol' |
-mib'2 mib'4 mib'8 re' |
+mib'2\trill mib'4 mib'8 re' |
 fa'2 fa'8 r r4 |
 R1*4 |
 R1 |
