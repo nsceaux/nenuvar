@@ -1,4 +1,4 @@
-\clef "basse" sol4. la8 sib4 do' |
+\clef "basse" sol4.^"Tous" la8 sib4 do' |
 sib sib,8 do sib,4 sib8 do' |
 re'2 re |
 sol4 sol, sol, sol8 la |
@@ -17,11 +17,9 @@ r4 sol, sol,8 fa, mib, re, |
 do,2 r |
 do' do |
 sol2. fa4 |
-mib4. sib,8 do4. ( sib,16 do )|
+mib4. sib,8 do4.\trill( sib,16 do) |
 re2 re,4 r |
 R1*3 |
-
-
 r2 r4^"Bassons" sib8 do' |
 re'2 re |
 sol4 mib'^"Tous" re'8 do' sib la |
