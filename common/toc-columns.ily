@@ -9,7 +9,7 @@
          (lambda (markup-symbol text . rest)
            (let ((label (gensym "toc")))
              (set! toc-item-list
-                   (cons (list* label markup-symbol text rest)
+                   (cons (append! (list label markup-symbol text) rest)
                          toc-item-list))
              (make-music 'EventChord
                'page-marker #t

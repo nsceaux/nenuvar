@@ -19,10 +19,10 @@
 %%%   (add-toplevel-markup parser text)
 %%%     add a markup at current point.
 %%%
-%%%   (add-toc-item parser markup-symbol text)
+%%%   (add-toc-item parser markup-symbol text [rehearsal-number])
 %%%     add an item in the table of content, using markup style
 %%%     `markup-symbol' and `text', referencing the page occuring
-%%%     at current point.
+%%%     at current point.  Argument `rehearsal-number' is optional
 %%%
 %%%   (rehearsal-number)
 %%%     return a new x.y rehearsal number.
@@ -137,9 +137,9 @@
 #(define-public (add-toplevel-markup parser text)
   (add-text parser text))
 
-#(define-public (add-toc-item parser markup-symbol text)
+#(define-public (add-toc-item parser markup-symbol text . rest)
   (add-music parser
-   (add-toc-item! markup-symbol text)))
+   (apply add-toc-item! markup-symbol text rest)))
 
 %%%
 %%% Rehearsal numbers
@@ -172,19 +172,35 @@
    (interpret-markup layout props
      (markup #:huge #:bold text)))
 
-#(define-markup-command (rehearsal-number-toc layout props text) (string?)
+#(define-markup-command (rehearsal-number-toc layout props num text) (string? markup?)
   #:properties ((rehearsal-number-gauge "8-88")
-                (rehearsal-number-align RIGHT))
-  (let* ((gauge-stencil (interpret-markup layout props rehearsal-number-gauge))
-	 (x-ext (ly:stencil-extent gauge-stencil X))
-	 (y-ext (ly:stencil-extent gauge-stencil Y))
-         (stencil (interpret-markup layout props text))
+                (rehearsal-number-align RIGHT)
+                (line-width #f))
+  (let* ((line-width (or line-width (ly:output-def-lookup layout 'line-width)))
+         (gauge-stencil (interpret-markup layout props rehearsal-number-gauge))
+         (x-ext (ly:stencil-extent gauge-stencil X))
+         (y-ext (ly:stencil-extent gauge-stencil Y))
+         (num-stencil (interpret-markup layout props num))
          (gap (max 0 (- (interval-length x-ext)
-                        (interval-length (ly:stencil-extent stencil X))))))
+                        (interval-length (ly:stencil-extent num-stencil X)))))
+         (gap-stencil1 (ly:make-stencil "" (cons 0 gap) '(0 . 0)))
+         (gap-stencil2 (ly:make-stencil "" (cons 0 1) '(0 . 0)))
+         (text-stencil (interpret-markup layout
+                                         (cons `((line-width . ,(- line-width 1 gap)))
+                                               props)
+                                         text)))
     (interpret-markup layout props
                       (if (= rehearsal-number-align LEFT)
-                          (markup #:concat (text #:hspace gap #:hspace 1))
-                          (markup #:concat (#:hspace gap text #:hspace 1))))))
+                          (markup #:concat (; num padding space text
+                                            #:stencil num-stencil
+                                            #:stencil gap-stencil1
+                                            #:stencil gap-stencil2
+                                            #:stencil text-stencil))
+                          (markup #:concat (; padding num space text
+                                            #:stencil gap-stencil1
+                                            #:stencil num-stencil
+                                            #:stencil gap-stencil2
+                                            #:stencil text-stencil))))))
 
 #(define-markup-command (act layout props arg) (markup?)
   (interpret-markup layout props
@@ -265,10 +281,7 @@
 pieceToc =
 #(define-music-function (parser location title) (markup?)
   (let ((rehearsal (rehearsal-number)))
-    (add-toc-item parser 'tocPieceMarkup
-      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-          (markup #:rehearsal-number-toc rehearsal title)
-          title))
+    (add-toc-item parser 'tocPieceMarkup title rehearsal)
     (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
         (if (eqv? #t (ly:get-option 'urtext))
             (begin
@@ -285,10 +298,7 @@ pieceToc =
 
 pieceTocNb =
 #(define-music-function (parser location number title) (string? markup?)
-   (add-toc-item parser 'tocPieceMarkup
-     (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-         (markup #:rehearsal-number-toc number title)
-         title))
+   (add-toc-item parser 'tocPieceMarkup title number)
    (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
         (if (eqv? #t (ly:get-option 'urtext))
             (begin
@@ -306,18 +316,12 @@ pieceTocNb =
 inMusicPieceToc =
 #(define-music-function (parser location title) (markup?)
   (let ((rehearsal (rehearsal-number)))
-    (add-toc-item! 'tocPieceMarkup
-      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-          (markup #:rehearsal-number-toc rehearsal title)
-          title))))
+    (add-toc-item! 'tocPieceMarkup title rehearsal)))
 
 pieceTocTitle =
 #(define-music-function (parser location title) (string?)
   (let ((rehearsal (rehearsal-number)))
-    (add-toc-item parser 'tocPieceMarkup
-      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-          (markup #:rehearsal-number-toc rehearsal title)
-          title))
+    (add-toc-item parser 'tocPieceMarkup title rehearsal)
     (add-toplevel-markup parser 
       (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
           (markup #:rehearsal-number rehearsal
@@ -329,10 +333,7 @@ pieceTocTitle =
 
 pieceTocTitleNb =
 #(define-music-function (parser location number title) (string? markup?)
-   (add-toc-item parser 'tocPieceMarkup
-                 (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-                     (markup #:rehearsal-number-toc number title)
-                     title))
+   (add-toc-item parser 'tocPieceMarkup title rehearsal number)
    (add-toplevel-markup parser 
                         (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
                             (markup #:rehearsal-number number
@@ -380,10 +381,7 @@ pieceSTitle =
 pieceTocAndTitle =
 #(define-music-function (parser location title toc-title) (markup? markup?)
   (let ((rehearsal (rehearsal-number)))
-    (add-toc-item parser 'tocPieceMarkup
-      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-          (markup #:rehearsal-number-toc rehearsal toc-title)
-          toc-title))
+    (add-toc-item parser 'tocPieceMarkup toc-title rehearsal)
     (add-toplevel-markup parser 
       (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
           (markup #:rehearsal-number rehearsal
@@ -418,10 +416,7 @@ ouverture =
 #(define-music-function (parser location title) (string?)
   (let ((rehearsal (rehearsal-number)))
     (add-page-break parser)
-    (add-toc-item parser 'tocPieceMarkup
-      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-          (markup #:rehearsal-number-toc rehearsal title)
-          title))
+    (add-toc-item parser 'tocPieceMarkup title rehearsal)
     (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
     (add-odd-page-header-text parser (string-upper-case title) #f)
     (add-toplevel-markup parser (markup #:act (string-upper-case title)))
@@ -493,7 +488,7 @@ inMusicScene =
                                             (string-upper-case (*act-title*))
                                             (string-upper-case title))
                                           #t)
-                                        (add-toc-item! 'tocSceneMarkup title)))))
+                                        (add-toc-item! 'tocSceneMarkup title "")))))
      #{ $label-music
         \once \override Score . RehearsalMark #'font-size = #0
         \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
@@ -507,7 +502,7 @@ inMusicSceneDesc =
                                             (string-upper-case (*act-title*))
                                             (string-upper-case title))
                                           #t)
-                                        (add-toc-item! 'tocSceneMarkup title))))
+                                        (add-toc-item! 'tocSceneMarkup title ""))))
          (description-markup (if (*part*)
                                  empty-markup
                                  (markup #:fontsize 2 description))))

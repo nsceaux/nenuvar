@@ -223,10 +223,8 @@ ouverture =
   (let ((rehearsal (rehearsal-number)))
     (add-toc-item parser
                   'tocPieceMarkup 
-                  (markup (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-                               (make-width-markup rehearsal-number-cell-width rehearsal)
-                               (make-null-markup))
-                          #:italic #:smallCaps title))
+                  (markup #:italic #:smallCaps title)
+                  rehearsal)
     (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
     (add-odd-page-header-text parser (string-upper-case title) #f)
     (add-toplevel-markup parser (markup #:act (string-upper-case title)))
@@ -243,10 +241,8 @@ piece =
   (let ((rehearsal (rehearsal-number)))
     (add-toc-item parser
                   'tocPieceMarkup 
-                  (markup (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-                               (make-width-markup rehearsal-number-cell-width rehearsal)
-                               (make-null-markup))
-                          #:italic #:smallCaps title))
+                  (markup #:italic #:smallCaps title)
+                  rehearsal)
     (add-toplevel-markup parser 
       (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
           (markup #:rehearsal-number rehearsal
@@ -262,12 +258,10 @@ coro =
   (let ((rehearsal (rehearsal-number)))
     (add-toc-item parser
                   'tocPieceMarkup 
-                  (markup (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-                               (make-width-markup rehearsal-number-cell-width rehearsal)
-                               (make-null-markup))
-                          #:width character-cell-width #:null
+                  (markup #:width character-cell-width #:null
                           #:width aria-type-cell-width #:italic title
-                          coro-title))
+                          coro-title)
+                  rehearsal)
     (add-toplevel-markup parser
       (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
           (markup #:rehearsal-number rehearsal
@@ -283,12 +277,10 @@ aria =
   (let ((rehearsal (rehearsal-number)))
     (add-toc-item parser
                   'tocPieceMarkup 
-                  (markup (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-                              (make-width-markup rehearsal-number-cell-width rehearsal)
-                              (make-null-markup))
-                          #:width character-cell-width #:smallCaps character
+                  (markup #:width character-cell-width #:smallCaps character
                           #:width aria-type-cell-width #:italic aria-type
-                          aria-title))
+                          aria-title)
+                  rehearsal)
     (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
         (begin
          (add-toplevel-markup parser
@@ -305,12 +297,10 @@ ariaCustom =
   (let ((rehearsal (rehearsal-number)))
     (add-toc-item parser
                   'tocPieceMarkup 
-                  (markup (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-                              (make-width-markup rehearsal-number-cell-width rehearsal)
-                              (make-null-markup))
-                          #:width character-cell-width character
+                  (markup #:width character-cell-width character
                           #:width aria-type-cell-width #:italic aria-type
-                          aria-title))
+                          aria-title)
+                  rehearsal)
     (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
         (begin
          (add-toplevel-markup parser
@@ -337,11 +327,9 @@ recitativoToc =
   (let ((rehearsal (rehearsal-number)))
     (add-toc-item parser
                   'tocPieceMarkup 
-                  (markup (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-                               (make-width-markup rehearsal-number-cell-width rehearsal)
-                               (make-null-markup))
-                          #:width character-cell-width #:null
-                          #:italic "Recit."))
+                  (markup #:width character-cell-width #:null
+                          #:italic "Recit.")
+                  rehearsal)
     (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
         (begin
           (add-toplevel-markup parser

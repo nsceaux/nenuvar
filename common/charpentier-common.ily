@@ -120,10 +120,7 @@ pieceTocTitle =
 #(define-music-function (parser location title) (markup?)
   (let ((rehearsal (rehearsal-number))
         (font-size (if (symbol? (ly:get-option 'part)) 2 3)))
-    (add-toc-item parser 'tocPieceMarkup
-      (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
-          (markup #:rehearsal-number-toc rehearsal title)
-          title))
+    (add-toc-item parser 'tocPieceMarkup title rehearsal)
     (add-toplevel-markup parser 
       (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
           (markup #:rehearsal-number rehearsal

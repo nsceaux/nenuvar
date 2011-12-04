@@ -5,7 +5,9 @@
   %% Title page
   \markup \null \pageBreak
   %% Table of contents
-  \markuplist \table-of-contents
+  \markuplist\abs-fontsize-lines #9
+  \override-lines #'(use-rehearsal-numbers . #t)
+  \table-of-contents
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
