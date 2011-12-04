@@ -5,4 +5,5 @@
                    (vocal)
                    (vocal-keyboard)
                    (keyboard)
-                   (bassi))
+                   (bassi)
+                   (silence #:score "score-silence"))

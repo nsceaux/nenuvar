@@ -4,4 +4,6 @@
                    (vocal)
                    (vocal-keyboard)
                    (keyboard)
-                   (bassi))
+                   (bassi)
+                   (silence #:score "score-silence"
+                            #:music ,#{ s8 s4.*58 s1*35 s4.*21\break #}))

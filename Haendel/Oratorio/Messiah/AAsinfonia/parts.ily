@@ -4,4 +4,5 @@
                     (viola #:music ,breaks)
                     (bassi #:music ,breaks)
                     (keyboard)
-                    (vocal-keyboard #:score-template "score-keyboard")))
+                    (vocal-keyboard #:score-template "score-keyboard")
+                    (silence #:score "score-silence")))

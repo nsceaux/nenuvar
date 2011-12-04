@@ -432,11 +432,9 @@ O Emmanuel")
         #:main ((#f "Partition complète")
                 (rehearsal #f)
                 (keyboard "Réduction"
-                          #:options "-dpart=keyboard"
-                          #:score-file "part-keyboard.ly")
+                          #:options "-dpart=keyboard")
                 (keyboard-vocal "Réduction et parties vocales"
-                                #:options "-dpart=keyboard-vocal"
-                                #:score-file "part-vocal-keyboard.ly"))
+                                #:options "-dpart=keyboard-vocal"))
         #:parts ((oboe1 "Hautbois I")
                  (oboe2 "Hautbois II")
                  (violino1 "Violon I")
@@ -444,7 +442,11 @@ O Emmanuel")
                  (violino3 "Violon III")
                  (viola "Alto")
                  (bassi "Basses")
-                 (vocal "Parties vocales")))))))
+                 (vocal "Parties vocales")
+                 (choir "Chœurs")
+                 (tromba1 "Tromba I" #:score-file "part-tromba.ly")
+                 (tromba2 "Tromba II" #:score-file "part-tromba.ly")
+                 (tympani "Timpani" #:score-file "part-tympani.ly")))))))
 
 #(export-makefile "Makefile" nenuvar-catalog)
 

@@ -10,14 +10,13 @@
   }
 }
 \paper {
-  tocTitle = "CONTENTS"
   #(define page-breaking (cond ((eqv? #f (ly:get-option 'part)) ly:optimal-breaking)
-                               ((memq (ly:get-option 'part) '(vocal vocal-keyboard)) ly:optimal-breaking)
+                               ((memq (ly:get-option 'part) '(vocal vocal-keyboard choir)) ly:optimal-breaking)
                                (else ly:page-turn-breaking)))
 }
 
 #(set-global-staff-size (cond ((eqv? #f (ly:get-option 'part)) 14)
-                              ((memq (ly:get-option 'part) '(vocal vocal-keyboard keyboard)) 16)
+                              ((memq (ly:get-option 'part) '(vocal vocal-keyboard keyboard choir)) 16)
                               (else 18)))
 #(ly:set-option 'non-incipit #t)
 #(ly:set-option 'use-rehearsal-numbers #t)
@@ -26,6 +25,10 @@
 \include "common/common.ily"
 \setOpus "Haendel/Oratorio/Messiah"
 \opusTitle "Messiah"
+
+\paper {
+  tocTitle = "CONTENTS"
+}
 
 \opusPartSpecs #`(
   (violino1 "Violono I" () (#:notes "violino1"))
@@ -39,6 +42,7 @@
   (tympani "Timpani" () (#:notes "tympani" #:clef "bass"))
   (bassi "Bassi" () (#:notes "bassi" #:clef "bass" #:score-template "score-bassi"))
   (vocal "Vocal parts" () (#:score-template "score-vocal"))
+  (choir "Choir parts" () (#:score-template "score-vocal"))
   (vocal-keyboard "Vocal parts and keyboard reduction" () (#:score-template "score-vocal-keyboard"))
   (keyboard "Keyboard reduction" () (#:score-template "score-keyboard"))
 )

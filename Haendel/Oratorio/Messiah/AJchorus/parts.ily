@@ -8,4 +8,5 @@
                    (vocal)
                    (vocal-keyboard)
                    (keyboard)
-                   (bassi #:music ,#{ \clef bass \grace s8 #}))
+                   (bassi #:music ,#{ \clef bass \grace s8 #})
+                   (silence #:score "score-silence"))

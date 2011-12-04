@@ -2179,13 +2179,13 @@ Haendel/Oratorio/Messiah-rehearsal:
 Haendel/Oratorio/Messiah-keyboard:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-keyboard -dpart=keyboard \
-	Haendel/Oratorio/Messiah/part-keyboard.ly
+	Haendel/Oratorio/Messiah/main.ly
 .PHONY: Haendel/Oratorio/Messiah-keyboard
 # Réduction et parties vocales
 Haendel/Oratorio/Messiah-keyboard-vocal:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Messiah-keyboard-vocal -dpart=keyboard-vocal \
-	Haendel/Oratorio/Messiah/part-vocal-keyboard.ly
+	Haendel/Oratorio/Messiah/main.ly
 .PHONY: Haendel/Oratorio/Messiah-keyboard-vocal
 # Hautbois I
 Haendel/Oratorio/Messiah-oboe1:
@@ -2235,6 +2235,30 @@ Haendel/Oratorio/Messiah-vocal:
 	-o $(OUTPUT_DIR)/Messiah-vocal -dpart=vocal  \
 	Haendel/Oratorio/Messiah/part.ly
 .PHONY: Haendel/Oratorio/Messiah-vocal
+# Chœurs
+Haendel/Oratorio/Messiah-choir:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Messiah-choir -dpart=choir  \
+	Haendel/Oratorio/Messiah/part.ly
+.PHONY: Haendel/Oratorio/Messiah-choir
+# Tromba I
+Haendel/Oratorio/Messiah-tromba1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Messiah-tromba1 -dpart=tromba1  \
+	Haendel/Oratorio/Messiah/part-tromba.ly
+.PHONY: Haendel/Oratorio/Messiah-tromba1
+# Tromba II
+Haendel/Oratorio/Messiah-tromba2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Messiah-tromba2 -dpart=tromba2  \
+	Haendel/Oratorio/Messiah/part-tromba.ly
+.PHONY: Haendel/Oratorio/Messiah-tromba2
+# Timpani
+Haendel/Oratorio/Messiah-tympani:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Messiah-tympani -dpart=tympani  \
+	Haendel/Oratorio/Messiah/part-tympani.ly
+.PHONY: Haendel/Oratorio/Messiah-tympani
 
 Haendel/Oratorio/Messiah-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Haendel/Messiah
@@ -2250,6 +2274,10 @@ Haendel/Oratorio/Messiah-delivery:
 	@if [ -e $(OUTPUT_DIR)/Messiah-viola.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-viola.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-bassi.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-bassi.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-vocal.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-vocal.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
+	@if [ -e $(OUTPUT_DIR)/Messiah-choir.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-choir.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
+	@if [ -e $(OUTPUT_DIR)/Messiah-tromba1.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-tromba1.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
+	@if [ -e $(OUTPUT_DIR)/Messiah-tromba2.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-tromba2.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
+	@if [ -e $(OUTPUT_DIR)/Messiah-tympani.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-tympani.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-1.midi ]; then tar zcf $(DELIVERY_DIR)/Haendel/Messiah/Messiah-midi.tar.gz $(OUTPUT_DIR)/Messiah.midi $(OUTPUT_DIR)/Messiah-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/Messiah.midi ]; then cp $(OUTPUT_DIR)/Messiah.midi $(DELIVERY_DIR)/Haendel/Messiah/ ; fi
 	git archive --prefix=Messiah/ HEAD Haendel/Oratorio/Messiah common out templates Makefile README | gzip > $(DELIVERY_DIR)/Haendel/Messiah/Messiah.tar.gz
 
@@ -2268,7 +2296,11 @@ Haendel/Oratorio/Messiah-all: \
 	Haendel/Oratorio/Messiah-violino3 \
 	Haendel/Oratorio/Messiah-viola \
 	Haendel/Oratorio/Messiah-bassi \
-	Haendel/Oratorio/Messiah-vocal\
+	Haendel/Oratorio/Messiah-vocal \
+	Haendel/Oratorio/Messiah-choir \
+	Haendel/Oratorio/Messiah-tromba1 \
+	Haendel/Oratorio/Messiah-tromba2 \
+	Haendel/Oratorio/Messiah-tympani\
 	Haendel/Oratorio/Messiah-delivery\
 	Haendel/Oratorio/Messiah-clean
 

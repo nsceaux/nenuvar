@@ -52,7 +52,7 @@ re' dod' re'4. \clef "treble" fad''8 |
 \\ { r2 r4 r8 dod'' |
      re'' si' mi'' re'' dod'' la' fad'' sold'' } >>|
 \clef "bass" la,4. si,8 dod re mi si, |
-dod la, re2 dod4 |
+dod la, fad2 mi4 |
 la, re2 dod4 |
 fad4. fad8 sold mi la4 ~|
 la sold la la ~|
