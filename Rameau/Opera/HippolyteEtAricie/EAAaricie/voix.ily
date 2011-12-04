@@ -5,8 +5,8 @@ r2 r4 mi''8 mi'' |
 la'4 la'8 la'16 la' si'4. fad'8 |
 sol'4 sol'8 r sol''2 |
 r4 mi''8. mi''16 mi''8 re'' re'' do'' |
-si'2 sol'4 |
+si'2\trill sol'4 |
 sol'8. la'16 si'8. dod''16 re''8. mi''16 |
-re''4 ( dod''16 ) dod'' r dod'' fad''8. sol''16 |
-sol''4. ( fad''8 ) mi''4 mi''8 red'' |
-red''2 r |
+re''4( dod''16\trill) dod'' r dod'' fad''8. sol''16 |
+sol''4.( fad''8\trill) mi''4 mi''8 red'' |
+red''?2\trill r |

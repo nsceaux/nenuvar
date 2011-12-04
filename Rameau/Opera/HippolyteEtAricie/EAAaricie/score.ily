@@ -1,33 +1,71 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff <<
-        \instrumentName \markup Flûtes
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s1*9 s1^\markup\character Aricie }
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff \with { \haraKiri } <<
+        { \noHaraKiri s1*18 \revertNoHaraKiri }
+        \instrumentName "Flutes"
         \global \includeNotes "flute"
       >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup { Violons I }
+      \new Staff \with { \haraKiri } <<
+        \instrumentName \markup { \concat { "[1" \super rs "]" } violons }
         \global \includeNotes "violon1"
       >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup { Violons II }
+      \new Staff \with { \haraKiri } <<
+        \instrumentName \markup { \concat { "[2" \super ds "]" } violons }
         \global \includeNotes "violon2"
       >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup Haute-contres
-        \global \includeNotes "haute-contre"
+      \new Staff \with { \haraKiri } <<
+        \instrumentName "[Hautes-contre]"
+        \global \keepWithTag #'haute-contre \includeNotes "parties"
       >>
-      \newHaraKiriStaff <<
-        \instrumentName \markup Tailles
-        \global \includeNotes "taille"
+      \new Staff \with { \haraKiri } <<
+        \instrumentName "[Tailles]"
+        \global \keepWithTag #'taille \includeNotes "parties"
+      >>
+      \new Staff <<
+        \instrumentName "B.C."
+        { s1*19 s1_"B.C." }
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
       >>
     >>
-    \newHaraKiriStaff \withLyrics <<
-      \characterName \markup Aricie
-      \global \includeNotes "aricie"
-    >> \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup { Basse continue }
-                  \global \includeNotes "basse-continue" >>
+
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff \with { \haraKiri } <<
+          \instrumentName "Flutes"
+          \global \includeNotes "flute"
+        >>
+        \new GrandStaff <<
+          \new Staff \with { \haraKiri } <<
+            \instrumentName \markup { \concat { "[1" \super rs "]" } violons }
+            \global \includeNotes "violon1"
+          >>
+          \new Staff \with { \haraKiri } <<
+            \instrumentName \markup { \concat { "[2" \super ds "]" } violons }
+            \global \includeNotes "violon2"
+          >>
+        >>
+        \new Staff \with { \haraKiri } <<
+          \instrumentName "[Parties]"
+          \global \keepWithTag #'taille \includeNotes "parties"
+        >>
+      >>
+      \new Staff \withLyrics <<
+        \characterName \markup Aricie
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff <<
+        \instrumentName "B.C."
+        { s1*19 s1_"B.C." }
+        \global
+        \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
+    >>
   >>
   \layout { indent = \largeindent }
   \midi { }
