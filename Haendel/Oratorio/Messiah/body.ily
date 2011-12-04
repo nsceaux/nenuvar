@@ -127,7 +127,7 @@
 %{ n°12 %}\newBookPart #'(keyboard)
 \pieceToc \markup \wordwrap { Recitative: \italic { Unto which of the angels said He at any time } (tenor) }
 \includeScore "BMrecitTenor"
-%{ n°13 %}\newBookPart #'(full vocal vocal-keyboard)
+%{ n°13 %}\newBookPart #'(full vocal vocal-keyboard choir)
 \pieceToc \markup \wordwrap { Chorus: \italic { Let all the angels of God worship Him } }
 \includeScore "BNchorus"
 %{ n°14 %}\newBookPart #'(vocal)
