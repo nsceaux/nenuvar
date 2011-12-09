@@ -23,8 +23,8 @@
 \includeScore "EBAchoeur"
 \pieceToc \markup { Aricie, Chœur, : \italic { Ciel ! Diane ! } }
 \includeScore "EBBaricieChoeur"
-\pieceToc \markup { Diane : \italic { Peuples toujours soumis à mon obéissance } }
-\includeScore "ECAdiane"
+\pieceToc \markup { Diane : \italic { Peuples toûjours soûmis à mon obéïssance } }
+\includeScore "EBCdiane"
 %%
 \scene "Scène III" "SCÈNE 3 : Diane, Aricie"
 \sceneDescription \markup \wordwrap-center { \smallCaps Diane seule. }
