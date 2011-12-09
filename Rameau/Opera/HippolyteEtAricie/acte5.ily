@@ -29,7 +29,7 @@
 \scene "Scène III" "SCÈNE 3 : Diane, Aricie"
 \sceneDescription \markup \wordwrap-center { \smallCaps Diane seule. }
 \pieceToc \markup { Diane }
-\includeScore "EDAdiane"
+\includeScore "ECAdiane"
 %%
 \scene "Scène IV" \markup\wordwrap {
   SCÈNE 4 : Diane, Hippolyte, Aricie
