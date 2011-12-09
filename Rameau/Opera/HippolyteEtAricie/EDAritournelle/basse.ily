@@ -1,7 +1,7 @@
-\clef "basse" re'2_"doux"dod' |
+\clef "basse" re'2^"Tous" _"doux" dod' |
 re' la |
 si sold |
-la sol |
+la sol! |
 fad1 |
 sol |
 sold |

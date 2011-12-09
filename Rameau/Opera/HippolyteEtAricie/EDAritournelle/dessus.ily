@@ -12,10 +12,10 @@ mi''( re'') dod''( re'') mi''( fad'') sol''( mi'') |
 fad''( mi'') re''( dod'') re''( mi'') fad''( sol'') |
 la''1 ~|
 la''4 sol''8( fad'') mi''( fad'') re''( sol'') |
-fad''2 ( mi''4. ) re''8 |
+fad''2( mi''4.\trill) re''8 |
 re''( dod'' re'') mi'' re''( dod'' re'') mi'' |
 re''( dod'' re'') mi'' re''( dod'' re'') mi'' |
 re''( dod'' re'') mi'' re''( dod'' re'') mi'' |
 re''4 ( dod''8 ) si' la' sol' fad' mi' |
 re' mi' fad' sol' mi' fad' sol' la' |
-fad'2 r |
+fad'2\trill r |

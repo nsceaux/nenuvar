@@ -28,7 +28,7 @@
 %%
 \scene "Scène III" "SCÈNE 3 : Diane, Aricie"
 \sceneDescription \markup \wordwrap-center { \smallCaps Diane seule. }
-\pieceToc \markup { Diane }
+\pieceToc \markup { Diane : \italic { Et vous, Troupe à ma voix fidelle } }
 \includeScore "ECAdiane"
 %%
 \scene "Scène IV" \markup\wordwrap {
@@ -40,7 +40,7 @@
   \fill-line { \line { Les Zéphirs amènent Hippolyte dans un char } }
 }
 \pieceTocTitle "Vol des Zéphirs"
-\includeScore "EEAritournelle"
+\includeScore "EDAritournelle"
 \pieceTocAndTitle \markup { DUO } \markup {
   \smallCaps { Hippolyte, Aricie : } \italic { Aricie/Hippolyte est-ce vous que je vois }
 }
