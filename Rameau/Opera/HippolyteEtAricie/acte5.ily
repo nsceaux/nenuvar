@@ -41,10 +41,10 @@
 }
 \pieceTocTitle "Vol des Zéphirs"
 \includeScore "EDAritournelle"
-\pieceTocAndTitle \markup { DUO } \markup {
-  \smallCaps { Hippolyte, Aricie : } \italic { Aricie/Hippolyte est-ce vous que je vois }
+\pieceToc \markup { Hippolyte, Aricie :
+  \italic { Aricie/Hippolyte, est-ce vous que je voi ? }
 }
-\includeScore "EEBaricieHippolyte"
+\includeScore "EDBaricieHippolyte"
 \pieceToc \markup \smallCaps { Diane }
 \includeScore "EECdiane"
 \pieceTocTitle "Annonce"
