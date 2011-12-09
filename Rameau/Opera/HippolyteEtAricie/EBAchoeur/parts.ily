@@ -1,8 +1,10 @@
-\piecePartSpecs #`((dessus1)
-                   (dessus2)
-                   (haute-contre #:notes "haute-contre-taille")
-                   (taille #:notes "haute-contre-taille")
-                   (basson #:notes "basse")
-                   (basse)
-                   (voix))
+\piecePartSpecs #`((hautbois #:score "score-hautbois")
+                   (violons #:tag-notes violons)
+                   (haute-contre #:notes "parties")
+                   (taille #:notes "parties")
+                   (basson #:tag-notes basson)
+                   (basse #:tag-notes basse)
+                   (basse-continue #:tag-notes tous
+                                   #:score-template "score")
+                   (silence #:score "score-silence"))
 
