@@ -1,5 +1,0 @@
-\piecePartSpecs #`((hautbois #:instrument ,(markup #:center-column ("Hautois" "Musettes")))
-                   (violon)
-                   (basson)
-                   (basse #:instrument "Basse continue")
-                   (basse-continue))

@@ -45,12 +45,8 @@
   \italic { Aricie/Hippolyte, est-ce vous que je voi ? }
 }
 \includeScore "EDBaricieHippolyte"
-\pieceToc \markup \smallCaps { Diane }
-\includeScore "EECdiane"
-\pieceTocTitle "Annonce"
-\includeScore "EEDannonce"
-\pieceToc \markup \smallCaps { Diane }
-\includeScore "EEEdiane"
+\pieceToc \markup { Diane : \italic { Tendres Amans, vos malheurs sont finis } }
+\includeScore "EDCdiane"
 %%
 \scene "Scène V" \markup\wordwrap {
   SCÈNE 5 : Diane, Hippolyte, habitants de la forêt d'Aricie
