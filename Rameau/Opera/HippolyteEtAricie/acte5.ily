@@ -7,10 +7,10 @@
 }
 \scene "Scène Première" "SCÈNE 1 : Aricie"
 \sceneDescription \markup \fill-line { \line { \smallCaps Aricie, seule. } }
-\pieceToc \markup { \smallCaps Aricie :
+\pieceToc \markup { Aricie :
   \italic { Où suis-je ? de mes sens j’ai recouvré l’usage } }
 \includeScore "EAAaricie"
-\pieceToc \markup { \smallCaps Aricie : \italic { Quels doux Concerts } }
+\pieceToc \markup { Aricie : \italic { Quels doux Concerts } }
 \includeScore "EABaricie"
 %%
 \scene "Scène II" \markup\wordwrap {
@@ -19,12 +19,11 @@
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Diane, \smallCaps Aricie, troupe de bergers et de bergères.
 }
-\pieceToc \markup { \smallCaps { Chœur, Aricie : }
-  \italic { Descendez, brillante immortelle } }
+\pieceToc \markup { Chœur : \italic { Descendez, brillante immortelle } }
 \includeScore "EBAchoeur"
-\includeScore "EBBaricie"
-\includeScore "EBCaricieChoeur"
-\pieceToc \markup { \smallCaps Diane : \italic { Peuples toujours soumis à mon obéissance } }
+\pieceToc \markup { Aricie, Chœur, : \italic { Ciel ! Diane ! } }
+\includeScore "EBBaricieChoeur"
+\pieceToc \markup { Diane : \italic { Peuples toujours soumis à mon obéissance } }
 \includeScore "ECAdiane"
 %%
 \scene "Scène III" "SCÈNE 3 : Diane, Aricie"
