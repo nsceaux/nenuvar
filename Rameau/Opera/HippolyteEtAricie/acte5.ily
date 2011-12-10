@@ -55,30 +55,30 @@
   \smallCaps { Diane, Hippolyte, Aricie, }
   habitants de la forêt d'Aricie et une bergère.
 }
-\pieceTocAndTitle \markup MARCHE \markup { \smallCaps Chœur : \italic { Chantons sur la Musette } }
-\includeScore "EFAmarcheChoeur"
+\pieceToc \markup { Chœur : \italic { Chantons sur la Musette } }
+\includeScore "EEAmarcheChoeur"
 \pieceTocTitle "Rondeau"
-\includeScore "EFBrondeau"
+\includeScore "EEBrondeau"
 \pieceToc \markup { \smallCaps { Une bergère : } \italic { Plaisirs, doux vainqueurs } }
-\includeScore "EFCbergere"
+\includeScore "EECbergere"
 \pieceTocTitle "Premier menuet"
-\includeScore "EFDmenuet"
+\includeScore "EEDmenuet"
 \pieceTocTitle "Deuxième menuet"
-\includeScore "EFEmenuet"
+\includeScore "EEEmenuet"
 \markup \title \fill-line {
   \line { On reprend le premier menuet page \page-refIII #'EFDmenuet . }
 }
 \pieceToc \markup \smallCaps { Diane }
-\includeScore "EFFdiane"
+\includeScore "EEFdiane"
 \pieceTocTitle "Première gavotte"
-\includeScore "EFGgavotte"
+\includeScore "EEGgavotte"
 \pieceTocTitle "Deuxième gavotte"
-\includeScore "EFHgavotte"
+\includeScore "EEHgavotte"
 \markup \title \fill-line {
   \line { On reprend la première gavotte page \page-refIII #'EFGgavotte . }
 }
 \pieceToc \markup { \smallCaps { Aricie ou une bergère : } \italic { Rossignols amoureux } }
-\includeScore "EFIariette"
+\includeScore "EEIariette"
 \pieceTocTitle "Chaconne"
-\includeScore "EFJchaconne"
+\includeScore "EEJchaconne"
 \actEnd \markup { FIN DE LA TRAGÉDIE }
