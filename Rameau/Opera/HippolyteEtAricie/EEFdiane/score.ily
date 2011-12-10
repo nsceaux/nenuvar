@@ -1,12 +1,13 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \characterName \markup Diane
-      \global \includeNotes "diane"
+      \characterName "Diane"
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup { Basse continue }
+      \instrumentName "[B.C.]"
       \global \includeNotes "basse"
+      \modVersion\includeFigures "chiffres"
     >>
   >>
   \layout { indent = \largeindent }

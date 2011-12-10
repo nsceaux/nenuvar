@@ -65,7 +65,8 @@
 \includeScore "EEDmenuet"
 \pieceTocTitle "Deuxième menuet"
 \includeScore "EEEmenuet"
-\pieceToc \markup { Diane : \italic {  } }
+\pieceToc \markup { Diane :
+  \italic { Bergers, vous allez voir combien je suis fidèle } }
 \includeScore "EEFdiane"
 \pieceTocTitle "Première gavotte"
 \includeScore "EEGgavotte"
