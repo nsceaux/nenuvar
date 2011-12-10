@@ -9,7 +9,10 @@
     \tag #'no-silence \endMark\markup { a la Reprise jusqu'au mot fin }
   }
   \origVersion {
-    s2 s4*0^\markup\box\musicglyph #"scripts.segno" s2.*8
+    s2 s4*0^\markup {
+      \box\musicglyph #"scripts.segno" \concat { 2 \super e } Reprise
+    }
+    s2.*8
     s4*0^\markup {
       \musicglyph #"scripts.segno" \concat { P \super re } Reprise
     }

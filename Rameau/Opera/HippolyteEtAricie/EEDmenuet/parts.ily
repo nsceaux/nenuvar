@@ -1,5 +1,5 @@
 \piecePartSpecs #`((dessus)
                    (haute-contre)
                    (taille)
-                   (basson)
+                   (basson #:notes "basson")
                    (basse))
