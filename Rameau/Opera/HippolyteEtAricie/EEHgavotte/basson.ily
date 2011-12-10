@@ -1,4 +1,4 @@
-\clef "basse" la2 ~|
+\clef "basse" la2~ |
 la4 sold la2 |
 fa do4. la,8 |
 re4 si, mi la, |
@@ -10,7 +10,7 @@ do2 do8 re mi fa |
 sol la sib r re mi fa sol |
 la si do' r r2 |
 R1*2 |
-
+\modVersion\clef "tenor"
 r2 mi' |
 la' mi'4 re'8 do' |
 do' si la re mi4 mi, |

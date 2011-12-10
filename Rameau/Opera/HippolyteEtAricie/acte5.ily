@@ -72,10 +72,7 @@
 \includeScore "EEGgavotte"
 \pieceTocTitle "Deuxième gavotte"
 \includeScore "EEHgavotte"
-\markup \title \fill-line {
-  \line { On reprend la première gavotte page \page-refIII #'EFGgavotte . }
-}
-\pieceToc \markup { \smallCaps { Aricie ou une bergère : } \italic { Rossignols amoureux } }
+\pieceToc \markup { Aricie ou une bergère : \italic { Rossignols amoureux } }
 \includeScore "EEIariette"
 \pieceTocTitle "Chaconne"
 \includeScore "EEJchaconne"
