@@ -65,10 +65,7 @@
 \includeScore "EEDmenuet"
 \pieceTocTitle "Deuxième menuet"
 \includeScore "EEEmenuet"
-\markup \title \fill-line {
-  \line { On reprend le premier menuet page \page-refIII #'EFDmenuet . }
-}
-\pieceToc \markup \smallCaps { Diane }
+\pieceToc \markup { Diane : \italic {  } }
 \includeScore "EEFdiane"
 \pieceTocTitle "Première gavotte"
 \includeScore "EEGgavotte"
