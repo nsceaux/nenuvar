@@ -49,7 +49,7 @@
 \includeScore "EDCdiane"
 %%
 \scene "Scène V" \markup\wordwrap {
-  SCÈNE 5 : Diane, Hippolyte, habitants de la forêt d'Aricie
+  SCÈNE 5 : Diane, Hippolyte, Aricie, habitants de la forêt d'Aricie
 }
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Diane, Hippolyte, Aricie, }

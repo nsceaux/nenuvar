@@ -1,0 +1,7 @@
+\piecePartSpecs #(let ((breaks #{ s2.*16 s4\break s2 s2.*8\break #}))
+                   `((violons #:music ,breaks)
+                     (flutes #:music ,breaks)
+                     (haute-contre #:music ,breaks)
+                     (taille #:music ,breaks)
+                     (basse #:music ,breaks)
+                     (silence #:tag-global silence)))

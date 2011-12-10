@@ -1,5 +1,0 @@
-\piecePartSpecs #`((violon)
-                   (flute)
-                   (haute-contre)
-                   (taille)
-                   (basse))

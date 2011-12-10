@@ -85,6 +85,10 @@ dacapoOverrides = {
   \once \override Score . RehearsalMark #'padding = #2
 }
 
+endMark =
+#(define-music-function (parser location text) (markup?)
+   #{ \dacapoOverrides\mark\markup\right-align\italic $text #})
+
 fineMark = {
   \dacapoOverrides \mark \markup \right-align \italic Fin.
 }
