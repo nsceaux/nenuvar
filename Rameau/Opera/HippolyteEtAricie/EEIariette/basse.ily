@@ -5,7 +5,7 @@ si4 dod' dod |
 fad2 fad,4 |
 fad4. mi8 re dod |
 si,2 r8 dod |
-re2. |
+re2 ~ re4\trill |
 dod2 dod'4 |
 fad2 ~ fad8. sold16 |
 la2 fad4 |
@@ -15,6 +15,6 @@ fad2 red4 |
 mi2 sid,4 |
 dod2 la,4 |
 mi,2 fad,8 sold, |
-la,2. ~|
-la,8 ( sold,16 fad, ) sold,2 |
+la,2.~ |
+la,8( sold,16\trill fad,) sold,2 |
 dod, r4 |
