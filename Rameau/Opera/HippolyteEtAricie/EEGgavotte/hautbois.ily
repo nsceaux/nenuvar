@@ -2,7 +2,7 @@
 mi'' fad'' mi'' dod'' re'' mi'' fad'' sold'' |
 la''4 r mi''2 |
 dod''4. ( si'16 dod'' ) re''4 dod'' |
-si'2 r |
+si'2 r2 |
 R1 |
 r2 si' |
 mi''4 mi''8. ( re''32 mi'' ) fad''4 fad''8. ( mi''32 fad'' )|
