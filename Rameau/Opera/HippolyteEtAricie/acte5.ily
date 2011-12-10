@@ -59,7 +59,7 @@
 \includeScore "EEAmarcheChoeur"
 \pieceTocTitle "Rondeau"
 \includeScore "EEBrondeau"
-\pieceToc \markup { \smallCaps { Une bergère : } \italic { Plaisirs, doux vainqueurs } }
+\pieceToc \markup { Une bergère : \italic { Plaisirs, doux vainqueurs } }
 \includeScore "EECbergere"
 \pieceTocTitle "Premier menuet"
 \includeScore "EEDmenuet"
