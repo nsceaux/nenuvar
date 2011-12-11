@@ -157,14 +157,14 @@
     précédente.
   }
   \livretRef #'ADAphedreAricieChoeurHippolyte
-  \livretPers\line { PHÈDRE, \italic { à Aricie } }
+  \livretPers\line { PHEDRE, \italic { à Aricie } }
   \livretVer { Princesse, ce grand jour par des nœuds éternels }
   \livretVerC { Va vous unir aux Immortels. }
   \livretPers\line { ARICIE }
   \livretVerC { Je crains que le ciel ne condamne }
   \livretVer { L'hommage que j'apporte aux pieds des saints autels. }
   \livretVerC { Quel cœur viens-je offrir à Diane ! }
-  \livretPers\line { PHÈDRE }
+  \livretPers\line { PHEDRE }
   \livretVer { Quel discours ! }
   \livretPers\line { ARICIE }
   \livretVer { \transparent { Quel discours ! } Sans remors, comment puis-je en ces lieux, }
@@ -172,28 +172,28 @@
   \livretPers\line { CHŒUR DES PRÊTRESSES }
   \livretVer { Non, non, un cœur forcé n'est pas digne des Dieux ; }
   \livretVerC { Le sacrifice en est un crime. }
-  \livretPers\line { PHÈDRE }
+  \livretPers\line { PHEDRE }
   \livretVer { Quoi ? L'on ose braver le suprême pouvoir ! }
   \livretPers\line { CHŒUR }
   \livretVer { Obéïssez au Dieux ; c'est le premier devoir. }
-  \livretPers\line { PHÈDRE \italic { à Hippolyte } }
+  \livretPers\line { PHEDRE \italic { à Hippolyte } }
   \livretVerC { Prince, vous souffrez qu'on outrage }
   \livretVerC { Et votre Pere, & votre Roi ! }
-  \livretPers\line { HIPPOLYTE \italic { à Phèdre } }
+  \livretPers\line { HIPPOLYTE \italic { à Phedre } }
   \livretVer { Vous sçavez que respect à Diane m'engage ; }
   \livretVer { Dès mes plus tendres ans je lui donnai ma foi. }
-  \livretPers\line { PHÈDRE }
+  \livretPers\line { PHEDRE }
   \livretVer { Dieux ! Thésée en son fils trouve un sujet rebelle ! }
   \livretPers\line { HIPPOLYTE }
   \livretVerC { Je sais tout ce que je lui doi ; }
   \livretVer { Mais, ne puis-je pour lui faire éclatter mon zéle, }
   \livretVerC { Qu'en outrageant une Immortelle ? }
-  \livretPers\line { PHÈDRE }
+  \livretPers\line { PHEDRE }
   \livretVerC { Laissez des détours superflus ; }
   \livretVer { La vertu quelquefois sert de prétexte au crime. }
   \livretPers\line { HIPPOLYTE }
   \livretVer { Quel crime ! }
-  \livretPers\line { PHÈDRE }
+  \livretPers\line { PHEDRE }
   \livretVer { \transparent { Quel crime ! } Je ne sais qui vous touche le plus, }
   \livretVerC { De l'autel, ou de la victime. }
   \livretPers\line { HIPPOLYTE }
@@ -201,7 +201,7 @@
   \livretVerC { Je ne sais point forcer les cœurs. }
 
   \livretRef #'ADBphedre
-  \livretPers\line { PHÈDRE }
+  \livretPers\line { PHEDRE }
   \livretVerC { Périsse la vaine puissance }
   \livretVerC { Qui s'éleve contre les Rois : }
   \livretVerC { Tremblez ; redoutez ma vengeance, }
@@ -223,8 +223,8 @@
   \livretDidasP\line { Bruit de tonnerre. }
   \livretDidasP\line { \smallCaps Diane paroît dans une gloire. }
   \livretPers\line { LA GRANDE PRÊTRESSE }
-  \livretVerC { Nos cris sont montés jusqu'aux cieux. }
-  \livretVer { La Déesse descend ; tremblez, audacieux. }
+  \livretVerC { "[Nos" cris sont montés jusqu'aux cieux. }
+  \livretVer { La Déesse descend ; tremblez, "audacieux.]" }
 
   \livretScene\line { SCENE V }
   \livretDescAtt\wordwrap-center {
@@ -236,7 +236,7 @@
   \livretVer { Tranquilles cœurs, qui vivez sous ma loi. }
   \livretVer { Vous voyez Jupiter se déclarer mon Pere ; }
   \livretVerC { Sa foudre vole devant moi. }
-  \livretDidasP\line { à Phèdre }
+  \livretDidasP\line { à Phedre }
   \livretVerC { Toi, tremble Reine sacrilege ; }
   \livretVer { Penses-tu m'honorer par d'unjustes rigueurs ? }
   \livretVerC { Apprens que Diane protége }
@@ -257,7 +257,7 @@
   \livretScene\line { SCENE VI }
   \livretDescAtt\wordwrap-center { \smallCaps Phedre. }
   \livretRef #'AFAphedre
-  \livretPers\line { PHÈDRE }
+  \livretPers\line { PHEDRE }
   \livretVer { Quoi ! La terre & le ciel contre moi sont armés ! }
   \livretVer { Ma rivale me brave ! Elle suit Hippolyte ! }
   \livretVer { Ah ! Plus je vois leurs cœurs l'un pour l'autre enflamés, }

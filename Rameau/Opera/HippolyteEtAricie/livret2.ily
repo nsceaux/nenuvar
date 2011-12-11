@@ -235,4 +235,5 @@
   \livretPers\line { THESÉE }
   \livretVer { Ciel ! Cachons mon retour, & trompons tous les yeux. }
 
+  \vspace #30
 }
