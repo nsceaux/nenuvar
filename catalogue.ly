@@ -333,7 +333,7 @@ O Emmanuel")
                  (taille "Tailles")
                  (basse "Basses")
                  (timbales "Timbales" #:score-file "part-trompette-timbales.ly")
-                 (basse-continue "Basse continue" #:score-file "part-bc.ly")))
+                 (basse-continue "Basse continue" #:score-file "part.ly")))
        ("Les Indes Galantes"
         #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1743.")
         #:key "Rameau/Opera/IndesGalantes"

@@ -10,7 +10,7 @@ lab''2 lab''4 sol'' |
 lab''1 |
 r2 mib''4. mib''8 |
 mib''2. mib''8 fa'' |
-re''2. r8 fa'' |
+re''2.\trill r8 fa'' |
 sib'4 sib' sib' la' |
 sib'2 r |
 R1*2 |

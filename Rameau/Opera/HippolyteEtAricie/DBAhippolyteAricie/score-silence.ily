@@ -1,23 +1,25 @@
 \markup \line {
-  \force-line-width-ratio #9/20 \score {
+  \force-line-width-ratio #2/20 \score {
     \new Staff \with { \tinyStaff } <<
-      \keepWithTag #'() \global \includeNotes #(*note-filename*)
+      { R1*115 }
       \clef #(*clef*)
       $(or (*score-extra-music*) (make-music 'Music))
     >>
     \layout {
       indent = #0
       ragged-last = ##t
-      line-width = 5\cm
+      line-width = 2\cm
       \context {
         \Score
         \remove "Bar_number_engraver"
+        \remove "Time_signature_engraver"
         \override RehearsalMark #'font-size = #-1
         \override MetronomeMark #'font-size = #-2
       }
+      \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \force-line-width-ratio #9/20 \fontsize #-2 \column {
+  \force-line-width-ratio #8/20 \fontsize #-2 \column {
     \bold Aricie
     \line { C'en est donc fait, cruel, rien n'arrête vos pas, }
     \sline { Vous desesperez votre amante. }
@@ -48,6 +50,8 @@
     \line\italic { à Hippolyte. }
     \sline { Eh ! Quelle autre main que la vôtre, }
     \line { Si vous m'abandonnez, pour essuyer mes pleurs ? }
+  }
+  \force-line-width-ratio #7/20 \fontsize #-2 \column {
     \line\italic { à part. }
     \sline { Dieux ; pourquoi séparer deux cœurs }
     \sline { Que l'amour a faits l'un pour l'autre ? }
@@ -75,5 +79,5 @@
     \line { Viens, Reine des Forêts, viens former notre chaîne ; }
     \line { Que l'encens de nos vœux s'éleve jusqu'à toi, }
     \line { Sois toujours de nos cœurs l'unique Souveraine. }
-  }
+  }  
 }
