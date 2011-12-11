@@ -54,6 +54,7 @@
 \include "common/common.ily"
 \include "common/side-ornementations.ily"
 \include "common/toc-columns.ily"
+\include "common/livret-columns.ily"
 \setOpus "Rameau/Opera/HippolyteEtAricie"
 \opusTitle "Hippolyte et Aricie"
 
