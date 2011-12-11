@@ -1516,7 +1516,7 @@ Rameau/Opera/HippolyteEtAricie-timbales:
 Rameau/Opera/HippolyteEtAricie-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-basse-continue -dpart=basse-continue  \
-	Rameau/Opera/HippolyteEtAricie/part-bc.ly
+	Rameau/Opera/HippolyteEtAricie/part.ly
 .PHONY: Rameau/Opera/HippolyteEtAricie-basse-continue
 
 Rameau/Opera/HippolyteEtAricie-delivery:
