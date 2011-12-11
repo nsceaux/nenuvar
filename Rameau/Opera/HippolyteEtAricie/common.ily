@@ -47,7 +47,7 @@
 }
 
 %% Tremolo for string instruments
-#(if (memq (ly:get-option 'part) '(violon1 violon2 haute-contre taille basse basse-continue))
+#(if (memq (ly:get-option 'part) '(violons haute-contre taille basse basse-continue))
      (ly:set-option 'use-tremolo-repeat #t))
 
 \include "italiano.ly"
@@ -62,13 +62,13 @@
   ;; Dessus de violons, flutes, hautbois, sans distinction
   (dessus "" () (#:notes "dessus" #:tag-notes dessus))
   ;; real parts
-  (violons "Violons I et II" ((violon #f) (dessus1 #f) (dessus #f))
+  (violons "Violons" ((violon #f) (dessus1 #f) (dessus #f))
            (#:notes "dessus" #:tag-notes violons))
-  (flutes "Flûtes I et II" ((dessus #f)
+  (flutes "Flûtes" ((dessus #f)
                             (hautbois "Hautbois")
                             (violons "Violons"))
           (#:notes "dessus" #:tag-notes flutes))
-  (hautbois "Hautbois I et II" ((dessus #f)
+  (hautbois "Hautbois" ((dessus #f)
                                 (violons "Violons"))
             (#:notes "dessus" #:tag-notes hautbois))
   (trompette "Trompette" () (#:notes "dessus" #:tag-notes trompette))

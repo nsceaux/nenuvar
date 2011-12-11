@@ -1,7 +1,6 @@
 \piecePartSpecs #`((flutes #:notes "flute")
                    (violons #:notes "violon"
-                            #:score-template "score-tiny"
-                            #:music ,#{ \ru#11 { s1\noBreak s1 } #})
+                            #:score-template "score-tiny")
                    (hautbois #:score "score-silence" #:notes "silence")
                    (haute-contre)
                    (taille)

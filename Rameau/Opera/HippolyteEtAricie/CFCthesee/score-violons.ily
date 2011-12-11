@@ -7,7 +7,7 @@
     \new Staff \with { \haraKiri \tinyStaff } <<
       \instrumentName \markup { \concat { P \super ers } violons }
       \global \keepWithTag #'violon1 \includeNotes "violons-parties"
-      { \ru#9 { s1\noBreak s1 } \startHaraKiri }
+      { \repeat unfold 6 { s1\noBreak s1\noBreak s1 } \startHaraKiri }
     >>
     \new Staff \with { \haraKiri \tinyStaff } <<
       \instrumentName \markup { \concat { 2 \super es } violons }
