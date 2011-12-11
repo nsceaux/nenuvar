@@ -9,15 +9,15 @@
 %% Table of contents
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplist\abs-fontsize-lines #7
-  \override-lines #'(column-number . 2) \table-of-contents
+  \markuplist
+  \abs-fontsize-lines #7
+  \override-lines #'(use-rehearsal-numbers . #t)
+  \override-lines #'(column-number . 2)
+  \table-of-contents
 }
 
 \include "Rameau/Opera/HippolyteEtAricie/acte1.ily"
 \include "Rameau/Opera/HippolyteEtAricie/acte2.ily"
 \include "Rameau/Opera/HippolyteEtAricie/acte3.ily"
 \include "Rameau/Opera/HippolyteEtAricie/acte4.ily"
-%\include "Rameau/Opera/HippolyteEtAricie/acte5.ily"
-\bookpart {
-  \markup\null
-}
+\include "Rameau/Opera/HippolyteEtAricie/acte5.ily"
