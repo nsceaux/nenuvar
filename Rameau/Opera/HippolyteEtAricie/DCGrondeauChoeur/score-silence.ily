@@ -18,13 +18,13 @@
     }
   }
   \force-line-width-ratio #9/20 \fontsize #-2 \column {
-    \bold\line { Un chasseresse }
+    \bold\line { Une chasseresse }
     \line { A la chasse, à la chasse, }
     \sline { Armez-vous. }
     \bold Chœur
     \line { Courons tous à la chasse ; }
     \sline { Armons-nous. }
-    \bold\line { Un chasseresse }
+    \bold\line { Une chasseresse }
     \line { Dieu des cœurs, cédez la place ; }
     \line { Non, non, ne regnez jamais. }
     \sline { Que Diane préside ; }
@@ -32,7 +32,7 @@
     \sline { Dans le fond des forêts ; }
     \line { Sous ses loix nous vivons en paix. }
     \sline { A la chasse, &c. }
-    \bold\line { Un chasseresse }
+    \bold\line { Une chasseresse }
     \sline { Nos asyles }
     \sline { Sont tranquilles, }
     \line { Non, non, rien n'a plus d'attraits. }

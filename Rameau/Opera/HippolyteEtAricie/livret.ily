@@ -4,4 +4,5 @@
   \include "Rameau/Opera/HippolyteEtAricie/livret1.ily"
   \include "Rameau/Opera/HippolyteEtAricie/livret2.ily"
   \include "Rameau/Opera/HippolyteEtAricie/livret3.ily"
+  \include "Rameau/Opera/HippolyteEtAricie/livret4.ily"
 }
