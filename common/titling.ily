@@ -277,6 +277,11 @@
 %%% Music functions
 %%%
 
+tocItem =
+#(define-music-function (parser location title) (markup?)
+   (add-toc-item parser 'tocPieceMarkup title)
+   (make-music 'Music 'void #t))
+
 %%% Pieces
 pieceToc =
 #(define-music-function (parser location title) (markup?)

@@ -1,3 +1,5 @@
+\tocItem "LIVRET"
+\markup\act { LIVRET }
 \markup\n-columns {
   \livretAct\line { ACTE PREMIER }
   \livretDescAtt\center-column {
@@ -123,7 +125,9 @@
 
   \livretRef #'ACEair
   \livretDidasP\line { On danse. }
+}
 
+\markup\n-columns {
   \livretRef #'ACFgavotte
   \livretPers\center-column {
     \line { LA GRANDE PRÊTRESSE }
@@ -136,9 +140,6 @@
   \livretVerC { Les allarmes, }
   \livretVer { Sont le prix des tendres cœurs. }
   \livretDidasP\line { On danse. }
-}
-
-\markup\n-columns {
   \livretPers\center-column {
     \line { LA GRANDE PRÊTRESSE ET LE CHŒUR }
     \line { alternativement avec le chœur }

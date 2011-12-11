@@ -10,16 +10,6 @@
   }
   \markup \null
 }
-%% Notes
-\bookpart {
-  \paper { #(define page-breaking ly:minimal-breaking) }
-  \markup { Notes... }
-
-  %% http://www.bibliotheques.versailles.fr
-  %% Manuscrit musical 129
-  %% http://www.bibliotheques.versailles.fr/simclient/Integration/DOSSIERSDOCS_VERSAILLES/DossiersDoc/voirDossManuscrit.asp?INSTANCE=DOSSIERSDOCS_VERSAILLES&DOSS=BKDD_BMVMsmus_000024_MSMUS129
-}
-
 %% Table of contents
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
@@ -29,6 +19,7 @@
   \table-of-contents
 }
 
+\include "Rameau/Opera/HippolyteEtAricie/notes.ily"
 \include "Rameau/Opera/HippolyteEtAricie/livret.ily"
 
 \include "Rameau/Opera/HippolyteEtAricie/acte1.ily"
