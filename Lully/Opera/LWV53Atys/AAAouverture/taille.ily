@@ -16,6 +16,17 @@ re'2. r8 re' |
 re'1 |
 R1.*2 |
 % Manuscrit : sol'8 fad' sol' la' sol' la' fad'2 fad'8 mi'16 fad'
+\myfootnote #'NoteHead #'(0 . 1)
+\markup { Manuscrit : 
+  \raise #3 \score {
+    { \tinyQuote \key re \minor \clef "mezzosoprano" \time 6/4
+      sol'8 fad' sol' la' sol' la' fad'!2 fad'8 mi'16 fad' |
+      sol'2 sol'4 la'2 re'4 |
+      mi'8 fad' sol'4. la'8 fad'4. mi'16 fad' sol'4
+    }
+    \layout { \quoteLayout }
+  }
+}
 sol'8 fa' sol' la' sol' la' fad'2~ fad'8 mi'16 fad' |
 sol'2 sol'4 la'2 re'4 |
 % Manuscrit : mi'8 fad' sol'4. la'8 fad'4. mi'16 fad' sol'4
@@ -36,6 +47,15 @@ sol'2 sol'4 sol' fad'4. sol'8 |
 sol'4. sol'8 fa'4. fa'8 |
 sol'2 sol'4. sol'8 |
 % Manuscrit : sol'2 mi'4. mi'8 |
+\myfootnote #'NoteHead #'(0 . 1)
+\markup { Manuscrit : 
+  \raise #3 \score {
+    { \tinyQuote \key re \minor \clef "mezzosoprano" \time 2/2
+      sol'2 mi'4. mi'8 | re'2 re'4. re'8 |
+    }
+    \layout { \quoteLayout }
+  }
+}
 sol'2 fa'4. mi'8 |
 % Manuscrit : re'2 re'4. re'8 |
 re'2. re'4 |

@@ -25,6 +25,15 @@ sol'2 sol'4 la' fa'2 |
 fa' sib' la'4. sib'8 |
 sib'4 re''4. re''8 re'' do'' re'' mib'' re'' do'' |
 sib'2 sib'4 la'2. |
+\myfootnote #'NoteHead #'(0 . 2)
+\markup { Manuscrit : 
+  \raise #3 \score {
+    { \tinyQuote \key re \minor \clef "soprano" \time 6/4
+      la'2 la'4 la'8 sib' do'' re'' mi''4 | la'2
+    }
+    \layout { \quoteLayout }
+  }
+}
 la'2 la'4 la'8 si' dod'' re'' mi''4 |
 la'2 la'4 sib'2 sol'4 |
 sol'4. la'8 fa'4 mi' la'4. la'8 |
@@ -33,8 +42,26 @@ mi' fa' sol' mi' fa' sol' fa'2 do''8 do'' |
 re''2 re''4 sib'2 sib'8 sib' |
 do''2 do''4 la'4. fad'8 sol' la' |
 % Manuscrit : sib' la' sib' do'' re'' re'' re'' do'' re'' mib'' re'' do'' |
+\myfootnote #'NoteHead #'(0 . 1)
+\markup { Manuscrit : 
+  \raise #4 \score {
+    { \tinyQuote \key re \minor \clef "soprano" \time 6/4
+      sib'8 la' sib' do'' re'' re'' re'' do'' re'' mib'' re'' do'' |
+    }
+    \layout { \quoteLayout }
+  }
+}
 sib' la' sib' do'' re'' do'' re'' do'' re'' mib'' re'' do'' |
 sib'4. sib'8 la'2 |
+\myfootnote #'NoteHead #'(0 . 1)
+\markup { Manuscrit : 
+  \raise #3 \score {
+    { \tinyQuote \key re \minor \clef "soprano" \time 2/2
+      re''4. re''8 sol'4. sol'8 | la'2
+    }
+    \layout { \quoteLayout }
+  }
+}
 re''4. re''8 sol'2 |
 la'2 la'4. sol'8 |
 fad'2 re''4. do''8 |

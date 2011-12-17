@@ -18,6 +18,16 @@ re,1 |
 R1.*3 |
 % Manuscrit : sol8 fad sol la sol la fad mi fad sol fad sol |
 % Manuscrit : mi re mib fa mib fa re2. |
+\myfootnote #'NoteHead #'(0 . 1)
+\markup { Manuscrit : 
+  \raise #2.5 \score {
+    { \tinyQuote \key re \minor \clef "bass" \time 6/4
+      sol8 fad sol la sol la fad mi fad sol fad sol |
+      mi8 re mib fa mib fa re2. |
+    }
+    \layout { \quoteLayout }
+  }
+}
 sol8 fa sol la sol la fa\trill mib fa sol fa sol |
 mib\trill re mib fa mib fa re2.\trill |
 re'8 do' re' mib' re' do' si\trill la si sol la si |
@@ -27,10 +37,28 @@ sib,4. sib8 la sol fad2.\trill |
 sol la8 sol la sib la sol |
 fa4 sol8 fa mi re dod2.\trill |
 % Manuscrit : re8 do re mi re do sib, la, sib, do sib, do |
+\myfootnote #'NoteHead #'(0 . 3)
+\markup { Manuscrit : 
+  \raise #2.5 \score {
+    { \tinyQuote \key re \minor \clef "bass" \time 6/4
+      re8 do re mi re do sib, la, sib, do sib, do |
+    }
+    \layout { \quoteLayout }
+  }
+}
 re8 do re mib re do sib, la, sib, do sib, do |
 la,2.\trill la8 sol la sib la sol |
 fad\trill mi fad re mi fad sol fa? sol la sol fa |
 % Manuscrit : mi re mi do re mi fa mi fa sol fa mib |
+\myfootnote #'NoteHead #'(0 . 3)
+\markup { Manuscrit : 
+  \raise #2.5 \score {
+    { \tinyQuote \key re \minor \clef "bass" \time 6/4
+      mi8 re mi do re mi fa mi fa sol fa mib |
+    }
+    \layout { \quoteLayout }
+  }
+}
 mi\trill re mi do re mi fa mib fa sol fa mib |
 re do re sib, do re mib re mib fa mib re |
 do\trill sib, do la, sib, do re do re mib re do |

@@ -257,31 +257,25 @@ Lully/Ballet/LWV43LeBourgeoisGentilhomme-all: \
 .PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-delivery Lully/Ballet/LWV43LeBourgeoisGentilhomme-clean Lully/Ballet/LWV43LeBourgeoisGentilhomme-all
 
 ### Atys
-# Conducteur
-Lully/Opera/LWV53Atys:
+# Version urtext
+Lully/Opera/LWV53Atys-urtext:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV53Atys  \
+	-o $(OUTPUT_DIR)/LWV53Atys-urtext -durtext \
 	Lully/Opera/LWV53Atys/main.ly
-.PHONY: Lully/Opera/LWV53Atys
-# rehearsal
+.PHONY: Lully/Opera/LWV53Atys-urtext
+# Version de concert
 Lully/Opera/LWV53Atys-rehearsal:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV53Atys-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/LWV53Atys-rehearsal  \
 	Lully/Opera/LWV53Atys/main.ly
 .PHONY: Lully/Opera/LWV53Atys-rehearsal
-# Premiers dessus de violon, flûte, hautbois
-Lully/Opera/LWV53Atys-dessus1:
+# Dessus de violon, flûte, hautbois
+Lully/Opera/LWV53Atys-dessus:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV53Atys-dessus1 -dpart=dessus1  \
+	-o $(OUTPUT_DIR)/LWV53Atys-dessus -dpart=dessus  \
 	Lully/Opera/LWV53Atys/part.ly
-.PHONY: Lully/Opera/LWV53Atys-dessus1
-# Seconds dessus de violon, flûte, hautbois
-Lully/Opera/LWV53Atys-dessus2:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV53Atys-dessus2 -dpart=dessus2  \
-	Lully/Opera/LWV53Atys/part.ly
-.PHONY: Lully/Opera/LWV53Atys-dessus2
-# Haute-contres de violon, hautbois
+.PHONY: Lully/Opera/LWV53Atys-dessus
+# Hautes-contre de violon, hautbois
 Lully/Opera/LWV53Atys-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-haute-contre -dpart=haute-contre  \
@@ -311,25 +305,17 @@ Lully/Opera/LWV53Atys-basse-continue:
 	-o $(OUTPUT_DIR)/LWV53Atys-basse-continue -dpart=basse-continue  \
 	Lully/Opera/LWV53Atys/part.ly
 .PHONY: Lully/Opera/LWV53Atys-basse-continue
-# Parties vocales
-Lully/Opera/LWV53Atys-voix:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV53Atys-voix -dpart=voix  \
-	Lully/Opera/LWV53Atys/part.ly
-.PHONY: Lully/Opera/LWV53Atys-voix
 
 Lully/Opera/LWV53Atys-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV53Atys
-	@if [ -e $(OUTPUT_DIR)/LWV53Atys.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
+	@if [ -e $(OUTPUT_DIR)/LWV53Atys-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-urtext.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-rehearsal.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
-	@if [ -e $(OUTPUT_DIR)/LWV53Atys-dessus1.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-dessus1.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
-	@if [ -e $(OUTPUT_DIR)/LWV53Atys-dessus2.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-dessus2.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
+	@if [ -e $(OUTPUT_DIR)/LWV53Atys-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-dessus.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-taille.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-quinte.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-quinte.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-basse.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-basse-continue.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
-	@if [ -e $(OUTPUT_DIR)/LWV53Atys-voix.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-voix.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV53Atys/LWV53Atys-midi.tar.gz $(OUTPUT_DIR)/LWV53Atys.midi $(OUTPUT_DIR)/LWV53Atys-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV53Atys.midi ]; then cp $(OUTPUT_DIR)/LWV53Atys.midi $(DELIVERY_DIR)/Lully/LWV53Atys/ ; fi
 	git archive --prefix=LWV53Atys/ HEAD Lully/Opera/LWV53Atys common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV53Atys/LWV53Atys.tar.gz
 
@@ -337,16 +323,14 @@ Lully/Opera/LWV53Atys-clean:
 	@rm -f $(OUTPUT_DIR)/LWV53Atys-* $(OUTPUT_DIR)/LWV53Atys.*
 
 Lully/Opera/LWV53Atys-all: \
-	Lully/Opera/LWV53Atys \
+	Lully/Opera/LWV53Atys-urtext \
 	Lully/Opera/LWV53Atys-rehearsal \
-	Lully/Opera/LWV53Atys-dessus1 \
-	Lully/Opera/LWV53Atys-dessus2 \
+	Lully/Opera/LWV53Atys-dessus \
 	Lully/Opera/LWV53Atys-haute-contre \
 	Lully/Opera/LWV53Atys-taille \
 	Lully/Opera/LWV53Atys-quinte \
 	Lully/Opera/LWV53Atys-basse \
-	Lully/Opera/LWV53Atys-basse-continue \
-	Lully/Opera/LWV53Atys-voix\
+	Lully/Opera/LWV53Atys-basse-continue\
 	Lully/Opera/LWV53Atys-delivery\
 	Lully/Opera/LWV53Atys-clean
 

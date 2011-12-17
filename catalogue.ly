@@ -60,16 +60,14 @@
         #:key "Lully/Opera/LWV53Atys"
         #:opus "LWV-53"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=53"
-        #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
-        #:parts ((dessus1 "Premiers dessus de violon, flûte, hautbois")
-                 (dessus2 "Seconds dessus de violon, flûte, hautbois")
-                 (haute-contre "Haute-contres de violon, hautbois")
+        #:main ((urtext "Version urtext" #:options "-durtext")
+                (rehearsal "Version de concert"))
+        #:parts ((dessus "Dessus de violon, flûte, hautbois")
+                 (haute-contre "Hautes-contre de violon, hautbois")
                  (taille "Tailles de violon, hautbois")
                  (quinte "Quintes de violon")
                  (basse "Basses de violon, bassons")
-                 (basse-continue "Basse continue")
-                 (voix "Parties vocales")))
+                 (basse-continue "Basse continue")))
 
        ("Psyché"
         #:description "Tragédie lyrique, 1678."

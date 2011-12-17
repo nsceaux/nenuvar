@@ -25,7 +25,7 @@ cesureInstr = {
    (append!
     `(("t"
        (script-stencil
-        . (markup . ,(markup #:center-align #:sans #:fontsize -4 #:bold "t")))
+        . (markup . ,(markup #:center-align #:sans #:fontsize -3 #:bold "t")))
        (padding . 0.20)
        (avoid-slur . around)
        (direction . ,UP))

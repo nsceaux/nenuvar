@@ -13,6 +13,7 @@
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
 #(ly:set-option 'apply-vertical-tweaks (and (not (eqv? #t (ly:get-option 'urtext)))
                                             (not (symbol? (ly:get-option 'part)))))
+#(ly:set-option 'print-footnotes (eqv? #t (ly:get-option 'urtext)))
 
 %% use baroque style repeats
 #(ly:set-option 'baroque-repeats #t)
@@ -47,6 +48,7 @@
 
 \include "italiano.ly"
 \include "common/common.ily"
+\include "common/alterations.ily"
 \include "common/toc-columns.ily"
 \include "common/livret-columns.ily"
 \setOpus "Lully/Opera/LWV53Atys"
@@ -55,7 +57,7 @@
 \opusPartSpecs
 #`((dessus "Dessus de violon, flûte, hautbois" ()
            (#:notes "dessus"))
-   (haute-contre "Haute-contres de violon, hautbois" ()
+   (haute-contre "Hautes-contre de violon, hautbois" ()
                  (#:notes "haute-contre" #:clef "treble"))
    (taille "Tailles de violon, hautbois" ()
            (#:notes "taille" #:clef "alto"))
@@ -296,5 +298,26 @@ appendixSubSection =
   \context {
     \Voice
     \override Script #'avoid-slur = #'outside
+    %% no line from footnotes to grobs
+    \override FootnoteItem #'annotation-line = ##f
   }
 }
+
+%%% Figured bass
+#(ly:set-option 'baussen-figures #f)
+
+ballardFigures =
+#(define-music-function (parser location figures) (ly:music?)
+   (if (eqv? (ly:get-option 'baussen-figures) #f)
+       figures
+       (make-music 'Music 'void #t)))
+
+baussenFigures =
+#(define-music-function (parser location figures) (ly:music?)
+   (if (eqv? (ly:get-option 'baussen-figures) #t)
+       figures
+       #{ \new FiguredBass \with {
+            \override BassFigure #'color = #red
+            \override BassFigureContinuation #'color = #red
+          } $figures #}))
+
