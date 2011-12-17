@@ -1,4 +1,4 @@
-\piecePartSpecs #(let ((breaks #{ s2 s1*3 s2 s2 s1*5 s2 s2 s1*19 s2 \break
+\piecePartSpecs #(let ((breaks #{ s2 s1*3 s2 s2 s1*5 s2 s2 s1*19 s2 \break \noPageTurn
                         s2 s1*3 s2 s2 s1*7 s2
                         s2 s1*3 s2 s2 s1*3 s2 s2 s1*7 s2 s2 s1*7 s2 \break #}))
                   `((dessus #:music ,breaks)

@@ -9,6 +9,7 @@
                            #:tag-global autres)
                    (basse #:instrument "B.C."
                           #:tag-global autres)
-                   (basse-continue #:tag-global autres)
+                   (basse-continue #:score-template "score"
+                                   #:tag-global autres)
                    (silence #:score "score-silence"
                             #:tag-global silence))

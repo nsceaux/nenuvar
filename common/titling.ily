@@ -558,7 +558,8 @@ partBlankPageBreak =
 
 partNoPageTurn =
 #(define-music-function (parser location parts) (list?)
-  (if (memq (*part*) parts)
+  (if (or (and (symbol? (*part*)) (null? parts))
+          (memq (*part*) parts))
       (add-no-page-turn parser))
   (make-music 'Music 'void #t))
 

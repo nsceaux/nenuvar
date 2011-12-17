@@ -11,11 +11,11 @@
     si,2 la,8. si,16 dod8 dod, |
     fad,4 r re2 |
     la, r8 fad, si,4 |
-    << \origVersion { mi,2 ~ mi, } \modVersion mi,1 >> |\allowPageTurn
+    << \origVersion { mi,2 ~ mi, } \modVersion mi,1 >> |
     si,2 re |
     << \origVersion { fad2 ~ fad4 } \modVersion fad2. >> |
     sol2 r8 mi la8. re16 |
-    << \origVersion { la,4 ~ la,2. } \modVersion la,1 >> |\allowPageTurn
+    << \origVersion { la,4 ~ la,2. } \modVersion la,1 >> |
     si,2 ~ si,8 la, |
     sol,2 r4 sol |
     re'2 re4 |
@@ -23,11 +23,11 @@
     si mi fad fad, |
     si,2 << \origVersion { mi4 ~ mi } \modVersion mi2 >> |
     la4. re8 mi4 |
-    la,2 r4 |
+    la,2 r4 |\allowPageTurn
     sol,2 fad, |
-    si,1 |\allowPageTurn
+    si,1 |
     si,2 lad,4 |
-    si,1 |\allowPageTurn
+    si,1 |
     mi2 sold, |
     la, si, |
     mi,4 do, do'2 |
@@ -40,15 +40,15 @@
     mi1 |
     la |
     re2 sol8 fa |
-    mi1 |\allowPageTurn
+    mi1 |
     fa2 sol4 |
     do2. dod4 |
     re2 fa4 |
-    mi2 r |\allowPageTurn
+    mi2 r |
     r4 r la,4 |
     sib,2.~ |
     sib,2 sol, |
-    la,1 |
+    la,1 |\allowPageTurn
     r2 dod |
     re1 |
     r2 re |

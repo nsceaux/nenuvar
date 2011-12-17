@@ -46,9 +46,11 @@
 %{ n°9 %}
 \pieceTocTitle "Premier menuet"
 \includeScore "DCEmenuet"
+\partNoPageTurn #'()
 %{ n°10 %}
 \pieceTocTitle "Deuxième menuet"
 \includeScore "DCFmenuet"
+\noPageBreak
 \markup\large { On reprend le premier menuet page \page-refIII #'DCEmenuet . }
 \markup\null
 %{ n°11 %}

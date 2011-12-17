@@ -1,23 +1,23 @@
 \markup \line {
-  \force-line-width-ratio #9/20 \score {
+  \force-line-width-ratio #2/20 \score {
     \new Staff \with { \tinyStaff } <<
-      \keepWithTag #'() \global \includeNotes #(*note-filename*)
       \clef #(*clef*)
-      $(or (*score-extra-music*) (make-music 'Music))
+      { R1*87 }
     >>
     \layout {
       indent = #0
       ragged-last = ##t
-      line-width = 5\cm
+      line-width = 2\cm
       \context {
         \Score
         \remove "Bar_number_engraver"
         \override RehearsalMark #'font-size = #-1
         \override MetronomeMark #'font-size = #-2
       }
+      \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \force-line-width-ratio #9/20 \fontsize #-2 \column {
+  \force-line-width-ratio #8/20 \fontsize #-2 \column {
     \bold Hippolyte
     \line { Reine, sans l'ordre exprès, qui dans ces lieux m'appelle, }
     \line { Quand le ciel vous ravit un époux glorieux, }
@@ -47,14 +47,15 @@
     \sline { Aricie est tout ce que j'aime ; }
     \line { Et si je veux regner, ce n'est que dans sons cœur. }
     \bold Phèdre
-    \line { \italic { (à hippolyte) } Que dites-vous ? O Ciel !
-      \italic { (à part) } Quelle étoit mon erreur ! }
-    \line { \italic { (à hippolyte) } Malgré mon trône offert, vous aimez Aricie ! }
+    \line { Que dites-vous ? O Ciel ! Quelle étoit mon erreur ! }
+    \line { Malgré mon trône offert, vous aimez Aricie ! }
     \bold Hippolyte
     \line { Quoi ! Votre haine encor n'est donc pas adoucie ? }
     \bold Phèdre
     \sline { Tu viens d'en redoubler l'horreur... }
     \sline { Puis-je trop haïr ma rivale ? }
+  }
+  \force-line-width-ratio #8/20 \fontsize #-2 \column {
     \bold Hippolyte
     \sline { Votre rivale ! Je fremis ; }
     \line { Thésée est votre époux, & vous aimez son fils ! }
@@ -80,13 +81,13 @@
     \sline { Tu me hais, autant que je t'aime ; }
     \sline { Mais, pour trancher mes tristes jours, }
     \sline { Je n'ai besoin que de moi-même. }
-    %\fill-line { \null \line\italic { Elle prend l'épée d'Hippolyte. } }
+    \fill-line { \null \line\italic { Elle prend l'épée d'Hippolyte. } }
     \line { Donne... }
     \bold Hippolyte
-    %\fill-line { \null \line\italic { En lui arranchant l'épée. } }
+    \fill-line { \null \line\italic { En lui arranchant l'épée. } }
     \line { \transparent { Donne... } Que faites-vous ? }
     \bold Phèdre
     \line { \transparent { Donne... Que faites-vous ? } Tu m'arraches ce fer, }
-    %\fill-line { \null \line\italic { Thésée paroît. } }
+    \fill-line { \null \line\italic { Thésée paroît. } }
   }
 }

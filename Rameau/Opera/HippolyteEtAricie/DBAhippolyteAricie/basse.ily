@@ -35,7 +35,7 @@ re,2 re4 |
 mi mi,2 |
 la, la4 |
 sold2. |
-fad |
+fad |\allowPageTurn
 si2 si,4 |
 dod sold,2 |
 la,4 si,2 |
@@ -49,7 +49,7 @@ fad |
 mi2 re4 |
 dod fad4.( mi16\trill) re |
 mi4 mi,2 |
-<< \origVersion { la,4 ~ la,2 } \modVersion la,2. >> |
+<< \origVersion { la,4 ~ la,2 } \modVersion la,2. >> |\allowPageTurn
 sold,1 |
 fad,2 mid,4 |
 fad,2 fad'4 |
@@ -58,7 +58,7 @@ si8 mi fad4 fad, |
 si,2 mid,4 |
 fad,4. mi,!8 re,2 |
 dod,2. |
-R2. |\allowPageTurn
+R2. |%\allowPageTurn
 r2 mid |
 fad2. |
 sold1 |

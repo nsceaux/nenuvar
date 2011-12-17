@@ -22,7 +22,7 @@ s4*0_"fort" \ru#16 do32 |
 \ru#16 re, |
 \ru#16 re, |
 \ru#16 re, |
-re,8^\markup { \null \translate #'(-3 . 0) "Basses du costez de la Reine" }
+re,8^\markup { \null \translate #'(-3 . 0) \column { "Basses du costez" "de la Reine" } }
 _\markup { \null \translate #'(-3 . 0) \whiteout "Basses du costez du Roy" } r r4 |
   <<
     {
