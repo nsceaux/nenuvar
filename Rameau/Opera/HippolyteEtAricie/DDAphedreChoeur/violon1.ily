@@ -16,7 +16,7 @@ fa''4. fa''8 sol'' la'' |
 mi''2\trill mi''8 fa'' |
 \appoggiatura mi'' re''2. |
 R2.*3 |
-R1*3 |
+R1*3 |\allowPageTurn
 R2. |
 R1 |\allowPageTurn
 r4^"Violons" r8 re'16_"doux"re' mib'4 r |
