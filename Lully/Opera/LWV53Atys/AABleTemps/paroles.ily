@@ -1,8 +1,8 @@
-En vain j'ai res -- pec -- té la cé -- lè -- bre mé -- moi -- re
-des hé -- ros des siè -- cles pas -- "sés ;"
-c'est en vain que leurs noms si fa -- meux dans l'his -- toi -- re,
-du sort des noms com -- muns ont é -- té dis -- pen -- "sés ;"
-nous voy -- ons un hé -- ros dont la bril -- lan -- te gloi -- re
-les a pres -- que tous ef -- fa -- cés,
-nous voy -- ons un hé -- ros dont la bril -- lan -- te gloi -- re
-les a pres -- que tous ef -- fa -- cés.
+En vain j'ay res -- pec -- té la ce -- le -- bre me -- moi -- re
+des He -- ros des sie -- cles pas -- "sez ;"
+c'est en vain que leurs Noms si fa -- meux dans l'His -- toi -- re,
+du sort des noms com -- muns ont es -- té dis -- pen -- "sez ;"
+nous voy -- ons un He -- ros dont la bril -- lan -- te gloi -- re
+les a pres -- que tous ef -- fa -- cez,
+nous voy -- ons un He -- ros dont la bril -- lan -- te gloi -- re
+les a pres -- que tous ef -- fa -- cez.

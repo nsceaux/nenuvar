@@ -14,6 +14,11 @@
 #(ly:set-option 'apply-vertical-tweaks (and (not (eqv? #t (ly:get-option 'urtext)))
                                             (not (symbol? (ly:get-option 'part)))))
 #(ly:set-option 'print-footnotes (eqv? #t (ly:get-option 'urtext)))
+%% Figured bass:
+%%  urtext => ballard
+%%  concert => baussen
+#(ly:set-option 'baussen-figures (not (eqv? #t (ly:get-option 'urtext))))
+
 
 %% use baroque style repeats
 #(ly:set-option 'baroque-repeats #t)
@@ -304,13 +309,11 @@ appendixSubSection =
 }
 
 %%% Figured bass
-#(ly:set-option 'baussen-figures #f)
-
 ballardFigures =
 #(define-music-function (parser location figures) (ly:music?)
-   (if (eqv? (ly:get-option 'baussen-figures) #f)
-       figures
-       (make-music 'Music 'void #t)))
+   (if (eqv? (ly:get-option 'baussen-figures) #t)
+       (make-music 'Music 'void #t)
+       figures))
 
 baussenFigures =
 #(define-music-function (parser location figures) (ly:music?)
