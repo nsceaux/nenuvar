@@ -44,6 +44,24 @@ sol' fa'4. fa'8 |
 fa'4 fa' sol' |
 fad'2 fad'8 fad' |
 % sol'4 sol'4. sol'8 |
+\myfootnote #'NoteHead #'(0 . 1)
+\markup { Manuscrit : 
+  \raise #3 \score {
+    \new StaffGroupNoBar <<
+      \new Staff \with { instrumentName = "h-c. ch." } {
+        \tinyQuote 
+        \set autoBeaming = ##f
+        \key re \minor \clef "alto" \time 3/4
+        sol'4 sol'4. sol'8 | sol'2( fad'4) | sol'2. | \bar "|."
+      } \addlyrics { gloi -- re nou -- vel -- le. }
+      \new Staff \with { instrumentName = "t. ch." } {
+        \key re \minor \clef "tenor" \time 3/4
+        sol4 sol mib' | re'2( do'4) | sid2. |
+      } \addlyrics { gloi -- re nou -- vel -- le. }
+    >>
+    \layout { \quoteLayout indent = 7\mm }
+  }
+}
 sol'4 sol' sol' |
 sol'2( fad'4) |
 sol'2. |

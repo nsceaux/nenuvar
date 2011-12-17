@@ -4,6 +4,16 @@ re'2. |
 sol4 sol8 la si sol |
 do'2. |
 % Manuscrit : fa4 fa4. fa8 |
+\myfootnote #'NoteHead #'(0 . 1)
+\markup { Manuscrit : 
+  \raise #2.5 \score {
+    { \tinyQuote \key re \minor \clef "bass" \time 3/4
+      fa4 fa4. fa8 | fa2. }
+    \layout { \quoteLayout indent = 5\mm }
+  }
+  \hspace #6 Les notes à l'octave supérieures sont également
+  présentes sur le manuscrit, et raturées.
+}
 fa'4 fa'4. fa'8 |
 % Manuscrit : fa2. |
 fa'2. |

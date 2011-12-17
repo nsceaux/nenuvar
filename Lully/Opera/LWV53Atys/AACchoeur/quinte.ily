@@ -21,9 +21,9 @@ sib2. |
 re'4. re'8 re'8. mi'16 |
 dod'4 dod' re' |
 re'2 dod'4 |
-re' r2 |
+re' r4 r |
 r4 re' re' |
-do' r2 |
+do' r4 r |
 r4 do'4. do'8 |
 sib2 sib4 |
 do'2 re'4 |
@@ -32,9 +32,9 @@ sib re'4. re'8 |
 re'2 re'8 re' |
 re'4 sib4. sib8 |
 fa2. |
-fa4 r2 |
+fa4 r4 r |
 r4 fa'4. fa'8 |
-mib'4 r2 |
+mib'4 r4 r |
 r4 re'4. re'8 |
 re'2 re'4 |
 re'2 re'4 |
