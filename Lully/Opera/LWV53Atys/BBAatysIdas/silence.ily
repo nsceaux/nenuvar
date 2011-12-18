@@ -1,4 +1,2 @@
-R1*12\noBreak R2.*25\noBreak R1*17\noBreak R1*2\noBreak
-R2.*30\noBreak R2.*6\noBreak R2.\noBreak R2.\noBreak R2.*7\noBreak
-R2.\noBreak R1 R1*2\noBreak R1*15\noBreak R1*13\noBreak
-R1*29\noBreak R1.\noBreak R1*4
+R1*12 R2.*25 R1*17 R1*2 R2.*59 R1 R1*2 R1*15
+R1*13 R1*29 R1. R1*4

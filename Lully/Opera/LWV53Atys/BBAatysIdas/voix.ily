@@ -18,7 +18,7 @@
     re'4 do'\trill sib8[ la] |
     sib2 do'8 re' |
     mib'2 re'8 mib' |
-    re'4.\trill re'8 mib'4 |
+    re'4.\tr re'8 mib'4 |
     fa' sib4( la8) sib |
     la4.\trill do'8 re'4 |
     mib' fa' re' | % mib'8[ re'] |
@@ -72,7 +72,7 @@
     mib'4 do' la~ |
     la8 sib sib4( la)\trill |
     << \tag #'atys sol2 \tag #'basse { sol4 s } >>
-    << { s4 s2.*16 s1*18 s4 } \tag #'atys { r4 | R2.*16 | R1*18 | r4 } >>
+    << { s4 s2.*29 s1*18 s4 } \tag #'atys { r4 | R2.*29 | R1*18 | r4 } >>
     \tag #'basse \atysMark sib8.-\tag #'atys ^\markup\character Atys re'16 sib4\trill sib8 sib |
     sol4.\trill mib'8 do'4\trill do'8 re'16 mib' |
     re'4\trill re' r re' |
@@ -114,7 +114,7 @@
     \tag #'basse \idasMark sol4-\tag #'idas ^\markup\character Idas sol |
     re1 |
     mib4. mib8 re4. mib8 |
-    do1\trill |
+    do1\tr |
     sib, |
     sib4. sib8 %{ sib4. la8 %} sib4 la |
     sol2\trill sol4 do' |
@@ -138,8 +138,14 @@
     la2\trill sib8[ la] |
     sib4 sib( la\trill) |
     sib4 re sol |
+    fad2\trill fad4 |
+    sol la sib |
+    la2\trill re'4 |
+    sib sol do' |
+    la2\trill sib8[ la] |
+    sib4 sib( la\trill) |
     sib4 re mi |
-    fa re sol |
+    fa4 re sol |
     fad2\trill sol4 |
     la2. |
     la4. sib8 do'4 |
@@ -147,7 +153,14 @@
     sol4 la sib |
     sib( la2)\trill |
     sol4 re mi |
-    sol r8 sib8 %{ sol\trill sol %} sol8.\trill sol16 re8. mi16 |
+    fa4 re sol |
+    fad2\trill sol4 |
+    la2. |
+    la4. sib8 do'4 |
+    fad2.\trill |
+    sol4 la sib |
+    sib( la2)\trill |
+    sol4 r8 sib8 %{ sol\trill sol %} sol8.\trill sol16 re8. mi16 |
     fa4. fa8 fa4 mib8 mib16 re |
     re4\trill r16 sib do' re' sol8. sol16 la8. sib16 |
     fad2\trill r |

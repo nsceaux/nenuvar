@@ -51,7 +51,7 @@ sib4 sib2 la8 sol |
 fad2\trill sol4 re |
 mib2 mib4 do |
 %{ re1 %} re2 re, |
-sol,1 |%%%
+<< \origVersion { sol,4~ sol,2. } \modVersion sol,1 >> |%%%
 mib |
 re2 mi4 |
 fad2.\trill |
@@ -90,6 +90,12 @@ sol2 mi4 |
 fa2 re4 |
 mib fa fa, |
 sib,4. la,8 sib, sol, |
+re2 do4 |
+sib, la,\trill sol, |
+%{ re4. mi8 %} re4 mi fad4 |
+sol2 mi4 |
+fa2 re4 |
+mib fa fa, |
 %{ sib,4 sib,2 %} sib,2. |
 la,4 sib, sol, |
 re2 sol,4 |
@@ -99,6 +105,13 @@ re la, re |
 sib, la,\trill sol, |
 re re,2 |
 sol,8 la, sib,2 |
+la,4 sib, sol, |
+re2 sol,4 |
+re, re mi |
+fa2 mib4 |
+re la, re |
+sib, la,\trill sol, |
+re re,2 |
 sol,1 |
 re2 la, |
 sib, mib |

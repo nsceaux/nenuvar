@@ -16,6 +16,6 @@ sol''4 sol''2 fad''8 sol'' |
 la''4. la''8 re''4 re''8 do'' |
 sib'4 sib' sib' do'' |
 la' sib' la'4.\trill sol'8 |
-sol'2 r |
-R1 R2.*30 R2.*6 R2. R2.
-R2.*7 R2. R1 R1*2 R1*15 R1*13 R1*29 R1. R1*4 |
+sol'4 r r2 |
+R1 R2.*30 R2.*6 R2. R2.*6 R2.
+R2.*7 R2. R2.*7 R1 R1*2 R1*15 R1*13 R1*29 R1. R1*4 |
