@@ -27,5 +27,13 @@ sol' sol' sol' |
 re' sol'2 |
 sol'4. sol'8 la'4 |
 % re'4 re'4. do'8 |
+\myfootnote #'NoteHead #'(0 . 3)
+\markup { Manuscrit : 
+  \raise #3 \score {
+    { \tinyQuote \key re \minor \clef "mezzosoprano" \time 3/4
+      re'4 re'4. do'8 | sid2. | \bar "|." }
+    \layout { \quoteLayout }
+  }
+}
 re'4 re'4. re'8 |
 si2. |

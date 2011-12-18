@@ -18,7 +18,7 @@ sol'2. |
 re''4 sol''4. fa''8 |
 mi''4.\trill fa''8 sol''4 |
 do'' fa''4. sol''8 |
-sol''2\trill fa''4 |
+sol''2\tr fa''4 |
 re''4. re''8 mi''4 |
 % dod'' mi'' fa''8 sol'' |
 dod'' mi'' fa''8. sol''16 |
