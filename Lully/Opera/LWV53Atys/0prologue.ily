@@ -25,6 +25,7 @@
   \line \italic { On reprend la gavotte précédente, page \page-refIII #'AAGair . }
 }
 \markup\null
+\origVersion\pageBreak
 %{ n°9 %}
 \pieceTocTitle "Prélude pour Melpomène" \includeScore "AAIair"
 %{ n°10 %}

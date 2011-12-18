@@ -14,5 +14,16 @@ do4. re8 mi fad |
 sol4 la si |
 fad2\trill sol4 |
 do re re, |
+\myfootnote #'NoteHead #'(0 . 4)
+\markup { Manuscrit : 
+  \raise #3.5 \score {
+    \new Staff {
+      \tinyQuote
+      \key sol \major \clef "bass" \time 3/4
+      sol,4 sol re'8 do'
+    }
+    \layout { \quoteLayout }
+  }
+}
 sol,4 re re'8 do' | % sol, sol re'8 do' |
 sol,2.
