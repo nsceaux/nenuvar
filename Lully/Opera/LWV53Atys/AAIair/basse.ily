@@ -1,4 +1,17 @@
 \clef "basse" % do1~ |
+\myfootnote #'NoteHead #'(0 . 4)
+\markup { Manuscrit : 
+  \raise #3.5 \score {
+    \new Staff {
+      \tinyQuote
+      \key do \major \clef "basse" \time 2/2
+        do1~ | do4. do'8 si4. do'8 |
+    }
+    \layout { \quoteLayout }
+  }
+  Un do ronde est indiqué à la basse continue avant le
+  début du prélude.
+}
 do4. do'8 si4 do' | % si4. do'8
 la4. sol8 fad2 |
 sol sol, |
