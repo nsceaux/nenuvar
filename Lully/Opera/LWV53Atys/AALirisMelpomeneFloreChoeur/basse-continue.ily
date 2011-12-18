@@ -7,7 +7,7 @@ dod4\trill re la,2 |
 la4 la, do la, |
 mi4. mi8 re4.\trill do8 %{ re4 do %} |
 si,4 do re re, |
-sol,1~ |
+<< \origVersion { sol,2~ sol,~ } \modVersion { sol,1~ } >> |
 sol,4 sol mi fad\trill |
 sol2 mi |
 fad4 sol sol, |
@@ -48,7 +48,7 @@ re' %{ re2 %} re4. re8 |
 mi2 fad\trill |
 sol2. sol4 |
 la2 la, |
-re2. re4 |
+<< \origVersion { re2~ re4 } \modVersion re2. >> re4 |
 %{ sol2 sol4 %} sol2. sol4 |
 do2 re\trill |
 %{ mi2 mi4 %} mi2. mi4 |

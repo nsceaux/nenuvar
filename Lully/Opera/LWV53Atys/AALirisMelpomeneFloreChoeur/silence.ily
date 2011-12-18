@@ -1,2 +1,1 @@
-R1*11\noBreak R2.*4\noBreak R1\noBreak R2.*27\noBreak R1*13\noBreak
-R2.*62
+R1*11 R2.*4 R1 R2.*27 R1*13 R2.*62

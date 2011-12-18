@@ -22,7 +22,7 @@ la,2 la,4 |
 re re4. re8 |
 sol2. |
 R2. |
-r2 sol4 |
+r4 r sol4 |
 do'4. do'8 do' do' |
 la4 la la |
 si4. la8 si4 |
@@ -30,7 +30,7 @@ mi2 mi4 |
 la4 la4. la8 |
 re2. |
 R2.*3 |
-r2 re4 |
+r4 r re4 |
 sol4. la8 si sol |
 do'4 do' do' |
 re'4. re'8 re4 |
@@ -38,7 +38,7 @@ sol2 sol4 |
 mi mi4. mi8 |
 la2. |
 R2. |
-r2 la4 |
+r4 r la4 |
 fa4. fa8 fa fa |
 sib4 sib sol |
 la4. la8 la,4 | % la4. sol8 la4
@@ -54,7 +54,7 @@ do2 do4 |
 sol sol4. sol8 |
 re2. |
 R2.*3 |
-r2 re4 |
+r4 r re4 |
 sol4. fa8 mi re |
 do4 do la, |
 mi mi do |

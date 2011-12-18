@@ -11,7 +11,7 @@
     %{re''4.%} re''4 r8 la'8 la'8. si'16 |
     sol'4.\trill sol'8 sol'4( fad'8) sol' |
     fad'2\trill fad'4 |
-    r2 re''8. do''16 |
+    r4 r re''8. do''16 |
     si'4\trill si'4. do''8 |
     la'2.\trill |
     re''4 re''8 do'' si'8. la'16 %{ si'8 la' %} |
@@ -35,8 +35,31 @@
   %% Flore
   \tag #'(flore basse) {
     << { s1*11 s2.*4 s1 s2.*14 s2 }
-      \tag #'flore { \clef "vbas-dessus" R1*11 | R2.*4 | R1 | R2.*14 | r2 } >>
-    \tag #'basse \floreMark re''8.-\tag #'flore ^\markup\character "Flore" re''16 |\noBreak
+      \tag #'flore { \clef "vbas-dessus" R1*11 | R2.*4 | R1 | R2.*14 | r4 r } >>
+    \tag #'basse \floreMark
+    re''8.-\tag #'flore ^\markup\character "Flore"
+    \myfootnote #'NoteHead #'(-0.1 . 1)
+    \markup {
+      Manuscrit : \hspace #2
+      \raise #6 \score {
+        \new ChoirStaff <<
+          \new Staff {
+            \tinyQuote \time 3/4 \partial 4
+            \key sol \major \clef "soprano"
+            \set autoBeaming = ##f
+            re''8.^\markup\character "Melpomène" re''16 |
+            mi''4 mi''4. mi''8 | do''2.*1/3
+          } \addlyrics { Ren -- dons- nous, s'il se peut, }
+          \new Staff {
+            \key sol \major \clef "soprano"
+            \set autoBeaming = ##f
+            si'8.^\markup\character "Flore" si'16 |
+            do''4 do''4. do''8 | la'2.*1/3
+          } \addlyrics { Ren -- dons- nous, s'il se peut, }
+        >>
+        \layout { \quoteLayout }
+      }
+    } re''16 |\noBreak
     mi''4 mi''4. mi''8 |
     do''2. |
     fa''4 fa''8 mi'' re''8. do''16 %{ re'' do'' %} |
@@ -52,7 +75,7 @@
     sol'2
     << \tag #'basse { s2 s1*6 s4 \floreMark r }
       \tag #'flore { r2 | R1*6 | r2 } >>
-    re''4.-\tag #'flore ^\markup\character "Flore" re''8 |\noBreak
+    re''4.-\tag #'flore ^\markup\character "[Flore]" re''8 |\noBreak
     mi''4 mi''8 mi'' re''4.\trill do''8 |
     si'4\trill si' si'4. si'8 |
     mi''2 mi''4. mi''8 |
@@ -88,7 +111,7 @@
   %% Melpomène
   \tag #'(melpomene) {
     \clef "vbas-dessus" R1*11 | R2.*4 | R1 | R2.*14 |
-    r2 si'8.^\markup\character "Melpomène" si'16 |
+    r4 r si'8.^\markup\character "Melpomène" si'16 |
     do''4 do''4. do''8 |
     la'2.\trill |
     re''4 re''8 do'' si'8. la'16 %{ si'8 la' %} |
@@ -103,7 +126,7 @@
     sol'( fad'4.)\trill sol'8 |
     sol'2 r2 |
     R1*6 |
-    r2 si'4.^\markup\character "Melpomène" si'8 |
+    r2 si'4.^\markup\character "[Melpomène]" si'8 |
     do''4 do''8 do'' si'4.\trill la'8 |
     sol'4 sol' sol'4. sol'8 |
     do''2 %{ do''4 do'' %} do''4. do''8 |
@@ -140,7 +163,7 @@
   \tag #'(temps basse) {
     << { s1*11 s2.*4 s1 s2.*27 s1*6 s2 }
       \tag #'temps { \clef "vbasse-taille" R1*11
-        R2.*4 R1 R2.*27 R1*6 | r2^\markup\character "Le Temps" } >>
+        R2.*4 R1 R2.*27 R1*6 | r2^\markup\character "[Le Temps]" } >>
     \tag #'basse \tempsMark re4. re8 |
     sol4
     \tag #'temps {
@@ -182,7 +205,9 @@
   \tag #'(choeur basse) {
     << { s1*11 s2.*4 s1 s2.*27 s2 }
       \tag #'choeur { \clef "vbas-dessus" R1*11 | R2.*4 | R1 | R2.*27 | r2 } >>
-    \tag #'basse \choeurMark re''4.-\tag #'choeur ^\markup\character "Chœur des Heures" re''8 |\tag #'choeur \noBreak
+    \tag #'basse \choeurMark re''4.
+    -\tag #'choeur ^\markup\character "[Chœur des Heures]" re''8 |
+    \tag #'choeur \noBreak
     mi''4 mi''8 mi'' do''4. do''8 |
     la'4\trill la' re''4. re''8 |
     re''2 do''4( si'8) do'' |
@@ -200,7 +225,7 @@
     dod''2\trill dod''4 |
     re''4 re''4. re''8 |
     si'2.\trill |
-    << { s2. s2 } \tag #'choeur { R2. | r2 } >>
+    << { s2. s2 } \tag #'choeur { R2. | r4 r } >>
     \tag #'basse \choeurMark re''4 |
     mi''4. mi''8 mi'' mi'' |
     mi''4 mi'' mi'' | % mi''4 mi''4. mi''8
@@ -208,7 +233,7 @@
     mi''2 mi''4 |
     dod''4 dod''4. dod''8 |
     re''2. |
-    << { s2.*3 s2 } \tag #'choeur { R2.*3 | r2 } >>
+    << { s2.*3 s2 } \tag #'choeur { R2.*3 | r4 r } >>
     \tag #'basse \choeurMark la'4 |
     si'4.\trill do''8 re'' si' |
     mi''4 do''4.\trill si'8 |
@@ -216,7 +241,7 @@
     si'2\trill si'4 |
     si' si'4. mi''8 |
     dod''2.\trill |
-    << { s2. s2 } \tag #'choeur { R2. | r2 } >>
+    << { s2. s2 } \tag #'choeur { R2. | r4 r } >>
     \tag #'basse \choeurMark mi''4 |
     fa''4. fa''8 fa'' fa'' |
     re''4 re'' re'' |
@@ -232,7 +257,7 @@
     do''2 do''4 |
     si'4 si'4. si'8 |
     la'2.\trill |
-    << { s2.*3 s2 } \tag #'choeur { R2.*3 | r2  } >>
+    << { s2.*3 s2 } \tag #'choeur { R2.*3 | r4 r } >>
     \tag #'basse \choeurMark la'4 |
     si'4.\trill si'8 do'' re'' |
     mi''4 do''4. re''8 |
