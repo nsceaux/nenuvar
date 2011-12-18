@@ -324,3 +324,21 @@ baussenFigures =
             \override BassFigureContinuation #'color = #red
           } $figures #}))
 
+
+%%% In urtext version, do not display "+" ornementations,
+%%% only the "t"
+
+\layout {
+  \context {
+    \Score
+    scriptDefinitions =
+    #(if (eqv? #t (ly:get-option 'urtext))
+         (cons `("stopped"
+                 (script-stencil . (markup . ,(markup #:null)))
+                 (padding . 0.20)
+                 (avoid-slur . around)
+                 (direction . ,UP))
+               baroque-script-alist)
+         baroque-script-alist)
+  }
+}

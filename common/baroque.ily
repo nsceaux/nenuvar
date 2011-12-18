@@ -21,7 +21,7 @@ cesureInstr = {
 }
 
 %% New baroque scripts (Charpentier, Rameau...)
-#(define baroque-script-alist
+#(define-public baroque-script-alist
    (append!
     `(("t"
        (script-stencil
