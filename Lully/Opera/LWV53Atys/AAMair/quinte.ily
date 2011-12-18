@@ -16,6 +16,16 @@ sol2 sol4 |
 sol2 la4 |
 si8 do' re'4. re'8 |
 re'2. |
+\myfootnote #'NoteHead #'(0 . 3.5)
+\markup {
+  Manuscrit :
+  \raise #3 \score {
+    { \tinyQuote \key sol \major \clef "alto" \time 3/4
+      do'4 do' mi' | la4 re'2 | sol2 sol4 | sol2 la4 |
+    }
+    \layout { \quoteLayout }
+  }
+}
 sol4 sol sol | % do'4 do' mi'
 re'4 re'2 | % la4 re'2
 re'2 re'4 | % sol2 sol4
