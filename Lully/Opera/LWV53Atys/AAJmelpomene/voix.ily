@@ -1,5 +1,16 @@
 \melpomeneMark r4 r16 sol' sol' sol' do''4 r8 mi' | % do''4. mi'8
 fa'4 r16 fa' sol' la' sib'8. do''16 |
+\myfootnote #'NoteHead #'(0 . 1.5)
+\markup { Manuscrit : 
+  \raise #3 \score {
+    \new Staff {
+      \tinyQuote \set autoBeaming = ##f
+      \key do \major \clef "soprano" \time 3/4
+      la'4. la'8 la'16 la' la' do'' | fa'8.
+    } \addlyrics { Temps, ne me dé -- ro -- bez point }
+    \layout { \quoteLayout }
+  }
+}
 la'4\trill r16 la' la' la' la'8 do'' |% la'4. la'8\trill la'16 la' la' do'' |
 fa'8. fa'16 fa'8. fa'16 fa'8[ mi'16] fa' |
 mi'4\trill r8 la'16 la' mi''4 mi''8 si' |
