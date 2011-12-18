@@ -1,5 +1,5 @@
 \simultaneous {
-  \baussenFigures {
+  \baussenFiguresAlt {
     % 4
     <_+>4 <_>4. <6 4>8 <_+>2. \origVersion <_+>2. \modVersion <_!>2. <_> <_>2 <_>8 <6 4>
     % 5

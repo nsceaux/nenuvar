@@ -1,5 +1,5 @@
 \simultaneous {
-  \baussenFigures {
+  \baussenFiguresAlt {
     % 3
     <_>1 <_>2 <6 4>4. <6>8
     <6>2 <6 5>4 <4>8 <3> <_>2 <_>8 <6+>

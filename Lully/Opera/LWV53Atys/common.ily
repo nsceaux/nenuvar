@@ -14,11 +14,6 @@
 #(ly:set-option 'apply-vertical-tweaks (and (not (eqv? #t (ly:get-option 'urtext)))
                                             (not (symbol? (ly:get-option 'part)))))
 #(ly:set-option 'print-footnotes (eqv? #t (ly:get-option 'urtext)))
-%% Figured bass:
-%%  urtext => ballard
-%%  concert => baussen
-#(ly:set-option 'baussen-figures (not (eqv? #t (ly:get-option 'urtext))))
-
 
 %% use baroque style repeats
 #(ly:set-option 'baroque-repeats #t)
@@ -309,21 +304,28 @@ appendixSubSection =
 }
 
 %%% Figured bass
+
+%% Always use Ballard: \ballarFigures.  When there is no figured bass
+%% in Ballard, use Baussen, with \baussenFigures.  \baussenFigureAlt
+%% is to be used when there is a figured bass in Ballard, and an
+%% alternative one in Baussen.
+
 ballardFigures =
 #(define-music-function (parser location figures) (ly:music?)
-   (if (eqv? (ly:get-option 'baussen-figures) #t)
-       (make-music 'Music 'void #t)
-       figures))
+   figures)
 
 baussenFigures =
 #(define-music-function (parser location figures) (ly:music?)
-   (if (eqv? (ly:get-option 'baussen-figures) #t)
-       figures
+   figures)
+
+baussenFiguresAlt =
+#(define-music-function (parser location figures) (ly:music?)
+   (if (eqv? (ly:get-option 'urtext) #t)
        #{ \new FiguredBass \with {
             \override BassFigure #'color = #red
             \override BassFigureContinuation #'color = #red
-          } $figures #}))
-
+          } $figures #}
+       (make-music 'Music 'void #t)))
 
 %%% In urtext version, do not display "+" ornementations,
 %%% only the "t"

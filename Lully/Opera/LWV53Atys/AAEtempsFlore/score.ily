@@ -1,9 +1,9 @@
 \score {
   \new StaffGroupNoBar <<
-    \newHaraKiriStaffB \withLyrics <<
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
       \global \keepWithTag #'flore \includeNotes "voix"
     >> \keepWithTag #'flore \includeLyrics "paroles"
-    \newHaraKiriStaff \withLyrics <<
+    \new Staff \with { \haraKiri } \withLyrics <<
       \global \keepWithTag #'temps \includeNotes "voix"
     >> \keepWithTag #'temps \includeLyrics "paroles"
     \new Staff <<
@@ -11,6 +11,8 @@
       \includeFigures "chiffres"
     >>
   >>
-  \layout { }
+  \layout {
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }

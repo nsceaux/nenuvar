@@ -5,7 +5,17 @@
     sol4 sol8. re16 mib4. mib8 |
     %{ re8. re16 %} re8\trill re re8 mib fa4. fa8 |
     sol8. sol16 sol8. la16 sib8. do'16 |
-    la8\trill la r8 do' do'8. do'16 sib8. la16 |% r8 do' do'4 do'8 sib16 la |
+    la8\trill la r8 \myfootnote #'NoteHead #'(0 . 1)
+    \markup { Manuscrit : 
+      \raise #2.5 \score {
+        \new Staff {
+          \tinyQuote \set autoBeaming = ##f
+          \key re \minor \clef "varbaritone" \time 4/4 \partial 2.
+          r8 do' do'4 do'8 sib16 la | sib8 sib
+        } \addlyrics { Quel dieu les fait re -- naî -- tre }
+        \layout { \quoteLayout }
+      }
+    } do' do'8. do'16 sib8. la16 |% r8 do' do'4 do'8 sib16 la |
     sib8 sib sol sol16 la dod8.\trill dod16 dod8. re16 |
     re4 r r8 re' re' fad |
     sol4 sol8. sol16 mi4\trill mi |
@@ -34,6 +44,25 @@
     fad' sol'8 la' sib'4( la')\trill |
     sol'1 |
     % r2 sib'4. re''8 | sib'2\trill sib'4. sib'8 | sol'2.\trill sol'4 |
+   \myfootnote #'Rest #'(0 . 2.5)
+    \markup {
+      À partir de la mesure 26, le manuscrit comporte
+      une mesure de plus que Ballard : 
+      \raise #3 \score {
+        \new StaffGroupNoBar <<
+          \new Staff {
+            \tinyQuote \set autoBeaming = ##f
+            \key re \minor \clef "soprano" \time 2/2
+            r2 sib'4. re''8 | sib'2 sib'4. sib'8 | sol'2. sol'4 | do''2
+          } \addlyrics { Pour luy fai -- re ma cour mes soins }
+          \new Staff {
+            \key re \minor \clef "bass"
+            sol,1~ | sol, | mib | mid!1*1/2
+          }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     r2 r4 sib'8 re'' | sib'4 sib'8 sib' sol'4. sol'8 |
     do''2 sol'4 la'8 sib' |
     la'2\trill r4 fa'8 fa' |
