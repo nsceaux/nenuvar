@@ -1,5 +1,5 @@
 \clef "vbas-dessus" R2.*40 |
-r4 re''4.^\markup\character "Chœur des Heures" mib''8 |
+r4 re''4.^\markup\character "[Chœur des Heures]" mib''8 |
 fa''4 fa'' mib'' |
 re''2\trill r4 |
 r re''4. mi''8 |
@@ -26,7 +26,7 @@ mib''[ fa'' mib'' re'' do'' sib'] |
 la'4\trill\melismaEnd la' sib' |
 sib'4( la'2)\trill |
 sol'4 re''4. re''8 |
-mib''4 do''4.\trill sib'8 |
+mib''4 do''4.\tr sib'8 |
 la'2\trill r4 |
 r sib'4. sib'8 |
 do''8[\melisma sib' do'' re'' mib'' do''] |

@@ -4,4 +4,4 @@
                    (quinte)
                    (basse)
                    (basse-continue #:notes "basse-continue")
-                   (voix #:score "score-voix"))
+                   (silence #:score "score-silence"))

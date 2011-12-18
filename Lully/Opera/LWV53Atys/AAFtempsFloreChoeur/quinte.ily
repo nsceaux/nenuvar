@@ -32,6 +32,17 @@ r re'4. re'8 |
 do'4 do'4. do'8 |
 sib4 fa'8 mib' re' fa' |
 mib'4 mib'4. mib'8 |
+\myfootnote #'NoteHead #'(0 . 2)
+\markup { Manuscrit : 
+  \raise #3 \score {
+    \new Staff {
+      \tinyQuote
+      \key re \minor \clef "alto" \time 3/4
+      re'4 re'8 do' sib sol | re'2. |
+    }
+    \layout { \quoteLayout indent = 7\mm }
+  }
+}
 re'4 re'8 do' sib4 | % re'4 re'8 do' sib sol |
 re'2. |
 re' |

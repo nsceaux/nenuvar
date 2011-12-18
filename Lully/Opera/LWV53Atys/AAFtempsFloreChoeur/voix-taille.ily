@@ -33,5 +33,22 @@ do'4 do'4. fa'8 |
 fa'4 re' re'8. fa'16 | % fa'8. fa'16 |
 mib'4 mib'4. mib'8 |
 re'4 re' re' |
+\myfootnote #'NoteHead #'(0 . 1.5)
+\markup { Manuscrit : 
+  \raise #3.5 \score {
+    \new StaffGroupNoBar <<
+      \new Staff \with { instrumentName = "t. ch." } {
+        \set autoBeaming = ##f
+        \key re \minor \clef "tenor" \time 3/4
+        re'2( la4) | sid2. \bar "|."
+      } \addlyrics { "- pel" -- le. }
+      \new Staff \with { instrumentName = "t." } {
+        \key re \minor \clef "mezzosoprano" \time 3/4
+        re'2 do'4 | si2. \bar "|."
+      }
+    >>
+    \layout { \quoteLayout indent = 7\mm }
+  }
+}
 re'2. | % re'2( la4) |
 si2. |

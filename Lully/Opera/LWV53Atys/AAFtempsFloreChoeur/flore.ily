@@ -1,5 +1,5 @@
 \floreMark r4 sib' do'' |
-re'' do''\trill sib'8[ la'] |
+re'' do''\tr sib'8[ la'] |
 sib'4. sib'8 sib'4 | % sib'4 sib' sib' |
 la'4 sol'(\trill fa'8) sol' | % la' sol'8[\trill fa'] sol'4 |
 fad'2 r8 re'' |
@@ -38,5 +38,5 @@ re''[ do'' re'' mib'' fa'' re''] |
 mib''[ fa'' mib'' re'' do'' sib'] |
 la'4\trill\melismaEnd la' sib' |
 sib'( la'2)\trill |
-sol'2. |
+sol'4 r r |
 R2.*35 |

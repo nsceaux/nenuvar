@@ -38,5 +38,5 @@ sib[ la sib do' re' sib] |
 do'[ sib do' re' mib' do'] |
 re'4\melismaEnd re' sol |
 re2. |
-sol2. |
+sol4 r r |
 R2.*35 |

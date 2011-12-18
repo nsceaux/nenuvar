@@ -1,37 +1,88 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroup <<
-      \newHaraKiriStaffB << \global \includeNotes "dessus" >>
-      \newHaraKiriStaffB << \global \includeNotes "haute-contre" >>
-      \newHaraKiriStaffB << \global \includeNotes "taille" >>
-      \newHaraKiriStaffB << \global \includeNotes "quinte" >>
-      \newHaraKiriStaffB << \global \includeNotes "basse" >>
-    >>
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles1"
-      \newHaraKiriStaffB \withLyrics <<
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyrics <<
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-taille"
-      >> \includeLyrics "paroles3"
-      \newHaraKiriStaffB \withLyrics <<
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-basse"
-      >> \includeLyrics "paroles4"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      \new Staff \with { \haraKiri } \withLyrics <<
+        \global \includeNotes "flore"
+      >> \keepWithTag #'flore \includeLyrics "paroles"
+      \new Staff \with { \haraKiri } \withLyrics <<
+        \global \includeNotes "temps"
+      >> \keepWithTag #'temps \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "haute-contre"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "taille"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "quinte"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "basse"
+      >>
+      \new Staff <<
+        \global \clef "basse" \includeNotes "basse-continue"
+        \includeFigures "chiffres"
+      >>
     >>
-    \newHaraKiriStaff \withLyrics <<
-      \global \includeNotes "flore"
-    >> \includeLyrics "paroles"
-    \newHaraKiriStaff \withLyrics <<
-      \global \includeNotes "temps"
-    >> \includeLyrics "paroles"
-    \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
-      \includeFigures "chiffres"
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroup <<
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "haute-contre"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "taille"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "quinte"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "basse"
+        >>
+      >>
+      \new ChoirStaff <<
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-dessus"
+        >> \keepWithTag #'vdessus \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-haute-contre"
+        >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-taille"
+        >> \keepWithTag #'vtaille \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-basse"
+        >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      >>
+      \new Staff \with { \haraKiri } \withLyrics <<
+        \global \includeNotes "flore"
+      >> \keepWithTag #'flore \includeLyrics "paroles"
+      \new Staff \with { \haraKiri } \withLyrics <<
+        \global \includeNotes "temps"
+      >> \keepWithTag #'temps \includeLyrics "paroles"
+      \new Staff <<
+        \global \clef "basse" \includeNotes "basse-continue"
+        \includeFigures "chiffres"
+      >>
     >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }
