@@ -66,6 +66,29 @@
     re'2. |
     fa'4 fa' re' |
     mib'2. |
+    \myfootnote #'NoteHead #'(0 . 2)
+    \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key re \minor \clef "alto"
+            re'4 sol'8[ fad'] sol'4 | fad'2. |
+          } \addlyrics { ne sont pas grands, }
+        >>
+        \layout { \quoteLayout }
+      }
+      Ballard : \raise #3 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key re \minor \clef "alto"
+            re'4 sol'8[ fa'] sol'4 | fad'2. |
+          } \addlyrics { ne sont pas grands, }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     re'4 sol'8[ fad'?] sol'4 |
     fad'2. |
     re'4 sol'4. re'8 |
@@ -82,6 +105,19 @@
     \tag #'basse \atysMark r4 r8-\tag #'atys ^\markup\character Atys re' |
     sib4. mib'8 mib'4. mib'8 |
     do'2.\trill fa'4 |
+    \myfootnote #'NoteHead #'(0 . 1)
+    \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 2/2 \set autoBeaming = ##f
+            \key re \minor \clef "alto"
+            fa'2 fa'4 mib'8 re' | mib'2 mib'4. do'8 | sol4.
+          } \addlyrics { cœur n'est que trop ten -- dre, l'a -- mour }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     %{ fa'2 fa'4 mib'8 re' %} fa'4. fa'8 mib'4. re'8 |
     mib'2 %{ mib'4. do'8 %} mib'4 r8 do' |
     sol4.\trill sol8 sol4 la |
@@ -121,6 +157,20 @@
     fa4. fa8 fa4. fa8 |
     sol4 sol2 la8 sib |
     la4 la fa4. fa8 |
+    \myfootnote #'NoteHead #'(0 . 4)
+    \markup {
+      Manuscrit :
+      \raise #3 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 2/2 \set autoBeaming = ##f
+            \key re \minor \clef "bass"
+            dod4 dod re8[ dod] re4 | la,1 |
+          } \addlyrics { "- mour" qui vous é -- "veil -" }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     %{ dod4 dod re8[ dod] re4 %} dod4.\trill dod8 re4. re8 |
     la,1 |
     re4. re'8 re'4. do'8 |
@@ -186,6 +236,19 @@
     fa4 mi\trill fa fa |
     r do'8 do' do'4 re'8 la |
     sib4. la8 sol fa mi re |
+    \myfootnote #'NoteHead #'(0 . 3.5)
+    \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 2/2 \set autoBeaming = ##f
+            \key re \minor \clef "bass"
+            dod2 la8. la16 la8 la16 sib | sol4.
+          } \addlyrics { bien que si vous en dou -- tez, }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     dod2\trill %{ la8. la16 la8 la16 sib %} r8 la la16 la la sib |
     sol4.\trill fa8 mi8.\trill mi16 mi8. fa16 |
     re4\trill re r2 |
