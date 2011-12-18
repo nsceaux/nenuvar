@@ -305,8 +305,34 @@ figPosOff = {
        (stack-lines DOWN 0.0 2
                     (list
                      base
-                     (stack-stencil-line 0 (list (ly:make-stencil "" `(0 . ,bottom-left-padding) '(0 . 0))
-                                                 bottom)))))))
+                     (stack-stencil-line
+                      0 (list (ly:make-stencil ""
+                                               `(0 . ,bottom-left-padding)
+                                               '(0 . 0))
+                              bottom)))))))
+
+#(define-markup-command (triangle-down-down layout props a b c d) (markup? markup? markup? markup?)
+   (let ((base (interpret-markup layout props (markup #:tiny #:line (#:number a #:number b))))
+         (bottom (interpret-markup layout props (markup #:tiny #:number c)))
+         (bottom2 (interpret-markup layout props (markup #:tiny #:number d))))
+     (let* ((base-width (interval-length (ly:stencil-extent base X)))
+            (bottom-width (interval-length (ly:stencil-extent bottom X)))
+            (bottom-left-padding (/ (- base-width bottom-width) 2.0))
+            (bottom2-width (interval-length (ly:stencil-extent bottom2 X)))
+            (bottom2-left-padding (/ (- base-width bottom2-width) 2.0)))
+       (stack-lines DOWN 0.0 2
+                    (list
+                     base
+                     (stack-stencil-line
+                      0 (list (ly:make-stencil ""
+                                               `(0 . ,bottom-left-padding)
+                                               '(0 . 0))
+                              bottom))
+                     (stack-stencil-line
+                      0 (list (ly:make-stencil ""
+                                               `(0 . ,bottom2-left-padding)
+                                               '(0 . 0))
+                              bottom2)))))))
 
 #(define-markup-command (parallelogram-up-left layout props a b c d) (markup? markup? markup? markup?)
    (let ((top (interpret-markup layout props (markup #:tiny #:line (#:number a #:number b))))

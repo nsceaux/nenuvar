@@ -11,7 +11,7 @@ re2 sol, |
 re,4 re8 do sib,4. sib,8 |
 do2 re4 re, |
 %sol,2. sol4 |
-sol,1~ |
+<< \origVersion { sol,4~ sol,2.~ } \modVersion { sol,1~ } >> |
 sol,4 sol fad\trill re |
 sol sib8 la sol fa mib re |
 mib4 mib8 re do re mib do |
