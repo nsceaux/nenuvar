@@ -316,7 +316,9 @@ ballardFigures =
 
 baussenFigures =
 #(define-music-function (parser location figures) (ly:music?)
-   figures)
+   (if (eqv? (ly:get-option 'urtext) #t)
+       (make-music 'Music 'void #t)
+       figures))
 
 baussenFiguresAlt =
 #(define-music-function (parser location figures) (ly:music?)

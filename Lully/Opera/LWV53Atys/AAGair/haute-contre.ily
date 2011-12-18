@@ -7,6 +7,17 @@ sol'2 si'4. si'8 |
 la'4 re'' mi''4. mi''8 |
 la'2 la'4. la'8 |
 sol'4 re'' re'' dod'' |
+\myfootnote #'NoteHead #'(0 . 1)
+\markup {
+  Manuscrit : \raise #3 \score {
+    \new Staff {
+      \tinyQuote
+      \key sol \major \clef "soprano" \time 2/2
+      re''4 fad' sol' sol'8 la' | si'4
+    }
+    \layout { \quoteLayout }
+  }
+}
 re''2 sol'4 sol'8 la' | % re'' fad' sol' sol'8 la' |
 si'4 la'8 sol' sol'4 fad' |
 sol' sol' sol' sol'8 la' | % sol'8. la'16 |
