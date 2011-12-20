@@ -2,10 +2,10 @@
 %Atys
 \tag #'(atys basse) {
   On voit dans ces cam -- pa -- gnes
-  tous nos phry -- gi -- ens s'a -- van -- cer.
+  tous nos Phry -- gi -- ens s'a -- van -- cer.
 }
 %Doris
 \tag #'(doris basse) {
   Je vais pren -- dre soin de pres -- ser
-  les nym -- phes nos com -- pa -- gnes.
+  les Nym -- phes nos Com -- pa -- gnes.
 }
