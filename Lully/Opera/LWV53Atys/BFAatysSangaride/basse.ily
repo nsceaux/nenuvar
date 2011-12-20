@@ -3,7 +3,7 @@ fa2. |
 mi4. re8 do si, |
 la, sol, fad,2\trill |
 sol,4 sol mi8 fa re4\trill |
-do1 |
+<< \origVersion { do2~ do } \modVersion do1 >> |
 fa2 mi4 |
 re la8 la, re2~ |
 re4 do8 si, la,2 |
