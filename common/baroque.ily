@@ -163,3 +163,22 @@ whiteNoteHeadsOff = {
   \revert Staff.NoteHead #'style
   \revert Staff.NoteHead #'glyph-name
 }
+
+%% Figured bass
+%% change a flat or sharp alteration into natural
+%% unless 'ancient-style option is true
+naturalFig =
+#(define-music-function (parser location fig) (ly:music?)
+   (if (eqv? #t (ly:get-option 'ancient-style))
+       fig
+       (music-map
+        (lambda (music)
+          (if (eqv? 'BassFigureEvent (ly:music-property music 'name))
+              (let ((alteration (ly:music-property music 'alteration)))
+                (if (and (number? alteration)
+                         (or (= alteration 1/2) (= alteration -1/2)))
+                    (set! (ly:music-property music 'alteration) 0))))
+          music)
+        fig)))
+
+       

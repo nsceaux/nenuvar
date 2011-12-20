@@ -2,15 +2,28 @@
   %% Sangaride
   \tag #'(sangaride basse) {
     \sangarideMark R2.*5 |
-    r2 la'4 |
+    r4 r la'4 |
     re''2. |
     r8 re'' re''4 dod'' |
     re''2 r |
     << { s1*4 s2.*2 s1 s2.*2 } \tag #'sangaride { R1*4 | R2.*2 | R1 | R2.*2 | } >>
-    \tag #'basse \sangarideMark r2 la'4 |
+    \tag #'basse \sangarideMark r4 r la'4 |
     re''2. |
     r8 re'' re''4 dod'' |
-    re''2 la'8 %{ sib' %} si' |
+    re''2 la'8 %{ sib' %} \myfootnote #'NoteHead #'(0 . 1)
+    \markup {
+      Manuscrit : \raise #4.5 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 3/4
+            \set autoBeaming = ##f
+            \key re \minor \clef "soprano"
+            re''2 la'8 sib'^\markup\concat\vcenter{( \flat ) } | do''4
+          } \addlyrics { -reux. Sou -- ve -- rain }
+        >>
+        \layout { \quoteLayout }
+      }
+    } si'8 |
     do''4 do'' la' |
     re''2. |
     mi''4 mi''8 mi'' mi''[ re''16] mi'' |
@@ -22,16 +35,29 @@
     mi''2 mi''8 fa'' |
     re''2 dod''8 re'' |
     dod''4\trill %{ la'4. %} la'4 r8 mi'8 |
-    fa'4. sol'8 la' %{ sib' %} si' |
+    fa'4. sol'8 la' %{ sib' %} \myfootnote #'NoteHead #'(0 . 1)
+    \markup {
+      Manuscrit : \raise #4.5 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 3/4
+            \set autoBeaming = ##f
+            \key re \minor \clef "soprano"
+            fa'4. sol'8 la' sib'^\markup\concat\vcenter{( \flat ) } | do''4
+          } \addlyrics { -tys ne con -- noît point }
+        >>
+        \layout { \quoteLayout }
+      }
+    } si'8 |
     do''4 la'4. la'8 |
     la'4 sol'8[ fa'] sol'4 |
     la'2. |
-    r2 sib'4 |
+    r4 r sib'4 |
     sib'4. la'8 la' la' |
     la'4 sol'4.\trill sol'8 |
     sol'2 fa'8\trill mi' |
     fa'2. |
-    r2 la'4 |
+    r4 r la'4 |
     re''2. |
     r8 re'' re''4 dod'' |
     re'' 
@@ -62,12 +88,40 @@
     fad'4 fad'8 fad' sol'4. sol'8 |
     re''8 re'' re'' la' sib'4. re''8 |
     sol'4\trill sol'8 la'16 sib' do''8 do''16 do'' sol'8\trill la'16 sib' |
-    la'4\trill la'8 r16 do'' %{ fa''8. fa''16 la'8. sib'16 %} fa''4 fa''8 la'16 si' |
+    la'4\trill la'8 r16 do'' %{ fa''8. fa''16 la'8. sib'16 %}
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3.5 \score {
+        <<
+          \new Staff {
+            \tinyQuote \set autoBeaming = ##f
+            \key la \minor \clef "soprano" \time 4/4
+            la'4 la'8 r16 do'' fa''8. fa''16 la'8. sib'16 |
+            do''4. do''8 dod''4 dod''8 re''16 mi'' | fa''4 fa''8 r
+          } \addlyrics {
+            -sa -- ge, j'ap -- pel -- le ma rai -- son,
+            j'a -- ni -- me mon cou -- ra -- ge,
+          }
+        >>
+        \layout { \quoteLayout }
+      }
+    } fa''4 fa''8 la'16 si' |
     % do''4. do''8 dod''4 dod''8 re''16 mi'' |
     do''4 r8 do'' dod''\trill dod'' re'' mi'' |
     fa''4 %{ fa''8 r %} fa''4 r8 la' la' si' |
     do'' do'' do'' re'' si'4\trill re'' |
     % mi''4 mi'' re''8 do'' si'8. la'16 |
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3.5 \score {
+        <<
+          \new Staff {
+            \tinyQuote \set autoBeaming = ##f
+            \key la \minor \clef "soprano" \time 4/4
+            mi''4 mi'' re''8 do'' si'8. la'16 | sold'4 sold'8
+          } \addlyrics { cœur en souf -- fre d'a -- van -- ta -- ge, }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     mi''4. mi''8 re'' do'' si' la' |
     sold'4\trill sold'8 si'16 do'' la'4 la'8 sold' |
     la'2
@@ -87,7 +141,7 @@
     r la'8 si' do''4 do''8 la' |
     re''4 re'8 mi' fa'4 fa'8 sol' |
     la'2. |
-    r2 fa''8 fa'' |
+    r4 r fa''8 fa'' |
     mi''2\trill mi''8 fa'' |
     re''4.\trill re''8 re'' re'' |
     mi'' fa'' mi''4( re'')\trill |
@@ -117,22 +171,84 @@
   %% Doris
   \tag #'(doris basse) {
     << { s2.*8 s1 } \tag #'doris { \dorisMark R2.*8 | R1 } >>
-    \tag #'basse \dorisMark r8 fa'16 sol' la'8\trill la'16 %{ sib' %} si' do''8. do''16 do'' sib' sib' la' |
+    \tag #'basse \dorisMark
+    r8 fa'16 sol' la'8\trill la'16 %{ sib' %} \myfootnote #'NoteHead #'(0 . 1)
+    \markup {
+      Manuscrit : \raise #4.5 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 4/4
+            \set autoBeaming = ##f
+            \key re \minor \clef "soprano"
+            r8 fa'16 sol' la'8 la'16 sib'^\markup\concat\vcenter{( \flat ) }
+            do''8. do''16 do'' sib'! sib' la' %| la'4
+          } \addlyrics {
+            L'a -- mi -- tié fut tou -- jours é -- gale en -- tre vous deux,
+          }
+        >>
+        \layout { \quoteLayout }
+      }
+    } si'16 do''8. do''16 do'' sib' sib' la' |
     la'4\trill r8 do''16 do'' dod''8 dod''16 dod'' dod''8. re''16 |
     re''4 re'' r8 sib'16 sib' sib'8 sib'16 la' |
     la'8.\trill la'16 la' sol' fa' mi' fa'4 fa' |
-    re'' r8 re''16 re'' la'8. %{ sib'16 %} si'16 |
+    re'' r8 re''16 re'' la'8. %{ sib'16 %} \myfootnote #'NoteHead #'(0 . 1)
+    \markup {
+      Manuscrit : \raise #4.5 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 3/4
+            \set autoBeaming = ##f
+            \key re \minor \clef "soprano"
+            re''4 r8 re''16 re'' la'8. sib'16^\markup\concat\vcenter{( \flat ) } |
+            do''8.
+          } \addlyrics { Vous, qu'au -- jour -- d'hui l'hy -- men }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
+    si'16 |
     do''8. do''16 do''8 do'' sib'\trill la' |
     sib'4 r8 sib'16 do'' %{ la'8\trill la' %} la'8.\trill la'16 re''8 re''16 sol' |
     la'4 la' r |
     R2. |
     << { s2.*27 s4 } \tag #'doris { R2.*27 | r4 } >>
-    \tag #'basse \dorisMark r8 re'' %{ si'4\trill si'8 si'16 si' %} si'8.\trill si'16 si'8. si'16 |
+    \tag #'basse \dorisMark r8 re'' %{ si'4\trill si'8 si'16 si' %}
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #2.5 \score {
+        <<
+          \new Staff {
+            \tinyQuote
+            \set autoBeaming = ##f
+            \key la \minor \clef "soprano"
+            \time 4/4 r4 r8 re'' si'4 si'8 si'16 si' |
+            \digitTime\time 3/4 sold'4
+          } \addlyrics { Quel mal vous fait l'a -- "mour ?" }
+        >>
+        \layout {
+          \quoteLayout
+          \context { \Staff \consists "Time_signature_engraver" }
+        }
+      }
+    } si'8.\trill si'16 si'8. si'16 |
     sold'4 si'8 si'16 do'' re''8. mi''16 |
     dod''4 dod''
     << { s2 s1 s2.*18 s2 } \tag #'doris { r2 | R1 | R2.*18 | r2 } >>
     \tag #'basse \dorisMark la'8 la'16 la' la'8. la'16 |
     % fad'4 r re''8 re''16 re'' la'8 si' |
+    \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+      Manuscrit : \raise #4.5 \score {
+        <<
+          \new Staff {
+            \tinyQuote \set autoBeaming = ##f
+            \key re \minor \clef "soprano" \time 4/4
+            fad'4 r re''8 re''16 re'' la'8 sib'^\markup\concat\vcenter{( \flat ) } |
+            do''4 do''
+          } \addlyrics { -tys, lui dont l'in -- dif -- fé -- ren -- ce }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     fa'4 re'' re''8. re''16 la'8 si' |
     do''4 do'' do''8 do''16 do'' re''8 mi'' |
     %{ fa''4. %} fa''4 r8 re''8 %{ si'8\trill si' %} si'8.\trill si'16 dod''8 re'' |
@@ -165,7 +281,7 @@
     la'4 << \tag #'doris la'4 \tag #'basse { la'8 s } >>
     \tag #'doris {
       r2 | R1*13 | R2. |
-      r2 la'8 si' |
+      r4 r la'8 si' |
       do''2 do''8 re'' |
       si'4.\trill si'8 si' si' |
       do'' re'' do''4( si') |

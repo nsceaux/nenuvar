@@ -24,3 +24,20 @@
   \whiteNoteHeadsOn
   c''2 c''8.*2 c''16*2 c''2
 }
+
+#(ly:set-option 'ancient-style #t)
+<<
+  \new Staff { \clef "bass" \key g \minor d1 c }
+  \new FiguredBass \figuremode {
+    \naturalFig <_->2 \naturalFig <5 _->
+    \naturalFig <_+> \naturalFig <6 _+>
+  }
+>>
+#(ly:set-option 'ancient-style #f)
+<<
+  \new Staff { \clef "bass" \key g \minor d1 c }
+  \new FiguredBass \figuremode {
+    \naturalFig <_->2 \naturalFig <5 _->
+    \naturalFig <_+> \naturalFig <6 _+>
+  }
+>>

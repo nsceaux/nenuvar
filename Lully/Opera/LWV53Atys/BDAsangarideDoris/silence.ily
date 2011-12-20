@@ -1,3 +1,2 @@
-R2.*8\noBreak R1*5\noBreak R2.*2\noBreak R1\noBreak R2.*29\noBreak
-R1\noBreak R2.\noBreak R1*2\noBreak R2.*18\noBreak R1*16\noBreak
-R2.*20 R1*11\noBreak R1*5\noBreak R2.*27
+R2.*8 R1*5 R2.*2 R1 R2.*29 R1 R2. R1*2 R2.*18 R1*16 R2.*20 R1*11 R1*5
+R2.*27

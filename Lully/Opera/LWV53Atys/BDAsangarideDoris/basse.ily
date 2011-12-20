@@ -10,7 +10,7 @@ la, |
 re,1 |
 re2 la,4 mi, |
 fa, fa mi2\trill |
-re2. mi4 |
+re2~ re4 mi4 |
 fa dod re2~ |
 re2. |
 la4 fad2\trill |
