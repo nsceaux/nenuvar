@@ -88,7 +88,7 @@
   \livretVerC { Son nom sacré se fasse entendre. }
 
   \livretPers ATYS.
-  \livretVer { Sur l'Univers entier son pouvoir doit d'étendre. }
+  \livretVer { Sur l'Univers entier son pouvoir doit s'étendre. }
 
   \livretPers SANGARIDE.
   \livretVer { Les Dieux suivent ses loix et craignent son couroux. }
@@ -139,7 +139,7 @@
   \livretVer { Je me deffens d'aimer autant qu'il m'est possible ; }
   \livretVerC { Si j'aimois, un jour, par malheur, }
   \livretVerC { Je connoy bien mon cœur }
-  \livretVerC { Il serait trop sensible. }
+  \livretVerC { Il seroit trop sensible. }
   \livretVer { Mais il faut que chacun s'assemble prés de vous, }
   \livretVerC { Cybele pourroit nous surprendre. }
 

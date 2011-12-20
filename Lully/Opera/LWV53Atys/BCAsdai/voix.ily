@@ -134,6 +134,20 @@
     si'4. si'8 do''4. do''8 |
     do''4 si'8[ la'] la'4( sold') |
     la'4. mi'8 mi'4. mi'8 |
+    \myfootnote #'NoteHead #'(0 . 3.5)
+    \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 2/2
+            \set autoBeaming = ##f
+            \key sol \major \clef "soprano"
+            fad'4 fad'8[ sol'] la'[ sol'] la'[ fad'] | sol'4.
+          } \addlyrics { -lons, ac -- cou -- rez tous  }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     fad'4 fad' la'4. la'8 | % fad'4 fad'8[ sol'] la'[ sol'] la'[ fad'] |
     sol'4. si'8 si'4. si'8 |
     do''4 sol' la'4. la'8 |
@@ -159,6 +173,20 @@
         fa'?4 mi' re'2\trill |
         do' do'4. do'8 |
         re'2 re'4. re'8 |
+        \myfootnote #'NoteHead #'(0 . 1.5)
+        \markup {
+          Manuscrit : \raise #3 \score {
+            <<
+              \new Staff {
+                \tinyQuote \time 2/2
+                \set autoBeaming = ##f
+                \key sol \major \clef "alto"
+                re'4. re'8 re'4. do'8 | si4 mi' re'4.( do'8) | si1*1/2
+              } \addlyrics { "- pects" ne doit- on point lui ren -- "dre ?" }
+            >>
+            \layout { \quoteLayout }
+          }
+        }
         re'4. re'8 re'4. %{ do'8 %} re'8 |
         si4 mi' re'2 %{ re'4.( do'8) %} |
         si1 |
@@ -167,6 +195,20 @@
         la4. do'8 do'4. do'8 |
         fa'4. re'8 re'[ mi'] re'[ do'] |
         si4. sold8 la4. la8 |
+        \myfootnote #'NoteHead #'(0 . 3.5)
+        \markup {
+          Manuscrit : \raise #3 \score {
+            <<
+              \new Staff {
+                \tinyQuote \time 2/2
+                \set autoBeaming = ##f
+                \key sol \major \clef "alto"
+                la4 fab' mi'4.( re'8) | dod'4.
+              } \addlyrics { va des -- cen -- dre }
+            >>
+            \layout { \quoteLayout }
+          }
+        }
         la4 fa' %{ mi'4.( re'8) %} mi'2 |
         dod'4. la8 la4. la8 |
         la4 la re'4. re'8 |
@@ -191,7 +233,7 @@
     la2 la4 si |
     si2( la4.)\trill sol8 |
     sol4
-    << { s2. s1*6 s1. s2 } \tag #'atys { r4 r2 | R1*6 | R1. | r2 } >>
+    << { s2. s1*6 s1. s2 } \tag #'atys { r4 r2 | R1*6 | R1. | r4 r } >>
     \tag #'basse \atysMark re'4-\tag #'atys ^\markup\character "Atys" |
     re'2 mi'4 |
     do'2\trill si4 |
@@ -228,7 +270,7 @@
     re'4. re'8 mi'[ re'] |
     do'[ si] la4.\trill sol8 |
     sol2 r4 |
-    << { s2.*28 s2 } \tag #'atys { R2.*28 | r2 } >>
+    << { s2.*28 s2 } \tag #'atys { R2.*28 | r4 r } >>
     \tag #'basse \atysMark re'4-\tag #'atys ^\markup\character "Atys" ~ |
     re' r la8 la |
     si la sol4(\trill fad8) sol |
@@ -244,6 +286,24 @@
     si2\trill~ si8 do' |
     la2\trill re'4 |
     % sol4. sol8 la si | si4( la2)\trill |
+    \myfootnote #'NoteHead #'(0 . 3.5)
+    \markup {
+      Manuscrit : \hspace #2 \raise #3 \score {
+        \new ChoirStaff <<
+          \new Staff {
+            \tinyQuote \time 3/4
+            \set autoBeaming = ##f
+            \key sol \major \clef "alto"
+            sol4. sol8 la si | si4( la2) | sol2*1/2
+          } \addlyrics { -tant qu'il m'est pos -- si -- ble, }
+          \new Staff {
+            \key sol \major \clef "bass"
+            mi2 do4 | do4 re re, | sol,4
+          }
+        >>
+        \layout { \quoteLayout }
+      }
+    } 
     sol4. sol8 la4 | si si( la)\trill |
     sol2 si8 do' |
     re'2 fad4 |
@@ -271,7 +331,24 @@
     si( la2)\trill |
     sol2. |
     r4 re'8. re'16 %{ re'8 re' %} sol4 sol8 sol |
-    la sib do'8. do'16 do'8 sib16[ la] | % do'8 do' do'[ sib16] la
+    \myfootnote #'NoteHead #'(0 . 3.5)
+    \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          \new Staff {
+            \tinyQuote \set autoBeaming = ##f
+            \key re \minor \clef "alto"
+            \digitTime\time 3/4 la8 sib do'8 do' do'[ sib16] la |
+            \time 4/4 sib4.
+          } \addlyrics { -cun s'a -- van -- ce prés de vous, }
+        >>
+        \layout {
+          \quoteLayout
+          \context { \Staff \consists "Time_signature_engraver" }
+        }
+      }
+    }
+    la8 sib do'8. do'16 do'8 sib16[ la] | % do'8 do' do'[ sib16] la
     %{ sib4. %} sib4 r8 re'8 mib' mib'16 mib' do'8\trill do'16 do' |
     la2\trill la4 r |
     r4 r8 sol sib4. sol8 |

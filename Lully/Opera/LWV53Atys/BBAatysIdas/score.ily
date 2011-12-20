@@ -41,5 +41,8 @@
       >>
     >>
   >>
-  \layout { indent = \noindent }
+  \layout {
+    indent = \noindent
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
 }

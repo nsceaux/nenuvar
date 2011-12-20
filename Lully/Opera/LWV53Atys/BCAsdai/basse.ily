@@ -10,9 +10,26 @@ la,2 mi4 re8 do |
 si,2\trill do |
 re2 %{ re4. re8 %} si,4\trill sol, |
 do2 re4 re, |
-sol,1.~ |
-sol,1 sol2 |
+\tieDashed sol,1.~ |
+sol,1 sol2 |\tieSolid
 la1. |
+\myfootnote #'NoteHead #'(0 . 1)
+\markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 3/2
+      \key sol \major \clef "bass"
+      si1 sold2 | la1
+    }
+    \layout { \quoteLayout }
+  }
+  Ballard : \raise #3 \score {
+    { \tinyQuote \time 3/2
+      \key sol \major \clef "bass"
+      si1 sol2 | la1
+    }
+    \layout { \quoteLayout }
+  }
+}
 si1 sold?2\trill |
 la1 si2 |
 do'4 la si2 si, |
@@ -98,6 +115,16 @@ re4. re8 mi fad |
 sol2 fa4 |
 mi4. re8 do4 |
 fa4. sol8 fa mi |
+\myfootnote #'NoteHead #'(0 . 2)
+\markup {
+  Manuscrit : \raise #'3 \score {
+    { \tinyQuote \time 3/4
+      \key sol \major \clef "bass"
+      re2 mi8 mi, | la,4 mi,4 mi8 re | do4.
+    }
+    \layout { \quoteLayout }
+  }
+}
 re2\trill %{ mi8 mi, %} mi4 |
 la,4 %{ mi,4 mi8 re %} mi4. re8 |
 do4. si,8 la,4 |
@@ -200,4 +227,17 @@ sib sib8 la sol fa mib re |
 do4 mib8 re do sib, la, sol, |
 re2 sib, |
 do re4 re, |
+\myfootnote #'NoteHead #'(0 . 4)
+\markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \digitTime\time 2/2
+      \key re \minor \clef "bass"
+      sol,2. fa,8 mi, | \digitTime\time 3/4 re,2. | \custosNote re4
+    }
+    \layout {
+      \quoteLayout
+      \context { \Staff \consists "Time_signature_engraver" }
+    }
+  }
+}
 sol,1 | % sol,2. fa,8 mi,
