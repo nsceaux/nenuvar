@@ -17,5 +17,22 @@ do'4 si8 la sold2\trill |
 la4 la8 sol fad2\trill |
 sol4. fa8 mi re do re |
 %{ mi4. fa8 %} mi4 fa sol4 sol, |
+\myfootnote #'NoteHead #'(0 . 2.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key do \major \clef "basse"
+      do4. re8*1/2 mi fa sol la si do'4 \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+  Philidor 1703 : \raise #4.8 \score {
+    { \tinyQuote \time 2/2
+      \key do \major \clef "basse"
+      \repeat volta 2 { } \alternatives {
+        { do4 re8 mi fa sol la si \bar ":|" } do1 } \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+}
 do1 |
 

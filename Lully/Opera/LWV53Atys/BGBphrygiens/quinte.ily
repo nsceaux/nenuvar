@@ -1,5 +1,21 @@
 \clef "quinte" sol' sol'8 fa' mi'4. mi'8 |
 re'2 re'4. re'8 |
+\myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #2.5 \score {
+    { \tinyQuote \time 2/2 \key do \major \clef "alto"
+      do'4 sol sol sol | la2
+    }
+    \layout { \quoteLayout }
+  }
+  Ballard : \raise #2.5 \score {
+    { \tinyQuote \time 2/2 \key do \major \clef "alto"
+      re'4 sol sol sol | la2
+    }
+    \layout { \quoteLayout }
+  }
+  \bold { C'est la version du manuscrit qui est retenue dans cette édition. }
+}
+
 %{ Ballard : re'4 %} do'4 sol sol sol |
 la2 la |
 la la4. la8 |
