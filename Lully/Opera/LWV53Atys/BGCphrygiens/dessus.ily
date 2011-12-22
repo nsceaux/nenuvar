@@ -3,7 +3,7 @@ mi'' fa'' sol'' re'' mi'' do'' |
 re'' si' mi'' do'' re'' si'\trill |
 do''2.~ do''4. mi''8 fa''4 |
 sol''4. fa''8 mi''4 fa'' re''4.\trill mi''8 |
-mi''2\trill re''4 sol''4. fa''8 mi'' re'' |
+mi''2\tr re''4 sol''4. fa''8 mi'' re'' |
 mi''4. re''8 do''4 si' la' re'' |
 si'4.\trill la'8 sol'4 r4 r8 do'' re''4 |
 mi'' fa'' sol'' re'' mi'' do'' |
