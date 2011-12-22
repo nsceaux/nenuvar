@@ -2,7 +2,7 @@
 R2.*2
 R1*5
 R2.*21 |
-r4 r8 do'8 do'4 |\noHaraKiri
+r4 r8 do'8 do'4 |
 re'4. re'8 sol4 |
 fa2 la4 |
 la2 si4 |
@@ -12,6 +12,14 @@ la mi'2 |
 dod' r4 |
 R2.*2 |
 r4 r8 mi' mi'4 |
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 3/4 \key do \major \clef "alto"
+      re'4. re'8 re'4 | re'2
+    }
+    \layout { \quoteLayout }
+  }
+}
 fad'4. fad'8 fad'4 | % re'4. re'8 re'4
 re'2 si4 |
 do'2 do'4 |
@@ -52,7 +60,7 @@ sol4 r r2 |
 R1. |
 R1 |
 R2.*7 |
-r2 do'4 |
+r4 r do'4 |
 do'2. |
 re'4 la si |
 do'2 la4 |
@@ -118,13 +126,13 @@ fa' re' sol |
 sol2. |
 sol2 r4 |
 R2.*10 |\allowPageTurn
-r2 r8 do' |
+r4 r r8 do' |
 re'2. |
 do'4 do' re' |
 la2 r8 re' |
 re'2 r4 |
 R2.*9 |
-r2 r8 re' |
+r4 r r8 re' |
 do'4 do' do' |
 fa'4 re' sol |
 sol2. |

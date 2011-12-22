@@ -2,7 +2,7 @@
 R2.*2
 R1*5
 R2.*21 |
-r4 r8 do do4 | \noHaraKiri
+r4 r8 do do4 |
 sol4. fa8 mi4 |
 re2 re4 |
 la2 sol4 |
@@ -51,7 +51,7 @@ do4 r r2 |
 R1. |
 R1 |
 R2.*7 |
-r2 do4 |
+r4 r do4 |
 fa2. |
 re4 re re |
 la2 la,4 |
@@ -60,7 +60,7 @@ do do do |
 fa fa re |
 mi2. |
 la,2 r4 |
-r2 r8 re |
+r4 r r8 re |
 sol2. |
 la4 la la |
 si2\trill r8 si |
@@ -69,13 +69,13 @@ sib sib sol |
 la4 la re |
 la,2. |
 re2 r4 |
-r2 r8 sol |
+r4 r r8 sol |
 mi4 mi fa |
 re\trill re do |
 sol( sol,2) |
 do2 r4 |
 R2.*4 |
-r2 r8 sol |
+r4 r r8 sol |
 do'2. |
 sib4 sib sib |
 la2 r8 la |
@@ -87,20 +87,20 @@ do4 do do |
 do si,4.\trill do8 |
 re2. |
 sol,2 r4 |
-r2 r8 re |
+r4 r r8 re |
 la2 r4 |
-r2 r8 mi |
+r4 r r8 mi |
 fa2. |
 do'4 do' la |
 re'2 re4 |
 sol2 r4 |
-r2 r8 mi |
+r4 r r8 mi |
 fa4 fa re |
 sol sol do |
 sol,2. |
 do2 r4 |
 R2.*4 |
-r2 r8 sol |
+r4 r r8 sol |
 do'2 r8 do' |
 sib2. |
 la4 la la |
@@ -111,13 +111,13 @@ re\trill re do |
 sol4( sol,2) |
 do2 r4 |
 R2.*10 |
-r2 r8 do |
+r4 r r8 do |
 sol2. |
 do'4 do' si |
 la2\trill r8 sol | % la
 sol2 r4 |
 R2.*9 |
-r2 r8 sol |
+r4 r r8 sol |
 mi4 mi fa |
 re\trill re do |
 sol4( sol,2) |
@@ -153,7 +153,7 @@ do do do |
 fa fa re |
 mi2. |
 la,2 r4 |
-r2 r8 re |
+r4 r r8 re |
 sol2. |
 la4 la la |
 si2\trill r8 si |
@@ -162,13 +162,13 @@ sib4 sib sol |
 la la re |
 la,2. |
 re2 r4 |
-r2 r8 sol |
+r4 r r8 sol |
 mi4\trill mi fa |
 re\trill re do |
 sol( sol,2) |
 do r4 |
 R2.*4 |
-r2 r8 sol |
+r4 r r8 sol |
 do'2. |
 sib4 sib sib |
 la2 r8 la |
@@ -180,20 +180,20 @@ do4 do do |
 do4 si,4.\trill do8 |
 re2. |
 sol,2 r4 |
-r2 r8 re |
+r4 r r8 re |
 la2. |
-r2 r8 mi |
+r4 r r8 mi |
 fa2. |
 do'4 do' la |
 re'2 re4 |
 sol2. |
-r2 r8 mi |
+r4 r r8 mi |
 fa4 fa re |
 sol sol do |
 sol,2. |
 do2 r4 |
 R2.*4 |
-r2 r8 sol |
+r4 r r8 sol |
 do'2 r8 do' |
 sib2. |
 la4 la la |

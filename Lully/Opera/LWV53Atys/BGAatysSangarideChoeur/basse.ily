@@ -2,7 +2,7 @@
 R2.*2
 R1*5
 R2.*21 |
-r4 r8 do8 do4 |\noHaraKiri
+r4 r8 do8 do4 |
 sol4. fa8 mi4 |
 re2 re4 |
 la2 sol4 |
@@ -26,8 +26,8 @@ do'4. sib8 do'4 |
 fa2 fa4 |
 sib2 sib4 |
 sol la2 |
-re2.~ |
-re~ |
+\tieDashed re2.~ |
+\tieSolid re~ |
 re~ |
 re4. re8 re4 |
 sol4. sol8 sol4 |
@@ -56,7 +56,7 @@ do4 r r2 |
 R1. |
 R1 |
 R2.*7 |
-r2 do4 |
+r4 r do4 |
 fa2. |
 re4 re re |
 la2 la,4 |
@@ -122,13 +122,13 @@ re re do |
 sol sol,2 |
 do r4 |
 R2.*10 |\allowPageTurn
-r2 r8 do |
+r4 r r8 do |
 sol2. |
 do'4 do' si |
 la2 r8 la |
 sol2 r4 |
 R2.*9 |
-r2 r8 sol |
+r4 r r8 sol |
 mi4 mi fa |
 re re do |
 sol sol,2 |

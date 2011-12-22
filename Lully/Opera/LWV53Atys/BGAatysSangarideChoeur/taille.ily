@@ -2,7 +2,7 @@
 R2.*2
 R1*5
 R2.*21 |
-r4 r8 sol'8 sol'4 |\noHaraKiri
+r4 r8 sol'8 sol'4 |
 sol'4. sol'8 sol'4 |
 la'2 la'4 |
 la'2 mi'4 |
@@ -52,7 +52,7 @@ mi'4 r r2 |
 R1. |
 R1 |
 R2.*7 |
-r2 sol'4 |
+r4 r sol'4 |
 fa'2. |
 la'4 la' la' |
 la'2 mi'4 |
@@ -118,13 +118,13 @@ fa' fa' mi'8 fa' |
 sol'2 sol'4 |
 mi'2 r4 |
 R2.*10 |\allowPageTurn
-r2 r8 sol' |
+r4 r r8 sol' |
 sol'2. |
 sol'4 sol' sol' |
 la'2 r8 la' |
 re'2 r4 |
 R2.*9 |
-r2 r8 re' |
+r4 r r8 re' |
 mi'4 sol' fa' |
 fa' fa' sol' |
 sol'2 sol'4 |

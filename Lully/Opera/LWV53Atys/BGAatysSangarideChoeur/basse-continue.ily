@@ -35,7 +35,7 @@ la2 sol4 |
 fa2\trill fa4 | % fa2.
 mi2 do4 |
 re4 mi2 | % mi4 mi,
-la,2.~ |
+\tieDashed la,2.~ |
 la,~ |
 la,~ |
 la,2 la4 |
@@ -47,13 +47,13 @@ do re2 |
 sol,2.~ |
 sol,~ |
 sol,~ |
-sol,2 sol4 |
+sol,2 sol4 |\tieSolid
 do'4. sib8 do'4 | % do'2 do4
 fa2 fa4 |
 sib2 sib4 |
 sol4 la2 |
-re2.~ |
-re~ |
+\tieDashed re2.~ |
+\tieSolid re~ |
 re~ |
 re2 re4 |
 sol2 sol4 |
@@ -207,7 +207,7 @@ re'2 re2 | % re'4 re
 %{ re4. re8 %} re2 re8 mi fa re |
 sol2 sol, | % sol4 sol,
 %{ sol4. sol8 %} sol2 sol8 la si sol |
-do'2 do'4 r8 do |
+do'2 do'4 do |
 fa2. |
 %{ re4 re %} re2 re4 |
 la2 la,4 |

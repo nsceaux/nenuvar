@@ -2,7 +2,7 @@
 R2.*2
 R1*5
 R2.*21 |
-r4 r8 sol sol4 | \noHaraKiri
+r4 r8 sol sol4 |
 sol4. sol8 sol4 |
 la2 la4 |
 la2 si4 |
@@ -52,7 +52,7 @@ do'4 r r2 |
 R1. |
 R1 |
 R2.*7 |
-r2 do'4 |
+r4 r do'4 |
 la2.\trill |
 re'4 re' re' | % la4 la si
 do'2 mi'4 |
@@ -61,7 +61,7 @@ la la la |
 la la la |
 la2( sold4)\trill | % la4( sold2)\trill |
 la2 r4 |
-r2 r8 re' |
+r4 r r8 re' |
 si2.\trill |
 do'4 mi' mi' |
 re'2\trill r8 re' |
@@ -70,13 +70,13 @@ sib sib sib |
 la la la |
 % la2( sol4) | fad2\trill r4 |
 la2. | la2 r4 |
-r2 r8 re' |
+r4 r r8 re' |
 mi'4 do' la |
 si si do' |
 do'2( si4)\trill | % do'( si2)\trill
 do'2 r4 |
 R2.*4 |
-r2 r8 si |
+r4 r r8 si |
 do'2. |
 re'4 re' re' |
 la2 r8 la |
@@ -88,20 +88,20 @@ sol4 do' do' |
 re' re'4. mi'8 |
 re'4.( do'8[ si do']) |
 si2\trill r4 |
-r2 r8 la |
+r4 r r8 la |
 la2 r4 |
-r2 r8 do'8 |
+r4 r r8 do'8 |
 do'2. |
 do'4 do' do' |
 re'2 re'4 |
 re'2 r4 |%91
-r2 r8 do' |
+r4 r r8 do' |
 do'4 la la |
 sol sol sol |
 sol2. | % sol2( fa4)
 mi2\trill r4 |
 R2.*4 |
-r2 r8 si8 |
+r4 r r8 si8 |
 do'2 r8 do' |
 re'2. |
 la8[ si] do'4 la |
@@ -112,13 +112,13 @@ si si do' |
 % si( la2)\trill | sol2 r4 |
 do'2( si4\trill) | do'2 r4 |
 R2.*10 |
-r2 r8 do' |
+r4 r r8 do' |
 si2.\trill |
 do'4 do' re' |
 la2 r8 re' |
 re'2 r4 |
 R2.*9 |
-r2 r8 re' |
+r4 r r8 re' |
 mi'4 mi' la |
 si si do' |
 do'2( si4)\trill | % do'( si2)\trill
@@ -154,7 +154,7 @@ la la la |
 la la la |
 la2( sold4)\trill | % la4( sold2)\trill
 la2 r4 |
-r2 r8 re' |
+r4 r r8 re' |
 si2.\trill |
 do'4 mi' mi' |
 re'2 r8 re' |
@@ -163,13 +163,13 @@ sib sib sib |
 la la la |
 % la2( sol4) | fad2\trill r4 |
 la2. | la2 r4 |
-r2 r8 re' |
+r4 r r8 re' |
 mi'4 do' la |
 si si do' |
 do'2( si4)\trill | % do'( si2)\trill
 do'2 r4 |
 R2.*4 |
-r2 r8 si |
+r4 r r8 si |
 do'2. |
 re'4 re' re' |
 la2 r8 la |
@@ -181,20 +181,20 @@ sol4 do' do' |
 re' re'4. mi'8 |
 re'4.( do'8[ si do']) |
 si2\trill r4 |
-r2 r8 la |
+r4 r r8 la |
 la2. |
-r2 r8 do' |
+r4 r r8 do' |
 do'2. |
 do'4 do' do' |
 re'2 re'4 |%93
 re'2. |
-r2 r8 do' |
+r4 r r8 do' |
 do'4 la la |
 sol sol sol |
 sol2. | % sol2( fa4)
 mi2\trill r4 |
 R2.*4 |
-r2 r8 si |
+r4 r r8 si |
 do'2 r8 do' |
 re'2. |
 la8[ si] do'4 la |

@@ -17,21 +17,43 @@
     re''4 re''( dod'') |
     re''4. re''8 do''4 |
     si'2\trill si'4 |
-    do''4. do''8 si'4 | % sib'4
+    do''4. do''8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key do \major \clef "soprano"
+            do''4. do''8 sib'4 | la'4.
+          } \addlyrics { jeux, com -- men -- çons }
+        >>
+        \layout { \quoteLayout }
+      }
+    } si'4 | % sib'4
     la'4. si'8 do''4 |
     si'2\trill mi''4 |
     do''2 re''4 |
     do''4( si'4.\trill) do''8 |
     do''4. sol'8 la'4 |
-    sib'4. sib'8 sib'4 | % sib'8[ do''] |
+    sib'4. sib'8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          \new Staff {
+            \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key do \major \clef "soprano"
+             sib'4. sib'8 sib'8[ do''] | la'2
+           } \addlyrics { -çons, com -- men -- çons }
+         >>
+         \layout { \quoteLayout }
+       }
+    } sib'4 | % sib'8[ do''] |
     la'2\trill re''4 |
     si'2\trill mi''4 |
     do''2 re''4 |
     do''4( si'4.\trill) do''8 |
     do''4 %{ choeur %}
     <<
-      \tag #'basse { r2 | R2.*49 | r4 }
-      \tag #'dessus { r8 do''8^\markup\character "Chœur" do''4 | \noHaraKiri
+      \tag #'basse { r4 r | R2.*49 | r4 }
+      \tag #'dessus { r8 do''8^\markup\character "[Chœur]" do''4 |
         si'4. si'8 dod''4 |
         re''2 re''4 |
         do''2 si'4 |
@@ -82,7 +104,7 @@
     \sangarideMark do''8 do'' si'4 si'8 do'' |
     la'2\trill la'4 la'8 la' re''4. re''8 |
     si'2\trill si'4
-    << { s2. } \tag #'dessus { r4 | r2 } >>
+    << { s2. } \tag #'dessus { r4 | r4 r } >>
     \tag #'basse \sangarideMark r8 do'' |
     si'2.\trill |
     la'4 la' si' |
@@ -90,9 +112,16 @@
     mi'' do'' re'' |
     si' si' do'' |
     do''2( si'4\trill) | % do''4( si'2)
+    \myfootnote #'NoteHead #'(0 . 1) \markup\justify {
+      Le manuscrit comporte une indication de reprise mesure 91, puis
+      s'interrompt à la fin de la mesure 105 : le feuillet suivant comporte
+      l'entrée des Phrygiens. La numérotation des feuillets est continue,
+      elle doit être postérieure à la composition du manuscrit. Les pages
+      intermédiaires semblent perdues.
+    }
     do''2
     <<
-      \tag #'basse { r4 R2.*63 r2 }
+      \tag #'basse { r4 R2.*63 r4 r }
       \tag #'dessus {
         mi''4-\tag #'dessus ^\markup\character "Chœur" |
         do''2. |
@@ -103,7 +132,7 @@
         do'' do'' re'' |
         do''( si'2\trill) |
         la' r4 |
-        r2 r8 fa'' |
+        r4 r r8 fa'' |
         re''2. |
         do''4 do'' do'' |
         re''2 r8 re'' |
@@ -112,13 +141,13 @@
         dod'' dod'' re'' |
         re''2( dod''4\trill) |
         re''2 r4 |
-        r2 r8 si' |
+        r4 r r8 si' |
         do''4 do'' do'' |
         re'' re'' mi'' |
         mi''( re''2)\trill |
         do'' r4 |
         R2.*4 |\allowPageTurn
-        r2 r8 re'' |
+        r4 r r8 re'' |
         mi''2. |
         re''4 re'' re'' |
         do''2 r8 re'' |
@@ -130,20 +159,20 @@
         la' si'4. la'8 |
         si'4( la'2)\trill |
         sol'2 r4 |
-        r2 r8 re'' |
+        r4 r r8 re'' |
         do''2 r4 |
-        r2 r8 do'' |
+        r4 r r8 do'' |
         do''2. |
         mi''4 mi'' do'' |
         la'2\trill re''4 |
         si'2.\trill |
-        r2 r8 mi'' |
+        r4 r r8 mi'' |
         do''4 do'' re'' |
         si'\trill si' do'' |
         do''2( si'4\trill) |
         do''2 r4 |
         R2.*4 |\allowPageTurn
-        r2 r8 re'' |
+        r4 r r8 re'' |
         mi''2 r8 mi'' |
         re''2.\trill |
         do''4 do'' do'' |
@@ -153,10 +182,10 @@
         re'' re'' mi'' |
         mi''( re''2\trill) |
         do''2 } >>
-    << { s4 s2.*10 s2 } \tag #'dessus { r4 | R2.*10 | r2 } >>
-    <<\tag #'basse { r4 R2.*3 r2 } 
+    << { s4 s2.*10 s2 } \tag #'dessus { r4 | R2.*10 | r4 r } >>
+    <<\tag #'basse { r4 R2.*3 r4 r } 
       \tag #'dessus {
-        r8 mi''^\markup\character "Chœur" |
+        r8 mi''^\markup\character "[Chœur]" |
         re''2.\trill |
         mi''4 mi'' re'' |
         do''2\trill r8 do'' |
@@ -173,9 +202,9 @@
     mi''4.\trill re''8 mi''[ re''] |
     do''[ si'] la'4.\trill sol'8 |
     sol'2
-    <<\tag #'basse { r4 R2.*3 r2 }
+    <<\tag #'basse { r4 R2.*3 r4 r }
       \tag #'dessus {
-        r8 si'^\markup\character "Chœur" |
+        r8 si'^\markup\character "[Chœur]" |
         do''4 do'' do'' |
         re'' re'' mi'' |
         mi''( re''2)\trill |
@@ -221,7 +250,7 @@
         do'' do'' re'' |
         do''( si'2)\trill |
         la'2 r4 |
-        r2 r8 fa'' |
+        r4 r r8 fa'' |
         re''2.\trill |
         do''4 do'' do'' |
         re''2 r8 re'' |
@@ -230,13 +259,13 @@
         dod'' dod'' re'' |
         re''2( dod''4\trill) |
         re''2 r4 |
-        r2 r8 si' |
+        r4 r r8 si' |
         do''4 do'' do'' |
         re'' re'' mi'' |
         mi''( re''2)\trill |
         do''2 r4 |
         R2.*4 |
-        r2 r8 re'' |
+        r4 r r8 re'' |
         mi''2. |
         re''4 re'' re'' |
         do''2 r8 re'' |
@@ -248,20 +277,20 @@
         la' si'4. la'8 |
         si'4( la'2\trill) |
         sol'2 r4 |
-        r2 r8 re'' |
+        r4 r r8 re'' |
         do''2. |
-        r2 r8 do'' |
+        r4 r r8 do'' |
         do''2. |
         mi''4 mi'' do'' |
         la'2 re''4 |
         si'2.\trill |
-        r2 r8 mi'' |
+        r4 r r8 mi'' |
         do''4 do'' re'' |
         si' si' do'' |
         do''2( si'4\trill) |
         do''2 r4 |
         R2.*4 |
-        r2 r8 re'' |
+        r4 r r8 re'' |
         mi''2 r8 mi'' |
         re''2.\trill |
         do''4 do'' do'' |
@@ -302,7 +331,7 @@
         re'2 sol'4 |
         mi'2 fa'4 |
         mi'( re'4.) do'8 |
-        do'4 r8 mi'8 mi'4 | \noHaraKiri
+        do'4 r8 mi'8 mi'4 |
         re'4. re'8 mi'4 |
         fa'2 fa'4 |
         mi'2 mi'4 |
@@ -329,6 +358,21 @@
         r4 r8 fad' fad'4 |
         sol'4. sol'8 sol'4 |
         mi'2 la'4 |
+        \myfootnote #'NoteHead #'(0 . 1) \markup {
+          Manuscrit : \hspace #2 \raise #3 \score {
+            \new StaffGroupNoBar <<
+              \new Staff \with { instrumentName = "h-c. ch." } {
+                \tinyQuote \time 3/4 \key do \major
+                \clef "alto" sol'2 sol'4 | sol'2
+              } \addlyrics { jeux, nos jeux }
+              \new Staff \with { instrumentName = "t." } {
+                \clef "mezzosoprano"
+                sol'2 sol'4 | sol'2
+              }
+            >>
+            \layout { \quoteLayout indent = 7\mm }
+          }
+        }
         %{ sol'2 %} la'2 sol'4 |
         sol'2 sol'4 |
         la' sol'2 |
@@ -371,7 +415,7 @@
         fa'4 fa' fa' |
         mi'2. | % mi'2( re'4)
         dod'2 r4 |
-        r2 r8 la' |
+        r4 r r8 la' |
         sol'2. |
         mi'4 mi' la' |
         sol'2 r8 sol' |
@@ -381,13 +425,13 @@
         mi' mi' fa' |
         fa'( mi'2) |
         re' r4 |
-        r2 r8 sol' |
+        r4 r r8 sol' |
         sol'4 sol' la' |
         fa' fa' sol' |
         sol'4.( fa'8[ mi' fa']) |
         mi'2 r4 |
         R2.*4 |
-        r2 r8 sol' |
+        r4 r r8 sol' |
         sol'2. |
         sol'4 sol' sol' |
         sol'2 r8 fa' |
@@ -399,20 +443,20 @@
         fad' sol'4. sol'8 |
         sol'2( fad'4) |
         sol'2 r4 |
-        r2 r8 fa' |
+        r4 r r8 fa' |
         mi'2. |
-        r2 r8 sol' |
+        r4 r r8 sol' |
         la'2. |
         sol'4 sol' la' |
         fad'2 fad'4 |
         sol'2. |
-        r2 r8 sol' |
+        r4 r r8 sol' |
         la'4 fa' fa' |
         re' re' mi' |
         mi'( re'2) |
         do'2 r4 |
         R2.*4 |
-        r2 r8 sol' |
+        r4 r r8 sol' |
         sol'2 r8 la' |
         sol'2. |
         sol'4 sol' fad' |
@@ -441,7 +485,7 @@
       fad'2 r8 fad' |
       sol'2 r4 |
       R2.*9 |
-      r2 r8 sol' |
+      r4 r r8 sol' |
       sol'4 sol' fa' |
       fa' fa' sol' |
       sol'4.( fa'8[ mi' fa']) |
@@ -482,7 +526,7 @@
       fa'4 fa' fa' |
       mi'2. | % mi'2( re'4)
       dod'2 r4 |
-      r2 r8 la' |
+      r4 r r8 la' |
       sol'2. |
       mi'4 mi' la' |
       sol'2 r8 sol' |
@@ -491,13 +535,13 @@
       mi' mi' fa' |
       fa'( mi'2) |
       re' r4 |
-      r2 r8 sol' |
+      r4 r r8 sol' |
       sol'4 sol' la' |
       fa' fa' sol' |
       sol'4.( fa'8[ mi' fa']) |
       mi'2 r4 |
       R2.*4 |
-      r2 r8 sol' |
+      r4 r r8 sol' |
       sol'2. |
       sol'4 sol' sol' |
       sol'2 r8 fa' |
@@ -509,20 +553,20 @@
       fad' sol'4. sol'8 |
       sol'2( fad'4) |
       sol'2 r4 |
-      r2 r8 fa' |
+      r4 r r8 fa' |
       mi'2. |
-      r2 r8 sol' |
+      r4 r r8 sol' |
       la'2. |
       sol'4 sol' la' |
       fad'2 fad'4 |
       sol'2. |
-      r2 r8 sol' |
+      r4 r r8 sol' |
       la'4 fa' fa' |
       re' re' mi' |
       mi'( re'2) |
       do' r4 |
       R2.*4 |
-      r2 r8 sol' |
+      r4 r r8 sol' |
       sol'2 r8 la' |
       sol'2. |
       sol'4 sol' fad' |
