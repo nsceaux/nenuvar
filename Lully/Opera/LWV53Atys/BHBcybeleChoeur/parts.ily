@@ -6,4 +6,4 @@
                    (basse-continue
                     #:score-template "score-basse-continue-voix"
                     #:notes "basse-continue")
-                   (voix #:score "score-voix"))
+                   (silence #:score "score-silence"))
