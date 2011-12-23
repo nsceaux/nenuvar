@@ -5,52 +5,66 @@
 }
 \scene "Scène Première" "SCÈNE 1 : Celænus, Cybèle, Mélisse"
 \sceneDescription \markup \smallCaps { Celænus, Cybèle, Mélisse. }
-\pieceTocTitle "Ritournelle" \includeScore "FAAritournelle"
+\pieceTocTitle "Ritournelle"
+\includeScore "FAAritournelle"
 %{ n°2 %}
-\pieceToc \markup \smallCaps { Celænus, Cybèle } \includeScore "FABcelaenusCybele"
-%{ n°3 %}\newBookPart #'(full voix)
+\pieceToc \markup \smallCaps { Celænus, Cybèle }
+\includeScore "FABcelaenusCybele"
+%{ n°3 %}\newBookPart #'(full-rehearsal voix)
 \scene "Scène II" \markup \wordwrap {
   SCÈNE 2 : Atys, Sangaride, Cybèle, Celænus, Mélisse
 }
 \sceneDescription \markup \smallCaps { Celænus, Cybèle, Sangaride, Atys. }
-\pieceToc \markup \smallCaps { Celænus, Cybèle, Sangaride, Atys } \includeScore "FBAccsa"
-%{ n°4 %}%\newBookPart #'(full)
+\pieceToc \markup \smallCaps { Celænus, Cybèle, Sangaride, Atys }
+\includeScore "FBAccsa"
+%{ n°4 %}%\newBookPart #'(full-rehearsal)
 \scene "Scène III" \markup \wordwrap {
   SCÈNE 3 : Alecton, Atys, Sangaride, Cybèle, Celænus,
   troupe de prétresses, chœur de Phrygiens
 }
 \sceneDescription \markup \smallCaps { Celænus, Cybèle, Sangaride, Atys. }
-\pieceTocTitle "Prélude pour Alecton" \includeScore "FCAprelude"
+\pieceTocTitle "Prélude pour Alecton"
+\includeScore "FCAprelude"
 %{ n°5 %}
-\pieceToc \markup \smallCaps { Atys, Sangaride, Celænus, Cybèle, chœur } \includeScore "FCBascc"
-%{ n°6 %}\newBookPart #'(full)
+\pieceToc \markup \smallCaps { Atys, Sangaride, Celænus, Cybèle, chœur }
+\includeScore "FCBascc"
+%{ n°6 %}\newBookPart #'(full-rehearsal)
 \scene "Scène IV" \markup \wordwrap { SCÈNE 4 : Cybèle, Atys }
 \sceneDescription \markup \smallCaps { Cybèle, Atys. }
-\pieceToc \markup \smallCaps { Cybèle, Atys } \includeScore "FDAatysCybele"
-%{ n°7 %}\newBookPart #'(full)
+\pieceToc \markup \smallCaps { Cybèle, Atys }
+\includeScore "FDAatysCybele"
+%{ n°7 %}\newBookPart #'(full-rehearsal)
 \scene "Scène V" "SCÈNE 5 : Cybèle, Mélisse"
 \sceneDescription \markup \smallCaps { Cybèle, Mélisse. }
-\pieceToc \markup \smallCaps { Cybèle, Mélisse } \includeScore "FEAcybeleMelisse"
+\pieceToc \markup \smallCaps { Cybèle, Mélisse }
+\includeScore "FEAcybeleMelisse"
 %{ n°8 %}
 \scene "Scène VI" \markup \wordwrap {
   SCÈNE 6 : Cybèle, Idas, Atys
 }
 \sceneDescription \markup \smallCaps { Cybèle, Idas, Atys. }
-\pieceToc \markup \smallCaps { Cybèle, Idas, Atys } \includeScore "FFAcybeleIdasAtys"
-%{ n°9 %}\newBookPart #'(full)
+\pieceToc \markup \smallCaps { Cybèle, Idas, Atys }
+\includeScore "FFAcybeleIdasAtys"
+%{ n°9 %}\newBookPart #'(full-rehearsal)
 \scene "Scène VII" \markup \wordwrap {
   SCÈNE 7 : Cybèle, troupe de nymphes et de corybantes
 }
 \sceneDescription \markup \smallCaps { Cybèle, chœurs. }
-\pieceTocTitle "Ritournelle" \includeScore "FGAritournelle"
+\pieceTocTitle "Ritournelle"
+\includeScore "FGAritournelle"
 %{ n°10 %}
-\pieceToc \markup \smallCaps { Cybèle, chœur } \includeScore "FGBcybeleChoeur"
+\pieceToc \markup \smallCaps { Cybèle, chœur }
+\includeScore "FGBcybeleChoeur"
 %{ n°11 %}\newBookPart #'(dessus1 dessus2)
-\pieceTocTitle "Entrée des Nymphes" \includeScore "FGCnymphes"
+\pieceTocTitle "Entrée des Nymphes"
+\includeScore "FGCnymphes"
 %{ n°12 %}
-\pieceTocTitle "Première entrée des Corybantes" \includeScore "FGDcorybantes"
+\pieceTocTitle "Première entrée des Corybantes"
+\includeScore "FGDcorybantes"
 %{ n°13 %}
-\pieceTocTitle "Deuxième entrée des Corybantes" \includeScore "FGEcorybantes"
-%{ n°14 %}\newBookPart #'(full)
-\pieceToc \markup \smallCaps { Cybèle, chœur } \includeScore "FGFcybeleChoeur"
+\pieceTocTitle "Deuxième entrée des Corybantes"
+\includeScore "FGEcorybantes"
+%{ n°14 %}\newBookPart #'(full-rehearsal)
+\pieceToc \markup \smallCaps { Cybèle, chœur }
+\includeScore "FGFcybeleChoeur"
 \actEnd "FIN DU CINQUIÈME ET DERNIER ACTE"
