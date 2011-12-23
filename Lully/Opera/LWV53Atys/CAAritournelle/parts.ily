@@ -1,3 +1,2 @@
-\piecePartSpecs #`((dessus1)
-                   (dessus2)
+\piecePartSpecs #`((dessus #:score "score-dessus")
                    (basse-continue))
