@@ -1,6 +1,15 @@
 \clef "quinte" sol1 |
 sol2. sol4 |
-%{ sol4 %} la re' do' la |
+\myfootnote #'NoteHead #'(0 . 3.5) \markup {
+  Manuscrit : \raise #'3 \score {
+    { \tinyQuote \time 2/2
+      \key sol \major \clef "alto"
+      sol4 re' do' la |
+    }
+    \layout { \quoteLayout }
+  }
+}
+%{ sol4 %} la4 re' do' la |
 la2. la4 |
 sol2. sol4 |
 la4 re' re'4. fad'8 |
