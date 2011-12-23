@@ -5,7 +5,20 @@
     la'4\trill la' fad'8 fad'16 fad' fad'8. fad'16 |
     sol'8 sol'16 si' sol'8\trill sol'16 sol' mi'4\trill r8 do''16 do'' |
     % mi'8\trill mi'16 fad' sold'8. sold'16 la'8. si'16 do''8. re''16 |
-    mi'8\trill mi'16 fad' sol'8. sol'16 la'8. la'16 si'8. do''16 |
+    mi'8\trill mi'16 fad' \myfootnote #'NoteHead #'(0 . 2) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \time 4/4 \key sol \major \clef "soprano"
+            mi'8 mi'16 fad' sold'8. sold'16 la'8. si'16 do''8. re''16 |
+            si'8 si'
+          } \addlyrics {
+            Roy de Phry -- gie au -- roit la pre -- fe -- ren -- ce
+          }
+        >>
+        \layout { \quoteLayout }
+      }
+    } sol'8. sol'16 la'8. la'16 si'8. do''16 |
     si'8\trill si' si' si'16 si' dod''8 re'' |
     dod''4 re''8 re''16 re'' re''8 dod'' |
     re''4 r la'8 la'16 la' la'8 si' |
@@ -26,6 +39,23 @@
     \tag #'basse \cybeleMark r8 fad'16 fad' fad'8 fad'16 fad' |
     sol'4 sol'8 la'16 si' do''8. re''16 |
     si'4\trill si' r sol'8 sol' |
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \time 4/4 \key sol \major \clef "soprano"
+            do''4 do''8 do'' re''4( do''8) re''8 |
+            mi''4. do''8 la'4. la'8 |
+            la'4. si'8 do''4( si'8) do''8 |
+            si'4.
+          } \addlyrics {
+            gran -- de di -- vi -- ni -- té
+            doit fai -- re sa fe -- li -- ci -- té
+          }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     do''4 do''8 do'' %{ re''4( do''8) %} re''4. re''8 |
     mi''4. do''8 la'4.\trill la'8 |
     la'4. si'8 %{ do''4( si'8) %} do''4. do''8 |
@@ -57,7 +87,17 @@
       \tag #'celaenus { \celaenusMark R1*5 | R2.*2 | R1*3 | R2.*4 | R1*4 | R2. | r4 } >>
     \tag #'basse \celaenusMark re'8. re'16 sol2 |
     do'8. do'16 do'8. mi'16 la8.\trill la16 si8. do'16 |
-    si4\trill r8 %{ do'16 do' %} re'16 re' sol8. sol16 re8 mi16 fa |
+    si4\trill r8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \set autoBeaming = ##f \tinyQuote
+            \time 4/4 \key sol \major \clef "varbaritone"
+            si4 r8 do'16 do' sol8. sol16 re8 mi16 fab | mi8 mi
+          } \addlyrics { -sir. Je suis Roy, Nep -- tune est mon pe -- re, }
+        >>
+        \layout { \quoteLayout }
+      }
+    } %{ do'16 do' %} re'16 re' sol8. sol16 re8 mi16 fa |
     mi8\trill mi r mi' si8. si16 si8. si16 |
     do'8. do'16 re'8. mi'16 sold8.\trill la16 |
     la4 r8 do'16 do' do'8 do'16 do' do'8. si16 |

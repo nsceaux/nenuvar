@@ -19,7 +19,7 @@ si,2 do |
 dod2.\trill |
 re2 mi~ |
 mi4 do re re, |
-sol,1 |
+<< \origVersion { sol,2~ sol, } \modVersion sol,1 >> |
 do2 sold, |
 la, mi4 |
 la, la fad2\trill |
