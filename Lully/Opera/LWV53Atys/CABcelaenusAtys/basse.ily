@@ -30,7 +30,7 @@ fa mi8 fa sol sol, |
 do2. sib,4 |
 la,1 |\allowPageTurn
 sib,2. |
-si,!\trill |
+<< \origVersion sid,\trill \modVersion si,!\trill >> |
 do4 dod2 |
 re2. fad,4 |
 sol, re, re8 do sib,4 |

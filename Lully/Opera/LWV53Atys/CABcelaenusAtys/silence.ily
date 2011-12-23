@@ -1,3 +1,3 @@
-R1*14\noBreak R2.\noBreak R1*16\noBreak R2.*3\noBreak R1*2\noBreak
-R2.\noBreak R1*3\noBreak R2.*5\noBreak R1*17\noBreak R2.*2\noBreak
-R1*4\noBreak R1*48\noBreak R1*5
+R1*14 R2. R1*16 R2.*3 R1*2
+R2. R1*3 R2.*5 R1*17 R2.*2
+R1*4 R1*48 R1*5
