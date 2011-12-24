@@ -1,6 +1,3 @@
-R1*2\noBreak R2.*5\noBreak R1\noBreak R2.*5\noBreak R1*3\noBreak
-R2.*21\noBreak R2.*3\noBreak R2.*21\noBreak R1*4\noBreak
-R2.*18\noBreak R1*5\noBreak R2.*2\noBreak R1\noBreak R2.
-R1*5\noBreak R2.*2\noBreak R1\noBreak R1\noBreak R1*3\noBreak
-R2.*3\noBreak R1\noBreak R2.\noBreak R1\noBreak R2.\noBreak
-R1*3\noBreak R2.*2\noBreak R1\noBreak R1*15\noBreak r2\noBreak r4
+R1*2 R2.*5 R1 R2.*5 R1*3 R2.*21 R2.*3 R2.*21 R1*4 R2.*18 R1*5 R2.*2 R1
+R2. R1*5 R2.*2 R1 R1 R1*3 R2.*3 R1 R2. R1 R2. R1*3 R2.*2 R1 R1*15 r2
+r4

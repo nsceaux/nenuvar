@@ -14,7 +14,20 @@
     sol'4 sol'8 sol'16 sol' %{ sol'8 sol' %} sol'8. sol'16 |
     mi'8\trill mi' do'' do''16 do'' do''8. do''16 |
     la'8\trill la'16 la' mi'8 fad'16 sol' fad'4\trill fad' |
-    r8 re'16 mi' fad'8 fad'16 %{ sold' %} sol' la'8. la'16 la' si' do'' la' |
+    r8 re'16 mi' fad'8 fad'16 \myfootnote #'NoteHead #'(0 . 2) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \set autoBeaming = ##f \tinyQuote \time 4/4
+            \key sol \major \clef "soprano"
+            r8 re'16 mi' fad'8 fad'16 sold' la'8. la'16 la' si' do'' la' |
+            mi''2
+          } \addlyrics {
+            Je par -- tis à re -- gret pour re -- tour -- ner aux cieux,
+          }
+        >>
+        \layout { \quoteLayout }
+      }
+    } %{ sold' %} sol'16 la'8. la'16 la' si' do'' la' |
     mi''2 si'8 si'16 si' si'8 si' |
     mi'4 r8 do''16 do'' la'8\trill la'16 la' |
     fad'2\trill si'4 |
@@ -28,6 +41,17 @@
     la' sol'4. %{ fad'8 %} sol'8 |
     fad'2\trill r8 re'' |
     re''4 do''4.\trill do''8 |
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \set autoBeaming = ##f \tinyQuote \time 3/4
+            \key sol \major \clef "soprano"
+            do''2 si'8 do'' | si'4( la'2) | sol'2
+          } \addlyrics { voit ce qu'on ay -- "me ?" }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     % do''2 si'8 do'' |
     do''4 la' si' |
     si'4( la'2)\trill |
@@ -36,6 +60,17 @@
     re''4 do''4.\trill do''8 |
     do''2 r8 si' |
     si'4 la'4.\trill la'8 |
+    \myfootnote #'NoteHead #'(0 . 2) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \set autoBeaming = ##f \tinyQuote \time 3/4
+            \key sol \major \clef "soprano"
+            la'4( sol') fad'8 sol' | sol'4( fad'2) | mi'4
+          } \addlyrics { voit ce qu'on ay -- me. }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     % la'4( sol') fad'8 sol' |
     la'4 fad' sol' |
     sol'4( fad'2)\trill |
@@ -60,10 +95,10 @@
     re''4 r8 si'16 si' sold'4 %{ sold'8. sold'16 %} sold'8 sold' |
     la'4. la'8 re''8. %{ do''16 do''8\trill si' %} re''16 do''8.\trill si'16 |
     do''8 do'' r mi''16 re'' do''8 do''16 si' |
-    la'8.\trill la'16 la'8. sol'16 sol'8.\trill fad'16 |
+    la'8.\trill la'16 la'8. la'16 sol'8.\trill fad'16 |
     sol'8 sol' r si' mi''8. mi''16 mi''8. si'16 |
     do''4 do''8 si' la'4\trill la'8 sol' |
-    fad'4\trill r8 si' si'8. si'16 dod''8 re'' |
+    fad'4\trill r8 si' si'8. si'16 dod''8. re''16 |
     dod''8. dod''16 dod''8. dod''16 red''8 mi'' mi''[ red''] |
     mi''2 r |
     r4 r8 si'16 re'' si'8\trill si'16 si' |
@@ -72,8 +107,8 @@
     si'4\trill si' r si' |
     dod''8 dod'' re'' re'' re'' dod'' |
     re''4 r8 re' la' la'16 si' do''8 do''16 si' |
-    si'4\trill si'8 si'16 si' do''8 re'' |
-    mi''4 do''8. si'16 la'4\trill la'8. si'16 |
+    si'4\trill si'8 si'16 si' do''8. re''16 |
+    mi''4 r8 do''16 si'16 la'4\trill la'8. si'16 |
     sol'4 sol' r2 |
     r sol'8 sol'16 sol' sol'8 sol' |
     mi'4 r8 mi'16 fad' sol'8 sol'16 la' |
@@ -109,6 +144,36 @@
     \tag #'basse \melisseMark r8 si'16 si' mi''8 mi''16 mi'' |
     %{ si'8 r16 %} si'8. si'16 sol'4\trill sol'8 sol'16 fad' |
     fad'2.\trill |
+    \myfootnote #'NoteHead #'(0 . 2) \markup\column {
+      \wordwrap { Dans le manuscrit, les vers
+        \italic { Vous méprisiez trop l'amour, / Son nom vous semblait étrange }
+        sont chantés deux fois.
+      }
+      \score {
+        \new ChoirStaff <<
+          \new Staff {
+            \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key sol \major \clef "soprano"
+            \repeat volta 2 {
+              sol'4 la' si' | fad' sol' mi' |
+              si'2 mi''4 | do''2 do''8. do''16 |
+              do''2 si'4 | si'( la'2) |
+            } \alternative { { sol'2. | \bar ":|" } { sol'2 si'8 do'' | } }
+          } \addlyrics {
+            Vous mé -- pri -- siez trop l'a -- mour,
+            son nom vous sem -- bloit es -- tran -- ge, "- ge," à la
+          }
+          \new Staff {
+            \key sol \major \clef "bass"
+            mi2. | red4 mi do |
+            si, si8 la sold4 | la4. la,8 si, do |
+            re2 sol,4~ | sol, re,2 |
+            sol,4 sol8 la sol fad | sol,4 sol2 |
+          }
+        >>
+        \layout { \quoteLayout indent = 5\mm }
+      }
+    }
     sol'4 la' si' |
     fad'\trill sol' mi' |
     si'2 mi''4 |
@@ -134,7 +199,39 @@
     mi''2( red''4\trill) |
     mi''4
     << { s2. s1*3 s2. } \tag #'melisse {  r4 r2 | R1*3 | R2. } >>
-    \tag #'basse \melisseMark r4 si' si' |
+    \tag #'basse \melisseMark
+    \myfootnote #'Rest #'(0 . 2) \markup\column {
+      \wordwrap { Dans le manuscrit, les vers
+        \italic { Vous braviez à tord l'Amour qui vous blesse }
+        sont chantés deux fois.
+      }
+      \score {
+        \new ChoirStaff <<
+          \new Staff {
+            \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key sol \major \clef "soprano"
+            r4 si' si' | mi''4.( red''8) mi''4 |
+            red''2 si'4 | fad' sol' la' |
+            sol'2 mi'4 | r si' si' |
+            mi''4.( red''8) mi''4 | red''2 si'4 |
+            fad' sol' la' | sol'2 mi'4 |
+          } \addlyrics {
+            Vous bra -- viez à tort l'A -- mour qui vous bles -- se,
+            Vous bra -- viez à tort l'A -- mour qui vous bles -- se,
+          }
+          \new Staff {
+            \key sol \major \clef "bass"
+            mi'2 re'4 | do'2. |
+            si4. la8 sol la | si4 si,2 |
+            mi2. | mi'2 re'4 |
+            do'2. | si4. la8 sol la |
+            si4 si,2 | mi,2. |
+          }
+        >>
+        \layout { \quoteLayout indent = 5\mm }
+      }
+    }
+    r4 si' si' |
     mi''4.( red''8) mi''4 |
     red''2\trill si'4 |
     fad'\trill sol' la' |
@@ -152,7 +249,20 @@
     si'( la'2)\trill |
     sol'2 si'4 |
     %si' dod'' re'' | dod''2. |
-    si'4 do'' re'' | do''2.\trill |
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit, Baussen 1709 :
+      \raise #3 \score {
+        <<
+          { \set autoBeaming = ##f \tinyQuote \time 3/4
+            \key sol \major \clef "soprano"
+            si'4 dod'' re'' | dod''2. |
+          } \addlyrics { cœur le plus fort }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
+    si'4 do'' re'' |
+    do''2.\trill |
     la'4 si' do'' |
     si' la'4.\trill sol'8 |
     sol'4( fad'2)\trill |
