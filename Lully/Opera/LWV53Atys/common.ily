@@ -317,12 +317,17 @@ ballardFigures =
 baussenFigures =
 #(define-music-function (parser location figures) (ly:music?)
    (if (eqv? (ly:get-option 'urtext) #t)
-       (make-music 'Music 'void #t)
+       ;(make-music 'Music 'void #t)
+       #{ \new FiguredBass \with {
+            \override BassFigure #'color = #red
+            \override BassFigureContinuation #'color = #red
+          } $figures #}
        figures))
 
 baussenFiguresAlt =
 #(define-music-function (parser location figures) (ly:music?)
    (if (eqv? (ly:get-option 'urtext) #t)
+       ;(make-music 'Music 'void #t)
        #{ \new FiguredBass \with {
             \override BassFigure #'color = #red
             \override BassFigureContinuation #'color = #red
