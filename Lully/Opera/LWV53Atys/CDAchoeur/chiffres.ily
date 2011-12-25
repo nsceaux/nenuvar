@@ -1,30 +1,52 @@
-% 98
-<_>4 <_>1*3
-<_>1 <_+>2 <6> <5 6> <_+>4\figExtOn <_+>\bassFigureExtendersOff <_>1*2
+\simultaneous {
+  \baussenFiguresAlt {
+    % 98
+    <_>4 <_>1*3
+    <_>1 <_+>2 <6> <5 6> <_+>4\figExtOn <_+>\figExtOff <_>1*2
+    
+    % 99
+    <6>1 <_> <_! 5 6>2.\figExtOn <6>4\figExtOff
+    <_+>2 <6> <_! 5 6> <_+>4\figExtOn <_+>\figExtOff
+    
+    <_+>1 <_-> <_>1*2 <7>2 <6> <5/>2.\figExtOn <5/>4\figExtOff
+    
+    <_>2. <5 6>4 <4>2 <3> <_>1 <4 6> <3>4\figExtOn <3>\figExtOff <6>2 <4> <3>
+    
+    <_>1 <5 6> <_+> <_>2 <5 6> <_+>4\figExtOn <_+>\figExtOff <6>2 <4> <_+>
+    
+    % 100
+    <6>2.\figExtOn <6>4\figExtOff <6>1 <_>2. <5 6>4 <4>2 <_+>
+    <_> <_+> <_> <_! 5 6> <_+>2.\figExtOn <_+>4\figExtOff
+    
+    <_>2. <_! 5 6>4 <4 6>2 <_+> <_> <_+> <_!> <_- 5 6>
+    <_+>4\figExtOn <_+>4\figExtOff <6>2
+    
+    <4 6!>2 <_+>4\figExtOn <_+>\figExtOff
+    <6>2.\figExtOn <6>4\figExtOff <6>1 <_>2.
+    <_- 5 6>4 <4>2 <_+> <_>1
 
-% 99
-<6>1 <_> <_! 5 6>2.\figExtOn <6>4\bassFigureExtendersOff
-<_+>2 <6> <_! 5 6> <_+>4\figExtOn <_+>\bassFigureExtendersOff
-
-<_+>1 <_-> <_>1*2 <7>2 <6> <5/>2.\figExtOn <5/>4\bassFigureExtendersOff
-
-<_>2. <5 6>4 <4>2 <3> <_>1 <4 6> <3>4\figExtOn <3>\bassFigureExtendersOff <6>2 <4> <3>
-
-<_>1 <5 6> <_+> <_>2 <5 6> <_+>4\figExtOn <_+>\bassFigureExtendersOff <6>2 <4> <_+>
-
-% 100
-<6>2.\figExtOn <6>4\bassFigureExtendersOff <6>1 <_>2. <5 6>4 <4>2 <_+>
-<_> <_+> <_> <_! 5 6> <_+>2.\figExtOn <_+>4\bassFigureExtendersOff
-
-<_>2. <_! 5 6>4 <4 6>2 <_+> <_> <_+> <_!> <_- 5 6>
-<_+>4\figExtOn <_+>4\bassFigureExtendersOff <6>2
-
-<4 6!>2 <_+>4\figExtOn <_+>\bassFigureExtendersOff
-<6>2.\figExtOn <6>4\bassFigureExtendersOff <6>1 <_>2.
-<_- 5 6>4 <4>2 <_+> <_>1
-
-<_>2 <6>4 <5/>
-<_>2 <6> <_> <6> <4> <_+>4\figExtOn <_+>\bassFigureExtendersOff
-<6>1 <5/ 6> <_>2 <2 4+ 6>4 <6> <7>2 <6+> <_>1
-
-<_>2 <6>4 <5/> <_>2 <6> <_> <6> <_+>1 <6>1 <5/ 6> <_>1 <4 6>2 <_+> <_>1
+    <_>2 <6>4 <5/>
+    <_>2 <6> <_> <6> <4> <_+>4\figExtOn <_+>\figExtOff
+    <6>1 <5/ 6> <_>2 <2 4+ 6>4 <6> <7>2 <6+> <_>1
+    
+    <_>2 <6>4 <5/> <_>2 <6> <_> <6> <_+>1 <6>1 <5/ 6> <_>1 <4 6>2 <_+> <_>1
+  }
+  \ballardFigures {
+    % 141
+    <_>4 <_>1*4 <_>2 <6> <_> <4>4 <_+> <_>1
+    % 142
+    <_>1 <6> <_> <6>2 <6> <_+> <6> \naturalFig <_-> <4>4 <_+> <_+>1 \naturalFig <_->1
+    % 143
+    <_>1*3 \naturalFig <6 5->1 <_> <4>2 <_+> <_>1 <6 4> <_>2 <6>
+    % 144
+    <4>2 <3> <_>1 <6> <_+> \naturalFig <_->2 <6> <_+> <6> <4> <_+> <6>1
+    % 145
+    <6>1 <_> <4>2 <_+> <_+>1 <_>2 \naturalFig <6 _-> <_+>1 <_>2. \naturalFig <_->4 <4>2. <_+>4
+    % 146
+    <_+>1 \naturalFig <_->2 <6 _-> <_+> <6> <4> <_+> <6>1 <6> \naturalFig <_->2. <7 _->4 <4>2 <_+> <_>1
+    % 147
+    <_>2 <6>4 \naturalFig <5-> <_>2 <6> <_> <6> <_>1 <6> \naturalFig <6 5-> <_>2 <6 4+ 2>4 <6> <7>2 <6+> <_>1
+    % 148
+    <_>2 <6>4 \naturalFig <5-> <_>2 <6> <_> <6> <_+>1 <6> \naturalFig <6 5->1 <_> <4>2 <_+>
+  }
+}

@@ -57,6 +57,17 @@ r2 re'4 re' |
 re'2 %{ re'4. re'8 %} re'4 re' |
 re'2. re'4 |
 re'2 re'4 mi' |
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    <<
+      { \tinyQuote \time 2/2
+        \key sol \major \clef "tenor"
+        re'2.( do'4) | si1 | \bar "|."
+      } \addlyrics { -be -- le. }
+    >>
+    \layout { \quoteLayout }
+  }
+}
 % re'2.( do'4) |
 re'1 |
 si1\trill |

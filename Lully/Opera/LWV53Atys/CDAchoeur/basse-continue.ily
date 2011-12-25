@@ -22,7 +22,15 @@ sol2 sol4 do |
 re2 re, |
 sol,1~ |
 sol, |
-sol4 fa mi do %{ re %} |
+sol4 fa mi \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+  Manuscrit : \raise #2.5 \score {
+    { \tinyQuote \time 2/2
+      \key sol \major \clef "bass"
+      sol4 fab mi re | sol,2.
+    }
+    \layout { \quoteLayout }
+  }
+} do4 %{ re %} |
 sol,2. sol4 |
 do'2. si4 | % do'2 do'4 si
 la2. la4 |

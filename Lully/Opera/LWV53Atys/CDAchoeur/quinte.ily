@@ -61,10 +61,26 @@ la2. la4 |
 sol2 re'4. re'8 |
 do' re' do' si la4. la8 |
 % la2 la4. la8 |
-la2 sol4. sol8 |
+la2 \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key sol \major \clef "alto"
+      la2 la4. la8 | la2
+    }
+    \layout { \quoteLayout }
+  }
+} sol4. sol8 |
 la2 re'4 re' |
 % re'2 do'4 si |
-re'2 si4 si |
+re'2 \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key sol \major \clef "alto"
+      re'2 do'4 si | la2.
+    }
+    \layout { \quoteLayout }
+  }
+} si4 si |
 la2. la4 |
 si2 sol4 sol |
 re'1 |

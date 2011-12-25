@@ -60,6 +60,15 @@ re''2 fad'4. fad'8 |
 sol'2 sol'4. sol'8 |
 sol'2 la'8 si' la' sol' |
 fad'4. fad'8 sol'4. sol'8 |
+\myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key sol \major \clef "soprano"
+      fad'2 fad'4. fad'8 | sol'2. sol'4 | mi'2 mi'4 fad' | sol'2 sol'4 la' |
+    }
+    \layout { \quoteLayout }
+  }
+}
 % fad'2 fad'4. fad'8 | sol'2. sol'4 | re'2 mi'4 fad' | sol'2 sol'4 la' |
 sol'2 fad'4 fad' | sol'2 sol'4 sol' | la'2. la'4 | sol'2 sol'4. sol'8 |
 sol'2( fad') |
