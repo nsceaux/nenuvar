@@ -55,15 +55,15 @@
 \opusTitle "Atys"
 
 \opusPartSpecs
-#`((dessus "Dessus de violon, flûte, hautbois" ()
+#`((dessus "Flûtes, hautbois, violons" ()
            (#:notes "dessus"))
-   (haute-contre "Hautes-contre de violon, hautbois" ()
-                 (#:notes "haute-contre" #:clef "treble"))
-   (taille "Tailles de violon, hautbois" ()
+   (haute-contre "Hautes-contre" ()
+                 (#:notes "haute-contre" #:clef "alto"))
+   (taille "Tailles" ()
            (#:notes "taille" #:clef "alto"))
-   (quinte "Quintes de violon" ()
-           (#:notes "quinte" #:clef "quinte"))
-   (basse "Basses de violon, bassons" ()
+   (quinte "Quintes" ()
+           (#:notes "quinte" #:clef "alto"))
+   (basse "Basses, bassons" ()
           (#:notes "basse" #:clef "basse"))
    (basse-continue "Basse continue" ()
                    (#:notes "basse" #:clef "basse"

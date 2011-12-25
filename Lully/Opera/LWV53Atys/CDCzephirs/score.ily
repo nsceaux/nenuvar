@@ -1,10 +1,26 @@
 \score {
-  \new StaffGroup <<
-    \new Staff << \keepWithTag #'marks \global \includeNotes "dessus" >>
-    \new Staff << \keepWithTag #'marks \global \includeNotes "haute-contre" >>
-    \new Staff << \keepWithTag #'marks \global \includeNotes "taille" >>
-    \new Staff << \keepWithTag #'() \global \includeNotes "quinte" >>
-    \new Staff << \keepWithTag #'marks \global \includeNotes "basse" \includeFigures "chiffres" >>
+  <<
+    \origVersion \new StaffGroupNoBar <<
+      \new Staff << \global \keepWithTag #'hautbois \includeNotes "dessus" >>
+      \new Staff << \global \keepWithTag #'violons \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff <<
+        \global \keepWithTag #'() \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
+    >>
+    \modVersion \new StaffGroup <<
+      \new Staff << \global \keepWithTag #'dessus \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff <<
+        \global \keepWithTag #'() \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
+    >>
   >>
   \layout { }
   \midi { }

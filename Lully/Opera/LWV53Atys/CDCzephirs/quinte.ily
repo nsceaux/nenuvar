@@ -8,6 +8,15 @@ mib'4 sol2 |
 re'4 la2 |
 sib4. do'8 re'4 |
 R2.*4 |
+\myfootnote #'NoteHead #'(0 . 4) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 3/4
+      \key re \minor \clef "alto"
+      sib4 sib sib | sib8 do' re'4 re' |
+    }
+    \layout { \quoteLayout }
+  }
+}
 sol4 re'8 do' sib4 | % sib4 sib sib |
 sib8 do' re'4 re' |
 do' do'2 |
