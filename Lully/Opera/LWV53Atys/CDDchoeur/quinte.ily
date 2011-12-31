@@ -21,4 +21,13 @@ sib2 sib4 |
 do' fa' fa' |
 mib' sib do' |
 re' re' la |
+\myfootnote #'NoteHead #'(0 . 3) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 3/4
+      \key re \minor \clef "alto"
+      re'4 re' la | sid2. |\bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+}
 si2. |
