@@ -36,6 +36,16 @@
     dod''2 re''8[ dod''] |
     re''4 %{ re''4. dod''8 %} re'' dod'' |
     re''2. |
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        << { \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key re \minor \clef "soprano"
+            sid'4 sid'4. sid'8 | do''4.
+          } \addlyrics { Il faut sou -- vent }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     sib'4 si'4.\trill si'8 |
     do''4. do''8 re''4 |
     mib'' re''4.\trill do''8 |
@@ -46,7 +56,17 @@
     re'' re''4.\trill re''8 |
     mib''4 re'' do'' |
     % re'' sib'4.(\trill la'16) sib' |
-    re''4 sib'4. sib'8 |
+    re''4 sib'4. \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        << { \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key re \minor \clef "soprano"
+            re''4 sib'4.( la'16) sib' | la'2
+          } \addlyrics { -ve -- nir heu -- reux }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
+    sib'8 |
     la'2\trill sib'8 sib' |
     sib'2 la'4 |
     fad' sol' la' |
@@ -68,7 +88,16 @@
     la'4.\trill la'8 la'4 si' |
     do''2. la'4 |
     sib'4. sib'8 sib'4. sib'8 |
-    la'4 sib' %{ sol'4.( la'8) %} sol'2 |
+    la'4 sib' \myfootnote #'NoteHead #'(0 . 2) \markup {
+      Manuscrit : \raise #3 \score {
+        << { \tinyQuote #76 \time 2/2 \set autoBeaming = ##f
+            \key re \minor \clef "soprano"
+            la'4 sib' sol'4.( la'8) | fad'2.
+          } \addlyrics { -con -- nais -- can -- ce }
+        >>
+    \layout { \quoteLayout }
+      }
+    } %{ sol'4.( la'8) %} sol'2 |
     fad'2. la'4 |
     si'4 si' do'' re'' |
     mib'' re'' do''( si'?8) do'' |
@@ -92,7 +121,17 @@
     fa'4 r16 do' do' re' mib'8. fa'16 |
     re'4\trill << \tag #'atys re'4 \tag #'basse { re'8 s } >>
     << { s2 s2. s4 } \tag #'atys { r2 | R2. | r4 } >>
-    \tag #'basse \atysMark r8 re'16 do' si8 si16 %{ do' %} si |
+    \tag #'basse \atysMark r8 re'16 do' si8 si16
+    \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+      Manuscrit : \raise #3 \score {
+        << { \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key re \minor \clef "alto"
+            r4 r8 re'16 do' sid8 sid16 do' | do'4
+          } \addlyrics { Vous de -- vez a -- vec moy }
+        >>
+        \layout { \quoteLayout }
+      }
+    } %{ do' %} si16 |
     do'4 do'8 do' re'4 re'8 re' |
     mib'4
     << { s2. s1*4 s4 } \tag #'atys { r4 r2 | R1*4 | r4 } >>
@@ -101,13 +140,32 @@
     la8\trill la r do'16 re' mib'8 mib'16 re' do'8.\trill sib16 |
     sib4 r
     << { s2 s1 s4 } \tag #'atys { r2 | R1 | r4 } >>
-    \tag #'basse \atysMark r8 re' re'8. re'16 re'8 mib' |
+    \tag #'basse \atysMark r8 re' re'8. re'16 re'8
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #2 \score {
+        << { \tinyQuote \time 4/4 \set autoBeaming = ##f
+            \key re \minor \clef "alto"
+            r4 r8 re' re'8. re'16 re'8 mi' | fa'4
+          } \addlyrics { Qui peut la dé -- ga -- ger }
+        >>
+        \layout { \quoteLayout }
+      }
+    } mib'8 |
     fa'4 r8 fa'16 fa' mib'4\trill mib'8 re' |
     do'4\trill << \tag #'atys do'4 \tag #'basse { do'8 s } >>
     << { s2 s2.*2 s1 s4 } \tag #'atys { r2 | R2.*2 | R1 | r4 } >>
     \tag #'basse \atysMark r8 fa' re'\trill re'16 re' sib8\trill sib16 la |
     la8\trill la r fa'16 fa' re'8\trill re'16 re' |
-    si8. re'16 re'8 mib' mib'4( re'8.)\trill do'16 |
+    si8. re'16 re'8 \myfootnote #'NoteHead #'(0 . 2) \markup {
+      Manuscrit : \raise #3 \score {
+        << { \tinyQuote \time 4/4 \set autoBeaming = ##f
+            \key re \minor \clef "alto"
+            sid8. re'16 re'8 mib'16 mib'16( re'4.) do'8 | do'4
+          } \addlyrics { -rer de son di -- vin se -- cours, }
+        >>
+        \layout { \quoteLayout }
+      }
+    } mib'8 mib'4( re'8.)\trill do'16 |
     do'4 r8 sol' mib'8. mib'16 mib'8. sol'16 |
     do'4. do'8 sol8.\trill sol16 %{ sol8 la %} sol8. la16 |
     sib8 sib r sib sib8. sib16 do'8. re'16 |
@@ -119,6 +177,16 @@
     sol4
     << { s2.*2 } \tag #'atys { r4 r2 | r2 r4 } >>
     \tag #'basse \atysMark r8 re'16 re' |
+    \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+      Manuscrit : \raise #3 \score {
+        << { \tinyQuote \time 3/4 \partial 4 \set autoBeaming = ##f
+            \key re \minor \clef "alto"
+            r8 re'16 re' | do'8 do'16 re' mib'8.
+          } \addlyrics { Je ne puis me ré -- soudre }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     si8\trill do'16 re' mib'8. mib'16 mib' mib' mib' re' |
     re'4\trill re'
     << { s2 s1*22 } \tag #'atys {
@@ -133,7 +201,16 @@
         re'4 re' re'( do') |
         re'2. re'4 |
         re' re' mib' fa' |
-        sol'4. sol'8 sol'4 fa' |% fad' |
+        sol'4. sol'8 sol'4 \myfootnote #'NoteHead #'(0 . 1) \markup {
+          Manuscrit : \raise #3 \score {
+            << { \tinyQuote \time 2/2 \set autoBeaming = ##f
+                \key re \minor \clef "alto"
+                sol'4. sol'8 sol'4 fad' | sol'2 sol'4.
+              } \addlyrics { -por -- te la ba -- lan -- ce }
+            >>
+            \layout { \quoteLayout }
+          }
+        } fa'4 |% fad' |
         sol'2 sol'4. sol'8 |
         sol'4. fa'8 mib'4. re'8 |
         do'4.\trill do'8 re'4. mib'8 |
@@ -200,7 +277,16 @@
       do sol sol, | % do sol4. sol,8 |
       do2 do8 do |
       sol2 fa4 |
-      mib4 mib4. mib8 | % mib4 mib( re8) mib |
+      mib4 \myfootnote #'NoteHead #'(0 . 2) \markup {
+        Manuscrit : \raise #2.5 \score {
+          << { \tinyQuote \time 3/4 \set autoBeaming = ##f
+              \key re \minor \clef "bass"
+              mib4 mib( re8) mib | re2 re4 |
+            } \addlyrics { peu d'in -- no -- cen -- ce }
+          >>
+          \layout { \quoteLayout }
+        }
+      } mib4. mib8 | % mib4 mib( re8) mib |
       re2\trill re4 |
       si4 si4.\trill si8 |
       do'4 sib! la |
@@ -211,6 +297,16 @@
       re'( re2) |
       sol sol8 sol |
       do2 do4 |
+      \myfootnote #'NoteHead #'(0 . 2) \markup {
+        Manuscrit : \raise #3 \score {
+          << { \tinyQuote \time 3/4 \set autoBeaming = ##f
+              \key re \minor \clef "bass"
+              re mib do | re( re,2) | sol,4
+            } \addlyrics { peu d'in -- no -- cen -- ce }
+          >>
+          \layout { \quoteLayout }
+        }
+      }
       % re mib do | re( re,2) |
       re2 mib4 | do re2 |
       sol,4 r r2 |

@@ -14,6 +14,15 @@ re4 sol, mib |
 mi!2.\trill |
 fa2 la,8. sib,16 fa,4 |
 sib,1 |
+\myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 4/4
+      \key re \minor \clef "bass"
+      mi2 do | re
+    }
+    \layout { \quoteLayout }
+  }
+}
 mib2 do |
 re sol |
 re do4.\trill sib,8 |
@@ -53,6 +62,15 @@ si2. |
 do'4 sib! la |
 fad\trill sol sol, |
 re2 sol4 |
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 3/4
+      \key re \minor \clef "bass"
+      do4 do2 | re4 mib do | re re,2 | sol, sol,4 |
+    }
+    \layout { \quoteLayout }
+  }
+}
 % do4 do2 | re4 mib do | re re,2 | sol, sol,4 |
 do'2 do'4 | re' mib' do' | re' re2 | sol sol4 |
 do2 do4 |
