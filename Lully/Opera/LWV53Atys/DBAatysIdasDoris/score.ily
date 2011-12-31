@@ -9,8 +9,11 @@
     \new Staff \withLyrics <<
       \global \keepWithTag #'idas \includeNotes "voix"
     >> \keepWithTag #'idas \includeLyrics "paroles"
-    \new Staff << \global \includeNotes "basse" \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+    >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }
