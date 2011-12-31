@@ -15,7 +15,16 @@ sol4\trill mib'8 re' do'4\trill do'8 re' |
 sib2 re'8. re'16 re'8. la16 |
 sib4 sib8. do'16 la4\trill r8 do'16 re' |
 % mib'4 mib'8 fa' sol' sol'16 fa' mib'8\trill mib'16 re' |
-mib'4 mib'8. fa'16 sol'8 mib'16 sol' mib'8\trill mib'16 re' |
+mib'4 \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    << { \tinyQuote \time 4/4 \set autoBeaming = ##f
+        \key re \minor \clef "alto"
+        mib'4 mib'8 fa' sol' sol'16 fa' mib'8\trill mib'16 re' | re'4 re'
+      } \addlyrics { -mour mal -- gré toy me con -- traint à me ren -- dre, }
+    >>
+    \layout { \quoteLayout }
+  }
+} mib'8. fa'16 sol'8 mib'16 sol' mib'8\trill mib'16 re' |
 re'4\trill re' sib8 sib16 sib do'8. re'16 |
 sol2 mib'8. mib'16 fa'8. sol'16 |
 si4\trill si8. do'16 do'4 do'8 sol |

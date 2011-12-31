@@ -1,6 +1,5 @@
-\piecePartSpecs #`((dessus1)
-                   (dessus2)
-                   (voix)
-                   (silence #:tag-global ())
+\piecePartSpecs #`((dessus #:score "score-dessus")
                    (basse-continue #:notes "basse"
-                                   #:score-template "score-basse-continue-voix"))
+                                   #:score-template "score-basse-continue-voix")
+                   (silence #:score "score-silence"
+                            #:tag-global ()))

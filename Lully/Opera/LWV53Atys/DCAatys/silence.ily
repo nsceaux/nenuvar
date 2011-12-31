@@ -1,1 +1,1 @@
-R2.*16\noBreak R1\noBreak R2.\noBreak R1*22
+R2.*16 R1 R2. R1*22
