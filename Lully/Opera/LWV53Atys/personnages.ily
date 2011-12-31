@@ -1,3 +1,4 @@
+\tocItem "PERSONNAGES"
 \markuplist \fontsize-lines #2 \column-lines {
   \vspace #1
   \fontsize #2 \fill-line { \line { PERSONNAGES DU PROLOGUE } }

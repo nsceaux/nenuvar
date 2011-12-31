@@ -1,5 +1,5 @@
 \tocItem "NOTES"
-\markuplist \fontsize-lines #2 \column-lines {
+\markuplist\column-lines {
   \act { NOTES }
   \paragraph {
     Les documents sources utilisés pour préparer cette édition sont :
