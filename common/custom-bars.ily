@@ -261,6 +261,11 @@
     \override BarLine #'glyph-name = #bar-line::custom-calc-glyph-name
     \override BarLine #'break-visibility = #bar-line::custom-calc-break-visibility
     \override BarLine #'stencil = #bar-line::custom-print
+    \override BarLine #'Y-extent =
+    #(ly:make-unpure-pure-container
+      ly:grob::stencil-height
+      (lambda (grob b e)
+        (ly:grob::stencil-height grob)))
     \override SpanBar #'glyph-name = #span-bar::custom-calc-glyph-name
   }
   \context {
