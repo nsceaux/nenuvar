@@ -1,5 +1,4 @@
-\appendixSubSection "Acte III"
-\markuplist \column-lines {
+\markup\n-columns {
   \livretAct \line { ACTE TROISIESME. }
   \livretDescAtt \wordwrap-center {
     Le Theatre change & represente
@@ -112,7 +111,8 @@
   \livretVerC { Il faut laisser suspendre }
   \livretVerC { Les troubles de mon cœur. }
 
-  \livretDidas \line { Atys descend. }
+  \livretDidasP \line { Atys descend. }
+
   %%
   \livretScene \line { SCENE QUATRIESME. }
   \livretDescAtt \justify {
@@ -152,12 +152,13 @@
   \livretVerC { Coulez, murmurez, clairs Ruisseaux, }
   \livretVerC { Il n'est permis qu'au bruit des eaux }
   \livretVer { De troubler la douceur d'un si charmant silence. }
-
+}
+\markup\n-columns {
   \livretPers \line { LE SOMMEIL, MORPHÉE, PHOBETOR & PHANTASE }
   \livretVerC { Dormons, dormons tous, }
   \livretVerC { Ah que le repos est doux ! }
 
-  \livretDesc \wordwrap {
+  \livretDesc\justify {
     Les Songes agreables aprochent d'Atys, &
     par leurs chants, & par leurs dances, luy font
     connoistre l'amour de Cybele, & e bonheur
@@ -211,7 +212,7 @@
   \livretVerC { Lors qu'il commence }
   \livretVerC { Pour ne finir jamais. }
 
-  \livretDesc \wordwrap {
+  \livretDesc\justify {
     Les songes funestes approchent d'Atys, & le
     menacent de la vengeance de Cybele s'il mesprise
     son amour, & s'il ne l'ayme pas avec fidelité.
@@ -300,6 +301,8 @@
   \livretVerC { Je sçay trop ce que je vous doy }
   \livretVerC { Pour manquer de reconnoissance... }
 
+}
+\markup\n-columns {
   %%
   \livretScene \line { SCENE SIXIESME. }
   \livretDescAtt \wordwrap-center { SANGARIDE, CYBELE, ATYS, MELISSE. }
@@ -349,7 +352,7 @@
   \livretVerC { De la fatale violence }
   \livretVerC { Où vous ne pouvez consentir. }
 
-  \livretDidas \line { Sangaride se retire. }
+  \livretDidasP \line { Sangaride se retire. }
   \livretPers \line { CYBELE parle à Atys. }
   \livretVer { Laissez-nous, attendez mes ordres pour partir, }
   \livretVer { Je prétens vous armer de ma toute-puissance. }
@@ -415,5 +418,5 @@
   \livretVerC { Espoir si cher, et si doux, }
   \livretVerC { Ah ! pourquoy me trompez-vous ? }
 
-  \livretFinAct \line { Fin du troisiéme Acte. }
+  \vspace #28
 }

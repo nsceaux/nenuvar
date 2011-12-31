@@ -1,5 +1,4 @@
-\appendixSubSection "Acte IV"
-\markuplist \column-lines {
+\markup\n-columns {
   \livretAct \line { ACTE QUATRIESME. }
   \livretDescAtt \wordwrap-center {
     Le Theatre change & represente le Palais
@@ -129,6 +128,7 @@
   \livretPers SANGARIDE.
   \livretVer { Seigneur, contentez-vous que je sçache obeïr, }
   \livretVer { En l'estat où je suis c'est ce que je puis dire... }
+
   %%
   \livretScene \line { SCENE TROISIESME. }
   \livretDescAtt \wordwrap-center {
@@ -137,6 +137,8 @@
   \livretRef #'ECAcelaenusSangaride
   \livretPers CELÆNUS.
   \livretVerC { Vostre cœur se trouble, il soûpire. }
+}
+\markup\n-columns {
   \livretPers SANGARIDE.
   \livretVerC { Expliquez en vostre faveur }
   \livretVer { Tout ce que vous voyez de trouble dans mon cœur. }
@@ -194,6 +196,7 @@
   \livretVerC { Beauté trop cruelle, c'est vous, }
   \livretVerC { Amant infidelle, c'est vous, }
   \livretVerC { Qui rompez des liens si doux. }
+  \vspace #1 %% HACK
   \livretPers SANGARIDE.
   \livretVer { Vous m'avez immolée à l'amour de Cybele. }
   \livretPers ATYS.
@@ -237,9 +240,10 @@
   \livretVer { Servons-nous du pouvoir que Cybele me donne, }
   \livretVerC { Je vais preparer les Zephirs }
   \livretVerC { A suivre nos desirs. }
+
   %%
   \livretScene \line { SCENE CINQUIESME. }
-  \livretDescAtt \column {
+  \livretDesc \column {
     \wordwrap-center {
       SANGARIDE, CELÆNUS,
       \smallCaps { le Dieux du Fleuve Sangar,
@@ -263,6 +267,8 @@
       & deux vieilles Nymphes de Fontaines dançantes.
     }
   }
+}
+\markup\n-columns {
   \livretRef #'EEBsangarChoeur
   \livretPers \line { Le Dieu du Fleuve Sangar. }
   \livretVer { O vous, qui prenez part au bien de ma famille, }
@@ -363,8 +369,9 @@
   \livretVerC { Il cherche encor l'orage }
   \livretVerC { Au moment qu'il en sort. }
   \livretRef #'EEIchoeur
-  \livretPers \line {
-    Chœur de Dieux de Fleuves, & de Divinitez de Fontaines.
+  \livretPers\center-column {
+    \line { Chœur de Dieux de Fleuves, }
+    \line { & de Divinitez de Fontaines. }
   }
   \livretVerC { Un grand calme est trop fascheux, }
   \livretVerC { Nous aimons mieux la tourmente. }
@@ -404,19 +411,23 @@
   \livretVerC { Pourquoy faut-il qu'elle separe }
   \livretVer { Deux illustres Amants pour qui l'Hymen prepare }
   \livretVerC { Ses liens les plus doux ? }
+
   \livretPers Chœur.
   \livretVerC { Opposons-nous }
   \livretVerC { A ce dessein barbare. }
-  \livretPers \line { ATYS élevé sur un nuage. }
-  \livretVerC { Aprenez, audacieux, }
-  \livretVerC { Qu'il n'est rien qui n'obeïsse }
-  \livretVer { Aux souveraines loix de la Reyne des Dieux. }
-  \livretVerC { Qu'on nous enleve de ces lieux ; }
-  \livretVer { Zephirs, que sans tarder mon ordre s'accomplisse. }
-  \livretDesc \wordwrap-center {
-    Les Zephirs volent, & enlevent Atys et Sangaride.
+}
+\markup\n-columns {
+  \column {
+    \livretPers \line { ATYS élevé sur un nuage. }
+    \livretVerC { Aprenez, audacieux, }
+    \livretVerC { Qu'il n'est rien qui n'obeïsse }
+    \livretVer { Aux souveraines loix de la Reyne des Dieux. }
+    \livretVerC { Qu'on nous enleve de ces lieux ; }
+    \livretVer { Zephirs, que sans tarder mon ordre s'accomplisse. }
+    \livretDesc \wordwrap-center {
+      Les Zephirs volent, & enlevent Atys et Sangaride.
+    }
+    \livretPers \smallCaps Chœur.
+    \livretVerC { Quelle injustice ! }
   }
-  \livretPers \smallCaps Chœur.
-  \livretVerC { Quelle injustice ! }
-  \livretFinAct \line { Fin du quatriesme Acte. }
 }

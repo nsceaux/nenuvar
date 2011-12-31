@@ -82,6 +82,22 @@
                        (markup #:column (#:fill-line (#:fontsize 2 #:pad-around 2 text)
                                          next))))))
 
+#(define-markup-command (livretDesc layout props text) (markup?)
+   (interpret-markup
+    layout props
+    (markup #:force-line-width-ratio 1/20 #:null
+            #:fontsize 1 #:line-width-ratio 9/10 #:pad-around 2 text)))
+
+#(define-markup-command (livretDescPage layout props text) (markup?)
+   #:properties ((line-width)
+                 (gap 10)
+                 (word-space 0))
+   (interpret-markup
+    layout props
+    (markup #:hspace gap
+            #:override `(line-width . ,(- line-width gap word-space 2))
+            #:fontsize 1 #:pad-around 2 text)))
+
 #(define-markup-command (livretDescAtt layout props text next)
      (markup? markup?)
    (interpret-markup

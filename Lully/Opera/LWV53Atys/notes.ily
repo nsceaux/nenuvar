@@ -1,214 +1,150 @@
-\appendixSection "NOTES"
+\tocItem "NOTES"
 \markuplist \fontsize-lines #2 \column-lines {
   \act { NOTES }
-  
-  \section \line { Sources et choix éditoriaux }
   \paragraph {
-    Plusieurs sources ont été exploitées pour préparer cette édition
-    \concat { d' \italic { Atys } } :
-  }
-  \wordwrap-lines { \vspace #1.0 \hspace #2
-    \bold { [Ballard 1689] } Paris : Christophe Ballard, 1689.
-    Première édition, partition complète imprimée. }
-  \paragraph {
-    L'édition Ballard 1689 a été considérée comme le matériel principal.
-    L'édition proposée ici en est essentiellement une retranscription, en
-    notation modernisée, sauf exceptions listées plus bas.
-  }
-  \wordwrap-lines { \vspace #1.0 \hspace #2
-    \bold { [Manuscrit] } Partition complète manuscrite, non datée.
-    Bibliothèque municipale de Versailles, manuscrit musical 100. }
-  \paragraph {
-    Ce manuscrit non daté est légèrement lacunaire : il manque par
-    exemple quelques feuillets dans les chœurs du premier acte. Il
-    présente des variations de rythme et quelques différences
-    harmoniques par rapport à Ballard 1689.  Par ailleurs, il comporte
-    des indications de reprises et des vers supplémentaires.
-    Ces différences sont relevées plus bas.
-    En cas de doute sur l'édition Ballard 1689, le manuscrit a été
-    consulté pour décider d'une éventuelle correction.
-  }
-  \wordwrap-lines { \vspace #1.0 \hspace #2
-    \bold { [Baussen 1709] } Paris : Henri de Baussen, 1709.
-    Seconde édition, partition réduite gravée. }
-  \paragraph {
-    La seconde édition Baussen 1709 est une partition réduite. Étant
-    plus lisible que les autres sources et moins lacunaire sur cet
-    aspect, elle a été la source de la basse chiffrée présentée dans
-    cette édition.
-  }
-  \wordwrap-lines { \vspace #1.0 \hspace #2
-    \bold { [Philidor 1703] } Versailles : Philidor l'Aisné, 1703.
-    Parties séparées manuscrites de \italic Thésée et \italic Atys.
-    Bibliothèque municipale de Versailles. }
-  \line { \hspace #6 Manuscrit musical 291 : 2.dessus chantante. }
-  \line { \hspace #6 Manuscrit musical 293 : basse chantante. }
-  \line { \hspace #6 Manuscrit musical 294 : taille chantante. }
-  \line { \hspace #6 Manuscrit musical 295 : 1.dessus de violon, flûte et hautbois. }
-  \line { \hspace #6 Manuscrit musical 296 : 2.dessus de violon, flûte et hautbois. }
-  \line { \hspace #6 Manuscrit musical 297 : 1.basse continue. }
-  \line { \hspace #6 Manuscrit musical 298 : 2.basse continue. }
-  \paragraph {
-    Les parties séparées du matériel de 1703 copié par Philidor l'Aisné
-    sont proches du manuscrit non daté. Les indications d'interprétation
-    qui y sont contenues ont été ajoutées dans cette édition.
+    Les documents sources utilisés pour préparer cette édition sont :
   }
   \null
+  \indented-lines #10 {
+    %% BALLARD
+    \line \bold { [Ballard 1689] }
+    \line {
+      \italic { Atys. Tragédie mise en musique par monsieur de Lully. }
+      Lully, Jean-Baptiste (1632-1687).
+    }
+    \line { Paris : Christophe Ballard, 1689 }
+    \wordwrap-lines {
+      Bibliothèque de Besançon, 11545 pièce n°2 000008092151.
+      \with-url #"http://culture.besancon.fr/ark:/48565/a0113071458227aXluG"
+      \smaller\typewriter "http://culture.besancon.fr/ark:/48565/a0113071458227aXluG"
+    }
+    \line { Première édition, partition complète imprimée. }
+    \null
+  
+    %% LIVRET
+    \line\bold { [Livret 1676] }
+    \line { \italic { Atys, tragedie en musique. } Quinault, Philippe (1635-1688). }
+    \line { Paris : Christophe Ballard, 1676 }
+    \wordwrap-lines {
+      Bibliothèque nationale de France, YF-686.
+      \with-url #"http://gallica.bnf.fr/ark:/12148/bpt6k5448680n"
+      \smaller\typewriter "http://gallica.bnf.fr/ark:/12148/bpt6k5448680n"
+    }
+    \line { Livret imprimé. }
+    \null
+
+    %% MANUSCRIT
+    \line\bold { [Manuscrit] }
+    \line {
+      \italic { Atys, tragédie en cinq actes avec prologue,
+        livret de Philippe Quinault. }
+      Lully, Jean-Baptiste (1632-1687).
+    }
+    \wordwrap-lines {
+      Bibliothèque municipale de Versailles,
+      manuscrit musical 100.
+      \with-url #"http://www.bibliotheques.versailles.fr/simclient/Integration/FONDS_ANCIEN/DossiersDoc/voirDossManuscrit.asp?INSTANCE=DOSSIERSDOCS_VERSAILLES&DOSS=BKDD_BMVMsmus_000023_MSMUS100"
+      \smaller\typewriter "http://www.bibliotheques.versailles.fr"
+    }
+    \line { Partition complète manuscrite, non datée. }
+    \null
+
+    %% BAUSSEN
+    \line\bold { [Baussen 1709] }
+    \line {
+      \italic { Atys. Tragédie mise en musique. }
+      Lully, Jean-Baptiste (1632-1687).
+    }
+    \line { Paris : Henri de Baussen, 1709 }
+    \wordwrap-lines {
+      University of North Texas Music Library.
+      \with-url #"http://digital.library.unt.edu/ark:/67531/metadc55/"
+      \smaller\typewriter #"http://digital.library.unt.edu/ark:/67531/metadc55/"
+    }
+    \line { Seconde édition, partition réduite gravée. }
+    \null
+
+    %% PHILIDOR
+    \line\bold { [Philidor 1703] }
+    \wordwrap-lines {
+      \italic {
+        Thésée, tragédie en cinq actes avec prologue, livret de Philippe Quinault ;
+        Atys, tragédie en cinq actes avec prologue, livret de Philippe Quinault.
+      }
+      Lully, Jean-Baptiste (1632-1687).
+    }
+    \line { \hspace #4 Tome I. Manuscrit musical 291 : 2.dessus chantante. }
+    \line { \hspace #4 Tome III. Manuscrit musical 293 : basse chantante. }
+    \line { \hspace #4 Tome IV. Manuscrit musical 294 : taille chantante. }
+    \line { \hspace #4 Tome I. Manuscrit musical 295 : 1.dessus de violon, flûte et hautbois. }
+    \line { \hspace #4 Tome II. Manuscrit musical 296 : 2.dessus de violon, flûte et hautbois. }
+    \line { \hspace #4 Tome III. Manuscrit musical 297 : 1.basse continue. }
+    \line { \hspace #4 Tome IV. Manuscrit musical 298 : 2.basse continue. }
+    \line { Versailles : Philidor l'aîné, 1703 }
+    \wordwrap-lines {
+      Bibliothèque municipale de Versailles
+      \with-url #"http://www.bibliotheques.versailles.fr"
+      \smaller\typewriter "http://www.bibliotheques.versailles.fr"
+    }
+    \line { Parties séparées manuscrites. }
+    \null
+  }
 
   \paragraph {
-    Outre les quelques corrections de notes qui sont détaillées dans les
-    sections suivantes,
-    cette édition se distingue de la première édition Ballard
-    1689 par certaines modifications de notation. En premier lieu, les clés
-    utilisées sont modifiées, de façon à faciliter la lecture. Les
-    correspondances sont les suivantes :
-  }
-  \fill-line {
-    \null
-    \column {
-      \line\bold {
-        \force-line-width-ratio #1/8 \line { Instruments }
-        \force-line-width-ratio #1/8 \line { Ballard 1689 }
-        \force-line-width-ratio #1/8 \line { Cette édition }
-      }
-      \line\vcenter {
-        \force-line-width-ratio #1/8 \line { Dessus }
-        \force-line-width-ratio #1/8 \concat {
-          \null \raise #-2 \score { { \clef "french" do''4 } \layout { \quoteLayout } }
-        }
-        \force-line-width-ratio #1/8 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
-      }
-      \line\vcenter {
-        \force-line-width-ratio #1/8 \line { Haute-contre }
-        \force-line-width-ratio #1/8 \concat {
-          \null \raise #-2 \score { { \clef "soprano" do''4 } \layout { \quoteLayout } }
-        }
-        \force-line-width-ratio #1/8 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
-      }
-      \null
-      \line\vcenter {
-        \force-line-width-ratio #1/8 \line { Taille }
-        \force-line-width-ratio #1/8 \score { { \clef "mezzosoprano" do'4 } \layout { \quoteLayout } }
-        \force-line-width-ratio #1/8 \concat {
-          \null \raise #-1 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
-        }
-      }
-      \null
-      \line\vcenter {
-        \force-line-width-ratio #1/8 \line { Quinte }
-        \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
-        \force-line-width-ratio #1/8 \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
-      }
-      \null
-      \line\vcenter {
-        \force-line-width-ratio #1/8 \line { Basse }
-        \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
-        \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
-      }
-      \vspace #1
-    }
-    \null
-    \column {
-      \line\bold {
-        \force-line-width-ratio #1/8 \line { Voix }
-        \force-line-width-ratio #1/8 \line { Ballard 1689 }
-        \force-line-width-ratio #1/8 \line { Cette édition }
-      }
-      \line\vcenter {
-        \force-line-width-ratio #1/8 \line { Dessus }
-        \force-line-width-ratio #1/8 \concat {
-          \null\raise #-1 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
-          \hspace #1
-          \raise #-3 \score { { \clef "soprano" do''4 } \layout { \quoteLayout } }
-        }
-        \force-line-width-ratio #1/8 \concat {
-          \null\raise #-1 \score { { \clef "treble" do''4 } \layout { \quoteLayout } }
-        }
-      }
-      \vspace #0.2
-      \line\vcenter {
-        \force-line-width-ratio #1/8 \line { Haute-contre }
-        \force-line-width-ratio #1/8 \concat {
-          \null\raise #-0.75
-          \score { { \clef "alto" do'4 } \layout { \quoteLayout } }
-        }
-        \force-line-width-ratio #1/8 \score { { \clef "G_8" do'4 } \layout { \quoteLayout } }
-      }
-      \line\vcenter {
-        \force-line-width-ratio #1/8 \line { Taille }
-        \force-line-width-ratio #1/8 \score { { \clef "tenor" do'4 } \layout { \quoteLayout } }
-        \force-line-width-ratio #1/8 \concat {
-          \null\raise #-0.5
-          \score { { \clef "G_8" do'4 } \layout { \quoteLayout } }
-        }
-      }
-      \line\vcenter {
-        \force-line-width-ratio #1/8 \line { Basse-taille }
-        \force-line-width-ratio #1/8 \concat {
-          \null\raise #-0.8 \score { { \clef "varbaritone" do'4 } \layout { \quoteLayout } }
-        }
-        \force-line-width-ratio #1/8 \score { { \clef "bass" do'4 } \layout { \quoteLayout } }
-      }
-      \null
-      \line\vcenter {
-        \force-line-width-ratio #1/8 \line { Basse }
-        \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
-        \force-line-width-ratio #1/8 \score { { \clef "bass" do4 } \layout { \quoteLayout } }
-      }
-    }
-    \null
+    Cette édition \concat { d' \italic Atys } est basée essentiellement
+    sur l'édition [Ballard 1689].  Deux volumes sont proposés :
   }
   \paragraph {
-    Pour chaque partie, la clé utilisée dans la partition originale est
-    indiquée au début des pièces.
+    Le premier volume \orig-version { (celui-ci) } est une version \italic urtext,
+    reproduisant les sauts de pages et de lignes de Ballard, et utilisant
+    les mêmes clés et la même façon d'altérer les notes (avec uniquement
+    des signes \figure-flat et \figure-sharp) afin de faciliter la
+    comparaison avec la source.  Les écarts par rapport à [Ballard 1689],
+    ainsi que les différences majeures avec les autres sources (notamment
+    avec [Manuscrit]), y sont relevés dans des notes de bas de page.
   }
-  \null
   \paragraph {
-    Par ailleurs, les armures pièces en tonalité mineure sont modifiées :
-    un bémol est ajouté. Par exemple, pour une pièce mineure en sol, notée
-    avec un bémol à la clé dans Ballard 1689, l'armure comportera deux
-    bémols dans cette édition. L'armure originale est rappelée, de même
-    que les clés, dans l'incipit en début de pièce.
-    La raison de ce choix est de lever pour le lecteur toute ambiguïté
-    sur l'altération des
-    \footnote \concat { notes \super 1 . }
-    \fontsize #-2 \column {
-      \justified-lines {
-        1. L'usage concernant les armures des pièces en mineur au XVIIè
-        ou XVIIIè siècle en France était contesté :
-      }
-      \indented-lines #4 \justified-lines \italic {
-        Pourquoi je mets un bémol de plus qu'à l'ordinaire dans tous les
-        tons qui ont le mode mineur ? (...) Il est absolument nécessaire,
-        parce que tout ton qui a le mode mineur a la sixième de sa finale
-        essentiellement mineure. C'est pour cela qu'il faut le mettre à la
-        clef et non pas dans le courant de l'air comme accidentel, ainsi
-        qu'il se pratique ordinairement, ce qui est une erreur considérable
-        qui n'a pas été reconnue jusqu'à présent.
-      }
-      \justified-lines {
-        (Michel de Saint-Laurent, \italic { Nouveau Traité de l'accompagnement } (1707),
-        cité par Laurent Fichet, \italic { Le langage musical baroque : éléments et structures, }
-        Zurfluh, 2000, p. 35.)
-      }
-    }
+    Le second volume \mod-version { (celui-ci) }
+    diffère du premier dans les clés utilisées, qui sont "modernisées ;"
+    sa mise en page n'est par ailleurs pas contrainte par la source originale.
+    Des signes d'ornementations provenant des sources secondaires ([Baussen 1709],
+    [Philidor 1703]) y sont ajoutées.
+    Dans les pièces où [Ballard 1689] ne comporte pas de basse chiffrée
+    (essentiellement dans les danses), c'est la basse chiffrée de [Baussen 1709]
+    qui est retranscrite.
   }
-  \null
   \paragraph {
-    Les altérations qui ne sont pas explicites dans Ballard 1689
+    Dans les deux volumes,
+    les altérations qui ne sont pas explicites dans [Ballard 1689]
     sont suggérées entre parenthèses.  En effet, les altérations
     accidentelles sont généralement précisées systématiquement
     dans Ballard 1689, et répétées dans une même mesure, mais un
     retour à l'altération de l'armure n'est pas toujours explicité.
   }
-  %\paragraph {
-  %  Dans les pièces de mesure \concat { \number 3 , } deux soupirs
-  %  consécutifs \musicglyph #"rests.2" \musicglyph #"rests.2" sont
-  %  remplacés dans cette édition par une demie-pause
-  %  \concat { \musicglyph #"rests.1" . }
-  %}
   \paragraph {
-    Enfin, l'orthographe des textes est modernisée, également dans le
-    but d'en faciliter la lecture.
+    Le livret imprimé [Livret 1676] est restitué en préambule.
+    Les indications scéniques qu'il contient ont été ajoutées dans la partition.
+    L'orthographe utilisée pour les textes est celle du livret imprimé.
+  }
+  \null
+  \paragraph {
+    La matériel d'orchestre est constitué des parties
+    séparées suivantes : dessus (violons, flûtes, hautbois),
+    hautes-contre, tailles, quintes, basses et bassons, basse continue.
+  }
+  \null
+  \paragraph {
+    Cette édition est distribuée selon les termes de la
+    licence Creative Commons Attribution 3.0.  Il est donc permis,
+    et encouragé, de jouer cette partition, de la distribuer,
+    l'imprimer.  Il est par ailleurs possible de créer des variantes
+    de ce matériel, par exemple pour changer la clé utilisée pour un
+    instrument.  En outre, afin d'améliorer cette édition, il est
+    encouragé de remonter les erreurs qui pourront être décelées,
+    à l'adresse
+    \concat {
+      \with-url #"mailto:nicolas.sceaux@free.fr"
+      \smaller\typewriter "nicolas.sceaux@free.fr" .
+    }
   }
 }

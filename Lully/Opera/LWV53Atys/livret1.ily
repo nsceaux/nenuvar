@@ -1,7 +1,6 @@
-\appendixSubSection "Acte I"
-\markuplist \column-lines {
+\markup\n-columns {
   \livretAct \line { ACTE PREMIER. }
-  \livretDesc \wordwrap-center {
+  \livretDescAtt\wordwrap-center {
     Le Theatre represente une montagne
     consacrée à Cybele.
   }
@@ -77,7 +76,7 @@
 
   %%%
   \livretScene \line { SCENE TROISIEME. }
-  \livretDescAtt \wordwrap-center { SANGARIDE, DORIS, ATYS, IDAS. }
+  \livretDescAtt\wordwrap-center { SANGARIDE, DORIS, ATYS, IDAS. }
   \livretRef #'BCAsdai
   \livretPers \line { SANGARIDE, & DORIS. }
   \livretVerC { Allons, allons, accourez tous, }
@@ -142,13 +141,14 @@
   \livretVerC { Il seroit trop sensible. }
   \livretVer { Mais il faut que chacun s'assemble prés de vous, }
   \livretVerC { Cybele pourroit nous surprendre. }
-
+}
+\markup\n-columns {
   \livretPers \line { IDAS, ATYS. }
   \livretVerC { Allons, allons, accourez tous, }
   \livretVerC { Cybele va descendre. }
   %%%
   \livretScene \line { SCENE QUATRIEME. }
-  \livretDescAtt \wordwrap-center { SANGARIDE, DORIS. }
+  \livretDescAtt\wordwrap-center { SANGARIDE, DORIS. }
   \livretRef #'BDAsangarideDoris
   \livretPers \line { SANGARIDE. }
   \livretVerC { Atys est trop heureux. }
@@ -216,7 +216,7 @@
   \livretVerC { Ne sçauroit trop bien se cacher. }
   %%%
   \livretScene \line { SCENE CINQUIESME. }
-  \livretDescAtt \wordwrap-center { ATYS, SANGARIDE, DORIS. }
+  \livretDescAtt\wordwrap-center { ATYS, SANGARIDE, DORIS. }
   \livretRef #'BEAatysDoris
   \livretPers ATYS.
   \livretVerC { On voit dans ces campagnes }
@@ -227,7 +227,7 @@
   \livretVerC { Les Nymphes nos Compagnes. }
   %%%
   \livretScene \line { SCENE SIXIESME. }
-  \livretDescAtt \wordwrap-center { ATYS, SANGARIDE. }
+  \livretDescAtt\wordwrap-center { ATYS, SANGARIDE. }
   \livretRef #'BFAatysSangaride
   \livretPers ATYS.
   \livretVer { Sangaride, ce jour est un grand jour pour vous. }
@@ -275,7 +275,8 @@
   \livretPers ATYS.
   \livretVerC { Non, rien ne peut me secourir, }
   \livretVer { Je meurs d'amour pour vous, je n'en sçaurois guerir ; }
-
+}
+\markup\n-columns {
   \livretPers SANGARIDE.
   \livretVer { Quoy ? vous ? }
 
@@ -287,6 +288,7 @@
 
   \livretPers ATYS.
   \livretVer { \invisible { Quoy ? vous ? Il est trop vray. Vous m'aimez ? } Je vous aime. }
+
   \livretVerC { Vous me condamnerez vous mesme, }
   \livretVerC { Et vous me laisserez mourir. }
   \livretVerC { J'ay merité qu'on me punisse, }
@@ -359,10 +361,12 @@
 
   %%%
   \livretScene \line { SCENE SEPTIESME. }
-  \livretDescAtt \column {
+  \livretDescAtt\column {
     \wordwrap-center { ATYS, SANGARIDE, DORIS, IDAS. }
-    \line { Chœur de Phrygiens chantans. Chœur de Phrygiennes chantantes. }
-    \line { Troupe de Phrygiens dançans. Troupe de Phrygiennes dançantes. }
+    \justify {
+      Chœur de Phrygiens chantans. Chœur de Phrygiennes chantantes.
+      Troupe de Phrygiens dançans. Troupe de Phrygiennes dançantes.
+    }
     \justify\italic {
       Dix Hommes Phrygiens chantans conduits par Atys.
       Dix femmes Phrygiennes chantãtes conduites par Sangaride.
@@ -384,13 +388,13 @@
   \livretVer { De celebrer icy sa feste solemnelle, }
   \livretVerC { Commençons, commençons }
   \livretVerC { Nos Jeux et nos chansons. }
-  \livretDesc \wordwrap { Les chœurs repetent ces derniers Vers. }
+  \livretDesc\wordwrap-center { Les chœurs repetent ces derniers Vers. }
 
   \livretPers \line { ATYS & SANGARIDE. }
   \livretVer { Il est temps que chacun fasse éclater son zele. }
   \livretVerC { Venez, Reine des Dieux, venez, }
   \livretVerC { Venez, favorable Cybele. }
-  \livretDesc \wordwrap { Les chœurs repetent ces deux derniers Vers. }
+  \livretDesc\wordwrap-center { Les chœurs repetent ces deux derniers Vers. }
 
   \livretPers ATYS.
   \livretVerC { Quittez vostre Cour immortelle, }
@@ -415,41 +419,42 @@
   \livretVerC { Qui vous appelle, }
   \livretVerC { Venez Reine des Dieux, venez, }
   \livretVerC { Venez favorable Cybele. }
-
+}
+\markup\n-columns {
   %%%
-  \livretScene \line { SCENE HUITIESME. }
-  \livretDescAtt \wordwrap {
-    La Déesse Cybele paroist sur son Char, &
-    les Phrygiens & les Phrygiennes luy témoignent
-    leur joye & leur respect.
-  }
-  \livretRef #'BHBcybeleChoeur
-  \livretPers \line { CYBELE sur son Char. }
-  \livretVer { Venez tous dans mon Temple, et que chacun revere }
-  \livretVer { Le sacrificateur dont je vais faire choix : }
-  \livretVerC { Je m'expliqueray par sa voix, }
-  \livretVer { Les vœux qu'il m'offrira seront seurs de me plaire. }
-  \livretVer { Je reçoy vos respects ; j'aime à voir les honneurs }
-  \livretVer { Dont vous me presentez un éclatant hommage, }
-  \livretVerC { Mais l'hommage des Cœurs }
-  \livretVerC { Est ce que j'aime davantage. }
-  \livretVerC { Vous devez vous animer }
-  \livretVerC { D'une ardeur nouvelle, }
-  \livretVerC { S'il faut honorer Cybele, }
-  \livretVerC { Il faut encor plus l'aimer. }
-  
-  \livretDesc \wordwrap {
-    CYBELE portée par son Char volant, se
-    va rendre dans son Temple. Tous les Phrygiens
-    s'empressent d'y aller, & repetent les quatres
-    derniers Vers que la Déesse a prononcez.
-  }
+  \column {
+    \livretScene \line { SCENE HUITIESME. }
+    \livretDescAtt\justify {
+      La Déesse Cybele paroist sur son Char, &
+      les Phrygiens & les Phrygiennes luy témoignent
+      leur joye & leur respect.
+    }
+    \livretRef #'BHBcybeleChoeur
+    \livretPers \line { CYBELE sur son Char. }
+    \livretVer { Venez tous dans mon Temple, et que chacun revere }
+    \livretVer { Le sacrificateur dont je vais faire choix : }
+    \livretVerC { Je m'expliqueray par sa voix, }
+    \livretVer { Les vœux qu'il m'offrira seront seurs de me plaire. }
+    \livretVer { Je reçoy vos respects ; j'aime à voir les honneurs }
+    \livretVer { Dont vous me presentez un éclatant hommage, }
+    \livretVerC { Mais l'hommage des Cœurs }
+    \livretVerC { Est ce que j'aime davantage. }
+    \livretVerC { Vous devez vous animer }
+    \livretVerC { D'une ardeur nouvelle, }
+    \livretVerC { S'il faut honorer Cybele, }
+    \livretVerC { Il faut encor plus l'aimer. }
+    
+    \livretDesc\justify {
+      CYBELE portée par son Char volant, se
+      va rendre dans son Temple. Tous les Phrygiens
+      s'empressent d'y aller, & repetent les quatres
+      derniers Vers que la Déesse a prononcez.
+    }
 
-  \livretPers \line { Les Chœurs. }
-  \livretVerC { Nous devons nous animer }
-  \livretVerC { D'une ardeur nouvelle, }
-  \livretVerC { S'il faut honorer Cybele, }
-  \livretVerC { Il faut encor plus l'aimer. }
-
-  \livretFinAct \line { Fin du premier Acte. }
+    \livretPers \line { Les Chœurs. }
+    \livretVerC { Nous devons nous animer }
+    \livretVerC { D'une ardeur nouvelle, }
+    \livretVerC { S'il faut honorer Cybele, }
+    \livretVerC { Il faut encor plus l'aimer. }
+  }
 }

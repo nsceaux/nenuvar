@@ -1,5 +1,4 @@
-\appendixSubSection "Acte V"
-\markuplist \column-lines {
+\markup\n-columns {
   \livretAct \line { ACTE CINQUIESME. }
   \livretDescAtt \wordwrap-center {
     Le Theatre change & represente
@@ -131,20 +130,21 @@
   \livretVer { Cesse de tourmenter les criminelles Ombres, }
   \livretVer { Vien, cruelle Alecton, sors des Royaumes sombres, }
   \livretVer { Inspire au cœur d'Atys ta barbare fureur. }
-
   %%
   \livretScene \line { SCENE TROISIEME. }
-  \livretDescAtt \wordwrap-center {
+  \livretDescAtt\wordwrap-center {
     ALECTON, ATYS, SANGARIDE, CYBELE, CELÆNUS, MELISSE,
     IDAS, DORIS,
     \smallCaps { Troupe de Prestresses de Cybele, Chœur de Phrygiens. }
   }
   \livretRef #'FCAprelude
-  \livretDesc \wordwrap {
+  \livretDescPage\justify {
     Alecton sort des Enfers, tenant à la main un
     Flambeau qu'elle secouë en volant & en
     passant au dessus d'Atys.
   }
+}
+\markup\n-columns {
   \livretRef #'FCBascc
   \livretPers ATYS.
   \livretVerC { Ciel ! quelle vapeur m'environne ! }
@@ -156,7 +156,7 @@
   \livretVer { Quels abysmes profonds sous mes pas sont ouverts ! }
   \livretVer { Que de fantosmes vains sont sortis des Enfers ! }
 
-  \livretDidas \line { Il parle à Cybele, qu'il prend pour Sangaride. }
+  \livretDidasP\line { Il parle à Cybele, qu'il prend pour Sangaride. }
   \livretVer { Sangaride, ah fuyez la mort que vous prepare }
   \livretVerC { Une Divinité barbare : }
   \livretVer { C'est vostre seul peril qui cause ma terreur. }
@@ -293,7 +293,8 @@
   \livretVer { Chassons les d'icy bas, renversons leurs autels. }
   \livretVer { Quoy, Sangaride est morte ? Atys, Atys luy-mesme }
   \livretVerC { Fait perir ce qu'il aime ? }
-
+}
+\markup\n-columns {
   \livretPers \line { Le Chœur. }
   \livretVerC { Atys, Atys luy-mesme }
   \livretVerC { Fait perir ce qu'il aime. }
@@ -325,7 +326,6 @@
   \livretVer { Je veux d'un soin si cher ne me fier qu'à moy, }
   \livretVer { Allons... mais quel spectable à mes yeux se presente ? }
   \livretVerC { C'est Atys mourant que je voy ! }
-
   %%
   \livretScene \line { SCENE SIXIESME. }
   \livretDescAtt \wordwrap-center {
@@ -370,7 +370,7 @@
   \livretVerC { Que Cybele aimera toûjours. }
 
   \livretRef #'FGAritournelle
-  \livretDesc \wordwrap {
+  \livretDescPage\wordwrap {
     ATYS prend la forme de l'Arbre aimé de la Déesse Cybele,
     que l'on appelle Pin.
   }
@@ -446,39 +446,41 @@
 
   \livretPers \line { CYBELE, & les Chœurs. }
   \livretVerC { Ah ! quel malheur ! }
+}
+\markup\n-columns {
+  \column {
+    \livretRef #'FGCnymphes
+    \livretDescPage \justify {
+      Les Divinitez des Bois & des Eaux, avec les
+      Corybantes, honorent le nouvel Arbre, & le
+      consacrent à Cybele. Les regrets des Divinitez
+      des Bois & des Eaux, & les cris des Corybantes,
+      sont secondez & terminez par des tremblemens
+      de Terre, par des Esclairs, & par des esclats de
+      Tonnerre.
+    }
+    \livretRef #'FGFcybeleChoeur
+    \livretPers \wordwrap-center { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
+    \livretVer { Que le malheur d'Atys afflige tout le monde. }
 
-  \livretRef #'FGCnymphes
-  \livretDesc \justify {
-    Les Divinitez des Bois & des Eaux, avec les
-    Corybantes, honorent le nouvel Arbre, & le
-    consacrent à Cybele. Les regrets des Divinitez
-    des Bois & des Eaux, & les cris des Corybantes,
-    sont secondez & terminez par des tremblemens
-    de Terre, par des Esclairs, & par des esclats de
-    Tonnerre.
+    \livretPers \line { CYBELE, & le Chœur des Corybantes. }
+    \livretVerC { Que tout sente, icy bas, }
+    \livretVerC { L'horreur d'un si cruel trépas. }
+
+    \livretPers \line { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
+    \livretVer { Penetrons tous les Cœurs d'une douleur profonde : }
+    \livretVer { Que les Bois, que les Eaux, perdent tous leurs appas. }
+
+    \livretPers \line { CYBELE, & le Chœur des Corybantes. }
+    \livretVerC { Que le Tonnerre nous responde : }
+    \livretVer { Que la Terre fremisse, et tremble sous nos pas. }
+
+    \livretPers \line { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
+    \livretVer { Que le malheur d'Atys afflige tout le monde. }
+
+    \livretPers \line { Tous ensemble. }
+    \livretVerC { Que tout sente, icy bas, }
+    \livretVerC { L'horreur d'un si cruel trépas. }
+    \sep
   }
-  \livretRef #'FGFcybeleChoeur
-  \livretPers \line { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
-  \livretVer { Que le malheur d'Atys afflige tout le monde. }
-
-  \livretPers \line { CYBELE, & le Chœur des Corybantes. }
-  \livretVerC { Que tout sente, icy bas, }
-  \livretVerC { L'horreur d'un si cruel trépas. }
-
-  \livretPers \line { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
-  \livretVer { Penetrons tous les Cœurs d'une douleur profonde : }
-  \livretVer { Que les Bois, que les Eaux, perdent tous leurs appas. }
-
-  \livretPers \line { CYBELE, & le Chœur des Corybantes. }
-  \livretVerC { Que le Tonnerre nous responde : }
-  \livretVer { Que la Terre fremisse, et tremble sous nos pas. }
-
-  \livretPers \line { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
-  \livretVer { Que le malheur d'Atys afflige tout le monde. }
-
-  \livretPers \line { Tous ensemble. }
-  \livretVerC { Que tout sente, icy bas, }
-  \livretVerC { L'horreur d'un si cruel trépas. }
-
-  \livretFinAct \line { Fin du cinquiéme, & dernier Acte. }
 }

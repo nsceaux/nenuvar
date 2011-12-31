@@ -1,5 +1,4 @@
-\appendixSubSection "Acte II"
-\markuplist \column-lines {
+\markup\n-columns {
   \livretAct \line { ACTE SECOND }
   \livretDescAtt \wordwrap-center {
     Le Theatre change & represente
@@ -145,7 +144,8 @@
   \livretPers CYBELE.
   \livretVer { Portez à votre Amy la premiere nouvelle }
   \livretVer { De l'honneur éclatant où ma faveur l'appelle. }
-
+}
+\markup\n-columns {
   %%
   \livretScene \line { SCENE TROISIESME. }
   \livretDescAtt \wordwrap-center { CYBELE, MELISSE. }
@@ -209,7 +209,7 @@
   \livretVerC { Atys ne sçait point mon amour, }
   \livretVer { Par un moyen nouveau je pretens l'en instruire. }
 
-  \livretDidas \line { Melisse se retire. }
+  \livretDidasP \line { Melisse se retire. }
   \livretPers CYBELE.
   \livretVer { Que les plus doux Zephirs, que les Peuples divers, }
   \livretVerC { Qui des deux bouts de l'Univers }
@@ -267,6 +267,5 @@
   \livretPers \line { Chœurs des Peuples & des Zephirs. }
   \livretVerC { Que la puissante Cybele }
   \livretVerC { Nous rende à jamais heureux. }
-
-  \livretFinAct \line { Fin du deuxième Acte. }
+  \vspace #30
 }
