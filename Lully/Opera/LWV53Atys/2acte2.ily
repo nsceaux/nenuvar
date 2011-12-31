@@ -41,6 +41,7 @@
 \pieceToc \markup { \smallCaps Chœur :
   \italic { Que devant nous tout s'abaisse et tout tremble } }
 \includeScore "CDDchoeur"
+\origVersion\pageBreak
 %{ n°10 %}
 \pieceToc \markup { \smallCaps Atys :
   \italic { Indigne que je suis des honneurs qu'on m'adresse } }
@@ -55,7 +56,8 @@
 }
 \reIncludeScore "CDDchoeur" "CDGchoeur"
 \noPageBreak \markup \large {
-  On reprend pour l'entr'acte l'entrée des zéphirs page \page-refIII #'CDCzephirs .
+  On reprend pour l'entr'acte l'entrée des zephirs page
+  \page-refIII #'CDCzephirs .
 }
 \markup\vspace #2
 %\pieceTocTitle "Entr'acte" \reIncludeScore "CDCzephirs" "CDHzephirs"

@@ -12,9 +12,14 @@
     \new Staff \withLyrics <<
       \global \includeNotes "voix-basse"
     >> \includeLyrics "paroles"
-    \new Staff << \global \includeNotes "basse"
-      \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+    >>
   >>
-  \layout { }
+  \layout {
+    \context { \Staff \remove "Time_signature_engraver" }
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }

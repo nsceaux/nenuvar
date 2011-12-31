@@ -7,6 +7,6 @@
   \origLayout {
     s2.*8\pageBreak
     s2.*9\pageBreak
-    s2.*7\pageBreak
+    s2.*7\break
   }
 >>
