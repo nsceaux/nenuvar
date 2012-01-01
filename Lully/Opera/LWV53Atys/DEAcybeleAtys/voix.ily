@@ -53,7 +53,17 @@
   }
   %% Atys
   \tag #'(atys basse) {
-    \atysMark r4 r8 fa' la8. la16 la8 sib |
+    \atysMark r4 r8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \time 4/4 \key re \minor \clef "alto"
+            r4 r8 do' la8. la16 la8 sib | do'4
+          } \addlyrics { Ve -- nez à mon se -- cours }
+        >>
+        \layout { \quoteLayout }
+      }
+    } fa'8 la8. la16 la8 sib |
     do'4 r8 do' re'4 r16 re' mi' fa' |
     mi'4\trill
     << { s2. s1 s4 } \tag #'atys { r4 r2 | R1 | r4 } >>
