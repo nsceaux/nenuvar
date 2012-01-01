@@ -16,11 +16,30 @@
     dod'2. dod'4 |
     dod' re' re' dod' |
     re'1 |
-    fa'2-\tag #'morphee ^\markup\character "Morphée" fa'4 re' |
+    fa'2-\tag #'morphee ^\markup\character "[Morphée]" fa'4 re' |
     do'4.\trill do'8 do'4 re' |
     mib'2 re'4. re'8 |
     sol'2 sol'4 sol' |
     fa'2 fa'4. fa'8 |
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #4 \score {
+        \new ChoirStaff <<
+          \new Staff \with { autoBeaming = ##f instrumentName = "Morphée" } {
+            \startQuote #21 \time 3/2 \key re \minor \clef "alto"
+            fab'?4 sol' la' la' re'4. mi'8 | fad'2
+          } \addlyrics { -man -- de la fi -- dé -- li -- té }
+          \new Staff \with { autoBeaming = ##f instrumentName = "Phobetor" } {
+            \key re \minor \clef "tenor"
+            do'4 do'4. do'8 re'4 sib( la8) sib | la2
+          } \addlyrics { -man -- de la fi -- dé -- li -- té }
+          \new Staff \with { autoBeaming = ##f instrumentName = "Phantase" } {
+            \key re \minor \clef "bass"
+            la4 sol fad4. fad8 sol4( fad8) sol | re2
+          } \addlyrics { -man -- de la fi -- dé -- li -- té }
+        >>
+        \layout { \quoteLayout indent = 15\mm }
+      }
+    }
     fad'4 sol' la'4. la'8 re'4. mi'8 |
     fad'2 fad'4 fad' |
     sol'2 sol'4 sol' |
@@ -33,7 +52,7 @@
     << { s1*15 s1*5 s1. s1*3 s2. }
       \tag #'phantase {
         \phantaseMark R1*15 |
-        re'2^\markup\character "Phantase" re'4 sib |
+        re'2^\markup\character "[Phantase]" re'4 sib |
         la4.\trill la8 la4 si |
         do'2 sib4. sib8 |
         sib2 sib4 mib' |
@@ -44,7 +63,7 @@
         sib2( la)\trill |
         sol2. |
       } >>
-    \tag #'basse \phantaseMark r4-\tag #'phantase ^\markup\character "Phantase" sib do' |
+    \tag #'basse \phantaseMark r4-\tag #'phantase ^\markup\character "[Phantase]" sib do' |
     re' la sib |
     fad2.\trill |
     la4 sib4. do'8 |
@@ -64,7 +83,7 @@
   %% Phobetor
   \tag #'phobetor {
     \phobetorMark R1*15 |
-    sib2^\markup\character "Phobetor" sib4 sib |
+    sib2^\markup\character "[Phobetor]" sib4 sib |
     fa4. fa8 mib4 re |
     do2 sol4. sol8 |
     mib2 mib4 mib |

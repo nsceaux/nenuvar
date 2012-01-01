@@ -6,7 +6,7 @@ la sib |
 fa4( mib) re( do8) sib, |
 la,4\trill( sol,) la,( fa,) |
 sib,( sib) la( sol) |
-fad( mi) fad( re) |
+fad( mi) fad!( re) |
 sol( fad) sol( sol,) |
 re( mi) fa( re) |
 sol( la) sib( sol) |
