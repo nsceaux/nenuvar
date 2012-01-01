@@ -111,6 +111,14 @@
     \override BassFigureAlignment #'stacking-dir = #UP
     \override BassFigureAlignmentPositioning #'direction = #DOWN
   }
+  \context {
+    \FiguredBass
+    \name FiguredBass
+    %% Give Figured Bass an horizontal extent so that RehearsalMarks
+    %% do not ignore it (otherwise, marks would be place between staff
+    %% and figured bass)
+    \override BassFigureAlignment #'X-extent = #'(0 . 0)
+  }
   RemoveEmptyStaffContext = \context {
     \Staff
     \remove "Axis_group_engraver"

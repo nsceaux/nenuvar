@@ -5,12 +5,7 @@
     \markUpBegin \mark "Prelude"
     s1*56 s1*124 \bar "|."
     \markDownEnd
-    \tag #'bass {
-      %% HACK: the mark is otherwise placed between staff and figured bass
-      \once\override Score.RehearsalMark #'X-extent = #'(0 . 0)
-      \once\override Score.RehearsalMark #'Y-offset = #-12
-    }
-    \tag #'(no-bass bass) \mark\markup\smaller\italic\right-align\line {
+    \tag #'no-silence \mark\markup\smaller\italic\right-align\line {
       On reprend le Prelude, page \page-refIII #'DDAsommeil .
     }
   }
