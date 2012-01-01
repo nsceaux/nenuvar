@@ -6,7 +6,14 @@ sib'2. r8 re'' re''4. re''8 |
 do''2 do''4. do''8 la'4. la'8 |
 re''2 do'' do'' |
 re''2. re''4 do''2~ |
-do''4. re''8 do''2 do''4. do''8 |
+do''4. re''8 do''2 do''4. \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 3/2 \key re \minor \clef "soprano"
+      do''4. re''8 do''2 do''4. sib'8 | la'1. | \bar ":|"
+    }
+    \layout { \quoteLayout }
+  }
+} do''8 |
 la'1. |
 la' |
 la'4 la'8 si' do''4. do''8 sib'?4. sib'8 |
