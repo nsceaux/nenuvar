@@ -3,8 +3,7 @@
     \newKey sol \minor
     \digitTime \time 2/2 \midiTempo #120
     \markUpBegin \mark "Prelude"
-    s1*56 \markDownBegin\mark\markup\smaller\italic "[Fin]" s1
-    s1*123 \bar "|."
+    s1*56 s1*124 \bar "|."
     \markDownEnd
     \tag #'bass {
       %% HACK: the mark is otherwise placed between staff and figured bass

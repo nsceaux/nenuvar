@@ -21,7 +21,14 @@ sol' do''4. do''8 |
 do''4 la'4. la'8 |
 sib'4 sib' do'' |
 sib' la' re'' |
-sib' sib'4. do''8 |
+sib' \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 3/4 \key re \minor \clef "soprano"
+      sib'4 re''4. re''8 | re''2
+    }
+    \layout { \quoteLayout }
+  }
+} sib'4. do''8 |
 re''2 re''4 |
 sol' do''4. do''8 |
 do''4 la'4. la'8 |
