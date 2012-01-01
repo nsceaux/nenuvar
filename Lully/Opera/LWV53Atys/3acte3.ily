@@ -39,42 +39,39 @@
 \pieceToc \markup { \smallCaps { Phobetor, Morphée, Phantase : }
   \italic { Goûte en paix chaque jour } }
 \includeScore "DDDsommeil"
-\noPageBreak\markup\fill-line {
-  \null
-  \line \italic { On reprend l'entrée des songes agréables, page
-    \page-refIII #'DDCsongesAgreables . }
-}
-\markup\null
 %{ n°8 %}
+\pieceTocTitle "Entrée des songes agréables"
+\includeScore "DDEsongesAgreables"
+%{ n°9 %}
 \pieceToc \markup { \smallCaps { Un songe funeste : }
   \italic { Garde-toi d'offenser } }
 \includeScore "DDFfuneste"
-%{ n°9 %}\newBookPart #'(full-rehearsal)
+%{ n°10 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entrée des songes funestes"
 \includeScore "DDGsongesFunestes"
-%{ n°10 %}
+%{ n°11 %}
 \pieceToc \markup { \smallCaps { Chœur des songes funestes : }
   \italic { L'amour qu'on outrage } }
 \includeScore "DDHchoeur"
-%{ n°11 %}
+%{ n°12 %}
 \pieceTocTitle "Deuxième entrée des songes funestes"
 \includeScore "DDIsongesFunestes"
-%{ n°12 %}\newBookPart #'(full-rehearsal voix)
+%{ n°13 %}\newBookPart #'(full-rehearsal voix)
 \scene "Scène V" "SCÈNE 5 : Atys, Cybèle, Mélisse"
 \sceneDescription \markup \smallCaps { Cybèle, Atys. }
 \pieceToc \markup \smallCaps { Cybèle, Atys }
 \includeScore "DEAcybeleAtys"
-%{ n°13 %}\newBookPart #'(full-rehearsal)
+%{ n°14 %}\newBookPart #'(full-rehearsal)
 \scene "Scène VI" "SCÈNE 6 : Atys, Sangaride, Cybèle, Mélisse"
 \sceneDescription \markup \smallCaps { Cybèle, Atys, Sangaride. }
 \pieceToc \markup \smallCaps { Cybèle, Atys, Sangaride }
 \includeScore "DFAcybeleAtysSangaride"
-%{ n°14 %}\newBookPart #'(full-rehearsal voix)
+%{ n°15 %}\newBookPart #'(full-rehearsal voix)
 \scene "Scène VII" "SCÈNE 7 : Cybèle, Mélisse"
 \sceneDescription \markup \smallCaps { Cybèle, Mélisse. }
 \pieceToc \markup \smallCaps { Cybèle, Mélisse }
 \includeScore "DGAcybeleMelisse"
-%{ n°15 %}
+%{ n°16 %}
 \scene "Scène VIII" "SCÈNE 8 : Cybèle"
 \sceneDescription \markup \smallCaps { Cybèle seule. }
 \pieceToc \markup { \smallCaps Cybèle :
