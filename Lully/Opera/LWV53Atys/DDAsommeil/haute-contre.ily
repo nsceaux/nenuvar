@@ -31,6 +31,15 @@ sib'2 do'' |
 la'4( sib') do''( re'') |
 sib'2 r |
 R1*3 |
+\myfootnote #'NoteHead #'(0 . 2.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "soprano"
+      \afterGrace sol'1( la'8) | sol'2
+    }
+    \layout { \quoteLayout }
+  }
+}
 sol'1 |
 sol'2 la' |
 fad'4 r r2 |

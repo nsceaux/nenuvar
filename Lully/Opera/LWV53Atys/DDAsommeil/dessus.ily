@@ -27,7 +27,18 @@ sib'2 sib'4.(\trill la'16 sib') |
 do''4 r r2 |
 R1*3 |
 fa''4( sol'') fa''( mib'') |
-re''( mi'') fa''( sol'') |
+\myfootnote #'NoteHead #'(0 . 2.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "french"
+      re''4( mib'') fa''( sol'') |
+      mi''( fa'') sol'' la'' |
+      fa'' sol'' la'' sib'' |
+    }
+    \layout { \quoteLayout }
+  }
+}
+re''4( mi'') fa''( sol'') |
 mi''( fad'') sol''( la'') |
 fad''(\trill sol'') la''( sib'') |
 sol''1\trill~ |

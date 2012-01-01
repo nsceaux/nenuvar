@@ -8,10 +8,45 @@ R1*4 |
 \afterGrace re'1( mib'16) |
 re'1 |
 mib'4( fa') mib'( re') |
-do'2 fa'4 fa' |
+do'2 fa'4 \myfootnote #'NoteHead #'(0 . 1.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "mezzosoprano"
+      do'2 fa'4 mi' | re'
+    }
+    \layout { \quoteLayout }
+  } Le \italic mi devrait probablement être bémol.
+} fa'4 |
 re' r r2 |
 R1*5 |
-<< \new CueVoice { \voiceOne \afterGrace mib'1( fa'16) } \\ R1 >>
+<<
+  \new CueVoice {
+    \myfootnote #'NoteHead #'(0 . 2.5) \markup\column {
+      \line {
+        Ballard : \raise #3 \score {
+          { \tinyQuote \time 2/2
+            \key re \minor \clef "mezzosoprano"
+            R1 | \afterGrace mib'1( fa'16) |
+          }
+          \layout { \quoteLayout }
+        }
+        Manuscrit : \raise #3 \score {
+          { \tinyQuote \time 2/2
+            \key re \minor \clef "mezzosoprano"
+            \afterGrace mib'1( fa'16) | mib'1
+          }
+          \layout { \quoteLayout }
+        }
+      }
+      \wordwrap {
+        Comme les hautes-contre, quintes et basses reprennent sur la
+        mesure 21, et que dans Ballard 1689 seule les tailles reprennent
+        sur la mesure suivante, la version du manuscrit est suggérée dans
+        cette édition, en notes plus petites.
+      }
+    }
+    \voiceOne \afterGrace mib'1( fa'16) }
+  \\ R1 >>
 \afterGrace mib'1( fa'16) |
 re'2. re'4 |
 \afterGrace re'1( mib'16) |

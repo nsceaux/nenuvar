@@ -3,6 +3,15 @@ r2 sib''4( la'') |
 sol''( la'') sol''( fa'') |
 mi''( fa'') sol''( la''8 sol'') |
 fa''2. sol''8 la'' |
+\myfootnote #'NoteHead #'(0 . 1.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "french"
+      fa''4. mi''8 mi''4. re''8 | re''1 |
+    }
+    \layout { \quoteLayout }
+  }
+}
 mi''4. mi''8 mi''4.\trill re''8 |
 re''1 |
 R1*3 |
@@ -15,6 +24,10 @@ mib''4. re''8 re''4.\trill do''8 |
 do''1 |
 R1*3 |
 re''4( mib'') re''( do'') |
+\myfootnote #'NoteHead #'(0 . 3.5) \markup {
+  Sur le matériel Philidor 1703, le mot \italic fin apparaît sur la
+  mesure 26 du prélude.
+}
 sib'( la') sib'( do'') |
 re''( do'') re''( mi'') |
 fad''( sol'') la''2~ |

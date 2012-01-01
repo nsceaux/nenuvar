@@ -6,8 +6,8 @@
 }
 \tag #'(morphee basse) {
   % Morphée
-  Ré -- gnez, ré -- gnez, di -- vin som -- meil, ré -- gnez, ré -- gnez sur tout le mon -- de,
-  ré -- pan -- dez vos pa -- vots les plus as -- sou -- pis -- "sants ;"
+  Re -- gnez, re -- gnez, di -- vin Som -- meil, re -- gnez, re -- gnez sur tout le mon -- de,
+  ré -- pan -- dez vos pa -- vots les plus as -- sou -- pis -- "sans ;"
   cal -- mez les soins, char -- mez les sens,
   cal -- mez les soins, char -- mez char -- mez les sens,
   re -- te -- nez tous les cœurs dans u -- ne paix pro -- fon -- de.
@@ -16,8 +16,8 @@
 \tag #'(phobetor basse) {
   % Phobetor
   Ne vous fai -- tes point vi -- o -- len -- ce,
-  cou -- lez, __ mur -- mu -- rez, clairs ruis -- seaux,
-  cou -- lez, __ mur -- mu -- rez, clairs ruis -- seaux,
+  cou -- lez, __ mur -- mu -- rez, clairs Ruis -- seaux,
+  cou -- lez, __ mur -- mu -- rez, clairs Ruis -- seaux,
   il n'est per -- mis qu'au bruit des eaux
   de trou -- bler la dou -- ceur d'un si char -- mant si -- len -- ce.
   Il n'est per -- mis qu'au bruit des eaux

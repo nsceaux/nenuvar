@@ -1,4 +1,12 @@
-\clef "quinte" sol4( fad) sol( la) |
+\clef "quinte" sol4( \myfootnote #'NoteHead #'(0 . 4) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "alto"
+      sol4( fa) sol( la) | sib
+    }
+    \layout { \quoteLayout }
+  }
+} fad4) sol( la) |
 sib( do') re'2 |
 re' la |
 sib4( do') re'2 |

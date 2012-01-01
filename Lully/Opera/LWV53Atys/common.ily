@@ -196,6 +196,12 @@ choeurMark =
     %% no line from footnotes to grobs
     \override FootnoteItem #'annotation-line = ##f
   }
+  \context {
+    \CueVoice
+    \override Script #'avoid-slur = #'outside
+    %% no line from footnotes to grobs
+    \override FootnoteItem #'annotation-line = ##f
+  }
 }
 
 %%% Figured bass

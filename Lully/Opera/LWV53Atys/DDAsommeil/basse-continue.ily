@@ -9,7 +9,15 @@ la |
 la, |
 la |
 re |
-sol4( lab) sol( fa) |
+sol4( \myfootnote #'NoteHead #'(0 . 1.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "bass"
+      sol4( la) sol( fa) | mib
+    }
+    \layout { \quoteLayout }
+  }
+} lab4) sol( fa) |
 mib( re) do( sib,) |
 lab,( sol,) lab,( fa,) |
 sol,1 |
@@ -46,7 +54,15 @@ sol,2 sol4( la) |
 sib( do') re'( sib) |
 mib'( re') mib'( do') |
 re'( mib') re'( do') |
-sib( la) sol( fa) |
+sib( la) sol( \myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #3.5 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "bass"
+      sib4 la sol fa8 fa, | mib4
+    }
+    \layout { \quoteLayout }
+  }
+} fa4) |
 mib( re) mib( do) |
 re1~ |
 re |
@@ -58,17 +74,41 @@ sol,( la,) sib,( do) |%%%
 re( mi) fad( re) |
 sol( la) sib( sol) |
 fad\trill( mi) fad( re) |
-sol( fad) sol( sol,) |
+sol( \myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "bass"
+      sol4( fa) sol( sol,) | re
+    }
+    \layout { \quoteLayout }
+  }
+} fad4) sol( sol,) |
 re( mib) re( do) |
 sib,( la,) sib,( sol,) |
 do( sib,) do( la,) |
-re( do) sib,( sol,) |
+re( do) sib,( \myfootnote #'NoteHead #'(0 . 4) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "bass"
+      re4 do sib, la, | re
+    }
+    \layout { \quoteLayout }
+  }
+} sol,4) |
 re( la) re'( do') |
 sib( la) sib( sol) |
 mib'( re') mib'( do') |
 re'( do') re'( re) |
 sol( la) sib( sol) |
-fad( mi) fa( re) |
+fad( mi) \myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #2.5 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "bass"
+      fad4 mi fad! re | mib
+    }
+    \layout { \quoteLayout }
+  }
+} fa4( re) |
 mib( re) mib( do) |
 re( do) si,2 |
 do4( re) mib( do) |
@@ -82,7 +122,16 @@ mib |
 re4( la,) sib,( sol,) |
 fad,1\trill |
 sol,4( re) sol( fa) |
-mi( re) mi( do) |
+\myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #2.5 \score {
+    { \tinyQuote \time 2/2
+      \key re \minor \clef "bass"
+      mib!( re) mib!( do) | fa
+    }
+    \layout { \quoteLayout }
+  }
+}
+mi4( re) mi( do) |
 fa( do) fa( mib) |
 re1 |
 sol4( re) sol( fa) |
@@ -99,7 +148,11 @@ do2 dod\trill |
 re4( la,) re( do) |
 sib,( la,) sib,( sol,) |
 re( do) re( re,) |
-sol( fa) mib( re) |
+\myfootnote #'NoteHead #'(0 . 1.5) \markup\wordwrap {
+  Le manuscrit ne comporte pas les mesures de transition entre
+  les vers de Morphée et Phobetor (mesures 102 à 104.)
+}
+sol4( fa) mib( re) |
 do( sib,) la,( sol,) |
 re( do) re( re,) |
 sol,2 sol |
@@ -177,4 +230,7 @@ fa |
 mib |
 re |
 re, |
-sol, |
+\myfootnote #'NoteHead #'(0 . 4) \markup {
+  Le manuscrit ne comporte pas d'indication de reprise du prélude du sommeil.
+}
+sol,1 |

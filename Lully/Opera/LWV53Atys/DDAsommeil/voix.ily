@@ -14,8 +14,18 @@
     sol' |
     r4 sol' sol' sol' |
     sol'2( fad'4.) sol'8 |
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Le manuscrit contient une barre de reprise à la fin de la mesure 70 :
+      les vers du Sommeil (mesures 58 à 70) sont chantés deux fois.
+    }
     sol'1 |
     << { s1*63 } \tag #'sommeil { R1*63 } >>
+    \myfootnote #'Rest #'(0 . -2.5) \markup\wordwrap {
+      Le manuscrit ne comporte pas la reprise des premiers vers du Sommeil
+      (mesures 134 à 145). Puis, le trio fait place au Sommeil,
+      Morphée et Phobetor, au lieu de Morphée, Phantase et Phobetor.
+      Dans le manuscrit, les paroles ne sont pas indiquées pour toutes les voix.
+    }
     \tag #'basse \sommeilMark r2-\tag #'sommeil ^\markup\character "Le Sommeil" r4 re' |
     re'1~ |
     re'2. la4 |
@@ -62,6 +72,23 @@
     sib2 re'4. re'8 |
     re'4. mi'8 fa'2 |
     mi'4.\trill mi'8 mi'4. mi'8 |
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \hspace #2 \raise #3 \score {
+        \new ChoirStaff <<
+          \new Staff {
+            \tinyQuote \time 2/2 \set autoBeaming = ##f
+            \key re \minor \clef "alto"
+            fa'4. fa'8 fad'4. fad'8 | sol'2.*1/3
+          } \addlyrics { paix, dans u -- ne paix }
+          \new Staff <<
+            { \key re \minor \clef "bass"
+              re4 la, re do | sib, }
+            \figuremode { <_->2 <_+> <6>4 }
+          >>
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     fad'4. fad'8 fad'4. fad'8 |
     sol'2. sib4 |
     sib2( la)\trill |
@@ -77,7 +104,15 @@
     re'2. re'4 |
     do'4.\trill do'8 do'2 |
     re'4. re'8 mib'4. mib'8 |
-    fa'4 fa' fa' re' |
+    fa'4 fa' fa' \myfootnote #'NoteHead #'(0 . 2) \markup {
+      Manuscrit : \raise #3 \score {
+        << { \tinyQuote \time 2/2 \set autoBeaming = ##f
+            \key re \minor \clef "alto" fa'4 fa' fa' mib'8[ re'] | mib'2.
+          } \addlyrics { -pos, que le re -- pos }
+        >>
+        \layout { \quoteLayout }
+      }
+    } re'4 |
     mib'2.( re'8) mib' |
     re'4\trill sol' fa' mib' |
     re' mib' fa' sol' |
@@ -117,14 +152,41 @@
     la\trill re'~ |
     re'4. do'8 do'4. do'8 |
     do'4. do'8 sib4. sib8 |
+    \myfootnote #'NoteHead #'(0 . 2) \markup {
+      Manuscrit : \raise #3 \score {
+        << { \tinyQuote \time 2/2 \set autoBeaming = ##f
+            \key re \minor \clef "tenor" sib4( la8) sib la4. la8 | sid4.
+          } \addlyrics { "[-pos" est "doux !" Dor -- "mons]" }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     sib4. sib8 la4.\trill la8 |
     si4. si8 do'2 |
     re'4 re' re'2~ |
-    re'4 do' do'2 |
+    re'4 do' \myfootnote #'NoteHead #'(0 . 1.5) \markup {
+      Manuscrit : \raise #3 \score {
+        << { \tinyQuote \time 2/2 \set autoBeaming = ##f
+            \key re \minor \clef "tenor" re'4 do' do'8[( sib] do'4) | sid4
+          } \addlyrics { "[-mons," dor -- mons "tous,]" }
+        >>
+        \layout { \quoteLayout }
+      }
+    } do'2 |
     si4 mib' re' do' |
     si do' re'2~ |
     re'4 do' do'2~ |
-    do'( si) |
+    \myfootnote #'NoteHead #'(0 . 1.5) \markup {
+      Manuscrit : \raise #3 \score {
+        << { \tinyQuote \time 2/2 \set autoBeaming = ##f
+            \key re \minor \clef "tenor"
+            re'4 do' do'2~ | do'4 sid sid2 | do'2.
+          } \addlyrics { "[-mons," dor -- mons, dor -- mons "tous,]" }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
+    do'2( si) |
     do'2. do'4 |
     do'1~ |
     do'4 sib sib2 |
@@ -214,7 +276,16 @@
       re |
       sol |
       fa |
-      mib4. mib8 mib4. mib8 |
+      mib4. mib8 \myfootnote #'NoteHead #'(0 . 2) \markup {
+        Manuscrit \raise #3 \score {
+          << { \tinyQuote \time 2/2 \set autoBeaming = ##f
+              \key re \minor \clef "bass"
+              mib4. mib8 mib4( re8) mib8 | re1 |
+            } \addlyrics { "ah !" que le re -- pos }
+          >>
+          \layout { \quoteLayout }
+        }
+      } mib4. mib8 |
       re1~ |
       re2. re4 |
       sol,1 |
