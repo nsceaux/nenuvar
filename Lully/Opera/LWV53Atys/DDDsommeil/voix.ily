@@ -3,7 +3,7 @@
     << { s1*6 s1. s1*3 s1. s1*4 }
       \tag #'morphee { \morpheeMark R1*6 | R1. | R1*3 | R1. | R1*4 } >>
     \set Staff.explicitClefVisibility = #end-of-line-invisible |
-    \tag #'basse \morpheeMark fa'2-\tag #'morphee ^\markup\character "Morphée" fa'4 re' |
+    \tag #'basse \morpheeMark fa'2-\tag #'morphee ^\markup\character "[Morphée]" fa'4 re' |
     do'4.\trill do'8 do'4 re' |
     mib'2 re'4. re'8 |
     sol'2 sol'4 sol' |
@@ -18,7 +18,7 @@
   \tag #'(phantase basse) {
     << { s1*6 s1. s1*3 s1. s1*4 s1*5 s1. s1*3 s2. }
       \tag #'phantase { \phantaseMark R1*6 R1. R1*3 R1. R1*4 |
-        re'2^\markup\character "Phantase" re'4 sib |
+        re'2^\markup\character "[Phantase]" re'4 sib |
         la4.\trill la8 la4 si |
         do'2 sib!4. sib8 |
         sib2 sib4 mib' |
@@ -62,7 +62,7 @@
     la2( la,) |
     re2 r |
     \tag #'phobetor {
-      sib2^\markup\character "Phobetor" sib4 sib |
+      sib2^\markup\character "[Phobetor]" sib4 sib |
       fa4. fa8 mib4 re |
       do2 sol4. sol8 |
       mib2 mib4 mib |

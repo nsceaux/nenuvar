@@ -1,4 +1,12 @@
 \clef "dessus" r2 re''4 sol'' |
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2 \key re \minor \clef "french"
+      r2 re''4 sol'' | fa''2 fa''4. fa''8 |
+    }
+    \layout { \quoteLayout }
+  }
+}
 sol''2 fa''4.\trill fa''8 |
 fa''2 fa''4. fa''8 |
 sib'4 sib'2 la'4\trill |

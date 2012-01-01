@@ -1,2 +1,1 @@
-R1*6\noBreak R1.\noBreak R1*3\noBreak R1.\noBreak R1*9\noBreak
-R1.\noBreak R1*3\noBreak R2.*17
+R1*6 R1. R1*3 R1. R1*9 R1. R1*3 R2.*17
