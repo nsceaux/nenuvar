@@ -3,8 +3,11 @@
     \new Staff \withLyrics <<
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff << \global \includeNotes "basse" \includeFigures "chiffres" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+    >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }
