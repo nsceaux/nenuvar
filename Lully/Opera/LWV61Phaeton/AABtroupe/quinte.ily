@@ -1,4 +1,4 @@
-mi'4 mi' mi' |
+\clef "quinte" mi'4 mi' mi' |
 re'2. do'4 do' la |
 sol2 re'4 |
 mi' mi' mi' |
@@ -21,4 +21,3 @@ sol sol la |
 la la sol |
 sol4. sol8 sol4 |
 sol2. |
-R2.*24 |

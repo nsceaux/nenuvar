@@ -1,5 +1,14 @@
-\keys do \major
-\midiTempo #160 \digitTime\time 3/4
-s2.*24
-\bar "|:" s2.*8 \bar ":|"
-s2.*16 \bar "|." \dacapoMark
+<<
+  { \keys do \major
+    \midiTempo #160 \digitTime\time 3/4
+    s2.*24 \bar "|."
+  }
+  \origVersion {
+    s2.*23_\markup\musicglyph #"scripts.segno"
+    s2 s4_\markup\musicglyph #"scripts.segno"
+  }
+  \origLayout {
+    s2.*12\break
+    s2.*12\pageBreak
+  }
+>>

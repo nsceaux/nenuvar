@@ -1,30 +1,15 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaff << \global \clef "quinte" \includeNotes "quinte" >>
+  <<
+    \setMusic #'group <<
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff << \global \includeNotes "basse"
+        \includeFigures "chiffres" >>
     >>
-    \newHaraKiriStaffB <<
-      \new Voice = "dessus" \with { autoBeaming = ##f } <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >>
-      \lyricsto "dessus" \new Lyrics \includeLyrics "paroles1"
-      \lyricsto "dessus" \new Lyrics \includeLyrics "paroles2"
-    >>
-    \newHaraKiriStaffB <<
-      \new Voice = "bas-dessus" \with { autoBeaming = ##f } <<
-        \global \clef "vbas-dessus" \includeNotes "voix-bas-dessus"
-      >>
-      \lyricsto "bas-dessus" \new Lyrics \includeLyrics "paroles1"
-      \lyricsto "bas-dessus" \new Lyrics \includeLyrics "paroles2"
-    >>
-    \new Staff <<
-      { s2.*24 \break }
-      \global \clef "basse" \includeNotes "basse-continue"
-      \includeFigures "chiffres"
-    >>
+    \origVersion\new StaffGroupNoBar \group
+    \modVersion\new StaffGroup \group
   >>
   \layout { }
   \midi { }

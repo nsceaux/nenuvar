@@ -11,9 +11,10 @@
   Astrée est au milieu de ses compagnes, qui en dansant et en chantant
   tâchent de divertir cette déesse.
 }
-\pieceToc \markup { Troupe d'Astrée : \italic { Cherchons la paix dans cet asile } }
-\pieceSimpleTitle "Troupe d'Astrée dansante"
+\pieceTocTitle "Troupe d'Astrée dansante"
 \includeScore "AABtroupe"
+\pieceToc \markup { Troupe d'Astrée : \italic { Cherchons la paix dans cet azile } }
+\includeScore "AACtroupe"
 \pieceToc \markup { Astrée : \italic { Dans cette paisible retraite } }
 \includeScore "AACastree"
 \pieceToc \markup { Troupe d'Astrée : \italic { Danc ces lieux tout rit sans cesse } }
