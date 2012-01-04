@@ -150,3 +150,52 @@ jupiterMark =
     \override FootnoteItem #'annotation-line = ##f
   }
 }
+
+%%% Figured bass
+
+%% Always use Ballard: \ballarFigures.  When there is no figured bass
+%% in Ballard, use Baussen, with \baussenFigures.  \baussenFigureAlt
+%% is to be used when there is a figured bass in Ballard, and an
+%% alternative one in Baussen.
+
+ballardFigures =
+#(define-music-function (parser location figures) (ly:music?)
+   figures)
+
+baussenFigures =
+#(define-music-function (parser location figures) (ly:music?)
+   (if (eqv? (ly:get-option 'urtext) #t)
+       ;(make-music 'Music 'void #t)
+       #{ \new FiguredBass \with {
+            \override BassFigure #'color = #red
+            \override BassFigureContinuation #'color = #red
+          } $figures #}
+       figures))
+
+baussenFiguresAlt =
+#(define-music-function (parser location figures) (ly:music?)
+   (if (eqv? (ly:get-option 'urtext) #t)
+       ;(make-music 'Music 'void #t)
+       #{ \new FiguredBass \with {
+            \override BassFigure #'color = #red
+            \override BassFigureContinuation #'color = #red
+          } $figures #}
+       (make-music 'Music 'void #t)))
+
+%%% In urtext version, do not display "+" ornementations,
+%%% only the "t"
+
+\layout {
+  \context {
+    \Score
+    scriptDefinitions =
+    #(if (eqv? #t (ly:get-option 'urtext))
+         (cons `("stopped"
+                 (script-stencil . (markup . ,(markup #:null)))
+                 (padding . 0.20)
+                 (avoid-slur . around)
+                 (direction . ,UP))
+               baroque-script-alist)
+         baroque-script-alist)
+  }
+}
