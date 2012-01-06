@@ -1,4 +1,4 @@
-la4 la2 |
+\clef "quinte" la4 la2 |
 la4. si8 do'4 |
 do' la2 |
 mi' si4 |
@@ -14,4 +14,3 @@ sold4 la2 |
 la4 fa mi |
 mi mi4. mi8 |
 mi2. |
-R2.*16

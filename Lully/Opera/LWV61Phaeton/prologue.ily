@@ -5,40 +5,64 @@
     Le théâtre représente les jardins du palais de la déesse Astrée.
   }
 }
+%{ n°1 %}
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
-\sceneDescription \markup \wordwrap-center {
-  Astrée est au milieu de ses compagnes, qui en dansant et en chantant
-  tâchent de divertir cette déesse.
+\sceneDescription \markup \justify {
+  [Baussen 1709] Astrée est au milieu de ses compagnes, qui en dansant
+  et en chantant tâchent de divertir cette Déesse.
 }
+%{ n°2 %}
 \pieceTocTitle "Troupe d'Astrée dansante"
 \includeScore "AABtroupe"
-\pieceToc \markup { Troupe d'Astrée : \italic { Cherchons la paix dans cet azile } }
-\includeScore "AACtroupe"
-\pieceToc \markup { Astrée : \italic { Dans cette paisible retraite } }
-\includeScore "AACastree"
-\pieceToc \markup { Troupe d'Astrée : \italic { Danc ces lieux tout rit sans cesse } }
-\pieceSimpleTitle "Troupe d'Astrée dansante"
-\includeScore "AADtroupe"
-\sceneDescription \markup \wordwrap-center {
-  Saturne vient trouver Astrée, pour l'inviter à retourner avec lui
-  sur la Terre. Ce dieu conduit les mêmes suivants qui
-  l'accompagnaient au temps de l'Âge "d'or :" les uns dansent, et
-  les autres "chantent ;" et Saturne même chante avec eux.
+%{ n°3 %}
+\pieceToc \markup { Troupe d'Astrée :
+  \italic { Cherchons la paix dans cet azile }
 }
+\includeScore "AACtroupe"
+%{ n°4 %}
+\pieceToc \markup { Astrée : \italic { Dans cette paisible retraite } }
+\includeScore "AADastree"
+%{ n°5 %}
+\pieceTocTitle "Troupe d'Astrée dansante"
+\includeScore "AAEtroupe"
+%{ n°6 %}
+\markup\wordwrap\large\italic {
+  Le Menüet suivant se chante alternativement avec le precedent.
+}
+\markup\vspace #1
+\pieceToc \markup { Troupe d'Astrée :
+  \italic { Danc ces lieux tout rit sans cesse }
+}
+\includeScore "AAFtroupe"
+
+\sceneDescription \markup \justify {
+  Saturne vient trouver Astrée, pour l'inviter à retourner avec luy
+  sur la Terre. Ce dieu conduit les mesmes Suivants qui
+  l'accompagnoient au temps de l'Age "d'or :" les un dansent, &
+  les autres "chantent ;" & Saturne mesme chante avec eux.
+}
+\origVersion\pageBreak
+%{ n°7 %}
 \pieceToc \markup { Saturne, chœur : \italic { Que les mortels se réjouissent } }
 \pieceSimpleTitle "Chœur"
-\includeScore "AAEchoeur"
+\includeScore "AAGchoeur"
+%{ n°8 %}
 \pieceToc \markup { Saturne : \italic { Un héros qui mérite une gloire immortelle } }
-\includeScore "AAFsaturne"
+\includeScore "AAHsaturne"
+%{ n°9 %}
 \pieceToc \markup { Astrée : \italic { Jeux innocents, rassemblez-vous } }
-\includeScore "AAGastree"
+\includeScore "AAIastree"
+%{ n°10 %}
 \pieceTocTitle "Air pour les suivants de Saturne"
-\includeScore "AAHair"
+\includeScore "AAJair"
+%{ n°11 %}
 \pieceTocTitle "Bourrée pour les suivants de Saturne et les suivantes d'Astrée"
-\includeScore "AAIbourree"
+\includeScore "AAKbourree"
+%{ n°12 %}
 \pieceToc \markup { Astrée, Saturne, chœur : \italic { On a vu ce héros terrible dans la guerre } }
-\includeScore "AAJsaturneAstree"
+\includeScore "AALsaturneAstree"
+%{ n°13 %}
 \pieceNoTitle
-\reIncludeScore "AAAouverture" "AAAouverturebis"
+\reIncludeScore "AAAouverture" "AAMouverture"
 \actEnd \markup { FIN DU PROLOGUE }

@@ -1,19 +1,24 @@
 \score {
-  \new ChoirStaff <<
-    \newHaraKiriStaffB <<
+  \new StaffGroupNoBar <<
+    \new Staff \with { \haraKiriFirst } <<
       \new Voice = "dessus" \with { autoBeaming = ##f } <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
+        \global \includeNotes "voix-dessus"
       >>
       \lyricsto "dessus" \new Lyrics \includeLyrics "paroles1"
       \lyricsto "dessus" \new Lyrics \includeLyrics "paroles2"
     >>
-    \newHaraKiriStaffB <<
+    \new Staff \with { \haraKiriFirst } <<
       \new Voice = "bas-dessus" \with { autoBeaming = ##f } <<
-        \global \clef "vbas-dessus" \includeNotes "voix-bas-dessus"
+        \global \includeNotes "voix-bas-dessus"
       >>
       \lyricsto "bas-dessus" \new Lyrics \includeLyrics "paroles1"
       \lyricsto "bas-dessus" \new Lyrics \includeLyrics "paroles2"
     >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+    >>
   >>
   \layout { }
+  \midi { }
 }

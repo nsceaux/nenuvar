@@ -1,5 +1,4 @@
-R2.*16 |
-do''4 re''2 |
+\clef "vbas-dessus" do''4 re''2 |
 do'' si'4 |
 la' si'2 |
 sold' sold'4 |
