@@ -1,4 +1,4 @@
-la,2 la4 |
+\clef "basse" la,2 la4 |
 sold2 sold4 |
 la2 la8 sol |
 fa4. mi8 re4 |
@@ -60,7 +60,7 @@ la,2 mi |
 fa1 ~ fa4 mi |
 re2 sol4 do sol,2 |
 do4 do' si4. la8 |
-sold2 la8 sol fa4 |
+sold2 la8 sol? fa4 |
 mi2 mi4 |
 la2 la4 |
 la sold2 |
