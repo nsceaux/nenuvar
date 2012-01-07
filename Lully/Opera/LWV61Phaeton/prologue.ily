@@ -66,9 +66,12 @@
 \pieceTocTitle "Bourrée pour les suivants de Saturne et les suivantes d'Astrée"
 \includeScore "AALbourree"
 %{ n°13 %}
-\pieceToc \markup { Astrée, Saturne, chœur : \italic { On a vu ce héros terrible dans la guerre } }
-\includeScore "AAMsaturneAstree"
+\pieceToc \markup { Chœur : \italic { Plaisirs, venez sans crainte } }
+\includeScore "AAMchoeur"
 %{ n°14 %}
+\pieceToc \markup { Astrée, Saturne, chœur : \italic { On a vu ce héros terrible dans la guerre } }
+\includeScore "AANsaturneAstree"
+%{ n°15 %}
 \pieceNoTitle
-\reIncludeScore "AAAouverture" "AANouverture"
+\reIncludeScore "AAAouverture" "AAOouverture"
 \actEnd \markup { FIN DU PROLOGUE }

@@ -1,4 +1,4 @@
-do'4 |
+\clef "basse" do'4 |
 do' si do' fa |
 sol2 mi |
 la4 fa sol sol, |
@@ -20,5 +20,4 @@ sol sol8 fa mi4 mi8 re |
 do4 do8 sib, la,4 la,8 sol, |
 fa,4 fa8 mi re mi fa4 |
 mi fa sol sol, |
-do2. r4 |
-R1*7 r2 r4 r4 R1*7 r2 r4
+do2.

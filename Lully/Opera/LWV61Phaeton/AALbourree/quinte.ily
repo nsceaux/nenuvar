@@ -1,7 +1,7 @@
-do'4 |
+\clef "quinte" do'4 |
 do' sol' mi' re' |
 re' re' mi' mi' |
-mi' re' re'4. do'8 |
+mi' re' re'4.\tr do'8 |
 do'2. mi4 |
 re la sol mi |
 la si sol do' |
@@ -20,5 +20,4 @@ sol2 sol4 do'8 si |
 do'4 do' do'4. sib8 |
 do'4 fa' fa'4. fa'8 |
 do'4 la sol4. sol8 |
-sol2. r4 |
-R1*7 r2 r4 r4 R1*7 r2 r4
+sol2.
