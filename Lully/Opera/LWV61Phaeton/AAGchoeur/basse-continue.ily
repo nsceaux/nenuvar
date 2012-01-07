@@ -1,4 +1,4 @@
-do2 do' |
+\clef "basse" do2 do' |
 si4 do' fa2 |
 sol4 sol8 fa mi4 re |
 do do8 sib, la,4 fa, |
@@ -90,9 +90,9 @@ la la la si |
 do' do' do' sib |
 la fa do2 |
 fa fa ~|
-fa mi4 re |
+fa mi4\tr re |
 do2 do' ~|
-do' si4 la |
+do' si4\tr la |
 sol sol sol mi |
 la fa sol sol, |
 do do do do |
@@ -114,9 +114,9 @@ si4 sol do' fa |
 sol sol mi do |
 fa re sol sol, |
 do2 do' ~|
-do' si4 la |
+do' si4\tr la |
 sol2 sol ~|
-sol fa4 mi |
+sol fa4\tr mi |
 re re' re' re' |
 si si do' fa |
 sol sol sol mi |

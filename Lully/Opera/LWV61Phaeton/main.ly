@@ -31,7 +31,8 @@
 %{
 AAEchoeur:
 page xxi manquante (remplacée par page xxxi mal numérotée) = mesures 52 à 57
---> utilisation des mesures ???
+--> utilisation du manuscrit de la bibliothèque de Versailles :
+http://www.bibliotheques.versailles.fr/SIMClient/integration/DOSSIERSDOCS_VERSAILLES/image.asp?INSTANCE=DOSSIERSDOCS_VERSAILLES&eidmpa=RESSOURCE%5FBMVMsmus%5F000027%5FMSMUS107%5F15&ZOOM=0.4&ANGLE=0&WIDTH=-1&HEIGHT=-1
 
 AAJsaturneAstree:
 page lviii manquante (mesures 73 à 79)

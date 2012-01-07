@@ -44,11 +44,14 @@
 }
 \origVersion\pageBreak
 %{ n°7 %}
-\pieceToc \markup { Saturne, chœur : \italic { Que les mortels se réjouissent } }
-\pieceSimpleTitle "Chœur"
+\pieceToc \markup { Saturne, chœur :
+  \italic { Que les mortels se réjoüissent }
+}
 \includeScore "AAGchoeur"
 %{ n°8 %}
-\pieceToc \markup { Saturne : \italic { Un héros qui mérite une gloire immortelle } }
+\pieceToc \markup { Saturne :
+  \italic { Un héros qui mérite une gloire immortelle }
+}
 \includeScore "AAHsaturne"
 %{ n°9 %}
 \pieceToc \markup { Astrée : \italic { Jeux innocents, rassemblez-vous } }
