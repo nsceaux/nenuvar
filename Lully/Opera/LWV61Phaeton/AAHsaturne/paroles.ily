@@ -1,32 +1,33 @@
-Un hé -- ros qui mé -- rite u -- ne gloire im -- mor -- tel -- le,
-au sé -- jour des hu -- mains au -- jour -- d'hui nous rap -- pel -- le.
-Le siè -- cle qui du monde a fait les plus beaux jours
-doit sous son règne heu -- reux re -- com -- men -- cer son cours.
-Il cal -- me l'u -- ni -- vers, le ciel le fa -- vo -- ri -- "se ;"
-son au -- gus -- te sang s'é -- ter -- ni -- se.
-Il voit com -- bler ses vœux par un hé -- ros nais -- "sant :"
-tout doit ê -- tre sen -- sible au plai -- sir qu'il res -- sent.
+Un He -- ros qui me -- rite u -- ne gloire im -- mor -- tel -- le,
+Au Se -- jour des Hu -- mains au -- jour -- d'huy nous rap -- pel -- le.
+Le Sie -- cle qui du Monde a fait les plus beaux jours
+Doit sous son regne heu -- reux re -- com -- men -- cer son cours.
+Il cal -- me l'U -- ni -- vers, le Ciel le fa -- vo -- ri -- "se ;"
+Son au -- gus -- te Sang s'é -- ter -- ni -- se.
+Il voit com -- bler ses vœux par un He -- ros nais -- "sant :"
+Tout doit es -- tre sen -- sible au plai -- sir qu'il res -- sent.
+\tag #'saturne {
+  Les Mu -- ses vont luy faire en -- ten -- dre
+  Mil -- le nou -- veaux Con -- certs.
+  De sa Gran -- deur il se plaist à des -- cen -- dre.
+  Il sçait mes -- ler les Jeux à cent tra -- vaux di -- vers.
+  Rien ne peut nous trou -- bler,
+  la Dis -- corde est aux fers,
+  la Dis -- corde est aux fers.
+  Il sçait mes -- ler les Jeux à cent tra -- vaux di -- vers.
+  Rien ne peut nous trou -- bler,
+  la Dis -- corde est aux fers,
+  la Dis -- corde est aux fers.
 
-Les mu -- ses vont lui faire en -- ten -- dre
-mil -- le nou -- veaux con -- certs.
-De sa gran -- deur il se plait à des -- cen -- dre.
-Il sait mê -- ler les jeux à cent tra -- vaux di -- vers.
-Rien ne peut nous trou -- bler,
-la dis -- corde est aux fers,
-la dis -- corde est aux fers.
-Il sait mê -- ler les jeux à cent tra -- vaux di -- vers.
-Rien ne peut nous trou -- bler,
-la dis -- corde est aux fers,
-la dis -- corde est aux fers.
-
-L'en -- vie en vain fré -- mit de voir les biens qu'il cau -- "se ;"
-une heu -- reu -- se paix est la loi que ce vain -- queur im -- po -- se.
-"L'en -" "- po" -- se.
-Son ton -- nerre ins -- pi -- re l'ef -- froi,
-son ton -- nerre ins -- pi -- re l'ef -- froi,
-dans le temps mê -- me qu'il re -- po __ se.
-Son ton -- nerre ins -- pi -- re l'ef -- froi,
-son ton -- nerre ins -- pi -- re l'ef -- froi,
-dans le temps mê -- me qu'il re -- po __ se.
-Son ton -- nerre ins -- pi -- re l'ef -- froi,
-dans le temps mê -- me qu'il re -- po __ se.
+  L'en -- vie en vain fré -- mit de voir les biens qu'il cau -- "se ;"
+  Une heu -- reu -- se paix est la loy que ce Vain -- queur im -- po -- se.
+  "L'en -" "- po" -- se.
+  Son Ton -- nerre ins -- pi -- re l'ef -- froy,
+  Son Ton -- nerre ins -- pi -- re l'ef -- froy,
+  Dans le temps mes -- me qu'il re -- po -- se.
+  Son Ton -- nerre ins -- pi -- re l'ef -- froy,
+  Son Ton -- nerre ins -- pi -- re l'ef -- froy,
+  Dans le temps mes -- me qu'il re -- po -- se.
+  Son Ton -- nerre ins -- pi -- re l'ef -- froy,
+  Dans le temps mes -- me qu'il re -- po -- se.
+}

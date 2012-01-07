@@ -1,4 +1,4 @@
-do2 si, |
+\clef "basse" do2 si, |
 la,1 |
 sol,2. ~|
 sol,1 |

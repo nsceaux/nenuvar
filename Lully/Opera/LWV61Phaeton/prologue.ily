@@ -50,7 +50,7 @@
 \includeScore "AAGchoeur"
 %{ n°8 %}
 \pieceToc \markup { Saturne :
-  \italic { Un héros qui mérite une gloire immortelle }
+  \italic { Un héros qui merite une gloire immortelle }
 }
 \includeScore "AAHsaturne"
 %{ n°9 %}

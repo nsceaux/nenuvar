@@ -1,15 +1,40 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus2" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff \with { \haraKiriFirst } <<
+        { s1*2 s2. s1*3 s2.*2 s1*6 s2. s1*2 s2.
+          s2.^"Violons" }
+        \global \includeNotes "dessus1"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "dessus2"
+      >>
+      \new Staff \withLyrics <<
+        \global \keepWithTag #'saturne \includeNotes "voix"
+      >> \keepWithTag #'saturne \includeLyrics "paroles"
+      \new Staff <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
-    \new Staff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "saturne"
-    >> \includeLyrics "paroles"
-    \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
-      \includeFigures "chiffres"
+    \modVersion\new StaffGroupNoBar <<
+      \new GrandStaff <<
+        \new Staff \with { \haraKiriFirst } <<
+          { s1*2 s2. s1*3 s2.*2 s1*6 s2. s1*2 s2.
+            s2.^"Violons" }
+          \global \includeNotes "dessus1"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "dessus2"
+        >>
+      >>
+      \new Staff \withLyrics <<
+        \global \keepWithTag #'saturne \includeNotes "voix"
+      >> \keepWithTag #'saturne \includeLyrics "paroles"
+      \new Staff <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
   >>
   \layout { }
