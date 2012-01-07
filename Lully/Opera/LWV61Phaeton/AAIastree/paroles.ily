@@ -1,6 +1,6 @@
-Sui -- vons ce hé -- "ros ;" sui -- vez- nous,
-jeux in -- no -- cents, ras -- sem -- blez- vous,
-re -- gnez, re -- gnez dans u -- ne paix pro -- fon -- de. "- de."
-Rap -- pe -- lez l'heu -- reux temps de l'en -- fan -- ce du mon -- "de ;"
-jeux in -- no -- cents, ras -- sem -- blez- "vous ;"
-re -- pre -- nez pour ja -- mais vos char -- mes les plus doux.
+Sui -- vons ce He -- "ros ;" sui -- vez- nous,
+Jeux in -- no -- cens, ras -- sem -- blez- vous,
+Re -- gnez, Re -- gnez dans u -- ne paix pro -- fon -- de. "- de."
+Rap -- pe -- lez l'heu -- reux temps de l'en -- fan -- ce du Mon -- "de ;"
+Jeux in -- no -- cent, ras -- sem -- blez- "vous ;"
+Re -- pre -- nez pour ja -- mais vos char -- mes les plus doux.
