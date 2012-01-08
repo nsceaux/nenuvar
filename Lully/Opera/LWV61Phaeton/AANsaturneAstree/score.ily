@@ -1,31 +1,83 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaffB << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaffB << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaffB << \global \clef "quinte" \includeNotes "quinte" >>
-      \newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      %% Chœur
+      \new Staff \withLyrics <<
+        \global \includeNotes "voix-dessus"
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s4 s2.*42 \noHaraKiri }
+        \global \includeNotes "voix-haute-contre"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s4 s2.*42 \noHaraKiri }
+        \global \includeNotes "voix-taille"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
+      \new Staff \withLyrics <<
+        \global \includeNotes "voix-basse"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      %% Orchestre
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "haute-contre"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "taille"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "quinte"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "basse"
+      >>
+      \new Staff <<
+        \global \includeNotes "basse-continue"
+        \includeFigures "chiffres"
+      >>
     >>
-    \new ChoirStaff <<
-      \newHaraKiriStaff \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles-dessus"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles-haute-contre"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \clef "vtaille" \includeNotes "voix-taille"
-      >> \includeLyrics "paroles-taille"
-      \newHaraKiriStaff \withLyrics <<
-        \global \clef "vbasse" \includeNotes "voix-basse"
-      >> \includeLyrics "paroles-basse"
-    >>
-    \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
-      \includeFigures "chiffres"
+
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroup <<
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "haute-contre"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "taille"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "quinte"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "basse"
+        >>
+      >>
+      \new ChoirStaff <<
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-dessus"
+        >> \keepWithTag #'vdessus \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          { s4 s2.*42 \noHaraKiri }
+          \global \includeNotes "voix-haute-contre"
+        >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          { s4 s2.*42 \noHaraKiri }
+          \global \includeNotes "voix-taille"
+        >> \keepWithTag #'vtaille \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-basse"
+        >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      >>
+      \new Staff <<
+        \global \includeNotes "basse-continue"
+        \includeFigures "chiffres"
+      >>
     >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }

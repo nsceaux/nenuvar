@@ -1,6 +1,6 @@
-r4 |
+\clef "basse" r4 |
 R2.*42 |
-r2 do'8 do' |
+r4 r do'8 do' |
 si4 si do' |
 sol2 sol4 |
 mi4. mi8 fa fa |
@@ -17,9 +17,9 @@ si,4. si,8 si, si, |
 mi4 mi do |
 re re re, |
 sol,2 sol8 sol |
-re do re mi fa sol |
-la sol la si do' la |
-re'4 re'8 do' si la |
+re do re mi fa sol( |
+la) sol la si do' la( |
+re'4) re'8 do' si la |
 mi2 mi4 |
 fa fa re |
 mi mi mi, |
@@ -53,9 +53,9 @@ re' mi' re' do' si4 |
 do'2. |
 re'4 re2 |
 sol sol8 sol |
-re do re mi fa sol |
-la sol la si do' la |
-re'4 re'8 do' si la |
+re do re mi fa sol( |
+la) sol la si do' la( |
+re'4) re'8 do' si la |
 mi2 mi4 |
 fa fa re |
 mi mi mi, |

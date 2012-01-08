@@ -1,6 +1,6 @@
-r4 |
+\clef "vhaute-contre" r4 |
 R2.*42 |
-r2 sol'8 sol' |
+r4 r sol'8 sol' |
 sol'4 sol' sol' |
 sol'2 re'4 |
 mi'4. mi'8 la' la' |
@@ -29,25 +29,25 @@ la'2 la'8 la' |
 sol'4 sol'8 sol' la' si' |
 la'2 la'4 |
 si' si' sol' |
-sol' fad'4. sol'8 |
+sol' fad'4.\tr sol'8 |
 %%%
 sol'2 sol'8 sol' |
-sol'4 mi'8 mi' mi' mi' |
+sol'4 mi'8\tr mi' mi' mi' |
 fa'2 la'8 la' |
 sol'4 sol'8 sol' sol' sol' |
 sol'2 sol'4 |
 sol' mi' mi' |
 la' sol'4. sol'8 |
 %%%
-mi'2 sol'4 |
+mi'2\tr sol'4 |
 sol' sol'4. sol'8 |
-la'4 sol'4. sol'8 |
+la'4 sol'4.\tr sol'8 |
 fa'2 fa'4 |
 mi' la' sol' |
 sol' sol'4. sol'8 |
-mi'2 r4 |
+mi'2\tr r4 |
 R2.*6 |
-r2 sol'8 sol' |
+r4 r sol'8 sol' |
 la'4 la'8 la' fa' fa' |
 mi'2 la'8 la' |
 la'4 la'8 la' sold' la' |
@@ -60,11 +60,11 @@ la'2 la'8 la' |
 sol'4 sol'8 sol' la' si' |
 la'2 la'4 |
 si' si' sol' |
-sol' fad'4. sol'8 |
+sol' fad'4.\tr sol'8 |
 sol'2 r4 |
 R2.*10 |
-r2 sol'8 sol' |
-sol'4 mi'8 mi' mi' mi' |
+r4 r sol'8 sol' |
+sol'4 mi'8\tr mi' mi' mi' |
 fa'2 la'8 la' |
 sol'4 sol'8 sol' sol' sol' |
 sol'2 sol'4 |
@@ -72,8 +72,8 @@ sol' mi' mi' |
 la' sol'4. sol'8 |
 mi'2 sol'4 |
 sol' sol'4. sol'8 |
-la'4 sol'4. sol'8 |
+la'4 sol'4.\tr sol'8 |
 fa'2 fa'4 |
 mi' la' sol' |
 sol' sol'4. sol'8 |
-mi'2. |
+mi'2.\tr |

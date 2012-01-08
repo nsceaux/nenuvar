@@ -88,21 +88,19 @@
                  (timbales "Timbales" #:score-file "part5.ly")
                  (voix "Parties vocales")))
 
-       ("Phaéton"
+       ("Phaëton"
         #:description "Tragédie lyrique, livret de Quinault, 1683."
         #:key "Lully/Opera/LWV61Phaeton"
         #:opus "LWV-61"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=39"
-        #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
-        #:parts ((dessus1 "Dessus I")
-                 (dessus2 "Dessus II")
-                 (haute-contre "Haute-contre")
-                 (taille "Taille")
-                 (quinte "Quinte")
+        #:main ((urtext "Version urtext" #:options "-durtext")
+                (rehearsal "Version de concert"))
+        #:parts ((dessus "Dessus")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (quinte "Quintes")
                  (basse "Basses")
-                 (basse-continue "Basse continue" #:score-file "part-bc.ly")
-                 (voix "Parties vocales")))
+                 (basse-continue "Basse continue")))
 
        ("Armide"
         #:description "Tragédie lyrique, livret de Quinault, 1686."

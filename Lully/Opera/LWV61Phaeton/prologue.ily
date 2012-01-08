@@ -72,6 +72,8 @@
 \pieceToc \markup { Astrée, Saturne, chœur : \italic { On a vu ce héros terrible dans la guerre } }
 \includeScore "AANsaturneAstree"
 %{ n°15 %}
-\pieceNoTitle
-\reIncludeScore "AAAouverture" "AAOouverture"
+\modVersion {
+  \pieceNoTitle
+  \reIncludeScore "AAAouverture" "AAOouverture"
+}
 \actEnd \markup { FIN DU PROLOGUE }

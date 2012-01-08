@@ -456,44 +456,38 @@ Lully/Opera/LWV56Psyche-all: \
 
 .PHONY: Lully/Opera/LWV56Psyche-delivery Lully/Opera/LWV56Psyche-clean Lully/Opera/LWV56Psyche-all
 
-### Phaéton
-# Conducteur
-Lully/Opera/LWV61Phaeton:
+### Phaëton
+# Version urtext
+Lully/Opera/LWV61Phaeton-urtext:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV61Phaeton  \
+	-o $(OUTPUT_DIR)/LWV61Phaeton-urtext -durtext \
 	Lully/Opera/LWV61Phaeton/main.ly
-.PHONY: Lully/Opera/LWV61Phaeton
-# rehearsal
+.PHONY: Lully/Opera/LWV61Phaeton-urtext
+# Version de concert
 Lully/Opera/LWV61Phaeton-rehearsal:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV61Phaeton-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/LWV61Phaeton-rehearsal  \
 	Lully/Opera/LWV61Phaeton/main.ly
 .PHONY: Lully/Opera/LWV61Phaeton-rehearsal
-# Dessus I
-Lully/Opera/LWV61Phaeton-dessus1:
+# Dessus
+Lully/Opera/LWV61Phaeton-dessus:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV61Phaeton-dessus1 -dpart=dessus1  \
+	-o $(OUTPUT_DIR)/LWV61Phaeton-dessus -dpart=dessus  \
 	Lully/Opera/LWV61Phaeton/part.ly
-.PHONY: Lully/Opera/LWV61Phaeton-dessus1
-# Dessus II
-Lully/Opera/LWV61Phaeton-dessus2:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV61Phaeton-dessus2 -dpart=dessus2  \
-	Lully/Opera/LWV61Phaeton/part.ly
-.PHONY: Lully/Opera/LWV61Phaeton-dessus2
-# Haute-contre
+.PHONY: Lully/Opera/LWV61Phaeton-dessus
+# Hautes-contre
 Lully/Opera/LWV61Phaeton-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-haute-contre -dpart=haute-contre  \
 	Lully/Opera/LWV61Phaeton/part.ly
 .PHONY: Lully/Opera/LWV61Phaeton-haute-contre
-# Taille
+# Tailles
 Lully/Opera/LWV61Phaeton-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-taille -dpart=taille  \
 	Lully/Opera/LWV61Phaeton/part.ly
 .PHONY: Lully/Opera/LWV61Phaeton-taille
-# Quinte
+# Quintes
 Lully/Opera/LWV61Phaeton-quinte:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-quinte -dpart=quinte  \
@@ -509,27 +503,19 @@ Lully/Opera/LWV61Phaeton-basse:
 Lully/Opera/LWV61Phaeton-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-basse-continue -dpart=basse-continue  \
-	Lully/Opera/LWV61Phaeton/part-bc.ly
-.PHONY: Lully/Opera/LWV61Phaeton-basse-continue
-# Parties vocales
-Lully/Opera/LWV61Phaeton-voix:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV61Phaeton-voix -dpart=voix  \
 	Lully/Opera/LWV61Phaeton/part.ly
-.PHONY: Lully/Opera/LWV61Phaeton-voix
+.PHONY: Lully/Opera/LWV61Phaeton-basse-continue
 
 Lully/Opera/LWV61Phaeton-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV61Phaeton
-	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
+	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-urtext.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-rehearsal.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
-	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-dessus1.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-dessus1.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
-	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-dessus2.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-dessus2.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
+	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-dessus.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-taille.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-quinte.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-quinte.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-basse.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-basse-continue.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
-	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-voix.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-voix.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV61Phaeton/LWV61Phaeton-midi.tar.gz $(OUTPUT_DIR)/LWV61Phaeton.midi $(OUTPUT_DIR)/LWV61Phaeton-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV61Phaeton.midi ]; then cp $(OUTPUT_DIR)/LWV61Phaeton.midi $(DELIVERY_DIR)/Lully/LWV61Phaeton/ ; fi
 	git archive --prefix=LWV61Phaeton/ HEAD Lully/Opera/LWV61Phaeton common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV61Phaeton/LWV61Phaeton.tar.gz
 
@@ -537,16 +523,14 @@ Lully/Opera/LWV61Phaeton-clean:
 	@rm -f $(OUTPUT_DIR)/LWV61Phaeton-* $(OUTPUT_DIR)/LWV61Phaeton.*
 
 Lully/Opera/LWV61Phaeton-all: \
-	Lully/Opera/LWV61Phaeton \
+	Lully/Opera/LWV61Phaeton-urtext \
 	Lully/Opera/LWV61Phaeton-rehearsal \
-	Lully/Opera/LWV61Phaeton-dessus1 \
-	Lully/Opera/LWV61Phaeton-dessus2 \
+	Lully/Opera/LWV61Phaeton-dessus \
 	Lully/Opera/LWV61Phaeton-haute-contre \
 	Lully/Opera/LWV61Phaeton-taille \
 	Lully/Opera/LWV61Phaeton-quinte \
 	Lully/Opera/LWV61Phaeton-basse \
-	Lully/Opera/LWV61Phaeton-basse-continue \
-	Lully/Opera/LWV61Phaeton-voix\
+	Lully/Opera/LWV61Phaeton-basse-continue\
 	Lully/Opera/LWV61Phaeton-delivery\
 	Lully/Opera/LWV61Phaeton-clean
 

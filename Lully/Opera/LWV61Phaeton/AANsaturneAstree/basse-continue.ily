@@ -1,4 +1,4 @@
-do'8 do' |
+\clef "basse" do'8 do' |
 si4 si do' |
 sol2 sol4 |
 mi4. mi8 fa fa |
@@ -18,6 +18,12 @@ sol,2 sol8 sol |
 re do re mi fa sol |
 la sol la si do' la |
 re'4 re'8 do' si la |
+\myfootnote #'NoteHead #'(0 . 1.5) \markup\wordwrap {
+  Sur Ballard 1683, deux \italic sol \figure-sharp sont imprimés,
+  corrigés manuellement par des \italic mi. Le manuscrit 107 de
+  la bibliothèque de Versailles ainsi que l'édition Baussen 1709
+  ont tous deux des \italic mi.
+}
 mi2 mi4 |
 la la mi |
 fa re mi |
@@ -58,9 +64,9 @@ si,4. si,8 si, si, |
 mi4 mi do |
 re re re, |
 sol,2 sol8 sol |
-re do re mi fa sol |
-la sol la si do' la |
-re'4 re'8 do' si la |
+re do re mi fa sol( |
+la) sol la si do' la( |
+re'4) re'8 do' si la |
 mi2 mi4 |
 fa fa re |
 mi mi mi, |
@@ -95,8 +101,8 @@ do'2. |
 re'4 re2 |
 sol sol8 sol |
 re do re mi fa sol |
-la sol la si do' la |
-re'4 re'8 do' si la |
+la) sol la si do' la( |
+re'4) re'8 do' si la |
 mi2 mi4 |
 fa fa re |
 mi mi mi, |
