@@ -101,7 +101,7 @@ do'2. |
 re'4 re2 |
 sol sol8 sol |
 re do re mi fa sol |
-la) sol la si do' la( |
+la sol la si do' la( |
 re'4) re'8 do' si la |
 mi2 mi4 |
 fa fa re |

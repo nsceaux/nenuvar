@@ -37,7 +37,7 @@
 >>
 <<
   \tag #'dessus1 {
-    fa''8^\markup\column\whiteout { "Premier dessus" "de hautbois" } sol'' fa'' mi'' |
+    fa''8^\markup\whiteout\column { "Premier dessus" "de hautbois" } sol'' fa'' mi'' |
     re''2\tr mi''8 fa'' |
     sol'' la'' sol'' fa'' mi'' re'' |
     do''2 re''8 mi'' |
@@ -46,7 +46,7 @@
   }
   \tag #'(dessus2 haute-contre-dessus2) {
     \tag #'haute-contre-dessus2 \clef "dessus"
-    re''8^\markup\column\whiteout { "Second dessus" "de hautbois" } mi'' re'' do'' |
+    re''8^\markup\whiteout\column { "Second dessus" "de hautbois" } mi'' re'' do'' |
     si'2\tr do''8 re'' |
     mi'' fa'' mi'' re'' do'' si' |
     la'2 si'8 do'' |
@@ -58,7 +58,7 @@
 >>
 <<
   \tag #'(dessus1 dessus2) {
-    la'2 do''8 do'' |
+    la'2^\markup\mod-version "[Tous]" do''8 do'' |
     re''4. re''8 re'' re'' |
     mi''2 mi''8 re'' |
     do''4 mi'' mi'' |
@@ -80,7 +80,7 @@
 >>
 <<
   \tag #'dessus1 {
-    re''8 mi'' re'' mi'' |
+    re''8^\markup\mod-version "[Hautbois]" mi'' re'' mi'' |
     fa''4 fa''4. fa''8 |
     mi''4 mi''8 re'' mi'' fa'' |
     sol'' fa'' sol'' la'' sib'' sol'' |
@@ -91,7 +91,7 @@
   }
   \tag #'(dessus2 haute-contre-dessus2) {
     \tag #'haute-contre-dessus2 \clef "dessus"
-    si'8 do'' si' dod'' |
+    si'8^\markup\mod-version "[Hautbois]" do'' si' dod'' |
     re''4 la'8 sol' la' si' |
     do''4 do''8 si' do'' re'' |
     mi'' re'' mi'' fa'' sol'' mi'' |
@@ -105,7 +105,7 @@
 >>
 <<
   \tag #'(dessus1 dessus2) {
-    do''2 sib'16( la') sib'8 |
+    do''2^\markup\mod-version "[Tous]" sib'16( la') sib'8 |
     la'4.\tr la'8 si' do'' |
     si'2\tr re''8 re'' |
     sol''4 sol'' sol'' |
@@ -125,7 +125,7 @@
 >>
 <<
   \tag #'dessus1 {
-    sol''8 la'' sol'' fa'' |
+    sol''8^\markup\mod-version "[Hautbois]" la'' sol'' fa'' |
     mi'' fa'' mi'' re'' do'' si' |
     la'2 si'8 do'' re'' mi'' re'' do'' si'8. do''16 |
     do''8.\tr si'16 la'4.\tr sol'8 |
@@ -140,7 +140,7 @@
   }
   \tag #'(dessus2 haute-contre-dessus2) {
     \tag #'haute-contre-dessus2 \clef "dessus"
-    mi''8 fa'' mi'' re'' |
+    mi''8^\markup\mod-version "[Hautbois]" fa'' mi'' re'' |
     do'' re'' do'' si' la' sol' |
     fad'2 sol'8 la' |
     si' do'' si' la' sol'8. la'16 |
@@ -159,7 +159,7 @@
 >>
 <<
   \tag #'(dessus1 dessus2) {
-    do''2 sib'16 la' sib'8 |
+    do''2^\markup\mod-version "[Tous]" sib'16 la' sib'8 |
     la'4.\tr la'8 si' do'' |
     si'2 re''8 re'' |
     sol''4 sol'' sol'' |

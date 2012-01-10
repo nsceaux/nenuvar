@@ -165,21 +165,23 @@ ballardFigures =
 baussenFigures =
 #(define-music-function (parser location figures) (ly:music?)
    (if (eqv? (ly:get-option 'urtext) #t)
-       ;(make-music 'Music 'void #t)
-       #{ \new FiguredBass \with {
-            \override BassFigure #'color = #red
-            \override BassFigureContinuation #'color = #red
-          } $figures #}
+       (if (eqv? (ly:get-option 'debug-figures) #t)
+           #{ \new FiguredBass \with {
+                \override BassFigure #'color = #red
+                \override BassFigureContinuation #'color = #red
+             } $figures #}
+           (make-music 'Music 'void #t))
        figures))
 
 baussenFiguresAlt =
 #(define-music-function (parser location figures) (ly:music?)
    (if (eqv? (ly:get-option 'urtext) #t)
-       ;(make-music 'Music 'void #t)
-       #{ \new FiguredBass \with {
-            \override BassFigure #'color = #red
-            \override BassFigureContinuation #'color = #red
-          } $figures #}
+       (if (eqv? (ly:get-option 'debug-figures) #t)
+           #{ \new FiguredBass \with {
+                \override BassFigure #'color = #red
+                \override BassFigureContinuation #'color = #red
+             } $figures #}
+           (make-music 'Music 'void #t))
        (make-music 'Music 'void #t)))
 
 %%% In urtext version, do not display "+" ornementations,

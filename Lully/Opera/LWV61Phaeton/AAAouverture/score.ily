@@ -11,6 +11,6 @@
     \origVersion\new StaffGroupNoBar \group
     \modVersion\new StaffGroup \group
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }

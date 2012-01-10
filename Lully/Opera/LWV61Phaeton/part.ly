@@ -7,7 +7,11 @@
   \markup \null
   \pageBreak
   %% Table of contents
-  \markuplist \table-of-contents
+  \markuplist
+  \abs-fontsize-lines #8
+  \override-lines #'(column-number . 2) 
+  \override-lines #'(use-rehearsal-numbers . #t)
+  \table-of-contents
 }
 
 \include "Lully/Opera/LWV61Phaeton/prologue.ily"

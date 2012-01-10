@@ -11,5 +11,5 @@
       \includeNotes "dessus-haute-contre"
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
 }
