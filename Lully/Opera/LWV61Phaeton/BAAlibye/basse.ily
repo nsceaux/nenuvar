@@ -1,4 +1,4 @@
-do2 do'4. do'8 |
+\clef "basse" do2 do'4. do'8 |
 do'2 sib4 sol |
 lab1 mi2 |
 fa fa, |
@@ -16,21 +16,23 @@ lab, |
 sib, |
 mib |
 fa |
-sol2. fa4 mib re |
+sol2.( fa4) mib re |
 do2 do4 re |
 mib2 mi |
 fa1 |
 mib4 fa sol sol, |
-do2 do' ~|
+do2^\markup\orig-version\musicglyph #"scripts.segno" do' ~|
 do' sib4 sol |
 lab1 mi2 |
 fa fa, |
 do2. do4 |
 sol2. sol,4 |
 re1 sib,2 |
-lab,4 sol, re,2 |
-sol,1 |
-do2 do' |
+la,4 sol, re,2 |
+<<
+  \origVersion { sol,1 | \custosNote do2 }
+  \modVersion { sol,1 | do2 do'\laissezVibrer | }
+>>
 sol,1 ~ sol,4 sol |
 do'1 do4 do |
 fa1 fa2 |
@@ -41,9 +43,15 @@ lab, |
 sib, |
 mib |
 fa |
-sol2. fa4 mib re |
+sol2.( fa4) mib re |
 do2 do4 re |
 mib2 mi |
 fa1 |
 mib4 fa sol sol, |
-do1 |
+<<
+  \tag #'basse { do1 }
+  \tag #'basse-continue {
+    do2 ~ do8 sib, la, sol, |
+    \set Staff.whichBar = "|"
+  }
+>>

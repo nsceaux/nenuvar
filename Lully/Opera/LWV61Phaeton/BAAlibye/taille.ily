@@ -1,4 +1,4 @@
-r4 sol' sol'4. sol'8 |
+\clef "taille2" r4 sol' sol'4. sol'8 |
 fa'4. fa'8 sol'4 sol' |
 mib'2. do'4 do' do' |
 do'2 lab4 fa |
@@ -21,7 +21,7 @@ sol' mib' do'2 |
 do' do'4 do' |
 do'2 do'4 re' |
 mib' do' sol' re' |
-mib' mib' mib'4. mib'8 |
+mib' mib'^\markup\orig-version\musicglyph #"scripts.segno" mib'4. mib'8 |
 fa'4 fa' sol' mib' |
 mib' re' do'2. sol4 |
 lab2 fa |
@@ -29,8 +29,10 @@ sol sol4 do' |
 sib2 sol4 sol |
 la2 fad4. fad8 sol4 sol |
 do'8 la sib8. do'16 re'4. re'8 |
-re'1 |
-r4 mib' mib'4. mib'8 |
+<<
+  \origVersion { re'1 | r4 \custosNote mib' }
+  \modVersion { re'1 | r4 mib' mib'4. mib'8 | }
+>>
 re'2. re'4 re' re' |
 mi'2 do' do'4 sol |
 la2 la la |

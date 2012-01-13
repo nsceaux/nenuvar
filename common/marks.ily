@@ -77,6 +77,12 @@ segnoMarkEnd = {
   \once \override Score . RehearsalMark #'self-alignment-X = #CENTER
   \mark \markup \musicglyph #"scripts.segno"
 }
+segnoMarkDownEnd = { 
+  \once \override Score . RehearsalMark #'break-visibility = #begin-of-line-invisible
+  \once \override Score . RehearsalMark #'direction = #DOWN
+  \once \override Score . RehearsalMark #'self-alignment-X = #CENTER
+  \mark \markup \musicglyph #"scripts.segno"
+}
 
 dacapoOverrides = {
   \once \override Score . RehearsalMark #'break-visibility = #begin-of-line-invisible

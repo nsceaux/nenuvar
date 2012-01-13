@@ -1,4 +1,4 @@
-r4 do'8 re' mib'4 do' |
+\clef "quinte" r4 do'8 re' mib'4 do' |
 re' re' re' sib |
 do'2 lab sol |
 fa fa4 fa |
@@ -13,14 +13,14 @@ fa4. fa8 fa2. fa4 |
 sol2 sol sol4 sol |
 mib2 sib4 sib |
 lab2 lab4 lab |
-lab2 fa4 sib |
+lab?2 fa4 sib |
 sol2 sol la la |
 sol4. sol8 sol2 sol4 fa |
 mib2 sol |
 sol sol4 sol |
 la2 la4 re' |
 do' lab sol sol |
-sol mib' do'4. do'8 |
+sol mib'^\markup\orig-version\musicglyph #"scripts.segno" do'4. do'8 |
 re'4 re' re' sol |
 do' sib lab2 sol |
 fa1 |
@@ -28,8 +28,10 @@ mib4 fa sol2 |
 sol2. re4 |
 re2 re re4 re |
 la re re4. re8 |
-re1 |
-r4 mib' do'4. do'8 |
+<<
+  \origVersion { re1 | r4 \custosNote mib' }
+  \modVersion { re1 | r4 mib' do'4. do'8 | }
+>>
 re1 re'4 re' |
 do'2 do' sol4 sol |
 fa1 fa2 fa4. fa8 fa2. fa4 |
