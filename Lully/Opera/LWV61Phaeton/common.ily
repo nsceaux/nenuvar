@@ -10,6 +10,8 @@
 %%  urtext  if true, then print urtext score
 %%  part    if a symbol, then print the separate part score
 #(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
+% source uses natural signs
+#(ly:set-option 'ancient-alteration (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
 #(ly:set-option 'apply-vertical-tweaks (and (not (eqv? #t (ly:get-option 'urtext)))
@@ -17,7 +19,7 @@
 #(ly:set-option 'print-footnotes (eqv? #t (ly:get-option 'urtext)))
 
 %% use baroque style repeats
-#(ly:set-option 'baroque-repeats #t)
+#(ly:set-option 'baroque-repeats (eqv? #t (ly:get-option 'urtext)))
 
 %% Staff size:
 %%  14 for lead sheets

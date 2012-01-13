@@ -1,6 +1,7 @@
 %%%
 %%% An baroque alteration style
-%%% - no neutral (bécarre) sign, only # and b.
+%%% When `ancient-alteration' option is #t, natural (bécarre) signs
+%%% are changed into # or b.
 
 #(define (recent-enough? bar-number alteration-def laziness)
   (or (number? alteration-def)
@@ -113,7 +114,7 @@ Returns @code{#f} or the reason for the invalidation, a symbol."
          alteration)))
 
 #(define (accidental-interface::calc-generic-alteration grob)
-   (if (eqv? #t (ly:get-option 'ancient-style))
+   (if (eqv? #t (ly:get-option 'ancient-alteration))
        (accidental-interface::calc-ancient-alteration grob)
        (accidental-interface::calc-alteration grob)))
 
@@ -127,11 +128,11 @@ ancientAccidentals = \with {
 \layout {
   \context {
     \Score
-    autoAccidentals = #(if (eqv? #t (ly:get-option 'ancient-style))
+    autoAccidentals = #(if (eqv? #t (ly:get-option 'ancient-alteration))
                            `(Staff ,(make-baroque-accidental-rule 'same-octave 0))
                            `(Staff ,(make-accidental-rule 'same-octave 0)))
     \override Accidental #'alteration = #accidental-interface::calc-generic-alteration
     \override AccidentalCautionary #'alteration = #accidental-interface::calc-generic-alteration
-    printKeyCancellation = #(not (eqv? #t (ly:get-option 'ancient-style)))
+    printKeyCancellation = #(not (eqv? #t (ly:get-option 'ancient-alteration)))
   }
 }

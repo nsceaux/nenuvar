@@ -23,7 +23,7 @@
     \digitTime \time 2/2
     s2. \override Score.MetronomeMark #'self-alignment-X = #CENTER \tempo "Gay"
     s4 \markUpBegin\mark "Ritournelle" s1*14
-    \modVersion \bar "|;:"
+    \modVersion { \bar "|;:" \segnoMark }
     \origVersion s4*0^\markup\musicglyph #"scripts.segno"
     s1*8 \alternatives s1*2 s1 s1*29 \bar "|."
   }
