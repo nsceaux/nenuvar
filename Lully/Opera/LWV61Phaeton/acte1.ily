@@ -1,15 +1,16 @@
 \act "Acte Premier"
 \sceneDescription \markup \wordwrap-center {
-  Le théâtre représente un jardin sur le devant, une grotte
-  dans le milieu, et la mer dans l'éloignement.
+  Le Theatre represente un Jardin sur le devant, une Grotte
+  dans le milieu, & la Mer dans l'éloignement.
 }
-\scene "Scène I"
-\sceneDescription \markup \wordwrap-center { \smallCaps Libye, seule. }
-\pieceToc \markup { Libye : \italic { Heureuse une âme indifférente ! } }
+\scene "Scène Premiere" "SCENE 1 : Libie"
+\sceneDescription \markup\wordwrap-center { \smallCaps Libye seule. }
+\pieceToc \markup { Libye : \italic { Heureuse une ame indifferente ! } }
 \includeScore "BAAlibye"
 \scene "Scène II"
-\sceneDescription \markup \wordwrap-center \smallCaps { Théone, Libye. }
-\pieceToc \markup { Théone, Libye : \italic { Je ne vous croyais pas dans un lieu solitaire } }
+\sceneDescription \markup \wordwrap-center \smallCaps { Theone, Libye. }
+\pieceToc \markup { Theone, Libye :
+  \italic { Je ne vous croyois pas dans un lieu solitaire } }
 \includeScore "BBAtheoneLibye"
 \scene "Scène III"
 \sceneDescription \markup \wordwrap-center \smallCaps { Phaéton, Théone. }

@@ -1,4 +1,4 @@
-fa,1 |
+\clef "basse" fa,1 |
 fa2. fa4 |
 fa2 mi |
 fa2. fa4 |
@@ -11,6 +11,7 @@ mi4. re8 mib2 |
 re2. sib,4 |
 do2 fa, |
 do,1 |
+\origVersion\custosNote fa,2
 fa,2 fa ~|
 fa mi |
 fa4 fa,2 ~|
@@ -79,7 +80,7 @@ sib2 si4 sol |
 do' do'8 sib la2 |
 sib4 la sol8 fa mi4 |
 fa8 mi re do sib, la, sol, fa, |
-do2 ~ do8 do re mi |
+do2 ~ do8 do re << mi8 { s16 s^\markup\orig-version\musicglyph #"scripts.segno"  } >> |
 do2 do' |
 sib4 la sol2 |
 fad1 |
@@ -87,7 +88,7 @@ sol4. fa8 mi4 re |
 do2 do8 sib, la, sol, fa,2 |
 sol,1 |
 do |
-do'2 sib |
+do'2( sib) |
 la1 |
 sib2 fad |
 sol sol,4. fa,8 mi,4 fa, |
