@@ -1,5 +1,5 @@
-re1 ~|
-re2. |
+\clef "basse" re1 ~|
+re2.~ |
 re1 |
 mi2 mi,4 |
 la,2. ~|
@@ -17,7 +17,7 @@ re'4. do'8 sib4 |
 la8 sib la sol fa mi |
 re do si,4 la, |
 mi mi,2 |
-la,4 la8 si dod' la |
+la,4 la8 si dod' la_\markup\orig-version\musicglyph #"scripts.segno" |
 re'4 do' la |
 sib4. la8 sol fa |
 do' re' do' sib la4 |
@@ -66,10 +66,10 @@ sold |
 la4 sol fa2 mi4 re |
 la,4. la8 si dod' |
 re'4 re2 |
-sol4 fa2 |
+sol4( fa2) |
 mi2. |
 fa2 sib4 |
-sib8 la sol fa mi re |
+sib?8 la sol fa mi re |
 do sib, la, la re' sib |
 do'4 fa do |
 fa8 mi re4. re8 |
@@ -103,7 +103,7 @@ fa,2 fa4. mi8 re4 do |
 sol2 sol4 fa mi re |
 la2 la4 si |
 dod'1 re'4. do'8 |
-sib4. \smallNotes { sib16 la sol } fad2 |
+sib4. sib16*2/3 la sol fad2 |
 sol8. sol16 la8 sib do'4 do |
 fa,2 fa4 mi8 re |
 dod4 re sib,2 |
@@ -117,7 +117,7 @@ mi4 fad sol2 |
 mi la8 sol |
 fa4 mi8 re la la, |
 re1 |
-la2 sol4 |
+la2( sol4) |
 fa fad sol mi |
 la ~ la8. fa16 mi8 re la,4 |
 re,2 re8 do si, la, |

@@ -98,7 +98,7 @@ trill = #(make-articulation "stopped")
 %%%
 theoneMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Théone"))
+  (make-character-mark "vbas-dessus" "Theone"))
 
 libyeMark =
 #(define-music-function (parser location) ()
@@ -106,7 +106,7 @@ libyeMark =
 
 phaetonMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vhaute-contre" "Phaéton"))
+  (make-character-mark "vhaute-contre" "Phaeton"))
 
 clymeneMark =
 #(define-music-function (parser location) ()
