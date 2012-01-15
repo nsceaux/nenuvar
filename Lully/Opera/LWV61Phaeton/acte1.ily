@@ -28,11 +28,11 @@
   \italic { Vous paroissez chagrin, mon fils } }
 \includeScore "BDAclymenePhaeton"
 %{ n°5 %}
-\scene "Scène V"
+\scene "Scène V" "SCENE 5 : Protée"
 \sceneDescription \markup \center-column {
   \wordwrap-center {
-    Protée sort de la mer, il conduit les troupeaux de Neptune,
-    et il est accompagné d'une troupe de dieux marins.
+    Protée sort de la Mer, il conduit les Troupeaux de Neptune,
+    et il est accompagné d'une troupe de Dieux Marins.
   }
   \wordwrap-center { \smallCaps Protée et sa suite. }
 }

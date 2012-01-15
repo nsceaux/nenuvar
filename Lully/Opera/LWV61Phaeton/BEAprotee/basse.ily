@@ -1,4 +1,4 @@
-do4 do' do' |
+\clef "basse" do4 do' do' |
 si si do' |
 sol2 mi4 |
 la fa sol |
@@ -23,7 +23,7 @@ sol4. sol8 fa mi |
 re mi fa4 re |
 la sol8 fa mi4 |
 fa sol sol, |
-do2 sol4 |
+do2 \modVersion sol4 |
 do2. ~|
 do2 %{%} do'4 |
 sol sol sol |
@@ -38,7 +38,7 @@ fa2 fa4 |
 sol2 sol4 |
 la2 la8 si |
 dod'4 dod' re' |
-sib sib sib |
+sib? sib sib |
 sol la la, |
 re2 ~ re8 re |
 la4. la8 la fa |
@@ -67,7 +67,7 @@ sol2 sol,4 |
 do do' la |
 sib sib sol |
 la la fa |
-sol2 fa8. mi16 |
+sol2( fa8.) mi16 |
 re4. re8 la4 |
 fa sol sol, |
 do2 do8 re |
@@ -82,7 +82,7 @@ fa2 fa8 sol |
 la4 la4. si8 |
 do'4 do'8 si la sol |
 re'2 sib4 |
-sib8 sib fad4 sol |
+sib?8 sib fad4 sol |
 mib mib mib |
 do re re, |
 sol,2 sol8 sol |
@@ -113,15 +113,15 @@ do'1 do'2 |
 do' sib1 |
 lab1. |
 sol |
-sol2 lab sol |
-fa sol fa |
+sol2( lab sol) |
+fa( sol fa) |
 mib fa mib |
-re mib re |
-do1. |
+re( mib re |
+do1.) |
 sib,2 do sib, |
 lab,1. |
-sol,2 lab, sol, |
-fa, sol, fa, |
+sol,2( lab, sol,) |
+fa,( sol, fa,) |
 mib,1 fa,2 ~|
 fa, sol,1 |
 do do'4 do' |
@@ -157,6 +157,7 @@ sol4 lab sib1 |
 fa4 sol lab1 |
 mib4 fa sol1 |
 sol,1. |
-sol4 lab sol fa mib re |
-do re %{ reb %} do sib, lab, sol, fa,2 sol,1 |
+sol4( lab sol fa mib re) |
+do( reb do sib, lab, sol,) |
+fa,2 sol,1 |
 do,1. |
