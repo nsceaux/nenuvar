@@ -1,10 +1,15 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \global \includeNotes "protee-triton"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+      \global \keepWithTag #'triton \includeNotes "voix"
+    >> \keepWithTag #'triton \includeLyrics "paroles"
+    \new Staff \withLyrics <<
+      \global \keepWithTag #'protee \includeNotes "voix"
+    >> \keepWithTag #'protee \includeLyrics "paroles"
+    \new Staff <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+    >>
   >>
   \layout { }
   \midi { }

@@ -1,7 +1,7 @@
-\custosNote do2 ~ do8 re do si, |
-la,1 ~|
-la, ~|
-la4 ~ la8. sol16 fa2 |
+\clef "basse" do2_"fin de l'air precedent" ~ do8 re do si, |
+la,1~ |
+la,2~ la, |
+la4~ la8. sol16 fa2 |
 mi1 |
 sold,2. |
 la,1 |

@@ -80,17 +80,18 @@
 \pieceToc \markup { Triton : \italic { La plaisir est nécessaire } }
 \includeScore "BGDtriton"
 %{ n°11 %}
-\pieceToc \markup { Protée, Triton }
+\pieceToc \markup { Protée, Triton : \italic { Vos jeux ont des appas } }
 \includeScore "BGEproteeTriton"
 %{ n°12 %}
 \sceneDescription \markup \wordwrap-center {
-  Protée disparaît et se transforme successivement en tigre, en
-  arbre, en dragon, en fontaine et en flame. Tandis qu'il prend ces
-  formes différentes, il est sans cesse suivi et environné par les
-  suivants de Triton, et Triton lui fait entendre qu'il ne le
+  Protée disparaist & se transforme successivement en Tigre, en
+  Arbre, en Dragon, en Fontaine & en Flame. Tandis qu'il prend ces
+  formes differentes, il est sans cesse suivy & environné par les
+  Suivants de Triton, & Triton luy fait entendre qu'il ne le
   quittera point malgré ses transformations.
 }
-\pieceToc \markup { Triton : \italic { C'est un secret qu'il faut qu'on vous arrache } }
+\pieceToc \markup { Triton :
+  \italic { C'est un secret qu'il faut qu'on vous arrache } }
 \includeScore "BGFtriton"
 %{ n°13 %}
 \scene "Scène VIII"
