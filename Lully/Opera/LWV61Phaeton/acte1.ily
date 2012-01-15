@@ -23,13 +23,13 @@
 \includeScore "BCAphaetonTheone"
 %{ n°4 %}
 \scene "Scène IV" "SCENE 4 : Clymène, Phaëton"
-\sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaëton. }
-\pieceToc \markup { Clymène, Phaëton :
+\sceneDescription\markup\wordwrap-center \smallCaps { Clymène, Phaëton. }
+\pieceToc\markup { Clymène, Phaëton :
   \italic { Vous paroissez chagrin, mon fils } }
 \includeScore "BDAclymenePhaeton"
 %{ n°5 %}
 \scene "Scène V" "SCENE 5 : Protée"
-\sceneDescription \markup \center-column {
+\sceneDescription\markup\center-column {
   \wordwrap-center {
     Protée sort de la Mer, il conduit les Troupeaux de Neptune,
     et il est accompagné d'une troupe de Dieux Marins.
@@ -44,21 +44,23 @@
   sur le rivage, où ils vont prendre soin des troupeaux de Neptune.
 }
 %{ n°6 %}
-\scene "Scène VI"
-\sceneDescription \markup \wordwrap-center { \smallCaps Clymène, \smallCaps Protée endormi. }
-\pieceToc \markup { Clymène : \italic { Vous avec qui le sang me lie } }
+\scene "Scène VI" "SCENE 6 : Clymène"
+\sceneDescription \markup \wordwrap-center {
+  \smallCaps Clymène, \smallCaps Protée endormy.
+}
+\pieceToc\markup { Clymène : \italic { Vous avec qui le sang me lie } }
 \includeScore "BFAclymene"
 %{ n°7 %}
-\scene "Scène VII"
+\scene "Scène VII" "SCENE 7 : Triton, suivants de Triton"
 \sceneDescription \markup \center-column {
   \wordwrap-center {
-    \smallCaps Triton, suivants de Triton, \smallCaps Protée endormi.
+    \smallCaps Triton, suivants de Triton, \smallCaps Protée endormy.
   }
   \wordwrap-center {
-    Triton sort de la mer, accompagné d'une troupe de suivants, dont
-    une partie fait un concert d'instruments, et l'autre partie dance.
-    Ils éveillent Protée, et l'invitent à prendre part à leurs divertissements,
-    Triton chante au milieu de ses suivants.
+    Triton sort de la Mer, accompagné d'une troupe de Suivants, dont
+    une partie fait un Concert d'Instruments, & l'autre partie dance.
+    Ils éveillent Protée, & l'invitent à prendre part à leurs divertissements,
+    Triton chante au milieu de ses Suivants.
   }
 }
 \pieceToc \markup { Triton : \italic { Que Protée avec nous partage } }
