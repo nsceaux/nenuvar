@@ -1,4 +1,4 @@
-do''4 si' |
+\clef "haute-contre" r4 do''4 si' |
 do''2 do''4 |
 do''2 do''8 re'' |
 mi''4. re''8 do''4 |
@@ -10,7 +10,7 @@ R2.*5 |
 r4 si' dod'' |
 re'' do'' re'' |
 sol'8 la' si'4 do'' |
-do'' si'4. do''8 |
+do'' si'4.\tr do''8 |
 do''4 do'' do'' |
 re''4. do''8 si' la' |
 sol'2 sol'8 la' |
@@ -24,11 +24,9 @@ r4 fad' sold' |
 la' sol' la' |
 sol' fad' si' |
 la' la' re' |
-re' r2 |
+re' r4 r |
 R2.*3 |
 r4 si' do'' |
 do'' re'' si' |
-do'' si'4. do''8 |
-do''4 r2 |
-R2.*46 |
-r4 
+do'' si'4.\tr do''8 |
+do''4

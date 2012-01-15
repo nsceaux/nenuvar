@@ -1,9 +1,9 @@
-do4^"Basses de violons" re |
+\clef "basse" r4^\markup\whiteout "B[asses] de Violon" do4 re |
 mi4. re8 do4 |
 fa2 fa4 |
 do'2. |
 do'8 si la4 sol8 fa |
-mi4. re8 do4 |
+mi4.\tr re8 do4 |
 fa4 re sol |
 do2. |
 sol2^"Basson" fad4 |
@@ -22,13 +22,13 @@ sol4. la8 sol fa |
 mi2 fa4 |
 re sol sol, |
 do la, re |
-sol, sol8 la si do' |
-re'2^"Basson" dod'4 |
+sol, sol8^\markup\mod-version "Basson" la si do' |
+re'2^\markup\orig-version "Basson" dod'4 |
 re'4. sol8 fad4 |
 sol2 sol4 |
 re2 re'4 |
 sol2 sol4 |
-re' re2^"Violons" |
+re' re2^"[Violons]" |
 la4 mi fad |
 sol la si |
 do' re' re |
@@ -36,9 +36,7 @@ sol2.^"Basson" |
 sol, |
 sol4 do si, |
 do2 do4 |
-sol mi^"Violons" la |
+sol^"Violons" mi la |
 fa re sol |
 do sol,2 |
-do4 r2 |
-R2.*46 
-r4
+do4

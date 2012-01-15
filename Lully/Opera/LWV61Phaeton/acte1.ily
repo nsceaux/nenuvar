@@ -63,20 +63,23 @@
     Triton chante au milieu de ses Suivants.
   }
 }
-\pieceToc \markup { Triton : \italic { Que Protée avec nous partage } }
+\pieceToc "Air"
 \includeScore "BGAair"
 %{ n°8 %}
+\pieceToc \markup { Triton : \italic { Que Protée avec nous partage } }
+\includeScore "BGBair"
+%{ n°9 %}
 \sceneDescription \markup \wordwrap-center {
   Les suivants de Triton continuent leurs concerts d'instruments,
   et leurs danses. Et Triton y joint une chanson qu'il chante en
   s'adressant à Protée.
 }
 \pieceToc \markup { Triton : \italic { La plaisir est nécessaire } }
-\includeScore "BGBrondeau"
-%{ n°9 %}
-\pieceToc \markup { Protée, Triton }
-\includeScore "BGCproteeTriton"
+\includeScore "BGCrondeau"
 %{ n°10 %}
+\pieceToc \markup { Protée, Triton }
+\includeScore "BGDproteeTriton"
+%{ n°11 %}
 \sceneDescription \markup \wordwrap-center {
   Protée disparaît et se transforme successivement en tigre, en
   arbre, en dragon, en fontaine et en flame. Tandis qu'il prend ces
@@ -85,8 +88,8 @@
   quittera point malgré ses transformations.
 }
 \pieceToc \markup { Triton : \italic { C'est un secret qu'il faut qu'on vous arrache } }
-\includeScore "BGDtriton"
-%{ n°11 %}
+\includeScore "BGEtriton"
+%{ n°12 %}
 \scene "Scène VIII"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Triton, Clymène, } suivants de Triton, \smallCaps Protée.

@@ -1,21 +1,24 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new GrandStaff <<
-        \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus1"
-                             { s2 s2.*40 s4 \break } >>
-        \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus2" >>
-      >>
-      \newHaraKiriStaff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaff << \global \clef "quinte" \includeNotes "quinte" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff << \global \includeNotes "dessus1" >>
+      \new Staff << \global \includeNotes "dessus2" >>
+      \new Staff << s4^"Violons" \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff << \global \includeNotes "basse" \includeFigures "chiffres" >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "triton"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+    \modVersion\new StaffGroup <<
+      \new GrandStaff <<
+        \new Staff << \global \includeNotes "dessus1" >>
+        \new Staff << \global \includeNotes "dessus2" >>
+      >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff << \global \includeNotes "basse" \includeFigures "chiffres" >>
+    >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }
