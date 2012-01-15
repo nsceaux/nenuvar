@@ -110,7 +110,7 @@ phaetonMark =
 
 clymeneMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Clymène"))
+  (make-character-mark "vbas-dessus" "Clymene"))
 
 proteeMark =
 #(define-music-function (parser location) ()
@@ -122,7 +122,7 @@ tritonMark =
 
 epaphusMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbasse-taille" "Épaphus"))
+  (make-character-mark "vbasse-taille" "Epaphus"))
 
 meropsMark =
 #(define-music-function (parser location) ()

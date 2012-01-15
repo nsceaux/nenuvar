@@ -1,10 +1,13 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \global \clef "vbas-dessus" \includeNotes "clymene-phaeton"
-    >> \includeLyrics "paroles"
+      \global \keepWithTag #'clymene \includeNotes "voix"
+    >> \keepWithTag #'clymene \includeLyrics "paroles"
+    \new Staff \withLyrics <<
+      \global \keepWithTag #'phaeton \includeNotes "voix"
+    >> \keepWithTag #'phaeton \includeLyrics "paroles"
     \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
+      \global \includeNotes "basse"
       \includeFigures "chiffres"
     >>
   >>

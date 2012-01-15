@@ -1,4 +1,4 @@
-sol,4 sol8 la si4 sol |
+\clef "basse" sol,4 sol8 la si4 sol |
 do' la re' si |
 mi' do' re' re |
 sol sol8 fad mi4 re8 do |
@@ -73,7 +73,7 @@ mi4. fad8 sold4 |
 la4. si8 la sol |
 fad sol la sol fad mi |
 re sol, la,2 |
-re,4 re do8 si, |
+re,4 re( do8) si, |
 la, sol, la,8. si,16 do8 la, |
 mi4. mi8 re do |
 si, do si, la, si, sol, |
@@ -114,7 +114,7 @@ sol4. la8 sol fad |
 mi2. ~|
 mi1 ~|\allowPageTurn
 mi2 mi,4 |
-mi,1 |
+mi,2~ mi, |
 mi2 re |
 do sold, |
 la, si, |
