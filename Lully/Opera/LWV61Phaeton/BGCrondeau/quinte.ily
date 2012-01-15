@@ -1,4 +1,4 @@
-mi'4 mi' |
+\clef "quinte" mi'4 mi' |
 re' re' do' do' |
 si sol sol sol |
 fa la sol4. sol8 |
@@ -18,8 +18,10 @@ mi2 la4 fa' |
 re'4. re'8 mi'4 do' |
 re' re' sol sol |
 la la sol4. sol8 |
-sol2 r |
-R1*4 |
-r2 r |
-R1*4 |
-r2 
+sol2 \modVersion {
+  mi'4 mi' |
+  re' re' do' do' |
+  si sol sol sol |
+  fa la sol4. sol8 |
+  sol2
+}

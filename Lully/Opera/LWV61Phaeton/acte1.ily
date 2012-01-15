@@ -51,7 +51,7 @@
 \pieceToc\markup { Clymène : \italic { Vous avec qui le sang me lie } }
 \includeScore "BFAclymene"
 %{ n°7 %}
-\scene "Scène VII" "SCENE 7 : Triton, suivants de Triton"
+\scene "Scène VII" "SCENE 7 : Triton, Protée"
 \sceneDescription \markup \center-column {
   \wordwrap-center {
     \smallCaps Triton, suivants de Triton, \smallCaps Protée endormy.
@@ -74,12 +74,15 @@
   et leurs danses. Et Triton y joint une chanson qu'il chante en
   s'adressant à Protée.
 }
-\pieceToc \markup { Triton : \italic { La plaisir est nécessaire } }
+\pieceToc "Rondeau"
 \includeScore "BGCrondeau"
 %{ n°10 %}
-\pieceToc \markup { Protée, Triton }
-\includeScore "BGDproteeTriton"
+\pieceToc \markup { Triton : \italic { La plaisir est nécessaire } }
+\includeScore "BGDtriton"
 %{ n°11 %}
+\pieceToc \markup { Protée, Triton }
+\includeScore "BGEproteeTriton"
+%{ n°12 %}
 \sceneDescription \markup \wordwrap-center {
   Protée disparaît et se transforme successivement en tigre, en
   arbre, en dragon, en fontaine et en flame. Tandis qu'il prend ces
@@ -88,22 +91,22 @@
   quittera point malgré ses transformations.
 }
 \pieceToc \markup { Triton : \italic { C'est un secret qu'il faut qu'on vous arrache } }
-\includeScore "BGEtriton"
-%{ n°12 %}
+\includeScore "BGFtriton"
+%{ n°13 %}
 \scene "Scène VIII"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Triton, Clymène, } suivants de Triton, \smallCaps Protée.
 }
 \pieceToc \markup { Triton, Protée }
 \includeScore "BHAtritonProtee"
-%{ n°12 %}
+%{ n°14 %}
 \sceneDescription \markup \wordwrap-center {
   Protée après plusieurs transformations reprend enfin sa forme naturelle.
 }
 \pieceToc \markup { Protée :
   \italic { Le sort de Phaëton se découvre à mes yeux } }
 \includeScore "BHBprotee"
-%{ n°13 %}
+%{ n°15 %}
 \pieceTocTitle "Entr'acte"
 \includeScore "BHCentracte"
 \score {
