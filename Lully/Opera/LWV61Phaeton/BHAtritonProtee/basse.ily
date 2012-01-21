@@ -1,4 +1,4 @@
-do1 ~|
+\clef "basse" do1 ~|
 do |
 sol |
 mi2 la |

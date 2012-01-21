@@ -99,15 +99,15 @@
   \smallCaps { Triton, Clymène, } & les mesmes Acteurs de la Scene precedente.
 }
 \pieceToc \markup { Triton, Protée :
-  \italic { Il reviendra bientost dans la forme ordinaire }
+  \italic { Il reviendra bientost dans sa forme ordinaire }
 }
 \includeScore "BHAtritonProtee"
 %{ n°14 %}
 \sceneDescription \markup \wordwrap-center {
-  Protée après plusieurs transformations reprend enfin sa forme naturelle.
+  Protée aprés plusieurs transformations reprend enfin sa forme naturelle.
 }
 \pieceToc \markup { Protée :
-  \italic { Le sort de Phaëton se découvre à mes yeux } }
+  \italic { Puisque vous m'y forcez, il faut ne rien vous taire. } }
 \includeScore "BHBprotee"
 %{ n°15 %}
 \pieceTocTitle "Entr'acte"
