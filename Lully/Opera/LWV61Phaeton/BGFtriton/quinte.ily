@@ -1,4 +1,4 @@
-la4 la8 si do' re' mi'4 |
+\clef "quinte" la4 la8 si do' re' mi'4 |
 mi' mi'8 re' do'4 do' |
 si si la2 |
 la4 la sol2 |

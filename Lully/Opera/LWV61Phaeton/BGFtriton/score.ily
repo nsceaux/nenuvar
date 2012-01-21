@@ -1,16 +1,34 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaff << \global \clef "quinte" \includeNotes "quinte" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff \withLyrics <<
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff <<
+        \global \keepWithTag #'conducteur \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "triton"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff << \global \includeNotes "dessus" >>
+        \new Staff << \global \includeNotes "haute-contre" >>
+        \new Staff << \global \includeNotes "taille" >>
+        \new Staff << \global \includeNotes "quinte" >>
+        \new Staff << \global \keepWithTag #'basse \includeNotes "basse" >>
+      >>
+      \new Staff \withLyrics <<
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
+    >>
   >>
   \layout { }
   \midi { }

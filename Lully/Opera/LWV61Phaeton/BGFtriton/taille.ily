@@ -1,10 +1,10 @@
-do'8 si do' re' mi'4 mi' |
+\clef "taille" do'8 si do' re' mi'4 mi' |
 do' do'8 re' mi'4 mi' |
 mi' mi' mi'4. mi'8 |
 re' mi' re' do' si2 |
 si4 si do' do' |
 do' re' re' sol' |
-mi'2. mi'4 |
+mi'2.\tr mi'4 |
 re'8 do' re' mi' fa'4. fa'8 |
 mi'2 mi'8 fa' mi' re' |
 do'4 re' si si |
@@ -20,7 +20,7 @@ fa' mi' fa' sol' la'4 la' |
 la' mi' mi'4. mi'8 |
 fa'2 fa'4. fa'8 |
 si4 si do'4. do'8 |
-do'4 si si si |
+do'4 si si\tr si |
 do'1 |
 R1*11 |
 do'4 do'8 re' mi'4 mi' |
@@ -37,7 +37,7 @@ R1*12 |
 sol'4 sol'8 fa' mi'4 mi' |
 re' sol' la'4. la'8 |
 re'4. sol'8 mi'4 fad' |
-fad'8 red' mi' fad' sol' fad' mi' red' |
+fad'?8 red' mi' fad' sol' fad' mi' red' |
 mi'4 mi' red'4. mi'8 |
 mi'2. mi'4 |
 mi'2 ~ mi'4. mi'8 |
@@ -55,7 +55,7 @@ re'2 re'4. re'8 |
 mi'4 do'8 re' mi' fa' sol'4 |
 sol'2 ~ sol'8 fa' mi' re' |
 do'2 do'4 do' |
-do' do' si4. do'8 |
+do' do' si4.\tr do'8 |
 do'4 sol' sol'8 fa' mi'4 |
 re'2 re'8 mi' re' do' |
 si2 ~ si4. do'8 |

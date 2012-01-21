@@ -1,4 +1,4 @@
-do''8 re'' do'' si' la'4 sol'8 fa' |
+\clef "haute-contre" do''8 re'' do'' si' la'4 sol'8 fa' |
 mi'4 la'2 la'4 |
 si' sold' la'2 |
 la'4 la' si'8 do'' re'' si' |
@@ -18,7 +18,7 @@ fad'4 fad' sol'2 |
 sol'8 re' mi' fad' sol' la' si' dod'' |
 re''1 |
 do''8 si' do'' re'' mi''4. mi''8 |
-mi''4. fa''8 re''4. do''16 re'' |
+mi''4. fa''8 re''4.\tr do''16 re'' |
 mi''4 sold' la'4. la'8 |
 la'4 si' sold'4. la'8 |
 la'1 |
@@ -32,7 +32,7 @@ re''4. re''8 do''4. do''8 |
 do''2 ~ do''8 do'' si' la' |
 si'4 sol' si'4. si'8 |
 la'4 la' sol'4. fa'8 |
-mi'2 r |
+mi'2\tr r |
 R1*12 |
 mi'4 mi'8 fa' sol' la' sol' la' |
 si'4 si' do''4. re''8 |
@@ -47,15 +47,15 @@ mi'2 mi'4 re'8 mi' |
 mi'1 |
 mi'2 mi'4 la' |
 la' re'' re''4. re''8 |
-re''4 do'' si'2 |
+re''4 do'' si'2\tr |
 la'1 |
 R1*10 |
 r4 mi' mi'4. mi'8 |
 fa'4 re'8 mi' fa' sol' la' si' |
-do''4 mi' mi'4. re'8 |
+do''4 mi' mi'4.\tr re'8 |
 re'2 mi'8 fa' sol'4 |
 sol'2 sol'4 mi' |
-fa' la' sol'4. fa'8 |
+fa' la' sol'4.\tr fa'8 |
 mi'2 do''8 re'' do''8. si'16 |
 la'4 la'8 sol' fa'2 |
 mi' ~ mi'4. mi'8 |

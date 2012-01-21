@@ -94,11 +94,13 @@
   \italic { C'est un secret qu'il faut qu'on vous arrache } }
 \includeScore "BGFtriton"
 %{ n°13 %}
-\scene "Scène VIII"
+\scene "Scène VIII" "SCENE 8 : Triton, Clymène et les mesmes"
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps { Triton, Clymène, } suivants de Triton, \smallCaps Protée.
+  \smallCaps { Triton, Clymène, } & les mesmes Acteurs de la Scene precedente.
 }
-\pieceToc \markup { Triton, Protée }
+\pieceToc \markup { Triton, Protée :
+  \italic { Il reviendra bientost dans la forme ordinaire }
+}
 \includeScore "BHAtritonProtee"
 %{ n°14 %}
 \sceneDescription \markup \wordwrap-center {
