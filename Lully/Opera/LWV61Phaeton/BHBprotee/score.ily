@@ -1,19 +1,45 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus2" \includeNotes "dessus" >>
-      \newHaraKiriStaff << \global \clef "mezzosoprano/treble" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff << \global \clef "quinte" \includeNotes "taille" >>
-      \newHaraKiriStaff << \global \clef "quinte" \includeNotes "quinte" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'clymene \includeNotes "voix"
+      >> \keepWithTag #'clymene \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'triton \includeNotes "voix"
+      >> \keepWithTag #'triton \includeLyrics "paroles"
+      \new Staff \withLyrics <<
+        \global \keepWithTag #'protee \includeNotes "voix"
+      >> \keepWithTag #'protee \includeLyrics "paroles"
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vbas-dessus" \includeNotes "clymene"
-    >> \includeLyrics "paroles2"
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vbasse-taille" \includeNotes "protee"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff << \global \includeNotes "dessus" >>
+        \new Staff << \global \includeNotes "haute-contre" >>
+        \new Staff << \global \includeNotes "taille" >>
+        \new Staff << \global \includeNotes "quinte" >>
+      >>
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'clymene \includeNotes "voix"
+      >> \keepWithTag #'clymene \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'triton \includeNotes "voix"
+      >> \keepWithTag #'triton \includeLyrics "paroles"
+      \new Staff \withLyrics <<
+        \global \keepWithTag #'protee \includeNotes "voix"
+      >> \keepWithTag #'protee \includeLyrics "paroles"
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
+    >>
   >>
   \layout { }
   \midi { }

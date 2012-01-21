@@ -110,11 +110,22 @@
   \italic { Puisque vous m'y forcez, il faut ne rien vous taire. } }
 \includeScore "BHBprotee"
 %{ n°15 %}
-\pieceTocTitle "Entr'acte"
-\includeScore "BHCentracte"
+\modVersion {
+  \pieceTocTitle "Entr'acte"
+  \reIncludeScore "BGAair" "BHCentracte"
+}
+\markup\orig-version {
+  \italic {
+    On reprend pour l'Entr'Acte l'Air cy-devant page \page-refIII #'BGAair .
+  }
+}
 \score {
-  { \fractionTime \time 2/2 \clef "basse" do2~ do8 re do si, la,1 \laissezVibrer }
-  \layout { ragged-right = ##t
-    indent = 0 }
+  { \digitTime\time 2/2 \clef "basse"
+    do2_\markup\italic { A la fin de l'Air } ~ do8 re do si, la,1 \laissezVibrer
+  }
+  \layout {
+    ragged-right = ##t
+    indent = 0
+  }
 }
 \actEnd \markup { FIN DU PREMIER ACTE }

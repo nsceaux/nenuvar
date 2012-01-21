@@ -56,7 +56,7 @@ page lviii manquante (mesures 73 à 79)
 
 %%% Musique
 \include "Lully/Opera/LWV61Phaeton/prologue.ily"
-%\include "Lully/Opera/LWV61Phaeton/acte1.ily"
+\include "Lully/Opera/LWV61Phaeton/acte1.ily"
 %\include "Lully/Opera/LWV61Phaeton/acte2.ily"
 %\include "Lully/Opera/LWV61Phaeton/acte3.ily"
 %\include "Lully/Opera/LWV61Phaeton/acte4.ily"

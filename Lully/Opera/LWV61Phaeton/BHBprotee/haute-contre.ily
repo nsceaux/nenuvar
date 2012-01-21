@@ -1,6 +1,6 @@
-mi'4 ~ mi'16 mi' re' mi' do'4 sol |
+\clef "haute-contre2" mi'4 ~ mi'16 mi' re' mi' do'4 sol |
 la4. do'8 do'4. do'8 |
-re'4. do'8 do'4. si8 |
+re'4. do'8 do'4.\tr si8 |
 si2. ~ si16 la si dod' |
 re'2 re'4. re'8 |
 mi'2. mi'4 |
@@ -55,7 +55,7 @@ mi'1 |
 mi' |
 mi'2. mi'4 |
 re'2 mi' |
-fa' mi' |
+fa' mi'\tr |
 re'2. re'4 |
 re'2. re'4 |
 mi'2 mi' |

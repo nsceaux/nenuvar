@@ -1,4 +1,4 @@
-do2. ~ do16 do si, do |
+\clef "basse" do2. ~ do16 do si, do |
 la,2. ~ la,16 la, si, do |
 si,2 do4 do, |
 sol,1 |
@@ -29,7 +29,7 @@ fa, |
 sol,1. |
 do2 ~ do8. re16 mi re do si, |
 la,1 |
-sold,2 la,4. sol,8 fa,2 |
+sold,2 la,4. sol,?8 fa,2 |
 mi, ~ mi,4. mi16 re |
 do4. re16 mi sold,2 |
 la, re, |
@@ -65,6 +65,14 @@ sol,2. ~ sol,16 la, sol, fa, |
 mi,1 |
 fa, |
 sol,1. |
-do2 r |
-R1*4 |
-R2. |
+<<
+  \tag #'basse { do2 r | R1*4 R2. }
+  \tag #'basse-continue {
+    do1 |
+    si, |
+    la,2 re |
+    fad, sol,4 sol |
+    mi2 fa8 re sol sol, |
+    do2. |
+  }
+>>

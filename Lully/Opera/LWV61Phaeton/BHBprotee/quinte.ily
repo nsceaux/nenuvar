@@ -1,6 +1,6 @@
-mi2. mi4 |
+\clef "quinte" mi2. mi4 |
 mi4. mi8 fa4. fa8 |
-re4. mi8 mi4. fad8 |
+re4. mi8 mi4.\tr fad8 |
 sol4 re2 re4 |
 re2 re4. re8 |
 mi2. la4 |
@@ -31,7 +31,7 @@ sol |
 r4 mi mi2 |
 mi2. do'4 do' la |
 mi'2. si4 |
-do'2 si |
+do'2 si\tr |
 la si |
 si mi4 mi |
 la fa mi2 |
