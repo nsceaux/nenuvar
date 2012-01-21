@@ -9,13 +9,13 @@
 \pieceToc \markup { Libye :
   \italic { Heureuse une ame indifferente ! } }
 \includeScore "BAAlibye"
-%{ n°2 %}
+%{ n°2 %}\newBookPart #'(full-rehearsal)
 \scene "Scène II" "SCENE 2 : Théone, Libye"
 \sceneDescription \markup \wordwrap-center \smallCaps { Théone, Libye. }
-\pieceToc \markup { Theone, Libye :
+\pieceToc \markup\wordwrap { Theone, Libye :
   \italic { Je ne vous croyois pas dans un lieu solitaire } }
 \includeScore "BBAtheoneLibye"
-%{ n°3 %}
+%{ n°3 %}\newBookPart #'(full-rehearsal)
 \scene "Scène III" "SCENE 3 : Phaëton, Théone"
 \sceneDescription \markup \wordwrap-center \smallCaps { Phaëton, Théone. }
 \pieceToc \markup { Phaeton, Theone :
@@ -43,7 +43,7 @@
   Protée s'endort dans la grotte, et ses suivants s'écartent
   sur le rivage, où ils vont prendre soin des troupeaux de Neptune.
 }
-%{ n°6 %}
+%{ n°6 %}\newBookPart #'(full-rehearsal)
 \scene "Scène VI" "SCENE 6 : Clymène"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Clymène, \smallCaps Protée endormy.
@@ -52,11 +52,11 @@
 \includeScore "BFAclymene"
 %{ n°7 %}
 \scene "Scène VII" "SCENE 7 : Triton, Protée"
-\sceneDescription \markup \center-column {
+\sceneDescription\markup\center-column {
   \wordwrap-center {
     \smallCaps Triton, suivants de Triton, \smallCaps Protée endormy.
   }
-  \wordwrap-center {
+  \justify {
     Triton sort de la Mer, accompagné d'une troupe de Suivants, dont
     une partie fait un Concert d'Instruments, & l'autre partie dance.
     Ils éveillent Protée, & l'invitent à prendre part à leurs divertissements,
@@ -67,7 +67,7 @@
 \includeScore "BGAair"
 %{ n°8 %}
 \pieceToc \markup { Triton : \italic { Que Protée avec nous partage } }
-\includeScore "BGBair"
+\includeScore "BGBtriton"
 %{ n°9 %}
 \sceneDescription \markup \wordwrap-center {
   Les suivants de Triton continuent leurs concerts d'instruments,
@@ -83,7 +83,7 @@
 \pieceToc \markup { Protée, Triton : \italic { Vos jeux ont des appas } }
 \includeScore "BGEproteeTriton"
 %{ n°12 %}
-\sceneDescription \markup \wordwrap-center {
+\sceneDescription\markup\justify {
   Protée disparaist & se transforme successivement en Tigre, en
   Arbre, en Dragon, en Fontaine & en Flame. Tandis qu'il prend ces
   formes differentes, il est sans cesse suivy & environné par les
@@ -98,7 +98,7 @@
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Triton, Clymène, } & les mesmes Acteurs de la Scene precedente.
 }
-\pieceToc \markup { Triton, Protée :
+\pieceToc \markup\wordwrap { Triton, Protée :
   \italic { Il reviendra bientost dans sa forme ordinaire }
 }
 \includeScore "BHAtritonProtee"
@@ -106,26 +106,15 @@
 \sceneDescription \markup \wordwrap-center {
   Protée aprés plusieurs transformations reprend enfin sa forme naturelle.
 }
-\pieceToc \markup { Protée :
+\pieceToc \markup\wordwrap { Protée :
   \italic { Puisque vous m'y forcez, il faut ne rien vous taire. } }
 \includeScore "BHBprotee"
 %{ n°15 %}
-\modVersion {
-  \pieceTocTitle "Entr'acte"
-  \reIncludeScore "BGAair" "BHCentracte"
-}
+\pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
+\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "BGAair" "BHCentracte"
 \markup\orig-version {
   \italic {
     On reprend pour l'Entr'Acte l'Air cy-devant page \page-refIII #'BGAair .
-  }
-}
-\score {
-  { \digitTime\time 2/2 \clef "basse"
-    do2_\markup\italic { A la fin de l'Air } ~ do8 re do si, la,1 \laissezVibrer
-  }
-  \layout {
-    ragged-right = ##t
-    indent = 0
   }
 }
 \actEnd \markup { FIN DU PREMIER ACTE }

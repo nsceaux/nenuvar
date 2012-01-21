@@ -439,6 +439,13 @@ reIncludeScore =
 #(define-music-function (parser location name label) (string? string?)
    (include-score-helper parser name label #t))
 
+reIncludeScoreCond =
+#(define-music-function (parser location condition name label)
+     (boolean? string? string?)
+   (if condition
+       (include-score-helper parser name label #t)
+       (make-music 'Music 'void #t)))
+
 %%%
 %%%
 %%%

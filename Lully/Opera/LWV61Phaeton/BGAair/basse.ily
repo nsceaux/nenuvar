@@ -28,7 +28,7 @@ re'4. sol8 fad4 |
 sol2 sol4 |
 re2 re'4 |
 sol2 sol4 |
-re' re2^"[Violons]" |
+re' re2^\markup\whiteout "[Violons]" |
 la4 mi fad |
 sol la si |
 do' re' re |

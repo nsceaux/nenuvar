@@ -1,4 +1,22 @@
-
+\markup \column {
+  \line { A FAIRE : NOTES }
+  \line { Documents originaux :}
+  \hspace #1
+  \wordwrap { 
+    \italic Phaëton, tragédie mise en musique par Monsieur de Lully.
+    Christophe Ballard, Paris, 1683.
+    \with-url #"http://www.library.unt.edu/music/special-collections/lully/browse/phaeton-1st-edition-1683"
+    \tiny \typewriter "http://www.library.unt.edu"
+  }
+  \hspace #1
+  \wordwrap { 
+    \italic { Théâtre de Mr Quinault, } T. 5, contenant ses tragédies, comédies et opéras.
+    P. Ribou, Paris, 1715.
+    \with-url #"http://gallica.bnf.fr/ark:/12148/bpt6k73858n"
+    \tiny \typewriter "http://gallica.bnf.fr"
+  }
+}
+%{
 bécarres : usage pas constant (ex : acte 1 scène 1, si# et mi bécarre)
 
 
@@ -29,3 +47,4 @@ liaisons qui sont dans Baussen et pas dans Ballard sont ajoutées en pointillés
 La partie séparée de dessus utilise une clé de sol2, mais peut-être vaut-il mieux
 laisser la clé de sol1 ?  (Sur une précédente production, on m'a demandé de fournir
 aux violons des partitions avec clé de sol1.)
+%}

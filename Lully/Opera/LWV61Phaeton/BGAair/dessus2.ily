@@ -23,12 +23,12 @@ r sol'' la'' |
 fa''4.\trill mi''8 re''4 |
 mi'' fa''8 mi'' re'' do'' |
 si'2.\tr |
-fad'2^"Hautbois" mi'4 |
+fad'2^\markup\whiteout "Hautbois" mi'4 |
 fad'4. sol'8 la'4 |
 sol'8 fad' sol' la' sol'4 |
 fad'8 mi' fad' sol' fad'4 |
 sol'8 fad' sol' la' sol' la' |
-fad'4 la'^"Violons" si' |
+fad'4 la'^\markup\whiteout "Violons" si' |
 do''2. |
 si'4 do'' re'' |
 mi'' la'4.\trill sol'8 |
