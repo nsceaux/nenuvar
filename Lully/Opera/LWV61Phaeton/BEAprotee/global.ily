@@ -53,6 +53,6 @@
     s1.*6\pageBreak
     s1.*6\break
     s1.*7\break
-    s1.*7\pageBreak
+    s1.*7\break
   }
 >>

@@ -11,6 +11,6 @@
       \includeFigures "chiffres"
     >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }

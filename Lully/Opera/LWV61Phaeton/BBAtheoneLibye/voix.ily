@@ -3,7 +3,7 @@
   \tag #'(theone basse) {
     \clef "vbas-dessus" R1*13 |
     \origVersion r2
-    r4^\markup \character Théone r8 do'' do'' do'' do'' re'' |
+    r4^\markup \character Theone r8 do'' do'' do'' do'' re'' |
     sib'4\tr sib'8 sib' sib'4\tr sib'8 la' |
     la'\tr la' do'' do''16 do'' fa''8. fa''16 |
     do''8 do'' mib''8. mib''16 mib''8 re'' |
@@ -235,3 +235,4 @@
     R1 |
   }
 >>
+\stopStaff

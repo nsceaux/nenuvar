@@ -58,7 +58,7 @@
 >>
 <<
   \tag #'(dessus1 dessus2) {
-    la'2^\markup\mod-version "[Tous]" do''8 do'' |
+    la'2^\markup\mod-version "[Violons]" do''8 do'' |
     re''4. re''8 re'' re'' |
     mi''2 mi''8 re'' |
     do''4 mi'' mi'' |
@@ -105,7 +105,7 @@
 >>
 <<
   \tag #'(dessus1 dessus2) {
-    do''2^\markup\mod-version "[Tous]" sib'16( la') sib'8 |
+    do''2^\markup\mod-version "[Violons]" sib'16( la') sib'8 |
     la'4.\tr la'8 si' do'' |
     si'2\tr re''8 re'' |
     sol''4 sol'' sol'' |
@@ -159,7 +159,7 @@
 >>
 <<
   \tag #'(dessus1 dessus2) {
-    do''2^\markup\mod-version "[Tous]" sib'16 la' sib'8 |
+    do''2^\markup\mod-version "Violons" sib'16 la' sib'8 |
     la'4.\tr la'8 si' do'' |
     si'2 re''8 re'' |
     sol''4 sol'' sol'' |

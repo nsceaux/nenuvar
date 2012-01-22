@@ -59,10 +59,10 @@
 %{ n°10 %}
 \pieceToc \markup { Chœur : \italic { Jeux innocens, rassemblez-vous } }
 \includeScore "AAJchoeur"
+%{ n°11 %}
 \sceneDescription \markup\italic\line {
   La suite de Saturne & celle d'Astrée chantent & dansent ensemble.
 }
-%{ n°11 %}
 \pieceTocTitle "Air pour les suivants de Saturne"
 \includeScore "AAKair"
 %{ n°12 %}
@@ -76,7 +76,10 @@
 %{ n°14 %}
 \pieceToc \markup\wordwrap { Astrée, Saturne, chœur : \italic { On a veu ce Heros terrible dans la Guerre } }
 \includeScore "AANsaturneAstree"
-\markup\fill-line {
+%{ n°15 %}
+\pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
+\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "AAAouverture" "AAOentracte"
+\markup\orig-version\fill-line {
   \null
   \line\large\italic { On reprend l'Ouverture. }
   \null

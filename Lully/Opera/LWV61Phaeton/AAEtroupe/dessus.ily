@@ -1,4 +1,4 @@
-\clef "dessus" la''4 mi''2\tr |
+\clef "dessus" la''4^"Violons" mi''2\tr |
 fa'' mi''4 |
 do'' re''2\tr |
 mi'' mi''4 |

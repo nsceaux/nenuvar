@@ -1,6 +1,6 @@
 \clef "dessus" r4 |
 R2.*42 |
-r4 r mi''8 mi'' |
+r4 r mi''8^"Violons" mi'' |
 re''4\tr re'' do'' |
 si'2 re''4 |
 sol''4. sol''8 do'' fa'' |

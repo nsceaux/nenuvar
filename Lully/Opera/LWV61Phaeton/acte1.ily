@@ -43,6 +43,7 @@
   Protée s'endort dans la grotte, et ses suivants s'écartent
   sur le rivage, où ils vont prendre soin des troupeaux de Neptune.
 }
+\origVersion\pageBreak
 %{ n°6 %}\newBookPart #'(full-rehearsal)
 \scene "Scène VI" "SCENE 6 : Clymène"
 \sceneDescription \markup \wordwrap-center {
@@ -70,8 +71,8 @@
 \includeScore "BGBtriton"
 %{ n°9 %}
 \sceneDescription \markup \wordwrap-center {
-  Les suivants de Triton continuent leurs concerts d'instruments,
-  et leurs danses. Et Triton y joint une chanson qu'il chante en
+  Les Suivants de Triton continuent leurs Concerts d'Instruments,
+  & leurs Danses. & Triton y joint une Chanson qu'il chante en
   s'adressant à Protée.
 }
 \pieceToc "Rondeau"
@@ -112,9 +113,12 @@
 %{ n°15 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
 \reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "BGAair" "BHCentracte"
-\markup\orig-version {
-  \italic {
+\markup\orig-version\fill-line {
+  \null
+  \line\large\italic {
     On reprend pour l'Entr'Acte l'Air cy-devant page \page-refIII #'BGAair .
   }
+  \null
 }
+\markup\vspace #2
 \actEnd \markup { FIN DU PREMIER ACTE }

@@ -151,5 +151,7 @@ re1 |
 mi2 fa |
 sib, do |
 fa, fa8 sol fa mi |
-re1 \laissezVibrer |
+re1~ |
 \set Staff.whichBar = "|"
+\hideNotes re4
+\set Staff.whichBar = ""
