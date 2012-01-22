@@ -1,3 +1,4 @@
+\clef "dessus" R1*2 |
 r4 do'' re'' mi''8 re'' |
 do''4 do'' si' si' |
 mi' do'' si' do'' |
