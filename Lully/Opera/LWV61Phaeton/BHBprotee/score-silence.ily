@@ -31,5 +31,11 @@
     \sline { Tu vas tomber, n'attens plus de secours, }
     \sline { Le Ciel fait tonner sa colere. }
     \line { Tremblés pour votre Fils, ambitieuse Mere. }
+    \bold Triton
+    \sline { Quel Oracle ! }
+    \bold Climene
+    \sline { \transparent { Quel Oracle ! } Quelle terreur ? }
+    \bold\line { Triton & Climene }
+    \sline { Ah ! je me sens saisir d'horreur ! }
   }
 }

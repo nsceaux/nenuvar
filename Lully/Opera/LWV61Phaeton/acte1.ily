@@ -18,7 +18,7 @@
 %{ n°3 %}\newBookPart #'(full-rehearsal)
 \scene "Scène III" "SCENE 3 : Phaëton, Théone"
 \sceneDescription \markup \wordwrap-center \smallCaps { Phaëton, Théone. }
-\pieceToc \markup { Phaeton, Theone :
+\pieceToc \markup { Phaëton, Theone :
   \italic { Vous passez sans me voir ? } }
 \includeScore "BCAphaetonTheone"
 %{ n°4 %}

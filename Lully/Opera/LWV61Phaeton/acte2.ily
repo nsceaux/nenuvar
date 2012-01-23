@@ -1,30 +1,34 @@
 %{ n°1 %}
 \act "Acte Second"
 \sceneDescription \markup \wordwrap-center {
-  Le théâtre change, et représente un endroit du palais du roi d'Égypte,
-  orné et préparé pour une grande cérémonie.
+  Le Théatre change, & représente un endroit du Palais du Roi d'Egypte,
+  orné & préparé pour une grande ceremonie.
 }
 \scene "Scène I" "SCENE 1 : Clymène, Phaëton"
 \sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaéton. }
 \pieceToc \markup { Ritournelle }
 \includeScore "CAAritournelle"
-%{ n° %}
-\pieceToc \markup { Clymène, Phaéton }
+%{ n°2 %}
+\pieceToc \markup { Clymène, Phaëton :
+  \italic { Protée en a trop dit, je fremis du danger } }
 \includeScore "CABclymenePhaeton"
-%{ n° %}
-\scene "Scène II"
+%{ n°3 %}
+\scene "Scène II" "SCENE 2 : Théone"
 \sceneDescription \markup \wordwrap-center { \smallCaps Théone, seule. }
-\pieceToc \markup { Théone : \italic { Il me fuit, l'inconstant ! } }
+\pieceToc \markup { Théone :
+  \italic { Il me fuit, l'inconstant ! } }
 \includeScore "CBAtheone"
 %{ n° %}
 \scene "Scène III"
 \sceneDescription \markup \wordwrap-center \smallCaps { Libye, Théone. }
-\pieceToc \markup { Libye, Théone : \italic { Que l'incertitude est un rigoureux tourment ! } }
+\pieceToc \markup { Libye, Théone :
+  \italic { Que l'incertitude est un rigoureux tourment ! } }
 \includeScore "CCAlibyeTheone"
 %{ n° %}
 \scene "Scène IV"
 \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Libye. }
-\pieceToc \markup { Libye, Épaphus : \italic { Quel malheur ! Dieux ! quelle tristesse ! } }
+\pieceToc \markup { Libye, Épaphus :
+  \italic { Quel malheur ! Dieux ! quelle tristesse ! } }
 \includeScore "CDAepaphusLibye"
 %{ n° %}
 \scene "Scène V"
@@ -38,7 +42,8 @@
 \pieceTocTitle "Prélude"
 \includeScore "CEAprelude"
 %{ n° %}
-\pieceToc \markup { Merops, chœur : \italic { Que de tous côtés on entende } }
+\pieceToc \markup { Merops, chœur :
+  \italic { Que de tous côtés on entende } }
 \includeScore "CEBmeropsChoeur"
 %{ n° %}
 \sceneDescription \markup \wordwrap-center {

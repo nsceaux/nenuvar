@@ -1,4 +1,4 @@
-la1 ~|
+\clef "basse" la1~ |
 la2 sold4 |
 la4. sol8 fa2 |
 mi1 |
@@ -99,3 +99,4 @@ la,4 la8 sol fa mi |
 re2 mi4 mi, |
 la,4. la,8 sol, fad, |
 mi,2. |
+\set Staff.whichBar = "|"
