@@ -1,15 +1,28 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus2" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus1" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus2" >>
+      \new Staff \withLyrics <<
+        \global \includeNotes "voix"
+        >> \includeLyrics "paroles"
+      \new Staff <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vbas-dessus" \includeNotes "theone"
-    >> \includeLyrics "paroles"
-    \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
-      \includeFigures "chiffres"
+    \modVersion\new StaffGroupNoBar <<
+      \new GrandStaff <<
+        \new Staff \with { \haraKiri } << \global \includeNotes "dessus1" >>
+        \new Staff \with { \haraKiri } << \global \includeNotes "dessus2" >>
+      >>
+      \new Staff \withLyrics <<
+        \global \includeNotes "voix"
+        >> \includeLyrics "paroles"
+      \new Staff <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
   >>
   \layout { }
