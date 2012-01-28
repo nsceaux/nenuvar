@@ -1,4 +1,4 @@
-do2 do'4 |
+\clef "basse" do2 do'4 |
 do' si sol |
 la fa re |
 sol2 do4 |
@@ -106,3 +106,4 @@ re sol, re,2 |
 sol, sol |
 mi4 re8 do sol,2 |
 do2. |
+\set Staff.whichBar = "|"

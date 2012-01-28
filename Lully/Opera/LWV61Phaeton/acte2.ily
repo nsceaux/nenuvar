@@ -19,13 +19,13 @@
   \italic { Il me fuit, l'inconstant ! } }
 \includeScore "CBAtheone"
 %{ n° %}
-\scene "Scène III"
-\sceneDescription \markup \wordwrap-center \smallCaps { Libye, Théone. }
+\scene "Scène III" "SCENE 3 : Libye, Théone"
+\sceneDescription \markup \wordwrap-center \smallCaps { Libye & Théone. }
 \pieceToc \markup { Libye, Théone :
-  \italic { Que l'incertitude est un rigoureux tourment ! } }
+  \italic { Que l'incertitude Est un rigoureux tourment ! } }
 \includeScore "CCAlibyeTheone"
 %{ n° %}
-\scene "Scène IV"
+\scene "Scène IV" "SCENE 4 : Epaphus, Libye"
 \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Libye. }
 \pieceToc \markup { Libye, Épaphus :
   \italic { Quel malheur ! Dieux ! quelle tristesse ! } }
