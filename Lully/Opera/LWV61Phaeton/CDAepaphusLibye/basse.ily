@@ -1,4 +1,4 @@
-do'2 si do' |
+\clef "basse" do'2 si do' |
 lab1 fa2 |
 sol mib do |
 sol,1. |
@@ -79,7 +79,7 @@ fa,4 do8 sib, lab,2 |
 sol, do ~|
 do1 |
 re2 sib, |
-do4 re mib8 do re re, |
+do4 re mib!8 do re re, |
 sol,2. |\allowPageTurn
 do |
 fa ~|
@@ -109,7 +109,7 @@ fa4 fa, sib,2 ~|
 sib, fa,2 |
 do lab, |
 sib, do4 do, |
-fa,2 fa4 mib |
+fa,2 fa4( mib) |
 re1 |
 mib2 re4. do8 |
 si,2. |
@@ -144,3 +144,4 @@ mib2. mib4 re2 |
 do sol sol, |
 do1 ~ do8 do sib, la, |
 sol,1 |
+\set Staff.whichBar = "|"

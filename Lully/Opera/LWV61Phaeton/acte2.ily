@@ -31,7 +31,7 @@
   \italic { Quel malheur ! Dieux ! quelle tristesse ! } }
 \includeScore "CDAepaphusLibye"
 %{ n° %}
-\scene "Scène V"
+\scene "Scène V" "SCENE 5 : Merops, chœur"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Libye, Merops, Clymène, Phaéton, }
   un roi éthiopien, un roi indien,

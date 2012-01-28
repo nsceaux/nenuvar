@@ -122,7 +122,7 @@ tritonMark =
 
 epaphusMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbasse-taille" "Epaphus"))
+  (make-character-mark "vbasse" "Epaphus"))
 
 meropsMark =
 #(define-music-function (parser location) ()
