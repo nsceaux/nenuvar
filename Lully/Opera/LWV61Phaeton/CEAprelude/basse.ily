@@ -1,4 +1,4 @@
-sol,1 |
+\clef "basse" sol,1 |
 sol4 sol fad re |
 sol sol sib sol |
 re' re' si sol |

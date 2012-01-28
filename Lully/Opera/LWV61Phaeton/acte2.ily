@@ -33,11 +33,10 @@
 %{ n° %}
 \scene "Scène V" "SCENE 5 : Merops, chœur"
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps { Libye, Merops, Clymène, Phaéton, }
-  un roi éthiopien, un roi indien,
-  troupe d'Égyptiens et d'Égyptiennes,
-  troupe d'Éthiopiens et d'Éthiopiennes,
-  troupe d'Indiens et d'Indiennes.
+  \smallCaps { Libye, Merops, Clymène, Phaeton, }
+  Deux Roys Tributaires de Merops, Troupe d'Egyptiens & d'Egyptiennes.
+  Troupe d'Ethiopiens & d'Ethiopiennes.
+  Troupe d'Indiens & d'Indiennes.
 }
 \pieceTocTitle "Prélude"
 \includeScore "CEAprelude"

@@ -1,4 +1,4 @@
-sol2 re4 sib |
+\clef "quinte" sol2 re4 sib |
 sol2 la4 la |
 sol2 re'4 re' |
 re'2 re'4 re' |

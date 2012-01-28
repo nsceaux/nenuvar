@@ -1,4 +1,4 @@
-re'4 re' sol'2 |
+\clef "haute-contre" re'4 re' sol'2 |
 sol'4 sib' la' fad' |
 sol' re'' re''2 |
 re'' re''4 si' |
@@ -6,7 +6,7 @@ do''2 do''4 la' |
 sib' sib' sib' la' |
 sib'2. sib'4 |
 la'2 sib'4 sib' |
-sib' do'' la'4. sib'8 |
+sib' do'' la'4.\tr sib'8 |
 sib'1 |
 r4 la' la' si' |
 do'' sol' sol' la' |
