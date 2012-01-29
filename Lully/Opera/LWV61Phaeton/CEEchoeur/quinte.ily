@@ -1,4 +1,4 @@
-re'8 re' re' re' |
+\clef "quinte" re'8 re' re' re' |
 re'4 re' re' |
 sib2 sib8 sib |
 sib4. re'8 re' sib |

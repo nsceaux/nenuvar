@@ -42,7 +42,7 @@
 \includeScore "CEAprelude"
 %{ n°7 %}
 \pieceToc \markup { Merops, chœur :
-  \italic { Que de tous côtez on entende } }
+  \italic { Que de tous costez on entende } }
 \includeScore "CEBmeropsChoeur"
 %{ n°8 %}
 \pieceTocTitle "Chaconne"
@@ -52,13 +52,45 @@
   Une Troupe d'Indiens & d'Indiennes.
 }
 \includeScore "CECchaconne"
-%{ n° %}
+%{ n°9 %}
 \pieceTocAndTitle \markup { PETIT AIR POUR LES MESMES } \markup { Petit air }
 \includeScore "CEDair"
-%{ n° %}
-\pieceTocAndTitle \markup CHŒUR \markup { Chœur : \italic { Que de tous côtés on entende } }
-\includeScore "CEEchoeur"
-%{ n° %}
-\pieceTocTitle "Entr'acte"
-\reIncludeScore "CEDair" "CEFair"
+%{ n°10 %}
+\pieceTocCond #(not (eqv? #t (ly:get-option 'urtext))) \markup {
+  Chœur : \italic { Que de tous costez on entende }
+}
+\includeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "CEEchoeur"
+\markup\orig-version\fill-line {
+  \null
+  \line\large\italic {
+    On reprend le chœur
+    \raise #2.5 \score {
+      { \tinyQuote \key re \minor \digitTime\time 3/4 \clef "basse" \partial 2
+        \set autoBeaming = ##f
+        sol8 sol sol sol | re4 re re | mib2 mib8
+      } \addlyrics { Que de tous cos -- tez on en -- ten -- de }
+      \layout { indent = 0 }
+    }
+    &c page \page-refIII #'CEBchoeur .
+  }
+  \null
+}
+%{ n°11 %}
+\pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
+\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "CEDair" "CEFair"
+\markup\orig-version\fill-line {
+  \null
+  \line\large\italic {
+    On reprend ce petit Air pour l'Entr'Acte.
+    \raise #3 \score {
+      { \tinyQuote \key re \minor \time 3/8 \clef "dessus" \partial 8
+        re''8 | sib' la' sol' | \custosNote re''4
+      }
+      \layout { indent = 0 }
+    }
+    &c.
+  }
+  \null
+}
+\markup\vspace #2
 \actEnd \markup { FIN DU DEUXIÈME ACTE }

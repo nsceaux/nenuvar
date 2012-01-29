@@ -431,6 +431,13 @@ includeScore =
 #(define-music-function (parser location name) (string?)
    (include-score-helper parser name #f #t))
 
+includeScoreCond =
+#(define-music-function (parser location condition name)
+     (boolean? string?)
+   (if condition
+       (include-score-helper parser name #f #t)
+       (make-music 'Music 'void #t)))
+
 includeScoreNoPageTurn =
 #(define-music-function (parser location name) (string?)
    (include-score-helper parser name #f #f))

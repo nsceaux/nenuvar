@@ -1,9 +1,9 @@
-sol'8 sol' sol' sol' |
+\clef "taille" sol'8 sol' sol' sol' |
 fa'4 fa' fa' |
 mib'2 mib'8 sib' |
 sib'4. sib'8 sib' sib' |
 sol'4 sol' la' |
-la' sol' sol' |
+la' sol'\tr sol' |
 fa'2. |
 fa'4 mi' do' |
 sol' sol' re' |

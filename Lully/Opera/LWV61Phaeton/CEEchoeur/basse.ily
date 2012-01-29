@@ -1,4 +1,4 @@
-sol8 sol sol sol |
+\clef "basse" sol8 sol sol sol |
 re4 re re |
 mib2 mib8 mib |
 sib4. sib8 sib sol |
@@ -8,7 +8,7 @@ fa2. |
 sib4 sib la |
 sol sol fa |
 mi mi re |
-la2 la4 |
+la2 << \tag #'basse la4 \tag #'basse-continue { la8 sol } >> |
 fa4 fa fa |
 sib sol la |
 re la,2 |

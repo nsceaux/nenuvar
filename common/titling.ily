@@ -301,6 +301,25 @@ pieceToc =
               (add-no-page-break parser))))
     (make-music 'Music 'void #t)))
 
+pieceTocCond =
+#(define-music-function (parser location condition title) (boolean? markup?)
+   (if condition
+       (let ((rehearsal (rehearsal-number)))
+         (add-toc-item parser 'tocPieceMarkup title rehearsal)
+         (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+             (if (eqv? #t (ly:get-option 'urtext))
+                 (begin
+                   (add-toplevel-markup
+                    parser
+                    (markup #:rehearsal-number rehearsal))
+                   (add-no-page-break parser))
+                 (begin
+                   (add-toplevel-markup
+                    parser
+                    (markup #:rehearsal-number rehearsal #:hspace 1 #:huge title))
+                   (add-no-page-break parser)))))
+       (make-music 'Music 'void #t)))
+
 pieceTocNb =
 #(define-music-function (parser location number title) (string? markup?)
    (add-toc-item parser 'tocPieceMarkup title number)

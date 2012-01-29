@@ -55,7 +55,7 @@
     do re re, |
     sol,
   }
->> %{%} sol8 sol sol sol |
+>> %{%} \label #'CEBchoeur sol8 sol sol sol |
 re4 re re |
 mib2 mib8 mib |
 sib4. sib8 sib sol |
