@@ -13,7 +13,7 @@
       de divertir cette Déesse.
     }
     \livretRef #'AACtroupe
-    \livretPers\line { TROUPE DE COMPAGNES D'ASTRÉE }
+    \livretPers\line { Troupe de Compagnes d'Astrée }
     \livretVerC { Cherchons la Paix dans cet azile, }
     \livretVerC { Les Jeux suivront toujours nos pas. }
     \livretVerC { Quand on le veut, il est facile }
@@ -51,7 +51,7 @@
       Les Compagnes d'Astrée dansent & chantent.
     }
     \livretRef #'AAFtroupe
-    \livretPers\line { TROUPE DE COMPAGNES D'ASTRÉE }
+    \livretPers\line { Troupe de Compagnes d'Astrée }
     \livretVerC { Dans ces lieux, tout rit sens cesse ; }
     \livretVerC { L'amour veut rire avec nous. }
     \livretVerC { C'est un jeu quand il nous blesse, }
@@ -69,7 +69,7 @@
       les autres "chantent ;" & Saturne même chante avec eux.
     }
     \livretRef #'AAGchoeur
-    \livretPers\line { SATURNE & SES SUIVANS }
+    \livretPers\line { SATURNE & ses Suivans }
     \livretVerC { Que les Mortels se réjoüissent. }
     \livretVerC { Que les plaintes finissent. }
     \livretVerC { O ! l'heureux Tems ! }
@@ -106,7 +106,7 @@
     \livretVer { Reprenez pour jamais vos charmes les plus doux. }
 
     \livretRef #'AAJchoeur
-    \livretPers\line { LES CHŒURS }
+    \livretPers\line { Les Chœurs }
     \livretVerC { Jeux innocens rassemblez-vous ; }
     \livretVer { Reprenez pour jamais vos charmes les plus doux. }
 
@@ -116,7 +116,7 @@
     }
 
     \livretRef #'AAMchoeur
-    \livretPers\line { LES CHŒURS }
+    \livretPers\line { Les Chœurs }
     \livretVerC { Plaisirs, venés sans crainte, }
     \livretVerC { Venés vous rassembler : }
     \livretVerC { Le soin & la contrainte }
@@ -136,7 +136,7 @@
     \livretVerC { L'Auteur d'un si doux repos. }
 
     \livretRef #'AANsaturneAstree
-    \livretPers\line { SATURNE, ASTRÉE, & LES CHŒURS }
+    \livretPers\line { SATURNE, ASTRÉE, & Les Chœurs }
     \livretVer { On a vû ce Heros terrible dans la Guerre : }
     \livretVer { Il fait par sa vertu le bonheur de la Terre, }
     \livretVerC { Sa Victoire l'a desarmé : }
