@@ -39,7 +39,7 @@
 \sceneDescription \markup \justify {
   Saturne vient trouver Astrée, pour l'inviter à retourner avec luy
   sur la Terre. Ce dieu conduit les mesmes Suivants qui
-  l'accompagnoient au temps de l'Age "d'or :" les un dansent, &
+  l'accompagnoient au temps de l'Age "d'or :" les uns dansent, &
   les autres "chantent ;" & Saturne mesme chante avec eux.
 }
 \origVersion\pageBreak

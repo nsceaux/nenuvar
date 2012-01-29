@@ -20,7 +20,8 @@
   \include "Lully/Opera/LWV61Phaeton/notes.ily"
   \pageBreak
   %% Livret
-  \markup { A FAIRE : LIVRET }
+  \include "Lully/Opera/LWV61Phaeton/livret0.ily"
+  \include "Lully/Opera/LWV61Phaeton/livret1.ily"
   \pageBreak
   %% Personnages
   \include "Lully/Opera/LWV61Phaeton/personnages.ily"

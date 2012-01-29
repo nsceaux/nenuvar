@@ -31,5 +31,10 @@
     \line { J'espere y voir encor le Siecle fortuné }
     \line { Qu'à l'Univers naissant les Dieux avoient donné. }
     \line { Le Sort veut que bien-tôt ce beau tems recommence. }
+    \null
+    \sline { La douceur de l'esperance }
+    \sline { Doit flâter nos desirs. }
+    \sline { Charmons notre impatience }
+    \sline { Par d'innocens plaisirs. }
   }
 }
