@@ -3,7 +3,7 @@ r4 re''8^\markup\character Chœur re'' re'' mib'' |
 fa''4 fa'' fa'' |
 sol''2 sol''8 sol'' |
 fa''4. fa''8 fa'' sol'' |
-mi''4 mi'' mi'' |
+mi''4\trill mi'' mi'' |
 fa'' fa'' mi'' |
 fa''2. |
 re''4 mi'' fad'' |
@@ -19,11 +19,11 @@ r4 re''8 do'' sib' sib' |
 la'4 la' sib' |
 la'2\tr la'4 |
 r sib'8 do'' re'' sol'' |
-mi''4 mi'' fa'' |
+mi''4\trill mi'' fa'' |
 mi''2\tr mi''8 mi'' |
 fa''4. fa''8 fa'' fa'' |
 re''4 fa'' fa'' |
-sib' sib' la' |
+sib' sib' la'\trill |
 sib'2. |
 do''4 do'' re'' |
 mib'' mib'' mib'' |
@@ -38,11 +38,11 @@ r4 re''8 do'' sib' sib' |
 la'4 la' sib' |
 la'2\tr la'4 |
 r sib'8 do'' re'' sol'' |
-mi''4 mi'' fa'' |
+mi''4\trill mi'' fa'' |
 mi''2\tr mi''8 mi'' |
 fa''4. fa''8 fa'' fa'' |
 re''4 fa'' fa'' |
-sib' sib' la' |
+sib' sib' la'\trill |
 sib'2. |
 do''4 do'' re'' |
 mib'' mib'' mib'' |

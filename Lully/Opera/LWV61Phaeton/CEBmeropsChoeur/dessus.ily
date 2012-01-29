@@ -1,39 +1,39 @@
 \clef "dessus"
 R1 R2. R1*10 R1.*6 R1 R1.*2 R1 R2.*2 |
-r4^"Violon" <<
+<<
   \tag #'dessus1 {
-    re''4. mib''8 |
+    r4^"[Premier Dessus de] Violon" re''4. mib''8 |
     fa''4 sib''4. la''8 |
-    sol''2 sol''4 |
+    sol''2\trill sol''4 |
     fa''2 fa''8 sib'' |
     sol''4 sol'' do''' |
-    la'' sib'' sol'' |
+    la''\trill sib'' sol'' |
     la''2. |
     fa''4 sol'' la'' |
     sib'' sib'' la'' |
-    sol'' sol'' fa'' |
-    mi''2 mi''4 |
+    sol''\trill sol'' fa'' |
+    mi''2\trill mi''4 |
     la'' la'' la'' |
     fa'' sol'' mi'' |
     fa'' mi''4. la''8 |
     fad''2\tr ~ fad''8 mi''16 fad'' |
     sol''4 sol''8 sol'' sol'' fa'' |
-    mi''4 mi'' mi'' |
+    mi''4\trill mi'' mi'' |
     fa''2 fa''4 |
     re''4. mib''8 fa''4 |
     sol'' do''4.\tr sib'8 |
     sib' do'' re'' do'' re'' mib'' |
-    do''4 do'' re'' |
+    do''4\trill do'' re'' |
     mib'' mib''4. fa''8 |
     re''2 sol''4 |
     fad''2 fad''4 |
     sol'' sol'' la'' |
     sib'' re'' sol'' |
-    la'' fad''4. sol''8 |
+    la'' fad''4.\trill sol''8 |
     sol''4 
   }
   \tag #'dessus2 {
-    sib'4. do''8 |
+    r4^\markup\whiteout "[Second Dessus de] Violon" sib'4. do''8 |
     re''4. mib''8 fa''4 |
     sib'2 sib'8 do'' |
     re''2 re''8 sol'' |
@@ -67,7 +67,7 @@ r4^"Violon" <<
 fa''4 fa'' fa'' |
 sol''2 sol''8 sol'' |
 fa''4. fa''8 fa'' sol'' |
-mi''4 mi'' mi'' |
+mi''4\trill mi'' mi'' |
 fa'' fa'' mi'' |
 fa''2. |
 re''4 mi'' fad'' |
@@ -81,22 +81,22 @@ re''4 re''8 re'' re'' do'' |
 si'4. la'8 si'4 |
 do''4. re''8 do'' sib' |
 la'4.\tr sol'8 fa'4 |
-fa'' fa''4. fa''8 |
+fa'' fa''4.\trill fa''8 |
 sol''4. sol''8 la''4 |
 sib'' la''4.\tr sol''16 la'' |
 sib''4. la''8 sol'' fa'' |
 mi''8. fa''16 mi''8. fad''16 sol''8. la''16 |
-fad''4.\tr mi''16 fad'' sol''4 ~|
+\slurDashed fad''4.(\tr mi''16 fad'') sol''4 ~| \slurNeutral
 sol''8 la'' la''4.\tr sol''8 |
 sol''4 re''8 do'' sib' sib' |
 la'4 la' sib' |
 la'2\tr la'4 |
 sib' sib'8 do'' re'' sol'' |
-mi''4 mi'' fa'' |
+mi''4\trill mi'' fa'' |
 mi''2\tr mi''8 mi'' |
 fa''4. fa''8 fa'' fa'' |
 re''4 fa'' fa'' |
-sib' sib' la' |
+sib' sib' la'\trill |
 sib'2. |
 do''4 do'' re'' |
 mib'' mib'' mib'' |
@@ -137,11 +137,11 @@ re''4 re''8 do'' sib' sib' |
 la'4 la' sib' |
 la'2\tr la'4 |
 sib' sib'8 do'' re'' sol'' |
-mi''4 mi'' fa'' |
+mi''4\trill mi'' fa'' |
 mi''2\tr mi''8 mi'' |
 fa''4. fa''8 fa'' fa'' |
 re''4 fa'' fa'' |
-sib' sib' la' |
+sib' sib' la'\trill |
 sib'2. |
 do''4 do'' re'' |
 mib'' mib'' mib'' |

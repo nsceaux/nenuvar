@@ -13,7 +13,7 @@
     fa4. fa8 fa4 sol |
     mi2\tr mi4 r8 do |
     sol4. sol8 sol4 la |
-    sib2 sol4 sol8 sol mi4 mi |
+    sib2 sol4 sol8 sol mi4\trill mi |
     dod2 dod4 r8 \myfootnote #'NoteHead #'(0 . 2) \markup {
       Ballard : \raise #3 \score {
         { \set autoBeaming = ##f
@@ -33,13 +33,13 @@
     } mi16 mi mi4 fa8 sol |
     la4 la la sib mi4.\tr re8 |
     re2 r4 la8 sib do'4 do'8 re' |
-    si4 sol do'4. do'8 do'4 si |
+    si4 sol do'4. do'8 do'4 si! |
     do'2 do'4 r sol sol8 la |
     sib4. sib8 sib4 do' |
     la2\tr la4 fa8 fa sib4 sib8 fa |
-    sol4\tr sol do4. do8 re4 mib |
-    re r8 fa fa8. fa16 fa8 sol |
-    mi8. fad16 sol8. sol16 sol8 la |
+    sol4\tr sol do4.\trill do8 re4 mib |
+    re\trill r8 fa fa8. fa16 fa8 sol |
+    mi8.\trill fad16 sol8. sol16 sol8 la |
     fad2 fad4 |
   }
 >>
@@ -55,7 +55,7 @@
     fa2. |
     sib4 sib la |
     sol sol fa |
-    mi mi re |
+    mi\trill mi re |
     la2 la4 |
     fa fa fa |
     sib sol la |
@@ -63,7 +63,7 @@
     re4 re'8 re' re' do' |
     si4 si sol |
     do'2 do'8 do' |
-    la4. la8 la la |
+    la4.\trill la8 la la |
     sib4 sib re |
     mib fa4. fa8 |
     sib,2. |
@@ -89,7 +89,7 @@
     fa2. |
     sib4 sib la |
     sol sol fa |
-    mi mi re |
+    mi\trill mi re |
     la2 la4 |
     fa fa fa |
     sib sol la |
@@ -102,7 +102,7 @@
     r sol8 la sib sol |
     do'4 do' do' |
     do'2 do'8 do' |
-    la4. la8 la la |
+    la4.\trill la8 la la |
     sib4 sib sib, |
     mib fa fa |
     sib,2. |
@@ -121,7 +121,7 @@
     r sol8 la sib sol |
     do'4 do' do' |
     do'2 do'8 do' |
-    la4. la8 la la |
+    la4.\trill la8 la la |
     sib4 sib re |
     mib fa fa |
     sib,2. |
