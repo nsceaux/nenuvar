@@ -1,4 +1,4 @@
-sol8 |
+\clef "basse" sol8 |
 sol fa mib |
 re sib, la, |
 sol, fad, sol, |

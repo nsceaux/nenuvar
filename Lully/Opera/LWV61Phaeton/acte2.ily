@@ -42,7 +42,7 @@
 \includeScore "CEAprelude"
 %{ n°7 %}
 \pieceToc \markup { Merops, chœur :
-  \italic { Que de tous côtés on entende } }
+  \italic { Que de tous côtez on entende } }
 \includeScore "CEBmeropsChoeur"
 %{ n°8 %}
 \pieceTocTitle "Chaconne"
@@ -53,7 +53,7 @@
 }
 \includeScore "CECchaconne"
 %{ n° %}
-\pieceTocAndTitle \markup { PETIT AIR POUR LES MÊMES } \markup { Petit air }
+\pieceTocAndTitle \markup { PETIT AIR POUR LES MESMES } \markup { Petit air }
 \includeScore "CEDair"
 %{ n° %}
 \pieceTocAndTitle \markup CHŒUR \markup { Chœur : \italic { Que de tous côtés on entende } }

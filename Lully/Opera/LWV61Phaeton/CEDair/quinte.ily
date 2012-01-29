@@ -1,4 +1,4 @@
-sib8 |
+\clef "quinte" sib8 |
 re' re'8. do'16 |
 re'8 re' do' |
 sol la sib16 do' |

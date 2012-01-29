@@ -1,4 +1,4 @@
-sol'8 |
+\clef "taille" sol'8 |
 sol' re' mib' |
 la sol do' |
 sib do' re' |
