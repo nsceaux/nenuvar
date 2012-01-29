@@ -1,4 +1,9 @@
-sol4 sol |
+\clef "basse"
+\myfootnote #'NoteHead #'(0 . 2) \markup {
+  La basse chiffrée rapportée ici est notée de façon manuscrite
+  sur l'exemplaire de Ballard qui a servi à cette édition.
+}
+r4 sol4 sol |
 re2 re4 |
 mi2 do4 |
 re re,2 |
@@ -66,9 +71,15 @@ sol,4 sol2 |
 fad2. |
 mi |
 re4 re,2 |
-sol,4 r2 |
-R2.*2 |
-r8 re16 mi fad8 mi fad re |
+<<
+  \tag #'basse { sol,4 r r | R2.*2 | r8 }
+  \tag #'basse-continue {
+    sol,8 \clef "quinte" sol16[ la] si8 la si sol |
+    re' re'16 do' si8 do' re' si |
+    do' mi'16 re' do'8 re' mi' do' |
+    re'8 \clef "basse"
+  }
+>> re16[ mi] fad8 mi fad re |
 sol sol,16 la, si,8 la, si, sol, |
 re re16 mi re8 do re si, |
 mi mi16 re do8 re mi do |
@@ -81,9 +92,20 @@ sol, sol2 |
 fad4 fa2 |
 mi2. |
 do4 re re, |
-sol, r2 |
-R2.*7 |
-r4 sol2 |
+sol, <<
+  \tag #'basse { r4 r4 | R2.*7 | r4 }
+  \tag #'basse-continue {
+    \clef "taille" sol'4 mi' |
+    fa' fa' re' |
+    mi' mi' do' |
+    re'2. |
+    sol4 sol' mi' |
+    fa' fa' re' |
+    mi' mi' do' |
+    re'2. |
+    sol4 \clef "basse"
+  }
+>> sol2 |
 re2. |
 mi2 do4 |
 re2. |
@@ -91,9 +113,20 @@ sol4 sol,2 |
 re2. |
 mi2 do4 |
 re re,2 |
-sol,4 r2 |
-R2.*7 |
-r4 sol2 |
+sol,4 <<
+  \tag #'basse { r4 r | R2.*7 | r4 }
+  \tag #'basse-continue {
+    \clef "taille" sol'2 |
+    fad'4 fa'2 |
+    mi'2. |
+    re' |
+    sol4 sol'2 |
+    fad'4 fa'2 |
+    mi'2. |
+    re' |
+    sol4 \clef "basse"
+  }
+>> sol2 |
 re2. |
 mi2 do4 ~|
 do re2 |
@@ -101,9 +134,20 @@ sol,4 sol2 |
 re2. |
 mi2 do4 ~|
 do re2 |
-sol,4 r2 |
-R2.*7 |
-r4 sol2 |
+sol,4 <<
+  \tag #'basse { r4 r | R2.*7 | r4 }
+  \tag #'basse-continue {
+    \clef "taille" sol'2 |
+    fad'4. mi'8 fad' re' |
+    mi'4. re'8 mi' do' |
+    re'2. |
+    sol4 sol'2 |
+    fad'4. mi'8 fad' re' |
+    mi'4. re'8 mi' do' |
+    re'2. |
+    sol4 \clef "basse"
+  }
+>> sol2 |
 fad2. |
 mi |
 re4 re,2 |
@@ -132,3 +176,4 @@ fad4 fa2 |
 mi2. |
 do4 re re, |
 sol, 
+sol,2.
