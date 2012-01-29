@@ -4,31 +4,31 @@
   Le Theatre represente un Jardin sur le devant, une Grotte
   dans le milieu, & la Mer dans l'éloignement.
 }
-\scene "Scène Premiere" "SCENE 1 : Libye"
+\scene "Scene Premiere" "SCENE 1 : Libye"
 \sceneDescription \markup\wordwrap-center { \smallCaps Libye seule. }
 \pieceToc \markup { Libye :
   \italic { Heureuse une ame indifferente ! } }
 \includeScore "BAAlibye"
 %{ n°2 %}\newBookPart #'(full-rehearsal)
-\scene "Scène II" "SCENE 2 : Théone, Libye"
+\scene "Scene II" "SCENE 2 : Théone, Libye"
 \sceneDescription \markup \wordwrap-center \smallCaps { Théone, Libye. }
 \pieceToc \markup\wordwrap { Theone, Libye :
   \italic { Je ne vous croyois pas dans un lieu solitaire } }
 \includeScore "BBAtheoneLibye"
 %{ n°3 %}\newBookPart #'(full-rehearsal)
-\scene "Scène III" "SCENE 3 : Phaëton, Théone"
+\scene "Scene III" "SCENE 3 : Phaëton, Théone"
 \sceneDescription \markup \wordwrap-center \smallCaps { Phaëton, Théone. }
 \pieceToc \markup { Phaëton, Theone :
   \italic { Vous passez sans me voir ? } }
 \includeScore "BCAphaetonTheone"
 %{ n°4 %}
-\scene "Scène IV" "SCENE 4 : Clymène, Phaëton"
+\scene "Scene IV" "SCENE 4 : Clymène, Phaëton"
 \sceneDescription\markup\wordwrap-center \smallCaps { Clymène, Phaëton. }
 \pieceToc\markup { Clymène, Phaëton :
   \italic { Vous paroissez chagrin, mon fils } }
 \includeScore "BDAclymenePhaeton"
 %{ n°5 %}
-\scene "Scène V" "SCENE 5 : Protée"
+\scene "Scene V" "SCENE 5 : Protée"
 \sceneDescription\markup\center-column {
   \wordwrap-center {
     Protée sort de la Mer, il conduit les Troupeaux de Neptune,
@@ -45,14 +45,14 @@
 }
 \origVersion\pageBreak
 %{ n°6 %}\newBookPart #'(full-rehearsal)
-\scene "Scène VI" "SCENE 6 : Clymène"
+\scene "Scene VI" "SCENE 6 : Clymène"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Clymène, \smallCaps Protée endormy.
 }
 \pieceToc\markup { Clymène : \italic { Vous avec qui le sang me lie } }
 \includeScore "BFAclymene"
 %{ n°7 %}
-\scene "Scène VII" "SCENE 7 : Triton, Protée"
+\scene "Scene VII" "SCENE 7 : Triton, Protée"
 \sceneDescription\markup\center-column {
   \wordwrap-center {
     \smallCaps Triton, suivants de Triton, \smallCaps Protée endormy.
@@ -95,7 +95,7 @@
   \italic { C'est un secret qu'il faut qu'on vous arrache } }
 \includeScore "BGFtriton"
 %{ n°13 %}
-\scene "Scène VIII" "SCENE 8 : Triton, Clymène et les mesmes"
+\scene "Scene VIII" "SCENE 8 : Triton, Clymène et les mesmes"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Triton, Clymène, } & les mesmes Acteurs de la Scene precedente.
 }

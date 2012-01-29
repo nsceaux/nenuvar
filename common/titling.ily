@@ -317,8 +317,8 @@ pieceTocCond =
                    (add-toplevel-markup
                     parser
                     (markup #:rehearsal-number rehearsal #:hspace 1 #:huge title))
-                   (add-no-page-break parser)))))
-       (make-music 'Music 'void #t)))
+                   (add-no-page-break parser))))))
+   (make-music 'Music 'void #t))
 
 pieceTocNb =
 #(define-music-function (parser location number title) (string? markup?)
