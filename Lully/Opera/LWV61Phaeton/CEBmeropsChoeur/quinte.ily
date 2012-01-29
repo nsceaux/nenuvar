@@ -1,3 +1,4 @@
+\clef "quinte"
 R1 R2. R1*10 R1.*6 R1 R1.*2 R1 R2.*30 |
 r4 re'8 re' re' re' |
 re'4 re' re' |

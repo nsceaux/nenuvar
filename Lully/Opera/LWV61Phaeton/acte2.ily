@@ -18,19 +18,19 @@
 \pieceToc \markup { Théone :
   \italic { Il me fuit, l'inconstant ! } }
 \includeScore "CBAtheone"
-%{ n° %}
+%{ n°4 %}
 \scene "Scène III" "SCENE 3 : Libye, Théone"
 \sceneDescription \markup \wordwrap-center \smallCaps { Libye & Théone. }
 \pieceToc \markup { Libye, Théone :
   \italic { Que l'incertitude Est un rigoureux tourment ! } }
 \includeScore "CCAlibyeTheone"
-%{ n° %}
+%{ n°5 %}
 \scene "Scène IV" "SCENE 4 : Epaphus, Libye"
 \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Libye. }
 \pieceToc \markup { Libye, Épaphus :
   \italic { Quel malheur ! Dieux ! quelle tristesse ! } }
 \includeScore "CDAepaphusLibye"
-%{ n° %}
+%{ n°6 %}
 \scene "Scène V" "SCENE 5 : Merops, chœur"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Libye, Merops, Clymène, Phaeton, }
@@ -40,17 +40,17 @@
 }
 \pieceTocTitle "Prélude"
 \includeScore "CEAprelude"
-%{ n° %}
+%{ n°7 %}
 \pieceToc \markup { Merops, chœur :
   \italic { Que de tous côtés on entende } }
 \includeScore "CEBmeropsChoeur"
-%{ n° %}
-\sceneDescription \markup \wordwrap-center {
-  Merops, Clymène, Phaéton et Libye, se placent sur un trône,
-  et les peuples témoignent leur joie par des danses, où ils
-  mêlent des acclamations en faveur de Phaéton.
-}
+%{ n°8 %}
 \pieceTocTitle "Chaconne"
+\sceneDescription \markup \wordwrap-center {
+  Où dancent une Troupe d'Egyptiens & d'Egyptiennes.
+  Une Troupe d'Ethiopiens & d'Ethiopiennes.
+  Une Troupe d'Indiens & d'Indiennes.
+}
 \includeScore "CECchaconne"
 %{ n° %}
 \pieceTocAndTitle \markup { PETIT AIR POUR LES MÊMES } \markup { Petit air }

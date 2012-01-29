@@ -1,4 +1,4 @@
-R1 R2. R1*10 R1.*6 R1 R1.*2 R1 R2.*30 |
+\clef "vtaille" R1 R2. R1*10 R1.*6 R1 R1.*2 R1 R2.*30 |
 r4 sib8 sib sib sib |
 sib4 sib sib |
 sib2 sib8 sib |
@@ -13,7 +13,7 @@ mi'2 mi'4 |
 re' re' re' |
 re' mi' dod' |
 re' dod'4. re'8 |
-re'4 r2 |
+re'4 r r |
 R2.*10 |
 r4 sib8 do' re' re' |
 re'4 re' sol' |
@@ -32,7 +32,7 @@ re'2 re'4 |
 re' sib do' |
 re' fa' sib |
 mib' re' la |
-sib r2 |
+sib r r |
 R2.*9 |
 r4 sib8 do' re' re' |
 re'4 re' sol' |
