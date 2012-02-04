@@ -1,4 +1,4 @@
-re1 |
+\clef "basse" re1 |
 re'4 re'8 dod' re'4 la |
 si sol la la, |
 re re8 dod re4 la, |
@@ -168,3 +168,4 @@ re,2. |
 sol,2 sol8. fad16 |
 mi8. re16 dod8 re la,4 |
 re1 |
+\set Staff.whichBar = "|"

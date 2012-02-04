@@ -25,22 +25,25 @@
 \pieceToc \markup { Epaphus, Phaëton :
   \italic { Soungez-vous qu'Isis est ma Mere ? } }
 \includeScore "DCAepaphusPhaeton"
-%{ n° %}
-\scene "Scène IV"
+%{ n°4 %}
+\scene "Scène IV" "SCENE 4 : Merops, Clymene, Epaphus, Phaëton"
 \sceneDescription \markup \center-column {
   \wordwrap-center {
-    \smallCaps { Phaéton, Épaphus, Merops, Clymène, Libye, }
-    les deux rois tributaires de Merops, troupes de peuples
-    différents, troupes de jeunes égyptiens et de jeunes égyptiennes
+    \smallCaps { Phaeton, Epaphus, Merops, Clymene, Libye. }
+    Les deux Rois tributaires de Merops. Troupes de peuples
+    differens. Troupes de jeunes Egyptiens, & de jeunes Egyptiennes,
     qu'on a pris soin de choisir et de parer magnifiquement pour porter
-    de riches offrandes, troupes de prêtresses de la déesse Isis.
+    de riches Offrandes. Troupes de Prêtresses de la Déesse Isis.
   }
   \wordwrap-center {
-    Les jeunes égyptiens et les jeunes égyptiennes qui portent les offrandes,
-    approchent du temple d'Isi en dansant.
+    Les jeunes Egyptiens & les jeunes Egyptiennes qui portent les
+    Offrandes, approchent du Temple d'Isis en dançant.
   }
 }
 \pieceTocTitle "Marche"
+\sceneDescription\markup\wordwrap-center {
+  où dansent les Peuples qui portent des presens à Isis.
+}
 \includeScore "DDAmarche"
 %{ n° %}
 \pieceTocAndTitle \markup { AIR POUR LES MÊMES } \markup { Air }
