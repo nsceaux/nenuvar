@@ -1,4 +1,5 @@
-r1 sol'2 |
+\clef "haute-contre" R2.*2 R1 R1. |
+r2 r sol'2 |
 la'1 la'2 |
 sol'2. sol'4 do'' do'' |
 la'2 re'' re'' |
@@ -19,7 +20,7 @@ si'4 sol' re''1 |
 re''2. do''4 si' la' |
 sol'1 fad'4 sol' |
 fad'1 sol'2 |
-sol' fad'2. mi'8 fad' |
+sol' fad'2.\tr mi'8 fad' |
 sol'2 sol'4 si' |
 la'4. si'8 si'4 si' la'4. la'8 |
 la'2 re''4. re''8 re''4 si' |
@@ -40,7 +41,8 @@ sol'2 la'4 la'8 sol' la'4 re' |
 re'1 |
 r2 r4 r8 fad' |
 sol'2 sol'8 la' si'4 |
-do''2 do''4 do''8 si' la'4. sol'8 |
-sol'2 r |
+do''2 do''4 do''8 si' la'4.\tr sol'8 |
+sol'2 \once\set Staff.whichBar = "||"
+<< \origVersion R1 \modVersion r2 { s4 \unset Staff.whichBar } >> |
 R1*4 |
 R1*2 |

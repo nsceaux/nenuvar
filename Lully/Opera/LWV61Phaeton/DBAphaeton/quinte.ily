@@ -1,5 +1,13 @@
-r1 re'2 |
-re'1 la4 %{ 2. %} si4 |
+\clef "quinte" R2.*2 R1 R1. |
+r2 r re'2 |
+re'1 \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+  Ballard : \raise #3 \score {
+    { \tinyQuote \key sol \major \time 3/2 \clef "alto"
+      re'1*1/2 la2. si4 |
+    }
+    \layout { \quoteLayout }
+  }
+} la4 si4 |
 si2 sol sol4 sol |
 la2 la si4 dod' |
 re'2 re' r4 re' |
@@ -41,6 +49,7 @@ re4 r r2 |
 r r4 la |
 sol2 sol4 fa |
 mi2 la4 la8 si16 do' re'4. re'8 |
-re'2 r |
+re'2 \once\set Staff.whichBar = "||"
+<< \origVersion R1 \modVersion r2 { s4 \unset Staff.whichBar } >> |
 R1*4 |
 R1*2 |

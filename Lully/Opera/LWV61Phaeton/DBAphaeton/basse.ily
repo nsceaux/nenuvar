@@ -1,4 +1,14 @@
-r1 sol2 |
+\clef "basse"
+<<
+  \tag #'basse { R2.*2 R1 R1. | r2 r }
+  \tag #'basse-continue {
+    sol,2. |
+    sol2 mi4 |
+    la2 la, |
+    re2. do4 si,4. la,8 |
+    sol,1
+  }
+>> sol2 |
 fad1 fa2 |
 mi1. |
 fad1 sol2 |
@@ -41,6 +51,17 @@ sol,4 sol8 la si la si sol |
 re'4 re8 mi fad mi fad re |
 sol4. fa8 mi4 re |
 do4. si,8 la,4 re8 sol, re,2 |
-sol, r |
-R1*4 |
-R1*2 |
+\origVersion { \custosNote sol,2 }
+sol,2 <<
+  \tag #'basse { r2 | R1*6 }
+  \tag #'basse-continue {
+    sol2~ |
+    sol fad |
+    sol mi |
+    la~ la8 re la,4 |
+    re si,8. do16 re4 re, |
+    sol,1 |
+    sol2 ~ sol8 sol fad mi |
+    \set Staff.whichBar = "|" \custosNote re4 \set Staff.whichBar = ""
+  }
+>>

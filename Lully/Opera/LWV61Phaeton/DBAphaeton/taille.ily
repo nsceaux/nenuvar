@@ -1,4 +1,5 @@
-r1 re'4 mi' |
+\clef "taille" R2.*2 R1 R1. |
+r2 r re'4 mi' |
 fad'1 re'2 |
 re' do' mi'4 mi' |
 re'1 sol'2 |
@@ -6,7 +7,7 @@ la' la' r4 la' |
 si'2 si'2. si'4 |
 la'2. mi'4 fad'2 |
 fad' fad' mi' |
-fad' fad'1 |
+fad' fad'1\tr |
 mi' mi'2 |
 mi'1 mi'2 |
 re'1 fa'2 |
@@ -15,7 +16,7 @@ sol re'8 mi' fad'4. sol'8 la'2 |
 la'1 sol'2 |
 sol'2. sol'4 la'2 |
 la'1 si'2 |
-si'4. la'8 la'2. sol'8 la' |
+si'4. la'8 la'2.\tr sol'8 la' |
 si'2 sol' sol'4 la' |
 si' si do'2 do'4 re' |
 re'1 re'2 |
@@ -28,7 +29,7 @@ sol'2. sol'4 |
 mi'2 fa'4. fa'8 |
 re'2. mi'4 |
 mi'2 re'4 re' |
-mi'1 |
+mi'1\tr |
 re'4. mi'8 fad'2 mi' |
 mi' sol'4 fad' |
 si'2 r4 si' |
@@ -36,11 +37,12 @@ si'2. mi'4 |
 mi'2 mi' re'4 do' |
 la re'2 re'4 |
 re'2 do'4 fa' |
-mi'4. re'8 do'4 re'8 re' re'4. do'8 |
-si1 |
+mi'4. re'8 do'4 re'8 re' re'4.\tr do'8 |
+si1\tr |
 r2 r4 re' |
 re'4. re'8 mi'4 fa' |
 sol'2 la'4 la'8 re' re'4. do'8 |
-si2 r |
+si2 \once\set Staff.whichBar = "||"
+<< \origVersion R1 \modVersion r2 { s4 \unset Staff.whichBar } >> |
 R1*4 |
 R1*2 |

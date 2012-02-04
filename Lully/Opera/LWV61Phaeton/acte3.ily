@@ -17,12 +17,13 @@
 }
 \pieceToc \markup { Phaéton : \italic { Je plains ses malheurs } }
 \includeScore "DBAphaeton"
-%{ n° %}
-\scene "Scène III"
+%{ n°3 %}
+\scene "Scène III" "SCENE 3 : Epaphus, Phaëton"
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps { Épaphus, Phaéton, } suite de Phaéton.
+  \smallCaps { Epaphus, Phaëton, } suite de Phaëton.
 }
-\pieceToc \markup { Épaphus, Phaéton }
+\pieceToc \markup { Epaphus, Phaëton :
+  \italic { Soungez-vous qu'Isis est ma Mere ? } }
 \includeScore "DCAepaphusPhaeton"
 %{ n° %}
 \scene "Scène IV"

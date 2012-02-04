@@ -1,17 +1,14 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaff << \global \clef "quinte" \includeNotes "quinte" >>
-      \newHaraKiriStaff << \global \clef "basse" \includeNotes "basse" >>
-    >>
+    \new Staff \with { \haraKiriFirst } << \global \includeNotes "dessus" >>
+    \new Staff \with { \haraKiriFirst } << \global \includeNotes "haute-contre" >>
+    \new Staff \with { \haraKiriFirst } << \global \includeNotes "taille" >>
+    \new Staff \with { \haraKiriFirst } << \global \includeNotes "quinte" >>
     \new Staff \withLyrics <<
-      \global \includeNotes "phaeton"
-    >> \includeLyrics "paroles"
+      \global \keepWithTag #'phaeton \includeNotes "voix"
+    >> \keepWithTag #'phaeton \includeLyrics "paroles"
     \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
+      \global \includeNotes "basse"
       \includeFigures "chiffres"
     >>
   >>
