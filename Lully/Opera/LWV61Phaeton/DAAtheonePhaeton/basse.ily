@@ -1,4 +1,4 @@
-sol2. la4 |
+\clef "basse" sol2. la4 |
 si1 |
 do'4 sib la sol |
 re1 |
@@ -51,7 +51,7 @@ si,1 |
 do4 sib, la, sol, |
 re1 sib,4 do |
 re2 re, |
-sol,1. |
+sol,1. |\allowPageTurn
 sol2 fa4 |
 mib2. |
 re4. mi8 fad4 |
@@ -138,9 +138,4 @@ re2 sol |
 do1 |
 fa2 la, |
 sib,4 do re8 mib re re, |
-sol,2. |
-sol2 mi4 |
-la2 la, |
-re2. do4 si,4. la,8 |
-\once \set Staff.whichBar = "|"
-\custosNote sol,4
+\custosNote sol,4 \bar "" \stopStaff

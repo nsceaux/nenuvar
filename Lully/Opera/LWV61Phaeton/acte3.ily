@@ -1,25 +1,30 @@
+%{ n°1 %}
 \act "Acte Troisième"
 \sceneDescription \markup \wordwrap-center {
-  Le théâtre change, et représente le temple d'Isis.
+  Le Theatre change, & represente le temple d'Isis.
 }
-\scene "Scène I"
+\scene "Scène I" "SCENE 1 : Theone, Phaëton"
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps { Théone, Phaéton, } suivants de Phaéton.
+  \smallCaps { Théone, Phaëton, } suivans de Phaëton.
 }
-\pieceToc \markup { Théone, Phaéton : \italic { Ah ! Phaéton, est-il possible } }
+\pieceToc \markup { Théone, Phaëton :
+  \italic { Ah ! Phaëton, est-il possible } }
 \includeScore "DAAtheonePhaeton"
-\scene "Scène II"
+%{ n°2 %}
+\scene "Scène II" "SCENE 2 : Phaëton"
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps Phaéton, suivants de Phaéton.
+  \smallCaps Phaëton, suivans de Phaëton.
 }
 \pieceToc \markup { Phaéton : \italic { Je plains ses malheurs } }
 \includeScore "DBAphaeton"
+%{ n° %}
 \scene "Scène III"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Épaphus, Phaéton, } suite de Phaéton.
 }
 \pieceToc \markup { Épaphus, Phaéton }
 \includeScore "DCAepaphusPhaeton"
+%{ n° %}
 \scene "Scène IV"
 \sceneDescription \markup \center-column {
   \wordwrap-center {
@@ -36,12 +41,16 @@
 }
 \pieceTocTitle "Marche"
 \includeScore "DDAmarche"
+%{ n° %}
 \pieceTocAndTitle \markup { AIR POUR LES MÊMES } \markup { Air }
 \includeScore "DDBair"
+%{ n° %}
 \pieceToc \markup { Merops, Clymène, chœur : \italic { Nous révérons votre puissance } }
 \includeScore "DDCmeropsClymeneChoeur"
+%{ n° %}
 \pieceToc \markup { Phaéton, Épaphus, Merops, Clymène }
 \includeScore "DDDphaetonEpaphusMeropsClymene"
+%{ n° %}
 \scene "Scène V"
 \sceneDescription \markup \wordwrap-center {
   Les portes du temple s'ouvrent, et ce lieu qui avait paru magnifique
@@ -52,12 +61,15 @@
 }
 \pieceTocTitle "Entrée des Furies"
 \includeScore "DEAfuries"
+%{ n° %}
 \scene "Scène VI"
 \sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaéton. }
 \pieceToc \markup { Clymène, Phaéton }
 \includeScore "DFAclymenePhaeton"
+%{ n° %}
 \pieceToc \markup { Clymène : \italic { Vous êtes son fils je le jure } }
 \includeScore "DFBclymene"
+%{ n° %}
 \pieceToc \markup { Clymène, Phaéton }
 \includeScore "DFCclymenePhaeton"
 \actEnd \markup { FIN DU TROISIÈME ACTE }
