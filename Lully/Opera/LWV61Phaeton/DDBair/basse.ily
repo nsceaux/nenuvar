@@ -1,11 +1,15 @@
-re'2 re'4 |
-dod'2. |
-re'4 re2 |
-la4 sol la |
-fa mi re |
-sol mi la |
-re la,2 |
-re,2. |
+\clef "basse"
+\setMusic #'rondeau {
+  re'2 re'4 |
+  dod'2. |
+  re'4 re2 |
+  la4 sol la |
+  fa mi re |
+  sol mi la |
+  re la,2 |
+  re,2. |
+}
+\keepWithTag #'() \rondeau
 re4 do sib, |
 la,2 la,4 |
 sib, la, sol, |
@@ -26,14 +30,7 @@ fa4 mi re |
 la fa sib |
 sol sol la |
 re2. |
-re'2 re'4 |
-dod'2. |
-re'4 re2 |
-la4 sol la |
-fa mi re |
-sol mi la |
-re la,2 |
-re,2. |
+\rondeau
 re2 re'4 |
 la si do' |
 si sold la |
@@ -51,3 +48,4 @@ re4 la fa |
 sib sib la |
 sol4. sol8 la4 |
 re2. |
+\modVersion\rondeau
