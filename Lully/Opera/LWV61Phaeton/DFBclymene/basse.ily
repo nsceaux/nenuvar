@@ -1,5 +1,5 @@
-re1 re2 |
-dod re do |
+\clef "basse" re1 re2 |
+dod re do? |
 sib,1. |
 la,1 la2 |
 re1. |

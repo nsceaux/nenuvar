@@ -1,4 +1,4 @@
-r1 la2 |
+\clef "quinte" r2 r la2 |
 la4 sol fa2 mi |
 re1. |
 la2 mi' mi' |

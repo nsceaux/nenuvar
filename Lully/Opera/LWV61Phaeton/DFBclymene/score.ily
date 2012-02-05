@@ -1,17 +1,19 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new Staff << \global \clef "dessus2" \includeNotes "dessus" >>
-      \new Staff << \global \clef "mezzosoprano/treble" \includeNotes "haute-contre" >>
-      \new Staff << \global \clef "quinte" \includeNotes "taille" >>
-      \new Staff << \global \clef "quinte" \includeNotes "quinte" >>
-    >>
     \new Staff \withLyrics <<
-      \global \clef "vbas-dessus" \includeNotes "clymene"
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
+    \new Staff << \global \includeNotes "dessus" >>
+    \new Staff << \global \includeNotes "haute-contre" >>
+    \new Staff << \global \includeNotes "taille" >>
+    \new Staff << \global \includeNotes "quinte" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres" >>
   >>
-  \layout { }
+  \layout {
+    indent = \noindent
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }

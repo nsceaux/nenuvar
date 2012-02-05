@@ -1,7 +1,7 @@
-r1 re'2 |
+\clef "haute-contre2" r2 r re'2 |
 mi' re' mi' |
 fa' sol'1 |
-mi' dod'4 dod' |
+mi'\tr dod'4 dod' |
 re' mi' fa'2 fa' |
 re'1 re'2 |
 mi'1 si2 |

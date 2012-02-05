@@ -1,4 +1,4 @@
-r1 re'2 |
+\clef "taille2" r2 r re'2 |
 la la la |
 sib1 sib2 |
 mi1 la2 |
@@ -12,7 +12,7 @@ la1 la2 |
 la1 la2 |
 re'2. re'4 sol'2 |
 do' do'2. do'4 |
-la2 r4 la la2 |
+la2\tr r4 la la2 |
 la1 re'2 |
 re'1 re'2 |
 re' si si |

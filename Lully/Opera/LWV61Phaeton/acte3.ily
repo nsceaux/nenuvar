@@ -74,7 +74,7 @@
   \italic { Le Ciel trouble vostre bonheur } }
 \includeScore "DFAclymenePhaeton"
 %{ n°10 %}
-\pieceToc \markup { Clymène : \italic { Vous êtes son fils je le jure } }
+\pieceToc \markup { Clymène : \italic { Vous estes son fils je le jure } }
 \includeScore "DFBclymene"
 %{ n°11 %}
 \pieceToc \markup { Clymène, Phaéton :
