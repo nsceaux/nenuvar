@@ -1,3 +1,4 @@
+\clef "haute-contre"
 R1*3 R2.*2 R1 R1. R1*2 R1*2 R2.*3 R1 R1 R2. R1*21 |
 r4 la' la' la' |
 sib' sib' sib' fad' |
@@ -8,14 +9,14 @@ fa' la' si' dod'' |
 re'' re'' re'' re'' |
 si'2. si'4 |
 mi'' mi'' si' do'' |
-do''2 ( si'4. ) do''8 |
+do''2( si'4.) do''8 |
 do''2. do''4 |
 do''2. la'4 |
 sib' sib' sib' sib' |
 sol' la' sib' sol' |
 la'2. la'4 |
 re'' re'' re'' la' |
-la'2 ( sol'4. ) la'8 |
+la'2( sol'4.\tr) la'8 |
 la'2. la'4 |
 fa' sib' la' la' |
 la'2 r |
@@ -23,7 +24,7 @@ R1*10 |
 r4 la' la' mi' |
 fa' fa' fa' sol' |
 la' la' re'' re'' |
-si'2 si' |
+si'2\tr si' |
 r4 do'' do'' si' |
 do'' do'' do'' do'' |
 la' la' la' la' |
@@ -50,14 +51,14 @@ fa' la' si' dod'' |
 re'' re'' re'' re'' |
 si'2. si'4 |
 mi''4 mi'' si' do'' |
-do''2 ( si'4. ) do''8 |
+do''2( si'4.\tr) do''8 |
 do''2. do''4 |
 do''2. la'4 |
 sib' sib' sib' sib' |
 sol' la' sib' sol' |
 la'2. la'4 |
 re'' re'' re'' la' |
-la'2 ( sol'4. ) la'8 |
+la'2( sol'4.\tr) la'8 |
 la'2. la'4 |
 fa' sib' la' la' |
 la'2 

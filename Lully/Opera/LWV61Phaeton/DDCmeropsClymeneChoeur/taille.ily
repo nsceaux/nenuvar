@@ -1,3 +1,4 @@
+\clef "taille"
 R1*3 R2.*2 R1 R1. R1*2 R1*2 R2.*3 R1 R1 R2. R1*21 |
 r4 fa' fad' fad' |
 sol' sol' sol' la' |
@@ -12,10 +13,10 @@ sol'2. sol'4 |
 mi'2. sol'4 |
 la'2. la'4 |
 fa' fa' fa' sib' |
-sib' la' sol'2 |
+sib' la' sol'2\tr |
 fa'2. fa'4 |
 fa' fa' re' mi' |
-fa'2 mi'4 re' |
+fa'2 mi'4\tr re' |
 mi'2. mi'4 |
 re' re' dod'4. re'8 |
 re'2 r |
@@ -54,10 +55,10 @@ sol'2. sol'4 |
 mi'2. sol'4 |
 la'2. la'4 |
 fa' fa' fa' sib' |
-sib' la' sol'2 |
+sib' la' sol'2\tr |
 fa'2. fa'4 |
 fa' fa' re' mi' |
-fa'2 mi'4 re' |
+fa'2 mi'4\tr re' |
 mi'2. mi'4 |
 re' re' dod'4. re'8 |
 re'2 

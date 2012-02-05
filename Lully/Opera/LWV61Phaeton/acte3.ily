@@ -48,8 +48,9 @@
 %{ n°5 %}
 \pieceTocTitle "Air pour les mesmes"
 \includeScore "DDBair"
-%{ n° %}
-\pieceToc \markup { Merops, Clymène, chœur : \italic { Nous révérons votre puissance } }
+%{ n°6 %}
+\pieceToc \markup { Merops, Clymène, chœur :
+  \italic { Nous reverons votre puissance } }
 \includeScore "DDCmeropsClymeneChoeur"
 %{ n° %}
 \pieceToc \markup { Phaéton, Épaphus, Merops, Clymène }

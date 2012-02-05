@@ -8,14 +8,14 @@ do' la si dod' |
 re' re' re' re' |
 si2 si4 si |
 do' do' si do' |
-do'2 ( si4. ) do'8 |
+do'2( si4.) do'8 |
 do'2. do'4 |
 do'2. do'4 |
 sib sib re' re' |
 do' do' do' do' |
 do'2. do'4 |
 re' re' re' mi' |
-fa'2 ( mi'4 ) re' |
+fa'2( mi'4\tr) re' |
 mi'2. mi'4 |
 re' re' dod'4. re'8 |
 re'2 r |
@@ -23,7 +23,7 @@ R1*10 |
 r4 la la la |
 re' re' re' dod' |
 re' re' re' re' |
-si2 si |
+si2\tr si |
 r4 do' do' si |
 do' do' do' do' |
 la2 la4 la |
@@ -50,14 +50,14 @@ do' la si dod' |
 re' re' re' re' |
 si2 si4 si |
 do' do' si do' |
-do'2 ( si4. ) do'8 |
+do'2( si4.) do'8 |
 do'2. do'4 |
 do'2. do'4 |
 sib sib re' re' |
 do' do' do' do' |
 do'2. do'4 |
 re' re' re' mi' |
-fa'2 ( mi'4 ) re' |
+fa'2( mi'4\tr) re' |
 mi'2. mi'4 |
 re' re' dod'4. re'8 |
 re'2 
