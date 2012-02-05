@@ -57,7 +57,7 @@
   \italic { Vous qui servez Isis } }
 \includeScore "DDDphaetonEpaphusMeropsClymene"
 %{ n°8 %}
-\scene "Scène V" "SCENE 5"
+\scene "Scène V" "SCENE 5 : Furies"
 \sceneDescription \markup \wordwrap-center {
   Les Portes du Temple s'ouvrent, & ce lieu qui avoit paru magnifique,
   n'est plus qu'un gouffre effroiable qui vomit des flames, & d'où
@@ -70,12 +70,14 @@
 %{ n°9 %}
 \scene "Scène VI" "SCENE 6 : Clymene, Phaëton"
 \sceneDescription \markup \wordwrap-center \smallCaps { Clymene, Phaëton. }
-\pieceToc \markup { Clymène, Phaëton }
+\pieceToc \markup { Clymène, Phaëton :
+  \italic { Le Ciel trouble vostre bonheur } }
 \includeScore "DFAclymenePhaeton"
-%{ n° %}
+%{ n°10 %}
 \pieceToc \markup { Clymène : \italic { Vous êtes son fils je le jure } }
 \includeScore "DFBclymene"
-%{ n° %}
-\pieceToc \markup { Clymène, Phaéton }
+%{ n°11 %}
+\pieceToc \markup { Clymène, Phaéton :
+  \italic { Ce Dieu semble aprouver le serment que je fais } }
 \includeScore "DFCclymenePhaeton"
 \actEnd \markup { FIN DU TROISIÈME ACTE }
