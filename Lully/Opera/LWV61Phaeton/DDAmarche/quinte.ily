@@ -1,4 +1,4 @@
-fad'2 mi' |
+\clef "quinte" fad'2 mi' |
 re' mi' |
 mi' la |
 la la4. la8 |

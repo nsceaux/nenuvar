@@ -45,8 +45,8 @@
   où dansent les Peuples qui portent des presens à Isis.
 }
 \includeScore "DDAmarche"
-%{ n° %}
-\pieceTocAndTitle \markup { AIR POUR LES MÊMES } \markup { Air }
+%{ n°5 %}
+\pieceTocTitle "Air pour les mesmes"
 \includeScore "DDBair"
 %{ n° %}
 \pieceToc \markup { Merops, Clymène, chœur : \italic { Nous révérons votre puissance } }
