@@ -124,6 +124,10 @@ epaphusMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Epaphus"))
 
+epaphusMarkBT =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse-taille" "Epaphus"))
+
 meropsMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Merops"))

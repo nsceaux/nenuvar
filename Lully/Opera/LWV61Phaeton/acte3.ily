@@ -52,24 +52,25 @@
 \pieceToc \markup { Merops, Clymène, chœur :
   \italic { Nous reverons votre puissance } }
 \includeScore "DDCmeropsClymeneChoeur"
-%{ n° %}
-\pieceToc \markup { Phaéton, Épaphus, Merops, Clymène }
+%{ n°7 %}
+\pieceToc \markup { Phaéton, Épaphus, Merops, Clymène :
+  \italic { Vous qui servez Isis } }
 \includeScore "DDDphaetonEpaphusMeropsClymene"
-%{ n° %}
-\scene "Scène V"
+%{ n°8 %}
+\scene "Scène V" "SCENE 5"
 \sceneDescription \markup \wordwrap-center {
-  Les portes du temple s'ouvrent, et ce lieu qui avait paru magnifique
-  n'est plus qu'un gouffre effroyable qui vomit des flammes, et d'où
-  sortent des furies et des fantômes terribles, qui renversent et brisent
-  les offrandes, et qui menacent et écartent l'assemblée. Phaéton s'obstine
-  à demeurer, et Clymène ne peut quitter son fils.
+  Les Portes du Temple s'ouvrent, & ce lieu qui avoit paru magnifique,
+  n'est plus qu'un gouffre effroiable qui vomit des flames, & d'où
+  sortent des Furies & des Fantômes terribles, qui renversent & brisent
+  les offrandes, & qui menacent & écartent l'Assemblée. Phaëton s'obstine
+  à demeurer, & Clymene ne peut quitter son Fils.
 }
 \pieceTocTitle "Entrée des Furies"
 \includeScore "DEAfuries"
-%{ n° %}
-\scene "Scène VI"
-\sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaéton. }
-\pieceToc \markup { Clymène, Phaéton }
+%{ n°9 %}
+\scene "Scène VI" "SCENE 6 : Clymene, Phaëton"
+\sceneDescription \markup \wordwrap-center \smallCaps { Clymene, Phaëton. }
+\pieceToc \markup { Clymène, Phaëton }
 \includeScore "DFAclymenePhaeton"
 %{ n° %}
 \pieceToc \markup { Clymène : \italic { Vous êtes son fils je le jure } }
