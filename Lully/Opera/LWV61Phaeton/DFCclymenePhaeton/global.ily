@@ -28,6 +28,7 @@
       \line {
         Prelude cy-devant page \page-refIII #'DFCclymenePhaeton .
       }
+      \hspace #2
       \musicglyph #"scripts.segno"
     }
   }

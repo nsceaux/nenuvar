@@ -94,5 +94,5 @@
   \null
 }
 \markup\vspace #2
-\actEnd \markup { FIN DU DEUXIÈME ACTE }
+\actEnd \markup { FIN DU DEUXIESME ACTE }
 \markup\orig-version\vspace #20

@@ -8,7 +8,7 @@
       \global \keepWithTag #'phaeton \includeNotes "voix"
     >> \keepWithTag #'phaeton \includeLyrics "paroles"
     \new Staff <<
-      \global \includeNotes "basse"
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
       \includeFigures "chiffres"
     >>
   >>
