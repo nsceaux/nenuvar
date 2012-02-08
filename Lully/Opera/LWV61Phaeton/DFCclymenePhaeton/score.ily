@@ -1,17 +1,44 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaff << \global \clef "quinte" \includeNotes "quinte" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "taille" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "quinte" >>
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s2.*27\noHaraKiri }
+        \global \keepWithTag #'clymene \includeNotes "voix"
+      >> \keepWithTag #'clymene \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s2.*27\noHaraKiri }
+        \global \keepWithTag #'phaeton \includeNotes "voix"
+      >> \keepWithTag #'phaeton \includeLyrics "paroles"
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "clymene-phaeton"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff \with { \haraKiri } << \global \includeNotes "dessus" >>
+        \new Staff \with { \haraKiri } << \global \includeNotes "haute-contre" >>
+        \new Staff \with { \haraKiri } << \global \includeNotes "taille" >>
+        \new Staff \with { \haraKiri } << \global \includeNotes "quinte" >>
+      >>
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s2.*27\noHaraKiri }
+        \global \keepWithTag #'clymene \includeNotes "voix"
+      >> \keepWithTag #'clymene \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s2.*27\noHaraKiri }
+        \global \keepWithTag #'phaeton \includeNotes "voix"
+      >> \keepWithTag #'phaeton \includeLyrics "paroles"
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
+    >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }
