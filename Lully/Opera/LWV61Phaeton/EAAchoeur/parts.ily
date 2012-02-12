@@ -1,21 +1,33 @@
 \piecePartSpecs #(let ((marks #{
-                        \override Score.NonMusicalPaperColumn #'keep-inside-line = ##t
-                        \markUpBegin \mark \markup \small \smallCaps Ritournelle
-                        s4 s2.*30 s2
-                        \markUpBegin \mark \markup \small \smallCaps Chœur
-                        s4 s2.*28 s2
-                        \markUpBegin \mark \markup \small \smallCaps Ritournelle
-                        s4 s2.*30 s2
-                        \markUpBegin \mark \markup \small \smallCaps Récit
-                        s4 s2.*30 s2 \break
-                        \markUpBegin \mark \markup \column \small \smallCaps {
-                        "Chœur des heures du jour" "et des quatre saisons"
-                      } #}))
-                  `((dessus1 #:notes "dessus1" #:music ,marks)
-                    (dessus2 #:notes "dessus2" #:music ,marks)
-                    (haute-contre #:music ,marks)
-                    (taille #:music ,marks)
-                    (quinte #:music ,marks)
-                    (basse #:music ,marks)
-                    (voix)
-                    (basse-continue #:notes "basse-continue" #:clef "alto" #:music ,marks)))
+  \override Score . RehearsalMark #'break-visibility = #end-of-line-invisible
+  \override Score . RehearsalMark #'direction = #UP
+  \override Score . RehearsalMark #'self-alignment-X = #LEFT
+  \override Score . RehearsalMark #'font-size = #1
+  \mark "Ritournelle" s4\noBreak s2.*30 s2
+  \mark "Chœur" s4\noBreak s2.*28 s2
+  \mark "Ritournelle" s4\noBreak s2.*30 s2
+  \mark "Recit" s4\noBreak s2.*30 s2
+  \mark "Chœur" s4\noBreak #}))
+                   `((dessus
+                      #:score "score-dessus"
+                      #:tag-global part
+                      #:music ,marks)
+                     (haute-contre #:music ,marks
+                                   #:tag-global part)
+                     (taille #:music ,marks
+                             #:tag-global part)
+                     (quinte #:music ,marks
+                             #:tag-global part)
+                     (basse #:tag-notes basse
+                            #:music ,marks
+                            #:tag-global part)
+                     (basse-continue
+                      #:music ,marks
+                      #:tag-global part
+                      #:score-template "score-basse-continue-voix"
+                      #:tag-notes basse-continue
+                      #:clef "alto")
+                     (silence
+                      #:music ,marks
+                      #:tag-global part
+                      #:score "score-silence")))
