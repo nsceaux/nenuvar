@@ -15,10 +15,43 @@
 \pieceToc \markup { L'Automne :
   \italic { C'est par vous, ô Soleil ! que le Ciel s'illumine } }
 \includeScore "EABautomne"
-%{ n° %}
-\pieceToc \markup { Chœur des heures et des saisons : \italic { Sans le dieu qui nous éclaire } }
-\includeScore "EACchoeur"
-%{ n° %}
+
+%{ n°3 %}
+\pieceTocCond #(not (eqv? #t (ly:get-option 'urtext))) \markup {
+  Chœur des Heures et des Saisons : \italic { Sans le Dieu qui nous esclaire }
+}
+\includeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "EACchoeur"
+\markup\orig-version\large\italic\center-column {
+  \line {
+    On reprend le Chœur des Heures & des Saisons
+    \hspace #2
+    \raise #2.5 \score {
+      { \tinyQuote \key sib \major \digitTime\time 3/4 \partial 4
+        \set autoBeaming = ##f
+        \clef "vbasse" sib,8 sib, fa4. fa8 fa re \bar "||"
+      } \addlyrics { Sans le Dieu qui nous es- }
+      \layout { \quoteLayout }
+    }
+    \hspace #2
+    \column {
+      \line { &c cy-devant page \page-refIII #'EAAchoeurReprise \null
+        jusques à la fin, }
+      \line { & le Soleil chante ce qui suit. }
+    }
+  }
+  \vspace #2
+  \line {
+    Derniere mesure du Chœur \hspace #2
+    \raise #2.5 \score {
+      { \tinyQuote \key sib \major \digitTime\time 2/2
+        \clef "basse" sib,2 sib,8 do sib, la, sol,1~ sol, \custosNote sol,4
+      }
+      \layout { indent = 0 }
+    }
+  }
+}
+\origVersion\pageBreak
+%{ n°4 %}
 \pieceToc \markup { Le Soleil }
 \includeScore "EADsoleil"
 
