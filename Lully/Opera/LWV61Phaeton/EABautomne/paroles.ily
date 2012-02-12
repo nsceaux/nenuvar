@@ -1,16 +1,16 @@
-C'est par vous, ô so -- "leil !"
-que le ciel s'il -- lu -- mi -- "ne ;"
-et sans vo -- tre splen -- deur di -- vi -- ne
-la ter -- re n'au -- rait point de cli -- mats for -- tu -- nés.
-C'est par vous, ô so -- "leil !"
-que le ciel s'il -- lu -- mi -- "ne ;"
-et sans vo -- tre splen -- deur di -- vi -- ne
-la ter -- re n'au -- rait point de cli -- mats for -- tu -- nés.
-La nuit, l'hor -- reur, et l'é -- pou -- van -- te
-s'em -- pa -- rent du sé -- jour que vous a -- ban -- don -- "nez :"
-la nuit, l'hor -- reur, et l'é -- pou -- van -- te
-s'em -- pa -- rent du sé -- jour que vous a -- ban -- don -- "nez :"
-tout bril -- le, tout rit, tout en -- chan -- te,
-dans les lieux où vous re -- ve -- nez,
-tout bril -- le, tout rit, tout en -- chan -- te,
-dans les lieux où vous re -- ve -- nez.
+C'est par vous, ô So -- "leil !"
+Que le Ciel s'il -- lu -- mi -- "ne ;"
+Et sans vos -- tre splen -- deur Di -- vi -- ne
+La Ter -- re n'au -- roit point de cli -- mats for -- tu -- nez.
+C'est par vous, ô So -- "leil !"
+Que le Ciel s'il -- lu -- mi -- "ne ;"
+Et sans vos -- tre splen -- deur Di -- vi -- ne
+La Ter -- re n'au -- roit point de cli -- mats for -- tu -- nez.
+La Nuit, l'Hor -- reur, et l'Es -- pou -- van -- te
+S'em -- pa -- rent du se -- jour que vous a -- ban -- don -- "nez :"
+La Nuit, l'Hor -- reur, et l'Es -- pou -- van -- te
+S'em -- pa -- rent du se -- jour que vous a -- ban -- don -- "nez :"
+Tout bril -- le, tout rit, tout en -- chan -- te,
+Dans les lieux où vous re -- ve -- nez,
+Tout bril -- le, tout rit, tout en -- chan -- te,
+Dans les lieux où vous re -- ve -- nez.

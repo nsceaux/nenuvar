@@ -1,5 +1,5 @@
-sib4^\markup \character "L'Automne" sib |
-re2 re4 mib |
+\clef "vbasse" sib4^\markup \character "L'Automne" sib |
+re2\tr re4 mib |
 fa2 fa4 fa |
 sib2 sib4 sol |
 do'2 do'4 la |
@@ -11,7 +11,7 @@ do'2 la4 la |
 sib2 do'4 do' |
 fa2 r |
 r sib4 sib |
-re2 re4 mib |
+re2\tr re4 mib |
 fa2 fa4 fa |
 sib2 sib4 sol |
 do'2 do'4 la |

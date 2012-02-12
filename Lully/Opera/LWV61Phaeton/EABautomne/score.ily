@@ -1,17 +1,21 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus2" >>
+    \origVersion <<
+      \new Staff << \global \includeNotes "dessus1" >>
+      \new Staff << \global \includeNotes "dessus2" >>
+    >>
+    \modVersion\new GrandStaff <<
+      \new Staff << \global \includeNotes "dessus1" >>
+      \new Staff << \global \includeNotes "dessus2" >>
     >>
     \new Staff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "automne"
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
+      \global \includeNotes "basse"
       \includeFigures "chiffres"
     >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }

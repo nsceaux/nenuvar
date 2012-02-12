@@ -11,8 +11,9 @@
 \pieceToc \markup { Chœur des Heures et des Saisons :
   \italic { Sans le dieu qui nous éclaire } }
 \includeScore "EAAchoeur"
-%{ n° %}
-\pieceToc \markup { L'Automne : \italic { C'est par vous, ô Soleil ! Que le ciel s'illumine } }
+%{ n°2 %}
+\pieceToc \markup { L'Automne :
+  \italic { C'est par vous, ô Soleil ! que le Ciel s'illumine } }
 \includeScore "EABautomne"
 %{ n° %}
 \pieceToc \markup { Chœur des heures et des saisons : \italic { Sans le dieu qui nous éclaire } }
