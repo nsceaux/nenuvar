@@ -1,4 +1,4 @@
-sol,2. |
+\clef "basse" sol,2. |
 sol |
 re2 ~ re8 mib fa fa, |
 sib,4 sib si |

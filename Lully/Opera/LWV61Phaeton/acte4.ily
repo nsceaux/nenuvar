@@ -52,7 +52,7 @@
 }
 \origVersion\pageBreak
 %{ n°4 %}
-\pieceToc \markup { Le Soleil }
+\pieceToc\markup { Le Soleil : \italic { Redoublez la rejoüissance } }
 \includeScore "EADsoleil"
 
 \scene "Scène II"

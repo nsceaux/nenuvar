@@ -1,5 +1,4 @@
-Re -- dou -- blez la ré -- jou -- is -- san -- ce
-que vous me fai -- tes voir.
-Pha -- é -- ton vient i -- ci,
-c'est mon fils qui s'a -- van -- ce,
-pre -- nez soin de le re -- ce -- voir.
+Re -- dou -- blez la re -- joü -- is -- san -- ce
+Que vous me fai -- tes voir.
+Pha -- e -- ton vient i -- cy, c'est mon fils qui s'a -- van -- ce,
+Pre -- nez soin de le re -- ce -- voir.
