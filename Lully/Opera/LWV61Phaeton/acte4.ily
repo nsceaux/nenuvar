@@ -55,19 +55,12 @@
 \pieceToc\markup { Le Soleil : \italic { Redoublez la rejoüissance } }
 \includeScore "EADsoleil"
 
-\scene "Scène II"
-\sceneDescription \markup \center-column {
-  \wordwrap-center {
-    \smallCaps { Le Soleil, Phaëton, les Heures du Jour, les quatre Saisons, }
-    Suite des quatre Saisons.
-  }
-  \justify {
-    Les Printems & se suite dansent, & les autres Saisons chantent
-    avec les Heures, pour témoigner qu'ils se réjoüisent de l'arrivée
-    du Fils du Soleil dans le Palais de son Pere.
-  }
+\sceneDescription\markup\justify {
+  Les Printems & sa suite dansent, & les autres Saisons chantent
+  avec les Heures, pour témoigner qu'ils se réjoüisent de l'arrivée
+  du Fils du Soleil dans le Palais de son Pere.
 }
-%{ n° %}
+%{ n°5 %}
 \pieceTocTitle "Premier air"
 \includeScore "EAEair"
 %{ n° %}
@@ -78,6 +71,14 @@
 %{ n° %}
 \pieceToc \markup { Chœur : \italic { Dans cette demeure charmante } }
 \includeScore "EAGchoeur"
+
+\scene "Scène II" "Scene 2 : "
+\sceneDescription \markup \center-column {
+  \wordwrap-center {
+    \smallCaps { Le Soleil, Phaëton, les Heures du Jour, les quatre Saisons, }
+    Suite des quatre Saisons.
+  }
+}
 %{ n° %}
 \pieceToc \markup { Le Soleil, Phaéton }
 \includeScore "EBAsoleilPhaeton"
