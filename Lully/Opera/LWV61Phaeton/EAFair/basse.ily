@@ -1,4 +1,4 @@
-sol8 la sib4 sol |
+\clef "basse" sol8 la sib4 sol |
 re'2 re'8 do' |
 sib2 la4 |
 sol2 sol,4 |
@@ -28,30 +28,3 @@ do2 re4 |
 sol, re,2 |
 sol, sol8 la |
 sol,2. |
-%%
-\repeat unfold 2 {
-  sol4 sol sol |
-  do'2. |
-  la4 re' re |
-  sol2. |
-  sol4 sol sol |
-  do2. |
-  fa4 fad sol |
-  re2. |
-  sol4 sol mib |
-  fa2 fa4 |
-  re re sol |
-  do2 do8 re |
-  mib4 re do |
-  sol la sib |
-  mib fa fa, |
-  sib,2. |
-  sib4 si sol |
-  do'2 do'4 |
-  do' la sol |
-  re'2. |
-  si4 si si |
-  do' la re' |
-  sol re2 |
-  sol,2. |
-}

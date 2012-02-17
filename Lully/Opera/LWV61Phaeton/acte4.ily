@@ -63,14 +63,26 @@
 %{ n°5 %}
 \pieceTocTitle "Premier air"
 \includeScore "EAEair"
-%{ n° %}
-\pieceTocAndTitle \markup "DEUXIÈME AIR" \markup {
-  Deuxième air, chœur : \italic { Dans ce palais Bravez l'envie }
+%{ n°6 %}
+\pieceTocTitle "Second air"
+\includeScore "EAFair"
+%{ n°7 %}
+\markup\column {
+  \fill-line {
+    \override #'(line-width . 80) \fontsize #2 \justify {
+      Une des Heures chante seule le Chœur qui suit, & tous les Chœurs
+      luy répondent avec les Violons, & l'on reprend le second Air
+      page \page-refIII #'EAFair \null alternativement avec les Chœurs.
+    }
+  }
+  \vspace #1
 }
-\includeScore "EAFairChoeur"
-%{ n° %}
-\pieceToc \markup { Chœur : \italic { Dans cette demeure charmante } }
+\origVersion\pageBreak
+\pieceToc \markup { Chœur : \italic { Dans ce Palais Bravez l'envie } }
 \includeScore "EAGchoeur"
+%{ n°8 %}
+\pieceToc \markup { Chœur : \italic { Dans cette demeure charmante } }
+\includeScore "EAHchoeur"
 
 \scene "Scène II" "Scene 2 : "
 \sceneDescription \markup \center-column {
