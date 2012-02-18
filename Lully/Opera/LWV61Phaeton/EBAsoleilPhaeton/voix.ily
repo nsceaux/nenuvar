@@ -31,7 +31,6 @@
     sol' sol' fa'\tr fa' fa' re' |
     mib'4 mib' sol'16 sol' sol' fa' mib'!8 mib'16 re' |
     do'4\trill fa'8 fa' mib'\trill mib'16 re' do'8 re' |
-    sib2
   }
   \tag #'(phaeton basse) {
     <<
@@ -63,6 +62,6 @@
     la4\tr fad'8 fad' fad'4\tr fad'8 la' |
     re'4 re'8 mib' la4\tr la8 sib |
     sol2
-    \tag #'phaeton { r2 | R2. R1 R2. R1 R2. R1*2 R2. R1 R2. R1*2 r2 }
+    \tag #'phaeton { r2 | R2. R1 R2. R1 R2. R1*2 R2. R1 R2. R1*2 }
   }
 >>

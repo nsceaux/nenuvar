@@ -40,6 +40,6 @@
     s2. s1 s2.\break
     s1*2 s2.\break
     s1 s2. s1\break
-    s1 s2 \bar "" \pageBreak
+    s1\pageBreak
   }
 >>

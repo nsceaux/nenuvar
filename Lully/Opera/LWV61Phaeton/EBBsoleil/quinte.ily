@@ -1,12 +1,12 @@
-re4 ~ re8. re16 |
+\clef "quinte" r2 re4~ re8. re16 |
 re1 |
 re4 sib2 fa4 |
-sol2 ~ sol4. sol8 |
+sol2~ sol4. sol8 |
 sol2. re4 |
 mib sol la2 |
-la ~ la4 la8. la16 |
-sol2 ~ sol4 sol8. sol16 |
-fa2 fa4 ~ fa8. sol16 |
+la~ la4 la8. la16 |
+sol2~ sol4 sol8. sol16 |
+fa2 fa4~ fa8. sol16 |
 la2 la4 re |
 sol mib re4. re8 |
 re2 re1 |
@@ -28,7 +28,7 @@ fa1 fa2 |
 fa1 |
 fa2. fa4 |
 re2. re4 |
-re1 ~|
+re1~ |
 re2 re4 re |
 mi1 |
 mi2 r4 la |

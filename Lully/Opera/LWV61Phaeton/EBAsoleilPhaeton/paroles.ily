@@ -30,5 +30,5 @@
   Pha -- e -- ton vous es -- tes mon fils et vous es -- tes di -- gne de l'es -- tre,
   Quel ga -- ge vou -- lez- vous du sang qui vous fit nais -- "tre ?"
   Quoy que vous puis -- siez de -- man -- der
-  Je pro -- mets de vous l'ac -- cor -- der.
+  Je pro -- mets de vous l'ac -- "cor -"
 }

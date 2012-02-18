@@ -95,13 +95,14 @@
 %{ n°10 %}
 \pieceToc \markup { Le Soleil : \italic { C'est toy que j'en atteste } }
 \includeScore "EBBsoleil"
-%{ n° %}
-\pieceToc \markup { Le Soleil, Phaéton }
+%{ n°11 %}
+\pieceToc \markup { Le Soleil, Phaéton :
+  \italic { Tous mes Tresors vous sont ouverts } }
 \includeScore "EBCsoleilPhaeton"
-%{ n° %}
-\pieceToc \markup { Chœur : \italic { Allez répandre la lumière } }
+%{ n°12 %}
+\pieceToc \markup { Chœur : \italic { Allez répandre la lumiere } }
 \includeScore "EBDchoeur"
-%{ n° %}
+%{ n°13 %}
 \pieceTocTitle "Entr'acte"
 \includeScore "EBEentracte"
 \actEnd \markup { FIN DU QUATRIÈME ACTE }

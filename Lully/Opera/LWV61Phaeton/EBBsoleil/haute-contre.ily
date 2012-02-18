@@ -1,14 +1,14 @@
-fa'4 ~ fa'8. sol'16 |
-la'2. ~ la'8. la'16 |
-re'4. re'16 mib' fa'4 ~ fa'8. fa'16 |
+\clef "haute-contre" r2 fa'4~ fa'8. sol'16 |
+la'2.~ la'8. la'16 |
+re'4. re'16 mib' fa'4~ fa'8. fa'16 |
 sib4. sib16 do' re'4. re'8 |
-sol4 ~ sol16 fad sol la sib4 ~ sib8. sib16 |
+sol4~ sol16 fad sol la sib4~ sib8. sib16 |
 sib2 do' |
-la la4 ~ la8. la16 |
-si2 do'4 ~ do'8. do'16 |
+la la4~ la8. la16 |
+si2 do'4~ do'8. do'16 |
 do'2 sib |
-do' re'4 ~ re'8. re'16 |
-sib4 do' la ~ la8. sol16 |
+do' re'4~ re'8. re'16 |
+sib4 do' la\tr ~ la8. sol16 |
 sol2 re'1 |
 re' re'2 |
 re'1 do'4 fa' |
@@ -36,5 +36,5 @@ la'2 r4 fad'8 fad' |
 re'2 do'4. re'8 |
 re'1 re'4 re' |
 do' do' la sib8 do' |
-re'2 ~ re'4. re'8 |
+re'2~ re'4. re'8 |
 re'1 |

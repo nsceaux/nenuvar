@@ -1,0 +1,29 @@
+\markup \line {
+  \force-line-width-ratio #9/20 \score {
+    \new Staff \with { \tinyStaff } <<
+      \keepWithTag #'(part) \global \includeNotes #(*note-filename*)
+      \clef #(*clef*)
+      $(or (*score-extra-music*) (make-music 'Music))
+    >>
+    \layout {
+      indent = #0
+      ragged-last = ##f
+      line-width = 4\cm
+      \context {
+        \Score
+        \remove "Bar_number_engraver"
+        \override RehearsalMark #'font-size = #-1
+        \override MetronomeMark #'font-size = #-2
+      }
+    }
+  }
+  \force-line-width-ratio #9/20 \fontsize #-2 \column {
+    \bold\line { Le Soleil }
+    \sline { C'est toi que j'en atteste }
+    \sline { Fleuve noir, & funeste, }
+    \line { Que l'éternelle nuit doit cacher à mes yeux ; }
+    \line { J'en jure par l'horreur de tes Eaux effroiables }
+    \line { Styx, ô Styx ! dont le nom attesté par les Dieux }
+    \sline { Rend leurs sermens inviolables. }
+  }
+}

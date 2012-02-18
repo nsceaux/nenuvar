@@ -48,4 +48,4 @@ re2~ re4. do8 |
 si,2. |
 do1 |
 fa4 re mib fa8 fa, |
-sib,2 \laissezVibrer
+
