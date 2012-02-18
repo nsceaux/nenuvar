@@ -92,8 +92,8 @@
 \pieceToc \markup { Le Soleil, Phaëton : \italic {
     Approchez, Phaeton, que rien ne vous étonne } }
 \includeScore "EBAsoleilPhaeton"
-%{ n° %}
-\pieceToc \markup { Le Soleil : \italic { C'est toi que j'en atteste } }
+%{ n°10 %}
+\pieceToc \markup { Le Soleil : \italic { C'est toy que j'en atteste } }
 \includeScore "EBBsoleil"
 %{ n° %}
 \pieceToc \markup { Le Soleil, Phaéton }
