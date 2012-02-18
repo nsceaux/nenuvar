@@ -1,4 +1,4 @@
-sol4 |
+\clef "basse" sol4 |
 sol4. sol8 re4 |
 mib mib do |
 fa2 fa8 fa |
@@ -9,13 +9,30 @@ re'2. |
 sol4. sol8 sol4 |
 do' do' la |
 sib sol do' |
-fa2 fa8 fa |
+fa2 ~ fa8 fa |
 sib4. sib8 sib la |
 sol2 sol4 |
 la2 la4 |
-re r2 |
-R2.*12 |
-r2 re4 |
+re
+<<
+  \tag #'basse { r4 r | R2.*12 | r4 r }
+  \tag #'basse-continue {
+    \modVersion\clef "alto" re'2~ |
+    re'8 sib do'2 |
+    re'8 sib do'2 |
+    re'8 re' re' mib' re' do' |
+    sib2. |
+    \origVersion\clef "alto" sib' |
+    sib8 la sib do' re' mib' |
+    fa'4. fa'8 mib' re' |
+    do'2. |
+    do' |
+    do' |
+    re'8 sib do'2 |
+    re'2. |
+    \origVersion\clef "basse" do'4 re' \modVersion\clef "basse"
+  }
+>> re4 |
 sol4. sol8 sol4 |
 la la la |
 sib2 sib8 sib |
@@ -30,9 +47,19 @@ fa2 ~ fa8 fa |
 re4. re8 re re |
 sol2 mib4 |
 fa2 fa4 |
-sib, r2 |
-R2.*5 |
-r2 fa4 |
+sib,
+<<
+  \tag #'basse { r4 r | R2.*5 | r4 r }
+  \tag #'basse-continue {
+    \clef "alto" sib' sib' |
+    sib' la'8 sol' la' fa' |
+    sol'4. sol'8 fa' mib' |
+    re'2. |
+    mib' |
+    fa' |
+    mib'?4 fa' \modVersion\clef "basse"
+  }
+>> fa4 |\origVersion\clef "basse"
 sib4. sib8 sol4 |
 lab lab fa |
 sol2 ~ sol8 sol |
@@ -55,9 +82,18 @@ re2 ~ re8 re |
 sol4. fa8 mib re |
 do2 do4 |
 re2 re4 |
-sol, r2 |
-R2.*4 |
-r2 r8 re |
+sol,
+<<
+  \tag #'basse { r4 r | R2.*4 | r4 r r8 }
+  \tag #'basse-continue {
+    \clef "alto" sol'4. sol'8 |
+    re'4 sol'2 |
+    do' do''4 |
+    sol'8 fad' sol' la' sib' do'' |
+    re''2. |
+    do''4 re''4. \clef "basse"
+  }
+>> re8 |
 sol4. fa8 mib re |
 do2 do4 |
 re2 re4 |

@@ -1,18 +1,29 @@
 Dans cet -- te de -- meu -- re char -- man -- te,
-ve -- nez, ve -- nez jou -- ir d'u -- ne gloire é -- cla -- tan -- te,
-jeu -- ne hé -- ros tout ré -- pond à vos vœux,
-ve -- nez, ve -- nez jou -- ir d'un sort heu -- reux.
+Ve -- nez, ve -- nez joü -- ir d'u -- ne gloire es -- cla -- tan -- te,
+Jeu -- ne He -- ros tout res -- pond à vos vœux,
+Ve -- nez, ve -- nez joü -- ir d'un sort heu -- reux.
 
 Dans cet -- te de -- meu -- re char -- man -- te,
-ve -- nez, ve -- nez jou -- ir d'u -- ne gloire é -- cla -- tan -- te,
-jeu -- ne hé -- ros tout ré -- pond à vos vœux,
-ve -- nez, ve -- nez jou -- ir d'un sort heu -- reux.
+Ve -- nez, ve -- nez joü -- ir d'u -- ne gloire é -- cla -- tan -- te,
+Jeu -- ne He -- ros tout ré -- pond à vos vœux,
+Ve -- nez, ve -- nez joü -- ir d'un sort heu -- reux.
 
 Dans cet -- te de -- meu -- re char -- man -- te,
-ve -- nez, ve -- nez jou -- ir d'u -- ne gloire é -- cla -- tan -- te,
-jeu -- ne hé -- ros tout ré -- pond à vos vœux,
-ve -- nez, ve -- nez jou -- ir d'un sort heu -- reux,
-ve -- nez, ve -- nez jou -- ir d'un sort heu -- reux,
-ve -- nez, ve -- nez jou -- ir d'un sort heu -- reux.
+Ve -- nez, ve -- nez joü -- ir d'u -- ne gloire es -- cla -- tan -- te,
+Jeu -- ne He -- ros tout res -- pond à vos vœux,
 
-Ve -- nez, ve -- nez jou -- ir d'un sort heu -- reux.
+\tag #'(vdessus vtaille) {
+  Ve -- nez, ve -- nez joü -- ir d'un sort heu -- reux.
+  Ve -- nez, ve -- nez joü -- ir d'un sort heu -- reux.
+}
+\tag #'vhaute-contre {
+  Ve -- nez, ve -- nez joü -- ir, ve -- nez joü -- ir d'un sort heu -- reux,
+  Ve -- nez joü -- ir d'un sort heu -- reux.
+}
+\tag #'vbasse {
+  Ve -- nez, ve -- nez joü -- ir d'un sort heu -- reux.
+  Ve -- nez joü -- ir, ve -- nez joü -- ir d'un sort heu -- reux.
+}
+Ve -- nez, ve -- nez joü -- ir d'un sort heu -- reux.
+
+Ve -- nez, ve -- nez joü -- ir d'un sort heu -- reux.

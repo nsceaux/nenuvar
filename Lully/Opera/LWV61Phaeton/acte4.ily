@@ -84,15 +84,13 @@
 \pieceToc \markup { Chœur : \italic { Dans cette demeure charmante } }
 \includeScore "EAHchoeur"
 
-\scene "Scène II" "Scene 2 : "
+\scene "Scène II" "Scene 2 : Le Soleil, Phaëton"
 \sceneDescription \markup \center-column {
-  \wordwrap-center {
-    \smallCaps { Le Soleil, Phaëton, les Heures du Jour, les quatre Saisons, }
-    Suite des quatre Saisons.
-  }
+  \wordwrap-center\smallCaps { Le Soleil, Phaëton. }
 }
-%{ n° %}
-\pieceToc \markup { Le Soleil, Phaéton }
+%{ n°9 %}
+\pieceToc \markup { Le Soleil, Phaëton : \italic {
+    Approchez, Phaeton, que rien ne vous étonne } }
 \includeScore "EBAsoleilPhaeton"
 %{ n° %}
 \pieceToc \markup { Le Soleil : \italic { C'est toi que j'en atteste } }

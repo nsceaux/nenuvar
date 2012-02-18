@@ -1,4 +1,4 @@
-sib4 |
+\clef "vtaille" sib4 |
 sib4. sib8 sib4 |
 sib sol sol |
 fa2 fa8 fa |
@@ -13,9 +13,9 @@ do'2 ~ do'8 do' |
 sib4. sib8 sib do' |
 re'2 re'4 |
 re' ( dod'4. ) re'8 |
-re'4 r2 |
+re'4 r4 r |
 R2.*12 |
-r2 re'4 |
+r4 r re'4 |
 re'4. re'8 re'4 |
 do' do' do' |
 sib2 sib8 sib |
@@ -26,13 +26,13 @@ re'2 re'4 |
 sib4. sib8 sib4 |
 sol sol sol |
 do' do' do' |
-la2 ~ la8 la |
+la2\tr ~ la8 la |
 re'4. re'8 re' re' |
 sib2 sib4 |
-sib ( la4. ) sib8 |
-sib4 r2 |
+sib( la4.\tr) sib8 |
+sib4 r4 r |
 R2.*5 |
-r2 la4 |
+r4 r la4 |
 sib4. sib8 sib4 |
 lab lab lab |
 sol2 sol8 si |
@@ -46,7 +46,7 @@ sib do' la |
 sib2 ~ sib8 sib |
 do'4. do'8 fa' re' |
 sol'2 sol'4 |
-do'2 sib4 |
+do'2\tr sib4 |
 la2 sib4 |
 do'4. sib8 sib sib |
 do'2 do'4 |
@@ -55,9 +55,9 @@ re'2 ~ re'8 re' |
 re'4. re'8 do' si |
 do'2 mib'4 |
 re'2 la4 |
-sib r2 |
+sib r4 r |
 R2.*4 |
-r2 r8 re' |
+r4 r r8 re' |
 re'4. re'8 do' si |
 do'2 mib'4 |
 re'2 la4 |

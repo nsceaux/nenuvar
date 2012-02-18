@@ -3,4 +3,5 @@
                    (taille)
                    (quinte)
                    (basse)
-                   (basse-continue))
+                   (basse-continue)
+                   (silence #:score "score-silence"))

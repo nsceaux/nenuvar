@@ -1,4 +1,4 @@
-re'4 |
+\clef "taille" re'4 |
 re'4. re'8 re'4 |
 sib sib mib' |
 do'2 do'8 re' |
@@ -47,7 +47,10 @@ sol'4. sol'8 fa' mib' |
 re'2. |
 mib' |
 fa' |
-mib'4 fa'2 |
+<<
+  \new Voice { \modVersion\voiceTwo mib'4 fa'2 }
+  \modVersion\new CueVoice { \voiceOne re''4\rest re''\rest fa' }
+>>
 fa'4. fa'8 sol'4 |
 mib' mib' fa' |
 re'2 ~ re'8 re' |
@@ -75,7 +78,10 @@ re'4 sol'2 |
 do' do''4 |
 sol'8 fad' sol' la' sib' do'' |
 re''2. |
-do''4 re''2 |
+<<
+  \new Voice { \modVersion\voiceOne do''4 re''2 | }
+  \modVersion\new CueVoice { \voiceTwo do'4\rest do'\rest do'8\rest fad' }
+>>
 sol'4. re'8 mib' fa' |
 sol'4. fa'8 mib'4 |
 re'2 la4 |

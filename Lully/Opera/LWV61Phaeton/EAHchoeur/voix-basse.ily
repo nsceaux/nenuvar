@@ -1,4 +1,4 @@
-sol4 |
+\clef "vbasse" sol4 |
 sol4. sol8 re4 |
 mib mib do |
 fa2 fa8 fa |
@@ -13,9 +13,9 @@ fa2 ~ fa8 fa |
 sib4. sib8 sib la |
 sol2 sol4 |
 la2 la4 |
-re r2 |
+re r4 r |
 R2.*12 |
-r2 re4 |
+r4 r re4 |
 sol4. sol8 sol4 |
 la la la |
 sib2 sib8 sib |
@@ -30,9 +30,9 @@ fa2 ~ fa8 fa |
 re4. re8 re re |
 sol2 mib4 |
 fa2 fa4 |
-sib, r2 |
+sib, r4 r |
 R2.*5 |
-r2 fa4 |
+r4 r fa4 |
 sib4. sib8 sol4 |
 lab lab fa |
 sol2 sol8 sol |
@@ -55,9 +55,9 @@ re2 ~ re8 re |
 sol4. fa8 mib re |
 do2 do4 |
 re2 re4 |
-sol, r2 |
+sol, r4 r |
 R2.*4 |
-r2 r8 re |
+r4 r r8 re |
 sol4. fa8 mib re |
 do2 do4 |
 re2 re4 |
