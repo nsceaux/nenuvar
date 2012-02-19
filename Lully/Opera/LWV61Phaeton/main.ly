@@ -23,6 +23,8 @@
   \include "Lully/Opera/LWV61Phaeton/livret0.ily"
   \include "Lully/Opera/LWV61Phaeton/livret1.ily"
   \include "Lully/Opera/LWV61Phaeton/livret2.ily"
+  \include "Lully/Opera/LWV61Phaeton/livret3.ily"
+  \include "Lully/Opera/LWV61Phaeton/livret4.ily"
   \pageBreak
   %% Personnages
   \include "Lully/Opera/LWV61Phaeton/personnages.ily"

@@ -48,7 +48,7 @@
     \sline { Et plus mon bonheur est doux. }
     \bold Epaphus
     \line { Craignez le Dieux dont je tiens la naissance ; }
-    \sline { Criagnés son foudroiant couroux. }
+    \sline { Craignés son foudroiant couroux. }
     \bold Phaeton
     \sline { Je me flatte de l'esperance }
     \line { Que tous les Dieux ne seront pas pour vous. }
