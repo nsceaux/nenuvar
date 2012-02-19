@@ -1,11 +1,16 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \global \includeNotes "soleil-phaeton"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+      \global \keepWithTag #'soleil \includeNotes "voix"
+    >> \keepWithTag #'soleil \includeLyrics "paroles"
+    \new Staff \withLyrics <<
+      \global \keepWithTag #'phaeton \includeNotes "voix"
+    >> \keepWithTag #'phaeton \includeLyrics "paroles"
+    \new Staff <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+    >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }

@@ -89,18 +89,18 @@
   \wordwrap-center\smallCaps { Le Soleil, Phaëton. }
 }
 %{ n°9 %}
-\pieceToc \markup { Le Soleil, Phaëton : \italic {
-    Approchez, Phaeton, que rien ne vous étonne } }
+\pieceToc \markup { Le Soleil, Phaëton :
+  \italic { Approchez, Phaeton, que rien ne vous étonne } }
 \includeScore "EBAsoleilPhaeton"
 %{ n°10 %}
 \pieceToc \markup { Le Soleil : \italic { C'est toy que j'en atteste } }
 \includeScore "EBBsoleil"
 %{ n°11 %}
-\pieceToc \markup { Le Soleil, Phaéton :
+\pieceToc \markup { Le Soleil, Phaëton :
   \italic { Tous mes Tresors vous sont ouverts } }
 \includeScore "EBCsoleilPhaeton"
 %{ n°12 %}
-\pieceToc \markup { Chœur : \italic { Allez répandre la lumiere } }
+\pieceToc \markup { Chœur : \italic { Allez respandre la Lumiere } }
 \includeScore "EBDchoeur"
 %{ n°13 %}
 \pieceTocTitle "Entr'acte"

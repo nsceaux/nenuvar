@@ -1,4 +1,4 @@
-sol,1 ~|
+\clef "basse" sol,1~ |
 sol,2. |
 do4. sib,8 la, sol, |
 fa,4. fa8 re4 |
@@ -87,4 +87,4 @@ sib,2 si, |
 do2. |
 sol2 fa4 mib |
 re2 sib,8 la,16 sol, re8 re, |
-sol,2 \laissezVibrer 
+\custosNote sol,4
