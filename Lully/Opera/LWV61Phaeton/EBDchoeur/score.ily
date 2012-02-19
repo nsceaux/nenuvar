@@ -1,29 +1,57 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaffB << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaffB << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaffB << \global \clef "quinte" \includeNotes "quinte" >>
-      \newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
+    \origVersion <<
+      \new Staff \withLyrics <<
+        \global \includeNotes "voix-dessus"
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
+      \new Staff \withLyrics <<
+        \global \includeNotes "voix-haute-contre"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+      \new Staff \withLyrics <<
+        \global \includeNotes "voix-taille"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
+      \new Staff \withLyrics <<
+        \global \includeNotes "voix-basse"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff << \global \keepWithTag #'basse \includeNotes "basse" >>
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vdessus" \includeNotes "voix-dessus"
-    >> \includeLyrics "paroles-dessus"
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-    >> \includeLyrics "paroles-haute-contre"
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vtaille" \includeNotes "voix-taille"
-    >> \includeLyrics "paroles-taille"
-    \newHaraKiriStaff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "voix-basse"
-    >> \includeLyrics "paroles-basse"
-    \new Staff <<
-      \global \clef "basse" \includeNotes "basse-continue"
-      \includeFigures "chiffres"
+
+    \modVersion <<
+      \new StaffGroupNoBracket <<
+        \new Staff << \global \includeNotes "dessus" >>
+        \new Staff << \global \includeNotes "haute-contre" >>
+        \new Staff << \global \includeNotes "taille" >>
+        \new Staff << \global \includeNotes "quinte" >>
+        \new Staff << \global \keepWithTag #'basse \includeNotes "basse" >>
+      >>
+      \new ChoirStaff <<
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-dessus"
+        >> \keepWithTag #'vdessus \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-haute-contre"
+        >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-taille"
+        >> \keepWithTag #'vtaille \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-basse"
+        >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      >>
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }

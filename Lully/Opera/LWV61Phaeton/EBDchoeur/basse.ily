@@ -1,4 +1,8 @@
-r4 r8 sol |
+\clef "basse"
+<<
+  \tag #'basse { r2 r4 r8 }
+  \tag #'basse-continue { sol,2~ sol,4. }
+>> sol8 |
 sol4. sol8 re4. re8 |
 re4 re mib2 ~|
 mib sib4 sib8 sib |

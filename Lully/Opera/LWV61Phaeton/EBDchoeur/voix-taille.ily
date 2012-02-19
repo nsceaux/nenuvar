@@ -1,4 +1,4 @@
-r4 r8 sib |
+\clef "vtaille" r2 r4 r8 sib |
 sib4. do'8 re'4. re'8 |
 sib4 sib sib2 |
 sib re'4 re'8 re' |
@@ -22,13 +22,13 @@ sib2 sib4. sib8 |
 la4 la la la |
 la2 la4. la8 |
 sib4. re'8 re'4 mi' |
-dod'8 [\melisma si dod' re' ] mi' [ re' mi' dod' ]|
-re'4 \melismaEnd re' re' re' |
+dod'8[\melisma si dod' re'] mi'[ re' mi' dod']( |
+re'4)\melismaEnd re' re' re' |
 do'2 do'4. do'8 |
 do'4 fa' fa' re' |
 do'2 do'4. do'8 |
-do'4 la fa8 [\melisma sol la si ]|
-do'2 \melismaEnd do'4. do'8 |
+do'4 la fa8[\melisma sol la si]( |
+do'2)\melismaEnd do'4. do'8 |
 sib4. do'8 re'4 re' |
 re' re' re' re' |
 re'2 re'4. re'8 |
@@ -62,13 +62,13 @@ fa' do' do' la |
 sib2 sib4. sib8 |
 la4 la la la |
 la2 la4. la8 sib4. re'8 re'4 mi' |
-dod'8 [\melisma si dod' re' ] mi' [ re' mi' dod' ]|
-re'4 \melismaEnd re' re' re' |
+dod'8[\melisma si dod' re'] mi'[ re' mi' dod']( |
+re'4)\melismaEnd re' re' re' |
 do'2 do'4. do'8 |
 do'4 fa' fa' re' |
 do'2 do'4. do'8 |
-do'4 la fa8 [\melisma sol la si ]|
-do'2 \melismaEnd do'4. do'8 |
+do'4 la fa8[\melisma sol la si]( |
+do'2)\melismaEnd do'4. do'8 |
 sib4. do'8 re'4 re' |
 re' re' re' re' |
 re'2 re'4. re'8 |
@@ -76,5 +76,5 @@ re'4. do'8 sib4 sib |
 do'2 do'4. do'8 |
 re'4 re' re' re' |
 sib sol re' mib' |
-re'2. ( la4 )|
+re'2.( la4) |
 sib1 |

@@ -103,6 +103,21 @@
 \pieceToc \markup { Chœur : \italic { Allez respandre la Lumiere } }
 \includeScore "EBDchoeur"
 %{ n°13 %}
-\pieceTocTitle "Entr'acte"
-\includeScore "EBEentracte"
-\actEnd \markup { FIN DU QUATRIÈME ACTE }
+\pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
+\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "EAFair" "EBEentracte"
+\markup\orig-version\fill-line {
+  \null
+  \line\large\italic {
+    Entr'Acte page \page-refIII #'EAFair .
+    \raise #4 \score {
+      { \tinyQuote \key re \minor \digitTime\time 3/4 \clef "dessus"
+        re''4 re'' sol'' | fad''2 fad''4 |
+        sol''2 la''4 | \custosNote sib''
+      }
+      \layout { indent = 0 }
+    }
+  }
+  \null
+}
+\markup\vspace #2
+\actEnd \markup { FIN DU QUATRIESME ACTE }
