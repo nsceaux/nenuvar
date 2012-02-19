@@ -52,6 +52,9 @@
       >>
     >>
   >>
-  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
+  \layout {
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+    indent = \noindent
+  }
   \midi { }
 }

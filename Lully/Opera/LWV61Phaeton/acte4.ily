@@ -8,7 +8,7 @@
   Suite des quatre Saisons.
 }
 %{ n°1 %}
-\pieceToc \markup { Chœur des Heures et des Saisons :
+\pieceToc \markup\wordwrap { Chœur des Heures et des Saisons :
   \italic { Sans le dieu qui nous éclaire } }
 \includeScore "EAAchoeur"
 %{ n°2 %}
@@ -17,7 +17,7 @@
 \includeScore "EABautomne"
 
 %{ n°3 %}
-\pieceTocCond #(not (eqv? #t (ly:get-option 'urtext))) \markup {
+\pieceTocCond #(not (eqv? #t (ly:get-option 'urtext))) \markup\wordwrap {
   Chœur des Heures et des Saisons : \italic { Sans le Dieu qui nous esclaire }
 }
 \includeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "EACchoeur"
@@ -84,12 +84,12 @@
 \pieceToc \markup { Chœur : \italic { Dans cette demeure charmante } }
 \includeScore "EAHchoeur"
 
-\scene "Scène II" "Scene 2 : Le Soleil, Phaëton"
+\scene "Scene II" "Scene 2 : Le Soleil, Phaëton"
 \sceneDescription \markup \center-column {
   \wordwrap-center\smallCaps { Le Soleil, Phaëton. }
 }
 %{ n°9 %}
-\pieceToc \markup { Le Soleil, Phaëton :
+\pieceToc \markup\wordwrap { Le Soleil, Phaëton :
   \italic { Approchez, Phaeton, que rien ne vous étonne } }
 \includeScore "EBAsoleilPhaeton"
 %{ n°10 %}
@@ -109,6 +109,7 @@
   \null
   \line\large\italic {
     Entr'Acte page \page-refIII #'EAFair .
+    \hspace #2
     \raise #4 \score {
       { \tinyQuote \key re \minor \digitTime\time 3/4 \clef "dessus"
         re''4 re'' sol'' | fad''2 fad''4 |

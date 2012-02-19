@@ -1,4 +1,4 @@
-\clef "vdessus" re''4 re'' sib' |
+\clef "vdessus" re''4^\markup\character "Chœur" re'' sib' |
 mib''2. |
 do''4 la' re'' |
 sib'2\tr sol'4 |
