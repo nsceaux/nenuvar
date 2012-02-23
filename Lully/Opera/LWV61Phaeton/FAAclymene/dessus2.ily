@@ -1,4 +1,4 @@
-R1*4 |
+\clef "dessus" R1*4 |
 r4 do'' fa'' fa''8 sol'' |
 la''4 fa'' sol'' mi'' |
 fa''2. fa''4 |
@@ -9,5 +9,6 @@ si'4 do'' si'4. do''8 |
 do''2 do''4 do''8 sib' |
 la'4 la'8 sib' do'' sib' la' sol' |
 fa'4 sib'2 sib'8 la' |
-sol'4 la' sol'4. fa'8 |
-fa'2 
+sol'4 la' sol'4.\tr fa'8 |
+fa'2 r4 |
+R2. R1*2 R2.*3 R1 R2. R1 R2. R1 R2.*29 R1

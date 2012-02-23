@@ -1,3 +1,4 @@
+\clef "vbasse" R1*15 |
 R2.*2 R1*2 R2.*3 R1 R2. R1 R2. R1 R2.*15 |
 r4 fa fa |
 sib2 sib4 |
