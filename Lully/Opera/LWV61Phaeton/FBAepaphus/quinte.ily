@@ -1,4 +1,4 @@
-r2 re |
+\clef "quinte" r2 re |
 mi mi4 mi |
 fa2 sol |
 mi re4 mi |
@@ -42,3 +42,5 @@ re2 re |
 mi mi |
 fa8 re sol fa la2 |
 la1 |
+R1 |
+\stopStaff

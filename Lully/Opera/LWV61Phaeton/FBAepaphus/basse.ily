@@ -1,4 +1,4 @@
-r2 re |
+\clef "basse" << \tag #'basse r2 \tag #'basse-continue re,2 >> re |
 do1 |
 sib, |
 la, |
@@ -42,3 +42,12 @@ fad,2 sol, ~|
 sol, la, |
 fa,4 mi,8 re, la,2 |
 re,1 |
+<<
+  \tag #'basse {
+    R1 \stopStaff
+  }
+  \tag #'basse-continue {
+    \once\set Staff.whichBar = "|" re2~ \unset Staff.whichBar re8 re do sib, |
+    \custosNote la,4
+  }
+>>

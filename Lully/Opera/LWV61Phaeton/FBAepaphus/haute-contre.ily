@@ -1,4 +1,4 @@
-r2 la4 fa |
+\clef "haute-contre2" r2 la4 fa |
 sol2 la4 la |
 sib2 sib4 re' |
 dod'2 re'4 dod' |
@@ -22,7 +22,7 @@ re'1 re'4. re'8 |
 re'2. re'4 |
 re'1 |
 do'2. mi'4 |
-fa' sol' sol'4. fa'8 |
+fa' sol' sol'4.\tr fa'8 |
 fa'2 r4 do' |
 re'2 re'4 re' |
 re'2 ~ re'4. si8 si4 mi' |
@@ -42,3 +42,5 @@ re'2 re'4 sib |
 sib4. sib8 la2 |
 la4 mi'8 la la2 |
 la1 |
+R1 |
+\stopStaff

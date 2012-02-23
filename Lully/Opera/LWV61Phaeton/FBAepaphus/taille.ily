@@ -1,4 +1,4 @@
-r2 fa |
+\clef "taille2" r2 fa |
 do' do'4 la |
 la2 sol4. fa16 sol |
 la2 la4 la |
@@ -31,7 +31,7 @@ mi2 r4 mi8 mi |
 re2 re4 sib |
 sib2 la4 la |
 sib2 sib4 sib |
-mi1 |
+mi1\tr |
 fa2 fa4. sol8 la2 |
 sol1 |
 si2 si4 si |
@@ -39,6 +39,8 @@ la2 la4 la |
 la2. la4 |
 la2 ~ la4. la8 |
 la2 sib4 sol |
-sol mi mi2 |
+sol mi mi2\tr |
 re8 re' dod' re' mi'4 mi |
 fa1 |
+R1 |
+\stopStaff
