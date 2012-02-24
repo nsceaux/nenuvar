@@ -52,16 +52,16 @@
 \pieceToc \markup { Clymène, Merops, chœur :
   \italic { Que l'on chante, que tout réponde } }
 \includeScore "FDAchoeur"
-%{ n° %}
+%{ n°5 %}
 \sceneDescription \markup \wordwrap-center {
   Les Pasteurs Egyptiens, & les Bergeres Egyptiennes
   témoignent leur joie en dansant, a une de ces Bergeres
   chante.
 }
-\pieceTocTitle "Bourrée pour les Égyptiens"
+\pieceTocTitle "Bourrée pour les Egyptiens. Premier Air"
 \includeScore "FDBbourree"
 %{ n° %}
-\pieceTocAndTitle \markup { DEUXIÈME AIR } \markup {
+\pieceTocAndTitle \markup { SECOND AIR } \markup {
   Deuxième air, une bergère égyptienne :
   \italic { Ce beau jour ne permet qu'à l'aurore }
 }

@@ -1,4 +1,4 @@
-fa4 |
+\clef "basse" fa4 |
 fa mi fa sib, |
 do do' la2 |
 sib4 sol do' do |

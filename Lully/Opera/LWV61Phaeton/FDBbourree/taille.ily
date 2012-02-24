@@ -1,7 +1,7 @@
-fa'4 |
+\clef "taille" fa'4 |
 la' sol' fa' re' |
 mi' sol' fa' fa'8 mi' |
-re'4 re' mi'4. fa'8 |
+re'4 re' mi'4.\tr fa'8 |
 fa'2. do'4 |
 re'2 re'4 re' |
 re' si si si |
