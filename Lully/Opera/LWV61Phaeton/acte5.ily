@@ -34,7 +34,7 @@
 \includeScore "FCAlibyeEpaphus"
 
 %{ n°4 %}
-\scene "Scene IV" "SCENE 4 : Merops, Clymene, chœurs"
+\scene "Scene IV" "SCENE 4 : Merops, Clymene, chœur"
 \sceneDescription \markup \center-column {
   \wordwrap-center {
     \smallCaps { Merops, Clymene, }
@@ -54,8 +54,9 @@
 \includeScore "FDAchoeur"
 %{ n° %}
 \sceneDescription \markup \wordwrap-center {
-  Les pasteurs égyptiens et les bergères égyptiennes témoignent
-  leur joie en dansant, et une de ces bergères chante.
+  Les Pasteurs Egyptiens, & les Bergeres Egyptiennes
+  témoignent leur joie en dansant, a une de ces Bergeres
+  chante.
 }
 \pieceTocTitle "Bourrée pour les Égyptiens"
 \includeScore "FDBbourree"

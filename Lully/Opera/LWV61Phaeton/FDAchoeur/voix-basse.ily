@@ -27,9 +27,9 @@ sol sol fa |
 mi2 mi4 |
 fa4. mi8 re4 |
 do sol sol |
-do r2 |
+do r4 r |
 R2.*12 |
-r2 fa4^\markup \character Merops |
+r4 r fa4^\markup \character Merops |
 do' do' la |
 sib sib sol |
 la la re' |
@@ -45,7 +45,7 @@ mib mib do |
 sol2 la4 |
 sib4. la8 sol4 |
 fa do' do |
-fa fa fa |
+fa fa^"tous" fa |
 sib2 sib4 |
 sol sol sol |
 do'2 do'4 |
@@ -59,7 +59,7 @@ do' do' sib |
 la2 la4 |
 sib4. la8 sol4 |
 fa do4. do8 |
-fa4 r2 |
+fa4 r4 r |
 R2.*6 |
 mib4 mib do |
 sol2 la4 |
