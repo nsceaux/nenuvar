@@ -1,4 +1,5 @@
 \act "Acte Cinquiesme"
+%{ n°1 %}
 \sceneDescription \markup \wordwrap-center {
   Le Theatre change, & represente une Campagne "agreable ;"
   la nuit se dissipe insensiblement, & cede au jour qui commence
@@ -9,7 +10,6 @@
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Clymène, & un des deux Rois tributaires de Merops.
 }
-%{ n°1 %}
 \pieceToc\markup\wordwrap { Clymène, un des deux Rois tributaires de Merops :
   \italic { Assemblez-vous, Habitans de ces lieux } }
 \includeScore "FAAclymene"
@@ -18,43 +18,45 @@
   la gloire de son Fils, les Peuples d'Egypte qui entendent
   sa voix, s'empressent de la suivre.
 }
+
+%{ n°2 %}
 \scene "Scene II" "SCENE 2 :  Epaphus, Clymene"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Épaphus, troupe de peuples qui suivent Clymène.
 }
-%{ n°2 %}
 \pieceToc \markup { Épaphus : \italic { Dieu qui vous déclarez mon père } }
 \includeScore "FBAepaphus"
 
+%{ n°3 %}
 \scene "Scene III" "SCENE 3 : Epaphus, Libye"
 \sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Libye. }
-%{ n°3 %}
 \pieceToc \markup { Libye, Épaphus : \italic { O rigoureux martyre ! } }
 \includeScore "FCAlibyeEpaphus"
 
-\scene "Scene IV"
+%{ n°4 %}
+\scene "Scene IV" "SCENE 4 : Merops, Clymene, chœurs"
 \sceneDescription \markup \center-column {
   \wordwrap-center {
-    \smallCaps { Merops, Clymène, }
-    les deux rois tributaires de Mérops, troupes de divers peuples,
-    troupes de pasteurs égyptiens et de bergères égyptiennes.
+    \smallCaps { Merops, Clymene, }
+    les deux Rois tributaires de Merops :
+    troupes de divers Peuples :
+    troupes de Pasteurs Egyptiens, & de Bergeres Egyptiennes.
   }
-  \wordwrap-center {
-    Merops et Clymène invitent leur suite à se réjouir
-    de la gloire du héros qui doit être un jour roi d'Égypte.
-    Les pasteurs égyptiens et les bergères égyptiennes dansent,
-    et les autres peuples chantent.
+  \justify {
+    Merops & Clymene invitent leur Suite à se réjoüir
+    de la gloire du Heros qui doit être un jour Roi d'Egypte.
+    Les Pasteurs Egyptiens, & les Bergeres Egyptiennes dansent,
+    & les autres Peuples chantent.
   }
 }
-%{ n° %}
 \pieceToc \markup { Clymène, Merops, chœur :
   \italic { Que l'on chante, que tout réponde } }
 \includeScore "FDAchoeur"
+%{ n° %}
 \sceneDescription \markup \wordwrap-center {
   Les pasteurs égyptiens et les bergères égyptiennes témoignent
   leur joie en dansant, et une de ces bergères chante.
 }
-%{ n° %}
 \pieceTocTitle "Bourrée pour les Égyptiens"
 \includeScore "FDBbourree"
 %{ n° %}
@@ -64,13 +66,13 @@
 }
 \includeScore "FDCair"
 
+%{ n° %}
 \scene "Scene V"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Théone, Merops, Clymène, }
   les deux rois tributaires de Mérops, troupes de divers peuples,
   troupes de pasteurs égyptiens et de bergères égyptiennes.
 }
-%{ n° %}
 \pieceToc \markup { Théone, Clymène :
   \italic { Changez ces doux concerts en des plaintes funèbres } }
 \includeScore "FEAtheoneClymene"
@@ -79,16 +81,17 @@
   \italic { Dieux ! quel feu vient partout s'étendre ! } }
 \includeScore "FEBchoeur"
 
+%{ n° %}
 \scene "Scene VI"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { La Déesse de la Terre, Théone, Merops, Clymène, }
   les deux rois tributaires de Mérops, troupes de divers peuples,
   troupes de pasteurs égyptiens et de bergères égyptiennes.
 }
-%{ n° %}
 \pieceToc \markup { Déesse de la Terre }
 \includeScore "FFAdeesse"
 
+%{ n° %}
 \scene "Scene VII"
 \sceneDescription \markup \center-column {
   \wordwrap-center {
@@ -101,17 +104,17 @@
     peut plus conduire.
   }
 }
-%{ n° %}
 \pieceToc \markup { Chœur : \italic { Ô dieu qui lance le tonnerre } }
 \includeScore "FGAchoeur"
 
+%{ n° %}
 \scene "Scene VIII"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Jupiter, Phaéton, Merops, Clymène, Libye, Théone, }
   les deux rois tributaires de Mérops, troupes de divers peuples,
   troupes de pasteurs égyptiens et de bergères égyptiennes.
 }
-%{ n° %}
-\pieceToc \markup { Jupiter, chœur : \italic { Au bien de l'univers ta perte est nécessaire } }
+\pieceToc \markup { Jupiter, chœur :
+  \italic { Au bien de l'univers ta perte est nécessaire } }
 \includeScore "FHAjupiterChoeur"
 \actEnd \markup { FIN DU CINQUIÈME ET DERNIER ACTE }

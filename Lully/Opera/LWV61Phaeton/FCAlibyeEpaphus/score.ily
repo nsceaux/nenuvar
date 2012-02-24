@@ -1,20 +1,31 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus2" \includeNotes "dessus" >>
-      \newHaraKiriStaff << \global \clef "haute-contre2" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff << \global \clef "taille2" \includeNotes "taille" >>
-      \newHaraKiriStaff << \global \clef "quinte" \includeNotes "quinte" >>
+    \modVersion\new StaffGroupNoBracket <<
+      \new Staff \with { \haraKiri } <<
+        { s1*2 s1. s1*4 s1. s1*2 s1.*3 s1 s2.*3 s1 s1. s1 s1. s1*3\break }
+        \global \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "taille" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "quinte" >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "libye2"
-    >> \includeLyrics "paroles-libye2"
     \new Staff \withLyrics <<
-      \global \includeNotes "libye-epaphus"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+      \global \keepWithTag #'libye \includeNotes "voix"
+    >> \keepWithTag #'libye \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \global \keepWithTag #'epaphus \includeNotes "voix"
+    >> \keepWithTag #'epaphus \includeLyrics "paroles"
+    \origVersion <<
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "taille" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "quinte" >>
+    >>
+    \new Staff <<
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \includeFigures "chiffres"
+    >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }
