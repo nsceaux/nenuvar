@@ -98,7 +98,7 @@
 \includeScore "FFAdeesse"
 
 %{ n°11 %}
-\scene "Scene VII" "SCENE 7 : "
+\scene "Scene VII" "SCENE 7 : chœur"
 \sceneDescription \markup \center-column {
   \wordwrap-center {
     \smallCaps { Phaeton, Merops, Clymene, Libye, Théone, }
@@ -114,14 +114,15 @@
 \pieceToc \markup { Chœur : \italic { O Dieu qui lancez le Tonnerre } }
 \includeScore "FGAchoeur"
 
-%{ n° %}
-\scene "Scene VIII"
+%{ n°12 %}
+\scene "Scene Derniere" "SCENE 8 : Jupiter, Climene, Theone, Merops, chœur"
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps { Jupiter, Phaéton, Merops, Clymène, Libye, Théone, }
-  les deux rois tributaires de Mérops, troupes de divers peuples,
-  troupes de pasteurs égyptiens et de bergères égyptiennes.
+  \smallCaps { Jupiter, Phaeton, Merops, Clymene, Libye, Theone, }
+  les deux Rois tributaires de "Merops :"
+  troupes de divers "Peuples :"
+  troupes de Pasteurs Egyptiens, & de Bergeres Egyptiennes.
 }
 \pieceToc \markup { Jupiter, chœur :
-  \italic { Au bien de l'univers ta perte est nécessaire } }
+  \italic { Au bien de l'Univers ta perte est necessaire } }
 \includeScore "FHAjupiterChoeur"
 \actEnd \markup { FIN DU CINQUIÈME ET DERNIER ACTE }

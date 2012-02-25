@@ -1,5 +1,5 @@
-R4.*5 |
-r4 la8 |
+\clef "vtaille" R4.*5 |
+r8 r la8 |
 la la la |
 si si si |
 si4 si8 |
@@ -8,7 +8,7 @@ si si si |
 la la la |
 la4 sold8 |
 la4 la8 |
-r4 dod'8 |
+r8 r dod'8 |
 si mi' mi' |
 re' re' re' |
 re'4 re'8 |

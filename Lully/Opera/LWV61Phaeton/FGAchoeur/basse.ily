@@ -1,4 +1,4 @@
-re4 re16 mi |
+\clef "basse" re4 re16 mi |
 fad8 fad16 mi re8 |
 sol mi4 |
 la la16 sol |
@@ -6,17 +6,23 @@ fad sol la8 la, |
 re4 re8 |
 la la la |
 mi4 mi8 |
-si4. |
-r8 si si |
+<<
+  \tag #'basse { si4. | r8 }
+  \tag #'basse-continue { si4.~ | si8 }
+>> si8 si |
 sold sold sold |
 la la re |
 mi4 mi8 |
-la,4. |
-r4 la8 |
+<<
+  \tag #'basse { la,4. | r8 r }
+  \tag #'basse-continue { la,4.~ | la,4 }
+>> la8 |
 mi mi mi |
 si si sol |
-re'4. |
-r8 re mi |
+<<
+  \tag #'basse { re'4. | r8 }
+  \tag #'basse-continue { re'4.~ | re'8 }
+>> re8 mi |
 fad fad fad |
 sol sol sol |
 la4 la8 |

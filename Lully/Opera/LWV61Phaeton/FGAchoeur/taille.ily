@@ -1,4 +1,4 @@
-fad'8 fad'16 mi' re'8 |
+\clef "taille" fad'8 fad'16 mi' re'8 |
 re'4 re'8 |
 re' mi'4 |
 mi'8 dod' dod' |
@@ -10,12 +10,12 @@ si'4. |
 r8 re' re' |
 mi' mi' mi' |
 mi' mi' fad' |
-mi'4 mi'8 |
+mi'4\tr mi'8 |
 mi'4. |
-r4 mi'8 |
+r8 r mi'8 |
 mi' mi' mi' |
 fad' fad' si' |
-la'4. |
+la'4.\tr |
 r8 la' sol' |
 fad' fad' la' |
 re' re' mi' |
@@ -34,7 +34,7 @@ sol'4 la'8 |
 la'4. la'8 la' la' la' la' |
 sol'4. sol'8 fad' fad' fad' sol' |
 fad' fad'16 mi' red'4 mi'4. mi'8 |
-fad'4 red'8 mi'16 fad' sol'8 mi' red'8. mi'16 |
+fad'4 red'8 mi'16 fad' sol'8 mi' red'!8. mi'16 |
 mi'4. mi'8 mi' mi' dod' dod' |
 re'4. sol'8 la' la' la' sol' |
 la'4 la'8. la'16 si'8 sol' sol'4 |

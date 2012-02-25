@@ -1,5 +1,5 @@
-R4.*5 |
-r4 re'8 |
+\clef "vhaute-contre" R4.*5 |
+r8 r re'8 |
 dod' dod' red' |
 mi' mi' mi' |
 re'4 re'8 |
@@ -8,7 +8,7 @@ mi' mi' mi' |
 mi' mi' fad' |
 mi'4 mi'8 |
 mi'4 mi'8 |
-r4 la'8 |
+r8 r la'8 |
 sol' sol' sol' |
 fad' fad' si' |
 la'4 la'8 |
@@ -39,4 +39,4 @@ sold'2 r |
 r r4 r8 sold' |
 mi'4. mi'8 la' la' la' la' |
 si'4. si'8 la' la' la'8. la'16 |
-fad'1 |
+fad'1\tr |

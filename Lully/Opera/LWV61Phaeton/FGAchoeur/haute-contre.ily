@@ -1,4 +1,4 @@
-la'4 la'8 |
+\clef "haute-contre" la'4 la'8 |
 la' la' la' |
 sol' sol'16 la' si'8 |
 la' la'16 si' dod''8 |
@@ -12,7 +12,7 @@ si' si' si' |
 la' la' la' |
 la'4 sold'8 |
 la'4. |
-r4 la'8 |
+r8 r la'8 |
 sol' sol' sol' |
 fad' re'' re'' |
 re''4. |
@@ -45,4 +45,4 @@ sold' sold'16 la' si' la' si' sold' la' sold' la' si' do''8 si'16 la' |
 sold'4. si'8 do''8. re''16 si'8 mi'' |
 dod''4. dod''8 dod'' dod'' dod'' dod'' |
 si'4. si'8 la' la' la'8. la'16 |
-fad'1 |
+fad'1\tr |
