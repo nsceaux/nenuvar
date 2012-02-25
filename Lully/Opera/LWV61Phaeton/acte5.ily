@@ -86,7 +86,7 @@
 \includeScore "FEBchoeur"
 
 %{ n°10 %}
-\scene "Scene VI" "SCENE 6 : "
+\scene "Scene VI" "SCENE 6 : La Déesse de la Terre"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { La Déesse de la Terre, Theone, Merops, Clymene, }
   les deux Rois tributaires de "Merops :"

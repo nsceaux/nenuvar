@@ -1,10 +1,10 @@
-sol'2. ~ sol'2 sol'4 |
+\clef "vhaute-contre" sol'2.~ sol'2 sol'4 |
 la' la' la' fa'2 sol'4 |
-la'2 la'4 r2. |
-fa' ~ fa'2 fa'4 |
+la'2 la'4 r2*3/2 |
+fa'2.~ fa'2 fa'4 |
 sib' sib' sib' la'2 la'4 |
 la'2 la'4 sol'2. |
-sol' ~ sol'2 mi'4 |
+sol'~ sol'2 mi'4 |
 la' la' la' fa'2 sib'4 |
 la'2 la'4 sib'2. |
 sib'2 sol'4 sol' sol' sol' |
@@ -21,6 +21,6 @@ r8 fa' fa' mib' re' re' fa' fa' |
 fa' fa' fa' mi' fa' la' la' la' |
 sol'4 r r2 |
 R1 |
-r8 la' la' la' la' sib' sol'8. fa'16 |
+r8 la' la' la' la' sib' sol'8.\tr fa'16 |
 fa'1 |
 \stopStaff

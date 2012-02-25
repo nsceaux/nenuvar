@@ -1,10 +1,10 @@
-do'2. ~ do'2 mi'4 |
+\clef "quinte" do'2.~ do'2 mi'4 |
 fa' do' do' sib2 sib4 |
-la2. r |
-sib ~ sib2 re'4 |
-re' re' mi' mi'2 mi'4 |
+la2. r2*3/2 |
+sib2.~ sib2 re'4 |
+re' re' mi' mi'2\tr mi'4 |
 fa'2 fa'4 sol'2. |
-mi' ~ mi'2 do'4 |
+mi'~ mi'2 do'4 |
 do' do' do' re'2 re'4 |
 re'2 re'4 re'2. |
 mib'2 mib'4 mib'2 mib'4 |
@@ -23,3 +23,4 @@ do'2 do'4 do'8 do' |
 re'4 re'8 re' mi' fa' sol' do' |
 do' do' do' do' re' re' do'8. do'16 |
 do'1 |
+\stopStaff

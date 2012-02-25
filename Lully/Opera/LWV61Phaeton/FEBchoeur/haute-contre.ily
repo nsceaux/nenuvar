@@ -1,10 +1,10 @@
-do''2. ~ do''2 sol'4 |
+\clef "haute-contre" do''2.~ do''2 sol'4 |
 la' la' la' fa'2 sib'4 |
-do''2. r |
-sib' ~ sib'2 sib'4 |
+do''2. r2*3/2 |
+sib'2.~ sib'2 sib'4 |
 sib' sib' sib' la'2 la'4 |
 la'2 la'4 sol'2. |
-sol' ~ sol'2 sol'4 |
+sol'~ sol'2 sol'4 |
 la' la' la' fa'2 sib'4 |
 la'2 la'4 sib'2. |
 sib'2 sib'4 do'' sol' sol' |
@@ -22,4 +22,5 @@ la' fa' fa' mi' fa' la' la' la' |
 sol'2 sol'8 sol' la'4 |
 la'8 sib'16 do'' re''8 re'' do''4 do''8. do''16 |
 do''8 la' la' la' la' sib' sol' do'' |
-la'1 |
+la'1\tr |
+\stopStaff

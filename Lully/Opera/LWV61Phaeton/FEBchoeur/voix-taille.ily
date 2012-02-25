@@ -1,10 +1,10 @@
-do'2. ~ do'2 mi'4 |
+\clef "vtaille" do'2.~ do'2 mi'4 |
 fa' fa' do' sib2 sib4 |
-do'2 do'4 r2. |
-sib ~ sib2 re'4 |
+do'2 do'4 r2*3/2 |
+sib2.~ sib2 re'4 |
 re' re' sol' mi'2 mi'4 |
 fa'2 fa'4 re'2. |
-do' ~ do'2 do'4 |
+do'~ do'2 do'4 |
 do' do' do' re'2 re'4 |
 re'2 re'4 re'2. |
 mib'2 mib'4 mib' mib' mib' |

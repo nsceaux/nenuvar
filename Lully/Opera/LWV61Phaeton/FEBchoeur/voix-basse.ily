@@ -1,10 +1,10 @@
-do'2. ~ do'2 do'4 |
+\clef "vbasse" do'2.~ do'2 do'4 |
 la la la sib2 sib4 |
-fa2 fa4 r2. |
-sib ~ sib2 sib4 |
+fa2 fa4 r2*3/2 |
+sib2.~ sib2 sib4 |
 sol sol sol la2 la4 |
 re2 re4 sol2. |
-do' ~ do'2 do'4 |
+do'~ do'2 do'4 |
 la la la sib2 sol4 |
 re'2 re'4 sib2. |
 mib'2 mib'4 do' do' do' |
