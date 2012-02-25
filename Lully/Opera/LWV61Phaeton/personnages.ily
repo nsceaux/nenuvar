@@ -1,14 +1,46 @@
-\markup { A FAIRE : ambitus des voix }
-\markuplist {
-  \with-line-width-ratio #0.6
+\tocItem "PERSONNAGES"
+\markuplist\override-lines #'(character-width-ratio . 1/4) {
   \override-lines #'(baseline-skip . 3.5) {
     \vspace #3
     \scene \line { ACTEURS DU PROLOGUE }
     \vspace #1
-    \wordwrap-lines { \smallCaps Astrée, déesse, fille de Jupiter et de Thémis }
-    \wordwrap-lines { Troupe de compagnes d'Astrée }
-    \wordwrap-lines { \smallCaps Saturne, dieu qui régnait durant l'âge d'or }
-    \wordwrap-lines { Troupe de suivants de Saturne }
+    \character-two-columns \column {
+      \character-ambitus\wordwrap-center {
+        \smallCaps Astrée, Déesse, Fille de Jupiter & de Thémis
+      } \score {
+        \characterAmbitus "soprano" "treble" fad' sol''
+        \layout { \characterLayout }
+      }
+      \vspace #0.1
+      \character-ambitus\wordwrap-center {
+        Troupe de Compagnes d'Astrée
+      } \score {
+        <<
+          \characterAmbitus "treble"  "treble" sol' sol''
+          \characterAmbitus "soprano" "treble" fad' mi''
+          \characterAmbitus "alto"    "G_8"    sol la'
+        >>
+        \layout { \characterLayout }
+      }
+    } \column {
+      \character-ambitus\wordwrap-center {
+        \smallCaps Saturne, Dieu qui regnoit durant l'Age d'or
+      } \score {
+        \characterAmbitus "bass" "bass" sol, mi'
+        \layout { \characterLayout }
+      }
+      \character-ambitus\wordwrap-center {
+        Troupe de suivans de Saturne
+      } \score {
+        <<
+          \characterAmbitus "treble" "treble" sol' sol''
+          \characterAmbitus "alto"   "G_8"    re'  do''
+          \characterAmbitus "tenor"  "G_8"    sol  sol'
+          \characterAmbitus "bass"   "bass"   sol, mi'
+        >>
+        \layout { \characterLayout }
+      }
+    }
     \vspace #3
     \scene \line { ACTEURS DE LA TRAGÉDIE }
     \vspace #1
