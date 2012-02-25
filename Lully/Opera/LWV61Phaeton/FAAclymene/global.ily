@@ -25,6 +25,6 @@
     s2.*9%\break
     s2.*2\break
     s2.*9\break
-    s2.*5 s1 s4 \bar "" \pageBreak
+    s2.*5 s1 s4 \bar "" \break
   }
 >>

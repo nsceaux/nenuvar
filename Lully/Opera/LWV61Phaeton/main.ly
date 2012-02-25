@@ -37,4 +37,4 @@
 \include "Lully/Opera/LWV61Phaeton/acte2.ily"
 \include "Lully/Opera/LWV61Phaeton/acte3.ily"
 \include "Lully/Opera/LWV61Phaeton/acte4.ily"
-%\include "Lully/Opera/LWV61Phaeton/acte5.ily"
+\include "Lully/Opera/LWV61Phaeton/acte5.ily"

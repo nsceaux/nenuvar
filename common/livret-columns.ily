@@ -90,7 +90,7 @@
 
 #(define-markup-command (livretDescPage layout props text) (markup?)
    #:properties ((line-width)
-                 (gap 10)
+                 (gap 12)
                  (word-space 0))
    (interpret-markup
     layout props

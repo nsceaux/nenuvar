@@ -90,6 +90,7 @@
       \new Staff <<
         \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
+        { s1 s2. s1 s2.*2 s1 s2.*2 s2 \bar "" \break }
       >>
     >>
   >>

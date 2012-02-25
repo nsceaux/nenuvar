@@ -18,19 +18,19 @@
   la gloire de son Fils, les Peuples d'Egypte qui entendent
   sa voix, s'empressent de la suivre.
 }
-
+\origVersion\pageBreak
 %{ n°2 %}
 \scene "Scene II" "SCENE 2 :  Epaphus, Clymene"
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps Épaphus, troupe de peuples qui suivent Clymène.
+  \smallCaps Epaphus, troupe de peuples qui suivent Clymène.
 }
-\pieceToc \markup { Épaphus : \italic { Dieu qui vous déclarez mon père } }
+\pieceToc \markup { Epaphus : \italic { Dieu qui vous déclarez mon père } }
 \includeScore "FBAepaphus"
 
 %{ n°3 %}
 \scene "Scene III" "SCENE 3 : Epaphus, Libye"
-\sceneDescription \markup \wordwrap-center \smallCaps { Épaphus, Libye. }
-\pieceToc \markup { Libye, Épaphus : \italic { O rigoureux martyre ! } }
+\sceneDescription \markup \wordwrap-center \smallCaps { Epaphus, Libye. }
+\pieceToc \markup { Libye, Epaphus : \italic { O rigoureux martyre ! } }
 \includeScore "FCAlibyeEpaphus"
 
 %{ n°4 %}
@@ -49,35 +49,35 @@
     & les autres Peuples chantent.
   }
 }
-\pieceToc \markup { Clymène, Merops, chœur :
+\pieceToc \markup\wordwrap { Clymène, Merops, chœur :
   \italic { Que l'on chante, que tout réponde } }
 \includeScore "FDAchoeur"
 %{ n°5 %}
-\sceneDescription \markup \wordwrap-center {
+\sceneDescription\markup\justify {
   Les Pasteurs Egyptiens, & les Bergeres Egyptiennes
-  témoignent leur joie en dansant, a une de ces Bergeres
+  témoignent leur joie en dansant, & une de ces Bergeres
   chante.
 }
-\pieceTocTitle "Bourrée pour les Egyptiens. Premier Air"
+\pieceTocTitle "Bourée pour les Egyptiens. Premier Air"
 \includeScore "FDBbourree"
 %{ n°6 %}
 \pieceTocTitle "Second Air"
 \includeScore "FDCair"
 %{ n°7 %}
-\pieceToc \markup { Une Bergere Egyptienne :
+\pieceToc\markup\wordwrap { Une Bergere Egyptienne :
   \italic { Ce beau jour ne permet qu'à l'Aurore }
 }
 \includeScore "FDDbergere"
 
 %{ n°8 %}
 \scene "Scene V" "SCENE 5 : Theone, Clymene, chœur"
-\sceneDescription \markup \wordwrap-center {
+\sceneDescription\markup\wordwrap-center {
   \smallCaps { Theone, Merops, Clymene, }
   les deux Rois tributaires de Merops.
   Troupes de divers Peuples.
   Troupes de Pasteurs Egyptiens, & de Bergeres Egyptiennes.
 }
-\pieceToc \markup { Théone, Clymène :
+\pieceToc\markup\wordwrap { Théone, Clymène :
   \italic { Changez ces doux Concerts en des plaintes funebres } }
 \includeScore "FEAtheoneClymene"
 %{ n°9 %}
@@ -122,7 +122,7 @@
   troupes de divers "Peuples :"
   troupes de Pasteurs Egyptiens, & de Bergeres Egyptiennes.
 }
-\pieceToc \markup { Jupiter, chœur :
+\pieceToc\markup\wordwrap { Jupiter, chœur :
   \italic { Au bien de l'Univers ta perte est necessaire } }
 \includeScore "FHAjupiterChoeur"
 \actEnd \markup { FIN DU CINQUIÉME ET DERNIER ACTE }

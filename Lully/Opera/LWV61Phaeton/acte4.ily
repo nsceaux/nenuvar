@@ -17,7 +17,7 @@
 \includeScore "EABautomne"
 
 %{ n°3 %}
-\pieceTocCond #(not (eqv? #t (ly:get-option 'urtext))) \markup\wordwrap {
+\pieceToc\markup\wordwrap {
   Chœur des Heures et des Saisons : \italic { Sans le Dieu qui nous esclaire }
 }
 \includeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "EACchoeur"

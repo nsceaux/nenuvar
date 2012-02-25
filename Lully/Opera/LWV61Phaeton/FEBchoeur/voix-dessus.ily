@@ -1,4 +1,4 @@
-\clef "vdessus" mi''2.~ mi''2 sol''4 |
+\clef "vdessus" mi''2.^\markup\character Chœur ~ mi''2 sol''4 |
 do'' do'' fa'' re''2\tr mi''4 |
 fa''2 fa''4 r2*3/2 |
 re''2.~ re''2 re''4 |
