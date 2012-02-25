@@ -1,4 +1,4 @@
-re1 ~|
+\clef "basse" re1 ~|
 re2. ~|
 re |
 la,2 sol,4 |
@@ -10,7 +10,7 @@ si2 sol |
 la re |
 mi4 do2 |
 re4 mi mi, |
-la,2 ~ la,8 sib, la, sol, |
+la,2^\markup\italic Viste ~ la,8 sib, la, sol, |
 fa,1 |
 fa2 fad4 |
 sol ~ sol8. fa16 mi4. re8 |

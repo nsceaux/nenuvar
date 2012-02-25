@@ -97,20 +97,21 @@
   \italic { C'est vostre secours que j'implore } }
 \includeScore "FFAdeesse"
 
-%{ n° %}
-\scene "Scene VII"
+%{ n°11 %}
+\scene "Scene VII" "SCENE 7 : "
 \sceneDescription \markup \center-column {
   \wordwrap-center {
-    \smallCaps { Phaéton, Merops, Clymène, Libye, Théone, }
-    les deux rois tributaires de Mérops, troupes de divers peuples,
-    troupes de pasteurs égyptiens et de bergères égyptiennes.
+    \smallCaps { Phaeton, Merops, Clymene, Libye, Théone, }
+    les deux Rois tributaires de "Merops :"
+    troupes de divers "Peuples :"
+    troupes de Pasteurs Egyptiens, & de Bergeres Egyptiennes.
   }
-  \wordwrap-center {
-    Phaéton paraît en désordre sur le char du Soleil, qu'il ne
-    peut plus conduire.
+  \justify {
+    Phaëton paroît en desordre sur le Char du Soleil,
+    qu'il ne peut plus conduire.
   }
 }
-\pieceToc \markup { Chœur : \italic { Ô dieu qui lance le tonnerre } }
+\pieceToc \markup { Chœur : \italic { O Dieu qui lancez le Tonnerre } }
 \includeScore "FGAchoeur"
 
 %{ n° %}
