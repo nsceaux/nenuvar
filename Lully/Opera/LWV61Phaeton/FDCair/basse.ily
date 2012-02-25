@@ -1,4 +1,4 @@
-fa8 do4 |
+\clef "basse" fa8 do4 |
 fa4. sol8 fa4 mi4. fa8 re4 |
 do2 do'4 la4. sol8 fa4 |
 sib4. do'8 sib4 la4. sib8 sol4 |

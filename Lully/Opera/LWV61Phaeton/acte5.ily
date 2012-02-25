@@ -60,14 +60,16 @@
 }
 \pieceTocTitle "Bourrée pour les Egyptiens. Premier Air"
 \includeScore "FDBbourree"
-%{ n° %}
-\pieceTocAndTitle \markup { SECOND AIR } \markup {
-  Deuxième air, une bergère égyptienne :
-  \italic { Ce beau jour ne permet qu'à l'aurore }
-}
+%{ n°6 %}
+\pieceTocTitle "Second Air"
 \includeScore "FDCair"
+%{ n°7 %}
+\pieceToc \markup { Une Bergere Egyptienne :
+  \italic { Ce beau jour ne permet qu'à l'Aurore }
+}
+\includeScore "FDDbergere"
 
-%{ n° %}
+%{ n°8 %}
 \scene "Scene V"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Théone, Merops, Clymène, }
