@@ -70,28 +70,31 @@
 \includeScore "FDDbergere"
 
 %{ n°8 %}
-\scene "Scene V"
+\scene "Scene V" "SCENE 5 : Theone, Clymene, chœur"
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps { Théone, Merops, Clymène, }
-  les deux rois tributaires de Mérops, troupes de divers peuples,
-  troupes de pasteurs égyptiens et de bergères égyptiennes.
+  \smallCaps { Theone, Merops, Clymene, }
+  les deux Rois tributaires de Merops.
+  Troupes de divers Peuples.
+  Troupes de Pasteurs Egyptiens, & de Bergeres Egyptiennes.
 }
 \pieceToc \markup { Théone, Clymène :
-  \italic { Changez ces doux concerts en des plaintes funèbres } }
+  \italic { Changez ces doux Concerts en des plaintes funebres } }
 \includeScore "FEAtheoneClymene"
-%{ n° %}
+%{ n°9 %}
 \pieceToc \markup { Chœur :
-  \italic { Dieux ! quel feu vient partout s'étendre ! } }
+  \italic { Dieux ! quel feu vient par tout s'estendre ! } }
 \includeScore "FEBchoeur"
 
-%{ n° %}
-\scene "Scene VI"
+%{ n°10 %}
+\scene "Scene VI" "SCENE 6 : "
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps { La Déesse de la Terre, Théone, Merops, Clymène, }
-  les deux rois tributaires de Mérops, troupes de divers peuples,
-  troupes de pasteurs égyptiens et de bergères égyptiennes.
+  \smallCaps { La Déesse de la Terre, Theone, Merops, Clymene, }
+  les deux Rois tributaires de "Merops :"
+  troupes de divers "Peuples :"
+  troupes de Pasteurs Egyptiens, & de Bergeres Egyptiennes.
 }
-\pieceToc \markup { Déesse de la Terre }
+\pieceToc \markup { La Déesse de la Terre :
+  \italic { C'est vostre secours que j'implore } }
 \includeScore "FFAdeesse"
 
 %{ n° %}
