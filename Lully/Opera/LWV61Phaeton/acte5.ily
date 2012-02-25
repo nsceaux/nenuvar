@@ -125,4 +125,4 @@
 \pieceToc \markup { Jupiter, chœur :
   \italic { Au bien de l'Univers ta perte est necessaire } }
 \includeScore "FHAjupiterChoeur"
-\actEnd \markup { FIN DU CINQUIÈME ET DERNIER ACTE }
+\actEnd \markup { FIN DU CINQUIÉME ET DERNIER ACTE }

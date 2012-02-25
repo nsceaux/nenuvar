@@ -1,4 +1,4 @@
-R1 R2. R1 R2.*2 R1 R2.*2 |
+\clef "quinte" R1 R2. R1 R2.*2 R1 R2.*2 |
 r2 la4 si8 mi' |
 re'2 re'4 mi'8 mi' |
 mi'2 re'8 re' re' re' |

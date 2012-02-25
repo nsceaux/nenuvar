@@ -1,27 +1,97 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaffB << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaffB << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaffB << \global \clef "quinte" \includeNotes "quinte" >>
-      \newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
+    \origVersion <<
+      %% Choeur
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vdessus \includeNotes "voix"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vhaute-contre \includeNotes "voix"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vtaille \includeNotes "voix"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vbasse \includeNotes "voix"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      %% Jupiter, Theone, Clymene
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'theone \includeNotes "voix"
+      >> \keepWithTag #'theone \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'clymene \includeNotes "voix"
+      >> \keepWithTag #'clymene \includeLyrics "paroles"
+      \new Staff \with { \haraKiri } \withLyrics <<
+        \global \keepWithTag #'jupiter \includeNotes "voix"
+      >> \keepWithTag #'jupiter \includeLyrics "paroles"
+      %% Violons
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "haute-contre"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "taille"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "quinte"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \keepWithTag #'basse \includeNotes "basse"
+      >>
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "voix1"
-    >> \includeLyrics "paroles1"
-    \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "voix2"
-    >> \includeLyrics "paroles1"
-    \newHaraKiriStaffB \withLyrics <<
-      \global \includeNotes "voix3"
-    >> \includeLyrics "paroles3"
-    \new Staff \withLyrics <<
-      \global \includeNotes "voix4"
-    >> \includeLyrics "paroles4"
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  { s1 s2. s1 s2.*2 s1 s2.*2 \break }
-                  \includeFigures "chiffres" >>
+
+    \modVersion <<
+      \new StaffGroupNoBracket <<
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "haute-contre"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "taille"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "quinte"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \keepWithTag #'basse \includeNotes "basse"
+        >>
+      >>
+      \new ChoirStaff <<
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \keepWithTag #'vdessus \includeNotes "voix"
+        >> \keepWithTag #'choeur \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \keepWithTag #'vhaute-contre \includeNotes "voix"
+        >> \keepWithTag #'choeur \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \keepWithTag #'vtaille \includeNotes "voix"
+        >> \keepWithTag #'choeur \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \keepWithTag #'vbasse \includeNotes "voix"
+        >> \keepWithTag #'choeur \includeLyrics "paroles"
+      >>
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'theone \includeNotes "voix"
+      >> \keepWithTag #'theone \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'clymene \includeNotes "voix"
+      >> \keepWithTag #'clymene \includeLyrics "paroles"
+      \new Staff \with { \haraKiri } \withLyrics <<
+        \global \keepWithTag #'jupiter \includeNotes "voix"
+      >> \keepWithTag #'jupiter \includeLyrics "paroles"
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
+    >>
   >>
   \layout { }
   \midi { }
