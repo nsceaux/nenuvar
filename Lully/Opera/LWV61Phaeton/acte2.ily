@@ -5,7 +5,7 @@
   orné & préparé pour une grande ceremonie.
 }
 \scene "Scene I" "SCENE 1 : Clymène, Phaëton"
-\sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaéton. }
+\sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaëton. }
 \pieceToc \markup { Ritournelle }
 \includeScore "CAAritournelle"
 %{ n°2 %}

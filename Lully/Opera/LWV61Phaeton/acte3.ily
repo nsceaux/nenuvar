@@ -15,7 +15,7 @@
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Phaëton, suivans de Phaëton.
 }
-\pieceToc \markup { Phaéton : \italic { Je plains ses malheurs } }
+\pieceToc \markup { Phaëton : \italic { Je plains ses malheurs } }
 \includeScore "DBAphaeton"
 %{ n°3 %}
 \scene "Scene III" "SCENE 3 : Epaphus, Phaëton"
@@ -53,7 +53,7 @@
   \italic { Nous reverons votre puissance } }
 \includeScore "DDCmeropsClymeneChoeur"
 %{ n°7 %}
-\pieceToc \markup { Phaéton, Épaphus, Merops, Clymène :
+\pieceToc \markup { Phaëton, Épaphus, Merops, Clymène :
   \italic { Vous qui servez Isis } }
 \includeScore "DDDphaetonEpaphusMeropsClymene"
 %{ n°8 %}
@@ -77,7 +77,7 @@
 \pieceToc \markup { Clymène : \italic { Vous estes son fils je le jure } }
 \includeScore "DFBclymene"
 %{ n°11 %}
-\pieceToc \markup\wordwrap { Clymène, Phaéton :
+\pieceToc \markup\wordwrap { Clymène, Phaëton :
   \italic { Ce Dieu semble aprouver le serment que je fais } }
 \includeScore "DFCclymenePhaeton"
 \actEnd \markup { FIN DU TROISIESME ACTE }

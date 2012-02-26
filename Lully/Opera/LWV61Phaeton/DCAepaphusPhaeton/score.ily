@@ -32,9 +32,6 @@
       \new Staff \withLyrics <<
         \global \keepWithTag #'epaphus \includeNotes "voix"
       >> \keepWithTag #'epaphus \includeLyrics "paroles"
-      \new Staff \withLyrics <<
-        \global \keepWithTag #'basse \includeNotes "voix"
-      >> \keepWithTag #'basse \includeLyrics "paroles"
       \new Staff <<
         { s1_"Basse continue" }
         \global \includeNotes "basse"
