@@ -181,7 +181,7 @@
   \sep
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \livretAct\line { ACTE V }
-  \livretDescAtt\wordwrap-center\italic {
+  \livretDescAtt\justify\italic {
     Le Theatre change, & represente une Campagne "agreable ;"
     la nuit se dissipe insensiblement,
     & cede au jour qui commence à "paroître ;"
