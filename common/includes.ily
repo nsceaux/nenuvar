@@ -274,6 +274,11 @@ piecePartSpecs =
    (define (get-defaults part)
      (let ((part-opus-spec (get-part-opus-spec part)))
        (or (and part-opus-spec (caddr part-opus-spec)) (list))))
+   (define (get-default-clef part)
+     (define* (get-clef-helper #:key (clef #f) #:allow-other-keys)
+       clef)
+     (let ((part-opus-spec (get-part-opus-spec part)))
+       (and part-opus-spec (apply get-clef-helper (caddr part-opus-spec)))))
    
    (define (get-part-piece parts piece-specs)
      (if (null? parts)
@@ -301,7 +306,7 @@ piecePartSpecs =
    (let* ((part-opus-spec (get-part-opus-spec (*part*)))
           (parts (append (list (list (*part*) #f))
                          (get-fallbacks (*part*))
-                         (list (list 'silence #f)))))
+                         (list (list 'silence #f (get-default-clef (*part*)))))))
      (*piece-description* (get-part-piece parts piece-specs)))
    (make-music 'Music 'void #t))
 
