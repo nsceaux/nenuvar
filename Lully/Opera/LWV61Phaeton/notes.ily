@@ -1,50 +1,85 @@
-\markup \column {
-  \line { A FAIRE : NOTES }
-  \line { Documents originaux :}
-  \hspace #1
-  \wordwrap { 
-    \italic Phaëton, tragédie mise en musique par Monsieur de Lully.
-    Christophe Ballard, Paris, 1683.
-    \with-url #"http://www.library.unt.edu/music/special-collections/lully/browse/phaeton-1st-edition-1683"
-    \tiny \typewriter "http://www.library.unt.edu"
+\tocItem "NOTES"
+\markuplist\column-lines {
+  \act NOTES
+
+  \justified-lines {
+    \hspace #4 Cette édition, basée sur la partition imprimée de
+    Christophe Ballard de 1683, est composée de deux volumes.
+    Le premier \orig-version { (celui-ci) }
+    est une version \italic urtext, reproduisant la mise en page de Ballard,
+    et utilisant les mêmes clés, afin de faciliter la comparaison avec la source.
+    Le second \mod-version { (celui-ci) }
+    diffère du premier dans les clés utilisées, qui sont "modernisées ;"
+    le solfège est également modernisé dans l'usage des altérations bécarres
+    et des signes de "reprises ;"
+    pour les pièces instrumentales, la basse chiffrée de l'édition Baussen de 1709
+    a été copiée, l'édition Ballard n'en comportant "pas ;"
+    enfin, les ornementations de l'édition Baussen qui ne figurent pas dans
+    l'édition Ballard ont été ajoutées. On les distingue de la façon "suivante :"
+    les agréments de Ballard sont notés \sans\fontsize #-1 \bold t (comme dans la
+    source), et ceux de Baussen sont notés
+    \concat { \hspace #1 \raise #0.6 \musicglyph #"scripts.stopped" . }
   }
-  \hspace #1
-  \wordwrap { 
-    \italic { Théâtre de Mr Quinault, } T. 5, contenant ses tragédies, comédies et opéras.
-    P. Ribou, Paris, 1715.
-    \with-url #"http://gallica.bnf.fr/ark:/12148/bpt6k73858n"
-    \tiny \typewriter "http://gallica.bnf.fr"
+  \null
+  \justified-lines {
+    \hspace #4 Le livret imprimé référencé ci-dessous est restitué en préambule.
+    Les indications scéniques qu'il contient ont été ajoutées dans la partition.
+  }
+  \null
+  \justified-lines {
+    \hspace #4 Le matériel d'orchestre est constitués des parties séparées suivantes :
+    dessus, hautes-contre, tailles, quintes, basses, basse continue.
+  }
+  \null
+  \justified-lines {
+    \hspace #4 Cette édition est distribuée selon les termes de la licence Creative
+    Commons Attribution 3.0.  Il est donc permis de jouer cette partition,
+    de la distribuer, l'imprimer.  Il est par ailleurs possible de créer
+    des variantes de ce matériel, par exemple pour changer la clé utilisée pour un
+    instrument.  En outre, afin d'améliorer cette édition, il est encouragé de
+    remonter les erreurs qui pourront être décelées, à l'adresse
+    \concat {
+      \with-url #"mailto:nicolas.sceaux@free.fr"
+      \small\typewriter "<nicolas.sceaux@free.fr>" .
+    }
+  }
+  \vspace #1.0
+  \bold Références
+  \column-lines {
+    \vspace #1.0
+    \line { \hspace #2 \bold [Ballard] }
+    \line { \hspace #2 \bold { Source : } University of North Texas, M1500.L95 P52 1683.
+      \with-url #"http://digital.library.unt.edu/ark:/67531/metadc61/"
+      \small \typewriter "<http://digital.library.unt.edu/ark:/67531/metadc61/>"
+    }
+    \line { \hspace #2 \bold { Titre : } Phaëton : tragédie mise en musique }
+    \line { \hspace #2 \bold { Auteur : } Lully, Jean Baptiste, (1632-1687). }
+    \line { \hspace #2 \bold { Editeur : } Ballard, Christophe (Paris) }
+    \line { \hspace #2 \bold { Date d'édition : } 1683 }
+    
+    \vspace #1.0
+    \line { \hspace #2 \bold [Baussen] }
+    \line { \hspace #2 \bold { Source : } Bibliothèque nationale de France,
+      département Musique, VM2-69.
+      \with-url #"http://gallica.bnf.fr/ark:/12148/btv1b8449057r"
+      \small \typewriter "<http://gallica.bnf.fr/ark:/12148/btv1b8449057r>"
+    }
+    \line { \hspace #2 \bold { Titre : } Phaëton, tragédie mise en musique... Seconde édition. }
+    \line { \hspace #2 \bold { Auteur : } Lully, Jean-Baptiste, (1632-1687). }
+    \line { \hspace #2 \bold { Editeur : } H. de Baussen (Paris) }
+    \line { \hspace #2 \bold { Date d'édition : } 1709 }
+    
+    \vspace #1.0
+    \line { \hspace #2 \bold [Livret] }
+    \line { \hspace #2 \bold { Source : } Bibliothèque nationale de France, Yf-2654.
+      \with-url #"http://gallica.bnf.fr/ark:/12148/bpt6k73858n"
+      \small \typewriter "<http://gallica.bnf.fr/ark:/12148/bpt6k73858n>"
+    }
+    \line { \hspace #2 \bold { Titre : }
+      Théâtre de Mr Quinault, T. 5, contenant ses tragédies, comédies et opéras.
+    }
+    \line { \hspace #2 \bold { Auteur : } Quinault, Philippe (1635-1688). }
+    \line { \hspace #2 \bold { Editeur : } P. Ribou (Paris) }
+    \line { \hspace #2 \bold { Date d'édition : } 1715 }
   }
 }
-%{
-bécarres : usage pas constant (ex : acte 1 scène 1, si# et mi bécarre)
-
-
-La version "urtext" est une copie de l'édition Ballard de 1683 (avec la même mise
-en page pour faciliter la comparaison avec la source).  Comme sur les autres
-versions, j'ai ajouté des numéros au début des pièces, pour faciliter les
-références.
-
-La version "concert" diffère de la précédente sur les points suivants :
-
-1) des clés sont modifiées pour utiliser des clés plus usuelles de nos jours
-(notamment usage de ut3 pour toutes les parties intermédiaires de violons, usage
-de sol_8 pour les hautes-contre et tailles chantantes) ;
-
-2) le solfège aussi est modernisé dans l'usage des altérations bécarre ;
-
-3) pour les pièces purement instrumentales, Ballard ne comporte pas de basse
-chiffrée.  J'ai ajouté dans la version "concert" la basse chiffrée qu'on trouve
-sur l'édition Baussen de 1709 (seconde édition de Phaëton, réduite) ;
-
-4) j'ai ajouté également quelques ornementations qui figurent dans Baussen et pas
-dans Ballard.  On les distingue de la façon suivante : les tremblements de Ballard
-sont notés "t" (comme dans la source), et ceux de Baussen sont notés "+".  Les
-liaisons qui sont dans Baussen et pas dans Ballard sont ajoutées en pointillés.
-
-+ reprises "modernes"
-
-La partie séparée de dessus utilise une clé de sol2, mais peut-être vaut-il mieux
-laisser la clé de sol1 ?  (Sur une précédente production, on m'a demandé de fournir
-aux violons des partitions avec clé de sol1.)
-%}
