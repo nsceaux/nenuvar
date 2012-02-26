@@ -16,12 +16,12 @@
 \pieceTocTitle "Troupe d'Astrée dansante"
 \includeScore "AABtroupe"
 %{ n°3 %}
-\pieceToc \markup { Troupe d'Astrée :
+\pieceToc\markup\wordwrap { Troupe d'Astrée :
   \italic { Cherchons la Paix dans cet azile }
 }
 \includeScore "AACtroupe"
 %{ n°4 %}
-\pieceToc \markup { Astrée : \italic { Dans cette paisible Retraite } }
+\pieceToc\markup\wordwrap { Astrée : \italic { Dans cette paisible Retraite } }
 \includeScore "AADastree"
 %{ n°5 %}
 \pieceTocTitle "Troupe d'Astrée dansante"
@@ -31,7 +31,7 @@
   Le Menüet suivant se chante alternativement avec le precedent.
 }
 \markup\vspace #1
-\pieceToc \markup { Troupe d'Astrée :
+\pieceToc\markup\wordwrap { Troupe d'Astrée :
   \italic { Danc ces lieux tout rit sans cesse }
 }
 \includeScore "AAFtroupe"
@@ -44,20 +44,20 @@
 }
 \origVersion\pageBreak
 %{ n°7 %}
-\pieceToc \markup { Saturne, chœur :
+\pieceToc\markup\wordwrap { Saturne, chœur :
   \italic { Que les Mortels se réjoüissent }
 }
 \includeScore "AAGchoeur"
 %{ n°8 %}
-\pieceToc \markup { Saturne :
+\pieceToc\markup\wordwrap { Saturne :
   \italic { Un Heros qui merite une gloire immortelle }
 }
 \includeScore "AAHsaturne"
 %{ n°9 %}
-\pieceToc \markup { Astrée : \italic { Suivons ce Heros } }
+\pieceToc\markup\wordwrap { Astrée : \italic { Suivons ce Heros } }
 \includeScore "AAIastree"
 %{ n°10 %}
-\pieceToc \markup { Chœur : \italic { Jeux innocens, rassemblez-vous } }
+\pieceToc\markup\wordwrap { Chœur : \italic { Jeux innocens, rassemblez-vous } }
 \includeScore "AAJchoeur"
 %{ n°11 %}
 \sceneDescription \markup\italic\line {
@@ -71,10 +71,10 @@
 "Bourée pour les Suivants de Saturne & d'Astrée"
 \includeScore "AALbourree"
 %{ n°13 %}
-\pieceToc \markup { Chœur : \italic { Plaisirs, venez sans crainte } }
+\pieceToc\markup\wordwrap { Chœur : \italic { Plaisirs, venez sans crainte } }
 \includeScore "AAMchoeur"
 %{ n°14 %}
-\pieceToc \markup\wordwrap { Astrée, Saturne, chœur : \italic { On a veu ce Heros terrible dans la Guerre } }
+\pieceToc\markup\wordwrap { Astrée, Saturne, chœur : \italic { On a veu ce Heros terrible dans la Guerre } }
 \includeScore "AANsaturneAstree"
 %{ n°15 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"

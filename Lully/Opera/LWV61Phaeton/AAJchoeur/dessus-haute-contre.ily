@@ -91,7 +91,7 @@
   }
   \tag #'(dessus2 haute-contre-dessus2) {
     \tag #'haute-contre-dessus2 \clef "dessus"
-    si'8^\markup\mod-version "[Hautbois]" do'' si' dod'' |
+    si'8^\markup\mod-version\whiteout "[Hautbois]" do'' si' dod'' |
     re''4 la'8 sol' la' si' |
     do''4 do''8 si' do'' re'' |
     mi'' re'' mi'' fa'' sol'' mi'' |
@@ -140,7 +140,7 @@
   }
   \tag #'(dessus2 haute-contre-dessus2) {
     \tag #'haute-contre-dessus2 \clef "dessus"
-    mi''8^\markup\mod-version "[Hautbois]" fa'' mi'' re'' |
+    mi''8^\markup\mod-version\whiteout "[Hautbois]" fa'' mi'' re'' |
     do'' re'' do'' si' la' sol' |
     fad'2 sol'8 la' |
     si' do'' si' la' sol'8. la'16 |

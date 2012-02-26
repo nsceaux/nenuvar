@@ -15,11 +15,11 @@
     s2.*84 s4
     \override Score.RehearsalMark #'self-alignment-X = #LEFT
     \override Score.RehearsalMark #'font-size = #0
-    \mark "[Trio]" s2 s2.*7 s4
+    \mark "[Petit chœur]" s2 s2.*7 s4
     \mark "[Tous]" s2 s2.*7 s4
-    \mark "[Trio]" s2 s2.*7 s4
+    \mark "[Petit chœur]" s2 s2.*7 s4
     \mark "[Tous]" s2 s2.*7 s4
-    \mark "[Trio]" s2 s2.*7 s4
+    \mark "[Petit chœur]" s2 s2.*7 s4
     \mark "[Tous]"
   }
   \origLayout {

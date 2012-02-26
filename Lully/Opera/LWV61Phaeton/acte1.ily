@@ -16,6 +16,7 @@
   \italic { Je ne vous croyois pas dans un lieu solitaire } }
 \includeScore "BBAtheoneLibye"
 %{ n°3 %}\newBookPart #'(full-rehearsal)
+\whenCondition #(eqv? 'dessus (*part*)) \pageTurn
 \scene "Scene III" "SCENE 3 : Phaëton, Théone"
 \sceneDescription \markup \wordwrap-center \smallCaps { Phaëton, Théone. }
 \pieceToc \markup { Phaëton, Theone :

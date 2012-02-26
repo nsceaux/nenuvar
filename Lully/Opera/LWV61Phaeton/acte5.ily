@@ -24,13 +24,13 @@
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Epaphus, troupe de peuples qui suivent Clymène.
 }
-\pieceToc \markup { Epaphus : \italic { Dieu qui vous déclarez mon père } }
+\pieceToc\markup\wordwrap { Epaphus : \italic { Dieu qui vous déclarez mon père } }
 \includeScore "FBAepaphus"
 
 %{ n°3 %}
 \scene "Scene III" "SCENE 3 : Epaphus, Libye"
 \sceneDescription \markup \wordwrap-center \smallCaps { Epaphus, Libye. }
-\pieceToc \markup { Libye, Epaphus : \italic { O rigoureux martyre ! } }
+\pieceToc\markup\wordwrap { Libye, Epaphus : \italic { O rigoureux martyre ! } }
 \includeScore "FCAlibyeEpaphus"
 
 %{ n°4 %}
@@ -49,7 +49,7 @@
     & les autres Peuples chantent.
   }
 }
-\pieceToc \markup\wordwrap { Clymène, Merops, chœur :
+\pieceToc\markup\wordwrap { Clymène, Merops, chœur :
   \italic { Que l'on chante, que tout réponde } }
 \includeScore "FDAchoeur"
 %{ n°5 %}
@@ -81,7 +81,7 @@
   \italic { Changez ces doux Concerts en des plaintes funebres } }
 \includeScore "FEAtheoneClymene"
 %{ n°9 %}
-\pieceToc \markup { Chœur :
+\pieceToc\markup\wordwrap { Chœur :
   \italic { Dieux ! quel feu vient par tout s'estendre ! } }
 \includeScore "FEBchoeur"
 
@@ -93,7 +93,7 @@
   troupes de divers "Peuples :"
   troupes de Pasteurs Egyptiens, & de Bergeres Egyptiennes.
 }
-\pieceToc \markup { La Déesse de la Terre :
+\pieceToc\markup\wordwrap { La Déesse de la Terre :
   \italic { C'est vostre secours que j'implore } }
 \includeScore "FFAdeesse"
 
@@ -111,7 +111,7 @@
     qu'il ne peut plus conduire.
   }
 }
-\pieceToc \markup { Chœur : \italic { O Dieu qui lancez le Tonnerre } }
+\pieceToc\markup\wordwrap { Chœur : \italic { O Dieu qui lancez le Tonnerre } }
 \includeScore "FGAchoeur"
 
 %{ n°12 %}

@@ -8,18 +8,17 @@
   Suite des quatre Saisons.
 }
 %{ n°1 %}
-\pieceToc \markup\wordwrap { Chœur des Heures et des Saisons :
-  \italic { Sans le dieu qui nous éclaire } }
+\pieceToc\markup\wordwrap { Chœur des Heures et des Saisons :
+  \italic { Sans le Dieu qui nous esclaire } }
 \includeScore "EAAchoeur"
 %{ n°2 %}
-\pieceToc \markup { L'Automne :
+\pieceToc\markup\wordwrap { L'Automne :
   \italic { C'est par vous, ô Soleil ! que le Ciel s'illumine } }
 \includeScore "EABautomne"
 
 %{ n°3 %}
-\pieceToc\markup\wordwrap {
-  Chœur des Heures et des Saisons : \italic { Sans le Dieu qui nous esclaire }
-}
+\pieceToc\markup\wordwrap { Chœur des Heures et des Saisons :
+  \italic { Sans le Dieu qui nous esclaire } }
 \includeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "EACchoeur"
 \markup\orig-version\large\italic\center-column {
   \line {
@@ -52,7 +51,7 @@
 }
 \origVersion\pageBreak
 %{ n°4 %}
-\pieceToc\markup { Le Soleil : \italic { Redoublez la rejoüissance } }
+\pieceToc\markup\wordwrap { Le Soleil : \italic { Redoublez la rejoüissance } }
 \includeScore "EADsoleil"
 
 \sceneDescription\markup\justify {
@@ -78,10 +77,10 @@
   \vspace #1
 }
 \origVersion\pageBreak
-\pieceToc \markup { Chœur : \italic { Dans ce Palais Bravez l'envie } }
+\pieceToc\markup\wordwrap { Chœur : \italic { Dans ce Palais Bravez l'envie } }
 \includeScore "EAGchoeur"
 %{ n°8 %}
-\pieceToc \markup { Chœur : \italic { Dans cette demeure charmante } }
+\pieceToc\markup\wordwrap { Chœur : \italic { Dans cette demeure charmante } }
 \includeScore "EAHchoeur"
 
 \scene "Scene II" "Scene 2 : Le Soleil, Phaëton"
@@ -89,18 +88,18 @@
   \wordwrap-center\smallCaps { Le Soleil, Phaëton. }
 }
 %{ n°9 %}
-\pieceToc \markup\wordwrap { Le Soleil, Phaëton :
+\pieceToc\markup\wordwrap { Le Soleil, Phaëton :
   \italic { Approchez, Phaeton, que rien ne vous étonne } }
 \includeScore "EBAsoleilPhaeton"
 %{ n°10 %}
-\pieceToc \markup { Le Soleil : \italic { C'est toy que j'en atteste } }
+\pieceToc\markup\wordwrap { Le Soleil : \italic { C'est toy que j'en atteste } }
 \includeScore "EBBsoleil"
 %{ n°11 %}
-\pieceToc \markup { Le Soleil, Phaëton :
+\pieceToc\markup\wordwrap { Le Soleil, Phaëton :
   \italic { Tous mes Tresors vous sont ouverts } }
 \includeScore "EBCsoleilPhaeton"
 %{ n°12 %}
-\pieceToc \markup { Chœur : \italic { Allez respandre la Lumiere } }
+\pieceToc\markup\wordwrap { Chœur : \italic { Allez respandre la Lumiere } }
 \includeScore "EBDchoeur"
 %{ n°13 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"

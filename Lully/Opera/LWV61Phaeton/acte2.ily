@@ -6,29 +6,29 @@
 }
 \scene "Scene I" "SCENE 1 : Clymène, Phaëton"
 \sceneDescription \markup \wordwrap-center \smallCaps { Clymène, Phaëton. }
-\pieceToc \markup { Ritournelle }
+\pieceToc\markup { Ritournelle }
 \includeScore "CAAritournelle"
 %{ n°2 %}
-\pieceToc \markup\wordwrap { Clymène, Phaëton :
+\pieceToc\markup\wordwrap { Clymène, Phaëton :
   \italic { Protée en a trop dit, je fremis du danger } }
 \includeScore "CABclymenePhaeton"
 %{ n°3 %}
 \scene "Scene II" "SCENE 2 : Théone"
 \sceneDescription \markup \wordwrap-center { \smallCaps Théone, seule. }
-\pieceToc \markup { Théone :
+\pieceToc\markup\wordwrap { Théone :
   \italic { Il me fuit, l'inconstant ! } }
 \includeScore "CBAtheone"
 %{ n°4 %}
 \scene "Scene III" "SCENE 3 : Libye, Théone"
 \sceneDescription \markup \wordwrap-center \smallCaps { Libye & Théone. }
-\pieceToc \markup\wordwrap { Libye, Théone :
+\pieceToc\markup\wordwrap { Libye, Théone :
   \italic { Que l'incertitude Est un rigoureux tourment ! } }
 \includeScore "CCAlibyeTheone"
 %{ n°5 %}
 \scene "Scene IV" "SCENE 4 : Epaphus, Libye"
-\sceneDescription \markup \wordwrap-center \smallCaps { Epaphus, Libye. }
-\pieceToc \markup { Libye, Epaphus :
-  \italic { Quel malheur ! Dieux ! quelle tristesse ! } }
+\sceneDescription\markup\wordwrap-center\smallCaps { Epaphus, Libye. }
+\pieceToc\markup\wordwrap { Libye, Epaphus :
+  \italic { Quel malheur ! Dieux ! quelle "tristesse !" } }
 \includeScore "CDAepaphusLibye"
 %{ n°6 %}
 \scene "Scene V" "SCENE 5 : Merops, chœur"
@@ -41,7 +41,7 @@
 \pieceTocTitle "Prelude"
 \includeScore "CEAprelude"
 %{ n°7 %}
-\pieceToc \markup { Merops, chœur :
+\pieceToc\markup\wordwrap { Merops, chœur :
   \italic { Que de tous costez on entende } }
 \includeScore "CEBmeropsChoeur"
 %{ n°8 %}
@@ -56,7 +56,7 @@
 \pieceTocAndTitle \markup { PETIT AIR POUR LES MESMES } \markup { Petit air }
 \includeScore "CEDair"
 %{ n°10 %}
-\pieceTocCond #(not (eqv? #t (ly:get-option 'urtext))) \markup {
+\pieceTocCond #(not (eqv? #t (ly:get-option 'urtext))) \markup\wordwrap {
   Chœur : \italic { Que de tous costez on entende }
 }
 \includeScoreCond #(not (eqv? #t (ly:get-option 'urtext))) "CEEchoeur"

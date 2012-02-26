@@ -7,7 +7,7 @@
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Théone, Phaëton, } suivans de Phaëton.
 }
-\pieceToc \markup { Théone, Phaëton :
+\pieceToc\markup\wordwrap { Théone, Phaëton :
   \italic { Ah ! Phaëton, est-il possible } }
 \includeScore "DAAtheonePhaeton"
 %{ n°2 %}
@@ -15,19 +15,19 @@
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Phaëton, suivans de Phaëton.
 }
-\pieceToc \markup { Phaëton : \italic { Je plains ses malheurs } }
+\pieceToc\markup\wordwrap { Phaëton : \italic { Je plains ses malheurs } }
 \includeScore "DBAphaeton"
 %{ n°3 %}
 \scene "Scene III" "SCENE 3 : Epaphus, Phaëton"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Epaphus, Phaëton, } suite de Phaëton.
 }
-\pieceToc \markup { Epaphus, Phaëton :
+\pieceToc\markup\wordwrap { Epaphus, Phaëton :
   \italic { Songez-vous qu'Isis est ma Mere ? } }
 \includeScore "DCAepaphusPhaeton"
 %{ n°4 %}
 \scene "Scene IV" "SCENE 4 : Merops, Clymene, Epaphus, Phaëton"
-\sceneDescription \markup \center-column {
+\sceneDescription\markup\center-column {
   \justify {
     \smallCaps { Phaeton, Epaphus, Merops, Clymene, Libye. }
     Les deux Rois tributaires de Merops. Troupes de peuples
@@ -49,16 +49,16 @@
 \pieceTocTitle "Air pour les mesmes"
 \includeScore "DDBair"
 %{ n°6 %}
-\pieceToc \markup { Merops, Clymène, chœur :
+\pieceToc\markup\wordwrap { Merops, Clymène, chœur :
   \italic { Nous reverons votre puissance } }
 \includeScore "DDCmeropsClymeneChoeur"
 %{ n°7 %}
-\pieceToc \markup { Phaëton, Épaphus, Merops, Clymène :
+\pieceToc\markup\wordwrap { Phaëton, Épaphus, Merops, Clymène :
   \italic { Vous qui servez Isis } }
 \includeScore "DDDphaetonEpaphusMeropsClymene"
 %{ n°8 %}
 \scene "Scene V" "SCENE 5 : Furies"
-\sceneDescription \markup \justify {
+\sceneDescription\markup\justify {
   Les Portes du Temple s'ouvrent, & ce lieu qui avoit paru magnifique,
   n'est plus qu'un gouffre effroiable qui vomit des flames, & d'où
   sortent des Furies & des Fantômes terribles, qui renversent & brisent
@@ -70,14 +70,14 @@
 %{ n°9 %}
 \scene "Scene VI" "SCENE 6 : Clymene, Phaëton"
 \sceneDescription \markup \wordwrap-center \smallCaps { Clymene, Phaëton. }
-\pieceToc \markup { Clymène, Phaëton :
+\pieceToc\markup\wordwrap { Clymène, Phaëton :
   \italic { Le Ciel trouble vostre bonheur } }
 \includeScore "DFAclymenePhaeton"
 %{ n°10 %}
-\pieceToc \markup { Clymène : \italic { Vous estes son fils je le jure } }
+\pieceToc\markup\wordwrap { Clymène : \italic { Vous estes son fils je le jure } }
 \includeScore "DFBclymene"
 %{ n°11 %}
-\pieceToc \markup\wordwrap { Clymène, Phaëton :
+\pieceToc\markup\wordwrap { Clymène, Phaëton :
   \italic { Ce Dieu semble aprouver le serment que je fais } }
 \includeScore "DFCclymenePhaeton"
 \actEnd \markup { FIN DU TROISIESME ACTE }

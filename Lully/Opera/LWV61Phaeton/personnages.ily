@@ -52,53 +52,55 @@
         \characterAmbitus "soprano" "treble" re' sol''
         \layout { \characterLayout }
       }
-      \vspace #0.1
+      \vspace #1
       \character-ambitus\wordwrap-center {
         \smallCaps Theone, Fille de Protée
       } \score {
         \characterAmbitus "soprano" "treble" re' sol''
         \layout { \characterLayout }
       }
-      \vspace #0.1
+      \vspace #1
       \character-ambitus\wordwrap-center {
         \smallCaps Phaeton, Fils du Soleil & de Clymene
       } \score {
         \characterAmbitus "alto" "G_8" sol si'
         \layout { \characterLayout }
       }
-      \vspace #0.1
+      \vspace #1
       \character-ambitus\wordwrap-center {
         \smallCaps Clymene, Fille de l'Ocean & de Thetys
       } \score {
         \characterAmbitus "soprano" "treble" mi' sol''
         \layout { \characterLayout }
       }
-      \vspace #0.1
+      \vspace #1
       \character-ambitus\wordwrap-center {
         \smallCaps Protée, Dieu Marin, Conducteur des Troupeaux de Neptune
       } \score {
         \characterAmbitus "bass" "bass" sol, mi'
         \layout { \characterLayout }
       }
-      \vspace #0.1
+      \vspace #1
       \line { Troupe des Suivans de Protée }
-      \vspace #0.1
+      \vspace #1
       \character-ambitus\wordwrap-center {
         \smallCaps Triton, Dieu Marin, Frere de Clymene
       } \score {
         \characterAmbitus "alto" "G_8" mi sol'
         \layout { \characterLayout }
       }
-      \vspace #0.1
+      \vspace #1
       \line { Troupe des Suivans de Triton }
-      \vspace #0.1
+      \vspace #1
       \character-ambitus\wordwrap-center {
         \smallCaps Epaphus, Fils de Jupiter & de la Déesse Isis
       } \score {
         \characterAmbitus "bass" "bass" sol, fa'
         \layout { \characterLayout }
       }
-    } \column {
+    }
+    %%%
+    \column {
       \character-ambitus\wordwrap-center {
         \smallCaps Merops, Roi d'Egypte, qui a épousé Clymene
         aprés la mort d'une premiere Epouse, dont il a eû Libye
@@ -147,7 +149,9 @@
       }
       \vspace #0.1
       \line { Des Furies, & des Fantômes terribles }
-    } \column {
+    }
+    %%%
+    \column {
       \character-ambitus\wordwrap-center {
         \smallCaps { Le Soleil }
       } \score {
