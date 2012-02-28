@@ -36,7 +36,7 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Page 1-6 : basso continuo
+%% Page 1-3 : basso continuo
 
 \bookpart {
   \header {
@@ -150,17 +150,17 @@
   }
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Pages 7 - 10 : Canto - amor
+%% Pages 4-6 : Canto
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Pages 12-19 : partitura - amor
+%% Pages 7-10 : le tre parti (amor - partitura)
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Pages 20 : tenore primo
+%% Page 11 : tenore secondo
 \bookpart {
   \header {
-    instrument = "[Tenore Primo]"
+    instrument = "[Tenore Secondo]"
   }
   \paper {
     oddHeaderMarkup = \markup\fill-line {
@@ -187,7 +187,7 @@
         s1\bar "" s1\bar "|" s2\bar "" \break
         s2\bar "" s1\bar "" s1\bar "" s1\bar "|." \break
       }
-      \ItenorePrimo \addlyrics \ItenorePrimoText
+      \ItenoreSecondo \addlyrics \ItenoreSecondoText
     >>
     \layout {
       ragged-last = ##t
@@ -204,8 +204,119 @@
         \cadenzaOn
         s1*6 \bar "" \break s1*6 \bar "|."
       }
-      \IIItenorePrimo \addlyrics \IIItenorePrimoText
+      \IIItenoreSecondo \addlyrics \IIItext
     >>
     \layout { }
+  }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Page 12-13 : basso primo
+
+\bookpart {
+  \header {
+    instrument = "[Basso Primo]"
+  }
+  \paper {
+    oddHeaderMarkup = \markup\fill-line {
+      \null
+      \forced-page-string #36
+      \fromproperty #'header:instrument
+    }
+    evenHeaderMarkup = \markup\fill-line {
+      \null
+      \forced-page-string #36
+      \fromproperty #'header:instrument
+    }
+  }
+
+  \markup { A 3. voci }
+  \score {
+    \new Staff <<
+      { \time 4/4
+        s1\bar "" s1\bar "" s2\bar "" \break
+        s2 s1\bar "" s1\bar "" \break
+        s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "" \break
+        s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "|" s2\bar "" \break
+        s2\bar "|" s1\bar "" s2\bar "" \break
+        s2\bar "|" s1\bar "|" s2\bar "" \break
+        s2\bar "|" s1\bar "|" s1\bar "" \break
+        s1\bar "" s1\bar "" s1\bar "|" \break
+      }
+      \IbassoPrimo \addlyrics \IbassoPrimoText
+    >>
+    \layout {
+      ragged-last = ##t
+    }
+  }
+
+  \markup { Amor. Tacet. }
+  \markup \vspace #2
+
+  \markup { A 3. }
+  \score {
+    \new Staff <<
+      { \time 4/4
+        \cadenzaOn
+        s1*2 s2 \bar "" \break
+        s2 s1*6 \bar "" \break
+        s1*3 \bar "|."
+      }
+      \IIIbassoPrimo \addlyrics \IIItext
+    >>
+    \layout { ragged-last = ##t }
+  }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Page 14-15 : tenoro primo
+
+\bookpart {
+  \header {
+    instrument = "[Tenore Primo]"
+  }
+  \paper {
+    oddHeaderMarkup = \markup\fill-line {
+      \null
+      \forced-page-string #44
+      \fromproperty #'header:instrument
+    }
+    evenHeaderMarkup = \markup\fill-line {
+      \null
+      \forced-page-string #44
+      \fromproperty #'header:instrument
+    }
+  }
+
+  \markup { A 3. voci }
+  \score {
+    \new Staff <<
+      { \time 4/4
+        s1\bar "" s1\bar "" s2\bar "" \break
+        s2\bar "" s1\bar "" s1\bar "" s2\bar "" \break
+        s2\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "" \break
+        s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "" s2\bar "" \break
+        s2\bar "|" s1\bar "" s1\bar "" \break
+        s1\bar "|" s1\bar "" s2\bar "" \break
+        s2\bar "|" s1\bar "|" s1\bar "" s1\bar "" s1\bar "" s1\bar "|." \break
+      }
+      \ItenorePrimo \addlyrics \ItenorePrimoText
+    >>
+    \layout { }
+  }
+
+  \markup { Amor. Tacet. }
+  \markup \vspace #2
+
+  \score {
+    \new Staff <<
+      { \time 4/4
+        \cadenzaOn
+        s1*6 \bar "|" s1 \bar "" \break
+        s1*5 \bar "" \bar "|." \break
+      }
+      \IIItenorePrimo \addlyrics \IIItext
+    >>
+    \layout { ragged-last = ##t }
   }
 }

@@ -17,6 +17,14 @@ doubleBreve = {
       (markup #:musicglyph "noteheads.sM3ligmensural")))
 }
 
+longaUp = {
+  \once\override NoteHead #'stencil = 
+  #(lambda (grob)
+     (grob-interpret-markup
+      grob
+      (markup #:musicglyph "noteheads.uM2mensural")))
+}
+
 markBegin =
 #(define-music-function (parser location direction mark) (number? markup?)
    #{ 
@@ -44,6 +52,8 @@ markBegin =
     \override NoteHead #'style = #'petrucci
     \override Accidental #'glyph-name-alist =
     #alteration-mensural-glyph-name-alist
+    %\override Flag #'style = #'mensural
+    %\override Stem #'thickness = #1.0
   }
 }
 
