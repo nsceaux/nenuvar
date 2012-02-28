@@ -1,3 +1,4 @@
+#(ly:set-option 'urtext #t)
 \include "common.ily"
 
 #(define-markup-command (forced-page-string layout props forced-first-page)
@@ -25,6 +26,18 @@
     \override NonMusicalPaperColumn #'line-break-permission = ##f
     %\override NonMusicalPaperColumn #'page-break-permission = ##f
   }
+  \context {
+    \Staff
+    \consists "Custos_engraver"
+    \override Custos #'style = #'mensural
+    \override TimeSignature #'style = #'mensural
+    \override Rest #'style = #'neomensural
+    \override NoteHead #'style = #'petrucci
+    \override Accidental #'glyph-name-alist =
+    #alteration-mensural-glyph-name-alist
+    %\override Flag #'style = #'mensural
+    %\override Stem #'thickness = #1.0
+  }
 }
 
 \paper {
@@ -32,7 +45,7 @@
 }
 
 \markup {
-  titre...
+  titre, notes...
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -115,8 +128,7 @@
       \new Staff << \IIglobal \IItenoreSecondo \addlyrics \IItenoreSecondoText >>
       \new Staff << \IIglobal \IIbassoPrimo \addlyrics \IIbassoPrimoText >>
       \new Staff <<
-        \IIglobal
-        \IIbassoContinuo
+        \IIglobal \IIbassoContinuo
         { \markBegin #UP "Lamento dela Ninfa"
           s\longa.*5\pageBreak
           s\longa.*6\break
@@ -133,7 +145,6 @@
       >>
     >>
     \layout { ragged-last = ##t }
-    \midi { }
   }
 
   \markup\fill-line { \null \line { A 3. Voci. } }
@@ -151,9 +162,154 @@
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Pages 4-6 : Canto
+\bookpart {
+  \header {
+    instrument = "CANTO Primo"
+  }
+  \paper {
+    oddHeaderMarkup = \markup\fill-line {
+      \null
+      \forced-page-string #30
+      \fromproperty #'header:instrument
+    }
+    evenHeaderMarkup = \markup\fill-line {
+      \null
+      \forced-page-string #30
+      \fromproperty #'header:instrument
+    }
+  }
+
+  \markup { A tre voci }
+  \markup { Non havea febo. tacet. }
+
+  \score {
+    <<
+      \new Staff <<
+        \removeWithTag #'full \IIglobal
+        \removeWithTag #'full \IIcanto
+        \addlyrics \IIcantoText
+      >>
+      \new Staff <<
+        \removeWithTag #'full \IIglobal
+        \removeWithTag #'full \IIbassoContinuo
+        { s\longa.*3\break
+          s\longa.*5\break
+          s\longa.*5\break
+          s\longa.*6\pageBreak
+          s\longa.*4 s\breve. \bar "" \break
+          s\breve. s\longa.*3 s\breve. \bar "" \break
+          s\breve. s\longa.*4\break
+          s\longa.*5\pageBreak
+          s\longa.*4 s\breve. \bar "" \break
+          s\breve. s\longa.*4\break
+          s\longa.*4\break
+          s\longa.*5\pageBreak
+          s\longa.*5\break
+          s\longa.*5\break
+          s\longa. s\breve.\break
+        }
+      >>
+    >>
+    \layout { ragged-last = ##t }
+  }
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Pages 7-10 : le tre parti (amor - partitura)
+\bookpart {
+  \header {
+    instrument = "[Tre parti]"
+  }
+  \paper {
+    oddHeaderMarkup = \markup\fill-line {
+      \null
+      \forced-page-string #25
+      \fromproperty #'header:instrument
+    }
+    evenHeaderMarkup = \markup\fill-line {
+      \null
+      \forced-page-string #25
+      \fromproperty #'header:instrument
+    }
+  }
+
+  \markup { A 4 \hspace #5 le tre parti cantino piano }
+  \markup\vspace #2
+  \markup { Nõ havea febo. tacet. }
+
+  \score {
+    <<
+      \new Staff <<
+        { \once\override Staff.Clef #'transparent = ##t
+          \once\override Staff.TimeSignature #'transparent = ##t
+          \time 6/1 R\longa*3/2 R
+          \once\override Staff.Clef #'full-size-change = ##t
+          <<
+            \removeWithTag #'full \IIcanto
+            \removeWithTag #'full \IIglobal
+          >>
+        }
+        \addlyrics \IIcantoText
+      >>
+      \new Staff <<
+        { \once\override Staff.Clef #'transparent = ##t
+          \once\override Staff.TimeSignature #'transparent = ##t
+          \time 6/1 R\longa*3/2 R
+          \once\override Staff.Clef #'full-size-change = ##t
+          <<
+            \removeWithTag #'full \IIglobal
+            \removeWithTag #'full \IItenoreSecondo
+          >>
+        }
+        \addlyrics \IItenoreSecondoText
+      >>
+      \new Staff <<
+        { \once\override Staff.Clef #'transparent = ##t
+          \once\override Staff.TimeSignature #'transparent = ##t
+          \time 6/1 R\longa*3/2 R
+          \once\override Staff.Clef #'full-size-change = ##t
+          <<
+            \removeWithTag #'full \IIglobal
+            \removeWithTag #'full \IItenorePrimo
+          >>
+        }
+        \addlyrics \IItenorePrimoText
+      >>
+      \new Staff <<
+        { \once\override Staff.TimeSignature #'transparent = ##t
+          \time 6/1
+          \clef "petrucci-f4" la\breve. sol fa mi
+          \once\override Staff.Clef #'full-size-change = ##t
+          <<
+            \removeWithTag #'full \IIglobal
+            \removeWithTag #'full \IIbassoPrimo
+          >>
+        \addlyrics \IIbassoPrimoText
+        }
+        { s\longa.*4\break
+          s\longa.*5\pageBreak
+          s\longa.*4\break
+          s\longa.*4\pageBreak
+          s\longa.*5\break
+          s\longa.*4\pageBreak
+          s\longa.*4\break
+          s\longa.*4\pageBreak
+          s\longa.*5\break
+          s\longa.*4 s\breve.\bar "" \pageBreak
+          s\breve. s\longa.*4\break
+          s\longa.*4\pageBreak
+          s\longa.*4\break
+          s\longa.*5\pageBreak
+          s\longa.*5\break
+          s\longa.*2 s\breve.\break
+        }
+        \addlyrics \IIbassoPrimoText
+      >>
+    >>
+    \layout { ragged-last = ##t }
+  }
+  \markup { Si tra sdegnosi. tacet. }
+}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,4 +1,5 @@
 IIglobal = {
+  \staffStart
   \once\override Staff.TimeSignature #'stencil =
   #(lambda (grob)
      (grob-interpret-markup
@@ -6,13 +7,13 @@ IIglobal = {
       (markup #:vcenter #:musicglyph "timesig.mensural34" #:vcenter #:musicglyph "three")))
   \time 6/1
   \set Score.tempoWholesPerMinute = #(ly:make-moment 160 1 0 1)
-  s\longa.*68 s\breve. \bar "|."
+  \tag #'full s\longa.*2
+  s\longa.*66 s\breve. \bar "|."
 }
 
 IIcanto = {
-  \clef "petrucci-c1"
-  R\longa*3/2 |
-  R |
+  \clef "petrucci-c1/treble"
+  \tag #'full { R\longa*3/2 | R | }
   r1 r la' si'\breve. |
   r\breve*3/2 r1 r si' |
   do''\breve. r\breve*3/2 |
@@ -29,18 +30,18 @@ IIcanto = {
   la' la' si' sold'\breve sold'1 |
   sold'\breve la'1 si'\breve. |
   \ligature { do''1( re''\breve) } mi''1 si' si' |
-  si'\breve la'1 si'\breve~ si'1 |
+  si'\breve la'1 si'\breve\melisma si'1\melismaEnd |
   %%
   la'1 la' la' la'\breve sold'1 |
   la'\breve. r\breve*3/2 |
   re''1 re'' re'' re''\breve. |
-  do'' si'1 si' si' |
+  do''\breve r1 si'1 si' si' |
   si'\breve la'1 r\breve*3/2 |
   R\longa*3/2 |
   la'1 la' la'
   %%
   la'\breve sold'1 |
-  \ligature { la'1 mi''\breve. } mi''1 mi'' |
+  \ligature { la'1 mi''\breve } r1 mi''1 mi'' |
   mi'' la' la' sold' sold' sold' |
   \ligature { sold' la'\breve si'1 do''\breve } |
   re'' re''1 sold'\breve. |
@@ -50,7 +51,7 @@ IIcanto = {
   sold' sold' sold' |
   sol'!\breve fad'1 sol' sol' r |
   r la' la' la'\breve sold'1 |
-  la'\breve. r\breve*3/2 |
+  la'\breve r1 r\breve*3/2 |
   R\longa*3/2 |
   \ligature {
     r1 do''\breve~ do''1 si'\breve~ |
@@ -65,7 +66,7 @@ IIcanto = {
   \ligature { la' la'\breve~ } la'\breve. |
   %%
   la'1 la' la' la'\breve sold'1 |
-  la'\breve. r\breve*3/2 |
+  la'\breve r1 r\breve*3/2 |
   r r1 r mi' |
   mi'\breve fa'1 sol'\breve sol'1 |
   la' sol' la' si' r si' |
@@ -73,7 +74,7 @@ IIcanto = {
   re''1 re'' do'' mi''\breve. |
   %
   mi''1 do'' si' si'\breve la'1 |
-  la' la' sold' sold'\breve sold'1 |
+  la' la' sold' sold'!\breve sold'1 |
   sol'!\breve fa'1 sol'\breve la'1 |
   la' la' la' la'\breve sold'1 |
   la'\breve. r\breve*3/2 |
@@ -93,19 +94,18 @@ IIcanto = {
   la' r\breve*3/2 |
   mi''\breve.~ mi'' |
   la'\breve la'1 la'\breve sold'1 |
-  \doubleBreve la'\breve*3/2
+  \urtext\doubleBreve la'\breve*3/2
 }
 
 IItenorePrimo = {
-  \clef "petrucci-c4"
-  R\longa*3/2 |
-  R |
+  \clef "petrucci-c4/G_8"
+  \tag #'full { R\longa*3/2 | R | }
   r\breve*3/2 r1 r sol |
   la\breve. si |
   r\breve*3/2 si1 si si |
   %%
   do'1 do' re' \ligature { do' si\breve } |
-  la\breve. r\breve*3/2 |
+  la\breve r1 r\breve*3/2 |
   R\longa*3/2 R R R |
   r1 la la do'\breve si1 |
   R\longa*3/2 R R R R |
@@ -113,7 +113,7 @@ IItenorePrimo = {
   R R R |
   r\breve*3/2 r1 mi' mi' |
   \ligature { re' fa'\breve~ } fa'1 si si |
-  la\breve. r1 si si |
+  la\breve r1 r1 si si |
   si\breve la1
   %
   si\breve si1 |
@@ -158,14 +158,14 @@ IItenorePrimo = {
 }
 
 IItenoreSecondo = {
-  \clef "petrucci-c4"
-  R\longa*3/2 R |
+  \clef "petrucci-c4/G_8"
+  \tag #'full { R\longa*3/2 R | }
   r\breve*3/2 r1 r si |
   la\breve. sold |
   r\breve*3/2 sol1 sol sol |
   %%
   la la la la\breve sold1 |
-  la\breve. r\breve*3/2 |
+  la\breve r1 r\breve*3/2 |
   R\longa*3/2 R R R |
   %
   r1 la la la\breve sold1 |
@@ -186,7 +186,7 @@ IItenoreSecondo = {
   R\longa*3/2 R |
   r1 do' do' \ligature { si la\breve~ } |
   la\breve.~ la1 la sold |
-  la\breve. r\breve*3/2 |
+  la\breve r1 r\breve*3/2 |
   R\longa*3/2 |
   %
   R |
@@ -217,14 +217,14 @@ IItenoreSecondo = {
 }
 
 IIbassoPrimo = {
-  \clef "petrucci-f4"
-  R\longa*3/2 R |
+  \clef "petrucci-f4/bass"
+  \tag #'full { R\longa*3/2 R | }
   r\breve*3/2 r1 r sol |
   fa\breve. mi |
   r\breve*3/2 sol1 sol sol |
   %%
   fa1 mi re mi\breve mi1 |
-  la,\breve. r\breve*3/2 |
+  la,\breve r1 r\breve*3/2 |
   R\longa*3/2 R R R |
   %
   r1 fa fa mi\breve mi1 |
@@ -247,7 +247,7 @@ IIbassoPrimo = {
   R\longa*3/2 R |
   r1 la la \ligature { sol la\breve~ } |
   la\breve.~ la1 mi mi |
-  la,\breve. r\breve*3/2 |
+  la,\breve r1 r\breve*3/2 |
   R\longa*3/2 |
   %
   R R |
@@ -280,8 +280,9 @@ IIbassoPrimo = {
 }
 
 IIbassoContinuo = {
-  \clef "petrucci-f4"
-  \repeat unfold 34 { la\breve. sol | fa mi | }
+  \clef "petrucci-f4/bass"
+  \tag #'full { la\breve. sol | fa mi | }
+  \repeat unfold 33 { la\breve. sol | fa mi | }
   \doubleBreve la,\breve*3/2
 }
 

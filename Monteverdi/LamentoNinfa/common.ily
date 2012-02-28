@@ -1,13 +1,31 @@
 \include "italiano.ly"
 
-#(ly:set-option 'ancient-alteration #t)
+#(ly:set-option 'ancient-alteration (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'non-incipit (eqv? #t (ly:get-option 'urtext)))
+
+\include "../../common/clef-key.ily"
 \include "../../common/alterations.ily"
+
+urtext =
+#(define-music-function (parser location music) (ly:music?)
+   (if (eqv? #t (ly:get-option 'urtext))
+       music
+       (make-music 'Music 'void #t)))
+
+modified =
+#(define-music-function (parser location music) (ly:music?)
+   (if (eqv? #t (ly:get-option 'urtext))
+       (make-music 'Music 'void #t)
+       music))
 
 ligature =
  #(define-music-function (parser location music) (ly:music?)
-    #{ \override NoteHead #'style = #'blackpetrucci
-       $music
-       \revert NoteHead #'style #})
+    (if (eqv? #t (ly:get-option 'urtext))
+        #{ \override NoteHead #'style = #'blackpetrucci
+           $music
+           \revert NoteHead #'style #}
+        music))
 
 doubleBreve = {
   \once\override NoteHead #'stencil = 
@@ -24,6 +42,8 @@ longaUp = {
       grob
       (markup #:musicglyph "noteheads.uM2mensural")))
 }
+
+sharpMensural = \markup\musicglyph #"accidentals.mensural1"
 
 markBegin =
 #(define-music-function (parser location direction mark) (number? markup?)
@@ -42,18 +62,6 @@ markBegin =
   \context {
     \Lyrics
     \override LyricText #'font-size = #0
-  }
-  \context {
-    \Staff
-    \consists "Custos_engraver"
-    \override Custos #'style = #'mensural
-    \override TimeSignature #'style = #'mensural
-    \override Rest #'style = #'neomensural
-    \override NoteHead #'style = #'petrucci
-    \override Accidental #'glyph-name-alist =
-    #alteration-mensural-glyph-name-alist
-    %\override Flag #'style = #'mensural
-    %\override Stem #'thickness = #1.0
   }
 }
 
