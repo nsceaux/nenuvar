@@ -62,7 +62,7 @@ staffStart =
             (key (if forbid-key-modification
                      (ly:make-music 'Music)
                      (ly:grob-property grob 'key))))
-       (if (and (ly:music? clef) (ly:music? key))
+       (if (ly:music? clef)
            (let* ((instrument-name (ly:grob-property grob 'long-text))
                   (layout (ly:output-def-clone (ly:grob-layout grob)))
                   (music (make-music
@@ -77,14 +77,16 @@ staffStart =
                                                      'symbol 'instrumentName
                                                      'value instrument-name))
                                           clef
-                                          key
+                                          (if (ly:music? key)
+                                              key
+                                              (make-music 'Music))
                                           (make-music
                                            'SkipMusic
                                            'duration
                                            (ly:make-duration 3 0 1 1)))))
                   (score (ly:make-score music))
                   (mm (ly:output-def-lookup layout 'mm))
-                  (indent (ly:output-def-lookup layout 'indent))
+                  (indent (ly:output-def-lookup layout 'indent 0))
                   (incipit-width (ly:output-def-lookup layout 'incipit-width))
                   (width (* (if (number? incipit-width)
                                 incipit-width
