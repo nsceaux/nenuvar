@@ -173,13 +173,19 @@
        (set! stencil (ly:stencil-translate-axis stencil center Y))
        stencil)))
 
+#(define-public (bar-line::print-dashed-bar bar-line)
+   (let* ((staff-line (ly:output-def-lookup (ly:grob-layout bar-line) 'line-thickness))
+          (thickness (* (ly:grob-property bar-line 'hair-thickness) staff-line)))
+     (make-dashed-bar-line bar-line thickness)))
+
 #(define custom-bar-glyph-print-functions
    `(("|:|" . ,bar-line::print-baroque-repeat)
      (":||:" . ,bar-line::print-baroque-repeat2)
      (";:" . ,(bar-line::print-dashed-repeat #t #f))
      (":;" . ,(bar-line::print-dashed-repeat #f #f))
      ("|;:" . ,(bar-line::print-dashed-repeat #t #t))
-     (":;|" . ,(bar-line::print-dashed-repeat #f #t))))
+     (":;|" . ,(bar-line::print-dashed-repeat #f #t))
+     (";" . ,bar-line::print-dashed-bar)))
 
 #(define-public (bar-line::custom-print grob)
    (let* ((glyph-name (ly:grob-property grob 'glyph-name))
@@ -194,7 +200,8 @@
      (";:" . (() . ";:"))
      (":;" . (":;" . ()))
      ("|;:" . ("|" . ";:"))
-     (":;|" . (":;|" . ()))))
+     (":;|" . (":;|" . ()))
+     (";" . (";" . ()))))
 
 #(define-public (bar-line::custom-calc-glyph-name grob)
    (let ((glyph (ly:grob-property grob 'glyph))
@@ -237,6 +244,7 @@
    '(("|;:" . "|")
      (":;|" . "|")
      (":||:" . "||")
+     (";" . "|")
    ))
 
 #(define-public (span-bar::custom-calc-glyph-name grob)
