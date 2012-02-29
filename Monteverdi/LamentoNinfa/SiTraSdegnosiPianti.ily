@@ -8,7 +8,7 @@ IIIbassoContinuo = {
 IIItenoreSecondo = {
   \clef "petrucci-c4/G_8"
   mi2. mi8 mi la4. sol8 fa2 fa4 fa la la8 la la4.\melisma si8 do'1\melismaEnd si2 do'1
-  r4 do' do'4. si8 la4 sol fa4. fa8 mi4. mi8 fad2 sol\melisma fa4 mi re2.\melismaEnd re4 \urtext\longaUp do\longa*1/4
+  r4 do' do'4. si8 la4 sol fa4. fa8 mi4. mi8 fad2 sol\melisma \ficta fa4 mi re2.\melismaEnd re4 \urtext\longaUp do\longa*1/4
 }
 
 IIIbassoPrimo = {

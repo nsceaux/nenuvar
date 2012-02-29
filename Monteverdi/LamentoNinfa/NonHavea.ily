@@ -84,7 +84,7 @@ IbassoPrimo = {
   fa,2 mi, sol,2. sol,4 do1 r8 do do re mi4. fa8 sol4 sol8 mi fa4 fa8 mi fa2. fa4
   mi1 la8 la16 sol sol8. fa16 fa4 fa r mi re1 r4 dod mi2 r4 mi la,1 | r8 la fa re
   sol sol do do | r8 fa re si, mi mi la, la fad re sol sol
-  r8 do' la \urtext\once\set suggestAccidentals = ##t fa | sib sib sol sol r la fa re | sol sol, do4
+  r8 do' la \ficta fa | sib sib sol sol r la fa re | sol sol, do4
   r8 la, re re | si, sol, do do r la, la la | fa re sol sol r4 mi
   do2 re si,2. si,4 la,1 |
 }

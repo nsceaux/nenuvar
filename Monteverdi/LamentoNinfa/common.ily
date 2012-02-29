@@ -19,6 +19,8 @@ modified =
        (make-music 'Music 'void #t)
        music))
 
+ficta = { \urtext\once\set suggestAccidentals = ##t }
+
 ligature =
  #(define-music-function (parser location music) (ly:music?)
     (if (eqv? #t (ly:get-option 'urtext))

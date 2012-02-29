@@ -175,7 +175,7 @@
     evenHeaderMarkup = \markup\fill-line {
       \null
       \forced-page-string #30
-      \fromproperty #'header:instrument
+      \null %\fromproperty #'header:instrument
     }
   }
 
@@ -206,7 +206,7 @@
           s\longa.*5\pageBreak
           s\longa.*5\break
           s\longa.*5\break
-          s\longa. s\breve.\break
+          s\longa. \bar "" s\breve.\break
         }
       >>
     >>
@@ -218,7 +218,7 @@
 %% Pages 7-10 : le tre parti (amor - partitura)
 \bookpart {
   \header {
-    instrument = "[Tre parti]"
+    instrument = ""
   }
   \paper {
     oddHeaderMarkup = \markup\fill-line {
@@ -301,9 +301,8 @@
           s\longa.*4\break
           s\longa.*5\pageBreak
           s\longa.*5\break
-          s\longa.*2 s\breve.\break
+          s\longa.*2 \bar "" s\breve.\break
         }
-        \addlyrics \IIbassoPrimoText
       >>
     >>
     \layout { ragged-last = ##t }
@@ -391,7 +390,7 @@
     \new Staff <<
       { \time 4/4
         s1\bar "" s1\bar "" s2\bar "" \break
-        s2 s1\bar "" s1\bar "" \break
+        s2\bar "" s1\bar "" s1\bar "" \break
         s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "" \break
         s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "" s1\bar "|" s2\bar "" \break
         s2\bar "|" s1\bar "" s2\bar "" \break

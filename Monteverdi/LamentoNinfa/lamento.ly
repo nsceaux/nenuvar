@@ -66,7 +66,7 @@ Iglobal = {
 
 IIIglobal = {
   \staffStart
-  \set Score.tempoWholesPerMinute = #(ly:make-moment 20 1 0 1)
+  \set Score.tempoWholesPerMinute = #(ly:make-moment 28 1 0 1)
   \time 4/4
   \repeat unfold 11 { s1 \bar ";" }
   s1 \bar "|."
