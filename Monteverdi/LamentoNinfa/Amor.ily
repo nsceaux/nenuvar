@@ -95,7 +95,7 @@ IIcanto = {
   r\breve*3/2 si'1 si' si' |
   si'\breve la'1 si'\breve. |
   r\breve*3/2 si'1 si' si' |
-  si' re''\breve
+  \ligature { si' re''\breve }
   %
   sold'\breve sold'1 |
   mi''\breve la'1 mi''\breve. |
@@ -304,7 +304,7 @@ IIcantoText = \lyricmode {
   ch'el tra -- di -- tor
   ch'el tra -- di -- tor giu -- rò
 
-  fa che ri -- tor -- ni il mio'
+  fa che ri -- tor -- ni~il mi -- o'
   A -- mor co -- m'ei pur fu
   ò __ ò tu m'an -- ci -- di ch'io
   nõ mi tor -- men -- ti più
@@ -327,9 +327,9 @@ IIcantoText = \lyricmode {
   gia nõ rin -- chiu -- de'in se -- no
   A -- mor si be -- la fe si bel -- la si bel -- la fe
 
-  Ne mai di dol -- ci ba -- ci mai mai mai mai
+  Ne mai si dol -- ci ba -- ci mai mai mai mai
   da quel -- la boc -- ca'ha -- vrai
-  ne piu soa -- vi' ah ta -- ci ta -- ci ta -- ci
+  ne piu so -- a -- vi'~ah ta -- ci ta -- ci ta -- ci
   ta -- ci che trop -- po'il sai.
 }
 
