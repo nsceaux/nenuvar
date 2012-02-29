@@ -13,7 +13,10 @@
   bookTitleMarkup = \nenuvarBookTitleMarkup
   tocPieceMarkup = \markup \fill-line {
     \line-width-ratio #(if (< (*staff-size*) 18) 0.6 0.7) \fill-line {
-      \toc-filled-line \fromproperty #'toc:text \fromproperty #'toc:page
+      \toc-filled-line
+      \fromproperty #'toc:rehearsal-number
+      \fromproperty #'toc:text
+      \fromproperty #'toc:page
     }
   }
 }
