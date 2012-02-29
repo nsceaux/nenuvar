@@ -16,6 +16,7 @@
   %% TOC
   \paper { #(define page-count 2) }
   \markuplist\override-lines #'(column-number . 1)
+  \override-lines #'(use-rehearsal-numbers . #t)
   \override-lines #'(rehearsal-number-gauge . "H.534/8")
   \override-lines #`(rehearsal-number-align . ,LEFT)
   \table-of-contents

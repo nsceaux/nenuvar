@@ -135,7 +135,7 @@ with dots in property @code{fill-with-dots} is true."
                 (num-gauge-stencil (interpret-markup layout props rehearsal-number-gauge))
                 (gauge-width (interval-length (ly:stencil-extent num-gauge-stencil X)))
                 (padding (max 0 (- gauge-width bare-width)))
-                (right-padding (* (/ (1+ rehearsal-number-align) 2.0) padding))
+                (right-padding (* (/ (1+ (* -1 rehearsal-number-align)) 2.0) padding))
                 (left-padding (- padding right-padding)))
            (set! num-stencil
                  (combine-left

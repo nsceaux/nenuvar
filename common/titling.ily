@@ -372,7 +372,7 @@ pieceTocTitleCond =
 
 pieceTocTitleNb =
 #(define-music-function (parser location number title) (string? markup?)
-   (add-toc-item parser 'tocPieceMarkup title rehearsal number)
+   (add-toc-item parser 'tocPieceMarkup title number)
    (add-toplevel-markup parser 
                         (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
                             (markup #:rehearsal-number number
