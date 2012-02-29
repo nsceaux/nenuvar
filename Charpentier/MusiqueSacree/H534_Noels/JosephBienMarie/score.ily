@@ -9,6 +9,7 @@
             \global \keepWithTag #'dessus2 \includeNotes "dessus-haute-contre" >>
         >>
         \new Staff <<
+          { s2 s1*8\noBreak }
           \global \keepWithTag #'haute-contre \includeNotes "dessus-haute-contre" >>
       >>
       \whenCondition #(eqv? #t (ly:get-option 'violon-iso-haute-contre)) <<

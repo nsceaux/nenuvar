@@ -1,7 +1,8 @@
 \clef "haute-contre" R1. |
-r2 r <<
-  \origVersion re''_\markup\whiteout "tous fort" ^\markup \musicglyph #"scripts.segno"
-  \modVersion re''^\markup\center-align "Tous" \f >> |
+r2 r re''_\markup\orig-version\whiteout "tous fort"
+^\markup\orig-version\musicglyph #"scripts.segno"
+^\markup\mod-version\center-align "Tous"
+_\markup\mod-version\center-align "fort" |
 do'' do''2. re''8*2 |
 mi''2 mi'' si' |
 re'' la' re'' |
@@ -15,9 +16,9 @@ la' sol' la' |
 sib' la'2. re''8*2 |
 si'2 si' dod'' |
 re''1 r2 |
-r r <<
-  \origVersion re''_\markup\whiteout "tous fort"
-  \modVersion re''^\markup\center-align "Tous" \f >> |
+r r re''_\markup\orig-version\whiteout "tous fort"
+^\markup\mod-version\center-align "Tous"
+_\markup\mod-version\center-align "fort" |
 dod''1. |
 dod''2 dod'' dod'' |
 re''1 sol'2 |
@@ -29,9 +30,9 @@ dod''2 dod'' dod'' |
 re''2. do''8*2 sib'2~ |
 sib' la' la' |
 la'1 r2 |
-r2 r <<
-  \origVersion re''_\markup\whiteout "tous fort"
-  \modVersion re''^\markup\center-align "Tous" \f >> |
+r2 r re''_\markup\orig-version\whiteout "tous fort"
+^\markup\mod-version\center-align "Tous"
+_\markup\mod-version\center-align "fort" |
 do'' do''2. re''8*2 |
 mi''2 mi'' si' |
 re''1 re''2 |
@@ -44,9 +45,7 @@ sol'1 sol'2 |
 la' dod'' re'' |
 mi'' dod'' re'' |
 si' si' dod'' |
-re'' <<
-  \origVersion la'_\markup\whiteout "fort"
-  \modVersion la'\f >> si' |
+re'' la'_\markup\whiteout "fort" si' |
 dod''1. |
 la'8*2 dod'' si' re'' dod'' mi'' |
 re''2 la' sol' |
@@ -59,9 +58,9 @@ la'1 la'2 |
 fa' sib' sol' |
 la' sol'2. la'8*2 |
 fa'1. |
-<<
-  \origVersion sol'2_\markup\whiteout "tous fort"
-  \modVersion sol'2^\markup\center-align\whiteout "Tous" \f >> sol' la' |
+sol'2_\markup\orig-version\whiteout "tous fort"
+^\markup\mod-version\center-align\whiteout "Tous"
+_\markup\mod-version\center-align\whiteout "fort" sol' la' |
 sib' sol' do'' |
 do''1. |
 sib' |

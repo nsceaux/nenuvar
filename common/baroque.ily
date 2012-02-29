@@ -20,6 +20,8 @@ cesureInstr = {
   \breathe
 }
 
+dotSign=\markup\vcenter "╸"
+
 %% New baroque scripts (Charpentier, Rameau...)
 #(define-public baroque-script-alist
    (append!
