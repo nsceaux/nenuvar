@@ -2,7 +2,11 @@
   { \keys do \major
     \digitTime\time 2/2 \midiTempo #200
     \partial 8
-    s8 s1*7 \alternatives s1 s1 \bar "||" \modVersion \segnoMark
+    s8 s1*7 \alternatives s1 s1 \bar "||"
+    \modVersion {
+      \segnoMark
+      \once\override Score.RehearsalMark #'self-alignment-X = #LEFT
+    }
     s1*34 \bar "|."
   }
   \origVersion {
