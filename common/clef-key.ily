@@ -180,9 +180,7 @@ forcedClef =
                                (make-ancient-or-modern-clef clef-name))))
 
 #(define (make-key-set note key-alist)
-   (let ((pitch (ly:music-property (car (ly:music-property
-                                         note 'elements))
-                                   'pitch)))
+   (let ((pitch (ly:music-property note 'pitch)))
      (make-music 'KeyChangeEvent
                  'pitch-alist (ly:transpose-key-alist key-alist pitch)
                  'tonic pitch)))
