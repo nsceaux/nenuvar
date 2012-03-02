@@ -28,6 +28,7 @@
   }
   \context {
     \Staff
+    \name Staff
     \consists "Custos_engraver"
     \override Custos #'style = #'mensural
     \override TimeSignature #'style = #'mensural
@@ -41,7 +42,7 @@
 }
 
 \paper {
-  bookTitleMarkup = \markup\null
+  bookTitleMarkup = "" %\markup\null
 }
 
 \markup {
@@ -78,7 +79,7 @@
         \concat { \forced-folio-string #19 . }
       }
     }
-    evenFooterMarkup = \markup\null
+    evenFooterMarkup = "" %\markup\null
   }
 
   \markup\column {
@@ -218,7 +219,7 @@
 %% Pages 7-10 : le tre parti (amor - partitura)
 \bookpart {
   \header {
-    instrument = ""
+    instrument = "[Tre Parti]"
   }
   \paper {
     oddHeaderMarkup = \markup\fill-line {

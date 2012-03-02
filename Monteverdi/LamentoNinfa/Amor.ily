@@ -20,10 +20,26 @@ IIcanto = {
   %%
   R\longa*3/2 |
   r1 r do'' re''\breve. |
-  r1 r re''^\markup\override #'(line-width . 30) \wordwrap {
-    ↓ mi sur la partie de Canto, ré sur les autres.
-  }
-  mi'' mi'' mi'' |
+  r1 r
+  \footnote #'(0 . 1) #'NoteHead \markup {
+    Source: \italic { Basso Continuo, Tre parti } \raise #2.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-c1"
+          r1 r  re''1 mi'' mi'' mi'' }
+        \addlyrics { A mor do ve }
+      >>
+      \layout { \quoteLayout line-width=20\mm }
+    }
+    \hspace #2
+    \italic \italic { Canto Primo } \raise #2.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-c1"
+          r1 r  mi''1 mi'' mi'' mi'' }
+        \addlyrics { A mor do ve }
+      >>
+      \layout { \quoteLayout line-width=20\mm }
+    }
+  } re''1 mi'' mi'' mi'' |
   mi'' do'' si' si'\breve. |
   la'1 si' do'' re''\breve r1 |
   do''1 re'' mi'' fa''\breve mi''1 |
@@ -32,7 +48,7 @@ IIcanto = {
   mi''1 si' si' si'\breve la'1 |
   la' la' si' sold'\breve sold'!1 |
   sold'\breve la'1 si'\breve. |
-  \ligature { do''1( re''\breve) } mi''1 si' si' |
+  \black { do''1( re''\breve) } mi''1 si' si' |
   si'\breve la'1 si'\breve\melisma si'1\melismaEnd |
   %%
   la'1 la' la' la'\breve sold'1 |
@@ -44,22 +60,38 @@ IIcanto = {
   la'1 la' la'
   %%
   la'\breve sold'1 |
-  \ligature { la'1 mi''\breve } r1 mi''1 mi'' |
+  \black { la'1 mi''\breve } r1 mi''1 mi'' |
   mi'' la' la' sold' sold' sold' |
-  \ligature { sold' la'\breve si'1 do''\breve } |
+  \black { sold' la'\breve si'1 do''\breve } |
   re'' re''1 sold'\breve. |
-  \ligature { mi''1 mi''\breve~ } mi''\breve. |
-  la'1 la'^\markup\override #'(line-width . 25) \wordwrap {
-    "↓" "\"suoi\"" sur la parties de canto et ttb mais
-    rien sur partie de b.c.
-  } la'
+  \black { mi''1 mi''\breve~ } mi''\breve. |
+  la'1
+  \footnote #'(0 . 2) #'NoteHead \markup {
+    Source: \italic { Basso Continuo } \raise #2.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-c1"
+          la'1 la'1 la' sold' sold' sold' }
+        \addlyrics { ch'ei _ mar ti ri piu }
+      >>
+      \layout { \quoteLayout line-width=25\mm }
+    }
+    \hspace #2
+    \italic \italic { Canto Primo, Tre parti } \raise #2.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-c1"
+          la'1 la'1 la' sold' sold' sold' }
+        \addlyrics { ch'ei suoi mar ti ri piu }
+      >>
+      \layout { \quoteLayout line-width=25\mm }
+    }
+  } la'1 la'
   %%
   sold' sold' sold' |
   sol'!\breve fad'1 sol' sol' r |
   r la' la' la'\breve sold'1 |
   la'\breve r1 r\breve*3/2 |
   R\longa*3/2 |
-  \ligature {
+  \black {
     r1 do''\breve~ do''1 si'\breve~ |
     si'1 la'\breve~ la'1 sol'\breve~ |
     sol'1 fa'\breve~ fa'1 mi'\breve~ |
@@ -69,7 +101,7 @@ IIcanto = {
   si'\breve la'1 si'\breve. |
   r\breve*3/2 re''1 re'' re'' |
   mi''\breve la'1 sold' sold' r |
-  \ligature { la' la'\breve~ } la'\breve. |
+  \black { la' la'\breve~ } la'\breve. |
   %%
   la'1 la' la' la'\breve sold'1 |
   la'\breve r1 r\breve*3/2 |
@@ -81,9 +113,26 @@ IIcanto = {
   %
   mi''1 do'' si' si'\breve la'1 |
   la' la' sold' sold'!\breve sold'1 |
-  sol'!\breve fa'1^\markup\override #'(line-width . 25) \wordwrap {
-    "↓" "fa#" sur partie ttb
-  } sol'\breve la'1 |
+  sol'!\breve
+  \footnote #'(0 . 3) #'NoteHead \markup {
+    Source: \italic { Basso Continuo, Canto Primo } \raise #2.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-c1"
+          solb'\breve fa'1 solb'\breve la'1 }
+        \addlyrics { be la fe si }
+      >>
+      \layout { \quoteLayout line-width=15\mm }
+    }
+    \hspace #2
+    \italic \italic { Tre parti } \raise #2.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-c1"
+          solb'\breve fad'1 solb'\breve la'1 }
+        \addlyrics { be la fe si }
+      >>
+      \layout { \quoteLayout line-width=15\mm }
+    }
+  } fa'1 sol'\breve la'1 |
   la' la' la' la'\breve sold'1 |
   la'\breve. r\breve*3/2 |
   R\longa*3/2 |
@@ -95,7 +144,7 @@ IIcanto = {
   r\breve*3/2 si'1 si' si' |
   si'\breve la'1 si'\breve. |
   r\breve*3/2 si'1 si' si' |
-  \ligature { si' re''\breve }
+  \black { si' re''\breve }
   %
   sold'\breve sold'1 |
   mi''\breve la'1 mi''\breve. |
@@ -112,7 +161,7 @@ IItenorePrimo = {
   la\breve. si |
   r\breve*3/2 si1 si si |
   %%
-  do'1 do' re' \ligature { do' si\breve } |
+  do'1 do' re' \black { do' si\breve } |
   la\breve r1 r\breve*3/2 |
   R\longa*3/2 R R R |
   r1 la la do'\breve si1 |
@@ -120,7 +169,7 @@ IItenorePrimo = {
   %%
   R R R |
   r\breve*3/2 r1 mi' mi' |
-  \ligature { re' fa'\breve~ } fa'1 si si |
+  \black { re' fa'\breve~ } fa'1 si si |
   la\breve r1 r1 si si |
   si\breve la1
   %
@@ -131,24 +180,24 @@ IItenorePrimo = {
   %%
   r r1 mi'\breve~ |
   mi'1 la la si\breve si1 |
-  r la la \ligature { si si\breve~ } |
+  r la la \black { si si\breve~ } |
   si\breve.~ si1 si si |
   la\breve r1 r\breve*3/2 |
   R\longa*3/2 |
   %
   r1 la la sol\breve sol1 |
   R\longa*3/2 R R R |
-  r\breve*3/2 r1 \ligature { mi'\breve |
+  r\breve*3/2 r1 \black { mi'\breve |
     r1 mi'\breve~ mi'1 mi'\breve~ } |
   %%
   mi'1 la la si\breve si1 |
-  r do' do' \ligature { si re'\breve } |
+  r do' do' \black { si re'\breve } |
   R\longa*3/2 R R R R |
   %
   R R R |
-  r1 re' re' \ligature { do' mi'\breve~ } |
+  r1 re' re' \black { do' mi'\breve~ } |
   mi'1 la la si re' re' |
-  re'\breve do'1 \ligature { do' si\breve } |
+  re'\breve do'1 \black { do' si\breve } |
   %%
   la\breve. r\breve*3/2 |
   R\longa*3/2 R |
@@ -192,7 +241,7 @@ IItenoreSecondo = {
   %%
   si\breve si1 |
   R\longa*3/2 R |
-  r1 do' do' \ligature { si la\breve~ } |
+  r1 do' do' \black { si la\breve~ } |
   la\breve.~ la1 la sold |
   la\breve r1 r\breve*3/2 |
   R\longa*3/2 |
@@ -203,16 +252,33 @@ IItenoreSecondo = {
   %%
   R |
   r\breve*3/2 r1 si si |
-  \ligature { la do'\breve } r\breve*3/2 |
+  \black { la do'\breve } r\breve*3/2 |
   R\longa*3/2 R R R |
   %
   R R |
-  r1 do' do' \ligature { si re'\breve~ } |
-  re'1 la^\markup\override #'(line-width . 25) \wordwrap {
-    "↓" sol sur partie ttb
-  } la sol\breve. |
+  r1 do' do' \black { si re'\breve~ } |
+  re'1
+  \footnote #'(0 . 2) #'NoteHead \markup {
+    Source: \italic { Basso Continuo } \raise #3.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-c4"
+          re'1 la la sol\breve. }
+        \addlyrics { _ più nò nò }
+      >>
+      \layout { \quoteLayout line-width=15\mm }
+    }
+    \hspace #2
+    \italic \italic { Tre parti } \raise #3.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-c4"
+          re'1 sol la sol\breve. }
+        \addlyrics { _ più nò nò }
+      >>
+      \layout { \quoteLayout line-width=15\mm }
+    }
+  } la1 la sol\breve. |
   r1 fad fad sol\breve. |
-  \ligature { la1 la\breve~ } la sold1 |
+  \black { la1 la\breve~ } la sold1 |
   %%
   la\breve. r\breve*3/2 |
   R\longa*3/2 R R R |
@@ -255,13 +321,13 @@ IIbassoPrimo = {
   %%
   r |
   R\longa*3/2 R |
-  r1 la la \ligature { sol la\breve~ } |
+  r1 la la \black { sol la\breve~ } |
   la\breve.~ la1 mi mi |
   la,\breve r1 r\breve*3/2 |
   R\longa*3/2 |
   %
   R R |
-  r1 la la \ligature { sol la\breve~ } |
+  r1 la la \black { sol la\breve~ } |
   la\breve.~ la1 mi mi |
   la,\breve. r1 si, si, |
   do\breve re1 mi\breve mi1 |
@@ -269,14 +335,50 @@ IIbassoPrimo = {
   %%
   R\longa*3/2 |
   r\breve*3/2 r1 sol sol |
-  \ligature { fa la\breve } r\breve*3/2 |
+  \black fa
+  \footnote #'(0 . 1) #'NoteHead \markup {
+    Source: \italic { Basso Continuo } \raise #3.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-f4"
+          \black { fa1 la\breve } r\breve*3/2 }
+        \addlyrics { rell' ah' }
+      >>
+      \layout { \quoteLayout line-width=15\mm }
+    }
+    \hspace #2
+    \italic \italic { Tre parti } \raise #3.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-f4"
+          \black { fa1 sol\breve } r\breve*3/2 }
+        \addlyrics { rell' ah }
+      >>
+      \layout { \quoteLayout line-width=15\mm }
+    }
+  } \black sol\breve r\breve*3/2 |
   R\longa*3/2 R R R |
   %
   R R |
-  r\breve*3/2 r1 sol^\markup\override #'(line-width . 25) \wordwrap {
-    "↓" 2 mi sur partie ttb
-  } sol |
-  \ligature { fa la\breve~ } la1 mi mi |
+  r\breve*3/2 r1
+  \footnote #'(0 . 0.5) #'NoteHead \markup {
+    Source: \italic { Basso Continuo } \raise #3.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-f4"
+          r\breve*3/2 r1 sol1 sol }
+        \addlyrics { mi se }
+      >>
+      \layout { \quoteLayout line-width=15\mm }
+    }
+    \hspace #2
+    \italic \italic { Tre parti } \raise #3.5 \score {
+      \new Staff <<
+        { \tinyQuote \time 6/1 \clef "petrucci-f4"
+          r\breve*3/2 r1 mi1 mi }
+        \addlyrics { mi se }
+      >>
+      \layout { \quoteLayout line-width=15\mm }
+    }
+  } sol1 sol |
+  \black { fa la\breve~ } la1 mi mi |
   la,\breve. r1 si, si, |
   do\breve re1 mi\breve mi1 |
   %%
@@ -307,15 +409,15 @@ IIcantoText = \lyricmode {
   fa che ri -- tor -- ni~il mi -- o'
   A -- mor co -- m'ei pur fu
   ò __ ò tu m'an -- ci -- di ch'io
-  nõ mi tor -- men -- ti più
-  nõ mi tor -- men -- ti
-  nõ mi tor -- men -- ti
-  nõ mi tor -- men -- ti più
+  %{nõ%} non mi tor -- men -- ti più
+  %{nõ%} non mi tor -- men -- ti
+  %{nõ%} non mi tor -- men -- ti
+  %{nõ%} non mi tor -- men -- ti più
 
-  nõ nõ vò piu ch'ei sos -- pi -- ri
-  se nõ lon -- tan lon -- tan da me
+  %{nõ%} non %{nõ%} non vò piu ch'ei sos -- pi -- ri
+  se %{nõ%} non lon -- tan lon -- tan da me
   nò nò __ ch'ei suoi mar -- ti -- ri
-  piu nõ di -- ram -- mi nõ di -- ram -- mi~af -- fe
+  piu %{nõ%} non di -- ram -- mi %{nõ%} non di -- ram -- mi~af -- fe
 
   per -- che __ di __ lui  __ mi __ stru -- go
   tutt' or -- go -- glio -- so sta
@@ -323,8 +425,8 @@ IIcantoText = \lyricmode {
   an -- cor __ an -- cor mi pre -- ghe -- ra
 
   Se ci -- glio~ha piu se -- re -- no co -- lei co -- lei co -- lei
-  ch'el mio nõ è
-  gia nõ rin -- chiu -- de'in se -- no
+  ch'el mio %{nõ%} non è
+  gia %{nõ%} non rin -- chiu -- de'in se -- no
   A -- mor si be -- la fe si bel -- la si bel -- la fe
 
   Ne mai si dol -- ci ba -- ci mai mai mai mai
@@ -340,7 +442,7 @@ IItenorePrimoText = \lyricmode {
   mi -- se -- rel -- la
   
   mi -- se -- rell' ah __ più nò nò
-  tan -- to gel sof -- frir nõ può
+  tan -- to gel sof -- frir %{nõ%} non può
 
   ah __ mi -- se -- rel -- la
   mi -- se -- rell' ah __ più nò nò
@@ -351,7 +453,7 @@ IItenorePrimoText = \lyricmode {
   mi -- se -- rell' ah'
 
   mi -- se -- rell' ah' __ più nò nò
-  tan -- to gel sof -- frir nõ può
+  tan -- to gel sof -- frir %{nõ%} non può
 
   mi -- se -- rel -- la
   mi -- se -- rel -- la
@@ -374,7 +476,7 @@ IItenoreSecondoText = \lyricmode {
   mi -- se -- rell' ah'
 
   mi -- se -- rell' ah' __ più nò nò
-  tan -- to gel sof -- frir __ nõ può
+  tan -- to gel sof -- frir __ %{nõ%} non può
   mi -- se -- rel -- la
   mi -- se -- rel -- la
 }
@@ -391,7 +493,7 @@ IIbassoPrimoText = \lyricmode {
 
   mi -- se -- rell' ah __ più nò nò
   mi -- se -- rell' ah __ più nò nò
-  tan -- to gel sof -- frir nõ può
+  tan -- to gel sof -- frir %{nõ%} non può
 
   mi -- se -- rell' ah'
 

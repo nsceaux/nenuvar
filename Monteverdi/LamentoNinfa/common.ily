@@ -6,6 +6,18 @@
 
 \include "../../common/clef-key.ily"
 \include "../../common/alterations.ily"
+\include "../../common/markup.ily"
+
+quoteLayout = \layout {
+  indent = 0
+  ragged-right = ##t
+  \context {
+    \Staff
+    \remove "Time_signature_engraver"
+    \override Rest #'style = #'neomensural
+    \override NoteHead #'style = #'petrucci
+  }
+}
 
 urtext =
 #(define-music-function (parser location music) (ly:music?)
@@ -21,7 +33,7 @@ modified =
 
 ficta = { \urtext\once\set suggestAccidentals = ##t }
 
-ligature =
+black =
  #(define-music-function (parser location music) (ly:music?)
     (if (eqv? #t (ly:get-option 'urtext))
         #{ \override NoteHead #'style = #'blackpetrucci
@@ -60,6 +72,7 @@ markBegin =
   \context {
     \Voice
     autoBeaming = ##f
+    \override FootnoteItem #'annotation-line = ##f
   }
   \context {
     \Lyrics
