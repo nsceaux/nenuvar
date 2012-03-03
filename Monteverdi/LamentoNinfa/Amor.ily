@@ -48,7 +48,7 @@ IIcanto = {
   mi''1 si' si' si'\breve la'1 |
   la' la' si' sold'\breve sold'!1 |
   sold'\breve la'1 si'\breve. |
-  \black { do''1( re''\breve) } mi''1 si' si' |
+  \blackNotation { do''1( re''\breve) } mi''1 si' si' |
   si'\breve la'1 si'\breve\melisma si'1\melismaEnd |
   %%
   la'1 la' la' la'\breve sold'1 |
@@ -60,11 +60,11 @@ IIcanto = {
   la'1 la' la'
   %%
   la'\breve sold'1 |
-  \black { la'1 mi''\breve } r1 mi''1 mi'' |
+  \blackNotation { la'1 mi''\breve } r1 mi''1 mi'' |
   mi'' la' la' sold' sold' sold' |
-  \black { sold' la'\breve si'1 do''\breve } |
+  \blackNotation { sold' la'\breve si'1 do''\breve } |
   re'' re''1 sold'\breve. |
-  \black { mi''1 mi''\breve~ } mi''\breve. |
+  \blackNotation { mi''1 mi''\breve~ } mi''\breve. |
   la'1
   \footnote #'(0 . 2) #'NoteHead \markup {
     Source: \italic { Basso Continuo } \raise #2.5 \score {
@@ -91,7 +91,7 @@ IIcanto = {
   r la' la' la'\breve sold'1 |
   la'\breve r1 r\breve*3/2 |
   R\longa*3/2 |
-  \black {
+  \blackNotation {
     r1 do''\breve~ do''1 si'\breve~ |
     si'1 la'\breve~ la'1 sol'\breve~ |
     sol'1 fa'\breve~ fa'1 mi'\breve~ |
@@ -101,7 +101,7 @@ IIcanto = {
   si'\breve la'1 si'\breve. |
   r\breve*3/2 re''1 re'' re'' |
   mi''\breve la'1 sold' sold' r |
-  \black { la' la'\breve~ } la'\breve. |
+  \blackNotation { la' la'\breve~ } la'\breve. |
   %%
   la'1 la' la' la'\breve sold'1 |
   la'\breve r1 r\breve*3/2 |
@@ -144,7 +144,7 @@ IIcanto = {
   r\breve*3/2 si'1 si' si' |
   si'\breve la'1 si'\breve. |
   r\breve*3/2 si'1 si' si' |
-  \black { si' re''\breve }
+  \blackNotation { si' re''\breve }
   %
   sold'\breve sold'1 |
   mi''\breve la'1 mi''\breve. |
@@ -161,7 +161,7 @@ IItenorePrimo = {
   la\breve. si |
   r\breve*3/2 si1 si si |
   %%
-  do'1 do' re' \black { do' si\breve } |
+  do'1 do' re' \blackNotation { do' si\breve } |
   la\breve r1 r\breve*3/2 |
   R\longa*3/2 R R R |
   r1 la la do'\breve si1 |
@@ -169,7 +169,7 @@ IItenorePrimo = {
   %%
   R R R |
   r\breve*3/2 r1 mi' mi' |
-  \black { re' fa'\breve~ } fa'1 si si |
+  \blackNotation { re' fa'\breve~ } fa'1 si si |
   la\breve r1 r1 si si |
   si\breve la1
   %
@@ -180,24 +180,24 @@ IItenorePrimo = {
   %%
   r r1 mi'\breve~ |
   mi'1 la la si\breve si1 |
-  r la la \black { si si\breve~ } |
+  r la la \blackNotation { si si\breve~ } |
   si\breve.~ si1 si si |
   la\breve r1 r\breve*3/2 |
   R\longa*3/2 |
   %
   r1 la la sol\breve sol1 |
   R\longa*3/2 R R R |
-  r\breve*3/2 r1 \black { mi'\breve |
+  r\breve*3/2 r1 \blackNotation { mi'\breve |
     r1 mi'\breve~ mi'1 mi'\breve~ } |
   %%
   mi'1 la la si\breve si1 |
-  r do' do' \black { si re'\breve } |
+  r do' do' \blackNotation { si re'\breve } |
   R\longa*3/2 R R R R |
   %
   R R R |
-  r1 re' re' \black { do' mi'\breve~ } |
+  r1 re' re' \blackNotation { do' mi'\breve~ } |
   mi'1 la la si re' re' |
-  re'\breve do'1 \black { do' si\breve } |
+  re'\breve do'1 \blackNotation { do' si\breve } |
   %%
   la\breve. r\breve*3/2 |
   R\longa*3/2 R |
@@ -241,7 +241,7 @@ IItenoreSecondo = {
   %%
   si\breve si1 |
   R\longa*3/2 R |
-  r1 do' do' \black { si la\breve~ } |
+  r1 do' do' \blackNotation { si la\breve~ } |
   la\breve.~ la1 la sold |
   la\breve r1 r\breve*3/2 |
   R\longa*3/2 |
@@ -252,11 +252,11 @@ IItenoreSecondo = {
   %%
   R |
   r\breve*3/2 r1 si si |
-  \black { la do'\breve } r\breve*3/2 |
+  \blackNotation { la do'\breve } r\breve*3/2 |
   R\longa*3/2 R R R |
   %
   R R |
-  r1 do' do' \black { si re'\breve~ } |
+  r1 do' do' \blackNotation { si re'\breve~ } |
   re'1
   \footnote #'(0 . 2) #'NoteHead \markup {
     Source: \italic { Basso Continuo } \raise #3.5 \score {
@@ -278,7 +278,7 @@ IItenoreSecondo = {
     }
   } la1 la sol\breve. |
   r1 fad fad sol\breve. |
-  \black { la1 la\breve~ } la sold1 |
+  \blackNotation { la1 la\breve~ } la sold1 |
   %%
   la\breve. r\breve*3/2 |
   R\longa*3/2 R R R |
@@ -321,13 +321,13 @@ IIbassoPrimo = {
   %%
   r |
   R\longa*3/2 R |
-  r1 la la \black { sol la\breve~ } |
+  r1 la la \blackNotation { sol la\breve~ } |
   la\breve.~ la1 mi mi |
   la,\breve r1 r\breve*3/2 |
   R\longa*3/2 |
   %
   R R |
-  r1 la la \black { sol la\breve~ } |
+  r1 la la \blackNotation { sol la\breve~ } |
   la\breve.~ la1 mi mi |
   la,\breve. r1 si, si, |
   do\breve re1 mi\breve mi1 |
@@ -335,12 +335,12 @@ IIbassoPrimo = {
   %%
   R\longa*3/2 |
   r\breve*3/2 r1 sol sol |
-  \black fa
-  \footnote #'(0 . 1) #'NoteHead \markup {
+  \blackNotation fa
+  \footnote #'(1 . 1) #'NoteHead \markup {
     Source: \italic { Basso Continuo } \raise #3.5 \score {
       \new Staff <<
         { \tinyQuote \time 6/1 \clef "petrucci-f4"
-          \black { fa1 la\breve } r\breve*3/2 }
+          \blackNotation { fa1 la\breve } r\breve*3/2 }
         \addlyrics { rell' ah' }
       >>
       \layout { \quoteLayout line-width=15\mm }
@@ -349,12 +349,12 @@ IIbassoPrimo = {
     \italic \italic { Tre parti } \raise #3.5 \score {
       \new Staff <<
         { \tinyQuote \time 6/1 \clef "petrucci-f4"
-          \black { fa1 sol\breve } r\breve*3/2 }
+          \blackNotation { fa1 sol\breve } r\breve*3/2 }
         \addlyrics { rell' ah }
       >>
       \layout { \quoteLayout line-width=15\mm }
     }
-  } \black sol\breve r\breve*3/2 |
+  } \blackNotation sol\breve r\breve*3/2 |
   R\longa*3/2 R R R |
   %
   R R |
@@ -378,7 +378,7 @@ IIbassoPrimo = {
       \layout { \quoteLayout line-width=15\mm }
     }
   } sol1 sol |
-  \black { fa la\breve~ } la1 mi mi |
+  \blackNotation { fa la\breve~ } la1 mi mi |
   la,\breve. r1 si, si, |
   do\breve re1 mi\breve mi1 |
   %%

@@ -1,4 +1,5 @@
 \include "italiano.ly"
+#(ly:set-option 'point-and-click #f)
 
 #(ly:set-option 'ancient-alteration (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
@@ -6,6 +7,7 @@
 
 \include "../../common/clef-key.ily"
 \include "../../common/alterations.ily"
+\include "../../common/baroque.ily"
 \include "../../common/markup.ily"
 
 quoteLayout = \layout {
@@ -30,16 +32,6 @@ modified =
    (if (eqv? #t (ly:get-option 'urtext))
        (make-music 'Music 'void #t)
        music))
-
-ficta = { \urtext\once\set suggestAccidentals = ##t }
-
-black =
- #(define-music-function (parser location music) (ly:music?)
-    (if (eqv? #t (ly:get-option 'urtext))
-        #{ \override NoteHead #'style = #'blackpetrucci
-           $music
-           \revert NoteHead #'style #}
-        music))
 
 doubleBreve = {
   \once\override NoteHead #'stencil = 

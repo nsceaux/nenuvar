@@ -41,3 +41,19 @@
     \naturalFig <_+> \naturalFig <6 _+>
   }
 >>
+
+%% Black notation
+testPattern = { c'1 c'\breve aes'1 ais'\breve.*2/3 \break }
+\score {
+  {
+    \time 6/1
+    \override NoteHead #'style = #'baroque
+    \testPattern \blackNotation\testPattern
+    \override NoteHead #'style = #'petrucci
+    \testPattern \blackNotation\testPattern
+  }
+  \layout {
+    indent = 0 ragged-right = ##t
+    \context { \Staff \remove "Time_signature_engraver" }
+  }
+}

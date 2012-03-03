@@ -166,6 +166,54 @@ whiteNoteHeadsOff = {
   \revert Staff.NoteHead #'glyph-name
 }
 
+%% Black notation, for breve and whole notes
+#(define-public (ly:note-head::print-black grob)
+   (let ((head-style (ly:grob-property grob 'style)))
+     (case head-style
+       ((baroque default)
+        (let* ((head-stencil (ly:note-head::print grob))
+               (duration (ly:grob-property grob 'duration-log))
+               (glyph-name (format #f "noteheads.s~a"
+                                   (ly:grob-property grob 'glyph-name)))
+               (glyph (grob-interpret-markup
+                       grob
+                       (make-musicglyph-markup glyph-name))))
+          (ly:stencil-add
+           (ly:stencil-translate
+            (ly:stencil-aligned-to
+             (stencil-with-color
+              (if (>= duration 0)
+                  ;; oval for whole note
+                  (make-oval-stencil
+                   (* 0.9 (/ (interval-length (ly:stencil-extent glyph X)) 2))
+                   (* 1.1 (/ (interval-length (ly:stencil-extent glyph Y)) 2))
+                   0 #t)
+                  ;; rectangle for breve
+                  (make-filled-box-stencil (ly:stencil-extent glyph X)
+                                           (ly:stencil-extent glyph Y)))
+              black)
+             X CENTER)
+            (cons (/ (interval-length (ly:stencil-extent head-stencil X)) 2)
+                  0))
+           head-stencil)))
+       ((petrucci)
+        (set! (ly:grob-property grob 'style) 'blackpetrucci)
+        (ly:note-head::print grob))
+       (else
+        (ly:note-head::print grob)))))
+
+blackNotation =
+#(define-music-function (parser location music) (ly:music?)
+   #{ \override NoteHead #'stencil = #ly:note-head::print-black
+      \override NoteHead #'Y-extent =
+      #(ly:make-unpure-pure-container
+        ly:grob::stencil-height
+        (lambda (grob b e) (ly:grob::stencil-height grob)))
+      $music
+      \revert NoteHead #'stencil #})
+
+ficta = { \once\set suggestAccidentals = ##t }
+
 %% Figured bass
 %% change a flat or sharp alteration into natural
 %% unless 'ancient-style option is true
@@ -182,5 +230,3 @@ naturalFig =
                     (set! (ly:music-property music 'alteration) 0))))
           music)
         fig)))
-
-       
