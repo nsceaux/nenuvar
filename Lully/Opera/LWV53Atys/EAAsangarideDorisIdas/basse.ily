@@ -92,7 +92,7 @@ si2\trill do'4 do'8 si |
 la2 re'4 re |
 sol2 sold4\trill |
 la2 la8 la, |
-mi2 mi8. re16 |
+mi2 mi8 re |
 do4 fa, sol, |
 do sol8. la16 si8 do' |
 re'2 re~ |
@@ -120,7 +120,7 @@ sol la4 si |
 do' la re' si |
 mi' do' re' re |
 sol1 |\allowPageTurn
-mi2. mi8 re |
+<< \origVersion { mi2~ mi4 } \modVersion mi2. >> mi8 re |
 do1 |
 re4 si,8 do re4 re, |
 sol,2 sol4. sol8 |
