@@ -13,7 +13,7 @@ la,2\trill si,4 si8 la |
 sold2\trill la4 si8 si, |
 mi2~ mi8 re |
 do2 dod4\trill |
-re do!8 si, la,4 |
+re do8 si, la,4 |
 mi red2\trill |
 mi2. |
 fad2 sol8 mi fad fad, |
@@ -30,11 +30,15 @@ re2 re'8 do' si la |
 sol4 sol,8 la, si,4 do |
 re2 si,4.\trill la,8 |
 sold,2.\trill |
-la,1~ |
+\tieDashed la,1~ | \tieSolid
 la,2. |
 mi2 re8 do |
 si,4 do re re, |
 sol, sol8 fad mi4. mi,8 |
 la,2 si,4 si8 la |
 sold2\trill la4 si8 si, |
+\myfootnote #'NoteHead #'(4 . -3) \markup\wordwrap {
+  Le manuscrit et l'édition Baussen 1709 indiquent de jouer pour l'entr'acte
+  l'entrée des Nations (page \page-refIII #'CDBnations .)
+}
 mi1 |
