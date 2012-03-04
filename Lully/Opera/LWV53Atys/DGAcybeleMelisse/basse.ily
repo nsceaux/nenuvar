@@ -5,7 +5,14 @@ la |
 sold2\trill sol |
 fad\trill fa |
 mi la4 la, |
-re4. mi8 fad2\trill |
+re4. mi8 \myfootnote #'NoteHead #'(0 . 1.5) \markup {
+  Manuscrit : \raise #2 \score {
+    { \tinyQuote \time 2/2 \key do \major \clef "bass"
+      re4. mi8 red2 | sol4
+    }
+    \layout { \quoteLayout }
+  }
+} fad2\trill |
 sol4 do sol,2 |
 do1 |
 si,2\trill mi4 la, |
@@ -70,4 +77,11 @@ la,1~ |
 la,2 mi4 dod\trill |
 re1 |
 mi4 do8 si,16 la, mi8 mi, |
-la,2~ la,8 la, sol,\trill fad, |
+la,2~ la,8 la, sol,\trill
+\myfootnote #'NoteHead #'(0 . 4.5) \markup {
+  Manuscrit : \raise #2 \score {
+    { \tinyQuote \key do \major \clef "bass"
+      la,2~ la,8 la, sol, fa, | mi,1 }
+    \layout { \quoteLayout }
+  }
+} fad,8 |

@@ -28,6 +28,17 @@
     sold'4 mi''16 mi'' mi'' si' do''8 do''16 do'' |
     la'8\trill la'16 la' la'8 si'16 do'' re''8 re'' la'16\trill la' si' do'' |
     si'8\trill si' re''16 re'' si'\trill do'' la'8\trill la'16 sol' |
+    \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \set autoBeaming = ##f
+            \tinyQuote \key do \major \clef "soprano"
+            \time 4/4 fa'8 fa' si'16 si' dod'' re'' mi''4 mi''8 dod'' | mi''4
+          } \addlyrics { -fan -- ce, ils pour -- roient en -- fin trop s'ai -- mer. }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     fad'8 fad' si'16 si' dod'' red'' mi''4 mi''8 red'' |
     mi''4 r8 mi'' dod''16 dod'' dod'' dod'' |
     re''8. re''16 re''8. re''16 re''8. mi''16 |
@@ -53,6 +64,39 @@
     mi'' si' do'' re'' |
     do''\trill la' do'' si' |
     la'\trill sol' fad'4.\trill mi'8 |
+    \myfootnote #'NoteHead #'(0 . 3.5) \markup\column {
+      \wordwrap {
+        Manuscrit : les vers de Mélisse
+        \italic { Ce n'est pas un si grand crime De ne s'exprimer pas bien }
+        (mesures 21-25) sont chantés deux fois.
+      }
+      \score {
+        \new StaffGroupNoBar <<
+          \new Staff { \set autoBeaming = ##f
+            \tinyQuote \time 2/2 \key do \major \clef "soprano"
+            \repeat volta 2 {
+              r2 \bar "|:" do''4 re'' |
+              mi'' si' do'' re'' |
+              do'' la' do'' si' |
+              la' sol' fad'4. mi'8 |
+            } \alternative { { mi'2*2 } { mi'2. si'4 | } }
+          } \addlyrics {
+            Ce n'est pas un si grand cri -- me
+            de ne s'ex -- pri -- mer pas bien. bien. Un
+          }
+          \new Staff {
+            \key do \major \clef "bass"
+            la,2 la,4 si, |
+            do4 re mi mi, |
+            la,2 la4 sol |
+            fad mi si si, |
+            mi8*2[ re do si,] |
+            mi4 fa sol mi |
+          }
+        >>
+        \layout { \quoteLayout }
+      }
+    }
     mi'2. si'4 |
     do'' do''8 si' la'4 si'8 do'' |
     si'4.\trill si'8 do''4 re'' |

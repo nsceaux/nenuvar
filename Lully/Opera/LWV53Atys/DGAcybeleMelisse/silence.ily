@@ -1,17 +1,2 @@
-R1*2\noBreak
-R1*9\noBreak
-R1.\noBreak
-R1*4\noBreak
-R1.\noBreak
-R1*3\noBreak
-R1*13\noBreak
-R2.*3\noBreak
-R1\noBreak
-R2.\noBreak
-R1\noBreak
-R2.*7\noBreak
-R1*2
-R1*20\noBreak
-R1*3\noBreak
-R2.\noBreak
-R1
+R1*2 R1*9 R1. R1*4 R1. R1*3 R1*13 R2.*3 R1 R2. R1 R2.*7 R1*2 R1*20
+R1*3 R2. R1
