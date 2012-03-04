@@ -11,7 +11,7 @@
     << \tag #'basse { sol'8 s8 } \tag #'sangaride sol'4 >>
     << { s1 | s8 } \tag #'sangaride { R1 | r8 } >>
     \tag #'basse { s16 \sangarideMark do''16 } \tag #'sangaride do''8
-    do''8. do''16 do''8. do''16 do''8[ si'16] do'' |
+    do''8. do''16 do''8. do''16 do''8([ si'16)] do'' |
     << \tag #'basse { si'8\trill s } \tag #'sangaride si'4\trill >>
     << { s2. s1*10 s2 } \tag #'sangaride { r4 r2 | R1*10 | r2 } >>
     \tag #'basse \sangarideMark r4 la' |
@@ -31,7 +31,7 @@
   \tag #'(cybele basse) {
     <<
       { s1*15 | s2. }
-      \tag #'cybele { \cybeleMark R1*15 | r2 r4 }
+      \tag #'cybele { \cybeleMark R1*15 | r2 r4^\markup\character Cybèle }
     >>
     \tag #'basse \cybeleMark la'4 |
     re''1 |
