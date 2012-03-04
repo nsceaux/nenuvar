@@ -1,9 +1,25 @@
-%%% When the original score does not show a repeat, but it seems there
-%%% ought to be, write a dashed repeat bar.  As they are not supported
-%%% by LilyPond, two music functions are introduced, which make the
-%%% overrides:
-%%%   \dashedRepeatBarBegin
-%%%   \dashedRepeatBarEnd
+%%% Custom bars
+%%% Author: Nicolas Sceaux <nicolas.sceaux@free.fr>
+%%%
+%%% This lib defines several new bar styles for LilyPond:
+%%% \bar ";"    a single dashed bar line
+%%%             no span-bar
+%%% \bar "|;:"  suggested repeat bar (on an existing bar):
+%%%             thin-line + dashed-line + two-dots
+%%%             thin span-bar
+%%% \bar ";:"   suggested repeat bar (on no existing bar):
+%%%             2 dashed-linesxs + two-dots
+%%%             no span-bar (FIXME?)
+%%% \bar ":;|"  suggested repeat bar (on an existing bar):
+%%%             two-dots + dashed-line + thin-line
+%%%             thin span-bar
+%%% \bar ":;"   suggested repeat bar (on no existing bar):
+%%%             two-dots + 2 dashed-lines
+%%%             no span-bar (FIXME?)
+%%% \bar "|:|"  old-style repeat bar: thick-line + dotted-line + thick-line
+%%%             no span-bar (FIXME?)
+%%% \bar ":||:" old-style repeat bar2: dotted-line + 2 thin-lines + dotted-line
+%%%             double thin span-bar
 
 #(define-public (make-round-filled-box x1 x2 y1 y2 blot-diameter)
    (let* ((width (- x2 x1))
@@ -244,7 +260,7 @@
    '(("|;:" . "|")
      (":;|" . "|")
      (":||:" . "||")
-     (";" . "|")
+     (";" . "")
    ))
 
 #(define-public (span-bar::custom-calc-glyph-name grob)
