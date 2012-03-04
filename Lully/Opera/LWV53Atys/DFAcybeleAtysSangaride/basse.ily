@@ -41,7 +41,14 @@ la4 sib si\trill |
 do'2 sib8 la |
 sol1 |
 la2 re8 mi fa4 |
-mi4.\trill re8 do4 do'8 sib |
+mi4.\trill re8 do4 do'8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote #44 \time 4/4 \key do \major \clef "bass"
+      mi4. re8 do4 do'8 si | la sol fa4
+    }
+    \layout { \quoteLayout }
+  }
+} sib8 |
 la sol fa4 fad2\trill |
 sol8 fa mi4 fa8 sol la la, |
 re1~ |

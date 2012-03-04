@@ -507,7 +507,7 @@ myfootnote =
 #(define-music-function (parser location grob offset text)
      (symbol? number-pair? markup?)
    (if (eqv? #t (ly:get-option 'print-footnotes))
-       #{ \autoFootnoteGrob $grob $offset $text #}
+       #{ \footnote $offset $grob $text #}
        (make-music 'Music 'void #t)))
 
 myfootnoteNoLine =

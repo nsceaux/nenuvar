@@ -59,7 +59,17 @@
     sol'8\trill sol' r16 sol' sol' la' sib'4 sib'8 sib'16 la' |
     la'4\trill r16 fa'' fa'' mi'' re''8.\trill do''16 |
     si'4\trill si' do'' re''8 mi'' |
-    sold' sold' r mi''16 fa'' re''8\trill re''16 do'' si'8.\trill la'16 |
+    sold' sold' \myfootnote #'Rest #'(0 . 2) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \set autoBeaming = ##f
+            \tinyQuote \time 4/4 \key do \major \clef "soprano"
+            sold'8 sold' mi''8. fa''16 re''8 re''16 do'' si'8. la'16 | la'4
+          } \addlyrics { -te -- re, d'un a -- mour qui vous fait hon -- neur. }
+        >>
+        \layout { \quoteLayout }
+      }
+    } r8 mi''16 fa'' re''8\trill re''16 do'' si'8.\trill la'16 |
     la'4 r4 r8 fa'16 sol' la'8\trill la'16 si' |
     do''8. do''16 re''8. re''16 mi''8. fa''16 |
     mi''8\trill mi'' r do''16 do'' sol'8\trill sol'16 la' |
@@ -110,7 +120,19 @@
         R1*4 |
         r2 r4 fa'4 |
         re'1 |
-        re'4. re'8 re'4 mi' |
+        \myfootnote #'NoteHead #'(0 . 1.5) \markup {
+          Manuscrit : \raise #3 \score {
+            <<
+              { \set autoBeaming = ##f
+                \tinyQuote #23 \time 2/2 \key do \major \clef "alto"
+                <mi' sol'>4. q8 q4. <re' fa'>8 | fa'2
+              } \addlyrics { sont les pro -- tec -- teurs }
+            >>
+            \layout { \quoteLayout }
+          }
+          Portée tracée à la main avec plusieurs notes non
+          raturées, difficilement lisibles.
+        } re'4. re'8 re'4 mi' |
         fa'2 fa'4 sol' |
         mi' fa' mi'4.\trill re'8 |
         re'4 r r2 |
@@ -118,7 +140,17 @@
       }
     >>
     \tag #'basse \atysMark fa'2-\tag #'atys ^\markup\character "Atys" re'8 re' |
-    la4\trill
+    \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \set autoBeaming = ##f
+            \tinyQuote #33 \time 4/4 \key do \major \clef "alto"
+            r4 fa'2 re'8. re'16 | si4
+          } \addlyrics { "Ah !" c'en est trop... }
+        >>
+        \layout { \quoteLayout }
+      }
+    } la4\trill
     \tag #'atys {
       r4 r2 | R1 | R2. | R1 | R1*2 | R2.*2 |
       R1*8 | R2. | R1*2 | R2.*2 | R1*4 |
