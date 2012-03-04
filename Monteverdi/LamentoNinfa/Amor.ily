@@ -22,7 +22,7 @@ IIcanto = {
   r1 r do'' re''\breve. |
   r1 r
   \footnote #'(0 . 1) #'NoteHead \markup {
-    Source: \italic { Basso Continuo, Tre parti } \raise #2.5 \score {
+    Source: \italic { Basso Continuo, Tre parti } \raise #3 \score {
       \new Staff <<
         { \tinyQuote \time 6/1 \clef "petrucci-c1"
           r1 r  re''1 mi'' mi'' mi'' }
@@ -31,7 +31,7 @@ IIcanto = {
       \layout { \quoteLayout line-width=20\mm }
     }
     \hspace #2
-    \italic \italic { Canto Primo } \raise #2.5 \score {
+    \italic \italic { Canto Primo } \raise #3 \score {
       \new Staff <<
         { \tinyQuote \time 6/1 \clef "petrucci-c1"
           r1 r  mi''1 mi'' mi'' mi'' }
@@ -114,7 +114,7 @@ IIcanto = {
   mi''1 do'' si' si'\breve la'1 |
   la' la' sold' sold'!\breve sold'1 |
   sol'!\breve
-  \footnote #'(0 . 3) #'NoteHead \markup {
+  \footnote #'(0 . 3.5) #'NoteHead \markup {
     Source: \italic { Basso Continuo, Canto Primo } \raise #2.5 \score {
       \new Staff <<
         { \tinyQuote \time 6/1 \clef "petrucci-c1"
@@ -132,7 +132,7 @@ IIcanto = {
       >>
       \layout { \quoteLayout line-width=15\mm }
     }
-  } fa'1 sol'\breve la'1 |
+  } fad'1 sol'\breve la'1 |
   la' la' la' la'\breve sold'1 |
   la'\breve. r\breve*3/2 |
   R\longa*3/2 |
@@ -258,7 +258,7 @@ IItenoreSecondo = {
   R R |
   r1 do' do' \blackNotation { si re'\breve~ } |
   re'1
-  \footnote #'(0 . 2) #'NoteHead \markup {
+  \footnote #'(0 . 2.5) #'NoteHead \markup {
     Source: \italic { Basso Continuo } \raise #3.5 \score {
       \new Staff <<
         { \tinyQuote \time 6/1 \clef "petrucci-c4"

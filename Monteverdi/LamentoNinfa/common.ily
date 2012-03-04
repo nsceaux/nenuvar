@@ -1,5 +1,5 @@
 \include "italiano.ly"
-#(ly:set-option 'point-and-click #f)
+%#(ly:set-option 'point-and-click #f)
 
 #(ly:set-option 'ancient-alteration (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))

@@ -49,7 +49,7 @@ ItenorePrimo = {
   \clef "petrucci-c4/G_8"
   r2 r4 do'8 do' do'4 do'8. do'16 do'4 do'8 do' do'4 mi'
   re'4. re'8 do'2 r4 sol sol8. sol16 sol8. sol16 la4 la8 mi fa2
-  sol2 re2. re4 do1 r8 do' do' si si4. la8 si4 si8 do' la4 la8 sold sold2.^"[problème ici]" fad4
+  sol2 re2. re4 do1 r8 do' do' si si4. la8 si4 si8 do' la4 la8 sold sold2. fad4
   sold1 la8 la16 si si8. do'16 do'4 do' r mi' fa'1 r4 la la2 r4 sold la1 r4 r8 re'
   si sol do' do' | la8 la r si sol mi la la re re' si sol do' do' r la'
   fa' re' sol' sol' mi' mi' r fa' | re' si mi' mi' do'4 r8 la si si sol mi
