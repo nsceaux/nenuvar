@@ -10,7 +10,7 @@
 %{ n°2 %}\newBookPart #'(full-rehearsal)
 \scene "Scène II" "SCÈNE 2 : Sangaride, Celænus"
 \sceneDescription \markup \smallCaps { Celænus, Sangaride. }
-\pieceTocTitle "Prélude" \includeScore "EBAprelude"
+\pieceTocTitle "[Prélude]" \includeScore "EBAprelude"
 %{ n°3 %}
 \pieceToc \markup \smallCaps { Sangaride, Celænus }
 \includeScore "EBBcelaenusSangaride"
