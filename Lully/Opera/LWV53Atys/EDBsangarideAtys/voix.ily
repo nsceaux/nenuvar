@@ -2,7 +2,17 @@
   %% Sangaride
   \tag #'(sangaride basse) {
     << { s1 s2. s1*4 s4 } \tag #'sangaride { \sangarideMark R1 | R2. | R1*4 | r4 } >>
-    \tag #'basse \sangarideMark r8 si' si'8. si'16 si'8. si'16 |
+    \tag #'basse \sangarideMark r8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \key sol \minor \clef "soprano" \time 4/4
+            r4 r8 sib' sib'8. sib'16 sib'8. sib'16 | do''4
+          } \addlyrics { Es -- par -- gnez- vous le soin }
+        >>
+        \layout { \quoteLayout }
+      }
+    } si'8 si'8. si'16 si'8. si'16 |
     do''4 sol'8 sol'16 sol' la'8. sib'16 |
     la'8\trill la' r do''16 do'' do''8 re''16 mib'' |
     fa''4 sib'8. sib'16 sib'8 sib'16 la' |
@@ -48,7 +58,17 @@
     << { s2 s1 s2.*4 s1*2 s4 } \tag #'sangaride { r2 | R1 | R2.*4 | R1*2 | r4 } >>
     \tag #'basse \sangarideMark sib'8 sib' si'8 si'16 si' si'8 do'' |
     re''8. re''16 re''8. re''16 mib''4 mib''8 fa''16 sol'' |
-    do''8 do''16 do'' re''8 re''16 mib'' fa''8 fa'' |
+    do''8 do''16 do'' \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \key sol \minor \clef "soprano" \time 3/4
+            do''8 do''16 do'' do''8 re''16 mib'' fa''8 fa'' | re''4 re''
+          } \addlyrics { -té de vou -- loir me trom -- per en -- co -- "re ?" }
+        >>
+        \layout { \quoteLayout }
+      }
+    } re''8 re''16 mib'' fa''8 fa'' |
     re''4\trill re''
     << { s2 s1*5 s4 } \tag #'sangaride { r2 | R1*5 | r4 } >>
     \tag #'basse \sangarideMark sol''4 r8 re''16 re'' si'8 re'' |
@@ -96,7 +116,10 @@
         do''2 si'4.\trill do''8 |
         do''1 |
       } >>
-    \tag #'basse \sangarideMark r4 r8 do'' sol'8. sol'16 sol'8. sol'16 |
+    \tag #'basse \sangarideMark
+    \myfootnote #'Rest #'(0 . 2) \markup {
+      Mesures 97-103 : le manuscrit a un ou deux bémols à la clé.
+    } r4 r8 do'' sol'8. sol'16 sol'8. sol'16 |
     mi'4\trill
     << { s2. s1*2 s2.*3 } \tag #'sangaride { r4 r2 | R1*2 | R2.*3 } >>
   }
@@ -123,7 +146,18 @@
     \tag #'basse \atysMark mib'8. sol16 lab4 lab8. sib16 |
     sol4
     << { s2.*2 s1*5 s4 } \tag #'atys {
-        r8 sol' fa'8.\trill fa'16 fa'8. sol'16 |
+        r8 sol' fa'8.\trill fa'16 fa'8.
+        \myfootnote #'NoteHead #'(0 . 1) \markup {
+          Manuscrit : \raise #3 \score {
+            <<
+              { \tinyQuote \set autoBeaming = ##f
+                \key sol \minor \clef "alto" \time 4/4
+                sol4 r8 sol' fa'8. fa'16 fa'8. re'16 | mib'4
+              } \addlyrics { "-roux !" Pour -- quoy m'a -- ban -- don -- ner }
+            >>
+            \layout { \quoteLayout }
+          }
+        } sol'16 |
         mib'4 mib'8 mib'16 re' do'8. sib16 |
         la4\trill la r2 |
         r8 sol' sol'8. sol'16 mi'4. mi'8 |
@@ -166,9 +200,29 @@
     << \tag #'atys { sol4\trill sol } \tag #'basse { sol8\trill sol s4 } >>
     << { s2 s1 s2. s2 } \tag #'atys { r2 | R1 | R2. | r2 } >>
     \tag #'basse \atysMark si4 si8 si |
-    do'4 r r8 sol' sol' sol' |
+    do'4 r \myfootnote #'Rest #'(0 . 2) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \key sol \minor \clef "alto" \time 4/4
+            do'4 r sol'4 sol'8 sol' | do'4
+          } \addlyrics { "-hir ?" Vous le pen -- "sez ?" }
+        >>
+        \layout { \quoteLayout }
+      }
+    } r8 sol'8 sol' sol' |
     do'4 r8 fa' sib8. sib16 sib sib sib sib |
-    sol4\trill r8 sol' mib' mib'16 mib' mib'8 sib16 do' |
+    sol4\trill r8 sol' \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \key sol \minor \clef "alto" \time 4/4
+            sol4 r8 sol' mib'16 mib' mib' mib' sib8 do' | re'8 re'16
+          } \addlyrics { "cez !" Hé bien, il ne faut plus rien tai -- re, }
+        >>
+        \layout { \quoteLayout }
+      }
+    } mib'8 mib'16 mib' mib'8 sib16 do' |
     re'8 re'16 sib re'\trill re' re' mib' fa'8 fa'16 fa' fa'8 sol'16 re' |
     mib'8 mib'16 sol' mib' re' do' sib la8\trill re'16 re' re'8 re'16 re' |
     si4
@@ -208,7 +262,17 @@
     fa'2 mib'4( re'8) mib' |
     re'2.\trill sol'4 |
     lab'2 fa'4 fa'8 fa' |
-    re'2\trill mib'4. lab'8 |
+    re'2\trill mib'4. \myfootnote #'NoteHead #'(0 . 0.5) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \key sol \minor \clef "alto" \time 2/2
+            re'2 mib'4. la'8 | re'2
+          } \addlyrics { -mais, en dé -- pit }
+        >>
+        \layout { \quoteLayout }
+      }
+    } lab'8 |
     re'2\trill re'4. mib'8 |
     do'2. sol'4 |
     lab'2 fa'4 fa'8 fa' |

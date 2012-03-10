@@ -56,7 +56,7 @@
     fad4\trill la8. la16 sib4 la8.\trill sol16 |
     sol2 r8 sol16 sol re8\trill re16 mi |
     fa4 r8 la la8. la16 la8 si |
-    do'8 do' r la16 sol fa8\trill fa16 mi re8.\trill do16 |
+    do'8 do' r la16 sol fa8\trill fa16 mi re8.\tr do16 |
     do1 |
   }
 >>
