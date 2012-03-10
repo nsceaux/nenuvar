@@ -12,7 +12,7 @@ sol,1 |
 sold,2 la, |
 fa2 re |
 mi4. do8 si, la, mi mi, |
-la,1 |
+<< \origVersion { la,2~ la, } \modVersion la,1 >> |
 re2~ re8. do16 si,8. la,16 |
 sol,2 do4 |
 fa, fa8. mi16 re8\trill do sol sol, |
@@ -20,7 +20,7 @@ do1~ |
 do2 la, |
 sib,4 sol,2 |
 re do4 re |
-sol,1 |
+sol,2 sol, |
 re1 |
 la,2 si,8 do sol,4 |
 do1 |
