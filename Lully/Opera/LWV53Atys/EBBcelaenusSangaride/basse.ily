@@ -2,12 +2,20 @@
 do2 si, |
 do la,4 mi, |
 fa, fa2 |
-mi4 fad\trill sol do |
+mi4 \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \time 2/2
+      \key do \major \clef "bass"
+      mi4 fa sol do | sol,1 |
+    } 
+    \layout { \quoteLayout }
+  }
+} fad4\trill sol do |
 sol,1 |
 re,2. |
 la, |
 re4 mib8 do re re, |
-sol,2. mi,4 |
+<< \origVersion { sol,2~ sol,4 } \modVersion sol,2. >> mi,4 |
 fa,2 sol, |
 sol mi |
 fa fad\trill |
@@ -22,7 +30,15 @@ re2 re8 do |
 si,4 fad,2\trill |
 sol,4 sol dod2 |
 re sib, |
-la,2. la4 |
+la,2. \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #2.5 \score {
+    { \tinyQuote \time 4/4
+      \key do \major \clef "bass"
+      la,2. la8 sol | fa4. mi8 la4 la, |
+    } 
+    \layout { \quoteLayout }
+  }
+} la4 |
 fa4. re8 la4 la, |
 re2 do4 |
 si,2. |

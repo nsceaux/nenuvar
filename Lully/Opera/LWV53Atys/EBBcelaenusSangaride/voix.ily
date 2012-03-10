@@ -1,11 +1,29 @@
 <<
   %% Sangaride
   \tag #'(sangaride basse) {
-    << { s1*3 | s2. | s1*2 | s2.*3 | s1*9 | s4 }
-      \tag #'sangaride { \sangarideMark R1*3 | R2. | R1*2 | R2.*3 | R1*9 | r4 } >>
-    \tag #'basse \sangarideMark r8 mi'' si'8.\trill si'16 mi''8. si'16 |
+    <<
+      { s1*3 | s2. | s1*2 | s2.*3 | s1*9 | s4 }
+      \tag #'sangaride {
+        \sangarideMark R1*3 | R2. | R1*2 | R2.*3 |
+        << \origVersion { r2 r R1*5 r2 r R1*2 } \modVersion R1*9 >> |
+        r4
+      }
+    >>
+    \tag #'basse \sangarideMark
+    r8-\tag #'sangaride ^\markup\orig-version\character "[Sangaride]"
+    mi'' si'8.\trill si'16 mi''8. si'16 |
     do''4 r8 do''16 si' la'8\trill la'16 sol' |
-    fad'8\trill fad' r la'16 la' la'8 si'16 do'' |
+    \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key do \major \clef "soprano"
+            do''4 r8 do''16 si' la'8 la'16 sol' | fa'8 fa'
+          } \addlyrics { -ray, je des -- pens de mon pe -- re, }
+        >>
+        \layout { \quoteLayout }
+      }
+    } fad'8\trill fad' r la'16 la' la'8 si'16 do'' |
     re''4 la'8 la'16 la' si'8. do''16 |
     si'4\trill
     << { s2. | s1 | s2 } \tag #'sangaride { r4 r2 | R1 | r2 } >>
@@ -28,7 +46,17 @@
     do'4 do'8 re' si4\trill si8 do' |
     re'4 r8 sol re8.\trill re16 re8. mi16 |
     fa4 r16 fa fa sol la8. si16 |
-    do'4 r8 do'16 do' la8\trill la16 la |
+    do'4 r8 do'16 \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \time 3/4 \set autoBeaming = ##f
+            \key do \major \clef "varbaritone"
+            do'4 r8 do'16 si la8 la16 sol | fad8.
+          } \addlyrics { -tant d'où des -- pend la dou -- ceur }
+        >>
+        \layout { \quoteLayout }
+      }
+    } do'16 la8\trill la16 la |
     fad8. fad16 sol8 sol sol8. fad16 |
     sol4 sol sol8. sol16 do'8 do'16 do' |
     la8\trill la16 sol fa8 fa16 mi re4\trill r8 re' |
