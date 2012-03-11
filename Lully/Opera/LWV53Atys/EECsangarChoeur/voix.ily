@@ -1,4 +1,4 @@
-\sangarMark do4 do2 |
+\clef "vbasse" do4^\markup\character "[Le Fleuve Sangar]" do2 |
 sol2 sol4 mi mi2 |
 la2 la4 fa fa2 |
 do'2. do'4 si do' |
@@ -36,7 +36,7 @@ la2 la4 mi mi2 |
 fa2. re4 re sol |
 do2.
 <<
-  \tag #'voix { r4 r2 | R1.*21 | r2 r4 }
+  \tag #'sangar { r4 r2 | R1.*21 | r2 r4 }
   \tag #'basse {
     \clef "vhaute-contre" mi'4^\markup \character "Les Fleuves" mi'2 |
     re'\trill re'4 sol' sol'2 |

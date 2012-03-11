@@ -1,31 +1,53 @@
 \score {
   \new StaffGroupNoBar <<
-    \new GrandStaff <<
-      \newHaraKiriStaff << s4^"Violons" \global \includeNotes "dessus1" >>
-      \newHaraKiriStaff << \global \includeNotes "dessus2" >>
-    >>
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
+    \origVersion <<
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus1" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus2" >>
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles-choeur"
-      \newHaraKiriStaffB \withLyrics <<
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-taille1"
-      >> \includeLyrics "paroles-choeur"
-      \newHaraKiriStaffB \withLyrics <<
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-taille2"
-      >> \includeLyrics "paroles-choeur"
-      \newHaraKiriStaffB \withLyrics <<
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-basse"
-      >> \includeLyrics "paroles-choeur"
+      >> \keepWithTag #'choeur \includeLyrics "paroles"
     >>
-    \newHaraKiriStaff \withLyrics <<
-      \global \keepWithTag #'voix \includeNotes "voix"
-    >> \keepWithTag #'voix \includeLyrics "paroles"
+    \modVersion <<
+      \new GrandStaff <<
+        \new Staff \with { \haraKiri } << \global \includeNotes "dessus1" >>
+        \new Staff \with { \haraKiri } << \global \includeNotes "dessus2" >>
+      >>
+      \new ChoirStaff <<
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-haute-contre"
+        >> \keepWithTag #'choeur \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-taille1"
+        >> \keepWithTag #'choeur \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-taille2"
+        >> \keepWithTag #'choeur \includeLyrics "paroles"
+        \new Staff \with { \haraKiriFirst } \withLyrics <<
+          \global \includeNotes "voix-basse"
+        >> \keepWithTag #'choeur \includeLyrics "paroles"
+      >>
+    >>
+    \new Staff \with { \haraKiri } \withLyrics <<
+      \global \keepWithTag #'sangar \includeNotes "voix"
+    >> \keepWithTag #'sangar \includeLyrics "paroles"
     \new Staff <<
       \global \includeNotes "basse"
       \includeFigures "chiffres"
+      \modVersion { s2. s1.*35 s2. \bar "" \break }
     >>
   >>
-  \layout { indent = \noindent }
+  \layout {
+    indent = \noindent
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }
