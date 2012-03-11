@@ -61,6 +61,8 @@
 %{ n°13 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Gavotte"
 \includeScore "EEHgavotte"
+\markup\orig-version\vspace #40
+\origVersion\pageBreak
 %{ n°14 %}
 \pieceToc \markup { \smallCaps Chœur :
   \italic { Un grand calme est trop fâcheux } }

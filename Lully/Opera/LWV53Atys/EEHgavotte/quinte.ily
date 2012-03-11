@@ -14,4 +14,11 @@ mi'2 si4. si8 |
 la4 mi' mi' mi' |
 re'2 re'4 re' |
 re' mi' mi'4. si8 |
-do'2
+\myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \key la \minor \clef "alto" \time 2/2
+      re'4 mi' mi'4. si8 | dod'2 \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+} do'2
