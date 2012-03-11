@@ -1,4 +1,13 @@
-\clef "vhaute-contre" mi'4 mi' |
+\clef "vhaute-contre" mi'4 \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    <<
+      { \tinyQuote \key la \minor \clef "alto" \time 2/2 \partial 2
+        mi'4 sol' | do' do' re' mi' | mi'2 mi'4 sol' | do'
+      } \addlyrics { Un grand calme est trop fas -- cheux nous ai -- mons }
+    >>
+    \layout { \quoteLayout }
+  }
+} mi'4 |
 do' do' re' mi' |
 mi'2 mi'4 mi' |
 do' do' re' mi' |
@@ -10,6 +19,15 @@ sol'2 sol'4 sol' |
 mi' fa' sol' la' |
 la' fa' la'4. la'8 |
 sol'4 sol' la'4. la'8 |
-sold'2 mi'4 mi' |
+sold'2 mi'4 \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    <<
+      { \tinyQuote \key la \minor \clef "alto" \time 2/2 \partial 2
+        mi'4 sol' | do' do' re' mi' | mi' dod' \bar "|."
+      } \addlyrics { nous ai -- mons mieux la tour -- men -- te }
+    >>
+    \layout { \quoteLayout }
+  }
+} mi'4 |
 do' do' re' mi' |
 mi' do'
