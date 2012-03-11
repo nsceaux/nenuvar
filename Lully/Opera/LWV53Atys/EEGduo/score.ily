@@ -1,15 +1,21 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff \withLyrics <<
+    \new Staff \withLyricsB <<
       \global \includeNotes "voix-dessus"
-    >> \includeLyrics "paroles"
-    \new Staff \withLyrics <<
+    >> \keepWithTag #'vers1 \includeLyrics "paroles"
+    \keepWithTag #'vers2 \includeLyrics "paroles"
+    \new Staff \withLyricsB <<
       \global \includeNotes "voix-haute-contre"
-    >> \includeLyrics "paroles"
-    \newTinyStaff \withLyrics <<
+    >> \keepWithTag #'vers1 \includeLyrics "paroles"
+    \keepWithTag #'vers2 \includeLyrics "paroles"
+    \modVersion\new Staff \with { \tinyStaff } \withLyricsB <<
       \global \includeNotes "voix-basse"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \includeNotes "basse" \includeFigures "chiffres" >>
+    >> \keepWithTag #'vers1 \includeLyrics "paroles"
+    \keepWithTag #'vers2 \includeLyrics "paroles"
+    \new Staff <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+    >>
   >>
   \layout { indent = \noindent }
   \midi { }

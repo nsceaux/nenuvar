@@ -1,4 +1,13 @@
 \clef "quinte" do'2 si4 |
+\myfootnote #'NoteHead #'(0 . 3.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote
+      \key la \minor \clef "alto" \time 3/4
+      la4 re' do' | la2 si4 |
+    }
+    \layout { \quoteLayout }
+  }
+}
 la2 re'4 |
 do' la si |
 do'2 si4 |

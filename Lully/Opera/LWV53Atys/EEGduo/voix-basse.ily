@@ -1,4 +1,4 @@
-\clef "vbasse" la4. la8 la4 |
+\clef "vbasse" la4.^\markup { "[Matériel Philidor 1703]" } la8 la4 |
 re4 sol2 |
 do2 do4 |
 sol4. fa8 mi4 |
