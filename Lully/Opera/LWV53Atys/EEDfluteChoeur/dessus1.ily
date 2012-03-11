@@ -1,4 +1,4 @@
-\clef "dessus" mi''4. mi''8 |
+\clef "dessus" mi''4.^\markup\large Flutes mi''8 |
 re''4\trill re'' sol''4. sol''8 |
 mi''4\trill mi'' fa''4. fa''8 |
 fa''4 mi'' re''4.\trill do''8 |

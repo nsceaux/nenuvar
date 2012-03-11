@@ -1,22 +1,60 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << s4^"Flûtes" \global \includeNotes "dessus1" >>
-      \newHaraKiriStaff << \global \includeNotes "dessus2" >>
+    \setMusic #'choeur <<
+      \new Staff \with { \haraKiriFirst } <<
+        \new Voice = "dessus" \with { autoBeaming = ##f } <<
+          \global \includeNotes "voix-dessus"
+        >>
+        \lyricsto "dessus" \new Lyrics
+        \keepWithTag #'(couplet-1-1 refrain) \includeLyrics "paroles"
+        \lyricsto "dessus" \new Lyrics
+        \keepWithTag #'couplet-1-2 \includeLyrics "paroles"
+        \lyricsto "dessus" \new Lyrics
+        \keepWithTag #'couplet-2-1 \includeLyrics "paroles"
+        \lyricsto "dessus" \new Lyrics
+        \keepWithTag #'couplet-2-2 \includeLyrics "paroles"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \new Voice = "bas-dessus" \with { autoBeaming = ##f } <<
+          \global \includeNotes "voix-bas-dessus"
+        >>
+        \lyricsto "bas-dessus" \new Lyrics
+        \keepWithTag #'(couplet-1-1 refrain) \includeLyrics "paroles"
+        \lyricsto "bas-dessus" \new Lyrics
+        \keepWithTag #'couplet-1-2 \includeLyrics "paroles"
+        \lyricsto "bas-dessus" \new Lyrics
+        \keepWithTag #'couplet-2-1 \includeLyrics "paroles"
+        \lyricsto "bas-dessus" \new Lyrics
+        \keepWithTag #'couplet-2-2 \includeLyrics "paroles"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \new Voice = "haute-contre" \with { autoBeaming = ##f } <<
+          \global \includeNotes "voix-haute-contre"
+        >>
+        \lyricsto "haute-contre" \new Lyrics
+        \keepWithTag #'(couplet-1-1 refrain) \includeLyrics "paroles"
+        \lyricsto "haute-contre" \new Lyrics
+        \keepWithTag #'couplet-1-2 \includeLyrics "paroles"
+        \lyricsto "haute-contre" \new Lyrics
+        \keepWithTag #'couplet-2-1 \includeLyrics "paroles"
+        \lyricsto "haute-contre" \new Lyrics
+        \keepWithTag #'couplet-2-2 \includeLyrics "paroles"
+      >>
     >>
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyricsB <<
-        \global \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles" \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyricsB <<
-        \global \includeNotes "voix-bas-dessus"
-      >> \includeLyrics "paroles" \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyricsB <<
-        \global \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles" \includeLyrics "paroles2"
+    \origVersion <<
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus1" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus2" >>
+      \choeur
+    >>
+    \modVersion <<
+      \new GrandStaff <<
+        \new Staff \with { \haraKiri } << \global \includeNotes "dessus1" >>
+        \new Staff \with { \haraKiri } << \global \includeNotes "dessus2" >>
+      >>
+      \new ChoirStaff \choeur
     >>
     \new Staff <<
-      { s2 s1*3 s2 s2 s1*11 s2\break }
+      \modVersion { s2 s1*3 s2 s2 s1*11 s2\break }
       \global \includeNotes "basse"
       \includeFigures "chiffres"
     >>
