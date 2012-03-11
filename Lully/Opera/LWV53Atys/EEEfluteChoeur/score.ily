@@ -1,26 +1,58 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << s4^"Flûtes" \global \includeNotes "dessus1" >>
-      \newHaraKiriStaff << \global \includeNotes "dessus2" >>
+    \origVersion <<
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus1" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus2" >>
     >>
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyricsB <<
+    \modVersion\new GrandStaff <<
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus1" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus2" >>
+    >>
+    \new Staff \with { \haraKiriFirst } <<
+      \new Voice = "dessus" \with { autoBeaming = ##f } <<
         \global \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles" \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyricsB <<
+      >>
+      \lyricsto "dessus" \new Lyrics
+      \keepWithTag #'(couplet-1-1 refrain) \includeLyrics "paroles"
+      \lyricsto "dessus" \new Lyrics
+      \keepWithTag #'couplet-1-2 \includeLyrics "paroles"
+      \modVersion\lyricsto "dessus" \new Lyrics
+      \keepWithTag #'couplet-2-1 \includeLyrics "paroles"
+      \modVersion\lyricsto "dessus" \new Lyrics
+      \keepWithTag #'couplet-2-2 \includeLyrics "paroles"
+    >>
+    \new Staff \with { \haraKiriFirst } <<
+      \new Voice = "bas-dessus" \with { autoBeaming = ##f } <<
         \global \includeNotes "voix-bas-dessus"
-      >> \includeLyrics "paroles" \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyricsB <<
+      >>
+      \lyricsto "bas-dessus" \new Lyrics
+      \keepWithTag #'(couplet-1-1 refrain) \includeLyrics "paroles"
+      \lyricsto "bas-dessus" \new Lyrics
+      \keepWithTag #'couplet-1-2 \includeLyrics "paroles"
+      \modVersion\lyricsto "bas-dessus" \new Lyrics
+      \keepWithTag #'couplet-2-1 \includeLyrics "paroles"
+      \modVersion\lyricsto "bas-dessus" \new Lyrics
+      \keepWithTag #'couplet-2-2 \includeLyrics "paroles"
+    >>
+    \new Staff \with { \haraKiriFirst } <<
+      \new Voice = "haute-contre" \with { autoBeaming = ##f } <<
         \global \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles" \includeLyrics "paroles2"
+      >>
+      \lyricsto "haute-contre" \new Lyrics
+      \keepWithTag #'(couplet-1-1 refrain) \includeLyrics "paroles"
+      \lyricsto "haute-contre" \new Lyrics
+      \keepWithTag #'couplet-1-2 \includeLyrics "paroles"
+      \modVersion\lyricsto "haute-contre" \new Lyrics
+      \keepWithTag #'couplet-2-1 \includeLyrics "paroles"
+      \modVersion\lyricsto "haute-contre" \new Lyrics
+      \keepWithTag #'couplet-2-2 \includeLyrics "paroles"
     >>
     \new Staff <<
-      { s2.*24\break }
+      \modVersion { s2.*24\break }
       \global \includeNotes "basse"
       \includeFigures "chiffres"
     >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }

@@ -1,5 +1,5 @@
 \tag #'couplet-1-1 {
-  \set stanza = "[1]"
+  \modVersion\set stanza = "[1]"
   La Beau -- té la plus se -- ve -- re
   Prend pi -- tié d'un long tour -- ment,
 }

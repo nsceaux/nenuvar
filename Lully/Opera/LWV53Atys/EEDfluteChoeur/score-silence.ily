@@ -1,5 +1,5 @@
 \markup \line {
-  \force-line-width-ratio #9/20 \score {
+  \force-line-width-ratio #7/20 \score {
     \new Staff \with { \tinyStaff } <<
       \keepWithTag #'(part) \global \includeNotes #(*note-filename*)
       \clef #(*clef*)
@@ -8,7 +8,7 @@
     \layout {
       indent = #0
       ragged-last = ##t
-      line-width = 5\cm
+      line-width = 4\cm
       \context {
         \Score
         \remove "Bar_number_engraver"
@@ -19,15 +19,31 @@
   }
   \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold\line { Dieux de Fleuves, Divinitez de Fontaines & de Ruisseaux }
-    \sline { La Beauté la plus severe }
-    \sline { Prend pitié d'un long tourment, }
-    \sline { Et l'Amant qui persevere }
-    \sline { Devient un heureux Amant. }
-    \sline { Tout est doux, et rien ne coûte }
-    \sline { Pour un cœur qu'on veut toucher, }
-    \sline { L'onde se fait une route }
-    \sline { En s'efforçant d'en chercher, }
-    \sline { L'eau qui tombe goute à goute }
-    \sline { Perce le plus dur Rocher. }
+    \line {
+      \column {
+        \sline { La Beauté la plus severe }
+        \sline { Prend pitié d'un long tourment, }
+        \sline { Et l'Amant qui persevere }
+        \sline { Devient un heureux Amant. }
+        \sline { Tout est doux, et rien ne coûte }
+        \sline { Pour un cœur qu'on veut toucher, }
+        \sline { L'onde se fait une route }
+        \sline { En s'efforçant d'en chercher, }
+        \sline { L'eau qui tombe goute à goute }
+        \sline { Perce le plus dur Rocher. }
+      }
+      \column {
+        \sline { Il n'est point de resistance }
+        \sline { Dont le temps ne vienne à bout, }
+        \sline { Et l'effort de la constance }
+        \sline { A la fin doit vaincre tout. }
+        \sline { Tout est doux, et rien ne coûte }
+        \sline { Pour un cœur qu'on veut toucher, }
+        \sline { L'onde se fait une route }
+        \sline { En s'efforçant d'en chercher, }
+        \sline { L'eau qui tombe goute à goute }
+        \sline { Perce le plus dur Rocher. }
+      }
+    }
   }
 }

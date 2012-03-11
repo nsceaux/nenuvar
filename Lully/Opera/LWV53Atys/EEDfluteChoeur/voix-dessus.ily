@@ -13,7 +13,7 @@ r2
   }
   \score {
     <<
-      { \set autoBeaming = ##f
+      { \set autoBeaming = ##f \tinyQuote
         \key do \major \digitTime \time 2/2 \clef "treble"
         \partial 2 mi''4. mi''8 |
         re''4 re'' sol''4. sol''8 |
@@ -36,7 +36,10 @@ r2
         A la fin doit vain -- cre tout.
       }
     >>
-    \layout { indent = 0 }
+    \layout {
+      indent = 0
+      \context { \Staff \consists "Time_signature_engraver" }
+    }
   }
   \wordwrap {
     Dans le matériel Philidor 1703, les pièces se succèdent ainsi :

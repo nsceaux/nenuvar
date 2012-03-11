@@ -331,6 +331,7 @@
   \livretVerC { L'Hymen vient quand on l'appelle, }
   \livretVerC { L'Amour vient quand il luy plaist. }
   \null
+  \livretRef #'EEDfluteChoeur
   \livretVerC { Il n'est point de resistance }
   \livretVerC { Dont le temps ne vienne à bout, }
   \livretVerC { Et l'effort de la constance }
@@ -342,6 +343,7 @@
   \livretVerC { L'eau qui tombe goute à goute }
   \livretVerC { Perce le plus dur Rocher. }
   \null
+  \livretRef #'EEEfluteChoeur
   \livretVerC { L'Amour trouble tout le Monde, }
   \livretVerC { C'est la source de nos pleurs ; }
   \livretVerC { C'est un feu brûlant dans l'onde, }
