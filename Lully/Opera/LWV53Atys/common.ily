@@ -182,7 +182,7 @@ songeFunesteMark =
 %%
 sangarMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbasse" "Sangar"))
+  (make-character-mark "vbasse" "Le Fleuve Sangar"))
 
 choeurMark =
 #(define-music-function (parser location) ()

@@ -1,2 +1,1 @@
-R1*5\noBreak R2.\noBreak R1*5\noBreak R1*2\noBreak R1*3\noBreak
-R1\noBreak R2.\noBreak R1\noBreak R2.*2\noBreak R1\noBreak r2 r4
+R1*5 R2. R1*5 R1*2 R1*3 R1 R2. R1 R2.*2 R1 r2*3/2

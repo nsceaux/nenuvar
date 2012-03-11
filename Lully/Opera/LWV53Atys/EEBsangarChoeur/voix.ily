@@ -4,7 +4,18 @@ mi4\trill mi sol8 sol16 sol la8. si16 |
 do'4. la8 fad\trill fad fad8. sol16 |
 sol2 r8 re16 re re8 re16 mi |
 fa8. fa16 fa8. fa16 fa8. mi16 |
-mi4\trill r8 do' la8.\trill la16 mi8. fa16 |
+mi4\trill r8 do' la8.\trill la16 mi8.
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    <<
+      { \tinyQuote \set autoBeaming = ##f
+        \key do \major \clef "bass" \time 4/4
+        mi4 r8 do' la8. la16 mi8. fad16 | sol4
+      } \addlyrics { -rents, voy -- ez quel est l'es -- poux }
+    >>
+    \layout { \quoteLayout }
+  }
+} fa16 |
 sol4 sol8. sol16 sol4 sol8 fad |
 fad4\trill fad r8 re16 re re8 mi16 fad |
 sol2 la8 la16 la si8 do' |
@@ -24,7 +35,7 @@ fad4\trill fad r re |
 sol8. sol16 sol8.\trill sol16 sol8. fad16 |
 sol2 sol |
 <<
-  \tag #'sangar { R2.*2 | R1 | r2 r4 }
+  \tag #'sangar { R2.*2 | R1 | r2*3/2 }
   \tag #'basse {
     \clef "vhaute-contre" sol'4^\markup\character "Les Fleuves" mi'8 mi'16 mi' mi'8. fa'16 |
     re'4\trill r8 sol' sol' sol' |

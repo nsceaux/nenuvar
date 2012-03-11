@@ -5,9 +5,25 @@ fa''( sol'') fa''( mi'') re''( mi'') re''( do'') |
 si'2\trill~ si'4. si'8 |
 do''8( re'') mi''( do'') fa''( sol'') fa''( mi'') |
 re''( mi'') fa''( re'') sol''( la'') sol''( fa'') |
-mi''( fa'') sol''( mi'') la''( si'') la''( sol'') |
+mi''( fa'') sol''( mi'') la''(
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #4 \score {
+    { \tinyQuote \key do \major \clef "french" \time 2/2
+      mi''8 fa'' sol'' mi'' la'' sib'' la'' sol'' | fad''2
+    }
+    \layout { \quoteLayout }
+  }
+} si''8) la''( sol'') |
 fad''2 sol''4. sol''8 |
-sol''4. la''8 fad''4.\trill sol''8 |
+sol''4. la''8 fad''4.\trill
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \key do \major \clef "french" \time 2/2
+      sol''4. la''8 fad''4. mi''16 fad'' | sol''4
+    }
+    \layout { \quoteLayout }
+  }
+} sol''8 |
 sol''4 sol'8( la') si'( do'') re''( mi'') |
 fa''( mi'') fa''( re'') mi''( fa'') fa''( mi'') |
 re''4\trill si'8 si' do''( re'') do''( re'') |

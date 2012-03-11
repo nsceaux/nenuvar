@@ -12,7 +12,7 @@ sol,2 sol |
 mi2.\trill fa4 |
 do1~ |
 do |
-la,1 |
+<< \origVersion { la,2~ la, } \modVersion la,1 >> |
 sib,2 mib |
 re1 |
 sib,8 sol, re4 re, |

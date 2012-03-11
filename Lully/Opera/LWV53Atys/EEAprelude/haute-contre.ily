@@ -15,5 +15,12 @@ do''4 do''8 do'' do''2 |
 do'' re''4 la' |
 sol'2 sol'4. sol'8 |
 sol'4. sol'8 do''8 re'' re''8. do''16 |
-si'4. si'8 la' la' sol'8. sol'16 |
+si'4. si'8 la' la' sol'8. \myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #2.5 \score {
+    { \tinyQuote \key do \major \clef "soprano" \time 2/2
+      si'4. si'8 la' la' sol'8. fa'16 | mi'1 |
+    }
+    \layout { \quoteLayout }
+  }
+} sol'16 |
 mi'1 |
