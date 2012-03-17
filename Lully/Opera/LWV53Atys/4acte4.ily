@@ -74,7 +74,21 @@
 \sceneDescription \markup \smallCaps { Celænus, Sangar, Atys. }
 \pieceToc \markup \smallCaps { Atys, Celænus, Sangar, chœur }
 \includeScore "EFAchoeur"
-%{ n°16 %}
-\pieceTocTitle "Entr'acte"
-\includeScore "EFBgavotte"
-\actEnd "FIN DU QUATRIÈME ACTE"
+\noPageBreak\markup\fill-line\large {
+  \line {
+    On reprend pour la Gavotte
+    \raise #4 \score {
+      { \clef "dessus" \digitTime\time 2/2 \partial 2
+        do''4 mi'' | la' mi'' fa''8 mi'' re'' do'' \bar "||"
+      }
+      \layout { indent = 0 }
+    }
+    pour Entr'Acte, page \page-refIII #'EEHgavotte .
+    \orig-version\auto-footnote \null
+    \line { Manuscrit :
+      \italic { on reprend pour entr'acte le menuet de Flore. }
+    }
+  }
+}
+\markup\vspace #2
+\actEnd "FIN DU QUATRIESME ACTE"

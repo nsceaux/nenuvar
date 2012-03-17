@@ -18,7 +18,7 @@ sol,2. sol4 |
 do'2 do |
 fa1 |
 re2 re,4 |
-la,2. fad,4 |
+<< \origVersion { la,2~ la,4 } \modVersion la,2. >> fad,4 |
 sol, sol sold2\trill |
 la2. |
 re2 mi4 mi, |

@@ -9,7 +9,7 @@
     si4\trill re'16 re' re' mi' la8\trill la16 si |
     sol2 sol |
     << { s1*2 s2. s1 s4. } \tag #'atys { R1*2 | R2. | R1 | r4 r8 } >>
-    \tag #'basse \atysMark re'8-\tag #'atys ^\markup\character "Atys" re'8. si16 mi' mi' mi' si |
+    \tag #'basse \atysMark re'8-\tag #'atys ^\markup\character "[Atys]" re'8. si16 mi' mi' mi' si |
     do'8 do' r do'16 do' do'8 re'16 mi' |
     fa'4 re'8. do'16 si4\trill si8. do'16 |
     la4
@@ -38,7 +38,9 @@
   \tag #'(sangar basse) {
     << { s1*14 s2.*2 s1*3 s2. s1*2 s2. s1 s4 }
       \tag #'sangar { \sangarMark R1*14 | R2.*2 | R1*3 | R2. | R1*2 | R2. | R1 | r4 } >>
-    \tag #'basse \sangarMark r16 la-\tag #'sangar ^\markup\character "Sangar" la la re'4 fad8 fad16 la |
+    \tag #'basse \sangarMark
+    r16 la-\tag #'sangar ^\markup\character "Le Fleuve Sangar"
+    la la re'4 fad8 fad16 la |
     re8 re r la16 la sib8 sib16 sib |
     sol8\trill sol sol sol sol la |
     fad4\trill fad8 re16 re sol4 sol8 fad |
@@ -68,7 +70,17 @@
     mi''4 r r8 mi'' mi'' mi'' |
     do'' do'' do'' re'' si'4.\trill mi''8 |
     dod''4\trill dod'' r8 dod'' dod'' dod'' |
-    re''4 r r8 re'' re'' re'' |
+    re''4 r r8 re'' re'' \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #2.5 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \key do \major \clef "soprano" \time 2/2
+            re''4 r r8 re'' re'' do'' | si'
+          } \addlyrics { nous, op -- po -- sons- nous }
+        >>
+        \layout { \quoteLayout }
+      }
+    } re''8 |
     si'\trill si' si' do'' la'4. re''8 |
     si'2\trill si' |
     << { s1*7 s2. } \tag #'choeur { R1*7 | R2. | } >>
