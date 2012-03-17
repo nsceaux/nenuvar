@@ -148,7 +148,7 @@ dorisAtysIdasMark =
 
 cybeleMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Cybèle"))
+  (make-character-mark "vbas-dessus" "Cybele"))
 
 melisseMark =
 #(define-music-function (parser location) ()

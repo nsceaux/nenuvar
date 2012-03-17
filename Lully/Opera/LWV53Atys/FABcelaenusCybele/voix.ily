@@ -4,7 +4,8 @@
     << { s1 s2.*2 s1*2 s1. s2. s1*3 s2. s1 s4 }
       \tag #'cybele { \cybeleMark R1 | R2.*2 | R1*2 |
         R1. | R2. | R1*3 | R2. | R1 | r4 } >>
-    \tag #'basse \cybeleMark r8 la' la'8. la'16 fad'4\trill |
+    \tag #'basse \cybeleMark r8-\tag #'cybele ^\markup\character Cybele
+    la' la'8. la'16 fad'4\trill |
     r8 re'' re''8. re''16 si'8.\trill si'16 si'8. si'16 |
     sold'8 sold'16 si' si'8. dod''16 re''8. re''16 re''8. mi''16 |
     dod''8\trill dod'' r16 la' la' la' re''8. re''16 re''8. re''16 |
@@ -40,7 +41,49 @@
     re''4
     << { s2. s2.. } \tag #'cybele { r4 r2 | r2 r4 r8 } >>
     \tag #'basse \cybeleMark mi''8 dod''8.\trill dod''16 dod''8. mi''16 la'8 la'16 la' mi'8 fad'16 sol' |
-    fad'8.\trill la'16 la' la' la' si' do''?8 %{ dod''8 1ère édition %} la'16 la' re''8 re''16 re'' |
+    fad'8.\trill la'16 la' la' la' si' \myfootnote #'NoteHead #'(0 . 1)
+    \markup\column {
+      \line {
+        Ballard : \raise #3 \score {
+          \new StaffGroupNoBar <<
+            \new Staff <<
+              { \tinyQuote \set autoBeaming = ##f
+                \key re \major \clef "soprano" \time 4/4
+                fad'8. la'16 la' la' la' si' dod''8 la'16 la'
+                re''8 re''16 re'' | si'8 si'16
+              } \addlyrics { "gé ;" je vous l'ay dé -- jà dit,
+                croy -- ez- en ma co -- lè -- re, }
+            >>
+            \new Staff {
+              \key re \major \clef "bass"
+              re2 la4 fad | sol8 mi
+            }
+          >>
+          \layout { \quoteLayout }
+        }
+        Manuscrit : \raise #3 \score {
+          \new StaffGroupNoBar <<
+            \new Staff <<
+              { \tinyQuote \set autoBeaming = ##f
+                \key re \major \clef "soprano" \time 4/4
+                fad'8 la'16 la' la'8 la'16 si' do''8 la'16 la'
+                re''8 re''16 re'' | si'8 si'16
+              } \addlyrics { "gé ;" je vous l'ay dé -- jà dit,
+                croy -- ez- en ma co -- lè -- re, }
+            >>
+            \new Staff {
+              \key re \major \clef "bass"
+              re4 re' fad2 | sol8 mi
+            }
+          >>
+          \layout { \quoteLayout }
+        }
+      }
+      \wordwrap {
+        Le do \figure-natural sur le troisième temps est confirmé
+        dans l'édition Baussen 1709.
+      }
+    } do''?8 %{ dod''8 1ère édition %} la'16 la' re''8 re''16 re'' |
     si'8\trill si'16 mi'' dod''8\trill mi''16 fad'' re''4 re''8 dod'' |
     \custosNote re''4
   }

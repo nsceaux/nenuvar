@@ -4,7 +4,7 @@ mi~ |
 mi2 sold,\trill |
 la, mi |
 si,1 mi2 |
-la,2.~ |
+<< \origVersion { la,2~ la,4~ } \modVersion la,2.~ >> |
 la,4. sol,8 fad,2 |
 sol, sold,4\trill la,8 fa, |
 mi,2 mi8. re16 dod8. si,16 |
