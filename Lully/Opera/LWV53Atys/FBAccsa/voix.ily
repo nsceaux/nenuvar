@@ -45,7 +45,7 @@
     la'4.\trill la'8 fa''4 |
     re''4. mi''8 dod''4 |
     re'' re'' r2 |%%
-    do''8. do''16 la'8\trill la'16 do'' fa'8 do''16 do'' fa''8 fa''16 fa'' |
+    do''8.^\markup\character Cybele do''16 la'8\trill la'16 do'' fa'8 do''16 do'' fa''8 fa''16 fa'' |
     re''4\trill re''8 re''16 re'' re''8 fa'' |
     sib'4 sib'8 sib'16 sib' sib'4. la'8 |
     %{ do''4 do'' 1ere édition %} la'4\trill la' fa''8. fa''16 re''8\trill re''16 re'' |
@@ -64,7 +64,28 @@
     sol'4 << \tag #'sangaride sol'4 \tag #'basse { sol'16 s8. } >>
     << { s2 s4. } \tag #'sangaride { r2 | r4 r8 } >>
     \tag #'basse \sangarideMark la'8 la'8. la'16 la'8. si'16 |
-    do''8. do''16 do''8. do''16 do''4. si'8 |
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #2.5 \score {
+        <<
+          \new Staff <<
+            { \tinyQuote \set autoBeaming = ##f
+              \key la \minor \clef "soprano" \time 4/4 \partial 8*5
+              la'8 la'8. la'16 la'8. si'16 |
+              do''4 do''8 do''16 do'' do''4. si'8 | do''4
+            } \addlyrics { Ne vous sou -- vient- il plus
+              de nous a -- voir ai -- "mez ?" }
+          >>
+          \new Staff <<
+            { \set autoBeaming = ##f \clef "alto"
+              do'8 do'8. do'16 do'8. re'16 |
+              mi'4 mi'8 mi'16 mi' fa'4. sol'8 | mi'4
+            } \addlyrics { Ne vous sou -- vient- il plus
+              de nous a -- voir ai -- "mez ?" }
+          >>
+        >>
+        \layout { \quoteLayout }
+      }
+    } do''8. do''16 do''8. do''16 do''4. si'8 |
     do''4
     << { s2 s2. s4 } \tag #'sangaride { r2 | R2. | r4 } >>
     \tag #'basse \sangarideMark r8 re''16 re'' sib'8\trill sib'16 do'' |
@@ -129,7 +150,18 @@
     r4 r8 mi' mi'8. mi'16 mi'8 fad' |
     sol'4 fa'!8. mi'16 re'8 re'16 mi' |
     dod'2 dod' |
-    fa'8. fa'16 mi'8.\trill re'16 re'4 re'8. dod'16 |
+    fa'8. fa'16 mi'8.\trill re'16 re'4
+    \myfootnote #'NoteHead #'(0 . 1.5) \markup {
+      Manuscrit : \raise #2 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \key la \minor \clef "alto" \time 4/4
+            fa'8. fa'16 mi'8. re'16 re'4 dod'8. re'16 | re'2
+          } \addlyrics { il de -- man -- de gra -- ce pour nous. }
+        >>
+        \layout { \quoteLayout }
+      }
+    } re'8. dod'16 |
     re'2 r4 |
     R2.*14 |
     R1*2 |

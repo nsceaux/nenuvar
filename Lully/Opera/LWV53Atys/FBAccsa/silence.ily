@@ -1,5 +1,2 @@
-R2.*4\noBreak R1*7\noBreak R1\noBreak R2.*5\noBreak
-R1\noBreak R2.\noBreak R1*2\noBreak R1\noBreak R1*5\noBreak
-R2.\noBreak R1*7\noBreak R2.\noBreak R1\noBreak R1\noBreak R2.*15
-R1\noBreak R1\noBreak R2.\noBreak R1\noBreak R1\noBreak R2.\noBreak
-R1\noBreak R2.*2
+R2.*4 R1*7 R1 R2.*5 R1 R2. R1*2 R1 R1*5 R2. R1*7 R2. R1 R1 R2.*15 R1
+R1 R2. R1 R1 R2. R1 R2.*2
