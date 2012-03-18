@@ -6,6 +6,6 @@
     \new Staff << \global \includeNotes "quinte" >>
     \new Staff << \global \includeNotes "basse" \includeFigures "chiffres" >>
   >>
-  \layout { }
+  \layout { ragged-last = #(eqv? #t (ly:get-option 'urtext)) }
   \midi { }
 }

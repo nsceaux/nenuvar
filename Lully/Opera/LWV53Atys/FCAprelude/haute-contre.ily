@@ -1,5 +1,12 @@
 \clef "haute-contre" do'8. do'16 fa'8. fa'16 sol'4 do''8. do''16 |
-do''4 si' do'' do''8. do''16 |
+do''4 \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \key fa \major \clef "soprano" \time 4/4
+      do''4 sid'8 la'16 sid' do''4 do''8. do''16 |
+    }
+    \layout { \quoteLayout }
+  }
+} si'4 do'' do''8. do''16 |
 do''4 sib' la'16 sol' la' sib' do'' sib' do'' la' |
 sib'8 re'' re''4 do'' sol'8. sol'16 |
 fa'4. fa'8 fa'4. fa'16 fa' |
