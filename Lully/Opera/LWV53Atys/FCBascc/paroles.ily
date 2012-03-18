@@ -1,26 +1,26 @@
 %% ACTE 5 SCENE 3
 % Atys
 \tag #'(atys basse) {
-  "Ciel !" Quel -- le va -- peur m'en -- vi -- ron -- "ne !"
-  Tous mes sens sont trou -- blés, je fré -- mis, je fris -- son -- ne,
-  je tremble, et tout à coup, une in -- fer -- nale ar -- deur
-  vient en -- flam -- mer mon sang, et dé -- vo -- rer mon cœur.
-  "Dieux !" Que vois- "je ?" Le ciel s'ar -- me con -- tre la ter -- "re ?"
-  Quel dé -- sor -- "dre !" Quel "bruit !" Quel é -- clat de ton -- ner -- "re !"
-  Quels a -- bî -- mes pro -- fonds sous mes pas sont ou -- "verts !"
-  Que de fan -- tô -- mes vains sont sor -- tis des en -- "fers !"
+  "Ciel !" quel -- le va -- peur m'en -- vi -- ron -- "ne !"
+  Tous mes sens sont trou -- blez, je fre -- mis, je fris -- son -- ne,
+  Je tremble, et tout à coup, une in -- fer -- nale ar -- deur
+  Vient en -- flam -- mer mon sang, et de -- vo -- rer mon cœur.
+  "Dieux !" que vois- "je ?" le Ciel s'ar -- me con -- tre la Ter -- "re ?"
+  Quel de -- sor -- "dre !" quel "bruit !" quel é -- clat de ton -- ner -- "re !"
+  Quels a -- by -- mes pro -- fonds sous mes pas sont ou -- "verts !"
+  Que de fan -- tos -- mes vains sont sor -- tis des En -- "fers !"
   % Il parle à Cybele, qu'il prend pour Sangaride.
-  San -- ga -- ri -- de, ah fuy -- ez la mort que vous pré -- pa -- re
-  u -- ne di -- vi -- ni -- té bar -- ba -- "re :"
-  c'est vo -- tre seul pé -- ril qui cau -- se ma ter -- reur.
+  San -- ga -- ri -- de, ah fuy -- ez la mort que vous pre -- pa -- re
+  U -- ne Di -- vi -- ni -- té bar -- ba -- "re :"
+  C'est vos -- tre seul pe -- ril qui cau -- se ma ter -- reur.
 }
 % Sangaride
 \tag #'(sangaride basse) {
-  A -- tys re -- con -- nais -- sez vo -- tre fu -- neste er -- reur.
+  A -- tys re -- con -- nois -- sez vos -- tre fu -- neste er -- reur.
 }
 % Atys prenant Sangaride pour un monstre.
 \tag #'(atys basse) {
-  Quel mons -- tre vient à "nous !" Quel -- le fu -- reur le gui -- "de !"
+  Quel Mons -- tre vient à "nous !" quel -- le fu -- reur le gui -- "de !"
   Ah res -- pec -- te, cru -- el, l'ai -- ma -- ble San -- ga -- ri -- de.
 }
 % Sangaride
@@ -37,13 +37,13 @@
 }
 % Atys tenant à la main le cousteau sacré qui sert aux sacrifices.
 \tag #'(atys basse) {
-  Il faut com -- bat -- "tre ;" a -- mour, se -- con -- de mon cou -- ra -- ge.
+  Il faut com -- ba -- "tre ;" A -- mour, se -- con -- de mon cou -- ra -- ge.
 }
 % Atys court aprés Sangaride qui fuït dans un des costez du theatre.
 % Celaenus, et le choeur.
 \tag #'(choeur basse) {
-  Ar -- rê -- te, ar -- rê -- te mal -- heu -- reux.
-  Ar -- rê -- te, ar -- rê -- te mal -- heu -- reux.
+  Ar -- res -- te, ar -- res -- te mal -- heu -- reux.
+  Ar -- res -- te, ar -- res -- te mal -- heu -- reux.
 }
 % Celaenus court aprés Atys.
 % Sangaride dans un des costez du theatre.
@@ -52,7 +52,7 @@
 }
 % Le Choeur
 \tag #'(choeur basse) {
-  Ô "ciel !" Ô "ciel !"
+  O "ciel !" O "ciel !"
 }
 % Sangaride
 \tag #'(sangaride basse) {
@@ -60,24 +60,24 @@
 }
 % Le Choeur
 \tag #'(choeur basse) {
-  A -- tys, A -- tys lui- mê -- me,
-  fait pé -- rir ce qu'il ai -- "me !"
+  A -- tys, A -- tys luy- mes -- me,
+  Fait pe -- rir ce qu'il ai -- "me !"
 }
 % Celaenus revenant sur le theatre.
 \tag #'(celaenus basse) {
-  Je n'ai pu re -- te -- nir ses ef -- forts fu -- ri -- eux,
+  Je n'ay pû re -- te -- nir ses ef -- forts fu -- ri -- eux,
   San -- ga -- ride ex -- pire à vos yeux.
 }
 % Cybele
 \tag #'(cybele basse) {
-  A -- tys me sa -- cri -- fie une in -- di -- gne ri -- va -- le.
-  Par -- ta -- gez a -- vec moi la dou -- ceur sans é -- ga -- le,
-  que l'on goûte en ven -- geant un a -- mour ou -- tra -- gé.
-  Je vous l'a -- vais pro -- mis.
+  A -- tys me sa -- cri -- fie une in -- di -- gne Ri -- va -- le.
+  Par -- ta -- gez a -- vec moy la dou -- ceur sans es -- ga -- le,
+  Que l'on gouste en ven -- geant un a -- mour ou -- tra -- gé.
+  Je vous l'a -- vois pro -- mis.
 }
 % Celaenus
 \tag #'(celaenus basse) {
-  Ô pro -- mes -- se fa -- ta -- "le !"
-  San -- ga -- ri -- de n'est plus, et je suis trop ven -- gé.
+  O pro -- mes -- se fa -- ta -- "le !"
+  San -- ga -- ri -- de n'est plus, et je suis trop van -- gé.
 }
 % Celaenus se retire au costé du theatre, où est Sangaride morte.
