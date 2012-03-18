@@ -11,7 +11,21 @@ fad'8 fad' r sib' do'' re'' la'8.\trill sib'16 |
 sol'4 r8 re'' re'' mib'' fa'' re'' |
 mib''4 mib''8 mib''16 re'' do''8. sib'16 |
 la'8\trill la' r sib' do'' re'' la'8.\trill sib'16 |
-sol'4 r8 re'' re'' re''16 mib'' fa''8 fa''16 fa'' |
+sol'4 r8 re'' re'' re''16 \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3.5 \score {
+    <<
+      { \tinyQuote \set autoBeaming = ##f
+        \key re \minor \clef "soprano" \time 4/4
+        sol'4 r8 re'' re'' re''16 mi'' fa''8 fa''16 fa'' |
+        sib'8 sib'
+      } \addlyrics {
+        -ni.
+        Que son des -- es -- poir m'es -- pou -- van -- "te !"
+      }
+    >>
+    \layout { \quoteLayout }
+  }
+} mib''16 fa''8 fa''16 fa'' |
 sib'8 sib' r mib'' do''8.\trill do''16 do''8. do''16 |
 la'8.\trill la'16 la' la' sib' do'' fa'4 r8 fa'' |
 re''8.\trill re''16 re''8 mi'' dod''16 mi'' mi'' fa'' dod''8. re''16 |

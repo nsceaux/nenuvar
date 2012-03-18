@@ -1,2 +1,1 @@
-R1*4\noBreak R2.*2\noBreak R1*2\noBreak R2.\noBreak R1*2\noBreak
-R2.\noBreak R1*8
+R1*4 R2.*2 R1*2 R2. R1*2 R2. R1*8
