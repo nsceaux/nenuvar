@@ -18,7 +18,7 @@
     }
   }
   \force-line-width-ratio #9/20 \fontsize #-2 \column {
-    \bold\line { Idas \italic { soûtenant Atys } }
+    \line { \bold Idas \italic { soûtenant Atys } }
     \line { Il s'est percé le sein, et mes soins pour sa vie }
     \sline { N'ont pû prevenir sa fureur. }
     \bold Cybele

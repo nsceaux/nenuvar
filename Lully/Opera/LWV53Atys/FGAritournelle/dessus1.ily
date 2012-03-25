@@ -18,5 +18,5 @@ fa''2 mi''4.\trill mi''8 |
 mi''4. re''8 re''4.\trill do''8 |
 do''2 sol''4. sol''8 sol''2 fa''4.\trill fa''8 |
 fa''2 mi''4.\trill mi''8 |
-mi''4. re''8 re''4.\trill do''8 |
+mi''4. re''8 re''4.\tr do''8 |
 do''1 |
