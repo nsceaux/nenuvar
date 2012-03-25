@@ -6,7 +6,7 @@ L'A -- mour que mon cou -- roux croy -- oit a -- voir ban -- ny,
 Ma Ri -- va -- le n'est plus, A -- tys n'est plus cou -- pa -- ble.
 Il est ai -- sé d'ai -- mer un cri -- mi -- nel ai -- ma -- ble
 A -- prés l'a -- voir pu -- ny.
-Il est ai -- sé d'ai -- mer un cri -- mi -- nel ai -- ma -- ble
+"[Qu']il" est ai -- sé d'ai -- mer un cri -- mi -- nel ai -- ma -- ble
 A -- prés l'a -- voir pu -- ny.
 Que son des -- es -- poir m'es -- pou -- van -- "te !"
 Ses jours sont en pe -- ril, et j'en fre -- mis d'ef -- "froy :"

@@ -1,4 +1,4 @@
-\clef "basse" re2. sol4 |
+\clef "basse" re2.\repeatTie sol4 |
 mib2 mi4\trill |
 fa2 la,4 |
 sib,1 |

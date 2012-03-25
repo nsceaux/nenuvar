@@ -130,6 +130,10 @@ idasMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Idas"))
 
+idasMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vbasse" "Idas" text))
+
 sangarideMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Sangaride"))

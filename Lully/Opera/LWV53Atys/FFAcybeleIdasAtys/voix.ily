@@ -3,7 +3,17 @@
   \tag #'(cybele basse) {
     << { s1 s2.*2 s4 } \tag #'cybele { \cybeleMark R1 | R2.*2 | r4 } >>
     \tag #'basse \cybeleMark fa''4 sib'8. sib'16 sib'8. re''16 |
-    sol'8\trill sol' r re'' mib'' do''16 do'' la'8\trill sib'16 do'' |
+    sol'8\trill sol' r re'' \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Manuscrit : \raise #3 \score {
+        <<
+          { \tinyQuote \set autoBeaming = ##f
+            \key re \minor \clef "soprano" \time 4/4
+            sol'8 sol' r re'' mi'' do''16 do'' la'8 sib'16 do'' | fad'2
+          } \addlyrics { -ri -- e, c'est moy qui luy per -- ce le cœur. }
+        >>
+        \layout { \quoteLayout }
+      }
+    } mib''8 do''16 do'' la'8\trill sib'16 do'' |
     fad'2
     << { s2 s2. s1*4 s4 } \tag #'cybele { r2 | R2. | R1*4 | r4 } >>
     \tag #'basse \cybeleMark r8 re'' sib'8. mib''16 mib''8. mib''16 |
@@ -36,7 +46,7 @@
   %% Atys
   \tag #'(atys basse) {
     << { s1 s2.*2 s1*2 s2 } \tag #'atys { \atysMark R1 | R2.*2 | R1*2 | r2 } >>
-    \tag #'basse \atysMark r4 re' |
+    \tag #'basse \atysMark r4 re'-\tag #'atys ^\markup\character Atys |
     re' r8 sib sib8. sib16 |
     la8\trill la la8. sib16 sol4 sol8. la16 |
     fad4 r8 re' la\trill la16 sib do'8 sib16 la |
@@ -59,7 +69,9 @@
   }
   %% Idas
   \tag #'(idas basse) {
-    \idasMark r4 r8 re' re'8. re'16 sib8. sib16 |
+    \tag #'basse \idasMark
+    \tag #'idas \idasMarkText \markup { soûtenant Atys }
+    r4 r8 re' re'8. re'16 sib8. sib16 |
     sol4\trill r8 sol16 sol do'8 do'16 do' |
     la8\trill la fa16 sol la sib do'8 re'16 mib' |
     re'4\trill
