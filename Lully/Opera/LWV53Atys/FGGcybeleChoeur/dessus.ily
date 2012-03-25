@@ -6,7 +6,21 @@ re''4 r r2 |
 R1 |
 r2 r4 re''8 re'' |
 mi''4 mi''8 mi'' fa''4. fa''8 |
-re''8.\trill re''16 mi''8. fa''16 re''8.\trill do''16 |
+\myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #3 \score {
+    <<
+      \new Staff {
+        \tinyQuote \key do \major \clef "french" \time 3/4
+        re''8. re''16 sol''8. sol''16 fa''8. sol''16 | sol''2
+      }
+      \new Staff {
+        \tinyQuote \key do \major \clef "mezzosoprano" \time 3/4
+        sol'8 sol' do'8. do'16 re'8. re'16 | mi'2
+      }
+    >>
+    \layout { \quoteLayout }
+  }
+} re''8.\trill re''16 mi''8. fa''16 re''8.\trill do''16 |
 do''2 r |
 R1 |
 R1.*2 |

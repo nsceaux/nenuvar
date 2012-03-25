@@ -13,7 +13,14 @@ R1.*2 |
 R1 |
 R1. |
 r2 r8 si' si' si' |
-do''4. do''8 do''4. do''8 |
+do''4. do''8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \key do \major \clef "soprano" \time 2/2
+      do''4. do''8 re''4. re''8 | mi''4. re''8 do''4. si'8 |
+    }
+    \layout { \quoteLayout }
+  }
+} do''4. do''8 |
 do''2 do''4. sib'8 |
 la'2 la'4 la'8 la' |
 re''2 re''4 re'' |

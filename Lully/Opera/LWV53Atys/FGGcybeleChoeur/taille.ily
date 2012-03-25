@@ -24,7 +24,14 @@ sol'2 r8 sol' sol' sol' |
 la'4 la' sol'4. sol'8 |
 re'4. mi'8 fad'2 |
 sol'2 re'4. re'8 |
-mi'2 mi'4 sol'8 sol' |
+\myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #2 \score {
+    { \tinyQuote \key do \major \clef "mezzosoprano" \time 2/2
+      sol'2 sol'4 sol'8 sol' | sol'2
+    }
+    \layout { \quoteLayout }
+  }
+} mi'2 mi'4 sol'8 sol' |
 sol'2 sol'4 sol' |
 fa'2. fa'4 |
 fa'4. fa'8 fa'4. fa'8 |
@@ -35,7 +42,14 @@ sol'2 sol'4 sol'8 sol' |
 sol'2 sol'4 sol' |
 fa'2. la'4 |
 sol'2 sol'4. sol'8 |
-sol'4. fa'8 mi'4. fa'8 |
+\myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #2 \score {
+    { \tinyQuote \key do \major \clef "mezzosoprano" \time 2/2
+      sol'4 sol' sol'4. sol'8 | sol'2
+    }
+    \layout { \quoteLayout }
+  }
+} sol'4. fa'8 mi'4. fa'8 |
 re'2 r |
 R1 |
 r2 r4 la'8 la' |
