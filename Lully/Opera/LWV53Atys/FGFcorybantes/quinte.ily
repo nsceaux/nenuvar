@@ -1,4 +1,14 @@
-\clef "quinte" sol'8 do' do' do' re' re' si si |
+\clef "quinte" sol'8 \myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \key do \major \clef "alto" \digitTime\time 2/2
+      sol'8 mi' do' do' re' re' si si | do' do' la la si si sol sol |
+    }
+    \layout {
+      \quoteLayout
+      \context { \Staff \consists "Time_signature_engraver" }
+    }
+  }
+} do'8 do' do' re' re' si si |
 do' do' la la si sol sol8. sol16 |
 sol2. |
 fa2 re'8 re' |
@@ -29,4 +39,17 @@ sol2~ sol8 sol |
 la2 r8 la la la |
 re' re'16 re' re'8 re' re' si sol sol |
 sol sol do' do' do' la sol8. sol16 |
-sol1 |
+\myfootnote #'NoteHead #'(0 . 3.5) \markup {
+  Ballard : \raise #3 \score {
+    { \tinyQuote \key do \major \clef "alto" \time 2/2
+      sol8 sol do' do' do' la sol8. sol16 | si1 | \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+  \hspace #2 Manuscrit : \raise #3 \score {
+    { \tinyQuote \key do \major \clef "alto" \time 2/2
+      sol8 sol do' do' do' la sol8. sol16 | sol1 | \bar "|."
+    }
+    \layout { \quoteLayout }
+  }
+} sol1 |

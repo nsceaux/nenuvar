@@ -1,7 +1,20 @@
 \clef "haute-contre" do''4 do'' do'' do'' re'' si' |
 do''2 sol'4 sol'2 sol'4 |
 sol'2 sol'4 la' la'2 |
-%{la'4%} si'4 si'2 dod''4 dod''4.( si'16 dod'') |
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Ballard : \raise #3.5 \score {
+    { \tinyQuote \key do \major \clef "soprano" \time 6/4
+      la'4 si'2 dod''4 dod''4.( si'16 dod'') | re''4.
+    }
+    \layout { \quoteLayout }
+  }
+  \hspace #2 Manuscrit : \raise #3 \score {
+    { \tinyQuote \key do \major \clef "soprano" \time 6/4
+      si'4 si'2 dod''4 dod''4. si'16 dod'' | re''4.
+    }
+    \layout { \quoteLayout }
+  }
+} %{la'4%} si'4 si'2 dod''4 dod''4.( si'16 dod'') |
 re''4. fad'16 fad' fad'8 fad' fad'4 fad'2 |
 sol'4 sol' sol' sol'2. |
 sol'4. sol'16 sol' sol'8 sol' la'4 la'8 sib' do'' la' |

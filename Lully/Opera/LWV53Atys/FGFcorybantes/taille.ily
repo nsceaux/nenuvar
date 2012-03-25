@@ -3,7 +3,14 @@ do' do' do' do' si8. do'16 do'8. si16 |
 si2. |
 la4 re'4. re'8 |
 mi'4 la si |
-do' re'4. re'8 |
+do' \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \key do \major \clef "mezzosoprano" \time 3/4
+      do'4 do'4. re'8 | si2
+    }
+    \layout { \quoteLayout }
+  }
+} re'4. re'8 |
 si2 r8 mi'16 mi' mi'8 mi' |
 mi'8 la'16 la' la'8 la' mi' mi' la' la' |
 la'2 r8 la' |
@@ -18,7 +25,14 @@ la'2 sol'8 sol' |
 la'8 re' re'4. do'8 |
 si2 r8 si16 do' re'8 re' |
 do' mi'16 mi' mi'8 mi' mi' mi'16 mi' mi'8 mi' |
-fa' fa'16 fa' re'8 re' re' re'16 re' re'8 re' |
+fa' fa'16 fa' re'8 \myfootnote #'NoteHead #'(0 . 2.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \key do \major \clef "mezzosoprano" \time 2/2
+      fa'8 fa'16 fa' re'8 re'16 re' re'8 re'16 re' re'8 re' |
+    }
+    \layout { \quoteLayout }
+  }
+} re'8 re' re'16 re' re'8 re' |
 do'2 do'4 |
 do'2~ do'8 do' |
 do'2 r8 do' fa' fa' |

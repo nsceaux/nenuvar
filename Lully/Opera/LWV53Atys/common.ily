@@ -17,7 +17,7 @@
 #(ly:set-option 'print-footnotes (eqv? #t (ly:get-option 'urtext)))
 
 %% use baroque style repeats
-#(ly:set-option 'baroque-repeats #t)
+#(ly:set-option 'baroque-repeats (eqv? #t (ly:get-option 'urtext)))
 
 %% Staff size:
 %%  14 for lead sheets
