@@ -53,18 +53,21 @@
 \pieceTocTitle "Ritournelle"
 \includeScore "FGAritournelle"
 %{ n°10 %}
+\pieceToc \markup \smallCaps { Cybèle }
+\includeScore "FGBcybele"
+%{ n°11 %}
 \pieceToc \markup \smallCaps { Cybèle, chœur }
-\includeScore "FGBcybeleChoeur"
-%{ n°11 %}\newBookPart #'(dessus1 dessus2)
+\includeScore "FGCcybeleChoeur"
+%{ n°12 %}\newBookPart #'(dessus1 dessus2)
 \pieceTocTitle "Entrée des Nymphes"
-\includeScore "FGCnymphes"
-%{ n°12 %}
-\pieceTocTitle "Première entrée des Corybantes"
-\includeScore "FGDcorybantes"
+\includeScore "FGDnymphes"
 %{ n°13 %}
-\pieceTocTitle "Deuxième entrée des Corybantes"
+\pieceTocTitle "Première entrée des Corybantes"
 \includeScore "FGEcorybantes"
-%{ n°14 %}\newBookPart #'(full-rehearsal)
+%{ n°14 %}
+\pieceTocTitle "Deuxième entrée des Corybantes"
+\includeScore "FGFcorybantes"
+%{ n°15 %}\newBookPart #'(full-rehearsal)
 \pieceToc \markup \smallCaps { Cybèle, chœur }
-\includeScore "FGFcybeleChoeur"
+\includeScore "FGGcybeleChoeur"
 \actEnd "FIN DU CINQUIÈME ET DERNIER ACTE"

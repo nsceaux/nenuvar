@@ -1,13 +1,13 @@
-\clef "basse" do1 |
-fa,4 fa mi |
-re2 dod\trill |
-re1 |
-la2 fad\trill |
-sol mi |
-fa1 |
-sol4 fa sol sol, |
-do1 |\allowPageTurn
-do |
+\clef "basse" 
+\myfootnote #'NoteHead #'(0 . 2.5) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \key do \major \clef "bass" \time 4/4
+      do4. si,8 la,8. sol,16 fad,4 | sol,4
+    }
+    \layout { \quoteLayout }
+  }
+}
+do1 |
 sol,4 sol8 fa mi fa mi re |
 do2 si,4\trill sib, |
 la,2 sol, |
@@ -17,7 +17,14 @@ la4 si8 do' sol sol, |
 do1 |
 do'4. do'8 do'4 si\trill |
 do'2 si\trill |
-la la8 si do' fa |
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \tinyQuote \key do \major \clef "bass" \time 4/4
+      la4 la, la8 si do' fa | sol2
+    }
+    \layout { \quoteLayout }
+  }
+} la2 la8 si do' fa |
 sol2 do |
 re fad,\trill |
 sol, mib |
@@ -58,7 +65,7 @@ mi1 |
 fa2 fad\trill |
 sol2. mib4 |
 lab fa sol sol, |
-do1 |
+<< \origVersion { do2~ do } \modVersion do1 >> |
 sol,2 sol |
 lab1 |
 la!\trill |
@@ -76,7 +83,7 @@ sol2. mib4 |
 lab fa sol sol, |
 do1 |
 sol2 sol4. sol8 |
-mi1\trill |
+<< \origVersion { mi2~ mi } \modVersion mi1\trill >> |
 fa2 fa4. fa8 |
 sib2 sib, |
 mib2. mib4 |
@@ -95,7 +102,7 @@ fa4. mib8 re4 do |
 sib,1 |
 mib2 do |
 sol sol4. sol8 |
-mi1 |
+<< \origVersion { mi2~ mi } \modVersion mi1 >> |
 fa2 fa4. fa8 |
 sib2 sib, |
 mib2. mib4 |

@@ -1,4 +1,4 @@
-\clef "basse" R1 R2. R1 R1*3 R1*3 R1*6 R2. R1 R1*8 R1 R1*8 R1*26 R1 R1*15 R1*3 |
+\clef "basse" R1*6 R2. R1 R1*8 R1 R1*8 R1*26 R1 R1*15 R1*3 |
 r2 fa4 fa8 fa |
 sib4 sib r2 |
 r mib4 mib8 mib |

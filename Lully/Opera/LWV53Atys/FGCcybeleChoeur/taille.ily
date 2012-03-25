@@ -1,4 +1,5 @@
-\clef "taille" R1 R2. R1 R1*3 R1*3 R1*6 R2. R1 R1*8 R1 R1*8 R1*26 R1 R1*15 R1*3 |
+\clef "taille" R1*6 R2. R1 R1*8 R1 R1*8 R1*26 R1 R1*15
+<< \origVersion { R1*2 r2 r } \modVersion R1*3 >> |
 r2 fa'4 fa'8 fa' |
 fa'4 fa' r2 |
 r sol'4 sol'8 sol' |

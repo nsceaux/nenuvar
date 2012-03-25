@@ -1,4 +1,4 @@
-\clef "vbasse" R1 | R2. | R1*13 | R2. | R1*9 |
+\clef "vbasse" R1*6 | R2. | R1*9 |
 r2 r4 sol8 sol |
 do'2 lab8. lab16 fa8. fa16 |
 sib4 r8 sib si4\trill r8 si |

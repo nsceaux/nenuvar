@@ -1,32 +1,12 @@
-\clef "quinte" sol'8 do' do' do' re' re' si si |
-do' do' la la si sol sol8. sol16 |
-sol2. |
-fa2 re'8 re' |
-do'2 sol4 |
-do' si4. si8 |
-si2 r8 si16 si si8 si |
-la la16 la mi'8 mi' mi' mi'16 mi' mi'8 mi' |
-re'2 r8 re' |
-re'2 re'4 |
-sol8 la la4. sol8 |
-sol2. |
-sol2 r8 re'16 re' re'8 re' |
-do'8 do'16 do' do'8 do' do' la16 la la8 la |
-sib re' re' mi' mi' re' la'8. la'16 |
-la'2 re'8 re' |
-re'2 re'8 re' |
-re'2~ re'8 re' |
-re'2 r8 sol16 sol sol8 sol |
-sol8 sol16 sol sol8 sol la do'16 do' do'8 do' |
-do' la16 la la8 la sol sol16 sol sol8 sol |
-sol2 sol4 |
-sol2~ sol8 sol |
-la2 r8 la la la |
-re' re'16 re' re'8 re' re' si sol sol |
-sol sol do' do' do' la sol8. sol16 |
-sol2 sol4 |
-sol2~ sol8 sol |
-la2 r8 la la la |
-re' re'16 re' re'8 re' re' si sol sol |
-sol sol do' do' do' la sol8. sol16 |
-sol1 |
+\clef "quinte" do'4 do'8 re' mi'4 mi' re' re' |
+do' do' do' si8 do' re'4 re' |
+do'8 re' mi'4 mi' fa' la2 |
+sol4 sol2 la4 la2 |
+la4. la16 la la8 la la4 la2 |
+sol4 re' re' re'2. |
+do'4 do' do' do'4. do'16 do' do'8 do' |
+re'4 re'2 sib4 sib2 |
+la4 mi' mi' re'2 re'4 |
+sol sol4. sol8 la4 la sol |
+sol do' do'2 sol4. sol8 |
+sol4 sol sol sol2. |

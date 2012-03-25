@@ -1,16 +1,7 @@
 <<
   %% Cybele
   \tag #'(cybele basse) {
-    \cybeleMark r4 r8 do'' mi'\trill mi'16 mi' mi'8 fa'16 sol' |
-    la'8 la' r do''16 do'' dod''8 dod''16 dod'' |
-    re''4 re''8 re'' mi''4\trill mi''8 mi'' |
-    fa''4 fa''8. re''16 la'4\trill la'8 la'16 si' |
-    do''4 r8 mi'' do''4\trill do''8 do''16 si' |
-    si'4\trill sol'8. sol'16 do''8. do''16 sib'8 sib'16 la' |
-    la'4\trill la' r fa''8. fa''16 |
-    si'4 do'' do'' do''8 si' |
-    do''1 |
-    r4 r8 sol' do''8. do''16 do''8. re''16 |
+    \cybeleMark r4 r8 sol' do''8. do''16 do''8. re''16 |
     si'4.\trill si'8 do''8. do''16 do''8. re''16 |
     mi''4 r8 sol' sol'4 sol'8 sol' |
     sol'4 sol'8 fad' sol'4 sol' |
@@ -58,7 +49,12 @@
     mib''4 do''8 do'' fa''4. fa''8 |
     re''2\trill r4 sib'8 sib' |
     lab'4\trill lab'8 sol' fa'4.\trill sol'8 |
-    mib'4 mib' r sol'8. sol'16 |
+    mib'4 mib' r \myfootnote #'NoteHead #'(0 . 2) \markup\wordwrap {
+      Les vers de Cybèle :
+      \italic { Que cet arbre sacré soit révéré De toute la nature }
+      (mesures 59 à 63)
+      ne figurent pas dans le manuscrit.
+    } sol'8. sol'16 |
     do''2 do''4. do''8 |
     la'2\trill re''4 re''8 re'' |
     si'2. mib''4 |
@@ -101,8 +97,8 @@
   }
   %% Chœur (dessus)
   \tag #'(choeur basse) {
-    << { s1 s2. s1*13 s2. s1*9 s2 }
-      \tag #'choeur { \clef "vbas-dessus" R1 | R2. | R1*13 | R2. | R1*9 | r2 } >>
+    << { s1*6 s2. s1*9 s2 }
+      \tag #'choeur { \clef "vbas-dessus" R1*6 | R2. | R1*9 | r2 } >>
     \tag #'basse \choeurMark r4 re''8 re'' |
     mib''2 mib''8. mib''16 fa''8. fa''16 |
     re''4\trill r8 fa'' fa''4 r8 re'' |

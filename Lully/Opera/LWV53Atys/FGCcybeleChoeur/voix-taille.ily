@@ -1,9 +1,19 @@
-\clef "vtaille" R1 | R2. | R1*13 | R2. | R1*9 |
+\clef "vtaille" R1*6 | R2. | R1*9 |
 r2 r4 si8 si |
 do'2 do'8. do'16 do'8. do'16 |
 sib4 r8 re' re'4 r8 re' |
 do'4 mib'8 mib' re'4 re'8 re' |
-re'4 re' r r8 sib16 sib |
+re'4 re' r r8 \myfootnote #'NoteHead #'(0 . 2) \markup {
+  Manuscrit : \raise #3 \score {
+    <<
+      { \tinyQuote \set autoBeaming = ##f
+        \key re \minor \clef "tenor" \time 4/4
+        re'4 re' r r8 sol16 sol | lab2 lab8. lab16 lab8. lab16 | sib4
+      } \addlyrics { -tu -- re. Cé -- lé -- brons son nou -- veau des -- tin }
+    >>
+    \layout { \quoteLayout }
+  }
+} sib16 sib |
 lab2 do'8. do'16 do'8. do'16 |
 sib4 r8 re' re'4 r8 re' |
 do'4 do'8 do' do'4 si8 si |
