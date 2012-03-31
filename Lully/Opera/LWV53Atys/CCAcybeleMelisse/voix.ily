@@ -269,7 +269,11 @@
     mi'4 r si' si'16 si' si' do'' |
     la'4.\trill la'16 sol' fad'4\trill fad'8 sol' |
     mi'4
-    \tag #'melisse { r4 r2 | R1*2 | R2.*2 | R1 | R2. | R1*5 |
-      R2.*2 | R1*5 | R2.*3 | R1 | R2. | R1 | R2. | R1*3 | R2.*2 | R1*16 | r2 r4 }
+    \tag #'melisse {
+      r4 r2 | R1*2 | R2.*2 | R1 | R2. | R1*5 |
+      R2.*2 | R1*5 | R2.*3 | R1 | R2. | R1 | R2. |
+      R1 s4*0^\markup\italic { [Melisse se retire] } R1*2 |
+      R2.*2 | R1*16 | r2 r4
+    }
   }
 >>

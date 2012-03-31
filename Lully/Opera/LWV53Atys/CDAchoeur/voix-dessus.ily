@@ -1,4 +1,4 @@
-\clef "vbas-dessus" si'8 si' |
+\clef "vbas-dessus" si'8^\markup\character { Chœur des Nations } si' |
 do''2. do''4 |
 la'2\trill la'4 re'' |
 si'2\trill si' |

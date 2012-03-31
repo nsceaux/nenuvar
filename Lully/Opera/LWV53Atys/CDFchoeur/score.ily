@@ -20,6 +20,7 @@
   \layout {
     \context { \Staff \remove "Time_signature_engraver" }
     ragged-last = #(eqv? #t (ly:get-option 'urtext))
+    indent = \noindent
   }
   \midi { }
 }

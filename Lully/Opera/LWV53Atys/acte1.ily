@@ -71,7 +71,7 @@
     & les Phrygiennes luy témoignent leur joye & leur respect.]
   }
 }
-\pieceToc "Prélude pour Cybèle"
+\pieceToc "Prélude pour Cybele"
 \includeScore "BHAprelude"
 %{ n°11 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { \smallCaps { Cybele, chœur : }

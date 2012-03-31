@@ -121,3 +121,4 @@ dod\trill re8 do? sib,4 |
 la,4. sol,8 fad,2\trill |
 sol, la, |
 re,2. mi,8 fad, |
+\once\set Staff.whichBar = "|"

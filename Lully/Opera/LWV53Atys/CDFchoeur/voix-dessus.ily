@@ -1,4 +1,5 @@
-\clef "vbas-dessus" r4 mib'' mib'' mib'' |
+\clef "vbas-dessus" r4^\markup { Chœur des Peuples & des Zephirs }
+mib'' mib'' mib'' |
 re''2\trill re''4. re''8 |
 do''2\trill do''4 fa'' |
 mi''2\trill re''4. re''8 |
