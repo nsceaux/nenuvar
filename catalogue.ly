@@ -62,11 +62,11 @@
         #:url "http://nicolas.sceaux.free.fr/index.php?p=53"
         #:main ((urtext "Version urtext" #:options "-durtext")
                 (rehearsal "Version de concert"))
-        #:parts ((dessus "Dessus de violon, flûte, hautbois")
-                 (haute-contre "Hautes-contre de violon, hautbois")
-                 (taille "Tailles de violon, hautbois")
-                 (quinte "Quintes de violon")
-                 (basse "Basses de violon, bassons")
+        #:parts ((dessus "Dessus")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (quinte "Quintes")
+                 (basse "Basses")
                  (basse-continue "Basse continue")))
 
        ("Psyché"

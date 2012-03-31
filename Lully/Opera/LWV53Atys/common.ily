@@ -111,11 +111,15 @@ floreMark =
 
 zephirMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vhaute-contre" "Un Zéphir"))
+  (make-character-mark "vhaute-contre" "Un Zephir"))
 
 melpomeneMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Melpomène"))
+  (make-character-mark "vbas-dessus" "Melpomene"))
+
+melpomeneMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vbas-dessus" "Melpomene" text))
 
 irisMark =
 #(define-music-function (parser location) ()

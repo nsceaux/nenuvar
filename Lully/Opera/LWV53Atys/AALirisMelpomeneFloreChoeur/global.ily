@@ -1,6 +1,7 @@
 <<
   { \keys sol \major
     \time 2/2 \midiTempo #160
+    \markUpBegin\mark "Ritournelle"
     s1*11
     \digitTime\time 3/4 \midiTempo #80
     s2.*4
@@ -14,7 +15,8 @@
     s2.*62 \bar "|."
   }
   \origLayout {
-    s1*8 s2 \bar "" \break
+    s1*6\break
+    s1*2 s2 \bar "" \break
     s2 s1*2\break
     s2.*4\pageBreak
     s1 s2.*5\break

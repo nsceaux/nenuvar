@@ -1,4 +1,5 @@
-\melpomeneMark r4 r16 sol' sol' sol' do''4 r8 mi' | % do''4. mi'8
+\melpomeneMarkText\markup { [parlant à Flore] }
+r4 r16 sol' sol' sol' do''4 r8 mi' | % do''4. mi'8
 fa'4 r16 fa' sol' la' sib'8. do''16 |
 \myfootnote #'NoteHead #'(0 . 1.5)
 \markup { Manuscrit : 
@@ -7,7 +8,7 @@ fa'4 r16 fa' sol' la' sib'8. do''16 |
       \tinyQuote \set autoBeaming = ##f
       \key do \major \clef "soprano" \time 3/4
       la'4. la'8 la'16 la' la' do'' | fa'8.
-    } \addlyrics { Temps, ne me dé -- ro -- bez point }
+    } \addlyrics { Temps, ne me des -- ro -- bez point }
     \layout { \quoteLayout }
   }
 }

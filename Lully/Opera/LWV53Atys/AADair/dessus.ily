@@ -23,7 +23,7 @@ re''4. re''8 mi''4 |
 % dod'' mi'' fa''8 sol'' |
 dod'' mi'' fa''8. sol''16 |
 fa''4 fa''4.\trill mi''8 |
-mi''2\trill re''4 |
+mi''2\tr re''4 |
 sib'' re''4. sol''8 |
 fad''4 sol'' re'' |
 mib''8. fa''16 re''4 do''8. re''16 |

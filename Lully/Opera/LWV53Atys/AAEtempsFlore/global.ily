@@ -19,7 +19,6 @@
     s1*19
     \digitTime\time 3/4
     s2.
-    \bar "|."
   }
   \origLayout {
     s1*3 s2.\break

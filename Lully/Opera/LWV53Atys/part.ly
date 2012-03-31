@@ -12,9 +12,9 @@
   \markuplist \abs-fontsize-lines #8 \table-of-contents
 }
 
-\include "Lully/Opera/LWV53Atys/0prologue.ily"
-\include "Lully/Opera/LWV53Atys/1acte1.ily"
-\include "Lully/Opera/LWV53Atys/2acte2.ily"
-\include "Lully/Opera/LWV53Atys/3acte3.ily"
-\include "Lully/Opera/LWV53Atys/4acte4.ily"
-\include "Lully/Opera/LWV53Atys/5acte5.ily"
+\include "Lully/Opera/LWV53Atys/prologue.ily"
+\include "Lully/Opera/LWV53Atys/acte1.ily"
+\include "Lully/Opera/LWV53Atys/acte2.ily"
+\include "Lully/Opera/LWV53Atys/acte3.ily"
+\include "Lully/Opera/LWV53Atys/acte4.ily"
+\include "Lully/Opera/LWV53Atys/acte5.ily"

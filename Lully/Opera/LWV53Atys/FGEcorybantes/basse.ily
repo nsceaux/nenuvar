@@ -1,4 +1,4 @@
-\clef "basse" do do do' do' si\trill sol |
+\clef "basse" do4 do do' do' si\trill sol |
 do' do do sol sol sol |
 mi\trill mi do fa re2 |
 sol4 mi2 la4 la,2 |

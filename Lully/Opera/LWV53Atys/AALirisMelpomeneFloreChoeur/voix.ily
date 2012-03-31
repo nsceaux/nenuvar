@@ -2,7 +2,7 @@
   %% Iris
   \tag #'(iris basse) {
     \clef "vbas-dessus" R1*8 |
-    r2 r4 r8^\markup\character "Iris" sol' |
+    r2 r4 r8^\markup\character-text "Iris" "[parlant à Melpomene]" sol' |
     re'' re'' si'8.\trill si'16 do''8 do''16 do'' do''8 do''16 si' |
     si'8\trill si' r sol' do''8. do''16 do''8. do''16 %{ do''8 do'' %} |
     do''4 si'8\trill si'16 si' si'8. do''16 |
@@ -38,6 +38,10 @@
       \tag #'flore { \clef "vbas-dessus" R1*11 | R2.*4 | R1 | R2.*14 | r4 r } >>
     \tag #'basse \floreMark
     re''8.-\tag #'flore ^\markup\character "Flore"
+    -\tag #'flore ^\markup\override #'(line-width . 50) \italic\wordwrap {
+      [Iris remonte au Ciel sur son Arc, & la Suite de
+      Melpomene s'accorde avec le Suite de Flore.]
+    }
     \myfootnote #'NoteHead #'(-0.1 . 1)
     \markup {
       Manuscrit : \hspace #2
@@ -111,7 +115,7 @@
   %% Melpomène
   \tag #'(melpomene) {
     \clef "vbas-dessus" R1*11 | R2.*4 | R1 | R2.*14 |
-    r4 r si'8.^\markup\character "Melpomène" si'16 |
+    r4 r si'8.^\markup\character "Melpomene" si'16 |
     do''4 do''4. do''8 |
     la'2.\trill |
     re''4 re''8 do'' si'8. la'16 %{ si'8 la' %} |
@@ -126,7 +130,7 @@
     sol'( fad'4.)\trill sol'8 |
     sol'2 r2 |
     R1*6 |
-    r2 si'4.^\markup\character "[Melpomène]" si'8 |
+    r2 si'4.^\markup\character "[Melpomene]" si'8 |
     do''4 do''8 do'' si'4.\trill la'8 |
     sol'4 sol' sol'4. sol'8 |
     do''2 %{ do''4 do'' %} do''4. do''8 |
