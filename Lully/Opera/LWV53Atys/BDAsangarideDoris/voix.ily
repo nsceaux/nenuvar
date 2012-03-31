@@ -1,7 +1,7 @@
 <<
   %% Sangaride
   \tag #'(sangaride basse) {
-    \sangarideMark R2.*5 |
+    \clef "vbas-dessus" s4*0^\markup\character [Sangaride] R2.*5 |
     r4 r la'4 |
     re''2. |
     r8 re'' re''4 dod'' |
@@ -172,7 +172,8 @@
   \tag #'(doris basse) {
     << { s2.*8 s1 } \tag #'doris { \dorisMark R2.*8 | R1 } >>
     \tag #'basse \dorisMark
-    r8 fa'16 sol' la'8\trill la'16 %{ sib' %} \myfootnote #'NoteHead #'(0 . 1)
+    r8^\markup\orig-version\character Doris fa'16 sol' la'8\trill la'16
+    \myfootnote #'NoteHead #'(0 . 1)
     \markup {
       Manuscrit : \raise #4.5 \score {
         <<

@@ -146,3 +146,4 @@ la8 sol fa4 mi |
 re2 sold,4\trill |
 la, mi,2 |
 la,2 si,4 |
+\once\set Staff.whichBar = "|"

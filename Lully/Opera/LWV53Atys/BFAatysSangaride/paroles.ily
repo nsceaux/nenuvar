@@ -6,13 +6,13 @@
 %Sangaride
 \tag #'(sangaride basse) {
   Nous or -- don -- nons tous deux la fes -- te de Cy -- be -- le,
-  l'hon -- neur est é -- gal en -- tre nous.
+  L'hon -- neur est é -- gal en -- tre nous.
 }
 %Atys
 \tag #'(atys basse) {
   Ce jour mesme, un grand Roy doit es -- tre vostre es -- poux,
-  je ne vous vis ja -- mais si con -- tente et si bel -- "le ;"
-  que le sort du Roy se -- ra "doux !"
+  Je ne vous vis ja -- mais si con -- tente et si bel -- "le ;"
+  Que le sort du Roy se -- ra "doux !"
 }
 %Sangaride
 \tag #'(sangaride basse) {
@@ -21,9 +21,9 @@
 %Atys
 \tag #'(atys basse) {
   Vi -- vez tous deux con -- tens, c'est ma plus chere en -- vi -- "e ;"
-  j'ay pres -- sé vostre hy -- men, j'ay ser -- vy vos a -- mours.
+  J'ay pres -- sé vostre hy -- men, j'ay ser -- vy vos a -- mours.
   Mais en -- fin ce grand jour, le plus beau de vos jours,
-  se -- ra le der -- nier de ma vi -- e.
+  Se -- ra le der -- nier de ma vi -- e.
 }
 %Sangaride
 \tag #'(sangaride basse) {
@@ -32,10 +32,10 @@
 %Atys
 \tag #'(atys basse) {
   Ce n'est qu'à vous que je veux re -- ve -- ler
-  le se -- cret de -- ses -- poir où mon mal -- heur me li -- "vre ;"
-  je n'ay que trop sceu feindre, il est temps de par -- "ler ;"
-  qui n'a plus qu'un mo -- ment à vi -- vre,
-  n'a plus rien à dis -- si -- mu -- ler.
+  Le se -- cret de -- ses -- poir où mon mal -- heur me li -- "vre ;"
+  Je n'ay que trop sceu feindre, il est temps de par -- "ler ;"
+  Qui n'a plus qu'un mo -- ment à vi -- vre,
+  N'a plus rien à dis -- si -- mu -- ler.
 }
 %Sangaride
 \tag #'(sangaride basse) {
@@ -45,7 +45,7 @@
 %Atys
 \tag #'(atys basse) {
   Vous me con -- dam -- ne -- rez vous- mes -- me,
-  et vous me lais -- se -- rez mou -- rir.
+  Et vous me lais -- se -- rez mou -- rir.
 }
 %Sangaride
 \tag #'(sangaride basse) {
@@ -54,11 +54,11 @@
 %Atys
 \tag #'(atys basse) {
   Non, rien ne me peut se -- cou -- rir,
-  je meurs d'a -- mour pour vous, je n'en sçau -- rois gué -- "rir ;"
+  Je meurs d'a -- mour pour vous, je n'en sçau -- rois gué -- "rir ;"
 }
 %Sangaride
 \tag #'(sangaride basse) {
-  "Quoi ?" "Vous ?"
+  "Quoy ?" "Vous ?"
 }
 %Atys
 \tag #'(atys basse) {
@@ -72,13 +72,13 @@
 \tag #'(atys basse) {
   Je vous ai -- me.
   Vous me con -- dam -- ne -- rez vous- mes -- me,
-  et vous me lais -- se -- rez mou -- rir.
+  Et vous me lais -- se -- rez mou -- rir.
   J'ay me -- ri -- té qu'on me pu -- nis -- se,
-  j'of -- fence un Ri -- val ge -- ne -- reux,
-  qui par mil -- le bien- faits a pre -- ve -- nu mes "vœux :"
-  mais je l'of -- fence en vain, vous luy ren -- dez jus -- ti -- "ce ;"
-  "ah !" Que c'est un cru -- el su -- pli -- ce
-  d'a -- voü -- er qu'un Ri -- val est di -- gne d'estre heu -- "reux !"
+  J'of -- fence un Ri -- val ge -- ne -- reux,
+  Qui par mil -- le bien- faits a pre -- ve -- nu mes "vœux :"
+  Mais je l'of -- fence en vain, vous luy ren -- dez jus -- ti -- "ce ;"
+  "Ah !" Que c'est un cru -- el su -- pli -- ce
+  D'a -- voü -- er qu'un Ri -- val est di -- gne d'estre heu -- "reux !"
   Pro -- non -- cez mon ar -- rest, par -- lez sans vous con -- train -- dre.
 }
 %Sangaride
@@ -93,17 +93,17 @@
 %Sangaride
 \tag #'(sangaride basse) {
   A -- tys, que vous se -- riez à plain -- dre
-  si vous sça -- viez tous vos mal -- "heurs !"
+  Si vous sça -- viez tous vos mal -- "heurs !"
 }
 %Atys
 \tag #'(atys basse) {
   Si je vous pers, et si je meurs,
-  que puis-je en -- core a -- voir à crain -- "dre ?"
+  Que puis-je en -- core a -- voir à crain -- "dre ?"
 }
 %Sangaride
 \tag #'(sangaride basse) {
   C'est peu de perdre en moy ce qui vous a char -- mé,
-  vous me per -- dez, A -- tys, et vous es -- tes ai -- mé.
+  Vous me per -- dez, A -- tys, et vous es -- tes ai -- mé.
 }
 %Atys
 \tag #'(atys basse) {
@@ -116,41 +116,41 @@
 %Atys
 \tag #'(atys basse) {
   Mon mal -- heur en est plus af -- freux,
-  le bon -- heur que je pers doit re -- dou -- bler ma ra -- "ge ;"
-  mais n'im -- porte, ai -- mez- moy, s'il se peut, d'a -- van -- ta -- ge,
-  quand j'en de -- vrois mou -- rir cent fois plus mal -- heu -- reux.
+  Le bon -- heur que je pers doit re -- dou -- bler ma ra -- "ge ;"
+  Mais n'im -- porte, ai -- mez- moy, s'il se peut, d'a -- van -- ta -- ge,
+  Quand j'en de -- vrois mou -- rir cent fois plus mal -- heu -- reux.
 }
 %Sangaride
 \tag #'(sangaride basse) {
   Si vous cher -- chez la mort, il faut que je vous sui -- "ve ;"
-  vi -- vez, c'est mon a -- mour qui vous en fait la loy.
+  Vi -- vez, c'est mon a -- mour qui vous en fait la loy.
 }
 %Atys
 \tag #'(atys basse) {
   Hé com -- "ment !" Hé pour -- quoy
-  vou -- lez- vous que je vi -- ve,
-  si vous ne vi -- vez pas pour "moy ?"
+  Vou -- lez- vous que je vi -- ve,
+  Si vous ne vi -- vez pas pour "moy ?"
 }
 %Atys et Sangaride.
 \tag #'(sangaride basse) {
   Si l'hy -- men u -- nis -- soit mon des -- tin et le vos -- tre,
-  que ses nœuds au -- roient eû d'at -- "traits !"
+  Que ses nœuds au -- roient eû d'at -- "traits !"
   L'a -- mour fit nos cœurs l'un pour l'au -- tre,
-  faut- il que le de -- voir les se -- pare à ja -- "mais ?"
+  Faut- il que le de -- voir les se -- pare à ja -- "mais ?"
   L'a -- mour fit nos cœurs l'un pour l'au -- tre,
-  faut- il que le de -- voir les se -- pare à ja -- "mais ?"
+  Faut- il que le de -- voir les se -- pare à ja -- "mais ?"
   Faut- il que le de -- voir,
-  faut- il que le de -- voir les se -- pare à ja -- mais, à ja -- "mais ?"
+  Faut- il que le de -- voir les se -- pare à ja -- mais, à ja -- "mais ?"
   Faut- il que le de -- voir,
-  faut- il que le de -- voir les se -- pare à ja -- mais, à ja -- "mais ?"
+  Faut- il que le de -- voir les se -- pare à ja -- mais, à ja -- "mais ?"
 }
 \tag #'(atys) {
   Si l'hy -- men u -- nis -- soit mon des -- tin et le vos -- tre,
-  que ses nœuds, que ses nœuds au -- roient eu d'at -- "traits !"
+  Que ses nœuds, que ses nœuds au -- roient eu d'at -- "traits !"
   L'a -- mour fit nos cœurs l'un pour l'au -- tre,
-  faut- il que le de -- voir les se -- pare à ja -- "mais ?"
+  Faut- il que le de -- voir les se -- pare à ja -- "mais ?"
   L'a -- mour fit nos cœurs l'un pour l'au -- tre,
-  faut- il que le de -- voir les se -- pare à ja -- "mais ?"
+  Faut- il que le de -- voir les se -- pare à ja -- "mais ?"
   Faut- il que le de -- voir les se -- pare à ja -- mais, à ja -- "mais ?"
   Faut- il que le de -- voir les se -- pare à ja -- mais, à ja -- "mais ?"
 }
@@ -165,14 +165,12 @@
 }
 %Atys
 \tag #'(atys basse) {
-  %Ai -- mons un bien plus du -- ra -- ble
-  %que l'é -- clat de la beau -- té.
   Ai -- mons un bien plus du -- ra -- ble
-  que l'é -- clat de la Beau -- "té :"
-  rien n'est plus ai -- ma -- ble
-  que la li -- ber -- té.
+  Que l'é -- clat de la Beau -- "té :"
   Rien n'est plus ai -- ma -- ble
-  que la li -- ber -- té.
+  Que la li -- ber -- té.
   Rien n'est plus ai -- ma -- ble
-  que la li -- ber -- té.
+  Que la li -- ber -- té.
+  Rien n'est plus ai -- ma -- ble
+  Que la li -- ber -- té.
 }

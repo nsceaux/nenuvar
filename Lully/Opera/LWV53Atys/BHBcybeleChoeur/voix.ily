@@ -80,7 +80,11 @@ do''2( si'4.)\trill la'8 |
 la'2
 <<
   \tag #'voix {
-    do''4.^\markup\character "[Chœur]" do''8 |
+    do''4.^\markup\override #'(line-width . 70) \italic\wordwrap {
+      [Cybele portée par son Char volant, se va rendre dans son Temple.
+      Tous les Phrygiens s'empressent d'y aller, & repetent les quatres
+      derniers Vers que la Déesse a prononcez.]
+    } do''8 |
     re''4. re''8 re''4.\trill re''8 |
     mi''2 re''4 si' |
     do''4. re''8 do''4( si')\trill |

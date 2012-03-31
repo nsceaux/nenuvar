@@ -3,7 +3,11 @@
     \origVersion\new StaffGroupNoBar <<
       %% Chœur
       \new Staff \with { \haraKiriFirst } \withLyrics <<
-        { s1*2 s2.*2 s2 s^\markup\character Sangaride }
+        { s1*2 s2.*2 s2
+          s^\markup\character-text Sangaride \line\italic {
+            [s'avançant vers la Montagne]
+          }
+        }
         \global \keepWithTag #'dessus \includeNotes "voix"
       >> \keepWithTag #'dessus \includeLyrics "paroles"
       \new Staff \withLyrics <<

@@ -1,59 +1,80 @@
 %{ n°1 %}\newBookPart #'()
 \act "Acte Premier"
-\sceneDescription \markup \wordwrap-center {
-  Le théâtre représente une montagne consacrée à Cybèle.
+\sceneDescription\markup\wordwrap-center {
+  [Le Theatre represente une Montagne consacrée à Cybele.]
 }
-\scene "Scène Première" "SCÈNE 1 : Atys"
-\sceneDescription \markup { \smallCaps Atys, seul. }
-\pieceToc \markup { \smallCaps Atys :
+\scene "Scene Premiere" "SCENE 1 : Atys"
+\sceneDescription\markup\smallCaps Atys.
+\pieceToc\markup\wordwrap { \smallCaps Atys :
   \italic { Allons, allons, accourez tous } }
 \includeScore "BAAatys"
 %{ n°2 %}\newBookPart #'(full-rehearsal)
-\scene "Scène II" "SCÈNE 2 : Atys, Idas"
-\sceneDescription \markup \smallCaps { Atys, Idas. }
-\pieceToc \markup \smallCaps { Atys, Idas }
+\scene "Scene II" "SCENE 2 : Atys, Idas"
+\sceneDescription\markup\smallCaps { Atys, Idas. }
+\pieceToc\markup\wordwrap { \smallCaps { Atys, Idas : }
+  \italic { Allons, allons, accourez tous } }
 \includeScore "BBAatysIdas"
-%{ n°3 %}\newBookPart #'(full-rehearsal voix basse-continue)
-\scene "Scène III" "SCÈNE 3 : Sangaride, Doris, Atys, Idas"
-\sceneDescription \markup \smallCaps { Sangaride, Doris, Atys, Idas. }
-\pieceToc \markup \smallCaps { Sangaride, Doris, Atys, Idas }
+%{ n°3 %}\newBookPart #'(full-rehearsal basse-continue)
+\scene "Scene III" "SCENE 3 : Sangaride, Doris, Atys, Idas"
+\sceneDescription\markup\smallCaps { Sangaride, Doris, Atys, Idas. }
+\pieceToc\markup\wordwrap { \smallCaps { Sangaride, Doris, Atys, Idas : }
+  \italic { Allons, allons, accourez tous } }
 \includeScore "BCAsdai"
 %{ n°4 %}\newBookPart #'(full-rehearsal basse-continue)
-\scene "Scène IV" "SCÈNE 4 : Sangaride, Doris"
-\sceneDescription \markup \smallCaps { Sangaride, Doris. }
-\pieceToc \markup { \smallCaps { Sangaride, Doris : }
+\scene "Scene IV" "SCENE 4 : Sangaride, Doris"
+\sceneDescription\markup\smallCaps { Sangaride, Doris. }
+\pieceToc\markup\wordwrap { \smallCaps { Sangaride, Doris : }
   \italic { Atys est trop heureux } }
 \includeScore "BDAsangarideDoris"
 %{ n°5 %}
-\scene "Scène V" "SCÈNE 5 : Sangaride, Atys, Doris"
-\sceneDescription \markup \smallCaps { Sangaride, Atys, Doris. }
-\pieceToc \markup \smallCaps { Atys, Doris }
+\scene "Scene V" "SCENE 5 : Sangaride, Doris, Atys"
+\sceneDescription\markup\smallCaps { Sangaride, Doris, Atys. }
+\pieceToc\markup\wordwrap { \smallCaps { Atys, Doris : }
+  \italic { On voit dans ces campagnes } }
 \includeScore "BEAatysDoris"
-%{ n°6 %}\newBookPart #'(full-rehearsal voix)
-\scene "Scène VI" "SCÈNE 6 : Sangaride, Atys"
+%{ n°6 %}\newBookPart #'(full-rehearsal)
+\scene "Scene VI" "SCENE 6 : Sangaride, Atys"
 \sceneDescription \markup \smallCaps { Sangaride, Atys. }
-\pieceToc \markup \smallCaps { Atys, Sangaride }
+\pieceToc\markup\wordwrap { \smallCaps { Atys, Sangaride : }
+  \italic { Sangaride ce jour est un grand jour pour vous } }
 \includeScore "BFAatysSangaride"
-%{ n°7 %}\newBookPart #'(voix)
-\scene "Scène VII" "SCÈNE 7 : Sangaride, Atys, chœur de Phrygiens"
-\sceneDescription \markup \smallCaps { Sangaride, Atys, les Phrygiens. }
-\pieceToc \markup { \smallCaps { Atys, Sangaride, chœur : }
+%{ n°7 %}
+\scene "Scene VII" "SCENE 7 : Sangaride, Atys, chœur de Phrygiens"
+\sceneDescription\markup\column {
+  \smallCaps { Sangaride, Atys, les Phrygiens. }
+  \justify {
+    [Chœur de Phrygiens chantans. Chœur de Phrygiennes chantantes.
+    Troupe de Phrygiens dançans. Troupe de Phrygiennes dançantes.]
+  }
+  \smaller\italic\column {
+    \line { [Dix Hommes Phrygiens chantans conduits par Atys. }
+    \line { Dix Femmes Phrygiennes chantantes conduites par Sangaride. }
+    \line { Six Phrygiens dançans. }
+    \line { Six Nimphes Phrygiennes dançantes.] }
+  }
+}
+\pieceToc\markup\wordwrap { \smallCaps { Atys, Sangaride, chœur : }
   \italic { Commençons de célébrer ici }
 } \includeScore "BGAatysSangarideChoeur"
 %{ n°8 %}
-\pieceTocTitle "Premier air des Phrygiens"
+\pieceTocTitle "Entrée de Phrygiens"
 \includeScore "BGBphrygiens"
 %{ n°9 %}
 \pieceTocTitle "Second air des Phrygiens"
 \includeScore "BGCphrygiens"
 %{ n°10 %}\newBookPart #'(full-rehearsal)
-\scene "Scène VIII" "SCÈNE 8 : Cybèle, chœur de Phrygiens"
-\sceneDescription \markup { \smallCaps Cybèle sur son char. }
+\scene "Scene VIII" "SCENE 8 : Cybele, chœur de Phrygiens"
+\sceneDescription\markup\column {
+  \wordwrap-center { \smallCaps Cybele sur son char. }
+  \justify {
+    [La Déesse Cybele paroist sur son Char, & les Phrygiens
+    & les Phrygiennes luy témoignent leur joye & leur respect.]
+  }
+}
 \pieceToc "Prélude pour Cybèle"
 \includeScore "BHAprelude"
 %{ n°11 %}\newBookPart #'(full-rehearsal)
-\pieceToc \markup { \smallCaps { Cybèle, chœur : }
+\pieceToc\markup\wordwrap { \smallCaps { Cybele, chœur : }
   \italic { Vous devez vous animer }
 } \includeScore "BHBcybeleChoeur"
-%\pieceTocTitle "Entr'acte"  \reIncludeScore "BGCphrygiens" "BHCphrygiens"
 \actEnd "FIN DU PREMIER ACTE"

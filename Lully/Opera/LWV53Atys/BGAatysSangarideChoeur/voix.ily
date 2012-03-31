@@ -209,7 +209,7 @@
         re'' re'' mi'' |
         mi''( re''2)\trill |
         do''2 } >>
-    \sangarideMark do''4. do''8 |
+    \forceFullClef\clef "vbas-dessus" do''4.^\markup\character [Sangaride] do''8 |
     si'2\trill si'4. si'8 |
     mi'2 mi'4. mi'8 |
     la'2 la'4 si' |
@@ -220,7 +220,7 @@
     fad'2\trill
     <<\tag #'basse { r2 R1*21 R2.*64 }
       \tag #'dessus {
-        la'4.^\markup\character "Chœur" la'8 |
+        la'4.^\markup\character [Chœur] la'8 |
         sib'2. re''4 |
         re''2 re''4 re'' |
         re''2( do''\trill) |
@@ -310,7 +310,7 @@
     sol4 r4
     << { s2 s1*4 s2.*71 | s1 | s1. | s2. }
       \tag #'haute-contre { r2 | R1*4 |
-        r4 r8 mi'^\markup\character "Atys" mi'4 |
+        r4 r8 mi'^\markup\character "[Atys]" mi'4 |
         re'4. re'8 mi'4 |
         fa'2. |
         mi'4 mi'4. mi'8 |
@@ -489,7 +489,7 @@
       sol'4 sol' fa' |
       fa' fa' sol' |
       sol'4.( fa'8[ mi' fa']) |
-      mi'2 \atysMark mi'4. mi'8 |
+      mi'2 \forceFullClef\clef "vhaute-contre" mi'4.^\markup\character [Atys] mi'8 |
       re'2\trill re'4. mi'8 |
       do'2 do'4. do'8 |
       do'2 do'4 re' |

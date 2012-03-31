@@ -20,8 +20,8 @@
     dod''2. dod''4 red''2 |
     mi'' mi''( red'') |
     mi''2.
-    << { s2. s1.*4 s1 } \tag #'sangaride { r4 r2 | R1.*4 | r1 } >>
-    \tag #'basse \sangarideMark mi''2-\tag #'sangaride ^\markup\character "Sangaride" |\noBreak
+    << { s2. s1.*4 s1 } \tag #'sangaride { r4 r2 | R1.*4 | r2 r } >>
+    \tag #'basse \sangarideMark mi''2-\tag #'sangaride ^\markup\character [Sangaride] |\noBreak
     la'\trill la' si'4 do'' |
     si'2.\trill mi''4 dod''2\trill |
     re'' re'' dod'' %{ re''2. dod''4 %} |
@@ -46,7 +46,7 @@
     mi''4 mi''8[ re''] do''[ si'] la'[ sol'] |
     fad'4.\trill re''8 re''4. re''8 |
     mi''[ re''] do''[ si'] si'4( la')\trill |
-    sol'2 sol'4. sol'8 |
+    sol'2 sol'4.^\markup\orig-version\character Sangaride sol'8 |
     re''2 la'4. si'8 |
     sol'2 do''4. do''8 |
     do''4.( si'8) si'4. do''8 |
@@ -60,7 +60,8 @@
     sol'4 sol'8 sol' sol'4. la'8 |
     fad'2\trill fad'4
     << { s4 s1*12 s4 } \tag #'sangaride { r4 | R1*12 | r4 } >>
-    \tag #'basse \sangarideMark si'8-\tag #'sangaride ^\markup\character Sangaride re'' si'4\trill si'8 sol' |
+    \tag #'basse \sangarideMark si'8-\tag #'sangaride ^\markup\character [Sangaride]
+    re'' si'4\trill si'8 sol' |
     do''4. do''8 re'' re'' mi'' fa'' |
     mi''4\trill mi'' r mi'8 fad'! |
     sol'4 la'8 si' do''4. mi''8 |
@@ -70,7 +71,7 @@
     mi'2\trill do''4 do''8 do'' re''4. mi''8 |
     la'4\trill la'
     << { s4 s2.*35 } \tag #'sangaride { r4 | R2.*35 | } >> 
-    \tag #'basse \sangarideMark si'4-\tag #'sangaride ^\markup\character Sangaride
+    \tag #'basse \sangarideMark si'4-\tag #'sangaride ^\markup\character [Sangaride]
     do''4. re''8 %{ do''4 re'' %} |
     do''2.\trill |
     la'4 %{ si' do'' %} si'4. do''8 |
@@ -159,7 +160,7 @@
   %% Atys
   \tag #'(atys basse) {
     << { s1*12 s1.*6 s2. } \tag #'atys { \atysMark R1*12 | R1.*6 | r2 r4 } >>
-    \tag #'basse \atysMark sold4-\tag #'atys ^\markup\character "Atys" sold4. sold8 |
+    \tag #'basse \atysMark sold4-\tag #'atys ^\markup\character [Atys] sold4. sold8 |
     la1 si2 |
     do'1 do'4 re' |
     mi'2 fa'2. mi'4 |
@@ -219,7 +220,7 @@
         si2\trill r |
         R1*11 |
         r2 r4 } >>
-    \tag #'basse \atysMark la4-\tag #'atys ^\markup\character "Atys" |
+    \tag #'basse \atysMark la4-\tag #'atys ^\markup\character "[Atys]" |
     la4. la8 la4. si8 |
     sol2. sol4 |
     la4. si8 si4( la8.) sol16 | % la8)\trill sol
@@ -234,7 +235,8 @@
     si2( la4.)\trill sol8 |
     sol4
     << { s2. s1*6 s1. s2 } \tag #'atys { r4 r2 | R1*6 | R1. | r4 r } >>
-    \tag #'basse \atysMark re'4-\tag #'atys ^\markup\character "Atys" |
+    \tag #'basse \atysMark re'4-\tag #'atys ^\markup\character [Atys]
+ |
     re'2 mi'4 |
     do'2\trill si4 |
     la2\trill sol4 |
@@ -271,7 +273,7 @@
     do'[ si] la4.\trill sol8 |
     sol2 r4 |
     << { s2.*28 s2 } \tag #'atys { R2.*28 | r4 r } >>
-    \tag #'basse \atysMark re'4-\tag #'atys ^\markup\character "Atys" ~ |
+    \tag #'basse \atysMark re'4-\tag #'atys ^\markup\character [Atys] ~ |
     re' r la8 la |
     si la sol4(\trill fad8) sol |
     fad2.\trill |
@@ -351,7 +353,7 @@
     la8 sib do'8. do'16 do'8 sib16[ la] | % do'8 do' do'[ sib16] la
     %{ sib4. %} sib4 r8 re'8 mib' mib'16 mib' do'8\trill do'16 do' |
     la2\trill la4 r |
-    r4 r8 sol sib4. sol8 |
+    r4 r8^\markup\orig-version\character Atys sol sib4. sol8 |
     re'4 mib'8[ re'] do'[ sib] do'[ la] |
     sib4. re'8 re'4. re'8 |
     sol'4 sol'8[ fa'] mib'[ re'] do'[ sib] |

@@ -1,7 +1,7 @@
 <<
   %% Atys
   \tag #'(atys basse) {
-    \atysMark r4 r8 sol sib4. sol8 |
+    \clef "vhaute-contre" r4^\markup\character "[Atys]" r8 sol sib4. sol8 |
     re'4 mib'8[ re'] do'[ sib] do'[ la] |
     sib4. re'8 re'4. re'8 |
     sol'4 sol'8[ fa'] mib'[ re'] do'[ sib] |
@@ -40,7 +40,7 @@
     sib( la4.)\trill sol8 |
     sol2
     << { s2 s1*16 s4 } \tag #'atys { r2 | R1*16 | r4 } >>
-    \tag #'basse \atysMark re'4-\tag #'atys ^\markup\character Atys sib8 sib sib re' |
+    \tag #'basse \atysMark re'4-\tag #'atys ^\markup\character [Atys] sib8 sib sib re' |
     sol4 sol8 sol do'4 do'8 sol |
     la2. |
     r2 re'4 |
@@ -96,13 +96,13 @@
     la8 sib sib4( la)\trill |
     << \tag #'atys sol2 \tag #'basse { sol4 s } >>
     << { s4 s2.*29 s1*18 s4 } \tag #'atys { r4 | R2.*29 | R1*18 | r4 } >>
-    \tag #'basse \atysMark sib8.-\tag #'atys ^\markup\character Atys re'16 sib4\trill sib8 sib |
+    \tag #'basse \atysMark sib8.-\tag #'atys ^\markup\character [Atys] re'16 sib4\trill sib8 sib |
     sol4.\trill mib'8 do'4\trill do'8 re'16 mib' |
     re'4\trill re' r re' |
     do'\trill do'8 re' sib4\trill la8 sib |
     la2\trill 
     << { s1*32 } \tag #'atys { r2 | R1*31 | r2 } >>
-    \tag #'basse \atysMark r4 r8-\tag #'atys ^\markup\character Atys re' |
+    \tag #'basse \atysMark r4 r8-\tag #'atys ^\markup\character [Atys] re' |
     sib4. mib'8 mib'4. mib'8 |
     do'2.\trill fa'4 |
     \myfootnote #'NoteHead #'(0 . 1)
@@ -180,7 +180,7 @@
     re1 |
     sol,4
     << { s2. s1 s2.*29 s4 } \tag #'idas { r4 r2 | R1 | R2.*29 | r4 } >>
-    \tag #'basse \idasMark re-\tag #'idas ^\markup\character Idas sol |
+    \tag #'basse \idasMark re-\tag #'idas ^\markup\character [Idas] sol |
     fad2\trill fad4 |
     sol la sib |
     la2\trill re'4 |
@@ -230,7 +230,7 @@
     sol do re( do8) re |
     sol,4
     << { s2. s1*3 s2 } \tag #'idas { r4 r2 | R1*3 | r2 } >>
-    \tag #'basse \idasMark r4 re8-\tag #'idas ^\markup\character Idas re |
+    \tag #'basse \idasMark r4 re8-\tag #'idas ^\markup\character [Idas] re |
     sol4 sol r8 sol %{ sol8 fa %} sol8. fa16 |
     mi4\trill do8. do16 fa4 %{ fa8. fa16 %} fa8 fa |
     fa4 mi\trill fa fa |
