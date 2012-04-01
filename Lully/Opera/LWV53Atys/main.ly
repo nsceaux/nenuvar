@@ -24,13 +24,17 @@
   \include "Lully/Opera/LWV53Atys/livret3.ily"
   \include "Lully/Opera/LWV53Atys/livret45.ily"
 }
-%% Personnages
+%% Prologue
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Lully/Opera/LWV53Atys/personnages-prologue.ily"
+}
+\include "Lully/Opera/LWV53Atys/prologue.ily"
+%% Tragédie
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Lully/Opera/LWV53Atys/personnages.ily"
 }
-%% Musique
-\include "Lully/Opera/LWV53Atys/prologue.ily"
 \include "Lully/Opera/LWV53Atys/acte1.ily"
 \include "Lully/Opera/LWV53Atys/acte2.ily"
 \include "Lully/Opera/LWV53Atys/acte3.ily"

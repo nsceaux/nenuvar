@@ -436,8 +436,8 @@ characterLayout = \layout {
 characterAmbitus =
 #(define-music-function (parser location clef1 clef2 low-note high-note)
      (string? string? ly:music? ly:music?)
-   (let* ((low-pitch (ly:music-property low-note 'elements))
-          (high-pitch (ly:music-property high-note 'elements))
+   (let* ((low-pitch (ly:music-property low-note 'pitch))
+          (high-pitch (ly:music-property high-note 'pitch))
           (chord (make-music
                   'EventChord
                   'elements (list (make-music
