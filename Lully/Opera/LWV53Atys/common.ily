@@ -12,8 +12,9 @@
 #(ly:set-option 'ancient-alteration (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
-#(ly:set-option 'apply-vertical-tweaks (and (not (eqv? #t (ly:get-option 'urtext)))
-                                            (not (symbol? (ly:get-option 'part)))))
+#(ly:set-option 'apply-vertical-tweaks
+                (and (not (eqv? #t (ly:get-option 'urtext)))
+                     (not (symbol? (ly:get-option 'part)))))
 #(ly:set-option 'print-footnotes (eqv? #t (ly:get-option 'urtext)))
 
 %% use baroque style repeats
@@ -24,7 +25,7 @@
 %%  16 for vocal parts
 %%  18 for instruments
 #(set-global-staff-size
-  (cond ((eqv? #f (ly:get-option 'part)) 14)
+  (cond ((not (symbol? (ly:get-option 'part))) 14)
         ((memq (ly:get-option 'part) '(basse-continue)) 16)
         (else 18)))
 

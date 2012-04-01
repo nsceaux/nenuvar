@@ -1,7 +1,7 @@
 %{ n°1 %}\newBookPart #'()
-\act "Acte Cinquiesme"
+\act "Acte Cinquiéme"
 \sceneDescription \markup \wordwrap-center {
-  Le Theatre change & represente des Jardins agreables.
+  [Le Theatre change & represente des Jardins agreables.]
 }
 \scene "Scene Première" "SCENE 1 : Celænus, Cybele"
 \sceneDescription\markup\smallCaps { Cybele, Celænus, [Melisse.] }

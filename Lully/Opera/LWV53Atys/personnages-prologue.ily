@@ -2,13 +2,13 @@
   \vspace #1
   \act \line { ACTEUR DU PROLOGUE }
   \vspace #1
-  \override #'(character-width-ratio . 4/12)
+  \override #'(character-width-ratio . 3/10)
   \character-two-columns\column {
     \character-ambitus "Le Temps" \score {
       \characterAmbitus "varbaritone" "bass" sol, mib'
       \layout { \characterLayout }
     }
-    \vspace #1.2
+    \vspace #1.1
     \character-ambitus\center-column {
       \line { Les douze Heures du Jour. }
       \line { Les douze Heures de la Nuit. }
@@ -23,12 +23,12 @@
       >>
       \layout { \characterLayout }
     }
-    \vspace #1.2
+    \vspace #1.1
     \character-ambitus "La Deesse Flore" \score {
       \characterAmbitus "soprano" "treble" mi' fa''
       \layout { \characterLayout }
     }
-    \vspace #1.2
+    \vspace #1.1
     \character-ambitus "Un Zephir" \score {
       \characterAmbitus "alto" "G_8" sol sol'
       \layout { \characterLayout }

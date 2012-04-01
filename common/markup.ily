@@ -474,10 +474,13 @@ characterAmbitus =
    #:properties ((word-space 0.6))
    (interpret-markup
     layout props
-    (markup (#:concat (#:force-line-width-ratio 1/12 #:null
-                                                #:override `(word-space . ,word-space) col1
-                                                #:hspace 10
-                                                #:override `(word-space . ,word-space) col2)))))
+    #{ \markup\fill-line {
+         \null
+         \override #`(word-space . ,word-space) $col1
+         \hspace #6
+         \override #`(word-space . ,word-space) $col2
+         \null
+       } #}))
 
 #(define-markup-command (character-three-columns layout props col1 col2 col3)
      (markup? markup? markup?)

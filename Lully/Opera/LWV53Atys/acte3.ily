@@ -1,7 +1,7 @@
 %{ n°1 %}\newBookPart #'()
 \act "Acte Troisiéme"
 \sceneDescription \markup \wordwrap-center {
-  Le Theatre change & represente le Palais du Sacrificateur de Cybele.
+  [Le Theatre change & represente le Palais du Sacrificateur de Cybele.]
 }
 \scene "Scene Premiere" "SCENE 1 : Atys"
 \sceneDescription\markup { \smallCaps Atys seul. }

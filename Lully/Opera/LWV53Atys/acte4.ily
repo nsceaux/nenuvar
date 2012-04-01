@@ -74,7 +74,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Sangar, chœur des Fleuves : }
   \italic { Que l'on chante, que l'on dance } }
 \includeScore "EECsangarChoeur"
-%{ n°9 %}\newBookPart #'(full-rehearsal)
+%{ n°9 %}
 \sceneDescription\markup\wordwrap-center {
   [Dieux de Fleuves, Divinitez de Fontaines, & de Ruisseaux,
   chantants & dançants ensemble.]
@@ -82,7 +82,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Trois divinités : }
   \italic { La Beauté la plus severe } }
 \includeScore "EEDfluteChoeur"
-%{ n°10 %}\newBookPart #'(full-rehearsal)
+%{ n°10 %}
 \pieceToc\markup\wordwrap { \smallCaps { Trois divinités : }
   \italic { L'Hymen seul ne sçauroit plaire } }
 \includeScore "EEEfluteChoeur"

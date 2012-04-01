@@ -1,4 +1,4 @@
-\clef "vbas-dessus" re''4^\markup\character Choeurs re'' fa'' |
+\clef "vbas-dessus" re''4^\markup\character Chœurs re'' fa'' |
 sib' sib' mib'' |
 do''\trill do'' fa'' |
 re''2\trill sib'4 |

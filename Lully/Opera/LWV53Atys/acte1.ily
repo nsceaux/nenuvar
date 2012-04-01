@@ -41,20 +41,20 @@
 %{ n°7 %}
 \scene "Scene VII" "SCENE 7 : Sangaride, Atys, chœur de Phrygiens"
 \sceneDescription\markup\column {
-  \smallCaps { Sangaride, Atys, les Phrygiens. }
+  \wordwrap-center\smallCaps { Sangaride, Atys, les Phrygiens. }
   \justify {
     [Chœur de Phrygiens chantans. Chœur de Phrygiennes chantantes.
     Troupe de Phrygiens dançans. Troupe de Phrygiennes dançantes.]
   }
-  \smaller\italic\column {
-    \line { [Dix Hommes Phrygiens chantans conduits par Atys. }
-    \line { Dix Femmes Phrygiennes chantantes conduites par Sangaride. }
-    \line { Six Phrygiens dançans. }
-    \line { Six Nimphes Phrygiennes dançantes.] }
+  \smaller\italic\justify {
+    [Dix Hommes Phrygiens chantans conduits par Atys.
+    Dix Femmes Phrygiennes chantantes conduites par Sangaride.
+    Six Phrygiens dançans.
+    Six Nimphes Phrygiennes dançantes.]
   }
 }
 \pieceToc\markup\wordwrap { \smallCaps { Atys, Sangaride, chœur : }
-  \italic { Commençons de célébrer ici }
+  \italic { Commençons de celebrer icy }
 } \includeScore "BGAatysSangarideChoeur"
 %{ n°8 %}
 \pieceTocTitle "Entrée de Phrygiens"
@@ -71,9 +71,9 @@
     & les Phrygiennes luy témoignent leur joye & leur respect.]
   }
 }
-\pieceToc "Prélude pour Cybele"
+\pieceToc "Prelude [pour Cybele]"
 \includeScore "BHAprelude"
-%{ n°11 %}\newBookPart #'(full-rehearsal)
+%{ n°11 %}
 \pieceToc\markup\wordwrap { \smallCaps { Cybele, chœur : }
   \italic { Vous devez vous animer }
 } \includeScore "BHBcybeleChoeur"

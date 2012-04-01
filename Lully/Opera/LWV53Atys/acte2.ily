@@ -3,7 +3,7 @@
 \sceneDescription \markup \wordwrap-center {
   [Le Theatre change & represente le Temple de Cybele.]
 }
-\scene "Scène Premiere" "SCENE 1 : Celænus, Atys"
+\scene "Scene Premiere" "SCENE 1 : Celænus, Atys"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps Celænus [Roy de Phrigie,]
   \smallCaps Atys [Suivans de Celænus.]
@@ -15,7 +15,7 @@
   \italic { N'avancez pas plus loin, ne suivez point mes pas }
 }
 \includeScore "CABcelaenusAtys"
-%{ n°3 %}\newBookPart #'(full-rehearsal)
+%{ n°3 %}
 \scene "Scene II" "SCENE 2 : Cybele, Celænus"
 \sceneDescription\markup\center-column {
   \line\smallCaps { Cybele, Celænus, }
@@ -24,16 +24,16 @@
 \pieceTocTitle "Prelude"
 \includeScore "CBAprelude"
 %{ n°4 %}
-\pieceToc\markup\wordwrap { \smallCaps { Cybèle, Celænus : }
+\pieceToc\markup\wordwrap { \smallCaps { Cybele, Celænus : }
   \italic { Je veux joindre en ces lieux la gloire & l'abondance } }
 \includeScore "CBBcybeleCelaenus"
-%{ n°5 %}\newBookPart #'(full-rehearsal)
+%{ n°5 %}
 \scene "Scene III" "SCENE 3 : Cybele, Melisse"
 \sceneDescription\markup\smallCaps { Cybele, Melisse. }
 \pieceToc\markup\wordwrap { \smallCaps { Cybele, Melisse : }
   \italic { Tu t'estonnes, Melisse, & mon choix te surprend ? } }
 \includeScore "CCAcybeleMelisse"
-%{ n°6 %}\newBookPart #'(full-rehearsal)
+%{ n°6 %}
 \scene "Scene IV" \markup \wordwrap {
   SCENE 4 : Cybele, Atys, troupes de pleuples et de Zephirs
 }
@@ -57,7 +57,7 @@
 %{ n°7 %}
 \pieceTocTitle "Entrée des Nations"
 \includeScore "CDBnations"
-%{ n°8 %}\newBookPart #'(full-rehearsal)
+%{ n°8 %}
 \pieceTocTitle "Entrée des Zephirs"
 \includeScore "CDCzephirs"
 %{ n°9 %}\newBookPart #'(full-rehearsal)
