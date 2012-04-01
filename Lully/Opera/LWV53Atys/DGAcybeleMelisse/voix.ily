@@ -23,7 +23,7 @@
     do''2( si'4.)\trill la'8 |
     la'2 
     << \tag #'cybele { r2 | R1*12 | r4 } { s2 | s1*12 | s4 } >>
-    \tag #'basse \cybeleMark r8 do''16-\tag #'cybele ^\markup\character "Cybèle" mi'' do''8\trill do''16 do'' |
+    \tag #'basse \cybeleMark r8 do''16-\tag #'cybele ^\markup\character "Cybele" mi'' do''8\trill do''16 do'' |
     la'8.\trill la'16 re''8. re''16 si'8.\trill si'16 |
     sold'4 mi''16 mi'' mi'' si' do''8 do''16 do'' |
     la'8\trill la'16 la' la'8 si'16 do'' re''8 re'' la'16\trill la' si' do'' |
@@ -50,7 +50,7 @@
     r8 mi'16 mi' mi'8\trill mi'16 fa' sol'8. sol'16 do'' do'' do'' re'' |
     << \tag #'basse { si'16\trill si' s8 } \tag #'cybele { si'8\trill si' } >>
     << \tag #'cybele { r4 r2 | R1*20 | r2 } { s2. s1*20 s2 } >>
-    \tag #'basse \cybeleMark do''4-\tag #'cybele ^\markup\character "Cybèle" r8 do'' |
+    \tag #'basse \cybeleMark do''4-\tag #'cybele ^\markup\character [Cybele] r8 do'' |
     mi'\trill mi' r fad' sol' sol'16 sol' sol'8 fa'?16 mi' |
     fa'4 fa' r8 re''16 do'' si'8\trill do''16 re'' |
     sold'4 do''8 re''16 mi'' si'8.\trill do''16 |
@@ -60,13 +60,13 @@
   %% Mélisse
   \tag #'(melisse basse) {
     << { s1*11 s1. s1*4 s1. s1*3 s2 } \tag #'melisse { \melisseMark R1*11 R1. R1*4 R1. R1*3 r2 } >>
-    \tag #'basse \melisseMark do''4-\tag #'melisse ^\markup\character "Mélisse" re'' |
+    \tag #'basse \melisseMark do''4-\tag #'melisse ^\markup\character "Melisse" re'' |
     mi'' si' do'' re'' |
     do''\trill la' do'' si' |
     la'\trill sol' fad'4.\trill mi'8 |
     \myfootnote #'NoteHead #'(0 . 3.5) \markup\column {
       \wordwrap {
-        Manuscrit : les vers de Mélisse
+        Manuscrit : les vers de Melisse
         \italic { Ce n'est pas un si grand crime De ne s'exprimer pas bien }
         (mesures 21-25) sont chantés deux fois.
       }
@@ -109,7 +109,8 @@
     la'4
     << { s2 s2.*2 s1 s2. s1 s2.*7 s1 s8 }
       \tag #'melisse { r2 R2.*2 R1 R2. R1 R2.*7 R1 r8 } >>
-    \tag #'basse \melisseMark sol'16-\tag #'melisse ^\markup\character "Mélisse" sol' do''8 do''16 re'' mi''8 mi''16 fa'' re''8\trill re''16 mi'' |
+    \tag #'basse \melisseMark sol'16-\tag #'melisse ^\markup\character [Melisse]
+    sol' do''8 do''16 re'' mi''8 mi''16 fa'' re''8\trill re''16 mi'' |
     do''2\trill r |
     r4 mi'' mi'' si' |
     do''4. do''8 si'4. la'8 |

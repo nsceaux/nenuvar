@@ -1,5 +1,5 @@
 \clef "vhaute-contre" R2.*9 |
-r4 re'4.^\markup\character "Atys" mi'8 |
+r4 re'4.^\markup\character "[Atys]" mi'8 |
 fa'4 do'4.\trill re'8 |
 mib'2 mib'8 re' |
 do'2\trill re'8 mib' |
@@ -39,4 +39,4 @@ sol sol do' do' do'4 do'8 do' |
 do'4 do'8 re' sib4\trill la8 sib |
 la4 r8 la la8. la16 %{ la8. la16 %} la8 la |
 fad4 fad8 fad sol sol sol fad |
-sol1 |
+sol1*3/4 s4^\markup\right-align\line\italic { [Atys descend.] } |

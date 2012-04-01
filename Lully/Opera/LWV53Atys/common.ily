@@ -160,7 +160,7 @@ cybeleMark =
 
 melisseMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Mélisse"))
+  (make-character-mark "vbas-dessus" "Melisse"))
 
 celaenusMark =
 #(define-music-function (parser location) ()

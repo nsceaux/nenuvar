@@ -1,5 +1,5 @@
 \clef "vbas-dessus" R2.*10 |
-r2 r8 sol'^\markup\character "Cybèle" la' si' |
+r2 r8 sol'^\markup\character "Cybele" la' si' |
 do''4 la'8.\trill sol'16 fad'4\trill red'' |
 r mi''8. si'16 la'8\trill sol' fad'8.\trill sol'16 |
 mi'4 r8 sol'16 la' si'8\trill do''16 re'' |

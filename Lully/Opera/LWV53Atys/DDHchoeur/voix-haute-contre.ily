@@ -1,4 +1,5 @@
-\clef "vhaute-contre" r2 fa'4 fa' fa' fa' |
+\clef "vhaute-contre" r2^\markup\character "Chœur des Songes Funestes"
+fa'4 fa' fa' fa' |
 mib' mib' mib' mib' mib' mib' |
 mib' mib' mib' mib' mib' mib' |
 re' re' re' mib' re'4. re'8 |

@@ -22,17 +22,17 @@
   % Doris et Idas
   Nous ve -- nons par -- ta -- ger vos mor -- tel -- les al -- lar -- "mes ;"
   San -- ga -- ri -- de les yeux en lar -- mes
-  nous vient d'ou -- vrir son cœur.
+  Nous vient d'ou -- vrir son cœur.
 }
 \tag #'(atys basse) {
   % Atys
   L'heure a -- proche où l'Hy -- men vou -- dra qu'el -- le se li -- vre
-  au pou -- voir d'un heu -- reux es -- poux.
+  Au pou -- voir d'un heu -- reux es -- poux.
 }
 \tag #'(doris idas basse) {
   % Doris et Idas
   El -- le ne peut vi -- vre
-  pour un au -- tre que pour vous.
+  Pour un au -- tre que pour vous.
 }
 \tag #'(atys basse) {
   % Atys
@@ -41,26 +41,26 @@
 \tag #'(doris idas basse) {
   % Doris et Idas
   El -- le veut el -- le mesme aux pieds de la De -- es -- se
-  de -- cla -- rer hau -- te -- ment vos se -- cre -- tes a -- mours.
+  De -- cla -- rer hau -- te -- ment vos se -- cre -- tes a -- mours.
 }
 \tag #'(atys basse) {
   % Atys
   Cy -- be -- le pour moy s'in -- te -- res -- se,
-  j'o -- se tout es -- pe -- rer de son di -- vin se -- cours...
-  mais quoy, tra -- hir le "Roy !" trom -- per son es -- pe -- ran -- "ce !"
+  J'o -- se tout es -- pe -- rer de son di -- vin se -- cours...
+  Mais quoy, tra -- hir le "Roy !" trom -- per son es -- pe -- ran -- "ce !"
   De tant de biens re -- ceus est- ce la re -- com -- pen -- "se ?"
 }
 \tag #'(doris idas basse) {
   % Doris et Idas
   Dans l'Em -- pire a -- mou -- reux
-  \tag #'(doris basse) { le De -- voir, } le De -- voir n'a point de puis -- san -- "ce ;"
-  l'A -- mour dis -- pen -- ce
-  les Ri -- vaux d'es -- tre ge -- ne -- "reux ;"
-  il faut sou -- vent pour de -- ve -- nir heu -- reux
-  qu'il en couste un peu d'in -- no -- cen -- ce.
+  \tag #'(doris basse) { Le De -- voir, } Le De -- voir n'a point de puis -- san -- "ce ;"
+  L'A -- mour dis -- pen -- ce
+  Les Ri -- vaux d'es -- tre ge -- ne -- "reux ;"
   Il faut sou -- vent pour de -- ve -- nir heu -- reux
-  qu'il en couste un peu d'in -- no -- cen -- ce,
-  qu'il en couste un peu d'in -- no -- cen -- ce.
+  Qu'il en couste un peu d'in -- no -- cen -- ce.
+  Il faut sou -- vent pour de -- ve -- nir heu -- reux
+  Qu'il en couste un peu d'in -- no -- cen -- ce,
+  Qu'il en couste un peu d'in -- no -- cen -- ce.
 }
 \tag #'(atys basse) {
   % Atys
@@ -77,9 +77,9 @@
 \tag #'(doris idas atys basse) {
   % Doris, Atys, Idas
   En vain, un cœur, in -- cer -- tain de son choix,
-  met en ba -- lan -- ce mil -- le fois
-  l'A -- mour et la Re -- con -- nois -- san -- ce,
-  l'A -- mour toû -- jours em -- por -- te la ba -- lan -- ce.
+  Met en ba -- lan -- ce mil -- le fois
+  L'A -- mour et la Re -- con -- nois -- san -- ce,
+  L'A -- mour toû -- jours em -- por -- te la ba -- lan -- ce.
   L'A -- mour toû -- jours em -- por -- te la ba -- lan -- ce.
   \tag #'idas {
     L'A -- mour toû -- jours em -- por -- te la ba -- lan -- ce.
@@ -93,5 +93,5 @@
   % Atys
   Le plus jus -- te par -- ty cede en -- fin au plus fort.
   Al -- lez, pre -- nez soin de mon sort,
-  que San -- ga -- ride i -- cy se rende en di -- li -- gen -- ce.
+  Que San -- ga -- ride i -- cy se rende en di -- li -- gen -- ce.
 }

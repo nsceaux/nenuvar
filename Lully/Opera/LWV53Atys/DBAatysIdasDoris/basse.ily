@@ -109,3 +109,4 @@ do2. sol,4 |
 re2 sib, |
 do re4 re, |
 sol,2 sol8 la |
+\once\set Staff.whichBar = "|"

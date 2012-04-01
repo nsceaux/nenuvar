@@ -28,7 +28,8 @@
         sib2 sib4 do' |
         sib2( la)\trill |
         sol2. | } >>
-    \tag #'basse \phantaseMark r4-\tag #'phantase ^\markup\character "Phantase" sib do' |
+    \tag #'basse \phantaseMark
+    r4-\tag #'phantase ^\markup\character "[Phantase]" sib do' |
     re' la sib |
     fad2.\trill |
     la4 sib4. do'8 |

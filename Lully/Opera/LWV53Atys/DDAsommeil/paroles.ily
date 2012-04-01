@@ -1,69 +1,69 @@
 \tag #'(sommeil basse) {
   % Le Sommeil
   Dor -- mons, dor -- mons tous,
-  "ah !" "ah !" que le re -- pos est "doux !"
+  "Ah !" "ah !" que le re -- pos est "doux !"
   "Ah !" que le re -- pos est "doux !"
 }
 \tag #'(morphee basse) {
   % Morphée
   Re -- gnez, re -- gnez, di -- vin Som -- meil, re -- gnez, re -- gnez sur tout le mon -- de,
-  ré -- pan -- dez vos pa -- vots les plus as -- sou -- pis -- "sans ;"
-  cal -- mez les soins, char -- mez les sens,
-  cal -- mez les soins, char -- mez char -- mez les sens,
-  re -- te -- nez tous les cœurs dans u -- ne paix pro -- fon -- de.
+  Ré -- pan -- dez vos pa -- vots les plus as -- sou -- pis -- "sans ;"
+  Cal -- mez les soins, char -- mez les sens,
+  Cal -- mez les soins, char -- mez char -- mez les sens,
+  Re -- te -- nez tous les cœurs dans u -- ne paix pro -- fon -- de.
   Re -- te -- nez tous les cœurs dans u -- ne paix, dans u -- ne paix pro -- fon -- de.
 }
 \tag #'(phobetor basse) {
   % Phobetor
   Ne vous fai -- tes point vi -- o -- len -- ce,
-  cou -- lez, __ mur -- mu -- rez, clairs Ruis -- seaux,
-  cou -- lez, __ mur -- mu -- rez, clairs Ruis -- seaux,
-  il n'est per -- mis qu'au bruit des eaux
-  de trou -- bler la dou -- ceur d'un si char -- mant si -- len -- ce.
+  Cou -- lez, __ mur -- mu -- rez, clairs Ruis -- seaux,
+  Cou -- lez, __ mur -- mu -- rez, clairs Ruis -- seaux,
   Il n'est per -- mis qu'au bruit des eaux
-  de trou -- bler la dou -- ceur d'un si char -- mant si -- len -- ce.
+  De trou -- bler la dou -- ceur d'un si char -- mant si -- len -- ce.
+  Il n'est per -- mis qu'au bruit des eaux
+  De trou -- bler la dou -- ceur d'un si char -- mant si -- len -- ce.
 }
 % Le Sommeil, Morphée, Phobetor, et Phantase.
 \tag #'(sommeil basse) {
   Dor -- mons, dor -- mons tous,
-  "ah !" "ah !" que le re -- pos est "doux !"
+  "Ah !" "ah !" que le re -- pos est "doux !"
   "Ah !" que le re -- pos \tag #'sommeil { est "doux !" }
 }
 \tag #'(morphee basse) {
   Dor -- mons, dor -- mons tous,
-  "ah !" que le re -- pos est "doux !"
-  que le re -- pos, "ah !" que le re -- pos, que le re -- pos est "doux !"
-  que le re -- pos, que le re -- pos est "doux !"
+  "Ah !" que le re -- pos est "doux !"
+  Que le re -- pos, "ah !" que le re -- pos, que le re -- pos est "doux !"
+  Que le re -- pos, que le re -- pos est "doux !"
   "Ah !" que le re -- pos est "doux !"
   "Ah !" que le re -- pos, que le re -- pos est "doux !"
   "Ah !" "ah !" que le re -- pos, que le re -- pos est "doux !"
-  que le re -- pos, que le re -- pos,
+  Que le re -- pos, que le re -- pos,
   "Ah !" que le re -- pos,
   "Ah !" que le re -- pos,
   "Ah !" que le re -- pos est "doux !"
 }
 \tag #'phantase {
   Dor -- mons, dor -- mons, dor -- mons tous,
-  "ah !" que le re -- pos, que le re -- pos est "doux !"
+  "Ah !" que le re -- pos, que le re -- pos est "doux !"
   Dor -- mons, dor -- mons tous,
-  dor -- mons, dor -- mons tous,
-  dor -- mons, dor -- mons, dor -- mons, dor -- mons __ tous,
-  dor -- mons, dor -- mons tous,
-  dor -- mons, dor -- mons, dor -- mons, dor -- mons __ tous,
-  "ah !" que le re -- pos, que le re -- pos est "doux !"
+  Dor -- mons, dor -- mons tous,
   Dor -- mons, dor -- mons, dor -- mons, dor -- mons __ tous,
-  "ah !" que le re -- pos est "doux !"
-  que le re -- pos, que le re -- pos est "doux !"
+  Dor -- mons, dor -- mons tous,
+  Dor -- mons, dor -- mons, dor -- mons, dor -- mons __ tous,
+  "Ah !" que le re -- pos, que le re -- pos est "doux !"
+  Dor -- mons, dor -- mons, dor -- mons, dor -- mons __ tous,
+  "Ah !" que le re -- pos est "doux !"
+  Que le re -- pos, que le re -- pos est "doux !"
 }
 \tag #'phobetor {
   Dor -- mons, dor -- mons tous,
-  "ah !" que le re -- pos est "doux !"
+  "Ah !" que le re -- pos est "doux !"
   "Ah !" que le re -- pos, que le re -- pos est "doux !"
   Dor -- mons tous,
-  "ah !" que le re -- pos est "doux !"
-  que le re -- pos est "doux !"
+  "Ah !" que le re -- pos est "doux !"
+  Que le re -- pos est "doux !"
   Dor -- mons, dor -- mons tous,
-  "ah !" "ah !" que le re -- pos est "doux !"
+  "Ah !" "ah !" que le re -- pos est "doux !"
   Dor -- mons __ tous,
-  "ah !" "ah !" "ah !" que le re -- pos __ est "doux !"
+  "Ah !" "ah !" "ah !" que le re -- pos __ est "doux !"
 }

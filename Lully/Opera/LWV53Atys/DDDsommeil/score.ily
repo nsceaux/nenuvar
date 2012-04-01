@@ -10,9 +10,11 @@
       \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \keepWithTag #'morphee \includeNotes "voix"
       >> \keepWithTag #'morphee \includeLyrics "paroles"
-      \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \new Staff \with { \haraKiriFirst } \withLyricsB <<
         \global \keepWithTag #'phantase \includeNotes "voix"
-      >> \keepWithTag #'phantase \includeLyrics "paroles"
+      >>
+      \keepWithTag #'phantase \includeLyrics "paroles"
+      \keepWithTag #'phantase2 \includeLyrics "paroles"
       \new Staff \with { \haraKiri } \withLyrics <<
         \global \keepWithTag #'phobetor \includeNotes "voix"
       >> \keepWithTag #'phobetor \includeLyrics "paroles"
@@ -35,9 +37,11 @@
         { s1*6 s1. s1*3 s1. s1*4\break s1*5 s1. s1*3 s2.\break }
         \global \keepWithTag #'morphee \includeNotes "voix"
       >> \keepWithTag #'morphee \includeLyrics "paroles"
-      \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \new Staff \with { \haraKiriFirst } \withLyricsB <<
         \global \keepWithTag #'phantase \includeNotes "voix"
-      >> \keepWithTag #'phantase \includeLyrics "paroles"
+      >>
+      \keepWithTag #'phantase \includeLyrics "paroles"
+      \keepWithTag #'phantase2 \includeLyrics "paroles"
       \new Staff \with { \haraKiri } \withLyrics <<
         \global \keepWithTag #'phobetor \includeNotes "voix"
       >> \keepWithTag #'phobetor \includeLyrics "paroles"

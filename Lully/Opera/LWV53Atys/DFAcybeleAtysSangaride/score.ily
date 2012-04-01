@@ -1,6 +1,9 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff \withLyrics <<
+    \origVersion\new Staff \with { \haraKiriFirst } \withLyrics <<
+      \global \keepWithTag #'cybele \includeNotes "voix"
+    >> \keepWithTag #'cybele \includeLyrics "paroles"
+    \modVersion\new Staff \withLyrics <<
       \global \keepWithTag #'cybele \includeNotes "voix"
     >> \keepWithTag #'cybele \includeLyrics "paroles"
     \new Staff \with { \haraKiri } \withLyrics <<
