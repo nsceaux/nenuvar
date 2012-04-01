@@ -1,4 +1,5 @@
-\cybeleMark r4 r8 do'' mi'\trill mi'16 mi' mi'8 fa'16 sol' |
+\clef "vbas-dessus" r4^\markup\character [Cybele]
+r8 do'' mi'\trill mi'16 mi' mi'8 fa'16 sol' |
 la'8 la' r do''16 do'' dod''8 dod''16 dod'' |
 re''4 re''8 re'' mi''4\trill mi''8 mi'' |
 fa''4 fa''8. re''16 la'4\trill la'8 la'16 si' |

@@ -35,7 +35,7 @@
           \global \includeNotes "voix-basse"
         >> \keepWithTag #'choeur \includeLyrics "paroles"
       >>
-      \new Staff \with { \haraKiri } \withLyrics <<
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \keepWithTag #'cybele \includeNotes "voix"
       >> \keepWithTag #'cybele \includeLyrics "paroles"
       \new Staff \with { \haraKiri } \withLyrics <<

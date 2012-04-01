@@ -5,7 +5,8 @@
       \tag #'choeur {
         \clef "vbas-dessus" R1*5 R2.*2 R1*2 R2. R1 R2. R1 R2. R1*3
         R2.*3 R1*2 R2. R1 R2. R1*6 \break r4 } >>
-    \tag #'basse \choeurMark r8 fa'' re''\trill re'' r re'' |
+    \tag #'basse \choeurMark r8 fa''-\tag #'choeur ^\markup\character Chœur
+    re''\trill re'' r re'' |
     sib' sib' sib'8. do''16 la'4\trill r8 fa'' |
     re''4\trill re''8 re'' mi'' mi'' mi''8. mi''16 |
     fa''2
@@ -56,18 +57,18 @@
         >>
         \layout { \quoteLayout }
       }
-    } fa''8-\tag #'sangaride ^\markup\character "Sangaride"
+    } fa''8-\tag #'sangaride ^\markup\character "[Sangaride]"
     la'4 re''8 re''16 re'' |
     si'4\trill r4
     << { s2 s1*7 s2 } \tag #'sangaride { r2 | R1*7 | r2 } >>
-    \tag #'basse \sangarideMark r4-\tag #'sangaride ^\markup\column {
-      \characteri "Sangaride"
-      \line\italic { [dans un des costez du Theatre] }
+    \tag #'basse \sangarideMark r4
+    -\tag #'sangaride ^\markup\character-text "Sangaride" \line\italic {
+      [dans un des costez du Theatre]
     } fa'' |\modVersion\noBreak
     re''
     << { s2. s2 } \tag #'sangaride { r4 r2 | r2 } >>
     \tag #'basse \sangarideMark r4 r8
-    do''-\tag #'sangaride ^\markup\character "Sangaride" |
+    do'' |
     la'2\trill r
     \tag #'sangaride { R1*7 R1*3 R2. R1*3 R2.*2 R1*2 }
   }
@@ -77,7 +78,7 @@
         s1 s2. s1*3 s1 s1*9 s1*7 s1*2 s8 }
       \tag #'cybele { \cybeleMark R1*4 R1 R2.*2 R1 R1 R2. R1 R2. R1 R2. R1*3
         R2.*3 R1*2 R2. R1 R2. R1*3 R1 R1*9 R1*7 R1*2 | r8 } >>
-    \tag #'basse \cybeleMark re''8-\tag #'cybele ^\markup\character "Cybele"
+    \tag #'basse \cybeleMark re''8-\tag #'cybele ^\markup\character [Cybele]
     si'16\trill si' si' si' sol'8\trill sol'16 sol' re'8\trill re'16 mi' |
     fa'8 fa' r re''16 re'' la'8\trill la'16 si' |
     do''4 do''8 do'' do''4 re''8 mi'' |
@@ -131,13 +132,13 @@
     dod'8 fa' re'\trill re' re' dod' |
     re'4 re'8
     << { s8 s2 s2 } \tag #'atys { r8 r2 | r2 } >>
-    \tag #'basse \atysMark sol'8-\tag #'atys ^\markup\character "Atys"
+    \tag #'basse \atysMark sol'8
     sol'16 sol' si8. re'16 |
     sol4
     << { s2. s1 } \tag #'atys { r4 r2 | R1 } >>
     \tag #'basse \atysMark r8 fa'-\tag #'atys ^\markup {
-      \characteri "Atys"
-      \italic { [tenant à la main le cousteau sacré qui sert aux Sacrifices] }
+      \characteri "[Atys"
+      \italic { tenant à la main le cousteau sacré qui sert aux Sacrifices] }
     } re' fa' sib sib r sol' |\modVersion\noBreak
     mi'4\trill  r8 la' fa'\trill fa' fa' mi' |
     fa' fa'
@@ -156,7 +157,8 @@
       \tag #'celaenus {
         \celaenusMark R1*5 R2.*2 R1*2 R2. R1 R2. R1 R2. R1*3
         R2.*3 R1*2 R2. R1 R2. R1*2 r4 } >>
-    \tag #'basse \celaenusMark r8 si-\tag #'celaenus ^\markup\character "Celænus"
+    \tag #'basse \celaenusMark r8 si
+    -\tag #'celaenus ^\markup\character [Celænus]
     do' do'16 do' \myfootnote #'NoteHead #'(0 . 1.5) \markup {
       Manuscrit : \raise #3 \score {
         <<
@@ -177,7 +179,7 @@
     la4 la r2 |
     << { s1*16 } \tag #'celaenus { R1*16 } >>
     \tag #'basse \celaenusMark r8-\tag #'celaenus ^\markup {
-      \characteri "Celænus" \italic { [revenant sur le Theatre] }
+      \characteri "[Celænus" \italic { revenant sur le Theatre] }
     } do16 do
     sol8 sol16 sol do'8 do'16 mi' do'8\trill do'16 do' |
     la4\trill r8 do'16 do' la8.\trill la16 fa8\trill fa16 fa |

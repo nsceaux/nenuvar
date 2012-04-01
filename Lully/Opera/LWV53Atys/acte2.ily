@@ -4,7 +4,7 @@
   [Le Theatre change & represente le Temple de Cybele.]
 }
 \scene "Scène Premiere" "SCENE 1 : Celænus, Atys"
-\sceneDescription\markup\wrodwrap-center {
+\sceneDescription\markup\wordwrap-center {
   \smallCaps Celænus [Roy de Phrigie,]
   \smallCaps Atys [Suivans de Celænus.]
 }

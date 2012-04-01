@@ -41,7 +41,15 @@
     mib''4 mib'' r do''8. do''16 |
     do''4 do''8 sib' sib'4( la'8.)\trill sol'16 |
     sol'1 |
-    R1 |
+    << R1
+      \tag #'cybele {
+        s2.. s8^\markup\right-align\italic\override #'(line-width . 40)
+        \wordwrap {
+          [Atys prend la forme de l'Arbre aimé de la Déesse Cybele,
+          que l'on appelle Pin.]
+        }
+      }
+    >> |
   }
   %% Atys
   \tag #'(atys basse) {

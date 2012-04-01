@@ -27,9 +27,9 @@
   %% Cybèle
   \tag #'(cybele basse) {
     << { s1 s2.*2 s8 } \tag #'cybele { \cybeleMark R1 | R2.*2 | r8 } >>
-    \tag #'basse \cybeleMark re''8-\tag #'cybele ^\markup\italic {
-      [touchant Atys]
-    } si'16\trill si' si' re'' sol'8. sol'16 do'' do'' do'' mi'' |
+    \tag #'basse \cybeleMark re''8-\tag #'cybele ^\markup\character-text
+    [Cybele \line { touchant Atys] }
+    si'16\trill si' si' re'' sol'8. sol'16 do'' do'' do'' mi'' |
     la'8\trill la' r do''16 do'' fa''8 fa''16 fa'' |
     re''4\trill re''8 sol'' do''4 do''8 si' |
     do''4
@@ -55,13 +55,15 @@
     si'4 re''8 re''16 sol'' mib''8. re''16 re''8. mib''16 |
     do''4\trill << \tag #'cybele do''4 \tag #'basse { do''8 s } >>
     << { s2 s1*4 s2. s1*3 s2. s1*10 s4 }
-      \tag #'cybele { r2 | R1*4 | R2. | R1*3 | R2. | R1*10 | r4 } >>
+      \tag #'cybele {
+        r2 | R1*4 | R2. | R1*3 | R2. | R1*10 |
+        r4^\markup\orig-version\column {
+          \line { \characteri Cybele \italic { [ordonnant d'emporter } }
+          \line\italic { le corps de Sangaride morte] }
+        }
+      }
+    >>
     \tag #'basse \cybeleMark r8
-    -\tag #'cybele ^\markup\orig-version\column {
-      \characteri Cybele
-      \line\italic { [ordonnant d'emporter le }
-      \line\italic { corps de Sangaride morte] }
-    }
     -\tag #'cybele ^\markup\mod-version {
       \characteri Cybele
       \italic { [ordonnant d'emporter le corps de Sangaride morte] }

@@ -1,7 +1,7 @@
 %% ACTE 5 SCENE 1
 % Celaenus
 \tag #'(celaenus basse) {
-  Vous m'os -- tez San -- ga -- ride, in -- hu -- mai -- ne Cy -- bè -- le,
+  Vous m'os -- tez San -- ga -- ride, in -- hu -- mai -- ne Cy -- bel -- le,
   Est- ce le prix du ze -- le
   Que j'ay fait a -- vec soin é -- cla -- ter à vos "yeux ?"
   Pre -- pa -- rez- vous ain -- si la dou -- ceur e -- ter -- nel -- le

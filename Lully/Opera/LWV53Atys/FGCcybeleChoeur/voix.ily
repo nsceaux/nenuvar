@@ -1,7 +1,8 @@
 <<
   %% Cybele
   \tag #'(cybele basse) {
-    \cybeleMark r4 r8 sol' do''8. do''16 do''8. re''16 |
+    \clef "vbas-dessus" r4^\markup\character [Cybele]
+    r8 sol' do''8. do''16 do''8. re''16 |
     si'4.\trill si'8 do''8. do''16 do''8. re''16 |
     mi''4 r8 sol' sol'4 sol'8 sol' |
     sol'4 sol'8 fad' sol'4 sol' |
@@ -19,7 +20,8 @@
     fad'4 la'8. sib'16 sol'4 sol'8 fad' |
     sol'4 sol'
     << { s2 s1*7 s2 } \tag #'cybele { r2 | R1*7 | r2 } >>
-    \tag #'basse \cybeleMark r4 r8 sol'16 sol' |
+    \tag #'basse \cybeleMark r4 r8 sol'16
+    -\tag #'cybele ^\markup\character Cybele sol' |
     do''2 do''4. do''8 |
     la'2\trill re''4 re''8 re'' |
     si'2. mib''4 |
