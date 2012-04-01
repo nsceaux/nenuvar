@@ -120,4 +120,4 @@
 \pieceToc \markup { \smallCaps Cybele :
   \italic { Espoir si cher, & si doux } }
 \includeScore "DHAcybele"
-\actEnd "FIN DU TROISIÈME ACTE"
+\actEnd "FIN DU TROISIESME ACTE"

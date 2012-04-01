@@ -2,7 +2,7 @@
 % Celaenus
 \tag #'(basse celaenus) {
   Bel -- le Nym -- phe, l'Hy -- men va sui -- vre mon en -- vi -- e,
-  l'A -- mour a -- vec moy vous con -- vi -- e
+  L'A -- mour a -- vec moy vous con -- vi -- e
   A ve -- nir vous pla -- cer sur un Thrône é -- cla -- tant,
   J'a -- proche a -- vec trans -- port du fa -- vo -- rable ins -- tant
   D'où des -- pend la dou -- ceur du res -- te de ma vi -- "e :"

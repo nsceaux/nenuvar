@@ -14,14 +14,19 @@
     fa'4 re'8. do'16 si4\trill si8. do'16 |
     la4
     << { s2. s2.*2 s1*8 } \tag #'atys { r4 r2 | R2.*2 | R1*8 | } >>
-    \tag #'basse \atysMark r4 r8 sol16-\tag #'atys ^\markup\character "Atys" sol do'8. do'16 do'8. re'16 |
+    \tag #'basse \atysMark r4 r8 sol16
+    -\tag #'atys ^\markup\character-text Atys "[élevé sur un nuage]"
+    sol do'8. do'16 do'8. re'16 |
     mi'4 r8 mi'16 sol' do'8. do'16 do'8. do'16 |
     la4\trill la do'8 do'16 do' re'8. mi'16 |
     fa'4 fa'8. fa'16 mi'4\trill mi'8 fad' |
     sol'4 si8 si16 si mi'8. mi'16 mi'8. mi'16 |
     do'4 r8 fa' re'8.\trill sol'16 sol'8. sol'16 |
     do'4 r8 fa' re'8.\trill re'16 mi'8. fa'16 |
-    mi'2\trill mi'4 |
+    mi'2\trill mi'4*3/4 s16
+    -\tag #'atys ^\markup\italic\right-align\line {
+      [Les Zephirs volents, & enlevent Atys & Sangaride]
+    } |
     \tag #'atys { R2.*6 }
   }
   %% Celænus

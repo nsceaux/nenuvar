@@ -1,4 +1,6 @@
-\clef "vbas-dessus" do''4 mi'' |
+\clef "vbas-dessus" do''4^\markup\character {
+  Chœur [de Dieux de Fleuves, et de Divinitez de Fontaines]
+} mi'' |
 la' mi'' fa''8[ mi''] re''[ do''] |
 si'2\trill do''4 mi'' |
 la' mi'' fa''8[ mi''] re''[ do''] |
