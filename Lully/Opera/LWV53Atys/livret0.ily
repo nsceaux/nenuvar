@@ -147,5 +147,6 @@
     \livretPers \line { Tous ensemble. }
     \livretVerC { Le temps des Jeux, et du repos, }
     \livretVer { Luy sert à mediter de nouvelles Conquestes. }
+    \sep
   }
 }

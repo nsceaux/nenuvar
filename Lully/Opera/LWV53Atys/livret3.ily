@@ -417,6 +417,6 @@
   \livretVer { Que le cruel Amour m'a fait un cœur si tendre ? }
   \livretVerC { Espoir si cher, et si doux, }
   \livretVerC { Ah ! pourquoy me trompez-vous ? }
-
+  \sep
   \vspace #28
 }

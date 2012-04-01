@@ -20,11 +20,9 @@
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Lully/Opera/LWV53Atys/livret0.ily"
-  \include "Lully/Opera/LWV53Atys/livret1.ily"
-  \include "Lully/Opera/LWV53Atys/livret2.ily"
+  \include "Lully/Opera/LWV53Atys/livret12.ily"
   \include "Lully/Opera/LWV53Atys/livret3.ily"
-  \include "Lully/Opera/LWV53Atys/livret4.ily"
-  \include "Lully/Opera/LWV53Atys/livret5.ily"
+  \include "Lully/Opera/LWV53Atys/livret45.ily"
 }
 %% Personnages
 \bookpart {

@@ -107,8 +107,12 @@
     Le second volume \mod-version { (celui-ci) }
     diffère du premier dans les clés utilisées, qui sont "modernisées ;"
     sa mise en page n'est par ailleurs pas contrainte par la source originale.
-    Des signes d'ornementations provenant des sources secondaires ([Baussen 1709],
-    [Philidor 1703]) y sont ajoutées.
+    Des signes d'ornementations provenant des sources secondaires
+    ([Baussen 1709], [Philidor 1703]) y sont ajoutées.
+    On les distingue de la façon "suivante :"
+    les agréments de Ballard sont notés \sans\fontsize #-1 \bold t
+    (comme dans la source), et ceux provenant des autres sources sont notés
+    \concat { \hspace #1 \raise #0.6 \musicglyph #"scripts.stopped" . }
     Dans les pièces où [Ballard 1689] ne comporte pas de basse chiffrée
     (essentiellement dans les danses), c'est la basse chiffrée de [Baussen 1709]
     qui est retranscrite.
@@ -123,7 +127,8 @@
   }
   \paragraph {
     Le livret imprimé [Livret 1676] est restitué en préambule.
-    Les indications scéniques qu'il contient ont été ajoutées dans la partition.
+    Les indications scéniques qu'il contient ont été ajoutées dans la partition,
+    entre crochets.
     L'orthographe utilisée pour les textes est celle du livret imprimé.
   }
   \null
