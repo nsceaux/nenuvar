@@ -30,15 +30,16 @@
 \pieceToc\markup\wordwrap { \smallCaps { Sangaride, Celænus : }
   \italic { Vostre cœur se trouble, il soûpire } }
 \includeScore "ECAcelaenusSangaride"
-%{ n°4 %}\newBookPart #'(full-rehearsal)
+%{ n°5 %}\newBookPart #'(full-rehearsal)
 \scene "Scene IV" "SCENE 4 : Sangaride, Atys"
 \sceneDescription\markup\smallCaps { Sangaride, Atys. }
 \pieceTocTitle "Ritournelle"
 \includeScore "EDAritournelle"
-%{ n°5 %}
-\pieceToc \markup \smallCaps { Sangaride, Atys }
+%{ n°6 %}
+\pieceToc\markup\smallCaps { Atys, Sangaride : 
+  \italic { Qu'il sçait peu son malheur } }
 \includeScore "EDBsangarideAtys"
-%{ n°6 %}\newBookPart #'(full-rehearsal)
+%{ n°7 %}\newBookPart #'(full-rehearsal)
 \scene "Scene V" \markup \wordwrap {
   SCENE 5 : Le Fleuve Sangar, les Fleuves
 }
@@ -66,15 +67,15 @@
 }
 \pieceTocTitle "Prelude"
 \includeScore "EEAprelude"
-%{ n°7 %}\newBookPart #'(full-rehearsal)
+%{ n°8 %}
 \pieceToc\markup\wordwrap { \smallCaps { Sangar, chœur des Fleuves : }
   \italic { O vous, qui prenez part au bien de ma famille } }
 \includeScore "EEBsangarChoeur"
-%{ n°8 %}
+%{ n°9 %}
 \pieceToc\markup\wordwrap { \smallCaps { Sangar, chœur des Fleuves : }
   \italic { Que l'on chante, que l'on dance } }
 \includeScore "EECsangarChoeur"
-%{ n°9 %}
+%{ n°10 %}
 \sceneDescription\markup\wordwrap-center {
   [Dieux de Fleuves, Divinitez de Fontaines, & de Ruisseaux,
   chantants & dançants ensemble.]
@@ -82,31 +83,31 @@
 \pieceToc\markup\wordwrap { \smallCaps { Trois divinités : }
   \italic { La Beauté la plus severe } }
 \includeScore "EEDfluteChoeur"
-%{ n°10 %}
+%{ n°11 %}
 \pieceToc\markup\wordwrap { \smallCaps { Trois divinités : }
   \italic { L'Hymen seul ne sçauroit plaire } }
 \includeScore "EEEfluteChoeur"
-%{ n°11 %}\newBookPart #'(full-rehearsal)
+%{ n°12 %}
 \sceneDescription\markup\wordwrap-center {
   [Un Dieu de Fleuve & une Divinité de Fontaine,
   dançent & chantent ensemble.]
 }
 \pieceTocTitle "[Menuet]"
 \includeScore "EEFmenuet"
-%{ n°12 %}
+%{ n°13 %}
 \pieceToc\markup\wordwrap { \smallCaps { Deux divinités : }
   \italic { D'une constance extresme } }
 \includeScore "EEGduo"
-%{ n°13 %}\newBookPart #'(full-rehearsal)
+%{ n°14 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "[Gavotte]"
 \includeScore "EEHgavotte"
 \markup\orig-version\vspace #40
 \origVersion\pageBreak
-%{ n°14 %}
+%{ n°15 %}
 \pieceToc\markup\wordwrap { \smallCaps Chœur :
   \italic { Un grand calme est trop fascheux } }
 \includeScore "EEIchoeur"
-%{ n°15 %}\newBookPart #'(full-rehearsal)
+%{ n°16 %}
 \scene "Scene VI" \markup \wordwrap {
   SCENE 6 : Atys, Celænus, Sangar, troupe de dieux des fleuves
 }

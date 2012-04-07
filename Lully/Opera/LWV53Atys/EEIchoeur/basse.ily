@@ -11,7 +11,7 @@ la, re re4. re8 |
 sol4 do << \tag #'basse { fa4. fa8 } \tag #'basse-continue fa2 >> |
 mi2 la4 mi |
 fa do si, la, |
-mi \tag #'basse-continue \myfootnote #'NoteHead #'(2 . -1) \markup\justify {
+mi \tag #'basse-continue \myfootnoteAll #'NoteHead #'(2 . -1) \markup\justify {
   Le manuscrit comporte l'indication suivante à la fin du chœur :
   \italic { on reprend la symphonie et ensuitte le mesme chœur. }
   De même, dans le matériel Philidor 1703, la gavotte et le chœur

@@ -11,7 +11,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Celænus, Cybele : }
   \italic { Vous m'ostez Sangaride, inhumaine Cybelle } }
 \includeScore "FABcelaenusCybele"
-%{ n°3 %}\newBookPart #'(full-rehearsal)
+%{ n°3 %}
 \scene "Scene II" \markup \wordwrap {
   SCENE 2 : Celænus, Cybele, Sangaride, Atys
 }
@@ -46,7 +46,7 @@
   \smallCaps { Atys, Sangaride, Celænus, Cybele, chœur : }
   \italic { Ciel ! quelle vapeur m'environne } }
 \includeScore "FCBascc"
-%{ n°6 %}\newBookPart #'(full-rehearsal)
+%{ n°6 %}
 \scene "Scene IV" \markup\wordwrap { SCENE 4 : Cybele, Atys }
 \sceneDescription\markup\wordwrap-center\smallCaps {
   Cybele, Atys, [Melisse, Idas, Chœur de Phrygiens.]
@@ -71,7 +71,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Cybele, Idas, Atys : }
   \italic { Il s'est percé le sein } }
 \includeScore "FFAcybeleIdasAtys"
-%{ n°9 %}\newBookPart #'(full-rehearsal)
+%{ n°9 %}
 \scene "Scene VII" \markup \wordwrap {
   SCENE 7 : Cybele, troupe de nymphes et de corybantes
 }
@@ -101,7 +101,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Cybele, chœur : }
   \italic { Atys, l'aimable Atys, malgré tous ses attraits } }
 \includeScore "FGCcybeleChoeur"
-%{ n°12 %}
+%{ n°12 %}\newBookPart #'(full-rehearsal)
 \sceneDescription\markup\justify {
   [Les Divinitez des Bois & des Eaux, avec les Corybantes,
   honorent le nouvel Arbre, & le consacrent à Cybele.
@@ -118,7 +118,7 @@
 %{ n°14 %}
 \pieceTocTitle "Seconde entrée"
 \includeScore "FGFcorybantes"
-%{ n°15 %}\newBookPart #'(full-rehearsal)
+%{ n°15 %}
 \pieceToc\markup\wordwrap { \smallCaps { Cybele, chœur : }
   \italic { Que le malheur d'Atys afflige tout le monde } }
 \includeScore "FGGcybeleChoeur"

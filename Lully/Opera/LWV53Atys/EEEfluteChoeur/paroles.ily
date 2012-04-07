@@ -10,13 +10,13 @@
 \tag #'couplet-2-1 {
   \override Lyrics . LyricText #'font-shape = #'italic
   \set stanza = "[2]"
-  L'A -- mour trou -- ble tout le Mon -- de,
+  "[L'A" -- mour trou -- ble tout le Mon -- de,
   C'est la sour -- ce de nos "pleurs ;"
 }
 \tag #'couplet-2-2 {
   \override Lyrics . LyricText #'font-shape = #'italic
   C'est un feu brû -- lant dans l'on -- de,
-  C'est l'é -- cüeil des plus grands "cœurs :"
+  C'est l'é -- cüeil des plus grands "cœurs :]"
 }
 \tag #'refrain {
   Il est fier, il est re -- bel -- le,

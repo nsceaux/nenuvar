@@ -10,13 +10,13 @@
 \tag #'couplet-2-1 {
   \override Lyrics . LyricText #'font-shape = #'italic
   \set stanza = "[2]"
-  Il n'est point de re -- sis -- tan -- ce
+  "[Il" n'est point de re -- sis -- tan -- ce
   Dont le temps ne vienne à bout,
 }
 \tag #'couplet-2-2 {
   \override Lyrics . LyricText #'font-shape = #'italic
   Et l'ef -- fort de la cons -- tan -- ce
-  A la fin doit vain -- cre tout.
+  A la fin doit vain -- cre "tout.]"
 }
 
 \tag #'refrain {

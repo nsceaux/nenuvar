@@ -3,15 +3,15 @@ R1*3 |
 r2 r |
 R1*11 |
 r2
-\myfootnote #'NoteHead #'(0 . 1) \markup\column {
-  \justify {
+\myfootnoteAll #'NoteHead #'(0 . 1) \markup\column {
+  \orig-version\justify {
     Dans le manuscrit, le trio chanté est placé avant le trio pour
     flûtes, dont seules les premières mesure de la partie de première
     flûte sont notées. Ballard ne contient les vers
     \italic { Il n'est point de resistance } etc.
     Dans le manuscrit, ces vers sont présentés de la manière suivante :
   }
-  \score {
+  \orig-version\score {
     <<
       { \set autoBeaming = ##f \tinyQuote
         \key do \major \digitTime \time 2/2 \clef "treble"
@@ -45,13 +45,13 @@ r2
     Dans le matériel Philidor 1703, les pièces se succèdent ainsi :
   }
   \wordwrap { \hspace #4 Premier trio de flûtes,
-    \italic { La beauté la plus sévère prend pitié d'un long tourment. }
+    \italic { La beauté la plus sévère }
   }
   \wordwrap { \hspace #4 Second trio de flûtes,
     \italic { L'hymen seul ne saurait plaire. }
   }
   \wordwrap { \hspace #4 Premier trio de flûtes,
-    \italic { Il n'est point de résistance dont le temps ne vienne à bout }
+    \italic { Il n'est point de résistance }
   }
   \wordwrap { \hspace #4 Second trio de flûtes,
     \italic { L'amour trouble tout le monde. }

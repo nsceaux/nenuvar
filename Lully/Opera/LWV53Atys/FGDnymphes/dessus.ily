@@ -19,7 +19,7 @@ re''2\trill fa''( mib''4)\tr re'' |
     \layout { \quoteLayout }
   }
 } mib''2\trill re''2. do''4 |
-\myfootnote #'NoteHead #'(4 . 3) \markup {
+\myfootnoteAll #'NoteHead #'(4 . 3) \markup {
   Dans le matériel Philidor 1703, la deuxième partie
   de l'air se joue deux fois.
 } do''1. |
