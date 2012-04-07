@@ -1,6 +1,7 @@
 \oldKey la \minor
 \newKey re \minor
 \time 2/2 \partial 4
+\midiTempo #160
 <<
   { s4 s1*52 s2. \bar "|." }
   \origVersion {

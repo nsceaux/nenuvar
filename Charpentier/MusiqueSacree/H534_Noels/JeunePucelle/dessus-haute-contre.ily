@@ -26,7 +26,10 @@
     fa''2. re''4 |
     mi''2. dod''4 |
     re'' mi'' mi''4.\prall re''8 |
-    mi''2.
+    \origVersion\footnote #'(0 . 2) #'NoteHead \markup {
+      Dessus, mesure 25 : un \italic mi est indiqué.
+    }
+    re''2.
   }
   \setMusic #'Ahc {
     \clef "haute-contre" r4 |
