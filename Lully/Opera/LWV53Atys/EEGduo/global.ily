@@ -4,7 +4,7 @@
     s2.*6 \origVersion\bar "|:|" \modVersion\bar ":|"
     s2.*6 \modVersion\bar "|;:"
     s2.*6 \bar "|."
-    \modVersion {
+    \tag #'no-silence \modVersion {
       \markDownEnd\mark\markup\italic\smaller {
         [Manuscrit] 
         On reprend le menuet et ensuitte le second couplet.

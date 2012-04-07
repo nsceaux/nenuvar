@@ -11,7 +11,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Celænus, Cybele : }
   \italic { Vous m'ostez Sangaride, inhumaine Cybelle } }
 \includeScore "FABcelaenusCybele"
-%{ n°3 %}
+%{ n°3 %}\newBookPart #'(basse)
 \scene "Scene II" \markup \wordwrap {
   SCENE 2 : Celænus, Cybele, Sangaride, Atys
 }
@@ -41,7 +41,7 @@
 }
 \pieceTocTitle "Prelude [pour Alecton]"
 \includeScore "FCAprelude"
-%{ n°5 %}
+%{ n°5 %}\newBookPart #'(haute-contre taille quinte)
 \pieceToc\markup\wordwrap {
   \smallCaps { Atys, Sangaride, Celænus, Cybele, chœur : }
   \italic { Ciel ! quelle vapeur m'environne } }
@@ -71,7 +71,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Cybele, Idas, Atys : }
   \italic { Il s'est percé le sein } }
 \includeScore "FFAcybeleIdasAtys"
-%{ n°9 %}
+%{ n°9 %}\newBookPart #'(dessus)
 \scene "Scene VII" \markup \wordwrap {
   SCENE 7 : Cybele, troupe de nymphes et de corybantes
 }

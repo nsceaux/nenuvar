@@ -23,7 +23,7 @@
 }
 \pieceTocTitle "Prelude"
 \includeScore "CBAprelude"
-%{ n°4 %}
+%{ n°4 %}\newBookPart #'(haute-contre taille quinte)
 \pieceToc\markup\wordwrap { \smallCaps { Cybele, Celænus : }
   \italic { Je veux joindre en ces lieux la gloire & l'abondance } }
 \includeScore "CBBcybeleCelaenus"
@@ -33,7 +33,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Cybele, Melisse : }
   \italic { Tu t'estonnes, Melisse, & mon choix te surprend ? } }
 \includeScore "CCAcybeleMelisse"
-%{ n°6 %}
+%{ n°6 %}\newBookPart #'(basse haute-contre taille quinte)
 \scene "Scene IV" \markup \wordwrap {
   SCENE 4 : Cybele, Atys, troupes de pleuples et de Zephirs
 }
