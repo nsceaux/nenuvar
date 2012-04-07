@@ -1,10 +1,9 @@
 \markuplist \fontsize-lines #2 \column-lines {
   \act\line { ACTEURS DE LA TRAGEDIE }
-  \override #'(character-width-ratio . 3/10)
   \character-two-columns
   % 1st column
   \column {
-    \character-ambitus \wordwrap-center {
+    \character-ambitus\wordwrap {
       \smallCaps Atys, \smaller\italic {
         Parent de Sangaride, & Favory de Celænus Roy de Phrygie.
       }
@@ -13,7 +12,7 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus \wordwrap-center {
+    \character-ambitus\wordwrap {
       \smallCaps Idas, \smaller\italic {
         Amy d'Atys, & frere de la Nymphe Doris.
       }
@@ -22,7 +21,7 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus \wordwrap-center {
+    \character-ambitus\wordwrap {
       \smallCaps Sangaride, \smaller\italic {
         Nymphe, fille du Fleuve Sangar.
       }
@@ -31,7 +30,7 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus\wordwrap-center {
+    \character-ambitus\wordwrap {
       \smallCaps Doris, \smaller\italic {
         Nymphe, amie de Sangaride, & sœur d'Idas.
       }
@@ -40,7 +39,7 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus\wordwrap-center { Chœur de Phrygiens & de Phrygiennes }
+    \character-ambitus\wordwrap { Chœur de Phrygiens & de Phrygiennes }
     \score {
       <<
       \characterAmbitus "soprano" "treble" fad' sol''
@@ -51,7 +50,7 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus\wordwrap-center {
+    \character-ambitus\wordwrap {
       Troupe de Phrygiens & de Phrygiennes qui dancent à la feste de Cybele.
     } \null
     \null
@@ -60,7 +59,7 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus\wordwrap-center {
+    \character-ambitus\wordwrap {
       \smallCaps Melisse, \smaller\italic {
         Confidente & Prestresse de Cybele.
       }
@@ -69,11 +68,11 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus\wordwrap-center {
+    \character-ambitus\wordwrap {
       Troupe de Prestresses de Cybele.
     } \null
     \null
-    \character-ambitus\wordwrap-center {
+    \character-ambitus\wordwrap {
       \smallCaps Celænus, \smaller\italic {
         Roy de Phrygie, fils de Neptune, & Amant de Sangaride.
       }
@@ -82,15 +81,15 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus\wordwrap-center {
+    \character-ambitus\wordwrap {
       Troupe de Suivants de Celænus.
     } \null
     \null
-    \character-ambitus\center-column {
-      \wordwrap-center {
+    \character-ambitus\column {
+      \wordwrap {
         Troupe de Zephirs chantants, dançants, & volants.
       }
-      \wordwrap-center {
+      \wordwrap {
         Chœur & Troupe de Peuples différents qui viennent à la feste de Cybele.
       }
     } \score {
@@ -125,11 +124,11 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus\wordwrap-center {
+    \character-ambitus\wordwrap {
       Troupe de Songes agreables.
     } \null
     \null
-    \character-ambitus\wordwrap-center { Troupe des Songes funestes. } \score {
+    \character-ambitus\wordwrap { Troupe des Songes funestes. } \score {
       <<
         \characterAmbitus "alto" "G_8" do' la'
         \characterAmbitus "tenor" "G_8" la fa'
@@ -139,7 +138,7 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus\wordwrap-center {
+    \character-ambitus\wordwrap {
       \smallCaps { Le Dieu du Fleuve Sangar, }
       \smaller\italic { Pere de Sangaride. }
     } \score {
@@ -147,7 +146,7 @@
       \layout { \characterLayout }
     }
     \null
-    \character-ambitus \wordwrap-center {
+    \character-ambitus \wordwrap {
       Troupe de Dieux de fleuves, & de Ruisseaux, & de Nymphes
       de Fontaines, qui chantent & qui dancent.
     } \score {
@@ -162,7 +161,7 @@
     \null
     \character-ambitus Alecton \null
     \null
-    \character-ambitus\wordwrap-center {
+    \character-ambitus\wordwrap {
       Troupe de Divinitez des Bois & des Eaux.
       Troupe de Corybantes.
     } \score {

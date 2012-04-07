@@ -459,25 +459,32 @@ characterAmbitus =
 
 #(define-markup-command (character-ambitus layout props name ambitus)
      (markup? markup?)
-   #:properties ((character-width-ratio 2/12))
+   #:properties ((character-width-ratio 16/20)
+                 (ambitus-width-ratio 3/20))
    (stack-lines
     DOWN 0 0
     (list empty-stencil
           (interpret-markup layout props
                             (markup 
+                             #:force-line-width-ratio ambitus-width-ratio
+                             #:vcenter #:left-align ambitus
                              #:force-line-width-ratio character-width-ratio
-                             #:vcenter #:fill-line (#:smallCaps name)
-                             #:vcenter #:left-align ambitus)))))
+                             #:vcenter #:smallCaps name)))))
 
 #(define-markup-command (character-two-columns layout props col1 col2)
      (markup? markup?)
-   #:properties ((word-space 0.6))
+   #:properties ((word-space 0.6)
+                 (character-width-ratio 10/30)
+                 (ambitus-width-ratio 4/30))
    (interpret-markup
     layout props
-    #{ \markup\fill-line {
+    #{ \markup
+       \override #`(character-width-ratio . ,character-width-ratio)
+       \override #`(ambitus-width-ratio . ,ambitus-width-ratio)
+       \fill-line {
          \null
          \override #`(word-space . ,word-space) $col1
-         \hspace #6
+         \hspace #3
          \override #`(word-space . ,word-space) $col2
          \null
        } #}))
@@ -488,9 +495,9 @@ characterAmbitus =
    (interpret-markup
     layout props
     (markup (#:concat (#:override `(word-space . ,word-space) col1
-                                  #:hspace 7
+                                  #:hspace 3
                                   #:override `(word-space . ,word-space) col2
-                                  #:hspace 7
+                                  #:hspace 3
                                   #:override `(word-space . ,word-space) col3)))))
 
 #(define-markup-command (sline layout props args) (markup-list?)

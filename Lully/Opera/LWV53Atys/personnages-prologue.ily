@@ -1,19 +1,18 @@
 \markuplist \fontsize-lines #2 \column-lines {
   \vspace #1
-  \act \line { ACTEUR DU PROLOGUE }
+  \act \line { ACTEURS DU PROLOGUE }
   \vspace #1
-  \override #'(character-width-ratio . 3/10)
   \character-two-columns\column {
     \character-ambitus "Le Temps" \score {
       \characterAmbitus "varbaritone" "bass" sol, mib'
       \layout { \characterLayout }
     }
     \vspace #1.1
-    \character-ambitus\center-column {
+    \character-ambitus\column {
       \line { Les douze Heures du Jour. }
       \line { Les douze Heures de la Nuit. }
-      \wordwrap-center { Troupe de Nymphes chantantes de la suite de Flore. }
-      \wordwrap-center { Heros chantants de la suite de Melpomene. }
+      \wordwrap { Troupe de Nymphes chantantes de la suite de Flore. }
+      \wordwrap { Heros chantants de la suite de Melpomene. }
     } \score {
       <<
         \characterAmbitus "soprano" "treble" sol' sol''
@@ -34,23 +33,23 @@
       \layout { \characterLayout }
     }
   } \column {
-    \character-ambitus \center-column {
+    \character-ambitus \column {
       \line { Suivans de Flore dançans }
       \line { Nymphes dançantes }
     } \null
     \vspace #1
-    \character-ambitus \wordwrap-center {
+    \character-ambitus \wordwrap {
       \smallCaps Melpomene, \smaller\italic { Muse Tragique }
     } \score {
       \characterAmbitus "soprano" "treble" mi' fa''
       \layout { \characterLayout }
     }
     \vspace #1
-    \character-ambitus\center-column {
-      \wordwrap-center {
+    \character-ambitus\column {
+      \wordwrap {
         Heros combatans & dançants de la suite de Melpomene
       }
-      \center-column\smallCaps {
+      \column\smallCaps {
         Hercule
         Antæe
         Castor
