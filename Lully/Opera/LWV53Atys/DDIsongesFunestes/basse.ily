@@ -29,9 +29,9 @@ sib,2. sib,8 do re4 re8 \myfootnote #'NoteHead #'(0 . 4) \markup {
     \layout { \quoteLayout }
   }
 } sib,8 |
-\myfootnote #'NoteHead #'(0 . -2) \markup {
+\myfootnoteAll #'NoteHead #'(0 . -2) \markup {
   Sur le matériel Philidor 1703, il est noté de
-  reprendre le chœur \italic { l'amour qu'on outrage } puis la
+  reprendre le chœur \italic { L'amour qu'on outrage } puis la
   deuxième entrée.
 }
 sib,1. |

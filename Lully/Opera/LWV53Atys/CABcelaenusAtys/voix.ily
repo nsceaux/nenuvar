@@ -61,7 +61,7 @@
     << \tag #'atys { la8\trill la } \tag #'basse { la16\trill la s8 } >>
     << { s2. s1 } \tag #'atys { r4 r2 | R1 } >>
     \tag #'basse \atysMark
-    \myfootnote #'NoteHead #'(0 . 1) \markup \column {
+    \myfootnoteAll #'NoteHead #'(0 . 1) \markup\column {
       \wordwrap {
         Dans le manuscrit, les vers :
         \italic { Qu'un indifférent est heureux ! /
@@ -233,7 +233,7 @@
       { s1*21 s2 }
       \tag #'celaenus {
         R1*21 |
-        \myfootnote #'Rest #'(0 . 2) \markup\column {
+        \myfootnoteAll #'Rest #'(0 . 2) \markup\column {
           \wordwrap {
             Dans le manuscrit, les vers
             \italic { Quand on aime bien tendrement, /
@@ -265,7 +265,7 @@
                 fa, fa8 sol fa mi | fa2 fa, |
               }
             >>
-            \layout { \quoteLayout }
+            \layout { \quoteLayout ragged-right = ##f }
           }
         }
         r2

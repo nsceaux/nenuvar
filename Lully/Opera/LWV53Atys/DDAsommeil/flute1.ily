@@ -24,10 +24,6 @@ mib''4. re''8 re''4.\trill do''8 |
 do''1 |
 R1*3 |
 re''4( mib'') re''( do'') |
-\myfootnote #'NoteHead #'(0 . 3.5) \markup {
-  Sur le matériel Philidor 1703, le mot \italic fin apparaît sur la
-  mesure 26 du prélude.
-}
 sib'( la') sib'( do'') |
 re''( do'') re''( mi'') |
 fad''( sol'') la''2~ |

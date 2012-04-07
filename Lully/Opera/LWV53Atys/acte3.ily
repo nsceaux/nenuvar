@@ -8,19 +8,19 @@
 \pieceToc\markup\wordwrap { \smallCaps Atys :
   \italic { Que servent les faveurs que nous fait la Fortune } }
 \includeScore "DAAatys"
-%{ n°2 %}\newBookPart #'(full-rehearsal)
+%{ n°2 %}
 \scene "Scene II" "SCENE 2 : Idas, doris, Atys"
 \sceneDescription\markup\smallCaps { Atys, Doris, Idas. }
 \pieceToc\markup { \smallCaps { Atys, Doris, Idas : }
   \italic { Peut-on icy parler sans feindre } }
 \includeScore "DBAatysIdasDoris"
-%{ n°3 %}\newBookPart #'(full-rehearsal)
+%{ n°3 %}
 \scene "Scene III" "SCENE 3 : Atys"
 \sceneDescription\markup { \smallCaps Atys seul. }
 \pieceToc\markup\wordwrap { \smallCaps Atys :
   \italic { Nous pouvons nous flater de l'espoir le plus doux } }
 \includeScore "DCAatys"
-%{ n°4 %}\newBookPart #'(full-rehearsal)
+%{ n°4 %}
 \scene "Scene IV" \markup \wordwrap {
   SCENE 4 : Atys, le Sommeil, Morphée, Phobetor, Phantase, les songes
   agréables, les songes funestes.
@@ -53,7 +53,7 @@
   \smallCaps { Le Sommeil, Morphée, Phantase, Phobetor : }
   \italic { Dormons, dormons tous } }
 \includeScore "DDAsommeil"
-%{ n°5 %}\newBookPart #'(full-rehearsal)
+%{ n°5 %}
 \sceneDescription\markup\justify {
   [Les Songes agreables aprochent d'Atys, & par leurs chants,
   & par leurs dances, luy font connoistre l'amour de Cybele,
@@ -81,7 +81,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Un songe funeste : }
   \italic { Garde-toy d'offencer un amour glorieux } }
 \includeScore "DDFfuneste"
-%{ n°10 %}\newBookPart #'(full-rehearsal)
+%{ n°10 %}
 \pieceTocTitle "Entrée des Songes Funestes"
 \includeScore "DDGsongesFunestes"
 %{ n°11 %}
@@ -102,7 +102,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Cyble, Atys : }
   \italic { Venez à mon secours ô Dieux ! ô justes Dieux ! } }
 \includeScore "DEAcybeleAtys"
-%{ n°14 %}\newBookPart #'(full-rehearsal)
+%{ n°14 %}
 \scene "Scene VI" "SCENE 6 : Atys, Sangaride, Cybele, Melisse"
 \sceneDescription \markup \smallCaps { Cybele, Atys, Sangaride, [& Melisse.] }
 \pieceToc\markup\wordwrap { \smallCaps { Sangaride, Cybele, Atys : }

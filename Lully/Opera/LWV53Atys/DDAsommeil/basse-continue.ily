@@ -230,7 +230,7 @@ fa |
 mib |
 re |
 re, |
-\myfootnote #'NoteHead #'(0 . 4) \markup {
-  Le manuscrit ne comporte pas d'indication de reprise du prélude du sommeil.
+\myfootnoteAll #'NoteHead #'(0 . 4) \markup {
+  Le manuscrit ne comporte pas d'indication de reprise du prélude du Sommeil.
 }
 sol,1 |

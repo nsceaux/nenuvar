@@ -144,7 +144,9 @@
     \tag #'basse \melisseMark r8 si'16 si' mi''8 mi''16 mi'' |
     %{ si'8 r16 %} si'8. si'16 sol'4\trill sol'8 sol'16 fad' |
     fad'2.\trill |
-    \myfootnote #'NoteHead #'(0 . 2) \markup\column {
+    \myfootnoteAll #'NoteHead #(if (eqv? #t (ly:get-option 'urtext))
+                                         '(0 . 2)
+                                         '(0 . 4)) \markup\column {
       \wordwrap { Dans le manuscrit, les vers
         \italic { Vous méprisiez trop l'amour, / Son nom vous semblait étrange }
         sont chantés deux fois.
@@ -200,7 +202,7 @@
     mi''4
     << { s2. s1*3 s2. } \tag #'melisse {  r4 r2 | R1*3 | R2. } >>
     \tag #'basse \melisseMark
-    \myfootnote #'Rest #'(0 . 2) \markup\column {
+    \myfootnoteAll #'Rest #'(0 . 2) \markup\column {
       \wordwrap { Dans le manuscrit, les vers
         \italic { Vous braviez à tord l'Amour qui vous blesse }
         sont chantés deux fois.

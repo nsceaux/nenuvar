@@ -64,7 +64,7 @@
     mi'' si' do'' re'' |
     do''\trill la' do'' si' |
     la'\trill sol' fad'4.\trill mi'8 |
-    \myfootnote #'NoteHead #'(0 . 3.5) \markup\column {
+    \myfootnoteAll #'NoteHead #'(0 . 4) \markup\column {
       \wordwrap {
         Manuscrit : les vers de Melisse
         \italic { Ce n'est pas un si grand crime De ne s'exprimer pas bien }

@@ -14,17 +14,21 @@
     sol' |
     r4 sol' sol' sol' |
     sol'2( fad'4.) sol'8 |
-    \myfootnote #'NoteHead #'(0 . 1) \markup {
+    \myfootnoteAll #'NoteHead #'(0 . 1) \markup {
       Le manuscrit contient une barre de reprise à la fin de la mesure 70 :
       les vers du Sommeil (mesures 58 à 70) sont chantés deux fois.
     }
     sol'1 |
     << { s1*63 } \tag #'sommeil { R1*63 } >>
-    \myfootnote #'Rest #'(0 . -2.5) \markup\wordwrap {
+    \myfootnoteAll #'Rest #'(0 . -2.5) \markup\wordwrap {
       Le manuscrit ne comporte pas la reprise des premiers vers du Sommeil
-      (mesures 134 à 145). Puis, le trio fait place au Sommeil,
-      Morphée et Phobetor, au lieu de Morphée, Phantase et Phobetor.
-      Dans le manuscrit, les paroles ne sont pas indiquées pour toutes les voix.
+      (mesures 134 à 145).
+      \orig-version {
+        Puis, le trio fait place au Sommeil,
+        Morphée et Phobetor, au lieu de Morphée, Phantase et Phobetor.
+        Dans le manuscrit, les paroles ne sont pas indiquées pour toutes
+        les voix.
+      }
     }
     \tag #'basse \sommeilMark r2-\tag #'sommeil ^\markup\character "Le Sommeil" r4 re' |
     re'1~ |

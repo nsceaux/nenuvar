@@ -37,7 +37,7 @@ si,4 do re re, |
 sol, sol8 fad mi4. mi,8 |
 la,2 si,4 si8 la |
 sold2\trill la4 si8 si, |
-\myfootnote #'NoteHead #'(4 . -3) \markup\wordwrap {
+\myfootnoteAll #'NoteHead #'(4 . -3) \markup\wordwrap {
   Le manuscrit et l'édition Baussen 1709 indiquent de jouer pour l'entr'acte
   l'entrée des Nations (page \page-refIII #'CDBnations .)
 }

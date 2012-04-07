@@ -60,7 +60,7 @@
 %{ n°8 %}
 \pieceTocTitle "Entrée des Zephirs"
 \includeScore "CDCzephirs"
-%{ n°9 %}\newBookPart #'(full-rehearsal)
+%{ n°9 %}
 \pieceToc \markup { \smallCaps Chœurs :
   \italic { Que devant Vous tout s'abaisse, & tout tremble } }
 \includeScore "CDDchoeur"
