@@ -354,8 +354,8 @@
   \livretVerC { L'Amour vient quand il luy plaist. }
   \livretRef #'EEGduo
   \livretPers \center-column {
-    \line { Un Dieu de Fleuve & une Divinité de Fontaine, }
-    \line { dançent & chantent ensemble. }
+    \line { Un Dieu de Fleuve & une Divinité de }
+    \line { Fontaine, dançent & chantent ensemble. }
   }
   \livretVerC { D'une constance extresme, }
   \livretVerC { Un Ruisseau suit son cours ; }
@@ -808,7 +808,7 @@
     ATYS prend la forme de l'Arbre aimé de la Déesse Cybele,
     que l'on appelle Pin.
   }
-  \livretRef #'FGBcybeleChoeur
+  \livretRef #'FGBcybele
   \livretPers CYBELE.
   \livretVerC { Venez furieux Corybantes, }
   \livretVer { Venez joindre à mes cris vos clameurs esclatantes ; }
@@ -834,7 +834,7 @@
       Trois Nymphes dançantes.
     }
   }
-  \livretRef #'FGBcybeleChoeur
+  \livretRef #'FGCcybeleChoeur
   \livretPers CYBELE.
   \livretVer { Atys, l'aimable Atys, malgré tous ses attraits, }
   \livretVerC { Descend dans la nuit éternelle ; }
@@ -883,7 +883,7 @@
     \livretPers \line { CYBELE, & les Chœurs. }
     \livretVerC { Ah ! quel malheur ! }
 
-    \livretRef #'FGCnymphes
+    \livretRef #'FGDnymphes
     \livretDescPage \justify {
       Les Divinitez des Bois & des Eaux, avec les
       Corybantes, honorent le nouvel Arbre, & le
@@ -893,7 +893,7 @@
       de Terre, par des Esclairs, & par des esclats de
       Tonnerre.
     }
-    \livretRef #'FGFcybeleChoeur
+    \livretRef #'FGGcybeleChoeur
     \livretPers \wordwrap-center { CYBELE, & le Chœur des Divinitez des Bois, & des Eaux. }
     \livretVer { Que le malheur d'Atys afflige tout le monde. }
 
