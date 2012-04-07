@@ -264,3 +264,12 @@ baussenFiguresAlt =
          baroque-script-alist)
   }
 }
+
+%% Footnotes
+
+myfootnoteAll =
+#(define-music-function (parser location grob offset text)
+     (symbol? number-pair? markup?)
+   (if (not (symbol? (ly:get-option 'part)))
+       #{ \footnote $offset $grob $text #}
+       (make-music 'Music 'void #t)))

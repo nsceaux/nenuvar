@@ -1,5 +1,5 @@
 \clef "dessus"
-\myfootnote #'Rest #'(0 . 1)
+\myfootnoteAll #'Rest #'(0 . 1)
 \markup\column {
   \wordwrap { Dans le manuscrit, ainsi que dans les parties séparées
     Philidor 1703, la ritournelle est jouée deux fois : }

@@ -52,7 +52,7 @@
 }
 \pieceTocTitle "Prelude pour Melpomene"
 \includeScore "AAIair"
-%{ n°10 %}
+%{ n°10 %}\newBookPart #'(full-rehearsal)
 \pieceToc \markup { \smallCaps { Melpomene : }
   \italic { Retirez-vous, cessez de prevenir le Temps } }
 \includeScore "AAJmelpomene"
@@ -81,7 +81,7 @@
 %{ n°13 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Menuet"
 \includeScore "AAMair"
-%{ n°15 %}\newBookPart #'(full-rehearsal)
+%{ n°15 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"
 \reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
 "AAAouverture" "AANouverture"

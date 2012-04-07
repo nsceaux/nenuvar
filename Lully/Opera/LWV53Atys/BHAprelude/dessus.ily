@@ -12,7 +12,7 @@ si'2\trill mi''4. mi''8 |
 la''4. sol''8 sol''4 fa''8\trill mi'' |
 fa''2 si'4.\trill si'8 |
 si'4 do''8 re'' si'4.\trill la'8 |
-\myfootnote #'NoteHead #'(0 . 3.5) \markup\column {
+\myfootnoteAll #'NoteHead #'(0 . 3.5) \markup\column {
   \justify {
     Contrairement au manuscrit et au matériel Philidor 1703,
     dans Ballard 1689, le prélude ne contient pas la reprise des

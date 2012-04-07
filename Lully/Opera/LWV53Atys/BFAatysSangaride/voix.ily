@@ -305,11 +305,11 @@
     r mi' fa' |
     sol'2 mi'4 |
     fa' re'2\trill |
-    \myfootnote #'NoteHead #'(0 . 2) \markup\column {
+    \myfootnoteAll #'NoteHead #'(0 . 2) \markup\column {
       \wordwrap {
-        Dans le manuscrit, le ver
-        \italic { Aimons un bien plus durable que la beauté }
-        est chanté deux fois :
+        Dans le manuscrit, les vers
+        \italic { Aimons un bien plus durable Que l'éclat de la Beauté }
+        sont chantés deux fois :
       }
       \score {
         \new StaffGroupNoBar <<
