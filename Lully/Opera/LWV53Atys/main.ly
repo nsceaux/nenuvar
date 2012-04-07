@@ -5,11 +5,12 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
     title = "Atys"
-    editions = #(markup #:italic
-                        (if (eqv? #t (ly:get-option 'urtext))
-                            "urtext"
-                            "Conducteur"))
+    editions = #(make-italic-markup
+                 (if (eqv? #t (ly:get-option 'urtext))
+                     "urtext"
+                     "Conducteur"))
   }
+  \markup\null
 }
 %% Table of contents
 \bookpart {
