@@ -15,12 +15,12 @@ Lully/Ballet/LWV05LaReventeDesHabits:
 	-o $(OUTPUT_DIR)/LWV05LaReventeDesHabits  \
 	Lully/Ballet/LWV05LaReventeDesHabits/main.ly
 .PHONY: Lully/Ballet/LWV05LaReventeDesHabits
-# rehearsal
-Lully/Ballet/LWV05LaReventeDesHabits-rehearsal:
+# concert
+Lully/Ballet/LWV05LaReventeDesHabits-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV05LaReventeDesHabits-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/LWV05LaReventeDesHabits-concert -d use-rehearsal-numbers \
 	Lully/Ballet/LWV05LaReventeDesHabits/main.ly
-.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-rehearsal
+.PHONY: Lully/Ballet/LWV05LaReventeDesHabits-concert
 # Dessus
 Lully/Ballet/LWV05LaReventeDesHabits-dessus:
 	$(LILYPOND_CMD) \
@@ -55,7 +55,7 @@ Lully/Ballet/LWV05LaReventeDesHabits-basse:
 Lully/Ballet/LWV05LaReventeDesHabits-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits
 	@if [ -e $(OUTPUT_DIR)/LWV05LaReventeDesHabits.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV05LaReventeDesHabits.pdf $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits; fi
-	@if [ -e $(OUTPUT_DIR)/LWV05LaReventeDesHabits-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV05LaReventeDesHabits-rehearsal.pdf $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits; fi
+	@if [ -e $(OUTPUT_DIR)/LWV05LaReventeDesHabits-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV05LaReventeDesHabits-concert.pdf $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits; fi
 	@if [ -e $(OUTPUT_DIR)/LWV05LaReventeDesHabits-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV05LaReventeDesHabits-dessus.pdf $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits; fi
 	@if [ -e $(OUTPUT_DIR)/LWV05LaReventeDesHabits-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV05LaReventeDesHabits-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits; fi
 	@if [ -e $(OUTPUT_DIR)/LWV05LaReventeDesHabits-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV05LaReventeDesHabits-taille.pdf $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits; fi
@@ -69,7 +69,7 @@ Lully/Ballet/LWV05LaReventeDesHabits-clean:
 
 Lully/Ballet/LWV05LaReventeDesHabits-all: \
 	Lully/Ballet/LWV05LaReventeDesHabits \
-	Lully/Ballet/LWV05LaReventeDesHabits-rehearsal \
+	Lully/Ballet/LWV05LaReventeDesHabits-concert \
 	Lully/Ballet/LWV05LaReventeDesHabits-dessus \
 	Lully/Ballet/LWV05LaReventeDesHabits-haute-contre \
 	Lully/Ballet/LWV05LaReventeDesHabits-taille \
@@ -87,12 +87,12 @@ Lully/Ballet/LWV08AmourMalade:
 	-o $(OUTPUT_DIR)/LWV08AmourMalade  \
 	Lully/Ballet/LWV08AmourMalade/main.ly
 .PHONY: Lully/Ballet/LWV08AmourMalade
-# rehearsal
-Lully/Ballet/LWV08AmourMalade-rehearsal:
+# concert
+Lully/Ballet/LWV08AmourMalade-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV08AmourMalade-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/LWV08AmourMalade-concert -d use-rehearsal-numbers \
 	Lully/Ballet/LWV08AmourMalade/main.ly
-.PHONY: Lully/Ballet/LWV08AmourMalade-rehearsal
+.PHONY: Lully/Ballet/LWV08AmourMalade-concert
 # Dessus
 Lully/Ballet/LWV08AmourMalade-dessus:
 	$(LILYPOND_CMD) \
@@ -127,7 +127,7 @@ Lully/Ballet/LWV08AmourMalade-basse:
 Lully/Ballet/LWV08AmourMalade-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV08AmourMalade
 	@if [ -e $(OUTPUT_DIR)/LWV08AmourMalade.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV08AmourMalade.pdf $(DELIVERY_DIR)/Lully/LWV08AmourMalade; fi
-	@if [ -e $(OUTPUT_DIR)/LWV08AmourMalade-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV08AmourMalade-rehearsal.pdf $(DELIVERY_DIR)/Lully/LWV08AmourMalade; fi
+	@if [ -e $(OUTPUT_DIR)/LWV08AmourMalade-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV08AmourMalade-concert.pdf $(DELIVERY_DIR)/Lully/LWV08AmourMalade; fi
 	@if [ -e $(OUTPUT_DIR)/LWV08AmourMalade-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV08AmourMalade-dessus.pdf $(DELIVERY_DIR)/Lully/LWV08AmourMalade; fi
 	@if [ -e $(OUTPUT_DIR)/LWV08AmourMalade-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV08AmourMalade-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV08AmourMalade; fi
 	@if [ -e $(OUTPUT_DIR)/LWV08AmourMalade-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV08AmourMalade-taille.pdf $(DELIVERY_DIR)/Lully/LWV08AmourMalade; fi
@@ -141,7 +141,7 @@ Lully/Ballet/LWV08AmourMalade-clean:
 
 Lully/Ballet/LWV08AmourMalade-all: \
 	Lully/Ballet/LWV08AmourMalade \
-	Lully/Ballet/LWV08AmourMalade-rehearsal \
+	Lully/Ballet/LWV08AmourMalade-concert \
 	Lully/Ballet/LWV08AmourMalade-dessus \
 	Lully/Ballet/LWV08AmourMalade-haute-contre \
 	Lully/Ballet/LWV08AmourMalade-taille \
@@ -183,12 +183,12 @@ Lully/Ballet/LWV43LeBourgeoisGentilhomme:
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme  \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme/main.ly
 .PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme
-# rehearsal
-Lully/Ballet/LWV43LeBourgeoisGentilhomme-rehearsal:
+# concert
+Lully/Ballet/LWV43LeBourgeoisGentilhomme-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-concert -d use-rehearsal-numbers \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme/main-rehearsal-short.ly
-.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-rehearsal
+.PHONY: Lully/Ballet/LWV43LeBourgeoisGentilhomme-concert
 # Dessus I
 Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus1:
 	$(LILYPOND_CMD) \
@@ -229,7 +229,7 @@ Lully/Ballet/LWV43LeBourgeoisGentilhomme-basse:
 Lully/Ballet/LWV43LeBourgeoisGentilhomme-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme
 	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
-	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-rehearsal.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
+	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-concert.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
 	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus1.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus1.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
 	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus2.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus2.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
 	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
@@ -244,7 +244,7 @@ Lully/Ballet/LWV43LeBourgeoisGentilhomme-clean:
 
 Lully/Ballet/LWV43LeBourgeoisGentilhomme-all: \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme \
-	Lully/Ballet/LWV43LeBourgeoisGentilhomme-rehearsal \
+	Lully/Ballet/LWV43LeBourgeoisGentilhomme-concert \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus1 \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme-dessus2 \
 	Lully/Ballet/LWV43LeBourgeoisGentilhomme-haute-contre \
@@ -264,36 +264,36 @@ Lully/Opera/LWV53Atys-urtext:
 	Lully/Opera/LWV53Atys/main.ly
 .PHONY: Lully/Opera/LWV53Atys-urtext
 # Version de concert
-Lully/Opera/LWV53Atys-rehearsal:
+Lully/Opera/LWV53Atys-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV53Atys-rehearsal  \
+	-o $(OUTPUT_DIR)/LWV53Atys-concert  \
 	Lully/Opera/LWV53Atys/main.ly
-.PHONY: Lully/Opera/LWV53Atys-rehearsal
-# Dessus de violon, flûte, hautbois
+.PHONY: Lully/Opera/LWV53Atys-concert
+# Dessus
 Lully/Opera/LWV53Atys-dessus:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-dessus -dpart=dessus  \
 	Lully/Opera/LWV53Atys/part.ly
 .PHONY: Lully/Opera/LWV53Atys-dessus
-# Hautes-contre de violon, hautbois
+# Hautes-contre
 Lully/Opera/LWV53Atys-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-haute-contre -dpart=haute-contre  \
 	Lully/Opera/LWV53Atys/part.ly
 .PHONY: Lully/Opera/LWV53Atys-haute-contre
-# Tailles de violon, hautbois
+# Tailles
 Lully/Opera/LWV53Atys-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-taille -dpart=taille  \
 	Lully/Opera/LWV53Atys/part.ly
 .PHONY: Lully/Opera/LWV53Atys-taille
-# Quintes de violon
+# Quintes
 Lully/Opera/LWV53Atys-quinte:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-quinte -dpart=quinte  \
 	Lully/Opera/LWV53Atys/part.ly
 .PHONY: Lully/Opera/LWV53Atys-quinte
-# Basses de violon, bassons
+# Basses
 Lully/Opera/LWV53Atys-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV53Atys-basse -dpart=basse  \
@@ -309,7 +309,7 @@ Lully/Opera/LWV53Atys-basse-continue:
 Lully/Opera/LWV53Atys-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV53Atys
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-urtext.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
-	@if [ -e $(OUTPUT_DIR)/LWV53Atys-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-rehearsal.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
+	@if [ -e $(OUTPUT_DIR)/LWV53Atys-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-concert.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-dessus.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-taille.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
@@ -324,7 +324,7 @@ Lully/Opera/LWV53Atys-clean:
 
 Lully/Opera/LWV53Atys-all: \
 	Lully/Opera/LWV53Atys-urtext \
-	Lully/Opera/LWV53Atys-rehearsal \
+	Lully/Opera/LWV53Atys-concert \
 	Lully/Opera/LWV53Atys-dessus \
 	Lully/Opera/LWV53Atys-haute-contre \
 	Lully/Opera/LWV53Atys-taille \
@@ -343,12 +343,12 @@ Lully/Opera/LWV56Psyche:
 	-o $(OUTPUT_DIR)/LWV56Psyche  \
 	Lully/Opera/LWV56Psyche/main.ly
 .PHONY: Lully/Opera/LWV56Psyche
-# rehearsal
-Lully/Opera/LWV56Psyche-rehearsal:
+# concert
+Lully/Opera/LWV56Psyche-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV56Psyche-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/LWV56Psyche-concert -d use-rehearsal-numbers \
 	Lully/Opera/LWV56Psyche/main.ly
-.PHONY: Lully/Opera/LWV56Psyche-rehearsal
+.PHONY: Lully/Opera/LWV56Psyche-concert
 # Dessus I
 Lully/Opera/LWV56Psyche-dessus1:
 	$(LILYPOND_CMD) \
@@ -419,7 +419,7 @@ Lully/Opera/LWV56Psyche-voix:
 Lully/Opera/LWV56Psyche-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV56Psyche
 	@if [ -e $(OUTPUT_DIR)/LWV56Psyche.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV56Psyche.pdf $(DELIVERY_DIR)/Lully/LWV56Psyche; fi
-	@if [ -e $(OUTPUT_DIR)/LWV56Psyche-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV56Psyche-rehearsal.pdf $(DELIVERY_DIR)/Lully/LWV56Psyche; fi
+	@if [ -e $(OUTPUT_DIR)/LWV56Psyche-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV56Psyche-concert.pdf $(DELIVERY_DIR)/Lully/LWV56Psyche; fi
 	@if [ -e $(OUTPUT_DIR)/LWV56Psyche-dessus1.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV56Psyche-dessus1.pdf $(DELIVERY_DIR)/Lully/LWV56Psyche; fi
 	@if [ -e $(OUTPUT_DIR)/LWV56Psyche-dessus2.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV56Psyche-dessus2.pdf $(DELIVERY_DIR)/Lully/LWV56Psyche; fi
 	@if [ -e $(OUTPUT_DIR)/LWV56Psyche-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV56Psyche-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV56Psyche; fi
@@ -439,7 +439,7 @@ Lully/Opera/LWV56Psyche-clean:
 
 Lully/Opera/LWV56Psyche-all: \
 	Lully/Opera/LWV56Psyche \
-	Lully/Opera/LWV56Psyche-rehearsal \
+	Lully/Opera/LWV56Psyche-concert \
 	Lully/Opera/LWV56Psyche-dessus1 \
 	Lully/Opera/LWV56Psyche-dessus2 \
 	Lully/Opera/LWV56Psyche-haute-contre \
@@ -464,11 +464,11 @@ Lully/Opera/LWV61Phaeton-urtext:
 	Lully/Opera/LWV61Phaeton/main.ly
 .PHONY: Lully/Opera/LWV61Phaeton-urtext
 # Version de concert
-Lully/Opera/LWV61Phaeton-rehearsal:
+Lully/Opera/LWV61Phaeton-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV61Phaeton-rehearsal  \
+	-o $(OUTPUT_DIR)/LWV61Phaeton-concert  \
 	Lully/Opera/LWV61Phaeton/main.ly
-.PHONY: Lully/Opera/LWV61Phaeton-rehearsal
+.PHONY: Lully/Opera/LWV61Phaeton-concert
 # Dessus
 Lully/Opera/LWV61Phaeton-dessus:
 	$(LILYPOND_CMD) \
@@ -509,7 +509,7 @@ Lully/Opera/LWV61Phaeton-basse-continue:
 Lully/Opera/LWV61Phaeton-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV61Phaeton
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-urtext.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
-	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-rehearsal.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
+	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-concert.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-dessus.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-taille.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
@@ -524,7 +524,7 @@ Lully/Opera/LWV61Phaeton-clean:
 
 Lully/Opera/LWV61Phaeton-all: \
 	Lully/Opera/LWV61Phaeton-urtext \
-	Lully/Opera/LWV61Phaeton-rehearsal \
+	Lully/Opera/LWV61Phaeton-concert \
 	Lully/Opera/LWV61Phaeton-dessus \
 	Lully/Opera/LWV61Phaeton-haute-contre \
 	Lully/Opera/LWV61Phaeton-taille \
@@ -543,12 +543,12 @@ Lully/Opera/LWV71Armide:
 	-o $(OUTPUT_DIR)/LWV71Armide  \
 	Lully/Opera/LWV71Armide/main.ly
 .PHONY: Lully/Opera/LWV71Armide
-# rehearsal
-Lully/Opera/LWV71Armide-rehearsal:
+# concert
+Lully/Opera/LWV71Armide-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV71Armide-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/LWV71Armide-concert -d use-rehearsal-numbers \
 	Lully/Opera/LWV71Armide/main.ly
-.PHONY: Lully/Opera/LWV71Armide-rehearsal
+.PHONY: Lully/Opera/LWV71Armide-concert
 # Dessus I
 Lully/Opera/LWV71Armide-dessus1:
 	$(LILYPOND_CMD) \
@@ -607,7 +607,7 @@ Lully/Opera/LWV71Armide-voix:
 Lully/Opera/LWV71Armide-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV71Armide
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
-	@if [ -e $(OUTPUT_DIR)/LWV71Armide-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-rehearsal.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
+	@if [ -e $(OUTPUT_DIR)/LWV71Armide-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-concert.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-dessus1.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-dessus1.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-dessus2.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-dessus2.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-haute-contre-treble.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-haute-contre-treble.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
@@ -625,7 +625,7 @@ Lully/Opera/LWV71Armide-clean:
 
 Lully/Opera/LWV71Armide-all: \
 	Lully/Opera/LWV71Armide \
-	Lully/Opera/LWV71Armide-rehearsal \
+	Lully/Opera/LWV71Armide-concert \
 	Lully/Opera/LWV71Armide-dessus1 \
 	Lully/Opera/LWV71Armide-dessus2 \
 	Lully/Opera/LWV71Armide-haute-contre-treble \
@@ -1534,12 +1534,12 @@ Rameau/Opera/IndesGalantes:
 	-o $(OUTPUT_DIR)/IndesGalantes  \
 	Rameau/Opera/IndesGalantes/main.ly
 .PHONY: Rameau/Opera/IndesGalantes
-# rehearsal
-Rameau/Opera/IndesGalantes-rehearsal:
+# concert
+Rameau/Opera/IndesGalantes-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/IndesGalantes-concert -d use-rehearsal-numbers \
 	Rameau/Opera/IndesGalantes/main.ly
-.PHONY: Rameau/Opera/IndesGalantes-rehearsal
+.PHONY: Rameau/Opera/IndesGalantes-concert
 # Flûte I
 Rameau/Opera/IndesGalantes-flute1:
 	$(LILYPOND_CMD) \
@@ -1622,7 +1622,7 @@ Rameau/Opera/IndesGalantes-voix:
 Rameau/Opera/IndesGalantes-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantes
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-rehearsal.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-concert.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes-flute1.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-flute1.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes-flute2.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-flute2.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes-hautbois1.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-hautbois1.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
@@ -1644,7 +1644,7 @@ Rameau/Opera/IndesGalantes-clean:
 
 Rameau/Opera/IndesGalantes-all: \
 	Rameau/Opera/IndesGalantes \
-	Rameau/Opera/IndesGalantes-rehearsal \
+	Rameau/Opera/IndesGalantes-concert \
 	Rameau/Opera/IndesGalantes-flute1 \
 	Rameau/Opera/IndesGalantes-flute2 \
 	Rameau/Opera/IndesGalantes-hautbois1 \
@@ -1670,12 +1670,12 @@ Rameau/Concerts/IndesGalantesSuites:
 	-o $(OUTPUT_DIR)/IndesGalantesSuites  \
 	Rameau/Concerts/IndesGalantesSuites/main.ly
 .PHONY: Rameau/Concerts/IndesGalantesSuites
-# rehearsal
-Rameau/Concerts/IndesGalantesSuites-rehearsal:
+# concert
+Rameau/Concerts/IndesGalantesSuites-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantesSuites-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/IndesGalantesSuites-concert -d use-rehearsal-numbers \
 	Rameau/Concerts/IndesGalantesSuites/main.ly
-.PHONY: Rameau/Concerts/IndesGalantesSuites-rehearsal
+.PHONY: Rameau/Concerts/IndesGalantesSuites-concert
 # Flûte I
 Rameau/Concerts/IndesGalantesSuites-flute1:
 	$(LILYPOND_CMD) \
@@ -1752,7 +1752,7 @@ Rameau/Concerts/IndesGalantesSuites-timbales:
 Rameau/Concerts/IndesGalantesSuites-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantesSuites
 	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesSuites.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesSuites-rehearsal.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesSuites-concert.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-flute1.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesSuites-flute1.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-flute2.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesSuites-flute2.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-hautbois1.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesSuites-hautbois1.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites; fi
@@ -1773,7 +1773,7 @@ Rameau/Concerts/IndesGalantesSuites-clean:
 
 Rameau/Concerts/IndesGalantesSuites-all: \
 	Rameau/Concerts/IndesGalantesSuites \
-	Rameau/Concerts/IndesGalantesSuites-rehearsal \
+	Rameau/Concerts/IndesGalantesSuites-concert \
 	Rameau/Concerts/IndesGalantesSuites-flute1 \
 	Rameau/Concerts/IndesGalantesSuites-flute2 \
 	Rameau/Concerts/IndesGalantesSuites-hautbois1 \
@@ -1798,12 +1798,12 @@ Rameau/Opera/lesFetesDeRamire:
 	-o $(OUTPUT_DIR)/lesFetesDeRamire  \
 	Rameau/Opera/lesFetesDeRamire/main.ly
 .PHONY: Rameau/Opera/lesFetesDeRamire
-# rehearsal
-Rameau/Opera/lesFetesDeRamire-rehearsal:
+# concert
+Rameau/Opera/lesFetesDeRamire-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/lesFetesDeRamire-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/lesFetesDeRamire-concert -d use-rehearsal-numbers \
 	Rameau/Opera/lesFetesDeRamire/main.ly
-.PHONY: Rameau/Opera/lesFetesDeRamire-rehearsal
+.PHONY: Rameau/Opera/lesFetesDeRamire-concert
 # Flûte I
 Rameau/Opera/lesFetesDeRamire-flute1:
 	$(LILYPOND_CMD) \
@@ -1892,7 +1892,7 @@ Rameau/Opera/lesFetesDeRamire-voix:
 Rameau/Opera/lesFetesDeRamire-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/lesFetesDeRamire
 	@if [ -e $(OUTPUT_DIR)/lesFetesDeRamire.pdf ]; then mv -fv $(OUTPUT_DIR)/lesFetesDeRamire.pdf $(DELIVERY_DIR)/Rameau/lesFetesDeRamire; fi
-	@if [ -e $(OUTPUT_DIR)/lesFetesDeRamire-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/lesFetesDeRamire-rehearsal.pdf $(DELIVERY_DIR)/Rameau/lesFetesDeRamire; fi
+	@if [ -e $(OUTPUT_DIR)/lesFetesDeRamire-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/lesFetesDeRamire-concert.pdf $(DELIVERY_DIR)/Rameau/lesFetesDeRamire; fi
 	@if [ -e $(OUTPUT_DIR)/lesFetesDeRamire-flute1.pdf ]; then mv -fv $(OUTPUT_DIR)/lesFetesDeRamire-flute1.pdf $(DELIVERY_DIR)/Rameau/lesFetesDeRamire; fi
 	@if [ -e $(OUTPUT_DIR)/lesFetesDeRamire-flute2.pdf ]; then mv -fv $(OUTPUT_DIR)/lesFetesDeRamire-flute2.pdf $(DELIVERY_DIR)/Rameau/lesFetesDeRamire; fi
 	@if [ -e $(OUTPUT_DIR)/lesFetesDeRamire-hautbois1.pdf ]; then mv -fv $(OUTPUT_DIR)/lesFetesDeRamire-hautbois1.pdf $(DELIVERY_DIR)/Rameau/lesFetesDeRamire; fi
@@ -1915,7 +1915,7 @@ Rameau/Opera/lesFetesDeRamire-clean:
 
 Rameau/Opera/lesFetesDeRamire-all: \
 	Rameau/Opera/lesFetesDeRamire \
-	Rameau/Opera/lesFetesDeRamire-rehearsal \
+	Rameau/Opera/lesFetesDeRamire-concert \
 	Rameau/Opera/lesFetesDeRamire-flute1 \
 	Rameau/Opera/lesFetesDeRamire-flute2 \
 	Rameau/Opera/lesFetesDeRamire-hautbois1 \
@@ -1942,12 +1942,12 @@ Rameau/Opera/Paladins:
 	-o $(OUTPUT_DIR)/Paladins  \
 	Rameau/Opera/Paladins/main.ly
 .PHONY: Rameau/Opera/Paladins
-# rehearsal
-Rameau/Opera/Paladins-rehearsal:
+# concert
+Rameau/Opera/Paladins-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/Paladins-rehearsal -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/Paladins-concert -d use-rehearsal-numbers \
 	Rameau/Opera/Paladins/main.ly
-.PHONY: Rameau/Opera/Paladins-rehearsal
+.PHONY: Rameau/Opera/Paladins-concert
 # Flûte I
 Rameau/Opera/Paladins-flute1:
 	$(LILYPOND_CMD) \
@@ -2018,7 +2018,7 @@ Rameau/Opera/Paladins-voix:
 Rameau/Opera/Paladins-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/Paladins
 	@if [ -e $(OUTPUT_DIR)/Paladins.pdf ]; then mv -fv $(OUTPUT_DIR)/Paladins.pdf $(DELIVERY_DIR)/Rameau/Paladins; fi
-	@if [ -e $(OUTPUT_DIR)/Paladins-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/Paladins-rehearsal.pdf $(DELIVERY_DIR)/Rameau/Paladins; fi
+	@if [ -e $(OUTPUT_DIR)/Paladins-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/Paladins-concert.pdf $(DELIVERY_DIR)/Rameau/Paladins; fi
 	@if [ -e $(OUTPUT_DIR)/Paladins-flute1.pdf ]; then mv -fv $(OUTPUT_DIR)/Paladins-flute1.pdf $(DELIVERY_DIR)/Rameau/Paladins; fi
 	@if [ -e $(OUTPUT_DIR)/Paladins-flute2.pdf ]; then mv -fv $(OUTPUT_DIR)/Paladins-flute2.pdf $(DELIVERY_DIR)/Rameau/Paladins; fi
 	@if [ -e $(OUTPUT_DIR)/Paladins-hautbois1.pdf ]; then mv -fv $(OUTPUT_DIR)/Paladins-hautbois1.pdf $(DELIVERY_DIR)/Rameau/Paladins; fi
@@ -2038,7 +2038,7 @@ Rameau/Opera/Paladins-clean:
 
 Rameau/Opera/Paladins-all: \
 	Rameau/Opera/Paladins \
-	Rameau/Opera/Paladins-rehearsal \
+	Rameau/Opera/Paladins-concert \
 	Rameau/Opera/Paladins-flute1 \
 	Rameau/Opera/Paladins-flute2 \
 	Rameau/Opera/Paladins-hautbois1 \
@@ -2137,12 +2137,12 @@ Haendel/Oratorio/Messiah:
 	-o $(OUTPUT_DIR)/Messiah  \
 	Haendel/Oratorio/Messiah/main.ly
 .PHONY: Haendel/Oratorio/Messiah
-# rehearsal
-Haendel/Oratorio/Messiah-rehearsal:
+# concert
+Haendel/Oratorio/Messiah-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/Messiah-rehearsal  \
+	-o $(OUTPUT_DIR)/Messiah-concert  \
 	Haendel/Oratorio/Messiah/main.ly
-.PHONY: Haendel/Oratorio/Messiah-rehearsal
+.PHONY: Haendel/Oratorio/Messiah-concert
 # Réduction
 Haendel/Oratorio/Messiah-keyboard:
 	$(LILYPOND_CMD) \
@@ -2231,7 +2231,7 @@ Haendel/Oratorio/Messiah-tympani:
 Haendel/Oratorio/Messiah-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Haendel/Messiah
 	@if [ -e $(OUTPUT_DIR)/Messiah.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
-	@if [ -e $(OUTPUT_DIR)/Messiah-rehearsal.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-rehearsal.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
+	@if [ -e $(OUTPUT_DIR)/Messiah-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-concert.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-keyboard.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-keyboard.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-keyboard-vocal.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-keyboard-vocal.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-oboe1.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-oboe1.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
@@ -2254,7 +2254,7 @@ Haendel/Oratorio/Messiah-clean:
 
 Haendel/Oratorio/Messiah-all: \
 	Haendel/Oratorio/Messiah \
-	Haendel/Oratorio/Messiah-rehearsal \
+	Haendel/Oratorio/Messiah-concert \
 	Haendel/Oratorio/Messiah-keyboard \
 	Haendel/Oratorio/Messiah-keyboard-vocal \
 	Haendel/Oratorio/Messiah-oboe1 \

@@ -12,7 +12,7 @@
         #:opus "LWV-5"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=5"
         #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+                (concert #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus "Dessus")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
@@ -25,7 +25,7 @@
         #:opus "LWV-8"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=6"
         #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+                (concert #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus "Dessus")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
@@ -46,7 +46,7 @@
         #:opus "LWV-43"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=7"
         #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"
+                (concert #f #:options "-d use-rehearsal-numbers"
                            #:score-file "main-rehearsal-short.ly"))
         #:parts ((dessus1 "Dessus I")
                  (dessus2 "Dessus II")
@@ -61,7 +61,7 @@
         #:opus "LWV-53"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=53"
         #:main ((urtext "Version urtext" #:options "-durtext")
-                (rehearsal "Version de concert"))
+                (concert "Version de concert"))
         #:parts ((dessus "Dessus")
                  (haute-contre "Hautes-contre")
                  (taille "Tailles")
@@ -75,7 +75,7 @@
         #:opus "LWV-56"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=14"
         #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+                (concert #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus1 "Dessus I")
                  (dessus2 "Dessus II")
                  (haute-contre "Haute-contre")
@@ -94,7 +94,7 @@
         #:opus "LWV-61"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=39"
         #:main ((urtext "Version urtext" #:options "-durtext")
-                (rehearsal "Version de concert"))
+                (concert "Version de concert"))
         #:parts ((dessus "Dessus")
                  (haute-contre "Hautes-contre")
                  (taille "Tailles")
@@ -108,7 +108,7 @@
         #:opus "LWV-71"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=21"
         #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+                (concert #f #:options "-d use-rehearsal-numbers"))
         #:parts ((dessus1 "Dessus I")
                  (dessus2 "Dessus II")
                  (haute-contre-treble "Haute-contre (clé de sol)" #:score-file "part2.ly")
@@ -335,7 +335,7 @@ O Emmanuel")
         #:key "Rameau/Opera/IndesGalantes"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
         #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+                (concert #f #:options "-d use-rehearsal-numbers"))
         #:parts ((flute1 "Flûte I")
                  (flute2 "Flûte II")
                  (hautbois1 "Hautbois I")
@@ -354,7 +354,7 @@ O Emmanuel")
         #:key "Rameau/Concerts/IndesGalantesSuites"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
         #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+                (concert #f #:options "-d use-rehearsal-numbers"))
         #:parts ((flute1 "Flûte I")
                  (flute2 "Flûte II")
                  (hautbois1 "Hautbois I")
@@ -372,7 +372,7 @@ O Emmanuel")
         #:key "Rameau/Opera/lesFetesDeRamire"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=22"
         #:main ((#f "Conducteur")
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+                (concert #f #:options "-d use-rehearsal-numbers"))
         #:parts ((flute1 "Flûte I")
                  (flute2 "Flûte II")
                  (hautbois1 "Hautbois I")
@@ -391,7 +391,7 @@ O Emmanuel")
         #:description ,(markup #:wordwrap-string  "Comédie lyrique, livret de J-F. Duplat de Monticourt, 1760.")
         #:key "Rameau/Opera/Paladins"
         #:main ((#f #f)
-                (rehearsal #f #:options "-d use-rehearsal-numbers"))
+                (concert #f #:options "-d use-rehearsal-numbers"))
         #:parts ((flute1 "Flûte I")
                  (flute2 "Flûte II")
                  (hautbois1 "Hautbois I")
@@ -426,7 +426,7 @@ O Emmanuel")
         #:key "Haendel/Oratorio/Messiah"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=40"
         #:main ((#f "Partition complète")
-                (rehearsal #f)
+                (concert #f)
                 (keyboard "Réduction"
                           #:options "-dpart=keyboard")
                 (keyboard-vocal "Réduction et parties vocales"
