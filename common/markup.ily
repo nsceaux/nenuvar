@@ -467,7 +467,8 @@ characterAmbitus =
           (interpret-markup layout props
                             (markup 
                              #:force-line-width-ratio ambitus-width-ratio
-                             #:vcenter #:left-align ambitus
+                             #:vcenter #:fill-line (#:null #:left-align ambitus)
+                             #:hspace 2
                              #:force-line-width-ratio character-width-ratio
                              #:vcenter #:smallCaps name)))))
 
