@@ -1,18 +1,27 @@
 \newBookPart #'()
 \actn "Prologue"
+\sceneDescription\markup\wordwrap-center {
+  [Le Theatre represente un Palais.]
+}
+%{ n°1 %}
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
-
-\pieceToc \markup {
-  La Gloire, la Sagesse, chœurs :
-  \italic { Tout doit céder dans l'univers à l'auguste Héros } }
+%{ n°2 %}
+\sceneDescription\markup\center-column {
+  \line { \smallCaps { La Gloire. } Suitte de la Gloire. }
+  \line { \smallCaps { La Sagesse. } Suitte de la Sagesse. }
+}
+\pieceToc\markup\wordwrap {
+  \smallCaps { La Gloire, la Sagesse, chœurs : }
+  \italic { Tout doit ceder dans l'Univers }
+}
 \includeScore "AABgloireSagesse"
-\pageBreak
+
 \pieceToc \markup {
   La Gloire, la Sagesse, chœurs :
   \italic { D'une égale tendresse, nous aimons le même vainqueur } }
 \includeScore "AACgloireSagesse"
-\pageBreak
+
 \pieceTocTitle "Entrée"
 \includeScore "AADentree"
 \pieceTocTitle "Menuet"
@@ -24,7 +33,7 @@
   La Gloire, la Sagesse, chœurs :
   \italic { Suivons notre Héros, que rien ne nous sépare. } }
 \includeScore "AAGgloireSagesse"
-\pageBreak
+
 \pieceTocTitle "Entrée"
 \includeScore "AAHentree"
 \includeScore "AAImenuet"
