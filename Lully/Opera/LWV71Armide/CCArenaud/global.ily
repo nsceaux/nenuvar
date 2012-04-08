@@ -1,6 +1,6 @@
 \oldKey re \minor
 \newKey sol \minor
-\midiTempo #100 \time 3/4
+\midiTempo #100 \digitTime\time 3/4
 \markUpBegin \mark \markup { PRÉLUDE Lentement }
 s2.*20
 \markDownBegin \mark "Fin"
