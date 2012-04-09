@@ -16,7 +16,7 @@
 #(ly:set-option 'apply-vertical-tweaks
                 (and (not (eqv? #t (ly:get-option 'urtext)))
                      (not (symbol? (ly:get-option 'part)))))
-#(ly:set-option 'print-footnotes (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'print-footnotes (not (symbol? (ly:get-option 'part))))
 
 %% use baroque style repeats
 #(ly:set-option 'baroque-repeats (eqv? #t (ly:get-option 'urtext)))
@@ -152,13 +152,6 @@ sagesseMarkNoClef =
 #(define-music-function (parser location) ()
   (make-character-mark "" "La Sagesse"))
 
-sagesseSuiteMark =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Suite de la Sagesse"))
-
-gloireSuiteMark =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Suite de la Gloire"))
 %%
 pheniceMarkNoClef =
 #(define-music-function (parser location) ()

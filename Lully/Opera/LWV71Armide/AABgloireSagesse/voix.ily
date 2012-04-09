@@ -1,7 +1,9 @@
 <<
   %% La Gloire
   \tag #'(gloire basse) {
-    \gloireMark do''4 sol'4. do''8 |
+    \clef "vbas-dessus"
+    \tag #'basse \gloireMark
+    do''4^\markup\orig-version\character "La Gloire" sol'4. do''8 |
     la'4 do''4 re''8 mi''8 |
     re''2 re''8 mi''8 |
     fa''2 fa''8 sol''8 |
@@ -46,9 +48,13 @@
   }
   %% La Sagesse
   \tag #'(sagesse basse) {
+    \clef "vbas-dessus"
     <<
-      \tag #'basse { s2.*22\sagesseMark }
-      \tag #'sagesse { \sagesseMark R2.*22 }
+      \tag #'basse { s2.*22 \sagesseMark }
+      \tag #'sagesse {
+        s4*0^\markup\orig-version\character "La Sagesse"
+        R2.*22
+      }
     >>
     do''4 sol'4. do''8 |
     la'4 do''4 re''8 mi''8 |

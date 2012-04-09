@@ -12,7 +12,7 @@
 \tag #'(sagesse basse) {
   Tout doit ce -- der dans l'U -- ni -- vers
   A l'au -- gu -- ste He -- ros que j'ai -- me.
-  Il sçait l'art de te -- nir tous les Mons -- tres aux "fers :"
+  Il sçait l'art de te -- nir tous les Mons -- tres aux fers_:
   Il est Maistre a -- bso -- lu de cent Peu -- ples di -- vers,
   Et plus Maistre en -- cor de luy- mes -- me.
 }

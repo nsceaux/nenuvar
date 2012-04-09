@@ -1,3 +1,4 @@
+\clef "taille"
 R1*43 R1.*3 R1*3 R1. R1*9 R1. R1*2 R2.*30 |
 mi'4 mi'4 mi'4 |
 fa'2 fa'4 |
@@ -9,10 +10,10 @@ do'2 do'4 |
 re'4 re'4 mi'8 fa'8 |
 sol'2 r4 |
 R2.*3 |
-r2 sol'4 |
+r4 r sol'4 |
 la'4 la'4 fad'4 |
 fad'2 mi'4 |
-mi'8 fad'8 fad'4. mi'8 |
+mi'8. fad'16 fad'4. mi'8 |
 mi'2 r4 |
 R2.*3 |
 r4 mi'4 mi'8 mi'8 |
@@ -25,31 +26,61 @@ fad'2 sol'4 |
 fad'4 fad'4 mi'4 |
 red'2 r4 |
 R2.*3 |
-r2 sol'8 sol'8 |
+r4 r sol'8 sol'8 |
 do''2 sol'4 |
 do'4 la4 si8 do'8 |
 re'2 r4 |
 R2.*3 |
-r2 sol'4 |
+r4 r sol'4 |
 sol'4 sol'4 sol'4 |
 la'2 la'4 |
 la'4 sol'4. sol'8 |
-mi'2 sol'8 sol'8 |
+mi'2\tr sol'8 sol'8 |
 si'2 do''4 |
 mi'4 re'4 do'4 |
-si2 si4 |
+si2\tr si4 |
 do'4 do'4 do'4 |
 do'2 fa'4 |
 fa'4 mi'4. mi'8 |
 dod'2 r4 |
 R2.*3 |
-r2 la'8 la'8 |
+r4 r la'8 la'8 |
 si'2 do''4 |
 mi'4 re'4 do'4 |
-si2 r4 |
+si2\tr r4 |
 R2.*3 |
-r2 do'4 |
+r4 r do'4 |
 do'4 do'4 do'4 |
-si2 do'4 |
-re'4 si4. do'8 |
+si2 \myfootnote #'NoteHead #(if (eqv? #t (ly:get-option 'urtext))
+                                '(0 . 4)
+                                '(0 . 2)) \markup {
+  Ballard : \hspace #2 \raise #3 \score {
+    <<
+      \new Staff \with { instrumentName = "t." } {
+        \tinyQuote \clef "mezzosoprano" \time 3/4
+        si2 do'4 | re'4 si4. do'8 | do'2. | \bar "|."
+      }
+      \new Staff \with { instrumentName = "q." } {
+        \tinyQuote \clef "alto" \time 3/4
+        si2 la4 | fa'4 mi'4. mi'8 | mi'2. |
+      }
+    >>
+    \layout { \quoteLayout }
+  }
+  ratturé et corrigé manuellement ainsi : \hspace #2
+  \raise #3 \score {
+    <<
+      \new Staff \with { instrumentName = "t." } {
+        \tinyQuote \clef "mezzosoprano" \time 3/4
+        si2 la4 | si4 si4. do'8 | do'2. | \bar "|."
+      }
+      \new Staff \with { instrumentName = "q." } {
+        \tinyQuote \clef "alto" \time 3/4
+        si2 do'4 | fa4 mi4. mi8 | mi2. |
+      }
+    >>
+    \layout { \quoteLayout }
+  }
+} do'4 |
+re'4 si4.\tr do'8 |
 do'2. |

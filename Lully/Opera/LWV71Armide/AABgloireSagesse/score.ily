@@ -135,20 +135,27 @@
         >> \keepWithTag #'gloire-choeur \includeLyrics "paroles"
       >>
       \new Staff \with { \haraKiri } \withLyrics <<
-          { \noHaraKiri s2.*48 \revertNoHaraKiri }
+        \characterName "La Gloire"
+        { \noHaraKiri s2.*48 \revertNoHaraKiri }
         \global \keepWithTag #'gloire \includeNotes "voix"
       >> \keepWithTag #'gloire \includeLyrics "paroles"
       \new Staff \with { \haraKiri } \withLyrics <<
-          { \noHaraKiri s2.*48 \revertNoHaraKiri }
+        \characterName "La Sagesse"
+        { \noHaraKiri s2.*48 \revertNoHaraKiri }
         \global \keepWithTag #'sagesse \includeNotes "voix"
       >> \keepWithTag #'sagesse \includeLyrics "paroles"
       \new Staff <<
+        \instrumentName "Basse Continue"
         \global
         \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
       >>
     >>
   >>
-  \layout { }
+  \layout {
+    indent = #(if (eqv? #t (ly:get-option 'urtext))
+                  smallindent
+                  largeindent)
+  }
   \midi { }
 }

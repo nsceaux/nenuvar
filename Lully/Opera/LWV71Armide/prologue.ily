@@ -16,12 +16,19 @@
   \italic { Tout doit ceder dans l'Univers }
 }
 \includeScore "AABgloireSagesse"
-
-\pieceToc \markup {
-  La Gloire, la Sagesse, chœurs :
-  \italic { D'une égale tendresse, nous aimons le même vainqueur } }
+%{ n°3 %}
+\pieceToc\markup\wordwrap {
+  \smallCaps { La Gloire, la Sagesse, chœurs : }
+  \italic { D'une esgale tendresse }
+}
 \includeScore "AACgloireSagesse"
-
+%{ n°4 %}
+\sceneDescription\smaller\italic\justify {
+  [La Suite de la gloire & celle de la Sagesse
+  témoignent par des Danses la joye qu'elles ont
+  de voir ces deux Divinitez dans une intelligence
+  parfaite.]
+}
 \pieceTocTitle "Entrée"
 \includeScore "AADentree"
 \pieceTocTitle "Menuet"

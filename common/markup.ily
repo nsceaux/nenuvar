@@ -505,6 +505,17 @@ characterAmbitus =
    (interpret-markup layout props
                      (make-line-markup (cons (make-hspace-markup 4) args))))
 
+%% Verse margins
+#(define-markup-command (verse layout props syllab-count words)
+     (number? markup-list?)
+   (interpret-markup
+    layout props
+    (if (< syllab-count 12)
+        (make-line-markup (cons (make-hspace-markup (* 1.5 (- 12 syllab-count)))
+                                words))
+        (make-line-markup words))))
+
+
 %%% Foot notes
 \paper {
   footnote-auto-numbering = ##t

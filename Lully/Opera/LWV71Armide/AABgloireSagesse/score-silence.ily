@@ -19,23 +19,23 @@
   }
   \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold\line { La Gloire }
-    \sline { Tout doit ceder dans l'Univers }
-    \sline { A l'Auguste Heros que j'aime, }
-    \line { L'effort des Ennemis, les glaces des Hyvers, }
-    \sline { Les Rochers, les Fleuves, les Mers, }
-    \line { Rien n'arreste l'ardeur de sa valeur extréme. }
+    \verse#8 { Tout doit ceder dans l'Univers }
+    \verse#8 { A l'Auguste Heros que j'aime, }
+    \verse#12 { L'effort des Ennemis, les glaces des Hyvers, }
+    \verse#8 { Les Rochers, les Fleuves, les Mers, }
+    \verse#12 { Rien n'arreste l'ardeur de sa valeur extréme. }
     \bold\line { La Sagesse }
-    \sline { Tout doit ceder dans l'Univers }
-    \sline { A l'Auguste Heros que j'aime, }
-    \line { Il sçait l'art de tenir tous les Monstres aux fers, }
-    \line { Il est Maître absolu de cent Peuples divers, }
-    \sline { Et plus Maître encor de luy-mesme. }
+    \verse#8 { Tout doit ceder dans l'Univers }
+    \verse#8 { A l'Auguste Heros que j'aime, }
+    \verse#12 { Il sçait l'art de tenir tous les Monstres aux fers, }
+    \verse#12 { Il est Maître absolu de cent Peuples divers, }
+    \verse#8 { Et plus Maître encor de luy-mesme. }
     \bold\line { La Gloire & la Sagesse }
-    \sline { Tout doit ceder dans l'Univers }
-    \sline { A l'Auguste Heros que j'aime. }
+    \verse#8 { Tout doit ceder dans l'Univers }
+    \verse#8 { A l'Auguste Heros que j'aime. }
     \bold\line { La Sagesse & sa suite }
-    \sline { Chantons la douceur de ses loix. }
+    \verse#8 { Chantons la douceur de ses loix. }
     \bold\line { La Gloire & sa suite }
-    \sline { Chantons ses glorieux exploits. }
+    \verse#8 { Chantons ses glorieux exploits. }
   }
 }
