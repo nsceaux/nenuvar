@@ -23,7 +23,7 @@
 }
 \includeScore "AACgloireSagesse"
 %{ n°4 %}
-\sceneDescription\smaller\italic\justify {
+\sceneDescription\markup\smaller\italic\justify {
   [La Suite de la gloire & celle de la Sagesse
   témoignent par des Danses la joye qu'elles ont
   de voir ces deux Divinitez dans une intelligence
@@ -31,6 +31,7 @@
 }
 \pieceTocTitle "Entrée"
 \includeScore "AADentree"
+%{ n°5 %}
 \pieceTocTitle "Menuet"
 \includeScore "AAEmenuet"
 \pieceTocTitle "Gavotte"

@@ -1,4 +1,4 @@
-do'2 do'4 do'4 |
+\clef "quinte" do'2 do'4 do'4 |
 re'4. re'8 re'2 |
 mi'2. do'4 |
 do'2 la2 |
