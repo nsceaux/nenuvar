@@ -34,6 +34,7 @@
 %{ n°5 %}
 \pieceTocTitle "Menuet"
 \includeScore "AAEmenuet"
+%{ n°6 %}
 \pieceTocTitle "Gavotte"
 \includeScore "AAFgavotte"
 

@@ -69,7 +69,7 @@
       }
       \teeny \fill-line {
         \line {
-          Licensed under the Creative Commons Attributio 3.0 License,
+          Licensed under the Creative Commons Attribution 3.0 License,
           for details see: \hspace #-0.5 
           \with-url #"http://creativecommons.org/licenses/by/3.0" 
           http://creativecommons.org/licenses/by/3.0
