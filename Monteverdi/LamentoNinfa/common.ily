@@ -12,7 +12,7 @@
 \include "../../common/precipitations.ily"
 
 \header {
-  title = "Lamento dela Ninfa"
+  title = "Lamento della Ninfa"
   composer = "Claudio Monteverdi"
   copyrightYear = "2012"
   copyright = \markup\column {
