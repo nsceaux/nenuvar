@@ -3,6 +3,20 @@
 
 #(define nenuvar-catalog
    `(;;;
+     ;;; MONTEVERDI
+     ;;;
+     ("Claudio Monteverdi (1567-1643)"
+      (("Lamento della Ninfa"
+        #:description "Ottavo Libro de Madregali : Madrigali Guerrieri et Amorosi"
+        #:key "Monteverdi/LamentoNinfa"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=xx"
+        #:main ((urtext "Version urtext"
+                        #:score-file "lamento-urtext.ly"
+                        #:options "-drelative-includes")
+                (concert "Version concert"
+                        #:score-file "lamento.ly"
+                         #:options "-drelative-includes")))))
+     ;;;
      ;;; LULLY
      ;;;
      ("Jean-Baptiste Lully (1632-1687)"

@@ -49,7 +49,7 @@ IIcanto = {
   la' la' si' sold'\breve sold'!1 |
   sold'\breve la'1 si'\breve. |
   \blackNotation { do''1( re''\breve) } mi''1 si' si' |
-  si'\breve la'1 si'\breve\melisma si'1\melismaEnd |
+  si'\breve la'1 si'\breve si'1 |
   %%
   la'1 la' la' la'\breve sold'1 |
   la'\breve. r\breve*3/2 |
@@ -112,7 +112,7 @@ IIcanto = {
   re''1 re'' do'' mi''\breve. |
   %
   mi''1 do'' si' si'\breve la'1 |
-  la' la' sold' sold'!\breve sold'1 |
+  la' la' sold' sold'\breve sold'1 |
   sol'!\breve
   \footnote #'(0 . 3.5) #'NoteHead \markup {
     Source: \italic { Basso Continuo, Canto Primo } \raise #2.5 \score {
@@ -406,9 +406,9 @@ IIcantoText = \lyricmode {
   ch'el tra -- di -- tor
   ch'el tra -- di -- tor giu -- rò
 
-  fa che ri -- tor -- ni~il mi -- o'
+  fa che ri -- tor -- ni_il mi -- o'
   A -- mor co -- m'ei pur fu
-  ò __ ò tu m'an -- ci -- di ch'io
+  ò __ ò tu m'an -- ci -- di ch'i -- o
   %{nõ%} non mi tor -- men -- ti più
   %{nõ%} non mi tor -- men -- ti
   %{nõ%} non mi tor -- men -- ti
@@ -417,21 +417,21 @@ IIcantoText = \lyricmode {
   %{nõ%} non %{nõ%} non vò piu ch'ei sos -- pi -- ri
   se %{nõ%} non lon -- tan lon -- tan da me
   nò nò __ ch'ei suoi mar -- ti -- ri
-  piu %{nõ%} non di -- ram -- mi %{nõ%} non di -- ram -- mi~af -- fe
+  piu %{nõ%} non di -- ram -- mi %{nõ%} non di -- ram -- mi_af -- fe
 
   per -- che __ di __ lui  __ mi __ stru -- go
   tutt' or -- go -- glio -- so sta
   che si che si sel fug -- go
   an -- cor __ an -- cor mi pre -- ghe -- ra
 
-  Se ci -- glio~ha piu se -- re -- no co -- lei co -- lei co -- lei
+  Se ci -- glio_ha piu se -- re -- no co -- lei co -- lei co -- lei
   ch'el mio %{nõ%} non è
   gia %{nõ%} non rin -- chiu -- de'in se -- no
   A -- mor si be -- la fe si bel -- la si bel -- la fe
 
   Ne mai si dol -- ci ba -- ci mai mai mai mai
   da quel -- la boc -- ca'ha -- vrai
-  ne piu so -- a -- vi'~ah ta -- ci ta -- ci ta -- ci
+  ne piu so -- a -- vi'_ah ta -- ci ta -- ci ta -- ci
   ta -- ci che trop -- po'il sai.
 }
 

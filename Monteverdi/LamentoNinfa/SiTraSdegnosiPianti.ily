@@ -26,7 +26,7 @@ IIItenorePrimo = {
 
 IIItext = \lyricmode {
   Si trà sde -- gno -- si pian -- ti
-  spar -- ge -- a le vo -- ci~al ciel
-  co -- si ne co -- ri~a -- man -- ti
-  mes -- ce~a -- mor fiam -- m'e gel.
+  spar -- ge -- a le vo -- ci_al ciel
+  co -- si ne co -- ri_a -- man -- ti
+  mes -- ce_a -- mor fiam -- m'e gel.
 }

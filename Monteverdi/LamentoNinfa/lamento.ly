@@ -2,7 +2,6 @@
 \layout { indent = 17\mm incipit-width = #7 }
 #(set-global-staff-size 16)
 \include "common.ily"
-\include "../../common/custom-bars.ily"
 
 \paper {
   ragged-last-bottom = ##f
@@ -16,27 +15,33 @@
   }
 }
 
-\header {
-  title = "Lamento dela Ninfa"
-  composer = "Claudio Monteverdi"
+\markup\column {
+  \fill-line { \line { Modo di rappresentare il presente canto } }
+  \justify {
+    Le tre parti, che cantano fuori del pianto dela Ninfa; si sono cosi separatamente
+    poste, perche si cantano al tempo dela "mano ;" le altre tre parti, che
+    vanno commiserando in debole voce la Ninfa, si sono poste in partitura,
+    acciò seguitano il pianto di effa, qual ua cantato a tempo del animo,
+    & non a quello dela mano.
+  }
+  \null
 }
-
 
 Iglobal = {
   \staffStart
   \set Score.tempoWholesPerMinute = #(ly:make-moment 28 1 0 1)
   \time 4/4
-  s1 \bar ";" s1 \bar ";" s1 \bar "|"
-  s1 \bar ";" s1 \bar ";" s1 \bar ";"
-  s1 \bar ";" s1 \bar "|"
-  s1 \bar ";" s1 \bar "|"
-  s1 \bar ";" s1 \bar "|"
-  s1 \bar ";"
-  s1 \bar ";" s1 \bar ";" s1 \bar ";" s1 \bar "|"
-  s1 \bar ";" s1 \bar "|"
-  s1 \bar ";" s1 \bar "|"
-  s1 \bar ";"
-  s1 \bar ";" s1 \bar ";" s1 \bar ";" s1 \bar ";" s1 \bar "|."
+  s1 \bar "dashed" s1 \bar "dashed" s1 \bar "|"
+  s1 \bar "dashed" s1 \bar "dashed" s1 \bar "dashed"
+  s1 \bar "dashed" s1 \bar "|"
+  s1 \bar "dashed" s1 \bar "|"
+  s1 \bar "dashed" s1 \bar "|"
+  s1 \bar "dashed"
+  s1 \bar "dashed" s1 \bar "dashed" s1 \bar "dashed" s1 \bar "|"
+  s1 \bar "dashed" s1 \bar "|"
+  s1 \bar "dashed" s1 \bar "|"
+  s1 \bar "dashed"
+  s1 \bar "dashed" s1 \bar "dashed" s1 \bar "dashed" s1 \bar "dashed" s1 \bar "|."
 }
 
 \score {
@@ -47,7 +52,9 @@ Iglobal = {
     \new Staff << \Iglobal \Icontinuo >>
   >>
   \layout { }
-  \header { piece = "I. Non havea Febo ancora. A Tre Voci. Doi Tenori, a Basso" }
+  \header {
+    piece = "I. Non havea Febo ancora. A Tre Voci. Doi Tenori, e Basso"
+  }
   \midi { }
 }
 
@@ -68,7 +75,7 @@ IIIglobal = {
   \staffStart
   \set Score.tempoWholesPerMinute = #(ly:make-moment 28 1 0 1)
   \time 4/4
-  \repeat unfold 11 { s1 \bar ";" }
+  \repeat unfold 11 { s1 \bar "dashed" }
   s1 \bar "|."
 }
 

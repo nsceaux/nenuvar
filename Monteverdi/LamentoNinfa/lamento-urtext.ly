@@ -42,11 +42,7 @@
 }
 
 \paper {
-  bookTitleMarkup = "" %\markup\null
-}
-
-\markup {
-  titre, notes...
+  bookTitleMarkup = ##f
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,6 +53,17 @@
     instrument = "Basso Continuo"
   }
   \paper {
+    bookTitleMarkup = \markup\override #'(baseline-skip . 3.5) \column {
+      \column {
+        \huge\larger\bold\fill-line { \larger\fromproperty #'header:title }
+        \fill-line { \large\smaller\bold\larger\fromproperty #'header:subtitle }
+        \fill-line {
+          \fromproperty #'header:poet
+          \fromproperty #'header:composer
+        }
+      }
+    }
+    
     #(define (not-part-first-page layout props arg)
        (if (= (chain-assoc-get 'page:page-number props -1)
               (ly:output-def-lookup layout 'first-page-number))
@@ -64,22 +71,25 @@
            (interpret-markup layout props arg)))
     oddHeaderMarkup = \markup\fill-line {
       \null
-      \forced-page-string #55
+      \on-the-fly #not-part-first-page \forced-page-string #55
       \on-the-fly #not-part-first-page \fromproperty #'header:instrument
     }
     evenHeaderMarkup = \markup\fill-line {
       \null
-      \forced-page-string #55
+      \on-the-fly #not-part-first-page \forced-page-string #55
       \on-the-fly #not-part-first-page \fromproperty #'header:instrument
     }
-    oddFooterMarkup = \markup\fill-line {
-      \null
-      \line {
-        Ottavo Libro de Madregali di Claudio Monte Verde. I 
-        \concat { \forced-folio-string #19 . }
+    oddFooterMarkup = \markup\column {
+      \fill-line {
+        \null
+        \line {
+          Ottavo Libro de Madregali di Claudio Monte Verde. I 
+          \concat { \forced-folio-string #19 . }
+        }
       }
+      \on-the-fly #first-page \fromproperty #'header:copyright
     }
-    evenFooterMarkup = "" %\markup\null
+    evenFooterMarkup = #f
   }
 
   \markup\column {

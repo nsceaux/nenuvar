@@ -273,6 +273,10 @@
   (interpret-markup layout props
    (markup #:fill-line (#:draw-line (cons (/ (* 20 width) (*staff-size*)) 0)))))
 
+#(define-markup-command (sep layout props) ()
+   (interpret-markup layout props
+                     (markup #:pad-around 1 #:fill-line (#:draw-line '(50 . 0)))))
+
 #(define-markup-command (boxed-justify layout props text) (markup-list?)
   (interpret-markup layout props
    (make-override-markup '(box-padding . 1)

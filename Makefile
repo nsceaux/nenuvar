@@ -6,6 +6,41 @@ DELIVERY_DIR=delivery
 LILYPOND_CMD=lilypond --loglevel=WARN -ddelete-intermediate-files -dno-protected-scheme-parsing
 
 ###
+### Claudio Monteverdi (1567-1643)
+###
+### Lamento della Ninfa
+# Version urtext
+Monteverdi/LamentoNinfa-urtext:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LamentoNinfa-urtext -drelative-includes \
+	Monteverdi/LamentoNinfa/lamento-urtext.ly
+.PHONY: Monteverdi/LamentoNinfa-urtext
+# Version concert
+Monteverdi/LamentoNinfa-concert:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LamentoNinfa-concert -drelative-includes \
+	Monteverdi/LamentoNinfa/lamento.ly
+.PHONY: Monteverdi/LamentoNinfa-concert
+
+Monteverdi/LamentoNinfa-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Monteverdi/LamentoNinfa
+	@if [ -e $(OUTPUT_DIR)/LamentoNinfa-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/LamentoNinfa-urtext.pdf $(DELIVERY_DIR)/Monteverdi/LamentoNinfa; fi
+	@if [ -e $(OUTPUT_DIR)/LamentoNinfa-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LamentoNinfa-concert.pdf $(DELIVERY_DIR)/Monteverdi/LamentoNinfa; fi
+	@if [ -e $(OUTPUT_DIR)/LamentoNinfa-1.midi ]; then tar zcf $(DELIVERY_DIR)/Monteverdi/LamentoNinfa/LamentoNinfa-midi.tar.gz $(OUTPUT_DIR)/LamentoNinfa.midi $(OUTPUT_DIR)/LamentoNinfa-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LamentoNinfa.midi ]; then cp $(OUTPUT_DIR)/LamentoNinfa.midi $(DELIVERY_DIR)/Monteverdi/LamentoNinfa/ ; fi
+	git archive --prefix=LamentoNinfa/ HEAD Monteverdi/LamentoNinfa common out templates Makefile README | gzip > $(DELIVERY_DIR)/Monteverdi/LamentoNinfa/LamentoNinfa.tar.gz
+
+Monteverdi/LamentoNinfa-clean:
+	@rm -f $(OUTPUT_DIR)/LamentoNinfa-* $(OUTPUT_DIR)/LamentoNinfa.*
+
+Monteverdi/LamentoNinfa-all: \
+	Monteverdi/LamentoNinfa-urtext \
+	Monteverdi/LamentoNinfa-concert\
+	Monteverdi/LamentoNinfa-delivery\
+	Monteverdi/LamentoNinfa-clean
+
+.PHONY: Monteverdi/LamentoNinfa-delivery Monteverdi/LamentoNinfa-clean Monteverdi/LamentoNinfa-all
+
+###
 ### Jean-Baptiste Lully (1632-1687)
 ###
 ### La revente des habits du ballet

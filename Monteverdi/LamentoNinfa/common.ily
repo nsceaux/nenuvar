@@ -9,6 +9,18 @@
 \include "../../common/alterations.ily"
 \include "../../common/baroque.ily"
 \include "../../common/markup.ily"
+\include "../../common/precipitations.ily"
+
+\header {
+  title = "Lamento dela Ninfa"
+  composer = "Claudio Monteverdi"
+  copyrightYear = "2012"
+  copyright = \markup\column {
+    \sep
+    \fill-line { \copyright }
+    \fill-line { "Licensed under the Creative Commons Attribution 3.0 License" }
+  }
+}
 
 quoteLayout = \layout {
   indent = 0
@@ -70,6 +82,13 @@ markBegin =
     \Lyrics
     \override LyricText #'font-size = #0
   }
+}
+
+\paper {
+  last-bottom-spacing = #'((basic-distance . 1)
+                           (padding . 2)
+                           (minimum-distance . 0)
+                           (stretchability . 5))
 }
 
 \include "NonHavea.ily"

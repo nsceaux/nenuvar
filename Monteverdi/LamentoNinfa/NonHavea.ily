@@ -26,23 +26,23 @@ ItenoreSecondo = {
 }
 
 ItenoreSecondoText = \lyricmode {
-  Non ha -- vea fe -- bo~an -- co -- ra
-  rec -- ca -- to~al mon -- do~il dì
+  Non ha -- vea fe -- bo_an -- co -- ra
+  rec -- ca -- to_al mon -- do_il dì
   ch'u -- na don -- zel -- la fuo -- ra
-  del pro -- prio~al -- ber -- go~us -- cì
+  del pro -- prio_al -- ber -- go_us -- cì
 
   sul pal -- li -- det -- to vol -- to
-  scor -- ge -- a -- se~il suo do -- lor
+  scor -- ge -- a -- se_il suo do -- lor
   spes -- so gli ve -- nia sciol -- to
   un gran sos -- pir dal cor
 
   si cal -- pe -- stan -- do fio -- ri
-  si cal -- pa -- stan -- do
-  si cal -- pa -- stan -- do fio -- ri
-  er -- ra -- va~hor qua hor la
-  i suoi per -- du -- ti~a -- mo -- ri
-  i suoi per -- du -- ti~a -- mo -- ri
-  co -- si __ pian -- gen -- di va.
+  si cal -- pe -- stan -- do
+  si cal -- pe -- stan -- do fio -- ri
+  er -- ra -- va_hor qua hor la
+  i suoi per -- du -- ti_a -- mo -- ri
+  i suoi per -- du -- ti_a -- mo -- ri
+  co -- si __ pian -- gen -- do va.
 }
 
 ItenorePrimo = {
@@ -57,24 +57,24 @@ ItenorePrimo = {
 }
 
 ItenorePrimoText = \lyricmode {
-  Non ha -- vea fe -- bo~an -- co -- ra
-  rec -- ca -- to~al mon -- do~il dì
+  Non ha -- vea fe -- bo_an -- co -- ra
+  rec -- ca -- to_al mon -- do_il dì
   ch'u -- na don -- zel -- la fuo -- ra
-  del pro -- prio~al -- ber -- go~us -- cì
+  del pro -- prio_al -- ber -- go_us -- cì
 
   sul pal -- li -- det -- to vol -- to
-  scor -- ge -- a -- se~il suo do -- lor
+  scor -- ge -- a -- se_il suo do -- lor
   spes -- so gli ve -- nia sciol -- to
   un gran sos -- pir dal cor
 
   si cal -- pe -- stan -- do fio -- ri
-  er -- ra -- va~hor qua hor la
-  si cal -- pa -- stan -- do
-  si cal -- pa -- stan -- do fio -- ri
-  er -- ra -- va~hor qua hor la
-  i suoi per -- du -- ti~a -- mo -- ri
-  i suoi per -- du -- ti~a -- mo -- ri
-  co -- si __ pian -- gen -- di va.
+  er -- ra -- va_hor qua hor la
+  si cal -- pe -- stan -- do
+  si cal -- pe -- stan -- do fio -- ri
+  er -- ra -- va_hor qua hor la
+  i suoi per -- du -- ti_a -- mo -- ri
+  i suoi per -- du -- ti_a -- mo -- ri
+  co -- si __ pian -- gen -- do va.
 }
 
 IbassoPrimo = {
@@ -90,24 +90,24 @@ IbassoPrimo = {
 }
 
 IbassoPrimoText = \lyricmode {
-  Non ha -- vea Fe -- bo~an -- co -- ra
-  rec -- ca -- to~al mon -- do~il dì
+  Non ha -- vea Fe -- bo_an -- co -- ra
+  rec -- ca -- to_al mon -- do_il dì
   ch'u -- na Don -- zel -- la fuo -- ra
-  del pro -- prio~al -- ber -- go~us -- cì
+  del pro -- prio_al -- ber -- go_us -- cì
 
   sul pal -- li -- det -- to vol -- to
-  scor -- ge -- a -- se~il suo do -- lor
+  scor -- ge -- a -- se_il suo do -- lor
   spes -- so gli ve -- nia sciol -- to
   un gran sos -- pir dal cor
 
   si cal -- pe -- stan -- do fio -- ri
-  er -- ra -- va~hor qua hor la
-  si cal -- pa -- stan -- do
-  si cal -- pa -- stan -- do fio -- ri
-  er -- ra -- va~hor qua hor la
-  i suoi per -- du -- ti~a -- mo -- ri
-  i suoi per -- du -- ti~a -- mo -- ri
-  co -- si pian -- gen -- di va.
+  er -- ra -- va_hor qua hor la
+  si cal -- pe -- stan -- do
+  si cal -- pe -- stan -- do fio -- ri
+  er -- ra -- va_hor qua hor la
+  i suoi per -- du -- ti_a -- mo -- ri
+  i suoi per -- du -- ti_a -- mo -- ri
+  co -- si pian -- gen -- do va.
 }
 
 %{
