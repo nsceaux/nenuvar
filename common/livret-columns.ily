@@ -123,29 +123,32 @@
              next))))
 
 #(define livret-verse-aux
-   (let ((gauge-string "Qu entends-je ? il va périr ! quelle fureur m")
+   (let ((gauge-string
+          "Qu’en chantant vos feux nous chantions d’autres flâmes ;")
          (gap #f))
-     (define (make-verse verse)
-       (markup #:hspace gap #:fontsize 1 verse))
-     (lambda (layout props verse is-short)
+     (lambda (layout props verse margin)
        (if (not gap)
            (let ((line-width (chain-assoc-get 'line-width props 0))
                  (gauge (interpret-markup
                          layout props
-                         (markup #:fontsize 1 gauge-string))))
+                         (markup #:fontsize 0 gauge-string))))
              (set! gap (/ (- line-width
                              (interval-length (ly:stencil-extent gauge X)))
                           2.0))))
        (interpret-markup
         layout props
-        (markup #:hspace (+ gap (if is-short 4 0))
+        (markup #:hspace (+ gap margin)
                 #:fontsize 0 verse)))))
 
+#(define-markup-command (livretVerse layout props metric args) (number? markup-list?)
+   (let ((margin (* 2 (- 12 (min 12 metric)))))
+     (livret-verse-aux layout props (make-line-markup args) margin)))
+
 #(define-markup-command (livretVer layout props args) (markup-list?)
-   (livret-verse-aux layout props (make-line-markup args) #f))
+   (livret-verse-aux layout props (make-line-markup args) 0))
 
 #(define-markup-command (livretVerC layout props args) (markup-list?)
-   (livret-verse-aux layout props (make-line-markup args) #t))
+   (livret-verse-aux layout props (make-line-markup args) 2))
 
 #(define-markup-command (livretRef layout props ref next)
      (symbol? markup?)
