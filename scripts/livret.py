@@ -120,9 +120,12 @@ class RawLibrettoReader():
         return libretto
 
 if __name__ == '__main__':
+    print("""\\tocItem "LIVRET"
+\\markuplist\\page-columns-title \\act LIVRET {""")
     for filename in sys.argv[1:]:
         reader = RawLibrettoReader()
         libretto = reader.read(filename)
         libretto.syllabify()
         for line in libretto.get_lines():
             print(line.get_lily_text())
+    print("}")

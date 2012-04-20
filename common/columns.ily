@@ -12,6 +12,13 @@
 %%%     ...lines of text...
 %%%   }
 %%%
+%%% Some "special" markup command may be used inside
+%%% \page-columns-title and \page-columns:
+%%%
+%%%   \column-break  forces a column break
+%%%   \page-break    forces a page break
+%%%
+%%%
 %%% The following properties may be overriden:
 %%%   column-number
 %%%      the number of column on each page
@@ -111,16 +118,16 @@ supposed not to be full)"
        (define (current-page-full?)
          (= (length current-page-columns) column-number))
 
-       (define (finish-column)
+       (define (finish-column force-finish-page)
          "To be called when the current column is full, or all the
-lines are added"
+          lines are added"
          (if current-column
              (begin
                (set! current-page-columns
                      (cons current-column current-page-columns))
-               (set! current-column #f)
-               (if (current-page-full?)
-                   (finish-page)))))
+               (set! current-column #f)))
+         (if (or force-finish-page (current-page-full?))
+             (finish-page)))
 
        (define (add-column column)
          "Add the column stencil to the current page"
@@ -152,12 +159,23 @@ lines are added"
            (set! pages (cons page pages))))
        ;; main loop starts here
        (for-each (lambda (line)
-                   (if (current-column-full? line)
-                       (begin
-                         (finish-column)))
-                   (add-line line))
+                   (let* ((expr (ly:stencil-expr line))
+                          (break-command
+                           (and (symbol? expr)
+                                (memq expr (list column-break-command
+                                                 page-break-command))
+                                expr)))
+                     (cond (break-command
+                            ;; a column or page break
+                            (finish-column
+                             (eqv? break-command page-break-command)))
+                           ((current-column-full? line)
+                            (finish-column #f)
+                            (add-line line))
+                           (else
+                            (add-line line)))))
                  line-stencils)
-       (finish-column)
+       (finish-column #t)
        (reverse! pages))))
 
 #(define-markup-list-command (page-columns layout props lines) (markup-list?)
@@ -170,3 +188,12 @@ lines are added"
    (interpret-markup-list
     layout props
     (make-page-columns-helper-markup-list #t title lines)))
+
+#(define-public column-break-command 'column-break)
+#(define-public page-break-command 'page-break)
+
+#(define-markup-command (column-break layout props) ()
+   (ly:make-stencil column-break-command (cons 0 0) (cons 0 0)))
+
+#(define-markup-command (page-break layout props) ()
+   (ly:make-stencil page-break-command (cons 0 0) (cons 0 0)))

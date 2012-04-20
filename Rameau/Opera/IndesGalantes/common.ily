@@ -51,9 +51,10 @@
 
 \include "italiano.ly"
 \include "common/common.ily"
+\include "common/columns.ily"
 \include "common/alterations.ily"
 \include "common/toc-columns.ily"
-\include "common/livret-columns.ily"
+\include "common/livret.ily"
 \setOpus "Rameau/Opera/IndesGalantes"
 \opusTitle "Les Indes Galantes"
 

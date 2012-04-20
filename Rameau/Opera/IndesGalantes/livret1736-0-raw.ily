@@ -1,7 +1,3 @@
-\tocItem "LIVRET"
-\markup\column {
-  \act { LIVRET}
-  \n-columns {
 \livretAct\line { PROLOGUE }
 \livretDescAtt\wordwrap-center {
   Le Theâtre représente les Jardins du Palais
@@ -18,7 +14,6 @@
 %# Les doux instans que vous donne l'Amour
 %# Vous sont plus chers encore.
 %#8 Vous, qui d'Hebé, &c.
-
 \livretScene\line { SCENE II }
 \livretDescAtt\wordwrap-center {
   \smallCaps Hebé, Troupe de Jeunesse Françoise, Espagnole,
@@ -104,6 +99,4 @@
   Climats des Indes.
 }
 \sep
-\vspace#17
-}
-}
+\column-break

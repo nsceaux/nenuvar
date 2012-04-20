@@ -1,5 +1,3 @@
-\markuplist\column-lines {
-  \n-columns {
 \livretAct\center-column {
   \line { PREMIERE ENTRÉE }
   \line { LES INCAS DU PEROU }
@@ -115,8 +113,6 @@
 %# Vous avez vû dans l'horreur de la guerre,
 %# Leur invicible bras disposer du tonnerre...
 
-  }
-  \n-columns {
 \livretScene\line { SCENE IV }
 \livretDescAtt\wordwrap-center {
   \smallCaps { Huascar-Inca, un Inca } son confident.
@@ -251,9 +247,6 @@
 %# Princesse, quelle erreur ! C'est le Ciel qu'elle outrage.
 %# Cet embrâsement dangereux
 %# Du Soleil n'est point l'ouvrage ;
-  }
-  \n-columns {
-    \column {
 \livretDidasP\line { Montrant \smallCaps Huascar. }
 %# Il est celui de sa rage.
 %# Un seul Rocher jetté dans ces Gouffres affreux,
@@ -310,6 +303,5 @@
   La Volcan vomit des rochers enflâmez qui écrasent le criminel
   \smallCaps Huascar.
 }
-}
-}
-}
+\sep
+\column-break
