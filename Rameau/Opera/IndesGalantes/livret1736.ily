@@ -1,7 +1,7 @@
 \tocItem "LIVRET"
 \markuplist\page-columns-title \act LIVRET {
 \livretAct\line { PROLOGUE }
-\livretDescAtt\wordwrap-center {
+\livretDescAtt\justify {
   Le Theâtre représente les Jardins du Palais
   \concat { d' \smallCaps Hebé. }
 }
@@ -66,7 +66,7 @@
     \concat { d' \smallCaps Hebé } à n'aimer que la gloire.
   }
 }
-\livretPers\line { BELLONNE, à la suite \concat { d' \smallCaps Hebé. } }
+\livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d' \smallCaps Hebé. } } }
 \livretVerse#12 { La Gloire vous appelle ; écoutez ses Trompettes, }
 \livretVerse#12 { Hâtez-vous, armez-vous & devenez Guerriers. }
 \livretVerse#8 { Quittez ces paisibles retraites, }
@@ -100,14 +100,14 @@
   & se dispersent loin de l'Europe dans les differents
   Climats des Indes.
 }
-\sep
+\livretFinAct\line { FIN DU PROLOGUE }
 \column-break
 \livretAct\center-column {
   \line { PREMIERE ENTRÉE }
   \line { LES INCAS DU PEROU }
 }
-\livretDescAtt\wordwrap-center {
-  Le Theátre représent un Desert du Perou,
+\livretDescAtt\justify {
+  Le Theátre représente un Desert du Perou,
   terminé par une Montagne aride.
   Le sommet en est couronné par la bouche d'un Volcan,
   formée de Rochers calcinez couverts de cendres.
@@ -166,7 +166,7 @@
 
 \livretScene\line { SCENE III }
 \livretDescAtt\wordwrap-center\smallCaps { Phani-Palla, Huascar-Inca. }
-\livretPers\line { HUASCAR, à part. }
+\livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 \livretVerse#12 { Elle est seule... parlons ; l’instant est favorable... }
 \livretVerse#12 { Mais je crains d’un Rival l’obstacle redoutable. }
 \livretVerse#12 { Parlons au nom des Dieux pour surprendre son cœur ; }
@@ -221,7 +221,7 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Huascar-Inca, un Inca } son confident.
 }
-\livretPers\line { HUASCAR, à part. }
+\livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 \livretVerse#12 { On vient, dissimulons mes transports à leurs yeux... }
 \livretDidasP\line { à l'Inca qu'il appelle. }
 \livretVerse#12 { Vous sçavez mon Projet. Allez ; qu’on m’obéisse... }
@@ -233,7 +233,7 @@
 \livretScene\line { SCENE V }
 \livretDescAtt\center-column {
   \line { FESTE DU SOLEIL }
-  \wordwrap-center {
+  \justify {
     \smallCaps { Huascar-Inca, Phani-Palla } ramenée par des Incas,
     \smallCaps { Pallas et Incas, } Sacrificateurs,
     \smallCaps { Peruviens, et Peruviennes. }
@@ -320,7 +320,7 @@
 }
 
 \livretScene\line { SCENE VI }
-\livretDescAtt\line\smallCaps { Phani-Palla, Huascar-Inca. }
+\livretDescAtt\wordwrap-center\smallCaps { Phani-Palla, Huascar-Inca. }
 \livretPers\wordwrap-center {
   HUASCAR, à \smallCaps PHANI qui traverse le Théatre en fuyant.
 }
@@ -338,7 +338,7 @@
   \smallCaps { Phani-Palla, Huascar-Inca, Dom-Carlos, }
   Officer Espagnol.
 }
-\livretPers\line { HUASCAR, l'arrêtant encore. }
+\livretPers\line { HUASCAR, \fontsize #-1 { l'arrêtant encore. } }
 \livretVerse#12 { Vous fuyez, quand les Dieux daignent vous appeller ! }
 \livretVerse#12 { Eh bien, Cruelle, eh bien ! vous allez me connoître, }
 \livretVerse#12 { Suivez l’Amour jaloux... }
@@ -407,6 +407,291 @@
   La Volcan vomit des rochers enflâmez qui écrasent le criminel
   \smallCaps Huascar.
 }
-\sep
+\livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
 \column-break
+\livretAct\center-column {
+  \line { DEUXIÉME ENTRÉE }
+  \line { LE TURC GENEREUX }
+}
+\livretDescAtt\wordwrap-center {
+  Le Théatre représente les Jardins \concat { d' \smallCaps Osman }
+  Bacha, terminez par la Mer.
+}
+\livretScene\line { SCENE PREMIERE }
+\livretDescAtt\wordwrap-center\smallCaps { Emilie, Osman. }
+\livretPers EMILIE
+\livretVerse#12 { C’est Osman qui me suit, le nuy cachons plus rien ; }
+\livretVerse#12 { Pour arrêter son feu, découvrons-luy le mien. }
+\livretPers\line { OSMAN, \fontsize #-1 { à \smallCaps Emilie } }
+\livretVerse#12 { Cherchez-vous toûjours & l’ombre & le silence ? }
+\livretPers EMILIE
+\livretVerse#12 { Je voudrois de mes maux cacher la violence. }
+\livretPers OSMAN
+\livretVerse#12 { Ciel ! qu’entens- ! }
+\livretPers EMILIE
+\livretVerse#12 { \transparent { Ciel ! qu’entens- ! } Apprenez mon destin rigoureux. }
+\livretVerse#10 { Dans le séjour témoin de ma naissance }
+\livretVerse#12 { J’épousois un Amant digne de ma constance ; }
+\livretVerse#12 { Sur un bord solitaire on commençoit les Jeux, }
+\livretVerse#8 { Lorsque des Ravisseurs perfides }
+\livretVerse#8 { Paroissent le fer à la main ; }
+\livretVerse#12 { La terreur un instant ferme mes yeux timides, }
+\livretVerse#12 { Ils ne s’ouvrent qu’aux cris d’un Corsaire inhumain, }
+\livretVerse#8 { Bien-tôt les Vents & le Ciel même }
+\livretVerse#12 { Complices de son crime, éloignent ses Vaisseaux, }
+\livretVerse#10 { Et je me vois captive sur les eaux, }
+\livretVerse#12 { Près de ce que j’abhore, & loin de ce que j’aime. }
+\livretPers OSMAN
+\livretVerse#12 { Qu’en peignant vos malheurs vous redoublez mes maux ! }
+\livretVerse#12 { Dissipez vos ennuis sur cet heureux Rivage. }
+\livretPers EMILIE
+\livretVerse#12 { J’y subis, sous vos loix, un second esclavage. }
+\livretPers OSMAN
+\livretVerse#12 { Me reprocherez-vous de gêner vos desirs ? }
+\livretVerse#12 { L’unique loy qu’icy vous prescrit ma tendresse, }
+\livretVerse#7 { C’est de permettre aux plaisirs }
+\livretVerse#7 { De vous y suivre sans cesse ; }
+\livretVerse#12 { Répondez à mes vœux ; couronnez mes soupirs. }
+\livretPers EMILIE
+\livretVerse#12 { Contre mes Ravisseurs, ardent à me défendre, }
+\livretVerse#8 { Mon Amant a risqué ses jours ; }
+\livretVerse#8 { Lorsque pour prix de son secours }
+\livretVerse#12 { Peut-être un coup fatal l’a forcé de descendre }
+\livretVerse#8 { Dans l’affreuse nuit du tombeau, }
+\livretVerse#8 { Mon cœurs ingrat, d’un feu nouveau }
+\livretVerse#6 { Se laisseroit surprendre ! }
+\livretPers OSMAN
+\livretVerse#8 { Ah ! que me faites vous entendre ? }
+\livretVerse#8 { C’est trop m’outrager par vos pleurs ! }
+\livretVerse#12 { Cessez d’entretenir d’inutiles douleurs. }
+\livretVerse#7 { Il faut que l’Amour s’envole }
+\livretVerse#7 { Dès qu’il voit partir l’espoir. }
+\livretVerse#8 { A l’ennuy la constance immole }
+\livretVerse#8 { Le cœur qui la croit un devoir. }
+\livretVerse#7 { Il faut que l’Amour s’envole }
+\livretVerse#7 { Dès qu’il voit partir l’espoir. }
+\livretVerse#8 { Je vous quitte, belle Emilie, }
+\livretVerse#8 { Songez que le nœud qui vous lie }
+\livretVerse#12 { Vous cause chaque jour des tourmens superflus ; }
+\livretVerse#12 { Vous aimez un Objet que vous ne verrez plus. }
+
+\livretScene\line { SCENE II }
+\livretPers EMILIE
+\livretVerse#8 { Que je ne verray plus !... Barbare }
+\livretVerse#8 { Que me présage ce discours ? }
+\livretVerse#12 { Ah ! si de mon Amant le trépas me sépare, }
+\livretVerse#12 { Si mes yeux l’ont perdu, mon cœur le voit toûjours. }
+\livretDidasP\justify {
+  Le Ciel se couvre de nuages sombres, les vents
+  sifflent, les flots s'élevent.
+}
+\livretVerse#12 { La nuit couvre les Cieux ! quel funeste ravage ! }
+\livretDidasP\justify {
+  L'obscurité & la tempeste redoublent.
+}
+\livretVerse#12 { Vaste Empire des Mers où triomphe l’horreur, }
+\livretVerse#8 { Vous êtes la terrible image }
+\livretVerse#6 { Du trouble de mon cœur. }
+\livretVerse#12 { Des vents impetueux vous éprouvez la rage, }
+\livretVerse#12 { D’un juste desespoir j’éprouve la fureur. }
+\livretVerse#12 { Vaste Empire des Mers où triomphe l’horreur, }
+\livretVerse#8 { Vous êtes la terrible image }
+\livretVerse#6 { Du trouble de mon cœur. }
+\livretDidasP\justify {
+  La Tempête continue avec la même violence.
+}
+\livretPers\line { CHŒUR de Matelots qu'on ne voit point. }
+\livretVerse#12 { Ciel ! de plus d’une mort nous redoutons les coups ! }
+\livretVerse#12 { Serons-nous embrasez par les feux du Tonnerre ? }
+\livretVerse#8 { Sous les Ondes perirons-nous }
+\livretVerse#6 { A l’Aspect de la Terre ! }
+\livretPers EMILIE
+\livretVerse#8 { Que ces cris agitent mes sens ! }
+\livretVerse#12 { Moy-même je me crois victime de l’orage. }
+\livretDidasP\justify {
+  La Tempête diminue & la clarté revient.
+}
+\livretVerse#12 { Mais le Ciel est touché de leurs perils pressants, }
+\livretVerse#12 { Le Ciel, le juste Ciel calme l’onde & les vents ; }
+\livretVerse#12 { Je souffrois dans le port les tourments du naufrage. }
+\livretPers\wordwrap-center {
+  CHŒUR, qu'on ne voit point, de Matelots de l'Escadre de
+  \smallCaps Valere, échapez du naufrage & pris par les Turcs.
+}
+\livretVerse#12 { Que nous sert d’échaper à la fureur des Mers ? }
+\livretVerse#12 { En évitant la mort nous tombons dans les fers. }
+\livretPers EMILIE
+\livretVerse#12 { D’infortunez Captifs vont partager mes peine }
+\livretVerse#8 { Dans ce redoutable séjour... }
+\livretVerse#8 { S’il sont Amants, ah ! que l’Amour }
+\livretVerse#12 { Va gemir sur ces bords dans de barbares chaînes ! }
+
+\livretScene\line { SCENE III }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Emilie, Valere } en Esclave.
+}
+\livretPers\line { EMILIE, \fontsize #-1 { à part. } }
+\livretVerse#12 { Un de ces malheureux approche en soupirant !... }
+\livretVerse#12 { Helas ! son infortune est semblable à la mienne ! }
+\livretVerse#8 { Quel transport confus me surprend ? }
+\livretVerse#12 { Parlons-luy. Ma Patrie est peut-être la sienne. }
+\livretDidasP\line { \hspace #10 L'abordant. \hspace #12 Le reconnoissant. }
+\livretVerse#12 { Etranger, je vous plains... Ah ! Valere ! c’est vous }
+\livretPers\line { VALERE \fontsize #-1 { la reconnoissant. } }
+\livretVerse#6 { C’est vous ! belle Emilie ! }
+\livretPers ENSEMBLE
+\livretPersVerse\smallCaps Emilie.
+\livretVerse#6 { Ah ! Valere ! c’est vous ! }
+\livretPersVerse\smallCaps Valere.
+\livretVerse#6 { C’est vous ! belle Emilie ! }
+\livretVerse#10 { Je vous revois ! que de malheurs j’oublie ! }
+\livretVerse#11 { De mon cruel destin je ne sens plus les coups. }
+\livretPers EMILIE
+\livretVerse#12 { Par quel sort aujourd’huy jetté sur cette Rive... }
+\livretPers VALERE
+\livretVerse#12 { Depuis l’instant fatal qui nous a separez }
+\livretVerse#12 { Dans cent climats divers mes soupirs égarez }
+\livretVerse#12 { Vous cherchent nuit & jour... je vous trouve captive. }
+\livretPers EMILIE
+\livretVerse#12 { Et ce n’est pas encor mon plus affreux malheur. }
+\livretPers VALERE
+\livretVerse#12 { O Ciel ! achevez. }
+\livretPers EMILIE
+\livretVerse#12 { \transparent { O Ciel ! achevez. } Non, suspendez ma douleur : }
+\livretVerse#10 { De vôtre sort daignez enfin m’instruire. }
+\livretPers VALERE
+\livretVerse#8 { Un Maître que je n’ay point vû, }
+\livretVerse#8 { Dans ce Palais m’a fait conduire... }
+\livretPers EMILIE
+\livretVerse#12 { Vôtre Maître est le mien. }
+\livretPers VALERE
+\livretVerse#12 { \transparent { Vôtre Maître est le mien. } O bonheur imprévû ! }
+\livretPers EMILIE
+\livretVerse#12 { Valere, quelle erreur peut ainsi vous séduire ? }
+\livretVerse#8 { Mon Tyran m’aime... }
+\livretPers VALERE
+\livretVerse#8 { \transparent { Mon Tyran m’aime... } O desespoir ! }
+\livretVerse#12 { Non, vous ne sortirez jamais de son pouvoir ! }
+\livretVerse#8 { Quoy ! Valere ne vous retrouve }
+\livretVerse#8 { Que pour vous perdre sans retour ? }
+\livretVerse#12 { Nôtre Tyran vous aime ! }
+\livretPers EMILIE
+\livretVerse#12 { \transparent { Nôtre Tyran vous aime ! } Et ma douleur le prouve, }
+\livretVerse#12 { Je ne demandois pas ce triomphe à l’Amour. }
+\livretPers VALERE
+\livretVerse#12 { Ah ! sçait-on vous aimer dans ce cruel séjour ! }
+\livretVerse#8 { Sur ces bords une ame enflâmée }
+\livretVerse#8 { Partage ses vœux les plus doux ; }
+\livretVerse#8 { Et vous meritez d’être aimée }
+\livretVerse#8 { Par un cœur qui n’aime que vous. }
+
+\livretScene\line { SCENE IV }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Emilie, Valere } en Esclave, \smallCaps Osman Bacha.
+}
+\livretPers\line { EMILIE, \fontsize #-1 { à \smallCaps Valere. } }
+\livretVerse#12 { Il vous entend, hélas ! comment fuir sa colere ? }
+\livretPers\line { OSMAN, \fontsize #-1 { à \smallCaps Emilie. } }
+\livretVerse#10 { Ne craignez rien ; je dois trop à Valere ; }
+\livretDidasP\line { Montrant \smallCaps Valere. }
+\livretVerse#12 { Osman fût son Esclave, & s’efforce aujourd’huy }
+\livretVerse#8 { D’imiter sa magnificence... }
+\livretVerse#12 { Dans ce noble sentier, que je suis loin de lui ! }
+\livretVerse#10 { Il m’a tiré des fers sans me connaître... }
+\livretPers\line { VALERE, \fontsize #-1 { l'embrassant. } }
+\livretVerse#12 { Mon cher Osman, c’est vous ! Osman étoit mon Maître. }
+\livretPers OSMAN
+\livretVerse#12 { Je vous ay reconnu sans m’offrir à vos yeux ; }
+\livretVerse#12 { J’ay fait agir pour vous mon zele & ma puissance. }
+\livretDidasP\justify {
+  Les Vaisseaux de \smallCaps Valere, avancent & paroissent chargez des
+  presens du Bacha, portez par des Esclaves Africains.
+}
+\livretVerse#12 { Vos Vaisseaux sont rentrez sous vôtre obéissance. }
+\livretPers\line { VALERE, \fontsize #-1 { surpis } }
+\livretVerse#12 { Que vois-je ? ils sont chargez de vos dons précieux ! }
+\livretVerse#10 { Que de bienfaits ! }
+\livretPers OSMAN
+\livretVerse#10 { \transparent { Que de bienfaits ! } Ne comptez qu’Emilie. }
+\livretPers VALERE
+\livretVerse#12 { O Triomphe incroyable ! ô sublime Vertu ! }
+\livretPers\line { EMILIE, \fontsize #-1 { à \smallCaps Osman. } }
+\livretVerse#8 { Ne craignez pas que je l’oublie. }
+\livretPers OSMAN
+\livretVerse#12 { Estimez moins un cœur qui s’est trop combatu. }
+\livretDidasP\justify {
+  On entend les Tambourins des Matelots de \smallCaps Valere.
+}
+\livretDidasP\line { Avec douleur. }
+\livretVerse#12 { J’entens vos Matelots... allez sur vos Rivages, }
+\livretVerse#12 { Mes ordres sont donnez... allez, vivez contents... }
+\livretVerse#12 { Souvenez-vous d’Osman... }
+\livretPers\line { VALERE, \fontsize #-1 { l'arrêtant. } }
+\livretVerse#12 { \transparent { Souvenez-vous d’Osman... } Recevez nos hommages. }
+\livretPers\line { EMILIE, \fontsize #-1 { à \smallCaps Osman. } }
+\livretVerse#12 { Ecoûtez... }
+\livretPers OSMAN
+\livretDidasP\line { \hspace #15 Hésitant, \hspace #2 s'en allant. }
+\livretVerse#12 { \transparent { Ecoûtez... } Quoy !.. mais, non, c’est souffrir trop long-temps, }
+\livretVerse#12 { C’est trop à vos regards offrir mon trouble extrême... }
+\livretVerse#12 { Je vous dois mon absence, & la dois à moi-même. }
+
+\livretScene\line { SCENE V }
+\livretDescAtt\wordwrap-center\smallCaps { Valere, Emilie. }
+\livretPers VALERE
+\livretVerse#10 { Fut-il jamais un cœur plus genereux ? }
+\livretVerse#12 { Digne de nôtre eloge, il ne veut pas l’entendre... }
+\livretVerse#12 { Au plus parfait bonheur il a droit de prétendre, }
+\livretVerse#8 { Si la vertu peut rendre heureux. }
+
+\livretScene\line { SCENE VI }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Emilie, Valere, Provençaux et Provençales }
+  de leur Escadre, Esclaves Africains \concat { d' \smallCaps Osman. }
+}
+\livretPers\line { EMILIE ET VALERE }
+\livretVerse#12 { Volez, Zephirs, volez jeunes Amants de Flore ; }
+\livretVerse#12 { Si vous nous conduisez, tous nos vœux sont remplis. }
+\livretVerse#12 { Rivages fortunez de l’Empire des Lys, }
+\livretVerse#8 { Ah ! nous vous reverons encore. }
+\livretPers CHŒUR
+\livretVerse#12 { Volez, Zephirs, volez jeunes Amants de Flore ; }
+\livretVerse#12 { Si vous nous conduisez, tous nos vœux sont remplis. }
+\livretVerse#12 { Rivages fortunez de l’Empire des Lys, }
+\livretVerse#8 { Ah ! nous vous reverons encore. }
+\livretDesc\line { Danse des \smallCaps Matelots. }
+\livretPers EMILIE
+\livretVerse#8 { Fuyez, fuyez Vents orageux, }
+\livretVerse#7 { Calmez les Flots amoureux, }
+\livretVerse#3 { Ris & Jeux. }
+\livretVerse#8 { Charmant Plaisir, fais nôtre sort }
+\livretVerse#7 { Dans la route comme au Port. }
+\livretVerse#6 { Si quittant le Rivage }
+\livretVerse#6 { La raison fait naufrage }
+\livretVerse#6 { Thetis dans ce beau jour, }
+\livretVerse#6 { N’en sert que mieux l’Amour. }
+\livretVerse#8 { Fuyez, fuyez Vents orageux, }
+\livretVerse#7 { Calmez les Flots amoureux, }
+\livretVerse#3 { Ris & Jeux. }
+\livretVerse#8 { Charmant Plaisir, fais nôtre sort }
+\livretVerse#7 { Dans la route comme au Port. }
+\livretDesc\justify { On danse. }
+\livretPers EMILIE
+\livretVerse#12 { Regnez Amours, Regnez, ne craignez pas les flots ; }
+\livretVerse#12 { Vous trouverez sur l’Onde un aussi doux repos }
+\livretVerse#8 { Que sous les myrthes de Cythere ; }
+\livretVerse#12 { Regnez Amours, Regnez, ne craignez pas les flots ; }
+\livretVerse#12 { Ils ont donné le jour à vôtre aimable Mere. }
+\livretDesc\justify { On danse. }
+\livretPers EMILIE
+\livretVerse#9 { Partez, on languit sur le Rivage, }
+\livretVerse#7 { Tendres Cœurs, embarquez-vous : }
+\livretVerse#9 { Voguez, bravez les vents & l’orage, }
+\livretVerse#7 { Que l’espoir vous guide-tous. }
+\livretVerse#9 { Partez, on languit sur le Rivage, }
+\livretVerse#7 { Tendres Cœurs, embarquez-vous : }
+\livretDesc\justify {
+  LE CHŒUR avec \smallCaps Emilie, chante cette Parodie en Dialogue.
+}
+\livretFinAct\line { FIN DE LA DEUXIÉME ENTRÉE }
 }

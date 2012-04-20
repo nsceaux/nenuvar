@@ -49,10 +49,9 @@ class VerseLastPart(VersePart):
         VersePart.__init__(self, text)
 
     def get_metric(self):
-        metric = 0
+        metric = Verse.get_metric(self)
         for part in self.get_previous_parts():
-            metric += len(part.get_syllables())
-        metric += Verse.get_metric(self)
+            metric += Verse.get_metric(part)
         return metric
 
 class LilyLine():

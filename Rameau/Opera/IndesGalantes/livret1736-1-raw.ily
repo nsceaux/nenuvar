@@ -2,8 +2,8 @@
   \line { PREMIERE ENTRÉE }
   \line { LES INCAS DU PEROU }
 }
-\livretDescAtt\wordwrap-center {
-  Le Theátre représent un Desert du Perou,
+\livretDescAtt\justify {
+  Le Theátre représente un Desert du Perou,
   terminé par une Montagne aride.
   Le sommet en est couronné par la bouche d'un Volcan,
   formée de Rochers calcinez couverts de cendres.
@@ -62,7 +62,7 @@
 
 \livretScene\line { SCENE III }
 \livretDescAtt\wordwrap-center\smallCaps { Phani-Palla, Huascar-Inca. }
-\livretPers\line { HUASCAR, à part. }
+\livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 %# Elle est seule... parlons ; l'instant est favorable...
 %# Mais je crains d'un Rival l'obstacle redoutable.
 %# Parlons au nom des Dieux pour surprendre son cœur ;
@@ -117,7 +117,7 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Huascar-Inca, un Inca } son confident.
 }
-\livretPers\line { HUASCAR, à part. }
+\livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 %# On vient, dissimulons mes transports à leurs yeux...
 \livretDidasP\line { à l'Inca qu'il appelle. }
 %# Vous sçavez mon Projet. Allez ; qu'on m'obé=isse...
@@ -129,7 +129,7 @@
 \livretScene\line { SCENE V }
 \livretDescAtt\center-column {
   \line { FESTE DU SOLEIL }
-  \wordwrap-center {
+  \justify {
     \smallCaps { Huascar-Inca, Phani-Palla } ramenée par des Incas,
     \smallCaps { Pallas et Incas, } Sacrificateurs,
     \smallCaps { Peruviens, et Peruviennes. }
@@ -216,7 +216,7 @@
 }
 
 \livretScene\line { SCENE VI }
-\livretDescAtt\line\smallCaps { Phani-Palla, Huascar-Inca. }
+\livretDescAtt\wordwrap-center\smallCaps { Phani-Palla, Huascar-Inca. }
 \livretPers\wordwrap-center {
   HUASCAR, à \smallCaps PHANI qui traverse le Théatre en fuyant.
 }
@@ -234,7 +234,7 @@
   \smallCaps { Phani-Palla, Huascar-Inca, Dom-Carlos, }
   Officer Espagnol.
 }
-\livretPers\line { HUASCAR, l'arrêtant encore. }
+\livretPers\line { HUASCAR, \fontsize #-1 { l'arrêtant encore. } }
 %# Vous fuy=ez, quand les Dieux daignent vous appeller !
 %# Eh bien, Cru=elle, eh bien ! vous allez me connoître,
 %#- Suivez l'Amour jaloux...
@@ -303,5 +303,5 @@
   La Volcan vomit des rochers enflâmez qui écrasent le criminel
   \smallCaps Huascar.
 }
-\sep
+\livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
 \column-break

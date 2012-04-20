@@ -1,5 +1,5 @@
 \livretAct\line { PROLOGUE }
-\livretDescAtt\wordwrap-center {
+\livretDescAtt\justify {
   Le Theâtre représente les Jardins du Palais
   \concat { d' \smallCaps Hebé. }
 }
@@ -64,7 +64,7 @@
     \concat { d' \smallCaps Hebé } à n'aimer que la gloire.
   }
 }
-\livretPers\line { BELLONNE, à la suite \concat { d' \smallCaps Hebé. } }
+\livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d' \smallCaps Hebé. } } }
 %# La Gloire vous appelle ; écoutez ses Trompettes,
 %# Hâtez-vous, armez-vous & devenez Guerriers.
 %# Quittez ces paisibles retraites,
@@ -98,5 +98,5 @@
   & se dispersent loin de l'Europe dans les differents
   Climats des Indes.
 }
-\sep
+\livretFinAct\line { FIN DU PROLOGUE }
 \column-break

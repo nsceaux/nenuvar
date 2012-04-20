@@ -23,8 +23,7 @@
 #(define-markup-command (livretDesc layout props text) (markup?)
    (interpret-markup
     layout props
-    (markup #:force-line-width-ratio 1/20 #:null
-            #:fontsize 1 #:line-width-ratio 9/10 #:pad-around 2 text)))
+    (markup #:fontsize 1 #:pad-around 2 text)))
 
 #(define-markup-command (livretDescPage layout props text) (markup?)
    #:properties ((line-width)
@@ -41,31 +40,42 @@
    (interpret-markup
     layout props
     (markup #:column
-            (#:line (#:force-line-width-ratio 1/20 #:null
-                     #:fontsize 1 #:line-width-ratio 9/10 #:pad-around 2 text)
+            (#:line (#:fontsize 1 #:pad-around 2 text)
              next))))
 
 #(define-markup-command (livretDidas layout props text) (markup?)
    (interpret-markup
     layout props
-    (markup #:force-line-width-ratio 1/20 #:null
-            #:fontsize 1 #:force-line-width-ratio 9/10
-            #:italic text)))
+    (markup #:fontsize 1 #:italic text)))
 
 #(define-markup-command (livretDidasP layout props text) (markup?)
    (interpret-markup
     layout props
-    (markup #:force-line-width-ratio 1/20 #:null
-            #:fontsize 0 #:force-line-width-ratio 9/10
-            #:italic text)))
+    (markup #:fontsize 0 #:italic text)))
 
 #(define-markup-command (livretPers layout props text next) (markup? markup?)
+   #:properties ((line-width)
+                 (gap 12)
+                 (word-space 0))
    (interpret-markup
     layout props
     (markup #:column
-            (#:fill-line (#:fontsize 1 #:line-width-ratio 7/10
-                                     #:pad-around 2 text)
+            (#:fill-line (#:fontsize 1 #:pad-around 2
+                          #:override `(line-width . ,(- line-width
+                                                        gap word-space 2))
+                                     text)
              next))))
+
+#(define-markup-command (livretPersVerse layout props pers verse next)
+     (markup? markup? markup?)
+   (let* ((pers-stencil (interpret-markup
+                         layout props
+                         (markup #:fontsize 0 #:italic pers)))
+          (verse-stencil (interpret-markup layout props verse))
+          (line-stencil (ly:stencil-add pers-stencil verse-stencil)))
+     (interpret-markup layout props
+                       (markup #:column (#:stencil line-stencil
+                                         next)))))
 
 #(define livret-verse-aux
    (let ((gauge-string
