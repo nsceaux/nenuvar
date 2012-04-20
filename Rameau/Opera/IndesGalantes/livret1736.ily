@@ -420,16 +420,16 @@
 \livretScene\line { SCENE PREMIERE }
 \livretDescAtt\wordwrap-center\smallCaps { Emilie, Osman. }
 \livretPers EMILIE
-\livretVerse#12 { C’est Osman qui me suit, le nuy cachons plus rien ; }
+\livretVerse#12 { C’est Osman qui me suit, le luy cachons plus rien ; }
 \livretVerse#12 { Pour arrêter son feu, découvrons-luy le mien. }
 \livretPers\line { OSMAN, \fontsize #-1 { à \smallCaps Emilie } }
 \livretVerse#12 { Cherchez-vous toûjours & l’ombre & le silence ? }
 \livretPers EMILIE
 \livretVerse#12 { Je voudrois de mes maux cacher la violence. }
 \livretPers OSMAN
-\livretVerse#12 { Ciel ! qu’entens- ! }
+\livretVerse#12 { Ciel ! qu’entens-je ! }
 \livretPers EMILIE
-\livretVerse#12 { \transparent { Ciel ! qu’entens- ! } Apprenez mon destin rigoureux. }
+\livretVerse#12 { \transparent { Ciel ! qu’entens-je ! } Apprenez mon destin rigoureux. }
 \livretVerse#10 { Dans le séjour témoin de ma naissance }
 \livretVerse#12 { J’épousois un Amant digne de ma constance ; }
 \livretVerse#12 { Sur un bord solitaire on commençoit les Jeux, }
@@ -694,4 +694,254 @@
   LE CHŒUR avec \smallCaps Emilie, chante cette Parodie en Dialogue.
 }
 \livretFinAct\line { FIN DE LA DEUXIÉME ENTRÉE }
+\column-break
+\livretAct\center-column {
+  \line { TROISIÉME ENTRÉE }
+  \line { LES FLEURS }
+  \line\smaller { FESTE PERSANE }
+}
+\livretDescAtt\wordwrap-center {
+  Le Théatre représente les Jardins de \smaller Tacmas.
+}
+\livretScene\line { SCENE PREMIERE }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Roxane, Fatime } en Esclave Polonois.
+}
+\livretPers\line { ROXANE, \smaller la considerant. }
+\livretVerse#12 { Vous offrez à nos yeux un Esclave charmant ! }
+\livretVerse#8 { Mais, ne craignez-vous point Fatime, }
+\livretVerse#6 { Qu’on ne vous fasse un crime }
+\livretVerse#6 { De ce déguisement ? }
+\livretPers FATIME
+\livretVerse#12 { La Fête qui bien-tôt doit être célébrée, }
+\livretVerse#8 { De nos Jardins permet l’entrée ; }
+\livretVerse#12 { Pour me cacher ainsi, j’ay saisi ce moment. }
+\livretVerse#10 { J’aime Tacmas, & je le crois volage ; }
+\livretVerse#12 { Je ne puis resister à mes transports jaloux... }
+\livretVerse#8 { Je viens chercher sous cet ombrage, }
+\livretVerse#12 { Les funestes Attraits qui causent mon couroux. }
+\livretVerse#12 { Je soupçonne Atalide... }
+\livretPers ROXANE
+\livretVerse#12 { \transparent { Je soupçonne Atalide... } Atalide est aimable ? }
+\livretPers FATIME
+\livretVerse#6 { Cet Objet redoutable }
+\livretVerse#12 { A mes regards encor ne s’est pas presenté ; }
+\livretVerse#12 { Et peut-être ma crainte ajoûte à sa Beauté ! }
+\livretVerse#12 { Dans ce jour où des Fleurs on prépare la Fête, }
+\livretVerse#12 { J’espère la trouver sous ces sombres Ormeaux ; }
+\livretVerse#12 { Et me livrant au soin qui dans ce bois m’arreste... }
+\livretVerse#12 { Hélas ! je vais guerir ou redoubler mes maux ! }
+\livretPers ROXANE
+\livretVerse#10 { Ah ! vôtre Amant peut-il être infidelle ? }
+\livretVerse#12 { Pour le croire constant, il suffit de vous voir. }
+\livretVerse#12 { Un cœur où vous regnez, a-t-il donc le pouvoir }
+\livretVerse#8 { De prendre une chaîne nouvelle ? }
+\livretVerse#10 { Ah ! vôtre Amant peut-il être infidelle ? }
+\livretPers FATIME
+\livretVerse#12 { L’Hyver dans ces Jardins n’ose outrager les Fleurs ; }
+\livretVerse#8 { Sous cette immortelle verdure }
+\livretVerse#12 { Il n’ose des ruisseaux suspendre le murmure, }
+\livretVerse#12 { Et jamais, de l’Aurore il n’y glace les pleurs ; }
+\livretVerse#12 { Sans cesse dans nos Prez, Flore arreste Zephire, }
+\livretVerse#12 { Et jamais, l’Aquilon ne nous ôte un beau jour ; }
+\livretVerse#8 { Tout rit dans ce charmant séjour : }
+\livretVerse#8 { Faut-il que seule j’y soupire ? }
+\livretVerse#12 { Je brûle d’éclaircir le sort de mon amour... }
+
+\livretScene\line { SCENE II }
+\livretDescAtt\wordwrap-center {
+  \smallCaps Fatime en Esclave Polonois,
+  \smallCaps { Roxane, Atalide. }
+}
+\livretPers FATIME
+\livretVerse#12 { On vient. }
+\livretPers\line { ROXANE, \smaller { se retirant. } }
+\livretVerse#12 { \transparent { On vient. } C’est Atalide. Evitons sa présence. }
+\livretPers\wordwrap-center {
+  ATALIDE, \smaller { à part, examinant \smaller Fatime. }
+}
+\livretVerse#12 { Cet Esclave est nouveau... risquons ma confidence. }
+\livretVerse#12 { Mon foible cœur est las d’enfermer son secret ; }
+\livretVerse#12 { Parlons, quand je devrois trouvez un indiscret, }
+\livretVerse#12 { Je ne puis plus garder un funeste silence. }
+\livretPers\wordwrap-center {
+  FATIME, \smaller { à part, examinant \smaller Atalide. }
+}
+\livretVerse#12 { Plus je vois ma Rivale, & plus je sens d’effroy, }
+\livretVerse#12 { Ses charmes, de Tacmas me prouvent l’inconstance. }
+\livretPers\line { ATALIDE, \smaller { à \smaller Fatime. } }
+\livretVerse#8 { Aimable Esclave, apprenez-moy }
+\livretVerse#12 { Si vous suivez Tacmas... }
+\livretPers FATIME
+\livretVerse#12 { \transparent { Si vous suivez Tacmas... } Je vis sous sa puissance, }
+\livretVerse#12 { Je l’ay vû fort long-temps se fier à ma foy. }
+\livretPers ATALIDE
+\livretVerse#7 { Vous possedez sa confiance ? }
+\livretVerse#12 { Que vous êtes heureux de pouvoir chaque jour }
+\livretVerse#6 { Luy marquer vôtre zele ! }
+\livretPers FATIME
+\livretVerse#12 { Vous l’aimez ! vos soupirs trahissent vôtre amour... }
+\livretPers ATALIDE
+\livretVerse#12 { Ouy ; Tacmas est l’objet de mon ardeur fidelle... }
+\livretPers\line { FATIME, \smaller saisie. }
+\livretVerse#12 { Vous l’aimez... }
+\livretPers ATALIDE
+\livretVerse#12 { \transparent { Vous l’aimez... } Je l’adore & mon cœur enflâmé }
+\livretVerse#6 { N’a jamais tant aimé ! }
+\livretVerse#8 { La chaîne qui m’engage est faite }
+\livretVerse#8 { Pour n’en briser jamais les nœuds. }
+\livretVerse#8 { Ma tendresse est aussi parfaite }
+\livretVerse#8 { Que le cher Objet de mes vœux. }
+\livretVerse#8 { La chaîne qui m’engage est faite }
+\livretVerse#8 { Pour n’en briser jamais les nœuds. }
+\livretPers\line { FATIME, \smaller { à part. } }
+\livretVerse#12 { Elle aime trop, hélas ! pour n’être point aimée... }
+\livretDidasP\line { Vivement à \smallCaps Atalide. }
+\livretVerse#12 { Ah ! c’est d’un Inconstant que vous êtes charmée ! }
+\livretVerse#10 { Un Inconstant devroit-il être heureux ? }
+\livretVerse#8 { C’est un crime que sa victoire ? }
+\livretVerse#8 { Plus il trahit de tendres feux, }
+\livretVerse#8 { Plus il se croit comblé de gloire. }
+\livretVerse#10 { Un Inconstant devroit-il être heureux ? }
+\livretVerse#8 { C’est un crime que sa victoire ? }
+\livretPers ATALIDE
+\livretVerse#8 { Un Inconstant ! que dites-vous ? }
+\livretVerse#8 { Le Prince n’aime que Fatime... }
+\livretVerse#12 { Ses discours, ses soupirs, ses regards, tout l’exprime : }
+\livretVerse#8 { Coryez-en mes transports jaloux... }
+\livretPers\line { FATIME, \smaller vivement. }
+\livretVerse#12 { Tacmas n’est point volage ! O Ciel ! est-il possible ! }
+\livretPers\line { ATALIDE, \smaller surprise. }
+\livretVerse#12 { J’esperois que mes maux vous trouveroient sensible, }
+\livretVerse#12 { Je comptois sur vos soins pour toucher mon Amant, }
+\livretVerse#12 { Et vous semblez jouir de mon cruel tourment ! }
+
+\livretScene\line { SCENE III }
+\livretDescAtt\wordwrap-center {
+  \smallCaps Fatime, en Esclave Polonois,
+  \smallCaps { Atalide, Tacmas. }
+}
+\livretPers ATALIDE
+\livretVerse#12 { Tacmas approche. Amour, c’est toy seul que j’implore, }
+\livretVerse#12 { Tu dois servir mon cœur de même qu’il t’adore. }
+\livretPers\line { TACMAS, \smaller { examinant \smallCaps FATIME. } }
+\livretVerse#12 { Un Esclave inconnu dans ces lieux ose entrer ! }
+\livretVerse#12 { Quoy ! Fatime, c’est vous ! }
+\livretPers\line { ATALIDE, \smaller { à part. } }
+\livretVerse#12 { \transparent { Quoy ! Fatime, c’est vous ! } Ciel ! c’est à ma Rivale, }
+\livretVerse#8 { Que je suis venu declarer }
+\livretVerse#12 { Son triomphe éclatant, & ma peine fatale... }
+
+\livretScene\line { SCENE IV }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Tacmas, Fatime, } en Esclave Polonois,
+}
+\livretPers TACMAS
+\livretVerse#12 { Fatime, expliquez-moy vôtre déguisement. }
+\livretPers FATIME
+\livretVerse#12 { Au repos de mon cœur il étoit necessaire. }
+\livretVerse#8 { De ce cœur fidelle & sincere, }
+\livretVerse#8 { Il vient de calmer le tourment... }
+\livretVerse#8 { Je craignois vôtre changement. }
+\livretPers TACMAS
+\livretVerse#8 { Eh quoy ! trop injuste Fatime, }
+\livretVerse#8 { Vous m’avez soupçonné d’un crime, }
+\livretVerse#12 { Vous vous êtes livrée à des soupçons jaloux ! }
+\livretVerse#12 { Pour accuser mes feux, quelle preuve avez-vous ? }
+\livretPers FATIME
+\livretVerse#8 { La jalousie est-elle sage ? }
+\livretVerse#12 { L’aimable Aurore, en vain se leve sans nuage, }
+\livretVerse#8 { Et nous promet un jour charmant ; }
+\livretVerse#12 { Pour troubler l’Univers, il ne faut qu’un moment, }
+\livretVerse#12 { Nos cœurs comme les flots sont sujets à l’orage. }
+\livretPers ENSEMBLE
+\livretVerse#8 { Après l’orage, un doux repos }
+\livretVerse#8 { Calme les cœurs comme les flots. }
+\livretDidasP\line { On entend le Prélude de la Fête. }
+\livretPers TACMAS
+\livretVerse#12 { Fatime, ces Concerts nous annoncent la Fête }
+\livretVerse#12 { Qu’à la gloire des Fleurs, dans ce Bois on aprête : }
+\livretVerse#12 { Allons-y ; près de vous, je ne la verray pas ; }
+\livretVerse#12 { Près de vous, on ne peut penser qu’à vos appas. }
+
+\livretScene\line { SCENE V }
+\livretDescAtt\column {
+  \wordwrap-center { LA FESTE DES FLEURS }
+  \justify {
+    La Ferme s'ouvre ; alors tout le Théatre représente des Berceaux
+    illuminez & décorez de Guirlandes, & de Pots de Fleurs.
+    Des Symphonies & des Esclaves chantants sont distribuez dans des
+    Balcons de feüillages.  D'aimables Odaliques de diverse Nations
+    de l'Asie portent dans leurs coëffures & sur leurs habits, les
+    Fleurs les plus belles : L'une, a pour parure, la Rose ;
+    L'autre la Jonquille : Enfin, toutes se sigularisent par des
+    Fleurs differentes.
+  }
+}
+\livretPers CHŒUR
+\livretVerse#12 { Dans le sein de Thetis précipitez vos feux, }
+\livretVerse#12 { Fuyez, Astre du jour, laissez regner les ombres ; }
+\livretVerse#8 { Nuit, étendez nos voiles sombres ; }
+\livretVerse#12 { Vos tranquiles moments favorisent les Jeux. }
+\livretPers\line { TACMAS, \smaller { à \smallCaps FATIME. } }
+\livretVerse#8 { C’est vous qui faites mes beaux jours, }
+\livretVerse#12 { Que de Fleurs sous vos pas vont s’empresser de naître ! }
+\livretVerse#9 { Que de Zephirs, en les voyant paraître, }
+\livretVerse#12 { Vont voler près de vous, & suivre les Amour ! }
+\livretDesc\line { On danse. }
+\livretPers ROXANE
+\livretVerse#8 { Triomphez agreables Fleurs, }
+\livretVerse#12 { Répandez vos parfums, ranimez vos couleurs. }
+\livretPers CHŒUR
+\livretVerse#8 { Triomphez, &c. }
+\livretPers ROXANE
+\livretVerse#12 { C’est parmi vous qu’Amour cache sous la verdure }
+\livretVerse#12 { Ses feux les plus ardents, ses plus aimables traits : }
+\livretVerse#8 { Le Printemps vous doit ses atraits, }
+\livretVerse#12 { Vous parez la Saison qui pare la Nature. }
+\livretPers CHŒUR
+\livretVerse#8 { Triomphez, &c. }
+\livretPers ROXANE
+\livretVerse#7 { Vous tenez le rang suprême }
+\livretVerse#7 { Sur les bords de nos Ruisseaux ; }
+\livretVerse#12 { Et vous embellissez dans les jours les plus beaux, }
+\livretVerse#4 { La Beauté même. }
+\livretPers CHŒUR
+\livretVerse#8 { Triomphez, &c. }
+\livretPers FATIME
+\livretVerse#8 { Regnez Amours, volez Zephirs, }
+\livretVerse#8 { De nos Bois vous faites les charmes... }
+\livretVerse#12 { Fuyez soupçons fâcheux, fuyez tristes allarmes, }
+\livretVerse#12 { Gardez-vous d’occuper le séjour des plaisirs. }
+\livretVerse#8 { Regnez Amours, volez Zéphirs, }
+\livretVerse#8 { De nos Bois vous faites les charmes... }
+\livretDesc\line { On danse. }
+\livretPers FATIME
+\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
+\livretVerse#8 { Arrête-toy, suspens le cours }
+\livretVerse#6 { De ta flâme volage. }
+\livretVerse#12 { Jamais si belles fleurs sous ce naissant ombrage, }
+\livretVerse#10 { N’ont merité de fixer tes amours. }
+\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
+\livretVerse#8 { Arrête-toy, suspens le cours }
+\livretVerse#6 { De ta flâme volage. }
+\livretDesc\column {
+  \wordwrap-center { BALLET DES FLEURS }
+  \justify {
+    Ce Ballet represente pittoresquement le sort des Fleurs dans un Jardin.
+    On les a personifiées ainsi que Borée & Zéphire, pour donner de l'ame
+    à cette Peinture galante, executée par d'aimables Esclaves de l'un &
+    de l'autre sexe. D'abords les Dleurs choisies qui peuvent briller
+    davantage au Théatre, dansent ensemble, & forment un Parterre qui varie
+    à chaque instant.  La Rose leur Reine, danse seule.  La Feste est
+    interrompuë par un orage qu'amene Borée ; les Fleurs en éprouvent la
+    colere, La Rose résiste plus long-temps à l'ennemy qui la persecure ;
+    les Pas de Borée expriment son impetuosité & sa fureur ; les attitudes
+    de la Rose, peignent sa douceur & ses craintes ; Zéphire arrive avec sa
+    clarté renaissante ; il ranime & releve les Fleurs abatues par la
+    tempête, & termine leur Triomphe & le sien par les hommages que sa
+    tendresse rend à la Rose.
+  }
+}
+\livretFinAct\line { FIN [DE LA TROISIÉME ENTRÉE] }
 }

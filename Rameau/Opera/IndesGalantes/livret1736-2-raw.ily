@@ -9,14 +9,14 @@
 \livretScene\line { SCENE PREMIERE }
 \livretDescAtt\wordwrap-center\smallCaps { Emilie, Osman. }
 \livretPers EMILIE
-%# C'est Osman qui me suit, le nuy cachons plus rien ;
+%# C'est Osman qui me suit, le luy cachons plus rien ;
 %# Pour arrêter son feu, découvrons-luy le mien.
 \livretPers\line { OSMAN, \fontsize #-1 { à \smallCaps Emilie } }
 %# Cherchez-vous toûjours & l'ombre =& le silence ?
 \livretPers EMILIE
 %# Je voudrois de mes maux cacher la vi=olence.
 \livretPers OSMAN
-%#- Ciel ! qu'entens-*j*e !
+%#- Ciel ! qu'entens-je !
 \livretPers EMILIE
 %#= Apprenez mon destin rigoureux.
 %# Dans le séjour témoin de ma naissance
@@ -283,3 +283,4 @@
   LE CHŒUR avec \smallCaps Emilie, chante cette Parodie en Dialogue.
 }
 \livretFinAct\line { FIN DE LA DEUXIÉME ENTRÉE }
+\column-break
