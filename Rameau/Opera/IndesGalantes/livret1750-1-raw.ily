@@ -1,5 +1,5 @@
 \livretAct\center-column {
-  \line { DEUXIÉME ENTRÉE }
+  \line { PREMIERE ENTRÉE }
   \line { LE TURC GENEREUX }
 }
 \livretDescAtt\wordwrap-center {
@@ -23,7 +23,7 @@
 %# J'épousois un Amant digne de ma constance ;
 %# Sur un bord solitaire on commençoit les Jeux,
 %# Lorsque des Ravisseurs perfides
-%# Paroissent le fer à la main ;
+%# S'avancent le fer à la main ;
 %# La terreur un instant ferme mes yeux timides,
 %# Ils ne s'ouvrent qu'aux cris d'un Corsaire inhumain,
 %# Bien-tôt les Vents & le Ciel même
@@ -31,7 +31,7 @@
 %# Et je me vois captive sur les eaux,
 %# Près de ce que j'abhore, & loin de ce que j'aime.
 \livretPers OSMAN
-%# Qu'en peignant vos malheurs vous redoublez mes maux !
+%# Qu'en peignant vos malheurs vous redoublez les miens !
 %# Dissipez vos ennuis sur cet heureux Rivage.
 \livretPers EMILIE
 %# J'y subis, sous vos loix, un second esclavage.
@@ -51,12 +51,12 @@
 %# Se laisseroit surprendre !
 \livretPers OSMAN
 %# Ah ! que me faites vous entendre ?
-%# C'est trop m'outrager par vos pleurs !
-%# Cessez d'entretenir d'inutiles douleurs.
+%# C'est trop m'accabler par vos pleurs !
+%# Cessez d'entretenir d'inutiles ardeurs.
 %# Il faut que l'Amour s'envole
 %# Dès qu'il voit partir l'espoir.
 %# A l'ennuy la constance immole
-%# Le cœur qui la croit un devoir.
+%# Le cœur qui s'en fait un devoir.
 %# Il faut que l'Amour s'envole
 %# Dès qu'il voit partir l'espoir.
 %# Je vous quitte, belle Emilie,
@@ -110,7 +110,7 @@
 %# Que nous sert d'échaper à la fureur des Mers ?
 %# En évitant la mort nous tombons dans les fers.
 \livretPers EMILIE
-%# D'infortunez Captifs vont partager mes peines
+%# De malheureux Captifs vont partager mes peines
 %# Dans ce redoutable séjour...
 %# S'il sont Amants, ah ! que l'Amour
 %# Va gemir sur ces bords dans de barbares chaînes !
@@ -162,13 +162,13 @@
 %#= O desespoir !
 %# Non, vous ne sortirez jamais de son pouvoir !
 %# Quoy ! Valere ne vous retrouve
-%# Que pour vous perdre sans retour ?
+%# Que pour vous perdre pour toujours ?
 %#- Nôtre Tyran vous aime !
 \livretPers EMILIE
 %#= Et ma douleur le prouve,
 %# Je ne demandois pas ce tri=omphe à l'Amour.
 \livretPers VALERE
-%# Ah ! sçait-on vous aimer dans ce cru=el séjour !
+%# Ah ! sçait-on vous aimer dans ce fatal séjour !
 %# Sur ces bords une ame enflâmée
 %# Partage ses vœux les plus doux ;
 %# Et vous meritez d'être aimée
@@ -248,6 +248,12 @@
 %# Si vous nous conduisez, tous nos vœux sont remplis.
 %# Rivages fortunez de l'Empire des Lys,
 %# Ah ! nous vous reverons encore.
+\livretDesc\justify { On danse. }
+\livretPers VALERE
+%# Hatez-vous de vous embarquer,
+%# Jeunes coeurs, volez à Cithere!
+%# Sur cette flotte temeraire
+%# On ne peut jamais trop risquer.
 \livretDesc\line { Danse des \smallCaps Matelots. }
 \livretPers EMILIE
 %# Fuy=ez, fuy=ez Vents orageux,
@@ -279,8 +285,5 @@
 %# Que l'espoir vous guide-tous.
 %# Partez, on languit sur le Rivage,
 %# Tendres Cœurs, embarquez-vous :
-\livretDesc\justify {
-  LE CHŒUR avec \smallCaps Emilie, chante cette Parodie en Dialogue.
-}
 \livretFinAct\line { FIN DE LA DEUXIÉME ENTRÉE }
 \sep
