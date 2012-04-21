@@ -283,4 +283,4 @@
   LE CHŒUR avec \smallCaps Emilie, chante cette Parodie en Dialogue.
 }
 \livretFinAct\line { FIN DE LA DEUXIÉME ENTRÉE }
-\column-break
+\sep

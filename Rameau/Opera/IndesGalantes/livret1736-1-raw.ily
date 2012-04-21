@@ -304,4 +304,4 @@
   \smallCaps Huascar.
 }
 \livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
-\column-break
+\sep

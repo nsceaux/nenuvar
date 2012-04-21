@@ -99,4 +99,4 @@
   Climats des Indes.
 }
 \livretFinAct\line { FIN DU PROLOGUE }
-\column-break
+\sep

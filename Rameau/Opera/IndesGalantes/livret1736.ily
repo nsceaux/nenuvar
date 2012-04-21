@@ -1,5 +1,5 @@
-\tocItem "LIVRET"
-\markuplist\page-columns-title \act LIVRET {
+\tocItem "LIVRET (1736)"
+\markuplist\page-columns-title \act\line { LIVRET (1736) } {
 \livretAct\line { PROLOGUE }
 \livretDescAtt\justify {
   Le Theâtre représente les Jardins du Palais
@@ -101,7 +101,7 @@
   Climats des Indes.
 }
 \livretFinAct\line { FIN DU PROLOGUE }
-\column-break
+\sep
 \livretAct\center-column {
   \line { PREMIERE ENTRÉE }
   \line { LES INCAS DU PEROU }
@@ -408,7 +408,7 @@
   \smallCaps Huascar.
 }
 \livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
-\column-break
+\sep
 \livretAct\center-column {
   \line { DEUXIÉME ENTRÉE }
   \line { LE TURC GENEREUX }
@@ -694,7 +694,7 @@
   LE CHŒUR avec \smallCaps Emilie, chante cette Parodie en Dialogue.
 }
 \livretFinAct\line { FIN DE LA DEUXIÉME ENTRÉE }
-\column-break
+\sep
 \livretAct\center-column {
   \line { TROISIÉME ENTRÉE }
   \line { LES FLEURS }
@@ -944,6 +944,7 @@
   }
 }
 \livretFinAct\line { FIN [DE LA TROISIÉME ENTRÉE] }
+\sep
 \livretAct\center-column {
   \line { LES SAUVAGES }
   \line\smaller { NOUVELLE ENTRÉE }

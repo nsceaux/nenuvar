@@ -96,7 +96,7 @@
                 #:fontsize 0 verse)))))
 
 #(define-markup-command (livretVerse layout props metric args) (number? markup-list?)
-   (let ((margin (* 2 (- 12 (min 12 metric)))))
+   (let ((margin (* 2.5 (- 12 (min 12 metric)))))
      (livret-verse-aux layout props (make-line-markup args) margin)))
 
 #(define-markup-command (livretVer layout props args) (markup-list?)
