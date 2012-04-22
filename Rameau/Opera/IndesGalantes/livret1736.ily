@@ -204,9 +204,9 @@
 \livretVerse#8 { Redoutez le Dieu qui les guide. }
 \livretPers HUASCAR
 \livretVerse#8 { C’est l’or qu’avec empressement, }
-\livretVerse#12 { Sans jamais s’assouvir, ces Barbares dévore, }
+\livretVerse#12 { Sans jamais s’assouvir, ces Barbares dévorent, }
 \livretVerse#12 { L’or qui de nos Autels ne fait que l’ornement, }
-\livretVerse#10 { Est le seul Dieu que nos Tyrans adore. }
+\livretVerse#10 { Est le seul Dieu que nos Tyrans adorent. }
 \livretPers PHANI
 \livretVerse#8 { Témeraire ! que dites-vous ! }
 \livretVerse#12 { Révérez leur puissance & craignez leur couroux. }
@@ -277,7 +277,7 @@
 \livretPers HUASCAR
 \livretVerse#12 { Tu laisses l’Univers dans une nuit profonde }
 \livretVerse#6 { Lorsque tu disparais ! }
-\livretVerse#12 { Et nos yeux en perdant ta muliere féconde, }
+\livretVerse#12 { Et nos yeux en perdant ta lumiere féconde, }
 \livretVerse#12 { Perdent tous leurs plaisirs ; la Beauté perd ses traits. }
 \livretPers CHŒUR
 \livretVerse#5 { Clair Flambeau &c. }
@@ -521,7 +521,7 @@
 \livretVerse#12 { Que nous sert d’échaper à la fureur des Mers ? }
 \livretVerse#12 { En évitant la mort nous tombons dans les fers. }
 \livretPers EMILIE
-\livretVerse#12 { D’infortunez Captifs vont partager mes peine }
+\livretVerse#12 { D’infortunez Captifs vont partager mes peines }
 \livretVerse#8 { Dans ce redoutable séjour... }
 \livretVerse#8 { S’il sont Amants, ah ! que l’Amour }
 \livretVerse#12 { Va gemir sur ces bords dans de barbares chaînes ! }
@@ -545,7 +545,7 @@
 \livretPersVerse\smallCaps Valere.
 \livretVerse#6 { C’est vous ! belle Emilie ! }
 \livretVerse#10 { Je vous revois ! que de malheurs j’oublie ! }
-\livretVerse#11 { De mon cruel destin je ne sens plus les coups. }
+\livretVerse#12 { De mon cruel destin je ne sens plus les coups. }
 \livretPers EMILIE
 \livretVerse#12 { Par quel sort aujourd’huy jetté sur cette Rive... }
 \livretPers VALERE

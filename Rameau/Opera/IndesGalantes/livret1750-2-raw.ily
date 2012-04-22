@@ -1,5 +1,5 @@
 \livretAct\center-column {
-  \line { PREMIERE ENTRÉE }
+  \line { DEUXIEME ENTRÉE }
   \line { LES INCAS DU PEROU }
 }
 \livretDescAtt\justify {
@@ -42,14 +42,14 @@
 %#= Leurs soins sont inutiles,
 %# Si vous m'acceptez pour Epoux.
 \livretPers PHANI
-%# Allez, pressez ce moment favorable,
+%# Carlos, allez, pressez ce moment favorable,
 %# Délivrez-moy d'un séjour détestable ;
 %# Mais, ne venez pas seul... quel funeste malheur !
 %# Si vôtre mort... le Peuple est barbare, implacable,
 %# Et quelquefois le nombre accable
 %# La plus intrépide valeur.
 %# Allez ; ma crainte est pardonnable ;
-%# Empruntez du secours, rassemblez vos Guerriers ;
+%# Empruntez du secours, assemblez vos Guerriers ;
 %# Conduisez leur courage à de nouveaux lauriers.
 
 \livretScene\line { SCENE II }
@@ -69,7 +69,7 @@
 %# Tout ce que dit l'Amour est toûjours pardonnable,
 %# Et le Ciel que je sers doit servir mon ardeur.
 \livretDidasP\line { à \smallCaps Phani. }
-%# Le Dieu de nos climats dans ce beau jour m'inspire :
+%# Le Dieu de ces climats dans ce beau jour m'inspire :
 %# Princesse, le Soleil daigne veiller sur vous,
 %# Et luy-même dans nôtre empire,
 %# Il prétend par ma voix vous nommer un époux.
@@ -85,7 +85,7 @@
 %# Non, non, je ne crois pas tout ce que l'on assure
 %# En attestant les Cieux ;
 %# C'est souvent l'imposture
-%# Qui fait parler les Dieux.
+%# Qui parle au nom des Dieux.
 \livretPers HUASCAR
 %# Pour les Dieux & pour moy quelle coupable injure !
 %# Je sçais ce qui produit vôtre incredulité,
@@ -100,33 +100,28 @@
 %# Redoutez le Dieu qui les guide.
 \livretPers HUASCAR
 %# C'est l'or qu'avec empressement,
-%# Sans jamais s'assouvir, ces Barbares dévor*ent,
+%# Sans jamais s'assouvir, ces Barbares dévorent,
 %# L'or qui de nos Autels ne fait que l'ornement,
-%# Est le seul Dieu que nos Tyrans ador*ent.
+%# Est le seul Dieu que nos Tyrans adorent.
 \livretPers PHANI
 %# Témeraire ! que dites-vous !
 %# Révérez leur puissance & craignez leur couroux.
 %# Pour leur obtenir vos hommages,
 %# Faut-il des miracles nouveaux ?
 %# Vous avez vû de nos Rivages,
-%# Leurs Villes voler sur les eaux ;
+%# Leurs Villes flotter sur les eaux ;
 %# Vous avez vû dans l'horreur de la guerre,
-%# Leur invicible bras disposer du tonnerre...
-
-\livretScene\line { SCENE IV }
-\livretDescAtt\wordwrap-center {
-  \smallCaps { Huascar-Inca, un Inca } son confident.
-}
+%# Leurs invicibles bras disposer du tonnerre...
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 %# On vient, dissimulons mes transports à leurs yeux...
 \livretDidasP\line { à l'Inca qu'il appelle. }
 %# Vous sçavez mon Projet. Allez ; qu'on m'obé=isse...
 \livretDidasP\line { à part. }
 %# Je n'ay donc plus pour moy qu'un barbare artifice,
-%# Que de flâme & de sang peut innonder ces lieux ?
+%# Que de flâme & de sang innondera ces lieux ?
 %# Mais, que ne risque point un amour furi=eux !
 
-\livretScene\line { SCENE V }
+\livretScene\line { SCENE IV }
 \livretDescAtt\center-column {
   \line { FESTE DU SOLEIL }
   \justify {
@@ -194,6 +189,12 @@
 %# Vous brillez, Astre du jour ;
 %# L'Astre de nos ames
 %# C'est le tendre Amour.
+%# De nos bois chassez la tristesse,
+%# Regnez-y sans cesse,
+%# Dieu de nos cœurs, de la nuit le voile sombre
+%# Sur vos appas n'étend jamais son ombre.
+%# Tous les tems, aimable vainqueur,
+%# Sont marquez par tes faveurs.
 \livretDesc\wordwrap-center { On danse. }
 \livretDesc\wordwrap-center {
   La Fête est troublée par un tremblement de terre.
@@ -207,7 +208,7 @@
 }
 \livretPers CHŒUR
 %# Les Rochers embrâsez s'élancent dans les airs !
-%# Ils portent jusqu'aux Cieux les flâmes des Enfers !
+%# Et portent jusqu'aux Cieux les flâmes des Enfers !
 \livretDesc\justify {
   L'épouvante saisit les \smallCaps Peruviens,
   l'Assemblée se disperse, \smallCaps Huascar
@@ -215,8 +216,10 @@
   de terre semble s'apaiser.
 }
 
-\livretScene\line { SCENE VI }
-\livretDescAtt\wordwrap-center\smallCaps { Phani-Palla, Huascar-Inca. }
+\livretScene\line { SCENE V }
+\livretDescAtt\wordwrap-center\smallCaps {
+  Phani-Palla, Huascar-Inca, Dom-Carlos.
+}
 \livretPers\wordwrap-center {
   HUASCAR, à \smallCaps PHANI qui traverse le Théatre en fuyant.
 }
@@ -228,12 +231,6 @@
 %# O jour funeste ! dois-je croire
 %# Que le Ciel jaloux de sa gloire
 %# Ne s'explique aux Humains qu'en les faisant trembler ?
-
-\livretScene\line { SCENE VII }
-\livretDescAtt\wordwrap-center {
-  \smallCaps { Phani-Palla, Huascar-Inca, Dom-Carlos, }
-  Officer Espagnol.
-}
 \livretPers\line { HUASCAR, \fontsize #-1 { l'arrêtant encore. } }
 %# Vous fuy=ez, quand les Dieux daignent vous appeller !
 %# Eh bien, Cru=elle, eh bien ! vous allez me connoître,
@@ -284,7 +281,7 @@
   \smallCaps Huascar chante les siennes à part.
 }
 
-\livretScene\line { SCENE VIII }
+\livretScene\line { SCENE VII }
 \livretDescAtt\justify {
   Le Volcan se rallume, & le Tremblement de terre recommence.
 }
@@ -303,5 +300,5 @@
   La Volcan vomit des rochers enflâmez qui écrasent le criminel
   \smallCaps Huascar.
 }
-\livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
+\livretFinAct\line { FIN DE LA DEUXIÈME ENTRÉE }
 \sep
