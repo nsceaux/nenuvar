@@ -728,4 +728,517 @@
 }
 \livretFinAct\line { FIN DE LA DEUXIÈME ENTRÉE }
 \sep
+\livretAct\center-column {
+  \line\smaller { TROISIEME ENTRÉE }
+  \line { LES SAUVAGES }
+}
+\livretDescAtt\justify {
+  Le Théatre représente un Bosquet d'une Forêt de l'Amerique,
+  voisine des Colonies Fraçoises & Espagnoles, où dont se
+  célébrer la Ceremonie du grand Calumet de Paix.
+}
+\livretScene\line { SCENE PREMIERE }
+\livretDescAtt\column {
+  \wordwrap-center { On entend les Fanfares des Trompettes Françoises. }
+  \wordwrap-center {
+    \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage.
+  }
+}
+\livretVerse#12 { Nos Guerriers, par mon ordre unis à nos Vainqueurs, }
+\livretVerse#12 { Vont icy de la Paix célébrer les douceurs ; }
+\livretVerse#12 { Mon cœur seul dans ces lieux trouve encor des allarmes : }
+\livretVerse#12 { J’y vois deux Etrangers illustres par les armes, }
+\livretVerse#8 { Epris de l’Objet de mes vœux ; }
+\livretVerse#8 { Je crains leurs soupirs dangereux, }
+\livretVerse#12 { Et que leur sort brillant, pour Zima n’ait des charmes. }
+\livretVerse#12 { Rivaux de mes Exploits, Rivaux de mes Amours, }
+\livretVerse#6 { Helas ! dois-je toûjours }
+\livretVerse#6 { Vous céder la victoire ? }
+\livretVerse#8 { Ne paroissez-vous dans nos Bois }
+\livretVerse#8 { Que pour triompher à la fois }
+\livretVerse#8 { De ma tendresse & de ma gloire ? }
+\livretVerse#12 { Rivaux de mes Exploits, Rivaux de mes Amours, }
+\livretVerse#6 { Helas ! dois-je toûjours }
+\livretVerse#6 { Vous céder la victoire ? }
+\livretDidasP\line { Les apercevant. }
+\livretVerse#12 { Ciel ! ils cherchent Zima... pouroit-elle changer ? }
+\livretVerse#12 { Cachons-nous... apprenons ce que je dois en croire ; }
+\livretVerse#12 { Sachons & si je dois, & sur qui me vanger. }
+\livretDidasP\wordwrap {
+  \smallCaps Adario se cache, à l'entré de la Forest & les observe.
+}
+
+\livretScene\line { SCENE II }
+\livretDescAtt\wordwrap-center {
+  \smallCaps Damon, Officier de la Colonie Françoise,
+  \smallCaps { Dom Alvar, } Officier de la Colonie Espagnole.
+  \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage, caché.
+}
+\livretPers ALVAR
+\livretVerse#8 { Damon, quelle vaine esperance }
+\livretVerse#12 { Sur les pas de Zima vous attache aujourd’huy ? }
+\livretVerse#12 { Vous outragez l’Amour & vous comptez sur luy ! }
+\livretVerse#12 { Croyez-vous ses faveurs le prix de l’inconstance ? }
+\livretPers DAMON
+\livretVerse#8 { L’inconstance ne doit blesser }
+\livretVerse#8 { Que les attraits qu’elle abandonne ; }
+\livretVerse#12 { Non, le fils de Venus ne peut pas s’offenser }
+\livretVerse#12 { Lorsque nous recevons tous les fers qu’il nous donne. }
+\livretVerse#8 { Un cœur qui change chaque jour, }
+\livretVerse#12 { Chaque jour fait pour luy des Conquêtes nouvelles ; }
+\livretVerse#12 { Les fidelles Amants font la gloire des Belles, }
+\livretVerse#12 { Mais les Amants legers font celle de l’Amour. }
+\livretVerse#12 { Dans ces Lieux fortunez c’est ainsi que l’on pense ; }
+\livretVerse#8 { De la tiranique constance }
+\livretVerse#8 { Les cœurs n’y suivent point les loix. }
+\livretPers\line { ALVAR, \smaller { aperçevant \smaller Zima. } }
+\livretVerse#12 { Tout les prescrit au mien, c’est Zima que je vois. }
+
+\livretScene\line { SCENE III }
+\livretDescAtt\wordwrap-center {
+  \smallCaps Zima, fille du Chef de la Nation Sauvage,
+  \smallCaps Damon, Officier de la Colonie Françoise,
+  \smallCaps { Dom Alvar, } Officier de la Colonie Espagnole.
+  \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage, caché.
+}
+\livretPers\line { ALVAR, \smaller { à \smaller Zima. } }
+\livretVerse#12 { Ne puis-je vous fléchir par ma perséverance ? }
+\livretPers\line { DAMON, \smaller { à \smaller Zima. } }
+\livretVerse#12 { Ne vous lassez-vous point de vôtre indifference ? }
+\livretPers ZIMA
+\livretVerse#12 { Vous aspirez tous-deux à mériter mon choix ; }
+\livretVerse#12 { Aprenez quel amour sçait plaire dans nos Bois. }
+\livretVerse#12 { Nous suivons sur nos bords l’innocente nature, }
+\livretVerse#10 { Et nous n’aimons que d’un amour sans art. }
+\livretVerse#12 { Nôtre bouche & nos yeux ignorent l’imposture ; }
+\livretVerse#8 { Sous cette naissante verdure, }
+\livretVerse#12 { S’il éclate un soupir, s’il échape un regard, }
+\livretVerse#5 { C’est du cœur qu’il part. }
+\livretVerse#12 { Nous suivons sur nos bords l’innocente nature, }
+\livretVerse#10 { Et nous n’aimons que d’un amour sans art. }
+\livretPers\line { ALVAR ET DAMON }
+\livretVerse#12 { Vous décidez pour moy ; j’obtiens vôtre suffrage ; }
+\livretVerse#6 { Ah ! quel heureux instant ! }
+\livretPers ALVAR
+\livretVerse#12 { La Nature qui seule attire vôtre hommage }
+\livretVerse#8 { Nous dit qu’il faut estre constant... }
+\livretPers DAMON
+\livretVerse#12 { Elle prouve à nos yeux qu’il faut être volage. }
+\livretVerse#8 { La Terre, les Cieux, & les Mers }
+\livretVerse#12 { Nous offrent tour-à-tour cent spectacles divers ; }
+\livretVerse#12 { Les plus beaux jours entr’eux ont de la difference ; }
+\livretVerse#8 { N’est-il deffendu qu’à nos cœurs }
+\livretVerse#6 { De gouter les douceurs }
+\livretVerse#8 { Que verse par tout l’inconstance. }
+\livretDidasP\line { à \smallCaps Zima. }
+\livretVerse#12 { Voilà vos sentimens : dans vos sages Climats, }
+\livretVerse#8 { L’inconstance n’est point un crime. }
+\livretPers ZIMA
+\livretVerse#12 { Non, mais vous oubliez, ou vous ne sçavez pas, }
+\livretVerse#12 { Dans quel temps l’inconstance est pour nous légitime. }
+\livretVerse#12 { Le cœur change à son gré dans cet heureux séjour ; }
+\livretVerse#8 { Parmi nos amants c’est l’usage }
+\livretVerse#8 { De ne pas contraindre l’Amour ; }
+\livretVerse#8 { Mais dès que l’Hymen nous engage }
+\livretVerse#12 { Le cœur ne change plus dans cet heureux séjour. }
+\livretPers\line { ALVAR, \smaller { montrant \smaller DAMON. } }
+\livretVerse#8 { L’Habitant des bords de la Seine }
+\livretVerse#7 { N’est jamais moins arrêté }
+\livretVerse#7 { Que lorsque l’Hymen l’enchaîne ; }
+\livretVerse#12 { Il se fait un honneur de sa legereté. }
+\livretVerse#8 { Et pour l’Epouse la plus belle }
+\livretVerse#8 { Il rougiroit d’être fidelle. }
+\livretPers\line { DAMON, \smaller { montrant \smaller ALVAR. } }
+\livretVerse#8 { Les Epoux les plus soupçonneux, }
+\livretVerse#8 { Du Tage habitent les rives ; }
+\livretVerse#7 { Là mille Beautez plaintives }
+\livretVerse#12 { Reçoivent de l’hymen des fers & non des nœuds ; }
+\livretVerse#12 { Vous ne voyez jamais autour de ces Captives }
+\livretVerse#8 { Voltiger les Ris & les Jeux. }
+\livretVerse#12 { Belle Zima, craignez un si triste esclavage... }
+\livretPers\line { ALVAR, \smaller { à \smaller ZIMA. } }
+\livretVerse#12 { Cédez, cédez enfin à mes soins empressez. }
+\livretPers ZIMA
+\livretVerse#12 { Je ne veux d’un Epoux ni jaloux ni volage. }
+\livretDidasP\line {
+  \hspace #6 à \smallCaps { L'Espagnol. }
+  \hspace #12 au \smallCaps { François. }
+}
+\livretVerse#12 { Vous aimez trop, Et Vous, vous n’aimez pas assez. }
+
+\livretScene\line { SCENE IV }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Zima, Damon, Alvar, Adario, }
+  sort avec vivacité de la Forest, \smallCaps Zima
+  charmée de son transport, luy présente la main.
+}
+\livretPers\line { ALVAR, \smaller { les apercevant. } }
+\livretVerse#11 { Que vois-je ? }
+\livretPers ZIMA
+\livretVerse#11 { \transparent { Que vois-je ? } C’est l’Amant que mon cœur vous préfere. }
+\livretPers\line { ALVAR, \smaller { à \smaller ZIMA. } }
+\livretVerse#12 { Osez-vous prononcer un Arrêt si fatal. }
+\livretPers ZIMA
+\livretVerse#8 { Dons nos Forest on est sincere. }
+\livretPers\line { ALVAR, \smaller { montrant \smaller ADARIO. } }
+\livretVerse#12 { Je sçauray m’immoler un odieux Rival. }
+\livretPers\line { ADARIO, \smaller { fierement à \smaller ALVAR. } }
+\livretVerse#12 { Je craignois ton amour, je crains peu ta colere. }
+\livretPers\line { ALVAR, \smaller { l'approchant. } }
+\livretVerse#12 { C’en est trop. }
+\livretPers\line { DAMON, \smaller { arrêtant \smaller ALVAR. } }
+\livretVerse#12 { \transparent { C’en est trop. } Arrêtez. }
+\livretPers\line { ALVAR, \smaller { surpis. } }
+\livretVerse#12 { \transparent { C’en est trop. Arrêtez. } Damon, y pensez-vous ? }
+\livretVerse#12 { Quoy, c’est vous qui prenez contre moi sa défense ! }
+\livretPers\line { DAMON, \smaller { à \smaller ALVAR. } }
+\livretVerse#8 { J’ay trop protégé l’inconstance }
+\livretVerse#12 { Pour ne pas m’opposer à l’injuste couroux }
+\livretVerse#12 { Que vous est inspiré par la perséverance. }
+\livretDidasP\line { On entend un Prélude que annonce la Feste. }
+\livretVerse#8 { Déja dans les Bois d’allentour }
+\livretVerse#12 { J’entends de nos Guerriers les bruyantes Trompettes, }
+\livretVerse#11 { Leurs sons n’effrayent plus ces aimables retraites, }
+\livretVerse#12 { Des charmes de la paix ils marquent le retour. }
+\livretDidasP\line { à \smallCaps Alvar. }
+\livretVerse#12 { A vos tristes regrets dérobez ce beau jour ; }
+\livretVerse#10 { Que le plaisir avec nous vous arrête... }
+\livretPers\line { ALVAR, \smaller { s'éloigant. } }
+\livretVerse#12 { Helas ! je vais cacher un malheureux amour ! }
+\livretPers\line { DAMON, \smaller { le suivant. } }
+\livretVerse#10 { Venez plûtôt l’amuser à la Fête. }
+
+\livretScene\line { SCENE V }
+\livretDescAtt\wordwrap-center\smallCaps { Zima, Adario. }
+\livretPers ADARIO
+\livretVerse#12 { Je ne vous peindrai point les transports de mon cœur, }
+\livretVerse#10 { Belle Zima, jugez-en par le vôtre. }
+\livretVerse#6 { En comblant mon bonheur }
+\livretVerse#8 { Vous montrez qu’une égale ardeur }
+\livretVerse#7 { Nous enflâme l’un & l’autre. }
+\livretPers ZIMA
+\livretVerse#12 { De l’amour le plus tendre éprouvez la douceur, }
+\livretVerse#7 { Je vous dois la préference. }
+\livretVerse#12 { De vous à vos Rivaux je vois la difference. }
+\livretVerse#8 { L’un s’abandonne à la fureur, }
+\livretVerse#12 { Et l’autre prends mon cœur avec indifférence ; }
+\livretVerse#12 { Nous ignorons ce calme & cette violence. }
+\livretVerse#12 { Sur nos Bords l’Amour vole & prévient nos désirs. }
+\livretVerse#8 { Dans nôtre paisible retraite }
+\livretVerse#12 { On n’entend murmurer que l’Onde & les Zéphirs ; }
+\livretVerse#7 { Jamais l’Echo n’y répete }
+\livretVerse#7 { De regrets ny de soupirs. }
+\livretVerse#12 { Sur nos Bords l’Amour vole & prévient nos désirs. }
+\livretPers ADARIO
+\livretVerse#12 { Viens, Hymen, hâte-toy, suis l’Amour qui t’appelle. }
+\livretPers ENSEMBLE
+\livretVerse#12 { Hymen, viens nous unir d’une chaîne éternelle ; }
+\livretVerse#12 { Viens encor de la Paix embellir les beaux jours ; }
+\livretVerse#8 { Je te promets d’être fidelle ; }
+\livretVerse#12 { Tu sçais nous enchainer & nous plaire toûjours. }
+
+\livretScene\line { SCENE VI }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Zima, Adario, Françoises } en habits d'Amazones,
+  \smallCaps Guerriers François & Sauvages,
+  \smallCaps { Sauvagesses ; Bergers } de la Colonie.
+}
+\livretPers\line { ADARIO, \smaller { aux Sauvages. } }
+\livretVerse#8 { Bannissons les tristes allarmes, }
+\livretVerse#8 { Nos Vainqueurs nous rendent la Paix : }
+\livretVerse#12 { Partageons leurs plaisirs, ne craignons plus leurs armes ; }
+\livretVerse#12 { Sur nos tranquiles Bords qu’Amour seul à jamais }
+\livretVerse#12 { Fasse briller ses feux, vienne lancer ses traits. }
+\livretPers\line { CHŒUR des Sauvages }
+\livretVerse#8 { Bannissons, &c. }
+\livretDesc\wordwrap {
+  Danse du grand calumet de Paix, executée par les Sauvages.
+}
+\livretPers\line { ZIMA, ET ADARIO }
+\livretVerse#4 { Forêts paisibles, }
+\livretVerse#12 { Jamais un vain desir ne trouble ici nos cœurs : }
+\livretVerse#4 { S’ils sont sensibles, }
+\livretVerse#12 { Fortune, ce n’est pas au prix de tes faveurs. }
+\livretPers\line { CHŒUR des Sauvages }
+\livretVerse#4 { Forêts paisibles, &c. }
+\livretPers\line { ZIMA, ET ADARIO }
+\livretVerse#4 { Dans nos Retraites, }
+\livretVerse#6 { Grandeur, ne viens jamais }
+\livretVerse#6 { Offrir tes faux attraits, }
+\livretVerse#6 { Ciel ! tu les as faites, }
+\livretVerse#8 { Pour l’innocence & pour la paix. }
+\livretPers\line { CHŒUR des Sauvages }
+\livretVerse#4 { Forêts paisibles, }
+\livretVerse#12 { Jamais un vain desir ne trouble ici nos cœurs : }
+\livretVerse#4 { S’ils sont sensibles, }
+\livretVerse#12 { Fortune, ce n’est pas au prix de tes faveurs. }
+\livretPers\line { ZIMA, ET ADARIO }
+\livretVerse#7 { Jouissons dans nos aziles, }
+\livretVerse#7 { Jouissons des biens tranquilles : }
+\livretVerse#6 { Ah ! peut-on être heureux }
+\livretVerse#7 { Quand on forme d’autres vœux ? }
+\livretPers\line { CHŒUR des Sauvages }
+\livretVerse#4 { Forêts paisibles, &c. }
+\livretDesc\wordwrap { Danse des Françoises en Amazones. }
+\livretPers ZIMA
+\livretVerse#12 { Regnez Plaisirs & Jeux ; triomphez dans nos Bois : }
+\livretVerse#8 { Nous n’y connoissons que vos loix. }
+\livretVerse#4 { Tout ce qui blesse }
+\livretVerse#3 { La tendresse }
+\livretVerse#8 { Est ignoré dans nos ardeurs. }
+\livretVerse#8 { La Nature qui fît nos cœurs. }
+\livretVerse#8 { Prend soin de la guider sans cesse. }
+\livretVerse#12 { Regnez Plaisirs & Jeux ; triomphez dans nos Bois : }
+\livretVerse#8 { Nous n’y connoissons que vos loix. }
+\livretDesc\wordwrap {
+  L'Entrée finit par un Ballet general des Guerriers François & Sauvages,
+  des Françoises en Amazones, des Bergers & Bergeres de la Colonie, au
+  bruit des Trompettes, & au son des Musettes.
+}
+\livretFinAct\line { FIN DE LA TROISIÉME ENTRÉE }
+\sep
+\livretAct\center-column {
+  \line { QUATRIEME ENTRÉE }
+  \line { LES FLEURS }
+  \line\smaller { FESTE ASIATIQUE }
+}
+\livretDescAtt\wordwrap-center {
+  Le Théatre représente les Jardins de \smaller Tacmas.
+}
+\livretScene\line { SCENE PREMIERE }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Roxane, Fatime } en Esclave Polonois.
+}
+\livretPers\line { ROXANE, \smaller la considerant. }
+\livretVerse#12 { Vous offrez à nos yeux un Esclave charmant ! }
+\livretVerse#8 { Mais, ne craignez-vous point Fatime, }
+\livretVerse#6 { Qu’on ne vous fasse un crime }
+\livretVerse#6 { De ce déguisement ? }
+\livretPers FATIME
+\livretVerse#12 { La Fête qui bien-tôt doit être célébrée, }
+\livretVerse#8 { De nos Jardins permet l’entrée ; }
+\livretVerse#12 { Pour me cacher ainsi, j’ay saisi ce moment. }
+\livretVerse#10 { J’aime Tacmas, & je le crois volage ; }
+\livretVerse#12 { Je ne puis resister à mes transports jaloux... }
+\livretVerse#8 { Je viens chercher sous cet ombrage, }
+\livretVerse#12 { Les funestes Attraits qui causent mon couroux. }
+\livretVerse#12 { Je soupçonne Atalide... }
+\livretPers ROXANE
+\livretVerse#12 { \transparent { Je soupçonne Atalide... } Atalide est aimable ? }
+\livretPers FATIME
+\livretVerse#6 { Cet Objet redoutable }
+\livretVerse#12 { A mes regards encor ne s’est pas presenté ; }
+\livretVerse#12 { Et peut-être ma crainte ajoûte à sa Beauté ! }
+\livretVerse#12 { Dans ce jour où des Fleurs vous celebrons la Fête, }
+\livretVerse#12 { J’espère la trouver sous ces sombres Ormeaux ; }
+\livretVerse#12 { Et me livrant au soin qui dans ce bois m’arreste... }
+\livretVerse#12 { Hélas ! j’y vais guerir ou redoubler mes maux ! }
+\livretPers ROXANE
+\livretVerse#10 { Ah ! vôtre Amant peut-il être infidelle ? }
+\livretVerse#12 { Pour le croire constant, il suffit de vous voir. }
+\livretVerse#12 { Un cœur où vous regnez, a-t-il donc le pouvoir }
+\livretVerse#8 { De prendre une chaîne nouvelle ? }
+\livretVerse#10 { Ah ! vôtre Amant peut-il être infidelle ? }
+\livretPers FATIME
+\livretVerse#12 { L’Hyver dans ces Jardins n’ose outrager les Fleurs ; }
+\livretVerse#8 { Sous cette immortelle verdure }
+\livretVerse#12 { Il n’ose des ruisseaux suspendre le murmure, }
+\livretVerse#12 { Et jamais, de l’Aurore il n’y glace les pleurs ; }
+\livretVerse#12 { Sans cesse dans nos Prez, Flore arreste Zephire, }
+\livretVerse#12 { Et jamais, l’Aquilon ne nous ôte un beau jour ; }
+\livretVerse#8 { Tout rit dans ce charmant séjour : }
+\livretVerse#8 { Faut-il que seule j’y soupire ? }
+\livretVerse#12 { Je brûle d’éclaircir le sort de mon amour... }
+\livretPers FATIME
+\livretVerse#12 { On vient. }
+\livretPers\line { ROXANE, \smaller { se retirant. } }
+\livretVerse#12 { \transparent { On vient. } C’est Atalide. Evitons sa présence. }
+
+\livretScene\line { SCENE II }
+\livretDescAtt\wordwrap-center {
+  \smallCaps Fatime en Esclave Polonois,
+  \smallCaps Atalide.
+}
+\livretPers\wordwrap-center {
+  FATIME, \smaller { à part, examinant \smaller Atalide. }
+}
+\livretVerse#12 { Plus je vois ma Rivale, & plus je sens d’effroy, }
+\livretVerse#12 { Ses charmes, de Tacmas me prouvent l’inconstance. }
+\livretPers\line { ATALIDE, \smaller { à \smaller Fatime. } }
+\livretVerse#8 { Aimable Esclave, apprenez-moy }
+\livretVerse#12 { Si vous suivez Tacmas... }
+\livretPers FATIME
+\livretVerse#12 { \transparent { Si vous suivez Tacmas... } Je vis sous sa puissance, }
+\livretVerse#9 { Depuis longtemps il se fie a ma foy. }
+\livretPers ATALIDE
+\livretVerse#8 { Vous possedez sa confidence ? }
+\livretVerse#12 { Que vous êtes heureux de pouvoir chaque jour }
+\livretVerse#6 { Luy marquer vôtre zele ! }
+\livretPers FATIME
+\livretVerse#12 { Vous l’aimez ! vos soupirs trahissent vôtre amour... }
+\livretPers ATALIDE
+\livretVerse#12 { Ouy ; Tacmas est l’objet de mon ardeur fidelle... }
+\livretPers\line { FATIME, \smaller saisie. }
+\livretVerse#12 { Vous l’aimez... }
+\livretPers ATALIDE
+\livretVerse#12 { \transparent { Vous l’aimez... } Je l’adore & mon cœur enflâmé }
+\livretVerse#6 { N’a jamais tant aimé ! }
+\livretVerse#8 { La chaîne qui m’engage est faite }
+\livretVerse#8 { Pour n’en briser jamais les nœuds. }
+\livretVerse#8 { Ma tendresse est aussi parfaite }
+\livretVerse#8 { Que le cher Objet de mes vœux. }
+\livretVerse#8 { La chaîne qui m’engage est faite }
+\livretVerse#8 { Pour n’en briser jamais les nœuds. }
+\livretPers\line { FATIME, \smaller { à part. } }
+\livretVerse#12 { Elle aime trop, hélas ! pour n’être pas aimée... }
+\livretDidasP\line { Vivement à \smallCaps Atalide. }
+\livretVerse#12 { Ah ! c’est d’un Inconstant que vous êtes charmée ! }
+\livretVerse#10 { Un Inconstant devroit-il être heureux ? }
+\livretVerse#8 { C’est un crime que sa victoire ? }
+\livretVerse#8 { Plus il trahit de tendres feux, }
+\livretVerse#8 { Plus il se croit comblé de gloire. }
+\livretVerse#10 { Un Inconstant devroit-il être heureux ? }
+\livretVerse#8 { C’est un crime que sa victoire ? }
+\livretPers ATALIDE
+\livretVerse#8 { Un Inconstant ! que dites-vous ? }
+\livretVerse#8 { Le Prince n’aime que Fatime... }
+\livretVerse#12 { Ses discours, ses soupirs, ses regards, tout l’exprime : }
+\livretVerse#8 { Coryez-en mes transports jaloux... }
+\livretPers\line { FATIME, \smaller vivement. }
+\livretVerse#12 { Tacmas n’est point volage ! O Ciel ! est-il possible ! }
+\livretPers\line { ATALIDE, \smaller surprise. }
+\livretVerse#12 { J’esperois que mes maux vous trouveroient sensible, }
+\livretVerse#12 { Je comptois sur vos soins pour toucher mon Amant, }
+\livretVerse#12 { Et vous semblez jouir de mon cruel tourment ! }
+
+\livretScene\line { SCENE III }
+\livretDescAtt\wordwrap-center {
+  \smallCaps Fatime, en Esclave Polonois,
+  \smallCaps { Atalide, Tacmas. }
+}
+\livretPers ATALIDE
+\livretVerse#12 { Tacmas approche. Amour, c’est toy seul que j’implore, }
+\livretVerse#12 { Tu dois servir mon cœur de même qu’il t’adore. }
+\livretPers\line { TACMAS, \smaller { examinant \smallCaps FATIME. } }
+\livretVerse#12 { Un Esclave inconnu dans ces lieux ose entrer ! }
+\livretVerse#12 { Quoy ! Fatime, c’est vous ! }
+\livretPers\line { ATALIDE, \smaller { à part. } }
+\livretVerse#12 { \transparent { Quoy ! Fatime, c’est vous ! } Ciel ! c’est à ma Rivale, }
+\livretVerse#8 { Que je suis venu declarer }
+\livretVerse#12 { Son triomphe éclatant, & ma peine fatale... }
+
+\livretScene\line { SCENE IV }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Tacmas, Fatime, } en Esclave Polonois,
+}
+\livretPers TACMAS
+\livretVerse#12 { Fatime, expliquez-moy vôtre déguisement. }
+\livretPers FATIME
+\livretVerse#12 { Au repos de mon cœur il étoit necessaire. }
+\livretVerse#8 { De ce cœur fidelle & sincere, }
+\livretVerse#8 { Il vient de calmer le tourment... }
+\livretVerse#8 { Je craignois vôtre changement. }
+\livretPers TACMAS
+\livretVerse#8 { Eh quoy ! trop injuste Fatime, }
+\livretVerse#8 { Vous m’avez soupçonné d’un crime, }
+\livretVerse#12 { Vous vous êtes livrée à des transports jaloux ! }
+\livretVerse#12 { Pour accuser mes feux, quelle preuve avez-vous ? }
+\livretPers FATIME
+\livretVerse#8 { La jalousie est-elle sage ? }
+\livretVerse#12 { L’aimable Aurore, en vain se leve sans nuage, }
+\livretVerse#8 { Et nous promet un jour charmant ; }
+\livretVerse#12 { Pour troubler l’Univers, il ne faut qu’un moment, }
+\livretVerse#12 { Nos cœurs comme les flots sont sujets à l’orage. }
+\livretPers ENSEMBLE
+\livretVerse#8 { Après l’orage, un doux repos }
+\livretVerse#8 { Calme les cœurs comme les flots. }
+\livretDidasP\line { On entend le Prélude de la Fête. }
+\livretPers TACMAS
+\livretVerse#12 { Fatime, ces Concerts nous annoncent la Fête }
+\livretVerse#12 { Qu’à la gloire des Fleurs, dans ce Bois on aprête : }
+\livretVerse#9 { Près de vous, je ne la verray pas ; }
+\livretVerse#12 { Près de vous, on ne peut penser qu’à vos appas. }
+
+\livretScene\line { SCENE V }
+\livretDescAtt\column {
+  \wordwrap-center { LA FESTE DES FLEURS }
+  \justify {
+    La Ferme s'ouvre ; alors tout le Théatre représente des Berceaux
+    illuminez & décorez de Guirlandes, & de Pots de Fleurs.
+    Des Symphonies & des Esclaves chantants sont distribuez dans des
+    Balcons de feüillages.  D'aimables Odaliques de diverse Nations
+    de l'Asie portent dans leurs coëffures & sur leurs habits, les
+    Fleurs les plus belles : L'une, a pour parure, la Rose ;
+    L'autre la Jonquille : Enfin, toutes se sigularisent par des
+    Fleurs differentes.
+  }
+}
+\livretPers CHŒUR
+\livretVerse#12 { Dans le sein de Thetis précipitez vos feux, }
+\livretVerse#12 { Fuyez, Astre du jour, laissez regner les ombres ; }
+\livretVerse#8 { Nuit, étendez vos voiles sombres ; }
+\livretVerse#12 { Vos tranquiles moments favorisent les Jeux. }
+\livretPers\line { TACMAS, \smaller { à \smallCaps FATIME. } }
+\livretVerse#8 { L’eclat des roses les plus belles }
+\livretVerse#8 { Disparoit bientot avec elles ; }
+\livretVerse#8 { En vain sur ce bord fortuné, }
+\livretVerse#8 { A chaque instant il en nait d’autres, }
+\livretVerse#13 { Il est moins orné par leurs attraits que par les votres. }
+\livretDesc\line { On danse. }
+\livretPers\line { Air italien }
+\livretVerse#4 { Fra le pupille }
+\livretVerse#4 { Di vaghe belle }
+\livretVerse#7 { Va volando il dio d’amor. }
+\livretVerse#5 { Il coro seno }
+\livretVerse#5 { E il suo trono, }
+\livretVerse#7 { Ma non puo regnar nel cuor. }
+\livretPers FATIME
+\livretVerse#8 { Triomphez agreables Fleurs, }
+\livretVerse#12 { Répandez vos parfums, ranimez vos couleurs. }
+\livretPers CHŒUR
+\livretVerse#8 { Triomphez, &c. }
+\livretPers FATIME
+\livretVerse#12 { C’est parmi vous qu’Amour cache sous la verdure }
+\livretVerse#12 { Ses feux les plus ardents, ses plus aimables traits : }
+\livretVerse#8 { Le Printemps vous doit ses atraits, }
+\livretVerse#12 { Vous parez la Saison qui pare la Nature. }
+\livretPers CHŒUR
+\livretVerse#8 { Triomphez, &c. }
+\livretPers FATIME
+\livretVerse#7 { Vous tenez le rang suprême }
+\livretVerse#7 { Sur les bords de nos Ruisseaux ; }
+\livretVerse#12 { Et vous embellissez dans les jours les plus beaux, }
+\livretVerse#4 { La Beauté même. }
+\livretPers CHŒUR
+\livretVerse#8 { Triomphez, &c. }
+\livretDesc\line { On danse. }
+\livretPers [FATIME]
+\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
+\livretVerse#8 { Arrête-toy, suspens le cours }
+\livretVerse#6 { De ta flâme volage. }
+\livretVerse#12 { Jamais si belles fleurs sous ce naissant ombrage, }
+\livretVerse#10 { N’ont merité de fixer tes amours. }
+\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
+\livretVerse#8 { Arrête-toy, suspens le cours }
+\livretVerse#6 { De ta flâme volage. }
+\livretDesc\column {
+  \wordwrap-center { BALLET DES FLEURS }
+  \justify {
+    Ce Ballet represente pittoresquement le sort des Fleurs dans un Jardin.
+    On les a personifiées ainsi que Borée & Zéphire, pour donner de l'ame
+    à cette Peinture galante, executée par d'aimables Esclaves de l'un &
+    de l'autre sexe. D'abords les Dleurs choisies qui peuvent briller
+    davantage au Théatre, dansent ensemble, & forment un Parterre qui varie
+    à chaque instant.  La Rose leur Reine, danse seule.  La Feste est
+    interrompuë par un orage qu'amene Borée ; les Fleurs en éprouvent la
+    colere, La Rose résiste plus long-temps à l'ennemy qui la persecure ;
+    les Pas de Borée expriment son impetuosité & sa fureur ; les attitudes
+    de la Rose, peignent sa douceur & ses craintes ; Zéphire arrive avec sa
+    clarté renaissante ; il ranime & releve les Fleurs abatues par la
+    tempête, & termine leur Triomphe & le sien par les hommages que sa
+    tendresse rend à la Rose.
+  }
+}
+\livretFinAct FIN
+
 }

@@ -1,6 +1,6 @@
 \livretAct\center-column {
+  \line\smaller { TROISIEME ENTRÉE }
   \line { LES SAUVAGES }
-  \line\smaller { NOUVELLE ENTRÉE }
 }
 \livretDescAtt\justify {
   Le Théatre représente un Bosquet d'une Forêt de l'Amerique,
@@ -31,8 +31,8 @@
 %# Helas ! dois-je toûjours
 %# Vous céder la victoire ?
 \livretDidasP\line { Les apercevant. }
-%# Dieux ! ils cherchent Zima... voudroit-elle changer ?
-%# Cachons-nous... découvrons ce que je dois en croire ;
+%# Ciel ! ils cherchent Zima... pouroit-elle changer ?
+%# Cachons-nous... apprenons ce que je dois en croire ;
 %# Sachons & si je dois, & sur qui me vanger.
 \livretDidasP\wordwrap {
   \smallCaps Adario se cache, à l'entré de la Forest & les observe.
@@ -57,7 +57,7 @@
 %# Un cœur qui change chaque jour,
 %# Chaque jour fait pour luy des Conquêtes nouvelles ;
 %# Les fidelles Amants font la gloire des Belles,
-%# Et les Amants legers font celle de l'Amour.
+%# Mais les Amants legers font celle de l'Amour.
 %# Dans ces Lieux fortunez c'est ainsi que l'on pense ;
 %# De la tiranique constance
 %# Les cœurs n'y suivent point les loix.
@@ -81,7 +81,7 @@
 %# Nous suivons sur nos bords l'innocente nature,
 %# Et nous n'aimons que d'un amour sans art.
 %# Nôtre bouche & nos yeux ignorent l'imposture ;
-%# Sous cette ri=ante verdure,
+%# Sous cette naissante verdure,
 %# S'il éclate un soupir, s'il échape un regard,
 %# C'est du cœur qu'il part.
 %# Nous suivons sur nos bords l'innocente nature,
@@ -147,7 +147,7 @@
 \livretPers ZIMA
 %#= C'est l'Amant que mon cœur vous préfere.
 \livretPers\line { ALVAR, \smaller { à \smaller ZIMA. } }
-%# Vos osez prononcer un Arrêt si fatal.
+%# Osez-vous prononcer un Arrêt si fatal.
 \livretPers ZIMA
 %# Dons nos Forest on est sincere.
 \livretPers\line { ALVAR, \smaller { montrant \smaller ADARIO. } }
@@ -168,13 +168,13 @@
 \livretDidasP\line { On entend un Prélude que annonce la Feste. }
 %# Déja dans les Bois d'allentour
 %# J'entends de nos Guerriers les bruy=antes Trompettes,
-%# Elles n'allarment plus ces aimables retraites,
-%# Leurs Concerts de la Paix annoncent le retour.
+%# Leurs sons n'effrayent plus ces aimables retraites,
+%# Des charmes de la paix ils marquent le retour.
 \livretDidasP\line { à \smallCaps Alvar. }
 %# A vos tristes regrets dérobez ce beau jour ;
 %# Que le plaisir avec nous vous arrête...
 \livretPers\line { ALVAR, \smaller { s'éloigant. } }
-%# Helas ! je dois cacher un malheureux amour !
+%# Helas ! je vais cacher un malheureux amour !
 \livretPers\line { DAMON, \smaller { le suivant. } }
 %# Venez plûtôt l'amuser à la Fête.
 
@@ -191,7 +191,7 @@
 %# Je vous dois la préference.
 %# De vous à vos Rivaux je vois la difference.
 %# L'un s'abandonne à la fureur,
-%# Et l'autre perd mon cœur avec indifférence ;
+%# Et l'autre prends mon cœur avec indifférence ;
 %# Nous ignorons ce calme & cette vi=olence.
 %# Sur nos Bords l'Amour vole & prévient nos désirs.
 %# Dans nôtre paisible retraite
@@ -205,7 +205,7 @@
 %# Hymen, viens nous unir d'une chaîne éternelle ;
 %# Viens encor de la Paix embellir les beaux jours ;
 %# Je te promets d'être fidelle ;
-%# Tu sçais nous captiver & nous plaire toûjours.
+%# Tu sçais nous enchainer & nous plaire toûjours.
 
 \livretScene\line { SCENE VI }
 \livretDescAtt\wordwrap-center {
@@ -265,4 +265,5 @@
   des Françoises en Amazones, des Bergers & Bergeres de la Colonie, au
   bruit des Trompettes, & au son des Musettes.
 }
-\livretFinAct FIN
+\livretFinAct\line { FIN DE LA TROISIÉME ENTRÉE }
+\sep

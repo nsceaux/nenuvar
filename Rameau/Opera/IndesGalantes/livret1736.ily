@@ -881,7 +881,7 @@
 \livretPers CHŒUR
 \livretVerse#12 { Dans le sein de Thetis précipitez vos feux, }
 \livretVerse#12 { Fuyez, Astre du jour, laissez regner les ombres ; }
-\livretVerse#8 { Nuit, étendez nos voiles sombres ; }
+\livretVerse#8 { Nuit, étendez vos voiles sombres ; }
 \livretVerse#12 { Vos tranquiles moments favorisent les Jeux. }
 \livretPers\line { TACMAS, \smaller { à \smallCaps FATIME. } }
 \livretVerse#8 { C’est vous qui faites mes beaux jours, }
@@ -1048,7 +1048,7 @@
 \livretVerse#6 { De gouter les douceurs }
 \livretVerse#8 { Que verse par tout l’inconstance. }
 \livretDidasP\line { à \smallCaps Zima. }
-\livretVerse#12 { Voilà vos sentimens : dons vos sages Climats, }
+\livretVerse#12 { Voilà vos sentimens : dans vos sages Climats, }
 \livretVerse#8 { L’inconstance n’est point un crime. }
 \livretPers ZIMA
 \livretVerse#12 { Non, mais vous oubliez, ou vous ne sçavez pas, }
@@ -1115,7 +1115,7 @@
 \livretDidasP\line { On entend un Prélude que annonce la Feste. }
 \livretVerse#8 { Déja dans les Bois d’allentour }
 \livretVerse#12 { J’entends de nos Guerriers les bruyantes Trompettes, }
-\livretVerse#12 { Elles n’allarment plus cas aimables retraites, }
+\livretVerse#12 { Elles n’allarment plus ces aimables retraites, }
 \livretVerse#12 { Leurs Concerts de la Paix annoncent le retour. }
 \livretDidasP\line { à \smallCaps Alvar. }
 \livretVerse#12 { A vos tristes regrets dérobez ce beau jour ; }
@@ -1152,7 +1152,7 @@
 \livretVerse#12 { Hymen, viens nous unir d’une chaîne éternelle ; }
 \livretVerse#12 { Viens encor de la Paix embellir les beaux jours ; }
 \livretVerse#8 { Je te promets d’être fidelle ; }
-\livretVerse#12 { Tusçais nous captiver & nous plaire toûjours. }
+\livretVerse#12 { Tu sçais nous captiver & nous plaire toûjours. }
 
 \livretScene\line { SCENE VI }
 \livretDescAtt\wordwrap-center {

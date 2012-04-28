@@ -1,7 +1,7 @@
 \livretAct\center-column {
-  \line { TROISIÉME ENTRÉE }
+  \line { QUATRIEME ENTRÉE }
   \line { LES FLEURS }
-  \line\smaller { FESTE PERSANE }
+  \line\smaller { FESTE ASIATIQUE }
 }
 \livretDescAtt\wordwrap-center {
   Le Théatre représente les Jardins de \smaller Tacmas.
@@ -30,10 +30,10 @@
 %# Cet Objet redoutable
 %# A mes regards encor ne s'est pas presenté ;
 %# Et peut-être ma crainte ajoûte à sa Beauté !
-%# Dans ce jour où des Fleurs on prépare la Fête,
+%# Dans ce jour où des Fleurs vous celebrons la Fête,
 %# J'espère la trouver sous ces sombres Ormeaux ;
 %# Et me livrant au soin qui dans ce bois m'arreste...
-%# Hélas ! je vais guerir ou redoubler mes maux !
+%# Hélas ! j'y vais guerir ou redoubler mes maux !
 \livretPers ROXANE
 %# Ah ! vôtre Amant peut-il être infidelle ?
 %# Pour le croire constant, il suffit de vous voir.
@@ -50,23 +50,16 @@
 %# Tout rit dans ce charmant séjour :
 %# Faut-il que seule j'y soupire ?
 %# Je brûle d'éclaircir le sort de mon amour...
-
-\livretScene\line { SCENE II }
-\livretDescAtt\wordwrap-center {
-  \smallCaps Fatime en Esclave Polonois,
-  \smallCaps { Roxane, Atalide. }
-}
 \livretPers FATIME
 %#- On vient.
 \livretPers\line { ROXANE, \smaller { se retirant. } }
 %#= C'est Atalide. Evitons sa présence.
-\livretPers\wordwrap-center {
-  ATALIDE, \smaller { à part, examinant \smaller Fatime. }
+
+\livretScene\line { SCENE II }
+\livretDescAtt\wordwrap-center {
+  \smallCaps Fatime en Esclave Polonois,
+  \smallCaps Atalide.
 }
-%# Cet Esclave est nouveau... risquons ma confidence.
-%# Mon foible cœur est las d'enfermer son secret ;
-%# Parlons, quand je devrois trouvez un indiscret,
-%# Je ne puis plus garder un funeste silence.
 \livretPers\wordwrap-center {
   FATIME, \smaller { à part, examinant \smaller Atalide. }
 }
@@ -77,9 +70,9 @@
 %#- Si vous suivez Tacmas...
 \livretPers FATIME
 %#= Je vis sous sa puissance,
-%# Je l'ay vû fort long-temps se fi=er à ma foy.
+%# Depuis longtemps il se fie a ma foy.
 \livretPers ATALIDE
-%# Vous possedez sa confiance ?
+%# Vous possedez sa confidence ?
 %# Que vous êtes heureux de pouvoir chaque jour
 %# Luy marquer vôtre zele !
 \livretPers FATIME
@@ -98,7 +91,7 @@
 %# La chaîne qui m'engage est faite
 %# Pour n'en briser jamais les nœuds.
 \livretPers\line { FATIME, \smaller { à part. } }
-%# Elle aime trop, hélas ! pour n'être point aimée...
+%# Elle aime trop, hélas ! pour n'être pas aimée...
 \livretDidasP\line { Vivement à \smallCaps Atalide. }
 %# Ah ! c'est d'un Inconstant que vous êtes charmée !
 %# Un Inconstant devroit-il être *heureux ?
@@ -149,7 +142,7 @@
 \livretPers TACMAS
 %# Eh quoy ! trop injuste Fatime,
 %# Vous m'avez soupçonné d'un crime,
-%# Vous vous êtes livrée =à des soupçons jaloux !
+%# Vous vous êtes livrée =à des transports jaloux !
 %# Pour accuser mes feux, quelle preuve avez-vous ?
 \livretPers FATIME
 %# La jalousie =est-elle sage ?
@@ -164,7 +157,7 @@
 \livretPers TACMAS
 %# Fatime, ces Concerts nous annoncent la Fête
 %# Qu'à la gloire des Fleurs, dans ce Bois on aprête :
-%# Allons-y ; près de vous, je ne la verray pas ;
+%# Près de vous, je ne la verray pas ;
 %# Près de vous, on ne peut penser qu'à vos appas.
 
 \livretScene\line { SCENE V }
@@ -187,39 +180,40 @@
 %# Nuit, étendez vos voiles sombres ;
 %# Vos tranquiles moments favorisent les Jeux.
 \livretPers\line { TACMAS, \smaller { à \smallCaps FATIME. } }
-%# C'est vous qui faites mes beaux jours,
-%# Que de Fleurs sous vos pas vont s'empresser de naître !
-%# Que de Zephirs, en les voyant paraître,
-%# Vont voler près de vous, & suivre les Amour !
+%# L'eclat des roses les plus belles
+%# Disparoit bientot avec elles ;
+%# En vain sur ce bord fortuné,
+%# A chaque instant il en nait d'autres,
+%# Il est moins orné par leurs attraits que par les votres.
 \livretDesc\line { On danse. }
-\livretPers ROXANE
+\livretPers\line { Air italien }
+%# Fra le pupille
+%# Di vaghe belle
+%# Va volando il dio d'amor.
+%# Il coro seno
+%# E il suo trono,
+%# Ma non puo regnar nel cuor.
+\livretPers FATIME
 %# Tri=omphez agre=ables Fleurs,
 %# Répandez vos parfums, ranimez vos couleurs.
 \livretPers CHŒUR
 %#8 Triomphez, &c.
-\livretPers ROXANE
+\livretPers FATIME
 %# C'est parmi vous qu'Amour cache sous la verdure
 %# Ses feux les plus ardents, ses plus aimables traits :
 %# Le Printemps vous doit ses atraits,
 %# Vous parez la Saison qui pare la Nature.
 \livretPers CHŒUR
 %#8 Triomphez, &c.
-\livretPers ROXANE
+\livretPers FATIME
 %# Vous tenez le rang suprême
 %# Sur les bords de nos Ruisseaux ;
 %# Et vous embellissez dans les jours les plus beaux,
 %# La Beauté même.
 \livretPers CHŒUR
 %#8 Triomphez, &c.
-\livretPers FATIME
-%# Regnez Amours, volez Zephirs,
-%# De nos Bois vous faites les charmes...
-%# Fuy=ez soupçons fâcheux, fuy=ez tristes allarmes,
-%# Gardez-vous d'occuper le séjour des plaisirs.
-%# Regnez Amours, volez Zéphirs,
-%# De nos Bois vous faites les charmes...
 \livretDesc\line { On danse. }
-\livretPers FATIME
+\livretPers [FATIME]
 %# Papillon inconstant, vole dans ce Boccage,
 %# Arrête-toy, suspens le cours
 %# De ta flâme volage.
@@ -246,5 +240,5 @@
     tendresse rend à la Rose.
   }
 }
-\livretFinAct\line { FIN [DE LA TROISIÉME ENTRÉE] }
-\sep
+\livretFinAct FIN
+
