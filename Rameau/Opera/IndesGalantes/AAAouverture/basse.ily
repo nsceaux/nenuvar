@@ -28,11 +28,11 @@ do,2 r4 do |
 dod2. la,4 |
 re2 r |
 R1*3 |
-\clef "tenor" r4-\tag #'basse ^"Bassons" la8 si dod' re' mi' fad' |
+\clef "tenor" r4^"Bassons" la8 si dod' re' mi' fad' |
 sol'4 sol sol' sol |
 sol'2 r8 sol' fad' mi' |
 fad'4 sol' la' la |
-re'4 \clef "bass" re8-\tag #'basse ^"Tous" mi fad sol la si |
+re'4 \clef "bass" re8^"Tous" mi fad sol la si |
 do'4 re do' re |
 do'2~ do'8 mi' re' do' |
 si2 r |
@@ -47,7 +47,7 @@ mi sol mi si, |
 do la, si, si, |
 mi,2 r |
 \origVersion\clef "tenor"
-r2-\tag #'basse ^"Bassons" r4 <<
+r2^"Bassons" r4 <<
   { mi'4 |
     mi'1~ |
     mi'~ |
@@ -62,26 +62,26 @@ r2-\tag #'basse ^"Bassons" r4 <<
   }
 >>
 \origVersion\clef "bass"
-mi8-\tag #'basse ^"Tous" fad sold la si do' |
+mi8^"Tous" fad sold la si do' |
 re'4 mi re' mi |
 re'2~ re'8 re' mi' re' |
 do' do' re' do' si si do' si |
 la2. sol4 |
 fa2 do |
 re mi |
-la,4 \clef "tenor" la8-\tag #'basse ^"Bassons" si dod' re' mi' fad' |
+la,4 \clef "tenor" la8^"Bassons" si dod' re' mi' fad' |
 sol'4 la sol' la |
 fad' sol'8 fad' mi'4 la' |
 re'2. do'4 |
-si8 \clef "basse" sol-\tag #'basse ^"Tous" fad mi re do si, la, |
+si8 \clef "basse" sol^"Tous" fad mi re do si, la, |
 sol,4 sol fa sol |
 mi sol do re8 mi |
 re2 la, |
 re, r |
-r2-\tag #'basse ^"Bassons" r4 re' |
+r2^"Bassons" r4 re' |
 << { re'1~ | re'~ | re' | re'4 }
   \\ { sol2. sol4 | re2. re4 | sol,2. sol,4 | re,4 } >>
-re8-\tag #'basse ^"Tous" mi fad sol la si |
+re8^"Tous" mi fad sol la si |
 do'4 re do' re |
 do'2~ do'8 mi' re' do' |
 si2 r4 si, |
@@ -93,10 +93,10 @@ R1 |
 r4 sol,8 la, si, do re mi |
 fa2 r |
 \origVersion\clef "tenor"
-r4-\tag #'basse ^"Bassons" sol8 la si do' re' mi' |
+r4^"Bassons" sol8 la si do' re' mi' |
 fa'2 r |
 \origVersion\clef "bass"
-r4-\tag #'basse ^"Tous" si,8 do re mi fa re |
+r4^"Tous" si,8 do re mi fa re |
 mi fa sol fa mi fa mi re |
 do re mi re do re do si, |
 la, si, do si, la, sol, fad, mi, |

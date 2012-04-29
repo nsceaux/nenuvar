@@ -62,9 +62,9 @@
 #`((dessus "" () (#:notes "dessus" #:tag-notes dessus))
    
    (violons "Violons" ((dessus #f))
-            (#:notes "dessus" #:tag-notes violon))
+            (#:notes "dessus" #:tag-notes violons))
    (flutes "Flûtes" ((dessus #f) (violons "Violons"))
-           (#:notes "dessus" #:tag-notes flute))
+           (#:notes "dessus" #:tag-notes flutes))
    (hautbois "Hautbois" ((dessus #f) (violons "Violons"))
              (#:notes "dessus" #:tag-notes hautbois))
    (trompette "Trompette" ()

@@ -66,17 +66,13 @@ mi''2 r |
   sold'2
 }
 <<
-  \tag #'hautbois1 { \hbI r2 }
-  \tag #'hautbois2 { \hbII r2 }
-  \tag #'dessus { << { s4*0^"Hautbois" \hbI } \\ \hbII >> r2 }
-  \tag #'(violon1 flute1) <<
-    \new Voice { \voiceTwo R1*5 }
-    \new CueVoice { \voiceOne s4*0^"Hautbois" \hbI si'2\rest } >>
-  \tag #'(violon2 flute2) <<
-    \new Voice { \voiceTwo R1*5 }
-    \new CueVoice { \voiceOne s4*0^"Hautbois" \hbII si'2\rest } >>
+  \tag #'(dessus hautbois) { << { s4*0^"Hautbois" \hbI } \\ \hbII >> r2 }
+  \tag #'(violons flutes) <<
+    \new CueVoice { \voiceOne s4*0^"Hautbois" \hbI \oneVoice r2 }
+    \new CueVoice { \voiceTwo \hbII }
+  >>
 >>
-r8-\tag #'dessus ^"[Tous]" mi'' re'' do'' si' la' sold' fad' |
+r8-\tag #'(dessus hautbois) ^"[Tous]" mi'' re'' do'' si' la' sold' fad' |
 mi'2~ mi'8 sold'? fad' sold' |
 la' si' sold' la' si' do'' la' si' |
 do''2~ do''8 re'' si' do'' |
@@ -107,46 +103,28 @@ la''2 r |
   fad'2\trill
 }
 <<
-  \tag #'hautbois1 { \hbI r2 }
-  \tag #'hautbois2 { \hbII r2 }
-  \tag #'dessus { << { s4*0^"Hautbois" \hbI } \\ \hbII >> r2 }
-  \tag #'(violon1 flute1) <<
-    \new Voice { \voiceTwo R1*5 }
-    \new CueVoice { \voiceOne s4*0^"Hautbois" \hbI si'2\rest } >>
-  \tag #'(violon2 flute2) <<
-    \new Voice { \voiceTwo R1*5 }
-    \new CueVoice { \voiceOne s4*0^"Hautbois" \hbII si'2\rest } >>
+  \tag #'(dessus hautbois) { << { s4*0^"Hautbois" \hbI } \\ \hbII >> r2 }
+  \tag #'(violons flutes) <<
+    \new CueVoice { \voiceOne s4*0^"Hautbois" \hbI \oneVoice r2 }
+    \new CueVoice { \voiceTwo \hbII }
+  >>
 >>
 R1 |
-r4-\tag #'dessus ^"Tous" re''8 mi'' fad'' sol'' la'' fad'' |
+r4-\tag #'(dessus hautbois) ^"Tous" re''8 mi'' fad'' sol'' la'' fad'' |
 sol'' fad'' mi'' re'' do'' si' la' sol' |
 mi'' re'' do'' si' la' sol' fad' mi' |
 re' mi' fad' sol' la' si' do'' la' |
 re''4. mi''8 la'4.\trill sol'8 |
 sol' la' si' do'' re'' mi'' fad'' re'' |
 <<
-  \tag #'(hautbois1 flute1 violon1) {
-    sol''4 re' sol'' re' |
+  \tag #'(hautbois flutes) {
+    <sol'' si'>4 re' <sol'' si'> re' |
     sol''1~ |
-    sol''4 re' sol'' re' |
+    <sol'' si'>4 re' <sol'' si'> re' |
     sol''1\trill ~ |
-    sol''4 re' sol'' re' |
+    <sol'' si'>4 re' <sol'' si'> re' |
   }
-  \tag #'(hautbois2 flute2) {
-    si'4 re' si' re' |
-    si'1~ |
-    si'4 re' si' re' |
-    si'1\trill ~ |
-    si'4 re' si' re' |
-  }
-  \tag #'violon2 {
-    si'4 sol si' sol |
-    sol''1 |
-    si'4 sol si' sol |
-    sol''1\trill |
-    si'4 sol si' sol |
-  }
-  \tag #'dessus {
+  \tag #'(dessus violons) {
     <sol'' si'>4 <re' sol> <sol'' si'> <re' sol> |
     sol''1~ |
     <sol'' si'>4 <re' sol> <sol'' si'> <re' sol> |
@@ -162,10 +140,8 @@ fad' sol' fad' sol' la' si' do'' la' |
 re''4. mi''8 la'4.\trill sol'8 |
 sol' la' si' do'' re'' mi'' fad'' re'' |
 <<
-  \tag #'(hautbois1 flute1 violon1) { sol''4 re' sol'' re' | }
-  \tag #'(hautbois2 flute2) { si'4 re' si' re' | }
-  \tag #'violon2 { si'4 sol si' sol | }
-  \tag #'dessus { <sol'' si'>4 <re' sol> <sol'' si'> <re' sol> | }
+  \tag #'(hautbois flutes) { <sol'' si'>4 re' <sol'' si'> re' | }
+  \tag #'(dessus violons) { <sol'' si'>4 <re' sol> <sol'' si'> <re' sol> | }
 >>
 sol''1\trill ~ |
 sol''\fermata |
