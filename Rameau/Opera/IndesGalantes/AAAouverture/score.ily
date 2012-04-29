@@ -8,7 +8,7 @@
       \origVersion {
         s1*17 s4*0_\markup\huge\italic "Reprise" \label #'AAAreprise
         s1*81 s4*0_\markup\huge\italic "fin"
-        s1*3 s4*0_\markup\huge\italic { page \page-refI #'AAAreprise \null }
+        s1*3 s4*0_\markup\huge\italic { page \page-refI #'AAAreprise e }
       }
     >>
     \new Staff <<

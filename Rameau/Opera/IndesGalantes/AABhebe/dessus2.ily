@@ -7,18 +7,16 @@
   la'8
 }
 <<
-  \tag #'violon2 \vln
-  \tag #'flute2 << { \voiceOne R2.*4 mi''8\rest }
-    \new CueVoice { \voiceTwo s4*0^"Violons" \vln } >>
-  \tag #'dessus2 { s4*0^"Violons" \vln }
+  \tag #'flute2 { R2.*4 r8 }
+  \tag #'(dessus2 violon2) { s4*0^"violons" \vln }
 >>
-si'16-\tag #'dessus2 ^"Flûtes et violons" dod'' red'' mi'' red'' mi'' fad'' sol'' fad'' sol'' |
+si'16-\tag #'dessus2 ^"flutes et viol[ons]" dod'' red'' mi'' red'' mi'' fad'' sol'' fad'' sol'' |
 la''2~ la''8. sol''16 |
 fad''4. fad''8 red'' fad'' |
 si'8. do''16 si'4 la' |
 sol'2 r4 |
 R2. |
-r2 r8 re'' |
+r4 r r8 re'' |
 re''4. do''8 re'' mi'' |
 la'2 fad''8. sol''16 |
 fad''2\trill fad''8. sol''16 |
@@ -32,7 +30,7 @@ la''4. la''8 re''4~ |
 re''8 sol'' fad''4.\trill sol''8 |
 sol''2 r4 |
 R2. |
-r2 fad'4 |
+r4 r fa'4 |
 mi'2 r8 do'' |
 do''2 do''4 |
 si'2 r8 mi'' |
@@ -60,5 +58,5 @@ si'16 do'' la' si' si'8.(\trill la'32 si') do''4 |
 do''4.( si'8) re'' r |
 r4 mi''4. si'8 |
 \appoggiatura si'8 do''2 r4 |
-R2.*13 |
-
+\origVersion R2.*12
+\modVersion R2.*13 |

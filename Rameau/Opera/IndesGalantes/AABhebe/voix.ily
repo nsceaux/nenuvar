@@ -2,7 +2,7 @@
 mi''2 si'8 do'' |
 la'4.\trill sol'8 fad'\trill mi' |
 si'2 r8 sol' |
-sol'4. la'8 si' dod'' |
+sol'4. la'8 si' dod''? |
 re''2 si'8 mi'' |
 red''2 red''8 mi'' |
 fad''2 r8 sol'' |
@@ -11,7 +11,7 @@ mi''2 do''8 la' |
 re''2 re''8 re' |
 sol'2 r4 |
 R2.*3 |
-r2 r8 re'' |
+r4 r r8 re'' |
 re''2.~ |
 re''4 r8 fad'16 sol' la'[ si' la' si']( |
 do''2) r8 mi'' |
@@ -24,7 +24,7 @@ fad''2 r4 |
 r8 si'16 dod'' red''[\melisma mi'' red'' mi''] fad''[ sol'' fad'' sol''] |
 la''2.~ |
 la''2\melismaEnd fad''8 red'' |
-mi''8[ re''16 do''] si'4. mi''8 |
+mi''8[ re''!16 do''] si'4. mi''8 |
 mi''2. |
 R2.*5 |
 r4\fermata sol'4 sol' |
@@ -49,4 +49,5 @@ lad'4. fad'8 dod'' re'' |
 mi''2( lad'8) si' |
 re''4( dod''2)\trill |
 si'2. |
-mi''2 si'8 do'' |
+\origVersion { \custosNote mi''4 }
+\modVersion { mi''2 si'8 do'' | }

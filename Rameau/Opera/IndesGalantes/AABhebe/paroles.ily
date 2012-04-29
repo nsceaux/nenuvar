@@ -1,16 +1,16 @@
-Vous, qui d'Hé -- bé sui -- vez les lois,
-ve -- nez, ras -- sem -- blez- vous, ac -- cou -- rez à ma voix,
-ve -- nez, ras -- sem -- blez- vous, ac -- cou -- rez à ma voix,
-ve -- nez, __ ac -- cou -- rez __
-ve -- nez, __ ac -- cou -- rez __
-ras -- sem -- blez- vous, ac -- cou -- rez à ma voix,
-ac -- cou -- rez __ ac -- cou -- rez à ma "voix !"
+Vous, qui d’He -- bé sui -- vez les loix,
+Ve -- nez, ras -- sem -- blez- vous ac -- cou -- rez à ma voix,
+Ve -- nez, ras -- sem -- blez- vous ac -- cou -- rez à ma voix,
+Ve -- nez, __ ac -- cou -- rez __
+Ve -- nez, __ ac -- cou -- rez __
+ras -- sem -- blez- vous ac -- cou -- rez à ma voix,
+ac -- cou -- rez __ ac -- cou -- rez à ma voix.
 
-Vous chan -- tez __ dès que l'au -- ro -- re
-é -- clai -- re ce beau sé -- jour,
-vous com -- men -- cez a -- vec le jour
-les jeux bril -- lants de Terp -- si -- cho -- "re ;"
-Les doux ins -- tants que vous don -- ne l'A -- mour
-vous sont plus chers en -- co -- re.
+Vous chan -- tez __ dès que l’Au -- ro -- re
+E -- clai -- re ce beau sé -- jour :
+Vous com -- men -- cez a -- vec le jour
+Les Jeux bril -- lans de Terp -- si -- co -- re ;
+Les doux ins -- tans que vous don -- ne l’A -- mour
+Vous sont plus chers en -- co -- re.
 
-Vous, qui "d'Hé -"
+\modVersion { Vous, qui d’He_- }

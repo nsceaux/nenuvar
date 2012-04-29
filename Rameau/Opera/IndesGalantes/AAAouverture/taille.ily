@@ -29,7 +29,7 @@ do'4 do' si fa' |
 mi'2 r4 sol' |
 \myfootnote #'NoteHead #'(0 . 1) \markup {
   Manuscrit : \raise #3 \score {
-    { \key sol \major \time 2/2 \clef "mezzosoprano"
+    { \tinyQuote \key sol \major \time 2/2 \clef "mezzosoprano"
       sol'2.*2/3 la2
     }
     \layout { \quoteLayout }
