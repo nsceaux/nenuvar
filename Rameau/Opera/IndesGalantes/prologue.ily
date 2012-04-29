@@ -12,16 +12,18 @@
 %{ n°2 %}\newBookPart #'(full-rehearsal)
 \scene "Scene Première" "Scene 1 : Hebé"
 \sceneDescription\markup\wordwrap-center\smallCaps { Hebé }
-\pieceToc\markup { HEBÉ : \italic { Vous, qui d'Hebé suivez les loix } }
+\pieceToc\markup\wordwrap {
+  HEBÉ : \italic { Vous, qui d'Hebé suivez les loix }
+}
 \includeScore "AABhebe"
 
 %{ n°3 %}
-\scene "Scene II" \markup \wordwrap { Scene 2 : Troupe de jeunesse française, espagnole, italienne et polonaise }
-\pieceTocTitle "Entrée des quatre Nations"
+\scene "[Scene II]" \markup\wordwrap { Scene 2 : Hebé, suite d'Hebé }
 \sceneDescription \markup \wordwrap-center {
-  Troupe de jeunesse française, espagnole, italienne et polonaise, qui
-  accourt et forme des danses gracieuses.
+  \smallCaps [Hebé, Troupe de Jeunesse Françoise, Espagnole,
+  Italienne & Polonoise, qui accourt & forme des Danses gracieuses.]
 }
+\pieceTocTitle "Entrée de la suite d'Hebé"
 \includeScore "ABAentree"
 
 %{ n°4 %}

@@ -59,7 +59,7 @@
 \opusTitle "Les Indes Galantes"
 
 \opusPartSpecs
-#`((dessus "" () (#:notes "dessus" #:tag-notes dessus))
+#`((dessus "Violons, Flûtes, Hautbois" () (#:notes "dessus" #:tag-notes dessus))
    
    (violons "Violons" ((dessus #f))
             (#:notes "dessus" #:tag-notes violons))

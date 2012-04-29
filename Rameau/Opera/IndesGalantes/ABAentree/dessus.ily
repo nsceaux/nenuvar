@@ -38,5 +38,5 @@ si'2 red''4 |
 \appoggiatura red''8 mi''2 la'4\trill |
 sold'4 la'8.( si'16) do''4 |
 red' si' la' |
-la' sol'8. la'16 fad'4 |
+la' sol'8. la'16 fad'4\trill |
 mi'2

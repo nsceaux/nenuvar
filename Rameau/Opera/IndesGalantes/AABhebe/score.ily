@@ -35,32 +35,35 @@
     >>
 
     \modVersion\new StaffGroup <<
-      \new GrandStaff \with { shortInstrumentName = "fl" } <<
+      \new GrandStaff \with {
+        instrumentName = "[Flutes]"
+        shortInstrumentName = "fl"
+      } <<
         \new Staff <<
-          \instrumentName\markup { \concat { [P \super res } flutes] }
           \global \keepWithTag #'flute1 \includeNotes "dessus1" >>
         \new Staff <<
-          \instrumentName\markup { \concat { [2 \super des } flutes] }
           \global \keepWithTag #'flute2 \includeNotes "dessus2" >>
       >>
-      \new GrandStaff \with { shortInstrumentName = "vl" } <<
+      \new GrandStaff \with {
+        instrumentName = "[Violons]"
+        shortInstrumentName = "vl"
+      } <<
         \new Staff <<
-          \instrumentName\markup { \concat { [P \super rs } violons] }
           \global \keepWithTag #'violon1 \includeNotes "dessus1" >>
         \new Staff <<
-          \instrumentName\markup { \concat { [2 \super ds } violons] }
           \global \keepWithTag #'violon2 \includeNotes "dessus2" >>
       >>
-      \new GrandStaff \with { shortInstrumentName = "vl" } <<
-        \new Staff  <<
-          \instrumentName\markup { \concat { [3 \super es } violons] }
-          \global \includeNotes "dessus3"
-        >>
+      \new GrandStaff \with {
+        instrumentName = "[Violons]"
+        shortInstrumentName = "vl" } <<
+        \new Staff  << \global \includeNotes "dessus3" >>
       >>
-      \new GrandStaff \with { shortInstrumentName = "H" } <<
+      \new GrandStaff \with {
+        instrumentName = \markup\character Hebé
+        shortInstrumentName = "H"
+      } <<
         \new Staff \with { \consists "Metronome_mark_engraver" }
         \withLyrics <<
-          \characterName "Hebé"
           \global \includeNotes "voix"
         >> \includeLyrics "paroles"
       >>
