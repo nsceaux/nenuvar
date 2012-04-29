@@ -76,8 +76,8 @@ mi''2 r |
     \new Voice { \voiceTwo R1*5 }
     \new CueVoice { \voiceOne s4*0^"Hautbois" \hbII si'2\rest } >>
 >>
-r8-\tag #'dessus ^"Tous" mi'' re'' do'' si' la' sold' fad' |
-mi'2~ mi'8 sold' fad' sold' |
+r8-\tag #'dessus ^"[Tous]" mi'' re'' do'' si' la' sold' fad' |
+mi'2~ mi'8 sold'? fad' sold' |
 la' si' sold' la' si' do'' la' si' |
 do''2~ do''8 re'' si' do'' |
 re'' mi'' do'' re'' mi'' fa'' re'' mi'' |
@@ -171,3 +171,4 @@ sol''1\trill ~ |
 sol''\fermata |
 r4 re'8 mi' fad' sol' la' si' |
 do''4 re' do'' re' |
+\origVersion\custosNote do''4

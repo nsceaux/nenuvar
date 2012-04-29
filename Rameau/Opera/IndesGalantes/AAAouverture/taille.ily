@@ -27,7 +27,14 @@ sol'8 do' mi' fa' sol'4 fa'8 mi' |
 fa'2. re'4 |
 do'4 do' si fa' |
 mi'2 r4 sol' |
-sol'2 la |
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #3 \score {
+    { \key sol \major \time 2/2 \clef "mezzosoprano"
+      sol'2.*2/3 la2
+    }
+    \layout { \quoteLayout }
+  }
+} sol'2 la |
 la r |
 R1 |
 r4 re'8 mi' fad' sol' la' fad' |
@@ -55,7 +62,7 @@ r8 mi'' re'' do'' si' la' sold' fad' |
 mi' mi' fa' mi' re' re' mi' re' |
 do' mi' fad' sold' la'4 mi' |
 fa'2 mi'~ |
-mi'4 fa'8 mi' re'4. mi'8 |
+mi'4 fa'?8 mi' re'4. mi'8 |
 dod'4 la8 si dod' re' mi' fad' |
 sol'4 la sol' la |
 fad'4 sol'8 fad' mi'4 la' |
@@ -93,3 +100,4 @@ sol8 la si do' re' mi' fad' re' |
 sol'4 sol sol' sol |
 re'1\fermata |
 R1*2 |
+\origVersion\custosNote la4

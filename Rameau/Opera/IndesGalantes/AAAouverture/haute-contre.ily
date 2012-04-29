@@ -55,7 +55,7 @@ la' mi' fad' sold' la'2 |
 la' la' |
 la' sold'4. la'8 |
 la'4 la8 si dod' re' mi' fad' |
-sol'4 sol sol' sol |
+sol'4 la sol' la |
 fad'4 sol'8 fad' mi'4 la' |
 re' fad'8 sol' la' si' do'' la' |
 re''1 |
@@ -91,3 +91,4 @@ sol8 la si do' re' mi' fad' re' |
 sol'4 sol sol' sol |
 si'1\trill\fermata |
 R1*2 |
+\origVersion\custosNote la4

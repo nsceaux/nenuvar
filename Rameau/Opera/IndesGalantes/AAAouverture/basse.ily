@@ -46,6 +46,7 @@ si,4 si red si |
 mi sol mi si, |
 do la, si, si, |
 mi,2 r |
+\origVersion\clef "tenor"
 r2-\tag #'basse ^"Bassons" r4 <<
   { mi'4 |
     mi'1~ |
@@ -58,7 +59,10 @@ r2-\tag #'basse ^"Bassons" r4 <<
     mi2 r4 mi |
     la,2 r4 la, |
     mi,4
-  } >> mi8-\tag #'basse ^"Tous" fad sold la si do' |
+  }
+>>
+\origVersion\clef "bass"
+mi8-\tag #'basse ^"Tous" fad sold la si do' |
 re'4 mi re' mi |
 re'2~ re'8 re' mi' re' |
 do' do' re' do' si si do' si |
@@ -70,7 +74,7 @@ sol'4 la sol' la |
 fad' sol'8 fad' mi'4 la' |
 re'2. do'4 |
 si8 \clef "basse" sol-\tag #'basse ^"Tous" fad mi re do si, la, |
-sol,4 sol fad sol |
+sol,4 sol fa sol |
 mi sol do re8 mi |
 re2 la, |
 re, r |
@@ -88,8 +92,10 @@ mi2 r |
 R1 |
 r4 sol,8 la, si, do re mi |
 fa2 r |
+\origVersion\clef "tenor"
 r4-\tag #'basse ^"Bassons" sol8 la si do' re' mi' |
 fa'2 r |
+\origVersion\clef "bass"
 r4-\tag #'basse ^"Tous" si,8 do re mi fa re |
 mi fa sol fa mi fa mi re |
 do re mi re do re do si, |
