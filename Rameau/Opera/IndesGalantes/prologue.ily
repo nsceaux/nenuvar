@@ -19,7 +19,7 @@
 
 %{ n°3 %}
 \scene "[Scene II]" \markup\wordwrap { Scene 2 : Hebé, suite d'Hebé }
-\sceneDescription \markup \wordwrap-center {
+\sceneDescription\markup\wordwrap-center {
   \smallCaps [Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.]
 }
@@ -27,26 +27,36 @@
 \includeScore "ABAentree"
 
 %{ n°4 %}
-\pieceToc \markup { Hébé : \italic { Amants sûrs de plaire } }
+\pieceToc\markup\wordwrap { HEBÉ : \italic { Amants, surs de plaire } }
 \includeScore "ABBhebe"
 
 %{ n°5 %}
-\pieceTocTitle "Air grave pour deux Polonais" \includeScore "ABCair"
+\pieceTocTitle "Air pour deux Polonois"
+\includeScore "ABCair"
 
 %{ n°6 %}
-\pieceToc \markup { Hébé, chœur : \italic { Musettes, résonnez dans ce riant bocage } }
+\pieceToc\markup\wordwrap {
+  HEBÉ, CHŒUR : \italic { Musettes, résonnez dans ce riant Boccage, }
+}
 \includeScore "ABDhebeChoeur"
 
 %{ n°7 %}
-\pieceTocTitle "Musette en rondeau" \includeScore "ABErondeau"
+\sceneDescription\markup\wordwrap-center {
+  Danse d'Amants & d'Amantes de la suite \concat { d' \smallCaps Hebé, }
+  interrompues par le bruit des Tambours.
+}
+\pieceTocTitle "Musette en rondeau"
+\includeScore "ABErondeau"
 
 %{ n°8 %}
-\pieceToc \markup { Hébé :  \italic { Qu'entends-je ! } }
+\pieceToc\markup\wordwrap {
+  HEBÉ :  \italic { Qu'entends-je ? les Tambours font taire nos Musettes ! }
+}
 \includeScore "ABFhebe"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°9 %}
-\scene "Scene III" "Scene 3 : Bellone, Hébé et sa suite"
+\scene "Scene III" "Scene 3 : Bellone, Hebé & sa suite"
 \sceneDescription \markup \left-align \center-column {
   \line { \smallCaps Bellone, \smallCaps Hébé et sa suite.}
   \wordwrap-center {

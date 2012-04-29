@@ -1,17 +1,18 @@
-A -- mants sûrs de plai -- re,
-sui -- vez votre ar -- "deur !"
-A -- mants sûrs de plai -- re,
-sui -- vez votre ar -- "deur !"
-Chan -- tez __ chan -- tez vo -- tre bon -- heur,
-mais sans of -- fen -- ser le mys -- tè -- "re !"
-Chan -- tez __ chan -- tez __ chan -- tez __ vo -- tre bon -- heur,
-mais sans of -- fen -- ser le mys -- tè -- "re !"
-Chan -- tez __ vo -- tre bon -- heur,
-mais sans of -- fen -- ser le mys -- tè -- "re !"
+A -- mants, surs de plai -- re
+Sui -- vez vôtre ar -- deur,
+A -- mants, surs de plai -- re
+Sui -- vez vôtre ar -- deur,
+Chan -- tez __ Chan -- tez vô -- tre bon -- heur,
+Mais sans of -- fen -- ser le mis -- te -- re.
+Chan -- tez __ Chan -- tez __ Chan -- tez __ vô -- tre bon -- heur,
+Mais sans of -- fen -- ser le mis -- te -- re.
+Chan -- tez __ vô -- tre bon -- heur,
+Mais sans of -- fen -- ser le mis -- te -- re.
 
-Il est pour un ten -- dre coeur
-des biens dont le se -- cret au -- gmen -- te la dou -- ceur.
-Son -- gez son -- gez qu'il faut les tai -- re
-son -- gez qu'il faut les tai -- "re !"
+Il est pour un ten -- dre cœur
+Des biens dont le se -- cret aug -- men -- te la dou -- ceur,
+Son -- gez son -- gez qu’il faut les tai -- re.
+Son -- gez qu’il faut les tai -- re.
 
-"A -"
+\origVersion { A -- mants, }
+\modVersion A_-

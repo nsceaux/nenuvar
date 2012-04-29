@@ -41,7 +41,7 @@
 %# Mais sans offenser le mistere.
 %# Il est pour un tendre cœur
 %# Des biens dont le secret augmente la douceur,
-%# Songez qu'il faut les taires.
+%# Songez qu'il faut les taire.
 %# Amants, seurs de plaire
 %# Suivez vôtre ardeur,
 %# Chantez vôtre bonheur,

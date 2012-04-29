@@ -80,7 +80,14 @@ re mi mi, |
 la,4 r8 |
 R4.*3 |
 si16( la) sol( fad) sol( mi) |
-do'8. do'16 si16.\trill la32 |
+\myfootnote #'NoteHead #'(0 . 1) \markup {
+  Manuscrit : \raise #4 \score {
+    { \tinyQuote \key sol \major \time 3/8 \clef "bass"
+      do'8.[ do'16] si8.*1/2[\trill la16*1/2] |
+    }
+    \layout { \quoteLayout }
+  }
+} do'8. do'16 si16.\trill la32 |
 si8 si,4 |
 mi4 r8 |
 si, r4 |
@@ -88,3 +95,4 @@ do4 si,8 |
 la,4. |
 re8 sol,4 |
 re,8 re' do' |
+\origVersion\custosNote si8

@@ -197,6 +197,7 @@ custosNote =
               \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
               \once \override Voice.NoteHead #'text =
               #(markup #:null #:raise 0.0 #:musicglyph "custodes.mensural.u0")
+              \once \override Voice.Flag #'stencil = ##f
               \once \override Voice.Stem #'stencil = ##f #}
               note)))
 

@@ -1,2 +1,1 @@
-r8\noBreak R4.*22\noBreak R4.*43\noBreak R4.*9\noBreak r4\noBreak
-r8\noBreak R4.*18
+r8 R4.*22 R4.*43 R4.*9 r4 r8 R4.*18
