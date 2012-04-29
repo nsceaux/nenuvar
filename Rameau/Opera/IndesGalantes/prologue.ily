@@ -3,8 +3,8 @@
 %%%
 %{ n°1 %}\newBookPart #'()
 \actn "Prologue"
-\sceneDescription \markup \fill-line {
-  \line { Le Théâtre représente le palais d'Hébé. }
+\sceneDescription\markup\wordwrap-center {
+  Le Theâtre représente le Palais \concat { d' \smallCaps Hebé. }
 }
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"

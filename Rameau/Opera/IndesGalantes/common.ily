@@ -2,7 +2,6 @@
   copyrightYear = "2010"
   composer = "Jean-Philippe Rameau"
   poet = "Louis Fuzelier"
-  date = "Version de 1743"
   subtitle = "Ballet Héroïque"
 }
 
@@ -20,6 +19,7 @@
 
 %% use baroque style repeats
 #(ly:set-option 'baroque-repeats (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'baroque-repeat-bar "://:")
 
 %% Staff size:
 %%  14 for lead sheets
@@ -61,21 +61,28 @@
 \opusPartSpecs
 #`((dessus "" () (#:notes "dessus" #:tag-notes dessus))
    
-   (violon1 "Violon I" ((dessus #f)) (#:notes "dessus" #:tag-notes violon1))
-   (violon2 "Violon II" ((dessus #f)) (#:notes "dessus" #:tag-notes violon2))
-   (flute1 "Flûte I" ((dessus #f) (violon1 "Violons")) (#:notes "dessus" #:tag-notes flute1))
-   (flute2 "Flûte II" ((dessus #f) (violon2 "Violons")) (#:notes "dessus" #:tag-notes flute2))
-   (hautbois1 "Hautbois I" ((dessus #f) (violon1 "Violons")) (#:notes "dessus" #:tag-notes hautbois1))
-   (hautbois2 "Hautbois II" ((dessus #f) (violon2 "Violons")) (#:notes "dessus" #:tag-notes hautbois2))
-   (trompette "Trompette" () (#:notes "dessus" #:tag-notes trompette))
-
-   (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
-   (taille "Taille" () (#:notes "taille" #:clef "alto"))
-   (basse "Basses" () (#:notes "basse" #:clef "basse" #:tag-notes basse))
-   (basson "Basson" ((basse #f)) (#:notes "basse" #:clef "basse" #:tag-notes basson))
-   (timbales "Timbales" () (#:notes "basse" #:clef "basse" #:tag-notes timbales))
-
-   (voix "Parties vocales" () (#:score "score-voix")))
+   (violons "Violons" ((dessus #f))
+            (#:notes "dessus" #:tag-notes violon))
+   (flutes "Flûtes" ((dessus #f) (violons "Violons"))
+           (#:notes "dessus" #:tag-notes flute))
+   (hautbois "Hautbois" ((dessus #f) (violons "Violons"))
+             (#:notes "dessus" #:tag-notes hautbois))
+   (trompette "Trompette" ()
+              (#:notes "dessus" #:tag-notes trompette))
+   (haute-contre "Hautes-contre" ()
+                 (#:notes "haute-contre" #:clef "alto"))
+   (taille "Tailles" ()
+           (#:notes "taille" #:clef "alto"))
+   (basse "Basses" ()
+          (#:notes "basse" #:clef "basse" #:tag-notes basse))
+   (basson "Basson" ((basse "Basses"))
+           (#:notes "basse" #:clef "basse"
+            #:tag-notes basson #:instrument "Basson"))
+   (timbales "Timbales" ()
+             (#:notes "basse" #:clef "basse" #:tag-notes timbales))
+   (basse-continue "Basse continue" ((basse #f))
+                   (#:notes "basse" #:clef "basse"
+                    #:tag-notes basse-continue)))
 
 %%% Figured bass
 includeFigures = 
