@@ -3,7 +3,7 @@ r sib'4 re''8. do''16 |
 sib'2 sib'4 r |
 la'2 sib' |
 sol'~ sol'8. re'16 re'4 |
-mib'4. sol'8 \times 8/6 { fad'16( la) sol fad( sol) mi } |
+mib'4. sol'8 \times 8/6 { fad'?16[( la) sol] fad[( sol) mi] } |
 la4 r r2 |
 fa' fa' |
 sib' sib' |
