@@ -20,6 +20,8 @@
 %%%             no span-bar (FIXME?)
 %%% \bar ":||:" old-style repeat bar2: dotted-line + 2 thin-lines + dotted-line
 %%%             double thin span-bar
+%%% \bar "://:" old-style repeat bar3: two-dots + 2 thin-lines + two-dots
+%%%             double thin span-bar
 
 #(define-public (make-round-filled-box x1 x2 y1 y2 blot-diameter)
    (let* ((width (- x2 x1))
@@ -156,6 +158,37 @@
                       kern))
        stencil)))
 
+#(define-public (bar-line::print-baroque-repeat3 bar-line)
+   (let ((glyph-name (ly:grob-property bar-line 'glyph-name))
+         (dir (ly:item-break-dir bar-line)))
+     (let* ((staff-line (ly:output-def-lookup (ly:grob-layout bar-line)
+                                              'line-thickness))
+            (kern (* (ly:grob-property bar-line 'kern 1) staff-line))
+            (thin-kern (* (ly:grob-property bar-line 'thin-kern 1) staff-line))
+            (thickness (* (ly:grob-property bar-line 'hair-thickness 1) staff-line))
+            (stencil empty-stencil))
+       (set! stencil (ly:stencil-combine-at-edge
+                      stencil
+                      X LEFT
+                      (make-simple-bar-line bar-line thickness #f)
+                      thin-kern))
+       (set! stencil (ly:stencil-combine-at-edge
+                      stencil
+                      X RIGHT
+                      (make-simple-bar-line bar-line thickness #f)
+                      thin-kern))
+       (set! stencil (ly:stencil-combine-at-edge
+                      stencil
+                      X LEFT
+                      (make-colon-bar-line bar-line)
+                      kern))
+       (set! stencil (ly:stencil-combine-at-edge
+                      stencil
+                      X RIGHT
+                      (make-colon-bar-line bar-line)
+                      kern))
+       stencil)))
+
 #(define-public ((bar-line::print-dashed-repeat is-start-bar with-solid-bar) bar-line)
    (let* ((staff-line (ly:output-def-lookup (ly:grob-layout bar-line) 'line-thickness))
           (thin-thickness (* (ly:grob-property bar-line 'hair-thickness) staff-line))
@@ -197,6 +230,7 @@
 #(define custom-bar-glyph-print-functions
    `(("|:|" . ,bar-line::print-baroque-repeat)
      (":||:" . ,bar-line::print-baroque-repeat2)
+     ("://:" . ,bar-line::print-baroque-repeat3)
      (";:" . ,(bar-line::print-dashed-repeat #t #f))
      (":;" . ,(bar-line::print-dashed-repeat #f #f))
      ("|;:" . ,(bar-line::print-dashed-repeat #t #t))
@@ -213,6 +247,7 @@
 #(define custom-bar-glyph-alist
    '(("|:|" . ("|:|" . ()))
      (":||:" . (":||:" . ()))
+     ("://:" . ("://:" . ()))
      (";:" . (() . ";:"))
      (":;" . (":;" . ()))
      ("|;:" . ("|" . ";:"))
@@ -260,6 +295,7 @@
    '(("|;:" . "|")
      (":;|" . "|")
      (":||:" . "||")
+     ("://:" . "||")
      (";" . "")
    ))
 
