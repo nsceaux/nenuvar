@@ -1,5 +1,5 @@
 \keys sol \minor
-\fractionTime \time 2/2 \midiTempo #180
+\digitTime \time 2/2 \midiTempo #180
 \tempo "Rondeau"
 s1*16 \bar ":|" \fineMark
 \tempo "1er couplet"

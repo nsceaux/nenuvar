@@ -1,6 +1,6 @@
 \keys la \minor
 \midiTempo #192
-\fractionTime \time 2/2 \partial 2
+\digitTime \time 2/2 \partial 2
 \tempo "Rondeau"
 s2 s1*11 s2 \bar ":|"
 \tempo "1er couplet"

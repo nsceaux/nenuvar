@@ -1,5 +1,5 @@
 \keys si \minor
-\fractionTime \time 2/2 \midiTempo #160 \partial 2
+\digitTime \time 2/2 \midiTempo #160 \partial 2
 \tempo "Rondeau"
 s2 s1*7 s2 \bar ":|" \fineMark
 \tempo "1er couplet"

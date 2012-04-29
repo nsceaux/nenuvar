@@ -1,5 +1,5 @@
 \keys sol \major
-\time 3/4
+\digitTime\time 3/4
 \midiTempo #120
 \tempo "Rondeau"
 \partial 4 s4 s2.*7 s2 \bar ":|" \fineMark

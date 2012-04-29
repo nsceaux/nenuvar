@@ -1,5 +1,5 @@
 \keys si \minor
-\fractionTime \time 2/2 \midiTempo #132 \partial 2
+\digitTime \time 2/2 \midiTempo #132 \partial 2
 \set Staff.tupletSpannerDuration = #(ly:make-moment 1 4)
 \override Staff.TupletBracket #'bracket-visibility = #'if-no-beam
 \tempo "Prélude" s2 s1*26 \bar "||" \segnoMark
