@@ -36,7 +36,7 @@
 
 %{ n°6 %}
 \pieceToc\markup\wordwrap {
-  HEBÉ, CHŒUR : \italic { Musettes, résonnez dans ce riant Boccage, }
+  HEBÉ, CHŒUR : \italic { Musettes, résonnez dans ce riant Boccage }
 }
 \includeScore "ABDhebeChoeur"
 

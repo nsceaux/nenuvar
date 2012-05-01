@@ -1,17 +1,17 @@
 \keys sol \major
 \digitTime\time 2/2 \midiTempo #144
 s1*14 \alternatives s1 { \midiTempo #216 s1 }
-s1 \segnoMark \modVersion\bar "||" s1*82
-\modVersion { \fineMark \bar "|." }
-\origVersion {
-  s1*2
-  s2
-  \once\override TextScript #'extra-offset = #'(-1 . -4)
-  s^\markup\musicglyph #"scripts.segno"
-  \bar "://:"
-}
+\origVersion s4*0^\markup\musicglyph #"scripts.segno"
 \modVersion {
-  s1 s2.. \segnoMark s8
-  \endMark "[Dal Segno]"
-  \bar "|."
+  \segnoMark
+  \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
+  \bar "|;:"
 }
+s1*82
+\origVersion\alternatives {
+  s1*2 s4
+  \once\override TextScript #'extra-offset = #'(0 . -4)
+  s2.^\markup\musicglyph #"scripts.segno"
+} s1
+\modVersion\alternatives { s1*2\segnoMarkDown } s1
+\bar "|."

@@ -1,6 +1,6 @@
 \clef "basse" sol,2 r |
-\clef "tenor" sol'4. re'8 si4 sol |
-\clef "bass" re'4. la8 fad4 re |
+\clef "tenor" sol'4.^"Bassons" re'8 si4 sol |
+\clef "bass" re'4.^"Tous" la8 fad4 re |
 sol, sol fad fad, |
 mi, mi la la, |
 re,2 si4. la16*2/3 sol fad |
@@ -15,11 +15,11 @@ si sol la la, |
 re4. la,8 fad,4 re, |%%
 re,2 r |
 R1*3 |
-r4 re8 mi fad sol la si |
-do'4 do do' do |
+r4 re8^"Bassons" mi fad sol la si |
+do'4 re do' re |
 do'2~ do'8 mi' re' do' |
-si4 sol,8 la, si, do re mi |
-fa4 fa, fa fa, |
+si4 sol,8^"Tous" la, si, do re mi |
+fa4 sol, fa sol, |
 fa2~ fa8 fa mi re |
 mi2~ mi8 mi re do |
 si,4 sol, sol si, |
@@ -29,10 +29,10 @@ dod2. la,4 |
 re2 r |
 R1*3 |
 \clef "tenor" r4^"Bassons" la8 si dod' re' mi' fad' |
-sol'4 sol sol' sol |
+sol'4 la sol' la |
 sol'2 r8 sol' fad' mi' |
 fad'4 sol' la' la |
-re'4 \clef "bass" re8^"Tous" mi fad sol la si |
+\clef "bass" re'4 re8^"Tous" mi fad sol la si |
 do'4 re do' re |
 do'2~ do'8 mi' re' do' |
 si2 r |
@@ -44,21 +44,14 @@ si2 r |
 r8 si la sol fad mi red dod |
 si,4 si red si |
 mi sol mi si, |
-do la, si, si, |
+do la, si,2 |
 mi,2 r |
 \origVersion\clef "tenor"
 r2^"Bassons" r4 <<
-  { mi'4 |
-    mi'1~ |
-    mi'~ |
-    mi'~ |
-    mi'4
-  } \\
-  { mi'4 |
-    la2 r4 la |
-    mi2 r4 mi |
-    la,2 r4 la, |
-    mi,4
+  { \voiceOne mi'4 | mi'1~ | mi'~ | mi'~ | mi'4 \oneVoice }
+  \new CueVoice {
+    \voiceTwo mi'4_"[Toulouse 1750]" |
+    la2 r4 la | mi2 r4 mi | la,2 r4 la, | mi,4
   }
 >>
 \origVersion\clef "bass"
@@ -72,8 +65,8 @@ re mi |
 la,4 \clef "tenor" la8^"Bassons" si dod' re' mi' fad' |
 sol'4 la sol' la |
 fad' sol'8 fad' mi'4 la' |
-re'2. do'4 |
-si8 \clef "basse" sol^"Tous" fad mi re do si, la, |
+\clef "basse" re'2.^"Tous" do'4 |
+si8 sol fad mi re do si, la, |
 sol,4 sol fa sol |
 mi sol do re8 mi |
 re2 la, |
@@ -81,7 +74,7 @@ re, r |
 r2^"Bassons" r4 re' |
 << { re'1~ | re'~ | re' | re'4 }
   \\ { sol2. sol4 | re2. re4 | sol,2. sol,4 | re,4 } >>
-re8^"Tous" mi fad sol la si |
+re8^"[Tous]" mi fad sol la si |
 do'4 re do' re |
 do'2~ do'8 mi' re' do' |
 si2 r4 si, |
@@ -94,8 +87,7 @@ r4 sol,8 la, si, do re mi |
 fa2 r |
 \origVersion\clef "tenor"
 r4^"Bassons" sol8 la si do' re' mi' |
-fa'2 r |
-\origVersion\clef "bass"
+fa'2 \origVersion\clef "bass" r |
 r4^"Tous" si,8 do re mi fa re |
 mi fa sol fa mi fa mi re |
 do re mi re do re do si, |
@@ -105,5 +97,8 @@ si, do re re, |
 sol,1 |
 sol,8 la, si, do re mi fad re |
 sol4 sol, sol sol, |
-<sol, sol>1\trill\fermata |
-R1*2 |
+<sol, sol>1\trill |
+R1
+\origVersion s1
+<sol, sol>1 |
+

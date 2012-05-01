@@ -1,42 +1,66 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff <<
-        { s8 s2.*29 s2 \bar "" \break s4 }
-        \instrumentName "Flûte I"
-        \global \keepWithTag #'flute1-conducteur \includeNotes "dessus" >>
-      \newHaraKiriStaff <<
-        \instrumentName "Flûte II"
-        \global \keepWithTag #'flute2-conducteur \includeNotes "dessus" >>
-      \new Staff <<
-        \instrumentName "Musettes"
-        \global \keepWithTag #'dessus \includeNotes "dessus" >>
-      \new Staff <<
-        \instrumentName \markup \center-column { Haute-contres Tailles }
-        \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille" >>
+  \origVersion\new StaffGroupNoBar <<
+    %% Hebé
+    \new Staff \withLyrics <<
+      \global \keepWithTag #'conducteur \includeNotes "hebe"
+    >> \includeLyrics "paroles"
+    %% Chœur
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \global \keepWithTag #'conducteur \includeNotes "voix-dessus"
+    >> \includeLyrics "paroles1"
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \global \keepWithTag #'conducteur \includeNotes "voix-haute-contre"
+    >> \includeLyrics "paroles2"
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \global \keepWithTag #'conducteur \includeNotes "voix-taille"
+    >> \includeLyrics "paroles3"
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      \global \keepWithTag #'conducteur \includeNotes "voix-basse"
+    >> \includeLyrics "paroles4"
+    %% Flutes
+    \new Staff \with { \haraKiriFirst } <<
+      \global \keepWithTag #'flute1-conducteur \includeNotes "dessus"
     >>
-    \new ChoirStaff <<
-      \new Staff \withLyrics <<
-        \characterName "Hébé"
-        \global \keepWithTag #'conducteur \includeNotes "hebe"
-      >> \includeLyrics "paroles"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \keepWithTag #'conducteur \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles1"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \keepWithTag #'conducteur \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles2"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \keepWithTag #'conducteur \includeNotes "voix-taille"
-      >> \includeLyrics "paroles3"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \keepWithTag #'conducteur \includeNotes "voix-basse"
-      >> \includeLyrics "paroles4"
+    \new Staff \with { \haraKiriFirst } <<
+      \global \keepWithTag #'flute2-conducteur \includeNotes "dessus"
     >>
-    \newHaraKiriStaffB <<
-      \instrumentName "Basses"
-      \global \keepWithTag #'conducteur \includeNotes "basse" >>
+    %% Musettes
+    \new Staff <<
+      \global \keepWithTag #'hautbois1 \includeNotes "dessus"
+    >>
+    \new Staff <<
+      \global \keepWithTag #'hautbois2 \includeNotes "dessus"
+    >>
+    %% Hautes-contre, tailles
+    \new Staff <<
+      \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+    >>
+    %% Basses
+    \new Staff \with { \haraKiriFirst } <<
+      \global \keepWithTag #'conducteur \includeNotes "basse"
+      \origLayout {
+        s8 s2.*6\break
+        s2.*6\break
+        s2.*7\pageBreak
+        s2.*6\break
+        s2.*4 s2 \bar "" \pageBreak
+        s4 s2.*5\break
+        s2.*6\pageBreak
+        s2.*7\break
+        s2.*5 s4 \bar "" \pageBreak
+        s2 s2.*5\pageBreak
+        s2.*3\pageBreak
+      }
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    indent = #(if (eqv? #t (ly:get-option 'urtext))
+                  smallindent
+                  largeindent)
+    short-indent = #(if (eqv? #t (ly:get-option 'urtext))
+                        0
+                        (* 5 mm))
+    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  }
   \midi { }
 }

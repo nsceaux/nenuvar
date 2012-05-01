@@ -1,4 +1,4 @@
-\clef "haute-contre" r8 |
+\clef "haute-contre" r8^\markup\orig-version { Haute contre et taille } |
 R2.*2 |
 \set countPercentRepeats = ##t
 \set repeatCountVisibility = #(every-nth-repeat-count-visible 4)

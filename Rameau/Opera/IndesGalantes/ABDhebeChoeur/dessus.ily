@@ -5,7 +5,7 @@
 
 %% Musettes
 \setMusic #'Amus {
-  r8 |
+  r8^\markup\orig-version musettes |
   R2. |
   r2 r8 sol' |
   si'8.( la'16) si'8.( do''16) si'8.( do''16) |
@@ -126,8 +126,8 @@
     { s8 s2.*29 do'2\rest } >>
   \tag #'flute1 \fluteI
   \tag #'flute2 \fluteII
-  \tag #'flute1-conducteur { \noHaraKiri \fluteI }
-  \tag #'flute2-conducteur { \noHaraKiri \fluteII }
+  \tag #'flute1-conducteur \fluteI
+  \tag #'flute2-conducteur \fluteII
 >>
 \newSpacingSection
 %%%
@@ -205,6 +205,6 @@
 \tag #'(hautbois2 violon2) { \A \BII \C \DII \E }
 \tag #'flute1 \new CueVoice { \A \BI \C \DI \E }
 \tag #'flute2 \new CueVoice { \A \BII \C \DII \E }
-\tag #'flute1-conducteur { \startHaraKiri r4 R2.*32 }
-\tag #'flute2-conducteur { \startHaraKiri r4 R2.*32 }
+\tag #'flute1-conducteur { r4 R2.*32 }
+\tag #'flute2-conducteur { r4 R2.*32 }
 \tag #'dessus { \A << \BI \\ \BII >> \C << \DI \\ \DII >> \E }

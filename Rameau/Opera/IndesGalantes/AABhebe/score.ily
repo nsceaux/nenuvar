@@ -1,69 +1,43 @@
 \score {
   <<
     \origVersion\new StaffGroupNoBar <<
-      \new Staff \with { \haraKiriFirst } \withLyrics <<
-        { s2.*8 \label #'AABreprise
-          s2.*56
-          \once\override TextScript #'padding = #2
-          \once\override TextScript #'X-extent = #'(0 . 0)
-          s2._\markup {
-            \italic { Vous, qui d’Hebé } page \page-refI #'AABreprise \super e
-          }
-        }
+      \new Staff \withLyrics <<
+        { s4^\markup\character Hébé }
         \global \includeNotes "voix"
       >> \includeLyrics "paroles"
-      \new Staff <<
-        \global \keepWithTag #'dessus1 \includeNotes "dessus1" >>
-      \new Staff <<
-        \global \keepWithTag #'dessus2 \includeNotes "dessus2" >>
+      \new Staff << \global \includeNotes "dessus1" >>
+      \new Staff << \global \includeNotes "dessus2" >>
       \new Staff <<
         \global \includeNotes "dessus3"
         \origLayout {
-          s2.*6\pageBreak
-          s2.*6\break
-          s2.*6\break
-          s2.*7\pageBreak
-          s2.*6\break
-          s2.*6\break
-          s2.*6\pageBreak
-          s2.*7\break
+          s2.*4\break
+          s2.*5\pageBreak
           s2.*5\break
-          s2.*7\pageBreak
-          s2.*3\break
+          s2.*5 s4 \bar "" \break
+          s2 s2.*5\pageBreak
+          s2.*5\break
+          s2.*4 s2 \bar "" \break
+          s4 s2.*4\pageBreak
+          s2.*5\break
+          s2.*5\break
+          s2.*4 s2 \bar "" \pageBreak
+          s4 s2.*5\break
+          s2.*5\break
+          s2.*2\break
         }
       >>
     >>
 
     \modVersion\new StaffGroup <<
-      \new GrandStaff \with {
-        instrumentName = "[Flutes]"
-        shortInstrumentName = "fl"
-      } <<
-        \new Staff <<
-          \global \keepWithTag #'flute1 \includeNotes "dessus1" >>
-        \new Staff <<
-          \global \keepWithTag #'flute2 \includeNotes "dessus2" >>
+      \new GrandStaff \with { instrumentName = "Violons" } <<
+        \new Staff << \global \includeNotes "dessus1" >>
+        \new Staff << \global \includeNotes "dessus2" >>
       >>
-      \new GrandStaff \with {
-        instrumentName = "[Violons]"
-        shortInstrumentName = "vl"
-      } <<
-        \new Staff <<
-          \global \keepWithTag #'violon1 \includeNotes "dessus1" >>
-        \new Staff <<
-          \global \keepWithTag #'violon2 \includeNotes "dessus2" >>
-      >>
-      \new GrandStaff \with {
-        instrumentName = "[Violons]"
-        shortInstrumentName = "vl" } <<
+      \new GrandStaff \with { instrumentName = "Violons" } <<
         \new Staff  << \global \includeNotes "dessus3" >>
       >>
-      \new GrandStaff \with {
-        instrumentName = \markup\character Hebé
-        shortInstrumentName = "H"
-      } <<
-        \new Staff \with { \consists "Metronome_mark_engraver" }
-        \withLyrics <<
+      \new GrandStaff \with { instrumentName = \markup\character Hebé } <<
+        \new Staff \withLyrics <<
           \global \includeNotes "voix"
         >> \includeLyrics "paroles"
       >>
@@ -73,9 +47,6 @@
     indent = #(if (eqv? #t (ly:get-option 'urtext))
                   smallindent
                   largeindent)
-    short-indent = #(if (eqv? #t (ly:get-option 'urtext))
-                        0
-                        (* 5 mm))
     ragged-last = #(eqv? #t (ly:get-option 'urtext))
   }
   \midi { }

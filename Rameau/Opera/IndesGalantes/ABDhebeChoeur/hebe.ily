@@ -1,4 +1,4 @@
-\clef "vbas-dessus" sol'8 |
+\clef "vbas-dessus" sol'8^\markup\orig-version\character Hebé |
 si'4 si'8 r si' si' |
 re''2 re''8 re'' |
 sol''2. |

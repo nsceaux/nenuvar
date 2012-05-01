@@ -9,7 +9,7 @@ re''4. re''8 si'4. si'8 mi'1 |
 re''2. re'4 |
 re' sol' mi' la' |
 la' sol' sol' dod'' |
-re'' la'2~ la'8 sol' fad'4 si' la' sol' |
+re'' la'2 la'8 sol' fad'4 si' la' sol' |
 fad'1\trill |%%
 fad'2\trill r |
 R1 |
@@ -31,7 +31,7 @@ R1 |
 r4 re'8 mi' fad' sol' la' fad' |
 sol'2 mi' |
 la'4 la8 si dod' re' mi' fad' |
-sol'4 sol sol' sol |
+sol'4 la sol' la |
 sol'2 r8 sol' fad' mi' |
 fad'4 sol' la' la |
 re'2 r |
@@ -53,7 +53,7 @@ r8 mi'' re'' do'' si' la' sold' fad' |
 mi'4. la'8 la'4. sold'8 |
 la' mi' fad' sold' la'2 |
 la' la' |
-la' sold'4. la'8 |
+la' sold'4.\trill la'8 |
 la'4 la8 si dod' re' mi' fad' |
 sol'4 la sol' la |
 fad'4 sol'8 fad' mi'4 la' |
@@ -63,17 +63,16 @@ re''4 si'8 do'' re''4 re'' |
 sol'8 sol' do'' re'' mi''4 re''8 do'' |
 do''2 si' |
 fad' r |
-re'1~ |
-re'~ |
-re'~ |
-re'~ |
-re'2 r |
+<<
+  \new Voice { \voiceOne R1*4 }
+  { \voiceTwo re'1~ | re'~ | re'~ | re'~ | \oneVoice }
+>> re'2 r |
 r4 re'8 mi' fad' sol' la' si' |
 la'2 re'' |
 re'' r4 sol' |
 sol'2. sol'4 |
 fad'8 mi' re' mi' fad' sol' la' fad' |
-sol'4. sol'8 sol'4 fad'\trill |
+sol'4. sol'8 sol'4 fad' |
 sol'2 r |
 R1 |
 r4 si8 do' re' mi' fa' sol' |
@@ -89,6 +88,7 @@ sol'4. sol'8 sol'4 fad'\trill |
 sol'1 |
 sol8 la si do' re' mi' fad' re' |
 sol'4 sol sol' sol |
-si'1\trill\fermata |
-R1*2 |
-\origVersion\custosNote la4
+si'1\trill |
+R1
+\origVersion s1
+si'1\trill |
