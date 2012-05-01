@@ -17,10 +17,12 @@
         \modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
         \origLayout {
-          s4 s2.*11\break
-          \grace s8 s2.*11\pageBreak
-          s2.*12\break
-          \grace s8 s2.*6 s2\break
+          s4 s2.*8\break
+          s2.*8\break
+          s2.*7\pageBreak
+          s2.*7\break
+          s2.*8\break
+          \grace s8 s2.*2 s2\break
         }
       >>
     >>

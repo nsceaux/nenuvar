@@ -23,7 +23,7 @@
   \smallCaps [Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.]
 }
-\pieceTocTitle "Entrée de la suite d'Hebé"
+\pieceTocTitle "Premier air [Entrée de la suite d'Hebé]"
 \includeScore "ABAentree"
 
 %{ n°4 %}

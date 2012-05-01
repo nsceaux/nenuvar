@@ -1,1 +1,1 @@
-r4\noBreak R2.*17\noBreak r2\noBreak r4\noBreak R2.*22\noBreak r2
+r4 R2.*17 r2 r4 R2.*22 r2

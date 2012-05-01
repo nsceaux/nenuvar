@@ -1,5 +1,5 @@
-\clef "basse" mi4 |
-la( do') fad\trill |
+\clef "basse" mi4^"Tous" |
+la( do') fad |
 sol( si) red |
 mi( sol) sol, |
 do la,2 |
@@ -8,12 +8,12 @@ do( la,) si, |
 mi,2 mi4 |
 do re re, |
 sol, sol si, |
-do8. si,16 la,4\trill sol, |
+do8.( si,16) la,4 sol, |
 re re' do' |
 si2 do'4 |
 sol2 do'4 |
-si4 do'8.( re'16) mi'4 |
-re' mi'8.( re'16) do'4 |
+si4 do'8. re'16 mi'4 |
+re' mi'8. re'16 do'4 |
 do si, do |
 re4. do8 re4 |
 sol,2 sol4 |
@@ -21,7 +21,7 @@ sol4( fad) la~ |
 la sol mi |
 si2 si,4 |
 mi2 re4 |
-sol2 mi4\trill |
+sol2 mi4 |
 fad8. sold16 lad8. si16 dod'8. lad16 |
 si4. mi8 fad4 |
 si,4 si la |

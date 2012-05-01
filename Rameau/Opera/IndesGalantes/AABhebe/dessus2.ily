@@ -8,7 +8,7 @@ red'8 si16 dod' red' mi' red' mi' fad' sol' fad' sol' |
     la'' si'' la'' si'' | \oneVoice
   }
   \new CueVoice {
-    \voiceTwo s8 si'16_"[Toulouse 1750 : flutes et viol]" dod''
+    \voiceTwo s8 si'16_\markup\whiteout "[Toulouse 1750 : flutes et viol]" dod''
     red'' mi'' red'' mi'' fad'' sol'' fad'' sol''
   }
 >>
