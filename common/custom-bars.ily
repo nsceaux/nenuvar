@@ -8,7 +8,7 @@
 %%%             thin-line + dashed-line + two-dots
 %%%             thin span-bar
 %%% \bar ";:"   suggested repeat bar (on no existing bar):
-%%%             2 dashed-linesxs + two-dots
+%%%             2 dashed-lines + two-dots
 %%%             no span-bar (FIXME?)
 %%% \bar ":;|"  suggested repeat bar (on an existing bar):
 %%%             two-dots + dashed-line + thin-line
@@ -22,6 +22,8 @@
 %%%             double thin span-bar
 %%% \bar "://:" old-style repeat bar3: two-dots + 2 thin-lines + two-dots
 %%%             double thin span-bar
+%%% \bar ";;"   2 dashed-lines
+%%%             no span-bar (FIXME?)
 
 #(define-public (make-round-filled-box x1 x2 y1 y2 blot-diameter)
    (let* ((width (- x2 x1))
@@ -227,6 +229,18 @@
           (thickness (* (ly:grob-property bar-line 'hair-thickness) staff-line)))
      (make-dashed-bar-line bar-line thickness)))
 
+#(define-public (bar-line::print-dashed-dashed-bar bar-line)
+   (let* ((staff-line (ly:output-def-lookup (ly:grob-layout bar-line)
+                                            'line-thickness))
+          (kern (* (ly:grob-property bar-line 'kern) staff-line))
+          (thickness (* (ly:grob-property bar-line 'hair-thickness)
+                        staff-line)))
+     (ly:stencil-combine-at-edge
+      (make-dashed-bar-line bar-line thickness)
+      X RIGHT
+      (make-dashed-bar-line bar-line thickness)
+      kern)))
+
 #(define custom-bar-glyph-print-functions
    `(("|:|" . ,bar-line::print-baroque-repeat)
      (":||:" . ,bar-line::print-baroque-repeat2)
@@ -235,7 +249,8 @@
      (":;" . ,(bar-line::print-dashed-repeat #f #f))
      ("|;:" . ,(bar-line::print-dashed-repeat #t #t))
      (":;|" . ,(bar-line::print-dashed-repeat #f #t))
-     (";" . ,bar-line::print-dashed-bar)))
+     (";" . ,bar-line::print-dashed-bar)
+     (";;" . ,bar-line::print-dashed-dashed-bar)))
 
 #(define-public (bar-line::custom-print grob)
    (let* ((glyph-name (ly:grob-property grob 'glyph-name))
@@ -252,7 +267,8 @@
      (":;" . (":;" . ()))
      ("|;:" . ("|" . ";:"))
      (":;|" . (":;|" . ()))
-     (";" . (";" . ()))))
+     (";" . (";" . ()))
+     (";;" . (";;" . ()))))
 
 #(define-public (bar-line::custom-calc-glyph-name grob)
    (let ((glyph (ly:grob-property grob 'glyph))
@@ -297,7 +313,7 @@
      (":||:" . "||")
      ("://:" . "||")
      (";" . "")
-   ))
+     (";;" . "")))
 
 #(define-public (span-bar::custom-calc-glyph-name grob)
    (let* ((glyph #f)

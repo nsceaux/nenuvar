@@ -7,8 +7,9 @@
       c'1 \bar ";" c'1 \bar "|:|" c'1 \bar ":||:"
       c'1 \bar ";:" c'1 \bar ":;"
       c'1 \bar "|;:" c'1 \bar ":;|"
+      c'1 \bar ";;"
     }
-    \new Staff \repeat unfold 7 c'1
+    \new Staff \repeat unfold 8 c'1
   >>
   \layout { ragged-right = ##t }
 }
