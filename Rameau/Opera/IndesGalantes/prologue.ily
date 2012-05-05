@@ -42,10 +42,10 @@
 
 %{ n°7 %}
 \sceneDescription\markup\wordwrap-center {
-  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
-  interrompues par le bruit des Tambours.
+  [Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
+  interrompues par le bruit des Tambours.]
 }
-\pieceTocTitle "Musette en rondeau"
+\pieceTocTitle "Musette"
 \includeScore "ABErondeau"
 
 %{ n°8 %}

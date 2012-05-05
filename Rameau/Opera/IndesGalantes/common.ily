@@ -86,6 +86,11 @@
                     #:score-template "score-basse-continue-voix"
                     #:tag-notes basse-continue)))
 
+%% Tremolo for string instruments
+#(if (memq (ly:get-option 'part)
+           '(violons haute-contre taille basse basse-continue))
+     (ly:set-option 'use-tremolo-repeat #t))
+
 %%% Figured bass
 includeFigures = 
 #(define-music-function (parser location pathname) (string?)
