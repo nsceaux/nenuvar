@@ -47,6 +47,9 @@
 }
 \pieceTocTitle "Musette"
 \includeScore "ABErondeau"
+\sceneDescriptionBottom\markup\wordwrap-center {
+  Bruit de Tambours qui interrompt le Ballet.
+}
 
 %{ n°8 %}
 \pieceToc\markup\wordwrap {

@@ -79,12 +79,7 @@
            (#:notes "basse" #:clef "basse"
             #:tag-notes basson #:instrument "Basson"))
    (timbales "Timbales" ()
-             (#:notes "basse" #:clef "basse" #:tag-notes timbales))
-   (basse-continue "Basse continue" ((basse #f))
-                   (;
-                    #:notes "basse" #:clef "basse"
-                    #:score-template "score-basse-continue-voix"
-                    #:tag-notes basse-continue)))
+             (#:notes "basse" #:clef "basse" #:tag-notes timbales)))
 
 %% Tremolo for string instruments
 #(if (memq (ly:get-option 'part)
