@@ -1,1 +1,1 @@
-R1*21\noBreak R1*14\noBreak r2\noBreak r2\noBreak R1*13
+R1*21 R1*14 r2 r4 r R1*13

@@ -59,13 +59,13 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°9 %}
-\scene "Scene III" "Scene 3 : Bellone, Hebé & sa suite"
+\scene "[Scene III]" "Scene 3 : Bellone, Hebé & sa suite"
 \sceneDescription \markup \left-align \center-column {
-  \line { \smallCaps Bellone, \smallCaps Hébé et sa suite.}
+  \line { \smallCaps [Bellone, \smallCaps Hébé et sa suite.]}
   \wordwrap-center {
-    \smallCaps Bellone arrive au bruit des tambours et des trompettes
+    \smallCaps [Bellone arrive au bruit des tambours et des trompettes
     qui la précèdent avec des guerriers portant des drapeaux.
-    Elle invite la suite d’Hébé à n’aimer que la gloire.
+    Elle invite la suite d’Hébé à n’aimer que la gloire.]
   }
 }
 \pieceToc \markup { Bellone, Chœur : \italic { La Gloire vous appelle } }
