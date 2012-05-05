@@ -3,7 +3,7 @@
 \livretAct\line { PROLOGUE }
 \livretDescAtt\justify {
   Le Theâtre représente les Jardins du Palais
-  \concat { d' \smallCaps Hebé. }
+  \concat { d’ \smallCaps Hebé. }
 }
 \livretScene\line { SCENE PREMIERE }
 \livretPers HEBÉ
@@ -34,7 +34,7 @@
 \livretVerse#8 { Accompagnez le doux ramage }
 \livretVerse#5 { Des tendres Oiseaux. }
 \livretDesc\wordwrap-center {
-  Danse d'Amants & d'Amantes de la suite \concat { d' \smallCaps Hebé. }
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé. }
 }
 \livretPers HEBÉ
 \livretVerse#5 { Amants, seurs de plaire }
@@ -43,7 +43,7 @@
 \livretVerse#8 { Mais sans offenser le mistere. }
 \livretVerse#7 { Il est pour un tendre cœur }
 \livretVerse#12 { Des biens dont le secret augmente la douceur, }
-\livretVerse#6 { Songez qu’il faut les taires. }
+\livretVerse#6 { Songez qu’il faut les taire. }
 \livretVerse#5 { Amants, seurs de plaire }
 \livretVerse#5 { Suivez vôtre ardeur, }
 \livretVerse#6 { Chantez vôtre bonheur, }
@@ -63,10 +63,10 @@
     \smallCaps Bellonne arrive au bruit des Tambours
     & des Trompettes qui la précedent avec des Guerriers
     portants des Drapeaux.  Elle invite la Suite
-    \concat { d' \smallCaps Hebé } à n'aimer que la gloire.
+    \concat { d’ \smallCaps Hebé } à n’aimer que la gloire.
   }
 }
-\livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d' \smallCaps Hebé. } } }
+\livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d’ \smallCaps Hebé. } } }
 \livretVerse#12 { La Gloire vous appelle ; écoutez ses Trompettes, }
 \livretVerse#12 { Hâtez-vous, armez-vous & devenez Guerriers. }
 \livretVerse#8 { Quittez ces paisibles retraites, }
@@ -96,8 +96,8 @@
 \livretVerse#12 { Volez Amours, portez vos armes & vos fers }
 \livretVerse#8 { Sur le plus éloigné Rivage. }
 \livretDesc\justify {
-  Les \smallCaps Amours s'envolent pendant le Chœur,
-  & se dispersent loin de l'Europe dans les differents
+  Les \smallCaps Amours s’envolent pendant le Chœur,
+  & se dispersent loin de l’Europe dans les differents
   Climats des Indes.
 }
 \livretFinAct\line { FIN DU PROLOGUE }

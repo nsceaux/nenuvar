@@ -4,7 +4,7 @@
 %{ n°1 %}\newBookPart #'()
 \actn "Prologue"
 \sceneDescription\markup\wordwrap-center {
-  Le Theâtre représente le Palais \concat { d' \smallCaps Hebé. }
+  Le Theâtre représente le Palais \concat { d’ \smallCaps Hebé. }
 }
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
@@ -13,17 +13,17 @@
 \scene "Scene Première" "Scene 1 : Hebé"
 \sceneDescription\markup\wordwrap-center\smallCaps { Hebé }
 \pieceToc\markup\wordwrap {
-  HEBÉ : \italic { Vous, qui d'Hebé suivez les loix }
+  HEBÉ : \italic { Vous, qui d’Hebé suivez les loix }
 }
 \includeScore "AABhebe"
 
 %{ n°3 %}
-\scene "[Scene II]" \markup\wordwrap { Scene 2 : Hebé, suite d'Hebé }
+\scene "[Scene II]" \markup\wordwrap { Scene 2 : Hebé, suite d’Hebé }
 \sceneDescription\markup\wordwrap-center {
   \smallCaps [Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.]
 }
-\pieceTocTitle "Premier air [Entrée de la suite d'Hebé]"
+\pieceTocTitle "Premier air [Entrée de la suite d’Hebé]"
 \includeScore "ABAentree"
 
 %{ n°4 %}
@@ -42,7 +42,7 @@
 
 %{ n°7 %}
 \sceneDescription\markup\wordwrap-center {
-  Danse d'Amants & d'Amantes de la suite \concat { d' \smallCaps Hebé, }
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
   interrompues par le bruit des Tambours.
 }
 \pieceTocTitle "Musette en rondeau"
@@ -50,7 +50,7 @@
 
 %{ n°8 %}
 \pieceToc\markup\wordwrap {
-  HEBÉ :  \italic { Qu'entends-je ? les Tambours font taire nos Musettes ! }
+  HEBÉ :  \italic { Qu’entends-je ? les Tambours font taire nos Musettes ! }
 }
 \includeScore "ABFhebe"
 
@@ -62,7 +62,7 @@
   \wordwrap-center {
     \smallCaps Bellone arrive au bruit des tambours et des trompettes
     qui la précèdent avec des guerriers portant des drapeaux.
-    Elle invite la suite d'Hébé à n'aimer que la gloire.
+    Elle invite la suite d’Hébé à n’aimer que la gloire.
   }
 }
 \pieceToc \markup { Bellone, Chœur : \italic { La Gloire vous appelle } }
@@ -76,7 +76,7 @@
 \includeScore "ACCair"
 
 %{ n°11 %}
-\pieceToc \markup { Bellone : \italic { C'est la gloire qui rend les héros immortels } }
+\pieceToc \markup { Bellone : \italic { C’est la gloire qui rend les héros immortels } }
 \includeScore "ACDbellone"
 
 %{ n°12 %}
@@ -94,25 +94,25 @@
 \includeScore "ADAhebe"
 
 %{ n°15 %}
-\scene "Scene V" "Scene 5 : L'Amour, Hébé et sa suite"
+\scene "Scene V" "Scene 5 : L’Amour, Hébé et sa suite"
 \sceneDescription \markup \left-align \center-column {
-  \line { \smallCaps L'Amour, \smallCaps Hébé, suite de Hébé. }
+  \line { \smallCaps L’Amour, \smallCaps Hébé, suite de Hébé. }
   \wordwrap-center {
-    \smallCaps L'Amour descend des cieux sur des nuages; il porte des 
-    traits nouveaux; il est accompagné d'une troupe
-    d'Amours armés comme lui, dont les uns tiennent des
+    \smallCaps L’Amour descend des cieux sur des nuages; il porte des 
+    traits nouveaux; il est accompagné d’une troupe
+    d’Amours armés comme lui, dont les uns tiennent des
     brandons et les autres arborent des étendards galants.
   }
 }
-\pieceTocTitle "Annonce de l'Amour"
+\pieceTocTitle "Annonce de l’Amour"
 \includeScore "AEAannonce"
 
 %{ n°16 %}
-\pieceToc \markup { L'Amour, Hébé : \italic { Pourquoi Mars à l'Amour } }
+\pieceToc \markup { L’Amour, Hébé : \italic { Pourquoi Mars à l’Amour } }
 \includeScore "AEBamourHebe"
 
 %{ n°17 %}
-\pieceToc \markup { L'Amour : \italic { Ranimez vos flambeaux } }
+\pieceToc \markup { L’Amour : \italic { Ranimez vos flambeaux } }
 \includeScore "AECamour"
 
 %{ n°18 %}
@@ -126,7 +126,7 @@
 \includeScore "AEFmenuet"
 
 %{ n°20 %}
-\pieceToc \markup { L'Amour, Hébé, Chœur : \italic { Traversez les plus vastes mers } }
+\pieceToc \markup { L’Amour, Hébé, Chœur : \italic { Traversez les plus vastes mers } }
 \includeScore "AEGamourHebe"
 \includeScore "AEHchoeur"
 \actEnd "FIN DU PROLOGUE"

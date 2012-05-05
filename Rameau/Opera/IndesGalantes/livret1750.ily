@@ -3,7 +3,7 @@
 \livretAct\line { PROLOGUE }
 \livretDescAtt\justify {
   Le Theâtre représente les Jardins du Palais
-  \concat { d' \smallCaps Hebé. }
+  \concat { d’ \smallCaps Hebé. }
 }
 \livretScene\line { SCENE PREMIERE }
 \livretPers HEBÉ
@@ -28,7 +28,7 @@
 \livretVerse#8 { Mais sans offenser le mistere. }
 \livretVerse#7 { Il est pour un tendre cœur }
 \livretVerse#12 { Des biens dont le secret augmente la douceur, }
-\livretVerse#6 { Songez qu’il faut les taires. }
+\livretVerse#6 { Songez qu’il faut les taire. }
 \livretVerse#5 { Amants, seurs de plaire }
 \livretVerse#5 { Suivez vôtre ardeur, }
 \livretVerse#6 { Chantez vôtre bonheur, }
@@ -47,7 +47,7 @@
 \livretVerse#8 { Accompagnez le doux ramage }
 \livretVerse#5 { Des tendres Oiseaux. }
 \livretDesc\wordwrap-center {
-  Danse d'Amants & d'Amantes de la suite \concat { d' \smallCaps Hebé, }
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
   interrompues par le bruit des Tambours.
 }
 \livretPers HEBÉ
@@ -62,10 +62,10 @@
     \smallCaps Bellonne arrive au bruit des Tambours
     & des Trompettes qui la précedent avec des Guerriers
     portants des Drapeaux.  Elle invite la Suite
-    \concat { d' \smallCaps Hebé } à n'aimer que la gloire.
+    \concat { d’ \smallCaps Hebé } à n’aimer que la gloire.
   }
 }
-\livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d' \smallCaps Hebé. } } }
+\livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d’ \smallCaps Hebé. } } }
 \livretVerse#12 { La Gloire vous appelle ; écoutez ses Trompettes, }
 \livretVerse#12 { Hâtez-vous, armez-vous & devenez Guerriers. }
 \livretVerse#8 { Quittez ces paisibles retraites, }
@@ -104,7 +104,7 @@
 \livretScene\line { SCENE V }
 \livretPers HEBÉ
 \livretVerse#11 { L’Amour paroit armé, qu’il soit victorieux ! }
-\livretPers L'AMOUR
+\livretPers L’AMOUR
 \livretVerse#12 { Pourquoy Mars à l’Amour declare-t-il la guerre ? }
 \livretVerse#12 { Mars perd-t-il son encens, lorsqu’on vient m’en offrir ? }
 \livretVerse#8 { Jamais les mirthes sur la terre }
@@ -114,7 +114,7 @@
 \livretVerse#12 { Fils de Venus lancez vos traits les plus certains ; }
 \livretVerse#12 { Conduisez les Plaisirs dans les climats lointains }
 \livretVerse#8 { Quand l’Europe les abandonne. }
-\livretPers L'AMOUR
+\livretPers L’AMOUR
 \livretVerse#12 { Ranimez vos flambeaux, remplissez vos carquois, }
 \livretVerse#12 { Moissonnez, meritez les palmes immortelles ! }
 \livretVerse#8 { Amours, remportez, a la fois, }
@@ -123,7 +123,7 @@
 \livretVerse#8 { Les Jeux s’amusent sur vos traces, }
 \livretVerse#10 { Partez, partez, vos nouveaux étendards }
 \livretVerse#6 { Sont l’ouvrage des Graces. }
-\livretPers\line { L'AMOUR ET HEBÉ }
+\livretPers\line { L’AMOUR ET HEBÉ }
 \livretVerse#8 { Traversez les plus vastes Mers, }
 \livretVerse#12 { Volez Amours, portez vos armes & vos fers }
 \livretVerse#8 { Sur le plus éloigné Rivage. }
@@ -132,8 +132,8 @@
 \livretVerse#12 { Volez Amours, portez vos armes & vos fers }
 \livretVerse#8 { Sur le plus éloigné Rivage. }
 \livretDesc\justify {
-  Les \smallCaps Amours s'envolent pendant le Chœur,
-  & se dispersent loin de l'Europe dans les differents
+  Les \smallCaps Amours s’envolent pendant le Chœur,
+  & se dispersent loin de l’Europe dans les differents
   Climats des Indes.
 }
 \livretFinAct\line { FIN DU PROLOGUE }

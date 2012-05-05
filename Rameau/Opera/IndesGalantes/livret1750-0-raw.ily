@@ -1,7 +1,7 @@
 \livretAct\line { PROLOGUE }
 \livretDescAtt\justify {
   Le Theâtre représente les Jardins du Palais
-  \concat { d' \smallCaps Hebé. }
+  \concat { d’ \smallCaps Hebé. }
 }
 \livretScene\line { SCENE PREMIERE }
 \livretPers HEBÉ
@@ -45,7 +45,7 @@
 %# Accompagnez le doux ramage
 %# Des tendres Oiseaux.
 \livretDesc\wordwrap-center {
-  Danse d'Amants & d'Amantes de la suite \concat { d' \smallCaps Hebé, }
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
   interrompues par le bruit des Tambours.
 }
 \livretPers HEBÉ
@@ -60,10 +60,10 @@
     \smallCaps Bellonne arrive au bruit des Tambours
     & des Trompettes qui la précedent avec des Guerriers
     portants des Drapeaux.  Elle invite la Suite
-    \concat { d' \smallCaps Hebé } à n'aimer que la gloire.
+    \concat { d’ \smallCaps Hebé } à n’aimer que la gloire.
   }
 }
-\livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d' \smallCaps Hebé. } } }
+\livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d’ \smallCaps Hebé. } } }
 %# La Gloire vous appelle ; écoutez ses Trompettes,
 %# Hâtez-vous, armez-vous & devenez Guerriers.
 %# Quittez ces paisibles retraites,
@@ -102,7 +102,7 @@
 \livretScene\line { SCENE V }
 \livretPers HEBÉ
 %# L'Amour paroit armé, qu'il soit victorieux !
-\livretPers L'AMOUR
+\livretPers L’AMOUR
 %# Pourquoy Mars à l'Amour declare-t-il la guerre ?
 %# Mars perd-t-il son encens, lorsqu'on vient m'en offrir ?
 %# Jamais les mirthes sur la terre
@@ -112,7 +112,7 @@
 %# Fils de Venus lancez vos traits les plus certains ;
 %# Conduisez les Plaisirs dans les climats lointains
 %# Quand l'Europe les abandonne.
-\livretPers L'AMOUR
+\livretPers L’AMOUR
 %# Ranimez vos flambeaux, remplissez vos carquois,
 %# Moissonnez, meritez les palmes immortelles !
 %# Amours, remportez, a la fois,
@@ -121,7 +121,7 @@
 %# Les Jeux s'amusent sur vos traces,
 %# Partez, partez, vos nouveaux étendards
 %# Sont l'ouvrage des Graces.
-\livretPers\line { L'AMOUR ET HEBÉ }
+\livretPers\line { L’AMOUR ET HEBÉ }
 %# Traversez les plus vastes Mers,
 %# Volez Amours, portez vos armes & vos fers
 %# Sur le plus éloigné Rivage.
@@ -130,8 +130,8 @@
 %# Volez Amours, portez vos armes & vos fers
 %# Sur le plus éloigné Rivage.
 \livretDesc\justify {
-  Les \smallCaps Amours s'envolent pendant le Chœur,
-  & se dispersent loin de l'Europe dans les differents
+  Les \smallCaps Amours s’envolent pendant le Chœur,
+  & se dispersent loin de l’Europe dans les differents
   Climats des Indes.
 }
 \livretFinAct\line { FIN DU PROLOGUE }

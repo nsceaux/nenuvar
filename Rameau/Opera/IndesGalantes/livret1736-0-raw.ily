@@ -1,7 +1,7 @@
 \livretAct\line { PROLOGUE }
 \livretDescAtt\justify {
   Le Theâtre représente les Jardins du Palais
-  \concat { d' \smallCaps Hebé. }
+  \concat { d’ \smallCaps Hebé. }
 }
 \livretScene\line { SCENE PREMIERE }
 \livretPers HEBÉ
@@ -32,7 +32,7 @@
 %# Accompagnez le doux ramage
 %# Des tendres Oiseaux.
 \livretDesc\wordwrap-center {
-  Danse d'Amants & d'Amantes de la suite \concat { d' \smallCaps Hebé. }
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé. }
 }
 \livretPers HEBÉ
 %# Amants, seurs de plaire
@@ -61,10 +61,10 @@
     \smallCaps Bellonne arrive au bruit des Tambours
     & des Trompettes qui la précedent avec des Guerriers
     portants des Drapeaux.  Elle invite la Suite
-    \concat { d' \smallCaps Hebé } à n'aimer que la gloire.
+    \concat { d’ \smallCaps Hebé } à n’aimer que la gloire.
   }
 }
-\livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d' \smallCaps Hebé. } } }
+\livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d’ \smallCaps Hebé. } } }
 %# La Gloire vous appelle ; écoutez ses Trompettes,
 %# Hâtez-vous, armez-vous & devenez Guerriers.
 %# Quittez ces paisibles retraites,
@@ -94,8 +94,8 @@
 %# Volez Amours, portez vos armes & vos fers
 %# Sur le plus éloigné Rivage.
 \livretDesc\justify {
-  Les \smallCaps Amours s'envolent pendant le Chœur,
-  & se dispersent loin de l'Europe dans les differents
+  Les \smallCaps Amours s’envolent pendant le Chœur,
+  & se dispersent loin de l’Europe dans les differents
   Climats des Indes.
 }
 \livretFinAct\line { FIN DU PROLOGUE }
