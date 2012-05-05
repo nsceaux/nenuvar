@@ -2,8 +2,7 @@
   <<
     \setMusic #'group <<
       \new Staff <<
-        \origVersion { s2_"violons" s1*5 s2 s2_\markup\huge\italic "Reprise" }
-        \modVersion\instrumentName "Violons"
+        \modVersion\instrumentName "[Dessus]"
         \global \includeNotes "dessus"
       >>
       \new Staff <<
@@ -18,10 +17,11 @@
         \modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
         \origLayout {
-          s2 s1*5 s2\pageBreak
-          s2 s1*8\break
-          s1*9\break
-          s1*2 s2\pageBreak
+          s2 s1*4\break
+          s1*5 s2 \bar "" \pageBreak
+          s2 s1*5\break
+          s1*5 s2 \bar "" \break
+          s2 s1*4 s2 \pageBreak
         }
       >>
     >>

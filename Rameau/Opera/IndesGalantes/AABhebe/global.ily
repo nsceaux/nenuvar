@@ -11,13 +11,13 @@ s2.*14
   s2.*8 s4
   \once\override TextScript #'extra-offset = #'(0 . -4)
   s2^\markup\musicglyph #"scripts.segno"
-  \endMark\markup { On reprend jusqu'au mot fin. }
+  \endMark\markup { On reprend jusqu’au mot fin. }
   \once\override Score.RehearsalMark #'self-alignment-X = #LEFT
   \once\override Score.RehearsalMark #'extra-offset = #'(2 . 30)
 }
 \modVersion {
   s2.*7
   s2 s8.\segnoMark s16
-  \endMark\markup { On reprend jusqu'au mot fin. }
+  \endMark\markup { On reprend jusqu’au mot fin. }
 }
 \bar "|."
