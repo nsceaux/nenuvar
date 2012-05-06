@@ -75,11 +75,12 @@
 \includeScore "ACBchoeur"
 
 %{ n°10 %}
-\pieceTocTitle "Air pour deux guerriers portant les drapeaux"
+\pieceTocTitle "Air pour deux guerriers [portant les drapeaux]"
 \includeScore "ACCair"
 
 %{ n°11 %}
-\pieceToc \markup { Bellone : \italic { C’est la gloire qui rend les héros immortels } }
+\pieceToc \markup { Bellone :
+  \italic { C’est la gloire qui rend les héros immortels } }
 \includeScore "ACDbellone"
 
 %{ n°12 %}
