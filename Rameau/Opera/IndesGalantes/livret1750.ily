@@ -87,11 +87,11 @@
 \livretPers CHŒUR
 \livretVerse#6 { Vous nous abandonnez. }
 \livretVerse#6 { Quelle peine mortelle ! }
-\livretVerse#8 { Que vont devenir nos beaux jours ! }
+\livretVerse#8 { Que sont devenus nos beaux jours ! }
 \livretVerse#6 { Quelle peine mortelle ! }
 \livretVerse#6 { Ecoutez les Amours. }
 \livretVerse#6 { La Gloire nous appelle, }
-\livretVerse#5 { Nous n’écoutons qu’elle. }
+\livretVerse#6 { Nous n’écoutons plus qu’elle. }
 
 \livretScene\line { SCENE IV }
 \livretPers HEBÉ

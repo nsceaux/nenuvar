@@ -85,11 +85,11 @@
 \livretPers CHŒUR
 %# Vous nous abandonnez.
 %# Quelle peine mortelle !
-%# Que vont devenir nos beaux jours !
+%# Que sont devenus nos beaux jours !
 %# Quelle peine mortelle !
 %# Ecoutez les Amours.
 %# La Gloire nous appelle,
-%# Nous n'écoutons qu'elle.
+%# Nous n'écoutons plus qu'elle.
 
 \livretScene\line { SCENE IV }
 \livretPers HEBÉ
