@@ -1,6 +1,6 @@
-\clef "vdessus" la'4 |
+\clef "vdessus" la'4^\markup\orig-version\character Chœur |
 la'2 la'4 la'8 re'' |
-dod''2 dod''8 r re'' mi'' |
+dod''2\trill dod''8 r re'' mi'' |
 fad''2 fad''4 la'' |
 fad''2\trill fad''4 r |
 R1*2 |
@@ -11,7 +11,7 @@ la'4 la'8 la' la'4 re'' |
 dod''1\trill |
 R1 |
 r2 r4 la' |
-la'2 la'4 la'8 re'' |
+la'2 la'8 r la' re'' |
 dod''2\trill dod''8 r re'' mi'' |
 fad''2 fad''4 la'' |
 fad''2\trill fad''4 r |
