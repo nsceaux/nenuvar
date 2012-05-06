@@ -1,5 +1,4 @@
-\clef "vbasse"
-re2 la, |
+\clef "vbasse" re2^\markup\orig-version\character Bellonne la, |
 re re4 r |
 fad2. la4 |
 fad2\trill fad4. re8 |
@@ -15,7 +14,7 @@ R1 |
 r2 r4 la |
 dod'1 |
 R1 |
-r2 r4 la |
+r2 r4 r8 la |
 mi'1 |
 r4 r8 mi mi4. mi8 |
 sol2 sol4 sol8 sol |
@@ -23,13 +22,14 @@ sol2 sol8 r r sol |
 fad4. fad8 re4. re8 |
 la1~ |
 la |
-r2 r4 r8 la |
-la4.\melisma do'8 si[ re' dod' mi'] |
-re'2.\melismaEnd re'4 |
+r2 r4 la |
+la4.\melisma do'8 si[ re' dod' mi']( |
+re'2.)\melismaEnd re'4 |
 fad re fad sol |
 la2( la,) |
 re1 |
 r2 r4 re |
 la1 |
+\origVersion s1
 re1 |
-r2
+R1

@@ -80,7 +80,7 @@
 }
 \livretPers BELLONNE
 \livretVerse#3 { C’est la gloire }
-\livretVerse#8 { Que rend les heros immortels, }
+\livretVerse#8 { Qui rend les heros immortels, }
 \livretVerse#8 { Allez encenser ses autels, }
 \livretVerse#10 { Partez, volez au temple de memoire. }
 \livretDesc\wordwrap-center { On danse. }

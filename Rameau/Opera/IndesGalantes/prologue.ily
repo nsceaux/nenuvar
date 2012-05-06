@@ -80,7 +80,7 @@
 
 %{ n°11 %}
 \pieceToc \markup { Bellone :
-  \italic { C’est la gloire qui rend les héros immortels } }
+  \italic { C’est la gloire Qui rend les heros immortels } }
 \includeScore "ACDbellone"
 
 %{ n°12 %}

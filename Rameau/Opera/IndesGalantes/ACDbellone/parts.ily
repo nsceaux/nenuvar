@@ -3,4 +3,4 @@
                    (taille)
                    (basse)
                    (timbales)
-                   (voix))
+                   (silence #:score "score-silence"))

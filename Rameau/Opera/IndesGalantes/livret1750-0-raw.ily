@@ -78,7 +78,7 @@
 }
 \livretPers BELLONNE
 %# C'est la gloire
-%# Que rend les heros immortels,
+%# Qui rend les heros immortels,
 %# Allez encenser ses autels,
 %# Partez, volez au temple de memoire.
 \livretDesc\wordwrap-center { On danse. }

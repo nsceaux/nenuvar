@@ -7,9 +7,9 @@ fad'4 la' mi'2 |
 fad'4 mi'8 re' mi'4 la' |
 la'2. re''4 |
 dod''8 re'' dod'' si' la' sold' la'4 |
-mi'2 mi' |
-mi'1\trill |
-mi' |
+dod'2 dod' |
+dod'1\trill |
+dod' |
 R1 |
 R1 |
 la2 do' |
@@ -27,5 +27,6 @@ dod''8 si' la' sol' fad' mi' re'4 |
 la2 la |
 la1 |
 R1 |
+\origVersion s1
 la2 la |
-la
+la1\trill |
