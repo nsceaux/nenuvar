@@ -103,7 +103,7 @@
 
 \livretScene\line { SCENE V }
 \livretPers HEBÉ
-\livretVerse#11 { L’Amour paroit armé, qu’il soit victorieux ! }
+\livretVerse#12 { L’Amour paroit armé, qu’il soit victorieux ! }
 \livretPers L’AMOUR
 \livretVerse#12 { Pourquoy Mars à l’Amour declare-t-il la guerre ? }
 \livretVerse#12 { Mars perd-t-il son encens, lorsqu’on vient m’en offrir ? }

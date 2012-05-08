@@ -302,7 +302,9 @@ myfootnoteAll =
        (make-music 'Music 'void #t)))
 
 %%% Nuances
-doux = #(make-music 'TextScriptEvent
-                    'text (markup #:italic #:general-align X -0.5 "doux"))
-fort = #(make-music 'TextScriptEvent
-                    'text (markup #:italic #:general-align X -0.5 "fort"))
+doux =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.5 "doux"))
+fort =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.5 "fort"))
