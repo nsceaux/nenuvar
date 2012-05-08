@@ -7,7 +7,7 @@ R4.*4 |
 r4 la'8 |
 sol'4 fad'8 |
 dod' mi'' re'' |
-dod''4 r8 |
+dod''4\trill r8 |
 r4 la'8 |
 sol'4 fad'8 |
 la' sol' mi' |
@@ -18,7 +18,7 @@ si'8 la'4 |
 la'4 r8 |
 R4. |
 r4 re''8 |
-re''4. |
+re''4.~ |
 re''4 r8 |
 R4. |
 r4 si'8 |

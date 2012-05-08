@@ -45,9 +45,7 @@
 %% Use rehearsal numbers
 #(ly:set-option 'use-rehearsal-numbers #t)
 
-\layout {
-  reference-incipit-width = #(* 1/2 mm)
-}
+\layout { reference-incipit-width = #(* 1/2 mm) }
 
 \include "italiano.ly"
 \include "common/common.ily"
@@ -57,6 +55,13 @@
 \include "common/livret.ily"
 \setOpus "Rameau/Opera/IndesGalantes"
 \opusTitle "Les Indes Galantes"
+
+\layout {
+  indent = #(if (eqv? #t (ly:get-option 'urtext))
+                  smallindent
+                  largeindent)
+  ragged-last = #(eqv? #t (ly:get-option 'urtext))
+}
 
 \opusPartSpecs
 #`((dessus "Violons, Flûtes, Hautbois" () (#:notes "dessus" #:tag-notes dessus))

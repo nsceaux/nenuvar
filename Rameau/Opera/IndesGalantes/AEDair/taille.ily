@@ -11,7 +11,7 @@ dod''4 r8 |
 r4 la'8 |
 sol'4 fad'8 |
 la' sol' mi' |
-la' fad'\trill r |
+la' fad' r |
 R4. |
 r4 fad'8 |
 mi'16 fad' sol'8 mi' |
