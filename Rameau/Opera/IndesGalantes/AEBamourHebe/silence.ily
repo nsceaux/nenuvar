@@ -1,2 +1,1 @@
-R1\noBreak R2.\noBreak R1\noBreak R1\noBreak R1*2\noBreak R2.\noBreak
-R2.*9\noBreak R2.\noBreak R2.\noBreak R2.*7\noBreak r2
+R1 R2. R1 R1 R1*2 R2. R2.*9 R2. R2. R2.*7 r2

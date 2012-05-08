@@ -110,7 +110,7 @@
 
 %{ n°16 %}
 \pieceToc\markup\wordwrap { L’AMOUR, HEBÉ :
-  \italic { Pourquoy Mars à l'Amour declare-t-il la guerre_? } }
+  \italic { Pourquoy Mars à l’Amour declare-t-il la guerre ? } }
 \includeScore "AEBamourHebe"
 
 %{ n°17 %}
