@@ -6,6 +6,6 @@ sib2 re |
 mib mib |
 re1 |
 sol2 si, |
-do4 mib sib, la,8\trill sol, |
+do4 mib sib, la,8 sol, |
 re2 re, |
 sol,2
