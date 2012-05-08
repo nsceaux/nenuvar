@@ -116,10 +116,10 @@
 \livretVerse#8 { Quand l’Europe les abandonne. }
 \livretPers L’AMOUR
 \livretVerse#12 { Ranimez vos flambeaux, remplissez vos carquois, }
-\livretVerse#12 { Moissonnez, meritez les palmes immortelles ! }
+\livretVerse#12 { Moissonnez, meritez les palmes les plus belles ! }
 \livretVerse#8 { Amours, remportez, a la fois, }
 \livretVerse#6 { Cent victoires nouvelles ! }
-\livretVerse#9 { L’horreur suit le terrible Mars ; }
+\livretVerse#8 { L’horreur suit le terrible Mars ; }
 \livretVerse#8 { Les Jeux s’amusent sur vos traces, }
 \livretVerse#10 { Partez, partez, vos nouveaux étendards }
 \livretVerse#6 { Sont l’ouvrage des Graces. }

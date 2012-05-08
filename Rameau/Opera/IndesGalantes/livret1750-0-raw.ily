@@ -114,10 +114,10 @@
 %# Quand l'Europe les abandonne.
 \livretPers L’AMOUR
 %# Ranimez vos flambeaux, remplissez vos carquois,
-%# Moissonnez, meritez les palmes immortelles !
+%# Moissonnez, meritez les palmes les plus belles !
 %# Amours, remportez, a la fois,
 %# Cent victoires nouvelles !
-%# L'horreur suit le terrible Mars ;
+%# L'*horreur suit le terrible Mars ;
 %# Les Jeux s'amusent sur vos traces,
 %# Partez, partez, vos nouveaux étendards
 %# Sont l'ouvrage des Graces.
