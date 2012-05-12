@@ -2,6 +2,7 @@
 \markuplist \column-lines {
   \act { NOTES }
 
+  %{
   \paragraph {
     Cette édition des \italic { Indes Galantes } est basée sur un
     manuscrit conservé à la bibliothèque de Toulouse [1], daté de 1750.
@@ -394,27 +395,37 @@
 
   \null\line\bold { Références }
   \null
-  \line { \hspace #3 [1] J.P. Rameau, L. Fuzelier. \italic { Les Indes Galantes. } 1750. }
+%}
+
+  \line { à faire... }
+  \line { Source principale : manuscrit 1757 }
   \line {
-    \hspace #3 \smaller
-    \with-url #"http://numerique.bibliotheque.toulouse.fr/ark:/74899/B315556101_CONS0192"
-    \typewriter "http://numerique.bibliotheque.toulouse.fr"
+    J.P. Rameau, L. Fuzelier. \italic { Les Indes Galantes. }
+    Pierre de Rochefort, 1757.
+  }
+  \line {
+    \smaller\with-url #"http://gallica.bnf.fr/ark:/12148/btv1b8451564d"
+    \typewriter "http://gallica.bnf.fr/ark:/12148/btv1b8451564d"
+    Ref. bibl : Bibliothèque nationale de France, département Musique, VM2-328.
+  }
+  \null
+  \line { Source secondaire : manuscrit Toulouse 1750 }
+  \line {
+    J.P. Rameau, L. Fuzelier. \italic { Les Indes Galantes. } 1750.
+  }
+  \line {
+    \smaller\with-url #"http://numerique.bibliotheque.toulouse.fr/ark:/74899/B315556101_CONS0192"
+    \typewriter "http://numerique.bibliotheque.toulouse.fr/ark:/74899/B315556101_CONS0192"
     Ref. bibl : Fonds musicaux anciens, Toulouse 2583
   }
   \null
+  \line { Livret }
   \line {
-    \hspace #3 [2] J.P. Rameau. \italic { Oeuvres Complètes, Tome VII. }
-    Paris: A. Durand et Fils, 1895. Éditeur Paul Dukas.
-    \smaller
-    \with-url #"http://imslp.org/wiki/Les_Indes_Galantes_(Rameau,_Jean-Philippe)"
-    \typewriter "http://imslp.org"
-  }
-  \null
-  \line {
-    \hspace #3 [3] Louis Fuzelier. \italic { Les Indes galantes. }
+    Louis Fuzelier. \italic { Les Indes galantes. }
     Paris: Jean-Baptiste-Christophe Ballard, 1736.
     \smaller
     \with-url #"http://gallica.bnf.fr/ark:/12148/bpt6k108558p"
     \typewriter "http://gallica.bnf.fr"
   }
+  \line { qu'on a amendé selon le texte de la partition source principale. }
 }

@@ -17,7 +17,7 @@
           s1*8\pageBreak
           s1*7\break
           s1*7\break
-          s1*4\break
+          s1*4\pageBreak
         }
       >>
     >>

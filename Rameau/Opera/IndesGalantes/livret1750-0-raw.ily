@@ -1,9 +1,10 @@
 \livretAct\line { PROLOGUE }
-\livretDescAtt\justify {
+\livretDescAtt\wordwrap-center {
   Le Theâtre représente les Jardins du Palais
   \concat { d’ \smallCaps Hebé. }
 }
 \livretScene\line { SCENE PREMIERE }
+\livretRef #'AABhebe
 \livretPers HEBÉ
 %# Vous, qui d'Hebé suivez les loix,
 %# Venez, rassemblez-vous accourez à ma voix.
@@ -15,10 +16,12 @@
 %# Vous sont plus chers encore.
 %#8 Vous, qui d'Hebé, &c.
 \livretScene\line { SCENE II }
-\livretDescAtt\wordwrap-center {
+\livretRef #'ABAentree
+\livretDescAttPage\justify {
   \smallCaps Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.
 }
+\livretRef #'ABBhebe
 \livretPers HEBÉ
 %# Amants, seurs de plaire
 %# Suivez vôtre ardeur,
@@ -31,7 +34,9 @@
 %# Suivez vôtre ardeur,
 %# Chantez vôtre bonheur,
 %# Mais sans offenser le mystere.
+\livretRef #'ABCair
 \livretDesc\wordwrap-center { On danse. }
+\livretRef #'ABDhebeChoeur
 \livretPers HEBÉ
 %# Musettes, résonnez dans ce ri=ant Boccage,
 %# Accordez-vous sous l'ombrage
@@ -44,10 +49,12 @@
 %# Au murmure des ruisseaux,
 %# Accompagnez le doux ramage
 %# Des tendres Oiseaux.
-\livretDesc\wordwrap-center {
+\livretRef #'ABErondeau
+\livretDescPage\wordwrap-center {
   Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
   interrompues par le bruit des Tambours.
 }
+\livretRef #'ABFhebe
 \livretPers HEBÉ
 %# Qu'entends-je ? les Tambours font taire nos Musettes !
 %# C'est Bellonne : Ses cris excitent les Heros :
@@ -63,25 +70,30 @@
     \concat { d’ \smallCaps Hebé } à n’aimer que la gloire.
   }
 }
+\livretRef #'ACAbellone
 \livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d’ \smallCaps Hebé. } } }
 %# La Gloire vous appelle ; écoutez ses Trompettes,
 %# Hâtez-vous, armez-vous & devenez Guerriers.
 %# Quittez ces paisibles retraites,
 %# Combattez ; il est temps de cueillir des Lauriers :
 %#12 La Gloire vous appelle, &c.
-\livretDesc\justify {
+\livretRef #'ACCair
+\livretDescPage\justify {
   Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
   Ces Amants genereux épris des charmes de la Gloire,
   se rangent près de \smallCaps Bellonne & suivent
   ses Etendarts.
 }
+\livretRef #'ACDbellone
 \livretPers BELLONNE
 %# C'est la gloire
 %# Qui rend les heros immortels,
 %# Allez encenser ses autels,
 %# Partez, volez au temple de memoire.
+\livretRef #'ACEair
 \livretDesc\wordwrap-center { On danse. }
+\livretRef #'ACFchoeur
 \livretPers CHŒUR
 %# Vous nous abandonnez.
 %# Quelle peine mortelle !
@@ -92,6 +104,7 @@
 %# Nous n'écoutons plus qu'elle.
 
 \livretScene\line { SCENE IV }
+\livretRef #'ADAhebe
 \livretPers HEBÉ
 %# Bellonne les entraîne...
 %# O toy, vainqueur des Cieux,
@@ -100,8 +113,10 @@
 %# Fils de Vénus, ah! qui peut mieux te vanger que toy-meme ?
 
 \livretScene\line { SCENE V }
+\livretRef #'AEAannonce
 \livretPers HEBÉ
 %# L'Amour paroit armé, qu'il soit victori=eux !
+\livretRef #'AEBamourHebe
 \livretPers L’AMOUR
 %# Pourquoy Mars à l'Amour declare-t-il la guerre ?
 %# Mars perd-t-il son encens, lorsqu'on vient m'en offrir ?
@@ -112,6 +127,7 @@
 %# Fils de Venus lancez vos traits les plus certains ;
 %# Conduisez les Plaisirs dans les climats lointains
 %# Quand l'Europe les abandonne.
+\livretRef #'AECamour
 \livretPers L’AMOUR
 %# Ranimez vos flambeaux, remplissez vos carquois,
 %# Moissonnez, meritez les palmes les plus belles !
@@ -121,10 +137,14 @@
 %# Les Jeux s'amusent sur vos traces,
 %# Partez, partez, vos nouveaux étendards
 %# Sont l'ouvrage des Graces.
+\livretRef #'AEDair
+\livretDesc\wordwrap-center { [On danse.] }
+\livretRef #'AEGamourHebe
 \livretPers\line { L’AMOUR ET HEBÉ }
 %# Traversez les plus vastes Mers,
 %# Volez Amours, portez vos armes & vos fers
 %# Sur le plus éloigné Rivage.
+\livretRef #'AEHchoeur
 \livretPers CHŒUR
 %# Traversez les plus vastes Mers,
 %# Volez Amours, portez vos armes & vos fers

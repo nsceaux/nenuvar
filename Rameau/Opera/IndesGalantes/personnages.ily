@@ -1,5 +1,6 @@
 \notesSection "Personnages"
 \markup \fontsize #2 \column {
+  \line { revoir toute cette mise en page }
   \vspace #1
   \fontsize #2 \fill-line { \line { PERSONNAGES DU PROLOGUE } }
   \vspace #1

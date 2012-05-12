@@ -345,24 +345,20 @@ O Emmanuel")
                  (timbales "Timbales" #:score-file "part-trompette-timbales.ly")
                  (basse-continue "Basse continue")))
        ("Les Indes Galantes"
-        #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1743.")
+        #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1757.")
         #:key "Rameau/Opera/IndesGalantes"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
-        #:main ((#f "Conducteur")
-                (concert #f #:options "-d use-rehearsal-numbers"))
-        #:parts ((flute1 "Flûte I")
-                 (flute2 "Flûte II")
-                 (hautbois1 "Hautbois I")
-                 (hautbois2 "Hautbois II")
+        #:main ((urtext "Version urtext"
+                        #:options "-durtext"
+                        #:score-file "main-1757.ly")
+                (concert "Version de concert"
+                         #:score-file "main-1757.ly"))
+        #:parts ((dessus "Violons, Flûtes, Hautbois")
                  (trompette "Trompette" #:score-file "part-tt.ly")
-                 (basson "Basson")
-                 (violon1 "Violon I")
-                 (violon2 "Violon II")
-                 (haute-contre "Haute-contre")
-                 (taille "Taille")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
                  (basse "Basses")
-                 (timbales "Timbales" #:score-file "part-tt.ly")
-                 (voix "Parties vocales")))
+                 (timbales "Timbales" #:score-file "part-tt.ly")))
        ("Suite des Indes Galantes"
         #:description ,(markup #:wordwrap-string  "Cinq suites pour orchestre tirées des Indes Galanes.")
         #:key "Rameau/Concerts/IndesGalantesSuites"

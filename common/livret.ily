@@ -27,7 +27,7 @@
 
 #(define-markup-command (livretDescPage layout props text) (markup?)
    #:properties ((line-width)
-                 (gap 12)
+                 (gap 9)
                  (word-space 0))
    (interpret-markup
     layout props
@@ -43,6 +43,21 @@
             (#:line (#:fontsize 1 #:pad-around 2 text)
              next))))
 
+#(define-markup-command (livretDescAttPage layout props text next)
+     (markup? markup?)
+   #:properties ((line-width)
+                 (gap 9)
+                 (word-space 0))
+   (interpret-markup
+    layout props
+    #{ \markup\column {
+         \line {
+           \hspace #gap
+           \override #`(line-width . ,(- line-width gap word-space 2))
+           \fontsize #1 \pad-around #2 #text
+         }
+         $next } #}))
+
 #(define-markup-command (livretDidas layout props text) (markup?)
    (interpret-markup
     layout props
@@ -55,7 +70,7 @@
 
 #(define-markup-command (livretPers layout props text next) (markup? markup?)
    #:properties ((line-width)
-                 (gap 12)
+                 (gap 9)
                  (word-space 0))
    (interpret-markup
     layout props
@@ -96,8 +111,12 @@
                 #:fontsize 0 verse)))))
 
 #(define-markup-command (livretVerse layout props metric args) (number? markup-list?)
+   #:properties ((gap 9))
    (let ((margin (* 2.5 (- 12 (min 12 metric)))))
-     (livret-verse-aux layout props (make-line-markup args) margin)))
+     (interpret-markup
+      layout props
+      (markup #:hspace (+ gap margin)
+              (make-line-markup args)))))
 
 #(define-markup-command (livretVer layout props args) (markup-list?)
    (livret-verse-aux layout props (make-line-markup args) 0))

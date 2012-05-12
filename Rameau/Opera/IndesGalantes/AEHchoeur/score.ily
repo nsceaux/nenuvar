@@ -76,6 +76,10 @@
         \global \keepWithTag #'basse \includeNotes "basse" >>
     >>
   >>
-  \layout { }
+  \layout {
+  indent = #(if (eqv? #t (ly:get-option 'urtext))
+                noindent
+                largeindent)
+}
   \midi { }
 }

@@ -15,7 +15,7 @@ livret1750_src = livret1750-0-raw.ily livret1750-1-raw.ily \
 		livret1750-4-raw.ily
 
 livret1750.ily: $(livret1750_src)
-	echo '\\tocItem "LIVRET (Toulouse, 1750)"\n\\markuplist\\page-columns-title \\act\\line { LIVRET (Toulouse, 1750) } {' > $@
+	echo '\\tocItem "LIVRET (1757)"\n\\markuplist\\page-columns-title \\act\\line { LIVRET (1757) } {' > $@
 	$(python) $(livret_py) $(livret1750_src) >> $@
 	echo '}' >> $@
 
