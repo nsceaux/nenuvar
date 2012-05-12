@@ -1,10 +1,7 @@
-\piecePartSpecs #`((violon1)
-                   (violon2)
-                   (hautbois1)
-                   (hautbois2)
-                   (flute1)
-                   (flute2)
-                   (haute-contre)
-                   (taille)
+\piecePartSpecs #`((dessus #:instrument "Violons" #:tag-notes dessus)
+                   (haute-contre #:notes "haute-contre-taille"
+                                 #:tag-notes haute-contre)
+                   (taille #:notes "haute-contre-taille"
+                           #:tag-notes taille)
                    (basse)
-                   (voix))
+                   (silence #:score "score-silence"))

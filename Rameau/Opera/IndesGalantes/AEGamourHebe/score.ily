@@ -1,17 +1,28 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \characterName "L'Amour"
+      \modVersion\characterName "L'Amour"
       \global \includeNotes "amour"
-    >> \includeLyrics "paroles1"
+    >> \keepWithTag #'amour \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \characterName "Hébé"
+      \modVersion\characterName "Hébé"
       \global \includeNotes "hebe"
-    >> \includeLyrics "paroles2"
+    >> \keepWithTag #'hebe \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName "Basses"
-      \global \includeNotes "basse" \includeFigures "chiffres" >>
+      \modVersion\instrumentName "[B.C.]"
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+      \origLayout {
+        s4 s2.*6\break
+        s2.*6 s4 \bar "" \break
+        s2 s2.*4\pageBreak
+        s2.*6\break
+        s2.*5\break
+        s2.*5\break
+        s2. s2 \bar "" \pageBreak
+      }
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

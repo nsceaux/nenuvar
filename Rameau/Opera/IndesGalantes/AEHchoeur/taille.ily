@@ -1,5 +1,5 @@
 \clef "taille" r4 |
-r2 re''8 re'' |
+r4 r re''8 re'' |
 re''2 sol'8 fad' |
 sol'2. |
 sol'4. sol'8 sol' do'' |
@@ -31,7 +31,7 @@ fad'2 r8 << { la'8 | la'2. } \\ { fad'8 | fad'2. } >> |
 sol'4 sol'8 sol' mi' mi' |
 red' mi' mi'4 la' |
 sold'2~ sold'8 la'16 si' |
-mi'4 r2 |
+mi'4 r4 r |
 la'4 la'4. la'8 |
 re''2 r8 re'' |
 \appoggiatura do''8 si'2. |
@@ -42,7 +42,7 @@ la'2 r8 la' |
 sol' fad' sol' la' sol' la'16 sol' |
 fad'2\trill r4 |
 R2. |
-r2 r8 re' |
+r4 r r8 re' |
 do' si do' re' do' re'16 do' |
 si4 re''8 do'' si'\trill la' |
 sol'2 r8 sol' |

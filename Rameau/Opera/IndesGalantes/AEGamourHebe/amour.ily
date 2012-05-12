@@ -1,36 +1,38 @@
-\clef "vdessus" re'16 re' |
+\clef "vbas-dessus"
+<>^\markup\orig-version\character\concat { L’ \smallCaps Amour }
+re'8 re' |
 sol'[\melisma fad' sol' la' sol' la'] |
-si'[ la' si' do'' si' do''] |
-re''4.\melismaEnd |
-mi''8. re''16 mi'' fad'' |
-sol''4 r16 re'' |
-mi''[\melisma do''] do''8.[\trill si'32 do''] |
-re''16[ si'] si'8.[\trill la'32 si'] |
-do''16[ la'] la'8.[\trill sol'32 la'] |
-si'8.\melismaEnd re''16 do'' si' |
-la'4\trill r16 re'' |
-re''4.~ |
-re''4 r16 re'' |
-mi''16[\melisma fad''32 mi''] mi''8.[\trill re''32 mi''] |
-fad''8.\melismaEnd fad''16 sol'' la'' |
-la''8[ sol''16]\trill fad'' mi'' re'' |
-mi''4. |
-fad''8 mi''16 re'' dod'' si' |
-la' re'' re''8.[ dod''16] |
-\appoggiatura dod''8 re''4 r16 re'' |
-mi''[\melisma do''] do''8.[\trill si'32 do''] |
-re''16[ si'] si'8.[\trill la'32 si'] |
-do''16[ la'] la'8.[\trill sol'32 la'] |
-si'16[ sol'] sol'8.[\trill fad'32 sol'] |
-la'8.\melismaEnd si'16 sol' la' |
-fad'4\trill r16 la' |
-si'8[~ \melisma si'32 do'' la' si'] do''[ re'' si' do''] |
-re''8.\melismaEnd re''16 mi'' fa'' |
-mi''8.\trill mi''16 fad'' sol'' |
-fad''4.\trill |
-sol''8 sol''16 fa'' mi'' re'' |
-do''\trill si' si'8[ la']\trill |
-sol'4. |
-re''8 do''16 si' do'' re'' |
-mi''32[ fad''] sol''16 sol''8.[ fad''16] |
-sol''4
+si'[ la' si' do'' si' do'']( |
+re''2.)\melismaEnd |
+mi''4. re''8 mi'' fad'' |
+sol''2 r8 re'' |
+mi''8.[\melisma do''16] do''4.\trill si'16[ do'']( |
+re''8.)[ si'16] si'4.\trill la'16[ si']( |
+do''8.)[ la'16] la'4.\trill sol'16[ la']( |
+si'4.)\melismaEnd re''8 do'' si' |
+la'2\trill r8 re'' |
+re''2.~ |
+re''2 r8 re'' |
+mi''8[\melisma fad''16 mi''] mi''4.\trill re''16[ mi'']( |
+fad''4.)\melismaEnd fad''8 sol'' la'' |
+la''4( sol''8)\trill fad'' mi'' re'' |
+mi''2.\trill |
+fad''4 mi''8 re'' dod'' si' |
+la' re'' re''4.( dod''8) |
+re''2 r8 re'' |
+mi''8.[\melisma do''16] do''4.\trill si'16[ do'']( |
+re''8.)[ si'16] si'4.\trill la'16[ si']( |
+do''8.)[ la'16] la'4.\trill sol'16[ la']( |
+si'8.)[ sol'16] sol'4.\trill fad'16[ sol']( |
+la'4.)\melismaEnd si'8 sol' la' |
+fad'2\trill r8 la' |
+si'4~ \melisma si'16[ do'' la' si'] do''[ re'' si' do'']( |
+re''4.)\melismaEnd re''8 mi'' fa'' |
+mi''4.\trill mi''8 fad'' sol'' |
+fad''2.\trill |
+sol''4 sol''8 fa'' mi'' re'' |
+do'' si' la'2\trill |
+sol'2. |
+re''4 do''8 si' do'' re'' |
+mi''8[ fad''16] sol'' sol''4.( fad''8) |
+sol''2

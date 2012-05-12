@@ -1,35 +1,35 @@
-\clef "vdessus" r8 |
-r4 re'16 re' |
-sol'[\melisma fad' sol' la' sol' la'] |
-si'4.\melismaEnd do''8. si'16 do'' re'' |
-si'4\trill r16 si' |
-do''16[\melisma la'] la'8.[\trill sol'32 la'] |
-si'16[ sol'] sol'8.[\trill fad'32 sol'] |
-la'16[ fad'] fad'8.[\trill mi'32 fad'] |
-sol'8.\melismaEnd si'16 la' sol' |
-fad'4.\trill |
-r4 r16 la' |
-si'16[\melisma dod''32 si'] si'8.[\trill la'32 si'] |
-dod''16[ re''32 dod''] dod''8.[\trill si'32 dod''] |
-re''8.\melismaEnd re''16 mi'' fad'' |
-si'8. si'16 dod'' re'' |
-dod''4. |
-re''8 dod''16 si' la' sol' |
-fad' sol' mi'4\trill |
-re'4 r8 |
-R4. |
-r4 r16 re'' |
-mi''16[\melisma do''] do''8.[\trill si'32 do''] |
-re''16[ si'] si'8.[\trill la'32 si'] |
-do''8.\melismaEnd re''16 si' do'' |
-la'4\trill r16 fad' |
-sol'8[~\melisma sol'32 la' fad' sol'] la'[ si' sol' la'] |
-si'8.\melismaEnd si'16 do'' re'' |
-sol'8. sol'16 do'' do'' |
-la'4.\trill |
-re''8 do''16 si' do'' re'' |
-mi''32[ fad''] sol''16 sol''8.[ fad''16] |
-sol''4. |
-sol''8 sol''16 fa'' mi'' re'' |
-do''\trill si' si'8[ la']\trill |
-sol'4
+\clef "vbas-dessus" r4^\markup\orig-version\character Hebé |
+r4 r re'8 re' |
+sol'[\melisma fad' sol' la' sol' la']( |
+si'2.)\melismaEnd do''4. si'8 do'' re'' |
+si'2\trill r8 si' |
+do''8.[\melisma la'16] la'4.\trill sol'16[ la']( |
+si'8.)[ sol'16] sol'4.\trill fad'16[ sol']( |
+la'8.)[ fad'16] fad'4.\trill mi'16[ fad']( |
+sol'4.)\melismaEnd si'8 la' sol' |
+fad'2.\trill |
+r4 r r8 la' |
+si'8[\melisma dod''16 si'] si'4.\trill la'16[ si'] |
+dod''8[ re''16 dod''] dod''4.\trill si'16[ dod'']( |
+re''4.)\melismaEnd re''8 mi'' fad'' |
+si'4. si'8 dod'' re'' |
+dod''2.\trill |
+re''4 dod''8 si' la' sol' |
+fad' sol' fad'4( mi')\trill |
+re'2 r4 |
+R2. |
+r4 r r8 re'' |
+mi''8.[\melisma do''16] do''4.\trill si'16[ do'']( |
+re''8.)[ si'16] si'4.\trill la'16[ si']( |
+do''4.)\melismaEnd re''8 si' do'' |
+la'2\trill r8 fad' |
+sol'4~\melisma sol'16[ la' fad' sol'] la'[ si' sol' la']( |
+si'4.)\melismaEnd si'8 do'' re'' |
+sol'4. sol'8 do'' do'' |
+la'2.\trill |
+re''4 do''8 si' do'' re'' |
+mi''[ fad''16] sol'' sol''4.( fad''8) |
+sol''2. |
+sol''4 sol''8 fa'' mi'' re'' |
+do''\trill si' la'2\trill |
+sol'2

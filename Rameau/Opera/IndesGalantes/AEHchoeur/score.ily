@@ -1,35 +1,81 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<    
-      \new Staff <<
-        \instrumentName "Dessus"
-        \global \keepWithTag #'dessus \includeNotes "dessus" >>
-      \new Staff <<
-        \instrumentName "Haute-contres"
-        \global \includeNotes "haute-contre" >>
-      \new Staff <<
-        \instrumentName "Tailles"
-        \global \includeNotes "taille" >>
-    >>
-    \new ChoirStaff \with { instrumentName = \markup \smallCaps "Chœur             " } <<
+  <<
+    \origVersion \new StaffGroupNoBar <<
+      %% Chœur
       \new Staff \withLyrics <<
         \global \keepWithTag #'conducteur \includeNotes "voix-dessus"
-      >> \includeLyrics "paroles1"
-      \lyricsto "two" \new Lyrics { Tra -- ver -- sez __ les plus vas -- tes mers, }
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
+      \lyricsto "two" \new Lyrics \keepWithTag #'vdessus2 \includeLyrics "paroles"
       \new Staff \withLyrics <<
         \global \keepWithTag #'conducteur \includeNotes "voix-haute-contre"
-      >> \includeLyrics "paroles2"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
       \new Staff \withLyrics <<
         \global \keepWithTag #'conducteur \includeNotes "voix-taille"
-      >> \includeLyrics "paroles3"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
       \new Staff \withLyrics <<
         \global \keepWithTag #'conducteur \includeNotes "voix-basse"
-      >> \includeLyrics "paroles4"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      %% Violons
+      \new Staff << \global \keepWithTag #'dessus \includeNotes "dessus" >>
+      \new Staff <<
+        \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+      >>
+      \new Staff <<
+        \global \includeNotes "basse"
+        \origLayout {
+          s4 s2.*4\break
+          s2.*6\pageBreak
+          s2.*5\break
+          s2.*4 s4 \bar "" \pageBreak
+          s2 s2.*5\break
+          s2.*5\pageBreak
+          s2.*5\break
+          s2.*5\pageBreak
+          s2.*6\break
+          s2.*5\pageBreak
+          s2.*5\break
+          s2.*4\pageBreak
+          s2.*5\break
+          s2.*5\pageBreak
+          s2.*5\break
+          s2.*4 s2 \bar "" \pageBreak
+          s4 s2.*2\break
+        }
+      >>
     >>
-    \new Staff <<
-      \instrumentName "Basses"
-      \global \keepWithTag #'basse \includeNotes "basse" >>
+
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<    
+        \new Staff <<
+          \instrumentName "Violons"
+          \global \keepWithTag #'dessus \includeNotes "dessus" >>
+        \new Staff <<
+          \instrumentName\markup\center-column { Hautes-contre Tailles } \global
+          \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+        >>
+      >>
+      \new ChoirStaff \with {
+        instrumentName = \markup { \smallCaps Chœur \hspace #6 } }
+      <<
+        \new Staff \withLyrics <<
+          \global \keepWithTag #'conducteur \includeNotes "voix-dessus"
+        >> \keepWithTag #'vdessus \includeLyrics "paroles"
+        \lyricsto "two" \new Lyrics \keepWithTag #'vdessus2 \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \keepWithTag #'conducteur \includeNotes "voix-haute-contre"
+          >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \keepWithTag #'conducteur \includeNotes "voix-taille"
+        >> \keepWithTag #'vtaille \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \keepWithTag #'conducteur \includeNotes "voix-basse"
+        >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      >>
+      \new Staff <<
+        \instrumentName "[Basses]"
+        \global \keepWithTag #'basse \includeNotes "basse" >>
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

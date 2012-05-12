@@ -1,1 +1,1 @@
-r8\noBreak R4.*34\noBreak r4
+r4 R2.*34 r4 r

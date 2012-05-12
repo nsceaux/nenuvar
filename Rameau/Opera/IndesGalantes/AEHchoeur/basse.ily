@@ -1,5 +1,5 @@
 \clef "basse" r4 |
-r2 re8 re |
+r4 r re8^"Tous" re |
 sol fad sol la sol la |
 si2. |
 do'4. si8 do' la |
@@ -10,16 +10,16 @@ la si la sol fad la |
 sol4. sol8 fad sol |
 re2 r4 |
 R2. |
-r2 re8 re |
+r4 r re8 re |
 sol fad sol la sol la |
 si4 si8 si si sol |
 la4. la8 la si |
 dod'4. dod'8 dod' la |
 re'2. |
-re'4 re'8 do' si la |
+re'4 re'8 do'! si la |
 sol2~ sol8 mi |
 la4 la,2 |
-re2. |
+re,2. |
 R2.*2 |
 r4 r8 re re re |
 sol2. |
@@ -31,7 +31,7 @@ red2. |
 mi4 mi8 mi la sol |
 fad mi si4 si, |
 mi mi' re' |
-do' r2 |
+do' r4 r |
 re'4 re'4. re'8 |
 sold2.~ |
 sold |
@@ -61,10 +61,10 @@ re'4 re'8 do' si la |
 sol do re2 |
 sol, r4 |
 R2. |
-r2 r8 sol |
+r4 r r8 sol |
 do'2. |
 r4 r8 la la la |
-re'4. re'8 re' do' |
+re'4. re'8 re' re' |
 si2.\trill |
 si4 si8 si do' si |
 la8 sol re'4 re |

@@ -1,5 +1,5 @@
 \clef "vhaute-contre" r4 |
-r2 fad'8 fad' |
+r4 r fad'8 fad' |
 sol'4 sol'8 sol' sol' fad' |
 sol'2 sol'8 sol' |
 sol'4 sol'8 sol' sol' la' |
@@ -9,10 +9,10 @@ sol'~ |
 sol'4. fad'8 sol' la' |
 re'4. si'8 la' sol' |
 fad'2\trill r4 |
-r2 re'8 re' |
+r4 r re'8 re' |
 sol'[\melisma fad' sol' la' sol' la'] |
-si'[ la' si' do'' si' la'] |
-sol'4\melismaEnd sol'8 sol' sol' si' |
+si'[ la' si' do'' si' la']( |
+sol'4)\melismaEnd sol'8 sol' sol' si' |
 mi'4. mi'8 mi' mi' |
 la'4. la'8 la' mi' |
 fad'2 fad'8 re' |
@@ -36,12 +36,12 @@ la'4 la'4. la8 |
 fa'2 r8 fa' |
 \appoggiatura mi'8 re'2. |
 do'4 do'8 do' re' mi' |
-la la' la'4( sold') |
+la la' la'4.( sold'8) |
 la'2. |
-r2 r8 la' |
-sol'8[\melisma fad' sol' la'] sol'[ la'16 sol'] |
-fad'4\melismaEnd r2 |
-r2 r8 re' |
+r4 r r8 la' |
+sol'8[\melisma fad' sol' la' sol' la'16 sol']( |
+fad'4)\melismaEnd r4 r |
+r4 r r8 re' |
 re'2.~ |
 re'~ |
 re'~ |
