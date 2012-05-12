@@ -10,7 +10,7 @@
                  (if (eqv? #t (ly:get-option 'urtext))
                      "urtext"
                      "Conducteur"))
-    date = "Version de 1757"
+    date = "Basé sur un manuscrit de 1757"
   }
   \markup \null
 }
@@ -36,7 +36,7 @@
 }
 
 \include "Rameau/Opera/IndesGalantes/prologue.ily"
-%\include "Rameau/Opera/IndesGalantes/turc.ily"
+\include "Rameau/Opera/IndesGalantes/turc.ily"
 %\include "Rameau/Opera/IndesGalantes/incas.ily"
 %\include "Rameau/Opera/IndesGalantes/sauvages.ily"
 %\include "Rameau/Opera/IndesGalantes/fleurs.ily"

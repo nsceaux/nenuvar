@@ -2,73 +2,79 @@
 %%% Première Entrée
 %%%
 %{ n°1 %}\newBookPart #'()
-\entree "Première Entrée" "Le Turc généreux"
-\sceneDescription \markup \fill-line {
-  \line { Le théâtre représente les jardins d'Osman Pacha terminés par la mer. }
+\entree "Premiere Entrée" "Le Turc genereux"
+\sceneDescription\markup\center-column {
+  \line {
+    [Le Théatre représente les Jardins \concat { d' \smallCaps Osman } Bacha,
+  }
+  \line { terminez par la Mer.] }
 }
+\scene "Scene Premiere" "Scene 1 : Emilie, Osman"
+\sceneDescription\markup\wordwrap-center \smallCaps { Emilie, Osman }
 \pieceTocTitle "Ritournelle"
 \includeScore "BAAritournelle"
 
-%{ n°2 %}\newBookPart #'(full)
-\scene "Scène Première" "Scène 1 : Émilie, Osman"
-\sceneDescription \markup \fill-line { \line \smallCaps { Émilie, Osman } }
-\pieceToc \markup { Émilie, Osman }
+%{ n°2 %}%\newBookPart #'(full)
+\pieceToc\markup\wordwrap { EMILIE, OSMAN : 
+  \italic { C'est Osman qui me suit, le luy cachons plus rien } }
 \includeScore "BABemilieOsman"
 
 %{ n°3 %}
-\pieceToc \markup { Émilie : \italic { Dans le séjour témoin de ma naissance } }
+\pieceToc\markup\wordwrap { EMILIE :
+  \italic { Dans le séjour témoin de ma naissance } }
 \includeScore "BACemilie"
 
 %{ n°4 %}
-\pieceToc \markup { Émilie, Osman }
+\pieceToc\markup\wordwrap { EMILIE, OSMAN :
+  \italic { Qu'en peignant vos malheurs vous redoublez les miens } }
 \includeScore "BADemilieOsman"
 \partNoPageTurn #'(basse basson)
 
 %{ n°5 %}
-\pieceToc \markup { Osman : \italic { C'est trop m'accabler par vos pleurs } }
+\pieceToc\markup\wordwrap { OSMAN :
+  \italic { C'est trop m'accabler par vos pleurs } }
 \includeScore "BAEosman"
 
-%{ n°6 %}\newBookPart #'(full)
-%% Scène II
-%\scene "Scène II" "Scène 2 : Émilie, Osman, chœur de matelots"
-\pieceToc \markup { Osman, Émilie }
+%{ n°6 %}
+%\scene "Scene II" "Scene 2 : Emilie, Osman, chœur de matelots"
+\pieceToc\markup\wordwrap { OSMAN, EMILIE : \italic {  } }
 \includeScore "BBAosmanEmilie"
 
 %{ n°7 %}
 \pieceTocTitle "Tempête"
 \includeScore "BBBtempete"
 
-%{ n°8 %}\newBookPart #'(full)
+%{ n°8 %}
 \pieceToc \markup { Chœur : \italic { Ciel ! De plus d'une mort } }
 \includeScore "BBCchoeur"
 \partNoPageTurn #'(violon1 violon2 flute1 flute2 haute-contre taille basse basson)
-%{ n°9 %}\newBookPart #'(full)
-\pieceToc \markup { Émilie : \italic { Que ces cris agitent mes sens ! } }
+%{ n°9 %}
+\pieceToc \markup { Emilie : \italic { Que ces cris agitent mes sens ! } }
 \includeScore "BBDemilie"
 \partNoPageTurn #'(violon1 violon2 flute1 flute2 haute-contre taille basse basson)
-%{ n°10 %}\newBookPart #'(full)
+%{ n°10 %}
 \pieceToc \markup { Chœur : \italic { Que nous sert d'échapper à la fureur des mers ? } }
 \includeScore "BBEchoeur"
 %{===%}
 \includeScore "BBFemilie"
 
-%{ n°11 %}\newBookPart #'(full)
-\scene "Scène III" "Scène 3 : Émilie, Valère"
-\sceneDescription \markup \fill-line { \line { \smallCaps { Émilie, Valère } (en esclave) } }
-\pieceToc \markup { Émilie, Valère }
+%{ n°11 %}
+\scene "Scene III" "Scene 3 : Emilie, Valère"
+\sceneDescription \markup \fill-line { \line { \smallCaps { Emilie, Valère } (en esclave) } }
+\pieceToc \markup { Emilie, Valère }
 \includeScore "BCAemilieValere"
 
-%{ n°12 %}\newBookPart #'(full)
-\scene "Scène IV" "Scène 4 : Émilie, Valère, Osman"
-\sceneDescription \markup \fill-line { \line \smallCaps { Émilie, Valère, Osman } }
-\pieceToc \markup { Émilie, Valère, Osman }
+%{ n°12 %}
+\scene "Scene IV" "Scene 4 : Emilie, Valère, Osman"
+\sceneDescription \markup \fill-line { \line \smallCaps { Emilie, Valère, Osman } }
+\pieceToc \markup { Emilie, Valère, Osman }
 \includeScore "BDAevo"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°13 %}\newBookPart #'()
-\scene "Scène V" \markup \wordwrap { Scène 5 : Émilie, Valère, provençaux et provençales, esclaves africains }
+\scene "Scene V" \markup \wordwrap { Scene 5 : Emilie, Valère, provençaux et provençales, esclaves africains }
 \sceneDescription \markup \left-align \center-column {
-  \line \smallCaps { Émilie, Valère, }
+  \line \smallCaps { Emilie, Valère, }
   \line { Provençaux et Provençales de leur escadre, }
   \line { Esclaves africains d'Osman }
 }
@@ -76,43 +82,43 @@
 \includeScore "BEAmarche"
 
 %{ n°14 %}
-\pieceToc \markup { Émilie, Valère : \italic { Volez, Zéphyrs } }
+\pieceToc \markup { Emilie, Valère : \italic { Volez, Zéphyrs } }
 \includeScore "BEBduo"
 
 %{ n°15 %}
 \pieceToc \markup { Chœur : \italic { Volez, Zéphyrs } }
 \includeScore "BECchoeur"
 
-%{ n°16 %}\newBookPart #'(full)
+%{ n°16 %}
 \pieceTocTitle "Air pour les esclaves africains"
 \includeScore "BEDair"
 
-%{ n°17 %}\newBookPart #'(full)
+%{ n°17 %}
 \pieceToc \markup { Valère : \italic { Hâtez-vous de vous embarquer } }
 \includeScore "BEEvalere"
 
-%{ n°18 %}\newBookPart #'(full)
+%{ n°18 %}
 \pieceTocTitle "Rigaudons I & II"
 \includeScore "BEFrigaudon"
 
 %{ n°19 %}
-\pieceToc \markup { Émilie : \italic { Fuyez, vents orageux ! } }
+\pieceToc \markup { Emilie : \italic { Fuyez, vents orageux ! } }
 \includeScore "BEGemilie"
 
-%{ n°20 %}\newBookPart #'(full)
+%{ n°20 %}
 \pieceTocTitle "Tambourins I & II"
 \includeScore "BEHtambourin"
 
-%{ n°21 %}\newBookPart #'(full)
-\pieceToc \markup { Émilie : \italic { Hâtez-vous de vous embarquer } }
+%{ n°21 %}
+\pieceToc \markup { Emilie : \italic { Hâtez-vous de vous embarquer } }
 \includeScore "BEIariette"
 
-%{ n°22 %}\newBookPart #'(full)
+%{ n°22 %}
 \pieceTocTitle "Tambourins I & II"
 \reIncludeScore "BEHtambourin" "BEItambourin"
 
-%{ n°23 %}\newBookPart #'(full)
-\pieceToc \markup { Émilie : \italic { Partez ! On languit sur le rivage } }
+%{ n°23 %}
+\pieceToc \markup { Emilie : \italic { Partez ! On languit sur le rivage } }
 \includeScore "BEJemilie"
 
 %{ n°24 %}

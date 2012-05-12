@@ -1,14 +1,41 @@
 \score {
-  \new StaffGroup <<
-    \new Staff << \instrumentName "Dessus I"
-      \global \includeNotes "dessus1" >>
-    \new Staff << \instrumentName "Dessus II"
-      \global \includeNotes "dessus2" >>
-    \new Staff << \instrumentName \markup \center-column { Haute-contres Tailles }
-      \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille" >>
-    \new Staff << \instrumentName \markup Basses
-      \global \includeNotes "basse" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff << \global \includeNotes "dessus1" >>
+      \new Staff << \global \includeNotes "dessus2" >>
+      \new Staff <<
+        \global
+        \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+      >>
+      \new Staff <<
+        \global \includeNotes "basse"
+        \origLayout {
+          s4 s1*5 s2 \bar "" \break
+          s2 s1*5 s2 \bar "" \break
+          s2 s1*6\pageBreak
+          s1*5 s2 \bar "" \break
+          s2 s1*5\break
+        }
+      >>
+    >>
+
+    \modVersion\new StaffGroup <<
+      \new GrandStaff \with { instrumentName = \markup { [Dessus] \hspace #6 } }
+      <<
+        \new Staff << \global \includeNotes "dessus1" >>
+        \new Staff << \global \includeNotes "dessus2" >>
+      >>
+      \new Staff <<
+        \instrumentName\markup\center-column { Hautes-contre Tailles }
+        \global
+        \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+      >>
+      \new Staff <<
+        \instrumentName "[Basses]"
+        \global \includeNotes "basse"
+      >>
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }
