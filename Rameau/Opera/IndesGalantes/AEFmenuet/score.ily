@@ -1,16 +1,36 @@
 \score {
-  \new StaffGroup <<
-    \new Staff << \instrumentName \markup Dessus
-      \global \includeNotes "dessus" >>
-    \new Staff << \instrumentName \markup Haute-contres
-      \global \includeNotes "haute-contre" >>
-    \new Staff << \instrumentName \markup Tailles
-      \global \includeNotes "taille" >>
-    \new Staff << \instrumentName \markup Bassons
-      \global \includeNotes "basson" >>
-    \new Staff << \instrumentName \markup Basses
-      \global \includeNotes "basse" >>
+  <<
+    \setMusic #'group <<
+      \new Staff <<
+        \modVersion\instrumentName "[Dessus]"
+        \global \includeNotes "dessus"
+      >>
+      \new Staff <<
+        \modVersion\instrumentName "[Hautes-contre]"
+        \global \includeNotes "haute-contre"
+      >>
+      \new Staff <<
+        \modVersion\instrumentName "[Tailles]"
+        \global \includeNotes "taille"
+      >>
+      \new Staff <<
+        \modVersion\instrumentName "Bassons"
+        \global \includeNotes "basson"
+      >>
+      \new Staff <<
+        \modVersion\instrumentName "[Basses]"
+        \global \includeNotes "basse"
+        \origLayout {
+          s2.*6\break
+          s2.*8\break
+          s2.*7\pageBreak
+          s2.*3\break
+        }
+      >>
+    >>
+    \origVersion\new StaffGroupNoBar \group
+    \modVersion\new StaffGroup \group
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

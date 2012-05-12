@@ -2,4 +2,4 @@
                    (haute-contre)
                    (taille)
                    (basson #:instrument "Basson" #:notes "basson")
-                   (basse))
+                   (basse #:score "score-basse"))

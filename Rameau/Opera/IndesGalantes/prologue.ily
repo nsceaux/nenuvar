@@ -123,9 +123,10 @@
 \includeScore "AEDair"
 
 %{ n°19 %}
-\pieceTocTitle "Menuets I & II"
+\pieceTocTitle "Premier menüet"
 \includeScore "AEEmenuet"
 \noPageTurn
+\pieceTocTitle "Second menüet"
 \includeScore "AEFmenuet"
 
 %{ n°20 %}
