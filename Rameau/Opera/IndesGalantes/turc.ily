@@ -41,9 +41,14 @@
 
 %{ n°7 %}
 \scene "Scene II" "Scene 2 : Emilie, Osman, chœur de matelots"
-\pieceToc\markup\wordwrap { EMILIE : \italic {  } }
-\includeScore "BBAosmanEmilie"
+\pieceToc\markup\wordwrap { EMILIE :
+  \italic { Que je ne verray plus !... Barbare } }
+\includeScore "BBAemilie"
 
+\sceneDescriptionBottom\markup\justify {
+  La nuit se repend sur le Theatre, les flots de la mer se
+  soulevent et le tonnerre grounde avec violence.
+}
 %{ n°8 %}
 \pieceTocTitle "Tempête"
 \includeScore "BBBtempete"
