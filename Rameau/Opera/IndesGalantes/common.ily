@@ -87,9 +87,9 @@
              (#:notes "basse" #:clef "basse" #:tag-notes timbales)))
 
 %% Tremolo for string instruments
-#(if (memq (ly:get-option 'part)
-           '(violons haute-contre taille basse basse-continue))
-     (ly:set-option 'use-tremolo-repeat #t))
+%#(if (memq (ly:get-option 'part)
+%           '(dessus violons haute-contre taille basse basse-continue))
+%     (ly:set-option 'use-tremolo-repeat #t))
 
 %%% Figured bass
 includeFigures = 
@@ -124,11 +124,11 @@ emilieMarkText =
 
 valereMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vhaute-contre" "Valère"))
+  (make-character-mark "vhaute-contre" "Valere"))
 
 valereMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vhaute-contre" "Valère" (markup #:smaller text)))
+  (make-character-mark-text "vhaute-contre" "Valere" (markup #:smaller text)))
 
 osmanMark =
 #(define-music-function (parser location) ()

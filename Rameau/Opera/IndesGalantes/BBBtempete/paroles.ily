@@ -1,18 +1,11 @@
-La nuit cou -- vre les "cieux !"
-Quel fu -- nes -- te ra -- va -- "ge !"
+La nuit cou -- vre les Cieux ! quel fu -- nes -- te ra -- va -- ge !
 
-Vaste em -- pi -- re des mers où tri -- om -- phe l'hor -- reur,
-vous ê -- tes la ter -- rible i -- ma -- ge
-du trou -- ble de mon coeur,
-vous ê -- tes la ter -- rible i -- ma -- ge
-du trou -- ble de mon coeur.
+Vaste Em -- pi -- re des Mers où tri -- om -- phe l’hor -- reur,
+Vous ê -- tes la ter -- rible i -- ma -- ge
+Du trou -- ble de mon cœur.
+Vous ê -- tes la ter -- rible i -- ma -- ge
+Du trou -- ble de mon cœur.
 
-Des vents im -- pé -- tu -- eux vous é -- prou -- vez la ra -- ge,
-d'un jus -- te dé -- ses -- poir j'é -- prou -- ve la fu -- reur.
-
-Vaste em -- pi -- re des %{ mers où tri -- om -- phe l'hor -- reur,
-vous ê -- tes la ter -- rible i -- ma -- ge
-du trou -- ble de mon coeur,
-vous ê -- tes la ter -- rible i -- ma -- ge
-du trou -- ble de mon coeur.
-%}
+Des vents im -- pe -- tu -- eux vous é -- prou -- vez la ra -- ge,
+D’un jus -- te de -- ses -- poir j’é -- prou -- ve la fu -- reur.
+Vaste Em -- pi -- re des \origVersion Mers_&c

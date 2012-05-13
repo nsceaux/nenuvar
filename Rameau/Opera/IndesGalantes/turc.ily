@@ -53,37 +53,43 @@
 \pieceTocTitle "Tempête"
 \includeScore "BBBtempete"
 
+\sceneDescriptionBottom\markup\justify {
+  [La Tempête continue avec la même violence.]
+}
 %{ n°9 %}
-\pieceToc \markup { Chœur : \italic { Ciel ! De plus d'une mort } }
+\pieceToc\markup\wordwrap { CHŒUR :
+  \italic { Ciel ! de plus d'une mort nous redoutons les coups ! } }
 \includeScore "BBCchoeur"
-\partNoPageTurn #'(violon1 violon2 flute1 flute2 haute-contre taille basse basson)
+\partNoPageTurn #'(dessus haute-contre taille basse)
 %{ n°10 %}
-\pieceToc \markup { Emilie : \italic { Que ces cris agitent mes sens ! } }
+\pieceToc\markup\wordwrap { EMILIE :
+  \italic { Que ces cris agitent mes sens ! } }
 \includeScore "BBDemilie"
-\partNoPageTurn #'(violon1 violon2 flute1 flute2 haute-contre taille basse basson)
+\partNoPageTurn #'(dessus haute-contre taille basse)
 %{ n°11 %}
-\pieceToc \markup { Chœur : \italic { Que nous sert d'échapper à la fureur des mers ? } }
+\pieceToc\markup\wordwrap { CHŒUR :
+  \italic { Que nous sert d'échapper à la fureur des mers ? } }
 \includeScore "BBEchoeur"
 %{===%}
 \includeScore "BBFemilie"
 
 %{ n°12 %}
-\scene "Scene III" "Scene 3 : Emilie, Valère"
-\sceneDescription \markup \fill-line { \line { \smallCaps { Emilie, Valère } (en esclave) } }
-\pieceToc \markup { Emilie, Valère }
+\scene "Scene III" "Scene 3 : Emilie, Valere"
+\sceneDescription \markup \fill-line { \line { \smallCaps { Emilie, Valere } (en esclave) } }
+\pieceToc \markup { Emilie, Valere }
 \includeScore "BCAemilieValere"
 
 %{ n°13 %}
-\scene "Scene IV" "Scene 4 : Emilie, Valère, Osman"
-\sceneDescription \markup \fill-line { \line \smallCaps { Emilie, Valère, Osman } }
-\pieceToc \markup { Emilie, Valère, Osman }
+\scene "Scene IV" "Scene 4 : Emilie, Valere, Osman"
+\sceneDescription \markup \fill-line { \line \smallCaps { Emilie, Valere, Osman } }
+\pieceToc \markup { Emilie, Valere, Osman }
 \includeScore "BDAevo"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°14 %}\newBookPart #'()
-\scene "Scene V" \markup \wordwrap { Scene 5 : Emilie, Valère, provençaux et provençales, esclaves africains }
+\scene "Scene V" \markup \wordwrap { Scene 5 : Emilie, Valere, provençaux et provençales, esclaves africains }
 \sceneDescription \markup \left-align \center-column {
-  \line \smallCaps { Emilie, Valère, }
+  \line \smallCaps { Emilie, Valere, }
   \line { Provençaux et Provençales de leur escadre, }
   \line { Esclaves africains d'Osman }
 }
@@ -91,7 +97,7 @@
 \includeScore "BEAmarche"
 
 %{ n°15 %}
-\pieceToc \markup { Emilie, Valère : \italic { Volez, Zéphyrs } }
+\pieceToc \markup { Emilie, Valere : \italic { Volez, Zéphyrs } }
 \includeScore "BEBduo"
 
 %{ n°16 %}
@@ -103,7 +109,7 @@
 \includeScore "BEDair"
 
 %{ n°18 %}
-\pieceToc \markup { Valère : \italic { Hâtez-vous de vous embarquer } }
+\pieceToc \markup { Valere : \italic { Hâtez-vous de vous embarquer } }
 \includeScore "BEEvalere"
 
 %{ n°19 %}

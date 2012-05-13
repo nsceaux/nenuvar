@@ -78,12 +78,12 @@
 \livretDidasP\justify {
   L'obscurité & la tempeste redoublent.
 }
-%# Vaste Empire des Mers où tri=omphe l'horreur,
+%# Vaste Empire des Mers où tri=omphe l'*horreur,
 %# Vous êtes la terrible image
 %# Du trouble de mon cœur.
 %# Des vents impetu=eux vous éprouvez la rage,
 %# D'un juste desespoir j'éprouve la fureur.
-%# Vaste Empire des Mers où tri=omphe l'horreur,
+%# Vaste Empire des Mers où tri=omphe l'*horreur,
 %# Vous êtes la terrible image
 %# Du trouble de mon cœur.
 \livretDidasP\justify {
