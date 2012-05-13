@@ -169,10 +169,10 @@
 \livretScene\line { SCENE PREMIERE }
 \livretDescAtt\wordwrap-center\smallCaps { Emilie, Osman. }
 \livretPers EMILIE
-\livretVerse#12 { C’est Osman qui me suit, le luy cachons plus rien ; }
+\livretVerse#12 { C’est Osman qui me suit, ne luy cachons plus rien ; }
 \livretVerse#12 { Pour arrêter son feu, découvrons-luy le mien. }
 \livretPers\line { OSMAN, \fontsize #-1 { à \smallCaps Emilie } }
-\livretVerse#12 { Cherchez-vous toûjours & l’ombre & le silence ? }
+\livretVerse#12 { Chercherez-vous toûjours & l’ombre & le silence ? }
 \livretPers EMILIE
 \livretVerse#12 { Je voudrois de mes maux cacher la violence. }
 \livretPers OSMAN

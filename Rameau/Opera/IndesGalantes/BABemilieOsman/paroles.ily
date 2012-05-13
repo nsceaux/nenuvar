@@ -1,17 +1,23 @@
 %% ÉMILIE
 %% (entrant seule)
-C'est Os -- man qui me suit, ne lui ca -- chons plus "rien !"
-Pour ar -- rê -- ter son feu, dé -- cou -- vrons- lui le "mien !"
-
+\tag #'(emilie basse) {
+  C’est Os -- man qui me suit, ne luy ca -- chons plus rien ;
+  Pour ar -- rê -- ter son feu, dé -- cou -- vrons- luy le mien.
+}
 %% OSMAN
 %% (entrant, à Émilie)
-Cher -- che -- rez- vous tou -- jours et l'ombre et le si -- len -- "ce !"
-
+\tag #'(osman basse) {
+  Cher -- che -- rez- vous toû -- jours et l’ombre et le si -- len -- ce ?
+}
 %% ÉMILIE
-Je vou -- drais de mes maux ca -- cher la vi -- o -- len -- ce.
-
+\tag #'(emilie basse) {
+  Je vou -- drois de mes maux ca -- cher la vi -- o -- len -- ce.
+}
 %% OSMAN
-"Ciel !" Qu'en -- tends- "je !"
-
+\tag #'(osman basse) {
+  Ciel ! qu’en -- tens- je !
+}
 %% ÉMILIE
-Ap -- pre -- nez mon des -- tin ri -- gou -- "reux !"
+\tag #'(emilie basse) {
+  Ap -- pre -- nez mon des -- tin ri -- gou -- reux.
+}

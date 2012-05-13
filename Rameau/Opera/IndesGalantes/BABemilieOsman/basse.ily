@@ -1,6 +1,6 @@
-\clef "basse" re1~ |
+\clef "basse" \once\tieDashed re1~ |
 re2 mi4 |
-fa2. |
+<< \origVersion { fa2~ fa4 } \modVersion fa2. >> |
 mi2 la8. re16 |
 la,2.~ |
 la,2 dod, |

@@ -106,7 +106,7 @@ trill = #(make-articulation "stopped")
 
 hebeMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Hébé"))
+  (make-character-mark "vbas-dessus" "Hebé"))
 
 amourMark =
 #(define-music-function (parser location) ()
@@ -116,11 +116,11 @@ amourMark =
 
 emilieMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Émilie"))
+  (make-character-mark "vbas-dessus" "Emilie"))
 
 emilieMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vbas-dessus" "Émilie" (markup #:smaller text)))
+  (make-character-mark-text "vbas-dessus" "Emilie" (markup #:smaller text)))
 
 valereMark =
 #(define-music-function (parser location) ()

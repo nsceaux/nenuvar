@@ -1,1 +1,1 @@
-R1\noBreak \grace s8 R2.*4\noBreak R1\noBreak R1\noBreak R2.\noBreak R1*4
+R1 R2.*4 R1 R1 R2. R1*4
