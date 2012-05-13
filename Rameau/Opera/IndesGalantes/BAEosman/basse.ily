@@ -15,7 +15,7 @@ sol2 do'4 |
 fa2 sol4 |
 la la,2 |
 re,2\fermata r4 |
-r2 re8 re |
+r4 r re8 re |
 mi4 mi8 mi mi do |
 fa2 fa4 |
 sib2 sib8 la |
@@ -26,3 +26,4 @@ mi2 la4 |
 do2 re8 mi |
 fa2 re8 mi |
 la2
+\origVersion { re4 | \custosNote la, }
