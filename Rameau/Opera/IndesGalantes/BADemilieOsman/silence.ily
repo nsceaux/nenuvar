@@ -1,4 +1,2 @@
-R1\noBreak R2.*4\noBreak R1*3\noBreak R2.*19\noBreak R1\noBreak
-R2.*2\noBreak R1\noBreak R1\noBreak R2.\noBreak R1\noBreak R1\noBreak
-R2.\noBreak R1 R2.*2\noBreak R2\noBreak R1*2\noBreak
-R1\noBreak R1\noBreak R1\noBreak r2
+R1 R2.*4 R1*3 R2.*19 R1 R2.*2 R1 R1 R2. R1 R1 R2. R1 R2.*2 R2 R1*2 R1
+R1 R1 r4 r

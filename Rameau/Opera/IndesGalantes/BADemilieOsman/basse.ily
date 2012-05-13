@@ -1,13 +1,13 @@
 \clef "basse" fa1 |
 mi2 re4 |
-do2. |
+<< \origVersion { do2~ do4 } \modVersion do2. >> |
 fa2 re4 |
 mi2 dod4 |
 re2 mi |
 la, fad, |
 sol,4. re,8 mib,2 |
 re,2. |
-r2 r8 re |
+r4 r r8 re |
 mib2. |
 sib,2 sib,8 re |
 sol,4 sol fa |
@@ -30,7 +30,7 @@ fa2. |
 mi4 re2 |
 do4. la,8 sol,4 do |
 fa,1 |
-r2 fa4 |
+r4 r fa4 |
 do2 dod |
 re fa |
 mi4 r fa8. mi16 |
