@@ -75,19 +75,25 @@
 
 %{ n°12 %}
 \scene "Scene III" "Scene 3 : Emilie, Valere"
-\sceneDescription \markup \fill-line { \line { \smallCaps { Emilie, Valere } (en esclave) } }
-\pieceToc \markup { Emilie, Valere }
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps { Emilie, Valere } [en Esclave.]
+}
+\pieceToc\markup\wordwrap { EMILIE, VALERE :
+  \italic { Un de ces malheureux approche en soupirant } }
 \includeScore "BCAemilieValere"
 
 %{ n°13 %}
 \scene "Scene IV" "Scene 4 : Emilie, Valere, Osman"
-\sceneDescription \markup \fill-line { \line \smallCaps { Emilie, Valere, Osman } }
-\pieceToc \markup { Emilie, Valere, Osman }
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps { Emilie, Valere } [en Esclave,]
+  \smallCaps { Osman [Bacha.] } }
+\pieceToc\markup\wordwrap { EMILIE, VALERE, OSMAN :
+  \italic { Il vous entend, hélas ! comment fuir sa colere ? } }
 \includeScore "BDAevo"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°14 %}\newBookPart #'()
-\scene "Scene V" \markup \wordwrap { Scene 5 : Emilie, Valere, provençaux et provençales, esclaves africains }
+%{ n°14 %}%\newBookPart #'()
+\scene "Scene V" \markup\wordwrap { Scene 5 : Emilie, Valere, provençaux et provençales, esclaves africains }
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Emilie, Valere, }
   \line { Provençaux et Provençales de leur escadre, }

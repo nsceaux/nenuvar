@@ -4,10 +4,10 @@ sol2 r4 |
 fad2. |
 mi2 re |
 do1 |
-r2 la,4 |
+r4 r la,4 |
 sib,1~ |
 sib,2 la,4 re8. sol,16 |
-re,2 re'8. do'16 sib8. la16 |
+re,2 re'8. do'16 si8. la16 |
 sol1~ |
 sol2 fad4 |
 sol2 si,4 |
@@ -15,16 +15,16 @@ do2 la,4 |
 re2 fad,4 |
 sol,2 mi,4 |
 la,4 fad,8. sol,16 la,4 |
-re~ re r4 |
+re2 r4 |
 lad,2.~ |
-lad,1 |
+lad,1 |\allowPageTurn
 si,2 la, |
 sol,4 sol4. fad8 |
 mi2 la4. re8 |
 la,2 fad, |
 sol, la,4 |
 re, r red |
-mi4. dod8 fad8. fad,16 |
+mi4. dod8 fad8. si,16 |
 fad,2. |
 r4 si,2 dod4 |
 fad,2 r4 fad |
@@ -45,7 +45,7 @@ sol2. |
 mi |
 fad2~ fad8 si, |
 fad,2. |
-si,4 sol,8 la, si,4 |
+si,4 sol,8. la,16 si,4 |
 mi,2 mi4 |
 la2 fad4 sol8 la |
 re2 red4 |
@@ -63,7 +63,7 @@ red2.~ |
 red |
 mi4. red8 dod4 |
 sold8. lad16 si4. mi8 |
-fad2 sold4 |
+fad4 fad4. sold8 |
 la2. |
 sold4 red2 |
 mi2.~ |
