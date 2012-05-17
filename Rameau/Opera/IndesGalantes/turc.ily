@@ -5,7 +5,7 @@
 \entree "Premiere Entrée" "Le Turc genereux"
 \sceneDescription\markup\center-column {
   \line {
-    [Le Théatre représente les Jardins \concat { d' \smallCaps Osman } Bacha,
+    [Le Théatre représente les Jardins \concat { d’ \smallCaps Osman } Bacha,
   }
   \line { terminez par la Mer.] }
 }
@@ -16,7 +16,7 @@
 
 %{ n°2 %}%\newBookPart #'(full)
 \pieceToc\markup\wordwrap { EMILIE, OSMAN : 
-  \italic { C'est Osman qui me suit, le luy cachons plus rien } }
+  \italic { C’est Osman qui me suit, le luy cachons plus rien } }
 \includeScore "BABemilieOsman"
 
 %{ n°3 %}
@@ -26,13 +26,13 @@
 
 %{ n°4 %}
 \pieceToc\markup\wordwrap { EMILIE, OSMAN :
-  \italic { Qu'en peignant vos malheurs vous redoublez les miens } }
+  \italic { Qu’en peignant vos malheurs vous redoublez les miens } }
 \includeScore "BADemilieOsman"
 \partNoPageTurn #'(basse basson)
 
 %{ n°5 %}
 \pieceToc\markup\wordwrap { OSMAN :
-  \italic { C'est trop m'accabler par vos pleurs } }
+  \italic { C’est trop m’accabler par vos pleurs } }
 \includeScore "BAEosman"
 
 %{ n°6 %}
@@ -58,7 +58,7 @@
 }
 %{ n°9 %}
 \pieceToc\markup\wordwrap { CHŒUR :
-  \italic { Ciel ! de plus d'une mort nous redoutons les coups ! } }
+  \italic { Ciel ! de plus d’une mort nous redoutons les coups ! } }
 \includeScore "BBCchoeur"
 \partNoPageTurn #'(dessus haute-contre taille basse)
 %{ n°10 %}
@@ -68,7 +68,7 @@
 \partNoPageTurn #'(dessus haute-contre taille basse)
 %{ n°11 %}
 \pieceToc\markup\wordwrap { CHŒUR :
-  \italic { Que nous sert d'échapper à la fureur des mers ? } }
+  \italic { Que nous sert d’échapper à la fureur des mers ? } }
 \includeScore "BBEchoeur"
 %{===%}
 \includeScore "BBFemilie"
