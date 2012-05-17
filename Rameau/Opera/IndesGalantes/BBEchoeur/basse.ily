@@ -1,4 +1,4 @@
-\clef "basse" sol8 sol |
+\clef "basse" sol8^"Tous" sol |
 do'2 do'8 mib' |
 lab4. lab8 lab lab |
 sol2 do'4 |

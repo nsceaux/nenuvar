@@ -1,14 +1,6 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new Staff << %\instrumentName "Dessus"
-        \global \includeNotes "dessus" >>
-      \new Staff << %\instrumentName "Haute-contres"
-        \global \includeNotes "haute-contre" >>
-      \new Staff << %\instrumentName "Tailles"
-        \global \includeNotes "taille" >>
-    >>
-    \new ChoirStaff %{\with { instrumentName = \markup \smallCaps "Chœur             " }%} <<
+  <<
+    \origVersion\new StaffGroupNoBar <<
       \new Staff \withLyrics <<
         \global \includeNotes "voix-dessus"
       >> \includeLyrics "paroles"
@@ -21,15 +13,49 @@
       \new Staff \withLyrics <<
         \global \includeNotes "voix-basse"
       >> \includeLyrics "paroles"
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff <<
+        \global \keepWithTag #'haute-contre \includeNotes "parties"
+      >>
+      \new Staff <<
+        \global \includeNotes "basse"
+      >>
     >>
-    \new Staff << %\instrumentName "Basses"
-      \global \includeNotes "basse"
+
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff <<
+          <>^"[Dessus]"
+          \global \includeNotes "dessus"
+        >>
+        \new Staff <<
+          <>^\markup\whiteout { [Hautes-contre et tailles] }
+          \global \keepWithTag #'haute-contre \includeNotes "parties"
+        >>
+      >>
+      \new ChoirStaff <<
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-dessus"
+        >> \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-haute-contre"
+        >> \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-taille"
+        >> \includeLyrics "paroles"
+        \new Staff \withLyrics <<
+          \global \includeNotes "voix-basse"
+        >> \includeLyrics "paroles"
+      >>
+      \new Staff <<
+        \global \includeNotes "basse"
+      >>
     >>
   >>
   \layout {
-    %indent = \largeindent
     indent = \noindent
     ragged-right = ##f
+    ragged-last = ##f
   }
   \midi { }
 }
