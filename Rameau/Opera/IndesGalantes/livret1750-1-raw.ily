@@ -90,7 +90,7 @@
   La Tempête continue avec la même violence.
 }
 \livretPers\line { CHŒUR de Matelots qu'on ne voit point. }
-%# Ciel ! de plus d'une mort nous redoutons les coups !
+%# Ciel ! de plus d'une mort nous ressentons les coups !
 %# Serons-nous embrasez par les feux du Tonnerre ?
 %# Sous les Ondes perirons-nous
 %# A l'Aspect de la Terre !

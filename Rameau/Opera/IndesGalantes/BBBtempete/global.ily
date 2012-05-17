@@ -13,12 +13,7 @@ s1
 \time 4/4 s1*2
 \digitTime \time 2/2 s1
 \time 4/4 s1*3
-\modVersion {
-  \once \override Score . RehearsalMark #'break-visibility = #end-of-line-invisible
-  \once \override Score . RehearsalMark #'direction = #DOWN
-  \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
-  \mark "Fin."
-}
+\modVersion { \fineMark \bar "|." }
 \origVersion <>^\markup\center-align\large\italic fin
 \digitTime \time 2/2 s1
 \digitTime\time 3/4 s2.

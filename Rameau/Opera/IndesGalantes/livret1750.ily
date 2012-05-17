@@ -250,7 +250,7 @@
   La Tempête continue avec la même violence.
 }
 \livretPers\line { CHŒUR de Matelots qu'on ne voit point. }
-\livretVerse#12 { Ciel ! de plus d’une mort nous redoutons les coups ! }
+\livretVerse#12 { Ciel ! de plus d’une mort nous ressentons les coups ! }
 \livretVerse#12 { Serons-nous embrasez par les feux du Tonnerre ? }
 \livretVerse#8 { Sous les Ondes perirons-nous }
 \livretVerse#6 { A l’Aspect de la Terre ! }

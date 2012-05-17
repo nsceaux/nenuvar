@@ -1,8 +1,8 @@
 \clef "basse"
-\tag #'basson sol4
-\tag #'basse sol,
-\tag #'conducteur << sol^"Bassons" \\ sol, >>
-r2 r2. |
+\tag #'basson sol4^"Bassons"
+\tag #'basse sol,^"Tous"
+\tag #'conducteur << sol^"Bassons" \\ sol,_"Tous" >>
+r4 r2 r2 |
 R1. |
 \ru#12 sol,16 sol4 sol sol |
 re' re' re' mib' mib' mib' |
@@ -13,7 +13,7 @@ do'16 do do do \ru#8 do \ru#12 do |
 do4 do do mib mib mib |
 sol sol sol sib sib sib |
 re'16 re re re \ru#8 re \ru#12 re |
-re4 r2
+re4 r r
 <<
   \setMusic #'basson {
     r4 re' do' |
@@ -21,7 +21,7 @@ re4 r2
     fad8 re, re, re, re, re, re,4 re, re, |
   }
   \setMusic #'basse {
-    r2. |
+    r2*3/2 |
     R1. |
     r16 re, re, re, \ru#8 re, \ru#12 re, |
   }
@@ -29,12 +29,12 @@ re4 r2
   \tag #'basse \basse
   \tag #'conducteur << { s4*0 ^"Bassons" \basson } \\ \basse >>
 >>
-re,4 r2 r4 re' do' |
+re,4 r r r4 re' do' |
 sib2 sib4 sib sib re' |
 sol16 sol, sol, sol, \ru#8 sol, sol,4 sol la |
-sib2. sib2 \appoggiatura la8 sol4 |
+sib2. sib2 \appoggiatura la16 sol4 |
 la16 la, la, la, \ru#8 la, \ru#12 la, |
-la,4 r2 r2. |
+la,4 r r r2*3/2 |
 r4 re re fa fa fa |
 la la la re' re' re' |
 fa'16 re re re \ru#8 re re4 fa fa |
@@ -61,12 +61,12 @@ re2.
   \tag #'basse \basse
   \tag #'conducteur << { s4*0 ^"Bassons" \basson } \\ \basse >>
 >>
-r2 r2. |
+r4 r r2*3/2 |
 \ru#12 sol,16 sol,4 sol sol |
 sol2 sol4 sol sol re |
-mib2. mib4 mib sol |
+mib2 mib4 mib mib sol |
 do16 mib, mib, mib, \ru#8 mib, \ru#12 mib, |
-mib,4 r2 r4 do' do' |
+mib,4 r r r4 do' do' |
 do'2 do'4 do' do' la |
 re'16 re, re, re, \ru#8 re, |
 re,4 re re |
