@@ -1,12 +1,20 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \characterName "Émilie"
-      \global \includeNotes "emilie"
+      \modVersion\characterName "Emilie"
+      \global \keepWithTag #'emilie \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff << \instrumentName \markup Basses
-      \global \includeNotes "basse" \includeFigures "chiffres" >>
+    \new Staff <<
+      \modVersion\instrumentName "[B.C.]"
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+      \origLayout {
+        s2.*2 s2 \bar "" \break
+        s2 s2.*2\break
+        s1 s2.*2\pageBreak
+      }
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

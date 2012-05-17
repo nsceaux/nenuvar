@@ -1,1 +1,1 @@
-R2.*2\noBreak R1\noBreak R2.*2\noBreak R1\noBreak R2.*2
+R2.*2 R1 R2.*2 R1 R2.*2
