@@ -91,58 +91,64 @@
   \italic { Il vous entend, hélas ! comment fuir sa colere ? } }
 \includeScore "BDAevo"
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°14 %}%\newBookPart #'()
-\scene "Scene V" \markup\wordwrap { Scene 5 : Emilie, Valere, provençaux et provençales, esclaves africains }
+%{ n°14 %}
+\scene "Scene V" "Scene 5 : Valere, Emilie"
+\sceneDescription\markup\wordwrap-center\smallCaps { Valere, Emilie }
+\pieceToc\markup\wordwrap { VALERE :
+  \italic { Fut-il jamais un cœur plus genereux ? } }
+\includeScore "BEAvalere"
+
+%{ n°15 %}%\newBookPart #'()
+\scene "Scene VI" \markup\wordwrap { Scene 6 : Emilie, Valere, provençaux et provençales, esclaves africains }
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Emilie, Valere, }
   \line { Provençaux et Provençales de leur escadre, }
   \line { Esclaves africains d'Osman }
 }
 \pieceTocTitle "Marche"
-\includeScore "BEAmarche"
-
-%{ n°15 %}
-\pieceToc \markup { Emilie, Valere : \italic { Volez, Zéphyrs } }
-\includeScore "BEBduo"
+\includeScore "BFAmarche"
 
 %{ n°16 %}
-\pieceToc \markup { Chœur : \italic { Volez, Zéphyrs } }
-\includeScore "BECchoeur"
+\pieceToc \markup { Emilie, Valere : \italic { Volez, Zéphyrs } }
+\includeScore "BFBduo"
 
 %{ n°17 %}
-\pieceTocTitle "Air pour les esclaves africains"
-\includeScore "BEDair"
+\pieceToc \markup { Chœur : \italic { Volez, Zéphyrs } }
+\includeScore "BFCchoeur"
 
 %{ n°18 %}
-\pieceToc \markup { Valere : \italic { Hâtez-vous de vous embarquer } }
-\includeScore "BEEvalere"
+\pieceTocTitle "Air pour les esclaves africains"
+\includeScore "BFDair"
 
 %{ n°19 %}
-\pieceTocTitle "Rigaudons I & II"
-\includeScore "BEFrigaudon"
+\pieceToc \markup { Valere : \italic { Hâtez-vous de vous embarquer } }
+\includeScore "BFEvalere"
 
 %{ n°20 %}
-\pieceToc \markup { Emilie : \italic { Fuyez, vents orageux ! } }
-\includeScore "BEGemilie"
+\pieceTocTitle "Rigaudons I & II"
+\includeScore "BFFrigaudon"
 
 %{ n°21 %}
-\pieceTocTitle "Tambourins I & II"
-\includeScore "BEHtambourin"
+\pieceToc \markup { Emilie : \italic { Fuyez, vents orageux ! } }
+\includeScore "BFGemilie"
 
 %{ n°22 %}
-\pieceToc \markup { Emilie : \italic { Hâtez-vous de vous embarquer } }
-\includeScore "BEIariette"
+\pieceTocTitle "Tambourins I & II"
+\includeScore "BFHtambourin"
 
 %{ n°23 %}
-\pieceTocTitle "Tambourins I & II"
-\reIncludeScore "BEHtambourin" "BEItambourin"
+\pieceToc \markup { Emilie : \italic { Hâtez-vous de vous embarquer } }
+\includeScore "BFIariette"
 
 %{ n°24 %}
-\pieceToc \markup { Emilie : \italic { Partez ! On languit sur le rivage } }
-\includeScore "BEJemilie"
+\pieceTocTitle "Tambourins I & II"
+\reIncludeScore "BFHtambourin" "BFItambourin"
 
 %{ n°25 %}
+\pieceToc \markup { Emilie : \italic { Partez ! On languit sur le rivage } }
+\includeScore "BFJemilie"
+
+%{ n°26 %}
 \pieceTocTitle "Entr'acte"
-\reIncludeScore "BEFrigaudon" "BEJrigaudon"
+\reIncludeScore "BFFrigaudon" "BFJrigaudon"
 \actEnd "FIN DE LA PREMIÈRE ENTRÉE"
