@@ -224,13 +224,16 @@
 %#= Quoy !.. mais, non, c'est souffrir trop long-temps,
 %# C'est trop à vos regards offrir mon trouble extrême...
 %# Je vous dois mon absence, & la dois à moi-même.
+
+\livretScene\line { SCENE V }
+\livretDescAtt\wordwrap-center\smallCaps { Valere, Emilie. }
 \livretPers VALERE
 %# Fut-il jamais un cœur plus genereux ?
 %# Digne de nôtre eloge, il ne veut pas l'entendre...
 %# Au plus parfait bonheur il a droit de prétendre,
 %# Si la vertu peut rendre *heureux.
 
-\livretScene\line { SCENE V }
+\livretScene\line { SCENE VI }
 \livretDescAtt\wordwrap-center {
   \smallCaps { Emilie, Valere, Provençaux et Provençales }
   de leur Escadre, Esclaves Africains \concat { d' \smallCaps Osman. }

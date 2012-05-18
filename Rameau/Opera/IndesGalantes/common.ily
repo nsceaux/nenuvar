@@ -27,7 +27,7 @@
 %%  18 for instruments
 #(set-global-staff-size
   (cond ((not (symbol? (ly:get-option 'part))) 14)
-        ((memq (ly:get-option 'part) '(basse-continue)) 16)
+        ((memq (ly:get-option 'part) '(basse)) 16)
         (else 18)))
 
 %% Line/page breaking algorithm
@@ -120,7 +120,7 @@ emilieMark =
 
 emilieMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vbas-dessus" "Emilie" (markup #:smaller text)))
+  (make-character-mark-text "vbas-dessus" "Emilie" text))
 
 valereMark =
 #(define-music-function (parser location) ()
@@ -128,7 +128,7 @@ valereMark =
 
 valereMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vhaute-contre" "Valere" (markup #:smaller text)))
+  (make-character-mark-text "vhaute-contre" "Valere" text))
 
 osmanMark =
 #(define-music-function (parser location) ()
@@ -136,7 +136,7 @@ osmanMark =
 
 osmanMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vbasse" "Osman" (markup #:smaller text)))
+  (make-character-mark-text "vbasse" "Osman" text))
 
 %%%
 
@@ -154,7 +154,7 @@ huascarMark =
 
 huascarMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vbasse" "Huascar" (markup #:smaller text)))
+  (make-character-mark-text "vbasse" "Huascar" text))
 
 %%%
 
@@ -164,7 +164,7 @@ zimaMark =
 
 zimaMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vbas-dessus" "Zima" (markup #:smaller text)))
+  (make-character-mark-text "vbas-dessus" "Zima" text))
 
 alvarMark =
 #(define-music-function (parser location) ()
@@ -172,7 +172,7 @@ alvarMark =
 
 alvarMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vbasse" "Alvar" (markup #:smaller text)))
+  (make-character-mark-text "vbasse" "Alvar" text))
 
 damonMark =
 #(define-music-function (parser location) ()
@@ -180,7 +180,7 @@ damonMark =
 
 damonMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vhaute-contre" "Damon" (markup #:smaller text)))
+  (make-character-mark-text "vhaute-contre" "Damon" text))
 
 adarioMark =
 #(define-music-function (parser location) ()
@@ -206,7 +206,7 @@ atalideMark =
 
 atalideMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vdessus" "Atalide" (markup #:smaller text)))
+  (make-character-mark-text "vdessus" "Atalide" text))
 
 tacmasMark =
 #(define-music-function (parser location) ()
@@ -214,7 +214,7 @@ tacmasMark =
 
 tacmasMarkText =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text "vhaute-contre" "Tacmas" (markup #:smaller text)))
+  (make-character-mark-text "vhaute-contre" "Tacmas" text))
 
 %%%
 

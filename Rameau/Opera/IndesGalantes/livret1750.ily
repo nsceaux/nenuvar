@@ -384,13 +384,16 @@
 \livretVerse#12 { \transparent { Ecoûtez... } Quoy !.. mais, non, c’est souffrir trop long-temps, }
 \livretVerse#12 { C’est trop à vos regards offrir mon trouble extrême... }
 \livretVerse#12 { Je vous dois mon absence, & la dois à moi-même. }
+
+\livretScene\line { SCENE V }
+\livretDescAtt\wordwrap-center\smallCaps { Valere, Emilie. }
 \livretPers VALERE
 \livretVerse#10 { Fut-il jamais un cœur plus genereux ? }
 \livretVerse#12 { Digne de nôtre eloge, il ne veut pas l’entendre... }
 \livretVerse#12 { Au plus parfait bonheur il a droit de prétendre, }
 \livretVerse#8 { Si la vertu peut rendre heureux. }
 
-\livretScene\line { SCENE V }
+\livretScene\line { SCENE VI }
 \livretDescAtt\wordwrap-center {
   \smallCaps { Emilie, Valere, Provençaux et Provençales }
   de leur Escadre, Esclaves Africains \concat { d' \smallCaps Osman. }
