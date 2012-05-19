@@ -98,22 +98,24 @@
   \italic { Fut-il jamais un cœur plus genereux ? } }
 \includeScore "BEAvalere"
 
-%{ n°15 %}%\newBookPart #'()
+%{ n°15 %}
 \scene "Scene VI" \markup\wordwrap { Scene 6 : Emilie, Valere, provençaux et provençales, esclaves africains }
-\sceneDescription \markup \left-align \center-column {
+\sceneDescription\markup\wordwrap-center {
   \line \smallCaps { Emilie, Valere, }
-  \line { Provençaux et Provençales de leur escadre, }
-  \line { Esclaves africains d'Osman }
+  troupe de Provençaux de leur escadre,
+  troupe d'esclaves afriquains.
 }
 \pieceTocTitle "Marche"
 \includeScore "BFAmarche"
 
 %{ n°16 %}
-\pieceToc \markup { Emilie, Valere : \italic { Volez, Zéphyrs } }
+\pieceToc\markup\wordwrap { EMILIE, VALERE :
+  \italic { Volez, Zephirs, volez jeunes Amants de Flore } }
 \includeScore "BFBduo"
 
 %{ n°17 %}
-\pieceToc \markup { Chœur : \italic { Volez, Zéphyrs } }
+\pieceToc\markup\wordwrap { CHŒUR :
+  \italic { Volez, Zephirs, volez jeunes Amants de Flore } }
 \includeScore "BFCchoeur"
 
 %{ n°18 %}
@@ -121,23 +123,26 @@
 \includeScore "BFDair"
 
 %{ n°19 %}
-\pieceToc \markup { Valere : \italic { Hâtez-vous de vous embarquer } }
+\pieceToc\markup\wordwrap { VALERE :
+  \italic { Hatez-vous de vous embarquer } }
 \includeScore "BFEvalere"
 
 %{ n°20 %}
-\pieceTocTitle "Rigaudons I & II"
+\pieceTocTitle "Rigaudons"
 \includeScore "BFFrigaudon"
 
 %{ n°21 %}
-\pieceToc \markup { Emilie : \italic { Fuyez, vents orageux ! } }
+\pieceToc\markup\wordwrap { EMILIE :
+  \italic { Fuyez, fuyez Vents orageux } }
 \includeScore "BFGemilie"
 
 %{ n°22 %}
-\pieceTocTitle "Tambourins I & II"
+\pieceTocTitle "Tambourins"
 \includeScore "BFHtambourin"
 
 %{ n°23 %}
-\pieceToc \markup { Emilie : \italic { Hâtez-vous de vous embarquer } }
+\pieceToc\markup\wordwrap { EMILIE :
+  \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
 \includeScore "BFIariette"
 
 %{ n°24 %}
@@ -145,10 +150,11 @@
 \reIncludeScore "BFHtambourin" "BFItambourin"
 
 %{ n°25 %}
-\pieceToc \markup { Emilie : \italic { Partez ! On languit sur le rivage } }
+\pieceToc\markup\wordwrap { EMILIE :
+ \italic { Partez, on languit sur le Rivage } }
 \includeScore "BFJemilie"
 
 %{ n°26 %}
 \pieceTocTitle "Entr'acte"
 \reIncludeScore "BFFrigaudon" "BFJrigaudon"
-\actEnd "FIN DE LA PREMIÈRE ENTRÉE"
+\actEnd "FIN DE LA PREMIERE ENTRÉE"
