@@ -239,12 +239,12 @@
   de leur Escadre, Esclaves Africains \concat { d' \smallCaps Osman. }
 }
 \livretPers\line { EMILIE ET VALERE }
-%# Volez, Zephirs, volez jeunes Amants de Flore ;
+%# Volez, Zephirs, volez tendres Amants de Flore ;
 %# Si vous nous conduisez, tous nos vœux sont remplis.
 %# Rivages fortunez de l'Empire des Lys,
 %# Ah ! nous vous reverons encore.
 \livretPers CHŒUR
-%# Volez, Zephirs, volez jeunes Amants de Flore ;
+%# Volez, Zephirs, volez tendres Amants de Flore ;
 %# Si vous nous conduisez, tous nos vœux sont remplis.
 %# Rivages fortunez de l'Empire des Lys,
 %# Ah ! nous vous reverons encore.

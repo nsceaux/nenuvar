@@ -1,29 +1,25 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \characterName "Emilie"
+      \modVersion\characterName "Emilie"
       \global \keepWithTag #'emilie \includeNotes "emilie"
     >> \keepWithTag #'emilie \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \characterName "Valere"
+      \modVersion\characterName "Valere"
       \global \keepWithTag #'valere \includeNotes "valere"
     >> \keepWithTag #'valere \includeLyrics "paroles"
     \new Staff <<
       \modVersion\instrumentName "[B.C.]"
       \global \includeNotes "basse"
-      \includeFigures "chiffres"
       \origLayout {
-        s4 s2.*5\break
-        s2.*5\pageBreak
-        s2.*5 s2 \bar "" \break
-        s4 s2.*5\break
+        s8 s2.*6\break
         s2.*6\break
+        s2.*7\break
         s2.*6\break
-        s2.*4\break
-        s2.*4\break
+        s2.*6\pageBreak
       }
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { ragged-last = ##f }
   \midi { }
 }

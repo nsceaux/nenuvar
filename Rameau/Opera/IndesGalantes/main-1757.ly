@@ -40,4 +40,5 @@
 %\include "Rameau/Opera/IndesGalantes/incas.ily"
 %\include "Rameau/Opera/IndesGalantes/sauvages.ily"
 %\include "Rameau/Opera/IndesGalantes/fleurs.ily"
+\include "Rameau/Opera/IndesGalantes/annexe.ily"
 \pageBreak\markup\null
