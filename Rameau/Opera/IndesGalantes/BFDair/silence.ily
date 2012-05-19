@@ -1,2 +1,1 @@
-r4\noBreak R1*13\noBreak r2\noBreak r4\noBreak r4\noBreak
-R1*19\noBreak r2\noBreak r4
+r4 R1*13 r2 r4 r4 R1*19 r2 r4

@@ -21,7 +21,7 @@ do'' la'\trill |
 sib' la' |
 re'' si' |
 do'' si' |
-mi'' dod'' |
+mi'' dod''\trill |
 re''2. fad'4 |
 sol'2 re' |
 mib' do' |
