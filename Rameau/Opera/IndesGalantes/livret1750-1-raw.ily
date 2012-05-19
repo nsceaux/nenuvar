@@ -249,7 +249,7 @@
 \livretDesc\justify { On danse. }
 \livretPers VALERE
 %# Hatez-vous de vous embarquer,
-%# Jeunes coeurs, volez à Cithere!
+%# Jeunes cœurs, volez à Cithere!
 %# Sur cette flotte temeraire
 %# On ne peut jamais trop risquer.
 \livretDesc\line { Danse des \smallCaps Matelots. }

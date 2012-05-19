@@ -36,20 +36,20 @@ do2 r4 mib |
 re2 re, |
 sol, r |
 R1*3 |
-r2 r4 sib, |
-sib,2 r4 la, |
+r2 r4 sol, |
+do2 r4 dod |
 re2 r4 re |
 mib2 r4 la, |
 sib,4. do8 re4 re, |
-sol,2\fermata r |
-r r4 sol8 la |
+sol,1\fermata |
+r2 r4 sol8 la |
 sib4 sib8 sib sib4 re' |
 sol sol, r sib |
 re2 r4 re |
 mib2 fa |
 sib, r4 sib, |
 sib, la, sol, do |
-fa,2 r4 fa |
+fa,2. fa4 |
 sol la sib sol |
 la2 r |
 R1 |
