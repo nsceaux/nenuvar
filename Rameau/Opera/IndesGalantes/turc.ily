@@ -128,33 +128,37 @@
 \includeScore "BFEvalere"
 
 %{ n°20 %}
-\pieceTocTitle "Rigaudons"
+\pieceTocTitle "Premier Rigaudon"
 \includeScore "BFFrigaudon"
 
 %{ n°21 %}
-\pieceToc\markup\wordwrap { EMILIE :
-  \italic { Fuyez, fuyez Vents orageux } }
-\includeScore "BFGemilie"
+\pieceTocTitle "Deuxieme Rigaudon"
+\includeScore "BFGrigaudon"
 
 %{ n°22 %}
-\pieceTocTitle "Tambourins"
-\includeScore "BFHtambourin"
+\pieceToc\markup\wordwrap { EMILIE :
+  \italic { Fuyez, fuyez Vents orageux } }
+\includeScore "BFHemilie"
 
 %{ n°23 %}
-\pieceToc\markup\wordwrap { EMILIE :
-  \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
-\includeScore "BFIariette"
+\pieceTocTitle "Tambourins"
+\includeScore "BFItambourin"
 
 %{ n°24 %}
-\pieceTocTitle "Tambourins I & II"
-\reIncludeScore "BFHtambourin" "BFItambourin"
+\pieceToc\markup\wordwrap { EMILIE :
+  \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
+\includeScore "BFJariette"
 
 %{ n°25 %}
-\pieceToc\markup\wordwrap { EMILIE :
- \italic { Partez, on languit sur le Rivage } }
-\includeScore "BFJemilie"
+\pieceTocTitle "Tambourins"
+\reIncludeScore "BFItambourin" "BFKtambourin"
 
 %{ n°26 %}
+\pieceToc\markup\wordwrap { EMILIE :
+ \italic { Partez, on languit sur le Rivage } }
+\includeScore "BFKemilie"
+
+%{ n°27 %}
 \pieceTocTitle "Entr'acte"
 \reIncludeScore "BFFrigaudon" "BFJrigaudon"
 \actEnd "FIN DE LA PREMIERE ENTRÉE"

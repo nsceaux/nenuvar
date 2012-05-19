@@ -1,7 +1,14 @@
 \keys sol \major
-\digitTime \time 2/2 \midiTempo #240
-\tempo "Premier rigaudon"
-\partial 4 s4 s1*7 s2. \bar ":|" s4 s1*11 s2. \bar "|." \fineMark
-\break
-\tempo "Deuxième rigaudon" \keys sol \minor
-s4 s1*7 s2. \bar ":|" s4 s1*15 s2. \bar "|." \dacapoMark
+\digitTime\time 2/2 \partial 4 \midiTempo #240
+s4
+\origVersion <>^\markup\musicglyph #"scripts.segno"
+s1*7 s2.
+\modVersion\bar ":|"
+\origVersion\bar "|:|"
+s4
+\modVersion { s1*11 s2. }
+\origVersion {
+  s1*4 s4 \once\override TextScript #'extra-offset = #'(0 . -4)
+  s2.^\markup\musicglyph #"scripts.segno"
+}
+\bar "|."

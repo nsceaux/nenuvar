@@ -4,7 +4,6 @@
       \new Staff <<
         \modVersion\instrumentName "[Dessus]"
         \global \includeNotes "dessus"
-        \origVersion { s4 s1*7 s2._\markup\large\italic fin }
       >>
       \new Staff <<
         \modVersion\instrumentName "[Hautes-contre]"
@@ -17,9 +16,9 @@
       \new Staff <<
         \modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
-        \origVersion { s4 s1*7 s2._\markup\large\italic fin }
         \origLayout {
-          s4 s1*6 s2 \bar "" \break
+          s4 s1*4 s2 \bar "" \pageBreak
+          s2 s1*5 s2 \bar "" \break
           s2 s1*6\break
         }
       >>
