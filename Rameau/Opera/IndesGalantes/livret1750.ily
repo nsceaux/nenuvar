@@ -406,8 +406,6 @@
 \livretPers CHŒUR
 \livretVerse#12 { Volez, Zephirs, volez tendres Amants de Flore ; }
 \livretVerse#12 { Si vous nous conduisez, tous nos vœux sont remplis. }
-\livretVerse#12 { Rivages fortunez de l’Empire des Lys, }
-\livretVerse#8 { Ah ! nous vous reverons encore. }
 \livretDesc\justify { On danse. }
 \livretPers VALERE
 \livretVerse#7 { Hatez-vous de vous embarquer, }

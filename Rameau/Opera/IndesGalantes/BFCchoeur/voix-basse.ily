@@ -1,8 +1,8 @@
 \clef "vbasse" r4 |
 R2.*13 |
-r2 r8 sol |
-sib[ la sol la sib do']( |
-re'2) r8 sol |
+r4 r r8 sol |
+sib[\melisma la sol la sib do'] |
+re'2~ re'8\melismaEnd sol |
 fad2. |
 sol4 fad8 sol do re |
 sol,4 sol,8 r r4 |
@@ -16,13 +16,13 @@ fa4 sol la |
 sib mib fa |
 sib,2 r4 |
 R2.*10 |
-r2 r8 sol |
+r4 r r8 sol |
 si2~ si8 sol |
 do'2 r8 do |
 fa2.~ |
 fa |
 fa4 sol8 sol lab fa |
-sol4( sol,2) |
+sol2. |
 do2. |
 R2.*4 |
 sib4 sib8 sib sib sib |
@@ -37,19 +37,19 @@ sib sol mi |
 la la la, |
 re2 r4 |
 R2.*5 |
-r2 r8 re |
+r4 r r8 re |
 sol2 r4 |
 R2. |
-r2 r8 sol |
+r4 r r8 sol |
 do'2 r8 do |
 do[\melisma re mib fa re mib] |
-fa[ sol la sib sol la] |
-sib2.\melismaEnd |
+fa[ sol la sib sol la]( |
+sib2.)\melismaEnd |
 mib4 mib8 re do sib, |
 fa2. |
 sib, |
 R2.*4 |
-sib4 sib8 sib la sol |
+sib4 sib8 sib sib sol |
 do'2 do'8 la |
 re'4. do'8 re'4 |
 mib'2. |
