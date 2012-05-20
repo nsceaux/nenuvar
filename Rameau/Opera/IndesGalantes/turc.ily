@@ -153,10 +153,10 @@
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
 \includeScore "BFKariette"
-
-%{ n°26 %}
-%\pieceTocTitle "Tambourins"
-%\reIncludeScore "BFItambourin" "BFKtambourin"
+\markup\italic\large\fill-line {
+  \line { On reprend les deux Tambourins page \page-refIII #'BFItambourin . }
+}
+\origVersion\pageBreak
 
 %{ n°26 %}
 \pieceToc\markup\wordwrap { EMILIE :

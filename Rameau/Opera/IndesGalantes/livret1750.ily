@@ -430,10 +430,10 @@
 \livretVerse#7 { Dans la route comme au Port. }
 \livretDesc\justify { On danse. }
 \livretPers EMILIE
-\livretVerse#12 { Regnez Amours, Regnez, ne craignez pas les flots ; }
+\livretVerse#12 { Regnez Amours, Regnez, ne craignez point les flots ; }
 \livretVerse#12 { Vous trouverez sur l’Onde un aussi doux repos }
 \livretVerse#8 { Que sous les myrthes de Cythere ; }
-\livretVerse#12 { Regnez Amours, Regnez, ne craignez pas les flots ; }
+\livretVerse#12 { Regnez Amours, Regnez, ne craignez point les flots ; }
 \livretVerse#12 { Ils ont donné le jour à vôtre aimable Mere. }
 \livretDesc\justify { On danse. }
 \livretPers EMILIE

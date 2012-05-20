@@ -1,11 +1,13 @@
 \keys sib \major
-\time 2/4
+\digitTime\time 2/4 \midiTempo #120
 <<
   \tag #'silence { s2*145 }
   \tag #'non-silence {
-    \tempo "Ariette" \midiTempo #120
-    s2*80
-    \tempo "Lent" s2*2 \tempo "Vite" s2*43 \tempo "Lent"
-    s2*11 \tempo "Vite" s2*9 \bar "|."
+    \markUpBegin\mark "Ariette"
+    s2*67 \tempo "Lent"
+    s2*13 \tempo "[Lent]" s2*2 \tempo "[Vite]"
+    s2*38 s4. \tempo "Lent" s8
+    s2*15 \tempo "[Vite]" s2*9
  }
 >>
+\bar "|."
