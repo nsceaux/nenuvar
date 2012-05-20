@@ -21,15 +21,19 @@
         \modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
         \origLayout {
+          s4 s2*2 s4 \bar "" \break
           s4 s2*7\break
-          s2*8 s4 \bar "" \pageBreak
-          s4 s2*2\break
+          s2*6\pageBreak
         }
       >>
     >>
     \origVersion\new StaffGroupNoBar \group
     \modVersion\new StaffGroup \group
   >>
-  \layout { }
+  \layout {
+    indent = #(if (eqv? #t (ly:get-option 'urtext))
+                  (* 10 cm)
+                  largeindent)
+  }
   \midi { }
 }

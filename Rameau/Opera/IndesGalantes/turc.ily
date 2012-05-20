@@ -141,24 +141,30 @@
 \includeScore "BFHemilie"
 
 %{ n°23 %}
-\pieceTocTitle "Tambourins"
+\pieceTocTitle "Premier Tambourin"
 \includeScore "BFItambourin"
+\origVersion\noPageBreak
 
 %{ n°24 %}
-\pieceToc\markup\wordwrap { EMILIE :
-  \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
-\includeScore "BFJariette"
+\pieceTocTitle "Deuxieme Tambourin"
+\includeScore "BFJtambourin"
 
 %{ n°25 %}
-\pieceTocTitle "Tambourins"
-\reIncludeScore "BFItambourin" "BFKtambourin"
+\pieceToc\markup\wordwrap { EMILIE :
+  \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
+\includeScore "BFKariette"
+
+%{ n°26 %}
+%\pieceTocTitle "Tambourins"
+%\reIncludeScore "BFItambourin" "BFKtambourin"
 
 %{ n°26 %}
 \pieceToc\markup\wordwrap { EMILIE :
  \italic { Partez, on languit sur le Rivage } }
-\includeScore "BFKemilie"
+\includeScore "BFLemilie"
 
 %{ n°27 %}
 \pieceTocTitle "Entr'acte"
-\reIncludeScore "BFFrigaudon" "BFJrigaudon"
+\reIncludeScore "BFFrigaudon" "BFMrigaudon"
+\reIncludeScore "BFGrigaudon" "BFNrigaudon"
 \actEnd "FIN DE LA PREMIERE ENTRÉE"
