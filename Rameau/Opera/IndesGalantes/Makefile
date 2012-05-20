@@ -6,7 +6,7 @@ livret1736_src = livret1736-0-raw.ily livret1736-1-raw.ily \
 		livret1736-4-raw.ily
 
 livret1736.ily: $(livret1736_src)
-	echo '\\tocItem "LIVRET (1736)"\n\\markuplist\\page-columns-title \\act\\line { LIVRET (1736) } {' > $@
+	echo '\\tocItem "Livret"\n\\markuplist\\page-columns-title \\act\\line { LIVRET } {' > $@
 	$(python) $(livret_py) $(livret1736_src) >> $@
 	echo '}' >> $@
 
@@ -15,7 +15,7 @@ livret1750_src = livret1750-0-raw.ily livret1750-1-raw.ily \
 		livret1750-4-raw.ily
 
 livret1750.ily: $(livret1750_src)
-	echo '\\tocItem "LIVRET (1757)"\n\\markuplist\\page-columns-title \\act\\line { LIVRET (1757) } {' > $@
+	echo '\\tocItem "Livret"\n\\markuplist\\page-columns-title \\act\\line { LIVRET } {' > $@
 	$(python) $(livret_py) $(livret1750_src) >> $@
 	echo '}' >> $@
 

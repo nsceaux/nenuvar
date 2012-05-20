@@ -1,11 +1,11 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \characterName "Osman"
+      \modVersion\characterName "Osman"
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName "[B.C.]"
+      \modVersion\instrumentName "[B.C.]"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
       \origLayout {

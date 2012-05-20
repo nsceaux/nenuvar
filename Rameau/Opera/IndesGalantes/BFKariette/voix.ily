@@ -1,4 +1,5 @@
-\clef "vbas-dessus" R2*16 |
+\clef "vbas-dessus" \origVersion <>^\markup\character Emilie
+R2*16 |
 r4 r8 fa' |
 sib'2~ |
 sib'8.[\melisma do''32 sib'] sib'8.[\trill la'32 sib'] |

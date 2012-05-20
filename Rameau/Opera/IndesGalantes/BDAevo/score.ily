@@ -55,7 +55,7 @@
           \global \includeNotes "taille"
         >>
         \new Staff \with { \haraKiriFirst } <<
-          \global \keepWithTag #'basson \includeNotes "basson"
+          \global \keepWithTag #'basson \includeNotes "basse"
         >>
       >>
       \new Staff \with { \haraKiri } \withLyrics <<

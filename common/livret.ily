@@ -63,6 +63,16 @@
     layout props
     (markup #:fontsize 1 #:italic text)))
 
+#(define-markup-command (livretDidasPage layout props text) (markup?)
+   #:properties ((line-width)
+                 (gap 9)
+                 (word-space 0))
+   (interpret-markup
+    layout props
+    (markup #:hspace gap
+            #:override `(line-width . ,(- line-width gap word-space 2))
+            #:fontsize 1 #:italic text)))
+
 #(define-markup-command (livretDidasP layout props text) (markup?)
    (interpret-markup
     layout props
@@ -77,7 +87,9 @@
     (markup #:column
             (#:fill-line (#:fontsize 1 #:pad-around 2
                           #:override `(line-width . ,(- line-width
-                                                        gap word-space 2))
+                                                        (* 2 gap)
+                                                        word-space
+                                                        2))
                                      text)
              next))))
 

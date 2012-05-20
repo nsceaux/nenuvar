@@ -1,4 +1,5 @@
-\clef "vdessus" la'4 |
+\clef "vdessus" \origVersion <>^\markup\character Emilie
+la'4 |
 sib'8[ la'] sol'[ fad'] sol'4 la' |
 sib'8[ la'] sol'[ fad'] sol'4 la' |
 sib' do'' re'' mi''8 fad'' |

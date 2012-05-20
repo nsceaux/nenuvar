@@ -1,5 +1,5 @@
-\tocItem "LIVRET (1736)"
-\markuplist\page-columns-title \act\line { LIVRET (1736) } {
+\tocItem "Livret"
+\markuplist\page-columns-title \act\line { LIVRET } {
 \livretAct\line { PROLOGUE }
 \livretDescAtt\justify {
   Le Theâtre représente les Jardins du Palais

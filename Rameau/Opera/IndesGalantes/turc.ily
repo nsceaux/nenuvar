@@ -1,7 +1,7 @@
 %%%
 %%% Première Entrée
 %%%
-%{ n°1 %}\newBookPart #'()
+%{ n°1 %}
 \entree "Premiere Entrée" "Le Turc genereux"
 \sceneDescription\markup\center-column {
   \line {
@@ -14,7 +14,7 @@
 \pieceTocTitle "Ritournelle"
 \includeScore "BAAritournelle"
 
-%{ n°2 %}%\newBookPart #'(full)
+%{ n°2 %}
 \pieceToc\markup\wordwrap { EMILIE, OSMAN : 
   \italic { C’est Osman qui me suit, le luy cachons plus rien } }
 \includeScore "BABemilieOsman"
@@ -47,9 +47,10 @@
 
 \sceneDescriptionBottom\markup\justify {
   La nuit se repend sur le Theatre, les flots de la mer se
-  soulevent et le tonnerre grounde avec violence.
+  soulevent et le tonnerre gronde avec violence.
 }
-%{ n°8 %}
+\origVersion\pageBreak
+%{ n°8 %}\newBookPart #'(full)
 \pieceTocTitle "Tempête"
 \includeScore "BBBtempete"
 
@@ -73,7 +74,7 @@
 %{===%}
 \includeScore "BBFemilie"
 
-%{ n°12 %}
+%{ n°12 %}\newBookPart #'(full)
 \scene "Scene III" "Scene 3 : Emilie, Valere"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps { Emilie, Valere } [en Esclave.]
@@ -98,7 +99,7 @@
   \italic { Fut-il jamais un cœur plus genereux ? } }
 \includeScore "BEAvalere"
 
-%{ n°15 %}
+%{ n°15 %}\newBookPart #'(full)
 \scene "Scene VI" \markup\wordwrap { Scene 6 : Emilie, Valere, provençaux et provençales, esclaves africains }
 \sceneDescription\markup\wordwrap-center {
   \line \smallCaps { Emilie, Valere, }
@@ -110,15 +111,15 @@
 
 %{ n°16 %}
 \pieceToc\markup\wordwrap { EMILIE, VALERE :
-  \italic { Volez, Zephirs, volez jeunes Amants de Flore } }
+  \italic { Volez, Zephirs, volez tendres Amants de Flore } }
 \includeScore "BFBduo"
 
-%{ n°17 %}
+%{ n°17 %}\newBookPart #'(full)
 \pieceToc\markup\wordwrap { CHŒUR :
-  \italic { Volez, Zephirs, volez jeunes Amants de Flore } }
+  \italic { Volez, Zephirs, volez tendres Amants de Flore } }
 \includeScore "BFCchoeur"
 
-%{ n°18 %}
+%{ n°18 %}\newBookPart #'(full)
 \pieceTocTitle "Air pour les esclaves afriquains"
 \includeScore "BFDair"
 
@@ -140,7 +141,7 @@
   \italic { Fuyez, fuyez Vents orageux } }
 \includeScore "BFHemilie"
 
-%{ n°23 %}
+%{ n°23 %}\newBookPart #'(full)
 \pieceTocTitle "Premier Tambourin"
 \includeScore "BFItambourin"
 \origVersion\noPageBreak
@@ -153,8 +154,11 @@
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
 \includeScore "BFKariette"
-\markup\italic\large\fill-line {
-  \line { On reprend les deux Tambourins page \page-refIII #'BFItambourin . }
+\markup\column {
+  \italic\huge\fill-line {
+    \line { On reprend les deux Tambourins page \page-refII #'BFItambourin . }
+  }
+  \vspace #2
 }
 \origVersion\pageBreak
 
@@ -164,7 +168,24 @@
 \includeScore "BFLemilie"
 
 %{ n°27 %}
-\pieceTocTitle "Entr'acte"
-\reIncludeScore "BFFrigaudon" "BFMrigaudon"
-\reIncludeScore "BFGrigaudon" "BFNrigaudon"
+\pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
+\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
+ "BFFrigaudon" "BFMrigaudon"
+\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
+"BFGrigaudon" "BFNrigaudon"
+\markup\orig-version\fill-line {
+  \column {
+    \vspace #5
+    \italic\large\line { Les Rigaudons pour entr'acte }
+    \score {
+      { \key sol \major \digitTime\time 2/2 \clef "french"
+        \partial 4 sol''4 | si'' la'' re'' fad'' | sol'' do'' si' mi'' |
+        re'' do'' si'8 la' sol' fad' | \custosNote sol'4 \bar "|." }
+      \layout { indent=0 }
+    }
+    \italic\line { \hspace #5 a la page \page-refII #' BFFrigaudon . }
+    \vspace #5
+  }
+}
 \actEnd "FIN DE LA PREMIERE ENTRÉE"
+\markup\orig-version\vspace #15
