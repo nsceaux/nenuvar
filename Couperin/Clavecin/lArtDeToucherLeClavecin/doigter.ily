@@ -301,8 +301,8 @@
           \voiceOne
           \key la \major
           \time 6/4
+          \set Staff.beatStructure = #'(3 3) 
           \clef treble
-          #(override-auto-beam-setting '(end * * 6 4) 3 4) 
           s4 fad''2 ^\markup { \finger "4-5"} ~ 
           fad''8 fad'' mi''2 ^\markup { \finger "4-5"} ~ |
           mi''8 mi'' ^5 re''2 ^\markup { \finger "4-5"} ~ 
@@ -312,7 +312,7 @@
         }
         \new Voice {
           \voiceTwo
-          #(override-auto-beam-setting '(end * * 6 4) 3 4)
+          \set Voice.beatStructure = #'(3 3) 
           dod''8^\mordent ^2 sol'' fad'' mi'' re'' dod'' si'4 r8 re'' dod'' si'  |
           s4 r8 dod'' si' la' sold'4 r8 si' la' sold'  |
           fad'4 r8 la' sold' fad' mi' 
@@ -324,7 +324,7 @@
           \key la \major
           \time 6/4
           \clef bass
-          #(override-auto-beam-setting '(end * * 6 4) 3 4) 
+          \set Staff.beatStructure = #'(3 3) 
           la2 la4 sold2 sold4  |
           fad2 fad4 mi2 mi4  |
           re2 re4  \oneVoice dod8 re' dod' si la sold 
