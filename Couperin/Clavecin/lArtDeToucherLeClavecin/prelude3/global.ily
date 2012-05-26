@@ -1,5 +1,5 @@
-#(override-auto-beam-setting '(end * * 6 4) 3 4 'Score)
 \time 6/4
+\set Staff.beatStructure = #'(3 3) 
 \markUpBegin \mark "Mesuré"
 \oldKey re \minor
 \newKey sol \minor
