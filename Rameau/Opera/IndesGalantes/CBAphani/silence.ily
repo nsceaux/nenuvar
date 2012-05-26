@@ -1,1 +1,1 @@
-R2.*2\noBreak R2.*19\noBreak r2\noBreak r4\noBreak R2.*9
+R2.*2 R2.*19 r4 r r R2.*10
