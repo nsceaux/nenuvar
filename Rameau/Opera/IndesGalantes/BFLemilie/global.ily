@@ -1,5 +1,5 @@
 \keys sol \minor
-\time 2/4 \midiTempo #120
+\digitTime\time 2/4 \midiTempo #120
 \partial 4 s4
 \modVersion { \bar "||" \segnoMark }
 \origVersion <>^\markup\musicglyph #"scripts.segno"

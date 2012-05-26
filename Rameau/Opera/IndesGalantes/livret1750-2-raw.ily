@@ -112,6 +112,8 @@
 %# Leurs Villes flotter sur les eaux ;
 %# Vous avez vû dans l'horreur de la guerre,
 %# Leurs invicibles bras disposer du tonnerre...
+
+\livretScene\line { SCENE IV }
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 %# On vient, dissimulons mes transports à leurs yeux...
 \livretDidasP\line { à l'Inca qu'il appelle. }
@@ -121,7 +123,7 @@
 %# Que de flâme & de sang innondera ces lieux ?
 %# Mais, que ne risque point un amour furi=eux !
 
-\livretScene\line { SCENE IV }
+\livretScene\line { SCENE V }
 \livretDescAtt\center-column {
   \line { FESTE DU SOLEIL }
   \justify {
@@ -216,9 +218,9 @@
   de terre semble s'apaiser.
 }
 
-\livretScene\line { SCENE V }
+\livretScene\line { SCENE VI }
 \livretDescAtt\wordwrap-center\smallCaps {
-  Phani-Palla, Huascar-Inca, Dom-Carlos.
+  Phani-Palla, Huascar-Inca.
 }
 \livretPers\wordwrap-center {
   HUASCAR, à \smallCaps PHANI qui traverse le Théatre en fuyant.
@@ -231,6 +233,11 @@
 %# O jour funeste ! dois-je croire
 %# Que le Ciel jaloux de sa gloire
 %# Ne s'explique aux Humains qu'en les faisant trembler ?
+
+\livretScene\line { SCENE VII }
+\livretDescAtt\wordwrap-center\smallCaps {
+  Phani-Palla, Huascar-Inca, Dom-Carlos.
+}
 \livretPers\line { HUASCAR, \fontsize #-1 { l'arrêtant encore. } }
 %# Vous fuy=ez, quand les Dieux daignent vous appeller !
 %# Eh bien, Cru=elle, eh bien ! vous allez me connoître,
@@ -281,7 +288,7 @@
   \smallCaps Huascar chante les siennes à part.
 }
 
-\livretScene\line { SCENE VII }
+\livretScene\line { SCENE VIII }
 \livretDescAtt\justify {
   Le Volcan se rallume, & le Tremblement de terre recommence.
 }

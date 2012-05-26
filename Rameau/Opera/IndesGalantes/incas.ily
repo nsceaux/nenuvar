@@ -2,125 +2,145 @@
 %%% Deuxième Entrée
 %%%
 %{ n°1 %}\newBookPart #'()
-\entree "Deuxième Entrée" "Les Incas du Pérou"
+\entree "Deuxieme Entrée" "Les Incas du Perou"
 \sceneDescription \markup \left-align \center-column {
   \wordwrap-center {
-    Le théâtre représente un désert du Pérou, terminé par une montagne
-    aride.  Le sommet en est couronné par la bouche d'un volcan formée
-    de rochers calcinés et couverts de cendres.
+    [Le Theátre représente un Desert du Perou,
+    terminé par une Montagne aride.
+    Le sommet en est couronné par la bouche d’un Volcan,
+    formée de Rochers calcinez couverts de cendres.]
   }
 }
 \pieceTocTitle "Ritournelle"
 \includeScore "CAAritournelle"
 
 %{ n°2 %}
-\scene "Scène Première" "Scène 1 : Phani, Carlos"
-\sceneDescription \markup \fill-line { \line \smallCaps { Phani, Carlos } }
-\pieceToc \markup { Phani, Carlos }
+\scene "Scene Première" "Scene 1 : Phani, Carlos"
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps { Phani-Palla, Dom Carlos, } [Officier Espagnol.]
+}
+\pieceToc\markup\wordwrap { PHANI, CARLOS : 
+  \italic { Vous devez bannir de vôtre ame } }
 \includeScore "CABcarlosPhani"
 
 %{ n°3 %}
-\scene "Scène II" "Scène 2 : Phani"
-\sceneDescription \markup \fill-line { \line { \smallCaps Phani seule } }
-\pieceToc \markup { Phani : \italic { Viens, hymen, viens m'unir au vainqueur } }
+\scene "Scene II" "Scene 2 : Phani"
+\sceneDescription\markup\wordwrap-center { \smallCaps Phani seule }
+\pieceToc\markup\wordwrap { PHANI :
+  \italic { Viens, Hymen, viens m’unir au Vainqueur que j’adore } }
 \includeScore "CBAphani"
 
 %{ n°1 %}
-\scene "Scène III" "Scène 3 : Phani, Huascar"
-\sceneDescription \markup  \fill-line { \line \smallCaps { Phani, Huascar } }
-\pieceToc \markup { Huascar }
+\scene "Scene III" "Scene 3 : Phani, Huascar"
+\sceneDescription\markup\wordwrap-center\smallCaps { Phani, Huascar }
+\pieceToc\markup\wordwrap { HUASCAR :
+  \italic { Elle est seule... parlons ; l’instant est favorable } }
 \includeScore "CCAhuascar"
 
 %{ n°5 %}
-\pieceToc \markup { Huascar : \italic { Obéissons sans balancer } }
+\pieceToc\markup\wordwrap { HUASCAR :
+  \italic { Obéissons sans balancer } }
 \includeScore "CCBhuascar"
 
 %{ n°6 %}
-\pieceToc \markup { Phani, Huascar }
+\pieceToc\markup\wordwrap { PHANI, HUASCAR :
+  \italic { Non, non, je ne crois pas tout ce que l’on assure } }
 \includeScore "CCCphaniHuascar"
 
 %{ n°7 %}
-\scene "Scène IV" "Scène 4 : Huascar et un Inca"
-\sceneDescription \markup \left-align \center-column {
-  \line { \smallCaps Huascar et un Inca, son confident. }
-  \line { On entend un prélude qui annonce la fête du Soleil. }
+\scene "Scene IV" "Scene 4 : Huascar et un Inca"
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps Huascar et un Inca, son confident.
 }
-\pieceToc \markup { Huascar }
+\pieceToc\markup\wordwrap { HUASCAR :
+  \italic { On vient, dissimulons mes transports à leurs yeux } }
 \includeScore "CDAhuascar"
 
-%{ n°8 %}\newBookPart #'(full)
-\scene "Scène V" "Scène 5 : Huascar, Phani, Incas"
-\sceneDescription \markup \left-align \center-column {
-  \line { Fête du Soleil }
+%{ n°8 %}
+\scene "Scene V" "Scene 5 : Huascar, Phani, Incas"
+\sceneDescription\markup\left-align\center-column {
+  \line { [FESTE DU SOLEIL] }
   \wordwrap-center {
-    \smallCaps Huascar, \smallCaps Phani, ramenée par des Incas, Pallas et Incas,
-    Sacrificateurs, Péruviens et Péruviennes.
+    \smallCaps Huascar, \smallCaps Phani [ramenée par des Incas,]
+    Pallas et Incas Sacrificateurs, Péruviens, et Péruviennes.
   }
 }
-\pieceToc \markup { Huascar : \italic { Soleil, on a détruit tes superbes asiles } }
+\pieceToc\markup\wordwrap { HUASCAR :
+  \italic { Soleil, on a détruit tes superbes aziles } }
 \includeScore "CEAhuascar"
 
 %{ n°9 %}
-\pieceTocTitle "Adoration du Soleil"
+\pieceTocTitle "Prelude pour l'adoration du soleil"
 \includeScore "CEBprelude"
 
 %{ n°10 %}
-\pieceToc \markup { Huascar, chœur : \italic { Brillant soleil, jamais nos yeux } }
+\pieceToc\markup\wordwrap { HUASCAR, CHŒUR :
+  \italic { Brillant Soleil, jamais nos yeux dans ta carriere } }
 \includeScore "CEChuascarChoeur"
 
-%{ n°11 %}\newBookPart #'(full)
-\pieceTocTitle "Air des Incas pour la dévotion du Soleil"
+%{ n°11 %}
+\pieceTocTitle "Air des Incas [pour la dévotion du Soleil]"
 \includeScore "CEDair"
 
 %{ n°12 %}
-\pieceTocTitle "Danse de Péruviens et de Péruviennes"
+\pieceTocTitle "[Danse de Péruviens et de Péruviennes]"
 \includeScore "CEErondeau"
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°13 %}\newBookPart #'(full violon1 violon2 flute1 flute2 hautbois1 hautbois2
-                               haute-contre taille)
-\pieceToc \markup { Huascar, chœur : \italic { Clair flambeau du monde } }
+%{ n°13 %}
+\pieceToc\markup\wordwrap { HUASCAR, CHŒUR :
+  \italic { Clair Flambeau du monde } }
 \includeScore "CEFhuascarChoeur"
 
-%{ n°14 %}\newBookPart #'(basse basson)
+%{ n°14 %}
 \pieceTocTitle "Loure en rondeau"
 \includeScore "CEGloure"
 
 %{ n°15 %}
-\pieceToc \markup { Huascar : \italic { Permettez, astre du jour } }
+\pieceToc\markup\wordwrap { HUASCAR : \italic { Permettez, Astre du jour } }
 \includeScore "CEHhuascar"
 
-%{ n°16 %}\newBookPart #'(full)
-\pieceTocTitle "Gavottes I & II"
+%{ n°16 %}
+\pieceTocTitle "Premiere gavotte"
 \includeScore "CEIgavotte" \noPageTurn
-
-%{===%}\newBookPart #'(full)
+%{ n°17 %}
+\pieceTocTitle "Deuxieme gavotte en rondeau"
 \includeScore "CEJgavotte"
 
-%{ n°17 %}\newBookPart #'(full)
+%{ n°18 %}
 \pieceTocTitle "Tremblement de terre"
 \includeScore "CEKchoeur"
 
-%{ n°18 %}\newBookPart #'(full)
-\scene "Scène VI" "Scène 6 : Phani, Huascar, Carlos"
-\sceneDescription \markup \left-align \center-column {
-  \line \smallCaps { Phani, Huascar, Carlos }
+%{ n°19 %}
+\scene "Scene VI" "Scene 6 : Phani, Huascar"
+\sceneDescription\markup\wordwrap-center\smallCaps { [Phani-Palla, Huascar-Inca.] }
 }
-\pieceToc \markup { Phani, Huascar, Carlos }
+\pieceToc\markup { PHANI, HUASCAR :
+  \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
 \includeScore "CFAphaniHuascarCarlos"
 
-%{ n°19 %}
-\pieceToc \markup { Phani, Carlos, Huascar : \italic { Pour jamais, l'amour } }
+%{ n°20 %}
+\scene "Scene VII" "Scene 7 : Phani, Huascar, Carlos"
+\sceneDescription\markup\wordwrap-center\smallCaps { Phani, Huascar, Carlos. }
+\pieceToc\markup { PHANI, HUASCAR, CARLOS :
+  \italic { Vous fuyez, quand les Dieux daignent vous appeller } }
+
+%{ n°21 %}
+\pieceToc\markup\wordwrap { PHANI, CARLOS, HUASCAR :
+  \italic { Pour jamais l’Amour nous engage } }
 \includeScore "CFBtrio"
 
-%{ n°20 %}\newBookPart #'(full)
-\scene "Scène VII" "Scène 7 : Huascar"
-\sceneDescription \markup \left-align \center-column {
-  \line { Les mêmes }
-  \line { Le volcan se rallume, et le tremblement de terre recommence. }
+%{ n°22 %}
+\scene "Scene VIII" "Scene 8 : Huascar"
+\sceneDescription\markup\left-align\center-column {
+  \line { \smallCaps Huascar seul. }
+  \line { [Le Volcan se rallume, & le Tremblement de terre recommence.] }
 }
-\pieceToc \markup { Huascar : \italic { La flamme se rallume encore } }
+\pieceToc\markup\wordwrap { HUASCAR :
+  \italic { La flâme se rallume encore } }
 \includeScore "CGAhuascar"
-\markup \large \fill-line { \line { On joue les menuets pour entr'acte. } }
+\markup\large\wordwrap-center {
+  On reprend pour entr’acte les menüets au Prologue
+  page \page-refII #'AEEmenuet .
+}
 \markup \vspace #3
-\actEnd "FIN DE LA DEUXIÈME ENTRÉE"
+\actEnd "[FIN DE LA DEUXIÈME ENTRÉE]"
