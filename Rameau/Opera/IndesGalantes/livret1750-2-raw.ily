@@ -22,7 +22,7 @@
 %# Que vous penetrez mal mon secret embaras !
 %# Quel injuste soupçon !.. quoy, sans inqui=étude,
 %# Brise-t-on à la fois
-%# Les liens du sang & des Loix ?
+%# Les li=ens du sang & des Loix ?
 %# Excusez mon incertitude.
 \livretPers CARLOS
 %# Dans un culte fatal, qui peut vous arrêter ?

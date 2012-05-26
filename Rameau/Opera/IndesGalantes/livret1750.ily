@@ -492,7 +492,7 @@
 \livretVerse#12 { Que vous penetrez mal mon secret embaras ! }
 \livretVerse#12 { Quel injuste soupçon !.. quoy, sans inquiétude, }
 \livretVerse#6 { Brise-t-on à la fois }
-\livretVerse#7 { Les liens du sang & des Loix ? }
+\livretVerse#8 { Les liens du sang & des Loix ? }
 \livretVerse#8 { Excusez mon incertitude. }
 \livretPers CARLOS
 \livretVerse#12 { Dans un culte fatal, qui peut vous arrêter ? }

@@ -1,48 +1,58 @@
-%% CARLOS
-Vous de -- vez ban -- nir de votre â -- me
-la cri -- mi -- nelle er -- reur qui sé -- duit les In -- cas.
-Vous l'a -- vez pro -- mis à ma flam -- me.
-Pour -- quoi dif -- fé -- rez- "vous ?" Non, vous ne m'ai -- mez pas...
-
-%% PHANI
-Que vous pé -- né -- trez mal mon se -- cret em -- bar -- "ras !"
-Quel in -- jus -- te soup -- "çon!..." "Quoi !" Sans in -- qui -- é -- tu -- de,
-bri -- se- t-on à la fois
-les li -- ens du sang et des "lois ?"
-Ex -- cu -- sez mon in -- cer -- ti -- tu -- "de !"
-
-%% CARLOS
-Dans un cul -- te fa -- tal, qui peut vous ar -- rê -- "ter ?"
-
-%% PHANI
-Ne croy -- ez point, Car -- los, que ma rai -- son ba -- lan -- "ce !"
-Mais de nos fiers In -- cas je crains la vi -- o -- len -- ce...
-
-%% CARLOS
-"Ah !" Pou -- vez- vous les re -- dou -- "ter ?"
-
-%% PHANI
-Sur ces monts, leurs der -- niers a -- si -- les,
-la fê -- te du So -- leil va les ras -- sem -- bler tous...
-
-%% CARLOS
-Du trou -- ble de leurs jeux, que ne pro -- fi -- tons- "nous ?"
-
-%% PHANI
-Ils ob -- ser -- vent mes pas...
-
-%% CARLOS
-Leurs soins sont i -- nu -- ti -- les,
-si vous m'ac -- cep -- tez pour é -- poux.
-
-%% PHANI
-Car -- los, al -- lez, pres -- sez ce mo -- ment fa -- vo -- ra -- ble,
-dé -- li -- vrez- moi d'un sé -- jour dé -- tes -- ta -- "ble !"
-Mais ne ve -- nez pas seul... Quel fu -- nes -- te mal -- "heur !"
-Si vo -- tre mort... Le peuple est bar -- bare, im -- pla -- ca -- ble,
-et quel -- que -- fois le nombre ac -- ca -- ble
-la plus in -- tré -- pi -- de va -- leur.
-Al -- lez, ma crainte est par -- don -- na -- "ble ;"
-em -- por -- tez du se -- cours,
-as -- sem -- blez vos guer -- riers,
-con -- dui -- sez leur cou -- rage à de nou -- veaux lau -- riers.
+\tag #'(carlos basse) {
+  %% CARLOS
+  Vous de -- vez ban -- nir de vôtre a -- me
+  La cri -- mi -- nelle er -- reur qui sé -- duit les In -- cas ;
+  Vous l’a -- vez pro -- mis à ma flâ -- me :
+  Pour -- quoy dif -- fe -- rez- vous ? non, vous ne m’ai -- mez pas...
+}
+\tag #'(phani basse) {
+  %% PHANI
+  Que vous pe -- ne -- trez mal mon se -- cret em -- ba -- ras !
+  Quel in -- jus -- te soup -- çon !.. quoy, sans in -- qui -- é -- tu -- de,
+  Bri -- se- t-on à la fois
+  Les li -- ens du sang & des Loix ?
+  Ex -- cu -- sez mon in -- cer -- ti -- tu -- de.
+}
+\tag #'(carlos basse) {
+  %% CARLOS
+  Dans un cul -- te fa -- tal, qui peut vous ar -- rê -- ter ?
+}
+\tag #'(phani basse) {
+  %% PHANI
+  Ne croy -- ez point, Car -- los, que ma rai -- son ba -- lan -- ce ;
+  Mais, de nos fiers In -- cas je crains la vi -- o -- len -- ce...
+}
+\tag #'(carlos basse) {
+  %% CARLOS
+  Ah ! pou -- vez- vous les re -- dou -- tez ?
+}
+\tag #'(phani basse) {
+  %% PHANI
+  Sur ces Monts leurs der -- niers a -- zi -- les,
+  La fê -- te du So -- leil va les ras -- sem -- bler tous...
+}
+\tag #'(carlos basse) {
+  %% CARLOS
+  Du trou -- ble de leurs Jeux, que ne pro -- fi -- tons- nous ?
+}
+\tag #'(phani basse) {
+  %% PHANI
+  Ils ob -- ser -- vent mes pas...
+}
+\tag #'(carlos basse) {
+  %% CARLOS
+  Leurs soins sont i -- nu -- ti -- les,
+  Si vous m’ac -- cep -- tez pour E -- poux.
+}
+\tag #'(phani basse) {
+  %% PHANI
+  Car -- los, al -- lez, pres -- sez ce mo -- ment fa -- vo -- ra -- ble,
+  Dé -- li -- vrez- moy d’un sé -- jour dé -- tes -- ta -- ble ;
+  Mais, ne ve -- nez pas seul... quel fu -- nes -- te mal -- heur !
+  Si vô -- tre mort... le Peuple est bar -- bare, im -- pla -- ca -- ble,
+  Et quel -- que -- fois le nombre ac -- ca -- ble
+  La plus in -- tré -- pi -- de va -- leur.
+  Al -- lez ; ma crainte est par -- don -- na -- ble ;
+  Em -- prun -- tez du se -- cours, as -- sem -- blez vos Guer -- riers ;
+  Con -- dui -- sez leur cou -- rage à de nou -- veaux lau -- riers.
+}
