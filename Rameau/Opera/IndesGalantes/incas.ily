@@ -11,14 +11,14 @@
     formée de Rochers calcinez couverts de cendres.]
   }
 }
-\pieceTocTitle "Ritournelle"
-\includeScore "CAAritournelle"
-
-%{ n°2 %}
 \scene "Scene Première" "Scene 1 : Phani, Carlos"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps { Phani-Palla, Dom Carlos, } [Officier Espagnol.]
 }
+\pieceTocTitle "Ritournelle"
+\includeScore "CAAritournelle"
+
+%{ n°2 %}
 \pieceToc\markup\wordwrap { PHANI, CARLOS : 
   \italic { Vous devez bannir de vôtre ame } }
 \includeScore "CABcarlosPhani"

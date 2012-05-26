@@ -1,16 +1,16 @@
-\clef "dessus" r4 re''8 do'' si'\trill la' |
+\clef "dessus" <>^"Tous" r4 re''8 do'' si' la' |
 \appoggiatura la'8 si'2 sol'4 |
 do''2.~ |
-do''4 si'8 la' sol'\trill fad' |
+do''4 si'8 la' sol' fad' |
 \appoggiatura fad' sol'2 do''8 si' |
 la'2\trill la'8 sol' |
 fad'2\trill r4 |
 r sol''8 fad'' mi'' re'' |
-dod''2 dod''4 |
+dod''2\trill dod''4 |
 re'' mi'' la' |
-re'' dod''4. re''8 |
+re'' dod''4.\trill re''8 |
 re''4 fad'8( sol') la'( sol') |
-la'( re'') fad''( la') sol'(\trill fad') |
+la'( re'') fad''( la') sol'( fad') |
 sol'( la') si'( si') la'( sol') |
 sol'4\trill fad' r |
 r re''4. re''8 |

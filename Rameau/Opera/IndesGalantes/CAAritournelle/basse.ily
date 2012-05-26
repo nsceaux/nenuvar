@@ -1,8 +1,8 @@
 \clef "basse" R2.*3 |
-r4 sol8 fad mi\trill re |
+<>^"Tous" r4 sol8 fad mi re |
 \appoggiatura re8 mi2 fad8 sol |
 fad2 fad8 sol |
-re4 re'8 do' si\trill la |
+re4 re'8 do' si la |
 si do' si la sol si |
 la2 la4 |
 si4 dod' re' |
@@ -10,7 +10,7 @@ sol la la, |
 re2. |
 re,2.~ |
 re,~ |
-re,4 re'8 do' si la |
+re,4 re'8 do' si\trill la |
 \appoggiatura la8 si2 sol4 |
 do'2 la4 |
 re'2 fad4 |
