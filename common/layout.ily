@@ -67,6 +67,8 @@
     \override InstrumentName #'space-alist = #'((left-edge extra-space . 2.0))
     \accepts "StaffGroupNoBar"
     skipBars = ##t
+    %% By default, no annotation line for footnotes
+    \override FootnoteItem #'annotation-line = ##f
   }
   \context {
     \StaffGroup

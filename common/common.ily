@@ -1,4 +1,5 @@
-\version "2.15.31"
+\version "2.15.40"
+
 #(use-modules (srfi srfi-39))
 #(define-public *staff-size*
   (make-parameter (let ((module (ly:output-def-scope
