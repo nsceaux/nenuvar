@@ -1,19 +1,27 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff <<
-      \instrumentName \markup "Violons"
+      \modVersion\instrumentName "Violons"
       \global \includeNotes "dessus"
     >>
     \new Staff \withLyrics <<
-      \characterName "Huascar"
-      \global \includeNotes "huascar"
+      \modVersion\characterName "[Huascar]"
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup \center-column { Basse continue }
+      \modVersion\instrumentName "[B.C.]"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
+      \origLayout {
+        s4. s2.*3 s4.*3\pageBreak
+        s2.*4\break
+        s2.*3\break
+        s2.*4\break
+        s4.*3 s2.*2 s4. \bar "" \break
+        s4. s2.*4\pageBreak
+      }
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { ragged-last = ##f }
   \midi { }
 }
