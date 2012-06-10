@@ -110,7 +110,7 @@
 %# Faut-il des miracles nouveaux ?
 %# Vous avez vû de nos Rivages,
 %# Leurs Villes voler sur les eaux ;
-%# Vous avez vû dans l'horreur de la guerre,
+%# Vous avez vû dans l'*horreur de la guerre,
 %# Leur invicible bras disposer du tonnerre...
 
 \livretScene\line { SCENE IV }
