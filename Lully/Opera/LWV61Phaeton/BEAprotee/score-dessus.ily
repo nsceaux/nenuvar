@@ -1,6 +1,6 @@
 \score {
   \new GrandStaff <<
-    \new Staff \with { \tinyStaff } <<
+    \new Staff <<
       { s2.*7 s2.^"Hautbois" }
       \global \includeNotes "dessus1"
     >>
