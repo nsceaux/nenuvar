@@ -7,7 +7,7 @@
     >>
     \new Staff \with { \haraKiri } <<
       \keepWithTag #(*tag-global*) \global
-      { s4 s2.*31\startHaraKiri }
+      { s4 s2.*90\startHaraKiri s2 \break }
       \keepWithTag #'dessus2 \includeNotes "dessus"
     >>
   >>

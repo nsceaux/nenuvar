@@ -76,8 +76,8 @@ r4 | R2.*28 | r4 r
   \tag #'dessus1 \ritournelleI
   \tag #'dessus2 \ritournelleII
 >>
-r4 R2.*30 | r4 r
-re''8^\markup\large Violons re'' |
+r4 R2.*30 |\allowPageTurn
+r4 r re''8^\markup\whiteout\large Violons re'' |
 do''4.\tr do''8 do'' re'' |
 sib'2 mib''8 mib'' |
 re''4. re''8 re'' sol'' |
@@ -112,14 +112,20 @@ R2.*5 |
 r4 r re''4 |
 do'' do''8 do'' do'' re'' |
 mib''2 mib''4 |
-re'' re''8 re'' re'' \tag #'dessus1 \myfootnote #'NoteHead #'(0 . 1) \markup {
-  Ballard : \raise #3 \score {
-    { \tinyQuote \time 3/4 \key sib \major \clef "french"
-      re''4 re''8 re'' re'' fa''8 | fad''4.
-    }
-    \layout { \quoteLayout }
+re'' re''8 re'' re''
+<<
+  \tag #'dessus1 {
+    \myfootnote #'NoteHead #'(0 . 1) \markup {
+      Ballard : \raise #3 \score {
+        { \tinyQuote \time 3/4 \key sib \major \clef "french"
+          re''4 re''8 re'' re'' fa'' | fad''4.
+        }
+        \layout { \quoteLayout }
+      }
+    } sol''8
   }
-} sol''8 |
+  \tag #'dessus2 sol''8
+>> |
 fad''4. re''8 re'' re'' |
 do''\tr sib' la'4.\tr sol'8 |
 sol'4 r4 r |
