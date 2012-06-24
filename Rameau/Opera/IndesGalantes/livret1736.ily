@@ -227,7 +227,7 @@
 \livretVerse#12 { Vous sçavez mon Projet. Allez ; qu’on m’obéisse... }
 \livretDidasP\line { à part. }
 \livretVerse#12 { Je n’ay donc plus pour moy qu’un barbare artifice, }
-\livretVerse#12 { Que de flâme & de sang peut innonder ces lieux ? }
+\livretVerse#12 { Qui de flâme & de sang peut innonder ces lieux ? }
 \livretVerse#12 { Mais, que ne risque point un amour furieux ! }
 
 \livretScene\line { SCENE V }

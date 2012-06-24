@@ -1,29 +1,47 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff <<
+    \origVersion <<
+      \new Staff \with { \haraKiri } <<
+        \global \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiri } <<
+        \global \includeNotes "haute-contre"
+      >>
+      \new Staff \with { \haraKiri } <<
+        \global \includeNotes "taille"
+      >>
+    >>
+    \modVersion\new StaffGroupNoBracket <<
+      \new Staff \with { \haraKiri } <<
         \instrumentName "Violons"
         \global \includeNotes "dessus"
       >>
-      \newHaraKiriStaff <<
-        \instrumentName "Hautes-contres"
+      \new Staff \with { \haraKiri } <<
+        \instrumentName "[Hautes-contre]"
         \global \includeNotes "haute-contre"
       >>
-      \newHaraKiriStaff <<
-        \instrumentName "Tailles"
+      \new Staff \with { \haraKiri } <<
+        \instrumentName "[Tailles]"
         \global \includeNotes "taille"
       >>
     >>
     \new Staff \withLyrics <<
-      \characterName "Huascar"
-      \global \includeNotes "huascar"
+      \modVersion\characterName "Huascar"
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup \center-column { Basse continue }
+      \modVersion\instrumentName "[Basses]"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
+      \origLayout {
+        s2 s1*3\break
+        s1*2 s2.\break
+        s2. s1 s2 \bar "" \break
+        s2 s2.*2\break
+        s1*3\pageBreak
+      }
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { ragged-last = ##f }
   \midi { }
 }

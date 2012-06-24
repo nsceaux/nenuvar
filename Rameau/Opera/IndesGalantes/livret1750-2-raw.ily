@@ -117,10 +117,10 @@
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 %# On vient, dissimulons mes transports à leurs yeux...
 \livretDidasP\line { à l'Inca qu'il appelle. }
-%# Vous sçavez mon Projet. Allez ; qu'on m'obé=isse...
+%# Vous sçavez mon secret Allez ; qu'on m'obé=isse...
 \livretDidasP\line { à part. }
 %# Je n'ay donc plus pour moy qu'un barbare artifice,
-%# Que de flâme & de sang innondera ces lieux ?
+%# Qui de flâme & de sang innondera ces lieux ?
 %# Mais, que ne risque point un amour furi=eux !
 
 \livretScene\line { SCENE V }

@@ -3,13 +3,11 @@
 %%%
 %{ n°1 %}\newBookPart #'()
 \entree "Deuxieme Entrée" "Les Incas du Perou"
-\sceneDescription \markup \left-align \center-column {
-  \wordwrap-center {
-    [Le Theátre représente un Desert du Perou,
-    terminé par une Montagne aride.
-    Le sommet en est couronné par la bouche d’un Volcan,
-    formée de Rochers calcinez couverts de cendres.]
-  }
+\sceneDescription\markup\wordwrap-center {
+  [Le Theátre représente un Desert du Perou,
+  terminé par une Montagne aride.
+  Le sommet en est couronné par la bouche d’un Volcan,
+  formée de Rochers calcinez couverts de cendres.]
 }
 \scene "Scene Première" "Scene 1 : Phani, Carlos"
 \sceneDescription\markup\wordwrap-center {
@@ -49,8 +47,9 @@
 
 %{ n°7 %}
 \scene "Scene IV" "Scene 4 : Huascar et un Inca"
-\sceneDescription\markup\wordwrap-center {
-  \smallCaps Huascar et un Inca, son confident.
+\sceneDescription\markup\column {
+  \wordwrap-center { \smallCaps Huascar et un Inca son confident. }
+  \wordwrap-center { [On entend un Prélude qui annonce la Fête du Soleil.] }
 }
 \pieceToc\markup\wordwrap { HUASCAR :
   \italic { On vient, dissimulons mes transports à leurs yeux } }

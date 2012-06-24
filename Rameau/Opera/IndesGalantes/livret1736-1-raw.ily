@@ -123,7 +123,7 @@
 %# Vous sçavez mon Projet. Allez ; qu'on m'obé=isse...
 \livretDidasP\line { à part. }
 %# Je n'ay donc plus pour moy qu'un barbare artifice,
-%# Que de flâme & de sang peut innonder ces lieux ?
+%# Qui de flâme & de sang peut innonder ces lieux ?
 %# Mais, que ne risque point un amour furi=eux !
 
 \livretScene\line { SCENE V }
