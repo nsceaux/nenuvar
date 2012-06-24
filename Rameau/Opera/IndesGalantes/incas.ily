@@ -61,7 +61,7 @@
   \line { [FESTE DU SOLEIL] }
   \wordwrap-center {
     \smallCaps Huascar, \smallCaps Phani [ramenée par des Incas,]
-    Pallas et Incas Sacrificateurs, Péruviens, et Péruviennes.
+    Pallas et Incas sacrificateurs, Péruviens, et Péruviennes.
   }
 }
 \pieceToc\markup\wordwrap { HUASCAR :
