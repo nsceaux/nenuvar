@@ -1,5 +1,5 @@
 \clef "basse" R1*5 |
-r2 mi |
+r2 <>^"Tous" mi |
 la1~ |
 la2 sol~ |
 sol fa4 mi |
