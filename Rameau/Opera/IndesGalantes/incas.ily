@@ -82,7 +82,7 @@
 \includeScore "CEDair"
 
 %{ n°12 %}
-\pieceTocTitle "[Danse de Péruviens et de Péruviennes]"
+\pieceTocTitle "Rondeau"
 \includeScore "CEErondeau"
 
 %{ n°13 %}
