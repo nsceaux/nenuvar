@@ -1,4 +1,4 @@
-\clef "basse" la2 fad |
+\clef "basse" la2^"Tous" fad |
 dod re |
 mi4 mi mi mi |
 la,1 |
@@ -16,11 +16,11 @@ sold4 la si si, |
 mi1 |
 mi2 mi |
 mid~ mid4. mid8 |
-fad4 mi re2\trill |
+fad4 << \origVersion mi \modVersion mi! >> re2\trill |
 dod1 |
 re'2 dod' |
 sid1 |
-si4 la si dod' |
+<< \origVersion si4 \modVersion si!4 >> la si dod' |
 fad1 |
 re2 re |
 dod4 re dod re |
