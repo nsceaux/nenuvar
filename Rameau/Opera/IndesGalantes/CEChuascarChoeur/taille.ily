@@ -1,5 +1,5 @@
 \clef "taille" R1*2 |
-r8 la la8. la16 la8. la16 la8. la16 |
+r8 r16 la la8. la16 la8. la16 la8. la16 |
 dod'8. dod'16 mi'8. mi'16 dod'8. dod'16 dod'8. dod'16 |
 mi'4. mi'8 mi'4. mi'8 |
 la2 la'4 mi'8. mi'16 |
@@ -50,28 +50,28 @@ si'1 |
 r2 r8 mi' mi' mi' |
 sold'2 mi''8 la' la' sold' |
 sold'2 la'4. sold'8 |
-\appoggiatura fad'8 mi'2 la' |
+\appoggiatura fad'8*1/2 mi'2 la' |
 sold'2 r |
 r8 mi' mi' mi' mi' mi' mi' mi' |
 sold'2 mi'4. sold'8 |
 fad'2 fad'\trill |
 mi' r |
-R1*2 |
+R1*2 |\allowPageTurn
 r8 mi' mi' mi' dod' dod' dod' dod' |
 mi'4. mi'8 mi'4. mi'8 |
 mi'2 re'4 re'8 re' |
 sold1 |
 R1 |
 r4 fad' mid' fad' |
-mid' fad' mid' fad' |
+mid' fad' sold' fad' |
 sold' sold' fad' mid' |
 fad'2 la |
 re' sold |
 lad r |
 R1 |
-r4 r8 lad' lad'4. dod''8 |
-fad'2 fad'4 fad'8 lad' |
-si'1 |
+r4 r8 fad' fad'4. fad'8 |
+fad'2 fad'4 fad'8 mi' |
+re'1 |
 r4 si' lad' re'' |
 dod'' re'' dod'' re'' |
 lad'2 re''4 re''8 dod'' |
@@ -79,7 +79,7 @@ si' dod'' re'' si' mi'' re'' dod'' si' |
 si'2 si'4 si'8 si' |
 lad'2 dod''4 dod''8 dod'' |
 fad'2 re''8 re'' re'' re'' |
-re''2 \appoggiatura dod''8 si'4. si'8 |
+re''2 si'4. si'8 |
 si'2 fad' |
 fad'8 fad' fad' fad' si' si' si' si' |
 re''2 r |
@@ -100,7 +100,7 @@ mi'2 mi'4 mi'8 mi' |
 la'2 la'4 si'8 dod'' |
 re''2 fad'8 fad' fad' fad' |
 si'2 la'4. la'8 |
-la'2. sold'4 |
+la'2.( sold'4) |
 la'4. mi'8 la'4. la'8 |
 la'1~ |
 la'~ |

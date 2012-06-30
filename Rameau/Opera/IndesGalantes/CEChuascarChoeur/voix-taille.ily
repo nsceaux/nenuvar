@@ -17,9 +17,9 @@ fad'2 fad'4 fad'8 fad' |
 si1~ |
 si2 r |
 r mi'8 la' la' sold' |
-sold'2 \appoggiatura fad'8 mi'4. mi'8 |
+sold'2 mi'4. mi'8 |
 si1 |
-sold\trill |
+sold |
 R1*4 |
 r4 r8 mi' mi'4. mi'8 |
 mi'1~ |
@@ -45,12 +45,12 @@ si[\melisma dod' re' dod'] si2~ |
 si2\melismaEnd si4 si8 si |
 lad2 dod'4 dod'8 dod' |
 dod'2 si8 si si si |
-si2 si4 si |
+si2 si4. si8 |
 si2( lad) |
 si1 |
 r4 fad' fad' mi' |
 re' mi' re' dod' |
-si2 si4 r |
+si2\trill si4 r |
 r dod' si la |
 si sold la si |
 mi1 |
@@ -72,7 +72,7 @@ R1*8 |
 r4 r8 si mi'4. mi'8 |
 mi'1~ |
 mi'4. mi'8 mi'4. mi'8 |
-mi'4. mi'8 mi'4. la8 |
+mi'4. mi'8 mi'4. dod'8 |
 fad'2 fad'4. dod'8 |
 re'1~ |
 re'4 la si dod' |
@@ -85,4 +85,4 @@ r2 mi'8 mi' mi' mi' |
 la2 re'4. dod'8 |
 dod'2( re') |
 dod'1 |
-R1*4 |
+<< \origVersion { R1 r2 r R1*2 } \modVersion R1*4 >> |

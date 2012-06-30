@@ -13,8 +13,8 @@ re''2 dod'' |
 si' la' |
 mi'1 |
 r2 dod''4 red''8 mi'' |
-red''8[\melisma dod'' si' dod''] red''[ mi'' fad'' sold''] |
-la''2\melismaEnd la''4 sold''8 fad'' |
+red''8[\melisma dod'' si' dod''] red''[ mi'' fad'' sold'']( |
+la''2)\melismaEnd la''4 sold''8 fad'' |
 sold''1~ |
 sold''2 r |
 r si'8 dod'' red'' si' |
@@ -27,17 +27,17 @@ dod''1~ |
 dod''~ |
 dod'' |
 r4 r8 la' la'4. la'8 |
-\appoggiatura sold'8 fad'2 sold'4 sold'8 sold' |
-mid'2 mid'4 r |
+fad'2 sold'4 sold'8 sold' |
+mid'2\trill mid'4 r |
 r4 dod'' si' la' |
-sold' la' sold'\trill fad' |
+sold' la' sold' fad' |
 si'1~ |
-si'4 si' la'\trill sold' |
+si'4 si' la' sold' |
 la'2 fad' |
 fad' mid' |
 fad' fad'4 fad'8 sold' |
-lad'8[\melisma sold' fad' sold'] lad'[ si' dod'' re''] |
-mi''2\melismaEnd mi''4 re''8 dod'' |
+lad'8[\melisma sold' fad' sold'] lad'[ si' dod'' re'']( |
+mi''2)\melismaEnd mi''4 re''8 dod'' |
 re''2 si'8 dod'' re'' mi'' |
 fad''2 fad''4. fad''8 |
 fad''1~ |
@@ -59,12 +59,12 @@ la''1~ |
 la''~ |
 la''4 la'' la'' sol'' |
 fad'' mi'' re'' dod'' |
-si'2 si'4 r |
+si'2\trill si'4 r |
 r4 mi'' re'' dod'' |
 si' la' sold' fad' |
 mi'2 si'4 dod''8 re'' |
-dod''8[\melisma si' la' si'] dod''[ re'' mi'' dod''] |
-re''2\melismaEnd re''4 re''8 mi'' |
+dod''8[\melisma si' la' si'] dod''[ re'' mi'' dod'']( |
+re''2)\melismaEnd re''4 re''8 mi'' |
 fad''2 si'8 dod'' re'' si' |
 mi''2 mi''4. fad''8 |
 dod''2( si')\trill |
@@ -72,8 +72,8 @@ la'1 |
 r2 r4 <<
   { \voiceOne dod''8 re'' |
     mi''[\melisma re'' dod'' mi''] fad''[ mi'' re'' fad''] |
-    mi''[ re'' dod'' mi''] fad''[ mi'' re'' fad''] |
-    mi''4\melismaEnd dod'' re'' mi'' |
+    mi''[ re'' dod'' mi''] fad''[ mi'' re'' fad'']( |
+    mi''4)\melismaEnd dod'' re'' mi'' |
     la'1~ |
     la'~ |
     la'2 la'8 si' dod'' la' |
@@ -84,8 +84,8 @@ r2 r4 <<
   \new Voice \with { autoBeaming = ##f } {
     \voiceTwo la'8 si' |
     dod''[\melisma si' la' dod''] re''[ dod'' si' re''] |
-    dod''[ si' la' dod''] re''[ dod'' si' re''] |
-    dod''4\melismaEnd la' la' sol' |
+    dod''[ si' la' dod''] re''[ dod'' si' re'']( |
+    dod''4)\melismaEnd la' la' sol' |
     fad'1~ |
     fad'~ |
     fad'2 fad'8 sold' la' fad' |
@@ -96,8 +96,8 @@ r2 r4 <<
 >> r4 |
 r2 si'4 dod''8 re'' |
 dod''8[\melisma si' la' si'] dod''[ re'' mi'' dod''] |
-re''[ la' si' dod''] re''[ mi'' re'' mi''] |
-fad''1~ |
+re''[ la' si' dod''] re''[ mi'' re'' mi'']( |
+fad''1)~ |
 fad''4\melismaEnd fad'' sold'' la'' |
 mi''1~ |
 mi''2 mi''8 fad'' sold'' mi'' |
@@ -108,4 +108,4 @@ r2 dod''8 re'' mi'' dod'' |
 fad''2 sold''4. la''8 |
 la''2.( sold''4) |
 la''1 |
-R1*4 |
+<< \origVersion { R1 r2 r R1*2 } \modVersion R1*4 >> |

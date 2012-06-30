@@ -1,5 +1,5 @@
 \clef "basse" R1*3 |
-r8 mi la8. la16 dod'8. la16 mi8. dod16 |
+r8 r16 mi la8. la16 dod'8. la16 mi8. dod16 |
 la,4. la8 la4. la8 |
 re'2 dod'4 si8. la16 |
 mi'8 mi' si si sold sold mi mi |
@@ -10,7 +10,7 @@ mi re dod si, |
 la,8 la mi mi dod la mi dod |
 la,2 r4 r8 la, |
 re,2 r4 r8 re |
-dod red mi4 re dod |
+dod red mi4 red dod |
 si,2 sold, |
 la,4. sold,8 fad,4. mi,8 |
 si,8 si fad fad red si si, la, |
@@ -27,7 +27,7 @@ mi2 re |
 dod la, |
 sold, la, |
 mi, dod |
-re re4.( dod16 re) |
+re re4. dod16 re |
 mi2 mi, |
 la,1 |
 R1 |
@@ -58,14 +58,28 @@ R1 |
 r8 mi' si si sold4. mi8 |
 si,2 si, |
 mi, r |
-R1*2 |
-r8 mi la la dod' la mi dod |
-la,4. la8 la4. la8 |
-re'4 re re re8 si, |
-dod1 |
+\myfootnote #'Rest #'(0 . 2) \markup {
+  Manuscrit Toulouse 1750, mesures 64 à 70 : \raise #3.5 \score {
+    { \tinyQuote \key la \major \time 2/2 \clef "bass"
+      R1*2 |
+      r8 mi la la dod' la mi dod |
+      la,4. la8 la4. la8 |
+      re'4 re re re8 si, |
+      dod1 |
+      dod,4 r r2 |
+    }
+    \layout { \quoteLayout }
+  }
+}
+r4 r8 mi la4. la8 |
+la1~ |
+la |
+r4 r8 la la4. la8 |
+re'2 re'4 re'8 si |
+dod'1 |
 dod,4 r r2 |
 r4 dod' si la |
-sold fad mid re |
+sold fad mid red |
 dod1 |
 r2 re si, dod |
 fad,1 |
@@ -81,8 +95,8 @@ dod si, dod re mi fad sol mi |
 fad2 fad4 fad8 fad |
 si2 si,8 dod re si, |
 mi2 sol4. mi8 |
-fad1 |
-si, |
+fad2 fad, |
+si,1 |
 r4 re' re' dod' |
 si dod' si la |
 sold2\trill sold4 r |
@@ -97,7 +111,7 @@ mi4. mi8 mi4 re |
 dod4 dod' si la |
 sold la mi mi8 fad |
 sold fad mi fad sold la si sold |
-la4 sol8\trill fad sol fad sol la |
+la4 sol8 fad sol fad sol la |
 fad2 fad4 fad8 la |
 re2 re'8 re' re' re' |
 re'2 dod'4. re'8 |
@@ -118,12 +132,12 @@ fad sol la sol fad sol fad mi |
 re mi fad sol la si dod' la |
 re'4 dod' si la |
 sold2\trill la8 si dod' re' |
-mi'2 mi'8 re'16 dod' si8 re' |
-dod'2 si4.\trill la8 |
+mi'2~ mi'8 re'16 dod' si8 re' |
+dod'2 si4. la8 |
 mi1 |
 la |
 r2 la8 si dod' la |
-re'2 si4.\trill la8 |
+re'2 si4. la8 |
 mi'2 mi |
 la,1 |
 R1 |
