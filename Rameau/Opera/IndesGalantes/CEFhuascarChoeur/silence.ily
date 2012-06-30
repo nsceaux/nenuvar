@@ -1,6 +1,6 @@
-r4\noBreak R2.*11\noBreak r2\noBreak
-r4\noBreak R2.*11\noBreak r2\noBreak
-r4\noBreak R2.*14\noBreak r2\noBreak
-r4\noBreak R2.*11\noBreak r2\noBreak
-r4\noBreak R2.*13\noBreak r2\noBreak
-r4\noBreak R2.*11\noBreak r2
+r4 R2.*11 r4 r
+r4 R2.*11 r4 r
+r4 R2.*14 r4 r
+r4 R2.*11 r4 r
+r4 R2.*13 r4 r
+r4 R2.*11 r4 r

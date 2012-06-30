@@ -2,7 +2,7 @@
 r la4 la, |
 mi2 dod4 |
 r re si, |
-mi fad r8 sold |
+mi fad4. sold8 |
 la4. sold8 la la, |
 mi2 r4 |
 r la la, |
@@ -33,30 +33,30 @@ re2. |
 dod |
 si,2 dod4 |
 re2.~ |
-re8. si,16 dod4 dod, |
-fad,2 sold,4 |
+re8 la,16 si, dod4 dod, |
+fad,2 fad,4 |
 dod2 dod4 |
 re2. |
 lad, |
-si,2~ si,8 dod |
+\once\tieDashed si,2~ si,8 dod |
 re4 dod si, |
 dod2 re4 |
-mi2~ mi8 la, |
+\once\tieDashed mi2~ mi8 la, |
 mi,2 
-\tag #'() \rondeau
+\modVersion\tag #'() \rondeau
 r4 |
-r2 la,4 |
+r4 r la,4 |
 la,2. |
 dod,4. re,8 mi,4 |
 la,2 sol,4 |
 fad, mi, la, |
 re,2 r4 |
-r2 re8 dod |
+r4 r re8 dod |
 si,2 r4 |
-r2 si,4 |
+r4 r si,4 |
 mi2. |
 sold,2 la,4 |
 si,2 sold,4 |
 la,2 si,4 |
 mi,2
-\tag #'() \rondeau
+\modVersion\tag #'() \rondeau

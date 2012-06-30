@@ -1,16 +1,37 @@
-Clair flam -- beau du mon -- de,
-l'air, la terre et l'on -- de
-res -- sen -- tent tes bien -- "faits !"
-Clair flam -- beau du mon -- de,
-l'air, la terre et l'on -- de
-te doi -- vent leurs at -- "traits !"
+\tag #'(huascar basse choeur) {
+  Clair Flam -- beau du mon -- de,
+  L’Air, la Terre & l’On -- de
+  Res -- sen -- tent tes bien -- faits.
+  Clair Flam -- beau du mon -- de,
+  L’Air, la Terre & l’On -- de
+  Te doi -- vent leurs at -- traits.
+}
 
-Par toi dans nos champs tout a -- bon -- de.
-Nous ne pou -- vons comp -- ter les biens que tu nous fais.
-Chan -- tons- les seu -- le -- "ment !" Que l'é -- cho nous ré -- pon -- "de !"
-Que ton nom dans nos bois re -- ten -- tisse à ja -- "mais !"
-
-Tu lais -- ses l'u -- ni -- vers dans u -- ne nuit pro -- fon -- de,
-lors -- que tu dis -- pa -- "rais ;"
-et nos yeux, en per -- dant ta lu -- miè -- re fé -- con -- de,
-per -- dent tous leurs plai -- "sirs ;" la beau -- té perd ses traits.
+\tag #'(huascar basse) {
+  Par toy, dans nos champs tout a -- bon -- de ;
+  Nous ne pou -- vons comp -- ter les biens que tu nous fais !
+  Chan -- tons- les seu -- le -- ment : Que l’E -- cho nous ré -- pon -- de,
+  Que ton nom dans nos Bois re -- ten -- tisse à ja -- mais.
+}
+\modVersion\tag #'choeur {
+  Clair Flam -- beau du mon -- de,
+  L’Air, la Terre & l’On -- de
+  Res -- sen -- tent tes bien -- faits.
+  Clair Flam -- beau du mon -- de,
+  L’Air, la Terre & l’On -- de
+  Te doi -- vent leurs at -- traits.
+}
+\tag #'(huascar basse) {
+  Tu lais -- ses l’U -- ni -- vers dans u -- ne nuit pro -- fon -- de
+  Lors -- que tu dis -- pa -- rais !
+  Et nos yeux en per -- dant ta lu -- mie -- re fé -- con -- de,
+  Per -- dent tous leurs plai -- sirs ; la Beau -- té perd ses traits.
+}
+\modVersion\tag #'choeur {
+  Clair Flam -- beau du mon -- de,
+  L’Air, la Terre & l’On -- de
+  Res -- sen -- tent tes bien -- faits.
+  Clair Flam -- beau du mon -- de,
+  L’Air, la Terre & l’On -- de
+  Te doi -- vent leurs at -- traits.
+}
