@@ -1,1 +1,2 @@
-r2\noBreak R1*39\noBreak r2
+r2 R1*7 r2
+r2 R1*9 R1 R1 R1*3 r2
