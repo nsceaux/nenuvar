@@ -187,7 +187,7 @@
 %# L'Amour nous égare,
 %# Nous plaît-il moins ?
 %# Vous brillez, Astre du jour,
-%# Vous charmez nos yeux par l'éclat de vos flâmes ;
+%# Vous charmez nos cœurs par l'éclat de vos flâmes ;
 %# Vous brillez, Astre du jour ;
 %# L'Astre de nos ames
 %# C'est le tendre Amour.

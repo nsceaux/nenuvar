@@ -1,21 +1,24 @@
-Per -- met -- tez, as -- tre du jour,
-qu'en chan -- tant vos feux nous chan -- tions d'au -- tres flam -- mes.
-Par -- ta -- gez, as -- tre du jour,
-l'en -- cens de nos â -- mes
-a -- vec le tendre a -- mour. __
-Le so -- leil, en gui -- dant nos pas,
-ré -- pand ses ap -- pâts
-dans les rou -- tes qu'il pa -- re.
-Rai -- son, quand mal -- gré tes soins,
-l'a -- mour nous é -- ga -- re,
-nous plaît- il "moins ?" __
-Vous bril -- lez, as -- tre du jour,
-vous char -- mez nos yeux par l'é -- clat de vos flam -- "mes !"
-Vous bril -- lez, as -- tre du "jour !" L'as -- tre de nos â -- mes,
-c'est le tendre a -- mour. __
+Per -- met -- tez, As -- tre du jour,
+Qu’en chan -- tant vos feux nous chan -- tions d’au -- tres flâ -- mes ;
+Par -- ta -- gez, As -- tre du jour,
+L’en -- cens de nos a -- mes,
+A -- vec le tendre A -- mour. __
+Le So -- leil en gui -- dant nos pas
+Ré -- pand ses ap -- pas,
+Dans les rou -- tes qu’il pa -- re ;
+Rai -- son, quand mal -- gré tes soins
+L’A -- mour nous é -- ga -- re,
+Nous plaît- il moins ? __
+Vous bril -- lez, As -- tre du jour,
+Vous char -- mez nos cœurs par l’é -- clat de vos flâ -- mes ;
+Vous bril -- lez, As -- tre du jour ;
+L’As -- tre de nos a -- mes
+C’est le tendre A -- mour. __
 De nos bois chas -- sez la tris -- tes -- se,
-ré -- gnez- y sans ces -- se, Dieux de nos "coeurs !"
-De la nuit le voi -- le som -- bre
-sur vos at -- traits n'é -- tend ja -- mais son om -- "bre ;"
-tous les temps, ai -- ma -- bles vain -- queurs, __
-sont mar -- qués par vos __ fa -- veurs. __
+Re -- gnez- y sans ces -- se,
+Dieu de nos cœurs, de la nuit le voi -- le som -- bre
+Sur vos ap -- pas n’é -- tend ja -- mais son om -- bre.
+Tous les tems, ai -- ma -- ble vain -- queur, __
+Sont mar -- quez par tes __ fa -- veurs. __
+\modVersion { Per -- met- }
+\origVersion { Per -- met -- tez, }

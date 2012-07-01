@@ -657,7 +657,7 @@
 \livretVerse#5 { L’Amour nous égare, }
 \livretVerse#4 { Nous plaît-il moins ? }
 \livretVerse#7 { Vous brillez, Astre du jour, }
-\livretVerse#11 { Vous charmez nos yeux par l’éclat de vos flâmes ; }
+\livretVerse#11 { Vous charmez nos cœurs par l’éclat de vos flâmes ; }
 \livretVerse#7 { Vous brillez, Astre du jour ; }
 \livretVerse#5 { L’Astre de nos ames }
 \livretVerse#5 { C’est le tendre Amour. }
