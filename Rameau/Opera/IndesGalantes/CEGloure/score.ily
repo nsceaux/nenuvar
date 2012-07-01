@@ -1,16 +1,60 @@
 \score {
-  \new StaffGroup <<
-    \new Staff << \instrumentName "Dessus"
-      \global \keepWithTag #'conducteur \includeNotes "dessus" >>
-    \new Staff << \instrumentName "Haute-contres"
-      \global \includeNotes "haute-contre" >>
-    \new Staff << \instrumentName "Tailles"
-      \global \includeNotes "taille" >>
-    \new Staff << \instrumentName "Basses"
-      { s8 s4 s1.*7 s2. s4 s8\break
-        s8 s4 s1.*7 s2. s4 s8\break }
-      \global \keepWithTag #'conducteur \includeNotes "basse" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff <<
+        \global \keepWithTag #'dessus1 \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        { \startHaraKiri s4. s1.*7 s2. s4. \stopHaraKiri }
+        \global \keepWithTag #'dessus2 \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiri } <<
+        \global \includeNotes "haute-contre"
+      >>
+      \new Staff \with { \haraKiri } <<
+        \global \includeNotes "taille"
+      >>
+      \new Staff <<
+        \global \keepWithTag #'conducteur \includeNotes "basse"
+        \origLayout {
+          s4. s1.*4 s2. \bar "" \break
+          s2. s1.*2 s2. s4. \break
+          s4. s1.*4 s2. \bar "" \break
+          s2. s1.*4 \pageBreak
+          \grace s8 s1.*4\break
+          \grace s8 s1.*4 s2. s4.\break
+        }
+      >>
+    >>
+    \modVersion\new StaffGroup <<
+      \new GrandStaff <<
+        \new Staff <<
+          \instrumentName "[Dessus]"
+          \global \keepWithTag #'dessus1 \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          { \startHaraKiri s4. s1.*7 s2. s4. \stopHaraKiri }
+          \global \keepWithTag #'dessus2 \includeNotes "dessus"
+        >>
+      >>
+      \new Staff \with { \haraKiri } <<
+        \instrumentName "[Hautes-contre]"
+        \global \includeNotes "haute-contre"
+      >>
+      \new Staff \with { \haraKiri } <<
+        \instrumentName "[Tailles]"
+        \global \includeNotes "taille"
+      >>
+      \new Staff <<
+        \instrumentName "[Basses]"
+        \global \keepWithTag #'conducteur \includeNotes "basse"
+        \modVersion {
+          s8 s4 s1.*7 s2. s4 s8\break
+          s8 s4 s1.*7 s2. s4 s8\break
+        }
+      >>
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }
