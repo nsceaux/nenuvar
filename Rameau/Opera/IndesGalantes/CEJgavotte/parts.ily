@@ -1,11 +1,9 @@
 \piecePartSpecs #(let ((breaks #{ s2 s1*11 s2 \break s2 s1*7 s2 \break #}))
-                   `((violon1 #:music ,breaks)
-                     (violon2 #:music ,breaks)
-                     (hautbois1 #:music ,breaks)
-                     (hautbois2 #:music ,breaks)
-                     (flute1 #:music ,breaks)
-                     (flute2 #:music ,breaks)
-                     (haute-contre #:music ,breaks)
-                     (taille #:music ,breaks)
-                     (basson #:music ,breaks #:instrument "Basson")
+                   `((dessus #:score "score-dessus")
+                     (haute-contre #:notes "dessus-parties"
+                                   #:tag-notes haute-contre
+                                   #:music ,breaks)
+                     (taille #:notes "dessus-parties"
+                             #:tag-notes taille
+                             #:music ,breaks)
                      (basse #:music ,breaks)))
