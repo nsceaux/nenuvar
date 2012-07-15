@@ -1,7 +1,7 @@
-\clef "dessus" sol'8-"Tous" la' sib' do'' re'' mib'' |
+\clef "dessus" sol'8-\vB-"Tous" la' sib' do'' re'' mib'' |
 re''4 sol''2~ |
 sol''4. fad''8[ sol'' la''] |
-sib''4 \appoggiatura la''16 sol''4 sib''~ |
+sib''4 \appoggiatura { \vA la''8 \vB la''16 } sol''4 sib''~ |
 sib'' la''8 sol'' fa'' mib'' |
 re'' mib'' re'' mib'' fa''4 |
 sib' do'' la'\trill |
@@ -12,8 +12,8 @@ do'' re'' mib'' fa'' sol'' sol'' |
 sol' la' sib' do'' re'' mib'' |
 re'' mi'' fad'' sol'' la'' sib'' |
 la'' sib'' do'''4 sib'' |
-la'' do'''8 sib'' la'' sol'' |
-fad''2\trill \appoggiatura mi''16 re''4 |
+la''-\vA\trill do'''8 sib'' la'' sol'' |
+fad''2\trill \appoggiatura { \vA mi''?8 \vB mi''16 } re''4 |
 sib'8 do'' re'' mib'' fa'' fa'' |
 fa' sol' la' sib' do'' re'' |
 do'' re'' mib'' fa'' sol'' sol'' |

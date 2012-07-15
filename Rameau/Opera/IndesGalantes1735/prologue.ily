@@ -86,6 +86,14 @@
 \includeScore "ACCair"
 
 %{ n°11 %}
+\pieceTocTitle "Premier menuet"
+\includeScore "AEEmenuet"
+\noPageTurn
+%{ n°12 %}
+\pieceTocTitle "Second menuet"
+\includeScore "AEFmenuet"
+
+%{ n°11 %}
 \pieceToc\markup\wordwrap { BELLONE :
   \italic { C’est la gloire Qui rend les heros immortels } }
 \includeScore "ACDbellone"
@@ -122,13 +130,6 @@
 %{ n°18 %}
 \pieceTocTitle "Air pour les Amours"
 \includeScore "AEDair"
-
-%{ n°19 %}
-\pieceTocTitle "Premier menüet"
-\includeScore "AEEmenuet"
-\noPageTurn
-\pieceTocTitle "Second menüet"
-\includeScore "AEFmenuet"
 
 %{ n°20 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :

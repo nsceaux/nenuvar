@@ -19,6 +19,6 @@ do'2 re'4 |
 mib' sol' la' |
 sib' re' mi' |
 fad'8 sol' la'4 fa' |
-mi'? re' re' |
+\vA mi' \vB mi'? re' re' |
 do' mib' re' |
 re'2. |

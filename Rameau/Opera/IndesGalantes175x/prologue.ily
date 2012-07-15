@@ -126,16 +126,17 @@
 \pieceTocTitle "Premier menüet"
 \includeScore "AEEmenuet"
 \noPageTurn
+%{ n°20 %}
 \pieceTocTitle "Second menüet"
 \includeScore "AEFmenuet"
 
-%{ n°20 %}\newBookPart #'(full-rehearsal)
+%{ n°21 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :
   \italic { Traversez les plus vastes Mers } }
 \includeScore "AEGamourHebe"
 \includeScore "AEHchoeur"
 
-%{ n°21 %}
+%{ n°22 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"
 \reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
 "AAAouverture" "AEIouverture"

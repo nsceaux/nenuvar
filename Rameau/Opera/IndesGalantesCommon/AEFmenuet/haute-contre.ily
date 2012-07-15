@@ -1,10 +1,12 @@
-\clef "haute-contre" R2.*2 |
+\clef "haute-contre"
+\vA\origVersion <>_"H.c"
+R2.*2 |
 re''8. do''16 si'8. sol'16 do''8. la'16 |
 re'2 r4 |
 sol'4 sol'2 |
 sol'4 sol' mi' |
 la re' mi' |
-fad'2. |
+fad'2.-\vA\trill |
 R2. |
 mi''4 re''2 |
 sol'4 la'2 |
@@ -26,6 +28,6 @@ sol'2. |
     \layout { \quoteLayout }
   }
 }
-<< { \voiceOne sol'2 re'4 \oneVoice }
-  \new CueVoice { \voiceTwo re'8_"[Toulouse 1750]" mi' re' mi' re' sol' } >> |
+<< { \vB\voiceOne sol'2 re'4 \oneVoice }
+  \vB\new CueVoice { \voiceTwo re'8_"[Toulouse 1750]" mi' re' mi' re' sol' } >> |
 re'2. |

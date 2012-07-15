@@ -6,11 +6,13 @@
         \global \includeNotes "dessus"
       >>
       \new Staff <<
-        \modVersion\instrumentName "[Hautes-contre]"
+        \vA\modVersion\instrumentName "Hautes-contre"
+        \vB\modVersion\instrumentName "[Hautes-contre]"
         \global \includeNotes "haute-contre"
       >>
       \new Staff <<
-        \modVersion\instrumentName "[Tailles]"
+        \vA\modVersion\instrumentName "Tailles"
+        \vB\modVersion\instrumentName "[Tailles]"
         \global \includeNotes "taille"
       >>
       \new Staff <<
@@ -18,12 +20,14 @@
         \global \includeNotes "basson"
       >>
       \new Staff <<
-        \modVersion\instrumentName "[Basses]"
+        \vA\modVersion\instrumentName "Basses"
+        \vB\modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
-        \origLayout {
-          s2.*6\break
-          s2.*8\break
-          s2.*7\pageBreak
+        \vA\origLayout {
+          s2.*9\break s2.*8\break s2.*7\pageBreak
+        }
+        \vB\origLayout {
+          s2.*6\break s2.*8\break s2.*7\pageBreak
           s2.*3\break
         }
       >>

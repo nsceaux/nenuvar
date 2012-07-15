@@ -20,5 +20,5 @@ sol'2 mib''4 |
 re''2 sib'4 |
 la'2 fa'4 |
 mi' fad' sol' |
-do'' do'' la' |
+do'' do'' la'-\vA\trill |
 sib'2. |
