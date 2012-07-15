@@ -31,7 +31,7 @@
 }
 
 \opusPartSpecs #`(
-  (violino1 "Violono I" () (#:notes "violino1"))
+  (violino1 "Violino I" () (#:notes "violino1"))
   (violino2 "Violino II" () (#:notes "violino2"))
   (violino3 "Violino III" ((violino2 #f)) (#:notes "violino3"))
   (viola "Viola" () (#:notes "viola" #:clef "alto"))
