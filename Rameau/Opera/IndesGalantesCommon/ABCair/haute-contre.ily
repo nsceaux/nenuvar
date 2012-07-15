@@ -3,7 +3,8 @@ r sib'4 re''8. do''16 |
 sib'2 sib'4 r |
 la'2 sib' |
 sol'~ sol'8. re'16 re'4 |
-mib'4. sol'8 fad'?8*2/3[ la sol] fad[ sol mi] |
+mib'4. sol'8 \vA\times 8/6 { fad'16[ la sol fad sol mi] }
+\vB { fad'?8*2/3[ la sol] fad[ sol mi] } |
 la4 r r2 |
 fa' fa' |
 sib' sib' |
@@ -17,7 +18,7 @@ fa' r |
 R1 |
 r2 re'' |
 mib'' re'' |
-do''4 la' r2 |
+do''4-\vA\trill la' r2 |
 re''2 r4 re'' |
 sol' sol' fad' sol' |
 sol' do'' sib' la' |

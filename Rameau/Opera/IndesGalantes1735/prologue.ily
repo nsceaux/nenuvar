@@ -32,7 +32,7 @@
 \includeScore "ABBhebe"
 
 %{ n°5 %}\newBookPart #'(full-rehearsal)
-\pieceTocTitle "Air pour deux Polonois"
+\pieceTocTitle "Air grave pour deux Polonois"
 \includeScore "ABCair"
 
 %{ n°6 %}\newBookPart #'(full-rehearsal)
