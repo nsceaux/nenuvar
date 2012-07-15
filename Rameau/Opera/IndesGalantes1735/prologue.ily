@@ -4,11 +4,8 @@
 %{ n°1 %}\newBookPart #'()
 \actn "Prologue"
 \sceneDescription\markup\wordwrap-center {
-  \vA {
-    Le Theatre represente le Palais d'Hebé dans le fonds et ses jardins
-    dans les aîles.
-  }
-  \vB { Le Theâtre représente le Palais \concat { d’ \smallCaps Hebé. } }
+  Le Theatre represente le Palais d'Hebé dans le fonds et ses jardins
+  dans les aîles.
 }
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
@@ -27,7 +24,7 @@
   \smallCaps [Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.]
 }
-\pieceTocTitle "Premier air [Entrée de la suite d’Hebé]"
+\pieceTocTitle "Entrée de la suite d’Hebé"
 \includeScore "ABAentree"
 
 %{ n°4 %}\newBookPart #'(full-rehearsal)

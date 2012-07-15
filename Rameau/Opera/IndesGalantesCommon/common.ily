@@ -315,17 +315,21 @@ fort =
              'text (markup #:whiteout #:italic #:general-align X -0.5 "fort"))
 
 %%% options indes-version v1735 et v175x
+#(define (version-music-filter version music)
+   (if (eqv? (ly:get-option 'indes-version) version)
+       music
+       (let ((type (ly:music-property music 'name)))
+         (if (memq type '(TextScriptEvent ArticulationEvent TieEvent SlurEvent))
+             (make-music 'TextScriptEvent 'text "")
+             (make-music 'Music 'void #t)))))
+
 vA =
 #(define-music-function (parser location music) (ly:music?)
-   (if (eqv? (ly:get-option 'indes-version) 'v1735)
-       music
-       (make-music 'Music 'void)))
+   (version-music-filter 'v1735 music))
 
 vB =
 #(define-music-function (parser location music) (ly:music?)
-   (if (eqv? (ly:get-option 'indes-version) 'v175x)
-       music
-       (make-music 'Music 'void)))
+   (version-music-filter 'v175x music))
 
 #(define-markup-command (vA layout props text) (markup?)
    (if (eqv? (ly:get-option 'indes-version) 'v1735)

@@ -36,7 +36,7 @@
   \include "Rameau/Opera/IndesGalantes1735/personnages.ily"
 }
 
-\include "Rameau/Opera/IndesGalantesCommon/prologue.ily"
+\include "Rameau/Opera/IndesGalantes1735/prologue.ily"
 %\include "Rameau/Opera/IndesGalantesCommon/turc.ily"
 %\include "Rameau/Opera/IndesGalantesCommon/incas.ily"
 %\include "Rameau/Opera/IndesGalantesCommon/sauvages.ily"

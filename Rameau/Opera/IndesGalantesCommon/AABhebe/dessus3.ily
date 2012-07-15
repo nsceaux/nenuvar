@@ -5,18 +5,18 @@ si8 si16 dod' red' mi' red' mi' fad' sol' fad' sol' |
 la'2.~ la'8 red'16 mi' fad' sol' fad' sol' la' si' la' si' |
 do''8 la' fad' red' si red' |
 mi'8. la16 si4 si |
-do'2 sol'4 |
-do'2 do'4 |
+mi'2 sol'4 |
+do'2 do'4-\vA\trill |
 si2~ si16 do' si la |
 sol4. la8 si dod' |
 re'2 si8 mi' |
 red'2\trill red'8 mi' |
-si8 si16 dod'? red'? mi' red' mi' fad' sol' la' fad' |
+si8 si16 \vA { dod' red' } \vB { dod'? red'? } mi' red' mi' fad' sol' la' fad' |
 sol'4. sol16 la si do' la si |
 do'4. la16 si do' re' mi' do' |
 re'2 re'4 |
 sol2 sol''4 |
-re''4 re'' re'' |
+\vA re''2 \vB { re''4 re'' } re''4 |
 fad'8 re'16 mi' fad' sol' la' fad' sol'4 |
 do' re' re' |
 sol2. |
@@ -39,7 +39,7 @@ R |
 r8 red'16 mi' fad' sol' fad' sol' la' si' la' si' |
 do''8 la' fad' red' si red' |
 mi'8. la16 si4 si |
-mi'2\fermata mi'4 |
+mi'2-\vB\fermata mi'4 |
 re'2. |
 do' |
 si |
@@ -50,7 +50,8 @@ re'4. mi'8 fa'4 |
 mi'2. |
 la2 fad'4 |
 sol'2. |
-<<
+\vA fad'2.
+\vB <<
   \origVersion { fad'2~ fad'4 }
   \modVersion fad'2.
 >>
@@ -61,7 +62,7 @@ mi'2 fad'4 |
 sol'2~ sol'8 fad' |
 mid'2. |
 fad'2 fad'4 |
-dod'2~ dod'8 re'16 mi' |
+dod'2~ dod'8 re'16-\vA( mi'-\vA) |
 fad'2. |
 si4 si'8. la'16 sol'8. fad'16 |
 mi'2 sol'4 |

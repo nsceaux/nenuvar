@@ -36,9 +36,9 @@
   \include "Rameau/Opera/IndesGalantes175x/personnages.ily"
 }
 
-\include "Rameau/Opera/IndesGalantesCommon/prologue.ily"
-\include "Rameau/Opera/IndesGalantesCommon/turc.ily"
-%\include "Rameau/Opera/IndesGalantesCommon/incas.ily"
-%\include "Rameau/Opera/IndesGalantesCommon/sauvages.ily"
-%\include "Rameau/Opera/IndesGalantesCommon/fleurs.ily"
+\include "Rameau/Opera/IndesGalantes175x/prologue.ily"
+\include "Rameau/Opera/IndesGalantes175x/turc.ily"
+%\include "Rameau/Opera/IndesGalantes175x/incas.ily"
+%\include "Rameau/Opera/IndesGalantes175x/sauvages.ily"
+%\include "Rameau/Opera/IndesGalantes175x/fleurs.ily"
 \include "Rameau/Opera/IndesGalantes175x/annexe.ily"
