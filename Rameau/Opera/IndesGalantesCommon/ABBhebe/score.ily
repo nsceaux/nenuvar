@@ -9,22 +9,17 @@
       \new Staff <<
         \global \includeNotes "basse"
         \includeFigures "chiffres"
-        \origLayout {
-          s8 s4.*8\break
-          s4.*9\break
-          s4.*4\break
+        \vA\origLayout {
+          s8 s4.*8\break s4.*8\break s4.*5\break s4.*6\break s4.*6\pageBreak
+          s4.*6\break s4.*8\break s4.*8\break s4.*7\pageBreak
+          s4.*7\break s4.*7\break s4.*5\break \grace s8 s4.*6\pageBreak
           s4.*7\break
-          s4.*7\pageBreak
-          s4.*5\break
-          s4.*8\break
-          s4.*7\break
-          s4.*7\pageBreak
-          s4.*5\break
-          s4.*7 s4 \bar "" \break
-          s8 s4.*4\break
-          s4.*6\pageBreak
-          s4.*7\break
-          s4.*2\break
+        }
+        \vB\origLayout {
+          s8 s4.*8\break s4.*9\break s4.*4\break s4.*7\break s4.*7\pageBreak
+          s4.*5\break s4.*8\break s4.*7\break s4.*7\pageBreak
+          s4.*5\break s4.*7 s4 \bar "" \break s8 s4.*4\break s4.*6\pageBreak
+          s4.*7\break s4.*2\break
         }
       >>
     >>

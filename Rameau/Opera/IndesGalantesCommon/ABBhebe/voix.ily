@@ -19,7 +19,7 @@ fad''4.\trill |
 sol''8. mi''16 fad'' sol'' |
 dod''4\trill la'16 re'' |
 re''4( dod''8) |
-re''4 r8 |
+\vA re''4. \vB { re''4 r8 } |
 R4.*2 |
 r4 re''8 |
 re''4.~ |
@@ -34,20 +34,20 @@ re''[ do'' re'' mi'' do'' re'']( |
 mi''8.)\melismaEnd mi''16 fad'' sol'' |
 fad''4\trill re''8 |
 sol''16[ fad''] mi''[ re''] do''[ si'] |
-mi''8 re''\trill[ do''16] si' |
+mi''8 re''-\vB\trill[-\vA( do''16]-\vA)-\vA\trill si' |
 si'8( la'4)\trill |
-sol'4 r8 |
+\vA sol'4. \vB { sol'4 r8 } |
 r4 si'8 |
-do''16[\melisma si' do'' re'' si' do'']( |
-re'')[ do'' re'' mi'' do'' re'']( |
+do''16[\melisma si' do'' re'' si' do'']-\vB( |
+re''-\vB)[ do'' re'' mi'' do'' re'']( |
 mi''8.)\melismaEnd mi''16 fad'' sol'' |
 fad''4.\trill |
 re''8. si'16 do'' re'' |
 mi''4 fad''16 sol'' |
 sol''4( fad''8) |
-sol''4 r8 |
+\vA sol''4. \vB { sol''4 r8 } |
 R4.*5 |
-r4\fermata r16^\markup\smaller { [Toulouse 1750 : moins vite] } si' |
+r4-\vB\fermata \vB<>^\markup\smaller { [Toulouse 1750 : moins vite] } r16 si' |
 mi''8 re''16 do'' si' la' |
 sold'4\trill r16 si' |
 re''8 si'\trill la'16 si' |
@@ -60,7 +60,7 @@ si'4( la'8) |
 si'4 mi''8 |
 la'8. la'16 si' do'' |
 sol'8( fad'4)\trill |
-mi'4 r8 |
+\vA mi'4. \vB { mi'4 r8 } |
 R4.*4 |
 r4 r16 re'' |
 \origVersion\custosNote re''8
