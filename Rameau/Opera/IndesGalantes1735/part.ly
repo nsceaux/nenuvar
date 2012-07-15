@@ -1,4 +1,4 @@
-#(ly:set-option 'indes-version 'v175x)
+#(ly:set-option 'indes-version 'v1735)
 \include "Rameau/Opera/IndesGalantesCommon/common.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -7,7 +7,7 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
     title = "Les Indes Galantes"
-    date = "Version de 1735"
+    date = "Version de 175x"
   }
   \markup \null
 }
