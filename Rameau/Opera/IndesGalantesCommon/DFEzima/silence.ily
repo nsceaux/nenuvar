@@ -1,0 +1,1 @@
+r4\noBreak R1*32\noBreak R1*50\noBreak R2.*9\noBreak R1

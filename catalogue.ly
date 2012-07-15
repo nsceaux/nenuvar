@@ -344,15 +344,25 @@ O Emmanuel")
                  (basse "Basses")
                  (timbales "Timbales" #:score-file "part-trompette-timbales.ly")
                  (basse-continue "Basse continue")))
-       ("Les Indes Galantes"
-        #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1757.")
-        #:key "Rameau/Opera/IndesGalantes"
+       ("Les Indes Galantes (1735 & sauvages)"
+        #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1735 et entrée des sauvages de 1736.")
+        #:key "Rameau/Opera/IndesGalantes1735"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
         #:main ((urtext "Version urtext"
-                        #:options "-durtext"
-                        #:score-file "main-1757.ly")
-                (concert "Version de concert"
-                         #:score-file "main-1757.ly"))
+                        #:options "-durtext")
+                (concert "Version de concert"))
+        #:parts ((dessus "Violons, Flûtes, Hautbois")
+                 (trompette "Trompette" #:score-file "part-tt.ly")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (basse "Basses")
+                 (timbales "Timbales" #:score-file "part-tt.ly")))
+       ("Les Indes Galantes (175x)"
+        #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 175x.")
+        #:key "Rameau/Opera/IndesGalantes175x"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
+        #:main ((urtext "Version urtext" #:options "-durtext")
+                (concert "Version de concert"))
         #:parts ((dessus "Violons, Flûtes, Hautbois")
                  (trompette "Trompette" #:score-file "part-tt.ly")
                  (haute-contre "Hautes-contre")

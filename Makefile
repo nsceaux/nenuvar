@@ -1562,85 +1562,165 @@ Rameau/Opera/HippolyteEtAricie-all: \
 
 .PHONY: Rameau/Opera/HippolyteEtAricie-delivery Rameau/Opera/HippolyteEtAricie-clean Rameau/Opera/HippolyteEtAricie-all
 
-### Les Indes Galantes
+### Les Indes Galantes (1735 & sauvages)
 # Version urtext
-Rameau/Opera/IndesGalantes-urtext:
+Rameau/Opera/IndesGalantes1735-urtext:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes-urtext -durtext \
-	Rameau/Opera/IndesGalantes/main-1757.ly
-.PHONY: Rameau/Opera/IndesGalantes-urtext
+	-o $(OUTPUT_DIR)/IndesGalantes1735-urtext -durtext \
+	Rameau/Opera/IndesGalantes1735/main.ly
+.PHONY: Rameau/Opera/IndesGalantes1735-urtext
 # Version de concert
-Rameau/Opera/IndesGalantes-concert:
+Rameau/Opera/IndesGalantes1735-concert:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes-concert  \
-	Rameau/Opera/IndesGalantes/main-1757.ly
-.PHONY: Rameau/Opera/IndesGalantes-concert
+	-o $(OUTPUT_DIR)/IndesGalantes1735-concert  \
+	Rameau/Opera/IndesGalantes1735/main.ly
+.PHONY: Rameau/Opera/IndesGalantes1735-concert
 # Violons, Flûtes, Hautbois
-Rameau/Opera/IndesGalantes-dessus:
+Rameau/Opera/IndesGalantes1735-dessus:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes-dessus -dpart=dessus  \
-	Rameau/Opera/IndesGalantes/part.ly
-.PHONY: Rameau/Opera/IndesGalantes-dessus
+	-o $(OUTPUT_DIR)/IndesGalantes1735-dessus -dpart=dessus  \
+	Rameau/Opera/IndesGalantes1735/part.ly
+.PHONY: Rameau/Opera/IndesGalantes1735-dessus
 # Trompette
-Rameau/Opera/IndesGalantes-trompette:
+Rameau/Opera/IndesGalantes1735-trompette:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes-trompette -dpart=trompette  \
-	Rameau/Opera/IndesGalantes/part-tt.ly
-.PHONY: Rameau/Opera/IndesGalantes-trompette
+	-o $(OUTPUT_DIR)/IndesGalantes1735-trompette -dpart=trompette  \
+	Rameau/Opera/IndesGalantes1735/part-tt.ly
+.PHONY: Rameau/Opera/IndesGalantes1735-trompette
 # Hautes-contre
-Rameau/Opera/IndesGalantes-haute-contre:
+Rameau/Opera/IndesGalantes1735-haute-contre:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes-haute-contre -dpart=haute-contre  \
-	Rameau/Opera/IndesGalantes/part.ly
-.PHONY: Rameau/Opera/IndesGalantes-haute-contre
+	-o $(OUTPUT_DIR)/IndesGalantes1735-haute-contre -dpart=haute-contre  \
+	Rameau/Opera/IndesGalantes1735/part.ly
+.PHONY: Rameau/Opera/IndesGalantes1735-haute-contre
 # Tailles
-Rameau/Opera/IndesGalantes-taille:
+Rameau/Opera/IndesGalantes1735-taille:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes-taille -dpart=taille  \
-	Rameau/Opera/IndesGalantes/part.ly
-.PHONY: Rameau/Opera/IndesGalantes-taille
+	-o $(OUTPUT_DIR)/IndesGalantes1735-taille -dpart=taille  \
+	Rameau/Opera/IndesGalantes1735/part.ly
+.PHONY: Rameau/Opera/IndesGalantes1735-taille
 # Basses
-Rameau/Opera/IndesGalantes-basse:
+Rameau/Opera/IndesGalantes1735-basse:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes-basse -dpart=basse  \
-	Rameau/Opera/IndesGalantes/part.ly
-.PHONY: Rameau/Opera/IndesGalantes-basse
+	-o $(OUTPUT_DIR)/IndesGalantes1735-basse -dpart=basse  \
+	Rameau/Opera/IndesGalantes1735/part.ly
+.PHONY: Rameau/Opera/IndesGalantes1735-basse
 # Timbales
-Rameau/Opera/IndesGalantes-timbales:
+Rameau/Opera/IndesGalantes1735-timbales:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes-timbales -dpart=timbales  \
-	Rameau/Opera/IndesGalantes/part-tt.ly
-.PHONY: Rameau/Opera/IndesGalantes-timbales
+	-o $(OUTPUT_DIR)/IndesGalantes1735-timbales -dpart=timbales  \
+	Rameau/Opera/IndesGalantes1735/part-tt.ly
+.PHONY: Rameau/Opera/IndesGalantes1735-timbales
 
-Rameau/Opera/IndesGalantes-delivery:
-	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantes
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-urtext.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-concert.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-dessus.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes-trompette.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-trompette.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-haute-contre.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-taille.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-basse.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes-timbales.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantes/IndesGalantes-midi.tar.gz $(OUTPUT_DIR)/IndesGalantes.midi $(OUTPUT_DIR)/IndesGalantes-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantes.midi ]; then cp $(OUTPUT_DIR)/IndesGalantes.midi $(DELIVERY_DIR)/Rameau/IndesGalantes/ ; fi
-	git archive --prefix=IndesGalantes/ HEAD Rameau/Opera/IndesGalantes common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/IndesGalantes/IndesGalantes.tar.gz
+Rameau/Opera/IndesGalantes1735-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantes1735
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-urtext.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-concert.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-dessus.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-trompette.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-trompette.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-haute-contre.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-taille.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-basse.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-timbales.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantes1735/IndesGalantes1735-midi.tar.gz $(OUTPUT_DIR)/IndesGalantes1735.midi $(OUTPUT_DIR)/IndesGalantes1735-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantes1735.midi ]; then cp $(OUTPUT_DIR)/IndesGalantes1735.midi $(DELIVERY_DIR)/Rameau/IndesGalantes1735/ ; fi
+	git archive --prefix=IndesGalantes1735/ HEAD Rameau/Opera/IndesGalantes1735 common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/IndesGalantes1735/IndesGalantes1735.tar.gz
 
-Rameau/Opera/IndesGalantes-clean:
-	@rm -f $(OUTPUT_DIR)/IndesGalantes-* $(OUTPUT_DIR)/IndesGalantes.*
+Rameau/Opera/IndesGalantes1735-clean:
+	@rm -f $(OUTPUT_DIR)/IndesGalantes1735-* $(OUTPUT_DIR)/IndesGalantes1735.*
 
-Rameau/Opera/IndesGalantes-all: \
-	Rameau/Opera/IndesGalantes-urtext \
-	Rameau/Opera/IndesGalantes-concert \
-	Rameau/Opera/IndesGalantes-dessus \
-	Rameau/Opera/IndesGalantes-trompette \
-	Rameau/Opera/IndesGalantes-haute-contre \
-	Rameau/Opera/IndesGalantes-taille \
-	Rameau/Opera/IndesGalantes-basse \
-	Rameau/Opera/IndesGalantes-timbales\
-	Rameau/Opera/IndesGalantes-delivery\
-	Rameau/Opera/IndesGalantes-clean
+Rameau/Opera/IndesGalantes1735-all: \
+	Rameau/Opera/IndesGalantes1735-urtext \
+	Rameau/Opera/IndesGalantes1735-concert \
+	Rameau/Opera/IndesGalantes1735-dessus \
+	Rameau/Opera/IndesGalantes1735-trompette \
+	Rameau/Opera/IndesGalantes1735-haute-contre \
+	Rameau/Opera/IndesGalantes1735-taille \
+	Rameau/Opera/IndesGalantes1735-basse \
+	Rameau/Opera/IndesGalantes1735-timbales\
+	Rameau/Opera/IndesGalantes1735-delivery\
+	Rameau/Opera/IndesGalantes1735-clean
 
-.PHONY: Rameau/Opera/IndesGalantes-delivery Rameau/Opera/IndesGalantes-clean Rameau/Opera/IndesGalantes-all
+.PHONY: Rameau/Opera/IndesGalantes1735-delivery Rameau/Opera/IndesGalantes1735-clean Rameau/Opera/IndesGalantes1735-all
+
+### Les Indes Galantes (175x)
+# Version urtext
+Rameau/Opera/IndesGalantes175x-urtext:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantes175x-urtext -durtext \
+	Rameau/Opera/IndesGalantes175x/main.ly
+.PHONY: Rameau/Opera/IndesGalantes175x-urtext
+# Version de concert
+Rameau/Opera/IndesGalantes175x-concert:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantes175x-concert  \
+	Rameau/Opera/IndesGalantes175x/main.ly
+.PHONY: Rameau/Opera/IndesGalantes175x-concert
+# Violons, Flûtes, Hautbois
+Rameau/Opera/IndesGalantes175x-dessus:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantes175x-dessus -dpart=dessus  \
+	Rameau/Opera/IndesGalantes175x/part.ly
+.PHONY: Rameau/Opera/IndesGalantes175x-dessus
+# Trompette
+Rameau/Opera/IndesGalantes175x-trompette:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantes175x-trompette -dpart=trompette  \
+	Rameau/Opera/IndesGalantes175x/part-tt.ly
+.PHONY: Rameau/Opera/IndesGalantes175x-trompette
+# Hautes-contre
+Rameau/Opera/IndesGalantes175x-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantes175x-haute-contre -dpart=haute-contre  \
+	Rameau/Opera/IndesGalantes175x/part.ly
+.PHONY: Rameau/Opera/IndesGalantes175x-haute-contre
+# Tailles
+Rameau/Opera/IndesGalantes175x-taille:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantes175x-taille -dpart=taille  \
+	Rameau/Opera/IndesGalantes175x/part.ly
+.PHONY: Rameau/Opera/IndesGalantes175x-taille
+# Basses
+Rameau/Opera/IndesGalantes175x-basse:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantes175x-basse -dpart=basse  \
+	Rameau/Opera/IndesGalantes175x/part.ly
+.PHONY: Rameau/Opera/IndesGalantes175x-basse
+# Timbales
+Rameau/Opera/IndesGalantes175x-timbales:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantes175x-timbales -dpart=timbales  \
+	Rameau/Opera/IndesGalantes175x/part-tt.ly
+.PHONY: Rameau/Opera/IndesGalantes175x-timbales
+
+Rameau/Opera/IndesGalantes175x-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantes175x
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes175x-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes175x-urtext.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes175x; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes175x-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes175x-concert.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes175x; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes175x-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes175x-dessus.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes175x; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes175x-trompette.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes175x-trompette.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes175x; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes175x-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes175x-haute-contre.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes175x; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes175x-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes175x-taille.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes175x; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes175x-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes175x-basse.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes175x; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes175x-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes175x-timbales.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes175x; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes175x-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantes175x/IndesGalantes175x-midi.tar.gz $(OUTPUT_DIR)/IndesGalantes175x.midi $(OUTPUT_DIR)/IndesGalantes175x-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantes175x.midi ]; then cp $(OUTPUT_DIR)/IndesGalantes175x.midi $(DELIVERY_DIR)/Rameau/IndesGalantes175x/ ; fi
+	git archive --prefix=IndesGalantes175x/ HEAD Rameau/Opera/IndesGalantes175x common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/IndesGalantes175x/IndesGalantes175x.tar.gz
+
+Rameau/Opera/IndesGalantes175x-clean:
+	@rm -f $(OUTPUT_DIR)/IndesGalantes175x-* $(OUTPUT_DIR)/IndesGalantes175x.*
+
+Rameau/Opera/IndesGalantes175x-all: \
+	Rameau/Opera/IndesGalantes175x-urtext \
+	Rameau/Opera/IndesGalantes175x-concert \
+	Rameau/Opera/IndesGalantes175x-dessus \
+	Rameau/Opera/IndesGalantes175x-trompette \
+	Rameau/Opera/IndesGalantes175x-haute-contre \
+	Rameau/Opera/IndesGalantes175x-taille \
+	Rameau/Opera/IndesGalantes175x-basse \
+	Rameau/Opera/IndesGalantes175x-timbales\
+	Rameau/Opera/IndesGalantes175x-delivery\
+	Rameau/Opera/IndesGalantes175x-clean
+
+.PHONY: Rameau/Opera/IndesGalantes175x-delivery Rameau/Opera/IndesGalantes175x-clean Rameau/Opera/IndesGalantes175x-all
 
 ### Suite des Indes Galantes
 # Conducteur
