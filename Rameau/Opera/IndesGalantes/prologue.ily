@@ -4,7 +4,11 @@
 %{ n°1 %}\newBookPart #'()
 \actn "Prologue"
 \sceneDescription\markup\wordwrap-center {
-  Le Theâtre représente le Palais \concat { d’ \smallCaps Hebé. }
+  \vA {
+    Le Theatre represente le Palais d'Hebé dans le fonds et ses jardins
+    dans les aîles.
+  }
+  \vB { Le Theâtre représente le Palais \concat { d’ \smallCaps Hebé. } }
 }
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"

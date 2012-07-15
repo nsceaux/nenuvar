@@ -313,3 +313,26 @@ doux =
 fort =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.5 "fort"))
+
+%%% options indes-version v1735 et v175x
+vA =
+#(define-music-function (parser location music) (ly:music?)
+   (if (eqv? (ly:get-option 'indes-version) 'v1735)
+       music
+       (make-music 'Music 'void)))
+
+vB =
+#(define-music-function (parser location music) (ly:music?)
+   (if (eqv? (ly:get-option 'indes-version) 'v175x)
+       music
+       (make-music 'Music 'void)))
+
+#(define-markup-command (vA layout props text) (markup?)
+   (if (eqv? (ly:get-option 'indes-version) 'v1735)
+       (interpret-markup layout props text)
+       empty-stencil))
+
+#(define-markup-command (vB layout props text) (markup?)
+   (if (eqv? (ly:get-option 'indes-version) 'v175x)
+       (interpret-markup layout props text)
+       empty-stencil))
