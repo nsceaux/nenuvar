@@ -1,4 +1,4 @@
-\clef "basse" r8 |
+\clef "basse" \vA r4 \vB r8 |
 re1~ |
 re~ |
 re |

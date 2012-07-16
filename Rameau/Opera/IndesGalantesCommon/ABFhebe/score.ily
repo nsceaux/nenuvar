@@ -2,25 +2,24 @@
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
       \modVersion\characterName "Hebé"
-      \origVersion s4^\markup\character Hebé
-      \global \includeNotes "voix"
+      \origVersion <>^\markup\character Hebé
+      \global \keepWithTag #'() \includeNotes "voix"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \modVersion\instrumentName "[B.C.]"
+      \modVersion {
+        \vB\instrumentName "[B.C.]"
+        \vA\instrumentName "B.C."
+      }
+      \vA\origVersion<>-"B.C."
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout {
-        s8 s1*3\break
-        s1*4\break
-        s1*2\pageBreak
-      }
+      \vA\origLayout { s4 s1*4\break s1*5\break }
+      \vB\origLayout { s8 s1*3\break s1*4\break s1*2\pageBreak }
     >>
   >>
   \layout {
-    indent = #(if (eqv? #t (ly:get-option 'urtext))
-                  smallindent
-                  largeindent)
-    ragged-last = #(eqv? #t (ly:get-option 'urtext))
+    ragged-last = #(and (eqv? #t (ly:get-option 'urtext))
+                        (eqv? 'v175x (ly:get-option 'indes-version)))
   }
   \midi { }
 }
