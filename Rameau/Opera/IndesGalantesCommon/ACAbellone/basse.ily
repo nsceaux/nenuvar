@@ -1,5 +1,6 @@
 \setMusic #'At {
-  r4^\markup\orig-version "Timbales" r8 re16 re re4. re16 re |
+  <>^\markup\orig-version { \vA Tymballes \vB Timbales }
+  r4 r8 re16 re re4. re16 re |
   re2 re |
   re r |
   r4 re8 re re re re re |
@@ -38,15 +39,15 @@
 }
 \setMusic #'Dt {
   r4 r2 |
-  r4
+  r4 r8
 }
 \setMusic #'Et {
-  r8 re16 re re4. re16 re |
+  re16 re re4. re16 re |
   re2 re |
   re re |
   re4 re8 re re re re re |
-  re4~ re16 re re re re re re re re re re re |
-  re2\fermata r4
+  \vA { re4.*5/6 } \vB { re4~ re16 } re re re re re re re re re re re |
+  re2-\vB\fermata r4
 }
 \setMusic #'Ft {
   r4 |
@@ -74,15 +75,15 @@
 }
 \setMusic #'Db {
   re8 re sol,4 la, |
-  re,
+  re,4.
 }
 \setMusic #'Eb {
-  r4 r2 |
+  r8 r2 |
   R1*4 |
   r2 r4
 }
 \setMusic #'Fb {
-  re'4^"[B.C.]" |
+  \vB<>^"[B.C.]" re'4 |
   dod' dod'8 si lad4 lad8 si |
   fad2 fad8 r re8 re |
   sol2 r4 mi8 mi |
@@ -106,9 +107,9 @@
   \tag #'basse { \Ab \Bb \Cb \Db \Eb \Fb \Gb }
   \tag #'conducteur {
     \At \Bb
-    s4*0_"Timbales" \Ct
+    s4*0_\markup { \vB Timbales \vA Tymb. } \Ct
     s4*0_"B.C." \Db
-    s4*0_"Timbales" \Et \Fb \Gt
+    s4*0_\markup { \vB Timbales \vA Tymb. } \Et \Fb \Gt
   }
 >>
 \origVersion\custosNote re1

@@ -1,6 +1,7 @@
 \setMusic #'Atrompette {
-  r4^\markup\orig-version "Trompettes et violons"
-  r8 re''16 re'' re''4. re''16 re'' |
+  \vA<>^\markup\orig-version "Trompette"
+  \vB<>^\markup "Trompettes et violons"
+  r4 r8 re''16 re'' re''4. re''16 re'' |
   re''4 fad''8 fad'' re'' re'' la' la' |
   re''4 re''8 mi'' fad''4 fad''8 sol'' |
   la''4 re'''8 re''' re''' re''' la'' la'' |
@@ -18,7 +19,7 @@
   r4 r8 mi''16 mi'' mi''4. mi''16 mi'' |
   mi''4 la''8 la'' la'' la'' mi'' mi'' |
   la''4. la'16 la' la'4. la'16 la' |
-  la'2 r |
+  la'2-\vA\trill r |
   R1*3 |
   r4 r8 fad''16 fad'' fad''4. fad''16 fad'' |
   fad''4 la''8 la'' fad'' fad'' re'' re'' |
@@ -26,12 +27,12 @@
   r4 re''8 re'' sol''2 |
   r4 sol''8 sol'' mi'' mi'' mi'' mi'' |
   la'4 fad''8 fad'' mi''4 la'' |
-  fad''4. la''16 la'' la''4. la''16 la'' |
+  fad''4.-\vA\trill la''16 la'' la''4. la''16 la'' |
   la''4 re'''8 re''' la'' la'' fad'' fad'' |
   re''4 la''8 la'' fad'' fad'' re'' re'' |
   la'4. re''16 re'' re''4. re''16 re'' |
-  re''4. re'16 re' re'4. re'16 re' |
-  re'2\fermata r4
+  re''4.-\vA\trill re'16 re' re'4. re'16 re' |
+  re'2-\vA\trill -\vB\fermata r4
 }
 \setMusic #'Arest {
   R1*21 |
@@ -41,12 +42,12 @@
 
 \setMusic #'BviolonI {
   fad''4 |
-  mi'' mi''8 re'' dod''4 dod''8 si' |
-  lad'4\trill dod''8 dod'' fad''2 |
-  r4 si'8 si' \tieDashed mi''2~ | \tieSolid
+  mi'' mi''8 re'' dod''4-\vA\trill dod''8 si' |
+  lad'4-\vB\trill dod''8 dod'' fad''2 |
+  r4 si'8 si' \vB { \once\tieDashed } mi''2~ |
   mi'' mi''4 fad'' |
-  \appoggiatura mi''8 re''2 re''4 si' |
-  si'2 si'4 lad' |
+  \appoggiatura mi''8 re''2 re''4 \vA\appoggiatura dod''8 si'4 |
+  si'2 si'4 lad'-\vA\trill |
   si' sol''8 sol'' sol''4 si''8 si'' |
   si''2 si''4 re''' |
   la''2 la''4 sold'' |
@@ -55,9 +56,9 @@
 }
 \setMusic #'BviolonII {
   si'4 |
-  lad' lad'8 si' fad'4 mi'8 re' |
+  lad'-\vA\trill lad'8 si' fad'4 mi'8 re' |
   dod'4 lad'8 lad' si'2 |
-  r4 re'8 re' \tieDashed sol'2~ | \tieSolid
+  r4 re'8 re' \vB { \once\tieDashed } sol'2~ |
   sol' lad'4 dod'' |
   fad'2 fad'4 fad' |
   sol'2 sol'4 dod' |
@@ -79,7 +80,7 @@
   la'2 r |
 }
 \setMusic #'Crest {
-  r4 r2 |
+  r8 r2 |
   R1*2
 }
 %%%
@@ -87,13 +88,23 @@
   \clef "dessus"
   \tag #'dessus1 {
     \Atrompette
-    s4*0^"Violons" \BviolonI
-    s4*0^"Trompettes" \Ctrompette
+    <>^"Violons" \BviolonI
+    <>^"Trompettes" \Ctrompette
   }
   \tag #'dessus2 {
     \Arest
-    s4*0^\markup\whiteout "Violons" \BviolonII
+    <>^\markup\whiteout "Violons" \BviolonII
     \Ctrompette
+  }
+  \tag #'violon1 {
+    \Arest
+    <>^\markup\whiteout "Violons" \BviolonI
+    \Crest
+  }
+  \tag #'violon2 {
+    \Arest
+    <>^\markup\whiteout "Violons" \BviolonII
+    \Crest
   }
   \tag #'trompette { \Atrompette \Brest \Ctrompette }
 >>

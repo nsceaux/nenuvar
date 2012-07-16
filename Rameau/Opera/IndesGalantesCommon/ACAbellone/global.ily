@@ -4,7 +4,7 @@ s1*21
 \modVersion { \segnoMark \bar "||" }
 \origVersion {
   s4*0^\markup\musicglyph #"scripts.segno"
-  \markUpBegin\mark "Reprise"
+  \vB { \markUpBegin\mark "Reprise" }
 }
 s1*14
 \modVersion { s2. \fineMark \bar "|." }
@@ -16,4 +16,5 @@ s4 s1*13
   \once\override TextScript #'extra-offset = #'(0 . -4)
   s2^\markup\musicglyph #"scripts.segno"
 }
-\bar "|."
+\vB\bar "|."
+\vA { \origVersion\bar "|:|" \modVersion\bar "|." }
