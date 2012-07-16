@@ -10,7 +10,7 @@
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
 
-%{ n°2 %}\newBookPart #'(full-rehearsal)
+%{ n°2 %}
 \scene "Scene Première" "Scene 1 : Hebé"
 \sceneDescription\markup\wordwrap-center\smallCaps { Hebé }
 \pieceToc\markup\wordwrap {
@@ -18,7 +18,7 @@
 }
 \includeScore "AABhebe"
 
-%{ n°3 %}\newBookPart #'(full-rehearsal)
+%{ n°3 %}
 \scene "[Scene II]" \markup\wordwrap { Scene 2 : Hebé, suite d’Hebé }
 \sceneDescription\markup\wordwrap-center {
   \smallCaps [Hebé, Troupe de Jeunesse Françoise, Espagnole,
@@ -27,11 +27,11 @@
 \pieceTocTitle "Entrée de la suite d’Hebé"
 \includeScore "ABAentree"
 
-%{ n°4 %}\newBookPart #'(full-rehearsal)
+%{ n°4 %}
 \pieceToc\markup\wordwrap { HEBÉ : \italic { Amants, surs de plaire } }
 \includeScore "ABBhebe"
 
-%{ n°5 %}\newBookPart #'(full-rehearsal)
+%{ n°5 %}
 \pieceTocTitle "Air grave pour deux Polonois"
 \includeScore "ABCair"
 
@@ -43,7 +43,7 @@
 \pieceTocTitle "Second menuet"
 \includeScore "AEFmenuet"
 
-%{ n°8 %}\newBookPart #'(full-rehearsal)
+%{ n°8 %}
 \pieceToc\markup\wordwrap {
   HEBÉ, CHŒUR : \italic { Musettes, résonnez dans ce riant Boccage }
 }
@@ -66,13 +66,17 @@
 }
 
 %{ n°10 %}
+\pieceTocTitle "Air vif"
+\includeScore "ABFair"
+
+%{ n°11 %}
 \pieceToc\markup\wordwrap {
   HEBÉ :  \italic { Qu’entends-je ? les Tambours font taire nos Musettes ! }
 }
 \includeScore "ABFhebe"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°9 %}\newBookPart #'(full-rehearsal)
+%{ n°11 %}
 \scene "[Scene III]" "Scene 3 : Bellone, Hebé & sa suite"
 \sceneDescription\markup\left-align\center-column {
   \line { \smallCaps [Bellone, \smallCaps Hébé et sa suite.]}
@@ -136,7 +140,7 @@
 \pieceTocTitle "Air pour les Amours"
 \includeScore "AEDair"
 
-%{ n°20 %}\newBookPart #'(full-rehearsal)
+%{ n°20 %}
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :
   \italic { Traversez les plus vastes Mers } }
 \includeScore "AEGamourHebe"
