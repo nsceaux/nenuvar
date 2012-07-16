@@ -49,18 +49,23 @@
 }
 \includeScore "ABDhebeChoeur"
 
-%{ n°7 %}
+%{ n°9 %}
 \sceneDescription\markup\wordwrap-center {
   [Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
   interrompues par le bruit des Tambours.]
 }
-\pieceTocTitle "Musette"
+\pieceToc "Musette en rondeau"
 \includeScore "ABErondeau"
-\sceneDescriptionBottom\markup\wordwrap-center {
-  Bruit de Tambours qui interrompt le Ballet.
+\markup\fill-line {
+  \score {
+    \new Staff \with { instrumentName = \markup\larger "Timbale seule" } {
+      \clef "bass" r8 re16 re re4 la,8 la,16 la, la, la, la, la, | re2
+    }
+    \layout { }
+  }
 }
 
-%{ n°8 %}
+%{ n°10 %}
 \pieceToc\markup\wordwrap {
   HEBÉ :  \italic { Qu’entends-je ? les Tambours font taire nos Musettes ! }
 }

@@ -1,5 +1,5 @@
 \setMusic #'rondeau {
-  sol,4_"Tous" |
+  sol,4-\vA-\markup\orig-version "Basses" -\vB_"Tous" |
   sol,2.~ |
   sol,~ |
   sol,~ |

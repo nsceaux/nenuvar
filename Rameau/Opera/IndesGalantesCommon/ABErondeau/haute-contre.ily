@@ -1,7 +1,7 @@
 \setMusic #'rondeau {
   re'4 |
   re'2~ re'8 sol' |
-  re'4 sol2 |
+  \vA { \appoggiatura fad'8 mi'4 } \vB re'4 sol2 |
   re'~ re'8 sol' |
   fad'2\trill sol'8( fad') |
   sol'( re') re'4. sol'8 |

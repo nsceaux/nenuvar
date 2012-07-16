@@ -2,11 +2,11 @@
   re'4 |
   re'2. |
   do'4 sol2 |
-  sol8( sol') fad'( sol') do'( si) |
-  la2\trill si8 re' |
+  sol8( sol') fad'( sol') do'-\vB( si-\vB) |
+  la2\trill si8-\vA( re'-\vA) |
   re'2. |
   do'4 sol2 |
-  sol8( do') si( la) re'4 |
+  sol8( do') si(-\vA\trill la) re'4 |
   re'2
 }
 %%
