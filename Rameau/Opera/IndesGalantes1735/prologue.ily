@@ -35,7 +35,15 @@
 \pieceTocTitle "Air grave pour deux Polonois"
 \includeScore "ABCair"
 
-%{ n°6 %}\newBookPart #'(full-rehearsal)
+%{ n°6 %}
+\pieceTocTitle "Premier menuet"
+\includeScore "AEEmenuet"
+\noPageTurn
+%{ n°7 %}
+\pieceTocTitle "Second menuet"
+\includeScore "AEFmenuet"
+
+%{ n°8 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   HEBÉ, CHŒUR : \italic { Musettes, résonnez dans ce riant Boccage }
 }
@@ -84,14 +92,6 @@
 }
 \pieceTocTitle "Air pour deux guerriers"
 \includeScore "ACCair"
-
-%{ n°11 %}
-\pieceTocTitle "Premier menuet"
-\includeScore "AEEmenuet"
-\noPageTurn
-%{ n°12 %}
-\pieceTocTitle "Second menuet"
-\includeScore "AEFmenuet"
 
 %{ n°11 %}
 \pieceToc\markup\wordwrap { BELLONE :

@@ -4,9 +4,16 @@
       %% Hebé
       \new Staff \with { \haraKiri } \withLyrics <<
         \global \keepWithTag #'conducteur \includeNotes "hebe"
+        \vA {
+          s4 s2.*35
+          <>^\markup\character Hebé
+          s2.*13
+          <>^\markup\character Hebé
+        }
       >> \keepWithTag #'hebe \includeLyrics "paroles"
       %% Chœur
       \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \vA { s4 s2.*41 <>^\markup\character Chœur }
         \global \keepWithTag #'conducteur \includeNotes "voix-dessus"
       >> \keepWithTag #'vdessus \includeLyrics "paroles"
       \new Staff \with { \haraKiriFirst } \withLyrics <<
@@ -20,39 +27,81 @@
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
       %% Flutes
       \new Staff \with { \haraKiriFirst } <<
-        { s8 s2.*14 s2.*15^"Petites flutes" s2 \startHaraKiri }
+        \vA { s8 s2.*16 <>_"petite flute" s2.*13 s2 \startHaraKiri }
+        \vB { s8 s2.*14 s2.*15^"Petites flutes" s2 \startHaraKiri }
         \global \keepWithTag #'flute1 \includeNotes "dessus"
       >>
       \new Staff \with { \haraKiriFirst } <<
-        { s8 s2.*14 s2.*15^"Petites flutes" s2 \startHaraKiri }
+        \vA { s8 s2.*16 <>_"petite flute" s2.*13 s2 \startHaraKiri }
+        \vB { s8 s2.*14 s2.*15^"Petites flutes" s2 \startHaraKiri }
         \global \keepWithTag #'flute2 \includeNotes "dessus"
       >>
       %% Musettes, dessus
       \new Staff <<
-        \global \keepWithTag #'dessus1 \includeNotes "dessus"
+        \global
+        \vA\keepWithTag #'conducteur1-1735 \includeNotes "dessus"
+        \vB\keepWithTag #'dessus1 \includeNotes "dessus"
+        \vA {
+          <>^"Musettes"
+          s8 s2.*2
+          <>_\markup\center-align\line {
+            Le Bourdon aux Basses et aux parties h.c. et t. partout ou les
+            musettes joüent jusqu'au chœur
+          }
+          \voiceOne
+          \new Voice \notemode { \voiceTwo <re' sol>2. }
+          \oneVoice
+          s2.*11
+          <>_"musette" s2.*2
+          <>_"musette" s2.*32 s2
+        }
       >>
-      \new Staff <<
-        \global \keepWithTag #'dessus2 \includeNotes "dessus"
+      \new Staff \with { \haraKiriFirst } <<
+        \global
+        \vA\keepWithTag #'conducteur2-1735 \includeNotes "dessus"
+        \vB\keepWithTag #'dessus2 \includeNotes "dessus"
+        \vA {
+          s8 s2.*16 <>_"musette"
+          s2.*13 s2
+          \startHaraKiri s4 s2.*5
+          \stopHaraKiri s2.*13
+          \startHaraKiri
+        }
+        \vB\noHaraKiri
       >>
       %% Hautes-contre, tailles
-      \new Staff <<
+      \vA\new Staff \with { \haraKiriFirst } <<
+        { \startHaraKiri s4 s2.*30 \stopHaraKiri
+          s2.*11 <>^"h.c. et tailles"
+          s2.*18 <>^"h.c." _"Tailles"
+        }
+        \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+      >>
+      \vB\new Staff <<
         \global \keepWithTag #'haute-contre \includeNotes "haute-contre-taille"
       >>
-      \new Staff <<
+      \vB\new Staff <<
         \global \keepWithTag #'taille \includeNotes "haute-contre-taille"
       >>
       %% Basses
       \new Staff \with { \haraKiriFirst } <<
         \global \keepWithTag #'basson \includeNotes "basse"
+        \vA {
+          s4 s2.*41 \startHaraKiri
+        }
       >>
       \new Staff \with { \haraKiriFirst } <<
         \global \keepWithTag #'basse \includeNotes "basse"
-        \origLayout {
-          s8 s2.*4\break
-          s2.*5\break
-          s2.*5\pageBreak
-          s2.*6\break
-          s2.*5\pageBreak
+        \vA\origLayout {
+          s8 s2.*6\break s2.*4\break s2.*6\break s2.*6\pageBreak
+          s2.*7 s2 \bar "" \break s4 s2.*5\pageBreak
+          s2.*6\break s2.*7\pageBreak
+          s2.*5\break s2.*5\pageBreak
+          s2.*3 s2\pageBreak
+        }
+        \vB\origLayout {
+          s8 s2.*4\break s2.*5\break s2.*5\pageBreak
+          s2.*6\break s2.*5\pageBreak
           s2.*4 s2 \bar "" \pageBreak
           s4 s2.*3 s2 \bar "" \pageBreak
           s4 s2.*5 \pageBreak
@@ -68,7 +117,11 @@
     \modVersion\new StaffGroupNoBar <<
       %% Flutes
       \new GrandStaff \with {
-        instrumentName = \markup { [Petites flutes] \hspace #5 }
+        instrumentName = \markup {
+          \vA { Petites flutes }
+          \vB { [Petites flutes] }
+          \hspace #5
+        }
         shortInstrumentName = "fl" }
       <<
         \new Staff \with { \haraKiriFirst } <<
@@ -82,7 +135,7 @@
       >>
       %% Musettes, dessus
       \new GrandStaff \with {
-        instrumentName = \markup { [Musettes] \hspace #5 }
+        instrumentName = \markup { \vA Musettes \vB [Musettes] \hspace #5 }
         shortInstrumentName = "mus" }
       <<
         \new Staff <<

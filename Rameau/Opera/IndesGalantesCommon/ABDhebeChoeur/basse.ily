@@ -1,11 +1,15 @@
 \clef "basse" r8 |
 R2.*29 |
-r4 r r-\tag #'basse -"Tous" -\tag #'basson -\markup\whiteout "Bassons"
+r4 r
+\vB<> -\tag #'basse -"Tous" -\tag #'basson -\markup\whiteout "Bassons"
+\vA<> -\tag #'basse -"B.C." -\tag #'basson ^\markup\whiteout "Bassons"
+r
 \tag #'basse {
   sol,2.~ |
   sol,~ |
   sol, |
-  << \origVersion { re,2~ re,4 } \modVersion re,2. >> |
+  \vA re,2.
+  \vB << \origVersion { re,2~ re,4 } \modVersion re,2. >> |
   sol,2
 }
 \tag #'basson {

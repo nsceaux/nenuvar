@@ -6,7 +6,7 @@ r8 | R2.*2 |
 \tag #'haute-contre \rp#10 re'2. |
 \tag #'taille \rp#10 sol2. |
 \tag #'conducteur \ru#10 <sol re'>2. |
-re'2 r4 |
+<re' \vA sol>2 r4 |
 R2. |
 \tag #'haute-contre \rp#7 re'2.
 \tag #'taille \rp#7 sol2.
@@ -15,7 +15,8 @@ R2. |
 \tag #'haute-contre { \rp#7 re'2. | re'2 }
 \tag #'taille { \rp#7 sol2. | sol2 }
 \tag #'conducteur { \ru#7 <sol re'>2. | <sol re'>2 }
-r4-\tag #'conducteur ^\markup\whiteout "[Hautes-contre et tailles]"|
+r4-\tag #'conducteur ^\markup\whiteout\vA "H[autes]-c[ontre] et tailles"
+-\tag #'conducteur ^\markup\whiteout\vB "[Hautes-contre et tailles]" |
 r4 r r8 sol'8 |
 si'2 si'8 si' |
 re''2 si'8 si' |
@@ -24,7 +25,7 @@ re'2 r4 |
 R2.*6 |
 r4 r8 do' si la |
 sol4 sol' do''8 si' |
-re''4. do''8 si'8.( la'16) |
+re''4.-\vA( do''8-\vA) si'8.( la'16) |
 sol'4.( re'8) re'4 |
 re'2 fad'4 |
 sol'8( re') mi'( si) do'( sol) |
@@ -41,4 +42,4 @@ r4 r sol'4 |
 sol'4. sol'8
 \tag #'haute-contre { do''4 | si'2 }
 \tag #'taille { re'4 | re'2 }
-\tag #'conducteur { <re' do''>4 | <re' si'>2 }
+\tag #'conducteur << { do''4 si'2 } \\ { re'4 re'2 } >>

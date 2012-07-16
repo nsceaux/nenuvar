@@ -5,7 +5,7 @@ r4 r r8 sol |
 si4 si8 r si si |
 re'2 si'8 si' |
 la'2 la'8 la' |
-re'2 r4 |
+\vA re'2. \vB { re'2 r4 } |
 R2.*6 |
 r4 r8 fad' sol' la' |
 re'2 re'8 sol' |
