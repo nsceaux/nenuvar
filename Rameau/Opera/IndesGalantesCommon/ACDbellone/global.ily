@@ -9,12 +9,13 @@ s1
 }
 \origVersion {
   <>_\markup\musicglyph #"scripts.segno"
-  s1*15
+  \vA s1*14 \vB s1*15
   \alternatives {
-    s1*2
+    \vA s1*3 \vB s1*2
     s2 \once\override TextScript #'extra-offset = #'(0 . -4)
     s2^\markup\musicglyph #"scripts.segno"
   }
-  s1*2
+  { \vA s1 \vB s1*2 }
+  \vA s1
 }
 \bar "|."

@@ -1,4 +1,4 @@
-\clef "vbasse" re2^\markup\orig-version\character Bellonne la, |
+\clef "vbasse" re2^\markup\orig-version\character Bellone la, |
 re re4 r |
 fad2. la4 |
 fad2\trill fad4. re8 |
@@ -23,7 +23,7 @@ fad4. fad8 re4. re8 |
 la1~ |
 la |
 r2 r4 la |
-la4.\melisma do'8 si[ re' dod' mi']( |
+la4.-\vA(\melisma do'8-\vA) si[ re' dod' mi']( |
 re'2.)\melismaEnd re'4 |
 fad re fad sol |
 la2( la,) |

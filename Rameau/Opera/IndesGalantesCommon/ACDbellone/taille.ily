@@ -9,7 +9,7 @@ la'2. re''4 |
 dod''8 re'' dod'' si' la' sold' la'4 |
 dod'2 dod' |
 dod'1\trill |
-dod' |
+dod'-\vA\trill |
 R1 |
 R1 |
 la2 do' |
@@ -29,4 +29,4 @@ la1 |
 R1 |
 \origVersion s1
 la2 la |
-la1\trill |
+la1-\vB\trill |

@@ -8,7 +8,7 @@ fad'4 mi'8 re' mi'4 la' |
 la'2. re''4 |
 dod''8 re'' dod'' si' la' sold' la'4 |
 mi'2 mi' |
-mi'1\trill |
+mi'1-\vB\trill |
 mi' |
 R1 |
 R1 |

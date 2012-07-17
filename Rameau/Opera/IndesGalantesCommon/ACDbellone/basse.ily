@@ -1,4 +1,6 @@
-\clef "basse" <>-\tag #'timbales ^\markup\orig-version "Timbales"
+\clef "basse"
+<>-\tag #'timbales ^\markup\orig-version { \vA Tymballes \vB Timbales }
+-\tag #'basse ^\markup\orig-version\vA Basses
 R1*3 |
 r4 re8 re re re re re |
 << \tag #'timbales re2 \tag #'basse re, >> r2 |
@@ -23,7 +25,7 @@ R1 |
 R1 |
 R1 |
 <<
-  \tag #'timbales { R1*6 | r4 r16*2 }
+  \tag #'timbales { R1*6 | r4 \vA r8 \vB r16*2 }
   \tag #'basse { |
     la,2 la, |
     mi, r |
@@ -34,13 +36,14 @@ R1 |
     la,4. 
   }
 >>
-la,16*2/3 la, la, la,4. la,16*2/3 la, la, |
+\vA { la,32*4/3 la, la, la,4. la,32*4/3 la, la, }
+\vB { la,16*2/3 la, la, la,4. la,16*2/3 la, la, } |
 la,2 la, |
 la, r |
 R1 |
 <<
   \tag #'timbales {
-    r2 r4 r16 re re re |
+    r2 r4 \vA { r8 re32*4/3 re re } \vB { r16 re re re } |
     re2 r
   }
   \tag #'basse {
@@ -59,8 +62,8 @@ la,2 la, |
   }
   \tag #'basse {
     re,1 |
-    \origVersion s1
     R1*2 |
+    \origVersion s1
     re,1 |
     R1
   }
