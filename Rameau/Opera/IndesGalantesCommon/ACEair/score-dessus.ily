@@ -1,12 +1,24 @@
 \score {
   \new StaffGroup <<
-    \new Staff <<
-      \instrumentName "Flutes"
-      \global \includeNotes "flute"
+    \vA <<
+      \new Staff \with { \consists "Metronome_mark_engraver" } <<
+        \instrumentName "Flutes"
+        \global \includeNotes "flute"
+      >>
+      \new Staff <<
+        \instrumentName "Violons"
+        \global \includeNotes "violon"
+      >>
     >>
-    \new Staff \with { \consists "Metronome_mark_engraver" } <<
-      \instrumentName "Violons"
-      \global \includeNotes "violon"
+    \vB <<
+      \new Staff <<
+        \instrumentName "Flutes"
+        \global \includeNotes "flute"
+      >>
+      \new Staff \with { \consists "Metronome_mark_engraver" } <<
+        \instrumentName "Violons"
+        \global \includeNotes "violon"
+      >>
     >>
   >>
   \layout {

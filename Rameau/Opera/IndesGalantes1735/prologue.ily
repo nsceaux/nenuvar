@@ -102,51 +102,51 @@
 \pieceTocTitle "Air pour deux guerriers portant les drapeaux"
 \includeScore "ACCair"
 
-%{ n°11 %}
+%{ n°13 %}
 \pieceToc\markup\wordwrap { BELLONE :
   \italic { C’est la gloire Qui rend les heros immortels } }
 \includeScore "ACDbellone"
 
-%{ n°12 %}
-\pieceTocTitle "Air pour les amants et amantes"
+%{ n°14 %}
+\pieceTocTitle "Air pour les amans et amantes"
 \includeScore "ACEair"
 
-%{ n°13 %}
+%{ n°15 %}
 \pieceToc\markup\wordwrap { CHŒUR : \italic { Vous nous abandonnez } }
 \includeScore "ACFchoeur"
 
-%{ n°14 %}
+%{ n°16 %}
 \scene "[Scene IV]" "Scene 4 : Hebé"
 \sceneDescription\markup\wordwrap-center { \smallCaps [Hebé] }
 \pieceToc\markup\wordwrap { HEBÉ : \italic { Bellonne les entraîne } }
 \includeScore "ADAhebe"
 
-%{ n°15 %}
+%{ n°17 %}
 \scene "[Scene V]" "Scene 5 : L’Amour, Hebé et sa suite"
 \pieceTocTitle "Annonce de l’Amour"
 \includeScore "AEAannonce"
 
-%{ n°16 %}
+%{ n°18 %}
 \pieceToc\markup\wordwrap { L’AMOUR, HEBÉ :
   \italic { Pourquoy Mars à l’Amour declare-t-il la guerre ? } }
 \includeScore "AEBamourHebe"
 
-%{ n°17 %}
+%{ n°19 %}
 \pieceToc\markup\wordwrap { L’AMOUR :
   \italic { Ranimez vos flambeaux, remplissez vos carquois } }
 \includeScore "AECamour"
 
-%{ n°18 %}
+%{ n°20 %}
 \pieceTocTitle "Air pour les Amours"
 \includeScore "AEDair"
 
-%{ n°20 %}
+%{ n°21 %}
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :
   \italic { Traversez les plus vastes Mers } }
 \includeScore "AEGamourHebe"
 \includeScore "AEHchoeur"
 
-%{ n°21 %}
+%{ n°22 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"
 \reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
 "AAAouverture" "AEIouverture"
