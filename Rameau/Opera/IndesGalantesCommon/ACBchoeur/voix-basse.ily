@@ -5,7 +5,7 @@ re'2 re'4 la |
 re'2 re'4 r |
 R1*3 |
 r4 la8 sol fad4 mi8 re |
-dod1 |
+dod1-\vA\trill |
 re4 re8 re re4 re |
 la,1 |
 R1 |

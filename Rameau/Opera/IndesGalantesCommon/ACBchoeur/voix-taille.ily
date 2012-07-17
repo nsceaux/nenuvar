@@ -17,7 +17,7 @@ la2 la4 r |
 R1 |
 r2 r4 la8 la |
 re'2 r4 si8 si |
-dod'4 dod'8 dod' dod'2 |
+dod'4 \vA { mi'8 mi' mi'2 } \vB { dod'8 dod' dod'2 } |
 fad'4 fad'8 fad' sol'4 mi' |
 fad'1 |
 R1*3 |

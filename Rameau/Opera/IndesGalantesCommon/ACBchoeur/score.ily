@@ -13,20 +13,23 @@
       \new Staff \withLyrics <<
         \global \keepWithTag #'conducteur \includeNotes "voix-basse"
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
-      \new Staff <<
+      \new Staff \with { \haraKiriFirst } <<
+        \vB\noHaraKiri
+        \vA { \startHaraKiri s4 s1*4 \stopHaraKiri <>^"Tromp." }
         \global \keepWithTag #'trompette \includeNotes "dessus"
       >>
       \new Staff <<
+        \vA { s4 s1*3 s4. <>^"Tromp." s8 s2 <>^"Violons" }
         \global \keepWithTag #'violons \includeNotes "dessus"
       >>
       \new Staff <<
         \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
       >>
-      \new Staff \with { \haraKiriFirst } <<
+      \vB\new Staff \with { \haraKiriFirst } <<
         { s4 s1*5 \startHaraKiri }
         \global \keepWithTag #'timbales \includeNotes "basse"
       >>
-      \new Staff <<
+      \vB\new Staff <<
         \global \keepWithTag #'basse \includeNotes "basse"
         \origLayout {
           s4 s1*5\pageBreak
@@ -35,6 +38,16 @@
           s1*5\break
           s1*4\pageBreak
           s1*3\break
+        }
+      >>
+      \vA\new Staff <<
+        \global \keepWithTag #'conducteur \includeNotes "basse"
+        \origLayout {
+          s4 s1*4\pageBreak
+          s1*5\pageBreak
+          s1*6\pageBreak
+          s1*6\pageBreak
+          s1*5\break
         }
       >>
     >>
@@ -54,7 +67,8 @@
           \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
         >>
         \new Staff <<
-          \instrumentName "Timbales"
+          \vA\instrumentName "Tymbales"
+          \vB\instrumentName "Timbales"
           \global \keepWithTag #'timbales \includeNotes "basse"
         >>
       >>
@@ -73,7 +87,8 @@
         >> \keepWithTag #'vbasse \includeLyrics "paroles"
       >>
       \new Staff <<
-        \instrumentName "[Basses]"
+        \vA\instrumentName "B.C."
+        \vB\instrumentName "[Basses]"
         \global \keepWithTag #'basse \includeNotes "basse"
       >>
     >>

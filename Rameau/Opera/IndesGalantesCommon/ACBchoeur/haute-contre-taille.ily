@@ -1,6 +1,9 @@
 \tag #'(conducteur haute-contre) \clef "haute-contre"
 \tag #'taille \clef "taille"
-fad'4-\tag #'conducteur ^\markup\orig-version { haute-c[ontre] et taille } |
+fad'4-\tag #'conducteur ^\markup\orig-version {
+  \vB { haute-c[ontre] et taille }
+  \vA { h.c. et Taille }
+} |
 fad'2 fad'8 r fad' fad' |
 mi'2 r4 la'8 la' |
 la'2 la'4 la' |
@@ -13,7 +16,7 @@ mi'1 |
 R1 |
 r2 r4 fad' |
 fad'2 fad'4 la'8 si' |
-\myfootnote #'NoteHead #'(0 . 3.5) \markup\column {
+\vB\myfootnote #'NoteHead #'(0 . 3.5) \markup\column {
   \line {
     Manuscrit 1757 : \raise #3 \score {
       { \tinyQuote \key re \major \time 2/2 \clef "soprano"
@@ -28,8 +31,7 @@ fad'2 fad'4 la'8 si' |
       \layout { \quoteLayout }
     } Version retenue, par analogie avec les mesures 2 à 5.
   }
-}
-mi'2 r4 la8 la |
+} mi'2 \vA mi'2 r4 la8 la |
 la'2 la'4 la' |
 la'1 |
 R1 |
@@ -38,6 +40,5 @@ fad'2 r4 re''8 re'' |
 dod''1 |
 re''4 re'8 re' mi'4 la |
 la1 |
-la |
-la |
-la |
+\vA R1*3
+\vB { la1 | la | la | }
