@@ -1,10 +1,13 @@
 \score {
   <<
     \origVersion\new StaffGroupNoBar <<
-      \new Staff \with { \haraKiri } <<
+      \vA\new Staff \with { \haraKiri } <<
+        \global \keepWithTag #'conducteur \includeNotes "flute"
+      >>
+      \vB\new Staff \with { \haraKiri } <<
         \global \keepWithTag #'flute1 \includeNotes "flute"
       >>
-      \new Staff \with { \haraKiriFirst } <<
+      \vB\new Staff \with { \haraKiriFirst } <<
         \global \keepWithTag #'flute2 \includeNotes "flute"
         { \startHaraKiri s4 s2.*7 s1*2 s2.*7
           \stopHaraKiri s2.*5 \startHaraKiri }
@@ -17,14 +20,14 @@
       >> \includeLyrics "paroles"
       \new Staff \with { \haraKiriFirst } <<
         \global \includeNotes "basse"
-        \includeFigures "chiffres"
-        \origLayout {
-          s4 s2.*5\break
-          s2.*2 s4 \bar "" \break
-          s2. s1 s2 \bar "" \pageBreak
-          s4 s2.*5 s4 \bar "" \break
-          s2 s2.*5 s2 \bar "" \break
-          s4 s2.*7\break
+        \vB\includeFigures "chiffres"
+        \vA\origLayout {
+          s4 s2.*7 s4 \bar "" \break s2. s1 s2 \bar "" \pageBreak
+          s4 s2.*8\break s2.*7\break s2.*4\pageBreak
+        }
+        \vB\origLayout {
+          s4 s2.*5\break s2.*2 s4 \bar "" \break s2. s1 s2 \bar "" \pageBreak
+          s4 s2.*5 s4 \bar "" \break s2 s2.*5 s2 \bar "" \break s4 s2.*7\break
         }
       >>
     >>
@@ -49,15 +52,10 @@
       >> \includeLyrics "paroles"
       \new Staff \with { \haraKiriFirst } <<
         \global \includeNotes "basse"
-        \includeFigures "chiffres"
+        \vB\includeFigures "chiffres"
       >>
     >>
   >>
-  \layout {
-    indent = #(if (eqv? #t (ly:get-option 'urtext))
-                  smallindent
-                  largeindent)
-    ragged-last = #(eqv? #t (ly:get-option 'urtext))
-  }
+  \layout { }
   \midi { }
 }

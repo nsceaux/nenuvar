@@ -1,17 +1,17 @@
 \clef "dessus" r4^\markup\orig-version violons |
 r4 r sol''4_\doux |
-fad''8.( sol''16) fad''8.( mi''16) re''8.( fa''16) |
-mi''8.( fa''?16) mi''8.( re''16) do''8.( mi''16) |
+fad''8.(-\vA\trill sol''16) fad''8.( mi''16) re''8.( fa''16) |
+mi''8.( \vA fa''16) \vB fa''?16) mi''8.( re''16) do''8.( mi''16) |
 re''8.( mi''16) fad''8.( sol''16) la''8.( fad''16) |
 sol''4 re''8.( do''16) si'8.( sol'16) |
 re''2 re''4 |
-sol''2~ sol''8 fad''16 sol'' |
+sol''2~ sol''8-\vA( fad''16 sol''-\vA) |
 fad''4\trill r r2 |
 R1 |
 <<
   \origVersion {
-    r4 r
-    \myfootnote #'TextScript #'(0.5 . 0) \markup {
+    r4 r \vA r4^"violons"_\doux
+    \vB \myfootnote #'Rest #'(-0.5 . 1.5) \markup {
       \column {
         \line {
           Le manuscrit 1757 indique : \italic flutes.
@@ -26,27 +26,27 @@ R1 |
         }
         \layout { \quoteLayout }
       }
-    }
-    r4^"[violons]"
+    } r4^"[violons]"
   }
   \modVersion R2.
 >> |
-r4 r sol''4_\doux |
-fad''8.( sol''16) fad''8.( mi''16) re''8.( fa''16) |
+r4 r sol''4-\vB_\doux |
+fad''8.(-\vA\trill sol''16) fad''8.( mi''16) re''8.( fa''16) |
 mi''8.( fa''16) mi''8.( re''16) do''8.( mi''16) |
 re''8.( mi''16) fad''8.( sol''16) la''8.( fad''16) |
 sol''4 re''8.( do''16) si'8.( sol'16) |
-<< \origVersion { re''4~ re''2 } \modVersion re''2. >> |
-sol''2~ sol''8 fad''16 sol'' |
+\vA re''2.
+\vB << \origVersion { re''4~ re''2 } \modVersion re''2. >> |
+sol''2~ sol''8-\vA( fad''16 sol''-\vA) |
 fad''2\trill r4 |
-la'8. si'16 la'8. si'16 la'8 si'16 la' |
+la'8.-\vA( si'16-\vA) la'8.-\vA( si'16-\vA) \vA { la'8.( si'32 la') } \vB { la'8 si'16 la' } |
 do''2 si'4 |
 la'2\trill r4 |
 la'8.( si'16) la'8.( si'16) la'8.( si'32 la'32) |
 do''2. |
 si'8.( do''16) si'8.( do''16) si'8.( do''32 si') |
-re''8.( mi''16) re''8.( mi''16) re''8.( mi''32
-\myfootnote #'NoteHead #'(0 . 2) \markup {
+re''8.( mi''16) re''8.( mi''16) re''8.( mi''32 \vA fa'')
+\vB\myfootnote #'NoteHead #'(0 . 2) \markup {
   Manuscrit Toulouse 1750 : \raise #3 \score {
     { \tinyQuote \key sol \major \clef "french" \time 3/4
       re''8 mi'' re'' mi'' re''8 mi''16 fab'' |
@@ -56,7 +56,7 @@ re''8.( mi''16) re''8.( mi''16) re''8.( mi''32
     \layout { \quoteLayout }
   }
 } fa''?32) |
-mi''8.( fa''?16) mi''8.( fa''16) mi''8.( fad''?32 sol'') |
+mi''8.( \vA fa''16) \vB fa''?16) mi''8.( fa''16) mi''8.( \vA fad''32 \vB fad''?32 sol'') |
 fad''4.\trill mi''8 re''4~ |
-re''8 do''16 si' la'4.\trill sol'8 |
+re''8-\vA( do''16-\vA\trill si'-\vA) la'4.\trill sol'8 |
 sol'2. |

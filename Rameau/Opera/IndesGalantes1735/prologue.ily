@@ -76,7 +76,7 @@
 \includeScore "ABFhebe"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°11 %}
+%{ n°12 %}
 \scene "[Scene III]" "Scene 3 : Bellone, Hebé & sa suite"
 \sceneDescription\markup\left-align\center-column {
   \line { \smallCaps [Bellone, \smallCaps Hébé et sa suite.]}
@@ -91,7 +91,7 @@
 \includeScore "ACAbellone"
 \includeScore "ACBchoeur"
 
-%{ n°12 %}
+%{ n°13 %}
 \sceneDescription\markup\justify {
   [Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
@@ -102,51 +102,51 @@
 \pieceTocTitle "Air pour deux guerriers portant les drapeaux"
 \includeScore "ACCair"
 
-%{ n°13 %}
+%{ n°14 %}
 \pieceToc\markup\wordwrap { BELLONE :
   \italic { C’est la gloire Qui rend les heros immortels } }
 \includeScore "ACDbellone"
 
-%{ n°14 %}
+%{ n°15 %}
 \pieceTocTitle "Air pour les amans et amantes"
 \includeScore "ACEair"
 
-%{ n°15 %}
+%{ n°16 %}
 \pieceToc\markup\wordwrap { CHŒUR : \italic { Vous nous abandonnez } }
 \includeScore "ACFchoeur"
 
-%{ n°16 %}
+%{ n°17 %}
 \scene "[Scene IV]" "Scene 4 : Hebé"
 \sceneDescription\markup\wordwrap-center { \smallCaps [Hebé] }
 \pieceToc\markup\wordwrap { HEBÉ : \italic { Bellonne les entraîne } }
 \includeScore "ADAhebe"
 
-%{ n°17 %}
+%{ n°18 %}
 \scene "[Scene V]" "Scene 5 : L’Amour, Hebé et sa suite"
 \pieceTocTitle "Annonce de l’Amour"
 \includeScore "AEAannonce"
 
-%{ n°18 %}
+%{ n°19 %}
 \pieceToc\markup\wordwrap { L’AMOUR, HEBÉ :
   \italic { Pourquoy Mars à l’Amour declare-t-il la guerre ? } }
 \includeScore "AEBamourHebe"
 
-%{ n°19 %}
+%{ n°20 %}
 \pieceToc\markup\wordwrap { L’AMOUR :
   \italic { Ranimez vos flambeaux, remplissez vos carquois } }
 \includeScore "AECamour"
 
-%{ n°20 %}
+%{ n°21 %}
 \pieceTocTitle "Air pour les Amours"
 \includeScore "AEDair"
 
-%{ n°21 %}
+%{ n°22 %}
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :
   \italic { Traversez les plus vastes Mers } }
 \includeScore "AEGamourHebe"
 \includeScore "AEHchoeur"
 
-%{ n°22 %}
+%{ n°23 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"
 \reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
 "AAAouverture" "AEIouverture"
