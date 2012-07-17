@@ -7,8 +7,12 @@
     \new Staff <<
       \modVersion\instrumentName "[B.C.]"
       \global \includeNotes "basse"
-      \includeFigures "chiffres"
-      \origVersion {
+      \vB\includeFigures "chiffres"
+      \vA\origVersion {
+        s1*3 s2 \bar "" \pageBreak
+        s2 s1 s2 \bar "" \break s2 s1*2\break s1*2 s2\break
+      }
+      \vB\origVersion {
         s1*3\break
         s1*2\pageBreak
         s1*3\break
