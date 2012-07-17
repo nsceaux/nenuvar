@@ -17,4 +17,5 @@ Quel -- le pei -- ne mor -- tel -- le !
     Gloi -- re nous ap -- pel -- le,
     Nous n’é -- cou -- tons plus qu’el -- le.
   }
+  \origVersion\vA { _ "- le." }
 }

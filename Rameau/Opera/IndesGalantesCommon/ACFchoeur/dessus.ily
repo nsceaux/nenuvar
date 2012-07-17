@@ -1,4 +1,6 @@
-\clef "dessus" re'4 re'8. re'16 re'8. re'16 |
+\clef "dessus"
+\vA\origVersion <>^"Violons"
+re'4 re'8. re'16 re'8. re'16 |
 sol2 la'8 la' |
 re''2 re''8 dod'' |
 mi''2 r4 r8
@@ -10,7 +12,7 @@ mi''2 r4 r8
   }
   \setMusic #'vII {
     dod'8 |
-    dod'4 dod'8. dod'16 dod'4 dod'8 re' |
+    dod'4 dod'8. dod'16 \vA { dod'4. dod'16 re' } \vB { dod'4 dod'8 re' } |
     re'2
   }
   \tag #'violon1 \vI
@@ -32,7 +34,7 @@ sib'2
     sib'8. sib'16 |
     sib'2 do''8 re'' |
     sol'2 sol'8. sol'16 |
-    sold'2 sold'8 la' |
+    sold'2-\vA\trill sold'8 la' |
     la'2 r4
   }
   \tag #'violon1 \vI
@@ -45,7 +47,10 @@ fa''2 r |
 fa''4 fa''8 fa'' la'4 re'' |
 re''2.( dod''4) |
 re''2 r4 mi'' |
-\origVersion\custosNote la''2
+\origVersion {
+  \custosNote la''2 s
+  \vA re''1
+}
 \modVersion {
   la''2 la''4 la''8 sol'' |
   fa''2 r |

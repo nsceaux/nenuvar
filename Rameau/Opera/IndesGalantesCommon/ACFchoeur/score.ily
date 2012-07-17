@@ -25,7 +25,12 @@
       >>
       \new Staff <<
         \global \keepWithTag #'basse \includeNotes "basse"
-        \origLayout {
+        \vA\origLayout {
+          s2.*3 s1 s2 \bar ""\pageBreak
+          s2 s2.*5\pageBreak
+          s2. s1*8\break
+        }
+        \vB\origLayout {
           s2.*3 s1 s2 \bar ""\pageBreak
           s2 s2.*4\pageBreak
           s2.*2 s1*3\pageBreak
