@@ -12,7 +12,13 @@
       >>
       \origVersion\new Staff <<
         \global \keepWithTag #'basse \includeNotes "basse"
-        \origLayout {
+        \vA\origLayout {
+          s1*8\pageBreak
+          s1*9\break
+          s1*8\break
+          s1*8\pageBreak
+        }
+        \vB\origLayout {
           s1*7\break
           s1*8\pageBreak
           s1*7\break

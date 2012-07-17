@@ -5,8 +5,9 @@ s1*11 \alternatives s1 s1
 s1
 \origVersion <>_\markup\musicglyph #"scripts.segno"
 \modVersion { \bar "|;:" \segnoMark }
-s1*15 \alternatives {
-  s1*2
+\vA s1*16 \vB s1*15
+\alternatives {
+  \vA s1 \vB s1*2
   \modVersion {
     \segnoMarkDown
     \once\override Score.RehearsalMark #'self-alignment-X = #RIGHT

@@ -91,7 +91,7 @@
 \includeScore "ACAbellone"
 \includeScore "ACBchoeur"
 
-%{ n°10 %}
+%{ n°12 %}
 \sceneDescription\markup\justify {
   [Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
@@ -99,7 +99,7 @@
   se rangent près de \smallCaps Bellonne & suivent
   ses Etendarts.]
 }
-\pieceTocTitle "Air pour deux guerriers"
+\pieceTocTitle "Air pour deux guerriers portant les drapeaux"
 \includeScore "ACCair"
 
 %{ n°11 %}

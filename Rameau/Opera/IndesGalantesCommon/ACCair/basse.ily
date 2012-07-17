@@ -1,11 +1,14 @@
 \clef "basse"
+\vA<>-\tag #'basse _"Tymballes"
 R1*2 |
-r4^\tag #'basse ^"Timbales" re8 re re re re re |
+\vB<>^\tag #'basse ^"Timbales"
+\vA<>^\tag #'basse ^"Tous"
+r4 re8 re re re re re |
 re2 r |
 r4 re8 re re re re re |
 <<
   \tag #'basse {
-    re4 fad^"Basses" sol2 |
+    re4 \cesureInstr fad^"Basses" sol2 |
     re4 fad sol2 |
     re2 la, |
   }
@@ -14,8 +17,10 @@ r4 re8 re re re re re |
     R1*2 |
   }
 >>
-re4.^\tag #'basse ^"Timbales" re16*2/3 re re re4
-<<
+re4.^\tag #'basse ^\markup { \vA Tymballes \vB Timbales } re16*2/3 re re re4
+\vA << \tag #'timbales re \tag #'basse << re \\ re, >> >>
+\vB <<
+  \once\voiceOne
   { \myfootnote #'NoteHead #'(0 . 3) \markup {
       Manuscrit Toulouse 1750 : \raise #3 \score {
         { \tinyQuote \key re \major \time 2/2 \clef "bass"
@@ -23,15 +28,16 @@ re4.^\tag #'basse ^"Timbales" re16*2/3 re re re4
         }
         \layout { \quoteLayout }
       }
-    } \once\voiceOne re
+    } re
   }
   \tag #'basse \new CueVoice { \voiceTwo re,4 }
 >>
 la,2 la, |
 la,1 |
+R1-\vA\fermataMarkup |
 R1 |
 R1 |
-R1 |
+\vA <>^"Basses"
 R1 |
 <<
   \tag #'basse {
@@ -46,15 +52,16 @@ R1 |
     R1*6
   }
 >>
-la,4. la,16*2/3 la, la, la,4. la,16*2/3 la, la, |
+la,4. \vA\tag #'basse <>^"Tymballes"
+la,16*2/3 la, la, la,4. la,16*2/3 la, la, |
 la,2 la, |
 la,1 |
 R1 |
 r2 r4 r16 re re re |
 re2 r |
 la, la, |
-re4. re16*2/3 re re re16[ re re re] re[ re re re] |
+<< { re4. re16*2/3 re re re16[ re re re] re[ re re re] | } \\ \tag #'basse re,1 >>
 re1~ |
 re2. r4 |
 \origVersion s1
-re1 |
+re1\repeatTie |
