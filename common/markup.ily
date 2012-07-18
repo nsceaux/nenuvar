@@ -546,3 +546,7 @@ myfootnoteNoLine =
           \footnote $offset $(or grob 'NoteHead) $text $music #}
        music))
 
+footnoteHere =
+#(define-music-function (parser location offset note)
+     ((number-pair?) markup?)
+   #{ <>-\footnote #(or offset '(0 . 0.1)) #'TextScript $note ^\markup\null #})

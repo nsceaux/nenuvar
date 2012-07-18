@@ -334,6 +334,7 @@
 \layout {
   \context {
     \Staff
+    \name "Staff"
     \override BarLine #'glyph-name = #bar-line::custom-calc-glyph-name
     \override BarLine #'break-visibility = #bar-line::custom-calc-break-visibility
     \override BarLine #'stencil = #bar-line::custom-print

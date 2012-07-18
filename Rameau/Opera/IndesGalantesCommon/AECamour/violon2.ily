@@ -24,8 +24,8 @@ la la''8( sol'') fa''( sol'') fa''( mi'') |
 re''( do'') sib'( la') sol'( sib') la'( sib') |
 do''( sib') la'( sol') fa'( la') sol'( la') |
 sib'( la') sol'( fa') mi'( sol') fa'( sol') |
-la'( dod''?) si'?( dod'') re''4. fa'8 |
-sol' la' sib' sol' la'4 la |
+la'( \vA { dod'') si'( } \vB { dod''?) si'?( } dod'') re''4. fa'8 |
+sol'-\vA( la'-\vA) sib'-\vA( sol'-\vA) la'4 la |
 re'2. re'8 mi' |
 fad'2 fad'4 re' |
 sol'2 r4 r8 sol' |
@@ -34,7 +34,7 @@ lab'4. fa'8 sol'4 sol |
 do'2. do'8 re' |
 mib'2 mib'4 do' |
 re'2 r |
-r8 sol' fa'( mib') re'( do') sib( la) |
+r8 sol' fa'-\vB( mib'-\vB) re'-\vB( do'-\vB) sib-\vB( la-\vB) |
 sol2 r4 re''8( do'') |
 sib'( do'') sib'( la') sol'( fa') mib'( re') |
 do'( mib') re'( mib') fa'( mib') re'( do') |
@@ -53,7 +53,7 @@ sib( re') do'( re') mib'( re') do'( sib) |
 la( do') sib( do') re'( do') sib( la) |
 sol( la) sib( do') re'( mi') fad'( sol') |
 do'( re') sib( do') re'4 re' |
-sol2\fermata r2 |
+sol2-\vB\fermata r2 |
 r8 sib' la' sol' fa' mib' re' do' |
 sib4 r r sib' |
 la'2 r |

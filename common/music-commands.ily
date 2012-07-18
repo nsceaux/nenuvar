@@ -568,3 +568,35 @@ unlessCondition =
    (if condition
        (make-music 'Music 'void #t)
        music))
+
+%%% dessine une croix à l'emplacement de la note
+ratureNote = {
+  \once\override NoteHead #'stencil =
+  #(lambda (grob)
+     (let ((note-head (ly:note-head::print grob))
+           (x-offset 1)
+           (y-offset (/ (ly:grob-property grob
+                                          'staff-position)
+                        2))
+           (thickness 0.4)
+           (radius 2))
+       (ly:stencil-add
+        note-head
+        (ly:stencil-add
+         (ly:make-stencil
+          `(draw-line ,thickness
+                      ,(+ radius x-offset)
+                      ,(- 0 radius y-offset)
+                      ,(- x-offset radius)
+                      ,(- radius y-offset))
+          '(0 . 0)
+          '(0 . 0))
+         (ly:make-stencil
+          `(draw-line ,thickness
+                      ,(+ radius x-offset)
+                      ,(- radius y-offset)
+                      ,(- x-offset radius)
+                      ,(- 0 radius y-offset))
+          '(0 . 0)
+          '(0 . 0))))))
+}

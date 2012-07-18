@@ -12,23 +12,23 @@
     \new Staff <<
       \modVersion\instrumentName "[B.C.]"
       \global \includeNotes "basse"
-      \includeFigures "chiffres"
-      \origLayout {
+      \vB\includeFigures "chiffres"
+      \vA\origLayout {
+        s1 s2. s1\break
+        s1*2 s4 \bar "" \break
+        s2.*4 s2 \bar "" \break
+        s4 s2.*5\break
+        s2.*3 s2 \bar "" \break
+        s4 s2.*5 s2\pageBreak
+      }
+      \vB\origLayout {
         s1 s2. s2. \bar "" \pageBreak
-        s4 s1 s2. \bar "" \break
-        s4 s1 s2.\break
-        s2.*5 s2 \bar "" \break
-        s4 s2.*5 \break
-        s2.*4\break
-        s2.*3 s2\break
+        s4 s1 s2. \bar "" \break s4 s1 s2.\break
+        s2.*5 s2 \bar "" \break s4 s2.*5 \break
+        s2.*4\break s2.*3 s2\break
       }
     >>
   >>
-  \layout {
-    indent = #(if (eqv? #t (ly:get-option 'urtext))
-                  smallindent
-                  largeindent)
-    ragged-last = #(eqv? #t (ly:get-option 'urtext))
-  }
+  \layout { }
   \midi { }
 }
