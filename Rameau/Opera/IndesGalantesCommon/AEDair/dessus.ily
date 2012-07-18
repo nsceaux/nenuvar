@@ -6,14 +6,14 @@ sol''4
 <<
   \setMusic #'hI {
     s16 re'' |
-    mi'' do'' do''8.(\trill si'32 do'') |
-    re''16 si' si'8.(\trill la'32 si') |
+    mi''-\vA( do''-\vA) do''8.(\trill si'32 do'') |
+    re''16-\vA( si'-\vA) si'8.(\trill la'32 si') |
     do''8. re''16 si' do'' |
     la'4\trill
   }
   \setMusic #'hII {
     s16 si' |
-    do'' la' la'8.\trill sol'32 la' |
+    do''-\vA( la'-\vA) la'8.-\vA(\trill sol'32 la'-\vA) |
     si'16( sol') sol'8.(\trill fad'32 sol') |
     la'8. si'16 sol' la' |
     fad'4\trill
@@ -21,7 +21,7 @@ sol''4
   \tag #'hautbois1 << r16 \hI >>
   \tag #'hautbois2 << r16 \hII >>
   \tag #'dessus1 << r16^"Hautbois" \hI >>
-  \tag #'dessus2 << r16^"Hautbois" \hII >>
+  \tag #'dessus2 << r16^\markup { \vA Hautb[ois] \vB Hautbois } \hII >>
   \tag #'(violon1 flute1) <<
     \new CueVoice { \voiceOne << r16^"Hautbois" \hI >> }
     \new Voice { \voiceTwo r8 | R4.*3 | r4 }
@@ -34,8 +34,8 @@ sol''4
   \tag #'hautbois << r16 << \hI \hII >> >>
   \tag #'violon { r8 | R4.*3 | r4 }
 >>
-re''8-\tag #'(dessus dessus1 dessus2) ^"Tous" mi'' dod'' re'' |
-mi'' dod'' re'' |
+re''8-\tag #'(dessus dessus1 dessus2) ^"Tous" mi''-\vA( dod''-\vA) re'' |
+mi''-\vA( dod''-\vA) re'' |
 sol''4 fad''8 |
 mi''4\trill la''8 |
 fad''\trill mi'' la'' |
@@ -45,18 +45,18 @@ re''4
 <<
   \setMusic #'hI {
     s16 la' |
-    si' sol' sol'8.(\trill fad'32 sol') |
+    si'-\vA( sol'-\vA) sol'8.(\trill fad'32 sol') |
     la'4
   }
   \setMusic #'hII {
     s16 fad' |
-    sol' mi' mi'8.(\trill re'32 mi') |
+    sol'-\vA( mi'-\vA) mi'8.(\trill re'32 mi') |
     fad'4
   }
   \tag #'hautbois1 << r16 \hI >>
   \tag #'hautbois2 << r16 \hII >>
-  \tag #'dessus1 << r16^"Hautbois" \hI >>
-  \tag #'dessus2 << r16^"Hautbois" \hII >>
+  \tag #'dessus1 << r16^\markup { \vA Hautb[ois] \vB Hautbois } \hI >>
+  \tag #'dessus2 << r16^\markup { \vA Hautb[ois] \vB Hautbois } \hII >>
   \tag #'(violon1 flute1) <<
     \new CueVoice { \voiceOne << r16^"Hautbois" \hI >> }
     \new Voice { \voiceTwo r8 | R4. | r4 }
@@ -75,8 +75,8 @@ re''
 <<
   \setMusic #'h {
     la''8 |
-    la''8. si''16 la'' sol'' |
-    fad''8\trill \appoggiatura mi''16 re''8
+    la''8. \vB { si''16 la'' sol'' } \vA { si''32*2 la'' sol'' } |
+    fad''8[-\vB\trill \appoggiatura mi''16 re''8]
   }
   \setMusic #'vI {
     fad''8 |
@@ -89,7 +89,7 @@ re''
     re'4
   }
   \tag #'(hautbois1 hautbois2) \h
-  \tag #'dessus1 { <>^"Hautbois" \h }
+  \tag #'dessus1 { <>^\markup { \vA Hautb[ois] \vB Hautbois } \h }
   \tag #'violon1 \vI
   \tag #'violon2 \vII
   \tag #'(flute1 flute2) <<
@@ -100,17 +100,19 @@ re''
   \tag #'hautbois \h
   \tag #'violon << \vI \\ \vII >>
   \tag #'dessus2 <<
-    { <>^\markup { \concat { P \super ers } violons } \vI }
-    \\ { <>_\markup { \concat { 2 \super ds } violons } \vII } >>
+    { \vA<>^\markup\whiteout Violons
+      \vB<>^\markup { \concat { P \super ers } violons }
+      \vI }
+    \\ { \vB<>_\markup { \concat { 2 \super ds } violons } \vII } >>
 >>
-fad''8-\tag #'(dessus dessus1 dessus2) ^"Tous" |
-sol''16( la'') la''8.(\trill sol''32 la'') |
+fad''8-\tag #'(dessus dessus1) ^"Tous" -\tag #'dessus2 ^\markup\vB Tous |
+sol''16-\vB( la''-\vB) la''8.(\trill sol''32 la'') |
 si''4
 <<
   \setMusic #'hI {
      sol''8 |
-    \appoggiatura fad''16 mi''8 la''4 |
-    red''8\trill si'
+    \appoggiatura { \vA fad''8 \vB fad''16 } mi''8 la''4 |
+    red''8[-\vB\trill \vA\appoggiatura dod''16 si'8]
   }
   \setMusic #'hII {
     si'8 |
@@ -119,8 +121,8 @@ si''4
   }
   \tag #'hautbois1 \hI
   \tag #'hautbois2 \hII
-  \tag #'dessus1 { <>^"Hautbois" \hI }
-  \tag #'dessus2 { <>^"Hautbois" \hII }
+  \tag #'dessus1 { <>^\markup { \vA Hautb[ois] \vB Hautbois } \hI }
+  \tag #'dessus2 { <>^\markup { \vA Hautb[ois] \vB Hautbois } \hII }
   \tag #'(violon1 flute1) <<
     \new CueVoice << \voiceOne { \grace s8 s8*0^"Hautbois" } \hI >>
     \new Voice { \voiceTwo r8 | R4. | r4 }
@@ -140,7 +142,7 @@ si''4
   \tag #'violon { r8 | R4. | r4 }
 >>
 mi''8-\tag #'(dessus dessus1 dessus2) ^"Tous" |
-mi''8. fad''16 red''8\trill |
+mi''8. fad''16 red''8-\vB\trill |
 mi''4
 <<
   \setMusic #'AhI {
@@ -174,8 +176,14 @@ mi''4
     la''4\trill
   }
 
-  \tag #'dessus1 << r16^"Hautbois" { \AhI \Bh } >>
-  \tag #'dessus2 << r16^"Hautbois" { \AhII << { s4. s^"Violons" } \Bv >> } >>
+  \tag #'dessus1 <<
+    r16^\markup { \vA Hautb[ois] \vB Hautbois }
+    { \AhI \Bh }
+  >>
+  \tag #'dessus2 <<
+    r16^\markup { \vA Hautb[ois] \vB Hautbois }
+    { \AhII << { s4. s^"Violons" } \Bv >> }
+  >>
   \tag #'hautbois1 << r16 { \AhI \Bh } >>
   \tag #'hautbois2 << r16 { \AhII \Bh } >>
   \tag #'violon1 <<
@@ -204,8 +212,8 @@ mi''4
   \tag #'hautbois { << r16 \AhI \AhII >> \Bh }
   \tag #'violon { r8 | R4.*3 | r4 \Bv }
 >>
-re'''8_\fort -\tag #'(dessus dessus1 dessus2) ^"Tous" |
-si''\trill la'' re''' |
+re'''8-\vB_\fort -\tag #'(dessus dessus1 dessus2) ^"Tous" |
+si''\trill la'' re'''-\vA\fort |
 fad''\trill \appoggiatura mi''16 re''8 sol'' |
 sol''8. la''16 fad''8\trill |
 sol''4
@@ -217,13 +225,13 @@ sol''4
   }
   \setMusic #'hII {
     s16 si' |
-    do'' la' la'8.(\trill sol'32 la') |
+    do''-\vA( la'-\vA) la'8.(\trill sol'32 la') |
     si'4
   }
   \tag #'hautbois1 << r16 \hI >>
   \tag #'hautbois2 << r16 \hII >>
-  \tag #'dessus1 << r16^"Hautbois" \hI >>
-  \tag #'dessus2 << r16^"Hautbois" \hII >>
+  \tag #'dessus1 << r16^\markup { \vA Hautb[ois] \vB Hautbois } \hI >>
+  \tag #'dessus2 << r16^\markup { \vA Hautb[ois] \vB Hautbois } \hII >>
   \tag #'(violon1 flute1) <<
     \new CueVoice { \voiceOne << r16^"Hautbois" \hI >> }
     \new Voice { \voiceTwo r8 | R4. | r4 }

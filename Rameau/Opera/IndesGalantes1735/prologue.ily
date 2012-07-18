@@ -137,7 +137,7 @@
 \includeScore "AECamour"
 
 %{ n°21 %}
-\pieceTocTitle "Air pour les Amours"
+\pieceTocTitle "[Air pour les Amours]"
 \includeScore "AEDair"
 
 %{ n°22 %}

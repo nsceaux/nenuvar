@@ -7,11 +7,11 @@ R4.*4 |
 r4 la'8 |
 sol'4 fad'8 |
 dod' mi'' re'' |
-dod''4 r8 |
+dod''4-\vA\trill r8 |
 r4 la'8 |
 sol'4 fad'8 |
 la' sol' mi' |
-la' fad' r |
+la' fad'-\vA\trill r |
 R4. |
 r4 fad'8 |
 mi'16 fad' sol'8 mi' |

@@ -2,7 +2,7 @@
 r4 re''8 |
 do''4 si'8 |
 re'' do'' la' |
-re'' si' r |
+re'' si'-\vA\trill r |
 R4.*4 |
 r4 la'8 |
 sol'4 fad'8 |
