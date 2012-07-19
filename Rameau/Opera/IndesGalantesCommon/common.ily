@@ -305,11 +305,14 @@ myfootnoteAll =
 %%% Nuances
 tresdoux =
 #(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.5
+             'text (markup #:whiteout #:italic #:general-align X -0.75
                            "tres doux"))
 doux =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.5 "doux"))
+ademi =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75 "a demi"))
 fort =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.5 "fort"))

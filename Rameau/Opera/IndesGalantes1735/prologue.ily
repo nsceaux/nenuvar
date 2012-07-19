@@ -141,6 +141,10 @@
 \includeScore "AEDair"
 
 %{ n°22 %}
+\pieceTocTitle "Contredanse"
+\includeScore "AEEcontredanse"
+
+%{ n°23 %}
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :
   \italic { Traversez les plus vastes Mers } }
 \includeScore "AEGamourHebe"
