@@ -7,19 +7,19 @@ sol''2 r8 re'' |
 mi''[\melisma fa'' mi'' re'' do'' mi''] |
 re''[ mi'' re'' do'' si' re''] |
 do''[ re'' do'' si' la' do'']( |
-si'4.)\melismaEnd re''8 do'' si' |
+si'4.)-\vA\trill\melismaEnd re''8 do'' si' |
 la'2\trill r8 re'' |
 re''2.~ |
 re''~ |
 re'' |
-sol''4 mi''4. sol''8 |
+sol''4 \vA\appoggiatura fad''8 mi''4. sol''8 |
 dod''2.\trill |
 r4 r8 la' la' la' |
 la'4. la'8 re'' re'' |
 fad''2. |
 sol''4 sol''8 fad'' mi'' re'' |
 dod'' re'' re''4.( dod''8) |
-re''2 r4 |
+\vA re''2. \vB { re''2 r4 } |
 R2. |\allowPageTurn
 r4 r r8 re'' |
 do''[\melisma re'' do'' si' la' do'']( |
@@ -36,7 +36,7 @@ do''4 do''4. do''8 |
 fa''2 fa''8 r |
 si'4 si'4. si'8 |
 mi''2. |
-\myfootnote #'NoteHead #'(0 . 1) \markup {
+\vA mi''4 \vB\myfootnote #'NoteHead #'(0 . 1) \markup {
   Manuscrit 1750, dessus chantant et violons : \raise #'4.5 \score {
     { \tinyQuote \key sol \major \time 3/4 \clef "treble"
       mi''4 mi''8 re'' do'' si' |
@@ -45,8 +45,8 @@ mi''2. |
     }
     \layout { \quoteLayout }
   }
-}
-mi''4 mi''8 mi'' re'' do'' |
+} mi''4
+mi''8 mi'' re'' do'' |
 si' do'' do''4( si')\trill |
 la'2. |
 R |
@@ -55,7 +55,7 @@ R |
     re''[\melisma dod'' re'' mi'' re'' mi''] |
     fad''[ mi'' fad'' sol'' fad'' sol'']( |
     la''2.)\melismaEnd |
-    fad''4. fad''8 fad'' sol'' |
+    fad''4.-\vA\trill fad''8 fad'' sol'' |
     sol''2. | }
   \new Voice = "two" \with { autoBeaming = ##f } {
     \voiceTwo R2. |

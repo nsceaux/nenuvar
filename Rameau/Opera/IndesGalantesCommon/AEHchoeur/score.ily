@@ -20,25 +20,37 @@
       \new Staff <<
         \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
       >>
+      \vA\new Staff \with { \haraKiri } <<
+        { <>_"comme la h.c." s4 s2.*5\startHaraKiri }
+        \global \keepWithTag #'taille \includeNotes "haute-contre-taille"
+      >>
       \new Staff <<
         \global \includeNotes "basse"
-        \origLayout {
-          s4 s2.*4\break
-          s2.*6\pageBreak
-          s2.*5\break
-          s2.*4 s4 \bar "" \pageBreak
-          s2 s2.*5\break
+        \vA\origLayout {
+          s4 s2.*5\pageBreak
+          s2.*7\pageBreak
           s2.*5\pageBreak
-          s2.*5\break
+          s2.*6\pageBreak
+          s2.*6\pageBreak
+          s2.*6\pageBreak
+          s2.*6\pageBreak
+          s2.*7\pageBreak
+          s2.*6\pageBreak
+          s2.*6\pageBreak
+          s2.*7\pageBreak
+          s2.*4\pageBreak
           s2.*5\pageBreak
           s2.*6\break
-          s2.*5\pageBreak
-          s2.*5\break
-          s2.*4\pageBreak
-          s2.*5\break
-          s2.*5\pageBreak
-          s2.*5\break
-          s2.*4 s2 \bar "" \pageBreak
+        }
+        \vB\origLayout {
+          s4 s2.*4\break s2.*6\pageBreak
+          s2.*5\break s2.*4 s4 \bar "" \pageBreak
+          s2 s2.*5\break s2.*5\pageBreak
+          s2.*5\break s2.*5\pageBreak
+          s2.*6\break s2.*5\pageBreak
+          s2.*5\break s2.*4\pageBreak
+          s2.*5\break s2.*5\pageBreak
+          s2.*5\break s2.*4 s2 \bar "" \pageBreak
           s4 s2.*2\break
         }
       >>
@@ -50,7 +62,9 @@
           \instrumentName "Violons"
           \global \keepWithTag #'dessus \includeNotes "dessus" >>
         \new Staff <<
-          \instrumentName\markup\center-column { Hautes-contre Tailles } \global
+          \vA\instrumentName\markup\center-column { [Hautes-contre Tailles] }
+          \vB\instrumentName\markup\center-column { Hautes-contre Tailles }
+          \global
           \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
         >>
       >>

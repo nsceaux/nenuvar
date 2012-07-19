@@ -17,8 +17,8 @@ mi'4. mi'8 mi' dod' |
 fad'2. |
 re'4 re'8 re' re' re' |
 re'2 si4 |
-<< \origVersion { la4~ la2 } \modVersion la2. >> |
-fad2 r4 |
+\vA la2. \vB << \origVersion { la4~ la2 } \modVersion la2. >> |
+\vA fad2.\trill \vB { fad2 r4 } |
 R2.*2 |
 r4 r8 re' re' re' |
 re'2 re'8 r |
@@ -33,7 +33,7 @@ si2. |
 R |
 fa'4 fa'4. fa'8 |
 re'2 r8 re' |
-\appoggiatura do'8 si2. |
+\vA\acciaccatura do'8 \vB\appoggiatura do'8 si2. |
 do'4 do'8 si la la |
 re' fa' mi'2 |
 mi'2. |
@@ -44,7 +44,7 @@ si8)[ la si do' si la]( |
 sol2)\melismaEnd r8 sol' |
 sol'2.~ |
 sol'2 r8 sol' |
-mi'4. re'8 re' re' |
+\vA\acciaccatura fad'8 mi'4. re'8 re' re' |
 re'2. |
 R2.*2 |
 r4 r8 la la la |
@@ -64,7 +64,7 @@ la4. la8 re' re' |
 re'2. |
 re'4 re'8 re' do' re' |
 re'8 re' re'2 |
-si2. |
+si2.-\vA\trill |
 si4 do'8 re' mi' si |
 la la si4( la)\trill |
 sol2. |

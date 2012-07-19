@@ -19,7 +19,7 @@ fad'2 fad'8 re' |
 la'2. |
 si'4 si'8 la' sol' sol' |
 sol' fad' fad'4( mi')\trill |
-re'2 r4 |
+\vA re'2. \vB { re'2 r4 } |
 R2.*2 |
 r4 r8 fad' fad' fad' |
 sol'2 sol'8 r |
@@ -34,13 +34,13 @@ mi'2. |
 R |
 la'4 la'4. la8 |
 fa'2 r8 fa' |
-\appoggiatura mi'8 re'2. |
+\vA\acciaccatura mi'8 \vB\appoggiatura mi'8 re'2. |
 do'4 do'8 do' re' mi' |
 la la' la'4.( sold'8) |
 la'2. |
 r4 r r8 la' |
 sol'8[\melisma fad' sol' la' sol' la'16 sol']( |
-fad'4)\melismaEnd r4 r |
+fad'4-\vA\trill)\melismaEnd r4 r |
 r4 r r8 re' |
 re'2.~ |
 re'~ |
