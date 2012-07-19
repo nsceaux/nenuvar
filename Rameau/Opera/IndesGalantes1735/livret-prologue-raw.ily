@@ -144,6 +144,9 @@
 %# Traversez les plus vastes Mers,
 %# Volez Amours, portez vos armes & vos fers
 %# Sur le plus éloigné Rivage.
+%# Est-il un cœur dans l'univers
+%# Qui ne vous doive son hommage ?
+%#8 Traversez les plus vastes Mers, &c
 \livretRef #'AEHchoeur
 \livretPers CHŒUR
 %# Traversez les plus vastes Mers,

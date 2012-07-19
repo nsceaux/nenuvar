@@ -59,7 +59,7 @@ do''4~ do''16 re'' si' do'' do''8.(\trill si'32 do'') |
 re''8. sold'16 sold'4.(\trill fad'16 sold') |
 \vA { la'2 r4 } \vB la'2. |
 si'2 si'4 |
-si'16-\vA( do'' la' si')\vA) si'8.\trill -\vA( la'32 si'-\vA) do''4 |
+si'16-\vA( do'' la' si'-\vA) si'8.\trill -\vA( la'32 si'-\vA) do''4 |
 do''4.( si'8)-\vA\trill re'' r |
 r4 mi''4. si'8 |
 \appoggiatura si'8 do''2 r4 |

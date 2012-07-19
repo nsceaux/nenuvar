@@ -26,7 +26,7 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Rameau/Opera/IndesGalantes1735/notes.ily"
 }
-%% Livret 1750
+%% Livret 1735
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Rameau/Opera/IndesGalantes1735/livret.ily"
@@ -38,8 +38,8 @@
 }
 
 \include "Rameau/Opera/IndesGalantes1735/prologue.ily"
-%\include "Rameau/Opera/IndesGalantesCommon/turc.ily"
-%\include "Rameau/Opera/IndesGalantesCommon/incas.ily"
-%\include "Rameau/Opera/IndesGalantesCommon/sauvages.ily"
-%\include "Rameau/Opera/IndesGalantesCommon/fleurs.ily"
+%\include "Rameau/Opera/IndesGalantes1735/turc.ily"
+%\include "Rameau/Opera/IndesGalantes1735/incas.ily"
+%\include "Rameau/Opera/IndesGalantes1735/fleurs.ily"
+%\include "Rameau/Opera/IndesGalantes1735/sauvages.ily"
 %\include "Rameau/Opera/IndesGalantes1735/annexe.ily"
