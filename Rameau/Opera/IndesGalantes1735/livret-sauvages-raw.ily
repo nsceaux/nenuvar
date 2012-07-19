@@ -265,5 +265,5 @@
   des Françoises en Amazones, des Bergers & Bergeres de la Colonie, au
   bruit des Trompettes, & au son des Musettes.
 }
-\livretFinAct\line { FIN DE LA TROISIÉME ENTRÉE }
+\livretFinAct\line { FIN }
 \sep

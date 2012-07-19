@@ -69,6 +69,10 @@
 \pieceTocTitle "Air vif"
 \includeScore "ABFair"
 
+\sceneDescriptionBottom\markup\wordwrap-center {
+  Bruit de Tambours qui interromp le Ballet.
+}
+
 %{ n°11 %}
 \pieceToc\markup\wordwrap {
   HEBÉ :  \italic { Qu’entends-je ? les Tambours font taire nos Musettes ! }
@@ -150,24 +154,32 @@
 \includeScore "AEGamourHebe"
 \includeScore "AEHchoeur"
 
-%{ n°23 %}
-\pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"
-\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
-"AAAouverture" "AEIouverture"
 \markup\orig-version\fill-line {
-  \column {
+  \center-column {
     \vspace #5
-    \score {
-      { \key sol \major \digitTime\time 2/2 \clef "french"
-        sol''4. re''8 si'4 sol' |
-        re'2. sol'8 sol' |
-        la'4. la'8 la' la' si' do'' |
-        \custosNote si' }
-      \layout { indent=0 }
+    \huge\line { Les menuets [page \page-refII #'AEEmenuet ] }
+    \column {
+      \score {
+        { \key sol \minor \digitTime\time 3/4 \clef "french"
+          sol'8 la' sib' do'' re'' mib'' |
+          re''4 sol''2~ |
+          sol''4. fad''8 sol'' la'' |
+          sib''4 \appoggiatura la''8 sol''4 sib''~ |
+          sib'' la''8 sol'' fa'' mib'' |
+          \custosNote re'' }
+        \layout { indent=0 }
+      }
+      \vspace #1
+      \score {
+        { \key sol \major \digitTime\time 3/4 \clef "french"
+          si'8. do''16 do''4.( si'16 do'') |
+          re''2. |
+          sol''8 la'' si'' sol'' la'' fad'' |
+          \custosNote sol'' }
+        \layout { indent=0 }
+      }
     }
-    \italic\large\line { \hspace #5 Ouverture page \page-refI #'AAAouverture . }
     \vspace #5
   }
 }
-\actEnd "FIN DU PROLOGUE"
-\markup\orig-version\vspace #15
+\actEnd "[FIN DU PROLOGUE]"
