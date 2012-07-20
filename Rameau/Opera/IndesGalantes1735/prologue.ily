@@ -10,7 +10,7 @@
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
 
-%{ n°2 %}
+%{ n°2 %}\newBookPart #'(full-rehearsal)
 \scene "Scene Première" "Scene 1 : Hebé"
 \sceneDescription\markup\wordwrap-center\smallCaps { Hebé }
 \pieceToc\markup\wordwrap {
@@ -18,7 +18,7 @@
 }
 \includeScore "AABhebe"
 
-%{ n°3 %}
+%{ n°3 %}\newBookPart #'(full-rehearsal)
 \scene "[Scene II]" \markup\wordwrap { Scene 2 : Hebé, suite d’Hebé }
 \sceneDescription\markup\wordwrap-center {
   \smallCaps [Hebé, Troupe de Jeunesse Françoise, Espagnole,
@@ -27,15 +27,15 @@
 \pieceTocTitle "Entrée de la suite d’Hebé"
 \includeScore "ABAentree"
 
-%{ n°4 %}
+%{ n°4 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { HEBÉ : \italic { Amants, surs de plaire } }
 \includeScore "ABBhebe"
 
-%{ n°5 %}
+%{ n°5 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Air grave pour deux Polonois"
 \includeScore "ABCair"
 
-%{ n°6 %}
+%{ n°6 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Premier menuet"
 \includeScore "AEEmenuet"
 \noPageTurn
@@ -61,13 +61,15 @@
     \new Staff \with { instrumentName = \markup\larger "Timbale seule" } {
       \clef "bass" r8 re16 re re4 la,8 la,16 la, la, la, la, la, | re2
     }
-    \layout { }
+    \layout { ragged-last = ##t }
   }
 }
 
 %{ n°10 %}
 \pieceTocTitle "Air vif"
 \includeScore "ABFair"
+\markup\orig-version\vspace #55
+\origVersion\pageBreak
 
 \sceneDescriptionBottom\markup\wordwrap-center {
   Bruit de Tambours qui interromp le Ballet.
@@ -80,7 +82,7 @@
 \includeScore "ABFhebe"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°12 %}
+%{ n°12 %}\newBookPart #'(full-rehearsal)
 \scene "[Scene III]" "Scene 3 : Bellone, Hebé & sa suite"
 \sceneDescription\markup\left-align\center-column {
   \line { \smallCaps [Bellone, \smallCaps Hébé et sa suite.]}
@@ -119,7 +121,7 @@
 \pieceToc\markup\wordwrap { CHŒUR : \italic { Vous nous abandonnez } }
 \includeScore "ACFchoeur"
 
-%{ n°17 %}
+%{ n°17 %}\newBookPart #'(full-rehearsal)
 \scene "[Scene IV]" "Scene 4 : Hebé"
 \sceneDescription\markup\wordwrap-center { \smallCaps [Hebé] }
 \pieceToc\markup\wordwrap { HEBÉ : \italic { Bellonne les entraîne } }
@@ -135,12 +137,12 @@
   \italic { Pourquoy Mars à l’Amour declare-t-il la guerre ? } }
 \includeScore "AEBamourHebe"
 
-%{ n°20 %}
+%{ n°20 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR :
   \italic { Ranimez vos flambeaux, remplissez vos carquois } }
 \includeScore "AECamour"
 
-%{ n°21 %}
+%{ n°21 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "[Air pour les Amours]"
 \includeScore "AEDair"
 
@@ -148,35 +150,35 @@
 \pieceTocTitle "Contredanse"
 \includeScore "AEEcontredanse"
 
-%{ n°23 %}
+%{ n°23 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :
   \italic { Traversez les plus vastes Mers } }
 \includeScore "AEGamourHebe"
 \includeScore "AEHchoeur"
 
-\markup\orig-version\fill-line {
+\markup\fill-line {
   \center-column {
     \vspace #5
     \huge\line { Les menuets [page \page-refII #'AEEmenuet ] }
     \column {
       \score {
-        { \key sol \minor \digitTime\time 3/4 \clef "french"
+        { \key sol \minor \digitTime\time 3/4 \clef "dessus"
           sol'8 la' sib' do'' re'' mib'' |
           re''4 sol''2~ |
           sol''4. fad''8 sol'' la'' |
           sib''4 \appoggiatura la''8 sol''4 sib''~ |
           sib'' la''8 sol'' fa'' mib'' |
           \custosNote re'' }
-        \layout { indent=0 }
+        \layout { indent=0 ragged-last = ##t }
       }
       \vspace #1
       \score {
-        { \key sol \major \digitTime\time 3/4 \clef "french"
+        { \key sol \major \digitTime\time 3/4 \clef "dessus"
           si'8. do''16 do''4.( si'16 do'') |
           re''2. |
           sol''8 la'' si'' sol'' la'' fad'' |
           \custosNote sol'' }
-        \layout { indent=0 }
+        \layout { indent=0 ragged-last = ##t }
       }
     }
     \vspace #5

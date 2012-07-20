@@ -80,6 +80,6 @@ sol''16 fad'' mi'' fad'' sol''8 la'' re' la'' |
 \times 6/8 { sol'16 la' si' do'' re'' mi'' fad'' sol'' } sol'8 sol'' si'' |
 \times 6/8 { sol'16 la' si' do'' re'' mi'' fad'' sol'' } sol'8 si'' re''' |
 \clef "dessus2" <<
-  { sol'8 sol' sol' sol' sol' sol' | sol'4.\trill~ sol'4 | }
-  \\ { sol8 sol sol sol sol sol | sol4.~ sol4 | }
+  { sol'8 sol' sol' sol' sol' sol' | sol'4.\trill~ sol'4 }
+  \\ { sol8 sol sol sol sol sol | sol4.~ sol4 }
 >>

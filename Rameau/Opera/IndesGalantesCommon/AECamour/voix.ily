@@ -42,13 +42,7 @@ mib''!2 re''4 re'' |
 mi''2. fad''8 sol'' |
 sol''2.( fad''4) |
 sol''2 r |
-<<
-  \vA {
-    s1*3
-    \footnoteHere\markup { Page barrée (de la mesure 53 à la mesure 74.) }
-  }
-  R1*5
->>
+R1*5 |
 r2-\vB\fermata r4 sib' |
 sib'1 |
 sib'4 sib'8 sib' re''4. sib'8 |

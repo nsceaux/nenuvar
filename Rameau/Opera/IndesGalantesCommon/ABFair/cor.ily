@@ -53,4 +53,4 @@ do''4 r8 sol'4 r8 |
 do'4 r8 r4 r8 |
 do'4 r8 r4 r8 |
 do'8 do' do' do' do' do' |
-do'4.\trill~ do'4 |
+do'4.\trill~ do'4

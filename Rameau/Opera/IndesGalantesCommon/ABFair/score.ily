@@ -20,7 +20,7 @@
         \vA\origLayout {
           s8 s2.*7\break s2.*8\break s2.*8\break s2.*7\pageBreak
           s2.*7\break s2.*8\break s2.*7\break s2.*7\pageBreak
-          s2.*2 s4. s4\pageBreak
+          s2.*2 s4. s4\break
         }
       >>
     >>

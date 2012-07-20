@@ -70,4 +70,4 @@ mi4 do8 re4. |
 sol4 r8 r4 r8 |
 sol4 r8 r4 r8 |
 <sol sol,>8 q q q q q |
-q4.~ q4 |
+q4.~ q4

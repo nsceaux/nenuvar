@@ -343,3 +343,9 @@ vB =
    (if (eqv? (ly:get-option 'indes-version) 'v175x)
        (interpret-markup layout props text)
        empty-stencil))
+
+%%% italic figured bass
+italicFigures = {
+  \override FiguredBass.BassFigure #'font-name = #"Cochin Bold Italic" 
+  \override FiguredBass.BassFigure #'font-size = #2
+}
