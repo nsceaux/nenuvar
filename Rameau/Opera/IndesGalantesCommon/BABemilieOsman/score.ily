@@ -12,18 +12,25 @@
       \global \keepWithTag #'osman \includeNotes "voix"
     >> \keepWithTag #'osman \includeLyrics "paroles"
     \new Staff <<
-      \modVersion\instrumentName "[B.C.]"
+      \vA\modVersion\instrumentName "B.C."
+      \vA\origVersion<>_"B.C."
+      \vB\modVersion\instrumentName "[B.C.]"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout {
-        s1 s2. s2\bar "" \break
-        s4 s2.*2\break
-        s1*2 s4 \bar "" \break
-        s2 s1*2\pageBreak
+      \vA\origLayout {
+        s1 s2. s2 \bar "" \break s4 s2.*2\break s1. \bar "" \break
+        s2 s2. s1\break s1*3\pageBreak
+      }
+      \vB\origLayout {
+        s1 s2. s2\bar "" \break s4 s2.*2\break
+        s1*2 s4 \bar "" \break s2 s1*2\pageBreak
         s1*2\break
       }
     >>
   >>
-  \layout { }
+  \layout {
+    ragged-last = #(and (eqv? #t (ly:get-option 'urtext))
+                        (eqv? 'v175x (ly:get-option 'indes-version)))
+  }
   \midi { }
 }

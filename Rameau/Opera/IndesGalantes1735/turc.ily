@@ -16,7 +16,7 @@
 
 %{ n°2 %}
 \pieceToc\markup\wordwrap { EMILIE, OSMAN : 
-  \italic { C’est Osman qui me suit, le luy cachons plus rien } }
+  \italic { C’est Osman qui me suit, ne luy cachons plus rien } }
 \includeScore "BABemilieOsman"
 
 %{ n°3 %}

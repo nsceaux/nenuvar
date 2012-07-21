@@ -3,9 +3,9 @@
   \tag #'(emilie basse) {
     \clef "vbas-dessus"
     \tag #'basse \emilieMark
-    r4 fa''8 fa'' re''4 re''8 re'' |
-    sib'4\trill sib'8 sib'16 sib' sib'8 la' |
-    la'4\trill fa'8 fa'16 sol' la'8 si' |
+    r4 fa''8 fa'' \vA\appoggiatura mi''8 re''4-\vA\trill re''8 re'' |
+    \vA\appoggiatura do''8 sib'4-\vB\trill sib'8 sib'16 sib' sib'8 la' |
+    la'4\trill fa'8 fa'16 sol' la'8-\vA\trill si' |
     do''4 r16 si' dod'' re'' dod''8.\trill re''16 |
     mi''4
     <<
@@ -20,7 +20,7 @@
       \tag #'emilie { r2 | r2 r4 }
     >>
     \tag #'basse \emilieMark r8 si'16 si' |
-    si'4 do''8 do'' sold'4\trill sold'8 la' |
+    \vA si'?4 \vB si'4 do''8 do'' sold'4-\vB\trill sold'8 la' |
     la'1 |
   }
   %% Osman
