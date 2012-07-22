@@ -2,16 +2,19 @@
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
       \modVersion\characterName Emilie
+      \vA\modVersion <>^\markup\italic seule
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \modVersion\instrumentName "[B.C.]"
+      \vA\modVersion\instrumentName "B.C."
+      \vB\modVersion\instrumentName "[B.C.]"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout {
-        s2 s1*2\break
-        s1*2\break
-        s1*2 s2 \bar "" \break
+      \vA\origLayout {
+        s2 s1*3 s2 \bar "" \break s2 s1*2\break s1*3\pageBreak
+      }
+      \vB\origLayout {
+        s2 s1*2\break s1*2\break s1*2 s2 \bar "" \break
         \grace s16 s2 s1*2\break
       }
     >>
