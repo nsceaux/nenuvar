@@ -6,4 +6,4 @@ A l’en -- nuy la cons -- tance im -- mo -- le
 Le cœur qui s’en fait un de -- voir.
 A l’en -- nuy la cons -- tance im -- mo -- le
 Le cœur qui s’en fait un de -- voir.
-\origVersion { Il faut }
+\origVersion\vB { Il faut }

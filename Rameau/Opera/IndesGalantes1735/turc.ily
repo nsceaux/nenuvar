@@ -32,11 +32,12 @@
 
 %{ n°5 %}
 \pieceToc\markup\wordwrap { OSMAN :
-  \italic { C’est trop m’accabler par vos pleurs } }
+  \italic { Il faut que l’Amour s’envole } }
 \includeScore "BAEosman"
 
 %{ n°6 %}
-\pieceToc\markup\wordwrap { OSMAN : \italic { Je vous quitte, belle Emilie } }
+\pieceToc\markup\wordwrap { OSMAN :
+  \italic { Je vous quitte, belle Emilie } }
 \includeScore "BAFosman"
 
 %{ n°7 %}

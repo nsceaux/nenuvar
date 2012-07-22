@@ -5,7 +5,7 @@ re,2 re4 |
 la2 sib4 |
 sol2 mi4 |
 fa2 fa4 |
-dod2 re4 |
+dod2-\vA\trill re4 |
 la,2 re4 |
 la,2 la,4 |
 sib, sol, la, |
@@ -14,7 +14,7 @@ la2 sib4 |
 sol2 do'4 |
 fa2 sol4 |
 la la,2 |
-re,2\fermata r4 |
+re,2-\vB\fermata r4 |
 r4 r re8 re |
 mi4 mi8 mi mi do |
 fa2 fa4 |
@@ -26,4 +26,5 @@ mi2 la4 |
 do2 re8 mi |
 fa2 re8 mi |
 la2
-\origVersion { re4 | \custosNote la, }
+\vA\origVersion\custosNote re4
+\vB\origVersion { re4 | \custosNote la, }

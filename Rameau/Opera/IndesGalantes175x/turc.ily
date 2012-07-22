@@ -32,7 +32,7 @@
 
 %{ n°5 %}
 \pieceToc\markup\wordwrap { OSMAN :
-  \italic { C’est trop m’accabler par vos pleurs } }
+  \italic { Il faut que l’Amour s’envole } }
 \includeScore "BAEosman"
 
 %{ n°6 %}
