@@ -22,6 +22,6 @@ la,2 r4 la, |
 si,2 dod |
 re mi4~ |
 mi8. do16 fa4. re8 |
-sol4. sib8 mi4. mi16 fa |
+sol4. sib8 mi4.-\vA~ mi16 fa |
 la2 la, |
 re,1 |

@@ -8,4 +8,4 @@ Ils ne s’ou -- vrent qu’aux cris d’un Cor -- saire in -- hu -- main,
 Bien- tôt les Vents __ et le Ciel mê -- me
 Com -- pli -- ces de son crime, é -- loi -- gnent ses Vais -- seaux,
 Et je me vois cap -- ti -- ve sur les eaux,
-Près de ce que j’a -- bho -- re, et loin de ce que j’ai -- me.
+Près de ce que j’ab -- ho -- re, et loin de ce que j’ai -- me.
