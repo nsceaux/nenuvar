@@ -20,14 +20,14 @@ fa,2. |
 fa2 re4 |
 sol2 mi4 |
 la2 sol4 |
-fa8[ mi re do sib, la,] |
+fa8[-\vA( mi-\vA) re-\vA( do-\vA) sib, la,] |
 sol,4 sib,4. sol,8 |
 la,2. |
 re,4 r sib, |
 fa,4. mi,8 re, sol, |
 do,1 |
 fa2. |
-mi4 re2 |
+mi4 \vA << \origVersion { re4~ re } \modVersion re2 >>\vB re2 |
 do4. la,8 sol,4 do |
 fa,1 |
 r4 r fa4 |

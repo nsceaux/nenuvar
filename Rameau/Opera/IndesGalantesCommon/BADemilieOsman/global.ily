@@ -27,7 +27,7 @@ s2.
 s1
 \digitTime\time 3/4 \midiTempo #80
 s2.*2
-\time 2/4 \midiTempo #80
+\digitTime\time 2/4 \midiTempo #80
 s2
 \time 4/4 \midiTempo #80
 s1*2

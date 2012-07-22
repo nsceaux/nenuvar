@@ -16,7 +16,7 @@
     \tag #'basse \emilieMark
     la'4 la'8 la' la' fa' |
     do'' do'' fa''4 fa''8 fa''16 sol'' |
-    mi''4\trill mi''8 fa''16 la' \appoggiatura la'16 sib'4 sol'16 sol' la' sib' |
+    mi''4\trill mi''8 fa''16 la' \vA\acciaccatura la'8 \vB\appoggiatura la'16 sib'4 sol'16 sol' la' sib' |
     la'1\trill |
     fa''8 fa''16 fa'' do''4 do''8 do''16 re'' |
     mi''4. sol''8 sol''4 mi''8 mi''16 la' |%% original: do''
@@ -33,7 +33,7 @@
   \tag #'(osman basse) {
     \clef "vbasse"
     \tag #'basse \osmanMark
-    r4 fa8 sol la4 la8 sib |
+    r4 fa8 sol la4-\vA\trill la8 sib |
     do'4 do'8 do'16 mi fa8. sol16 |
     mi4\trill r8 do'16 do' do'8 re'16 mi' |
     la4 si8 do'16 re' si8.\trill si16 |
@@ -49,18 +49,18 @@
     re'2 r8 la |
     do'2 sib16[ la] sol[ fad] |
     sol2 sol8 la |
-    sib2 \appoggiatura la16 sol4 |
+    sib2 \appoggiatura { \vA la8 \vB la16 } \vA { sol8 r } \vB sol4 |
     do'4 do'8[ sib] la[ sol] |
     sib4 \appoggiatura la16 sol4.\trill la8 |
     mi2.\trill |
     fa2 sol8 la |
     sib2 sol8 do' |
-    la2\trill \appoggiatura sol8 fa4 |
+    la2\trill \appoggiatura sol8 \vA { fa8 r } \vB fa4 |
     la2 si8 do' |
     si4. dod'8 re'4 |
     dod'2.\trill |
-    re'8[ do'] sib[ la] sol[ fa] |
-    sib4 sol4.\trill fa8 |
+    re'8[ \vA do'!] \vB do'] sib[ la] sol[ fa] |
+    sib4 sol4.\arcTrill fa8 |
     fa4( mi2)\trill |
     re4 r8 sib16 sib fa8 fa16 sol |
     la4 r8 la16 si si8\trill si16 do' |
