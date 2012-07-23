@@ -1,6 +1,6 @@
 \clef "dessus2"
 <>^\markup\orig-version Violons
-_\markup\whiteout\italic { vitte et fort }
+_\markup\vB\whiteout\italic { vitte et fort }
 \ru#4 sib8 \ru#8 sib16 |
 \ru#12 sib16*4/6 \ru#16 sib32 |
 <<
@@ -17,8 +17,8 @@ _\markup\whiteout\italic { vitte et fort }
     re''8 
   }
   \tag #'violons {
-    \ru#16 <re' sib>32 \ru#16 <fa' sib> |
-    \clef "dessus" \ru#16 <sib' fa'> \ru#16 <re'' fa'> |
+    \ru#16 <re' sib>32 << \ru#16 <fa' sib> \vA { s4 \clef "dessus" } >> |
+    \vB\clef "dessus" \ru#16 <sib' fa'>32 \ru#16 <re'' fa'> |
     \ru#16 <fa'' re''> \ru#16 <sib'' re''> |
     <sib'' re''>8 
   }
@@ -37,7 +37,7 @@ sib' sol' la' sib' do'' re'' mi'' fad'' sol''8 r |
 \ru#32 sib''32 |
 sib''32 la'' sol'' fa'' mib'' re'' do'' sib' sib''32 la'' sol'' fa'' mib'' re'' do'' sib'
 fa'4 r8 r32 sol' fa' mib' |
-\clef "dessus2" re'8 r r4 sol'16(_\doux sib') sol'16( sib') sol'16( sib') sol'16( sib') |
+\clef "dessus2" re'8 r r4 sol'16(-\vB_\doux sib') sol'16( sib') sol'16( sib') sol'16( sib') |
 \setMusic #'reprise {
   la' do'' la' do'' la' do'' la' do'' la' do'' la' do'' sib' re'' sib' re'' |
   sol'8 la' sol' la' fad' la' re' fad' |
@@ -54,8 +54,10 @@ fa'4 r8 r32 sol' fa' mib' |
 \tag #'() \reprise
 sib''16 sib' la' sol' fa' mib' re' do' sib8 r r16 sib do' sib |
 la32 fa' fa' fa' fa' fa' fa' fa' \ru#8 fa'32 fa'32 fa' fa' fa' fa' fa' fa' mi' |
-fa' fa' sol' la' sib' do'' re'' mi'' fa'' sol'' la''16 r8 r r16*1/2 la''32 sib'' la'' sol''8.\trill sol''16 |
+fa' fa' sol' la' sib' do'' re'' mi'' fa'' sol'' la''16 r8 r r16*1/2 la''32 sib'' la'' sol''8.-\vB\trill sol''16 |
 sol''8.*5/6 sol''32 fa'' mi'' fa''8 r r r16*1/2 fa''32 sol'' fa'' mi''8.*5/6 mi''32 fad'' sol'' |
 fad''32 re'' mi'' fad'' sol'' la'' sib'' do''' \ru#8 re'''32 \ru#16 re'''32 |
-re'''8 r r4 \clef "dessus2" sol'16 sib' sol' sib' sol' sib' sol' sib' |
+re'''8 r r4
+\clef "dessus2" sol'16-\vA( sib'-\vA) sol'-\vA( sib'-\vA)
+sol'-\vA( sib'-\vA) sol'-\vA( sib'-\vA) |
 \origVersion{ \custosNote la'1 }

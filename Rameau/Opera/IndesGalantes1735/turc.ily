@@ -46,13 +46,9 @@
   \italic { Que je ne verray plus !... Barbare } }
 \includeScore "BBAemilie"
 
-\sceneDescriptionBottom\markup\justify {
-  La nuit se repend sur le Theatre, les flots de la mer se
-  soulevent et le tonnerre gronde avec violence.
-}
-\origVersion\pageBreak
-%{ n°8 %}\newBookPart #'(full)
-\pieceTocTitle "Tempête"
+%{ n°8 %}
+\pieceToc\markup\wordwrap { EMILIE :
+  \italic { Vaste Empire des Mers où triomphe l’horreur  } }
 \includeScore "BBBtempete"
 
 \sceneDescriptionBottom\markup\justify {
@@ -75,7 +71,7 @@
 %{===%}
 \includeScore "BBFemilie"
 
-%{ n°12 %}\newBookPart #'(full)
+%{ n°12 %}
 \scene "Scene III" "Scene 3 : Emilie, Valere"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps { Emilie, Valere } [en Esclave.]
@@ -100,7 +96,7 @@
   \italic { Fut-il jamais un cœur plus genereux ? } }
 \includeScore "BEAvalere"
 
-%{ n°15 %}\newBookPart #'(full)
+%{ n°15 %}
 \scene "Scene VI" \markup\wordwrap { Scene 6 : Emilie, Valere, provençaux et provençales, esclaves africains }
 \sceneDescription\markup\wordwrap-center {
   \line \smallCaps { Emilie, Valere, }
@@ -115,12 +111,12 @@
   \italic { Volez, Zephirs, volez tendres Amants de Flore } }
 \includeScore "BFBduo"
 
-%{ n°17 %}\newBookPart #'(full)
+%{ n°17 %}
 \pieceToc\markup\wordwrap { CHŒUR :
   \italic { Volez, Zephirs, volez tendres Amants de Flore } }
 \includeScore "BFCchoeur"
 
-%{ n°18 %}\newBookPart #'(full)
+%{ n°18 %}
 \pieceTocTitle "Air pour les esclaves afriquains"
 \includeScore "BFDair"
 
@@ -142,7 +138,7 @@
   \italic { Fuyez, fuyez Vents orageux } }
 \includeScore "BFHemilie"
 
-%{ n°23 %}\newBookPart #'(full)
+%{ n°23 %}
 \pieceTocTitle "Premier Tambourin"
 \includeScore "BFItambourin"
 \origVersion\noPageBreak
