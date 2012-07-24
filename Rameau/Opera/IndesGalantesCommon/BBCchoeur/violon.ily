@@ -1,6 +1,9 @@
-\clef "dessus" sib''4^\markup violons
- _\markup\column { "finale du" monologue } r4 r2 r2 |
-r2*3/2 r8 re'' mib'' fa'' sol'' la'' |
+\clef "dessus"
+<>^\markup Violons
+_\markup\orig-version\column { "finale du" monologue }
+_\markup\mod-version\whiteout { finale du monologue }
+sib''4 r4 r2 r2 |
+r2*3/2 r8 re'' \vA mi'' \vB mi''? fa'' sol'' la'' |
 sib'' la'' sol'' fad'' sol'' la'' sib'' la'' sol'' fad'' sol'' la'' |
 fad'' re'' re'' mib'' re'' do'' sib' la' sib' do'' re'' mib'' |
 fa'' fa'' fa'' fa'' fa'' sol''16 la'' sib''8 la''16 sol'' fa''8 mib''16 re'' do'' sib' la' sol' |
@@ -10,25 +13,25 @@ mib'' mib'' mib'' sol'' sol'' sol'' |
 sol''16 sol' sol' sol' \ru#8 sol' \ru#12 sol' |
 sol'4 sib' sib' re'' re'' re'' |
 fad'' fad'' fad'' la'' la'' la'' |
-la''16 la' la' la' \ru#8 la' la'2*6/8~ la'16 re' mi' fa' sol' la' |
-sib'2*6/8~ sib'16 la' sol' la' sib' do'' re''4 do'' sib' |
+la''16 la' la' la' \ru#8 la' la'2*6/8~ la'16[ re' mi' \vA fad' \vB fad'? sol' la'] |
+sib'2*6/8~ sib'16[ la' sol' la' sib' do''] re''4 do'' sib' |
 la' re' re' fad' fad' fad' |
 la' la' la' re'' re'' re'' |
 re''16 re' re' re' \ru#8 re' \ru#12 re' |
 re'4 r r r4 sol'' fa'' |
-mi''2 mi''4 mi'' mi'' sol'' |
-dod''2. r4 la' la' |
-sol'2. sol'2 \appoggiatura fa'16 mi'4 |
+mi''2-\vA\trill mi''4 mi'' mi'' sol'' |
+dod''2.-\vA\trill r4 la' la' |
+sol'2. sol'2 \appoggiatura { \vA fa'8 \vB fa'16 } mi'4 |
 fa'16 la la la \ru#8 la \ru#12 la |
 la4 r4 r r4 fa'' mi'' |
 re''2 re''4 re'' re'' fa'' |
-sib'2 sol'4 sib'4 sib' sib' |
+\vA sib'2. \vB { sib'2 sol'4 } sib'4 sib' sib' |
 mi'16 la la la \ru#8 la la4 la' la' |
-la'2. sol'2 fad'8 sol' |
-fad'4~ fad'16 re'' mi'' fad'' sol'' la'' sib'' do''' \ru#12 re''' |
-\ru#4 re'' re'' re'' re'' mib'' fa'' sol'' la'' sib'' \ru#12 do''' |
-\ru#8 re'' mib'' fa'' sol'' la'' \ru#12 sib'' |
-la''4~ la''16 sib'' la'' sol'' fad''16 sol'' fad'' mib'' re''4. do''16 sib' la' sol' fad' mi' |
+la'2. sol'2-\vA( fad'8-\vA) sol' |
+fad'4-\vA\trill~ fad'16 re'' mi'' fad'' sol'' la'' sib'' do''' \ru#12 re''' |
+\ru#4 re'' re'' re'' re'' \vA { mi'' fad'' } \vB { mi''? fa''? } sol'' la'' sib'' \ru#12 do''' |
+\ru#8 re'' \vA { mi'' fad'' } \vB { mi''? fad''? } sol'' la'' \ru#12 sib'' |
+la''4~ la''16 sib'' la'' sol'' fad''16 sol'' fad'' mi''? re''4. do''16 sib' la' sol' fad' mi' |
 re'4 r r r r r16 re'' mi'' fad'' |
 sol''4 sol' sol' sib' sib' sib' |
 re'' re'' re'' sol'' sol'' sol'' |
@@ -44,6 +47,6 @@ lab'4 \ru#8 fa''32 \ru#8 lab'' |
 re''8 r mib''4 si' |
 do''32 sol' la' sib' do'' re'' mib'' fa'' sol'' do'' re'' mib'' fa'' sol'' la'' si'' do'''8 r |
 r4 r r8 r32 do''' sib'' la'' |
-sol''4 <>_\fort \ru#8 sol''32 \ru#8 si \ru#8 sol''32 |
+sib''4 \vB<>_\fort \ru#8 sol''32 \ru#8 si \ru#8 sol''32 |
 \ru#8 do' \ru#8 sol'' \ru#8 re' re'8. sol''32 fad'' |
-sol''16 fa''32 mib'' re'' do'' sib' la' \clef "dessus2" sol'16 fa'32 mib' re' do' sib la sol8 r r4 |
+sol''16 fa''32 mib'' re'' do'' sib' la' \vB\clef "dessus2" sol'16 fa'32 mib' re' do' sib la sol8 r r4 |

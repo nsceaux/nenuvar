@@ -7,6 +7,7 @@
     \new Staff \with { \smallStaff } <<
       \instrumentName "Basses"
       \global \keepWithTag #'basse \includeNotes "basse"
+      \vA\includeFigures "chiffres"
     >>
   >>
   \layout { indent = \largeindent }
