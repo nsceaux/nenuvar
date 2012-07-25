@@ -3,10 +3,10 @@
 \ru#24 lab, |
 <<
   \setMusic #'basson {
-    sib,8(^\markup\orig-version Bassons fa) sol( mib) fa( lab) sol( mib) | fa4
+    sib,8-\vB( fa-\vB)-\vA\trill sol( mib) fa( lab) sol( mib) | fa4
   }
   \setMusic #'basse { sib,8 r sib, r sib, r sib, r | sib,4 }
-  \tag #'basson \basson
+  \tag #'basson { <>^\markup\orig-version Bassons \basson }
   \tag #'basse \basse
   \tag #'all << { <>^"Bassons" \basson } \\ { <>_"Basses" \basse } >>
 >>

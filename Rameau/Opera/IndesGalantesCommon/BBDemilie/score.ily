@@ -8,19 +8,25 @@
       \new Staff << \global \keepWithTag #'conducteur2 \includeNotes "dessus" >>
       \new Staff << \global \includeNotes "haute-contre" >>
       \new Staff << \global \includeNotes "taille" >>
-      \new Staff \with { \haraKiriFirst } <<
+      \vB\new Staff \with { \haraKiriFirst } <<
         { \startHaraKiri s1*2 s2. \noHaraKiri }
         \global \keepWithTag #'basson \includeNotes "basse"
       >>
-      \new Staff <<
+      \vB\new Staff <<
         \global \keepWithTag #'basse \includeNotes "basse"
         \includeFigures "chiffres"
         \origLayout {
-          s1 s2 \bar "" \break
-          s2 s2. s2 \bar "" \pageBreak
-          s2 s1*2 s2 \bar "" \break
-          s2 s1*2\pageBreak
+          s1 s2 \bar "" \break s2 s2. s2 \bar "" \pageBreak
+          s2 s1*2 s2 \bar "" \break s2 s1*2\pageBreak
           s1 s2\pageBreak
+        }
+      >>
+      \vA\new Staff <<
+        \global \keepWithTag #'all \includeNotes "basse"
+        \includeFigures "chiffres"
+        \origLayout {
+          s1\break s1 s2. s1\pageBreak
+          s1*3 s2 \bar "" \break s2 s1*2 s2 \pageBreak
         }
       >>
     >>
