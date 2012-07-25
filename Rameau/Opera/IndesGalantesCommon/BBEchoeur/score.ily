@@ -13,9 +13,15 @@
       \new Staff \withLyrics <<
         \global \includeNotes "voix-basse"
       >> \includeLyrics "paroles"
-      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff <<
+        \vA <>^"Violons"
+        \global \includeNotes "dessus"
+      >>
       \new Staff <<
         \global \keepWithTag #'haute-contre \includeNotes "parties"
+      >>
+      \vA\new Staff <<
+        \global \keepWithTag #'taille \includeNotes "parties"
       >>
       \new Staff <<
         \global \includeNotes "basse"
@@ -25,7 +31,8 @@
     \modVersion\new StaffGroupNoBar <<
       \new StaffGroupNoBracket <<
         \new Staff <<
-          <>^"[Dessus]"
+          \vB<>^"[Violons]"
+          \vA<>^"Violons"
           \global \includeNotes "dessus"
         >>
         \new Staff <<
