@@ -2,15 +2,15 @@
 la8.[\melisma sib16] la4.\trill sol16[ fad] |
 sol4~ sol16[ la sib do'] re'[ mib' do' re']( |
 mib'8)\melismaEnd re' re'4( do'8)\trill sib16[ la] |
-sib2 r8 sib' |
+\vA\appoggiatura la8 sib2 r8 sib' |
 sib'2. |
 la'4 la'8 sib' la' sol' |
-fad'4\trill re'8 r r mib' |
-mib'4~ mib'8.[\melisma fa'16] mib'[ re' do' mib']( |
+fad'4\trill \vA\appoggiatura mi'?8 re'8 r r \vA mib'? \vB mib' |
+mib'4~ mib'8.[\melisma fa'16-\vB] mib'-\vB[ re' do' mib']( |
 re'2)\melismaEnd r8 sol' |
-sol'4~ sol'8.[\melisma fa'16] mib'[ re' mib' do']( |
+sol'4~ sol'8.[\melisma fa'16-\vB] mib'-\vB[ re' mib' do']( |
 la'2.)\melismaEnd |
-sib'4 fa'8 sol' fa'[ mib'16] re' |
+sib'4 fa'8 sol' fa'[-\vA( mib'16]-\vA)-\vA\trill re' |
 re'4( do'2)\trill |
 sib2. |
 re'4 do'8 sib la sol |
@@ -18,12 +18,12 @@ do'2 do'8 re' |
 do'4( sib8)\trill la sib4 |
 la2.\trill |
 re'4 re'8 re' mi' fa' |
-mi'2 mi'8 fad' |
+mi'2-\vA\trill mi'8 fad' |
 sol'2.~ |
 sol'2 sol'8 fad' |
 sol'2. |
 r4 re'4. re'8 |
-re'8.[ do'16] do'4. re'8 |
+re'8.-\vA([ do'16-\vA)] do'4. re'8 |
 do'2( sib8)[\trill la] |
 sib4( la4.)\trill sol8 |
 sol2 r8 sib |

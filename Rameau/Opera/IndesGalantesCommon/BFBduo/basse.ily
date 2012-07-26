@@ -10,7 +10,7 @@ sol,2 la,4 |
 sib,2 r4 |
 mib2 do4 |
 fa2. |
-sol4 re do8. sib,16 |
+sol4 re do8.-\vA\trill sib,16 |
 fa4 fa,2 |
 sib,2. |
 r4 r8 sib, mib4 |
@@ -19,7 +19,7 @@ sol,4. fad,8 sol,4 |
 re,4 re' do' |
 si la sol |
 do'2 la4 |
-sib2 sib8 do' |
+sib2-\vA~ sib8 do' |
 re'2 re4 |
 sol re do |
 si, la, sol, |

@@ -1,19 +1,21 @@
 \keys sol \minor
 \digitTime\time 3/4 \midiTempo #96
+\vA\tempo "Gayment"
 \partial 4 s4
 \modVersion { \segnoMark \bar "||" }
 \origVersion <>^\markup\musicglyph #"scripts.segno"
 s2.*27
 \modVersion { s2 \fineMark\bar "|." }
 \origVersion {
+  \vA<>^\markup\large\italic fin
   s4
-  \fineMark
+  \vB\fineMark
   \once\override Score.RehearsalMark #'direction = #UP
   s4
-  \cesureInstr
+  \vB\cesureInstr
   \once\override BreathingSign #'Y-offset = #-0.5
 }
-s4 s2.*11
+s4 \vA\tempo "Tendrement" s2.*11
 \origVersion {
   s2. s4
   \once\override TextScript #'extra-offset = #'(0 . -4)
