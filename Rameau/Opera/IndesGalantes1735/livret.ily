@@ -336,7 +336,7 @@
 \livretVerse#8 { \transparent { Mon Tyran m’aime... } O desespoir ! }
 \livretVerse#12 { Non, vous ne sortirez jamais de son pouvoir ! }
 \livretVerse#8 { Quoy ! Valere ne vous retrouve }
-\livretVerse#8 { Que pour vous perdre pour toujours ? }
+\livretVerse#8 { Que pour vous perdre sans retour ? }
 \livretVerse#12 { Nôtre Tyran vous aime ! }
 \livretPers EMILIE
 \livretVerse#12 { \transparent { Nôtre Tyran vous aime ! } Et ma douleur le prouve, }

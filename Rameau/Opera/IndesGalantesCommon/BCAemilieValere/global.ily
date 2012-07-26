@@ -6,8 +6,10 @@
 \time 4/4 \midiTempo #80 s1
 \digitTime\time 2/2 \midiTempo #160 s1
 \keys sol \major s1
-\digitTime\time 3/4 \midiTempo #80 s2.*7
-\keys re \major s2.
+\digitTime\time 3/4 \midiTempo #80
+\vA { s2.*6 s4 \keys re \major s2 }
+\vB { s2.*7 \keys re \major }
+s2.
 \time 4/4 \midiTempo #80 s1
 \digitTime\time 2/2 \midiTempo #160 s1
 \digitTime\time 3/4 \midiTempo #80 s2.

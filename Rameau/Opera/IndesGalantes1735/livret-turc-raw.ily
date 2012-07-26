@@ -173,7 +173,7 @@
 %#= O desespoir !
 %# Non, vous ne sortirez jamais de son pouvoir !
 %# Quoy ! Valere ne vous retrouve
-%# Que pour vous perdre pour toujours ?
+%# Que pour vous perdre sans retour ?
 %#- Nôtre Tyran vous aime !
 \livretPers EMILIE
 %#= Et ma douleur le prouve,

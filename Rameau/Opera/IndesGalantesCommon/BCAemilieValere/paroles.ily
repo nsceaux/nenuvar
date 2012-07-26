@@ -52,7 +52,7 @@
   O de -- ses -- poir !
   Non, vous ne sor -- ti -- rez ja -- mais de son pou -- voir !
   Quoy ! Va -- le -- re ne vous re -- trou -- ve
-  Que pour vous per -- dre pour tou -- jours ?
+  Que pour vous per -- dre \vA { sans re -- tour_? } \vB { pour tou -- jours ? }
   Nô -- tre Ty -- ran vous ai -- me !
 }
 \tag #'(emilie basse orig1) {

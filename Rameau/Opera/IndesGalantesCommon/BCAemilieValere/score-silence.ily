@@ -61,7 +61,7 @@
     \verse#8 { \transparent { Mon Tyran m’aime... } O desespoir ! }
     \verse#12 { Non, vous ne sortirez jamais de son pouvoir ! }
     \verse#8 { Quoy ! Valere ne vous retrouve }
-    \verse#8 { Que pour vous perdre pour toujours ? }
+    \verse#8 { Que pour vous perdre \vA { sans retour_? } \vB { pour toujours ? } }
     \verse#12 { Nôtre Tyran vous aime ! }
     \bold Emilie
     \verse#12 { \transparent { Nôtre Tyran vous aime ! } Et ma douleur le prouve, }
