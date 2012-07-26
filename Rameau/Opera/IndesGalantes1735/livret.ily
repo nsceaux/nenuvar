@@ -353,11 +353,38 @@
   \smallCaps { Emilie, Valere } en Esclave, \smallCaps Osman Bacha.
 }
 \livretRef #'BDAevo
-\livretPers\line { EMILIE, \fontsize #-1 { à \smallCaps Valere. } }
-\livretVerse#12 { Il vous entend, hélas ! comment fuir sa colere ? }
-\livretPers\line { OSMAN, \fontsize #-1 { à \smallCaps Emilie. } }
-\livretVerse#10 { Ne craignez rien ; je dois trop à Valere ; }
-\livretDidasP\line { Montrant \smallCaps Valere. }
+\livretPers OSMAN
+\livretVerse#8 { Esclave, je viens de t’entendre, }
+\livretVerse#12 { Ton crime m’est connu. }
+\livretPers VALERE
+\livretVerse#12 { \transparent { Ton crime m’est connu. } Je ne m’en repens pas. }
+\livretPers EMILIE
+\livretVerse#8 { Seigneur, est-il coupable ? helas ! }
+\livretPers OSMAN
+\livretVerse#10 { Vous l’accusez en voulant le deffendre, }
+\livretVerse#12 { Vous pretendez en vain cacher vôtre embarras, }
+\livretVerse#12 { Et retenir les pleurs que je vous vois repandre. }
+\livretVerse#12 { Vous cedez au penchant de vôtre cœur trop tendre ; }
+\livretVerse#8 { Ah ! du mien je suivray les loix, }
+\livretVerse#12 { Je sçauray me vanger ainsi que je le dois. }
+\livretPers EMILIE
+\livretVerse#11 { Le barbare ! }
+\livretPers VALERE
+\livretVerse#11 { \transparent { Le barbare ! } J’attens l’arrest de ta colere ; }
+\livretPers EMILIE
+\livretVerse#6 { Juste ciel ! quel moment ! }
+\livretPers OSMAN
+\livretVerse#6 { Reçois de moy, Valere, }
+\livretVerse#7 { Emilie, et la liberté. }
+\livretPers EMILIE
+\livretVerse#12 { Que dites vous ! mais non, peut-il être sincere : }
+\livretVerse#12 { Il veut tromper nos cœurs, c’est trop de cruauté. }
+\livretPers OSMAN
+\livretVerse#6 { O ciel ! quelle injustice ! }
+\livretVerse#12 { Quoy ! vous vous défiez de ma sincerité }
+\livretVerse#12 { Dans l’instant ou mon cœur vous fait le sacrifice }
+\livretVerse#8 { Qui jamais ait le plus couté ? }
+\livretVerse#10 { Mais je le dois a la reconnoissance. }
 \livretVerse#12 { Osman fût son Esclave, & s’efforce aujourd’huy }
 \livretVerse#8 { D’imiter sa magnificence... }
 \livretVerse#12 { Dans ce noble sentier, que je suis loin de lui ! }

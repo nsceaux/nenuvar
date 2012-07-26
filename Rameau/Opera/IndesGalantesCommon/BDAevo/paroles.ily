@@ -1,8 +1,56 @@
-\tag #'(emilie basse) {
-  Il vous en -- tend, hé -- las ! com -- ment fuir sa co -- le -- re ?
+\vA {
+  \tag #'(osman basse) {
+    Es -- cla -- ve, je viens de t’en -- ten -- dre,
+    Ton cri -- me m’est con -- nu.
+  }
+  \tag #'(valere basse) {
+    Je ne m’en re -- pens pas.
+  }
+  \tag #'(emilie basse) {
+    Sei -- gneur, est- il cou -- pable ? he -- las !
+  }
+  \tag #'(osman basse) {
+    Vous l’ac -- cu -- sez en vou -- lant le def -- fen -- dre,
+    Vous pre -- ten -- dez en vain ca -- cher vôtre em -- bar -- ras,
+    Et re -- te -- nir les pleurs que je vous vois re -- pan -- dre.
+    Vous ce -- dez au pen -- chant de vô -- tre cœur trop ten -- dre ;
+    Ah ! du mien je sui -- vray les loix,
+    Je sçau -- ray me van -- ger ain -- si que je le dois.
+  }
+  \tag #'(emilie basse) {
+    Le bar -- ba -- re !
+  }
+  \tag #'(valere basse) {
+    J’at -- tens l’ar -- rest de ta co -- le -- re ;
+  }
+  \tag #'(emilie basse) {
+    Jus -- te ciel ! quel mo -- ment !
+  }
+  \tag #'(osman basse) {
+    Re -- çois de moy, Va -- le -- re,
+    E -- mi -- lie, et la li -- ber -- té.
+  }
+  \tag #'(emilie basse) {
+    Que di -- tes vous ! mais non, peut- il ê -- tre sin -- ce -- re :
+    Il veut trom -- per nos cœurs, c’est trop de cru -- au -- té.
+  }
+  \tag #'(osman basse) {
+    O ciel ! quelle in -- jus -- ti -- ce !
+    Quoy ! vous vous dé -- fi -- ez de ma sin -- ce -- ri -- té
+    Dans l’ins -- tant ou mon cœur vous fait le sa -- cri -- fi -- ce
+    Qui ja -- mais ait le plus cou -- té ?
+    Mais je le dois a la re -- con -- nois -- san -- ce.
+  }
+}
+\vB {
+  \tag #'(emilie basse) {
+    Il vous en -- tend, hé -- las ! com -- ment fuir sa co -- le -- re ?
+  }
+  \tag #'(osman basse) {
+    Ne crai -- gnez rien ; je dois trop à Va -- le -- re ;
+  }
 }
 \tag #'(osman basse) {
-  Ne crai -- gnez rien ; je dois trop à Va -- le -- re ;
   Os -- man fût son Es -- clave, et s’ef -- force au -- jour -- d’huy
   D’i -- mi -- ter sa ma -- gni -- fi -- cen -- ce...
   Dans ce no -- ble sen -- tier, que je suis loin de lui !

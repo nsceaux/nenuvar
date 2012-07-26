@@ -190,11 +190,38 @@
   \smallCaps { Emilie, Valere } en Esclave, \smallCaps Osman Bacha.
 }
 \livretRef #'BDAevo
-\livretPers\line { EMILIE, \fontsize #-1 { à \smallCaps Valere. } }
-%# Il vous entend, hélas ! comment fuir sa colere ?
-\livretPers\line { OSMAN, \fontsize #-1 { à \smallCaps Emilie. } }
-%# Ne craignez rien ; je dois trop à Valere ;
-\livretDidasP\line { Montrant \smallCaps Valere. }
+\livretPers OSMAN
+%# Esclave, je viens de t'entendre,
+%#- Ton crime m'est connu.
+\livretPers VALERE
+%#= Je ne m'en repens pas.
+\livretPers EMILIE
+%# Seigneur, est-il coupable ? *helas !
+\livretPers OSMAN
+%# Vous l'accusez en voulant le deffendre,
+%# Vous pretendez en vain cacher vôtre embarras,
+%# Et retenir les pleurs que je vous vois repandre.
+%# Vous cedez au penchant de vôtre cœur trop tendre ;
+%# Ah ! du mien je suivray les loix,
+%# Je sçauray me vanger ainsi que je le dois.
+\livretPers EMILIE
+%#- Le barbare !
+\livretPers VALERE
+%#= J'attens l'arrest de ta colere ;
+\livretPers EMILIE
+%# Juste ciel ! quel moment !
+\livretPers OSMAN
+%# Reçois de moy, Valere,
+%# Emilie, et la liberté.
+\livretPers EMILIE
+%# Que dites vous ! mais non, peut-il être sincere :
+%# Il veut tromper nos cœurs, c'est trop de cru=auté.
+\livretPers OSMAN
+%# O ciel ! quelle injustice !
+%# Quoy ! vous vous défi=ez de ma sincerité
+%# Dans l'instant ou mon cœur vous fait le sacrifice
+%# Qui jamais ait le plus couté ?
+%# Mais je le dois a la reconnoissance.
 %# Osman fût son Esclave, & s'efforce aujourd'huy
 %# D'imiter sa magnificence...
 %# Dans ce noble sentier, que je suis loin de lui !

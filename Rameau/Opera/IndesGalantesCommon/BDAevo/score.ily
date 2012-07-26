@@ -1,6 +1,9 @@
 \score {
   <<
     \origVersion\new StaffGroupNoBar <<
+      \vA\new Staff \withLyrics <<
+        \global \keepWithTag #'basse \includeNotes "voix"
+      >> \keepWithTag #'basse \includeLyrics "paroles"
       \new Staff \with { \haraKiriFirst } <<
         \global \includeNotes "dessus"
       >>
@@ -13,31 +16,39 @@
       \new Staff \with { \haraKiriFirst } <<
         \global \keepWithTag #'basson \includeNotes "basse"
       >>
-      \new Staff \withLyrics <<
+      \vB\new Staff \withLyrics <<
         \global \keepWithTag #'basse \includeNotes "voix"
       >> \keepWithTag #'basse \includeLyrics "paroles"
       \new Staff <<
         \global \keepWithTag #'basse \includeNotes "basse"
         \includeFigures "chiffres"
-        \origLayout {
-          s1*2 s2 \bar "" \break
-          s2 s1*2\break
-          s1*2 s4 \bar "" \break
-          s2 s2.*2\pageBreak
-          s2. s1 s2 \bar "" \break
-          s2 s1*2\break
-          s1 s2. s4 \bar "" \break
-          s2 s2.*2\break
-          s1*2\break
-          s1*2 s2 \bar "" \break
-          s2 s2. s2 \bar "" \break
-          \grace s16 s2 s2. s2 \bar "" \pageBreak
-          s2 s1 s4 s2*4 \break
-          s2. s1 s2 \bar "" \break
-          s2 s1*2\break
-          s1*2\break
-          s2. s1 s4 \bar "" \break
-          s2 s2. s2 \bar "" \pageBreak
+        \vA\origLayout {
+          s1*2 s2 \bar "" \break s4 s1 s2 \bar "" \break
+          s4 s1 s2.\break s2.*2 s4 \bar "" \pageBreak
+          s2 s2. s2 \bar "" \break s4 s2. s2 \bar "" \break
+          \grace s8 s2 s1 s2 \bar "" \break s4 s1\break s1*2\break
+          s1 s2. s1\pageBreak
+          s2. s1 s2 \bar "" \break s2 s2.*2\break
+          s2. s1 s4\bar "" \break s2 s1 s2. s4 \bar "" \break
+          s2 s2. s1*2\break s1 s2. s2 \bar "" \pageBreak
+          s4 s2.*2\break s1*2 s2 \bar "" \break
+          s2 s1 s2 \bar "" \break \grace s8 s2 s2.*2\break
+          s2.*2 s2 \bar "" \break s2 s1 s2 \bar "" \pageBreak
+          s2 s1*2\break \grace s8 s2. s1\break s2. s1*2\break
+          s4 s2*4 s2. s2 \bar "" \pageBreak
+          s2 s1*2 s2 \bar "" \break s2 s1 s2 \bar "" \break
+          s2 s2. s1 s2 \bar "" \break s4 s2.*2 s2\break
+        }
+        \vB\origLayout {
+          s1*2 s2 \bar "" \break s2 s1*2\break
+          s1*2 s4 \bar "" \break s2 s2.*2\pageBreak
+          s2. s1 s2 \bar "" \break s2 s1*2\break
+          s1 s2. s4 \bar "" \break s2 s2.*2\break
+          s1*2\break s1*2 s2 \bar "" \break
+          s2 s2. s2 \bar "" \break \grace s16 s2 s2. s2 \bar "" \pageBreak
+          s2 s1 s4 s2*4 \break s2. s1 s2 \bar "" \break
+          s2 s1*2\break s1*2\break
+          s2. s1 s4 \bar "" \break s2 s2. s2 \bar "" \pageBreak
           s4 s2 \bar "" \break
         }
       >>

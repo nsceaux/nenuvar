@@ -1,9 +1,45 @@
 \markup {
   \force-line-width-ratio #8/20 \fontsize #-2 \column {
-    \bold Emilie
-    \verse#12 { Il vous entend, hélas ! comment fuir sa colere ? }
-    \bold Osman
-    \verse#10 { Ne craignez rien ; je dois trop à Valere ; }
+    \vA {
+      \bold OSMAN
+      \verse#8 { Esclave, je viens de t’entendre, }
+      \verse#12 { Ton crime m’est connu. }
+      \bold VALERE
+      \verse#12 { \transparent { Ton crime m’est connu. } Je ne m’en repens pas. }
+      \bold EMILIE
+      \verse#8 { Seigneur, est-il coupable ? helas ! }
+      \bold OSMAN
+      \verse#10 { Vous l’accusez en voulant le deffendre, }
+      \verse#12 { Vous pretendez en vain cacher vôtre embarras, }
+      \verse#12 { Et retenir les pleurs que je vous vois repandre. }
+      \verse#12 { Vous cedez au penchant de vôtre cœur trop tendre ; }
+      \verse#8 { Ah ! du mien je suivray les loix, }
+      \verse#12 { Je sçauray me vanger ainsi que je le dois. }
+      \bold EMILIE
+      \verse#11 { Le barbare ! }
+      \bold VALERE
+      \verse#11 { \transparent { Le barbare ! } J’attens l’arrest de ta colere ; }
+      \bold EMILIE
+      \verse#6 { Juste ciel ! quel moment ! }
+      \bold OSMAN
+      \verse#6 { Reçois de moy, Valere, }
+      \verse#8 { Emilie, et la liberté. }
+      \bold EMILIE
+      \verse#12 { Que dites vous ! mais non, peut-il être sincere : }
+      \verse#12 { Il veut tromper nos cœurs, c’est trop de cruauté. }
+      \bold OSMAN
+      \verse#6 { O ciel ! quelle injustice ! }
+      \verse#12 { Quoy ! vous vous défiez de ma sincerité }
+      \verse#12 { Dans l’instant ou mon cœur vous fait le sacrifice }
+      \verse#8 { Qui jamais ait le plus couté ? }
+      \verse#10 { Mais je le dois a la reconnoissance. }
+    }
+    \vB {
+      \bold Emilie
+      \verse#12 { Il vous entend, hélas ! comment fuir sa colere ? }
+      \bold Osman
+      \verse#10 { Ne craignez rien ; je dois trop à Valere ; }
+    }
     \verse#12 { Osman fût son Esclave, & s’efforce aujourd’huy }
     \verse#8 { D’imiter sa magnificence... }
     \verse#12 { Dans ce noble sentier, que je suis loin de lui ! }
