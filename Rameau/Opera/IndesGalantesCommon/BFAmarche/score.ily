@@ -18,12 +18,15 @@
         \global \includeNotes "basson"
       >>
       \new Staff <<
-        \modVersion\instrumentName "[Basses]"
+        \vA\modVersion\instrumentName "Basses"
+        \vB\modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
-        \origLayout {
+        \vA\origLayout {
+          s4 s2*8 s4 \bar "" \break s4 s2*9\pageBreak
+        }
+        \vB\origLayout {
           s4 s2*6 s4 \bar "" \pageBreak
-          s4 s2*6\break
-          s2*5\break
+          s4 s2*6\break s2*5\break
         }
       >>
     >>

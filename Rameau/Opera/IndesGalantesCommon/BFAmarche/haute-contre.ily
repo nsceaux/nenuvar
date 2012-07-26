@@ -4,9 +4,9 @@ sol' fad' |
 sol' sol' |
 fad' sol' |
 sol' sol' |
-fad' sol' |
+\vA { sol' fad' } \vB { fad' sol' } |
 sol' re' |
-re'\fermata si'16 la' sol' fad' |
+re'-\vB\fermata si'16 la' sol' fad' |
 sol'4 do'' |
 si' la' |
 do'' la' |

@@ -1,4 +1,5 @@
-\clef "basse" sol,4_"Tous" |
+\clef "basse" \vB <>_"Tous" \vA\origVersion <>-"Basses"
+sol,4 |
 sol, sol, |
 sol, sol, |
 sol, sol, |
@@ -6,7 +7,7 @@ sol, sol, |
 sol, sol, |
 sol, sol, |
 sol, sol, |
-sol,\fermata sol, |
+sol,-\vB\fermata sol, |
 sol, sol, |
 sol, sol, |
 sol, sol, |
