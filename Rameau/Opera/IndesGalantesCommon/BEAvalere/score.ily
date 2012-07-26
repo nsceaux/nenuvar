@@ -8,11 +8,13 @@
       \modVersion\instrumentName "[B.C.]"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout {
-        s8 s2 s1*2\break
-        s2. s1*2\break
-        s1*3\break
-        s1*3\break
+      \vA\origLayout {
+        s8 s2 s1*2 s2.\break \grace s8 s1*4\pageBreak
+        \grace s8 s1*4\break
+      }
+      \vB\origLayout {
+        s8 s2 s1*2\break s2. s1*2\break
+        s1*3\break s1*3\break
       }
     >>
   >>
