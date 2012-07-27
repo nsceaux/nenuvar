@@ -16,10 +16,13 @@
       \new Staff <<
         \modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
-        \origLayout {
+        \vA\origLayout {
+          s4 s1*6 s2 \bar "" \pageBreak
+          s2 s1*10\break
+        }
+        \vB\origLayout {
           s4 s1*4 s2 \bar "" \pageBreak
-          s2 s1*5 s2 \bar "" \break
-          s2 s1*6\break
+          s2 s1*5 s2 \bar "" \break s2 s1*6\break
         }
       >>
     >>

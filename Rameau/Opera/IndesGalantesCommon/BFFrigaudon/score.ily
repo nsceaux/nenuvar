@@ -18,9 +18,11 @@
         \modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
         \origVersion { s4 s1*7 s2._\markup\large\italic fin }
-        \origLayout {
-          s4 s1*6 s2 \bar "" \break
-          s2 s1*6\break
+        \vA\origLayout {
+          s4 s1*8\break s1*5\break
+        }
+        \vB\origLayout {
+          s4 s1*6 s2 \bar "" \break s2 s1*6\break
         }
       >>
     >>
