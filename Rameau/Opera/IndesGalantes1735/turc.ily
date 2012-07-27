@@ -126,38 +126,31 @@
 \includeScore "BFEvalere"
 
 %{ n°20 %}
+\pieceToc\markup\wordwrap { EMILIE :
+  \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
+\includeScore "BFKariette"
+
+%{ n°21 %}
 \pieceTocTitle "Premier Rigaudon"
 \includeScore "BFFrigaudon"
 
-%{ n°21 %}
+%{ n°22 %}
 \pieceTocTitle "Deuxieme Rigaudon"
 \includeScore "BFGrigaudon"
 
-%{ n°22 %}
+%{ n°23 %}
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Fuyez, fuyez Vents orageux } }
 \includeScore "BFHemilie"
 
-%{ n°23 %}
+%{ n°24 %}
 \pieceTocTitle "Premier Tambourin"
 \includeScore "BFItambourin"
 \origVersion\noPageBreak
 
-%{ n°24 %}
+%{ n°25 %}
 \pieceTocTitle "Deuxieme Tambourin"
 \includeScore "BFJtambourin"
-
-%{ n°25 %}
-\pieceToc\markup\wordwrap { EMILIE :
-  \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
-\includeScore "BFKariette"
-\markup\column {
-  \italic\huge\fill-line {
-    \line { On reprend les deux Tambourins page \page-refII #'BFItambourin . }
-  }
-  \vspace #2
-}
-\origVersion\pageBreak
 
 %{ n°26 %}
 \pieceToc\markup\wordwrap { EMILIE :

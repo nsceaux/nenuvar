@@ -20,7 +20,7 @@ do''8 do''16 do'' re''8 mi'' |
 fa''4~\melisma fa''16[ sol'' fa'' mi''] |
 fa''4~ fa''16[ sol'' fa'' mi'']( |
 fa''4)\melismaEnd fa''8 r |
-la'8 sib'16 la' sol'8 fa' |
+la'8 sib'16 la' \vA { sol'8.\trill fa'16 } \vB { sol'8 fa' } |
 do''2~ |
 do''~ |
 do''~ |
@@ -45,18 +45,20 @@ fa'~ |
 fa'~ |
 fa' |
 do''4 re''8. mib''16 |
-do''8 sib'16[ la'] sol'[ fa'] sib'8 |
+do''8-\vA\trill sib'16[ la'] sol'[ fa'] sib'8 |
 sib'4.( la'8) |
 sib'2 |
-R2*6 |\allowPageTurn
+\vA R2 \vB R2*6 |
+\vA <>^\markup\bold Lent
 r4 r8 fa'' |
 fa''2~ |
-fa''16[\melisma mib'' re'' mib''32 fa''] fa''8.[\trill mib''32 fa'']( |
-sol''2)~ |
+fa''16[\melisma mib'' re'' mib''32 fa''] fa''8.[\trill mib''32 fa'']-\vB( |
+sol''2-\vB)~ |
 sol''4\melismaEnd r8 sol'' |
 do''2~ |
 do'' |
 R2 |
+\vA <>^\markup\bold Lent
 r4 fa''8 mib''16 re'' |
 do''4.\trill sib'8 |
 sib'2 |
@@ -66,7 +68,7 @@ re'2~ |
 re' |
 la'8 la'16 sib' do''8. re''16 |
 la'2\trill |
-la'8 sol'16 fad' sol'8 la' |
+la'8 sol'16 fad' \vA { sol'8. la'16 } \vB { sol'8 la' } |
 sib'4( la')\trill |
 sol'2 |
 re''8 re''16 re'' mib''8. mib''16 |
@@ -79,21 +81,22 @@ fa''8 mib''16 re'' do''[ sib'] la'[ sol'] |
 fa'2 |
 do''8 do''16 sib' do''8 re'' |
 mib''4 mib''8 r |
-re''8 re''16 do'' re''8. mib''16 |
+re''8 re''16 do'' re''8.-\vA\trill mib''16 |
 fa''2~ |
 fa''~ |
 fa''~ |
 fa'' |
 do''4 re''8. mib''16 |
-\appoggiatura re''16 do''8\trill \appoggiatura sib'16 la'8 \appoggiatura sol'16 fa'8. sib'16 |
+\vB\appoggiatura re''16 do''8\trill \vA\acciaccatura sib'8 \vB\appoggiatura sib'16 la'8 \appoggiatura { \vA sol'8 \vB sol'16 } fa'8. sib'16 |
 sib'4.( la'8) |
 sib'2 |
-R2*6 |
+\vA R2 \vB R2*6 |
+\vA <>^\markup\bold Lent
 r4 r8 fa'' |
 fa''2~ |
-fa''16[\melisma mib'' re'' mib''32 fa''] fa''8.[\trill mib''32 fa'']( |
-sol''2)~ |
-sol''4\melismaEnd r8 sol'' |
+fa''16[\melisma mib'' re'' mib''32 fa''] fa''8.[\trill mib''32 fa'']-\vA( |
+sol''2-\vA)~ |
+\vA { sol''4.\melismaEnd } \vB { sol''4\melismaEnd r8 } sol'' |
 do''2~ |
 do'' |
 R2*2 |
