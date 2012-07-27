@@ -117,7 +117,7 @@
 \includeScore "BFCchoeur"
 
 %{ n°18 %}
-\pieceTocTitle "Air pour les esclaves afriquains"
+\pieceTocTitle "Air pour les esclaves affricains"
 \includeScore "BFDair"
 
 %{ n°19 %}

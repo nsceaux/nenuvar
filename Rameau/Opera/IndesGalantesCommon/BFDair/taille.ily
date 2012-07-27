@@ -12,10 +12,10 @@ sol'4 fa'8 mi' re'4 re' |
 re'4 sol'2 mi'4 |
 re'2 re'~ |
 re'4 sol'2 sol'4 |
-fad'2.\trill r4 |
+fad'2.-\vB\trill r4 |
 r do' la re' |
 re'2 mib' |
-\appoggiatura re'8 do'2 si |
+\appoggiatura re'8 do'2 si-\vA\trill |
 do' sol' |
 fa' fa' |
 fa'4 sib' la'2 |
@@ -23,7 +23,7 @@ sol' sol' |
 sol'4 do'' si'2 |
 la'2 la' |
 la'2. fad'4 |
-sol' re' fa' sol |
+sol' re' fa'! sol |
 sol2 fa |
 fa4 sol la2 |
 la r |

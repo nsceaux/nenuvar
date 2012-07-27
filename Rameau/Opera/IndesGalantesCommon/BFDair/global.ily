@@ -3,5 +3,7 @@
 \tempo "Lourdement"
 s4 s1*13 s2.
 \origVersion \bar "|:|"
-\modVersion\bar ":|:"
-s4 s1*19 s2. \bar "|."
+\modVersion\bar ":|"
+s4 s1*19 s2.
+\vA { \origVersion \bar "|:|" \modVersion\bar ":|" }
+\vB\bar "|."
