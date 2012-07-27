@@ -1,7 +1,7 @@
-\clef "dessus" r8^"Tous" sol' |
+\clef "dessus" \vB<>^"Tous" r8 sol' |
 sib' la' sol' la' sib' do'' |
 re''2~ re''8. sol''16 |
-fad''2\trill r8 re'' |
+fad''2-\vB\trill r8 re'' |
 mib'' re'' do'' sib' la' do'' |
 re'' do'' sib' la' sol' sib' |
 do'' sib' la' sib' sol' la' |
@@ -14,10 +14,10 @@ sol''8 la'' fad''4.\trill sol''8 |
 sol''2 r8 sol' |
 sib' la' sol' la' sib' do'' |
 re''2~ re''8 sol'' |
-fad''2\trill r8 sol'' |
+fad''2-\vB\trill r8 sol'' |
 re''2. |
 re''4 do''8 sib' la' sib' |
-sib'4\trill \appoggiatura la'16 sol'4 r8 re'' |
+sib'4\trill \appoggiatura { \vA la'8 \vB la'16 } sol'4 r8 re'' |
 mib'' re'' do'' sib' la' do'' |
 re'' do'' sib' la' sol' sib' |
 do''2. |
@@ -35,8 +35,8 @@ sib'2 r8
   \setMusic #'I {
     re''8 |
     re'' mi'' re'' mi'' fa'' sol'' |
-    mi'' fa'' mi'' fad''? sol'' la'' |
-    fad''4 sol'' la'' |
+    mi'' fa'' mi'' \vA fad'' \vB fad''? sol'' la'' |
+    fad''4-\vA\trill sol'' la'' |
     re'' do'' sib' |
     la'2\trill
   }
@@ -55,7 +55,7 @@ sib'2 r8
 r8 re' |
 re' mi' fad' sol' la' sib' |
 do'' re'' mib''4. re''16 do'' |
-sib'4\trill \appoggiatura la'16 sol'4 r8 sol'' |
+sib'4\trill \appoggiatura { \vA la'8 \vB la'16 } sol'4 r8 sol'' |
 sol''2.~ |
 sol''~ |
 sol''~ |
@@ -91,12 +91,18 @@ sol''2. |
 r4 mi'' la' |
 fa''2.~ |
 fa''4 mi'' re'' |
-re'' re'' dod'' |
-re''2 r8 sib' |
-la'2~ la'8 sol'16 fad' |
-sol'4. la'16 sib' la'8 sol'16 fad' |
-sol'4. la'16 sib' la'8( sib'16 sol') |
-fad'2\trill r8 fad' |
+re'' re'' dod''-\vA\trill |
+re''2
+%%
+\vA { r4 | R2.*6 | r4 r r8 re' | }
+\vB {
+  r8 sib' |
+  la'2~ la'8 sol'16 fad' |
+  sol'4. la'16 sib' la'8 sol'16 fad' |
+  sol'4. la'16 sib' la'8( sib'16 sol') |
+  fad'2\trill r8 re' |
+}
+%%
 re' mi' fad' sol' la' sib' |
 do'' re'' mib''4. la'8 |
 sib'2 r8 sol'' |
@@ -115,17 +121,25 @@ do''2
   \setMusic #'I {
     do''8 re'' |
     sib'4.\trill la'8 sib'4 |
-    la'2\trill
+    \vA la'2.\trill \vB la'2\trill
   }
   \setMusic #'II {
     la'8 la' |
     re'4. re'8 sol'4 |
-    fad'2
+    \vA fad'2. \vB fad'2
   }
   \tag #'dessus1 \I
   \tag #'dessus2 \II
   \tag #'dessus << \I \\ \II >>
 >>
+\vA {
+ R2.*4 |
+ r4 r r8 sib' |
+ la'2~ la'8 sol'16 fad' |
+ sol'4.( la'16 sib') la'8( sol'16\trill fad') |
+ sol'4.( la'16 sib') la'8( sib'16 sol') |
+ fad'2\trill
+}
 r8 re'' |
 re''2.~ |
 re''2 r8 do'' |
@@ -136,10 +150,11 @@ re''2 re''8 la' |
 sib'4 la'4.\trill sol'8 |
 sol'2. |
 re''4 re''8 re'' mi'' fa'' |
-mi''2 mi''8 fad'' |
+mi''2-\vA\trill mi''8 fad'' |
 sol''2.~ |
 sol''2 sol''8 fad'' |
-sol''^"Gay" fa'' mib'' re'' do'' sib' |
+\vB<>^"Gay"
+sol'' fa'' mib'' re'' do'' sib' |
 mib'' re'' do'' sib' la' sol' |
 re' mi' fad' sol' la' sib' |
 do''4. re''8 sib'4\trill~ |

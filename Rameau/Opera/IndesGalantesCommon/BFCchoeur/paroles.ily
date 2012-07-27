@@ -9,10 +9,12 @@
   Si vous nous con -- dui -- sez, tous nos vœux sont rem -- plis.
   Si vous nous con -- dui -- sez, tous nos vœux sont rem -- plis,
   tous nos vœux __ tous nos vœux sont rem -- plis.
+  \vA { Vo -- lez, __ ten -- dres A -- mants de Flo -- re ; }
   Vo -- lez, __ Ze -- phirs,
   Vo -- lez, Vo -- lez, ten -- dres A -- mants de Flo -- re ;
   Vo -- lez, __ Vo -- lez, ten -- dres A -- mants de Flo -- re ;
   Si vous nous con -- dui -- sez, tous nos vœux sont rem -- plis.
+  \vA { Si vous nous con -- dui -- sez, tous nos vœux sont rem -- plis. }
   Vo -- lez, __ Vo -- lez, Ze -- phirs,
   Si vous nous con -- dui -- sez, tous nos vœux sont rem -- plis.
   Si vous nous con -- dui -- sez, tous nos vœux __ sont rem -- plis.
@@ -31,9 +33,15 @@
   Si vous nous con -- dui -- sez, tous nos vœux sont rem -- plis,
   tous nos vœux sont rem -- plis,
   tous nos vœux, tous nos vœux sont rem -- plis.
+  \vA\tag #'vhaute-contre {
+    Vo -- lez, __ vo -- lez Ze -- phirs, Vo -- lez, ten -- dres A -- mants de Flo -- re ;
+  }
   Vo -- lez, __ Ze -- phirs, Vo -- lez, Vo -- lez, Vo -- lez, 
   Vo -- lez, ten -- dres A -- mants de Flo -- re ;
   Si vous nous con -- dui -- sez, tous nos vœux sont rem -- plis.
+  \vA\tag #'vhaute-contre {
+    tous nos vœux, tous nos vœux sont rem -- plis.
+  }
   Si vous nous con -- dui -- sez, tous nos vœux sont rem -- plis,
   tous nos vœux, tous nos vœux sont rem -- plis,
   tous nos vœux, tous nos vœux __ sont rem -- plis.

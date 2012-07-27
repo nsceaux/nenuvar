@@ -22,7 +22,7 @@ do'2 r8 do |
 fa2.~ |
 fa |
 fa4 sol8 sol lab fa |
-sol2. |
+\vA { sol4( sol,2) } \vB sol2. |
 do2. |
 R2.*4 |
 sib4 sib8 sib sib sib |
@@ -35,8 +35,12 @@ R2. |
 r4 la re |
 sib sol mi |
 la la la, |
-re2 r4 |
-R2.*5 |
+re2
+%%
+\vA { r4 | R2.*7 | }
+\vB { r4 | R2.*4 | }
+%%
+R2. |
 r4 r r8 re |
 sol2 r4 |
 R2. |
@@ -49,6 +53,7 @@ mib4 mib8 re do sib, |
 fa2. |
 sib, |
 R2.*4 |
+\vA { R2.*9 }
 sib4 sib8 sib sib sol |
 do'2 do'8 la |
 re'4. do'8 re'4 |

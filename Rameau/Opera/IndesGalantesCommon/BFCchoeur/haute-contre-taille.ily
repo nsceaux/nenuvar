@@ -1,7 +1,7 @@
 \tag #'haute-contre \clef "haute-contre"
 \tag #'taille \clef "taille"
 r4 |
-r r r8 sol' |
+r r r8 la' |
 sol' la' sib' do'' re'' mib'' |
 la'2 r8 si' |
 do'' re'' mib''4. la'8 |
@@ -63,11 +63,17 @@ R |
 r4 re'' re'' |
 re'' sib' sol' |
 mi' mi' la |
-la2 r8 re' |
-mib'2 re'8 do' |
-sib4. re'8 mib' re' |
-\appoggiatura do'8 sib2 mib'4 |
-la2 r4 |
+la2
+%%
+\vA { r4 | R2.*7 | }
+\vB {
+  r8 re' |
+  mib'2 re'8 do' |
+  sib4. re'8 mib' re' |
+  \appoggiatura do'8 sib2 mib'4 |
+  la2 r4 |
+}
+%%
 R2.*2 |
 r4 r r8 sol |
 sol la si do' re' mib' |
@@ -83,6 +89,7 @@ sib4 do'8 re' do' re' |
 mib'2 fad8 fad |
 sol4. fad8 sol4 |
 re'2. |
+\vA { R2.*9 }
 sol'4 sol'8 sol' sol' sol' |
 sol'2 la'8 la' |
 la'2 la'4 |

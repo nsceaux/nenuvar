@@ -5,7 +5,7 @@ sol'2 r8 sib' |
 la'2~ la'8 sib' |
 do''2. |
 sib'4 la'8 sol' sol' fad' |
-sol'4 sol' r8 sol' |
+sol'4 \vA { sol'8 r } \vB sol'4 r8 sol' |
 do'2 r8 fa' |
 sib2. |
 mib'4 mib'8 re' do' sib |
@@ -34,21 +34,36 @@ mib'4. do'8 fa' lab' |
 sol'2. |
 lab'4 sol'8 fa' fa' lab' |
 sol'2. |
-mib' |
+\vA { mib'2 r4 } \vB mib'2. |
 R2.*3 |
 la'4 la'8 la' la' la' |
 re'4 re' re' |
 sol' sol' sol' |
-dod'2. |
+dod'2.-\vA\trill |
 r4 dod' dod' |
 mi' mi' mi' |
-mi'2. |
+\vA mi'?2. \vB mi'2. |
 R |
 r4 la' la' |
 la' sol' sol' |
 mi' mi' la' |
-fad'2\trill r4 |
-R2.*6 |
+fad'2-\vB\trill
+%%
+\vA {
+  <>^\markup\character Valere
+  r8 sib |
+  la8.[\melisma sib16]( la4. sol16\trill)[ fad] |
+  sol4~ sol16[ la sib do'] re'[ mib' do' re']( |
+  mib'8)\melismaEnd re' re'4( do'8\trill) sib16[ la] |
+  sib2 r8 sib' |
+  sib'2. |
+  la'4 la'8 sib' la' sol' |
+  fad'2\trill fad'8
+  <>^\markup\character Chœur r |
+}
+\vB { r4 | R2.*4 }
+%%
+R2.*2 |
 r4 r r8 sol |
 sol[ la si do' re' mib']( |
 fa') sol' lab'4. re'8 |
@@ -63,9 +78,18 @@ sib4 do'8 re' do' re' |
 mib'2 fad8 fad |
 sol4. fad8 sol4 |
 re'2. |
+\vA {
+  <>^\markup\character Valere
+  r4 re'4. re'8 |
+  re'8.([ do'16)] do'4. re'8 |
+  do'2( sib8)\trill[ la] |
+  sib4( la4.)\trill sol8 |
+  sol2. |
+  R2.*4 |
+}
 re'4 re'8 re' mi' fa' |
-mi'2 mi'8 mi' |
-fad'4.\trill mi'8 fad'4 |
+mi'2-\vA\trill mi'8 mi' |
+fad'4.-\vB\trill mi'8 fad'4 |
 sol'2. |
 r4 do'4. do'8 |
 do'4 la'4. la'8 |
