@@ -1,13 +1,19 @@
 \keys sol \minor
-\markUpBegin\mark "Ariette"
+\vA\tempo "Gayment"
+\vB { \markUpBegin\mark "Ariette" }
 \digitTime \time 2/2 \midiTempo #160
 \partial 4
-s4 s1*4
+s4 \vB s1*4
 \modVersion { \segnoMark \bar "||" }
 \origVersion <>^\markup\musicglyph #"scripts.segno"
-s1*40 s2
-\fineMark
-\origVersion\once\override Score.RehearsalMark #'direction = #UP
+s1*40
+\vA\origVersion<>^\markup\large\italic fin
+s2
+\vA\modVersion\fineMark
+\vB {
+  \fineMark
+  \origVersion\once\override Score.RehearsalMark #'direction = #UP
+}
 s2 s1*16
 \time 3/2 s1. \digitTime \time 2/2
 \modVersion {
@@ -19,4 +25,5 @@ s2 s1*16
   s4 \once\override TextScript #'extra-offset = #'(0 . -4)
   s2.^\markup\musicglyph #"scripts.segno"
 }
-\bar "|."
+\vA { \modVersion\bar "|." \origVersion\bar "|:|" }
+\vB\bar "|."

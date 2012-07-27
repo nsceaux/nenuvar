@@ -1,8 +1,12 @@
-\clef "basse" r4 |
-r2 r4 sol8 la |
-sib4 sib8 sib sib4 sib |
-sib mib'~ mib'8 re' do' mib' |
-re' sol fa mib re4 r |
+\clef "basse"
+\vB {
+  r4 |
+  r2 r4 sol8 la |
+  sib4 sib8 sib sib4 sib |
+  sib mib'~ mib'8 re' do' mib' |
+  re' sol fa mib re4
+}
+r4 |
 R1 |
 r2 r4 sol8 la |
 sib4 sib8 sib sib4 sib |
@@ -12,16 +16,16 @@ mib'2 re' |
 sol r |
 R1 |
 r2 r4 sol8 la |
-sib4 sib8 sib sib4 re' |
+sib4 sib8 sib sib4 sib4 |
 sib re' r2 |
 mib fa |
-sib, r4 sib8 la16 sol |
+sib, r4 sib8 \vA sol \vB { la16 sol } |
 do'2 r4 sib8 la |
-sib2 r4 sol |
+sib2 r4 \vA { r8 sol } \vB sol4 |
 la2 re |
 sol4 re sib, r |
-r sol8 la sib4 la8 sol |
-do'4 sib8 la sib4 la8 sol |
+r sol8 la sib4 la8-\vA\trill sol |
+do'4 sib8 la sib4 la8-\vA\trill sol |
 fad2 r8 re' re fad |
 sol2 r8 sol re sol |
 si,2 r4 r8 sol, |
@@ -41,7 +45,7 @@ do2 r4 dod |
 re2 r4 re |
 mib2 r4 la, |
 sib,4. do8 re4 re, |
-sol,1\fermata |
+sol,1-\vB\fermata |
 r2 r4 sol8 la |
 sib4 sib8 sib sib4 re' |
 sol sol, r sib |
@@ -49,11 +53,11 @@ re2 r4 re |
 mib2 fa |
 sib, r4 sib, |
 sib, la, sol, do |
-fa,2. fa4 |
+\vA { fa,2 r4 } \vB fa,2. fa4 |
 sol la sib sol |
 la2 r |
 R1 |
-r2 r4 dod8 re |
+r2 r4 dod8-\vA\fort re |
 mi4 mi8 mi mi4 mi |
 mi sol2 sol4 |
 sol sib2~ sib8 do'16 sib |
