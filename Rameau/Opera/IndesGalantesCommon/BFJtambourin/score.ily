@@ -18,12 +18,17 @@
         \global \includeNotes "basson"
       >>
       \new Staff <<
-        \modVersion\instrumentName "[Basses]"
+        \modVersion {
+          \vA\instrumentName "Basses"
+          \vB\instrumentName "[Basses]"
+        }
+        \origVersion\vA <>_"Basses"
         \global \includeNotes "basse"
-        \origLayout {
-          s4 s2*2 s4 \bar "" \break
-          s4 s2*7\break
-          s2*6\pageBreak
+        \vA\origLayout {
+          s4 s2*8\pageBreak s2*8\break
+        }
+        \vB\origLayout {
+          s4 s2*2 s4 \bar "" \break s4 s2*7\break s2*6\pageBreak
         }
       >>
     >>
@@ -31,9 +36,11 @@
     \modVersion\new StaffGroup \group
   >>
   \layout {
-    indent = #(if (eqv? #t (ly:get-option 'urtext))
-                  (* 10 cm)
-                  largeindent)
+    indent = #(if (not (eqv? #t (ly:get-option 'urtext)))
+                  largeindent
+                  (if (eqv? 'v175x (ly:get-option 'indes-version))
+                      (* 10 cm)
+                      smallindent))
   }
   \midi { }
 }

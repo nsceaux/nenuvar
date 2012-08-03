@@ -8,7 +8,7 @@
   sol, sol, |
   sol, sol, |
   sol, sol, |
-  sol,\fermata
+  sol,-\vB\fermata
 }
 \keepWithTag #'() \rondeauI
 sol, |
@@ -16,7 +16,7 @@ sol, sol, |
 sol, sol, |
 sol, sol, |
 sol, r4 |
-r sol, |
+r \vA la, \vB sol, |
 la, fad, |
 fad, fad, |
 fad, fad, |

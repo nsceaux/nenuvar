@@ -8,7 +8,7 @@
   R2 |
   r4 re' |
   re'8 mib' re'4 |
-  re'\fermata
+  re'-\vB\fermata
 }
 \keepWithTag #'() \rondeauII
 r4 |

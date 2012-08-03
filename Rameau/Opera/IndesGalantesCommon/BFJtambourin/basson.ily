@@ -8,7 +8,7 @@
   r sol' |
   sol sol16 la sib do' |
   sib8 do' re' re |
-  sol4\fermata
+  sol4-\vB\fermata
 }
 \keepWithTag #'() \rondeauII
 r4 |

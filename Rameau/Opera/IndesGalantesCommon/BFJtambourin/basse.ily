@@ -8,7 +8,7 @@
   R2 |
   r4 sol, |
   sol, sol, |
-  sol,\fermata
+  sol,-\vB\fermata
 }
 \keepWithTag #'() \rondeauII
 r4 |
