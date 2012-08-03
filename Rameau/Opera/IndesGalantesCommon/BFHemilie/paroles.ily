@@ -9,4 +9,5 @@ The -- tis dans ce beau jour,
 N’en sert que mieux l’A -- mour.
 
 \modVersion Fuy_-
-\origVersion { Fuy -- ez, }
+\origVersion\vB { Fuy -- ez, }
+\origVersion\vA { Fuy -- ez,_&c }

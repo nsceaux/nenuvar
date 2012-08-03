@@ -8,11 +8,13 @@
       \new Staff <<
         \global \includeNotes "basse"
         \includeFigures "chiffres"
-        \origLayout {
-          s4 s1*4\break
-          s1*4\pageBreak
-          s1*5\break
-          \grace s8 s1*4\break
+        \vA\origLayout {
+          s4 s1*3\break s1*3 s2 \bar "" \pageBreak
+          s2 s1*5\break s1*5\break
+        }
+        \vB\origLayout {
+          s4 s1*4\break s1*4\pageBreak
+          s1*5\break \grace s8 s1*4\break
         }
       >>
     >>
@@ -26,7 +28,10 @@
         \global \includeNotes "voix"
       >> \includeLyrics "paroles"
       \new Staff <<
-        \instrumentName\markup\center-column { Bassons [B.C.] }
+        \instrumentName\markup\center-column {
+          \line { \vB Bassons \vA { Basson seul } }
+          [B.C.]
+        }
         \global \includeNotes "basse"
         \includeFigures "chiffres"
       >>
