@@ -159,23 +159,21 @@
 
 %{ n°27 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
-\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
- "BFFrigaudon" "BFMrigaudon"
-\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
-"BFGrigaudon" "BFNrigaudon"
+\includeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
+ "BFItambourin" "BFMtambourin"
 \markup\orig-version\fill-line {
   \column {
     \vspace #5
-    \italic\large\line { Les Rigaudons pour entr'acte }
     \score {
       { \key sol \major \digitTime\time 2/2 \clef "french"
-        \partial 4 sol''4 | si'' la'' re'' fad'' | sol'' do'' si' mi'' |
-        re'' do'' si'8 la' sol' fad' | \custosNote sol'4 \bar "|." }
+        \partial 4  \custosNote sol'4 \bar "|." }
       \layout { indent=0 }
     }
-    \italic\line { \hspace #5 a la page \page-refII #' BFFrigaudon . }
+    \italic\large\line {
+      Le Tambourin pour entr'acte [page \page-refII #'BFItambourin ]
+    }
     \vspace #5
   }
 }
-\actEnd "FIN DE LA PREMIERE ENTRÉE"
-\markup\orig-version\vspace #15
+\actEnd "[FIN DE LA PREMIERE ENTRÉE]"
+
