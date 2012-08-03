@@ -101,7 +101,7 @@
   Faut- il que ce que j'aime à mon Ri -- val se li -- "vre ?"
 }
 \tag #'(libye basse) {
-  Plai -- gnez- moy se souf -- frir un si cru -- el tour -- ment.
+  Plai -- gnez- moy de souf -- frir un si cru -- el tour -- ment.
 }
 \tag #'(epaphus basse) {
   Vous vi -- vrez pour un autre A -- mant,

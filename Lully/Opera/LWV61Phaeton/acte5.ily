@@ -69,7 +69,7 @@
 }
 \includeScore "FDDbergere"
 
-%{ n°8 %}
+%{ n°8 %}\newBookPart #'(full-rehearsal)
 \scene "Scene V" "SCENE 5 : Theone, Clymene, chœur"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps { Theone, Merops, Clymene, }

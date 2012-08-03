@@ -97,7 +97,7 @@
     \bold Libie
     \line { \transparent { Vous l'abandonnerés. } Que ne puis-je le suivre ! }
     \bold Epaphus
-    \line { Faut-il que ce que j'aime à mon Rivak se livre ? }
+    \line { Faut-il que ce que j'aime à mon Rival se livre ? }
     \bold Libie
     \line { Plaignés-moi de souffrir un si cruel tourment. }
     \bold Epaphus

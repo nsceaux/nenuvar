@@ -212,7 +212,7 @@
   \livretPers LIBIE
   \livretVer { \transparent { Vous l'abandonnerés. } Que ne puis-je le suivre ! }
   \livretPers EPAPHUS
-  \livretVer { Faut-il que ce que j'aime à mon Rivak se livre ? }
+  \livretVer { Faut-il que ce que j'aime à mon Rival se livre ? }
   \livretPers LIBIE
   \livretVer { Plaignés-moi de souffrir un si cruel tourment. }
   \livretPers EPAPHUS

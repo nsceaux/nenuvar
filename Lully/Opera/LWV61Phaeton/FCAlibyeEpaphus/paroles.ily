@@ -66,7 +66,7 @@
 \tag #'(epaphus basse) {
   %% Epaphus
   L'es -- pe -- ran -- ce la plus vai -- ne
-  Flate un mal -- hau -- reux A -- mant.
+  Flate un mal -- heu -- reux A -- mant.
 }
 \tag #'(libye basse) {
   %% Libye
