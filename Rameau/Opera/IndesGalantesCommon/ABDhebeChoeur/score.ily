@@ -27,13 +27,19 @@
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
       %% Flutes
       \new Staff \with { \haraKiriFirst } <<
-        \vA { s8 s2.*16 <>_"petite flute" s2.*13 s2 \startHaraKiri }
-        \vB { s8 s2.*14 s2.*15^"Petites flutes" s2 \startHaraKiri }
+        \vA {
+          s8 s2.*16 <>_"petite flute" s2.*13 s2
+          \startHaraKiri s4 s2.*31 s2 \stopHaraKiri
+        }
+        \vB { s8 s2.*14 <>^"Petites flutes" s2.*15 s2 \startHaraKiri }
         \global \keepWithTag #'flute1 \includeNotes "dessus"
       >>
       \new Staff \with { \haraKiriFirst } <<
-        \vA { s8 s2.*16 <>_"petite flute" s2.*13 s2 \startHaraKiri }
-        \vB { s8 s2.*14 s2.*15^"Petites flutes" s2 \startHaraKiri }
+        \vA {
+          s8 s2.*16 <>_"petite flute" s2.*13 s2
+          \startHaraKiri s4 s2.*31 s2 \stopHaraKiri
+        }
+        \vB { s8 s2.*14 <>^"Petites flutes" s2.*15 s2 \startHaraKiri }
         \global \keepWithTag #'flute2 \includeNotes "dessus"
       >>
       %% Musettes, dessus
@@ -65,7 +71,7 @@
           s2.*13 s2
           \startHaraKiri s4 s2.*5
           \stopHaraKiri s2.*13
-          \startHaraKiri
+          \startHaraKiri s4 s2.*13 s2 \stopHaraKiri
         }
         \vB\noHaraKiri
       >>
@@ -97,7 +103,7 @@
           s2.*7 s2 \bar "" \break s4 s2.*5\pageBreak
           s2.*6\break s2.*7\pageBreak
           s2.*5\break s2.*5\pageBreak
-          s2.*3 s2\pageBreak
+          s2.*3 s2 \bar "" \break s4 s2.*6\pageBreak
         }
         \vB\origLayout {
           s8 s2.*4\break s2.*5\break s2.*5\pageBreak
@@ -125,11 +131,13 @@
         shortInstrumentName = "fl" }
       <<
         \new Staff \with { \haraKiriFirst } <<
-          { \noHaraKiri s8 s2.*14 s2.*15 s2 \startHaraKiri }
+          { \noHaraKiri s8 s2.*14 s2.*15 s2 \startHaraKiri
+            \vA { s4 s2.*31 s2 \stopHaraKiri } }
           \global \keepWithTag #'flute1 \includeNotes "dessus"
         >>
         \new Staff \with { \haraKiriFirst } <<
-          { \noHaraKiri s8 s2.*14 s2.*15 s2 \startHaraKiri }
+          { \noHaraKiri s8 s2.*14 s2.*15 s2 \startHaraKiri
+            \vA { s4 s2.*31 s2 \stopHaraKiri } }
           \global \keepWithTag #'flute2 \includeNotes "dessus"
         >>
       >>

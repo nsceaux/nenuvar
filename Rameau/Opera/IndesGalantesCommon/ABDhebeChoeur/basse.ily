@@ -38,4 +38,4 @@ R2. |
 r4 r do4 |
 re4. do8 re4 |
 sol,2
-
+\vA { r4 R2.*6 }

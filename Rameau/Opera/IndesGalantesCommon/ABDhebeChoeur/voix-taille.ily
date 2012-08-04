@@ -20,3 +20,4 @@ R2.*3 |
 r4 r do'4 |
 sol4. sol8 do'4 |
 si2
+\vA { r4 R2.*6 }

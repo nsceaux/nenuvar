@@ -153,7 +153,7 @@
       \layout { \quoteLayout ragged-last = ##f ragged-right = ##f }
     }
   } r4 \vA r4 |
-  R2.*2 |
+  R2.*2 |\allowPageTurn
   r16 sol'' fad'' mi'' re''2~ |
   re''16 mi'' re'' do'' si'2~ |
   si'16 do'' si' la' sol'2~ |
@@ -261,14 +261,14 @@
   si'4.\trill la'8 sol'4 |
   sol'2
 }
-\tag #'(dessus1 flute1) {
+\tag #'(dessus1) {
   \vB <>^\markup\whiteout "[Toulouse 1750 : Musettes, violons et hautbois]"
   \vA <>^\markup\whiteout "Tous violons musettes et hautb[ois]"
   \A \BI
   \vA<>^\markup { \concat { p \super ers } et seconds v[?] }
   \C \DI \E
 }
-\tag #'(dessus2 flute2 conducteur2-1735) { \A \BII \C \DII \E }
+\tag #'(dessus2 conducteur2-1735) { \A \BII \C \DII \E }
 \tag #'conducteur1-1735 {
   <>^\markup\whiteout "Tous violons musettes et hautb[ois]"
   \A
@@ -278,3 +278,49 @@
   << \DI \\ \DII >>
   \E
 }
+\tag #'(flute1 flute2) { r4 R2.*31 r4 r }
+%%%
+%%% Fin 1735
+%%%
+\vA <<
+  \tag #'flute1 {
+    <>^\markup\whiteout { Petite flute }
+    r8 re'' |
+    sol''8.( la''32 sol'') sol''4.\trill( fad''16 sol'') |
+    la''8.( si''32 la'') la''4.\trill( sol''16 la'') |
+    si''4 re'''2 |
+    r8 r16 la'' \times 2/3 { do'''16*3/2[( si'' do''']) } re''16 r4 |
+    r8 sol'' fad''4.\trill sol''8 |
+    sol''2. |
+  }
+  \tag #'flute2 {
+    <>^\markup\whiteout { Petite flute }
+    r4 |
+    r r r8 re''' |
+    fad''8.( sol''32 fad'') fad''4.\trill( mi''16 fad'') |
+    sol''4 si''2 |
+    r8 r16 fad'' \times 2/3 { la''16*3/2[( sol'' la'']) } do''16 r4 |
+    r8 si' la'4.\trill sol'8 |
+    sol'2. |
+  }
+  \tag #'(dessus1 conducteur1-1735) {
+    <>^\markup\whiteout Musettes
+    r4 |
+    re''2.~ |
+    re''~ |
+    re''~ |
+    re''2 r4 |
+    r8 re'' re''4 do'' |
+    si'2. |
+  }
+  \tag #'(dessus2 conducteur2-1735) {
+    <>^\markup\whiteout Musettes
+    r4 |
+    si'2. |
+    do'' |
+    sol' |
+    fad'2 r4 |
+    r8 re' re'2 |
+    re'2. |
+  }
+>>

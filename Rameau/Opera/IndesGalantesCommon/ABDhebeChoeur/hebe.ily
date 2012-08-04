@@ -54,3 +54,4 @@ sol'4~ sol'16[ la' si' do''] re''[ mi'' fad'' re'']( |
 sol''4)-\vA\fermata\melismaEnd re''8 r sol''4-\vA^\fort |
 sol''4.-\vA\trill sol''8 fad''4 |
 \vA\appoggiatura fad''8 sol''2
+\vA { r4 R2.*6 }

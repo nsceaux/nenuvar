@@ -22,3 +22,4 @@ R2. |
 r4 r la'8.([ si'32 do'')] |
 si'4.\trill la'8 sol'4 |
 sol'2
+\vA { r4 R2.*6 }

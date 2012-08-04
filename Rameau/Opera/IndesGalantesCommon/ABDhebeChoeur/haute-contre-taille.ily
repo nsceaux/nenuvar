@@ -6,7 +6,7 @@ r8 | R2.*2 |
 \tag #'haute-contre \rp#10 re'2. |
 \tag #'taille \rp#10 sol2. |
 \tag #'conducteur \ru#10 <sol re'>2. |
-<re' \vA sol>2 r4 |
+\vA <re' sol>2 \vB re'2 r4 |
 R2. |
 \tag #'haute-contre \rp#7 re'2.
 \tag #'taille \rp#7 sol2.
@@ -43,3 +43,4 @@ sol'4. sol'8
 \tag #'haute-contre { do''4 | si'2 }
 \tag #'taille { re'4 | re'2 }
 \tag #'conducteur << { do''4 si'2 } \\ { re'4 re'2 } >>
+\vA { r4 R2.*6 }
