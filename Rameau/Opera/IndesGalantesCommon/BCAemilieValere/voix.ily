@@ -154,7 +154,7 @@
       red'4 \appoggiatura dod'16 \vA { si8 r } \vB si4 red' |
       red'4.( dod'16)\trill dod' red'4 |
       \appoggiatura dod'16 si4 si4.( lad16)-\vA\trill si |
-      \appoggiatura si16 \vA{ <>^"de suite" \ratureNote } dod'2. |
+      \appoggiatura si16 dod'2. |
       dod' |
       fad'4. mi'8 red' dod' |
       si4 \vA { la4.( sold16) la } \vB { la4( sold8) la } |

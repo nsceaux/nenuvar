@@ -10,9 +10,7 @@ re'''4 r r2 |
 R1 |
 r4 r
 <>^\markup\orig-version flutes
-\vA\tag #'conducteur \footnote #'(-0.5 . 0.5) #'NoteHead \markup {
-  Page barrée, de la levée de la mesure 11 jusqu'à la mesure 29.
-} re'''4
+re'''4
 \vA\tag #'(flute1 flute2) re'''4
 \vB re'''4 |
 si''8.( do'''16) si''8.( la''16) sol''8.( si''16) |

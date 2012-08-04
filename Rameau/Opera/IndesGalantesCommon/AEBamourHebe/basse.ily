@@ -21,7 +21,7 @@ do2. |
   }
 } si,2. |
 do4. re8 mi do |
-\vA\ratureNote re2. |
+re2. |
 re2 r4 |
 r4 r re'8 re' |
 la2 la8 la |

@@ -19,7 +19,7 @@
   \italic { C’est Osman qui me suit, ne luy cachons plus rien } }
 \includeScore "BABemilieOsman"
 
-%{ n°3 %}
+%{ n°3 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Dans le séjour témoin de ma naissance } }
 \includeScore "BACemilie"
@@ -68,7 +68,7 @@
 \pieceToc\markup\wordwrap { CHŒUR :
   \italic { Que nous sert d’échapper à la fureur des mers ? } }
 \includeScore "BBEchoeur"
-%{===%}
+%{===%}\newBookPart #'(full-rehearsal)
 \includeScore "BBFemilie"
 
 %{ n°12 %}
@@ -80,7 +80,7 @@
   \italic { Un de ces malheureux approche en soupirant } }
 \includeScore "BCAemilieValere"
 
-%{ n°13 %}
+%{ n°13 %}\newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene 4 : Emilie, Valere, Osman"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps { Emilie, Valere } [en Esclave,]
@@ -89,7 +89,7 @@
   \italic { Esclave, je viens de t’entendre } }
 \includeScore "BDAevo"
 
-%{ n°14 %}
+%{ n°14 %}\newBookPart #'(full-rehearsal)
 \scene "Scene V" "Scene 5 : Valere, Emilie"
 \sceneDescription\markup\wordwrap-center\smallCaps { Valere, Emilie }
 \pieceToc\markup\wordwrap { VALERE :
@@ -130,7 +130,7 @@
   \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
 \includeScore "BFKariette"
 
-%{ n°21 %}
+%{ n°21 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Premier Rigaudon"
 \includeScore "BFFrigaudon"
 
@@ -138,7 +138,7 @@
 \pieceTocTitle "Deuxieme Rigaudon"
 \includeScore "BFGrigaudon"
 
-%{ n°23 %}
+%{ n°23 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Fuyez, fuyez Vents orageux } }
 \includeScore "BFHemilie"
@@ -164,15 +164,17 @@
 \markup\orig-version\fill-line {
   \column {
     \score {
-      { \key sol \major \digitTime\time 2/2 \clef "french"
-        \partial 4  \custosNote sol'4 \bar "|." }
+      { \key sol \major \digitTime\time 2/4 \clef "french"
+        \partial 4 
+        re''16 do'' si' do'' | re'' do'' si' do'' re''8 sol''16 la'' |
+        si''4 \custosNote la'' \bar "|." }
       \layout { indent=0 }
     }
     \italic\large\line {
       Le Tambourin pour entr'acte [page \page-refII #'BFItambourin ]
     }
+    \vspace #5
   }
-  \vspace #5
 }
 \actEnd "[FIN DE LA PREMIERE ENTRÉE]"
 

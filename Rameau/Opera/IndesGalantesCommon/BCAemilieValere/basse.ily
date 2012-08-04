@@ -57,7 +57,7 @@ dod2 fad4 |
 si,2 si4 |
 fad2 fad4 |
 sold8. mi16 fad4. si,8 |
-\vA\ratureNote fad,2. |
+fad,2. |
 fad,4 fad mi |
 red2.~ |
 red |

@@ -56,14 +56,6 @@
 }
 \pieceToc "Musette en rondeau"
 \includeScore "ABErondeau"
-\markup\fill-line {
-  \score {
-    \new Staff \with { instrumentName = \markup\larger "Timbale seule" } {
-      \clef "bass" r8 re16 re re4 la,8 la,16 la, la, la, la, la, | re2
-    }
-    \layout { ragged-last = ##t }
-  }
-}
 
 %{ n°10 %}
 \pieceTocTitle "Air vif"
@@ -156,31 +148,23 @@
 \includeScore "AEGamourHebe"
 \includeScore "AEHchoeur"
 
-\markup\fill-line {
-  \center-column {
+%{ n°22 %}
+\pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"
+\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
+"AAAouverture" "AEIouverture"
+\markup\orig-version\fill-line {
+  \column {
     \vspace #5
-    \huge\line { Les menuets [page \page-refII #'AEEmenuet ] }
-    \column {
-      \score {
-        { \key sol \minor \digitTime\time 3/4 \clef "dessus"
-          sol'8 la' sib' do'' re'' mib'' |
-          re''4 sol''2~ |
-          sol''4. fad''8 sol'' la'' |
-          sib''4 \appoggiatura la''8 sol''4 sib''~ |
-          sib'' la''8 sol'' fa'' mib'' |
-          \custosNote re'' }
-        \layout { indent=0 ragged-last = ##t }
-      }
-      \vspace #1
-      \score {
-        { \key sol \major \digitTime\time 3/4 \clef "dessus"
-          si'8. do''16 do''4.( si'16 do'') |
-          re''2. |
-          sol''8 la'' si'' sol'' la'' fad'' |
-          \custosNote sol'' }
-        \layout { indent=0 ragged-last = ##t }
-      }
+    \score {
+      { \key sol \major \digitTime\time 2/2 \clef "french"
+        sol''4. re''8 si'4 sol' |
+        re'2. sol'8 sol' |
+        \custosNote la'4 }
+      \layout { indent=0 }
     }
+    \italic\large\line {
+      \hspace #5 L’ouverture
+      [page \page-refI #'AAAouverture ] }
     \vspace #5
   }
 }

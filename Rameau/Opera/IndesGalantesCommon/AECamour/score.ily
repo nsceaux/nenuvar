@@ -3,10 +3,6 @@
     \origVersion\new StaffGroupNoBar <<
       \new Staff \with { \consists "Metronome_mark_engraver" } \withLyrics <<
         \global \includeNotes "voix"
-        \vA {
-          s4 s1*52
-          \footnoteHere\markup { Page barrée (de la mesure 53 à la mesure 74.) }
-        }
         \vA\origLayout {
           s4 s1*9\break s1*6\break s1*5 s2 \bar "" \break s2 s1*5\pageBreak
           s1*6\break \grace s8 s1*6\break
@@ -29,13 +25,7 @@
     \modVersion\new StaffGroupNoBar <<
       \new GrandStaff \with { instrumentName = \markup { Violons \hspace #6 } }
       <<
-        \new Staff <<
-          \vA {
-            s4 s1*52
-            \footnoteHere\markup { Page barrée (de la mesure 53 à la mesure 74.) }
-          }
-          \global \includeNotes "violon1"
-        >>
+        \new Staff << \global \includeNotes "violon1" >>
         \new Staff << \global \includeNotes "violon2" >>
       >>
       \new Staff \with { \consists "Metronome_mark_engraver" } \withLyrics <<

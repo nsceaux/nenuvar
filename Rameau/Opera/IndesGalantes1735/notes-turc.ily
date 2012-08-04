@@ -63,6 +63,14 @@
     \italic { “Baisser la Rampe”. }
   }
 
+  \livretRef #'BCAemilieValere
+  \livretDescPage\wordwrap { EMILIE, VALERE :
+    \italic { Un de ces malheureux approche en soupirant } }
+  \wordwrap {
+    La mesure de première fois de la reprise (mesure 60) est barrée, avec
+    l’indication \italic { “de suite”. }
+  }
+
   \livretRef #'BDAevo
   \livretDescPage\wordwrap { EMILIE, VALERE, OSMAN :
     \italic { Esclave, je viens de t’entendre } }

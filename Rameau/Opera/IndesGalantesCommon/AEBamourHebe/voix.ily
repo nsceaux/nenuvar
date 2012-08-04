@@ -4,11 +4,7 @@
     \clef "vbas-dessus"
     \tag #'basse \amourMark
     \origVersion\amourMark
-    \vB r4
-    \vA\footnote #'(-4 . 2) #'Rest \markup {
-      Récit de l'Amour raturé (mesures 1 à 7.)
-    } r4
-    sol''8 sol'' re''4 re''8 re'' |
+    r4 sol''8 sol'' re''4 re''8 re'' |
     si'4\trill~ si'16 si' si' sol' re''8 sol'' |
     fad''4\trill fad''8 r re''8. re''16 la'8 la'16 si' |
     do''4 do''8 mi'' do''4\trill do''8 si' |
@@ -34,7 +30,7 @@
     mi''2 fad''4 |
     sol''4.( fad''8 mi''16[ re'']) do''[ si'] |
     mi''4. re''8 do'' si' |
-    \vA\ratureNote la'2.\trill |
+    la'2.\trill |
     la'2\trill re''8 re'' |
     la'2 la'8 si' |
     do'' si' do'' re'' mi'' fad'' |

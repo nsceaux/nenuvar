@@ -80,7 +80,7 @@
           \global \includeNotes "parties"
         >>
         \new Staff <<
-          \vA { s4 s2*23 s4 <>^"Bassons" }
+          \vA { s4 s2*23 s4 <>^\markup\whiteout "Bassons" }
           \vA\instrumentName "Basson seul"
           \vB\instrumentName "Bassons"
           \global \includeNotes "basson"

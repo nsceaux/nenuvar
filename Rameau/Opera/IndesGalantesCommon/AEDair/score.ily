@@ -2,9 +2,6 @@
   <<
     \origVersion\new StaffGroupNoBar <<
       \new Staff <<
-        \vA { s8 s4.*19 s4 \footnoteHere #'(-1 . 1) \markup {
-            barre de reprise raturée. }
-        }
         \global \keepWithTag #'dessus1 \includeNotes "dessus"
       >>
       \new Staff << \global \keepWithTag #'dessus2 \includeNotes "dessus" >>
@@ -27,9 +24,6 @@
 
     \modVersion\new StaffGroup <<
       \new Staff <<
-        \vA { s8 s4.*19 s4 \footnoteHere #'(-1 . 1) \markup {
-            barre de reprise raturée. }
-        }
         \instrumentName "[Hautbois]"
         \global \keepWithTag #'hautbois \includeNotes "dessus"
         >>
