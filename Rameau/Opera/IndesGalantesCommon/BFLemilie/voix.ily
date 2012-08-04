@@ -19,5 +19,8 @@ la'8\trill la' r do'' |
 mib''4 r |
 r re''8 fa'' |
 mib''16[-\vA( re'']-\vA) do''[-\vA( sib']-\vA) fa'8 la'\trill |
-sib'4 \vA\modVersion<>^\markup\character [Chœur] sol'4 |
-\origVersion\custosNote re'
+sib'4
+\vB { sol'4 | \origVersion\custosNote re' }
+\vA {
+  r4 R2*7 r4
+}

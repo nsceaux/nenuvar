@@ -30,3 +30,13 @@ r do' |
 sol' r8 re' |
 mib'16-\vA( fa'-\vA) sol'-\vA( mib'-\vA) fa'8 fa |
 sib4 r4
+\vA {
+  r4 sol |
+  sol, sol8 la |
+  sib sib do'8.\trill do'16 |
+  re'8 re r4 |
+  r sol |
+  sol, sol8 la |
+  sib do' re' re |
+  sol4
+}

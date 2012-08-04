@@ -24,7 +24,7 @@ r \vA<>-\tag #'(hautbois hautbois1)_\fort
 re''4-\tag #'(hautbois hautbois1)_\doux |
 sol' re' |
 \vA {
-  sol4 r_\markup\whiteout "Violons" |
+  sol4 r^\markup\whiteout "Violons" |
   r4 sol''16( fad'') sol''( fad'') |
   sol''4 sib'16( do'') re''( mib'') |
   re''8 mib''16( re'') do''( sib') la'( sol') |
@@ -58,4 +58,15 @@ r \vB<>_\fort
 >>
 sib''16( la'') sol''( fa'') |
 mib''( re'') do''( sib') fa'8 sib'16-\vA(-\vB_\doux la'-\vA) |
-sib'4 r4
+sib'4 \vA<>^\markup\whiteout { Violons et hautbois } r4
+\vA {
+  
+  r4 sol''16( fad'') sol''( fad'') |
+  sol''4 sib'16( do'') re''( mib'') |
+  re''8 mib''16( re'') do''( sib') la'( sol') |
+  fad'8 \appoggiatura mi'? re' r4 |
+  r sol''16( fad'') sol''( fad'') |
+  sol''4 sib'16( do'') re''( mib'') |
+  re''8 mib''16( re'') do''( sib') la'( sib') |
+  sol'4
+}

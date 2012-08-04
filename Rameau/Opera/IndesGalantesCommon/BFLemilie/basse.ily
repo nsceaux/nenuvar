@@ -20,4 +20,16 @@ sol,-\vB\fermata r |
   sol, sol, |
   sol, r |
 }
-R2*8 |
+\vB R2*8
+\vA {
+  R2*7 |
+  r4 r4 |
+  r4 sol |
+  sol, sol, |
+  sol, sol, |
+  sol, r |
+  r sol |
+  sol, sol, |
+  sol, sol, |
+  sol,
+}
