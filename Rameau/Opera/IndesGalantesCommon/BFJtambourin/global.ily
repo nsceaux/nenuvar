@@ -14,4 +14,5 @@ s4 s2*7 s4
   \null
   \line { On reprend le \concat { P \super er } Tambourin }
 }
-\bar "|."
+\vA { \origVersion\bar "|:|" \modVersion\bar "|." }
+\vB\bar "|."

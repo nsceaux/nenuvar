@@ -12,3 +12,4 @@
   %}
   %\line { qu'on a amendé selon le texte de la partition source principale. }
 }
+\include "Rameau/Opera/IndesGalantes1735/notes-turc.ily"

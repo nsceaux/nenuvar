@@ -86,7 +86,7 @@
   \smallCaps { Emilie, Valere } [en Esclave,]
   \smallCaps { Osman [Bacha.] } }
 \pieceToc\markup\wordwrap { EMILIE, VALERE, OSMAN :
-  \italic { Il vous entend, hélas ! comment fuir sa colere ? } }
+  \italic { Esclave, je viens de t’entendre } }
 \includeScore "BDAevo"
 
 %{ n°14 %}
@@ -159,11 +159,10 @@
 
 %{ n°27 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
-\includeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
+\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
  "BFItambourin" "BFMtambourin"
 \markup\orig-version\fill-line {
   \column {
-    \vspace #5
     \score {
       { \key sol \major \digitTime\time 2/2 \clef "french"
         \partial 4  \custosNote sol'4 \bar "|." }
@@ -172,7 +171,6 @@
     \italic\large\line {
       Le Tambourin pour entr'acte [page \page-refII #'BFItambourin ]
     }
-    \vspace #5
   }
 }
 \actEnd "[FIN DE LA PREMIERE ENTRÉE]"
