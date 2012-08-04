@@ -153,7 +153,7 @@
 \includeScore "BFJtambourin"
 
 %{ n°26 %}
-\pieceToc\markup\wordwrap { EMILIE :
+\pieceToc\markup\wordwrap { EMILIE, CHŒUR :
  \italic { Partez, on languit sur le Rivage } }
 \includeScore "BFLemilie"
 
@@ -172,6 +172,7 @@
       Le Tambourin pour entr'acte [page \page-refII #'BFItambourin ]
     }
   }
+  \vspace #5
 }
 \actEnd "[FIN DE LA PREMIERE ENTRÉE]"
 

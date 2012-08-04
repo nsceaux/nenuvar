@@ -31,11 +31,11 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Rameau/Opera/IndesGalantes1735/livret.ily"
 }
-%% Characters
-\bookpart {
-  \paper { #(define page-breaking ly:minimal-breaking) }
-  \include "Rameau/Opera/IndesGalantes1735/personnages.ily"
-}
+%% Personnages
+%\bookpart {
+%  \paper { #(define page-breaking ly:minimal-breaking) }
+%  \include "Rameau/Opera/IndesGalantes1735/personnages.ily"
+%}
 
 \include "Rameau/Opera/IndesGalantes1735/prologue.ily"
 \include "Rameau/Opera/IndesGalantes1735/turc.ily"

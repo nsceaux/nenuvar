@@ -1,4 +1,4 @@
-\clef "dessus" sol'' |
+\clef "dessus" sol''4 |
 fad''-\vA( la''-\vA) red''-\vA\trill |
 mi''2 do''4-\vA\trill |
 si'2 mi''4 |

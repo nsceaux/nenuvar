@@ -1,4 +1,4 @@
-\clef "tenor/tenor" sol'-\markup\orig-version Bassons mi'2 |
+\clef "tenor/tenor" sol'4-\markup\orig-version Bassons mi'2 |
 si2. |
 si8.-\vB( do'16-\vB) re'8.-\vB( si16-\vB) do'8.-\vB( la16-\vB) |
 si4 la8.-\vB(-\vA\trill sol16-\vB) fad8.-\vB( la16-\vB) |
