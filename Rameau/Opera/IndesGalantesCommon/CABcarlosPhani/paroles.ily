@@ -52,7 +52,32 @@
   Si vô -- tre mort... le Peuple est bar -- bare, im -- pla -- ca -- ble,
   Et quel -- que -- fois le nombre ac -- ca -- ble
   La plus in -- tré -- pi -- de va -- leur.
+
+}
+\vB\tag #'(phani basse) {
   Al -- lez ; ma crainte est par -- don -- na -- ble ;
   Em -- prun -- tez du se -- cours, as -- sem -- blez vos Guer -- riers ;
   Con -- dui -- sez leur cou -- rage à de nou -- veaux lau -- riers.
+}
+\vA {
+  \tag #'(phani basse) {
+    Ciel !
+  }
+  \tag #'(carlos basse) {
+    De -- vez- vous être al -- lar -- mé -- e,
+    Ou -- bli -- ez- vous que dans ces lieux
+    Un seul de nos guer -- riers é -- pou -- vante une ar -- mé -- e !
+  }
+  \tag #'(phani basse) {
+    Je sçais vos ex -- ploits glo -- ri -- eux,
+    Et qu’a vô -- tre cou -- rage il n’est rien d’im -- pos -- si -- ble.
+    For -- cez- vous ce -- pen -- dant a souf -- frir du se -- cours.
+  }
+  \tag #'(carlos basse) {
+    Que crai -- gnez- vous ?
+  }
+  \tag #'(phani basse) {
+    He -- las ! je suis sen -- si -- ble.
+    Lors -- que l’on aime, on craint tou -- jours.
+  }
 }

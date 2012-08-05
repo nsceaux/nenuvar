@@ -160,6 +160,18 @@
                                                    result))
                                      (map-on-lists rest-col1 rest-col2))))))))
 
+#(define-markup-command (tacet-lyrics layout props score text)
+     (markup? markup-list?)
+   (interpret-markup
+    layout props
+    #{\markup\column {
+        \fontsize #-2 \override #'(column-number . 2) \column\page-columns {
+          \fontsize #2 \line { \hspace #10 Tacet \raise #3 $score }
+          \null
+          $text
+        }
+      } #}))
+
 #(define-markup-list-command (indented-lines layout props indent args)
   (number? markup-list?)
   (let* ((new-line-width (- (chain-assoc-get 'line-width props) indent))
@@ -401,6 +413,7 @@ quoteLayout = \layout {
 quoteEmptyLayout = \layout {
   indent = 0
   ragged-right = ##t
+  \context { \Score skipBars = ##t }
   \context {
     \Staff
     \remove "Time_signature_engraver"

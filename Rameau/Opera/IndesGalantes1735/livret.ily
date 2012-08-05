@@ -548,9 +548,20 @@
 \livretVerse#12 { Si vôtre mort... le Peuple est barbare, implacable, }
 \livretVerse#8 { Et quelquefois le nombre accable }
 \livretVerse#8 { La plus intrépide valeur. }
-\livretVerse#8 { Allez ; ma crainte est pardonnable ; }
-\livretVerse#12 { Empruntez du secours, assemblez vos Guerriers ; }
-\livretVerse#12 { Conduisez leur courage à de nouveaux lauriers. }
+\livretVerse#8 { Ciel ! }
+\livretPers CARLOS
+\livretVerse#8 { \transparent { Ciel ! } Devez-vous être allarmée, }
+\livretVerse#8 { Oubliez-vous que dans ces lieux }
+\livretVerse#12 { Un seul de nos guerriers épouvante une armée ! }
+\livretPers PHANI
+\livretVerse#8 { Je sçais vos exploits glorieux, }
+\livretVerse#12 { Et qu’a vôtre courage il n’est rien d’impossible. }
+\livretVerse#12 { Forcez-vous cependant a souffrir du secours. }
+\livretPers CARLOS
+\livretVerse#10 { Que craignez-vous ? }
+\livretPers PHANI
+\livretVerse#10 { \transparent { Que craignez-vous ? } Helas ! je suis sensible, }
+\livretVerse#8 { Lorsque l’on aime, on craint toujours. }
 
 \livretScene\line { SCENE II }
 \livretPers PHANI-PALLA

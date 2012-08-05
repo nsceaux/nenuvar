@@ -48,9 +48,20 @@
 %# Si vôtre mort... le Peuple est barbare, implacable,
 %# Et quelquefois le nombre accable
 %# La plus intrépide valeur.
-%# Allez ; ma crainte est pardonnable ;
-%# Empruntez du secours, assemblez vos Guerriers ;
-%# Conduisez leur courage à de nouveaux lauriers.
+%#- Ciel !
+\livretPers CARLOS
+%#= Devez-vous être allarmé=e,
+%# Oubli=ez-vous que dans ces lieux
+%# Un seul de nos guerriers épouvante une armé=e !
+\livretPers PHANI
+%# Je sçais vos exploits glori=eux,
+%# Et qu'a vôtre courage il n'est rien d'impossible.
+%# Forcez-vous cependant a souffrir du secours.
+\livretPers CARLOS
+%#- Que craignez-vous ?
+\livretPers PHANI
+%#= Helas ! je suis sensible.
+%# Lorsque l'on aime, on craint toujours.
 
 \livretScene\line { SCENE II }
 \livretPers PHANI-PALLA
