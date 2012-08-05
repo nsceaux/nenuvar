@@ -570,14 +570,15 @@ unlessCondition =
        music))
 
 %%% dessine une croix à l'emplacement de la note
-ratureNote = {
-  \once\override NoteHead #'stencil =
-  #(lambda (grob)
-     (let ((note-head (ly:note-head::print grob))
+#(define (make-erased-note-print print-procedure)
+   (lambda (grob)
+     (let ((note-head (print-procedure grob))
            (x-offset 1)
-           (y-offset (/ (ly:grob-property grob
-                                          'staff-position)
-                        2))
+           (y-offset (if (number? (ly:grob-property grob 'staff-position))
+                         (/ (ly:grob-property grob
+                                              'staff-position)
+                            2)
+                         0))
            (thickness 0.4)
            (radius 2))
        (ly:stencil-add
@@ -598,5 +599,11 @@ ratureNote = {
                       ,(- x-offset radius)
                       ,(- 0 radius y-offset))
           '(0 . 0)
-          '(0 . 0))))))
+          '(0 . 0)))))))
+
+ratureNote = {
+  \once\override NoteHead #'stencil =
+  #(make-erased-note-print ly:note-head::print)
+  \once\override Rest #'stencil =
+  #(make-erased-note-print ly:rest::print)
 }

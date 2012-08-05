@@ -1,8 +1,10 @@
 python=python3.2
 livret_py = ../../../scripts/livret.py
 
-livret_src = livret-prologue-raw.ily livret-turc-raw.ily
-#	livret-incas-raw.ily livret-fleurs-raw.ily \
+livret_src = livret-prologue-raw.ily \
+	livret-turc-raw.ily \
+	livret-incas-raw.ily
+#	livret-fleurs-raw.ily
 #	livret-sauvages-raw.ily
 
 livret.ily: $(livret_src)
