@@ -7,13 +7,13 @@
       \new Staff << \global \includeNotes "flute" >>
       \new Staff <<
         \global \includeNotes "violon"
-        \origLayout {
-          s2.*6\break
-          s2.*6\break
-          s2.*6\pageBreak
-          s2.*6\break
-          s2.*5\break
-          s2.*4\break
+        \vA\origLayout {
+          s2.*6\break s2.*6\break \grace s8 s2.*7\break s2.*6\pageBreak
+          s2.*6\break s2.*4\break s2.*4\break
+        }
+        \vB\origLayout {
+          s2.*6\break s2.*6\break s2.*6\pageBreak
+          s2.*6\break s2.*5\break s2.*4\break
         }
       >>
     >>
