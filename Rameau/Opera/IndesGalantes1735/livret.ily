@@ -560,7 +560,7 @@
 \livretPers CARLOS
 \livretVerse#10 { Que craignez-vous ? }
 \livretPers PHANI
-\livretVerse#10 { \transparent { Que craignez-vous ? } Helas ! je suis sensible, }
+\livretVerse#10 { \transparent { Que craignez-vous ? } Helas ! je suis sensible. }
 \livretVerse#8 { Lorsque l’on aime, on craint toujours. }
 
 \livretScene\line { SCENE II }
@@ -624,7 +624,6 @@
 \livretVerse#10 { Vous avez vû dans l’horreur de la guerre, }
 \livretVerse#12 { Leurs invicibles bras disposer du tonnerre... }
 
-\livretScene\line { SCENE IV }
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 \livretVerse#12 { On vient, dissimulons mes transports à leurs yeux... }
 \livretDidasP\line { à l'Inca qu'il appelle. }
@@ -634,7 +633,7 @@
 \livretVerse#12 { Qui de flâme & de sang innondera ces lieux ? }
 \livretVerse#12 { Mais, que ne risque point un amour furieux ! }
 
-\livretScene\line { SCENE V }
+\livretScene\line { SCENE IV }
 \livretDescAtt\center-column {
   \line { FESTE DU SOLEIL }
   \justify {
@@ -729,7 +728,7 @@
   de terre semble s'apaiser.
 }
 
-\livretScene\line { SCENE VI }
+\livretScene\line { SCENE V }
 \livretDescAtt\wordwrap-center\smallCaps {
   Phani-Palla, Huascar-Inca.
 }
@@ -745,7 +744,7 @@
 \livretVerse#8 { Que le Ciel jaloux de sa gloire }
 \livretVerse#12 { Ne s’explique aux Humains qu’en les faisant trembler ? }
 
-\livretScene\line { SCENE VII }
+\livretScene\line { SCENE VI }
 \livretDescAtt\wordwrap-center\smallCaps {
   Phani-Palla, Huascar-Inca, Dom-Carlos.
 }
@@ -799,7 +798,7 @@
   \smallCaps Huascar chante les siennes à part.
 }
 
-\livretScene\line { SCENE VIII }
+\livretScene\line { SCENE VII }
 \livretDescAtt\justify {
   Le Volcan se rallume, & le Tremblement de terre recommence.
 }

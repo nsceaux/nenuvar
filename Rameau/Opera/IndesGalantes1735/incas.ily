@@ -46,17 +46,15 @@
 \includeScore "CCCphaniHuascar"
 
 %{ n°7 %}
-\scene "Scene IV" "Scene 4 : Huascar et un Inca"
-\sceneDescription\markup\column {
-  \wordwrap-center { \smallCaps Huascar et un Inca son confident. }
-  \wordwrap-center { [On entend un Prélude qui annonce la Fête du Soleil.] }
+\sceneDescription\markup\wordwrap-center {
+  [On entend un Prélude qui annonce la Fête du Soleil.]
 }
 \pieceToc\markup\wordwrap { HUASCAR :
   \italic { On vient, dissimulons mes transports à leurs yeux } }
 \includeScore "CDAhuascar"
 
 %{ n°8 %}
-\scene "Scene V" "Scene 5 : Huascar, Phani, Incas"
+\scene "Scene IV" "Scene 4 : Huascar, Phani, Incas"
 \sceneDescription\markup\left-align\center-column {
   \line { [FESTE DU SOLEIL] }
   \wordwrap-center {
@@ -110,7 +108,7 @@
 \includeScore "CEKchoeur"
 
 %{ n°19 %}
-\scene "Scene VI" "Scene 6 : Phani, Huascar"
+\scene "Scene V" "Scene 5 : Phani, Huascar"
 \sceneDescription\markup\wordwrap-center\smallCaps { [Phani-Palla, Huascar-Inca.] }
 }
 \pieceToc\markup { PHANI, HUASCAR :
@@ -118,7 +116,7 @@
 \includeScore "CFAphaniHuascarCarlos"
 
 %{ n°20 %}
-\scene "Scene VII" "Scene 7 : Phani, Huascar, Carlos"
+\scene "Scene VI" "Scene 6 : Phani, Huascar, Carlos"
 \sceneDescription\markup\wordwrap-center\smallCaps { Phani, Huascar, Carlos. }
 \pieceToc\markup { PHANI, HUASCAR, CARLOS :
   \italic { Vous fuyez, quand les Dieux daignent vous appeller } }
@@ -129,7 +127,7 @@
 \includeScore "CFBtrio"
 
 %{ n°22 %}
-\scene "Scene VIII" "Scene 8 : Huascar"
+\scene "Scene VII" "Scene 7 : Huascar"
 \sceneDescription\markup\left-align\center-column {
   \line { \smallCaps Huascar seul. }
   \line { [Le Volcan se rallume, & le Tremblement de terre recommence.] }
