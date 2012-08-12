@@ -28,7 +28,7 @@
   \italic { Viens, Hymen, viens m’unir au Vainqueur que j’adore } }
 \includeScore "CBAphani"
 
-%{ n°1 %}
+%{ n°4 %}
 \scene "Scene III" "Scene 3 : Phani, Huascar"
 \sceneDescription\markup\wordwrap-center\smallCaps { Phani, Huascar }
 \pieceToc\markup\wordwrap { HUASCAR :

@@ -56,25 +56,18 @@
 }
 \pieceToc "Musette en rondeau"
 \includeScore "ABErondeau"
-
-%{ n°10 %}
-\pieceTocTitle "Air vif"
-\includeScore "ABFair"
-\markup\orig-version\vspace #55
-\origVersion\pageBreak
-
 \sceneDescriptionBottom\markup\wordwrap-center {
   Bruit de Tambours qui interromp le Ballet.
 }
 
-%{ n°11 %}
+%{ n°10 %}
 \pieceToc\markup\wordwrap {
   HEBÉ :  \italic { Qu’entends-je ? les Tambours font taire nos Musettes ! }
 }
 \includeScore "ABFhebe"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°12 %}\newBookPart #'(full-rehearsal)
+%{ n°11 %}\newBookPart #'(full-rehearsal)
 \scene "[Scene III]" "Scene 3 : Bellone, Hebé & sa suite"
 \sceneDescription\markup\left-align\center-column {
   \line { \smallCaps [Bellone, \smallCaps Hébé et sa suite.]}
@@ -89,7 +82,7 @@
 \includeScore "ACAbellone"
 \includeScore "ACBchoeur"
 
-%{ n°13 %}
+%{ n°12 %}
 \sceneDescription\markup\justify {
   [Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
@@ -100,55 +93,55 @@
 \pieceTocTitle "Air pour deux guerriers portant les drapeaux"
 \includeScore "ACCair"
 
-%{ n°14 %}
+%{ n°13 %}
 \pieceToc\markup\wordwrap { BELLONE :
   \italic { C’est la gloire Qui rend les heros immortels } }
 \includeScore "ACDbellone"
 
-%{ n°15 %}
+%{ n°14 %}
 \pieceTocTitle "Air pour les amans et amantes"
 \includeScore "ACEair"
 
-%{ n°16 %}
+%{ n°15 %}
 \pieceToc\markup\wordwrap { CHŒUR : \italic { Vous nous abandonnez } }
 \includeScore "ACFchoeur"
 
-%{ n°17 %}\newBookPart #'(full-rehearsal)
+%{ n°16 %}\newBookPart #'(full-rehearsal)
 \scene "[Scene IV]" "Scene 4 : Hebé"
 \sceneDescription\markup\wordwrap-center { \smallCaps [Hebé] }
 \pieceToc\markup\wordwrap { HEBÉ : \italic { Bellonne les entraîne } }
 \includeScore "ADAhebe"
 
-%{ n°18 %}
+%{ n°17 %}
 \scene "[Scene V]" "Scene 5 : L’Amour, Hebé et sa suite"
 \pieceTocTitle "Annonce de l’Amour"
 \includeScore "AEAannonce"
 
-%{ n°19 %}
+%{ n°18 %}
 \pieceToc\markup\wordwrap { L’AMOUR, HEBÉ :
   \italic { Pourquoy Mars à l’Amour declare-t-il la guerre ? } }
 \includeScore "AEBamourHebe"
 
-%{ n°20 %}\newBookPart #'(full-rehearsal)
+%{ n°19 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR :
   \italic { Ranimez vos flambeaux, remplissez vos carquois } }
 \includeScore "AECamour"
 
-%{ n°21 %}\newBookPart #'(full-rehearsal)
+%{ n°20 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "[Air pour les Amours]"
 \includeScore "AEDair"
 
-%{ n°22 %}
+%{ n°21 %}
 \pieceTocTitle "Contredanse"
 \includeScore "AEEcontredanse"
 
-%{ n°23 %}\newBookPart #'(full-rehearsal)
+%{ n°22 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :
   \italic { Traversez les plus vastes Mers } }
 \includeScore "AEGamourHebe"
 \includeScore "AEHchoeur"
 
-%{ n°22 %}
+%{ n°23 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"
 \reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
 "AAAouverture" "AEIouverture"
