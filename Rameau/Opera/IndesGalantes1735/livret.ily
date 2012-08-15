@@ -627,7 +627,7 @@
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 \livretVerse#12 { On vient, dissimulons mes transports à leurs yeux... }
 \livretDidasP\line { à l'Inca qu'il appelle. }
-\livretVerse#12 { Vous sçavez mon secret Allez ; qu’on m’obéisse... }
+\livretVerse#12 { Vous sçavez mon projet. Allez ; qu’on m’obéisse... }
 \livretDidasP\line { à part. }
 \livretVerse#12 { Je n’ay donc plus pour moy qu’un barbare artifice, }
 \livretVerse#12 { Qui de flâme & de sang innondera ces lieux ? }

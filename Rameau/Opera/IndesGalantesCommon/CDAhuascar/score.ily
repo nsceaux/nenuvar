@@ -33,12 +33,14 @@
       \modVersion\instrumentName "[Basses]"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout {
-        s2 s1*3\break
-        s1*2 s2.\break
-        s2. s1 s2 \bar "" \break
-        s2 s2.*2\break
-        s1*3\pageBreak
+      \vA\origLayout {
+        s2 s1*3\pageBreak
+        s2. s1 s2. s2 \bar "" \break s4 s1*2 s2.\break
+        s2. s1*3\break
+      }
+      \vB\origLayout {
+        s2 s1*3\break s1*2 s2.\break s2. s1 s2 \bar "" \break
+        s2 s2.*2\break s1*3\pageBreak
       }
     >>
   >>

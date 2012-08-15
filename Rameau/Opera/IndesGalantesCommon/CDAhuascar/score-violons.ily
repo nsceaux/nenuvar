@@ -29,7 +29,7 @@
     \bold Huascar
     \verse#12 { On vient, dissimulons mes transports à leurs yeux... }
     \line\italic { à l'Inca qu'il appelle. }
-    \verse#12 { Vous sçavez mon secret Allez ; qu’on m’obéisse... }
+    \verse#12 { Vous sçavez mon projet. Allez ; qu’on m’obéisse... }
     \line\italic { à part. }
     \verse#12 { Je n’ay donc plus pour moy qu’un barbare artifice, }
     \verse#12 { Qui de flâme & de sang innondera ces lieux ? }
