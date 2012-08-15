@@ -28,7 +28,7 @@ la' si'4. la'8 |
 la'2( sold'4.)\trill la'8 |
 la'1 |
 r8 mi' mi' mi' la' la' la' la' |
-la'2~ la'4. fad'8 |
+la'2-\vB~ la'4. fad'8 |
 mi'2 re' |%%
 dod'1 |
 R1 |
@@ -63,15 +63,15 @@ mi'2 re'4 re'8 re' |
 sold1 |
 R1 |
 r4 fad' mid' fad' |
-mid' fad' sold' fad' |
-sold' sold' fad' mid' |
+mid' fad' \vA mid' \vB sold' fad' |
+sold' sold' fad'-\vA\trill mid' |
 fad'2 la |
 re' sold |
 lad r |
 R1 |
-r4 r8 fad' fad'4. fad'8 |
-fad'2 fad'4 fad'8 mi' |
-re'1 |
+r4 r8
+\vA { lad' lad'4. dod''8 | fad'2 fad'4 fad'8 lad' | si'1 | }
+\vB { fad'8 fad'4. fad'8 | fad'2 fad'4 fad'8 mi' | re'1 | }
 r4 si' lad' re'' |
 dod'' re'' dod'' re'' |
 lad'2 re''4 re''8 dod'' |
@@ -79,7 +79,7 @@ si' dod'' re'' si' mi'' re'' dod'' si' |
 si'2 si'4 si'8 si' |
 lad'2 dod''4 dod''8 dod'' |
 fad'2 re''8 re'' re'' re'' |
-re''2 si'4. si'8 |
+re''2 \vA\appoggiatura dod''8 si'4. si'8 |
 si'2 fad' |
 fad'8 fad' fad' fad' si' si' si' si' |
 re''2 r |
@@ -100,7 +100,7 @@ mi'2 mi'4 mi'8 mi' |
 la'2 la'4 si'8 dod'' |
 re''2 fad'8 fad' fad' fad' |
 si'2 la'4. la'8 |
-la'2.( sold'4) |
+la'2.-\vB( sold'4-\vB) |
 la'4. mi'8 la'4. la'8 |
 la'1~ |
 la'~ |

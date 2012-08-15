@@ -1,6 +1,6 @@
 \score {
   \new StaffGroupNoBar <<
-    \origVersion <<
+    \setMusic #'choeur <<
       \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-dessus"
       >> \keepWithTag #'vdessus \includeLyrics "paroles"
@@ -13,52 +13,69 @@
       \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-basse"
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
-
-      \new Staff << \global \includeNotes "dessus" >>
-      \new Staff << \global \includeNotes "haute-contre" >>
-      \new Staff << \global \includeNotes "taille" >>
     >>
-
-    \modVersion <<
-      \new StaffGroupNoBracket <<
-        \new Staff <<
-          \instrumentName "[Violons]"
-          \global \includeNotes "dessus"
-        >>
-        \new Staff <<
-          \instrumentName "[Hautes-contre]"
-          \global \includeNotes "haute-contre"
-        >>
-        \new Staff <<
-          \instrumentName "[Tailles]"
-          \global \includeNotes "taille"
-        >>
+    \setMusic #'violons <<
+      \new Staff <<
+        \vA\modVersion\instrumentName "Violons"
+        \vA <>^"Violons"
+        \vB\modVersion\instrumentName "[Violons]"
+        \global \includeNotes "dessus"
       >>
-      \new ChoirStaff <<
-        \new Staff \with { \haraKiriFirst } \withLyrics <<
-          \global \includeNotes "voix-dessus"
-        >> \keepWithTag #'vdessus \includeLyrics "paroles"
-        \new Staff \with { \haraKiriFirst } \withLyrics <<
-          \global \includeNotes "voix-haute-contre"
-        >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
-        \new Staff \with { \haraKiriFirst } \withLyrics <<
-          \global \includeNotes "voix-taille"
-        >> \keepWithTag #'vtaille \includeLyrics "paroles"
-        \new Staff \with { \haraKiriFirst } \withLyrics <<
-          \global \includeNotes "voix-basse"
-        >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      \new Staff <<
+        \modVersion\instrumentName "[Hautes-contre]"
+        \global \includeNotes "haute-contre"
+      >>
+      \new Staff <<
+        \modVersion\instrumentName "[Tailles]"
+        \global \includeNotes "taille"
       >>
     >>
-    \new Staff \with { \haraKiri } \withLyrics <<
+    \setMusic #'huascar \new Staff \with { \haraKiri } \withLyrics <<
       \modVersion\characterName "Huascar"
       \global \includeNotes "voix"
     >> \keepWithTag #'huascar \includeLyrics "paroles"
+
+    %%
+    \origVersion <<
+      \vA\huascar
+      \choeur
+      \violons
+      \vB\huascar
+    >>
+    \modVersion <<
+      \new StaffGroupNoBracket\violons
+      \new ChoirStaff \choeur
+      \huascar
+    >>
     \new Staff <<
       \modVersion\instrumentName "[Basses]"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
       \modVersion { s1*37\break }
-      \origLayout {
+      \vA\origLayout {
+        s1*6\break s1*4 s2 \bar "" \pageBreak
+        s2 s1*7\break s1*8\pageBreak
+        s1*5\break s1*6\pageBreak
+        %% chœur
+        s1*6\pageBreak
+        s1*6\pageBreak
+        s1*6\pageBreak
+        s1*8\pageBreak
+        s1*6\pageBreak
+        s1*6\pageBreak
+        s1*5\pageBreak
+        s1*4 s2 \bar "" \pageBreak
+        s2 s1*5 s2 \bar "" \pageBreak
+        s2 s1*5\pageBreak
+        s1*5\pageBreak
+        s1*5 s2 \bar "" \pageBreak
+        s2 s1*5\pageBreak
+        s1*5\pageBreak
+        s1*6\pageBreak
+        s1*6\pageBreak
+        s1*9\break
+      }
+      \vB\origLayout {
         s1*5\break s1*5\break s1*5\pageBreak
         s1*4 s2 \bar "" \break s2 s1*5\break s1*5\pageBreak
         s1*5\break s1*6\pageBreak

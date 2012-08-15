@@ -30,11 +30,11 @@ r4 r8 la' la'4. la'8 |
 fad'2 sold'4 sold'8 sold' |
 mid'2\trill mid'4 r |
 r4 dod'' si' la' |
-sold' la' sold' fad' |
+sold' la' sold'-\vA\trill fad' |
 si'1~ |
-si'4 si' la' sold' |
+si'4 si' la'-\vA\trill sold' |
 la'2 fad' |
-fad' mid' |
+fad' mid'-\vA\trill |
 fad' fad'4 fad'8 sold' |
 lad'8[\melisma sold' fad' sold'] lad'[ si' dod'' re'']( |
 mi''2)\melismaEnd mi''4 re''8 dod'' |
@@ -50,7 +50,8 @@ mi''4 r re''8 mi'' fad'' re'' |
 sol''2 dod''4. re''8 |
 re''2( dod'')\trill |
 si'1 |\allowPageTurn
-R1*2 |
+\vA << \origVersion { r2 r R1 } \modVersion R1*2 >>
+\vB R1*2 |
 r4 r8 si' mi''4. mi''8 |
 mi''1~ |
 mi'' |
@@ -63,7 +64,7 @@ si'2\trill si'4 r |
 r4 mi'' re'' dod'' |
 si' la' sold' fad' |
 mi'2 si'4 dod''8 re'' |
-dod''8[\melisma si' la' si'] dod''[ re'' mi'' dod'']( |
+dod''8-\vA\trill[\melisma si' la' si'] dod''[ re'' mi'' dod'']( |
 re''2)\melismaEnd re''4 re''8 mi'' |
 fad''2 si'8 dod'' re'' si' |
 mi''2 mi''4. fad''8 |
@@ -108,4 +109,4 @@ r2 dod''8 re'' mi'' dod'' |
 fad''2 sold''4. la''8 |
 la''2.( sold''4) |
 la''1 |
-<< \origVersion { R1 r2 r R1*2 } \modVersion R1*4 >> |
+\vA R1*4 \vB << \origVersion { R1 r2 r R1*2 } \modVersion R1*4 >> |

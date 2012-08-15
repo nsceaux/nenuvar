@@ -5,14 +5,14 @@ re'2 dod'4 si8. la16 |
 mi'8 mi' si si sold sold mi mi |
 mi,1 |
 R1 |
-r4 la sold fad |
+r4 la sold-\vA\trill fad |
 mi re dod si, |
 la,8 la mi mi dod la mi dod |
 la,2 r4 r8 la, |
 re,2 r4 r8 re |
 dod red mi4 red dod |
 si,2 sold, |
-la,4. sold,8 fad,4. mi,8 |
+la,4. sold,8 fad,4.-\vA\trill mi,8 |
 si,8 si fad fad red si si, la, |
 sold,1 |
 la,2 sold,4. la,8 |
@@ -22,7 +22,7 @@ mi,2 mi4 re |
 dod2 re4 r |
 r2 re4 dod |
 si,2 r |
-r4 dod si,4. la,8 |
+r4 dod si,4.-\vA\trill la,8 |
 mi2 re |
 dod la, |
 sold, la, |
@@ -58,25 +58,34 @@ R1 |
 r8 mi' si si sold4. mi8 |
 si,2 si, |
 mi, r |
-\myfootnote #'Rest #'(0 . 2) \markup {
-  Manuscrit Toulouse 1750, mesures 64 à 70 : \raise #3.5 \score {
-    { \tinyQuote \key la \major \time 2/2 \clef "bass"
-      R1*2 |
-      r8 mi la la dod' la mi dod |
-      la,4. la8 la4. la8 |
-      re'4 re re re8 si, |
-      dod1 |
-      dod,4 r r2 |
-    }
-    \layout { \quoteLayout }
-  }
+\vA {
+  R1*2 |
+  r8 mi la la dod' la mi dod |
+  la,4. la8 la4. la8 |
+  re'4 re re re8 si, |
+  dod1 |
 }
-r4 r8 mi la4. la8 |
-la1~ |
-la |
-r4 r8 la la4. la8 |
-re'2 re'4 re'8 si |
-dod'1 |
+\vB {
+  \myfootnote #'Rest #'(0 . 2) \markup {
+    Manuscrit Toulouse 1750, mesures 64 à 70 : \raise #3.5 \score {
+      { \tinyQuote \key la \major \time 2/2 \clef "bass"
+        R1*2 |
+        r8 mi la la dod' la mi dod |
+        la,4. la8 la4. la8 |
+        re'4 re re re8 si, |
+        dod1 |
+        dod,4 r r2 |
+      }
+      \layout { \quoteLayout }
+    }
+  }
+  r4 r8 mi la4. la8 |
+  la1~ |
+  la |
+  r4 r8 la la4. la8 |
+  re'2 re'4 re'8 si |
+  dod'1 |
+}
 dod,4 r r2 |
 r4 dod' si la |
 sold fad mid red |
@@ -89,7 +98,7 @@ si2 si4 si8 dod' |
 re'1 |
 re'4 re' dod' si |
 lad si lad si |
-fad2 si4 si8 la |
+fad2 si4 si8 la! |
 sol la si la sol fad mi re |
 dod si, dod re mi fad sol mi |
 fad2 fad4 fad8 fad |
@@ -114,7 +123,7 @@ sold fad mi fad sold la si sold |
 la4 sol8 fad sol fad sol la |
 fad2 fad4 fad8 la |
 re2 re'8 re' re' re' |
-re'2 dod'4. re'8 |
+re'2 dod'4.-\vA\trill re'8 |
 mi'2 mi |
 la1 |
 r8 mi la la dod' dod' mi' mi' |
@@ -133,11 +142,11 @@ re mi fad sol la si dod' la |
 re'4 dod' si la |
 sold2\trill la8 si dod' re' |
 mi'2~ mi'8 re'16 dod' si8 re' |
-dod'2 si4. la8 |
+dod'2 si4.-\vA\trill la8 |
 mi1 |
 la |
 r2 la8 si dod' la |
-re'2 si4. la8 |
+re'2 si4.-\vA\trill la8 |
 mi'2 mi |
 la,1 |
 R1 |

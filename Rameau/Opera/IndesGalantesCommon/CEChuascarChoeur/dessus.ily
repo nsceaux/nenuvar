@@ -2,7 +2,7 @@
 r8 r16 mi' la'8. la'16 dod''8. la'16 dod''8. dod''16 |
 mi''8. la'16 dod''8. dod''16 mi''8. dod''16 mi''8. mi''16 |
 la''2 r8 mi'' fad''8. sol''16 |
-fad''2 fad''4 sold''!8. la''16 |
+fad''2-\vA\trill fad''4 sold''!8. la''16 |
 sold''8 mi'' sold'' sold'' si'' sold'' si'' si'' |
 mi'''1 |
 R1 |
@@ -24,11 +24,12 @@ r8 si' mi'' mi'' sold''2 |
 r8 mi'' la'' la'' dod''' mi'' la'' dod''' |
 si'' mi'' si'' re''' dod''' mi'' la'' dod''' |
 si'' mi'' si'' si'' mi'''2~ |
-mi'''4. re'''16\trill dod''' si''4. dod'''16 la'' |
+\vA { mi'''4( re'''8)\trill dod''' }
+\vB { mi'''4. re'''16\trill dod''' } si''4. dod'''16-\vA( la''-\vA) |
 dod'''2( si''4.)\trill la''8 |
 la''8 la' dod'' dod'' mi'' dod'' mi'' mi'' |
 la'' mi'' la'' la'' dod''' la'' dod''' dod''' |
-mi'''4. re'''32*2/3( dod''' si'' la'' sold'' fad'') mi''4. la''8 |
+mi'''4.-\vA( re'''32*2/3-\vA)( dod''' si'' la'' sold'' fad'') mi''4. la''8 |
 la''2( sold''4.)\trill la''8 |%%
 la''1 |
 R1 |
@@ -53,7 +54,7 @@ mi''2 fad''4. sold''8 |
 sold''2( fad'')\trill |
 mi''8 mi' sold' sold' si' sold' si' si' |
 mi'' si' mi'' mi'' sold'' mi'' sold'' sold'' |
-si''4. la''32*2/3 sold'' fad'' mi'' red'' dod'' si'4. mi''8 |
+si''4. la''32*2/3-\vA( sold'' fad'' mi'' red'' dod''-\vA) si'4. mi''8 |
 mi''2( red''4.)\trill mi''8 |
 mi''2 r |
 R1 |\allowPageTurn
@@ -61,13 +62,13 @@ r8 mi' la' la' dod'' la' dod'' dod'' |
 mi'' la' dod'' dod'' mi'' dod'' mi'' mi'' |
 la''4. la'8 la'4. la'8 |
 \appoggiatura sold'8 fad'2 sold'4 sold'8 sold' |
-mid'2 r |
+mid'2-\vA\trill r |
 r4 dod'' si' la' |
-sold' la' sold' fad' |
+sold' la' sold'-\vA\trill fad' |
 si'1~ |
 si'4 si' la'\trill sold' |
 la'2 fad' |
-fad' mid' |
+fad' mid'-\vA\trill |
 fad' fad'4 fad'8 sold' |
 lad' sold' fad' sold' lad' si' dod'' re'' |
 mi''2 mi''4 re''8 dod'' |
@@ -87,7 +88,7 @@ si''2 r |
 R1 |
 r4 r8 si' mi''4. mi''8 |
 mi''2 r8 si' mi'' mi'' |
-sold'' mi'' sold'' sold'' la'' mi'' la'' si'' |
+sold'' mi'' sold'' sold'' la'' mi'' \vA sol'' \vB la'' si'' |
 dod'''4. mi''8 la''4. la''8 |
 la''1~ |
 la''2 r8 la' mi'' mi'' |
@@ -97,7 +98,7 @@ si'2\trill r |
 r4 mi'' re'' dod'' |
 si' la' sold' fad' |
 mi'2 si'4 dod''8 re'' |
-dod'' si' la' si' dod'' re'' mi'' dod'' |
+dod''-\vA\trill si' la' si' dod'' re'' mi'' dod'' |
 re''2 re''4 re''8 mi'' |
 fad''2 si'8 dod'' re'' si' |
 mi''2 mi''4. fad''8 |
@@ -107,7 +108,8 @@ r r4
 <<
   \tag #'(violon1 flute1 hautbois1 dessus) \new Voice {
     \tag #'dessus \voiceOne
-    dod''8^"Trio" re'' |
+    \vB <>^"Trio"
+    dod''8 re'' |
     mi'' re'' dod'' mi'' fad'' mi'' re'' fad'' |
     mi'' re'' dod'' mi'' fad'' mi'' re'' fad'' |
     mi''4 dod'' re'' mi'' |
@@ -130,9 +132,10 @@ r r4
     si'1 |
   }
 >>
-r8^"Tous" si' mi'' mi'' sold'' mi'' sold'' sold'' |
+\vB <>^"Tous"
+r8 si' mi'' mi'' sold'' mi'' sold'' sold'' |
 si''2 si'4 dod''8 re'' |
-dod'' si' la' si' dod'' re'' mi'' dod'' |
+dod''-\vA\trill si' la' si' dod'' re'' mi'' dod'' |
 re'' la' si' dod'' re'' mi'' re'' mi'' |
 fad''1~ |
 fad''4 fad'' sold'' la'' |
@@ -141,11 +144,11 @@ r2 mi''8 fad'' sold'' mi'' |
 la''2 re''4. dod''8 |
 dod''2( si')\trill |
 la'8 mi' la' la' dod'' dod'' mi'' mi'' |
-\once\tieDashed la''1~ |
+\vB\once\tieDashed la''1~ |
 la''8 la'' re''' re''' re'''4. dod'''8 |
 dod'''2( si'')\trill |
 la''8 la' dod'' dod'' mi'' dod'' mi'' mi'' |
 la'' mi'' la'' la'' dod''' la'' dod''' dod''' |
-mi'''4. re'''32*2/3 dod''' si'' la'' sold'' fad'' mi''4. la''8 |
+mi'''4. re'''32*2/3-\vA( dod''' si'' la'' sold'' fad''-\vA) mi''4. la''8 |
 la''2( sold''4.)\trill la''8 |
 la''1 |
