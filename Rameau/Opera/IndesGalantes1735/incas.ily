@@ -59,7 +59,7 @@
   \line { [FESTE DU SOLEIL] }
   \wordwrap-center {
     \smallCaps Huascar, \smallCaps Phani [ramenée par des Incas,]
-    Pallas et Incas sacrificateurs, Péruviens, et Péruviennes.
+    Pallas et Incas [sacrificateurs], Péruviens, et Péruviennes.
   }
 }
 \pieceToc\markup\wordwrap { HUASCAR :
@@ -67,7 +67,7 @@
 \includeScore "CEAhuascar"
 
 %{ n°9 %}
-\pieceTocTitle "Prelude pour l'adoration du soleil"
+\pieceTocTitle "Adoration du soleil"
 \includeScore "CEBprelude"
 
 %{ n°10 %}
