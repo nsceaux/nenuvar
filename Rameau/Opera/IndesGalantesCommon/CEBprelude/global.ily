@@ -1,4 +1,5 @@
 \keys la \minor
-\tempo "Gravement"
-\midiTempo #160
-\digitTime \time 2/2 s1*20 \bar "|."
+\vA\tempo "Lent"
+\vB\tempo "Gravement"
+\midiTempo #132
+\digitTime\time 2/2 \vA s1*29 \vB s1*20 \bar "|."

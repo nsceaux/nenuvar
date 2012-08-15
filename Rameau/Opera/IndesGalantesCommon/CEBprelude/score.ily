@@ -5,13 +5,16 @@
         \modVersion\instrumentName "Flutes"
         \origVersion {
           <>^"flutes" s1*7
-          <>_\markup { \concat { 1 \super eres } flutes }
+          \vB<>_\markup { \concat { 1 \super eres } flutes }
         }
         \global
-        \modVersion\keepWithTag #'conducteur \includeNotes "flute"
-        \origVersion\keepWithTag #'flute1 \includeNotes "flute"
+        \vB {
+          \modVersion\keepWithTag #'conducteur \includeNotes "flute"
+          \origVersion\keepWithTag #'flute1 \includeNotes "flute"
+        }
+        \vA\keepWithTag #'conducteur \includeNotes "flute"
       >>
-      \origVersion\new Staff \with { \haraKiriFirst } <<
+      \vB\origVersion\new Staff \with { \haraKiriFirst } <<
         { \startHaraKiri s1*7
           \stopHaraKiri \grace s16
           s1*9_\markup { \concat { 2 \super es } flutes }
@@ -32,16 +35,23 @@
         \modVersion\instrumentName\markup\center-column {
           Hautes-contre "et Tailles"
         }
-        \origVersion <>^"hautec et tailles"
+        \origVersion\vA <>^"H[aute]-c[contre] et Taille"
+        \origVersion\vB <>^"hautec et tailles"
         \global \includeNotes "haute-contre-taille"
       >>
       \new Staff <<
-        \modVersion\instrumentName "[Basses]"
+        \vA {
+          \origVersion <>^"Basses"
+          \modVersion\instrumentName "Basses"
+        }
+        \vB\modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
-        \origLayout {
-          s1*7\break
-          \grace s16 s1*9\break
-          \grace s8 s1*4\pageBreak
+        \vA\origLayout {
+          s1*9\pageBreak
+          s1*10\break \grace s8 s1*5\break \grace s8 s1*5\pageBreak
+        }
+        \vB\origLayout {
+          s1*7\break \grace s16 s1*9\break \grace s8 s1*4\pageBreak
         }
       >>
     >>
