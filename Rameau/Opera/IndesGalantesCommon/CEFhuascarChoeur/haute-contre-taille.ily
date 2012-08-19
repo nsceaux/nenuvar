@@ -15,9 +15,9 @@
   mi'2
 }
 
-r4 R2.*11 r2
+r4 R2.*11 r4 r
 \keepWithTag #'() \rondeau
-r4 R2.*14 r2
-\modVersion\keepWithTag #'() \rondeau
-r4 R2.*13 r2
-\modVersion\keepWithTag #'() \rondeau
+r4 R2.*14 r4 r
+%\modVersion\keepWithTag #'() \rondeau
+r4 R2.*13 r4 r
+%\modVersion\keepWithTag #'() \rondeau

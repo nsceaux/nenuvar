@@ -16,26 +16,18 @@
     >>
     \setMusic #'violons <<
       \new Staff \with { \haraKiriFirst } <<
+        \vA\origVersion { s4 s2.*11 s2 <>^"Violons" }
         \modVersion {
-          s4 s2.*11 s2
-          <>^"[Dessus]" s4 s2.*11 s2
-          s4 s2.*14 s2
-          <>^"[Dessus]" s4 s2.*11 s2
-          s4 s2.*13 s2
-          <>^"[Dessus]"
+          s4 s2.*11 s2 \vA<>^"Violons" \vB<>^"[Violons]"
         }
         \global \includeNotes "dessus"
       >>
       \new Staff \with { \haraKiriFirst } <<
+        \vA\origVersion { s4 s2.*11 s2 <>^"H.c et Taille" }
         \modVersion {
           s4 s2.*11 s2
-          <>^\markup\whiteout "[Hautes-contre et tailles]"
-          s4 s2.*11 s2
-          s4 s2.*14 s2
-          <>^\markup\whiteout "[Hautes-contre et tailles]"
-          s4 s2.*11 s2
-          s4 s2.*13 s2
-          <>^\markup\whiteout "[Hautes-contre et tailles]"
+          \vA <>^\markup\whiteout { H[aute]-c[ontre] et Taille }
+          \vB <>^\markup\whiteout "[Hautes-contre et tailles]"
         }
         \global \includeNotes "haute-contre-taille"
       >>
@@ -45,28 +37,28 @@
       \global \keepWithTag #'huascar \includeNotes "voix"
     >> \keepWithTag #'huascar \includeLyrics "paroles"
     \setMusic #'basse \new Staff <<
-      \modVersion\instrumentName "Basses"
+      \vA\modVersion\instrumentName "B.C."
+      \vB\modVersion\instrumentName "Basses"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
       \modVersion {
-        s4 s2.*11 s2 \break
+        s4 s2.*11 s2 \bar "" \break
         s4 s2.*11 s2 \break
         s4 s2.*14 s2 \break
-        s4 s2.*11 s2 \break
         s4 s2.*13 s2 \break
       }
-      \origLayout {
-        s4 s2.*5\break
-        s2.*6 s2 \bar "" \break
-        s4 s2.*5\pageBreak
-        s2.*3\break
-        s2.*3 s2 \pageBreak
-        s4 s2.*4\break
-        s2.*6\break
-        s2.*4 s2 \break
-        s4 s2.*4 s2 \bar "" \break
-        s4 s2.*5\break
-        s2.*3 s2\pageBreak
+      \vA\origLayout {
+        s4 s2.*5 s2 \bar "" \break s4 s2.*5 s2 \bar "" \break
+        s4 s2.*5 s2 \bar "" \pageBreak
+        s4 s2.*5 s2 \bar "" \break s4 s2.*4\break s2.*5\pageBreak
+        s2.*6 s2 \break s4 s2.*5 s2 \bar "" \break
+        s4 s2.*5\break s2.*3 s2\break
+      }
+      \vB\origLayout {
+        s4 s2.*5\break s2.*6 s2 \bar "" \break s4 s2.*5\pageBreak
+        s2.*3\break s2.*3 s2 \pageBreak
+        s4 s2.*4\break s2.*6\break s2.*4 s2 \break
+        s4 s2.*4 s2 \bar "" \break s4 s2.*5\break s2.*3 s2\pageBreak
       }
     >>
     

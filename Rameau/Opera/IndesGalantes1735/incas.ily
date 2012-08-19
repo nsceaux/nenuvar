@@ -80,34 +80,30 @@
 \includeScore "CEDair"
 
 %{ n°12 %}
-\pieceTocTitle "Rondeau"
-\includeScore "CEErondeau"
-
-%{ n°13 %}
 \pieceToc\markup\wordwrap { HUASCAR, CHŒUR :
   \italic { Clair Flambeau du monde } }
 \includeScore "CEFhuascarChoeur"
 
-%{ n°14 %}
+%{ n°13 %}
 \pieceTocTitle "Loure en rondeau"
 \includeScore "CEGloure"
 
-%{ n°15 %}
+%{ n°14 %}
 \pieceToc\markup\wordwrap { HUASCAR : \italic { Permettez, Astre du jour } }
 \includeScore "CEHhuascar"
 
-%{ n°16 %}
+%{ n°15 %}
 \pieceTocTitle "Premiere gavotte"
 \includeScore "CEIgavotte" \noPageTurn
-%{ n°17 %}
+%{ n°16 %}
 \pieceTocTitle "Deuxieme gavotte en rondeau"
 \includeScore "CEJgavotte"
 
-%{ n°18 %}
+%{ n°17 %}
 \pieceTocTitle "Tremblement de terre"
 \includeScore "CEKchoeur"
 
-%{ n°19 %}
+%{ n°18 %}
 \scene "Scene V" "Scene 5 : Phani, Huascar"
 \sceneDescription\markup\wordwrap-center\smallCaps { [Phani-Palla, Huascar-Inca.] }
 }
@@ -115,18 +111,18 @@
   \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
 \includeScore "CFAphaniHuascarCarlos"
 
-%{ n°20 %}
+%{ n°19 %}
 \scene "Scene VI" "Scene 6 : Phani, Huascar, Carlos"
 \sceneDescription\markup\wordwrap-center\smallCaps { Phani, Huascar, Carlos. }
 \pieceToc\markup { PHANI, HUASCAR, CARLOS :
   \italic { Vous fuyez, quand les Dieux daignent vous appeller } }
 
-%{ n°21 %}
+%{ n°20 %}
 \pieceToc\markup\wordwrap { PHANI, CARLOS, HUASCAR :
   \italic { Pour jamais l’Amour nous engage } }
 \includeScore "CFBtrio"
 
-%{ n°22 %}
+%{ n°21 %}
 \scene "Scene VII" "Scene 7 : Huascar"
 \sceneDescription\markup\left-align\center-column {
   \line { \smallCaps Huascar seul. }

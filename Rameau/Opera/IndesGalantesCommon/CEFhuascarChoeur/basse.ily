@@ -1,8 +1,9 @@
-\clef "basse" r4 |
+\clef "basse" \vA\origVersion <>^"B.C."
+r4 |
 r la4 la, |
 mi2 dod4 |
 r re si, |
-mi fad4. sold8 |
+mi \vA { fad4 r8 } \vB fad4. sold8 |
 la4. sold8 la la, |
 mi2 r4 |
 r la la, |
@@ -12,6 +13,7 @@ mi8. re16 dod4 r8 sold, |
 la, re, mi,4 mi, |
 la,2
 \setMusic #'rondeau {
+  \modVersion <>^"[Tous]"
   r4 |
   r la la, |
   mi,2 dod4 |
@@ -27,6 +29,7 @@ la,2
   la,2
 }
 \tag #'() \rondeau
+\vA\modVersion <>^"[B.C.]"
 la,4 |
 si,2 dod4 |
 re2. |
@@ -38,12 +41,14 @@ fad,2 fad,4 |
 dod2 dod4 |
 re2. |
 lad, |
-\once\tieDashed si,2~ si,8 dod |
+\once\tieDashed si,2-\vB~ si,8 dod |
 re4 dod si, |
 dod2 re4 |
-\once\tieDashed mi2~ mi8 la, |
-mi,2 
-\modVersion\tag #'() \rondeau
+\vB\once\tieDashed mi2~ mi8 la, |
+mi,2
+\vA\origVersion { r4 | \custosNote la2 }
+%\modVersion\tag #'() \rondeau
+\vA <>^"B.C."
 r4 |
 r4 r la,4 |
 la,2. |
@@ -59,4 +64,5 @@ sold,2 la,4 |
 si,2 sold,4 |
 la,2 si,4 |
 mi,2
-\modVersion\tag #'() \rondeau
+\vA\origVersion { r4 | \custosNote la2 }
+%\modVersion\tag #'() \rondeau

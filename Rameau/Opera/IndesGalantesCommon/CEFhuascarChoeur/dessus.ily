@@ -11,13 +11,13 @@
   \appoggiatura la'8*1/2 si'2 mi''4 |
   r8 la' fad'4.\trill si'8 |
   sold'4\trill la' r8 si' |
-  \appoggiatura si'8 dod''8 re'' si'4.\trill la'8 |
+  \appoggiatura si'8 \vA { dod''8. re''16 } \vB { dod''8 re'' } si'4.\trill la'8 |
   la'2
 }
 
 r4 R2.*11 r4 r
 \keepWithTag #'() \rondeau
 r4 R2.*14 r4 r
-\modVersion\keepWithTag #'() \rondeau
+%\modVersion\keepWithTag #'() \rondeau
 r4 R2.*13 r4 r
-\modVersion\keepWithTag #'() \rondeau
+%\modVersion\keepWithTag #'() \rondeau

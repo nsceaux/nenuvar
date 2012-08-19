@@ -7,7 +7,7 @@
     >>
     \layout {
       indent = #0
-      ragged-last = ##t
+      ragged-last = ##f
       line-width = 6\cm
       \context {
         \Score
