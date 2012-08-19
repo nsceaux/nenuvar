@@ -4,7 +4,7 @@
 %% Rondeau
 \modVersion { \markUpBegin\mark "[Rondeau]" }
 s4. \origVersion <>^\markup\musicglyph #"scripts.segno"
-s1.*7 s2. \origVersion <>^"fin" s4.
+s1.*7 s2. \origVersion <>^\markup\large\italic fin s4.
 \origVersion \bar "|:|"
 \modVersion { \bar ":|" \fineMark }
 %% 1er couplet
@@ -14,8 +14,13 @@ s4. s1.*7
   \once\override TextScript #'extra-offset = #'(0 . -4)
   s2.^\markup\musicglyph #"scripts.segno"
   \bar "|:|"
+  \endMark "Le Rondeau"
 }
-\modVersion { s2. s4. \bar "|." \endMark "[au Rondeau]" }
+\modVersion {
+  s2. s4. \bar "|."
+  \endMark "Le Rondeau"
+  \vB\endMark "[au Rondeau]"
+}
 %% 2e couplet
 s4. s1.*7
 \origVersion {
@@ -23,5 +28,10 @@ s4. s1.*7
   \once\override TextScript #'extra-offset = #'(0 . -4)
   s2.^\markup\musicglyph #"scripts.segno"
   \bar "|:|"
+  \endMark "Le Rondeau"
 }
-\modVersion { s2. s4. \bar "|." \endMark "[au Rondeau]" }
+\modVersion {
+  s2. s4. \bar "|."
+  \endMark "Le Rondeau"
+  \vB\endMark "[au Rondeau]"
+}

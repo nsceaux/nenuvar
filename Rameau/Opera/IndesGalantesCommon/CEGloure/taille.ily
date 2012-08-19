@@ -3,7 +3,7 @@
   dod''8 si'4 |
   la' sold' fad' si re''2 |
   la dod'4 fad' r4 r |
-  r4 fad'4 fad' fad' mid'2 |
+  r4 fad'4 fad' fad' mid'2-\vA\trill |
   fad' mid'4 fad' r8 dod'' si'4 |
   la' sold' fad' si re''2 |
   la dod'4 fad' r4 r |
