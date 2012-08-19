@@ -76,7 +76,7 @@
 \includeScore "CEChuascarChoeur"
 
 %{ n°11 %}
-\pieceTocTitle "Air des Incas [pour la dévotion du Soleil]"
+\pieceTocTitle "Air des Incas pour la dévotion du Soleil"
 \includeScore "CEDair"
 
 %{ n°12 %}

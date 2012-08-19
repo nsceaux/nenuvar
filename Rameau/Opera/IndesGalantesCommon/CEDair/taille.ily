@@ -12,7 +12,7 @@ mi'2 mi' |
 fad'2 mi'4 r |
 mi'4. mi'8 mi'4. mi'8 |
 red'2~ red'4. fad'8 |
-mi'4 mi' mi' red' |
+mi'4 mi' mi' red'-\vA\trill |
 mi'1 |
 si2 si |
 dod'1 |
@@ -28,7 +28,7 @@ fad'2 mi' |
 mi'1 |
 mi'4 mi' mi' si |
 dod'2 fad |
-si' la'8 r r4 |
+si'-\vA( la'8-\vA) r r4 |
 mi'2 mi' |
 mi'2. sol'4 |
 fad' mi' re' re'' |
