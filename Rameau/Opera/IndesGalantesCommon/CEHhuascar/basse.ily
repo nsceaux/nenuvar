@@ -6,7 +6,7 @@ fad, la, dod fad2 r4 |
 r2*3/2 r4 r8 dod' si4 |
 la sold fad si, re'2 |
 la,2. si,4 dod dod, |
-fad,\fermata la, dod fad2 r4 |
+fad,-\vB\fermata la, dod fad2 r4 |
 r2*3/2 r4 r8 mi' re'4 |
 dod' si la re fad'2 |
 dod dod'4 si sold la |

@@ -21,4 +21,5 @@ Sur vos ap -- pas n’é -- tend ja -- mais son om -- bre.
 Tous les tems, ai -- ma -- ble vain -- queur, __
 Sont mar -- quez par tes __ fa -- veurs. __
 \modVersion { Per -- met- }
-\origVersion { Per -- met -- tez, }
+\vA\origVersion { Per -- met -- tez,_&c }
+\vB\origVersion { Per -- met -- tez, }
