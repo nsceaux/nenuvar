@@ -17,7 +17,7 @@ fad' re'~ |
 re'4 dod'8 re' mi'4 re'8 mi' |
 fad' sold' la'4 r2 |
 sold'2 r4 sold'8 sold' |
-sold'4 la'8 mi' mi'4 re' |
+sold'4 la'8 fad' mi'4 re' |
 dod'2 \modVersion r2
 
 dod'4 dod'8 re' mi'4 re'8 mi' |

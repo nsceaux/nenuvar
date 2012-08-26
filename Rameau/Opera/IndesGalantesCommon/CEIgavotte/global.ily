@@ -12,7 +12,7 @@ s1*9 \alternatives {
   \modVersion s1
 }
 { \set Score.measureLength = #(ly:make-moment 4 4)
-  \origVersion {
+  \vB\origVersion {
     \markUpBegin\mark\markup\smaller { \concat { 2 \super e } Reprise }
   }
   s1

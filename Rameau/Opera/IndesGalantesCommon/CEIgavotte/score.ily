@@ -13,18 +13,13 @@
         \modVersion\instrumentName "[Tailles]"
         \global \includeNotes "taille"
       >>
-      \new Staff \with { \haraKiriFirst } <<
-        \global \keepWithTag #'basson \includeNotes "basse"
-        { \startHaraKiri s2 s1*8 \stopHaraKiri s1*3 \startHaraKiri }
-      >>
       \new Staff <<
-        \modVersion\instrumentName "[Basses]"
-        \global \keepWithTag #'basse \includeNotes "basse"
+        \modVersion\instrumentName\markup\center-column {
+          "[Bassons" "Basses]"
+        }
+        \global \keepWithTag #'conducteur \includeNotes "basse"
         \origLayout {
-          s2 s1*7\pageBreak
-          s1*7\break
-          s1*3 s2 s1*3 s2 \bar "" \break
-          s2 s2\pageBreak
+          s2 s1*9\break s1*8\break s2 s1*4 s2\pageBreak
         }
       >>
     >>

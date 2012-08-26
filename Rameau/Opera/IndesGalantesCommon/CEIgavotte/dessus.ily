@@ -1,4 +1,5 @@
-\clef "dessus" la4^"Tous" dod' |
+\clef "dessus" \vB<>^"Tous"
+la4 dod' |
 mi' la' dod''8 re'' mi''4 |
 la' la'' la''2 |
 mi''4 fad''8 mi'' re'' dod'' si' la' |
@@ -17,7 +18,7 @@ dod'' si'2 la'4 |
 sold' mi''8 re'' dod'' si' la'4 |
 re' fad''8 mi'' re'' dod'' si'4 |
 mi' si''8 si'' si''2~ |
-si''4 mi''8 la'' sold''4.\trill fad''16 sold'' |
+si''4 mi''8 la'' sold''4.-\vA(\trill fad''16 sold''-\vA) |
 la''2 \modVersion { mi'4 sold' | }
 
 la''4 mi''8 re'' dod'' si' la'4 |
