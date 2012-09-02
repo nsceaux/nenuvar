@@ -100,7 +100,7 @@
 \includeScore "CEJgavotte"
 
 %{ n°17 %}
-\pieceTocTitle "Tremblement de terre"
+\pieceToc\markup\wordwrap { CHŒUR : \italic { Dans les abimes de la Terre } }
 \includeScore "CEKchoeur"
 
 %{ n°18 %}
