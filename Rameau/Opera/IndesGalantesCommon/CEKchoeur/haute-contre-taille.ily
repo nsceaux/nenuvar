@@ -26,49 +26,56 @@ sol4 r8 sol32\fort sol sol sol sol8 sol sol sol |
   }
 >>
 sol4 r r2 |
-\vA <<
+\vA {
   \footnoteHere #'(-1 . 0.1) \markup {
     Source : partie laissée vide jusqu'à la mesure 36 incluse.
   }
-  s1*16
-  \tag #'part \new CueVoice {
-    <>^"[Dessus]" -\doux \ru#8 do'8-. |
-    <>-\plusfort \ru#16 do'16 |
-    <>-\tresfort \ru#32 reb'32 |
-    \ru#16 reb' \ru#16 solb' |
-    \ru#32 sol' |
-    <<
-      { do''16\moinsfort sib' la' sib' do'' sib' la' sib'
-        do'' sib' la' sib' do'' sib' la' do'' |
-        sib' } 
-      { la'16 sol' fad' sol' la' sol' fad' sol'
-        la' sol' fad' sol' la' sol' fad' la' |
-        sol' }
-    >> sib\doux sib sib sib sib sib sib \ru#8 sib |
-    << { s32 <>\tresfort } \ru#32 sib32 >> |
-    <<
-      { <>\moinsfort sib'16 lab' sol' lab' sib' lab' sol' lab'
-        sib' lab' sol' lab' sib' lab' sol' sib' |
-        lab'32 }
-      { sol'16 fa' mi' fa' sol' fa' mi' fa'
-        sol' fa' mi' fa' sol' fa' mi' sol' |
-        fa'32 }
-    >>  lab\tresfort lab lab lab lab lab lab \ru#24 lab32 |
-    <<
-      { <>\moinsfort lab'16 sol' fa' sol' lab' sol' fa' sol'
-        lab' sol' fa' sol' lab' sol' fa' lab' |
-        sol'4\tresfort ~ sol'32 }
-      { fa'16 mib' re' mib' fa' mib' re' mib'
-        fa' mib' re' mib' fa' mib' re' fa' |
-        mi'4~ mi'32 }
-    >> do' re' mi' fa' sol' lab' sib' do''4
-    \ottava #1 r32 do'' re'' mi'' fa'' sol'' lab'' sib'' |
-    do'''8 \ottava #0 r r4 r2 |
-    <>\doux \ru#8 fa'8-. |
-    << { s16 <>\fort } \ru#16 fa'16 >> |
-    fa'4 r mi'\trill r |
-  }
->>
+  <<
+    s1*13
+    \tag #'part \new CueVoice {
+      <>^"[Dessus]" -\doux \ru#8 do'8-. |
+      <>-\plusfort \ru#16 do'16 |
+      <>-\tresfort \ru#32 reb'32 |
+      \ru#16 reb' \ru#16 solb' |
+      \ru#32 sol' |
+      <<
+        { do''16\moinsfort sib' la' sib' do'' sib' la' sib'
+          do'' sib' la' sib' do'' sib' la' do'' |
+          sib' } 
+        { la'16 sol' fad' sol' la' sol' fad' sol'
+          la' sol' fad' sol' la' sol' fad' la' |
+          sol' }
+        >> sib\doux sib sib sib sib sib sib \ru#8 sib |
+      << { s32 <>\tresfort } \ru#32 sib32 >> |
+      <<
+        { <>\moinsfort sib'16 lab' sol' lab' sib' lab' sol' lab'
+          sib' lab' sol' lab' sib' lab' sol' sib' |
+          lab'32 }
+        { sol'16 fa' mi' fa' sol' fa' mi' fa'
+          sol' fa' mi' fa' sol' fa' mi' sol' |
+          fa'32 }
+        >>  lab\tresfort lab lab lab lab lab lab \ru#24 lab32 |
+      <<
+        { <>\moinsfort lab'16 sol' fa' sol' lab' sol' fa' sol'
+          lab' sol' fa' sol' lab' sol' fa' lab' |
+          sol'4\tresfort ~ sol'32 }
+        { fa'16 mib' re' mib' fa' mib' re' mib'
+          fa' mib' re' mib' fa' mib' re' fa' |
+          mi'4~ mi'32 }
+        >> do' re' mi' fa' sol' lab' sib' do''4
+      \ottava #1 r32 do'' re'' mi'' fa'' sol'' lab'' sib'' |
+      do'''8 \ottava #0 r r4 r2 |
+    }
+  >>
+  << s1*3
+    \modVersion\new CueVoice {
+      <>^"[version ultérieure]"
+      \ru#8 do'8-. |
+      \ru#16 reb'16 |
+      sol4 r sib r |
+    }
+  >>
+}
 \vB {
   R1 |
   do'8-. do'-. do'-. do'-. do'-. do'-. do'-. do'-. |
@@ -91,29 +98,34 @@ r8 r32 do'[ reb' mib' fa' sol' lab' sib'] do''16 do'' do'' do'' do'' do'' |
 do''4 reb''8 sol'4 do''8 |
 fa'32 reb' reb' reb' reb' reb' reb' reb' reb' reb' reb' reb' reb'4 fa'8 |
 mi'32 do' do' do' do' do' do' do' do' do' do' do' do'4 do'8 |
-\vA <<
+\vA {
   \footnoteHere #'(-1 . 0.1) \markup {
     Source : partie laissée vide jusqu'à la mesure 66 incluse.
   }
-  { s2. s1*12 }
-  \tag #'part \new CueVoice {
-    <>^"[Source : version ultérieure]"
-    lab4 sib8 do'4 do'8 |
-    fa4
-    <>^"[Dessus]" r8 r16 lab'\doux lab'4 r8 r16 lab'\moinsdoux |
-    la'4 r la' r |
-    la'? r r2 |
-    la'?32_\fort \ru#31 la' |
-    la'4 r la'\doux r |
-    sib'4 r r2 |
-    <>_\fort \ru#32 sib'32 |
-    si'4\enadoucissant r si' r |
-    si'? r4 r r16 sol'\fort la' si'! |
-    do''4 r r r16 sib' lab' sol' |
-    lab'8 r lab' r lab' r lab' r |
-    lab'4 r lab' r |
-  }
->>
+  << { s2. s1 s4 }
+    \modVersion\new CueVoice {
+      <>^\markup\smaller "[version ultérieure]"
+      lab4 sib8 do'4 do'8 |
+      fa4
+    }
+  >>
+  << { s2. s1*10 }
+    \tag #'part \new CueVoice {
+      <>^"[Dessus]" r8 r16 lab'\doux lab'4 r8 r16 lab'\moinsdoux |
+      la'4 r la' r |
+      la'? r r2 |
+      la'?32_\fort \ru#31 la' |
+      la'4 r la'\doux r |
+      sib'4 r r2 |
+      <>_\fort \ru#32 sib'32 |
+      si'4\enadoucissant r si' r |
+      si'? r4 r r16 sol'\fort la' si'! |
+      do''4 r r r16 sib' lab' sol' |
+      lab'8 r lab' r lab' r lab' r |
+      lab'4 r lab' r |
+    }
+  >>
+}
 \vB {
   lab4 sib8 do'4 do'8 |
   << \tag #'(haute-contre conducteur) do'2 \tag #'(taille conducteur) fa2 >> r |

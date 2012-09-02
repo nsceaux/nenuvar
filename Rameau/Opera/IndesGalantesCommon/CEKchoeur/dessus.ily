@@ -116,7 +116,7 @@ sib sib'' sib'' sib'' sib'' sib'' sib'' sib'' sib'' sib'' sib'' sib'' \ru#12 reb
 \ru#12 sib'' sib''4 lab''8 |
 sol''8.*5/6[ do'32 re' mi' fa' sol' lab' sib'] do''8.*7/6[ sol'32 lab' sib' do'' re''] |
 mi''8 r r r2*3/4 |
-R2.*2 |
+R2.*2 |\allowPageTurn
 r8 r32 do'[ reb' mib' fa' sol' lab' sib'] do''8.[ reb''32 mib'' fa'' sol'' lab'' sib''] |
 do'''4 sib''8 do''4 sib''8 |
 lab''32 \clef "dessus2" reb' reb' reb' reb' reb' reb' reb' reb' reb' reb' reb' reb'4 sib'8 |

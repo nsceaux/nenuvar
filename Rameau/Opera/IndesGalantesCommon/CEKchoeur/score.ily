@@ -15,19 +15,38 @@
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
     \setMusic #'orchestre <<
-      \new Staff <<
-        \modVersion\instrumentName\markup { \concat { P \super r } dessus }
-        \origVersion <>^\markup { \concat { P \super r } dessus }
-        \global \keepWithTag #'violon1 \includeNotes "dessus"
+      %% Version "concert" :
+      %% 2 portées pour les dessus, puis à partir du chœur,
+      %% les deux dessus sur la même portée
+      \modVersion\new GrandStaff <<
+        \new Staff \with { \haraKiri } <<
+          { s8 s1*11\startHaraKiri \break }
+          \instrumentName\markup { \concat { P \super r } dessus }
+          \global \keepWithTag #'violon1 \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiri } <<
+          { s8 s1*11\startHaraKiri }
+          \instrumentName\markup { \concat { 2 \super e } dessus }
+          \global \keepWithTag #'violon2 \includeNotes "dessus"
+        >>
       >>
-      \new Staff \with { \haraKiri } <<
-        \modVersion\instrumentName\markup { \concat { 2 \super e } dessus }
-        \origVersion {
-          <>^\markup { \concat { 2 \super e } dessus }
-          s8 s1*12 \startHaraKiri
-          \vA { s1*11 \stopHaraKiri s1*13 \startHaraKiri }
-        }
-        \global \keepWithTag #'violon2 \includeNotes "dessus"
+      \modVersion\new Staff \with { \haraKiriFirst } <<
+        { \startHaraKiri s8 s1*11 \stopHaraKiri }
+        \global \keepWithTag #'conducteur \includeNotes "dessus"
+      >>
+      %% Version urtext : 2 portées
+      \origVersion <<
+        \new Staff <<
+          <>^\markup { \concat { P \super r } dessus }
+          \global \keepWithTag #'violon1 \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiri } <<
+          { <>^\markup { \concat { 2 \super e } dessus }
+            s8 s1*12 \startHaraKiri
+            \vA { s1*11 \stopHaraKiri s1*13 \startHaraKiri }
+          }
+          \global \keepWithTag #'violon2 \includeNotes "dessus"
+        >>
       >>
       \new Staff <<
         \modVersion\instrumentName\markup\center-column {
@@ -66,7 +85,7 @@
         s2. s1*5\pageBreak
         s1*7\break s1*2 s2\break
       }
-      \modVersion { s8 s1*36\break }
+      \modVersion { s8 s1*36\break s2.*18 s1\break }
     >>
 
     \origVersion << \choeur \orchestre \bc >>

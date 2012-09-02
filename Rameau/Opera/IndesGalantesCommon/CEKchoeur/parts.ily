@@ -1,11 +1,6 @@
-\piecePartSpecs #`((violon1)
-                   (violon2)
-                   (hautbois1 #:score-template "score-silence" #:notes "silence" #:ragged #t)
-                   (hautbois2 #:score-template "score-silence" #:notes "silence" #:ragged #t)
-                   (flute1 #:score-template "score-silence" #:notes "silence" #:ragged #t)
-                   (flute2 #:score-template "score-silence" #:notes "silence" #:ragged #t)
-                   (haute-contre #:notes "haute-contre-taille" #:tag-notes haute-contre)
-                   (taille #:notes "haute-contre-taille" #:tag-notes taille)
-                   (voix)
-                   (basson #:instrument "Basson" #:notes "basson")
-                   (basse))
+\piecePartSpecs #`((dessus #:score "score-dessus")
+                   (haute-contre #:notes "haute-contre-taille"
+                                 #:tag-notes (haute-contre part))
+                   (taille #:notes "haute-contre-taille"
+                           #:tag-notes (taille part))
+                   (basse #:score "score-basse"))
