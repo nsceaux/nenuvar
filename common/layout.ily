@@ -143,6 +143,21 @@
   }
 }
 
+%% override beaming behavior
+%% in 2/2, group 16th notes by 4 (not by 8)
+#(define-public (add-beam-exception time-signature beam-exception settings)
+   (assoc-set! settings
+               time-signature
+               (assoc-set!
+                (assoc-get time-signature settings '())
+                'beamExceptions
+                (cons beam-exception
+                      (beam-exceptions time-signature settings)))))
+#(set! default-time-signature-settings
+       (add-beam-exception '(2 . 2)
+                           '(end ((1 . 16) 4 4 4 4))
+                           default-time-signature-settings))
+
 pageBreakCond =
 #(define-music-function (location parser paper-sizes) (list?)
    (if (memq (*paper-size*) paper-sizes)
