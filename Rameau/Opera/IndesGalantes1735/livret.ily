@@ -762,7 +762,7 @@
   Carlos, non aperçu, Phani, Huascar.
 }
 \livretPers HUASCAR
-\livretVerse#11 { Quoy ! plus que le peril mon amour étonne ! }
+\livretVerse#12 { Quoy ! plus que le peril mon amour vous étonne ! }
 \livretVerse#12 { C’est trop me resister... }
 \livretPers PHANI
 \livretVerse#12 { \transparent { C’est trop me resister... } O Ciel ! entens mes vœux... }
@@ -772,8 +772,8 @@
 \livretVerse#12 { Tu t’abuses barbare ! }
 \livretPers PHANI
 \livretVerse#12 { \transparent { Tu t’abuses barbare ! } Ah ! Carlos, je frissonne. }
-\livretVerse#12 { Le Soleil jusqu’au fonds des Antres les plus creux }
-\livretVerse#12 { Vient d’allumer la Terre,  &son courous présage... }
+\livretVerse#12 { Le Soleil jusqu’au fond des Antres les plus creux }
+\livretVerse#13 { Vient d’allumer la Terre, & son courous présage... }
 \livretPers CARLOS
 \livretVerse#12 { Princesse, quelle erreur ! C’est le Ciel qu’elle outrage. }
 \livretVerse#8 { Cet embrâsement dangereux }

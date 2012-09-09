@@ -58,7 +58,7 @@
 }
 \tag #'(phani basse) {
   %%PHANI
-  Le So -- leil jus -- qu’au fonds des An -- tres les plus creux
+  Le So -- leil jus -- qu’au fond des An -- tres les plus creux
   Vient d’al -- lu -- mer la Ter -- re, et son cou -- rous pré -- sa -- ge...
 }
 \tag #'(carlos basse) {
@@ -80,7 +80,7 @@
   Mais, il te faut de plus cru -- els su -- pli -- ces.
   %% à Phani
   Ac -- cor -- dez vô -- tre main à son Ri -- val heu -- reux,
-  C’est- là son châ -- ti -- ment.
+  C’est là son châ -- ti -- ment.
 }
 \tag #'(huascar basse) {
   %%HUASCAR
