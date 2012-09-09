@@ -105,17 +105,12 @@
 
 %{ n°18 %}
 \scene "Scene V" "Scene 5 : Phani, Huascar"
-\sceneDescription\markup\wordwrap-center\smallCaps { [Phani-Palla, Huascar-Inca.] }
+\sceneDescription\markup\wordwrap-center\smallCaps {
+  [Phani-Palla, Huascar-Inca.]
 }
 \pieceToc\markup { PHANI, HUASCAR :
   \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
 \includeScore "CFAphaniHuascarCarlos"
-
-%{ n°19 %}
-\scene "Scene VI" "Scene 6 : Phani, Huascar, Carlos"
-\sceneDescription\markup\wordwrap-center\smallCaps { Phani, Huascar, Carlos. }
-\pieceToc\markup { PHANI, HUASCAR, CARLOS :
-  \italic { Vous fuyez, quand les Dieux daignent vous appeller } }
 
 %{ n°20 %}
 \pieceToc\markup\wordwrap { PHANI, CARLOS, HUASCAR :

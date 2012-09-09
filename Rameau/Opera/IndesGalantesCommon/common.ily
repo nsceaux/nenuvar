@@ -269,6 +269,28 @@ inMusicScene =
         \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
         \mark \markup \fontsize #4 $(string-upper-case title) #}))
 
+inMusicSceneDesc =
+#(define-music-function (parser location title toc-title description)
+     (string? markup? markup?)
+   (add-toc-item parser 'tocSceneMarkup toc-title)
+   (let ((label-music (make-music 'SimultaneousMusic
+                        'elements (list (in-music-add-odd-page-header-text
+                                          (format #f "~a, ~a."
+                                            (string-upper-case (*act-title*))
+                                            (string-upper-case title))
+                                          #t))))
+         (description-markup (if (*part*)
+                                 empty-markup
+                                 (markup #:fontsize 2 description))))
+     #{ $label-music
+        \once \override Score . RehearsalMark #'font-size = #0
+        \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
+        \mark \markup \left-align \center-column {
+          \fontsize #4 $(string-upper-case title)
+          \vspace #1
+          $description-markup
+        } #}))
+
 %% Editorial notes
 notesSection =
 #(define-music-function (parser location title) (markup?)

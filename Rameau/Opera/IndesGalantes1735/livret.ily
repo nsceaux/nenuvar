@@ -743,20 +743,37 @@
 \livretVerse#8 { O jour funeste ! dois-je croire }
 \livretVerse#8 { Que le Ciel jaloux de sa gloire }
 \livretVerse#12 { Ne s’explique aux Humains qu’en les faisant trembler ? }
-
-\livretScene\line { SCENE VI }
-\livretDescAtt\wordwrap-center\smallCaps {
-  Phani-Palla, Huascar-Inca, Dom-Carlos.
-}
 \livretPers\line { HUASCAR, \fontsize #-1 { l'arrêtant encore. } }
 \livretVerse#12 { Vous fuyez, quand les Dieux daignent vous appeller ! }
 \livretVerse#12 { Eh bien, Cruelle, eh bien ! vous allez me connoître, }
 \livretVerse#12 { Suivez l’Amour jaloux... }
-\livretPers CARLOS
-\livretVerse#12 { \transparent { Suivez l’Amour jaloux... } Ton crime ose paroître ! }
 \livretPers PHANI
+\livretVerse#12 { \transparent { Suivez l’Amour jaloux... } Ton crime ose paroître ! }
+\livretPers HUASCAR
+\livretVerse#12 { Que l’on est criminel lorsque l’on ne plaît pas ! }
+\livretVerse#12 { Du moins en me suivant evitez le trepas. }
+\livretVerse#12 { Icy, je vois partout l’affreuse mort suivie }
+\livretVerse#8 { d’un redoutable embrasement. }
+\livretVerse#8 { Chaqu’instant peut de vôtre vie }
+\livretVerse#8 { Devenir le dernier moment. }
+
+\livretScene\line { SCENE VI }
+\livretDescAtt\wordwrap-center\smallCaps {
+  Carlos, non aperçu, Phani, Huascar.
+}
+\livretPers HUASCAR
+\livretVerse#11 { Quoy ! plus que le peril mon amour étonne ! }
+\livretVerse#12 { C’est trop me resister... }
+\livretPers PHANI
+\livretVerse#12 { \transparent { C’est trop me resister... } O Ciel ! entens mes vœux... }
+\livretPers HUASCAR
+\livretVerse#8 { C’est aux miens qu’il vous abandonne. }
+\livretPers CARLOS
+\livretVerse#12 { Tu t’abuses barbare ! }
+\livretPers PHANI
+\livretVerse#12 { \transparent { Tu t’abuses barbare ! } Ah ! Carlos, je frissonne. }
 \livretVerse#12 { Le Soleil jusqu’au fonds des Antres les plus creux }
-\livretVerse#12 { Vient d’allumer la Terre, & son courous présage... }
+\livretVerse#12 { Vient d’allumer la Terre,  &son courous présage... }
 \livretPers CARLOS
 \livretVerse#12 { Princesse, quelle erreur ! C’est le Ciel qu’elle outrage. }
 \livretVerse#8 { Cet embrâsement dangereux }

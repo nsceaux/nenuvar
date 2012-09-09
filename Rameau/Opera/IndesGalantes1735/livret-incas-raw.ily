@@ -243,20 +243,37 @@
 %# O jour funeste ! dois-je croire
 %# Que le Ciel jaloux de sa gloire
 %# Ne s'explique aux Humains qu'en les faisant trembler ?
-
-\livretScene\line { SCENE VI }
-\livretDescAtt\wordwrap-center\smallCaps {
-  Phani-Palla, Huascar-Inca, Dom-Carlos.
-}
 \livretPers\line { HUASCAR, \fontsize #-1 { l'arrêtant encore. } }
 %# Vous fuy=ez, quand les Dieux daignent vous appeller !
 %# Eh bien, Cru=elle, eh bien ! vous allez me connoître,
 %#- Suivez l'Amour jaloux...
-\livretPers CARLOS
-%#= Ton crime ose paroître !
 \livretPers PHANI
+%#= Ton crime ose paroître !
+\livretPers HUASCAR
+%# Que l'on est criminel lorsque l'on ne plaît pas !
+%# Du moins en me suivant evitez le trepas.
+%# Icy, je vois partout l'affreuse mort suivi=e
+%# d'un redoutable embrasement.
+%# Chaqu'instant peut de vôtre vi=e
+%# Devenir le dernier moment.
+
+\livretScene\line { SCENE VI }
+\livretDescAtt\wordwrap-center\smallCaps {
+  Carlos, non aperçu, Phani, Huascar.
+}
+\livretPers HUASCAR
+%# Quoy ! plus que le peril mon amour vous étonne !
+%#- C'est trop me resister...
+\livretPers PHANI
+%#= O Ciel ! entens mes vœux...
+\livretPers HUASCAR
+%# C'est aux miens qu'il vous abandonne.
+\livretPers CARLOS
+%#- Tu t'abuses barbare !
+\livretPers PHANI
+%#= Ah ! Carlos, je frissonne.
 %# Le Soleil jusqu'au fonds des Antres les plus creux
-%# Vient d'allumer la Terre, & son courous présage...
+%# Vient d'allumer la Terre, =& son courous présage...
 \livretPers CARLOS
 %# Princesse, quelle erreur ! C'est le Ciel qu'elle outrage.
 %# Cet embrâsement dangereux

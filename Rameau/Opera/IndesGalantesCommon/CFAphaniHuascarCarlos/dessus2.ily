@@ -1,4 +1,15 @@
-\clef "dessus2" r2 R1*2 R2. R1*2 R1*3 R1 R2.*2 R1 R2. R1 R1*5 |
+\clef "dessus2"
+\vA {
+  r2 |
+  r4 r8 la la4 r16 la la la |
+  do'4 r r2 |
+  R2. |
+  r8 r16 la la8 la16 r \ru#8 re'32 re'16 r re' r |
+  sol8 r r4 << \origVersion { r4 r } \modVersion r2 >> |
+  R1 |
+  
+}
+\vB { r2 R1*2 R2. R1*2 R1*3 R1 R2.*2 R1 R2. R1 R1*5 | }
 r4 fa'4 mib' mib' |
 sib2 r |
 R2. |
