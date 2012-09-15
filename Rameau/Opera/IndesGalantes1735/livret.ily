@@ -800,7 +800,7 @@
 \livretVerse#8 { Pour jamais l’Amour nous engage, }
 \livretVerse#12 { Non, non, rien n’est égal à ma félicité ! }
 \livretDidasP\line\smallCaps { Huas. }
-\livretVerse#7 { Non rien d’égale ma rage ! }
+\livretVerse#7 { Non rien n’égale ma rage ! }
 \livretVerse#10 { Je suis témoin de leur félicité. }
 \livretDidasP\line\smallCaps { Phan. & Carl. }
 \livretVerse#8 { Ah ! mon cœur a bien mérité }

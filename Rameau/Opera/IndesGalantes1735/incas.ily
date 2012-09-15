@@ -118,9 +118,7 @@
 \includeScore "CFBtrio"
 
 %{ n°21 %}
-\scene "Scene VII" "Scene 7 : Huascar"
 \sceneDescription\markup\left-align\center-column {
-  \line { \smallCaps Huascar seul. }
   \line { [Le Volcan se rallume, & le Tremblement de terre recommence.] }
 }
 \pieceToc\markup\wordwrap { HUASCAR :

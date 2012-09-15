@@ -162,10 +162,12 @@
 
 #(define-markup-command (tacet-lyrics layout props score text)
      (markup? markup-list?)
+   #:properties ((column-number 2))
    (interpret-markup
     layout props
     #{\markup\column {
-        \fontsize #-2 \override #'(column-number . 2) \column\page-columns {
+        \fontsize #-2 \override #`(column-number . ,column-number)
+        \column\page-columns {
           \fontsize #2 \line { \hspace #10 Tacet \raise #3 $score }
           \null
           $text

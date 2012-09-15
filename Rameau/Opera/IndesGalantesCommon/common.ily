@@ -26,7 +26,8 @@
 %%  16 for vocal parts
 %%  18 for instruments
 #(set-global-staff-size
-  (cond ((not (symbol? (ly:get-option 'part))) 14)
+  (cond ((not (symbol? (ly:get-option 'part)))
+         (if (eqv? #t (ly:get-option 'urtext)) 14 16))
         ((memq (ly:get-option 'part) '(basse)) 16)
         (else 18)))
 

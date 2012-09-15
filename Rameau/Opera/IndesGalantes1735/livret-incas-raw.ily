@@ -300,7 +300,7 @@
 %# Pour jamais l'Amour nous engage,
 %# Non, non, rien n'est égal à ma félicité !
 \livretDidasP\line\smallCaps { Huas. }
-%# Non rien d'égale ma rage !
+%# Non rien n'égale ma rage !
 %# Je suis témoin de leur félicité.
 \livretDidasP\line\smallCaps { Phan. & Carl. }
 %# Ah ! mon cœur a bien mérité
