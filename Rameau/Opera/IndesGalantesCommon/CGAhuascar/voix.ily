@@ -3,7 +3,7 @@ R1*3 |
 r2 r4 r8 sol |
 re'2 re'8 re'16 re' re'8 mib' |
 mib'2 mib'8 r r4 |
-r sol4. sol8 sib sol |
+r sol4. la8 sib sol |
 do'2. do'8 fa |
 \appoggiatura fa8 sol2 sol8 r r4 |
 r2 r4 r8 mib' |
@@ -16,14 +16,14 @@ re'4 r r8 re' re' re' |
 si2 si4 si8 re' |
 sol1 |
 mib'8 re' do' sib la4. sib16 do' |
-fad2 fad8 r sol sib, |
+fad2\trill fad8 r sol sib, |
 do2 do4. re8 |
 sol,2 r4 sol8 sib |
 mi2 r4 do8 do |
 sol4 sol8 sol do'4 do'8 sol |
 lab4 lab8 r r do' lab lab |
-fa4 fa8 fa re4 re8 re |
-si,2 si,8 r r4 |
+fa4\trill fa8 fa re4\trill re8 re |
+si,2\trill si,8 r r4 |
 r re' si sol |
 mib2 do |
 sol,2. do4 |

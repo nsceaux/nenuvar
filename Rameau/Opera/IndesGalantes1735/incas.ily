@@ -124,9 +124,20 @@
 \pieceToc\markup\wordwrap { HUASCAR :
   \italic { La flâme se rallume encore } }
 \includeScore "CGAhuascar"
-\markup\large\wordwrap-center {
-  On reprend pour entr’acte les menüets au Prologue
-  page \page-refII #'AEEmenuet .
+
+\markup\fill-line {
+  \center-column {
+    \score {
+      { \clef "dessus" \digitTime\time 3/4 \key re \minor
+        sol'8 la' sib' do'' re'' mib'' |
+        re''4 sol''2~ |
+        \custosNote sol''4 \bar "|."
+      }
+      \layout { indent = 0 ragged-right = ##t }
+    }
+    \line\large { Les menuets [page \page-refII #'AEEmenuet .] }
+  }
 }
+
 \markup \vspace #3
 \actEnd "[FIN DE LA DEUXIÈME ENTRÉE]"
