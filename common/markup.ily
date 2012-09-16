@@ -431,6 +431,8 @@ smallLayout = \layout {
   }
   \context { \Lyrics fontSize = #-1 }
   \context { \FiguredBass \override BassFigure #'font-size = #-1 }
+  \context { \Voice \override Script #'avoid-slur = #'outside }
+  \context { \CueVoice \override Script #'avoid-slur = #'outside }
 }
 
 onlyNotesLayout = \layout {

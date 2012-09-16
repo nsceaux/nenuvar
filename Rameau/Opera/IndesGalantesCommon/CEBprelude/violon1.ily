@@ -32,7 +32,7 @@ red' r |
 \vB {
   r4 si' mi''2~ |
   mi''4 la' re''2~ |
-  re''4. do''16\trill si' \appoggiatura si'16 do''4. mi''8 |
+  re''4. do''16\trill si' \appoggiatura si'8 do''4 mi'' |
   si'4. si'8 si'4.\trill la'8 |
   la'1 |
 }

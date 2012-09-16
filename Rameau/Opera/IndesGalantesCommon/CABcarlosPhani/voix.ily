@@ -94,11 +94,11 @@
     }
     \vB {
       sib'2 r4 r8 sol' |
-      mi'4\trill r8 sol' do''4 sib'8 la'16 sol' |
+      mi'4\trill r8 la' do''4 sib'8 la'16 sol' |
       fad'4\trill fad'8 re''16 re'' si'8\trill do''16 re'' |
       mib''4 r8 mib''16 mib'' do''8\trill re''16 mib'' |
-      re''4.\trill re''16 mi'' fa''8 fa''16 sol'' |
-      mi''2\trill mi''4 fad''8 sol'' |
+      re''4\trill r8 re''16 mi'' fa''8 fa''16 sol'' |
+      \appoggiatura fa''8 mi''2\trill mi''4 fad''8 sol'' |
       sib'2( la'4.\trill) sol'8 |
       sol'1 |
     }

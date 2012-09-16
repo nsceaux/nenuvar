@@ -5,3 +5,4 @@
 }
 \include "Rameau/Opera/IndesGalantes1735/notes-prologue.ily"
 \include "Rameau/Opera/IndesGalantes1735/notes-turc.ily"
+\include "Rameau/Opera/IndesGalantes1735/notes-incas.ily"

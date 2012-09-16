@@ -31,8 +31,8 @@ la r |
 }
 \vB {
   r4 sold' la' do''~ |
-  do''4. si'16\trill la' \appoggiatura la'16 si'4 si' |
-  si'2~ si'8 la'16 sold' la'8. mi''16 |
-  fa''4. re''8 re''4.( dod''16 re'') |
-  dod''1\trill |
+  do''4. si'16\trill la' \appoggiatura la'8 si'4 si' |
+  si'2~ si'8 la'16\trill sold' la'8. mi''16 |
+  \appoggiatura mi''8 fa''4. re''8 re''4.( dod''16 re'') |
+  dod''1 |
 }

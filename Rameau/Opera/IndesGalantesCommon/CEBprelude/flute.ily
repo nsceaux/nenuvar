@@ -57,7 +57,7 @@ r2 r4
 \vB {
   r4 la'' |
   \appoggiatura sol''8 fa''2. fa''4 |
-  \appoggiatura fad''8 mi''2. la''4 |
+  \appoggiatura fa''8 mi''2. la''4 |
   la''4.( sold''8) sold''4.\trill la''8 |
   la''1 |
 }

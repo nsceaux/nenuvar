@@ -7,7 +7,7 @@
   Le Theatre represente un desert du Perou,
   terminé par une Montagne aride,
   dont le sommet est couronné par la bouche d’un volcan
-  formé de Rochers calcinez et couverts de cendres.]
+  formé de Rochers calcinez et couverts de cendres.
 }
 \scene "Scene Première" "Scene 1 : Phani, Carlos"
 \sceneDescription\markup\wordwrap-center {
@@ -23,7 +23,7 @@
 
 %{ n°3 %}
 \scene "Scene II" "Scene 2 : Phani"
-\sceneDescription\markup\wordwrap-center { \smallCaps Phani seule }
+\sceneDescription\markup\wordwrap-center { \smallCaps Phani [seule] }
 \pieceToc\markup\wordwrap { PHANI :
   \italic { Viens, Hymen, viens m’unir au Vainqueur que j’adore } }
 \includeScore "CBAphani"
@@ -108,7 +108,7 @@
 \sceneDescription\markup\wordwrap-center\smallCaps {
   [Phani-Palla, Huascar-Inca.]
 }
-\pieceToc\markup { PHANI, HUASCAR :
+\pieceToc\markup\wordwrap { PHANI, HUASCAR :
   \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
 \includeScore "CFAphaniHuascarCarlos"
 

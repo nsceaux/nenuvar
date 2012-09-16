@@ -12,7 +12,7 @@ re si, do4. re8 |
 sol,4 sol8 fa mib\trill re |
 do2. |
 r4 r sol,4 |
-lab,4. sol,8 fa,8 \vA mi, \vB mi,? |
+lab,4. sol,8 fa,8. mi,16 |
 fa,4 sol,8[ lab,] sol,4 |
 do,2 r8 do |
 re2. |

@@ -15,7 +15,7 @@
           s1 s2 \bar "" \break s4 s2. s1\break s1 s2.\pageBreak
           s2. s1 s2 \bar "" \break s2 s1 s4 \bar "" \break
           s2. s1\break \grace s8 s1 s2 \bar ""
-          \break s4 s2. s2 \bar "" \pageBreak
+          \break s4 s2. s2 \bar "" \break
         }
         \vB\origLayout {
           s2.*5\break s2.*5\break s2.*4 s4 \bar "" \break
