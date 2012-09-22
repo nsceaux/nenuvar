@@ -59,19 +59,19 @@
 
     \modVersion\new StaffGroupNoBar <<
       \new StaffGroupNoBracket <<
-        \new Staff <<
+        \new Staff \with { \tinyStaff } <<
           \instrumentName "Flutes"
           \global \includeNotes "flute"
         >>
-        \new Staff <<
+        \new Staff \with { \tinyStaff } <<
           \instrumentName "Violons"
           \global \keepWithTag #'violons \includeNotes "violon"
         >>
-        \new Staff <<
+        \new Staff \with { \tinyStaff } <<
           \instrumentName "Hautes-contre"
           \global \includeNotes "haute-contre"
         >>
-        \new Staff <<
+        \new Staff \with { \tinyStaff } <<
           \instrumentName "Tailles"
           \global \includeNotes "taille"
         >>
@@ -81,11 +81,11 @@
         \global \includeNotes "voix"
       >> \includeLyrics "paroles"
       \new StaffGroupNoBracket <<
-        \new Staff \with { \haraKiriFirst } <<
+        \new Staff \with { \haraKiriFirst \tinyStaff } <<
           \global \keepWithTag #'basson \includeNotes "basse"
           { \startHaraKiri s1*15 \stopHaraKiri <>^"Bassons" }
         >>
-        \new Staff <<
+        \new Staff \with { \tinyStaff } <<
           \instrumentName "[Basses]"
           \global \keepWithTag #'basse \includeNotes "basse"
           \vA\includeFigures "chiffres"
@@ -93,6 +93,6 @@
       >>
     >>
   >>
-  \layout { }
+  \layout { ragged-last = ##t }
   \midi { }
 }

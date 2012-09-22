@@ -1,20 +1,14 @@
 \score {
   <<
-    \setMusic #'group <<
+    \origVersion\new StaffGroupNoBar <<
       \new Staff <<
-        \modVersion\instrumentName "Flutes"
-        \origVersion {
-          <>^"flutes" s1*7
-          \vB<>_\markup { \concat { 1 \super eres } flutes }
-        }
+        { <>^"flutes" s1*7
+          \vB<>_\markup { \concat { 1 \super eres } flutes } }
         \global
-        \vB {
-          \modVersion\keepWithTag #'conducteur \includeNotes "flute"
-          \origVersion\keepWithTag #'flute1 \includeNotes "flute"
-        }
+        \vB\keepWithTag #'flute1 \includeNotes "flute"
         \vA\keepWithTag #'conducteur \includeNotes "flute"
       >>
-      \vB\origVersion\new Staff \with { \haraKiriFirst } <<
+      \vB\new Staff \with { \haraKiriFirst } <<
         { \startHaraKiri s1*7
           \stopHaraKiri \grace s16
           s1*9_\markup { \concat { 2 \super es } flutes }
@@ -22,29 +16,20 @@
         \global \keepWithTag #'flute2 \includeNotes "flute"
       >>
       \new Staff <<
-        \modVersion\instrumentName\markup { \concat { [1 \super rs ] } Violons }
-        \origVersion <>^"violons"
+        <>^"violons"
         \global \includeNotes "violon1"
       >>
       \new Staff <<
-        \modVersion\instrumentName\markup { \concat { [2 \super ds ] } Violons }
-        \origVersion <>^"violons"
+        <>^"violons"
         \global \includeNotes "violon2"
       >>
       \new Staff <<
-        \modVersion\instrumentName\markup\center-column {
-          Hautes-contre "et Tailles"
-        }
-        \origVersion\vA <>^"H[aute]-c[contre] et Taille"
-        \origVersion\vB <>^"hautec et tailles"
+        \vA <>^"H[aute]-c[contre] et Taille"
+        \vB <>^"hautec et tailles"
         \global \includeNotes "haute-contre-taille"
       >>
       \new Staff <<
-        \vA {
-          \origVersion <>^"Basses"
-          \modVersion\instrumentName "Basses"
-        }
-        \vB\modVersion\instrumentName "[Basses]"
+        \vA <>^"Basses"
         \global \includeNotes "basse"
         \vA\origLayout {
           s1*9\pageBreak
@@ -55,8 +40,30 @@
         }
       >>
     >>
-    \origVersion\new StaffGroupNoBar \group
-    \modVersion\new StaffGroup \group
+
+    \modVersion\new StaffGroup <<
+      \new Staff <<
+        \instrumentName "Flutes"
+        \global \keepWithTag #'conducteur \includeNotes "flute"
+      >>
+      \new GrandStaff \with {
+        instrumentName = \markup { Violons \hspace #6 }
+      } <<
+        \new Staff << \global \includeNotes "violon1" >>
+        \new Staff << \global \includeNotes "violon2" >>
+      >>
+      \new Staff <<
+        \instrumentName\markup\center-column {
+          Hautes-contre "et Tailles"
+        }
+        \global \includeNotes "haute-contre-taille"
+      >>
+      \new Staff <<
+        \vA\instrumentName "Basses"
+        \vB\instrumentName "[Basses]"
+        \global \includeNotes "basse"
+      >>
+    >>
   >>
   \layout { }
   \midi { }

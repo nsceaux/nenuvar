@@ -16,7 +16,7 @@
 \pieceTocTitle "Ritournelle"
 \includeScore "CAAritournelleOrig"
 
-%{ n°2 %}
+%{ n°2 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { PHANI, CARLOS : 
   \italic { Vous devez bannir de vôtre ame } }
 \includeScore "CABcarlosPhani"
@@ -28,7 +28,7 @@
   \italic { Viens, Hymen, viens m’unir au Vainqueur que j’adore } }
 \includeScore "CBAphani"
 
-%{ n°4 %}
+%{ n°4 %}\newBookPart #'(full-rehearsal)
 \scene "Scene III" "Scene 3 : Phani, Huascar"
 \sceneDescription\markup\wordwrap-center\smallCaps { Phani, Huascar }
 \pieceToc\markup\wordwrap { HUASCAR :
@@ -53,7 +53,7 @@
   \italic { On vient, dissimulons mes transports à leurs yeux } }
 \includeScore "CDAhuascar"
 
-%{ n°8 %}
+%{ n°8 %}\newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene 4 : Huascar, Phani, Incas"
 \sceneDescription\markup\left-align\center-column {
   \line { [FESTE DU SOLEIL] }
@@ -66,7 +66,7 @@
   \italic { Soleil, on a détruit tes superbes aziles } }
 \includeScore "CEAhuascar"
 
-%{ n°9 %}
+%{ n°9 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Adoration du soleil"
 \includeScore "CEBprelude"
 
@@ -75,7 +75,7 @@
   \italic { Brillant Soleil, jamais nos yeux dans ta carriere } }
 \includeScore "CEChuascarChoeur"
 
-%{ n°11 %}
+%{ n°11 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Air des Incas pour la dévotion du Soleil"
 \includeScore "CEDair"
 
@@ -84,11 +84,11 @@
   \italic { Clair Flambeau du monde } }
 \includeScore "CEFhuascarChoeur"
 
-%{ n°13 %}
+%{ n°13 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Loure en rondeau"
 \includeScore "CEGloure"
 
-%{ n°14 %}
+%{ n°14 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { HUASCAR : \italic { Permettez, Astre du jour } }
 \includeScore "CEHhuascar"
 
@@ -99,7 +99,7 @@
 \pieceTocTitle "Deuxieme gavotte en rondeau"
 \includeScore "CEJgavotte"
 
-%{ n°17 %}
+%{ n°17 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { CHŒUR : \italic { Dans les abimes de la Terre } }
 \includeScore "CEKchoeur"
 

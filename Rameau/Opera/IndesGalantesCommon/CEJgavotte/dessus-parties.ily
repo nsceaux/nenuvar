@@ -90,7 +90,7 @@
     si'' \cesureInstr
     <>^\markup\whiteout Tous
     mi''8 fad'' fad''2\trill |
-    \modVersion mi''2  { mi''2*1/2 \origVersion\custosNote do''' }
+    \modVersion mi''2 \origVersion { mi''2*1/2 \custosNote do''' }
   }
   \tag #'(haute-contre staff2) {
     \origVersion <>^"h[autes]-c[ontre]"

@@ -1,7 +1,7 @@
 \markuplist\column-lines {
   \livretAct\line { Première entrée : Le Turc généreux }
   \livretRef #'BAAritournelle
-  \livretDescPage RITOURNELLE
+  \livretDescAttPage RITOURNELLE
   \wordwrap {
     Une collette recouvre la fin de la ritournelle, à partir de la mesure 24 :
   }
@@ -57,14 +57,14 @@
   }
   
   \livretRef #'BBBtempete
-  \livretDescPage TEMPESTE
+  \livretDescAttPage TEMPESTE
   \wordwrap {
     Il est écrit au début de la pièce, dans une autre graphie :
     \italic { “Baisser la Rampe”. }
   }
 
   \livretRef #'BCAemilieValere
-  \livretDescPage\wordwrap { EMILIE, VALERE :
+  \livretDescAttPage\wordwrap { EMILIE, VALERE :
     \italic { Un de ces malheureux approche en soupirant } }
   \wordwrap {
     La mesure de première fois de la reprise (mesure 60) est barrée, avec
@@ -72,7 +72,7 @@
   }
 
   \livretRef #'BDAevo
-  \livretDescPage\wordwrap { EMILIE, VALERE, OSMAN :
+  \livretDescAttPage\wordwrap { EMILIE, VALERE, OSMAN :
     \italic { Esclave, je viens de t’entendre } }
   \wordwrap {
     Une collette recouvre le début de la scène 4 :
@@ -94,7 +94,7 @@
           sold'4\trill sold'8 r
           \fullClef\clef "bass" <>^\markup\character Osman
           r8 si dod' re' |%\break
-          dod'4\trill la8 sold fad4\trill fad8 sold |
+          dod'4\trill la8 sold fad4\trill fad8 sold |\origVersion\break
           mi4 mi8 sol8 sol4 mi8 mi16 mi | %\break
           si,4 si,8 si, fad4 fad8 sol |
           la8 fad16 fad si4 si16 si si fad | %\break
@@ -126,7 +126,7 @@
   }
 
   \livretRef #'BEAvalere
-  \livretDescPage\line { SCENE V }
+  \livretDescAttPage\line { SCENE V }
   \wordwrap {
     L’air de Valère \italic { “Fut-il jamais un cœur plus genereux ?” }
     est barré. L’indication \italic { SCENE \concat { 6 \super e } }
@@ -134,20 +134,20 @@
   }
 
   \livretRef #'BFAmarche
-  \livretDescPage MARCHE
+  \livretDescAttPage MARCHE
   \wordwrap {
     La barre de reprise mesure 8 est noircie.
   }
 
   \livretRef #'BFBduo
-  \livretDescPage\wordwrap { EMILIE, VALERE :
+  \livretDescAttPage\wordwrap { EMILIE, VALERE :
     \italic { Volez, Zephirs, volez tendres Amants de Flore } }
   \wordwrap {
     Les mesures 24 à 27 sont barrées, avec l’indication \italic “bon”.
   }
 
   \livretRef #'BFCchoeur
-  \livretDescPage\wordwrap { CHŒUR :
+  \livretDescAttPage\wordwrap { CHŒUR :
   \italic { Volez, Zephirs, volez tendres Amants de Flore } }
   \wordwrap {
     Le prélude (mesures 1 à 13) est barré, avec l’indication \italic “bon”.
@@ -210,21 +210,21 @@
   }
 
   \livretRef #'BFDair
-  \livretDescPage\wordwrap { AIR POUR LES ESCLAVES AFFRICAINS }
+  \livretDescAttPage\wordwrap { AIR POUR LES ESCLAVES AFFRICAINS }
   \wordwrap { La première page de l’air est barrée. }
   \wordwrap {
     À la fin de l’air il est noté : \italic { “a la cantate” }
   }
 
   \livretRef #'BFEvalere
-  \livretDescPage\wordwrap { VALERE :
+  \livretDescAttPage\wordwrap { VALERE :
     \italic { Hatez-vous de vous embarquer } }
   \wordwrap {
     La dernière page de l’air, à partir de la mesure 49, est barrée.
   }
 
   \livretRef #'BFKariette
-  \livretDescPage\wordwrap { EMILIE :
+  \livretDescAttPage\wordwrap { EMILIE :
     \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
   \wordwrap {
     Au-dessus de l’indication \italic “Emilie” figure l’inscription
@@ -313,7 +313,7 @@
   }
 
   \livretRef #'BFHemilie
-  \livretDescPage\wordwrap { EMILIE :
+  \livretDescAttPage\wordwrap { EMILIE :
     \italic { Fuyez, fuyez Vents orageux } }
   \wordwrap {
     L’indication \italic “Emilie” est barrée, remplacée par l’indication
@@ -326,7 +326,7 @@
   }
 
   \livretRef #'BFItambourin
-  \livretDescPage\wordwrap { TAMBOURINS }
+  \livretDescAttPage\wordwrap { TAMBOURINS }
   \wordwrap {
     La barre de reprise mesure 8 du premier tambourin,
     ainsi que celle du second tambourin mesure 8, sont noircies.
@@ -357,7 +357,7 @@
   }
 
   \livretRef #'BFLemilie
-  \livretDescPage\wordwrap { EMILIE :
+  \livretDescAttPage\wordwrap { EMILIE :
     \italic { Partez, on languit sur le Rivage } }
   \justify {
     L’air d’Émilie contient plusieurs couches de modifications successives.

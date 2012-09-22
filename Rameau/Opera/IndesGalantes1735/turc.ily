@@ -14,28 +14,28 @@
 \pieceTocTitle "Ritournelle"
 \includeScore "BAAritournelle"
 
-%{ n°2 %}
+%{ n°2 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { EMILIE, OSMAN : 
   \italic { C’est Osman qui me suit, ne luy cachons plus rien } }
 \includeScore "BABemilieOsman"
 
-%{ n°3 %}\newBookPart #'(full-rehearsal)
+%{ n°3 %}
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Dans le séjour témoin de ma naissance } }
 \includeScore "BACemilie"
 
-%{ n°4 %}
+%{ n°4 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { EMILIE, OSMAN :
   \italic { Qu’en peignant vos malheurs vous redoublez les miens } }
 \includeScore "BADemilieOsman"
 \partNoPageTurn #'(basse basson)
 
-%{ n°5 %}
+%{ n°5 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { OSMAN :
   \italic { Il faut que l’Amour s’envole } }
 \includeScore "BAEosman"
 
-%{ n°6 %}
+%{ n°6 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { OSMAN :
   \italic { Je vous quitte, belle Emilie } }
 \includeScore "BAFosman"
@@ -80,7 +80,7 @@
   \italic { Un de ces malheureux approche en soupirant } }
 \includeScore "BCAemilieValere"
 
-%{ n°13 %}\newBookPart #'(full-rehearsal)
+%{ n°13 %}
 \scene "Scene IV" "Scene 4 : Emilie, Valere, Osman"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps { Emilie, Valere } [en Esclave,]
@@ -89,14 +89,14 @@
   \italic { Esclave, je viens de t’entendre } }
 \includeScore "BDAevo"
 
-%{ n°14 %}\newBookPart #'(full-rehearsal)
+%{ n°14 %}
 \scene "Scene V" "Scene 5 : Valere, Emilie"
 \sceneDescription\markup\wordwrap-center\smallCaps { Valere, Emilie }
 \pieceToc\markup\wordwrap { VALERE :
   \italic { Fut-il jamais un cœur plus genereux ? } }
 \includeScore "BEAvalere"
 
-%{ n°15 %}
+%{ n°15 %}\newBookPart #'(full-rehearsal)
 \scene "Scene VI" \markup\wordwrap { Scene 6 : Emilie, Valere, provençaux et provençales, esclaves africains }
 \sceneDescription\markup\wordwrap-center {
   \line \smallCaps { Emilie, Valere, }
@@ -116,21 +116,21 @@
   \italic { Volez, Zephirs, volez tendres Amants de Flore } }
 \includeScore "BFCchoeur"
 
-%{ n°18 %}
+%{ n°18 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Air pour les esclaves affricains"
 \includeScore "BFDair"
 
-%{ n°19 %}
+%{ n°19 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { VALERE :
   \italic { Hatez-vous de vous embarquer } }
 \includeScore "BFEvalere"
 
-%{ n°20 %}
+%{ n°20 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
 \includeScore "BFKariette"
 
-%{ n°21 %}\newBookPart #'(full-rehearsal)
+%{ n°21 %}
 \pieceTocTitle "Premier Rigaudon"
 \includeScore "BFFrigaudon"
 
@@ -138,12 +138,12 @@
 \pieceTocTitle "Deuxieme Rigaudon"
 \includeScore "BFGrigaudon"
 
-%{ n°23 %}\newBookPart #'(full-rehearsal)
+%{ n°23 %}
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Fuyez, fuyez Vents orageux } }
 \includeScore "BFHemilie"
 
-%{ n°24 %}
+%{ n°24 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Premier Tambourin"
 \includeScore "BFItambourin"
 \origVersion\noPageBreak

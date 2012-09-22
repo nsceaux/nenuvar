@@ -117,12 +117,12 @@
 \pieceTocTitle "Annonce de l’Amour"
 \includeScore "AEAannonce"
 
-%{ n°18 %}
+%{ n°18 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR, HEBÉ :
   \italic { Pourquoy Mars à l’Amour declare-t-il la guerre ? } }
 \includeScore "AEBamourHebe"
 
-%{ n°19 %}\newBookPart #'(full-rehearsal)
+%{ n°19 %}
 \pieceToc\markup\wordwrap { L’AMOUR :
   \italic { Ranimez vos flambeaux, remplissez vos carquois } }
 \includeScore "AECamour"

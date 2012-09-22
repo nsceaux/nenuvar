@@ -1,7 +1,7 @@
 \markuplist\column-lines {
   \livretAct\line { Deuxième entrée : Les Incas du Pérou }
   \livretRef #'CAAritournelleOrig
-  \livretDescPage RITOURNELLE
+  \livretDescAttPage RITOURNELLE
   \wordwrap {
     Les mesures 23 à 33 sont barrées.
   }
@@ -100,7 +100,7 @@
 
 \markuplist\column-lines {
   \livretRef #'CABcarlosPhani
-  \livretDescPage\wordwrap { PHANI, CARLOS : 
+  \livretDescAttPage\wordwrap { PHANI, CARLOS : 
     \italic { Vous devez bannir de vôtre ame } }
   \line {
     \column {
@@ -183,14 +183,14 @@
   }
 
   \livretRef #'CBAphani
-  \livretDescPage\wordwrap { PHANI :
+  \livretDescAttPage\wordwrap { PHANI :
     \italic { Viens, Hymen, viens m’unir au Vainqueur que j’adore } }
   \wordwrap {
     Les mesures 13 à 19 sont supprimées, recouvertes par une collette blanche.
   }
 
   \livretRef #'CCAhuascar
-  \livretDescPage\wordwrap { HUASCAR :
+  \livretDescAttPage\wordwrap { HUASCAR :
     \italic { Elle est seule... parlons ; l’instant est favorable } }
   \wordwrap {
     La mesure 16 de la basse continue est raturée :
@@ -295,7 +295,7 @@
   }
 
   \livretRef #'CCCphaniHuascar
-  \livretDescPage\wordwrap { PHANI, HUASCAR :
+  \livretDescAttPage\wordwrap { PHANI, HUASCAR :
     \italic { Non, non, je ne crois pas tout ce que l’on assure } }
   \wordwrap {
     La barre de reprise mesure 7 est raturée.
@@ -339,14 +339,14 @@
   }
 
   \livretRef #'CEAhuascar
-  \livretDescPage\wordwrap { HUASCAR :
+  \livretDescAttPage\wordwrap { HUASCAR :
     \italic { Soleil, on a détruit tes superbes aziles } }
   \wordwrap {
     L’indication \italic Lent est ajoutée dans la marge.
   }
 
   \livretRef #'CEBprelude
-  \livretDescPage "Adoration du soleil"
+  \livretDescAttPage "ADORATION DU SOLEIL"
   \wordwrap {
     À partir de la mesure 16, une collette modifie la fin du prélude :
   }
@@ -393,7 +393,7 @@
   }
 
   \livretRef #'CEChuascarChoeur
-  \livretDescPage\wordwrap { HUASCAR, CHŒUR :
+  \livretDescAttPage\wordwrap { HUASCAR, CHŒUR :
     \italic { Brillant Soleil, jamais nos yeux dans ta carriere } }
   \wordwrap {
     Les mesures 23 à 37 sont barrées, il est indiqué de prendre le chœur
@@ -411,7 +411,7 @@
   }
   
   \livretRef #'CEDair
-  \livretDescPage "Air des Incas pour la dévotion du Soleil"
+  \livretDescAttPage "AIR DES INCAS POUR LA DÉVOTION DU SOLEIL"
   \wordwrap {
     L’air est barré entièrement. Une indication, barrée, figure en haut
     de la page :
@@ -520,7 +520,7 @@
   }
 
   \livretRef #'CEFhuascarChoeur
-  \livretDescPage\wordwrap { HUASCAR, CHŒUR :
+  \livretDescAttPage\wordwrap { HUASCAR, CHŒUR :
     \italic { Clair Flambeau du monde } }
   \wordwrap {
     La dernière reprise de Huascar :
@@ -533,7 +533,7 @@
   }
 
   \livretRef #'CEGloure
-  \livretDescPage "Loure en rondeau"
+  \livretDescAttPage "LOURE EN RONDEAU"
   \wordwrap {
     La barre de reprise mesure 8 est raturée.
   }
@@ -589,7 +589,7 @@
   }
 
   \livretRef #'CEHhuascar
-  \livretDescPage\wordwrap { HUASCAR :
+  \livretDescAttPage\wordwrap { HUASCAR :
     \italic { Permettez, Astre du jour } }
   \wordwrap {
     Des barres divisent les mesures des deux premiers système en deux,
@@ -605,7 +605,7 @@
   }
 
   \livretRef #'CEIgavotte
-  \livretDescPage "Premiere gavotte"
+  \livretDescAttPage "PREMIERE GAVOTTE"
   \wordwrap {
     À la fin de la première gavotte, une note indique :
     \italic {
@@ -614,7 +614,7 @@
   }
 
   \livretRef #'CEJgavotte
-  \livretDescPage "Deuxieme gavotte en rondeau"
+  \livretDescAttPage "DEUXIEME GAVOTTE EN RONDEAU"
   \wordwrap {
     La barre de reprise mesure 12 est raturée.
     La deuxième reprise, à partir de la mesure 20, est barrée,
@@ -622,7 +622,7 @@
   }
 
   \livretRef #'CEKchoeur
-  \livretDescPage\wordwrap { CHŒUR :
+  \livretDescAttPage\wordwrap { CHŒUR :
     \italic { Dans les abimes de la Terre } }
   \wordwrap {
     Une collette remplace les mesures 20 à 36 :
@@ -752,12 +752,12 @@
       <>^"doubles croches" \ru#8 fa8 | \ru#8 reb | \ru#8 do | si,4
     }
   >>
-  \layout { \smallLayout indent = 0 }
+  \layout { \smallLayout indent = 0 ragged-last = ##t }
 }
 
 \markuplist\column-lines {
   \livretRef #'CFAphaniHuascarCarlos
-  \livretDescPage\wordwrap { PHANI, HUASCAR :
+  \livretDescAttPage\wordwrap { PHANI, HUASCAR :
     \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
   \wordwrap {
     Les deux parties de dessus sont barrées du début jusqu’à la mesure 19,
@@ -824,7 +824,7 @@
   }
 
   \livretRef #'CFBtrio
-  \livretDescPage\wordwrap { PHANI, CARLOS, HUASCAR :
+  \livretDescAttPage\wordwrap { PHANI, CARLOS, HUASCAR :
     \italic { Pour jamais l’Amour nous engage } }
   \wordwrap {
     Les parties de dessus et hautes-contre/tailles sont barrées
@@ -838,7 +838,7 @@
         sol2 sol,4 fa, | mib,2.
       }
       \layout {
-        \smallLayout indent = 0
+        \smallLayout indent = 0 ragged-right = ##t
         \context { \Staff \remove "Time_signature_engraver" }
       }
     }
@@ -850,7 +850,7 @@
         do2 lab, | mib,2
       }
       \layout {
-        \smallLayout indent = 0
+        \smallLayout indent = 0 ragged-right = ##t
         \context { \Staff \remove "Time_signature_engraver" }
       }
     }
@@ -865,7 +865,7 @@
         \new FiguredBass \figuremode { s1*2 <6 5>2 <5/> }
       >>
       \layout {
-        \smallLayout indent = 0
+        \smallLayout indent = 0 ragged-right = ##t
         \context { \Staff \remove "Time_signature_engraver" }
       }
     }
@@ -877,7 +877,7 @@
         sol2 sol,4 fa, | mib,2.
       }
       \layout {
-        \smallLayout indent = 0
+        \smallLayout indent = 0 ragged-right = ##t
         \context { \Staff \remove "Time_signature_engraver" }
       }
     }
@@ -908,7 +908,7 @@
         \new FiguredBass \figuremode { <_!>2. <7/>4 }
       >>
       \layout {
-        \smallLayout indent = 0
+        \smallLayout indent = 0 ragged-right = ##t
         \context { \Staff \remove "Time_signature_engraver" }
       }
     }
