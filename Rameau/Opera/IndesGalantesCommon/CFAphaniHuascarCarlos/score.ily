@@ -8,8 +8,8 @@
         \global \keepWithTag #'dessus1 \includeNotes "dessus"
       >>
       \new Staff \with { \haraKiriFirst } <<
-        { \startHaraKiri s2 s1*2 s2. s1*6 s2.*2 s1 s2. s1*6 s2. s1*3 s1.*4
-          \stopHaraKiri }
+        { s2 s1*2 s2. s1*6 s2.*2 s1 s2. s1*6 s2. s1*3
+          \startHaraKiri s1.*4 \stopHaraKiri }
         \global \keepWithTag #'dessus2 \includeNotes "dessus"
       >>
       \new Staff <<

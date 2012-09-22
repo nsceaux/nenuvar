@@ -1,6 +1,47 @@
 \clef "dessus2"
 \vA {
-  r2 R1*2 R2. R1*6 R2.*2 R1 R2. R1*6 R2. R1*3 |
+  r2 |
+  r4 r8 <<
+    \tag #'dessus1 { fa' fa'4 r16 fa' fa' fa' | fa'4 }
+    \tag #'dessus2 {
+      \origVersion <>^\markup { \concat { 2 \super e } dessus }
+      la8 la4 r16 la la la | do'4
+    }
+  >> r4 r2 |
+  R2. |
+  \origVersion<>^\markup\whiteout "Violons"
+  <<
+    { r8 r16 s s8. r16 s4 s16 r s r |
+      s8 s4. << \origVersion { r4 r } \modVersion r2 >> | }
+    \tag #'dessus1 {
+      s8. do'16\doux do'8 fa'16 s \ru#8 fa'32 fa'16 s fa' s | mi'8 s s2
+    }
+    \tag #'dessus2 {
+      s8. la16 la8 la16 s \ru#8 re'32 re'16 s re' s | sol8 s s2
+    }
+  >>
+  R1 |
+  r4 r16 do' do' do' \origVersion\tag #'dessus2 \hideNotes
+  do'8. do'32*2/3 sib la sib8 r |
+  r4 r8 r16 sib sib8 r r4 |
+  r4 sib'16 sol' do'' mi' \origVersion\tag #'dessus2 \unHideNotes
+  fa'4 r |
+  R2. |
+  << \origVersion { r4 r r } \modVersion R2. >> |
+  R1 R2. R1 R1 |
+  <>^\markup\whiteout "Violons"
+  <<
+    { r4 r8 r16 s s8 r s r }
+    \tag #'dessus1 { s4.. sol'16 sol'8 s sol' s }
+    \tag #'dessus2 { s4.. mi'16 mi'8 s mi' s }
+  >> |
+  R1 |
+  r8 <<
+    \tag #'dessus1 { \ru#7 fa'8-. | fa'4 }
+    \tag #'dessus2 { \ru#7 re'8-. | re'4 }
+  >> r4 r2 |
+  << \origVersion { r4 r r } \modVersion R2. >> |
+  R1*3 |
   r1 <>^\markup\whiteout "Violons" r4 r8 sib' |
   sib'2. fa'4 sib' re'' |
   fa'' re'' sib' sol' mib' fa' |
@@ -46,7 +87,26 @@
   sib2\allowPageTurn
   %%
   r2 |
-  R1 R2. R1 R2. R1 R2. R1*2 |
+  R1 |
+  << \origVersion { r4 r r } \modVersion R2. >> |
+  r8 sol16 sol sol sol sol sol sol4 r4 |
+  R2. |
+  <<
+    { r8 s s4 s8 r s r |
+      s4 r r8 s |
+      r8 s s2 r4 | }
+    \tag #'dessus1 {
+      s8 mib'16 mib' mib' mib' mib' mib' mib'8 s re' s |
+      do'4 s s8 do' |
+      s8 re'16 re' re' re' re' re' fa'4 s |
+    }
+    \tag #'dessus2 {
+      s8 do'16 do' do' do' do' do' do'8 s sib s |
+      sib4 s s8 la |
+      s8 sib16 sib sib sib sib sib sib4 s |
+    }
+  >>
+  r16 re' re' re' do'4 r2 |
   <<
     { r4 r8 s s4 r8 s | s2 r2 | R1 | }
     \tag #'dessus1 {

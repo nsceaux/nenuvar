@@ -754,3 +754,163 @@
   >>
   \layout { \smallLayout indent = 0 }
 }
+
+\markuplist\column-lines {
+  \livretRef #'CFAphaniHuascarCarlos
+  \livretDescPage\wordwrap { PHANI, HUASCAR :
+    \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
+  \wordwrap {
+    Les deux parties de dessus sont barrées du début jusqu’à la mesure 19,
+    avec l’indication : \italic { point d’accompagnement. }
+  }
+  \wordwrap {
+    Une collette vient remplacer les mesures 18 à 63 :
+  }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { autoBeaming = ##f } {
+      \clef "bass" \key re \minor \time 2/2
+      \once \override Staff.TimeSignature #'transparent = ##t
+      dod'2 dod'8 r r4 |
+      r8 la sol fa mi4. la8 |
+      re2
+      \clef "alto" <>^\markup\character Carlos r4 re'4 |
+      fa'2 fa'4 fa'8 sib | \key sol \minor
+      \appoggiatura sib8 do'4 do'8 r
+      \clef "soprano" <>^\markup\character Phani mi''4. mi''8 |
+      sol''2 sol''4 mi'' |
+      \digitTime\time 2/2 sib'8 sib'
+    } \addlyrics {
+      -noi -- tre, Sui -- vez l’a -- mour ja -- loux ;
+      ton crime o -- se pa -- roi -- tre.
+      Le so -- leil jus -- qu’au fond des
+    }
+    \new Staff {
+      \clef "soprano" \key re \minor
+      \once \override Staff.TimeSignature #'transparent = ##t
+      R1*4 | \key sol \minor \grace s8
+      <>^"violons" r4 lab'\fort sol' mib'\doux |
+      sib2 r | \digitTime r4
+    }
+    \new Staff {
+      \clef "soprano" \key re \minor
+      \once \override Staff.TimeSignature #'transparent = ##t
+      R1*4 | \key sol \minor \grace s8
+      <>^"violons" r4 fa' mib' mib'\doux |
+      sib2 r | \digitTime r4
+    }
+    \new Staff {
+      \clef "bass" \key re \minor
+      \once \override Staff.TimeSignature #'transparent = ##t
+      la4 r8 r16 la, la,8 r la, r |
+      R1 |
+      r8 sib, sib, sib, sib, sib, sib, sib, |
+      sib,4 r r r8 sib, | \key sol \minor \grace s8
+      fa,4 \cesureInstr <>^"B.C." fa do' do^\doux |
+      mib2 r4 mib |
+      \digitTime sol
+    }
+    \new FiguredBass \figuremode {
+      <7 _+>1 s1*3 s2 <_-> <_->1 <6>4
+    }
+  >>
+  \layout { \smallLayout indent = 0 }
+}
+\markuplist\column-lines {
+  \wordwrap {
+    [A FAIRE : revoir toute cette pièce par rapport aux parties
+    séparées de dessus]
+  }
+
+  \livretRef #'CFBtrio
+  \livretDescPage\wordwrap { PHANI, CARLOS, HUASCAR :
+    \italic { Pour jamais l’Amour nous engage } }
+  \wordwrap {
+    Les parties de dessus et hautes-contre/tailles sont barrées
+    sur toute cette pièce, et la partie de basse continue est simplifiée
+    ainsi :
+  }
+  \line {
+    \hspace #5 mesure 3 : \raise #3 \score {
+      \new Staff {
+        \clef "bass" \key do \minor \digitTime\time 2/2
+        sol2 sol,4 fa, | mib,2.
+      }
+      \layout {
+        \smallLayout indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  \line {
+    \hspace #5 mesure 8 : \raise #3 \score {
+      \new Staff {
+        \clef "bass" \key do \minor \digitTime\time 2/2
+        do2 lab, | mib,2
+      }
+      \layout {
+        \smallLayout indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  \line {
+    \hspace #5 mesures 14 à 16 : \raise #3 \score {
+      <<
+        \new Staff {
+          \clef "bass" \key do \minor \digitTime\time 2/2
+          re,1 | R1 | sol,2 la, | sib,4
+        }
+        \new FiguredBass \figuremode { s1*2 <6 5>2 <5/> }
+      >>
+      \layout {
+        \smallLayout indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  \line {
+    \hspace #5 mesure 28 : \raise #3 \score {
+      \new Staff {
+        \clef "bass" \key do \minor \digitTime\time 2/2
+        sol2 sol,4 fa, | mib,2.
+      }
+      \layout {
+        \smallLayout indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+  \wordwrap {
+    La mesure 23 est entièrement supprimée, et la mesure 24 devient :
+  }
+  \line {
+    \hspace #5
+    \score {
+      \new ChoirStaff <<
+        \new Staff {
+          \clef "soprano" \key do \minor \time 2/2
+          sol'1 | r2
+        } \addlyrics { -_ge }
+        \new Staff {
+          \clef "alto" \key do \minor
+          sol'1 | r2
+        } \addlyrics { -_ge }
+        \new Staff {
+          \clef "bass" \key do \minor
+          sol,4 sol si sol | do'2
+        } \addlyrics { -_ge non, non, non, non, }
+        \new Staff {
+          \clef "bass" \key do \minor
+          sol,2 r4 sol, | do, r4
+        }
+        \new FiguredBass \figuremode { <_!>2. <7/>4 }
+      >>
+      \layout {
+        \smallLayout indent = 0
+        \context { \Staff \remove "Time_signature_engraver" }
+      }
+    }
+  }
+}
