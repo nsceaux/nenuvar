@@ -433,6 +433,11 @@ smallLayout = \layout {
   \context { \FiguredBass \override BassFigure #'font-size = #-1 }
   \context { \Voice \override Script #'avoid-slur = #'outside }
   \context { \CueVoice \override Script #'avoid-slur = #'outside }
+  \context {
+    \Score
+    \override NonMusicalPaperColumn #'line-break-permission = #'allow
+    \override NonMusicalPaperColumn #'page-break-permission = #'allow
+  }
 }
 
 onlyNotesLayout = \layout {

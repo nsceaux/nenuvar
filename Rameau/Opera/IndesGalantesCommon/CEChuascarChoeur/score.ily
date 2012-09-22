@@ -16,8 +16,9 @@
     >>
     \setMusic #'violons <<
       \new Staff <<
+        \modVersion<>^\markup\large\italic "du même mouvement que le chœur"
         \vA\modVersion\instrumentName "Violons"
-        \vA <>^"Violons"
+        \vA\origVersion <>^"Violons"
         \vB\modVersion\instrumentName "[Violons]"
         \global \includeNotes "dessus"
       >>
@@ -31,6 +32,8 @@
       >>
     >>
     \setMusic #'huascar \new Staff \with { \haraKiri } \withLyrics <<
+      { s4 \once\override TextScript #'outside-staff-priority = #999
+        \origVersion <>^\markup\large\italic "du même mouvement que le chœur" }
       \modVersion\characterName "Huascar"
       \global \includeNotes "voix"
     >> \keepWithTag #'huascar \includeLyrics "paroles"

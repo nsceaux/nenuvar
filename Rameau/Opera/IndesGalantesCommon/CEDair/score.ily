@@ -18,7 +18,7 @@
         \global \includeNotes "basse"
         \vA\origLayout {
           s1*11\pageBreak
-          s1*11\break s1*11\break s1*8\pageBreak
+          s1*11\break s1*12\break s1*8\pageBreak
         }
         \vB\origLayout {
           s1*8\break s1*8\pageBreak

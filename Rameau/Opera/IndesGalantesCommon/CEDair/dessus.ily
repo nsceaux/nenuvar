@@ -32,6 +32,7 @@ re''4. dod''16 si' dod''4.*5/6 si'16 dod'' re'' |
 mi''4 mi'' mi'' mi'' |
 mi''4. re''16 dod'' re''2 |
 sold''-\vA( la''8-\vA) r r4 |
+\vA { \ratureNote sold'2(\doux la'8) \ratureNote r r4 }
 re''2-\vA\fort dod'' |
 si'2.\trill r16 la' si' dod'' |
 re''4 mi'' fad'' sold'' |

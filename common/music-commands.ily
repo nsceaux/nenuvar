@@ -607,3 +607,44 @@ ratureNote = {
   \once\override Rest #'stencil =
   #(make-erased-note-print ly:rest::print)
 }
+
+#(define (make-erased-mmrest-print print-procedure)
+   (lambda (grob)
+     (let ((note-head (print-procedure grob))
+           (x-offset 1)
+           (y-offset (if (number? (ly:grob-property grob 'staff-position))
+                         (/ (ly:grob-property grob
+                                              'staff-position)
+                            2)
+                         0))
+           (thickness 0.4)
+           (radius 2))
+       (ly:stencil-add
+        note-head
+        (ly:stencil-translate
+         (ly:stencil-add
+          (ly:make-stencil
+           `(draw-line ,thickness
+                       ,(+ radius x-offset)
+                       ,(- 0 radius y-offset)
+                       ,(- x-offset radius)
+                       ,(- radius y-offset))
+           '(0 . 0)
+           '(0 . 0))
+          (ly:make-stencil
+           `(draw-line ,thickness
+                       ,(+ radius x-offset)
+                       ,(- radius y-offset)
+                       ,(- x-offset radius)
+                       ,(- 0 radius y-offset))
+           '(0 . 0)
+           '(0 . 0)))
+         ;; translate the X so that it is on the bar center,
+         ;; like the mm rest.
+         (cons (car (ly:stencil-extent note-head X)) 0)
+         )))))
+
+ratureMmRest = {
+  \once\override MultiMeasureRest #'stencil =
+  #(make-erased-mmrest-print ly:multi-measure-rest::print)
+}

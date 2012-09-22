@@ -28,29 +28,27 @@ mi'8 re' dod' si la sold la4 |
 re2 r |
 r r4 re'8 re' |
 re'4 dod'8 re' mi'2 |
-la \modVersion r2
-
-\footnoteHere #'(0.1 . 0.5) \markup {
-  Source : \raise #6.5 \score {
-    \new Staff <<
-      \tinyQuote \clef "bass" \key la \major \time 2/2
-      \new Voice {
-        la2 \voiceTwo s4. dod2*1/4 |
-        \voiceOne re2*1/2 re, s2 |
-        \voiceTwo re2
-      }
-      \new Voice {
-        \voiceOne s2
-        la,16^"[double-croches raturées]" si, dod re mi fad sold la |
-        \voiceTwo s2
-        re16^"[double-croches raturées]" mi fad sold la si dod' re' |
-      }
-    >>
-    \layout { \quoteLayout }
-  }
+la \modVersion r2 |
+\vA {
+  la2 <<
+    \new Voice {
+      \voiceTwo <>_\markup\tiny "[double-croches raturées]"
+      la,16 si, dod re mi fad sold la
+    }
+    \new CueVoice { \voiceOne dod2 }
+  >> |
+  re2 <<
+    \new Voice {
+      \voiceOne <>^\markup\tiny "[double-croches raturées]"
+      re16 mi fad sold la si dod' re' |
+    }
+    \new CueVoice { \voiceTwo re,2 }
+  >>
 }
-la2 dod |
-re re, |
-re r4 re'8 re' |
+\vB {
+  la2 dod |
+  re re, |
+}
+re2 r4 re'8 re' |
 re'4 dod'8 re' mi'4 mi |
 la,2

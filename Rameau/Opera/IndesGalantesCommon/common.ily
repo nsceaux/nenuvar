@@ -407,3 +407,20 @@ italicFigures = {
   \override FiguredBass.BassFigure #'font-name = #"Cochin Bold Italic" 
   \override FiguredBass.BassFigure #'font-size = #2
 }
+
+
+smallLayout = \layout {
+  \context { \Score scriptDefinitions = #baroque-script-alist }
+  \context {
+    \Staff fontSize = #-1
+    \override StaffSymbol #'staff-space = #(magstep -1)
+  }
+  \context { \Lyrics fontSize = #-1 }
+  \context { \FiguredBass \override BassFigure #'font-size = #-1 }
+  \context {
+    \Voice
+    \override Script #'avoid-slur = #'outside
+    \override Script #'stencil = #baroque-script-interface::print
+  }
+  \context { \CueVoice \override Script #'avoid-slur = #'outside }
+}
