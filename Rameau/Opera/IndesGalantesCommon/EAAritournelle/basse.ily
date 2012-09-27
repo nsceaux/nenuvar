@@ -1,5 +1,4 @@
-\clef "basse" r2 |
-R1*4 |
+\clef "basse" R1*5 |
 r2 r8 la dod' la |
 si4 dod'8 re' mi'4 mi |
 mi'8 mi' re' dod' re'2~ |
@@ -21,7 +20,10 @@ fad sol8 fad mi4 la |
 re2 si, |
 dod la, |
 si, sold, |
-la, dod |
+la,2 \vA {
+ la | red mi | fad mi | red mi | fad red | mi
+}
+dod |
 re1 |
 mi |
 fad |

@@ -1,4 +1,4 @@
 \keys la \major
 \midiTempo #160
-\digitTime \time 2/2 \partial 2
-s2 s1*37 \bar "|."
+\digitTime\time 2/2
+\vA s1*43 \vB s1*38 \bar "|."

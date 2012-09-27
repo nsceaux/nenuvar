@@ -1,14 +1,43 @@
 \score {
-  \new StaffGroup <<
-    \new Staff << \instrumentName "Dessus I"
-      \global \includeNotes "dessus1" >>
-    \new Staff << \instrumentName "Dessus II"
-      \global \includeNotes "dessus2" >>
-    \new Staff << \instrumentName \markup \center-column { Haute-contres Tailles }
-      \global \includeNotes "haute-contre-taille" >>
-    \new Staff << \instrumentName \markup Basses
-      \global \includeNotes "basse" >>
+  <<
+    \origVersion\new StaffGroupNoBar <<
+      \new Staff <<
+        <>^"Violons et hautbois"
+        \global \includeNotes "dessus1"
+      >>
+      \new Staff << \global \includeNotes "dessus2" >>
+      \new Staff <<
+        <>^"H[aute]-c[ontre] et Taille"
+        \global \includeNotes "haute-contre-taille"
+      >>
+      \new Staff <<
+        <>^"Tous"
+        \global \includeNotes "basse"
+        \origLayout {
+          s1*6\break s1*6\pageBreak
+          s1*6\break s1*6\break s1*6\pageBreak
+          s1*5\break s1*5\break s1*3\pageBreak
+        }
+      >>
+    >>
+    \modVersion\new StaffGroup <<
+      \new GrandStaff \with { instrumentName = \markup {
+          \center-column { Violons Hautbois }
+          \hspace #6
+        } } <<
+        \new Staff << \global \includeNotes "dessus1" >>
+        \new Staff << \global \includeNotes "dessus2" >>
+      >>
+      \new Staff <<
+        \instrumentName\markup\center-column { H[aute]-c[ontre] Taille }
+        \global \includeNotes "haute-contre-taille"
+      >>
+      \new Staff <<
+        \instrumentName "[Basses]"
+        \global \includeNotes "basse"
+      >>
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

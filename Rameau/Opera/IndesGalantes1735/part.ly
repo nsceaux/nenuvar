@@ -8,7 +8,7 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
     title = "Les Indes Galantes"
-    date = "Version de 175x"
+    date = "Version de 1735"
   }
   \markup \null
 }
@@ -21,5 +21,5 @@
 \include "Rameau/Opera/IndesGalantes/prologue.ily"
 \include "Rameau/Opera/IndesGalantes/turc.ily"
 \include "Rameau/Opera/IndesGalantes/incas.ily"
-\include "Rameau/Opera/IndesGalantes/sauvages.ily"
 \include "Rameau/Opera/IndesGalantes/fleurs.ily"
+\include "Rameau/Opera/IndesGalantes/sauvages.ily"
