@@ -18,41 +18,20 @@
 \includeScore "EAAritournelle"
 
 %{ n°2 %}
-\pieceToc \markup { Ali, Tacmas : \italic { Mon abord paroit l’interdire } }
+\pieceToc\markup\wordwrap { Ali, Tacmas :
+  \italic { Mon abord paroit l’interdire } }
 \includeScore "EABaliTacmas"
 
 %{ n°3 %}
-\pieceToc \markup { Fatime : \italic { L'Hiver, dans ces jardins, n'ose outrager } }
-\includeScore "EACfatime"
-\partNoPageTurn #'(basse basson)
-
-%{ n°4 %}
-\pieceToc \markup { Roxane, Fatime }
-\includeScore "EADroxaneFatime"
-\partNoPageTurn #'(basse basson)
-
-%{ n°5 %}
-\scene "Scène II" "Scène 2 : Fatime, Atalide"
-\sceneDescription \markup \left-align \center-column {
-  \line \smallCaps { Fatime, Atalide }
+\scene "Scène II" "Scène 2 : Tacmas, Zaïre"
+\sceneDescription\markup\center-column {
+  \line\smallCaps { Tacmas, Zaïre }
 }
-\pieceToc \markup { Fatime, Atalide }
-\includeScore "EBAfatimeAtalide"
+\pieceToc\markup\wordwrap { Tacmas, Zaïre :
+  \italic { Elle paroit livrée a quelqu'inquietude } }
+\includeScore "EBAtacmasZaire"
 
-%{ n°6 %}
-\pieceToc \markup { Atalide : \italic { La chaîne qui m'engage } }
-\includeScore "EBBatalide"
-
-%{ n°7 %}
-\pieceToc \markup { Fatime : \italic { Un inconstant devrait-il être heureux ? } }
-\includeScore "EBCfatime"
-
-%{ n°8 %}
-\pieceToc \markup { Fatime, Atalide }
-\includeScore "EBDfatimeAtalide"
-\partNoPageTurn #'(basse basson)
-
-%{ n°9 %}\newBookPart #'(full)
+%{ n°9 %}
 \scene "Scène III" "Scène 3 : Fatime, Atalide, Tacmas"
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Fatime, Atalide, Tacmas }

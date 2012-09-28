@@ -4,56 +4,64 @@
   \line\smaller { FESTE ASIATIQUE }
 }
 \livretDescAtt\wordwrap-center {
-  Le Théatre représente les Jardins de \smaller Tacmas.
+  Le Théatre représente les Jardins du palais d’Ali,
+  favori de Tacmas, prince de Perce.
 }
 \livretScene\line { SCENE PREMIERE }
 \livretDescAtt\wordwrap-center {
-  \smallCaps { Roxane, Fatime } en Esclave Polonois.
+  \smallCaps Tacmas déuisé en marchand du serail, \smallCaps Ali.
 }
-\livretPers\line { ROXANE, \smaller la considerant. }
-%# Vous offrez à nos yeux un Esclave charmant !
-%# Mais, ne craignez-vous point Fatime,
-%# Qu'on ne vous fasse un crime
-%# De ce déguisement ?
-\livretPers FATIME
-%# La Fête qui bien-tôt doit être célébrée,
-%# De nos Jardins permet l'entrée ;
-%# Pour me cacher ainsi, j'ay saisi ce moment.
-%# J'aime Tacmas, & je le crois volage ;
-%# Je ne puis resister à mes transports jaloux...
-%# Je viens chercher sous cet ombrage,
-%# Les funestes Attraits qui causent mon couroux.
-%#- Je soupçonne Atalide...
-\livretPers ROXANE
-%#= Atalide est aimable ?
-\livretPers FATIME
-%# Cet Objet redoutable
-%# A mes regards encor ne s'est pas presenté ;
-%# Et peut-être ma crainte ajoûte à sa Beauté !
-%# Dans ce jour où des Fleurs vous celebrons la Fête,
-%# J'espère la trouver sous ces sombres Ormeaux ;
-%# Et me livrant au soin qui dans ce bois m'arreste...
-%# Hélas ! j'y vais guerir ou redoubler mes maux !
-\livretPers ROXANE
-%# Ah ! vôtre Amant peut-il être infidelle ?
-%# Pour le croire constant, il suffit de vous voir.
-%# Un cœur où vous regnez, a-t-il donc le pouvoir
-%# De prendre une chaîne nouvelle ?
-%# Ah ! vôtre Amant peut-il être infidelle ?
-\livretPers FATIME
-%# L'*Hyver dans ces Jardins n'ose outrager les Fleurs ;
-%# Sous cette immortelle verdure
-%# Il n'ose des ruisseaux suspendre le murmure,
-%# Et jamais, de l'Aurore il n'y glace les pleurs ;
-%# Sans cesse dans nos Prez, Flore arreste Zephire,
-%# Et jamais, l'Aquilon ne nous ôte un beau jour ;
-%# Tout rit dans ce charmant séjour :
-%# Faut-il que seule j'y soupire ?
-%# Je brûle d'éclaircir le sort de mon amour...
-\livretPers FATIME
-%#- On vient.
-\livretPers\line { ROXANE, \smaller { se retirant. } }
-%#= C'est Atalide. Evitons sa présence.
+\livretPers ALI
+%# Mon abord paroit l'interdire...
+%# Etranger approchez!
+%# Portez vous dans ces lieux,
+%# De ces ouvrages curi=eux
+%# Qu'imagine l'Europe, =et que l'A=sie admire ?
+\livretPers TACMAS
+%# Ton prince déguisé se presente a tes yeux.
+%# Dans tes jardins l'amour m'attire...
+\livretPers ALI
+%# Quelle *heureuse beauté ?
+\livretPers TACMAS
+%# C'est la jeune Za=ïre
+%# Qui m'a frapé d'un trait victorieux.
+\livretPers ALI
+%# Za=ïre, mon esclave ?
+\livretPers TACMAS
+%# Elle est ma souveraine.
+%# Ali, je viens briser sa chaîne ;
+%# Mais, helas ! n'est-ce point te trahir que l'aimer ?
+\livretPers ALI
+%# Seigneur, Za=ïre est belle et n'a pû m'enflamer ;
+%# Je respectois vos feux, sans les connoitre encore !
+%# Mais, quoy, vous possedez Fatime et ses appas !
+%# Non, rien n'est si charmant...
+\livretPers TACMAS
+%# Cher Ali, je l'ignore.
+%# Fatime a mes regards ne se presente pas.
+\livretPers ALI
+%# Il m'est permis enfin de bruler pour Fatime,
+%# Et de luy révéler le secret de mes voeux.
+\livretPers TACMAS
+%# Je reserve a Za=ïre un honneur legitime,
+%# J'égaleray sa gloire a l'excés de mes feux.
+%# L'objet a qui je rend les armes
+%# Mérite un destin éclatant:
+%# L'Amour gardoit ses charmes,
+%# Pour instruire mon coeur du prix d'un feu constant.
+\livretPers ALI
+%# Pourquoy vous déguiser a l'aimable Za=ïre,
+%# Quand vous luy promettez le plus parfait bonheur ?
+\livretPers TACMAS
+%# Je veux pénétrer dans son coeur,
+%# Avant que dans le mien ses beaux yeux puissent lire
+%# L'exces de ma nouvelle ardeur.
+\livretPers ALI
+%# Dans ce jour ou des fleurs nous celebrons la feste,
+%# Des mirthes les plus doux vous serez couronné.
+\livretPers TACMAS
+%# Je vois Za=ïre. Va ! des jeux que l'on apprête
+%# Embellis, s'il se peut, l'appareil ordonné !
 
 \livretScene\line { SCENE II }
 \livretDescAtt\wordwrap-center {

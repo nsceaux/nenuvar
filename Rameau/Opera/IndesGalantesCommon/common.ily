@@ -201,6 +201,10 @@ fatimeMarkTextCol =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark-text-col "vdessus" "Fatime" text))
 
+zaireMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Zaïre"))
+
 atalideMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Atalide"))
@@ -216,6 +220,14 @@ tacmasMark =
 tacmasMarkText =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark-text "vhaute-contre" "Tacmas" text))
+
+aliMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Ali"))
+
+aliMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vbasse" "Ali" text))
 
 %%%
 
