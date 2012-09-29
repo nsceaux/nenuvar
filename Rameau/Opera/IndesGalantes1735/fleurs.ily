@@ -31,12 +31,12 @@
   \italic { Elle paroit livrée a quelqu'inquietude } }
 \includeScore "EBAtacmas"
 
-%{ n°3 %}
+%{ n°4 %}
 \pieceToc\markup\wordwrap { Zaïre :
-  \italic { Amour, Amour, quand du destin j'éprouve la rigueur } }
+  \italic { Amour, quand du destin j'éprouve la rigueur } }
 \includeScore "EBBzaire"
 
-%{ n°4 %}
+%{ n°5 %}
 \pieceToc\markup\wordwrap { Zaïre, Tacmas :
   \italic { Quoy ! Zaïre ose aimer } }
 \includeScore "EBCzaireTacmas"

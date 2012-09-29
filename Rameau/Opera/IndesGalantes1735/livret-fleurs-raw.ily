@@ -73,7 +73,7 @@
 %# Quelquefois la solitude
 %# Engage un coeur a s'ouvrir.
 \livretPers Zaïre
-%# Amour, Amour, quand du destin j'éprouve la rigueur,
+%# Amour, quand du destin j'éprouve la rigueur,
 %# La tienne seulement me fait verser des larmes.
 %# Ma foiblesse aujourd'huy redouble mon malheur,
 %# Et cependant, helas ! elle a pour moy des charmes !
