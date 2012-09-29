@@ -964,6 +964,35 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Tacmas, Fatime }
 }
+\livretPers FATIME
+\livretVerse#6 { Demeurez, étrangere ! }
+\livretVerse#8 { Votre secours m’est nécessaire ; }
+\livretVerse#12 { A mes ardens desirs sera t’il refusé ? }
+\livretPers\line { TACMAS \smaller { a part }
+\livretVerse#12 { Suspendons un instant ma trop juste vengeance, }
+\livretVerse#8 { Et pour fixer leur chatiment, }
+\livretVerse#12 { Sachons jusqu’où leurs cœurs étoient d’intelligence. }
+\livretDidasP\line { a Fatime }
+\livretVerse#8 { Parlez-moy sans deguisement ! }
+\livretVerse#12 { Comptez pour vous servir sur mon empressement. }
+\livretPers FATIME
+\livretVerse#8 { Dans ces jardins l’amour m’appelle, }
+\livretVerse#8 { Peut-on resister a sa voix ? }
+\livretVerse#10 { Le cher objet qui me tient sous ses loix }
+\livretVerse#8 { Ignore mon ardeur fidelle, }
+\livretVerse#8 { Je viens luy declarer mon choix. }
+\livretVerse#8 { Soulagez ma peine cruelle ! }
+\livretVerse#12 { Helas ! pour obeïr au dangereux amour }
+\livretVerse#8 { Je risque de perdre le jour. }
+\livretVerse#12 { Puisque de ces beaux lieux vous connoissez le maître, }
+\livretVerse#12 { Vous sçavez qu’un cœur tendre en peut être charmé ! }
+\livretPers\line { TACMAS \smaller { a part } }
+\livretVerse#12 { Il craint que de Zaïre Ali ne soit aimé. }
+\livretVerse#12 { Il est jaloux, bientôt il se fera connoître. }
+\livretVerse#8 { Des perils qu’il court dans ces lieux }
+\livretVerse#8 { Il ne sçait pas le plus terrible... }
+\livretVerse#12 { Il voit sans deffiance un Rival furieux, }
+\livretVerse#12 { Il le fait confident de son cœur trop sensible ? }
 
 \livretScene\line { SCENE IV }
 

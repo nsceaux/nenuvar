@@ -126,6 +126,35 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Tacmas, Fatime }
 }
+\livretPers FATIME
+%# Demeurez, étrangere !
+%# Votre secours m'est nécessaire ;
+%# A mes ardens desirs sera t'il refusé ?
+\livretPers\line { TACMAS \smaller { a part }
+%# Suspendons un instant ma trop juste vengeance,
+%# Et pour fixer leur chatiment,
+%# Sachons jusqu'où leurs cœurs étoient d'intelligence.
+\livretDidasP\line { a Fatime }
+%# Parlez-moy sans deguisement !
+%# Comptez pour vous servir sur mon empressement.
+\livretPers FATIME
+%# Dans ces jardins l'amour m'appelle,
+%# Peut-on resister a sa voix ?
+%# Le cher objet qui me tient sous ses loix
+%# Ignore mon ardeur fidelle,
+%# Je viens luy declarer mon choix.
+%# Soulagez ma peine cru=elle !
+%# Helas! pour obe=ïr au dangereux amour
+%# Je risque de perdre le jour.
+%# Puisque de ces beaux lieux vous connoissez le maître,
+%# Vous sçavez qu'un cœur tendre en peut être charmé !
+\livretPers\line { TACMAS \smaller { a part } }
+%# Il craint que de Za=ïre Ali ne soit aimé.
+%# Il est jaloux, bientôt il se fera connoître.
+%# Des perils qu'il court dans ces lieux
+%# Il ne sçait pas le plus terrible...
+%# Il voit sans deffi=ance un Rival furi=eux,
+%# Il le fait confident de son cœur trop sensible ?
 
 \livretScene\line { SCENE IV }
 

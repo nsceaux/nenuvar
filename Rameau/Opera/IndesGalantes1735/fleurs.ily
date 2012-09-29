@@ -48,9 +48,16 @@
 }
 \pieceToc\markup\wordwrap { Fatime, Tacmas :
   \italic { Demeurez étrangere } }
-\includeScore "EACfatimeTacmas"
+\includeScore "ECAfatimeTacmas"
 
-
+%{ n°7 %}
+\scene "Scène IV" "Scène 4 : Tacmas, Fatime, Ali, Zaïre"
+\sceneDescription\markup\center-column {
+  \line\smallCaps { Tacmas, Fatime, Ali, Zaïre }
+}
+\pieceToc\markup\wordwrap { Fatime, Tacmas, Ali, Zaïre :
+  \italic { Achevez, nommez-vous } }
+\includeScore "EDAftaz"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°13 %}\newBookPart #'()

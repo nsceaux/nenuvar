@@ -195,11 +195,11 @@ roxaneMark =
 
 fatimeMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vdessus" "Fatime"))
+  (make-character-mark "vbas-dessus" "Fatime"))
 
 fatimeMarkTextCol =
 #(define-music-function (parser location text) (markup?)
-  (make-character-mark-text-col "vdessus" "Fatime" text))
+  (make-character-mark-text-col "vbas-dessus" "Fatime" text))
 
 zaireMark =
 #(define-music-function (parser location) ()
