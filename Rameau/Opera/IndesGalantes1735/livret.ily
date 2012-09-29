@@ -911,19 +911,19 @@
 \livretVerse#7 { Quelquefois la solitude }
 \livretVerse#7 { Engage un coeur a s’ouvrir. }
 \livretPers Zaïre
-\livretVerse#14 { Amour, Amour, quand du destin j’éprouve la rigueur, }
+\livretVerse#12 { Amour, quand du destin j’éprouve la rigueur, }
 \livretVerse#12 { La tienne seulement me fait verser des larmes. }
 \livretVerse#12 { Ma foiblesse aujourd’huy redouble mon malheur, }
 \livretVerse#12 { Et cependant, helas ! elle a pour moy des charmes ! }
 \null
-\livretVerse#5 { Quoi, Zaïre ose aimer ! }
+\livretVerse#6 { Quoi, Zaïre ose aimer ! }
 \livretPers\line { TACMAS, \smaller { à part. } }
 \livretVerse#12 { Quel funeste secret vient-elle de m’apprendre ? }
 \livretVerse#10 { Mais contraignons un transport indiscret ! }
 \livretVerse#12 { Le nom de mon rival reste encor a surprendre. }
 \livretDidasP\line { a Zaïre }
 \livretVerse#12 { Belle esclave, je viens vous offrir mon secours. }
-\livretVerse#11 { Vous aimez... a mes soins, confiez vos amours ! }
+\livretVerse#12 { Vous aimez... a mes soins, confiez vos amours ! }
 \livretPers ZAÏRE
 \livretVerse#8 { Doit-on aimer dans l’esclavage, }
 \livretVerse#8 { C’est en augmenter la rigueur ! }
@@ -945,7 +945,7 @@
 \livretVerse#6 { Dans ses regards charmants, }
 \livretVerse#12 { Je pourray, sans soupçon, lire ses sentimens. }
 \livretDidasP\line { à Zaïre }
-\livretVerse#5 { Voyez cette peinture ! }
+\livretVerse#6 { Voyez cette peinture ! }
 \livretPers ZAÏRE
 \livretVerse#6 { Ah ! que me montrez-vous ? }
 \livretDidasP\line { à part }
@@ -958,7 +958,7 @@
 \livretVerse#12 { Qui peut être l’objet de mes transports jaloux ? }
 \livretVerse#8 { Que vois-je ? C’est le temeraire. }
 \livretVerse#12 { Son embarras décéle un amant déguisé. }
-\livretVerse#4 { Zaïre, où fuyez-vous ? }
+\livretVerse#6 { Zaïre, où fuyez-vous ? }
 
 \livretScene\line { SCENE III }
 \livretDescAtt\wordwrap-center {

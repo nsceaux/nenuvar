@@ -78,14 +78,14 @@
 %# Ma foiblesse aujourd'huy redouble mon malheur,
 %# Et cependant, helas ! elle a pour moy des charmes !
 \null
-%# Quoi, Zaïre ose aimer!
+%# Quoi, Za=ïre ose aimer!
 \livretPers\line { TACMAS, \smaller { à part. } }
 %# Quel funeste secret vient-elle de m'apprendre ?
 %# Mais contraignons un transport indiscret !
 %# Le nom de mon rival reste encor a surprendre.
 \livretDidasP\line { a Zaïre }
 %# Belle esclave, je viens vous offrir mon secours.
-%# Vous aimez... a mes soins, confiez vos amours !
+%# Vous aimez... a mes soins, confi=ez vos amours !
 \livretPers ZAÏRE
 %# Doit-on aimer dans l'esclavage,
 %# C'est en augmenter la rigueur !
@@ -107,7 +107,7 @@
 %# Dans ses regards charmants,
 %# Je pourray, sans soupçon, lire ses sentimens.
 \livretDidasP\line { à Zaïre }
-%# Voyez cette peinture!
+%# Voy=ez cette peinture!
 \livretPers ZAÏRE
 %# Ah ! que me montrez-vous ?
 \livretDidasP\line { à part }
@@ -120,7 +120,7 @@
 %# Qui peut être l'objet de mes transports jaloux ?
 %# Que vois-je ? C'est le temeraire.
 %# Son embarras décéle un amant déguisé.
-%# Zaïre, où fuyez-vous ?
+%# Za=ïre, où fuy=ez-vous ?
 
 \livretScene\line { SCENE III }
 \livretDescAtt\wordwrap-center {

@@ -41,6 +41,15 @@
   \italic { Quoy ! Zaïre ose aimer } }
 \includeScore "EBCzaireTacmas"
 
+%{ n°6 %}
+\scene "Scène III" "Scène 3 : Tacmas, Fatime"
+\sceneDescription\markup\center-column {
+  \line\smallCaps { Tacmas, Fatime }
+}
+\pieceToc\markup\wordwrap { Fatime, Tacmas :
+  \italic { Demeurez étrangere } }
+\includeScore "EACfatimeTacmas"
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
