@@ -421,6 +421,7 @@ quoteEmptyLayout = \layout {
     \remove "Time_signature_engraver"
     \remove "Clef_engraver"
     \remove "Staff_symbol_engraver"
+    \override MultiMeasureRest #'expand-limit = #2
   }
 }
 

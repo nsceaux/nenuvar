@@ -27,34 +27,21 @@
 \sceneDescription\markup\center-column {
   \line\smallCaps { Tacmas, Zaïre }
 }
-\pieceToc\markup\wordwrap { Tacmas, Zaïre :
+\pieceToc\markup\wordwrap { Tacmas :
   \italic { Elle paroit livrée a quelqu'inquietude } }
-\includeScore "EBAtacmasZaire"
+\includeScore "EBAtacmas"
 
-%{ n°9 %}
-\scene "Scène III" "Scène 3 : Fatime, Atalide, Tacmas"
-\sceneDescription \markup \left-align \center-column {
-  \line \smallCaps { Fatime, Atalide, Tacmas }
-}
-\pieceToc \markup { Atalide, Tacmas }
-\includeScore "ECAatalideTacmas"
-\partNoPageTurn #'(basse basson)
+%{ n°3 %}
+\pieceToc\markup\wordwrap { Zaïre :
+  \italic { Amour, Amour, quand du destin j'éprouve la rigueur } }
+\includeScore "EBBzaire"
 
-%{ n°10 %}
-\scene "Scène IV" "Scène 4 : Fatime, Tacmas"
-\sceneDescription \markup \left-align \center-column {
-  \line \smallCaps { Fatime, Tacmas }
-}
-\pieceToc \markup { Fatime, Tacmas }
-\includeScore "EDAfatimeTacmas"
+%{ n°4 %}
+\pieceToc\markup\wordwrap { Zaïre, Tacmas :
+  \italic { Quoy ! Zaïre ose aimer } }
+\includeScore "EBCzaireTacmas"
 
-%{ n°11 %}
-\pieceToc \markup { Fatime, Tacmas : \italic { Après l'orage, un doux repos } }
-\includeScore "EDBduo"
 
-%{ n°12 %}
-\pieceToc \markup { Tacmas }
-\includeScore "EDCtacmas"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°13 %}\newBookPart #'()

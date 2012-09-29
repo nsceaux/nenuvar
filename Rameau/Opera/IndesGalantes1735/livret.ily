@@ -854,7 +854,7 @@
 \livretVerse#6 { Etranger approchez ! }
 \livretVerse#6 { Portez vous dans ces lieux, }
 \livretVerse#8 { De ces ouvrages curieux }
-\livretVerse#11 { Qu’imagine l’Europe, et que l’Asie admire ? }
+\livretVerse#12 { Qu’imagine l’Europe, et que l’Asie admire ? }
 \livretPers TACMAS
 \livretVerse#12 { Ton prince déguisé se presente a tes yeux. }
 \livretVerse#8 { Dans tes jardins l’amour m’attire... }
@@ -903,108 +903,69 @@
 
 \livretScene\line { SCENE II }
 \livretDescAtt\wordwrap-center {
-  \smallCaps Fatime en Esclave Polonois,
-  \smallCaps Atalide.
+  \smallCaps { Tacmas, Zaïre. }
 }
-\livretPers\wordwrap-center {
-  FATIME, \smaller { à part, examinant \smaller Atalide. }
-}
-\livretVerse#12 { Plus je vois ma Rivale, & plus je sens d’effroy, }
-\livretVerse#12 { Ses charmes, de Tacmas me prouvent l’inconstance. }
-\livretPers\line { ATALIDE, \smaller { à \smaller Fatime. } }
-\livretVerse#8 { Aimable Esclave, apprenez-moy }
-\livretVerse#12 { Si vous suivez Tacmas... }
-\livretPers FATIME
-\livretVerse#12 { \transparent { Si vous suivez Tacmas... } Je vis sous sa puissance, }
-\livretVerse#9 { Depuis longtemps il se fie a ma foy. }
-\livretPers ATALIDE
-\livretVerse#8 { Vous possedez sa confidence ? }
-\livretVerse#12 { Que vous êtes heureux de pouvoir chaque jour }
-\livretVerse#6 { Luy marquer vôtre zele ! }
-\livretPers FATIME
-\livretVerse#12 { Vous l’aimez ! vos soupirs trahissent vôtre amour... }
-\livretPers ATALIDE
-\livretVerse#12 { Ouy ; Tacmas est l’objet de mon ardeur fidelle... }
-\livretPers\line { FATIME, \smaller saisie. }
-\livretVerse#12 { Vous l’aimez... }
-\livretPers ATALIDE
-\livretVerse#12 { \transparent { Vous l’aimez... } Je l’adore & mon cœur enflâmé }
-\livretVerse#6 { N’a jamais tant aimé ! }
-\livretVerse#8 { La chaîne qui m’engage est faite }
-\livretVerse#8 { Pour n’en briser jamais les nœuds. }
-\livretVerse#8 { Ma tendresse est aussi parfaite }
-\livretVerse#8 { Que le cher Objet de mes vœux. }
-\livretVerse#8 { La chaîne qui m’engage est faite }
-\livretVerse#8 { Pour n’en briser jamais les nœuds. }
-\livretPers\line { FATIME, \smaller { à part. } }
-\livretVerse#12 { Elle aime trop, hélas ! pour n’être pas aimée... }
-\livretDidasP\line { Vivement à \smallCaps Atalide. }
-\livretVerse#12 { Ah ! c’est d’un Inconstant que vous êtes charmée ! }
-\livretVerse#10 { Un Inconstant devroit-il être heureux ? }
-\livretVerse#8 { C’est un crime que sa victoire ? }
-\livretVerse#8 { Plus il trahit de tendres feux, }
-\livretVerse#8 { Plus il se croit comblé de gloire. }
-\livretVerse#10 { Un Inconstant devroit-il être heureux ? }
-\livretVerse#8 { C’est un crime que sa victoire ? }
-\livretPers ATALIDE
-\livretVerse#8 { Un Inconstant ! que dites-vous ? }
-\livretVerse#8 { Le Prince n’aime que Fatime... }
-\livretVerse#12 { Ses discours, ses soupirs, ses regards, tout l’exprime : }
-\livretVerse#8 { Coryez-en mes transports jaloux... }
-\livretPers\line { FATIME, \smaller vivement. }
-\livretVerse#12 { Tacmas n’est point volage ! O Ciel ! est-il possible ! }
-\livretPers\line { ATALIDE, \smaller surprise. }
-\livretVerse#12 { J’esperois que mes maux vous trouveroient sensible, }
-\livretVerse#12 { Je comptois sur vos soins pour toucher mon Amant, }
-\livretVerse#12 { Et vous semblez jouir de mon cruel tourment ! }
+\livretPers TACMAS
+\livretVerse#12 { Elle paroit livrée a quelqu’inquietude... }
+\livretVerse#12 { Cachons-nous ! Découvrons ce qui la fait souffrir ! }
+\livretVerse#7 { Quelquefois la solitude }
+\livretVerse#7 { Engage un coeur a s’ouvrir. }
+\livretPers Zaïre
+\livretVerse#14 { Amour, Amour, quand du destin j’éprouve la rigueur, }
+\livretVerse#12 { La tienne seulement me fait verser des larmes. }
+\livretVerse#12 { Ma foiblesse aujourd’huy redouble mon malheur, }
+\livretVerse#12 { Et cependant, helas ! elle a pour moy des charmes ! }
+\null
+\livretVerse#5 { Quoi, Zaïre ose aimer ! }
+\livretPers\line { TACMAS, \smaller { à part. } }
+\livretVerse#12 { Quel funeste secret vient-elle de m’apprendre ? }
+\livretVerse#10 { Mais contraignons un transport indiscret ! }
+\livretVerse#12 { Le nom de mon rival reste encor a surprendre. }
+\livretDidasP\line { a Zaïre }
+\livretVerse#12 { Belle esclave, je viens vous offrir mon secours. }
+\livretVerse#11 { Vous aimez... a mes soins, confiez vos amours ! }
+\livretPers ZAÏRE
+\livretVerse#8 { Doit-on aimer dans l’esclavage, }
+\livretVerse#8 { C’est en augmenter la rigueur ! }
+\livretVerse#6 { Le plaisir fuit un coeur }
+\livretVerse#6 { Que la fortune outrage. }
+\livretPers TACMAS
+\livretVerse#8 { On doit aimer dans l’esclavage, }
+\livretVerse#8 { C’est en adoucir la rigueur. }
+\livretVerse#8 { Le plaisir dedommage un cœur }
+\livretVerse#6 { Que la fortune outrage. }
+\livretPers ZAÏRE
+\livretVerse#6 { Cessez ce vain discours ! }
+\livretPers TACMAS
+\livretVerse#6 { Pardonnez a mon zele... }
+\livretVerse#12 { Attendez... accordez du moins quelques momens }
+\livretVerse#8 { A des tableaux ou l’art excelle ! }
+\livretDidasP\line { a part }
+\livretVerse#6 { Montrons-luy mon portrait ! }
+\livretVerse#6 { Dans ses regards charmants, }
+\livretVerse#12 { Je pourray, sans soupçon, lire ses sentimens. }
+\livretDidasP\line { à Zaïre }
+\livretVerse#5 { Voyez cette peinture ! }
+\livretPers ZAÏRE
+\livretVerse#6 { Ah ! que me montrez-vous ? }
+\livretDidasP\line { à part }
+\livretVerse#6 { Je ne l’ay que trop vû. }
+\livretPers\line { TACMAS, \smaller { a part } }
+\livretVerse#6 { Ciel ! quel affreux augure ! }
+\livretVerse#10 { Mon portrait semble attirer son courroux... }
+\livretVerse#8 { Et j’entens son cœur qui soupire... }
+\livretVerse#12 { Elle forme des vœux... Un autre les inspire ! }
+\livretVerse#12 { Qui peut être l’objet de mes transports jaloux ? }
+\livretVerse#8 { Que vois-je ? C’est le temeraire. }
+\livretVerse#12 { Son embarras décéle un amant déguisé. }
+\livretVerse#4 { Zaïre, où fuyez-vous ? }
 
 \livretScene\line { SCENE III }
 \livretDescAtt\wordwrap-center {
-  \smallCaps Fatime, en Esclave Polonois,
-  \smallCaps { Atalide, Tacmas. }
+  \smallCaps { Tacmas, Fatime }
 }
-\livretPers ATALIDE
-\livretVerse#12 { Tacmas approche. Amour, c’est toy seul que j’implore, }
-\livretVerse#12 { Tu dois servir mon cœur de même qu’il t’adore. }
-\livretPers\line { TACMAS, \smaller { examinant \smallCaps FATIME. } }
-\livretVerse#12 { Un Esclave inconnu dans ces lieux ose entrer ! }
-\livretVerse#12 { Quoy ! Fatime, c’est vous ! }
-\livretPers\line { ATALIDE, \smaller { à part. } }
-\livretVerse#12 { \transparent { Quoy ! Fatime, c’est vous ! } Ciel ! c’est à ma Rivale, }
-\livretVerse#8 { Que je suis venu declarer }
-\livretVerse#12 { Son triomphe éclatant, & ma peine fatale... }
 
 \livretScene\line { SCENE IV }
-\livretDescAtt\wordwrap-center {
-  \smallCaps { Tacmas, Fatime, } en Esclave Polonois,
-}
-\livretPers TACMAS
-\livretVerse#12 { Fatime, expliquez-moy vôtre déguisement. }
-\livretPers FATIME
-\livretVerse#12 { Au repos de mon cœur il étoit necessaire. }
-\livretVerse#8 { De ce cœur fidelle & sincere, }
-\livretVerse#8 { Il vient de calmer le tourment... }
-\livretVerse#8 { Je craignois vôtre changement. }
-\livretPers TACMAS
-\livretVerse#8 { Eh quoy ! trop injuste Fatime, }
-\livretVerse#8 { Vous m’avez soupçonné d’un crime, }
-\livretVerse#12 { Vous vous êtes livrée à des transports jaloux ! }
-\livretVerse#12 { Pour accuser mes feux, quelle preuve avez-vous ? }
-\livretPers FATIME
-\livretVerse#8 { La jalousie est-elle sage ? }
-\livretVerse#12 { L’aimable Aurore, en vain se leve sans nuage, }
-\livretVerse#8 { Et nous promet un jour charmant ; }
-\livretVerse#12 { Pour troubler l’Univers, il ne faut qu’un moment, }
-\livretVerse#12 { Nos cœurs comme les flots sont sujets à l’orage. }
-\livretPers ENSEMBLE
-\livretVerse#8 { Après l’orage, un doux repos }
-\livretVerse#8 { Calme les cœurs comme les flots. }
-\livretDidasP\line { On entend le Prélude de la Fête. }
-\livretPers TACMAS
-\livretVerse#12 { Fatime, ces Concerts nous annoncent la Fête }
-\livretVerse#12 { Qu’à la gloire des Fleurs, dans ce Bois on aprête : }
-\livretVerse#9 { Près de vous, je ne la verray pas ; }
-\livretVerse#12 { Près de vous, on ne peut penser qu’à vos appas. }
 
 \livretScene\line { SCENE V }
 \livretDescAtt\column {

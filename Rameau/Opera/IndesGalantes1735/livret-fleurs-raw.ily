@@ -65,108 +65,69 @@
 
 \livretScene\line { SCENE II }
 \livretDescAtt\wordwrap-center {
-  \smallCaps Fatime en Esclave Polonois,
-  \smallCaps Atalide.
+  \smallCaps { Tacmas, Zaïre. }
 }
-\livretPers\wordwrap-center {
-  FATIME, \smaller { à part, examinant \smaller Atalide. }
-}
-%# Plus je vois ma Rivale, & plus je sens d'effroy,
-%# Ses charmes, de Tacmas me prouvent l'inconstance.
-\livretPers\line { ATALIDE, \smaller { à \smaller Fatime. } }
-%# Aimable Esclave, apprenez-moy
-%#- Si vous suivez Tacmas...
-\livretPers FATIME
-%#= Je vis sous sa puissance,
-%# Depuis longtemps il se fie a ma foy.
-\livretPers ATALIDE
-%# Vous possedez sa confidence ?
-%# Que vous êtes heureux de pouvoir chaque jour
-%# Luy marquer vôtre zele !
-\livretPers FATIME
-%# Vous l'aimez ! vos soupirs trahissent vôtre amour...
-\livretPers ATALIDE
-%# Ouy ; Tacmas est l'objet de mon ardeur fidelle...
-\livretPers\line { FATIME, \smaller saisie. }
-%#- Vous l'aimez...
-\livretPers ATALIDE
-%#= Je l'adore & mon cœur enflâmé
-%# N'a jamais tant aimé !
-%# La chaîne qui m'engage est faite
-%# Pour n'en briser jamais les nœuds.
-%# Ma tendresse est aussi parfaite
-%# Que le cher Objet de mes vœux.
-%# La chaîne qui m'engage est faite
-%# Pour n'en briser jamais les nœuds.
-\livretPers\line { FATIME, \smaller { à part. } }
-%# Elle aime trop, hélas ! pour n'être pas aimée...
-\livretDidasP\line { Vivement à \smallCaps Atalide. }
-%# Ah ! c'est d'un Inconstant que vous êtes charmée !
-%# Un Inconstant devroit-il être *heureux ?
-%# C'est un crime que sa victoire ?
-%# Plus il trahit de tendres feux,
-%# Plus il se croit comblé de gloire.
-%# Un Inconstant devroit-il être *heureux ?
-%# C'est un crime que sa victoire ?
-\livretPers ATALIDE
-%# Un Inconstant ! que dites-vous ?
-%# Le Prince n'aime que Fatime...
-%# Ses discours, ses soupirs, ses regards, tout l'exprime :
-%# Coryez-en mes transports jaloux...
-\livretPers\line { FATIME, \smaller vivement. }
-%# Tacmas n'est point volage ! O Ciel ! est-il possible !
-\livretPers\line { ATALIDE, \smaller surprise. }
-%# J'esperois que mes maux vous trouveroient sensible,
-%# Je comptois sur vos soins pour toucher mon Amant,
-%# Et vous semblez jou=ir de mon cru=el tourment !
+\livretPers TACMAS
+%# Elle paroit li=vrée =a quelqu'inqui=etude...
+%# Cachons-nous ! Découvrons ce qui la fait souffrir !
+%# Quelquefois la solitude
+%# Engage un coeur a s'ouvrir.
+\livretPers Zaïre
+%# Amour, Amour, quand du destin j'éprouve la rigueur,
+%# La tienne seulement me fait verser des larmes.
+%# Ma foiblesse aujourd'huy redouble mon malheur,
+%# Et cependant, helas ! elle a pour moy des charmes !
+\null
+%# Quoi, Zaïre ose aimer!
+\livretPers\line { TACMAS, \smaller { à part. } }
+%# Quel funeste secret vient-elle de m'apprendre ?
+%# Mais contraignons un transport indiscret !
+%# Le nom de mon rival reste encor a surprendre.
+\livretDidasP\line { a Zaïre }
+%# Belle esclave, je viens vous offrir mon secours.
+%# Vous aimez... a mes soins, confiez vos amours !
+\livretPers ZAÏRE
+%# Doit-on aimer dans l'esclavage,
+%# C'est en augmenter la rigueur !
+%# Le plaisir fuit un coeur
+%# Que la fortune outrage.
+\livretPers TACMAS
+%# On doit aimer dans l'esclavage,
+%# C'est en adoucir la rigueur.
+%# Le plaisir dedommage un cœur
+%# Que la fortune outrage.
+\livretPers ZAÏRE
+%# Cessez ce vain discours !
+\livretPers TACMAS
+%# Pardonnez a mon zele...
+%# Attendez... accordez du moins quelques momens
+%# A des tableaux ou l'art excelle !
+\livretDidasP\line { a part }
+%# Montrons-luy mon portrait !
+%# Dans ses regards charmants,
+%# Je pourray, sans soupçon, lire ses sentimens.
+\livretDidasP\line { à Zaïre }
+%# Voyez cette peinture!
+\livretPers ZAÏRE
+%# Ah ! que me montrez-vous ?
+\livretDidasP\line { à part }
+%# Je ne l'ay que trop vû.
+\livretPers\line { TACMAS, \smaller { a part } }
+%# Ciel ! quel affreux augure !
+%# Mon portrait semble attirer son courroux...
+%# Et j'entens son cœur qui soupire...
+%# Elle forme des vœux... Un autre les inspire !
+%# Qui peut être l'objet de mes transports jaloux ?
+%# Que vois-je ? C'est le temeraire.
+%# Son embarras décéle un amant déguisé.
+%# Zaïre, où fuyez-vous ?
 
 \livretScene\line { SCENE III }
 \livretDescAtt\wordwrap-center {
-  \smallCaps Fatime, en Esclave Polonois,
-  \smallCaps { Atalide, Tacmas. }
+  \smallCaps { Tacmas, Fatime }
 }
-\livretPers ATALIDE
-%# Tacmas approche. Amour, c'est toy seul que j'implore,
-%# Tu dois servir mon cœur de même qu'il t'adore.
-\livretPers\line { TACMAS, \smaller { examinant \smallCaps FATIME. } }
-%# Un Esclave inconnu dans ces lieux ose entrer !
-%#- Quoy ! Fatime, c'est vous !
-\livretPers\line { ATALIDE, \smaller { à part. } }
-%#= Ciel ! c'est à ma Rivale,
-%# Que je suis venu declarer
-%# Son tri=omphe éclatant, & ma peine fatale...
 
 \livretScene\line { SCENE IV }
-\livretDescAtt\wordwrap-center {
-  \smallCaps { Tacmas, Fatime, } en Esclave Polonois,
-}
-\livretPers TACMAS
-%# Fatime, expliquez-moy vôtre déguisement.
-\livretPers FATIME
-%# Au repos de mon cœur il étoit necessaire.
-%# De ce cœur fidelle & sincere,
-%# Il vient de calmer le tourment...
-%# Je craignois vôtre changement.
-\livretPers TACMAS
-%# Eh quoy ! trop injuste Fatime,
-%# Vous m'avez soupçonné d'un crime,
-%# Vous vous êtes livrée =à des transports jaloux !
-%# Pour accuser mes feux, quelle preuve avez-vous ?
-\livretPers FATIME
-%# La jalousie =est-elle sage ?
-%# L'aimable Aurore, en vain se leve sans nu=age,
-%# Et nous promet un jour charmant ;
-%# Pour troubler l'Univers, il ne faut qu'un moment,
-%# Nos cœurs comme les flots sont sujets à l'orage.
-\livretPers ENSEMBLE
-%# Après l'orage, un doux repos
-%# Calme les cœurs comme les flots.
-\livretDidasP\line { On entend le Prélude de la Fête. }
-\livretPers TACMAS
-%# Fatime, ces Concerts nous annoncent la Fête
-%# Qu'à la gloire des Fleurs, dans ce Bois on aprête :
-%# Près de vous, je ne la verray pas ;
-%# Près de vous, on ne peut penser qu'à vos appas.
 
 \livretScene\line { SCENE V }
 \livretDescAtt\column {
