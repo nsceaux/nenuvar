@@ -217,6 +217,7 @@
 \livretPers\line { FATIME, ALI }
 %# Ah ! Seigneur, quel moment ! Quel bonheur je vous doy !
 %# Que de plaisirs ensemble un si beau jour amene !
+\livretRef #'EDBquatuor
 \livretPers\line { TACMAS, ZAÏRE, FATIME, ALI }
 %# Tendre amour, que pour nous ta chaine
 %# Dure à jamais !

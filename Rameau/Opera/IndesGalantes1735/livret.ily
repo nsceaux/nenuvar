@@ -1026,7 +1026,7 @@
 \livretPers TACMAS
 \livretVerse#12 { \transparent { Achevez, nommez-vous ! Je suis... } Vous balancez ! }
 \livretPers ALI
-\livretVerse#13 { Venez, belle Zaïre ! Approchez, et cessez }
+\livretVerse#12 { Venez, belle Zaïre ! Approchez, et cessez }
 \livretVerse#8 { De fuir la plus brillante gloire ! }
 \livretVerse#12 { De vos divins appas apprenez la victoire ! }
 \livretPers TACMAS
@@ -1071,6 +1071,7 @@
 \livretPers\line { FATIME, ALI }
 \livretVerse#12 { Ah ! Seigneur, quel moment ! Quel bonheur je vous doy ! }
 \livretVerse#12 { Que de plaisirs ensemble un si beau jour amene ! }
+\livretRef #'EDBquatuor
 \livretPers\line { TACMAS, ZAÏRE, FATIME, ALI }
 \livretVerse#8 { Tendre amour, que pour nous ta chaine }
 \livretVerse#4 { Dure à jamais ! }

@@ -59,6 +59,10 @@
   \italic { Achevez, nommez-vous } }
 \includeScore "EDAftaz"
 
+%{ n°8 %}
+\pieceToc\markup\wordwrap { Quatuor : \italic { Tendre amour } }
+\includeScore "EDBquatuor"
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°13 %}\newBookPart #'()
 \scene "Scène V" "Scène 5 : Fête des Fleurs"
