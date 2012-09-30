@@ -11,6 +11,7 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps Tacmas déuisé en marchand du serail, \smallCaps Ali.
 }
+\livretRef #'EABaliTacmas
 \livretPers ALI
 %# Mon abord paroit l'interdire...
 %# Etranger approchez!
@@ -67,17 +68,19 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Tacmas, Zaïre. }
 }
+\livretRef #'EBAtacmas
 \livretPers TACMAS
 %# Elle paroit li=vrée =a quelqu'inqui=etude...
 %# Cachons-nous ! Découvrons ce qui la fait souffrir !
 %# Quelquefois la solitude
 %# Engage un coeur a s'ouvrir.
+\livretRef #'EBBzaire
 \livretPers Zaïre
 %# Amour, quand du destin j'éprouve la rigueur,
 %# La tienne seulement me fait verser des larmes.
 %# Ma foiblesse aujourd'huy redouble mon malheur,
 %# Et cependant, helas ! elle a pour moy des charmes !
-\null
+\livretRef #'EBCzaireTacmas
 %# Quoi, Za=ïre ose aimer!
 \livretPers\line { TACMAS, \smaller { à part. } }
 %# Quel funeste secret vient-elle de m'apprendre ?
@@ -126,10 +129,11 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Tacmas, Fatime }
 }
+\livretRef #'ECAfatimeTacmas
 \livretPers FATIME
 %# Demeurez, étrangere !
 %# Votre secours m'est nécessaire ;
-%# A mes ardens desirs sera t'il refusé ?
+%# A mes ardens desirs sera-t'il refusé ?
 \livretPers\line { TACMAS \smaller { a part }
 %# Suspendons un instant ma trop juste vengeance,
 %# Et pour fixer leur chatiment,
@@ -157,6 +161,65 @@
 %# Il le fait confident de son cœur trop sensible ?
 
 \livretScene\line { SCENE IV }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Tacmas, Fatime, Ali, Zaïre }
+}
+\livretRef #'EDAftaz
+\livretPers\line { TACMAS \smaller { a Fatime } }
+%#- Achevez, nommez-vous !
+\livretPers FATIME
+%#- Je suis...
+\livretPers TACMAS
+%#= Vous balancez !
+\livretPers ALI
+%# Venez, belle Za=ïre ! Approchez, et cessez
+%# De fuir la plus brillante gloire !
+%# De vos divins appas apprenez la victoire !
+\livretPers TACMAS
+%# Apprens toy-même, Ali, mon deplorable sort !
+%# Un rival jusqu'icy m'offense.
+%# Vois le perfide et ma vangeance !
+\livretPers FATIME
+%# C'est le Prince ! frappez, je mérite la mort ;
+%# Mais, en me punissant, connoissez mieux mon crime !
+\livretPers ALI
+%# O ciel, c'est l'aimable Fatime !
+%#- Ah ! Seigneur !
+\livretPers TACMAS
+%#= J'entens ce transport.
+\livretPers ALI
+%# Que la clemence vous désarme !
+%# Je vous conjure au nom de l'objet qui vous charme.
+\livretPers TACMAS
+%# Au beau nom de Za=ïre on ne refuse rien ;
+%# Mais qu'accordera-t'elle au mien ?
+%# Pourra-t'elle me voir, si mon portrait l'allarme ?
+\livretPers ZAÏRE
+%# Que vous expliquez mal le trouble de mon cœur !
+%# Ne s'allarme-t'on pas en voy=ant son vainqueur ?
+%# Deviez-vous vous méprendre
+%# A mes sens agitez ?
+%# Un trouble que vous excitez
+%# Ne peut être que tendre.
+\livretPers\line { TACMAS \smaller { a Zaïre } }
+%# Je prétens que l'*himen vous assure ma foy.
+%# Non, rien ne doit borner les transports de mon ame.
+\livretPers ZAÏRE
+%# Pour justifi=er vôtre flame,
+%# Seigneur, je suis du sang des Roy.
+\livretPers TACMAS
+%# Je n'ay pas attendu, trop aimable Princesse,
+%# L'aveu de votre rang pour croire ma tendresse.
+%# Je veux que tout ici soit heureux comme moi.
+%# Ali, je t'accorde Fatime,
+%# Son déguisement t'exprime
+%# L'ardeur qu'elle sent pour toy.
+\livretPers\line { FATIME, ALI }
+%# Ah ! Seigneur, quel moment ! Quel bonheur je vous doy !
+%# Que de plaisirs ensemble un si beau jour amene !
+\livretPers\line { TACMAS, ZAÏRE, FATIME, ALI }
+%# Tendre amour, que pour nous ta chaine
+%# Dure à jamais !
 
 \livretScene\line { SCENE V }
 \livretDescAtt\column {

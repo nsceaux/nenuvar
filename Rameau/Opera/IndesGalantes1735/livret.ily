@@ -513,6 +513,7 @@
   \smallCaps { Phani-Palla, Dom-Carlos, }
   Officier Espagnol.
 }
+\livretRef #'CABcarlosPhani
 \livretPers CARLOS
 \livretVerse#8 { Vous devez bannir de vôtre ame }
 \livretVerse#12 { La criminelle erreur qui séduit les Incas ; }
@@ -564,6 +565,7 @@
 \livretVerse#8 { Lorsque l’on aime, on craint toujours. }
 
 \livretScene\line { SCENE II }
+\livretRef #'CBAphani
 \livretPers PHANI-PALLA
 \livretVerse#12 { Viens, Hymen, viens m’unir au Vainqueur que j’adore ; }
 \livretVerse#8 { Forme tes nœuds, enchaîne-moy. }
@@ -573,6 +575,7 @@
 
 \livretScene\line { SCENE III }
 \livretDescAtt\wordwrap-center\smallCaps { Phani-Palla, Huascar-Inca. }
+\livretRef #'CCAhuascar
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 \livretVerse#12 { Elle est seule... parlons ; l’instant est favorable... }
 \livretVerse#12 { Mais je crains d’un Rival l’obstacle redoutable. }
@@ -585,6 +588,7 @@
 \livretVerse#8 { Et luy-même dans nôtre empire, }
 \livretVerse#12 { Il prétend par ma voix vous nommer un époux. }
 \livretVerse#12 { Vous frémissez... d’où vient que vôtre cœur soupire ? }
+\livretRef #'CCBhuascar
 \livretVerse#8 { Obéissons sans balancer }
 \livretVerse#6 { Lorsque le Ciel commande. }
 \livretVerse#8 { Nous ne pouvons trop nous presser }
@@ -592,6 +596,7 @@
 \livretVerse#8 { Y reflechir, c’est l’offenser. }
 \livretVerse#6 { Lorsque le Ciel commande, }
 \livretVerse#8 { Obéissons sans balancer. }
+\livretRef #'CCCphaniHuascar
 \livretPers PHANI
 \livretVerse#12 { Non, non, je ne crois pas tout ce que l’on assure }
 \livretVerse#6 { En attestant les Cieux ; }
@@ -623,7 +628,7 @@
 \livretVerse#8 { Leurs Villes flotter sur les eaux ; }
 \livretVerse#10 { Vous avez vû dans l’horreur de la guerre, }
 \livretVerse#12 { Leurs invicibles bras disposer du tonnerre... }
-
+\livretRef #'CDAhuascar
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 \livretVerse#12 { On vient, dissimulons mes transports à leurs yeux... }
 \livretDidasP\line { à l'Inca qu'il appelle. }
@@ -642,15 +647,18 @@
     \smallCaps { Peruviens, et Peruviennes. }
   }
 }
+\livretRef #'CEAhuascar
 \livretPers HUASCAR
 \livretVerse#12 { Soleil, on a détruit tes superbes aziles, }
 \livretVerse#12 { Il ne te reste plus de temple que nos cœurs : }
 \livretVerse#12 { Daigne nous écoûter dans ces deserts tranquilles, }
 \livretVerse#12 { Le zele est pour les Dieux le plus cher des honneurs. }
-\livretDesc\wordwrap-center {
+\livretRef #'CEBprelude
+\livretDescPage\wordwrap-center {
   Les \smallCaps Pallas & les \smallCaps Incas font leur
   adoration au Soleil.
 }
+\livretRef #'CEChuascarChoeur
 \livretPers HUASCAR
 \livretVerse#12 { Brillant Soleil, jamais nos yeux dans ta carriere, }
 \livretVerse#8 { N’ont vû tomber de noirs frimats ! }
@@ -658,9 +666,11 @@
 \livretVerse#8 { Ta plus éclatante lumiere. }
 \livretPers CHŒUR
 \livretVerse#12 { Brillant Soleil, &c. }
-\livretDesc\wordwrap-center {
+\livretRef #'CEDair
+\livretDescPage\wordwrap-center {
   Danse de \smallCaps { Peruviens et Peruviennes. }
 }
+\livretRef #'CEFhuascarChoeur
 \livretPers HUASCAR
 \livretVerse#5 { Clair Flambeau du monde, }
 \livretVerse#5 { L’Air, la Terre & l’Onde }
@@ -684,6 +694,7 @@
 \livretVerse#12 { Perdent tous leurs plaisirs ; la Beauté perd ses traits. }
 \livretPers CHŒUR
 \livretVerse#5 { Clair Flambeau &c. }
+\livretRef #'CEHhuascar
 \livretPers HUASCAR
 \livretVerse#7 { Permettez, Astre du jour, }
 \livretVerse#11 { Qu’en chantant vos feux nous chantions d’autres flâmes ; }
@@ -707,8 +718,10 @@
 \livretVerse#10 { Sur vos appas n’étend jamais son ombre. }
 \livretVerse#8 { Tous les tems, aimable vainqueur, }
 \livretVerse#7 { Sont marquez par tes faveurs. }
-\livretDesc\wordwrap-center { On danse. }
-\livretDesc\wordwrap-center {
+\livretRef #'CEIgavotte
+\livretDescPage\wordwrap-center { On danse. }
+\livretRef #'CEKchoeur
+\livretDescPage\wordwrap-center {
   La Fête est troublée par un tremblement de terre.
 }
 \livretPers CHŒUR
@@ -732,6 +745,7 @@
 \livretDescAtt\wordwrap-center\smallCaps {
   Phani-Palla, Huascar-Inca.
 }
+\livretRef #'CFAphaniHuascarCarlos
 \livretPers\wordwrap-center {
   HUASCAR, à \smallCaps PHANI qui traverse le Théatre en fuyant.
 }
@@ -795,6 +809,7 @@
 \livretVerse#12 { C’est-là son châtiment. }
 \livretPers HUASCAR
 \livretVerse#12 { \transparent { C’est-là son châtiment. } Ciel ! qu’il est rigoureux ! }
+\livretRef #'CFBtrio
 \livretPers ENSEMBLE
 \livretDidasP\line\smallCaps { Phan. & Carl. }
 \livretVerse#8 { Pour jamais l’Amour nous engage, }
@@ -819,6 +834,7 @@
 \livretDescAtt\justify {
   Le Volcan se rallume, & le Tremblement de terre recommence.
 }
+\livretRef #'CGAhuascar
 \livretPers HUASCAR
 \livretVerse#8 { La flâme se rallume encore... }
 \livretVerse#8 { Loin de l’éviter, je l’implore... }
@@ -849,6 +865,7 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps Tacmas déuisé en marchand du serail, \smallCaps Ali.
 }
+\livretRef #'EABaliTacmas
 \livretPers ALI
 \livretVerse#8 { Mon abord paroit l’interdire... }
 \livretVerse#6 { Etranger approchez ! }
@@ -905,17 +922,19 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Tacmas, Zaïre. }
 }
+\livretRef #'EBAtacmas
 \livretPers TACMAS
 \livretVerse#12 { Elle paroit livrée a quelqu’inquietude... }
 \livretVerse#12 { Cachons-nous ! Découvrons ce qui la fait souffrir ! }
 \livretVerse#7 { Quelquefois la solitude }
 \livretVerse#7 { Engage un coeur a s’ouvrir. }
+\livretRef #'EBBzaire
 \livretPers Zaïre
 \livretVerse#12 { Amour, quand du destin j’éprouve la rigueur, }
 \livretVerse#12 { La tienne seulement me fait verser des larmes. }
 \livretVerse#12 { Ma foiblesse aujourd’huy redouble mon malheur, }
 \livretVerse#12 { Et cependant, helas ! elle a pour moy des charmes ! }
-\null
+\livretRef #'EBCzaireTacmas
 \livretVerse#6 { Quoi, Zaïre ose aimer ! }
 \livretPers\line { TACMAS, \smaller { à part. } }
 \livretVerse#12 { Quel funeste secret vient-elle de m’apprendre ? }
@@ -964,10 +983,11 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Tacmas, Fatime }
 }
+\livretRef #'ECAfatimeTacmas
 \livretPers FATIME
 \livretVerse#6 { Demeurez, étrangere ! }
 \livretVerse#8 { Votre secours m’est nécessaire ; }
-\livretVerse#12 { A mes ardens desirs sera t’il refusé ? }
+\livretVerse#12 { A mes ardens desirs sera-t’il refusé ? }
 \livretPers\line { TACMAS \smaller { a part }
 \livretVerse#12 { Suspendons un instant ma trop juste vengeance, }
 \livretVerse#8 { Et pour fixer leur chatiment, }
@@ -995,6 +1015,65 @@
 \livretVerse#12 { Il le fait confident de son cœur trop sensible ? }
 
 \livretScene\line { SCENE IV }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Tacmas, Fatime, Ali, Zaïre }
+}
+\livretRef #'EDAftaz
+\livretPers\line { TACMAS \smaller { a Fatime } }
+\livretVerse#12 { Achevez, nommez-vous ! }
+\livretPers FATIME
+\livretVerse#12 { \transparent { Achevez, nommez-vous ! } Je suis... }
+\livretPers TACMAS
+\livretVerse#12 { \transparent { Achevez, nommez-vous ! Je suis... } Vous balancez ! }
+\livretPers ALI
+\livretVerse#13 { Venez, belle Zaïre ! Approchez, et cessez }
+\livretVerse#8 { De fuir la plus brillante gloire ! }
+\livretVerse#12 { De vos divins appas apprenez la victoire ! }
+\livretPers TACMAS
+\livretVerse#12 { Apprens toy-même, Ali, mon deplorable sort ! }
+\livretVerse#8 { Un rival jusqu’icy m’offense. }
+\livretVerse#8 { Vois le perfide et ma vangeance ! }
+\livretPers FATIME
+\livretVerse#12 { C’est le Prince ! frappez, je mérite la mort ; }
+\livretVerse#12 { Mais, en me punissant, connoissez mieux mon crime ! }
+\livretPers ALI
+\livretVerse#8 { O ciel, c’est l’aimable Fatime ! }
+\livretVerse#8 { Ah ! Seigneur ! }
+\livretPers TACMAS
+\livretVerse#8 { \transparent { Ah ! Seigneur ! } J’entens ce transport. }
+\livretPers ALI
+\livretVerse#8 { Que la clemence vous désarme ! }
+\livretVerse#12 { Je vous conjure au nom de l’objet qui vous charme. }
+\livretPers TACMAS
+\livretVerse#12 { Au beau nom de Zaïre on ne refuse rien ; }
+\livretVerse#8 { Mais qu’accordera-t’elle au mien ? }
+\livretVerse#12 { Pourra-t’elle me voir, si mon portrait l’allarme ? }
+\livretPers ZAÏRE
+\livretVerse#12 { Que vous expliquez mal le trouble de mon cœur ! }
+\livretVerse#12 { Ne s’allarme-t’on pas en voyant son vainqueur ? }
+\livretVerse#6 { Deviez-vous vous méprendre }
+\livretVerse#6 { A mes sens agitez ? }
+\livretVerse#8 { Un trouble que vous excitez }
+\livretVerse#6 { Ne peut être que tendre. }
+\livretPers\line { TACMAS \smaller { a Zaïre } }
+\livretVerse#12 { Je prétens que l’himen vous assure ma foy. }
+\livretVerse#12 { Non, rien ne doit borner les transports de mon ame. }
+\livretPers ZAÏRE
+\livretVerse#8 { Pour justifier vôtre flame, }
+\livretVerse#8 { Seigneur, je suis du sang des Roy. }
+\livretPers TACMAS
+\livretVerse#12 { Je n’ay pas attendu, trop aimable Princesse, }
+\livretVerse#12 { L’aveu de votre rang pour croire ma tendresse. }
+\livretVerse#12 { Je veux que tout ici soit heureux comme moi. }
+\livretVerse#8 { Ali, je t’accorde Fatime, }
+\livretVerse#7 { Son déguisement t’exprime }
+\livretVerse#7 { L’ardeur qu’elle sent pour toy. }
+\livretPers\line { FATIME, ALI }
+\livretVerse#12 { Ah ! Seigneur, quel moment ! Quel bonheur je vous doy ! }
+\livretVerse#12 { Que de plaisirs ensemble un si beau jour amene ! }
+\livretPers\line { TACMAS, ZAÏRE, FATIME, ALI }
+\livretVerse#8 { Tendre amour, que pour nous ta chaine }
+\livretVerse#4 { Dure à jamais ! }
 
 \livretScene\line { SCENE V }
 \livretDescAtt\column {
