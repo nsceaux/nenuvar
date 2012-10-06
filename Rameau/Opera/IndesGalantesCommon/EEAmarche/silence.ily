@@ -1,1 +1,1 @@
-r2\noBreak R2.*13\noBreak r4\noBreak r2\noBreak R2.*24\noBreak r4
+R2.*14 r4 r r R2.*24 r4

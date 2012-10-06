@@ -10,7 +10,7 @@
     favori de Tacmas, prince de perce.
   }
 }
-\scene "Scène Première" "Scène 1 : Tacmas, Ali"
+\scene "Scene Première" "Scene 1 : Tacmas, Ali"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps Tacmas déguisé en marchand du serail, \smallCaps Ali.
 }
@@ -23,7 +23,7 @@
 \includeScore "EABaliTacmas"
 
 %{ n°3 %}
-\scene "Scène II" "Scène 2 : Tacmas, Zaïre"
+\scene "Scene II" "Scene 2 : Tacmas, Zaïre"
 \sceneDescription\markup\center-column {
   \line\smallCaps { Tacmas, Zaïre }
 }
@@ -42,7 +42,7 @@
 \includeScore "EBCzaireTacmas"
 
 %{ n°6 %}
-\scene "Scène III" "Scène 3 : Tacmas, Fatime"
+\scene "Scene III" "Scene 3 : Tacmas, Fatime"
 \sceneDescription\markup\center-column {
   \line\smallCaps { Tacmas, Fatime }
 }
@@ -51,7 +51,7 @@
 \includeScore "ECAfatimeTacmas"
 
 %{ n°7 %}
-\scene "Scène IV" "Scène 4 : Tacmas, Fatime, Ali, Zaïre"
+\scene "Scene IV" "Scene 4 : Tacmas, Fatime, Ali, Zaïre"
 \sceneDescription\markup\center-column {
   \line\smallCaps { Tacmas, Fatime, Ali, Zaïre }
 }
@@ -70,18 +70,18 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°13 %}\newBookPart #'()
-\scene "Scène V" "Scène 5 : Fête des Fleurs"
+\scene "Scene V" "Scene 5 : Fête des Fleurs"
 \sceneDescription \markup \left-align \center-column {
-  \line { La Fête des Fleurs. }
+  \line { [LA FESTE DES FLEURS] }
   \justify {
-    La ferme s'ouvre ; alors tout le théâtre représente des berceaux
-    illuminés et décorés de guirlandes et de pots de fleurs. Des
-    symphonistes et des esclaves chantants sont distribués dans des
-    balcons et des feuillages. D'aimables odalisques de diverses
-    nations de l'Asie portent dans leurs habits les fleurs les plus
-    "belles :" l'une a pour parure la "rose ;" l'autre, la
-    "jonquille ;" enfin toutes se singularisent par des fleurs
-    différentes.
+    [La Ferme s'ouvre ; alors tout le Théatre représente des Berceaux
+    illuminez & décorez de Guirlandes, & de Pots de Fleurs.
+    Des Symphonies & des Esclaves chantants sont distribuez dans des
+    Balcons de feüillages.  D'aimables Odaliques de diverse Nations
+    de l'Asie portent dans leurs coëffures & sur leurs habits, les
+    Fleurs les plus belles : L'une, a pour parure, la Rose ;
+    L'autre la Jonquille : Enfin, toutes se sigularisent par des
+    Fleurs differentes.]
   }
 }
 \pieceTocTitle "Marche"

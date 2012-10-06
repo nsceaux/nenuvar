@@ -1,4 +1,4 @@
-\clef "basse" si4 dod' |
+\clef "basse" r4 si4 dod' |
 re' fad si |
 lad r16 si la sol fad8. mi16 |
 re4 r16 sol fad mi re8. dod16 |
@@ -30,11 +30,11 @@ si, r16 mi re dod si,8. re16 |
 mi,4 r16 fad mi re dod8. mi16 |
 fad,4 r16 sol fad mi re8. fad16 |
 sol,4 si,2 |
-fad,2. |
+fad,2 r4 |
 r4 r16 si la sol fad8. mi16 |
 re4 r16 re dod si, lad,8. sold,16 |
 fad,2 fad4 |
-sol r16 si la sol fad8. mi16 |
+sol r16 si\doux la sol fad8. mi16 |
 re4 r16 re dod si, lad,8. sold,16 |
 fad,2 fad,4 |
 si,
