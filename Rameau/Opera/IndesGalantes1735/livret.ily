@@ -1075,6 +1075,9 @@
 \livretPers\line { TACMAS, ZAÏRE, FATIME, ALI }
 \livretVerse#8 { Tendre amour, que pour nous ta chaine }
 \livretVerse#4 { Dure à jamais ! }
+\livretDidasP\line { On entend le Prélude de la Fête. }
+\livret TACMAS
+\livretVerse#12 { On vient, voyez les jeux augmentez leurs attraits. }
 
 \livretScene\line { SCENE V }
 \livretDescAtt\column {

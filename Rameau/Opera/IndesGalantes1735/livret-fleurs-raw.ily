@@ -221,6 +221,9 @@
 \livretPers\line { TACMAS, ZAÏRE, FATIME, ALI }
 %# Tendre amour, que pour nous ta chaine
 %# Dure à jamais !
+\livretDidasP\line { On entend le Prélude de la Fête. }
+\livret TACMAS
+%# On vient, voy=ez les jeux augmentez leurs attraits.
 
 \livretScene\line { SCENE V }
 \livretDescAtt\column {

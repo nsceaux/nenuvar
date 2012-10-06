@@ -63,6 +63,11 @@
 \pieceToc\markup\wordwrap { Quatuor : \italic { Tendre amour } }
 \includeScore "EDBquatuor"
 
+\pieceToc\markup\wordwrap { Tacmas :
+  \italic { On vient, voyez les jeux augmentez leurs attraits. } }
+\includeScore "EDCprelude"
+\includeScore "EDDtacmas"
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°13 %}\newBookPart #'()
 \scene "Scène V" "Scène 5 : Fête des Fleurs"
