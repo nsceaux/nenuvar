@@ -132,6 +132,28 @@ fakeBar = {
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+hideVoice = {
+  \hideNotes
+  \override Script #'transparent = ##t
+  \override TextScript #'transparent = ##t
+  \override Tie #'transparent = ##t
+  \override Slur #'transparent = ##t
+  \override MultiMeasureRest #'transparent = ##t
+  \override AccidentalCautionary #'transparent = ##t
+  \override AccidentalSuggestion #'transparent = ##t
+}
+
+unHideVoice = {
+  \unHideNotes
+  \revert Script #'transparent
+  \revert TextScript #'transparent
+  \revert Tie #'transparent
+  \revert Slur #'transparent
+  \revert MultiMeasureRest #'transparent
+  \revert AccidentalCautionary #'transparent
+  \revert AccidentalSuggestion #'transparent
+}
+
 %%%
 %%% smaller notes
 %%%
