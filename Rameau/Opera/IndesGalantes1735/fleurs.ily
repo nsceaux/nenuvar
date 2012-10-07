@@ -70,7 +70,7 @@
 \includeScore "EDDtacmas"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°10 %}\newBookPart #'()
+%{ n°10 %}
 \scene "Scene V" "Scene 5 : Fête des Fleurs"
 \sceneDescription \markup \left-align \center-column {
   \line { [LA FESTE DES FLEURS] }
@@ -89,56 +89,76 @@
 \includeScore "EEAmarche"
 
 %{ n°11 %}
-\pieceToc \markup { Chœur :
+\pieceToc\markup\wordwrap { Chœur :
   \italic { Dans le sein de Thetis précipitez vos feux } }
 \includeScore "EEBchoeur"
 
-%{ n°12 %}\newBookPart #'(full)
-\pieceTocTitle "Premier air des Persans"
-\includeScore "EECair"
-
-%{ n°13 %}
-\pieceToc \markup { Tacmas : \italic { L'éclat des roses les plus belles } }
+%{ n°12 %}
+% 338, 351
+\pieceToc\markup\wordwrap { Tacmas :
+  \italic { L’eclat des roses les plus belles } }
 \includeScore "EEDtacmas"
 
+%{ n°13 %}
+% 351-352
+\pieceTocTitle "Premier air pour les Persans"
+\includeScore "EECair"
+
 %{ n°14 %}
-\pieceTocTitle "Deuxième air"
-\includeScore "EEEair"
-
-%{ n°15 %}\newBookPart #'(full)
-\pieceToc \markup { Air italien : \italic { Fra le pupille di vaghe belle } }
-\includeScore "EEFairItalien"
-
-%{ n°16 %}\newBookPart #'(full)
-\pieceToc \markup { Fatime, chœur : \italic { Triomphez, agréables fleurs ! } }
-\includeScore "EEGfatimeChoeur"
-
-%{ n°17 %}
-\pieceTocTitle "Rondeaux I & II"
-\includeScore "EEHrondeau" \noPageTurn \includeScore "EEIrondeau"
-
-%{ n°18 %}\newBookPart #'(full)
+% 352, 354, 355, 358
 \pieceToc \markup { Fatime : \italic { Papillon inconstant } }
 \includeScore "EEJair"
 
-%{ n°19 %}\newBookPart #'(full)
+%{ n°15 %}
+% 359, 343, 344
+\pieceTocTitle "Deuxième air"
+\includeScore "EEEair"
+
+%{ n°16 %}
+% 344-347
+\pieceToc \markup { Fatime, chœur :
+  \italic { Triomphez, agréables fleurs ! } }
+\includeScore "EEGfatimeChoeur"
+
+%{ n°17 %}
+% 348-349
+\pieceTocTitle "Rondeau pour les fleurs"
+\includeScore "EEHrondeau"
+
+%{ n°18 %}
+% 349
+\pieceTocTitle "Rondeau"
+\includeScore "EEIrondeau"
+
+%{ n°19 %}
+% 350 ou 361
 \pieceTocTitle "Gavotte"
 \includeScore "EEKgavotte"
 
-%{ n°20 %}\newBookPart #'(full)
-\pieceTocTitle "Orage"
+%% Orage
+
+%{ n°20 %}
+% 360
+\pieceTocTitle "Air de Borée"
 \includeScore "EELorage"
 
-%{ n°21 %}\newBookPart #'(full)
-\pieceTocTitle "Air pour Zéphir"
+%{ n°21 %}
+% 367
+\pieceTocTitle "Premier air pour Zéphire"
 \includeScore "EEMzephir"
 
 %{ n°22 %}
+% 368-369
+\pieceTocTitle "Deuxième air pour Zéphire"
+\includeScore "EEMzephir"
+
+%{ n°23 %}
+% 369-372
 \pieceTocTitle "Air pour les Fleurs"
 \includeScore "EENfleurs"
 
-%{ n°23 %}
+%{ n°24 %}
+% 372
 \pieceTocTitle "Gavotte"
 \includeScore "EEOgavotte"
-\actEnd "FIN DE LA QUATRIÈME ENTRÉE"
-
+\actEnd "FIN DE LA TROISIÈME ENTRÉE"

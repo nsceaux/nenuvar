@@ -1103,15 +1103,19 @@
 \livretVerse#8 { Disparoit bientot avec elles ; }
 \livretVerse#8 { En vain sur ce bord fortuné, }
 \livretVerse#8 { A chaque instant il en nait d’autres, }
-\livretVerse#13 { Il est moins orné par leurs attraits que par les votres. }
+\livretVerse#9 { Il est moins orné par leurs attraits }
+\livretVerse#4 { Que par les votres. }
 \livretDesc\line { On danse. }
-\livretPers\line { Air italien }
-\livretVerse#4 { Fra le pupille }
-\livretVerse#4 { Di vaghe belle }
-\livretVerse#7 { Va volando il dio d’amor. }
-\livretVerse#5 { Il coro seno }
-\livretVerse#5 { E il suo trono, }
-\livretVerse#7 { Ma non puo regnar nel cuor. }
+\livretPers [FATIME]
+\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
+\livretVerse#8 { Arrête-toy, suspens le cours }
+\livretVerse#6 { De ta flâme volage. }
+\livretVerse#12 { Jamais si belles fleurs sous ce naissant ombrage, }
+\livretVerse#10 { N’ont merité de fixer tes amours. }
+\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
+\livretVerse#8 { Arrête-toy, suspens le cours }
+\livretVerse#6 { De ta flâme volage. }
+\livretDesc\line { On danse. }
 \livretPers FATIME
 \livretVerse#8 { Triomphez agreables Fleurs, }
 \livretVerse#12 { Répandez vos parfums, ranimez vos couleurs. }
@@ -1131,16 +1135,6 @@
 \livretVerse#4 { La Beauté même. }
 \livretPers CHŒUR
 \livretVerse#8 { Triomphez, &c. }
-\livretDesc\line { On danse. }
-\livretPers [FATIME]
-\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
-\livretVerse#8 { Arrête-toy, suspens le cours }
-\livretVerse#6 { De ta flâme volage. }
-\livretVerse#12 { Jamais si belles fleurs sous ce naissant ombrage, }
-\livretVerse#10 { N’ont merité de fixer tes amours. }
-\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
-\livretVerse#8 { Arrête-toy, suspens le cours }
-\livretVerse#6 { De ta flâme volage. }
 \livretDesc\column {
   \wordwrap-center { BALLET DES FLEURS }
   \justify {

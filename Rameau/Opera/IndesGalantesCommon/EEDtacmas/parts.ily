@@ -1,2 +1,2 @@
-\piecePartSpecs #`((voix)
-                   (basse #:score "score-basse"))
+\piecePartSpecs #`((basse #:score-template "score-basse-voix")
+                   (silence #:score "score-silence"))

@@ -249,15 +249,19 @@
 %# Disparoit bientot avec elles ;
 %# En vain sur ce bord fortuné,
 %# A chaque instant il en nait d'autres,
-%# Il est moins orné par leurs attraits que par les votres.
+%# Il est moins orné par leurs attraits
+%# Que par les votres.
 \livretDesc\line { On danse. }
-\livretPers\line { Air italien }
-%# Fra le pupille
-%# Di vaghe belle
-%# Va volando il dio d'amor.
-%# Il coro seno
-%# E il suo trono,
-%# Ma non puo regnar nel cuor.
+\livretPers [FATIME]
+%# Papillon inconstant, vole dans ce Boccage,
+%# Arrête-toy, suspens le cours
+%# De ta flâme volage.
+%# Jamais si belles fleurs sous ce naissant ombrage,
+%# N'ont merité de fixer tes amours.
+%# Papillon inconstant, vole dans ce Boccage,
+%# Arrête-toy, suspens le cours
+%# De ta flâme volage.
+\livretDesc\line { On danse. }
 \livretPers FATIME
 %# Tri=omphez agre=ables Fleurs,
 %# Répandez vos parfums, ranimez vos couleurs.
@@ -277,16 +281,6 @@
 %# La Beauté même.
 \livretPers CHŒUR
 %#8 Triomphez, &c.
-\livretDesc\line { On danse. }
-\livretPers [FATIME]
-%# Papillon inconstant, vole dans ce Boccage,
-%# Arrête-toy, suspens le cours
-%# De ta flâme volage.
-%# Jamais si belles fleurs sous ce naissant ombrage,
-%# N'ont merité de fixer tes amours.
-%# Papillon inconstant, vole dans ce Boccage,
-%# Arrête-toy, suspens le cours
-%# De ta flâme volage.
 \livretDesc\column {
   \wordwrap-center { BALLET DES FLEURS }
   \justify {

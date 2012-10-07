@@ -1,3 +1,16 @@
 \keys si \minor
-\digitTime\time 3/4 \midiTempo #120 \partial 2
-s2 s2.*3 s4 \bar ":|" s2 s2.*13 s4 \bar "|."
+\tempo "Air"
+\digitTime\time 3/4 \midiTempo #120 \partial 4.
+s4. s2.*3 s4.
+\origVersion\bar "|:|" \modVersion\bar ":|"
+s4.
+\origVersion {
+  s2.*5
+  <>^\markup\musicglyph #"scripts.segno"
+  s2.*4 \alternatives {
+    s2 \once\override TextScript #'extra-offset = #'(0 . -4)
+    <>^\markup\musicglyph #"scripts.segno" s4
+  } s2.
+}
+\modVersion s2.*14
+\bar "|."
