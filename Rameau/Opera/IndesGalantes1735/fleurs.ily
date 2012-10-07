@@ -102,7 +102,7 @@
 %{ n°13 %}
 % 351-352
 \pieceTocTitle "Premier air pour les Persans"
-\includeScore "EECair"
+\includeScore "EECairOrig"
 
 %{ n°14 %}
 % 352, 354, 355, 358
