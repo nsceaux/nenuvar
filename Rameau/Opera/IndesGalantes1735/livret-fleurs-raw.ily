@@ -252,7 +252,7 @@
 %# Il est moins orné par leurs attraits
 %# Que par les votres.
 \livretDesc\line { On danse. }
-\livretPers [FATIME]
+\livretPers FATIME
 %# Papillon inconstant, vole dans ce Boccage,
 %# Arrête-toy, suspens le cours
 %# De ta flâme volage.
