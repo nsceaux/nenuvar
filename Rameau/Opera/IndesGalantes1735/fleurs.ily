@@ -110,8 +110,8 @@
 \includeScore "EEJair"
 
 %{ n°15 %}
-% 359, 343, 344
-\pieceTocTitle "Deuxième air"
+% 359(/342), 343, 344
+\pieceTocTitle "Deuxième air pour les Persans"
 \includeScore "EEEair"
 
 %{ n°16 %}
