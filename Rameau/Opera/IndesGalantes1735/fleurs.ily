@@ -123,16 +123,16 @@
 %{ n°17 %}
 % 348-349
 \pieceTocTitle "Rondeau pour les fleurs"
-\includeScore "EEHrondeau"
+\includeScore "EEIrondeau"
 
 %{ n°18 %}
 % 349
 \pieceTocTitle "Rondeau"
-\includeScore "EEIrondeau"
+\includeScore "EEHrondeau"
 
 %{ n°19 %}
 % 350 ou 361
-\pieceTocTitle "Gavotte"
+\pieceTocTitle "Gavotte en rondeau"
 \includeScore "EEKgavotte"
 
 %% Orage
