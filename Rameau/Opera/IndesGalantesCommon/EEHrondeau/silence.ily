@@ -1,1 +1,1 @@
-r8\noBreak R4.*15\noBreak r4\noBreak r8\noBreak R4.*12
+r8 R4.*15 r4 r8 R4.*13
