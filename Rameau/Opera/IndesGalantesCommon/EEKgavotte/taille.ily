@@ -7,8 +7,8 @@
   fad fad'4 mi' |
   re' re' dod' mi' |
   la si dod'2 |
-  si4. re'8 dod'4 fad |
-  fad2\fermata
+  si4.( re'8) dod'4 fad |
+  fad2
 }
 
 \keepWithTag #'() \rondeau
@@ -16,5 +16,6 @@
 r2 | R1*7 | r2
 %\keepWithTag #'() \rondeau
 %% 2ere reprise
-r2 | R1*7 | fad'8 mi' re' dod'
+r2 | R1*7 | \origVersion <>^"Taille" fad'8 mi' re' dod'
+\origVersion\custosNote si4
 %\keepWithTag #'() \rondeau |
