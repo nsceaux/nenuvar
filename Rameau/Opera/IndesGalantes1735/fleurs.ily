@@ -116,8 +116,8 @@
 
 %{ n°16 %}
 % 344-347
-\pieceToc \markup { Fatime, chœur :
-  \italic { Triomphez, agréables fleurs ! } }
+\pieceToc \markup { Zaïre, chœur :
+  \italic { Triomphez, agreables Fleurs ! } }
 \includeScore "EEGfatimeChoeur"
 
 %{ n°17 %}

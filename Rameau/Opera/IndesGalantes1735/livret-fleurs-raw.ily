@@ -262,19 +262,19 @@
 %# Arrête-toy, suspens le cours
 %# De ta flâme volage.
 \livretDesc\line { On danse. }
-\livretPers FATIME
+\livretPers ZAÏRE
 %# Tri=omphez agre=ables Fleurs,
 %# Répandez vos parfums, ranimez vos couleurs.
 \livretPers CHŒUR
 %#8 Triomphez, &c.
-\livretPers FATIME
+\livretPers ZAÏRE
 %# C'est parmi vous qu'Amour cache sous la verdure
 %# Ses feux les plus ardents, ses plus aimables traits :
 %# Le Printemps vous doit ses atraits,
 %# Vous parez la Saison qui pare la Nature.
 \livretPers CHŒUR
 %#8 Triomphez, &c.
-\livretPers FATIME
+\livretPers ZAÏRE
 %# Vous tenez le rang suprême
 %# Sur les bords de nos Ruisseaux ;
 %# Et vous embellissez dans les jours les plus beaux,

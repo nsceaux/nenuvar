@@ -1106,7 +1106,7 @@
 \livretVerse#9 { Il est moins orné par leurs attraits }
 \livretVerse#4 { Que par les votres. }
 \livretDesc\line { On danse. }
-\livretPers [FATIME]
+\livretPers FATIME
 \livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
 \livretVerse#8 { Arrête-toy, suspens le cours }
 \livretVerse#6 { De ta flâme volage. }
@@ -1116,19 +1116,19 @@
 \livretVerse#8 { Arrête-toy, suspens le cours }
 \livretVerse#6 { De ta flâme volage. }
 \livretDesc\line { On danse. }
-\livretPers FATIME
+\livretPers ZAÏRE
 \livretVerse#8 { Triomphez agreables Fleurs, }
 \livretVerse#12 { Répandez vos parfums, ranimez vos couleurs. }
 \livretPers CHŒUR
 \livretVerse#8 { Triomphez, &c. }
-\livretPers FATIME
+\livretPers ZAÏRE
 \livretVerse#12 { C’est parmi vous qu’Amour cache sous la verdure }
 \livretVerse#12 { Ses feux les plus ardents, ses plus aimables traits : }
 \livretVerse#8 { Le Printemps vous doit ses atraits, }
 \livretVerse#12 { Vous parez la Saison qui pare la Nature. }
 \livretPers CHŒUR
 \livretVerse#8 { Triomphez, &c. }
-\livretPers FATIME
+\livretPers ZAÏRE
 \livretVerse#7 { Vous tenez le rang suprême }
 \livretVerse#7 { Sur les bords de nos Ruisseaux ; }
 \livretVerse#12 { Et vous embellissez dans les jours les plus beaux, }

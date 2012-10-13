@@ -1,7 +1,7 @@
 \clef "vtaille" R2.*25 |
 r4 
 \setMusic #'choeur {
-  r2 |
+  r4 r |
   r4 la dod' |
   re'2 re'8 re' |
   la4( si) la |
@@ -10,18 +10,28 @@ r4
   sol2 si8 mi' |
   mi'2 mi'8 fad' |
   dod'2.\trill |
-  r2 dod'8 mi' |
+  r4 r dod'8 mi' |
   la4 la re' |
   re'2 mi'8 mi' |
   mi'2 la8 la |
+  \vA { la2. | R2.*3 }
 }
+%% chœur
 \keepWithTag #'() \choeur
-  la2. |
-R2.*15 |
-r4
-\keepWithTag #'() \choeur
-la2 r4 |
-R2.*9 |
-r4
-\keepWithTag #'() \choeur
-la2. |
+\vA R2. \vB la2. |
+%% couplet
+R2.*15 | r4
+%% chœur
+\origVersion { r4 r4 | s2 }
+\modVersion {
+  \keepWithTag #'() \choeur
+  \vA { r4 r } \vB la2
+}
+%% couplet
+r4 | R2.*9 | r4
+%% chœur
+\origVersion { r4 r4 | s2 }
+\modVersion {
+  \keepWithTag #'() \choeur
+  \vA R2. \vB la2. |
+}
