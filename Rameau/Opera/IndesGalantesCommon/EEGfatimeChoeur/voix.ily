@@ -17,7 +17,7 @@ R2.*3 r4
 %% chœur
 r4 r \vA R2.*17 \vB R2.*13 |
 %% couplet
-<>^\markup{\vA\character Zaïre \vB\character Fatime }
+<>^\markup{\vA\character [Zaïre] \vB\character Fatime }
 fad''2 mi''8 re'' |
 dod''4. re''8 dod''4 |
 si'\trill si'8 lad' si' dod'' |
@@ -43,7 +43,7 @@ la'4
 }
 \modVersion { r4 r \vA R2.*16 \vB R2.*12 | r4 r }
 %% couplet
-<>^\markup{\vA\character Zaïre \vB\character Fatime }
+<>^\markup{\vA\character [Zaïre] \vB\character Fatime }
 fad'8 sold' |
 la'4. sold'8 la' si' |
 dod''4 \appoggiatura si'8 la'8 r dod''8 re'' |

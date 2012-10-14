@@ -21,6 +21,7 @@
         \global \includeNotes "voix-basse"
       >> \keepWithTag #'vchoeur \includeLyrics "paroles"
       \new Staff \with { \haraKiri } \withLyrics <<
+        <>^\markup\character "[Zaïre]"
         \global \includeNotes "voix"
       >> \keepWithTag #'solo \includeLyrics "paroles"
       \new Staff \with { \haraKiri } <<

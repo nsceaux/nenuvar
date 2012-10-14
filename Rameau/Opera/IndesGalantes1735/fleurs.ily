@@ -2,7 +2,7 @@
 %%% Quatrième Entrée
 %%%
 %{ n°1 %}\newBookPart #'()
-\entree "Quatrième Entrée" "Les Fleurs"
+\entree "Troisième Entrée" "Les Fleurs"
 \sceneDescription \markup \left-align \center-column {
   \line \larger { Fête Aquatique }
   \wordwrap-center {
@@ -17,31 +17,31 @@
 \pieceTocTitle "Ritournelle"
 \includeScore "EAAritournelle"
 
-%{ n°2 %}
+%{ n°2 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Ali, Tacmas :
   \italic { Mon abord paroit l’interdire } }
 \includeScore "EABaliTacmas"
 
-%{ n°3 %}
+%{ n°3 %}\newBookPart #'(full-rehearsal)
 \scene "Scene II" "Scene 2 : Tacmas, Zaïre"
 \sceneDescription\markup\center-column {
   \line\smallCaps { Tacmas, Zaïre }
 }
 \pieceToc\markup\wordwrap { Tacmas :
-  \italic { Elle paroit livrée a quelqu'inquietude } }
+  \italic { Elle paroit livrée a quelqu’inquietude } }
 \includeScore "EBAtacmas"
 
 %{ n°4 %}
 \pieceToc\markup\wordwrap { Zaïre :
-  \italic { Amour, quand du destin j'éprouve la rigueur } }
+  \italic { Amour, quand du destin j’éprouve la rigueur } }
 \includeScore "EBBzaire"
 
-%{ n°5 %}
+%{ n°5 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Zaïre, Tacmas :
   \italic { Quoy ! Zaïre ose aimer } }
 \includeScore "EBCzaireTacmas"
 
-%{ n°6 %}
+%{ n°6 %}\newBookPart #'(full-rehearsal)
 \scene "Scene III" "Scene 3 : Tacmas, Fatime"
 \sceneDescription\markup\center-column {
   \line\smallCaps { Tacmas, Fatime }
@@ -88,7 +88,7 @@
 \pieceTocTitle "Marche"
 \includeScore "EEAmarche"
 
-%{ n°11 %}
+%{ n°11 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Chœur :
   \italic { Dans le sein de Thetis précipitez vos feux } }
 \includeScore "EEBchoeur"
@@ -99,24 +99,24 @@
   \italic { L’eclat des roses les plus belles } }
 \includeScore "EEDtacmas"
 
-%{ n°13 %}
+%{ n°13 %}\newBookPart #'(full-rehearsal)
 % 351-352
 \pieceTocTitle "Premier air pour les Persans"
 \includeScore "EECairOrig"
 
-%{ n°14 %}
+%{ n°14 %}\newBookPart #'(full-rehearsal)
 % 352, 354, 355, 358
-\pieceToc \markup { Fatime : \italic { Papillon inconstant } }
+\pieceToc\markup\wordwrap { Fatime : \italic { Papillon inconstant } }
 \includeScore "EEJair"
 
-%{ n°15 %}
+%{ n°15 %}\newBookPart #'(full-rehearsal)
 % 359(/342), 343, 344
 \pieceTocTitle "Deuxième air pour les Persans"
 \includeScore "EEEair"
 
 %{ n°16 %}
 % 344-347
-\pieceToc \markup { Zaïre, chœur :
+\pieceToc\markup\wordwrap { Zaïre, chœur :
   \italic { Triomphez, agreables Fleurs ! } }
 \includeScore "EEGfatimeChoeur"
 
@@ -124,7 +124,7 @@
 \sceneDescription\markup\override #'(line-width . 120) \center-column {
   \line { BALLET DES FLEURS }
   \fontsize #-1 \justify {
-    Ce Ballet represente pittoresquement le sort des Fleurs dans un Jardin.
+    [Ce Ballet represente pittoresquement le sort des Fleurs dans un Jardin.
     On les a personifiées ainsi que Borée & Zéphire, pour donner de l’ame
     à cette Peinture galante, executée par d’aimables Esclaves de l’un &
     de l’autre sexe. D’abords les Dleurs choisies qui peuvent briller
@@ -136,7 +136,7 @@
     de la Rose, peignent sa douceur & ses craintes ; Zéphire arrive avec sa
     clarté renaissante ; il ranime & releve les Fleurs abatues par la
     tempête, & termine leur Triomphe & le sien par les hommages que sa
-    tendresse rend à la Rose.
+    tendresse rend à la Rose.]
   }
 }
 % 348-349
@@ -148,7 +148,7 @@
 \pieceTocTitle "Rondeau"
 \includeScore "EEHrondeau"
 
-%{ n°19 %}
+%{ n°19 %}\newBookPart #'(full-rehearsal)
 % 350 ou 361
 \pieceTocTitle "Gavotte en rondeau"
 \includeScore "EEKgavotte"
@@ -170,7 +170,7 @@
 \pieceTocTitle "Deuxième air"
 \includeScore "EEMzephireDeux"
 
-%{ n°23 %}
+%{ n°23 %}\newBookPart #'(full-rehearsal)
 % 369-372
 \pieceTocTitle "Air pour les Fleurs"
 \includeScore "EENfleurs"
@@ -179,4 +179,4 @@
 % 372
 \pieceTocTitle "Gavotte"
 \includeScore "EEOgavotte"
-\actEnd "FIN DE LA TROISIEME ENTRÉE"
+\actEnd "FIN"

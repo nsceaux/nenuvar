@@ -853,7 +853,7 @@
 \livretFinAct\line { FIN DE LA DEUXIÈME ENTRÉE }
 \sep
 \livretAct\center-column {
-  \line { QUATRIEME ENTRÉE }
+  \line { TROISIEME ENTRÉE }
   \line { LES FLEURS }
   \line\smaller { FESTE ASIATIQUE }
 }
@@ -988,7 +988,7 @@
 \livretVerse#6 { Demeurez, étrangere ! }
 \livretVerse#8 { Votre secours m’est nécessaire ; }
 \livretVerse#12 { A mes ardens desirs sera-t’il refusé ? }
-\livretPers\line { TACMAS \smaller { a part }
+\livretPers\line { TACMAS \smaller { a part } }
 \livretVerse#12 { Suspendons un instant ma trop juste vengeance, }
 \livretVerse#8 { Et pour fixer leur chatiment, }
 \livretVerse#12 { Sachons jusqu’où leurs cœurs étoient d’intelligence. }
@@ -1076,7 +1076,8 @@
 \livretVerse#8 { Tendre amour, que pour nous ta chaine }
 \livretVerse#4 { Dure à jamais ! }
 \livretDidasP\line { On entend le Prélude de la Fête. }
-\livret TACMAS
+\livretRef #'EDDtacmas
+\livretPers TACMAS
 \livretVerse#12 { On vient, voyez les jeux augmentez leurs attraits. }
 
 \livretScene\line { SCENE V }
@@ -1093,11 +1094,13 @@
     Fleurs differentes.
   }
 }
+\livretRef #'EEBchoeur
 \livretPers CHŒUR
 \livretVerse#12 { Dans le sein de Thetis précipitez vos feux, }
 \livretVerse#12 { Fuyez, Astre du jour, laissez regner les ombres ; }
 \livretVerse#8 { Nuit, étendez vos voiles sombres ; }
 \livretVerse#12 { Vos tranquiles moments favorisent les Jeux. }
+\livretRef #'EEDtacmas
 \livretPers\line { TACMAS, \smaller { à \smallCaps FATIME. } }
 \livretVerse#8 { L’eclat des roses les plus belles }
 \livretVerse#8 { Disparoit bientot avec elles ; }
@@ -1105,7 +1108,9 @@
 \livretVerse#8 { A chaque instant il en nait d’autres, }
 \livretVerse#9 { Il est moins orné par leurs attraits }
 \livretVerse#4 { Que par les votres. }
-\livretDesc\line { On danse. }
+\livretRef #'EECairOrig
+\livretDescPage\line { On danse. }
+\livretRef #'EEJair
 \livretPers FATIME
 \livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
 \livretVerse#8 { Arrête-toy, suspens le cours }
@@ -1115,7 +1120,9 @@
 \livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
 \livretVerse#8 { Arrête-toy, suspens le cours }
 \livretVerse#6 { De ta flâme volage. }
+\livretRef #'EEEair
 \livretDesc\line { On danse. }
+\livretRef #'EEGfatimeChoeur
 \livretPers ZAÏRE
 \livretVerse#8 { Triomphez agreables Fleurs, }
 \livretVerse#12 { Répandez vos parfums, ranimez vos couleurs. }

@@ -1,5 +1,5 @@
 \livretAct\center-column {
-  \line { QUATRIEME ENTRÉE }
+  \line { TROISIEME ENTRÉE }
   \line { LES FLEURS }
   \line\smaller { FESTE ASIATIQUE }
 }
@@ -134,7 +134,7 @@
 %# Demeurez, étrangere !
 %# Votre secours m'est nécessaire ;
 %# A mes ardens desirs sera-t'il refusé ?
-\livretPers\line { TACMAS \smaller { a part }
+\livretPers\line { TACMAS \smaller { a part } }
 %# Suspendons un instant ma trop juste vengeance,
 %# Et pour fixer leur chatiment,
 %# Sachons jusqu'où leurs cœurs étoient d'intelligence.
@@ -222,7 +222,8 @@
 %# Tendre amour, que pour nous ta chaine
 %# Dure à jamais !
 \livretDidasP\line { On entend le Prélude de la Fête. }
-\livret TACMAS
+\livretRef #'EDDtacmas
+\livretPers TACMAS
 %# On vient, voy=ez les jeux augmentez leurs attraits.
 
 \livretScene\line { SCENE V }
@@ -239,11 +240,13 @@
     Fleurs differentes.
   }
 }
+\livretRef #'EEBchoeur
 \livretPers CHŒUR
 %# Dans le sein de Thetis précipitez vos feux,
 %# Fuy=ez, Astre du jour, laissez regner les ombres ;
 %# Nuit, étendez vos voiles sombres ;
 %# Vos tranquiles moments favorisent les Jeux.
+\livretRef #'EEDtacmas
 \livretPers\line { TACMAS, \smaller { à \smallCaps FATIME. } }
 %# L'eclat des roses les plus belles
 %# Disparoit bientot avec elles ;
@@ -251,7 +254,9 @@
 %# A chaque instant il en nait d'autres,
 %# Il est moins orné par leurs attraits
 %# Que par les votres.
-\livretDesc\line { On danse. }
+\livretRef #'EECairOrig
+\livretDescPage\line { On danse. }
+\livretRef #'EEJair
 \livretPers FATIME
 %# Papillon inconstant, vole dans ce Boccage,
 %# Arrête-toy, suspens le cours
@@ -261,7 +266,9 @@
 %# Papillon inconstant, vole dans ce Boccage,
 %# Arrête-toy, suspens le cours
 %# De ta flâme volage.
+\livretRef #'EEEair
 \livretDesc\line { On danse. }
+\livretRef #'EEGfatimeChoeur
 \livretPers ZAÏRE
 %# Tri=omphez agre=ables Fleurs,
 %# Répandez vos parfums, ranimez vos couleurs.
