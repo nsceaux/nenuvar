@@ -121,6 +121,24 @@
 \includeScore "EEGfatimeChoeur"
 
 %{ n°17 %}
+\sceneDescription\markup\override #'(line-width . 120) \center-column {
+  \line { BALLET DES FLEURS }
+  \fontsize #-1 \justify {
+    Ce Ballet represente pittoresquement le sort des Fleurs dans un Jardin.
+    On les a personifiées ainsi que Borée & Zéphire, pour donner de l’ame
+    à cette Peinture galante, executée par d’aimables Esclaves de l’un &
+    de l’autre sexe. D’abords les Dleurs choisies qui peuvent briller
+    davantage au Théatre, dansent ensemble, & forment un Parterre qui varie
+    à chaque instant.  La Rose leur Reine, danse seule.  La Feste est
+    interrompuë par un orage qu’amene Borée ; les Fleurs en éprouvent la
+    colere, La Rose résiste plus long-temps à l’ennemy qui la persecure ;
+    les Pas de Borée expriment son impetuosité & sa fureur ; les attitudes
+    de la Rose, peignent sa douceur & ses craintes ; Zéphire arrive avec sa
+    clarté renaissante ; il ranime & releve les Fleurs abatues par la
+    tempête, & termine leur Triomphe & le sien par les hommages que sa
+    tendresse rend à la Rose.
+  }
+}
 % 348-349
 \pieceTocTitle "Rondeau pour les fleurs"
 \includeScore "EEIrondeau"
@@ -161,4 +179,4 @@
 % 372
 \pieceTocTitle "Gavotte"
 \includeScore "EEOgavotte"
-\actEnd "FIN DE LA TROISIÈME ENTRÉE"
+\actEnd "FIN DE LA TROISIEME ENTRÉE"
