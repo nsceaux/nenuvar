@@ -144,13 +144,13 @@
 
 %{ n°21 %}
 % 367
-\pieceTocTitle "Premier air pour Zéphire"
+\pieceTocTitle "Premier air pour Zephire"
 \includeScore "EEMzephir"
 
 %{ n°22 %}
 % 368-369
-\pieceTocTitle "Deuxième air pour Zéphire"
-\includeScore "EEMzephir"
+\pieceTocTitle "Deuxième air"
+\includeScore "EEMzephireDeux"
 
 %{ n°23 %}
 % 369-372
