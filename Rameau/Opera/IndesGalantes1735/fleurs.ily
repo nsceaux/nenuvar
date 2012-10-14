@@ -138,9 +138,9 @@
 %% Orage
 
 %{ n°20 %}
-% 360
-\pieceTocTitle "Air de Borée"
-\includeScore "EELorage"
+% 360 !! il manque des pages
+%\pieceTocTitle "Air de Borée"
+%\includeScore "EELboree"
 
 %{ n°21 %}
 % 367
