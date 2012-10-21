@@ -1,13 +1,6 @@
-\piecePartSpecs #`((violon1 #:notes "violon")
-                   (violon2 #:notes "violon")
-                   (hautbois1 #:notes "trompette-hautbois")
-                   (hautbois2 #:notes "trompette-hautbois")
+\piecePartSpecs #`((dessus #:score "score-dessus")
                    (trompette #:notes "trompette-hautbois")
-                   (flute1 #:notes "trompette-hautbois"
-                           #:instrument ,(markup #:center-column ("Trompettes" "Hautbois")))
-                   (flute2 #:notes "trompette-hautbois"
-                           #:instrument ,(markup #:center-column ("Trompettes" "Hautbois")))
-                   (haute-contre #:notes "haute-contre-taille")
-                   (taille #:notes "haute-contre-taille")
+                   (haute-contre #:notes "parties" #:tag-notes haute-contre)
+                   (taille #:notes "parties" #:tag-notes taille)
                    (timbales)
                    (basse))
