@@ -1162,12 +1162,12 @@
 }
 \livretFinAct FIN
 \livretAct\center-column {
-  \line\smaller { TROISIEME ENTRÉE }
+  \line\smaller { ANNEXE : NOUVELLE ENTRÉE }
   \line { LES SAUVAGES }
 }
 \livretDescAtt\justify {
   Le Théatre représente un Bosquet d'une Forêt de l'Amerique,
-  voisine des Colonies Fraçoises & Espagnoles, où dont se
+  voisine des Colonies Françoises & Espagnoles, où dont se
   célébrer la Ceremonie du grand Calumet de Paix.
 }
 \livretScene\line { SCENE PREMIERE }

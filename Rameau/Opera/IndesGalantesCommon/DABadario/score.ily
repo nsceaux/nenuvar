@@ -1,29 +1,50 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB <<
-        { s1 s2. s1*3 s1^"Trompette" }
-        \global \keepWithTag #'trompette \includeNotes "dessus"
+    \origVersion <<
+      \new Staff \with { \haraKiriFirst } <<
+        \global \includeNotes "dessus"
       >>
-      \newHaraKiriStaffB <<
-        { s1 s2. s1*3 s1^"Violons" }
-        \global \keepWithTag #'violons \includeNotes "dessus"
+      \new Staff \with { \haraKiriFirst } <<
+        \global \keepWithTag #'parties \includeNotes "parties"
       >>
-      \newHaraKiriStaffB <<
-        { s1 s2. s1*3 s1_"Timbales" }
-        \global \includeNotes "timbales"
+      \new Staff \withLyrics <<
+        <>^\markup\character Adario
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff <<
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+        \origLayout {
+          s1 s2.\break s1*3\break s1*4\break
+          s1*5 s2.\break s2. s1*3\pageBreak
+          s1*3 s4\bar "" \break s2 s1*3\break
+          
+        }
       >>
     >>
-    \new Staff \withLyrics <<
-      \characterName "Adario"
-      \global \includeNotes "adario"
-    >> \includeLyrics "paroles"
-    \new Staff <<
-      \instrumentName \markup \center-column { Basse continue }
-      \global \keepWithTag #'conducteur \includeNotes "basse" \includeFigures "chiffres"
-      { s1 s2. s1*12 s2.*2 s1*6 s2. s1*2 s2 \break }
+    \modVersion <<
+      \new StaffGroupNoBracket <<
+        \new Staff \with { \haraKiriFirst } <<
+          \global \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \keepWithTag #'parties \includeNotes "parties"
+        >>
+        \new Staff \with { \haraKiriFirst } <<
+          \global \keepWithTag #'basse \includeNotes "basse"
+        >>
+      >>
+      \new Staff \withLyrics <<
+        \characterName "Adario"
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff <<
+        \instrumentName "[B.C.]"
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }
