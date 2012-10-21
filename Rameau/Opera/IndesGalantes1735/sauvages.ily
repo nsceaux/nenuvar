@@ -45,13 +45,14 @@
 \includeScore "DBAalvarDamon"
 \partNoPageTurn #'(basse)
 
-%{ n°4 %}
+%{ n°6 %}
 \scene "Scene III" "Scene 3 : Zima, Damon, Alvar"
-\sceneDescription \markup \wordwrap-center {
-  \smallCaps Zima, fille du chef de la nation sauvage, 
-  \smallCaps { Alvar, Damon, Adario } caché.
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps Zima, [fille du chef de la nation sauvage,]
+  \smallCaps { Alvar, Damon, [Adario } caché].
 }
-\pieceToc \markup { Zima, Damon, Alvar }
+\pieceToc\markup\wordwrap { Zima, Damon, Alvar :
+  \italic { Ne puis-je vous fléchir par ma perséverance ? } }
 \includeScore "DCAzad"
 
 %{ n°5 %}

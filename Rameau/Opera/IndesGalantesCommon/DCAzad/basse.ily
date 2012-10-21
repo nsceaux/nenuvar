@@ -18,7 +18,7 @@ r4 sib,8. do16 re8 re, |
 sol,8. fa16 mib4 re8 do16 fa |
 sib,2 sol, |
 do1 |
-fa,2 fad,4 |
+fa,2 fa,4 |
 sol, sib,4. sol,8 |
 la,4. fa,8 sib,8. sol,16 la,4 |
 re, re mib fa |

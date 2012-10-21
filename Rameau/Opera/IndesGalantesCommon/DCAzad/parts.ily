@@ -1,4 +1,3 @@
-\piecePartSpecs #`((violon1 #:notes "violon1")
-                   (violon2 #:notes "violon2")
-                   (voix)
-                   (basse #:score "score-basse"))
+\piecePartSpecs #`((dessus #:score "score-dessus")
+                   (basse #:score-template "score-basse-continue-voix")
+                   (silence #:score "score-silence"))
