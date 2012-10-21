@@ -1,7 +1,7 @@
 \clef "basse" r4 r8 fa'16 mi' re'8 do'16 sib la8 sib16 do' |
 fa8 fa r sib16 la sol8 fa16 mi mi8 fa16 sol |
 dod8 dod r re16 la, sib, re fa, sol, la,8 la, |
-re re, r2 |
+re re, r4 r |
 r4 r8 la re'8. re16 |
 sol2 r8 sol16 sib |
 dod2 re |
@@ -26,10 +26,10 @@ fa8 fa, sol, la, sol, fa, |
 sib, sib4 la8 la,4 |
 re8 do sib, do do,4 |
 fa,4 r8 mi16 fad sol4 |
-fa sol16 la sib8 sol8.(\trill fa32 sol) |
+fa sol16 la sib4 sol8.*1/3(\trill fa32 sol) |
 la4. sol8 la16 sib mi fa |
 dod2 re4. sol,8 la,2 |
-re4 r8 mi16 fad sol4 |
+re4 \origVersion { s2 } \modVersion { r8 mi16 fad sol4 } |
 re,1 |
 re |
 do4 sib, do re |

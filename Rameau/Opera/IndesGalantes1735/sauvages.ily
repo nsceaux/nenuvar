@@ -38,11 +38,12 @@
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Damon, officier français,
   \smallCaps { Don Alvar, } officier espagnol,
-  \smallCaps Adario caché.
+  \smallCaps [Adario caché].
 }
-\pieceToc \markup { Damon, Alvar }
+\pieceToc\markup\wordwrap { Damon, Alvar :
+  \italic { Damon, quelle vaine esperance } }
 \includeScore "DBAalvarDamon"
-\partNoPageTurn #'(basse basson)
+\partNoPageTurn #'(basse)
 
 %{ n°4 %}
 \scene "Scene III" "Scene 3 : Zima, Damon, Alvar"
