@@ -20,10 +20,20 @@
 
 %{ n°2 %}
 \pieceToc\markup\wordwrap { Adario :
-  \italic { Rivaux de mes Exploits, Rivaux de mes Amours } }
+  \italic { Nos Guerriers, par mon ordre unis à nos Vainqueurs } }
 \includeScore "DABadario"
 
 %{ n°3 %}
+\pieceToc\markup\wordwrap { Adario :
+  \italic { Rivaux de mes Exploits, Rivaux de mes Amours } }
+\includeScore "DACadario"
+
+%{ n°4 %}
+\pieceToc\markup\wordwrap { Adario :
+  \italic { Ciel ! ils cherchent Zima... pouroit-elle changer ? } }
+\includeScore "DADadario"
+
+%{ n°5 %}
 \scene "Scene II" "Scene 2 : Damon, Alvar"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Damon, officier français,
