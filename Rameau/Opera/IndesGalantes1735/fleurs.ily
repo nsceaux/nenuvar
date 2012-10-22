@@ -153,9 +153,10 @@
 \pieceTocTitle "Gavotte en rondeau"
 \includeScore "EEKgavotte"
 
-%% Orage
-
 %{ n°20 %}
+\pieceTocTitle "Orage"
+\includeScore "EELorageOrig"
+
 % 360 !! il manque des pages
 %\pieceTocTitle "Air de Borée"
 %\includeScore "EELboree"
