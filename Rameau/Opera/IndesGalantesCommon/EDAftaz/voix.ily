@@ -118,7 +118,7 @@
     si8. si16 mi'4 si8 dod'16 re' |
     dod'4 dod'8 r16 la la4 la8 la16 la |
     re'4 re'8 re' mi'4 fad'8 sol' |
-    fad'4 r8 re'8 la la16 si do'8 do'16 si |
+    fad'4\trill r8 re'8 la la16 si do'8 do'16 si |
     si8\trill si
     %{ fin collette %}
     re'16 re' mi' fad' sol'8. mi'16 |

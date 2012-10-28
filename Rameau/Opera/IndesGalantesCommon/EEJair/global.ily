@@ -1,6 +1,6 @@
 \keys si \minor
 \digitTime\time 3/4 \midiTempo #112
-\vB { \tempo "Prelude" s2.*9 }
+\tempo "Prelude" s2.*9
 s2.
 \origVersion <>^\markup\musicglyph #"scripts.segno"
 \modVersion { \segnoMark \bar "||" }

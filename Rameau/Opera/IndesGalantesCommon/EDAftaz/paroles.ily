@@ -58,8 +58,8 @@
 }
 \tag #'(tacmas basse) {
   Je n’ay pas at -- ten -- du, trop ai -- ma -- ble Prin -- ces -- se,
-  L’a -- veu de vo -- tre rang pour croi -- re ma ten -- dres -- se.
-  Je veux que tout i -- ci soit heu -- reux com -- me moi.
+  L’a -- veu de vô -- tre rang pour croi -- re ma ten -- dres -- se.
+  Je veux que tout i -- cy soit heu -- reux com -- me moy.
   A -- li, je t’ac -- cor -- de Fa -- ti -- me,
   Son dé -- gui -- se -- ment t’ex -- pri -- me
   L’ar -- deur qu’el -- le sent pour toy.

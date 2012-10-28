@@ -41,7 +41,7 @@
         s1 s2.*3\break s2.*5 s2 \bar "" \break
         s4 s2.*5\break s2. s1*2 s2.\break
         s1*3\break s1*3\pageBreak
-        s2.*2 s2\bar "" \break s2 s1*2 s4\bar "" \break
+        s2.*2 s2.\bar "" \break s4 s1*2 s4\bar "" \break
         s2 s1\break s1 s2.\break s1 s2.*2\pageBreak
       }
     >>

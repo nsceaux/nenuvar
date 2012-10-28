@@ -1,5 +1,5 @@
 \markup\tacet-lyrics\score {
-  { R1*69 }
+  { R1*78 }
   \layout { \quoteEmptyLayout }
 } {
   \column-break

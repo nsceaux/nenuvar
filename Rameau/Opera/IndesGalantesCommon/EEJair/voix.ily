@@ -1,5 +1,5 @@
 \clef "vdessus"
-\vB R2.*9
+R2.*9
 <<
   \tag #'voix {
     r4 r8*2/3 si' dod'' re'' dod'' si' |

@@ -1,23 +1,24 @@
 \clef "dessus" 
 %% prélude
-\vB {
+{
   <<
     \tag #'(violon1 violon2 violons dessus1) {
+      <>^"Violons"
       r4 r8*2/3 si' dod'' re'' dod'' si' |
       fad'4 r8*2/3 lad'\doux si' dod'' si' lad' |
       \appoggiatura lad'?8 si'4.*2/3 fad'8*2/3 re''\fort mi'' fad'' mi'' re'' |
       la'4 r8*2/3 dod''\doux re'' mi'' re'' dod'' |
       \appoggiatura dod''8 re''4.*2/3 la'8*2/3 fad'' sol'' la'' sol'' fad'' |
       <<
-        \tag #'(violon1 violons) \new Voice {
-          \tag #'violons \voiceOne
+        \tag #'(violon1 violons dessus1) \new Voice {
+          \tag #'(violons dessus1) \voiceOne
           si''4~ si''2~ |
-          si''4*2/3 la''8*2/3 sol''( la'') fad''( mi'') fad''( re'') |
+          si''4*2/3 la''8*2/3 sol''( la'') fad'' mi''( fad'') re'' |
           dod''4\trill
         }
-        \tag #'(violon2 violons) \new Voice {
-          \tag #'violons \voiceTwo
-          si''4 r8*2/3 red'' mi'' fad'' mi'' red'' |
+        \tag #'(violon2 violons dessus1) \new Voice {
+          \tag #'(violons dessus1) \voiceTwo
+          si''4 r8*2/3 red''\doux mi'' fad'' mi'' red'' |
           mi''4 si'2 |
           fad'4
         }
@@ -37,21 +38,26 @@
   <<
     \tag #'(violon1 violons hautbois1 hautbois dessus1 dessus2) \new Voice {
       \tag #'(violons hautbois dessus1 dessus2) \voiceOne
-      r8*2/3 fad'' sold'' lad'' si'' dod''' |
-      re''' dod''' si'' fad''4 lad'' |
-      si''2
+      r8*2/3 fad''\fort sold'' lad'' si'' dod''' |
+      re''' dod''' si'' fad''4 lad''\trill |
     }
     \tag #'(violon2 violons hautbois2 hautbois dessus1 dessus2) \new Voice {
       \tag #'(violons hautbois dessus1 dessus2) \voiceTwo
       r8*2/3 lad' si' dod'' re'' mi'' |
       fad'' mi'' re'' dod''4.\trill si'8 |
-      si'2
+    }
+  >>
+  \tag #'(dessus1 dessus2) <>^"Hautbois"
+  <<
+    \tag #'(violon1 violons hautbois1 hautbois dessus1) \new Voice {
+      \tag #'(violons hautbois) \voiceOne si''2
+    }
+    \tag #'(violon2 violons hautbois2 hautbois dessus2) \new Voice {
+      \tag #'(violons hautbois) \voiceTwo si'2
     }
   >> r4
 }
 %%
-\tag #'(dessus1 dessus2) <>^"Hautbois"
-\vA R2. |
 <<
   \tag #'(dessus1 dessus2) \new Voice {
     r4*2/3 r8*2/3 r s s s4 | s4
@@ -72,7 +78,7 @@
     s4 r4*2/3 r8*2/3 r4*2/3 r8*2/3 | R2. |
     r4*2/3 r8*2/3 r s s s4 | s r4*2/3 r8*2/3 r4*2/3 r8*2/3 |
     R2.*4 | s4 r r | s r r |
-    R2.*4 | r4*2/3 r8*2/3 r s s s4 | s r r |
+    R2.*4 | r4*2/3 r8*2/3 r s s s4 | s r r | \allowPageTurn
     R2.*6 | r4*2/3 r8*2/3
   }
   \tag #'(hautbois hautbois1 dessus1) \new Voice {

@@ -72,7 +72,7 @@
     re'4\trill re'16 r fa'8 fa'4 fa'8 fa'16 sol' |
     mi'4\trill mi'8 la' fad'4\trill fad'8 sol' |
     la'4 r8 re'16 re' re'8 re'16 fad |
-    sol4 sol8 sol do'4 la8 do' |
+    sol4 sol8 sol do'4 la8 la |
     fad4 fad8 r
   }
 >>

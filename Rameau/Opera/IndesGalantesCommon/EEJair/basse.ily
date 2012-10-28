@@ -1,17 +1,19 @@
 \clef "basse"
+%% prélude
+R2. |
+r4 fad^\doux fad, |
+si, r si^\fort |
+dod' la^\doux la, |
+re r re'^\fort |
+red' r si^\doux |
+\scaleDurations #'(2 . 3) {
+  mi4 fad8 sol4.~ sol4 mi8 |
+}
+fad4 r r8 mi^\fort |
+re4*2/3 mi8*2/3 fad4 fad, |
+si,2 r4 |
+%%
 \vB {
-  R2. |
-  r4 fad^\doux fad, |
-  si, r si^\fort |
-  dod' la^\doux la, |
-  re r re'^\fort |
-  red' r si^\doux |
-  \scaleDurations #'(2 . 3) {
-    mi4 fad8 sol4.~ sol4 mi8 |
-  }
-  fad4 r r8 mi^\fort |
-  re4*2/3 mi8*2/3 fad4 fad, |
-  si,2. |
   R2.*37 |
   r4 r si4 |
   mi4 r8*2/3 mi fad sol fad mi |
@@ -20,7 +22,7 @@
   si,2
 }
 \vA {
-  R2.*32 |
+  R2.*31 |
   \origVersion <>^\markup\column { "un coté en haut" "l’autre en bas" }
   \origVersion <>_"Basses"
   R2. |

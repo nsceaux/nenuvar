@@ -56,10 +56,10 @@ la,1 |\allowPageTurn
 r2 dod, |
 re,2 re4 |
 sol sold2 |
-la8. sol16 fad8. mi16 re4 sol |
+la8. sol16 fad8.\trill mi16 re4 sol |
 fad2 sol4 la |
 re2 r4 re |
-sol,4 sol8. fad16 mi4 |
+sol4~ sol8. fad16 mi4 |
 la sol4. fad16 re la8 la, |
 <>^"B.C." re2 dod |
 si, mi4 |
