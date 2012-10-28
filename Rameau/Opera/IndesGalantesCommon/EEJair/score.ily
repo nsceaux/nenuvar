@@ -31,7 +31,7 @@
     \modVersion <<
       \new StaffGroupNoBracket <<
         \new Staff <<
-          \footnoteHere #'(-3 . 0.1) \markup\wordwrap {
+          \footnoteHere #'(-5 . 1) \markup\wordwrap {
             Le prélude, ajouté sur une collette, est postérieur. L’air
             original commence sur \italic { Papillon inconstant } mesure 10.
           }

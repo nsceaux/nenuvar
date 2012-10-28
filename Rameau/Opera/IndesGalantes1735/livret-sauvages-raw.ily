@@ -266,4 +266,3 @@
   bruit des Trompettes, & au son des Musettes.
 }
 \livretFinAct\line { FIN }
-\sep

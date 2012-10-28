@@ -1160,7 +1160,8 @@
     tendresse rend à la Rose.
   }
 }
-\livretFinAct FIN
+\livretFinAct\line { FIN DE LA TROISIÈME ENTRÉE }
+\sep
 \livretAct\center-column {
   \line\smaller { ANNEXE : NOUVELLE ENTRÉE }
   \line { LES SAUVAGES }
@@ -1429,5 +1430,4 @@
   bruit des Trompettes, & au son des Musettes.
 }
 \livretFinAct\line { FIN }
-\sep
 }

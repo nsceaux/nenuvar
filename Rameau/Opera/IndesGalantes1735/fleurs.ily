@@ -180,4 +180,4 @@
 % 372
 \pieceTocTitle "Gavotte"
 \includeScore "EEOgavotte"
-\actEnd "FIN"
+\actEnd "[FIN DE LA TROISIÈME ENTRÉE]"
