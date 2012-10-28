@@ -28,7 +28,7 @@
 }
 \markup\null
 \scene "Scene VII" "Scene 7 : Phani, Huascar, Carlos"\markup\tacet-lyrics\score {
-  { R1*44 }
+  { R1*48 }
   \layout { \quoteEmptyLayout }
 } {
   \bold Huascar

@@ -5,7 +5,7 @@
 \digitTime \time 2/2 \midiTempo #160 s1*3
 \time 4/4 \midiTempo #80 s1
 \digitTime\time 3/4 s2.*2
-\digitTime\time 2/2 \midiTempo #160 s1
+\digitTime\time 2/2 \midiTempo #160 s1 \vA s1
 \digitTime\time 3/4 \midiTempo #80 s2.
 \time 4/4 s1
 \digitTime\time 2/2 \midiTempo #160
@@ -41,16 +41,17 @@
 \time 4/4 \grace s8 s1
 \digitTime\time 3/4 s2.*2
 \digitTime \time 2/2 \midiTempo #160 s1*2
-\digitTime\time 3/4 \midiTempo #80 s2.*6
+\digitTime\time 3/4 \midiTempo #80 s2.*6 \vA s2.*2
 \digitTime \time 2/2 \midiTempo #160 s1*2
 \digitTime\time 3/4 \midiTempo #80 s2.*2
-\time 4/4 s1
+\vB {\time 4/4 s1 }
 \digitTime \time 2/2 \midiTempo #160 s1
 \digitTime\time 3/4 \midiTempo #80 s2.
 \digitTime\time 2/2 \midiTempo #160 s1*2
 \time 4/4 \midiTempo #80 s1
-\digitTime\time 2/2 \midiTempo #160 s1*2
-\digitTime\time 3/4 \midiTempo #80 s2.*2
+\digitTime\time 2/2 \midiTempo #160 s1 \vB s1
+\vA \time 4/4 \midiTempo #80 s1*2
+\digitTime\time 3/4 \midiTempo #80 s2. \vB s2.
 \time 4/4 s1*2
 \digitTime \time 2/2 \midiTempo #160 s1 s2
 \bar ""

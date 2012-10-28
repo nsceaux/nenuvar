@@ -400,6 +400,10 @@ vA =
 #(define-music-function (parser location music) (ly:music?)
    (version-music-filter 'v1735 music))
 
+vAbis =
+#(define-music-function (parser location music) (ly:music?)
+   (make-music 'Music 'void #t))
+
 vB =
 #(define-music-function (parser location music) (ly:music?)
    (version-music-filter 'v175x music))

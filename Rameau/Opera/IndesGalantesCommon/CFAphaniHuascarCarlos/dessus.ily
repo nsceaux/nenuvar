@@ -11,24 +11,25 @@
   R2. |
   \origVersion<>^\markup\whiteout "Violons"
   <<
-    { r8 r16 s s8. r16 s4 s16 r s r |
-      s8 s4. << \origVersion { r4 r } \modVersion r2 >> | }
+    { r8 r16 s\doux s8. r16 s4 s16 r s r |
+      s8 r8 r4 << \origVersion { r4 r } \modVersion r2 >> | }
     \tag #'dessus1 {
-      s8. do'16\doux do'8 fa'16 s \ru#8 fa'32 fa'16 s fa' s | mi'8 s s2
+      s8. do'16 do'8 fa'16 s \ru#8 fa'32 fa'16 s fa' s | mi'8 s s2
     }
     \tag #'dessus2 {
       s8. la16 la8 la16 s \ru#8 re'32 re'16 s re' s | sol8 s s2
     }
   >>
   R1 |
-  r4 r16 do' do' do' \origVersion\tag #'dessus2 \hideNotes
+  r4 r16 do'\doux do' do' \origVersion\tag #'dessus2 \hideNotes
   do'8. do'32*2/3 sib la sib8 r |
   r4 r8 r16 sib sib8 r r4 |
   r4 sib'16 sol' do'' mi' \origVersion\tag #'dessus2 \unHideNotes
   fa'4 r |
-  R2. |
-  << \origVersion { r4 r r } \modVersion R2. >> |
-  R1 R2. R1 R1 |
+  << \origVersion { R2. r4 r r } \modVersion R2.*2 >> |
+  r8 r16 do'\fort do'4 r \ru#8 do'32 |
+  dod'4 r r2 |
+  R2. R1 R1 |
   <>^\markup\whiteout "Violons"
   <<
     { r4 r8 r16 s s8 r s r }
@@ -42,10 +43,11 @@
   >> r4 r2 |
   << \origVersion { r4 r r } \modVersion R2. >> |
   R1*3 |
-  r1 <>^\markup\whiteout "Violons" r4 r8 sib' |
+  r1 <>^\markup\whiteout "Violons" r4 r8 sib'\fort |
   sib'2. fa'4 sib' re'' |
   fa'' re'' sib' sol' mib' fa' |
-  sib4 r8 sib16 sib sib4 r2*3/2 |
+  sib4 r8 sib16 sib sib4
+  << \vA { r4 \ru#8 sib16 } \vB r2*3/2 >> |
   \ru#12 fa'8-. |
   \ru#4 fa'-. <<
     \tag #'dessus1 { fa'-. fa'-. fa'-. mib'-. \ru#4 mib'-. | re'4 }
@@ -55,12 +57,12 @@
   r2 r4 fa'\fort la' do'' |
   fa'' do'' la' fa'2 do'4 |
   la2 r r |
-  r4 fa' sib' re'' sib' sib |
+  r4 fa'\doux sib' re'' sib' sib |
   sib2 <<
     \tag #'dessus1 { r4 sib'2 la'4~ | la' sol'2 fa' mi'4 | fa'2. }
     \tag #'dessus2 { sol2 do' | re' mi'4 fa' sol sib | la2. }
-  >> fa'4 la' do'' |
-  fa'' do'' la' fa'2 mib'!4 |
+  >> fa'4\fort la' do'' |
+  fa'' do'' la' fa'2 mib'!4\doux |
   re'2. fa'4 sib <<
     \tag #'dessus1 { re'4 | mib' }
     \tag #'dessus2 { sib | sib }
@@ -79,7 +81,7 @@
       sol' fa'2. do'4 |
       re'
     }
-  >> re''4 fa'' sib'' fa'' re'' |
+  >> re''4\fort fa'' sib'' fa'' re'' |
   sib' r8 sib16\fort sib sib4 r r r8 sib16 sib |
   sib4 r r \ru#6 mib'8-. |
   mib'4 r re' r do'\trill r |
@@ -92,7 +94,7 @@
   r8 sol16 sol sol sol sol sol sol4 r4 |
   R2. |
   <<
-    { r8 s s4 s8 r s r |
+    { r8 s s4 s8 r s\doux r |
       s4 r r8 s |
       r8 s s2 r4 | }
     \tag #'dessus1 {
@@ -107,7 +109,18 @@
     }
   >>
   r16 re' re' re' do'4 r2 |
-  <<
+  \vA <<
+    { r8 <>\fort s4. s2 | s r | R1 }
+    \tag #'dessus1 {
+      s8 do'16 do' do' do' do' do' do'8 do'16 do' do' do' do' do' |
+      sib2 s | s1
+    }
+    \tag #'dessus2 {
+      s8 la16 la la la la la la8 la16 la la la la la |
+      sol2 s | s1
+    }
+  >>
+  \vAbis <<
     { r4 r8 s s4 r8 s | s2 r2 | R1 | }
     \tag #'dessus1 {
       <>^"Violons" s4. do'8\fort do'4 s8 do' | sib2 s | s1 |
@@ -124,15 +137,59 @@
     \tag #'dessus2 { fa'4 mib' mib' | sib2 }
   >> r2 |
 }
-<<
-  { << \origVersion { r4 r r } \modVersion R2. >> |
-    r8 s2 r8 r4 | r8 s8 s2. | s4 r r | r8 s8 s2 |
+%% rejointe |
+<< \origVersion { r4 r r } \modVersion R2. >>
+\vA {
+  <<
+    \tag #'dessus1 {
+      r16 \ru#14 do'32 re'8 r r4 |
+      r16 \ru#6 sib32 sib16 \ru#6 sib32 sib8 mib'~ mib' reb' |
+      do'4 r r |
+      r16 \ru#6 fa'32 sib'8 sol' fa' mib' |
+      fa'16 \ru#6 fa'32 fa'8 r r4 r8 sol' |
+      lab'8 fa' fa'4. mi'8 |
+      fa'4 r8 do'' fa'8. sib'16 |
+      sib'8 <>\fort \ru#14 fa'16 |
+      fa'4 r r2 |
+      r4 r re'\doux |
+      mib'4 r do' |
+      do'2~ do'8 si |
+      do'2 r8 sol' |
+      sol'2 fad'4\trill |
+      sol'4~ \times 2/3 { sol'8 sol''\fort re'' }
+    }
+    \tag #'dessus2 {
+      <>\doux r16 \ru#14 la32 sib8 r r4 |
+      r16 \ru#6 sol32 sol16 \ru#6 sol32 sol8 sib lab sol |
+      lab4 r r |
+      r16 \ru#6 sib32 sib4 sib8 la |
+      sib16 re'32 re' re' re' re' re' re'8 r r4 r8 do' |
+      fa'8 do' reb'4 do' |
+      do' r8 lab' lab' sol' |
+      re'8 re'16\fort re' re' re' re' re' do' do' do' do' do' do' do' do' |
+      si4 r4 r2 |
+      r4 r sol\doux do'4 r sol |
+      lab2 sol4 |
+      sol2 r8 mib' |
+      re'2.~ |
+      re'4~ \times 2/3 { re'8 sol''\fort re'' }
+    }
+  >>
+  \set tupletSpannerDuration = #(ly:make-moment 1 4)
+  \times 2/3 {
+    si'8 re'' si' |
+    sol' si' re'' sol'' re'' si' sol' re' si |
+    sol si re' sol' si' re'' sol'' sol' fa' |
+  }
+  mi'4
+}
+\vB<<
+  { r8 s2 r8 r4 | r8 s8 s2. | s4 r r | r8 s8 s2 |
     s4 r r r8 s | s2. |
     s4 r8 s s4 | s1 | s4 r r2 | r4 r s | s r s | s2. | s2 r8 s | s2.*2 |
     s4
   }
   \tag #'dessus1 {
-    s2. |
     s8 do'\doux do'8. do'16 re'8 s4. |
     s8 sib sib8. sib16 sib8 mib'~ mib' reb' |
     do'4 s s |
@@ -151,7 +208,6 @@
     do'4
   }
   \tag #'dessus2 {
-    s2. |
     s8 la8 la8. la16 sib8 s4. |
     s8 sol8 sol8. sol16 sol8 sib lab sol |
     lab4 s s |
@@ -171,31 +227,71 @@
   }
 >> r4 r r8 sol'\doux
 do'4 fa'4 sib r8 mib' |
-re'4\trill mib'2~ |
-mib'8 mib'16\doux fa' sol'8.( fa'16) fa'8 lab' |
-sol'4 <<
-  \tag #'dessus1 { mib'4\fort mib' re' | mib'2 }
-  \tag #'dessus2 { do'4 sib la  | sol2 }
->> r4 sol'\doux |
-fa' r fa' |
-mib'2 r8 mib'' mib'' re'' |
-sol'2 r |
-r4 sol'8\doux sol' sol'4. sol'16 fad' |
-fad'2 r |
-r r4 re' |
-re'2\doux r8 sol' |
-sol' fa'16 r r4 r8 fa' |
-fa'4 r8 <<
-  { s8 s2 | s r8 s4. | s2 }
-  \tag #'dessus1 {
-    sol'8 sol'4 r8 mi' |
-    re'4 sol' s8 re' mib' re' |
-    re'2
-  }
-  \tag #'dessus2 {
-    re'8 re'( do'16) r sib8.( la16) |
-    la4 sib s8 sib sib la |
-    si2
-  }
->> r2 |
-r
+\vA {
+  re'8.\trill\fort re'32 mib' mib'8 r r4 |
+  mib'8.\doux fa'16 sol'8. fa'16 fa'8. lab'16 |
+  sol'16 sib\fort sib sib sib sib sib sib sol8 r r sol'16 sol' |
+  fa'8\doux r r4 r8 fa'16 fa' |
+  mib'16 do''\fort sib' lab' sol' fa' mib' re' do'8 r r4 |
+  R1 |
+  r4 r8 <>\doux <<
+    \tag #'dessus1 { sol'16 sol' sol'4 }
+    \tag #'dessus2 { mib'16 mib' mi'4 }
+  >> r |
+  r8 <>\fort <<
+    \tag #'dessus1 { fad'16 fad' fad' fad' fad' fad' fad'8 }
+    \tag #'dessus2 { la16 la la la la la la8 }
+  >> r8 r4 |
+  R1 |
+  r16 <>\doux <<
+    \tag #'dessus1 { re'32 re' re'8 re' r8 r4 r8 sol'16 sol' | sol'8 fa'16 }
+    \tag #'dessus2 { sib32 sib sib8 sib r r4 r8 sib16 sib | sib8 la16 }
+  >> r16 r4 r8 <<
+    \tag #'dessus1 {
+      fa'16 fa' |
+      fa'4 r8 sol' sol'4 mi' |
+      re'8 re'16 re' sol'4 r8 re' mib' re' |
+      re'4 r8 re'16\fort re' re'8 r re' r |
+      r2 \ru#8 re'16 |
+      do'4 r
+    }
+    \tag #'dessus2 {
+      do'16 do' |
+      do'8 sib16 r r8 re' re' do'16 r sib4 |
+      la8 la16 la sib4 r8 sib sib la |
+      si4 r8 si16\fort si si8 r si r |
+      r2 \ru#8 si16 |
+      do'8 sol r4
+    }
+  >>
+}
+\vB {
+  re'4\trill mib'2~ |
+  mib'8 mib'16\doux fa' sol'8.( fa'16) fa'8 lab' |
+  sol'4 <<
+    \tag #'dessus1 { mib'4\fort mib' re' | mib'2 }
+    \tag #'dessus2 { do'4 sib la  | sol2 }
+  >> r4 sol'\doux |
+  fa' r fa' |
+  mib'2 r8 mib'' mib'' re'' |
+  sol'2 r |
+  r4 sol'8\doux sol' sol'4. sol'16 fad' |
+  fad'2 r |
+  r r4 re' |
+  re'2\doux r8 sol' |
+  sol' fa'16 r r4 r8 fa' |
+  fa'4 r8 <<
+    { s8 s2 | s r8 s4. | s2 }
+    \tag #'dessus1 {
+      sol'8 sol'4 r8 mi' |
+      re'4 sol' s8 re' mib' re' |
+      re'2
+    }
+    \tag #'dessus2 {
+      re'8 re'( do'16) r sib8.( la16) |
+      la4 sib s8 sib sib la |
+      si2
+    }
+  >> r2 |
+  r
+}

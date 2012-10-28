@@ -112,12 +112,12 @@
   \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
 \includeScore "CFAphaniHuascarCarlos"
 
-%{ n°20 %}
+%{ n°19 %}
 \pieceToc\markup\wordwrap { PHANI, CARLOS, HUASCAR :
   \italic { Pour jamais l’Amour nous engage } }
 \includeScore "CFBtrio"
 
-%{ n°21 %}
+%{ n°20 %}
 \sceneDescription\markup\left-align\center-column {
   \line { [Le Volcan se rallume, & le Tremblement de terre recommence.] }
 }
