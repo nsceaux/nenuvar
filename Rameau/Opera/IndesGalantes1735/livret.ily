@@ -1279,12 +1279,12 @@
 \livretVerse#8 { L’Habitant des bords de la Seine }
 \livretVerse#7 { N’est jamais moins arrêté }
 \livretVerse#7 { Que lorsque l’Hymen l’enchaîne ; }
-\livretVerse#12 { Il se fait un honneur de sa legereté. }
+\livretVerse#12 { Il se fait un plaisir de sa legereté. }
 \livretVerse#8 { Et pour l’Epouse la plus belle }
 \livretVerse#8 { Il rougiroit d’être fidelle. }
 \livretPers\line { DAMON, \smaller { montrant \smaller ALVAR. } }
 \livretVerse#8 { Les Epoux les plus soupçonneux, }
-\livretVerse#8 { Du Tage habitent les rives ; }
+\livretVerse#7 { Du Tage habitent les rives ; }
 \livretVerse#7 { Là mille Beautez plaintives }
 \livretVerse#12 { Reçoivent de l’hymen des fers & non des nœuds ; }
 \livretVerse#12 { Vous ne voyez jamais autour de ces Captives }

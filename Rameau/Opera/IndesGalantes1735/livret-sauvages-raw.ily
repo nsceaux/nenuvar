@@ -109,20 +109,20 @@
 %# Le cœur change à son gré dans cet heureux séjour ;
 %# Parmi nos amants c'est l'usage
 %# De ne pas contraindre l'Amour ;
-%# Mais dès que l'Hymen nous engage
+%# Mais dès que l'*Hymen nous engage
 %# Le cœur ne change plus dans cet heureux séjour.
 \livretPers\line { ALVAR, \smaller { montrant \smaller DAMON. } }
 %# L'*Habitant des bords de la Seine
 %# N'est jamais moins arrêté
-%# Que lorsque l'Hymen l'enchaîne ;
-%# Il se fait un honneur de sa legereté.
+%# Que lorsque l'*Hymen l'enchaîne ;
+%# Il se fait un plaisir de sa legereté.
 %# Et pour l'Epouse la plus belle
 %# Il rougiroit d'être fidelle.
 \livretPers\line { DAMON, \smaller { montrant \smaller ALVAR. } }
 %# Les Epoux les plus soupçonneux,
-%# Du Tage habitent les rives ;
+%# Du Tage *habitent les rives ;
 %# Là mille Beautez plaintives
-%# Reçoivent de l'hymen des fers & non des nœuds ;
+%# Reçoivent de l'*hymen des fers & non des nœuds ;
 %# Vous ne voy=ez jamais autour de ces Captives
 %# Voltiger les Ris & les Jeux.
 %# Belle Zima, craignez un si triste esclavage...
