@@ -2,13 +2,13 @@
 R1 |
 r2 re'4 la |
 fa'2 fa'8 mi' re' dod' |
-re'4 re'8 do' sib2 |
+re'4 re'8 do'! sib2 |
 la la, |
 la,1~ |
 la,4. sol,8 fa,2 |
 sol, la, |
 re, re |
-re1 |
+re1~ |
 re2 sol, |
 fa,4. sol,8 la,2 |
 re2 sol, |
@@ -27,4 +27,4 @@ fa, r4 fa |
 do2 re |
 mi do4 r |
 re r r mi |
-la,2
+la,2 \origVersion r2
