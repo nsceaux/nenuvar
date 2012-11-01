@@ -1354,7 +1354,7 @@
 \livretVerse#12 { De l’amour le plus tendre éprouvez la douceur, }
 \livretVerse#7 { Je vous dois la préference. }
 \livretVerse#12 { De vous à vos Rivaux je vois la difference. }
-\livretVerse#8 { L’un s’abandonne à la fureur, }
+\livretVerse#8 { L’un s’abandonne à sa fureur, }
 \livretVerse#12 { Et l’autre prends mon cœur avec indifférence ; }
 \livretVerse#12 { Nous ignorons ce calme & cette violence. }
 \livretVerse#12 { Sur nos Bords l’Amour vole & prévient nos désirs. }

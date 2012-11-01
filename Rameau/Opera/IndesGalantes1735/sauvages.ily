@@ -68,7 +68,7 @@
 
 %{ n°7 %}\newBookPart #'(full)
 \scene "Scene IV" "Scene 4 : Zima, Damon, Alvar, Adario"
-\sceneDescription \markup \left-align \center-column {
+\sceneDescription\markup\center-column {
   \line \smallCaps { Zima, Damon, Alvar, Adario. }
   \line { \smallCaps [Adario sortant avec vivacité de la forêt, }
   \line { \smallCaps Zima, charmée de son transport, lui présente la main.] }
@@ -80,23 +80,22 @@
 
 %{ n°8 %}
 \scene "Scene V" "Scene 5 : Zima, Adario"
-\sceneDescription \markup \left-align \center-column {
-  \line \smallCaps { Zima, Adario. }
-}
-\pieceToc \markup { Zima, Adario }
+\sceneDescription\markup\line\smallCaps { Zima, Adario. }
+\pieceToc\markup\wordwrap { Adario, Zima :
+  \italic { Je ne vous peindrai point les transports de mon cœur } }
 \includeScore "DEAadarioZima"
 
 %{ n°9 %}
-\pieceToc \markup { Zima : \italic { Sur nos bords l'amour vole et prévient nos désirs } }
+\pieceToc\markup\wordwrap { Zima :
+  \italic { Sur nos Bords l'Amour vole & prévient nos désirs } }
 \includeScore "DEBzima"
 
 %{ n°10 %}
-\pieceToc \markup { Zima, Adario : \italic { Hymen, viens nous unir } }
+\pieceToc\markup\wordwrap { Zima, Adario :
+  \italic { Hymen, viens nous unir d'une chaîne éternelle } }
 \includeScore "DECduo"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°11 %}\newBookPart #'(full violon1 violon2 flute1 flute2 hautbois1 hautbois2
-                               haute-contre taille basse basson)
 \scene "Scene VI" \markup \wordwrap {
   Scene 6 : Zima, Adario, chœur de Françaises, Français et sauvages
 }
@@ -104,30 +103,29 @@
   \smallCaps { Zima, Adario, } Françaises en habits d'amazones,
   guerriers français et sauvages, sauvagesses, bergers de la colonie.
 }
-\pieceToc \markup { Adario, chœur : \italic { Bannissons les tristes alarmes ! } }
+\pieceToc\markup\wordwrap-center { Adario, chœur :
+  \italic { Bannissons les tristes alarmes ! } }
 \includeScore "DFAadarioChoeur"
 
-%{ n°12 %}\newBookPart #'(full)
+%{ n°12 %}
 \pieceTocTitle "Danse du Grand Calumet de la Paix"
 \includeScore "DFBair"
 
 %{ n°13 %}
-\pieceToc \markup { Zima, Adario, chœur : \italic { Forêts paisibles } }
+\pieceToc\markup\wordwrap { Zima, Adario, chœur
+  : \italic { Forêts paisibles } }
 \includeScore "DFCduoChoeur"
 
-%{ n°14 %}\newBookPart #'(full)
+%{ n°14 %}
 \pieceTocTitle "Menuets I & II"
 \includeScore "DFDmenuet"
 
-%{ n°15 %}\newBookPart #'(full)
-\pieceToc \markup { Zima : \italic { Régnez, plaisirs et jeux ! } }
+%{ n°15 %}
+\pieceToc\markup\wordwrap { Zima :
+  \italic { Régnez, plaisirs et jeux ! } }
 \includeScore "DFEzima"
 
-%{ n°16 %}\newBookPart #'(full)
+%{ n°16 %}
 \pieceTocTitle "Chaconne"
 \includeScore "DFFchaconne"
-
-%{ n°17 %}\newBookPart #'(full)
-\pieceTocTitle "Entr'acte"
-\reIncludeScore "DFDmenuet" "DFFmenuet"
-\actEnd "FIN DE LA TROISIÈME ENTRÉE"
+\actEnd "FIN"

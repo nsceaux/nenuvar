@@ -190,7 +190,7 @@
 %# De l'amour le plus tendre éprouvez la douceur,
 %# Je vous dois la préference.
 %# De vous à vos Rivaux je vois la difference.
-%# L'un s'abandonne à la fureur,
+%# L'un s'abandonne à sa fureur,
 %# Et l'autre prends mon cœur avec indifférence ;
 %# Nous ignorons ce calme & cette vi=olence.
 %# Sur nos Bords l'Amour vole & prévient nos désirs.
