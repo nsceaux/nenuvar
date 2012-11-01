@@ -56,13 +56,15 @@
 \includeScore "DCAzad"
 
 %{ n°5 %}
-\pieceToc \markup { Damon : \italic { La terre, les cieux et les mers } }
+\pieceToc\markup\wordwrap { Damon :
+  \italic { La Terre, les Cieux, & les Mers } }
 \includeScore "DCBdamon"
 
 %{ n°6 %}
-\pieceToc \markup { Zima, Damon, Alvar }
+\pieceToc\markup\wordwrap { Damon, Zima, Alvar :
+  \italic { Voilà vos sentimens } }
 \includeScore "DCCzad"
-\partNoPageTurn #'(basse basson)
+\partNoPageTurn #'(basse)
 
 %{ n°7 %}\newBookPart #'(full)
 \scene "Scene IV" "Scene 4 : Zima, Damon, Alvar, Adario"
