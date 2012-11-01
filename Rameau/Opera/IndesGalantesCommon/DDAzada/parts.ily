@@ -1,12 +1,15 @@
-\piecePartSpecs #`((violon1)
-                   (violon2)
-                   (hautbois1)
-                   (hautbois2)
-                   (flute1)
-                   (flute2)
-                   (trompette)
-                   (haute-contre #:notes "haute-contre-taille" #:tag-notes ())
-                   (taille #:notes "haute-contre-taille" #:tag-notes ())
-                   (timbales #:notes "timbales")
-                   (voix)
-                   (basse #:score "score-basse"))
+\piecePartSpecs #`((dessus #:score "score-silence"
+                           #:tag-notes () #:tag-global ())
+                   (trompette #:score "score-silence"
+                              #:notes "dessus"
+                              #:tag-notes () #:tag-global ())
+                   (haute-contre #:score "score-silence"
+                                 #:notes "parties"
+                                 #:tag-notes () #:tag-global ())
+                   (taille #:score "score-silence"
+                           #:notes "parties"
+                           #:tag-notes () #:tag-global ())
+                   (timbales #:score "score-silence"
+                             #:notes "timbales"
+                             #:tag-notes () #:tag-global ())
+                   (basse #:score-template "score-basse-continue-voix"))

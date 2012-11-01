@@ -174,6 +174,15 @@
         }
       } #}))
 
+#(define-markup-command (lyrics layout props text)
+     (markup-list?)
+   #:properties ((column-number 2))
+   (interpret-markup
+    layout props
+    #{\markup\column {
+        \fontsize #-2 \override #`(column-number . ,column-number)
+        \column\page-columns { $text } } #}))
+
 #(define-markup-list-command (indented-lines layout props indent args)
   (number? markup-list?)
   (let* ((new-line-width (- (chain-assoc-get 'line-width props) indent))

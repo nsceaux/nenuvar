@@ -70,10 +70,12 @@
 \scene "Scene IV" "Scene 4 : Zima, Damon, Alvar, Adario"
 \sceneDescription \markup \left-align \center-column {
   \line \smallCaps { Zima, Damon, Alvar, Adario. }
-  \line { \smallCaps Adario sortant avec vivacité de la forêt, }
-  \line { \smallCaps Zima, charmée de son transport, lui présente la main. }
+  \line { \smallCaps [Adario sortant avec vivacité de la forêt, }
+  \line { \smallCaps Zima, charmée de son transport, lui présente la main.] }
 }
-\pieceToc \markup { Zima, Adario, Damon, Alvar }
+\pieceToc\markup\wordwrap { Alvar, Zima, Adario, Damon :
+  \italic { Que vois-je ? }
+}
 \includeScore "DDAzada"
 
 %{ n°8 %}

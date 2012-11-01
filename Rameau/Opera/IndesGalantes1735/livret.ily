@@ -1328,11 +1328,11 @@
 \livretPers\line { DAMON, \smaller { à \smaller ALVAR. } }
 \livretVerse#8 { J’ay trop protégé l’inconstance }
 \livretVerse#12 { Pour ne pas m’opposer à l’injuste couroux }
-\livretVerse#12 { Que vous est inspiré par la perséverance. }
-\livretDidasP\line { On entend un Prélude que annonce la Feste. }
+\livretVerse#12 { Qui vous est inspiré par la perséverance. }
+\livretDidasP\line { On entend un Prélude qui annonce la Feste. }
 \livretVerse#8 { Déja dans les Bois d’allentour }
 \livretVerse#12 { J’entends de nos Guerriers les bruyantes Trompettes, }
-\livretVerse#11 { Leurs sons n’effrayent plus ces aimables retraites, }
+\livretVerse#12 { Leurs sons n’effrayent plus ces aimables retraites, }
 \livretVerse#12 { Des charmes de la paix ils marquent le retour. }
 \livretDidasP\line { à \smallCaps Alvar. }
 \livretVerse#12 { A vos tristes regrets dérobez ce beau jour ; }

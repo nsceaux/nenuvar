@@ -164,11 +164,11 @@
 \livretPers\line { DAMON, \smaller { à \smaller ALVAR. } }
 %# J'ay trop protégé l'inconstance
 %# Pour ne pas m'opposer à l'injuste couroux
-%# Que vous est inspiré par la perséverance.
-\livretDidasP\line { On entend un Prélude que annonce la Feste. }
+%# Qui vous est inspiré par la perséverance.
+\livretDidasP\line { On entend un Prélude qui annonce la Feste. }
 %# Déja dans les Bois d'allentour
 %# J'entends de nos Guerriers les bruy=antes Trompettes,
-%# Leurs sons n'effrayent plus ces aimables retraites,
+%# Leurs sons n'effray=ent plus ces aimables retraites,
 %# Des charmes de la paix ils marquent le retour.
 \livretDidasP\line { à \smallCaps Alvar. }
 %# A vos tristes regrets dérobez ce beau jour ;
