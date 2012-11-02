@@ -14,8 +14,8 @@
   sol'2 re'8 sol' sib' re'' |
   sol'4 sol' sib' re'' |
   sol' sol' sol' sol' |
-  sol' do''2 la'4\trill |
-  sib'2 sib'\fermata |
+  sol' do''2 la'4 |
+  sib'2 sib' |
 }
 
 \keepWithTag #'() \rondeau
@@ -37,10 +37,11 @@ sib sib |
 sib sib |
 sib mib' |
 re' r |
+\origVersion { \custosNote sol'2 s }
 
 %% 2eme couplet
 sol'2 sol4 sol' |
-fad' fa'2 fa'4 |
+fad'\trill fa'2 fa'4 |
 mi'2 la' |
 re' r |
 la' la'4 sib' |
@@ -53,5 +54,6 @@ la' la' |
 si'4 mi' r2 |
 dod''2 mi'' |
 la' re''~ |
-re'' dod'' |
-re''8 do'' sib' la' sol' fad' mi' re' |
+re''2. dod''4 |
+re''8 do''! sib' la' sol' fad' mi' re' |
+\origVersion { \custosNote sol'2 s }

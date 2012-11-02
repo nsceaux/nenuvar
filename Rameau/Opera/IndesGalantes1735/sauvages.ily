@@ -96,6 +96,7 @@
 \includeScore "DECduo"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{ n°11 %}
 \scene "Scene VI" \markup \wordwrap {
   Scene 6 : Zima, Adario, chœur de Françaises, Français et sauvages
 }
@@ -108,12 +109,12 @@
 \includeScore "DFAadarioChoeur"
 
 %{ n°12 %}
-\pieceTocTitle "Danse du Grand Calumet de la Paix"
+\pieceTocTitle "Air des Sauvages"
 \includeScore "DFBair"
 
 %{ n°13 %}
-\pieceToc\markup\wordwrap { Zima, Adario, chœur
-  : \italic { Forêts paisibles } }
+\pieceToc\markup\wordwrap { Zima, Adario, chœur :
+  \italic { Forêts paisibles } }
 \includeScore "DFCduoChoeur"
 
 %{ n°14 %}
