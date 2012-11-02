@@ -1,6 +1,7 @@
 \clef "vbasse"
-\setMusic #'refrain {
+\setMusic #'choeur {
   R1*2 |
+  \clef "tenor/bass"
   r4 r8 fad fad4. re8 |
   sol2 sol4. sol8 |
   sib2. sol4 |
@@ -17,8 +18,6 @@
 }
 
 R1*16
-\keepWithTag #'() \refrain
-R1*16
-%\keepWithTag #'() \refrain
-R1*16
-%\keepWithTag #'() \refrain
+\keepWithTag #'() \choeur
+R1*16 \origVersion s1*2
+R1*16 \origVersion s1*2

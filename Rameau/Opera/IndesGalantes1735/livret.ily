@@ -1399,7 +1399,7 @@
 \livretVerse#4 { Dans nos Retraites, }
 \livretVerse#6 { Grandeur, ne viens jamais }
 \livretVerse#6 { Offrir tes faux attraits, }
-\livretVerse#6 { Ciel ! tu les as faites, }
+\livretVerse#5 { Ciel ! tu les as faites, }
 \livretVerse#8 { Pour l’innocence & pour la paix. }
 \livretPers\line { CHŒUR des Sauvages }
 \livretVerse#4 { Forêts paisibles, }

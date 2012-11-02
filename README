@@ -42,13 +42,13 @@ G.F. Handel:
 * Messiah
 
 
-To get score making usage, try:
-  $ make help
+To get the list of possible targets, try:
+  $ grep -e "^[^ .]*:" Makefile
 
 For instance, to build Les Indes Galantes full score:
-  $ make Rameau/Opera/IndesGalantes
-To make the first violin part:
-  $ make Rameau/Opera/IndesGalantes-violon1
+  $ make Rameau/Opera/IndesGalantes1735-concert
+To make the violin/flute/oboe part:
+  $ make Rameau/Opera/IndesGalantes1735-dessus
 
 
 ---

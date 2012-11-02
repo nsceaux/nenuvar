@@ -1,12 +1,12 @@
 \clef "vhaute-contre"
-\setMusic #'refrain {
+\setMusic #'choeur {
   R1*2 |
   r4 r8 la' la'4. la'8 |
   re'2 re'4 r8 sib' |
   sib'2. si'4 |
-  do'' sol' sol' sib' |
+  do'' sol' sol' sib'! |
   la' sib' fad' sol' |
-  la'1 |
+  \appoggiatura sol'8 la'1 |
   R1*2 |
   la'2 la'4 la' |
   re'2 re'8 r sib'4 |
@@ -17,8 +17,7 @@
 }
 
 R1*16
-\keepWithTag #'() \refrain
-R1*16
-%\keepWithTag #'() \refrain
-R1*16
-%\keepWithTag #'() \refrain
+\keepWithTag #'() \choeur
+R1*16 \origVersion s1*2
+R1*16 \origVersion s1*2
+

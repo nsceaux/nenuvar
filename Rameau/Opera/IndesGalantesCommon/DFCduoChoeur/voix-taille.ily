@@ -1,5 +1,5 @@
 \clef "vtaille"
-\setMusic #'refrain {
+\setMusic #'choeur {
   R1*2 |
   r4 r8 re' re'4. re'8 |
   re'2 re'4 r8 re' |
@@ -17,8 +17,6 @@
 }
 
 R1*16
-\keepWithTag #'() \refrain
-R1*16
-%\keepWithTag #'() \refrain
-R1*16
-%\keepWithTag #'() \refrain
+\keepWithTag #'() \choeur
+R1*16 \origVersion s1*2
+R1*16 \origVersion s1*2

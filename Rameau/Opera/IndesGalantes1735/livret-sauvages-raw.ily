@@ -235,7 +235,7 @@
 %# Dans nos Retraites,
 %# Grandeur, ne viens jamais
 %# Offrir tes faux attraits,
-%# Ci=el ! tu les as faites,
+%# Ciel ! tu les as faites,
 %# Pour l'innocence & pour la paix.
 \livretPers\line { CHŒUR des Sauvages }
 %# Forêts paisibles,
