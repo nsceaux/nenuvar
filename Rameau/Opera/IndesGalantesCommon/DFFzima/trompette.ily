@@ -23,9 +23,9 @@ r4 la'8 la' re'' re'' fad'' fad'' |
 fad''1\trill |
 r4 la'8 la' re'' re'' fad'' fad'' |
 la''2 si''8( la'') si''( la'') |
-la''1\trill |
+la''1\trill~ |
 la''2~ la''4. sol''8 |
-fad''4. mi''8 fad''4. sol''8 |
+fad''4. mi''8 \appoggiatura mi''8 fad''4. sol''8 |
 fad''2( mi''4.\trill) re''8 |
 re''1 |
 R1*3 |
@@ -70,6 +70,6 @@ re''4 la'8 la' re'' re'' fad'' fad'' |
 la''2~ la''4. sol''8 |
 fad''4. mi''8 \appoggiatura mi''8 fad''4. sol''8 |
 fad''2( mi''4.)\trill re''8 |
-re''1\fermata |
+re''1 |
 R2.*9 |
 R1 |

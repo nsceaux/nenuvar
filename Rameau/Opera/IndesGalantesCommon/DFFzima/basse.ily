@@ -1,14 +1,14 @@
 \clef "basse" re'4 |
 mi'8 re' dod' si la si la sol |
 fad sol fad mi re dod si, la, |
-si, dod si, la, sol,4 la, |
+sol, la, sol, fad, mi,4 la, |
 re, re8 re re'2 |
 dod' dod' |
 si~ si\trill |
 la1 |
 R1*2 |
-r4 la mi mi, |
-la2 sol |
+r4 <>^"[Bassons]" la mi mi, |
+<>^"[Tous]" la2 sol |
 fad1 |
 sol2 fad |
 mi1 |
@@ -33,7 +33,7 @@ re,2. re'4 |
 mi'8 re' dod' si la si la sol |
 fad sol fad mi re dod si, la, |
 sol,4 fad, mi, la, |
-re, re8 re re'2 |
+re, r re'2 |
 dod' dod' |
 si si\trill |
 la r |
@@ -48,13 +48,13 @@ fad1 |
 si |
 dod'2. re'4 |
 la1 |
-R1*3 |
-la4. sol8 fad4.\trill mi8 |
+R1*3 |\allowPageTurn
+la4. sol8 fad4. mi8 |
 \appoggiatura mi8 fad4. mi8 re4.\trill dod8 |
 re2 sol, |
 la,1 |
 re,2 r |
-r r4 re8 re |
+r r4 <>^"Tous" re8 re |
 re2 r |
 R1 |
 r4 re8 re re re re re |
@@ -73,14 +73,15 @@ R1 |
 r4 la,8 la, la, la, la, la, |
 si,2 sol, |
 la,1 |
-re,\fermata |
+re, |
 re'2 dod'8 si |
 re'4. dod'8 si fad |
 sol4 fad8. re16 dod8. si,16 |
-sol8. mi16 si4 si, |
+sol8 mi si4 si, |
 fad2 fad8. mi16 |
 red2. |
 mi2 re4 |
 dod2. |
 re8 mi fad4 fad, |
 si,2. re'4 |
+\origVersion\custosNote mi'
