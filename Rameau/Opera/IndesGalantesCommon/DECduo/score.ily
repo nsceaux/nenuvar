@@ -1,18 +1,25 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \characterName "Zima"
-      \global \includeNotes "zima"
-    >> \includeLyrics "paroles1"
+      \origVersion <>^\markup\character Zima
+      \modVersion\characterName "Zima"
+      \global \keepWithTag #'zima \includeNotes "voix"
+    >> \keepWithTag #'zima \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \characterName "Adario"
-      \global \includeNotes "adario"
-    >> \includeLyrics "paroles2"
+      \origVersion <>^\markup\character Adario
+      \modVersion\characterName "Adario"
+      \global \keepWithTag #'adario \includeNotes "voix"
+    >> \keepWithTag #'adario \includeLyrics "paroles"
     \new Staff <<
-      \instrumentName \markup \center-column { Basse continue }
-      \global \includeNotes "basse" \includeFigures "chiffres"
+      \modVersion\instrumentName "[B.C.]"
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+      \origLayout {
+        s2 s1*2 s2.\break s2.*7\break s2.*6\break s2.*6\pageBreak
+        s2.*5\break s2.*6\break s2.*4 s2\break
+      }
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

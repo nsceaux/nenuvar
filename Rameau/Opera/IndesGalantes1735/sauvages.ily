@@ -92,19 +92,19 @@
 
 %{ n°10 %}
 \pieceToc\markup\wordwrap { Zima, Adario :
-  \italic { Hymen, viens nous unir d'une chaîne éternelle } }
+  \italic { Viens, Hymen, hâte-toy, suis l'Amour qui t'appelle. } }
 \includeScore "DECduo"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \scene "Scene VI" \markup \wordwrap {
   Scene 6 : Zima, Adario, chœur de Françaises, Français et sauvages
 }
-\sceneDescription \markup \wordwrap-center {
-  \smallCaps { Zima, Adario, } Françaises en habits d'amazones,
-  guerriers français et sauvages, sauvagesses, bergers de la colonie.
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps { Adario, Zima, }
+  Troupe de sauvages et Françoises en amazones,
 }
 \pieceToc\markup\wordwrap-center { Adario, chœur :
-  \italic { Bannissons les tristes alarmes ! } }
+  \italic { Bannissons les tristes allarmes } }
 \includeScore "DFAadarioChoeur"
 
 %{ n°12 %}
