@@ -28,7 +28,7 @@ la4 sol8 fa mi re dod si, |
 la,2 r |
 R1 |
 r4 la8 si dod' re' mi' dod' |
-re' do' sib la sol fa mi re |
+re' do'! sib la sol fa mi re |
 re' do' sib la sol fa mi re |
 sol2 la |
 re4 do8 sib, la, sol, fa, mi, |
@@ -40,7 +40,7 @@ do'2 sib4 la |
 sol1 |
 re'4 re'8 do' sib4 sol |
 la2 la4 r |
-R1*4 |
+R1*4 |\allowPageTurn
 mi'4 re'8 do' si la sold fad |
 mi4 r r mi8 fad |
 sold2 sold4. la8 |
@@ -70,7 +70,7 @@ la1 |
 \clef "tenor/tenor" la4 la8 si dod' re' mi' fa' |
 sol'1 |
 \clef "basse" r2 la, |
-dod,2. la8 si |
+dod,2 r4 la8 si |
 dod'2 dod'4. la8 |
 re'2 r |
 re4 re8 mi fad sol la sib |

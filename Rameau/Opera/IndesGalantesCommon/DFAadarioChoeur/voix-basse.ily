@@ -17,8 +17,8 @@ mi4 mi8 fad sold[ la] si[ do'] |
 re'1 |
 re'2 do'4 si |
 do'8[\melisma re' mi' re'] do'[ si la sol] |
-fa[ sol la sol] fa[ mi re dod] |
-re2\melismaEnd mi |
+fa[ sol la sol] fa[ mi re dod]( |
+re2)\melismaEnd mi |
 la,1 |
 r2 r4 la8 sol |
 fad4 re re' re'8 re' |
@@ -41,20 +41,20 @@ dod'2 dod'4. la8 |
 re'2 r |
 re4 re8 mi fad[ sol] la[ sib] |
 do'1 |
-do'2 sib4 la |
-sib8[\melisma do' re' do'] sib[ la sol fa] |
-mi2\melismaEnd sol |
+do'2 sib4\prall la |
+sib8[\melisma do' re' do'] sib[ la sol fa]( |
+mi2)\melismaEnd sol |
 dod1 |
 dod'2 dod'4 la |
 re'8[\melisma do' sib la] sol[ fa mi re] |
-re'[ do' sib la] sol[ fa mi re] |
-sol2\melismaEnd la |
+re'[ do' sib la] sol[ fa mi re]( |
+sol2)\melismaEnd la |
 sib1 |
 R1 |
 sib2 sol4 mi |
 la4.\melisma si8[ dod' re' mi' dod'] |
 re'[ do' sib la] sol[ fa mi re] |
-re'[ do' sib la] sol[ fa mi re] |
-sol2\melismaEnd la |
+re'[ do' sib la] sol[ fa mi re]( |
+sol2)\melismaEnd la |
 re1 |
 R1*7 |

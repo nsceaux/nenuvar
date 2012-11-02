@@ -66,7 +66,7 @@
 \includeScore "DCCzad"
 \partNoPageTurn #'(basse)
 
-%{ n°7 %}\newBookPart #'(full)
+%{ n°7 %}
 \scene "Scene IV" "Scene 4 : Zima, Damon, Alvar, Adario"
 \sceneDescription\markup\center-column {
   \line \smallCaps { Zima, Damon, Alvar, Adario. }
@@ -103,7 +103,7 @@
   \smallCaps { Adario, Zima, }
   Troupe de sauvages et Françoises en amazones,
 }
-\pieceToc\markup\wordwrap-center { Adario, chœur :
+\pieceToc\markup\wordwrap { Adario, chœur :
   \italic { Bannissons les tristes allarmes } }
 \includeScore "DFAadarioChoeur"
 

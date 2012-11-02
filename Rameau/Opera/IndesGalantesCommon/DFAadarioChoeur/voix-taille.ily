@@ -21,7 +21,7 @@ la2 sold |
 la r4 mi'8 re' |
 dod'4 la dod' si8 la |
 re'2 re'4 re'8 re' |
-sol4 sol sib sib8 do' |
+sol4 sol si si8 do' |
 do'2 do'4 fa'8 mi' |
 fa'4 fa' fa' fa'8 fa' |
 do'2 do'8 r fa' fa' |
@@ -30,7 +30,7 @@ do'2. do'8 do' |
 re'4 re' do' do'8 do' |
 do'1 |
 fa'2 fa'4 fa' |
-re'2.~ re'8 re' |
+\appoggiatura mi'8 re'2.~ re'8 re' |
 re'2. re'8 re' |
 si2 si4. si8 |
 mi1 |
@@ -43,13 +43,13 @@ la2 r |
 la4 la8 la do'4. do'8 |
 fad1 |
 re'2 re'4 re' |
-re'2~ re'8[\melisma do' sib la] |
-sib2\melismaEnd sib |
+re'2~ re'8[\melisma do' sib la]( |
+sib2)\melismaEnd sib |
 la1 |
 mi'2 mi'4 mi' |
 la2\melisma si8[ dod' re' mi'] |
-fa'2~ fa'4. sol'16[ fa'] |
-mi'2\melismaEnd dod' |
+fa'2~ fa'4. sol'16[ fa']( |
+mi'2)\melismaEnd dod' |
 re'1 |
 R1 |
 mi'2 mi'4 mi' |

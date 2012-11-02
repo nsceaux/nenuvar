@@ -1,13 +1,13 @@
-\tag #'(haute-contre conducteur) \clef "haute-contre"
+\tag #'(haute-contre parties) \clef "haute-contre"
 \tag #'taille \clef "taille"
 r4 R1*32 |
-r2 r4-\tag #'conducteur -"Haute-contres et tailles" la'8 dod'' |
+r2 r4 la'8 dod'' |
 re''4 fa' fa' fa'8 sib' |
 la'2 r4 fa'8 fa' |
 fa'4 fa' fa' fa'8 mi' |
 fa'2 r4 do''8 do'' |
 mi'2 do''4 fad' |
-sol' re'2 re'4 |
+sol' re'2. |
 fa'4 la'8 la' la'4 sib' |
 mi'1 |
 R1*2 |
@@ -54,33 +54,32 @@ mi'1 |
 mi''2 mi''4 mi'' |
 la'2 si'8 dod'' re'' mi'' |
 la'2.~ la'8 re'' |
-mi''2 dod'' |
+mi''2 dod''\trill |
 re''1 |
 R1 |
 mi''2 mi''4 mi'' |
 mi''4. re''8 la'2 |
-la'1 |
-la'4.( sib'16 do'') re''2~ |
+la'1~ |
+la'4. sib'16 do'' re''2~ |
 re'' dod'' |
 re''8 do'' sib' la' sol' fa' mi' re' |
 re'' do'' sib' la' sol' fa' mi' re' |
 sib' la' sol' fa' mi' re' dod' si |
 la2.
 <<
-  \setMusic #'ht {
+  \tag #'(haute-contre parties) \new Voice {
+    \tag #'parties \voiceOne
     fa'4 |
     mi'1 |
     la'2 sol' |
     fa'1 |
   }
-  \setMusic #'t {
+  \tag #'(taille parties) \new Voice {
+    \tag #'parties \voiceTwo
     re'4 |
     dod'1 |
     re'4 fa' mi'2 |
     re'1 |
   }
-  \tag #'haute-contre \ht
-  \tag #'taille \t
-  \tag #'conducteur << \ht \\ \t >>
 >>
 R1 |
