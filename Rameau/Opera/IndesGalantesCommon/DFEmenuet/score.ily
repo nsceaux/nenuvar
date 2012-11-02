@@ -2,15 +2,14 @@
   <<
     \setMusic #'group <<
       \new Staff <<
-        \origVersion <>^"Trompetes et hautbois"
-        \modVersion\instrumentName\markup\center-column {
-          Trompetes Hautbois
-        }
-        \global \keepWithTag #'dessus1 \includeNotes "dessus"
+        \origVersion <>^"Hautbois"
+        \modVersion\instrumentName "Hautbois"
+        \global \keepWithTag #'hautbois \includeNotes "dessus"
       >>
       \new Staff <<
-        \modVersion\instrumentName "[Violons]"
-        \global \keepWithTag #'dessus2 \includeNotes "dessus"
+        \origVersion <>^"Violons"
+        \modVersion\instrumentName "Violons"
+        \global \keepWithTag #'violons \includeNotes "dessus"
       >>
       \new Staff <<
         \origVersion <>^"H[autes]-c[ontre] et T[ailles]"
@@ -20,15 +19,10 @@
         \global \keepWithTag #'parties \includeNotes "parties"
       >>
       \new Staff <<
-        \origVersion <>^"Tymbales"
-        \modVersion\instrumentName "Tymbales"
-        \global \includeNotes "timbales"
-      >>
-      \new Staff <<
         \modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
         \origLayout {
-          s2.*8\break s2.*8\pageBreak
+          s2.*12\break s2.*12\break
         }
       >>
     >>

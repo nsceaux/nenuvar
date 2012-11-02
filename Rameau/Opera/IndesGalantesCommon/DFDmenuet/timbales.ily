@@ -13,4 +13,3 @@ R2.*2 |
 re4 re16 re re re re re re re |
 la,2 la,4 |
 re2. |
-R2.*8 R2.*16

@@ -118,15 +118,19 @@
 \includeScore "DFCduoChoeur"
 
 %{ n°14 %}
-\pieceTocTitle "Menuets I & II"
+\pieceTocTitle "Premier Menuet"
 \includeScore "DFDmenuet"
 
 %{ n°15 %}
-\pieceToc\markup\wordwrap { Zima :
-  \italic { Régnez, plaisirs et jeux ! } }
-\includeScore "DFEzima"
+\pieceTocTitle "Deuxième Menuet"
+\includeScore "DFEmenuet"
 
 %{ n°16 %}
+\pieceToc\markup\wordwrap { Zima :
+  \italic { Régnez, plaisirs et jeux ! } }
+\includeScore "DFFzima"
+
+%{ n°17 %}
 \pieceTocTitle "Chaconne"
-\includeScore "DFFchaconne"
+\includeScore "DFGchaconne"
 \actEnd "FIN"
