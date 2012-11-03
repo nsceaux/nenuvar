@@ -19,7 +19,8 @@
 %% Table of contents
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplist\table-of-contents
+  \markuplist\fontsize-lines #(if (eqv? (ly:get-option 'urtext) #t)
+                                  0 -1) \table-of-contents
 }
 %% Notes
 \bookpart {

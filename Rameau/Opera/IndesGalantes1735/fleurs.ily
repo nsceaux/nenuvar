@@ -18,7 +18,7 @@
 \includeScore "EAAritournelle"
 
 %{ n°2 %}\newBookPart #'(full-rehearsal)
-\pieceToc\markup\wordwrap { Ali, Tacmas :
+\pieceToc\markup\wordwrap { ALI, TACMAS :
   \italic { Mon abord paroit l’interdire } }
 \includeScore "EABaliTacmas"
 
@@ -27,17 +27,17 @@
 \sceneDescription\markup\center-column {
   \line\smallCaps { Tacmas, Zaïre }
 }
-\pieceToc\markup\wordwrap { Tacmas :
+\pieceToc\markup\wordwrap { TACMAS :
   \italic { Elle paroit livrée a quelqu’inquietude } }
 \includeScore "EBAtacmas"
 
 %{ n°4 %}
-\pieceToc\markup\wordwrap { Zaïre :
+\pieceToc\markup\wordwrap { ZAÏRE :
   \italic { Amour, quand du destin j’éprouve la rigueur } }
 \includeScore "EBBzaire"
 
 %{ n°5 %}\newBookPart #'(full-rehearsal)
-\pieceToc\markup\wordwrap { Zaïre, Tacmas :
+\pieceToc\markup\wordwrap { ZAÏRE, TACMAS :
   \italic { Quoy ! Zaïre ose aimer } }
 \includeScore "EBCzaireTacmas"
 
@@ -46,7 +46,7 @@
 \sceneDescription\markup\center-column {
   \line\smallCaps { Tacmas, Fatime }
 }
-\pieceToc\markup\wordwrap { Fatime, Tacmas :
+\pieceToc\markup\wordwrap { FATIME, TACMAS :
   \italic { Demeurez étrangere } }
 \includeScore "ECAfatimeTacmas"
 
@@ -55,7 +55,7 @@
 \sceneDescription\markup\center-column {
   \line\smallCaps { Tacmas, Fatime, Ali, Zaïre }
 }
-\pieceToc\markup\wordwrap { Fatime, Tacmas, Ali, Zaïre :
+\pieceToc\markup\wordwrap { FATIME, TACMAS, ALI, ZAÏRE :
   \italic { Achevez, nommez-vous } }
 \includeScore "EDAftaz"
 
@@ -64,7 +64,7 @@
 \includeScore "EDBquatuor"
 
 %{ n°9 %}
-\pieceToc\markup\wordwrap { Tacmas :
+\pieceToc\markup\wordwrap { TACMAS :
   \italic { On vient, voyez les jeux augmentez leurs attraits. } }
 \includeScore "EDCprelude"
 \includeScore "EDDtacmas"
@@ -89,13 +89,13 @@
 \includeScore "EEAmarche"
 
 %{ n°11 %}\newBookPart #'(full-rehearsal)
-\pieceToc\markup\wordwrap { Chœur :
+\pieceToc\markup\wordwrap { CHŒUR :
   \italic { Dans le sein de Thetis précipitez vos feux } }
 \includeScore "EEBchoeur"
 
 %{ n°12 %}
 % 338, 351
-\pieceToc\markup\wordwrap { Tacmas :
+\pieceToc\markup\wordwrap { TACMAS :
   \italic { L’eclat des roses les plus belles } }
 \includeScore "EEDtacmas"
 
@@ -106,7 +106,7 @@
 
 %{ n°14 %}\newBookPart #'(full-rehearsal)
 % 352, 354, 355, 358
-\pieceToc\markup\wordwrap { Fatime : \italic { Papillon inconstant } }
+\pieceToc\markup\wordwrap { FATIME : \italic { Papillon inconstant } }
 \includeScore "EEJair"
 
 %{ n°15 %}\newBookPart #'(full-rehearsal)
@@ -116,7 +116,7 @@
 
 %{ n°16 %}
 % 344-347
-\pieceToc\markup\wordwrap { Zaïre, chœur :
+\pieceToc\markup\wordwrap { ZAÏRE, CHŒUR :
   \italic { Triomphez, agreables Fleurs ! } }
 \includeScore "EEGfatimeChoeur"
 
