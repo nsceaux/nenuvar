@@ -3,7 +3,7 @@
   \tag #'(tromp-hbt trompette hautbois) { R2.*16 | r8 }
   \tag #'(violons violon1 violon2) {
     <>^"Tous" \doux
-    r4 fa'8 sol' sol'8.( fa'32 sol') |
+    r4 fa'8 sol' sol'8.\trill( fa'32 sol') |
     la'4( re') sib' |
     la'( re') re'' |
     re''4. dod''8 re'' mi'' |

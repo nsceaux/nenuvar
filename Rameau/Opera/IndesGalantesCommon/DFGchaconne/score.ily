@@ -1,5 +1,5 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new StaffGroupNoBar <<%{
     \new Staff \with { \haraKiriFirst } <<
       { s2.*10
         <>^"Trompetes" s2.*8 <>^"T." s2.*6
@@ -31,6 +31,44 @@
         <>^"Viol." s2.*9 s2.*9
       }
       \global \keepWithTag #'violons \includeNotes "dessus"
+    >>
+    \new Staff <<
+      { s2.*10
+        s2.*8 s2.*6
+        s2.*7 s2.*8
+        s2.*10 s2.*7
+        s2.*6 s2.*5
+        s2.*6 s2.*7
+        s2.*10 s2.*10 s2.*7
+        <>^"H-c et Taille" s2.*6 <>^"H-c et T." s2.*9 s2.*10
+        s2.*9 s2.*4 s2.*3
+        s2.*6 s2.*6
+        s2.*8 s2.*8
+        s2.*9 s2.*9
+      }
+      \global \keepWithTag #'haute-contre \includeNotes "parties"
+    >>
+    \new Staff \with { \haraKiri } <<
+      { s2.*10
+        s2.*8 s2.*6
+        s2.*7 s2.*8
+        s2.*10 s2.*7
+        s2.*6 s2.*5
+        s2.*6 s2.*7
+        s2.*10 s2.*10 s2.*7
+        \startHaraKiri s2.*6 s2.*9 \stopHaraKiri s2.*10
+        s2.*9 s2.*4 s2.*3
+        s2.*6 s2.*6
+        s2.*8 s2.*8
+        s2.*9 s2.*9
+      }
+      \global \keepWithTag #'taille \includeNotes "parties"
+    >>  %}
+    \new Staff <<
+      \global \includeNotes "timbales"
+    >>
+    \new Staff <<
+      \global \keepWithTag #'conducteur \includeNotes "basse"
       \origLayout {
         s2.*10\pageBreak
         s2.*8\break s2.*6\pageBreak
@@ -47,16 +85,6 @@
         s2.*9\break s2.*6\break
       }
     >>
-    %{
-    \new Staff << \instrumentName "Haute-contres"
-      \global \includeNotes "haute-contre" >>
-    \new Staff << \instrumentName "Tailles"
-      \global \includeNotes "taille" >>
-    \new Staff << \instrumentName "Timbales"
-      \global \includeNotes "timbales" >>
-    \new Staff << \instrumentName "Basses"
-      \global \keepWithTag #'conducteur \includeNotes "basse" >>
-    %}
   >>
   \layout { }
   \midi { }
