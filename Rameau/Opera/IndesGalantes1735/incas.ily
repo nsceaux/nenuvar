@@ -116,7 +116,7 @@
 \pieceToc\markup\wordwrap { PHANI, CARLOS, HUASCAR :
   \italic { Pour jamais l’Amour nous engage } }
 \includeScore "CFBtrio"
-
+\partNoPageTurn #'(dessus)
 %{ n°20 %}
 \sceneDescription\markup\left-align\center-column {
   \line { [Le Volcan se rallume, & le Tremblement de terre recommence.] }

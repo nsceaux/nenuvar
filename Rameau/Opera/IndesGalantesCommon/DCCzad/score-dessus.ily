@@ -12,7 +12,7 @@
     >>
     \new GrandStaff <<
       \new Staff \with { \haraKiriFirst } <<
-        { \startHaraKiri s2.*3 s1 s2. s1*2 s2.*18 s2. \stopHaraKiri }
+        { \startHaraKiri s2.*3 s1 s2. s1*2 s2.*18 s2. \noHaraKiri }
         \global \keepWithTag #'violon1 \includeNotes "dessus"
       >>
       \new Staff \with { \haraKiriFirst } <<
