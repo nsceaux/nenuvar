@@ -271,11 +271,11 @@ sol'4 fad' mi' |
     si la2 |
     la r8 r16 fad' |
     fad'2 r8 r16 fad' |
-    sol'2 r8 r16 sold'? |
+    sol'2 r8 r16 sol' |
     la'2 r8 r16 la' |
     la'2 r8 r16 fad' |
     fad'2 r8 r16 fad' |
-    sol'2 r8 r16 sold'? |
+    sol'2 r8 r16 sol' |
     la'2 r8 r16 la' |
     la'4 re' re' |
     re' re' re |

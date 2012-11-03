@@ -267,7 +267,7 @@
 %# Arrête-toy, suspens le cours
 %# De ta flâme volage.
 \livretRef #'EEEair
-\livretDesc\line { On danse. }
+\livretDescPage\line { On danse. }
 \livretRef #'EEGfatimeChoeur
 \livretPers ZAÏRE
 %# Tri=omphez agre=ables Fleurs,
@@ -298,7 +298,7 @@
     davantage au Théatre, dansent ensemble, & forment un Parterre qui varie
     à chaque instant.  La Rose leur Reine, danse seule.  La Feste est
     interrompuë par un orage qu'amene Borée ; les Fleurs en éprouvent la
-    colere, La Rose résiste plus long-temps à l'ennemy qui la persecure ;
+    colere, La Rose résiste plus long-temps à l'ennemy qui la persecute ;
     les Pas de Borée expriment son impetuosité & sa fureur ; les attitudes
     de la Rose, peignent sa douceur & ses craintes ; Zéphire arrive avec sa
     clarté renaissante ; il ranime & releve les Fleurs abatues par la

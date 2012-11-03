@@ -19,7 +19,7 @@
       >>
     >>
     \new Staff <<
-      \instrumentName "[Basses]"
+      \modVersion\instrumentName "[Basses]"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
       \origLayout {

@@ -766,7 +766,6 @@
   \wordwrap {
     Une collette vient remplacer les mesures 18 à 63 :
   }
-}
 \score {
   \new ChoirStaff <<
     \new Staff \with { autoBeaming = ##f } {
@@ -817,11 +816,6 @@
   >>
   \layout { \smallLayout indent = 0 }
 }
-\markuplist\column-lines {
-  \wordwrap {
-    [A FAIRE : revoir toute cette pièce par rapport aux parties
-    séparées de dessus]
-  }
 
   \livretRef #'CFBtrio
   \livretDescAttPage\wordwrap { PHANI, CARLOS, HUASCAR :

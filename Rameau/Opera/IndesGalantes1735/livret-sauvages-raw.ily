@@ -14,6 +14,7 @@
     \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage.
   }
 }
+\livretRef #'DABadario
 %# Nos Guerriers, par mon ordre unis à nos Vainqueurs,
 %# Vont icy de la Paix célébrer les douceurs ;
 %# Mon cœur seul dans ces lieux trouve encor des allarmes :
@@ -21,6 +22,7 @@
 %# Epris de l'Objet de mes vœux ;
 %# Je crains leurs soupirs dangereux,
 %# Et que leur sort brillant, pour Zima n'ait des charmes.
+\livretRef #'DACadario
 %# Rivaux de mes Exploits, Rivaux de mes Amours,
 %# Helas ! dois-je toûjours
 %# Vous céder la victoire ?
@@ -31,6 +33,7 @@
 %# Helas ! dois-je toûjours
 %# Vous céder la victoire ?
 \livretDidasP\line { Les apercevant. }
+\livretRef #'DADadario
 %# Ciel ! ils cherchent Zima... pouroit-elle changer ?
 %# Cachons-nous... apprenons ce que je dois en croire ;
 %# Sachons & si je dois, & sur qui me vanger.
@@ -44,6 +47,7 @@
   \smallCaps { Dom Alvar, } Officier de la Colonie Espagnole.
   \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage, caché.
 }
+\livretRef #'DBAalvarDamon
 \livretPers ALVAR
 %# Damon, quelle vaine esperance
 %# Sur les pas de Zima vous attache aujourd'huy ?
@@ -71,6 +75,7 @@
   \smallCaps { Dom Alvar, } Officier de la Colonie Espagnole.
   \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage, caché.
 }
+\livretRef #'DCAzad
 \livretPers\line { ALVAR, \smaller { à \smaller Zima. } }
 %# Ne puis-je vous fléchir par ma perséverance ?
 \livretPers\line { DAMON, \smaller { à \smaller Zima. } }
@@ -94,6 +99,7 @@
 %# Nous dit qu'il faut estre constant...
 \livretPers DAMON
 %# Elle prouve à nos yeux qu'il faut être volage.
+\livretRef #'DCBdamon
 %# La Terre, les Cieux, & les Mers
 %# Nous offrent tour-à-tour cent spectacles divers ;
 %# Les plus beaux jours entr'eux ont de la difference ;
@@ -101,6 +107,7 @@
 %# De gouter les douceurs
 %# Que verse par tout l'inconstance.
 \livretDidasP\line { à \smallCaps Zima. }
+\livretRef #'DCCzad
 %# Voilà vos sentimens : dans vos sages Climats,
 %# L'inconstance n'est point un crime.
 \livretPers ZIMA
@@ -142,6 +149,7 @@
   sort avec vivacité de la Forest, \smallCaps Zima
   charmée de son transport, luy présente la main.
 }
+\livretRef #'DDAzada
 \livretPers\line { ALVAR, \smaller { les apercevant. } }
 %#- Que vois-je ?
 \livretPers ZIMA
@@ -180,6 +188,7 @@
 
 \livretScene\line { SCENE V }
 \livretDescAtt\wordwrap-center\smallCaps { Zima, Adario. }
+\livretRef #'DEAadarioZima
 \livretPers ADARIO
 %# Je ne vous peindrai point les transports de mon cœur,
 %# Belle Zima, jugez-en par le vôtre.
@@ -193,12 +202,14 @@
 %# L'un s'abandonne à sa fureur,
 %# Et l'autre prends mon cœur avec indifférence ;
 %# Nous ignorons ce calme & cette vi=olence.
+\livretRef #'DEBzima
 %# Sur nos Bords l'Amour vole & prévient nos désirs.
 %# Dans nôtre paisible retraite
 %# On n'entend murmurer que l'Onde & les Zéphirs ;
 %# Jamais l'Echo n'y répete
 %# De regrets ny de soupirs.
 %# Sur nos Bords l'Amour vole & prévient nos désirs.
+\livretRef #'DECduo
 \livretPers ADARIO
 %# Viens, Hymen, hâte-toy, suis l'Amour qui t'appelle.
 \livretPers ENSEMBLE
@@ -213,6 +224,7 @@
   \smallCaps Guerriers François & Sauvages,
   \smallCaps { Sauvagesses ; Bergers } de la Colonie.
 }
+\livretRef #'DFAadarioChoeur
 \livretPers\line { ADARIO, \smaller { aux Sauvages. } }
 %# Bannissons les tristes allarmes,
 %# Nos Vainqueurs nous rendent la Paix :
@@ -221,9 +233,11 @@
 %# Fasse briller ses feux, vienne lancer ses traits.
 \livretPers\line { CHŒUR des Sauvages }
 %#8 Bannissons, &c.
-\livretDesc\wordwrap {
+\livretRef #'DFBair
+\livretDescPage\wordwrap {
   Danse du grand calumet de Paix, executée par les Sauvages.
 }
+\livretRef #'DFCduoChoeur
 \livretPers\line { ZIMA, ET ADARIO }
 %# Forêts paisibles,
 %# Jamais un vain desir ne trouble ici nos cœurs :
@@ -249,7 +263,9 @@
 %# Quand on forme d'autres vœux ?
 \livretPers\line { CHŒUR des Sauvages }
 %#4 Forêts paisibles, &c.
-\livretDesc\wordwrap { Danse des Françoises en Amazones. }
+\livretRef #'DFDmenuet
+\livretDescPage\wordwrap { Danse des Françoises en Amazones. }
+\livretRef #'DFFzima
 \livretPers ZIMA
 %# Regnez Plaisirs & Jeux ; tri=omphez dans nos Bois :
 %# Nous n'y connoissons que vos loix.
@@ -260,7 +276,8 @@
 %# Prend soin de la guider sans cesse.
 %# Regnez Plaisirs & Jeux ; tri=omphez dans nos Bois :
 %# Nous n'y connoissons que vos loix.
-\livretDesc\wordwrap {
+\livretRef #'DFGchaconne
+\livretDescPage\wordwrap {
   L'Entrée finit par un Ballet general des Guerriers François & Sauvages,
   des Françoises en Amazones, des Bergers & Bergeres de la Colonie, au
   bruit des Trompettes, & au son des Musettes.

@@ -37,9 +37,8 @@
 %  \include "Rameau/Opera/IndesGalantes1735/personnages.ily"
 %}
 
-%\include "Rameau/Opera/IndesGalantes1735/prologue.ily"
-%\include "Rameau/Opera/IndesGalantes1735/turc.ily"
-%\include "Rameau/Opera/IndesGalantes1735/incas.ily"
-%\include "Rameau/Opera/IndesGalantes1735/fleurs.ily"
+\include "Rameau/Opera/IndesGalantes1735/prologue.ily"
+\include "Rameau/Opera/IndesGalantes1735/turc.ily"
+\include "Rameau/Opera/IndesGalantes1735/incas.ily"
+\include "Rameau/Opera/IndesGalantes1735/fleurs.ily"
 \include "Rameau/Opera/IndesGalantes1735/sauvages.ily"
-
