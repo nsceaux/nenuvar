@@ -339,7 +339,7 @@ mi''8 la''4 fad'' re''8~ |
         dod''8 mi'' la'4 r8 re''16 re'' |
         dod''8 la'16 la' dod''8 mi'' la'4~ |
         la'2 r8 la'16 la' |
-        la'4 <>_"Hautb."^\doux fad'4 mi'\trill |
+        la'4 <>_\markup\whiteout "Hautb."^\doux fad'4 mi'\trill |
       }
     >>
   }
