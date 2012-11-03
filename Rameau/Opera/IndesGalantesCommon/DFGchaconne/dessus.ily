@@ -131,7 +131,8 @@ mi''8 la''4 fad'' re''8~ |
 >>
 <<
   \tag #'(tromp-hbt trompette hautbois) {
-    re''4 r <>^"Tromp." r8  la''16 la'' |
+    << \tag #'trompette r4 \tag #'(tromp-hbt hautbois) re''4 >>
+    r4 <>^"Tromp." r8  la''16 la'' |
     la''2 r8 la'16 la' |
     re''2 r8 mi''16 mi'' |
     mi''2 r8 la'16 la' |
@@ -207,7 +208,7 @@ mi''8 la''4 fad'' re''8~ |
         dod'8. re'16 dod'4.\trill re'8 |
       }
     >>
-    re'4 \clef "dessus" <>^"sans hautbois" la'4.\doux si'8 |
+    re'4 \clef "dessus" <>^\markup\whiteout "sans hautbois" la'4.\doux si'8 |
     \appoggiatura si'8 do''4 fad'4.\trill( mi'16 fad') |
     sol'4. la'8 \appoggiatura la'8 sib'4 |
     dod'4 la'2 |
@@ -252,7 +253,7 @@ mi''8 la''4 fad'' re''8~ |
     R2.*27 | r8^"Tromp. et hautb."
   }
   \tag #'(violons violon1 violon2 hautbois) {
-    <>^"avec ls hautbois" \fort
+    <>^"avec les hautbois" \fort
     re''8 re''16 mi'' fad'' sol'' fad'' sol'' la''8 la'' |
     la'' re''16 mi'' fad'' sol'' fad'' sol'' la''8 re'' |
     sol'' si''16 la'' sol'' fad'' mi'' re'' mi'' re'' dod'' si' |
@@ -271,7 +272,7 @@ mi''8 la''4 fad'' re''8~ |
     la'8. re''16 dod''4.\trill re''8 |
     re''2.\doux ~ |
     re''~ |
-    re''4 <>^"Tous" _"hautb. et viol." si' la' |
+    re''4 <>^"Tous" _\markup\whiteout "hautb. et viol." si' la' |
     sol' fad' mi' |
     re'2.~ |
     re'~ |
@@ -376,7 +377,7 @@ mi''8 la''4 fad'' re''8~ |
   }
 >>
 <<
-  \tag #'trompette { R2.*7 | r4 }
+  \tag #'trompette { R2.*15 | r4 }
   \tag #'(violons violon1 violon2 tromp-hbt hautbois) {
     <<
       \tag #'(tromp-hbt hautbois) {
@@ -454,7 +455,7 @@ mi''8 la''4 fad'' re''8~ |
     r16 mi' fad' sol' mi'4.\trill re'8 |
     re'4 sol' sol' |
     sol' sol' sol' |
-    dod''8 dod'16 mi' la4 r |
+    mi''8 dod'16 mi' la4 r |
     r16 mi' fad' sol' mi'4.\trill re'8 |
     re'4
     <<
