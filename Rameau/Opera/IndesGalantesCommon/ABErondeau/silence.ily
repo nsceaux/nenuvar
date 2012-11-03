@@ -1,3 +1,3 @@
-r4\noBreak R2.*7\noBreak r2\noBreak
-r4\noBreak R2.*7\noBreak r2\noBreak
-r4\noBreak R2.*7\noBreak r2
+r4 R2.*7 r4 r
+r4 R2.*7 r4 r
+r4 R2.*7 r4 r

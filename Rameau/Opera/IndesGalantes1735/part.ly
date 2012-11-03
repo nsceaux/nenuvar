@@ -18,8 +18,8 @@
   \markuplist\abs-fontsize-lines #8 \table-of-contents
 }
 
-\include "Rameau/Opera/IndesGalantes/prologue.ily"
-\include "Rameau/Opera/IndesGalantes/turc.ily"
-\include "Rameau/Opera/IndesGalantes/incas.ily"
-\include "Rameau/Opera/IndesGalantes/fleurs.ily"
-\include "Rameau/Opera/IndesGalantes/sauvages.ily"
+\include "Rameau/Opera/IndesGalantes1735/prologue.ily"
+\include "Rameau/Opera/IndesGalantes1735/turc.ily"
+\include "Rameau/Opera/IndesGalantes1735/incas.ily"
+\include "Rameau/Opera/IndesGalantes1735/fleurs.ily"
+\include "Rameau/Opera/IndesGalantes1735/sauvages.ily"
