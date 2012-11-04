@@ -5,8 +5,10 @@
         \global \keepWithTag #'dessus1 \includeNotes "dessus"
       >>
       \new Staff << \global \keepWithTag #'dessus2 \includeNotes "dessus" >>
-      \new Staff << \global \includeNotes "haute-contre" >>
-      \new Staff << \global \includeNotes "taille" >>
+      \new Staff <<
+        \global \keepWithTag #'haute-contre \includeNotes "parties"
+      >>
+      \new Staff << \global \keepWithTag #'taille \includeNotes "parties" >>
       \new Staff << \global \includeNotes "basson" >>
       \new Staff <<
         \global \includeNotes "basse"
@@ -33,11 +35,11 @@
       >>
       \new Staff <<
         \instrumentName "[Hautes-contres]"
-        \global \includeNotes "haute-contre"
+        \global \keepWithTag #'haute-contre \includeNotes "parties"
       >>
       \new Staff <<
         \instrumentName "[Tailles]"
-        \global \includeNotes "taille"
+        \global \keepWithTag #'taille \includeNotes "parties"
       >>
       \new Staff <<
         \instrumentName "Bassons"

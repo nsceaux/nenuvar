@@ -12,8 +12,5 @@
       \global \includeNotes "dessus3"
     >>
   >>
-  \layout {
-    indent = \largeindent
-  }
-  \midi { }
+  \layout { indent = \largeindent }
 }

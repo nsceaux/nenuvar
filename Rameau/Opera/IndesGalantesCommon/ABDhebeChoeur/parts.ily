@@ -1,10 +1,4 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
-                   (violons #:score "score-musettes")
-                   (hautbois #:score "score-musettes")
-                   (flutes #:score "score-flutes")
-                   (haute-contre #:notes "haute-contre-taille"
-                                 #:tag-notes haute-contre)
-                   (taille #:notes "haute-contre-taille"
-                           #:tag-notes taille)
+                   (parties #:music ,#{ s8 s2.*30\noBreak #})
                    (basse #:score "score-basses")
                    (silence #:score "score-silence"))

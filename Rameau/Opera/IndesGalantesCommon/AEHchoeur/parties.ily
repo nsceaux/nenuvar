@@ -1,4 +1,4 @@
-\tag #'(haute-contre conducteur) \clef "haute-contre"
+\tag #'(haute-contre parties) \clef "haute-contre"
 \tag #'taille \clef "taille"
 r4 |
 r4 r re''8 re'' |
@@ -32,7 +32,7 @@ do''4. do''8 do'' do'' |
 fad'2 r8
 \tag #'haute-contre { la'8 la'2. }
 \tag #'taille { fad'8 | fad'2. }
-\tag #'conducteur << { la'8 | la'2. } \\ { fad'8 | fad'2. } >> |
+\tag #'parties << { la'8 | la'2. } \\ { fad'8 | fad'2. } >> |
 sol'4 sol'8 sol' mi' mi' |
 red'8 mi' mi'4 la' |
 sold'2~ sold'8 la'16 si' |

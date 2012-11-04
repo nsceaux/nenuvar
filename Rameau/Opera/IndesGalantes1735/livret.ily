@@ -53,7 +53,7 @@
 \livretVerse#5 { Suivez vôtre ardeur, }
 \livretVerse#6 { Chantez vôtre bonheur, }
 \livretVerse#8 { Mais sans offenser le mystere. }
-\includeScore #'AEEmenuet
+\livretRef #'AEEmenuet
 \livretDescPage\wordwrap-center {
   Danses interrompues par le bruit des Tambours.
 }

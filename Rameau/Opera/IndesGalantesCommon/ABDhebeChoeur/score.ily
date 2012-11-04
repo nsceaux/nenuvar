@@ -3,7 +3,7 @@
     \origVersion\new StaffGroupNoBar <<
       %% Hebé
       \new Staff \with { \haraKiri } \withLyrics <<
-        \global \keepWithTag #'conducteur \includeNotes "hebe"
+        \global \keepWithTag #'conducteur \includeNotes "voix"
         \vA {
           s4 s2.*35
           <>^\markup\character Hebé
@@ -81,13 +81,13 @@
           s2.*11 <>^"h.c. et tailles"
           s2.*18 <>^"h.c." _"Tailles"
         }
-        \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+        \global \keepWithTag #'parties \includeNotes "parties"
       >>
       \vB\new Staff <<
-        \global \keepWithTag #'haute-contre \includeNotes "haute-contre-taille"
+        \global \keepWithTag #'haute-contre \includeNotes "parties"
       >>
       \vB\new Staff <<
-        \global \keepWithTag #'taille \includeNotes "haute-contre-taille"
+        \global \keepWithTag #'taille \includeNotes "parties"
       >>
       %% Basses
       \new Staff \with { \haraKiriFirst } <<
@@ -167,7 +167,7 @@
         shortInstrumentName = \markup\center-column {h-c t} }
       <<
         \new Staff <<
-          \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+          \global \keepWithTag #'parties \includeNotes "parties"
           >>
         >>
       %% Hebé & Chœur 
@@ -177,7 +177,7 @@
           shortInstrumentName = \markup H }
         <<
           \new Staff \with { \haraKiri } \withLyrics <<
-            \global \keepWithTag #'conducteur \includeNotes "hebe"
+            \global \keepWithTag #'conducteur \includeNotes "voix"
           >> \keepWithTag #'hebe \includeLyrics "paroles"
         >>
         \new Staff \with { \haraKiriFirst } \withLyrics <<

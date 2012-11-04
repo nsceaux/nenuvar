@@ -23,7 +23,7 @@
         \global \keepWithTag #'violons \includeNotes "dessus"
       >>
       \new Staff <<
-        \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+        \global \keepWithTag #'parties \includeNotes "parties"
       >>
       \vB\new Staff \with { \haraKiriFirst } <<
         { s4 s1*5 \startHaraKiri }
@@ -64,7 +64,7 @@
         >>
         \new Staff <<
           \instrumentName\markup\center-column { Hautes-contre Tailles }
-          \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+          \global \keepWithTag #'parties \includeNotes "parties"
         >>
         \new Staff <<
           \vA\instrumentName "Tymbales"

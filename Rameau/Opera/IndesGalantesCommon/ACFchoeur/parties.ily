@@ -1,6 +1,6 @@
-\tag #'(haute-contre conducteur) \clef "haute-contre"
+\tag #'(haute-contre parties) \clef "haute-contre"
 \tag #'taille \clef "taille"
-\origVersion\tag #'conducteur <>^\markup {
+\origVersion\tag #'parties <>^\markup {
   \vA "h.c. et Taille"
   \vB "hautecontre et taille"
 }

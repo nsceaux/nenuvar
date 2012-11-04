@@ -1,6 +1,6 @@
-\tag #'(conducteur haute-contre) \clef "haute-contre"
+\tag #'(parties haute-contre) \clef "haute-contre"
 \tag #'taille \clef "taille"
-fad'4-\tag #'conducteur ^\markup\orig-version {
+fad'4-\tag #'parties ^\markup\orig-version {
   \vB { haute-c[ontre] et taille }
   \vA { h.c. et Taille }
 } |

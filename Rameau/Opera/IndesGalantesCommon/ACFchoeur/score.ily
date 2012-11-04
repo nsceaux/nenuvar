@@ -21,7 +21,7 @@
       \new Staff << \global \keepWithTag #'violon1 \includeNotes "dessus" >>
       \new Staff << \global \keepWithTag #'violon2 \includeNotes "dessus" >>
       \new Staff <<
-        \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+        \global \keepWithTag #'parties \includeNotes "parties"
       >>
       \new Staff <<
         \global \keepWithTag #'basse \includeNotes "basse"
@@ -53,7 +53,7 @@
         >>
         \new Staff <<
           \instrumentName \markup \center-column { Haute-contres Tailles }
-          \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille" >>
+          \global \keepWithTag #'parties \includeNotes "parties" >>
       >>
       \new ChoirStaff \with {
         instrumentName = \markup { \smallCaps Chœur \hspace #6 } }

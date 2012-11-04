@@ -1,22 +1,22 @@
-\tag #'(haute-contre conducteur) \clef "haute-contre"
+\tag #'(haute-contre parties) \clef "haute-contre"
 \tag #'taille \clef "taille"
 r8 | R2.*2 |
 \set countPercentRepeats = ##t
 \set repeatCountVisibility = #(every-nth-repeat-count-visible 4)
 \tag #'haute-contre \rp#10 re'2. |
 \tag #'taille \rp#10 sol2. |
-\tag #'conducteur \ru#10 <sol re'>2. |
+\tag #'parties \ru#10 <sol re'>2. |
 \vA <re' sol>2 \vB re'2 r4 |
 R2. |
 \tag #'haute-contre \rp#7 re'2.
 \tag #'taille \rp#7 sol2.
-\tag #'conducteur \ru#7 <sol re'>2.
+\tag #'parties \ru#7 <sol re'>2.
 R2. |
 \tag #'haute-contre { \rp#7 re'2. | re'2 }
 \tag #'taille { \rp#7 sol2. | sol2 }
-\tag #'conducteur { \ru#7 <sol re'>2. | <sol re'>2 }
-r4-\tag #'conducteur ^\markup\whiteout\vA "H[autes]-c[ontre] et tailles"
--\tag #'conducteur ^\markup\whiteout\vB "[Hautes-contre et tailles]" |
+\tag #'parties { \ru#7 <sol re'>2. | <sol re'>2 }
+r4-\tag #'parties ^\markup\whiteout\vA "H[autes]-c[ontre] et tailles"
+-\tag #'parties ^\markup\whiteout\vB "[Hautes-contre et tailles]" |
 r4 r r8 sol'8 |
 si'2 si'8 si' |
 re''2 si'8 si' |
@@ -42,5 +42,5 @@ r4 r sol'4 |
 sol'4. sol'8
 \tag #'haute-contre { do''4 | si'2 }
 \tag #'taille { re'4 | re'2 }
-\tag #'conducteur << { do''4 si'2 } \\ { re'4 re'2 } >>
+\tag #'parties << { do''4 si'2 } \\ { re'4 re'2 } >>
 \vA { r4 R2.*6 }

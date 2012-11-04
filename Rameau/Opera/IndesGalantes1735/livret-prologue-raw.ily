@@ -51,7 +51,7 @@
 %# Suivez vôtre ardeur,
 %# Chantez vôtre bonheur,
 %# Mais sans offenser le mystere.
-\includeScore #'AEEmenuet
+\livretRef #'AEEmenuet
 \livretDescPage\wordwrap-center {
   Danses interrompues par le bruit des Tambours.
 }

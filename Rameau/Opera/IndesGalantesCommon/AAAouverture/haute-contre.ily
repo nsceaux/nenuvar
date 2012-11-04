@@ -48,7 +48,7 @@ red''4 fad' si'2 |
 si'2. si'4 |
 sol'4 do'' si' la' |
 sold'2 r |
-R1*6 |
+R1*6 | \allowPageTurn
 r8 mi'' re'' do'' si' la' sold' fad' |
 mi'4. la'8 la'4. sold'8 |
 la' mi' fad' sold' la'2 |

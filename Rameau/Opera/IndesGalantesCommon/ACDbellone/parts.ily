@@ -1,6 +1,5 @@
 \piecePartSpecs #`((dessus #:instrument "Violons")
-                   (haute-contre)
-                   (taille)
+                   (parties #:score-template "score-parties")
                    (basse)
                    (timbales)
                    (silence #:score "score-silence"))

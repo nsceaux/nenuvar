@@ -18,11 +18,11 @@
       %% Violons
       \new Staff << \global \keepWithTag #'dessus \includeNotes "dessus" >>
       \new Staff <<
-        \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+        \global \keepWithTag #'parties \includeNotes "parties"
       >>
       \vA\new Staff \with { \haraKiri } <<
         { <>_"comme la h.c." s4 s2.*5\startHaraKiri }
-        \global \keepWithTag #'taille \includeNotes "haute-contre-taille"
+        \global \keepWithTag #'taille \includeNotes "parties"
       >>
       \new Staff <<
         \global \includeNotes "basse"
@@ -65,7 +65,7 @@
           \vA\instrumentName\markup\center-column { [Hautes-contre Tailles] }
           \vB\instrumentName\markup\center-column { Hautes-contre Tailles }
           \global
-          \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+          \keepWithTag #'parties \includeNotes "parties"
         >>
       >>
       \new ChoirStaff \with {
