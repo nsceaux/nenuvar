@@ -61,7 +61,7 @@
         >>
         \new Staff <<
           \instrumentName\markup\center-column { Haute-contres Tailles }
-          \global \keepWithTag #'conducteur \includeNotes "parties"
+          \global \keepWithTag #'parties \includeNotes "parties"
         >>
       >>
       \new Staff \withLyrics <<

@@ -30,7 +30,7 @@
       \new Staff <<
         { \once\override TextScript #'outside-staff-priority = #9999
           <>^"h[aute]-c[ontre]" _"La Taille comme la h.c." }
-        \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+        \global \keepWithTag #'conducteur \includeNotes "parties"
       >>
       \new Staff <<
         <>^"Bassons"
@@ -81,7 +81,7 @@
         >>
         \new Staff \with { \smallStaff } <<
           \instrumentName\markup\center-column { Hautes-contre Tailles }
-          \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+          \global \keepWithTag #'conducteur \includeNotes "parties"
         >>
         \new Staff \with { \smallStaff } <<
           \instrumentName "Bassons"

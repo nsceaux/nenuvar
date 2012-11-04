@@ -1,13 +1,13 @@
-\tag #'(haute-contre conducteur) \clef "haute-contre"
+\tag #'(haute-contre parties) \clef "haute-contre"
 \tag #'taille \clef "taille"
 \ru#16 sol16 |
 <<
-  \tag #'(haute-contre conducteur) \new Voice {
-    \tag #'conducteur \voiceOne
+  \tag #'(haute-contre parties) \new Voice {
+    \tag #'parties \voiceOne
     \ru#16 do'16 |
   }
-  \tag #'(taille conducteur) \new Voice {
-    \tag #'conducteur \voiceTwo
+  \tag #'(taille parties) \new Voice {
+    \tag #'parties \voiceTwo
     \ru#16 sol16 |
   }
 >>

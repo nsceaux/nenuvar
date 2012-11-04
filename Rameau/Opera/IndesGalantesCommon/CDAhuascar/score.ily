@@ -5,10 +5,10 @@
         \global \includeNotes "dessus"
       >>
       \new Staff \with { \haraKiri } <<
-        \global \includeNotes "haute-contre"
+        \global \keepWithTag #'haute-contre \includeNotes "parties"
       >>
       \new Staff \with { \haraKiri } <<
-        \global \includeNotes "taille"
+        \global \keepWithTag #'taille \includeNotes "parties"
       >>
     >>
     \modVersion\new StaffGroupNoBracket <<
@@ -18,11 +18,11 @@
       >>
       \new Staff \with { \haraKiri } <<
         \instrumentName "[Hautes-contre]"
-        \global \includeNotes "haute-contre"
+        \global \keepWithTag #'haute-contre \includeNotes "parties"
       >>
       \new Staff \with { \haraKiri } <<
         \instrumentName "[Tailles]"
-        \global \includeNotes "taille"
+        \global \keepWithTag #'taille \includeNotes "parties"
       >>
     >>
     \new Staff \withLyrics <<

@@ -1,4 +1,4 @@
-\tag #'(conducteur haute-contre) \clef "haute-contre"
+\tag #'(conducteur parties haute-contre) \clef "haute-contre"
 \tag #'taille \clef "taille"
 r8 |
 r2 r4 r8 r16 sol\doux |
@@ -128,7 +128,8 @@ mi'32 do' do' do' do' do' do' do' do' do' do' do' do'4 do'8 |
 }
 \vB {
   lab4 sib8 do'4 do'8 |
-  << \tag #'(haute-contre conducteur) do'2 \tag #'(taille conducteur) fa2 >> r |
+  << \tag #'(haute-contre conducteur parties) do'2
+    \tag #'(taille conducteur parties) fa2 >> r |
   \ru#16 do'16 |
   \ru#16 fa' |
   \ru#16 fa' |

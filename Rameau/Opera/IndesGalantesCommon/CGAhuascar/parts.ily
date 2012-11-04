@@ -1,5 +1,4 @@
 \piecePartSpecs #`((dessus #:tag-notes conducteur)
-                   (haute-contre #:notes "parties" #:tag-notes haute-contre)
-                   (taille #:notes "parties" #:tag-notes taille)
+                   (parties)
                    (basse #:score-template "score-basse-continue")
                    (silence #:score "score-silence"))

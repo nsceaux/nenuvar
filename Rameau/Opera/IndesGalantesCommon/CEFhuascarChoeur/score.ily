@@ -29,7 +29,7 @@
           \vA <>^\markup\whiteout { H[aute]-c[ontre] et Taille }
           \vB <>^\markup\whiteout "[Hautes-contre et tailles]"
         }
-        \global \includeNotes "haute-contre-taille"
+        \global \includeNotes "parties"
       >>
     >>
     \setMusic #'huascar \new Staff \with { \haraKiri } \withLyrics <<

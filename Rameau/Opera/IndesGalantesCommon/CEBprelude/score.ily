@@ -26,7 +26,7 @@
       \new Staff <<
         \vA <>^"H[aute]-c[contre] et Taille"
         \vB <>^"hautec et tailles"
-        \global \includeNotes "haute-contre-taille"
+        \global \includeNotes "parties"
       >>
       \new Staff <<
         \vA <>^"Basses"
@@ -56,7 +56,7 @@
         \instrumentName\markup\center-column {
           Hautes-contre "et Tailles"
         }
-        \global \includeNotes "haute-contre-taille"
+        \global \includeNotes "parties"
       >>
       \new Staff <<
         \vA\instrumentName "Basses"
