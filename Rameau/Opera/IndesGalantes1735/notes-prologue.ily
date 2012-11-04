@@ -1,5 +1,13 @@
 \markuplist\column-lines {
   \livretAct\line { Prologue }
+
+  \justify {
+    Le prologue a subi des modifications dans l’ordre des pièces.
+    On s'est basé sur les parties séparées de second violon et de basse
+    pour déterminer les pièces qui figuraient originalement, et dans
+    quel ordre.
+  }
+
   \livretRef #'ABAentree
   \livretDescAttPage\wordwrap { ENTRÉE DE LA SUITE D’HEBÉ }
   \wordwrap {
@@ -13,17 +21,13 @@
     barrée, avec l’indication \italic { “passez”. }
   }
 
-  \livretRef #'ABBhebe
-  \livretDescAttPage\wordwrap { HEBÉ : \italic { Amants, surs de plaire } }
-  \wordwrap {
-    À partir de la mesure 82, il existe une fin alternative,
-    antérieure à celle présentée dans cette édition,
-    mais occultée par une collette.
-  }
-
   \livretRef #'ABDhebeChoeur
   \livretDescAttPage\wordwrap {
     HEBÉ, CHŒUR : \italic { Musettes, résonnez dans ce riant Boccage }
+  }
+  \wordwrap {
+    Cet air, ainsi que le rondeau suivant, ont par la suite été déplacés
+    après les menuets.
   }
   \wordwrap { La conclusion du chœur (à partir de la mesure 63) est barrée. }
   \wordwrap {
@@ -32,16 +36,12 @@
     ou encore de passer \italic { aux timbales seules. }
   }
 
-  \livretRef #'ABErondeau
-  \livretDescAttPage\wordwrap { MUSETTE EN RONDEAU }
-  \wordwrap { Après la musette en rondeau, on lit, d’une autre plume : }
-  \fill-line {
-    \score {
-      \new Staff \with { instrumentName = \markup\larger "Timbale seule" } {
-        \clef "bass" r8 re16 re re4 la,8 la,16 la, la, la, la, la, | re2
-      }
-      \layout { \smallLayout ragged-last = ##t }
-    }
+  \livretRef #'ABBhebe
+  \livretDescAttPage\wordwrap { HEBÉ : \italic { Amants, surs de plaire } }
+  \wordwrap {
+    À partir de la mesure 82, il existe une fin alternative,
+    antérieure à celle présentée dans cette édition,
+    mais occultée par une collette.
   }
 
   \livretRef #'ACDbellone

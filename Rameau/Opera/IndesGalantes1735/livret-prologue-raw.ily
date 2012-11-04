@@ -21,21 +21,6 @@
   \smallCaps Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.
 }
-\livretRef #'ABBhebe
-\livretPers HEBÉ
-%# Amants, seurs de plaire
-%# Suivez vôtre ardeur,
-%# Chantez vôtre bonheur,
-%# Mais sans offenser le mistere.
-%# Il est pour un tendre cœur
-%# Des biens dont le secret augmente la douceur,
-%# Songez qu'il faut les taire.
-%# Amants, seurs de plaire
-%# Suivez vôtre ardeur,
-%# Chantez vôtre bonheur,
-%# Mais sans offenser le mystere.
-\livretRef #'ABCair
-\livretDesc\wordwrap-center { On danse. }
 \livretRef #'ABDhebeChoeur
 \livretPers HEBÉ
 %# Musettes, résonnez dans ce ri=ant Boccage,
@@ -50,9 +35,25 @@
 %# Accompagnez le doux ramage
 %# Des tendres Oiseaux.
 \livretRef #'ABErondeau
+\livretDesc\wordwrap-center {
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé. }
+}
+\livretRef #'ABBhebe
+\livretPers HEBÉ
+%# Amants, seurs de plaire
+%# Suivez vôtre ardeur,
+%# Chantez vôtre bonheur,
+%# Mais sans offenser le mistere.
+%# Il est pour un tendre cœur
+%# Des biens dont le secret augmente la douceur,
+%# Songez qu'il faut les taire.
+%# Amants, seurs de plaire
+%# Suivez vôtre ardeur,
+%# Chantez vôtre bonheur,
+%# Mais sans offenser le mystere.
+\includeScore #'AEEmenuet
 \livretDescPage\wordwrap-center {
-  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
-  interrompues par le bruit des Tambours.
+  Danses interrompues par le bruit des Tambours.
 }
 \livretRef #'ABFhebe
 \livretPers HEBÉ

@@ -27,35 +27,34 @@
 \pieceTocTitle "Entrée de la suite d’Hebé"
 \includeScore "ABAentree"
 
-%{ n°4 %}\newBookPart #'(full-rehearsal)
-\pieceToc\markup\wordwrap { HEBÉ : \italic { Amants, surs de plaire } }
-\includeScore "ABBhebe"
-
-%{ n°5 %}\newBookPart #'(full-rehearsal)
-\pieceTocTitle "Air grave pour deux Polonois"
-\includeScore "ABCair"
-
-%{ n°6 %}\newBookPart #'(full-rehearsal)
-\pieceTocTitle "Premier menuet"
-\includeScore "AEEmenuet"
-\noPageTurn
-%{ n°7 %}
-\pieceTocTitle "Second menuet"
-\includeScore "AEFmenuet"
-
-%{ n°8 %}
+%{ n°4 %}
 \pieceToc\markup\wordwrap {
   HEBÉ, CHŒUR : \italic { Musettes, résonnez dans ce riant Boccage }
 }
 \includeScore "ABDhebeChoeur"
 
-%{ n°9 %}
+%{ n°5 %}
 \sceneDescription\markup\wordwrap-center {
-  [Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
-  interrompues par le bruit des Tambours.]
+  [Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé.] }
 }
 \pieceToc "Musette en rondeau"
 \includeScore "ABErondeau"
+
+%{ n°6 %}\newBookPart #'(full-rehearsal)
+\pieceToc\markup\wordwrap { HEBÉ : \italic { Amants, surs de plaire } }
+\includeScore "ABBhebe"
+
+%{ n°7 %}\newBookPart #'(full-rehearsal)
+\pieceTocTitle "Air grave pour deux Polonois"
+\includeScore "ABCair"
+
+%{ n°8 %}\newBookPart #'(full-rehearsal)
+\pieceTocTitle "Premier menuet"
+\includeScore "AEEmenuet"
+\noPageTurn
+%{ n°9 %}
+\pieceTocTitle "Second menuet"
+\includeScore "AEFmenuet"
 \sceneDescriptionBottom\markup\wordwrap-center {
   Bruit de Tambours qui interromp le Ballet.
 }
@@ -131,17 +130,13 @@
 \pieceTocTitle "[Air pour les Amours]"
 \includeScore "AEDair"
 
-%{ n°21 %}
-\pieceTocTitle "Contredanse"
-\includeScore "AEEcontredanse"
-
-%{ n°22 %}\newBookPart #'(full-rehearsal)
+%{ n°21 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :
   \italic { Traversez les plus vastes Mers } }
 \includeScore "AEGamourHebe"
 \includeScore "AEHchoeur"
 
-%{ n°23 %}
+%{ n°22 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"
 \reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
 "AAAouverture" "AEIouverture"
