@@ -94,7 +94,7 @@ fa''4 mi'' re'' |
 re'' re'' dod''-\vA\trill |
 re''2
 %%
-\vA { r4 | R2.*6 | r4 r r8 re' | }
+\vA { r4 | R2.*6 \allowPageTurn | r4 r r8 re' | }
 \vB {
   r8 sib' |
   la'2~ la'8 sol'16 fad' |

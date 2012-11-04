@@ -23,21 +23,6 @@
   \smallCaps Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.
 }
-\livretRef #'ABBhebe
-\livretPers HEBÉ
-\livretVerse#5 { Amants, seurs de plaire }
-\livretVerse#5 { Suivez vôtre ardeur, }
-\livretVerse#6 { Chantez vôtre bonheur, }
-\livretVerse#8 { Mais sans offenser le mistere. }
-\livretVerse#7 { Il est pour un tendre cœur }
-\livretVerse#12 { Des biens dont le secret augmente la douceur, }
-\livretVerse#6 { Songez qu’il faut les taire. }
-\livretVerse#5 { Amants, seurs de plaire }
-\livretVerse#5 { Suivez vôtre ardeur, }
-\livretVerse#6 { Chantez vôtre bonheur, }
-\livretVerse#8 { Mais sans offenser le mystere. }
-\livretRef #'ABCair
-\livretDesc\wordwrap-center { On danse. }
 \livretRef #'ABDhebeChoeur
 \livretPers HEBÉ
 \livretVerse#12 { Musettes, résonnez dans ce riant Boccage, }
@@ -52,9 +37,25 @@
 \livretVerse#8 { Accompagnez le doux ramage }
 \livretVerse#5 { Des tendres Oiseaux. }
 \livretRef #'ABErondeau
+\livretDesc\wordwrap-center {
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé. }
+}
+\livretRef #'ABBhebe
+\livretPers HEBÉ
+\livretVerse#5 { Amants, seurs de plaire }
+\livretVerse#5 { Suivez vôtre ardeur, }
+\livretVerse#6 { Chantez vôtre bonheur, }
+\livretVerse#8 { Mais sans offenser le mistere. }
+\livretVerse#7 { Il est pour un tendre cœur }
+\livretVerse#12 { Des biens dont le secret augmente la douceur, }
+\livretVerse#6 { Songez qu’il faut les taire. }
+\livretVerse#5 { Amants, seurs de plaire }
+\livretVerse#5 { Suivez vôtre ardeur, }
+\livretVerse#6 { Chantez vôtre bonheur, }
+\livretVerse#8 { Mais sans offenser le mystere. }
+\includeScore #'AEEmenuet
 \livretDescPage\wordwrap-center {
-  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
-  interrompues par le bruit des Tambours.
+  Danses interrompues par le bruit des Tambours.
 }
 \livretRef #'ABFhebe
 \livretPers HEBÉ

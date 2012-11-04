@@ -15,7 +15,11 @@
 %% Table of contents
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplist\abs-fontsize-lines #8 \table-of-contents
+  \markuplist
+  \abs-fontsize-lines #8
+  \override-lines #'(use-rehearsal-numbers . #t)
+  \override-lines #'(column-number . 2)
+  \table-of-contents
 }
 
 \include "Rameau/Opera/IndesGalantes1735/prologue.ily"

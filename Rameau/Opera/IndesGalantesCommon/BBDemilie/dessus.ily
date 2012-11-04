@@ -9,7 +9,7 @@
     sib''4 r
   }
   \tag #'(violon1 violon2 conducteur2) {
-    \vB<>_\doux \ru#24 sib'32 \ru#8 lab' |
+    <>\doux \ru#24 sib'32 \ru#8 lab' |
     \ru#16 sol'32 \ru#16 sib' |
     sib'8.[ sib'32*2/3 lab' sol'] lab'32[ do'' do'' do'' do'' do'' do'' do''] do''8.[ do''32*2/3 re'' mib''] |
     re''8-\vB( re''-\vB) mib''( do'') re''( fa'') mib''( do'') |

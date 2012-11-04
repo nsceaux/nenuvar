@@ -37,9 +37,10 @@ sib' sol' la' sib' do'' re'' mi'' fad'' sol''8 r |
 \ru#32 sib''32 |
 sib''32 la'' sol'' fa'' mib'' re'' do'' sib' sib''32 la'' sol'' fa'' mib'' re'' do'' sib'
 fa'4 r8 r32 sol' fa' mib' |
-\clef "dessus2" re'8 r r4 sol'16(-\vB_\doux sib') sol'16( sib') sol'16( sib') sol'16( sib') |
+\clef "dessus2" re'8 r r4 sol'16(\doux sib') sol'16( sib') sol'16( sib') sol'16( sib') |
 \setMusic #'reprise {
-  la' do'' la' do'' la' do'' la' do'' la' do'' la' do'' sib' re'' sib' re'' |
+  la'( do'') la'( do'') la'( do'') la'( do'')
+  la'( do'') la'( do'') sib'( re'') sib'( re'') |
   sol'8 la' sol' la' fad' la' re' fad' |
   sol sol' sol sol' sib sol' sib sol' |
   do'16 sol' do'16 sol' do'16 sol' do'16 sol' do' fa' do' fa' la fa' la fa' |
@@ -47,17 +48,17 @@ fa'4 r8 r32 sol' fa' mib' |
   re'8 la' re' la' re' la' re' la' |
   sol'16 si' sol'16 si' sol'16 si' sol'16 si' fa' re'' fa' re'' fa' re'' fa' re'' |
   mib' do'' mib' do'' do' mib' do' mib' re' sol' re' sol' re' fad' re' fad' |
-  sol'4 r16 r32 re' mi' fa' sol' la'
-  \clef "dessus" sib'32_\fort sib' sib' sib' sib' sib' sib' sib'
+  sol'4 r16 r32 re'\fort mi' fa' sol' la'
+  \clef "dessus" sib'32 sib' sib' sib' sib' sib' sib' sib'
   re''32 re'' re'' re'' sol'' sol'' sol'' sol'' |
 }
 \tag #'() \reprise
-sib''16 sib' la' sol' fa' mib' re' do' sib8 r r16 sib do' sib |
+sib''16 sib' la' sol' fa' mib' re' do' sib8 r r16 sib\doux do' sib |
 la32 fa' fa' fa' fa' fa' fa' fa' \ru#8 fa'32 fa'32 fa' fa' fa' fa' fa' fa' mi' |
 fa' fa' sol' la' sib' do'' re'' mi'' fa'' sol'' la''16 r8 r r16*1/2 la''32 sib'' la'' sol''8.-\vB\trill sol''16 |
 sol''8.*5/6 sol''32 fa'' mi'' fa''8 r r r16*1/2 fa''32 sol'' fa'' mi''8.*5/6 mi''32 fad'' sol'' |
 fad''32 re'' mi'' fad'' sol'' la'' sib'' do''' \ru#8 re'''32 \ru#16 re'''32 |
 re'''8 r r4
-\clef "dessus2" sol'16-\vA( sib'-\vA) sol'-\vA( sib'-\vA)
-sol'-\vA( sib'-\vA) sol'-\vA( sib'-\vA) |
+\clef "dessus2" sol'16(\doux sib') sol'( sib')
+sol'( sib') sol'( sib') |
 \origVersion{ \custosNote la'1 }

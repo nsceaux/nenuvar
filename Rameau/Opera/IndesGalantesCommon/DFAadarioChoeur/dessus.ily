@@ -18,7 +18,7 @@ sol'2 sol'4 la' |
 \appoggiatura la'8 sib'1 |
 la'4 la'8 la' re''4. mi''8 |
 dod''2 r |
-R1*2 |
+R1*2 |\allowPageTurn
 mi''2 mi''4. mi''8 |
 \appoggiatura mi''8 fa''2 fad''4.\trill( mi''16 fad'') |
 sol''4 fa''8 mib'' re'' do'' sib' la' |
