@@ -1,18 +1,18 @@
-\tag #'(haute-contre conducteur) \clef "haute-contre"
+\tag #'(haute-contre parties) \clef "haute-contre"
 \tag #'taille \clef "taille"
 \override BreathingSign #'text = \markup { \musicglyph #"scripts.rvarcomma" }
 \override BreathingSign #'Y-offset = #3.5
 <<
   \tag #'haute-contre re''4
-  \vB\tag #'conducteur {
+  \vB\tag #'parties {
     s8 s^\markup\whiteout { haute-contre et taille }
   }
-  \vB\tag #'(taille conducteur) <<
+  \vB\tag #'(taille parties) <<
     { \voiceOne re''4 \oneVoice }
     \new CueVoice { \voiceTwo sol'4_"[Manuscrit 1750 : taille]" }
   >>
   \vA\tag #'taille sol'4
-  \vA\tag #'conducteur << re''4 \\ sol' >>
+  \vA\tag #'parties << re''4 \\ sol' >>
 >> r4 r2 r2 |
 R1. |
 <<

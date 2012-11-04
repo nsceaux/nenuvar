@@ -7,7 +7,7 @@
         \vB\noHaraKiri
         \vA { s1*9 <>-"h.c. et taille" }
         \global
-        \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+        \keepWithTag #'parties \includeNotes "parties"
       >>
       \new Staff <<
         \global \includeNotes "basse"
@@ -32,7 +32,7 @@
       \new Staff <<
         \instrumentName\markup\center-column { Hautes-contre Tailles }
         \global
-        \keepWithTag #'conducteur \includeNotes "haute-contre-taille"
+        \keepWithTag #'parties \includeNotes "parties"
       >>
       \new Staff <<
         \instrumentName "[Basses]"

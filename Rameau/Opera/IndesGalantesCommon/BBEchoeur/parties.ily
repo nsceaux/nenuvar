@@ -1,4 +1,4 @@
-\tag #'haute-contre \clef "haute-contre"
+\tag #'(haute-contre parties) \clef "haute-contre"
 \tag #'taille \clef "taille" si'8 re'' |
 sol'2 sol'8 sol' |
 sol'4. fa'8 fa' fa' |

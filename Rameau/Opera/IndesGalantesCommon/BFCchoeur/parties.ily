@@ -1,4 +1,4 @@
-\tag #'haute-contre \clef "haute-contre"
+\tag #'(haute-contre parties) \clef "haute-contre"
 \tag #'taille \clef "taille"
 r4 |
 r r r8 la' |

@@ -1,4 +1,4 @@
-\tag #'(haute-contre conducteur) \clef "haute-contre"
+\tag #'(haute-contre parties) \clef "haute-contre"
 \tag #'taille \clef "taille"
 \vB <>^\markup\orig-version "hautec. et taille"
 \vA R1*14 \vB { r4 | R1*13 } |
@@ -23,7 +23,7 @@ do'' dod''-\vA\trill re'' re' |
     cette mesure
   }
   \parenthesize r |
-  s1*13
+  \new CueVoice R1*13
 }
 \vB {
   << \origVersion { la'2~ la'4 } \modVersion la'2. >> fa'4 |

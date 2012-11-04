@@ -25,7 +25,7 @@
       >>
       \new Staff <<
         \vA <>^"H.c. et Taille"
-        \global \keepWithTag #'haute-contre \includeNotes "haute-contre-taille"
+        \global \keepWithTag #'haute-contre \includeNotes "parties"
       >>
       \vA\choeur
       \new Staff <<
@@ -66,7 +66,7 @@
           \vA\instrumentName\markup\center-column { Hautes-contre Tailles }
           \vB\instrumentName\markup\center-column { [Hautes-contre Tailles] }
           \global \keepWithTag #'haute-contre
-          \includeNotes "haute-contre-taille"
+          \includeNotes "parties"
         >>
       >>
       \new ChoirStaff \with {

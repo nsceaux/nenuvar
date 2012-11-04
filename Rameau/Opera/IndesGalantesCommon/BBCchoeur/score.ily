@@ -76,7 +76,7 @@
         \new Staff << \global \includeNotes "flute" >>
         \new Staff << \global \includeNotes "violon" >>
         \new Staff <<
-          \global \keepWithTag #'conducteur \includeNotes "parties"
+          \global \keepWithTag #'parties \includeNotes "parties"
         >>
         \new Staff <<
           \global \keepWithTag #'basson \includeNotes "basse"

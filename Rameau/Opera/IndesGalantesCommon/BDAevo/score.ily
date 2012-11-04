@@ -8,10 +8,10 @@
         \global \includeNotes "dessus"
       >>
       \new Staff \with { \haraKiriFirst } <<
-        \global \includeNotes "haute-contre"
+        \global \keepWithTag #'hc-conducteur \includeNotes "parties"
       >>
       \new Staff \with { \haraKiriFirst } <<
-        \global \includeNotes "taille"
+        \global \keepWithTag #'t-conducteur \includeNotes "parties"
       >>
       \new Staff \with { \haraKiriFirst } <<
         \global \keepWithTag #'basson \includeNotes "basse"
@@ -60,10 +60,10 @@
           \global \includeNotes "dessus"
         >>
         \new Staff \with { \haraKiriFirst } <<
-          \global \includeNotes "haute-contre"
+          \global \keepWithTag #'hc-conducteur \includeNotes "parties"
         >>
         \new Staff \with { \haraKiriFirst } <<
-          \global \includeNotes "taille"
+          \global \keepWithTag #'t-conducteur \includeNotes "parties"
         >>
         \new Staff \with { \haraKiriFirst } <<
           \global \keepWithTag #'basson \includeNotes "basse"
