@@ -1,13 +1,11 @@
 \score {
-  \new GrandStaff <<
+  \new GrandStaff \with { instrumentName = "Violons" } <<
     \new Staff <<
-      \instrumentName\markup\center-column { Trompettes Violons }
-      \vA<>^"Trompettes"
-      \global \keepWithTag #'dessus1 \includeNotes "dessus"
+      \global \keepWithTag #'violon1-part \includeNotes "dessus"
     >>
     \new Staff \with { \haraKiriFirst } <<
-      \global \keepWithTag #'dessus2 \includeNotes "dessus"
+      \global \keepWithTag #'violon2-part \includeNotes "dessus"
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
 }

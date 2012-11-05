@@ -8,7 +8,7 @@
       \new Staff << \global \includeNotes "dessus2" >>
       \new Staff <<
         <>^"H[aute]-c[ontre] et Taille"
-        \global \includeNotes "haute-contre-taille"
+        \global \includeNotes "parties"
       >>
       \new Staff <<
         <>^"Tous"
@@ -30,7 +30,7 @@
       >>
       \new Staff <<
         \instrumentName\markup\center-column { H[aute]-c[ontre] Taille }
-        \global \includeNotes "haute-contre-taille"
+        \global \includeNotes "parties"
       >>
       \new Staff <<
         \instrumentName "[Basses]"

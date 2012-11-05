@@ -1,6 +1,5 @@
 \piecePartSpecs #`((dessus)
-                   (haute-contre #:notes "parties")
-                   (taille #:notes "parties")
+                   (parties)
                    (basse #:score-template "score-basse-continue-voix"
                           #:music ,#{
                           s2.*25 s4 \bar "" \break

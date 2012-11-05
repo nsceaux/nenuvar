@@ -25,7 +25,7 @@ si'2 r4 re''8 do'' |
 si'4 re''8 do'' si'4\trill la'8 sol' |
 do''2~ do''8 re'' si' do'' |
 re'' do'' si' do'' re'' mi'' fa'' re'' |
-mi''4 fa'' re''4.\trill do''8 |
+mi''4. fa''8 re''4.\trill do''8 |
 do''4 mi'' la''2~ |
 la''4 mi''8 fad'' sol''4 la''8 sol'' |
 fad''4-\vA\trill re''8 mi'' fad'' sol'' la'' si'' |
@@ -54,14 +54,14 @@ mi''2 r |
 \setMusic #'hbI { 
   si'4. do''8 re'' re'' do'' si' |
   do''4. re''8 mi'' mi'' re'' do'' |
-  si'4. do''8 re'' re'' do'' si' |
+  si'4.\trill do''8 re'' re'' do'' si' |
   do''4. re''8 mi'' mi'' re'' do'' |
-  si'2
+  si'2\trill
 }
 \setMusic #'hbII {
   sold'4. la'8 si' si' la' sold' |
   la'4. si'8 do'' do'' si' la' |
-  sold'4. la'8 si' si' la' sold' |
+  sold'4.\trill la'8 si' si' la' sold' |
   la'4. si'8 do'' do'' si' la' |
   sold'2
 }
@@ -85,7 +85,7 @@ fad''4 re''8 mi'' fad'' sol'' la'' fad'' |
 sol''4. la''8 la''4.(\trill sol''16 la'') |
 si''4 sol''8 la'' si'' do''' re''' si'' |
 do'''4. si''8 la'' sol'' fad'' mi'' |
-fad''4. sol''8 sol''4.\trill -\vB( \vA la''16 \vB fad''16 sol''-\vB) |
+fad''4. sol''8 sol''4.\trill fad''16 sol'' |
 la''2 r |
 %% hautbois 1&2
 \setMusic #'hbI {

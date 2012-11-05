@@ -107,4 +107,10 @@
     \Crest
   }
   \tag #'trompette { \Atrompette \Brest \Ctrompette }
+  \tag #'violon1-part {
+    \new CueVoice { <>^"Trompette" \Atrompette }
+    \new Voice { <>^"Violons" \BviolonI }
+    \new CueVoice { <>^"Trompette" \Ctrompette }
+  }
+  \tag #'violon2-part { \Arest \BviolonII \Crest }
 >>

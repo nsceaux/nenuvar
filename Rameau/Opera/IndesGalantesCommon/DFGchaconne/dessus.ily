@@ -253,7 +253,7 @@ mi''8 la''4 fad'' re''8~ |
     R2.*27 | r8^"Tromp. et hautb."
   }
   \tag #'(violons violon1 violon2 hautbois) {
-    <>^"avec les hautbois" \fort
+    \allowPageTurn <>^"avec les hautbois" \fort
     re''8 re''16 mi'' fad'' sol'' fad'' sol'' la''8 la'' |
     la'' re''16 mi'' fad'' sol'' fad'' sol'' la''8 re'' |
     sol'' si''16 la'' sol'' fad'' mi'' re'' mi'' re'' dod'' si' |
