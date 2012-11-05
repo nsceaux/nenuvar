@@ -23,7 +23,7 @@
 %% 1er couplet
 fa'2 fa'4 fa' |
 fa'2 do''8 mib'' la' do'' |
-\footnoteHere\markup {
+\origVersion\footnoteHere\markup {
   Source A132a2, mesure 19, taille : \raise #3 \score {
     \new Staff {
       \tinyQuote \clef "mezzosoprano" \key sol \minor \digitTime\time 2/2

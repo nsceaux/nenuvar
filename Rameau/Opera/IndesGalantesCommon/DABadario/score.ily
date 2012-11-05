@@ -5,7 +5,7 @@
         \global \includeNotes "dessus"
       >>
       \new Staff \with { \haraKiriFirst } <<
-        \global \keepWithTag #'parties \includeNotes "parties"
+        \global \keepWithTag #'(parties conducteur) \includeNotes "parties"
       >>
       \new Staff \withLyrics <<
         <>^\markup\character Adario
@@ -28,7 +28,7 @@
           \global \includeNotes "dessus"
         >>
         \new Staff \with { \haraKiriFirst } <<
-          \global \keepWithTag #'parties \includeNotes "parties"
+          \global \keepWithTag #'(parties conducteur) \includeNotes "parties"
         >>
         \new Staff \with { \haraKiriFirst } <<
           \global \keepWithTag #'basse \includeNotes "basse"

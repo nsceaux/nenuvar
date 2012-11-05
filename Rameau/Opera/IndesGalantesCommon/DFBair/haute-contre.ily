@@ -1,7 +1,7 @@
 \clef "haute-contre"
 \setMusic #'rondeau {
   sol'2 sol'4 sol' |
-  fad'2 la'8 do'' fad' la' |
+  fad'2 la'8 do'' fad'! la' |
   re'4 re' fad' fad' |
   sol'2 re'8 sol' sib' re'' |
   sol'4 sol' sib' re'' |
