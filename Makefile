@@ -1587,18 +1587,12 @@ Rameau/Opera/IndesGalantes1735-trompette:
 	-o $(OUTPUT_DIR)/IndesGalantes1735-trompette -dpart=trompette  \
 	Rameau/Opera/IndesGalantes1735/part-tt.ly
 .PHONY: Rameau/Opera/IndesGalantes1735-trompette
-# Hautes-contre
-Rameau/Opera/IndesGalantes1735-haute-contre:
+# Hautes-contre et Tailles
+Rameau/Opera/IndesGalantes1735-parties:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes1735-haute-contre -dpart=haute-contre  \
+	-o $(OUTPUT_DIR)/IndesGalantes1735-parties -dpart=parties  \
 	Rameau/Opera/IndesGalantes1735/part.ly
-.PHONY: Rameau/Opera/IndesGalantes1735-haute-contre
-# Tailles
-Rameau/Opera/IndesGalantes1735-taille:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes1735-taille -dpart=taille  \
-	Rameau/Opera/IndesGalantes1735/part.ly
-.PHONY: Rameau/Opera/IndesGalantes1735-taille
+.PHONY: Rameau/Opera/IndesGalantes1735-parties
 # Basses
 Rameau/Opera/IndesGalantes1735-basse:
 	$(LILYPOND_CMD) \
@@ -1618,8 +1612,7 @@ Rameau/Opera/IndesGalantes1735-delivery:
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-concert.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-dessus.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-trompette.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-trompette.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-haute-contre.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-taille.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-parties.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-parties.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-basse.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-timbales.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantes1735/IndesGalantes1735-midi.tar.gz $(OUTPUT_DIR)/IndesGalantes1735.midi $(OUTPUT_DIR)/IndesGalantes1735-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantes1735.midi ]; then cp $(OUTPUT_DIR)/IndesGalantes1735.midi $(DELIVERY_DIR)/Rameau/IndesGalantes1735/ ; fi
@@ -1633,8 +1626,7 @@ Rameau/Opera/IndesGalantes1735-all: \
 	Rameau/Opera/IndesGalantes1735-concert \
 	Rameau/Opera/IndesGalantes1735-dessus \
 	Rameau/Opera/IndesGalantes1735-trompette \
-	Rameau/Opera/IndesGalantes1735-haute-contre \
-	Rameau/Opera/IndesGalantes1735-taille \
+	Rameau/Opera/IndesGalantes1735-parties \
 	Rameau/Opera/IndesGalantes1735-basse \
 	Rameau/Opera/IndesGalantes1735-timbales\
 	Rameau/Opera/IndesGalantes1735-delivery\
