@@ -26,7 +26,7 @@
       >> \keepWithTag #'solo \includeLyrics "paroles"
       \new Staff \with { \haraKiri } <<
         <>^"Basses"
-        \global \includeNotes "basse"
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
         \origLayout {
           s2.*10\pageBreak
@@ -72,7 +72,7 @@
       >> \keepWithTag #'solo \includeLyrics "paroles"
       \new Staff <<
         \instrumentName "Basses"
-        \global \includeNotes "basse"
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
         { s2.*25 s4 \bar "" \break
           % chœur

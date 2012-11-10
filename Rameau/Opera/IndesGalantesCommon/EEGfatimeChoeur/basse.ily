@@ -48,22 +48,27 @@ re,
 \keepWithTag #'() \choeur
 \vA re,2. \vB re2.
 %% couplet
-re'2 dod'8 si |
-mi2 fad4 |
-sol2 mi4 |
-fad2 r4 |
-r4 r fad4 |
-sol2 sol4 |
-la si si, |
-mi2 mi4 |
-fad2 sold4 |
-la sold la |
-mi8. fad16 mi8. re16 dod4 |
-fad2 mi4 |
-re2. |
-dod2 si,8 la, |
-mi4 mi,2 |
-la,4
+<<
+  \tag #'basse { R2.*15 r4 }
+  \tag #'basse-continue {
+    re'2 dod'8 si |
+    mi2 fad4 |
+    sol2 mi4 |
+    fad2 r4 |
+    r4 r fad4 |
+    sol2 sol4 |
+    la si si, |
+    mi2 mi4 |
+    fad2 sold4 |
+    la sold la |
+    mi8. fad16 mi8. re16 dod4 |
+    fad2 mi4 |
+    re2. |
+    dod2 si,8 la, |
+    mi4 mi,2 |
+    la,4
+  }
+>>
 %% chœur
 \origVersion { r4 r | \custosNote re'2 }
 \modVersion {
@@ -71,17 +76,22 @@ la,4
   \vA re,2 \vB re2
 }
 %% couplet
-re'4 |
-dod'4. re'8 dod' si |
-la2 la,4 |
-si,4. dod8 re4 |
-dod4 dod' si |
-lad sold fad |
-si red' dod' |
-sid lad sold |
-dod'4. si8 la si |
-dod'4 dod2 |
-fad4
+<<
+  \tag #'basse { r4 R2.*9 r4 }
+  \tag #'basse-continue {
+    re'4 |
+    dod'4. re'8 dod' si |
+    la2 la,4 |
+    si,4. dod8 re4 |
+    dod4 dod' si |
+    lad sold fad |
+    si red' dod' |
+    sid lad sold |
+    dod'4. si8 la si |
+    dod'4 dod2 |
+    fad4
+  }
+>>
 %% chœur
 \origVersion { r4 r | \custosNote re'2 }
 \modVersion {
