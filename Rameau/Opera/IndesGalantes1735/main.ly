@@ -12,7 +12,7 @@
                  (if (eqv? #t (ly:get-option 'urtext))
                      "urtext"
                      "Conducteur"))
-    date = "Version de 1735"
+    date = "Version d'août 1735"
   }
   \markup \null
 }

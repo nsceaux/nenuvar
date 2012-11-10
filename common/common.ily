@@ -100,10 +100,10 @@
     \on-the-fly #(lambda (layout props arg)
                    (if (*part*)
                        (interpret-markup layout props
-                         (markup #:column (#:null #:null #:null
+                         (markup #:column (#:null #:null
                                            #:fill-line (#:fontsize 4 (*part-name*)))))
                        empty-stencil))
-    \null \null \null \null \null \null
+    \null \null \null \null
     \fill-line { \fontsize #2 \fromproperty #'header:editions }
     \fill-line { \fontsize #2 \fromproperty #'header:arrangement }
   }

@@ -1,7 +1,6 @@
-\piecePartSpecs #`((trompette #:notes "dessus")
+\piecePartSpecs #`((trompette-timbales #:score "score-tt")
                    (dessus #:instrument "Trompette")
                    (parties)
-                   (timbales #:notes "basse" #:tag-notes basse)
                    (basse #:score-template "score-basse-continue-voix"
                           #:tag-notes basse-continue)
                    (silence #:score "score-silence"))

@@ -1581,12 +1581,12 @@ Rameau/Opera/IndesGalantes1735-dessus:
 	-o $(OUTPUT_DIR)/IndesGalantes1735-dessus -dpart=dessus  \
 	Rameau/Opera/IndesGalantes1735/part.ly
 .PHONY: Rameau/Opera/IndesGalantes1735-dessus
-# Trompette
-Rameau/Opera/IndesGalantes1735-trompette:
+# Trompette et Timbales
+Rameau/Opera/IndesGalantes1735-trompette-timbales:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes1735-trompette -dpart=trompette  \
+	-o $(OUTPUT_DIR)/IndesGalantes1735-trompette-timbales -dpart=trompette-timbales  \
 	Rameau/Opera/IndesGalantes1735/part-tt.ly
-.PHONY: Rameau/Opera/IndesGalantes1735-trompette
+.PHONY: Rameau/Opera/IndesGalantes1735-trompette-timbales
 # Hautes-contre et Tailles
 Rameau/Opera/IndesGalantes1735-parties:
 	$(LILYPOND_CMD) \
@@ -1611,7 +1611,7 @@ Rameau/Opera/IndesGalantes1735-delivery:
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-urtext.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-concert.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-dessus.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-trompette.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-trompette.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-trompette-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-trompette-timbales.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-parties.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-parties.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-basse.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-timbales.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
@@ -1625,7 +1625,7 @@ Rameau/Opera/IndesGalantes1735-all: \
 	Rameau/Opera/IndesGalantes1735-urtext \
 	Rameau/Opera/IndesGalantes1735-concert \
 	Rameau/Opera/IndesGalantes1735-dessus \
-	Rameau/Opera/IndesGalantes1735-trompette \
+	Rameau/Opera/IndesGalantes1735-trompette-timbales \
 	Rameau/Opera/IndesGalantes1735-parties \
 	Rameau/Opera/IndesGalantes1735-basse \
 	Rameau/Opera/IndesGalantes1735-timbales\

@@ -1,8 +1,6 @@
 \clef "dessus"
 <<
-  \tag #'(tromp-hbt trompette hautbois) { R2.*16 | r8 }
-  \tag #'(violons violon1 violon2) {
-    <>^"Tous" \doux
+  \setMusic #'violons {
     r4 fa'8 sol' sol'8.\trill( fa'32 sol') |
     la'4( re') sib' |
     la'( re') re'' |
@@ -21,6 +19,17 @@
     la'8 mi' mi'4.\trill re'8 |
     re' <>\fort
   }
+  \tag #'(tromp-hbt trompette hautbois) { R2.*16 | r8 }
+  \tag #'tromp-part <<
+    \new Voice { \voiceOne s2.*16 r8^"Trompettes" }
+    \new CueVoice {
+      <>^"Violons"
+      \keepWithTag #'() \violons
+    }
+  >>
+  \tag #'(violons violon1 violon2) {
+    <>^"Tous" \doux \keepWithTag #'() \violons
+  }
 >>
 %% avec tromp-hbts
 la'16 la' la'8 la' la' la' |
@@ -28,7 +37,7 @@ re''8 la'16 la' re''8 re'' re''8.(\trill dod''32 re'') |
 mi''8 la'16 la' mi''8 mi'' mi''8.(\trill re''32 mi'') |
 fad''8 la''16 sol'' fad''8 la''16 sol'' fad'' mi'' re'' fad'' |
 <<
-  \tag #'(tromp-hbt trompette hautbois) {
+  \tag #'(tromp-hbt trompette tromp-part hautbois) {
     mi''8 la'16 la' la'8 la' la' la' |
   }
   \tag #'(violons violon1 violon2) {
@@ -40,12 +49,12 @@ mi''8 la'16 la' mi''8 mi'' mi''8.(\trill re''32 mi'') |
 fad''8 la''16 sol'' fad''8 la''16 sol'' fad'' mi'' re'' fad'' |
 mi''8 la''4 fad'' re''8~ |
 <<
-  \tag #'(tromp-hbt trompette hautbois){
+  \tag #'(tromp-hbt trompette tromp-part hautbois){
     re''2.~ |
     re''8 si''4 sol'' mi''8~ |
     mi''2. | R2. |
     <<
-      \tag #'(tromp-hbt trompette) \new Voice {
+      \tag #'(tromp-hbt trompette tromp-part) \new Voice {
         \tag #'tromp-hbt { \voiceOne <>^"Tromp." }
         r8 la''16 la'' la''8 mi''16 mi'' mi''8 la'16 la' |
         la'2. | \tag #'tromp-hbt <>^"Tromp."
@@ -102,13 +111,11 @@ mi''8 la''4 fad'' re''8~ |
   }
 >>
 <<
-  \tag #'trompette { r4 r | R2.*15 | }
-  \tag #'(tromp-hbt hautbois violons violon1 violon2) {
+  \tag #'(trompette) { r4 r | R2.*15 | }
+  \tag #'(tromp-hbt hautbois violons violon1 violon2 tromp-part) {
     <<
-      \tag #'(violons violon1 violon2) { r4 r | R2.*7 | r4 }
-      \tag #'(tromp-hbt hautbois) {
-        <>^"Hautb."
-        fad'4\doux mi' |
+      \setMusic #'hbt {
+        <>^"Hautb." fad'4\doux mi' |
         re'2 mi'4\trill |
         re'2 sol'4 |
         fad' mi'8. re'16 mi'4 |
@@ -118,20 +125,34 @@ mi''8 la''4 fad'' re''8~ |
         fad'4 mi'8. re'16 mi'4 |
         re'4
       }
-    >> <>^"Tous"
-    la'4\doux re'' |
-    \appoggiatura dod''8 si'2 mi''4 |
-    la'2 re''4 |
-    mi'' dod''4.(\trill si'16 dod'') |
-    re''4 la' re'' |
-    \appoggiatura dod''8 si'2 mi''4 |
-    la'2 re''4 |
-    mi'' dod''4.(\trill si'16 dod'') |
+      \tag #'(violons violon1 violon2) { r4 r | R2.*7 | r4 }
+      \tag #'tromp-part \new CueVoice \keepWithTag #'() \hbt
+      \tag #'(tromp-hbt hautbois) \keepWithTag #'() \hbt
+    >>
+    <<
+      \setMusic #'tous {
+        <>^"Tous" la'4\doux re'' |
+        \appoggiatura dod''8 si'2 mi''4 |
+        la'2 re''4 |
+        mi'' dod''4.(\trill si'16 dod'') |
+        re''4 la' re'' |
+        \appoggiatura dod''8 si'2 mi''4 |
+        la'2 re''4 |
+        mi'' dod''4.(\trill si'16 dod'') |
+      }
+      \tag #'(tromp-hbt hautbois violons violon1 violon2) {
+        \keepWithTag #'() \tous
+      }
+      \tag #'tromp-part {
+        \new CueVoice \keepWithTag #'() \tous
+        \allowPageTurn
+      }
+    >>
   }
 >>
 <<
-  \tag #'(tromp-hbt trompette hautbois) {
-    << \tag #'trompette r4 \tag #'(tromp-hbt hautbois) re''4 >>
+  \tag #'(tromp-hbt trompette tromp-part hautbois) {
+    << \tag #'(trompette tromp-part) r4 \tag #'(tromp-hbt hautbois) re''4 >>
     r4 <>^"Tromp." r8  la''16 la'' |
     la''2 r8 la'16 la' |
     re''2 r8 mi''16 mi'' |
@@ -156,7 +177,7 @@ mi''8 la''4 fad'' re''8~ |
     la''2.\trill~ |
     la'' |
     r4 la' la' |
-    fad' r r |
+    fad' r r | \allowPageTurn
     R2.*23 |
   }
   \tag #'(violons violon1 violon2) {
@@ -234,9 +255,30 @@ mi''8 la''4 fad'' re''8~ |
     \appoggiatura dod''8 re''8. mi''16 mi''4.\trill re''8 |
   }
 >>
+
 <<
-  \tag #'(tromp-hbt trompette) {
-    R2.*8 |
+  \setMusic #'tous {
+    re''8 re''16 mi'' fad'' sol'' fad'' sol'' la''8 la'' |
+    la'' re''16 mi'' fad'' sol'' fad'' sol'' la''8 re'' |
+    sol'' si''16 la'' sol'' fad'' mi'' re'' mi'' re'' dod'' si' |
+    dod'' re'' mi'' re'' dod'' si' la' sol' la' sol' fad' mi' |
+    re'8 re''16 mi'' fad'' sol'' fad'' sol'' la''8 la'' |
+    la'' re''16 mi'' fad'' sol'' fad'' sol'' la''8 re'' |
+    sol'' si''16 la'' sol'' fad'' mi'' re'' mi'' re'' dod'' si' |
+    dod'' re'' mi'' re'' dod'' si' la' sol' la' sol' fad' mi' |
+  }
+  \tag #'(tromp-hbt trompette) R2.*8
+  \tag #'tromp-part {
+    \new CueVoice { <>^"Violons" \keepWithTag #'() \tous }
+    <>^"Trompettes"
+  }
+  \tag #'(violons violon1 violon2 hautbois) {
+    \allowPageTurn <>^"avec les hautbois" \fort
+    \keepWithTag #'() \tous
+  }
+>>
+<<
+  \tag #'(tromp-hbt trompette tromp-part) {
     r4 re''8. mi''16 fad''8.\trill sol''16 |
     la''4. la''16 la'' la''8 la'' |
     re''4. sol''16 sol'' sol''8 sol'' |
@@ -250,18 +292,9 @@ mi''8 la''4 fad'' re''8~ |
     re''~ |
     re''4 la' la' |
     la'2 r4 |
-    R2.*27 | r8^"Tromp. et hautb."
+    R2.*19 |
   }
   \tag #'(violons violon1 violon2 hautbois) {
-    \allowPageTurn <>^"avec les hautbois" \fort
-    re''8 re''16 mi'' fad'' sol'' fad'' sol'' la''8 la'' |
-    la'' re''16 mi'' fad'' sol'' fad'' sol'' la''8 re'' |
-    sol'' si''16 la'' sol'' fad'' mi'' re'' mi'' re'' dod'' si' |
-    dod'' re'' mi'' re'' dod'' si' la' sol' la' sol' fad' mi' |
-    re'8 re''16 mi'' fad'' sol'' fad'' sol'' la''8 la'' |
-    la'' re''16 mi'' fad'' sol'' fad'' sol'' la''8 re'' |
-    sol'' si''16 la'' sol'' fad'' mi'' re'' mi'' re'' dod'' si' |
-    dod'' re'' mi'' re'' dod'' si' la' sol' la' sol' fad' mi' |
     re'16 mi' re' mi' fad' sol' fad' sol' la' si' la' si' |
     do''8 do'' re' do'' re''16 do'' si' la' |
     si' la' sol' fad' sol' la' si' do'' re'' mi'' fad'' sol'' |
@@ -294,32 +327,41 @@ mi''8 la''4 fad'' re''8~ |
     fad'( mi') re' |
     mi'4. fad'8 re'4 |
     mi'8 fad'16 sol' mi'4.\trill re'8 |
-    <<
-      \tag #'hautbois { re'2 r4 | R2.*7 | r8 }
-      \tag #'(violons violon1 violon2) {
-        <>^"sans hautb."
-        re'4.\fort mi'32*4/6( fad' sol' la' si' dod'') re''8. re'16 |
-        do'4. re'32*4/7( mi' fad' sol' la' si' do'') re''8. do'16 |
-        si4. dod'32*1/2( re' mi' fad' sol' la' si' dod'') re''8. si16 |
-        la8. re''16 mi''4.(\trill re''16 mi'') |
-        fad''4. re'32*4/7( mi' fad' sol' la' si' dod'') re''8. re'16 |
-        do'4. re'32*4/7( mi' fad' sol' la' si' do'') re''8. do'16 |
-        si4. dod'32*1/2( re' mi' fad' sol' la' si' dod'') re''8. si16 |
-        la8. re''16 mi''4.(\trill re''16 mi'') |
-        fad''8
-      }
-    >>
   }
 >>
 <<
-  \tag #'(tromp-hbt trompette hautbois) {
+  \setMusic #'violons {
+    re'4.\fort mi'32*4/6( fad' sol' la' si' dod'') re''8. re'16 |
+    do'4. re'32*4/7( mi' fad' sol' la' si' do'') re''8. do'16 |
+    si4. dod'32*1/2( re' mi' fad' sol' la' si' dod'') re''8. si16 |
+    la8. re''16 mi''4.(\trill re''16 mi'') |
+    fad''4. re'32*4/7( mi' fad' sol' la' si' dod'') re''8. re'16 |
+    do'4. re'32*4/7( mi' fad' sol' la' si' do'') re''8. do'16 |
+    si4. dod'32*1/2( re' mi' fad' sol' la' si' dod'') re''8. si16 |
+    la8. re''16 mi''4.(\trill re''16 mi'') |
+    fad''8
+  }
+  \tag #'(tromp-hbt trompette) {
+    R2.*8 | r8^"Tromp. et hautb."
+  }
+  \tag #'tromp-part {
+    \new CueVoice { <>^"Violons" \keepWithTag #'() \violons }
+    <>^"Tromp. et hautb."
+  }
+  \tag #'hautbois { re'2 r4 | R2.*7 | r8 }
+  \tag #'(violons violon1 violon2) {
+    <>^"sans hautb." \keepWithTag #'() \violons
+  }
+>>
+<<
+  \tag #'(tromp-hbt trompette tromp-part hautbois) {
     la''4 fad'' re''8 |
     re''2. |
     r8 si''4 sol'' mi''8 |
     mi''2. |
     R2. |
     <<
-      \tag #'(tromp-hbt trompette) \new Voice {
+      \tag #'(tromp-hbt trompette tromp-part) \new Voice {
         \tag #'tromp-hbt { \voiceOne <>^"Tromp." }
         r8 la''16 la'' la''8 mi''16 mi'' mi''8 la'16 la' |
         la'2. |
@@ -377,8 +419,8 @@ mi''8 la''4 fad'' re''8~ |
   }
 >>
 <<
-  \tag #'trompette { R2.*15 | r4 }
-  \tag #'(violons violon1 violon2 tromp-hbt hautbois) {
+  \tag #'(trompette) { R2.*15 | r4 }
+  \tag #'(violons violon1 violon2 tromp-hbt hautbois tromp-part) {
     <<
       \tag #'(tromp-hbt hautbois) {
         re'2 mi'4 |
@@ -390,22 +432,32 @@ mi''8 la''4 fad'' re''8~ |
         fad' mi'8.\trill re'16 mi'4 |
         re'4
       }
-      \tag #'(violons violon1 violon2) {
-        R2.*7 | r4
+      \tag #'(violons violon1 violon2 tromp-part) {
+        \allowPageTurn R2.*7 | r4
       }
-    >> <>^"Tous" re''4 si'\trill |
-    la' r8 re'' si'4\trill |
-    la'2 re''4 |
-    mi''8.( fad''32 sol'') fad''4. sol''8 |
-    mi''4\trill re'' si'\trill |
-    la'4. re''8 si'4\trill |
-    la'2 re''4 |
-    mi''8.( fad''32 sol'') dod''4.\trill re''8 |
-    re''4
+    >>
+    \setMusic #'hbt {
+      re''4 si'\trill |
+      la' r8 re'' si'4\trill |
+      la'2 re''4 |
+      mi''8.( fad''32 sol'') fad''4. sol''8 |
+      mi''4\trill re'' si'\trill |
+      la'4. re''8 si'4\trill |
+      la'2 re''4 |
+      mi''8.( fad''32 sol'') dod''4.\trill re''8 |
+      re''4
+    }
+    \tag #'tromp-part {
+      \new CueVoice { <>^"Violons" \keepWithTag #'() \hbt }
+      <>^"Trompettes"
+    }
+    \tag #'(violons violon1 violon2 tromp-hbt hautbois) {
+      <>^"Tous" \keepWithTag #'() \hbt
+    }
   }
 >>
 <<
-  \tag #'(tromp-hbt trompette) {
+  \tag #'(tromp-hbt trompette tromp-part) {
     fad''4. mi''16 re'' |
     mi''4 la'4. la'16 la' |
     re''4. re''16 re'' re''8. re''16 |

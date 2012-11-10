@@ -352,7 +352,8 @@ O Emmanuel")
                         #:options "-durtext")
                 (concert "Version de concert"))
         #:parts ((dessus "Violons, Flûtes, Hautbois")
-                 (trompette "Trompette" #:score-file "part-tt.ly")
+                 (trompette-timbales "Trompette et Timbales"
+                                     #:score-file "part-tt.ly")
                  (parties "Hautes-contre et Tailles")
                  (basse "Basses")
                  (timbales "Timbales" #:score-file "part-tt.ly")))
@@ -369,7 +370,7 @@ O Emmanuel")
                  (basse "Basses")
                  (timbales "Timbales" #:score-file "part-tt.ly")))
        ("Suite des Indes Galantes"
-        #:description ,(markup #:wordwrap-string  "Cinq suites pour orchestre tirées des Indes Galanes.")
+        #:description ,(markup #:wordwrap-string  "Cinq suites pour orchestre tirées des Indes Galantes.")
         #:key "Rameau/Concerts/IndesGalantesSuites"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
         #:main ((#f "Conducteur")

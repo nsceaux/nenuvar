@@ -1,6 +1,5 @@
 \piecePartSpecs #`((dessus #:tag-notes violons #:instrument "Violons")
-                   (trompette)
+                   (trompette-timbales #:score "score-tt")
                    (parties)
                    (basse)
-                   (timbales)
                    (silence #:score "score-silence"))

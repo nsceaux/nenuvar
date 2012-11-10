@@ -1,5 +1,4 @@
-\piecePartSpecs #`((trompette #:notes "dessus" #:tag-notes dessus1)
+\piecePartSpecs #`((trompette-timbales #:score "score-tt")
                    (dessus #:score "score-dessus")
                    (parties)
-                   (timbales #:notes "timbales")
                    (basse))

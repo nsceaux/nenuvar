@@ -147,7 +147,7 @@
 \pieceTocTitle "Premier Tambourin"
 \includeScore "BFItambourin"
 \origVersion\noPageBreak
-
+\noPageTurn
 %{ n°25 %}
 \pieceTocTitle "Deuxieme Tambourin"
 \includeScore "BFJtambourin"

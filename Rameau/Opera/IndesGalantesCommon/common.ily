@@ -3,6 +3,11 @@
   composer = "Jean-Philippe Rameau"
   poet = "Louis Fuzelier"
   subtitle = "Ballet Héroïque"
+  editions = \markup\abs-fontsize #12 \center-column {
+    \line { Matériel réalisé à partir des originaux }
+    \line { pour les concerts de La Simphonie du Marais — Hugo Reyne, }
+    \line { et mis gracieusement à disposition du public. }
+  }
 }
 
 %% LilyPond options:
@@ -69,15 +74,11 @@
            (#:notes "dessus" #:tag-notes dessus))
    (parties "Hautes-contre et Tailles" ()
             (#:notes "parties" #:tag-notes parties #:clef "alto"))
-
-   (trompette "Trompette" ()
-              (#:notes "dessus" #:tag-notes trompette))
+   (trompette-timbales "Trompettes et Timbales" ()
+                       (#:notes "dessus" #:tag-notes trompette))
 
    (basse "Basses" ()
-          (#:notes "basse" #:clef "basse" #:tag-notes basse))
-
-   (timbales "Timbales" ()
-             (#:notes "basse" #:clef "basse" #:tag-notes timbales)))
+          (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
 %% Tremolo for string instruments
 %#(if (memq (ly:get-option 'part)
