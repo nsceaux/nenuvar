@@ -1,5 +1,6 @@
 \clef "vbas-dessus"
 <>^\markup\orig-version\character\concat { L’ \smallCaps Amour }
+\tag #'basse <>^\markup\character\concat { L’ \smallCaps Amour }
 re'8 re' |
 sol'[\melisma fad' sol' la' sol' la'] |
 si'[ la' si' do'' si' do'']( |

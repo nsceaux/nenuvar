@@ -111,5 +111,10 @@
     s4*0_"B.C." \Db
     s4*0_\markup { \vB Timbales \vA Tymb. } \Et \Fb \Gt
   }
+  \tag #'basse-part {
+    <>^"Timbales" \At \Bb
+    <>^"Timbales" \Ct
+    <>^"[Basses]" \Db \Et \Fb \Gt
+  }
 >>
 \origVersion\custosNote re1

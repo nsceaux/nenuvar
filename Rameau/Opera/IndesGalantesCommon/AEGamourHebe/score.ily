@@ -2,7 +2,7 @@
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
       \modVersion\characterName "L'Amour"
-      \global \includeNotes "amour"
+      \global \includeNotes "voix"
     >> \keepWithTag #'amour \includeLyrics "paroles"
     \new Staff \withLyrics <<
       \modVersion\characterName "Hébé"

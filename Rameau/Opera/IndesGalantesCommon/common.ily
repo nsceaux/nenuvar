@@ -76,14 +76,10 @@
             (#:notes "parties" #:tag-notes parties #:clef "alto"))
    (trompette-timbales "Trompettes et Timbales" ()
                        (#:notes "dessus" #:tag-notes trompette))
-
    (basse "Basses" ()
+          (#:notes "basse" #:clef "basse" #:tag-notes basse))
+   (basse-continue "Basse continue" ((basse #f))
           (#:notes "basse" #:clef "basse" #:tag-notes basse)))
-
-%% Tremolo for string instruments
-%#(if (memq (ly:get-option 'part)
-%           '(dessus violons haute-contre taille basse basse-continue))
-%     (ly:set-option 'use-tremolo-repeat #t))
 
 %%% Figured bass
 includeFigures = 

@@ -34,7 +34,7 @@
         \global \includeNotes "voix"
       >> \includeLyrics "paroles"
       \new Staff <<
-        \instrumentName "[B.C.]"
+        \instrumentName "[Basses]"
         \global \includeNotes "basse"
         \includeFigures "chiffres"
       >>
