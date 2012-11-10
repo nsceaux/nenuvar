@@ -2,5 +2,6 @@
                          `((dessus #:tag-notes conducteur #:instrument "Violons")
                            (parties))
                          '())
-                     (basse #:score-template "score-basse-continue")
+                     (basse)
+                     (basse-continue #:score-template "score-basse-continue")
                      (silence #:score "score-silence"))

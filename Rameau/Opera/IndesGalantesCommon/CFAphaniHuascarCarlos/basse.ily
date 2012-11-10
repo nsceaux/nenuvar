@@ -11,11 +11,26 @@ r4 r8 fa\fort
     r4 r16 fa, fa, fa, sib,4 sol, |
     do4 r8 r16 do, do,8 r r4 |
     r4 do'16 sib la sol
-    << { fa4 r | } \\ { <>_"[B.C.]" fa8 mib re do | } >>
-    sib,2 fa4 |
-    mi4 re sol |
-    r8 r16 do\fort do4 r \ru#8 sib,32 |
-    la,4 r r2 |
+    <<
+      \tag #'(basse conducteur) \new Voice {
+        \tag #'conducteur \voiceOne
+        fa4 r |
+      }
+      \tag #'(basse-continue conducteur) \new Voice {
+        \tag #'conducteur \voiceTwo
+        <>_"[B.C.]" fa8 mib re do |
+        \tag #'conducteur \voiceTwo
+      }
+    >>
+    <<
+      \tag #'basse { R2.*2 | R1*2 | }
+      \tag #'(basse-continue conducteur) {
+        sib,2 fa4 |
+        mi4 re sol |
+        r8 r16 do\fort do4 r \ru#8 sib,32 |
+        la,4 r r2 |
+      }
+    >>
   }
   \vB {
     fa4. fa8 |
@@ -32,19 +47,33 @@ r4 r8 fa\fort
     do1 |
   }
 >>
-<< \origVersion { dod2~ dod4 } \modVersion dod2. >> |
-re4 r8 re mi4 r8 do |
-fa4 r8 re sol4 r8 mi |
-la4 r8 r16 la, la,8 r la, r |
+<<
+  \tag #'basse { R2. R1*2 | r4 }
+  \tag #'(basse-continue conducteur) {
+    << \origVersion { dod2~ dod4 } \modVersion dod2. >> |
+    re4 r8 re mi4 r8 do |
+    fa4 r8 re sol4 r8 mi |
+    la4
+  }
+>> r8 r16 la, la,8 r la, r |
 R1 |
 r8 \ru#7 sib,-. |
-sib,4 r r r8 sib, |
+sib,4 r
+<<
+  \tag #'basse { r2 }
+  \tag #'(basse-continue conducteur) { r4 r8 sib, | }
+>>
 \vA {
-  fa,4 r fad, |
-  sol,2 fa,4 mib, |
-  re,2 re~ |
-  re4 dod re4. sol,8 |
-  re,1 r2 |
+  <<
+    \tag #'basse { R2. | R1*3 | r1 }
+    \tag #'(basse-continue conducteur) {
+      fa,4 r fad, |
+      sol,2 fa,4 mib, |
+      re,2 re~ |
+      re4 dod re4. sol,8 |
+      re,1
+    }
+  >> r2 | \tag #'basse-continue \allowPageTurn
   r r r4 r8 sib\fort |
   sib2. sol4 mib fa |
   sib,4 r8 sib,16 sib, sib,4 r4 sib,16[ sib, sib, sib,] sib,[ sib, sib, sib,] |
@@ -75,8 +104,13 @@ sib,4 r r r8 sib, |
   sib,2
   %%%
   r2 |
-  fad,1 |
-  << \origVersion { sol,2~ sol,4 } \modVersion sol,2. >> |
+  <<
+    \tag #'basse { R1 R2. \allowPageTurn }
+    \tag #'(basse-continue conducteur) {
+      fad,1 |
+      << \origVersion { sol,2~ sol,4 } \modVersion sol,2. >> |
+    }
+  >>
   \vA {
     r8 do16 do do do do do do4 r |
     R2. |
@@ -96,8 +130,13 @@ sib,4 r r r8 sib, |
     r4 r8 re, re,4 r8 re, |
   }
   mib,2 r |
-  r mib4. mib8 |
-  sol4 sol8 mib mib,4 |
+  <<
+    \tag #'basse { R1 R2. }
+    \tag #'(basse-continue conducteur) {
+      r2 mib4. mib8 |
+      sol4 sol8 mib mib,4 |
+    }
+  >>
   \vA {
     r16 <>^\doux \ru#14 mib32 re8 r r4 |
     r16 \ru#6 re32 re16 \ru#6 re32 do4. sib,8 |
@@ -150,7 +189,10 @@ fa,4 re, mib, r |
   R1 |
   r4 r8 do16\doux do dod4 r |
   r8 re16^\fort re re re re re re8 r r4 |
-  fad,2 r |
+  <<
+    \tag #'basse R1
+    \tag #'(basse-continue conducteur) { fad,2 r | }
+  >>
   r16 sol,32\doux sol, sol,8 sol, r r4 r8 r16 sol,32 sol, |
   la,4 r r8 la,16 la, |
   sib,4 r8 si, do4 dod |

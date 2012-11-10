@@ -15,7 +15,7 @@
       \new Staff <<
         \vA<>^"[Basses]"
         \vB<>^"B.C."
-        \global \includeNotes "basse"
+        \global \keepWithTag #'conducteur \includeNotes "basse"
         \includeFigures "chiffres"
         \origLayout {
           s2 s1*2 s2.\pageBreak
@@ -71,7 +71,7 @@
       \new Staff <<
         \vA\instrumentName "[Basses]"
         \vB\instrumentName "B.C."
-        \global \includeNotes "basse"
+        \global \keepWithTag #'conducteur \includeNotes "basse"
         \includeFigures "chiffres"
         \vA {
           s2 s1*2 s2. s1*2 s1*3 s1 s2.*2 s1*2 s2. s1 s1*5 s2. s1*3

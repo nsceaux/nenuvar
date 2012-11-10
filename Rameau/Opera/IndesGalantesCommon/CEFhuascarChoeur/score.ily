@@ -39,7 +39,7 @@
     \setMusic #'basse \new Staff <<
       \vA\modVersion\instrumentName "B.C."
       \vB\modVersion\instrumentName "Basses"
-      \global \includeNotes "basse"
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
       \includeFigures "chiffres"
       \modVersion {
         s4 s2.*11 s2 \bar "" \break

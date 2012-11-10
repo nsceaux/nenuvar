@@ -34,7 +34,7 @@ R1 |
 r8 la mi mi dod4. re8 |
 mi2 mi, |%%
 la,1 |
-R1*2 |
+R1*2 |\allowPageTurn
 r8 mi la la dod' la mi dod |
 la,4. la8 la4. si8 |
 dod'2 dod'4 dod'8 la |
@@ -59,7 +59,7 @@ r8 mi' si si sold4. mi8 |
 si,2 si, |
 mi, r |
 \vA {
-  R1*2 |
+  R1*2 | \allowPageTurn
   r8 mi la la dod' la mi dod |
   la,4. la8 la4. la8 |
   re'4 re re re8 si, |
