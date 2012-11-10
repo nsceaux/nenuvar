@@ -86,7 +86,7 @@ mib2~ |
 mib4 re8 mib |
 fa4 fa, |
 sib,2 |
-<< \origVersion { r4 r R2 } \modVersion R2*2 >> |
+<< \origVersion { r4 r R2 } \modVersion R2*2 >> |\allowPageTurn
 re'8 do'16 sib la sol fad mi |
 \vA re4 \vB { re8 r } r4 |
 do4 r |

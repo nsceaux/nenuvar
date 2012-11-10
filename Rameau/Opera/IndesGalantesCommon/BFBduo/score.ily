@@ -4,13 +4,13 @@
       \vA\modVersion\characterName "Emilie"
       \vA\origVersion <>^\markup\character Emilie
       \vB\characterName "Emilie"
-      \global \keepWithTag #'emilie \includeNotes "emilie"
+      \global \keepWithTag #'emilie \includeNotes "voix"
     >> \keepWithTag #'emilie \includeLyrics "paroles"
     \new Staff \withLyrics <<
       \vA\modVersion\characterName "Valere"
       \vA\origVersion <>^\markup\character Valere
       \vB\characterName "Valere"
-      \global \keepWithTag #'valere \includeNotes "valere"
+      \global \keepWithTag #'valere \includeNotes "voix"
     >> \keepWithTag #'valere \includeLyrics "paroles"
     \new Staff <<
       \modVersion\instrumentName "[B.C.]"

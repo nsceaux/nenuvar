@@ -20,7 +20,7 @@ sib do' re' re |
   r sol |
   sol, sol8 la |
   sib8 do' re' re |
-  sol4 \clef "tenor" <>_"Basson seul" r4
+  sol4 \clef "tenor" <>_\markup\whiteout "Basson seul" r4
 }
 r4 sib |
 sib, sib8 do' |

@@ -4,11 +4,11 @@
       \setMusic #'choeur <<
         \new Staff \with { \haraKiriFirst } \withLyrics <<
           { s4 s2.*13 \noHaraKiri \vA { s2.*97 \revertNoHaraKiri } }
-          \global \includeNotes "voix-dessus"
+          \global \keepWithTag #'voix \includeNotes "voix-dessus"
           >> \keepWithTag #'vdessus \includeLyrics "paroles"
         \new Staff \with { \haraKiriFirst } \withLyrics <<
           { s4 s2.*13 \noHaraKiri \vA { s2.*97 \revertNoHaraKiri } }
-          \global \includeNotes "voix-haute-contre"
+          \global \keepWithTag #'voix \includeNotes "voix-haute-contre"
         >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
         \new Staff \with { \haraKiriFirst } \withLyrics <<
           { s4 s2.*13 \noHaraKiri \vA { s2.*97 \revertNoHaraKiri } }
@@ -30,7 +30,8 @@
       \vA\choeur
       \new Staff <<
         \vA <>^"Basses"
-        \global \includeNotes "basse"
+        \global
+        \keepWithTag #'basse-continue \includeNotes "basse"
         \vA\origLayout {
           s4 s2.*9\pageBreak
           s2.*9\break s2.*5\pageBreak
@@ -73,10 +74,10 @@
         instrumentName = \markup { \smallCaps Chœur \hspace #6 } }
       <<
         \new Staff \with { \consists "Metronome_mark_engraver" } \withLyrics <<
-          \global \includeNotes "voix-dessus"
+          \global \keepWithTag #'voix \includeNotes "voix-dessus"
         >> \keepWithTag #'vdessus \includeLyrics "paroles"
         \new Staff \withLyrics <<
-          \global \includeNotes "voix-haute-contre"
+          \global \keepWithTag #'voix \includeNotes "voix-haute-contre"
         >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
         \new Staff \withLyrics <<
           \global \includeNotes "voix-taille"
@@ -88,7 +89,8 @@
       \new Staff <<
         \vA\instrumentName "Basses"
         \vB\instrumentName "[Basses]"
-        \global \includeNotes "basse"
+        \global
+        \keepWithTag #'basse-continue \includeNotes "basse"
       >>
     >>
   >>

@@ -2,8 +2,10 @@
                            #:ragged #f)
                    (parties #:score "score-silence"
                             #:ragged #t)
-                   (basse #:score-template "score-basse-continue-voix"
-                          #:tag-notes all)
+                   (basse #:score "score-silence"
+                          #:ragged #f)
+                   (basse-continue #:score-template "score-basse-continue-voix"
+                          #:tag-notes basse)
                    (silence #:score "score-silence"
                             #:notes "dessus"
                             #:clef "treble"

@@ -53,16 +53,19 @@ sib sol mi |
 la la la, |
 re2
 %%
-\vA {
-  r8-"B.C." sol, |
-  do4 re2 |
-  mib2 sib,4 |
-  do re re, |
-  sol,2 r8 sol |
-  do2. |
-  mib2 do4 |
-  re2 r4 |
-}
+\vA <<
+  \tag #'basse { r4 R2.*7 }
+  \tag #'basse-continue {
+    r8-"B.C." sol, |
+    do4 re2 |
+    mib2 sib,4 |
+    do re re, |
+    sol,2 r8 sol |
+    do2. |
+    mib2 do4 |
+    re2 r4 |
+  }
+>>
 \vB {
   r8 sol, |
   do2 re4 |
@@ -84,17 +87,20 @@ mib4 mib8 re do sib, |
 fa4 fa,2 |
 sib,2. |
 R2.*4 |
-\vA {
-  r4-"B.C." sib,4. sol,8 |
-  do2 la,4 |
-  sib,2 do4 |
-  re re,2 |
-  sol, r8 sol, |
-  do2 re4 |
-  mib4. sib,8 do re |
-  mib2 do4\trill |
-  re2. |
-}
+\vA <<
+  \tag #'basse { R2.*9 }
+  \tag #'basse-continue {
+    r4-"B.C." sib,4. sol,8 |
+    do2 la,4 |
+    sib,2 do4 |
+    re re,2 |
+    sol, r8 sol, |
+    do2 re4 |
+    mib4. sib,8 do re |
+    mib2 do4\trill |
+    re2. |
+  }
+>>
 sib4 sib8 sib sib sol |
 do'2 do'8 la |
 re'4. do'8 re'4 |

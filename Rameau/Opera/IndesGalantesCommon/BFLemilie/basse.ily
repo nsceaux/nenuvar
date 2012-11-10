@@ -24,7 +24,7 @@ sol,-\vB\fermata r |
 \vA {
   R2*7 |
   r4 r4 |
-  r4 sol |
+  r4 sol^\markup\whiteout "[Tous]" |
   sol, sol, |
   sol, sol, |
   sol, r |

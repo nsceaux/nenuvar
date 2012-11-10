@@ -104,7 +104,7 @@
     sol,2 |
   }
   \tag #'basson \bassons
-  \tag #'tambourin \bassons
+  \tag #'tambourin << \bassons \\ \basse >>
   \tag #'basse \basse
   \tag #'all << \bassons \\ \basse >>
 >>

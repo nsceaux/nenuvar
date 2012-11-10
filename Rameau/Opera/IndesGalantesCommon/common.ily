@@ -26,14 +26,11 @@
 #(ly:set-option 'baroque-repeats (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'baroque-repeat-bar "|:|")
 
-%% Staff size:
-%%  14 for lead sheets
-%%  16 for vocal parts
-%%  18 for instruments
+%% Staff size
 #(set-global-staff-size
   (cond ((not (symbol? (ly:get-option 'part)))
          (if (eqv? #t (ly:get-option 'urtext)) 14 16))
-        ((memq (ly:get-option 'part) '(basse)) 16)
+        ((memq (ly:get-option 'part) '(basse-continue)) 16)
         (else 18)))
 
 %% Line/page breaking algorithm
@@ -76,7 +73,7 @@
             (#:notes "parties" #:tag-notes parties #:clef "alto"))
    (trompette-timbales "Trompettes et Timbales" ()
                        (#:notes "dessus" #:tag-notes trompette))
-   (basse "Basses" ()
+   (basse "Bassons et Basses" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basse))
    (basse-continue "Basse continue" ((basse #f))
           (#:notes "basse" #:clef "basse" #:tag-notes basse)))

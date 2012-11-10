@@ -63,7 +63,7 @@
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Que ces cris agitent mes sens ! } }
 \includeScore "BBDemilie"
-\partNoPageTurn #'(dessus haute-contre taille basse)
+\noPageTurn
 %{ n°11 %}
 \pieceToc\markup\wordwrap { CHŒUR :
   \italic { Que nous sert d’échapper à la fureur des mers ? } }

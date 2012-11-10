@@ -39,7 +39,7 @@ sol2 r4 sib, |
 do2 r4 mib |
 re2 re, |
 sol, r |
-R1*3 |
+R1*3 |\allowPageTurn
 r2 r4 sol, |
 do2 r4 dod |
 re2 r4 re |

@@ -2,7 +2,6 @@
                    ,@(if (eqv? 'v1735 (ly:get-option 'indes-version))
                          '((parties))
                          '())
-                   (basson #:instrument "Basson"
-                           #:notes "basson" #:clef "tenor")
                    (basse #:score "score-basse")
+                   (basse-continue #:score-template "score-basse-continue-voix")
                    (silence #:score "score-silence"))
