@@ -356,8 +356,7 @@ O Emmanuel")
                                      #:score-file "part-tt.ly")
                  (parties "Hautes-contre et Tailles")
                  (basse "Basses")
-                 (basse-continue "Basse continue")
-                 (timbales "Timbales" #:score-file "part-tt.ly")))
+                 (basse-continue "Basse continue")))
        ("Les Indes Galantes (175x)"
         #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 175x.")
         #:key "Rameau/Opera/IndesGalantes175x"

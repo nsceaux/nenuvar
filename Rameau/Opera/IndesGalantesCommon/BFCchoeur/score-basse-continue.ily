@@ -10,5 +10,5 @@
       \global \keepWithTag #'basse-continue \includeNotes "basse"
     >>
   >>
-  \layout { }
+  \layout { indent = \smallindent }
 }

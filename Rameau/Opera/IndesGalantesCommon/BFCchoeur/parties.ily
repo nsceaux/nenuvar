@@ -51,7 +51,7 @@ re'2.\trill |
 lab'4 sol'8 fa' fa' lab' |
 sol'2. |
 sol' |
-R2.*3 |
+R2.*3 |\allowPageTurn
 la'4 la'8 la' la' la' |
 la'4 la' la' |
 sol' sol' sol' |

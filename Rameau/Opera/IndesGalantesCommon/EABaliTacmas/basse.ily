@@ -19,7 +19,7 @@ fad,2 r4 r8 fad |
 dod2 re4 fad |
 mi2 r4 sold, |
 la, la8 sol fad4 mi |
-re1 |
+re1 |\allowPageTurn
 si, |
 la,~ |
 la,2 sold,4 |

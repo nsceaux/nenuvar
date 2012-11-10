@@ -35,7 +35,7 @@ re1 |
 mi2 do4 re |
 sol si, do la, |
 re2 dod |
-\vB\once\tieDashed re2~ re8. do16 sib,8.-\vA\trill la,16 |
+\vB\once\tieDashed re2~ re8. do16 sib,8.-\vA\trill la,16 | \noPageTurn
 sol,2 sol |
 \vA << \origVersion { mib2~ mib } \modVersion mib1 >> \vB mib1 |
 re2 r |\allowPageTurn

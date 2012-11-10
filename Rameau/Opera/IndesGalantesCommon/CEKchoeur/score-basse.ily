@@ -1,10 +1,10 @@
 \score {
   \new StaffGroup <<
-    \new Staff <<
+    \new Staff \with { \smallStaff } <<
       \instrumentName "Bassons"
       \global \includeNotes "basson"
     >>
-    \new Staff <<
+    \new Staff \with { \smallStaff } <<
       \instrumentName "B.C."
       \global \includeNotes "basse"
     >>

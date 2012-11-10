@@ -102,7 +102,7 @@ mi'32 do' do' do' do' do' do' do' do' do' do' do' do'4 do'8 |
   \footnoteHere #'(-1 . 0.1) \markup {
     Source : partie laissée vide jusqu'à la mesure 66 incluse.
   }
-  << { s2. s1 s4 }
+  << { s2. s4 }
     \modVersion\new CueVoice {
       <>^\markup\smaller "[version ultérieure]"
       lab4 sib8 do'4 do'8 |

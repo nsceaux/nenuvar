@@ -58,7 +58,7 @@
 \pieceToc\markup\wordwrap { CHŒUR :
   \italic { Ciel ! de plus d’une mort nous redoutons les coups ! } }
 \includeScore "BBCchoeur"
-\partNoPageTurn #'(dessus haute-contre taille basse)
+\partNoPageTurn #'(dessus parties basse)
 %{ n°10 %}
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Que ces cris agitent mes sens ! } }
