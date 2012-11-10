@@ -2,6 +2,9 @@
                        (breaks2 #{ s1*22 \break s1*7 \break #}))
                    `((dessus #:music ,breaks)
                      (parties #:music ,breaks2)
-                     (basse #:score-template "score-basse-continue-voix"
-                            #:music ,breaks)
+                     (basse #:tag-notes basse)
+                     (basse-continue
+                      #:tag-notes basse-continue
+                      #:score-template "score-basse-continue-voix"
+                      #:music ,breaks)
                      (silence #:score "score-silence")))

@@ -39,7 +39,9 @@
     >>
     \new Staff <<
       \modVersion\instrumentName "[B.C.]"
-      \global \includeNotes "basse" \includeFigures "chiffres"
+      \global
+      \keepWithTag #'basse-continue \includeNotes "basse"
+      \includeFigures "chiffres"
       \modVersion {
         s2.*3 s1 s2. s1*2 s4. \bar "" \break
         s4. s2.*17 s2. \bar "" \break

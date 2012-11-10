@@ -74,14 +74,21 @@ r4 la,8 la, la, la, la, la, |
 si,2 sol, |
 la,1 |
 re, |
-re'2 dod'8 si |
-re'4. dod'8 si fad |
-sol4 fad8. re16 dod8. si,16 |
-sol8 mi si4 si, |
-fad2 fad8. mi16 |
-red2. |
-mi2 re4 |
-dod2. |
-re8 mi fad4 fad, |
-si,2. re'4 |
-\origVersion\custosNote mi'
+<<
+  \setMusic #'BC {
+    re'2 dod'8 si |
+    re'4. dod'8 si fad |
+    sol4 fad8. re16 dod8. si,16 |
+    sol8 mi si4 si, |
+    fad2 fad8. mi16 |
+    red2. |
+    mi2 re4 |
+    dod2. |
+    re8 mi fad4 fad, |
+    si,2. re'4 |
+    \origVersion\custosNote mi'
+  }
+  \tag #'basse \new CueVoice { <>^"B.C." \keepWithTag #'() \BC }
+  \tag #'basse-continue \keepWithTag #'() \BC
+>>
+

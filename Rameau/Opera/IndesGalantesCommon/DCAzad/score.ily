@@ -10,7 +10,7 @@
       \new Staff \with { \haraKiriFirst } << \global \includeNotes "violon1" >>
       \new Staff \with { \haraKiriFirst } << \global \includeNotes "violon2" >>
       \new Staff \with { \haraKiri } <<
-        \global \includeNotes "basse"
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
         \origLayout {
           s2. s1*5\break s1 s2. s2 \bar "" \break s4 s2.*2\break
@@ -45,7 +45,7 @@
         \global \keepWithTag #'alvar \includeNotes "voix"
       >> \keepWithTag #'alvar \includeLyrics "paroles"
       \new Staff \with { \haraKiri } <<
-        \global \includeNotes "basse"
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
         { s2. s1*6 s2.*7 s2 \bar "" \break
           s4 s2.*35 s4\break }

@@ -14,7 +14,7 @@
     >>
     \new Staff <<
       \modVersion\instrumentName "[B.C.]"
-      \global \includeNotes "basse"
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
       \includeFigures "chiffres"
       \origLayout {
         s2.*4\break s2.*5\break s2.*7\break s2.*4 s2 \bar "" \pageBreak

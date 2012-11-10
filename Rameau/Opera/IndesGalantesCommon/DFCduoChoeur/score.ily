@@ -25,7 +25,8 @@
       \new Staff << \global \includeNotes "dessus" >>
       \new Staff \with { \haraKiriFirst } << \global \includeNotes "parties" >>
       \new Staff <<
-        \global \includeNotes "basse"
+        \global
+        \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
         \origLayout {
           s1*6\break s1*5\break \grace s8 s1*5\pageBreak
@@ -72,7 +73,8 @@
       >> \keepWithTag #'adario \includeLyrics "paroles"
       \new Staff <<
         \instrumentName "[Basses]"
-        \global \includeNotes "basse"
+        \global
+        \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
         { s1*16\break s1*16\break s1*16\break }
       >>

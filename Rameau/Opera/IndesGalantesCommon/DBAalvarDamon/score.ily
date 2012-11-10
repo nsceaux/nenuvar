@@ -14,8 +14,8 @@
       >> \keepWithTag #'alvar \includeLyrics "paroles"
     >>
     \new Staff <<
-      \modVersion\instrumentName "[B.C.]"
-      \global \includeNotes "basse"
+      \modVersion\instrumentName "[Basses]"
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
       \includeFigures "chiffres"
       \origLayout {
         s1*3\break s2.*3\pageBreak

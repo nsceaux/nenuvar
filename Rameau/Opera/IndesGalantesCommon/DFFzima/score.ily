@@ -80,7 +80,7 @@
       \new Staff <<
         { <>^"Tous" s4 s1*7 s1*7 s1*8
           <>^"B.C." }
-        \global \includeNotes "basse"
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
         \origLayout {
           s4 s1*7\pageBreak
@@ -123,7 +123,7 @@
       >> \includeLyrics "paroles"
       \new Staff <<
         \instrumentName "[Basses]"
-        \global \includeNotes "basse"
+        \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
       >>
     >>
