@@ -109,7 +109,7 @@ mi'32 do' do' do' do' do' do' do' do' do' do' do' do'4 do'8 |
       fa4
     }
   >>
-  << { s2. s1*10 }
+  << { s2. s1*11 }
     \tag #'part \new CueVoice {
       <>^"[Dessus]" r8 r16 lab'\doux lab'4 r8 r16 lab'\moinsdoux |
       la'4 r la' r |

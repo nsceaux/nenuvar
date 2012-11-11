@@ -8,11 +8,13 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
     title = "Les Indes Galantes"
-    editions = #(make-italic-markup
-                 (if (eqv? #t (ly:get-option 'urtext))
-                     "urtext"
-                     "Conducteur"))
-    date = "Version d'août 1735"
+    arrangement = \markup\center-column {
+      \null
+      \italic #(if (eqv? #t (ly:get-option 'urtext))
+                   "urtext"
+                   "Conducteur")
+    }
+    date = "Version août 1735"
   }
   \markup \null
 }
@@ -35,11 +37,6 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Rameau/Opera/IndesGalantes1735/livret.ily"
 }
-%% Personnages
-%\bookpart {
-%  \paper { #(define page-breaking ly:minimal-breaking) }
-%  \include "Rameau/Opera/IndesGalantes1735/personnages.ily"
-%}
 
 \include "Rameau/Opera/IndesGalantes1735/prologue.ily"
 \include "Rameau/Opera/IndesGalantes1735/turc.ily"

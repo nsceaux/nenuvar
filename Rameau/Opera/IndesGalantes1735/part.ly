@@ -8,7 +8,7 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
     title = "Les Indes Galantes"
-    date = "Version d'août 1735"
+    date = "Version août 1735"
   }
   \markup \null
 }

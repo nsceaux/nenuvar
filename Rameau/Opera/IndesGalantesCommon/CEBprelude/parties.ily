@@ -12,13 +12,15 @@ do' r |
 r sold |
 la r |
 \vA {
-  \origVersion s1*10 |
-  \modVersion {
-    \footnoteHere\markup {
-      Source : mesures 16 à 25 des hautes-contre et tailles laissées vides.
+  <<
+    s1*10
+    \modVersion {
+      \footnoteHere\markup {
+        Source : mesures 16 à 25 des hautes-contre et tailles laissées vides.
+      }
+      \new CueVoice R1*10
     }
-    \new CueVoice R1*10
-  } |
+  >>
   mi'4 la2. |
   sold4 la re'2~ |
   re'8. mi'16 mi'8. la'16 mi'2 |
