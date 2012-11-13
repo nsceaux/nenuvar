@@ -1605,12 +1605,6 @@ Rameau/Opera/IndesGalantes1735-basse-continue:
 	-o $(OUTPUT_DIR)/IndesGalantes1735-basse-continue -dpart=basse-continue  \
 	Rameau/Opera/IndesGalantes1735/part.ly
 .PHONY: Rameau/Opera/IndesGalantes1735-basse-continue
-# Timbales
-Rameau/Opera/IndesGalantes1735-timbales:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes1735-timbales -dpart=timbales  \
-	Rameau/Opera/IndesGalantes1735/part-tt.ly
-.PHONY: Rameau/Opera/IndesGalantes1735-timbales
 
 Rameau/Opera/IndesGalantes1735-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantes1735
@@ -1621,7 +1615,6 @@ Rameau/Opera/IndesGalantes1735-delivery:
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-parties.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-parties.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-basse.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-basse-continue.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-timbales.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantes1735/IndesGalantes1735-midi.tar.gz $(OUTPUT_DIR)/IndesGalantes1735.midi $(OUTPUT_DIR)/IndesGalantes1735-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantes1735.midi ]; then cp $(OUTPUT_DIR)/IndesGalantes1735.midi $(DELIVERY_DIR)/Rameau/IndesGalantes1735/ ; fi
 	git archive --prefix=IndesGalantes1735/ HEAD Rameau/Opera/IndesGalantes1735 common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/IndesGalantes1735/IndesGalantes1735.tar.gz
 
@@ -1635,8 +1628,7 @@ Rameau/Opera/IndesGalantes1735-all: \
 	Rameau/Opera/IndesGalantes1735-trompette-timbales \
 	Rameau/Opera/IndesGalantes1735-parties \
 	Rameau/Opera/IndesGalantes1735-basse \
-	Rameau/Opera/IndesGalantes1735-basse-continue \
-	Rameau/Opera/IndesGalantes1735-timbales\
+	Rameau/Opera/IndesGalantes1735-basse-continue\
 	Rameau/Opera/IndesGalantes1735-delivery\
 	Rameau/Opera/IndesGalantes1735-clean
 
