@@ -2,8 +2,7 @@
   <<
     \origVersion\new StaffGroupNoBar <<
       \new Staff \with { \haraKiriFirst } \withLyrics <<
-        \vA { s2.*5 <>^\markup\character Hebé }
-        \vB { \noHaraKiri <>^\markup\character Hébé }
+        { s2.*5 <>^\markup\character Hebé }
         \global \includeNotes "voix"
       >> \includeLyrics "paroles"
       \new Staff << \global \includeNotes "dessus1" >>

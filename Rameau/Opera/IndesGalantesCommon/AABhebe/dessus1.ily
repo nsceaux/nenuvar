@@ -1,28 +1,27 @@
 \clef "dessus"
-r8^"violons" mi'16 fad' sol'-\vA( la'-\vA) sol' la' si'-\vA( do''-\vA) si'-\vA( do''-\vA) |
-fad'8 red'16-\vA( mi'-\vA) fad'-\vA( sol'-\vA) fad'-\vA( sol'-\vA) la'-\vA( si'-\vA) la'-\vA( si'-\vA) |
+r8^"violons" \once\slurDashed mi'16( fad') sol'( la') \once\slurDashed sol'( la') si'( do'') si'( do'') |
+fad'8 red'16( mi') fad'( sol') fad'( sol') la'( si') la'( si') |
 mi'8 dod'16 red' mi' fad' mi' fad' sol' la' sol' la' |
 red'8 si16 dod' red' mi' red' mi' fad' sol' fad' sol' |
 la'8
-<>^\vA^"flutes et v[iolons]"
-^\vB^\markup\tiny "[Toulouse 1750 : flutes et viol]"
+<>^"flutes et v[iolons]"
 red''16 mi'' fad'' sol'' fad'' sol'' la'' si'' la'' si'' |
 do'''2~ do'''8. si''16 |
-la''4.-\vB\trill -\vB~ la''8 si'' fad'' |
+la''4. la''8 si'' fad'' |
 sol''8. la''16 fad''4.\trill mi''8 |
 mi''2 r4 |
 R2. |
-r8 si'16-\vA\doux dod'' red'' mi'' red'' mi'' fad'' sol'' la'' fad'' |
+r8 si'16\doux dod'' red'' mi'' red'' mi'' fad'' sol'' la'' fad'' |
 si''4. la''8 sol'' la'' |
 fad''2\trill si''8. si''16 |
-si''2 \vA si''4 \vB { r8 si'' } |
+si''2 si''4 |
 si''2 r8 si'' |
 si''4. sol''8 sol''8. sol''16 |
 sol''2 sol''4 |
 sol''2 fad''4\trill |
-sol''8 sol'16-\vA\fort la' si' do'' si' do'' re'' mi'' re'' mi'' |
+sol''8 sol'16\fort la' si' do'' si' do'' re'' mi'' re'' mi'' |
 fad'' mi'' re'' mi'' fad'' sol'' fad'' sol'' la'' si'' la'' si'' |
-do'''4. la''8 \vA\acciaccatura la''8 \vB\appoggiatura la''8 si''4~ |
+do'''4. la''8 \acciaccatura la''8 si''4~ |
 si''8 do''' la''4.\trill sol''8 |
 \vA sol''2. \vB { sol''2 r4 } |
 r4 r8 si'16 do'' re'' mi'' re'' mi'' |

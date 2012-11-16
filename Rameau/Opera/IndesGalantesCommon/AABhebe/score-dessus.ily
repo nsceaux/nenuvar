@@ -8,7 +8,10 @@
       \new Staff \with { \tinyStaff } <<
         \global \keepWithTag #'dessus2 \includeNotes "dessus2" >>
     >>
-    \new Staff \with { \tinyStaff instrumentName = "Violons" } <<
+    \new Staff \with {
+      \tinyStaff instrumentName = "Violons"
+      \consists "Metronome_mark_engraver"
+    } <<
       \global \includeNotes "dessus3"
     >>
   >>

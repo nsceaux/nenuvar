@@ -5,7 +5,14 @@ s2.*9
 \modVersion { \segnoMark \bar "||" }
 s2.*33
 \origVersion { s2._\markup\huge\italic\center-align fin }
-\modVersion { s8 \fineMark s s2 }
+\modVersion {
+  \once \override Score.RehearsalMark #'break-visibility =
+  #end-of-line-invisible
+  \once \override Score.RehearsalMark #'direction = #UP
+  \once \override Score.RehearsalMark #'self-alignment-X = #LEFT
+  \mark\markup\italic Fin.
+  s4 \fineMark s2
+}
 \vA {
   s2.*13 \tempo "un peu plus lent"
   s2.*8

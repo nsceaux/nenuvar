@@ -1,6 +1,6 @@
-\clef "basse" \vB <>^\markup\whiteout "Tous" mi4 |
-la( do') fad-\vA\trill |
-sol( si) red-\vA\trill |
+\clef "basse" mi4 |
+la( do') fad\trill |
+sol( si) red\trill |
 mi( sol) sol, |
 do la,2 |
 mi sol,4 |
@@ -8,12 +8,12 @@ do( la,) si, |
 mi,2 mi4 |
 do re re, |
 sol, sol si, |
-do8.( si,16) la,4-\vA\trill sol, |
+do8.( si,16) la,4\trill sol, |
 re re' do' |
 si2 do'4 |
 sol2 do'4 |
-si4 do'8.-\vA( re'16-\vA) mi'4 |
-re' mi'8.-\vA( re'16-\vA) do'4 |
+si4 do'8.( re'16) mi'4 |
+re' mi'8.( re'16) do'4 |
 do si, do |
 re4. do8 re4 |
 sol,2 sol4~ |
@@ -21,8 +21,8 @@ sol4 fad la~ |
 la sol mi |
 si2 si,4 |
 mi2 re4 |
-sol2 mi4-\vA\trill |
-fad8.-\vA( sold16-\vA) lad8.-\vA( si16-\vA) dod'8.-\vA( lad16-\vA) |
+sol2 mi4\trill |
+fad8.( sold16) lad8.( si16) dod'8.( lad16) |
 si4. mi8 fad4 |
 si,4 si la |
 sold2 mi4 |

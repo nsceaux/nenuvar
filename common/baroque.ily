@@ -31,6 +31,16 @@ dotSign=\markup\vcenter "╸"
        (padding . 0.20)
        (avoid-slur . around)
        (direction . ,UP))
+      ("trillSug"
+       (script-stencil
+        . (markup . , #{ \markup\center-align\concat {
+     \smaller\smaller\musicglyph #"accidentals.leftparen"
+     \musicglyph #"scripts.stopped"
+     \translate #'(-0.6 . 0) \smaller\smaller\musicglyph #"accidentals.rightparen"
+   } #}))
+       (padding . 0.20)
+       (avoid-slur . around)
+       (direction . ,UP))
       ("arcTrill" ; + with an arc above (like a formata with a + signe instead of dot)
        (script-stencil
         . (markup . ,(markup #:combine
@@ -103,6 +113,7 @@ dotSign=\markup\vcenter "╸"
   }
 }
 tr = #(make-articulation "t")
+trillSug = #(make-articulation "trillSug")
 arcTrill = #(make-articulation "arcTrill")
 arcDot = #(make-articulation "arcDot")
 dotDot = #(make-articulation "dotDot")

@@ -24,7 +24,7 @@
   \smallCaps [Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.]
 }
-\pieceTocTitle "Entrée de la suite d’Hebé"
+\pieceTocTitle "Entrée des quatre Nations dans la cour d’Hébé"
 \includeScore "ABAentree"
 
 %{ n°4 %}

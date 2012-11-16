@@ -63,7 +63,7 @@ mi''2 r |
   la'4. si'8 do'' do'' si' la' |
   sold'4.\trill la'8 si' si' la' sold' |
   la'4. si'8 do'' do'' si' la' |
-  sold'2
+  sold'2\trillSug
 }
 <<
   \tag #'(dessus hautbois) { << { s4*0^"Hautbois" \hbI } \\ \hbII >> r2 }
@@ -100,7 +100,7 @@ la''2 r |
   sol'4. la'8 si' si' la' sol' |
   fad'4.-\vA\trill sol'8 la' la' sol' fad' |
   sol'4. la'8 si' si' la' sol' |
-  fad'2
+  fad'2\trillSug
 }
 <<
   \tag #'(dessus hautbois) { << { s4*0^"Hautbois" \hbI } \\ \hbII >> r2 }
@@ -125,16 +125,16 @@ sol' la' si' do'' re'' mi'' fad'' re'' |
     sol''4 re' <<sol''4 \\ si'>> re' |
   }
   \tag #'(dessus violons) {
-    \repeat unfold 2 { \vA <sol'' si'>4 \vB <<sol''4 \\ si'>> <re' sol> } |
-    sol''1-\vA\trill -\vA~ |
-    \repeat unfold 2 { \vA <sol'' si'>4 \vB <<sol''4 \\ si'>> <re' sol> } |
-    sol''1-\vA\trill ~ |
-    sol''4 <re' sol> \vA <sol'' si'>4 \vB <<sol''4 \\ si'>> <re' sol> |
+    \repeat unfold 2 { <sol'' si'>4 <re' sol> } |
+    sol''1\trill~ |
+    sol''4 <re' sol> <sol'' si'>4 <re' sol> |
+    sol''1\trill~ |
+    sol''4 <re' sol> <sol'' si'>4 <re' sol> |
   }
 >>
-sol''1~ |
+sol''1\trillSug~ |
 sol''~ |
-sol''2-\vA~ sol''8 fa'' mi'' re'' |
+sol''2~ sol''8 fa'' mi'' re'' |
 do'' re'' mi'' re'' do'' si' la' sol' |
 fad' sol' fad' sol' la' si' do'' la' |
 re''4. mi''8 la'4.\trill sol'8 |

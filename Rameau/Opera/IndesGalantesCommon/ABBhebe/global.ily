@@ -1,12 +1,14 @@
 \keys sol \major
 \vA\digitTime \time 3/8 \midiTempo #80
-\vA { \markUpBegin\mark "Prelude" \tempo "Gay" }
+\vA { \markUpBegin\mark "Air vif  Prelude" \tempo "Gay" }
 \partial 8 s8 s4.*22
 \modVersion{ \segnoMark \bar "||" }
 \origVersion s4*0^\markup\musicglyph #"scripts.segno"
 \vA {
-  s4.*44 \tempo "Lent"
-  s4.*8 s4_\markup\orig-version\large\italic Fin
+  s4.*42 \tempo "Lent"
+  s4.*4 \tempo "Gay"
+  s4.*6
+  s4_\markup\orig-version\large\italic Fin
   \modVersion\fineMark
   \tempo "moins vif"
   s8\noBreak
