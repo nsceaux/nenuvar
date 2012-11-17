@@ -83,7 +83,7 @@
 
   \livretRef #'AECamour
   \livretDescAttPage\wordwrap { L’AMOUR :
-    \italic { Ranimez vos flambeaux, remplissez vos carquois } }
+    \italic { Rallumez vos flambeaux, remplissez vos carquois } }
   \wordwrap {
     Les vers originellement écrits sont :
   }

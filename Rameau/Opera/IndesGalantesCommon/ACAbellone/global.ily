@@ -7,9 +7,9 @@ s1*21
   \vB { \markUpBegin\mark "Reprise" }
 }
 s1*14
-\modVersion { s2. \fineMark \bar "|." }
-\origVersion { s2_\markup\large\italic fin. s4 }
-s4 s1*13
+\modVersion { s2 \fineMark \bar "|." }
+\origVersion { s2_\markup\large\italic fin. }
+s2 s1*13
 \modVersion\endMark "[Dal Segno]"
 \origVersion {
   s2

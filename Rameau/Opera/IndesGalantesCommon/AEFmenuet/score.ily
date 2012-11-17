@@ -2,7 +2,9 @@
   <<
     \setMusic #'group <<
       \new Staff <<
-        \modVersion\instrumentName "[Dessus]"
+        \modVersion\instrumentName\markup\center-column {
+          [Musettes Hautbois Violons]
+        }
         \global \includeNotes "dessus"
       >>
       \new Staff <<

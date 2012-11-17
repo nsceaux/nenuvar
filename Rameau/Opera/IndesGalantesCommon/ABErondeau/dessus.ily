@@ -1,14 +1,14 @@
 %% rondeau
 \setMusic #'rondeau {
-  \vA<>^\markup\whiteout Musettes
-  sol'8-\vA\doux la' |
+  <>^\markup\whiteout\column { [Tous] Musettes }
+  sol'8\doux( la') |
   si'( la') si'( do'') la'( si') |
   do''4 mi''2 |
   sol''8( re'') do''( si') la'( sol') |
-  re'2 sol'8-\vA( la'-\vA) |
+  re'2 sol'8( la') |
   si'( la') si'( do'') la'( si') |
   do''4 mi''2 |
-  sol''8( mi'') re''( do'') si'( la') |
+  sol''8( mi'') re''( do'') si'\trill( la') |
   sol'2
 }
 %% première reprise
@@ -19,24 +19,24 @@
   sol''~ |
   sol''2 fad''4\trill |
   sol''4 re'' r |
-  r4 r \vA<>^\markup\whiteout { hautb[ois] seuls } sol''4 |
-  \vA\appoggiatura fad''8 mi''4 \appoggiatura re''8 dod''4 re'' |
-  re''4. mi''8 dod''4-\vB\trill |
-  re''2 \origVersion { sol'8-\vA(^"Tous" la'-\vA) \custosNote si'2 }
+  r4 r <>^\markup\whiteout { hautb[ois] seuls } sol''4 |
+  \appoggiatura fad''8 mi''4 \appoggiatura re''8 dod''4 re'' |
+  re''4. mi''8 dod''4 |
+  re''2 \origVersion { sol'8(^"Tous" la') \custosNote si'2 }
 }
 \setMusic #'rIvI {
-  re''4^\markup\whiteout Violons |
+  re''4\doux^\markup\whiteout Violons |
   mi''8( re'') do''( re'') mi''4 |
   re''8(\trill do'') si'( do'') re''4 |
-  do''8(-\vA\trill si') la'( si') do''4 |
-  si'-\vA\trill \appoggiatura { \vA la'8 \vB la'16 } sol'4 la' |
+  do''8(\trill si') la'( si') do''4 |
+  si'\trill \appoggiatura la'8 sol'4 la' |
   si'8( do'') si'( dod'') re''( mi'') |
-  dod''4 \appoggiatura { \vA si'8 \vB si'16 } la'4
+  dod''4 \appoggiatura si'8 la'4
 }
 \setMusic #'rIvII {
-  si'4^\markup\whiteout "Violons" |
+  si'4\doux^\markup\whiteout Violons |
   do''8( si') la'( si') do''4 |
-  si'8(-\vA\trill la') sol'( la') si'4 |
+  si'8(\trill la') sol'( la') si'4 |
   la'2 la'4 |
   re'2 re'4 |
   sol'8( fad') sol'( la') si'( sol') |
@@ -45,26 +45,25 @@
 \setMusic #'rIvfin {
   re''4 |
   fad'4. sol'8 mi'4\trill |
-  \vB\tag #'conducteur3 \clef "dessus2"
-  re'2 \origVersion { sol'8-\vA(-\vB^"Tous" la'-\vA) \custosNote si'2 }
+  re'2 \origVersion { sol'8( la') \custosNote si'2 }
 }
 %% deuxième reprise
 \setMusic #'rIIhbI {
-  sol''4^\markup\whiteout { \vA hautb[ois] \vB hautbois } |
+  sol''4^\markup\whiteout hautb[ois] |
   sol''2 fad''4 |
   mi''\trill red'' mi'' |
-  \appoggiatura { \vA mi''8 \vB mi''16 } fad''4. sol''8 mi''4 |
-  red''4-\vB\trill \vA<>^"Tous" si'8( dod'') red''( mi'') |
+  \appoggiatura mi''8 fad''4. sol''8 mi''4 |
+  red''4 <>^"Tous" si'8( dod'') red''( mi'') |
   si'( dod'') red''( mi'') fad''( sol'') |
-  la''4 red''-\vA\trill mi'' |
+  la''4 red''\trill mi'' |
   mi''4. fad''8 red''4\trill |
-  mi''2 \origVersion { sol'8-\vB^"Tous" la' \custosNote si'2 }
+  mi''2 \origVersion { sol'8 la' \custosNote si'2 }
 }
 \setMusic #'rIIhbII {
-  si'4^\markup\whiteout { \vA hautb[ois] \vB hautbois } |
+  si'4^\markup\whiteout hautb[ois] |
   si'2 la'4 |
   sol'\trill fad' sol' |
-  \vB\appoggiatura sol'16 la'4. si'8 sol'4 |
+  la'4. si'8 sol'4 |
   fad'4 si'8( dod'') red''( mi'') |
   \vA {
     si'( dod'') red''( mi'') fad''( sol'') |
@@ -80,12 +79,12 @@
   }
 }
 \setMusic #'rIIv {
-  \vA\tag #'conducteur3 \clef "dessus2"
+  \tag #'conducteur3 \clef "dessus2"
   <>^\markup\whiteout violons
-  sol8-\vA( la-\vA) |
+  sol8( la) |
   si( la) si( do') la( si) |
-  do'2-\vA\trill si4 |
-  la8( sol) la( si) sol( la) |
+  do'2 si4 |
+  la8\trill( sol) la( si) sol( la) |
   si2
   \vA {
     \tag #'conducteur3 \clef "dessus"

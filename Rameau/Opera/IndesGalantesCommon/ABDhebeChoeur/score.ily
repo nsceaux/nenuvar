@@ -161,12 +161,16 @@
       %% Hautes-contre, tailles
       \new GrandStaff \with {
         instrumentName = \markup {
-          \center-column { [Hautes-contre Tailles] }
+          \center-column { [Hautes-contre Tailles Basses] }
           \hspace #5
         }
         shortInstrumentName = \markup\center-column {h-c t} }
       <<
         \new Staff <<
+          <>^\markup {
+            Le Bourdon aux Basses et aux parties h.c. et t. partout ou les
+            musettes joüent jusqu'au chœur
+          }
           \global \keepWithTag #'parties \includeNotes "parties"
           >>
         >>

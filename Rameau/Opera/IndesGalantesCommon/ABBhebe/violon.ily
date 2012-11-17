@@ -31,7 +31,7 @@ re'16 re'' mi''( re'') mi''( re'') |
 sol''8(\doux fad''8)\trill mi''16 r |
 r re'' mi''( re'') mi''( re'') |
 la''8( sol'')\trill fad''16 r |
-sol''16*2/3( fad'' sol'') sol'8 r |
+sol''16*2/3[( fad'' sol'')] sol'8 r |
 r16 sol'' sol''8.[(\trill fad''32 sol'']) |
 si'16[ sol''] sol''8.[(\trill fad''32 sol'']) |
 do''16[ sol''] sol''8.[(\trill fad''32 sol'']) |

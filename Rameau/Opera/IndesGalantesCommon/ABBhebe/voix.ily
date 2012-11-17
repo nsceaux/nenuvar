@@ -55,7 +55,7 @@ do''8. sold'16 la'8~ |
 la'16 si' si'8.\trill la'16 |
 la'4 do''8 |
 \appoggiatura si'8 la'4 sol'16[ fad'] |
-\appoggiatura fad'16 sol'8. sol'16 la' si' |
+\appoggiatura fad'8 sol'8. sol'16 la' si' |
 si'4( la'8)\trillSug |
 si'4 mi''8 |
 la'8. la'16 si' do'' |

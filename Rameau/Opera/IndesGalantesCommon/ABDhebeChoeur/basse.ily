@@ -1,10 +1,24 @@
 \clef "basse" r8 |
-R2.*29 |
-r4 r
-\vB<> -\tag #'basse -"Tous" -\tag #'basson -\markup\whiteout "Bassons"
-\vA<> -\tag #'basse -"B.C." -\tag #'basson ^\markup\whiteout "Bassons"
-r
-\tag #'basse {
+<<
+  \tag #'(basse basson) { R2.*29 r4 r }
+  \tag #'basse-part \new CueVoice {
+    R2.*2 |
+    \set countPercentRepeats = ##t
+    \set repeatCountVisibility = #(every-nth-repeat-count-visible 4)
+    \ru#10 <sol, re>2.~ |
+    <re sol,>2 r4 |
+    R2. |
+    \ru#6 <sol, re>2.~ |
+    <sol, re>2.
+    R2. |
+    \ru#7 <sol, re>2.~ |
+    <sol, re>2
+  }
+>>
+<>-\tag #'(basse basse-part) -"B.C."
+-\tag #'basson ^\markup\whiteout "Bassons"
+r4
+\tag #'(basse basse-part) {
   sol,2.~ |
   sol,~ |
   sol, |

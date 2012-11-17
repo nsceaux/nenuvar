@@ -1,51 +1,34 @@
 \clef "dessus" r4^\markup\orig-version violons |
 r4 r sol''4_\doux |
-fad''8.(-\vA\trill sol''16) fad''8.( mi''16) re''8.( fa''16) |
-mi''8.( \vA fa''16) \vB fa''?16) mi''8.( re''16) do''8.( mi''16) |
+fad''8.(\trill sol''16) fad''8.( mi''16) re''8.( fa''16) |
+mi''8.( fa''16) mi''8.( re''16) do''8.( mi''16) |
 re''8.( mi''16) fad''8.( sol''16) la''8.( fad''16) |
 sol''4 re''8.( do''16) si'8.( sol'16) |
 re''2 re''4 |
-sol''2~ sol''8-\vA( fad''16 sol''-\vA) |
+sol''2~ sol''8( fad''16 sol'') |
 fad''4\trill r r2 |
 R1 |
 <<
   \origVersion {
-    r4 r \vA r4^"violons"_\doux
-    \vB \myfootnote #'Rest #'(-0.5 . 1.5) \markup {
-      \column {
-        \line {
-          Le manuscrit 1757 indique : \italic flutes.
-          Or, ce n'est pas cohérent au niveau de l'enchaînement
-          avec le système suivant :
-        }
-        \line { ni avec l'introduction. }
-      }
-      \raise #3.5 \score {
-        { \tinyQuote \key sol \major \clef "french"
-          re''4\laissezVibrer \stopStaff s4 \startStaff re'''2\repeatTie
-        }
-        \layout { \quoteLayout }
-      }
-    } r4^"[violons]"
+    r4 r r4^"violons"_\doux
   }
   \modVersion R2.
 >> |
-r4 r sol''4-\vB_\doux |
-fad''8.(-\vA\trill sol''16) fad''8.( mi''16) re''8.( fa''16) |
+<>\doux r4 r sol''4 |
+fad''8.(\trill sol''16) fad''8.( mi''16) re''8.( fa''16) |
 mi''8.( fa''16) mi''8.( re''16) do''8.( mi''16) |
 re''8.( mi''16) fad''8.( sol''16) la''8.( fad''16) |
 sol''4 re''8.( do''16) si'8.( sol'16) |
-\vA re''2.
-\vB << \origVersion { re''4~ re''2 } \modVersion re''2. >> |
-sol''2~ sol''8-\vA( fad''16 sol''-\vA) |
+re''2 re''4 |
+sol''2~ sol''8( fad''16 sol'') |
 fad''2\trill r4 |
-la'8.-\vA( si'16-\vA) la'8.-\vA( si'16-\vA) \vA { la'8.( si'32 la') } \vB { la'8 si'16 la' } |
+la'8.( si'16) la'8.( si'16) la'8.( si'32 la') |
 do''2 si'4 |
 la'2\trill r4 |
 la'8.( si'16) la'8.( si'16) la'8.( si'32 la'32) |
 do''2. |
 si'8.( do''16) si'8.( do''16) si'8.( do''32 si') |
-re''8.( mi''16) re''8.( mi''16) re''8.( mi''32 \vA fa'')
+re''8.( mi''16) re''8.( mi''16) re''8.( mi''32 fa'')
 \vB\myfootnote #'NoteHead #'(0 . 2) \markup {
   Manuscrit Toulouse 1750 : \raise #3 \score {
     { \tinyQuote \key sol \major \clef "french" \time 3/4
@@ -56,7 +39,7 @@ re''8.( mi''16) re''8.( mi''16) re''8.( mi''32 \vA fa'')
     \layout { \quoteLayout }
   }
 } fa''?32) |
-mi''8.( \vA fa''16) \vB fa''?16) mi''8.( fa''16) mi''8.( \vA fad''32 \vB fad''?32 sol'') |
+mi''8.( fa''16) mi''8.( fa''16) mi''8.( fad''32 sol'') |
 fad''4.\trill mi''8 re''4~ |
-re''8-\vA( do''16-\vA\trill si'-\vA) la'4.\trill sol'8 |
+re''8( do''16\trill si') la'4.\trill sol'8 |
 sol'2. |

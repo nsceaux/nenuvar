@@ -2,6 +2,9 @@
   <<
     \setMusic #'group <<
       \new Staff \with { \haraKiriFirst } <<
+        \footnoteHere #'(-2 . 1) \markup {
+          Contredanse postérieure.
+        }
         \modVersion\instrumentName\markup\center-column {
           "Petites flutes" Hautbois
         }

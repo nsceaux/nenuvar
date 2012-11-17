@@ -3,7 +3,7 @@
 }
 Quel -- le pei -- ne mor -- tel -- le ! 
 \tag #'vdessus {
-  Que sont de -- ve -- nus nos beaux jours !
+  Que vont de -- ve -- nir nos beaux jours !
 }
 Quel -- le pei -- ne mor -- tel -- le !
 \tag #'vdessus {

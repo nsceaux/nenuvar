@@ -47,7 +47,7 @@ si''\trill la''8 r <<
 sol''4( mi'') |
 mi''2. sol''4 |
 sol''4( re''8) r sol''4( do'') |
-do''2 r4 re'' |
+do''2. re''4 |
 si'\trill la'8 r si' do'' re''4 |
 re''2 do''8 si' la' sol' |
 re'2

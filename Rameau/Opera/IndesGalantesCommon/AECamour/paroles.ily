@@ -1,8 +1,8 @@
-Ra -- ni -- mez vos flam -- beaux, rem -- plis -- sez vos car -- quois,
-Mois -- son -- nez, me -- ri -- tez les pal -- mes les plus bel -- les !
+Ral -- lu -- mez vos flam -- beaux, rem -- plis -- sez vos car -- quois,
+Mois -- son -- nez, me -- ri -- tez les pal -- mes im -- mor -- tel -- les !
 A -- mours, rem -- por -- tez, a la fois,
 Cent vic -- toi -- res nou -- vel -- les !
-Mois -- son -- nez, __ me -- ri -- tez les pal -- mes les plus bel -- les !
+Mois -- son -- nez, me -- ri -- tez les pal -- mes im -- mor -- tel -- les !
 A -- mours, A -- mours, rem -- por -- tez, a la fois,
 Cent vic -- toi -- res nou -- vel -- les !
 rem -- por -- tez, a la fois,

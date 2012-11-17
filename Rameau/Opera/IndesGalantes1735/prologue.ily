@@ -45,28 +45,26 @@
 \includeScore "ABBhebe"
 
 %{ n°7 %}\newBookPart #'(full-rehearsal)
-\pieceTocTitle "Air grave pour deux Polonois"
+\pieceTocTitle "Air Polonois"
 \includeScore "ABCair"
 
 %{ n°8 %}\newBookPart #'(full-rehearsal)
-\pieceTocTitle "Premier menuet"
-\includeScore "AEEmenuet"
-\noPageTurn
-%{ n°9 %}
-\pieceTocTitle "Second menuet"
+\pieceTocTitle "Menuets"
 \includeScore "AEFmenuet"
+\noPageTurn
+\includeScore "AEEmenuet"
 \sceneDescriptionBottom\markup\wordwrap-center {
   Bruit de Tambours qui interromp le Ballet.
 }
 
-%{ n°10 %}
+%{ n°9 %}
 \pieceToc\markup\wordwrap {
   HEBÉ :  \italic { Qu’entends-je ? les Tambours font taire nos Musettes ! }
 }
 \includeScore "ABFhebe"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%{ n°11 %}\newBookPart #'(full-rehearsal)
+%{ n°10 %}\newBookPart #'(full-rehearsal)
 \scene "[Scene III]" "Scene 3 : Bellone, Hebé & sa suite"
 \sceneDescription\markup\left-align\center-column {
   \line { \smallCaps [Bellone, \smallCaps Hébé et sa suite.]}
@@ -81,7 +79,7 @@
 \includeScore "ACAbellone"
 \includeScore "ACBchoeur"
 
-%{ n°12 %}
+%{ n°11 %}
 \sceneDescription\markup\justify {
   [Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
@@ -89,52 +87,64 @@
   se rangent près de \smallCaps Bellonne & suivent
   ses Etendarts.]
 }
-\pieceTocTitle "Air pour deux guerriers portant les drapeaux"
+\pieceTocTitle "Air pour les Guerriers portans les drapeaux"
 \includeScore "ACCair"
 
-%{ n°13 %}
+%{ n°12 %}
 \pieceToc\markup\wordwrap { BELLONE :
-  \italic { C’est la gloire Qui rend les heros immortels } }
+  \italic { C’est la gloire Qui rend les heros immortels }
+  [sur l’air pour les guerriers]
+}
 \includeScore "ACDbellone"
 
-%{ n°14 %}
-\pieceTocTitle "Air pour les amans et amantes"
+%{ n°13 %}
+\pieceTocAndTitle\markup\wordwrap {
+  Air pour les amants qui suivent Bellone,
+  et pour les amantes qui tachent de les retenir
+} \markup\wordwrap {
+  Air pour les amants qui suivent Bellone,
+  et pour les amantes qui tachent de les retenir
+}
 \includeScore "ACEair"
 
-%{ n°15 %}
+%{ n°14 %}
 \pieceToc\markup\wordwrap { CHŒUR : \italic { Vous nous abandonnez } }
 \includeScore "ACFchoeur"
 
-%{ n°16 %}\newBookPart #'(full-rehearsal)
+%{ n°15 %}\newBookPart #'(full-rehearsal)
 \scene "[Scene IV]" "Scene 4 : Hebé"
 \sceneDescription\markup\wordwrap-center { \smallCaps [Hebé] }
 \pieceToc\markup\wordwrap { HEBÉ : \italic { Bellonne les entraîne } }
 \includeScore "ADAhebe"
 
-%{ n°17 %}
+%{ n°16 %}
 \scene "[Scene V]" "Scene 5 : L’Amour, Hebé et sa suite"
 \pieceTocTitle "Annonce de l’Amour"
 \includeScore "AEAannonce"
 
-%{ n°18 %}\newBookPart #'(full-rehearsal)
+%{ n°17 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR, HEBÉ :
   \italic { Pourquoy Mars à l’Amour declare-t-il la guerre ? } }
 \includeScore "AEBamourHebe"
 
-%{ n°19 %}
+%{ n°18 %}
 \pieceToc\markup\wordwrap { L’AMOUR :
-  \italic { Ranimez vos flambeaux, remplissez vos carquois } }
+  \italic { Rallumez vos flambeaux, remplissez vos carquois } }
 \includeScore "AECamour"
 
-%{ n°20 %}\newBookPart #'(full-rehearsal)
-\pieceTocTitle "[Air pour les Amours]"
+%{ n°19 %}\newBookPart #'(full-rehearsal)
+\pieceTocTitle "Air gratieux pour les Amours"
 \includeScore "AEDair"
 
-%{ n°21 %}\newBookPart #'(full-rehearsal)
+%{ n°20 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :
   \italic { Traversez les plus vastes Mers } }
 \includeScore "AEGamourHebe"
 \includeScore "AEHchoeur"
+
+%{ n°21 %}
+\pieceTocTitle "Contredanse"
+\includeScore "AEEcontredanse"
 
 %{ n°22 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"

@@ -3,7 +3,7 @@
   \vB<>^\markup "Trompettes et violons"
   r4 r8 re''16 re'' re''4. re''16 re'' |
   re''4 fad''8 fad'' re'' re'' la' la' |
-  re''4 re''8 mi'' fad''4 fad''8 sol'' |
+  re''4 re''8 mi'' fad''4\trillSug fad''8 sol'' |
   la''4 re'''8 re''' re''' re''' la'' la'' |
   fad''4 la''8 la'' fad'' fad'' re'' re'' |
   mi''4 la' mi'' la' |
@@ -19,7 +19,7 @@
   r4 r8 mi''16 mi'' mi''4. mi''16 mi'' |
   mi''4 la''8 la'' la'' la'' mi'' mi'' |
   la''4. la'16 la' la'4. la'16 la' |
-  la'2-\vA\trill r |
+  la'2\trill r |
   R1*3 |
   r4 r8 fad''16 fad'' fad''4. fad''16 fad'' |
   fad''4 la''8 la'' fad'' fad'' re'' re'' |
@@ -27,12 +27,12 @@
   r4 re''8 re'' sol''2 |
   r4 sol''8 sol'' mi'' mi'' mi'' mi'' |
   la'4 fad''8 fad'' mi''4 la'' |
-  fad''4.-\vA\trill la''16 la'' la''4. la''16 la'' |
+  fad''4.\trill la''16 la'' la''4. la''16 la'' |
   la''4 re'''8 re''' la'' la'' fad'' fad'' |
   re''4 la''8 la'' fad'' fad'' re'' re'' |
   la'4. re''16 re'' re''4. re''16 re'' |
-  re''4.-\vA\trill re'16 re' re'4. re'16 re' |
-  re'2-\vA\trill -\vB\fermata r4
+  re''4.\trill re'16 re' re'4. re'16 re' |
+  re'2\trill r4
 }
 \setMusic #'Arest {
   R1*21 |
@@ -42,12 +42,12 @@
 
 \setMusic #'BviolonI {
   fad''4 |
-  mi'' mi''8 re'' dod''4-\vA\trill dod''8 si' |
-  lad'4-\vB\trill dod''8 dod'' fad''2 |
-  r4 si'8 si' \vB { \once\tieDashed } mi''2~ |
+  mi'' mi''8 re'' dod''4\trill dod''8 si' |
+  lad'4 dod''8 dod'' fad''2 |
+  r4 si'8 si' mi''2~ |
   mi'' mi''4 fad'' |
-  \appoggiatura mi''8 re''2 re''4 \vA\appoggiatura dod''8 si'4 |
-  si'2 si'4 lad'-\vA\trill |
+  \appoggiatura mi''8 re''2 re''4 \appoggiatura dod''8 si'4 |
+  si'2 si'4 lad'\trill |
   si' sol''8 sol'' sol''4 si''8 si'' |
   si''2 si''4 re''' |
   la''2 la''4 sold'' |
@@ -56,9 +56,9 @@
 }
 \setMusic #'BviolonII {
   si'4 |
-  lad'-\vA\trill lad'8 si' fad'4 mi'8 re' |
+  lad'\trill lad'8 si' fad'4 mi'8 re' |
   dod'4 lad'8 lad' si'2 |
-  r4 re'8 re' \vB { \once\tieDashed } sol'2~ |
+  r4 re'8 re' sol'2~ |
   sol' lad'4 dod'' |
   fad'2 fad'4 fad' |
   sol'2 sol'4 dod' |

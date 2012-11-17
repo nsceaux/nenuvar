@@ -3,8 +3,18 @@
 re4 |
 re2 re |
 <<
-  \tag #'timbales { re2 r4 re }
-  \tag #'basse { re,2 r4 re }
+  \tag #'timbales { la,2 r4 re }
+  \tag #'basse {
+    \footnoteHere #'(0 . -5) \markup {
+      Source : \raise #4 \score {
+        \new Staff {
+          \tinyQuote \clef "bass" \time 2/2 \partial 4 \key re \major
+          re4^"Tymbales"_"B.C." | re2 re | << re2 \\ re, >>
+        }
+        \layout { \quoteLayout }
+      }
+    } la,2 r4 re
+  }
   \tag #'conducteur { << re2 \\ re,>> r4 << re \\ re >> }
 >> |
 re2 re4 la, |

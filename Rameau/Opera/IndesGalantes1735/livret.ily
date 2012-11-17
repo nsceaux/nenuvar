@@ -88,19 +88,13 @@
   se rangent près de \smallCaps Bellonne & suivent
   ses Etendarts.
 }
-\livretRef #'ACDbellone
-\livretPers BELLONNE
-\livretVerse#3 { C’est la gloire }
-\livretVerse#8 { Qui rend les heros immortels, }
-\livretVerse#8 { Allez encenser ses autels, }
-\livretVerse#10 { Partez, volez au temple de memoire. }
 \livretRef #'ACEair
 \livretDesc\wordwrap-center { On danse. }
 \livretRef #'ACFchoeur
 \livretPers CHŒUR
 \livretVerse#6 { Vous nous abandonnez. }
 \livretVerse#6 { Quelle peine mortelle ! }
-\livretVerse#8 { Que sont devenus nos beaux jours ! }
+\livretVerse#8 { Que vont devenir nos beaux jours ! }
 \livretVerse#6 { Quelle peine mortelle ! }
 \livretVerse#6 { Ecoutez les Amours. }
 \livretVerse#6 { La Gloire nous appelle, }
@@ -113,7 +107,7 @@
 \livretVerse#6 { O toy, vainqueur des Cieux, }
 \livretVerse#8 { Viens prouver ton pouvoir suprême ! }
 \livretVerse#12 { On ose te quitter pour suivre d’autres Dieux ! }
-\livretVerse#14 { Fils de Vénus, ah ! qui peut mieux te vanger que toy-meme ? }
+\livretVerse#14 { Fils de Vénus, eh ! qui peut mieux te vanger que toy-meme ? }
 
 \livretScene\line { SCENE V }
 \livretRef #'AEAannonce
@@ -132,8 +126,8 @@
 \livretVerse#8 { Quand l’Europe les abandonne. }
 \livretRef #'AECamour
 \livretPers L’AMOUR
-\livretVerse#12 { Ranimez vos flambeaux, remplissez vos carquois, }
-\livretVerse#12 { Moissonnez, meritez les palmes les plus belles ! }
+\livretVerse#12 { Rallumez vos flambeaux, remplissez vos carquois, }
+\livretVerse#12 { Moissonnez, meritez les palmes immortelles ! }
 \livretVerse#8 { Amours, remportez, a la fois, }
 \livretVerse#6 { Cent victoires nouvelles ! }
 \livretVerse#8 { L’horreur suit le terrible Mars ; }

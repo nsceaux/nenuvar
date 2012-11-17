@@ -3,20 +3,16 @@
 r8 | R2.*2 |
 \set countPercentRepeats = ##t
 \set repeatCountVisibility = #(every-nth-repeat-count-visible 4)
-\tag #'haute-contre \rp#10 re'2. |
-\tag #'taille \rp#10 sol2. |
-\tag #'parties \ru#10 <sol re'>2. |
-\vA <re' sol>2 \vB re'2 r4 |
+\ru#10 <sol re'>2.~ |
+<re' sol>2 r4 |
 R2. |
-\tag #'haute-contre \rp#7 re'2.
-\tag #'taille \rp#7 sol2.
-\tag #'parties \ru#7 <sol re'>2.
+\ru#6 <sol re'>2.~ |
+<sol re'>2.
 R2. |
-\tag #'haute-contre { \rp#7 re'2. | re'2 }
-\tag #'taille { \rp#7 sol2. | sol2 }
-\tag #'parties { \ru#7 <sol re'>2. | <sol re'>2 }
-r4-\tag #'parties ^\markup\whiteout\vA "H[autes]-c[ontre] et tailles"
--\tag #'parties ^\markup\whiteout\vB "[Hautes-contre et tailles]" |
+\ru#7 <sol re'>2.~ |
+<sol re'>2
+<>-\tag #'parties ^\markup\whiteout "H[autes]-c[ontre] et tailles"
+r4 |
 r4 r r8 sol'8 |
 si'2 si'8 si' |
 re''2 si'8 si' |
@@ -25,7 +21,7 @@ re'2 r4 |
 R2.*6 |
 r4 r8 do' si la |
 sol4 sol' do''8 si' |
-re''4.-\vA( do''8-\vA) si'8.( la'16) |
+re''4.( do''8) si'8.( la'16) |
 sol'4.( re'8) re'4 |
 re'2 fad'4 |
 sol'8( re') mi'( si) do'( sol) |

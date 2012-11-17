@@ -6,7 +6,7 @@
       { s8 s2.*35\startHaraKiri }
     >>
     \new Staff <<
-      \global \keepWithTag #'basse \includeNotes "basse"
+      \global \keepWithTag #'basse-part \includeNotes "basse"
     >>
   >>
   \layout { indent = \smallindent }

@@ -53,14 +53,14 @@ R1 |
   }
 >>
 la,4. \vA\tag #'basse <>^"Tymballes"
-la,16*2/3 la, la, la,4. la,16*2/3 la, la, |
+la,32*4/3 la, la, la,4. la,32*4/3 la, la, |
 la,2 la, |
 la,1 |
 R1 |
-r2 r4 r16 re re re |
+r2 r4 r8 re32*4/3 re re |
 re2 r |
 la, la, |
-<< { re4. re16*2/3 re re re16[ re re re] re[ re re re] | } \\ \tag #'basse re,1 >>
+<< { re4. re32*4/3 re re re16[ re re re] re[ re re re] | } \\ \tag #'basse re,1 >>
 re1~ |
 re2. r4 |
 \origVersion s1

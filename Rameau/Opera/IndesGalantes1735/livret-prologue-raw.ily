@@ -86,19 +86,13 @@
   se rangent près de \smallCaps Bellonne & suivent
   ses Etendarts.
 }
-\livretRef #'ACDbellone
-\livretPers BELLONNE
-%# C'est la gloire
-%# Qui rend les heros immortels,
-%# Allez encenser ses autels,
-%# Partez, volez au temple de memoire.
 \livretRef #'ACEair
 \livretDesc\wordwrap-center { On danse. }
 \livretRef #'ACFchoeur
 \livretPers CHŒUR
 %# Vous nous abandonnez.
 %# Quelle peine mortelle !
-%# Que sont devenus nos beaux jours !
+%# Que vont devenir nos beaux jours !
 %# Quelle peine mortelle !
 %# Ecoutez les Amours.
 %# La Gloire nous appelle,
@@ -111,7 +105,7 @@
 %# O toy, vainqueur des Cieux,
 %# Viens prouver ton pouvoir suprême !
 %# On ose te quitter pour suivre d'autres Dieux !
-%# Fils de Vénus, ah! qui peut mieux te vanger que toy-meme ?
+%# Fils de Vénus, eh! qui peut mieux te vanger que toy-meme ?
 
 \livretScene\line { SCENE V }
 \livretRef #'AEAannonce
@@ -130,8 +124,8 @@
 %# Quand l'Europe les abandonne.
 \livretRef #'AECamour
 \livretPers L’AMOUR
-%# Ranimez vos flambeaux, remplissez vos carquois,
-%# Moissonnez, meritez les palmes les plus belles !
+%# Rallumez vos flambeaux, remplissez vos carquois,
+%# Moissonnez, meritez les palmes immortelles !
 %# Amours, remportez, a la fois,
 %# Cent victoires nouvelles !
 %# L'*horreur suit le terrible Mars ;

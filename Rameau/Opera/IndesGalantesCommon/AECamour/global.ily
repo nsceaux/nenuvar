@@ -1,11 +1,10 @@
 \keys sol \minor
+\markUpBegin\mark "Air vif"
 \digitTime\time 2/2 \midiTempo #160
-\vB { \markUpBegin\mark "Ariette" }
 \partial 4 s4 s1*10
 \modVersion { \segnoMark \bar "||" }
 \origVersion <>^\markup\musicglyph #"scripts.segno"
-\vA { s1*34 s2. \tempo "Lent" s4 s1*9 }
-\vB s1*44
+s1*34 s2. \tempo "Lent" s4 s1*9
 s2^\markup\orig-version\large\italic Fin
 \modVersion { \fineMark \bar "|." }
 s2 s1*19
@@ -13,13 +12,5 @@ s2 s1*19
   s2 \once\override TextScript #'extra-offset = #'(0 . -4)
   s2^\markup\musicglyph #"scripts.segno"
 }
-\vB {
-  \endMark "Jusqu'au mot fin"
-  \origVersion{
-    \once\override Score.RehearsalMark #'extra-offset = #'(5 . 20)
-    \once\override Score.RehearsalMark #'self-alignment-X = #LEFT
-  }
-}
-\vB\bar "|."
-\vA { \origVersion\bar "|:|" \modVersion\bar "|." }
-\vA\modVersion\endMark "[Dal Segno]"
+\origVersion\bar "|:|" \modVersion\bar "|."
+\modVersion\endMark "[Dal Segno]"

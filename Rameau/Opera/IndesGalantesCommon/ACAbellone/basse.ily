@@ -1,5 +1,5 @@
 \setMusic #'At {
-  <>^\markup\orig-version { \vA Tymballes \vB Timbales }
+  <>^\markup\orig-version Tymballes
   r4 r8 re16 re re4. re16 re |
   re2 re |
   re r |
@@ -46,8 +46,8 @@
   re2 re |
   re re |
   re4 re8 re re re re re |
-  \vA { re4.*5/6 } \vB { re4~ re16 } re re re re re re re re re re re |
-  re2-\vB\fermata r4
+  re4.*5/6 re16 re re re re re re re re re re |
+  re2 r4
 }
 \setMusic #'Ft {
   r4 |
@@ -83,8 +83,8 @@
   r2 r4
 }
 \setMusic #'Fb {
-  \vB<>^"[B.C.]" re'4 |
-  dod' dod'8 si lad4 lad8 si |
+  <>_"B.C." re'4 |
+  dod' dod'8 si lad4\trill lad8 si |
   fad2 fad8 r re8 re |
   sol2 r4 mi8 mi |
   lad2 fad4 fad |
@@ -107,9 +107,9 @@
   \tag #'basse { \Ab \Bb \Cb \Db \Eb \Fb \Gb }
   \tag #'conducteur {
     \At \Bb
-    s4*0_\markup { \vB Timbales \vA Tymb. } \Ct
+    s4*0_\markup Tymb. \Ct
     s4*0_"B.C." \Db
-    s4*0_\markup { \vB Timbales \vA Tymb. } \Et \Fb \Gt
+    s4*0_\markup Tymb. \Et \Fb \Gt
   }
   \tag #'basse-part {
     <>^"Timbales" \At \Bb

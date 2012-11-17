@@ -5,7 +5,7 @@
   subtitle = "Ballet Héroïque"
   editions = \markup\abs-fontsize #12 \center-column {
     \line { Matériel réalisé à partir des originaux }
-    \line { pour les concerts de La Simphonie du Marais — Hugo Reyne, }
+    \line { pour les concerts de La Simphonie du Marais — Hugo Reyne }
     \line { et mis gracieusement à disposition du public. }
   }
 }

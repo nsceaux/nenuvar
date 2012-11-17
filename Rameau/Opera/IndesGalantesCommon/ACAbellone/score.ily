@@ -76,7 +76,7 @@
         >>
         \new GrandStaff <<
           \new Staff \with { \haraKiriFirst } <<
-            { s1*35 s2.\break }
+            { s1*35 s2\break }
             \global \keepWithTag #'violon1 \includeNotes "dessus"
           >>
           \new Staff \with { \haraKiriFirst } <<

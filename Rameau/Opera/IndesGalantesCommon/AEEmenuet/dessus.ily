@@ -18,7 +18,15 @@ sib'8 do'' re'' mib'' fa'' fa'' |
 fa' sol' la' sib' do'' re'' |
 do'' re'' mib'' fa'' sol'' sol'' |
 sol' la' sib' do'' re'' mib'' |
-re'' mi'' fad'' sol'' la'' si'' |
+re'' mi'' fad'' sol'' la'' \footnoteHere #'(0 . 2) \markup {
+  Source : \raise #4 \score {
+    \new Staff {
+      \tinyQuote \clef "french" \key sol \minor \time 3/4
+      re''8 mi'' fad'' sol'' la'' si'' | do'''4
+    }
+    \layout { \quoteLayout }
+  }
+} sib''8 |
 do'''4 la'' sib'' |
 sol'' la'' fad''\trill |
 sol''2.

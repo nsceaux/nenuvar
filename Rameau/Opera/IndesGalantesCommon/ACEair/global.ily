@@ -11,7 +11,10 @@
   }
   \vA\tag #'not-silence {
     s2. s1.
-    \tempo\markup\whiteout "Tendrement"
+    \tempo\markup\whiteout\column {
+      \line { Tendrement sans }
+      \line { alterer la mesure }
+    }
   }
   \vB\tag #'not-silence {
     \tempo "Vitte" s2. s1. s2.
