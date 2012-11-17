@@ -1,11 +1,9 @@
 \keys la \minor
+\tempo "Deuxième gavotte en rondeau"
 \midiTempo #192
 \digitTime \time 2/2 \partial 2
 %% Rondeau
-\modVersion {
-  \markUpBegin\mark\markup { \musicglyph #"scripts.segno" [Rondeau] }
-}
-\origVersion\segnoMark
+\segnoMark
 s2 s1*11
 \origVersion { <>^\markup\italic\large fin s2 \bar "|:|" }
 \modVersion { s2 \fineMark \bar ":|" }

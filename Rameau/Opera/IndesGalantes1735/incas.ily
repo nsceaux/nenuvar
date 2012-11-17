@@ -93,17 +93,15 @@
 \includeScore "CEHhuascar"
 
 %{ n°15 %}
-\pieceTocTitle "Premiere gavotte"
+\pieceTocTitle "Gavottes"
 \includeScore "CEIgavotte" \noPageTurn
-%{ n°16 %}
-\pieceTocTitle "Deuxieme gavotte en rondeau"
 \includeScore "CEJgavotte"
 
-%{ n°17 %}\newBookPart #'(full-rehearsal)
+%{ n°16 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { CHŒUR : \italic { Dans les abimes de la Terre } }
 \includeScore "CEKchoeur"
 
-%{ n°18 %}
+%{ n°17 %}
 \scene "Scene V" "Scene 5 : Phani, Huascar"
 \sceneDescription\markup\wordwrap-center\smallCaps {
   [Phani-Palla, Huascar-Inca.]
@@ -112,12 +110,12 @@
   \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
 \includeScore "CFAphaniHuascarCarlos"
 
-%{ n°19 %}
+%{ n°18 %}
 \pieceToc\markup\wordwrap { PHANI, CARLOS, HUASCAR :
   \italic { Pour jamais l’Amour nous engage } }
 \includeScore "CFBtrio"
 \partNoPageTurn #'(dessus)
-%{ n°20 %}
+%{ n°19 %}
 \sceneDescription\markup\left-align\center-column {
   \line { [Le Volcan se rallume, & le Tremblement de terre recommence.] }
 }

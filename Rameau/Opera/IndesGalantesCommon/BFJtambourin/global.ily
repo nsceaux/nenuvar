@@ -1,4 +1,5 @@
 \keys sol \minor
+\tempo "Deuxième Tambourin"
 \digitTime\time 2/4 \partial 4
 \origVersion <>^\markup\musicglyph #"scripts.segno"
 s4 s2*7 s4

@@ -131,33 +131,27 @@
 \includeScore "BFKariette"
 
 %{ n°21 %}
-\pieceTocTitle "Premier Rigaudon"
+\pieceTocTitle "Rigaudons"
 \includeScore "BFFrigaudon"
-
-%{ n°22 %}
-\pieceTocTitle "Deuxieme Rigaudon"
 \includeScore "BFGrigaudon"
 
-%{ n°23 %}
+%{ n°22 %}
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Fuyez, fuyez Vents orageux } }
 \includeScore "BFHemilie"
 
-%{ n°24 %}\newBookPart #'(full-rehearsal)
-\pieceTocTitle "Premier Tambourin"
+%{ n°23 %}\newBookPart #'(full-rehearsal)
+\pieceTocTitle "Tambourins"
 \includeScore "BFItambourin"
-\origVersion\noPageBreak
-\noPageTurn
-%{ n°25 %}
-\pieceTocTitle "Deuxieme Tambourin"
+\origVersion\noPageBreak \noPageTurn
 \includeScore "BFJtambourin"
 
-%{ n°26 %}
+%{ n°24 %}
 \pieceToc\markup\wordwrap { EMILIE, CHŒUR :
  \italic { Partez, on languit sur le Rivage } }
 \includeScore "BFLemilie"
 
-%{ n°27 %}
+%{ n°25 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
 \reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
  "BFItambourin" "BFMtambourin"

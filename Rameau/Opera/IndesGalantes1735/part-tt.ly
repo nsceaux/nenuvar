@@ -26,7 +26,7 @@
 %%% Prologue
 %%%
 \actn "Prologue"
-%{ n°11 %}
+%{ n°10 %}
 \scene "[Scene III]" "Scene 3 : Bellone, Hebé & sa suite"
 \sceneDescription\markup\left-align\center-column {
   \line { \smallCaps [Bellone, \smallCaps Hébé et sa suite.]}
@@ -36,12 +36,12 @@
     Elle invite la suite d’Hébé à n’aimer que la gloire.]
   }
 }
-\pieceTocNb "0-11" \markup\wordwrap { BELLONE, CHŒUR :
+\pieceTocNb "0-10" \markup\wordwrap { BELLONE, CHŒUR :
   \italic { La Gloire vous appelle ; écoutez ses Trompettes } }
 \includeScore "ACAbellone"
 \includeScore "ACBchoeur"
 
-%{ n°12 %}
+%{ n°11 %}
 \sceneDescription\markup\justify {
   [Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
@@ -49,12 +49,14 @@
   se rangent près de \smallCaps Bellonne & suivent
   ses Etendarts.]
 }
-\pieceTocTitleNb "0-12" "Air pour deux guerriers portant les drapeaux"
+\pieceTocTitleNb "0-11" "Air pour les Guerriers portans les drapeaux"
 \includeScore "ACCair"
 
-%{ n°13 %}
-\pieceTocNb "0-13" \markup\wordwrap { BELLONE :
-  \italic { C’est la gloire Qui rend les heros immortels } }
+%{ n°12 %}
+\pieceTocNb "0-12" \markup\wordwrap { BELLONE :
+  \italic { C’est la gloire Qui rend les heros immortels }
+  [sur l’air pour les guerriers]
+}
 \includeScore "ACDbellone"
 
 #(increase-rehearsal-major-number)

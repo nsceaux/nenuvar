@@ -1,4 +1,5 @@
 \keys sol \major
+\tempo "Premier Rigaudon"
 \digitTime\time 2/2 \partial 4 \midiTempo #240
 s4
 \origVersion <>^\markup\musicglyph #"scripts.segno"

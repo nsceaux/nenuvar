@@ -118,18 +118,15 @@
 \includeScore "DFCduoChoeur"
 
 %{ n°16 %}
-\pieceTocTitle "Premier Menuet"
-\includeScore "DFDmenuet"
-\noPageTurn
-%{ n°17 %}
-\pieceTocTitle "Deuxième Menuet"
+\pieceTocTitle "Menuets"
+\includeScore "DFDmenuet" \noPageTurn
 \includeScore "DFEmenuet"
 
-%{ n°18 %}
+%{ n°17 %}
 \pieceToc\markup\wordwrap { ZIMA : \italic { Regnez, Plaisirs & Jeux ! } }
 \includeScore "DFFzima"
 
-%{ n°19 %}\newBookPart #'(full-rehearsal)
+%{ n°18 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Chaconne"
 \includeScore "DFGchaconne"
 \actEnd "FIN"

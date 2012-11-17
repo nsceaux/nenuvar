@@ -1,4 +1,5 @@
 \keys sol \major
+\tempo "Premier Tambourin"
 \midiTempo #120
 \digitTime\time 2/4 \partial 4
 \origVersion <>^\markup\musicglyph #"scripts.segno"

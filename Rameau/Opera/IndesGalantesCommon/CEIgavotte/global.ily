@@ -1,4 +1,5 @@
 \keys la \major
+\tempo "Première gavotte"
 \digitTime \time 2/2 \midiTempo #160 \partial 2
 s2 s1*7 s2
 \origVersion\bar "|:|"
