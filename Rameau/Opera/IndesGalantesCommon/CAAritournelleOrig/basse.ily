@@ -11,7 +11,7 @@ r2 si, |
 do la, |
 re si, |
 do re |
-re r |
+sol, r |
 R1 |
 r2 re |
 re,1~ |
@@ -19,9 +19,9 @@ re,~ |
 re,2. re4 |
 mi2 si, |
 do re |
-\ratureNote mi2 \ratureNote r |
-mi4 si, do la, |
-re sol re re, |
-sol,2 si, |
+mi2 r |
+r4 si, do la, |
+re sol re re |
+sol2 si, |
 do\doux re |
 sol,1 |

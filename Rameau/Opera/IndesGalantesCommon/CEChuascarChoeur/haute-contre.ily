@@ -1,6 +1,6 @@
 \clef "haute-contre" R1*2 |
-r8 r16 mi' mi'8. mi'16 mi'8. mi'16 mi'8. mi'16 |
-la'8. la'16 la'8. la'16 la'8. la'16 la'8. la'16 |
+r8 r16 mi' mi'8. mi'16 mi'8.[ mi'16 mi'8. mi'16] |
+la'8.[ la'16 la'8. la'16] la'8.[ la'16 la'8. la'16] |
 dod''4. dod''8 dod''4. dod''8 |
 re''2 mi''4 re''8. dod''16 |
 si'8 si' si' si' mi'' mi'' mi'' mi'' |

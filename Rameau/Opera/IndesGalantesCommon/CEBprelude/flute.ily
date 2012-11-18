@@ -1,11 +1,11 @@
 \clef "dessus" R1*4 |
 r2 la'' |
 re'''1~ |
-re'''4. do'''16\trill si'' \appoggiatura { \vA si''8 \vB si''16 } do'''4. re'''8 |
+re'''4.( do'''16\trill si'') \appoggiatura si''8 do'''4. re'''8 |
 si''2\trill mi''' |
 la'' re'''4 do''' |
 si'' do''' si'' la'' |
-sold''-\vB\trill
+sold''
 <<
   \tag #'(flute1 conducteur) \new Voice {
     \tag #'conducteur \voiceOne

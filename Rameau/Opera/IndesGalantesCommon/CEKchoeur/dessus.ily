@@ -25,13 +25,14 @@
     do'16 sib lab sib do' sib lab sib do' sib lab sib do' sib lab do' |
     sib lab sol lab sib lab sol lab sib lab sol lab sib lab sol sib |
     \ru#16 lab16 |
-    lab4.*9/12
+    sol4.*9/12
   }
   \tag #'violon1 << \vI R1*2 >>
   \tag #'violon2 << \vII R1 >>
   \tag #'conducteur << R1 << << \vI { s1 R1 } >> \\ \vII >> >>
 >>
-do'32-\tag #'conducteur ^"unis" re' mi' fa' sol' lab' sib' << { s16 \cesureInstr } do''4.*9/12 >> do'32 re' mi' fa' sol' lab' sib' |
+do'32-\tag #'conducteur ^"unis" re' mi' fa' sol' lab' sib'
+do''4.*9/12 do'32 re' mi' fa' sol' lab' sib' |
 do''4.*11/12 sol32 lab sib do' re' mi'4.*11/12 do'32 re' mi' fa' sol' |
 lab'8.[ mi'32*2/3 fa' sol'] lab'8.[ mi'32*2/3 fa' sol']
 lab'8.[ mi'32*2/3 fa' sol'] lab'8.[ mi'32*2/3 fa' sol'] |
@@ -47,7 +48,7 @@ lab'[ fa'' mib'' reb'' do'' sib'] lab'32[ fa'' mib'' reb'' do'' sib' lab' sol'] 
   <>-\plusfort \ru#16 do'16 |
   <>-\tresfort \ru#32 reb'32 |
   \ru#16 reb' \ru#16 solb' |
-  \ru#32 sol' |
+  \ru#32 solb' |
   <<
     \tag #'(violon1 conducteur) \new Voice {
       \tag #'conducteur \voiceOne
@@ -128,13 +129,13 @@ lab'4 sib'8 do''4 do''8 |
   la'? r r2 |
   \origVersion { <>^"triples cr[oches]"_\fort la'?16 \ru#15 la' | }
   \modVersion { la'?32_\fort \ru#31 la' | }
-  la'4 r la'\doux r |
-  sib'4 r r2 |
+  la'4\enadoucissant r la' r |
+  sib'4\doux r r2 |
   \origVersion { <>^"triples"_\fort \ru#16 sib'16 | }
   \modVersion { <>_\fort \ru#32 sib'32 | }
   si'4\enadoucissant r si' r |
-  si'? r4 r r16 sol'\fort la' si'! |
-  do''4 r r r16 sib' lab' sol' |
+  si'?\doux r4 r r16 sol'\fort la' si'! |
+  do''4 r r r16 sib'! lab'! sol' |
   lab'8 r lab' r lab' r lab' r |
   lab'4 r lab' r |
 }
@@ -144,6 +145,6 @@ lab'4 sib'8 do''4 do''8 |
   \ru#16 lab'16 |
   \ru#16 lab'16 |
 }
-lab'4 r r r16 lab' sol' fa' |
-fa'4 r mi' r |
+lab'4\doux r r r16 lab' sol' fa' |
+fa'4 r mi'\trill r |
 fa' r

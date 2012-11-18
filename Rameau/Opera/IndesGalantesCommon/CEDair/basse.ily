@@ -37,7 +37,6 @@ la,1 |
 sol,4 sol, sol, sol, |
 fad,2 si, |
 R1 |
-\vA { \ratureMmRest R1 | }
 sold2 la8 r r4 |
 mi2. r16 mi' re' dod' |
 si4 dod' re' si |

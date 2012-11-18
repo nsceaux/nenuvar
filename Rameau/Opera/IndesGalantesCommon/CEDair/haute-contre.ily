@@ -29,7 +29,6 @@ la'1 |
 si'4 si' si' si' |
 lad'2 si' |
 re''2-\vA( dod''8-\vA) r r4 |
-\vA { \ratureMmRest R1 | }
 si'2 la' |
 sold'2.\trill si'4 |
 si' la' la' re'' |

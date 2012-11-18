@@ -142,7 +142,7 @@
     r4 la8 fa |
     do'1 |
     r2 do'4 la |
-    re'8. re'16 sib4 sib8 sib16 sib |
+    re'8. fa'16 sib4 sib8 sib16 sib |
     fa8 fa la si16 do' si4\trill si8 si16 do' |
     do'4 do'8 sol16 la sib8
     <<

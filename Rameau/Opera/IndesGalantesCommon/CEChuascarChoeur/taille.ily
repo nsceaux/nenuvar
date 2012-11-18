@@ -1,6 +1,6 @@
 \clef "taille" R1*2 |
-r8 r16 la la8. la16 la8. la16 la8. la16 |
-dod'8. dod'16 mi'8. mi'16 dod'8. dod'16 dod'8. dod'16 |
+r8 r16 la la8. la16 la8.[ la16 la8. la16] |
+dod'8.[ dod'16 mi'8. mi'16] dod'8.[ dod'16 dod'8. dod'16] |
 mi'4. mi'8 mi'4. mi'8 |
 la2 la'4 mi'8. mi'16 |
 mi'8 mi' mi' mi' sold' sold' sold' sold' |

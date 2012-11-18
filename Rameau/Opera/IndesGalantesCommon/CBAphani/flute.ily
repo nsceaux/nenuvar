@@ -27,7 +27,7 @@ re'''4.-\vA( do'''16\trill si''-\vA) do'''8.-\vA( re'''16-\vA) |
 si''2\trill r8 r16 la'' |
 la''16-\vA( sol''32\trill fad''-\vA) sol''16.( re''32) \vA\appoggiatura re''8 mi''4 sol'' |
 sol''4-\vA~ sol''4. sol''16( fad'') |
-\appoggiatura fad''8 sol''2\trill re''8. si'16 |
+\appoggiatura fad''8 sol''2 re''8. si'16 |
 mi''4 la''4.*5/6 sol''16( fad'' mi'') |
 re''8.( re'''16) re'''4.( fad''8) |
 \vA { \appoggiatura fad''8 sol''8.( la''16) }

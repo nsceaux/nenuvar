@@ -31,7 +31,7 @@ re'' r |
 R1 |
 r2 r8 sol'' la'' si'' |
 la''\trill sol'' la''4 r8 la'' si'' do''' |
-re'''2 re'''~ |
+si''8\trill la'' si''4 re'''2~ |
 re''' do'''~ |
 do'''1~ |
 do'''8 do''' si''\trill la'' si'' si'' la''\trill sol'' |
@@ -39,7 +39,7 @@ la'' la'' sol''\trill fad'' sol'' sol'' fad''\trill mi'' |
 fad'' sol'' la'' sol'' fad'' mi'' re'' do'' |
 si'2 sol''~ |
 sol'' fad''\trill |
-\ratureNote sol''2 \ratureNote r |
+sol''2 r |
 sol''8 la'' sol'' fad'' mi'' re'' do'' si' |
 la'4 si' la'4.\trill sol'8 |
 sol'2 \breathe re'\doux |

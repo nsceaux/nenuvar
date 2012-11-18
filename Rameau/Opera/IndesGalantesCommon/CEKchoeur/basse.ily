@@ -10,9 +10,7 @@ fa,4 r8 fa,32 fa, fa, fa, fa,8 fa, fa, fa, |
 \ru#16 fa,16 |
 \ru#16 fa,16 |
 \ru#16 fa,16 |
-<do, do> q q q q q q q q[
-\once\override BreathingSign #'Y-offset = #4 \cesureInstr
-q q q] q q q q |
+<do, do> q q q q q q q q q q q q q q q |
 \ru#16 <do, do> |
 \ru#16 fa, |
 \ru#16 fa, |
@@ -67,7 +65,7 @@ lab,4 sib,8 do4 do8 |
   re r r2 |
   \ru#16 dod16 |
   mi4 r mi r |
-  mib4 r r2 |
+  mib!4 r r2 |
   \ru#16 re16 |
   fa4 r fa r |
   fa r r r16 fa fa fa |

@@ -29,7 +29,6 @@ mi'1 |
 mi'4 mi' mi' si |
 dod'2 fad |
 si'-\vA( la'8-\vA) r r4 |
-\vA { \ratureMmRest R1 | }
 mi'2 mi' |
 mi'2. sol'4 |
 fad' mi' re' re'' |

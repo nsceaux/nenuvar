@@ -1,6 +1,6 @@
 \clef "dessus" R1*2 |
-r8 r16 mi' la'8. la'16 dod''8. la'16 dod''8. dod''16 |
-mi''8. la'16 dod''8. dod''16 mi''8. dod''16 mi''8. mi''16 |
+r8 r16 mi' la'8. la'16 dod''8.[ la'16 dod''8. dod''16] |
+mi''8.[ la'16 dod''8. dod''16] mi''8.[ dod''16 mi''8. mi''16] |
 la''2 r8 mi'' fad''8. sol''16 |
 fad''2-\vA\trill fad''4 sold''!8. la''16 |
 sold''8 mi'' sold'' sold'' si'' sold'' si'' si'' |

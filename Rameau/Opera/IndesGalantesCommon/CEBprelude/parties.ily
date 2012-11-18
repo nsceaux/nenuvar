@@ -18,7 +18,7 @@ la r |
       \footnoteHere\markup {
         Source : mesures 16 à 25 des hautes-contre et tailles laissées vides.
       }
-      \new CueVoice R1*10
+      \ru#10 s1
     }
   >>
   mi'4 la2. |

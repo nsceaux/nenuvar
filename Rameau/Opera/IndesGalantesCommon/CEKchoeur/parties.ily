@@ -31,8 +31,8 @@ sol4 r r2 |
     Source : partie laissée vide jusqu'à la mesure 36 incluse.
   }
   <<
-    s1*13
-    \tag #'part \new CueVoice {
+    \ru#13 s1
+    %{ \tag #'part \new CueVoice {
       <>^"[Dessus]" -\doux \ru#8 do'8-. |
       <>-\plusfort \ru#16 do'16 |
       <>-\tresfort \ru#32 reb'32 |
@@ -65,7 +65,7 @@ sol4 r r2 |
         >> do' re' mi' fa' sol' lab' sib' do''4
       \ottava #1 r32 do'' re'' mi'' fa'' sol'' lab'' sib'' |
       do'''8 \ottava #0 r r4 r2 |
-    }
+    } %}
   >>
   << s1*3
     \modVersion\new CueVoice {
@@ -109,8 +109,8 @@ mi'32 do' do' do' do' do' do' do' do' do' do' do' do'4 do'8 |
       fa4
     }
   >>
-  << { s2. s1*11 }
-    \tag #'part \new CueVoice {
+  << { s2. \ru#11 s1 }
+    %{ \tag #'part \new CueVoice {
       <>^"[Dessus]" r8 r16 lab'\doux lab'4 r8 r16 lab'\moinsdoux |
       la'4 r la' r |
       la'? r r2 |
@@ -123,7 +123,7 @@ mi'32 do' do' do' do' do' do' do' do' do' do' do' do'4 do'8 |
       do''4 r r r16 sib' lab' sol' |
       lab'8 r lab' r lab' r lab' r |
       lab'4 r lab' r |
-    }
+    } %}
   >>
 }
 \vB {

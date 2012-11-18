@@ -28,7 +28,7 @@ re''2 r8 re'' mi'' fa'' |
 mi''\trill re'' mi''4 r8 mi'' fad'' sol'' |
 fad''\trill la'' re''4 sol''2~ |
 sol'' fad''\trill |
-fad''4 re'''8 do''' si'' do''' la'' si'' |
+sol''4 re'''8 do''' si'' do''' la'' si'' |
 \appoggiatura la'' sol''2 la'' |
 re'' r |
 r8 la'' sol''\trill fad'' sol'' sol'' fad''\trill mi'' |
@@ -36,7 +36,7 @@ fad'' fad'' mi''\trill re'' mi''4 mi'' |
 la'2~ la'8 do'' si' la' |
 sol'2 si' |
 la' la'\trill |
-\ratureNote sol' \ratureNote r |
+sol' r |
 r sol'' |
 fad''4 sol''2 fad''4\trill |
 sol''2 re''~ |

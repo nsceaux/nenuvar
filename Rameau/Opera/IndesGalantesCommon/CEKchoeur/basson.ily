@@ -79,4 +79,4 @@ lab,4 sib,8 do4 do8 |
 }
 fa4 r r r8 lab |
 sol4 r sib r |
-lab r
+la r

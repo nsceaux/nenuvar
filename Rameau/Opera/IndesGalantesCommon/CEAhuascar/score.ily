@@ -28,15 +28,11 @@
       \modVersion\instrumentName "[Basses]"
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \vA\origLayout {
+      \origLayout {
         s2.*2 s1 s2.*5\pageBreak
         s2. s1 \grace s8 s2.*2 s2 \bar "" \break s2 s1*3\pageBreak
         s1*2 s2. s2 \bar "" \break s4 s1 s2.\pageBreak
         \grace s8 s1 s2. s1\break
-      }
-      \vB\origLayout {
-        s2.*2 s1 s2.*3\break s2.*3 s1 s2.\break s2. s1*2 s2 \bar "" \pageBreak
-        s2 s1*3\break \grace s8 s2.*2 s1\break s2. s1 s2.*2\pageBreak
       }
     >>
   >>

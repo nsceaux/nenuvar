@@ -80,28 +80,32 @@
 \includeScore "CEDair"
 
 %{ n°12 %}
+\pieceTocTitle "Rondeau"
+\includeScore "CEErondeau"
+
+%{ n°13 %}
 \pieceToc\markup\wordwrap { HUASCAR, CHŒUR :
   \italic { Clair Flambeau du monde } }
 \includeScore "CEFhuascarChoeur"
 
-%{ n°13 %}\newBookPart #'(full-rehearsal)
+%{ n°14 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Loure en rondeau"
 \includeScore "CEGloure"
 
-%{ n°14 %}\newBookPart #'(full-rehearsal)
+%{ n°15 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { HUASCAR : \italic { Permettez, Astre du jour } }
 \includeScore "CEHhuascar"
 
-%{ n°15 %}
+%{ n°16 %}
 \pieceTocTitle "Gavottes"
 \includeScore "CEIgavotte" \noPageTurn
 \includeScore "CEJgavotte"
 
-%{ n°16 %}\newBookPart #'(full-rehearsal)
+%{ n°17 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { CHŒUR : \italic { Dans les abimes de la Terre } }
 \includeScore "CEKchoeur"
 
-%{ n°17 %}
+%{ n°18 %}
 \scene "Scene V" "Scene 5 : Phani, Huascar"
 \sceneDescription\markup\wordwrap-center\smallCaps {
   [Phani-Palla, Huascar-Inca.]
@@ -110,12 +114,12 @@
   \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
 \includeScore "CFAphaniHuascarCarlos"
 
-%{ n°18 %}
+%{ n°19 %}
 \pieceToc\markup\wordwrap { PHANI, CARLOS, HUASCAR :
   \italic { Pour jamais l’Amour nous engage } }
 \includeScore "CFBtrio"
 \partNoPageTurn #'(dessus)
-%{ n°19 %}
+%{ n°20 %}
 \sceneDescription\markup\left-align\center-column {
   \line { [Le Volcan se rallume, & le Tremblement de terre recommence.] }
 }

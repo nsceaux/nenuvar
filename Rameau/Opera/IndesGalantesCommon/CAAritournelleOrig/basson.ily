@@ -19,7 +19,7 @@ re2 re'~ |
 re' do'~ |
 do' si |
 mi' la\trill |
-re r8 re' mi' fa' |
+si r8 re' mi' fa' |
 mi'\trill re' mi'4 r8 mi' fad' sol' |
 fad'\trill mi' fad'4 r8 fad' sol' la' |
 re'1~ |
@@ -27,7 +27,7 @@ re'2 dod'\trill |
 re'2 r8 re' mi' fad' |
 sol' la' si' la' sol' fad' mi' re' |
 mi' re' do' si la4 re' |
-\ratureNote si2\trill \ratureNote r |
+si2\trill r |
 r4 re'2 do'4~ |
 do'4 si do' re' |
 si2\trill sol'~ |
