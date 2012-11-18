@@ -4,7 +4,7 @@ sib8 la16 sol fa mib re do |
 sib,4 r8 sib_\doux |
 mib' sib mib' sib |
 mib'4. sib8 |
-mib' do' fa4 |
+mib' sib fa4 |
 sib r |
 r r8 sib,_\fort |
 mib4 r8 mib |
@@ -26,8 +26,8 @@ fa2 |
 \vA\origVersion\clef "tenor"
 fa'8_\fort mib'16 re' do' sib la sol |
 \vA\origVersion\clef "bass"
-\vA fa2~ \vB<< \origVersion { fa4~ fa~ } \modVersion fa2~ >> |
-fa8_\doux mib16 re do sib, la, sol, |
+fa2\doux~ |
+fa8 mib16 re do sib, la, sol, |
 fa,4 r |
 sib8 la16 sol fa mib re do |
 sib,4 r |
@@ -67,14 +67,16 @@ fa,2 |
 sib,4 r8 sib-\vA\fort |
 mib'4 r8 mib |
 sib4 r |
-\vA { <>^\markup\bold Lent R2 } \vB R2*6 |
+%%\vA { R2 } \vB
+R2*6 |
 re2-\vA^\tresdoux |
 mib |
 mi |
-\vB\once\tieDashed fa2~ |
+<>^\markup\bold Vite
+fa2~ |
 fa8^"avec les bassons"_\fort mib16 re do sib, la, sol, |
 fa,4 mib, |
-\vA <>^\markup\bold Lent
+<>^\markup\bold Lent
 re, r8 mib,^"sans bassons"-\vA_\tresdoux-\vB_\doux |
 fa,2 |
 sib,4 r8 sib^"Tous"-\vB_\fort-\vA_\markup\italic { fort et vite } |
@@ -88,18 +90,24 @@ fa4 fa, |
 sib,2 |
 << \origVersion { r4 r R2 } \modVersion R2*2 >> |\allowPageTurn
 re'8 do'16 sib la sol fad mi |
-\vA re4 \vB { re8 r } r4 |
+<>^\markup\bold { moins vite }
+re4 r4 |
 do4 r |
 r8 do sib,8. do16 |
 re4 re, |
-sol8^\fort fa16 mib re do si, la, |
-sol,4 r8 sol^\tresdoux |
+<>^\markup\italic { fort et vite }
+sol8 fa16 mib re do si, la, |
+sol,4
+\once\override TextScript #'outside-staff-priority = #9999
+<>^\markup\bold { moins vite }
+r8 sol^\tresdoux |
 fa4 r |
 r8 fa mib8. fa16 |
 sol4 sol, |
 do sib, |
+<>^\markup\bold vite
 la,2 |
-fa'8^"avec les bassons"-\vB_\fort-\vA_\markup\italic { Vite et fort } mib'16 re' do' sib la sol |
+fa'8^"avec les bassons"_\fort mib'16 re' do' sib la sol |
 \vB\once\tieDashed fa2_\doux ~ |
 fa8 mib16 re do sib, la, sol, |
 fa,8 r r4 |
@@ -114,16 +122,18 @@ fa,2 |
 sib,4 r8 sib_\fort |
 mib'4 r8 mib |
 sib4 r |
-\vA { <>^\markup\bold Lent R2 } \vB R2*6 |
+%%\vA { <>^\markup\bold Lent R2 } \vB
+R2*6 |
 re2 |
 mib |
 mi |
+<>^\markup\bold viste
 fa4 r |
-\vA<>^"avec les bassons"_\fort
-\vB<>^"Tous avec les bassons"
+<>^"Tous avec les bassons"_\fort
 fa'8 mib'16 re' do' sib la sol |
 fa8 mib16 re do sib, la, sol, |
 fa,4 mib, |
+<>^\markup\bold [Lent]
 re, r8 mib,^\doux^"sans bassons" |
 fa,2 |
 sib,4 r8 sib^"Tous"_\fort |

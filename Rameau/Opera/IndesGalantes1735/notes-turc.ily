@@ -231,8 +231,7 @@
     barrée : \italic { “une matelotte”. }
   }
   \wordwrap {
-    Une collette modifie les mesures 68 et 69, intercalant un passage à
-    la flûte seule :
+    Une collette ajoute le passage à la flûte, mesures 69 à 73 :
   }
   \score {
     \new ChoirStaff <<
@@ -255,19 +254,19 @@
           sol''4\melismaEnd r8 sol'' |
           \custosNote do''8 }
       >> \lyricmode { the -- re ; Re -- gnez, __ Re - }
-      \new Staff <<
+      \new Staff \with { \consists "Horizontal_bracket_engraver" } <<
         \glob \clef "french"
         { do''4.\trill sib'8 |
           sib'2 |
           R2 |
-          r4 r8 fa''^"seul"_\markup\large\italic Lent |
+          r4 r8 fa''^\startGroup^"seul"_\markup\large\italic Lent |
           fa''2~ |
           fa''16 mib'' re'' mib''32 fa'' fa''8.\trill mib''32 fa'' |
           sol''2~ |
           sol''32( fa'' mib'' fa'' sol'' la'' sol'' la'')
           la''8.(\trill sol''32 la'') |
           sib''2~ |
-          sib''4 r8 sib''8 |
+          sib''4^\stopGroup r8 sib''8 |
           sib''2~ |
           sib''16( la'' sol'' la''32 sib'') sib''8.(\trill la''32 sib'') |
           do'''4 r8 do''' |
@@ -303,7 +302,7 @@
     }
   }
   \wordwrap {
-    Une autre collette réalise le même ajout mesures 116 et 117.
+    Une autre collette réalise le même ajout mesures 122 à 127.
   }
   \wordwrap {
     À la fin de l’ariette il est noté : \italic { “Rigaudon”. }

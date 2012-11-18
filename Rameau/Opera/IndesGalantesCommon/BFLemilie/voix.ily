@@ -15,7 +15,7 @@ sib'4 |
 fa' r |
 r re''8 mib'' |
 fa'' sol''16[ fa''] mib''[ re''] do''[ sib'] |
-la'8\trill la' r do'' |
+la'8\trill la' do''4 |
 mib''4 r |
 r re''8 fa'' |
 mib''16[-\vA( re'']-\vA) do''[-\vA( sib']-\vA) fa'8 la'\trill |
