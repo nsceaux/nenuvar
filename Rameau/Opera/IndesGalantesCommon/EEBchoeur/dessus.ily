@@ -74,7 +74,7 @@ mi'' si' sol' |
 mi' r mi''8 re'' |
 dod''4 dod''4. fad''8 |
 red''2\trill mi''8 si' |
-si'( la'16\trill) sol' fad'4.\trill mi'8 |
+si'( la'16\trill sol') fad'4.\trill mi'8 |
 mi'2 sol''8 sol'' |
 sol''4 sol'' la'' |
 \appoggiatura sol''8 fad''4. fad''8 sold''4 |

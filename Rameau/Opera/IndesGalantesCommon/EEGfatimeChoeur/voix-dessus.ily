@@ -2,8 +2,8 @@
 r4 
 \setMusic #'choeur {
   la'4 re'' |
-  fad''(\melisma mi''8)[\trill re'' dod''\trill si'] |
-  la'2\melismaEnd si'8 la' |
+  fad''(\melisma mi''8)[\trill re'' dod''\trill si']( |
+  la'2)\melismaEnd si'8 la' |
   la'4.( sol'8)[\trill fad'] sol' |
   fad'2\trill fad'8 sol' |
   la'4 si' do'' |

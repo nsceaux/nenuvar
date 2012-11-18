@@ -6,11 +6,7 @@
           La source principale ne contient pas cet orage, qui existe
           néanmoins sur les parties séparées de second violon et de
           basse, retranscrites ici en taille normale. Les autres
-          parties semblent perdues.
-
-          On a complété la partition avec des parties de premier
-          violon et haute-contre/taille, présentées ici en taille plus
-          petite.
+          parties, complétées par Dukas, semblent perdues.
         }
         \modVersion\instrumentName "[Violons]"
         \global \keepWithTag #'dessus \includeNotes "dessus"

@@ -1,4 +1,5 @@
-\clef "basse" R1*5 |
+\clef "basse" la,2 r |
+R1*4 |
 r2 r8 la dod' la |
 si4 dod'8 re' mi'4 mi |
 mi'8 mi' re' dod' re'2~ |

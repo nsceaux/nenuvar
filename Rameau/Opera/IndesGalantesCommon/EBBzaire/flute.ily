@@ -1,5 +1,5 @@
-\clef "dessus" r8 la''( |
-sol''8.\trill)( sib''32*2/3 la'' sib'' do'''4. sib''32*4/5 la'' sol'' fa'' mi'' |
+\clef "dessus" r8 la'' |
+\appoggiatura la''8 sol''8.( sib''32*2/3 la'' sib'' do'''4. sib''32*4/5 la'' sol'' fa'' mi'' |
 fa''4) r8 la''32*4/3( sib'' do''') do'''8.(\trill sib''32 do''') |
 re'''8.( do'''16) sib''32*4/3([ la'' sol'']) sol''8( sol''8[ fa''32\trill mi'']) fa''16 |
 mi''8.(\trill sol''16) sib''8.( la''16) sol''8.( fa''32\trill mi'') |

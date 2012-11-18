@@ -157,26 +157,27 @@
 \pieceTocTitle "Orage"
 \includeScore "EELorageOrig"
 
-% 360 !! il manque des pages
-%\pieceTocTitle "Air de Borée"
-%\includeScore "EELboree"
-
 %{ n°21 %}
+% 360 !! il manque des pages
+\pieceTocTitle "Air de Borée"
+\includeScore "EELboree"
+
+%{ n°22 %}
 % 367
 \pieceTocTitle "Premier air pour Zephire"
 \includeScore "EEMzephir"
 
-%{ n°22 %}
+%{ n°23 %}
 % 368-369
 \pieceTocTitle "Deuxième air"
 \includeScore "EEMzephireDeux"
 
-%{ n°23 %}\newBookPart #'(full-rehearsal)
+%{ n°24 %}\newBookPart #'(full-rehearsal)
 % 369-372
 \pieceTocTitle "Air pour les Fleurs"
 \includeScore "EENfleurs"
 
-%{ n°24 %}
+%{ n°25 %}
 % 372
 \pieceTocTitle "Gavotte"
 \includeScore "EEOgavotte"

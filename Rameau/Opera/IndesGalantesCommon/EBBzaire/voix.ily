@@ -7,7 +7,7 @@ la'4\trill r8 do'' do''8.([ sib'16)]\trill la'8 sol'16 la' |
 mi'8.\trill fa'16 sol'8 la'16[ fa'] sib'8. do''16 |
 sib'8.([ la'32\trill sol']) sol'4\trill r8 do'' |
 re''2 re''8 mib''16 mib'' |
-si'4.\trill sol''8 sol''[( fa''16)]\trill mi''32[ re''] do''32*2[ si'!] do''8 |
+si'4.\trill sol''8 sol''8.[( fa''16)]\trill mi''32[ re''] do''32[ si'!] do''8 |
 mi''2( re'')\trill |
 do'' r4 r8 sol' |
 sib'2 la'4\trill la'8 sib' |

@@ -20,7 +20,7 @@ dod'' si' la' sold' fad'4.\trill mi'8 |
 mi'4 si'8 dod'' re''4 dod''~ |
 dod'' si'2 la'4 |
 sold'\trill mi''8 re'' dod''4\trill si'8 la' |
-r la' re'' re'' mi''4.(\trill re''16 mi'') |
+r la' re'' mi'' mi''4.(\trill re''16 mi'') |
 fad''4 si''4. la''8 sold''\trill fad'' |
 mi''2~ mi''8 mi'' fad'' mi'' |
 re''2~ re''8 re'' mi'' re'' |

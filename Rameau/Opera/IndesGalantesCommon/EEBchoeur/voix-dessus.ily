@@ -49,7 +49,7 @@ mi''2. |
 mi''8 r r4 mi''8 re'' |
 dod''4 dod''4. fad''8 |
 red''2\trill mi''8 si' |
-si'([\trill la'16 sol']) fad'4.\trill mi'8 |
+si'[ la'16\trill sol'] fad'4.\trill mi'8 |
 mi'2 r4 |
 R2.*3 |
 r4 r r8 dod'' |

@@ -26,14 +26,14 @@ re''4
 \setMusic #'choeur {
   \origVersion <>_"Violons"
   la'4 re'' |
-  fad''( mi''8)\trill re'' dod''\trill si'( |
-  la'2) si'8 la' |
+  fad''( mi''8)\trill re'' dod''\trill si' |
+  la'2 si'8 la' |
   la'4.( sol'8\trill) fad' sol' |
-  fad'\trill la' si'( la') re''( la') |
+  fad'\trill la' si'( la') re'' la' |
   la'4 si' do'' |
-  si'8\trill re'' mi''( re'') sol''( mi'') |
+  si'8\trill re'' mi''( re'') sol'' mi'' |
   dod''2\trill dod''8 re'' |
-  \appoggiatura re''8 mi'' la' si'( la') dod''( mi'') |
+  \appoggiatura re''8 mi'' la' si'( la') dod'' mi'' |
   sol' la' si'( la') dod'' re'' |
   fad'4 re'' fad'' |
   si'8 re'' mi''( re'') sol'' si'' |

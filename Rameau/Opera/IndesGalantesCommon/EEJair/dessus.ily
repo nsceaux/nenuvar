@@ -89,7 +89,7 @@
     re'''( dod''') re''' s2 |
     s2. |
     s4 s8*2/3 dod'' re'' mi''( re'') dod'' |
-    re''( dod'') re'' s2 |
+    re''\trill( dod'') re'' s2 |
     s2.*4 |
     fad''4 s s |
     fad'' s s |
@@ -135,12 +135,12 @@
     mi''(\trill re'') mi'' s2 |
     s4 r8*2/3 fad'' sol'' la''( sol'') fad'' |
     si''( la'') si'' s2 |
-    r4*2/3 s8*2/3 s sol'' fad'' mi'' fad'' sol'' |
+    r4*2/3 s8*2/3 s sol'' fad'' mi''( fad'') sol'' |
     dod''4 fad'' lad'8 dod'' |
     fad'4 si' lad'8 r |
     s2.*2 |
     dod''4 sold'8 si'4 mid'16 fad' |
-    fad'2~ fad'8. mid'16 |
+    fad'2~ fad'8.( mid'16) |
     \appoggiatura mid'?8 fad'2. |
     s2.*4 |
     s4 s8*2/3 sold' la' si'( la') sold' |
@@ -183,11 +183,11 @@
   }
   \tag #'(hautbois1 hautbois dessus1) \new Voice {
     \tag #'(hautbois dessus1) \voiceOne
-    s8*2/3 fad'' sol'' la'' sol'' fad'' |
+    s8*2/3 fad'' sol'' la''( sol'') fad'' |
   }
   \tag #'(hautbois2 hautbois dessus1) \new Voice {
     \tag #'(hautbois dessus1) \voiceTwo
-    s8*2/3 re'' mi'' fad'' mi'' re'' |
+    s8*2/3 re'' mi'' fad''( mi'') re'' |
   }
   \tag #'(violon1 violon2 violons dessus2) \new Voice {
     r4 re' |
@@ -204,8 +204,8 @@
     \tag #'(hautbois dessus1) \voiceOne
     mi''8*2/3\trill( re'') mi'' s4 s |
     s2. |
-    s4 s8*2/3 dod'' re'' mi'' re'' dod'' |
-    re''( dod'') re'' s re'' mi'' fad''( mi'') re'' |
+    s4 s8*2/3 dod'' re'' mi''( re'') dod'' |
+    re''\trill( dod'') re'' s re'' mi'' fad''( mi'') re'' |
     dod''(\trill si') dod'' s4 s |
     s2. |
     la'4 la'4. la'8 |
@@ -232,7 +232,7 @@
     dod''8*2/3\trill( si') dod'' s4 s |
     s2. |
     s4 s8*2/3 lad' si' dod''( si') lad' |
-    si'( lad') si' s si' dod'' re''( dod'') si' |
+    si'\trill( lad') si' s si' dod'' re''( dod'') si' |
     lad'\trill( sold') lad' s4 s |
     s2. |
     fad'4 fad'4. fad'8 |
@@ -304,10 +304,10 @@
 <<
   \tag #'(hautbois1 violon1 dessus1 hautbois violons) \new Voice {
     \tag #'(hautbois violons) \voiceOne
-    <>^"Tous"
+    \tag #'dessus1 <>^"Tous"
     re''4\fort re''4. re''8 |
     re''2. |
-    red''4 red''4.\trill( dod''16) red'' |
+    red''4 red''4.\trill( dod''16 red'') |
     \appoggiatura re''8 mi''8*2/3 sol'' fad'' mi'' re'' dod'' dod'' re'' mi'' |
     lad'4\trill~ lad'16 si' lad' si' dod'' re'' mi'' dod'' |
     fad''8. si''16 dod''4.\trill si'8 |
@@ -316,10 +316,10 @@
   \tag #'(hautbois2 violon2 dessus2 hautbois violons) \new Voice {
     \tag #'(hautbois violons) \voiceTwo
     R2. |
-    <>^"Tous"
+    \tag #'dessus2 <>^"Tous"
     si'4 si'4. si'8 |
     \clef "dessus"
-    la'4 la'4.( sol'16) fad' |
+    la'4 la'4.( sol'16 fad') |
     \appoggiatura fad'8 sol'8*2/3 si' la' sol' fad' mi' mi' fad' sol' |
     dod'4. fad'16 sold' lad' si' dod'' lad' |
     si'8. dod''16 lad'4.\trill si'8 |
@@ -336,14 +336,14 @@ R1*3 |
   }
   \tag #'(violon1 violons dessus2) \new Voice {
     \tag #'(violons dessus2) \voiceOne
-    s4 s8*2/3 dod'' re'' mi'' re'' dod'' |
-    re'' dod'' re'' r re'' mi'' fad'' mi'' re'' |
-    dod'' si' dod'' r s s s4 |
+    s4 s8*2/3 dod'' re'' mi''( re'') dod'' |
+    re''\trill( dod'') re'' r re'' mi'' fad''( mi'') re'' |
+    dod''\trill( si') dod'' r s s s4 |
   }
   \tag #'(violon2 violons dessus2) \new Voice {
     \tag #'(violons dessus2) \voiceTwo 
-    s4 s8*2/3 lad' si' dod'' si' lad' |
-    si' lad' si' si si' dod'' re'' dod'' si' |
-    lad' sold' lad' fad' s s s4 |
+    s4 s8*2/3 lad' si' dod''( si') lad' |
+    si'\trill( lad') si' si si' dod'' re'' dod''( si') |
+    lad'\trill( sold') lad' fad' s s s4 |
   }
 >>

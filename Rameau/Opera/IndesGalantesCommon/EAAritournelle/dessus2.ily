@@ -19,7 +19,7 @@ mi' red'\trill |
 mi'4 sold'8 la' si'4 la' |
 re''2 dod'' |
 si'8 sold' la' si' mi'4 la'~ |
-la'8 do'' si' la' si'4 dod''?\trill |
+la'8 dod'' si' la' si'4 dod''\trill |
 re'' re' re''2~ |
 re''8 re'' dod'' si' dod''2~ |
 dod''8 dod'' re'' dod'' si'2~ |

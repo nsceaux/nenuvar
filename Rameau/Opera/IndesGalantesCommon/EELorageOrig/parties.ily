@@ -29,7 +29,7 @@
       re'4 s s2 |
       \ru#16 re'16 |
       \ru#16 si |
-      \ru#8 la \ru#8 sol |
+      \ru#16 la |
       la4
     }
     \tag #'(taille parties) \new CueVoice {
@@ -38,10 +38,10 @@
       \ru#16 la16 |
       \ru#16 si |
       \ru#16 fad16 |
-      sol4 s s2 |
+      fad4 s s2 |
       \ru#16 la16 |
       \ru#16 sol |
-      \ru#16 mi |
+      \ru#8 mi \ru#8 sol |
       fad4
     }
   >> r4 r2 |
