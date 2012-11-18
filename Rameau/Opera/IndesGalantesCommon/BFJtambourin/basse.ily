@@ -17,6 +17,6 @@ r4 sib, |
 sib, mib, |
 fa, r |
 r4 do |
-fa re |
+sol re |
 mib fa |
 sib,

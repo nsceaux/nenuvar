@@ -1,12 +1,9 @@
 \clef "vdessus"
-\vA <>^\markup\character {
+<>^\markup\character {
   Chœur [des matelots qu'on ne voit point]
 }
-\vB <>^\markup\character {
-  Chœur des matelots qu'on ne voit point
-}
 R1. |
-r2*3/2 sol''2.~ |
+r2 \new CueVoice r4 sol''2.~ |
 sol''2 sib'4 sib' sib' sib' |
 la' sib' sib' sib' sib' do'' |
 re''1. |
@@ -15,25 +12,25 @@ r4 la' la' do'' do'' do'' |
 mib'' mib'' mib'' sol'' sol'' sol'' |
 sol''1. |
 sol''4 sib' sib' re'' re'' re'' |
-\vA fad'' \vB fad''? fad'' fad'' la'' la'' la'' |
-\vA la''1. \vB << \origVersion { la''2.~ la'' } \modVersion la''1. >> |
-re''2. \vA { r2*3/2 } \vB { r2 r4 } |
+fad'' fad'' fad'' la'' la'' la'' |
+la''1. |
+re''2. r2 \new CueVoice r4 |
 r4 re' re' fad' fad' fad' |
 la' la' la' re'' re'' re'' |
 re''1. |
 re''4 r4 r r4 sol'' fa'' |
-mi''2-\vA\trill mi''4 mi'' mi'' sol'' |
-dod''2.-\vA\trill r4 la' la' |
-sol'2. sol'2 \appoggiatura { \vA fa'8 \vB fa'16 } mi'4 |
+mi''2\trill mi''4 mi'' mi'' sol'' |
+dod''2.\trill r4 la' la' |
+sol'2. sol'2 \appoggiatura fa'8 mi'4 |
 fa'2 fa'4 la''2.~ |
 la'' r4 fa'' mi'' |
 re''2 re''4 re'' re'' fa'' |
 sib'2. sib'4 sib' sib' |
 mi'2. r4 la' la' |
 la'2. sol'2( fad'8) sol'8 |
-fad'2.-\vB\trill fad'4 r r |
+fad'2. fad'4 r r |
 R1.*2 |\allowPageTurn
-fad''2. r2*3/2 |
+fad''2. r2 \new CueVoice r4 |
 R1. |
 r4 sol' sol' sib' sib' sib' |
 re'' re'' re'' sol'' sol'' sol'' |

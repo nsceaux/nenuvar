@@ -2,7 +2,7 @@
   \new StaffGroup <<
     \new Staff \with { \smallStaff \haraKiriFirst } <<
       \global \keepWithTag #'basson \includeNotes "basse"
-      { \startHaraKiri s1*15 \stopHaraKiri <>^"Bassons" }
+      { \startHaraKiri s1*15 \stopHaraKiri \break <>^"Bassons" }
     >>
     \new Staff \with { \smallStaff } <<
       \instrumentName "Basses"

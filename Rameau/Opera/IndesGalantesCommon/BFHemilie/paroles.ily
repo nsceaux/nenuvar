@@ -1,6 +1,6 @@
 Fuy -- ez, fuy -- ez Vents o -- ra -- geux,
 Cal -- mez les Flots a -- mou -- reux,
-Ris & Jeux.
+Ris et Jeux.
 Char -- mant Plai -- sir, fais nô -- tre sort
 Dans la rou -- te comme au Port.
 Si quit -- tant le Ri -- va -- ge

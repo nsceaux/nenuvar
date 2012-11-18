@@ -22,8 +22,22 @@ do'' dod''-\vA\trill re'' re' |
     Source : portée de haute-contre et taille laissée vide à partir de
     cette mesure
   }
-  \parenthesize r |
-  \new CueVoice R1*13
+  \new CueVoice {
+    mi'2~ |
+    mi'4 mi' la' mi' |
+    la'2 mi'4 fa' |
+    re' fa' mi'4. re'8 |
+    mi'4 dod' la si8 dod' |
+    re'4 fa' mi' la' |
+    re' la sib! sib |
+    sib sol dod' mi' |
+    la2 fa'~ |
+    fa'4 re' mi'2 |
+    dod'4 re' mi' dod' |
+    re' la' la sol' |
+    fa'8 re'8 do' sib la sol fa mi |
+    re4 r r2 |
+  }
 }
 \vB {
   << \origVersion { la'2~ la'4 } \modVersion la'2. >> fa'4 |

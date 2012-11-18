@@ -1,13 +1,12 @@
 \clef "basse"
-\vB<>^\markup\whiteout "Tous"
-\vA { re2 r } \vB r4 |
+\vA re1 \vB r4 |
 R1*7 |
 r2 r4 re8 mi |
 fa4 fa sol, mi |
 fa, re2 mi8 fa |
-sol4 mi, la,8 sol fa-\vA\trill mi |
+sol4 mi, la,8 sol fa\trill mi |
 fa4 re re, re' |
-do'2 sib-\vA\trill |
+do'2 sib\trill |
 la1 |
 la,2 si, |
 do1 |

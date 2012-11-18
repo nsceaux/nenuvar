@@ -6,5 +6,5 @@ s1
 s1
 \time 4/4 \midiTempo #80
 s1*2
-\digitTime\time 2/2 \midiTempo #160 \grace s8
+\digitTime\time 2/2 \midiTempo #160 \grace s16
 s1*2 \bar "|."

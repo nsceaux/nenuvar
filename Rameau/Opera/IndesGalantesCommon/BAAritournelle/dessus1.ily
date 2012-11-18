@@ -1,14 +1,13 @@
 \clef "dessus"
-\vB<>^"Tous"
-\vA<>^"Tous les violons"
-\vA { r2\fort r4 } re''8 mi'' |
+<>^"Tous les violons"
+\vA { r2 r4 } re''8 mi'' |
 fa''4 fa'' sol' mi'' |
 fa' re''2 mi''8 fa'' |
 sol''4 mi' la'8 sol'' fa''\trill mi'' |
 fa'' mi'' re'' dod'' re'' re' la''4~ |
 la'' mi'' fa'' sol''8 fa'' |
 mi''4 la''8 sol'' fa'' mi'' re'' do'' |
-si'4 la''2 sold''4-\vA\trill |
+si'4 la''2 sold''4\trill |
 la'' dod'' re'' mi'' |
 la' la''2 sol''4~ |
 sol'' fa''8\trill mi'' fa''4 mi''8 re'' |
@@ -18,11 +17,11 @@ sib'' la''2 re'''4 |
 dod'''2\trill mi''~ |
 mi'' fa'' |
 mi'' r4 la'~ |
-la'2 sold'-\vA\trill |
+la'2 sold'\trill |
 la' r4 la''8 sol'' |
 fad''4 sol'' la' fad''\trill |
-sol''8 do'' sib'-\vA\trill la' sib' la'' sol'' fa'' |
-mi''4-\vA\trill fa'' sol' mi''\trill |
+sol''8 do'' sib'\trill la' sib' la'' sol'' fa'' |
+mi''4\trill fa'' sol' mi''\trill |
 fa''8 sib' la'\trill sol' la'4 fa''~ |
 fa'' mi''2 re''4~ |
 \vA {
@@ -49,6 +48,5 @@ fa'' mi''2 re''4~ |
   mi'4 mi''8 re'' dod'' si'? la' sol' |
   fa'4 re'' mi' dod''\trill |
 }
-re''4 \vA do''!8 \vB do''8 sib' la' sol' fa' mi' |
+re''4 do''!8 sib' la' sol' fa' mi' |
 re'4 r r2 |
-

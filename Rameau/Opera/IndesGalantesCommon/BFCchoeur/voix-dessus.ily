@@ -134,13 +134,13 @@
   sol''2.~ |
   sol''2 sol''8 fad'' |
   sol''2. |
-  \tag #'voix { <>^\markup\character { Le Chœur } \clef "vdessus" }
   R2.*3 |
   r4 r
 }
 <<
   \tag #'emilie { r4 R2.*18 }
   \tag #'voix {
+    <>^\markup\character { Le Chœur } \clef "vdessus"
     r8 re'' |
     re''2.~ |
     re''2 r8 do'' |

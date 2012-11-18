@@ -9,7 +9,7 @@
   Ten -- dres Cœurs, em -- bar -- quez- vous :
 }
 \tag #'emilie {
-  Vo -- guez, bra -- vez les vents & l’o -- ra -- ge,
+  Vo -- guez, bra -- vez les vents et l’o -- ra -- ge,
   Vo -- guez,
   Que l’es -- poir vous gui -- de- tous.
   \vB {

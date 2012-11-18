@@ -42,8 +42,6 @@
 \digitTime\time 3/4 \midiTempo #80 s2.
 \digitTime\time 2/2 \midiTempo #160 s1*2
 \digitTime\time 2/4 \midiTempo #120
-\vA\tempo "Prelude"
-\vB\tempo "Gay"
 \set Score.measureLength = #(ly:make-moment 1 4)
 s4
 \set Score.measureLength = #(ly:make-moment 2 4)

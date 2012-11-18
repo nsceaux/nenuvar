@@ -1,8 +1,7 @@
 \clef "basse"
-\tag #'basson sol4^\markup { \vB Bassons \vA\mod-version Bassons }
-\tag #'basse sol,^\markup\vB "Tous"
-\vB \tag #'conducteur << sol^"Bassons" \\ sol,_"Tous" >>
-\vA \tag #'conducteur << sol^"[Bassons]" \\ sol,_"[Basses]" >>
+\tag #'basson sol4^\markup { \mod-version Bassons }
+\tag #'basse sol,
+\tag #'conducteur << sol^"[Bassons]" \\ sol,_"[Basses]" >>
 r4 r2 r2 |
 R1. |
 \ru#12 sol,16 sol4 sol sol |
@@ -19,10 +18,10 @@ re4 r r
   \setMusic #'basson {
     r4 re' do' |
     sib2 sib4 sib la sol |
-    fad8-\vA\trill re, re, re, re, re, re,4 re, re, |
+    fad8\trill re, re, re, re, re, re,4 re, re, |
   }
   \setMusic #'basse {
-    r2*3/2 |
+    r2 \new CueVoice r4 |
     R1. |
     r16 re, re, re, \ru#8 re, \ru#12 re, |
   }
@@ -33,9 +32,9 @@ re4 r r
 re,4 r r r4 re' do' |
 sib2 sib4 sib sib re' |
 sol16 sol, sol, sol, \ru#8 sol, sol,4 sol la |
-sib2. sib2 \appoggiatura { \vA la8 \vB la16 } sol4 |
+sib2. sib2 \appoggiatura la8 sol4 |
 la16 la, la, la, \ru#8 la, \ru#12 la, |
-la,4 r r r2*3/2 |
+la,4 r r r2 \new CueVoice r4 |
 r4 re re fa fa fa |
 la la la re' re' re' |
 fa'16 re re re \ru#8 re re4 fa fa |
@@ -48,7 +47,7 @@ re2.
     sol8( sib) sol( sib) sol( sib) |
     fad( la) fad( la) fad( la) fad( la) fad( la) fad( la) |
     sib8 sol sol,4 r sol8( sib) sol( sib) sol( sib) |
-    re'2.-\vA~ re'4. do'16[ sib la sol fad mi] |
+    re'2.~ re'4. do'16[ sib la sol fad mi] |
     re4
   }
   \setMusic #'basse {
@@ -62,7 +61,7 @@ re2.
   \tag #'basse \basse
   \tag #'conducteur << { s4*0 ^"Bassons" \basson } \\ \basse >>
 >>
-r4 r r2*3/2 |
+r4 r r2 \new CueVoice r4 |
 \ru#12 sol,16 sol,4 sol sol |
 sol2 sol4 sol sol re |
 mib2 mib4 mib mib sol |

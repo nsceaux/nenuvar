@@ -1,7 +1,7 @@
 \score {
   <<
     \origVersion\new StaffGroupNoBar <<
-      \vA\new Staff \withLyrics <<
+      \new Staff \withLyrics <<
         \global \keepWithTag #'basse \includeNotes "voix"
       >> \keepWithTag #'basse \includeLyrics "paroles"
       \new Staff \with { \haraKiriFirst } <<
@@ -16,13 +16,10 @@
       \new Staff \with { \haraKiriFirst } <<
         \global \keepWithTag #'basson \includeNotes "basse"
       >>
-      \vB\new Staff \withLyrics <<
-        \global \keepWithTag #'basse \includeNotes "voix"
-      >> \keepWithTag #'basse \includeLyrics "paroles"
       \new Staff <<
         \global \keepWithTag #'basse \includeNotes "basse"
         \includeFigures "chiffres"
-        \vA\origLayout {
+        \origLayout {
           s1*2 s2 \bar "" \break s4 s1 s2 \bar "" \break
           s4 s1 s2.\break s2.*2 s4 \bar "" \pageBreak
           s2 s2. s2 \bar "" \break s4 s2. s2 \bar "" \break
@@ -39,24 +36,19 @@
           s2 s1*2 s2 \bar "" \break s2 s1 s2 \bar "" \break
           s2 s2. s1 s2 \bar "" \break s4 s2.*2 s2\break
         }
-        \vB\origLayout {
-          s1*2 s2 \bar "" \break s2 s1*2\break
-          s1*2 s4 \bar "" \break s2 s2.*2\pageBreak
-          s2. s1 s2 \bar "" \break s2 s1*2\break
-          s1 s2. s4 \bar "" \break s2 s2.*2\break
-          s1*2\break s1*2 s2 \bar "" \break
-          s2 s2. s2 \bar "" \break \grace s16 s2 s2. s2 \bar "" \pageBreak
-          s2 s1 s4 s2*4 \break s2. s1 s2 \bar "" \break
-          s2 s1*2\break s1*2\break
-          s2. s1 s4 \bar "" \break s2 s2. s2 \bar "" \pageBreak
-          s4 s2 \bar "" \break
-        }
       >>
     >>
 
     \modVersion\new StaffGroupNoBar <<
       \new StaffGroupNoBracket <<
         \new Staff \with { \haraKiriFirst } <<
+          { s1*2 s2. s1 s2. s1 s2.*7 s1 s1 s2. s1 s1 s1 s1 s2. s1
+            s2. s1*2 s2.*3 s1 s2. s1 s2.*3 s1 s1*2 s2.*4 s1*2 s1*3
+            s2.*4 s1 s1*4 s2. s1 s2. s1*2
+            <>^\markup\italic {
+              [On entend les Tambourins des Matelots de \smallCaps Valere.]
+            }
+          }
           \global \includeNotes "dessus"
         >>
         \new Staff \with { \haraKiriFirst } <<

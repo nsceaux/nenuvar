@@ -28,6 +28,6 @@ s2.
 \digitTime\time 3/4 \midiTempo #80 s2.*3
 \keys si \major
 \modVersion\bar "|;:"
-s2.*6 \alternatives { \grace s16 s2. } s2.
+s2.*6 \alternatives { \grace s8 s2. } s2.
 s2.*10
 \digitTime\time 2/2 \midiTempo #160 s1

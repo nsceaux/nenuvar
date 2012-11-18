@@ -1,28 +1,20 @@
 \keys re \minor
-\digitTime\time 3/4 \midiTempo #160
+\digitTime\time 3/4 \midiTempo #144
 \partial 4
-\vA<>^\markup\orig-version\musicglyph #"scripts.segno"
-s4
-\vB<>^\markup\orig-version\musicglyph #"scripts.segno"
-s2.*15
-\vB <>^\markup\orig-version\large\italic Fin
-s2
-\vA\origVersion {
+<>^\markup\orig-version\musicglyph #"scripts.segno"
+s4 s2.*12
+\tempo\markup { Lent \concat { [2 \super e } fois] }
+s2.*3 s2
+\origVersion {
   \endMark "fin"
   \once\override Score . RehearsalMark #'direction = #UP
 }
 \modVersion { \fineMark \bar "|." }
 s4 s2.*10 s2
-\vA\origVersion {
+\origVersion {
   s8
   \once\override TextScript #'extra-offset = #'(0 . -4)
   s^\markup\musicglyph #"scripts.segno"
   \bar "|:|"
-}
-\vB\origVersion {
-  s4 s4
-  \once\override TextScript #'extra-offset = #'(0 . -4)
-  s2^\markup\musicglyph #"scripts.segno"
-  \bar "|."
 }
 \modVersion { \bar "|." \endMark "[Da Capo.]" }

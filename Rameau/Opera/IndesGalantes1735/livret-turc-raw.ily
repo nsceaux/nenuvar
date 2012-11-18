@@ -34,7 +34,7 @@
 %# Près de ce que j'abhore, & loin de ce que j'aime.
 \livretRef #'BADemilieOsman
 \livretPers OSMAN
-%# Qu'en peignant vos malheurs vous redoublez les miens !
+%# Qu'en peignant vos malheurs vous redoublez mes maux !
 %# Dissipez vos ennuis sur cet heureux Rivage.
 \livretPers EMILIE
 %# J'y subis, sous vos loix, un second esclavage.
@@ -214,8 +214,8 @@
 %# Reçois de moy, Valere,
 %# Emilie, et la liberté.
 \livretPers EMILIE
-%# Que dites vous ! mais non, peut-il être sincere :
-%# Il veut tromper nos cœurs, c'est trop de cru=auté.
+%# Que dites vous ? mais non, peut-il être sincere...
+%# Il veut tromper nos cœurs... c'est trop de cru=auté !
 \livretPers OSMAN
 %# O ciel ! quelle injustice !
 %# Quoy ! vous vous défi=ez de ma sincerité

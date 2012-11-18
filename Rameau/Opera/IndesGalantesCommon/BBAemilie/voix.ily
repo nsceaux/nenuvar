@@ -8,6 +8,6 @@ r8 sib' sib' sib' sol'4\trill sol'8 sol'16 fad' |
 sol'4 sol''4 r8 mi''8 mi'' mi''16 sol'' |
 do''4 do''8 sib' sib'4 sib'8 la' |
 la'\trill la' r re''16 mib'' mib''4. re''16 re'' |
-si'4\trill r8 sol'' \vA\acciaccatura re''8 \vB\appoggiatura re''16 dod''4 r8 fa'' |
-\vA\acciaccatura mi''8 \vB\appoggiatura mi''8 re''2~ re''8 re'' re'' dod'' |
-\vB\appoggiatura dod''8 re''1 |
+si'4\trill r8 sol'' \appoggiatura re''16 dod''4 r8 fa'' |
+\appoggiatura mi''16 re''2~ re''8 re'' re'' dod'' |
+re''1 |

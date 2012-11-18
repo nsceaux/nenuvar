@@ -1,5 +1,5 @@
 \tag #'(osman basse) {
-  Qu’en pei -- gnant vos mal -- heurs vous re -- dou -- blez les miens !
+  Qu’en pei -- gnant vos mal -- heurs vous re -- dou -- blez mes maux !
   Dis -- si -- pez vos en -- nuis sur cet heu -- reux Ri -- va -- ge.
 }
 \tag #'(emilie basse) {

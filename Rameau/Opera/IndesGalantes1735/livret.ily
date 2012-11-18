@@ -192,7 +192,7 @@
 \livretVerse#12 { Près de ce que j’abhore, & loin de ce que j’aime. }
 \livretRef #'BADemilieOsman
 \livretPers OSMAN
-\livretVerse#12 { Qu’en peignant vos malheurs vous redoublez les miens ! }
+\livretVerse#12 { Qu’en peignant vos malheurs vous redoublez mes maux ! }
 \livretVerse#12 { Dissipez vos ennuis sur cet heureux Rivage. }
 \livretPers EMILIE
 \livretVerse#12 { J’y subis, sous vos loix, un second esclavage. }
@@ -372,8 +372,8 @@
 \livretVerse#6 { Reçois de moy, Valere, }
 \livretVerse#7 { Emilie, et la liberté. }
 \livretPers EMILIE
-\livretVerse#12 { Que dites vous ! mais non, peut-il être sincere : }
-\livretVerse#12 { Il veut tromper nos cœurs, c’est trop de cruauté. }
+\livretVerse#12 { Que dites vous ? mais non, peut-il être sincere... }
+\livretVerse#12 { Il veut tromper nos cœurs... c’est trop de cruauté ! }
 \livretPers OSMAN
 \livretVerse#6 { O ciel ! quelle injustice ! }
 \livretVerse#12 { Quoy ! vous vous défiez de ma sincerité }

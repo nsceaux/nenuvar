@@ -21,7 +21,7 @@
   \tag #'(violon1 conducteur1) <<
     \new Voice {
       \voiceOne sol''2 |
-      sol''4( fa''8) s sol''2~ |
+      sol''4( fa''8) r sol''2~ |
       sol''4( fa''8) r s2 |
       s4 fa'' fad''2 |
       sol'' s |
@@ -30,14 +30,14 @@
     }
     \new Voice {
       \voiceTwo mib''2 |
-      mib''4( re''8) s do''2~ |
+      mib''4.( re''8) do''2~ |
       do''2 s |
       s4 re''-\vA~ re''2 |
       re''2 s |
       mib'' re'' |
       re''
     }
-    { s2 | s4. r8 s2 | s2 r | r4 s2. | s2 r }
+    { s2 | s1 | s2 r | r4 s2. | s2 r }
     \vB <>-\tag #'conducteur1 ^"Violons"
     \vA <>-\tag #'conducteur1 ^\markup { \concat { p \super r } violons }
   >>

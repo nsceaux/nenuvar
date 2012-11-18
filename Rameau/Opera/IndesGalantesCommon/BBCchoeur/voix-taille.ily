@@ -1,32 +1,32 @@
-\clef "vtaille" r2*3/2 re'2.~ |
+\clef "vtaille" r2 \new CueVoice r4 re'2.~ |
 re'1.~ |
 re'2 re'4 re' re' re' |
 re'4 sol' sol' sol' sol' sol' |
 fa'1. |
-re'2. \vA { r2 r4 } \vB r2*3/2 |
-do'2. \vA { r2 r4 } \vB r2*3/2 |
+re'2. r2 r4 |
+do'2. r2 r4 |
 r4 do' do' mib' mib' mib' |
 mib' mib' mib' do' do' mib' |
-\vA re'1.  \vB << \origVersion { re'2.~ re' } \modVersion re'1. >> |
+re'1. |
 re'4 re' re' fad' fad' fad' |
 fad'2. fad'4 re' do' |
 sib2 sib4 sib la sol |
-fad2.-\vA\trill r4 r2 |
+fad2.\trill r4 r2 |
 fad'2. fad'4 fad' sol' |
 sol'2. r4 re' do' |
 sib2 sib4 sib sib re' |
-sol2. \vA { r2 r4 } \vB r2*3/2 |
+sol2. r2 r4 |
 r4 la la dod' dod' dod' |
 mi' mi' mi' mi' mi' dod' |
 re'2. la4 r r |
 R1. |
 fa2. r4 re' re' |
 re'2 re'4 re' re' re' |
-dod'2.-\vA\trill r4 re' la |
+dod'2.\trill r4 re' la |
 fa2. sib2 la4 |
 la2. la4 r r |
 R1.*2 |
-\vA fad?2. \vB fad2. r4 re' re' |
+fad?2. r4 re' re' |
 re'2 re'4 re' re' la |
 sib2. r4 re' re' |
 sib2 sib4 re' re' re' |

@@ -31,8 +31,8 @@
     E -- mi -- lie, et la li -- ber -- té.
   }
   \tag #'(emilie basse) {
-    Que di -- tes vous ! mais non, peut- il ê -- tre sin -- ce -- re :
-    Il veut trom -- per nos cœurs, c’est trop de cru -- au -- té.
+    Que di -- tes vous ? mais non, peut- il ê -- tre sin -- ce -- re...
+    Il veut trom -- per nos cœurs... c’est trop de cru -- au -- té !
   }
   \tag #'(osman basse) {
     O ciel ! quelle in -- jus -- ti -- ce !

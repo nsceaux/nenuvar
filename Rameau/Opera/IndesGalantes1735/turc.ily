@@ -28,7 +28,6 @@
 \pieceToc\markup\wordwrap { EMILIE, OSMAN :
   \italic { Qu’en peignant vos malheurs vous redoublez les miens } }
 \includeScore "BADemilieOsman"
-\partNoPageTurn #'(basse basson)
 
 %{ n°5 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { OSMAN :
@@ -121,14 +120,14 @@
 \includeScore "BFDair"
 
 %{ n°19 %}\newBookPart #'(full-rehearsal)
-\pieceToc\markup\wordwrap { VALERE :
-  \italic { Hatez-vous de vous embarquer } }
-\includeScore "BFEvalere"
-
-%{ n°20 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
 \includeScore "BFKariette"
+
+%{ n°20 %}
+\pieceToc\markup\wordwrap { VALERE :
+  \italic { Hatez-vous de vous embarquer } }
+\includeScore "BFEvalere"
 
 %{ n°21 %}
 \pieceTocTitle "Rigaudons"

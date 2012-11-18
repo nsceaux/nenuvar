@@ -24,11 +24,10 @@
       \tag #'emilie <>^\markup\character-text Emilie "[gaiement à Osman]"
       r16 sold' sold' la' si'4
       \once\override TextScript #'outside-staff-priority = #0
-      <>^\markup\italic "[tristement]"
-      r8 si' |
+      r8 <>^\markup\italic "[tristement]" si' |
       mi''4 r8 dod''16 dod'' lad'8\trill lad'16 dod'' |
       fad'4 fad'8 red'' red'' red'' red''8. mi''16 |
-      \acciaccatura red''8 dod''4 r8 fad'' si'4 si'8 si'16 lad' |
+      \appoggiatura red''16 dod''4 r8 fad'' si'4 si'8 si'16 lad' |
       lad'8\trill
       <<
         { s2 s8 s2.*2 s1 s2. s1 s2.*3 s1 }
@@ -146,10 +145,10 @@
       mid8\trill mid r16 sold sold sold dod'8. mid16 |
       fad8. fad16 sold4 sold8 sold16 sold |
       dod4 la8 la16 la la8 si |
-      \acciaccatura la8 sold4 lad8\trill lad16 lad lad8 si |
+      \appoggiatura la16 sold4 lad8\trill lad16 lad lad8 si |
       si4 si8 fad16 fad fad8 fad16 si |
       mi4 mi8 mi16 mi mi8 red |
-      red\trill red16 r red'8. si16 \acciaccatura la8 sold\trill sold16 sold lad8. lad16 |
+      red\trill red16 r red'8. si16 \appoggiatura la16 sold8\trill sold16 sold lad8. lad16 |
       fad4\trill red8 red lad4 lad8 lad |
       red' sold mi4 dod8 dod16 red |
       sold,8
