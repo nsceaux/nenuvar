@@ -95,7 +95,7 @@ si'4\trill si' dod''8 re'' |
 \appoggiatura re''8 mi''2. |
 R2. |
 r16 mi' fad' sol' la'4 r |
-s16 mi' fad' sol' la'4 r |
+\new CueVoice r16 mi' fad' sol' la'4 r |
 r16 la' si' dod'' re''4. mi''8 |
 dod''4. mi''32*4/3 fad'' sol'' la''8. la'16 |
 la4 r r8 dod''8 |

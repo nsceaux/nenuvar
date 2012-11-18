@@ -43,7 +43,7 @@ mib'2 sib8 mib' sib' sol' |
 mib'2 do'8 mib' do'' mib' |
 mib'2\trill re' |
 sol' do'8 mib' sol' la' |
-fa'4 re' re'' re' |
+fa'4 re' sib' re' |
 do' sib' la'8 sib' do'' la' |
 sib' la' sol' fa' mib' re' do' sib |
 \origVersion { \custosNote sib'2 s }
