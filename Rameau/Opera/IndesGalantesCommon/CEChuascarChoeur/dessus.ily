@@ -88,7 +88,7 @@ si''2 r |
 R1 |
 r4 r8 si' mi''4. mi''8 |
 mi''2 r8 si' mi'' mi'' |
-sold'' mi'' sold'' sold'' la'' mi'' \vA sol'' \vB la'' si'' |
+sold'' mi'' sold'' sold'' la'' mi'' sold'' si'' |
 dod'''4. mi''8 la''4. la''8 |
 la''1~ |
 la''2 r8 la' mi'' mi'' |

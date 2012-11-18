@@ -36,7 +36,7 @@
 }
 \setMusic #'coupletIIa {
   dod''8 red''4 |
-  \appoggiatura re''8 mi''4. red''8 dod''4 fad''
+  \appoggiatura red''8 mi''4. red''8 dod''4 fad''
   \vA { \appoggiatura mi''8 red''4 sold'' }
   \vB { \appoggiatura mi''16 red''4. sold''8 } |
   mi''4.\trill red''8 dod''4 dod''4. mi''8 fad''4 |
@@ -54,7 +54,7 @@
   dod''2 sold'4 mi'4. sold'8 la'4 |
   la'2 sold'4 sold'( fad') la' |
   red'2.~ red'4. sid'8 dod''4 |
-  \appoggiatura si'!8 lad'2 red''4 sold'2.~ |
+  \appoggiatura sid'8 lad'2 red''4 sold'2.~ |
   sold'2. dod''8 si' la' sold' fad' mi' |
   red'2 sold'4 la' fad' red' |
   mid'2.~ mid'4.

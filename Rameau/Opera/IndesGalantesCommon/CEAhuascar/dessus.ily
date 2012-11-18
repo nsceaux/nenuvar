@@ -10,8 +10,7 @@ r8 do''-\vB\doux do''2-\vA\doux~ |
 do''4 re''8.-\vA( mi''16-\vA) mi''4( re''16)\trill do''-\vA( si'-\vA) re'' |
 sold'2 r4 |
 r4 r mi''4 |
-\vA { \appoggiatura re''8 do''2 }
-\vB { \appoggiatura re''16 do''4 do'' } si'8 do'' si'\trill si'16 do'' |
+\appoggiatura re''8 do''2 si'8 do'' si'\trill si'16 do'' |
 \appoggiatura si'16 la'4
 <<
   <>\fort

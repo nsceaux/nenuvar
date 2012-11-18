@@ -1,9 +1,9 @@
 \tag #'(huascar basse choeur) {
   Clair Flam -- beau du mon -- de,
-  L’Air, la Terre & l’On -- de
+  L’Air, la Terre et l’On -- de
   Res -- sen -- tent tes bien -- faits.
   Clair Flam -- beau du mon -- de,
-  L’Air, la Terre & l’On -- de
+  L’Air, la Terre et l’On -- de
   Te doi -- vent leurs at -- traits.
 }
 
@@ -16,10 +16,10 @@
 \vA\origVersion\tag #'huascar { Clair Flambeau }
 %{ \modVersion\tag #'choeur {
   Clair Flam -- beau du mon -- de,
-  L’Air, la Terre & l’On -- de
+  L’Air, la Terre et l’On -- de
   Res -- sen -- tent tes bien -- faits.
   Clair Flam -- beau du mon -- de,
-  L’Air, la Terre & l’On -- de
+  L’Air, la Terre et l’On -- de
   Te doi -- vent leurs at -- traits.
 } %}
 \tag #'(huascar basse) {
@@ -31,9 +31,9 @@
 \vA\origVersion\tag #'huascar { Clair Flambeau }
 %{ \modVersion\tag #'choeur {
   Clair Flam -- beau du mon -- de,
-  L’Air, la Terre & l’On -- de
+  L’Air, la Terre et l’On -- de
   Res -- sen -- tent tes bien -- faits.
   Clair Flam -- beau du mon -- de,
-  L’Air, la Terre & l’On -- de
+  L’Air, la Terre et l’On -- de
   Te doi -- vent leurs at -- traits.
 } %}
