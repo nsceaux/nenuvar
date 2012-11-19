@@ -43,15 +43,16 @@ R2. |
 r8 la,16 la, la,4 r |
 r la, la, |
 r8 re16 re re2 |
-r8 la,16 la, la,4 r |
-r8 re16 re re2 |
 r8 la,16 la, la,2 |
 r8 re16 re re2 |
 r8 la,16 la, la,2 |
 r8 re16 re re2 |
 r8 la,16 la, la,2 |
-R2.*3 |
-r4 re2 |
+r8 re16 re re2 |
+r8 la,16 la, la,2 |
+R2.*2 |
+r4 r re |
+la,4 re2 |
 la,4 r4 r |
 R2. |
 r4 r re4 |

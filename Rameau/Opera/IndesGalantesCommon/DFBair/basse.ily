@@ -57,9 +57,9 @@ dod'\trill do'2 do'4 |
 si2 sib |
 la r |
 la la,4 la |
-sold4 si re'8 fa' re' sold |
+sold4. si8 re'8 fa' re' sold |
 la2 la,4 la |
-sold4 si re'8 mi' re' fad |
+sold4. si8 re'8 mi' re' fad |
 sol2 sol,4 sol |
 fad4. la8 re' mib' re' fad |
 sol2 la |

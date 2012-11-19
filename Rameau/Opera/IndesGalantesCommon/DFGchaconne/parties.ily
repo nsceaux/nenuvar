@@ -179,14 +179,14 @@ la'4 <<
     re''4 do''2 |
     si'2 mi''4 |
     la'8. re''16 dod''4.\trill re''8 |
-    re''4.
+    re''4.\fort
   }
   \tag #'taille {
      la'2 |
      la'4 la'2 |
      sol'2 sol'4 |
      fa'8. sib'16 la'4 sol' |
-     fad'4.
+     fad'4.\fort
   }
 >> re'16 mi' fad' sol' fad' sol' |
 mi'8 fad'16 sol' re' mi' re' mi' fad' sol' la'8 |
@@ -204,7 +204,7 @@ re''4 r4 r |
 r8 fad'16 sol' la' si' la' si' do''8 fad' |
 sol' sol' si' si' re' re' |
 re'4 sol'2 |
-fad'2 r4 |
+fad'2\doux r4 |
 sol'4 fad' mi' |
 la' re'2 |
 si4 la sol |
@@ -230,7 +230,7 @@ sol'4 fad' mi' |
     la dod' re' |
     re' dod' re' |
     re' dod'4.\trill re'8 |
-    re'2 r8 r16 la' |
+    re'2 r8 r16 la'\fort |
     la'2 r8 r16 la' |
     re'2 r8 r16 re'' |
     re''4 dod''4.(\trill si'16 dod'') |
@@ -269,7 +269,7 @@ sol'4 fad' mi' |
     la2. |
     si4 la8 sol fad4 |
     si la2 |
-    la r8 r16 fad' |
+    la r8 r16 fad'\fort |
     fad'2 r8 r16 fad' |
     sol'2 r8 r16 sol' |
     la'2 r8 r16 la' |
@@ -295,7 +295,7 @@ fad'4 r4 r |
 R2.*7 |\allowPageTurn
 <<
   \tag #'haute-contre {
-    r4 fad' sol' |
+    r4 fad'\doux sol' |
     re' r8 fad' sol'4 |
     re'2 la'4 |
     la' la'4. si'8 |
@@ -306,7 +306,7 @@ R2.*7 |\allowPageTurn
     fad'8 
   }
   \tag #'taille {
-    r4 re' re' |
+    r4 re'\doux re' |
     re' r8 re' re'4 |
     re'2 fad'4 |
     sol'8.( fad'32 mi') re'4. la'8 |
@@ -315,7 +315,7 @@ R2.*7 |\allowPageTurn
     re'2 la'4 sol' sol'2 |
     la8
   }
->> la'8 la' la' la' la' |
+>> la'8\fort la' la' la' la' |
 la' mi' mi' mi' mi' mi' |
 fad' re' re' re' re' re' |
 re' dod' si la la' sold' |
@@ -339,7 +339,7 @@ re2 re'4 |
 la'2 la4 |
 re'2 fad4 |
 sol la la |
-re fad' sol' |
+re fad'\fort sol' |
 re' r8 fad' sol'4 |
 re'2 la'4 |
 la' la'4. si'8 |

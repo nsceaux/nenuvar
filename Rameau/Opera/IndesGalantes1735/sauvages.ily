@@ -109,7 +109,11 @@
 \includeScore "DFAadarioChoeur"
 
 %{ n°14 %}\newBookPart #'(full-rehearsal)
-\pieceTocTitle "Air des Sauvages"
+\pieceTocAndTitle\markup\wordwrap {
+  DANSE DU GRAND CALUMET DE PAIX EXECUTÉE PAR LES SAUVAGES
+} \markup\wordwrap {
+  Danse du grand calumet de Paix executée par les Sauvages
+}
 \includeScore "DFBair"
 
 %{ n°15 %}\newBookPart #'(full-rehearsal)

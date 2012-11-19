@@ -46,15 +46,17 @@
 \includeScore "CCCphaniHuascar"
 
 %{ n°7 %}
-\sceneDescription\markup\wordwrap-center {
-  [On entend un Prélude qui annonce la Fête du Soleil.]
+\scene "[Scene IV]" "Scene 4 : Huascar, Inca"
+\sceneDescription\markup\column {
+  \wordwrap-center { \smallCaps { Huascar-Inca, } un Inca son confident. }
+  \wordwrap-center { [On entend un Prélude qui annonce la Fête du Soleil.] }
 }
 \pieceToc\markup\wordwrap { HUASCAR :
   \italic { On vient, dissimulons mes transports à leurs yeux } }
 \includeScore "CDAhuascar"
 
 %{ n°8 %}\newBookPart #'(full-rehearsal)
-\scene "Scene IV" "Scene 4 : Huascar, Phani, Incas"
+\scene "Scene V" "Scene 5 : Huascar, Phani, Incas"
 \sceneDescription\markup\left-align\center-column {
   \line { [FESTE DU SOLEIL] }
   \wordwrap-center {
@@ -106,7 +108,7 @@
 \includeScore "CEKchoeur"
 
 %{ n°18 %}
-\scene "Scene V" "Scene 5 : Phani, Huascar"
+\scene "Scene VI" "Scene 6 : Phani, Huascar"
 \sceneDescription\markup\wordwrap-center\smallCaps {
   [Phani-Palla, Huascar-Inca.]
 }
@@ -120,6 +122,7 @@
 \includeScore "CFBtrio"
 \partNoPageTurn #'(dessus)
 %{ n°20 %}
+\scene "[Scene VIII]" "Scene 8 : Huascar"
 \sceneDescription\markup\left-align\center-column {
   \line { [Le Volcan se rallume, & le Tremblement de terre recommence.] }
 }

@@ -19,7 +19,7 @@
   s1.*27
   \digitTime\time 2/2 s2 \bar ""
   \inMusicSceneDescCond #(eqv? (ly:get-option 'indes-version) 'v1735)
-  "Scene [VI]" "Scene 6 : Carlos, Phani, Huascar"
+  "Scene VII" "Scene 7 : Carlos, Phani, Huascar"
   \markup\wordwrap-center {
     \smallCaps Carlos, non aperçu, \smallCaps { Phani, Huascar. }
   }

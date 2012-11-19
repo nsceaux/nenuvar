@@ -49,7 +49,7 @@ si,16 sol fa mib re do si, la, sol, sol, sol, sol, sol, sol, sol, sol, |
   { \set Staff.tupletSpannerDuration = #(ly:make-moment 1 2) \times 4/6 {
       fa,8 fa, fa, fa, fa, fa, fa, fa, fa, fa, fa, fa, |
       fa, fa, fa, fa, fa, fa, fa, fa, fa, fa, fa, fa, | }
-    fa,4
+    sol,4
   }
 >>
 r r16 do' si la sol fa mib re |

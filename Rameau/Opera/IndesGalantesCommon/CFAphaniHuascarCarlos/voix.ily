@@ -194,7 +194,7 @@
       <>^\markup\character Huascar
       re'2 |
       r8 la8. la16 la la fad8\trill fad16 sol la8 si16 do' |
-      si8\trill si r8 sol re'8.*1/2 re'32 re'16 mib' |
+      si8\trill si r8 sol re'8. re'32*2/3 re' mib' |
       mib'2
       << { s2 s2. s2 } \tag #'huascar { r2 | R2. | r2 } >>
       \tag #'basse \huascarMark

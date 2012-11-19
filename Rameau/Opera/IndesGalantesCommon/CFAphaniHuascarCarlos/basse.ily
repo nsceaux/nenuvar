@@ -18,7 +18,7 @@ r4 r8 fa\fort
       }
       \tag #'(basse-continue conducteur) \new Voice {
         \tag #'conducteur \voiceTwo
-        <>_"[B.C.]" fa8 mib re do |
+        <>_\markup\smaller "[B.C.]" fa8 mib re do |
         \tag #'conducteur \voiceTwo
       }
     >>
@@ -186,14 +186,17 @@ fa,4 re, mib, r |
   <>\fort \ru#8 mib,16 mib,8 r r mib16\doux mib |
   re8 r r4 r8 si,16 si, |
   do16 do\fort sib, lab, sol, fa, mib, re, do,8 r r4 |
-  R1 |
-  r4 r8 do16\doux do dod4 r |
+  <<
+    \tag #'basse { R1 | r4 }
+    \tag #'(basse-continue conducteur) { do'2 r4 r8 do16 re | mib4 }
+  >>
+  r8 do16\doux do dod4 r |
   r8 re16^\fort re re re re re re8 r r4 |
   <<
     \tag #'basse R1
-    \tag #'(basse-continue conducteur) { fad,2 r | }
+    \tag #'(basse-continue conducteur) { r2 fad,2 | }
   >>
-  r16 sol,32\doux sol, sol,8 sol, r r4 r8 r16 sol,32 sol, |
+  r16 sol,32\doux sol, sol,8 sol, r r4 r8 sol,16 sol, |
   la,4 r r8 la,16 la, |
   sib,4 r8 si, do4 dod |
   re8. re32 do sib,4 r8 sib, do re |

@@ -623,6 +623,12 @@
 \livretVerse#8 { Leurs Villes flotter sur les eaux ; }
 \livretVerse#10 { Vous avez vû dans l’horreur de la guerre, }
 \livretVerse#12 { Leurs invicibles bras disposer du tonnerre... }
+
+\livretScene\line { SCENE IV }
+\livretDescAtt\column {
+  \wordwrap-center { \smallCaps { Huascar-Inca, } un Inca son confident. }
+  \wordwrap-center { On entend un Prélude qui annonce la Fête du Soleil. }
+}
 \livretRef #'CDAhuascar
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 \livretVerse#12 { On vient, dissimulons mes transports à leurs yeux... }
@@ -633,7 +639,7 @@
 \livretVerse#12 { Qui de flâme & de sang innondera ces lieux ? }
 \livretVerse#12 { Mais, que ne risque point un amour furieux ! }
 
-\livretScene\line { SCENE IV }
+\livretScene\line { SCENE V }
 \livretDescAtt\center-column {
   \line { FESTE DU SOLEIL }
   \justify {
@@ -736,7 +742,7 @@
   de terre semble s'apaiser.
 }
 
-\livretScene\line { SCENE V }
+\livretScene\line { SCENE VI }
 \livretDescAtt\wordwrap-center\smallCaps {
   Phani-Palla, Huascar-Inca.
 }
@@ -766,7 +772,7 @@
 \livretVerse#8 { Chaqu’instant peut de vôtre vie }
 \livretVerse#8 { Devenir le dernier moment. }
 
-\livretScene\line { SCENE VI }
+\livretScene\line { SCENE VII }
 \livretDescAtt\wordwrap-center\smallCaps {
   Carlos, non aperçu, Phani, Huascar.
 }
@@ -825,7 +831,7 @@
   \smallCaps Huascar chante les siennes à part.
 }
 
-\livretScene\line { SCENE VII }
+\livretScene\line { SCENE VIII }
 \livretDescAtt\justify {
   Le Volcan se rallume, & le Tremblement de terre recommence.
 }

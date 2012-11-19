@@ -20,7 +20,7 @@ dod dod'4 re' si4(\trill la8) si |
 dod'4. si8 la4 sold la4. si8 |
 la2\trill \appoggiatura { \vA sold8 \vB sold16 } fad4 r r dod'8 si |
 la4.( sold8)\trill fad4 mid fad2 |
-dod-\vA\trill dod'8 re' si4.(\trill la8) si4 |
+dod2\trill dod'4 re' si4\trill( la8) si |
 dod'4. si8 la4. si8 sold4.\trill fad8 |
 fad2.~ fad4. la8 fad4 |
 sold2 dod'4 \appoggiatura { \vA dod'8 \vB dod'16 } si4.\trill la8 si4 |

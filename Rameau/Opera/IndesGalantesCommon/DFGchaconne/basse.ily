@@ -17,7 +17,7 @@ sol la la, |
 re,2. |
 r8 la16 sol fad8 mi fad re |
 dod8 dod16 re dod8 si, dod la, |
-re fad16 mi re8 fad mi re |
+re fad16 mi re8 fad16 mi re8 re, |
 la,2. |
 r8 la16 sol fad8 mi fad re |
 dod dod16 re dod8 si, dod la, |
@@ -38,11 +38,11 @@ re4. re8 la, la, |
   { re4^"Bassons"\doux la sol\trill |
     fad2 sol4\trill |
     fad2 si4 |
-    la sol8.\prall( fad16) sol4 |
+    la( sol8.)\trill fad16 sol4 |
     fad la sol |
     fad2 sol4 |
     fad2 si4 |
-    la sol8.\prall fad16 sol4 |
+    la( sol8.)\trill fad16 sol4 |
     fad } \\
   { re,2._"[B.C.]" re, re, re, re, re, re, re, |
     re,4 }
@@ -125,7 +125,7 @@ r4 re2 |
 la4 la,2 |
 mi,2 mi4 |
 fa8. sol16 la4 la, |
-re, re' re |
+re,\fort re' re |
 do do' do |
 si, si si, |
 la, la la, |
@@ -152,7 +152,7 @@ sol la la, |
 si, sol, la, |
 si, sol, la, |
 si, sol, la, |
-re8 dod si,4 mi |
+re8. dod16 si,4 mi |
 la, fad mi |
 re dod si, |
 mi2.~ |
@@ -165,7 +165,7 @@ la, si, dod |
 re mi fad |
 sol la si |
 sol la la, |
-re,2 r8 r16 re' |
+re,2 r8 r16 re'\fort |
 do'2 r8 r16 do' |
 si2 r8 r16 si |
 la2 r8 r16 la |
@@ -187,7 +187,7 @@ la,2 r8 la,16 la, |
 re4. re8 la, la, |
 <<
   { <>^"Bassons"
-    re4 la sol\trill |
+    re4 la_\doux sol\trill |
     fad2 sol4\trill |
     fad2 si4 |
     la sol8.\prall( fad16) sol4 |
@@ -195,7 +195,7 @@ re4. re8 la, la, |
     fad2 sol4\trill |
     fad2 si4 |
     la sol8.\trill( fad16) sol4 |
-    fad r8 re sol4 | } \\
+    fad re_\doux sol4 | } \\
   { <>_"[B.C.]"
     re,2. re, re, re, re, re, re, re, |
     re,4 re sol4 | }
@@ -207,7 +207,7 @@ la, re sol |
 fad r8 re sol4 |
 fad2 fad,4 |
 sol, la, la, |
-re,8 re' re' re' re' re' |
+re,8 re'\fort re' re' re' re' |
 dod' dod' dod' dod' dod' dod' |
 si si si si si si |
 mi mi mi mi mi mi |
@@ -225,7 +225,7 @@ r8 dod16 mi la,4 r |
 r8 r16 sol, la,4 la, |
 re, r4 r |
 R2.*7 |\allowPageTurn
-r4 re sol |
+r4 re\fort sol |
 fad r8 re sol4 |
 fad2 re4 |
 dod re re, |
