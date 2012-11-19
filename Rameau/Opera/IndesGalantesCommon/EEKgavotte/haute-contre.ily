@@ -16,6 +16,7 @@
 r2 | R1*7 | r2
 %\keepWithTag #'() \rondeau
 %% 2ere reprise
-r2 | R1*7 | \origVersion <>^"h.c." fad'8 mi' re' dod'
+r2 | R1*7 | \origVersion <>^"h.c."
+\slurDashed fad'8( mi') re'( dod') \slurSolid
 \origVersion\custosNote si4
 %\keepWithTag #'() \rondeau |

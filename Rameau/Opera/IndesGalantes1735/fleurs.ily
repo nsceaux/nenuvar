@@ -105,20 +105,20 @@
 \includeScore "EECairOrig"
 
 %{ n°14 %}\newBookPart #'(full-rehearsal)
-% 352, 354, 355, 358
-\pieceToc\markup\wordwrap { FATIME : \italic { Papillon inconstant } }
-\includeScore "EEJair"
-
-%{ n°15 %}\newBookPart #'(full-rehearsal)
 % 359(/342), 343, 344
 \pieceTocTitle "Deuxième air pour les Persans"
 \includeScore "EEEair"
 
-%{ n°16 %}
+%{ n°15 %}
 % 344-347
 \pieceToc\markup\wordwrap { ZAÏRE, CHŒUR :
   \italic { Triomphez, agreables Fleurs ! } }
 \includeScore "EEGfatimeChoeur"
+
+%{ n°16 %}\newBookPart #'(full-rehearsal)
+% 352, 354, 355, 358
+\pieceToc\markup\wordwrap { FATIME : \italic { Papillon inconstant } }
+\includeScore "EEJair"
 
 %{ n°17 %}
 \sceneDescription\markup\override #'(line-width . 120) \center-column {
@@ -127,7 +127,7 @@
     [Ce Ballet represente pittoresquement le sort des Fleurs dans un Jardin.
     On les a personifiées ainsi que Borée & Zéphire, pour donner de l’ame
     à cette Peinture galante, executée par d’aimables Esclaves de l’un &
-    de l’autre sexe. D’abords les Dleurs choisies qui peuvent briller
+    de l’autre sexe. D’abords les Fleurs choisies qui peuvent briller
     davantage au Théatre, dansent ensemble, & forment un Parterre qui varie
     à chaque instant.  La Rose leur Reine, danse seule.  La Feste est
     interrompuë par un orage qu’amene Borée ; les Fleurs en éprouvent la
@@ -139,18 +139,18 @@
     tendresse rend à la Rose.]
   }
 }
-% 348-349
-\pieceTocTitle "Rondeau pour les fleurs"
-\includeScore "EEIrondeau"
+% 349
+\pieceTocTitle "Premier Air des Fleurs — Rondeau"
+\includeScore "EEHrondeau"
 
 %{ n°18 %}
-% 349
-\pieceTocTitle "Rondeau"
-\includeScore "EEHrondeau"
+% 348-349
+\pieceTocTitle "Air tendre pour la Rose — Rondeau"
+\includeScore "EEIrondeau"
 
 %{ n°19 %}\newBookPart #'(full-rehearsal)
 % 350 ou 361
-\pieceTocTitle "Gavotte en rondeau"
+\pieceTocTitle "Gavotte pour les Fleurs — Rondeau"
 \includeScore "EEKgavotte"
 
 %{ n°20 %}
@@ -163,22 +163,26 @@
 \includeScore "EELboree"
 
 %{ n°22 %}
+\pieceTocTitle "Air pour Borée et la Rose"
+\includeScore "EELorage"
+
+%{ n°23 %}
 % 367
 \pieceTocTitle "Premier air pour Zephire"
 \includeScore "EEMzephir"
 
-%{ n°23 %}
+%{ n°24 %}
 % 368-369
 \pieceTocTitle "Deuxième air"
 \includeScore "EEMzephireDeux"
 
-%{ n°24 %}\newBookPart #'(full-rehearsal)
+%{ n°25 %}\newBookPart #'(full-rehearsal)
 % 369-372
-\pieceTocTitle "Air pour les Fleurs"
+\pieceTocTitle "Air vif pour Zéphire et la Rose"
 \includeScore "EENfleurs"
 
-%{ n°25 %}
+%{ n°26 %}
 % 372
-\pieceTocTitle "Gavotte"
+\pieceTocTitle "Gavotte vive pour les Fleurs"
 \includeScore "EEOgavotte"
 \actEnd "[FIN DE LA TROISIÈME ENTRÉE]"

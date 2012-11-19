@@ -43,11 +43,11 @@ sib4 re'8 do' sib la sol si |
 do'4 do'8 sib la do' sib la |
 sib4 sol do' do |
 fa la8 sol fa mib re do |
-sib,2 r4 sol, |
-fa,4 fa8 mi re do sib, re |
-mi,4 sol8 fa mi re do mi |
-fa,4 la8 sol fa la sol la |
-fa'2 r4 r8 la |
+sib,2 \modVersion\clef "tenor" r4 sol, |
+\origVersion\clef "tenor" do4 do'8 sib la sol fa la |
+sib,4 re'8 do' sib la sol sib |
+do4 mi'8 re' do' mi' re' mi' |
+\origVersion\clef "basse" fa'2 \modVersion\clef "basse" r4 r8 la |
 sib2 do'4 do |
 re2 la, |
 sib, do |

@@ -25,7 +25,7 @@ la'1 |
     fad''2~ fad''4. fad''8 |
     fad''2 mi''4. mi''8 |
     dod''2. re''16( dod'') mi''( dod'') |
-    \appoggiatura si'8 la'4 si'8.( dod''32 re'') dod''4. re''8 |
+    \appoggiatura si'8 la'4 si'8.( dod''32 re'') dod''4.\trill re''8 |
     re''1 |
   }
   \tag #'violon2 {

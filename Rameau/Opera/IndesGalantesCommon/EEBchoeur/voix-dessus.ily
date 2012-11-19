@@ -57,7 +57,7 @@ dod''8.([ si'16])\trill la'4 sold'8 la' |
 mid'2.\trill |
 r4 fad' sold' |
 la' si' dod'' |
-re''~ re''16 dod'' si' la' sold'8. fad'16 |
+re''~ re''16 dod'' si' la' sold'8.\trill fad'16 |
 dod''2. |
 r4 r r8 dod'' |
 lad'2.\trill |
@@ -109,7 +109,7 @@ r4 dod'' dod'' |
 re'' mi''4. fad''8 |
 si'2 dod''8 re'' |
 re''4.( dod''8)\trill si'16[ lad'] si'8 |
-lad'2. |
+lad'2.\trill |
 R2. |
 r4 dod'' red'' |
 mi''2 mi''8 fad'' |

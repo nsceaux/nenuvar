@@ -12,7 +12,7 @@
 \ru#8 dod'' |
 \ru#8 mi'' |
 \ru#8 si' |
-si'8. la'16 sold'8. la'16 |
+si'8. la'16 sold'8.\trill la'16 |
 la'8 sold'16 fad' mi' re' dod' si |
 la4 r |
 R2 |
@@ -24,7 +24,7 @@ r16 mi'' re'' dod'' si' dod'' si' la' |
 sold' mi'' re'' dod'' si' la' sold' fad' |
 mi'4 r |
 R2*2 |
-r8 sol'16 sol' sol'8 r |
+r8 sold'16 sold' sold'8 r |
 R2 |
 r8 mi'16 mi' mi'8 r |
 R2 |
@@ -39,7 +39,9 @@ R2 |
 mi'8 dod''16 dod'' dod''8 r |
 \ru#8 dod''16 |
 la'8 la'16 la' si'8 r |
-R2*3 |
+<>_"h-c seules" mi'4 sol' |
+fad'8 r r4 |
+R2 |
 \ru#8 lad'16 |
 si'8 r r4 |
 R2 |

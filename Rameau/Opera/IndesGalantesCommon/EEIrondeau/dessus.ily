@@ -38,7 +38,7 @@ fad''( si'') re''' |
 mi''4 lad''8 |
 lad''?( si'') dod''' |
 re''4 si''8 |
-si''( la'') si'' |
+si''( la''!) si'' |
 sol''4\trill fad''8 |
 si''( re'') mi'' |
 \appoggiatura mi''8 fad''4 fad'8 |

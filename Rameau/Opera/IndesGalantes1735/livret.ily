@@ -1105,18 +1105,6 @@
 \livretVerse#4 { Que par les votres. }
 \livretRef #'EECairOrig
 \livretDescPage\line { On danse. }
-\livretRef #'EEJair
-\livretPers FATIME
-\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
-\livretVerse#8 { Arrête-toy, suspens le cours }
-\livretVerse#6 { De ta flâme volage. }
-\livretVerse#12 { Jamais si belles fleurs sous ce naissant ombrage, }
-\livretVerse#10 { N’ont merité de fixer tes amours. }
-\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
-\livretVerse#8 { Arrête-toy, suspens le cours }
-\livretVerse#6 { De ta flâme volage. }
-\livretRef #'EEEair
-\livretDescPage\line { On danse. }
 \livretRef #'EEGfatimeChoeur
 \livretPers ZAÏRE
 \livretVerse#8 { Triomphez agreables Fleurs, }
@@ -1137,13 +1125,25 @@
 \livretVerse#4 { La Beauté même. }
 \livretPers CHŒUR
 \livretVerse#8 { Triomphez, &c. }
+\livretRef #'EEEair
+\livretDescPage\line { On danse. }
+\livretRef #'EEJair
+\livretPers FATIME
+\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
+\livretVerse#8 { Arrête-toy, suspens le cours }
+\livretVerse#6 { De ta flâme volage. }
+\livretVerse#12 { Jamais si belles fleurs sous ce naissant ombrage, }
+\livretVerse#10 { N’ont merité de fixer tes amours. }
+\livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
+\livretVerse#8 { Arrête-toy, suspens le cours }
+\livretVerse#6 { De ta flâme volage. }
 \livretDesc\column {
   \wordwrap-center { BALLET DES FLEURS }
   \justify {
     Ce Ballet represente pittoresquement le sort des Fleurs dans un Jardin.
     On les a personifiées ainsi que Borée & Zéphire, pour donner de l'ame
     à cette Peinture galante, executée par d'aimables Esclaves de l'un &
-    de l'autre sexe. D'abords les Dleurs choisies qui peuvent briller
+    de l'autre sexe. D'abords les Fleurs choisies qui peuvent briller
     davantage au Théatre, dansent ensemble, & forment un Parterre qui varie
     à chaque instant.  La Rose leur Reine, danse seule.  La Feste est
     interrompuë par un orage qu'amene Borée ; les Fleurs en éprouvent la

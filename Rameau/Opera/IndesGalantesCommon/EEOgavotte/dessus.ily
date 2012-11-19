@@ -43,8 +43,8 @@ mi''2\trill
 <<
   \tag #'(flute1 flute2 flutes) {
    \origVersion <>^"Flutes" la''2 |
-    la'' la'' |
-    la''4.\trill si''8 dod''' re''' mi''' si'' |
+    la''\trill la'' |
+    la''4.\trill si''8 dod'''( re''') mi'''( si'') |
     dod''' la'' re'''4 mi''2\trill |
     re''
   }

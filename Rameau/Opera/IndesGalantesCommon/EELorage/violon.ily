@@ -14,13 +14,13 @@ la'' sold'' fad'' mi'' re'' dod'' si' la' |
 fad'' mi'' re'' dod'' si' la' sold' fad' |
 mi'8. dod''16 si'8.\trill la'16 |
 la'8 sold'16 fad' mi' re' dod' si |
-la4 la'\p |
+la4 la'\doux |
 re'' dod'' |
-r16 re''\f dod'' si' la' si' la' sol' |
+r16 re''\fort dod'' si' la' si' la' sol' |
 fad' re'' dod'' si' la' sol' fad' mi' |
-re'4 dod''\p |
+re'4 dod''\doux |
 re'' red'' |
-r16 mi''\f re'' dod'' si' dod'' si' la' |
+r16 mi''\fort re'' dod'' si' dod'' si' la' |
 sold' mi'' re'' dod'' si' la' sold' fad' |
 mi'4 r |
 R2 |
@@ -29,20 +29,19 @@ sold'8 mi'16 mi' mi'8 r |
 r16 mi'' re'' dod'' si' dod'' si' la' |
 sold'8 re'16 re' re'8 r |
 r16 mi'' re'' dod'' si' la' sold' si' |
-la'8 la16 la la8. dod''16 |
-re''4 mi''\p |
-fad''4. mi''16 re'' |
+la'8 dod'16 dod' dod' r dod''8\doux |
+re''4 mi'' |
+fad''4. mi''16\fort re'' |
 dod''8 si'16 la' sold' fad' mi' re' |
-dod'8 r dod''4 |
+dod'8 r dod''4\doux |
 re'' mi'' |
-la''16 sold'' fad'' mi'' re'' dod'' si' la' |
+la''16\fort sold'' fad'' mi'' re'' dod'' si' la' |
 si' dod'' re'' dod'' si' la' sold' fad' |
 mi' fad' sold' la' si' dod'' re'' mi'' |
 dod''8 la''16 la'' la''8 r |
 la'16 si' dod'' re'' mi'' fad'' sol'' la'' |
 fad''8 re'''16 re''' re'''8 r |
-mi'4 r8 sol' |
-fad'8 r r4 |
+R2*2 |
 r16 fad'' mi'' re'' dod'' si' lad' sold' |
 fad' sold' lad' si' dod'' re'' mi'' dod'' |
 fad''4~ fad''16 mi'' re'' dod'' |

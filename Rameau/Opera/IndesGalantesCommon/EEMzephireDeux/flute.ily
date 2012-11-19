@@ -10,7 +10,7 @@ la''2. sold''?16( fad'') mi''( re'') |
 dod''1\trill |
 mi''2. fad''16( mi'') la''( sold'') |
 la''2.( sold''8)\trill fad'' |
-mi''4.( re''16\trill) dod'' si'4.\trill la'8 |
+mi''4.( re''16\trill dod'') si'4.\trill la'8 |
 la'1 |
 \origVersion <>^"Flutes"
 mi''2. fad''16( mi'') sol''( fad'') |

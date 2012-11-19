@@ -59,7 +59,7 @@
     re''2 re''4 dod''\trill |
     re''\trill dod''\trill re''\trill si'\trill |
     la'2 r4 la' |
-    mi'2~ mi'8( fad' sol') mi' |
+    mi'2~ mi'8( fad') sol'( mi') |
     \modVersion fad'2
     \origVersion { fad'2*1/2 \custosNote re'' }
   }

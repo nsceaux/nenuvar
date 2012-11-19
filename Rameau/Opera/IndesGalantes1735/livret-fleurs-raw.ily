@@ -256,18 +256,6 @@
 %# Que par les votres.
 \livretRef #'EECairOrig
 \livretDescPage\line { On danse. }
-\livretRef #'EEJair
-\livretPers FATIME
-%# Papillon inconstant, vole dans ce Boccage,
-%# Arrête-toy, suspens le cours
-%# De ta flâme volage.
-%# Jamais si belles fleurs sous ce naissant ombrage,
-%# N'ont merité de fixer tes amours.
-%# Papillon inconstant, vole dans ce Boccage,
-%# Arrête-toy, suspens le cours
-%# De ta flâme volage.
-\livretRef #'EEEair
-\livretDescPage\line { On danse. }
 \livretRef #'EEGfatimeChoeur
 \livretPers ZAÏRE
 %# Tri=omphez agre=ables Fleurs,
@@ -288,13 +276,25 @@
 %# La Beauté même.
 \livretPers CHŒUR
 %#8 Triomphez, &c.
+\livretRef #'EEEair
+\livretDescPage\line { On danse. }
+\livretRef #'EEJair
+\livretPers FATIME
+%# Papillon inconstant, vole dans ce Boccage,
+%# Arrête-toy, suspens le cours
+%# De ta flâme volage.
+%# Jamais si belles fleurs sous ce naissant ombrage,
+%# N'ont merité de fixer tes amours.
+%# Papillon inconstant, vole dans ce Boccage,
+%# Arrête-toy, suspens le cours
+%# De ta flâme volage.
 \livretDesc\column {
   \wordwrap-center { BALLET DES FLEURS }
   \justify {
     Ce Ballet represente pittoresquement le sort des Fleurs dans un Jardin.
     On les a personifiées ainsi que Borée & Zéphire, pour donner de l'ame
     à cette Peinture galante, executée par d'aimables Esclaves de l'un &
-    de l'autre sexe. D'abords les Dleurs choisies qui peuvent briller
+    de l'autre sexe. D'abords les Fleurs choisies qui peuvent briller
     davantage au Théatre, dansent ensemble, & forment un Parterre qui varie
     à chaque instant.  La Rose leur Reine, danse seule.  La Feste est
     interrompuë par un orage qu'amene Borée ; les Fleurs en éprouvent la

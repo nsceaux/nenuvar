@@ -32,8 +32,8 @@
 }
 <<
   \tag #'parties {
-    r4 R2.*11 | r4 r
-    \new CueVoice\keepWithTag #'() \trio
+    s4 \ru#11 s2. | s4 s
+    \keepWithTag #'() \trio
   }
   \tag #'basse \keepWithTag #'() { \rondeau \trio }
 >>
