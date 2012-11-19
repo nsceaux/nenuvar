@@ -7,7 +7,7 @@
   sib,4 re sol sol, |
   do re mib re |
   do mib re sol, |
-  re,2 re'8 do' sib la |
+  re,2 re'8 do' sib\trill la |
   sol2 sol,4 sol |
   re2 fad8 la re' re |
   fad,4 la, re re, |

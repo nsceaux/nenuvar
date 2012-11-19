@@ -8,11 +8,11 @@
     la'2 la'4 |
     sol'2 sol'4 |
     sol'2 fa'4 |
-    fa'2 mi'8. re'16 |
+    fa'2 mi'8.( re'16) |
     dod'4 mi'4. mi'8 |
     fa'2 mi'4 |
     mi'4. mi'8 fa'4~ |
-    fa'8 mi'16 re' dod'4. re'8 |
+    fa'8( mi'16 re') dod'4. re'8 |
     re'2 re'4 |
     re'2 mi'4 |
     mi'4. mi'8 fa'4~ |
@@ -66,7 +66,7 @@
     re'2 la4 |
     sib2 la4 |
     la2 re'4 |
-    re'2 sib8. sol16 |
+    re'2 sib8.( sol16) |
     la4 do'4. la8 |
     re'4 si2 |
     la4. la8 re'4 |

@@ -40,7 +40,7 @@
   \tag #'(alvar basse) {
     \clef "vbasse" R1*3 |
     \tag #'basse <>^\markup\character Alvar
-    r4 r r8 la |
+    r4 r \tag #'alvar \modVersion <>^\markup\character Alvar r8 la |
     re'4 r8 la16 la fad8 sol16 la |
     sib4 sib8 sib16 re' sib8 sib16 sib |
     sol4 sol8 la fa4 fa8 mi |

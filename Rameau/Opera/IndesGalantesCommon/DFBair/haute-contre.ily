@@ -7,7 +7,7 @@
   sol'4 sol' sib' re'' |
   sol' sol' sol' sol' |
   sol' do''2 sib'4 |
-  la'8 sol' fad' mi' re' do' sib la |
+  la'8 sol' fad'\trill mi' re' do' sib\trill la |
   sol2 sol'4 sol' |
   fad'2 la'8 do'' fad' la' |
   re'4 re' fad' fad' |
