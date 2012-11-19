@@ -16,7 +16,7 @@
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \markuplist
-  \abs-fontsize-lines #8
+  \abs-fontsize-lines #7
   \override-lines #'(use-rehearsal-numbers . #t)
   \override-lines #'(column-number . 2)
   \table-of-contents

@@ -42,7 +42,7 @@ la2 |
 mi |
 fa |
 do8 r r4 |
-R2 |
+R2 |\allowPageTurn
 sib,4 la,8. sib,16 |
 do4 do, |
 fa,4 r8 fa_\fort |
@@ -68,7 +68,7 @@ sib,4 r8 sib-\vA\fort |
 mib'4 r8 mib |
 sib4 r |
 %%\vA { R2 } \vB
-R2*6 |
+R2*6 | \allowPageTurn
 re2-\vA^\tresdoux |
 mib |
 mi |

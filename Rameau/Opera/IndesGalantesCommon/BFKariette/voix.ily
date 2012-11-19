@@ -30,7 +30,7 @@ sol'4 la'8. sib'16 |
 sol'8\trill fa'16[ mi'] fa'8. sol'16 |
 sol'2\trill |
 fa' |
-R2*3 |\allowPageTurn
+R2*3 |
 fa''8 fa''16 mib'' re''[ do''] sib'[ la'] |
 sol'2 |
 sol''8 sol''16 fa'' mi''?[ re''] do''[ sib'] |

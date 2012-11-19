@@ -166,7 +166,7 @@
 \pieceTocTitle "Air pour Borée et la Rose"
 \includeScore "EELorage"
 
-%{ n°23 %}
+%{ n°23 %}\newBookPart #'(full-rehearsal)
 % 367
 \pieceTocTitle "Premier air pour Zephire"
 \includeScore "EEMzephir"
@@ -176,7 +176,7 @@
 \pieceTocTitle "Deuxième air"
 \includeScore "EEMzephireDeux"
 
-%{ n°25 %}\newBookPart #'(full-rehearsal)
+%{ n°25 %}
 % 369-372
 \pieceTocTitle "Air vif pour Zéphire et la Rose"
 \includeScore "EENfleurs"
