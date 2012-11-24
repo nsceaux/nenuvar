@@ -39,7 +39,7 @@
         \origLayout {
           s2 s1*7 s2 \break s2 s1*9 s2\break s1*8 s2\pageBreak
           s1*7\break s1*10 s2\pageBreak
-          s2 s1*7\break s1*7\pageBreak
+          s2 s1*7\break s1*7\break
         }
       >>
     >>

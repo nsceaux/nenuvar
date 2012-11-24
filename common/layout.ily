@@ -154,9 +154,9 @@
                 (cons beam-exception
                       (beam-exceptions time-signature settings)))))
 #(set! default-time-signature-settings
-       (add-beam-exception '(2 . 2)
-                           '(end ((1 . 16) 4 4 4 4))
-                           default-time-signature-settings))
+       (add-beam-exception
+        '(2 . 2) '(end ((1 . 16) 4 4 4 4))
+        default-time-signature-settings))
 
 pageBreakCond =
 #(define-music-function (location parser paper-sizes) (list?)

@@ -112,6 +112,7 @@ dotSign=\markup\vcenter "╸"
     \override Script #'stencil = #baroque-script-interface::print
   }
 }
+trill = #(make-articulation "stopped")
 tr = #(make-articulation "t")
 trillSug = #(make-articulation "trillSug")
 arcTrill = #(make-articulation "arcTrill")
@@ -241,3 +242,47 @@ naturalFig =
                     (set! (ly:music-property music 'alteration) 0))))
           music)
         fig)))
+
+%% Nuances
+tresdoux =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "tres doux"))
+doux =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.5 "doux"))
+
+ademi =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "a demi"))
+
+enadoucissant =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.9
+                           "en adoucissant"))
+
+moinsdoux =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "moins doux"))
+
+moinsfort =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "moins fort"))
+
+plusfort =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "plus fort"))
+
+fort =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.5 "fort"))
+
+tresfort =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "tres fort"))
+
