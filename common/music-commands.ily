@@ -521,13 +521,19 @@ origVersion =
 #(define-music-function (parser location music) (ly:music?)
    (if (eqv? #t (ly:get-option 'ancient-style))
        music
-       (make-music 'Music)))
+       (let ((type (ly:music-property music 'name)))
+         (if (memq type '(TextScriptEvent ArticulationEvent TieEvent SlurEvent))
+             (make-music 'TextScriptEvent 'text "")
+             (make-music 'Music 'void #t)))))
 
 modVersion =
 #(define-music-function (parser location music) (ly:music?)
    (if (not (eqv? #t (ly:get-option 'ancient-style)))
        music
-       (make-music 'Music)))
+       (let ((type (ly:music-property music 'name)))
+         (if (memq type '(TextScriptEvent ArticulationEvent TieEvent SlurEvent))
+             (make-music 'TextScriptEvent 'text "")
+             (make-music 'Music 'void #t)))))
 
 #(define-markup-command (orig-version layout props markp) (markup?)
    (if (eqv? #t (ly:get-option 'ancient-style))
