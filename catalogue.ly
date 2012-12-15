@@ -265,6 +265,19 @@ O Emmanuel")
                  (haute-contre "Hautes-contre")
                  (taille "Tailles")
                  (basse "Basses et basse continue")))
+       ("Messe de minuit"
+        #:description "Messe de minuit"
+        #:opus "H.9"
+        #:key "Charpentier/MusiqueSacree/H9_MesseMinuit"
+        #:main ((urtext "Version urtext" #:score-file "urtext")
+                (conducteur "Version de concert")
+                (conducteur-sol1 "Version de concert (dessus en sol1)"))
+        #:parts ((dessus "Dessus")
+                 (dessus-sol1 "Dessus" #:part dessus #:options "-ddessus-sol1")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (basse "Basses")
+                 (basse-continue "Basse continue")))
        ("Magnificat"
         #:description "Prélude sur une basse obligée pour Magnificat à trois voix."
         #:opus "H.73"
