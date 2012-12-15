@@ -1262,11 +1262,11 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-urtext:
 	Charpentier/MusiqueSacree/H9_MesseMinuit/urtext
 .PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-urtext
 # Version de concert
-Charpentier/MusiqueSacree/H9_MesseMinuit-conducteur:
+Charpentier/MusiqueSacree/H9_MesseMinuit:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H9_MesseMinuit-conducteur  \
+	-o $(OUTPUT_DIR)/H9_MesseMinuit  \
 	Charpentier/MusiqueSacree/H9_MesseMinuit/main.ly
-.PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-conducteur
+.PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit
 # Version de concert (dessus en sol1)
 Charpentier/MusiqueSacree/H9_MesseMinuit-conducteur-sol1:
 	$(LILYPOND_CMD) \
@@ -1313,7 +1313,7 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-basse-continue:
 Charpentier/MusiqueSacree/H9_MesseMinuit-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-urtext.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
-	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-conducteur.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-conducteur.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
+	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-conducteur-sol1.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-conducteur-sol1.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-dessus.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-dessus-sol1.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-dessus-sol1.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
@@ -1329,7 +1329,7 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-clean:
 
 Charpentier/MusiqueSacree/H9_MesseMinuit-all: \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-urtext \
-	Charpentier/MusiqueSacree/H9_MesseMinuit-conducteur \
+	Charpentier/MusiqueSacree/H9_MesseMinuit \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-conducteur-sol1 \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-dessus \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-dessus-sol1 \

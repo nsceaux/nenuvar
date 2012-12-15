@@ -270,7 +270,7 @@ O Emmanuel")
         #:opus "H.9"
         #:key "Charpentier/MusiqueSacree/H9_MesseMinuit"
         #:main ((urtext "Version urtext" #:score-file "urtext")
-                (conducteur "Version de concert")
+                (#f "Version de concert")
                 (conducteur-sol1 "Version de concert (dessus en sol1)"))
         #:parts ((dessus "Dessus")
                  (dessus-sol1 "Dessus" #:part dessus #:options "-ddessus-sol1")

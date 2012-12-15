@@ -20,6 +20,11 @@
 \include "common/precipitations.ily"
 \setOpus "Charpentier/MusiqueSacree/H9_MesseMinuit"
 
+#(set-global-staff-size
+  (cond ((ly:get-option 'part) 18)      ;; parts
+        ((eqv? #t (ly:get-option 'ancient-style)) 12) ;; make urtext smaller
+        (else 16)))
+
 \header {
   opus = "H.9"
   composer = "Marc-Antoine Charpentier"
