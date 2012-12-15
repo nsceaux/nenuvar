@@ -43,21 +43,21 @@ markUpBegin = {
   \once \override Score . RehearsalMark #'break-visibility = #end-of-line-invisible
   \once \override Score . RehearsalMark #'direction = #UP
   \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
-  \once \override Score . RehearsalMark #'padding = #3
+  \once \override Score . RehearsalMark #'padding = #2
 }
 
 markDownBegin = {
   \once \override Score . RehearsalMark #'break-visibility = #end-of-line-invisible
   \once \override Score . RehearsalMark #'direction = #DOWN
   \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
-  \once \override Score . RehearsalMark #'padding = #3
+  \once \override Score . RehearsalMark #'padding = #2
 }
 
 markDownEnd = {
   \once \override Score . RehearsalMark #'break-visibility = #begin-of-line-invisible
   \once \override Score . RehearsalMark #'direction = #DOWN
   \once \override Score . RehearsalMark #'self-alignment-X = #RIGHT
-  \once \override Score . RehearsalMark #'padding = #3
+  \once \override Score . RehearsalMark #'padding = #2
 }
 segnoMark = { 
   \once \override Score . RehearsalMark #'break-visibility = #end-of-line-invisible
@@ -94,6 +94,10 @@ dacapoOverrides = {
 endMark =
 #(define-music-function (parser location text) (markup?)
    #{ \dacapoOverrides\mark\markup\right-align\italic $text #})
+
+beginMark =
+#(define-music-function (parser location text) (markup?)
+   #{ \markUpBegin\mark\markup $text #})
 
 fineMark = {
   \dacapoOverrides \mark \markup \right-align \italic Fin.
