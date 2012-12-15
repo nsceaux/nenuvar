@@ -15,9 +15,9 @@
     <sol, re>2
   }
 >>
+r4
 <>-\tag #'(basse basse-part) -"B.C."
 -\tag #'basson ^\markup\whiteout "Bassons"
-r4
 \tag #'(basse basse-part) {
   sol,2.~ |
   sol,~ |

@@ -28,7 +28,7 @@
   re''~ |
   re''~ |
   re''4 r4 r |
-  R2. |
+  R2. |\allowPageTurn
   r4 si''4 si'' |
   si''~ si''16( la'' sol'' fad'') sol''4~ |
   \once\tieDashed sol''2.~ |
