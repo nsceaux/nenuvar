@@ -62,4 +62,12 @@
     \null
   }
 }
-\include "Charpentier/MusiqueSacree/H9_MesseMinuit/body.ily"
+
+\pieceTocTitleNb "Kyrie" \markup { Joseph est bien marié }
+\includeScore "Kyrie"
+
+\pieceTocTitleNb "Christe" \markup { Or nous dites Marie }
+\includeScore "Christe"
+
+\pieceTocTitleNb "Kyrie" \markup { Une jeune pucelle }
+\includeScore "KyrieB"

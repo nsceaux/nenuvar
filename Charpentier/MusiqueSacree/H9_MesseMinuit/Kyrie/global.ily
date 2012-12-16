@@ -3,7 +3,6 @@
 \beginMark "Premier Kyrie" s1*28 s2
 \beginMark "Second Kyrie" s2 s1*22
 \bar "|."
-\modVersion\endMark "Icy lorgue joüe le mesme noël"
 \origVersion {
   \endMark\markup\fontsize #4 \column {
     "Icy lorgue"

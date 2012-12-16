@@ -37,4 +37,19 @@
   \override-lines #`(rehearsal-number-align . ,LEFT)
   \table-of-contents
 }
-\include "Charpentier/MusiqueSacree/H9_MesseMinuit/body.ily"
+
+\pieceTocTitleNb "Kyrie" \markup { Joseph est bien marié }
+\includeScore "Kyrie"
+\noPageBreak\markup\huge { Icy l’orgue jour le mesme Noël }
+\noPageBreak\markup\vspace #2
+\pieceTocTitleNb "Christe" \markup { Or nous dites Marie }
+\includeScore "Christe"
+
+\pieceTocTitleNb "Kyrie" \markup { Une jeune pucelle }
+\includeScore "KyrieB"
+\noPageBreak\markup\huge { Icy l’orgue jour le mesme Noël }
+\noPageBreak\markup\vspace #2
+\noPageBreak\markup\huge {
+  Tournez viste pour le \italic { gloria in excelsis deo }
+  pendant que le celebrant l’entonne
+}
