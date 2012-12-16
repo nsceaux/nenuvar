@@ -1,5 +1,7 @@
 \include "common/charpentier-common.ily"
 
+#(ly:set-option 'use-rehearsal-numbers (not (eqv? #t (ly:get-option 'urtext))))
+
 \opusPartSpecs
 #`((dessus "Dessus" ()
            (#:score "score-dessus" #:notes "dessus"

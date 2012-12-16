@@ -32,11 +32,9 @@
     }
   }
   \markuplist\override-lines #'(column-number . 1)
-  \override-lines #'(use-rehearsal-numbers . #f)
+  \override-lines #'(use-rehearsal-numbers . #t)
+  \override-lines #'(rehearsal-number-gauge . "Christe")
   \override-lines #`(rehearsal-number-align . ,LEFT)
   \table-of-contents
 }
-
-\pieceTocAndTitle "Joseph est bien marié"
-\markup { Kyrie — \italic { Joseph est bien marié } }
-\includeScore "Kyrie"
+\include "Charpentier/MusiqueSacree/H9_MesseMinuit/body.ily"

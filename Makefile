@@ -1277,7 +1277,7 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-conducteur-sol1:
 Charpentier/MusiqueSacree/H9_MesseMinuit-dessus:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H9_MesseMinuit-dessus -dpart=dessus  \
-	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
+	Charpentier/MusiqueSacree/H9_MesseMinuit/main
 .PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-dessus
 # Dessus
 Charpentier/MusiqueSacree/H9_MesseMinuit-dessus-sol1:

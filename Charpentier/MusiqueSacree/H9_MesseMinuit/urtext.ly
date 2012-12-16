@@ -62,6 +62,4 @@
     \null
   }
 }
-\pieceTocAndTitle "Joseph est bien marié"
-\markup { Kyrie — \italic { Joseph est bien marié } }
-\includeScore "Kyrie"
+\include "Charpentier/MusiqueSacree/H9_MesseMinuit/body.ily"
