@@ -48,14 +48,14 @@
           \global \includeNotes "dessus"
         >>
         \new Staff <<
-          \instrumentName "[Hautes-contre"
+          \instrumentName "[Hautes-contre]"
           \global \includeNotes "haute-contre"
         >>
         \new Staff <<
           \instrumentName "[Tailles]"
           \global \includeNotes "taille"
         >>
-        \new Staff \with { \haraKiriFirst } <<
+        \new Staff <<
           \instrumentName "[Basses]"
           \global \keepWithTag #'basse \includeNotes "basse"
         >>
