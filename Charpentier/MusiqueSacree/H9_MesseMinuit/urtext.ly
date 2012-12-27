@@ -71,3 +71,7 @@
 
 \pieceTocTitleNb "Kyrie" \markup { Une jeune pucelle }
 \includeScore "KyrieB"
+
+\pieceTocTitleNb "Gloria" \markup {
+  Les bourgeois de Chastre // Ou s’en vont ces guays bergers }
+\includeScore "Gloria"

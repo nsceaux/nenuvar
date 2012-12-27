@@ -53,3 +53,7 @@
   Tournez viste pour le \italic { gloria in excelsis deo }
   pendant que le celebrant l’entonne
 }
+
+\pieceTocTitleNb "Gloria" \markup {
+  Les bourgeois de Chastre // Ou s’en vont ces guays bergers }
+\includeScore "Gloria"
