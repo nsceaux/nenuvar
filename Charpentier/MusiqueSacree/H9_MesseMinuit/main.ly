@@ -54,10 +54,15 @@
   pendant que le celebrant l’entonne
 }
 
-\pieceTocTitleNb "Gloria in Excelsis Deo" \markup\wordwrap {
+\pieceTocAndTitleNb "Gloria in Excelsis Deo" ""
+\markup\wordwrap {
   Les bourgeois de Chastre — Ou s’en vont ces guays bergers
 }
 \includeScore "Gloria"
 
-\pieceTocTitleNb "Credo in unum Deum" \markup { Vous qui désirez sans fin }
+\pieceTocAndTitleNb "Credo in unum Deum" ""
+\markup { Vous qui désirez sans fin }
 \includeScore "Credo"
+
+\pieceTocTitleNb "" \markup { Voicy le jour solemnel de noël }
+\includeScore "Crucifixus"

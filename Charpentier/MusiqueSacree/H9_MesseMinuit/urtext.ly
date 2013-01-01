@@ -114,4 +114,7 @@
 \markup { Credo in unum Deum — Vous qui désirez sans fin }
 \includeScore "Credo"
 
+\pieceToc\markup { Voicy le jour solemnel de noël }
+\includeScore "Crucifixus"
+
 \markup\vspace #40
