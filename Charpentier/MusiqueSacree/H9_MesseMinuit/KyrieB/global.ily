@@ -12,7 +12,7 @@ s1*52 \bar "|."
     }
     \translate #'(20 . 50) \fontsize #3 \column {
       "Tournez viste" "pour le gloria" "in excelsis deo"
-      "pendant que le" "celebrant lentonne"
+      "pendant que le" "celebrant l entonne"
     }
   }
   \once\override Score.RehearsalMark.break-visibility = #begin-of-line-invisible

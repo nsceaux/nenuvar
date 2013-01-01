@@ -30,7 +30,7 @@
 \header {
   opus = "H.9"
   composer = "Marc-Antoine Charpentier"
-  copyrightYear = "2012"
+  copyrightYear = "2013"
 }
 
 \layout {

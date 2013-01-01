@@ -358,6 +358,9 @@ figPosOff = {
                               bottom2)))))))
 
 #(define-markup-command (parallelogram-up-left layout props a b c d) (markup? markup? markup? markup?)
+   "figure:
+a b
+ c d"
    (let ((top (interpret-markup layout props (markup #:tiny #:line (#:number a #:number b))))
          (bottom (interpret-markup layout props (markup #:tiny #:line (#:number c #:number d)))))
      (let* ((top-width (interval-length (ly:stencil-extent top X)))
@@ -369,13 +372,45 @@ figPosOff = {
        (stack-lines DOWN 0.0 2
                     (list
                      top
-                     (stack-stencil-line 0 (list (ly:make-stencil "" `(0 . ,bottom-left-padding) '(0 . 0))
-                                                 bottom)))))))
+                     (stack-stencil-line
+                      0
+                      (list (ly:make-stencil ""
+                                             `(0 . ,bottom-left-padding)
+                                             '(0 . 0))))
+                     bottom)))))
 
 #(define-markup-command (square layout props a b c d) (markup? markup? markup? markup?)
+   "figure:
+a b
+c d"
    (let ((top (interpret-markup layout props (markup #:tiny #:line (#:number a #:number b))))
          (bottom (interpret-markup layout props (markup #:tiny #:line (#:number c #:number d)))))
      (stack-lines DOWN 0.0 2 (list top bottom))))
+
+#(define-markup-command (fig-five layout props a b c d e)
+     (markup? markup? markup? markup? markup?)
+   "figure:
+a b
+ c
+d e"
+   (let ((top (interpret-markup layout props
+                                (markup #:tiny #:line (#:number a #:number b))))
+         (center (interpret-markup layout props
+                                   (markup #:tiny #:number c)))
+         (bottom (interpret-markup layout props
+                                   (markup #:tiny #:line (#:number d #:number e)))))
+     (let* ((top-width (interval-length (ly:stencil-extent top X)))
+            (center-width (interval-length (ly:stencil-extent center X)))
+            (center-left-padding (/ (- top-width center-width) 2.0)))
+       (stack-lines DOWN 0.0 2
+                    (list
+                     top
+                     (stack-stencil-line
+                      0 (list (ly:make-stencil ""
+                                               `(0 . ,center-left-padding)
+                                               '(0 . 0))
+                              center))
+                     bottom)))))
 
 #(define-markup-command (figure-sharp layout props) ()
    (interpret-markup

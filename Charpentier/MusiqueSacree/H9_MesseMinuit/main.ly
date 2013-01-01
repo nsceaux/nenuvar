@@ -23,7 +23,7 @@
   \paper {
     #(define page-breaking ly:minimal-breaking)
     tocPieceMarkup = \markup \fill-line {
-      \line-width-ratio #(if (< (*staff-size*) 18) 0.6 0.7) \fill-line {
+      \line-width-ratio #(if (< (*staff-size*) 18) 0.7 0.8) \fill-line {
         \toc-filled-line
         \fromproperty #'toc:rehearsal-number
         \fromproperty #'toc:text
@@ -33,7 +33,7 @@
   }
   \markuplist\override-lines #'(column-number . 1)
   \override-lines #'(use-rehearsal-numbers . #t)
-  \override-lines #'(rehearsal-number-gauge . "Christe")
+  \override-lines #'(rehearsal-number-gauge . "Gloria in Excelsis Deo")
   \override-lines #`(rehearsal-number-align . ,LEFT)
   \table-of-contents
 }
@@ -54,6 +54,10 @@
   pendant que le celebrant l’entonne
 }
 
-\pieceTocTitleNb "Gloria" \markup {
-  Les bourgeois de Chastre // Ou s’en vont ces guays bergers }
+\pieceTocTitleNb "Gloria in Excelsis Deo" \markup\wordwrap {
+  Les bourgeois de Chastre — Ou s’en vont ces guays bergers
+}
 \includeScore "Gloria"
+
+\pieceTocTitleNb "Credo in unum Deum" \markup { Vous qui désirez sans fin }
+\includeScore "Credo"

@@ -8,7 +8,33 @@
                          "Vol. 25 f. 62-v"
                          "Vol. 25 f. 63-r"
                          "Vol. 25 f. 63-v"
-                         )))
+                         "Vol. 25 f. 64-r"
+                         "Vol. 25 f. 64-v"
+                         "Vol. 25 f. 65-r"
+                         "Vol. 25 f. 65-v"
+                         "Vol. 25 f. 66-r"
+                         "Vol. 25 f. 66-v"
+                         "Vol. 25 f. 67-r"
+                         "Vol. 25 f. 67-v"
+                         "Vol. 25 f. 68-r"
+                         "Vol. 25 f. 68-v"
+                         "Vol. 25 f. 69-r"
+                         "Vol. 25 f. 69-v"
+                         "Vol. 25 f. 70-r"
+                         "Vol. 25 f. 70-v"
+                         "Vol. 25 f. 71-r"
+                         "Vol. 25 f. 71-v"
+                         "Vol. 25 f. 72-r"
+                         "Vol. 25 f. 72-v"
+                         "Vol. 25 f. 73-r"
+                         "Vol. 25 f. 73-v"
+                         "Vol. 25 f. 74-r"
+                         "Vol. 25 f. 74-v"
+                         "Vol. 25 f. 75-r"
+                         "Vol. 25 f. 75-v"
+                         "Vol. 25 f. 76-r"
+                         "Vol. 25 f. 76-v"
+                         "Vol. 25 f. 77-r")))
        (map (lambda (orig-page)
               (set! page (1+ page))
               (cons (1- page) orig-page))
@@ -51,27 +77,41 @@
   }
   \markuplist\override-lines #'(column-number . 1)
   \override-lines #'(use-rehearsal-numbers . #f)
-  \override-lines #`(rehearsal-number-align . ,LEFT)
   \table-of-contents
 }
 
 \markup\fill-line {
   \center-column {
     \fontsize #5 \line { Messe de Minuit }
-    \fontsize #4 \line { a 4 voix fl. et vions pour Noël }
+    \null
+    \fontsize #4 \line { a 4 voix fl[utes] et vi[ol]ons pour Noël }
     \null
   }
 }
 
-\pieceTocTitleNb "Kyrie" \markup { Joseph est bien marié }
+\pieceTocAndTitle \markup\larger { Joseph est bien marié }
+\markup {Kyrie — Joseph est bien marié }
 \includeScore "Kyrie"
 
-\pieceTocTitleNb "Christe" \markup { Or nous dites Marie }
+\pieceTocAndTitle \markup\larger { Or nous dites Marie }
+\markup { Christe — Or nous dites Marie }
 \includeScore "Christe"
 
-\pieceTocTitleNb "Kyrie" \markup { Une jeune pucelle }
+\pieceTocAndTitle \markup\larger { Une jeune pucelle }
+\markup { Kyrie — Une jeune pucelle }
 \includeScore "KyrieB"
 
-\pieceTocTitleNb "Gloria" \markup {
-  Les bourgeois de Chastre // Ou s’en vont ces guays bergers }
+\pieceTocAndTitle
+\markup\larger { Gloria in Excelsis Deo }
+\markup\wordwrap {
+  Gloria in Excelsis Deo — Les bourgeois de Chastre —
+  Ou s’en vont ces guays bergers
+}
 \includeScore "Gloria"
+
+\pieceTocAndTitle
+\markup\larger { Credo in unum Deum }
+\markup { Credo in unum Deum — Vous qui désirez sans fin }
+\includeScore "Credo"
+
+\markup\vspace #40
