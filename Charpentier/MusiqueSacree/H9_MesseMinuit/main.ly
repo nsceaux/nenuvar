@@ -66,3 +66,12 @@
 
 \pieceTocTitleNb "" \markup { Voicy le jour solemnel de noël }
 \includeScore "Crucifixus"
+
+\pieceTocAndTitleNb "" "" \markup { A la venue de Noel }
+\includeScore "EtAscendit"
+\noPageBreak\markup\huge\wordwrap {
+  A l’offertoire les vi[ol]ons joueront
+  \italic { Laissez paitre vos bestes }
+  en d la re sol \raise #1 \musicglyph #"accidentals.sharp"
+}
+\markup\huge { Passez au Sanctus }

@@ -118,13 +118,13 @@
   \tag #'(dessus1 orig1) {
     <>^\markup { \concat { P \super re } flute seule }
     R1*4 |
-    r2 <>_"fl seules" re''4 dod''8 re'' |
+    r2 <>_\markup\whiteout "fl seules" re''4 dod''8 re'' |
     mi''4 mi'' fa''8 mi'' fa'' sol'' |
     mi''2 re''4 dod''8 re'' |
     mi''4. re''8 do''4 si' |
     la'2 r |
     R1*3 |
-    r2 <>_"fl seules" re''4 dod''8 re'' |
+    r2 <>_\markup\whiteout "fl seules" re''4 dod''8 re'' |
     mi''4 mi'' fa''8 mi'' fa'' sol'' |
     mi'' mi'' fa'' sol'' la'' sol'' la'' sib'' |
     la''4. sol''8 fa''4 mi''\prall |
@@ -132,7 +132,7 @@
   }
   \tag #'(dessus2 orig2) {
     \origVersion \forceFullClef\clef "dessus"
-    <>^\markup { \concat { S \super de } flute seule }
+    <>^\markup\whiteout { \concat { S \super de } flute seule }
     R1*4 |
     r2 fa''4 mi''8 re'' |
     dod''4 dod'' re''8 dod'' re'' mi'' |
@@ -182,7 +182,7 @@
     R1.*10 |
     r4 <>^"tous" mi''4 fa''2 |
     re''4 re'' mi'' si' |
-    dod''4 dod''8 dod'' re'' mi'' re'' dod'' |
+    dod''4 dod''8 dod'' re'' mi'' re'' do''? |
     si'4 dod'' re''2~ |
     re''4 re'' re'' dod'' |
     re''2 re''4 mi''8 fa'' |

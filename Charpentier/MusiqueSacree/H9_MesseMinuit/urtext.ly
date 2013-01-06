@@ -117,4 +117,5 @@
 \pieceToc\markup { Voicy le jour solemnel de noël }
 \includeScore "Crucifixus"
 
-\markup\vspace #40
+\pieceToc\markup { A la venue de Noel }
+\includeScore "EtAscendit"
