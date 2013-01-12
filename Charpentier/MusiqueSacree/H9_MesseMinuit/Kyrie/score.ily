@@ -56,7 +56,7 @@
           \global \includeNotes "taille"
         >>
         \new Staff <<
-          \instrumentName "[Basses du chœur]"
+          \instrumentName\markup\center-column { [Basses "du chœur]" }
           \global \keepWithTag #'basse \includeNotes "basse"
         >>
       >>

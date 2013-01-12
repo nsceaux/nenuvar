@@ -74,8 +74,7 @@
   \italic { Laissez paitre vos bestes }
   en d la re sol \raise #1 \musicglyph #"accidentals.sharp"
 }
-\markup\huge { Passez au Sanctus }
-
+\noPageBreak\markup\vspace #2
 %% Programme Précipitations : à la venue de Noël
 \pieceTocAndTitleNbCond #(eqv? (ly:get-option 'precipitations) #t)
 "Offertoire"
@@ -88,3 +87,8 @@
 \markup { Laissez paitre vos bestes }
 \markup { Laissez paitre vos bestes }
 \includeScoreCond #(not (eqv? (ly:get-option 'precipitations) #t)) "LaissezPaitre"
+\noPageBreak\markup\huge { Passez au Sanctus }
+\noPageBreak\markup\vspace #2
+
+\pieceTocTitleNb "Sanctus" \markup { O dieu que n’etois je en vie }
+\includeScore "Sanctus"

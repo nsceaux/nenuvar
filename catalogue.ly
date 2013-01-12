@@ -271,12 +271,15 @@ O Emmanuel")
         #:key "Charpentier/MusiqueSacree/H9_MesseMinuit"
         #:main ((urtext "Version urtext" #:score-file "urtext")
                 (#f "Version de concert")
-                (sol1 "Version de concert (dessus en sol1)"
-                      #:options "-ddessus-sol1"))
+                (precipitations "Version de concert"
+                                #:options "-ddessus-sol1 -dprecipitations"))
         #:parts ((dessus "Dessus"
                          #:score-file "main")
-                 (dessus-sol1 "Dessus" #:part dessus #:options "-ddessus-sol1"
-                              #:score-file "main")
+                 (dessus-precipitations
+                  "Dessus"
+                  #:part dessus
+                  #:options "-ddessus-sol1 -dprecipitations"
+                  #:score-file "main")
                  (haute-contre "Hautes-contre"
                                #:score-file "main")
                  (taille "Tailles"

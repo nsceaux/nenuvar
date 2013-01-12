@@ -1,50 +1,44 @@
 \score {
   <<
     \origVersion\new StaffGroupNoBar <<
-      \new Staff <<
-        \instrumentName "tous"
+      \new Staff \with { \haraKiri } <<
+        \instrumentName "Tous"
         \global \includeNotes "dessus"
-        \origLayout {
-          s1*12\pageBreak
-          s1*11\break s1*11\pageBreak
-          s1*6 s2.*4\break s2.*12\pageBreak
-          s2.*12\break s2.*11\pageBreak
-          s2.*6 s1*4\break s1*9\pageBreak
-          s1*9\break s1*2 s1.*8\pageBreak
-          s1.*11\break
-        }
       >>
-      \new Staff <<
-        \instrumentName "tous"
+      \new Staff \with { \haraKiri } <<
+        \instrumentName "Tous"
         \global \includeNotes "haute-contre"
       >>
-      \new Staff <<
-        \instrumentName "tous"
+      \new Staff \with { \haraKiri } <<
+        \instrumentName "Tous"
         \global \includeNotes "taille"
       >>
-      \new Staff <<
-        \instrumentName\markup\center-column { tous "Basses du" chœur }
+      \new Staff \with { \haraKiriFirst } <<
+        { \startHaraKiri s1*19 \stopHaraKiri }
         \global \keepWithTag #'basse \includeNotes "basse"
       >>
-      \new Staff \withLyrics <<
-        \instrumentName "tous"
-        \global \includeNotes "voix-dessus"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vdessus \includeNotes "voix"
       >> \keepWithTag #'vdessus \includeLyrics "paroles"
-      \new Staff \withLyrics <<
-        \instrumentName "tous"
-        \global \includeNotes "voix-haute-contre"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vhaute-contre \includeNotes "voix"
       >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
-      \new Staff \withLyrics <<
-        \instrumentName "tous"
-        \global \includeNotes "voix-taille"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vtaille \includeNotes "voix"
       >> \keepWithTag #'vtaille \includeLyrics "paroles"
-      \new Staff \withLyrics <<
-        \instrumentName "tous"
-        \global \includeNotes "voix-basse"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vbasse \includeNotes "voix"
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
+      
       \new Staff <<
-        \instrumentName\markup\center-column { tous accomp seul }
-        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \instrumentName\markup\center-column { Tous "avec org" }
+        \global
+        \keepWithTag #'basse-continue \includeNotes "basse"
+        \origLayout {
+          s1*10\break s1*9\break s1*9\pageBreak
+          s1*9\break s1*10\pageBreak
+          s1*10\break s1*8\break s1*6 \break
+        }
         \new FiguredBass \includeFigures "chiffres"
       >>
     >>
@@ -63,33 +57,34 @@
           \instrumentName "[Tailles]"
           \global \includeNotes "taille"
         >>
-        \new Staff <<
-          \instrumentName\markup\center-column { Basses "du chœur" }
+        \new Staff \with { \haraKiriFirst } <<
+          \instrumentName "[Basses]"
           \global \keepWithTag #'basse \includeNotes "basse"
         >>
       >>
       \new ChoirStaff \with { instrumentName = \markup { [Chœur] \hspace #7 } }
       <<
         \new Staff \withLyrics <<
-          \global \includeNotes "voix-dessus"
+          \global \keepWithTag #'vdessus \includeNotes "voix"
         >> \keepWithTag #'vdessus \includeLyrics "paroles"
         \new Staff \withLyrics <<
-          \global \includeNotes "voix-haute-contre"
+          \global \keepWithTag #'vhaute-contre \includeNotes "voix"
         >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
         \new Staff \withLyrics <<
-          \global \includeNotes "voix-taille"
+          \global \keepWithTag #'vtaille \includeNotes "voix"
         >> \keepWithTag #'vtaille \includeLyrics "paroles"
         \new Staff \withLyrics <<
-          \global \includeNotes "voix-basse"
+          \global \keepWithTag #'vbasse \includeNotes "voix"
         >> \keepWithTag #'vbasse \includeLyrics "paroles"
       >>
       \new Staff <<
-        \instrumentName\markup "accomp seul"
-        \global \keepWithTag #'basse-continue \includeNotes "basse"
+        \instrumentName\markup\center-column { [acc] "avec org[ue]" }
+        \global
+        \keepWithTag #'basse-continue \includeNotes "basse"
         \new FiguredBass \includeFigures "chiffres"
       >>
     >>
   >>
-  \layout { ragged-last = ##f }
+  \layout { }
   \midi { }
 }

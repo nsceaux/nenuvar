@@ -119,3 +119,6 @@
 
 \pieceToc\markup { A la venue de Noel }
 \includeScore "EtAscendit"
+
+\pieceToc\markup { O dieu que n’etois je en vie }
+\includeScore "Sanctus"

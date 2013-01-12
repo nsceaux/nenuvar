@@ -98,7 +98,8 @@
           \keepWithTag #'basse \includeNotes "basse"
         >>
       >>
-      \new ChoirStaff <<
+      \new ChoirStaff \with { instrumentName = \markup { [Chœur] \hspace #7 } }
+      <<
         \new Staff \with { \haraKiriFirst } \withLyrics <<
           \global \keepWithTag #'vdessus1 \includeNotes "voix"
         >> \keepWithTag #'vdessus1 \includeLyrics "paroles"
