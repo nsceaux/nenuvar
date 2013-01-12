@@ -40,14 +40,14 @@
 
 \pieceTocTitleNb "Kyrie" \markup { Joseph est bien marié }
 \includeScore "Kyrie"
-\noPageBreak\markup\huge { Icy l’orgue jour le mesme Noël }
+\noPageBreak\markup\huge { Icy l’orgue joue le mesme Noël }
 \noPageBreak\markup\vspace #2
-\pieceTocTitleNb "Christe" \markup { Or nous dites Marie }
+\pieceTocTitleNb "" \markup { Or nous dites Marie }
 \includeScore "Christe"
 
-\pieceTocTitleNb "Kyrie" \markup { Une jeune pucelle }
+\pieceTocTitleNb "" \markup { Une jeune pucelle }
 \includeScore "KyrieB"
-\noPageBreak\markup\huge { Icy l’orgue jour le mesme Noël }
+\noPageBreak\markup\huge { Icy l’orgue joue le mesme Noël }
 \noPageBreak\markup\vspace #2
 \noPageBreak\markup\huge {
   Tournez viste pour le \italic { gloria in excelsis deo }
@@ -75,3 +75,16 @@
   en d la re sol \raise #1 \musicglyph #"accidentals.sharp"
 }
 \markup\huge { Passez au Sanctus }
+
+%% Programme Précipitations : à la venue de Noël
+\pieceTocAndTitleNbCond #(eqv? (ly:get-option 'precipitations) #t)
+"Offertoire"
+\markup { A la venue de Noel }
+\markup { A la venue de Noel }
+\includeScoreCond #(eqv? (ly:get-option 'precipitations) #t) "VenueNoel"
+%% Laissez paître vos bêtes
+\pieceTocAndTitleNbCond #(not (eqv? (ly:get-option 'precipitations) #t))
+"Offertoire"
+\markup { Laissez paitre vos bestes }
+\markup { Laissez paitre vos bestes }
+\includeScoreCond #(not (eqv? (ly:get-option 'precipitations) #t)) "LaissezPaitre"

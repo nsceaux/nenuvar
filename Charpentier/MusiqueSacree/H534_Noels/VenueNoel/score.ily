@@ -33,6 +33,7 @@
     >>
   >>
   \layout {
+    indent = \smallindent
     ragged-last = #(eqv? (ly:get-option 'ancient-style) #t)
   }
   \midi { }

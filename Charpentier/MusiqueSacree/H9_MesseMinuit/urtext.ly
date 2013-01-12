@@ -90,15 +90,15 @@
 }
 
 \pieceTocAndTitle \markup\larger { Joseph est bien marié }
-\markup {Kyrie — Joseph est bien marié }
+\markup { Kyrie — Joseph est bien marié }
 \includeScore "Kyrie"
 
 \pieceTocAndTitle \markup\larger { Or nous dites Marie }
-\markup { Christe — Or nous dites Marie }
+\markup { Or nous dites Marie }
 \includeScore "Christe"
 
 \pieceTocAndTitle \markup\larger { Une jeune pucelle }
-\markup { Kyrie — Une jeune pucelle }
+\markup { Une jeune pucelle }
 \includeScore "KyrieB"
 
 \pieceTocAndTitle

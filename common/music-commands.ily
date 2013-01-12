@@ -98,8 +98,7 @@ alternatives =
             << $second >> <<{ s4*0 \set Score.repeatCommands = #'((volta #f)) } >> #})
        #{ \set Score.repeatCommands = #'((volta "1."))
           $first
-          \bar ":|"
-          \set Score.repeatCommands = #'((volta #f) (volta "2."))
+          \set Score.repeatCommands = #'((volta #f) (volta "2.") end-repeat)
           $second
           \set Score.repeatCommands = #'((volta #f)) #}))
 

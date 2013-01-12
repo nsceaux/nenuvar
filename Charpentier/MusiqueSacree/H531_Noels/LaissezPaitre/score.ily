@@ -36,6 +36,6 @@
       \new Staff << \global \includeNotes "basse" \includeFigures "chiffres" >>
     >>
   >>
-  \layout { }
+  \layout { indent = \smallindent }
   \midi { }
 }
