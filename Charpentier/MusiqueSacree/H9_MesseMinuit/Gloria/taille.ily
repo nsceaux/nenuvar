@@ -77,7 +77,7 @@ fad'2.~ |
 fad'4 mi' r |
 r mi' re'~ |
 re' dod' re'8 mi' |
-fad'2. |
+fad'2. |\allowPageTurn
 R1*23 |
 r2 <>^"tous" re'4 fad' |
 re' sol' la' la' |

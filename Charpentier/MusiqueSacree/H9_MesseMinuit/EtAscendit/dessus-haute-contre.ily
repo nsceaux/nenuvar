@@ -146,7 +146,7 @@
     fa''4. mi''8 re''4 dod''\prall |
     re''2 r |
   }
-  \tag #'haute-contre { R1*17 }
+  \tag #'haute-contre { \allowPageTurn R1*17 }
 >>
 <<
   \tag #'(dessus1 dessus2 orig1) {

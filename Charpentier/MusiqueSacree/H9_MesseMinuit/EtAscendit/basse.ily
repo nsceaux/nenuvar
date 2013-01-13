@@ -101,7 +101,7 @@ sol2 mi4 |
 la8 sol fa mi re4 |
 sol, la,2 |
 <<
-  \tag #'basse { re2. | R1*20 | r2 <>^"tous" }
+  \tag #'basse { re2. | \allowPageTurn R1*20 | r2 <>^"tous" }
   \tag #'basse-continue {
     re,2. |
     re2. la4 |
@@ -243,6 +243,6 @@ la1 la2
     re4 mi fad2 |
     sol1 |
     sol, |
-    re\breve*1/2 |
+    re\breve*1/2 | \allowPageTurn
   }
 >>

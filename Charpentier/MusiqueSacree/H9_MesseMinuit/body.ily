@@ -38,12 +38,16 @@
 
 \pieceTocAndTitleNb "" "" \markup { A la venue de Noel }
 \includeScore "EtAscendit"
-\noPageBreak\markup\huge\wordwrap {
+\markup\on-the-fly
+#(lambda (layout props arg)
+   (if (symbol? (*part*))
+       empty-stencil
+       (interpret-markup layout props arg)))
+\huge\wordwrap {
   A l’offertoire les vi[ol]ons joueront
   \italic { Laissez paitre vos bestes }
   en d la re sol \raise #1 \musicglyph #"accidentals.sharp"
 }
-\noPageBreak\markup\vspace #2
 
 %% Programme Précipitations : à la venue de Noël
 \pieceTocAndTitleNbCond #(eqv? (ly:get-option 'precipitations) #t)

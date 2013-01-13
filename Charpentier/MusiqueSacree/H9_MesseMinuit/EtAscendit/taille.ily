@@ -51,7 +51,7 @@ do' fa'2 |
 re'4 si si |
 la re'8 dod' re'4~ |
 re'8 mi' dod'4 re'8 mi' |
-fa'2. |
+fa'2. |\allowPageTurn
 R1*20 |
 r2 <>^"tous" fa'4 sol'8 fa' |
 mi'4 la' la' la' |
