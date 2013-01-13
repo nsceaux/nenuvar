@@ -92,3 +92,6 @@
 
 \pieceTocTitleNb "Sanctus" \markup { O dieu que n’etois je en vie }
 \includeScore "Sanctus"
+
+\pieceTocTitleNb "Agnus Dei" \markup { A minuit fut fait un resveil }
+\includeScore "AgnusDei"

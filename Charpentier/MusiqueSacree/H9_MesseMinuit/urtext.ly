@@ -122,3 +122,12 @@
 
 \pieceToc\markup { O dieu que n’etois je en vie }
 \includeScore "Sanctus"
+\markup\fill-line {
+  \null
+  \column { \line { tournez pour } \line { l’Agnus dei } }
+}
+\pageBreak
+
+\pieceTocAndTitle \markup\larger { A minuit fut fait un resveil }
+\markup { A minuit fut fait un resveil }
+\includeScore "AgnusDei"

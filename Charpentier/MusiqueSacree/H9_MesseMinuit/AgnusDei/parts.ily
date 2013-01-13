@@ -3,5 +3,4 @@
                    (taille)
                    (basse)
                    (basse-continue
-                    #:instrument "avec orgue"
                     #:score-template "score-basse-continue-voix2"))

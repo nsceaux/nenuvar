@@ -2,7 +2,7 @@
 #(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'ancient-alteration (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
-#(ly:set-option 'baroque-repeats #(eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'baroque-repeats (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'baroque-repeat-bar ":||:")
 
 %% Staff size:
