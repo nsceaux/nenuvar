@@ -7,5 +7,5 @@
       \global \keepWithTag #'dessus2 \includeNotes "dessus-haute-contre"
     >>
   >>
-  \layout { }
+  \layout { indent = \smallindent }
 }

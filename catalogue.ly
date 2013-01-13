@@ -273,21 +273,26 @@ O Emmanuel")
                 (#f "Version de concert")
                 (precipitations "Version de concert"
                                 #:options "-ddessus-sol1 -dprecipitations"))
-        #:parts ((dessus "Dessus"
-                         #:score-file "main")
-                 (dessus-precipitations
-                  "Dessus"
-                  #:part dessus
-                  #:options "-ddessus-sol1 -dprecipitations"
-                  #:score-file "main")
-                 (haute-contre "Hautes-contre"
-                               #:score-file "main")
-                 (taille "Tailles"
-                         #:score-file "main")
-                 (basse "Basses"
-                        #:score-file "main")
-                 (basse-continue "Basse continue"
-                                 #:score-file "main")))
+        #:parts ((dessus "Dessus")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (basse "Basses")
+                 (basse-continue "Basse continue")
+                 (precipitations-dessus
+                  "Dessus" #:part dessus
+                  #:options "-ddessus-sol1 -dprecipitations")
+                 (precipitations-haute-contre
+                  "Hautes-contre" #:part haute-contre
+                  #:options "-dprecipitations")
+                 (precipitations-taille
+                  "Tailles" #:part taille
+                  #:options "-dprecipitations")
+                 (precipitations-basse
+                  "Basses" #:part basse
+                  #:options "-dprecipitations")
+                 (precipitations-basse-continue
+                  "Basse continue" #:part basse-continue
+                  #:options "-dprecipitations")))
        ("Magnificat"
         #:description "Prélude sur une basse obligée pour Magnificat à trois voix."
         #:opus "H.73"

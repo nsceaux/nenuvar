@@ -120,14 +120,17 @@
 \pieceToc\markup { A la venue de Noel }
 \includeScore "EtAscendit"
 
-\pieceToc\markup { O dieu que n’etois je en vie }
+\pieceTocAndTitle
+\markup\larger { O dieu que n’etois je en vie }
+\markup { Sanctus — O dieu que n’etois je en vie }
 \includeScore "Sanctus"
-\markup\fill-line {
+\noPageBreak\markup\fill-line {
   \null
   \column { \line { tournez pour } \line { l’Agnus dei } }
 }
 \pageBreak
 
-\pieceTocAndTitle \markup\larger { A minuit fut fait un resveil }
-\markup { A minuit fut fait un resveil }
+\pieceTocAndTitle
+\markup\larger { A minuit fut fait un resveil }
+\markup { Agnus Dei — A minuit fut fait un resveil }
 \includeScore "AgnusDei"

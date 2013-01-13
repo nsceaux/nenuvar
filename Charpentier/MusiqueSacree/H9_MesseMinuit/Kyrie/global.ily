@@ -4,7 +4,7 @@
 \beginMark "Second Kyrie" s2 s1*22
 \bar "|."
 \origVersion {
-  \endMark\markup\fontsize #4 \column {
+  \endMark\markup\override #'(baseline-skip . 3) \fontsize #2 \column {
     "Icy lorgue"
     "joüe le mesme"
     nöel

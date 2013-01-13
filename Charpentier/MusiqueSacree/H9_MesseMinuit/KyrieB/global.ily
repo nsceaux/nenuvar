@@ -7,10 +7,10 @@ s1*52 \bar "|."
   \mark\markup\override #'(baseline-skip . 3.5) {
     \null
     \translate #'(5 . 30) 126
-    \translate #'(0 . 70) \fontsize #3 \column {
+    \translate #'(0 . 70) \fontsize #2 \column {
       "icy lorgue" "joue le" mesme nöel
     }
-    \translate #'(20 . 50) \fontsize #3 \column {
+    \translate #'(20 . 50) \fontsize #2 \column {
       "Tournez viste" "pour le gloria" "in excelsis deo"
       "pendant que le" "celebrant l entonne"
     }

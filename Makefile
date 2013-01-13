@@ -1277,38 +1277,62 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations:
 Charpentier/MusiqueSacree/H9_MesseMinuit-dessus:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H9_MesseMinuit-dessus -dpart=dessus  \
-	Charpentier/MusiqueSacree/H9_MesseMinuit/main
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
 .PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-dessus
-# Dessus
-Charpentier/MusiqueSacree/H9_MesseMinuit-dessus-precipitations:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/H9_MesseMinuit-dessus-precipitations -dpart=dessus -ddessus-sol1 -dprecipitations \
-	Charpentier/MusiqueSacree/H9_MesseMinuit/main
-.PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-dessus-precipitations
 # Hautes-contre
 Charpentier/MusiqueSacree/H9_MesseMinuit-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H9_MesseMinuit-haute-contre -dpart=haute-contre  \
-	Charpentier/MusiqueSacree/H9_MesseMinuit/main
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
 .PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-haute-contre
 # Tailles
 Charpentier/MusiqueSacree/H9_MesseMinuit-taille:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H9_MesseMinuit-taille -dpart=taille  \
-	Charpentier/MusiqueSacree/H9_MesseMinuit/main
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
 .PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-taille
 # Basses
 Charpentier/MusiqueSacree/H9_MesseMinuit-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H9_MesseMinuit-basse -dpart=basse  \
-	Charpentier/MusiqueSacree/H9_MesseMinuit/main
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
 .PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-basse
 # Basse continue
 Charpentier/MusiqueSacree/H9_MesseMinuit-basse-continue:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/H9_MesseMinuit-basse-continue -dpart=basse-continue  \
-	Charpentier/MusiqueSacree/H9_MesseMinuit/main
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
 .PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-basse-continue
+# Dessus
+Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-dessus:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-dessus -dpart=dessus -ddessus-sol1 -dprecipitations \
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
+.PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-dessus
+# Hautes-contre
+Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-haute-contre -dpart=haute-contre -dprecipitations \
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
+.PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-haute-contre
+# Tailles
+Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-taille:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-taille -dpart=taille -dprecipitations \
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
+.PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-taille
+# Basses
+Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-basse:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-basse -dpart=basse -dprecipitations \
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
+.PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-basse
+# Basse continue
+Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-basse-continue:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-basse-continue -dpart=basse-continue -dprecipitations \
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
+.PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-basse-continue
 
 Charpentier/MusiqueSacree/H9_MesseMinuit-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit
@@ -1316,11 +1340,15 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-delivery:
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-precipitations.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-precipitations.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-dessus.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
-	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-dessus-precipitations.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-dessus-precipitations.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-taille.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-basse.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-basse-continue.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
+	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-dessus.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
+	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
+	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-taille.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
+	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-basse.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
+	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-basse-continue.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit/H9_MesseMinuit-midi.tar.gz $(OUTPUT_DIR)/H9_MesseMinuit.midi $(OUTPUT_DIR)/H9_MesseMinuit-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H9_MesseMinuit.midi ]; then cp $(OUTPUT_DIR)/H9_MesseMinuit.midi $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit/ ; fi
 	git archive --prefix=H9_MesseMinuit/ HEAD Charpentier/MusiqueSacree/H9_MesseMinuit common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit/H9_MesseMinuit.tar.gz
 
@@ -1332,11 +1360,15 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-all: \
 	Charpentier/MusiqueSacree/H9_MesseMinuit \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-dessus \
-	Charpentier/MusiqueSacree/H9_MesseMinuit-dessus-precipitations \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-haute-contre \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-taille \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-basse \
-	Charpentier/MusiqueSacree/H9_MesseMinuit-basse-continue\
+	Charpentier/MusiqueSacree/H9_MesseMinuit-basse-continue \
+	Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-dessus \
+	Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-haute-contre \
+	Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-taille \
+	Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-basse \
+	Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-basse-continue\
 	Charpentier/MusiqueSacree/H9_MesseMinuit-delivery\
 	Charpentier/MusiqueSacree/H9_MesseMinuit-clean
 
