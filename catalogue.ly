@@ -327,6 +327,15 @@ O Emmanuel")
         #:key "Couperin/Orgue/MesseCouvents"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=25"
         #:main ((#f "Partition complète")))
+       ("Les Nations"
+        #:description "Sonades et suites de simphonies en trio"
+        #:key "Couperin/Nations"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=xx"
+        #:main ((#f "Conducteur"))
+        #:parts ((claviers "Deux claviers" #:part claviers
+                           #:score-file "main-claviers")
+                 (basse-archet "Basse d'archet" #:part basse-archet
+                               #:score-file "main")))
        ("L'Art de toucher le clavecin"
         #:key "Couperin/Clavecin/lArtDeToucherLeClavecin"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=4"

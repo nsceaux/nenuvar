@@ -160,6 +160,7 @@ toplevel bookparts."
 #(define *score-ragged* (make-parameter #f))
 #(define *score-indent* (make-parameter #f))
 #(define *score-extra-music* (make-parameter #f))
+#(define *score-extra-music2* (make-parameter #f))
 #(define *tag-global* (make-parameter #f))
 #(define *tag-notes* (make-parameter #f))
 #(define *figures* (make-parameter #f))
@@ -229,7 +230,8 @@ The keyword arguments give default values to be used when non-specified in `piec
         (notes notes)
         (clef clef)
         (instrument instrument)
-        (music #f))
+        (music #f)
+        (music2 #f))
     (if clef (*clef* clef)) ;; hack: set *clef* for silence scores
     (let parse-props ((props piece-spec))
       (if (not (or (null? props) (null? (cdr props))))
@@ -248,7 +250,8 @@ The keyword arguments give default values to be used when non-specified in `piec
                (set! score (cadr props))
                (set! from-templates #t))
               ((#:instrument) (set! instrument (cadr props)))
-              ((#:music) (set! music (cadr props))))
+              ((#:music) (set! music (cadr props)))
+              ((#:music2) (set! music2 (cadr props))))
             (parse-props (cddr props)))))
     `((score . ,score)
       (from-templates . ,from-templates)
@@ -260,7 +263,8 @@ The keyword arguments give default values to be used when non-specified in `piec
       (clef . ,clef)
       (instrument . ,instrument)
       (figures . ,figures)
-      (music . ,music))))
+      (music . ,music)
+      (music2 . ,music2))))
 
 piecePartSpecs =
 #(define-music-function (parser location piece-specs) (list?)
@@ -419,7 +423,8 @@ setOpus =
                                 (*tag-notes* (assoc-ref piece 'tag-notes))
                                 (*figures* (assoc-ref piece 'figures))
                                 (*clef* (or (assoc-ref piece 'clef) (*clef*) "treble"))
-                                (*score-extra-music* (assoc-ref piece 'music)))
+                                (*score-extra-music* (assoc-ref piece 'music))
+                                (*score-extra-music2* (assoc-ref piece 'music2)))
                    (include-part-score parser
                                        name
                                        (assoc-ref piece 'score)

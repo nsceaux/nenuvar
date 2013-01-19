@@ -1481,6 +1481,46 @@ Couperin/Orgue/MesseCouvents-all: \
 
 .PHONY: Couperin/Orgue/MesseCouvents-delivery Couperin/Orgue/MesseCouvents-clean Couperin/Orgue/MesseCouvents-all
 
+### Les Nations
+# Conducteur
+Couperin/Nations:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Nations  \
+	Couperin/Nations/main.ly
+.PHONY: Couperin/Nations
+# Deux claviers
+Couperin/Nations-claviers:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Nations-claviers -dpart=claviers  \
+	Couperin/Nations/main-claviers
+.PHONY: Couperin/Nations-claviers
+# Basse d'archet
+Couperin/Nations-basse-archet:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Nations-basse-archet -dpart=basse-archet  \
+	Couperin/Nations/main
+.PHONY: Couperin/Nations-basse-archet
+
+Couperin/Nations-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Couperin/Nations
+	@if [ -e $(OUTPUT_DIR)/Nations.pdf ]; then mv -fv $(OUTPUT_DIR)/Nations.pdf $(DELIVERY_DIR)/Couperin/Nations; fi
+	@if [ -e $(OUTPUT_DIR)/Nations-claviers.pdf ]; then mv -fv $(OUTPUT_DIR)/Nations-claviers.pdf $(DELIVERY_DIR)/Couperin/Nations; fi
+	@if [ -e $(OUTPUT_DIR)/Nations-basse-archet.pdf ]; then mv -fv $(OUTPUT_DIR)/Nations-basse-archet.pdf $(DELIVERY_DIR)/Couperin/Nations; fi
+	@if [ -e $(OUTPUT_DIR)/Nations-1.midi ]; then tar zcf $(DELIVERY_DIR)/Couperin/Nations/Nations-midi.tar.gz $(OUTPUT_DIR)/Nations.midi $(OUTPUT_DIR)/Nations-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/Nations.midi ]; then cp $(OUTPUT_DIR)/Nations.midi $(DELIVERY_DIR)/Couperin/Nations/ ; fi
+	git archive --prefix=Nations/ HEAD Couperin/Nations common out templates Makefile README | gzip > $(DELIVERY_DIR)/Couperin/Nations/Nations.tar.gz
+
+Couperin/Nations-clean:
+	@rm -f $(OUTPUT_DIR)/Nations-* $(OUTPUT_DIR)/Nations.*
+
+Couperin/Nations-all: \
+	Couperin/Nations \
+	Couperin/Nations-claviers \
+	Couperin/Nations-basse-archet\
+	Couperin/Nations-delivery\
+	Couperin/Nations-clean
+
+.PHONY: Couperin/Nations-delivery Couperin/Nations-clean Couperin/Nations-all
+
 ### L'Art de toucher le clavecin
 # Livre complet
 Couperin/Clavecin/lArtDeToucherLeClavecin:
