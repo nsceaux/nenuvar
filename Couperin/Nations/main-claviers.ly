@@ -18,6 +18,10 @@
   \override-lines #'(column-number . 2)
   \table-of-contents
 }
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \markup NOTES...
+}
 
 \bookpart {
   \paper { page-count = #2 }
@@ -36,5 +40,9 @@
 \bookpart {
   \paper { page-count = #4 }
   \includeScore "TroisiemeOrdre/ImperialeD"
+}
+\bookpart {
+  \paper { page-count = #4 }
+  \includeScore "TroisiemeOrdre/ImperialeE"
 }
 \markup\null

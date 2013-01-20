@@ -25,3 +25,4 @@
 \includeScore "TroisiemeOrdre/ImperialeB"
 \includeScore "TroisiemeOrdre/ImperialeC"
 \includeScore "TroisiemeOrdre/ImperialeD"
+\includeScore "TroisiemeOrdre/ImperialeE"

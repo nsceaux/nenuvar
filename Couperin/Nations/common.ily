@@ -49,7 +49,8 @@
    (basse-chiffree
     "Basse chifrée" () (#:notes "basse" #:tag-notes chiffree #:clef "bass"
                                 #:score-template "score-basse-continue2"))
-   (claviers "" () (#:score-template "score-nation-claviers")))
+   (claviers "Concert à deux clavecins" ()
+             (#:score-template "score-nation-claviers")))
 
 %%% Figured bass
 includeFigures = 
