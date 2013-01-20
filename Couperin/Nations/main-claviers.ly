@@ -29,4 +29,8 @@
   \paper { page-count = #2 }
   \includeScore "TroisiemeOrdre/ImperialeB"
 }
+\bookpart {
+  \paper { page-count = #2 }
+  \includeScore "TroisiemeOrdre/ImperialeC"
+}
 \markup\null
