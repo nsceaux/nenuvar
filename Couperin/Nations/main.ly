@@ -22,3 +22,4 @@
 \ordre "Troisiéme Ordre"
 \pieceTocTitle "L’Imperiale"
 \includeScore "TroisiemeOrdre/ImperialeA"
+\includeScore "TroisiemeOrdre/ImperialeB"

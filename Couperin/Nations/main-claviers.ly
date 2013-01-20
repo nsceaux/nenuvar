@@ -25,4 +25,8 @@
   \pieceToc "L’Imperiale"
   \includeScore "TroisiemeOrdre/ImperialeA"
 }
+\bookpart {
+  \paper { page-count = #2 }
+  \includeScore "TroisiemeOrdre/ImperialeB"
+}
 \markup\null

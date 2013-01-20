@@ -18,7 +18,12 @@
 #(ly:set-option 'forbid-key-modification #t)
 #(ly:set-option 'use-rehearsal-numbers #f)
 %% Staff size
-#(set-global-staff-size 16)
+#(set-global-staff-size
+  (if (or (eqv? #t (ly:get-option 'urtext))
+          (not (symbol? (ly:get-option 'part)))
+          (eqv? (ly:get-option 'part) 'claviers))
+      16
+      18))
 %% Line/page breaking algorithm
 \paper { #(define page-breaking ly:optimal-breaking) }
 
