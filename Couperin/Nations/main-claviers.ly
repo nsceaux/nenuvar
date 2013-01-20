@@ -33,4 +33,8 @@
   \paper { page-count = #2 }
   \includeScore "TroisiemeOrdre/ImperialeC"
 }
+\bookpart {
+  \paper { page-count = #4 }
+  \includeScore "TroisiemeOrdre/ImperialeD"
+}
 \markup\null
