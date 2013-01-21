@@ -17,7 +17,7 @@
 
 \include "common/includes.ily"
 \include "common/clef-key.ily"
-\include "common/custom-bars.ily"
+%\include "common/custom-bars.ily"
 \include "common/titling.ily"
 \include "common/toc-columns.ily"
 \include "common/music-commands.ily"

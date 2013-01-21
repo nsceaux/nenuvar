@@ -1,3 +1,8 @@
+%% Custom bar lines
+\defineBarLine "|!:" #'("|" "!:" "|! ")
+\defineBarLine ":!." #'(":!." "" " !.")
+\defineBarLine ":!|" #'(":!|" "" " !|")
+
 %% Breathing signs from Hippolyte et Aricie
 cesure = {
   \once\override BreathingSign #'text = \markup \fontsize #2 "|"
@@ -59,6 +64,44 @@ dotSign=\markup\vcenter "╸"
        (padding . 0.40)
        (avoid-slur . around)
        (direction . ,UP))
+      ("arcArc"
+       (script-stencil
+        . (markup
+           . , #{
+     \markup\combine\combine
+     \concat {
+       \null \translate #'(0 . 1) \musicglyph #"scripts.ufermata"
+     }
+     \with-color #white \concat {
+       \null \translate #'(0 . 1.2) \draw-circle #0.4 #0 ##t
+     }
+     \combine
+     \smaller\smaller\concat {
+       \null \translate #'(0 . 0) \musicglyph #"scripts.ufermata"
+     }
+     \with-color #white \concat {
+       \null \translate #'(0 . 0.2) \draw-circle #0.4 #0 ##t
+     } #}))
+       (padding . 0.40)
+       (avoid-slur . around)
+       (direction . ,UP))
+      ("arcArcDot"
+       (script-stencil
+        . (markup
+           . , #{
+     \markup\combine\combine
+     \concat {
+       \null \translate #'(0 . 1) \musicglyph #"scripts.ufermata"
+     }
+     \with-color #white \concat {
+       \null \translate #'(0 . 1.2) \draw-circle #0.4 #0 ##t
+     }
+     \smaller\smaller\concat {
+       \null \translate #'(0 . 0) \musicglyph #"scripts.ufermata"
+     } #}))
+       (padding . 0.40)
+       (avoid-slur . around)
+       (direction . ,UP))
       ("dotDot"
        (script-stencil
         . (markup . ,(markup #:center-align #:line (#:musicglyph "period" #:musicglyph "period"))))
@@ -117,6 +160,8 @@ tr = #(make-articulation "t")
 trillSug = #(make-articulation "trillSug")
 arcTrill = #(make-articulation "arcTrill")
 arcDot = #(make-articulation "arcDot")
+arcArc = #(make-articulation "arcArc")
+arcArcDot = #(make-articulation "arcArcDot")
 dotDot = #(make-articulation "dotDot")
 dotPrall = #(make-articulation "dotPrall")
 dotDoublePrallDoublePrall = #(make-articulation "dotDoublePrallDoublePrall")

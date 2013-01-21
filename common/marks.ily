@@ -99,6 +99,10 @@ beginMark =
 #(define-music-function (parser location text) (markup?)
    #{ \markUpBegin\mark\markup $text #})
 
+beginMarkDown =
+#(define-music-function (parser location text) (markup?)
+   #{ \markDownBegin\mark\markup $text #})
+
 fineMark = {
   \dacapoOverrides \mark \markup \right-align \italic Fin.
 }

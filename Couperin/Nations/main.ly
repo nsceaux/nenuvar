@@ -26,3 +26,5 @@
 \includeScore "TroisiemeOrdre/ImperialeC"
 \includeScore "TroisiemeOrdre/ImperialeD"
 \includeScore "TroisiemeOrdre/ImperialeE"
+\pieceTocTitle "Allemande"
+\includeScore "TroisiemeOrdre/Allemande"
