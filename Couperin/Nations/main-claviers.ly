@@ -50,4 +50,9 @@
   \pieceToc "Allemande"
   \includeScore "TroisiemeOrdre/Allemande"
 }
+\bookpart {
+  \paper { page-count = #1 }
+  \pieceToc "Courante"
+  \includeScore "TroisiemeOrdre/Courante"
+}
 \markup\null

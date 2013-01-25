@@ -101,7 +101,12 @@ beginMark =
 
 beginMarkDown =
 #(define-music-function (parser location text) (markup?)
-   #{ \markDownBegin\mark\markup $text #})
+   #{ 
+\once \override Score . RehearsalMark #'break-visibility =
+#end-of-line-invisible
+\once \override Score . RehearsalMark #'direction = #DOWN
+\once \override Score . RehearsalMark #'self-alignment-X = #LEFT
+\mark\markup $text #})
 
 fineMark = {
   \dacapoOverrides \mark \markup \right-align \italic Fin.
