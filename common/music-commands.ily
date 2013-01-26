@@ -168,7 +168,8 @@ smallNotes =
         (note-count 0))
     ;; Add [ beaming directive to the first chord
     (music-map (lambda (event)
-                 (cond ((eqv? (ly:music-property event 'name) 'EventChord)
+                 (cond ((memq (ly:music-property event 'name)
+                              '(EventChord NoteEvent))
                         (cond ((not first-chord-already-found)
                                ;; the first ChordEvent: add start beam
                                (set! first-chord-already-found #t)
@@ -194,16 +195,26 @@ smallNotes =
                                  (ly:make-duration log dot-count 2 3))))
                      event)
                    music)))
-  #{ 
-  \override Voice.NoteHead #'font-size = #-3
-  \override Voice.Stem #'font-size = #-3
-  \override Voice.NoteHead #'font-size = #-3
-  \override Voice.Accidental #'font-size = #-4
+  #{
+  \override Voice.NoteHead.font-size = #-3
+  \override Voice.Flag.font-size = #-3
+  \override Voice.Dots.font-size = #-3
+  \override Voice.Stem.font-size = #-3
+  \override Voice.Stem.length-fraction = #0.8
+  \override Voice.Beam.beam-thickness = #0.384
+  \override Voice.Beam.length-fraction = #0.8
+  \override Voice.Accidental.font-size = #-4
+  \override Voice.AccidentalCautionary.font-size = #-4
   $music
-  \revert Voice.NoteHead #'font-size
-  \revert Voice.Stem #'font-size
-  \revert Voice.NoteHead #'font-size
-  \revert Voice.Accidental #'font-size
+  \revert Voice.NoteHead.font-size
+  \revert Voice.Flag.font-size
+  \revert Voice.Dots.font-size
+  \revert Voice.Stem.font-size
+  \revert Voice.Stem.length-fraction
+  \revert Voice.Beam.beam-thickness
+  \revert Voice.Beam.length-fraction
+  \revert Voice.Accidental.font-size
+  \revert Voice.AccidentalCautionary.font-size
   #})
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -15,5 +15,6 @@
   s8 s1.*3\break s1.*4\break s1.*5 s2. \bar "" \break
   s2. s1.*4\break s1.*2\pageBreak } #})
    (claviers
+    #:score-template "score-nation-clavier1"
     #:instrument "Courante"
-    #:music , #{  #}))
+    #:music , #{ s8 s1.*4\break s1.*5\break s1.*5\break \grace s8 #}))

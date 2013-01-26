@@ -30,3 +30,6 @@
 \includeScore "TroisiemeOrdre/Allemande"
 \pieceTocTitle "Courante"
 \includeScore "TroisiemeOrdre/Courante"
+\pieceTocAndTitle \markup { Seconde Courante \smaller { plus marquée } }
+"Seconde Courante"
+\includeScore "TroisiemeOrdre/Courante"

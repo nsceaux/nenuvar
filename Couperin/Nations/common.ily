@@ -92,3 +92,10 @@ pieceTocTitle =
    (add-toplevel-markup parser (markup #:huge title))
    (add-no-page-break parser)
    (make-music 'Music 'void #t))
+
+pieceTocAndTitle =
+#(define-music-function (parser location title toc-title) (markup? markup?)
+   (add-toc-item parser 'tocPieceMarkup toc-title #f)
+   (add-toplevel-markup parser (markup #:huge title))
+   (add-no-page-break parser)
+   (make-music 'Music 'void #t))
