@@ -60,9 +60,12 @@
   \includeScore "TroisiemeOrdre/CouranteIIbis"
 }
 \bookpart {
-  \paper { page-count = #1 }
+  \paper { page-count = #2 }
   \pieceToc "Sarabande"
   \includeScore "TroisiemeOrdre/Sarabande"
+  \pieceToc "Bourée"
+  \includeScore "TroisiemeOrdre/Bouree"
   \includeScore "TroisiemeOrdre/Sarabandebis"
+  \includeScore "TroisiemeOrdre/Boureebis"
 }
 \markup\null
