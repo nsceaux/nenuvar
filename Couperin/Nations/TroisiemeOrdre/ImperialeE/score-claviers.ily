@@ -1,6 +1,6 @@
 \score {
   \new PianoStaff \with {
-    instrumentName = \markup\larger $(or (*instrument-name*) "")
+    instrumentName = \markup { \larger $(or (*instrument-name*) "") "(1)" }
   } <<
     \new Staff <<
       $(or (*score-extra-music*) (make-music 'Music))
@@ -21,7 +21,7 @@
 \pageBreak
 \score {
   \new PianoStaff \with {
-    instrumentName = \markup\larger $(or (*instrument-name*) "")
+    instrumentName = \markup { \larger $(or (*instrument-name*) "") "(2)" }
   } <<
     \new Staff <<
       $(or (*score-extra-music*) (make-music 'Music))

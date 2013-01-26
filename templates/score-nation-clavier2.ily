@@ -1,6 +1,6 @@
 \score {
   \new PianoStaff \with {
-    instrumentName = \markup\larger $(or (*instrument-name*) "")
+    instrumentName = \markup { \larger $(or (*instrument-name*) "") "(2)" }
   } <<
     \new Staff <<
       $(or (*score-extra-music*) (make-music 'Music))
@@ -8,7 +8,7 @@
     >>
     \new Staff <<
       \global \keepWithTag #'chiffree \includeNotes "basse"
-      \includeFigures "chiffres"
+      \keepWithTag #'chiffree \includeFigures "chiffres"
     >>
   >>
   \layout {

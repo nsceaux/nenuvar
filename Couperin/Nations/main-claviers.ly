@@ -59,4 +59,10 @@
   \includeScore "TroisiemeOrdre/Courantebis"
   \includeScore "TroisiemeOrdre/CouranteIIbis"
 }
+\bookpart {
+  \paper { page-count = #1 }
+  \pieceToc "Sarabande"
+  \includeScore "TroisiemeOrdre/Sarabande"
+  \includeScore "TroisiemeOrdre/Sarabandebis"
+}
 \markup\null

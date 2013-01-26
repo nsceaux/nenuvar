@@ -69,6 +69,11 @@ chif =
 #(define-music-function (parser location music) (ly:music?)
    #{ \tag #'chiffree $music #})
 
+systemPos =
+#(define-music-function (parser location position) (number?)
+   #{ \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details
+      #`((Y-offset . ,position)) #})
+
 %% sections
 ordre =
 #(define-music-function (parser location ordre-title) (string?)

@@ -33,3 +33,5 @@
 \pieceTocAndTitle \markup { Seconde Courante \smaller { plus marquée } }
 "Seconde Courante"
 \includeScore "TroisiemeOrdre/Courante"
+\pieceTocTitle "Sarabande"
+\includeScore "TroisiemeOrdre/Sarabande"
