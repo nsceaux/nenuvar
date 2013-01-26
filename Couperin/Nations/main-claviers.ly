@@ -69,7 +69,13 @@
   \includeScore "TroisiemeOrdre/Boureebis"
 }
 \bookpart {
-  \paper { page-count = #1 }
+  \paper { page-count = #2 }
+  \pieceToc "Gigue"
   \includeScore "TroisiemeOrdre/Gigue"
+}
+\bookpart {
+  \paper { page-count = #2 }
+  \pieceToc "Rondeau"
+  \includeScore "TroisiemeOrdre/Rondeau"
 }
 \markup\null

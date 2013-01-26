@@ -39,3 +39,5 @@
 \includeScore "TroisiemeOrdre/Bouree"
 \pieceTocTitle "Gigue"
 \includeScore "TroisiemeOrdre/Gigue"
+\pieceTocTitle "Rondeau"
+\includeScore "TroisiemeOrdre/Rondeau"
