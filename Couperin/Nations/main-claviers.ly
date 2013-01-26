@@ -68,4 +68,8 @@
   \includeScore "TroisiemeOrdre/Sarabandebis"
   \includeScore "TroisiemeOrdre/Boureebis"
 }
+\bookpart {
+  \paper { page-count = #1 }
+  \includeScore "TroisiemeOrdre/Gigue"
+}
 \markup\null

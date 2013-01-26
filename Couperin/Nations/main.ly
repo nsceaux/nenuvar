@@ -37,3 +37,5 @@
 \includeScore "TroisiemeOrdre/Sarabande"
 \pieceTocTitle "Bourée"
 \includeScore "TroisiemeOrdre/Bouree"
+\pieceTocTitle "Gigue"
+\includeScore "TroisiemeOrdre/Gigue"
