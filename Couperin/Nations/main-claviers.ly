@@ -20,7 +20,14 @@
 }
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markup NOTES...
+  \markuplist\column-lines {
+    \line { NOTES... À FAIRE }
+    \line { nommer les sources }
+    \line { 1er clavecin : dessus1 // basse d'archet + chiffrages }
+    \line { 2nd clavecin : dessus2 // basse chiffrée }
+    \line { ligatures de croches, rythmes identiques (sauf exceptions données dans des notes de bas de page) }
+    \line { donner correspondance agréments }
+  }
 }
 
 \bookpart {
@@ -83,4 +90,8 @@
   \pieceToc "Chaconne"
   \includeScore "TroisiemeOrdre/Chaconne"
 }
-\markup\null
+\bookpart {
+  \paper { page-count = #1 }
+  \pieceToc "Menuet"
+  \includeScore "TroisiemeOrdre/Menuet"
+}

@@ -43,3 +43,5 @@
 \includeScore "TroisiemeOrdre/Rondeau"
 \pieceTocTitle "Chaconne"
 \includeScore "TroisiemeOrdre/Chaconne"
+\pieceTocTitle "Menuet"
+\includeScore "TroisiemeOrdre/Menuet"
