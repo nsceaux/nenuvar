@@ -78,4 +78,9 @@
   \pieceToc "Rondeau"
   \includeScore "TroisiemeOrdre/Rondeau"
 }
+\bookpart {
+  \paper { page-count = #6 }
+  \pieceToc "Chaconne"
+  \includeScore "TroisiemeOrdre/Chaconne"
+}
 \markup\null

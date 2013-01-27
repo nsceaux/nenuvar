@@ -3,10 +3,10 @@
     instrumentName = \markup { \larger $(or (*instrument-name*) "") "(2)" }
   } <<
     \new Staff <<
-      $(or (*score-extra-music*) (make-music 'Music))
       \global \includeNotes "dessus2"
     >>
     \new Staff <<
+      $(or (*score-extra-music*) (make-music 'Music))
       \global \keepWithTag #'chiffree \includeNotes "basse"
       \keepWithTag #'chiffree \includeFigures "chiffres"
     >>
