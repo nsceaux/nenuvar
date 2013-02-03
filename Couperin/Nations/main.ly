@@ -19,6 +19,10 @@
   \table-of-contents
 }
 
+\ordre "Premier Ordre"
+\pieceTocTitle "La Françoise"
+\includeScore "PremierOrdre/FrancoiseA"
+
 \ordre "Troisiéme Ordre"
 \pieceTocTitle "L’Imperiale"
 \includeScore "TroisiemeOrdre/ImperialeA"

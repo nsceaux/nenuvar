@@ -182,8 +182,9 @@ smallNotes =
                  event)
                music)
     ;; Add ] beaming directive to the last chord
-    (set! (ly:music-property last-chord 'elements)
-          (cons end-beam (ly:music-property last-chord 'elements)))
+    (if last-chord
+        (set! (ly:music-property last-chord 'elements)
+              (cons end-beam (ly:music-property last-chord 'elements))))
     ;; If there are 3 notes, add a *2/3 duration factor
     (if (= note-count 3)
         (music-map (lambda (event)

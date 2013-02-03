@@ -31,6 +31,13 @@
 }
 
 \bookpart {
+  \paper { page-count = #1 }
+  \ordre "Premier Ordre"
+  \pieceToc "La Françoise"
+  \includeScore "PremierOrdre/FrancoiseA"
+}
+
+\bookpart {
   \paper { page-count = #2 }
   \ordre "Troisiéme Ordre"
   \pieceToc "L’Imperiale"
