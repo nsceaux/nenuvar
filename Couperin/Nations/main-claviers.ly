@@ -28,13 +28,30 @@
     \line { ligatures de croches, rythmes identiques (sauf exceptions données dans des notes de bas de page) }
     \line { donner correspondance agréments }
   }
+  \pageBreak
+  \markup\null
 }
 
 \bookpart {
   \paper { page-count = #1 }
+  \markup\fill-line\fontsize #4 {
+    \center-column {
+      \larger\larger\line\smallCaps { Les Nations }
+      \line\italic { Sonades, et Suites de Simphonies }
+      \larger\line\smallCaps { en Trio }
+      \line\italic { Par Monsieur Couperin }
+      \smaller\smaller\line { [Concert pour deux clavecins] }
+      \null
+    }
+  }
   \ordre "Premier Ordre"
   \pieceToc "La Françoise"
   \includeScore "PremierOrdre/FrancoiseA"
+  \markup\vspace #15
+}
+\bookpart {
+  \paper { page-count = #2 }
+  \includeScore "PremierOrdre/FrancoiseB"
 }
 
 \bookpart {

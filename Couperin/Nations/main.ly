@@ -22,6 +22,7 @@
 \ordre "Premier Ordre"
 \pieceTocTitle "La Françoise"
 \includeScore "PremierOrdre/FrancoiseA"
+\includeScore "PremierOrdre/FrancoiseB"
 
 \ordre "Troisiéme Ordre"
 \pieceTocTitle "L’Imperiale"

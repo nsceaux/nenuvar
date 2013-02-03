@@ -9,4 +9,4 @@
     #:music , #{ \origVersion { s4 s1*7\break s1*7\break } #})
    (claviers
     #:instrument ,(markup #:center-column ("La" "Françoise"))
-    #:music , #{  #}))
+    #:music , #{ s4 s1*6\break \grace s8 #}))

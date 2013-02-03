@@ -78,7 +78,7 @@ systemPos =
 ordre =
 #(define-music-function (parser location ordre-title) (string?)
   (increase-rehearsal-major-number)
-  (add-page-break parser)
+  ;(add-page-break parser)
   (add-toc-item parser 'tocSceneMarkup ordre-title)
   (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
   (*act-title* ordre-title)
