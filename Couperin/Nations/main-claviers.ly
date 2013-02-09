@@ -32,6 +32,9 @@
   \markup\null
 }
 
+%%%
+%%% La Françoise
+%%%
 \bookpart {
   \paper { page-count = #1 }
   \markup\fill-line\fontsize #4 {
@@ -53,7 +56,14 @@
   \paper { page-count = #2 }
   \includeScore "PremierOrdre/FrancoiseB"
 }
+\bookpart {
+  \paper { page-count = #4 }
+  \includeScore "PremierOrdre/FrancoiseC"
+}
 
+%%%
+%%% L’Impériale
+%%%
 \bookpart {
   \paper { page-count = #2 }
   \ordre "Troisiéme Ordre"
