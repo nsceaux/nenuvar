@@ -19,9 +19,4 @@
   s4. s2.*3 s1\break s1*11\break s1*6\break s1*6\break
   s1*6 s2 \bar "" \break } #})
    (clavier1)
-   (claviers
-    #:music , #{
-  s4. s2.*5\break s2.*5\break s2.*5\break s2.*5\break
-  s2.*5\break s2.*4\break s2. s1*5\pageBreak
-  \grace s8 s1*6\break s1*4\break s1*4\break
-  s1*4\break s1*4\break s1*4\break s1*3 s2\pageBreak #}))
+   (clavier2))

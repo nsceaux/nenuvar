@@ -3,6 +3,7 @@
 \defineBarLine ":!." #'(":!." "" " !.")
 \defineBarLine ":!|" #'(":!|" "" " !|")
 \defineBarLine ":||:" #'(":||:" "" " || ")
+\defineBarLine "|;|" #'("|;|" "" "| |")
 
 %% Breathing signs from Hippolyte et Aricie
 cesure = {

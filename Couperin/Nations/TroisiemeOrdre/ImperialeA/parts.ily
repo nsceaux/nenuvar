@@ -16,5 +16,5 @@
   s1*3 s2 \bar "" \break s2 s1*4 s2 \bar "" \break
   s2 s1*4 s2 \bar "" \break s2 s1*4 s2 \bar "" \break
   s2 s1*4\break s1*3\break } #})
-   (claviers #:music , #{ s1*3\break s1*3\break #}
-             #:instrument "L’Imperiale"))
+   (clavier1)
+   (clavier2))

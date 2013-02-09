@@ -7,9 +7,5 @@
    #:music , #{ \origVersion { s1.*5\break s1.*10\break s1.*9\break } #})
   (basse-chiffree
    #:music , #{ \origVersion { s1.*10\break s1.*9\break s1.*5\break } #})
-   (claviers #:music , #{
-s1.*5\break
-\systemPos #30 s1.*5\break
-\systemPos #60 s1.*5\break
-\systemPos #90 s1.*4\break
-\systemPos #120 s1.*5\pageBreak #}))
+   (clavier1)
+   (clavier2))

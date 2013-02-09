@@ -1,14 +1,19 @@
 \score {
-  \new PianoStaff \with {
-    instrumentName = \markup { \larger $(or (*instrument-name*) "") "(1)" }
-  } <<
-    \new Staff <<
-      \global \includeNotes "dessus1"
+  <<
+    \new Staff \with { \tinyStaff } <<
+      \global \includeNotes "dessus2"
     >>
-    \new Staff <<
-      $(or (*score-extra-music*) (make-music 'Music))
-      \global \keepWithTag #'archet \includeNotes "basse"
-      \keepWithTag #'archet \includeFigures "chiffres"
+    \new PianoStaff \with {
+      instrumentName = \markup\larger $(or (*instrument-name*) "")
+    } <<
+      \new Staff \with { \consists "Metronome_mark_engraver" } <<
+        \global \includeNotes "dessus1"
+      >>
+      \new Staff <<
+        $(or (*score-extra-music*) (make-music 'Music))
+        \global \keepWithTag #'archet \includeNotes "basse"
+        \keepWithTag #'archet \includeFigures "chiffres"
+      >>
     >>
   >>
   \layout {
@@ -16,5 +21,6 @@
                   largeindent
                   (or (*score-indent*) smallindent))
     ragged-last = #(*score-ragged*)
+    \context { \Score \remove "Metronome_mark_engraver" }
   }
 }

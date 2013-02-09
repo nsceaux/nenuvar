@@ -19,6 +19,5 @@
   s2*13\break s2*11\pageBreak
   s2*7\break
    } #})
-   (claviers #:music , #{
-  s2*8\break s2*9\break s2*9\break
-  s2*11\break s2*10\break s2*10\break #}))
+   (clavier1)
+   (clavier2))

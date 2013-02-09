@@ -1,1 +1,0 @@
-../Courante/global.ily

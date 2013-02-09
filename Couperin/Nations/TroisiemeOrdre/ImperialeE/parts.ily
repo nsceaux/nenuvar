@@ -18,10 +18,5 @@
    #:music , #{ \origVersion {
   s2*25\break s2*19\break s2*11\break s2*10\break s2*10\break
   s2*9\break s2*9\break s2*8\break s2*9\break s2*3\pageBreak } #})
-   (claviers #:score "score-claviers"
-             #:music , #{
-  s2*8\break s2*7\break s2*6\break s2*6\break s2*7\break
-  s2*9\break s2*7\break s2*6\break s2*7\pageBreak
-  s2*7\break s2*6\break s2*6\break s2*6\break
-  s2*6\break s2*6\break s2*6\break
-     #}))
+   (clavier1)
+   (clavier2))

@@ -19,10 +19,5 @@
   s4.*8\break s4.*15\break s4.*15\break s4.*12\break
   s4.*11\break s4.*12\break s4.*16\break
   s1.*9\break s1.*10\break s1.*10\pageBreak } #})
-   (claviers #:music , #{
-  s4.*7\break s4.*8\break s4.*8\break s4.*8\break
-  s4.*8\break s4.*7\break s4.*8\break s4.*8\break
-  s4.*7\break s4.*8\break s4.*8\break
-  s4.*4 s1.*3\break s1.*5\break s1.*5\break
-  s1.*5\break s1.*5\break s1.*6\pageBreak
-   #}))
+   (clavier1)
+   (clavier2))

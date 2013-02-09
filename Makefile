@@ -1488,12 +1488,18 @@ Couperin/Nations:
 	-o $(OUTPUT_DIR)/Nations  \
 	Couperin/Nations/main.ly
 .PHONY: Couperin/Nations
-# Deux claviers
-Couperin/Nations-claviers:
+# Premier clavecin
+Couperin/Nations-clavier1:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/Nations-claviers -dpart=claviers  \
-	Couperin/Nations/main-claviers
-.PHONY: Couperin/Nations-claviers
+	-o $(OUTPUT_DIR)/Nations-clavier1 -dpart=clavier1  \
+	Couperin/Nations/part.ly
+.PHONY: Couperin/Nations-clavier1
+# Premier clavecin
+Couperin/Nations-clavier2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Nations-clavier2 -dpart=clavier2  \
+	Couperin/Nations/part.ly
+.PHONY: Couperin/Nations-clavier2
 # Basse d'archet
 Couperin/Nations-basse-archet:
 	$(LILYPOND_CMD) \
@@ -1504,7 +1510,8 @@ Couperin/Nations-basse-archet:
 Couperin/Nations-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Couperin/Nations
 	@if [ -e $(OUTPUT_DIR)/Nations.pdf ]; then mv -fv $(OUTPUT_DIR)/Nations.pdf $(DELIVERY_DIR)/Couperin/Nations; fi
-	@if [ -e $(OUTPUT_DIR)/Nations-claviers.pdf ]; then mv -fv $(OUTPUT_DIR)/Nations-claviers.pdf $(DELIVERY_DIR)/Couperin/Nations; fi
+	@if [ -e $(OUTPUT_DIR)/Nations-clavier1.pdf ]; then mv -fv $(OUTPUT_DIR)/Nations-clavier1.pdf $(DELIVERY_DIR)/Couperin/Nations; fi
+	@if [ -e $(OUTPUT_DIR)/Nations-clavier2.pdf ]; then mv -fv $(OUTPUT_DIR)/Nations-clavier2.pdf $(DELIVERY_DIR)/Couperin/Nations; fi
 	@if [ -e $(OUTPUT_DIR)/Nations-basse-archet.pdf ]; then mv -fv $(OUTPUT_DIR)/Nations-basse-archet.pdf $(DELIVERY_DIR)/Couperin/Nations; fi
 	@if [ -e $(OUTPUT_DIR)/Nations-1.midi ]; then tar zcf $(DELIVERY_DIR)/Couperin/Nations/Nations-midi.tar.gz $(OUTPUT_DIR)/Nations.midi $(OUTPUT_DIR)/Nations-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/Nations.midi ]; then cp $(OUTPUT_DIR)/Nations.midi $(DELIVERY_DIR)/Couperin/Nations/ ; fi
 	git archive --prefix=Nations/ HEAD Couperin/Nations common out templates Makefile README | gzip > $(DELIVERY_DIR)/Couperin/Nations/Nations.tar.gz
@@ -1514,7 +1521,8 @@ Couperin/Nations-clean:
 
 Couperin/Nations-all: \
 	Couperin/Nations \
-	Couperin/Nations-claviers \
+	Couperin/Nations-clavier1 \
+	Couperin/Nations-clavier2 \
 	Couperin/Nations-basse-archet\
 	Couperin/Nations-delivery\
 	Couperin/Nations-clean

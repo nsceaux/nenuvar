@@ -91,7 +91,7 @@ alternatives =
    (if (eqv? #t (ly:get-option 'baroque-repeats))
        (let ((repeat-bar (if (string? (ly:get-option 'baroque-repeat-bar))
                              (ly:get-option 'baroque-repeat-bar)
-                             "|:|")))
+                             "|;|")))
          #{ \forceCloseVoltaBracket
             \set Score.repeatCommands = #'((volta " "))
             $first \bar $repeat-bar \noBreak

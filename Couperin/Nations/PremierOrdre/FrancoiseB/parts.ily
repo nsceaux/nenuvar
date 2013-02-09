@@ -17,7 +17,5 @@
     #:music , #{ \origVersion {
   s1*4 s2 \bar "" \break s2 s1*5 s2 \bar "" \break s2 s1*5\break
   s1*7\break s1*5 s2 \bar "" \break s2 s1*6\break s1*2 s4.\pageBreak } #})
-   (claviers
-    #:music , #{
-  s1*5\break s1*6\break s1*5\break s1*5\break
-  s1*5\break s1*5\break \grace s8 s1*6 s4.\pageBreak #}))
+   (clavier1)
+   (clavier2))
