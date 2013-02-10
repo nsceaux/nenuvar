@@ -1,4 +1,4 @@
-\clef "treble" fad' la'8( sol') fad'( mi') |
+\clef "treble" fad'4 la'8( sol') fad'( mi') |
 fad'4 la'8( sol') fad'( mi') |
 fad'4( mi'8)\prall re' dod' mi' |
 re'2 re'4 \breathe |

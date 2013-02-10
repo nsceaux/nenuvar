@@ -19,18 +19,64 @@
   \override-lines #'(column-number . 2)
   \table-of-contents
 }
+%% Notes
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplist\column-lines {
-    \line { NOTES... À FAIRE }
-    \line { nommer les sources }
-    \line { 1er clavecin : dessus1 // basse d'archet + chiffrages }
-    \line { 2nd clavecin : dessus2 // basse chiffrée }
-    \line { ligatures de croches, rythmes identiques (sauf exceptions données dans des notes de bas de page) }
-    \line { donner correspondance agréments }
+  \markup\fill-line {
+    \line-width-ratio #0.9 \column {
+      \act { NOTES }
+      \fill-line {
+        \line-width-ratio #0.68 \column {
+          \vspace #1.8
+          \paragraph {
+            Cette édition présente \italic { Les Nations } de François
+            Couperin sous la forme de concert à deux clavecins. Les sources
+            qui ont été utilisées pour la réaliser sont les quatre livres
+            publiés par l’auteur et Boivin, à Paris en 1726 : parties
+            séparées de premier dessus, second dessus, basse d’archet,
+            basse chiffrée.
+          }
+          \paragraph {
+            La première partie de clavecin est constituée des parties de
+            premier dessus et de basse d’archet, à laquelle les chiffrages
+            ont été ajoutés ; la seconde, des parties de second dessus et
+            de basse chiffrée.
+          }
+          \paragraph {
+            Lors de la copie, les notes, ligatures de croches et rythmes ont
+            été reproduits à l’identique, sauf exceptions indiquées dans des
+            notes de bas de page.  Les altérations non-explicites sont
+            suggérées entre parenthèses.  Les figures suivantes montrent
+            la correspondance entre les agréments et signes d’interprétation
+            de l’édition originale et la représentation choisie pour cette
+            édition :
+          }
+        }
+        \general-align #Y #UP \epsfile #X #30 #"Couperin/Nations/titre.eps"
+      }
+      \general-align #Y #UP \epsfile #X #105 #"Couperin/Nations/agrements.eps"
+      \score {
+        \new Staff {
+          \time 2/4 \clef "treble" \key la \minor
+          la''16[ sol'' la'' sib'' sol'' fa'' sol'' la''] |
+          fa'' mi'' fa'' sol'' \afterGrace mi''4(\prall re''8) |
+          re''8\breathe re''[ la' si'] |
+          \appoggiatura si'8 do''4\mordent la'4\prall\turn |
+          \appoggiatura la'8 sib'4\mordent sol'\prall\turn |
+          la'4 fa'\prall\turn |
+          sol' mi'\prall\turn |
+          fa'16 mi' fa' sol' la'4~ |
+          \custosNote la'8
+        }
+        \layout {
+          indent = 0
+          line-width = 104
+          \context { \Staff \remove "Time_signature_engraver" }
+        }
+      }
+    }
   }
 }
-
 %%%
 %%% La Françoise
 %%%

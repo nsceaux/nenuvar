@@ -1,4 +1,4 @@
-\clef "bass" re' r la |
+\clef "bass" re'4 r la |
 re' r la |
 re' la la, |
 re2 re,4 \arch\breathe |
