@@ -27,7 +27,7 @@
       \act { NOTES }
       \fill-line {
         \line-width-ratio #0.68 \column {
-          \vspace #1.8
+          \null
           \paragraph {
             Cette édition présente \italic { Les Nations } de François
             Couperin sous la forme de concert à deux clavecins. Les sources
@@ -45,7 +45,8 @@
           \paragraph {
             Lors de la copie, les notes, ligatures de croches et rythmes ont
             été reproduits à l’identique, sauf exceptions indiquées dans des
-            notes de bas de page.  Les altérations non-explicites sont
+            notes de bas de page.  Les altérations sur une même mesure ne sont
+            pas répétées, et les altérations non-explicites sont
             suggérées entre parenthèses.  Les figures suivantes montrent
             la correspondance entre les agréments et signes d’interprétation
             de l’édition originale et la représentation choisie pour cette
