@@ -19,5 +19,5 @@
   s4.*8\break s4.*15\break s4.*15\break s4.*12\break
   s4.*11\break s4.*12\break s4.*16\break
   s1.*9\break s1.*10\break s1.*10\pageBreak } #})
-   (clavier1)
+   (clavier1 #:music , #{ s4.*74\pageBreak #})
    (clavier2))

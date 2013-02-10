@@ -1492,13 +1492,13 @@ Couperin/Nations:
 Couperin/Nations-clavier1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Nations-clavier1 -dpart=clavier1  \
-	Couperin/Nations/part.ly
+	Couperin/Nations/main-claviers
 .PHONY: Couperin/Nations-clavier1
 # Premier clavecin
 Couperin/Nations-clavier2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/Nations-clavier2 -dpart=clavier2  \
-	Couperin/Nations/part.ly
+	Couperin/Nations/main-claviers
 .PHONY: Couperin/Nations-clavier2
 # Basse d'archet
 Couperin/Nations-basse-archet:

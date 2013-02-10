@@ -332,8 +332,10 @@ O Emmanuel")
         #:key "Couperin/Nations"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=xx"
         #:main ((#f "Conducteur"))
-        #:parts ((clavier1 "Premier clavecin" #:part clavier1)
-                 (clavier2 "Premier clavecin" #:part clavier2)
+        #:parts ((clavier1 "Premier clavecin" #:part clavier1
+                           #:score-file "main-claviers")
+                 (clavier2 "Premier clavecin" #:part clavier2
+                           #:score-file "main-claviers")
                  (basse-archet "Basse d'archet" #:part basse-archet
                                #:score-file "main")))
        ("L'Art de toucher le clavecin"

@@ -49,10 +49,14 @@
    (basse-chiffree
     "Basse chifrée" () (#:notes "basse" #:tag-notes chiffree #:clef "bass"
                                 #:score-template "score-basse-continue2"))
-   (clavier1 "Concert à deux clavecins — Premier clavecin" ()
-             (#:score-template "score-nation-clavier1"))
-   (clavier2 "Concert à deux clavecins — Second clavecin" ()
-             (#:score-template "score-nation-clavier2")))
+   (clavier1 , #{ \markup\center-column {
+  "Concert à deux clavecins"
+  "Premier clavecin" } #}
+                 () (#:score-template "score-nation-clavier1"))
+   (clavier2 , #{ \markup\center-column {
+  "Concert à deux clavecins"
+  "Second clavecin" } #}
+             () (#:score-template "score-nation-clavier2")))
 
 %%% Figured bass
 includeFigures = 

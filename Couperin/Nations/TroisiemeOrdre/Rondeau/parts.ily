@@ -15,5 +15,7 @@
    #:music , #{ \origVersion {
   s2 s1*5 s2 \bar "" \break s2 s1*9\break
   s1*8\break s1*9\break s1*8\break } #})
-   (clavier1)
-   (clavier2))
+   (clavier1 #:instrument "Rondeau"
+             #:music , #{ s2 s1*7 s2\break s2 s1*7 s2\break s2 s1*12\break #})
+   (clavier2 #:instrument "Rondeau"
+             #:music , #{ s2 s1*7 s2\break s2 s1*7 s2\break s2 s1*12\break #}))

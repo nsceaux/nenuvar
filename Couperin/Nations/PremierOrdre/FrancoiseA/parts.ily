@@ -7,5 +7,5 @@
     #:music , #{ \origVersion { s4 s1*7\break s1*7\break } #})
    (basse-chiffree
     #:music , #{ \origVersion { s4 s1*7\break s1*7\break } #})
-   (clavier1)
-   (clavier2))
+   (clavier1 #:instrument , #{ \markup\center-column { La Françoise } #})
+   (clavier2 #:instrument , #{ \markup\center-column { La Françoise } #}))

@@ -28,5 +28,7 @@
   s2.*11\break s2.*11\break s2.*11\break s2.*11\pageBreak
   s2.*8\break s2.*10\break s2.*9\break s2.*9\break
   s2.*11\break s2.*12\break s2.*9\break } #})
-   (clavier1)
-   (clavier2))
+   (clavier1 #:instrument "Chaconne"
+             #:music , #{ s16*5 s2.*64\pageBreak s2.*67\pageBreak #})
+   (clavier2 #:instrument "Chaconne"
+             #:music , #{ s16*5 s2.*66\pageBreak s2.*65\pageBreak #}))

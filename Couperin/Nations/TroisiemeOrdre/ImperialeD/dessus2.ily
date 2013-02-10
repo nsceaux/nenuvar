@@ -37,7 +37,7 @@ re''8 dod''\prall mi'' |
   Source : \raise #3.5 \score {
     \new Staff {
       \tinyQuote \key fa \major \time 3/8
-      la'16\breathe fa'8*1/2[( sol'16 fa') sol'8]~ |
+      la'16\breathe fad'8*1/2[( sol'16 fad') sol'8]~ |
       sol'16 mi'( fa' mi' fa'8)~ |
       fa'16 re'( mi' re' mi'8)~ |
       mi'16. fa'16*1/2 re'8\prall dod'16 re' |

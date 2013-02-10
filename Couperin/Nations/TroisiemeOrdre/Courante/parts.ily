@@ -14,5 +14,5 @@
    #:music , #{ \origVersion {
   s8 s1.*3\break s1.*4\break s1.*5 s2. \bar "" \break
   s2. s1.*4\break s1.*2\pageBreak } #})
-   (clavier1)
-   (clavier2))
+   (clavier1 #:instrument "Courante")
+   (clavier2 #:instrument "Courante"))
