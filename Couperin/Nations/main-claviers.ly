@@ -102,6 +102,7 @@
 }
 \bookpart {
   \includeScore "PremierOrdre/FrancoiseC"
+  \includeScore "PremierOrdre/Air"
 }
 
 %%%
