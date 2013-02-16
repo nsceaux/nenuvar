@@ -104,6 +104,9 @@
   \includeScore "PremierOrdre/FrancoiseC"
   \includeScore "PremierOrdre/Air"
 }
+\bookpart {
+  \includeScore "PremierOrdre/Allemande"
+}
 
 %%%
 %%% L’Impériale
