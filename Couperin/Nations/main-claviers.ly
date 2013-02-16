@@ -107,6 +107,12 @@
 \bookpart {
   \includeScore "PremierOrdre/Allemande"
 }
+\bookpart {
+  \includeScore "PremierOrdre/Courante"
+}
+\bookpart {
+  \includeScore "PremierOrdre/CouranteII"
+}
 
 %%%
 %%% L’Impériale
