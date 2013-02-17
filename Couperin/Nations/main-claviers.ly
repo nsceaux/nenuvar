@@ -125,6 +125,10 @@
   \pieceToc "Gigue"
   \includeScore "PremierOrdre/Gigue"
 }
+\bookpart {
+  \pieceToc "Chaconne ou Passacaille"
+  \includeScore "PremierOrdre/Passacaille"
+}
 
 %%%
 %%% L’Impériale
