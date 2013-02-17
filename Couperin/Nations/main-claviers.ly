@@ -47,13 +47,19 @@
             été reproduits à l’identique, sauf exceptions indiquées dans des
             notes de bas de page.  Les altérations sur une même mesure ne sont
             pas répétées, et les altérations non-explicites sont
-            suggérées entre parenthèses.  Les figures suivantes montrent
+            suggérées entre parenthèses.
+            Lors des reprises, les mesures de première et secondes fois
+            sont explicitées.
+            Les figures suivantes montrent
             la correspondance entre les agréments et signes d’interprétation
             de l’édition originale et la représentation choisie pour cette
             édition :
           }
         }
-        \general-align #Y #UP \epsfile #X #30 #"Couperin/Nations/titre.eps"
+        \column {
+          \null
+          \general-align #Y #UP \epsfile #X #30 #"Couperin/Nations/titre.eps"
+        }
       }
       \general-align #Y #UP \epsfile #X #105 #"Couperin/Nations/agrements.eps"
       \score {
@@ -128,7 +134,16 @@
 \bookpart {
   \pieceToc "Chaconne ou Passacaille"
   \includeScore "PremierOrdre/Passacaille"
+}
+\bookpart {
+  \pieceToc "Gavote"
   \includeScore "PremierOrdre/Gavote"
+}
+\bookpart {
+  \pieceToc "Menuet"
+  \includeScore "PremierOrdre/Menuet"
+  \actEnd "Fin de premier ordre de Trios"
+  \pageBreak\markup\null
 }
 
 %%%
