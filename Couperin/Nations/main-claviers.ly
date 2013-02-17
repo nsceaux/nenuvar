@@ -128,6 +128,7 @@
 \bookpart {
   \pieceToc "Chaconne ou Passacaille"
   \includeScore "PremierOrdre/Passacaille"
+  \includeScore "PremierOrdre/Gavote"
 }
 
 %%%
