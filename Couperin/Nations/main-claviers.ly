@@ -118,7 +118,12 @@
   \includeScore "PremierOrdre/CouranteII"
 }
 \bookpart {
+  \pieceToc "Sarabande"
   \includeScore "PremierOrdre/Sarabande"
+}
+\bookpart {
+  \pieceToc "Gigue"
+  \includeScore "PremierOrdre/Gigue"
 }
 
 %%%
