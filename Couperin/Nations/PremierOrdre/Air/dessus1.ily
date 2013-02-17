@@ -17,13 +17,13 @@ r8 r mi''( re'')\prall si' re'' |
 dod''4\prall fad''8 re'' si' re''16 mi'' |
 fad''4 \breathe si'8 sold'\prall mi' mi'' |
 dod''[\prall \appoggiatura si' lad' si'8.] dod''16[ dod''8.\prall si'16] |
-si'4 r8 sol''\rest sol''\rest si'' |
-sold''\prall mi'' r  sol''\rest sol''\rest la'' |
-fad''\prall re'' r sol''\rest sol''\rest sol'' |
+si'4 r8 fad''\rest fad''\rest si'' |
+sold''\prall mi'' r  fad''\rest fad''\rest la'' |
+fad''\prall re'' r fad''\rest fad''\rest sol'' |
 mi''16 fa'' mi'' re'' do'' si' la'\prall sol' la' si' do'' la' |
 re''4. do''16\prall si' la'8.\prall sol'16 |
-sol'4 r8 sol''\rest sol''\rest sol'' |
-fad''\prall re'' mi''\rest r r re'' |
+sol'4 r8 fad''\rest fad''\rest sol'' |
+fad''\prall re'' re''\rest r r re'' |
 do''\prall la' do''( si')\prall si' \breathe sol'' |
 fad''\prall fad'' sol'' \appoggiatura fad''8 mi''16( fad'' fad''8.\prall mi''16) |
 red''4\prall \breathe fad''8 red''\prall si' r |
@@ -47,7 +47,7 @@ fad''\prall fad'' \breathe si'' sol''\prall mi'' si'' |
 si''4.~ si''~ |
 si''~ si''~ |
 si''~ si''4( la''8)\prall |
-\appoggiatura la''8 si''4\mordent sol''8\rest r r si'' |
+\appoggiatura la''8 si''4\mordent fad''8\rest r r si'' |
 la''16\prall sol'' la'' si'' la'' si'' sol'' fad'' sol'' la'' sol'' la'' |
 fad''8\prall fad'' \breathe si'' mi''16 red'' mi'' fad'' sol''8 |
 fad''\prall mi'' \breathe si'' mi''16 red'' mi'' fad'' sol''8 |

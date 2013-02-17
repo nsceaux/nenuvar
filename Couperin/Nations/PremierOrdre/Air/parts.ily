@@ -19,6 +19,9 @@
   s2 s1*9\break s1*6 s2.*6\pageBreak
   s2.*11\break s2.*9\break s2.*7 s4.\bar "" \break s4. s2.*5\break } #})
    (clavier1 #:instrument "Air"
-             #:music , #{ s2 s1*15 s2.*2\pageBreak #})
+             #:music , #{
+s2 s1*13\pageBreak
+s1*2 s2.*2\break s2.*4\break s2.*4\break s2.*4\break s2.*4\break
+   #})
    (clavier2 #:instrument "Air"
               #:music , #{ s2 s1*15 s2.*6\pageBreak #}))

@@ -1,8 +1,6 @@
 \score {
   <<
-    \new Staff \with { \tinyStaff } <<
-      \global \includeNotes "dessus1"
-    >>
+    \new Staff << \staffSize #-3 \global \includeNotes "dessus1" >>
     \new PianoStaff \with {
       instrumentName = \markup\larger $(or (*instrument-name*) "")
     } <<

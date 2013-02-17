@@ -102,16 +102,23 @@
 }
 \bookpart {
   \includeScore "PremierOrdre/FrancoiseC"
+  \pieceToc "Air"
   \includeScore "PremierOrdre/Air"
 }
 \bookpart {
+  \pieceToc "Allemande"
   \includeScore "PremierOrdre/Allemande"
 }
 \bookpart {
+  \pieceToc "Premiere Courante"
   \includeScore "PremierOrdre/Courante"
 }
 \bookpart {
+  \pieceToc "Seconde Courante"
   \includeScore "PremierOrdre/CouranteII"
+}
+\bookpart {
+  \includeScore "PremierOrdre/Sarabande"
 }
 
 %%%
