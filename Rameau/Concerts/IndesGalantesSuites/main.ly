@@ -12,7 +12,7 @@
       \smaller\smaller "Suites d’orchestre"
     }
     poet = ##f
-    editions = ##f
+    editions = "Conducteur"
   }
   \markup \null
 }
@@ -20,6 +20,7 @@
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \markuplist
+  \line-width-ratio-lines #0.7
   \abs-fontsize-lines #9
   \override-lines #'(use-rehearsal-numbers . #t)
   \override-lines #'(column-number . 1)
