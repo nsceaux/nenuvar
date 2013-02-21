@@ -1,26 +1,33 @@
-\include "Rameau/Opera/IndesGalantes/common.ily"
+#(ly:set-option 'indes-version 'v1735)
+\include "Rameau/Opera/IndesGalantesCommon/common.ily"
+\include "common/simphonie-du-marais.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Title page
 \bookpart {
-  \header {
-    poet = #f
-    title = \markup \left-align \center-column {
-      "Les Indes Galantes"
-      \fontsize #-4 "Suites"
-    }
-  }
   \paper { #(define page-breaking ly:minimal-breaking) }
-
-  %% Title page
+  \header {
+    title = \markup\center-column {
+      "Les Indes Galantes"
+      \smaller\smaller "Suites d’orchestre"
+    }
+    poet = ##f
+    editions = ##f
+  }
   \markup \null
-  \pageBreak
 }
 
-%%% CINQUIÈME SUITE
-\bookpart {
-  \act "Cinquième Suite" % en ré
-  \pieceTocTitleNb "5-1" "Air pour deux guerriers portant les drapeaux" \includeScore "ACCair"
-  \pieceTocTitleNb "5-2" "Air pour les amants et amantes"               \includeScore "ACEair"
-  \pieceTocTitleNb "5-3" "Menuet I/II"                                  \includeScore "DFDmenuet"
-  \pieceTocTitleNb "5-4" "Chaconne"                                     \includeScore "DFFchaconne"
-}
+\act "Second Concert"
+\pieceTocTitleNb "2-1" "Air pour les Guerriers portans les drapeaux"
+\includeScore "ACCair"
+\markup\vspace #35
+
+\act "Entrée les Sauvages"
+\pieceTocTitleNb "5-2" "Menuets"
+\includeScore "DFDmenuet" \noPageTurn
+\includeScore "DFEmenuet"
+\markup\vspace #20
+\pageBreak
+
+\pieceTocTitleNb "5-3" "Chaconne"
+\includeScore "DFGchaconne"
