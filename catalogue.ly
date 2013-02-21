@@ -396,36 +396,17 @@ O Emmanuel")
                  (parties "Hautes-contre et Tailles")
                  (basse "Basses")
                  (basse-continue "Basse continue")))
-       ("Les Indes Galantes (175x)"
-        #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 175x.")
-        #:key "Rameau/Opera/IndesGalantes175x"
-        #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
-        #:main ((urtext "Version urtext" #:options "-durtext")
-                (concert "Version de concert"))
-        #:parts ((dessus "Violons, Flûtes, Hautbois")
-                 (trompette "Trompette" #:score-file "part-tt.ly")
-                 (haute-contre "Hautes-contre")
-                 (taille "Tailles")
-                 (basse "Basses")
-                 (timbales "Timbales" #:score-file "part-tt.ly")))
-       ("Suite des Indes Galantes"
+       ("Les Indes Galantes — Suites pour orchestre"
         #:description ,(markup #:wordwrap-string  "Cinq suites pour orchestre tirées des Indes Galantes.")
         #:key "Rameau/Concerts/IndesGalantesSuites"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
-        #:main ((#f "Conducteur")
-                (concert #f #:options "-d use-rehearsal-numbers"))
-        #:parts ((flute1 "Flûte I")
-                 (flute2 "Flûte II")
-                 (hautbois1 "Hautbois I")
-                 (hautbois2 "Hautbois II")
-                 (trompette "Trompette" #:score-file "part-tt.ly")
-                 (basson "Basson")
-                 (violon1 "Violon I")
-                 (violon2 "Violon II")
-                 (haute-contre "Haute-contre")
-                 (taille "Taille")
+        #:main ((#f "Conducteur"))
+        #:parts ((dessus "Violons, Flûtes, Hautbois")
+                 (trompette-timbales "Trompette et Timbales"
+                                     #:score-file "part-tt.ly")
+                 (parties "Hautes-contre et Tailles")
                  (basse "Basses")
-                 (timbales "Timbales" #:score-file "part-tt.ly")))
+                 (basse-continue "Basse continue")))
        ("Les Fêtes de Ramire"
         #:description ,(markup #:wordwrap-string  "Acte de ballet, livret de Voltaire, 1745.")
         #:key "Rameau/Opera/lesFetesDeRamire"

@@ -40,7 +40,7 @@ sib8 la sol fa mib re do sib, |
 \origVersion { \custosNote sol2 s }
 
 %% 2eme couplet
-\footnoteHere\markup {
+\footnoteHere #'(0 . 0) \markup {
   Source A134, mesures \orig-version { 34 à 39, }
   \mod-version { 33 à 38, } basse : \raise #4 \score {
     \new Staff {

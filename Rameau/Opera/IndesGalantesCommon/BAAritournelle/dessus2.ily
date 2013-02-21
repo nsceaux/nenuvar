@@ -4,7 +4,7 @@ R1*3 |
 r2 r4 la'8 si' |
 do''4 do'' re' si' |
 do' la'2 si'8 do'' |
-re''4 si \footnoteHere\markup {
+re''4 si \footnoteHere #'(0 . 0) \markup {
   Source : \raise#3.5 \score {
     { \tinyQuote \clef "french" \key re \minor \time 2/2
       re''4 si do'8 fa'' mi'' re'' | }
@@ -48,7 +48,7 @@ sol'' la''8 sol'' fa''4\trill mi''8 fa'' |
   re'' la' la''2~ |
   la''4 sol''8 fa'' mi'' re'' dod'' re'' |
   mi''4 la' sol' mi' |
-  fa' re'' \footnoteHere\markup {
+  fa' re'' \footnoteHere #'(0 . 0) \markup {
     Source : \raise #4 \score {
       { \tinyQuote \key re \minor \time 2/2 \clef "french"
         fa'4 re'' do' dod''\trill }

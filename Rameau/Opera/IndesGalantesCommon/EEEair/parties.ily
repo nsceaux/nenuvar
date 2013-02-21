@@ -41,7 +41,7 @@ mi'4. r4 r8 |
 >> mi'4 mi'8 |
 mi'8 mi'16 re' dod' si la8 r
 %%%
-\footnoteHere\markup {
+\footnoteHere #'(0 . 0) \markup {
   Partie laissée vide, jusqu'à la mesure 36.
 }
 \new CueVoice {

@@ -34,7 +34,7 @@ mib4 re2 |
 \vA do2.~ \vB << \origVersion { do2~ do4~ } \modVersion do2.~ >> |
 do4 mib8 do sol4. do8 |
 sol,4 r r mi, |
-\footnoteHere\markup {
+\footnoteHere #'(0 . 0) \markup {
   Les signes \natural sur les notes \italic ré, mesures 37 à 42,
   semblent avoir été ajoutés postérieurement, d'une autre main.
 }

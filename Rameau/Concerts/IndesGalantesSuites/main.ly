@@ -9,8 +9,10 @@
   \header {
     title = \markup\center-column {
       "Les Indes Galantes"
-      "Suites d’orchestre"
+      \smaller\smaller "Suites d’orchestre"
     }
+    poet = ##f
+    editions = ##f
   }
   \markup \null
 }
@@ -18,10 +20,10 @@
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \markuplist
-  \abs-fontsize-lines #7
+  \abs-fontsize-lines #9
   \override-lines #'(use-rehearsal-numbers . #t)
-  \override-lines #'(column-number . 2)
+  \override-lines #'(column-number . 1)
   \table-of-contents
 }
 
-\include "Rameau/Concerts/IndesGalatesSuites/body.ily"
+\include "Rameau/Concerts/IndesGalantesSuites/body.ily"

@@ -2,7 +2,7 @@
   <<
     \setMusic #'group <<
       \new Staff <<
-        \footnoteHere\markup\justify {
+        \footnoteHere #'(0 . 0) \markup\justify {
           La source principale ne contient pas cet orage, qui existe
           néanmoins sur les parties séparées de second violon et de
           basse, retranscrites ici en taille normale. Les autres

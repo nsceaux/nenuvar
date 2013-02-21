@@ -24,7 +24,7 @@
     \modVersion\new StaffGroupNoBar <<
       \new StaffGroupNoBracket <<
         \new Staff <<
-          \footnoteHere\markup\wordwrap {
+          \footnoteHere #'(0 . 0) \markup\wordwrap {
             Cet air ne figure pas dans le livret original.
           }
           \instrumentName "Violons"

@@ -15,7 +15,7 @@ la r |
   <<
     s1*10
     \modVersion {
-      \footnoteHere\markup {
+      \footnoteHere #'(0 . 0) \markup {
         Source : mesures 16 à 25 des hautes-contre et tailles laissées vides.
       }
       \ru#10 s1

@@ -18,7 +18,7 @@ do'' dod''-\vA\trill re'' re' |
   re'2. re4 |
   sol4. fa8 mi4.\trill re8 |
   la2
-  \footnoteHere\markup {
+  \footnoteHere #'(0 . 0) \markup {
     Source : portée de haute-contre et taille laissée vide à partir de
     cette mesure
   }

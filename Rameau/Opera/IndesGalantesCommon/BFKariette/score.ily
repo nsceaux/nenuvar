@@ -35,7 +35,7 @@
     \modVersion\new StaffGroupNoBar <<
       \new StaffGroupNoBracket <<
         \new Staff <<
-          \footnoteHere\markup\wordwrap {
+          \footnoteHere #'(0 . 0) \markup\wordwrap {
             Source : il est noté en haut de la page, au début de
             l'ariette :
             \italic {
