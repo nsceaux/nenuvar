@@ -3,7 +3,7 @@
 \time 3/4
 \midiTempo #48
 \partial 4 s4 \mark "A" s2.*10
-\bar "|:" \mark "B" \grace s8 s2.*6 \alternatives s2. s2.
+\bar ".|:" \mark "B" \grace s8 s2.*6 \alternatives s2. s2.
 s2.*11 s2 s8 \mark "A" s8 \bar "||" \break
 \set Score.repeatCommands = #'((volta "2.")) s2.
 \set Score.repeatCommands = #'((volta #f))

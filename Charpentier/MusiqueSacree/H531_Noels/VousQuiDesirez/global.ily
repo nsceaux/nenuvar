@@ -3,7 +3,7 @@
   \modVersion {
      \keys sib \major
      \markUpBegin\mark\markup { \concat { 1 \super er } couplet }
-     s2.*8 \bar ":|"
+     s2.*8 \bar ":|."
      s2.*12 \bar "||"
      \markUpBegin\mark\markup { \concat { 2 \super e } couplet }
      s2.*16 \bar "||"

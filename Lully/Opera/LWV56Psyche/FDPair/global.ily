@@ -5,5 +5,5 @@
 } { 
   \set Score.measureLength = #(ly:make-moment 6 4) s1.
 }
-\bar "|:" s1.*7
+\bar ".|:" s1.*7
 \alternatives s1. s4*5 \bar "|."

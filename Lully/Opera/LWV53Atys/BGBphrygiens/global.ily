@@ -3,7 +3,7 @@
     \time 2/2 \midiTempo #160
     s1*9
     \origVersion\bar "|:|"
-    \modVersion\bar ":|"
+    \modVersion\bar ":|."
     s1*11 \bar "|."
   }
   \origLayout {

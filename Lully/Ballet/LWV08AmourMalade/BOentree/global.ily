@@ -7,4 +7,4 @@
   \set Score.measureLength = #(ly:make-moment 3 4)
   s2.
 }
-\bar "|:" s2.*14 \bar ":|"
+\bar ".|:" s2.*14 \bar ":|."

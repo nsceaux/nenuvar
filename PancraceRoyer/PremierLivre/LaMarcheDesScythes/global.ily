@@ -13,7 +13,7 @@
     \once \override Score . RehearsalMark #'outside-staff-priority = #50
     \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
     \mark \markup { A \small { Toujours deux fois le rondeau } }
-    \bar "|:" \grace s8 s1*8 \alternatives { s1 \bar ":|:" \break } s1
+    \bar ".|:" \grace s8 s1*8 \alternatives { s1 \bar ":..:" \break } s1
     s1*8
     s2. s8. \mark A s16 \bar "||" \break
     \set Score.repeatCommands = #'((volta "2.")) s2

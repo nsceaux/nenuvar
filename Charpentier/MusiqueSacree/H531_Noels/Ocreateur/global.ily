@@ -2,7 +2,7 @@
 \time 3/2 \midiTempo #200
 <<
   \modVersion {
-    s1.*8 \bar ":|"
+    s1.*8 \bar ":|."
     s1.*30 \bar "||"
     s1.*16 \bar "||"
     s1.*20 \bar "|."

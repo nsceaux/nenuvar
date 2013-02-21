@@ -10,4 +10,4 @@
    ((1 . 32) . (8 8 8 8)))
 
 \partial 16 s16 s1*8 \alternatives { \grace s8 s1 } { \grace s8 s1 }
-\bar "|:" s1*10 \alternatives s1 s1 s2 \bar "|."
+\bar ".|:" s1*10 \alternatives s1 s1 s2 \bar "|."

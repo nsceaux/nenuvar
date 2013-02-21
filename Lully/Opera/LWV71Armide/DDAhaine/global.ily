@@ -7,5 +7,5 @@
 \oldKey re \minor
 \midiTempo #80 \time 2/2
 s1*22 s2
-\bar "|:" s2 s1*2 s2 \bar ":|"
+\bar ".|:" s2 s1*2 s2 \bar ":|."
 s2 s1*16 s2 \bar "|."

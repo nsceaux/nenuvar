@@ -14,7 +14,7 @@
           s2
         }
       }
-      \modVersion { s2 \bar ":|" }
+      \modVersion { s2 \bar ":|." }
     >>
     s2 s1*4 s2 \bar "|."
     \markDownEnd

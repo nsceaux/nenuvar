@@ -22,4 +22,4 @@
 \time 4/4 s1
 \midiTempo #160 \digitTime \time 2/2 s1
 \midiTempo #80 \time 4/4 s1
-\digitTime\time 3/4 s2.*25 \bar "|:" s2.*6 \alternatives s2. s2. s2.*15 \bar "|."
+\digitTime\time 3/4 s2.*25 \bar ".|:" s2.*6 \alternatives s2. s2. s2.*15 \bar "|."

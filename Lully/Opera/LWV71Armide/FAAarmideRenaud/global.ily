@@ -17,7 +17,7 @@
 \digitTime\time 3/4 s2.
 \time 4/4 s1
 \keys do \major
-\digitTime\time 3/4 s2.*17 \bar "|:" s2.*10 \alternatives s2.*2 s2. s2.*12
+\digitTime\time 3/4 s2.*17 \bar ".|:" s2.*10 \alternatives s2.*2 s2. s2.*12
 \keys sol \minor
 s2.*44
 \time 4/4 s1*35

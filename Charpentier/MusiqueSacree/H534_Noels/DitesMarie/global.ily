@@ -9,7 +9,7 @@
      (select-head-glyph style duration-log)))
 <<
   \modVersion {
-    s1. \bar "|:" s1.*58
+    s1. \bar ".|:" s1.*58
     \modAlternatives s1. { s1 \bar "|." }
   }
   \origVersion {
