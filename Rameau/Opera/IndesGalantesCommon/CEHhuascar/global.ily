@@ -15,7 +15,7 @@ s1.*7
   \vB <>^\markup\large\italic fin
   s2. 
 }
-s2 \vA { \origVersion\bar "|:|" \modVersion\bar ":|" }
+s2 \vA { \origVersion\bar "|:|" \modVersion\bar ":|." }
 s4 s1.*27
 \origVersion {
   s1. s4 \once\override TextScript #'extra-offset = #'(0 . -4)

@@ -3,9 +3,9 @@
 \vB { \markUpBegin\mark "Rondeau" }
 \partial 4 
 \modVersion {
-  s4 s2.*7 s2 \bar ":|" \fineMark
-  s4\noBreak s2.*7 s2 \bar ":|" \endMark "[au rondeau]"
-  s4 s2.*7 s2 \bar ":|" \endMark "[au rondeau]"
+  s4 s2.*7 s2 \bar ":|." \fineMark
+  s4\noBreak s2.*7 s2 \bar ":|." \endMark "[au rondeau]"
+  s4 s2.*7 s2 \bar ":|." \endMark "[au rondeau]"
 }
 \origVersion {
   s4 s2.*7^\markup\musicglyph #"scripts.segno"

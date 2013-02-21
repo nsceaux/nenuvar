@@ -6,7 +6,7 @@
 \segnoMark
 s2 s1*11
 \origVersion { <>^\markup\italic\large fin s2 \bar "|:|" }
-\modVersion { s2 \fineMark \bar ":|" }
+\modVersion { s2 \fineMark \bar ":|." }
 %% 1ere reprise
 \origVersion s2
 \modVersion {

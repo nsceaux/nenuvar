@@ -1,7 +1,7 @@
 \keys sol \major
 \time 3/4
 \tempo "Premier Menuet" \midiTempo #140
-s2.*12 \bar ":|:" s2.*16 \bar ":|" s2.*8 \bar "|."
+s2.*12 \bar ":..:" s2.*16 \bar ":|." s2.*8 \bar "|."
 \break
 \tempo "Deuxième Menuet"
 \keys sol \minor

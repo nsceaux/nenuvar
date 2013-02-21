@@ -8,7 +8,7 @@ s1*7 s2.
 \fineMark
 \origVersion\once\override Score.RehearsalMark #'direction = #UP
 \origVersion\bar "|:|"
-\modVersion\bar ":|"
+\modVersion\bar ":|."
 s4 s1*7
 \modVersion { s2.. \segnoMark s8 \endMark "[Dal Segno.]" }
 \origVersion {

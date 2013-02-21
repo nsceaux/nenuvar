@@ -31,7 +31,7 @@
 \digitTime\time 3/4 \midiTempo #120 s2
 \tempo "Air" \key la \minor
 \modVersion\bar ";:" s4 s2.*4 s2
-\origVersion\bar "|:|" \modVersion\bar ":|"
+\origVersion\bar "|:|" \modVersion\bar ":|."
 s4 s2.*16
 \time 4/4 \midiTempo #80 s1
 \digitTime\time 2/2 \midiTempo #160 s1

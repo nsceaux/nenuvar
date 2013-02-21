@@ -9,7 +9,7 @@
 \modVersion\segnoMark
 \origVersion <>^\markup\musicglyph #"scripts.segno"
 s4 s2*7
-\modVersion { s4 \fineMark \bar ":|" }
+\modVersion { s4 \fineMark \bar ":|." }
 \origVersion { s4_\markup\large\center-align\italic fin \bar "|:|" }
 s4 s2*9
 \modVersion { s8. \segnoMark s16 \endMark "[Da Capo.]" \bar "|." }

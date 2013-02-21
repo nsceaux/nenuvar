@@ -6,7 +6,7 @@
 s4. \origVersion <>^\markup\musicglyph #"scripts.segno"
 s1.*7 s2. \origVersion <>^\markup\large\italic fin s4.
 \origVersion \bar "|:|"
-\modVersion { \bar ":|" \fineMark }
+\modVersion { \bar ":|." \fineMark }
 %% 1er couplet
 s4. s1.*7
 \origVersion {

@@ -15,7 +15,7 @@
 }
 \modVersion {
   \segnoMark
-  s2 s1*7 s2 \bar ":|" \fineMark
+  s2 s1*7 s2 \bar ":|." \fineMark
   s2 s1*7 s4.. \segnoMark s16 \bar "|." \endMark "Le Rondeau"
   s2 s1*7 s4.. \segnoMark s16 \bar "|." \endMark "Le Rondeau"
 }

@@ -6,7 +6,7 @@ s8
 \modVersion { \bar "||" \segnoMark }
 s4.*19
 \modVersion {
-  s4 \bar ":|" \fineMark
+  s4 \bar ":|." \fineMark
   s8 s4.*19 s4 s16 \segnoMark s \bar "|." \endMark "[Dal Segno.]"
 }
 \origVersion {

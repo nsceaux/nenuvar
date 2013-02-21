@@ -21,4 +21,4 @@ s2.*2
 s1*4
 \tempo "Air"
 \digitTime\time 3/4 \midiTempo #160
-\bar "|:" s2.*10 \bar ":|:" s2.*11 \bar ":|"
+\bar ".|:" s2.*10 \bar ":..:" s2.*11 \bar ":|."

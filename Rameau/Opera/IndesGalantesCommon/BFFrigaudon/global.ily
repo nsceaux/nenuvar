@@ -4,7 +4,7 @@
 s4
 \origVersion <>^\markup\musicglyph #"scripts.segno"
 s1*7 s2.
-\modVersion\bar ":|"
+\modVersion\bar ":|."
 \origVersion\bar "|:|"
 s4
 \modVersion { s1*3 s2. \endMark "[Da Capo.]" }

@@ -10,7 +10,7 @@
     <>_\markup\musicglyph #"scripts.segno"
     s2 \bar "|:|"
   }
-  \modVersion { s4. \segnoMark s8 \bar ":|" }
+  \modVersion { s4. \segnoMark s8 \bar ":|." }
 >>
 
 \origVersion <>^\markup {

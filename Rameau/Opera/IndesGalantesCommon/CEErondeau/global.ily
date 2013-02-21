@@ -9,7 +9,7 @@
   s2^\markup\musicglyph #"scripts.segno" \bar "|:|"
 }
 \modVersion {
-  s4 s2.*11 s2 \fineMark \bar ":|"
+  s4 s2.*11 s2 \fineMark \bar ":|."
   s4 s2.*11 s2 \bar "|."
   \endMark "[Da Capo.]"
 }

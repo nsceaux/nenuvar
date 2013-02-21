@@ -2,4 +2,4 @@
 \time 3/4
 \tempo "Rondement" \midiTempo #96
 s2.*30 \alternatives s2. s2. \break
-\bar "|:" s2.*29 \alternatives s2. s2. \bar "|."
+\bar ".|:" s2.*29 \alternatives s2. s2. \bar "|."
