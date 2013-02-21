@@ -19,12 +19,15 @@
 %% Table of contents
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplist
-  \line-width-ratio-lines #0.7
-  \abs-fontsize-lines #9
-  \override-lines #'(use-rehearsal-numbers . #t)
-  \override-lines #'(column-number . 1)
-  \table-of-contents
+  \markup \fill-line {
+    \column {
+      \abs-fontsize-lines #9
+      \line-width-ratio-lines #0.6
+      \override-lines #'(use-rehearsal-numbers . #t)
+      \override-lines #'(column-number . 1)
+      \table-of-contents
+    }
+  }
 }
-
+%% Body
 \include "Rameau/Concerts/IndesGalantesSuites/body.ily"

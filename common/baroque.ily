@@ -1,6 +1,7 @@
 %% Custom bar lines
 \defineBarLine "!!:" #'("" "!!:" "")
 \defineBarLine "|!:" #'("|" "!:" "|! ")
+\defineBarLine "!:" #'("" "!:" "! ")
 \defineBarLine ":!." #'(":!." "" " !.")
 \defineBarLine ":!|" #'(":!|" "" " !|")
 \defineBarLine ":||:" #'(":||:" "" " || ")

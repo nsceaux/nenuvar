@@ -1,9 +1,9 @@
 
-
-%footnoteHere =
-%#(define-music-function (parser location offset note)
-%     (number-pair? markup?)
-%   (ly:make-music 'Music 'void #t))
+%% pas de notes de bas de page dans cette édition
+footnoteHere =
+#(define-music-function (parser location offset note)
+     (number-pair? markup?)
+   (make-music 'Music 'void #t))
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \act "Premier Concert"
@@ -20,14 +20,13 @@
 \includeScore "ABCair"
 \newBookPart #'(full-rehearsal)
 %% 1.4
-\pieceToc "Musette en rondeau"
+\pieceTocTitle "Musette en rondeau"
 \includeScore "ABErondeau"
 \newBookPart #'(full-rehearsal)
 %% 1.5
 \pieceTocTitle "Menuets"
 \includeScore "AEFmenuet" \noPageTurn
 \includeScore "AEEmenuet"
-\newBookPart #'(full-rehearsal)
 %% 1.6
 \pieceTocTitle "Air gratieux pour les Amours"
 \includeScore "AEDair"
@@ -47,14 +46,12 @@
   et pour les amantes qui tachent de les retenir
 }
 \includeScore "ACEair"
-\newBookPart #'(full-rehearsal)
 %% 2.3
 \pieceTocTitle "Premier air pour les Bostangis"
 \includeScore "EECair"
 %% 2.4
 \pieceTocTitle "Deuxième air pour les Bostangis"
 \includeScore "EEEair"
-\newBookPart #'(full-rehearsal)
 %% 2.5
 \pieceTocTitle "Premier Air des Fleurs — Rondeau"
 \includeScore "EEHrondeau"
