@@ -4,10 +4,10 @@
 \partial 2.
 <<
   \tag #'(silence not-silence) {
-    s2. s1.*11 s2. \modVersion\bar ":|." \origVersion\bar "|:|"
+    s2. s1.*11 s2. \modVersion\bar ":|." \origVersion\bar "|;|"
     s2. s1.*11 s2.
     \vB\bar "|."
-    \vA { \origVersion\bar "|:|" \modVersion\bar ":|." }
+    \vA { \origVersion\bar "|;|" \modVersion\bar ":|." }
   }
   \vA\tag #'not-silence {
     s2. s1.

@@ -19,4 +19,4 @@ s2.*3
   s2^\markup\musicglyph #"scripts.segno"
 }
 \modVersion { \endMark "[Dal Segno.]" \bar "|." }
-\origVersion\bar "|:|"
+\origVersion\bar "|;|"

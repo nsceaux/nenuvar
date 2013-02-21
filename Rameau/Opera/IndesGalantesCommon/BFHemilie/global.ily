@@ -7,7 +7,7 @@ s4
 s1*7 s2.
 \fineMark
 \origVersion\once\override Score.RehearsalMark #'direction = #UP
-\origVersion\bar "|:|"
+\origVersion\bar "|;|"
 \modVersion\bar ":|."
 s4 s1*7
 \modVersion { s2.. \segnoMark s8 \endMark "[Dal Segno.]" }
@@ -15,6 +15,6 @@ s4 s1*7
   s1 s4 \once\override TextScript #'extra-offset = #'(0 . -4)
   s2.^\markup\musicglyph #"scripts.segno"
 }
-\vA\origVersion\bar "|:|"
+\vA\origVersion\bar "|;|"
 \vA\modVersion\bar "|."
 \vB\bar "|."

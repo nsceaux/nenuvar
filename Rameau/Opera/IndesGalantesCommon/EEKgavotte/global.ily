@@ -3,15 +3,15 @@
 \tempo "Gay"
 \origVersion {
   <>^\markup\musicglyph #"scripts.segno"
-  s2 s1*7 <>^\markup\large\italic fin s2 \bar "|:|"
+  s2 s1*7 <>^\markup\large\italic fin s2 \bar "|;|"
 
   s2 s1*7 s4 \once\override TextScript #'extra-offset = #'(0 . -2)
   s ^\markup\musicglyph #"scripts.segno"
-  \bar "|:|" \endMark "Le Rondeau"
+  \bar "|;|" \endMark "Le Rondeau"
 
   s2 s1*7 s2 s8 \once\override TextScript #'extra-offset = #'(0 . -2)
   s4.^\markup\musicglyph #"scripts.segno"
-  \bar "|:|" \endMark "Le Rondeau"
+  \bar "|;|" \endMark "Le Rondeau"
 }
 \modVersion {
   \segnoMark

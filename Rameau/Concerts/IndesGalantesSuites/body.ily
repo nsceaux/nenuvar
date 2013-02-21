@@ -1,3 +1,10 @@
+
+
+%footnoteHere =
+%#(define-music-function (parser location offset note)
+%     (number-pair? markup?)
+%   (ly:make-music 'Music 'void #t))
+
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \act "Premier Concert"
 %% 1.1

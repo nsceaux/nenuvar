@@ -14,7 +14,7 @@ s1
 \digitTime\time 3/4 \midiTempo #80 s2.
 \time 4/4 s1*4
 \origVersion { s2 s2^\markup\musicglyph #"scripts.segno" }
-\origVersion\bar "|:|"
+\origVersion\bar "|;|"
 %%\modVersion { \bar "|." \endMark "[Dal Segno.]" }
 \modVersion {
   s1

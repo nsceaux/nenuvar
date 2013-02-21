@@ -6,7 +6,7 @@
   \origVersion <>^\markup\musicglyph #"scripts.segno"
   s2*7 s4
   \fineMark \origVersion\once\override Score.RehearsalMark #'direction = #UP
-  \origVersion\bar "|:|" \modVersion\bar ":|."
+  \origVersion\bar "|;|" \modVersion\bar ":|."
   s4
   s2*7
   \origVersion {

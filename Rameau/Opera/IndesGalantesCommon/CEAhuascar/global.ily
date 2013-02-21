@@ -24,7 +24,7 @@ s2.
 \origVersion {
   s4 \once\override TextScript #'extra-offset = #'(0 . -4)
   s2^\markup\musicglyph #"scripts.segno"
-  s4 \bar "|:|"
+  s4 \bar "|;|"
 }
 \modVersion {
   s1

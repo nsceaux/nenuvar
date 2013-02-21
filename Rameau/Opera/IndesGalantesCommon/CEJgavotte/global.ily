@@ -5,7 +5,7 @@
 %% Rondeau
 \segnoMark
 s2 s1*11
-\origVersion { <>^\markup\italic\large fin s2 \bar "|:|" }
+\origVersion { <>^\markup\italic\large fin s2 \bar "|;|" }
 \modVersion { s2 \fineMark \bar ":|." }
 %% 1ere reprise
 \origVersion s2
@@ -19,7 +19,7 @@ s1*7
   s4 <>_\markup\musicglyph #"scripts.segno"
   \once\override TextScript #'extra-offset = #'(1 . 4)
   s
-  \bar "|:|"
+  \bar "|;|"
 }
 \modVersion {
   s4.. \segnoMark s16 \bar "|."
@@ -37,7 +37,7 @@ s1*9
   s4 <>_\markup\musicglyph #"scripts.segno"
   \once\override TextScript #'extra-offset = #'(1 . 4)
   s4
-  \bar "|:|"
+  \bar "|;|"
   \endMark\markup { On reprend la \concat { p \super re } gavotte entier }
 }
 \modVersion {

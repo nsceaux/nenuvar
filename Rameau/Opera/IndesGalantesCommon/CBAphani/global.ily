@@ -28,7 +28,7 @@ s4
     \once\override TextScript #'extra-offset = #'(0 . -4)
     <>^\markup\musicglyph #"scripts.segno"
     s16 s4
-    \bar "|:|"
+    \bar "|;|"
   }
 }
 \vB {

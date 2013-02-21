@@ -5,7 +5,7 @@
 \origVersion <>^\markup\musicglyph #"scripts.segno"
 \modVersion\segnoMark
 s4 s2*7 s4
-\origVersion \bar "|:|" \modVersion\bar ":|."
+\origVersion \bar "|;|" \modVersion\bar ":|."
 \fineMark \origVersion\once\override Score.RehearsalMark #'direction = #UP
 s4 s2*9 s4
 \origVersion {
@@ -13,5 +13,5 @@ s4 s2*9 s4
   s4^\markup\musicglyph #"scripts.segno"
 }
 \modVersion { \endMark "[Da Capo.]" }
-\vA { \origVersion\bar "|:|" \modVersion\bar "|." }
+\vA { \origVersion\bar "|;|" \modVersion\bar "|." }
 \vB\bar "|."

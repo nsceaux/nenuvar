@@ -8,7 +8,7 @@
     \set Score.measureLength = #(ly:make-moment 4 4)
     \once\override TextScript #'extra-offset = #'(1 . 3)
     <>_\markup\musicglyph #"scripts.segno"
-    s2 \bar "|:|"
+    s2 \bar "|;|"
   }
   \modVersion { s4. \segnoMark s8 \bar ":|." }
 >>

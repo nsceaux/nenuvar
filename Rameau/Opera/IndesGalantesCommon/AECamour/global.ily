@@ -12,5 +12,5 @@ s2 s1*19
   s2 \once\override TextScript #'extra-offset = #'(0 . -4)
   s2^\markup\musicglyph #"scripts.segno"
 }
-\origVersion\bar "|:|" \modVersion\bar "|."
+\origVersion\bar "|;|" \modVersion\bar "|."
 \modVersion\endMark "[Dal Segno]"

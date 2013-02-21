@@ -11,6 +11,6 @@
 \origVersion {
   s1*16
   \markUpBegin\mark "Chœur" s1*16
-  s1*17 s2 s2^\markup\musicglyph #"scripts.segno" \bar "|:|"
-  s1*17 s2 s2^\markup\musicglyph #"scripts.segno" \bar "|:|"
+  s1*17 s2 s2^\markup\musicglyph #"scripts.segno" \bar "|;|"
+  s1*17 s2 s2^\markup\musicglyph #"scripts.segno" \bar "|;|"
 }

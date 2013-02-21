@@ -4,7 +4,7 @@
 s4
 \origVersion <>^\markup\musicglyph #"scripts.segno"
 s1*7 s2._\markup\orig-version\large\italic fin
-\origVersion\bar "|:|"
+\origVersion\bar "|;|"
 \modVersion\bar ":|."
 s4
 \modVersion { s1*7 s2.

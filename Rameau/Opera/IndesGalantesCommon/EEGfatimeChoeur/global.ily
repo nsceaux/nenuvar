@@ -7,9 +7,9 @@ s2 \vB s2.*13 \vA s2.*17
 \bar "|." \origVersion\fineMark
 \origVersion {
   % couplet
-  s2.*16 s2 \bar "|:|"
+  s2.*16 s2 \bar "|;|"
   % couplet
-  s4 s2.*10 s2 \bar "|:|"
+  s4 s2.*10 s2 \bar "|;|"
 }
 \modVersion {
   % couplet

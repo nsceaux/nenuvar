@@ -15,12 +15,12 @@ s1.*7
   \vB <>^\markup\large\italic fin
   s2. 
 }
-s2 \vA { \origVersion\bar "|:|" \modVersion\bar ":|." }
+s2 \vA { \origVersion\bar "|;|" \modVersion\bar ":|." }
 s4 s1.*27
 \origVersion {
   s1. s4 \once\override TextScript #'extra-offset = #'(0 . -4)
   s4*5^\markup\musicglyph #"scripts.segno"
-  \vA\bar "|:|" \vB\bar "|."
+  \vA\bar "|;|" \vB\bar "|."
 }
 \modVersion {
   s2. s2 s8. \segnoMark s16 \endMark "[Dal Segno]"

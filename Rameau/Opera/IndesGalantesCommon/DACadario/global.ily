@@ -5,7 +5,7 @@
   s2.*14 <>^\markup\large\italic Fin
   s2.*7 s2 s8
   s8^\markup\musicglyph #"scripts.segno"
- \bar "|:|"
+ \bar "|;|"
 }
 \modVersion {
   s8 s2.*10 \bar "||" \segnoMark

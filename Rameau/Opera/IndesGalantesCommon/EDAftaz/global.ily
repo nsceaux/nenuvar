@@ -21,8 +21,8 @@
 \time 4/4 s1
 \digitTime\time 2/2 \midiTempo #160 s1
 \digitTime\time 3/4 \midiTempo #160 s2
-\tempo "Air" \modVersion\bar ";:" s4 s2.*3 s2
-\origVersion\bar "|:|" \modVersion\bar ":|."
+\tempo "Air" \modVersion\bar "!!:" s4 s2.*3 s2
+\origVersion\bar "|;|" \modVersion\bar ":|."
 s4 s2.*10
 \digitTime\time 2/2 \midiTempo #160 s1*2
 \digitTime\time 3/4 \midiTempo #80 s2.

@@ -15,6 +15,6 @@ s4 s2.*10 s2
   s8
   \once\override TextScript #'extra-offset = #'(0 . -4)
   s^\markup\musicglyph #"scripts.segno"
-  \bar "|:|"
+  \bar "|;|"
 }
 \modVersion { \bar "|." \endMark "[Da Capo.]" }

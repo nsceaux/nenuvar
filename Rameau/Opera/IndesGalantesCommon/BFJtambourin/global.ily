@@ -4,7 +4,7 @@
 \digitTime\time 2/4 \partial 4
 \origVersion <>^\markup\musicglyph #"scripts.segno"
 s4 s2*7 s4
-\origVersion \bar "|:|" \modVersion \bar ":|."
+\origVersion \bar "|;|" \modVersion \bar ":|."
 \fineMark \origVersion\once\override Score.RehearsalMark #'direction = #UP
 s4 s2*7 s4
 \origVersion {
@@ -16,5 +16,5 @@ s4 s2*7 s4
   \null
   \line { On reprend le \concat { P \super er } Tambourin }
 }
-\vA { \origVersion\bar "|:|" \modVersion\bar "|." }
+\vA { \origVersion\bar "|;|" \modVersion\bar "|." }
 \vB\bar "|."

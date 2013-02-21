@@ -16,7 +16,7 @@ s4 s2.*14
   }
   \bar "||"
 }
-\vA\origVersion { s2. s2 \bar "|:|" }
+\vA\origVersion { s2. s2 \bar "|;|" }
 \modVersion {
   s4.. \segnoMark s16
   \endMark\markup { [On reprend le chœur] }
@@ -35,6 +35,6 @@ s4 s2.*13
   \endMark\markup { [On reprend le chœur] }
   \bar "|."
 }
-\vA\origVersion { s2. s2 \bar "|:|" }
+\vA\origVersion { s2. s2 \bar "|;|" }
 %\modVersion { s4 s2.*11 s2 \bar "|." }
 

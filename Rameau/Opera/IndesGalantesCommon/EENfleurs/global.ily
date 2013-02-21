@@ -10,7 +10,7 @@ s8 s4.*29 s4
 }
 
 \origVersion {
-  \bar "|:|"
+  \bar "|;|"
   s8 \vA s4.*16 s4.*36
   s8 <>^\markup\musicglyph #"scripts.segno" s4
   s4.*10 \alternatives {

@@ -9,7 +9,7 @@
 }
 \origVersion {
   <>^\markup\musicglyph #"scripts.segno"
-  s1*15 s2 s2^\markup\large\italic Fin \bar "|:|"
-  s1*16 s4 s2._\markup\musicglyph #"scripts.segno" \bar "|:|"
-  s1*16 s4 s2._\markup\musicglyph #"scripts.segno" \bar "|:|"
+  s1*15 s2 s2^\markup\large\italic Fin \bar "|;|"
+  s1*16 s4 s2._\markup\musicglyph #"scripts.segno" \bar "|;|"
+  s1*16 s4 s2._\markup\musicglyph #"scripts.segno" \bar "|;|"
 }

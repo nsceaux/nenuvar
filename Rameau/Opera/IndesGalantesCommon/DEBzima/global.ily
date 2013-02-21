@@ -4,5 +4,5 @@
 s2 \origVersion <>^\markup\musicglyph #"scripts.segno"
 s1*14 s2 \endMark "[Fin.]"
 s2 s1*13
-\origVersion { s1 s4 s^\markup\musicglyph #"scripts.segno" \bar "|:|" }
+\origVersion { s1 s4 s^\markup\musicglyph #"scripts.segno" \bar "|;|" }
 \modVersion { s2 \bar "|." \endMark "[Da Capo.]" }

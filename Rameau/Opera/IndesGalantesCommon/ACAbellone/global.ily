@@ -17,4 +17,4 @@ s2 s1*13
   s2^\markup\musicglyph #"scripts.segno"
 }
 \vB\bar "|."
-\vA { \origVersion\bar "|:|" \modVersion\bar "|." }
+\vA { \origVersion\bar "|;|" \modVersion\bar "|." }

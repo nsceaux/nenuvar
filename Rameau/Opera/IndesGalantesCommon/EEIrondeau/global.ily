@@ -10,7 +10,7 @@ s4.*19
   s8 s4.*19 s4 s16 \segnoMark s \bar "|." \endMark "[Dal Segno.]"
 }
 \origVersion {
-  <>^\markup\large\italic Fin s4 \bar "|:|"
+  <>^\markup\large\italic Fin s4 \bar "|;|"
   s8 s4.*20  s8. \once\override TextScript #'extra-offset = #'(0 . -4)
-  s^\markup\musicglyph #"scripts.segno" \bar "|:|"
+  s^\markup\musicglyph #"scripts.segno" \bar "|;|"
 }

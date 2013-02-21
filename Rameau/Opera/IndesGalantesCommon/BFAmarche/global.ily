@@ -10,7 +10,7 @@
 \origVersion <>^\markup\musicglyph #"scripts.segno"
 s4 s2*7
 \modVersion { s4 \fineMark \bar ":|." }
-\origVersion { s4_\markup\large\center-align\italic fin \bar "|:|" }
+\origVersion { s4_\markup\large\center-align\italic fin \bar "|;|" }
 s4 s2*9
 \modVersion { s8. \segnoMark s16 \endMark "[Da Capo.]" \bar "|." }
 \origVersion {
@@ -18,6 +18,6 @@ s4 s2*9
   \once\override TextScript #'Y-extent = #'(0 . 0)
   \once\override TextScript #'extra-offset = #'(1 . 0)
   s4^\markup\musicglyph #"scripts.segno"
-  \vA\bar "|:|"
+  \vA\bar "|;|"
   \vB\bar "|."
 }

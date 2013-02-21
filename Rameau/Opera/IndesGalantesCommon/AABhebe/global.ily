@@ -20,7 +20,7 @@ s2.*33
     s2. s4
     \once\override TextScript #'extra-offset = #'(0 . -4)
     s2^\markup\musicglyph #"scripts.segno"
-    \bar "|:|"
+    \bar "|;|"
   }
   \modVersion {
     s2 s8.\segnoMark s16

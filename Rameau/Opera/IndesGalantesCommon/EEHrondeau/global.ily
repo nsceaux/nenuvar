@@ -6,9 +6,9 @@
 }
 \origVersion {
   s8 s4. <>^\markup\musicglyph #"scripts.segno"
-  s4.*14 s4^\markup\large\italic fin \bar "|:|"
+  s4.*14 s4^\markup\large\italic fin \bar "|;|"
   s8 s4.*13
   s8 \once\override TextScript #'extra-offset = #'(0 . -4)
   s4^\markup\musicglyph #"scripts.segno"
-  \bar "|:|"
+  \bar "|;|"
 }

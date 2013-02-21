@@ -25,5 +25,5 @@ s2 s1*16
   s4 \once\override TextScript #'extra-offset = #'(0 . -4)
   s2.^\markup\musicglyph #"scripts.segno"
 }
-\vA { \modVersion\bar "|." \origVersion\bar "|:|" }
+\vA { \modVersion\bar "|." \origVersion\bar "|;|" }
 \vB\bar "|."

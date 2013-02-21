@@ -1,5 +1,5 @@
 \clef "dessus"
-\footnoteHere #'(-1 . 1) \markup\wordwrap {
+\footnoteHere #'(-1 . -1) \markup\wordwrap {
   Source : les articulations ne sont pas précisément notées.
   On a retenu des liaisons par groupe de trois notes, mais il
   est possible que certaines notes soient groupées par 2+1 ou 1+2.
