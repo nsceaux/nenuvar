@@ -3,7 +3,7 @@
 s1*12 \alternatives s1 s1
 s1
 \modVersion {
-  \segnoMark \bar "|;:"
+  \segnoMark \bar "|!:"
   s1*14
   \alternatives { s1*3 \segnoMarkDown } s1*2
 }

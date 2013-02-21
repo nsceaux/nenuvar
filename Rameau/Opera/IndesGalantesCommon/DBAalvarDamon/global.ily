@@ -7,7 +7,7 @@
 \time 6/8 s2.*10
 \time 9/8 s4.*3
 \time 6/8
-\modVersion { s2.*6 \bar "|;:" \segnoMark s2.*2 }
+\modVersion { s2.*6 \bar "|!:" \segnoMark s2.*2 }
 \origVersion { s2.*5 s4 <>^\markup\musicglyph #"scripts.segno" s2 s2.*2 }
 \digitTime \time 3/2 \midiTempo #160 s1.
 \alternatives { \time 6/8

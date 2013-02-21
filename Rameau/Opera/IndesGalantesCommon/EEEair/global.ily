@@ -4,7 +4,7 @@ s8 \vA s2.*19 \vB s2.*17 s4. s4
 \origVersion\bar "|:|" \modVersion\bar ":|."
 \vA { s8 | s2.*15 | s4. s4 }
 \origVersion <>^\markup\musicglyph #"scripts.segno"
-s8 \modVersion { \segnoMark\bar "|;:" } s2.*13
+s8 \modVersion { \segnoMark\bar "|!:" } s2.*13
 <<
   \origVersion\alternatives {
     s4. s4 \once\override TextScript #'extra-offset = #'(0 . 2)

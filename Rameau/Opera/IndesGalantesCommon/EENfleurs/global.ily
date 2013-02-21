@@ -5,7 +5,7 @@ s8 s4.*29 s4
 \modVersion {
   \bar ":|."
   s8 \vA s4.*53 \vB s4.*37
-  \bar "|;:" \segnoMark
+  \bar "|!:" \segnoMark
   s4.*10 \alternatives { s4. \segnoMarkDown } s4.
 }
 

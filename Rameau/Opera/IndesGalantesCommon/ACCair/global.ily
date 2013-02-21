@@ -4,7 +4,7 @@
 s1*11 \alternatives s1 s1
 s1
 \origVersion <>_\markup\musicglyph #"scripts.segno"
-\modVersion { \bar "|;:" \segnoMark }
+\modVersion { \bar "|!:" \segnoMark }
 \vA s1*16 \vB s1*15
 \alternatives {
   \vA s1 \vB s1*2

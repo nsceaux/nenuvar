@@ -5,7 +5,7 @@ s1*14 \alternatives s1 { \midiTempo #216 \vA\tempo "Viste" s1 }
 \modVersion {
   \segnoMark
   \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
-  \bar "|;:"
+  \bar "|!:"
 }
 s1*82
 \origVersion\alternatives {

@@ -3,7 +3,7 @@
 s2.*7 \alternatives s2. s2.
 \origVersion <>_\markup\musicglyph #"scripts.segno"
 \modVersion {
-  \bar "|;:"
+  \bar "|!:"
   \segnoMark\once\override Score.RehearsalMark #'self-alignment-X = #LEFT
 }
 s2.*23 \alternatives {
