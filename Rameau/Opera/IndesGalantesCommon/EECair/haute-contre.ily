@@ -3,7 +3,7 @@ fad'2 fad' |
 fad'1 |
 sol'2 sol' |
 si' sol' |
-sol'2. fad'4 |
+sol'2. re''4 |
 sol'8 fad' mi' re' dod'4 dod' |
 dod'2 dod''\trill |
 re''2. dod''4 |

@@ -1,3 +1,9 @@
 \keys re \major
-\digitTime \time 2/2 \midiTempo #200 \tempo "Grave"
-s1*20 \bar ":|:" s1*32 \bar ":|"
+\tempo "Grave"
+\digitTime\time 2/2 \midiTempo #200 
+s1*20
+\origVersion\bar "|;|"
+\modVersion\bar ":..:"
+s1*32
+\origVersion\bar "|;|"
+\modVersion\bar ":..:"

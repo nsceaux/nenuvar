@@ -19,7 +19,7 @@ la'8 si' dod'' re'' mi''4 mi' |
 la'8 si' dod'' re'' mi''4 mi' |
 la'1 |
 mi''2 la'' |
-sol''2. fad''4 |
+sol''2.\trill fad''4 |
 sol''8 fad'' mi'' re'' dod''4 re'' |
 \appoggiatura re''8 mi''2 la' |
 re'' fad'' |
@@ -34,7 +34,7 @@ re''8 dod'' re'' mi'' fad''4 fad' |
 si'8 dod'' re'' mi'' fad''4 fad' |
 si'8 dod'' re'' mi'' fad''4 fad' |
 si'1 |
-mi''2 red'' |
+mi''2 red''\trill |
 sol''8 fad'' mi'' fad'' sol''4 si' |
 re''2 dod''\trill |
 fad''8 mi'' re'' mi'' fad''4 la' |

@@ -1,109 +1,27 @@
-\include "Rameau/Opera/IndesGalantes/common.ily"
+#(ly:set-option 'indes-version 'v1735)
+\include "Rameau/Opera/IndesGalantesCommon/common.ily"
+\include "common/simphonie-du-marais.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Title page
 \bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
-    poet = #f
-    title = \markup \left-align \center-column {
+    title = \markup\center-column {
       "Les Indes Galantes"
-      \fontsize #-4 "Suites"
+      "Suites d’orchestre"
     }
   }
-  \paper { #(define page-breaking ly:minimal-breaking) }
-
-  %% Title page
   \markup \null
-  \pageBreak
-
-  %% Notes
-  \include "Rameau/Concerts/IndesGalantesSuites/notes.ily"
-  \pageBreak
-
-  %% Table of contents
-  \markuplist \table-of-contents
 }
-
-%%% PREMIÈRE SUITE
+%% Table of contents
 \bookpart {
-  \act "Première Suite" % en sol
-  \pieceTocTitle "Ouverture"                    \includeScore "AAAouverture"
-}
-\bookpart {
-  \pieceTocTitle "Entrée des quatre Nations"    \includeScore "ABAentree"
-}
-\bookpart {
-  \pieceTocTitle "Air grave pour deux Polonais" \includeScore "ABCair"
-}
-\bookpart {
-  \pieceTocTitle "Musette en rondeau"           \includeScore "ABErondeau"
-}
-\bookpart {
-  \pieceTocTitle "Menuet I/II" \includeScore "AEEmenuet" \includeScore "AEFmenuet"
-  \pieceTocTitle "Air pour les Amours"          \includeScore "AEDair"
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \markuplist
+  \abs-fontsize-lines #7
+  \override-lines #'(use-rehearsal-numbers . #t)
+  \override-lines #'(column-number . 2)
+  \table-of-contents
 }
 
-%%% DEUXIÈME SUITE
-\bookpart {
-  \act "Deuxième Suite" % en ré
-  \pieceTocTitle "Premier air des Persans" \includeScore "EECair"
-}
-\bookpart {
-  \pieceTocTitle "Deuxième air"            \includeScore "EEEair"
-  \pieceTocTitle "Rondeau I"               \includeScore "EEHrondeau"
-}
-\bookpart {
-  \pieceTocTitle "Rondeau II"              \includeScore "EEIrondeau"
-}
-\bookpart {
-  \pieceTocTitle "Gavotte"                 \includeScore "EEKgavotte"
-}
-\bookpart {
-  \pieceTocTitle "Air pour Zéphir"         \includeScore "EEMzephir"
-  \pieceTocTitle "Air pour les Fleurs"     \includeScore "EENfleurs"
-}
-\bookpart {
-  \pieceTocTitle "Gavotte"                 \includeScore "EEOgavotte"
-  \pieceTocTitle "Marche"                  \includeScore "EEAmarche"
-}
-
-%%% TROISIÈME SUITE
-\bookpart {
-  \act "Troisième Suite" % en sol
-  \pieceTocTitle "Ritournelle"                       \includeScore "CAAritournelle"
-  \pieceTocTitle "Danse du Grand Calumet de la Paix" \includeScore "DFBair"
-}
-\bookpart {
-  \pieceTocTitle "Air pour les esclaves africains"   \includeScore "BEDair"
-}
-\bookpart {
-  \pieceTocTitle "Rigaudon I/II"                     \includeScore "BEFrigaudon"
-  \pieceTocTitle "Tambourin I/II"                    \includeScore "BEHtambourin"
-}
-
-%%% QUATRIÈME SUITE
-\bookpart {
-  \act "Quatrième Suite" % en la
-  \pieceTocTitle "Ritournelle"                          \includeScore "EAAritournelle"
-  \pieceTocTitle "Air des Incas"                        \includeScore "CEDair"
-  \pieceTocTitle "Adoration du Soleil"                  \includeScore "CEBprelude"
-}
-\bookpart {
-  \pieceTocTitle "Loure en rondeau"                     \includeScore "CEGloure"
-  \pieceTocTitle "Danse de Péruviens et de Péruviennes" \includeScore "CEErondeau"
-}
-\bookpart {
-  \pieceTocTitle "Gavotte I/II" \includeScore "CEIgavotte" \includeScore "CEJgavotte"
-}
-
-%%% CINQUIÈME SUITE
-\bookpart {
-  \act "Cinquième Suite" % en ré
-  \pieceTocTitle "Air pour deux guerriers portant les drapeaux" \includeScore "ACCair"
-}
-\bookpart {
-  \pieceTocTitle "Air pour les amants et amantes"               \includeScore "ACEair"
-  \pieceTocTitle "Menuet I/II"                                  \includeScore "DFDmenuet"
-}
-\bookpart {
-  \pieceTocTitle "Chaconne"                                     \includeScore "DFFchaconne"
-}
+\include "Rameau/Concerts/IndesGalatesSuites/body.ily"
