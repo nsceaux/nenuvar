@@ -405,8 +405,7 @@ O Emmanuel")
                  (trompette-timbales "Trompette et Timbales"
                                      #:score-file "part-tt.ly")
                  (parties "Hautes-contre et Tailles")
-                 (basse "Basses")
-                 (basse-continue "Basse continue")))
+                 (basse "Basses")))
        ("Les Fêtes de Ramire"
         #:description ,(markup #:wordwrap-string  "Acte de ballet, livret de Voltaire, 1745.")
         #:key "Rameau/Opera/lesFetesDeRamire"

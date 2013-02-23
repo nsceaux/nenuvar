@@ -46,6 +46,7 @@ footnoteHere =
   et pour les amantes qui tachent de les retenir
 }
 \includeScore "ACEair"
+\newBookPart #'(full-rehearsal)
 %% 2.3
 \pieceTocTitle "Premier air pour les Bostangis"
 \includeScore "EECair"
@@ -55,13 +56,14 @@ footnoteHere =
 %% 2.5
 \pieceTocTitle "Premier Air des Fleurs — Rondeau"
 \includeScore "EEHrondeau"
+\newBookPart #'(full-rehearsal)
 %% 2.6
 \pieceTocTitle "Air tendre pour la Rose — Rondeau"
 \includeScore "EEIrondeau"
+\newBookPart #'(full-rehearsal)
 %% 2.7
 \pieceTocTitle "Gavotte pour les Fleurs — Rondeau"
 \includeScore "EEKgavotte"
-\newBookPart #'(full-rehearsal)
 %% 2.8
 \pieceTocTitle "Air pour Borée et la Rose"
 \includeScore "EELorage"
@@ -72,7 +74,6 @@ footnoteHere =
 %% 2.10
 \pieceTocTitle "Air vif pour Zéphire et la Rose"
 \includeScore "EENfleurs"
-\newBookPart #'(full-rehearsal)
 %% 2.11
 \pieceTocTitle "Gavotte vive pour les Fleurs"
 \includeScore "EEOgavotte"
@@ -127,7 +128,6 @@ footnoteHere =
 \pieceTocTitle "Menuets"
 \includeScore "DFDmenuet" \noPageTurn
 \includeScore "DFEmenuet"
-\newBookPart #'(full-rehearsal)
 %% 5.3
 \pieceTocTitle "Chaconne"
 \includeScore "DFGchaconne"

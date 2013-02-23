@@ -1833,12 +1833,6 @@ Rameau/Concerts/IndesGalantesSuites-basse:
 	-o $(OUTPUT_DIR)/IndesGalantesSuites-basse -dpart=basse  \
 	Rameau/Concerts/IndesGalantesSuites/part.ly
 .PHONY: Rameau/Concerts/IndesGalantesSuites-basse
-# Basse continue
-Rameau/Concerts/IndesGalantesSuites-basse-continue:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantesSuites-basse-continue -dpart=basse-continue  \
-	Rameau/Concerts/IndesGalantesSuites/part.ly
-.PHONY: Rameau/Concerts/IndesGalantesSuites-basse-continue
 
 Rameau/Concerts/IndesGalantesSuites-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantesSuites
@@ -1847,7 +1841,6 @@ Rameau/Concerts/IndesGalantesSuites-delivery:
 	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-trompette-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesSuites-trompette-timbales.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-parties.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesSuites-parties.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesSuites-basse.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesSuites-basse-continue.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites/IndesGalantesSuites-midi.tar.gz $(OUTPUT_DIR)/IndesGalantesSuites.midi $(OUTPUT_DIR)/IndesGalantesSuites-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantesSuites.midi ]; then cp $(OUTPUT_DIR)/IndesGalantesSuites.midi $(DELIVERY_DIR)/Rameau/IndesGalantesSuites/ ; fi
 	git archive --prefix=IndesGalantesSuites/ HEAD Rameau/Concerts/IndesGalantesSuites common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/IndesGalantesSuites/IndesGalantesSuites.tar.gz
 
@@ -1859,8 +1852,7 @@ Rameau/Concerts/IndesGalantesSuites-all: \
 	Rameau/Concerts/IndesGalantesSuites-dessus \
 	Rameau/Concerts/IndesGalantesSuites-trompette-timbales \
 	Rameau/Concerts/IndesGalantesSuites-parties \
-	Rameau/Concerts/IndesGalantesSuites-basse \
-	Rameau/Concerts/IndesGalantesSuites-basse-continue\
+	Rameau/Concerts/IndesGalantesSuites-basse\
 	Rameau/Concerts/IndesGalantesSuites-delivery\
 	Rameau/Concerts/IndesGalantesSuites-clean
 
