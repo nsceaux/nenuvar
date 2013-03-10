@@ -406,6 +406,16 @@ O Emmanuel")
                                      #:score-file "part-tt.ly")
                  (parties "Hautes-contre et Tailles")
                  (basse "Basses")))
+       ("Les Indes Galantes — Suites pour orchestre — Buskaid"
+        #:description ,(markup #:wordwrap-string  "Cinq suites pour orchestre tirées des Indes Galantes.")
+        #:key "Rameau/Concerts/IndesGalantesBuskaid"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
+        #:main ((#f "Conducteur"))
+        #:parts ((dessus "Violons, Flûtes, Hautbois")
+                 (trompette-timbales "Trompette et Timbales"
+                                     #:score-file "part-tt.ly")
+                 (parties "Hautes-contre et Tailles")
+                 (basse "Basses")))
        ("Les Fêtes de Ramire"
         #:description ,(markup #:wordwrap-string  "Acte de ballet, livret de Voltaire, 1745.")
         #:key "Rameau/Opera/lesFetesDeRamire"

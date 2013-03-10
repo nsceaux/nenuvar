@@ -1858,6 +1858,62 @@ Rameau/Concerts/IndesGalantesSuites-all: \
 
 .PHONY: Rameau/Concerts/IndesGalantesSuites-delivery Rameau/Concerts/IndesGalantesSuites-clean Rameau/Concerts/IndesGalantesSuites-all
 
+### Les Indes Galantes — Suites pour orchestre — Buskaid
+# Conducteur
+Rameau/Concerts/IndesGalantesBuskaid:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantesBuskaid  \
+	Rameau/Concerts/IndesGalantesBuskaid/main.ly
+.PHONY: Rameau/Concerts/IndesGalantesBuskaid
+# Violons, Flûtes, Hautbois
+Rameau/Concerts/IndesGalantesBuskaid-dessus:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantesBuskaid-dessus -dpart=dessus  \
+	Rameau/Concerts/IndesGalantesBuskaid/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesBuskaid-dessus
+# Trompette et Timbales
+Rameau/Concerts/IndesGalantesBuskaid-trompette-timbales:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantesBuskaid-trompette-timbales -dpart=trompette-timbales  \
+	Rameau/Concerts/IndesGalantesBuskaid/part-tt.ly
+.PHONY: Rameau/Concerts/IndesGalantesBuskaid-trompette-timbales
+# Hautes-contre et Tailles
+Rameau/Concerts/IndesGalantesBuskaid-parties:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantesBuskaid-parties -dpart=parties  \
+	Rameau/Concerts/IndesGalantesBuskaid/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesBuskaid-parties
+# Basses
+Rameau/Concerts/IndesGalantesBuskaid-basse:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/IndesGalantesBuskaid-basse -dpart=basse  \
+	Rameau/Concerts/IndesGalantesBuskaid/part.ly
+.PHONY: Rameau/Concerts/IndesGalantesBuskaid-basse
+
+Rameau/Concerts/IndesGalantesBuskaid-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid
+	@if [ -e $(OUTPUT_DIR)/IndesGalantesBuskaid.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesBuskaid.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantesBuskaid-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesBuskaid-dessus.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantesBuskaid-trompette-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesBuskaid-trompette-timbales.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantesBuskaid-parties.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesBuskaid-parties.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantesBuskaid-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantesBuskaid-basse.pdf $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantesBuskaid-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid/IndesGalantesBuskaid-midi.tar.gz $(OUTPUT_DIR)/IndesGalantesBuskaid.midi $(OUTPUT_DIR)/IndesGalantesBuskaid-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantesBuskaid.midi ]; then cp $(OUTPUT_DIR)/IndesGalantesBuskaid.midi $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid/ ; fi
+	git archive --prefix=IndesGalantesBuskaid/ HEAD Rameau/Concerts/IndesGalantesBuskaid common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid/IndesGalantesBuskaid.tar.gz
+
+Rameau/Concerts/IndesGalantesBuskaid-clean:
+	@rm -f $(OUTPUT_DIR)/IndesGalantesBuskaid-* $(OUTPUT_DIR)/IndesGalantesBuskaid.*
+
+Rameau/Concerts/IndesGalantesBuskaid-all: \
+	Rameau/Concerts/IndesGalantesBuskaid \
+	Rameau/Concerts/IndesGalantesBuskaid-dessus \
+	Rameau/Concerts/IndesGalantesBuskaid-trompette-timbales \
+	Rameau/Concerts/IndesGalantesBuskaid-parties \
+	Rameau/Concerts/IndesGalantesBuskaid-basse\
+	Rameau/Concerts/IndesGalantesBuskaid-delivery\
+	Rameau/Concerts/IndesGalantesBuskaid-clean
+
+.PHONY: Rameau/Concerts/IndesGalantesBuskaid-delivery Rameau/Concerts/IndesGalantesBuskaid-clean Rameau/Concerts/IndesGalantesBuskaid-all
+
 ### Les Fêtes de Ramire
 # Conducteur
 Rameau/Opera/lesFetesDeRamire:
