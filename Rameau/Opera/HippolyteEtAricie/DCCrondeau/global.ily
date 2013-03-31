@@ -13,13 +13,13 @@
       \origVersion {
         s2 s8. s16^\markup\musicglyph #"scripts.segno"
         \dacapoOverrides \mark\markup\right-align\italic "au Rondeau"
-        \bar "|:|"
+        \bar "|;|"
         \set Score.measureLength = #(ly:make-moment 4 8)
         s8 s4.
         \set Score.measureLength = #(ly:make-moment 6 8)
       }
       \modVersion {
-        s4 \bar "|:|" 
+        s4 \bar "|;|" 
         \dacapoOverrides \mark\markup\right-align\italic "au Rondeau"
         \modVersion\set Score.repeatCommands = #'((volta "2."))
         s8 s4.
@@ -28,7 +28,7 @@
     >>
     s2.*7 s4
     \origVersion { s4 s8. s16^\markup\musicglyph #"scripts.segno" }
-    \bar "|:|"
+    \bar "|;|"
     \dacapoOverrides \mark\markup\right-align\italic "au Rondeau"
   }
   \origLayout {

@@ -1,7 +1,7 @@
 <<
   { \keys do \major
     \time 6/4 \midiTempo #180
-    s1.*6 \origVersion\bar "|:|" \modVersion\bar ":|."
+    s1.*6 \origVersion\bar "|;|" \modVersion\bar ":|."
     s1.*6 \bar "|."
   }
   \origLayout {

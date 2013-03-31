@@ -5,7 +5,7 @@
   \modVersion {
     s2 \segnoMark s2.*15 s4 \fineMark \bar "|."
     s2 s2.*15 s4
-    s2 s2.*8 \bar "|:|"
+    s2 s2.*8 \bar "|;|"
     \tag #'no-silence \endMark\markup { a la Reprise jusqu'au mot fin }
   }
   \origVersion {
@@ -21,7 +21,7 @@
     \endMark\markup {
       a la \concat { P \super re } Reprise jusqu'au mot fin
     }
-    \bar "|:|"
+    \bar "|;|"
     \set Score.measureLength = #(ly:make-moment 2 4)
     s2
     \set Score.measureLength = #(ly:make-moment 3 4)
@@ -29,7 +29,7 @@
     \endMark\markup {
       a la \concat { 2 \super e } Reprise jusqu'au mot fin
     }
-    \bar "|:|"
+    \bar "|;|"
   }
   \origLayout {
     s2 s2.*4\break

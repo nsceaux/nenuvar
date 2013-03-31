@@ -13,7 +13,7 @@
         \new Voice \with { autoBeaming = ##f } {
           \tinyQuote \key do \major \digitTime \time 3/4 \clef "treble"
           do''4. re''8 mi''4 | fa'' re''2 | mi'' mi''4 | re''4. re''8 mi''4 |
-          do'' re''2 | si'2. | \bar "|:|"
+          do'' re''2 | si'2. | \bar "|;|"
           do''4. do''8 fa''4 | re'' sol''2 | mi'' mi''4 | fa''4. sol''8 la''4 |
           mi''4 mi''2 | re''2. | mi''4. fa''8 mi''4 | re'' do''2 |
           si' si'4 | mi''4. re''8 do''4 | si'4 si'2 | la'2. | \bar "|."

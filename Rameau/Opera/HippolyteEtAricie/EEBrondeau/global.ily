@@ -5,12 +5,12 @@
     \digitTime\time 3/4
     s2. \modVersion\segnoMark s2.*15 s4
     \modVersion\fineMark \bar "|."
-    s2 s2.*8 \bar "|:|" \endMark "au Rondeau"
+    s2 s2.*8 \bar "|;|" \endMark "au Rondeau"
     \set Score.measureLength = #(ly:make-moment 2 4)
     s2
     \set Score.measureLength = #(ly:make-moment 3 4)
     s2.*8
-    \bar "|:|" \endMark "au Rondeau"
+    \bar "|;|" \endMark "au Rondeau"
   }
   \origVersion {
     s2. s4*0^\markup\musicglyph #"scripts.segno"

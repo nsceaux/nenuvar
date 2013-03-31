@@ -2,7 +2,7 @@
   { \keys re \major
     \midiTempo #180
     \digitTime \time 2/2 s1*13
-    \digitTime\time 3/4 s2.*21 \bar "|:|"
+    \digitTime\time 3/4 s2.*21 \bar "|;|"
     \modVersion {
       \markDownEnd
       \mark\markup \right-column {

@@ -15,7 +15,7 @@
       }
     >>
     s2.*7 s8. s16^\markup\orig-version\musicglyph #"scripts.segno"
-    \bar "|:|" \modVersion\segnoMarkEnd
+    \bar "|;|" \modVersion\segnoMarkEnd
     <<
       \origVersion { s2 }
       \modVersion {
@@ -25,7 +25,7 @@
       }
     >>
     s2.*7 s8. s16^\markup\orig-version\musicglyph #"scripts.segno"
-    \bar "|:|" \modVersion\segnoMarkEnd
+    \bar "|;|" \modVersion\segnoMarkEnd
   }
   \origLayout {
     s2 s2.*2 s4. \bar "" \break

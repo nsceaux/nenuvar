@@ -5,7 +5,7 @@
     \alternatives s1 s1
     \midiTempo #160 \digitTime \time 2/2 
     \tempo Viste
-    s1*48 \bar "|:|"
+    s1*48 \bar "|;|"
   }
   \origLayout {
     s2 s1*5\break

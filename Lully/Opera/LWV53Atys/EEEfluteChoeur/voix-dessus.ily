@@ -15,7 +15,7 @@
           mi''4 mi''2 | do'' do''4 fa'' fa''2 | re'' re''4
           sol'' mi''2 | fa'' mi''4 fa'' re''2 | do''2. \bar "||"
           mi''4 mi''2 | do'' do''4 fa'' fa''2 | re'' re''4
-          sol'' mi''2 | fa'' mi''4 fa'' re''2 | do''2. \bar "|:|"
+          sol'' mi''2 | fa'' mi''4 fa'' re''2 | do''2. \bar "|;|"
         } \addlyrics {
           L'hy -- men seul ne sçau -- roit plai -- re,
           il a beau flat -- ter nos vœux.

@@ -23,7 +23,7 @@ r2
         re''4 re'' sol''4. sol''8 |
         mi''4 mi'' fa''4. fa''8 |
         fa''4 mi'' re''4. do''8 |
-        do''2 \bar "|:|"
+        do''2 \bar "|;|"
       } \addlyrics {
         La Beau -- té la plus se -- ve -- re
         Prend pi -- tié d'un long tour -- ment,

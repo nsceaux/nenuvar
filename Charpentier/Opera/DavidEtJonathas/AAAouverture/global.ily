@@ -2,7 +2,7 @@
   {
     \oldKey re \minor
     \newKey sol \minor
-    \midiTempo #96 \time 2/2 s1*16 \alternatives s1 s1 \bar "|:|"
+    \midiTempo #96 \time 2/2 s1*16 \alternatives s1 s1 \bar "|;|"
     \overrideTimeSignatureSettings
       #'(4 . 8)         % timeSignatureFraction
       #'(1 . 2)         % baseMomentFraction

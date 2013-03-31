@@ -3,7 +3,7 @@
     \newKey sol \minor
     \digitTime\time 3/4 \midiTempo #140
     s2.*10
-    \origVersion\bar "|:|"
+    \origVersion\bar "|;|"
     \modVersion\bar ":|."
     s2.*20 \bar "|."
   }

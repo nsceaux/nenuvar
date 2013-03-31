@@ -6,7 +6,7 @@
     s2.*18 s4_\markup\orig-version\huge\italic { fin } \modVersion\fineMark s
     \modVersion\bar "|."
     s4 s2.*16
-    \bar "|:|"
+    \bar "|;|"
     \dacapoOverrides\mark\markup\right-align\italic "a la Reprise"
   }
   \origLayout {

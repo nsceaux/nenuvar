@@ -21,7 +21,7 @@
       }
       s2.
     >>
-    s2.*19 \bar "|:|"
+    s2.*19 \bar "|;|"
     \tag #'no-silence {
       \dacapoOverrides\mark\markup\right-align\italic\line {
         a la Reprise page \page-refIII #'EABreprise .

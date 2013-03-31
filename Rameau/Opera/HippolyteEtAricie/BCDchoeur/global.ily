@@ -20,7 +20,7 @@
         \forceCloseVoltaBracket
         s2.\noBreak
         s2.\noBreak
-        \bar "|:|"
+        \bar "|;|"
         s2.
         \set Score.repeatCommands = #'((volta #f))
       }
