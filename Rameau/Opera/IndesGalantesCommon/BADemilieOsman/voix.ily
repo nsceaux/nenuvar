@@ -25,7 +25,7 @@
     si'8 si' mi''8. do''16 la'8. do''16 |
     fa'2 fa'4 la' |
     mi' r8 do'' re'' mi'' |
-    fa''4( mi''16)\trill r16 do''8 si' la' |
+    mi''4( re''16)\trill r16 do''8 si' la' |
     re''8. si'16 si' si' dod'' re'' |
     dod''8\trill dod''
     \tag #'emilie { r4 r2 | R1*4 r4 r }

@@ -149,7 +149,7 @@
       si4 si8 fad16 fad fad8 fad16 si |
       mi4 mi8 mi16 mi mi8 red |
       red\trill red16 r red'8. si16 \appoggiatura la16 sold8\trill sold16 sold lad8. lad16 |
-      fad4\trill red8 red lad4 lad8 lad |
+      fadd4\trill red8 red lad4 lad8 lad |
       red' sold mi4 dod8 dod16 red |
       sold,8
       <<
@@ -167,7 +167,7 @@
         \tag #'osman { r4 r2 | R2. R1*2 | r8 }
       >>
       \tag #'basse \osmanMark
-      lad8 red'4 fad8 fad16 lad |
+      lad8 red'4 fadd8 fadd16 lad |
       red8 red si4 red16 red red mi |
       fad4 fad8 fad16 fad sold8 la |
       sold4\trill si8 si sid4\trill sid8 dod' |

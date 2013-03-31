@@ -140,7 +140,7 @@
 <<
   \tag #'emilie { r4 R2.*18 }
   \tag #'voix {
-    <>^\markup\character { Le Chœur } \clef "vdessus"
+    <>^\markup\character\line\smallCaps { Le Chœur } \clef "vdessus"
     r8 re'' |
     re''2.~ |
     re''2 r8 do'' |

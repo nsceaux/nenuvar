@@ -113,7 +113,7 @@ r4 sib,4. sib,8 |
 do2 do8 re |
 mib2.~ |
 mib4 do re |
-sol,4.^"Gay" sol8 la sib |
+sol,4. sol8 la sib |
 do' sib la sol fad sol |
 do' sib la sol fad mi |
 re mi fad re sol4 |

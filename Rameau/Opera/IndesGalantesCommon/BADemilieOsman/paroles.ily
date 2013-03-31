@@ -20,7 +20,7 @@
   Lors -- que pour prix de son se -- cours
   Peut- être un coup fa -- tal l’a for -- cé de des -- cen -- dre
   Dans l’af -- freu -- se nuit du tom -- beau,
-  Mon cœurs in -- grat, d’un feu nou -- veau
+  Mon cœur in -- grat, d’un feu nou -- veau
   Se lais -- se -- roit sur -- pren -- dre !
 }
 \tag #'(osman basse) {

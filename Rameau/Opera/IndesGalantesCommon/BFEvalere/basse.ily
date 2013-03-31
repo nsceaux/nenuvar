@@ -21,11 +21,11 @@ sib re' r2 |
 mib fa |
 sib, r4 sib8 \vA sol \vB { la16 sol } |
 do'2 r4 sib8 la |
-sib2 r4 \vA { r8 sol } \vB sol4 |
+sib2 r4 r8 sol |
 la2 re |
 sol4 re sib, r |
-r sol8 la sib4 la8-\vA\trill sol |
-do'4 sib8 la sib4 la8-\vA\trill sol |
+r sol8 la sib4 la8\trill sol |
+do'4 sib8 la sib4 la8\trill sol |
 fad2 r8 re' re fad |
 sol2 r8 sol re sol |
 si,2 r4 r8 sol, |
@@ -45,7 +45,7 @@ do2 r4 dod |
 re2 r4 re |
 mib2 r4 la, |
 sib,4. do8 re4 re, |
-sol,1-\vB\fermata |
+sol,1-\parenthesize\fermata |
 r2 r4 sol8 la |
 sib4 sib8 sib sib4 re' |
 sol sol, r sib |
@@ -53,11 +53,11 @@ re2 r4 re |
 mib2 fa |
 sib, r4 sib, |
 sib, la, sol, do |
-\vA { fa,2 r4 } \vB fa,2. fa4 |
+fa,2 r4 fa4 |
 sol la sib sol |
 la2 r |
 R1 |
-r2 r4 dod8-\vA\fort re |
+r2 r4 dod8\fort re |
 mi4 mi8 mi mi4 mi |
 mi sol2 sol4 |
 sol sib2~ sib8 do'16 sib |

@@ -28,7 +28,7 @@
       si,2 lad,4 |
       si,2 mi4 dod |
       red2 dod |
-      si,4 dod~ dod8 red16 mi |
+      si,4 dod~ dod8 dod16 red |
       sold,1 |\allowPageTurn
       fad, |
       dod2 sold,4 la, |
@@ -38,8 +38,8 @@
       dod2. |
       si,2 sold, |
       la, sold, |
-      fad,4 fad,2~ |
-      fad,4 sold,2 |
+      fad,4 fadd,2~ |
+      fadd,4 sold,2 |
       red,2. |
       mi,4 mi red4. dod8 |
       << \origVersion { sid,4~ sid,2 } \modVersion sid,2. >> |

@@ -50,7 +50,7 @@
 %# Lorsque pour prix de son secours
 %# Peut-être un coup fatal l'a forcé de descendre
 %# Dans l'affreuse nuit du tombeau,
-%# Mon cœurs ingrat, d'un feu nouveau
+%# Mon cœur ingrat, d'un feu nouveau
 %# Se laisseroit surprendre !
 \livretPers OSMAN
 %# Ah ! que me faites vous entendre ?

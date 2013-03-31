@@ -2,7 +2,7 @@
 \setMusic #'rondeauII {
   \vB\tag #'first <>^\markup\whiteout "Tous"
   r4 |
-  r2 r4 r-\vB\doux |
+  r2 r4 re-\vB\doux |
   sol la sib fad |
   sol la sib do'8 re' |
   sol2 r |

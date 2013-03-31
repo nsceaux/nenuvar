@@ -23,6 +23,6 @@ la''8. la'32*2/3 sol' fa' mi'8. re'32*2/3 dod' si la8 r dod''4 |
 re''2 mi'' |
 la'4 fa' sol'~ |
 sol'8. sib'16 la'8. la'16 re''4~ |
-re''2~ re''8 dod''16.( mi''32) la'8.( re''16) |
+re''2~ re''8 dod''16.( mi''32) la'8. re''16 |
 re''2.( dod''4) |
 \appoggiatura dod''8 re''1 |

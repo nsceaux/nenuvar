@@ -208,7 +208,7 @@
 \livretVerse#8 { Lorsque pour prix de son secours }
 \livretVerse#12 { Peut-être un coup fatal l’a forcé de descendre }
 \livretVerse#8 { Dans l’affreuse nuit du tombeau, }
-\livretVerse#8 { Mon cœurs ingrat, d’un feu nouveau }
+\livretVerse#8 { Mon cœur ingrat, d’un feu nouveau }
 \livretVerse#6 { Se laisseroit surprendre ! }
 \livretPers OSMAN
 \livretVerse#8 { Ah ! que me faites vous entendre ? }

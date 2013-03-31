@@ -73,7 +73,7 @@
       \new ChoirStaff \with {
         instrumentName = \markup { \smallCaps Chœur \hspace #6 } }
       <<
-        \new Staff \with { \consists "Metronome_mark_engraver" } \withLyrics <<
+        \new Staff \withLyrics <<
           \global \keepWithTag #'voix \includeNotes "voix-dessus"
         >> \keepWithTag #'vdessus \includeLyrics "paroles"
         \new Staff \withLyrics <<

@@ -64,8 +64,7 @@
   sib2 r8 sib' |
   sib'2. |
   la'4 la'8 sib' la' sol' |
-  fad'2\trill fad'8
-  \tag #'voix <>^\markup\character Chœur r |
+  fad'2\trill fad'8 r |
 }
 \vB { r4 | R2.*4 }
 %%

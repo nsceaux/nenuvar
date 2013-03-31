@@ -1,5 +1,5 @@
 \clef "vdessus"
-<>^\markup\character {
+<>^\markup\character\line\smallCaps {
   Chœur [des matelots qu'on ne voit point]
 }
 R1. |
