@@ -59,6 +59,63 @@
 \setOpus "Rameau/Opera/IndesGalantesCommon"
 \opusTitle "Les Indes Galantes"
 
+\header {
+  copyrightIndes = \markup \column {
+    \override #'(header:copyrightYear . "2010")
+    \override #`(header:maintainer
+                 . , #{ \markup {
+      Nicolas Sceaux
+      \with-url #"mailto:nicolas.sceaux@free.fr"
+      \smaller\smaller\typewriter "<nicolas.sceaux@free.fr>" } #})
+    \copyright
+    \override #'(header:copyrightYear . "2012")
+    \override #`(header:maintainer
+                 . , #{ \markup {
+    \with-url #"http://www.simphonie-du-marais.org"
+    \line { La Simphonie du Marais — Hugo Reyne } } #})
+    \copyright
+  }
+
+  longcopyright = \markup \center-column {
+    \vspace #1
+    \fromproperty #'header:copyrightIndes
+    \line { Licensed under the Creative Commons Attribution 3.0 License }
+  }
+  tagline = \markup {
+    \vspace #2
+    \column { 
+      \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7)
+      \box \column {
+        \small \fill-line { \fromproperty #'header:copyrightIndes }
+        \small \fill-line {
+          \line {
+            Sheet music from \with-url #"http://nicolas.sceaux.free.fr"
+            \typewriter \tiny http://nicolas.sceaux.free.fr
+            typeset using \with-url #"http://lilypond.org" 
+            \line { GNU LilyPond }
+            $(string-append "version " (lilypond-version))
+            on \concat { \today . }
+          }
+        }
+        \small \fill-line {
+          \line {
+            \italic Free to download, with the \italic freedom
+            to distribute, modify and perform.
+          }
+        }
+        \small \fill-line {
+          \line {
+            Licensed under the Creative Commons Attribution 3.0 License,
+            for details see: \hspace #-0.5 
+            \with-url #"http://creativecommons.org/licenses/by/3.0" 
+            http://creativecommons.org/licenses/by/3.0
+          }
+        }
+      }
+    }
+  }
+}
+
 \layout {
   indent = #(if (eqv? #t (ly:get-option 'urtext))
                   smallindent

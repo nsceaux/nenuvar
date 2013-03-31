@@ -1,6 +1,5 @@
 #(ly:set-option 'indes-version 'v1735)
 \include "Rameau/Opera/IndesGalantesCommon/common.ily"
-\include "common/simphonie-du-marais.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Title page
