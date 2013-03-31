@@ -18,7 +18,17 @@ la r |
       \footnoteHere #'(0 . 0) \markup {
         Source : mesures 16 à 25 des hautes-contre et tailles laissées vides.
       }
-      \ru#10 s1
+      r4 si do' mi' |
+      la fa' re' si |
+      sol mi' do' la |
+      fa re'4 si sold |
+      do' re' mi' do' |
+      re' mi' fa' mi' |
+      mi' r4 r2 |
+      mi4 r4 r4 si |
+      re'2 r4 sold |
+      la fa' si mi' |
+      
     }
   >>
   mi'4 la2. |

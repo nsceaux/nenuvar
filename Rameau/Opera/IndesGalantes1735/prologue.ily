@@ -143,10 +143,6 @@
 \includeScore "AEHchoeur"
 
 %{ n°21 %}
-\pieceTocTitle "Contredanse"
-\includeScore "AEEcontredanse"
-
-%{ n°22 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"
 \reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
 "AAAouverture" "AEIouverture"

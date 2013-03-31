@@ -39,7 +39,7 @@ R |
 r8 red'16 mi' fad' sol' fad' sol' la' si' la' si' |
 do''8 la' fad' red' si red' |
 mi'8. la16 si4 si |
-mi'2 mi'4 |
+mi'2^\parenthesize\fermata mi'4 |
 re'2. |
 do' |
 si |
@@ -50,11 +50,7 @@ re'4. mi'8 fa'4 |
 mi'2. |
 la2 fad'4 |
 sol'2. |
-\vA fad'2.
-\vB <<
-  \origVersion { fad'2~ fad'4 }
-  \modVersion fad'2.
->>
+fad'2. |
 mi'2 la'4 |
 re'2. |
 r4 r re'4 |

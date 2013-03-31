@@ -209,7 +209,7 @@
     si''4 re'''2 |
     r8 r16 la'' \times 2/3 { do'''16*3/2[( si'' do''']) } re''16 r4 |
     r8 sol'' fad''4.\trill sol''8 |
-    sol''2. |
+    sol''2
   }
   \tag #'flute2 {
     <>^\markup\whiteout { Petite flute }
@@ -219,7 +219,7 @@
     sol''4 si''2 |
     r8 r16 fad'' \times 2/3 { la''16*3/2[( sol'' la'']) } do''16 r4 |
     r8 si' la'4.\trill sol'8 |
-    sol'2. |
+    sol'2
   }
   \tag #'(dessus1 conducteur1-1735) {
     <>^\markup\whiteout Musettes
@@ -229,7 +229,7 @@
     re''~ |
     re''2 r4 |
     r8 re'' re''4 do'' |
-    si'2. |
+    si'2
   }
   \tag #'(dessus2 conducteur2-1735) {
     <>^\markup\whiteout Musettes
@@ -239,6 +239,6 @@
     sol' |
     fad'2 r4 |
     r8 re' re'2 |
-    re'2. |
+    re'2
   }
 >>

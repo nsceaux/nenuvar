@@ -26,15 +26,6 @@
 
     \modVersion\new StaffGroupNoBar <<
       \new Staff <<
-        { s8 s4.*22
-          s4.*42 \tempo "Lent"
-          s4.*4 \tempo "Gay"
-          s4.*6
-          \once \override Score.RehearsalMark #'break-visibility =
-          #end-of-line-invisible
-          \once \override Score.RehearsalMark #'direction = #UP
-          \once \override Score.RehearsalMark #'self-alignment-X = #LEFT
-          \mark\markup\italic Fin. }
         \instrumentName "Violons"
         \global \includeNotes "violon"
       >>

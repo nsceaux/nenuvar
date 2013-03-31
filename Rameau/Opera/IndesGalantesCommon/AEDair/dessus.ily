@@ -209,7 +209,7 @@ mi''4
   \tag #'violon { r8 | R4.*3 | r4 \Bv }
 >>
 re'''8^"Tous"_\fort |
-si''\trill la'' re'''\fort |
+si''\trill la'' re''' |
 fad''\trill \appoggiatura mi''8 re''8 sol'' |
 sol''8. la''16 fad''8\trill |
 sol''4

@@ -3,7 +3,22 @@
   \vB<>^\markup "Trompettes et violons"
   r4 r8 re''16 re'' re''4. re''16 re'' |
   re''4 fad''8 fad'' re'' re'' la' la' |
-  re''4 re''8 mi'' fad''4\trillSug fad''8 sol'' |
+  <<
+    \modVersion\new Voice {
+      \override TextScript.padding = #1
+      \ru#2 {
+        s4 s4^\markup\score {
+          \new RhythmicStaff \with {
+            \remove "Time_signature_engraver"
+            \remove "Staff_symbol_engraver"
+            \override NoteHead.stencil = ##f
+          } \new CueVoice { do8. do16 }
+          \layout { indent = #0 line-width = 4 }
+        }
+      }
+    }
+    { re''4 re''8 mi'' fad''4\trillSug fad''8 sol'' | }
+  >>
   la''4 re'''8 re''' re''' re''' la'' la'' |
   fad''4 la''8 la'' fad'' fad'' re'' re'' |
   mi''4 la' mi'' la' |
@@ -24,9 +39,33 @@
   r4 r8 fad''16 fad'' fad''4. fad''16 fad'' |
   fad''4 la''8 la'' fad'' fad'' re'' re'' |
   la'2 r |
-  r4 re''8 re'' sol''2 |
+  r4
+  \modVersion\new Voice {
+    \override TextScript.padding = #1
+    <>^\markup\score {
+      \new RhythmicStaff \with {
+        \remove "Time_signature_engraver"
+        \remove "Staff_symbol_engraver"
+        \override NoteHead.stencil = ##f
+      } \new CueVoice { do8. do16 }
+      \layout { indent = #0 line-width = 4 }
+    }
+  }
+  re''8 re'' sol''2 |
   r4 sol''8 sol'' mi'' mi'' mi'' mi'' |
-  la'4 fad''8 fad'' mi''4 la'' |
+  la'4
+  \modVersion\new Voice {
+    \override TextScript.padding = #1
+    <>^\markup\score {
+      \new RhythmicStaff \with {
+        \remove "Time_signature_engraver"
+        \remove "Staff_symbol_engraver"
+        \override NoteHead.stencil = ##f
+      } \new CueVoice { do8. do16 }
+      \layout { indent = #0 line-width = 4 }
+    }
+  }
+  fad''8 fad'' mi''4 la'' |
   fad''4.\trill la''16 la'' la''4. la''16 la'' |
   la''4 re'''8 re''' la'' la'' fad'' fad'' |
   re''4 la''8 la'' fad'' fad'' re'' re'' |
@@ -48,7 +87,22 @@
   mi'' mi''4 fad'' |
   \appoggiatura mi''8 re''2 re''4 \appoggiatura dod''8 si'4 |
   si'2 si'4 lad'\trill |
-  si' sol''8 sol'' sol''4 si''8 si'' |
+  <<
+    \modVersion\new Voice {
+      \override TextScript.padding = #1
+      \ru#2 {
+        s4 s4^\markup\score {
+          \new RhythmicStaff \with {
+            \remove "Time_signature_engraver"
+            \remove "Staff_symbol_engraver"
+            \override NoteHead.stencil = ##f
+          } \new CueVoice { do8. do16 }
+          \layout { indent = #0 line-width = 5 }
+        }
+      }
+    }
+    { si'4 sol''8 sol'' sol''4 si''8 si'' | }
+  >>
   si''2 si''4 re''' |
   la''2 la''4 sold'' |
   la''2 mi''4 mi'' |

@@ -5,7 +5,7 @@ re2 re |
 <<
   \tag #'timbales { la,2 r4 re }
   \tag #'basse {
-    \footnoteHere #'(0 . -5) \markup {
+    \footnoteHere #'(0 . -6) \markup {
       Source : \raise #4 \score {
         \new Staff {
           \tinyQuote \clef "bass" \time 2/2 \partial 4 \key re \major
@@ -57,5 +57,5 @@ re2
 >> 
 re8-\tag #'basse ^"Timbales" -\tag #'conducteur ^"Tymballes" re re re re re |
 re2 re |
-re4. re16 re re[ re re re] re[ re re re] |
+re4.*5/6 re16 re re re[ re re re] re[ re re re] |
 re1 |

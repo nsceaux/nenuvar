@@ -32,6 +32,22 @@ sol4 r r2 |
   }
   <<
     \ru#13 s1
+    { %%
+      \ru#8 do'8-. |
+      \ru#16 do'16 |
+      \ru#16 do'16 |
+      \ru#16 do'16 |
+      \ru#16 mib'16 |
+      \ru#16 mib'16 |
+      re'16 re re re \ru#12 re |
+      \ru#16 mi16 |
+      \ru#16 mi' |
+      fa'16 fa fa fa \ru#12 fa |
+      \ru#16 re' |
+      \ru#16 do'16 |
+      do'8 r r4 r2 |
+      
+    }
     %{ \tag #'part \new CueVoice {
       <>^"[Dessus]" -\doux \ru#8 do'8-. |
       <>-\plusfort \ru#16 do'16 |
@@ -106,10 +122,22 @@ mi'32 do' do' do' do' do' do' do' do' do' do' do' do'4 do'8 |
     \modVersion\new CueVoice {
       <>^\markup\smaller "[version ultérieure]"
       lab4 sib8 do'4 do'8 |
-      fa4
+      fa4 %%%%%
+      r8 r16 fa' fa'4 r8 r16 fa' |
+      do'4 r do' r |
+      re' r r2 |
+      \ru#16 fad'16 |
+      dod'4 r mi' r |
+      mib'! r r2 |
+      \ru#16 sol'16 |
+      sol'4 r sol' r |
+      sol' r r r8 re' |
+      sol'4 r r r8 sol' |
+      do'8 r do' r do' r do' r |
+      fa'4 r fa' r |
     }
   >>
-  << { s2. \ru#11 s1 }
+  <<
     %{ \tag #'part \new CueVoice {
       <>^"[Dessus]" r8 r16 lab'\doux lab'4 r8 r16 lab'\moinsdoux |
       la'4 r la' r |

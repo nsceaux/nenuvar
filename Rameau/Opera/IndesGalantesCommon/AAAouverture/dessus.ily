@@ -41,7 +41,7 @@ R1 |
 r4 re''8 mi'' fad'' sol'' la'' fad'' |
 sol''4 sol' sol'' sol' |
 sol''2 r8 sol'' fad'' sol'' |
-mi''1 |
+mi''1\trillSug |
 r4 do'''8 si'' la'' sol'' fad'' mi'' |
 do'''4. si''8 la'' sol'' fad'' mi'' |
 red''4-\vA\trill si'8 dod'' red'' mi'' fad'' sol'' |
@@ -73,7 +73,7 @@ mi''2 r |
   >>
 >>
 r8^"Tous" mi'' re'' do'' si' la' sold' fad' |
-mi'2~ mi'8 sol' fad' sold' |
+mi'2~ mi'8 sol'? fad' sold' |
 la' si' sold' la' si' do'' la' si' |
 do''2~ do''8 re'' si' do'' |
 re'' mi'' do'' re'' mi'' fa'' re'' mi'' |

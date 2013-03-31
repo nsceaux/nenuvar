@@ -31,7 +31,7 @@
   do''8(\trill si') la'( si') do''4 |
   si'\trill \appoggiatura la'8 sol'4 la' |
   si'8( do'') si'( dod'') re''( mi'') |
-  dod''4 \appoggiatura si'8 la'4
+  dod''4\trillSug \appoggiatura si'8 la'4
 }
 \setMusic #'rIvII {
   si'4\doux^\markup\whiteout Violons |

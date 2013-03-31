@@ -73,7 +73,7 @@ r sol' la'( sol') la'( sol') |
 mi''8( re'')\trill do''16 r |
 si'16*2/3[( la' sol']) sol''8 r |
 do''16*2/3([ si' la']) la'8.\trill sol'16 |
-sol'4. |
+sol'4.^\parenthesize\fermata |
 R4. |
 r16 si'\doux do''( si') do''( si') |
 mi'8 r4 |

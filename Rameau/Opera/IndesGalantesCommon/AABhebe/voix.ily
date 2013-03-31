@@ -53,5 +53,5 @@ lad'4.\trill fad'8 dod'' red'' |
 mi''2( lad'8) si' |
 re''4( dod''2)\trill |
 si'2. |
-mi''2 si'8 do'' |
+mi''2 si'8. do''16 |
 \origVersion { \custosNote la'4 }

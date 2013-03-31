@@ -56,7 +56,7 @@ mi' mi' fa' mi' re' re' mi' re' |
 do' mi' fad' sold' la'4 mi' |
 fa'2 mi'~ |
 mi'4 fa'8 mi' re'4. mi'8 |
-dod'4 la8 si dod' re' mi' fad' |
+dod'4\trillSug la8 si dod' re' mi' fad' |
 sol'4 la sol' la |
 fad'4 sol'8 fad' mi'4 la' |
 re'4 fad'8 sol' la'4 la' |

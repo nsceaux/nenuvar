@@ -437,16 +437,16 @@ quoteEmptyLayout = \layout {
 smallLayout = \layout {
   \context {
     \Staff fontSize = #-1
-    \override StaffSymbol #'staff-space = #(magstep -1)
+    \override StaffSymbol.staff-space = #(magstep -1)
   }
   \context { \Lyrics fontSize = #-1 }
-  \context { \FiguredBass \override BassFigure #'font-size = #-1 }
-  \context { \Voice \override Script #'avoid-slur = #'outside }
-  \context { \CueVoice \override Script #'avoid-slur = #'outside }
+  \context { \FiguredBass \override BassFigure.font-size = #-1 }
+  \context { \Voice \override Script.avoid-slur = #'outside }
+  \context { \CueVoice \override Script.avoid-slur = #'outside }
   \context {
     \Score
-    \override NonMusicalPaperColumn #'line-break-permission = #'allow
-    \override NonMusicalPaperColumn #'page-break-permission = #'allow
+    \override NonMusicalPaperColumn.line-break-permission = #'allow
+    \override NonMusicalPaperColumn.page-break-permission = #'allow
   }
 }
 
