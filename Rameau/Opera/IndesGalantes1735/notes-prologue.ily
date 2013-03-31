@@ -1,4 +1,4 @@
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretAct\line { Prologue }
 
   \justify {

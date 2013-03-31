@@ -1,6 +1,5 @@
 #(ly:set-option 'indes-version 'v1735)
 \include "Rameau/Opera/IndesGalantesCommon/common.ily"
-\include "common/simphonie-du-marais.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Title page
@@ -29,7 +28,11 @@
 }
 %% Notes
 \bookpart {
-  \paper { #(define page-breaking ly:minimal-breaking) }
+  \paper {
+    #(define page-breaking ly:minimal-breaking)
+    ragged-bottom = ##t
+    score-markup-spacing = #'((basic-distance . 8) (padding . 1) (minimum-distance . 8))
+  }
   \include "Rameau/Opera/IndesGalantes1735/notes.ily"
 }
 %% Livret 1735

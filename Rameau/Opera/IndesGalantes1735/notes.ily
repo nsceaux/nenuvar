@@ -1,13 +1,13 @@
 \notesSection "Notes"
-\markuplist \column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \act { NOTES }
   \paragraph {
     Cette édition entreprend de reproduire la partition des
     \italic { Indes Galantes } telle qu’elle a été jouée pour les premières
     représentations d’août 1735.  Elle est basée essentiellement sur les
-    quatre cahiers manuscrits de la Bibliothèque de L’Opéra
+    quatre cahiers manuscrits de la Bibliothèque de l’Opéra
     (référence A.132.a), couvrant le prologue, \italic { le Turc généreux, }
-    \italic { les Incas du Pérou, } et \italic { les Fleurs. },
+    \italic { les Incas du Pérou, } et \italic { les Fleurs, }
     et contenant d’abondantes corrections, sous forme de collettes,
     ratures, annotations, pages ajoutées ou réordonnées.
 
@@ -19,7 +19,7 @@
   }
   \paragraph {
     Pour réaliser la partition de l’entrée des \italic Sauvages,
-    présentée en annexe, la partiton d’orchestre manuscrite référence
+    présentée en annexe, la partiton d’orchestre manuscrite référencée
     A.132.a², contenant le prologue, \italic { le Turc généreux, }
     \italic { les Incas du Pérou, } \italic { les Sauvages } et
     \italic { les Fleurs, } a été utilisée. L’édition

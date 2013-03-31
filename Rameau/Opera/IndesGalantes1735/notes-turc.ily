@@ -1,10 +1,11 @@
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretAct\line { Première entrée : Le Turc généreux }
   \livretRef #'BAAritournelle
   \livretDescAttPage RITOURNELLE
   \wordwrap {
     Une collette recouvre la fin de la ritournelle, à partir de la mesure 24 :
   }
+}
   \score {
     \new ChoirStaff <<
       \new Staff {
@@ -56,6 +57,7 @@
     }
   }
   
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretRef #'BBBtempete
   \livretDescAttPage TEMPESTE
   \wordwrap {
@@ -77,6 +79,7 @@
   \wordwrap {
     Une collette recouvre le début de la scène 4 :
   }
+}
   \score {
     \new ChoirStaff <<
       \setMusic #'glob {
@@ -120,6 +123,8 @@
     >>
     \layout { \smallLayout indent = 0 ragged-last = ##t }
   }
+
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \wordwrap {
     Les nouvelles mesures 7 et suivantes correspondent aux mesures 37
     et suivantes de la version originale.
@@ -156,6 +161,7 @@
     Une collette remplace les mesures 65 à 72 (Émilie et Valère) par un
     passage instrumental :
   }
+}
   \score {
     \new ChoirStaff <<
       \setMusic #'glob { \key sol \minor \time 3/4 \partial 4 }
@@ -199,7 +205,8 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \null
+
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \wordwrap {
     Les mesures 89 à 97 (Émilie et Valère, puis passage instrumental) sont
     barrées, de manière à enchaîner directement le petit chœur et le grand
@@ -233,6 +240,7 @@
   \wordwrap {
     Une collette ajoute le passage à la flûte, mesures 69 à 73 :
   }
+}
   \score {
     \new ChoirStaff <<
       \setMusic #'glob {
@@ -301,6 +309,8 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \wordwrap {
     Une autre collette réalise le même ajout mesures 122 à 127.
   }
@@ -364,6 +374,7 @@
     collette : c'est Émilie qui prononce
     \italic { “on languit sur le rivage”, } et non plus le chœur.
   }
+}
   \score {
     \new ChoirStaff <<
       \setMusic #'glob { \key sol \minor \time 2/4 \startQuote#8 }
@@ -431,7 +442,8 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
-  \null
+
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \wordwrap {
     Les signes de reprise \translate #'(1 . 1) \musicglyph #"scripts.segno"
     existants mesure 9 sous la collette, aux dessus et hautes-contre du chœur,

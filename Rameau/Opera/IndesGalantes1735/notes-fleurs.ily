@@ -1,4 +1,4 @@
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretAct\line { Troisième entrée : Les Fleurs }
   \livretRef #'Ritournelle
   \livretDescAttPage RITOURNELLE
@@ -56,7 +56,7 @@
     >>
     \layout { \smallLayout indent = 0 ragged-last = ##t }
   }
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretRef #'ECAfatimeTacmas
   \livretDescAttPage\wordwrap { Fatime, Tacmas :
     \italic { Demeurez étrangere } }
@@ -130,7 +130,7 @@
   >>
   \layout { \smallLayout indent = 0 ragged-last = ##t }
 }
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \wordwrap {
     Les quatre première scène sont finalement remplacées par une nouvelle
     version, sur un livret différent.
@@ -211,7 +211,7 @@
   >>
   \layout { \smallLayout indent = 0 }
 }
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretRef #'EEGfatimeChoeur
   \livretDescAttPage\wordwrap { Zaïre, chœur :
     \italic { Triomphez, agreables Fleurs ! } }
@@ -234,6 +234,7 @@
     Une collette vient remplacer les mesures 20 à 24 de la partie de
     flûte :
   }
+}
   \score {
     { \clef "french" \key re \major \digitTime\time 2/2
       sol'2\trill dod''8( re'') dod''( mi'') |
@@ -245,7 +246,7 @@
     }
     \layout { \smallLayout indent = 0 }
   }
-
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretRef #'EELorageOrig
   \livretDescAttPage ORAGE
   \wordwrap {

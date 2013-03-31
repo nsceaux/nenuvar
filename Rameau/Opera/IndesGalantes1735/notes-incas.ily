@@ -1,4 +1,4 @@
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretAct\line { Deuxième entrée : Les Incas du Pérou }
   \livretRef #'CAAritournelleOrig
   \livretDescAttPage RITOURNELLE
@@ -98,7 +98,7 @@
   \layout { \smallLayout indent = 0 }
 }
 
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretRef #'CABcarlosPhani
   \livretDescAttPage\wordwrap { PHANI, CARLOS : 
     \italic { Vous devez bannir de vôtre ame } }
@@ -140,6 +140,7 @@
       }
     }
   }
+}
   \score {
     \new ChoirStaff <<
       \new Staff \with { autoBeaming = ##f } {
@@ -182,6 +183,7 @@
     \layout { \smallLayout indent = 0 ragged-last = ##t }
   }
 
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretRef #'CBAphani
   \livretDescAttPage\wordwrap { PHANI :
     \italic { Viens, Hymen, viens m’unir au Vainqueur que j’adore } }
@@ -196,7 +198,6 @@
     La mesure 16 de la basse continue est raturée :
   }
   \line {
-    \hspace #5
     \column {
       \line { Version originale confirmée par la copie propre A.132a² : }
       \score {
@@ -250,7 +251,6 @@
     note dans la marge : \italic { corriger le role, } :
   }
   \line {
-    \hspace #5
     \column {
       \line { Version originale confirmée par la copie propre A.132a² : }
       \score {
@@ -387,7 +387,9 @@
       }
     >>
     \layout {
-      \smallLayout indent = 0 ragged-last = ##t
+      \smallLayout
+      indent = 0
+      ragged-last = ##t
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
@@ -438,7 +440,7 @@
       la'' fad''4. fad''8 |
       si''4 \appoggiatura la''8 sold''4 \appoggiatura fad''8 mi''4 |
       \appoggiatura re''8 dod''8. re''16 si'4.\trill la'8 |
-      <>^\markup\italic\large fin la'2_\fermata \bar "|:|" 
+      <>^\markup\italic\large fin la'2_\fermata \bar "|;|" 
       <<
         { mi''4 |
           fad''4 mi''4.\trill re''8 |
@@ -472,7 +474,7 @@
           mi''2
         }
       >> dod''4 |
-      \custosNote mi'' s2^\markup\musicglyph #"scripts.segno" \bar "|:|"
+      \custosNote mi'' s2^\markup\musicglyph #"scripts.segno" \bar "|;|"
       }
     \new Staff {
       \clef "bass" \key la \major
@@ -512,7 +514,8 @@
     }
   }
 }
-\markuplist\column-lines {
+
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \wordwrap {
     À la suite de ce nouveau rondeau, il est indiqué d’aller à la loure
     (page \page-refIII #'CEGloure ) avant de prendre
@@ -557,7 +560,7 @@
     la,4. dod8 mi4 la4. dod'8^"Tous" si4 |
     \custosNote la4
     \once\override TextScript #'extra-offset = #'(0 . -4)
-    s2^\markup\musicglyph #"scripts.segno" s4. \bar "|:|"
+    s2^\markup\musicglyph #"scripts.segno" s4. \bar "|;|"
     \origVersion\break
     \clef "tenor" fad'8 fad'4 |
     mi'4. fad'8 mi'4 red' sold'2 |
@@ -570,7 +573,7 @@
     dod4. mi8 sold4 dod'4. \clef "bass" dod'8^"Tous" si4 |
     \custosNote la4
     \once\override TextScript #'extra-offset = #'(0 . -4)
-    s2^\markup\musicglyph #"scripts.segno" s4. \bar "|:|"
+    s2^\markup\musicglyph #"scripts.segno" s4. \bar "|;|"
   }
   \layout {
     \smallLayout
@@ -582,7 +585,7 @@
     }
   }
 }
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \wordwrap {
     La deuxième reprise est entièrement barrée, par-dessus la collette,
     avec l’indication : \italic Passez.
@@ -627,6 +630,7 @@
   \wordwrap {
     Une collette remplace les mesures 20 à 36 :
   }
+}
   \score {
     \new ChoirStaff <<
       \new Staff {
@@ -667,6 +671,7 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \wordwrap {
     Une première collette modifie les parties de bassons et basses, entre
     les mesures 54 et 66 :
@@ -712,7 +717,7 @@
   >>
   \layout { \smallLayout indent = 0 }
 }
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \wordwrap {
     Puis une autre collette remplace entièrement les mesures 54 à 66 :
   }
@@ -755,7 +760,7 @@
   \layout { \smallLayout indent = 0 ragged-last = ##t }
 }
 
-\markuplist\column-lines {
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretRef #'CFAphaniHuascarCarlos
   \livretDescAttPage\wordwrap { PHANI, HUASCAR :
     \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
@@ -766,6 +771,7 @@
   \wordwrap {
     Une collette vient remplacer les mesures 18 à 63 :
   }
+}
 \score {
   \new ChoirStaff <<
     \new Staff \with { autoBeaming = ##f } {
@@ -817,6 +823,7 @@
   \layout { \smallLayout indent = 0 }
 }
 
+\markuplist\with-line-width-ratio #0.8 \column-lines {
   \livretRef #'CFBtrio
   \livretDescAttPage\wordwrap { PHANI, CARLOS, HUASCAR :
     \italic { Pour jamais l’Amour nous engage } }
