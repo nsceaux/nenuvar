@@ -1,4 +1,4 @@
-\tocItem "Livret"
+\notesSection "Livret"
 \markuplist\page-columns-title \act\line { LIVRET } {
 \livretAct\line { PROLOGUE }
 \livretDescAtt\wordwrap-center {

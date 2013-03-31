@@ -8,7 +8,7 @@ livret_src = livret-prologue-raw.ily \
 	livret-sauvages-raw.ily
 
 livret.ily: $(livret_src)
-	echo '\\tocItem "Livret"\n\\markuplist\\page-columns-title \\act\\line { LIVRET } {' > $@
+	echo '\\notesSection "Livret"\n\\markuplist\\page-columns-title \\act\\line { LIVRET } {' > $@
 	$(python) $(livret_py) $(livret_src) >> $@
 	echo '}' >> $@
 
