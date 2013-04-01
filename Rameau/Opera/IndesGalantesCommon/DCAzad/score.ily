@@ -13,12 +13,11 @@
         \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
         \origLayout {
-          s2. s1*5\break s1 s2. s2 \bar "" \break s4 s2.*2\break
-          s2.*2\break s2. s2\bar "" \pageBreak
-          s4 s2.*6\break s2.*5\break s2.*6\break s2.*5\pageBreak
-          \grace s8 s2.*7\break s2.*6 s4\break
-          s2 s2. s1\break s1 s2.*2\pageBreak
-          s1 s2 \bar "" \break s2 s1\break
+          s2. s1*5\break s1 s2.*2 s4 \bar "" \pageBreak
+          s2 s2.*2 s4 \bar "" \break s2 s2.*2 s2 \bar "" \break
+          s4 s2.*5 s4 \bar "" \break s2 s2.*7\break s2.*4\pageBreak
+          s2.*6\break s2.*6\break s2.*6\break \grace s8 s2. s1*2 s2.\pageBreak
+          s2. s1 s2 \bar "" \break s2 s1\break
         }
       >>
     >>
@@ -45,6 +44,7 @@
         \global \keepWithTag #'alvar \includeNotes "voix"
       >> \keepWithTag #'alvar \includeLyrics "paroles"
       \new Staff \with { \haraKiri } <<
+        \instrumentName "[Basses]"
         \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
         { s2. s1*6 s2.*7 s2 \bar "" \break

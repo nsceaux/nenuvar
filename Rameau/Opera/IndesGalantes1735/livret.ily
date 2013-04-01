@@ -1222,7 +1222,7 @@
 \livretVerse#8 { L’inconstance ne doit blesser }
 \livretVerse#8 { Que les attraits qu’elle abandonne ; }
 \livretVerse#12 { Non, le fils de Venus ne peut pas s’offenser }
-\livretVerse#12 { Lorsque nous recevons tous les fers qu’il nous donne. }
+\livretVerse#12 { Lorsque nous recevons tous les traits qu’il nous donne. }
 \livretVerse#8 { Un cœur qui change chaque jour, }
 \livretVerse#12 { Chaque jour fait pour luy des Conquêtes nouvelles ; }
 \livretVerse#12 { Les fidelles Amants font la gloire des Belles, }

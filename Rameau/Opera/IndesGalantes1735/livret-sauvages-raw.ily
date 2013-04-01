@@ -57,7 +57,7 @@
 %# L'inconstance ne doit blesser
 %# Que les attraits qu'elle abandonne ;
 %# Non, le fils de Venus ne peut pas s'offenser
-%# Lorsque nous recevons tous les fers qu'il nous donne.
+%# Lorsque nous recevons tous les traits qu'il nous donne.
 %# Un cœur qui change chaque jour,
 %# Chaque jour fait pour luy des Conquêtes nouvelles ;
 %# Les fidelles Amants font la gloire des Belles,

@@ -1,15 +1,15 @@
 \score {
   \new StaffGroupNoBar <<
     \origVersion <<
+      \new Staff \withLyrics <<
+        \global \keepWithTag #'basse \includeNotes "voix"
+      >> \keepWithTag #'basse \includeLyrics "paroles"
       \new Staff \with { \haraKiriFirst } <<
         \global \keepWithTag #'dessus1 \includeNotes "dessus"
       >>
       \new Staff \with { \haraKiriFirst } <<
         \global \keepWithTag #'dessus2 \includeNotes "dessus"
       >>
-      \new Staff \withLyrics <<
-        \global \keepWithTag #'basse \includeNotes "voix"
-      >> \keepWithTag #'basse \includeLyrics "paroles"
     >>
     \modVersion <<
       \new Staff \with { \haraKiriFirst } <<
@@ -47,16 +47,12 @@
         s4. s2.*17 s2. \bar "" \break
       }
       \origLayout {
-        s2.*2 s4\bar "" \break s2 s1\break
-        s2. s1\break s1 s4. \bar "" \pageBreak
-        s4. s2.*4 s4. \bar "" \break s4. s2.*3 s4. \bar "" \break
-        s4. s2.*4\pageBreak
-        s2.*4 s2. \bar "" \break s4 s1*4\break s1*5\pageBreak
-        s1*5\break s1*6\break s1*4\pageBreak
-        s1*5\break s1*5\break s1*5\pageBreak
-        \grace s8 s1*4\break s1*5\break s1*4\pageBreak
-        s1 s2. s2 \bar "" \break s2 s1 s2 \bar "" \break
-        s2 s2.\break s2. s4.\bar "" \break
+        s2.*3 s4 \bar "" \break s2.*2 s1*2 s8*5 \bar "" \break
+        s8 s2.*5\break s2.*5\pageBreak
+        s2.*7 s2. \bar "" \break s4 s1*6\break s1*6 s2 \bar "" \pageBreak
+        s2 s1*6 s2. \bar "" \break s4 s1*5\break s1*6\pageBreak
+        s1*6\break s1*6\break s1*5\pageBreak
+        s1*4\break s1 s2. s1\break s1*2\break s2.*2 s2 \bar "" \break
       }
     >>
   >>

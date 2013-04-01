@@ -8,8 +8,8 @@
   L’in -- cons -- tan -- ce ne doit bles -- ser
   Que les at -- traits qu’elle a -- ban -- don -- ne ;
   Non, le fils de Ve -- nus ne peut pas s’of -- fen -- ser
-  Lors -- que nous re -- ce -- vons tous les fers qu’il nous don -- ne,
-  Lors -- que nous re -- ce -- vons tous les fers qu’il nous don -- ne.
+  Lors -- que nous re -- ce -- vons tous les traits qu’il nous don -- ne,
+  Lors -- que nous re -- ce -- vons tous les traits qu’il nous don -- ne.
   Un cœur qui chan -- ge cha -- que jour,
   Cha -- que jour fait pour luy des Con -- quê -- tes nou -- vel -- les ;
   Les fi -- del -- les A -- mants font la gloi -- re des Bel -- les,
