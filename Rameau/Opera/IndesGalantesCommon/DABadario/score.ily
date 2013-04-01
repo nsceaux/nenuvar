@@ -15,9 +15,9 @@
         \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
         \origLayout {
-          s1 s2.\break s1*3\break s1*4\break
-          s1*5 s2.\break s2. s1*3\pageBreak
-          s1*3 s4\bar "" \break s2 s1*3\break
+          s1 s2. s1*2\pageBreak
+          \grace s8 s1*7\break s1*3 s2.*2 s1\break s1*5\pageBreak
+          \grace s8 s2. s1*3\break
           
         }
       >>

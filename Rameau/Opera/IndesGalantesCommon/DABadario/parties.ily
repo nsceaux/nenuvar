@@ -1,10 +1,11 @@
 \tag #'taille \clef "taille"
 \tag #'(haute-contre parties) \clef "haute-contre"
 R1 R2. R1*3 |
-\tag #'conducteur <>^\markup\whiteout "H[aute]-c[onte] et T[aille]"
+\tag #'conducteur <>^\markup\whiteout "Parties"
 dod''8 si' dod'' re'' mi''4 re''\trill |
 dod''2 r |
 R1*5 |
+\tag #'conducteur <>^\markup\whiteout "Parties"
 dod''8 si' dod'' re'' mi''4 re''\trill |
 dod''2 r |
 R2.*2 R1*3 |

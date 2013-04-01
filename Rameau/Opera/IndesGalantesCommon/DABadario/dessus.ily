@@ -1,9 +1,9 @@
 \clef "dessus" R1 R2. R1*3 |
-<>^"Tromp."
+<>^"Trompette" _"Viol[ons]"
 mi''8 re'' mi'' fad'' sol''4 fad''\trill |
-mi'' la' mi''2 |
+mi'' la' mi'' r |
 R1*5 |
-<>^"Tromp."
+<>^"Tous"
 mi''8 re'' mi'' fad'' sol''4 fad''\trill |
 mi'' la' mi''2 |
 R2.*2 R1*3 |

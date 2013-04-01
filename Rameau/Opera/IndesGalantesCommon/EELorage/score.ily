@@ -2,7 +2,7 @@
   <<
     \setMusic #'group <<
       \new Staff <<
-        \footnoteHere #'(-5 . 1) \markup {
+        \vA\footnoteHere #'(-5 . 1) \markup {
           Air postérieur, ajouté sur une collette dans les parties séparées
           pour remplacer les deux précédents.
         }

@@ -1,5 +1,6 @@
 \piecePartSpecs #`((trompette-timbales #:score "score-tt")
-                   (dessus #:instrument "Trompette")
+                   (dessus #:instrument
+                           ,(markup #:center-column ("Trompette" "Violons")))
                    (parties)
                    (basse #:tag-notes basse)
                    (basse-continue

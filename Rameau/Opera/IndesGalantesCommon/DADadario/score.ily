@@ -5,10 +5,11 @@
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \modVersion\instrumentName "[B.C.]"
+      \origVersion <>_"B.C."
+      \modVersion\instrumentName "B.C."
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout { s1*3\break s2. s1*3\break }
+      \origLayout { s2. s1*2 s2 \bar "" \break s4 s1*3\break }
     >>
   >>
   \layout { }

@@ -8,6 +8,6 @@ dod''2\trill r |
 la'2. si'4 |
 la'2. si'4 |
 la'2. la'4 |
-la'4 fad' sol'2 |
+la'4 fad' fad'2 |
 la'2. la4 |
-la la la2 |
+la la la r |

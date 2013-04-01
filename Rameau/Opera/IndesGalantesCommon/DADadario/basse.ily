@@ -1,5 +1,5 @@
 \clef "basse"
-r2 r4 sib, |
+r4 r4 sib, |
 fa,2 r4 re, |
 do,2 do~ |
 do sib,8 re |

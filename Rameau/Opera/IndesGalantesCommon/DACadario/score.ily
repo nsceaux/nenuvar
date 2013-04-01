@@ -16,9 +16,8 @@
         \global \includeNotes "basse"
         \includeFigures "chiffres"
         \origLayout {
-          s8 s2.*5\break s2.*5\pageBreak
-          s2.*5\break s2.*7\break s2.*5\pageBreak
-          s2.*5\break
+          s8 s2.*6\break s2.*7\break s2.*6\pageBreak
+          s2.*7 s2\bar "" \break s4 s2.*5 s4\break
         }
       >>
     >>

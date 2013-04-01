@@ -8,4 +8,4 @@ fad''8 mi'' re'' mi'' fad''4 sol'' |
 fad''8 mi'' re'' dod'' re''4 la' |
 fad'2\trill r |
 fad''8 mi'' re'' dod'' re''4 la' |
-fad' re' re'2 |
+fad'\trill re' re'2 |

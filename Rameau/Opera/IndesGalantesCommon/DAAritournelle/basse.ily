@@ -6,6 +6,6 @@ la, la, la,2 |
 re'2. re'4 |
 re'2. re'4 |
 re'2 re'4 la |
-re' re re2 |
-r re4 la, |
-re re, re,2 |
+re' re re r |
+r2 re4 la, |
+re re, re, r |

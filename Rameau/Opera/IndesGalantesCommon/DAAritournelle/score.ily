@@ -2,8 +2,8 @@
   <<
     \setMusic #'group <<
       \new Staff <<
-        \origVersion <>^"Trompetes et hautbois"
-        \modVersion\instrumentName\markup\center-column { Trompettes Hautbois }
+        \origVersion <>^"Trompette et hautbois"
+        \modVersion\instrumentName\markup\center-column { Trompette Hautbois }
         \global \includeNotes "trompette-hautbois"
       >>
       \new Staff <<
@@ -12,23 +12,20 @@
         \global \includeNotes "violon"
       >>
       \new Staff <<
-        \origVersion <>^"H[autes]-c[ontre] et T[ailles]"
-        \modVersion\instrumentName\markup\center-column {
-          Hautes-contre Tailles
-        }
+        \origVersion <>^"Parties"
+        \modVersion\instrumentName "Parties"
         \global \keepWithTag #'parties \includeNotes "parties"
       >>
       \new Staff <<
-        \origVersion <>^"Tymbales"
-        \modVersion\instrumentName "Tymbales"
+        \origVersion <>^"Timbales"
+        \modVersion\instrumentName "Timbales"
         \global \includeNotes "timbales"
       >>
       \new Staff <<
+        \origVersion <>^"Tous"
         \modVersion\instrumentName "[Basses]"
         \global \includeNotes "basse"
-        \origLayout {
-          s1*6\break s1*8\pageBreak
-        }
+        \origLayout { s1*7\break s1*7\break }
       >>
     >>
     \origVersion\new StaffGroupNoBar \group
