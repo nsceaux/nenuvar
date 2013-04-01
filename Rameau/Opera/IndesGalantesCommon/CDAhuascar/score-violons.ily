@@ -34,5 +34,17 @@
     \verse#12 { Je n’ay donc plus pour moy qu’un barbare artifice, }
     \verse#12 { Qui de flâme & de sang innondera ces lieux ? }
     \verse#12 { Mais, que ne risque point un amour furieux ! }
+    \on-the-fly #(lambda (layout props text)
+                   (if (eqv? (*part*) 'basse)
+                       (interpret-markup layout props text)
+                       empty-stencil))
+    \score {
+      \new Staff <<
+        \tinyQuote \clef "basse"
+        { s2^\markup\center-align "-eux !" }
+        \new CueVoice { do,2 do4 si, | \custosNote la, }
+      >>
+      \layout { \quoteLayout }
+    }
   }
 }

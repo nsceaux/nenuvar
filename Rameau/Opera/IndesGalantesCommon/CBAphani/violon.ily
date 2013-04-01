@@ -1,11 +1,11 @@
 \clef "dessus2" \origVersion <>^"violons"
 R2.*2 |
-r4 si'4.-\vA\doux sol'8 |
-do''4 do'8.-\vA( re'16-\vA) mi'8.-\vA( fad'16-\vA) |
+r4 si'4.\doux sol'8 |
+do''4 do'8.( re'16) mi'8.( fad'16) |
 sol'4 si4. do'8 |
 re'2. |
 la |
-mi'2 re'8.-\vA( do'16-\vA) |
+mi'2 re'8.( do'16) |
 si2. |
 do' |
 la |
@@ -25,10 +25,10 @@ mi'2~ mi'8. fad'16 |
 sol'4 do' r |
 mi' re'2 |
 sol' r4 |
-do'2 do''4-\vA~ |
+do'2 do''4~ |
 do''2. |
-si'8.-\vA( do''16-\vA) re''4 re' |
-sol'2-\vB\fermata sol'4 |
+si'8.( do''16) re''4 re' |
+sol'2-\parenthesize\fermata sol'4 |
 re'2 re'4 |
 mi'8. mi''16 re''8. do''16 \vA { si'8 do'' } \vB { si'8. do''16 } |
 la'4 re'' re' |

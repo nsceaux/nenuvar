@@ -2,7 +2,7 @@
 \setMusic #'rondeau {
   dod''4^\markup\character Chœur |
   mi''4 dod''4.\trill si'16[ la'] |
-  si'4 si'8 r mi''4 |
+  \appoggiatura\parenthesize la'8 si'4 si'8 r mi''4 |
   r8 la' fad'4.\trill si'8 |
   sold'4-\vA\trill la' r8 re'' |
   re''4( dod''8)\trill si' dod'' re'' |

@@ -2,13 +2,13 @@
 \setMusic #'rondeau {
   mi'4 |
   mi' mi'4. dod'8 |
-  si4-\vA\trill sold-\vA\trill mi' |
+  si4\trill \appoggiatura\parenthesize la8 sold4 mi' |
   r8 dod' dod'4. si8 |
   si4 la r8 si |
   mi'4. mi'8 mi' mi' |
   mi'2 mi'4 |
   mi' mi'4. dod'8 |
-  si4-\vA\trill sold-\vA\trill dod' |
+  si4\trill \appoggiatura\parenthesize la8 sold4 dod' |
   r8 dod' dod'4. si8 |
   si4 la r8 mi' |
   la la sold4.\trill la8 |

@@ -297,41 +297,76 @@ tresdoux =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.75
                            "tres doux"))
+tresdouxSug =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "[tres doux]"))
+
 doux =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.5 "doux"))
+douxSug =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.5 "[doux]"))
 
 ademi =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.75
                            "a demi"))
+ademiSug =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "[a demi]"))
 
 enadoucissant =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.9
                            "en adoucissant"))
+enadoucissantSug =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.9
+                           "[en adoucissant]"))
 
 moinsdoux =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.75
                            "moins doux"))
+moinsdouxSug =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "[moins doux]"))
 
 moinsfort =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.75
                            "moins fort"))
+moinsfortSug =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "[moins fort]"))
 
 plusfort =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.75
                            "plus fort"))
+plusfortSug =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "[plus fort]"))
 
 fort =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.5 "fort"))
+fortSug =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.5 "[fort]"))
 
 tresfort =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.75
                            "tres fort"))
+tresfortSug =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "[tres fort]"))
 

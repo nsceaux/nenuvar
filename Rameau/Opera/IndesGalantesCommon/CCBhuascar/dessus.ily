@@ -15,11 +15,11 @@ sol'8 sol'' fa'' mib'' fa'' sol'' |
 do'' re'' mib'' do'' re'' mib'' |
 la' re'' do'' sib' la' sol' |
 mib''4. do''8 la' re'' |
-si' sol'' fa'' mib'' do'' do''' fa'' sol'' lab'' |
-re''4. do''8-\vA( re''-\vA) mib'' |
-lab'4. re''8-\vA( mib''-\vA) fa'' |
-sol'4. mib''8 re''-\vA\trill do'' |
-mib''16-\vA( re''-\vA) do''-\vA( si'-\vA) la'-\vA( sol'-\vA) do''8 re'' si' |
+si'\trill sol'' fa'' mib'' do'' do''' fa''( sol'') lab'' |
+re''4. do''8( re'') mib'' |
+lab'4. re''8( mib'') fa'' |
+sol'4. mib''8( re'')\trill do'' |
+mib''16( re'') do''( si') la'( sol') do''8 re'' si'\trill |
 do'' lab' sol'16 r do''8 sol' fad'16 r |
 do''8 fad' sol'16 r mib''4 re''8\trill |
 do'' sol'16 fa' mib'-\vA\trill re' do'8 r4 |

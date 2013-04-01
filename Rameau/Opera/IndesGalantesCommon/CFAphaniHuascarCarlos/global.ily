@@ -14,8 +14,7 @@
   \digitTime\time 3/4 \midiTempo #80 s2.
   \time 4/4 s1*2
   \digitTime\time 2/2 \midiTempo #160 s1
-  \set Score.measureLength = #(ly:make-moment 3 2)
-  s1 \key sol \minor \time 3/2 s2
+  \time 3/2 s1 \key sol \minor s2
   s1.*27
   \digitTime\time 2/2 s2 \bar ""
   \inMusicSceneDescCond #(eqv? (ly:get-option 'indes-version) 'v1735)

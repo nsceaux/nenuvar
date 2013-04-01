@@ -34,6 +34,6 @@ mi' re' do' si la4 re' |
 si2\trill r |
 r4 si'2 la'4 |
 re' re' re' re' |
-re'2 si~ |
+re'2 si_\douxSug~ |
 si la\trill |
 sol1 |

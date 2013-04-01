@@ -22,6 +22,6 @@ do re |
 mi2 r |
 r4 si, do la, |
 re sol re re |
-sol2 si, |
-do\doux re |
+sol2 si,\doux |
+do re |
 sol,1 |

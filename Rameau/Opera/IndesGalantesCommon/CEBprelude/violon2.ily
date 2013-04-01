@@ -27,7 +27,7 @@ do' r |
   la'2 r |
   R1 |
   r8 r16 mi'' la'8. fa''16 mi''4 re'' |
-  dod''1 |
+  dod''1\trillSug |
 }
 \vB {
   r4 sold' la' do''~ |

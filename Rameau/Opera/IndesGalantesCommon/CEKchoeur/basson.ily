@@ -18,18 +18,18 @@ lab do' lab do' lab do' lab do' |
 lab do' lab do' sol sib sol sib |
 sol sib r4 r2 |
 \vA {
-  \ru#8 do8-. |
-  \ru#8 do |
-  fa8 lab fa lab fa lab fa lab |
+  <>\douxSug \ru#8 do8-. |
+  <>\plusfortSug \ru#8 do |
+  <>\tresfortSug fa8 lab fa lab fa lab fa lab |
   fa8 lab fa lab reb'( mib') reb'( mib') |
   do'( mib') do'( mib') do'( mib') do'( mib') |
-  do'( mib') do'( mib') do'( mib') do'( mib') |
-  sib( reb') sib( reb') sib( reb') sib( reb') |
-  sol sib sol sib sol sib sol sib |
-  sol( sib) sol( sib) sol( sib) sol( sib) |
-  fa lab fa lab fa lab fa lab |
-  fa( lab) fa( lab) fa( lab) fa( lab) |
-  mi sol mi sol mi sol mi sol |
+  <>\moinsfortSug do'( mib') do'( mib') do'( mib') do'( mib') |
+  <>\douxSug sib( reb') sib( reb') sib( reb') sib( reb') |
+  <>\tresfortSug sol sib sol sib sol sib sol sib |
+  <>\moinsfortSug sol( sib) sol( sib) sol( sib) sol( sib) |
+  <>\tresfortSug fa lab fa lab fa lab fa lab |
+  <>\moinsfortSug fa( lab) fa( lab) fa( lab) fa( lab) |
+  <>\tresfortSug mi sol mi sol mi sol mi sol |
   mi? r r4 r2 |
   fa8(\doux lab) fa( lab) fa( lab) fa( lab) |
   fa\fort lab fa lab fa sol fa sol |
@@ -61,12 +61,12 @@ lab,4 sib,8 do4 do8 |
   fa,4 \clef "tenor" r8 r16 do' do'4 r8 r16 do' |
   fa'4 r sol' r |
   fad' r r2 |
-  fad'8 dod' fad' dod' fad' dod' fad' dod' |
-  fad'4 r fad' r |
-  sol' r r2 |
-  re'8 sol' re' sol' re' sol' re' sol' |
-  re'? sol' re' sol' re' sol' re' sol' |
-  re'?4 r r r8 re' |
+  <>\fortSug fad'8 dod' fad' dod' fad' dod' fad' dod' |
+  <>\enadoucissantSug fad'4 r fad' r |
+  <>\douxSug sol' r r2 |
+  <>\fortSug re'8 sol' re' sol' re' sol' re' sol' |
+  <>\enadoucissantSug re'? sol' re' sol' re' sol' re' sol' |
+  <>\douxSug re'?4 r r r8 <>\fortSug re' |
   sol4 r r r8 do' |
   fa' r fa' r fa' r fa' r |
   r4 fa' r fa' |
@@ -77,6 +77,6 @@ lab,4 sib,8 do4 do8 |
   fa lab fa lab fa lab fa lab |
   fa lab fa lab fa lab fa lab |
 }
-fa4 r r r8 lab |
+<>\douxSug fa4 r r r8 lab\fortSug |
 sol4 r sib r |
 la r

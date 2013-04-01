@@ -145,6 +145,6 @@ lab'4 sib'8 do''4 do''8 |
   \ru#16 lab'16 |
   \ru#16 lab'16 |
 }
-lab'4\doux r r r16 lab' sol' fa' |
+lab'4\doux r r r16 lab'\fort sol' fa' |
 fa'4 r mi'\trill r |
 fa' r

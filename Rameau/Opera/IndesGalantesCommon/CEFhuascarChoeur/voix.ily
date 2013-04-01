@@ -10,21 +10,21 @@ mi' dod'4.\trill si16[ la] |
 si4 mi mi' |
 r8 la fad4.\trill si8 |
 sold4\trill \vA la4 \vB { la8 r } r8 si |
-\vA\appoggiatura si8 dod' re' si4.\trill la8 |
+\appoggiatura si8 dod' re' si4.\trill la8 |
 la2 r4 |
 R2.*11 |
 r4 r dod'4^\markup \character "Huascar" |
 dod'4.( si8)\trill la sold |
 sold4.( fad8)\trill mid8 fad |
-mid2\trill \appoggiatura { \vA re8 \vB re16 } dod4 |
-sold4 la8 sold fad-\vA\trill mid |
+mid2\trill \appoggiatura re8 dod4 |
+sold4 la8 sold fad\trill mid |
 fad2 r8 sold |
 si dod' sold4.\trill fad8 |
 fad2 la8 si |
-sold2-\vB\trill sold8 \vA lad \vB la |
+sold2\trillSug sold8 lad |
 si2 fad8 fad |
 dod'2 si8 dod' |
-re'4 \appoggiatura { \vA dod'8 \vB dod'16 } si8 r re'8 dod' |
+re'4 \appoggiatura dod'8 si8 r re'8 dod' |
 si4 dod' re' |
 mi'2 re'16[ dod'] si[ la] |
 sold2\trill sold8 la |
@@ -46,7 +46,7 @@ re'2 fad8 fad |
 si2 dod'8 re' |
 sold2\trill sold4 |
 si4 la8 sold fad mi |
-red2-\vB\trill si8 mi' |
+red2\trillSug si8 mi' |
 la2 fad8 si |
 mi2
 \vA\origVersion {

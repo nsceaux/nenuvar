@@ -15,7 +15,7 @@ r8 fa' fa' fa' fa' do' |
 fa' fa' lab' lab' lab' fa' |
 do''2. |
 r8 lab' lab' lab' lab' mib' |
-lab' lab' lab' lab' do'' lab' |
+lab' lab' do'' do'' do'' lab' |
 mib'4.~ mib'4 sib8 |
 reb'4. reb'8 reb' sib |
 fa'4.~ fa'4 lab'8 |

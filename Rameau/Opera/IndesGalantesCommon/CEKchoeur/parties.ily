@@ -27,67 +27,33 @@ sol4 r8 sol32\fort sol sol sol sol8 sol sol sol |
 >>
 sol4 r r2 |
 \vA {
-  \footnoteHere #'(-1 . 0.1) \markup {
-    Source : partie laissée vide jusqu'à la mesure 36 incluse.
+  \footnoteHere #'(-1 . -5) \markup {
+    Source : partie laissée vide jusqu'à la mesure 36 incluse,
+    complétée par Hugo Reyne.
   }
   <<
     \ru#13 s1
-    { %%
-      \ru#8 do'8-. |
-      \ru#16 do'16 |
-      \ru#16 do'16 |
+    \new CueVoice {
+      <>\douxSug \ru#8 do'8-. |
+      <>\plusfortSug \ru#16 do'16 |
+      <>\tresfortSug \ru#16 do'16 |
       \ru#16 do'16 |
       \ru#16 mib'16 |
-      \ru#16 mib'16 |
-      re'16 re re re \ru#12 re |
-      \ru#16 mi16 |
-      \ru#16 mi' |
-      fa'16 fa fa fa \ru#12 fa |
-      \ru#16 re' |
-      \ru#16 do'16 |
+      <>\moinsfortSug \ru#16 mib'16 |
+      re'16 <>\douxSug re re re \ru#12 re |
+      <>\tresfortSug \ru#16 mi16 |
+      <>\moinsfortSug \ru#16 mi' |
+      fa'16 <>\tresfortSug fa fa fa \ru#12 fa |
+      <>\moinsfortSug \ru#16 re' |
+      <>\tresfortSug \ru#16 do'16 |
       do'8 r r4 r2 |
-      
     }
-    %{ \tag #'part \new CueVoice {
-      <>^"[Dessus]" -\doux \ru#8 do'8-. |
-      <>-\plusfort \ru#16 do'16 |
-      <>-\tresfort \ru#32 reb'32 |
-      \ru#16 reb' \ru#16 solb' |
-      \ru#32 sol' |
-      <<
-        { do''16\moinsfort sib' la' sib' do'' sib' la' sib'
-          do'' sib' la' sib' do'' sib' la' do'' |
-          sib' } 
-        { la'16 sol' fad' sol' la' sol' fad' sol'
-          la' sol' fad' sol' la' sol' fad' la' |
-          sol' }
-        >> sib\doux sib sib sib sib sib sib \ru#8 sib |
-      << { s32 <>\tresfort } \ru#32 sib32 >> |
-      <<
-        { <>\moinsfort sib'16 lab' sol' lab' sib' lab' sol' lab'
-          sib' lab' sol' lab' sib' lab' sol' sib' |
-          lab'32 }
-        { sol'16 fa' mi' fa' sol' fa' mi' fa'
-          sol' fa' mi' fa' sol' fa' mi' sol' |
-          fa'32 }
-        >>  lab\tresfort lab lab lab lab lab lab \ru#24 lab32 |
-      <<
-        { <>\moinsfort lab'16 sol' fa' sol' lab' sol' fa' sol'
-          lab' sol' fa' sol' lab' sol' fa' lab' |
-          sol'4\tresfort ~ sol'32 }
-        { fa'16 mib' re' mib' fa' mib' re' mib'
-          fa' mib' re' mib' fa' mib' re' fa' |
-          mi'4~ mi'32 }
-        >> do' re' mi' fa' sol' lab' sib' do''4
-      \ottava #1 r32 do'' re'' mi'' fa'' sol'' lab'' sib'' |
-      do'''8 \ottava #0 r r4 r2 |
-    } %}
   >>
   << s1*3
     \modVersion\new CueVoice {
       <>^"[version ultérieure]"
-      \ru#8 do'8-. |
-      \ru#16 reb'16 |
+      <>\douxSug \ru#8 do'8-. |
+      <>\fortSug \ru#16 reb'16 |
       sol4 r sib r |
     }
   >>
@@ -115,43 +81,28 @@ do''4 reb''8 sol'4 do''8 |
 fa'32 reb' reb' reb' reb' reb' reb' reb' reb' reb' reb' reb' reb'4 fa'8 |
 mi'32 do' do' do' do' do' do' do' do' do' do' do' do'4 do'8 |
 \vA {
-  \footnoteHere #'(-1 . 0.1) \markup {
-    Source : partie laissée vide jusqu'à la mesure 66 incluse.
+  \footnoteHere #'(0 . -7) \markup {
+    Source : partie laissée vide jusqu'à la mesure 66 incluse,
+    complétée par Hugo Reyne à partir de la mesure 55.
   }
   << { s2. s4 }
     \modVersion\new CueVoice {
       <>^\markup\smaller "[version ultérieure]"
       lab4 sib8 do'4 do'8 |
       fa4 %%%%%
-      r8 r16 fa' fa'4 r8 r16 fa' |
+      r8 r16 <>\douxSug fa' fa'4 r8 r16 <>\moinsdouxSug fa' |
       do'4 r do' r |
       re' r r2 |
-      \ru#16 fad'16 |
-      dod'4 r mi' r |
-      mib'! r r2 |
-      \ru#16 sol'16 |
-      sol'4 r sol' r |
-      sol' r r r8 re' |
+      <>\fortSug \ru#16 fad'16 |
+      <>\enadoucissantSug dod'4 r mi' r |
+      <>\douxSug mib'! r r2 |
+      <>\fortSug \ru#16 sol'16 |
+      <>\enadoucissantSug sol'4 r sol' r |
+      <>\douxSug sol' r r r8 <>\fortSug re' |
       sol'4 r r r8 sol' |
       do'8 r do' r do' r do' r |
       fa'4 r fa' r |
     }
-  >>
-  <<
-    %{ \tag #'part \new CueVoice {
-      <>^"[Dessus]" r8 r16 lab'\doux lab'4 r8 r16 lab'\moinsdoux |
-      la'4 r la' r |
-      la'? r r2 |
-      la'?32_\fort \ru#31 la' |
-      la'4 r la'\doux r |
-      sib'4 r r2 |
-      <>_\fort \ru#32 sib'32 |
-      si'4\enadoucissant r si' r |
-      si'? r4 r r16 sol'\fort la' si'! |
-      do''4 r r r16 sib' lab' sol' |
-      lab'8 r lab' r lab' r lab' r |
-      lab'4 r lab' r |
-    } %}
   >>
 }
 \vB {
@@ -162,6 +113,6 @@ mi'32 do' do' do' do' do' do' do' do' do' do' do' do'4 do'8 |
   \ru#16 fa' |
   \ru#16 fa' |
 }
-re'4 r r r8 re' |
+<>\douxSug re'4 r r r8 re'\fortSug |
 do'4 r do' r |
 do' r

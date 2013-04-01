@@ -146,7 +146,7 @@
       mib'2 mib'4 mib'8 re' |
       re'\trill re' r16 fa' fa' fa' fad'4\trill fad'8 sol'16 la' |
       sib'8 re' re'8. mi'16 fa'8 re' |
-      sol'8. sol'16 sol'4 sib8 sib16 do' |
+      sol'4. sol'16 sol' sib8 sib16 do' |
       re'4 re'8
       <<
         { s8 s2 s2. s1*3 s4 }

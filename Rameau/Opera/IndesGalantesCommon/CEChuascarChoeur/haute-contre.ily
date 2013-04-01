@@ -133,4 +133,4 @@ mi'2 r |
 R1 |
 r8 la' mi' mi' dod' dod' la la |
 dod''2 si'4 re'' |
-dod''1 |
+dod''1\trillSug |
