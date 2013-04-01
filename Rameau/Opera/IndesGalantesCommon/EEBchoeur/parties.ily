@@ -10,7 +10,7 @@ mi''2 mi''8. mi''16 |
 la'4. la'8 sol' fad' |
 si'2~ si'8 sol' |
 mi'2\trill la4 |
-la sol fad8 sol |
+\once\slurDashed la( sol) fad8 sol |
 la2 r4 |
 r4 r r8 mi' |
 fad'4 re' re'8 re' |

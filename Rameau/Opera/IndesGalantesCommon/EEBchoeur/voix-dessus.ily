@@ -121,5 +121,5 @@ r4 mi'' sol'' |
 fad''4.( mi''8)\trill re'' dod'' |
 \appoggiatura dod''8 re''2 dod''8 \appoggiatura si'16 lad'8 |
 si'2 si'8 lad' |
-\appoggiatura lad'?8 si'2 r4 |
+\appoggiatura lad'?8 si'2. |
 R2.*6 |

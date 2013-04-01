@@ -140,17 +140,17 @@
   }
 }
 % 349
-\pieceTocTitle "Premier Air des Fleurs — Rondeau"
+\pieceTocTitle "Premier rondeau"
 \includeScore "EEHrondeau"
 
 %{ n°18 %}
 % 348-349
-\pieceTocTitle "Air tendre pour la Rose — Rondeau"
+\pieceTocTitle "Deuxième rondeau pour les Fleurs"
 \includeScore "EEIrondeau"
 
 %{ n°19 %}\newBookPart #'(full-rehearsal)
 % 350 ou 361
-\pieceTocTitle "Gavotte pour les Fleurs — Rondeau"
+\pieceTocTitle "Gavotte en rondeau"
 \includeScore "EEKgavotte"
 
 %{ n°20 %}

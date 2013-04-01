@@ -10,12 +10,12 @@ mi''2~ mi''8 fad'' |
 dod''2\trill <<
   \tag #'(dessus1 conducteur) \new Voice {
     \tag #'conducteur \voiceOne mi'4 |
-    fad' mi' fad' |
+    \once\slurDashed fad'( mi') fad' |
     mi'2\trill
   }
   \tag #'(dessus2 conducteur) \new Voice {
     \tag #'conducteur \voiceTwo dod'4 |
-    re' dod' re' |
+    \once\slurDashed re'( dod') re' |
     dod'2\trill
   }
 >> r8 la' |
@@ -28,7 +28,7 @@ re' <<
   { s4 s2.*3 s2 r8 s8 s2.*3 s2 r4 R2. r4 r8 s4. s2. s2 r4 r4 r r8 s }
   \tag #'(dessus1 conducteur) \new Voice {
     \tag #'conducteur \voiceOne la'4_\doux |
-    si' la' si' |
+    \once\slurDashed si'( la') si' |
     la'2\trill re''4 |
     mi'' dod''4.\trill re''8 |
     re''2 s8 fad''_\fort |
@@ -48,7 +48,7 @@ re' <<
   }
   \tag #'(dessus2 conducteur) \new Voice {
     \tag #'conducteur \voiceTwo fad'4 |
-    sol' fad' sol' |
+    \once\slurDashed sol'( fad') sol' |
     fad'2\trill fad'4 |
     sol' mi'4. la'8 |
     fad'2\trill s8 la' |
