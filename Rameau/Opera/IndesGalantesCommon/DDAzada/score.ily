@@ -36,12 +36,12 @@
         s8 s2 s1*3 s2. s1*4 s2. s1*2 s2. s1 s2.*3\break
       }
       \origLayout {
-        s8 s2 s1\break s1 s2 \bar "" \pageBreak
-        s2 s2. s1\break s1*2\break s1\break
-        s2. s1\break s1 s2.\break \grace s8 s1 s2.*3\pageBreak
-        s1*5\break s1*3\break s1*2\break
-        \grace s8 s2.*2 s2 \bar "" \break s2 s2. s1\pageBreak
-        s1*2 s2. s2 \bar "" \break s4 s1*2\break
+        s8 s2 s1\pageBreak
+        s1*2\break s2. s1*2\break s1*2\break
+        s2. s1*2\break s2. s1 s2.\break s2.*2\pageBreak
+        s1*5\break s1*3 s2 \bar "" \break \grace s8 s2 s1 s2.\break
+        s2. s1 s2. s2 \bar "" \break s2 s1*2 s2. \pageBreak
+        s2. s1*2\break
       }
     >>
   >>

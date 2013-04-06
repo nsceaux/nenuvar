@@ -15,15 +15,15 @@ sol2 re |
 mib2.~ |
 mib |
 re |
-re'4 re'8 mi' re'4 la |
+<>^"Basses" re'4 re'8 mi' re'4 la |
 si la8 sol fad4 mi8 re |
-sol la sol fad mi4 re |
-la la, la, r |\allowPageTurn
-r2 la4 sol |
+sol la sol fad mi4\trill re |
+la la, la,4. r8 |\allowPageTurn
+<>^"B.C." r2 la4 sol |
 fad1 |
 mi2 la |
 re2 r4 re'8 do' |
-si4~ si8. la16 sol8 la16 sol fad8 sol |
+si4. la8 sol8 la16 sol fad8 sol |
 la2 r4 lad |
 si8 re mi4 fad |
 si,4 si la |
