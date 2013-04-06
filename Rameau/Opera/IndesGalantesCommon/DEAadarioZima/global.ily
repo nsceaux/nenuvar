@@ -14,4 +14,4 @@ s2.*6
 \time 4/4
 s1
 \digitTime \time 2/2 \midiTempo #160
-s1*2 \bar "|."
+s1*2 \bar ""

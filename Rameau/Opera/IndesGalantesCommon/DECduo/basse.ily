@@ -15,7 +15,7 @@ mi'2 re'8 do' |
 si8 do' re' do' si la |
 sol4 fa mi8 re |
 do4 si, do |
-sol,2 \clef "tenor/tenor" sol8 la |
+sol2 \clef "tenor/tenor" sol8 la |
 sib8. do'16 sib8. la16 sib8. sol16 |
 la2 si8. do'16 |
 sol2. |

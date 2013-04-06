@@ -1,8 +1,8 @@
 \clef "basse" r2 |
 R1 |
 r2 re'4 la |
-fa'2 fa'8 mi' re' dod' |
-re'4 re'8 do'! sib2 |
+fa'2 fa'8( mi') re'( dod') |
+re'4 re'8 do'! sib2\trill |
 la la, |
 la,1~ |
 la,4. sol,8 fa,2 |
@@ -27,4 +27,4 @@ fa, r4 fa |
 do2 re |
 mi do4 r |
 re r r mi |
-la,2 \origVersion r2
+la,2 r2 |
