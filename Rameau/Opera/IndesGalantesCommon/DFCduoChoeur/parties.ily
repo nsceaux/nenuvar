@@ -19,5 +19,5 @@
 
 R1*16
 \keepWithTag #'() \refrain
-R1*16 \origVersion s1*2
-R1*16 \origVersion s1*2
+R1*16
+R1*16

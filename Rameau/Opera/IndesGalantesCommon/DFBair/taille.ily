@@ -63,5 +63,5 @@ re' r |
 la' dod' |
 re'2. la'4 |
 sib'2 la' |
-fad'?2. mi'8 re' |
+fad'2.\trill mi'8 re' |
 \origVersion { \custosNote re'2 s }

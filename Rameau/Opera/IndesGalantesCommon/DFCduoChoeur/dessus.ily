@@ -6,7 +6,7 @@ sib'4 re' sol' sib' |
 re''2 sol'8 sib' re'' sol'' |
 mib'' mib'' re'' re'' do'' do'' sib' sib' |
 la' la' sol' sol' fad' sol' sol'8.(\trill fad'32 sol') |
-la'8 sol' fad' mi' re' r r4 |
+la'8 sol' fad'\trill mi' re' r r4 |
 sib'2 re'8 sol' sib' do'' |
 la'4 re' fad' la' |
 do''2 re'8 la' do'' re'' |
@@ -24,7 +24,7 @@ sol'2 sol |
   re''2 sol'8 sib' re'' sol'' |
   mib'' mib'' re'' re'' do'' do'' sib' sib' |
   la' la' sol' sol' fad' sol' sol'8.(\trill fad'32 sol') |
-  la'8 sol' fad' mi' re' r r4 |
+  la'8 sol' fad'\trill mi' re' r r4 |
   sib'2 re'8 sol' sib' do'' |
   la'4 re' fad' la' |
   do''2 re'8 la' do'' re'' |
@@ -32,7 +32,7 @@ sol'2 sol |
   re''2 sol'8 sib' re'' sol'' |
   mib'' mib'' re'' re'' do'' do'' sib' sib' |
   la' re'' do'' sib' la' sol' la' fad' |
-  sol'1
+  sol'2 sol
 }
 \keepWithTag #'() \choeur
 
@@ -52,10 +52,6 @@ sol' do'8 mib' sol' la' |
 fa'4 re' sib' re' |
 do' sib' la'8 sib' do'' la' |
 sib' la' sol' fa' mib' re' do' sib |
-\origVersion {
-  sib'2 re'8 sol' sib' do'' |
-  \custosNote la'2 s
-}
 
 sib''2 sol''8( la'') sib''( do''') |
 sib''( la'') sol''( fa'') mi''( re'') do''( si') |
@@ -73,7 +69,3 @@ mi''2 la'8 dod'' mi'' fa'' |
 re'' la' la''2.~ |
 la''4 sol''8\trill fa'' mi'' re'' mi'' dod'' |
 re'' do'' sib' la' sol' fad' mi' re' |
-\origVersion {
-  sib'2 re'8 sol' sib' do'' |
-  \custosNote la'2 s
-}

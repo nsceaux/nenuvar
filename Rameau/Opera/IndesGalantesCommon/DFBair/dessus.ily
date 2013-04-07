@@ -7,8 +7,8 @@
   re''2 sol'8 sib' re'' sol'' |
   mib'' mib'' re'' re'' do'' do'' sib' sib' |
   la' la' sol' sol' fad' sol' sol'8.(\trill fad'32 sol') |
-  la'8 sol' fad'\trill mi' re'2 |
-  sib' re'8 sol' sib' do'' |
+  la'8 sol' fad'\trill mi' re' r r4 |
+  sib'2 re'8 sol' sib' do'' |
   la'4 re' fad' la' |
   do''2 re'8 la' do'' re'' |
   sib'4 re' sol' sib' |
@@ -37,7 +37,7 @@ re''4 fa' sib' re'' |
 fa''2 sib'8 re'' fa'' sib'' |
 sol'' sol'' fa'' fa'' mib'' mib'' re'' re'' |
 do'' do'' sib' sib' la' sib' sib'8.(\trill la'32 sib') |
-do''8 sib' la' sol' fa' mib' re' do' |
+do''8 sib' la'\trill sol' fa' mib' re' do' |
 mib'2 sib8 mib' sib' sol' |
 mib'2 sib8 mib' sib' sol' |
 mib'2 do'8 mib' do'' mib' |

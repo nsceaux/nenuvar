@@ -18,5 +18,5 @@
 
 R1*16
 \keepWithTag #'() \choeur
-R1*16 \origVersion s1*2
-R1*16 \origVersion s1*2
+R1*16
+R1*16

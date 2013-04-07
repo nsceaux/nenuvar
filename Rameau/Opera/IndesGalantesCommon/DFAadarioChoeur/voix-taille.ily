@@ -7,8 +7,8 @@ fa'4 re' do' do'8 do' |
 do'2 r4 do'8 do' |
 mi'2 mi'4 fad' |
 sol'1 |
-fa'4 fa'8 fa' fa'4 sol' |
-mi'2 mi'4 r |
+fa'!4 fa'8 fa' fa'4 sol' |
+mi'2\trill mi'4 r |
 R1*6 |
 mi'4 re'8 do' si[ la] sold[ fad] |
 si1 |
@@ -17,7 +17,7 @@ si2 si4. si8 |
 si1 |
 do'2 do'4 do' |
 do'4.( si8 la2)~ |
-la2 sold |
+la2 sold\trill |
 la r4 mi'8 re' |
 dod'4 la dod' si8 la |
 re'2 re'4 re'8 re' |
@@ -47,15 +47,15 @@ re'2~ re'8[\melisma do' sib la]( |
 sib2)\melismaEnd sib |
 la1 |
 mi'2 mi'4 mi' |
-la2\melisma si8[ dod' re' mi'] |
+la2(\melisma si8)[ dod' re' mi'] |
 fa'2~ fa'4. sol'16[ fa']( |
-mi'2)\melismaEnd dod' |
+mi'2)\melismaEnd dod'\trill |
 re'1 |
 R1 |
 mi'2 mi'4 mi' |
 mi'2. mi'4 |
 la1~ |
 la4.\melisma sib16[ do'] re'2~ |
-re'\melismaEnd dod' |
+re'\melismaEnd dod'\trill |
 re'1 |
 R1*7 |

@@ -60,10 +60,6 @@
     re2 sib,8 re fa sib |
     fa,2 fa4 fa, |
     sib8 la sol fa mib re do sib, |
-    \origVersion {
-      sol2 sol,4 sol |
-      \custosNote re2 s
-    }
   }
   \tag #'basse \new CueVoice \keepWithTag #'() \BC
   \tag #'basse-continue \keepWithTag #'() \BC
@@ -76,7 +72,7 @@
     mi la |
     re r |
     re' re' |
-    dod' do' |
+    dod'\trill do' |
     \appoggiatura do'8 si2 sib |
     la r |
     la la,4 la |
@@ -87,10 +83,6 @@
     fad4. la8 re' mib' re' fad |
     sol2 la |
     re'8 do' sib la sol fad mi re |
-    \origVersion {
-      sol2 sol,4 sol |
-      \custosNote re2 s
-    }
   }
   \tag #'basse \new CueVoice \keepWithTag #'() \BC
   \tag #'basse-continue \keepWithTag #'() \BC

@@ -5,17 +5,17 @@ fa'4 fa' fa' fa'8 sib' |
 la'2 la'8 r la' la' |
 sol'4 fa' fa' fa'8 mi' |
 fa'2 r4 fa'8 sol' |
-mi'2 mi'4 fad' |
+mi'2\trill mi'4 fad' |
 sol'1 |
 fa'4 fa'8 fa' fa'4 sol' |
-mi'2 mi'4 r |
+mi'2\trill mi'4 r |
 R1*2 |
 mi'2 mi'4 mi' |
 mi'2. mi'4 |
 mi'1~ |
 mi'2. sold8 la |
 si2 si4. do'8 |
-sold1 |
+sold1\trill |
 r2 r4 sold'8 sold' |
 sold'2 sold'4. si'8 |
 mi'1 |
@@ -30,7 +30,7 @@ do'2 do'4 la'8 sol' |
 la'4 la' la' la'8 la' |
 la'2 la'8 r la' la' |
 sol'4 la' mi'4 mi'8 fa' |
-mi'2. fa'8 fa' |
+mi'2.\trill fa'8 fa' |
 fa'4 fa' fa' fa'8 mi' |
 fa'1 |
 la'2 la'4 la' |
@@ -53,7 +53,7 @@ mi'1 |
 la'2 la'4 la' |
 la'1~ |
 la'2~ la'4.\melisma sib'16[ la']( |
-sol'2)\melismaEnd sol'\trill |
+sol'2)\melismaEnd sol' |
 fa'1 |
 R1 |
 sol'2 sol'4 sib' |
@@ -61,5 +61,5 @@ la'1~ |
 la'~ |
 la'2~ la'8[\melisma sib' sol' la']( |
 sib'2)\melismaEnd mi' |
-fa'1 |
+fa'1\trill |
 R1*7 |

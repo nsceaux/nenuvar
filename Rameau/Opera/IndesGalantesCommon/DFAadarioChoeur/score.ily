@@ -1,16 +1,12 @@
 \score {
   \new StaffGroupNoBar <<
     \origVersion <<
-      %% Violons
-      \new Staff <<
-        { <>^"Violons" s4 s1*32 s2 <>^"Violons" }
-        \global \keepWithTag #'dessus \includeNotes "dessus"
-      >>
-      \new Staff \with { \haraKiriFirst } <<
-        { s4 s1*32 s2 \noHaraKiri <>^"H[autes]-c[ontre] et T[ailles]" }
-        \global \keepWithTag #'parties \includeNotes "parties"
-      >>
-      %% Choeur
+      %% Adario
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s4 s1*10 <>^\markup\character Adario }
+        \global \keepWithTag #'adario \includeNotes "voix"
+      >> \keepWithTag #'adario \includeLyrics "paroles"
+      %% Chœur
       \new Staff \with { \haraKiriFirst } \withLyrics <<
         { s4 s1*32 s2 \noHaraKiri }
         \global \keepWithTag #'vdessus \includeNotes "voix"
@@ -27,24 +23,26 @@
         { s4 s1*32 s2 \noHaraKiri }
         \global \includeNotes "voix-basse"
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
-      %% Adario
-      \new Staff \with { \haraKiriFirst } \withLyrics <<
-        { s4 s1*7 <>^\markup\character Adario }
-        \global \keepWithTag #'adario \includeNotes "voix"
-      >> \keepWithTag #'adario \includeLyrics "paroles"
+      %% Violons
+      \new Staff <<
+        { s4 s1*32 s2. \noHaraKiri <>^"Viol" }
+        \global \keepWithTag #'dessus \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        { s4 s1*32 s2. \noHaraKiri <>^"Parties" }
+        \global \keepWithTag #'parties \includeNotes "parties"
+      >>
       \new Staff <<
         \global \includeNotes "basse"
         \includeFigures "chiffres" 
         \origLayout {
-          s4 s1*7\pageBreak
-          s1*5\break s1*5\break s1*5\break \grace s8 s1*5\pageBreak
-          s1*5 s2 \bar "" \break s2 s1*3 s2 \bar "" \pageBreak
-          s2 s1*5\break s1*5\pageBreak
-          s1*5\break s1*5\pageBreak
-          s1*5\break s1*4\pageBreak
-          s1*6\break s1*4\pageBreak
-          s1*5\break s1*7\pageBreak
+          s4 s1*6\break s1*7\break s1*5\break \grace s8 s1*7\pageBreak
+          s1*7 s2. \bar "" \break s4 s1*4\pageBreak
+          s1*8\pageBreak
+          s1*7\break s1*6\pageBreak
+          s1*6\break s1*8\pageBreak
           s1*7\break s1*7\pageBreak
+          s1*8\break s1*8\pageBreak
         }
       >>
     >>
@@ -57,7 +55,7 @@
           \global \keepWithTag #'dessus \includeNotes "dessus"
         >>
         \new Staff \with { \haraKiriFirst } <<
-          { s4 s1*32 s2 \noHaraKiri <>^"H[autes]-c[ontre] et T[ailles]" }
+          { s4 s1*32 s2 \noHaraKiri <>^\markup\whiteout "Parties" }
           \global \keepWithTag #'parties \includeNotes "parties"
         >>
       >>
@@ -87,7 +85,6 @@
         \instrumentName "[Basses]"
         \global \includeNotes "basse"
         \includeFigures "chiffres"
-        { s4 s1*32 s2 \bar "" \break }
       >>
     >>
   >>

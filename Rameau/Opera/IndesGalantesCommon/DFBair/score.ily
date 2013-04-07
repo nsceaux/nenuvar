@@ -21,7 +21,7 @@
         \global \includeNotes "basse"
         \origLayout {
           s1*8\break s1*8\break s1*8\pageBreak
-          s1*9\break s1*8\break s1*9\pageBreak
+          s1*8\break s1*7\break \grace s8 s1*11\pageBreak
         }
       >>
     >>

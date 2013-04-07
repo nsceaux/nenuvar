@@ -54,7 +54,7 @@ sib8 la sol fa mib re do sib, |
 R1*4 |
 re'2 re4 re' |
 dod'\trill do'2 do'4 |
-si2 sib |
+\appoggiatura do'8 si2 sib |
 la r |
 la la,4 la |
 sold4. si8 re'8 fa' re' sold |

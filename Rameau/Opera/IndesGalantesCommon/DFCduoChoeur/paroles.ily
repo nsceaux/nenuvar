@@ -21,11 +21,9 @@
   Of -- frir tes faux at -- traits,
   Ciel ! Ciel ! tu les as fai -- tes,
   Pour l’in -- no -- cen -- ce et pour la paix.
-  \origVersion \tag #'zima {  Fo -- rêts pai_- _  }
 
   Jou -- is -- sons dans nos a -- zi -- les,
   Jou -- is -- sons des biens tran -- quil -- les :
   Ah ! peut- on être heu -- reux
   Quand on for -- me d’au -- tres vœux ?
-  \origVersion \tag #'zima {  Fo -- rêts pai_- _  }
 }

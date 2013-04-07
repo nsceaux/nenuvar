@@ -33,7 +33,7 @@ fa1 |
 fa2 fa4 fa |
 fad2.~ fad8 fad |
 sol2. sol8 sol |
-sold2 sold4. sold8 |
+sold2\trill sold4. sold8 |
 la1 |
 R1*3 |
 r2 r4 la8 si |
@@ -41,7 +41,7 @@ dod'2 dod'4. la8 |
 re'2 r |
 re4 re8 mi fad[ sol] la[ sib] |
 do'1 |
-do'2 sib4\prall la |
+do'2 sib4 la |
 sib8[\melisma do' re' do'] sib[ la sol fa]( |
 mi2)\melismaEnd sol |
 dod1 |
@@ -53,7 +53,7 @@ sib1 |
 R1 |
 sib2 sol4 mi |
 la4.\melisma si8[ dod' re' mi' dod'] |
-re'[ do' sib la] sol[ fa mi re] |
+re'[ do'! sib la] sol[ fa mi re] |
 re'[ do' sib la] sol[ fa mi re]( |
 sol2)\melismaEnd la |
 re1 |
