@@ -1,10 +1,10 @@
-\clef "basse" <>^"Tous" R2. |
+\clef "basse" R2. |
 re'8 mi' fad' mi' fad' mi' |
 re'4 re re |
 re'8 mi' fad' mi' fad' mi' |
 re'4 re re |
 R2. |
-re'4 r re |
+re'4 re re |
 la2. |
 dod'8 re' mi' re' mi' re' |
 dod'4 fad'2 |

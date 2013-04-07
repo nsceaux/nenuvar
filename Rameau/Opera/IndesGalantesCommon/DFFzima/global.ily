@@ -3,11 +3,11 @@
 \digitTime \time 2/2 \partial 4
 \origVersion {
   s4 s1*32 <>^\markup\musicglyph #"scripts.segno"
-  s1*49 s1_\markup\large\italic Fin
+  s1*42 \tempo "Lent" s1*2 \tempo "Vite" s1*5 s1_\markup\large\italic Fin
 }
 \modVersion {
   s4 s1*32 \segnoMark \bar "||"
-  s1*50 \bar "|." \fineMark
+  s1*42 \tempo "Lent" s1*2 \tempo "Vite" s1*6\bar "|." \fineMark
 }
 \digitTime\time 3/4 \midiTempo #92 s2.*9
 \digitTime \time 2/2 s1

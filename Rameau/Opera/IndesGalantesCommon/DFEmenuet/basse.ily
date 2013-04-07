@@ -11,20 +11,20 @@ fa4 fa fa |
 fa2. |
 fad2 re4 |
 sol2 re4 |
-sol8\doux la sib do' la4 |
-sib8 la sol la fad4 |
-sol8 la sib do' la4 |
-sib2 \appoggiatura la8 sol4 |
+sol8\doux( la) sib( do') la4 |
+sib8( la) sol( la) fad4 |
+sol8( la) sib( do') la4 |
+\appoggiatura la8 sib2 \appoggiatura la8 sol4 |
 sib8\fort la sol fa mi re |
-dod4 re r |
-re'2\doux dod'4 |
+dod4\trill re r |
+re'2\doux dod'4\trill |
 re'2 la4 |
 << <>_\fort
-  { re'4 do'8 sib la sol |
+  { <>^"Basses" re'4 do'8 sib la sol |
     fa sol la2 |
     re'4 do'8 sib la sol |
     fa8 mi re2 } \\
-  { re4 do8 sib, la, sol, |
+  { <>_"Bassons" re4 do8 sib, la, sol, |
     fa, sol, la,2 |
     re4 do8 sib, la, sol, |
     fa,8 mi, re,2 } >>

@@ -2,7 +2,7 @@
   \new StaffGroup <<
     \new Staff <<
       \instrumentName "Trompettes"
-      \global \includeNotes "trompette"
+      \global \keepWithTag #'trompette \includeNotes "hautbois-trompette"
     >>
     \new Staff <<
       \instrumentName "Timbales"

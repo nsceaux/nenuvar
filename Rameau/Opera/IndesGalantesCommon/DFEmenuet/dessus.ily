@@ -1,53 +1,45 @@
 \clef "dessus"
 <<
-  \tag #'hautbois {
+  \tag #'dessus1 {
     fa''4 fa'' fa'' |
-    fa''8 sol'' la''2 |
-    sol''8\doux la'' sib'' sol'' la''4 |
+    fa''8( sol'') la''2 |
+    sol''8\doux( la'') sib''( sol'') la''4 |
     fa''2\trill mi''4 |
     fa''4\fort mi''8 re'' do'' sib' |
     la' sib' do''2 |
     fa''4 mi''8 re'' do'' sib' |
     la' sol' fa'2 |
     la''4 la'' la'' |
-    la''8 sib'' do'''2 |
+    la''8( sib'') do'''2 |
   }
-  \tag #'(violon1 violon2 violons) {
+  \tag #'dessus2 {
     re''4 re'' re'' |
-    re''8 mi'' fa''2 |
-    mi''8\doux fa'' sol''4 mi'' |
-    la'2 r4 |
+    re''8( mi'') fa''2 |
+    mi''8\doux( fa'') sol''4 mi'' |
+    la'2. |
     fa''4\fort mi''8 re'' do'' sib' |
     la' sib' do''2 |
     fa''4 mi''8 re'' do'' sib' |
     la' sol' fa'2 |
     fa''4 fa'' fa'' |
-    fa''8 sol'' la''2 |
+    fa''8( sol'') la''2 |
   }
 >>
 la''8 sol'' fad'' mi'' re'' re''' |
 sib''2\trill la''4 |
 <<
-  \tag #'hautbois {
+  \tag #'dessus1 {
     sib''8(\doux la'') sol''( la'') fad''4 |
     sol''8( la'') sib''( do''') la''4 |
     sib''8( la'') sol''( la'') fad''4 |
     \appoggiatura fad''8 sol''2. |
   }
-  \tag #'(violon1 violon2 violons) <>^\doux
-  \tag #'(violon1 violons) \new Voice {
-    \tag #'violons \voiceOne
-    sib'2 do''4 |
-    sib'2 do''4 |
-    sib'2 do''4 |
-    sib'2.
-  }
-  \tag #'(violon2 violons) \new Voice {
-    \tag #'violons \voiceTwo
-    re'2 mib'4 |
-    re'2 mib'4 |
-    re'2 mib'4 |
-    re'2. |
+  \tag #'dessus2 {
+    <>_\doux ^"a 2 cordes"
+    <sib' re'>2 <do'' mib'>4 |
+    <sib' re'>2 <do'' mib'>4 |
+    <sib' re'>2 <do'' mib'>4 |
+    <sib' re'>2.
   }
 >>
 sib''8\fort la'' sol'' fa'' mi'' re'' |

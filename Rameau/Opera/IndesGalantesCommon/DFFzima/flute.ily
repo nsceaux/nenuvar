@@ -13,7 +13,8 @@ re'''2( dod'''4.)\trill re'''8 |
 re'''1 |
 R1*7 |
 la''1~ |
-la''2 sol'' fad''1 |
+la''2 sol'' |
+fad''2. r4 |
 R1*13 |
 re'''2 re''' |
 re'''1~ |
@@ -24,14 +25,17 @@ re'''1 |
 la'' |
 la'' |
 R1*4 |
+<>^\markup\smaller "[Source A.132a²]"
 la''4. sol''8 fad''4.\trill mi''8 |
 \appoggiatura mi''8 fad''2 mi'' |
 fad'' sol'' |
 fad''1\trill |
 R1*4 |
+<>^\markup\smaller "[Source A.132a²]"
 re'''1~ |
 re'''2 la''4 r |
 R1 |
+<>^\markup\smaller "[Source A.132a²]"
 la''4. sol''8 fad''4.\trill mi''8 |
 re''8 fad'' la'' re''' la''4 r |
 la''1 |
@@ -40,7 +44,7 @@ R1 |
 r2 la''4 la'' |
 re'''2. re'''4 |
 re'''2 la'' |
-fad''1 |
+fad''2\trill r |
 R1*2 |
 r2 re''' |
 re'''( dod'''4.)\trill re'''8 |

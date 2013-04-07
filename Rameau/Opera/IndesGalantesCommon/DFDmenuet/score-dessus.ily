@@ -2,12 +2,13 @@
   \new StaffGroup <<
     \new Staff <<
       \instrumentName\markup\center-column {
-        Trompetes Hautbois
+        Trompette Hautbois
+        \line { \concat { P \super rs } Violons }
       }
       \global \keepWithTag #'dessus1 \includeNotes "dessus"
     >>
     \new Staff <<
-      \instrumentName "[Violons]"
+      \instrumentName\markup { \concat { 2 \super ds } Violons }
       \global \keepWithTag #'dessus2 \includeNotes "dessus"
     >>
   >>

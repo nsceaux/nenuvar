@@ -1,12 +1,15 @@
 \score {
   \new StaffGroup <<
     \new Staff <<
-      \instrumentName "Hautbois"
-      \global \keepWithTag #'hautbois \includeNotes "dessus"
+      \instrumentName\markup\center-column {
+        Hautbois
+        \line { \concat { P \super rs } Violons }
+      }
+      \global \keepWithTag #'dessus1 \includeNotes "dessus"
     >>
     \new Staff <<
-      \instrumentName "Violons"
-      \global \keepWithTag #'violons \includeNotes "dessus"
+      \instrumentName\markup { \concat { 2 \super ds } Violons }
+      \global \keepWithTag #'dessus2 \includeNotes "dessus"
     >>
   >>
   \layout { }

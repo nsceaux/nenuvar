@@ -14,9 +14,12 @@
 >>
 la''4 sol''8 fad'' mi'' re'' |
 <<
-  \tag #'dessus1 \new Voice { \voiceOne re'''2. }
-  \tag #'(dessus1 dessus2) \new Voice {
-    \tag #'dessus1 \voiceTwo
+  \tag #'(dessus2 dessus1) \new Voice {
+    \tag #'dessus1 { \voiceOne <>^\markup\smaller"[Violons]" }
+    re'''2.
+  }
+  \tag #'dessus1 \new Voice {
+    \voiceTwo
     la''4 sol''8 fad'' mi'' re''
   }
 >>
@@ -28,6 +31,6 @@ sol''8 fad'' mi'' re''
 << \tag #'dessus1 la' \tag #'(dessus1 dessus2) dod'' >> re'' |
 \appoggiatura re''8 mi''2 la'4 |
 la''4 sol''8 fad'' mi'' re''
-<< re'''4 \\ la''4 >> sol''8 fad'' mi'' re'' |
+<< re'''4-\tag #'dessus1 ^\markup\smaller [violons] \tag #'dessus1 la''4 >> sol''8 fad'' mi'' re'' |
 la'4 re''8 mi'' fad'' mi'' |
 re''2. |

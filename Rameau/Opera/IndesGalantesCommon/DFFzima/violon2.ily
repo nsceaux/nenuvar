@@ -5,11 +5,8 @@ mi'' re'' dod'' re'' mi'' fad'' sol'' mi'' |
 fad''2 la' |
 dod'' la' |
 re''1 |
-dod''2 r4 la'8 si' |
-dod''2~ dod''8 si' la' si' |
-dod''2~ dod''8 si' la' si' |
-dod''4 si'8 la' sold'4.\trill la'8 |
-la'2 r |
+dod''2 r2 |
+R1*4 | \allowPageTurn
 la''8 sol'' fad'' mi'' re'' dod'' si' la' |
 si' la' sol' fad' sol' fad' mi' re' |
 sol''8 fad'' mi'' re'' dod'' si' la' sol' |
@@ -30,20 +27,15 @@ fad''1\trill~ |
 fad''2~ fad''4. mi''8 |
 la'2 re'' |
 la'1 |
-la'2. re''4 |
+la'2. re''4\doux |
 mi''8 re'' dod'' si' la' si' la' sol' |
 fad' sol' fad' mi' re' fad' sol' la' |
-si' dod'' re''2 dod''4 |
-re''2 la' |
+si' dod'' re''2 dod''4\trill |
+re''2\fort la' |
 dod'' la' |
 re''1 |
 dod''2\trill r |
-R1 |
-r2 r4 la'8 si' |
-dod''2~ dod''8 si' la' si' |
-dod''2. si'8 la' |
-mi''2 re'' |
-dod''\trill r |
+R1*6 |
 la''8 sol'' fad'' mi'' re'' dod'' si' la' |
 si' la' sol' fad' sol' fad' mi' re' |
 sol'' fad'' mi'' re'' mi'' re'' dod'' si' |
@@ -75,8 +67,8 @@ re''2( dod''4.\trill) re''8 |
 re''2 r |
 R1 |
 r4 mi''8 mi'' mi'' mi'' mi'' mi'' |
-re''1 |
-r2 la' |
+re''1~ |
+re''2 la' |
 la'1 |
 R2.*9 |
 r2 r4 re'' |

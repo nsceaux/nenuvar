@@ -2,7 +2,7 @@
 R1*3 |
 r4 re8 re re4 re |
 la,2 r |
-la, la, |
+R1 |
 la,2 la, |
 la, r |
 R1*14 |
@@ -20,7 +20,7 @@ R1*3 |
 r4 re8 re re4 re |
 la,1 |
 R1 |
-\new CueVoice { la,2 la, } |
+la,2 la, |
 la, r |
 R1*12 |
 la,16 la, la, la, la, la, la, la, la,4. la,8 |

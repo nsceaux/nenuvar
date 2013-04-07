@@ -2,28 +2,28 @@
   <<
     \setMusic #'group <<
       \new Staff <<
-        \origVersion <>^"Hautbois"
-        \modVersion\instrumentName "Hautbois"
-        \global \keepWithTag #'hautbois \includeNotes "dessus"
-      >>
-      \new Staff <<
-        \origVersion <>^"Violons"
-        \modVersion\instrumentName "Violons"
-        \global \keepWithTag #'violons \includeNotes "dessus"
-      >>
-      \new Staff <<
-        \origVersion <>^"H[autes]-c[ontre] et T[ailles]"
+        \origVersion <>^\markup { \concat { P \super rs } Viol[ons] et H[aut]bois }
         \modVersion\instrumentName\markup\center-column {
-          H[autes]-c[ontre] T[ailles]
+          Hautbois
+          \line { \concat { P \super rs } Violons }
         }
+        \global \keepWithTag #'dessus1 \includeNotes "dessus"
+      >>
+      \new Staff <<
+        \origVersion <>^\markup { \concat { 2 \super es } Viol[ons] }
+        \modVersion\instrumentName\markup { \concat { 2 \super ds } Violons }
+        \global \keepWithTag #'dessus2 \includeNotes "dessus"
+      >>
+      \new Staff <<
+        \origVersion <>^"Parties"
+        \modVersion\instrumentName "Parties"
         \global \keepWithTag #'parties \includeNotes "parties"
       >>
       \new Staff <<
-        \modVersion\instrumentName "[Basses]"
+        \origVersion <>^"Basses"
+        \modVersion\instrumentName "Basses"
         \global \includeNotes "basse"
-        \origLayout {
-          s2.*12\break s2.*12\break
-        }
+        \origLayout { s2.*11\pageBreak s2.*9\break s2.*4\break }
       >>
     >>
     \origVersion\new StaffGroupNoBar \group
