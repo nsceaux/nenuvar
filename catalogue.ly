@@ -387,9 +387,7 @@ O Emmanuel")
         #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1735 et entrée des sauvages de 1736.")
         #:key "Rameau/Opera/IndesGalantes1735"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
-        #:main ((urtext "Version urtext"
-                        #:options "-durtext")
-                (concert "Version de concert"))
+        #:main ((#f "Conducteur"))
         #:parts ((dessus "Violons, Flûtes, Hautbois")
                  (trompette-timbales "Trompette et Timbales"
                                      #:score-file "part-tt.ly")

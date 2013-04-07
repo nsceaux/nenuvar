@@ -1731,18 +1731,12 @@ Rameau/Opera/HippolyteEtAricie-all: \
 .PHONY: Rameau/Opera/HippolyteEtAricie-delivery Rameau/Opera/HippolyteEtAricie-clean Rameau/Opera/HippolyteEtAricie-all
 
 ### Les Indes Galantes (1735 & sauvages)
-# Version urtext
-Rameau/Opera/IndesGalantes1735-urtext:
+# Conducteur
+Rameau/Opera/IndesGalantes1735:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes1735-urtext -durtext \
+	-o $(OUTPUT_DIR)/IndesGalantes1735  \
 	Rameau/Opera/IndesGalantes1735/main.ly
-.PHONY: Rameau/Opera/IndesGalantes1735-urtext
-# Version de concert
-Rameau/Opera/IndesGalantes1735-concert:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/IndesGalantes1735-concert  \
-	Rameau/Opera/IndesGalantes1735/main.ly
-.PHONY: Rameau/Opera/IndesGalantes1735-concert
+.PHONY: Rameau/Opera/IndesGalantes1735
 # Violons, Flûtes, Hautbois
 Rameau/Opera/IndesGalantes1735-dessus:
 	$(LILYPOND_CMD) \
@@ -1776,8 +1770,7 @@ Rameau/Opera/IndesGalantes1735-basse-continue:
 
 Rameau/Opera/IndesGalantes1735-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/IndesGalantes1735
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-urtext.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
-	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-concert.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
+	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-dessus.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-trompette-timbales.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-trompette-timbales.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-parties.pdf ]; then mv -fv $(OUTPUT_DIR)/IndesGalantes1735-parties.pdf $(DELIVERY_DIR)/Rameau/IndesGalantes1735; fi
@@ -1790,8 +1783,7 @@ Rameau/Opera/IndesGalantes1735-clean:
 	@rm -f $(OUTPUT_DIR)/IndesGalantes1735-* $(OUTPUT_DIR)/IndesGalantes1735.*
 
 Rameau/Opera/IndesGalantes1735-all: \
-	Rameau/Opera/IndesGalantes1735-urtext \
-	Rameau/Opera/IndesGalantes1735-concert \
+	Rameau/Opera/IndesGalantes1735 \
 	Rameau/Opera/IndesGalantes1735-dessus \
 	Rameau/Opera/IndesGalantes1735-trompette-timbales \
 	Rameau/Opera/IndesGalantes1735-parties \
