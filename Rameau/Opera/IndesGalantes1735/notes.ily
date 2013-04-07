@@ -20,9 +20,7 @@
   \paragraph {
     Pour réaliser la partition de l’entrée des \italic Sauvages,
     présentée en annexe, la partiton d’orchestre manuscrite référencée
-    A.132.a², contenant le prologue, \italic { le Turc généreux, }
-    \italic { les Incas du Pérou, } \italic { les Sauvages } et
-    \italic { les Fleurs, } a été utilisée. L’édition
+    A.134 a été utilisée. L’édition
     \italic {
       Les Indes galantes, balet réduit à quatre grand
       concerts avec une nouvelle entrée complette

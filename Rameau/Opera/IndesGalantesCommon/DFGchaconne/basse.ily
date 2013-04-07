@@ -1,4 +1,4 @@
-\clef "basse" r4 re mi |
+\clef "basse" <>^"Tous" r4 re mi |
 fa fa, sol |
 fa fa, fa  |
 sol la la, |
@@ -6,8 +6,8 @@ re re, re |
 mi mi, mi |
 fa fa, fa |
 sol sol, sol |
-la la, la |
-la2 sold4 |
+la la, la~ |
+la2 sold4\trill |
 sol!2 fa4 |
 sol la la, |
 re fa re |
@@ -18,7 +18,7 @@ re,2. |
 r8 la16 sol fad8 mi fad re |
 dod8 dod16 re dod8 si, dod la, |
 re fad16 mi re8 fad16 mi re8 re, |
-la,2. |
+la,2 r4 |
 r8 la16 sol fad8 mi fad re |
 dod dod16 re dod8 si, dod la, |
 re fad16 mi re8 fad16 mi re8 re, |
@@ -39,15 +39,15 @@ re4. re8 la, la, |
     fad2 sol4\trill |
     fad2 si4 |
     la( sol8.)\trill fad16 sol4 |
-    fad la sol |
-    fad2 sol4 |
+    fad la sol\trill |
+    fad2 sol4\trill |
     fad2 si4 |
     la( sol8.)\trill fad16 sol4 |
     fad } \\
-  { re,2._"[B.C.]" re, re, re, re, re, re, re, |
+  { re,2._"Basses" re, re, re, re, re, re, re, |
     re,4 }
 >>
-<>^"[Tous]" fad re |
+<>^"Tous" fad re |
 sol2 sol4 |
 sol2 fad4 |
 sol la la, |
@@ -74,7 +74,7 @@ re,8 r r4 r |
     mi4
   }
   \new Voice {
-    \voiceTwo <>_"[B.C.]"
+    \voiceTwo <>_"Basses"
     r16 fad, fad, fad, fad, fad, fad, fad, fad, fad, fad, fad, |
     sol,4 s2 |
     r16 sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, |
@@ -95,7 +95,7 @@ la, r4 |
     mi4
   }
   \new Voice {
-    \voiceTwo <>_"[B.C.]"
+    \voiceTwo <>_"Basses"
     r16 fad, fad, fad, fad, fad, fad, fad, fad, fad, fad, fad, |
     sol,4 s2 |
     r16 sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, sold, |
@@ -105,7 +105,7 @@ la, r4 |
 r16 la, la, la, la, la, la, la, re re, re, re, |
 la, la, la, la, la, la, la, la, re re, re, re, |
 la,8. re16 la,4 la, |
-re, re'4. re'8 |
+re, re'4.\doux re'8 |
 la4 do'2 |
 sib4. la8 sol4 |
 la2 la,4 |
@@ -152,7 +152,7 @@ sol la la, |
 si, sol, la, |
 si, sol, la, |
 si, sol, la, |
-re8. dod16 si,4 mi |
+re8.( dod16) si,4 mi |
 la, fad mi |
 re dod si, |
 mi2.~ |
@@ -190,11 +190,11 @@ re4. re8 la, la, |
     re4 la_\doux sol\trill |
     fad2 sol4\trill |
     fad2 si4 |
-    la sol8.\prall( fad16) sol4 |
-    fad\trill la sol\trill |
+    la( sol8.)\trill fad16 sol4 |
+    fad la sol\trill |
     fad2 sol4\trill |
     fad2 si4 |
-    la sol8.\trill( fad16) sol4 |
+    la( sol8.)\trill fad16 sol4 |
     fad re_\doux sol4 | } \\
   { <>_"[B.C.]"
     re,2. re, re, re, re, re, re, re, |

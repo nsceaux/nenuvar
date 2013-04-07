@@ -1,7 +1,7 @@
 \clef "dessus"
 <<
   \setMusic #'violons {
-    r4 fa'8.( sol'16) sol'8.\trill( fa'32 sol') |
+    r4 fa'8.(\doux sol'16) sol'8.\trill( fa'32 sol') |
     la'4( re') sib' |
     la'( re') re'' |
     re''4. dod''8 re'' mi'' |
@@ -9,10 +9,10 @@
     fa''( mi''8.\trill re''16) dod''8.\trill( mi''16) |
     la'4 re''4. do''8 |
     sib'8.( do''16) sib'8.( la'16) sol'8.( fa'16) |
-    mi'4 la'4.( do''8) |
+    mi'4\trill la'4.( do''8) |
     si'4 re''4.( dod''16) re'' |
     dod''4.\trill mi''8 la'4~ |
-    la'8( sol'16 fa') mi'4.\trill re'8 |
+    la'8( sol'16\trill fa') mi'4.\trill re'8 |
     re'4 la'4.( do''8) |
     si'4 mi''4.( fa''16 sol'') |
     dod''4.\trill mi''8 la'4~ |
@@ -28,7 +28,7 @@
     }
   >>
   \tag #'(violons violon1 violon2) {
-    <>^"Tous" \doux \keepWithTag #'() \violons
+    <>^"Tous" \keepWithTag #'() \violons
   }
 >>
 %% avec tromp-hbts
@@ -38,7 +38,7 @@ mi''8 la'16 la' mi''8 mi'' mi''8.(\trill re''32 mi'') |
 fad''8 la''16 sol'' fad''8 la''16 sol'' fad'' mi'' re'' fad'' |
 <<
   \tag #'(tromp-hbt trompette tromp-part hautbois) {
-    mi''8 la'16 la' la'8 la' la' la' |
+    mi''8 la'16 la' la'8 la'16 la' la'8 la' |
   }
   \tag #'(violons violon1 violon2) {
     mi''16 re'' dod'' si' la'8 la'16 la' la'8 la' |
@@ -176,8 +176,8 @@ mi''8 la''4 fad'' re''8~ |
     r8 mi'' mi'' mi'' la'' la'' |
     la''2.\trill~ |
     la'' |
-    r4 la' la' |
-    fad' r r | \allowPageTurn
+    la''2 la''4 |
+    fad''\trill r r | \allowPageTurn
     R2.*23 |
   }
   \tag #'(violons violon1 violon2) {
@@ -199,14 +199,14 @@ mi''8 la''4 fad'' re''8~ |
         \tag #'violons \voiceOne
         mi'16 mi' mi' mi' mi' mi' mi' fad' re' re' re' |
         mi' mi' mi' mi' mi' mi' mi' mi' fad' re' re' re' |
-        mi'8 fad' fad'4.\trill mi'8 |
+        mi'8. fad'16 fad'4.\trill mi'8 |
         mi'2
       }
       \tag #'(violons violon2) \new Voice {
         \tag #'violons \voiceTwo
         dod'16 dod' dod' dod' dod' dod' dod' re' si si si |
         dod' dod' dod' dod' dod' dod' dod' dod' re' si si si |
-        dod'8 re' re'4.\trill dod'8 |
+        dod'8. re'16 re'4.\trill dod'8 |
         dod'2
       }
     >>
@@ -248,10 +248,10 @@ mi''8 la''4 fad'' re''8~ |
     re''4 fa''2 |
     mi''8.( fa''16) fa''4.\trill mi''8 |
     re''4 sol'' fa'' |
-    mi''4 re''8.\trill dod''16 re''8. mi''16 |
+    mi''4( re''8.)\trill( dod''16) re''8.( mi''16) |
     dod''4\trill fa''2 |
     mi''8.( fa''16) fad''4.\trill( mi''16 fad'') |
-    sol''4 fa''!8 mi'' re'' dod'' |
+    sol''4 fa''!8( mi'') re''( dod'') |
     \appoggiatura dod''8 re''8. mi''16 mi''4.\trill re''8 |
   }
 >>
@@ -283,7 +283,7 @@ mi''8 la''4 fad'' re''8~ |
     la''4. la''16 la'' la''8 la'' |
     re''4. sol''16 sol'' sol''8 sol'' |
     mi''4.\trill la''16 la'' la''8 la'' |
-    fad''4 re''8. mi''16 fad''8.\trill sol''16 |
+    fad''4\trill re''8. mi''16 fad''8.\trill sol''16 |
     la''4. la''16 la'' la''8 la'' |
     re''4. sol''16 sol'' sol''8 sol'' |
     mi'' fad''16 sol'' mi''4.\trill re''8 |
@@ -297,11 +297,11 @@ mi''8 la''4 fad'' re''8~ |
   \tag #'(violons violon1 violon2 hautbois) {
     re'16 mi' re' mi' fad' sol' fad' sol' la' si' la' si' |
     do''8 do'' re' do'' re''16 do'' si' la' |
-    si' la' sol' fad' sol' la' si' do'' re'' mi'' fad'' sol'' |
+    si' la' sol' fad' sol' la' si' dod''! re'' mi'' fad'' sol'' |
     la'8 sol'' la' sol'' la''16 sol'' fad'' mi'' |
     fad''8 re'16 mi' fad' sol' fad' sol' la' si' la' si' |
     do''8 do'' re' do'' re''16 do'' si' la' |
-    si' la' sol' fad' sol' la' si' dod'' re'' mi'' fad'' sol'' |
+    si' la' sol' fad' sol' la' si' dod''! re'' mi'' fad'' sol'' |
     la'8. re''16 dod''4.\trill re''8 |
     re''2.\doux ~ |
     re''~ |
@@ -326,7 +326,7 @@ mi''8 la''4 fad'' re''8~ |
     la'2 sol'!4 |
     fad'( mi')\trill re' |
     \appoggiatura re'8 mi'4. fad'8 re'4 |
-    mi'8 fad'16 sol' mi'4.\trill re'8 |
+    mi'8( fad'16 sol') mi'4.\trill re'8 |
   }
 >>
 <<
@@ -370,7 +370,7 @@ mi''8 la''4 fad'' re''8~ |
         la''2 r8 mi''16 mi'' |
         mi''8 mi'' la''2~ |
         la'' r8 la''16 la'' |
-        fad''2 r4
+        fad''2\trill r4
       }
       \tag #'(tromp-hbt hautbois) \new Voice {
         \tag #'tromp-hbt { \voiceTwo <>_"Hautb." }
@@ -411,7 +411,7 @@ mi''8 la''4 fad'' re''8~ |
         mi''2. |
         r8 dod'' re''( si') dod''( mi'')~ |
         mi''( dod'') re''( si') dod''( sold') |
-        la'4. sold'8 la' mi' |
+        la'4. sol'!8 la' mi' |
         fad'4. sol'8 mi'8.\trill re'16 |
         re'4
       }
@@ -500,7 +500,7 @@ mi''8 la''4 fad'' re''8~ |
     dod''16\trill si' la'8 fad''4. mi''16 re'' |
     mi''4 la'4. si'16 dod'' |
     re''4 fad'4. sold'16 la' |
-    sold'?8.\trill la'32 si' si'4 dod''8 re'' |
+    sold'8.\trill la'32 si' si'4. dod''16 re'' |
     dod''16\trill si' la'8 sol'4 sol' |
     sol' sol' sol' |
     mi''8 dod'16 mi' la4 r |

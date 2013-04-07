@@ -2,113 +2,57 @@
   <<
     \origVersion\new StaffGroupNoBar <<
       \new Staff \with { \haraKiriFirst } <<
-        { s2.*10
-          <>^"Trompetes" s2.*8 <>^"T." s2.*6
-          <>^"T." s2.*7 s2.*8
-          <>^"H." s2.*10 s2.*7
-          <>^"T." s2.*6 <>^"T." s2.*5
-          <>^"T." s2.*6 <>^"T." s2.*7
-          s2.*10 s2.*10 s2.*7
-          <>^"T." s2.*6 <>^"T." s2.*9 s2.*10
-          s2.*9 s2.*4 s2.*3
-          s2.*6 s2.*6
-          s2.*8 s2.*8
-          <>^"Tromp." s2.*9 s2.*9
-          }
+        { s2.*16 <>^"tromp" s2.
+          <>^"Trompette et h-bois" s2.*13
+          <>^"Trompette"
+        }
         \global \keepWithTag #'tromp-hbt \includeNotes "dessus"
       >>
       \new Staff <<
-        { s2.*10
-          <>^"Violons" s2.*8 <>^"V." s2.*6
-          <>^"V." s2.*7 <>^"V." s2.*8
-          s2.*10 <>^"V." s2.*7
-          <>^"V." s2.*6 s2.*5
-          <>^"V." s2.*6 <>^"V." s2.*7
-          s2.*10 s2.*10 s2.*7
-          <>^"V." s2.*6 <>^"V." s2.*9 s2.*10
-          s2.*9 s2.*4 s2.*3
-          <>^"V." s2.*6 s2.*6
-          s2.*8 s2.*8
-          <>^"Viol." s2.*9 s2.*9
-          }
+        {  s2.*16 <>^"Violons" s2.
+          <>^"Violons" s2.*13
+          <>^"Viol"
+        }
         \global \keepWithTag #'violons \includeNotes "dessus"
       >>
       \new Staff <<
-        { s2.*10
-          s2.*8 s2.*6
-          s2.*7 s2.*8
-          s2.*10 s2.*7
-          s2.*6 s2.*5
-          s2.*6 s2.*7
-          s2.*10 s2.*10 s2.*7
-          <>^"H-c et Taille" s2.*6 <>^"H-c et T." s2.*9 s2.*10
-          s2.*9 s2.*4 s2.*3
-          s2.*6 s2.*6
-          s2.*8 s2.*8
-          s2.*9 s2.*9
-          }
+        { <>^"h.c." s2.*17
+          <>^"h.c." s2.*13
+          <>^"h.c."
+        }
         \global \keepWithTag #'haute-contre \includeNotes "parties"
       >>
       \new Staff \with { \haraKiri } <<
-        { s2.*10
-          s2.*8 s2.*6
-          s2.*7 s2.*8
-          s2.*10 s2.*7
-          s2.*6 s2.*5
-          s2.*6 s2.*7
-          s2.*10 s2.*10 s2.*7
-          \startHaraKiri s2.*6 s2.*9 \stopHaraKiri s2.*10
-          s2.*9 s2.*4 s2.*3
-          s2.*6 s2.*6
-          s2.*8 s2.*8
-          s2.*9 s2.*9
-          }
+        { <>^"tailles" s2.*17
+          <>^"tailles" s2.*13
+          <>^"tailles"
+        }
         \global \keepWithTag #'taille \includeNotes "parties"
       >>
       \new Staff \with { \haraKiriFirst } <<
-        { s2.*10
-          s2.*7 s2.^"Tymb." <>^"Tymb." s2.*6
-          <>^"Tymb." s2.*7 <>^"Tymb." s2.*8
-          s2.*10 s2.*7
-          s2.*6 s2.*3 <>^"Tymb." s2.*2
-          <>^"Tymb." s2.*6 <>^"Tymb." s2.*7
-          s2.*10 s2.*10 s2.*7
-          \startHaraKiri s2.*6 s2.*9 \stopHaraKiri s2.*10
-          s2.*9 s2.*4 s2.*3
-          s2.*5 s2.^"Tymb." <>^"Tymb." s2.*6
-          s2.*8 s2.*8
-          s2.*9  s2. <>^"Tymb." s2.*6 <>^"Tymb." s2.*2
-          s2.*9 <>^"Tymb." }
+        { s2.*17
+          <>^"Timables" s2.*13
+          <>^"Timbales"
+        }
         \global \includeNotes "timbales"
       >>
       \new Staff <<
-        { s2.*10
-          s2.*7 s2.^"B.C." <>^"B.C." s2.*6
-          s2.*7 <>^"B.C." s2.*8
-          <>^"Bassons" _"[B.C.]" s2.*10 s2.*7
-          s2.*6 <>^"Bassons" _"B.C." s2.*5
-          <>^"Bassons" _"B.C." s2.*6 <>^"B.C." s2.*7
-          s2.*10 s2.*10 s2.*7
-          \startHaraKiri s2.*6 s2.*9 \stopHaraKiri s2.*10
-          s2.*9 s2.*4 s2.*3
-          s2.*6 s2.*6
-          s2.*8 s2.*8
-          s2.*9 s2.*9 }
+        { s2.*17
+          <>^"Basses" s2.*13
+          <>^"Basses"
+        }
         \global \includeNotes "basse"
         \origLayout {
-          s2.*10\pageBreak
-          s2.*8\break s2.*6\pageBreak
-          s2.*7\break s2.*8\pageBreak
-          s2.*10\break \grace s8 s2.*7\pageBreak
-          s2.*6\break s2.*5\pageBreak
-          s2.*6\break s2.*7\pageBreak
-          s2.*10\break s2.*10\break s2.*7\pageBreak
-          s2.*6\break s2.*9\break s2.*10\pageBreak
-          s2.*9\break s2.*4\break s2.*3\pageBreak
-          s2.*6\break s2.*6\pageBreak
-          s2.*8\break s2.*8\pageBreak
-          s2.*9\break s2.*9\pageBreak
-          s2.*9\break s2.*6\break
+          s2.*8\break s2.*9\pageBreak
+          s2.*7\break s2.*6\pageBreak
+          s2.*7\break s2.*13\pageBreak
+          s2.*7\break s2.*6\break s2.*6\pageBreak
+          s2.*7 s4 \bar "" \break s2 s2.*9\break s2.*8\pageBreak
+          s2.*7\break s2.*5\break s2.*5\pageBreak
+          s2.*6\break s2.*12\break s2.*11\pageBreak
+          s2.*6\break s2.*6\break s2.*6\pageBreak
+          s2.*9\break s2.*10\break s2.*9\pageBreak
+          s2.*11\break s2.*8\break s2.*4\break
         }
       >>
     >>

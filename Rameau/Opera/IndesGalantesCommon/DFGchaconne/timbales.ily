@@ -7,7 +7,9 @@ r8 re16 re re8 re re re |
 la, la,16 la, la,8 la, la, la, |
 re re16 re re8 re re re |
 la,4 r4 r |
-R2.*4 |
+R2.*2 |
+la,4 la, la, |
+la, r r |
 r8 la,16 la, la,8 la,16 la, la,8 la,16 la, |
 la,2 r4 |
 r8 la,16 la, la,8 la,16 la, la,8 la,16 la, |

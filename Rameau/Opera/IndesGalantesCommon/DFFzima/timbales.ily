@@ -21,7 +21,7 @@ r4 re8 re re4 re |
 la,1 |
 R1 |
 la,2 la, |
-la, r |
+la, r |\allowPageTurn
 R1*12 |
 la,16 la, la, la, la, la, la, la, la,4. la,8 |
 la,2 r |
