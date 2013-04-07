@@ -36,17 +36,7 @@ do''4 do''4. do''8 |
 fa''2 fa''8 r |
 si'4 si'4. si'8 |
 mi''2. |
-\vA mi''4 \vB\myfootnote #'NoteHead #'(0 . 1) \markup {
-  Manuscrit 1750, dessus chantant et violons : \raise #'4.5 \score {
-    { \tinyQuote \key sol \major \time 3/4 \clef "treble"
-      mi''4 mi''8 re'' do'' si' |
-      do'' re'' do''4( si')\trill |
-      la'2. |
-    }
-    \layout { \quoteLayout }
-  }
-} mi''4
-mi''8 mi'' re'' do'' |
+mi''4 mi''8 mi'' re'' do'' |
 si' do'' do''4( si')\trill |
 la'2. |
 R |

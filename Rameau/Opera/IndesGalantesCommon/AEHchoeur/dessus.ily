@@ -46,22 +46,7 @@ re'''4 r4 r |
     re''8 dod'' re'' mi'' re'' mi'' |
     fad'' mi'' fad'' sol'' fad'' sol'' |
     la''2. |
-    fad''4.-\vA\trill fad''8 fad''
-    \vA sol''8 \vB\myfootnote #'NoteHead #'(1 . 1) \markup {
-      Manuscrit 1757 : \raise #3 \score {
-        { \tinyQuote \key sol \major \time 3/4 \clef "french"
-          fad''4. fad''8 fad'' fad'' | sol''2.
-        }
-        \layout { \quoteLayout }
-      }
-      \hspace #2
-      Manuscrit Toulouse 1750 : \raise #3 \score {
-        { \tinyQuote \key sol \major \time 3/4 \clef "french"
-          fad''4. fad''8[ fad'' sol''] | sol''2.
-        }
-        \layout { \quoteLayout }
-      }
-    } sol''8 |
+    fad''4.\trill fad''8 fad'' sol''8 |
     sol''2. |
   }
   \setMusic #'dII { |

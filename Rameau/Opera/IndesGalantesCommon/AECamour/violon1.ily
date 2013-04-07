@@ -16,12 +16,7 @@ r r4 sol''8( fa'') |
 mib''( re'') do''( sib') la'( sol'') fa''( mib'') |
 re''( do'') sib'( la') sol'( fa'') mib''( re'') |
 do''( sib') la'( sol') fad'( mib'') re''( do'') |
-sib'( la') sol'( fad')
-\vA sol'( \vB\myfootnote #'NoteHead #'(0 . 4) \markup {
-  Le mansucrit Toulouse 1750 ne contient pas la seconde moitié de la mesure 18
-  et la première moitié de la mesure 19.
-} sol'(
-la') sib'( do'') |
+sib'( la') sol'( fad') sol'( la') sib'( do'') |
 sib'( la') sol'( fad') sol'4 r |
 R1 |
 r4 sib'8( la') sol'( la') sol'( fa') |

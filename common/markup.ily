@@ -572,21 +572,6 @@ characterAmbitus =
   footnote-footer-padding = 1\mm
 }
 
-myfootnote =
-#(define-music-function (parser location grob offset text music)
-     ((symbol?) number-pair? markup? ly:music?)
-   (if (eqv? #t (ly:get-option 'print-footnotes))
-       #{ \footnote $offset $(or grob 'NoteHead) $text $music #}
-       music))
-
-myfootnoteNoLine =
-#(define-music-function (parser location grob offset text music)
-     ((symbol?) number-pair? markup? ly:music?)
-   (if (not (symbol? (*part*)))
-       #{ \once\override FootnoteItem #'annotation-line = ##f
-          \footnote $offset $(or grob 'NoteHead) $text $music #}
-       music))
-
 footnoteHere =
 #(define-music-function (parser location offset note)
      (number-pair? markup?)

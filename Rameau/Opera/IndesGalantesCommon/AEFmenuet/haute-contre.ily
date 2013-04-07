@@ -6,7 +6,7 @@ re'2 r4 |
 sol'4 sol'2 |
 sol'4 sol' mi' |
 la re' mi' |
-fad'2.-\vA\trill |
+fad'2.\trill |
 R2. |
 mi''4 re''2 |
 sol'4 la'2 |
@@ -21,13 +21,4 @@ sol'4 la'2 |
 si'2 la'8 r |
 re' mi' re' mi' re' sol' |
 sol'2. |
-\myfootnote #'NoteHead #'(0 . 1) \markup {
-  Toulouse 1750, hautes-contre et tailles : \raise #3 \score {
-    { \tinyQuote \key sol \major \time 3/4 \clef "soprano"
-      re'8 mi' re' mi' re' sol' | << re'2. \\ si >> \bar ":|" }
-    \layout { \quoteLayout }
-  }
-}
-<< { \vB\voiceOne sol'2 re'4 \oneVoice }
-  \vB\new CueVoice { \voiceTwo re'8_"[Toulouse 1750]" mi' re' mi' re' sol' } >> |
 re'2. |

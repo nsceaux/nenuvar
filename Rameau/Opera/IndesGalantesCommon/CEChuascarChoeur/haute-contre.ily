@@ -70,15 +70,7 @@ lad r |
 R1 |
 r4 r8 lad' lad'4. dod''8 |
 fad'2 fad'4 fad'8 lad' |
-\vA si'1 \vB\myfootnote #'NoteHead #'(0 . 1) \markup {
-  Manuscrit Toulouse 1750 : \raise #2.5 \score {
-    { \tinyQuote \key la \major \time 2/2 \clef "soprano"
-      si'2 si'4. si'8 |
-      si'4 si' lad' re'' |
-    }
-    \layout { \quoteLayout }
-  }
-} si'1 |
+si'1 |
 r4 si' lad' re'' |
 dod'' re'' dod'' re'' |
 lad'2 re''4 re''8 dod'' |

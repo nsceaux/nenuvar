@@ -28,17 +28,7 @@ la'2\trill r4 |
 la'8.( si'16) la'8.( si'16) la'8.( si'32 la'32) |
 do''2. |
 si'8.( do''16) si'8.( do''16) si'8.( do''32 si') |
-re''8.( mi''16) re''8.( mi''16) re''8.( mi''32 fa'')
-\vB\myfootnote #'NoteHead #'(0 . 2) \markup {
-  Manuscrit Toulouse 1750 : \raise #3 \score {
-    { \tinyQuote \key sol \major \clef "french" \time 3/4
-      re''8 mi'' re'' mi'' re''8 mi''16 fab'' |
-      mi''8. fad''16 mi''8. fad''16 mi''8. fad''!32 sol'' |
-      fad''4.
-    }
-    \layout { \quoteLayout }
-  }
-} fa''?32) |
+re''8.( mi''16) re''8.( mi''16) re''8.( mi''32 fa'') |
 mi''8.( fa''16) mi''8.( fa''16) mi''8.( fad''32 sol'') |
 fad''4.\trill mi''8 re''4~ |
 re''8( do''16\trill si') la'4.\trill sol'8 |

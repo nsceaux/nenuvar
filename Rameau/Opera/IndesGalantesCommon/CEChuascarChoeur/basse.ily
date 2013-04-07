@@ -66,19 +66,6 @@ mi, r |
   dod1 |
 }
 \vB {
-  \myfootnote #'Rest #'(0 . 2) \markup {
-    Manuscrit Toulouse 1750, mesures 64 à 70 : \raise #3.5 \score {
-      { \tinyQuote \key la \major \time 2/2 \clef "bass"
-        R1*2 |
-        r8 mi la la dod' la mi dod |
-        la,4. la8 la4. la8 |
-        re'4 re re re8 si, |
-        dod1 |
-        dod,4 r r2 |
-      }
-      \layout { \quoteLayout }
-    }
-  }
   r4 r8 mi la4. la8 |
   la1~ |
   la |

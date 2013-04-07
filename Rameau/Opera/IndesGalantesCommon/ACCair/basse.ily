@@ -18,20 +18,7 @@ r4 re8 re re re re re |
   }
 >>
 re4.^\tag #'basse ^\markup { \vA Tymballes \vB Timbales } re16*2/3 re re re4
-\vA << \tag #'timbales re \tag #'basse << re \\ re, >> >>
-\vB <<
-  \once\voiceOne
-  { \myfootnote #'NoteHead #'(0 . 3) \markup {
-      Manuscrit Toulouse 1750 : \raise #3 \score {
-        { \tinyQuote \key re \major \time 2/2 \clef "bass"
-          re4._\tag #'basse ^"Timb." re16*2/3 re re re4 <re re,>
-        }
-        \layout { \quoteLayout }
-      }
-    } re
-  }
-  \tag #'basse \new CueVoice { \voiceTwo re,4 }
->>
+<< \tag #'timbales re \tag #'basse << re \\ re, >> >>
 la,2 la, |
 la,1 |
 R1-\vA\fermataMarkup |

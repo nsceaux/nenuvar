@@ -3,23 +3,7 @@ R2.*13 |
 r4 r r8 sol' |
 sol'2 r8 re' |
 do'2~ do'8 do' |
-\vA la2.\trill \vB\myfootnote #'NoteHead #'(0 . 3) \markup {
-  Manuscrit 1757 : \raise #3.5 \score {
-    <<
-      { \tinyQuote \key sol \minor \time 3/4 \clef "tenor" sib2. }
-      \addlyrics { -lez, }
-    >>
-    \layout { \quoteLayout }
-  }
-  \vspace #2
-  Manuscrit Toulouse 1750 : \raise #3.5 \score {
-    <<
-      { \tinyQuote \key sol \minor \time 3/4 \clef "tenor" la2.\trill }
-      \addlyrics { -lez, }
-    >>
-    \layout { \quoteLayout }
-  }
-} la2.\trill |
+la2.\trill |
 re'4 re'8 re' mib' re' |
 re'4 re'8 r r sol' |
 do'2 r8 fa' |
@@ -50,7 +34,7 @@ do'2 r8 fa' |
 re'2.\trill |
 si4 do'8 re' re' do' |
 do'2( si4) |
-\vA { do'2 r4 } \vB do'2. |
+do'2 r4 |
 R2.*3 |
 la'4 la'8 la' la' la' |
 re'4 re' re' |

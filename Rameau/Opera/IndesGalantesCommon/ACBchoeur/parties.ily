@@ -16,22 +16,7 @@ mi'1 |
 R1 |
 r2 r4 fad' |
 fad'2 fad'4 la'8 si' |
-\vB\myfootnote #'NoteHead #'(0 . 3.5) \markup\column {
-  \line {
-    Manuscrit 1757 : \raise #3 \score {
-      { \tinyQuote \key re \major \time 2/2 \clef "soprano"
-        fad'2 fad'4 la'8 si' | mi'2 r4 la8 la | la'2 la'4 la' | la'1 | }
-      \layout { \quoteLayout }
-    } (la mesure 14 est répétée mesure 15.)
-  }
-  \wordwrap {
-    Manuscrit Toulouse 1750 : \raise #3 \score {
-      { \tinyQuote \key re \major \time 2/2 \clef "soprano"
-        mi'2 r4 la8 la | la'2 la'4 la' | la'1 | R1 }
-      \layout { \quoteLayout }
-    } Version retenue, par analogie avec les mesures 2 à 5.
-  }
-} mi'2 \vA mi'2 r4 la8 la |
+mi'2 r4 la8 la |
 la'2 la'4 la' |
 la'1 |
 R1 |

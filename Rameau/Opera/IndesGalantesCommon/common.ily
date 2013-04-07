@@ -378,58 +378,6 @@ notesSection =
   }
 }
 
-%% Footnotes
-
-myfootnoteAll =
-#(define-music-function (parser location grob offset text)
-     (symbol? number-pair? markup?)
-   (if (not (symbol? (ly:get-option 'part)))
-       #{ \footnote $offset $grob $text #}
-       (make-music 'Music 'void #t)))
-
-%%% Nuances
-tresdoux =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.75
-                           "tres doux"))
-doux =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.5 "doux"))
-
-ademi =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.75
-                           "a demi"))
-
-enadoucissant =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.9
-                           "en adoucissant"))
-
-moinsdoux =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.75
-                           "moins doux"))
-
-moinsfort =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.75
-                           "moins fort"))
-
-plusfort =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.75
-                           "plus fort"))
-
-fort =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.5 "fort"))
-
-tresfort =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.75
-                           "tres fort"))
-
 %%% options indes-version v1735 et v175x
 #(define (version-music-filter version music)
    (if (eqv? (ly:get-option 'indes-version) version)
