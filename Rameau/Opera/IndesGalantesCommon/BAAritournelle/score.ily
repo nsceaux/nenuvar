@@ -24,7 +24,7 @@
 
     \modVersion\new StaffGroup <<
       \new GrandStaff \with { instrumentName = \markup {
-          \vA Violons \vB [Dessus] \hspace #6 }
+          \vA Violons \vB [Dessus] \hspace #2 }
       } <<
         \new Staff << \global \includeNotes "dessus1" >>
         \new Staff << \global \includeNotes "dessus2" >>

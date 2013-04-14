@@ -31,7 +31,7 @@
     >>
     \modVersion\new StaffGroupNoBar <<
       \new GrandStaff \with {
-        instrumentName = \markup { \vA Violons \vB [Violons] \hspace #6 } }
+        instrumentName = \markup { \vA Violons \vB [Violons] \hspace #2 } }
       <<
         \new Staff << \global \includeNotes "dessus1" >>
         \new Staff << \global \includeNotes "dessus2" >>

@@ -96,7 +96,7 @@
           >>
         >>
         \new ChoirStaff \with {
-          instrumentName = \markup { \smallCaps Chœur \hspace #6 }
+          instrumentName = \markup { \smallCaps Chœur \hspace #2 }
         } \choeur
         \new Staff <<
           \instrumentName "[Basses]"

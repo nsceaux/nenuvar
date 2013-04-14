@@ -19,7 +19,7 @@ fa' sol' la' sib' do'' re'' |
 do'' re'' mib'' fa'' sol'' sol'' |
 sol' la' sib' do'' re'' mib'' |
 re'' mi'' fad'' sol'' la'' \footnoteHere #'(0 . 0) \markup {
-  Source : \raise #4 \score {
+  Source : \score {
     \new Staff {
       \tinyQuote \clef "french" \key sol \minor \time 3/4
       re''8 mi'' fad'' sol'' la'' si'' | do'''4

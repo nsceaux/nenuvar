@@ -42,7 +42,7 @@ sib8 la sol fa mib re do sib, |
 %% 2eme couplet
 \footnoteHere #'(0 . 0) \markup {
   Source A134, mesures \orig-version { 34 à 39, }
-  \mod-version { 33 à 38, } basse : \raise #4 \score {
+  \mod-version { 33 à 38, } basse : \score {
     \new Staff {
       \tinyQuote \clef "bass" \key sol \minor \digitTime\time 2/2
       sol2 sol | fad fa | mi la | re r |

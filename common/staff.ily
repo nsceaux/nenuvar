@@ -13,19 +13,13 @@
                                   (string->list (number->string var-idx)))))))))
 
 haraKiri = \with {
-  \override VerticalAxisGroup #'remove-empty = ##t
-  \override VerticalAxisGroup #'remove-first = ##f
-  \override Beam #'auto-knee-gap = #'()
-  \consists "Hara_kiri_engraver"
-  \remove "Axis_group_engraver"
+  \override VerticalAxisGroup.remove-empty = ##t
+  \override VerticalAxisGroup.remove-first = ##f
 }
 
 haraKiriFirst = \with {
-  \override VerticalAxisGroup #'remove-empty = ##t
-  \override VerticalAxisGroup #'remove-first = ##t
-  \override Beam #'auto-knee-gap = #'()
-  \consists "Hara_kiri_engraver"
-  \remove "Axis_group_engraver"
+  \override VerticalAxisGroup.remove-empty = ##t
+  \override VerticalAxisGroup.remove-first = ##t
 }
 
 tinyStaff = \with {
@@ -88,10 +82,7 @@ newHaraKiriStaff =
     'ContextSpeccedMusic
     'create-new #t
     'property-operations '((push VerticalAxisGroup #t remove-empty)
-                           (push VerticalAxisGroup #f remove-first)
-                           (push Beam () auto-knee-gap)
-                           (consists "Hara_kiri_engraver")
-                           (remove "Axis_group_engraver"))
+                           (push VerticalAxisGroup #f remove-first))
     'context-type 'Staff
     'element music))
 
@@ -102,9 +93,6 @@ newTinyHaraKiriStaff =
     'create-new #t
     'property-operations `((push VerticalAxisGroup #t remove-empty)
                            (push VerticalAxisGroup #f remove-first)
-                           (push Beam () auto-knee-gap)
-                           (consists "Hara_kiri_engraver")
-                           (remove "Axis_group_engraver")
                            (remove "Page_turn_engraver")
                            (push StaffSymbol ,(magstep -2) staff-space)
                            (assign fontSize -2))
@@ -118,9 +106,6 @@ newSmallHaraKiriStaff =
     'create-new #t
     'property-operations `((push VerticalAxisGroup #t remove-empty)
                            (push VerticalAxisGroup #f remove-first)
-                           (push Beam () auto-knee-gap)
-                           (consists "Hara_kiri_engraver")
-                           (remove "Axis_group_engraver")
                            (remove "Page_turn_engraver")
                            (push StaffSymbol ,(magstep -1) staff-space)
                            (assign fontSize -1))
@@ -133,10 +118,7 @@ newHaraKiriStaffB =
     'ContextSpeccedMusic
     'create-new #t
     'property-operations '((push VerticalAxisGroup #t remove-empty)
-                           (push VerticalAxisGroup #t remove-first)
-                           (push Beam () auto-knee-gap)
-                           (consists "Hara_kiri_engraver")
-                           (remove "Axis_group_engraver"))
+                           (push VerticalAxisGroup #t remove-first))
     'context-type 'Staff
     'element music))
 
@@ -147,9 +129,6 @@ newTinyHaraKiriStaffB =
     'create-new #t
     'property-operations `((push VerticalAxisGroup #t remove-empty)
                            (push VerticalAxisGroup #t remove-first)
-                           (push Beam () auto-knee-gap)
-                           (consists "Hara_kiri_engraver")
-                           (remove "Axis_group_engraver")
                            (remove "Page_turn_engraver")
                            (push StaffSymbol ,(magstep -2) staff-space)
                            (assign fontSize -2))
@@ -163,9 +142,6 @@ newSmallHaraKiriStaffB =
     'create-new #t
     'property-operations `((push VerticalAxisGroup #t remove-empty)
                            (push VerticalAxisGroup #t remove-first)
-                           (push Beam () auto-knee-gap)
-                           (consists "Hara_kiri_engraver")
-                           (remove "Axis_group_engraver")
                            (remove "Page_turn_engraver")
                            (push StaffSymbol ,(magstep -1) staff-space)
                            (assign fontSize -1))

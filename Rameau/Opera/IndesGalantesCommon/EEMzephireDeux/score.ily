@@ -26,7 +26,7 @@
         \instrumentName "Flutes"
         \global \includeNotes "flute"
       >>
-      \new GrandStaff \with { instrumentName = \markup { Violons \hspace #6 } }
+      \new GrandStaff \with { instrumentName = \markup { Violons \hspace #2 } }
       <<
         \new Staff <<
           \global \keepWithTag #'violon1 \includeNotes "violon"

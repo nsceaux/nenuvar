@@ -5,12 +5,12 @@ r2 r4 la'8 si' |
 do''4 do'' re' si' |
 do' la'2 si'8 do'' |
 re''4 si \footnoteHere #'(0 . 0) \markup {
-  Source : \raise#3.5 \score {
+  Source : \score {
     { \tinyQuote \clef "french" \key re \minor \time 2/2
       re''4 si do'8 fa'' mi'' re'' | }
     \layout { \quoteLayout }
   } \hspace #3
-  Partie séparée second violon : \raise#3.5 \score {
+  Partie séparée second violon : \score {
     { \tinyQuote \clef "french" \key re \minor \time 2/2
       re''4 si mi'8 fa'' mi'' re'' | }
     \layout { \quoteLayout }
@@ -49,7 +49,7 @@ sol'' la''8 sol'' fa''4\trill mi''8 fa'' |
   la''4 sol''8 fa'' mi'' re'' dod'' re'' |
   mi''4 la' sol' mi' |
   fa' re'' \footnoteHere #'(0 . 0) \markup {
-    Source : \raise #4 \score {
+    Source : \score {
       { \tinyQuote \key re \minor \time 2/2 \clef "french"
         fa'4 re'' do' dod''\trill }
       \layout { \quoteLayout }

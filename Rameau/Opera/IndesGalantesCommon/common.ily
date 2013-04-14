@@ -383,7 +383,8 @@ notesSection =
    (if (eqv? (ly:get-option 'indes-version) version)
        music
        (let ((type (ly:music-property music 'name)))
-         (if (memq type '(TextScriptEvent ArticulationEvent TieEvent SlurEvent))
+         (if (memq type '(TextScriptEvent ArticulationEvent
+                                          TieEvent SlurEvent BeamEvent))
              (make-music 'TextScriptEvent 'text "")
              (make-music 'Music 'void #t)))))
 

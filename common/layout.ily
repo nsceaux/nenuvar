@@ -123,9 +123,6 @@
   }
   RemoveEmptyStaffContext = \context {
     \Staff
-    \remove "Axis_group_engraver"
-    \consists "Hara_kiri_engraver"
-    \override Beam #'auto-knee-gap = #'()
     \override VerticalAxisGroup #'remove-empty = ##t
     \override VerticalAxisGroup #'minimum-Y-extent = #'(-4 . 4)
   }

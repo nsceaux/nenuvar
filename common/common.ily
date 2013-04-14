@@ -1,4 +1,4 @@
-\version "2.15.40"
+\version "2.17.16"
 
 #(use-modules (srfi srfi-39))
 #(define-public *staff-size*
@@ -17,7 +17,6 @@
 
 \include "common/includes.ily"
 \include "common/clef-key.ily"
-%\include "common/custom-bars.ily"
 \include "common/titling.ily"
 \include "common/toc-columns.ily"
 \include "common/music-commands.ily"

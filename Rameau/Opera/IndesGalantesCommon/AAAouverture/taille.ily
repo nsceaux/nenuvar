@@ -10,7 +10,7 @@ mi'1 |
 fad'4. fad'8 la'4. la'8 |
 la'4 sol' sol' fad' |
 fad' mi' la la' |
-\vA { la'4. sol'8 } \vB { la'4 sol' } la'8 sol' fad' mi' |
+la'4. sol'8 la'8 sol' fad' mi' |
 re'4 re' dod'4.\trill re'8 |
 re'1 |%%
 re'2 r |
@@ -60,7 +60,7 @@ dod'4\trillSug la8 si dod' re' mi' fad' |
 sol'4 la sol' la |
 fad'4 sol'8 fad' mi'4 la' |
 re'4 fad'8 sol' la'4 la' |
-re'4 sol'2 fad'4-\vA\trill |
+re'4 sol'2 fad'4\trill |
 sol'4 si'8 do'' re''4 re'' |
 sol'8 sol' do'' re'' mi''4 la' |
 la'2 sol' |

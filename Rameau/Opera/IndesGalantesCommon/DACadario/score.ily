@@ -23,7 +23,7 @@
     >>
 
     \modVersion <<
-      \new GrandStaff \with { instrumentName = \markup { Violons \hspace #6 }
+      \new GrandStaff \with { instrumentName = \markup { Violons \hspace #2 }
       } <<
         \new Staff << \global \keepWithTag #'violon1 \includeNotes "dessus" >>
         \new Staff << \global \keepWithTag #'violon2 \includeNotes "dessus" >>

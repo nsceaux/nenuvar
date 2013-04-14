@@ -14,7 +14,7 @@
       >>
     >>
     \modVersion\new GrandStaff \with {
-      instrumentName = \markup\mod-version { Violons \hspace #6 }
+      instrumentName = \markup\mod-version { Violons \hspace #2 }
     } <<
       \new Staff << \global \includeNotes "violon1" >>
       \new Staff << \global \includeNotes "violon2" >>

@@ -123,19 +123,16 @@
     \modVersion\new StaffGroupNoBar <<
       %% Flutes
       \new GrandStaff \with {
-        instrumentName = \markup {
-          \vA { Petites flutes }
-          \vB { [Petites flutes] }
-          \hspace #5
-        }
+        instrumentName = \markup { Petites flutes \hspace #2 }
         shortInstrumentName = "fl" }
       <<
-        \new Staff \with { \haraKiriFirst } <<
+        \new Staff \with { \haraKiri }
+        <<
           { \noHaraKiri s8 s2.*14 s2.*15 s2 \startHaraKiri
             \vA { s4 s2.*31 s2 \stopHaraKiri } }
           \global \keepWithTag #'flute1 \includeNotes "dessus"
         >>
-        \new Staff \with { \haraKiriFirst } <<
+        \new Staff \with { \haraKiri } <<
           { \noHaraKiri s8 s2.*14 s2.*15 s2 \startHaraKiri
             \vA { s4 s2.*31 s2 \stopHaraKiri } }
           \global \keepWithTag #'flute2 \includeNotes "dessus"
@@ -143,7 +140,7 @@
       >>
       %% Musettes, dessus
       \new GrandStaff \with {
-        instrumentName = \markup { \vA Musettes \vB [Musettes] \hspace #5 }
+        instrumentName = \markup { Musettes \hspace #2 }
         shortInstrumentName = "mus" }
       <<
         \new Staff <<
@@ -162,7 +159,7 @@
       \new GrandStaff \with {
         instrumentName = \markup {
           \center-column { [Hautes-contre Tailles Basses] }
-          \hspace #5
+          \hspace #2
         }
         shortInstrumentName = \markup\center-column {h-c t} }
       <<
@@ -177,7 +174,7 @@
       %% Hebé & Chœur 
       \new ChoirStaff <<
         \new GrandStaff \with {
-          instrumentName = \markup { \smallCaps Hebé \hspace #5 }
+          instrumentName = \markup { \smallCaps Hebé \hspace #2 }
           shortInstrumentName = \markup H }
         <<
           \new Staff \with { \haraKiri } \withLyrics <<

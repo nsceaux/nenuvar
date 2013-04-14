@@ -41,7 +41,7 @@
     >>
     \modVersion <<
       \new GrandStaff \with { instrumentName = \markup {
-          Violons \hspace #6 }
+          Violons \hspace #2 }
       } <<
         \new Staff <<
           \global \keepWithTag #'dessus1 \includeNotes "dessus"

@@ -25,7 +25,7 @@ re''2 fa'8 sib' re'' mib'' |
 do''4 fa' la' do'' |
 mib''2 la'8 do'' mib'' fa'' |
 \footnoteHere #'(0 . 0) \markup {
-  Source A132a2, mesure 20, dessus : \raise #3 \score {
+  Source A132a2, mesure 20, dessus : \score {
     \new Staff {
       \tinyQuote \clef "french" \key sol \minor \digitTime\time 2/2
       sib'2 re'8 sol' sib' re'' | fa''2

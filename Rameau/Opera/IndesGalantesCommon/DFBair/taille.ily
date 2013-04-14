@@ -24,7 +24,7 @@
 fa'2 fa'4 fa' |
 fa'2 do''8 mib'' la' do'' |
 \origVersion\footnoteHere #'(0 . 0) \markup {
-  Source A132a2, mesure 19, taille : \raise #3 \score {
+  Source A132a2, mesure 19, taille : \score {
     \new Staff {
       \tinyQuote \clef "mezzosoprano" \key sol \minor \digitTime\time 2/2
       re'4 re' re' fa' | fa'2

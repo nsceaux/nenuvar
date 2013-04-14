@@ -10,7 +10,7 @@
     >>
     \modVersion\new StaffGroup <<
       \new GrandStaff \with {
-        instrumentName = \markup { [Dessus] \hspace #6 } }
+        instrumentName = \markup { [Dessus] \hspace #2 } }
       <<
         \new Staff << \global \includeNotes "dessus1" >>
         \new Staff << \global \includeNotes "dessus2" >>

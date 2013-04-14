@@ -6,7 +6,7 @@ re2 re |
   \tag #'timbales { la,2 r4 re }
   \tag #'basse {
     \footnoteHere #'(0 . -6) \markup {
-      Source : \raise #4 \score {
+      Source : \score {
         \new Staff {
           \tinyQuote \clef "bass" \time 2/2 \partial 4 \key re \major
           re4^"Tymbales"_"B.C." | re2 re | << re2 \\ re, >>

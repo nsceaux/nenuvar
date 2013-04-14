@@ -496,12 +496,12 @@ mi''8 la''4 fad'' re''8~ |
     fad''4.\fort mi''16 re'' |
     mi''4 la'4. si'16 dod'' |
     re''4 fad'4. sold'16 la' |
-    sold'8.\trill la'32 si' si'4. dod''16 re'' |
-    dod''16\trill si' la'8 fad''4. mi''16 re'' |
+    \slurDashed sold'8.\trill( la'32 si') si'4. dod''16 re'' |
+    dod''16\trill( si') la'8 fad''4. mi''16 re'' | \slurSolid
     mi''4 la'4. si'16 dod'' |
     re''4 fad'4. sold'16 la' |
-    sold'8.\trill la'32 si' si'4. dod''16 re'' |
-    dod''16\trill si' la'8 sol'4 sol' |
+    \slurDashed sold'8.\trill( la'32 si') si'4. dod''16 re'' |
+    dod''16(\trill si') la'8 sol'4 sol' | \slurSolid
     sol' sol' sol' |
     mi''8 dod'16 mi' la4 r |
     r16 mi'( fad' sol') mi'4.\trill re'8 |

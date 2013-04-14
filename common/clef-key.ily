@@ -53,9 +53,9 @@ staffStart =
        (make-music 'Music)
        #{
   \set Staff.vocalName = ""
-  \once \override Staff.InstrumentName #'self-alignment-X = #RIGHT
-  \once \override Staff.InstrumentName #'padding = #0
-  \once \override Staff.InstrumentName #'stencil = 
+  \once\override Staff.InstrumentName.self-alignment-X = #RIGHT
+  \once\override Staff.InstrumentName.padding = #0
+  \once\override Staff.InstrumentName.stencil = 
   #(lambda (grob)
      (let* ((clef (ly:grob-property grob 'clef))
             (forbid-key-modification (eqv? #t (ly:get-option 'forbid-key-modification)))
@@ -70,8 +70,11 @@ staffStart =
                           'elements (list (make-music
                                            'ContextSpeccedMusic
                                            'context-type 'Staff
-                                           'property-operations '((remove "Time_signature_engraver")
-                                                                  (push VerticalAxisGroup (-2 . 2) Y-extent))
+                                           'property-operations
+                                           '((remove "Time_signature_engraver")
+                                             (push VerticalAxisGroup (-2 . 2) Y-extent)
+                                             (push InstrumentName 0 self-alignment-X)
+                                             (push InstrumentName 0.3 padding))
                                            'element (make-music
                                                      'PropertySet
                                                      'symbol 'instrumentName
@@ -92,8 +95,8 @@ staffStart =
                                 incipit-width
                                 (if forbid-key-modification 10 15))
                             mm)))
-             (ly:output-def-set-variable! layout 'line-width indent)
-             (ly:output-def-set-variable! layout 'indent (- indent width))
+             (ly:output-def-set-variable! layout 'line-width (+ indent width))
+             (ly:output-def-set-variable! layout 'indent indent)
              (ly:output-def-set-variable! layout 'ragged-right #f)
              (ly:score-add-output-def! score layout)
              (set! (ly:grob-property grob 'long-text) (markup #:score score)))))
@@ -102,7 +105,7 @@ staffStart =
      (let ((short-text (ly:grob-property grob 'text)))
        (if (markup? short-text)
            (set! (ly:grob-property grob 'text)
-                 (markup #:null #:raise -4.5 #:concat (short-text #:hspace 0.5)))))
+                 (markup #:null #:raise -1 #:concat (short-text #:hspace 1)))))
      (system-start-text::print grob))
   #}))
 

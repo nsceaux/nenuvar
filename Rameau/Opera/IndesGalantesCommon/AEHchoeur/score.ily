@@ -69,7 +69,7 @@
         >>
       >>
       \new ChoirStaff \with {
-        instrumentName = \markup { \smallCaps Chœur \hspace #6 } }
+        instrumentName = \markup { \smallCaps Chœur \hspace #2 } }
       <<
         \new Staff \withLyrics <<
           \global \keepWithTag #'conducteur \includeNotes "voix-dessus"

@@ -248,7 +248,7 @@
   }
   \wordwrap {
     La mesure 20 de Huascar et de la basse continue est raturée, avec la
-    note dans la marge : \italic { corriger le role, } :
+    note dans la marge : \italic { corriger le role } :
   }
   \line {
     \column {

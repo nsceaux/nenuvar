@@ -4,8 +4,8 @@ la'4. la'8 la' la' si' do'' |
 si' sol' si' do'' re'' re'' mi'' fad'' |
 sol''4. sol''8 mi''4.\trill mi''8 |
 la''2 fad''4\trill r4 |
-si''2~ si''4. \vA { la''32*4/3 sol'' fad'' } \vB { la''16*2/3 sol'' fad'' } |
-mi''4. si'8 re''4.-\vA( dod''16 re''-\vA) |
+si''2~ si''4. la''32*4/3 sol'' fad'' |
+mi''4. si'8 re''4.( dod''16 re'') |
 dod''1\trill |
 la''4. fad''8 re''4 la' |
 si'8 si' dod'' re'' dod''4.\trill si'16 la' |
@@ -28,7 +28,7 @@ re'' do'' si' do'' re'' mi'' fa'' re'' |
 mi''4. fa''8 re''4.\trill do''8 |
 do''4 mi'' la''2~ |
 la''4 mi''8 fad'' sol''4 la''8 sol'' |
-fad''4-\vA\trill re''8 mi'' fad'' sol'' la'' si'' |
+fad''4\trill re''8 mi'' fad'' sol'' la'' si'' |
 do'''4 re'' do''' re'' |
 do'''2~ do'''8 do''' si'' la'' |
 si''4. si''8 si'' si'' dod''' re''' |
@@ -44,7 +44,7 @@ sol''2 r8 sol'' fad'' sol'' |
 mi''1\trillSug |
 r4 do'''8 si'' la'' sol'' fad'' mi'' |
 do'''4. si''8 la'' sol'' fad'' mi'' |
-red''4-\vA\trill si'8 dod'' red'' mi'' fad'' sol'' |
+red''4\trill si'8 dod'' red'' mi'' fad'' sol'' |
 la''4 si' la'' si' |
 la''2~ la''8 la'' sol'' fad'' |
 sol''4. la''8 sol'' fad'' mi'' red'' |
@@ -91,14 +91,14 @@ la''2 r |
 \setMusic #'hbI {
   la'4. si'8 do'' do'' si' la' |
   si'4. do''8 re'' re'' do'' si' |
-  la'4.-\vA\trill si'8 do'' do'' si' la' |
+  la'4.\trill si'8 do'' do'' si' la' |
   si'4. do''8 re'' re'' do'' si' |
   la'2\trill
 }
 \setMusic #'hbII {
   fad'4. sol'8 la' la' sol' fad' |
   sol'4. la'8 si' si' la' sol' |
-  fad'4.-\vA\trill sol'8 la' la' sol' fad' |
+  fad'4.\trill sol'8 la' la' sol' fad' |
   sol'4. la'8 si' si' la' sol' |
   fad'2\trillSug
 }
@@ -142,11 +142,11 @@ sol' la' si' do'' re'' mi'' fad'' re'' |
 <<
   \tag #'(hautbois flutes) { <<sol''4 \\ si'>> re' <<sol''4 \\ si'>> re' | }
   \tag #'(dessus violons) {
-    \repeat unfold 2 { \vA <sol'' si'>4 \vB <<sol''4 \\ si'>> <re' sol> } |
+    \repeat unfold 2 { <sol'' si'>4 <re' sol> } |
   }
 >>
-sol''1-\vA\trill ~ |
-sol''-\vB\trill |
+sol''1\trill ~ |
+sol'' |
 r4 re'8 mi' fad' sol' la' si' |
 \origVersion { \custosNote do''4 s2. | }
 sol''1 |

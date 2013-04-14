@@ -23,7 +23,7 @@
       \new Staff << \global \includeNotes "violon2" >>
     >>
     \modVersion\new StaffGroupNoBar <<
-      \new GrandStaff \with { instrumentName = \markup { Violons \hspace #6 } }
+      \new GrandStaff \with { instrumentName = \markup { Violons \hspace #2 } }
       <<
         \new Staff << \global \includeNotes "violon1" >>
         \new Staff << \global \includeNotes "violon2" >>

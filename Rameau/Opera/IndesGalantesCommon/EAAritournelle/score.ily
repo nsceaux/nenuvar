@@ -23,7 +23,7 @@
     \modVersion\new StaffGroup <<
       \new GrandStaff \with { instrumentName = \markup {
           \center-column { Violons Hautbois }
-          \hspace #6
+          \hspace #2
         } } <<
         \new Staff << \global \includeNotes "dessus1" >>
         \new Staff << \global \includeNotes "dessus2" >>

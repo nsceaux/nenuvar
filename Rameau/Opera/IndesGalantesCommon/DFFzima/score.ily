@@ -117,7 +117,7 @@
           shortInstrumentName = "ti"
         } << \global \includeNotes "timbales" >>
         \new GrandStaff \with {
-          instrumentName = \markup { Violons \hspace #6 }
+          instrumentName = \markup { Violons \hspace #2 }
           shortInstrumentName = "vl"
         } <<
           \new Staff << \global \includeNotes "violon1" >>
