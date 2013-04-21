@@ -3,11 +3,11 @@
     \digitTime\time 2/2
     \tag #'no-silence \tempo "Gravement" \midiTempo #108
     \partial 4 s4
-    \origVersion s4*0^\markup\musicglyph #"scripts.segno"
-    \modVersion { \bar "|;:" \segnoMark }
+    \origVersion <>^\markup\musicglyph #"scripts.segno"
+    \modVersion { \bar "|!:" \segnoMark }
     s1*7 \alternatives s1 s1
-    \origVersion s4*0^\markup\musicglyph #"scripts.segno"
-    \modVersion { \bar "|;:" \segnoMark }
+    \origVersion <>^\markup\musicglyph #"scripts.segno"
+    \modVersion { \bar "|!:" \segnoMark }
     s1*14 \alternatives s1 s1 \bar "|."
   }
   \origLayout {
