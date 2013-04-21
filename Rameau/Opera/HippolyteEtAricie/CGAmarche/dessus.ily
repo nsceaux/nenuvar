@@ -6,6 +6,7 @@ sol'4. fad'8 sol' la' si' do'' |
 re''4 re' re' re'' |
 mi''8 re'' mi'' fad'' sol''4 mi'' |
 la''1 |
+\modVersion { la''1 | }
 re''2 re'' |
 re''8 do'' si' la' sol'4 sol'' |
 fa''\trill mi''8 fa'' re''4 sol'' |

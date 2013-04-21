@@ -1,4 +1,6 @@
-\tag #'haute-contre \clef "haute-contre" \tag #'taille \clef "taille" re'4 re' |
+\tag #'(haute-contre parties) \clef "haute-contre"
+\tag #'taille \clef "taille"
+re'4 re' |
 re' fad' mi' la' |
 fad'\trill \appoggiatura mi'8 re' r la'4 la' |
 la'2 la'4. re''8 |

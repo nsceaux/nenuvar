@@ -35,16 +35,20 @@ la'2.( |
 la'4.) la'8 si'8.( fad'16) |
 \appoggiatura fad'8 sol'2 r8 mi'' |
 mi''2. ~|
-mi''2 r8 do'' |
-si'4.( fad'8) sol'8.( la'16) |
-\appoggiatura la'8 si'2 si'4 |
-si' r8 r16 fad'' si''8.( la''16) |
-red''8.( fad''16) si'4 r8 mi'' |
-mi''2. ~|
-mi''2 r8 do'' |
-si'4. fad'8 sol'8.( la'16) |
-si'8.( mi''16) mi''4. mi''16 red'' |
-\appoggiatura red''8 mi''8.\fermata si'16 mi''8. re''?16 re''8.\trill( dod''32 re'') |
+\setMusic #'reprise {
+  mi''2 r8 do'' |
+  si'4.( fad'8) sol'8.( la'16) |
+  \appoggiatura la'8 si'2 si'4 |
+  si' r8 r16 fad'' si''8.( la''16) |
+  red''8.( fad''16) si'4 r8 mi'' |
+  mi''2. ~|
+  mi''2 r8 do'' |
+  si'4. fad'8 sol'8.( la'16) |
+  si'8.( mi''16) mi''4. mi''16 red'' |
+
+}
+\keepWithTag #'() \reprise
+\appoggiatura red''8 mi''8.-\origVersion -\fermata si'16 mi''8. re''?16 re''8.\trill( dod''32 re'') |
 dod''8 r r4 r8 dod'' |
 fad'4. fad'8 sol'8.( la'16) |
 si'8.( do''16) si'4 fad' |
@@ -63,4 +67,5 @@ dod'2. |
 re'4 mi'8.( fad'16) sol'8.( mi'16) |
 fad'2. |
 si2 r8 mi'' |
-mi''2.\laissezVibrer |
+\origVersion { mi''2.\laissezVibrer | }
+\modVersion { mi''2.~ \reprise \appoggiatura red''8 mi''2 }

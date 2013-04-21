@@ -1,10 +1,10 @@
 <<
   { \keys la \minor
     \midiTempo #160 \digitTime\time 3/4
-    \origVersion s4*0^\markup\musicglyph #"scripts.segno"
+    \origVersion <>^\markup\musicglyph #"scripts.segno"
     s2.*16 \fineMark \bar "|."
     s2.*15 s2 s8 s8^\markup\orig-version\musicglyph #"scripts.segno"
-    \dacapoMark \bar "|;|"
+    \dacapoMark \origVersion\bar "|;|" \modVersion\bar "|."
   }
   \origLayout {
     s2.*11\break

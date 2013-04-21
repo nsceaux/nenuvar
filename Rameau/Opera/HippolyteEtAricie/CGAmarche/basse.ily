@@ -6,6 +6,7 @@ sol2. sol4 |
 fad8 mi fad sol fad4 fad |
 mi2. la4 |
 re8 dod re mi fad4 re |
+\modVersion { re8 dod re mi fad4 re | }
 re,2 r |
 sol sol |
 la8 sol la do' si4 sol |

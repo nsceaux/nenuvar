@@ -15,7 +15,7 @@
                                             (not (symbol? (ly:get-option 'part)))))
 
 %% use baroque style repeats
-#(ly:set-option 'baroque-repeats #t)
+#(ly:set-option 'baroque-repeats #f)
 
 %% Staff size:
 %%  14 for lead sheets

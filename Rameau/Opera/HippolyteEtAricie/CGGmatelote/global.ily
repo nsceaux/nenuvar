@@ -3,7 +3,7 @@
     \midiTempo #160
     \tag #'no-silence \tempo "Gay"
     \digitTime \time 2/2
-    \partial 4 s4 s1*7 s2. \bar "|;|"
+    \partial 4 s4 s1*7 s2. \origVersion\bar "|;|" \modVersion\bar ":|."
     s4 s1*11 s2. \bar "|." \break
   }
   \origLayout {

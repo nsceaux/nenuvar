@@ -4,32 +4,28 @@
     \tag #'cor \transposition re'
     \midiTempo #144 \time 6/8 \partial 2 s2
     \origVersion { s4.*0^\markup\musicglyph #"scripts.segno" }
-    s2.*7 s4 \bar "||" \fineMark
-    \modVersion\set Score.repeatCommands = #'((volta "1."))
+    s2.*7 s8. \fineMark s16 \bar "|."
+    \modVersion\beginMark\markup{ \concat { [1 \super re } reprise] }
     s8 s4.
-    \modVersion\set Score.repeatCommands = #'((volta #f))
     s2.*7
     <<
       \origVersion {
         s2 s8. s16^\markup\musicglyph #"scripts.segno"
-        \dacapoOverrides \mark\markup\right-align\italic "au Rondeau"
-        \bar "|;|"
+        \endMark "au Rondeau" \bar "|;|"
         \set Score.measureLength = #(ly:make-moment 4 8)
         s8 s4.
         \set Score.measureLength = #(ly:make-moment 6 8)
       }
       \modVersion {
-        s4 \bar "|;|" 
-        \dacapoOverrides \mark\markup\right-align\italic "au Rondeau"
-        \modVersion\set Score.repeatCommands = #'((volta "2."))
+        s8. \endMark "au Rondeau" s16 \bar "|." 
+        \beginMark\markup{ \concat { [2 \super e } reprise] }
         s8 s4.
-        \modVersion\set Score.repeatCommands = #'((volta #f))
       }
     >>
     s2.*7 s4
-    \origVersion { s4 s8. s16^\markup\musicglyph #"scripts.segno" }
-    \bar "|;|"
-    \dacapoOverrides \mark\markup\right-align\italic "au Rondeau"
+    \origVersion { s4 s8. s16^\markup\musicglyph #"scripts.segno" \bar "|;|" }
+    \modVersion\bar "|."
+    \endMark "au Rondeau"
   }
   \origLayout {
     s2 s2.*6\break

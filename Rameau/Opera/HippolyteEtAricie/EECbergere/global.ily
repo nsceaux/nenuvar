@@ -5,7 +5,7 @@
   \modVersion {
     s2 \segnoMark s2.*15 s4 \fineMark \bar "|."
     s2 s2.*15 s4
-    s2 s2.*8 \bar "|;|"
+    s2 s2.*8 \bar "|."
     \tag #'no-silence \endMark\markup { a la Reprise jusqu'au mot fin }
   }
   \origVersion {

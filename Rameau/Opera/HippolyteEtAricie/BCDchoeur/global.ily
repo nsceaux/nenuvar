@@ -4,12 +4,12 @@
     s2.
     <<
       \origVersion s4*0^\markup\musicglyph #"scripts.segno"
-      \modVersion { \segnoMark \bar "|;:" }
+      \modVersion { \segnoMark \bar "|!:" }
     >>
     s2.*11 \alternatives \repeat unfold 2 { s2.\noBreak } s2. s2.
     <<
       \origVersion s4*0^\markup\musicglyph #"scripts.segno"
-      \modVersion { \segnoMark \bar "|;:" }
+      \modVersion { \segnoMark \bar "|!:" }
     >>
     s2.*17
     <<
@@ -27,8 +27,9 @@
       \modVersion \alternatives \repeat unfold 3 { s2.\noBreak } s2.
     >>
     s2. \bar "|."
-    \dacapoOverrides\mark\markup\right-align\italic\line {
-      On reprend le \concat { 2 \super e } air de Furies entier page \page-refII #'BCCair .
+    \endMark\markup\line {
+      On reprend le \concat { 2 \super e } air de Furies entier
+      page \page-refII #'BCCair .
     }
   }
   \origLayout {

@@ -4,28 +4,25 @@
     \time 6/8 \partial 2
     \origVersion s4*0^\markup\musicglyph #"scripts.segno"
     \modVersion\segnoMark
-    s2 s2.*7 s4^\markup\orig-version\large fin
-    \modVersion { \bar "||" \fineMark }
+    s2 s2.*7
     <<
-      \origVersion { s2 }
+      \origVersion { s4^\markup\large fin }
       \modVersion {
-        \set Score.repeatCommands = #'((volta "1."))
-        s8 s4.
-        \set Score.repeatCommands = #'((volta #f))
+        s8. \fineMark s16 \bar "|."
+        \beginMark\markup { \concat { [1 re } reprise] }
       }
     >>
-    s2.*7 s8. s16^\markup\orig-version\musicglyph #"scripts.segno"
-    \bar "|;|" \modVersion\segnoMarkEnd
-    <<
-      \origVersion { s2 }
-      \modVersion {
-        \set Score.repeatCommands = #'((volta "2."))
-        s8 s4.
-        \set Score.repeatCommands = #'((volta #f))
-      }
-    >>
-    s2.*7 s8. s16^\markup\orig-version\musicglyph #"scripts.segno"
-    \bar "|;|" \modVersion\segnoMarkEnd
+    s2 s2.*7 s8..
+    \modVersion\segnoMarkEnd
+    s32^\markup\orig-version\musicglyph #"scripts.segno"
+    \origVersion\bar "|;|"
+    \modVersion {
+      \bar "|."
+      \beginMark\markup { \concat { [2 e } reprise] }
+    }
+    s2 s2.*7 s8. s16^\markup\orig-version\musicglyph #"scripts.segno"
+    \origVersion\bar "|;|"
+    \modVersion { \bar "|." \segnoMarkEnd }
   }
   \origLayout {
     s2 s2.*2 s4. \bar "" \break

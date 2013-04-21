@@ -30,16 +30,19 @@ dod'4 dod'8. dod'16 re'8. mi'16 |
 red'2\trill si4 |
 mi'2 r8 si' |
 si'4.( la'8) la'8. la'16 |
-la'2.~ |
-la'4. la'8 sol'8.\trill( fad'16) |
-sol'8.( la'32 sol') fad'8.( si16) si4 |
-R2. |
-r4 r r8 si' |
-si'4.( la'8) la'8. la'16 |
-la'2.~ |
-la'4. la'8 sol'8.\trill( fad'16) |
-\appoggiatura fad'8 sol'8. mi'16 mi'4( si) |
-si2\fermata sold4 |
+\setMusic #'reprise {
+  la'2.~ |
+  la'4. la'8 sol'8.\trill( fad'16) |
+  sol'8.( la'32 sol') fad'8.( si16) si4 |
+  R2. |
+  r4 r r8 si' |
+  si'4.( la'8) la'8. la'16 |
+  la'2.~ |
+  la'4. la'8 sol'8.\trill( fad'16) |
+  \appoggiatura fad'8 sol'8. mi'16 mi'4( si) |
+  si2-\origVersion -\fermata
+}
+\keepWithTag #'() \reprise sold4 |
 la2 lad4 |
 si4. red''8 mi''8. fad''16 |
 si'8. do''16 fad'4.\trill mi'8 |
@@ -59,3 +62,4 @@ re'4 mi'8. ( fad'16 ) sol'8. ( mi'16 )|
 fad'2. |
 si2 r8 si' |
 si'4. ( la'8 ) la'8. la'16 |
+\modVersion\reprise

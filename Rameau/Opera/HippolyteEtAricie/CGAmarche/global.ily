@@ -2,7 +2,8 @@
   { \keys sol \major
     \midiTempo #160 \tag #'no-silence \tempo "Tres Gay"
     \digitTime \time 2/2
-    s1*8 \bar "|;|" s1*17
+    \origVersion { s1*8 \bar "|;|" }
+    \modVersion { s1*7 \alternatives s1 s1 \bar "|!:" } s1*17
     \alternatives s1 s1 \bar "|."
   }
   \origLayout {

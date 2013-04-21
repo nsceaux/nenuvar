@@ -5,9 +5,13 @@ re'1 |
 re'2. re'4 |
 re'2. re'4 |
 re'2. dod'4 |
-\new Voice \with { \alternativeLayout } {
+\origVersion\new Voice \with { \alternativeLayout } {
   re'2.*1/2\startGroup fad'4*1/2 \fakeBar
   re'1*1/2\stopGroup |
+}
+\modVersion {
+  re'2. fad'4 |
+  re'1 |
 }
 R1 |
 re'2 re' |

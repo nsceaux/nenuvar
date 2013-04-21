@@ -26,16 +26,19 @@ si,2 r4 |
 R2.*3 |
 r4 r r8 mi |
 la2. |
-r4 r r8 fad |
-si2 r8 la |
-sol4 red4. mi8 |
-si,2 r4 |
-r4 r r8 mi |
-la2. |
-r4 r r8 fad |
-si2 r8 la |
-sol8. ( la16 ) si4 si, |
-mi,2\fermata r4 |
+\setMusic #'reprise {
+  r4 r r8 fad |
+  si2 r8 la |
+  sol4 red4. mi8 |
+  si,2 r4 |
+  r4 r r8 mi |
+  la2. |
+  r4 r r8 fad |
+  si2 r8 la |
+  sol8. ( la16 ) si4 si, |
+  mi,2-\origVersion -\fermata
+}
+\keepWithTag #'() \reprise r4 |
 R2. |
 r8 r16 fad si8.( la16) la8( sol16 fad) |
 sol8. la16 si4 si, |
@@ -43,3 +46,4 @@ mi,2 r4 |
 R2.*13 |
 r4 r r8 mi |
 la2. |
+\modVersion\reprise

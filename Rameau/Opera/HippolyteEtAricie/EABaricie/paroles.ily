@@ -12,3 +12,9 @@ je n’ai que des sou -- pirs, pour ré -- pondre aux Con -- certs
 dont ces lieux en -- chan -- tés vien -- nent m’of -- frir les char -- mes.
 
 Mes yeux,
+\modVersion {
+ vous n’ê -- tes plus ou -- verts
+ que pour ver -- sez des lar -- "mes ;"
+ mes Yeux, vous n’ê -- tes plus ou -- verts
+ que pour ver -- sez des lar -- mes.
+}

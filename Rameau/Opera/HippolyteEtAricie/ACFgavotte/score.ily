@@ -98,7 +98,7 @@
         >> \includeLyrics "paroles"
       >>
       \new Staff \with { \haraKiriFirst } \withLyrics <<
-        \global \tag #'pretresse \includeNotes "voix"
+        \global \keepWithTag #'pretresse \includeNotes "voix"
       >> \includeLyrics "paroles"
       \new Staff \with { \haraKiriFirst } <<
         { \startHaraKiri s2 s1*9 s2 \stopHaraKiri

@@ -7,12 +7,13 @@
       s4*0^\markup\musicglyph #"scripts.segno"
     }
     \modVersion {
+      \bar "||"
       \markUpBegin\mark\markup { \musicglyph #"scripts.segno" Reprise }
     }
     s2.*24 s8
     \modVersion\fineMark
     s8^\markup\orig-version\large\italic fin
-    s2 s2.*26 \bar "|;|"
+    s2 s2.*26 \origVersion\bar "|;|" \modVersion\bar "|."
     \tag #'score \endMark\markup { a la Reprise page \page-refIII #'EEIreprise . }
     \tag #'part \endMark\markup { a la Reprise }
   }

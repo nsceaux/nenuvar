@@ -1,7 +1,8 @@
 <<
   { \keys mi \major
-    \midiTempo #180 \digitTime\time 3/4 s2.*8 \bar "|;|"
-    s2.*8 \bar "|;|"
+    \midiTempo #180
+    \digitTime\time 3/4 s2.*8 \origVersion\bar "|;|" \modVersion\bar ":|.|:"
+    s2.*8 \origVersion\bar "|;|" \modVersion\bar ":|."
   }
   \origLayout {
     s2.*8\break
