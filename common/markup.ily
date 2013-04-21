@@ -168,7 +168,7 @@
     #{\markup\column {
         \fontsize #-2 \override #`(column-number . ,column-number)
         \column\page-columns {
-          \fontsize #2 \line { \hspace #10 Tacet \raise #3 $score }
+          \fontsize #2 \line { \hspace #10 Tacet $score }
           \null
           $text
         }

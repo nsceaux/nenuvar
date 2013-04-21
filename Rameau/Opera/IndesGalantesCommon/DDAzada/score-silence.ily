@@ -35,7 +35,7 @@
     \layout {
       indent = #0
       ragged-last = ##t
-      line-width = 5\cm
+      line-width = 8\cm
       \context {
         \Score
         \remove "Bar_number_engraver"
