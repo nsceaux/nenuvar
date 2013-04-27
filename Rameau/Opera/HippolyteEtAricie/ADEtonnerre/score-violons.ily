@@ -1,11 +1,7 @@
 \score {
-  \new GrandStaff <<
-    \new Staff \with { \tinyStaff } <<
-      \instrumentName \markup { \concat { "[1" \super rs "]" } Violons }
-      \global \includeNotes "violon1" >>
-    \new Staff \with { \tinyStaff } <<
-      \instrumentName \markup { \concat { "[2" \super ds "]" } Violons }
-      \global \includeNotes "violon2" >>
+  \new GrandStaff \with { instrumentName = "Violons" } <<
+    \new Staff \with { \tinyStaff } << \global \includeNotes "violon1" >>
+    \new Staff \with { \tinyStaff } << \global \includeNotes "violon2" >>
   >>
   \layout {
     indent = \largeindent

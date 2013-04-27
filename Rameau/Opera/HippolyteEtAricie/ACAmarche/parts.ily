@@ -1,4 +1,3 @@
 \piecePartSpecs #`((dessus #:instrument ,(markup #:center-column ("Flûtes" "Violons")))
-                   (haute-contre)
-                   (taille)
+                   (parties #:score-template "score-parties")
                    (basse))

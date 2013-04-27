@@ -1,4 +1,6 @@
-\piecePartSpecs #`((violons #:score "score-violons")
+\piecePartSpecs #`((dessus #:score "score-violons")
+                   (parties #:notes "violon3"
+                            #:instrument , #{ \markup { \concat { 3 \super es } Violons } #})
                    (basse-continue #:notes "violon3"
                                    #:clef "treble"
                                    #:instrument "Clavecin"

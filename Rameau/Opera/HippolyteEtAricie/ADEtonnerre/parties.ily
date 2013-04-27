@@ -1,28 +1,48 @@
-\clef "haute-contre" s4*0_"doux" \ru#16 sol32 |
+\clef "haute-contre" <>_"doux" \ru#16 sol32 |
 \ru#16 sol32 |
-s4*0_"fort" \ru#16 sol32 |
-\ru#8 sol s4*0_"doux" \ru#8 la32 |
+<>_"fort" \ru#16 sol32 |
+\ru#8 sol <>_"doux" \ru#8 la32 |
 \ru#16 la |
-s4*0_"fort" \ru#16 la32 |
-\ru#8 la s4*0_"doux" \ru#8 si32 |
+<>_"fort" \ru#16 la32 |
+\ru#8 la <>_"doux" \ru#8 si32 |
 \ru#16 si |
-s4*0_"fort" \ru#16 si32 |
-\ru#8 si s4*0_"doux" \ru#8 do'32 |
+<>_"fort" \ru#16 si32 |
+\ru#8 si <>_"doux" \ru#8 do'32 |
 \ru#16 do' |
-s4*0_"fort" \ru#16 do'32 |
+<>_"fort" \ru#16 do'32 |
 \ru#8 do' \ru#8 re' |
-\ru#8 re' \ru#8 fad' |
-\ru#16 sol' |
-\ru#16 la' |
-\ru#16 si' |
-\ru#16 la' |
-\ru#16 do'' |
-\ru#16 si' |
-\ru#16 la' |
-\ru#16 si' |
-\ru#16 la' |
-\ru#16 la' |
-la'8 r r4 |
+\ru#8 re' <<
+  \tag #'(parties haute-contre) \new Voice {
+    \tag #'parties \voiceOne
+    \ru#8 fad' |
+    \ru#16 sol' |
+    \ru#16 la' |
+    \ru#16 si' |
+    \ru#16 la' |
+    \ru#16 do'' |
+    \ru#16 si' |
+    \ru#16 la' |
+    \ru#16 si' |
+    \ru#16 la' |
+    \ru#16 la' |
+    la'8
+  }
+  \tag #'(parties taille) \new Voice {
+    \tag #'parties \voiceTwo
+    \ru#8 la32 |
+    \ru#16 si |
+    \ru#16 do' |
+    \ru#16 sol' |
+    \ru#16 sol' |
+    \ru#16 la' |
+    \ru#16 sol' |
+    \ru#16 fad' |
+    \ru#8 la' \ru#8 sol' |
+    \ru#8 sol' \ru#8 re' |
+    \ru#16 do' |
+    do'8
+  }
+>> r8 r4 |
 r32 re'' do'' si' la' re'' do'' si' la' re'' do'' si' la' sol' fad' mi' |
 re' sol' fad' mi' re' sol' fad' mi' re' sol' fad' mi' re' do' si la |
 sol8 r r32 sol sol sol sol sol sol sol |
@@ -41,6 +61,6 @@ la'4\trill r32 re' mi' fad' sol' la' si' do'' |
 re' re' mi' fad' sol' la' si' do'' re'' re'' do'' si' la' sol' fad' mi' |
 \rp#4 { re' sol' fad' mi' } |
 re' sol' fad' mi' re' sol' fad' mi' re' sol' fad' mi' re' do' si la |
-s4*0^"en adoucissant" \ru#16 sol32 |
+<>^"en adoucissant" \ru#16 sol32 |
 \ru#16 sol |
 sol8 r r4 

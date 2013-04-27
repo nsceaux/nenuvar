@@ -9,10 +9,10 @@
         \global \includeNotes "violon2" >>
       \new Staff \with { \smallStaff } <<
         \instrumentName \markup Haute-contre
-        \global \includeNotes "haute-contre" >>
+        \global \keepWithTag #'haute-contre \includeNotes "parties" >>
       \new Staff \with { \smallStaff } <<
         \instrumentName \markup Taille
-        \global \includeNotes "taille" >>
+        \global \keepWithTag #'taille \includeNotes "parties" >>
       \new Staff \with { \smallStaff } <<
         \instrumentName \markup Bassons
         \global \includeNotes "bassons" >>
@@ -30,9 +30,9 @@
       \new Staff << \instrumentName \markup { \concat { "[2" \super ds "]" } Violons }
         \global \includeNotes "violon2" >>
       \new Staff << \instrumentName \markup Haute-contre
-        \global \includeNotes "haute-contre" >>
+        \global \keepWithTag #'haute-contre \includeNotes "parties" >>
       \new Staff << \instrumentName \markup Taille
-        \global \includeNotes "taille" >>
+        \global \keepWithTag #'taille \includeNotes "parties" >>
       \new Staff << \instrumentName \markup Bassons
         \global \includeNotes "bassons" >>
       \new Staff << \instrumentName \markup { Toutes les Basses }

@@ -52,6 +52,7 @@
 
 \include "italiano.ly"
 \include "common/common.ily"
+\include "common/columns.ily"
 \include "common/side-ornementations.ily"
 \include "common/toc-columns.ily"
 \include "common/livret-columns.ily"
@@ -59,26 +60,14 @@
 \opusTitle "Hippolyte et Aricie"
 
 \opusPartSpecs #`(
-  ;; Dessus de violons, flutes, hautbois, sans distinction
+  ;; Dessus de violons, flutes, hautbois
   (dessus "" () (#:notes "dessus" #:tag-notes dessus))
-  ;; real parts
-  (violons "Violons" ((violon #f) (dessus1 #f) (dessus #f))
-           (#:notes "dessus" #:tag-notes violons))
-  (flutes "Flûtes" ((dessus #f)
-                            (hautbois "Hautbois")
-                            (violons "Violons"))
-          (#:notes "dessus" #:tag-notes flutes))
-  (hautbois "Hautbois" ((dessus #f)
-                                (violons "Violons"))
-            (#:notes "dessus" #:tag-notes hautbois))
   (trompette "Trompette" () (#:notes "dessus" #:tag-notes trompette))
   (cor "Cors en ré" () (#:notes "cor"))
-  (haute-contre "Hautes-contre" () (#:notes "haute-contre" #:clef "alto"))
-  (taille "Tailles" () (#:notes "taille" #:clef "alto"))
-  (basse "Basses" () (#:notes "basse" #:clef "bass" #:tag-notes basse))
-  (basson "Bassons" ((basse "Basses"))
-          (#:notes "basse" #:clef "bass" #:tag-notes basson #:instrument "Bassons"))
   (timbales "Timbales" () (#:notes "timbales" #:clef "bass"))
+  (parties "Hautes-contre et tailles" ()
+           (#:notes "parties" #:tag-notes parties #:clef "alto"))
+  (basse "Basses" () (#:notes "basse" #:clef "bass" #:tag-notes basse))
   (basse-continue "Basse continue" ((basse #f))
                   (#:notes "basse" #:tag-notes basse #:clef "bass"
                            #:score-template "score-basse-continue2")))

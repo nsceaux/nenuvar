@@ -9,5 +9,5 @@
       \global \includeNotes "taille"
     >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
 }

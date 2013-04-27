@@ -1,3 +1,2 @@
-\piecePartSpecs #`((violons #:score "score-violons")
-                   (flutes #:notes "flute" #:instrument "Flûte seule")
+\piecePartSpecs #`((dessus #:score "score-dessus")
                    (silence #:score "score-silence"))

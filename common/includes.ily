@@ -347,17 +347,26 @@ global =
    (ly:music-deep-copy global-music)))
 
 includeNotes = 
-#(define-music-function (parser location pathname) (string?)
+#(define-music-function (parser this-location pathname) (string?)
+   ;; use locations from the included file,
+   ;; and not from where \includeNotes is called
+   (set! location #f)
   (let ((include-file (include-pathname pathname)))
    #{ \notemode { \include $include-file } #}))
 
 includeLyrics = 
-#(define-music-function (parser location pathname) (string?)
+#(define-music-function (parser this-location pathname) (string?)
+   ;; use locations from the included file,
+   ;; and not from where \includeNotes is called
+   (set! location #f)
   (let ((include-file (include-pathname pathname)))
    #{ \lyricmode { \include $include-file } #}))
 
 includeFigures = 
-#(define-music-function (parser location pathname) (string?)
+#(define-music-function (parser this-location pathname) (string?)
+   ;; use locations from the included file,
+   ;; and not from where \includeNotes is called
+   (set! location #f)
   (let ((include-file (include-pathname pathname)))
      #{ \figuremode { \include $include-file } #}))
 

@@ -8,7 +8,7 @@
     >>
     s2.*11 \alternatives \repeat unfold 2 { s2.\noBreak } s2. s2.
     <<
-      \origVersion <>\markup\musicglyph #"scripts.segno"
+      \origVersion <>^\markup\musicglyph #"scripts.segno"
       \modVersion { \segnoMark \bar "|!:" }
     >>
     s2.*17 \alternatives \repeat unfold 3 { s2.\noBreak } s2. s2. \bar "|."
