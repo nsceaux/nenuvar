@@ -1,6 +1,11 @@
 \score {
   \new StaffGroup <<
     \new Staff \with { \tinyStaff } <<
+      \instrumentName \markup\smaller Bassons
+      \global \includeNotes "basson"
+      { s1*18 s2.^"Bassons" }
+    >>
+    \new Staff \with { \tinyStaff } <<
       \instrumentName \markup\smaller "Violoncel."
       \global \includeNotes "violoncelle"
       { s1*18 \break s2.^"Violons celle" }

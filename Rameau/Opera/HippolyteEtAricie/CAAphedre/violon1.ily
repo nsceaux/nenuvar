@@ -33,6 +33,39 @@ r8 r32 fad''( sold'' lad'') lad''8.\trill( sold''32 lad'') si''4~ |
 si'' si'8.( lad'16) si'( dod'') re''8 |
 r re''16( mi'' fad''4) fad' |
 fad'2 fad''4 ~|
+%% Version 1757
 fad'' mi'' re''8.( dod''32\trill si') |
 si'4 lad'4.\trill si'8 |
 si'2. |
+\modVersion {
+  %% Version 1733
+  \grace { \once\hideNotes fad''8^( } fad''4) mi'' re'' |
+  dod''2.~ dod''4 si' la' |
+  sold' sol'2 |
+  fad'2 fad'4~ |
+  fad'8( mi'16\trill re') dod'4.\trill si8 |
+  si2. |
+  R2.*7 |
+  r4 r mi' |
+  fad'4. fad'8[ sold'?8. la'16] |
+  sold'4.\trill si'16 sold' mid'8 sold'16 mid' |
+  si8 mid'16 sold' si'4. si'32*4/3 la' sold' |
+  dod''2~ dod''8. dod''16 |
+  fad'2 r4 |
+  r4 r8 si'[ si'8.( la'16)] |
+  sold'2.~ |
+  sold'4. dod''8[ dod''8. dod''16] |
+  fad''2.~ |
+  fad'' |
+  mid''4 fad''2 |
+  fad''2 fad''8.( mid''16) |
+  \appoggiatura mid''8 fad''2. |
+  r4 fad''4. la''8 |
+  \appoggiatura la''8 sold''2. |
+  r4 sold''4.( si''8) |
+  \appoggiatura si''8 la''4 lad''4.(\trill sold''16 lad'') |
+  si''2~ si''8( la''16\trill sold'') |
+  \appoggiatura sold''8 la''8.( sold''32 fad'') mid''4.\trill fad''8 |
+  fad''2. |
+  R2. |
+}

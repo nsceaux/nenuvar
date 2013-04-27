@@ -66,7 +66,7 @@ si4 do'8 si la sol fad mi |
 red2\trill r4 r8 red |
 mi2 mi, |
 si, r |
-R1*2 |
+R1*2 |\allowPageTurn
 r4 si si la |
 sol fad mi mi, |
 si,2 r4 si, |

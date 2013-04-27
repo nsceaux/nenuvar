@@ -9,7 +9,7 @@
 >>
 <<
   \tag #'(basse-continue basse basson1) {
-    la4.^"Les Basses" _"doux" |
+    la4.^\markup\whiteout "Les Basses" _"doux" |
     si8 la sold |
     fad mi re |
     \stemUp dod la,16 mi la la, |\stemNeutral

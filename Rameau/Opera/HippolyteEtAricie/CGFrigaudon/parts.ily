@@ -1,5 +1,3 @@
-\piecePartSpecs #`((hautbois #:notes "hautbois" #:instrument "Hautbois")
-                   (haute-contre #:notes "haute-contre-taille")
-                   (taille #:notes "haute-contre-taille")
-                   (basson #:notes "basson" #:clef "tenor")
-                   (basse))
+\piecePartSpecs #`((dessus #:notes "hautbois" #:instrument "Hautbois")
+                   (parties #:notes "haute-contre-taille")
+                   (basse #:score "score-basse"))

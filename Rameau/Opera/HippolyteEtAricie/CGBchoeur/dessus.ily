@@ -102,7 +102,7 @@ fad''4. mi''8 fad'' sol'' mi'' fad'' |
 red''2.\trill mi''8 fad'' |
 si'1 |
 si'2 si'4. mi''8 |
-red''2 r |
+red''2 r |\allowPageTurn
 R1 |
 mi'2 sol'4 la' |
 si' si' dod'' red'' |

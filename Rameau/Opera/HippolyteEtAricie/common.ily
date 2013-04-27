@@ -47,7 +47,7 @@
 }
 
 %% Tremolo for string instruments
-#(if (memq (ly:get-option 'part) '(violons haute-contre taille basse basse-continue))
+#(if (memq (ly:get-option 'part) '(dessus parties basse basse-continue))
      (ly:set-option 'use-tremolo-repeat #t))
 
 \include "italiano.ly"
@@ -93,7 +93,8 @@ scene =
 
 %%% Figured bass
 includeFigures = 
-#(define-music-function (parser location pathname) (string?)
+#(define-music-function (parser this-location pathname) (string?)
+   (set! location #f)
   (let ((include-file (include-pathname pathname)))
      #{ \new FiguredBass \figuremode { \include $include-file } #}))
 

@@ -611,8 +611,6 @@ origLayout =
   }
 }
 
-
-
 #(define-markup-command (annotation layout props markp) (markup?)
    (if (eqv? #t (ly:get-option 'ancient-style))
        (interpret-markup layout props (markup #:with-color red markp))
@@ -623,9 +621,8 @@ verticalTweak =
    "Specify hard coded vertical spacing.  setting lilypond option
 `apply-vertical-tweaks' to #f get rid off these tweaks."
    (if (eqv? #t (ly:get-option 'apply-vertical-tweaks))
-       #{
-\overrideProperty #"Score.NonMusicalPaperColumn"
-#'line-break-system-details #tweak #}
+       #{ \overrideProperty
+Score.NonMusicalPaperColumn.line-break-system-details #tweak #}
        (make-music 'Music 'void #t)))
 
 

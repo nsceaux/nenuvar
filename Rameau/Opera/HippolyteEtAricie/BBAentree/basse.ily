@@ -10,4 +10,8 @@ sol16 sol la si \times 4/6 { do'32*2( si la sol fa mi) } fa8 ( fa16\trill mi32 f
 <<
   \tag #'basson { do'8 do,16 do, do,4 }
   \tag #'basse { do'8 <do, do>16 <do, do> <do, do>4 }
+  \tag #'tous <<
+    { <>^"Basses" do'8 <do, do>16 <do, do> <do, do>4 }
+    \\ { <>_"Bassons" do'8 do,16 do, do,4 }
+  >>
 >> r4 |

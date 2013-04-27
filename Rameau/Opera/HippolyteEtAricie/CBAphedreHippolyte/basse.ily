@@ -57,11 +57,13 @@
     la,4. sib,8 do4 do, |
     fa,
   }
-  \tag #'basse {
-    r4 r2 R1 R2. R1 R1 R2.*2 R1 R1*4 R2. R1*2 R2. R1
-    R2.*2 R1*2 R2.*2 R1*2 R2. R1 R1*2 r4 r2. R2. R1 R1 R1*2
-    R2. R1*2 R2. R1 R2. R1 R2. R1
-    r2 la,4_"Basses et contre basse" | \noBreak
+  \tag #'(basse basse-part) {
+    \tag #'basse {
+      r4 r2 R1 R2. R1 R1 R2.*2 R1 R1*4 R2. R1*2 R2. R1
+      R2.*2 R1*2 R2.*2 R1*2 R2. R1 R1*2 r4 r4 r2 R2. R1 R1 R1*2
+      R2. R1*2 R2. R1 R2. R1 R2. R1
+    }
+    r4 r la,4_"Basses et contre basse" | \noBreak
     sib,2 r4 |
     R1*2 R1*3 R2. R1 R1 |
     r4
@@ -108,4 +110,5 @@ r32 do'32 si la sol fa mi re do8 r
   \tag #'basse {
     r2 | R1 R1*5 R1*7 R1 R2. R1*3 R1*2 R1*3
   }
+  \tag #'basse-part r2
 >>

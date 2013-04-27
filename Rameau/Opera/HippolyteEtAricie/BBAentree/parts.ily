@@ -1,7 +1,5 @@
-\piecePartSpecs #`((hautbois)
-                   (violons #:tag-notes violons)
-                   (haute-contre #:notes "parties")
-                   (taille #:notes "parties")
-                   (basson)
-                   (basse #:instrument "B.C.")
-                   (basse-continue #:score-template "score"))
+\piecePartSpecs #`((dessus #:score "score-dessus")
+                   (parties)
+                   (basse #:tag-notes tous
+                          #:instrument
+                          , #{ \markup\center-column { Bassons B.C. }#}))

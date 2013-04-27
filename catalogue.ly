@@ -372,16 +372,14 @@ O Emmanuel")
         #:url "http://nicolas.sceaux.free.fr/index.php?p=24"
         #:main ((urtext "Version urtext" #:options "-durtext")
                 (#f "Version de concert, avec clés modernisées"))
-        #:parts ((flutes "Flûtes")
-                 (hautbois "Hautbois")
-                 (trompette "Trompette" #:score-file "part-trompette-timbales.ly")
+        #:parts ((dessus "Flûtes, Hautbois, Violons")
+                 (trompette "Trompette"
+                            #:score-file "part-trompette-timbales.ly")
                  (cor "Cor en ré" #:score-file "part-cor.ly")
-                 (basson "Bassons")
-                 (violons "Violons")
-                 (haute-contre "Hautes-contre")
-                 (taille "Tailles")
-                 (basse "Basses")
-                 (timbales "Timbales" #:score-file "part-trompette-timbales.ly")
+                 (parties "Hautes-contre et Tailles")
+                 (basse "Basses et Bassons")
+                 (timbales "Timbales"
+                           #:score-file "part-trompette-timbales.ly")
                  (basse-continue "Basse continue")))
        ("Les Indes Galantes (1735 & sauvages)"
         #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1735 et entrée des sauvages de 1736.")

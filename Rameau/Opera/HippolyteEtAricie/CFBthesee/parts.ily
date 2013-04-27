@@ -1,6 +1,5 @@
-\piecePartSpecs #`((violons #:instrument "Violons")
-                   (haute-contre)
-                   (taille)
+\piecePartSpecs #`((dessus #:instrument "Violons")
+                   (parties #:score-template "score-parties")
                    (basse #:tag-notes basse)
                    (basse-continue #:score-template "score-basse-continue-voix"
                                    #:indent 0

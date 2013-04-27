@@ -337,12 +337,15 @@ opusPartSpecs =
 %%%
 
 global = 
-#(define-music-function (parser location) ()
-  (let* ((global-symbol (string->symbol (format "global~a~a" (*opus*) (*piece*))))
+#(define-music-function (parser this-location) ()
+   (set! location #f)
+  (let* ((global-symbol
+          (string->symbol (format "global~a~a" (*opus*) (*piece*))))
          (global-music (ly:parser-lookup parser global-symbol)))
    (if (not (ly:music? global-music))
        (let* ((global-file (include-pathname "global")))
-         (set! global-music #{ \notemode { \staffStart \include $global-file } #})
+         (set! global-music
+               #{ \notemode { \staffStart \include $global-file } #})
          (ly:parser-define! parser global-symbol global-music)))
    (ly:music-deep-copy global-music)))
 

@@ -1,5 +1,3 @@
 \piecePartSpecs #`((dessus)
-                   (haute-contre)
-                   (taille)
-                   (basson)
+                   (parties #:score-template "score-parties")
                    (basse))

@@ -37,4 +37,44 @@ re4 dod si, |
 mi2. |
 fad4 fad,2 |
 si, r4 |
+%% Version 1757
 R2.*3 |
+\modVersion {
+  %% Version 1733
+  r4 mi sol |
+  lad,2. |
+  si, |
+  mi~ |
+  mi2 re4 |
+  mi fad fad, |
+  si,2. |
+  r4 r si,4 |
+  dod2 la,4 |
+  re2 si,4 |
+  mi2 re4 |
+  dod2 la,4 |
+  re2 fad4 |
+  mi mi,2 |
+  la, la4 |
+  la2 sold8. fad16 |
+  mid2.~ |
+  mid |
+  mi! |
+  red2 re4 |
+  dod2. |
+  sid, |
+  si,! |
+  la, |
+  re |
+  dod4 sid,2 |
+  dod4 dod,2 |
+  fad, fad4 |
+  si2. |
+  sid |
+  dod'2 dod'4 |
+  fad2 fad4 |
+  si,2 re4 |
+  la,8.( si,16) dod4 dod, |
+  fad,4 fad8. mi16 re8.\trill dod16 |
+  si,2 si,4 |
+}

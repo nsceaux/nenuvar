@@ -9,7 +9,7 @@
     fa'4
     << \tag #'basse { s2. s1 s2.*2 s1 s2. s4. }
       \tag #'phedre { r4 r2 | R1 R2.*2 R1 R2. r4 r8 } >>
-    \tag #'basse \phedreMark la'-\tag #'phedre ^\markup\character-text "Pèdre" "à Thésée" si' dod'' re'' mi'' |
+    \tag #'basse \phedreMark la'-\tag #'phedre ^\markup\character-text "Phèdre" "à Thésée" si' dod'' re'' mi'' |
     fa''4. fa''8 fad''4\trill fad''8 fad''16 sol'' |
     sol''4 r8 mi''16 mi'' dod''4\trill dod''8 re'' |
     %\appoggiatura re'' mi''4.

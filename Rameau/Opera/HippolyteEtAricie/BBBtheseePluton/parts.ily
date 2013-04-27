@@ -1,7 +1,7 @@
-\piecePartSpecs #`((violons #:score "score-violons")
-                   (haute-contre #:notes "parties" #:tag-notes haute-contre)
-                   (taille #:notes "parties" #:tag-notes taille)
-                   (basse #:tag-notes basse #:music
+\piecePartSpecs #`((dessus #:score "score-violons")
+                   (parties)
+                   (basse #:score "score-basse"
+                    #:tag-notes basse #:music
                           ,#{ s1_"B.C. et contre-basse"
                           s1*8 s1 s2. s1*4 s1*4 s1*7 s1*3 s1 s1*5 s1*4
                           s1*22 s1*5 s1 s2. s1 s1 s2. s1

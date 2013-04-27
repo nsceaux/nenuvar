@@ -1,7 +1,7 @@
-\piecePartSpecs #`((dessus #:instrument ,(markup #:center-column ("Hautbois" "Violons"))
+\piecePartSpecs #`((dessus #:instrument
+                           ,(markup #:center-column ("Hautbois" "Violons"))
                            #:ragged #t)
-                   (haute-contre #:ragged #t)
-                   (taille #:ragged #t)
+                   (parties #:score-template "score-parties" #:ragged #t)
                    (basse #:ragged #t)
                    (silence #:tag-global silence))
 
