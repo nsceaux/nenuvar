@@ -1,7 +1,7 @@
+\markup\italic { Parties de violons pages suivantes }
 \score {
-  \new GrandStaff <<
+  \new GrandStaff \with { instrumentName = "Hautbois" } <<
     \new Staff <<
-      \instrumentName "Hautbois"
       \keepWithTag #'autres \global
       \keepWithTag #'hautbois1 \includeNotes "hautbois"
     >>
@@ -16,6 +16,14 @@
       \keepWithTag #'autres \global
       \keepWithTag #'hautbois2 \includeNotes "hautbois"
     >>
+  >>
+  \layout { indent = \largeindent }
+}
+\allowPageTurn
+\score {
+  \new Staff \with { instrumentName = "Violons" } <<
+    \keepWithTag #'autres \global
+    \keepWithTag #'violons \includeNotes "violon"
   >>
   \layout { indent = \largeindent }
 }

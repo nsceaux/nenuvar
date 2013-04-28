@@ -1,6 +1,6 @@
 \piecePartSpecs #`((dessus #:tag-global autres)
-                   (haute-contre #:tag-global autres)
-                   (taille #:tag-global autres)
+                   (parties #:score-template "score-parties"
+                            #:tag-global autres)
                    (cor #:tag-global cor)
                    (basse #:tag-global autres)
                    (silence #:tag-global autres))

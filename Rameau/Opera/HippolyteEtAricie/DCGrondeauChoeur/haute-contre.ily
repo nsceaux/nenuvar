@@ -17,7 +17,7 @@ mi'4.*3/2 fad'32( sol' la' si' dod'' re'' ) dod''4*3/2 mi'\trill |
 re'4.*3/2 mi'32( fad' sol' la' si' dod'' ) re''8 la' la' la' la' la' |
 la' la' la' la' la' la' la' la' la' la' la' la' |
 la'2*3/2 r |
-R1.*7 |
+R1.*7 |\allowPageTurn
 r2*3/2 re''4*3/2 fad'\trill |
 mi'4.*3/2 fad'32( sol' la' si' dod'' re'' ) dod''4*3/2 mi'\trill |
 re'4.*3/2 mi'32( fad' sol' la' si' dod'' ) re''8 la' la' la' la' la' |

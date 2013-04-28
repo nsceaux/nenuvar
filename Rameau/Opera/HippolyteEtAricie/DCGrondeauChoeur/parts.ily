@@ -1,14 +1,8 @@
-\piecePartSpecs #`((hautbois #:score "score-hautbois")
-                   (violon #:notes "violon"
-                           #:tag-global autres
-                           #:instrument "Violons")
-                   (haute-contre #:tag-global autres)
-                   (taille #:tag-global autres)
+\piecePartSpecs #`((dessus #:score "score-dessus")
+                   (parties #:score-template "score-parties"
+                            #:tag-global autres)
                    (cor #:tag-global cor)
-                   (basson #:notes "basson"
-                           #:tag-global autres)
-                   (basse #:instrument "B.C."
-                          #:tag-global autres)
+                   (basse #:score "score-basse")
                    (basse-continue #:score-template "score"
                                    #:tag-global autres)
                    (silence #:score "score-silence"

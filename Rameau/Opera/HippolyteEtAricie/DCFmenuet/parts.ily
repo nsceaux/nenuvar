@@ -1,3 +1,2 @@
-\piecePartSpecs #`((hautbois #:notes "hautbois" #:instrument "Hautbois")
-                   (basson #:notes "basson" #:instrument "Basson")
+\piecePartSpecs #`((dessus #:notes "hautbois" #:instrument "Hautbois")
                    (basse #:notes "basson" #:instrument "Basson"))

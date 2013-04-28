@@ -1,8 +1,6 @@
-\piecePartSpecs #`((hautbois #:score "score-hautbois")
-                   (violon #:score "score-violons")
-                   (haute-contre #:tag-global autres)
-                   (taille #:tag-global autres)
+\piecePartSpecs #`((dessus #:score "score-dessus")
+                   (parties #:score-template "score-parties"
+                            #:tag-global autres)
                    (cor #:tag-global cor #:instrument "Cors [en ré]")
-                   (basson #:tag-global autres #:notes "basse")
                    (basse #:tag-global autres)
                    (silence #:score "score-silence"))
