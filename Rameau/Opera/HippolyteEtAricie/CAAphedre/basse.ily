@@ -31,7 +31,7 @@ sol2 r8 mi |
 la2 do'4 |
 si si,2 |
 mi r4 |
-R2.*4 |
+R2.*4 | \allowPageTurn \grace s8
 r4 r fad8. ( mi16 )|
 re4 dod si, |
 mi2. |

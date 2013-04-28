@@ -1,12 +1,12 @@
 %{ n°1 %}\newBookPart #'()
 \act "Acte Quatrième"
-\sceneDescription \markup \wordwrap-center {
+\sceneDescription\markup\wordwrap-center {
   Le Théâtre représente un Bois consacré à \smallCaps Diane sur le
   rivage de la Mer.
 }
 \scene "Scène Première" "SCÈNE 1 : Hippolyte"
-\sceneDescription \markup \fill-line { \line { \smallCaps Hippolyte, seul. } }
-\pieceToc \markup { Hippolyte : \italic { Ah ! Faut-il en un jour } }
+\sceneDescription\markup\fill-line { \line { \smallCaps Hippolyte, seul. } }
+\pieceToc\markup\wordwrap { Hippolyte : \italic { Ah ! Faut-il en un jour } }
 \includeScore  "DAAhippolyte"
 %%
 %{ n°2 %}
@@ -14,13 +14,14 @@
 \sceneDescription \markup \wordwrap-center {
   \smallCaps { Hippolyte, Aricie. }
 }
-\pieceToc \markup { Hippolyte, Aricie : \italic { C'en est donc fait, cruel } }
+\pieceToc\markup\wordwrap {
+  Hippolyte, Aricie : \italic { C'en est donc fait, cruel } }
 \includeScore "DBAhippolyteAricie"
 %{ n°3 %}
 \pieceTocTitle "Annonce"
 \includeScore "DBBannonce"
 %{ n°4 %}
-\pieceToc \markup { Hippolyte : \italic { Le sort conduit ici } }
+\pieceToc\markup\wordwrap { Hippolyte : \italic { Le sort conduit ici } }
 \includeScore "DBChippolyte"
 %%
 %{ n°5 %}\newBookPart #'(full-rehearsal)
@@ -31,7 +32,8 @@
   \smallCaps { Hippolyte, Aricie, }
   chasseurs et chasseresses.
 }
-\pieceToc \markup { Chœur : \italic { Faisons partout voler nos traits } }
+\pieceToc\markup\wordwrap {
+  Chœur : \italic { Faisons partout voler nos traits } }
 \includeScore  "DCAchoeur"
 %{ n°6 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entrée des habitants de la forêt"
@@ -54,24 +56,24 @@
 \markup\large { On reprend le premier menuet page \page-refIII #'DCEmenuet . }
 \markup\null
 %{ n°11 %}
-\pieceTocAndTitle \markup "DEUXIÈME RONDEAU" \markup \wordwrap {
+\pieceTocAndTitle \markup "DEUXIÈME RONDEAU" \markup\wordwrap {
   Deuxième rondeau : \italic { À la chasse, à la chasse, Armez-vous }
 }
 \includeScore "DCGrondeauChoeur"
 %{ n°12 %}\newBookPart #'(full-rehearsal)
-\pieceToc \markup { Chœur, Hippolyte, Aricie :
+\pieceToc\markup\wordwrap { Chœur, Hippolyte, Aricie :
   \italic { Quel bruit ! Quels vents ! } }
 \includeScore "DCHchoeurHippolyteAricie"
 %{ n°13 %}
-\pieceToc \markup { Chœur, Aricie :
+\pieceToc\markup\wordwrap { Chœur, Aricie :
   \italic { Dieux ! Quelle flamme l'environne ! } }
 \includeScore "DCIchoeurAricie"
 %%
 %{ n°14 %}
-\scene "Scène IV" \markup \wordwrap {
+\scene "Scène IV" \markup\wordwrap {
   SCÈNE 4 : Phèdre, chasseurs et chasseresses.
 }
-\sceneDescription \markup \wordwrap-center {
+\sceneDescription\markup\wordwrap-center {
   \smallCaps Phèdre, chasseurs et chasseresses.
 }
 \pieceToc \markup { Phèdre, chœur :

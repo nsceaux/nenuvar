@@ -409,11 +409,15 @@ setOpus =
 #(define (include-score-helper parser name label allow-page-turn)
    ;;(format #t "Including score `~a'~%" name)
    (if (eqv? #t (ly:get-option 'non-score-print))
-       (begin
-         (add-music parser
-                    (make-music 'Music
-                                'page-marker #t
-                                'page-label (string->symbol (or label name))))
+       (let ((label (string->symbol (or label name))))
+         (add-music
+          parser
+          (make-music 'EventChord
+                      'elements (list (make-music
+                                       'LabelEvent
+                                       'page-label label))
+                      'page-marker #t
+                      'page-label label))
          (add-toplevel-markup parser name))
        (parameterize ((*piece* name))
          ;;(format #t "Reading ~a~%" name)

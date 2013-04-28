@@ -352,19 +352,6 @@ inMusicSceneDescCond =
               } #}))
        (make-music 'Music 'void #t)))
 
-%% Editorial notes
-notesSection =
-#(define-music-function (parser location title) (markup?)
-  (add-page-break parser)
-  (add-toc-item parser 'tocPieceMarkup title)
-  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
-  (*act-title* title)
-  (add-odd-page-header-text
-    parser
-    (format #f "~a" (string-upper-case (*act-title*)))
-    #f)
-  (make-music 'Music 'void #t))
-
 \layout {
   \context {
     \Voice

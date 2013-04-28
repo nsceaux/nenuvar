@@ -19,8 +19,16 @@
   \table-of-contents
 }
 
-\include "Rameau/Opera/HippolyteEtAricie/notes.ily"
-\include "Rameau/Opera/HippolyteEtAricie/livret.ily"
+%% Notes
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Rameau/Opera/HippolyteEtAricie/notes.ily"
+}
+%% Livret
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Rameau/Opera/HippolyteEtAricie/livret.ily"
+}
 
 \include "Rameau/Opera/HippolyteEtAricie/acte1.ily"
 \include "Rameau/Opera/HippolyteEtAricie/acte2.ily"

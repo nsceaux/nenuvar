@@ -9,6 +9,8 @@
 %% Table of contents
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
+  \markup\null
+  \partPageBreak #'(dessus)
   \markuplist
   \abs-fontsize-lines #7
   \override-lines #'(use-rehearsal-numbers . #t)

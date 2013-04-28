@@ -6,7 +6,7 @@ re''2. ~ re''4 dod'' si' |
 lad'2 re''4 ~|
 re''8 dod''16\trill si' lad'4.\trill si'8 |
 si'2. |
-R2.*3 |
+R2.*3 | \allowPageTurn
 r4 dod''8. si'16 lad'8. sold'16 |
 fad'8 si' si'8.( dod''16) re''8.( lad'16) |
 \appoggiatura lad'8 si'4 fad'8 fad' sold'8.( lad'16) |
@@ -15,7 +15,7 @@ fad''8.( mi''16) re''8.( dod''16) si'8.( dod''16) |
 lad'4\trill r4 r |
 r4 fad''4. si''8 |
 lad''2\trill r4 |
-R2.*4 |
+R2.*4 | \allowPageTurn
 r4 r8 si' mi''8. fad''16 |
 \appoggiatura fad''8 sol''2.~ |
 sol''4.( fad''16\trill mi'') la''8. la''16 |

@@ -12,6 +12,7 @@
     fad,4 r re2 |
     la, r8 fad, si,4 |
     << \origVersion { mi,2 ~ mi, } \modVersion mi,1 >> |
+    \allowPageTurn
     si,2 re |
     << \origVersion { fad2 ~ fad4 } \modVersion fad2. >> |
     sol2 r8 mi la8. re16 |

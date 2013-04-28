@@ -61,13 +61,16 @@
 
 \opusPartSpecs #`(
   ;; Dessus de violons, flutes, hautbois
-  (dessus "" () (#:notes "dessus" #:tag-notes dessus))
-  (trompette "Trompette" () (#:notes "dessus" #:tag-notes trompette))
+  (dessus "Violons, Flûtes, Hautbois" ()
+          (#:notes "dessus" #:tag-notes dessus))
+  (trompette "Trompette" ()
+             (#:notes "dessus" #:tag-notes trompette))
   (cor "Cors en ré" () (#:notes "cor"))
   (timbales "Timbales" () (#:notes "timbales" #:clef "bass"))
   (parties "Hautes-contre et tailles" ()
            (#:notes "parties" #:tag-notes parties #:clef "alto"))
-  (basse "Basses" () (#:notes "basse" #:clef "bass" #:tag-notes basse))
+  (basse "Basses et Bassons" ()
+         (#:notes "basse" #:clef "bass" #:tag-notes basse))
   (basse-continue "Basse continue" ((basse #f))
                   (#:notes "basse" #:tag-notes basse #:clef "bass"
                            #:score-template "score-basse-continue2")))

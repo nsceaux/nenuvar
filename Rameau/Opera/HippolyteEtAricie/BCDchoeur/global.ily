@@ -28,8 +28,8 @@
     >>
     s2. \bar "|."
     \endMark\markup\line {
-      On reprend le \concat { 2 \super e } air de Furies entier
-      page \page-refII #'BCCair .
+      On reprend le \concat { 2 \super e } air de Furies entier.
+      % page \page-refII #'BCCair .
     }
   }
   \origLayout {
