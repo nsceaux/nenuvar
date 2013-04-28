@@ -1,24 +1,47 @@
 <<
   \tag #'violon1 {
     \clef "treble/treble"
-    sol16(^"arpégio" re' si' sol'') sol''( si' re' sol) <sol re' si' sol''>2 |
-    <re' la' fad'' la''> q |
-    <sol re' si' sol''> q |
-    <do' sol' do'' mi''> q |
-    <la mi' dod'' la''> q |
-    <re' la' fad'' la''> q |
-    <sol re' si' sol''> q |
-    <do' sol' do'' mi''> q |
-    <re' la' sol'' la''> q |
-    <re' do'' fad'' la''> q |
-    <sol re' si' sol''> q |
-    q q |
-    <do' sol' do'' mi''> q |
-    <sol re' si' sol''> q |
-    <la fad' re'' la''> q |
-    <sol re' si' sol''> q |
-    <la mi' dod'' sol''> q |
-    <re' la' fad''>4 r4 r2 |
+    \origVersion {
+      sol16(^"arpégio" re' si' sol'') sol''( si' re' sol)
+      <sol re' si' sol''>2 |
+      <re' la' fad'' la''> q |
+      <sol re' si' sol''> q |
+      <do' sol' do'' mi''> q |
+      <la mi' dod'' la''> q |
+      <re' la' fad'' la''> q |
+      <sol re' si' sol''> q |
+      <do' sol' do'' mi''> q |
+      <re' la' sol'' la''> q |
+      <re' do'' fad'' la''> q |
+      <sol re' si' sol''> q |
+      q q |
+      <do' sol' do'' mi''> q |
+      <sol re' si' sol''> q |
+      <la fad' re'' la''> q |
+      <sol re' si' sol''> q |
+      <la mi' dod'' sol''> q |
+      <re' la' fad''>4 r4 r2 |
+    }
+    \modVersion {
+      \rp#2 { sol16( re' si' sol'') sol''( si' re' sol) } |
+      \rp#2 { re'( la' fad'' la'') la''( fad'' la' re') } |
+      \rp#2 { sol re' si' sol'' sol'' si' re' sol } |
+      \rp#2 { do' sol' do'' mi'' mi'' do'' sol' do' } |
+      \rp#2 { la mi' dod'' la'' la'' dod'' mi' la } |
+      \rp#2 { re' la' fad'' la'' la'' fad'' la' re' } |
+      \rp#2 { sol re' si' sol'' sol'' si' re' sol } |
+      \rp#2 { do' sol' do'' mi'' mi'' do'' sol' do' } |
+      \rp#2 { re' la' sol'' la'' la'' sol'' la' re' } |
+      \rp#2 { re' do'' fad'' la'' la'' fad'' do'' re' } |
+      \rp#2 { sol re' si' sol'' sol'' si' re' sol } |
+      \rp#2 { sol re' si' sol'' sol'' si' re' sol } |
+      \rp#2 { do' sol' do'' mi'' mi'' do'' sol' do' } |
+      \rp#2 { sol re' si' sol'' sol'' si' re' sol } |
+      \rp#2 { la fad' re'' la'' la'' re'' fad' la } |
+      \rp#2 { sol re' si' sol'' sol'' si' re' sol } |
+      \rp#2 { la mi' dod'' sol'' sol'' dod'' mi' la } |
+      re'16 la' fad''8 r4 r2 |
+    }
   }
   \tag #'violon2 {
     \clef "dessus2"

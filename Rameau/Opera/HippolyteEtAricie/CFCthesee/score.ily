@@ -70,7 +70,7 @@
         \new Staff <<
           \instrumentName \markup { \concat { P \super ers } violons }
           \global \keepWithTag #'violon1 \includeNotes "violons-parties"
-          { s1\noBreak s1*17 \break s2.^"Violons" }
+          { s1 s1*17 \break s2.^"Violons" }
         >>
         \new Staff \with { \haraKiri } <<
           \instrumentName \markup { \concat { 2 \super es } violons }
