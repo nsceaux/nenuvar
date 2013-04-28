@@ -1,10 +1,4 @@
-\piecePartSpecs #`((violons #:score "score-violons")
-                   (hautbois
-                    #:score "score-hautbois"
-                    #:instrument ,(markup #:center-column ("Hautbois"
-                                                           "Musettes")))
-                   (haute-contre)
-                   (taille)
-                   (basson #:notes "basson")
-                   (basse #:instrument "B.C.")
+\piecePartSpecs #`((dessus #:score "score-dessus")
+                   (parties #:score-template "score-parties")
+                   (basse #:score "score-basse")
                    (silence #:score "score-silence"))

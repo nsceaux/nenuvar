@@ -1,5 +1,4 @@
-\piecePartSpecs #`((violons #:notes "violon-clavecin")
-                   (flutes #:score "score-flutes")
+\piecePartSpecs #`((dessus #:score "score-dessus")
                    (basse-continue #:notes "violon-clavecin"
                                    #:instrument "Clavecin"
                                    #:clef "treble")

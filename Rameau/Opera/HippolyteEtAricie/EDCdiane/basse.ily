@@ -9,16 +9,18 @@
     fa4. re8 mi4 mi, |
     la,2
   }
-  \tag #'(basse basson) { R1*4 R1*2 r4 r }
+  \tag #'(basse basson basse-basson) { R1*4 R1*2 r4 r }
 >>
 <<
-  \tag #'(basse basse-continue) {
+  \tag #'(basse basse-continue basse-basson) \new Voice {
+    \tag #'basse-basson \voiceTwo
     la,4_"B.C." |
     la,2. ~|
     la, ~|
     la, |
   }
-  \tag #'basson {
+  \tag #'(basson basse-basson) \new Voice {
+    \tag #'basse-basson \voiceOne
     \clef "tenor" mi'8.( re'16) |
     fad'4( mi'\trill) re' |
     dod'\trill \appoggiatura si8 la4 mi |
@@ -43,7 +45,7 @@
     la4 si si, |
     mi2. |
   }
-  \tag #'(basse basson) {
+  \tag #'(basse basson basse-basson) {
     R2.*6 |
     r4^"Basson seul et violonscel." r sold8.( la16) |
     si4.( dod'8) re'4 |

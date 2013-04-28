@@ -1,4 +1,5 @@
-\clef "dessus" s4*0-\tag #'dessus ^"Tous" R2.*3 |
+\clef "dessus" R2.*3 |
+<>-\tag #'dessus ^"Tous"
 r4 re'' do'' |
 si'2 re''4 |
 sol' sol' si' |

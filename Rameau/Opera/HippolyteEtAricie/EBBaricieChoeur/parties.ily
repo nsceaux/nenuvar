@@ -19,14 +19,16 @@ si4 mi' re' |
 re'2. |
 R2.*3 |
 r4 r <<
-  \tag #'haute-contre {
+  \tag #'(haute-contre parties) \new Voice {
+    \tag #'parties \voiceOne
     re''4 |
     re''2 do''4 |
     do''8.( la'16) si'4 si' |
     si'4. do''8 do''4 |
     si'2. |
   }
-  \tag #'taille {
+  \tag #'(taille parties) \new Voice {
+    \tag #'parties \voiceTwo
     la'4 |
     si'2 la'4 |
     la' sol' re' |

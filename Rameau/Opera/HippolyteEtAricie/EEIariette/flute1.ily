@@ -8,7 +8,7 @@ r4 r16 sold''( mi'') si'' r4 |
 r r16 fad'' red'' si'' r4 |
 r r16 sold''( mi'') mi''' r8 sold'' |
 sold''8.( fad''32\trill mi'') si'8 dod''32( si') dod''( si') si'8.\trill la'16 |
-sold'2 r4 |
+sold'2 r4 | \allowPageTurn
 R2. |
 mi''8. fad''16( mi''8.) fad''32*2/5( mi'') fad''( mi'') fad''( mi''8.\trill) re''32( mi'') |
 la''8 r r4 r |

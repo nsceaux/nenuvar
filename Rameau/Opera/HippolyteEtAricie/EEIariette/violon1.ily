@@ -11,7 +11,7 @@ mi''4 r8 si' si'8.\trill( la'32 si') |
 fad''4 r8 si' si'8.\trill( la'32 si') |
 sold''4~ sold''16( la'' sold'' fad'' mi'' red'' mi'' si') |
 dod''( red'' dod'' red''32 mi'') fad''( mi'') fad''( mi'') mi''4\trill( red''16*2) |
-\appoggiatura red''8 mi''2. |\allowPageTurn
+\appoggiatura red''8 mi''2. |
 R2.*15 |
 r8 r32 dod''( re'' mi'') la'8 r r4 |
 r8 r32 si'( dod'' re'') mi'8 r r4 |

@@ -29,7 +29,7 @@ r si' si' |
 dod''4.( re''32*4/3 si' dod'') dod''8.\trill si'32 dod'' |
 re''4 dod''8.( re''16) lad'8.( si'16) |
 si'2 fad'4 |
-fad'2 r8 si'_"doux" |
+fad'2 r8 si'_\markup\whiteout "doux" |
 si'4. ( la'8 ) la'8. la'16 |
 la'2.( |
 la'4.) la'8 si'8.( fad'16) |

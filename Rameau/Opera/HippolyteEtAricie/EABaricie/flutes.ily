@@ -10,20 +10,23 @@ mi''4 la'' la'' |
 la''4. la''8 sol''8.\trill( fad''16) |
 \appoggiatura fad''8 sol''8. ( fad''32 mi'' ) red''4.\trill mi''8 |
 mi''2. |
-R2. |
+R2. | \allowPageTurn
 si''8.( la''16) sol''8.( fad''16) sol''8.( red''16) |
 mi''8.( sold''16) la''4. si''8 |
 do'''8.( re'''16) do'''8.( si''16) la''8.( sol''16) |
 fad''4\trill si'' si''~ |
 si''4.( la''16\trill sol'')\appoggiatura sol''8 la''8. la''16 |
 fad''4\trill si'' si'' |
-si''2.~ |
 <<
-  \tag #'flute1 {
+  \tag #'(flute1 flute1-part) \new Voice {
+    \tag #'flute1-part \voiceOne
+    si''2.~ |
     si''8.( fad''16) sol''8.( fad''16) sol''8.( la''16) |
     fad''2.\trill |
   }
-  \tag #'flute2 {
+  \tag #'(flute2 flute1-part) \new Voice {
+    \tag #'flute1-part \voiceTwo
+    si''2.~ |
     si''8.( red''16) mi''8.( red''16) mi''8.( fad''16) |
     red''2.\trill |
   }
@@ -63,7 +66,7 @@ red''4.\trill fad''8 mi''8.\trill( red''16) |
 mi''8.( fad''16) red''4.\trill mi''8 |
 mi''2 r4 |
 <<
-  \tag #'flute1 {
+  \tag #'(flute1 flute1-part) {
     R2.*2 |
     r4 la'' la'' |
     la''2. |
@@ -76,7 +79,7 @@ mi''2 r4 |
   \tag #'flute2 {
     R2.*3 |
     r4 re''' re''' |
-    re'''2. |
+    re'''2. |\allowPageTurn
     R2.*3 |
     r4 fad''8.( sold''16) lad''8.( si''16) |
     lad''8.\trill( sold''16) \appoggiatura sold''8 la''4. si''8 |

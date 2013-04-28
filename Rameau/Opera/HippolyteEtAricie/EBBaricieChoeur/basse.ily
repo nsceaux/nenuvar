@@ -9,7 +9,7 @@
     fad, mi, |
     re,4
   }
-  \tag #'(basse basson) { R1*6 r4 }
+  \tag #'(basse basson basse-basson) { R1*6 r4 }
 >> re'4 do' |
 si2 <<
   \tag #'basse-continue {
@@ -22,7 +22,7 @@ si2 <<
     fad\trill \appoggiatura mi8 re4 r |
     R2.*3 |
   }
-  \tag #'(basse basson) { r4 R2.*9 }
+  \tag #'(basse basson basse-basson) { r4 R2.*9 }
 >>
 r4 sol,^"Tous" sol, |
 do,2 r4 |
@@ -36,9 +36,9 @@ sol2 r4 |
 re2 do8 si, |
 mi4 do re |
 sol,2 \tag #'basse-continue \cesureInstr <<
-  \tag #'(basson basse-continue) {
+  \tag #'(basson basse-continue basse-basson) {
     \modVersion \clef "tenor"
-    sol4-\tag #'basse-continue _"Bassons" |
+    sol4-\tag #'(basse-continue basse-basson) _"Bassons" |
     re'2 re4 |
     sol2 sol'4 |
     sol' ( fad' ) sol' |
