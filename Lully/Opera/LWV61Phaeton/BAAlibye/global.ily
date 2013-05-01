@@ -18,7 +18,7 @@
     \time 3/2
     s1.
     \digitTime \time 2/2
-    s1*5 \modVersion { \bar "|;:" \segnoMark }
+    s1*5 \modVersion { \bar "|!:" \segnoMark }
     s1
     \time 3/2
     s1.

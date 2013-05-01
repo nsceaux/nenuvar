@@ -8,7 +8,7 @@
     }
     \origVersion s4*0^\markup\musicglyph #"scripts.segno"
     \modVersion {
-      \bar "|;:" \segnoMark
+      \bar "|!:" \segnoMark
       \once\override Score.RehearsalMark #'self-alignment-X = #LEFT
     }
     s1*10 \alternatives <<

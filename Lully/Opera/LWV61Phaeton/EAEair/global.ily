@@ -5,7 +5,7 @@
     s1*10 \alternatives s1 s1
     s1*7
     \origVersion { s4*0^\markup\musicglyph #"scripts.segno" }
-    \modVersion { \segnoMark \bar "|;:" }
+    \modVersion { \segnoMark \bar "|!:" }
     s1*11
     \alternatives <<
       \modVersion { s1 \segnoMarkDownEnd }

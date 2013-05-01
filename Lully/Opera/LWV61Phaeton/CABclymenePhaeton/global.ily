@@ -13,7 +13,7 @@
     \digitTime\time 3/4 s2.
     \time 4/4 s1
     \digitTime\time 3/4 s2. \midiTempo #120
-    \modVersion { \bar "|;:" \segnoMark }
+    \modVersion { \bar "|!:" \segnoMark }
     \origVersion s4*0^\markup\musicglyph #"scripts.segno"
     s2.*7
     \alternatives <<

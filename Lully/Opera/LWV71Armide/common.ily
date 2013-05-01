@@ -95,7 +95,8 @@ scene =
 
 %%% Figured bass
 includeFigures = 
-#(define-music-function (parser location pathname) (string?)
+#(define-music-function (parser this-location pathname) (string?)
+   (set! location #f)
   (let ((include-file (include-pathname pathname)))
      #{ \new FiguredBass \figuremode { \include $include-file } #}))
 

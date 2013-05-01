@@ -3,7 +3,7 @@
     \midiTempo #160 \digitTime \time 2/2 s1*16
     \alternatives s1 { \midiTempo #120 s1 }
     \modVersion {
-      \bar "|;:"
+      \bar "|!:"
       \override Score . RehearsalMark #'X-offset = #1
       \segnoMark
     }

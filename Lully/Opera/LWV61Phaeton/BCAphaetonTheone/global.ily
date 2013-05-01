@@ -9,7 +9,7 @@
     \digitTime\time 3/4 s2.
     \time 4/4 s1*3
     \digitTime\time 3/4 s2.*3 \midiTempo #160
-    \modVersion { \bar "|;:" \segnoMark }
+    \modVersion { \bar "|!:" \segnoMark }
     s2.*6
     \origVersion\bar "|;|" \modVersion { \bar ":|." \segnoMarkEnd }
     s2.*11 \midiTempo #80 s2.*2

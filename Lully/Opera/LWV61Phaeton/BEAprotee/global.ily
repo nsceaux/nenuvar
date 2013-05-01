@@ -3,7 +3,7 @@
     \markUpBegin\mark "Prelude"
     \midiTempo #160 \digitTime\time 3/4 s2.*7
     \digitTime\time 3/4 
-    \modVersion\bar "|;:" s2.*9
+    \modVersion\bar "|!:" s2.*9
     <<
       \origVersion {
         \alternatives s2. s2
@@ -12,7 +12,7 @@
       \modVersion {
         \alternatives s2. s2.
         \once\override Score.RehearsalMark #'X-offset = #1
-        \segnoMark \bar "|;:"
+        \segnoMark \bar "|!:"
       }
     >>
     s2.*7

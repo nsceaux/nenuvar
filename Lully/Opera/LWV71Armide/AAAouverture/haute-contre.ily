@@ -19,8 +19,8 @@ la'4 fa'8 sol'8 la'4 sol'4 sol'4 re'4 |
 mi'4 sol'4 sol'4 sol'4 do''4 do''4 |
 la'4\tr re''4 re''4 si'4 si'8 do''8 re''4 |
 sol'4 la'4 la'4 la'2 la'4 |
-la'4 \myfootnote #'NoteHead #'(0 . 2) \markup {
-  Ballard : \raise #3 \score {
+la'4 \footnoteHere #'(0 . 0) \markup {
+  Ballard : \score {
     { \tinyQuote \time 6/4 \key do \major \clef "soprano"
       la'4  sol'4 sol'4. la'8 fad'4. sol'8 |
     }
@@ -28,7 +28,7 @@ la'4 \myfootnote #'NoteHead #'(0 . 2) \markup {
   }
   la deuxième noire étant raturée et corrigée en \italic la.
   \hspace #2
-  Manuscrit : \raise #3 \score {
+  Manuscrit : \score {
     { \tinyQuote \time 6/4 \key do \major \clef "soprano"
       la'4  sol'4 sol'4. la'8 fad'4. sol'8 |
     }
