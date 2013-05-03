@@ -1,5 +1,4 @@
-\piecePartSpecs #`((dessus1)
-                   (dessus2)
+\piecePartSpecs #`((dessus)
                    (haute-contre)
                    (taille)
                    (quinte)
