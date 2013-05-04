@@ -371,7 +371,7 @@ includeFigures =
    ;; and not from where \includeNotes is called
    (set! location #f)
   (let ((include-file (include-pathname pathname)))
-     #{ \figuremode { \include $include-file } #}))
+     #{ \new FiguredBass \figuremode { \include $include-file } #}))
 
 setComposer =
 #(define-music-function (parser location name) (string?)
