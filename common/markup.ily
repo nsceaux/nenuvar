@@ -174,6 +174,26 @@
         }
       } #}))
 
+#(define-markup-command (tacet layout props num) (number?)
+   (let ((score (ly:make-score (make-music
+                                'MultiMeasureRestMusic
+                                'duration (ly:make-duration 0 0 num)))))
+     (ly:score-add-output-def! score #{ \layout {
+  indent = 0
+  ragged-right = ##t
+  \context { \Score skipBars = ##t }
+  \context {
+    \Staff
+    \remove "Time_signature_engraver"
+    \remove "Clef_engraver"
+    \remove "Staff_symbol_engraver"
+    \override MultiMeasureRest #'expand-limit = #2
+  }
+} #})
+     (interpret-markup
+      layout props
+      (make-score-markup score))))
+
 #(define-markup-command (lyrics layout props text)
      (markup-list?)
    #:properties ((column-number 2))
