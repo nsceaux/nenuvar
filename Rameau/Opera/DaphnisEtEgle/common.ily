@@ -70,18 +70,3 @@
           (#:notes "basse" #:clef "basse" #:tag-notes basse))
    (basse-continue "Basse continue" ((basse #f))
           (#:notes "basse" #:clef "basse" #:tag-notes basse)))
-
-trill = #(make-articulation "stopped")
-
-\layout {
-  \context {
-    \Voice
-    \name "Voice"
-    \override Script #'avoid-slur = #'outside
-  }
-  \context {
-    \CueVoice
-    \name "CueVoice"
-    \override Script #'avoid-slur = #'outside
-  }
-}

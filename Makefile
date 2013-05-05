@@ -1874,6 +1874,62 @@ Rameau/Concerts/IndesGalantesBuskaid-all: \
 
 .PHONY: Rameau/Concerts/IndesGalantesBuskaid-delivery Rameau/Concerts/IndesGalantesBuskaid-clean Rameau/Concerts/IndesGalantesBuskaid-all
 
+### Daphnis et Æglé
+# Conducteur
+Rameau/Opera/DaphnisEtEgle:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/DaphnisEtEgle  \
+	Rameau/Opera/DaphnisEtEgle/main.ly
+.PHONY: Rameau/Opera/DaphnisEtEgle
+# Violons, Flûtes, Hautbois
+Rameau/Opera/DaphnisEtEgle-dessus:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/DaphnisEtEgle-dessus -dpart=dessus  \
+	Rameau/Opera/DaphnisEtEgle/part.ly
+.PHONY: Rameau/Opera/DaphnisEtEgle-dessus
+# Hautes-contre et Tailles
+Rameau/Opera/DaphnisEtEgle-parties:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/DaphnisEtEgle-parties -dpart=parties  \
+	Rameau/Opera/DaphnisEtEgle/part.ly
+.PHONY: Rameau/Opera/DaphnisEtEgle-parties
+# Basses
+Rameau/Opera/DaphnisEtEgle-basse:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/DaphnisEtEgle-basse -dpart=basse  \
+	Rameau/Opera/DaphnisEtEgle/part.ly
+.PHONY: Rameau/Opera/DaphnisEtEgle-basse
+# Basse continue
+Rameau/Opera/DaphnisEtEgle-basse-continue:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/DaphnisEtEgle-basse-continue -dpart=basse-continue  \
+	Rameau/Opera/DaphnisEtEgle/part.ly
+.PHONY: Rameau/Opera/DaphnisEtEgle-basse-continue
+
+Rameau/Opera/DaphnisEtEgle-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Rameau/DaphnisEtEgle
+	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
+	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle-dessus.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
+	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-parties.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle-parties.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
+	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle-basse.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
+	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle-basse-continue.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
+	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle/DaphnisEtEgle-midi.tar.gz $(OUTPUT_DIR)/DaphnisEtEgle.midi $(OUTPUT_DIR)/DaphnisEtEgle-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/DaphnisEtEgle.midi ]; then cp $(OUTPUT_DIR)/DaphnisEtEgle.midi $(DELIVERY_DIR)/Rameau/DaphnisEtEgle/ ; fi
+	git archive --prefix=DaphnisEtEgle/ HEAD Rameau/Opera/DaphnisEtEgle common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/DaphnisEtEgle/DaphnisEtEgle.tar.gz
+
+Rameau/Opera/DaphnisEtEgle-clean:
+	@rm -f $(OUTPUT_DIR)/DaphnisEtEgle-* $(OUTPUT_DIR)/DaphnisEtEgle.*
+
+Rameau/Opera/DaphnisEtEgle-all: \
+	Rameau/Opera/DaphnisEtEgle \
+	Rameau/Opera/DaphnisEtEgle-dessus \
+	Rameau/Opera/DaphnisEtEgle-parties \
+	Rameau/Opera/DaphnisEtEgle-basse \
+	Rameau/Opera/DaphnisEtEgle-basse-continue\
+	Rameau/Opera/DaphnisEtEgle-delivery\
+	Rameau/Opera/DaphnisEtEgle-clean
+
+.PHONY: Rameau/Opera/DaphnisEtEgle-delivery Rameau/Opera/DaphnisEtEgle-clean Rameau/Opera/DaphnisEtEgle-all
+
 ### Les Fêtes de Ramire
 # Conducteur
 Rameau/Opera/lesFetesDeRamire:

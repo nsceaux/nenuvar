@@ -412,6 +412,15 @@ O Emmanuel")
                                      #:score-file "part-tt.ly")
                  (parties "Hautes-contre et Tailles")
                  (basse "Basses")))
+       ("Daphnis et Æglé"
+        #:description ,(markup #:wordwrap-string  "Pastorale héroïque, 1753.")
+        #:key "Rameau/Opera/DaphnisEtEgle"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p="
+        #:main ((#f "Conducteur"))
+        #:parts ((dessus "Violons, Flûtes, Hautbois")
+                 (parties "Hautes-contre et Tailles")
+                 (basse "Basses")
+                 (basse-continue "Basse continue")))
        ("Les Fêtes de Ramire"
         #:description ,(markup #:wordwrap-string  "Acte de ballet, livret de Voltaire, 1745.")
         #:key "Rameau/Opera/lesFetesDeRamire"

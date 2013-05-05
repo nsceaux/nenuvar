@@ -171,6 +171,19 @@ dotPrall = #(make-articulation "dotPrall")
 dotDoublePrallDoublePrall = #(make-articulation "dotDoublePrallDoublePrall")
 doublePrall = #(make-articulation "doublePrall")
 
+\layout {
+  \context {
+    \Voice
+    \name "Voice"
+    \override Script #'avoid-slur = #'outside
+  }
+  \context {
+    \CueVoice
+    \name "CueVoice"
+    \override Script #'avoid-slur = #'outside
+  }
+}
+
 %% A slur and a prall, both joined on their right ends
 slurPrall = {
   \once\override Slur #'direction = #UP

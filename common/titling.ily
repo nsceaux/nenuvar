@@ -548,8 +548,11 @@ actEnd =
   (make-music 'Music 'void #t))
 
 scene =
-#(define-music-function (parser location title) (string?)
-  (add-toc-item parser 'tocSceneMarkup title)
+#(define-music-function (parser location title toc-title) (string? markup?)
+  (add-toc-item parser 'tocSceneMarkup (if (and (string? toc-title)
+                                                (string-null? toc-title))
+                                           (string-upper-case title)
+                                           toc-title))
   (add-odd-page-header-text
     parser
     (format #f "~a, ~a."
@@ -562,18 +565,45 @@ scene =
   (make-music 'Music 'void #t))
 
 inMusicScene =
-#(define-music-function (parser location title) (string?)
+#(define-music-function (parser location title toc-title) (string? markup?)
+   (add-toc-item parser 'tocSceneMarkup toc-title)
    (let ((label-music (make-music 'SimultaneousMusic
                         'elements (list (in-music-add-odd-page-header-text
                                           (format #f "~a, ~a."
                                             (string-upper-case (*act-title*))
                                             (string-upper-case title))
-                                          #t)
-                                        (add-toc-item! 'tocSceneMarkup title "")))))
+                                          #t)))))
      #{ $label-music
         \once \override Score . RehearsalMark #'font-size = #0
         \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
         \mark \markup \fontsize #4 $(string-upper-case title) #}))
+
+inMusicSceneDescCond =
+#(define-music-function (parser location cond title toc-title description)
+     (boolean? string? markup? markup?)
+   (if cond
+       (begin
+         (add-toc-item parser 'tocSceneMarkup toc-title)
+         (let ((label-music
+                (make-music
+                 'SimultaneousMusic
+                 'elements (list (in-music-add-odd-page-header-text
+                                  (format #f "~a, ~a."
+                                          (string-upper-case (*act-title*))
+                                          (string-upper-case title))
+                                  #t))))
+               (description-markup (if (*part*)
+                                       empty-markup
+                                       (markup #:fontsize 2 description))))
+           #{ $label-music
+              \once \override Score . RehearsalMark #'font-size = #0
+              \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
+              \mark \markup \left-align \center-column {
+                \fontsize #4 $(string-upper-case title)
+                \vspace #1
+                $description-markup
+              } #}))
+       (make-music 'Music 'void #t)))
 
 inMusicSceneDesc =
 #(define-music-function (parser location title description) (string? markup?)
