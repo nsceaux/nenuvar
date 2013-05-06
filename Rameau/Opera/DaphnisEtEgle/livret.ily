@@ -36,8 +36,8 @@
 \livretVerse#8 { Venez au temple respectable }
 \livretVerse#12 { De la divinité qu’on adore en ces lieux, }
 \livretVerse#12 { Confirmer, nous jurer en présence des Dieux, }
-\livretVerse#9 { Cette amitié tendre et durable }
-\livretVerse#9 { Qui peut seule nous rendre heureux. }
+\livretVerse#8 { Cette amitié tendre et durable }
+\livretVerse#8 { Qui peut seule nous rendre heureux. }
 \livretPers EGLÉ
 \livretVerse#8 { Allons Daphnis sans plus attendre, }
 \livretVerse#8 { Allons aux pieds de leurs autels }

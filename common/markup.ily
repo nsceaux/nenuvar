@@ -192,7 +192,7 @@
 } #})
      (interpret-markup
       layout props
-      (make-score-markup score))))
+#{ \markup\fontsize #2 { \hspace #10 Tacet $(make-score-markup score) } #})))
 
 #(define-markup-command (lyrics layout props text)
      (markup-list?)

@@ -34,8 +34,8 @@
 %# Venez au temple respectable
 %# De la divinité qu'on adore en ces lieux,
 %# Confirmer, nous jurer en présence des Dieux,
-%# Cette amiti=é tendre et durable
-%# Qui peut seule nous rendre heureux.
+%# Cette amitié tendre et durable
+%# Qui peut seule nous rendre *heureux.
 \livretPers EGLÉ
 %# Allons Daphnis sans plus attendre,
 %# Allons aux pieds de leurs autels

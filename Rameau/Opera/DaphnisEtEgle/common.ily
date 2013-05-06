@@ -70,3 +70,11 @@
           (#:notes "basse" #:clef "basse" #:tag-notes basse))
    (basse-continue "Basse continue" ((basse #f))
           (#:notes "basse" #:clef "basse" #:tag-notes basse)))
+
+daphnisMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Daphnis"))
+
+egleMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Eglé"))

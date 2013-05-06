@@ -2,7 +2,7 @@
                    (basse-continue
                     #:score-template "score-basse-continue-voix")
                    (silence #:on-the-fly-markup , #{ \markup\lyrics {
-  \tacet #41
+  \tacet #44
   \column-break
   \bold DAPHNIS
   \verse#8 { Dieu de l’amitié, sous tes lois }

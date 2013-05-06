@@ -4,8 +4,8 @@
 \pieceTocTitle "Ouverture"
 \includeScore "AAouverture"
 
-%{ n°2 %}
-\pieceToc "Menuets I et II"
+%{ n°2 %} \newBookPart #'(full-rehearsal)
+\pieceTocTitle "Menuets I et II"
 \includeScore "ABmenuet" \noPageTurn
 \includeScore "ACmenuet"
 
@@ -18,4 +18,11 @@
 \scene "Scène Première" "Scène 1 : Daphnis"
 \sceneDescription\markup\smallCaps Daphnis
 %{ n°3 %}
-%\pieceToc\markup\wordwrap { Daphnis : \italic {  } }
+\pieceToc\markup\wordwrap { Daphnis : \italic { Dieu de l’amitié } }
+\includeScore "ADdaphnis"
+
+\scene "Scène II" "Scène 2 : Daphnis, Eglé"
+\sceneDescription\markup\smallCaps { Daphnis, Eglé }
+%{ n°4 %}
+\pieceToc\markup\wordwrap { Daphnis, Eglé : \italic { Æglé que votre retour } }
+\includeScore "BAdaphnisEgle"
