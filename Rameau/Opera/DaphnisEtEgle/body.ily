@@ -29,3 +29,9 @@
 %{ n°5 %}
 \pieceToc\markup\wordwrap { Chœur, Daphnis : \italic { Qu’une paix aimable } }
 \includeScore "BBchoeur"
+
+%{ n°6 %}
+\scene "Scène III" "Scène 3 : Le grand Prêtre de l'Amitié et sa suite"
+\sceneDescription\markup { Le grand Prêtre de l'Amitié et sa suite }
+\pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
+\includeScore "CAchoeur"
