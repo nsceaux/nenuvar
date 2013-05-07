@@ -21,7 +21,7 @@
 \pieceToc\markup\wordwrap { Daphnis : \italic { Dieu de l’amitié } }
 \includeScore "ADdaphnis"
 
-%{ n°4 %}
+%{ n°4 %} \newBookPart #'(full-rehearsal)
 \scene "Scène II" "Scène 2 : Daphnis, Eglé"
 \sceneDescription\markup\smallCaps { Daphnis, Eglé }
 \pieceToc\markup\wordwrap { Daphnis, Eglé : \italic { Æglé que votre retour } }
@@ -30,8 +30,11 @@
 \pieceToc\markup\wordwrap { Chœur, Daphnis : \italic { Qu’une paix aimable } }
 \includeScore "BBchoeur"
 
-%{ n°6 %}
+%{ n°6 %} \newBookPart #'(full-rehearsal)
 \scene "Scène III" "Scène 3 : Le grand Prêtre de l'Amitié et sa suite"
 \sceneDescription\markup { Le grand Prêtre de l'Amitié et sa suite }
 \pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
 \includeScore "CAchoeur"
+%{ n°7 %}
+\pieceTocTitle "Sarabande très tendre"
+\includeScore "CBsarabande"
