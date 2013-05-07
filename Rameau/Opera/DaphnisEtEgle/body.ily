@@ -38,3 +38,7 @@
 %{ n°7 %}
 \pieceTocTitle "Sarabande très tendre"
 \includeScore "CBsarabande"
+%{ n°8 %}
+\pieceTocTitle "Gavottes I et II"
+\includeScore "CCgavotte" \noPageTurn
+\includeScore "CDgavotte"
