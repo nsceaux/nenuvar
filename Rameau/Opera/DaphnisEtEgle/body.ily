@@ -46,3 +46,10 @@
 \pieceToc\markup\wordwrap { Le Grand Prêtre, chœur :
   \italic { Fuyez l'amour et ses fureurs } }
 \includeScore "CEchoeur"
+%{ n°10 %}
+\sceneDescription\markup\wordwrap-center {
+  Les Bergers reprennent leurs danses.
+}
+\pieceTocTitle "Passepieds I et II"
+\includescore "CFpassepied" \noPageTurn
+\includescore "CGpassepied"

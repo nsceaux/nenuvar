@@ -31,7 +31,7 @@
     >> \keepWithTag #'pretre \includeLyrics "paroles"
     \new Staff \with { instrumentName = "[B.C.]" } <<
       \global \keepWithTag #'basse-continue \includeNotes "basse"
-      %\includeFigures "chiffres"
+      \includeFigures "chiffres"
     >>
   >>
   \layout { }
