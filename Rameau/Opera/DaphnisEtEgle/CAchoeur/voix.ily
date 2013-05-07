@@ -29,7 +29,7 @@ la4 re' mi'8. fa'16 |
 si2\trill re'8 sol |
 do'4 do'8 mi' re' mi' |
 fa'4~ fa'4.( mi'16[\trill re']) |
-re'4.
+re'4.\trill
 <<
   \tag #'basse { r8 r4 | R2.*5 }
   \tag #'vbasse {

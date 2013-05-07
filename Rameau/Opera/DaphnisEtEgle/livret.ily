@@ -84,7 +84,7 @@
 \livretVerse#5 { Règne dans nos cœurs. }
 \livretPers\line { LE GRAND PRÊTRE }
 \livretVerse#8 { Insensible et sourde aux douleurs }
-\livretVerse#8 { De l’amant le plus méprisable, }
+\livretVerse#8 { De l’amant le plus misérable, }
 \livretVerse#12 { Aux yeux de ce tyran un spectacle agréable }
 \livretVerse#8 { Est celui des cris et des pleurs. }
 \livretPers CHŒUR

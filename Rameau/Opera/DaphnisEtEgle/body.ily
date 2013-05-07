@@ -42,3 +42,7 @@
 \pieceTocTitle "Gavottes I et II"
 \includeScore "CCgavotte" \noPageTurn
 \includeScore "CDgavotte"
+%{ n°9 %}
+\pieceToc\markup\wordwrap { Le Grand Prêtre, chœur :
+  \italic { Fuyez l'amour et ses fureurs } }
+\includeScore "CEchoeur"
