@@ -63,8 +63,16 @@
 
 %{ n°13 %} \newBookPart #'(full-rehearsal)
 \scene "Scène IV" "Scène 4 : Æglé, Daphnis et les précédents"
-\sceneDescription\markup { Æglé, Daphnis et les précédents }
+\sceneDescription\markup {\smallCaps { Æglé, Daphnis } et les précédents }
 \pieceToc\markup\wordwrap {
   Eglé, Daphnis, chœur : \italic { Ministre des autels, recevez les serments }
 }
 \includeScore "DAtonnerre"
+
+%{ n°14 %} \newBookPart #'(full-rehearsal)
+\scene "Scène V" "Scène  : Daphnis, Æglé"
+\sceneDescription\markup\smallCaps { Daphnis, Æglé }
+\pieceToc\markup\wordwrap {
+  Eglé, Daphnis : \italic { Daphnis vous n’aimez point comme l’on doit aimer }
+}
+\includeScore "EAegleDaphnis"

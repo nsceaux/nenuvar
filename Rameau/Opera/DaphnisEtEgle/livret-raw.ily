@@ -169,7 +169,8 @@
 %# Peut-être il en défend l'excès,
 %# Peut-être il la trouve trop tendre.
 \livretPers EGLÉ
-%# Cette amitié si tendre est un de ses bienfaits.
+%# Cette amitié si tendre
+%# Est un de ses bienfaits.
 %# Et comment peut-il la défendre
 %# Ce dieu qui dans nos cœurs en a gravé les traits ?
 %# Ah ! c'est l'unique bien dont mon âme est ravi=e.

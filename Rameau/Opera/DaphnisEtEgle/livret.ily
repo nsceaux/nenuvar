@@ -171,7 +171,8 @@
 \livretVerse#8 { Peut-être il en défend l’excès, }
 \livretVerse#8 { Peut-être il la trouve trop tendre. }
 \livretPers EGLÉ
-\livretVerse#12 { Cette amitié si tendre est un de ses bienfaits. }
+\livretVerse#6 { Cette amitié si tendre }
+\livretVerse#6 { Est un de ses bienfaits. }
 \livretVerse#8 { Et comment peut-il la défendre }
 \livretVerse#12 { Ce dieu qui dans nos cœurs en a gravé les traits ? }
 \livretVerse#12 { Ah ! c’est l’unique bien dont mon âme est ravie. }
