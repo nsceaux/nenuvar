@@ -30,7 +30,7 @@
 \pieceToc\markup\wordwrap { Chœur, Daphnis : \italic { Qu’une paix aimable } }
 \includeScore "BBchoeur"
 
-%{ n°6 %} \newBookPart #'(full-rehearsal)
+%{ n°6 %}
 \scene "Scène III" "Scène 3 : Le grand Prêtre de l'Amitié et sa suite"
 \sceneDescription\markup { Le grand Prêtre de l'Amitié et sa suite }
 \pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
@@ -51,5 +51,19 @@
   Les Bergers reprennent leurs danses.
 }
 \pieceTocTitle "Passepieds I et II"
-\includescore "CFpassepied" \noPageTurn
-\includescore "CGpassepied"
+\includeScore "CFpassepied" \noPageTurn
+\includeScore "CGpassepied"
+%{ n°11 %}
+\pieceToc\markup\wordwrap { Le grand Prêtre :
+  \italic { De ce temple respectable } }
+\includeScore "CHpretre"
+%{ n°12 %}
+\pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
+\reIncludeScore "CAchoeur" "CIchoeur"
+
+%{ n°13 %}
+\scene "Scène IV" "Scène 4 : Æglé, Daphnis et les précédents"
+\sceneDescription\markup { Æglé, Daphnis et les précédents }
+\pieceToc\markup\wordwrap {
+  Eglé, Daphnis, chœur : \italic { Ministre des autels, recevez les serments }
+}

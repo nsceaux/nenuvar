@@ -92,7 +92,7 @@
 \livretDescPage\wordwrap-center {
   Les bergers reprennent leurs danses.
 }
-\livretRef #'CGpretre
+\livretRef #'CHpretre
 \livretPers\line { LE GRAND PRÊTRE }
 %# De ce temple respectable
 %# Dernier asile de nos cœurs
@@ -101,6 +101,7 @@
 %# De la divinité coupable.
 %# Qu'une paix aimable
 %# Règne toujours dans nos cœurs.
+\livretRef #'CIchoeur
 \livretPers CHŒUR
 %# Qu'une paix aimable
 %# Règne dans nos cœurs.
