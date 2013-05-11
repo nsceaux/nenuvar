@@ -78,3 +78,7 @@ daphnisMark =
 egleMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Eglé"))
+
+pretreMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Le Grand Prêtre"))
