@@ -176,13 +176,13 @@
 %# Ah ! c'est l'unique bien dont mon âme est ravi=e.
 \livretPers DAPHNIS
 %# C'est ce bien qui fait seul le bonheur de ma vi=e.
-\livretRef #'EBDaphnisEgle \null
+\livretRef #'EBdaphnisEgle \null
 %# Hélas en vous voy=ant j'oubli=e
 %# Le soin de mes troupeaux,
 %# Les jeux et les plaisirs qu'on trouve en nos hameaux ;
-%# C'est de vous seulement que mon ame est remplie.
+%# C'est de vous seulement que mon âme est rempli=e.
 %# J'oublie =en vous voy=ant et mes biens et mes maux,
-%# Hélas ! moi meme je m'oubli=e.
+%# Hélas ! moi-même je m'oubli=e.
 \livretPers\line { DAPHNIS et EGLÉ }
 %# Ah ! malgré le sort et les dieux
 %# Serrons de plus en plus les nœuds

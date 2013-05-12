@@ -178,13 +178,13 @@
 \livretVerse#12 { Ah ! c’est l’unique bien dont mon âme est ravie. }
 \livretPers DAPHNIS
 \livretVerse#12 { C’est ce bien qui fait seul le bonheur de ma vie. }
-\livretRef #'EBDaphnisEgle \null
+\livretRef #'EBdaphnisEgle \null
 \livretVerse#8 { Hélas en vous voyant j’oublie }
 \livretVerse#6 { Le soin de mes troupeaux, }
 \livretVerse#12 { Les jeux et les plaisirs qu’on trouve en nos hameaux ; }
-\livretVerse#12 { C’est de vous seulement que mon ame est remplie. }
+\livretVerse#12 { C’est de vous seulement que mon âme est remplie. }
 \livretVerse#12 { J’oublie en vous voyant et mes biens et mes maux, }
-\livretVerse#8 { Hélas ! moi meme je m’oublie. }
+\livretVerse#8 { Hélas ! moi-même je m’oublie. }
 \livretPers\line { DAPHNIS et EGLÉ }
 \livretVerse#8 { Ah ! malgré le sort et les dieux }
 \livretVerse#8 { Serrons de plus en plus les nœuds }
