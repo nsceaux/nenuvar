@@ -200,7 +200,7 @@
 \livretVerse#8 { Ah fixez mon incertitude, }
 \livretVerse#8 { Quelle est donc cette inquiétude }
 \livretVerse#12 { Que mon âme ressent et ne peut concevoir. }
-\livretRef #'EDDaphnis
+\livretRef #'EDdaphnis
 \livretPers DAPHNIS
 \livretVerse#8 { Bergère, comme vous j’ignore }
 \livretVerse#8 { Quel est le trouble qui nous suit. }

@@ -198,7 +198,7 @@
 %# Ah fixez mon incertitude,
 %# Quelle est donc cette inqui=étude
 %# Que mon âme ressent et ne peut concevoir.
-\livretRef #'EDDaphnis
+\livretRef #'EDdaphnis
 \livretPers DAPHNIS
 %# Bergère, comme vous j'ignore
 %# Quel est le trouble qui nous suit.

@@ -83,3 +83,5 @@
 \pieceToc\markup\wordwrap {
   Eglé, Daphnis : \italic { Mais pourquoi le plaisir que je sens à vous voir }
 }
+\includeScore "ECegleDaphnis"
+\pieceToc\markup\wordwrap { Daphnis : \italic { Bergère, comme vous j’ignore } }
