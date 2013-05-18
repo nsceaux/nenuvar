@@ -1,5 +1,4 @@
-\piecePartSpecs #`((basse-continue
-                    #:score-template "score-basse-continue-voix")
+\piecePartSpecs #`((basse #:score-template "score-basse-continue-voix")
                    (silence #:on-the-fly-markup , #{ \markup\lyrics {
   \tacet #53
   \bold DAPHNIS

@@ -7,6 +7,6 @@
   Rè -- gne tou -- jours dans nos cœurs.
 }
 \tag #'(daphnis basse) {
-  Le tem -- ple s’ouvre, on vient, al -- lons ceuil -- lir des fleurs
-  Pour les of -- frir en -- semble à ce dieu fa -- vo -- ra -- ble.
+  Le tem -- ple s’ouvre, on vient, al -- lons ceüil -- lir des fleurs
+  Pour les of -- frir en -- semble a ce dieu fa -- vo -- ra -- ble.
 }

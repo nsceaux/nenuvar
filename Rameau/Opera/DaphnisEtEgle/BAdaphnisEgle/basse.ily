@@ -9,7 +9,7 @@ re2. |
 sol2 fa4 |
 mib re sol2 |
 do r4 mib8 do |
-fa mib re4 mib |
+fa mib re4 mib~ |
 mib2 re4.\trill mib8 |
 fa2 fa, |
 sib,2 r8 sol |
@@ -45,7 +45,7 @@ re |
 mib4 mi2 |
 fa4 fad2 |
 sol2 r8 sol |
-lab4 lab2 |
+lab4 la2 |
 sib2. |
 si |
 do'2 mib8. do16 |

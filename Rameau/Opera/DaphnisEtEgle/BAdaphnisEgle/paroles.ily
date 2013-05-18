@@ -1,27 +1,27 @@
 \tag #'(daphnis basse) {
-  Æ -- glé que vo -- tre re -- tour
-  Tar -- dait à mon im -- pa -- ti -- en -- ce !
-  Que j’ai souf -- fert de votre ab -- sen -- ce
-  Quoi -- qu’el -- le n’ait du -- ré qu’un jour.
+  Æ -- glé, que vo -- tre re -- tour
+  Tar -- doit a mon im -- pa -- ti -- en -- ce !
+  Que j’ai souf -- fert de votre ab -- sen -- ce,
+  Quoi -- qu’el -- le n’ait du -- ré qu’un jour ;
 }
 \tag #'(egle basse) {
   Ah ! Daph -- nis que mon re -- tour
-  Tar -- dait à mon im -- pa -- ti -- en -- ce
+  Tar -- doit a mon im -- pa -- ti -- en -- ce
   C’est un siè -- cle pour moi qu’un jour
-  Pas -- sé loin de vo -- tre pré -- sen -- ce.
+  Pas -- sé loin de vo -- tre pre -- sen -- ce.
 }
 \tag #'(egle basse daphnis) {
   \tag #'(egle basse) { Ah ! Daph -- nis que mon re -- tour }
   \tag #'daphnis { Æ -- glé que vo -- tre re -- tour }
-  Tar -- dait à mon im -- pa -- ti -- en -- ce
-  Tar -- dait à mon im -- pa -- ti -- en -- ce.
+  Tar -- doit a mon im -- pa -- ti -- en -- ce
+  Tar -- doit a mon im -- pa -- ti -- en -- ce.
 }
 \tag #'(daphnis basse) {
-  Le Bon -- heur nous at -- tend dans ce char -- mant sé -- jour,
-  Ve -- nez au tem -- ple res -- pec -- ta -- ble
+  Le bon -- heur nous at -- tend dans ce char -- mant sé -- jour,
+  Ve -- nez au tem -- ple res -- pec -- ta -- ble,
   De la di -- vi -- ni -- té qu’on a -- dore en ces lieux,
-  Con -- fir -- mer, nous ju -- rer en pré -- sen -- ce des Dieux,
-  Cette a -- mi -- tié tendre et du -- ra -- ble
+  Con -- fir -- mer, nous ju -- rer, en pré -- sen -- ce des Dieux,
+  Cette a -- mi -- tié __ tendre et du -- ra -- ble,
   Qui peut seu -- le nous rendre heu -- reux.
 }
 \tag #'(egle basse) {
