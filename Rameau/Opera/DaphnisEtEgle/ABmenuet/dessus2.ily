@@ -1,11 +1,11 @@
 \clef "dessus" <>\ademi fad''8( dod'') la'( fad'') sol'( mi'') |
-fad'( la') <si' re''>( la') fad'( la') |
+fad'( la') re''( la') fad'( la') |
 si'( re'') sol'( si') mi'( la') |
 fad'( sol') mi'( fad') re'4 |
 fad''8( re'') la'( fad'') sol'( mi'') |
-fad'( la') re'' la'4 do''8 |
+fad'[( la')] re'' la'4 do''8 |
 si'( re'') sol'( si') mi'( dod'') |
-dod''4.\prall( re''8) re' r |
+dod''4.( re''8)\prall\noBeam re' r |
 fad''8( re'') la'( fad'') sol''( la'') |
 mi''( dod'') la'( mi'') la''( dod'') |
 re''( si') la'( sold') mi''( re'') |

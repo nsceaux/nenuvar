@@ -27,6 +27,6 @@
       \global \keepWithTag #'basse \includeNotes "basse"
     >>
   >>
-  \layout { short-indent = 8\mm }
+  \layout { }
   \midi { }
 }

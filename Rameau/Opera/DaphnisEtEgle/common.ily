@@ -60,7 +60,12 @@
                      (eqv? #t (ly:get-option 'urtext)))
                   smallindent
                   largeindent)
-  ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  short-indent = #(if (or (symbol? (ly:get-option 'part))
+                          (eqv? #t (ly:get-option 'urtext)))
+                      0
+                      (* 8 mm))
+  ragged-last = #(and (not (symbol? (ly:get-option 'part)))
+                      (eqv? #t (ly:get-option 'urtext)))
 }
 
 \opusPartSpecs

@@ -1,10 +1,10 @@
 \clef "dessus" fad''2 mi''4\trill |
 la'2 re''4 |
 \appoggiatura dod''8 si'2 dod''4\trill |
-dod''4.( re''8\prall) la' r |
+dod''4.( re''8\prall)\noBeam la' r |
 fad''2 mi''4\trill |
 la'2 re''4 |
-\appoggiatura dod''8 si'2 la'8(\trill sol') |
+\appoggiatura dod''8 si'2( la'8\trill sol') |
 fad'2.\trill |
 fad''2 la''4 |
 mi''2 la''4 |

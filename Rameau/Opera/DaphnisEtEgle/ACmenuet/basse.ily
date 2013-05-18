@@ -21,8 +21,8 @@ la,2. |
   }
   \tag #'basse {
     R2.*4 |
-    sol2.\doux |
-    la2 r4 |
+    sol2. |
+    la2\doux r4 |
     r r la, |
     re2 fa,4 |
     sol,2 la,4 |
