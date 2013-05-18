@@ -598,8 +598,8 @@ footnoteHere =
    (let ((foot-mus (make-music
                     'FootnoteEvent
                     'X-offset (car offset)
-                    'Y-offset (+ 0.5 (cdr offset))
+                    'Y-offset (cdr offset)
                     'automatically-numbered #t
                     'text (make-null-markup)
                     'footnote-text note)))
-     #{ <>-\tweak footnote-music #foot-mus ^\markup " " #}))
+     #{ <>-\tweak footnote-music #foot-mus ^\markup\transparent\box "1" #}))

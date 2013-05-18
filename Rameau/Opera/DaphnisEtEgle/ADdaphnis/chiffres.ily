@@ -1,7 +1,10 @@
 s2.*7
 \setMusic #'reprise {
-  <6 5>2 <6>8 <7 _+> s4. <2+>8 <6 4> <5/>
-  <5 4>2\figExtOn <4>8\figExtOff <\markup\transparent 5 3> <_+>2.
+  <6 5>2 <6>8 <7 _+> s4. <2+>8 <6 4>
+  \new FiguredBass {
+    <5/> <5 4>2\figExtOn <4>8\figExtOff <\markup\transparent 5 3>
+  }
+  <_+>2.
   <9 _!>2 <7 5/>4 <5+ 4>\figExtOn <5+ 3> <6>8 <6>\figExtOff <4>4 <7 _+>2 <_+>2.
 }
 \keepWithTag #'() \reprise

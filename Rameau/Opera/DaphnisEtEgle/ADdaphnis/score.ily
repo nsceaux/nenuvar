@@ -1,14 +1,20 @@
 \score {
   \new StaffGroupNoBar <<
-    \new GrandStaff \with { instrumentName = "Violons" } <<
+    \new GrandStaff \with {
+      instrumentName = "Violons "
+      shortInstrumentName = "Vln"
+    } <<
       \new Staff << \global \includeNotes "violon1" >>
       \new Staff << \global \includeNotes "violon2" >>
     >>
-    \new Staff \withLyrics <<
+    \new Staff \with { shortInstrumentName = "D." } \withLyrics <<
       \characterName "Daphnis"
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff \with { instrumentName = "B.C." } <<
+    \new Staff \with {
+      instrumentName = "B.C."
+      shortInstrumentName = "B.c."
+    } <<
       \global \includeNotes "basse"
       \includeFigures "chiffres"
     >>

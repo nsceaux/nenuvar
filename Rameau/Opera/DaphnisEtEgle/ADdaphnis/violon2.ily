@@ -13,12 +13,29 @@ r4 r re''\doux |
   fa''4~ fa''8.( mi''16) mi''4 |
   mi''4.( dod''8) re''4 |
   re'' la' sol' |
-  fad'8. fad''16 fad''4.(\trill mi''16 fad'') |
-  fad''4( sol''8)\prall r8 dod'' re'' |
+  fad'8. fad''16\ademi %{ footnote here %} fad''4.(\trill mi''16 fad'') |
+  fad''4( sol'')\prall r8 dod''16 re'' |
   re''4( dod''4.)\trill re''8 |
-  re''2 r4 |
+  re''2-\origVersion^\fermata \cesureInstr r4 |
 }
-\keepWithTag #'() \reprise
+<<
+  { s2.*7 s4
+    \footnoteHere #'(-0.4 . -0.1) \markup {
+      Partie séparée de premier violon : \score {
+        { \tinyQuote \clef "french" \key re \minor \time 3/4 \partial 2
+          la''4.\trill sol''16( la'') | }
+        \layout { \quoteLayout }
+      }
+      \hspace #2
+      second violon : \score {
+        { \tinyQuote \clef "french" \key re \minor \time 3/4 \partial 2
+          fad''4.(\trill mi''16) fad'' | }
+        \layout { \quoteLayout }
+      }
+    }
+  }
+  \keepWithTag #'() \reprise
+>>
 R2.*8 |
 r4 mi'8. fad'16 sold'8. la'16 |
 si'8. do''16 re''8. si'16 do''4~ |
