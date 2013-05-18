@@ -10,7 +10,8 @@
 %%  part    if a symbol, then print the separate part score
 #(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'ancient-alteration #f) %(eqv? #t (ly:get-option 'urtext)))
-#(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'original-layout (and (not (symbol? (ly:get-option 'part)))
+                                      (eqv? #t (ly:get-option 'urtext))))
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
 #(ly:set-option 'apply-vertical-tweaks
                 (and (not (eqv? #t (ly:get-option 'urtext)))
@@ -52,10 +53,11 @@
 \include "common/toc-columns.ily"
 \include "common/livret.ily"
 \setOpus "Rameau/Opera/DaphnisEtEgle"
-\opusTitle "Daphnis et Églé"
+\opusTitle "Daphnis et Æglé"
 
 \layout {
-  indent = #(if (eqv? #t (ly:get-option 'urtext))
+  indent = #(if (and (not (symbol? (ly:get-option 'part)))
+                     (eqv? #t (ly:get-option 'urtext)))
                   smallindent
                   largeindent)
   ragged-last = #(eqv? #t (ly:get-option 'urtext))
@@ -66,9 +68,9 @@
            (#:notes "dessus" #:tag-notes dessus))
    (parties "Hautes-contre et Tailles" ()
             (#:notes "parties" #:tag-notes parties #:clef "alto"))
-   (basse "Bassons et Basses" ()
-          (#:notes "basse" #:clef "basse" #:tag-notes basse))
-   (basse-continue "Basse continue" ((basse #f))
+   (basson "Bassons" ()
+           (#:notes "basse" #:clef "basse" #:tag-notes basson))
+   (basse "Basse continue" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
 daphnisMark =

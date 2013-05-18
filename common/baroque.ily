@@ -29,6 +29,17 @@ cesureInstr = {
   \breathe
 }
 
+cesureInstrCenter = {
+  \once\override BreathingSign #'text = \markup \musicglyph #"scripts.caesura.straight"
+  \once\override BreathingSign #'Y-offset = #-1
+  \breathe
+}
+cesureInstrDown = {
+  \once\override BreathingSign #'text = \markup \musicglyph #"scripts.caesura.straight"
+  \once\override BreathingSign #'Y-offset = #-2
+  \breathe
+}
+
 dotSign=\markup\vcenter "╸"
 
 %% New baroque scripts (Charpentier, Rameau...)

@@ -96,7 +96,7 @@ fad,4 r |
     dod'8\trill si16 re' dod' mi' re' fad' |
     mi'8 si16 re' dod' mi' re' fad' |
     mi'8 si16\doux re' dod' mi' re' fad' |
-    dod'4 dod' | \clef "basse"
+    dod'4\fort dod' | \clef "basse"
   }
   \tag #'basse {
     fad,4 fad, |
@@ -126,13 +126,13 @@ si,4 <<
     la4. re'8 |
     re'2~ |
     re' |
-    re'4~ re'8. la16 |
+    re'4~ re'8.( la16) |
     la4 re' |
     dod'2\trill |
     r4 mi' |
     la2~ |
-    la |
-    \clef "basse" la8 la re' re |
+    la( |
+    \clef "basse" la8) la re' re |
   }
   \tag #'basse {
     r4 |
@@ -227,7 +227,7 @@ re' fad' re' la |
     re,2. |
     R2.*2 |
     si2\doux\trill la8 r |
-    sol4\fort sol,\doux sol,\trill |
+    sol4\fort \cesureInstr sol,\doux sol,\trill |
     fad, r r |
     r sol, sol,\trill |
     fad, r r |

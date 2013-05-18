@@ -44,16 +44,16 @@
 \includeScore "CDgavotte"
 %{ n°9 %}
 \pieceToc\markup\wordwrap { Le Grand Prêtre, chœur :
-  \italic { Fuyez l'amour et ses fureurs } }
+  \italic { Fuyez l’amour et ses fureurs } }
 \includeScore "CEchoeur"
-%{ n°10 %}
+%{ n°10 %} \newBookPart #'(full-rehearsal)
 \sceneDescription\markup\wordwrap-center {
   Les Bergers reprennent leurs danses.
 }
 \pieceTocTitle "Passepieds I et II"
 \includeScore "CFpassepied" \noPageTurn
 \includeScore "CGpassepied"
-%{ n°11 %}
+%{ n°11 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Le grand Prêtre :
   \italic { De ce temple respectable } }
 \includeScore "CHpretre"
@@ -69,7 +69,7 @@
 }
 \includeScore "DAtonnerre"
 
-%{ n°14 %} \newBookPart #'(full-rehearsal)
+%{ n°14 %}
 \scene "Scène V" "Scène 5 : Daphnis, Æglé"
 \sceneDescription\markup\smallCaps { Daphnis, Æglé }
 \pieceToc\markup\wordwrap {
@@ -90,6 +90,6 @@
 \pieceToc\markup\wordwrap { Daphnis : \italic { Bergère, comme vous j’ignore } }
 \includeScore "EDdaphnis"
 
-%{ n°18 %}
-\scene "Scène VI et dernière" "Scène 6 : L’Amour et les précédents"
-\sceneDescription\markup { \smallCaps L’Amour et les précédents }
+%{ n°18 %} \newBookPart #'(full-rehearsal)
+% \scene "Scène VI" "Scène 6 : L’Amour et les précédents"
+% \sceneDescription\markup { \smallCaps L’Amour et les précédents }
