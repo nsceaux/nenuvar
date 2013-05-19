@@ -10,7 +10,7 @@ do'4. sol'8 sol' sol' |
 sol'4 fa' fa'8 fa' |
 fa'4 mi'4. do'8 |
 fa'4 re'8 re' mi' re' |
-sol4( fa'2) |
+\once\slurDashed sol4( fa'2) |
 mi'2 r4 |
 R2.*12 |
 r4 r8 sol' sol' sol' |

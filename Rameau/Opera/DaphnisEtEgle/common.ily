@@ -10,7 +10,8 @@
 %%  part    if a symbol, then print the separate part score
 #(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'ancient-alteration #f) %(eqv? #t (ly:get-option 'urtext)))
-#(ly:set-option 'original-layout (and #f (not (symbol? (ly:get-option 'part)))
+#(ly:set-option 'original-layout (and #f
+                                      (not (symbol? (ly:get-option 'part)))
                                       (eqv? #t (ly:get-option 'urtext))))
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
 #(ly:set-option 'apply-vertical-tweaks
@@ -64,7 +65,8 @@
                           (eqv? #t (ly:get-option 'urtext)))
                       0
                       (* 8 mm))
-  ragged-last = #(and (not (symbol? (ly:get-option 'part)))
+  ragged-last = #(and #f
+                      (not (symbol? (ly:get-option 'part)))
                       (eqv? #t (ly:get-option 'urtext)))
 }
 

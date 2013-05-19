@@ -1,16 +1,25 @@
 \clef "basse" r4 do'8 si do' re' |
 mi'4. re'8 do' si16 la |
-si8. la32 sol do'4. do8 |
-sol2 r4 |
-R2.*4 |
-r4 r8 mi re\trill do |
+si8. la32( sol) do'4. do8 |
+<<
+  \tag #'basse {
+    sol4. \clef "alto" mi'8 re'\trill do' |
+    fa'4 fa' mi'8.\trill re'16 |
+    sol'4 sib'4. sib'8 |
+    sib'? la'\trill la' la' mi' fa' |
+    sol'4 sol2 |
+    do'4. \clef "basse"
+  }
+  \tag #'basson { sol2 r4 | R2.*4 | r4 r8 }
+>>
+mi8 re\trill do |
 fa4 fa mi8.\trill re16 |
 sol4 sib4. sib8 |
-sib8.( la16)\trill la8 la fa fa |
+sib8.( la16)\trill la8 la mi fa |
 sol4 sol,2 |
 do2
 <<
-  \tag #'basse-continue {
+  \tag #'basse {
     do4 |
     si,2. |
     la, |
@@ -26,10 +35,10 @@ do2
     do2. |
     sol,4.
   }
-  \tag #'(basse basson) { r4 | R2.*12 | r4 r8 }
+  \tag #'basson { r4 | R2.*12 | r4 r8 }
 >>
 <<
-  \tag #'(basse-continue basse) {
+  \tag #'basse {
     mi8\fort re\trill do |
     fa4 fa mi8.\trill re16 |
     sol4 sib4. do'8 |
@@ -41,7 +50,7 @@ do2
     \clef "tenor" sol'8 sol' sol' |
     sol'4 fa' fa'8 fa' |
     fa'4 mi'4. do'8 |
-    fa'4 do'2 |
+    fa'4 do'8 do' do' fa |
     sol2. |
     do |
   }

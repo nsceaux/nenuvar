@@ -1,9 +1,7 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
                    (parties)
-                   (basse #:score "score-basse")
-                   (basse-continue
-                    #:tag-notes basse-continue
-                    #:score-template "score-basse-continue-voix")
+                   (basson)
+                   (basse #:score-template "score-basse-continue-voix")
                    (silence #:on-the-fly-markup , #{ \markup\lyrics {
   \tacet #32
   \bold CHŒUR
