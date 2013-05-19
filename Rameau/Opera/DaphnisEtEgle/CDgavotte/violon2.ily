@@ -1,12 +1,12 @@
-\clef "dessus" sol'2 |
-sol'4 do''2 sib'4 |
+\clef "dessus2" <>\doux sol'2~ |
+sol'4 do''2 sib'4~ |
 sib'2 mib'' |
 sol''4. fa''8 mib'' re'' do'' si' |
-do''4 si'8 r sol'2 |
-sol'4 do''2 sib'4 |
+do''4 si'8 r sol'2~ |
+sol'4 do''2 sib'4~ |
 sib'2 mib'' |
 sol'8 lab' lab'4 sol'8 fa' mib'\trill re' |
-do'2
+do'2\fermata
 
 sol'2~ |
 sol'8( la' sib') r do''4 si'\trill |
