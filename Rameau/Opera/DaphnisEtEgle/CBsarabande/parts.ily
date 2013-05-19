@@ -1,3 +1,4 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
                    (parties)
-                   (basse #:instrument "B.C."))
+                   (basse)
+                   (silence #:on-the-fly-markup , #{ \markup\tacet #48 #}))

@@ -1,4 +1,4 @@
-\clef "dessus" <>\doux |
+\clef "dessus2" <>\doux |
 r4 r do'' |
 si'4.( re''16) r mib''8( do''16) r |
 do''4( si'4.)\trill do''8 |
@@ -16,7 +16,7 @@ sib'4~ sib'4. re''8 |
 mib''4 re''4.\trill mib''8 |
 mib''2. |
 r4 r do'' |
-si'4.( re''8) mib''8( do''16) r |
+si'4.( re''16) r mib''8( do''16) r |
 do''4( si'4.)\trill do''8 |
 \appoggiatura do''8 re''2\prall \appoggiatura do''8 si' r |
 do''4 do''4. do''8 |
