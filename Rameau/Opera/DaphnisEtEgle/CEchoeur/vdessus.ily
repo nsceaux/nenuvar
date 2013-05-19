@@ -1,6 +1,6 @@
 \clef "vdessus" R1*12 |
 r4 <>^\doux si'8 si' re''4. do''16[ si'] |
-si'4.( do''8)\prall do''4 r |
+si'4.( do''8)\trill do''4 r |
 fa''4. fa''8 re''4. re''8 |
 sol'2 r |
 R1 |

@@ -43,7 +43,7 @@ mi4\trill mi8 r mi mi |
 la4. la16 la si8 do' |
 fad\trill fad16 r re'8 si sol mi |
 \appoggiatura re8 do8.([ re32 mi]) re4. sol8 |
-sol4. \cesureInstr <>^"Avec le chœur" do'8 re' mi' |
+sol4. \cesureInstr do'8 re' mi' |
 la4 re' mi'8. fa'16 |
 si2\trill re'8 sol |
 do'4 do'8 mi' re' mi' |

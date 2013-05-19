@@ -1,7 +1,5 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
-                   (basse)
-                   (basse-continue
-                    #:tag-notes basse-continue
+                   (basse
                     #:score-template "score-basse-continue-voix")
                    (silence #:on-the-fly-markup , #{ \markup\lyrics {
   \tacet #42
@@ -15,7 +13,7 @@
   \verse#5 { Règne dans nos cœurs. }
   \column-break
   \bold\line { LE GRAND PRÊTRE }
-  \verse#8 { Insensible et sourde aux douleurs }
+  \verse#8 { Insensible et sourd aux douleurs }
   \verse#8 { De l’amant le plus misérable, }
   \verse#12 { Aux yeux de ce tyran un spectacle agréable }
   \verse#8 { Est celui des cris et des pleurs. }

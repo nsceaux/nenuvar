@@ -5,7 +5,7 @@ si2~ si8 si si sol |
 do'2 r |
 r mi4.( re16\trill[ do])\melisma |
 fa1~ |
-fa4.( sol8 fa4. mi16[\trill re]) |
+fa4. sol8 fa4.( mi16)[\trill re] |
 sol4~ sol16[ la sol fa] mi4~ mi16[ fa re mi] |
 fa2.~ fa16\melismaEnd sol[ mi fa] |
 sol2( sol,4.) do8 |

@@ -81,7 +81,7 @@
 %# Qu'une paix aimable
 %# Règne dans nos cœurs.
 \livretPers\line { LE GRAND PRÊTRE }
-%# Insensible et sourde aux douleurs
+%# Insensible et sourd aux douleurs
 %# De l'amant le plus misérable,
 %# Aux yeux de ce tyran un spectacle agré=able
 %# Est celui des cris et des pleurs.

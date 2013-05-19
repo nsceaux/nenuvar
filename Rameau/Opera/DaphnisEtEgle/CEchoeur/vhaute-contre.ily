@@ -6,7 +6,7 @@ sol'!4. sol'8 sol'4. sol'8 |
 sol'2 r |
 r sol'~ |
 sol'4.\melisma la'16[ sol']( fa'4)\melismaEnd fa'8 r |
-la'2~ la'4.\melisma si'16[ do''] |
+la'2~ la'4.(\melisma si'16)[ do''] |
 sol'1~ |
 sol'4. la'16[ sol' fa'8]\melismaEnd mi'16[ re'] mi'8 la' |
 sol'2~ sol'4. sol'8 |
