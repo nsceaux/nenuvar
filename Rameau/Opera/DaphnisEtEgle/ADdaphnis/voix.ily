@@ -14,15 +14,15 @@ la4. fa'8 la'4 |
   R2.*2 |
 }
 \keepWithTag #'() \reprise
-r4 fa' mi'8 sol' |
+r4 \origVersion\cesureInstr fa' mi'8 sol' |
 do'4 sib4. sib16 la |
 la2\trill la8 sib |
 sib8.([ do'16]) do'8 \appoggiatura sib8 la sib do' |
-\appoggiatura do' re'4 sib8 do' re' mi' |
+\appoggiatura do' re'4\prall sib8 do' re' mi' |
 fa'2 re'8 sol' |
 mi'2\trill mi'8 r |
 la'4. la'8 mi'4\trill |
-mi'8.[ fa'16]\prall mi'8.([ re'16])\trill re'8 re' |
+mi'8.([ fa'16])\prall mi'8.([ re'16])\trill re'8 re' |
 si2\trill si8 r |
 mi'2. |
 fad'2 fad'8 fad'16 sold' |
@@ -30,5 +30,6 @@ fad'2 fad'8 fad'16 sold' |
 re'4. re'8 fa'4 |
 do'( si2)\trill |
 la4. fa'8 la'4 |
+\origVersion\custosNote mi'4
 \modVersion { \reprise R2. }
 

@@ -13,14 +13,14 @@ r4 r fa''\doux |
   la''4~ la''8.( sol''16) sib''4~ |
   sib''8.( sol''16) la''8.( mi''16) fa''8.( mi''32\trill re'') |
   re''4( dod''4.)\trill re''8 |
-  re''8. la''16\ademiSug la''4.\trill( sol''16 la'') |
+  re''8.[ \cesureInstr la''16]\ademi la''4.( sol''16)\trill la'' |
   la''4( sib'')\prall r8 mi''16 fa'' |
   fa''4( mi''4.)\trill re''8 |
-  re''2-\origVersion^\fermata r4 |
+  re''2-\origVersion^\fermata \origVersion\cesureInstr r4 |
 }
 \keepWithTag #'() \reprise
 R2.*5 |
-r4 sol''4.( fa''16\trill mi'') |
+r4 sol''4.(\doux fa''16\trill mi'') |
 mi''2\trill r8 mi'' |
 \footnoteHere #'(0 . 0) \markup {
   Partie séparée de premier violon : \score {
@@ -35,6 +35,7 @@ sold'8. la'16 si'8. sold'16 la'4~ |
 la'2 la'8 la'16 si' |
 mi'2 la'8. do''16 |
 si'4~ si'4.( do''16 la') |
-mi'2 si'8 dod''16 re'' |
-dod''2 fa''4 |
+mi'2 si'8( dod''16 re'') |
+dod''2\trill fa''4 |
+\origVersion \custosNote sib''4
 \modVersion\reprise

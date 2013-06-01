@@ -10,7 +10,7 @@
 %%  part    if a symbol, then print the separate part score
 #(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'ancient-alteration #f) %(eqv? #t (ly:get-option 'urtext)))
-#(ly:set-option 'original-layout (and #f
+#(ly:set-option 'original-layout (and ;#f
                                       (not (symbol? (ly:get-option 'part)))
                                       (eqv? #t (ly:get-option 'urtext))))
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
@@ -26,7 +26,7 @@
 %% Staff size
 #(set-global-staff-size
   (cond ((not (symbol? (ly:get-option 'part)))
-         (if (eqv? #t (ly:get-option 'urtext)) 14 16))
+         (if (eqv? #t (ly:get-option 'urtext)) 12 16))
         ((memq (ly:get-option 'part) '(basse-continue)) 16)
         (else 18)))
 
@@ -57,15 +57,14 @@
 \opusTitle "Daphnis et Æglé"
 
 \layout {
-  indent = #(if (and (not (symbol? (ly:get-option 'part)))
-                     (eqv? #t (ly:get-option 'urtext)))
-                  smallindent
-                  largeindent)
+  indent = #(cond ((eqv? #t (ly:get-option 'urtext)) noindent)
+                  ((symbol? (ly:get-option 'part)) smallindent)
+                  (else largeindent))
   short-indent = #(if (or (symbol? (ly:get-option 'part))
                           (eqv? #t (ly:get-option 'urtext)))
                       0
                       (* 8 mm))
-  ragged-last = #(and #f
+  ragged-last = #(and ;#f
                       (not (symbol? (ly:get-option 'part)))
                       (eqv? #t (ly:get-option 'urtext)))
 }
