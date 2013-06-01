@@ -1,5 +1,5 @@
 \clef "dessus" re''8\doux |
-mib''16( si' do'') r re''8 |
+mib''16( si') do'' r re''8 |
 mib''16( sol') sol' r sol''8 |
 sol''16( fa'') re''8.(\trill do''32 re'') |
 mib''8.( re''16\trill do''8) |
@@ -10,7 +10,7 @@ mib''16( sol') sol' r16 sol''8 |
 sol''16( fa'') re''8.(\trill do''32 re'') |
 mib''8.( re''16\trill do''8) |
 do''4 si'8\trill |
-\appoggiatura si'8 do''4 mib''8 |
+\appoggiatura si'8 do''4\prall mib''8 |
 fa''16( mib'' re'') r fa''8 |
 sib'4 sib''8 |
 sib''4.~ |

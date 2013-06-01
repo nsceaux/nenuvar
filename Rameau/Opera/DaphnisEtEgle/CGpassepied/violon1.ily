@@ -1,12 +1,12 @@
 \clef "dessus" r8 |
 r r lab'' |
 sol''16( si') do'' r mib''8 |
-mib''16( fa'') fa''8.\trill mib''32 fa'' |
+mib''16( fa'') fa''8.\trill( mib''32 fa'') |
 sol''8 sol''8.(\trill fa''32 sol'') |
 lab''16( sol'') fa''( mib'') re''( do'') |
-si'( la' sol') r r8 |
+si'( la') sol' r r8 |
 r r lab'' |
-sol''16( si' do'') r mib''8 |
+sol''16( si') do'' r mib''8 |
 mib''16 fa'' fa''8.(\trill mib''32 fa'') |
 sol''8 sol''8.(\trill fa''32 sol'') |
 lab''16( sol'') fa''( mib'') re''( mib'') |
