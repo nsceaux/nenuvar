@@ -54,7 +54,7 @@
 \includeScore "CFpassepied" \noPageTurn
 \includeScore "CGpassepied"
 %{ n°11 %} \newBookPart #'(full-rehearsal)
-\pieceToc\markup\wordwrap { Le grand Prêtre :
+\pieceToc\markup\wordwrap { Le Grand Prêtre :
   \italic { De ce temple respectable } }
 \includeScore "CHpretre"
 %{ n°12 %}
