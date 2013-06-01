@@ -32,29 +32,4 @@ la'4 re'' mi''8. fa''16 |
 si'4\trill sol''4. mi''8 |
 \appoggiatura re''8 do''4 fa''8 fa'' sol'' la'' |
 mi''4( re''2)\trill |
-do''2 r4 |
-R2.*7 |
-r4 r <<
-  \tag #'violon1 {
-    do''4\doux |
-    do''2 fa''4 |
-    re''2\trill sol''4 |
-    sol''2.~ |
-    sol''~ |
-    sol''4.
-  }
-  \tag #'violon2 {
-    sol'4\doux |
-    la'2 la'8.( si'32 do'') |
-    si'4\trill \appoggiatura la'8 sol'4 si' |
-    do'' do''8 mi'' re'' sol' |
-    sol'2.~ |
-    sol'4.
-  }
-  \tag #'hautbois { r4 | R2.*4 | r4 r8 }
->> do''8\fort re'' mi'' |
-la'4 re'' mi''8. fa''16 |
-si'4\trill sol''4. mi''8 |
-\appoggiatura re''8 do''4 fa''8 fa'' sol'' la'' |
-mi''4( re''2)\trill |
 do''2. |

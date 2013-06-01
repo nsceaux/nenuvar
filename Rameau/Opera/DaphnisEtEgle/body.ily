@@ -59,7 +59,7 @@
 \includeScore "CHpretre"
 %{ n°12 %}
 \pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
-\reIncludeScore "CAchoeur" "CIchoeur"
+\includeScore "CIchoeur"
 
 %{ n°13 %} \newBookPart #'(full-rehearsal)
 \scene "Scène IV" "Scène 4 : Æglé, Daphnis et les précédents"
