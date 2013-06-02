@@ -24,7 +24,7 @@
     ragged-bottom = ##t
     score-markup-spacing = #'((basic-distance . 8) (padding . 1) (minimum-distance . 8))
   }
-  %\include "Rameau/Opera/DaphnisEtEgle/notes.ily"
+  \include "Rameau/Opera/DaphnisEtEgle/notes.ily"
 }
 %% Livret
 \bookpart {
