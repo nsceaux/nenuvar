@@ -1,4 +1,5 @@
 \piecePartSpecs #`((dessus #:instrument "Violons")
+                   (parties)
                    (basson)
                    (basse #:score-template "score-basse-continue-voix")
                    (silence #:on-the-fly-markup , #{ \markup\lyrics {

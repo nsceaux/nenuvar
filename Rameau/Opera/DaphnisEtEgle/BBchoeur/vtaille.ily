@@ -1,5 +1,5 @@
 \clef "vtaille" r4 do'8 si do' re' |
-\appoggiatura re' mi'4.\prall re'8 do' si16 la |
+\appoggiatura re' mi'4.\prall re'8 do' si16\trill la |
 si8*3/2[ la16*1/2 sol] do'4. do'8 |
 sol4 sol'8 fa' mi' re' |
 do'4. si8 mi' fa'16 mi' |
