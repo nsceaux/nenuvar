@@ -1,4 +1,4 @@
-\clef "basse" sol,2. |
+\clef "basse" sol,2. | \cesureInstrDown <>_"B.C."
 r4 sol2 fad4\trill |
 sol2. sol4 |
 \appoggiatura sol8 la2 r8 fa |
@@ -19,8 +19,8 @@ mib re mib8 sib, do4 |
 re2. sib,4 |
 do sib, la,8.\trill sol,16 |
 re2 re, |
-sol, r | \allowPageTurn
-r r4 sol8 sib |
+sol,1 | \allowPageTurn
+r2 r4 sol8 sib |
 mib4~ mib4. do8 |
 re2 sib,4 |
 la,8 sol, fad,4. sol,8 |
@@ -33,8 +33,8 @@ sib2 sib8 la |
 sol4 la sib2 |
 la4. re'8 dod' fa' |
 fa'4.( mi'8)\trill re'4 re |
-la sol2 fa4 |
-fa2 mi4. re8 |
+la sol2 fa4~ |
+fa2 mi4.\trill re8 |
 la2 la,4 |
 re2 si,4 |
 do re2 |
