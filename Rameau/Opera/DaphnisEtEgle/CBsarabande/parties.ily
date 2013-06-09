@@ -1,7 +1,7 @@
-\clef "taille" <>\doux
+\clef "haute-contre" <>\doux
 r4 r sol' |
 sol'2 sol'8 r |
-sol'4( fa'4.)\prall mib'8 |
+sol'4( fa'4.)\trill mib'8 |
 \appoggiatura mib' re'2\trill r4 |
 do'4 do'4. do'8 |
 do'2 sol'4 |

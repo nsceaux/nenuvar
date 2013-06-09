@@ -8,5 +8,5 @@
       \new Staff << \global \includeNotes "violon2" >>
     >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
 }
