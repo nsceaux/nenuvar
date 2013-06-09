@@ -1,13 +1,48 @@
 \clef "dessus"
 r4 mi''8\trill re'' mi'' fa'' |
 fa''4.( sol''16)\prall fa'' mi''8( re''16 do'') |
-re''8.( mi''32 fa'') fa''4.( mi''16\trill fa'') |
+re''8.( mi''32 fa'') fa''4.( mi''16\trill) fa'' |
 re''4.\trill <<
   \tag #'violon1 {
     sol''8 sol'' sol'' |
     sol''4 fa'' fa''8. fa''16 |
     fa''4 mi''4. mi''8 |
-    mi''8.( fa''16)\prall fa''8 fa'' sol'' la'' |
+    mi''8.( fa''16)\prall fa''8 fa''
+    \footnoteHere #'(0 . 0) \markup\wordwrap {
+      \line {
+        Manuscrit RES-208 : \score {
+          \new Staff \with {
+            instrumentName =
+            \markup\override #'(baseline-skip . 2) \center-column {
+              h.b.
+              \line { \concat { p \super rs } v. }
+              \line { \concat { 2 \super ds } v. }
+            }
+          } <<
+            \tinyQuote \clef "french" \time 3/4
+            \new Voice {
+              \voiceOne do'''4 do'''8 do''' sol'' do''' | do'''4
+            }
+            \new Voice {
+              << { \voiceThree mi''8._( fa''16)\prall }
+                \new Voice { \voiceTwo do''4 } >>
+              \voiceTwo <do'' fa''>8 <do'' fa''> <do'' mi''>8 <re'' la''> |
+              << { \voiceFour mi''4 } \new Voice { \voiceTwo sol'2*1/2 } >>
+            }
+          >>
+          \layout { \quoteLayout indent = 8\mm }
+        }
+        \hspace #2
+      }
+      \line {
+        Partie de premier violon VM²-395 : \score {
+          { \tinyQuote \clef "french" \time 3/4
+            mi''8.( fa''16)\prall fa''8 fa'' sol''8 la'' | mi''4 }
+          \layout { \quoteLayout }
+        }
+      }
+    }
+    mi''8 la'' |
     mi''4( re''2)\trill |
     do''4.
   }

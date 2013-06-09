@@ -11,9 +11,10 @@ la'4 re'' mi''8. fa''16 |
 si'4\trill sol''4. mi''8 |
 \appoggiatura re''8 do''4 fa''8 fa'' sol'' la'' |
 mi''4( re''2)\trill |
-do''2 r4 |
+do''2. |
 R2.*7 |
-r4 r8
+r4 r8\doux
+<>^\markup { \concat { P \super rs } et \concat { 2 \super es } dessus des chœurs }
 <<
   { \voiceOne sol''8 sol'' sol'' |
     sol''4 fa'' fa''8. fa''16 |
@@ -28,7 +29,7 @@ r4 r8
     sol'4 sol'8 sol' sol' sol' |
     sol'2. |
     sol'4. }
->> do''8 re'' mi'' |
+>> \cesureInstr <>^"Tous" do''8 re'' mi'' |
 la'4 re'' mi''8. fa''16 |
 si'4\trill sol''4. mi''8 |
 \appoggiatura re''8 do''4 fa''8 fa'' sol'' la'' |

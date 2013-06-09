@@ -8,7 +8,7 @@ mi'4 re' re'8 re' |
 re'4 do'4. do'8 |
 do'4 do'8 do' do' do' |
 do'4~ do'4.( si8) |
-\grace si8 do'2. |
+\appoggiatura si8 do'2.\prall |
 R2.*12 |
 r4 r8 mi' mi' mi' |
 mi'4 re' re'8. re'16 |

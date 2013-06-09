@@ -76,7 +76,7 @@
             (#:notes "parties" #:tag-notes parties #:clef "alto"))
    (basson "Bassons" ()
            (#:notes "basse" #:clef "basse" #:tag-notes basson))
-   (basse "Basse continue" ()
+   (basse "Basses et basse continue" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
 daphnisMark =

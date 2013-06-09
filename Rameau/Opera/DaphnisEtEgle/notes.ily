@@ -84,7 +84,7 @@
   }
   \livretRef #'BBchoeur
   \livretDescAttPage\wordwrap {
-    Chœur (derrière le théâtre) : \italic { Qu’une paix aimable }
+    Scène II — Chœur (derrière le théâtre) : \italic { Qu’une paix aimable }
   }
   \justify {
     Le manuscrit RES-208 ne contient que les quatre parties du chœur, avec des
@@ -166,12 +166,25 @@
 }
 \markuplist\with-line-width-ratio #0.8 \column-lines {
   \justify {
+    Dans le manuscrit RES-208, le texte original, raturé, était :
+    \italic { Qu’une aimable paix. }
+  }
+  \justify {
     Outre les parties de hautes-contre et tailles de violons déduites des
     indications du manuscrit, cette édition inclut les parties de basses
-    et bassons du document VM²-395.
+    et bassons du matériel VM²-395.
   }
   \justify {
     Un feuillet a été découpé dans le manuscrit RES-208, dans le récit de
     Daphnis qui suit.
+  }
+  \livretRef #'BBchoeur
+  \livretDescAttPage\wordwrap {
+    Scène III — Chœur : \italic { Qu’une paix aimable }
+  }
+  \justify {
+    Dans le manuscrit RES-208, le texte original, raturé, était :
+    \italic { Qu’une paix profonde. }
+    Le rôle du Grand Prêtre était intitulé \italic Anacréon (raturé et corrigé).
   }
 }

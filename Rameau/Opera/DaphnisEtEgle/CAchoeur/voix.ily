@@ -19,10 +19,10 @@
 sol8 sol la |
 la4. do'8 si la16[ sol] |
 \footnoteHere #'(0 . 0) \markup\wordwrap {
-  Partie chœur et basse continue, mesure 16 : \score {
+  Partie \italic { Grand Prêtre } VM²-395, mesure 16 : \score {
     <<
       { \tinyQuote \key do \major \time 3/4 \clef "bass"
-        \set autoBeaming = ##f do'4 do'8 si la8 sol |
+        \set autoBeaming = ##f do'4. do'16 si la8 sol |
       } \addlyrics { - heurs, De l’in -- for -- tu - }
     >>
     \layout { \quoteLayout }
@@ -31,16 +31,16 @@ la4. do'8 si la16[ sol] |
   mesure 19 : \score {
     <<
       { \tinyQuote \key do \major \time 3/4 \clef "bass"
-        \set autoBeaming = ##f la4 la8 la si8 do' |
+        \set autoBeaming = ##f la4. la16 la si8 do' |
       } \addlyrics { mort la plus ef -- froy - }
     >>
     \layout { \quoteLayout }
   }
 }
-do'4. do'16 si la8 sol |
+do'4 do'8 si la8 sol |
 sol4.( fa8)\trill mi fa |
 mi4\trill mi8 r mi mi |
-la4. la16 la si8 do' |
+la4 la8 la si8 do' |
 fad\trill fad16 r re'8 si sol mi |
 \appoggiatura re8 do8.([ re32 mi]) re4. sol8 |
 sol4. \cesureInstr do'8 re' mi' |
@@ -52,7 +52,7 @@ re'4.\trill
 <<
   \tag #'basse { r8 r4 | R2.*5 }
   \tag #'vbasse {
-    <>^"Chœur"
+    \cesureInstr <>^"Chœur"
     mi8 re\trill do |
     fa4 fa mi8.\trill re16 |
     sol4 sib4. do'8 |
