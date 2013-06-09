@@ -17,8 +17,8 @@ r r mib' |
 sol4. |
 sol4\trill( fa16 sol) |
 lab4 do'8 |
-sib4 sol8\ademiSug |
-lab4 sol8\douxSug |
+sib4 \cesureInstr sol8\ademi |
+lab4 \cesureInstr sol8\doux |
 lab4 r8 |
 r r sol |
 fa4 mib8 |

@@ -1,4 +1,4 @@
-\clef "tenor/tenor" sol'16 fa' |
+\clef "tenor/tenor" sol'16\ademi fa' |
 mi' fa' mi' re' do' sol |
 sol4 sol'8 |
 sol'4.~ |

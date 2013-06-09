@@ -90,3 +90,40 @@ egleMark =
 pretreMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Le Grand Prêtre"))
+
+hautboisInstr = \with {
+  instrumentName = "Hautbois"
+  shortInstrumentName = "Htb"
+}
+fluteInstr = \with {
+  instrumentName = "Flutes"
+  shortInstrumentName = "Fl."
+}
+bassonInstr = \with {
+  instrumentName = "Bassons"
+  shortInstrumentName = \markup\concat { B \super on }
+}
+violonInstr = \with {
+  instrumentName = "Violons"
+  shortInstrumentName = "Vln"
+}
+hcInstr = \with {
+  instrumentName = "Hautes-contre"
+  shortInstrumentName = "H-c"
+}
+tailleInstr = \with {
+  instrumentName = "Tailles"
+  shortInstrumentName = "T."
+}
+partiesInstr = \with {
+  instrumentName = "Parties"
+  shortInstrumentName = \markup\center-column { H-c. T. }
+}
+basseInstr = \with {
+  instrumentName = "Basses"
+  shortInstrumentName = "Bas"
+}
+bcInstr = \with {
+  instrumentName = "Basse continue"
+  shortInstrumentName = "B.c."
+}

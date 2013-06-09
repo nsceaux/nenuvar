@@ -20,7 +20,7 @@ do'''( sib'') lab''( sol'') fa''( mib'') |
 re''\trill( do'') sib' r r8 |
 R4. |
 r8 r mib'' |
-fa''16( mib'' re'') r mib''8 |
+fa''16( mib'') re'' r mib''8 |
 lab''4.~ |
 lab''16( do''') sib''( lab'') sol''\trill( fa'') |
 sol''( sib'') lab''( sol'') fa''(\trill mib'') |

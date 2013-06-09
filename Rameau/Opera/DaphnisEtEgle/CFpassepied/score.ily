@@ -1,29 +1,39 @@
 \score {
-  \new StaffGroup <<
-    \new GrandStaff \with {
-      instrumentName = "Hautbois"
-      shortInstrumentName = "Htb"
-    } <<
-      \new Staff << \global \keepWithTag #'hautbois1 \includeNotes "hautbois" >>
+  <<
+    \origVersion\new ChoirStaff <<
+      \new Staff <<
+        <>^"Hautbois"
+        \global \keepWithTag #'hautbois1 \includeNotes "hautbois"
+      >>
       \new Staff << \global \keepWithTag #'hautbois2 \includeNotes "hautbois" >>
-    >>
-    \new Staff \with {
-      instrumentName = "Basson"
-      shortInstrumentName = "Bas."
-    } <<
-      \global \includeNotes "basson"
-    >>
-    \new GrandStaff \with {
-      instrumentName = "Violon"
-      shortInstrumentName = "Vln"
-    } <<
-      \new Staff << \global \keepWithTag #'violon1 \includeNotes "violon" >>
+      \new Staff <<
+        <>^"viol[ons]"
+        \global \keepWithTag #'violon1 \includeNotes "violon"
+      >>
       \new Staff << \global \keepWithTag #'violon2 \includeNotes "violon" >>
+      \new Staff << <>^"Bassons "\global \includeNotes "basson" >>
+      \new Staff <<
+        <>^"Basses"
+        \global \includeNotes "basse"
+        \origLayout { s8 s4.*7 s4 \break }
+      >>
     >>
-    \new Staff \with {
-      instrumentName = "B.C."
-      shortInstrumentName = "B.c."
-    } << \global \includeNotes "basse" >>
+    \modVersion\new StaffGroup <<
+      \new GrandStaff \with { \hautboisInstr } <<
+        \new Staff <<
+          \global \keepWithTag #'hautbois1 \includeNotes "hautbois"
+        >>
+        \new Staff <<
+          \global \keepWithTag #'hautbois2 \includeNotes "hautbois"
+        >>
+      >>
+      \new Staff \with { \bassonInstr } << \global \includeNotes "basson" >>
+      \new GrandStaff \with { \violonInstr } <<
+        \new Staff << \global \keepWithTag #'violon1 \includeNotes "violon" >>
+        \new Staff << \global \keepWithTag #'violon2 \includeNotes "violon" >>
+      >>
+      \new Staff \with { \basseInstr } << \global \includeNotes "basse" >>
+    >>
   >>
   \layout { }
   \midi { }

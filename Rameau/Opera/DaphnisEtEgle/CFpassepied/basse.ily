@@ -1,5 +1,5 @@
 \clef "basse" r8 |
-r r sol16\doux fa |
+r r sol16\ademi fa |
 mi fa mi re do sol, |
 do4 sol,8 |
 do,4 r8 |
