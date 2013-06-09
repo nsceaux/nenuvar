@@ -22,5 +22,5 @@ sol''4(\trill fad''8)\trill r sol''8 re'' si'' si' |
     \voiceOne <>^\markup { [Collette sur parties de flutes et premier violon] }
     do''8 si'' la''\trill sol'' do'' sol'' re'' fad'' | }
   { \voiceTwo mi''8 re'' do'' si' do'' si' la' sol' | }
->>
+>> \oneVoice
 sol'2

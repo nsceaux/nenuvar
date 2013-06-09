@@ -28,18 +28,15 @@
     >>
     \modVersion\new StaffGroupNoBar <<
       \new StaffGroupNoBracket <<
-        \new Staff \with {
-          \haraKiri instrumentName = "Violons"
-          shortInstrumentName = "Vln"
-        } << \global \includeNotes "dessus" >>
-        \new Staff \with {
-          \haraKiri instrumentName = "Parties"
-          shortInstrumentName = \markup\center-column { H.c. T. }
-        } << \global \includeNotes "parties" >>
-        \new Staff \with {
-          \haraKiri instrumentName = "Basson"
-          shortInstrumentName = "Bas."
-        } << \global \keepWithTag #'basson \includeNotes "basse" >>
+        \new Staff \with { \haraKiri \violonInstr } <<
+          \global \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiri \partiesInstr } <<
+          \global \includeNotes "parties"
+        >>
+        \new Staff \with { \haraKiri \bassonInstr } <<
+          \global \keepWithTag #'basson \includeNotes "basse"
+        >>
       >>
       \new ChoirStaff \with {
         instrumentName = \markup\center-column { Chœur derrière "le théâtre" }
@@ -58,15 +55,10 @@
           \global \includeNotes "vbasse"
         >> \keepWithTag #'vbasse \includeLyrics "paroles"
       >>
-      \new Staff \with {
-        \haraKiriFirst shortInstrumentName = "D."
-      } \withLyrics <<
+      \new Staff \with { \daphnisInstr \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix"
       >> \keepWithTag #'daphnis \includeLyrics "paroles"
-      \new Staff \with {
-        instrumentName = "B.C."
-        shortInstrumentName = "B.c."
-      } <<
+      \new Staff \with { \basseInstr } <<
         \global
         \keepWithTag #'basse \includeNotes "basse"
         \includeFigures "chiffres"

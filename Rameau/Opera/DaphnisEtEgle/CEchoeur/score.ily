@@ -38,7 +38,7 @@
       >>
     >>
     \modVersion\new StaffGroupNoBar <<
-      \new GrandStaff \with { shortInstrumentName = "Vln" } <<
+      \new GrandStaff \with { \violonInstr } <<
         \new Staff \with { \haraKiriFirst } <<
         { s1*11 <>^\markup { \concat { P \super rs } Violons }
           s1*16 s2.*2 s1 s2. s2
@@ -52,16 +52,13 @@
           \global \includeNotes "violon2"
         >>
       >>
-      \new Staff \with {
-        instrumentName = "Parties"
-        shortInstrumentName = \markup\center-column { H.c T }
-      } << \global \includeNotes "parties" >>
-      \new Staff \with {
-        instrumentName = "Basson"
-        shortInstrumentName = "Bas."
-        \haraKiriFirst
-      } << \global \includeNotes "basson" >>
-      \new ChoirStaff \with { shortInstrumentName = "Ch." } <<
+      \new Staff \with { \partiesInstr \haraKiriFirst } <<
+        \global \includeNotes "parties"
+      >>
+      \new Staff \with { \bassonInstr \haraKiriFirst } <<
+        \global \includeNotes "basson"
+      >>
+      \new ChoirStaff \with { \choeurInstr } <<
         \new Staff \with { \haraKiriFirst } \withLyrics <<
           { s1*11 \break s1*12\break }
           \global \includeNotes "vdessus"
@@ -76,13 +73,12 @@
           \global \includeNotes "vbasse"
         >> \keepWithTag #'vbasse \includeLyrics "paroles"
       >>
-      \new Staff \with { shortInstrumentName = "Pr." } \withLyrics <<
-        \characterName "Le Grand Prêtre"
+      \new Staff \with { \pretreInstr } \withLyrics <<
         \global \includeNotes "voix"
       >> \keepWithTag #'pretre \includeLyrics "paroles"
-      \new Staff \with {
+      \new Staff \with { 
         instrumentName = "B.C."
-        shortInstrumentName = "B."
+        shortInstrumentName = "Bas"
       } <<
         \global \includeNotes "basse"
         \includeFigures "chiffres"

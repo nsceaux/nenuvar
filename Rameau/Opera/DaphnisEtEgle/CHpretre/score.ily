@@ -13,14 +13,10 @@
       >>
     >>
     \modVersion\new ChoirStaff <<
-      \new Staff \with { shortInstrumentName = "Pr." } \withLyrics <<
-        \characterName "Le Grand Prêtre"
+      \new Staff \with { \pretreInstr } \withLyrics <<
         \global \includeNotes "voix"
       >> \includeLyrics "paroles"
-      \new Staff \with {
-        instrumentName = "B.C."
-        shortInstrumentName = "B.c."
-      } <<
+      \new Staff \with { \bcInstr } <<
         \global \includeNotes "basse"
         \includeFigures "chiffres"
       >>

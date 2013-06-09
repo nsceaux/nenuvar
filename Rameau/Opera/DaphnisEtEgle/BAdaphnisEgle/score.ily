@@ -19,18 +19,13 @@
       >>
     >>
     \modVersion\new ChoirStaff <<
-      \new Staff \with { shortInstrumentName = "Æ." } \withLyrics <<
-        \characterName "Æglé"
+      \new Staff \with { \egleInstr } \withLyrics <<
         \global \keepWithTag #'egle \includeNotes "voix"
       >> \keepWithTag #'egle \includeLyrics "paroles"
-      \new Staff \with { shortInstrumentName = "D." } \withLyrics <<
-        \characterName "Daphnis"
+      \new Staff \with { \daphnisInstr } \withLyrics <<
         \global \keepWithTag #'daphnis \includeNotes "voix"
       >> \keepWithTag #'daphnis \includeLyrics "paroles"
-      \new Staff \with {
-        instrumentName = "B.C."
-        shortInstrumentName = "B.c."
-      } <<
+      \new Staff \with { \bcInstr } <<
         \global \includeNotes "basse"
         \includeFigures "chiffres"
       >>

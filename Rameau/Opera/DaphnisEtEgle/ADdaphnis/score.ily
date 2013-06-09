@@ -23,21 +23,14 @@
       >>
     >>
     \modVersion\new ChoirStaff <<
-      \new GrandStaff \with {
-        instrumentName = "Violons "
-        shortInstrumentName = "Vln"
-      } <<
+      \new GrandStaff \with { \violonInstr } <<
         \new Staff << \global \includeNotes "violon1" >>
         \new Staff << \global \includeNotes "violon2" >>
       >>
-      \new Staff \with { shortInstrumentName = "D." } \withLyrics <<
-        \characterName "Daphnis"
+      \new Staff \with { \daphnisInstr } \withLyrics <<
         \global \includeNotes "voix"
       >> \includeLyrics "paroles"
-      \new Staff \with {
-        instrumentName = "Basses"
-        shortInstrumentName = "B."
-      } <<
+      \new Staff \with { \basseInstr } <<
         \global \includeNotes "basse"
         \includeFigures "chiffres"
       >>

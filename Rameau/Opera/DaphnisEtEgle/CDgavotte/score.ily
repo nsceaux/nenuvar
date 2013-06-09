@@ -30,10 +30,7 @@
           de seconds violons et de parties.
         }
       >>
-      \new Staff \with {
-        instrumentName = "Basses"
-        shortInstrumentName = "B."
-      } << \global \includeNotes "basse" >>
+      \new Staff \with { \basseInstr } << \global \includeNotes "basse" >>
     >>
   >>
   \layout { }

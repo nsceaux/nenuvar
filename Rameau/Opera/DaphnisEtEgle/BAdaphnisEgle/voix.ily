@@ -103,7 +103,11 @@
       la4.\trill r16 sib sib8([ la16]) sib |
       sib4.( do'8)\prall do'8 re'16 mib' |
       \tag #'(voix2 daphnis) \footnoteHere #'(0 . 0) \markup {
-        Manuscrit RES-208, sous une collette : \hspace #2
+        \column {
+          \line { Manuscrit RES-208, }
+          \line { sous une collette : }
+        }
+        \hspace #2
         \raise #-9 \score {
           \new ChoirStaff <<
             \new Staff <<

@@ -35,18 +35,18 @@
 \sceneDescription\markup { Le grand Prêtre de l'Amitié et sa suite }
 \pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
 \includeScore "CAchoeur"
-%{ n°7 %}
+%{ n°7 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Sarabande très tendre"
 \includeScore "CBsarabande"
 %{ n°8 %}
 \pieceTocTitle "Gavottes I et II"
 \includeScore "CCgavotte" \noPageTurn
 \includeScore "CDgavotte"
-%{ n°9 %}
+%{ n°9 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Le Grand Prêtre, chœur :
   \italic { Fuyez l’amour et ses fureurs } }
 \includeScore "CEchoeur"
-%{ n°10 %} \newBookPart #'(full-rehearsal)
+%{ n°10 %}
 \sceneDescription\markup\wordwrap-center {
   Les Bergers reprennent leurs danses.
 }

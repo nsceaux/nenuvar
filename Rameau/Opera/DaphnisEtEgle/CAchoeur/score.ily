@@ -44,16 +44,10 @@
     >>
     \modVersion\new StaffGroupNoBar <<
       \new StaffGroupNoBracket <<
-        \new Staff \with {
-          instrumentName = "Hautbois"
-          shortInstrumentName = "Htb"
-        } <<
+        \new Staff \with { \hautboisInstr } <<
           \global \keepWithTag #'hautbois \includeNotes "dessus"
         >>
-        \new GrandStaff \with {
-          instrumentName = "Violons "
-          shortInstrumentName = "Vln"
-        } <<
+        \new GrandStaff \with { \violonInstr } <<
           \new Staff <<
             \global \keepWithTag #'violon1 \includeNotes "dessus"
           >>
@@ -61,23 +55,14 @@
             \global \keepWithTag #'violon2 \includeNotes "dessus"
           >>
         >>
-        \new Staff \with {
-          instrumentName = "Parties"
-          shortInstrumentName = \markup\center-column { H.c T }
-        } <<
+        \new Staff \with { \partiesInstr } <<
           \global \includeNotes "parties"
         >>
-        \new Staff \with {
-          instrumentName = "Basson"
-          shortInstrumentName = "Bas."
-        } <<
+        \new Staff \with { \bassonInstr } <<
           \global \keepWithTag #'basson \includeNotes "basse"
         >>
       >>
-      \new ChoirStaff \with {
-        instrumentName = \markup\center-column { Chœur }
-        shortInstrumentName = "Ch."
-      } <<
+      \new ChoirStaff \with { \choeurInstr } <<
         \new Staff \withLyrics <<
           \global \includeNotes "vdessus"
         >> \keepWithTag #'vdessus \includeLyrics "paroles"
@@ -91,13 +76,18 @@
           \global \keepWithTag #'vbasse \includeNotes "voix"
         >> \keepWithTag #'(vbasse pretre) \includeLyrics "paroles"
       >>
-      \new Staff \with {
-        instrumentName = "Basses"
-        shortInstrumentName = "B."
-      } <<
+      \new Staff \with { \basseInstr } <<
         \global
         \keepWithTag #'basse \includeNotes "basse"
         \includeFigures "chiffres"
+        { s2.*4
+          \ru#26 {
+            \verticalTweak
+            #'((Y-offset . 20)
+               (alignment-distances . (15 12 15 15 20 15 15 15 20)))
+            s2.
+          }
+        }
       >>
     >>
   >>

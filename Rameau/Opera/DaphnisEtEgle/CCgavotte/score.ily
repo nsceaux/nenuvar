@@ -15,18 +15,9 @@
         instrumentName = \markup\center-column { Flutes Violons }
         shortInstrumentName = \markup\center-column { Fl. Vln }
       } << \global \includeNotes "dessus" >>
-      \new Staff \with {
-        instrumentName = "Hautes-contre"
-        shortInstrumentName = "H.c."
-      } << \global \includeNotes "haute-contre" >>
-      \new Staff \with {
-        instrumentName = "Tailles"
-        shortInstrumentName = "T."
-      } << \global \includeNotes "taille" >>
-      \new Staff \with {
-        instrumentName = "Basses"
-        shortInstrumentName = "B."
-      } << \global \includeNotes "basse" >>
+      \new Staff \with { \hcInstr } << \global \includeNotes "haute-contre" >>
+      \new Staff \with { \tailleInstr } << \global \includeNotes "taille" >>
+      \new Staff \with { \basseInstr } << \global \includeNotes "basse" >>
     >>
   >>
   \layout { }

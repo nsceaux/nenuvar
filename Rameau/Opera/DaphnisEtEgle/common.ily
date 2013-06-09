@@ -124,14 +124,22 @@ basseInstr = \with {
   shortInstrumentName = "Bas"
 }
 bcInstr = \with {
-  instrumentName = "Basse continue"
+  instrumentName = "B.C."
   shortInstrumentName = "B.c."
 }
 choeurInstr = \with {
   instrumentName = "Chœur"
   shortInstrumentName = "Ch."
 }
+daphnisInstr = \with {
+  instrumentName = \markup\large\smallCaps Daphnis
+  shortInstrumentName = "D."
+}
+egleInstr = \with {
+  instrumentName = \markup\large\smallCaps Æglé
+  shortInstrumentName = "Æ."
+}
 pretreInstr = \with {
-  instrumentName = \markup\large\smallCaps "Le Grand Prêtre"
+  instrumentName = \markup\large\center-column\smallCaps { "Le Grand" "Prêtre" }
   shortInstrumentName = "Pr."
 }

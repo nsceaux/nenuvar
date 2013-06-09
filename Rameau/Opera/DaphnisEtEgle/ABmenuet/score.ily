@@ -10,16 +10,10 @@
       instrumentName = \markup { \concat { 2 \super ds } Violons }
       shortInstrumentName = "Vln2"
     } << \global \includeNotes "dessus2" >>
-    \new Staff \with {
-      instrumentName = "Basson"
-      shortInstrumentName = "Bas."
-    } <<
+    \new Staff \with { \bassonInstr } <<
       \global \includeNotes "basson"
     >>
-    \new Staff \with {
-      instrumentName = "B.C."
-      shortInstrumentName = "B.c."
-    } <<
+    \new Staff \with { \basseInstr } <<
       \global \includeNotes "basse"
     >>
   >>

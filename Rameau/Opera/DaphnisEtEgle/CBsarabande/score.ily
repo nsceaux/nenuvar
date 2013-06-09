@@ -10,25 +10,15 @@
       >>
     >>
     \modVersion\new StaffGroup <<
-      \new Staff \with {
-        instrumentName = "Flutes"
-        shortInstrumentName = "Fl."
-      } << \global \keepWithTag #'flute \includeNotes "dessus" >>
-      \new GrandStaff \with {
-        instrumentName = "Violons "
-        shortInstrumentName = "Vln"
-      } <<
+      \new Staff \with { \fluteInstr } <<
+        \global \keepWithTag #'flute \includeNotes "dessus"
+      >>
+      \new GrandStaff \with { \violonInstr } <<
         \new Staff << \global \keepWithTag #'violon1 \includeNotes "dessus" >>
         \new Staff << \global \includeNotes "violon2" >>
       >>
-      \new Staff \with {
-        instrumentName = "Parties"
-        shortInstrumentName = \markup\center-column { H.c T. }
-      } << \global \includeNotes "parties" >>
-      \new Staff \with {
-        instrumentName = "Basses"
-        shortInstrumentName = "B."
-      } << \global \includeNotes "basse" >>
+      \new Staff \with { \partiesInstr } << \global \includeNotes "parties" >>
+      \new Staff \with { \basseInstr } << \global \includeNotes "basse" >>
     >>
   >>
   \layout { }
