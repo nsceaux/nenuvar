@@ -1,4 +1,5 @@
-\clef "dessus2" <>\doux sol'2~ |
+\clef "haute-contre" \once\override TextScript.outside-staff-priority = #0
+<>^"Tous"\doux sol'2~ |
 sol'4 do''2 sib'4~ |
 sib'2 mib'' |
 sol''4. fa''8 mib'' re'' do'' si' |

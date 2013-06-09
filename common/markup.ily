@@ -593,7 +593,7 @@ characterAmbitus =
 }
 
 footnoteHere =
-#(define-music-function (parser location offset note)
+#(define-music-function (parser this-location offset note)
      (number-pair? markup?)
    (let ((foot-mus (make-music
                     'FootnoteEvent
@@ -602,4 +602,5 @@ footnoteHere =
                     'automatically-numbered #t
                     'text (make-null-markup)
                     'footnote-text note)))
+     (set! location #f)
      #{ <>-\tweak footnote-music #foot-mus ^\markup\transparent\box "1" #}))

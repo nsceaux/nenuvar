@@ -1,12 +1,14 @@
 \score {
   \new StaffGroup <<
-    \new Staff \with { instrumentName = "Flutes" } <<
-      \global \keepWithTag #'flute \includeNotes "dessus"
-    >>
-    \new GrandStaff \with { instrumentName = "Violons" } <<
-      \new Staff << \global \keepWithTag #'violon1 \includeNotes "dessus" >>
-      \new Staff << \global \includeNotes "violon2" >>
-    >>
+    \new Staff \with {
+      instrumentName = \markup\center-column { Flutes Violons }
+    } << \global \includeNotes "dessus" >>
+    \new Staff \with {
+      instrumentName = \markup\center-column {
+        \line { \concat { [2 \super ds } violons }
+        \line { ou parties ?] }
+      }
+    } << \global \includeNotes "parties" \clef "dessus2" >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
 }
