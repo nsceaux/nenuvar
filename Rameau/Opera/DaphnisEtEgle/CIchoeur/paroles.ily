@@ -1,6 +1,6 @@
 \tag #'(vdessus vhaute-contre vtaille vbasse) {
   Qu’u -- ne paix ai -- ma -- ble
-  Rè -- gne tou -- jours dans nos cœurs.
+  Rè -- gne tou -- jours dans nos cœurs !
 }
 \tag #'(vdessus vhaute-contre) {
   L’a -- mi -- tié seule a des dou -- ceurs,

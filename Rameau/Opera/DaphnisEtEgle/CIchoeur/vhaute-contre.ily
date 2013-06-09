@@ -10,5 +10,5 @@ do'4. sol'8 sol' sol' |
 sol'4 fa' fa'8 fa' |
 fa'4 mi'4. do'8 |
 fa'4 re'8 re' mi' re' |
-\once\slurDashed sol4( fa'2) |
+sol4( fa'2) |
 mi'2. |

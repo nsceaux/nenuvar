@@ -60,35 +60,36 @@
 %{ n°12 %}
 \pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
 \includeScore "CIchoeur"
+\markup\title\line { Les passepieds se reprennent après le chœur. }
 
-%{ n°13 %} \newBookPart #'(full-rehearsal)
-\scene "Scène IV" "Scène 4 : Æglé, Daphnis et les précédents"
-\sceneDescription\markup {\smallCaps { Æglé, Daphnis } et les précédents }
-\pieceToc\markup\wordwrap {
-  Eglé, Daphnis, chœur : \italic { Ministre des autels, recevez les serments }
-}
-\includeScore "DAtonnerre"
+% %{ n°13 %} \newBookPart #'(full-rehearsal)
+% \scene "Scène IV" "Scène 4 : Æglé, Daphnis et les précédents"
+% \sceneDescription\markup {\smallCaps { Æglé, Daphnis } et les précédents }
+% \pieceToc\markup\wordwrap {
+%   Eglé, Daphnis, chœur : \italic { Ministre des autels, recevez les serments }
+% }
+% \includeScore "DAtonnerre"
 
-%{ n°14 %}
-\scene "Scène V" "Scène 5 : Daphnis, Æglé"
-\sceneDescription\markup\smallCaps { Daphnis, Æglé }
-\pieceToc\markup\wordwrap {
-  Eglé, Daphnis : \italic { Daphnis vous n’aimez point comme l’on doit aimer }
-}
-\includeScore "EAegleDaphnis"
-%{ n°15 %}
-\pieceToc\markup\wordwrap {
-  Daphnis, Eglé : \italic { Hélas en vous voyant j’oublie }
-}
-\includeScore "EBdaphnisEgle"
-%{ n°16 %}
-\pieceToc\markup\wordwrap {
-  Eglé, Daphnis : \italic { Mais pourquoi le plaisir que je sens à vous voir }
-}
-\includeScore "ECegleDaphnis"
-%{ n°17 %}
-\pieceToc\markup\wordwrap { Daphnis : \italic { Bergère, comme vous j’ignore } }
-\includeScore "EDdaphnis"
+% %{ n°14 %}
+% \scene "Scène V" "Scène 5 : Daphnis, Æglé"
+% \sceneDescription\markup\smallCaps { Daphnis, Æglé }
+% \pieceToc\markup\wordwrap {
+%   Eglé, Daphnis : \italic { Daphnis vous n’aimez point comme l’on doit aimer }
+% }
+% \includeScore "EAegleDaphnis"
+% %{ n°15 %}
+% \pieceToc\markup\wordwrap {
+%   Daphnis, Eglé : \italic { Hélas en vous voyant j’oublie }
+% }
+% \includeScore "EBdaphnisEgle"
+% %{ n°16 %}
+% \pieceToc\markup\wordwrap {
+%   Eglé, Daphnis : \italic { Mais pourquoi le plaisir que je sens à vous voir }
+% }
+% \includeScore "ECegleDaphnis"
+% %{ n°17 %}
+% \pieceToc\markup\wordwrap { Daphnis : \italic { Bergère, comme vous j’ignore } }
+% \includeScore "EDdaphnis"
 
 %{ n°18 %} \newBookPart #'(full-rehearsal)
 % \scene "Scène VI" "Scène 6 : L’Amour et les précédents"

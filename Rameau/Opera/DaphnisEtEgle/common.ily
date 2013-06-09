@@ -127,3 +127,11 @@ bcInstr = \with {
   instrumentName = "Basse continue"
   shortInstrumentName = "B.c."
 }
+choeurInstr = \with {
+  instrumentName = "Chœur"
+  shortInstrumentName = "Ch."
+}
+pretreInstr = \with {
+  instrumentName = \markup\large\smallCaps "Le Grand Prêtre"
+  shortInstrumentName = "Pr."
+}
