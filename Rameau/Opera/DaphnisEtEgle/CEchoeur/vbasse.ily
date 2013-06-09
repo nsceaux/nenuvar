@@ -1,5 +1,5 @@
 \clef "basse" R1*12 |
-r4 mi8 mi mi4. mi8 |
+r4 mi8^\doux mi mi4. mi8 |
 la2 la4 r |
 si2~ si8 si si sol |
 do'2 r |
@@ -14,7 +14,7 @@ R1*4 |
 R2.*2 |
 R1 |
 R2.*6 |
-r4 r8 mi8 re do |
+r4 r8 mi8 re\trill do |
 fa4 fa mi8.\trill re16 |
 sol4 sib4. do'8 |
 sib8.([ la16])\trill la8 la mi fa |

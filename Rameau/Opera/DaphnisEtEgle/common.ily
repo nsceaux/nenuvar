@@ -58,7 +58,7 @@
 
 \layout {
   indent = #(cond ((eqv? #t (ly:get-option 'urtext)) noindent)
-                  ((symbol? (ly:get-option 'part)) smallindent)
+                  ;((symbol? (ly:get-option 'part)) smallindent)
                   (else largeindent))
   short-indent = #(if (or (symbol? (ly:get-option 'part))
                           (eqv? #t (ly:get-option 'urtext)))

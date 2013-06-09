@@ -1,4 +1,6 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
+                   (parties)
+                   (basson #:notes "basson" #:clef "tenor")
                    (basse
                     #:score-template "score-basse-continue-voix")
                    (silence #:on-the-fly-markup , #{ \markup\lyrics {

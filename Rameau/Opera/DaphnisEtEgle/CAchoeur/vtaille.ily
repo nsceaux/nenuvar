@@ -16,4 +16,3 @@ re'4 do'4. do'8 |
 do'4 do'8 do' do' do' |
 do'4~ do'4.( si8) |
 \appoggiatura si8 do'2.\prall |
-

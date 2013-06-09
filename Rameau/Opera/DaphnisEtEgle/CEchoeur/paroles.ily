@@ -1,8 +1,8 @@
 \tag #'(pretre basse) {
-  Fuy -- ez l’a -- mour fuy -- ez ses fu -- reurs,
+  Fuy -- ez l’a -- mour, fuy -- ez ses fu -- reurs,
   Crai -- gnez son pou -- voir re -- dou -- ta -- ble,
   Il traîne a -- près lui des mal -- heurs,
-  Dont l’at -- teinte est i -- né -- vi -- ta -- ble
+  Dont l’at -- teinte est i -- né -- vi -- ta -- ble,
   Dont l’at -- teinte est i -- né -- vi -- ta -- ble.
 
   Fuy -- ez l’a -- mour et ses fu -- reurs,
@@ -16,7 +16,7 @@
   Rè -- gne dans nos cœurs.
   \tag #'(vdessus vhaute-contre vtaille) { Rè -- gne }
   \tag #'vhaute-contre { Rè -- gne }
-  Rè -- gne dans nos cœurs.
+  Rè -- gne dans nos cœurs !
 }
 
 \tag #'(pretre basse) {

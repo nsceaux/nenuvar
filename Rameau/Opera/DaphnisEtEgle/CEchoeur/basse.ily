@@ -11,8 +11,8 @@ si lad |
 la!2 sol4. sol,8 |
 do2 sol,4 la, |
 si,1 |
-mi,4
-<>\doux mi8 mi mi4. mi8 |
+mi,4 \cesureInstr
+<>^"Basses" _\doux mi8 mi mi4. mi8 |
 la1 |
 si2~ si8 si si sol |
 do'2 r |
@@ -22,7 +22,7 @@ fa4.( sol8) fa4.( mi16\trill re) |
 sol4~ sol16( la sol fa) mi4~ mi16( fa re mi) |
 fa2. mi8\trill fa |
 sol2 sol, |
-do,2. do4 |
+do,2. \cesureInstr <>^"B.C." do4 |
 sib,1 |
 la,2~ la,4. do8 |
 fad,1 |
@@ -33,12 +33,15 @@ si,1 |
 do2~ do8. re16 |
 sol,2
 %%%
-mi4 |
+\cesureInstr
+<>^\markup\override #'(baseline-skip . 1) \column { Basses \italic doux }
+mi4  |
 fa2 re4 |
 sol2 fa4 |
 mi2 si,4 |
 do2. |
-sol,4. mi8\fort re\trill do |
+sol,4.
+\cesureInstr <>^"Tous" mi8\fort re\trill do |
 fa4 fa mi8.\trill re16 |
 sol4 sib4. do'8 |
 sib8.( la16)\trill la8 la mi fa |
