@@ -1,5 +1,5 @@
 \livretAct\line { Daphnis et Æglé }
-\livretDescAtt\wordwrap-center {
+\livretDescAtt\justify {
   Le Théâtre représente la principale entrée du Temple de l’Amitié, au
   milieu d’une forêt de grands arbres.  Ils forment une avenue qui
   conduit au temple dont les portes sont fermées.
@@ -68,7 +68,7 @@
 %# L'amitié seule a des douceurs
 %# Dont la source est inépuisable.
 \livretRef #'CBsarabande
-\livretDescPage\wordwrap-center {
+\livretDescPage\wordwrap {
   Les bergers par leurs danses rendent hommage au Dieu de l'Amitié.
 }
 \livretRef #'CEchoeur
@@ -239,7 +239,7 @@
 %# Accourez et que ces lieux
 %# S'embellissent par ma présence.
 \livretRef #'FCentree
-\livretDescPage\wordwrap-center {
+\livretDescPage\justify {
   Les nuages remontent.
   Le théâtre change et represente le temple de l'Amour.
   Les Graces conduisent les plaisirs
@@ -257,7 +257,7 @@
 %# Augmente chaque jour,
 %# Jurons de nous aimer sans cesse.
 \livretRef #'FFentree
-\livretDescPage\wordwrap-center {
+\livretDescPage\justify {
   Les Bergers rentrent et marquent leur étonnement de changement de lieu.
 }
 \livretRef #'FGamour
@@ -268,7 +268,7 @@
 %# Auprès de vous, sexe aimable,
 %# Tous les amis sont des amants.
 \livretRef #'FHmusette
-\livretDescPage\wordwrap-center {
+\livretDescPage\justify {
   Les suivants de l'Amour conduisent en dansant les bergers dans les
   différentes parties du temple et les invitent à rendre homage à
   l'Amour.

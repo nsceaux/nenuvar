@@ -260,7 +260,9 @@
     (make-wordwrap-center-lines-markup-list args))))
 
 #(define (page-ref-aux layout props label gauge next)
-  (let* ((gauge-stencil (interpret-markup layout props gauge))
+  (let* ((gauge-stencil
+          (interpret-markup layout props
+                            (make-concat-markup (list gauge next))))
          (x-ext (ly:stencil-extent gauge-stencil X))
          (y-ext (ly:stencil-extent gauge-stencil Y)))
     (ly:make-stencil

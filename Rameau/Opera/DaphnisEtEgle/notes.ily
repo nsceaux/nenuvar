@@ -72,7 +72,7 @@
     sont rapportées directement dans la partition, en note de bas de page.
     La basse chiffrée utilisée pour cette édition est celle du manuscrit
     RES-208.  Les agréments, liaisons, nuances, etc. de
-    l’ensemble des sources ont été reportées.
+    l’ensemble des sources ont été reportés.
   }
   \null
   \livretRef #'AAouverture

@@ -23,7 +23,7 @@
 #(define-markup-command (livretDesc layout props text) (markup?)
    (interpret-markup
     layout props
-    (markup #:fontsize 1 #:pad-around 2 text)))
+    (markup #:fontsize 1 #:pad-around 2 #:italic text)))
 
 #(define-markup-command (livretDescPage layout props text) (markup?)
    #:properties ((line-width)
@@ -33,14 +33,14 @@
     layout props
     (markup #:hspace gap
             #:override `(line-width . ,(- line-width gap word-space 2))
-            #:fontsize 1 #:pad-around 2 text)))
+            #:fontsize 1 #:pad-around 2 #:italic text)))
 
 #(define-markup-command (livretDescAtt layout props text next)
      (markup? markup?)
    (interpret-markup
     layout props
     (markup #:column
-            (#:line (#:fontsize 1 #:pad-around 2 text)
+            (#:line (#:fontsize 1 #:pad-around 2 #:italic text)
              next))))
 
 #(define-markup-command (livretDescAttPage layout props text next)
@@ -54,7 +54,7 @@
          \line {
            \hspace #gap
            \override #`(line-width . ,(- line-width gap word-space 2))
-           \fontsize #1 \pad-around #2 #text
+           \fontsize #1 \pad-around #2 \italic #text
          }
          $next } #}))
 

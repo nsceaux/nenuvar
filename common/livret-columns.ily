@@ -1,7 +1,7 @@
 %%%
 %%% TODO: merge with livret.ily
 %%% (adding customization properties for sizes)
-%%%
+%%% DEPRECATED
 
 #(define-markup-command (n-columns layout props lines) (markup-list?)
    #:properties ((column-number 2)
@@ -86,7 +86,7 @@
    (interpret-markup
     layout props
     (markup #:force-line-width-ratio 1/20 #:null
-            #:fontsize 1 #:line-width-ratio 9/10 #:pad-around 2 text)))
+            #:fontsize 1 #:line-width-ratio 9/10 #:pad-around 2 #:italic text)))
 
 #(define-markup-command (livretDescPage layout props text) (markup?)
    #:properties ((line-width)
@@ -96,7 +96,7 @@
     layout props
     (markup #:hspace gap
             #:override `(line-width . ,(- line-width gap word-space 2))
-            #:fontsize 1 #:pad-around 2 text)))
+            #:fontsize 1 #:pad-around 2 #:italic text)))
 
 #(define-markup-command (livretDescAtt layout props text next)
      (markup? markup?)
@@ -104,7 +104,8 @@
     layout props
     (markup #:column
             (#:line (#:force-line-width-ratio 1/20 #:null
-                     #:fontsize 1 #:line-width-ratio 9/10 #:pad-around 2 text)
+                     #:fontsize 1 #:line-width-ratio 9/10 #:pad-around 2
+                                              #:italic text)
              next))))
 
 #(define-markup-command (livretDidasP layout props text) (markup?)

@@ -60,9 +60,12 @@
 %{ n°12 %}
 \pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
 \includeScore "CIchoeur"
-\markup\title\line { Les passepieds se reprennent après le chœur. }
+\markup\title\line {
+  Les passepieds [page \page-refII #'CFpassepied ] se reprennent après
+  le chœur.
+}
 
-% %{ n°13 %} \newBookPart #'(full-rehearsal)
+% %{ n°13 %}
 % \scene "Scène IV" "Scène 4 : Æglé, Daphnis et les précédents"
 % \sceneDescription\markup {\smallCaps { Æglé, Daphnis } et les précédents }
 % \pieceToc\markup\wordwrap {
