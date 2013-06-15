@@ -166,15 +166,14 @@
 \livretPers EGLÉ
 \livretVerse#12 { Pardonne cher Daphnis, je crains plus ta colère }
 \livretVerse#8 { Que celle d’un dieu furieux. }
-\livretVerse#6 { Mais pourquoi donc ce dieu }
-\livretVerse#14 { Rejette-t-il les vœux d’une amitié vive et sincere ? }
+\livretVerse#12 { Mais pourquoi donc ce dieu rejette-t-il les vœux }
+\livretVerse#8 { D’une amitié vive et sincere ? }
 \livretPers DAPHNIS
 \livretVerse#8 { Peut-être il en défend l’excès, }
 \livretVerse#8 { Peut-être il la trouve trop tendre. }
 \livretPers EGLÉ
-\livretVerse#6 { Cette amitié si tendre }
-\livretVerse#6 { Est un de ses bienfaits. }
-\livretVerse#8 { Et comment peut-il la défendre }
+\livretVerse#12 { Cette amitié si tendre est un de ses bienfaits. }
+\livretVerse#8 { Eh  ! comment peut-il la défendre }
 \livretVerse#12 { Ce dieu qui dans nos cœurs en a gravé les traits ? }
 \livretVerse#12 { Ah ! c’est l’unique bien dont mon âme est ravie. }
 \livretPers DAPHNIS

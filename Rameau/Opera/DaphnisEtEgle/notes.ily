@@ -637,7 +637,7 @@
   \score {
     \new ChoirStaff <<
       \new Staff {
-        \tinyQuote \key re \minor \time 2/2 \clef "french"
+        \key re \minor \time 2/2 \clef "french"
         <>^"[Violons]"
         sol''16[ la'' sib'' la'' sol'' fa'' mi'' re'']
         mi''[ fa'' sol'' fa'' mi'' fa'' mi'' re''] |
@@ -663,6 +663,77 @@
         <>^"[Basses]"
         sib16[ sib sib sib sib sib sib sib]
         sib16[ sib sib sib sib sib sib sib] |
+      }
+    >>
+    \layout { \smallLayout indent = 0 }
+  }
+
+  \livretRef #'EAegleDaphnis
+  \livretDescAttPage\wordwrap {
+    Scène V — Eglé, Daphnis :
+    \italic { Daphnis vous n’aimez point comme l’on doit aimer }
+  }
+  \justify {
+    Sur le manuscrit RES-208, une collette modifie les mesures
+    11 et 12, qui étaient originellement :
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff <<
+        { \key re \minor \time 2/2 \set autoBeaming = ##f
+          \once\override Score.TimeSignature.stencil = ##f
+          do''2~ do''8 sol' la'4 |
+          \digitTime\time 3/4 \appoggiatura sol'8 fa'8. sib'16 sib'8 la'16 sib'
+          la'16.([ sol'32])\trill la'16 sib' |
+          \time 4/4 la'8\trill la'
+        } \addlyrics {
+          Lors -- que pour vous la mienne est si vive et si ten -- dre,
+        }
+      >>
+      \new Staff {
+        \key re \minor \clef "bass"
+        r2 r4 do | re sib, do | fa
+      }
+      \new FiguredBass \figures { s2. <6 4>4 <6> <6 5> <4> <7> }
+    >>
+    \layout { \smallLayout indent = 0 }
+  }
+  \null
+  \justify {
+    Une version raturée de la partie d’Eglé apparaît mesures 27 à 30 :
+  }
+  \score {
+    \new Staff <<
+      { \key re \minor \time 4/4 \partial 4 \set autoBeaming = ##f
+        \once\override Score.TimeSignature.stencil = ##f
+        la'8\trill la'16 sib' |
+        \appoggiatura la'8 sol'4 sib'4. sib'16 do'' la'8.\trill si'16 |
+        si'?4( do''8.)\prall si'!16 do''8. re''16 si'8.\trill dod''16 |
+        dod''?8.([ re''16])\prall re''8 mi''16 fa''
+        fa''8.([ sol''16])\prall re''8 do''16 re'' |
+        
+      } \addlyrics {
+        Dieu fu -- ri -- eux.
+        Mais pour -- quoi donc ce dieu re -- jet -- te- t-il les vœux
+        D’une a -- mi -- tié vive et sin -
+      }
+    >>
+    \layout { \smallLayout indent = 0 }
+  }
+  \null
+  \justify {
+    Une version raturée de la partie de Daphnis apparaît mesures 45 et 46 :
+  }
+  \score {
+    \new Staff <<
+      { \key re \minor \time 4/4 \set autoBeaming = ##f
+        \clef "treble" \appoggiatura sib'8 la'4 la'8
+        \daphnisMark la16 si si8.([ do'16])\prall do'8 re' |
+        \digitTime\time 3/4 do'16.([ si32])\trill dod'16 re'
+        re'8.([ mi'16])\trill fa'8. mi'32[ re'] |
+      } \addlyrics {
+        vi -- e.
+        C’est ce bien qui fait seul le bon -- heur de ma
       }
     >>
     \layout { \smallLayout indent = 0 }

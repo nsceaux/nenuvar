@@ -65,21 +65,21 @@
   le chœur.
 }
 
-% %{ n°13 %}
-% \scene "Scène IV" "Scène 4 : Æglé, Daphnis et les précédents"
-% \sceneDescription\markup {\smallCaps { Æglé, Daphnis } et les précédents }
-% \pieceToc\markup\wordwrap {
-%   Eglé, Daphnis, chœur : \italic { Ministre des autels, recevez les serments }
-% }
-% \includeScore "DAtonnerre"
+%{ n°13 %}
+\scene "Scène IV" "Scène 4 : Æglé, Daphnis et les précédents"
+\sceneDescription\markup {\smallCaps { Æglé, Daphnis } et les précédents }
+\pieceToc\markup\wordwrap {
+  Eglé, Daphnis, chœur : \italic { Ministre des autels, recevez les serments }
+}
+\includeScore "DAtonnerre"
 
-% %{ n°14 %}
-% \scene "Scène V" "Scène 5 : Daphnis, Æglé"
-% \sceneDescription\markup\smallCaps { Daphnis, Æglé }
-% \pieceToc\markup\wordwrap {
-%   Eglé, Daphnis : \italic { Daphnis vous n’aimez point comme l’on doit aimer }
-% }
-% \includeScore "EAegleDaphnis"
+%{ n°14 %}
+\scene "Scène V" "Scène 5 : Daphnis, Æglé"
+\sceneDescription\markup\smallCaps { Daphnis, Æglé }
+\pieceToc\markup\wordwrap {
+  Eglé, Daphnis : \italic { Daphnis vous n’aimez point comme l’on doit aimer }
+}
+\includeScore "EAegleDaphnis"
 % %{ n°15 %}
 % \pieceToc\markup\wordwrap {
 %   Daphnis, Eglé : \italic { Hélas en vous voyant j’oublie }

@@ -8,8 +8,8 @@ do2 mib4 re8. do16 |
 sib,1 |
 r4 sib, la,2 |
 si,1 |
-do2 r |
-r r4 do |
+do1 | \allowPageTurn
+r2 r4 do |
 re4. sib,8 do2 |
 fa4 re2 r8 re |
 sol4 fa mi4. re8 |
@@ -19,13 +19,13 @@ do,2 la |
 sib2. la4 |
 sold2. |
 la1 |
-sol2. fa8 mi |
+<< \origVersion { sol2~ sol4 } \modVersion sol2. >> fa8 mi |
 re2 r4 mi |
 la,2 re |
 sol si,4 |
 do2 mib8. do16 re4 |
-sol,2 sol4 sib |
-mi2 fa4 |
+sol,2 \cesureInstr <>^"passage" sol4 sib |
+mi!2 fa4 |
 la,2 re8 do |
 sib,2. |
 si, |
@@ -40,7 +40,7 @@ re1 |
 fa2 mi |
 la mi8. la,16 |
 mi,2 dod' |
-re'4. do'8 si la |
+re'4. do'!8 si la |
 sold4. la8 mi2 |
 la la |
 sib4 dod re2 |

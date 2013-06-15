@@ -1,4 +1,4 @@
-\piecePartSpecs #`((basse-continue
+\piecePartSpecs #`((basse
                     #:score-template "score-basse-continue-voix")
                    (silence #:on-the-fly-markup , #{ \markup\lyrics {
   \tacet #47
@@ -18,21 +18,20 @@
   \bold DAPHNIS
   \verse#8 { Après cette injure cruelle }
   \verse#12 { Je vais loin de vos yeux finir mes tristes jours. }
+  \column-break
   \verse#8 { Mon bras ou ma douleur mortelle }
   \verse#8 { En tranchera bientôt le cours. }
-  \column-break
   \bold EGLÉ
   \verse#12 { Pardonne cher Daphnis, je crains plus ta colère }
   \verse#8 { Que celle d’un dieu furieux. }
-  \verse#6 { Mais pourquoi donc ce dieu }
-  \verse#14 { Rejette-t-il les vœux d’une amitié vive et sincere ? }
+  \verse#12 { Mais pourquoi donc ce dieu rejette-t-il les vœux }
+  \verse#8 { D’une amitié vive et sincere ? }
   \bold DAPHNIS
   \verse#8 { Peut-être il en défend l’excès, }
   \verse#8 { Peut-être il la trouve trop tendre. }
   \bold EGLÉ
-  \verse#6 { Cette amitié si tendre }
-  \verse#6 { Est un de ses bienfaits. }
-  \verse#8 { Et comment peut-il la défendre }
+  \verse#12 { Cette amitié si tendre est un de ses bienfaits. }
+  \verse#8 { Eh ! comment peut-il la défendre }
   \verse#12 { Ce dieu qui dans nos cœurs en a gravé les traits ? }
   \verse#12 { Ah ! c’est l’unique bien dont mon âme est ravie. }
   \bold DAPHNIS

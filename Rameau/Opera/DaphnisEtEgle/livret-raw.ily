@@ -164,15 +164,14 @@
 \livretPers EGLÉ
 %# Pardonne cher Daphnis, je crains plus ta colère
 %# Que celle d'un dieu furi=eux.
-%# Mais pourquoi donc ce dieu
-%# Rejette-t-il les vœux d'une amitié vive et sincere ?
+%# Mais pourquoi donc ce dieu rejette-t-il les vœux
+%# D'une amitié vive et sincere ?
 \livretPers DAPHNIS
 %# Peut-être il en défend l'excès,
 %# Peut-être il la trouve trop tendre.
 \livretPers EGLÉ
-%# Cette amitié si tendre
-%# Est un de ses bienfaits.
-%# Et comment peut-il la défendre
+%# Cette amitié si tendre est un de ses bienfaits.
+%# Eh ! comment peut-il la défendre
 %# Ce dieu qui dans nos cœurs en a gravé les traits ?
 %# Ah ! c'est l'unique bien dont mon âme est ravi=e.
 \livretPers DAPHNIS
