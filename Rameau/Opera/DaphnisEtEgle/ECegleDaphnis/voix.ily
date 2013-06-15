@@ -5,7 +5,12 @@
     re''4. re''8 la' la'16 si' |
     \appoggiatura si' dod''4\prall dod''8 la' mi''4 mi''8 fad'' |
     fad''4( sol''8)\prall mi'' mi''16 mi'' mi'' mi'' si'8.\trill dod''16 |
-    \appoggiatura dod''8 re''4 re''8 r fad'4 sol'8 la' |
+    \appoggiatura dod''8 re''4 re''8 r fad'4
+    \tag #'egle \footnoteHere #'(0 . 0) \markup\justify {
+      Sur le manuscrit RES-208, le sol est dièse, tandis que sur la partie
+      séparée de basse continue MV²-395, le dièse est raturé.
+    }
+    sol'8 la' |
     si'4 mi''4. mi''16 si' |
     \appoggiatura si'8 dod''\prall dod''
     <<
@@ -16,7 +21,7 @@
     fad''4.( mi''8)\prall mi'' mi'' fad'' sol'' |
     fad''2\trill fad''8 r la' si' |
     do''2 do''8 do'' do'' si' |
-    si'4\trill si'16 r mi'' sol'' fad''4( fad''16[ mi''])\trill fad'' \appoggiatura mi''8 re''16 |
+    si'4\trill si'16 r mi'' sol'' fad''4~ fad''16([ mi''])\trill fad'' \appoggiatura mi''8 re''16 |
     dod''4\trill re''8. mi''16 mi''8.([ fad''16])\prall fad''8 sol'' |
     mi''2\trill
   }

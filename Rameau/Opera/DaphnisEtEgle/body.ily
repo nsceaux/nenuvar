@@ -85,11 +85,11 @@
   Daphnis, Eglé : \italic { Hélas en vous voyant j’oublie }
 }
 \includeScore "EBdaphnisEgle"
-% %{ n°16 %}
-% \pieceToc\markup\wordwrap {
-%   Eglé, Daphnis : \italic { Mais pourquoi le plaisir que je sens à vous voir }
-% }
-% \includeScore "ECegleDaphnis"
+%{ n°16 %}
+\pieceToc\markup\wordwrap {
+  Eglé, Daphnis : \italic { Mais pourquoi le plaisir que je sens à vous voir }
+}
+\includeScore "ECegleDaphnis"
 % %{ n°17 %}
 % \pieceToc\markup\wordwrap { Daphnis : \italic { Bergère, comme vous j’ignore } }
 % \includeScore "EDdaphnis"
