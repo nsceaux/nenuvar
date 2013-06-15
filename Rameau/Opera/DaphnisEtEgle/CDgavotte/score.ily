@@ -26,7 +26,7 @@
           \italic { “T-sd.” } qu'on a interprêté comme signifiant
           \italic { “Tous, doux”, } par opposition au fait que les
           hautes-contre et tailles étaient divisées dans la première gavotte.
-          Dans le doute, on a placé cette ligne dans les parties séparées
+          On a placé cette ligne dans les parties séparées
           de seconds violons et de parties.
         }
       >>

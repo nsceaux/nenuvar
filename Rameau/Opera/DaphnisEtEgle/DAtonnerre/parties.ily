@@ -1,4 +1,9 @@
-\clef "dessus" r8 | R1*3 R2. |
+\clef "haute-contre" r8 | R1*3 R2. |
+\footnoteHere #'(0 . 0) \markup\justify {
+  Le manuscrit RES-208 contient l’indication “Parties”, tandis que
+  cette voix se trouve dans la partie séparée de seconds violons
+  dans le matériel VM²-395, sur une collette.
+}
 r16 sib' sib' sib' \ru#4 sib' \ru#8 sib' |
 sib'16 do'' sib' la' sol' la' sol' fa' re''4. re''8 |
 sol'16 fa' sol' la' sib' la' sol' fa' \ru#8 sol' |

@@ -624,3 +624,47 @@
   >>
   \layout { \smallLayout indent = 0 }
 }
+
+\markuplist\with-line-width-ratio #0.8 \column-lines {
+  \livretRef #'DAtonnerre
+  \livretDescAttPage\wordwrap {
+    Scène IV — Tonnerre
+  }
+  \justify {
+    Sur le manuscrit RES-208, une mesure est barrée
+    avant la mesure 8 de cette édition :
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff {
+        \tinyQuote \key re \minor \time 2/2 \clef "french"
+        <>^"[Violons]"
+        sol''16[ la'' sib'' la'' sol'' fa'' mi'' re'']
+        mi''[ fa'' sol'' fa'' mi'' fa'' mi'' re''] |
+      }
+      \new Staff {
+        \key re \minor \clef "french"
+        <>^"[Flutes]"
+        r16 do''[ re'' mi'' fa'' sol'' la'' sib'']
+        do'''[ do'' re'' mi'' fa'' sol'' la'' sib''] |
+      }
+      \new Staff {
+        \key re \minor \clef "soprano"
+        <>^"[Parties]"
+        do'16[ do' do' do' do' do' do' do'] do'[ do' do' do' do' do' do' do'] |
+      }
+      \new Staff {
+        \key re \minor \clef "tenor"
+        <>^"[Bassons]"
+        mi'2 sol' |
+      }
+      \new Staff {
+        \key re \minor \clef "soprano"
+        <>^"[Basses]"
+        sib16[ sib sib sib sib sib sib sib]
+        sib16[ sib sib sib sib sib sib sib] |
+      }
+    >>
+    \layout { \smallLayout indent = 0 }
+  }
+}

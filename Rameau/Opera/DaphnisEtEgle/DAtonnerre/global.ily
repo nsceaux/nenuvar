@@ -1,4 +1,5 @@
 \key re \minor
+\tempo "Duo"
 \digitTime\time 2/2 \midiTempo #160 \partial 8 s8 s1*3
 \digitTime\time 3/4 \midiTempo #80 \grace s8 s2.
 \tempo "Tonnerre"

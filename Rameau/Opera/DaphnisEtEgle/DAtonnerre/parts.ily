@@ -1,15 +1,16 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
-                   (basse #:score "score-basse")
-                   (basse-continue
-                    #:tag-notes basse-continue
-                    #:score-template "score-basse-continue-voix")
+                   (parties)
+                   (basson #:notes "basson" #:clef "tenor")
+                   (basse #:score-template "score-basse-continue-voix"
+                          #:music , #{ s8 s1*3 s2. s1*10 s2 \bar "|." \break #})
                    (silence #:on-the-fly-markup , #{ \markup\lyrics {
   \tacet #32
   \bold\line { EGLÉ et DAPHNIS }
   \verse#12 { Ministre des autels, recevez les serments }
   \verse#6 { Qu’une sainte amitié... }
   \bold CHŒUR
-  \verse#11 { Justes dieux, quel tonnerre ébranle la terre }
+  \verse#6 { Justes Dieux ! quel tonnerre }
+  \verse#5 { Ébranle la terre }
   \verse#6 { Jusqu’en ses fondements ? }
   \column-break
   \bold\line { LE GRAND PRÊTRE }

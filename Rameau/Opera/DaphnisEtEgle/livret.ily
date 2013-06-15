@@ -121,7 +121,8 @@
 \livretVerse#6 { Qu’une sainte amitié... }
 \livretDidasP Tonnerre
 \livretPers CHŒUR
-\livretVerse#11 { Justes dieux, quel tonnerre ébranle la terre }
+\livretVerse#6 { Justes dieux  ! quel tonnerre }
+\livretVerse#5 { Ébranle la terre }
 \livretVerse#6 { Jusqu’en ses fondements ? }
 \livretDidasP\wordwrap {
   Les chœurs et les danseurs rentrent dans le temple.
@@ -130,7 +131,7 @@
   LE GRAND PRÊTRE
   \fontsize #-1 { à Daphnis et Eglé qui se disposaient à entrer }
 }
-\livretVerse#7 { Arrête couple profane, }
+\livretVerse#7 { Arrêtez, couple profane, }
 \livretVerse#8 { Le Dieu qui vient de m’inspirer, }
 \livretVerse#12 { Sur vos vrais sentiments a daigné m’éclairer. }
 \livretVerse#8 { Ce dieu les voit et les condamne, }

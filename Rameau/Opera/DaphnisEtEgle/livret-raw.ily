@@ -119,7 +119,8 @@
 %# Qu'une sainte amitié ...
 \livretDidasP Tonnerre
 \livretPers CHŒUR
-%# Justes dieux, quel tonnerre ébranle la terre
+%# Justes dieux ! quel tonnerre
+%# Ébranle la terre
 %# Jusqu'en ses fondements ?
 \livretDidasP\wordwrap {
   Les chœurs et les danseurs rentrent dans le temple.
@@ -128,7 +129,7 @@
   LE GRAND PRÊTRE
   \fontsize #-1 { à Daphnis et Eglé qui se disposaient à entrer }
 }
-%# Arrête couple profane,
+%# Arrêtez, couple profane,
 %# Le Dieu qui vient de m'inspirer,
 %# Sur vos vrais sentiments a daigné m'éclairer.
 %# Ce dieu les voit et les condamne,

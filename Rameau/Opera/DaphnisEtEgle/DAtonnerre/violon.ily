@@ -2,8 +2,8 @@
 r16 re''' re''' re''' \ru#4 re''' \ru#8 re''' |
 re'''16 mib''' re''' do''' sib'' do''' sib'' la'' sol'' la'' sib'' la'' sol'' la'' sol'' fa'' |
 mi'' re'' mi'' fa'' sol'' fa'' mi'' re'' \ru#8 do'' |
-do''8 sib'16 la' sol' fa' mi' re' do'4 r16 re' do' sib |
-la do''' do''' do''' \ru#4 do''' \ru#8 do''' |
+do''8 sib'16 la' sol' fa' mi' re' \clef "dessus2" do'4 r16 re' do' sib |
+la \clef "dessus" do''' do''' do''' \ru#4 do''' \ru#8 do''' |
 \ru#8 do''' \ru#8 do''' |
 \ru#4 do''' do''' fa'' sol'' la'' \ru#8 sib'' |
 \ru#8 sib'' \ru#8 sib'' |

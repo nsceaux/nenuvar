@@ -5,4 +5,5 @@ do''4. do''8 la'4\trill la'8 la' |
 re''2 re''4 r |
 re''4 re''8 fa'' sib'4. sib'8 |
 sol'1\trill |
-R1*4 R2.*2 R1*4 R2.*2 R1*6 |
+R1 r2 r2 |
+R1*2 R2.*2 R1*4 R2.*2 R1*6 |
