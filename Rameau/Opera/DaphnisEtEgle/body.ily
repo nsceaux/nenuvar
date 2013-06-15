@@ -80,11 +80,11 @@
   Eglé, Daphnis : \italic { Daphnis vous n’aimez point comme l’on doit aimer }
 }
 \includeScore "EAegleDaphnis"
-% %{ n°15 %}
-% \pieceToc\markup\wordwrap {
-%   Daphnis, Eglé : \italic { Hélas en vous voyant j’oublie }
-% }
-% \includeScore "EBdaphnisEgle"
+%{ n°15 %}
+\pieceToc\markup\wordwrap {
+  Daphnis, Eglé : \italic { Hélas en vous voyant j’oublie }
+}
+\includeScore "EBdaphnisEgle"
 % %{ n°16 %}
 % \pieceToc\markup\wordwrap {
 %   Eglé, Daphnis : \italic { Mais pourquoi le plaisir que je sens à vous voir }

@@ -16,8 +16,8 @@
   \tag #'(daphnis basse) {
     \clef "vhaute-contre" re'4 |
     \appoggiatura dod'8 si4. re'8 dod' mi' |
-    la re' la4.( sol16[ fad]) |
-    fad8 la la sol16[ fad] sol8 la |
+    la re' la4.( sol16\trill[ fad]) |
+    fad8\trill la la sol16[ fad] sol8 la |
     \appoggiatura la si8.\prall la16 sol8 la si dod' |
     \appoggiatura dod' re'8.\prall si16 mi'4 si8 dod'16 re' |
     dod'2\trill mi'8 mi' |
@@ -27,12 +27,12 @@
     dod'4( si2)\trill |
     la2 r8 mi' |
     sol'4. fad'8 mi' fad' |
-    dod' re' mi' fad'16[ re'] sol'8[( fad'16)]\trill sol' |
+    dod'\trill re' mi' fad'16[ re'] sol'8[( fad'16)]\trill sol' |
     mi'2\trill r8 fad' |
     fad'4( sol')\prall r8 mi' |
     mi'4. re'16[ dod'] re'8. sol'16 |
     fad'4( mi'2)\trill |
-    re'2 fad'4~ |
+    re'2 \cesureInstr fad'4~ |
     fad'4. fad'8 mi' fad' |
     sol'2 fad'8\trill mi' |
     \appoggiatura mi' fad'2\prall r8 mi' |

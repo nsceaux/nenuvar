@@ -738,4 +738,37 @@
     >>
     \layout { \smallLayout indent = 0 }
   }
+  
+  \livretRef #' EBdaphnisEgle
+  \livretDescAttPage\wordwrap {
+    Scène V — Daphnis, Eglé : \italic { Hélas en vous voyant j’oublie }
+  }
+  \justify {
+    Sur le manuscrit RES-208, une première version raturée de la mesure 6
+    apparaît :
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff <<
+        { \key re \major \time 3/4 \clef "alto"
+          dod'2\trill mi'8 mi' |
+        } \addlyrics { - meaux ; C’est de }
+      >>
+      \new Staff {
+        \key re \major \clef "french"
+        mi''8\trill re'' mi'' fad'' sol'' fad'' |
+      }
+      \new Staff {
+        \key re \major \clef "french"
+        dod''8\trill si' dod'' re'' mi'' re'' |
+      }
+      \new Staff {
+        \key re \major \clef "bass" la,2.
+      }
+    >>
+    \layout {
+      \smallLayout indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
 }

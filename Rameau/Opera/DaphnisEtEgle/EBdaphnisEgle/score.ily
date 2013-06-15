@@ -1,27 +1,53 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new Staff \with {
-        instrumentName = \markup\center-column {
-          Violons \line { \concat { 1 \super rs } Hautbois }
+  <<
+    \origVersion\new ChoirStaff <<
+      \new Staff \withLyrics <<
+        \global \keepWithTag #'daphnis \includeNotes "voix"
+      >> \keepWithTag #'daphnis \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'egle \includeNotes "voix"
+      >> \keepWithTag #'egle \includeLyrics "paroles"
+      \new Staff \with { \haraKiri } <<
+        \global \keepWithTag #'hautbois1 \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiri } <<
+        \global \keepWithTag #'hautbois2 \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \keepWithTag #'violons \includeNotes "dessus"
+      >>
+      \new Staff <<
+        \global \includeNotes "basse"
+        \origLayout {
+          s4 s2.*6\break s2.*7\break s2.*9\break
         }
-      } << \global \keepWithTag #'dessus1 \includeNotes "dessus" >>
-      \new Staff \with {
-        \haraKiri
-        instrumentName = \markup { \concat { 2 \super ds } Hautbois }
-      } << \global \keepWithTag #'dessus2 \includeNotes "dessus" >>
+        \includeFigures "chiffres"
+      >>
     >>
-    \new Staff \with { \haraKiriFirst } \withLyrics <<
-      \characterName "Eglé"
-      \global \keepWithTag #'egle \includeNotes "voix"
-    >> \keepWithTag #'egle \includeLyrics "paroles"
-    \new Staff \withLyrics <<
-      \characterName "Daphnis"
-      \global \keepWithTag #'daphnis \includeNotes "voix"
-    >> \keepWithTag #'daphnis \includeLyrics "paroles"
-    \new Staff \with { instrumentName = "B.C." } <<
-      \global \includeNotes "basse"
-      \includeFigures "chiffres"
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new GrandStaff \with { \hautboisInstr } <<
+          \new Staff \with { \haraKiri } <<
+            \global \keepWithTag #'hautbois1 \includeNotes "dessus"
+          >>
+          \new Staff \with { \haraKiri } <<
+            \global \keepWithTag #'hautbois2 \includeNotes "dessus"
+          >>
+        >>
+        \new Staff \with { \haraKiriFirst \violonInstr } <<
+          \global \keepWithTag #'violons \includeNotes "dessus"
+        >>
+      >>
+      \new Staff \with { \haraKiriFirst \egleInstr } \withLyrics <<
+        \global \keepWithTag #'egle \includeNotes "voix"
+      >> \keepWithTag #'egle \includeLyrics "paroles"
+      \new Staff \with { \daphnisInstr } \withLyrics <<
+        \global \keepWithTag #'daphnis \includeNotes "voix"
+      >> \keepWithTag #'daphnis \includeLyrics "paroles"
+      \new Staff \with { \bcInstr } <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
   >>
   \layout { }

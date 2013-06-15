@@ -1,7 +1,7 @@
-\clef "basse" <>\doux re4 |
+\clef "basse" re4 |
 re2.~ |
-re2 dod4 |
-re4. do8 si, la, |
+re2 dod4\trill |
+re4. do8 \trill si, la, |
 sol,2. |
 fad,8.( sol,16) \appoggiatura fad,8 mi,2 |
 la,2. |
