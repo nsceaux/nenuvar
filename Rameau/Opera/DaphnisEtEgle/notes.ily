@@ -72,7 +72,9 @@
     sont rapportées directement dans la partition, en note de bas de page.
     La basse chiffrée utilisée pour cette édition est celle du manuscrit
     RES-208.  Les agréments, liaisons, nuances, etc. de
-    l’ensemble des sources ont été reportés.
+    l’ensemble des sources ont été reportés.  Les nuances abbrégées dans les
+    sources (par exemple : \concat { \italic d. ) } sont notées en toutes
+    lettres dans cette édition \concat { ( \italic doux ). }
   }
   \null
   \livretRef #'AAouverture
@@ -739,7 +741,7 @@
     \layout { \smallLayout indent = 0 }
   }
   
-  \livretRef #' EBdaphnisEgle
+  \livretRef #'EBdaphnisEgle
   \livretDescAttPage\wordwrap {
     Scène V — Daphnis, Eglé : \italic { Hélas en vous voyant j’oublie }
   }
@@ -770,5 +772,34 @@
       \smallLayout indent = 0
       \context { \Staff \remove "Time_signature_engraver" }
     }
+  }
+
+  \livretRef #'ECegleDaphnis
+  \livretDescAttPage\wordwrap {
+    Scène V — Eglé, Daphnis :
+    \italic { Mais pourquoi le plaisir que je sens à vous voir }
+  }
+  \justify {
+    Dans le manuscrit RES-208, ce récit comporte de nombreuses
+    ratures, notamment de la mesure 13 :
+  }
+  \score {
+    \new Staff <<
+      { \key re \major \digitTime\time 2/2 \clef "treble"
+        \set autoBeaming = ##f
+        dod''4\trill mi''8 fad'' re''4\trill re''8 dod'' |
+        \appoggiatura dod''8 re''2
+      } \addlyrics { - sent et ne peut con -- ce -- voir. }
+    >>
+    \layout { \smallLayout indent = 0 }
+  }
+
+  \livretRef #'EDdaphnis
+  \livretDescAttPage\wordwrap {
+    Scène V — Daphnis : \italic { Bergère, comme vous j’ignore }
+  }
+  \justify {
+    Le manuscrit RES-208 contient d’abondantes corrections sous forme de
+    ratures ne permettant pas de voir la version originale. |
   }
 }

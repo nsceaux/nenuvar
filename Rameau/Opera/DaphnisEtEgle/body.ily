@@ -90,9 +90,9 @@
   Eglé, Daphnis : \italic { Mais pourquoi le plaisir que je sens à vous voir }
 }
 \includeScore "ECegleDaphnis"
-% %{ n°17 %}
-% \pieceToc\markup\wordwrap { Daphnis : \italic { Bergère, comme vous j’ignore } }
-% \includeScore "EDdaphnis"
+%{ n°17 %}
+\pieceToc\markup\wordwrap { Daphnis : \italic { Bergère, comme vous j’ignore } }
+\includeScore "EDdaphnis"
 
 %{ n°18 %} \newBookPart #'(full-rehearsal)
 % \scene "Scène VI" "Scène 6 : L’Amour et les précédents"

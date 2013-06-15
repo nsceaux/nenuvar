@@ -23,7 +23,33 @@ fa'4 mi'8 re' do'\trill si |
 mi'4 la'4. re'8 |
 re'4.( do'8)\prall si do' |
 \appoggiatura si8 la2 la4 |
+\tag #'daphnis \footnoteHere #'(0 . 0) \markup\wordwrap {
+  \line {
+    Manuscrit RES-208 : \score {
+      \new Staff <<
+        { \tinyQuote \key re \minor \time 3/4 \clef "alto"
+          \set autoBeaming = ##f
+          la16.*2([ si32*2])\prall si16 r re' re' sol'8. mi'16 |
+          dod'4\trill dod'8
+        } \addlyrics { - gè -- re, com -- me vous j’i -- gno -- re }
+      >>
+      \layout { \quoteLayout }
+    }
+  }
+  \line {
+    corrigeant une version plus ancienne : \score {
+      \new Staff <<
+        { \tinyQuote \key re \minor \time 3/4 \clef "alto"
+          \set autoBeaming = ##f
+          la16.([ si32])\prall si16 r si8 do' \appoggiatura si8 la8. re'16 |
+          dod'4\trill dod'8
+        } \addlyrics { - gè -- re, com -- me vous j’i -- gno -- re }
+      >>
+      \layout { \quoteLayout }
+    }
+  }
+}
 la8.([ si16])\prall si r re' re' sol'8. mi'16 |
 dod'4\trill dod'8 r16 fa' mi'8. la'16 |
-la'4( sol'8.)\trill fa'16 mi'8. fa'16 |
+la'4( sol'8)\trill fa' mi'8. fa'16 |
 \appoggiatura mi'8 re'2. |
