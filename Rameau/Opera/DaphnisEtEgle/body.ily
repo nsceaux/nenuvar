@@ -95,5 +95,6 @@
 \includeScore "EDdaphnis"
 
 %{ n°18 %} \newBookPart #'(full-rehearsal)
-% \scene "Scène VI" "Scène 6 : L’Amour et les précédents"
-% \sceneDescription\markup { \smallCaps L’Amour et les précédents }
+\scene "Scène VI" "Scène 6 : L’Amour et les précédents"
+\sceneDescription\markup { \smallCaps L’Amour et les précédents }
+\includeScore "FAamourEgleDaphnis"

@@ -219,7 +219,7 @@
 \livretRef #'FAamourDaphnisEgle
 \livretPers\line { L'AMOUR \fontsize #-1 { sur des nuages } }
 %# Sortez de votre erreur extrême,
-%# Tendres bergers detrompez-vous,
+%# Tendres bergers, detrompez-vous :
 %# Ce n'est point l'amitié, c'est moi, c'est l'amour-même
 %# Qui vous fait éprouver ses charmes les plus doux.
 \livretPers\line { DAPHNIS et EGLÉ }

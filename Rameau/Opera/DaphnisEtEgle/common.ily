@@ -143,3 +143,7 @@ pretreInstr = \with {
   instrumentName = \markup\large\center-column\smallCaps { "Le Grand" "Prêtre" }
   shortInstrumentName = "Pr."
 }
+amourInstr = \with {
+  instrumentName = \markup\large\smallCaps L'Amour
+  shortInstrumentName = "Am."
+}
