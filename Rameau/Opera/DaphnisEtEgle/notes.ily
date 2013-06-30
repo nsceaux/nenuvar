@@ -800,6 +800,6 @@
   }
   \justify {
     Le manuscrit RES-208 contient d’abondantes corrections sous forme de
-    ratures ne permettant pas de voir la version originale. |
+    ratures ne permettant pas de voir la version originale.
   }
 }

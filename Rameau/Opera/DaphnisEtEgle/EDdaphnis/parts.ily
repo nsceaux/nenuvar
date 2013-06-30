@@ -1,6 +1,5 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
-                   (basse #:instrument "Basses"
-                          #:score-template "score-basse-continue-voix")
+                   (basse #:instrument "Basses")
                    (silence #:on-the-fly-markup , #{ \markup\lyrics {
   \tacet #28
   \column-break

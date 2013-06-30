@@ -80,7 +80,7 @@
   Eglé, Daphnis : \italic { Daphnis vous n’aimez point comme l’on doit aimer }
 }
 \includeScore "EAegleDaphnis"
-%{ n°15 %}
+%{ n°15 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   Daphnis, Eglé : \italic { Hélas en vous voyant j’oublie }
 }
