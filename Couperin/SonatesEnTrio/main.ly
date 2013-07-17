@@ -5,7 +5,7 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
     %title = "Quatre sonates en trio"
-    title = "La Steinkerque"
+    title = "La Steinquerque"
     date = "vers 1690"
   }
   \markup \null
@@ -24,7 +24,7 @@
 %}
 
 %%%
-%%% La Steinkerque
+%%% La Steinquerque
 %%%
-\sonate "La Steinkerque"
-\includeScore "Steinkerque"
+\sonate "La Steinquerque"
+\includeScore "Steinquerque"
