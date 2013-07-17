@@ -1529,6 +1529,46 @@ Couperin/Nations-all: \
 
 .PHONY: Couperin/Nations-delivery Couperin/Nations-clean Couperin/Nations-all
 
+### Quatre sonates en trio
+# Conducteur
+Couperin/SonatesEnTrio:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/SonatesEnTrio  \
+	Couperin/SonatesEnTrio/main.ly
+.PHONY: Couperin/SonatesEnTrio
+# Premier clavecin
+Couperin/SonatesEnTrio-clavier1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/SonatesEnTrio-clavier1 -dpart=clavier1  \
+	Couperin/SonatesEnTrio/main
+.PHONY: Couperin/SonatesEnTrio-clavier1
+# Premier clavecin
+Couperin/SonatesEnTrio-clavier2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/SonatesEnTrio-clavier2 -dpart=clavier2  \
+	Couperin/SonatesEnTrio/main
+.PHONY: Couperin/SonatesEnTrio-clavier2
+
+Couperin/SonatesEnTrio-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Couperin/SonatesEnTrio
+	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio.pdf ]; then mv -fv $(OUTPUT_DIR)/SonatesEnTrio.pdf $(DELIVERY_DIR)/Couperin/SonatesEnTrio; fi
+	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio-clavier1.pdf ]; then mv -fv $(OUTPUT_DIR)/SonatesEnTrio-clavier1.pdf $(DELIVERY_DIR)/Couperin/SonatesEnTrio; fi
+	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio-clavier2.pdf ]; then mv -fv $(OUTPUT_DIR)/SonatesEnTrio-clavier2.pdf $(DELIVERY_DIR)/Couperin/SonatesEnTrio; fi
+	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio-1.midi ]; then tar zcf $(DELIVERY_DIR)/Couperin/SonatesEnTrio/SonatesEnTrio-midi.tar.gz $(OUTPUT_DIR)/SonatesEnTrio.midi $(OUTPUT_DIR)/SonatesEnTrio-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/SonatesEnTrio.midi ]; then cp $(OUTPUT_DIR)/SonatesEnTrio.midi $(DELIVERY_DIR)/Couperin/SonatesEnTrio/ ; fi
+	git archive --prefix=SonatesEnTrio/ HEAD Couperin/SonatesEnTrio common out templates Makefile README | gzip > $(DELIVERY_DIR)/Couperin/SonatesEnTrio/SonatesEnTrio.tar.gz
+
+Couperin/SonatesEnTrio-clean:
+	@rm -f $(OUTPUT_DIR)/SonatesEnTrio-* $(OUTPUT_DIR)/SonatesEnTrio.*
+
+Couperin/SonatesEnTrio-all: \
+	Couperin/SonatesEnTrio \
+	Couperin/SonatesEnTrio-clavier1 \
+	Couperin/SonatesEnTrio-clavier2\
+	Couperin/SonatesEnTrio-delivery\
+	Couperin/SonatesEnTrio-clean
+
+.PHONY: Couperin/SonatesEnTrio-delivery Couperin/SonatesEnTrio-clean Couperin/SonatesEnTrio-all
+
 ### L'Art de toucher le clavecin
 # Livre complet
 Couperin/Clavecin/lArtDeToucherLeClavecin:

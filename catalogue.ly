@@ -338,6 +338,15 @@ O Emmanuel")
                            #:score-file "main-claviers")
                  (basse-archet "Basse d'archet" #:part basse-archet
                                #:score-file "main")))
+       ("Quatre sonates en trio"
+        #:description "Quatre sonates en trio"
+        #:key "Couperin/SonatesEnTrio"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=xx"
+        #:main ((#f "Conducteur"))
+        #:parts ((clavier1 "Premier clavecin" #:part clavier1
+                           #:score-file "main")
+                 (clavier2 "Premier clavecin" #:part clavier2
+                           #:score-file "main")))
        ("L'Art de toucher le clavecin"
         #:key "Couperin/Clavecin/lArtDeToucherLeClavecin"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=4"
