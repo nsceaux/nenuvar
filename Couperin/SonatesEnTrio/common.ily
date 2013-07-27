@@ -19,14 +19,12 @@
 #(ly:set-option 'forbid-key-modification #t)
 #(ly:set-option 'use-rehearsal-numbers #f)
 %% Staff size
-#(set-global-staff-size
-  (if (or (eqv? #t (ly:get-option 'urtext))
-          (not (symbol? (ly:get-option 'part)))
-          (eqv? (ly:get-option 'part) 'claviers))
-      16
-      18))
+#(set-global-staff-size 16)
+
 %% Line/page breaking algorithm
-\paper { #(define page-breaking ly:optimal-breaking) }
+\paper {
+  #(define page-breaking ly:page-turn-breaking)
+}
 
 \include "italiano.ly"
 \include "common/common.ily"
@@ -57,7 +55,9 @@
    (clavier2 , #{ \markup\center-column {
   "Concert à deux clavecins"
   "Second clavecin" } #}
-             () (#:score-template "score-nation-clavier2")))
+             () (#:score-template "score-nation-clavier2"))
+   (4mains-12b "" () (#:score "score-12b"))
+   (4mains-21b "" () (#:score "score-21b")))
 
 %%% Figured bass
 includeFigures = 
@@ -76,6 +76,10 @@ arch =
 chif =
 #(define-music-function (parser location music) (ly:music?)
    #{ \tag #'chiffree $music #})
+
+tous =
+#(define-music-function (parser location music) (ly:music?)
+   #{ \tag #'tous $music #})
 
 systemPos =
 #(define-music-function (parser location position) (number?)

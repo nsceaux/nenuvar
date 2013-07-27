@@ -1,7 +1,15 @@
 \clef "dessus" r8 fa''16 fa'' fa''8 fa'' fa'' re'' fa'' fa'' |
 fa''4 r r2 |
 r8 re''16 re'' re''8 re'' re''4 r |
-r8 sol''16 sol'' sol''8 sol'' sol'' mi'' sol'' sol'' |
+r8 sol''16 sol'' sol''8 sol'' sol''
+\footnoteHere #'(0 . 0) \markup {
+  Source : \score {
+    { \tinyQuote \key sib \major \clef "french"
+      r8 sol''16 sol'' sol''8 sol'' sol'' mi'' sol'' sol'' | }
+    \layout { \quoteLayout }
+  }
+}
+mib'' sol'' sol'' |
 sol''4 r r8 sib'16 do'' re'' mib'' re'' mib'' |
 fa''4 r r8 fa''16 fa'' fa''8 fa'' |
 fa'' re'' fa'' fa'' fa''4 mi''8\trill re''16 mi'' |

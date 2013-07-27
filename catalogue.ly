@@ -346,6 +346,10 @@ O Emmanuel")
         #:parts ((clavier1 "Premier clavecin" #:part clavier1
                            #:score-file "main")
                  (clavier2 "Premier clavecin" #:part clavier2
+                           #:score-file "main")
+                 (4mains-12b "" #:part 4mains-12b
+                           #:score-file "main")
+                 (4mains-21b "" #:part 4mains-21b
                            #:score-file "main")))
        ("L'Art de toucher le clavecin"
         #:key "Couperin/Clavecin/lArtDeToucherLeClavecin"

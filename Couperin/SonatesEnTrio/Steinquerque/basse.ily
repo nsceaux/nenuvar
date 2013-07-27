@@ -89,9 +89,14 @@ la,4. sol,16 fa, sol,4 la, |
 re,1 |
 %%%%
 R1*2 |
+\override Staff.NoteCollision.merge-differently-dotted = ##t
 <<
   \arch { r8 sol mib' sol fa la re' fa | mib sol do' mib }
   \chif { sol4. sol8 fa4. fa8 | mib4. mib8 }
+  \tous <<
+    { sol4. sol8 fa4. fa8 | mib4. mib8 }
+    \\ { r8 sol mib' sol fa la re' fa | mib sol do' mib }
+  >>
 >> re8 sib do' re' |
 sol4 sol, la,2 |
 sib, mib8 do re re, |
@@ -117,6 +122,24 @@ sol, <<
     mib4. mib8 re re sol sol, |
     do2 re |
   }
+  \tous {
+    \clef "dessus2" sol'4 sol'8 fa'4. fa'8 |
+    mib'4. mib'8 re'4 sol'8 sol |
+    re' \clef "basse" <<
+      { la4 la8 sol4. sol8 | fa4. fa8 }
+      \\ { la8 fa'8 la sol si mi' sol | fa la re' fa }
+    >> mi8 re la,4 |
+    re,8 \clef "dessus2" sib'4 sib'8 la'4. la'8 |
+    sol'4. sol'8 fad' sol' re'4 |
+    sol'8 \clef "basse" <<
+      { sol4 sol8 fa4. fa8 | mib4. mib8 }
+      \\ { sol8 mib' sol fa fa re' fa | mib mib do' mib }
+    >> re8 re sol sol, |
+    <<
+      { do2 re | }
+      \\ { do8 do'16 sib la sol fa mib re8 re'16 do' sib la sol fa | }
+    >>
+  }
 >>
 mib2~ mib8 re re4~ |
 re8 do do4. sib,8 fa fa, |
@@ -127,6 +150,10 @@ R1 |
 <<
   \arch { r8 sol mib' sol fa la re' fa | mib sol do' mib }
   \chif { sol4. sol8 fa4. fa8 | mib4. mib8 }
+  \tous <<
+    { sol4. sol8 fa4. fa8 | mib4. mib8 }
+    \\ { r8 sol mib' sol fa la re' fa | mib sol do' mib }
+  >>
 >> re8 do re re, |
 sol,2
 %%%%
@@ -158,6 +185,7 @@ sib,1
 <<
   \arch { R1.*2 }
   \chif { R1. | r2 r fa }
+  \tous { R1. | r2 r fa }
 >>
 sib2 sib sib |
 sib1 la2 |

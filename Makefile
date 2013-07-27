@@ -1548,12 +1548,26 @@ Couperin/SonatesEnTrio-clavier2:
 	-o $(OUTPUT_DIR)/SonatesEnTrio-clavier2 -dpart=clavier2  \
 	Couperin/SonatesEnTrio/main
 .PHONY: Couperin/SonatesEnTrio-clavier2
+# 
+Couperin/SonatesEnTrio-4mains-12b:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/SonatesEnTrio-4mains-12b -dpart=4mains-12b  \
+	Couperin/SonatesEnTrio/main
+.PHONY: Couperin/SonatesEnTrio-4mains-12b
+# 
+Couperin/SonatesEnTrio-4mains-21b:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/SonatesEnTrio-4mains-21b -dpart=4mains-21b  \
+	Couperin/SonatesEnTrio/main
+.PHONY: Couperin/SonatesEnTrio-4mains-21b
 
 Couperin/SonatesEnTrio-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Couperin/SonatesEnTrio
 	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio.pdf ]; then mv -fv $(OUTPUT_DIR)/SonatesEnTrio.pdf $(DELIVERY_DIR)/Couperin/SonatesEnTrio; fi
 	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio-clavier1.pdf ]; then mv -fv $(OUTPUT_DIR)/SonatesEnTrio-clavier1.pdf $(DELIVERY_DIR)/Couperin/SonatesEnTrio; fi
 	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio-clavier2.pdf ]; then mv -fv $(OUTPUT_DIR)/SonatesEnTrio-clavier2.pdf $(DELIVERY_DIR)/Couperin/SonatesEnTrio; fi
+	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio-4mains-12b.pdf ]; then mv -fv $(OUTPUT_DIR)/SonatesEnTrio-4mains-12b.pdf $(DELIVERY_DIR)/Couperin/SonatesEnTrio; fi
+	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio-4mains-21b.pdf ]; then mv -fv $(OUTPUT_DIR)/SonatesEnTrio-4mains-21b.pdf $(DELIVERY_DIR)/Couperin/SonatesEnTrio; fi
 	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio-1.midi ]; then tar zcf $(DELIVERY_DIR)/Couperin/SonatesEnTrio/SonatesEnTrio-midi.tar.gz $(OUTPUT_DIR)/SonatesEnTrio.midi $(OUTPUT_DIR)/SonatesEnTrio-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/SonatesEnTrio.midi ]; then cp $(OUTPUT_DIR)/SonatesEnTrio.midi $(DELIVERY_DIR)/Couperin/SonatesEnTrio/ ; fi
 	git archive --prefix=SonatesEnTrio/ HEAD Couperin/SonatesEnTrio common out templates Makefile README | gzip > $(DELIVERY_DIR)/Couperin/SonatesEnTrio/SonatesEnTrio.tar.gz
 
@@ -1563,7 +1577,9 @@ Couperin/SonatesEnTrio-clean:
 Couperin/SonatesEnTrio-all: \
 	Couperin/SonatesEnTrio \
 	Couperin/SonatesEnTrio-clavier1 \
-	Couperin/SonatesEnTrio-clavier2\
+	Couperin/SonatesEnTrio-clavier2 \
+	Couperin/SonatesEnTrio-4mains-12b \
+	Couperin/SonatesEnTrio-4mains-21b\
 	Couperin/SonatesEnTrio-delivery\
 	Couperin/SonatesEnTrio-clean
 
