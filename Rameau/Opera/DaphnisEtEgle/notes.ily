@@ -808,6 +808,202 @@
     Scène VI — L’Amour : \italic { Soutiens de ma puissance }
   }
   \justify {
-    Une première version du texte, raturée, est : \italic { Soutiens de mon empire }
+    Une première version du texte, raturée, est : \italic { Soutiens de mon empire. }
+  }
+  \justify {
+    Dans le manuscrit RES-208, à la fin de l’air de l’Amour se trouve une prémisse
+    de chœur :
+  }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { autoBeaming = ##f } {
+      \clef "treble" \key sol \major \time 2/2
+      \appoggiatura fad''8 sol''4\prall \cesureInstr <>^"Chœur"
+      si'8 do'' re''4 re''8 mi'' |
+      la'4. sol''8 fad''[ mi''] re''[ do''] |
+      si'4\trill si'8 do'' re''2~ |
+      re''4. sol'8 do''4 si' |
+      s1*4
+    } \addlyrics { - ce. }
+    \new Staff \with { autoBeaming = ##f } {
+      \clef "alto" \key sol \major
+      \grace s8 R1 |
+      r4 r8 sol' sol'4 fad'\trill |
+      sol'4 sol'8 la' si'2~ |
+      si'4. sol'8 la'4 sol' |
+      fad'1 |
+      s1*3
+    }
+    \new Staff \with { autoBeaming = ##f } {
+      \clef "tenor" \key sol \major
+      \grace s8 R1 |
+      r4 r8 re' la4 re' |
+      si4 sol'8 sol' sol'2~ |
+      sol'4. mi'8 mi'4 mi' |
+      re'1 |
+      s1*3
+    }
+    \new Staff \with { autoBeaming = ##f } {
+      \clef "bass" \key sol \major
+      \grace s8 r4 sol8 la si4\trill si8 do' |
+      re'4. re8 re4 re |
+      mi mi'8 mi' si4\trill si8 si |
+      do'4. do'8 la4\trill la |
+      re'1~ |
+      re' |
+      re'4 r r2 |
+      R1 |
+    }
+    \new Staff {
+      \clef "french" \key sol \major
+      \grace s8 s1*4 |
+      s2. <fad'' la''>4 |
+      <sol'' si''>8 <fad'' la''> <sol'' si''> <la'' do'''>
+      <sol'' si''>4 <fad'' la''>8\trill <mi'' sol''> |
+      <fad'' la''> <mi'' sol''> <fad'' la''> <sol'' si''>
+      <fad'' la''>4 <sol'' si''>8 <la'' do'''> |
+      <sol'' si''>8 <fad'' la''> <sol'' si''> <la'' do'''>
+      <sol'' si''>4 <fad'' la''>8 <mi'' sol''> |
+    }
+  >>
+  \layout {
+    \smallLayout
+    indent = 0
+    \context { \Score \override NonMusicalPaperColumn line-break-permission = ##f }
+    \context { \Staff \remove "Time_signature_engraver" }
+  }
+}
+
+\markuplist\with-line-width-ratio #0.8 \column-lines {
+  \justify {
+    Sur ce chœur se trouve une collette, comprenant un fragment d’air :
+  }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { autoBeaming = ##f } {
+      \clef "treble" \key re \major \time 6/8 \grace s8
+      la'4. r2*3/4 |
+      R2. |
+      r2*3/4 r8 r16 re'' dod''8 |
+      si'4.~ si'8 re''16[ dod''] si'[ la'] |
+      re''4.~ re''8.[\melisma mi''16 re'' dod''] |
+      si'4.~ si'8[ re''16 dod'' si' la']( |
+      re''4.)\melismaEnd la'8 r re'' |
+      mi''8. fad''16 sol''8 fad''8.\trill mi''16 re''8 |
+      sol''4 r8 fad''4 r8 |
+      mi''4.~ mi''8[ fad''16 sol''] fad''[ mi''] |
+      \appoggiatura re''8 dod''4.\trill~ dod''4 la'8 |
+      si'8. dod''16 re''8 la'8. re''16 dod''8\trill | \break
+      re''4 r8 sol''4. |
+      fad''8 r r r2*3/4 |
+      R2. |
+      r2*3/4 r4 fad''8 |
+      mi''8. fad''16 sol''8 fad''8. mi''16 re''8 |
+    } \addlyrics {
+      - ger.
+      U -- ne fla -- me vo -- la -- ge
+      Ne peut me ra -- vir mon ber -- ger,
+      Non, non, __ non, non,
+      Ne peut me ra -- vir mon ber -- ger,
+      Non, non,
+      Ne peut me ra -- vir mon ber -
+    }
+    \new Staff {
+      \clef "french" \key re \major
+      \appoggiatura sol''8 la''4.\prall \cesureInstr <>\ademi si'4( dod''16 re'') |
+      la'8 r r la'4( sol'16\trill fad') |
+      fad'4.\trill r8 r16 re'' dod''8 |
+      si'4.~ si'8 re''16( dod'') si'( la') |
+      re''4.~ re''8.( mi''16) re''( dod'') |
+      si'4.~ si'8 re''16( dod'') si'( la') |
+      re''4. la'8 \cesureInstr r re''\doux |
+      mi''8. fad''16 sol''8 fad''8.\trill mi''16 re''8 |
+      sol''4 r8 fad''4 r8 |
+      mi''4.~ mi''8( fad''16 sol'') fad''( mi'') |
+      \appoggiatura re''8 dod''4.\trill r4 la'8 |
+      si'8. dod''16 re''8 la'8. re''16 dod''8\trill |
+      re''4. sol'' |
+      fad''8 r r si''4. |
+      la''8 r r r2*3/4 |
+      r r4 fad''8 |
+      mi''8. fad''16 sol''8 fad''8.\trill mi''16 re''8 |
+    }
+    \new Staff {
+      \clef "french" \key re \major \grace s8
+      <<
+        { la'4. \cesureInstr si'4( dod''16 re'') |
+          la'8 dod'' re'' la'4( sol'16\trill fad') |
+          fad'8 dod'' re'' }
+        \\ { dod'4.\trill re'\ademi |
+          re' dod'\trill |
+          \appoggiatura dod'8 re'4.\prall }
+      >> <la' fad''>4. |
+      <si' sol''>2. |
+      <la' fad''> |
+      <si' sol''> |
+      <la' fad''>4. \cesureInstr r4 q8\doux |
+      <<
+        { \appoggiatura fad''8 \voiceOne sol''8.\trill fad''16 mi''8 re''4 la'8 |
+          \appoggiatura la'8 si' r r re''4 r8 |
+          re''4.~ re''8~ re''8. sol''16 |
+          \appoggiatura fad''8 mi''4. r4 }
+        \\ { la'4.~ la'8.( si'16 sol' la') |
+          re'8 r r la'4 r8 |
+        si'4. \appoggiatura la'8 sol'4. ~ |
+        sol'4. r4 }
+      >> <fad'' la''>8 |
+      <fad'' la''>8. <mi'' sol''>16 <re'' fad''>8 <<
+        { mi''8.\trill re''16 mi''8 |
+          fad'4.^\markup\concat { 2 \super es } \cesureInstr
+          sol''^\markup\concat { p \super rs } |
+          fad''8 r r \cesureInstr si''4. |
+          la''8 r r \cesureInstr }
+        \\ { re''4 la'8 |
+          re'4._\markup\concat { p \super rs }
+          mi''_\markup\concat { 2 \super es } |
+          la'8 r r re''4.\ademi ~ |
+          re''8 r r }
+      >> re'''4.\fort ^"Tous" |
+      la' \cesureInstr <<
+        { r4^\markup\concat { p \super rs }
+          re''8 | re''4.~ re''4 dod''8\trill }
+        \\ { r4_\markup\concat { 2 \super es }
+          la'8\doux | si'4. la'4 sol'8 }
+      >>
+    }
+    \new Staff {
+      \clef "bass" \key re \major \grace s8 |
+      la,4. \cesureInstr sol |
+      fad mi\trill |
+      re r2*3/4 |
+      re,2.~ |
+      re,~ |
+      re,~ |
+      re,4. r4 re'8 |
+      dod'\trill( re'8.) la16 \appoggiatura { la32[ si] } do'4( si16) do' |
+      \appoggiatura do'8 si4\trill r8 la4 r8 |
+      sol4. si |
+      la r4 fad8 |
+      sol4. la |
+      si dod' |
+      re'8 r r sol4. |
+      fad8 r r re4. |
+      la, r4 fad,8 |
+      sol,4. la, |
+    }
+    \new FiguredBass \figuremode {
+      s4. <6 5> <6> <6\\> s2.
+      \new FiguredBass { <6 4> <3> <6 4> <3> }
+      <5/>4 s16 <9> <8>4. <6> <6 4> <6 5>\figExtOn <6>\figExtOff <7> s4 <6>8
+      <9>4 <6 5>8 <4>4 <7>8
+      s4. <5/> s2.*2 s4. s4 <6>8 <6 5>4. <6 4>4 <7>8
+    }
+  >>
+  \layout {
+    \smallLayout
+    indent = 0
+    \context { \Staff \remove "Time_signature_engraver" }
   }
 }
