@@ -1007,3 +1007,18 @@
     \context { \Staff \remove "Time_signature_engraver" }
   }
 }
+
+\markuplist\with-line-width-ratio #0.8 \column-lines {
+  \livretRef #'FCentree
+  \livretDescAttPage\wordwrap {
+    Scène VI — Entrée des jeux et des Plaisirs
+  }
+  \justify {
+    Dans le manuscrit RES-208, les vers de Daphnis
+    \italic { Le Dieu de l'amitié ne nous est point propice }
+    suivent l’entrée des jeux et des plaisirs. Une note indique :
+    \italic { “la gigue nouvelle dabord après cet air à denser”. }
+    Cette gigue figure dans les parties séparées VM²-395, mais pas
+    dans le manuscrit RES-208.
+  }
+}

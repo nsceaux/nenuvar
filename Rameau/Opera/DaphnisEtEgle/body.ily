@@ -101,7 +101,9 @@
  L’Amour, Eglé, Daphnis : \italic { Sortez de votre erreur extrême }
 }
 \includeScore "FAamourEgleDaphnis"
-
 %{ n°19 %}
 \pieceToc\markup\wordwrap { L’Amour : \italic { Soutiens de ma puissance } }
 \includeScore "FBamour"
+%{ n°20 %}
+\pieceTocTitle\markup { Entrée des jeux et des Plaisirs }
+\includeScore "FCentree"
