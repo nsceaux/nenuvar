@@ -236,9 +236,9 @@
 }
 \livretRef #'FBamour
 \livretPers L'AMOUR
-\livretVerse#5 { Soutiens ma puissance, }
-\livretVerse#7 { Accourez plaisirs et jeux, }
-\livretVerse#7 { Accourez et que ces lieux }
+\livretVerse#6 { Soutiens de ma puissance, }
+\livretVerse#7 { Accourez, plaisirs et jeux, }
+\livretVerse#7 { Accourez, et que ces lieux }
 \livretVerse#8 { S’embellissent par ma présence. }
 \livretRef #'FCentree
 \livretDescPage\justify {

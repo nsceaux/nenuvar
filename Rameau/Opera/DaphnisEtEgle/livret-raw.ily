@@ -234,9 +234,9 @@
 }
 \livretRef #'FBamour
 \livretPers L'AMOUR
-%# Soutiens ma puissance,
-%# Accourez plaisirs et jeux,
-%# Accourez et que ces lieux
+%# Soutiens de ma puissance,
+%# Accourez, plaisirs et jeux,
+%# Accourez, et que ces lieux
 %# S'embellissent par ma présence.
 \livretRef #'FCentree
 \livretDescPage\justify {

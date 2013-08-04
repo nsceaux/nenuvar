@@ -96,5 +96,12 @@
 
 %{ n°18 %} \newBookPart #'(full-rehearsal)
 \scene "Scène VI" "Scène 6 : L’Amour et les précédents"
-\sceneDescription\markup { \smallCaps L’Amour et les précédents }
+\sceneDescription\markup { \smallCaps L'Amour et les précédents }
+\pieceToc\markup\wordwrap {
+ L’Amour, Eglé, Daphnis : \italic { Sortez de votre erreur extrême }
+}
 \includeScore "FAamourEgleDaphnis"
+
+%{ n°19 %}
+\pieceToc\markup\wordwrap { L’Amour : \italic { Soutiens de ma puissance } }
+\includeScore "FBamour"

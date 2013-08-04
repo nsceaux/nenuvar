@@ -802,4 +802,12 @@
     Le manuscrit RES-208 contient d’abondantes corrections sous forme de
     ratures ne permettant pas de voir la version originale.
   }
+
+  \livretRef #'FBamour
+  \livretDescAttPage\wordwrap {
+    Scène VI — L’Amour : \italic { Soutiens de ma puissance }
+  }
+  \justify {
+    Une première version du texte, raturée, est : \italic { Soutiens de mon empire }
+  }
 }
