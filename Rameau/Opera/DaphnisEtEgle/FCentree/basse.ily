@@ -17,18 +17,14 @@ fad << si2 { s4 <>^"//" } >> la4\trill |
 sol2 la |
 si~ si4. sol8 |
 la2 r |
-<<
-  \new Voice { \voiceOne R1*5 | r4 }
-  \new CueVoice {
-    \voiceTwo <>_"[parties de basse continue VM²-395]"
-    r2 r4 la |
-    re'2 re |
-    la2 la, |
-    re re, |
-    la,4 la2 sol4 |
-    fad
-  }
->>
+%%
+r2 r4 la |
+re'2 re |
+la2 la, |
+re re, |
+la,4 la2 sol4 |
+fad
+%%
 re8 re mi mi fad fad |
 sol2 fad |
 mi~ mi4. la8 |
@@ -36,29 +32,22 @@ re2 fad,4 sol, |
 la,2 re |
 la,1 |
 re,4 r r2 |
-<<
-  \new Voice { \voiceTwo R1 | r4}
-  \new CueVoice {
-    <>^\markup\whiteout "[parties de basse continue VM²-395]"
-    r4 re'8 re' re' re' do' do' |
-    si4
-  }
->> sol8 sol la la si si |
+%%
+r4 re'8 re' re' re' do' do' | si4
+%%
+sol8 sol la la si si |
 do'2. si4 |
 la1 |
 do' |
 si2 r |
-<<
-  \new Voice { \voiceOne R1*5 | }
-  \new CueVoice {
-    \voiceTwo <>_"[parties de basse continue VM²-395]"
-    r2 r4 si |
-    mi'2 mi |
-    si si, |
-    mi mi, |
-    si, r |
-  }
->> r4 mi8 mi fad fad sol sol |
+%%
+r2 r4 si |
+mi'2 mi |
+si si, |
+mi mi, |
+si, r |
+%%
+r4 mi8 mi fad fad sol sol |
 la2 sol4. la8 |
 si2 si, |
 mi r |

@@ -1014,10 +1014,26 @@
     Scène VI — Entrée des jeux et des Plaisirs
   }
   \justify {
+    On a reporté dans cette édition les passages des parties séparées
+    VM²-395 de second violon et de basse qui ne figurent pas sur le
+    manuscrit RES-208. Sur ce manuscrit :
+  }
+  \justify {
+    \hspace #2 — mesures 9 à 13, 21, et 27 à 31, les basses ne jouent pas ;
+  }
+  \justify {
+    \hspace #2 — mesures 20 à 26, les seconds violons ne jouent pas ;
+  }
+  \justify {
+    \hspace #2 — mesures 31 à 39 et 43 à 57, les secondes violons sont
+    à l'unison des premiers.
+  }
+  \null
+  \justify {
     Dans le manuscrit RES-208, les vers de Daphnis
     \italic { Le Dieu de l'amitié ne nous est point propice }
     suivent l’entrée des jeux et des plaisirs. Une note indique :
-    \italic { “la gigue nouvelle dabord après cet air à denser”. }
+    \italic { “la gigue nouvelle dabord après cet air à danser”. }
     Cette gigue figure dans les parties séparées VM²-395, mais pas
     dans le manuscrit RES-208.
   }

@@ -80,9 +80,8 @@ si'4\trill <<
     sol''2.( fad''8)\trill sol'' |
     red''2\trill
   }
-  \tag #'violons \new CueVoice {
-    \voiceTwo <>_"[parties de second violon VM²-395]"
-    r4 r2 |
+  \tag #'violons \new Voice {
+    \voiceTwo r4 r2 |
     r4 si'8 si' si' si' la' sol' |
     re'4 si'8 si' do'' do'' re'' re'' |
     sol'4 mi''8 mi'' fad'' fad'' sol'' sol'' |
@@ -199,9 +198,8 @@ si'4\trill <<
     sol'4
     sol'1*3/4 |
   }
-  \tag #'violons \new CueVoice {
-    \voiceTwo <>_\markup\whiteout "[parties de second violon VM²-395]"
-    si'2 la'4\trill |
+  \tag #'violons \new Voice {
+    \voiceTwo si'2 la'4\trill |
     sol' <>\doux si' do'' si' |
     do''2 si'4. do''8 |
     si'2 la' |

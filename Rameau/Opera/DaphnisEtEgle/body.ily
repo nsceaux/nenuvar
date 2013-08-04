@@ -101,9 +101,12 @@
  L’Amour, Eglé, Daphnis : \italic { Sortez de votre erreur extrême }
 }
 \includeScore "FAamourEgleDaphnis"
-%{ n°19 %}
+%{ n°19 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’Amour : \italic { Soutiens de ma puissance } }
 \includeScore "FBamour"
-%{ n°20 %}
-\pieceTocTitle\markup { Entrée des jeux et des Plaisirs }
+%{ n°20 %} \newBookPart #'(full-rehearsal)
+\pieceTocTitle "Entrée des jeux et des Plaisirs"
 \includeScore "FCentree"
+
+\pageBreak
+\markup\null
