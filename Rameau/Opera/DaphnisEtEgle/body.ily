@@ -107,6 +107,6 @@
 %{ n°20 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entrée des jeux et des Plaisirs"
 \includeScore "FCentree"
-
-\pageBreak
-\markup\null
+%{ n°21 %} \newBookPart #'(full-rehearsal)
+\pieceTocTitle "Gigue"
+\includeScore "FDgigue"

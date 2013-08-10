@@ -102,6 +102,16 @@ alternatives =
           $second
           \set Score.repeatCommands = #'((volta #f)) #}))
 
+origAlternatives =
+#(define-music-function (parser location first second) (ly:music? ly:music?)
+   (let ((repeat-bar (if (string? (ly:get-option 'baroque-repeat-bar))
+                         (ly:get-option 'baroque-repeat-bar)
+                         "|;|")))
+     #{ \forceCloseVoltaBracket
+        \set Score.repeatCommands = #'((volta " "))
+        $first \bar $repeat-bar \noBreak
+        << $second >> <<{ s4*0 \set Score.repeatCommands = #'((volta #f)) } >> #}))
+
 modAlternatives =
 #(define-music-function (parser location first second) (ly:music? ly:music?)
    #{ \set Score.repeatCommands = #'((volta "1."))

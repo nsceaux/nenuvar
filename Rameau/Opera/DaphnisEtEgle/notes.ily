@@ -1037,4 +1037,28 @@
     Cette gigue figure dans les parties séparées VM²-395, mais pas
     dans le manuscrit RES-208.
   }
+  \livretRef #'FDgigue
+  \livretDescAttPage\wordwrap {
+    Scène VI — Gigue
+  }
+  \justify {
+    Les parties séparées VM²-395 de second violons, seconds hautbois
+    et basse continue contiennent une reprise raturée mesure 27 :
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff {
+        \tinyQuote \key sol \major \time 6/8 \clef "french"
+        la'4 re''8 re''4 dod''8\trill |
+        \origAlternatives { \appoggiatura dod''8 \ratureNote re''2. } {
+          re''8( do'' si') la'( si' sol') |
+        }
+      }
+    >>
+    \layout {
+      \smallLayout
+      indent = 0
+      \context { \Staff \remove "Time_signature_engraver" }
+    }
+  }
 }
