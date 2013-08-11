@@ -247,12 +247,12 @@
 }
 \livretRef #'FEdaphnisEgle
 \livretPers DAPHNIS
-%# Le dieu de l'amitié ne nous est point propice,
-%# Ce dieu nous en console aisément dans ce jour.
+%# Le Dieu de l'amitié ne nous est point propice.
+%# Ce Dieu nous en console aisément dans ce jour.
 %# Que notre serment s'accomplisse
 %# Dans le temple de l'amour.
 \livretPers\line { DAPHNIS et EGLÉ }
-%# Jurons de n'aimer sans cesse,
+%# Jurons de nous aimer sans cesse,
 %# Que notre tendresse
 %# Augmente chaque jour,
 %# Jurons de nous aimer sans cesse.

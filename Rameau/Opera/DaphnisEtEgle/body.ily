@@ -110,3 +110,8 @@
 %{ n°21 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Gigue"
 \includeScore "FDgigue"
+%{ n°22 %}
+\pieceToc\markup\wordwrap {
+  Daphnis, Eglé : \italic { Le Dieu de l’amitié ne nous est point propice }
+}
+\includeScore "FEdaphnisEgle"

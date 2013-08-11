@@ -249,12 +249,12 @@
 }
 \livretRef #'FEdaphnisEgle
 \livretPers DAPHNIS
-\livretVerse#12 { Le dieu de l’amitié ne nous est point propice, }
-\livretVerse#12 { Ce dieu nous en console aisément dans ce jour. }
+\livretVerse#12 { Le Dieu de l’amitié ne nous est point propice. }
+\livretVerse#12 { Ce Dieu nous en console aisément dans ce jour. }
 \livretVerse#8 { Que notre serment s’accomplisse }
 \livretVerse#7 { Dans le temple de l’amour. }
 \livretPers\line { DAPHNIS et EGLÉ }
-\livretVerse#7 { Jurons de n’aimer sans cesse, }
+\livretVerse#8 { Jurons de nous aimer sans cesse, }
 \livretVerse#5 { Que notre tendresse }
 \livretVerse#6 { Augmente chaque jour, }
 \livretVerse#8 { Jurons de nous aimer sans cesse. }
