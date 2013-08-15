@@ -1019,13 +1019,13 @@
     manuscrit RES-208. Sur ce manuscrit :
   }
   \justify {
-    \hspace #2 — mesures 9 à 13, 21, et 27 à 31, les basses ne jouent pas ;
+    \hspace #2 - mesures 9 à 13, 21, et 27 à 31, les basses ne jouent pas ;
   }
   \justify {
-    \hspace #2 — mesures 20 à 26, les seconds violons ne jouent pas ;
+    \hspace #2 - mesures 20 à 26, les seconds violons ne jouent pas ;
   }
   \justify {
-    \hspace #2 — mesures 31 à 39 et 43 à 57, les secondes violons sont
+    \hspace #2 - mesures 31 à 39 et 43 à 57, les secondes violons sont
     à l'unison des premiers.
   }
   \null
@@ -1062,7 +1062,7 @@
     }
   }
 
-  \livretRef #'FEdaphnisEgle
+  \livretRef #'FFentree
   \livretDescAttPage\wordwrap {
     Scène VI — Entrée de Bergers
   }
@@ -1138,10 +1138,113 @@
 }
 \markuplist\with-line-width-ratio #0.8 \column-lines {
   \justify {
-    Suivent une indication : \italic {
-      Tourner pour la \concat { 2 \super e } et la \concat { 3 \super e }
-      Reprises,
-    } puis les vers suivants de l’Amour, raturés :
+    Suit une indication : \italic { Tourner pour la \concat { 2 \super e }
+      et la \concat { 3 \super e } Reprises. }
+  }
+  \null
+  \justify {
+    Dans la troisième reprise, sur les parties de hautbois et premier
+    violon du matériel VM²-395, les mesures 34 à 42 sont modifiées par
+    rapport au manuscrit RES-208 :  la partie de premier violon passe
+    aux hautbois et musettes, tandis que le premier violon joue un
+    nouveau passage, mesures 38 à 42, qui ne semble pas aller de paire
+    avec la partie de second violon, laquelle ne comporte pas de
+    correction par rapport à RES-208.
+    La version originale, et l’ajout de la nouvelle version de premier
+    violon, sont présentées ici :
+  }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff {
+      \tinyQuote \key mi \major \time 2/2 \clef "french" \partial 2
+      <>^\markup { h[aut]bois et muzettes }
+      ^\markup { [Manuscrit RES-208] }
+      _\markup\larger { \concat { 3 \super e } Reprise }
+      mi''2~ | \set Score.currentBarNumber = #31
+      mi''1~ |
+      mi''~ |
+      mi''2.( red''4)\trill |
+      \appoggiatura red''8 mi''2\prall \cesureInstr
+      <>^\markup { \concat { p \super rs } viol. }
+      si'4(\ademi mi'') | mi''2.( red''8\trill dod'') |
+      fad''2 mi''8 red'' dod'' si' | lad'2\trill si' |\break
+      fad'1~ | fad'~ | fad'~ | fad'2 mid'\trill | fad'4 r
+      \cesureInstr <>^\markup { h-bois et muzettes } fad''4 si'' |
+      si''2 lad''8 sold'' fad'' mi'' |
+      red'' mi'' fad''4 red''\trill dod''8 si' |
+      dod''2 dod''\trill | si' \bar "||"
+    }
+    \new Staff {
+      \tinyQuote \key mi \major \clef "soprano"
+      si'4\ademi re'' |
+      re''2( dod''8) r mi''8( la') |
+      la'2( si'8)\prall r mi''( sold') |
+      sold'2( la'8)\prall r si'( fad') |
+      fad'2*1/2( sold'8)\prall r sold'4( dod'') |
+      dod''2.( si'8\trill lad') |
+      \appoggiatura lad'8 si'2\prall sold' |
+      dod' fad' |
+      lad\trill
+      <<
+        \new Staff {
+          \tinyQuote \key mi \major \clef "soprano"
+          <>^"[partie de premier violon VM²-395]"
+          fad''4(_\ademi red''8) r |
+          mi''4( dod''8) r red''4( si'8) r |
+          dod''4( lad'8) r fad''8( mi'') red''( fad'') |
+          mi''( red'') dod''( mi'') red''( dod'') si'( red'') |
+          dod''4 r
+        }
+        { <>^\markup { \concat { 2 \super es } viol. partagez en deux }
+          _\fort
+          <<
+            { dod''4( mi'') |
+              mi''2( red''8) r fad''( si') |
+              si'2( dod''8)\prall r mi''( lad') |
+              lad'?2( si'8)\prall r }
+            { lad'4( dod'') |
+              dod''2( si'8) s red''( sold') |
+              sold'2( lad'8)\prall s dod''( fad') |
+              fad'2( sold'8)\prall s }
+          >>
+          << { dod''8( sold') | sold'2*1/2( lad'8)\prall r }
+            \\ { sold'4 | dod'2 } >>
+        }
+      >>
+      \cesureInstr <>^\markup { Tous les \concat { 2 \super es }  }
+      lad'4\ademi fad' |
+      red''2 dod''8 si' si' lad' |
+      si'4 si fad'4.(\trill mi'16 fad') |
+      sold'2 fad' |
+      red'\trill
+    }
+  >>
+  \layout {
+    \quoteLayout
+    ragged-right = ##f
+    \context {
+      \Score
+      \override NonMusicalPaperColumn #'line-break-permission = ##f
+      \override NonMusicalPaperColumn #'page-break-permission = ##f
+    }
+  }
+}
+\markuplist\with-line-width-ratio #0.8 \column-lines {
+  \justify {
+    D’autres copies des parties de second violons possèdent-elles, à
+    l’instar de la partie de premier violon, des modifications par
+    rapport à la version originale du manuscrit, par exemple, à la
+    tierce de la nouvelle voix de premier violon ?
+    Plutôt que de présenter dans cette édition des voix de premier
+    et second violons qui semblent mal apairées, on a choisi d’utiliser
+    les deux voix originales de second violon du manuscrit RES-208.
+  }
+  \null
+  \justify {
+    Après la première version de l’entrée des bergers recouverte d’une
+    collette, se trouve le chant de l’Amour, raturé (il est repris plus
+    loin quasiment à l’identique) :
   }
 }
 \score {

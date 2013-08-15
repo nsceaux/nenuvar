@@ -110,11 +110,17 @@
 %{ n°21 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Gigue"
 \includeScore "FDgigue"
-%{ n°22 %}
+%{ n°22 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   Daphnis, Eglé : \italic { Le Dieu de l’amitié ne nous est point propice }
 }
 \includeScore "FEdaphnisEgle"
-%{ n°23 %}
+%{ n°23 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entrée de Bergers"
 \includeScore "FFentree"
+%{ n°24 %}
+\pieceToc\markup\wordwrap { L’Amour : \italic { Sous le voile favorable } }
+\includeScore "FGamour"
+%{ n°25 %}
+\pieceTocTitle "Musette"
+\includeScore "FHmusette"

@@ -1,12 +1,8 @@
 \score {
   <<
     \origVersion\new ChoirStaff <<
-      \new Staff << \global \keepWithTag #'hautbois1 \includeNotes "dessus" >>
-      \new Staff \with { \haraKiri } <<
-        \global \keepWithTag #'hautbois2 \includeNotes "dessus"
-      >>
-      \new Staff << \global \keepWithTag #'violon1 \includeNotes "dessus" >>
-      \new Staff << \global \keepWithTag #'violon2 \includeNotes "dessus" >>
+      \new Staff << \global \keepWithTag #'hautbois \includeNotes "dessus" >>
+      \new Staff << \global \keepWithTag #'violon \includeNotes "dessus" >>
       \new Staff << \global \includeNotes "parties" >>
       \new Staff << \global \includeNotes "basson" >>
       \new Staff <<
@@ -27,6 +23,9 @@
       \new Staff \with { \bassonInstr } << \global \includeNotes "basson" >>
       \new Staff \with { \violonInstr } <<
         \global \keepWithTag #'violon \includeNotes "dessus"
+        { s2 s1*37 s2 \footnoteHere #'(0 . 0) \markup\justify {
+            Au sujet des parties de violons mesures 38 à 42, voir les notes
+            au début de l’ouvrage. } }
       >>
       \new Staff \with { \partiesInstr \haraKiri } <<
         \global \includeNotes "parties"

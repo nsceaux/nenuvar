@@ -216,7 +216,7 @@
 
 \livretScene\line { SCÈNE VI dernière }
 \livretDescAtt\wordwrap-center { L'Amour et les précédents }
-\livretRef #'FAamourDaphnisEgle
+\livretRef #'FAamourEgleDaphnis
 \livretPers\line { L'AMOUR \fontsize #-1 { sur des nuages } }
 %# Sortez de votre erreur extrême,
 %# Tendres bergers, detrompez-vous :
@@ -263,10 +263,10 @@
 \livretRef #'FGamour
 \livretPers L'AMOUR
 %# Sous le voile favorable
-%# D'une amitié véritable
-%# L'amour cache ses sentiments.
+%# D'une amitié véritable,
+%# L'amour cache ses sentimens.
 %# Auprès de vous, sexe aimable,
-%# Tous les amis sont des amants.
+%# Tous les amis sont des amans.
 \livretRef #'FHmusette
 \livretDescPage\justify {
   Les suivants de l'Amour conduisent en dansant les bergers dans les

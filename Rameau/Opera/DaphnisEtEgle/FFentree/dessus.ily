@@ -31,8 +31,7 @@
       mi''4( si') si' mi'' |
       \appoggiatura mi''8 fad''2\prall sold'' |
       fad''2\trill } \\
-    { \origVersion<>^\markup { H[aut]b[ois] a demi et Muzettes }
-      mi'4\ademi( la') |
+    { mi'4\ademi( la') |
       la'2~ la'4.( si'16 dod'') |
       dod''4( sold') sold'( la') |
       la'2~ la'4.( si'16 dod'') |
@@ -107,77 +106,7 @@
     mi''1~ |
     mi''~ |
     mi''2.( red''4)\trill |
-    \appoggiatura red''8 mi''2\prall 
-    \footnoteHere #'(0 . 0) \markup\column {
-      \justify {
-        Entre les mesures 34 et 42, des collettes modifient les parties
-        séparées VM²-395 de hautbois et premier violon.  La partie de
-        second violon, qui ne comporte pas de collette, et reste ainsi
-        identique au manuscrit RES-208, n'est plus cohérente de celle
-        de premier violon (mesures 38 à 42).
-        On a retranscrit ici les parties séparées de hautbois et premier
-        violon du matériel VM²-395, telles que modifiées par les collettes,
-        et proposé, en notes plus petites, une version de second violon
-        cohérente de celle de premier violons pour les mesures 38 à 42.
-        La version originale du manuscrit RES-208, pour les parties de dessus,
-        est la suivantes :
-      }
-      \score {
-        \new ChoirStaff <<
-          \new Staff {
-            \tinyQuote \key mi \major \time 2/2 \clef "french" \partial 2
-            <>^\markup { h[aut]bois et muzettes }
-            _\markup\larger { \concat { 3 \super e } Reprise }
-            mi''2~ |
-            mi''1~ |
-            mi''~ |
-            mi''2.( red''4)\trill |
-            \appoggiatura red''8 mi''2\prall \cesureInstr
-            <>^\markup { \concat { p \super rs } viol. }
-            si'4(\ademi mi'') | mi''2.( red''8\trill dod'') |
-            fad''2 mi''8 red'' dod'' si' | lad'2\trill si' |
-            fad'1~ | fad'~ | fad'~ | fad'2 mid'\trill | fad'4 r
-            \cesureInstr <>^\markup { h-bois et muzettes } fad''4 si'' |
-            si''2 lad''8 sold'' fad'' mi'' |
-            red'' mi'' fad''4 red''\trill dod''8 si' |
-            dod''2 dod''\trill | si' \bar "||"
-          }
-          \new Staff {
-            \tinyQuote \key mi \major \clef "soprano"
-            si'4\ademi re'' |
-            re''2( dod''8) r mi''8( la') |
-            la'2( si'8)\prall r mi''( sold') |
-            sold'2( la'8)\prall r si'( fad') |
-            fad'2*1/2( sold'8)\prall r sold'4( dod'') |
-            dod''2.( si'8\trill lad') |
-            \appoggiatura lad'8 si'2\prall sold' |
-            dod' fad' |
-            lad\trill
-            <>^\markup { \concat { 2 \super es } viol. partagez en deux } _\fort
-            <<
-              { dod''4( mi'') |
-                mi''2( red''8) r fad''( si') |
-                si'2( dod''8)\prall r mi''( lad') |
-                lad'?2( si'8)\prall r }
-              { lad'4( dod'') |
-                dod''2( si'8) s red''( sold') |
-                sold'2( lad'8)\prall s dod''( fad') |
-                fad'2( sold'8)\prall s }
-            >>
-            << { dod''8( sold') | sold'2*1/2( lad'8)\prall r }
-              \\ { sold'4 | dod'2 } >>
-            \cesureInstr <>^\markup { Tous les \concat { 2 \super es }  }
-            lad'4\ademi fad' |
-            red''2 dod''8 si' si' lad' |
-            si'4 si fad'4.(\trill mi'16 fad') |
-            sold'2 fad' |
-            red'\trill
-          }
-        >>
-        \layout { \quoteLayout ragged-right = ##f }
-      }
-    }
-    si'4 mi'' |
+    \appoggiatura red''8 mi''2\prall si'4 mi'' |
     mi''2.( red''8\trill dod'') |
     fad''2 mi''8 red'' dod'' si' |
     lad'2 si' |
@@ -198,11 +127,15 @@
       mi''2.( red''8\trill dod'') |
       fad''2 mi''8 red'' dod'' si' |
       lad'2\trill si' |
-      fad'2 \clef "dessus2" fad''4(_\ademi red''8) r |
+      fad'2 \clef "dessus2" %{fad''4(_\ademi red''8) r |
       mi''4( dod''8) r red''4( si'8) r |
       dod''4( lad'8) r fad''8( mi'') red''( fad'') |
       mi''( red'') dod''( mi'') red''( dod'') si'( red'') |
-      dod''4 r r2 |
+      dod''4 r %}
+      dod''4( mi'') |
+      mi''2( red''8) r fad''( si') |
+      si'2( dod''8)\prall r mi''( lad'!) |
+      lad'?2( si'8)\prall r r4 |
       R1*3 |
       r2 } \\
     { \clef "dessus2" si'4\ademi( re'') |
@@ -213,15 +146,11 @@
       dod''2.( si'8\trill lad') |
       \appoggiatura lad'8 si'2\prall sold' |
       dod' fad' |
-      lad\trill
-      \new CueVoice {
-        \voiceTwo red''4( si'8) r |
-        dod''4( lad'8) r si'4( sold'8) r |
-        lad'4( fad'8) r red''8( dod'') si'( red'') |
-        dod''( si') lad'( dod'') si'( lad') sold'( si') |
-        lad'4 r
-        }
-      lad'4 fad' |
+      lad\trill %{%} lad'4(_\fort dod'') |
+      dod''2( si'8) r red''8( sold') |
+      sold'2( lad'8) r dod''( fad') |
+      fad'2( sold'8) r sold'4 |
+      dod'2 %{%} lad'4 fad' |
       red''2 dod''8 si' si' lad' |
       si'4 si fad'4.(\trill mi'16 fad') |
       sold'2 fad' |
