@@ -115,3 +115,6 @@
   Daphnis, Eglé : \italic { Le Dieu de l’amitié ne nous est point propice }
 }
 \includeScore "FEdaphnisEgle"
+%{ n°23 %}
+\pieceTocTitle "Entrée de Bergers"
+\includeScore "FFentree"
