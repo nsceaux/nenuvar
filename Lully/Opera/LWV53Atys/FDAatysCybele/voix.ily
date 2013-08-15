@@ -68,7 +68,7 @@
       \characteri Cybele
       \italic { [ordonnant d'emporter le corps de Sangaride morte] }
     }
-    do'8 la'8.\trill la'16 la'8. la'16 | \modVersion\noBreak
+    do''8 la'8.\trill la'16 la'8. la'16 | \modVersion\noBreak
     fad'4 r4
     \tag #'cybele { r2 | R2. | R1 | R2.*3 }
   }
