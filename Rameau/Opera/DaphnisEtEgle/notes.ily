@@ -1061,4 +1061,145 @@
       \context { \Staff \remove "Time_signature_engraver" }
     }
   }
+
+  \livretRef #'FEdaphnisEgle
+  \livretDescAttPage\wordwrap {
+    Scène VI — Entrée de Bergers
+  }
+  \justify {
+    Le manuscrit RES-208 contient, sous une collette, une première version
+    du rondeau et de la première reprise de l’entrée des bergers.
+  }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff {
+      \beginMark\markup\smaller "Entrée de Bergers"
+      \tinyQuote \key mi \major \digitTime\time 2/2 \clef "french" \partial 2
+      <>^\markup { \concat { p \super rs } viol. et h.b. avec muzettes }
+      si''4( la'') |
+      la''\trill( sold'') sold''(\trill fad'') |
+      fad''4.(\trill mi''16 fad'') sold''4 si' |
+      dod''4.( red''8) red''4.(\trill dod''16 red'') |
+      mi''[ si' dod'' red'' mi'' fad'' sold'' la''] si''4 la'' |
+      la''\trill sold'' sold''\trill fad'' |
+      fad''4.(\trill mi''16 fad'') sold''4 si' |
+      dod''4.( red''8) red''4.(\trill dod''16 red'') |
+      mi''2_\markup\large\italic fin \bar "||" \break
+      \beginMark\markup\small { \concat { p \super re } Rep. }
+      sold'4( dod'') | dod''2~ dod''4.( red''16 mi'') |
+      mi''4( si') si'( dod'') | dod''2~ dod''4.( red''16 mi'') |
+      mi''4( si') si' mi'' | \appoggiatura mi''8 fad''2\prall sold'' |
+      fad''\trill _\markup\italic dacapo \bar "||"
+    }
+    \new Staff {
+      \tinyQuote \key mi \major \digitTime\time 2/2 \clef "french"
+      <>^\markup { \concat { 2 \super es } viol. et h.b. avec muzettes }
+      sold''4( fad'') |
+      fad''\trill( mi'') mi''\trill( red'') |
+      red''4.(\trill dod''16 red'') mi''4 <si' sold'> |
+      \mergeDifferentlyHeadedOn
+      << { si' la' la'2 } { sold'2( fad')\trill } >> |
+      <sold' mi'>8. si'16 dod''( red'' mi'' fad'') sold''4( fad'') |
+      fad''\trill( mi'') mi''\trill( red'') |
+      red''4.(\trill dod''16 red'') mi''4 sold' |
+      sold'2 fad'\trill | mi' %%
+      mi'4( la') | la'2~ la'4.( si'16 dod'') |
+      dod''4( sold') sold'( la') | la'2~ la'4.( si'16 dod'') |
+      dod''4( sold') sold' si' | si'2 mi'' |
+      red''\trill _\markup\italic dacapo
+    }
+    \new Staff {
+      \tinyQuote \key mi \major \digitTime\time 2/2 \clef "mezzosoprano"
+      <>^\markup { Parties a demi }
+      si'2 | si' si' | si' sold'4 mi' | mi'2 si |
+      sold4.\trill fad'8 mi'4( si') | si'2 si' | si' mi' | mi' si | si
+    }
+    \new Staff {
+      \tinyQuote \key mi \major \digitTime\time 2/2 \clef "tenor"
+      <>^\markup { Bassons a demi }
+      <si mi'>2 | <si red'>\trill <si mi'> |
+      si2. <si sold'>4 | \mergeDifferentlyHeadedOn
+      << { sold'4( fad') fad'2\trill } { si2 la } >> |
+      <sold mi'>_\trill mi'4( si) |
+      si2 si | si2. si4 | si2 la | sold\trill
+    }
+    \new Staff {
+      \tinyQuote \key mi \major \digitTime\time 2/2 \clef "bass"
+      <>\ademi mi'2 | red'\trill mi' | la sold | la si |
+      sold8.\trill la16 si la sold fad mi2 | red mi | la, sold, | la, si, | mi,
+      mi2 | mi1 | mi | mi | mi2. mi4 | red2\trill mi | si,
+    }
+  >>
+  \layout {
+    \smallLayout
+    indent = 0
+  }
+}
+\markuplist\with-line-width-ratio #0.8 \column-lines {
+  \justify {
+    Suivent une indication : \italic {
+      Tourner pour la \concat { 2 \super e } et la \concat { 3 \super e }
+      Reprises,
+    } puis les vers suivants de l’Amour, raturés :
+  }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff \with { autoBeaming = ##f } {
+      <>^\markup\character { L'Amour }
+      \tinyQuote \key mi \major \digitTime\time 3/4 \clef "treble" \partial 4
+      si'8. mi''16 |
+      sold''4.\prall fad''8 mi'' red'' |
+      \appoggiatura red''8 mi''4 si'8 r16 re'' dod''8. si'16 |
+      si'4.( la'8) la' sold' |
+      sold'4\trill sold'8 r la' si' |
+      dod''4 dod''8 red'' si' mi'' |
+      red''4.\trill fad'8 fad'8. sold'16 |
+      sold'8.([ la'16])\prall dod''4. si'16 la' |
+      sold'4\trill sold'8 r16 la' sold'8. la'16 |
+      si'4 si'4. dod''16 re'' |
+      dod''4\trill fad'' sold''8. la''16 |
+      red''2.\trill |
+      sold''2 fad''8 mi'' |
+      si'4 fad''4.\trill mi''16 red'' |
+      \appoggiatura red''8 mi''2.\prall | \bar "|."
+    } \addlyrics {
+      Sous le voi -- le fa -- vo -- ra -- ble
+      D’une a -- mi -- tié vé -- ri -- ta -- ble
+      L’a -- mour ca -- che ses sen -- ti -- ments.
+      Au -- près de vous, sexe a -- do -- ra -- ble,
+      Tous les a -- mis sont des a -- mants,
+      Tous les a -- mis,
+      Tous les a -- mis sont des a -- mants.
+    }
+    \new Staff {
+      \tinyQuote \key mi \major \digitTime \clef "bass"
+      r4 |
+      mi'2 si4 |
+      sold2\trill la8. sold16 |
+      \appoggiatura sold8 fad2\trill si4 |
+      mi4. re8 dod si,\trill |
+      la,2 sold,8 mi, |
+      si,2 si4 |
+      fad fad,2 |
+      dod dod4 |
+      sold,2 mi,4 |
+      la,2 fad,4 |
+      si,2. |
+      mi2 fad8 sold |
+      sold,4 la, si, |
+      mi,2. |
+    }
+    \new FiguredBass \figuremode {
+      s4 s2. <6>4. <5/>8 <\markup "" >8.\figExtOn <\markup "" >16\figExtOff
+      <7>2 <7 _+>4 <\markup "" >4.\figExtOn <\markup "" >8\figExtOff
+      <6>8 <6\\> s2 <6+>4 s2.*3 <6>2 <7!>4 s <6 5>2 s2. s2 <6\\>8 <6>
+      s4 <6 5> <4>8 <7>
+    }
+  >>
+  \layout {
+    \smallLayout
+    indent = 0
+  }
 }

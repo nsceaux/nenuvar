@@ -20,25 +20,13 @@
     >>
 
     \modVersion\new StaffGroup <<
-      \new GrandStaff \with {
+      \new Staff \with {
         instrumentName = \markup\center-column { Hautbois Musettes }
         shortInstrumentName = \markup\center-column { Htb Mus }
-      } <<
-        \new Staff <<
-          \global \keepWithTag #'hautbois1 \includeNotes "dessus"
-        >>
-        \new Staff \with { \haraKiri } <<
-          \global \keepWithTag #'hautbois2 \includeNotes "dessus"
-        >>
-      >>
+      } << \global \keepWithTag #'hautbois \includeNotes "dessus" >>
       \new Staff \with { \bassonInstr } << \global \includeNotes "basson" >>
-      \new GrandStaff \with { \violonInstr } <<
-        \new Staff <<
-          \global \keepWithTag #'violon1 \includeNotes "dessus"
-        >>
-        \new Staff <<
-          \global \keepWithTag #'violon2 \includeNotes "dessus"
-        >>
+      \new Staff \with { \violonInstr } <<
+        \global \keepWithTag #'violon \includeNotes "dessus"
       >>
       \new Staff \with { \partiesInstr \haraKiri } <<
         \global \includeNotes "parties"
