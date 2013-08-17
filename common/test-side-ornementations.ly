@@ -1,14 +1,13 @@
 \include "side-ornementations.ily"
 
-
 {
-  \para a'4. \parb gis'8 \parc a'2
+  a'4.\para  gis'8\parb a'2\parc
 }
 
 {
-  \pralla a'4. \prallb gis'8
+  a'4.\pralla gis'8\prallb <gis'\prallb c''\pralla>4. aes'8\prallb
 }
 
 {
-  \circA a'4. a'
+  a'4.\circA a'
 }
