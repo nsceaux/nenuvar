@@ -279,10 +279,10 @@
 %# Chantez vos plaisirs,
 %# Exprimez vos désirs,
 %# Oiseaux chantez le bonheur que vous goûtez.
-%# Vos chants plein de volupté
+%# Vos chants pleins de volupté
 %# Ont l'art de rendre le cœur plus tendre,
 %# Enflamment la beauté,
-%# Triomphent de la liberté.
+%# Tri=omphent de la liberté.
 %#10 Oiseaux chantez etc.
 \livretRef #'FMtrio
 \livretPers\line { EGLÉ, L'AMOUR, DAPHNIS }

@@ -124,3 +124,6 @@
 %{ n°25 %}
 \pieceTocTitle "Musette"
 \includeScore "FHmusette"
+%{ n°26 %}
+\pieceToc\markup\wordwrap { Daphnis : \italic { Oiseaux chantez dans ces bois écartés } }
+\includeScore "FIdaphnis"

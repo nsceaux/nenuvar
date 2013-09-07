@@ -281,10 +281,10 @@
 \livretVerse#5 { Chantez vos plaisirs, }
 \livretVerse#6 { Exprimez vos désirs, }
 \livretVerse#11 { Oiseaux chantez le bonheur que vous goûtez. }
-\livretVerse#7 { Vos chants plein de volupté }
+\livretVerse#7 { Vos chants pleins de volupté }
 \livretVerse#9 { Ont l’art de rendre le cœur plus tendre, }
 \livretVerse#6 { Enflamment la beauté, }
-\livretVerse#7 { Triomphent de la liberté. }
+\livretVerse#8 { Triomphent de la liberté. }
 \livretVerse#10 { Oiseaux chantez etc. }
 \livretRef #'FMtrio
 \livretPers\line { EGLÉ, L'AMOUR, DAPHNIS }
