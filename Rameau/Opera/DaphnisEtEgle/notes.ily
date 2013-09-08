@@ -1306,3 +1306,74 @@
     indent = 0
   }
 }
+
+\markuplist\with-line-width-ratio #0.8 \column-lines {
+  \livretRef #'FIdaphnis
+  \livretDescAttPage\wordwrap {
+    Scène VI — Daphnis : \italic { Oiseaux chantez dans ces bois écartés }
+  }
+  \justify {
+    Manuscrit RES-208, mesures 23 à 27, une collette recouvre cette version
+    plus ancienne de la partie de Daphnis :
+  }
+  \score {
+    \new Staff \with { autoBeaming = ##f } <<
+      { \tinyQuote \clef "alto" \key mi \major \partial 4
+        \override Script.avoid-slur = #'outside
+        si4^"[?]" |
+        dod'4.( red'16[ mi']) red'4( dod'8)\trill red' |
+        lad2\trill dod'4. fad'8 |
+        fad'2.( mi'8\trill[ red']) |
+        dod'2\trill dod'4. red'8 |
+        si4 }
+      \addlyrics { chan -- tez le bon -- heur, le bon -- heur que vous gou -- tez. }
+    >>
+    \layout { \quoteLayout indent = 0 }
+  }
+  \null
+  \justify {
+    Une première version, barrée de la mesure 83 jusqu'au \italic { da capo }:
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff \with { autoBeaming = ##f } <<
+        { \tinyQuote \clef "alto" \key mi \major \partial 2
+          mid'8[\melisma fad' mid' fadd'16 sold'] |
+          fadd'4.\trill( mi'16[ red'])
+          <>^"[partie de Daphnis gratée et raturée, illisible jusqu'à la fin]"
+          mi'8[ fadd' sold' lad']( |
+          si'2.)\melismaEnd lad'8[ sold'] |
+          fadd'2\trill~ fadd'8 fadd' sold' fadd' |
+          sold'1 | \bar "|."
+        }
+        \addlyrics { - -- phent de la li -- ber -- té.  }
+      >>
+      \new Staff {
+        \clef "french" \key mi \major
+        dod''2~ |
+        dod''2.( red''8 dod'') |
+        si'4 lad'8\trill sold' sold'4 mi'' |
+        red''2 red' |
+        red' r |
+      }
+      \new Staff {
+        \clef "french" \key mi \major
+        lad'2~ |
+        lad'4. si'16 lad' red''2~ |
+        red''4( red''16 mi'' dod'' red'') mi''2 |
+        lad' dod'' |
+        si' r |
+      }
+      \new Staff {
+        \clef "bass" \key mi \major
+        s4 lad, |
+        red1 |
+        sold,4.( lad,16 si,) dod,2 |
+        red,1 |
+        sold,2 r_\markup\italic "dacapo" |
+      }
+      \new FiguredBass \figuremode { s2 <7 _+>1 s2 <9>4 <6\\ 5> <7 _+>1 }
+    >>
+    \layout { \quoteLayout indent = 0 ragged-right = ##t }
+  }
+}

@@ -17,6 +17,15 @@
   \override-lines #'(column-number . 2)
   \table-of-contents
 }
+%% Livret
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Rameau/Opera/DaphnisEtEgle/livret.ily"
+}
+
+%% Musique
+\include "Rameau/Opera/DaphnisEtEgle/body.ily"
+
 %% Notes
 \bookpart {
   \paper {
@@ -26,10 +35,3 @@
   }
   \include "Rameau/Opera/DaphnisEtEgle/notes.ily"
 }
-%% Livret
-\bookpart {
-  \paper { #(define page-breaking ly:minimal-breaking) }
-  \include "Rameau/Opera/DaphnisEtEgle/livret.ily"
-}
-
-\include "Rameau/Opera/DaphnisEtEgle/body.ily"
