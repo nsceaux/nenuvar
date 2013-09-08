@@ -32,47 +32,49 @@
   maintainer = "Nicolas Sceaux"
   maintainerEmail = "nicolas.sceaux@free.fr"
   maintainerWeb = "http://nicolas.sceaux.free.fr"
-  copyright = \markup \copyright
-  longcopyright = \markup \column {
+  copyright = \markup\copyright
+  license = "Licensed under the Creative Commons Attribution-ShareAlike 3.0 License"
+  shortcopyright = \markup { \copyright — \license }
+  longcopyright = \markup\column {
     \vspace #1
     \fill-line { \copyright }
-    \fill-line { "Licensed under the Creative Commons Attribution 3.0 License" }
+    \fill-line { \license }
   }
   
   tagline = \markup { 
     \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7)
-    \box \column {
-      \small \fill-line {
+    \box\column {
+      \fill-line {
         \line {
           \copyright
           \concat {
-            \with-url #"http://nicolas.sceaux.free.fr" \teeny "<nicolas.sceaux@free.fr>"
+            \with-url #"http://nicolas.sceaux.free.fr" \smaller "<nicolas.sceaux@free.fr>"
             .
           }
         }
       }
-      \small \fill-line {
+      \fill-line {
         \line {
-          Sheet music from \with-url #"http://nicolas.sceaux.free.fr"
-          \typewriter \tiny http://nicolas.sceaux.free.fr
-          typeset using \with-url #"http://www.LilyPond.org" 
-          \concat { \teeny www. LilyPond \teeny .org }
+          Sheet music from
+          \with-url #"http://nicolas.sceaux.free.fr"
+          \typewriter\smaller http://nicolas.sceaux.free.fr
+          typeset using \with-url #"http://lilypond.org" LilyPond
           $(string-append "version " (lilypond-version))
           on \concat { \today . }
         }
       }
-      \small \fill-line {
+      \fill-line {
         \line {
           \italic Free to download, with the \italic freedom
           to distribute, modify and perform.
         }
       }
-      \teeny \fill-line {
+      \smaller\fill-line {
         \line {
-          Licensed under the Creative Commons Attribution 3.0 License,
+          Licensed under the Creative Commons Attribution-ShareAlike 3.0 License,
           for details see: \hspace #-0.5 
-          \with-url #"http://creativecommons.org/licenses/by/3.0" 
-          http://creativecommons.org/licenses/by/3.0
+          \with-url #"http://creativecommons.org/licenses/by-sa/3.0" 
+          http://creativecommons.org/licenses/by-sa/3.0
         }
       }
     }
@@ -126,42 +128,30 @@
   }
   scoreTitleMarkup = #f
 
-  oddFooterMarkup = \markup {
-    \column {
-      \fill-line {
-        %% put copyright only on pagenr. 1 
-        \on-the-fly #(lambda (layout props arg)
-                       (if (and (= 1 (chain-assoc-get 'page:page-number props -1))
-                                (not (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
-                                          (chain-assoc-get 'page:is-last-bookpart props #f))))
-                           (interpret-markup layout props (make-abs-fontsize-markup 12 arg))
-                           empty-stencil))
-        \abs-fontsize #10 \fromproperty #'header:longcopyright
-      }
-      \fill-line {
-        %% put tagline on last page
-        \on-the-fly #last-page
-        \abs-fontsize #12 \fill-line { \fromproperty #'header:tagline }
-      }
-    }
+  footerMarkup = \markup {
+    \on-the-fly
+    #(lambda (layout props arg)
+       (cond ((and (= 1 (chain-assoc-get 'page:page-number props -1))
+                   (not (and (chain-assoc-get 'page:is-bookpart-last-page
+                                              props #f)
+                             (chain-assoc-get 'page:is-last-bookpart
+                                              props #f))))
+              ;; Book first page
+              (interpret-markup layout props #{ \markup\fill-line {
+      \abs-fontsize #10 \fromproperty #'header:longcopyright } #}))
+              ((and (chain-assoc-get 'page:is-bookpart-last-page props #f)
+                    (chain-assoc-get 'page:is-last-bookpart props #f))
+               ;; book last page
+               (interpret-markup layout props #{ \markup\fill-line {
+      \abs-fontsize #8 \fromproperty #'header:tagline } #}))
+               (else
+               ;; other pages
+               (interpret-markup layout props #{ \markup\fill-line {
+      \abs-fontsize #6 \fromproperty #'header:shortcopyright } #}))))
+        ""
   }
-  evenFooterMarkup = \markup {
-    \column {
-      \fill-line {
-        %% put notice on second page
-        \on-the-fly #(lambda (layout props arg)
-                       (if (= 2 (chain-assoc-get 'page:page-number props -1))
-                           (interpret-markup layout props arg)
-                           empty-stencil))
-        \abs-fontsize #8 \fill-line { \fromproperty #'header:notes }
-      }
-      \fill-line {
-        %% put tagline on last page
-        \on-the-fly #last-page
-        \abs-fontsize #12 \fill-line { \fromproperty #'header:tagline }
-      }
-    }
-  }
+  oddFooterMarkup = \footerMarkup
+  evenFooterMarkup = \footerMarkup
 
   tocTitle = "TABLE DES MATIÈRES"
 }
