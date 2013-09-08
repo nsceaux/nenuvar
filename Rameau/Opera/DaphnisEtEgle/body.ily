@@ -1,4 +1,4 @@
-\act "Daphnis et Æglé"
+\actn "Daphnis et Æglé"
 \sceneDescription\markup\center-column {
   \line { Pastorale Héroïque en un acte }
   \justify {
@@ -7,57 +7,57 @@
     Ils forment une avenue qui conduit au temple dont les portes sont fermées.
   }
 }
-%{ n°1 %}
+%{ 0-1 %}
 \pieceTocTitle "Ouverture"
 \includeScore "AAouverture"
-%{ n°2 %} \newBookPart #'(full-rehearsal)
+%{ 0-2 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Menuets I et II"
 \includeScore "ABmenuet" \noPageTurn
 \includeScore "ACmenuet"
 
-%{ n°3 %} \newBookPart #'(full-rehearsal)
-\scene "Scène Première" "Scène 1 : Daphnis"
+%{ 1-1 %} \newBookPart #'(full-rehearsal)
+\sceneInc "Scène Première" "Scène 1 : Daphnis"
 \sceneDescription\markup\smallCaps Daphnis
 \pieceToc\markup\wordwrap { Daphnis : \italic { Dieu de l’amitié } }
 \includeScore "ADdaphnis"
 
-%{ n°4 %} \newBookPart #'(full-rehearsal)
-\scene "Scène II" "Scène 2 : Daphnis, Eglé"
+%{ 2-1 %} \newBookPart #'(full-rehearsal)
+\sceneInc "Scène II" "Scène 2 : Daphnis, Eglé"
 \sceneDescription\markup\smallCaps { Daphnis, Eglé }
 \pieceToc\markup\wordwrap { Daphnis, Eglé : \italic { Æglé que votre retour } }
 \includeScore "BAdaphnisEgle"
-%{ n°5 %}
+%{ 2-2 %}
 \pieceToc\markup\wordwrap { Chœur, Daphnis : \italic { Qu’une paix aimable } }
 \includeScore "BBchoeur"
 
-%{ n°6 %}
-\scene "Scène III" "Scène 3 : Le grand Prêtre de l'Amitié et sa suite"
+%{ 3-1 %}
+\sceneInc "Scène III" "Scène 3 : Le grand Prêtre de l'Amitié et sa suite"
 \sceneDescription\markup { Le grand Prêtre de l'Amitié et sa suite }
 \pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
 \includeScore "CAchoeur"
-%{ n°7 %} \newBookPart #'(full-rehearsal)
+%{ 3-2 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Sarabande très tendre"
 \includeScore "CBsarabande"
-%{ n°8 %}
+%{ 3-3 %}
 \pieceTocTitle "Gavottes I et II"
 \includeScore "CCgavotte" \noPageTurn
 \includeScore "CDgavotte"
-%{ n°9 %} \newBookPart #'(full-rehearsal)
+%{ 3-4 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Le Grand Prêtre, chœur :
   \italic { Fuyez l’amour et ses fureurs } }
 \includeScore "CEchoeur"
-%{ n°10 %}
+%{ 3-5 %}
 \sceneDescription\markup\wordwrap-center {
   Les Bergers reprennent leurs danses.
 }
 \pieceTocTitle "Passepieds I et II"
 \includeScore "CFpassepied" \noPageTurn
 \includeScore "CGpassepied"
-%{ n°11 %} \newBookPart #'(full-rehearsal)
+%{ 3-6 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Le Grand Prêtre :
   \italic { De ce temple respectable } }
 \includeScore "CHpretre"
-%{ n°12 %}
+%{ 3-7 %}
 \pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
 \includeScore "CIchoeur"
 \markup\title\line {
@@ -65,68 +65,75 @@
   le chœur.
 }
 
-%{ n°13 %}
-\scene "Scène IV" "Scène 4 : Æglé, Daphnis et les précédents"
+%{ 4-1 %}
+\sceneInc "Scène IV" "Scène 4 : Æglé, Daphnis et les précédents"
 \sceneDescription\markup {\smallCaps { Æglé, Daphnis } et les précédents }
 \pieceToc\markup\wordwrap {
   Eglé, Daphnis, chœur : \italic { Ministre des autels, recevez les serments }
 }
 \includeScore "DAtonnerre"
 
-%{ n°14 %}
-\scene "Scène V" "Scène 5 : Daphnis, Æglé"
+%{ 5-1 %}
+\sceneInc "Scène V" "Scène 5 : Daphnis, Æglé"
 \sceneDescription\markup\smallCaps { Daphnis, Æglé }
 \pieceToc\markup\wordwrap {
   Eglé, Daphnis : \italic { Daphnis vous n’aimez point comme l’on doit aimer }
 }
 \includeScore "EAegleDaphnis"
-%{ n°15 %} \newBookPart #'(full-rehearsal)
+%{ 5-2 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   Daphnis, Eglé : \italic { Hélas en vous voyant j’oublie }
 }
 \includeScore "EBdaphnisEgle"
-%{ n°16 %}
+%{ 5-3 %}
 \pieceToc\markup\wordwrap {
   Eglé, Daphnis : \italic { Mais pourquoi le plaisir que je sens à vous voir }
 }
 \includeScore "ECegleDaphnis"
-%{ n°17 %}
+%{ 5-4 %}
 \pieceToc\markup\wordwrap { Daphnis : \italic { Bergère, comme vous j’ignore } }
 \includeScore "EDdaphnis"
 
-%{ n°18 %} \newBookPart #'(full-rehearsal)
-\scene "Scène VI" "Scène 6 : L’Amour et les précédents"
+%{ 6-1 %} \newBookPart #'(full-rehearsal)
+\sceneInc "Scène VI" "Scène 6 : L’Amour et les précédents"
 \sceneDescription\markup { \smallCaps L'Amour et les précédents }
 \pieceToc\markup\wordwrap {
  L’Amour, Eglé, Daphnis : \italic { Sortez de votre erreur extrême }
 }
 \includeScore "FAamourEgleDaphnis"
-%{ n°19 %} \newBookPart #'(full-rehearsal)
+%{ 6-2 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’Amour : \italic { Soutiens de ma puissance } }
 \includeScore "FBamour"
-%{ n°20 %} \newBookPart #'(full-rehearsal)
+%{ 6-3 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entrée des jeux et des Plaisirs"
 \includeScore "FCentree"
-%{ n°21 %} \newBookPart #'(full-rehearsal)
+%{ 6-4 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Gigue"
 \includeScore "FDgigue"
-%{ n°22 %} \newBookPart #'(full-rehearsal)
+%{ 6-5 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   Daphnis, Eglé : \italic { Le Dieu de l’amitié ne nous est point propice }
 }
 \includeScore "FEdaphnisEgle"
-%{ n°23 %} \newBookPart #'(full-rehearsal)
+
+%{ 6-6 %} \newBookPart #'(full-rehearsal)
+\scene "Fin de la scène VI : première version" "Fin de la scène 6 : première version"
 \pieceTocTitle "Entrée de Bergers"
 \includeScore "FFentree"
-%{ n°24 %}
+%{ 6-7 %}
 \pieceToc\markup\wordwrap { L’Amour : \italic { Sous le voile favorable } }
 \includeScore "FGamour"
-%{ n°25 %}
+%{ 6-8 %}
 \pieceTocTitle "Musette"
 \includeScore "FHmusette"
-%{ n°26 %} \newBookPart #'(full-rehearsal)
+%{ 6-9 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Daphnis : \italic { Oiseaux chantez dans ces bois écartés } }
 \includeScore "FIdaphnis"
-%{ n°27 %} \newBookPart #'(full-rehearsal)
-\pieceTocTitle "Pantomime"
+%{ 6-10 %} \newBookPart #'(full-rehearsal)
+\pieceTocTitle "Pantomime — deux jeunes Bergeres"
 \includeScore "FJpantomime"
+
+%{ 6- %} \newBookPart #'(full-rehearsal)
+\scene "Fin de la scène VI : deuxième version" "Fin de la scène 6 : deuxième version"
+\pieceToc\markup\wordwrap { L’Amour : \italic { Sous le voile favorable } }
+\reIncludeScore "FGamour" "FGBamour"

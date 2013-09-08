@@ -79,6 +79,24 @@
    (basse "Basses et basse continue" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
+sceneInc =
+#(define-music-function (parser location title toc-title) (string? markup?)
+  (increase-rehearsal-major-number)
+  (add-toc-item parser 'tocSceneMarkup (if (and (string? toc-title)
+                                                (string-null? toc-title))
+                                           (string-upper-case title)
+                                           toc-title))
+  (add-odd-page-header-text
+    parser
+    (format #f "~a, ~a."
+           (string-upper-case (*act-title*))
+           (string-upper-case title))
+    #t)
+  (add-toplevel-markup parser
+    (markup #:scene (string-upper-case title)))
+  (add-no-page-break parser)
+  (make-music 'Music 'void #t))
+
 daphnisMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Daphnis"))

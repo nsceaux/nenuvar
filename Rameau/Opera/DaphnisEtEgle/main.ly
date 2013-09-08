@@ -17,14 +17,15 @@
   \override-lines #'(column-number . 2)
   \table-of-contents
 }
+%% Musique
+\include "Rameau/Opera/DaphnisEtEgle/body.ily"
+
 %% Livret
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
+  #(add-toc-item parser 'tocActMarkup "Annexes")
   \include "Rameau/Opera/DaphnisEtEgle/livret.ily"
 }
-
-%% Musique
-\include "Rameau/Opera/DaphnisEtEgle/body.ily"
 
 %% Notes
 \bookpart {
@@ -35,3 +36,4 @@
   }
   \include "Rameau/Opera/DaphnisEtEgle/notes.ily"
 }
+
