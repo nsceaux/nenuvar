@@ -107,6 +107,10 @@ violonInstr = \with {
   instrumentName = "Violons"
   shortInstrumentName = "Vln"
 }
+violonHautboisInstr = \with {
+  instrumentName = \markup\center-column { Violons Hautbois }
+  shortInstrumentName = \markup\center-column { "Vln" "Htb" }
+}
 hcInstr = \with {
   instrumentName = "Hautes-contre"
   shortInstrumentName = "H-c"

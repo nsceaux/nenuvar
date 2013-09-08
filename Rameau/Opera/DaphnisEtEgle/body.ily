@@ -124,6 +124,9 @@
 %{ n°25 %}
 \pieceTocTitle "Musette"
 \includeScore "FHmusette"
-%{ n°26 %}
+%{ n°26 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Daphnis : \italic { Oiseaux chantez dans ces bois écartés } }
 \includeScore "FIdaphnis"
+%{ n°27 %} \newBookPart #'(full-rehearsal)
+\pieceTocTitle "Pantomime"
+\includeScore "FJpantomime"
