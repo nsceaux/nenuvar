@@ -132,6 +132,10 @@
 %{ 6-10 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Pantomime — deux jeunes Bergeres"
 \includeScore "FJpantomime"
+%{ 6-11 %}
+\pieceTocTitle "Entrée de deux Bergers"
+\includeScore "FKentree"
+%{ 6-12 %}
 
 %{ 6- %} \newBookPart #'(full-rehearsal)
 \scene "Fin de la scène VI : deuxième version" "Fin de la scène 6 : deuxième version"

@@ -1376,4 +1376,41 @@
     >>
     \layout { \quoteLayout indent = 0 ragged-right = ##t }
   }
+
+  \livretRef #'FJpantomime
+  \livretDescAttPage\wordwrap {
+    Scène VI — Pantomime
+  }
+  \justify {
+    Manuscrit RES-208, mesures 15 à 17, une collette recouvre le passage suivant :
+  }
+  \score {
+    \new ChoirStaff <<
+      \new Staff {
+        \tinyQuote \clef "french" \key mi \minor
+        mi''8 fad'' sol'' fad'' sol'' fad'' sol'' do'' |
+        la'4 si' la'4.\trill sol'8 |
+        sol'1 |
+      }
+      \new Staff {
+        \clef "soprano" \key mi \minor
+        do''8 si' mi''4 do''4*2~ |
+        do''4 si'8( sol') sol'4 fad'\trill |
+        \appoggiatura fad'8 sol'1\prall |
+      }
+      \new Staff {
+        \clef "mezzosoprano" \key mi \minor
+        sol'2 la'4 sol' |
+        fad' \appoggiatura mi'8 re'4 re'2 |
+        \appoggiatura do'8 si1 |
+      }
+      \new Staff {
+        \clef "bass" \key mi \minor
+        do'2. do'8.(\trill si32 do') |
+        re'4 sol re re, |
+        sol,2. r16 la sol fad |
+      }
+    >>
+    \layout { \quoteLayout indent = 0 }
+  }
 }

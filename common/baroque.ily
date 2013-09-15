@@ -51,6 +51,14 @@ dotSign=\markup\vcenter "╸"
        (padding . 0.20)
        (avoid-slur . around)
        (direction . ,UP))
+      ("trillSharp"
+       (script-stencil
+        . (markup . , #{ \markup\center-align\concat\vcenter {
+                           \smaller\smaller\sharp
+                           \musicglyph #"scripts.stopped" } #}))
+       (padding . 0.20)
+       (avoid-slur . around)
+       (direction . ,UP))
       ("trillSug"
        (script-stencil
         . (markup . , #{ \markup\center-align\line {
@@ -171,6 +179,7 @@ dotSign=\markup\vcenter "╸"
   }
 }
 trill = #(make-articulation "stopped")
+trillSharp = #(make-articulation "trillSharp")
 tr = #(make-articulation "t")
 trillSug = #(make-articulation "trillSug")
 arcTrill = #(make-articulation "arcTrill")
