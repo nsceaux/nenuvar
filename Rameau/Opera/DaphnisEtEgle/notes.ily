@@ -1413,4 +1413,144 @@
     >>
     \layout { \quoteLayout indent = 0 }
   }
+
+  \livretRef #'FKentree
+  \livretDescAttPage\wordwrap {
+    Scène VI — Entrée de deux Bergers
+  }
+  \justify {
+    À partir de la mesure 28, le manuscrit RES-208 contient une première fin,
+    barrée et recouverte d’une collette, ainsi que le début d’un menuet :
+  }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff {
+      \set Score.currentBarNumber = #28
+      \once\override Score.TimeSignature.stencil = ##f
+      \tinyQuote \key mi \major \time 2/2 \clef "french"
+      \override Staff.Script.avoid-slur = #'outside
+      si'2. sold''8 fad'' |
+      mi''4 mi'' mi'' mi'' |
+      mi''8 red'' dod'' r fad''4 r |
+      r fad''8 sold'' la''4 r |
+      <<
+        { <>^"h.b." dod'''1~ | dod'''2. la''4 | red''2 }
+        \\ { <>_"viol." R1 | r4 fad''8 mi'' red''4 mi''8 fad'' | sid'4 r }
+      >> \cesureInstr r4 <<
+        { <>^\markup { \concat { p \super rs } h.b. }
+          sold''4 |
+          mi''(\trill red'') mi''( fad'') |
+          sold''4.( la''8) sold''4 fad'' |
+          mi''(\trill red'') mi''( fad'') |
+          sold''2 }
+        \\ { <>_\markup\concat { 2 \super es }
+          sold'4 | sold'1~ | sold'~ | sold'~ | sold'2 }
+      >> \cesureInstr r4 <>^"Tous" sold'' |
+      mi''4.(\trill red''16 dod'') sold''4.(\trill fad''16 sold'') |
+      la''8 r dod''' si'' la'' sold'' fad'' mi'' |
+      red''4 mi'' red''4. dod''8 |
+      dod''1 \bar "|."
+      \digitTime\time 3/4 <>^"h.bois"
+      mi''2 red''4 |
+      red''4( dod''8.)\trill red''16 si'4 |
+      mi''2 fad''4 |
+      fad''4.( sold''8)\prall fad''\noBeam r |
+      si''2 la''4 |
+      la''( sold''8.)\trill la''16 fad''4 |
+      la''2 sold''4 |
+      fad''2.\trill \bar ":||:" |
+      fad''2 si''4 |
+      si''4.( la''8)\trill sold''4 |
+      sold''( fad''8.)\trill sold''16 mi''4 |
+      mi''4.( fad''8)\prall \appoggiatura mi''8 red''\noBeam r |
+      mi''2. |
+      sold'' |
+      dod''8([ la'']) sold''([ fad'']) sold''16([ mi''8.]) |
+      fad''4\prall red''2\trill |
+      mi''2.~ |
+      mi''~ |
+      mi''2 mi''4 |
+      fad''\prall red''4.\trill( dod''16 red'') |
+      mi''2.~ |
+      mi''~ |
+      mi''2 si''4 |
+      fad'' fad''2\trill |
+      mi''2. \bar ""
+    }
+    \new Staff {
+      \key mi \major \clef "soprano"
+      red'2.\trill si'8 si' |
+      si'4 si' si' si' |
+      mi'2 dod''4 r |
+      r dod''8 dod'' dod''4 r |
+      R1 |
+      r4 red'8 mi' fad'4 la' |
+      sold'2 r |
+      R1*3 |
+      r2 r4 red'' |
+      sold'2 dod'' |
+      dod''4 r r fad'~ |
+      fad' mi' sold'2 |
+      \appoggiatura fad'8 mi'1 |
+      \digitTime <>^"Violons"
+      R2. |
+      r4 r si'4 |
+      si'2.~ |
+      si' |
+      R2. |
+      si'2.~ |
+      si'~ |
+      si' |
+    }
+    \new Staff {
+      \key mi \major \clef "tenor"
+      \override Staff.Script.avoid-slur = #'outside
+      si2. si8 la |
+      sold4 sold sold sold |
+      la2 r4 dod'8 dod' |
+      fad'4 fad'8 mid' fad'4 r |
+      r la'8 sold' fad' mi' red'4 |
+      r la'8 sold' fad'4 r |
+      fad'2 r4 <<
+        { <>^\markup\concat { p \super er }
+          red'4 | mi'1 | red' | mi' | red'2 }
+        \\ { <>_\markup\concat { 2 \super e }
+          sid4 | dod'1 | sid | dod' | sid2 }
+      >> r4 <>^"Tous" sold' |
+      sold'2 mid'4.(\trill red'16 mid') |
+      fad'8 r la' sold' fad' mi' red' dod' |
+      sid4 dod'2 sid4\trill |
+      dod'1 |
+      \digitTime <>\ademi
+      sold'2 fad'4 |
+      la'2 sold'8 r |
+      sold'2 fad'4 |
+      fad'4.( mi'8)\trill red'\noBeam r |
+      sold'2 fad'4 |
+      fad'( mi'8.)\trill fad'16 red'4 |
+      fad'2 mi'4 |
+      red'2.\trill |
+    }
+    \new Staff {
+      \key mi \major \clef "bass"
+      si,2. si8 la |
+      sold4 sold sold sold |
+      la2 r4 dod'8 si |
+      la4 la8 sold fad4 r |
+      r dod'8 si la sold fad4 |
+      r4 fad8 sold la4 fad\trill |
+      sold2 r |
+      R1*3 |
+      r2 r4 sold |
+      dod'2 dod |
+      fad4 r r fad8.(\trill mi32 fad) |
+      sold4 dod' sold sold, |
+      dod1 |
+      \digitTime
+      mi2.~ | mi~ | mi~ | mi2 r4 |
+      mi2.~ | mi | red2 mi4 | si,2. |
+    }
+  >>
+  \layout { \smallLayout indent = 0 ragged-right = ##f }
 }
