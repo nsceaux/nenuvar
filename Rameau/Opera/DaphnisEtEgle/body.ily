@@ -136,6 +136,8 @@
 \pieceTocTitle "Entrée de deux Bergers"
 \includeScore "FKentree"
 %{ 6-12 %}
+\pieceTocTitle "Menuet où les amours se meslent avec les Bergers et Bergères"
+\includeScore "FLmenuet"
 
 %{ 6- %} \newBookPart #'(full-rehearsal)
 \scene "Fin de la scène VI : deuxième version" "Fin de la scène 6 : deuxième version"

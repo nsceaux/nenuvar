@@ -1554,3 +1554,75 @@
   >>
   \layout { \smallLayout indent = 0 ragged-right = ##f }
 }
+\markuplist\with-line-width-ratio #0.8 \column-lines {
+  \livretRef #'FLmenuet
+  \livretDescAttPage\wordwrap {
+    Scène VI — Menuet où les Amours se meslent avec les Bergers et Bergères
+  }
+  \justify {
+    Le manuscrit RES-208 contient une première version, barrée, du rondeau,
+    pour les parties, bassons et basses :
+  }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff {
+      \tinyQuote \key mi \major \digitTime\time 3/4
+      \clef "french" <>\ademi
+      sold''8( mi'')
+      \set Timing.beamExceptions = #'()
+      \set Timing.baseMoment = #(ly:make-moment 1/8)
+      \set Timing.beatStructure = #'(2 2 2)
+      si'( sold'') la'( fad'') |
+      sold'( si') mi''( si') sold' si' |
+      dod''( mi'') la'( dod'') fad'( si') |
+      sold'( la') fad'( sold') mi'4 |
+      sold''8( mi'') si'( sold'') la'( fad'') |
+      sold'( si') mi'' si'4 re''8 |
+      dod''( mi'') la'( dod'') fad' red'' |
+      red''4.( mi''8)\prall mi'8_\markup\italic\larger fin. r | \bar "||"
+    }
+    \new Staff {
+      \key mi \major \digitTime \clef "french"
+      sold''2 fad''4\trill |
+      si'2 mi''4 |
+      \appoggiatura red''8 dod''2 red''4\trill |
+      red''4.( mi''8\prall) si'8 r |
+      sold''2 fad''4\trill |
+      si'2 mi''4 |
+      \appoggiatura red''8 dod''2( si'8\trill) la' |
+      sold'2.\trill |
+    }
+    \new Staff {
+      \key mi \major \digitTime \clef "soprano"
+      si'2~ si'8.( si16) |
+      si2 sold'4 |
+      la'8( dod'')~ dod''( la') fad'4\trill |
+      mi'2. |
+      si'2~ si'8.( si16) |
+      si2 sold'4 |
+      la'2 fad'4\trill |
+      mi'2. |
+    }
+    \new Staff {
+      \key mi \major \digitTime \clef "tenor"
+      mi'2 red'4\trill |
+      \appoggiatura red'8 mi'2\prall si4 |
+      la( fad) si |
+      si2 \appoggiatura la8 sold4 |
+      mi'2 red'4\trill |
+      \appoggiatura red'8 mi'2\prall si4 |
+      la8( dod') fad( si) si4~ |
+      si2. |
+    }
+    \new Staff {
+      \key mi \major \digitTime \clef "bass"
+      << { mi2.~ | mi~ | mi~ | mi |
+          mi2 red4 | mi2 sold,4 | la,2 si,4 | mi,2.^\markup\italic\larger fin. }
+        \\ { mi2 red4 | mi2 sold,4 | la,2 si,4 | mi,2. |
+          mi,2.~ | mi,~ | mi,~ | mi, }
+      >>
+    }
+  >>
+  \layout { \smallLayout indent = 0 }
+}
