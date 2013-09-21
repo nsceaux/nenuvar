@@ -138,6 +138,10 @@
 %{ 6-12 %}
 \pieceTocTitle "Menuet où les amours se meslent avec les Bergers et Bergères"
 \includeScore "FLmenuet"
+%{ 6-13 %}
+\pieceTocTitle "Tambourins I et II"
+\includeScore "FMtambourin"
+\includeScore "FNtambourin"
 
 %{ 6- %} \newBookPart #'(full-rehearsal)
 \scene "Fin de la scène VI : deuxième version" "Fin de la scène 6 : deuxième version"

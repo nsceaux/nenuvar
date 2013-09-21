@@ -1626,3 +1626,61 @@
   >>
   \layout { \smallLayout indent = 0 }
 }
+\markuplist\with-line-width-ratio #0.8 \column-lines {
+  \livretRef #'FNtambourin
+  \livretDescAttPage\wordwrap {
+    Scène VI — \concat { 2 \super e } Tambourin
+  }
+  \justify {
+    Une collette recouvre une première version des lignes des parties et des bassons :
+  }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff {
+      \tinyQuote \key mi \minor \digitTime\time 2/2
+      \clef "soprano" <>^"Parties" _\ademi
+      si'2. si'4 |
+      re''8( si') la'( sol') fad'4 sol' |
+      sol'2. sol'4 |
+      si'8( sol') fad'( mi') re'4 mi' |
+      mi'2 re' |
+      re'4.( fad'8) sol'4 fad'8( la') |
+      sol'2. red'8 mi' |
+      si4 la'8 sol' fad' do'' si' la' |
+      sol'( fad') mi'4( si'2) |
+      re''8( si') la'( sol') fad'4 sol' |
+      sol'2. sol'4 |
+      si'8( sol') fad'( mi') re'4 sol' |
+      sol'2 fad'4.\trill( la'8) |
+      re'4 mi'8( fad') mi'4. do'8 |
+      si2 si |
+      \appoggiatura la8 sol1 |
+    }
+    \new Staff {
+      \tinyQuote \key mi \minor \digitTime
+      \clef "tenor" <>^"Bassons"
+      mi4 r r2 |
+      si8( do') re'( mi') fad'( si) sol'( fad') |
+      mi'2 mi4 r |
+      sol8( la) si( do') re'( fad') sol'( si) |
+      do'2 fad4 r |
+      sol8( fad) sol( la) si( re') dod'( red') |
+      mi'2. si8 mi' |
+      red'4\trill fad'8 mi' red' mi' red' dod' |
+      si4 r r2 |
+      si8( do') re'( mi') fad'( si) sol' fad' |
+      mi'2 mi4 r |
+      sol8( la) si( do') re'( fad') sol'( si) |
+      do'2 fad4 r |
+      sol8( la) sol( la) si4. mi'8 |
+      mi'2 red'\trill |
+      \appoggiatura red'?8 mi'1\prall _\markup\italic\larger fin. \bar ":||:"
+    }
+  >>
+  \layout {
+    \smallLayout
+    indent = 0
+    \context { \Staff \remove "Time_signature_engraver" }
+  }
+}
