@@ -294,5 +294,6 @@
 \livretPers CHŒUR
 %# Règne à jamais sur nos âmes
 %# Amour, rends nos feux constants.
-%# Que tes flammes tri=omphent de nous et du temps
+%# Que tes flammes
+%# Tri=omphent de nous et du temps
 \livretFinAct FIN

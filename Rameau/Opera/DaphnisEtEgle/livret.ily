@@ -296,6 +296,7 @@
 \livretPers CHŒUR
 \livretVerse#7 { Règne à jamais sur nos âmes }
 \livretVerse#7 { Amour, rends nos feux constants. }
-\livretVerse#12 { Que tes flammes triomphent de nous et du temps }
+\livretVerse#3 { Que tes flammes }
+\livretVerse#8 { Triomphent de nous et du temps }
 \livretFinAct FIN
 }

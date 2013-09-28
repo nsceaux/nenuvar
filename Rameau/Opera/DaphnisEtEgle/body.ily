@@ -142,8 +142,15 @@
 \pieceTocTitle "Tambourins I et II"
 \includeScore "FMtambourin"
 \includeScore "FNtambourin"
+%{ 6-14 %} \newBookPart #'(full-rehearsal)
+\pieceToc\markup\wordwrap { Eglé, l’Amour, Daphnis, chœur :
+  \italic { Règne à jamais sur nos âmes } }
+\includeScore "FOregne"
+%{ 6-15 %} \newBookPart #'(full-rehearsal)
+\pieceTocTitle "Contredanse très vive"
+\includeScore "FPcontredanse"
 
-%{ 6- %} \newBookPart #'(full-rehearsal)
+%{ 6-16 %} \newBookPart #'(full-rehearsal)
 \scene "Fin de la scène VI : deuxième version" "Fin de la scène 6 : deuxième version"
 \pieceToc\markup\wordwrap { L’Amour : \italic { Sous le voile favorable } }
 \reIncludeScore "FGamour" "FGBamour"
