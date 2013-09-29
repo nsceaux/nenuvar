@@ -6,6 +6,7 @@
        grob
        #{ \markup\vcenter\bracket\musicglyph #"two" #}))
 \midiTempo #160
+\beginMark "Deuxième Tambourin"
 s1*16 \fineMark \bar "|."
 s1*11 \bar "|."
 \endMark\markup\right-column { "Da Capo" \null "On reprend le premier" }

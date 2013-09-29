@@ -1684,3 +1684,79 @@
     \context { \Staff \remove "Time_signature_engraver" }
   }
 }
+\markuplist\with-line-width-ratio #0.8 \column-lines {
+  \livretRef #'FPcontredanse
+  \livretDescAttPage\wordwrap {
+    Scène VI — Contredanse
+  }
+  \justify {
+    Le manuscrit RES-208 contient une première version, barrée,
+    de la troisième reprise :
+  }
+}
+\score {
+  \new ChoirStaff <<
+    \new Staff {
+      \tinyQuote \key mi \major \digitTime\time 2/2 \partial 2
+      \clef "french"
+      si'4 lad' |
+      dod''2. red''8 mi'' |
+      red''4\trill fad'' fad' fad' |
+      fad'2~ fad'8 dod'' red'' mi'' |
+      red''4 si'' fad' fad' |
+      fad'2~ fad'8 dod'' red'' mi'' |
+      red''4 fad''8 mi'' red'' dod'' si'4 |
+      mi''2 fad''4.(\trill mi''16 fad'') |
+      sold''8 la'' sold'' fad'' mi'' red'' dod'' si' |
+      fad'4 si'8 dod'' red'' mi'' red'' dod'' |
+      si'4 r \bar "||"
+    }
+    \new Staff {
+      \key mi \major \digitTime \clef "soprano"
+      mi'2 |
+      mi' lad |
+      si4 red' fad' si' |
+      si'2 lad'\trill |
+      si'4 red' fad' si' |
+      si'2 lad'\trill |
+      si'4 red''8 dod'' si' la' fad'4 |
+      sold'2 red''4.(\trill dod''16 red'') |
+      mi''4 mi''8 red'' dod'' si' mi' red' |
+      dod'2 fad' |
+      fad'
+    }
+    \new Staff {
+      \key mi \major \digitTime \clef "tenor"
+      mi'2 |
+      lad dod' |
+      fad4 si red' fad' |
+      dod' fad' fad fad |
+      fad si red' fad' |
+      dod' fad' fad fad |
+      fad2 fad'8 mi' red' dod' |
+      si4 si si2\trill~ |
+      si2 mi'~ |
+      mi'4 red'8 mi' dod' red' mi' fad' |
+      red'2\trill
+    }
+    \new Staff {
+      \key mi \major \digitTime \clef "bass"
+      sold2 |
+      fad1 |
+      si |
+      fad |
+      si, |
+      fad, |
+      si,2 si4 la |
+      sold2 fad |
+      mi1 |
+      fad2 fad, |
+      si8 la sold fad
+    }
+  >>
+  \layout {
+    \smallLayout
+    indent = 0
+    \context { \Staff \remove "Time_signature_engraver" }
+  }
+}

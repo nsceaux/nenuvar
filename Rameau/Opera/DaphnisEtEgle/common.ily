@@ -109,6 +109,10 @@ pretreMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Le Grand Prêtre"))
 
+dessusInstr = \with {
+  instrumentName = "Dessus"
+  shortInstrumentName = "D."
+}
 hautboisInstr = \with {
   instrumentName = "Hautbois"
   shortInstrumentName = "Htb"
