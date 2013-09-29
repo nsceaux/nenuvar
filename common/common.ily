@@ -81,6 +81,32 @@
   }
 }
 
+#(define-markup-command (nenuvar-footer layout props side)
+     (number?)
+   (interpret-markup
+    layout props
+    (cond ((and (= 1 (chain-assoc-get 'page:page-number props -1))
+                (not (and (chain-assoc-get 'page:is-bookpart-last-page
+                                           props #f)
+                          (chain-assoc-get 'page:is-last-bookpart
+                                           props #f))))
+           ;; Book first page
+           #{ \markup\fill-line {
+  \abs-fontsize #10 \fromproperty #'header:longcopyright } #})
+          ((and (chain-assoc-get 'page:is-bookpart-last-page props #f)
+                (chain-assoc-get 'page:is-last-bookpart props #f))
+           ;; book last page
+           #{ \markup\fill-line {
+  \abs-fontsize #8 \fromproperty #'header:tagline } #})
+          ((= side LEFT)
+           ;; even pages
+           #{ \markup\fill-line {
+  \null \abs-fontsize #6 \fromproperty #'header:shortcopyright } #})
+          (else
+           ;; odd pages
+           #{ \markup\fill-line {
+  \abs-fontsize #6 \fromproperty #'header:shortcopyright \null } #}))))
+
 \paper {
   nenuvarBookTitleMarkup = \markup \when-property #'header:title \abs-fontsize #12 \column {
     \null \null \null \null \null \null
@@ -128,30 +154,8 @@
   }
   scoreTitleMarkup = #f
 
-  footerMarkup = \markup {
-    \on-the-fly
-    #(lambda (layout props arg)
-       (cond ((and (= 1 (chain-assoc-get 'page:page-number props -1))
-                   (not (and (chain-assoc-get 'page:is-bookpart-last-page
-                                              props #f)
-                             (chain-assoc-get 'page:is-last-bookpart
-                                              props #f))))
-              ;; Book first page
-              (interpret-markup layout props #{ \markup\fill-line {
-      \abs-fontsize #10 \fromproperty #'header:longcopyright } #}))
-              ((and (chain-assoc-get 'page:is-bookpart-last-page props #f)
-                    (chain-assoc-get 'page:is-last-bookpart props #f))
-               ;; book last page
-               (interpret-markup layout props #{ \markup\fill-line {
-      \abs-fontsize #8 \fromproperty #'header:tagline } #}))
-               (else
-               ;; other pages
-               (interpret-markup layout props #{ \markup\fill-line {
-      \abs-fontsize #6 \fromproperty #'header:shortcopyright } #}))))
-        ""
-  }
-  oddFooterMarkup = \footerMarkup
-  evenFooterMarkup = \footerMarkup
+  oddFooterMarkup = \markup\nenuvar-footer #RIGHT
+  evenFooterMarkup = \markup\nenuvar-footer #LEFT
 
   tocTitle = "TABLE DES MATIÈRES"
 }

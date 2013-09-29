@@ -1,8 +1,18 @@
 \score {
   <<
     \origVersion\new ChoirStaff <<
-      \new Staff << \global \keepWithTag #'hautbois \includeNotes "dessus" >>
-      \new Staff << \global \keepWithTag #'violon \includeNotes "dessus" >>
+      \new Staff <<
+        \global \keepWithTag #'hautbois1 \includeNotes "dessus"
+      >>
+      \new Staff <<
+        \global \keepWithTag #'hautbois2 \includeNotes "dessus"
+      >>
+      \new Staff <<
+        \global \keepWithTag #'violon1 \includeNotes "dessus"
+      >>
+      \new Staff <<
+        \global \keepWithTag #'violon2 \includeNotes "dessus"
+      >>
       \new Staff << \global \includeNotes "parties" >>
       \new Staff << \global \includeNotes "basson" >>
       \new Staff <<
@@ -16,16 +26,29 @@
     >>
 
     \modVersion\new StaffGroup <<
-      \new Staff \with {
+      \new GrandStaff \with {
         instrumentName = \markup\center-column { Hautbois Musettes }
         shortInstrumentName = \markup\center-column { Htb Mus }
-      } << \global \keepWithTag #'hautbois \includeNotes "dessus" >>
+      } <<
+        \new Staff <<
+          \global \keepWithTag #'hautbois1 \includeNotes "dessus"
+        >>
+        \new Staff \with { \haraKiri } <<
+          { s2 s1*29 s2 \startHaraKiri }
+          \global \keepWithTag #'hautbois2 \includeNotes "dessus"
+        >>
+      >>
       \new Staff \with { \bassonInstr } << \global \includeNotes "basson" >>
-      \new Staff \with { \violonInstr } <<
-        \global \keepWithTag #'violon \includeNotes "dessus"
-        { s2 s1*37 s2 \footnoteHere #'(0 . 0) \markup\justify {
-            Au sujet des parties de violons mesures 38 à 42, voir les notes
-            au début de l’ouvrage. } }
+      \new GrandStaff \with { \violonInstr } <<
+        \new Staff \with { \haraKiri } <<
+          \global \keepWithTag #'violon1 \includeNotes "dessus"
+          { s2 s1*37 s2 \footnoteHere #'(0 . 0) \markup\justify {
+              Au sujet des parties de violons mesures 38 à 42,
+              voir les notes à la fin de l’ouvrage. } }
+        >>
+        \new Staff \with { \haraKiri } <<
+          \global \keepWithTag #'violon2 \includeNotes "dessus"
+        >>
       >>
       \new Staff \with { \partiesInstr \haraKiri } <<
         \global \includeNotes "parties"

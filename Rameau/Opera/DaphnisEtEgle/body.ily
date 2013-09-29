@@ -110,15 +110,12 @@
 %{ 6-4 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Gigue"
 \includeScore "FDgigue"
-%{ 6-5 %} \newBookPart #'(full-rehearsal)
+%{ 6-5 %}
 \pieceToc\markup\wordwrap {
   Daphnis, Eglé : \italic { Le Dieu de l’amitié ne nous est point propice }
 }
 \includeScore "FEdaphnisEgle"
-
 %{ 6-6 %} \newBookPart #'(full-rehearsal)
-\scene "[Fin de la scène VI : première version]"
-  "[Fin de la scène 6 : première version]"
 \pieceTocTitle "Entrée de Bergers"
 \includeScore "FFentree"
 %{ 6-7 %}
@@ -128,6 +125,8 @@
 \pieceTocTitle "Musette"
 \includeScore "FHmusette"
 %{ 6-9 %} \newBookPart #'(full-rehearsal)
+\scene "[Fin de la scène VI : première version]"
+  "[Fin de la scène 6 : première version]"
 \pieceToc\markup\wordwrap { Daphnis : \italic { Oiseaux chantez dans ces bois écartés } }
 \includeScore "FIdaphnis"
 %{ 6-10 %} \newBookPart #'(full-rehearsal)
@@ -154,10 +153,34 @@
 %{ 6-15 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Contredanse très vive"
 \includeScore "FPcontredanse"
-\actEnd "Fin"
+\actEnd "FIN"
 
 %{ 6-16 %} \newBookPart #'(full-rehearsal)
 \scene "[Fin de la scène VI : deuxième version]"
   "[Fin de la scène 6 : deuxième version]"
-\pieceToc\markup\wordwrap { L’Amour : \italic { Sous le voile favorable } }
-\reIncludeScore "FGamour" "FGBamour"
+\pieceToc\markup\wordwrap { ...l'amour règne... }
+\markup TODO
+%{ 6-17 %}
+\pieceTocTitle "Musette"
+\reIncludeScore "FHmusette" "FRmusette"
+%{ 6-18 %}
+\pieceTocTitle "Entrée de Bergers"
+\reIncludeScore "FFentree" "FSentree"
+%{ 6-19 %}
+\pieceTocTitle "Menuets I et II"
+\markup TODO
+%{ 6-20 %}
+\pieceToc\markup\wordwrap { Eglé, l’Amour, Daphnis, chœur :
+  \italic { Règne à jamais sur nos âmes } }
+\reIncludeScore "FOregne" "FVregne"
+%{ 6-21 %}
+\pieceTocTitle "Tambourins I et II"
+\reIncludeScore "FMtambourin" "FWtambourin"
+\reIncludeScore "FNtambourin" "FXtambourin"
+%{ 6-22 %}
+\pieceToc\markup\wordwrap { ... ariette gaie ... }
+\markup TODO
+%{ 6-23 %}
+\pieceTocTitle "Contredanse très vive"
+\reIncludeScore "FPcontredanse" "FZcontredanse"
+\actEnd "FIN"
