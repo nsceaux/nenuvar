@@ -153,3 +153,10 @@
 \pieceTocTitle "Contredanse très vive"
 \includeScore "FQcontredanse"
 \actEnd "FIN"
+
+\actn "Annexes"
+%{ 6-16 %}
+\pieceToc\markup\wordwrap { 
+  Ariette [Eglé : \italic { L’Amour règne } ?]
+}
+\includeScore "FRariette"

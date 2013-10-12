@@ -2,7 +2,7 @@
 \digitTime\time 3/4
 \midiTempo #120
 \beginMark\markup {
-  \concat { P \super er } Menuet – Rondeau
+  \concat { P \super er } Menuet en Rondeau
 }
 s4
 \set Timing.beamExceptions = #'()

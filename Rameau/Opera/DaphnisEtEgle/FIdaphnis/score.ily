@@ -37,7 +37,20 @@
       \new Staff \with {
         instrumentName = "Petite flute"
         shortInstrumentName = "Fl."
-      } << \global \includeNotes "flute" >>
+      } <<
+        \footnoteHere #'(0 . 0) \markup\justify {
+          Sur les parties séparées VM²-395, cet air de Daphnis
+          est remplacé par une ariette dont le chant est
+          perdu (voir page \page-refII #'FRariette ).
+          L’air de Daphnis est tout d’abord déplacé entre les tambourins
+          et la contredanse, tandis que le chœur \italic { Règne à jamais }
+          déplacé entre les menuets et les tambourins ;
+          puis il est remplacé par une ariette gaie :
+          \italic { Dieu des soupirs }
+          (voir page \page-refII #'FSdaphnis ).
+        }
+        \global \includeNotes "flute"
+      >>
       \new GrandStaff \with { \violonInstr } <<
         \new Staff << \global \includeNotes "violon1" >>
         \new Staff << \global \includeNotes "violon2" >>

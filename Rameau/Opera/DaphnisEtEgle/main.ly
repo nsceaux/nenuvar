@@ -23,7 +23,6 @@
 %% Livret
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  #(add-toc-item parser 'tocActMarkup "Annexes")
   \include "Rameau/Opera/DaphnisEtEgle/livret.ily"
 }
 
@@ -36,4 +35,3 @@
   }
   \include "Rameau/Opera/DaphnisEtEgle/notes.ily"
 }
-
