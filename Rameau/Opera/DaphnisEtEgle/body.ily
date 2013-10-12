@@ -57,7 +57,7 @@
 \pieceToc\markup\wordwrap { Le Grand Prêtre :
   \italic { De ce temple respectable } }
 \includeScore "CHpretre"
-%{ 3-7 %}
+%{ 3-7 %} %\newBookPart #'(dessus)
 \pieceToc\markup\wordwrap { Chœur : \italic { Qu’une paix aimable } }
 \includeScore "CIchoeur"
 \markup\title\line {
@@ -104,6 +104,7 @@
 %{ 6-2 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’Amour : \italic { Soutiens de ma puissance } }
 \includeScore "FBamour"
+\partNoPageTurn #'(dessus)
 %{ 6-3 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entrée des jeux et des Plaisirs"
 \includeScore "FCentree"
@@ -139,11 +140,11 @@
 \markup\wordwrap { 
   Menuet où les amours se meslent avec les Bergers et Bergères
 }
-\includeScore "FLmenuet"
+\includeScore "FLmenuet" \noPageTurn
 \includeScore "FMmenuet"
 %{ 6-13 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Tambourins I et II"
-\includeScore "FNtambourin"
+\includeScore "FNtambourin" \noPageTurn
 \includeScore "FOtambourin"
 %{ 6-14 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Eglé, l’Amour, Daphnis, chœur :

@@ -1949,26 +1949,26 @@ Rameau/Opera/DaphnisEtEgle-parties:
 	-o $(OUTPUT_DIR)/DaphnisEtEgle-parties -dpart=parties  \
 	Rameau/Opera/DaphnisEtEgle/part.ly
 .PHONY: Rameau/Opera/DaphnisEtEgle-parties
+# Bassons
+Rameau/Opera/DaphnisEtEgle-basson:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/DaphnisEtEgle-basson -dpart=basson  \
+	Rameau/Opera/DaphnisEtEgle/part.ly
+.PHONY: Rameau/Opera/DaphnisEtEgle-basson
 # Basses
 Rameau/Opera/DaphnisEtEgle-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/DaphnisEtEgle-basse -dpart=basse  \
 	Rameau/Opera/DaphnisEtEgle/part.ly
 .PHONY: Rameau/Opera/DaphnisEtEgle-basse
-# Basse continue
-Rameau/Opera/DaphnisEtEgle-basse-continue:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/DaphnisEtEgle-basse-continue -dpart=basse-continue  \
-	Rameau/Opera/DaphnisEtEgle/part.ly
-.PHONY: Rameau/Opera/DaphnisEtEgle-basse-continue
 
 Rameau/Opera/DaphnisEtEgle-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Rameau/DaphnisEtEgle
 	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
 	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle-dessus.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
 	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-parties.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle-parties.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
+	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-basson.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle-basson.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
 	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle-basse.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
-	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle-basse-continue.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
 	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle/DaphnisEtEgle-midi.tar.gz $(OUTPUT_DIR)/DaphnisEtEgle.midi $(OUTPUT_DIR)/DaphnisEtEgle-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/DaphnisEtEgle.midi ]; then cp $(OUTPUT_DIR)/DaphnisEtEgle.midi $(DELIVERY_DIR)/Rameau/DaphnisEtEgle/ ; fi
 	git archive --prefix=DaphnisEtEgle/ HEAD Rameau/Opera/DaphnisEtEgle common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/DaphnisEtEgle/DaphnisEtEgle.tar.gz
 
@@ -1979,8 +1979,8 @@ Rameau/Opera/DaphnisEtEgle-all: \
 	Rameau/Opera/DaphnisEtEgle \
 	Rameau/Opera/DaphnisEtEgle-dessus \
 	Rameau/Opera/DaphnisEtEgle-parties \
-	Rameau/Opera/DaphnisEtEgle-basse \
-	Rameau/Opera/DaphnisEtEgle-basse-continue\
+	Rameau/Opera/DaphnisEtEgle-basson \
+	Rameau/Opera/DaphnisEtEgle-basse\
 	Rameau/Opera/DaphnisEtEgle-delivery\
 	Rameau/Opera/DaphnisEtEgle-clean
 

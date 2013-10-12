@@ -628,10 +628,12 @@ inMusicSceneDesc =
 
 sceneDescription =
 #(define-music-function (parser location description) (markup?)
-  (add-toplevel-markup parser
-   (markup #:scene-description description))
-  (add-no-page-break parser)
-  (make-music 'Music 'void #t))
+   (if (not (*part*))
+       (begin
+         (add-toplevel-markup parser
+                              (markup #:scene-description description))
+         (add-no-page-break parser)))
+   (make-music 'Music 'void #t))
 
 sceneDescriptionBottom =
 #(define-music-function (parser location description) (markup?)

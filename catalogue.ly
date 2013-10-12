@@ -432,8 +432,8 @@ O Emmanuel")
         #:main ((#f "Conducteur"))
         #:parts ((dessus "Violons, Flûtes, Hautbois")
                  (parties "Hautes-contre et Tailles")
-                 (basse "Basses")
-                 (basse-continue "Basse continue")))
+                 (basson "Bassons")
+                 (basse "Basses")))
        ("Les Fêtes de Ramire"
         #:description ,(markup #:wordwrap-string  "Acte de ballet, livret de Voltaire, 1745.")
         #:key "Rameau/Opera/lesFetesDeRamire"

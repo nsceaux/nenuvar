@@ -64,12 +64,12 @@
     inclus ; en conséquence, on ne peut retrouver les parties de hautes-contre
     et tailles de violon pour ces pièces.
   }
-  \paragraphe {
+  \paragraph {
     Les différences entre le manuscrit RES-208 et les parties séparées VM²-395,
     sont détaillées soit dans la suite de ce chapitre, soit directement dans
     la partition, en note de bas de page, pour les variations les plus légères.
   }
-  \paragraphe {
+  \paragraph {
     La basse chiffrée utilisée pour cette édition est celle du manuscrit
     RES-208.  Les agréments, liaisons, nuances, etc. de
     l’ensemble des sources ont été reportés.  Les nuances abbrégées dans les

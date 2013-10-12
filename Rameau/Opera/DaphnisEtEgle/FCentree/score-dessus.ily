@@ -1,9 +1,9 @@
 \score {
   \new StaffGroup <<
-    \new Staff \with { instrumentName = "Flutes" } <<
+    \new Staff \with { \smallStaff instrumentName = "Flutes" } <<
       \global \keepWithTag #'flutes \includeNotes "dessus"
     >>
-    \new Staff \with { instrumentName = "Violons" } <<
+    \new Staff \with { \smallStaff instrumentName = "Violons" } <<
       \global \keepWithTag #'violons \includeNotes "dessus"
     >>
   >>
