@@ -12,10 +12,24 @@
     >>
 
     \modVersion\new StaffGroup <<
-      \new Staff \with { \hautboisInstr } << \global \includeNotes "hautbois" >>
-      \new Staff \with { \bassonInstr } << \global \includeNotes "basson" >>
-      \new Staff \with { \violonInstr } << \global \includeNotes "violon" >>
+      \new Staff \with {
+        instrumentName = \markup\center-column {
+          Hautbois \line { \concat { P \super rs } violons } }
+        shortInstrumentName = \markup\center-column { Htb Vln1 }
+      } <<
+        \footnoteHere #'(0 . 0) \markup\justify {
+          Le manuscrit RES-208 indique que cette partie est jouée
+          aux hautbois ; néanmoins, la partie séparée de premier
+          violons VM²-395 contient également cette voix.
+        }
+        \global \includeNotes "hautbois"
+      >>
+      \new Staff \with {
+        instrumentName = \markup { \concat { 2 \super ds } violons }
+        shortInstrumentName = "Vln2"
+      } << \global \includeNotes "violon" >>
       \new Staff \with { \partiesInstr } << \global \includeNotes "parties" >>
+      \new Staff \with { \bassonInstr } << \global \includeNotes "basson" >>
       \new Staff \with { \basseInstr } << \global \includeNotes "basse" >>
     >>
   >>

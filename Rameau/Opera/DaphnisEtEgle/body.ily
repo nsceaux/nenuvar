@@ -125,8 +125,6 @@
 \pieceTocTitle "Musette"
 \includeScore "FHmusette"
 %{ 6-9 %} \newBookPart #'(full-rehearsal)
-\scene "[Fin de la scène VI : première version]"
-  "[Fin de la scène 6 : première version]"
 \pieceToc\markup\wordwrap { Daphnis : \italic { Oiseaux chantez dans ces bois écartés } }
 \includeScore "FIdaphnis"
 %{ 6-10 %} \newBookPart #'(full-rehearsal)
@@ -142,45 +140,16 @@
   Menuet où les amours se meslent avec les Bergers et Bergères
 }
 \includeScore "FLmenuet"
+\includeScore "FMmenuet"
 %{ 6-13 %}
 \pieceTocTitle "Tambourins I et II"
-\includeScore "FMtambourin"
 \includeScore "FNtambourin"
+\includeScore "FOtambourin"
 %{ 6-14 %}
 \pieceToc\markup\wordwrap { Eglé, l’Amour, Daphnis, chœur :
   \italic { Règne à jamais sur nos âmes } }
-\includeScore "FOregne"
+\includeScore "FPregne"
 %{ 6-15 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Contredanse très vive"
-\includeScore "FPcontredanse"
-\actEnd "FIN"
-
-%{ 6-16 %} \newBookPart #'(full-rehearsal)
-\scene "[Fin de la scène VI : deuxième version]"
-  "[Fin de la scène 6 : deuxième version]"
-\pieceToc\markup\wordwrap { ...l'amour règne... }
-\markup TODO
-%{ 6-17 %}
-\pieceTocTitle "Musette"
-\reIncludeScore "FHmusette" "FRmusette"
-%{ 6-18 %}
-\pieceTocTitle "Entrée de Bergers"
-\reIncludeScore "FFentree" "FSentree"
-%{ 6-19 %}
-\pieceTocTitle "Menuets I et II"
-\markup TODO
-%{ 6-20 %}
-\pieceToc\markup\wordwrap { Eglé, l’Amour, Daphnis, chœur :
-  \italic { Règne à jamais sur nos âmes } }
-\reIncludeScore "FOregne" "FVregne"
-%{ 6-21 %}
-\pieceTocTitle "Tambourins I et II"
-\reIncludeScore "FMtambourin" "FWtambourin"
-\reIncludeScore "FNtambourin" "FXtambourin"
-%{ 6-22 %}
-\pieceToc\markup\wordwrap { ... ariette gaie ... }
-\markup TODO
-%{ 6-23 %}
-\pieceTocTitle "Contredanse très vive"
-\reIncludeScore "FPcontredanse" "FZcontredanse"
+\includeScore "FQcontredanse"
 \actEnd "FIN"

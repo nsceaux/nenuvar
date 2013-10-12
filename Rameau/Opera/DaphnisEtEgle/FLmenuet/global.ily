@@ -1,7 +1,9 @@
 \key mi \major
 \digitTime\time 3/4
 \midiTempo #120
-\beginMark "Rondeau"
+\beginMark\markup {
+  \concat { P \super er } Menuet – Rondeau
+}
 s4
 \set Timing.beamExceptions = #'()
 \set Timing.baseMoment = #(ly:make-moment 1/8)

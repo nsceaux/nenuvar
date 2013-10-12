@@ -1,5 +1,4 @@
-\piecePartSpecs #`((dessus #:score "score-dessus")
-                   (parties)
+\piecePartSpecs #`((dessus #:instrument , #{ \markup\center-column { Hautbois Violons } #})
                    (basson #:clef "tenor" #:instrument "Bassons" #:notes "basson")
                    (basse)
-                   (silence #:on-the-fly-markup , #{ \markup\tacet #43 #}))
+                   (silence #:on-the-fly-markup , #{ \markup\tacet #32 #}))

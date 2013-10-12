@@ -1,12 +1,5 @@
-\key mi \minor
-\digitTime\time 2/2
-\once\override Staff.TimeSignature #'stencil =
-  #(lambda (grob)
-     (grob-interpret-markup
-       grob
-       #{ \markup\vcenter\bracket\musicglyph #"two" #}))
-\midiTempo #160
-\beginMark "Deuxième Tambourin"
-s1*16 \fineMark \bar "|."
-s1*11 \bar "|."
-\endMark\markup\right-column { "Da Capo" \null "On reprend le premier" }
+\key mi \major
+\digitTime\time 2/2 \midiTempo #160
+\beginMark "Premier Tambourin"
+s1*8 \origVersion\bar ":||:" \modVersion\bar ":|.|:"
+s1*8 \origVersion\bar ":||:" \modVersion\bar ":|."
