@@ -42,11 +42,13 @@
           Sur les parties séparées VM²-395, cet air de Daphnis
           est remplacé par une ariette dont le chant est
           perdu (voir page \page-refII #'FRariette ).
-          L’air de Daphnis est tout d’abord déplacé entre les tambourins
-          et la contredanse, tandis que le chœur \italic { Règne à jamais }
+          Cet air \italic { Oiseaux chantez } est tout d’abord déplacé
+          entre les tambourins et la contredanse,
+          tandis que le chœur \italic { Règne à jamais } est
           déplacé entre les menuets et les tambourins ;
-          puis il est remplacé par une ariette gaie :
-          \italic { Dieu des soupirs }
+          puis il est remplacé, sur les parties de premiers violons
+          et de basse continue, par une ariette gaie :
+          \italic { Charmant Amour }
           (voir page \page-refII #'FSdaphnis ).
         }
         \global \includeNotes "flute"

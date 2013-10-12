@@ -154,9 +154,15 @@
 \includeScore "FQcontredanse"
 \actEnd "FIN"
 
+
 \actn "Annexes"
 %{ 6-16 %}
 \pieceToc\markup\wordwrap { 
   Ariette [Eglé : \italic { L’Amour règne } ?]
 }
 \includeScore "FRariette"
+%{ 6-17 %}
+\pieceToc\markup\wordwrap { 
+  Daphnis : \italic { Charmant Amour }
+}
+\includeScore "FSdaphnis"
