@@ -54,7 +54,8 @@
     Grand Prêtre,
     Daphnis,
     Amour.
-    Les parties séparées de hautes-contre et tailles de violon sont manquantes.
+    Les parties séparées de Eglé, de hautes-contre et tailles de violon
+    sont manquantes.
   }
   \paragraph {
     Le manuscrit RES-208 contient des collettes, ratures et annotations
@@ -62,14 +63,13 @@
     L’ouverture et les deux menuets qui suivent n’y sont pas
     inclus ; en conséquence, on ne peut retrouver les parties de hautes-contre
     et tailles de violon pour ces pièces.
-    L’orchestration ne semble pas être toujours précisément détaillée :
-    par exemple, dans les quelques mesures de
-    \italic { chœur derrière le théâtre } (page \page-refII #'BBchoeur ),
-    le manuscrit ne contient pas d’indication pour les bassons et la basse
-    continue, tandis que dans le matériel VM²-395, ces instruments ont
-    une partie à jouer.  On détaille les différences entre les sources dans la
-    suite de ce chapitre. Les corrections les plus légères (petites collettes)
-    sont rapportées directement dans la partition, en note de bas de page.
+  }
+  \paragraphe {
+    Les différences entre le manuscrit RES-208 et les parties séparées VM²-395,
+    sont détaillées soit dans la suite de ce chapitre, soit directement dans
+    la partition, en note de bas de page, pour les variations les plus légères.
+  }
+  \paragraphe {
     La basse chiffrée utilisée pour cette édition est celle du manuscrit
     RES-208.  Les agréments, liaisons, nuances, etc. de
     l’ensemble des sources ont été reportés.  Les nuances abbrégées dans les

@@ -1,7 +1,7 @@
 \key mi \major
 \digitTime\time 3/4
 \midiTempo #120
-\beginMark\markup {
+\tempo\markup {
   \concat { P \super er } Menuet en Rondeau
 }
 s4

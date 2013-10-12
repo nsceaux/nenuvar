@@ -68,7 +68,8 @@
         \tag #'(voix1 daphnis) \footnoteHere #'(0 . 0) \markup {
           Partie séparée de basse continue (VM² 395) : \score {
             << \new Voice {
-               \set autoBeaming = ##f \clef "alto" \time 3/4 \key sol \minor
+                \tinyQuote \set autoBeaming = ##f
+                \clef "alto" \time 3/4 \key sol \minor
                 re'4\trill re'8 r16 sol' la'8. re''16 | mi'2
               } \addlyrics { - en -- ce Que j’ai souf -- fert }
             >>

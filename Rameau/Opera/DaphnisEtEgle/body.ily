@@ -107,7 +107,7 @@
 %{ 6-3 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entrée des jeux et des Plaisirs"
 \includeScore "FCentree"
-%{ 6-4 %} \newBookPart #'(full-rehearsal)
+%{ 6-4 %}
 \pieceTocTitle "Gigue"
 \includeScore "FDgigue"
 %{ 6-5 %}
@@ -121,7 +121,7 @@
 %{ 6-7 %}
 \pieceToc\markup\wordwrap { L’Amour : \italic { Sous le voile favorable } }
 \includeScore "FGamour"
-%{ 6-8 %}
+%{ 6-8 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Musette"
 \includeScore "FHmusette"
 %{ 6-9 %} \newBookPart #'(full-rehearsal)
@@ -133,7 +133,7 @@
 %{ 6-11 %}
 \pieceTocTitle "Entrée de deux Bergers"
 \includeScore "FKentree"
-%{ 6-12 %}
+%{ 6-12 %} \newBookPart #'(full-rehearsal)
 \pieceTocAndTitle
 "Menuet où les amours se meslent avec les Bergers et Bergères"
 \markup\wordwrap { 
@@ -141,11 +141,11 @@
 }
 \includeScore "FLmenuet"
 \includeScore "FMmenuet"
-%{ 6-13 %}
+%{ 6-13 %} \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Tambourins I et II"
 \includeScore "FNtambourin"
 \includeScore "FOtambourin"
-%{ 6-14 %}
+%{ 6-14 %} \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { Eglé, l’Amour, Daphnis, chœur :
   \italic { Règne à jamais sur nos âmes } }
 \includeScore "FPregne"

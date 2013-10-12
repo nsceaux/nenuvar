@@ -284,13 +284,12 @@
 %# Enflamment la beauté,
 %# Tri=omphent de la liberté.
 %#10 Oiseaux chantez etc.
-\livretRef #'FMtrio
+\livretRef #'FPregne
 \livretPers\line { EGLÉ, L'AMOUR, DAPHNIS }
 %# Règne à jamais sur nos âmes /
 %# Je règne sur vos âmes
 %# Amour, rends nos feux constants /
 %# Je rendrai vos feux constants.
-\livretRef #'FNtrio
 \livretPers CHŒUR
 %# Règne à jamais sur nos âmes
 %# Amour, rends nos feux constants.

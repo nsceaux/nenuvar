@@ -54,7 +54,7 @@
               entre les menuets et les tambourins, tandis que
               l’air de Daphnis \italic { Oiseaux chantez }
               (page \page-refII #'FIdaphnis )
-              est placé ici, ensuite remplacé par l’air
+              est placé ici, plus tard remplacé par l’air
               \italic { Charmant Amour }
               (voir annexe page \page-refII #'FSdaphnis ).
             }

@@ -32,7 +32,7 @@
       \new GrandStaff \with { \violonInstr } <<
         \new Staff <<
           \footnoteHere #'(0 . 0) \markup\justify {
-            Cet air ne figure pas dans la manuscrit RES-208,
+            Cet air ne figure pas dans le manuscrit RES-208,
             mais est présent dans les parties séparées VM²-395
             instrumentales. Il est positionné à la place de l’air
             de Daphnis \italic { Oiseaux, chantez }

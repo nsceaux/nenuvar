@@ -286,13 +286,12 @@
 \livretVerse#6 { Enflamment la beauté, }
 \livretVerse#8 { Triomphent de la liberté. }
 \livretVerse#10 { Oiseaux chantez etc. }
-\livretRef #'FMtrio
+\livretRef #'FPregne
 \livretPers\line { EGLÉ, L'AMOUR, DAPHNIS }
 \livretVerse#7 { Règne à jamais sur nos âmes / }
 \livretVerse#6 { Je règne sur vos âmes }
 \livretVerse#7 { Amour, rends nos feux constants / }
 \livretVerse#7 { Je rendrai vos feux constants. }
-\livretRef #'FNtrio
 \livretPers CHŒUR
 \livretVerse#7 { Règne à jamais sur nos âmes }
 \livretVerse#7 { Amour, rends nos feux constants. }

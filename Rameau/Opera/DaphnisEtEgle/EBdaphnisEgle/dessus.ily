@@ -2,7 +2,7 @@
 <<
   \tag #'hautbois1 {
     <>^\markup { \concat { P \super rs } h.b. }
-    \footnoteHere #'(-1 . -0.1) \markup\justify {
+    \footnoteHereNoSpace #'(-1 . 0.5) \markup\justify {
       La partie de premier hautbois est ajoutée dans la partie séparée
       de premiers violons VM²-395, sur une collette, avec l’indication :
       \italic { voyez l’air. }
