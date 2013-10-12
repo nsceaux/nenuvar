@@ -30,7 +30,16 @@
 
     \modVersion\new StaffGroupNoBar <<
       \new GrandStaff \with { \violonInstr } <<
-        \new Staff << \global \includeNotes "violon1" >>
+        \new Staff <<
+          \footnoteHere #'(0 . 0) \markup\justify {
+            Cet air ne figure pas dans la manuscrit RES-208,
+            mais est présent dans les parties séparées VM²-395
+            instrumentales. Il est positionné à la place de l’air
+            de Daphnis \italic { Oiseaux, chantez }
+            page \page-refII #'FIdaphnis .
+          }
+          \global \includeNotes "violon1"
+        >>
         \new Staff << \global \includeNotes "violon2" >>
       >>
       \new Staff \with {

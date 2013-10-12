@@ -23,6 +23,18 @@
     \modVersion\new StaffGroup <<
       \new Staff \with { \violonHautboisInstr } <<
         \new Voice {
+          \footnoteHereNoSpace #'(-2 . 1) \markup\justify {
+            Le manuscrit RES-208 comprend l’indication :
+            \italic {
+              au lieu de cette Pantomime, on copie la musette
+              [page \page-refII #'FHmusette ]
+              puis ensuite l’entrée des Bergers qui est auparavant
+              [page \page-refII #'FFentree ].
+            }
+            Sur les parties séparées VM²-395, la pantomime, et
+            l’entrée de deux bergers qui suit, sont remplacés
+            par la musette et l’entrée des Bergers.
+          }
           \override TextScript.outside-staff-priority = #999
           \override TextScript.font-shape = #'italic
           <>^"Puvigné" s1*6 s2. <>^"Etonnée" s4

@@ -49,6 +49,15 @@
       \new StaffGroupNoBracket <<
         \new GrandStaff \with { \violonHautboisInstr } <<
           \new Staff <<
+            \footnoteHereNoSpace #'(-1 . 1) \markup\justify {
+              Sur les parties séparées VM²-395, cet air est placé
+              entre les menuets et les tambourins, tandis que
+              l’air de Daphnis \italic { Oiseaux chantez }
+              (page \page-refII #'FIdaphnis )
+              est placé ici, ensuite remplacé par l’air
+              \italic { Charmant Amour }
+              (voir annexe page \page-refII #'FSdaphnis ).
+            }
             \global \keepWithTag #'dessus1 \includeNotes "dessus"
           >>
           \new Staff \with { \haraKiriFirst } <<
