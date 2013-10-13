@@ -1,5 +1,0 @@
-\piecePartSpecs #`((dessus)
-                   (parties)
-                   (basse)
-                   (basse-continue #:score "score-basse-continue")
-                   (silence #:score "score-silence"))
