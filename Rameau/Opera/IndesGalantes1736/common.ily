@@ -62,15 +62,28 @@
 
 \opusPartSpecs
 #`((dessus "Violons, Flûtes, Hautbois" ()
-           (#:notes "dessus" #:tag-notes dessus))
+           (#:notes "dessus" #:tag-notes dessus
+                    #:clef "french" ;; treble
+                    ))
    (parties "Hautes-contre et Tailles" ()
-            (#:notes "parties" #:tag-notes parties #:clef "alto"))
+            (#:notes "parties" #:tag-notes parties
+                     #:clef "soprano" ;; alto
+                     ))
    (trompette-timbales "Trompettes et Timbales" ()
                        (#:notes "dessus" #:tag-notes trompette))
    (basse "Bassons et Basses" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basse))
    (basse-continue "Basse continue" ((basse #f))
           (#:notes "basse" #:clef "basse" #:tag-notes basse)))
+
+#(set-cdr! (assoc 'dessus french-clefs)
+          '(french . french))
+#(set-cdr! (assoc 'haute-contre french-clefs)
+          '(soprano . soprano))
+#(set-cdr! (assoc 'taille french-clefs)
+          '(mezzosoprano . mezzosoprano))
+
+
 
 %%%
 
@@ -206,3 +219,7 @@ entree =
                                                    (string-upper-case entree-title2))))
      (add-no-page-break parser)
      (make-music 'Music 'void #t)))
+
+check =
+#(define-music-function (parser location music) (ly:music?)
+   #{ \tweak #'color #red $music #})

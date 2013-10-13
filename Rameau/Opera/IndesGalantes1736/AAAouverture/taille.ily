@@ -10,7 +10,7 @@ mi'1 |
 fad'4. fad'8 la'4. la'8 |
 la'4 sol' sol' fad' |
 fad' mi' la la' |
-la' sol' la'8 sol' fad' mi' |
+la'4. sol'8 la'8 sol' fad' mi' |
 re'4 re' dod'4.\trill re'8 |
 re'1 |%%
 re'2 r |
@@ -60,15 +60,16 @@ dod'4 la8 si dod' re' mi' fad' |
 sol'4 la sol' la |
 fad'4 sol'8 fad' mi'4 la' |
 re'4 fad'8 sol' la'4 la' |
-re'4 sol'2 fad'4 |
+re'4 sol'2 fad'4\trill |
 sol'4 si'8 do'' re''4 re'' |
 sol'8 sol' do'' re'' mi''4 la' |
 la'2 sol' |
 fad'\trill r |
-<<
-  \new Voice { \voiceOne R1*4 }
-  { \voiceTwo re'1~ | re'~ | re'~ | re'~ | \oneVoice }
->> re'2 r |
+re'1~ |
+re'~ |
+re'~ |
+re'~ |
+re'2 r |
 r4 re'8 mi' fad' sol' la' si' |
 fad'4. sol'8 la' si' do'' la' |
 si'4 sol' r sol |

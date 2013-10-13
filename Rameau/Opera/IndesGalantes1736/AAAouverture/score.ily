@@ -41,11 +41,6 @@
     \origVersion\new StaffGroupNoBar \group
     \modVersion\new StaffGroup \group
   >>
-  \layout {
-    indent = #(if (eqv? #t (ly:get-option 'urtext))
-                  smallindent
-                  largeindent)
-    ragged-last = #(eqv? #t (ly:get-option 'urtext))
-  }
+  \layout { }
   \midi { }
 }

@@ -1,15 +1,16 @@
 \clef "haute-contre" R1 |
 sol'4. re'8 si4 sol |
-re4. re'8 re'4 fad' |
+re4. re'8 re'4 fad'\trill |
 sol' si' la'4. la'8 |
-si'4. si'8 dod''4. dod''8 |
+si'4. si'8 dod''4.\trill dod''8 |
 re''2 re' |
 re''~ re''4. re''8 |
 re''4. re''8 si'4. si'8 mi'1 |
 re''2. re'4 |
 re' sol' mi' la' |
 la' sol' sol' dod'' |
-re'' la'2 la'8 sol' fad'4 si' la' sol' |
+re'' la'2~ la'8 sol' |
+fad'4 si' la' sol' |
 fad'1\trill |%%
 fad'2\trill r |
 R1 |
@@ -48,7 +49,7 @@ red''4 fad' si'2 |
 si'2. si'4 |
 sol'4 do'' si' la' |
 sold'2 r |
-R1*6 |
+R1*6 | \allowPageTurn
 r8 mi'' re'' do'' si' la' sold' fad' |
 mi'4. la'8 la'4. sold'8 |
 la' mi' fad' sold' la'2 |
@@ -62,17 +63,18 @@ re''1 |
 re''4 si'8 do'' re''4 re'' |
 sol'8 sol' do'' re'' mi''4 re''8 do'' |
 do''2 si' |
-fad' r |
-<<
-  \new Voice { \voiceOne R1*4 }
-  { \voiceTwo re'1~ | re'~ | re'~ | re'~ | \oneVoice }
->> re'2 r |
+fad'\trill r |
+re'1~ |
+re'~ |
+re'~ |
+re'~ |
+re'2 r |
 r4 re'8 mi' fad' sol' la' si' |
 la'2 re'' |
 re'' r4 sol' |
 sol'2. sol'4 |
 fad'8 mi' re' mi' fad' sol' la' fad' |
-sol'4. sol'8 sol'4 fad' |
+sol'4. sol'8 sol'4 fad'\trill |
 sol'2 r |
 R1 |
 r4 si8 do' re' mi' fa' sol' |

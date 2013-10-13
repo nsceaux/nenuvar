@@ -3,9 +3,26 @@
 \clef "bass" re'4.^"Tous" la8 fad4 re |
 sol, sol fad fad, |
 mi, mi la la, |
-re,2 si4. la16*2/3 sol fad |
+\footnoteHere #'(0 . 0) \markup\justify {
+  \line {
+    A132a, parties séparées : \score {
+      { \tinyQuote \key sol \major \time 2/2 \clef "bass"
+        mi,4 mi la la, | fad,2 }
+      \layout { \quoteLayout }
+    }
+    \hspace #1
+  }
+  \line {
+    A132a², Vm²328, Cons.192 : \score {
+      { \tinyQuote \key sol \major \time 2/2 \clef "bass"
+        mi,4 mi la la, | re,2  }
+      \layout { \quoteLayout }
+    }
+  }
+}
+fad,2 si4. la16*2/3 sol fad |
 sol2~ sol4. sol8 |
-sold2~ sold4. mi8 |
+sold2\trill~ sold4. mi8 |
 la4. mi8 dod4 la, |
 fad,2 r4 fad |
 sol mi la fad |
@@ -25,14 +42,14 @@ mi2~ mi8 mi re do |
 si,4 sol, sol si, |
 do fa, sol, sol, |
 do,2 r4 do |
-dod2. la,4 |
+dod2.\trill la,4 |
 re2 r |
 R1*3 |
 \clef "tenor" r4^"Bassons" la8 si dod' re' mi' fad' |
 sol'4 la sol' la |
 sol'2 r8 sol' fad' mi' |
 fad'4 sol' la' la |
-\clef "bass" re'4 re8^"Tous" mi fad sol la si |
+re'4 \clef "bass" re8^"Tous" mi fad sol la si |
 do'4 re do' re |
 do'2~ do'8 mi' re' do' |
 si2 r |
@@ -44,17 +61,13 @@ si2 r |
 r8 si la sol fad mi red dod |
 si,4 si red si |
 mi sol mi si, |
-do la, si,2 |
+do la, si, si, |
 mi,2 r |
-\origVersion\clef "tenor"
+\clef "tenor"
 r2^"Bassons" r4 <<
-  { \voiceOne mi'4 | mi'1~ | mi'~ | mi'~ | mi'4 \oneVoice }
-  \new CueVoice {
-    \voiceTwo mi'4_"[Toulouse 1750]" |
-    la2 r4 la | mi2 r4 mi | la,2 r4 la, | mi,4
-  }
->>
-\origVersion\clef "bass"
+  { mi'4 | mi'1~ | mi'~ | mi'~ | mi'4 } \\
+  { mi'4 la2 r4 la | mi2 r4 mi | la,2 r4 la, | mi,4 }
+>> \clef "bass"
 mi8^"Tous" fad sold la si do' |
 re'4 mi re' mi |
 re'2~ re'8 re' mi' re' |
@@ -62,19 +75,20 @@ do' do' re' do' si si do' si |
 la2. sol4 |
 fa2 do |
 re mi |
-la,4 \clef "tenor" la8^"Bassons" si dod' re' mi' fad' |
+<< { la,4 \clef "tenor" la8^"Bassons" si dod' re' mi' fad' }
+  \\ { la,2 r } >> |
 sol'4 la sol' la |
 fad' sol'8 fad' mi'4 la' |
-\clef "basse" re'2.^"Tous" do'4 |
-si8 sol fad mi re do si, la, |
+re'2. do'4 |
+si8 \clef "basse" sol[^"Tous" fad mi] re do si, la, |
 sol,4 sol fa sol |
 mi sol do re8 mi |
-re2 la, |
+re2 sol, |
 re, r |
 r2^"Bassons" r4 re' |
-<< { re'1~ | re'~ | re' | re'4 }
+<< { re'1~ | re'~ | re'~ | re'4 }
   \\ { sol2. sol4 | re2. re4 | sol,2. sol,4 | re,4 } >>
-re8^"[Tous]" mi fad sol la si |
+re8^"Tous" mi fad sol la si |
 do'4 re do' re |
 do'2~ do'8 mi' re' do' |
 si2 r4 si, |
@@ -85,9 +99,8 @@ mi2 r |
 R1 |
 r4 sol,8 la, si, do re mi |
 fa2 r |
-\origVersion\clef "tenor"
-r4^"Bassons" sol8 la si do' re' mi' |
-fa'2 \origVersion\clef "bass" r |
+\clef "tenor" r4^"Bassons" sol8 la si do' re' mi' |
+fa'2 r \clef "bass" |
 r4^"Tous" si,8 do re mi fa re |
 mi fa sol fa mi fa mi re |
 do re mi re do re do si, |
@@ -97,8 +110,8 @@ si, do re re, |
 sol,1 |
 sol,8 la, si, do re mi fad re |
 sol4 sol, sol sol, |
-<sol, sol>1\trill |
+<sol,\trill sol>1 |
 R1
 \origVersion s1
-<sol, sol>1 |
+<sol,\trill sol>1 |
 
