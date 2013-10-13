@@ -1,12 +1,11 @@
-\tocItem "Livret"
+\notesSection "Livret"
 \markuplist\page-columns-title \act\line { LIVRET } {
 \livretAct\line { PROLOGUE }
-\livretDescAtt\wordwrap-center {
+\livretDescAtt\justify {
   Le Theâtre représente les Jardins du Palais
   \concat { d’ \smallCaps Hebé. }
 }
 \livretScene\line { SCENE PREMIERE }
-\livretRef #'AABhebe
 \livretPers HEBÉ
 \livretVerse#8 { Vous, qui d’Hebé suivez les loix, }
 \livretVerse#12 { Venez, rassemblez-vous accourez à ma voix. }
@@ -18,27 +17,10 @@
 \livretVerse#6 { Vous sont plus chers encore. }
 \livretVerse#8 { Vous, qui d’Hebé, &c. }
 \livretScene\line { SCENE II }
-\livretRef #'ABAentree
-\livretDescAttPage\justify {
+\livretDescAtt\wordwrap-center {
   \smallCaps Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.
 }
-\livretRef #'ABBhebe
-\livretPers HEBÉ
-\livretVerse#5 { Amants, seurs de plaire }
-\livretVerse#5 { Suivez vôtre ardeur, }
-\livretVerse#6 { Chantez vôtre bonheur, }
-\livretVerse#8 { Mais sans offenser le mistere. }
-\livretVerse#7 { Il est pour un tendre cœur }
-\livretVerse#12 { Des biens dont le secret augmente la douceur, }
-\livretVerse#6 { Songez qu’il faut les taire. }
-\livretVerse#5 { Amants, seurs de plaire }
-\livretVerse#5 { Suivez vôtre ardeur, }
-\livretVerse#6 { Chantez vôtre bonheur, }
-\livretVerse#8 { Mais sans offenser le mystere. }
-\livretRef #'ABCair
-\livretDesc\wordwrap-center { On danse. }
-\livretRef #'ABDhebeChoeur
 \livretPers HEBÉ
 \livretVerse#12 { Musettes, résonnez dans ce riant Boccage, }
 \livretVerse#7 { Accordez-vous sous l’ombrage }
@@ -51,12 +33,24 @@
 \livretVerse#7 { Au murmure des ruisseaux, }
 \livretVerse#8 { Accompagnez le doux ramage }
 \livretVerse#5 { Des tendres Oiseaux. }
-\livretRef #'ABErondeau
-\livretDescPage\wordwrap-center {
-  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
-  interrompues par le bruit des Tambours.
+\livretDesc\wordwrap-center {
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé. }
 }
-\livretRef #'ABFhebe
+\livretPers HEBÉ
+\livretVerse#5 { Amants, seurs de plaire }
+\livretVerse#5 { Suivez vôtre ardeur, }
+\livretVerse#6 { Chantez vôtre bonheur, }
+\livretVerse#8 { Mais sans offenser le mistere. }
+\livretVerse#7 { Il est pour un tendre cœur }
+\livretVerse#12 { Des biens dont le secret augmente la douceur, }
+\livretVerse#6 { Songez qu’il faut les taire. }
+\livretVerse#5 { Amants, seurs de plaire }
+\livretVerse#5 { Suivez vôtre ardeur, }
+\livretVerse#6 { Chantez vôtre bonheur, }
+\livretVerse#8 { Mais sans offenser le mystere. }
+\livretDesc\wordwrap-center {
+  Danses interrompues par le bruit des Tambours.
+}
 \livretPers HEBÉ
 \livretVerse#12 { Qu’entends-je ? les Tambours font taire nos Musettes ! }
 \livretVerse#12 { C’est Bellonne : Ses cris excitent les Heros : }
@@ -72,82 +66,32 @@
     \concat { d’ \smallCaps Hebé } à n’aimer que la gloire.
   }
 }
-\livretRef #'ACAbellone
 \livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d’ \smallCaps Hebé. } } }
 \livretVerse#12 { La Gloire vous appelle ; écoutez ses Trompettes, }
 \livretVerse#12 { Hâtez-vous, armez-vous & devenez Guerriers. }
 \livretVerse#8 { Quittez ces paisibles retraites, }
 \livretVerse#12 { Combattez ; il est temps de cueillir des Lauriers : }
 \livretVerse#12 { La Gloire vous appelle, &c. }
-\livretRef #'ACCair
-\livretDescPage\justify {
+\livretDesc\justify {
   Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
   Ces Amants genereux épris des charmes de la Gloire,
   se rangent près de \smallCaps Bellonne & suivent
   ses Etendarts.
 }
-\livretRef #'ACDbellone
-\livretPers BELLONNE
-\livretVerse#3 { C’est la gloire }
-\livretVerse#8 { Qui rend les heros immortels, }
-\livretVerse#8 { Allez encenser ses autels, }
-\livretVerse#10 { Partez, volez au temple de memoire. }
-\livretRef #'ACEair
-\livretDesc\wordwrap-center { On danse. }
-\livretRef #'ACFchoeur
-\livretPers CHŒUR
-\livretVerse#6 { Vous nous abandonnez. }
-\livretVerse#6 { Quelle peine mortelle ! }
-\livretVerse#8 { Que sont devenus nos beaux jours ! }
-\livretVerse#6 { Quelle peine mortelle ! }
-\livretVerse#6 { Ecoutez les Amours. }
-\livretVerse#6 { La Gloire nous appelle, }
-\livretVerse#6 { Nous n’écoutons plus qu’elle. }
 
 \livretScene\line { SCENE IV }
-\livretRef #'ADAhebe
-\livretPers HEBÉ
-\livretVerse#6 { Bellonne les entraîne... }
-\livretVerse#6 { O toy, vainqueur des Cieux, }
-\livretVerse#8 { Viens prouver ton pouvoir suprême ! }
-\livretVerse#12 { On ose te quitter pour suivre d’autres Dieux ! }
-\livretVerse#14 { Fils de Vénus, ah ! qui peut mieux te vanger que toy-meme ? }
-
-\livretScene\line { SCENE V }
-\livretRef #'AEAannonce
-\livretPers HEBÉ
-\livretVerse#12 { L’Amour paroit armé, qu’il soit victorieux ! }
-\livretRef #'AEBamourHebe
-\livretPers L’AMOUR
-\livretVerse#12 { Pourquoy Mars à l’Amour declare-t-il la guerre ? }
-\livretVerse#12 { Mars perd-t-il son encens, lorsqu’on vient m’en offrir ? }
-\livretVerse#8 { Jamais les mirthes sur la terre }
-\livretVerse#10 { N’ont empeché les lauriers de fleurir. }
 \livretPers HEBÉ
 \livretVerse#12 { Pour remplacer les Cœurs que vous ravit Bellone, }
 \livretVerse#12 { Fils de Venus lancez vos traits les plus certains ; }
 \livretVerse#12 { Conduisez les Plaisirs dans les climats lointains }
 \livretVerse#8 { Quand l’Europe les abandonne. }
-\livretRef #'AECamour
-\livretPers L’AMOUR
-\livretVerse#12 { Ranimez vos flambeaux, remplissez vos carquois, }
-\livretVerse#12 { Moissonnez, meritez les palmes les plus belles ! }
-\livretVerse#8 { Amours, remportez, a la fois, }
-\livretVerse#6 { Cent victoires nouvelles ! }
-\livretVerse#8 { L’horreur suit le terrible Mars ; }
-\livretVerse#8 { Les Jeux s’amusent sur vos traces, }
-\livretVerse#10 { Partez, partez, vos nouveaux étendards }
-\livretVerse#6 { Sont l’ouvrage des Graces. }
-\livretRef #'AEDair
-\livretDesc\wordwrap-center { [On danse.] }
-\livretRef #'AEGamourHebe
-\livretPers\line { L’AMOUR ET HEBÉ }
+\livretPers CHŒUR
 \livretVerse#8 { Traversez les plus vastes Mers, }
 \livretVerse#12 { Volez Amours, portez vos armes & vos fers }
 \livretVerse#8 { Sur le plus éloigné Rivage. }
-\livretRef #'AEHchoeur
-\livretPers CHŒUR
+\livretVerse#8 { Est-il un cœur dans l’Univers }
+\livretVerse#8 { Que ne vous doive son hommage. }
 \livretVerse#8 { Traversez les plus vastes Mers, }
 \livretVerse#12 { Volez Amours, portez vos armes & vos fers }
 \livretVerse#8 { Sur le plus éloigné Rivage. }
@@ -159,7 +103,7 @@
 \livretFinAct\line { FIN DU PROLOGUE }
 \sep
 \livretAct\center-column {
-  \line { PREMIERE ENTRÉE }
+  \line { DEUXIÉME ENTRÉE }
   \line { LE TURC GENEREUX }
 }
 \livretDescAtt\wordwrap-center {
@@ -168,7 +112,6 @@
 }
 \livretScene\line { SCENE PREMIERE }
 \livretDescAtt\wordwrap-center\smallCaps { Emilie, Osman. }
-\livretRef #'BABemilieOsman
 \livretPers EMILIE
 \livretVerse#12 { C’est Osman qui me suit, ne luy cachons plus rien ; }
 \livretVerse#12 { Pour arrêter son feu, découvrons-luy le mien. }
@@ -180,21 +123,19 @@
 \livretVerse#12 { Ciel ! qu’entens-je ! }
 \livretPers EMILIE
 \livretVerse#12 { \transparent { Ciel ! qu’entens-je ! } Apprenez mon destin rigoureux. }
-\livretRef #'BACemilie
 \livretVerse#10 { Dans le séjour témoin de ma naissance }
 \livretVerse#12 { J’épousois un Amant digne de ma constance ; }
 \livretVerse#12 { Sur un bord solitaire on commençoit les Jeux, }
 \livretVerse#8 { Lorsque des Ravisseurs perfides }
-\livretVerse#8 { S’avancent le fer à la main ; }
+\livretVerse#8 { Paroissent le fer à la main ; }
 \livretVerse#12 { La terreur un instant ferme mes yeux timides, }
 \livretVerse#12 { Ils ne s’ouvrent qu’aux cris d’un Corsaire inhumain, }
 \livretVerse#8 { Bien-tôt les Vents & le Ciel même }
 \livretVerse#12 { Complices de son crime, éloignent ses Vaisseaux, }
 \livretVerse#10 { Et je me vois captive sur les eaux, }
 \livretVerse#12 { Près de ce que j’abhore, & loin de ce que j’aime. }
-\livretRef #'BADemilieOsman
 \livretPers OSMAN
-\livretVerse#12 { Qu’en peignant vos malheurs vous redoublez les miens ! }
+\livretVerse#12 { Qu’en peignant vos malheurs vous redoublez mes maux ! }
 \livretVerse#12 { Dissipez vos ennuis sur cet heureux Rivage. }
 \livretPers EMILIE
 \livretVerse#12 { J’y subis, sous vos loix, un second esclavage. }
@@ -214,13 +155,12 @@
 \livretVerse#6 { Se laisseroit surprendre ! }
 \livretPers OSMAN
 \livretVerse#8 { Ah ! que me faites vous entendre ? }
-\livretRef #'BAEosman
-\livretVerse#8 { C’est trop m’accabler par vos pleurs ! }
-\livretVerse#12 { Cessez d’entretenir d’inutiles ardeurs. }
+\livretVerse#8 { C’est trop m’outrager par vos pleurs ! }
+\livretVerse#12 { Cessez d’entretenir d’inutiles douleurs. }
 \livretVerse#7 { Il faut que l’Amour s’envole }
 \livretVerse#7 { Dès qu’il voit partir l’espoir. }
 \livretVerse#8 { A l’ennuy la constance immole }
-\livretVerse#8 { Le cœur qui s’en fait un devoir. }
+\livretVerse#8 { Le cœur qui la croit un devoir. }
 \livretVerse#7 { Il faut que l’Amour s’envole }
 \livretVerse#7 { Dès qu’il voit partir l’espoir. }
 \livretVerse#8 { Je vous quitte, belle Emilie, }
@@ -229,14 +169,12 @@
 \livretVerse#12 { Vous aimez un Objet que vous ne verrez plus. }
 
 \livretScene\line { SCENE II }
-\livretRef #'BBAemilie
 \livretPers EMILIE
 \livretVerse#8 { Que je ne verray plus !... Barbare }
 \livretVerse#8 { Que me présage ce discours ? }
 \livretVerse#12 { Ah ! si de mon Amant le trépas me sépare, }
 \livretVerse#12 { Si mes yeux l’ont perdu, mon cœur le voit toûjours. }
-\livretRef #'BBBtempete
-\livretDidasPage\justify {
+\livretDidasP\justify {
   Le Ciel se couvre de nuages sombres, les vents
   sifflent, les flots s'élevent.
 }
@@ -255,13 +193,11 @@
 \livretDidasP\justify {
   La Tempête continue avec la même violence.
 }
-\livretRef #'BBCchoeur
 \livretPers\line { CHŒUR de Matelots qu'on ne voit point. }
-\livretVerse#12 { Ciel ! de plus d’une mort nous ressentons les coups ! }
+\livretVerse#12 { Ciel ! de plus d’une mort nous redoutons les coups ! }
 \livretVerse#12 { Serons-nous embrasez par les feux du Tonnerre ? }
 \livretVerse#8 { Sous les Ondes perirons-nous }
 \livretVerse#6 { A l’Aspect de la Terre ! }
-\livretRef #'BBDemilie
 \livretPers EMILIE
 \livretVerse#8 { Que ces cris agitent mes sens ! }
 \livretVerse#12 { Moy-même je me crois victime de l’orage. }
@@ -271,16 +207,14 @@
 \livretVerse#12 { Mais le Ciel est touché de leurs perils pressants, }
 \livretVerse#12 { Le Ciel, le juste Ciel calme l’onde & les vents ; }
 \livretVerse#12 { Je souffrois dans le port les tourments du naufrage. }
-\livretRef #'BBEchoeur
 \livretPers\wordwrap-center {
   CHŒUR, qu'on ne voit point, de Matelots de l'Escadre de
   \smallCaps Valere, échapez du naufrage & pris par les Turcs.
 }
 \livretVerse#12 { Que nous sert d’échaper à la fureur des Mers ? }
 \livretVerse#12 { En évitant la mort nous tombons dans les fers. }
-\livretRef #'BBFemilie
 \livretPers EMILIE
-\livretVerse#12 { De malheureux Captifs vont partager mes peines }
+\livretVerse#12 { D’infortunez Captifs vont partager mes peines }
 \livretVerse#8 { Dans ce redoutable séjour... }
 \livretVerse#8 { S’il sont Amants, ah ! que l’Amour }
 \livretVerse#12 { Va gemir sur ces bords dans de barbares chaînes ! }
@@ -289,7 +223,6 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Emilie, Valere } en Esclave.
 }
-\livretRef #'BCAemilieValere
 \livretPers\line { EMILIE, \fontsize #-1 { à part. } }
 \livretVerse#12 { Un de ces malheureux approche en soupirant !... }
 \livretVerse#12 { Helas ! son infortune est semblable à la mienne ! }
@@ -333,13 +266,13 @@
 \livretVerse#8 { \transparent { Mon Tyran m’aime... } O desespoir ! }
 \livretVerse#12 { Non, vous ne sortirez jamais de son pouvoir ! }
 \livretVerse#8 { Quoy ! Valere ne vous retrouve }
-\livretVerse#8 { Que pour vous perdre pour toujours ? }
+\livretVerse#8 { Que pour vous perdre sans retour ? }
 \livretVerse#12 { Nôtre Tyran vous aime ! }
 \livretPers EMILIE
 \livretVerse#12 { \transparent { Nôtre Tyran vous aime ! } Et ma douleur le prouve, }
 \livretVerse#12 { Je ne demandois pas ce triomphe à l’Amour. }
 \livretPers VALERE
-\livretVerse#12 { Ah ! sçait-on vous aimer dans ce fatal séjour ! }
+\livretVerse#12 { Ah ! sçait-on vous aimer dans ce cruel séjour ! }
 \livretVerse#8 { Sur ces bords une ame enflâmée }
 \livretVerse#8 { Partage ses vœux les plus doux ; }
 \livretVerse#8 { Et vous meritez d’être aimée }
@@ -349,7 +282,6 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Emilie, Valere } en Esclave, \smallCaps Osman Bacha.
 }
-\livretRef #'BDAevo
 \livretPers\line { EMILIE, \fontsize #-1 { à \smallCaps Valere. } }
 \livretVerse#12 { Il vous entend, hélas ! comment fuir sa colere ? }
 \livretPers\line { OSMAN, \fontsize #-1 { à \smallCaps Emilie. } }
@@ -399,7 +331,6 @@
 
 \livretScene\line { SCENE V }
 \livretDescAtt\wordwrap-center\smallCaps { Valere, Emilie. }
-\livretRef #'BEAvalere
 \livretPers VALERE
 \livretVerse#10 { Fut-il jamais un cœur plus genereux ? }
 \livretVerse#12 { Digne de nôtre eloge, il ne veut pas l’entendre... }
@@ -411,27 +342,17 @@
   \smallCaps { Emilie, Valere, Provençaux et Provençales }
   de leur Escadre, Esclaves Africains \concat { d' \smallCaps Osman. }
 }
-\livretRef #'BFBduo
 \livretPers\line { EMILIE ET VALERE }
-\livretVerse#12 { Volez, Zephirs, volez tendres Amants de Flore ; }
+\livretVerse#12 { Volez, Zephirs, volez jeunes Amants de Flore ; }
 \livretVerse#12 { Si vous nous conduisez, tous nos vœux sont remplis. }
 \livretVerse#12 { Rivages fortunez de l’Empire des Lys, }
 \livretVerse#8 { Ah ! nous vous reverons encore. }
-\livretRef #'BFCchoeur
 \livretPers CHŒUR
-\livretVerse#12 { Volez, Zephirs, volez tendres Amants de Flore ; }
+\livretVerse#12 { Volez, Zephirs, volez jeunes Amants de Flore ; }
 \livretVerse#12 { Si vous nous conduisez, tous nos vœux sont remplis. }
-\livretRef #'BFDair
-\livretDescPage\justify { On danse. }
-\livretRef #'BFEvalere
-\livretPers VALERE
-\livretVerse#7 { Hatez-vous de vous embarquer, }
-\livretVerse#8 { Jeunes cœurs, volez à Cithere ! }
-\livretVerse#8 { Sur cette flotte temeraire }
-\livretVerse#7 { On ne peut jamais trop risquer. }
-\livretRef #'BFFrigaudon
-\livretDescPage\line { Danse des \smallCaps Matelots. }
-\livretRef #'BFHemilie
+\livretVerse#12 { Rivages fortunez de l’Empire des Lys, }
+\livretVerse#8 { Ah ! nous vous reverons encore. }
+\livretDesc\line { Danse des \smallCaps Matelots. }
 \livretPers EMILIE
 \livretVerse#8 { Fuyez, fuyez Vents orageux, }
 \livretVerse#7 { Calmez les Flots amoureux, }
@@ -447,18 +368,14 @@
 \livretVerse#3 { Ris & Jeux. }
 \livretVerse#8 { Charmant Plaisir, fais nôtre sort }
 \livretVerse#7 { Dans la route comme au Port. }
-\livretRef #'BFItambourin
-\livretDescPage\justify { On danse. }
-\livretRef #'BFKariette
+\livretDesc\justify { On danse. }
 \livretPers EMILIE
-\livretVerse#12 { Regnez Amours, Regnez, ne craignez point les flots ; }
+\livretVerse#12 { Regnez Amours, Regnez, ne craignez pas les flots ; }
 \livretVerse#12 { Vous trouverez sur l’Onde un aussi doux repos }
 \livretVerse#8 { Que sous les myrthes de Cythere ; }
-\livretVerse#12 { Regnez Amours, Regnez, ne craignez point les flots ; }
+\livretVerse#12 { Regnez Amours, Regnez, ne craignez pas les flots ; }
 \livretVerse#12 { Ils ont donné le jour à vôtre aimable Mere. }
-\livretRef #'BFItambourin
-\livretDescPage\justify { On danse. }
-\livretRef #'BFLemilie
+\livretDesc\justify { On danse. }
 \livretPers EMILIE
 \livretVerse#9 { Partez, on languit sur le Rivage, }
 \livretVerse#7 { Tendres Cœurs, embarquez-vous : }
@@ -466,10 +383,13 @@
 \livretVerse#7 { Que l’espoir vous guide-tous. }
 \livretVerse#9 { Partez, on languit sur le Rivage, }
 \livretVerse#7 { Tendres Cœurs, embarquez-vous : }
-\livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
+\livretDesc\justify {
+  LE CHŒUR avec \smallCaps Emilie, chante cette Parodie en Dialogue.
+}
+\livretFinAct\line { FIN DE LA DEUXIÉME ENTRÉE }
 \sep
 \livretAct\center-column {
-  \line { DEUXIEME ENTRÉE }
+  \line { PREMIERE ENTRÉE }
   \line { LES INCAS DU PEROU }
 }
 \livretDescAtt\justify {
@@ -492,7 +412,7 @@
 \livretVerse#12 { Que vous penetrez mal mon secret embaras ! }
 \livretVerse#12 { Quel injuste soupçon !.. quoy, sans inquiétude, }
 \livretVerse#6 { Brise-t-on à la fois }
-\livretVerse#8 { Les liens du sang & des Loix ? }
+\livretVerse#7 { Les liens du sang & des Loix ? }
 \livretVerse#8 { Excusez mon incertitude. }
 \livretPers CARLOS
 \livretVerse#12 { Dans un culte fatal, qui peut vous arrêter ? }
@@ -512,14 +432,14 @@
 \livretVerse#12 { \transparent { Ils observent mes pas... } Leurs soins sont inutiles, }
 \livretVerse#8 { Si vous m’acceptez pour Epoux. }
 \livretPers PHANI
-\livretVerse#12 { Carlos, allez, pressez ce moment favorable, }
+\livretVerse#10 { Allez, pressez ce moment favorable, }
 \livretVerse#10 { Délivrez-moy d’un séjour détestable ; }
 \livretVerse#12 { Mais, ne venez pas seul... quel funeste malheur ! }
 \livretVerse#12 { Si vôtre mort... le Peuple est barbare, implacable, }
 \livretVerse#8 { Et quelquefois le nombre accable }
 \livretVerse#8 { La plus intrépide valeur. }
 \livretVerse#8 { Allez ; ma crainte est pardonnable ; }
-\livretVerse#12 { Empruntez du secours, assemblez vos Guerriers ; }
+\livretVerse#12 { Empruntez du secours, rassemblez vos Guerriers ; }
 \livretVerse#12 { Conduisez leur courage à de nouveaux lauriers. }
 
 \livretScene\line { SCENE II }
@@ -539,7 +459,7 @@
 \livretVerse#12 { Tout ce que dit l’Amour est toûjours pardonnable, }
 \livretVerse#12 { Et le Ciel que je sers doit servir mon ardeur. }
 \livretDidasP\line { à \smallCaps Phani. }
-\livretVerse#12 { Le Dieu de ces climats dans ce beau jour m’inspire : }
+\livretVerse#12 { Le Dieu de nos climats dans ce beau jour m’inspire : }
 \livretVerse#12 { Princesse, le Soleil daigne veiller sur vous, }
 \livretVerse#8 { Et luy-même dans nôtre empire, }
 \livretVerse#12 { Il prétend par ma voix vous nommer un époux. }
@@ -555,7 +475,7 @@
 \livretVerse#12 { Non, non, je ne crois pas tout ce que l’on assure }
 \livretVerse#6 { En attestant les Cieux ; }
 \livretVerse#6 { C’est souvent l’imposture }
-\livretVerse#6 { Qui parle au nom des Dieux. }
+\livretVerse#6 { Qui fait parler les Dieux. }
 \livretPers HUASCAR
 \livretVerse#12 { Pour les Dieux & pour moy quelle coupable injure ! }
 \livretVerse#12 { Je sçais ce qui produit vôtre incredulité, }
@@ -570,27 +490,30 @@
 \livretVerse#8 { Redoutez le Dieu qui les guide. }
 \livretPers HUASCAR
 \livretVerse#8 { C’est l’or qu’avec empressement, }
-\livretVerse#13 { Sans jamais s’assouvir, ces Barbares dévorent, }
+\livretVerse#12 { Sans jamais s’assouvir, ces Barbares dévorent, }
 \livretVerse#12 { L’or qui de nos Autels ne fait que l’ornement, }
-\livretVerse#11 { Est le seul Dieu que nos Tyrans adorent. }
+\livretVerse#10 { Est le seul Dieu que nos Tyrans adorent. }
 \livretPers PHANI
 \livretVerse#8 { Témeraire ! que dites-vous ! }
 \livretVerse#12 { Révérez leur puissance & craignez leur couroux. }
 \livretVerse#8 { Pour leur obtenir vos hommages, }
 \livretVerse#8 { Faut-il des miracles nouveaux ? }
 \livretVerse#8 { Vous avez vû de nos Rivages, }
-\livretVerse#8 { Leurs Villes flotter sur les eaux ; }
+\livretVerse#8 { Leurs Villes voler sur les eaux ; }
 \livretVerse#10 { Vous avez vû dans l’horreur de la guerre, }
-\livretVerse#12 { Leurs invicibles bras disposer du tonnerre... }
+\livretVerse#12 { Leur invicible bras disposer du tonnerre... }
 
 \livretScene\line { SCENE IV }
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Huascar-Inca, un Inca } son confident.
+}
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 \livretVerse#12 { On vient, dissimulons mes transports à leurs yeux... }
 \livretDidasP\line { à l'Inca qu'il appelle. }
-\livretVerse#12 { Vous sçavez mon secret Allez ; qu’on m’obéisse... }
+\livretVerse#12 { Vous sçavez mon Projet. Allez ; qu’on m’obéisse... }
 \livretDidasP\line { à part. }
 \livretVerse#12 { Je n’ay donc plus pour moy qu’un barbare artifice, }
-\livretVerse#12 { Qui de flâme & de sang innondera ces lieux ? }
+\livretVerse#12 { Qui de flâme & de sang peut innonder ces lieux ? }
 \livretVerse#12 { Mais, que ne risque point un amour furieux ! }
 
 \livretScene\line { SCENE V }
@@ -657,16 +580,10 @@
 \livretVerse#5 { L’Amour nous égare, }
 \livretVerse#4 { Nous plaît-il moins ? }
 \livretVerse#7 { Vous brillez, Astre du jour, }
-\livretVerse#11 { Vous charmez nos cœurs par l’éclat de vos flâmes ; }
+\livretVerse#11 { Vous charmez nos yeux par l’éclat de vos flâmes ; }
 \livretVerse#7 { Vous brillez, Astre du jour ; }
 \livretVerse#5 { L’Astre de nos ames }
 \livretVerse#5 { C’est le tendre Amour. }
-\livretVerse#8 { De nos bois chassez la tristesse, }
-\livretVerse#5 { Regnez-y sans cesse, }
-\livretVerse#11 { Dieu de nos cœurs, de la nuit le voile sombre }
-\livretVerse#10 { Sur vos appas n’étend jamais son ombre. }
-\livretVerse#8 { Tous les tems, aimable vainqueur, }
-\livretVerse#7 { Sont marquez par tes faveurs. }
 \livretDesc\wordwrap-center { On danse. }
 \livretDesc\wordwrap-center {
   La Fête est troublée par un tremblement de terre.
@@ -680,7 +597,7 @@
 }
 \livretPers CHŒUR
 \livretVerse#12 { Les Rochers embrâsez s’élancent dans les airs ! }
-\livretVerse#12 { Et portent jusqu’aux Cieux les flâmes des Enfers ! }
+\livretVerse#12 { Ils portent jusqu’aux Cieux les flâmes des Enfers ! }
 \livretDesc\justify {
   L'épouvante saisit les \smallCaps Peruviens,
   l'Assemblée se disperse, \smallCaps Huascar
@@ -689,9 +606,7 @@
 }
 
 \livretScene\line { SCENE VI }
-\livretDescAtt\wordwrap-center\smallCaps {
-  Phani-Palla, Huascar-Inca.
-}
+\livretDescAtt\wordwrap-center\smallCaps { Phani-Palla, Huascar-Inca. }
 \livretPers\wordwrap-center {
   HUASCAR, à \smallCaps PHANI qui traverse le Théatre en fuyant.
 }
@@ -705,8 +620,9 @@
 \livretVerse#12 { Ne s’explique aux Humains qu’en les faisant trembler ? }
 
 \livretScene\line { SCENE VII }
-\livretDescAtt\wordwrap-center\smallCaps {
-  Phani-Palla, Huascar-Inca, Dom-Carlos.
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Phani-Palla, Huascar-Inca, Dom-Carlos, }
+  Officer Espagnol.
 }
 \livretPers\line { HUASCAR, \fontsize #-1 { l'arrêtant encore. } }
 \livretVerse#12 { Vous fuyez, quand les Dieux daignent vous appeller ! }
@@ -777,11 +693,11 @@
   La Volcan vomit des rochers enflâmez qui écrasent le criminel
   \smallCaps Huascar.
 }
-\livretFinAct\line { FIN DE LA DEUXIÈME ENTRÉE }
+\livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
 \sep
 \livretAct\center-column {
-  \line\smaller { TROISIEME ENTRÉE }
   \line { LES SAUVAGES }
+  \line\smaller { NOUVELLE ENTRÉE }
 }
 \livretDescAtt\justify {
   Le Théatre représente un Bosquet d'une Forêt de l'Amerique,
@@ -812,8 +728,8 @@
 \livretVerse#6 { Helas ! dois-je toûjours }
 \livretVerse#6 { Vous céder la victoire ? }
 \livretDidasP\line { Les apercevant. }
-\livretVerse#12 { Ciel ! ils cherchent Zima... pouroit-elle changer ? }
-\livretVerse#12 { Cachons-nous... apprenons ce que je dois en croire ; }
+\livretVerse#12 { Dieux ! ils cherchent Zima... voudroit-elle changer ? }
+\livretVerse#12 { Cachons-nous... découvrons ce que je dois en croire ; }
 \livretVerse#12 { Sachons & si je dois, & sur qui me vanger. }
 \livretDidasP\wordwrap {
   \smallCaps Adario se cache, à l'entré de la Forest & les observe.
@@ -838,7 +754,7 @@
 \livretVerse#8 { Un cœur qui change chaque jour, }
 \livretVerse#12 { Chaque jour fait pour luy des Conquêtes nouvelles ; }
 \livretVerse#12 { Les fidelles Amants font la gloire des Belles, }
-\livretVerse#12 { Mais les Amants legers font celle de l’Amour. }
+\livretVerse#12 { Et les Amants legers font celle de l’Amour. }
 \livretVerse#12 { Dans ces Lieux fortunez c’est ainsi que l’on pense ; }
 \livretVerse#8 { De la tiranique constance }
 \livretVerse#8 { Les cœurs n’y suivent point les loix. }
@@ -862,7 +778,7 @@
 \livretVerse#12 { Nous suivons sur nos bords l’innocente nature, }
 \livretVerse#10 { Et nous n’aimons que d’un amour sans art. }
 \livretVerse#12 { Nôtre bouche & nos yeux ignorent l’imposture ; }
-\livretVerse#8 { Sous cette naissante verdure, }
+\livretVerse#8 { Sous cette riante verdure, }
 \livretVerse#12 { S’il éclate un soupir, s’il échape un regard, }
 \livretVerse#5 { C’est du cœur qu’il part. }
 \livretVerse#12 { Nous suivons sur nos bords l’innocente nature, }
@@ -928,7 +844,7 @@
 \livretPers ZIMA
 \livretVerse#11 { \transparent { Que vois-je ? } C’est l’Amant que mon cœur vous préfere. }
 \livretPers\line { ALVAR, \smaller { à \smaller ZIMA. } }
-\livretVerse#12 { Osez-vous prononcer un Arrêt si fatal. }
+\livretVerse#12 { Vos osez prononcer un Arrêt si fatal. }
 \livretPers ZIMA
 \livretVerse#8 { Dons nos Forest on est sincere. }
 \livretPers\line { ALVAR, \smaller { montrant \smaller ADARIO. } }
@@ -949,13 +865,13 @@
 \livretDidasP\line { On entend un Prélude que annonce la Feste. }
 \livretVerse#8 { Déja dans les Bois d’allentour }
 \livretVerse#12 { J’entends de nos Guerriers les bruyantes Trompettes, }
-\livretVerse#11 { Leurs sons n’effrayent plus ces aimables retraites, }
-\livretVerse#12 { Des charmes de la paix ils marquent le retour. }
+\livretVerse#12 { Elles n’allarment plus ces aimables retraites, }
+\livretVerse#12 { Leurs Concerts de la Paix annoncent le retour. }
 \livretDidasP\line { à \smallCaps Alvar. }
 \livretVerse#12 { A vos tristes regrets dérobez ce beau jour ; }
 \livretVerse#10 { Que le plaisir avec nous vous arrête... }
 \livretPers\line { ALVAR, \smaller { s'éloigant. } }
-\livretVerse#12 { Helas ! je vais cacher un malheureux amour ! }
+\livretVerse#12 { Helas ! je dois cacher un malheureux amour ! }
 \livretPers\line { DAMON, \smaller { le suivant. } }
 \livretVerse#10 { Venez plûtôt l’amuser à la Fête. }
 
@@ -972,7 +888,7 @@
 \livretVerse#7 { Je vous dois la préference. }
 \livretVerse#12 { De vous à vos Rivaux je vois la difference. }
 \livretVerse#8 { L’un s’abandonne à la fureur, }
-\livretVerse#12 { Et l’autre prends mon cœur avec indifférence ; }
+\livretVerse#12 { Et l’autre perd mon cœur avec indifférence ; }
 \livretVerse#12 { Nous ignorons ce calme & cette violence. }
 \livretVerse#12 { Sur nos Bords l’Amour vole & prévient nos désirs. }
 \livretVerse#8 { Dans nôtre paisible retraite }
@@ -986,7 +902,7 @@
 \livretVerse#12 { Hymen, viens nous unir d’une chaîne éternelle ; }
 \livretVerse#12 { Viens encor de la Paix embellir les beaux jours ; }
 \livretVerse#8 { Je te promets d’être fidelle ; }
-\livretVerse#12 { Tu sçais nous enchainer & nous plaire toûjours. }
+\livretVerse#12 { Tu sçais nous captiver & nous plaire toûjours. }
 
 \livretScene\line { SCENE VI }
 \livretDescAtt\wordwrap-center {
@@ -1046,12 +962,11 @@
   des Françoises en Amazones, des Bergers & Bergeres de la Colonie, au
   bruit des Trompettes, & au son des Musettes.
 }
-\livretFinAct\line { FIN DE LA TROISIÉME ENTRÉE }
-\sep
+\livretFinAct FIN
 \livretAct\center-column {
-  \line { QUATRIEME ENTRÉE }
+  \line { TROISIÉME ENTRÉE }
   \line { LES FLEURS }
-  \line\smaller { FESTE ASIATIQUE }
+  \line\smaller { FESTE PERSANE }
 }
 \livretDescAtt\wordwrap-center {
   Le Théatre représente les Jardins de \smaller Tacmas.
@@ -1080,10 +995,10 @@
 \livretVerse#6 { Cet Objet redoutable }
 \livretVerse#12 { A mes regards encor ne s’est pas presenté ; }
 \livretVerse#12 { Et peut-être ma crainte ajoûte à sa Beauté ! }
-\livretVerse#12 { Dans ce jour où des Fleurs vous celebrons la Fête, }
+\livretVerse#12 { Dans ce jour où des Fleurs on prépare la Fête, }
 \livretVerse#12 { J’espère la trouver sous ces sombres Ormeaux ; }
 \livretVerse#12 { Et me livrant au soin qui dans ce bois m’arreste... }
-\livretVerse#12 { Hélas ! j’y vais guerir ou redoubler mes maux ! }
+\livretVerse#12 { Hélas ! je vais guerir ou redoubler mes maux ! }
 \livretPers ROXANE
 \livretVerse#10 { Ah ! vôtre Amant peut-il être infidelle ? }
 \livretVerse#12 { Pour le croire constant, il suffit de vous voir. }
@@ -1100,16 +1015,23 @@
 \livretVerse#8 { Tout rit dans ce charmant séjour : }
 \livretVerse#8 { Faut-il que seule j’y soupire ? }
 \livretVerse#12 { Je brûle d’éclaircir le sort de mon amour... }
-\livretPers FATIME
-\livretVerse#12 { On vient. }
-\livretPers\line { ROXANE, \smaller { se retirant. } }
-\livretVerse#12 { \transparent { On vient. } C’est Atalide. Evitons sa présence. }
 
 \livretScene\line { SCENE II }
 \livretDescAtt\wordwrap-center {
   \smallCaps Fatime en Esclave Polonois,
-  \smallCaps Atalide.
+  \smallCaps { Roxane, Atalide. }
 }
+\livretPers FATIME
+\livretVerse#12 { On vient. }
+\livretPers\line { ROXANE, \smaller { se retirant. } }
+\livretVerse#12 { \transparent { On vient. } C’est Atalide. Evitons sa présence. }
+\livretPers\wordwrap-center {
+  ATALIDE, \smaller { à part, examinant \smaller Fatime. }
+}
+\livretVerse#12 { Cet Esclave est nouveau... risquons ma confidence. }
+\livretVerse#12 { Mon foible cœur est las d’enfermer son secret ; }
+\livretVerse#12 { Parlons, quand je devrois trouvez un indiscret, }
+\livretVerse#12 { Je ne puis plus garder un funeste silence. }
 \livretPers\wordwrap-center {
   FATIME, \smaller { à part, examinant \smaller Atalide. }
 }
@@ -1120,9 +1042,9 @@
 \livretVerse#12 { Si vous suivez Tacmas... }
 \livretPers FATIME
 \livretVerse#12 { \transparent { Si vous suivez Tacmas... } Je vis sous sa puissance, }
-\livretVerse#9 { Depuis longtemps il se fie a ma foy. }
+\livretVerse#12 { Je l’ay vû fort long-temps se fier à ma foy. }
 \livretPers ATALIDE
-\livretVerse#8 { Vous possedez sa confidence ? }
+\livretVerse#7 { Vous possedez sa confiance ? }
 \livretVerse#12 { Que vous êtes heureux de pouvoir chaque jour }
 \livretVerse#6 { Luy marquer vôtre zele ! }
 \livretPers FATIME
@@ -1141,7 +1063,7 @@
 \livretVerse#8 { La chaîne qui m’engage est faite }
 \livretVerse#8 { Pour n’en briser jamais les nœuds. }
 \livretPers\line { FATIME, \smaller { à part. } }
-\livretVerse#12 { Elle aime trop, hélas ! pour n’être pas aimée... }
+\livretVerse#12 { Elle aime trop, hélas ! pour n’être point aimée... }
 \livretDidasP\line { Vivement à \smallCaps Atalide. }
 \livretVerse#12 { Ah ! c’est d’un Inconstant que vous êtes charmée ! }
 \livretVerse#10 { Un Inconstant devroit-il être heureux ? }
@@ -1192,7 +1114,7 @@
 \livretPers TACMAS
 \livretVerse#8 { Eh quoy ! trop injuste Fatime, }
 \livretVerse#8 { Vous m’avez soupçonné d’un crime, }
-\livretVerse#12 { Vous vous êtes livrée à des transports jaloux ! }
+\livretVerse#12 { Vous vous êtes livrée à des soupçons jaloux ! }
 \livretVerse#12 { Pour accuser mes feux, quelle preuve avez-vous ? }
 \livretPers FATIME
 \livretVerse#8 { La jalousie est-elle sage ? }
@@ -1207,7 +1129,7 @@
 \livretPers TACMAS
 \livretVerse#12 { Fatime, ces Concerts nous annoncent la Fête }
 \livretVerse#12 { Qu’à la gloire des Fleurs, dans ce Bois on aprête : }
-\livretVerse#9 { Près de vous, je ne la verray pas ; }
+\livretVerse#12 { Allons-y ; près de vous, je ne la verray pas ; }
 \livretVerse#12 { Près de vous, on ne peut penser qu’à vos appas. }
 
 \livretScene\line { SCENE V }
@@ -1230,40 +1152,39 @@
 \livretVerse#8 { Nuit, étendez vos voiles sombres ; }
 \livretVerse#12 { Vos tranquiles moments favorisent les Jeux. }
 \livretPers\line { TACMAS, \smaller { à \smallCaps FATIME. } }
-\livretVerse#8 { L’eclat des roses les plus belles }
-\livretVerse#8 { Disparoit bientot avec elles ; }
-\livretVerse#8 { En vain sur ce bord fortuné, }
-\livretVerse#8 { A chaque instant il en nait d’autres, }
-\livretVerse#13 { Il est moins orné par leurs attraits que par les votres. }
+\livretVerse#8 { C’est vous qui faites mes beaux jours, }
+\livretVerse#12 { Que de Fleurs sous vos pas vont s’empresser de naître ! }
+\livretVerse#9 { Que de Zephirs, en les voyant paraître, }
+\livretVerse#12 { Vont voler près de vous, & suivre les Amour ! }
 \livretDesc\line { On danse. }
-\livretPers\line { Air italien }
-\livretVerse#4 { Fra le pupille }
-\livretVerse#4 { Di vaghe belle }
-\livretVerse#7 { Va volando il dio d’amor. }
-\livretVerse#5 { Il coro seno }
-\livretVerse#5 { E il suo trono, }
-\livretVerse#7 { Ma non puo regnar nel cuor. }
-\livretPers FATIME
+\livretPers ROXANE
 \livretVerse#8 { Triomphez agreables Fleurs, }
 \livretVerse#12 { Répandez vos parfums, ranimez vos couleurs. }
 \livretPers CHŒUR
 \livretVerse#8 { Triomphez, &c. }
-\livretPers FATIME
+\livretPers ROXANE
 \livretVerse#12 { C’est parmi vous qu’Amour cache sous la verdure }
 \livretVerse#12 { Ses feux les plus ardents, ses plus aimables traits : }
 \livretVerse#8 { Le Printemps vous doit ses atraits, }
 \livretVerse#12 { Vous parez la Saison qui pare la Nature. }
 \livretPers CHŒUR
 \livretVerse#8 { Triomphez, &c. }
-\livretPers FATIME
+\livretPers ROXANE
 \livretVerse#7 { Vous tenez le rang suprême }
 \livretVerse#7 { Sur les bords de nos Ruisseaux ; }
 \livretVerse#12 { Et vous embellissez dans les jours les plus beaux, }
 \livretVerse#4 { La Beauté même. }
 \livretPers CHŒUR
 \livretVerse#8 { Triomphez, &c. }
+\livretPers FATIME
+\livretVerse#8 { Regnez Amours, volez Zephirs, }
+\livretVerse#8 { De nos Bois vous faites les charmes... }
+\livretVerse#12 { Fuyez soupçons fâcheux, fuyez tristes allarmes, }
+\livretVerse#12 { Gardez-vous d’occuper le séjour des plaisirs. }
+\livretVerse#8 { Regnez Amours, volez Zéphirs, }
+\livretVerse#8 { De nos Bois vous faites les charmes... }
 \livretDesc\line { On danse. }
-\livretPers [FATIME]
+\livretPers FATIME
 \livretVerse#12 { Papillon inconstant, vole dans ce Boccage, }
 \livretVerse#8 { Arrête-toy, suspens le cours }
 \livretVerse#6 { De ta flâme volage. }
@@ -1290,6 +1211,6 @@
     tendresse rend à la Rose.
   }
 }
-\livretFinAct FIN
-
+\livretFinAct\line { FIN [DE LA TROISIÉME ENTRÉE] }
+\sep
 }

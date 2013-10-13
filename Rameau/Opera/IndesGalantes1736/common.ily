@@ -9,25 +9,22 @@
 %%  urtext  if true, then print urtext score
 %%  part    if a symbol, then print the separate part score
 #(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
-#(ly:set-option 'ancient-alteration (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'ancient-alteration #f) %(eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
 #(ly:set-option 'apply-vertical-tweaks
                 (and (not (eqv? #t (ly:get-option 'urtext)))
                      (not (symbol? (ly:get-option 'part)))))
-#(ly:set-option 'print-footnotes (eqv? #t (ly:get-option 'urtext)))
 
 %% use baroque style repeats
 #(ly:set-option 'baroque-repeats (eqv? #t (ly:get-option 'urtext)))
-#(ly:set-option 'baroque-repeat-bar "|:|")
+#(ly:set-option 'baroque-repeat-bar "|;|")
 
-%% Staff size:
-%%  14 for lead sheets
-%%  16 for vocal parts
-%%  18 for instruments
+%% Staff size
 #(set-global-staff-size
-  (cond ((not (symbol? (ly:get-option 'part))) 14)
-        ((memq (ly:get-option 'part) '(basse)) 16)
+  (cond ((not (symbol? (ly:get-option 'part)))
+         (if (eqv? #t (ly:get-option 'urtext)) 14 16))
+        ((memq (ly:get-option 'part) '(basse-continue)) 16)
         (else 18)))
 
 %% Line/page breaking algorithm
@@ -53,7 +50,7 @@
 \include "common/alterations.ily"
 \include "common/toc-columns.ily"
 \include "common/livret.ily"
-\setOpus "Rameau/Opera/IndesGalantes"
+\setOpus "Rameau/Opera/IndesGalantes1736"
 \opusTitle "Les Indes Galantes"
 
 \layout {
@@ -64,43 +61,16 @@
 }
 
 \opusPartSpecs
-#`((dessus "Violons, Flûtes, Hautbois" () (#:notes "dessus" #:tag-notes dessus))
-   
-   (violons "Violons" ((dessus #f))
-            (#:notes "dessus" #:tag-notes violons))
-   (flutes "Flûtes" ((dessus #f) (violons "Violons"))
-           (#:notes "dessus" #:tag-notes flutes))
-   (hautbois "Hautbois" ((dessus #f) (violons "Violons"))
-             (#:notes "dessus" #:tag-notes hautbois))
-   (trompette "Trompette" ()
-              (#:notes "dessus" #:tag-notes trompette))
-   (haute-contre "Hautes-contre" ()
-                 (#:notes "haute-contre" #:clef "alto"))
-   (taille "Tailles" ()
-           (#:notes "taille" #:clef "alto"))
-   (basse "Basses" ()
+#`((dessus "Violons, Flûtes, Hautbois" ()
+           (#:notes "dessus" #:tag-notes dessus))
+   (parties "Hautes-contre et Tailles" ()
+            (#:notes "parties" #:tag-notes parties #:clef "alto"))
+   (trompette-timbales "Trompettes et Timbales" ()
+                       (#:notes "dessus" #:tag-notes trompette))
+   (basse "Bassons et Basses" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basse))
-   (basson "Basson" ((basse "Basses"))
-           (#:notes "basse" #:clef "basse"
-            #:tag-notes basson #:instrument "Basson"))
-   (timbales "Timbales" ()
-             (#:notes "basse" #:clef "basse" #:tag-notes timbales)))
-
-%% Tremolo for string instruments
-%#(if (memq (ly:get-option 'part)
-%           '(dessus violons haute-contre taille basse basse-continue))
-%     (ly:set-option 'use-tremolo-repeat #t))
-
-%%% Figured bass
-includeFigures = 
-#(define-music-function (parser location pathname) (string?)
-  (let ((include-file (include-pathname pathname)))
-     #{ \new FiguredBass \figuremode { \include $include-file } #}))
-
-trill = #(make-articulation "stopped")
-
-#(set-cdr! (assoc 'haute-contre french-clefs)
-          '(soprano . alto))
+   (basse-continue "Basse continue" ((basse #f))
+          (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
 %%%
 
@@ -236,80 +206,3 @@ entree =
                                                    (string-upper-case entree-title2))))
      (add-no-page-break parser)
      (make-music 'Music 'void #t)))
-
-%% For better looking two-column TOC
-scene =
-#(define-music-function (parser location title toc-title) (string? markup?)
-  (add-toc-item parser 'tocSceneMarkup (if (and (string? toc-title)
-                                                (string-null? toc-title))
-                                           (string-upper-case title)
-                                           toc-title))
-  (add-odd-page-header-text
-    parser
-    (format #f "~a, ~a."
-           (string-upper-case (*act-title*))
-           (string-upper-case title))
-    #t)
-  (add-toplevel-markup parser
-    (markup #:scene (string-upper-case title)))
-  (add-no-page-break parser)
-  (make-music 'Music 'void #t))
-
-inMusicScene =
-#(define-music-function (parser location title toc-title) (string? markup?)
-   (add-toc-item parser 'tocSceneMarkup toc-title)
-   (let ((label-music (make-music 'SimultaneousMusic
-                        'elements (list (in-music-add-odd-page-header-text
-                                          (format #f "~a, ~a."
-                                            (string-upper-case (*act-title*))
-                                            (string-upper-case title))
-                                          #t)))))
-     #{ $label-music
-        \once \override Score . RehearsalMark #'font-size = #0
-        \once \override Score . RehearsalMark #'self-alignment-X = #LEFT
-        \mark \markup \fontsize #4 $(string-upper-case title) #}))
-
-%% Editorial notes
-notesSection =
-#(define-music-function (parser location title) (markup?)
-  (add-page-break parser)
-  (add-toc-item parser 'tocPieceMarkup title)
-  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
-  (*act-title* title)
-  (add-odd-page-header-text
-    parser
-    (format #f "~a" (string-upper-case (*act-title*)))
-    #f)
-  (make-music 'Music 'void #t))
-
-\layout {
-  \context {
-    \Voice
-    \override Script #'avoid-slur = #'outside
-  }
-  \context {
-    \CueVoice
-    \override Script #'avoid-slur = #'outside
-  }
-}
-
-%% Footnotes
-
-myfootnoteAll =
-#(define-music-function (parser location grob offset text)
-     (symbol? number-pair? markup?)
-   (if (not (symbol? (ly:get-option 'part)))
-       #{ \footnote $offset $grob $text #}
-       (make-music 'Music 'void #t)))
-
-%%% Nuances
-tresdoux =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.5
-                           "tres doux"))
-doux =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.5 "doux"))
-fort =
-#(make-music 'TextScriptEvent
-             'text (markup #:whiteout #:italic #:general-align X -0.5 "fort"))

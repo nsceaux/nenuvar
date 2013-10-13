@@ -138,6 +138,16 @@
     \name PianoStaff
     \override StaffGrouper #'staff-staff-spacing #'stretchability = #1
   }
+  \context {
+    \Voice
+    \name Voice
+    \override Script #'avoid-slur = #'outside
+  }
+  \context {
+    \CueVoice
+    \name CueVoice
+    \override Script #'avoid-slur = #'outside
+  }
 }
 
 %% override beaming behavior
