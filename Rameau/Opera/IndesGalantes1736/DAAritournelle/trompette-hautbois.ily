@@ -1,6 +1,6 @@
-\clef "dessus" fad''4 fad''8 sol'' fad''4 mi'' |
+\clef "dessus" fad''4 fad''8 sol'' fad''4 mi''\trill |
 re'' la' re''2 |
-mi''8 re'' mi'' fad'' sol''4 fad'' |
+mi''8 re'' mi'' fad'' sol''4 fad''\trill |
 mi'' la' mi''2 |
 la'' la'' |
 la''1\trill~ |

@@ -5,25 +5,25 @@
   subtitle = "Ballet Héroïque"
 }
 
-%% LilyPond options:
-%%  urtext  if true, then print urtext score
-%%  part    if a symbol, then print the separate part score
-#(ly:set-option 'ancient-style (eqv? #t (ly:get-option 'urtext)))
-#(ly:set-option 'ancient-alteration #f) %(eqv? #t (ly:get-option 'urtext)))
-#(ly:set-option 'original-layout (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'ancient-style #f)
+#(ly:set-option 'ancient-alteration #f)
+#(ly:set-option 'original-layout #f)
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
-#(ly:set-option 'apply-vertical-tweaks
-                (and (not (eqv? #t (ly:get-option 'urtext)))
-                     (not (symbol? (ly:get-option 'part)))))
+#(ly:set-option 'apply-vertical-tweaks (not (symbol? (ly:get-option 'part))))
 
 %% use baroque style repeats
-#(ly:set-option 'baroque-repeats (eqv? #t (ly:get-option 'urtext)))
+#(ly:set-option 'baroque-repeats #f)
 #(ly:set-option 'baroque-repeat-bar "|;|")
+
+%% No key signature modification
+#(ly:set-option 'forbid-key-modification #t)
+
+%% Use rehearsal numbers
+#(ly:set-option 'use-rehearsal-numbers #t)
 
 %% Staff size
 #(set-global-staff-size
-  (cond ((not (symbol? (ly:get-option 'part)))
-         (if (eqv? #t (ly:get-option 'urtext)) 14 16))
+  (cond ((not (symbol? (ly:get-option 'part))) 16)
         ((memq (ly:get-option 'part) '(basse-continue)) 16)
         (else 18)))
 
@@ -35,12 +35,6 @@
                              ly:optimal-breaking
                              ly:page-turn-breaking))
 }
-
-%% No key signature modification
-#(ly:set-option 'forbid-key-modification #t)
-
-%% Use rehearsal numbers
-#(ly:set-option 'use-rehearsal-numbers #t)
 
 \layout { reference-incipit-width = #(* 1/2 mm) }
 
@@ -54,36 +48,43 @@
 \opusTitle "Les Indes Galantes"
 
 \layout {
-  indent = #(if (eqv? #t (ly:get-option 'urtext))
-                  smallindent
-                  largeindent)
-  ragged-last = #(eqv? #t (ly:get-option 'urtext))
+  indent = \largeindent
+  short-indent = #(if (symbol? (ly:get-option 'part))
+                      0 (* 8 mm))
+  ragged-last = ##f
 }
 
 \opusPartSpecs
-#`((dessus "Violons, Flûtes, Hautbois" ()
-           (#:notes "dessus" #:tag-notes dessus
-                    #:clef "french" ;; treble
-                    ))
-   (parties "Hautes-contre et Tailles" ()
-            (#:notes "parties" #:tag-notes parties
-                     #:clef "soprano" ;; alto
-                     ))
-   (trompette-timbales "Trompettes et Timbales" ()
-                       (#:notes "dessus" #:tag-notes trompette))
-   (basse "Bassons et Basses" ()
-          (#:notes "basse" #:clef "basse" #:tag-notes basse))
-   (basse-continue "Basse continue" ((basse #f))
-          (#:notes "basse" #:clef "basse" #:tag-notes basse)))
+#`((dessus
+    "Violons, Flûtes, Hautbois" ()
+    (#:notes "dessus" #:tag-notes dessus
+             #:clef ,(if (eqv? (ly:get-option 'urtext) #t)
+                         "french"
+                         "treble")))
+   (parties
+    "Hautes-contre et Tailles" ()
+    (#:notes "parties" #:tag-notes parties
+             #:clef ,(if (eqv? (ly:get-option 'urtext) #t)
+                         "soprano"
+                         "alto")))
+   (trompette-timbales
+   "Trompettes et Timbales" ()
+   (#:notes "dessus" #:tag-notes trompette))
+   (basse
+   "Bassons et Basses" ()
+   (#:notes "basse" #:clef "basse" #:tag-notes basse))
+   (basse-continue
+   "Basse continue" ((basse #f))
+   (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
-#(set-cdr! (assoc 'dessus french-clefs)
-          '(french . french))
-#(set-cdr! (assoc 'haute-contre french-clefs)
-          '(soprano . soprano))
-#(set-cdr! (assoc 'taille french-clefs)
-          '(mezzosoprano . mezzosoprano))
-
-
+#(if (eqv? (ly:get-option 'urtext) #t)
+     (begin
+       (set-cdr! (assoc 'dessus french-clefs)
+                 '(french . french))
+       (set-cdr! (assoc 'haute-contre french-clefs)
+                 '(soprano . soprano))
+       (set-cdr! (assoc 'taille french-clefs)
+                 '(mezzosoprano . mezzosoprano))))
 
 %%%
 
@@ -198,6 +199,66 @@ tacmasMark =
 tacmasMarkText =
 #(define-music-function (parser location text) (markup?)
   (make-character-mark-text "vhaute-contre" "Tacmas" text))
+
+%%%
+
+
+dessusInstr = \with {
+  instrumentName = "Dessus"
+  shortInstrumentName = "D."
+}
+hautboisInstr = \with {
+  instrumentName = "Hautbois"
+  shortInstrumentName = "Htb"
+}
+hautboisTrompettesInstr = \with {
+  instrumentName = \markup\center-column { "Trompettes" "Hautbois" }
+  shortInstrumentName = \markup\center-column { "Tr" "Htb" }
+}
+fluteInstr = \with {
+  instrumentName = "Flutes"
+  shortInstrumentName = "Fl."
+}
+bassonInstr = \with {
+  instrumentName = "Bassons"
+  shortInstrumentName = \markup\concat { B \super on }
+}
+violonInstr = \with {
+  instrumentName = "Violons"
+  shortInstrumentName = "Vln"
+}
+violonHautboisInstr = \with {
+  instrumentName = \markup\center-column { Violons Hautbois }
+  shortInstrumentName = \markup\center-column { "Vln" "Htb" }
+}
+hcInstr = \with {
+  instrumentName = "Hautes-contre"
+  shortInstrumentName = "H-c"
+}
+tailleInstr = \with {
+  instrumentName = "Tailles"
+  shortInstrumentName = "T."
+}
+partiesInstr = \with {
+  instrumentName = "Parties"
+  shortInstrumentName = \markup\center-column { H-c. T. }
+}
+basseInstr = \with {
+  instrumentName = "Basses"
+  shortInstrumentName = "Bas"
+}
+timbalesInstr = \with {
+  instrumentName = "Timbales"
+  shortInstrumentName = "Tim"
+}
+bcInstr = \with {
+  instrumentName = "B.C."
+  shortInstrumentName = "B.c."
+}
+choeurInstr = \with {
+  instrumentName = "Chœur"
+  shortInstrumentName = "Ch."
+}
 
 %%%
 

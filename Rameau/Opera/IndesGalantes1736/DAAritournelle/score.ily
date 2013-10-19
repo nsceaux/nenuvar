@@ -1,16 +1,21 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \instrumentName \markup \center-column { Trompettes Hautbois }
-      \global \includeNotes "trompette-hautbois" >>
-    \new Staff << \instrumentName "Violons"
-      \global \includeNotes "violon" >>
-    \new Staff << \instrumentName \markup \center-column { Haute-contres Tailles }
-      \global \includeNotes "haute-contre-taille" >>
-    \new Staff << \instrumentName "Timbales"
-      \global \includeNotes "timbales" >>
-    \new Staff << \instrumentName "Basses"
-      \global \includeNotes "basse" >>
+    \new Staff \with { \hautboisTrompettesInstr } <<
+      \global \includeNotes "trompette-hautbois"
+    >>
+    \new Staff \with { \violonInstr } <<
+      \global \includeNotes "violon"
+    >>
+    \new Staff \with { \partiesInstr } <<
+      \global \includeNotes "parties"
+    >>
+    \new Staff \with { \timbalesInstr } <<
+      \global \includeNotes "timbales"
+    >>
+    \new Staff \with { \basseInstr } <<
+      \global \includeNotes "basse"
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }
