@@ -1,10 +1,9 @@
 \livretAct\center-column {
   \line { LES SAUVAGES }
-  \line\smaller { NOUVELLE ENTRÉE }
 }
 \livretDescAtt\justify {
   Le Théatre représente un Bosquet d'une Forêt de l'Amerique,
-  voisine des Colonies Fraçoises & Espagnoles, où dont se
+  voisine des Colonies Françoises & Espagnoles, où dont se
   célébrer la Ceremonie du grand Calumet de Paix.
 }
 \livretScene\line { SCENE PREMIERE }
@@ -14,6 +13,7 @@
     \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage.
   }
 }
+\livretRef #'DABadario
 %# Nos Guerriers, par mon ordre unis à nos Vainqueurs,
 %# Vont icy de la Paix célébrer les douceurs ;
 %# Mon cœur seul dans ces lieux trouve encor des allarmes :
@@ -21,6 +21,7 @@
 %# Epris de l'Objet de mes vœux ;
 %# Je crains leurs soupirs dangereux,
 %# Et que leur sort brillant, pour Zima n'ait des charmes.
+\livretRef #'DACadario
 %# Rivaux de mes Exploits, Rivaux de mes Amours,
 %# Helas ! dois-je toûjours
 %# Vous céder la victoire ?
@@ -31,8 +32,9 @@
 %# Helas ! dois-je toûjours
 %# Vous céder la victoire ?
 \livretDidasP\line { Les apercevant. }
-%# Dieux ! ils cherchent Zima... voudroit-elle changer ?
-%# Cachons-nous... découvrons ce que je dois en croire ;
+\livretRef #'DADadario
+%# Ciel ! ils cherchent Zima... pouroit-elle changer ?
+%# Cachons-nous... apprenons ce que je dois en croire ;
 %# Sachons & si je dois, & sur qui me vanger.
 \livretDidasP\wordwrap {
   \smallCaps Adario se cache, à l'entré de la Forest & les observe.
@@ -44,6 +46,7 @@
   \smallCaps { Dom Alvar, } Officier de la Colonie Espagnole.
   \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage, caché.
 }
+\livretRef #'DBAalvarDamon
 \livretPers ALVAR
 %# Damon, quelle vaine esperance
 %# Sur les pas de Zima vous attache aujourd'huy ?
@@ -53,11 +56,11 @@
 %# L'inconstance ne doit blesser
 %# Que les attraits qu'elle abandonne ;
 %# Non, le fils de Venus ne peut pas s'offenser
-%# Lorsque nous recevons tous les fers qu'il nous donne.
+%# Lorsque nous recevons tous les traits qu'il nous donne.
 %# Un cœur qui change chaque jour,
 %# Chaque jour fait pour luy des Conquêtes nouvelles ;
 %# Les fidelles Amants font la gloire des Belles,
-%# Et les Amants legers font celle de l'Amour.
+%# Mais les Amants legers font celle de l'Amour.
 %# Dans ces Lieux fortunez c'est ainsi que l'on pense ;
 %# De la tiranique constance
 %# Les cœurs n'y suivent point les loix.
@@ -71,6 +74,7 @@
   \smallCaps { Dom Alvar, } Officier de la Colonie Espagnole.
   \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage, caché.
 }
+\livretRef #'DCAzad
 \livretPers\line { ALVAR, \smaller { à \smaller Zima. } }
 %# Ne puis-je vous fléchir par ma perséverance ?
 \livretPers\line { DAMON, \smaller { à \smaller Zima. } }
@@ -81,7 +85,7 @@
 %# Nous suivons sur nos bords l'innocente nature,
 %# Et nous n'aimons que d'un amour sans art.
 %# Nôtre bouche & nos yeux ignorent l'imposture ;
-%# Sous cette ri=ante verdure,
+%# Sous cette naissante verdure,
 %# S'il éclate un soupir, s'il échape un regard,
 %# C'est du cœur qu'il part.
 %# Nous suivons sur nos bords l'innocente nature,
@@ -94,6 +98,7 @@
 %# Nous dit qu'il faut estre constant...
 \livretPers DAMON
 %# Elle prouve à nos yeux qu'il faut être volage.
+\livretRef #'DCBdamon
 %# La Terre, les Cieux, & les Mers
 %# Nous offrent tour-à-tour cent spectacles divers ;
 %# Les plus beaux jours entr'eux ont de la difference ;
@@ -101,6 +106,7 @@
 %# De gouter les douceurs
 %# Que verse par tout l'inconstance.
 \livretDidasP\line { à \smallCaps Zima. }
+\livretRef #'DCCzad
 %# Voilà vos sentimens : dans vos sages Climats,
 %# L'inconstance n'est point un crime.
 \livretPers ZIMA
@@ -109,20 +115,20 @@
 %# Le cœur change à son gré dans cet heureux séjour ;
 %# Parmi nos amants c'est l'usage
 %# De ne pas contraindre l'Amour ;
-%# Mais dès que l'Hymen nous engage
+%# Mais dès que l'*Hymen nous engage
 %# Le cœur ne change plus dans cet heureux séjour.
 \livretPers\line { ALVAR, \smaller { montrant \smaller DAMON. } }
 %# L'*Habitant des bords de la Seine
 %# N'est jamais moins arrêté
-%# Que lorsque l'Hymen l'enchaîne ;
-%# Il se fait un honneur de sa legereté.
+%# Que lorsque l'*Hymen l'enchaîne ;
+%# Il se fait un plaisir de sa legereté.
 %# Et pour l'Epouse la plus belle
 %# Il rougiroit d'être fidelle.
 \livretPers\line { DAMON, \smaller { montrant \smaller ALVAR. } }
 %# Les Epoux les plus soupçonneux,
-%# Du Tage habitent les rives ;
+%# Du Tage *habitent les rives ;
 %# Là mille Beautez plaintives
-%# Reçoivent de l'hymen des fers & non des nœuds ;
+%# Reçoivent de l'*hymen des fers & non des nœuds ;
 %# Vous ne voy=ez jamais autour de ces Captives
 %# Voltiger les Ris & les Jeux.
 %# Belle Zima, craignez un si triste esclavage...
@@ -142,12 +148,13 @@
   sort avec vivacité de la Forest, \smallCaps Zima
   charmée de son transport, luy présente la main.
 }
+\livretRef #'DDAzada
 \livretPers\line { ALVAR, \smaller { les apercevant. } }
 %#- Que vois-je ?
 \livretPers ZIMA
 %#= C'est l'Amant que mon cœur vous préfere.
 \livretPers\line { ALVAR, \smaller { à \smaller ZIMA. } }
-%# Vos osez prononcer un Arrêt si fatal.
+%# Osez-vous prononcer un Arrêt si fatal.
 \livretPers ZIMA
 %# Dons nos Forest on est sincere.
 \livretPers\line { ALVAR, \smaller { montrant \smaller ADARIO. } }
@@ -164,22 +171,23 @@
 \livretPers\line { DAMON, \smaller { à \smaller ALVAR. } }
 %# J'ay trop protégé l'inconstance
 %# Pour ne pas m'opposer à l'injuste couroux
-%# Que vous est inspiré par la perséverance.
-\livretDidasP\line { On entend un Prélude que annonce la Feste. }
+%# Qui vous est inspiré par la perséverance.
+\livretDidasP\line { On entend un Prélude qui annonce la Feste. }
 %# Déja dans les Bois d'allentour
 %# J'entends de nos Guerriers les bruy=antes Trompettes,
-%# Elles n'allarment plus ces aimables retraites,
-%# Leurs Concerts de la Paix annoncent le retour.
+%# Leurs sons n'effray=ent plus ces aimables retraites,
+%# Des charmes de la paix ils marquent le retour.
 \livretDidasP\line { à \smallCaps Alvar. }
 %# A vos tristes regrets dérobez ce beau jour ;
 %# Que le plaisir avec nous vous arrête...
 \livretPers\line { ALVAR, \smaller { s'éloigant. } }
-%# Helas ! je dois cacher un malheureux amour !
+%# Helas ! je vais cacher un malheureux amour !
 \livretPers\line { DAMON, \smaller { le suivant. } }
 %# Venez plûtôt l'amuser à la Fête.
 
 \livretScene\line { SCENE V }
 \livretDescAtt\wordwrap-center\smallCaps { Zima, Adario. }
+\livretRef #'DEAadarioZima
 \livretPers ADARIO
 %# Je ne vous peindrai point les transports de mon cœur,
 %# Belle Zima, jugez-en par le vôtre.
@@ -190,22 +198,24 @@
 %# De l'amour le plus tendre éprouvez la douceur,
 %# Je vous dois la préference.
 %# De vous à vos Rivaux je vois la difference.
-%# L'un s'abandonne à la fureur,
-%# Et l'autre perd mon cœur avec indifférence ;
+%# L'un s'abandonne à sa fureur,
+%# Et l'autre prends mon cœur avec indifférence ;
 %# Nous ignorons ce calme & cette vi=olence.
+\livretRef #'DEBzima
 %# Sur nos Bords l'Amour vole & prévient nos désirs.
 %# Dans nôtre paisible retraite
 %# On n'entend murmurer que l'Onde & les Zéphirs ;
 %# Jamais l'Echo n'y répete
 %# De regrets ny de soupirs.
 %# Sur nos Bords l'Amour vole & prévient nos désirs.
+\livretRef #'DECduo
 \livretPers ADARIO
 %# Viens, Hymen, hâte-toy, suis l'Amour qui t'appelle.
 \livretPers ENSEMBLE
 %# Hymen, viens nous unir d'une chaîne éternelle ;
 %# Viens encor de la Paix embellir les beaux jours ;
 %# Je te promets d'être fidelle ;
-%# Tu sçais nous captiver & nous plaire toûjours.
+%# Tu sçais nous enchainer & nous plaire toûjours.
 
 \livretScene\line { SCENE VI }
 \livretDescAtt\wordwrap-center {
@@ -213,6 +223,7 @@
   \smallCaps Guerriers François & Sauvages,
   \smallCaps { Sauvagesses ; Bergers } de la Colonie.
 }
+\livretRef #'DFAadarioChoeur
 \livretPers\line { ADARIO, \smaller { aux Sauvages. } }
 %# Bannissons les tristes allarmes,
 %# Nos Vainqueurs nous rendent la Paix :
@@ -221,9 +232,11 @@
 %# Fasse briller ses feux, vienne lancer ses traits.
 \livretPers\line { CHŒUR des Sauvages }
 %#8 Bannissons, &c.
-\livretDesc\wordwrap {
+\livretRef #'DFBair
+\livretDescPage\wordwrap {
   Danse du grand calumet de Paix, executée par les Sauvages.
 }
+\livretRef #'DFCduoChoeur
 \livretPers\line { ZIMA, ET ADARIO }
 %# Forêts paisibles,
 %# Jamais un vain desir ne trouble ici nos cœurs :
@@ -235,7 +248,7 @@
 %# Dans nos Retraites,
 %# Grandeur, ne viens jamais
 %# Offrir tes faux attraits,
-%# Ci=el ! tu les as faites,
+%# Ciel ! tu les as faites,
 %# Pour l'innocence & pour la paix.
 \livretPers\line { CHŒUR des Sauvages }
 %# Forêts paisibles,
@@ -249,7 +262,9 @@
 %# Quand on forme d'autres vœux ?
 \livretPers\line { CHŒUR des Sauvages }
 %#4 Forêts paisibles, &c.
-\livretDesc\wordwrap { Danse des Françoises en Amazones. }
+\livretRef #'DFDmenuet
+\livretDescPage\wordwrap { Danse des Françoises en Amazones. }
+\livretRef #'DFFzima
 \livretPers ZIMA
 %# Regnez Plaisirs & Jeux ; tri=omphez dans nos Bois :
 %# Nous n'y connoissons que vos loix.
@@ -260,9 +275,11 @@
 %# Prend soin de la guider sans cesse.
 %# Regnez Plaisirs & Jeux ; tri=omphez dans nos Bois :
 %# Nous n'y connoissons que vos loix.
-\livretDesc\wordwrap {
+\livretRef #'DFGchaconne
+\livretDescPage\wordwrap {
   L'Entrée finit par un Ballet general des Guerriers François & Sauvages,
   des Françoises en Amazones, des Bergers & Bergeres de la Colonie, au
   bruit des Trompettes, & au son des Musettes.
 }
-\livretFinAct FIN
+\livretFinAct\line { [FIN DE LA TROISIEME ENTRÉE] }
+\sep

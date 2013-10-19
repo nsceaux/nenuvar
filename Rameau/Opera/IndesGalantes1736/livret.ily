@@ -1,11 +1,12 @@
 \notesSection "Livret"
 \markuplist\page-columns-title \act\line { LIVRET } {
 \livretAct\line { PROLOGUE }
-\livretDescAtt\justify {
+\livretDescAtt\wordwrap-center {
   Le Theâtre représente les Jardins du Palais
   \concat { d’ \smallCaps Hebé. }
 }
 \livretScene\line { SCENE PREMIERE }
+\livretRef #'AABhebe
 \livretPers HEBÉ
 \livretVerse#8 { Vous, qui d’Hebé suivez les loix, }
 \livretVerse#12 { Venez, rassemblez-vous accourez à ma voix. }
@@ -17,10 +18,12 @@
 \livretVerse#6 { Vous sont plus chers encore. }
 \livretVerse#8 { Vous, qui d’Hebé, &c. }
 \livretScene\line { SCENE II }
-\livretDescAtt\wordwrap-center {
+\livretRef #'ABAentree
+\livretDescAttPage\justify {
   \smallCaps Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.
 }
+\livretRef #'ABDhebeChoeur
 \livretPers HEBÉ
 \livretVerse#12 { Musettes, résonnez dans ce riant Boccage, }
 \livretVerse#7 { Accordez-vous sous l’ombrage }
@@ -33,9 +36,11 @@
 \livretVerse#7 { Au murmure des ruisseaux, }
 \livretVerse#8 { Accompagnez le doux ramage }
 \livretVerse#5 { Des tendres Oiseaux. }
+\livretRef #'ABErondeau
 \livretDesc\wordwrap-center {
   Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé. }
 }
+\livretRef #'ABBhebe
 \livretPers HEBÉ
 \livretVerse#5 { Amants, seurs de plaire }
 \livretVerse#5 { Suivez vôtre ardeur, }
@@ -48,9 +53,11 @@
 \livretVerse#5 { Suivez vôtre ardeur, }
 \livretVerse#6 { Chantez vôtre bonheur, }
 \livretVerse#8 { Mais sans offenser le mystere. }
-\livretDesc\wordwrap-center {
+\livretRef #'AEEmenuet
+\livretDescPage\wordwrap-center {
   Danses interrompues par le bruit des Tambours.
 }
+\livretRef #'ABFhebe
 \livretPers HEBÉ
 \livretVerse#12 { Qu’entends-je ? les Tambours font taire nos Musettes ! }
 \livretVerse#12 { C’est Bellonne : Ses cris excitent les Heros : }
@@ -66,32 +73,79 @@
     \concat { d’ \smallCaps Hebé } à n’aimer que la gloire.
   }
 }
+\livretRef #'ACAbellone
 \livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d’ \smallCaps Hebé. } } }
 \livretVerse#12 { La Gloire vous appelle ; écoutez ses Trompettes, }
 \livretVerse#12 { Hâtez-vous, armez-vous & devenez Guerriers. }
 \livretVerse#8 { Quittez ces paisibles retraites, }
 \livretVerse#12 { Combattez ; il est temps de cueillir des Lauriers : }
 \livretVerse#12 { La Gloire vous appelle, &c. }
-\livretDesc\justify {
+\livretRef #'ACCair
+\livretDescPage\justify {
   Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
   Ces Amants genereux épris des charmes de la Gloire,
   se rangent près de \smallCaps Bellonne & suivent
   ses Etendarts.
 }
+\livretRef #'ACEair
+\livretDesc\wordwrap-center { On danse. }
+\livretRef #'ACFchoeur
+\livretPers CHŒUR
+\livretVerse#6 { Vous nous abandonnez. }
+\livretVerse#6 { Quelle peine mortelle ! }
+\livretVerse#8 { Que vont devenir nos beaux jours ! }
+\livretVerse#6 { Quelle peine mortelle ! }
+\livretVerse#6 { Ecoutez les Amours. }
+\livretVerse#6 { La Gloire nous appelle, }
+\livretVerse#6 { Nous n’écoutons plus qu’elle. }
 
 \livretScene\line { SCENE IV }
+\livretRef #'ADAhebe
+\livretPers HEBÉ
+\livretVerse#6 { Bellonne les entraîne... }
+\livretVerse#6 { O toy, vainqueur des Cieux, }
+\livretVerse#8 { Viens prouver ton pouvoir suprême ! }
+\livretVerse#12 { On ose te quitter pour suivre d’autres Dieux ! }
+\livretVerse#14 { Fils de Vénus, eh ! qui peut mieux te vanger que toy-meme ? }
+
+\livretScene\line { SCENE V }
+\livretRef #'AEAannonce
+\livretPers HEBÉ
+\livretVerse#12 { L’Amour paroit armé, qu’il soit victorieux ! }
+\livretRef #'AEBamourHebe
+\livretPers L’AMOUR
+\livretVerse#12 { Pourquoy Mars à l’Amour declare-t-il la guerre ? }
+\livretVerse#12 { Mars perd-t-il son encens, lorsqu’on vient m’en offrir ? }
+\livretVerse#8 { Jamais les mirthes sur la terre }
+\livretVerse#10 { N’ont empeché les lauriers de fleurir. }
 \livretPers HEBÉ
 \livretVerse#12 { Pour remplacer les Cœurs que vous ravit Bellone, }
 \livretVerse#12 { Fils de Venus lancez vos traits les plus certains ; }
 \livretVerse#12 { Conduisez les Plaisirs dans les climats lointains }
 \livretVerse#8 { Quand l’Europe les abandonne. }
-\livretPers CHŒUR
+\livretRef #'AECamour
+\livretPers L’AMOUR
+\livretVerse#12 { Rallumez vos flambeaux, remplissez vos carquois, }
+\livretVerse#12 { Moissonnez, meritez les palmes immortelles ! }
+\livretVerse#8 { Amours, remportez, a la fois, }
+\livretVerse#6 { Cent victoires nouvelles ! }
+\livretVerse#8 { L’horreur suit le terrible Mars ; }
+\livretVerse#8 { Les Jeux s’amusent sur vos traces, }
+\livretVerse#10 { Partez, partez, vos nouveaux étendards }
+\livretVerse#6 { Sont l’ouvrage des Graces. }
+\livretRef #'AEDair
+\livretDesc\wordwrap-center { [On danse.] }
+\livretRef #'AEGamourHebe
+\livretPers\line { L’AMOUR ET HEBÉ }
 \livretVerse#8 { Traversez les plus vastes Mers, }
 \livretVerse#12 { Volez Amours, portez vos armes & vos fers }
 \livretVerse#8 { Sur le plus éloigné Rivage. }
-\livretVerse#8 { Est-il un cœur dans l’Univers }
-\livretVerse#8 { Que ne vous doive son hommage. }
+\livretVerse#8 { Est-il un cœur dans l’univers }
+\livretVerse#8 { Qui ne vous doive son hommage ? }
+\livretVerse#8 { Traversez les plus vastes Mers, &c }
+\livretRef #'AEHchoeur
+\livretPers CHŒUR
 \livretVerse#8 { Traversez les plus vastes Mers, }
 \livretVerse#12 { Volez Amours, portez vos armes & vos fers }
 \livretVerse#8 { Sur le plus éloigné Rivage. }
@@ -697,11 +751,10 @@
 \sep
 \livretAct\center-column {
   \line { LES SAUVAGES }
-  \line\smaller { NOUVELLE ENTRÉE }
 }
 \livretDescAtt\justify {
   Le Théatre représente un Bosquet d'une Forêt de l'Amerique,
-  voisine des Colonies Fraçoises & Espagnoles, où dont se
+  voisine des Colonies Françoises & Espagnoles, où dont se
   célébrer la Ceremonie du grand Calumet de Paix.
 }
 \livretScene\line { SCENE PREMIERE }
@@ -711,6 +764,7 @@
     \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage.
   }
 }
+\livretRef #'DABadario
 \livretVerse#12 { Nos Guerriers, par mon ordre unis à nos Vainqueurs, }
 \livretVerse#12 { Vont icy de la Paix célébrer les douceurs ; }
 \livretVerse#12 { Mon cœur seul dans ces lieux trouve encor des allarmes : }
@@ -718,6 +772,7 @@
 \livretVerse#8 { Epris de l’Objet de mes vœux ; }
 \livretVerse#8 { Je crains leurs soupirs dangereux, }
 \livretVerse#12 { Et que leur sort brillant, pour Zima n’ait des charmes. }
+\livretRef #'DACadario
 \livretVerse#12 { Rivaux de mes Exploits, Rivaux de mes Amours, }
 \livretVerse#6 { Helas ! dois-je toûjours }
 \livretVerse#6 { Vous céder la victoire ? }
@@ -728,8 +783,9 @@
 \livretVerse#6 { Helas ! dois-je toûjours }
 \livretVerse#6 { Vous céder la victoire ? }
 \livretDidasP\line { Les apercevant. }
-\livretVerse#12 { Dieux ! ils cherchent Zima... voudroit-elle changer ? }
-\livretVerse#12 { Cachons-nous... découvrons ce que je dois en croire ; }
+\livretRef #'DADadario
+\livretVerse#12 { Ciel ! ils cherchent Zima... pouroit-elle changer ? }
+\livretVerse#12 { Cachons-nous... apprenons ce que je dois en croire ; }
 \livretVerse#12 { Sachons & si je dois, & sur qui me vanger. }
 \livretDidasP\wordwrap {
   \smallCaps Adario se cache, à l'entré de la Forest & les observe.
@@ -741,6 +797,7 @@
   \smallCaps { Dom Alvar, } Officier de la Colonie Espagnole.
   \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage, caché.
 }
+\livretRef #'DBAalvarDamon
 \livretPers ALVAR
 \livretVerse#8 { Damon, quelle vaine esperance }
 \livretVerse#12 { Sur les pas de Zima vous attache aujourd’huy ? }
@@ -750,11 +807,11 @@
 \livretVerse#8 { L’inconstance ne doit blesser }
 \livretVerse#8 { Que les attraits qu’elle abandonne ; }
 \livretVerse#12 { Non, le fils de Venus ne peut pas s’offenser }
-\livretVerse#12 { Lorsque nous recevons tous les fers qu’il nous donne. }
+\livretVerse#12 { Lorsque nous recevons tous les traits qu’il nous donne. }
 \livretVerse#8 { Un cœur qui change chaque jour, }
 \livretVerse#12 { Chaque jour fait pour luy des Conquêtes nouvelles ; }
 \livretVerse#12 { Les fidelles Amants font la gloire des Belles, }
-\livretVerse#12 { Et les Amants legers font celle de l’Amour. }
+\livretVerse#12 { Mais les Amants legers font celle de l’Amour. }
 \livretVerse#12 { Dans ces Lieux fortunez c’est ainsi que l’on pense ; }
 \livretVerse#8 { De la tiranique constance }
 \livretVerse#8 { Les cœurs n’y suivent point les loix. }
@@ -768,6 +825,7 @@
   \smallCaps { Dom Alvar, } Officier de la Colonie Espagnole.
   \smallCaps Adario, Commandant les Guerriers de la Nation Sauvage, caché.
 }
+\livretRef #'DCAzad
 \livretPers\line { ALVAR, \smaller { à \smaller Zima. } }
 \livretVerse#12 { Ne puis-je vous fléchir par ma perséverance ? }
 \livretPers\line { DAMON, \smaller { à \smaller Zima. } }
@@ -778,7 +836,7 @@
 \livretVerse#12 { Nous suivons sur nos bords l’innocente nature, }
 \livretVerse#10 { Et nous n’aimons que d’un amour sans art. }
 \livretVerse#12 { Nôtre bouche & nos yeux ignorent l’imposture ; }
-\livretVerse#8 { Sous cette riante verdure, }
+\livretVerse#8 { Sous cette naissante verdure, }
 \livretVerse#12 { S’il éclate un soupir, s’il échape un regard, }
 \livretVerse#5 { C’est du cœur qu’il part. }
 \livretVerse#12 { Nous suivons sur nos bords l’innocente nature, }
@@ -791,6 +849,7 @@
 \livretVerse#8 { Nous dit qu’il faut estre constant... }
 \livretPers DAMON
 \livretVerse#12 { Elle prouve à nos yeux qu’il faut être volage. }
+\livretRef #'DCBdamon
 \livretVerse#8 { La Terre, les Cieux, & les Mers }
 \livretVerse#12 { Nous offrent tour-à-tour cent spectacles divers ; }
 \livretVerse#12 { Les plus beaux jours entr’eux ont de la difference ; }
@@ -798,6 +857,7 @@
 \livretVerse#6 { De gouter les douceurs }
 \livretVerse#8 { Que verse par tout l’inconstance. }
 \livretDidasP\line { à \smallCaps Zima. }
+\livretRef #'DCCzad
 \livretVerse#12 { Voilà vos sentimens : dans vos sages Climats, }
 \livretVerse#8 { L’inconstance n’est point un crime. }
 \livretPers ZIMA
@@ -812,12 +872,12 @@
 \livretVerse#8 { L’Habitant des bords de la Seine }
 \livretVerse#7 { N’est jamais moins arrêté }
 \livretVerse#7 { Que lorsque l’Hymen l’enchaîne ; }
-\livretVerse#12 { Il se fait un honneur de sa legereté. }
+\livretVerse#12 { Il se fait un plaisir de sa legereté. }
 \livretVerse#8 { Et pour l’Epouse la plus belle }
 \livretVerse#8 { Il rougiroit d’être fidelle. }
 \livretPers\line { DAMON, \smaller { montrant \smaller ALVAR. } }
 \livretVerse#8 { Les Epoux les plus soupçonneux, }
-\livretVerse#8 { Du Tage habitent les rives ; }
+\livretVerse#7 { Du Tage habitent les rives ; }
 \livretVerse#7 { Là mille Beautez plaintives }
 \livretVerse#12 { Reçoivent de l’hymen des fers & non des nœuds ; }
 \livretVerse#12 { Vous ne voyez jamais autour de ces Captives }
@@ -839,12 +899,13 @@
   sort avec vivacité de la Forest, \smallCaps Zima
   charmée de son transport, luy présente la main.
 }
+\livretRef #'DDAzada
 \livretPers\line { ALVAR, \smaller { les apercevant. } }
 \livretVerse#11 { Que vois-je ? }
 \livretPers ZIMA
 \livretVerse#11 { \transparent { Que vois-je ? } C’est l’Amant que mon cœur vous préfere. }
 \livretPers\line { ALVAR, \smaller { à \smaller ZIMA. } }
-\livretVerse#12 { Vos osez prononcer un Arrêt si fatal. }
+\livretVerse#12 { Osez-vous prononcer un Arrêt si fatal. }
 \livretPers ZIMA
 \livretVerse#8 { Dons nos Forest on est sincere. }
 \livretPers\line { ALVAR, \smaller { montrant \smaller ADARIO. } }
@@ -861,22 +922,23 @@
 \livretPers\line { DAMON, \smaller { à \smaller ALVAR. } }
 \livretVerse#8 { J’ay trop protégé l’inconstance }
 \livretVerse#12 { Pour ne pas m’opposer à l’injuste couroux }
-\livretVerse#12 { Que vous est inspiré par la perséverance. }
-\livretDidasP\line { On entend un Prélude que annonce la Feste. }
+\livretVerse#12 { Qui vous est inspiré par la perséverance. }
+\livretDidasP\line { On entend un Prélude qui annonce la Feste. }
 \livretVerse#8 { Déja dans les Bois d’allentour }
 \livretVerse#12 { J’entends de nos Guerriers les bruyantes Trompettes, }
-\livretVerse#12 { Elles n’allarment plus ces aimables retraites, }
-\livretVerse#12 { Leurs Concerts de la Paix annoncent le retour. }
+\livretVerse#12 { Leurs sons n’effrayent plus ces aimables retraites, }
+\livretVerse#12 { Des charmes de la paix ils marquent le retour. }
 \livretDidasP\line { à \smallCaps Alvar. }
 \livretVerse#12 { A vos tristes regrets dérobez ce beau jour ; }
 \livretVerse#10 { Que le plaisir avec nous vous arrête... }
 \livretPers\line { ALVAR, \smaller { s'éloigant. } }
-\livretVerse#12 { Helas ! je dois cacher un malheureux amour ! }
+\livretVerse#12 { Helas ! je vais cacher un malheureux amour ! }
 \livretPers\line { DAMON, \smaller { le suivant. } }
 \livretVerse#10 { Venez plûtôt l’amuser à la Fête. }
 
 \livretScene\line { SCENE V }
 \livretDescAtt\wordwrap-center\smallCaps { Zima, Adario. }
+\livretRef #'DEAadarioZima
 \livretPers ADARIO
 \livretVerse#12 { Je ne vous peindrai point les transports de mon cœur, }
 \livretVerse#10 { Belle Zima, jugez-en par le vôtre. }
@@ -887,22 +949,24 @@
 \livretVerse#12 { De l’amour le plus tendre éprouvez la douceur, }
 \livretVerse#7 { Je vous dois la préference. }
 \livretVerse#12 { De vous à vos Rivaux je vois la difference. }
-\livretVerse#8 { L’un s’abandonne à la fureur, }
-\livretVerse#12 { Et l’autre perd mon cœur avec indifférence ; }
+\livretVerse#8 { L’un s’abandonne à sa fureur, }
+\livretVerse#12 { Et l’autre prends mon cœur avec indifférence ; }
 \livretVerse#12 { Nous ignorons ce calme & cette violence. }
+\livretRef #'DEBzima
 \livretVerse#12 { Sur nos Bords l’Amour vole & prévient nos désirs. }
 \livretVerse#8 { Dans nôtre paisible retraite }
 \livretVerse#12 { On n’entend murmurer que l’Onde & les Zéphirs ; }
 \livretVerse#7 { Jamais l’Echo n’y répete }
 \livretVerse#7 { De regrets ny de soupirs. }
 \livretVerse#12 { Sur nos Bords l’Amour vole & prévient nos désirs. }
+\livretRef #'DECduo
 \livretPers ADARIO
 \livretVerse#12 { Viens, Hymen, hâte-toy, suis l’Amour qui t’appelle. }
 \livretPers ENSEMBLE
 \livretVerse#12 { Hymen, viens nous unir d’une chaîne éternelle ; }
 \livretVerse#12 { Viens encor de la Paix embellir les beaux jours ; }
 \livretVerse#8 { Je te promets d’être fidelle ; }
-\livretVerse#12 { Tu sçais nous captiver & nous plaire toûjours. }
+\livretVerse#12 { Tu sçais nous enchainer & nous plaire toûjours. }
 
 \livretScene\line { SCENE VI }
 \livretDescAtt\wordwrap-center {
@@ -910,6 +974,7 @@
   \smallCaps Guerriers François & Sauvages,
   \smallCaps { Sauvagesses ; Bergers } de la Colonie.
 }
+\livretRef #'DFAadarioChoeur
 \livretPers\line { ADARIO, \smaller { aux Sauvages. } }
 \livretVerse#8 { Bannissons les tristes allarmes, }
 \livretVerse#8 { Nos Vainqueurs nous rendent la Paix : }
@@ -918,9 +983,11 @@
 \livretVerse#12 { Fasse briller ses feux, vienne lancer ses traits. }
 \livretPers\line { CHŒUR des Sauvages }
 \livretVerse#8 { Bannissons, &c. }
-\livretDesc\wordwrap {
+\livretRef #'DFBair
+\livretDescPage\wordwrap {
   Danse du grand calumet de Paix, executée par les Sauvages.
 }
+\livretRef #'DFCduoChoeur
 \livretPers\line { ZIMA, ET ADARIO }
 \livretVerse#4 { Forêts paisibles, }
 \livretVerse#12 { Jamais un vain desir ne trouble ici nos cœurs : }
@@ -932,7 +999,7 @@
 \livretVerse#4 { Dans nos Retraites, }
 \livretVerse#6 { Grandeur, ne viens jamais }
 \livretVerse#6 { Offrir tes faux attraits, }
-\livretVerse#6 { Ciel ! tu les as faites, }
+\livretVerse#5 { Ciel ! tu les as faites, }
 \livretVerse#8 { Pour l’innocence & pour la paix. }
 \livretPers\line { CHŒUR des Sauvages }
 \livretVerse#4 { Forêts paisibles, }
@@ -946,7 +1013,9 @@
 \livretVerse#7 { Quand on forme d’autres vœux ? }
 \livretPers\line { CHŒUR des Sauvages }
 \livretVerse#4 { Forêts paisibles, &c. }
-\livretDesc\wordwrap { Danse des Françoises en Amazones. }
+\livretRef #'DFDmenuet
+\livretDescPage\wordwrap { Danse des Françoises en Amazones. }
+\livretRef #'DFFzima
 \livretPers ZIMA
 \livretVerse#12 { Regnez Plaisirs & Jeux ; triomphez dans nos Bois : }
 \livretVerse#8 { Nous n’y connoissons que vos loix. }
@@ -957,12 +1026,14 @@
 \livretVerse#8 { Prend soin de la guider sans cesse. }
 \livretVerse#12 { Regnez Plaisirs & Jeux ; triomphez dans nos Bois : }
 \livretVerse#8 { Nous n’y connoissons que vos loix. }
-\livretDesc\wordwrap {
+\livretRef #'DFGchaconne
+\livretDescPage\wordwrap {
   L'Entrée finit par un Ballet general des Guerriers François & Sauvages,
   des Françoises en Amazones, des Bergers & Bergeres de la Colonie, au
   bruit des Trompettes, & au son des Musettes.
 }
-\livretFinAct FIN
+\livretFinAct\line { [FIN DE LA TROISIEME ENTRÉE] }
+\sep
 \livretAct\center-column {
   \line { TROISIÉME ENTRÉE }
   \line { LES FLEURS }
