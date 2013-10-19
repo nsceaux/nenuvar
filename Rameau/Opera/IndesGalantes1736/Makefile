@@ -1,5 +1,6 @@
 python=python3.2
 livret_py = ../../../scripts/livret.py
+paroles_py = ../../../scripts/paroles.py
 
 livret_src = livret-prologue-raw.ily \
 	livret-turc-raw.ily \
@@ -13,4 +14,8 @@ livret.ily: $(livret_src)
 	echo '}' >> $@
 
 all: livret.ily
-.PHONY: all
+
+lyrics:
+	$(python) $(paroles_py) $(livret_src)
+
+.PHONY: all lyrics

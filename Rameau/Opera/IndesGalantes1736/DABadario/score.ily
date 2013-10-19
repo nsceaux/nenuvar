@@ -1,29 +1,27 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB <<
-        { s1 s2. s1*3 s1^"Trompette" }
-        \global \keepWithTag #'trompette \includeNotes "dessus"
+      \new Staff \with { \haraKiriFirst \violonTrompetteInstr } <<
+        { s1 s2. s1*3 <>^"Trompettes" _"Violons" }
+        \global \includeNotes "dessus"
       >>
-      \newHaraKiriStaffB <<
-        { s1 s2. s1*3 s1^"Violons" }
-        \global \keepWithTag #'violons \includeNotes "dessus"
+      \new Staff \with { \haraKiriFirst \partiesInstr } <<
+        { s1 s2. s1*3 <>^"Parties" }
+        \global \includeNotes "parties"
       >>
-      \newHaraKiriStaffB <<
-        { s1 s2. s1*3 s1_"Timbales" }
+      \new Staff \with { \haraKiriFirst \timbalesInstr } <<
+        { s1 s2. s1*3 <>^"Timbales" }
         \global \includeNotes "timbales"
       >>
     >>
-    \new Staff \withLyrics <<
-      \characterName "Adario"
-      \global \includeNotes "adario"
+    \new Staff \with { \adarioInstr } \withLyrics <<
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff <<
-      \instrumentName \markup \center-column { Basse continue }
-      \global \keepWithTag #'conducteur \includeNotes "basse" \includeFigures "chiffres"
-      { s1 s2. s1*12 s2.*2 s1*6 s2. s1*2 s2 \break }
+    \new Staff \with { \bcInstr } <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

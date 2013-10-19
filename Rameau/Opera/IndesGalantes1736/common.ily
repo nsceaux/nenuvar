@@ -81,10 +81,16 @@
      (begin
        (set-cdr! (assoc 'dessus french-clefs)
                  '(french . french))
+       (set-cdr! (assoc 'dessus2 french-clefs)
+                 '(soprano . soprano))
        (set-cdr! (assoc 'haute-contre french-clefs)
                  '(soprano . soprano))
        (set-cdr! (assoc 'taille french-clefs)
-                 '(mezzosoprano . mezzosoprano))))
+                 '(mezzosoprano . mezzosoprano))
+       (set-cdr! (assoc 'vhaute-contre french-clefs)
+                 '(alto . alto))
+       (set-cdr! (assoc 'vtaille french-clefs)
+                 '(tenor . tenor))))
 
 %%%
 
@@ -215,6 +221,14 @@ hautboisTrompettesInstr = \with {
   instrumentName = \markup\center-column { "Trompettes" "Hautbois" }
   shortInstrumentName = \markup\center-column { "Tr" "Htb" }
 }
+violonTrompetteInstr = \with {
+  instrumentName = \markup\center-column { "Trompettes" "Violons" }
+  shortInstrumentName = \markup\center-column { "Tr" "Vln" }
+}
+trompetteInstr = \with {
+  instrumentName = "Trompettes"
+  shortInstrumentName = "Tr"
+}
 fluteInstr = \with {
   instrumentName = "Flutes"
   shortInstrumentName = "Fl."
@@ -258,6 +272,11 @@ bcInstr = \with {
 choeurInstr = \with {
   instrumentName = "Chœur"
   shortInstrumentName = "Ch."
+}
+
+adarioInstr = \with {
+  instrumentName = \markup\smallCaps Adario
+  shortInstrumentName = "A."
 }
 
 %%%
