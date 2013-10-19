@@ -135,7 +135,7 @@
     sol'' fa''2 |
     mi''4. fa''8 sol''4 |
     re'' re''2\prall |
-    \origVersion\footnote #'(0 . 3) #'NoteHead \markup {
+    \origVersion\footnoteHere #'(0 . 0) \markup {
       Dessus, mesure 60 : un \italic ré est indiqué.
     } do''2. |
   }

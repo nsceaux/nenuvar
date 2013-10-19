@@ -26,7 +26,7 @@
     fa''2. re''4 |
     mi''2. dod''4 |
     re'' mi'' mi''4.\prall re''8 |
-    \origVersion\footnote #'(0 . 2) #'NoteHead \markup {
+    \origVersion\footnoteHere #'(0 . 0) \markup {
       Dessus, mesure 25 : un \italic mi est indiqué.
     }
     re''2.
