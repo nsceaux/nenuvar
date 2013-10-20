@@ -85,7 +85,7 @@
 %# Nous suivons sur nos bords l'innocente nature,
 %# Et nous n'aimons que d'un amour sans art.
 %# Nôtre bouche & nos yeux ignorent l'imposture ;
-%# Sous cette naissante verdure,
+%# Sous cette ri=ante verdure,
 %# S'il éclate un soupir, s'il échape un regard,
 %# C'est du cœur qu'il part.
 %# Nous suivons sur nos bords l'innocente nature,

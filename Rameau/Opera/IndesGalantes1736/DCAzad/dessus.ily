@@ -1,1 +1,0 @@
-\clef "dessus" r4 r2 R1*5 R1 R2.*8 R2.*35 |

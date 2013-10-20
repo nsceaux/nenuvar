@@ -5,7 +5,7 @@
   subtitle = "Ballet Héroïque"
 }
 
-#(ly:set-option 'ancient-style #f)
+#(ly:set-option 'ancient-style (eqv? (ly:get-option 'urtext) #t))
 #(ly:set-option 'ancient-alteration #f)
 #(ly:set-option 'original-layout #f)
 #(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
@@ -76,21 +76,6 @@
    (basse-continue
    "Basse continue" ((basse #f))
    (#:notes "basse" #:clef "basse" #:tag-notes basse)))
-
-#(if (eqv? (ly:get-option 'urtext) #t)
-     (begin
-       (set-cdr! (assoc 'dessus french-clefs)
-                 '(french . french))
-       (set-cdr! (assoc 'dessus2 french-clefs)
-                 '(soprano . soprano))
-       (set-cdr! (assoc 'haute-contre french-clefs)
-                 '(soprano . soprano))
-       (set-cdr! (assoc 'taille french-clefs)
-                 '(mezzosoprano . mezzosoprano))
-       (set-cdr! (assoc 'vhaute-contre french-clefs)
-                 '(alto . alto))
-       (set-cdr! (assoc 'vtaille french-clefs)
-                 '(tenor . tenor))))
 
 %%%
 
@@ -277,6 +262,11 @@ choeurInstr = \with {
 adarioInstr = \with {
   instrumentName = \markup\smallCaps Adario
   shortInstrumentName = "Ad."
+}
+
+zimaInstr = \with {
+  instrumentName = \markup\smallCaps Zima
+  shortInstrumentName = "Zi."
 }
 
 damonInstr = \with {

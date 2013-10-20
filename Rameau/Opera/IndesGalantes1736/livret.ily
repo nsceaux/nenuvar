@@ -836,7 +836,7 @@
 \livretVerse#12 { Nous suivons sur nos bords l’innocente nature, }
 \livretVerse#10 { Et nous n’aimons que d’un amour sans art. }
 \livretVerse#12 { Nôtre bouche & nos yeux ignorent l’imposture ; }
-\livretVerse#8 { Sous cette naissante verdure, }
+\livretVerse#8 { Sous cette riante verdure, }
 \livretVerse#12 { S’il éclate un soupir, s’il échape un regard, }
 \livretVerse#5 { C’est du cœur qu’il part. }
 \livretVerse#12 { Nous suivons sur nos bords l’innocente nature, }

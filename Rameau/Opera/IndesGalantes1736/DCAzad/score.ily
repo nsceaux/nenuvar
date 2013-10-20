@@ -1,23 +1,31 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaffB << \global \keepWithTag #'conducteur \includeNotes "violon1" >>
-      \newHaraKiriStaffB << \global \includeNotes "violon2" >>
+    \new GrandStaff \with { \violonInstr } <<
+      \new Staff \with { \haraKiriFirst } <<
+        { s2. s1*6 s2.*7 s2
+          <>_\markup\whiteout { \concat { p \super rs } violons } }
+        \global \includeNotes "violon1"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        { s2. s1*6 s2.*7 s2
+          <>_\markup\whiteout { \concat { 2 \super es } violons } }
+        \global \includeNotes "violon2"
+      >>
     >>
-    \newHaraKiriStaff \withLyrics <<
-      \characterName \markup \center-column \smallCaps { Zima Damon Alvar }
-      \global \keepWithTag #'voix1 \includeNotes "voix"
-    >> \keepWithTag #'voix1 \includeLyrics "paroles"
-    \newHaraKiriStaffB \withLyrics <<
-      \global \keepWithTag #'voix2 \includeNotes "voix"
-    >> \keepWithTag #'voix2 \includeLyrics "paroles"
-    \newHaraKiriStaff <<
-      \instrumentName \markup \center-column { Basse continue }
-      \global \includeNotes "basse" \includeFigures "chiffres"
-      { s2. s1*5 s1 s2.*7 s2 \bar "" \break\startHaraKiri
-        s4 s2.*35 s4 \bar "" \break\stopHaraKiri }
+    \new Staff \with { \haraKiri \zimaInstr } \withLyrics <<
+      \global \keepWithTag #'zima \includeNotes "voix"
+    >> \keepWithTag #'zima \includeLyrics "paroles"
+    \new Staff \with { \haraKiri \damonInstr } \withLyrics <<
+      \global \keepWithTag #'damon \includeNotes "voix"
+    >> \keepWithTag #'damon \includeLyrics "paroles"
+    \new Staff \with { \haraKiri \alvarInstr } \withLyrics <<
+      \global \keepWithTag #'alvar \includeNotes "voix"
+    >> \keepWithTag #'alvar \includeLyrics "paroles"
+    \new Staff \with { \haraKiri \bcInstr } <<
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \includeFigures "chiffres"
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }
