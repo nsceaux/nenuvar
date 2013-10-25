@@ -261,22 +261,22 @@ choeurInstr = \with {
 
 adarioInstr = \with {
   instrumentName = \markup\smallCaps Adario
-  shortInstrumentName = "Ad."
+  shortInstrumentName = \markup\smallCaps "Ad."
 }
 
 zimaInstr = \with {
   instrumentName = \markup\smallCaps Zima
-  shortInstrumentName = "Zi."
+  shortInstrumentName = \markup\smallCaps "Zi."
 }
 
 damonInstr = \with {
   instrumentName = \markup\smallCaps Damon
-  shortInstrumentName = "Da."
+  shortInstrumentName = \markup\smallCaps "Da."
 }
 
 alvarInstr = \with {
   instrumentName = \markup\smallCaps Alvar
-  shortInstrumentName = "Al."
+  shortInstrumentName = \markup\smallCaps "Al."
 }
 
 %%%

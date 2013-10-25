@@ -33,7 +33,7 @@
         { \key re \minor \time 4/4 s1*3 \digitTime\time 3/4 }
         \keepWithTag #'basse \includeNotes "basse"
       >>
-      \layout { indent = \smallindent}
+      \layout { indent = \smallindent }
     }
     \lyrics { \tacet #40 $livret }
   } #})))

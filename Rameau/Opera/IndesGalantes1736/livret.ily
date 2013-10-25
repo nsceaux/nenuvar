@@ -931,7 +931,7 @@
 \livretDidasP\line { à \smallCaps Alvar. }
 \livretVerse#12 { A vos tristes regrets dérobez ce beau jour ; }
 \livretVerse#10 { Que le plaisir avec nous vous arrête... }
-\livretPers\line { ALVAR, \smaller { s'éloigant. } }
+\livretPers\line { ALVAR, \smaller { s'éloignant. } }
 \livretVerse#12 { Helas ! je vais cacher un malheureux amour ! }
 \livretPers\line { DAMON, \smaller { le suivant. } }
 \livretVerse#10 { Venez plûtôt l’amuser à la Fête. }

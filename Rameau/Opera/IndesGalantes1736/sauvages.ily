@@ -43,7 +43,6 @@
 \pieceToc\markup\wordwrap { DAMON, ALVAR :
   \italic { Damon, quelle vaine esperance } }
 \includeScore "DBAalvarDamon"
-\partNoPageTurn #'(basse)
 
 %{ n°6 %}
 \scene "Scene III" "Scene 3 : Zima, Damon, Alvar"
@@ -64,7 +63,6 @@
 \pieceToc\markup\wordwrap { DAMON, ZIMA, ALVAR :
   \italic { Voilà vos sentimens } }
 \includeScore "DCCzad"
-\partNoPageTurn #'(basse)
 
 %{ n°9 %}
 \scene "Scene IV" "Scene 4 : Zima, Damon, Alvar, Adario"

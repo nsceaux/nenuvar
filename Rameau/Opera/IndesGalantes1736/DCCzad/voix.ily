@@ -39,7 +39,7 @@
     mi'8\trill mi' r16 la'^\markup\italic "[a l'Espagnol]" si' do'' si'8\trill
     r16 si'^\markup\italic "[au Français]" |
     mi''4 la'8 la'16 re'' dod''8.\trill re''16 |
-    re''4
+    \custosNote re''4
   }
   %% Damon
   \tag #'(damon basse) {
@@ -92,7 +92,7 @@
     r2 fa'4 fa'8 fa' |
     do'8. do'16 mib'8 mib'16 sol' mib'8\trill mib'16 re' |
     re'4\trill re'8 
-    \tag #'damon { r8 r2 | R1*2 R2.*2 | r4 }
+    \tag #'damon { r8 r2 | R1*2 R2.*2 | }
   }
   %% Alvar
   \tag #'(alvar basse) {
@@ -131,6 +131,6 @@
     r16 sib sib8. sol16 la8 sib |
     mi4\trill fa8 fa sol4 la8 sib |
     la\trill
-    \tag #'alvar { r8 r4 r2 | R2.*2 | r4 }
+    \tag #'alvar { r8 r4 r2 | R2.*2 | }
   }
 >>

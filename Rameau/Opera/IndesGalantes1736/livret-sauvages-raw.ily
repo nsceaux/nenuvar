@@ -180,7 +180,7 @@
 \livretDidasP\line { à \smallCaps Alvar. }
 %# A vos tristes regrets dérobez ce beau jour ;
 %# Que le plaisir avec nous vous arrête...
-\livretPers\line { ALVAR, \smaller { s'éloigant. } }
+\livretPers\line { ALVAR, \smaller { s'éloignant. } }
 %# Helas ! je vais cacher un malheureux amour !
 \livretPers\line { DAMON, \smaller { le suivant. } }
 %# Venez plûtôt l'amuser à la Fête.

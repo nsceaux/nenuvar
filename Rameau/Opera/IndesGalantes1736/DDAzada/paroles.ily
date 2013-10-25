@@ -1,58 +1,34 @@
-%%ALVAR
-Que vois- "je ?"
+\tag #'(zima basse)  { - sez. }
+\tag #'(alvar basse) { Que vois- je ? }
+\tag #'(zima basse)  { C’est l’A -- mant que mon cœur vous pré -- fe -- re. }
+\tag #'(alvar basse) { O -- sez- vous pro -- non -- cer un Ar -- rêt si fa -- tal. }
+\tag #'(zima basse)  { Dons nos Fo -- rest on est sin -- ce -- re. }
+\tag #'(alvar basse) { Je sçau -- ray m’im -- mo -- ler un o -- di -- eux Ri -- val. }
+\tag #'(adario basse) {
+  Je crai -- gnois ton a -- mour, je crains peu ta co -- le -- re.
+}
+\tag #'(alvar basse) { C’en est trop. }
+\tag #'(damon basse) { Ar -- rê -- tez. }
+\tag #'(alvar basse) {
+  Da -- mon, y pen -- sez- vous ?
+  Quoy, c’est vous qui pre -- nez con -- tre moi sa dé -- fen -- se !
+}
+\tag #'(damon basse) {
+  J’ay trop pro -- té -- gé l’in -- cons -- tan -- ce
+  Pour ne pas m’op -- po -- ser à l’in -- jus -- te cou -- roux
+  Qui vous est ins -- pi -- ré par la per -- sé -- ve -- ran -- ce.
 
-%%ZIMA
-C'est l'a -- mant que mon coeur vous pré -- fè -- re.
+  Dé -- ja dans les Bois d’al -- len -- tour
+  J’en -- tends de nos Guer -- riers les bruy -- an -- tes Trom -- pet -- tes,
+  Leurs sons n’ef -- fray -- ent plus ces ai -- ma -- bles re -- trai -- tes,
+  Des char -- mes de la paix ils mar -- quent le re -- tour.
 
-%%ALVAR
-%%(les apercevant)
-O -- sez- vous pro -- non -- cer un ar -- rêt si fa -- "tal !"
-
-%%ZIMA
-Dans nos fo -- rêts on est sin -- cè -- re.
-
-%%ALVAR
-%%(montrant Adario)
-Je sau -- rai m'im -- mo -- ler un o -- di -- eux ri -- val.
-
-%%ADARIO
-%%(fièrement, à Alvar)
-Je crai -- gnais ton a -- mour, je crains peu ta co -- lè -- re.
-
-%%ALVAR
-%%(l'arrêtant)
-C'en est trop...
-
-%%DAMON
-%%(arrêtant Alvar)
-Ar -- rê -- tez...
-
-%%ALVAR
-%%(surpris)
-Da -- mon, y pen -- sez- "vous ?"
-Quoi, c'est vous qui pre -- nez con -- tre moi sa dé -- fen -- "se ?"
-
-%%DAMON
-%%(à Alvar)
-J'ai trop pro -- té -- gé l'in -- cons -- tan -- ce
-pour ne pas m'op -- po -- ser à l'in -- jus -- te cour -- roux
-qui vous est ins -- pi -- ré par la per -- sé -- vé -- ran -- ce.
-
-%%On entend un prélude qui annonce la fête.
-
-%%DAMON
-Dé -- jà, dans les bois d'a -- len -- tour,
-j'en -- tends de nos guer -- riers les bruy -- an -- tes trom -- pet -- tes.
-Leur sons n'ef -- fray -- ent plus ces ai -- ma -- bles re -- trai -- "tes ;"
-des char -- mes de la paix ils mar -- quent le re -- tour.
-%%(à Alvar)
-À vos tris -- tes re -- grets dé -- ro -- bez ce beau "jour !"
-Que le plai -- sir a -- vec nous vous ar -- rê -- "te !"
-
-%%ALVAR
-%%(s'éloignant)
-Hé -- "las !" Je vais cher -- cher un mal -- heu -- reux a -- mour.
-
-%%DAMON
-%%(le suivant)
-Ve -- nez ve -- nez plu -- tôt l'a -- mu -- ser à la fê -- "te !"
+  A vos tris -- tes re -- grets dé -- ro -- bez ce beau jour ;
+  Que le plai -- sir a -- vec nous vous ar -- rê -- te...
+}
+\tag #'(alvar basse) {
+  He -- las ! je vais ca -- cher un mal -- heu -- reux a -- mour !
+}
+\tag #'(damon basse) {
+  Ve -- nez plû -- tôt l’a -- mu -- ser à la Fê -- te.
+}
