@@ -10,7 +10,7 @@ sib,8 re do mib re4 re |
   sol,2 sol~ |
   sol fad4 |
   sol2 si,4 |
-  do la,2 |
+  do dod2 |
   re r8 re |
   sol4 mib fa8 sol |
   do2. |
