@@ -3,7 +3,7 @@
   \tag #'violon1 {
     la''8 |
     la''4.( sol''8) sol''8( fa''16\trill mi'') |
-    \appoggiatura mi''8 fa''8.[ mi''16]
+    \appoggiatura mi''8 fa''8.[( mi''16)]
   }
   \tag #'violon2 {
     fa''8 |
@@ -12,7 +12,7 @@
   }
 >> re''8.[( do''16)] sib'8.[( la'16)] |
 sol'2.~ |
-sol'4.( fa'16\trill mi') \appoggiatura mi'8 fa'8. la'16 |
+sol'4.( fa'16\trill mi') \appoggiatura mi'8 fa'8.( la'16) |
 re'4.( mi'16 fa') mi'8.(\trill re'16) |
 dod'8.\trill( re'16) mi'2 |
 la4 re'2~ |
@@ -29,7 +29,7 @@ la'2( sol'8.)\trill sib'16 |
 sol'2.~ |
 sol'4.( fa'16\trill mi') \appoggiatura mi'8 fa'8.( la'16) |
 re'4.( mi'16 fa') mi'8.\trill( re'16) |
-dod'8 \appoggiatura si la16 r r4 mi'8.( re'16) |
+dod'8\trill \appoggiatura si la16 r r4 mi'8.( re'16) |
 fa'8.( mi'16) sol'4 sib' |
 mi'8.( sol'16) fa'8.\trill( mi'16) la'8.( fa'16) |
 \appoggiatura mi'8 re'2~ re'8 dod'16( re') |

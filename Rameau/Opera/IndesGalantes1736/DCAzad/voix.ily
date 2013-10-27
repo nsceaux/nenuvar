@@ -35,7 +35,7 @@
     sib'4 lab'( sol'8) lab' |
     sol'2\trill do''8 mib'' |
     re''4.( do''8)\trill re''8 \appoggiatura do'' sib' |
-    la'2\trill sol'8 fa' |
+    la'2\trill fa'8 fa' |
     sib'4.( la'8)\trill sib'4 |
     \appoggiatura sib'8 do''2. |
     r4 r fa''8 mib'' |

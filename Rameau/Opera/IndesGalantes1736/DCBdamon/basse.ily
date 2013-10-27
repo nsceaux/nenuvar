@@ -21,8 +21,8 @@ re,4 r4 r |
 r r re4 |
 sol4. si16 re' fa4~ |
 fa4. si16 re' mib8. fa16 |
-sol4 sol,2^\parenthesize\fermata |
-do8. mib32 sol do'4 r |
+sol4 sol,2 |
+do8 mib16 sol do'4 r |
 r do'16 sib |
 la fa sol fa mib do |
 fa8 fa'16 mib' re' do' |
@@ -38,15 +38,15 @@ sib( la) sol8 fa16( mib) |
 re( mib) fa( re) sol( sol,) |
 do4 re8 |
 mib4. |
-sib,8 do8.\trill sib,32( do) |
+sib,8 do8.\trill( sib,32 do) |
 re4 r8 |
 R4. |
 r8 re'16( do') sib( la) |
 sol4.~ |
 sol16( fa) mib( re) do( sib,) |
 mib8 sib, do |
-re re,4^\parenthesize\fermata |
-sol,8. <>^"[Tous]"\fort sib32[ re'] fad16.[ re32] |
+re re,4 |
+sol,8. <>^"Tous et B.C."\fort sib32[ re'] fad16.[ re32] |
 sol8.[ sib32 re'] fad16.[ re32] |
 sol16.[ do32] re8[ re,] |
 sol8 re16 sib, sol,8 |

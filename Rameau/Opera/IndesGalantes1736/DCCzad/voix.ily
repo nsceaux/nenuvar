@@ -6,7 +6,7 @@
       \tag #'basse { s2.*3 s4 \zimaMark }
     >>
     la'4 re''~ re''16 re'' re'' la' |
-    sib'4 sib'8 sib'16 la' sol'8 fa' |
+    sib'4 sib' sib'16 la' sol' fa' |
     mi'4\trill mi'8 mi' fa'4 sol'8 la' |
     sib'4 la'8 re'' dod''4.\trill dod''16 re'' |
     re''4. re''8 r
@@ -14,7 +14,7 @@
       \tag #'basse { r8 R2.*17 R1 s1*52 s1 s2. s1*2 s8 \zimaMark }
       \tag #'zima {
         re''8 |
-        mi''8.[( re''16)]\trill do''8 mi''4\trill fad''8 |
+        mi''8[( re'')]\trill do'' mi''4\trill fad''8 |
         sol''4.~ sol''4 re''8 |
         re''[ la'] do'' si'[( la')]\trill sol' |
         re'4.~ re'4 sol'8 |
@@ -24,7 +24,7 @@
         re''4.~ re''4 la'8 |
         do''4 si'16 la' re''8 fad'\trill sol' |
         \appoggiatura sol'8 la'4. re'8 r re'' |
-        mi''8.[( re''16)]\trill do''8 mi''4\trill fad''8 |
+        mi''8[( re'')]\trill do''8 mi''4\trill fad''8 |
         sol''4.~ sol''4 re''8 |
         re''[( do'')]\trill si' la'4\trill sol'8 |
         sol'4.~ sol'4 re''8 |
@@ -38,7 +38,7 @@
     la'16 la' re''8 re''16 la' sib'8 sib'16 sib' sol'8\trill sol'16 sol' |
     mi'8\trill mi' r16 la'^\markup\italic "[a l'Espagnol]" si' do'' si'8\trill
     r16 si'^\markup\italic "[au Français]" |
-    mi''4 la'8 la'16 re'' dod''8.\trill re''16 |
+    mi''4 \parenthesize r16 la' la' re'' dod''8.\trill re''16 |
     \custosNote re''4
   }
   %% Damon
@@ -80,7 +80,7 @@
         re'2 re'8 r re' fa' |
         mi'8*2/3[\melisma fa' re'] mi'4~ mi'8*2/3[ fa' re'] mi'[ fad' sol'] |
         fad'[ sol' la'] re'2\melismaEnd r8 sol' |
-        sib4.( do'16[ re']) mib'16[ re'8.] do'16[ sib8.] |
+        sib4.( do'16[ re']) mib'16[ re'8.*5/3] do'16[ sib] |
         la2\trill r4 sib8 sol |
         re'8*2/3[\melisma mib' re'] sol'[ la' sol'] sib'2~ |
         sib'2.\melismaEnd la'8[ sol'] |
@@ -109,7 +109,7 @@
         re'4 sol r do'8. sib16 |
         la4 sol fad\trill sol |
         re2 r4 sib |
-        re' re'8 do' sib4 fa |
+        sib re'8 do' sib4 fa |
         sib2 sib8 r re re |
         mib2 mib4. fa8 |
         \appoggiatura fa8 sol2. sib4 |

@@ -16,13 +16,13 @@ fad''8 mi'' re'' mi'' fad''4 sol'' |
 fad''8 mi'' re'' mi'' fad''4 sol'' |
 fad''8 mi'' re'' dod'' re''4 la' |
 \footnoteHere #'(0 . 0) \markup {
-  A134 : \score {
+  A132a², Vm²328, Cons.192, partie séparée Fds. La Salle 66 : \score {
     { \tinyQuote \clef "french" \time 2/2 \key re \major
       fad''8 mi'' re'' dod'' re''4 la' |
-      re''4 la' fad'2\trill | }
+      fad'2\trill r | }
     \layout { \quoteLayout }
   }
 }
-fad'2\trill r |
+re''4 la' fad'2\trill |
 fad''8 mi'' re'' dod'' re''4 la' |
 fad'\trill re' re'2 |

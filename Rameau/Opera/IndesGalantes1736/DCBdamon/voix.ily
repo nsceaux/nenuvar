@@ -13,10 +13,10 @@ fad'2.\trill |
 la4 la8 si do' re' |
 si2.\trill |
 re'4 do'8 si do' re' |
-mib'4( re'2)\trill^\parenthesize\fermata |
+mib'4( re'2)\trill |
 do'2 r8 re' |
 mib' re' do' |
-fa'4 sib16 do' |
+fa'8 sib8. do'16 |
 la4\trill sib16 do' |
 re'4\trill mib'16 fa' |
 \appoggiatura fa'8 sol'4 la'8 |
@@ -37,6 +37,6 @@ la'8 sol'16[ fad'] mi'?[ re'] |
 sib'4.~ |
 sib'16[ la'] sol'[ fa'] mib'[ re'] |
 sol'8 r16 sib do'8 |
-re'~ re'4\trill^\parenthesize\fermata |
-sol4. |
+re'~ re'4\trill |
+\appoggiatura re'8 sol4. |
 R4.*3 |

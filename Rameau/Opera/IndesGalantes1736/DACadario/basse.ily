@@ -1,4 +1,4 @@
-\clef "basse" fa8 |
+\clef "basse" fa8^"Tous" |
 sol4. sib8 la8. la,16 |
 re8.( dod16) re8.( mi16) fa8.( re16) |
 mi8.( re16) mi8.( fa16) sol8.( mi16) |

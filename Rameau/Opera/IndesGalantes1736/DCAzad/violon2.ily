@@ -21,7 +21,7 @@ la'( sol') fa'( sol') la'( fa') |
 sib'4 la' sol' |
 fa' fa'8( mib') re'( do') |
 sib( do') re'( do') re'( sib) |
-mib'( mib'') sol'' r r4 |
+mib'([ mib'']) sol'' r r4 |
 r8 mi' sol' r r4 |
 r4 fa'8( mib') re'( do') |
 fa'( mib') re'( do') re'( sib) |

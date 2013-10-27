@@ -1,6 +1,6 @@
 \clef "basse" re2 sol |
 fa4 mib8 re16 do sol4 sol, |
-do2 fa8. re16 mib8 mib16 fa |
+do2 fa8. re16 mib8. fa16 |
 sib,2 sol, |
 fa,2. |
 r2 fa, |

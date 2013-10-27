@@ -20,14 +20,15 @@ re re, r4 r |
   mi mi' re' do' re' mi' |
   si do' re' la sold la |
   mi4 re8 do4 fa8 |
-  si,4 do8 re[ do8. re16] mi8 mi,4 |
+  %si,4 do8 re[ do8. re16] mi8 mi,4 |
+  si,4. do8 re4 do8. re16 mi4 mi, |
   la, fa8 sib4 la8 |
   sol4 sib8 la4 mi8\trill |
   fa8 fa, sol, la, sol, fa, |
   sib, sib4 la8 la,4 |
   re8 do8. sib,16 do8 do,4 |
   fa,4 r8 mi16 fad sol4 |
-  fa sol16 la sib8 sol8.(\trill fa32 sol) |
+  fa sol16 la sib8 sol8.*2/3(\trill fa32*2 sol) |
   la4. sol8 la16 sib mi fa |
   dod2 re4. sol,8 la,2 |
   re4
