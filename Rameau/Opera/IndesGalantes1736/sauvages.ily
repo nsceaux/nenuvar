@@ -95,7 +95,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°13 %}\newBookPart #'(full-rehearsal)
-\scene "Scene VI" \markup \wordwrap {
+\scene "Scene VI" \markup\wordwrap {
   Scene 6 : Zima, Adario, chœur de Françaises, Français et sauvages
 }
 \sceneDescription\markup\wordwrap-center {
