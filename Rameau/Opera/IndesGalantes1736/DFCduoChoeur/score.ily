@@ -1,41 +1,40 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \new Staff <<
-        \instrumentName "Violons"
-        \global \keepWithTag #'conducteur \includeNotes "dessus" >>
-      \newHaraKiriStaffB <<
-        \global \keepWithTag #'conducteur \includeNotes "haute-contre-taille" >>
-    >>
-    \new ChoirStaff <<
-      \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "voix-dessus"
-        >> \includeLyrics "paroles1"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "voix-haute-contre"
-        >> \includeLyrics "paroles234"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "voix-taille"
-        >> \includeLyrics "paroles234"
-      \newHaraKiriStaffB \withLyrics <<
-        \global \includeNotes "voix-basse"
-      >> \includeLyrics "paroles234"
-      \newHaraKiriStaff \withLyrics <<
-        \characterName "Zima"
-        { s1*16 \break
-          s1*16 \break
-          s1*16 \break }
-        \global \includeNotes "zima"
-        >> \includeLyrics "paroles-zima"
-      \newHaraKiriStaff \withLyrics <<
-        \characterName "Adario"
-        \global \includeNotes "adario"
-        >> \includeLyrics "paroles-adario"
+      \new Staff \with { \dessusInstr } <<
+        \global \includeNotes "dessus"
       >>
-    \new Staff <<
-      \instrumentName "Basses"
-      \global \includeNotes "basse" \includeFigures "chiffres" >>
+      \new Staff \with { \partiesInstr \haraKiriFirst } <<
+        { s1*16 <>^"[Parties]" }
+        \global \includeNotes "parties"
+      >>
     >>
-  \layout { indent = \largeindent }
+    \new ChoirStaff \with { \choeurInstr } <<
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vdessus \includeNotes "voix"
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vhaute-contre \includeNotes "voix"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vtaille \includeNotes "voix"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
+      \new Staff \with { \haraKiriFirst } \withLyrics <<
+        \global \keepWithTag #'vbasse \includeNotes "voix"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
+    >>
+    \new Staff \with { \zimaInstr \haraKiri } \withLyrics <<
+      \global \keepWithTag #'zima \includeNotes "voix"
+    >> \keepWithTag #'zima \includeLyrics "paroles"
+    \new Staff \with { \adarioInstr \haraKiri } \withLyrics <<
+      \global \keepWithTag #'adario \includeNotes "voix"
+    >> \keepWithTag #'adario \includeLyrics "paroles"
+    \new Staff \with { \basseInstr } <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+      { s1*16 \break s1*16 \break s1*16 \break }
+    >>
+  >>
+  \layout { }
   \midi { }
 }

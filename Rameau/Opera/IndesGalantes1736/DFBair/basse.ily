@@ -49,6 +49,6 @@ sold4. si8 re' fa' re' sold |
 la2 la,4 la |
 sold4. si8 re' mi' re' fad |
 sol2 sol,4 sol |
-fad4. la8 re' mib' re' fa |
+fad4. la8 re' mib' do' fad |
 sol2 la |
 re'8 do' sib la sol fad mi re |

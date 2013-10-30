@@ -1,4 +1,4 @@
-\clef "basse" sol2 sol,4 sol |
+\clef "basse" <>_"B.C." sol2 sol,4 sol |
 re2 fad8 la re' re |
 fad,4 la, re re, |
 sol,2 sib,8 re sol sib |
@@ -14,27 +14,26 @@ sib,4 re sol sol, |
 do si, do re |
 mib do re re, |
 sol,2 sol, |
-
-\setMusic #'refrain {
-  sol2 sol,4 sol |\noBreak
-  re2 fad8 la re' re |
-  fad,4 la, re re, |
-  sol,2 sib,8 re sol sib |
-  sib,4 re sol sol, |
-  do si, do re |
-  mib do re sol, |
-  re,2 r8 do' sib\trill la |
-  sol2 sol,4 sol |
-  re2 fad8 la re' re |
-  fad,4 la, re re, |
-  sol,2 sib,8 re sol sib |
-  sib,4 re sol sol, |
-  do si, do re |
-  mib do re re, |
-  sol,1 |
-}
-\keepWithTag #'() \refrain
-
+%% Rondeau
+<>_"Tous"
+sol2 sol,4 sol |\noBreak
+re2 fad8 la re' re |
+fad,4 la, re re, |
+sol,2 sib,8 re sol sib |
+sib,4 re sol sol, |
+do si, do re |
+mib do re sol, |
+re,2 r8 do' sib\trill la |
+sol2 sol,4 sol |
+re2 fad8 la re' re |
+fad,4 la, re re, |
+sol,2 sib,8 re sol sib |
+sib,4 re sol sol, |
+do si, do re |
+mib do re re, |
+sol,2 sol, |
+%% 1re reprise
+<>_"B.C."
 sib2 sib,4 sib |
 fa2 fa8 la do' mib' |
 la,4 do fa fa, |
@@ -51,15 +50,14 @@ mib mib,4 mib |
 re2 sib,8 re fa sib |
 fa,2 fa4 fa, |
 sib8 la sol fa mib re do sib, |
-
-%\keepWithTag #'() \refrain
-
+%% 2e reprise
+<>_"B.C."
 sol2 sol |
-fad fa |
+fad\trill fa |
 mi la |
 re r |
 re' re' |
-dod' do' |
+dod'\trill do' |
 \appoggiatura do'8 si2 sib |
 la r |
 la la,4 la |
@@ -67,8 +65,6 @@ sold4. si8 re' fa' re' sold |
 la2 la,4 la |
 sold4. si8 re' mi' re' fad |
 sol2 sol,4 sol |
-fad4. la8 re' mib' re' fad |
+fad4. la8 re' mib' do' fad |
 sol2 la |
 re'8 do' sib la sol fad mi re |
-
-%\keepWithTag #'() \refrain
