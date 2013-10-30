@@ -7,15 +7,15 @@
   sol'4 sol' sib' re'' |
   sol' sol' sol' sol' |
   sol' do''2 sib'4 |
-  la'8 sol' fad' mi' re' do' sib la |
+  la'8 sol' fad'\trill mi' re' do' sib\trill la |
   sol2 sol'4 sol' |
-  fad'2 la'8 do'' fad' la' |
+  fad'2\trill la'8 do'' fad' la' |
   re'4 re' fad' fad' |
   sol'2 re'8 sol' sib' re'' |
   sol'4 sol' sib' re'' |
   sol' sol' sol' sol' |
   sol' do''2 la'4\trill |
-  sib'2 sib'\fermata |
+  sib'2 sib' |
 }
 
 \keepWithTag #'() \rondeau
@@ -40,12 +40,12 @@ re' r |
 
 %% 2eme couplet
 sol'2 sol4 sol' |
-fad' fa'2 fa'4 |
+fad'\trill fa'2 fa'4 |
 mi'2 la' |
 re' r |
 la' la'4 sib' |
 sib' la'2 r4 |
-la'2 sol' |
+la'2 sol'\trill |
 la' r |
 re'' re'' |
 re'' r |
@@ -53,5 +53,5 @@ la' la' |
 si'4 mi' r2 |
 dod''2 mi'' |
 la' re''~ |
-re'' dod'' |
-re''8 do'' sib' la' sol' fad' mi' re' |
+re''2. dod''4 |
+re''8 do''! sib' la' sol' fad' mi' re' |

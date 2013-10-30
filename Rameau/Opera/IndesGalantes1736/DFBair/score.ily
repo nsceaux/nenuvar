@@ -1,15 +1,13 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \instrumentName "Dessus"
-      \global \includeNotes "dessus" >>
-    \new Staff << \instrumentName "Haute-contres"
-      \global \includeNotes "haute-contre" >>
-    \new Staff << \instrumentName "Tailles"
-      \global \includeNotes "taille" >>
-    \new Staff << \instrumentName "Basses"
+    \new Staff \with { \violonInstr } << \global \includeNotes "dessus" >>
+    \new Staff \with { \hcInstr } << \global \includeNotes "haute-contre" >>
+    \new Staff \with { \tailleInstr } << \global \includeNotes "taille" >>
+    \new Staff \with { \basseInstr } <<
       { s1*16\break s1*16\break s1*16 }
-      \global \includeNotes "basse" >>
+      \global \includeNotes "basse" \includeFigures "chiffres"
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

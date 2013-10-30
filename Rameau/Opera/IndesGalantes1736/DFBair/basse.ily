@@ -15,7 +15,7 @@
   sib,4 re sol sol, |
   do re mib re |
   do mib re re, |
-  sol,2 sol,\fermata |
+  sol,2 sol, |
 }
 
 \keepWithTag #'() \rondeau
@@ -45,10 +45,10 @@ dod'\trill do'2 do'4 |
 si2 sib |
 la r |
 la la,4 la |
-sold4 si re'8 fa' re' sold |
+sold4. si8 re' fa' re' sold |
 la2 la,4 la |
-sold4 si re'8 fa' re' fad |
+sold4. si8 re' mi' re' fad |
 sol2 sol,4 sol |
-fad4. la8 re' mib' re' fad |
+fad4. la8 re' mib' re' fa |
 sol2 la |
 re'8 do' sib la sol fad mi re |
