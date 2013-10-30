@@ -1,6 +1,6 @@
 \piecePartSpecs #`((basse-continue #:score-template "score-basse-continue-voix")
                    (silence #:on-the-fly-markup
-                  , #{ \markup\lyrics { \tacet #59 
+                  , #{ \markup\lyrics { \tacet #26
   \bold ADARIO
   \verse#12 { Je ne vous peindrai point les transports de mon cœur, }
   \verse#10 { Belle Zima, jugez-en par le vôtre. }
