@@ -1,4 +1,4 @@
-\clef "basse" la4. sol8 fa4. mi8 |
+\clef "basse" la4. sol8 fa4.\trill mi8 |
 re2.~ |
 re2 dod |
 re1 |

@@ -1,14 +1,16 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new Staff \withLyrics <<
-      \characterName \markup \center-column \smallCaps { Zima Adario }
-      \global \includeNotes "adario-zima"
-    >> \includeLyrics "paroles"
-    \new Staff <<
-      \instrumentName \markup \center-column { Basse continue }
-      \global \includeNotes "basse" \includeFigures "chiffres"
+  \new ChoirStaff <<
+    \new Staff \with { \zimaInstr \haraKiri } \withLyrics <<
+      \global \keepWithTag #'zima \includeNotes "voix"
+    >> \keepWithTag #'zima \includeLyrics "paroles"
+    \new Staff \with { \adarioInstr \haraKiri } \withLyrics <<
+      \global \keepWithTag #'adario \includeNotes "voix"
+    >> \keepWithTag #'adario \includeLyrics "paroles"
+    \new Staff \with { \bcInstr } <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }
