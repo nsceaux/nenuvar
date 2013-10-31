@@ -1,26 +1,28 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \new Staff << \instrumentName "Trompettes"
-        \global \includeNotes "trompette" >>
-      \new Staff << \instrumentName "Flûtes"
-        \global \includeNotes "flute" >>
-      \new Staff << \instrumentName "Violons I"
-        \global \includeNotes "violon1" >>
-      \new Staff << \instrumentName "Violons II"
-        \global \includeNotes "violon2" >>
-      \new Staff << \instrumentName "Timbales"
-        \global \includeNotes "timbales" >>
+      \new Staff \with { \fluteInstr } <<
+        \global \includeNotes "flute"
+      >>
+      \new Staff \with { \hautboisTrompettesInstr } <<
+        \global \keepWithTag #'tous \includeNotes "hautbois-trompette"
+      >>
+      \new GrandStaff \with { \violonInstr } <<
+        \new Staff << \global \includeNotes "violon1" >>
+        \new Staff << \global \includeNotes "violon2" >>
+      >>
+      \new Staff \with { \timbalesInstr } <<
+        \global \includeNotes "timbales"
+      >>
     >>
-    \new Staff \withLyrics <<
-      \characterName "Zima"
-      \global \includeNotes "zima"
-    >> \includeLyrics "paroles"
-    \new Staff << \instrumentName "Basses"
-      \global \includeNotes "basse"
+    \new Staff \with { \zimaInstr } \withLyrics <<
+      \global \keepWithTag #'zima \includeNotes "voix"
+    >> \keepWithTag #'zima \includeLyrics "paroles"
+    \new Staff \with { \basseInstr } <<
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
       \includeFigures "chiffres"
     >>
   >>
-  \layout { indent = \largeindent }
-  \midi { \context { \Voice \remove "Dynamic_performer" } }
+  \layout { }
+  \midi { }
 }
