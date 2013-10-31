@@ -1,20 +1,41 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \instrumentName "Trompettes"
-      \global \includeNotes "trompette" >>
-    \new Staff << \instrumentName "Hautbois"
-      \global \keepWithTag #'conducteur \includeNotes "hautbois" >>
-    \new Staff << \instrumentName "Violons"
-      \global \keepWithTag #'conducteur \includeNotes "violon" >>
-    \new Staff << \instrumentName "Haute-contres"
-      \global \includeNotes "haute-contre" >>
-    \new Staff << \instrumentName "Tailles"
-      \global \includeNotes "taille" >>
-    \new Staff << \instrumentName "Timbales"
-      \global \includeNotes "timbales" >>
-    \new Staff << \instrumentName "Basses"
-      \global \keepWithTag #'conducteur \includeNotes "basse" >>
+    %{
+    \new StaffGroupNoBar \with {
+      instrumentName = \markup\override #'(baseline-skip . 4) 
+      \center-column { Trompette Hautbois Violons }
+      shortInstrumentName = \markup\override #'(baseline-skip . 4)
+      \center-column { Tr Htb Vln }
+    } <<
+      \new Staff = "dessus1" <<
+        \global \keepWithTag #'dessus1 \includeNotes "dessus"
+        \notemode {
+          s2.*36 \showStaffSwitch \hideNotes
+          \voiceTwo la'4 \change Staff = "dessus2"
+          \voiceOne fad' s \change Staff = "dessus1"
+          s2.*123
+          \voiceTwo la'4 \change Staff = "dessus2"
+          \voiceOne fad'
+        }
+      >>
+      \new Staff = "dessus2" <<
+        \global \keepWithTag #'dessus2 \includeNotes "dessus"
+      >>
+    >>
+    %}
+    \new Staff \with { \hcInstr } <<
+      \global \includeNotes "haute-contre"
+    >>
+    \new Staff \with { \tailleInstr } <<
+      \global \includeNotes "taille"
+    >>
+    \new Staff \with { \timbalesInstr } <<
+      \global \includeNotes "timbales"
+    >>
+    \new Staff \with { \basseInstr } <<
+      \global \includeNotes "basse"
+    >>
   >>
-  \layout { indent = \largeindent }
-  \midi { \context { \Voice \remove "Dynamic_performer" } }
+  \layout { }
+  \midi { }
 }

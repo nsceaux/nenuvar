@@ -132,7 +132,4 @@
 \pieceTocTitle "Chaconne"
 \includeScore "DFGchaconne"
 
-%{ n°17 %}\newBookPart #'(full)
-\pieceTocTitle "Entr'acte"
-\reIncludeScore "DFDmenuet" "DFFmenuet"
 \actEnd "FIN DE LA TROISIÈME ENTRÉE"
