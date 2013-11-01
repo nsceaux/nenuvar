@@ -24,7 +24,7 @@ la, r4 |
 R2.*4 |
 r16 la, la, la, la, la, la, la, re re re re |
 la, la, la, la, la, la, la, la, re re re re |
-la,8 re la,4 la, |
+la,8. re16 la,4 la, |
 re r4 r |
 R2.*76 |
 r8 la,16 la, la,8 la,16 la, la,8 la,16 la, |
@@ -51,7 +51,7 @@ r8 la,16 la, la,2 |
 r8 re16 re re2 |
 r8 la,16 la, la,2 |
 R2.*3 |
-r4 re2 |
+la,4 re2 |
 la,4 r4 r |
 R2. |
 r4 r re4 |

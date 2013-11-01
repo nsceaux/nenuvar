@@ -1,6 +1,6 @@
 \clef "dessus"
 <<
-  \tag #'dessus1 { R2.*16 | r8 }
+  \tag #'(dessus1 trompette) { R2.*16 | r8 }
   \tag #'dessus2 {
     <>^"Tous"
     r4 fa'8.(\doux sol'16) sol'8.\trill( fa'32 sol') |
@@ -14,7 +14,7 @@
     mi'4\trill la'4.( do''8) |
     si'4 re''4.( dod''16 re'') |
     dod''4.\trill mi''8 la'4~ |
-    la'8 sol'16\trill fa' mi'4.\trill re'8 |
+    la'8( sol'16\trill fa') mi'4.\trill re'8 |
     re'4 la'4.( do''8) |
     si'4 mi''4.( fa''16 sol'') |
     dod''4.\trill mi''8 la'4~ |
@@ -30,7 +30,7 @@ mi''8 la'16 la' mi''8 mi'' mi''8.(\trill re''32 mi'') |
 fad''8 la''16 sol'' fad''8 la''16 sol'' fad'' mi'' re'' fad'' |
 <<
   \tag #'dessus2 { mi''16 re'' dod'' si' }
-  \tag #'dessus1 { mi''8 la'16 la' }
+  \tag #'(dessus1 trompette) { mi''8 la'16 la' }
 >> la'8 la'16 la' la'8 la'
 re'' la'16 la' re''8 re'' re''8.(\trill dod''32 re'') |
 mi''8 la'16 la' mi''8 mi'' mi''8.(\trill re''32 mi'') |
@@ -38,14 +38,15 @@ fad''8 la''16 sol'' fad''8 la''16 sol'' fad'' mi'' re'' fad'' |
 mi''8 la''4 fad'' re''8~ |
 <<
   \tag #'dessus2 { re''8 si'16 la' si'8 sol'16 fad' sol'8 sol16 sol | sol8 }
-  \tag #'dessus1 { re''2.~ | re''8 }
+  \tag #'(dessus1 trompette) { re''2.~ | re''8 }
 >> si''4 sol'' mi''8~ |
 <<
-  \tag #'dessus1 {
+  \tag #'(dessus1 trompette) {
     mi''2. |
     R2. |
     <<
-      { <>^"Trompette"
+      \new Voice {
+        \tag #'dessus1 { \voiceOne <>^"Trompette" }
         r8 la''16 la'' la''8 mi''16 mi'' mi''8 la'16 la' |
         la'2. |
         r8 la''16 la'' la''8 mi''16 mi'' mi''8 la'16 la' |
@@ -54,8 +55,9 @@ mi''8 la''4 fad'' re''8~ |
         mi''8 mi'' la''2~ |
         la''2 r8 la''16 la'' |
         fad''4
-      } \\
-      { <>_"Hautbois"
+      }
+      \tag #'dessus1 \new Voice {
+        \voiceTwo <>_"Hautbois"
         r8 mi''16 mi'' mi''8 dod''16 dod'' dod''8 la'16 la' |
         la'2. |
         r8 mi''16 mi'' mi''8 dod''16 dod'' dod''8 la'16 la' |
@@ -90,7 +92,7 @@ mi''8 la''4 fad'' re''8~ |
   }
 >>
 <<
-  \tag #'dessus1 {
+  \tag #'(dessus1 trompette) {
     r4 r |
     R2.*15 |
     r4 r r8 la''16 la'' |
@@ -104,7 +106,7 @@ mi''8 la''4 fad'' re''8~ |
   }
   \tag #'dessus2 {
     <>^"Hautbois" \doux
-    fad'4 mi'\trill |
+    %{ ERREUR A IGNORER %} fad'4 mi'\trill |
     re'2 mi'4\trill |
     re'2 sol'4 |
     fad' mi'8.\trill( re'16) mi'4 |
@@ -131,7 +133,7 @@ mi''8 la''4 fad'' re''8~ |
   }
 >>
 <<
-  \tag #'dessus1 {
+  \tag #'(dessus1 trompette) {
     fad'8 la' la' la' re'' re'' |
     re''2.\trill |
     r8 re'' re'' re'' mi'' mi'' |
@@ -182,7 +184,7 @@ mi''8 la''4 fad'' re''8~ |
 >>
 %%% Mineur
 <<
-  \tag #'dessus1 { r4 r | R2.*23 | }
+  \tag #'(dessus1 trompette) { r4 r | R2.*23 | \allowPageTurn }
   \tag #'dessus2 {
     <>^"Violons" \doux la'4. si'8 |
     \appoggiatura si'8 do''4 fad'4.\trill( mi'16 fad') |
@@ -212,8 +214,8 @@ mi''8 la''4 fad'' re''8~ |
 >>
 %% Majeur
 <<
-  \tag #'dessus1 {
-    R2.*8 | <>^"Trompette"
+  \tag #'(dessus1 trompette) {
+    R2.*8 | \tag #'dessus1 <>^"Trompette"
     r4 re''8. mi''16 fad''8.\trill sol''16 |
     la''4. la''16 la'' la''8 la'' |
     re''4. sol''16 sol'' sol''8 sol'' |
@@ -270,15 +272,16 @@ mi''8 la''4 fad'' re''8~ |
   }
 >>
 <<
-  \tag #'dessus1 {
+  \tag #'(dessus1 trompette) {
     R2.*8 |
-    <>^"Trompette et hautbois" r8 la''4 fad'' re''8~ |
+    \tag #'dessus1 <>^"Trompette et hautbois" r8 la''4 fad'' re''8~ |
     re''2.~ |
     re''8 si''4 sol'' mi''8~ |
     mi''2. |
     R2. |
     <<
-      { <>^"Trompette"
+      \new Voice {
+        \tag #'dessus1 { \voiceOne <>^"Trompette" }
         r8 la''16 la'' la''8 mi''16 mi'' mi''8 la'16 la' |
         la'2. |
         r8 la''16 la'' la''8 mi''16 mi'' mi''8 la'16 la' |
@@ -287,7 +290,8 @@ mi''8 la''4 fad'' re''8~ |
         mi''8 mi'' la''2~ |
         la'' r8 la''16 la'' |
         fad''4\trill } \\
-      { <>_"Hautbois"
+      \tag #'dessus1 \new Voice {
+        \voiceTwo <>_"Hautbois"
         r8 mi''16 mi'' mi''8 dod''16 dod'' dod''8 la'16 la' |
         la'2. |
         r8 mi''16 mi'' mi''8 dod''16 dod'' dod''8 la'16 la' |
@@ -335,9 +339,9 @@ mi''8 la''4 fad'' re''8~ |
   }
 >>
 <<
-  \tag #'dessus1 {
+  \tag #'(dessus1 trompette) {
     r4 r | R2.*15 |
-    r4 <>^"Trompette" \fort fad''4. mi''16 re'' |
+    r4 \tag #'dessus1 <>^"Trompette" \fort fad''4. mi''16 re'' |
     mi''4 la'4. la'16 la' |
     re''4. re''16 re'' re''8. re''16 |
     mi''4. mi''16 mi'' mi''8. mi''16 |
@@ -372,8 +376,8 @@ mi''8 la''4 fad'' re''8~ |
     fad'2.\trill |
   }
   \tag #'dessus2 {
-    <>^"Hautbois" \doux
-    fad'4 mi'\trill |
+    <>^\markup\whiteout Hautbois \doux
+    %{ ERREUR A IGNORER %} fad'4 mi'\trill |
     re'2 mi'4\trill |
     re'2 sol'4 |
     fad' mi'8.\trill( re'16) mi'4 |
@@ -405,7 +409,7 @@ mi''8 la''4 fad'' re''8~ |
     sol' sol' sol' |
     dod''8 dod'16 mi' la4 r |
     r16 mi'( fad' sol') mi'4.\trill re'8 |
-    re'4 \cesureInstr <>^"Hautbois"
+    re'4 \cesureInstr <>^\markup\whiteout Hautbois
     << { fad''2 | mi''4 sol''2 | fad''4 la''2~ |
         la''4 sol''8.\trill fad''16 sol''8. mi''16 |
         fad''4 fad''2 | mi''4 sol''2 | fad''4 la''2~ |
@@ -426,4 +430,3 @@ mi''8 la''4 fad'' re''8~ |
     re''2. |
   }
 >>
-

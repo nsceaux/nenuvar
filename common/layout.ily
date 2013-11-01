@@ -72,6 +72,11 @@
   }
   \context {
     \StaffGroup
+    \name StaffGroup
+    \accepts "StaffGroupNoBracket"
+  }
+  \context {
+    \StaffGroup
     \name StaffGroupNoBar
     \description "Like StaffGroup, but without spanbar"
     \remove "Span_bar_engraver"
