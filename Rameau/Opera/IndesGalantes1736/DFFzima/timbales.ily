@@ -16,7 +16,7 @@ R1 |
 r4 re8 re re re re re |
 la,2 la, |
 re1 |
-R1*3 |
+R1*3 | \allowPageTurn
 r4 re8 re re4 re |
 la,2 r |
 R1 |

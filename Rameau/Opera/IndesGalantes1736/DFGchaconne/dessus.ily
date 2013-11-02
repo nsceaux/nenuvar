@@ -94,7 +94,7 @@ mi''8 la''4 fad'' re''8~ |
 <<
   \tag #'(dessus1 trompette) {
     r4 r |
-    R2.*15 |
+    R2.*15 | \tag #'trompette \allowPageTurn
     r4 r r8 la''16 la'' |
     la''2 r8 la'16 la' |
     re''2 r8 mi''16 mi'' |
@@ -226,7 +226,7 @@ mi''8 la''4 fad'' re''8~ |
     mi'' fad''16 sol'' mi''4.\trill re''8 |
     re''2.~ | re''~ | re''~ | re''4 la' la' |
     la'2 r4 |
-    R2.*19 |
+    R2.*19 | \tag #'trompette \allowPageTurn
   }
   \tag #'dessus2 {
     re''8 <>^"Violons" \fort re''16[ mi''] fad'' sol'' fad'' sol'' la''8 la'' |
