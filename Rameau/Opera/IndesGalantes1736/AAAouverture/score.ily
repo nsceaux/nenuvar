@@ -6,7 +6,7 @@
     \new Staff \with { \hcInstr } <<
       \global \includeNotes "haute-contre"
     >>
-    \new Staff \with { \partiesInstr } <<
+    \new Staff \with { \tailleInstr } <<
       \global \includeNotes "taille"
     >>
     \new Staff \with { \basseInstr } <<

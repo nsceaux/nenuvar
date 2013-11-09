@@ -93,5 +93,4 @@ sol8 la si do' re' mi' fad' re' |
 sol'4 sol sol' sol |
 re'1 |
 R1
-\origVersion s1
 re'1 |

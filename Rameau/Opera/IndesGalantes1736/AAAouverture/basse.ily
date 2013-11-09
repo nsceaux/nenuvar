@@ -112,6 +112,5 @@ sol,8 la, si, do re mi fad re |
 sol4 sol, sol sol, |
 <sol,\trill sol>1 |
 R1
-\origVersion s1
 <sol,\trill sol>1 |
 

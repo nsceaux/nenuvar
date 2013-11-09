@@ -131,5 +131,4 @@ sol' la' si' do'' re'' mi'' fad'' re'' |
 sol''1\trill~ |
 sol'' |
 r4 re'8 mi' fad' sol' la' si' |
-\origVersion { \custosNote do''4 s2. | }
 sol''1 |
