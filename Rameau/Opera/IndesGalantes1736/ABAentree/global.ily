@@ -1,8 +1,7 @@
-\keys mi \minor
+\key mi \minor
 \digitTime\time 3/4
 \tempo "Gratieusement" \midiTempo #140
 \partial 4 s4 s2.*17 s2
-\origVersion\bar "|:|"
-\modVersion\bar ":|"
+\bar ":|."
 s4 s2.*22 s2
 \bar "|."
