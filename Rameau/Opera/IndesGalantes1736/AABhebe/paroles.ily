@@ -12,6 +12,4 @@ Vous com -- men -- cez a -- vec le jour
 Les Jeux bril -- lans de Terp -- si -- co -- re ;
 Les doux ins -- tans que vous don -- ne l’A -- mour
 Vous sont plus chers en -- co -- re.
-
-\modVersion { Vous, qui d’He_- }
-\origVersion { Vous, qui d’He -- bé_&c }
+Vous, qui d’Hebé -

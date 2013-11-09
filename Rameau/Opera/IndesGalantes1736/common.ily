@@ -234,6 +234,10 @@ violonHautboisInstr = \with {
   instrumentName = \markup\center-column { Violons Hautbois }
   shortInstrumentName = \markup\center-column { "Vln" "Htb" }
 }
+violonFluteInstr = \with {
+  instrumentName = \markup\center-column { Violons Flutes }
+  shortInstrumentName = \markup\center-column { "Vln" "Fl." }
+}
 hcInstr = \with {
   instrumentName = "Hautes-contre"
   shortInstrumentName = "H-c"
@@ -262,6 +266,12 @@ choeurInstr = \with {
   instrumentName = "Chœur"
   shortInstrumentName = "Ch."
 }
+
+hebeInstr = \with {
+  instrumentName = \markup\smallCaps Hebé
+  shortInstrumentName = \markup\smallCaps "He."
+}
+
 
 adarioInstr = \with {
   instrumentName = \markup\smallCaps Adario
