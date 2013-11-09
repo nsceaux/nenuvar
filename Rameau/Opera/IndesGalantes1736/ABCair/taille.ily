@@ -3,7 +3,7 @@ r re'4 re'8. re'16 |
 mib'2 sol'4 r |
 sol'2 sol' |
 la sib4 r |
-mib'4. do'8 la8*2/3[ la sol] fad[ sol mi] |
+mib'4. do'8 \times 4/6 { la16*2 la sol fad sol mi } |
 fad4 r r2 |
 re'4 fa'8. mib'16 re'2 |
 fa'4 fa'8. mib'16 re'2 |
