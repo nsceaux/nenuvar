@@ -1,10 +1,11 @@
 \clef "vbasse" r8 |
-\tag #'conducteur { R2.*29 | r4 r r4 | R2. }
-\tag #'voix R2.*31 |
+R2.*29 |
+r4 r r4 |
+R2. |
 r4 r r8 sol |
 si4 si8 r si8 si |
 re'2 re8 re |
-sol2 r4 |
+sol2. |
 R2.*6 |
 r4 r8 re re re |
 sol2 fad8 sol |

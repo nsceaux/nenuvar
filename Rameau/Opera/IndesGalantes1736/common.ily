@@ -222,6 +222,18 @@ fluteInstr = \with {
   instrumentName = "Flutes"
   shortInstrumentName = "Fl."
 }
+petiteFluteInstr = \with {
+  instrumentName = "Petites Flutes"
+  shortInstrumentName = "P.Fl"
+}
+musetteInstr  = \with {
+  instrumentName = "Musettes"
+  shortInstrumentName = "Mus"
+}
+musetteHautboisViolonInstr = \with {
+  instrumentName = \markup\center-column { Musettes Hautbois Violons }
+  shortInstrumentName = \markup\center-column { Mus Htb Vln }
+}
 bassonInstr = \with {
   instrumentName = "Bassons"
   shortInstrumentName = \markup\concat { B \super on }

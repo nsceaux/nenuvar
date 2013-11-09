@@ -45,5 +45,4 @@
   Ac -- com -- pa -- gnez le doux ra -- ma -- ge
   Des ten -- dres Oi -- seaux,
   Des ten -- dres Oi -- seaux.
-
 }

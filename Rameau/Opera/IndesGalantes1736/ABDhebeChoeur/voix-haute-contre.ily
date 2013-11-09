@@ -1,11 +1,11 @@
 \clef "vhaute-contre" r8 |
-\tag #'conducteur { R2.*29 | r4 r r4 }
-\tag #'voix R2.*30
+R2.*29 |
+r4 r r4 |
 r4 r r8 sol |
 si4 si8 r si si |
 re'2 si'8 si' |
 la'2 la'8 la' |
-re'2 r4 |
+re'2. |
 R2.*6 |
 r4 r8 fad' sol' la' |
 re'2 re'8 sol' |

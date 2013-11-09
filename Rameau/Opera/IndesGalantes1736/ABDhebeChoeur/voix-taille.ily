@@ -1,11 +1,11 @@
 \clef "vtaille" r8 |
-\tag #'conducteur { R2.*29 | r4 r r4 }
-\tag #'voix R2.*30 |
+R2.*29 |
+r4 r r4 |
 r4 r r8 sol |
 si4 si8 r si si |
 re'2.~ |
 re'2 fad'8 fad' |
-sol'2 r4 |
+sol'2. |
 R2.*6 |
 r4 r8 do' si la |
 sol2 do'8 si |
