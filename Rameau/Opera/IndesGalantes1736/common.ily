@@ -224,7 +224,7 @@ fluteInstr = \with {
 }
 petiteFluteInstr = \with {
   instrumentName = "Petites Flutes"
-  shortInstrumentName = "P.Fl"
+  shortInstrumentName = "p.Fl"
 }
 musetteInstr  = \with {
   instrumentName = "Musettes"

@@ -9,21 +9,11 @@
           \global \keepWithTag #'flute2 \includeNotes "dessus"
         >>
       >>
-      \new GrandStaff \with { \musetteInstr } <<
-        \new Staff \with { \haraKiri } <<
-          \global \keepWithTag #'musette1 \includeNotes "dessus"
-        >>
-        \new Staff \with { \haraKiri } <<
-          \global \keepWithTag #'musette2 \includeNotes "dessus"
-        >>
+      \new Staff \with { \musetteInstr \haraKiri } <<
+        \global \keepWithTag #'musettes \includeNotes "dessus"
       >>
-      \new GrandStaff \with { \musetteHautboisViolonInstr } <<
-        \new Staff \with { \haraKiriFirst } <<
-          \global \keepWithTag #'dessus1 \includeNotes "dessus"
-        >>
-        \new Staff \with { \haraKiriFirst } <<
-          \global \keepWithTag #'dessus2 \includeNotes "dessus"
-        >>
+      \new Staff \with { \musetteHautboisViolonInstr \haraKiriFirst } <<
+        \global \keepWithTag #'dessus \includeNotes "dessus"
       >>
       \new Staff \with { \partiesInstr } <<
         \global \includeNotes "parties"
