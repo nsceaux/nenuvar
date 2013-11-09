@@ -4,13 +4,13 @@
 %{ n°1 %}\newBookPart #'()
 \actn "Prologue"
 \sceneDescription\markup\wordwrap-center {
-  Le Theâtre représente le Palais \concat { d’ \smallCaps Hebé. }
+  Le Theâtre représente les Jardins du Palais \concat { d’ \smallCaps Hebé. }
 }
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
 
 %{ n°2 %}\newBookPart #'(full-rehearsal)
-\scene "Scene Première" "Scene 1 : Hebé"
+\scene "Scene Premiere" "Scene 1 : Hebé"
 \sceneDescription\markup\wordwrap-center\smallCaps { Hebé }
 \pieceToc\markup\wordwrap {
   HEBÉ : \italic { Vous, qui d’Hebé suivez les loix }
@@ -18,16 +18,16 @@
 \includeScore "AABhebe"
 
 %{ n°3 %}\newBookPart #'(full-rehearsal)
-\scene "[Scene II]" \markup\wordwrap { Scene 2 : Hebé, suite d’Hebé }
+\scene "Scene II" \markup\wordwrap { Scene 2 : Hebé, suite d’Hebé }
 \sceneDescription\markup\wordwrap-center {
-  \smallCaps [Hebé, Troupe de Jeunesse Françoise, Espagnole,
-  Italienne & Polonoise, qui accourt & forme des Danses gracieuses.]
+  \smallCaps Hebé, Troupe de Jeunesse Françoise, Espagnole,
+  Italienne & Polonoise, qui accourt & forme des Danses gracieuses.
 }
-\pieceTocTitle "Premier air [Entrée de la suite d’Hebé]"
+\pieceTocTitle "Entrée des quatre nations dans la cour d’Hebé"
 \includeScore "ABAentree"
 
 %{ n°4 %}\newBookPart #'(full-rehearsal)
-\pieceToc\markup\wordwrap { HEBÉ : \italic { Amants, surs de plaire } }
+\pieceToc\markup\wordwrap { HEBÉ : \italic { Amants, seurs de plaire } }
 \includeScore "ABBhebe"
 
 %{ n°5 %}\newBookPart #'(full-rehearsal)

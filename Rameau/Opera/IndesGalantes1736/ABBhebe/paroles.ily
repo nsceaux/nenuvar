@@ -14,5 +14,4 @@ Des biens dont le se -- cret aug -- men -- te la dou -- ceur,
 Son -- gez son -- gez qu’il faut les tai -- re.
 Son -- gez qu’il faut les tai -- re.
 
-\origVersion { A -- mants, }
-\modVersion A_-
+A -
