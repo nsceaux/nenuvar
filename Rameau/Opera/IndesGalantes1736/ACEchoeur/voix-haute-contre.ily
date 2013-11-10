@@ -13,11 +13,8 @@ re'2 re'8 r r4 |
 la'4 la'8 la' la'4 sol'8[ fa'] |
 fa'2( mi')\trill |
 re'2. la4 |
-\origVersion\custosNote la1
-\modVersion {
-  la2 la4 si8 dod' |
-  re'2 re'8 r r4 |
-  la'4 la'8 la' la'4 sol'8[ fa'] |
-  fa'2( mi')\trill |
-  re'1 |
-}
+la2 la4 si8 dod' |
+re'2 re'8 r r4 |
+la'4 la'8 la' la'4 sol'8[ fa'] |
+fa'2( mi')\trill |
+re'1 |
