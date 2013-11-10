@@ -74,27 +74,27 @@
 
 %{ n°10 %}
 \sceneDescription\markup\justify {
-  [Danse des Guerriers Joüants du Drapeau.
+  Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
   Ces Amants genereux épris des charmes de la Gloire,
   se rangent près de \smallCaps Bellonne & suivent
-  ses Etendarts.]
+  ses Etendarts.
 }
-\pieceTocTitle "Air pour deux guerriers"
-\includeScore "ACCair"
+\pieceTocTitle "Air pour deux guerriers portant les drapeaux"
+\includeScore "ACBair"
 
 %{ n°11 %}
 \pieceToc\markup\wordwrap { BELLONE :
   \italic { C’est la gloire Qui rend les heros immortels } }
-\includeScore "ACDbellone"
+\includeScore "ACBbellone"
 
 %{ n°12 %}
 \pieceTocTitle "Air pour les amants et amantes"
-\includeScore "ACEair"
+\includeScore "ACDair"
 
 %{ n°13 %}
 \pieceToc\markup\wordwrap { CHŒUR : \italic { Vous nous abandonnez } }
-\includeScore "ACFchoeur"
+\includeScore "ACEchoeur"
 
 %{ n°14 %}
 \scene "[Scene IV]" "Scene 4 : Hebé"
