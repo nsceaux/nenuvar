@@ -1,20 +1,21 @@
 \score {
   \new StaffGroup <<
-    \new Staff <<
-      { s4 s2.*7 s2\break s4 s2.*7 s2\break s4 s2.*7 s2\break }
-      \global \keepWithTag #'conducteur1 \includeNotes "dessus"
+    \new Staff \with { instrumentName = "Musettes" } <<
+      \global \keepWithTag #'hautbois \includeNotes "dessus"
+      { s4 s2.*7 s2 \break s4 s2.*7 s2 \break }
     >>
-    \new Staff \with { \haraKiriFirst } <<
-      { \startHaraKiri s4 s2.*8 \stopHaraKiri }
-      \global \keepWithTag #'conducteur2 \includeNotes "dessus"
-    >>
-    \new Staff \with { \haraKiriFirst } <<
-      { \startHaraKiri s4 s2.*8 \stopHaraKiri }
-      \global \keepWithTag #'conducteur3 \includeNotes "dessus"
+    \new GrandStaff \with { instrumentName = "Violons" } <<
+      \new Staff \with { \haraKiriFirst } <<
+        \global \keepWithTag #'violon1 \includeNotes "dessus"
+        { \startHaraKiri s4 s2.*7 s2 \stopHaraKiri }
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        \global \keepWithTag #'violon2 \includeNotes "dessus"
+        { \startHaraKiri s4 s2.*7 s2 \stopHaraKiri }
+      >>
     >>
   >>
   \layout {
-    indent = \smallindent
     \context {
       \Score
       \override NonMusicalPaperColumn #'line-break-permission = ##f

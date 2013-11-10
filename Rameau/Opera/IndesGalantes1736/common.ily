@@ -230,6 +230,10 @@ musetteInstr  = \with {
   instrumentName = "Musettes"
   shortInstrumentName = "Mus"
 }
+musetteHautboisInstr = \with {
+  instrumentName = \markup\center-column { Musettes Hautbois }
+  shortInstrumentName = \markup\center-column { Mus Htb }
+}
 musetteHautboisViolonInstr = \with {
   instrumentName = \markup\center-column { Musettes Hautbois Violons }
   shortInstrumentName = \markup\center-column { Mus Htb Vln }

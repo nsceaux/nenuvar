@@ -1,8 +1,5 @@
-\piecePartSpecs #(let ((breaks2 #{ s4 s2.*7 s2 \break #}))
-                   `((dessus #:score "score-dessus")
-                     (violons #:score "score-violons")
-                     (hautbois #:score "score-hautbois")
-                     (flutes #:score "score-hautbois")
-                     (haute-contre #:music ,breaks2)
-                     (taille #:music ,breaks2)
-                     (basse #:score "score-basses")))
+\piecePartSpecs #`((dessus #:score "score-dessus")
+                   (parties #:score-template "score-parties")
+                   (basse #:score "score-basse")
+                   (silence #:on-the-fly-markup
+                            , #{ \markup\lyrics { \tacet #40 } #}))
