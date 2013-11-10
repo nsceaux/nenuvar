@@ -1,4 +1,5 @@
-\clef "vhaute-contre" fad'4 |
+\clef "vhaute-contre" R1*63 |
+r2 r4 fad'4 |
 fad'2 fad'4 la'8 si' |
 la'2 la'8 r la' la' |
 la'2 la'4 la' |

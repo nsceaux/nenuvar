@@ -68,14 +68,14 @@
                          "soprano"
                          "alto")))
    (trompette-timbales
-   "Trompettes et Timbales" ()
-   (#:notes "dessus" #:tag-notes trompette))
+    "Trompettes et Timbales" ()
+    (#:notes "dessus" #:tag-notes trompette))
    (basse
-   "Bassons et Basses" ()
-   (#:notes "basse" #:clef "basse" #:tag-notes basse))
+    "Bassons et Basses" ()
+    (#:notes "basse" #:clef "basse" #:tag-notes basse))
    (basse-continue
-   "Basse continue" ((basse #f))
-   (#:notes "basse" #:clef "basse" #:tag-notes basse)))
+    "Basse continue" ((basse #f))
+    (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
 %%%
 
@@ -286,6 +286,10 @@ choeurInstr = \with {
 hebeInstr = \with {
   instrumentName = \markup\smallCaps Hebé
   shortInstrumentName = \markup\smallCaps "He."
+}
+belloneInstr = \with {
+  instrumentName = \markup\smallCaps Bellone
+  shortInstrumentName = \markup\smallCaps "Be."
 }
 
 

@@ -59,19 +59,18 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %{ n°9 %}\newBookPart #'(full-rehearsal)
-\scene "[Scene III]" "Scene 3 : Bellone, Hebé & sa suite"
+\scene "Scene III" "Scene 3 : Bellone, Hebé & sa suite"
 \sceneDescription\markup\left-align\center-column {
-  \line { \smallCaps [Bellone, \smallCaps Hébé et sa suite.]}
+  \line { \smallCaps Bellonne, \smallCaps Hébé et sa suite. }
   \wordwrap-center {
-    \smallCaps [Bellone arrive au bruit des tambours et des trompettes
-    qui la précèdent avec des guerriers portant des drapeaux.
-    Elle invite la suite d’Hébé à n’aimer que la gloire.]
+    \smallCaps Bellonne arrive au bruit des Tambours & des Trompettes
+    Qui la précedent avec des Guerriers portant des Drapeaux.
+    Elle invite la Suite \concat { d’ \smallCaps Hebé } à n’aimer que la gloire.
   }
 }
 \pieceToc\markup\wordwrap { BELLONE, CHŒUR :
   \italic { La Gloire vous appelle ; écoutez ses Trompettes } }
 \includeScore "ACAbellone"
-\includeScore "ACBchoeur"
 
 %{ n°10 %}
 \sceneDescription\markup\justify {
