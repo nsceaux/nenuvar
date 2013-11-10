@@ -1,5 +1,5 @@
 \clef "taille" R1*2 |
-re'2~ re'4. mi'32*4/6 fad' sol' la' si' dod'' |
+re'2~ re'4.( mi'32*4/6 fad' sol' la' si' dod'') |
 re''4 fad' re' fad' |
 re'2.~ re'8. dod'32*2/3 re' mi' |
 la4 << { re''4 re''2 | re''4 re'' re''2 | re''4 }
@@ -9,7 +9,7 @@ la4. fad'16*2/3 fad' fad' fad'4 fad' |
 la'4 mi' mi' mi' |
 dod'2 dod' |
 dod'1 |
-\once\tieDashed dod'1~ |
+dod'1~ |
 dod'2 r |
 R1 |
 la'2 la' |
@@ -28,5 +28,4 @@ dod''8 si' la' sol' fad' mi' re'4 |
 re'2 la |
 la1~ |
 la2. r4 |
-\origVersion s1
-la1\trill |
+la1 |

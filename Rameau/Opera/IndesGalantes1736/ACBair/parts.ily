@@ -1,5 +1,8 @@
 \piecePartSpecs #`((dessus)
-                   (haute-contre)
-                   (taille)
+                   (parties #:score-template "score-parties")
                    (basse)
-                   (timbales))
+                   (trompette-timbales
+                    #:instrument "Timbales"
+                    #:notes "basse" #:tag-notes timbales #:clef "bass")
+                   (silence #:on-the-fly-markup
+                            , #{ \markup\lyrics { \tacet #64 } #}))

@@ -274,6 +274,10 @@ timbalesInstr = \with {
   instrumentName = "Timbales"
   shortInstrumentName = "Tim"
 }
+timbalesBasseInstr = \with {
+  instrumentName = \markup\center-column { Timbales Basses }
+  shortInstrumentName = \markup\center-column { Tim Bas }
+}
 bcInstr = \with {
   instrumentName = "B.C."
   shortInstrumentName = "B.c."
