@@ -1,42 +1,15 @@
 \score {
-  <<
-    \origVersion\new StaffGroupNoBar <<
-      \new Staff << \global \includeNotes "flute" >>
-      \new Staff \with { \consists "Metronome_mark_engraver" } <<
-        \global \includeNotes "violon"
-      >>
-      \new Staff <<
-        \global \includeNotes "basse"
-        \origLayout {
-          s2. s1.*5\break
-          \grace s8 s1.*5 s2. \bar "" \break
-          s2. s1.*5 s2. \bar "" \break
-          s2. s1.*5\pageBreak
-          s1. s2.\break
-        }
-      >>
+  \new StaffGroup <<
+    \new Staff \with { \fluteInstr } <<
+      \global \includeNotes "flute"
     >>
-    \modVersion\new StaffGroup <<
-      \new Staff <<
-        \instrumentName "Flutes"
-        \global \includeNotes "flute"
-      >>
-      \new Staff \with { \consists "Metronome_mark_engraver" } <<
-        \instrumentName "Violons"
-        \global \includeNotes "violon"
-      >>
-      \new Staff <<
-        \instrumentName "[Basses]"
-        \global \includeNotes "basse"
-      >>
+    \new Staff \with { \violonInstr } <<
+      \global \includeNotes "violon"
+    >>
+    \new Staff \with { \basseInstr } <<
+      \global \includeNotes "basse"
     >>
   >>
-  \layout {
-    \context { \Score \remove "Metronome_mark_engraver" }
-    indent = #(if (eqv? #t (ly:get-option 'urtext))
-                  smallindent
-                  largeindent)
-    ragged-last = #(eqv? #t (ly:get-option 'urtext))
-  }
+  \layout { }
   \midi { }
 }

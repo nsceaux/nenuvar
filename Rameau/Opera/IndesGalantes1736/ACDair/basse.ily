@@ -14,10 +14,10 @@ r2*3/2 la2. |
 dod r2*3/2 |
 R1. |
 la2. sol |
-fad2 r4 fad,2. |
+fad2 r4 fad,2.\doux |
 sol,2 r4 mi,2 r4 |
 la,2 r4 fad,2 r4 |
 si,2 r4 sol,2 r4 |
-la,2 r4 si,2 fad,4 |
+la,2\fort r4 si,2 fad,4 |
 sol,2 r4 la,2 r4 |
 re,2.
