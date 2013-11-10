@@ -27,6 +27,4 @@ dod''8 si' la' sol' fad' mi' re'4 |
 la2 la |
 la1 |
 R1 |
-\origVersion s1
-la2 la |
-la1\trill |
+la1 |

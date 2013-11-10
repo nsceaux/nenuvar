@@ -21,6 +21,19 @@
   \smallCaps Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.
 }
+\livretRef #'ABBhebe
+\livretPers HEBÉ
+%# Amants, seurs de plaire
+%# Suivez vôtre ardeur,
+%# Chantez vôtre bonheur,
+%# Mais sans offenser le mistere.
+%# Il est pour un tendre cœur
+%# Des biens dont le secret augmente la douceur,
+%# Songez qu'il faut les taire.
+%# Amants, seurs de plaire
+%# Suivez vôtre ardeur,
+%# Chantez vôtre bonheur,
+%# Mais sans offenser le mystere.
 \livretRef #'ABDhebeChoeur
 \livretPers HEBÉ
 %# Musettes, résonnez dans ce ri=ant Boccage,
@@ -36,24 +49,8 @@
 %# Des tendres Oiseaux.
 \livretRef #'ABErondeau
 \livretDesc\wordwrap-center {
-  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé. }
-}
-\livretRef #'ABBhebe
-\livretPers HEBÉ
-%# Amants, seurs de plaire
-%# Suivez vôtre ardeur,
-%# Chantez vôtre bonheur,
-%# Mais sans offenser le mistere.
-%# Il est pour un tendre cœur
-%# Des biens dont le secret augmente la douceur,
-%# Songez qu'il faut les taire.
-%# Amants, seurs de plaire
-%# Suivez vôtre ardeur,
-%# Chantez vôtre bonheur,
-%# Mais sans offenser le mystere.
-\livretRef #'AEEmenuet
-\livretDescPage\wordwrap-center {
-  Danses interrompues par le bruit des Tambours.
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé }
+  interrompues par le bruit des Tambours.
 }
 \livretRef #'ABFhebe
 \livretPers HEBÉ
@@ -78,7 +75,7 @@
 %# Quittez ces paisibles retraites,
 %# Combattez ; il est temps de cueillir des Lauriers :
 %#12 La Gloire vous appelle, &c.
-\livretRef #'ACCair
+\livretRef #'ACBair
 \livretDescPage\justify {
   Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
@@ -86,9 +83,15 @@
   se rangent près de \smallCaps Bellonne & suivent
   ses Etendarts.
 }
-\livretRef #'ACEair
+\livretRef #'ACCbellone
+\livretPers BELLONNE
+%# C'est la Gloire
+%# Qui rend les héros immortels :
+%# Allez, encensez ses autels,
+%# Partez, courez, volez au temple de Mémoire.
+\livretRef #'ACDair
 \livretDesc\wordwrap-center { On danse. }
-\livretRef #'ACFchoeur
+\livretRef #'ACEchoeur
 \livretPers CHŒUR
 %# Vous nous abandonnez.
 %# Quelle peine mortelle !

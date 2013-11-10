@@ -23,13 +23,11 @@ fad4. fad8 re4. re8 |
 la1~ |
 la |
 r2 r4 la |
-la4.\melisma do'8 si[ re' dod' mi']( |
+la4.(\melisma do'8) si[ re' dod' mi']( |
 re'2.)\melismaEnd re'4 |
 fad re fad sol |
 la2( la,) |
 re1 |
 r2 r4 re |
 la1 |
-\origVersion s1
-re1 |
 R1

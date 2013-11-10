@@ -30,13 +30,14 @@ R1 |
 la,4. la,16*2/3 la, la, la,4. la,16*2/3 la, la, |
 la,2 la, |
 la,1 |
-R1 |
-r2 r4 \tag #'basse <>^\markup\whiteout Timbales r8 re32*4/3 re re |
-re2 r |
-<>^"Tous" la, la, |
+<<
+  \tag #'timbales { R1 | r2 r4 r8 re32*4/3 re re | re2 r | }
+  \tag #'basse { R1*3 }
+>>
+la,2 la, |
 <<
   \tag #'timbales {
-    re4. re16*2/3 re re re16[ re re re] re[ re re re] |
+    re4. re32*4/3[ re re] re16[ re re re] re[ re re re] |
     re1~ |
     re2. r4 |
     re1 |

@@ -42,8 +42,8 @@
 
 %{ n°7 %}
 \sceneDescription\markup\wordwrap-center {
-  [Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
-  interrompues par le bruit des Tambours.]
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé, }
+  interrompues par le bruit des Tambours.
 }
 \pieceTocTitle "Musette"
 \includeScore "ABErondeau"
@@ -86,7 +86,7 @@
 %{ n°11 %}
 \pieceToc\markup\wordwrap { BELLONE :
   \italic { C’est la gloire Qui rend les heros immortels } }
-\includeScore "ACBbellone"
+\includeScore "ACCbellone"
 
 %{ n°12 %}
 \pieceTocTitle "Air pour les amants et amantes"

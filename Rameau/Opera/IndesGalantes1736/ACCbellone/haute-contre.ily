@@ -27,6 +27,4 @@ dod''8 si' la' sol' fad' mi' re'4 |
 fad'2 fad' |
 fad'1\trill |
 R1 |
-\origVersion s1
-fad'2 fad' |
 fad'1\trill

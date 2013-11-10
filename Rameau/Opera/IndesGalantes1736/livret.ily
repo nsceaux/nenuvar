@@ -23,6 +23,19 @@
   \smallCaps Hebé, Troupe de Jeunesse Françoise, Espagnole,
   Italienne & Polonoise, qui accourt & forme des Danses gracieuses.
 }
+\livretRef #'ABBhebe
+\livretPers HEBÉ
+\livretVerse#5 { Amants, seurs de plaire }
+\livretVerse#5 { Suivez vôtre ardeur, }
+\livretVerse#6 { Chantez vôtre bonheur, }
+\livretVerse#8 { Mais sans offenser le mistere. }
+\livretVerse#7 { Il est pour un tendre cœur }
+\livretVerse#12 { Des biens dont le secret augmente la douceur, }
+\livretVerse#6 { Songez qu’il faut les taire. }
+\livretVerse#5 { Amants, seurs de plaire }
+\livretVerse#5 { Suivez vôtre ardeur, }
+\livretVerse#6 { Chantez vôtre bonheur, }
+\livretVerse#8 { Mais sans offenser le mystere. }
 \livretRef #'ABDhebeChoeur
 \livretPers HEBÉ
 \livretVerse#12 { Musettes, résonnez dans ce riant Boccage, }
@@ -38,24 +51,8 @@
 \livretVerse#5 { Des tendres Oiseaux. }
 \livretRef #'ABErondeau
 \livretDesc\wordwrap-center {
-  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé. }
-}
-\livretRef #'ABBhebe
-\livretPers HEBÉ
-\livretVerse#5 { Amants, seurs de plaire }
-\livretVerse#5 { Suivez vôtre ardeur, }
-\livretVerse#6 { Chantez vôtre bonheur, }
-\livretVerse#8 { Mais sans offenser le mistere. }
-\livretVerse#7 { Il est pour un tendre cœur }
-\livretVerse#12 { Des biens dont le secret augmente la douceur, }
-\livretVerse#6 { Songez qu’il faut les taire. }
-\livretVerse#5 { Amants, seurs de plaire }
-\livretVerse#5 { Suivez vôtre ardeur, }
-\livretVerse#6 { Chantez vôtre bonheur, }
-\livretVerse#8 { Mais sans offenser le mystere. }
-\livretRef #'AEEmenuet
-\livretDescPage\wordwrap-center {
-  Danses interrompues par le bruit des Tambours.
+  Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé }
+  interrompues par le bruit des Tambours.
 }
 \livretRef #'ABFhebe
 \livretPers HEBÉ
@@ -80,7 +77,7 @@
 \livretVerse#8 { Quittez ces paisibles retraites, }
 \livretVerse#12 { Combattez ; il est temps de cueillir des Lauriers : }
 \livretVerse#12 { La Gloire vous appelle, &c. }
-\livretRef #'ACCair
+\livretRef #'ACBair
 \livretDescPage\justify {
   Danse des Guerriers Joüants du Drapeau.
   Ils appellent les Amants des Nations alliées.
@@ -88,9 +85,15 @@
   se rangent près de \smallCaps Bellonne & suivent
   ses Etendarts.
 }
-\livretRef #'ACEair
+\livretRef #'ACCbellone
+\livretPers BELLONNE
+\livretVerse#3 { C’est la Gloire }
+\livretVerse#8 { Qui rend les héros immortels : }
+\livretVerse#8 { Allez, encensez ses autels, }
+\livretVerse#12 { Partez, courez, volez au temple de Mémoire. }
+\livretRef #'ACDair
 \livretDesc\wordwrap-center { On danse. }
-\livretRef #'ACFchoeur
+\livretRef #'ACEchoeur
 \livretPers CHŒUR
 \livretVerse#6 { Vous nous abandonnez. }
 \livretVerse#6 { Quelle peine mortelle ! }
