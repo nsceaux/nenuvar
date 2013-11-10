@@ -97,13 +97,23 @@
 \includeScore "ACEchoeur"
 
 %{ n°14 %}
-\scene "[Scene IV]" "Scene 4 : Hebé"
-\sceneDescription\markup\wordwrap-center { \smallCaps [Hebé] }
+\scene "Scene IV" "Scene 4 : Hebé"
+\sceneDescription\markup\wordwrap-center { \smallCaps Hebé }
 \pieceToc\markup\wordwrap { HEBÉ : \italic { Bellonne les entraîne } }
 \includeScore "ADAhebe"
 
 %{ n°15 %}
-\scene "[Scene V]" "Scene 5 : L’Amour, Hebé et sa suite"
+\scene "Scene V" "Scene 5 : L’Amour, Hebé et sa suite"
+\sceneDescription\markup\center-column {
+  \line { \smallCaps { L'Amour, Hebé, } suite de Hebé }
+  \wordwrap-center {
+    \smallCaps L'Amour descend des cieux sur des nuages ;
+    il porte des traits nouveaux ;
+    il est accompagné d'une troupe d’Amours armés comme lui,
+    dont les uns tiennent des brandons et les autres arborent
+    des étendards galants.
+  }
+}
 \pieceTocTitle "Annonce de l’Amour"
 \includeScore "AEAannonce"
 
