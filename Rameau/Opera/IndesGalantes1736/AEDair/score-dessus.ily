@@ -1,16 +1,10 @@
 \score {
   \new StaffGroup <<
-    \new GrandStaff \with { instrumentName = "Hautbois" } <<
-      \new Staff \with { \smallStaff } <<
-        \global \keepWithTag #'hautbois1 \includeNotes "dessus"
-      >>
-      \new Staff \with { \smallStaff } <<
-        \global \keepWithTag #'hautbois2 \includeNotes "dessus"
-      >>
+    \new Staff \with { instrumentName = "Hautbois" } <<
+      \global \keepWithTag #'hautbois \includeNotes "dessus"
     >>
-    \new Staff \with { \smallStaff } <<
-      \instrumentName "Violons"
-      \global \keepWithTag #'violon \includeNotes "dessus"
+    \new Staff \with { instrumentName = "Violons" } <<
+      \global \keepWithTag #'violons \includeNotes "dessus"
     >>
   >>
   \layout { }

@@ -1,7 +1,5 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
-                   (violons #:tag-notes violon #:instrument "Violons")
-                   (hautbois #:score "score-hautbois")
-                   (haute-contre)
-                   (taille)
-                   (basson #:instrument "Basson" #:notes "basson")
-                   (basse #:score "score-basse"))
+                   (parties)
+                   (basse)
+                   (silence #:on-the-fly-markup
+                            , #{ \markup\lyrics { \tacet #90 } #}))
