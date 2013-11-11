@@ -48,7 +48,7 @@
 %# Accompagnez le doux ramage
 %# Des tendres Oiseaux.
 \livretRef #'ABErondeau
-\livretDesc\wordwrap-center {
+\livretDescPage\wordwrap-center {
   Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé }
   interrompues par le bruit des Tambours.
 }
@@ -68,7 +68,7 @@
     \concat { d’ \smallCaps Hebé } à n’aimer que la gloire.
   }
 }
-\livretRef #'ACAbellone
+\livretRef #'ACAbelloneChoeur
 \livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d’ \smallCaps Hebé. } } }
 %# La Gloire vous appelle ; écoutez ses Trompettes,
 %# Hâtez-vous, armez-vous & devenez Guerriers.

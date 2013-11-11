@@ -50,7 +50,7 @@
 \livretVerse#8 { Accompagnez le doux ramage }
 \livretVerse#5 { Des tendres Oiseaux. }
 \livretRef #'ABErondeau
-\livretDesc\wordwrap-center {
+\livretDescPage\wordwrap-center {
   Danse d’Amants & d’Amantes de la suite \concat { d’ \smallCaps Hebé }
   interrompues par le bruit des Tambours.
 }
@@ -70,7 +70,7 @@
     \concat { d’ \smallCaps Hebé } à n’aimer que la gloire.
   }
 }
-\livretRef #'ACAbellone
+\livretRef #'ACAbelloneChoeur
 \livretPers\line { BELLONNE, \fontsize #-1 { à la suite \concat { d’ \smallCaps Hebé. } } }
 \livretVerse#12 { La Gloire vous appelle ; écoutez ses Trompettes, }
 \livretVerse#12 { Hâtez-vous, armez-vous & devenez Guerriers. }
@@ -1281,6 +1281,6 @@
     tendresse rend à la Rose.
   }
 }
-\livretFinAct\line { FIN [DE LA TROISIÉME ENTRÉE] }
+\livretFinAct\line { FIN }
 \sep
 }

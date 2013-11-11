@@ -38,15 +38,9 @@
   \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Rameau/Opera/IndesGalantes1736/livret.ily"
 }
-%% Characters
-\bookpart {
-  \paper { #(define page-breaking ly:minimal-breaking) }
-  \include "Rameau/Opera/IndesGalantes1736/personnages.ily"
-}
-
 \include "Rameau/Opera/IndesGalantes1736/prologue.ily"
-\include "Rameau/Opera/IndesGalantes1736/turc.ily"
-\include "Rameau/Opera/IndesGalantes1736/incas.ily"
+%\include "Rameau/Opera/IndesGalantes1736/turc.ily"
+%\include "Rameau/Opera/IndesGalantes1736/incas.ily"
 \include "Rameau/Opera/IndesGalantes1736/sauvages.ily"
-\include "Rameau/Opera/IndesGalantes1736/fleurs.ily"
-\include "Rameau/Opera/IndesGalantes1736/annexe.ily"
+%\include "Rameau/Opera/IndesGalantes1736/fleurs.ily"
+%\include "Rameau/Opera/IndesGalantes1736/annexe.ily"

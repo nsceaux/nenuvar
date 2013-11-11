@@ -26,15 +26,15 @@
 \pieceTocTitle "Entrée des quatre nations dans la cour d’Hebé"
 \includeScore "ABAentree"
 
-%{ n°4 %}\newBookPart #'(full-rehearsal)
+%{ n°4 %}
 \pieceToc\markup\wordwrap { HEBÉ : \italic { Amants, seurs de plaire } }
 \includeScore "ABBhebe"
 
-%{ n°5 %}\newBookPart #'(full-rehearsal)
+%{ n°5 %}
 \pieceTocTitle "Air pour deux Polonois"
 \includeScore "ABCair"
 
-%{ n°6 %}\newBookPart #'(full-rehearsal)
+%{ n°6 %}
 \pieceToc\markup\wordwrap {
   HEBÉ, CHŒUR : \italic { Musettes, résonnez dans ce riant Boccage }
 }
@@ -70,7 +70,7 @@
 }
 \pieceToc\markup\wordwrap { BELLONE, CHŒUR :
   \italic { La Gloire vous appelle ; écoutez ses Trompettes } }
-\includeScore "ACAbellone"
+\includeScore "ACAbelloneChoeur"
 
 %{ n°10 %}
 \sceneDescription\markup\justify {
@@ -88,7 +88,7 @@
   \italic { C’est la gloire Qui rend les heros immortels } }
 \includeScore "ACCbellone"
 
-%{ n°12 %}
+%{ n°12 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Air pour les amants et amantes"
 \includeScore "ACDair"
 
@@ -96,7 +96,7 @@
 \pieceToc\markup\wordwrap { CHŒUR : \italic { Vous nous abandonnez } }
 \includeScore "ACEchoeur"
 
-%{ n°14 %}
+%{ n°14 %}\newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene 4 : Hebé"
 \sceneDescription\markup\wordwrap-center { \smallCaps Hebé }
 \pieceToc\markup\wordwrap { HEBÉ : \italic { Bellonne les entraîne } }

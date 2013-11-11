@@ -246,5 +246,5 @@
     tendresse rend à la Rose.
   }
 }
-\livretFinAct\line { FIN [DE LA TROISIÉME ENTRÉE] }
+\livretFinAct\line { FIN }
 \sep
