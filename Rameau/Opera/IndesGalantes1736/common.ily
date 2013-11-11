@@ -296,6 +296,10 @@ belloneInstr = \with {
   shortInstrumentName = \markup\smallCaps "Be."
 }
 
+amourInstr = \with {
+  instrumentName = \markup\smallCaps L'Amour
+  shortInstrumentName = \markup\smallCaps "Am."
+}
 
 adarioInstr = \with {
   instrumentName = \markup\smallCaps Adario

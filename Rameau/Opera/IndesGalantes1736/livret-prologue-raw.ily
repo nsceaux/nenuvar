@@ -108,7 +108,7 @@
 %# O toy, vainqueur des Cieux,
 %# Viens prouver ton pouvoir suprême !
 %# On ose te quitter pour suivre d'autres Dieux !
-%# Fils de Vénus, eh! qui peut mieux te vanger que toy-meme ?
+%# Fils de Vénus, eh ! qui peut mieux te vanger que toy-meme ?
 
 \livretScene\line { SCENE V }
 \livretRef #'AEAannonce
