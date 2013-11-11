@@ -14,4 +14,4 @@ Les Jeux s’a -- mu -- sent sur vos tra -- ces,
 Par -- tez, par -- tez, vos nou -- veaux é -- ten -- dards
 Sont l’ou -- vra -- ge des Gra -- ces.
 
-Ra -- \modVersion ni_- \origVersion { ni -- mez_&c }
+Ra -- ni_-

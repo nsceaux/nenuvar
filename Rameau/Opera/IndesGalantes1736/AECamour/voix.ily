@@ -1,6 +1,4 @@
-\clef "vbas-dessus" r4^\markup\orig-version\character\concat {
-  L’ \smallCaps Amour
-} |
+\clef "vbas-dessus" r4 |
 R1*9 |
 r2 r4 sol'8 la' |
 sib'2 la'4 sol' |
@@ -18,14 +16,14 @@ dod''2\trill la'4 la' |
 fa''2.\melisma sol''8[ fa''] |
 mi''2. fa''8[ mi''] |
 re''[ fa'' mi'' fa''] sol''[ fa'' mi'' re''(] |
-dod''2)\trill\melismaEnd \appoggiatura si'16 la'4. re''8 |
+dod''2)\trill\melismaEnd \appoggiatura si'8 la'4. re''8 |
 re''2.( dod''4) |
 re''1 |
 r2 r4 re''8 re'' |
 si'8[\melisma do'' si' la'] sol'[ si' la' si']( |
 do''4)\melismaEnd do''8 do'' do''4 do'' |
 fa''2 fa''4 mib''8 re'' |
-\appoggiatura re''16 mib''2 mib''8 r r4 |
+\appoggiatura re''8 mib''2 mib''8 r r4 |
 r4 r8 do'' do''4. mib''8 |
 la'1 |
 r4 la'8 la' re''4 re''8 la' |
@@ -35,15 +33,15 @@ mib''[ fa'' re'' mib''] do''[ re'' sib' do''] |
 re''2. mib''8[ re''] |
 do''[ re'' sib' do''] la'[ do'' sib' la'] |
 sib'[ re'' do'' mib''] re''[ fa'' mi'' sol'']( |
-fad''2) \melismaEnd re''4. mib''8 |
+fad''2\trill) \melismaEnd \appoggiatura mi''?8 re''4. mib''?8 |
 sib'2( la')\trill |
 sol'4 sol'8 la' sib'4 do''8 re'' |
-mib''!2 re''4 re'' |
+mib''2 re''4 re'' |
 mi''2. fad''8 sol'' |
 sol''2.( fad''4) |
-sol''2 r |
+sol''1 |
 R1*5 |
-r2\fermata r4 sib' |
+r2 r4 sib' |
 sib'1 |
 sib'4 sib'8 sib' re''4. sib'8 |
 fa''1 |
@@ -57,10 +55,9 @@ si'2\trill si'4 sol'8 mib'' |
 mib''2( re'')\trill |
 do'' r4 do'' |
 fa''2. fa''4 |
-re''4 re''8 re'' sol''4 sol''8 re'' |
+re''4\trill re''8 re'' sol''4 sol''8 re'' |
 mib''2 do''4. la'8 |
 re''2 do''8[ sib'] la'[ sol'] |
 fad'2\trill fad'8 r r4 |
 R1 |
 r2 r4 sol'8 la' |
-\origVersion\custosNote sib'2

@@ -127,8 +127,8 @@
 %# Quand l'Europe les abandonne.
 \livretRef #'AECamour
 \livretPers L’AMOUR
-%# Rallumez vos flambeaux, remplissez vos carquois,
-%# Moissonnez, meritez les palmes immortelles !
+%# Ranimez vos flambeaux, remplissez vos carquois,
+%# Moissonnez, meritez les palmes les plus belles !
 %# Amours, remportez, a la fois,
 %# Cent victoires nouvelles !
 %# L'*horreur suit le terrible Mars ;

@@ -129,8 +129,8 @@
 \livretVerse#8 { Quand l’Europe les abandonne. }
 \livretRef #'AECamour
 \livretPers L’AMOUR
-\livretVerse#12 { Rallumez vos flambeaux, remplissez vos carquois, }
-\livretVerse#12 { Moissonnez, meritez les palmes immortelles ! }
+\livretVerse#12 { Ranimez vos flambeaux, remplissez vos carquois, }
+\livretVerse#12 { Moissonnez, meritez les palmes les plus belles ! }
 \livretVerse#8 { Amours, remportez, a la fois, }
 \livretVerse#6 { Cent victoires nouvelles ! }
 \livretVerse#8 { L’horreur suit le terrible Mars ; }

@@ -1,4 +1,4 @@
-\clef "dessus2" sol'8^\markup\orig-version "Violons" la' |
+\clef "dessus2" sol'8 la' |
 sib'2 la'4 sol' |
 re'1 |
 r2 r4 re''8( do'') |
@@ -24,8 +24,8 @@ la la''8( sol'') fa''( sol'') fa''( mi'') |
 re''( do'') sib'( la') sol'( sib') la'( sib') |
 do''( sib') la'( sol') fa'( la') sol'( la') |
 sib'( la') sol'( fa') mi'( sol') fa'( sol') |
-la'( dod''?) si'?( dod'') re''4. fa'8 |
-sol' la' sib' sol' la'4 la |
+la'( dod'') si'( dod'') re''4. fa'8 |
+sol'( la') sib'( sol') la'4 la |
 re'2. re'8 mi' |
 fad'2 fad'4 re' |
 sol'2 r4 r8 sol' |
@@ -53,8 +53,8 @@ sib( re') do'( re') mib'( re') do'( sib) |
 la( do') sib( do') re'( do') sib( la) |
 sol( la) sib( do') re'( mi') fad'( sol') |
 do'( re') sib( do') re'4 re' |
-sol2\fermata r2 |
-r8 sib' la' sol' fa' mib' re' do' |
+sol2 r2 |
+r8 sib'\doux la' sol' fa' mib' re' do' |
 sib4 r r sib' |
 la'2 r |
 r r4 fa' |
