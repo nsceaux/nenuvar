@@ -132,10 +132,9 @@
 \includeScore "AEDair"
 
 %{ n°19 %}
-\pieceTocTitle "Premier menüet"
+\pieceTocTitle "Menuets I et II"
 \includeScore "AEEmenuet"
 \noPageTurn
-\pieceTocTitle "Second menüet"
 \includeScore "AEFmenuet"
 
 %{ n°20 %}\newBookPart #'(full-rehearsal)
