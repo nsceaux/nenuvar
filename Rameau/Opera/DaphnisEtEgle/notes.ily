@@ -1685,7 +1685,7 @@
   }
 }
 \markuplist\with-line-width-ratio #0.8 \column-lines {
-  \livretRef #'FPcontredanse
+  \livretRef #'FQcontredanse
   \livretDescAttPage\wordwrap {
     Scène VI — Contredanse
   }
