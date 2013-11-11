@@ -140,27 +140,9 @@
 %{ n°20 %}\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap { L’AMOUR, HÉBÉ, CHŒUR :
   \italic { Traversez les plus vastes Mers } }
-\includeScore "AEGamourHebe"
-\includeScore "AEHchoeur"
+\includeScore "AEGamourHebeChoeur"
 
 %{ n°21 %}
-\pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Ouverture"
-\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
-"AAAouverture" "AEIouverture"
-\markup\orig-version\fill-line {
-  \column {
-    \vspace #5
-    \score {
-      { \key sol \major \digitTime\time 2/2 \clef "french"
-        sol''4. re''8 si'4 sol' |
-        re'2. sol'8 sol' |
-        la'4. la'8 la' la' si' do'' |
-        \custosNote si' }
-      \layout { indent=0 }
-    }
-    \italic\large\line { \hspace #5 Ouverture page \page-refI #'AAAouverture . }
-    \vspace #5
-  }
-}
+\pieceTocTitle "Ouverture"
+\reIncludeScore "AAAouverture" "AEHouverture"
 \actEnd "FIN DU PROLOGUE"
-\markup\orig-version\vspace #15

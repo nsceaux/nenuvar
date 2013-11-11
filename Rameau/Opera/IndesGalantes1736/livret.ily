@@ -139,15 +139,11 @@
 \livretVerse#6 { Sont l’ouvrage des Graces. }
 \livretRef #'AEDair
 \livretDesc\wordwrap-center { [On danse.] }
-\livretRef #'AEGamourHebe
+\livretRef #'AEGamourHebeChoeur
 \livretPers\line { L’AMOUR ET HEBÉ }
 \livretVerse#8 { Traversez les plus vastes Mers, }
 \livretVerse#12 { Volez Amours, portez vos armes & vos fers }
 \livretVerse#8 { Sur le plus éloigné Rivage. }
-\livretVerse#8 { Est-il un cœur dans l’univers }
-\livretVerse#8 { Qui ne vous doive son hommage ? }
-\livretVerse#8 { Traversez les plus vastes Mers, &c }
-\livretRef #'AEHchoeur
 \livretPers CHŒUR
 \livretVerse#8 { Traversez les plus vastes Mers, }
 \livretVerse#12 { Volez Amours, portez vos armes & vos fers }

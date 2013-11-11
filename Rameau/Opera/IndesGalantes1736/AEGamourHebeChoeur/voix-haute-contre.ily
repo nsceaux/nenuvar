@@ -1,4 +1,5 @@
-\clef "vhaute-contre" r4 |
+\clef "vhaute-contre" r4 | R2.*34 |
+r4 r r4 |
 r4 r fad'8 fad' |
 sol'4 sol'8 sol' sol' fad' |
 sol'2 sol'8 sol' |
@@ -40,7 +41,7 @@ la la' la'4.( sold'8) |
 la'2. |
 r4 r r8 la' |
 sol'8[\melisma fad' sol' la' sol' la'16 sol']( |
-fad'4)\melismaEnd r4 r |
+fad'4\trill)\melismaEnd r4 r |
 r4 r r8 re' |
 re'2.~ |
 re'~ |

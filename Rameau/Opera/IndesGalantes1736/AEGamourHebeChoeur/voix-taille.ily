@@ -1,4 +1,5 @@
-\clef "vtaille" r4 |
+\clef "vtaille" r4 | R2.*34 |
+r4 r r4 |
 r4 r re'8 re' |
 re'4 re'8 re' re' re' |
 sol2 sol'8 sol' |
@@ -17,8 +18,8 @@ mi'4. mi'8 mi' dod' |
 fad'2. |
 re'4 re'8 re' re' re' |
 re'2 si4 |
-<< \origVersion { la4~ la2 } \modVersion la2. >> |
-fad2 r4 |
+la2. |
+fad2\trill r4 |
 R2.*2 |
 r4 r8 re' re' re' |
 re'2 re'8 r |
@@ -44,7 +45,7 @@ si8)[ la si do' si la]( |
 sol2)\melismaEnd r8 sol' |
 sol'2.~ |
 sol'2 r8 sol' |
-mi'4. re'8 re' re' |
+\appoggiatura fad'8 mi'4. re'8 re' re' |
 re'2. |
 R2.*2 |
 r4 r8 la la la |
