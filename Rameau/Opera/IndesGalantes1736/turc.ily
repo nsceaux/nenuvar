@@ -41,33 +41,32 @@
 
 %{ n°7 %}
 \scene "Scene II" "Scene 2 : Emilie, chœur de matelots"
-\sceneDescription\markup\wordwrap-center { \smallCaps Emilie seule }
+\sceneDescription\markup\wordwrap-center { \smallCaps Emilie }
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Que je ne verray plus !... Barbare } }
 \includeScore "BBAemilie"
 
 \sceneDescriptionBottom\markup\justify {
-  La nuit se repend sur le Theatre, les flots de la mer se
-  soulevent et le tonnerre gronde avec violence.
+  Le Ciel se couvre de nuages sombres, les vents sifflent,
+  les flots s'élevents.
 }
 \origVersion\pageBreak
 %{ n°8 %}\newBookPart #'(full)
 \pieceTocTitle "Tempête"
 \includeScore "BBBtempete"
-
 \sceneDescriptionBottom\markup\justify {
-  [La Tempête continue avec la même violence.]
+  La Tempête continue avec la même violence.
 }
 %{ n°9 %}
 \pieceToc\markup\wordwrap { CHŒUR :
   \italic { Ciel ! de plus d’une mort nous redoutons les coups ! } }
 \includeScore "BBCchoeur"
-\partNoPageTurn #'(dessus haute-contre taille basse)
+\partNoPageTurn #'(dessus parties basse)
 %{ n°10 %}
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Que ces cris agitent mes sens ! } }
 \includeScore "BBDemilie"
-\partNoPageTurn #'(dessus haute-contre taille basse)
+\partNoPageTurn #'(dessus parties basse)
 %{ n°11 %}
 \pieceToc\markup\wordwrap { CHŒUR :
   \italic { Que nous sert d’échapper à la fureur des mers ? } }
@@ -78,7 +77,7 @@
 %{ n°12 %}\newBookPart #'(full)
 \scene "Scene III" "Scene 3 : Emilie, Valere"
 \sceneDescription\markup\wordwrap-center {
-  \smallCaps { Emilie, Valere } [en Esclave.]
+  \smallCaps { Emilie, Valere } en Esclave.
 }
 \pieceToc\markup\wordwrap { EMILIE, VALERE :
   \italic { Un de ces malheureux approche en soupirant } }
@@ -87,8 +86,8 @@
 %{ n°13 %}
 \scene "Scene IV" "Scene 4 : Emilie, Valere, Osman"
 \sceneDescription\markup\wordwrap-center {
-  \smallCaps { Emilie, Valere } [en Esclave,]
-  \smallCaps { Osman [Bacha.] } }
+  \smallCaps { Emilie, Valere } en Esclave,
+  \smallCaps { Osman Bacha. } }
 \pieceToc\markup\wordwrap { EMILIE, VALERE, OSMAN :
   \italic { Il vous entend, hélas ! comment fuir sa colere ? } }
 \includeScore "BDAevo"
