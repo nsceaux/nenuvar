@@ -6,9 +6,9 @@ sol2 r4 r8 do'16 do' |
 sol'2 r4 mi' |
 mi' re'~ re'8. do'16 |
 sold8. la16 si4 r |
-r \once\tieDashed mi'~ mi'8. mi'16 |
+r mi'~ mi'8. mi'16 |
 mi'1 |
-r8 fa'16[ fa'] fa'[ fa' fa' fa'] la'4.*5/6 la'16 la' do'' |
+r8 fa'16[ fa'] fa'[ fa' fa' fa'] la'4. la'32*4/3 la' do'' |
 fa'4 r r2 |
 r4 r r8 r16 do'32*2/3 do' do' |
 re'2 r4 r8 r16 re'32*2/3 do' si |
@@ -19,9 +19,9 @@ re'2 r8 re' |
 re'2 r4 r8 re' |
 re'4 si r8 mi' |
 mi'2 r4 mi' |
-re'2 \once\tieDashed la~ |
+re'2 la~ |
 la4 re' do' |
 do'2 r8 fa' |
-si?4. sol'8 sol'4 sol'8. fa'16 |
-re'2 la |
+si?4. sol'8 sol'4~ sol'8. fa'16 |
+\appoggiatura mi'8 re'2 la |
 la1 |
