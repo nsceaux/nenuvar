@@ -56,18 +56,21 @@
 %# Ah ! que me faites vous entendre ?
 %# C'est trop m'outrager par vos pleurs !
 %# Cessez d'entretenir d'inutiles douleurs.
+\livretRef #'BAEosman
 %# Il faut que l'Amour s'envole
 %# Dès qu'il voit partir l'espoir.
 %# A l'ennuy la constance immole
 %# Le cœur qui la croit un devoir.
 %# Il faut que l'Amour s'envole
 %# Dès qu'il voit partir l'espoir.
+\livretRef #'BAFosman
 %# Je vous quitte, belle Emilie,
 %# Songez que le nœud qui vous lie
 %# Vous cause chaque jour des tourmens superflus ;
 %# Vous aimez un Objet que vous ne verrez plus.
 
 \livretScene\line { SCENE II }
+\livretRef #'BBAemilie
 \livretPers EMILIE
 %# Que je ne verray plus !... Barbare
 %# Que me présage ce discours ?

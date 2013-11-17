@@ -213,18 +213,21 @@
 \livretVerse#8 { Ah ! que me faites vous entendre ? }
 \livretVerse#8 { C’est trop m’outrager par vos pleurs ! }
 \livretVerse#12 { Cessez d’entretenir d’inutiles douleurs. }
+\livretRef #'BAEosman
 \livretVerse#7 { Il faut que l’Amour s’envole }
 \livretVerse#7 { Dès qu’il voit partir l’espoir. }
 \livretVerse#8 { A l’ennuy la constance immole }
 \livretVerse#8 { Le cœur qui la croit un devoir. }
 \livretVerse#7 { Il faut que l’Amour s’envole }
 \livretVerse#7 { Dès qu’il voit partir l’espoir. }
+\livretRef #'BAFosman
 \livretVerse#8 { Je vous quitte, belle Emilie, }
 \livretVerse#8 { Songez que le nœud qui vous lie }
 \livretVerse#12 { Vous cause chaque jour des tourmens superflus ; }
 \livretVerse#12 { Vous aimez un Objet que vous ne verrez plus. }
 
 \livretScene\line { SCENE II }
+\livretRef #'BBAemilie
 \livretPers EMILIE
 \livretVerse#8 { Que je ne verray plus !... Barbare }
 \livretVerse#8 { Que me présage ce discours ? }
