@@ -21,6 +21,9 @@
 %% Use rehearsal numbers
 #(ly:set-option 'use-rehearsal-numbers #t)
 
+%% Use tremolo in separate parts
+#(ly:set-option 'use-tremolo-repeat (symbol? (ly:get-option 'part)))
+
 %% Staff size
 #(set-global-staff-size
   (cond ((not (symbol? (ly:get-option 'part))) 16)
@@ -241,6 +244,13 @@ musetteHautboisViolonInstr = \with {
 bassonInstr = \with {
   instrumentName = "Bassons"
   shortInstrumentName = \markup\concat { B \super on }
+}
+bassonBasseInstr = \with {
+  instrumentName = \markup\center-column { Bassons Basses }
+  shortInstrumentName = \markup\center-column {
+    \concat { B \super on }
+    Bas
+  }
 }
 violonInstr = \with {
   instrumentName = "Violons"
