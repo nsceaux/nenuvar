@@ -29,7 +29,6 @@
 \pieceToc\markup\wordwrap { EMILIE, OSMAN :
   \italic { Qu’en peignant vos malheurs vous redoublez les miens } }
 \includeScore "BADemilieOsman"
-\partNoPageTurn #'(basse basson)
 
 %{ n°5 %}
 \pieceToc\markup\wordwrap { OSMAN :

@@ -8,6 +8,7 @@
 }
 \livretScene\line { SCENE PREMIERE }
 \livretDescAtt\wordwrap-center\smallCaps { Emilie, Osman. }
+\livretRef #'BABemilieOsman
 \livretPers EMILIE
 %# C'est Osman qui me suit, ne luy cachons plus rien ;
 %# Pour arrêter son feu, découvrons-luy le mien.
@@ -19,6 +20,7 @@
 %#- Ciel ! qu'entens-je !
 \livretPers EMILIE
 %#= Apprenez mon destin rigoureux.
+\livretRef #'BACemilie
 %# Dans le séjour témoin de ma naissance
 %# J'épousois un Amant digne de ma constance ;
 %# Sur un bord solitaire on commençoit les Jeux,
@@ -30,6 +32,7 @@
 %# Complices de son crime, éloignent ses Vaisseaux,
 %# Et je me vois captive sur les eaux,
 %# Près de ce que j'abhore, & loin de ce que j'aime.
+\livretRef #'BADemilieOsman
 \livretPers OSMAN
 %# Qu'en peignant vos malheurs vous redoublez mes maux !
 %# Dissipez vos ennuis sur cet heureux Rivage.
@@ -47,7 +50,7 @@
 %# Lorsque pour prix de son secours
 %# Peut-être un coup fatal l'a forcé de descendre
 %# Dans l'affreuse nuit du tombeau,
-%# Mon cœurs ingrat, d'un feu nouveau
+%# Mon cœur ingrat, d'un feu nouveau
 %# Se laisseroit surprendre !
 \livretPers OSMAN
 %# Ah ! que me faites vous entendre ?

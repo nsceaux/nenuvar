@@ -165,6 +165,7 @@
 }
 \livretScene\line { SCENE PREMIERE }
 \livretDescAtt\wordwrap-center\smallCaps { Emilie, Osman. }
+\livretRef #'BABemilieOsman
 \livretPers EMILIE
 \livretVerse#12 { C’est Osman qui me suit, ne luy cachons plus rien ; }
 \livretVerse#12 { Pour arrêter son feu, découvrons-luy le mien. }
@@ -176,6 +177,7 @@
 \livretVerse#12 { Ciel ! qu’entens-je ! }
 \livretPers EMILIE
 \livretVerse#12 { \transparent { Ciel ! qu’entens-je ! } Apprenez mon destin rigoureux. }
+\livretRef #'BACemilie
 \livretVerse#10 { Dans le séjour témoin de ma naissance }
 \livretVerse#12 { J’épousois un Amant digne de ma constance ; }
 \livretVerse#12 { Sur un bord solitaire on commençoit les Jeux, }
@@ -187,6 +189,7 @@
 \livretVerse#12 { Complices de son crime, éloignent ses Vaisseaux, }
 \livretVerse#10 { Et je me vois captive sur les eaux, }
 \livretVerse#12 { Près de ce que j’abhore, & loin de ce que j’aime. }
+\livretRef #'BADemilieOsman
 \livretPers OSMAN
 \livretVerse#12 { Qu’en peignant vos malheurs vous redoublez mes maux ! }
 \livretVerse#12 { Dissipez vos ennuis sur cet heureux Rivage. }
@@ -204,7 +207,7 @@
 \livretVerse#8 { Lorsque pour prix de son secours }
 \livretVerse#12 { Peut-être un coup fatal l’a forcé de descendre }
 \livretVerse#8 { Dans l’affreuse nuit du tombeau, }
-\livretVerse#8 { Mon cœurs ingrat, d’un feu nouveau }
+\livretVerse#8 { Mon cœur ingrat, d’un feu nouveau }
 \livretVerse#6 { Se laisseroit surprendre ! }
 \livretPers OSMAN
 \livretVerse#8 { Ah ! que me faites vous entendre ? }
