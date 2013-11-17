@@ -1,4 +1,4 @@
-\keys re \minor
+\key re \minor
 \digitTime\time 3/4 \midiTempo #80
 \partial 4 s4 s2.
 \time 4/4 s1*3

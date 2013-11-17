@@ -40,7 +40,8 @@
 \includeScore "BAFosman"
 
 %{ n°7 %}
-\scene "Scene II" "Scene 2 : Emilie, Osman, chœur de matelots"
+\scene "Scene II" "Scene 2 : Emilie, chœur de matelots"
+\sceneDescription\markup\wordwrap-center { \smallCaps Emilie seule }
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Que je ne verray plus !... Barbare } }
 \includeScore "BBAemilie"

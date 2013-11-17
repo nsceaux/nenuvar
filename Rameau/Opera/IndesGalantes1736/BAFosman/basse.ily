@@ -5,4 +5,4 @@ dod2 re4 fa |
 mi4. do8 re4 mi |
 la,2 re4 |
 sol,2. |
-la,2\laissezVibrer
+la,2*1/2~ \hideNotes la,
