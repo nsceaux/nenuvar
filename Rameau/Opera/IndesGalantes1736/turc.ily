@@ -5,9 +5,10 @@
 \entree "Premiere Entrée" "Le Turc genereux"
 \sceneDescription\markup\center-column {
   \line {
-    [Le Théatre représente les Jardins \concat { d’ \smallCaps Osman } Bacha,
+    Le Théatre représente les Jardins
+    \concat { d’ \smallCaps Osman } Bacha,
   }
-  \line { terminez par la Mer.] }
+  \line { terminez par la Mer. }
 }
 \scene "Scene Premiere" "Scene 1 : Emilie, Osman"
 \sceneDescription\markup\wordwrap-center \smallCaps { Emilie, Osman }
@@ -16,7 +17,7 @@
 
 %{ n°2 %}
 \pieceToc\markup\wordwrap { EMILIE, OSMAN : 
-  \italic { C’est Osman qui me suit, le luy cachons plus rien } }
+  \italic { C’est Osman qui me suit, ne luy cachons plus rien } }
 \includeScore "BABemilieOsman"
 
 %{ n°3 %}
