@@ -3,9 +3,9 @@
   \tag #'(emilie basse) {
     \clef "vbas-dessus"
     \tag #'basse \emilieMark
-    r4 fa''8 fa'' re''4 re''8 re'' |
-    sib'4\trill sib'8 sib'16 sib' sib'8 la' |
-    la'4\trill fa'8 fa'16 sol' la'8 si' |
+    r4 fa''8 fa'' \appoggiatura mi''8 re''4\trill re''8 re'' |
+    \appoggiatura do''8 sib'4 sib'8 sib'16 sib' sib'8 la' |
+    la'4\trill fa'8 fa'16 sol' la'8\trill si' |
     do''4 r16 si' dod'' re'' dod''8.\trill re''16 |
     mi''4
     <<

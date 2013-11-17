@@ -295,27 +295,32 @@ belloneInstr = \with {
   instrumentName = \markup\smallCaps Bellone
   shortInstrumentName = \markup\smallCaps "Be."
 }
-
 amourInstr = \with {
   instrumentName = \markup\smallCaps L'Amour
   shortInstrumentName = \markup\smallCaps "Am."
+}
+
+emilieInstr = \with {
+  instrumentName = \markup\smallCaps Emilie
+  shortInstrumentName = \markup\smallCaps "Em."
+}
+osmanInstr = \with {
+  instrumentName = \markup\smallCaps Osman
+  shortInstrumentName = \markup\smallCaps "Os."
 }
 
 adarioInstr = \with {
   instrumentName = \markup\smallCaps Adario
   shortInstrumentName = \markup\smallCaps "Ad."
 }
-
 zimaInstr = \with {
   instrumentName = \markup\smallCaps Zima
   shortInstrumentName = \markup\smallCaps "Zi."
 }
-
 damonInstr = \with {
   instrumentName = \markup\smallCaps Damon
   shortInstrumentName = \markup\smallCaps "Da."
 }
-
 alvarInstr = \with {
   instrumentName = \markup\smallCaps Alvar
   shortInstrumentName = \markup\smallCaps "Al."
