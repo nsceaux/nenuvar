@@ -1,18 +1,11 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new Staff \withLyrics <<
-      \modVersion\characterName "Emilie"
-      \global \keepWithTag #'emilie \includeNotes "voix"
+  \new ChoirStaff <<
+    \new Staff \with { \emilieInstr } \withLyrics <<
+      \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff <<
-      \modVersion\instrumentName "[B.C.]"
+    \new Staff \with { \bcInstr } <<
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout {
-        s2.*2 s2 \bar "" \break
-        s2 s2.*2\break
-        s1 s2.*2\pageBreak
-      }
     >>
   >>
   \layout { }
