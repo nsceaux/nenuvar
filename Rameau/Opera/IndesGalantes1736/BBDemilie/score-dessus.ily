@@ -1,13 +1,17 @@
 \score {
   \new StaffGroup <<
-    \new Staff \with { \smallStaff } <<
-      <>^"Flutes"
-      \global \keepWithTag #'conducteur1 \includeNotes "dessus"
+    \new Staff \with { instrumentName = "Flutes" } <<
+      \global \keepWithTag #'flutes \includeNotes "dessus"
     >>
-    \new Staff \with { \smallStaff } <<
-      <>^"Violons" 
-      \global \keepWithTag #'conducteur2 \includeNotes "dessus"
+    \new GrandStaff \with { instrumentName = "Violons" } <<
+      \new Staff <<
+        \global \keepWithTag #'violon1 \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        { \startHaraKiri s1*2 s2. s1 \stopHaraKiri }
+        \global \keepWithTag #'violon2 \includeNotes "dessus"
+      >>
     >>
   >>
-  \layout { indent = \noindent }
+  \layout { }
 }

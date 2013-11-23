@@ -1,14 +1,11 @@
-\clef "basse" \ru#32 mib32 |
-\ru#32 mib |
-\ru#24 lab, |
+\clef "basse" \repeat unfold 32 mib32 |
+\repeat unfold 4 \ru#8 mib |
+\repeat unfold 3 \ru#8 lab, |
 <<
-  \setMusic #'basson {
-    sib,8(^\markup\orig-version Bassons fa) sol( mib) fa( lab) sol( mib) | fa4
-  }
-  \setMusic #'basse { sib,8 r sib, r sib, r sib, r | sib,4 }
-  \tag #'basson \basson
-  \tag #'basse \basse
-  \tag #'all << { <>^"Bassons" \basson } \\ { <>_"Basses" \basse } >>
+  { <>^\markup\center-align "Bassons"
+    sib,8 fa\trill sol( mib) fa( lab) sol( mib) | fa4 } \\
+  { <>_\markup\center-align "Basses"
+    sib,8 r sib, r sib, r sib, r | sib,4 }
 >>
 r4 sol,2 |
 lab, mi, |
