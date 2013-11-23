@@ -1,9 +1,10 @@
-\piecePartSpecs #`((dessus #:indent 0)
-                   (haute-contre #:notes "parties"
-                                 #:tag-notes haute-contre
-                                 #:indent 0)
-                   (taille #:notes "parties"
-                                 #:tag-notes taille
-                                 #:indent 0)
-                   (basse #:indent 0)
-                   (silence #:score "score-silence"))
+\piecePartSpecs
+#`((dessus)
+   (parties)
+   (basse)
+   (silence #:on-the-fly-markup
+            , #{ \markup\lyrics {
+  \bold CHŒUR
+  \verse#12 { Que nous sert d’échaper à la fureur des Mers ? }
+  \verse#12 { En évitant la mort nous tombons dans les fers. }
+} #}))
