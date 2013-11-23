@@ -5,7 +5,7 @@ re' re' re' mib' mib' mib' |
 sib1. |
 r4 sib, sib, re re re |
 fa fa fa la la la |
-<< \origVersion { do'2.~ do' } \modVersion do'1. >> |
+do'1. |
 do'4 do do mib mib mib |
 sol sol sol sib sib sib |
 re'1. |
@@ -15,7 +15,7 @@ r2*3/2 re'2.~ |
 re' r4 re' do' |
 sib2 sib4 sib sib re' |
 sol2. r4 sol la |
-sib2. sib2 sol4 |
+sib2. sib2 \appoggiatura la8 sol4 |
 la1. |
 la4 r r r2*3/2 |
 r4 re re fa fa fa |
@@ -37,10 +37,10 @@ do'2 do'4 do' do' la |
 re'2 r4 |
 r4 re re |
 \appoggiatura re8 dod2 dod8 r |
-do4 do do |
+do!4 do do |
 si,2 r4 |
 r4 do re |
 mib2.~ |
 mib4 do re |
-sol,4 sol,8 r << \origVersion { r4 r } \modVersion r2 >> |
+sol,4 sol,8 r r2 |
 R1*2 |

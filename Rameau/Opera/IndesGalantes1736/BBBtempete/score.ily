@@ -2,7 +2,7 @@
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff \with { \fluteInstr \tinyStaff } <<
-        \global \includeNotes "flute"
+        \global { \includeNotes "flute" s4 }
       >>
       \new Staff \with { \violonInstr \tinyStaff } <<
         \global \includeNotes "violon"

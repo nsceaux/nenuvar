@@ -1,15 +1,12 @@
-\piecePartSpecs #`((violons #:notes "violon" #:indent 0)
-                   (flutes #:notes "flute" #:indent 0)
-                   (hautbois #:notes "silence"
-                             #:score-template "score-silence"
-                             #:ragged #t)
-                   (dessus #:score "score-dessus")
-                   (haute-contre #:notes "parties"
-                                 #:tag-notes haute-contre
-                                 #:indent 0)
-                   (taille #:notes "parties"
-                           #:tag-notes taille
-                           #:indent 0)
-                   (basson #:instrument "Basson" #:indent 0)
-                   (basse #:score "score-basse")
-                   (silence #:score "score-silence"))
+\piecePartSpecs
+#`((dessus #:score "score-dessus")
+   (parties)
+   (basse #:score-template "score-basse-continue")
+   (silence #:on-the-fly-markup
+            , #{ \markup\lyrics {
+  \bold CHŒUR
+  \verse#12 { Ciel ! de plus d’une mort nous redoutons les coups ! }
+  \verse#12 { Serons-nous embrasez par les feux du Tonnerre ? }
+  \verse#8 { Sous les Ondes perirons-nous }
+  \verse#6 { A l’Aspect de la Terre ! }
+} #}))

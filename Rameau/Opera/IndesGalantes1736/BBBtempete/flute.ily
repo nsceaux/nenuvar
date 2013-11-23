@@ -40,4 +40,3 @@ r32 re'' mi'' fad'' sol'' la'' sib'' do''' re'''16 do'''32 sib'' la'' sol'' fad'
 re''16 mi''32 fad'' sol'' la'' sib'' do''' re'''16 do'''32 sib'' la'' sol'' fad'' mi'' |
 re''8 mi''32 fad'' sol'' la'' sib''8 r r2 |
 \tag #'() \reprise
-s4

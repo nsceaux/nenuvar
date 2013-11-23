@@ -1,5 +1,5 @@
 \tag #'vdessus {
-  Ciel ! __ de plus d’u -- ne mort nous res -- sen -- tons les coups !
+  Ciel ! __ de plus d’u -- ne mort nous re -- dou -- tons les coups !
   Se -- rons- nous em -- bra -- sez par les feux du Ton -- ner -- re ?
   Se -- rons- nous em -- bra -- sez par les feux du Ton -- ner -- re ?
   Se -- rons- nous em -- bra -- sez par les feux du Ton -- ner -- re ?
@@ -15,7 +15,7 @@
   A l’As -- pect de la Ter -- re !
 }
 \tag #'(vhaute-contre vtaille) {
-  Ciel ! __ de plus d’u -- ne mort nous res -- sen -- tons les coups !
+  Ciel ! __ de plus d’u -- ne mort nous re -- dou -- tons les coups !
   Ciel ! Ciel !
   Se -- rons- nous em -- bra -- sez par les feux du Ton -- ner -- re ?
   par les feux du Ton -- ner -- re ?
@@ -36,7 +36,7 @@
   A l’As -- pect de la Ter -- re !
 }
 \tag #'vbasse {
-  Ciel ! __ de plus d’u -- ne mort nous res -- sen -- tons les coups !
+  Ciel ! __ de plus d’u -- ne mort nous re -- dou -- tons les coups !
   Se -- rons- nous em -- bra -- sez par les feux du Ton -- ner -- re ?
   Se -- rons- nous em -- bra -- sez par les feux du Ton -- ner -- re ?
   Ciel ! __
