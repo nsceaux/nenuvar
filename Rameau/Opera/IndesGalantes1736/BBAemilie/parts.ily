@@ -1,5 +1,5 @@
 \piecePartSpecs
-#`((basse-continue #:score-template "score-basse-continue-voix")
+#`((basse #:score-template "score-basse-continue-voix")
    (silence #:on-the-fly-markup
             , #{ \markup\lyrics {
   \bold EMILIE

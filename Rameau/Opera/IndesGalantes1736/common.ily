@@ -74,10 +74,7 @@
     "Trompettes et Timbales" ()
     (#:notes "dessus" #:tag-notes trompette))
    (basse
-    "Bassons et Basses" ()
-    (#:notes "basse" #:clef "basse" #:tag-notes basse))
-   (basse-continue
-    "Basse continue" ((basse #f))
+    "Bassons, Basses et Basse Continue" ((basse #f))
     (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
 %%%
@@ -317,6 +314,10 @@ emilieInstr = \with {
 osmanInstr = \with {
   instrumentName = \markup\smallCaps Osman
   shortInstrumentName = \markup\smallCaps "Os."
+}
+valereInstr = \with {
+  instrumentName = \markup\smallCaps Valere
+  shortInstrumentName = \markup\smallCaps "Va."
 }
 
 adarioInstr = \with {

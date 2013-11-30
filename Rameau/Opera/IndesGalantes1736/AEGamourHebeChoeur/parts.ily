@@ -1,7 +1,6 @@
 \piecePartSpecs #`((dessus)
                    (parties)
-                   (basse)
-                   (basse-continue
+                   (basse
                     #:tag-notes basse-continue
                     #:score-template "score-basse-continue")
                    (silence #:on-the-fly-markup
