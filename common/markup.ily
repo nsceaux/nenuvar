@@ -86,6 +86,20 @@
              (1+ (tm:mon today))
              (tm:mday today)))))
 
+#(define-markup-command (today-french layout props) ()
+   (let* ((date (gmtime (current-time)))
+          (months '#("janvier" "février" "mars" "avril"
+                               "mai" "juin" "juillet" "août"
+                               "septembre" "octobre" "novembre"
+                               "décembre"))
+          (day (if (= (tm:mday date) 1)
+                   (markup (#:concat ("1" #:super "er")))
+                   (number->string (tm:mday date))))
+          (month (vector-ref months (tm:mon date)))
+          (year (number->string (+ 1900 (tm:year date)))))
+     (interpret-markup
+      layout props (markup day month year))))
+
 #(define-markup-command (when-property layout props symbol markp) (symbol? markup?)
   (if (chain-assoc-get symbol props)
       (interpret-markup layout props markp)

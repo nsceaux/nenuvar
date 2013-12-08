@@ -69,7 +69,7 @@ dotSign=\markup\vcenter "╸"
        (direction . ,UP))
       ("trillSug"
        (script-stencil
-        . (markup . , #{ \markup\center-align\line {
+        . (markup . , #{ \markup\center-align\concat {
      \smaller\smaller\musicglyph #"accidentals.leftparen"
      \musicglyph #"scripts.stopped"
      \translate #'(-0.6 . 0) \smaller\smaller\musicglyph #"accidentals.rightparen"
