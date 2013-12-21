@@ -3,23 +3,23 @@
 mi'1~ |
 mi' |
 r4 r8 mi' mi'4. mi'8 |
-dod'2 mi'4 mi'8 mi' |
+dod'2\trill mi'4 mi'8 mi' |
 la1 |
 la4 r r2 |
 r4 mi' mi' mi' |
 mi' dod' si la |
 sold2 la |
 sold la |
-la2 si4 dod'8 re' |
+si2 si4 dod'8 re' |
 dod'2\trill mi'4 fad'8 sold' |
 fad'1~ |
 fad'2 fad'4 fad'8 fad' |
 si1~ |
 si2 r |
 r mi'8 la' la' sold' |
-sold'2 mi'4. mi'8 |
+sold'2 \appoggiatura fad'8 mi'4. mi'8 |
 si1 |
-sold |
+sold\trill |
 R1*4 |
 r4 r8 mi' mi'4. mi'8 |
 mi'1~ |
@@ -55,7 +55,7 @@ r dod' si la |
 si sold la si |
 mi1 |
 r4 fad' mi' re' |
-dod' si la sold |
+dod' si la sol |
 fad4. la8 re'4. re'8 |
 re'1~ |
 re'4. si8 mi'4. mi'8 |
@@ -72,7 +72,7 @@ R1*8 |
 r4 r8 si mi'4. mi'8 |
 mi'1~ |
 mi'4. mi'8 mi'4. mi'8 |
-mi'4. mi'8 mi'4. dod'8 |
+mi'4. mi'8 mi'4. la8 |
 fad'2 fad'4. dod'8 |
 re'1~ |
 re'4 la si dod' |

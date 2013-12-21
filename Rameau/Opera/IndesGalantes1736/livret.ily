@@ -448,7 +448,7 @@
 \livretFinAct\line { FIN DE LA DEUXIÉME ENTRÉE }
 \sep
 \livretAct\center-column {
-  \line { PREMIERE ENTRÉE }
+  \line { DEUXIEME ENTRÉE }
   \line { LES INCAS DU PEROU }
 }
 \livretDescAtt\justify {
@@ -462,6 +462,7 @@
   \smallCaps { Phani-Palla, Dom-Carlos, }
   Officier Espagnol.
 }
+\livretRef #'CABcarlosPhani
 \livretPers CARLOS
 \livretVerse#8 { Vous devez bannir de vôtre ame }
 \livretVerse#12 { La criminelle erreur qui séduit les Incas ; }
@@ -471,7 +472,7 @@
 \livretVerse#12 { Que vous penetrez mal mon secret embaras ! }
 \livretVerse#12 { Quel injuste soupçon !.. quoy, sans inquiétude, }
 \livretVerse#6 { Brise-t-on à la fois }
-\livretVerse#7 { Les liens du sang & des Loix ? }
+\livretVerse#8 { Les liens du sang & des Loix ? }
 \livretVerse#8 { Excusez mon incertitude. }
 \livretPers CARLOS
 \livretVerse#12 { Dans un culte fatal, qui peut vous arrêter ? }
@@ -491,7 +492,7 @@
 \livretVerse#12 { \transparent { Ils observent mes pas... } Leurs soins sont inutiles, }
 \livretVerse#8 { Si vous m’acceptez pour Epoux. }
 \livretPers PHANI
-\livretVerse#10 { Allez, pressez ce moment favorable, }
+\livretVerse#12 { Carlos, allez, pressez ce moment favorable, }
 \livretVerse#10 { Délivrez-moy d’un séjour détestable ; }
 \livretVerse#12 { Mais, ne venez pas seul... quel funeste malheur ! }
 \livretVerse#12 { Si vôtre mort... le Peuple est barbare, implacable, }
@@ -502,6 +503,7 @@
 \livretVerse#12 { Conduisez leur courage à de nouveaux lauriers. }
 
 \livretScene\line { SCENE II }
+\livretRef #'CBAphani
 \livretPers PHANI-PALLA
 \livretVerse#12 { Viens, Hymen, viens m’unir au Vainqueur que j’adore ; }
 \livretVerse#8 { Forme tes nœuds, enchaîne-moy. }
@@ -511,6 +513,7 @@
 
 \livretScene\line { SCENE III }
 \livretDescAtt\wordwrap-center\smallCaps { Phani-Palla, Huascar-Inca. }
+\livretRef #'CCAhuascar
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 \livretVerse#12 { Elle est seule... parlons ; l’instant est favorable... }
 \livretVerse#12 { Mais je crains d’un Rival l’obstacle redoutable. }
@@ -518,11 +521,12 @@
 \livretVerse#12 { Tout ce que dit l’Amour est toûjours pardonnable, }
 \livretVerse#12 { Et le Ciel que je sers doit servir mon ardeur. }
 \livretDidasP\line { à \smallCaps Phani. }
-\livretVerse#12 { Le Dieu de nos climats dans ce beau jour m’inspire : }
+\livretVerse#12 { Le Dieu de ces climats dans ce beau jour m’inspire : }
 \livretVerse#12 { Princesse, le Soleil daigne veiller sur vous, }
 \livretVerse#8 { Et luy-même dans nôtre empire, }
 \livretVerse#12 { Il prétend par ma voix vous nommer un époux. }
 \livretVerse#12 { Vous frémissez... d’où vient que vôtre cœur soupire ? }
+\livretRef #'CCBhuascar
 \livretVerse#8 { Obéissons sans balancer }
 \livretVerse#6 { Lorsque le Ciel commande. }
 \livretVerse#8 { Nous ne pouvons trop nous presser }
@@ -530,11 +534,12 @@
 \livretVerse#8 { Y reflechir, c’est l’offenser. }
 \livretVerse#6 { Lorsque le Ciel commande, }
 \livretVerse#8 { Obéissons sans balancer. }
+\livretRef #'CCCphaniHuascar
 \livretPers PHANI
 \livretVerse#12 { Non, non, je ne crois pas tout ce que l’on assure }
 \livretVerse#6 { En attestant les Cieux ; }
 \livretVerse#6 { C’est souvent l’imposture }
-\livretVerse#6 { Qui fait parler les Dieux. }
+\livretVerse#6 { Qui parle au nom des Dieux. }
 \livretPers HUASCAR
 \livretVerse#12 { Pour les Dieux & pour moy quelle coupable injure ! }
 \livretVerse#12 { Je sçais ce qui produit vôtre incredulité, }
@@ -549,30 +554,32 @@
 \livretVerse#8 { Redoutez le Dieu qui les guide. }
 \livretPers HUASCAR
 \livretVerse#8 { C’est l’or qu’avec empressement, }
-\livretVerse#12 { Sans jamais s’assouvir, ces Barbares dévorent, }
+\livretVerse#13 { Sans jamais s’assouvir, ces Barbares dévorent, }
 \livretVerse#12 { L’or qui de nos Autels ne fait que l’ornement, }
-\livretVerse#10 { Est le seul Dieu que nos Tyrans adorent. }
+\livretVerse#11 { Est le seul Dieu que nos Tyrans adorent. }
 \livretPers PHANI
 \livretVerse#8 { Témeraire ! que dites-vous ! }
 \livretVerse#12 { Révérez leur puissance & craignez leur couroux. }
 \livretVerse#8 { Pour leur obtenir vos hommages, }
 \livretVerse#8 { Faut-il des miracles nouveaux ? }
 \livretVerse#8 { Vous avez vû de nos Rivages, }
-\livretVerse#8 { Leurs Villes voler sur les eaux ; }
+\livretVerse#8 { Leurs Villes flotter sur les eaux ; }
 \livretVerse#10 { Vous avez vû dans l’horreur de la guerre, }
-\livretVerse#12 { Leur invicible bras disposer du tonnerre... }
+\livretVerse#12 { Leurs invicibles bras disposer du tonnerre... }
 
 \livretScene\line { SCENE IV }
-\livretDescAtt\wordwrap-center {
-  \smallCaps { Huascar-Inca, un Inca } son confident.
+\livretDescAtt\column {
+  \wordwrap-center { \smallCaps { Huascar-Inca, } un Inca son confident. }
+  \wordwrap-center { On entend un Prélude qui annonce la Fête du Soleil. }
 }
+\livretRef #'CDAhuascar
 \livretPers\line { HUASCAR, \fontsize #-1 { à part. } }
 \livretVerse#12 { On vient, dissimulons mes transports à leurs yeux... }
 \livretDidasP\line { à l'Inca qu'il appelle. }
-\livretVerse#12 { Vous sçavez mon Projet. Allez ; qu’on m’obéisse... }
+\livretVerse#12 { Vous sçavez mon projet. Allez ; qu’on m’obéisse... }
 \livretDidasP\line { à part. }
 \livretVerse#12 { Je n’ay donc plus pour moy qu’un barbare artifice, }
-\livretVerse#12 { Qui de flâme & de sang peut innonder ces lieux ? }
+\livretVerse#12 { Qui de flâme & de sang innondera ces lieux ? }
 \livretVerse#12 { Mais, que ne risque point un amour furieux ! }
 
 \livretScene\line { SCENE V }
@@ -584,15 +591,18 @@
     \smallCaps { Peruviens, et Peruviennes. }
   }
 }
+\livretRef #'CEAhuascar
 \livretPers HUASCAR
 \livretVerse#12 { Soleil, on a détruit tes superbes aziles, }
 \livretVerse#12 { Il ne te reste plus de temple que nos cœurs : }
 \livretVerse#12 { Daigne nous écoûter dans ces deserts tranquilles, }
 \livretVerse#12 { Le zele est pour les Dieux le plus cher des honneurs. }
-\livretDesc\wordwrap-center {
+\livretRef #'CEBprelude
+\livretDescPage\wordwrap-center {
   Les \smallCaps Pallas & les \smallCaps Incas font leur
   adoration au Soleil.
 }
+\livretRef #'CEChuascarChoeur
 \livretPers HUASCAR
 \livretVerse#12 { Brillant Soleil, jamais nos yeux dans ta carriere, }
 \livretVerse#8 { N’ont vû tomber de noirs frimats ! }
@@ -600,9 +610,11 @@
 \livretVerse#8 { Ta plus éclatante lumiere. }
 \livretPers CHŒUR
 \livretVerse#12 { Brillant Soleil, &c. }
-\livretDesc\wordwrap-center {
+\livretRef #'CEDair
+\livretDescPage\wordwrap-center {
   Danse de \smallCaps { Peruviens et Peruviennes. }
 }
+\livretRef #'CEFhuascarChoeur
 \livretPers HUASCAR
 \livretVerse#5 { Clair Flambeau du monde, }
 \livretVerse#5 { L’Air, la Terre & l’Onde }
@@ -626,6 +638,7 @@
 \livretVerse#12 { Perdent tous leurs plaisirs ; la Beauté perd ses traits. }
 \livretPers CHŒUR
 \livretVerse#5 { Clair Flambeau &c. }
+\livretRef #'CEHhuascar
 \livretPers HUASCAR
 \livretVerse#7 { Permettez, Astre du jour, }
 \livretVerse#11 { Qu’en chantant vos feux nous chantions d’autres flâmes ; }
@@ -639,12 +652,14 @@
 \livretVerse#5 { L’Amour nous égare, }
 \livretVerse#4 { Nous plaît-il moins ? }
 \livretVerse#7 { Vous brillez, Astre du jour, }
-\livretVerse#11 { Vous charmez nos yeux par l’éclat de vos flâmes ; }
+\livretVerse#11 { Vous charmez nos cœurs par l’éclat de vos flâmes ; }
 \livretVerse#7 { Vous brillez, Astre du jour ; }
 \livretVerse#5 { L’Astre de nos ames }
 \livretVerse#5 { C’est le tendre Amour. }
-\livretDesc\wordwrap-center { On danse. }
-\livretDesc\wordwrap-center {
+\livretRef #'CEIgavotte
+\livretDescPage\wordwrap-center { On danse. }
+\livretRef #'CEKchoeur
+\livretDescPage\wordwrap-center {
   La Fête est troublée par un tremblement de terre.
 }
 \livretPers CHŒUR
@@ -656,7 +671,7 @@
 }
 \livretPers CHŒUR
 \livretVerse#12 { Les Rochers embrâsez s’élancent dans les airs ! }
-\livretVerse#12 { Ils portent jusqu’aux Cieux les flâmes des Enfers ! }
+\livretVerse#12 { Et portent jusqu’aux Cieux les flâmes des Enfers ! }
 \livretDesc\justify {
   L'épouvante saisit les \smallCaps Peruviens,
   l'Assemblée se disperse, \smallCaps Huascar
@@ -665,7 +680,10 @@
 }
 
 \livretScene\line { SCENE VI }
-\livretDescAtt\wordwrap-center\smallCaps { Phani-Palla, Huascar-Inca. }
+\livretDescAtt\wordwrap-center\smallCaps {
+  Phani-Palla, Huascar-Inca.
+}
+\livretRef #'CFAphaniHuascarCarlos
 \livretPers\wordwrap-center {
   HUASCAR, à \smallCaps PHANI qui traverse le Théatre en fuyant.
 }
@@ -713,12 +731,13 @@
 \livretVerse#12 { C’est-là son châtiment. }
 \livretPers HUASCAR
 \livretVerse#12 { \transparent { C’est-là son châtiment. } Ciel ! qu’il est rigoureux ! }
+\livretRef #'CFBtrio
 \livretPers ENSEMBLE
 \livretDidasP\line\smallCaps { Phan. & Carl. }
 \livretVerse#8 { Pour jamais l’Amour nous engage, }
 \livretVerse#12 { Non, non, rien n’est égal à ma félicité ! }
 \livretDidasP\line\smallCaps { Huas. }
-\livretVerse#7 { Non rien d’égale ma rage ! }
+\livretVerse#7 { Non rien n’égale ma rage ! }
 \livretVerse#10 { Je suis témoin de leur félicité. }
 \livretDidasP\line\smallCaps { Phan. & Carl. }
 \livretVerse#8 { Ah ! mon cœur a bien mérité }
@@ -737,6 +756,7 @@
 \livretDescAtt\justify {
   Le Volcan se rallume, & le Tremblement de terre recommence.
 }
+\livretRef #'CGAhuascar
 \livretPers HUASCAR
 \livretVerse#8 { La flâme se rallume encore... }
 \livretVerse#8 { Loin de l’éviter, je l’implore... }
@@ -752,7 +772,7 @@
   La Volcan vomit des rochers enflâmez qui écrasent le criminel
   \smallCaps Huascar.
 }
-\livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
+\livretFinAct\line { FIN DE LA DEUXIÈME ENTRÉE }
 \sep
 \livretAct\center-column {
   \line { LES SAUVAGES }

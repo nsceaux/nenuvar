@@ -30,11 +30,11 @@ r4 r8 la' la'4. la'8 |
 fad'2 sold'4 sold'8 sold' |
 mid'2\trill mid'4 r |
 r4 dod'' si' la' |
-sold' la' sold' fad' |
+sold' la' sold'\trill fad' |
 si'1~ |
-si'4 si' la' sold' |
+si'4 si' la'\trill sold' |
 la'2 fad' |
-fad' mid' |
+fad' mid'\trill |
 fad' fad'4 fad'8 sold' |
 lad'8[\melisma sold' fad' sold'] lad'[ si' dod'' re'']( |
 mi''2)\melismaEnd mi''4 re''8 dod'' |
@@ -63,7 +63,7 @@ si'2\trill si'4 r |
 r4 mi'' re'' dod'' |
 si' la' sold' fad' |
 mi'2 si'4 dod''8 re'' |
-dod''8[\melisma si' la' si'] dod''[ re'' mi'' dod'']( |
+dod''8\trill[\melisma si' la' si'] dod''[ re'' mi'' dod'']( |
 re''2)\melismaEnd re''4 re''8 mi'' |
 fad''2 si'8 dod'' re'' si' |
 mi''2 mi''4. fad''8 |

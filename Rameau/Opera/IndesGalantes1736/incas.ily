@@ -4,14 +4,14 @@
 %{ n°1 %}\newBookPart #'()
 \entree "Deuxieme Entrée" "Les Incas du Perou"
 \sceneDescription\markup\wordwrap-center {
-  [Le Theátre représente un Desert du Perou,
-  terminé par une Montagne aride.
-  Le sommet en est couronné par la bouche d’un Volcan,
-  formée de Rochers calcinez couverts de cendres.]
+  Le Theatre represente un desert du Perou,
+  terminé par une Montagne aride,
+  dont le sommet est couronné par la bouche d’un volcan
+  formé de Rochers calcinez et couverts de cendres.
 }
 \scene "Scene Première" "Scene 1 : Phani, Carlos"
 \sceneDescription\markup\wordwrap-center {
-  \smallCaps { Phani-Palla, Dom Carlos, } [Officier Espagnol.]
+  \smallCaps { Phani-Palla, Dom Carlos } officier espagnol.
 }
 \pieceTocTitle "Ritournelle"
 \includeScore "CAAritournelle"
@@ -46,9 +46,9 @@
 \includeScore "CCCphaniHuascar"
 
 %{ n°7 %}
-\scene "Scene IV" "Scene 4 : Huascar et un Inca"
+\scene "Scene IV" "Scene 4 : Huascar, Inca"
 \sceneDescription\markup\column {
-  \wordwrap-center { \smallCaps Huascar et un Inca son confident. }
+  \wordwrap-center { \smallCaps { Huascar-Inca, } un Inca son confident. }
   \wordwrap-center { [On entend un Prélude qui annonce la Fête du Soleil.] }
 }
 \pieceToc\markup\wordwrap { HUASCAR :
@@ -69,7 +69,7 @@
 \includeScore "CEAhuascar"
 
 %{ n°9 %}
-\pieceTocTitle "Prelude pour l'adoration du soleil"
+\pieceTocTitle "Adoration du soleil"
 \includeScore "CEBprelude"
 
 %{ n°10 %}
@@ -78,7 +78,7 @@
 \includeScore "CEChuascarChoeur"
 
 %{ n°11 %}
-\pieceTocTitle "Air des Incas [pour la dévotion du Soleil]"
+\pieceTocTitle "Air des Incas pour la dévotion du Soleil"
 \includeScore "CEDair"
 
 %{ n°12 %}
@@ -99,36 +99,36 @@
 \includeScore "CEHhuascar"
 
 %{ n°16 %}
-\pieceTocTitle "Premiere gavotte"
+\pieceTocTitle "Gavottes I et II"
 \includeScore "CEIgavotte" \noPageTurn
-%{ n°17 %}
 \pieceTocTitle "Deuxieme gavotte en rondeau"
 \includeScore "CEJgavotte"
 
-%{ n°18 %}
-\pieceTocTitle "Tremblement de terre"
+%{ n°17 %}
+\pieceToc\markup\wordwrap { CHŒUR : \italic { Dans les abimes de la Terre } }
 \includeScore "CEKchoeur"
 
-%{ n°19 %}
+%{ n°18 %}
 \scene "Scene VI" "Scene 6 : Phani, Huascar"
-\sceneDescription\markup\wordwrap-center\smallCaps { [Phani-Palla, Huascar-Inca.] }
+\sceneDescription\markup\wordwrap-center\smallCaps {
+  [Phani-Palla, Huascar-Inca.]
 }
-\pieceToc\markup { PHANI, HUASCAR :
+\pieceToc\markup\wordwrap { PHANI, HUASCAR :
   \italic { Arrêtez. Par ces feux le Ciel vient de m’apprendre } }
 \includeScore "CFAphaniHuascarCarlos"
 
-%{ n°20 %}
+%{ n°19 %}
 \scene "Scene VII" "Scene 7 : Phani, Huascar, Carlos"
 \sceneDescription\markup\wordwrap-center\smallCaps { Phani, Huascar, Carlos. }
-\pieceToc\markup { PHANI, HUASCAR, CARLOS :
+\pieceToc\markup\wordwrap { PHANI, HUASCAR, CARLOS :
   \italic { Vous fuyez, quand les Dieux daignent vous appeller } }
 
-%{ n°21 %}
+%{ n°20 %}
 \pieceToc\markup\wordwrap { PHANI, CARLOS, HUASCAR :
   \italic { Pour jamais l’Amour nous engage } }
 \includeScore "CFBtrio"
 
-%{ n°22 %}
+%{ n°21 %}
 \scene "Scene VIII" "Scene 8 : Huascar"
 \sceneDescription\markup\left-align\center-column {
   \line { \smallCaps Huascar seul. }

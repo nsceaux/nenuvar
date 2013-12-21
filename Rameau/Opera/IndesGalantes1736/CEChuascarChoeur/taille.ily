@@ -50,7 +50,7 @@ si'1 |
 r2 r8 mi' mi' mi' |
 sold'2 mi''8 la' la' sold' |
 sold'2 la'4. sold'8 |
-\appoggiatura fad'8*1/2 mi'2 la' |
+\appoggiatura fad'8 mi'2 la' |
 sold'2 r |
 r8 mi' mi' mi' mi' mi' mi' mi' |
 sold'2 mi'4. sold'8 |
@@ -63,13 +63,19 @@ mi'2 re'4 re'8 re' |
 sold1 |
 R1 |
 r4 fad' mid' fad' |
-mid' fad' sold' fad' |
-sold' sold' fad' mid' |
+mid' fad' mid' fad' |
+sold' sold' fad'\trill mid' |
 fad'2 la |
 re' sold |
 lad r |
 R1 |
-r4 r8 fad' fad'4. fad'8 |
+r4 r8 \footnoteHere #'(0 . 0) \markup\justify {
+  Sur la source principale A132a, mesure 78 et suivantes,
+  la taille n'est pas notée, ce qui signifierait qu'elle
+  est à l'unison de la haute-contre.  Néanmoins, la partition
+  du fonds Decroix Vm²328 contient une partie de taille distincte,
+  qu’on a noté ici.
+} fad'8 fad'4. fad'8 |
 fad'2 fad'4 fad'8 mi' |
 re'1 |
 r4 si' lad' re'' |
@@ -79,7 +85,7 @@ si' dod'' re'' si' mi'' re'' dod'' si' |
 si'2 si'4 si'8 si' |
 lad'2 dod''4 dod''8 dod'' |
 fad'2 re''8 re'' re'' re'' |
-re''2 si'4. si'8 |
+re''2 \appoggiatura dod''8 si'4. si'8 |
 si'2 fad' |
 fad'8 fad' fad' fad' si' si' si' si' |
 re''2 r |

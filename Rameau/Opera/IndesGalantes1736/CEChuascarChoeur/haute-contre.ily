@@ -23,7 +23,7 @@ r8 sold' sold' sold' si'2 |
 r8 dod'' dod'' dod'' mi''2 |
 r8 si' si' si' mi' la' la' la' |
 sold' si' si' si' dod''2~ |
-dod''4 si'8\trill la' mi''2 |
+dod''4( si'8)\trill la' mi''2 |
 mi'' re'' |
 dod''1 |
 r8 dod'' dod'' dod'' mi'' mi'' mi'' mi'' |
@@ -49,7 +49,7 @@ si'1 |
 r2 r8 mi' mi' mi' |
 sold'2 mi''8 la' la' sold' |
 sold'2 la'4. sold'8 |
-\appoggiatura fad'8*1/2 mi'2 la' |
+\appoggiatura fad'8 mi'2 la' |
 sold' r |
 r8 sold' sold' sold' si' si' si' si' |
 mi''2 mi''4. si'8 |
@@ -70,15 +70,7 @@ lad r |
 R1 |
 r4 r8 lad' lad'4. dod''8 |
 fad'2 fad'4 fad'8 lad' |
-\myfootnote #'NoteHead #'(0 . 1) \markup {
-  Manuscrit Toulouse 1750 : \raise #2.5 \score {
-    { \tinyQuote \key la \major \time 2/2 \clef "soprano"
-      si'2 si'4. si'8 |
-      si'4 si' lad' re'' |
-    }
-    \layout { \quoteLayout }
-  }
-} si'1 |
+si'1 |
 r4 si' lad' re'' |
 dod'' re'' dod'' re'' |
 lad'2 re''4 re''8 dod'' |
@@ -86,7 +78,7 @@ si' dod'' re'' si' mi'' re'' dod'' si' |
 si'2 si'4 si'8 si' |
 lad'2 dod''4 dod''8 dod'' |
 fad'2 re''8 re'' re'' re'' |
-re''2 si'4. si'8 |
+re''2 \appoggiatura dod''8 si'4. si'8 |
 si'2 fad' |
 fad'8 fad' fad' fad' si' si' si' si' |
 re''2 r |
@@ -98,7 +90,7 @@ la'4. la'8 dod''4. dod''8 |
 mi''4 la' la' re'' |
 dod'' dod'' re'' mi'' |
 la'4. la8 re'4. re'8 |
-re'4 mi' fad'4. la'8 |
+re'4 mi' fad' la' |
 sold'4. si8 mi'4. mi'8 |
 mi'4 la' sold' la' |
 mi' mi' mi' la |

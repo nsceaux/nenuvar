@@ -1,4 +1,6 @@
-\piecePartSpecs #`((dessus #:score "score-dessus")
-                   (haute-contre #:notes "haute-contre-taille")
-                   (taille #:notes "haute-contre-taille")
-                   (basse))
+\piecePartSpecs
+#`((dessus #:score "score-dessus")
+   (parties)
+   (basse)
+   (silence #:on-the-fly-markup
+            , #{ \markup\lyrics { \tacet #20 } #}))

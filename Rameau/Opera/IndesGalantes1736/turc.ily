@@ -87,7 +87,7 @@
 \scene "Scene IV" "Scene 4 : Emilie, Valere, Osman"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps { Emilie, Valere } en Esclave,
-  \smallCaps { Osman Bacha. } }
+  \smallCaps { Osman } Bacha. }
 \pieceToc\markup\wordwrap { EMILIE, VALERE, OSMAN :
   \italic { Il vous entend, hélas ! comment fuir sa colere ? } }
 \includeScore "BDAevo"
@@ -100,9 +100,11 @@
 \includeScore "BEAvalere"
 
 %{ n°15 %}\newBookPart #'(full)
-\scene "Scene VI" \markup\wordwrap { Scene 6 : Emilie, Valere, provençaux et provençales, esclaves africains }
+\scene "Scene VI" \markup\wordwrap {
+  Scene 6 : Emilie, Valere, provençaux et provençales, esclaves africains
+}
 \sceneDescription\markup\wordwrap-center {
-  \line \smallCaps { Emilie, Valere, }
+  \line\smallCaps { Emilie, Valere, }
   troupe de Provençaux de leur escadre,
   troupe d'esclaves afriquains.
 }

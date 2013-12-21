@@ -58,8 +58,7 @@
   N’ont vû tom -- ber de noirs fri -- mats !
   Bril -- lant So -- leil, __
   Bril -- lant So -- leil, __
-  Et tu ré -- pands
-  Et tu ré -- pands dans nos cli -- mats
+  Et tu ré -- pands dans nos cli -- mats dans nos cli -- mats
   Ta plus é -- cla -- tan -- te lu -- mie -- re.
 
   Bril -- lant So -- leil __
@@ -93,8 +92,7 @@
   N’ont vû tom -- ber de noirs fri -- mats !
   Bril -- lant So -- leil, __
   Bril -- lant So -- leil, __
-  Et tu ré -- pands
-  Et tu ré -- pands dans nos cli -- mats
+  Et tu ré -- pands dans nos cli -- mats dans nos cli -- mats
   Ta plus é -- cla -- tan -- te lu -- mie -- re.
 
   Bril -- lant So -- leil, __
