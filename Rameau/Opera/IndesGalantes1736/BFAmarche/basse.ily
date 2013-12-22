@@ -1,4 +1,4 @@
-\clef "basse" sol,4_"Tous" |
+\clef "basse" sol,4 |
 sol, sol, |
 sol, sol, |
 sol, sol, |
@@ -6,7 +6,7 @@ sol, sol, |
 sol, sol, |
 sol, sol, |
 sol, sol, |
-sol,\fermata sol, |
+sol, sol, |
 sol, sol, |
 sol, sol, |
 sol, sol, |
@@ -17,4 +17,3 @@ fad, fad, |
 fad, fad, |
 fad, la, |
 re,
-\origVersion\custosNote sol,
