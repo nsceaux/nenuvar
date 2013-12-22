@@ -4,7 +4,7 @@ sol4~ sol16[ la sib do'] re'[ mib' do' re']( |
 mib'8)\melismaEnd re' re'4( do'8)\trill sib16[ la] |
 \appoggiatura la8 sib2. |
 r8 sib sib4( la8)\trill sol16[ fad] |
-\appoggiatura fad8 sol2. |
+\appoggiatura fad?8 sol2. |
 do'4 do'8 re' do' sib |
 la2\trill la8 r |
 R2. |
@@ -29,4 +29,4 @@ dod'2 dod'8 r |
 r4 mi'8 re' dod' si |
 la4 la'8 sol' fa' mi' |
 sol'16[ dod'] re'8 re'4( dod') |
-re'2 \origVersion\custosNote sib4
+re'2

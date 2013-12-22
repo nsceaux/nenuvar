@@ -1,4 +1,8 @@
-\clef "vbas-dessus" r4 |
+\clef "vbas-dessus"
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Voir en annexe la version alternative du manuscrit de Toulouse.
+}
+r4 |
 R2. |
 r4 r r8 sib' |
 la'8.[\melisma sib'16]( la'4.)( sol'16\trill)[ fad'] |
@@ -36,4 +40,4 @@ re''2 dod''8 re'' |
 sol''2.~ |
 sol''4 fa''8 mi'' re'' dod'' |
 re'' mi'' fa''4( mi'')\trill |
-re''2 r4 |
+re''2

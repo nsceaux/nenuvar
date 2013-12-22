@@ -38,4 +38,4 @@ la,2 la4 |
 dod2~ dod8 re16 mi |
 fa,2 fa8 sol16 la |
 sib8 sol la4 la, |
-re2 r8 sol, |
+re2

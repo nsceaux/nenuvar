@@ -38,4 +38,4 @@ dod'\trill dod'8 r r4 |
 r mi'8 re' dod' si |
 la4 la'8 sol' fa' mi' |
 sol'[ dod'16] re' re'4.( dod'8) |
-re'2 r8 sib |
+re'2
