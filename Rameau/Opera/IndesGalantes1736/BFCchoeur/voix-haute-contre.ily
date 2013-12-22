@@ -39,7 +39,7 @@ R2.*3 |
 la'4 la'8 la' la' la' |
 re'4 re' re' |
 sol' sol' sol' |
-dod'2. |
+dod'2.\trill |
 r4 dod' dod' |
 mi' mi' mi' |
 mi'2. |
@@ -64,8 +64,8 @@ mib'2 fad8 fad |
 sol4. fad8 sol4 |
 re'2. |
 re'4 re'8 re' mi' fa' |
-mi'2 mi'8 mi' |
-fad'4.\trill mi'8 fad'4 |
+mi'2\trill mi'8 mi' |
+fad'4. mi'8 fad'4 |
 sol'2. |
 r4 do'4. do'8 |
 do'4 la'4. la'8 |

@@ -1,5 +1,5 @@
 \clef "basse" r4 |
-r4 r r8^"Tous" sol, |
+r4 r r8 sol, |
 sib, la, sol, la, sib, do |
 re2 r8 sol |
 do2 r8 fa |
@@ -9,7 +9,7 @@ re'2 re8 mi |
 fad sol la4 re |
 sol4. fad8 sol la |
 sib la sib do' la sib |
-do'4 sib8 la sib4 |
+do'4 sib8\trill la sib4 |
 do' re' re |
 sol,2 r4 |
 r4 r r8 sol |
@@ -54,7 +54,8 @@ la la la, |
 re2 r8 sol, |
 do2 re4 |
 mib4. sib,8 do re |
-mib2 do4 re2. |
+mib2 do4\trill |
+re2. |
 R |
 r4 r r8 re |
 sol2 r4 |
@@ -80,7 +81,7 @@ r4 sib,4. sib,8 |
 do2 do8 re |
 mib2.~ |
 mib4 do re |
-sol,4.^"Gay" sol8 la sib |
+sol,4. sol8 la sib |
 do' sib la sol fad sol |
 do' sib la sol fad mi |
 re mi fad re sol4 |

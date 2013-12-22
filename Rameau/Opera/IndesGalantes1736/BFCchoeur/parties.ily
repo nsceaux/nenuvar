@@ -1,7 +1,6 @@
-\tag #'haute-contre \clef "haute-contre"
-\tag #'taille \clef "taille"
+\clef "haute-contre"
 r4 |
-r r r8 sol' |
+r r r8 la' |
 sol' la' sib' do'' re'' mib'' |
 la'2 r8 si' |
 do'' re'' mib''4. la'8 |
