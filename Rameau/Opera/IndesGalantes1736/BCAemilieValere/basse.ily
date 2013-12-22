@@ -1,13 +1,13 @@
 \clef "basse" sol2.~ |
 sol4 fad2 |
 sol2 r4 |
-fad2. |
-mi2 re |
+fa2. |
+mib2 re |
 do1 |
 r4 r la,4 |
 sib,1~ |
 sib,2 la,4 re8. sol,16 |
-re,2 re'8. do'16 si8. la16 |
+re,2 re'8. do'16 si8.\trill la16 |
 sol1~ |
 sol2 fad4 |
 sol2 si,4 |
@@ -45,7 +45,7 @@ sol2. |
 mi |
 fad2~ fad8 si, |
 fad,2. |
-si,4 sol,8. la,16 si,4 |
+si,4 sol,8 la, si,4 |
 mi,2 mi4 |
 la2 fad4 sol8 la |
 re2 red4 |
@@ -63,7 +63,7 @@ red2.~ |
 red |
 mi4. red8 dod4 |
 sold8. lad16 si4. mi8 |
-fad4 fad4. sold8 |
+fad4~ fad4. sold8 |
 la2. |
 sold4 red2 |
 mi2.~ |

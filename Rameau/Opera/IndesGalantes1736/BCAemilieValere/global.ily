@@ -6,8 +6,8 @@
 \time 4/4 \midiTempo #80 s1
 \digitTime\time 2/2 \midiTempo #160 s1
 \key sol \major s1
-\digitTime\time 3/4 \midiTempo #80 s2.*7
-\key re \major s2.
+\digitTime\time 3/4 \midiTempo #80 s2.*6
+\key re \major s2.*2
 \time 4/4 \midiTempo #80 s1
 \digitTime\time 2/2 \midiTempo #160 s1
 \digitTime\time 3/4 \midiTempo #80 s2.

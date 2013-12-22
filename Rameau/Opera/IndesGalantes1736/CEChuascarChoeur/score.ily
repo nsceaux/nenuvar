@@ -11,7 +11,7 @@
         \global \includeNotes "taille"
       >>
     >>
-    \new ChoirStaff <<
+    \new ChoirStaff \with { \choeurInstr } <<
       \new Staff \with { \haraKiriFirst } \withLyrics <<
         \global \includeNotes "voix-dessus"
       >> \keepWithTag #'vdessus \includeLyrics "paroles"

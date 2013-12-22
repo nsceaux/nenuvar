@@ -4,9 +4,9 @@
     \clef "vbas-dessus"
     \tag #'(basse orig1) \emilieMark
     r4 sib'4 sib'16 sib' do'' re'' |
-    la'8. la'16 do''4.*5/6 do''16 re'' la' |
+    la'8. la'16 do''4 do''8 re''16 la' |
     sib'4 r sol'' |
-    \appoggiatura do''16 si'4 r8 si' si' si' |
+    \appoggiatura do''8 si'4 r8 si' si' si' |
     do''4 do''8 do'' re''4 re''8 re'' |
     sol'2 sol'8 r r4 |
     r8 mib''16 mib'' mib''8 sol'' mib''\trill mib''16 re'' |
@@ -15,7 +15,8 @@
     la'4 la'8 r r2 |
     <>-\tag #'(emilie orig1) ^\markup\italic { L'abordant }
     r4 re'8 re' sol'4 sol'8 sol' |
-    do''4 fad''8. la''16 re''8 re''16 re'' |
+    do''4 << \new Voice { \voiceOne la''8. } fad''8. >> la''16
+    re''8 re''16 re'' |
     si'2\trill r8 re'' |
     sol'4 r8 do'' do'' do'' |
     la'4\trill la'8 la'16 la' si'8 do'' |
@@ -33,7 +34,7 @@
     sold'4\trill sold'8 la'16 si' lad'8.\trill si'16 |
     dod''8
     <<
-      \tag #'emilie { r8 r2 | r4 }
+      \tag #'emilie { r8 r4 r | r4 }
       { s8 s2 | s4 }
     >>
     \tag #'(basse orig1) \emilieMark
@@ -84,7 +85,7 @@
         fad'4\trill fad'8 fad'16 fad' sol'8 la' |
         re' re' sol' sol'16 fad' mi'8 fad' |
         dod'4\trill re'8 mi'16 fad' mi'8. la'16 |
-        fad'4\trill r4 r |
+        fad'2\trill r4 |
         R2. |
         r4 r8
       }
@@ -99,7 +100,7 @@
       si4\trill r8 sol'16 sol' dod'8\trill dod'16 re' |
       re'8 re'
       <<
-        \tag #'valere { r2 | R2. | r8 }
+        \tag #'valere { r4 r | R2. | r8 }
         { s2 | s2. | s8 }
       >>
       \tag #'(basse orig1) \valereMark
@@ -123,18 +124,19 @@
         { s4 s2 | s2. | s1 | s4 }
       >>
       \tag #'(basse orig1) \valereMark
-      dod'8 dod'16 dod' fad'4 si' |
+      dod'8 dod'16 dod' sold'4 si' |
       red'16 red' red' red' sold'8. si'16 mid'4\trill mid'8 mid'16 fad' |
       fad'2. |
-      re'2 r8 mi' |
+      <>^\markup\larger Air re'2 r8 mi' |
       dod'4\trill dod'8 dod' re' lad |
       si2 si8 r |
       mi'2 dod'8 re' |
       lad4.\trill lad8 lad si |
-      \appoggiatura si16 dod'4 dod'8 dod'16 dod' red'8 mi' |
-      red'\trill red'
+      \appoggiatura si8 dod'4 <>^\markup\larger Récitatif
+      dod'8 dod'16 dod' red'8 mi' |
+      red' red'
       <<
-        \tag #'valere { r2 | R2. | R1 | r4 }
+        \tag #'valere { r4 r | R2. | R1 | r4 }
         { s2 | s2. | s1 | s4 }
       >>
       \tag #'(basse orig1) \valereMark
@@ -144,15 +146,15 @@
       r4 fad4. si8 |
       lad2\trill si4 |
       mi'2 red'8 dod' |
-      red'4 \appoggiatura dod'16 si4 red' |
+      red'4 \appoggiatura dod'8 si4 r8 red' |
       red'4.( dod'16)\trill dod' red'4 |
-      \appoggiatura dod'16 si4 si4.( lad16) si |
-      \appoggiatura si16 dod'2. |
+      \appoggiatura dod'8 si4 si4.( lad16\trill) si |
+      \appoggiatura si8 dod'2. |
       dod' |
       fad'4. mi'8 red' dod' |
-      si4 la( sold8) la |
+      si4 la4.( sold16) la |
       sold4\trill sold8 sold lad4 |
-      si8 dod' \appoggiatura dod'16 red'4 red'8 mi' |
+      si8 dod' \appoggiatura dod'8 red'4 red'8 mi' |
       dod'2.\trill |
       dod'4. dod'8 red' mi' |
       si4 la4.( sold16) la |
