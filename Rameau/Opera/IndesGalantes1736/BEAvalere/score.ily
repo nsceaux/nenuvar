@@ -1,19 +1,11 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new Staff \withLyrics <<
-      \modVersion\characterName "Valere"
+  \new ChoirStaff <<
+    \new Staff \with { \valereInstr } \withLyrics <<
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff <<
-      \modVersion\instrumentName "[B.C.]"
+    \new Staff \with { \bcInstr } <<
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout {
-        s8 s2 s1*2\break
-        s2. s1*2\break
-        s1*3\break
-        s1*3\break
-      }
     >>
   >>
   \layout { }
