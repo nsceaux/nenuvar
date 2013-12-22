@@ -10,7 +10,7 @@ sol,2 la,4 |
 sib,2 r4 |
 mib2 do4 |
 fa2. |
-sol4 re do8. sib,16 |
+sol4 re do8.\trill sib,16 |
 fa4 fa,2 |
 sib,2. |
 r4 r8 sib, mib4 |
@@ -19,7 +19,7 @@ sol,4. fad,8 sol,4 |
 re,4 re' do' |
 si la sol |
 do'2 la4 |
-sib2 sib8 do' |
+sib2~ sib8 do' |
 re'2 re4 |
 sol re do |
 si, la, sol, |
@@ -39,4 +39,3 @@ dod2~ dod8 re16 mi |
 fa,2 fa8 sol16 la |
 sib8 sol la4 la, |
 re2 r8 sol, |
-\origVersion\custosNote do4

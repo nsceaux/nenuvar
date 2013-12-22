@@ -17,7 +17,5 @@
   Ri -- va -- ges for -- tu -- nez de l’Em -- pi -- re des Lys,
   Ah ! __ Ah ! __ nous vous re -- ve -- rons en -- co -- re
   nous vous re -- ve -- rons, nous vous re -- ve -- rons en -- co -- re.
-
-  \origVersion { Vo -- lez, }
-  \modVersion Vo_-
+  Vo_-
 }
