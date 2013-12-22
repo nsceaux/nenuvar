@@ -8,11 +8,11 @@
     \clef "basse"
     mi,1 |
     r2 mi~ |
-    << \origVersion { mi2~ mi4 } \modVersion mi2. >> red?4 |
+    mi2. red4 |
     mi1 |
     la,2 si, |
     mi,1 |
-    mi,2 mi,~ |
+    mi,1~ |
     mi,4 red,2 |
     mi,4. fad,8 sol,4 |
     fad, sol,4. fad,16 mi, |
@@ -25,14 +25,14 @@
     re2. |
     sol4 mi2 |
     fad re4 |
-    mi2 mi8 fad |
+    mi2~ mi8 fad |
     si,1 |
     do |
     re |\allowPageTurn
     la, |
-    << \origVersion { si,2~ si, } \modVersion si,1~ >> |
+    si,1~ |
     si,2 si4 |
-    << \origVersion { red2~ red } \modVersion red1 >> | \allowPageTurn
+    red1 | \allowPageTurn
     mi2. |
     la,2 si, |
     mi,1 |\allowPageTurn
@@ -47,7 +47,7 @@
     re2 |
   }
   \setMusic #'basse {
-    sol,4-"Tous" |
+    sol,4-"B.C." |
     sol, sol, |
     sol, sol, |
     sol, sol, |
@@ -70,8 +70,8 @@
     mi la, |
     si, do8 la,16 si, |
     mi,2 r4 r8 mi |
-    << \origVersion { si,4~ si,2 } \modVersion si,2. >> |
-    do2 do8. si,16 |
+    si,2. |
+    do2~ do8 si, |
     la,2 re8 sol, |
     re,2
   }

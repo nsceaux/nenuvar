@@ -6,7 +6,7 @@
     <>-\tag #'emilie ^\markup\italic "[à Valere]"
     r2 sold'4 sold'8 mi' |
     si'2 mi'' |
-    la'4 r8 la'16 dod'' la'4.\trill la'16 sold' |
+    la'4 r8 la'16 dod'' la'4. la'16 sold' |
     sold'4\trill sold'8 r
     <<
       { s2 s1*3 s2.*4 s1*5 s2.*4 s1*5 s2. s4 }
@@ -14,7 +14,7 @@
     >>
     \tag #'basse \emilieMarkText "[à Osman]"
     <>-\tag #'emilie ^\markup\character-text Emilie "[à Osman]"
-    r16 si' si' do'' \appoggiatura si'16 la'4 la'8 la'16 sold' |
+    r16 si' si' do'' \appoggiatura si'8 la'4\trill la'8 la'16 sold' |
     sold'8\trill sold'
     <<
       { s2 s1*2 s4 s2*4 s2. s1*5 s8 }
@@ -43,7 +43,7 @@
     \tag #'basse \valereMarkText "[surpris]"
     <>-\tag #'valere ^\markup\character-text Valere "[surpris]"
     re' sol'4 sol'16 si si si |
-    mi'4 mi'8 sol' do'4 do'8 do' |
+    mi'4. mi'16 sol' do'4 do'8 do' |
     la2\trill r8 r16 la la8 si |
     do'4
     <<
@@ -53,7 +53,7 @@
     \tag #'basse \valereMark
     <>-\tag #'valere ^\markup\character Valere
     si8 si fad'4 fad'8 sold' |
-    \appoggiatura sold'16 la'4 la'8 fad'16 fad' red'8\trill red'16 fad' |
+    \appoggiatura sold'8 la'4 la'8 fad'16 fad' red'8\trill red'16 fad' |
     si4
     <<
       { s2.*2 s1*2 s4 s2*4 s2. s1*4 s4 }
@@ -78,7 +78,7 @@
     mi4 mi8 <>^\markup\italic "[Montrant Valere]" sol8 sol4 mi8 mi16 mi |
     si,4 si,8 si, fad4 fad8 sol |
     la8 fad16 fad si4 si16 si si fad |
-    sol4 \appoggiatura fad16 mi8 do'16 re' si8\trill si16 dod' |
+    sol4 \appoggiatura fad8 mi8 do'16 re' si8\trill si16 dod' |
     re'4. si16 si dod'8 red'16 mi' |
     red'4\trill r8 r16 fad fad16 fad sold la |
     sold2\trill sold4 la8 si |
@@ -88,8 +88,8 @@
       \tag #'osman { r8 r4 r2 | R1 | r4 }
     >>
     \tag #'basse \osmanMark
-    si8 si si4 si8. dod'16 |
-    re'4 re'8 fad \appoggiatura fad16 sol4. sol16 la |
+    si8 si si4 si8 dod' |
+    re'4 re'8 fad \appoggiatura fad8 sol4. sol16 la |
     fad4\trill r8 re' re'16 re' re' fad' |
     si8 si mi'4 dod'8 dod'16 dod' |
     lad4\trill lad8 fad16 fad si8 si16 re' |
@@ -111,7 +111,7 @@
     mi1 |
     R4 |
     R2*4 |
-    r8 sol^\markup\italic "[avec douleur]" si si si do' |
+    r8 sol^\markup\italic "[avec douleur]" si4\trill si8 si16 do' |
     re'4 r8 re' sol4 sol8 sol16 mi |
     la4 la16 r la8 do'4 do'8 do'16 re' |
     si4\trill r8 mi' dod'4\trill r16 dod' dod' re' |
@@ -125,7 +125,7 @@
     <>-\tag #'osman ^\markup\italic "[hésitant]"
     do'4 r8 fad |
     red4\trill r8 sol16^\markup\italic "[s'en allant]" sol mi8\trill mi16 red |
-    mi4 r8 sol si,4 si,8 si,16 do |
+    mi4 r8 sol si,4\trill si,8 si,16 do |
     re8. re16 re4 re8 mi16 fa |
     mi8\trill mi r sol16 sol sol8 la16 si |
     do'4 do'16 r la la fad8\trill fad16 sol |
