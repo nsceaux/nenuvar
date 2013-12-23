@@ -131,28 +131,21 @@
 \includeScore "BFEvalere"
 
 %{ n°20 %}
-\pieceTocTitle "Premier Rigaudon"
+\pieceTocTitle "Rigaudons I et II"
 \includeScore "BFFrigaudon"
-
-%{ n°21 %}
-\pieceTocTitle "Deuxieme Rigaudon"
 \includeScore "BFGrigaudon"
 
-%{ n°22 %}
+%{ n°21 %}
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Fuyez, fuyez Vents orageux } }
 \includeScore "BFHemilie"
 
-%{ n°23 %}\newBookPart #'(full)
-\pieceTocTitle "Premier Tambourin"
+%{ n°22 %}\newBookPart #'(full)
+\pieceTocTitle "Tambourins I et II"
 \includeScore "BFItambourin"
-\origVersion\noPageBreak
-
-%{ n°24 %}
-\pieceTocTitle "Deuxieme Tambourin"
 \includeScore "BFJtambourin"
 
-%{ n°25 %}
+%{ n°23 %}
 \pieceToc\markup\wordwrap { EMILIE :
   \italic { Regnez Amours, Regnez, ne craignez pas les flots } }
 \includeScore "BFKariette"
@@ -162,14 +155,13 @@
   }
   \vspace #2
 }
-\origVersion\pageBreak
 
-%{ n°26 %}
+%{ n°24 %}
 \pieceToc\markup\wordwrap { EMILIE :
  \italic { Partez, on languit sur le Rivage } }
 \includeScore "BFLemilie"
 
-%{ n°27 %}
+%{ n°25 %}
 \pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
 \reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
  "BFFrigaudon" "BFMrigaudon"

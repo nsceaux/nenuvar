@@ -6,9 +6,9 @@
   sol' mi' re' re' |
   re'2. r4 |
   r2 r4 re' |
-  si la si la |
+  si\trill la si la |
   si la sol8 la si do' |
-  \origVersion <>\fermata si2.
+  si2.
 }
 \keepWithTag #'() \rondeauI
 sol'4 |
@@ -16,5 +16,4 @@ sol'2. fad'4 |
 mi' fad' sol' fad' |
 sol'2. mi'4 |
 la2.
-\modVersion\keepWithTag #'() \rondeauI
-\origVersion r4
+\keepWithTag #'() \rondeauI
