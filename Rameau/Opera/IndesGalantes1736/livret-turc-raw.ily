@@ -1,5 +1,5 @@
 \livretAct\center-column {
-  \line { DEUXIÉME ENTRÉE }
+  \line { PREMIERE ENTRÉE }
   \line { LE TURC GENEREUX }
 }
 \livretDescAtt\wordwrap-center {
@@ -25,7 +25,7 @@
 %# J'épousois un Amant digne de ma constance ;
 %# Sur un bord solitaire on commençoit les Jeux,
 %# Lorsque des Ravisseurs perfides
-%# Paroissent le fer à la main ;
+%# S'avancent le fer à la main ;
 %# La terreur un instant ferme mes yeux timides,
 %# Ils ne s'ouvrent qu'aux cris d'un Corsaire inhumain,
 %# Bien-tôt les Vents & le Ciel même
@@ -54,13 +54,13 @@
 %# Se laisseroit surprendre !
 \livretPers OSMAN
 %# Ah ! que me faites vous entendre ?
-%# C'est trop m'outrager par vos pleurs !
-%# Cessez d'entretenir d'inutiles douleurs.
+%# C'est trop m'accabler par vos pleurs !
+%# Cessez d'entretenir d'inutiles ardeurs.
 \livretRef #'BAEosman
 %# Il faut que l'Amour s'envole
 %# Dès qu'il voit partir l'espoir.
 %# A l'ennuy la constance immole
-%# Le cœur qui la croit un devoir.
+%# Le cœur qui s'en fait un devoir.
 %# Il faut que l'Amour s'envole
 %# Dès qu'il voit partir l'espoir.
 \livretRef #'BAFosman
@@ -76,7 +76,8 @@
 %# Que me présage ce discours ?
 %# Ah ! si de mon Amant le trépas me sépare,
 %# Si mes yeux l'ont perdu, mon cœur le voit toûjours.
-\livretDidasP\justify {
+\livretRef #'BBBtempete
+\livretDidasPage\justify {
   Le Ciel se couvre de nuages sombres, les vents
   sifflent, les flots s'élevent.
 }
@@ -95,11 +96,13 @@
 \livretDidasP\justify {
   La Tempête continue avec la même violence.
 }
+\livretRef #'BBCchoeur
 \livretPers\line { CHŒUR de Matelots qu'on ne voit point. }
 %# Ciel ! de plus d'une mort nous redoutons les coups !
 %# Serons-nous embrasez par les feux du Tonnerre ?
 %# Sous les Ondes perirons-nous
 %# A l'Aspect de la Terre !
+\livretRef #'BBDemilie
 \livretPers EMILIE
 %# Que ces cris agitent mes sens !
 %# Moy-même je me crois victime de l'orage.
@@ -109,14 +112,16 @@
 %# Mais le Ciel est touché de leurs perils pressants,
 %# Le Ciel, le juste Ciel calme l'onde & les vents ;
 %# Je souffrois dans le port les tourments du naufrage.
+\livretRef #'BBEchoeur
 \livretPers\wordwrap-center {
   CHŒUR, qu'on ne voit point, de Matelots de l'Escadre de
   \smallCaps Valere, échapez du naufrage & pris par les Turcs.
 }
 %# Que nous sert d'échaper à la fureur des Mers ?
 %# En évitant la mort nous tombons dans les fers.
+\livretRef #'BBFemilie
 \livretPers EMILIE
-%# D'infortunez Captifs vont partager mes peines
+%# De malheureux Captifs vont partager mes peines
 %# Dans ce redoutable séjour...
 %# S'il sont Amants, ah ! que l'Amour
 %# Va gemir sur ces bords dans de barbares chaînes !
@@ -125,6 +130,7 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Emilie, Valere } en Esclave.
 }
+\livretRef #'BCAemilieValere
 \livretPers\line { EMILIE, \fontsize #-1 { à part. } }
 %# Un de ces malheureux approche en soupirant !...
 %# Helas ! son infortune est semblable à la mienne !
@@ -174,7 +180,7 @@
 %#= Et ma douleur le prouve,
 %# Je ne demandois pas ce tri=omphe à l'Amour.
 \livretPers VALERE
-%# Ah ! sçait-on vous aimer dans ce cru=el séjour !
+%# Ah ! sçait-on vous aimer dans ce fatal séjour !
 %# Sur ces bords une ame enflâmée
 %# Partage ses vœux les plus doux ;
 %# Et vous meritez d'être aimée
@@ -184,6 +190,7 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Emilie, Valere } en Esclave, \smallCaps Osman Bacha.
 }
+\livretRef #'BDAevo
 \livretPers\line { EMILIE, \fontsize #-1 { à \smallCaps Valere. } }
 %# Il vous entend, hélas ! comment fuir sa colere ?
 \livretPers\line { OSMAN, \fontsize #-1 { à \smallCaps Emilie. } }
@@ -233,6 +240,7 @@
 
 \livretScene\line { SCENE V }
 \livretDescAtt\wordwrap-center\smallCaps { Valere, Emilie. }
+\livretRef #'BEAvalere
 \livretPers VALERE
 %# Fut-il jamais un cœur plus genereux ?
 %# Digne de nôtre eloge, il ne veut pas l'entendre...
@@ -244,17 +252,27 @@
   \smallCaps { Emilie, Valere, Provençaux et Provençales }
   de leur Escadre, Esclaves Africains \concat { d' \smallCaps Osman. }
 }
+\livretRef #'BFBduo
 \livretPers\line { EMILIE ET VALERE }
-%# Volez, Zephirs, volez jeunes Amants de Flore ;
+%# Volez, Zephirs, volez tendres Amants de Flore ;
 %# Si vous nous conduisez, tous nos vœux sont remplis.
 %# Rivages fortunez de l'Empire des Lys,
 %# Ah ! nous vous reverons encore.
+\livretRef #'BFCchoeur
 \livretPers CHŒUR
-%# Volez, Zephirs, volez jeunes Amants de Flore ;
+%# Volez, Zephirs, volez tendres Amants de Flore ;
 %# Si vous nous conduisez, tous nos vœux sont remplis.
-%# Rivages fortunez de l'Empire des Lys,
-%# Ah ! nous vous reverons encore.
-\livretDesc\line { Danse des \smallCaps Matelots. }
+\livretRef #'BFDair
+\livretDescPage\justify { On danse. }
+\livretRef #'BFEvalere
+\livretPers VALERE
+%# Hatez-vous de vous embarquer,
+%# Jeunes cœurs, volez à Cithere!
+%# Sur cette flotte temeraire
+%# On ne peut jamais trop risquer.
+\livretRef #'BFFrigaudon
+\livretDescPage\line { Danse des \smallCaps Matelots. }
+\livretRef #'BFHemilie
 \livretPers EMILIE
 %# Fuy=ez, fuy=ez Vents orageux,
 %# Calmez les Flots amoureux,
@@ -270,14 +288,18 @@
 %# Ris & Jeux.
 %# Charmant Plaisir, fais nôtre sort
 %# Dans la route comme au Port.
-\livretDesc\justify { On danse. }
+\livretRef #'BFItambourin
+\livretDescPage\justify { On danse. }
+\livretRef #'BFKariette
 \livretPers EMILIE
-%# Regnez Amours, Regnez, ne craignez pas les flots ;
+%# Regnez Amours, Regnez, ne craignez point les flots ;
 %# Vous trouverez sur l'Onde un aussi doux repos
 %# Que sous les myrthes de Cythere ;
-%# Regnez Amours, Regnez, ne craignez pas les flots ;
+%# Regnez Amours, Regnez, ne craignez point les flots ;
 %# Ils ont donné le jour à vôtre aimable Mere.
-\livretDesc\justify { On danse. }
+\livretRef #'BFItambourin
+\livretDescPage\justify { On danse. }
+\livretRef #'BFLemilie
 \livretPers EMILIE
 %# Partez, on languit sur le Rivage,
 %# Tendres Cœurs, embarquez-vous :
@@ -288,5 +310,5 @@
 \livretDesc\justify {
   LE CHŒUR avec \smallCaps Emilie, chante cette Parodie en Dialogue.
 }
-\livretFinAct\line { FIN DE LA DEUXIÉME ENTRÉE }
+\livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
 \sep

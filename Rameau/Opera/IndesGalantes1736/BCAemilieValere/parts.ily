@@ -49,7 +49,7 @@
   \verse#12 { \transparent { Nôtre Tyran vous aime ! } Et ma douleur le prouve, }
   \verse#12 { Je ne demandois pas ce triomphe à l’Amour. }
   \bold VALERE
-  \verse#12 { Ah ! sçait-on vous aimer dans ce cruel séjour ! }
+  \verse#12 { Ah ! sçait-on vous aimer dans ce fatal séjour ! }
   \verse#8 { Sur ces bords une ame enflâmée }
   \verse#8 { Partage ses vœux les plus doux ; }
   \verse#8 { Et vous meritez d’être aimée }

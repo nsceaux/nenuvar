@@ -9,7 +9,7 @@
   \verse#12 { J’épousois un Amant digne de ma constance ; }
   \verse#12 { Sur un bord solitaire on commençoit les Jeux, }
   \verse#8 { Lorsque des Ravisseurs perfides }
-  \verse#8 { Paroissent le fer à la main ; }
+  \verse#8 { S’avancent le fer à la main ; }
   \column-break
   \verse#12 { La terreur un instant ferme mes yeux timides, }
   \verse#12 { Ils ne s’ouvrent qu’aux cris d’un Corsaire inhumain, }

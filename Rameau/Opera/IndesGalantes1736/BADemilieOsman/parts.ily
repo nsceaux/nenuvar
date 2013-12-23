@@ -24,6 +24,6 @@
   \verse#6 { Se laisseroit surprendre ! }
   \bold OSMAN
   \verse#8 { Ah ! que me faites vous entendre ? }
-  \verse#8 { C’est trop m’outrager par vos pleurs ! }
+  \verse#8 { C’est trop m’accable par vos pleurs ! }
   \verse#12 { Cessez d’entretenir d’inutiles douleurs. }
 } #}))
