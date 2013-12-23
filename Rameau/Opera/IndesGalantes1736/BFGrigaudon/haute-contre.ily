@@ -8,7 +8,7 @@
   r r4 fad'4 |
   sol'8( la') sib'( do'') sib'( sol') do''( la') |
   re'4 fad' sol' do'' |
-  \origVersion <>\fermata sib'2.
+  sib'2.
 }
 \keepWithTag #'() \rondeauII
 r4 |
@@ -18,7 +18,6 @@ sib'2 la'\trill |
 sib'2 fa'4 r |
 r2 r4 si' |
 do''8( re'') do''( si') do''4 si' |
-do''4.( sol'8) sol'4 mib' |
+do''4.( sol'8) sol'4 mib'\trill |
 re'2.
-\modVersion\keepWithTag #'() \rondeauII
-\origVersion r4
+\keepWithTag #'() \rondeauII

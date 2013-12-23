@@ -1,30 +1,17 @@
 \score {
-  <<
-    \setMusic #'group <<
-      \new Staff <<
-        \modVersion\instrumentName "[Dessus]"
-        \global \includeNotes "dessus"
-      >>
-      \new Staff <<
-        \modVersion\instrumentName "[Hautes-contre]"
-        \global \includeNotes "haute-contre"
-      >>
-      \new Staff <<
-        \modVersion\instrumentName "[Tailles]"
-        \global \includeNotes "taille"
-      >>
-      \new Staff <<
-        \modVersion\instrumentName "[Basses]"
-        \global \includeNotes "basse"
-        \origLayout {
-          s4 s1*4 s2 \bar "" \pageBreak
-          s2 s1*5 s2 \bar "" \break
-          s2 s1*6\break
-        }
-      >>
+  \new StaffGroup <<
+    \new Staff \with { \dessusInstr } <<
+      \global \includeNotes "dessus"
     >>
-    \origVersion\new StaffGroupNoBar \group
-    \modVersion\new StaffGroup \group
+    \new Staff \with { \hcInstr } <<
+      \global \includeNotes "haute-contre"
+    >>
+    \new Staff \with { \tailleInstr } <<
+      \global \includeNotes "taille"
+    >>
+    \new Staff \with { \basseInstr } <<
+      \global \includeNotes "basse"
+    >>
   >>
   \layout { }
   \midi { }
