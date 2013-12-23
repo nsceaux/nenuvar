@@ -19,7 +19,7 @@ lab'2 sol' |
 sol' sol' |
 do'' la'\trill |
 sib' la' |
-re'' si' |
+re'' si'\trill |
 do'' si' |
 mi'' dod''\trill |
 re''2. fad'4 |
