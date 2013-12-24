@@ -1,11 +1,11 @@
 \score {
   \new StaffGroup <<
-    \new Staff <<
-      \instrumentName "Flutes"
-      \global \keepWithTag #'flutes \includeNotes "flute" >>
-    \new Staff <<
-      \instrumentName "Violons"
-      \global \keepWithTag #'violons \includeNotes "violon" >>
+    \new Staff \with { instrumentName = "Flutes" } <<
+      \global \includeNotes "flute"
+    >>
+    \new Staff \with { instrumentName = "Violons" } <<
+      \global \includeNotes "violon"
+    >>
   >>
   \layout { }
 }

@@ -1,9 +1,9 @@
-\clef "basse" R2*2 |
+\clef "basse" <>_"Tous" R2*2 |
 sib8 la16 sol fa mib re do |
 sib,4 r8 sib_\doux |
 mib' sib mib' sib |
 mib'4. sib8 |
-mib' do' fa4 |
+mib' sib fa4 |
 sib r |
 r r8 sib,_\fort |
 mib4 r8 mib |
@@ -11,7 +11,7 @@ re4 r8 re |
 mib4. mib,8 |
 sib,4 re8 sib, |
 mib2~ |
-mib4 re8. mib16 |
+mib4 re8 mib |
 fa4 fa, |
 sib,2 |
 R2 |
@@ -19,11 +19,11 @@ sib4_\doux ^\markup { sans bassons } r |
 fa r |
 fa r |
 sib r |
-r8 r16 lab sol8. fa16 |
+r8 r16 lab\tresdoux sol8. fa16 |
 mib4 sib, |
 fa2 |
 fa'8_\fort mib'16 re' do' sib la sol |
-<< \origVersion { fa4~ fa } \modVersion fa2~ >> |
+fa2~ |
 fa8_\doux mib16 re do sib, la, sol, |
 fa,4 r |
 sib8 la16 sol fa mib re do |
@@ -46,12 +46,12 @@ fa,4 r8 fa_\fort |
 sib4 r8 sol |
 do'16 sib la sib do'8 do |
 fa4 mib |
-re2 |
+re2^\doux |
 mib |
 mi |
 fa4 r |
 fa'8^"avec les bassons"_\fort mib'16 re' do' sib la sol |
-fa8 mib16^"sans bassons"_\doux re do sib, la, sol, |
+fa8 \cesureInstr mib16^"sans bassons"_\doux re do sib, la, sol, |
 fa,4 r |
 R2 |
 fa4 mib |
@@ -59,19 +59,19 @@ re2 la, |
 sib, |
 fa,4 r |
 R2 |
-mib,4 re,8. mib,16 |
+mib,4^\tresdoux re,8. mib,16 |
 fa,2 |
-sib,4 r8 sib |
+sib,4 r8 sib\fort |
 mib'4 r8 mib |
 sib4 r |
 R2*6 |
-re2 |
+re2^\doux |
 mib |
 mi |
-\once\tieDashed fa2~ |
+fa2~ |
 fa8^"avec les bassons"_\fort mib16 re do sib, la, sol, |
 fa,4 mib, |
-re, r8 mib,^"sans bassons"_\doux |
+re, r8 mib,^"sans bassons"\tresdoux |
 fa,2 |
 sib,4 r8 sib^"Tous"_\fort |
 mib'4 r8 mib' |
@@ -82,7 +82,7 @@ mib2~ |
 mib4 re8 mib |
 fa4 fa, |
 sib,2 |
-<< \origVersion { r4 r R2 } \modVersion R2*2 >> |
+R2*2 |
 re'8 do'16 sib la sol fad mi |
 re8 r r4 |
 do4 r |
@@ -96,11 +96,11 @@ sol4 sol, |
 do sib, |
 la,2 |
 fa'8^"avec les bassons"_\fort mib'16 re' do' sib la sol |
-\once\tieDashed fa2_\doux ~ |
+fa2_\doux ~ |
 fa8 mib16 re do sib, la, sol, |
 fa,8 r r4 |
 R2*2 |
-r4 sib^"[sans bassons]" |
+r4 sib\doux^"sans bassons" |
 la fa |
 sib sib, |
 fa r |
