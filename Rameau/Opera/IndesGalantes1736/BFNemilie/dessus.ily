@@ -1,6 +1,4 @@
-\clef "dessus"
-\origVersion <>^"Hautbois"
-r4 |
+\clef "dessus" r4 |
 r <>_\fort
 <<
   \setMusic #'I { sol''16( fad'') sol''( fad'') | sol''4 }
@@ -12,7 +10,7 @@ r <>_\fort
 re''4_\doux |
 sol' sol' |
 re' r |
-r
+r <>\fort
 <<
   \tag #'hautbois1 \I
   \tag #'hautbois2 \II
@@ -20,7 +18,7 @@ r
 >>
 re''4_\doux |
 sol' re' |
-sol'\fermata r |
+sol' r |
 r <>_\fort
 <<
   \setMusic #'I { sib''16( la'') sib''( la'') | sib''4 }
@@ -41,5 +39,5 @@ r <>_\fort
   \tag #'hautbois << \I \\ \II >>
 >>
 sib''16( la'') sol''( fa'') |
-mib''( re'') do''( sib') fa'8 sib'16_\doux la' |
-sib'4 r4
+mib''( re'') do''( sib') fa'8 sib'16( la') |
+sib'4

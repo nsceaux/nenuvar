@@ -1,11 +1,9 @@
 \score {
   \new StaffGroup <<
-    \new Staff <<
-      \instrumentName "Bassons"
+    \new Staff \with { instrumentName = "Basson" } <<
       \global \includeNotes "basson"
     >>
-    \new Staff <<
-      \instrumentName "Basses"
+    \new Staff \with { instrumentName = "B.C." } <<
       \global \includeNotes "basse"
     >>
   >>

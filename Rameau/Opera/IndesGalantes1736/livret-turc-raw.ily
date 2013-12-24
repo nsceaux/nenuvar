@@ -306,9 +306,6 @@
 %# Voguez, bravez les vents & l'orage,
 %# Que l'espoir vous guide-tous.
 %# Partez, on languit sur le Rivage,
-%# Tendres Cœurs, embarquez-vous :
-\livretDesc\justify {
-  LE CHŒUR avec \smallCaps Emilie, chante cette Parodie en Dialogue.
-}
+%# Tendres Cœurs, embarquez-vous.
 \livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
 \sep

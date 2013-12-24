@@ -157,29 +157,17 @@
 }
 
 %{ n°24 %}
-\pieceToc\markup\wordwrap { EMILIE :
- \italic { Partez, on languit sur le Rivage } }
-\includeScore "BFLemilie"
+\pieceTocTitle "Tambourins I et II"
+\reIncludeScore "BFItambourin" "BFLtambourin" \noPageTurn
+\reIncludeScore "BFJtambourin" "BFMtambourin"
 
 %{ n°25 %}
-\pieceTocTitleCond #(not (eqv? #t (ly:get-option 'urtext))) "Entr'acte"
-\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
- "BFFrigaudon" "BFMrigaudon"
-\reIncludeScoreCond #(not (eqv? #t (ly:get-option 'urtext)))
-"BFGrigaudon" "BFNrigaudon"
-\markup\orig-version\fill-line {
-  \column {
-    \vspace #5
-    \italic\large\line { Les Rigaudons pour entr'acte }
-    \score {
-      { \key sol \major \digitTime\time 2/2 \clef "french"
-        \partial 4 sol''4 | si'' la'' re'' fad'' | sol'' do'' si' mi'' |
-        re'' do'' si'8 la' sol' fad' | \custosNote sol'4 \bar "|." }
-      \layout { indent=0 }
-    }
-    \italic\line { \hspace #5 a la page \page-refII #' BFFrigaudon . }
-    \vspace #5
-  }
-}
+\pieceToc\markup\wordwrap { EMILIE :
+ \italic { Partez, on languit sur le Rivage } }
+\includeScore "BFNemilie"
+
+%{ n°26 %}
+\pieceTocTitle "Entr'acte"
+\reIncludeScore "BFFrigaudon" "BFMrigaudon" \noPageTurn
+\reIncludeScore "BFGrigaudon" "BFNrigaudon"
 \actEnd "FIN DE LA PREMIERE ENTRÉE"
-\markup\orig-version\vspace #15

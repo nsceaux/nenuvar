@@ -463,10 +463,7 @@
 \livretVerse#9 { Voguez, bravez les vents & l’orage, }
 \livretVerse#7 { Que l’espoir vous guide-tous. }
 \livretVerse#9 { Partez, on languit sur le Rivage, }
-\livretVerse#7 { Tendres Cœurs, embarquez-vous : }
-\livretDesc\justify {
-  LE CHŒUR avec \smallCaps Emilie, chante cette Parodie en Dialogue.
-}
+\livretVerse#7 { Tendres Cœurs, embarquez-vous. }
 \livretFinAct\line { FIN DE LA PREMIERE ENTRÉE }
 \sep
 \livretAct\center-column {
