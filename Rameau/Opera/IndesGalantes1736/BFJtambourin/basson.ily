@@ -1,6 +1,6 @@
 \clef "tenor/tenor"
 \setMusic #'rondeauII {
-  r4_\markup\orig-version Bassons |
+  r4 |
   r sol' |
   sol sol16 la sib do' |
   sib8 do' re' re |
@@ -8,7 +8,7 @@
   r sol' |
   sol sol16 la sib do' |
   sib8 do' re' re |
-  sol4\fermata
+  sol4
 }
 \keepWithTag #'() \rondeauII
 r4 |

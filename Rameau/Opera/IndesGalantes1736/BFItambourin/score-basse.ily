@@ -1,13 +1,11 @@
 \score {
   \new StaffGroup <<
-    \new Staff <<
-      \instrumentName "Bassons"
+    \new Staff \with { instrumentName = "Bassons" } <<
       \global \includeNotes "basson"
     >>
-    \new Staff <<
-      \instrumentName "Basses"
+    \new Staff \with { instrumentName = "Basses" } <<
       \global \includeNotes "basse"
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
 }

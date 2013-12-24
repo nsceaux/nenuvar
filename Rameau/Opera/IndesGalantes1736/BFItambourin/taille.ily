@@ -8,7 +8,7 @@
   re' re' |
   re' re' |
   re' re'8 do' |
-  si4\fermata
+  si4
 }
 \keepWithTag #'() \rondeauI
 re' |
@@ -17,7 +17,6 @@ sol' re' |
 re' re' |
 re' mi' |
 mi' mi' |
-re' << { re'' | re'' re'' | la'  re' | re' sol' | fad'4*1/2 }
-  \\ { re'4 | re' re' | la' re' | re' sol' | fad'4*1/2 }
->>
-\origVersion\custosNote re'
+mi' << { re'' | re'' re'' | } \\ { re'4 | re' re' | } >>
+la' << { re'' | re'' } \\ { re' | re' } >>
+sol' | fad'4

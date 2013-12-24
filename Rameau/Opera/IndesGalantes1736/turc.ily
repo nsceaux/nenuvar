@@ -132,7 +132,7 @@
 
 %{ n°20 %}
 \pieceTocTitle "Rigaudons I et II"
-\includeScore "BFFrigaudon"
+\includeScore "BFFrigaudon" \noPageTurn
 \includeScore "BFGrigaudon"
 
 %{ n°21 %}
@@ -142,7 +142,7 @@
 
 %{ n°22 %}\newBookPart #'(full)
 \pieceTocTitle "Tambourins I et II"
-\includeScore "BFItambourin"
+\includeScore "BFItambourin" \noPageTurn
 \includeScore "BFJtambourin"
 
 %{ n°23 %}

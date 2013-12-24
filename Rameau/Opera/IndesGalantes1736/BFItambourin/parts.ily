@@ -1,6 +1,5 @@
-\piecePartSpecs #`((dessus)
-                   (haute-contre)
-                   (taille)
-                   (basson #:instrument "Basson"
-                           #:notes "basson" #:clef "tenor")
-                   (basse #:score "score-basse"))
+\piecePartSpecs
+#`((dessus)
+   (parties #:score-template "score-parties")
+   (basse #:score "score-basse")
+   (silence #:on-the-fly-markup , #{ \markup\lyrics { \tacet #32 } #}))

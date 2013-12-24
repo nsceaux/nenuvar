@@ -8,7 +8,7 @@
   R2 |
   r4 sib' |
   sib' fad' |
-  sol'\fermata
+  sol'
 }
 \keepWithTag #'() \rondeauII
 r4 |

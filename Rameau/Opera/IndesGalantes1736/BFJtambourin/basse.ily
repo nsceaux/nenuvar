@@ -8,7 +8,7 @@
   R2 |
   r4 sol, |
   sol, sol, |
-  sol,\fermata
+  sol,
 }
 \keepWithTag #'() \rondeauII
 r4 |
@@ -17,6 +17,6 @@ r4 sib, |
 sib, mib, |
 fa, r |
 r4 do |
-fa re |
+sol re |
 mib fa |
 sib,

@@ -6,9 +6,9 @@
   sol' sol' |
   fad' sol' |
   sol' sol' |
-  sol' sol' |
+  sol' fad' |
   sol' re' |
-  re'\fermata
+  re'
 }
 \keepWithTag #'() \rondeauI
 si'16 la' sol' fad' |
@@ -17,7 +17,6 @@ si' la' |
 do'' la' |
 sol' mi' |
 si' la' |
-dod'' << { re'' | re'' re'' | la'  re'' | re'' sol' | la'4*1/2 }
-  \\ { re'4 | re' re' | la' re' | re' sol' | la'4*1/2 }
->>
-\origVersion\custosNote sol'
+dod'' << { re'' | re'' re'' | } \\ { re'4 | re' re' | } >>
+la' << { re'' | re'' } \\ { re' | re' } >>
+la' | la'4
