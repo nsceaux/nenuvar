@@ -5,6 +5,7 @@
     >>
     \new Staff \with { instrumentName = "B.C." } <<
       \global \includeNotes "basse"
+      \includeFigures "chiffres"
     >>
   >>
   \layout { }
