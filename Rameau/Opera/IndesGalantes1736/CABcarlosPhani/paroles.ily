@@ -10,7 +10,7 @@
   Que vous pe -- ne -- trez mal mon se -- cret em -- ba -- ras !
   Quel in -- jus -- te soup -- çon !.. quoy, sans in -- qui -- é -- tu -- de,
   Bri -- se- t-on à la fois
-  Les li -- ens du sang & des Loix ?
+  Les li -- ens du sang et des Loix ?
   Ex -- cu -- sez mon in -- cer -- ti -- tu -- de.
 }
 \tag #'(carlos basse) {

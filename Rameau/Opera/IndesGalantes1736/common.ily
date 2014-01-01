@@ -320,6 +320,14 @@ valereInstr = \with {
   shortInstrumentName = \markup\smallCaps "Va."
 }
 
+phaniInstr = \with {
+  instrumentName = \markup\smallCaps Phani
+  shortInstrumentName = \markup\smallCaps "Ph."
+}
+carlosInstr = \with {
+  instrumentName = \markup\smallCaps Carlos
+  shortInstrumentName = \markup\smallCaps "Ca."
+}
 huascarInstr = \with {
   instrumentName = \markup\smallCaps Huascar
   shortInstrumentName = \markup\smallCaps "Hu."
