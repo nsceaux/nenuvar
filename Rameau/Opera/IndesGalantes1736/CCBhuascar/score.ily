@@ -1,27 +1,16 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff <<
-      \modVersion\instrumentName "Violons"
+    \new Staff \with { \violonInstr } <<
       \global \includeNotes "dessus"
     >>
-    \new Staff \withLyrics <<
-      \modVersion\characterName "[Huascar]"
+    \new Staff \with { \huascarInstr } \withLyrics <<
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff <<
-      \modVersion\instrumentName "[B.C.]"
+    \new Staff \with { \basseInstr } <<
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout {
-        s4. s2.*3 s4.*3\pageBreak
-        s2.*4\break
-        s2.*3\break
-        s2.*4\break
-        s4.*3 s2.*2 s4. \bar "" \break
-        s4. s2.*4\pageBreak
-      }
     >>
   >>
-  \layout { ragged-last = ##f }
+  \layout { }
   \midi { }
 }
