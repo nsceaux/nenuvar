@@ -448,7 +448,6 @@ startQuote =
 tinyQuote = {
   \override Score.StaffSymbol #'staff-space = #(magstep -2)
   \set Score . fontSize = #-2
-  \override Score.BarNumber #'break-visibility = #'#(#f #f #t)
 }
 
 quoteLayout = \layout {
@@ -456,6 +455,26 @@ quoteLayout = \layout {
   ragged-right = ##t
   \context { \Staff \remove "Time_signature_engraver" }
   \context { \Voice \override Script #'avoid-slur = #'outside }
+  \context { \Score \override BarNumber.break-visibility = #'#(#f #f #t) }
+}
+
+tinyLayout = \layout {
+  \context {
+    \Score
+    \override StaffSymbol #'staff-space = #(magstep -2)
+    fontSize = #-2
+  }
+  \context { \FiguredBass \override BassFigure.font-size = #-2 }
+}
+
+tinyQuoteLayout = \layout {
+  \quoteLayout
+  \context {
+    \Score
+    \override StaffSymbol #'staff-space = #(magstep -2)
+    fontSize = #-2
+  }
+  \context { \FiguredBass \override BassFigure.font-size = #-2 }
 }
 
 quoteEmptyLayout = \layout {

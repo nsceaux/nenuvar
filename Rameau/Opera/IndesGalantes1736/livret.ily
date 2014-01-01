@@ -540,7 +540,7 @@
 \livretVerse#12 { Tout ce que dit l’Amour est toûjours pardonnable, }
 \livretVerse#12 { Et le Ciel que je sers doit servir mon ardeur. }
 \livretDidasP\line { à \smallCaps Phani. }
-\livretVerse#12 { Le Dieu de ces climats dans ce beau jour m’inspire : }
+\livretVerse#12 { Le Dieu de nos climats dans ce beau jour m’inspire : }
 \livretVerse#12 { Princesse, le Soleil daigne veiller sur vous, }
 \livretVerse#8 { Et luy-même dans nôtre empire, }
 \livretVerse#12 { Il prétend par ma voix vous nommer un époux. }

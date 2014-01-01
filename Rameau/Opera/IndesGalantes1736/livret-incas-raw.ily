@@ -72,7 +72,7 @@
 %# Tout ce que dit l'Amour est toûjours pardonnable,
 %# Et le Ciel que je sers doit servir mon ardeur.
 \livretDidasP\line { à \smallCaps Phani. }
-%# Le Dieu de ces climats dans ce beau jour m'inspire :
+%# Le Dieu de nos climats dans ce beau jour m'inspire :
 %# Princesse, le Soleil daigne veiller sur vous,
 %# Et luy-même dans nôtre empire,
 %# Il prétend par ma voix vous nommer un époux.
