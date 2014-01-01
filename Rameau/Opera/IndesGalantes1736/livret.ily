@@ -727,7 +727,7 @@
 \livretPers CARLOS
 \livretVerse#12 { \transparent { Suivez l’Amour jaloux... } Ton crime ose paroître ! }
 \livretPers PHANI
-\livretVerse#12 { Le Soleil jusqu’au fonds des Antres les plus creux }
+\livretVerse#12 { Le Soleil jusqu’au fond des Antres les plus creux }
 \livretVerse#12 { Vient d’allumer la Terre, & son courous présage... }
 \livretPers CARLOS
 \livretVerse#12 { Princesse, quelle erreur ! C’est le Ciel qu’elle outrage. }

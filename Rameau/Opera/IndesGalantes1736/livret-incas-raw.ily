@@ -259,7 +259,7 @@
 \livretPers CARLOS
 %#= Ton crime ose paroître !
 \livretPers PHANI
-%# Le Soleil jusqu'au fonds des Antres les plus creux
+%# Le Soleil jusqu'au fond des Antres les plus creux
 %# Vient d'allumer la Terre, & son courous présage...
 \livretPers CARLOS
 %# Princesse, quelle erreur ! C'est le Ciel qu'elle outrage.
