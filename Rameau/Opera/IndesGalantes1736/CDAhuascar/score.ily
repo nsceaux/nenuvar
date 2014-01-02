@@ -1,47 +1,24 @@
 \score {
   \new StaffGroupNoBar <<
-    \origVersion <<
-      \new Staff \with { \haraKiri } <<
+    \new StaffGroupNoBracket <<
+      \new Staff \with { \violonInstr \haraKiri } <<
         \global \includeNotes "dessus"
       >>
-      \new Staff \with { \haraKiri } <<
-        \global \includeNotes "haute-contre"
-      >>
-      \new Staff \with { \haraKiri } <<
-        \global \includeNotes "taille"
+      \new Staff \with { \partiesInstr \haraKiri } <<
+        \global \includeNotes "parties"
       >>
     >>
-    \modVersion\new StaffGroupNoBracket <<
-      \new Staff \with { \haraKiri } <<
-        \instrumentName "Violons"
-        \global \includeNotes "dessus"
-      >>
-      \new Staff \with { \haraKiri } <<
-        \instrumentName "[Hautes-contre]"
-        \global \includeNotes "haute-contre"
-      >>
-      \new Staff \with { \haraKiri } <<
-        \instrumentName "[Tailles]"
-        \global \includeNotes "taille"
-      >>
-    >>
-    \new Staff \withLyrics <<
-      \modVersion\characterName "Huascar"
+    \new Staff \with { \huascarInstr } \withLyrics <<
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff <<
-      \modVersion\instrumentName "[Basses]"
+    \new Staff \with {
+      instrumentName = "Basses"
+      shortInstrumentName = "B.c"
+    } <<
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout {
-        s2 s1*3\break
-        s1*2 s2.\break
-        s2. s1 s2 \bar "" \break
-        s2 s2.*2\break
-        s1*3\pageBreak
-      }
     >>
   >>
-  \layout { ragged-last = ##f }
+  \layout { }
   \midi { }
 }
