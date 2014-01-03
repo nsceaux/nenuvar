@@ -77,8 +77,12 @@
         }
         \layout {
           indent = 0
-          line-width = 104
+          line-width = 165\mm
           \context { \Staff \remove "Time_signature_engraver" }
+          \context {
+            \Score
+            \override NonMusicalPaperColumn #'line-break-permission = ##f
+          }
         }
       }
     }
@@ -134,6 +138,7 @@
 \bookpart {
   \pieceToc "Chaconne ou Passacaille"
   \includeScore "PremierOrdre/Passacaille"
+  \paper { page-count = 3 }
 }
 \bookpart {
   \pieceToc "Gavote"
@@ -142,7 +147,7 @@
 \bookpart {
   \pieceToc "Menuet"
   \includeScore "PremierOrdre/Menuet"
-  \actEnd "Fin de premier ordre de Trios"
+  \actEnd "Fin du premier ordre de Trios"
   \pageBreak\markup\null
 }
 

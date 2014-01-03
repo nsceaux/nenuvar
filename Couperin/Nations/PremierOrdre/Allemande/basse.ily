@@ -17,7 +17,8 @@ si,8.\fermata \arch\breathe si16 si8[ do'] si[ la sol\prall fad] |
 R1 |
 r8 si,16 dod red mi fad sol la8.[ la16-\chif] sol8-\chif[\prall fad] |
 mi[ la] \arch\appoggiatura sol fad[ si]
-\arch sol4\prall\turn \chif \afterGrace sol4( { fad8[ sol]) } la8 la, |
+\chif { sol4*3/4( \smallNotes { fad8*1/4[ sol]) } }
+\arch sol4\prall\turn la8 la, |
 re4 re' la la, |
 mi,8\noBeam \arch\breathe mi16-\chif[ fad sol la si do'-\chif] re'4 do'\prall |
 si4. \arch si8 \chif { r16 si }

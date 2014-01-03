@@ -6,7 +6,7 @@ la,2 la,,4 \breathe la4 |
 dod\prall si, dod la, |
 re la re'8 dod' si4 |
 \chif\footnoteHere #'(0 . 0) \markup {
-  Source : \raise #3 \score {
+  Source : \score {
     \new Staff <<
       { \tinyQuote \clef "bass" \key re \major \time 2/2
         re'4 la mi2 | }

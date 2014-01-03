@@ -1,7 +1,7 @@
 \clef "bass"
 << \arch R4. \chif fa,4. >> |
 \arch\footnoteHere #'(0 . -7) \markup {
-  Source : \raise #3.5 \score {
+  Source : \score {
     \new Staff {
       \tinyQuote \key fa \major \time 3/8 \clef "bass"
       fa8*1/2([ mi re mi] mi8.*1/3\prall[ re32 mi]) |

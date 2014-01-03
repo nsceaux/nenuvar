@@ -34,7 +34,7 @@ la'16( do'') si'( re'') dod''( mi'') |
 re''4.~ |
 re''8 dod''\prall mi'' |
 \footnoteHere #'(0 . 0) \markup {
-  Source : \raise #3.5 \score {
+  Source : \score {
     \new Staff {
       \tinyQuote \key fa \major \time 3/8
       la'16\breathe fad'8*1/2[( sol'16 fad') sol'8]~ |

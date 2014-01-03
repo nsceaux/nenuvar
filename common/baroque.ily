@@ -110,19 +110,12 @@ dotSign=\markup\vcenter "╸"
         . (markup
            . , #{
      \markup\combine\combine
-     \concat {
-       \null \translate #'(0 . 1) \musicglyph #"scripts.ufermata"
-     }
-     \with-color #white \concat {
-       \null \translate #'(0 . 1.2) \draw-circle #0.4 #0 ##t
-     }
+     \translate #'(0 . 1) \musicglyph #"scripts.ufermata"
+     \with-color #white \translate #'(0 . 1.2) \draw-circle #0.4 #0 ##t
      \combine
-     \smaller\smaller\concat {
-       \null \translate #'(0 . 0) \musicglyph #"scripts.ufermata"
-     }
-     \with-color #white \concat {
-       \null \translate #'(0 . 0.2) \draw-circle #0.4 #0 ##t
-     } #}))
+     \smaller\smaller\translate #'(0 . 0) \musicglyph #"scripts.ufermata"
+     \with-color #white \translate #'(0 . 0.2) \draw-circle #0.4 #0 ##t
+     #}))
        (padding . 0.40)
        (avoid-slur . around)
        (direction . ,UP))
@@ -131,15 +124,10 @@ dotSign=\markup\vcenter "╸"
         . (markup
            . , #{
      \markup\combine\combine
-     \concat {
-       \null \translate #'(0 . 1) \musicglyph #"scripts.ufermata"
-     }
-     \with-color #white \concat {
-       \null \translate #'(0 . 1.2) \draw-circle #0.4 #0 ##t
-     }
-     \smaller\smaller\concat {
-       \null \translate #'(0 . 0) \musicglyph #"scripts.ufermata"
-     } #}))
+     \translate #'(0 . 1) \musicglyph #"scripts.ufermata"
+     \with-color #white \translate #'(0 . 1.2) \draw-circle #0.4 #0 ##t
+     \smaller\smaller \translate #'(0 . 0) \musicglyph #"scripts.ufermata"
+     #}))
        (padding . 0.40)
        (avoid-slur . around)
        (direction . ,UP))

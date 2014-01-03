@@ -331,13 +331,13 @@ O Emmanuel")
         #:description "Sonades et suites de simphonies en trio"
         #:key "Couperin/Nations"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=xx"
-        #:main ((#f "Conducteur"))
+        #:main () ;(#f "Conducteur"))
         #:parts ((clavier1 "Premier clavecin" #:part clavier1
                            #:score-file "main-claviers")
                  (clavier2 "Premier clavecin" #:part clavier2
                            #:score-file "main-claviers")
-                 (basse-archet "Basse d'archet" #:part basse-archet
-                               #:score-file "main")))
+     ; (basse-archet "Basse d'archet" #:part basse-archet #:score-file "main")
+        ))
        ("Quatre sonates en trio"
         #:description "Quatre sonates en trio"
         #:key "Couperin/SonatesEnTrio"
