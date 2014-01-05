@@ -1,40 +1,22 @@
 \score {
   \new StaffGroupNoBar <<
-    \origVersion <<
-      \new Staff << \global \includeNotes "dessus" >>
-      \new Staff << \global \includeNotes "haute-contre" >>
-      \new Staff << \global \includeNotes "taille" >>
-    >>
-    \modVersion\new StaffGroupNoBracket <<
-      \new Staff <<
-        \instrumentName "[Dessus]"
+    \new StaffGroupNoBracket <<
+      \new Staff \with { \dessusInstr } <<
         \global \includeNotes "dessus"
       >>
-      \new Staff <<
-        \instrumentName "[Hautes-contre]"
+      \new Staff \with { \hcInstr } <<
         \global \includeNotes "haute-contre"
       >>
-      \new Staff <<
-        \instrumentName "[Tailles]"
+      \new Staff \with { \tailleInstr } <<
         \global \includeNotes "taille"
       >>
     >>
-    \new Staff \withLyrics <<
-      \modVersion\characterName "Huascar"
+    \new Staff \with { \huascarInstr } \withLyrics <<
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
-    \new Staff <<
-      \modVersion\instrumentName "[Basses]"
+    \new Staff \with { \basseInstr } <<
       \global \includeNotes "basse"
       \includeFigures "chiffres"
-      \origLayout {
-        s2.*2 s1 s2.*3\break
-        s2.*3 s1 s2.\break
-        s2. s1*2 s2 \bar "" \pageBreak
-        s2 s1*3\break
-        \grace s8 s2.*2 s1\break
-        s2. s1 s2.*2\pageBreak
-      }
     >>
   >>
   \layout { }
