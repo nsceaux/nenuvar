@@ -8,6 +8,9 @@
   }
   \markup \null
 }
+%% Crédits
+\include "Rameau/Opera/DaphnisEtEgle/credits.ily"
+
 %% Table of contents
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
