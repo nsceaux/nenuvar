@@ -6,12 +6,12 @@
     \vspace #3
     \line\general-align #Y #CENTER {
       \line-width-ratio #0.5 \justify {
-        pour les concerts des ensembles \italic { Le Siècle des Lumière }
+        pour les concerts des ensembles \italic { Le Siècle des Lumières }
         et \italic { Heinrich Schütz, } direction Gonzalo Martinez,
-        dans le cadre de la saison Voltaire 2014 à Ferney-Voltaire,
-        et soutenue par la ville de Ferney-Voltaire.
+        dans le cadre de la saison \italic { Voltaire 2014 }
+        à Ferney-Voltaire, et soutenue par la ville de Ferney-Voltaire.
       }
-      \hspace #0.5
+      \hspace #1
       \with-url #"http://www.ferney-voltaire.fr/229-2014-la-raison-par-l-alphabet.htm"
       \epsfile #Y #20 #"Rameau/Opera/DaphnisEtEgle/ferney.ps"
     }
