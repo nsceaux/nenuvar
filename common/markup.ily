@@ -653,3 +653,15 @@ footnoteHereNoSpace =
                     'footnote-text note)))
      (set! location #f)
      #{ <>-\tweak footnote-music #foot-mus ^\markup\null #}))
+
+
+
+textSpanner =
+#(define-music-function (parser this-location text)
+     (markup?)
+   #{
+\once\override TextSpanner.bound-details.left.stencil-align-dir-y = #CENTER
+\once\override TextSpanner.bound-details.left.text =
+\markup\whiteout { $text \hspace #1 }
+\once\override TextSpanner.bound-details.left-broken.text = \markup\transparent t %##f
+#})

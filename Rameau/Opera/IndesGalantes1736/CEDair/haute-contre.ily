@@ -20,7 +20,7 @@ sold'4 fad' la'4.( sold'8) |
 sold'1 |
 si'2 dod'' |
 red''2. r8 red'' |
-sold'4 la' fad'4 mid' |
+sold'4 la' \appoggiatura sold'8 fad'4 mid'\trill |
 fad'1 |
 fad'2 fad' |
 mi'4 fad' mi' la' |
@@ -28,12 +28,12 @@ la' la' la' sold' |
 la'1 |
 si'4 si' si' si' |
 lad'2 si' |
-re''2 dod''8 r r4 |
+re''2( dod''8) r r4 |
 si'2 la' |
 sold'2.\trill si'4 |
 si' la' la' re'' |
 dod''2 si' |
-la'4 la' la' sold' |
+la'4 la' la' sold'\trill |
 la'2 si4 r |
 sold4. sold'8 sold'4. mi'8 |
 mi'2 r4 si |

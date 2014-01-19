@@ -1,6 +1,5 @@
-\keys la \major
-\tempo "Gravement"
-\midiTempo #160
+\key la \major
+\tempo "Gravement" \midiTempo #160
 \digitTime\time 2/2 s1*16
-\origVersion\bar "|:|" \modVersion\bar ":|"
-s1*25 \bar "|."
+\bar ":|.|:"
+s1*25 \bar ":|."

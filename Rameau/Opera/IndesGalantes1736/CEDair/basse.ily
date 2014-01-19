@@ -1,4 +1,4 @@
-\clef "basse" la2^"Tous" fad |
+\clef "basse" la2 fad |
 dod re |
 mi4 mi mi mi |
 la,1 |
@@ -16,15 +16,18 @@ sold4 la si si, |
 mi1 |
 mi2 mi |
 mid~ mid4. mid8 |
-fad4 << \origVersion mi \modVersion mi! >> re2\trill |
+fad4 mi! re2\trill |
 dod1 |
 re'2 dod' |
 sid1 |
-<< \origVersion si4 \modVersion si!4 >> la si dod' |
+si!4 la si dod' |
 fad1 |
-re2 re |
+\textSpanner\markup {
+  les bassons une \concat { 8 \super ve } plus bas
+}
+re2\startTextSpan re |
 dod4 re dod re |
-si,2 mi |
+si,2 mi\stopTextSpan |
 la,1 |
 sol,4 sol, sol, sol, |
 fad,2 si, |
