@@ -6,11 +6,5 @@
 *.tar.gz
 *~
 .DS_Store
-/make-ha-suites.sh
-/stats.csv
-/test-1-stats
-/test-2-stats
-/test-page-layout.ly
-/test.ly
-/test2.ly
 test.ly
+delivery
