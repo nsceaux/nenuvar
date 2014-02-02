@@ -353,7 +353,7 @@
 \livretVerse#12 { Vous arrache du Ciel & vous cache à nos yeux ? }
 \livretVerse#12 { Sommes-nous menacez par le couroux des Dieux ? }
 \livretPers "CHŒUR DES CARIENS"
-\livretVerse#6 { Diane dissipez &c. }
+\livretVerse#8 { Diane dissipez &c. }
 % CQentree
 \sep
 
@@ -386,6 +386,206 @@
 \livretVerse#10 { Contre l’Amour n’est pas en seureté }
 \livretVerse#8 { Entre les bras de la Victoire. }
 \livretPers "L’INDIEN"
-\livretVerse#8 { Tout ressent les feux de l’Amour }
+\livretVerse#8 { Tout ressent les feux de l’Amour, }
 \livretVerse#12 { Sa flâme va plus loin que la clarté du jour. }
+\livretPers "L’INDIENNE"
+\livretVerse#4 { Rien ne respire }
+\livretVerse#4 { Qui ne soupire. }
+\livretPers "AUTRE INDIENNE"
+\livretVerse#6 { Dans les plus froids climats }
+\livretVerse#10 { Est-il un cœur qui ne s’enflamme pas ? }
+\livretPers "L’INDIEN"
+\livretVerse#12 { Plus loin que le Soleil dans sa vaste carriere }
+\livretVerse#6 { Ne porte la lumiere, }
+\livretVerse#12 { De l’amoureuse ardeur on ressent les appas. }
+\livretPers "LES DEUX INDIENNES"
+\livretVerse#8 { Tout l’Univers seroit sans Ame }
+\livretVerse#12 { S’il n’estoit penetré d’une si douce flâme. }
+\livretPers "TOUS"
+\livretVerse#8 { Tout ressent les feux de l’Amour, }
+\livretVerse#12 { Sa flâme va plus loin que la carté du jour. }
+% DCentree
+% DDmenuet
+% DEchaconne
+\livretRef #'DFchoeur
+\livretPers "CHŒUR D’INDIENS"
+\livretVerse#6 { Pourquoy tant se contraindre }
+\livretVerse#5 { Pour garder son cœur ? }
+\livretVerse#6 { Hé quel mal peut-on craindre }
+\livretVerse#5 { De l’Amour vainqueur ? }
+\livretRef #'DGindienne
+\livretPers "UNE INDIENNNE"
+\livretVerse#10 { On se plaint sans raison d’estre sensible, }
+\livretVerse#12 { Tous les biens, sans l’Amour, sont des biens imparfaits ; }
+\livretVerse#10 { On se lasse d’un cœur toûjours paisible, }
+\livretVerse#11 { On s’ennuie à la fin d’une trop longue paix. }
+\livretRef #'DFchoeur
+\livretPers "TOUS"
+\livretVerse#6 { Pourquoy tant se contraindre }
+\livretVerse#5 { Pour garder son cœur ? }
+\livretVerse#6 { Hé quel mal peut-on craindre }
+\livretVerse#5 { De l’Amour vainqueur ? }
+\null
+\livretVerse#7 { Quelle heureuse foiblesse ! }
+\livretVerse#5 { Quel heureux tourment ! }
+\livretVerse#6 { Non l’amour ne nous blesse }
+\livretVerse#5 { Que d’un trait charmant. }
+\livretRef #'DHindiens
+\livretPers "UNE INDIENNNE"
+\livretVerse#10 { Ses douleurs font verser de douces larmes, }
+\livretVerse#10 { Il accroist les plaisirs par ses allarmes, }
+\livretVerse#12 { Il nous cause des maux dont les Dieux sont jaloux ; }
+\livretVerse#10 { Ah ! quel cœur peut tenir contre ses charmes. }
+\livretPers "L’INDIEN ET LES DEUX INDIENNES"
+\livretVerse#6 { Ah ! cedons, rendons-nous, }
+\livretVerse#4 { Rendons les armes, }
+\livretVerse#6 { Ah ! cedons à ses coups, }
+\livretVerse#6 { Il n’est rien de si doux. }
+\sep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%%
+% EAprelude
+\livretRef #'EBmercure
+\livretPers MERCURE
+\livretVerse#12 { D’une affreuse fureur Mars n’est plus animé, }
+\livretVerse#8 { Et les Amours l’ont désarmé ; }
+\livretVerse#12 { Amphitrite à son tour brûle au milieu de l’onde ; }
+\livretVerse#11 { Au milieu des glaçons Borée est enflamé ; }
+\livretVerse#7 { Diane et Bachus ont aimé ; }
+\livretVerse#8 { L’Amour doit vaincre tout le Monde. }
+\livretVerse#12 { Que sert contre l’Amour de s’armer de fierté ? }
+\livretVerse#11 { Dans ses liens charmants il faut que tout s’engage ; }
+\livretVerse#6 { Un si doux esclavage }
+\livretVerse#6 { Vaut bien la liberté. }
+\livretRef #'ECmercureChoeur
+\livretVerse#8 { Suivons l’Amour, portons sa chaisne, }
+\livretVerse#8 { N’attendons pas qu’il nous entraisne ; }
+\livretVerse#10 { Tout reconnoist son pouvoir souverain, }
+\livretVerse#6 { Epargnons-nous la peine }
+\livretVerse#6 { D’y resister en vain. }
+\livretPers "CHŒUR DES DIVINITEZ"
+\livretVerse#7 { Suivons l’Amour, &c }
+
+% EDentree apollon
+% EEair
+
+\livretDidasP "[entrée ajoutée]"
+\livretRef #'EFFarcasChoeur
+\livretPers ARCAS
+\livretVerse#6 { Que l’Empire amoureux }
+\livretVerse#6 { Est un charmant Empire ! }
+\livretVerse#8 { Les Amans les plus malheureux }
+\livretVerse#8 { Sont enchantez de leur martyre. }
+\livretPers "CHŒUR DES SYLVAINS"
+\livretVerse#6 { Que l’Empire amoureux }
+\livretVerse#6 { Est un charmant Empire. }
+\livretVerse#8 { Les Amans les plus malheureux }
+\livretVerse#8 { Sont enchantez de leur martyre. }
+\livretPers ARCAS
+\livretVerse#11 { L’Amour mene avec luy mille agreables jeux, }
+\livretVerse#7 { Ses liens sont d’aimables nœuds, }
+\livretVerse#12 { Et rien n’a tant d’appas que l’ardeur qu’il inspire, }
+\livretVerse#12 { L’esperance adoucit un tourment rigoureux, }
+\livretVerse#12 { Toûjours avec plaisir un tendre cœur soûpire. }
+\livretVerse#6 { Que l’Empire amoureux &c }
+\livretRef #'EGarcas
+\livretPers ARCAS
+\livretVerse#8 { Il faut qu’un Amant persevere }
+\livretVerse#6 { Quand ses vœux sont contents ; }
+\livretVerse#8 { Mais une amour qu’on desespere }
+\livretVerse#6 { Ne peut durer longtemps. }
+\livretVerse#7 { Une beauté toûjours cruelle }
+\livretVerse#6 { Perd ses plus doux appas, }
+\livretVerse#8 { Et qui mesprise un cœur fidelle }
+\livretVerse#6 { Ne le merite pas. }
+\livretRef #'EHarcas
+\livretVerse#8 { Si le changement vous offence }
+\livretVerse#6 { Changez à vostre tour, }
+\livretVerse#8 { Ne cherchez point d’autre vengeance }
+\livretVerse#6 { Qu’une nouvelle amour : }
+\livretVerse#8 { Si la Volage vous rapelle, }
+\livretVerse#6 { Meprisez ses appas ; }
+\livretVerse#8 { Qui peut trahir un cœur fidelle }
+\livretVerse#6 { Ne le merite pas. }
+\livretDidasP "[fin de l’entrée ajoutée]"
+
+% EIentree Pan
+% EJair
+% EKentree flore zephire
+\livretRef #'ELnimphe
+\livretPers "UNE NIMPHE DE FLORE"
+\livretVerse#6 { Que de fleurs vont esclore ! }
+\livretVerse#6 { Le Zephire aime Flore ; }
+\livretVerse#7 { L’amour vient rendre heureux }
+\livretVerse#7 { Les cœurs touchez de ses feux ; }
+\livretVerse#6 { Nos plus charmants Boccages }
+\livretVerse#7 { N’ont pas toujours leurs feüillages, }
+\livretVerse#6 { Mais les Amants contents }
+\livretVerse#7 { Ont de beaux jours en tout temps. }
+\livretVerse#6 { Goûtez, Amants fidelles, }
+\livretVerse#6 { Des douceurs éternelles. }
+\livretVerse#6 { Heureuses les Amours }
+\livretVerse#7 { Qui peuvent durer toûjours. }
+\livretVerse#6 { Nos plus charmants Boccages }
+\livretVerse#7 { N’ont pas toujours leurs feüillages, }
+\livretVerse#6 { Mais les Amants contents }
+\livretVerse#7 { Ont de beaux jours en tout temps. }
+% EMprelude
+\livretRef #'ENamour
+\livretPers L’AMOUR
+\livretVerse#8 { Tout ce que j’attaque se rend ; }
+\livretVerse#8 { Tout cede à mon pouvoir extréme ; }
+\livretVerse#12 { J’enchaine quand je veux le plus fier Conquerant, }
+\livretVerse#12 { Et j’abaisse a mon gré la Majesté supréme. }
+\livretVerse#7 { Dans le Ciel Jupiter mesme, }
+\livretVerse#7 { Suit mes loix en soûpirant : }
+\livretVerse#5 { Plus un cœur est grand }
+\livretVerse#5 { Plus il faut qu’il aime. }
+% EOair
+\livretRef #'EPjeunesse
+\livretPers "LA JEUNESSE"
+\livretVerse#12 { Ne troublez pas nos jeux, importune raison, }
+\livretVerse#10 { Vous aurez vostre tour fiere sagesse ; }
+\livretVerse#12 { Vos severes conseils ne sont pas de saison, }
+\livretVerse#10 { Reservez vos chagrins pour la veillesse ; }
+\livretVerse#12 { Tous nos jours sont charmants, tout rit à nos désirs, }
+\livretVerse#6 { C’est le temps des plaisirs }
+\livretVerse#4 { Que la jeunesse. }
+\livretVerse#12 { Nous devons à l’amour les plus beaux de nos ans, }
+\livretVerse#10 { Il prepare nos cœurs à la tendresse ; }
+\livretVerse#12 { Il s’amuse avec nous à des jeux innocens, }
+\livretVerse#10 { Nous laissons les chagrins pour la vieillesse ; }
+\livretVerse#12 { Tous nos jours sont charmants, tout rit à nos désirs, }
+\livretVerse#6 { C’est le temps des plaisirs }
+\livretVerse#4 { Que la jeunesse. }
+% EQair
+% ERprelude Jupiter
+\livretRef #'ESjupiterChoeur
+\livretPers JUPITER
+\livretVerse#7 { Triomphez, Amour victorieux, }
+\livretVerse#8 { Triomphez des Mortels & des Dieux. }
+\livretVerse#12 { Vous imposez des loix à toute la Nature }
+\livretVerse#8 { Vous enflammez le sein des Mers ; }
+\livretVerse#8 { Vos feux percent la nuit obscure }
+\livretVerse#8 { Du sejour profond des Enfers : }
+\livretVerse#12 { Vostre chaîne s’estend aux deux bouts de la Terre ; }
+\livretVerse#8 { Vos traits s’eslevent jusqu’aux Cieux : }
+\livretVerse#12 { Vos coups sont plus puissants que les coups du Tonnerre ; }
+\livretVerse#7 { Triomphez, Amour victorieux, }
+\livretVerse#8 { Triomphez des Mortels & des Dieux. }
+\livretPers "CHŒUR DES DIVINITEZ"
+\livretVerse#7 { Triomphez, Amour victorieux, }
+\livretVerse#8 { Triomphez des Mortels & des Dieux. }
+\livretVerse#12 { Vous imposez des loix à toute la Nature }
+\livretVerse#8 { Vous enflammez le sein des Mers ; }
+\livretVerse#8 { Vos feux percent la nuit obscure }
+\livretVerse#8 { Du sejour profond des Enfers : }
+\livretVerse#12 { Vostre chaîne s’estend aux deux bouts de la Terre ; }
+\livretVerse#8 { Vos traits s’eslevent jusqu’aux Cieux : }
+\livretVerse#12 { Vos coups sont plus puissants que les coups du Tonnerre ; }
+\livretVerse#7 { Triomphez, Amour victorieux, }
+\livretVerse#8 { Triomphez des Mortels & des Dieux. }
+
 }

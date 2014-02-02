@@ -351,7 +351,7 @@
 %# Vous arrache du Ciel & vous cache à nos yeux ?
 %# Sommes-nous menacez par le couroux des Dieux ?
 \livretPers "CHŒUR DES CARIENS"
-%# Diane dissipez &c.
+%#8 Diane dissipez &c.
 % CQentree
 \sep
 
@@ -384,5 +384,205 @@
 %# Contre l'Amour n'est pas en seureté
 %# Entre les bras de la Victoire.
 \livretPers "L’INDIEN" 
-%# Tout ressent les feux de l'Amour
+%# Tout ressent les feux de l'Amour,
 %# Sa flâme va plus loin que la clarté du jour.
+\livretPers "L’INDIENNE"
+%# Rien ne respire
+%# Qui ne soupire.
+\livretPers "AUTRE INDIENNE"
+%# Dans les plus froids climats
+%# Est-il un cœur qui ne s'enflamme pas ?
+\livretPers "L’INDIEN" 
+%# Plus loin que le Soleil dans sa vaste carriere
+%# Ne porte la lumiere,
+%# De l'amoureuse ardeur on ressent les appas.
+\livretPers "LES DEUX INDIENNES"
+%# Tout l'Univers seroit sans Ame
+%# S'il n'estoit penetré d'une si douce flâme.
+\livretPers "TOUS"
+%# Tout ressent les feux de l'Amour,
+%# Sa flâme va plus loin que la carté du jour.
+% DCentree
+% DDmenuet
+% DEchaconne
+\livretRef #'DFchoeur
+\livretPers "CHŒUR D’INDIENS"
+%# Pourquoy tant se contraindre
+%# Pour garder son cœur ?
+%# Hé quel mal peut-on craindre
+%# De l'Amour vainqueur ?
+\livretRef #'DGindienne
+\livretPers "UNE INDIENNNE"
+%# On se plaint sans raison d'estre sensible,
+%# Tous les biens, sans l'Amour, sont des biens imparfaits ;
+%# On se lasse d'un cœur toûjours paisible,
+%# On s'ennuie à la fin d'une trop longue paix.
+\livretRef #'DFchoeur
+\livretPers "TOUS"
+%# Pourquoy tant se contraindre
+%# Pour garder son cœur ?
+%# Hé quel mal peut-on craindre
+%# De l'Amour vainqueur ?
+\null
+%# Quelle heureuse foiblesse !
+%# Quel heureux tourment !
+%# Non l'amour ne nous blesse
+%# Que d'un trait charmant.
+\livretRef #'DHindiens
+\livretPers "UNE INDIENNNE"
+%# Ses douleurs font verser de douces larmes,
+%# Il accroist les plaisirs par ses allarmes,
+%# Il nous cause des maux dont les Dieux sont jaloux ;
+%# Ah ! quel cœur peut tenir contre ses charmes.
+\livretPers "L’INDIEN ET LES DEUX INDIENNES"
+%# Ah ! cedons, rendons-nous,
+%# Rendons les armes,
+%# Ah ! cedons à ses coups,
+%# Il n'est rien de si doux.
+\sep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%%
+% EAprelude
+\livretRef #'EBmercure
+\livretPers MERCURE
+%# D'une affreuse fureur Mars n'est plus animé,
+%# Et les Amours l'ont désarmé ;
+%# Amphitrite à son tour brûle au milieu de l'onde ;
+%# Au milieu des glaçons Borée est enflamé ;
+%# Diane et Bachus ont aimé ;
+%# L'Amour doit vaincre tout le Monde.
+%# Que sert contre l'Amour de s'armer de fierté ?
+%# Dans ses liens charmants il faut que tout s'engage ;
+%# Un si doux esclavage
+%# Vaut bien la liberté.
+\livretRef #'ECmercureChoeur
+%# Suivons l'Amour, portons sa chaisne,
+%# N'attendons pas qu'il nous entraisne ;
+%# Tout reconnoist son pouvoir souverain,
+%# Epargnons-nous la peine
+%# D'y resister en vain.
+\livretPers "CHŒUR DES DIVINITEZ"
+%#7 Suivons l'Amour, &c
+
+% EDentree apollon
+% EEair
+
+\livretDidasP "[entrée ajoutée]"
+\livretRef #'EFFarcasChoeur
+\livretPers ARCAS
+%# Que l'Empire amoureux
+%# Est un charmant Empire !
+%# Les Amans les plus malheureux
+%# Sont enchantez de leur martyre.
+\livretPers "CHŒUR DES SYLVAINS"
+%# Que l'Empire amoureux
+%# Est un charmant Empire.
+%# Les Amans les plus malheureux
+%# Sont enchantez de leur martyre.
+\livretPers ARCAS
+%# L'Amour mene avec luy mille agreables jeux,
+%# Ses liens sont d'aimables nœuds,
+%# Et rien n'a tant d'appas que l'ardeur qu'il inspire,
+%# L'esperance adoucit un tourment rigoureux,
+%# Toûjours avec plaisir un tendre cœur soûpire.
+%#6 Que l'Empire amoureux &c
+\livretRef #'EGarcas
+\livretPers ARCAS
+%# Il faut qu'un Amant persevere
+%# Quand ses vœux sont contents ;
+%# Mais une amour qu'on desespere
+%# Ne peut durer longtemps.
+%# Une beauté toûjours cruelle
+%# Perd ses plus doux appas,
+%# Et qui mesprise un cœur fidelle
+%# Ne le merite pas.
+\livretRef #'EHarcas
+%# Si le changement vous offence
+%# Changez à vostre tour,
+%# Ne cherchez point d'autre vengeance
+%# Qu'une nouvelle amour :
+%# Si la Volage vous rapelle,
+%# Meprisez ses appas ;
+%# Qui peut trahir un cœur fidelle
+%# Ne le merite pas.
+\livretDidasP "[fin de l’entrée ajoutée]"
+
+% EIentree Pan
+% EJair
+% EKentree flore zephire
+\livretRef #'ELnimphe
+\livretPers "UNE NIMPHE DE FLORE"
+%# Que de fleurs vont esclore !
+%# Le Zephire aime Flore ;
+%# L'amour vient rendre heureux
+%# Les cœurs touchez de ses feux ;
+%# Nos plus charmants Boccages
+%# N'ont pas toujours leurs feüillages,
+%# Mais les Amants contents
+%# Ont de beaux jours en tout temps.
+%# Goûtez, Amants fidelles,
+%# Des douceurs éternelles.
+%# Heureuses les Amours
+%# Qui peuvent durer toûjours.
+%# Nos plus charmants Boccages
+%# N'ont pas toujours leurs feüillages,
+%# Mais les Amants contents
+%# Ont de beaux jours en tout temps.
+% EMprelude
+\livretRef #'ENamour
+\livretPers L’AMOUR
+%# Tout ce que j'attaque se rend ;
+%# Tout cede à mon pouvoir extréme ;
+%# J'enchaine quand je veux le plus fier Conquerant,
+%# Et j'abaisse a mon gré la Majesté supréme.
+%# Dans le Ciel Jupiter mesme,
+%# Suit mes loix en soûpirant :
+%# Plus un cœur est grand
+%# Plus il faut qu'il aime.
+% EOair
+\livretRef #'EPjeunesse
+\livretPers "LA JEUNESSE"
+%# Ne troublez pas nos jeux, importune raison,
+%# Vous aurez vostre tour fiere sagesse ;
+%# Vos severes conseils ne sont pas de saison,
+%# Reservez vos chagrins pour la veillesse ;
+%# Tous nos jours sont charmants, tout rit à nos désirs,
+%# C'est le temps des plaisirs
+%# Que la jeunesse.
+%# Nous devons à l'amour les plus beaux de nos ans,
+%# Il prepare nos cœurs à la tendresse ;
+%# Il s'amuse avec nous à des jeux innocens,
+%# Nous laissons les chagrins pour la vieillesse ;
+%# Tous nos jours sont charmants, tout rit à nos désirs,
+%# C'est le temps des plaisirs
+%# Que la jeunesse.
+% EQair
+% ERprelude Jupiter
+\livretRef #'ESjupiterChoeur
+\livretPers JUPITER
+%# Triomphez, Amour victorieux,
+%# Triomphez des Mortels & des Dieux.
+%# Vous imposez des loix à toute la Nature
+%# Vous enflammez le sein des Mers ;
+%# Vos feux percent la nuit obscure
+%# Du sejour profond des Enfers :
+%# Vostre chaîne s'estend aux deux bouts de la Terre ;
+%# Vos traits s'eslevent jusqu'aux Cieux :
+%# Vos coups sont plus puissants que les coups du Tonnerre ;
+%# Triomphez, Amour victorieux,
+%# Triomphez des Mortels & des Dieux.
+\livretPers "CHŒUR DES DIVINITEZ"
+%# Triomphez, Amour victorieux,
+%# Triomphez des Mortels & des Dieux.
+%# Vous imposez des loix à toute la Nature
+%# Vous enflammez le sein des Mers ;
+%# Vos feux percent la nuit obscure
+%# Du sejour profond des Enfers :
+%# Vostre chaîne s'estend aux deux bouts de la Terre ;
+%# Vos traits s'eslevent jusqu'aux Cieux :
+%# Vos coups sont plus puissants que les coups du Tonnerre ;
+%# Triomphez, Amour victorieux,
+%# Triomphez des Mortels & des Dieux.
+

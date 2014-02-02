@@ -9,7 +9,12 @@ livret.ily: $(livret_src)
 	$(python) $(livret_py) $(livret_src) >> $@
 	echo '}' >> $@
 
-all: livret.ily
+vers.ily: vers-raw.ily
+	echo '\\notesSection "Vers"\n\\markuplist\\abs-fontsize-lines #8 \\page-columns-title \\act\\line { VERS } {' > $@
+	$(python) $(livret_py) $< >> $@
+	echo '}' >> $@
+
+all: livret.ily vers.ily
 
 lyrics:
 	$(python) $(paroles_py) $(livret_src)
