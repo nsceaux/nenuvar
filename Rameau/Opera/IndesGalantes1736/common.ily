@@ -74,7 +74,7 @@
     "Trompettes et Timbales" ()
     (#:notes "dessus" #:tag-notes trompette))
    (basse
-    "Bassons, Basses et Basse Continue" ((basse #f))
+    "Bassons, Basses et Basse Continue" ()
     (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
 %%%

@@ -1,5 +1,5 @@
-\clef "basse"
 \setMusic #'rondeau {
+  \clef "basse"
   la4^\markup\whiteout "Tous" |
   dod' mi'4. la8 |
   sold4.\trill fad8 sol la |
@@ -28,5 +28,4 @@ r4 r si'4 |
 la'2 sold'4 |
 fad'8. mi'16 si'4 si |
 mi'2
-\clef "basse"
-\rondeau
+%\rondeau

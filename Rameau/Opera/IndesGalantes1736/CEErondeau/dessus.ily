@@ -1,17 +1,20 @@
 \clef "dessus"
-dod''4^\markup\whiteout "Tous" |
-mi'' dod''4.\trill si'16 la' |
-\appoggiatura la'16 si'4 mi' mi'' |
-la'' fad''4. fad''8 |
-si''4 \appoggiatura la''16 sold''4 \appoggiatura fad''16 mi''4 |
-\appoggiatura re''16 dod''8( re''16 mi'') mi''4.( re''16\trill dod'') |
-si'2\trill dod''4 |
-mi''4 dod''4.\trill si'16 la' |
-si'4 mi' mi'' |
-la'' fad''4. fad''8 |
-si''4 \appoggiatura la''16 sold''4 \appoggiatura fad''16 mi''4 |
-\appoggiatura re''16 dod''8. re''16 si'4.\trill la'8 |
-la'2
+\setMusic #'rondeau {
+  dod''4 |
+  mi'' dod''4.\trill si'16 la' |
+  \appoggiatura la'8 si'4 mi' mi'' |
+  la'' fad''4. fad''8 |
+  si''4 \appoggiatura la''16 sold''4 \appoggiatura fad''16 mi''4 |
+  \appoggiatura re''16 dod''8( re''16 mi'') mi''4.( re''16\trill dod'') |
+  si'2\trill dod''4 |
+  mi''4 dod''4.\trill si'16 la' |
+  si'4 mi' mi'' |
+  la'' fad''4. fad''8 |
+  si''4 \appoggiatura la''16 sold''4 \appoggiatura fad''16 mi''4 |
+  \appoggiatura re''16 dod''8. re''16 si'4.\trill la'8 |
+  la'2
+}
+\keepWithTag #'() \rondeau
 <<
   \setMusic #'I {
     mi''4 |
@@ -43,20 +46,8 @@ la'2
     red''8. mi''16 red''4.\trill mi''8 |
     mi''2
   }
-  \tag #'(violon1 hautbois1 flute1) \I
-  \tag #'(violon2 hautbois2 flute2) \II
-  \tag #'conducteur << \I \\ \II >>
+  \tag #'dessus1 \I
+  \tag #'dessus2 \II
+  \tag #'dessus << \I \\ \II >>
 >>
-dod''4^\markup\whiteout "Tous" |
-mi'' dod''4.(\trill si'16 la') |
-\appoggiatura la'16 si'4 mi' mi'' |
-la'' fad''4.\trill fad''8 |
-si''4 \appoggiatura la''16 sold''4 \appoggiatura fad''16 mi''4 |
-\appoggiatura re''16 dod''8( re''16 mi'') mi''4.( re''16\trill dod'') |
-si'2\trill dod''4 |
-mi''4 dod''4.(\trill si'16 la') |
-si'4 mi' mi'' |
-la'' fad''4. fad''8 |
-si''4 \appoggiatura la''16 sold''4 \appoggiatura fad''16 mi''4 |
-\appoggiatura re''16 dod''8. re''16 si'4.\trill la'8 |
-la'2
+%\rondeau
