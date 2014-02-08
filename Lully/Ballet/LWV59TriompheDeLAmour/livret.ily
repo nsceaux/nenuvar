@@ -16,15 +16,15 @@
 \livretVerse#12 { Ce n’est plus qu’à l’amour qu’il peut estre permis }
 \livretVerse#8 { De troubler le repos du Monde. }
 %% ACritournelle
-\livretRef #'AEvenus
+\livretRef #'ADvenus
 \livretVerse#8 { Tranquiles cœurs, preparez-vous }
 \livretVerse#8 { A mille secrettes allarmes, }
 \livretVerse#8 { Vous perdrez ce repos si doux }
 \livretVerse#8 { Dont vous estimez tant les charmes ; }
 \livretVerse#12 { Mais les troubles d’amour ont cent fois plus d’attraits, }
 \livretVerse#6 { Que la plus douce paix. }
-% AFritournelle
-\livretRef #'AGvenusChoeur
+% AEritournelle
+\livretRef #'AFvenusChoeur
 \livretVerse#10 { Nimphes des Eaux, Nimphes de ce Boccage, }
 \livretVerse#10 { Faites briller vos plus charmants appas, }
 \livretVerse#8 { Plaisirs, Graces, suivez mes pas, }
@@ -37,9 +37,9 @@
 \livretPers CHŒUR
 \livretVerse#8 { L’Amour le vainqueur des vainqueurs, }
 \livretVerse#7 { Va triompher de tous les cœurs. }
-% AHentree
-% AImenuet
-\livretRef #'AJvenus
+% AGentree
+% AHmenuet
+\livretRef #'AIvenus
 \livretPers VENUS
 \livretVerse#10 { Si quelquefois l’amour cause des peines, }
 \livretVerse#11 { Que c’est un danger qu’il est doux de courir. }
@@ -55,8 +55,8 @@
 \livretVerse#4 { Faut-il les craindre ? }
 \livretVerse#4 { Faut-il s’en plaindre ? }
 \livretVerse#10 { Qui les ressent n’en veut jamais guerir. }
-% AKentree
-\livretRef #'ALplaisirs
+% AJentree
+\livretRef #'AKplaisirs
 \livretPers "DEUX PLAISIRS"
 \livretVerse#12 { Un cœur toûjours en paix, sans amour, sans desirs, }
 \livretVerse#8 { Est moins heureux que l’on ne pense ; }
@@ -66,8 +66,8 @@
 \livretVerse#8 { Ne sont des maux qu’en apparence ; }
 \livretVerse#8 { Les plaisirs de l’indifference, }
 \livretVerse#5 { Sont d’ennuyeux plaisirs. }
-% AMmenuet
-\livretRef #'ANvenusPlaisirsChoeur
+% ALmenuet
+\livretRef #'AMvenusPlaisirsChoeur
 \livretPers "VENUS, & LES PLAISIRS"
 \livretVerse#7 { Non, non, il n’est pas possible }
 \livretVerse#7 { De contraindre un cœur sensible }

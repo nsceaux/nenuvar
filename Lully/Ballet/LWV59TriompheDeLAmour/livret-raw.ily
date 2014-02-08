@@ -14,15 +14,15 @@
 %# Ce n'est plus qu'à l'amour qu'il peut estre permis
 %# De troubler le repos du Monde.
 %% ACritournelle
-\livretRef #'AEvenus
+\livretRef #'ADvenus
 %# Tranquiles cœurs, preparez-vous
 %# A mille secrettes allarmes,
 %# Vous perdrez ce repos si doux
 %# Dont vous estimez tant les charmes ;
 %# Mais les troubles d'amour ont cent fois plus d'attraits,
 %# Que la plus douce paix.
-% AFritournelle
-\livretRef #'AGvenusChoeur
+% AEritournelle
+\livretRef #'AFvenusChoeur
 %# Nimphes des Eaux, Nimphes de ce Boccage,
 %# Faites briller vos plus charmants appas,
 %# Plaisirs, Graces, suivez mes pas,
@@ -35,9 +35,9 @@
 \livretPers CHŒUR
 %# L'Amour le vainqueur des vainqueurs,
 %# Va triompher de tous les cœurs.
-% AHentree
-% AImenuet
-\livretRef #'AJvenus
+% AGentree
+% AHmenuet
+\livretRef #'AIvenus
 \livretPers VENUS
 %# Si quelquefois l'amour cause des peines,
 %# Que c'est un danger qu'il est doux de courir.
@@ -53,8 +53,8 @@
 %# Faut-il les craindre ?
 %# Faut-il s'en plaindre ?
 %# Qui les ressent n'en veut jamais guerir.
-% AKentree
-\livretRef #'ALplaisirs
+% AJentree
+\livretRef #'AKplaisirs
 \livretPers "DEUX PLAISIRS"
 %# Un cœur toûjours en paix, sans amour, sans desirs,
 %# Est moins heureux que l'on ne pense ;
@@ -64,8 +64,8 @@
 %# Ne sont des maux qu'en apparence ;
 %# Les plaisirs de l'indifference,
 %# Sont d'ennuyeux plaisirs.
-% AMmenuet
-\livretRef #'ANvenusPlaisirsChoeur
+% ALmenuet
+\livretRef #'AMvenusPlaisirsChoeur
 \livretPers "VENUS, & LES PLAISIRS"
 %# Non, non, il n'est pas possible
 %# De contraindre un cœur sensible
