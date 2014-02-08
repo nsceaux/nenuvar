@@ -31,12 +31,12 @@
 \livretVerse#6 { Qu’avec nous, tout s’engage }
 \livretVerse#10 { A celebrer la gloire de mon fils. }
 \livretVerse#12 { Dieux qu’il a surmontez, Mortels qu’il a soumis, }
-\livretVerse#7 { Venez luy rendre hommage. }
+\livretVerse#6 { Venez luy rendre hommage. }
 \livretVerse#8 { L’Amour le vainqueur des vainqueurs, }
-\livretVerse#7 { Va triompher de tous les cœurs. }
+\livretVerse#8 { Va triompher de tous les cœurs. }
 \livretPers CHŒUR
 \livretVerse#8 { L’Amour le vainqueur des vainqueurs, }
-\livretVerse#7 { Va triompher de tous les cœurs. }
+\livretVerse#8 { Va triompher de tous les cœurs. }
 % AGentree
 % AHmenuet
 \livretRef #'AIvenus

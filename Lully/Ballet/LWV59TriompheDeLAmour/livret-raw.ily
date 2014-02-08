@@ -29,12 +29,12 @@
 %# Qu'avec nous, tout s'engage
 %# A celebrer la gloire de mon fils.
 %# Dieux qu'il a surmontez, Mortels qu'il a soumis,
-%# Venez luy rendre hommage.
+%# Venez luy rendre *hommage.
 %# L'Amour le vainqueur des vainqueurs,
-%# Va triompher de tous les cœurs.
+%# Va tri=ompher de tous les cœurs.
 \livretPers CHŒUR
 %# L'Amour le vainqueur des vainqueurs,
-%# Va triompher de tous les cœurs.
+%# Va tri=ompher de tous les cœurs.
 % AGentree
 % AHmenuet
 \livretRef #'AIvenus
