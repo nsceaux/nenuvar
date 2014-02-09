@@ -80,7 +80,13 @@ mi'4 mi'4. la8 |
 la2. |
 la4 la4. fa'8 |
 re'4 mi' mi' |
-do' re' sib |
+\footnoteHere #'(0 . 0) \markup {
+  Suggestion (cf. mes 113) : \raise #1 \score {
+    { \tinyQuote \time 3/4 \clef "quinte" mi'4 re' sib }
+    \layout { \quoteLayout }
+  }
+}
+do'4 re' sib |
 la4 la4. la8 |
 re'4. re'8 sol4 |
 fa8 sol la4. la8 |
