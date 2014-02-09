@@ -243,7 +243,7 @@
 \livretPers "LA NUIT"
 \livretVerse#12 { Amans ne craignez rien, L’ombre vous sert d’asile, }
 \livretVerse#12 { Veillez, heureux Amans, Les plaisirs les plus doux }
-\livretVerse#6 { Veillerons avec vous. }
+\livretVerse#6 { Veilleront avec vous. }
 \livretPers "LE SILENCE"
 \livretVerse#5 { Que tout soit tranquille, }
 \livretVerse#3 { Taisons-nous. }

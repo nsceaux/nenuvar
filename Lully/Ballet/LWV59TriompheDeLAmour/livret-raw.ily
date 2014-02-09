@@ -241,7 +241,7 @@
 \livretPers "LA NUIT"
 %# Amans ne craignez rien, L'ombre vous sert d'asile,
 %# Veillez, heureux Amans, Les plaisirs les plus doux
-%# Veillerons avec vous.
+%# Veilleront avec vous.
 \livretPers "LE SILENCE"
 %# Que tout soit tranquille,
 %# Taisons-nous.
