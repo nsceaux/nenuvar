@@ -78,21 +78,21 @@
 \livretPers "VENUS, & LES PLAISIRS"
 \livretVerse#10 { On fuit en vain d’inevitables traits ; }
 \livretVerse#10 { C’est pour l’amour que tous les cœurs sont faits. }
+% ANentree
+% AOair
+% APair
 \sep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% AMPHITRITE ET NEPTUNE
 %%%
-% BAentree
-% BBair
-% BCair
-\livretRef #'BDamphitrite
+\livretRef #'BAamphitrite
 \livretPers AMPHITRITE
 \livretVerse#13 { Fierté, severe honneur, vous deffendez d’aimer ; }
 \livretVerse#12 { Mais pour garder nos cœurs, nous donnez-vous des armes ? }
 \livretVerse#12 { Ah ! que n’empeschez-vous que l’amour ait des charmes, }
 \livretVerse#12 { Si vous ne voulez pas qu’il puisse nous charmer ! }
-\livretRef #'BEneptuneAmphitrite
+\livretRef #'BBneptuneAmphitrite
 \livretPers NEPTUNE
 \livretVerse#12 { Cedez, belle Amphitrite à mes soins amoureux, }
 \livretVerse#8 { Cedez à ma perseverance. }
@@ -128,8 +128,8 @@
 \livretPers NEPTUNE
 \livretVerse#10 { Divinitez qui me faites la cour, }
 \livretVerse#12 { Admirez avec moy le pouvoir de l’amour. }
-% BFentree
-\livretRef #'BGneptuneAmphitrite
+% BCentree
+\livretRef #'BDneptuneAmphitrite
 \livretPers "AMPHITRITE ET NEPTUNE"
 \livretVerse#12 { C’est en vain qu’à l’amour on se veut opposer, }
 \livretVerse#12 { L’atteinte de ses traits n’en est que plus profonde. }
@@ -140,9 +140,9 @@
 \livretVerse#8 { Il brûle jusqu’au sein de l’onde ; }
 \livretVerse#12 { C’est en vain qu’à l’amour on se veut opposer, }
 \livretVerse#12 { L’atteinte de ses traits n’en est que plus profonde. }
-% BHmenuet
-% BIair
-\livretRef #'BJneptuneAmphitrite
+% BEmenuet
+% BFair
+\livretRef #'BGneptuneAmphitrite
 \livretPers AMPHITRITE
 \livretVerse#8 { Un cœur qui veut estre volage, }
 \livretVerse#8 { Se laisse aisement engager : }
@@ -154,10 +154,10 @@
 \livretVerse#8 { Il faut s’engager avec peine, }
 \livretVerse#8 { Quand c’est pour ne jamais changer. }
 % BORÉE ET ORITHIE
+% BHair
+% BIgavotte
+% BLair
 % BKair
-% BLgavotte
-% BMair
-% BNair
 \sep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -186,7 +186,7 @@
 \livretVerse#7 { Un cœur maistre de luy-mesme }
 \livretVerse#5 { Est toûjours heureux. }
 % CDair
-\livretRef #'CEdiance
+\livretRef #'CEdiane
 \livretVerse#10 { Dans ces forests venez suivre nos pas, }
 \livretVerse#10 { Vous qui voulez fuïr l’Amour & ses flames, }
 \livretVerse#10 { C’est vainement qu’il menace nos ames, }
@@ -257,7 +257,8 @@
 \livretPers "LA NUIT, LE MISTERE, & LE SILENCE"
 \livretVerse#5 { Que tout soit tranquille, }
 \livretVerse#3 { Taisons-nous. }
-\livretRef #'CKdiane
+% CKprelude
+\livretRef #'CLdiane
 \livretPers DIANE
 \livretVerse#12 { Je ne puis plus braver l’Amour & sa puissance, }
 \livretVerse#9 { Endimion m’a paru trop charmant. }
@@ -268,7 +269,7 @@
 \livretVerse#8 { Je trouve mon cœur si changé, }
 \livretVerse#8 { Que j’ay peine à le reconnoistre, }
 \livretVerse#12 { J’ay trop bravé l’amour, & l’amour s’est vengé. }
-\livretRef #'CLdiane
+\livretRef #'CMdianeNuit
 \livretVerse#6 { Nuit charmante & paisible, }
 \livretVerse#8 { Tu rends le calme à l’Univers, }
 \livretVerse#8 { Helas ! rends-moy, s’il est possible, }
@@ -283,13 +284,14 @@
 \livretVerse#12 { Et du fond de mon cœur je ne puis l’arracher ; }
 \livretVerse#8 { Qui ne peut vaincre sa foiblesse, }
 \livretVerse#6 { Doit au moins la cacher. }
+\livretRef #'CNdiane
 \livretVerse#12 { Sombre Nuit, cache-moy s’il se peut à moy-mesme, }
 \livretVerse#12 { Preste à mon cœur troublé tes voisles tenebreux, }
 \livretVerse#8 { Pour couvrir son desordre extresme, }
 \livretVerse#12 { Cache à tout l’Univers la honte de mes feux, }
 \livretVerse#12 { Dérobe ma foiblesse aux yeux de ce que j’ayme, }
 \livretVerse#12 { Sombre Nuit, cache-moy s’il se peut à moy-mesme. }
-\livretRef #'CMnuit
+\livretRef #'COnuit
 \livretPers "LA NUIT"
 \livretVerse#9 { Vous qui fuyez la lumiere & le bruit, }
 \livretVerse#12 { Songes, rassembez-vous dans mon obscure empire, }
@@ -299,10 +301,10 @@
 \livretVerse#9 { Qu’Endimion en dormant soit conduit }
 \livretVerse#7 { Où Diane en secret soûpire ; }
 \livretVerse#11 { Songes, obeïssez aux ordres de la Nuit. }
-% CNentree
+% CPentree
 \livretDidasP "[entrée ajoutée]"
-\livretRef #'CNchoeur
-\livretPers "CHŒUR DES CARIENS"
+\livretRef #'CQcariens
+\livretPers "LES CARIENS"
 \livretVerse#12 { Que de Fantômes vains errent de toutes parts ! }
 \livretVerse#12 { Mille sombres oyseaux poussent des cris funebres, }
 \livretVerse#11 { Diane dans le Ciel se cache à nos regards, }
@@ -336,7 +338,7 @@
 \livretVerse#12 { Tout doit se ressentir du trouble de nos cœurs, }
 \livretVerse#12 { Elevons jusqu’au Ciel le bruit de nos clameurs. }
 \livretDidasP "[fin de l’entrée ajoutée]"
-\livretRef #'COchoeur
+\livretRef #'CRchoeur
 \livretPers "CHŒUR DES CARIENS"
 \livretVerse#7 { Diane dissipez nos craintes, }
 \livretVerse#8 { Revenez briller dans les Cieux, }
@@ -345,7 +347,7 @@
 \livretVerse#8 { Ralumez vos clartez esteintes, }
 \livretVerse#8 { Revenez briller dans les Cieux, }
 \livretVerse#8 { Revenez éclairer ces lieux. }
-\livretRef #'CPcarien
+\livretRef #'CScarien
 \livretPers "UN CARIEN"
 \livretVerse#12 { De quel funeste mal sentez-vous les atteintes ? }
 \livretVerse#12 { Qui vous a pû troubler ? est-ce un charme odieux, }
@@ -354,7 +356,7 @@
 \livretVerse#12 { Sommes-nous menacez par le couroux des Dieux ? }
 \livretPers "CHŒUR DES CARIENS"
 \livretVerse#8 { Diane dissipez &c. }
-% CQentree
+% CTentree
 \sep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -472,7 +474,7 @@
 % EEair
 
 \livretDidasP "[entrée ajoutée]"
-\livretRef #'EFFarcasChoeur
+\livretRef #'EGarcasChoeur
 \livretPers ARCAS
 \livretVerse#6 { Que l’Empire amoureux }
 \livretVerse#6 { Est un charmant Empire ! }
@@ -490,7 +492,7 @@
 \livretVerse#12 { L’esperance adoucit un tourment rigoureux, }
 \livretVerse#12 { Toûjours avec plaisir un tendre cœur soûpire. }
 \livretVerse#6 { Que l’Empire amoureux &c }
-\livretRef #'EGarcas
+\livretRef #'EHarcas
 \livretPers ARCAS
 \livretVerse#8 { Il faut qu’un Amant persevere }
 \livretVerse#6 { Quand ses vœux sont contents ; }
@@ -500,7 +502,7 @@
 \livretVerse#6 { Perd ses plus doux appas, }
 \livretVerse#8 { Et qui mesprise un cœur fidelle }
 \livretVerse#6 { Ne le merite pas. }
-\livretRef #'EHarcas
+\livretRef #'EIarcas
 \livretVerse#8 { Si le changement vous offence }
 \livretVerse#6 { Changez à vostre tour, }
 \livretVerse#8 { Ne cherchez point d’autre vengeance }
@@ -511,10 +513,10 @@
 \livretVerse#6 { Ne le merite pas. }
 \livretDidasP "[fin de l’entrée ajoutée]"
 
-% EIentree Pan
-% EJair
-% EKentree flore zephire
-\livretRef #'ELnimphe
+% EJentree Pan
+% EKair
+% ELentree flore zephire
+\livretRef #'EMnimphe
 \livretPers "UNE NIMPHE DE FLORE"
 \livretVerse#6 { Que de fleurs vont esclore ! }
 \livretVerse#6 { Le Zephire aime Flore ; }
@@ -532,8 +534,8 @@
 \livretVerse#7 { N’ont pas toujours leurs feüillages, }
 \livretVerse#6 { Mais les Amants contents }
 \livretVerse#7 { Ont de beaux jours en tout temps. }
-% EMprelude
-\livretRef #'ENamour
+% ENprelude
+\livretRef #'EOamour
 \livretPers L’AMOUR
 \livretVerse#8 { Tout ce que j’attaque se rend ; }
 \livretVerse#8 { Tout cede à mon pouvoir extréme ; }
@@ -543,8 +545,8 @@
 \livretVerse#7 { Suit mes loix en soûpirant : }
 \livretVerse#5 { Plus un cœur est grand }
 \livretVerse#5 { Plus il faut qu’il aime. }
-% EOair
-\livretRef #'EPjeunesse
+% EPair
+\livretRef #'EQjeunesse
 \livretPers "LA JEUNESSE"
 \livretVerse#12 { Ne troublez pas nos jeux, importune raison, }
 \livretVerse#10 { Vous aurez vostre tour fiere sagesse ; }
@@ -560,9 +562,9 @@
 \livretVerse#12 { Tous nos jours sont charmants, tout rit à nos désirs, }
 \livretVerse#6 { C’est le temps des plaisirs }
 \livretVerse#4 { Que la jeunesse. }
-% EQair
-% ERprelude Jupiter
-\livretRef #'ESjupiterChoeur
+% ERair
+% ESprelude Jupiter
+\livretRef #'ETjupiterChoeur
 \livretPers JUPITER
 \livretVerse#7 { Triomphez, Amour victorieux, }
 \livretVerse#8 { Triomphez des Mortels & des Dieux. }

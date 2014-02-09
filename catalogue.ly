@@ -102,6 +102,18 @@
                  (timbales "Timbales" #:score-file "part5.ly")
                  (voix "Parties vocales")))
 
+       ("Le Triomphe de l’Amour"
+        #:description "Ballet Royal, 1681."
+        #:key "Lully/Ballet/LWV59TriompheDeLAmour"
+        #:opus "LWV-59"
+        #:url ""
+        #:main ((#f "Conducteur"))
+        #:parts ((dessus "Dessus")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (quinte "Quintes")
+                 (basse "Basses et basse continue")))
+
        ("Phaëton"
         #:description "Tragédie lyrique, livret de Quinault, 1683."
         #:key "Lully/Opera/LWV61Phaeton"

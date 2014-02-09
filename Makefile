@@ -491,6 +491,70 @@ Lully/Opera/LWV56Psyche-all: \
 
 .PHONY: Lully/Opera/LWV56Psyche-delivery Lully/Opera/LWV56Psyche-clean Lully/Opera/LWV56Psyche-all
 
+### Le Triomphe de l’Amour
+# Conducteur
+Lully/Ballet/LWV59TriompheDeLAmour:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LWV59TriompheDeLAmour  \
+	Lully/Ballet/LWV59TriompheDeLAmour/main.ly
+.PHONY: Lully/Ballet/LWV59TriompheDeLAmour
+# Dessus
+Lully/Ballet/LWV59TriompheDeLAmour-dessus:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LWV59TriompheDeLAmour-dessus -dpart=dessus  \
+	Lully/Ballet/LWV59TriompheDeLAmour/part.ly
+.PHONY: Lully/Ballet/LWV59TriompheDeLAmour-dessus
+# Hautes-contre
+Lully/Ballet/LWV59TriompheDeLAmour-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LWV59TriompheDeLAmour-haute-contre -dpart=haute-contre  \
+	Lully/Ballet/LWV59TriompheDeLAmour/part.ly
+.PHONY: Lully/Ballet/LWV59TriompheDeLAmour-haute-contre
+# Tailles
+Lully/Ballet/LWV59TriompheDeLAmour-taille:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LWV59TriompheDeLAmour-taille -dpart=taille  \
+	Lully/Ballet/LWV59TriompheDeLAmour/part.ly
+.PHONY: Lully/Ballet/LWV59TriompheDeLAmour-taille
+# Quintes
+Lully/Ballet/LWV59TriompheDeLAmour-quinte:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LWV59TriompheDeLAmour-quinte -dpart=quinte  \
+	Lully/Ballet/LWV59TriompheDeLAmour/part.ly
+.PHONY: Lully/Ballet/LWV59TriompheDeLAmour-quinte
+# Basses et basse continue
+Lully/Ballet/LWV59TriompheDeLAmour-basse:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LWV59TriompheDeLAmour-basse -dpart=basse  \
+	Lully/Ballet/LWV59TriompheDeLAmour/part.ly
+.PHONY: Lully/Ballet/LWV59TriompheDeLAmour-basse
+
+Lully/Ballet/LWV59TriompheDeLAmour-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour
+	@if [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV59TriompheDeLAmour.pdf $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour; fi
+	@if [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV59TriompheDeLAmour-dessus.pdf $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour; fi
+	@if [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV59TriompheDeLAmour-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour; fi
+	@if [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV59TriompheDeLAmour-taille.pdf $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour; fi
+	@if [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour-quinte.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV59TriompheDeLAmour-quinte.pdf $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour; fi
+	@if [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV59TriompheDeLAmour-basse.pdf $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour; fi
+	@if [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour/LWV59TriompheDeLAmour-midi.tar.gz $(OUTPUT_DIR)/LWV59TriompheDeLAmour.midi $(OUTPUT_DIR)/LWV59TriompheDeLAmour-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour.midi ]; then cp $(OUTPUT_DIR)/LWV59TriompheDeLAmour.midi $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour/ ; fi
+	git archive --prefix=LWV59TriompheDeLAmour/ HEAD Lully/Ballet/LWV59TriompheDeLAmour common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour/LWV59TriompheDeLAmour.tar.gz
+
+Lully/Ballet/LWV59TriompheDeLAmour-clean:
+	@rm -f $(OUTPUT_DIR)/LWV59TriompheDeLAmour-* $(OUTPUT_DIR)/LWV59TriompheDeLAmour.*
+
+Lully/Ballet/LWV59TriompheDeLAmour-all: \
+	Lully/Ballet/LWV59TriompheDeLAmour \
+	Lully/Ballet/LWV59TriompheDeLAmour-dessus \
+	Lully/Ballet/LWV59TriompheDeLAmour-haute-contre \
+	Lully/Ballet/LWV59TriompheDeLAmour-taille \
+	Lully/Ballet/LWV59TriompheDeLAmour-quinte \
+	Lully/Ballet/LWV59TriompheDeLAmour-basse\
+	Lully/Ballet/LWV59TriompheDeLAmour-delivery\
+	Lully/Ballet/LWV59TriompheDeLAmour-clean
+
+.PHONY: Lully/Ballet/LWV59TriompheDeLAmour-delivery Lully/Ballet/LWV59TriompheDeLAmour-clean Lully/Ballet/LWV59TriompheDeLAmour-all
+
 ### Phaëton
 # Version urtext
 Lully/Opera/LWV61Phaeton-urtext:

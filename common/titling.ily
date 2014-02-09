@@ -379,7 +379,7 @@ pieceTocTitle =
       (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
           (markup #:rehearsal-number rehearsal
                   #:hspace 1
-                  #:huge (string-upper-case title))
+                  #:huge title)
           (markup #:title (string-upper-case title))))
     (add-no-page-break parser)
     (make-music 'Music 'void #t)))

@@ -76,21 +76,21 @@
 \livretPers "VENUS, & LES PLAISIRS"
 %# On fuit en vain d'inevitables traits ;
 %# C'est pour l'amour que tous les cœurs sont faits.
+% ANentree
+% AOair
+% APair
 \sep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% AMPHITRITE ET NEPTUNE
 %%%
-% BAentree
-% BBair
-% BCair
-\livretRef #'BDamphitrite
+\livretRef #'BAamphitrite
 \livretPers AMPHITRITE
 %# Fierté, severe honneur, vous deffendez d'aimer ;
 %# Mais pour garder nos cœurs, nous donnez-vous des armes ?
 %# Ah ! que n'empeschez-vous que l'amour ait des charmes,
 %# Si vous ne voulez pas qu'il puisse nous charmer !
-\livretRef #'BEneptuneAmphitrite
+\livretRef #'BBneptuneAmphitrite
 \livretPers NEPTUNE
 %# Cedez, belle Amphitrite à mes soins amoureux,
 %# Cedez à ma perseverance.
@@ -126,8 +126,8 @@
 \livretPers NEPTUNE
 %# Divinitez qui me faites la cour,
 %# Admirez avec moy le pouvoir de l'amour.
-% BFentree
-\livretRef #'BGneptuneAmphitrite
+% BCentree
+\livretRef #'BDneptuneAmphitrite
 \livretPers "AMPHITRITE ET NEPTUNE"
 %# C'est en vain qu'à l'amour on se veut opposer,
 %# L'atteinte de ses traits n'en est que plus profonde.
@@ -138,9 +138,9 @@
 %# Il brûle jusqu'au sein de l'onde ;
 %# C'est en vain qu'à l'amour on se veut opposer,
 %# L'atteinte de ses traits n'en est que plus profonde.
-% BHmenuet
-% BIair
-\livretRef #'BJneptuneAmphitrite
+% BEmenuet
+% BFair
+\livretRef #'BGneptuneAmphitrite
 \livretPers AMPHITRITE
 %# Un cœur qui veut estre volage,
 %# Se laisse aisement engager :
@@ -152,10 +152,10 @@
 %# Il faut s'engager avec peine,
 %# Quand c'est pour ne jamais changer.
 % BORÉE ET ORITHIE
+% BHair
+% BIgavotte
+% BLair
 % BKair
-% BLgavotte
-% BMair
-% BNair
 \sep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -184,7 +184,7 @@
 %# Un cœur maistre de luy-mesme
 %# Est toûjours heureux.
 % CDair
-\livretRef #'CEdiance
+\livretRef #'CEdiane
 %# Dans ces forests venez suivre nos pas,
 %# Vous qui voulez fuïr l'Amour & ses flames,
 %# C'est vainement qu'il menace nos ames,
@@ -255,7 +255,8 @@
 \livretPers "LA NUIT, LE MISTERE, & LE SILENCE"
 %# Que tout soit tranquille,
 %# Taisons-nous.
-\livretRef #'CKdiane
+% CKprelude
+\livretRef #'CLdiane
 \livretPers DIANE
 %# Je ne puis plus braver l'Amour & sa puissance,
 %# Endimion m'a paru trop charmant.
@@ -266,7 +267,7 @@
 %# Je trouve mon cœur si changé,
 %# Que j'ay peine à le reconnoistre,
 %# J'ay trop bravé l'amour, & l'amour s'est vengé.
-\livretRef #'CLdiane
+\livretRef #'CMdianeNuit
 %# Nuit charmante & paisible,
 %# Tu rends le calme à l'Univers,
 %# Helas ! rends-moy, s'il est possible,
@@ -281,13 +282,14 @@
 %# Et du fond de mon cœur je ne puis l'arracher ;
 %# Qui ne peut vaincre sa foiblesse,
 %# Doit au moins la cacher.
+\livretRef #'CNdiane
 %# Sombre Nuit, cache-moy s'il se peut à moy-mesme,
 %# Preste à mon cœur troublé tes voisles tenebreux,
 %# Pour couvrir son desordre extresme,
 %# Cache à tout l'Univers la honte de mes feux,
 %# Dérobe ma foiblesse aux yeux de ce que j'ayme,
 %# Sombre Nuit, cache-moy s'il se peut à moy-mesme.
-\livretRef #'CMnuit
+\livretRef #'COnuit
 \livretPers "LA NUIT"
 %# Vous qui fuyez la lumiere & le bruit,
 %# Songes, rassembez-vous dans mon obscure empire,
@@ -297,10 +299,10 @@
 %# Qu'Endimion en dormant soit conduit
 %# Où Diane en secret soûpire ;
 %# Songes, obeïssez aux ordres de la Nuit.
-% CNentree
+% CPentree
 \livretDidasP "[entrée ajoutée]"
-\livretRef #'CNchoeur
-\livretPers "CHŒUR DES CARIENS"
+\livretRef #'CQcariens
+\livretPers "LES CARIENS"
 %# Que de Fantômes vains errent de toutes parts !
 %# Mille sombres oyseaux poussent des cris funebres,
 %# Diane dans le Ciel se cache à nos regards,
@@ -334,7 +336,7 @@
 %# Tout doit se ressentir du trouble de nos cœurs,
 %# Elevons jusqu'au Ciel le bruit de nos clameurs.
 \livretDidasP "[fin de l’entrée ajoutée]"
-\livretRef #'COchoeur
+\livretRef #'CRchoeur
 \livretPers "CHŒUR DES CARIENS"
 %# Diane dissipez nos craintes,
 %# Revenez briller dans les Cieux,
@@ -343,7 +345,7 @@
 %# Ralumez vos clartez esteintes,
 %# Revenez briller dans les Cieux,
 %# Revenez éclairer ces lieux.
-\livretRef #'CPcarien
+\livretRef #'CScarien
 \livretPers "UN CARIEN"
 %# De quel funeste mal sentez-vous les atteintes ?
 %# Qui vous a pû troubler ? est-ce un charme odi=eux,
@@ -352,7 +354,7 @@
 %# Sommes-nous menacez par le couroux des Dieux ?
 \livretPers "CHŒUR DES CARIENS"
 %#8 Diane dissipez &c.
-% CQentree
+% CTentree
 \sep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -470,7 +472,7 @@
 % EEair
 
 \livretDidasP "[entrée ajoutée]"
-\livretRef #'EFFarcasChoeur
+\livretRef #'EGarcasChoeur
 \livretPers ARCAS
 %# Que l'Empire amoureux
 %# Est un charmant Empire !
@@ -488,7 +490,7 @@
 %# L'esperance adoucit un tourment rigoureux,
 %# Toûjours avec plaisir un tendre cœur soûpire.
 %#6 Que l'Empire amoureux &c
-\livretRef #'EGarcas
+\livretRef #'EHarcas
 \livretPers ARCAS
 %# Il faut qu'un Amant persevere
 %# Quand ses vœux sont contents ;
@@ -498,7 +500,7 @@
 %# Perd ses plus doux appas,
 %# Et qui mesprise un cœur fidelle
 %# Ne le merite pas.
-\livretRef #'EHarcas
+\livretRef #'EIarcas
 %# Si le changement vous offence
 %# Changez à vostre tour,
 %# Ne cherchez point d'autre vengeance
@@ -509,10 +511,10 @@
 %# Ne le merite pas.
 \livretDidasP "[fin de l’entrée ajoutée]"
 
-% EIentree Pan
-% EJair
-% EKentree flore zephire
-\livretRef #'ELnimphe
+% EJentree Pan
+% EKair
+% ELentree flore zephire
+\livretRef #'EMnimphe
 \livretPers "UNE NIMPHE DE FLORE"
 %# Que de fleurs vont esclore !
 %# Le Zephire aime Flore ;
@@ -530,8 +532,8 @@
 %# N'ont pas toujours leurs feüillages,
 %# Mais les Amants contents
 %# Ont de beaux jours en tout temps.
-% EMprelude
-\livretRef #'ENamour
+% ENprelude
+\livretRef #'EOamour
 \livretPers L’AMOUR
 %# Tout ce que j'attaque se rend ;
 %# Tout cede à mon pouvoir extréme ;
@@ -541,8 +543,8 @@
 %# Suit mes loix en soûpirant :
 %# Plus un cœur est grand
 %# Plus il faut qu'il aime.
-% EOair
-\livretRef #'EPjeunesse
+% EPair
+\livretRef #'EQjeunesse
 \livretPers "LA JEUNESSE"
 %# Ne troublez pas nos jeux, importune raison,
 %# Vous aurez vostre tour fiere sagesse ;
@@ -558,9 +560,9 @@
 %# Tous nos jours sont charmants, tout rit à nos désirs,
 %# C'est le temps des plaisirs
 %# Que la jeunesse.
-% EQair
-% ERprelude Jupiter
-\livretRef #'ESjupiterChoeur
+% ERair
+% ESprelude Jupiter
+\livretRef #'ETjupiterChoeur
 \livretPers JUPITER
 %# Triomphez, Amour victorieux,
 %# Triomphez des Mortels & des Dieux.

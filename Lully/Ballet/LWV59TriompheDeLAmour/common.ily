@@ -90,6 +90,33 @@ trill = #(make-articulation "t")
 
 %%%
 
+firstPart =
+#(define-music-function (parser location) ()
+   (increase-rehearsal-major-number)
+   (add-page-break parser)
+   (add-toc-item parser 'tocActMarkup #{ \markup\sep #})
+   (add-even-page-header-text parser "LE TRIOMPHE" #f)
+   (add-odd-page-header-text parser "DE L’AMOUR" #f)
+   (make-music 'Music 'void #t))
+
+newPart =
+#(define-music-function (parser location) ()
+   (increase-rehearsal-major-number)
+   (add-page-break parser)
+   (add-toc-item parser 'tocActMarkup #{ \markup\sep #})
+   (add-even-page-header-text parser "LE TRIOMPHE" #t)
+   (add-odd-page-header-text parser "DE L’AMOUR" #t)
+   (make-music 'Music 'void #t))
+
+entree =
+#(define-music-function (parser location title) (markup?)
+  (add-toc-item parser 'tocSceneMarkup title)
+  (add-toplevel-markup parser #{ \markup\scene $title #})
+  (add-no-page-break parser)
+  (make-music 'Music 'void #t))
+
+%%%
+
 venusMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Venus"))
