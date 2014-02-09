@@ -4,7 +4,7 @@
     \new Voice = "one" {
       \set tieWaitForNote = ##t
       fa''4 |
-      \para fa''2 fa''4 \para \voiceOne fa''2 fa''4 |
+      fa''2\para fa''4 \voiceOne fa''2\para fa''4 |
       <re'' fa'' sib''>2.~ q2 q4 |
       la''16*8/6[ sib'' do''' sib'' la'' sol''] \oneVoice fa''8 r <la' do'' fa''>2 mib''4 |
       re''16*8/6[ mib'' fa'' mib'' re'' do''] sib'8 r <re' fa' sib'>2 q4 |
@@ -34,21 +34,21 @@
       <la do' fa'>2 q4 q2
       %% reprise
       do''4 |
-      \para do''2 do''4 \para do''2 do''4 |
+      do''2 \para do''4 do''2 \para do''4 |
       <la' do'' fa''>2.~ q2 mib''4 |
       mib''4.( re''8)\prall do''4 do''( re'') la' |
-      \parc sib'2 la'4 sol'2 \voiceOne re''4 |
-      \para re''2 re''4 \para re''2 re''4 |
+      sib'2\parc la'4 sol'2 \voiceOne re''4 |
+      re''2\para re''4 re''2\para re''4 |
       <sib' re'' mi'' sol''>2.~ q2 \oneVoice mi''4 |
       dod''16*8/6[ re'' mi'' re'' do'' si'] la'8 r la''2 mi''4\prall |
-      \parc fa''2 mi''4 re''2 \voiceOne sib''4 |
+      fa''2\parc mi''4 re''2 \voiceOne sib''4 |
       sib'' la''\prall sol'' sol''( fa'')\prall mi'' |
       mi''2. r4 la'' re'' |
       r dod'' mi'' r la' fa'' |
       mi''2.\prall~ mi''2 \oneVoice la'4 |
       sib'2\prall la'4 sib'2\prall la'4 |
       sib'2.\prall la'4 re'' fad' |
-      \para sol' la' sib' \para fa'4. sol'8 mi'4\prall |
+      sol'\para la' sib' fa'4.\para sol'8 mi'4\prall |
       re'2.~ re'2 \voiceOne <sib' re'' fa''>4 |
       q2 q4 q2 q4 |
       <re'' sol'' sib''>2. \oneVoice <sib' re'' fa'' sib''>2 <do'' mib'' sol'' sib''>4 |
@@ -59,11 +59,11 @@
       R1. |
       r2*3/2 r4 r fa'' |
       \ru#2 { fa'16*8/7[ sol' la' sib' do'' re'' mi''] fa''8 r } |
-      \para fa'4 r r r2*3/2 |
+      fa'4\para r r r2*3/2 |
       R1. |
       r2*3/2 r4 r fa'4 |
       \updown \ru#2 { fa16*8/7[ sol la sib do' re' mi'] fa'8 r } |
-      \para fa4 s s \upup r4 r fa' |
+      fa4\para s s \upup r4 r fa' |
       sol' mib' fa' << { r4 do'' mib'' } \\ sol'2. >> |
       la'2\prall \voiceOne fa''4 fa''2( mib''4)\prall |
       \oneVoice re''8[ sib'' fa'' sib'' re'' sib''] do''4 r mib'' |
@@ -119,9 +119,9 @@
       %% reprise
       r4 |
       r2*3/2 r4 r fa |
-      \para fa2 fa4 \para fa2 fa4 |
+      fa2\para fa4 fa2\para fa4 |
       << { r4 r la \voiceTwo r r re } \\ { fad2.~ \voiceOne <fad la re'> } >> |
-      \para sol2.*2/3~ re4~ <sol, re sol>2 \downup <sol' sib'>4 |
+      sol2.*2/3\para~ re4~ <sol, re sol>2 \downup <sol' sib'>4 |
       q2 q4 q2 q4 |
       mi' sol' \downdown sol sib mi sol |
       << { la2 \voiceTwo la,,4 la,,2 la,,4 | re,2.~ re,2 } \\
@@ -133,8 +133,8 @@
       <la dod' mi' la'>2.~ q2 \downdown <fad la re'>4 |
       << { re'2.~ re' | re'2.~ re'2.~ | re'2. } \\
         { sol2 fad4 sol2 fad4 | sol2. la4 sib do' | sib la sol }>>
-      <la \para re'>2 <sol la,>4 |
-      << { r4 la~ <fa la>~ <fa la>2 } \\ { \para re2.~ <re,>2 }>> \downup <sib re' fa'>4 |
+      <la re'\para>2 <sol la,>4 |
+      << { r4 la~ <fa la>~ <fa la>2 } \\ { re2.\para~ <re re,>2 }>> \downup <sib re' fa'>4 |
       q2 q4 q2 q4 |
       <sol re' sol'>2. \downdown <re sib re'>2 <mib mib'>4 |
       <fa do' fa'>2 q4 q2 q4 |

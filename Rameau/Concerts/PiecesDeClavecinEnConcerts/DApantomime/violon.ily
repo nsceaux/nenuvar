@@ -6,7 +6,7 @@ sib'2. r4 r sib' |
 la'16*8/6([ sib' do'' sib' la' sol']) fa'8 r fa'2 mib'4 |
 re'16*8/6[( mib' fa' mib' re' do']) sib8 r sib2 
 << { re''4 | do''2 re''4 \appoggiatura re''8 mib''2 re''4 | re''2.\trill do''4 r r } \\
-  { fa'4_"un peu fort" |\noBreak fa'1. | fa'2. r2*3/2 } >> |
+  { fa'4\unpeufort |\noBreak fa'1. | fa'2. r2*3/2 } >> |
 R1. |
 r2*3/2 r4 r re' |
 do'2 re'4 \appoggiatura re'8 mib'2 re'4 |
@@ -15,7 +15,7 @@ R1. |
 r2*3/2 r4 r do'' |
 re''( sib') do'' re''( mi'') fa'' |
 mi''2\trill do'''4 do'''2~ do'''8 sib''\trill |
-la''4 r do'''4_"plus doux" do'''2~ do'''8 sib''\trill |
+la''4 r do'''4\plusdoux do'''2~ do'''8 sib''\trill |
 la''4 r la'' sol''( do''') mi''\trill |
 \appoggiatura mi''8 fa''2 fa''4 mi''( la'') do''\trill |
 \appoggiatura do''8 re''2 re''4 do''( fa'') la'\trill |
@@ -37,11 +37,11 @@ sol'16*8/6[( la' sib' la' sol' fa']) mi'8 r mi'16*8/6[( fa' sol' fa' mi' re']) d
 la2. la''2 mi''4\trill |
 \appoggiatura mi'' fa''2 mi''4 re'' r r |
 R1. |
-r2*3/2 r4 r la''_"très doux" |\noBreak
+r2*3/2 r4 r la''\tresdoux |\noBreak
 \ru#2 { la'16*8/7[( si' dod'' re'' mi'' fa'' sol'']) la''8 r } |
 dod''4\trill r r r r re''' |
 \ru#2 { re''16*8/7[( mi'' fa'' sol'' la'' si'' dod''']) re'''8 r } |
-re''4_"moins doux" r r r r re'' |
+re''4\moinsdoux r r r r re'' |
 re'16*8/7[( mi' fa' sol' la' si' dod'']) re''8 r la4. re''8 dod''4\trill |
 re'' la' fa' re' r r |
 R1. |
@@ -51,7 +51,7 @@ sib'2. r4 r sib' |
 la'16*8/6[( sib' do'' sib' la' sol']) fa'8 r fa'2 mib'4 |
 re'16*8/6[( mib' fa' mib' re' do']) sib8 r sib2
 << { re''4 | do''2 re''4 \appoggiatura re''8 mib''2 re''4 | re''2.\trill do''4 r r } \\
-  { fa'4_"un peu fort" |\noBreak fa'1. | fa'2. r2*3/2 } >> |
+  { fa'4\unpeufort |\noBreak fa'1. | fa'2. r2*3/2 } >> |
 R1. |
 r2*3/2 r4 r re' |
 do'2 re'4 \appoggiatura re'8 mib'2 re'4 |
@@ -60,7 +60,7 @@ R1. |
 r2*3/2 r4 r fa' |
 sol'( mib') fa' sol'( la') sib' |
 la'2\trill fa''4 fa''2~ fa''8( mib'')\trill |
-re''4 r fa''_"plus doux" fa''2~ fa''8( mib'')\trill |
+re''4 r fa''\plusdoux fa''2~ fa''8( mib'')\trill |
 re''4 r re'' do''( fa'') la' |
 \appoggiatura la'8 sib'2 sib'4 la'( re'') fa'\trill |
 \appoggiatura fa'8 sol'2 sol'4 fa'( sib') re'\trill |

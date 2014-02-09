@@ -368,6 +368,10 @@ enadoucissantSug =
              'text (markup #:whiteout #:italic #:general-align X -0.9
                            "[en adoucissant]"))
 
+plusdoux =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "plus doux"))
 moinsdoux =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.75
@@ -385,6 +389,11 @@ moinsfortSug =
 #(make-music 'TextScriptEvent
              'text (markup #:whiteout #:italic #:general-align X -0.75
                            "[moins fort]"))
+
+unpeufort =
+#(make-music 'TextScriptEvent
+             'text (markup #:whiteout #:italic #:general-align X -0.75
+                           "un peu fort"))
 
 plusfort =
 #(make-music 'TextScriptEvent
