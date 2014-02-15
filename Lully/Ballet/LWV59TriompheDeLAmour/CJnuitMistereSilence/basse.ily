@@ -36,9 +36,15 @@ mi mi mi |
 mi1 mi2 |
 r r mi4 mi |
 la,2 r r |
-r r la |
-la la la |
-la1 la2 |
-r r la4 la |
-re2 r r |
-la,1. | \once\set Staff.whichBar = "|"
+<<
+  \tag #'basse { R1.*6 }
+  \tag #'basse-continue {
+    r2 r la |
+    la la la |
+    la1 la2 |
+    r r la4 la |
+    re2 r r |
+    la,1. | \once\set Staff.whichBar = "|"
+  }
+>>
+

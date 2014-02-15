@@ -112,7 +112,8 @@
                  (haute-contre "Hautes-contre")
                  (taille "Tailles")
                  (quinte "Quintes")
-                 (basse "Basses et basse continue")))
+                 (basse "Basses")
+                 (basse-continue "Basse continue")))
 
        ("Phaëton"
         #:description "Tragédie lyrique, livret de Quinault, 1683."

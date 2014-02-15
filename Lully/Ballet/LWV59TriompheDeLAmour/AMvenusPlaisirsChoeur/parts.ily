@@ -3,5 +3,5 @@
    (haute-contre)
    (taille)
    (quinte)
-   (basse #:score-template "score-basse-continue-voix"
-          #:tag-notes part))
+   (basse)
+   (basse-continue #:score-template "score-basse-continue-voix"))

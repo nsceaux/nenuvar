@@ -1,8 +1,8 @@
 \clef "basse"
 <<
   \tag #'basse { R2.*36 | r4 r }
-  \tag #'(basse-continue part) {
-    \tag #'part <>^"B.C." fa4 fa fa |
+  \tag #'basse-continue {
+    fa4 fa fa |
     mi2 fa4 |
     sib2 do'4 |
     re'4. re'8 do' sib |
@@ -40,7 +40,7 @@
     re do re mi fa sol |
     la sib do'4
   }
->> \tag #'part <>^"Tous" do4 |
+>> do4 |
 fa4. sol8 la4 |
 sib sib sol |
 do'2. |
@@ -50,15 +50,10 @@ do' do2 |
 <<
   \tag #'basse fa2
   \tag #'basse-continue fa,2
-  \tag #'part <<
-    fa2^\markup\center-align Basses
-    \\ fa,_\markup\center-align B.C.
-  >>
 >>
 <<
   \tag #'basse { r4 | R2.*5 | r4 r }
-  \tag #'(basse-continue part) {
-    \tag #'part <>^"B.C."
+  \tag #'basse-continue {
     fa4 |
     mi2 la8 sol |
     fa4 mi re |
@@ -67,7 +62,7 @@ do' do2 |
     si,2 do4 |
     sol,2
   }
->> \tag #'part <>^"Tous" sol4 |
+>> sol4 |
 do4. re8 mi4 |
 fa fa re |
 la2. |
@@ -90,8 +85,8 @@ mib'2 do'4 |
 re' re2 |
 sol <<
   \tag #'basse { r4 | R2.*5 | r4 r }
-  \tag #'(basse-continue part) {
-    \tag #'part <>^"B.C." sol4 |
+  \tag #'basse-continue {
+    sol4 |
     re'4. do'8 sib4 |
     la sol fa |
     sib4. do'8 sib la |
@@ -99,7 +94,7 @@ sol <<
     re do re mi fa sol |
     la sib do'4
   }
->> \tag #'part <>^"Tous" do4 |
+>> do4 |
 fa4. sol8 la4 |
 sib sib sol |
 do'2. |
@@ -109,8 +104,4 @@ do' do2 |
 <<
   \tag #'basse fa2.
   \tag #'basse-continue fa,2.
-  \tag #'part <<
-    fa2^\markup\center-align Basses
-    \\ fa,_\markup\center-align B.C.
-  >>
 >>

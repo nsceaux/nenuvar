@@ -84,7 +84,7 @@
     "Bassons, Basses" ()
     (#:notes "basse" #:clef "basse" #:tag-notes basse))
    (basse-continue
-    "Basse continue" (basse)
+    "Basse continue" ((basse #f))
     (#:notes "basse" #:clef "basse" #:tag-notes basse-continue)))
 
 

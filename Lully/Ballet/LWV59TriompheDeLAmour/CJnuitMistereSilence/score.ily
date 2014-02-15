@@ -6,20 +6,17 @@
       \new Staff << \global \includeNotes "taille" >>
       \new Staff << \global \includeNotes "quinte" >>
     >>
-    \new Staff \with { \haraKiriFirst } \withLyrics <<
-      { s1.*10 \noHaraKiri }
+    \new Staff \withLyrics <<
       \global \keepWithTag #'nuit \includeNotes "voix"
     >> \keepWithTag #'nuit \includeLyrics "paroles"
-    \new Staff \with { \haraKiriFirst } \withLyrics <<
-      { s1.*10 \noHaraKiri }
+    \new Staff \withLyrics <<
       \global \keepWithTag #'mistere \includeNotes "voix"
     >> \keepWithTag #'mistere \includeLyrics "paroles"
-    \new Staff \with { \haraKiriFirst } \withLyrics <<
-      { s1.*10 \noHaraKiri }
+    \new Staff \withLyrics <<
       \global \keepWithTag #'silence \includeNotes "voix"
     >> \keepWithTag #'silence \includeLyrics "paroles"
     \new Staff <<
-      \global \includeNotes "basse"
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
       \includeFigures "chiffres"
       \origLayout {
         s1.*9\break s1.*7\pageBreak
