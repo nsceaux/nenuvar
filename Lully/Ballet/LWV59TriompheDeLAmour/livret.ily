@@ -340,7 +340,7 @@
 \livretDidasP "[fin de l’entrée ajoutée]"
 \livretRef #'CRchoeur
 \livretPers "CHŒUR DES CARIENS"
-\livretVerse#7 { Diane dissipez nos craintes, }
+\livretVerse#8 { Diane dissipez nos craintes, }
 \livretVerse#8 { Revenez briller dans les Cieux, }
 \livretVerse#8 { Revenez éclairer ces lieux, }
 \livretVerse#8 { Ecoutez nos cris & nos plaintes, }
