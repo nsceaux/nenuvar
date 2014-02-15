@@ -307,12 +307,12 @@
 \livretPers "LES CARIENS"
 \livretVerse#12 { Que de Fantômes vains errent de toutes parts ! }
 \livretVerse#12 { Mille sombres oyseaux poussent des cris funebres, }
-\livretVerse#11 { Diane dans le Ciel se cache à nos regards, }
+\livretVerse#12 { Diane dans le Ciel se cache à nos regards, }
 \livretVerse#12 { Elle nous abandonne à l’horreur des tenebres ? }
 \livretVerse#8 { O Dieux ! quel prodige nouveau, }
 \livretVerse#8 { La nuit perd son divin flambeau. }
 \livretVerse#12 { Vous à qui le sommeil fait retentir ses charmes, }
-\livretVerse#8 { Eveillez-vous, eveillez-vous, }
+\livretVerse#4 { Eveillez-vous, }
 \livretVerse#12 { Que le profond repos que vous trouvez si doux, }
 \livretVerse#8 { Se change en mortelles allarmes. }
 \null
@@ -320,19 +320,19 @@
 \livretVerse#8 { Ah ! laissez-nous dormir en paix ! }
 \null
 \livretVerse#8 { L’affreuse obscurité redouble }
-\livretVerse#7 { Diane dans le Ciel se trouble }
+\livretVerse#8 { Diane dans le Ciel se trouble }
 \livretVerse#8 { Et se couvre d’un voile épais. }
 \null
 \livretVerse#8 { Ah ! laissez-nous dormir en paix ! }
 \null
-\livretVerse#11 { Ouvrez les yeux, voyez cét Astre sans lumiere }
+\livretVerse#12 { Ouvrez les yeux, voyez cét Astre sans lumiere }
 \livretVerse#8 { Dans le milieu de sa carriere ; }
 \livretVerse#8 { O Dieux ! quel prodige nouveau ! }
 \livretVerse#8 { La nuit perd son divin flambeau. }
 \null
 \livretVerse#6 { Que nostre voix plaintive }
 \livretVerse#12 { Fasse entendre en tous lieux ses douloureux accents. }
-\livretVerse#11 { Tachons de rappeler Diane figitive. }
+\livretVerse#12 { Taschons de rappeler Diane fugitive. }
 \livretVerse#8 { Penetrons par des cris perçans }
 \livretVerse#12 { Le voile qui retient sa lumiere captive. }
 \livretVerse#12 { Tout doit se ressentir du trouble de nos cœurs, }

@@ -305,12 +305,12 @@
 \livretPers "LES CARIENS"
 %# Que de Fantômes vains errent de toutes parts !
 %# Mille sombres oyseaux poussent des cris funebres,
-%# Diane dans le Ciel se cache à nos regards,
-%# Elle nous abandonne à l'horreur des tenebres ?
+%# Di=ane dans le Ciel se cache à nos regards,
+%# Elle nous abandonne à l'*horreur des tenebres ?
 %# O Dieux ! quel prodige nouveau,
 %# La nuit perd son divin flambeau.
 %# Vous à qui le sommeil fait retentir ses charmes,
-%# Eveillez-vous, eveillez-vous,
+%# Eveillez-vous,
 %# Que le profond repos que vous trouvez si doux,
 %# Se change en mortelles allarmes.
 \null
@@ -318,19 +318,19 @@
 %# Ah ! laissez-nous dormir en paix !
 \null
 %# L'affreuse obscurité redouble
-%# Diane dans le Ciel se trouble
+%# Di=ane dans le Ciel se trouble
 %# Et se couvre d'un voile épais.
 \null
 %# Ah ! laissez-nous dormir en paix !
 \null
-%# Ouvrez les yeux, voyez cét Astre sans lumiere
+%# Ouvrez les yeux, voy=ez cét Astre sans lumiere
 %# Dans le milieu de sa carriere ;
 %# O Dieux ! quel prodige nouveau !
 %# La nuit perd son divin flambeau.
 \null
 %# Que nostre voix plaintive
 %# Fasse entendre en tous lieux ses douloureux accents.
-%# Tachons de rappeler Diane figitive.
+%# Taschons de rappeler Di=ane fugitive.
 %# Penetrons par des cris perçans
 %# Le voile qui retient sa lumiere captive.
 %# Tout doit se ressentir du trouble de nos cœurs,

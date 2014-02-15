@@ -3,7 +3,7 @@
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \header {
-    title = "Le Triomphe de l’Amour"
+    title = \markup\center-column\smallCaps { "Le Triomphe" "de l'Amour" }
     date = "1681"
   }
   \markup \null
@@ -16,14 +16,6 @@
   \abs-fontsize-lines #8
   \override-lines #'(use-rehearsal-numbers . #t)
   \override-lines #'(column-number . 2)
-  \table-of-contents
-}
-\bookpart {
-  \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplist
-  \abs-fontsize-lines #8
-  \override-lines #'(column-number . 2) 
-  \override-lines #'(use-rehearsal-numbers . #t)
   \table-of-contents
 }
 %% Livret

@@ -49,12 +49,11 @@
 \include "common/toc-columns.ily"
 \include "common/livret.ily"
 \setOpus "Lully/Ballet/LWV59TriompheDeLAmour"
-\opusTitle "Le Triomphe de l’Amour"
+\opusTitle "Le Triomphe de l'Amour"
 
 \layout {
   indent = \smallindent
-  short-indent = #(if (symbol? (ly:get-option 'part))
-                      0 (* 8 mm))
+  short-indent = 0
   ragged-last = #(and (eqv? (ly:get-option 'urtext) #t)
                       (not (symbol? (ly:get-option 'part))))
 }
@@ -82,8 +81,11 @@
     "Quintes" ()
     (#:notes "quinte" #:clef "alto"))
    (basse
-    "Bassons, Basses, basse continue" ()
-    (#:notes "basse" #:clef "basse")))
+    "Bassons, Basses" ()
+    (#:notes "basse" #:clef "basse" #:tag-notes basse))
+   (basse-continue
+    "Basse continue" (basse)
+    (#:notes "basse" #:clef "basse" #:tag-notes basse-continue)))
 
 
 trill = #(make-articulation "t")
@@ -94,7 +96,7 @@ firstPart =
 #(define-music-function (parser location) ()
    (increase-rehearsal-major-number)
    (add-page-break parser)
-   (add-toc-item parser 'tocActMarkup #{ \markup\sep #})
+   (add-toc-item parser 'tocActMarkup #{ \markup\null #})
    (add-even-page-header-text parser "LE TRIOMPHE" #f)
    (add-odd-page-header-text parser "DE L’AMOUR" #f)
    (make-music 'Music 'void #t))
@@ -103,7 +105,7 @@ newPart =
 #(define-music-function (parser location) ()
    (increase-rehearsal-major-number)
    (add-page-break parser)
-   (add-toc-item parser 'tocActMarkup #{ \markup\sep #})
+   (add-toc-item parser 'tocActMarkup #{ \markup\null #})
    (add-even-page-header-text parser "LE TRIOMPHE" #t)
    (add-odd-page-header-text parser "DE L’AMOUR" #t)
    (make-music 'Music 'void #t))
