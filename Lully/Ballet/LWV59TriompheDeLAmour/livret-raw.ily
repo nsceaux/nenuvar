@@ -367,10 +367,10 @@
 %# Il méprisoit l'Amour, mais l'Amour est encore
 %# Un vainqueur plus puissant mille fois que Bachus.
 %# Il aime enfin, sa fierté se desarme,
-%# D'un seul regard Ariane le charme ;
+%# D'un seul regard Ari=ane le charme ;
 %# A ce superbe cœur l'Amour donne des fers.
-%# Bachus n'a triomphé du monde qu'avec peine,
-%# Et qu'apres centr travaux divers ;
+%# Bachus n'a tri=omphé du monde qu'avec peine,
+%# Et qu'apres cent travaux divers ;
 %# L'amour sans effort enchaisne
 %# Le vainqueur de l'Univers.
 \livretRef #'DBindiens

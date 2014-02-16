@@ -369,10 +369,10 @@
 \livretVerse#12 { Il méprisoit l’Amour, mais l’Amour est encore }
 \livretVerse#12 { Un vainqueur plus puissant mille fois que Bachus. }
 \livretVerse#10 { Il aime enfin, sa fierté se desarme, }
-\livretVerse#9 { D’un seul regard Ariane le charme ; }
+\livretVerse#10 { D’un seul regard Ariane le charme ; }
 \livretVerse#12 { A ce superbe cœur l’Amour donne des fers. }
-\livretVerse#11 { Bachus n’a triomphé du monde qu’avec peine, }
-\livretVerse#8 { Et qu’apres centr travaux divers ; }
+\livretVerse#12 { Bachus n’a triomphé du monde qu’avec peine, }
+\livretVerse#8 { Et qu’apres cent travaux divers ; }
 \livretVerse#7 { L’amour sans effort enchaisne }
 \livretVerse#7 { Le vainqueur de l’Univers. }
 \livretRef #'DBindiens
