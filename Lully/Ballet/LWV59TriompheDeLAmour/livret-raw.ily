@@ -403,7 +403,7 @@
 %# S'il n'estoit penetré d'une si douce flâme.
 \livretPers "TOUS"
 %# Tout ressent les feux de l'Amour,
-%# Sa flâme va plus loin que la carté du jour.
+%# Sa flâme va plus loin que la clarté du jour.
 % DCentree
 % DDmenuet
 % DEchaconne

@@ -405,7 +405,7 @@
 \livretVerse#12 { S’il n’estoit penetré d’une si douce flâme. }
 \livretPers "TOUS"
 \livretVerse#8 { Tout ressent les feux de l’Amour, }
-\livretVerse#12 { Sa flâme va plus loin que la carté du jour. }
+\livretVerse#12 { Sa flâme va plus loin que la clarté du jour. }
 % DCentree
 % DDmenuet
 % DEchaconne
