@@ -1,3 +1,3 @@
 \keys sol \major
-\midiTempo #160 \time 3/4
+\midiTempo #160 \digitTime\time 3/4
 s2.*48 \bar ".|:"
