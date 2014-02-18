@@ -1,4 +1,4 @@
-fa'2. fa'4 |
+\clef "taille" fa'2. fa'4 |
 fa'2 fa'2 |
 sol'2 sol'2 |
 fa'2. fa'4 |

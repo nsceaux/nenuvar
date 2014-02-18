@@ -1,4 +1,4 @@
-sib,2 sib2 |
+\clef "basse" sib,2 sib2 |
 la2 sib2 |
 mib2 mi2 |
 fa2 fa,2 |

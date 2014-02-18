@@ -1,4 +1,4 @@
-sib4 do'4 |
+\clef "quinte" sib4 do'4 |
 sib2 sib4 sib4 |
 fa4 sib4 sib4 sib4 |
 fa2 fa4 sol4 |
@@ -15,4 +15,4 @@ fa'2 sib4 sib4 |
 sib2 do'4. do'8 |
 do'4 do'4 do'4. do'8 |
 sib8. do'16 re'8. mib'16 do'4 fa'4 |
-fa'2 |
+fa'2
