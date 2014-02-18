@@ -503,8 +503,8 @@ reIncludeScoreCond =
 %%%
 #(define (toplevel-score-handler parser score)
     (cond ((ly:parser-lookup parser '$current-bookpart)
-          ((ly:parser-lookup parser 'bookpart-score-handler)
-           (ly:parser-lookup parser '$current-bookpart) score))
+           ((ly:parser-lookup parser 'bookpart-score-handler)
+            (ly:parser-lookup parser '$current-bookpart) score))
           ((ly:parser-lookup parser '$current-book)
            ((ly:parser-lookup parser 'book-score-handler)
             (ly:parser-lookup parser '$current-book) score))

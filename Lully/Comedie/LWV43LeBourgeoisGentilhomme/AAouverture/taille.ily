@@ -1,4 +1,4 @@
-re'8 re'8 mi'8 fad'8 sol'4. re'8 |
+\clef "taille" re'8 re'8 mi'8 fad'8 sol'4. re'8 |
 re'2 re'4. do'8 |
 sib4 sib'8 la'8 sol'4 re'4 |
 re'4 sol'2 sol'4 |

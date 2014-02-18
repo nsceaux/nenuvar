@@ -1,4 +1,4 @@
-sib'4. la'8 sol'8 fad'8 sol'8 la'8 |
+\clef "haute-contre" sib'4. la'8 sol'8 fad'8 sol'8 la'8 |
 sib'4. la'8 sib'8 la'8 sib'8 do''8 |
 re''2 re''4. do''8 |
 sib'2. r8 do''8 |

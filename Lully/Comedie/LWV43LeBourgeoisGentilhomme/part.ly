@@ -22,51 +22,55 @@ intermede =
   \pageBreak
   
   %% Table of contents
-  \markuplist \table-of-contents
+  \markuplist
+  \abs-fontsize-lines #8
+  \override-lines #'(use-rehearsal-numbers . #t)
+  \override-lines #'(column-number . 2)
+  \table-of-contents
   \pageBreak
 }
 
 %%% ACTE I
-\bookpart {
-  \ouverture "Ouverture"
-  \includeScore "AAouverture"
-  \act "Acte Premier"
-  \scene "Scène Première"
-  \pieceToc \markup { L'élève du maître de musique :
-                      \italic { Je languis nuit et jour } }
-  \includeScore "ABeleve"
-  \scene "Scène II"
-  \pieceToc \markup { Une musicienne : \italic { Je languis nuit et jour } }
-  \includeScore "ACmusicienne"
-  %% Premier intermède
-  \intermede "Premier Intermède"
-  \pieceTocTitle "Ritournelle"
-  \includeScore "AEritournelle"
-  \pieceToc \markup { 
-    Une musicienne : \italic { Un cœur, dans l'amoureux empire }
-  }
-  \includeScore "AFmusicienne"
-  \pieceTocTitle "Ritournelle"
-  \includeScore "AGritournelle"
-  \pieceToc \markup { 
-    Un musicien : \italic { Il n'est rien de si doux }
-  }
-  \includeScore "AHmusicien"
-  \pieceTocTitle "Ritournelle"
-  \includeScore "AIritournelle"
-  \pieceToc \markup {
-    Deuxième musicien : \italic { Il serait doux d'entrer sous l'amoureuse loi }
-  }
-  \includeScore "AJmusicien"
-  \pieceToc \markup {
-    \italic { Aimable ardeur, franchise heureuse }
-  }
-  \includeScore "AKaTrois"
-  \pieceToc \markup Air
-  \includeScore "ALdanceurs"
-  \pieceTocTitle "Canarie"
-  \includeScore "AMcanarie"
+\ouverture "Ouverture"
+\includeScore "AAouverture"
+\act "Acte Premier"
+\scene "Scène Première" "Scène Première"
+\pieceToc\markup\wordwrap { L'élève du maître de musique :
+  \italic { Je languis nuit et jour } }
+\includeScore "ABeleve"
+
+\scene "Scène II" "Scène II"
+\pieceToc\markup\wordwrap { Une musicienne : \italic { Je languis nuit et jour } }
+\includeScore "ACmusicienne"
+%% Premier intermède
+\intermede "Premier Intermède"
+\pieceTocTitle "Ritournelle"
+\includeScore "AEritournelle"
+\pieceToc \markup { 
+  Une musicienne : \italic { Un cœur, dans l'amoureux empire }
 }
+\includeScore "AFmusicienne"
+\pieceTocTitle "Ritournelle"
+\includeScore "AGritournelle"
+\pieceToc \markup { 
+  Un musicien : \italic { Il n'est rien de si doux }
+}
+\includeScore "AHmusicien"
+\pieceTocTitle "Ritournelle"
+\includeScore "AIritournelle"
+\pieceToc\markup\wordwrap {
+  Deuxième musicien : \italic { Il serait doux d'entrer sous l'amoureuse loi }
+}
+\includeScore "AJmusicien"
+\pieceToc \markup {
+  \italic { Aimable ardeur, franchise heureuse }
+}
+\includeScore "AKaTrois"
+\pieceToc \markup Air
+\includeScore "ALdanceurs"
+\pieceTocTitle "Canarie"
+\includeScore "AMcanarie"
+
 %%% ACTE II
 %% Deuxième intermède
 \bookpart {
@@ -88,7 +92,7 @@ intermede =
   \paper { ragged-last-bottom = #(and (symbol? (*part*))
                                       (not (eqv? (*part*) 'basse))) }
   \act "Acte IV"
-  \scene "Scène Première"
+  \scene "Scène Première" "Scène Première"
   \pieceTocTitle "Première chanson à boire"
   \includeScore "AQchansonA"
   \pieceTocTitle "Deuxième chanson à boire"
@@ -141,19 +145,23 @@ intermede =
 \bookpart {
   \act  "Ballet des Nations"
   %% Première Entrée
-  \scene "Première Entrée"
+  \scene "Première Entrée" "Première Entrée"
   \pieceTocTitle "Le donneur de livres"
   \includeScore "BIentree"
-  \pieceTocTitle "Dialogue des gens qui en musique demandent des livres"
+  \pieceTocAndTitle\markup\wordwrap {
+    Dialogue des gens qui en musique demandent des livres
+  } \markup\wordwrap {
+    Dialogue des gens qui en musique demandent des livres
+  }
   \includeScore "BJlivre"
   %% Deuxième Entrée
-  \scene "Deuxième Entrée"
+  \scene "Deuxième Entrée" "Deuxième Entrée"
   \pieceToc \markup { Les trois Importuns dancent. }
   \includeScore "BLentree"
 }
 \bookpart {
   %% Troisième Entrée
-  \scene "Troisième Entrée"
+  \scene "Troisième Entrée" "Troisième Entrée"
   \pieceToc \markup { Ritournelle des Espagnols }
   \includeScore "BMritournelle"
   \pieceTocTitle "Premier air des Espagnols"
@@ -174,7 +182,7 @@ intermede =
   \pieceTocTitle "Premier air des Espagnols"
   \reIncludeScore "BNair" "BSair"
   %% Quatrième Entrée
-  \scene "Quatrième Entrée"
+  \scene "Quatrième Entrée" "Quatrième Entrée"
   \pieceToc \markup { Ritournelle italienne }
   \includeScore "BTritournelle"
   \pieceToc \markup \italic { Di rigori armata il seno }
@@ -192,7 +200,7 @@ intermede =
 }
 \bookpart {
   %% Cinquième Entrée
-  \scene "Cinquième Entrée"
+  \scene "Cinquième Entrée" "Cinquième Entrée"
   \pieceTocTitle "Menuet"
   \includeScore "BZmenuet"
   \pieceToc \markup \italic { Ah qu'il fait beau dans ces bocages }
@@ -202,7 +210,7 @@ intermede =
   \pieceToc \markup \italic { Vois ma Climène }
   \includeScore "CCclimene"
   %% Sixième Entrée
-  \scene "Sixième Entrée"
+  \scene "Sixième Entrée" "Sixième Entrée"
   \pieceToc \markup \italic { Quels spectacles charmants }
   \includeScore "CDspectacle"
 }

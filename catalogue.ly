@@ -56,7 +56,7 @@
 
         ("Le Bourgeois Gentilhomme"
         #:description "Comédie ballet de Molière et Lully, 1670."
-        #:key "Lully/Ballet/LWV43LeBourgeoisGentilhomme"
+        #:key "Lully/Comedie/LWV43LeBourgeoisGentilhomme"
         #:opus "LWV-43"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=7"
         #:main ((#f "Conducteur")

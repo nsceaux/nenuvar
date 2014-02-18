@@ -6,65 +6,63 @@
   date = "1670"
 }
 
-%% Staff size:
-%%  16 for lead sheets
-%%  18 for instruments
+#(ly:set-option 'ancient-style (eqv? (ly:get-option 'urtext) #t))
+#(ly:set-option 'ancient-alteration #f)
+#(ly:set-option 'original-layout
+                (and (eqv? (ly:get-option 'urtext) #t)
+                     (not (symbol? (ly:get-option 'part)))))
+#(ly:set-option 'non-incipit (symbol? (ly:get-option 'part)))
+#(ly:set-option 'apply-vertical-tweaks (not (symbol? (ly:get-option 'part))))
+
+%% use baroque style repeats
+#(ly:set-option 'baroque-repeats #f)
+%% No key signature modification
+#(ly:set-option 'forbid-key-modification #t)
+%% Use rehearsal numbers
+#(ly:set-option 'use-rehearsal-numbers #t)
+%% Use tremolo in separate parts
+#(ly:set-option 'use-tremolo-repeat #f)
+%% Staff size
 #(set-global-staff-size
-  (cond ((eqv? #f (ly:get-option 'part)) 16)
+  (cond ((eqv? (ly:get-option 'urtext) #t) 14)
+        ((not (symbol? (ly:get-option 'part))) 16)
+        ((memq (ly:get-option 'part) '(basse-continue)) 16)
         (else 18)))
 
 %% Line/page breaking algorithm
-%%  minimal for lead sheets with text (with optimal override in
-%%  intermedes)
-%%  page-turn for instrumental parts
+%%  optimal   for lead sheets
+%%  page-turn for instruments and vocal parts
 \paper {
   #(define page-breaking (if (eqv? (ly:get-option 'part) #f)
                              ly:minimal-breaking
                              ly:page-turn-breaking))
 }
 
-%% Use rehearsal numbers in parts
-#(if (symbol? (ly:get-option 'part))
-     (ly:set-option 'use-rehearsal-numbers #t))
-
-%% No incipits for parts
-#(ly:set-option 'non-incipit (not (not (ly:get-option 'part))))
+\layout { reference-incipit-width = #(* 1/2 mm) }
 
 \include "italiano.ly"
 \include "common/common.ily"
+\include "common/columns.ily"
+\include "common/toc-columns.ily"
 \setOpus "Lully/Comedie/LWV43LeBourgeoisGentilhomme"
 \opusTitle "Le Bourgeois Gentilhomme"
 
+\layout {
+  indent = \smallindent
+  short-indent = 0
+  ragged-last = #(and (eqv? (ly:get-option 'urtext) #t)
+                      (not (symbol? (ly:get-option 'part))))
+}
+
 
 \opusPartSpecs
-#`((dessus1 "Dessus I" () (#:notes "dessus" #:tag-notes dessus1))
-   (dessus2 "Dessus II" () (#:notes "dessus" #:tag-notes dessus2))
-   (haute-contre "Haute-contre" () (#:notes "haute-contre"))
+#`((dessus "Dessus" () (#:notes "dessus"))
+   (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
    (taille "Taille" () (#:notes "taille" #:clef "alto"))
    (quinte "Quinte" () (#:notes "quinte" #:clef "alto"))
    (basse "Basses" () (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
 %%%
-
-\paper {
-  tocPieceMarkup = \markup \fill-line {
-    \line-width-ratio #0.7 \fill-line {
-      \line { \fromproperty #'toc:text }
-      \fromproperty #'toc:page
-    }
-  }
-  tocSceneMarkup = \markup \fill-line {
-    \line-width-ratio #0.7 \fill-line {
-      \bold \line { \fromproperty #'toc:text }
-      \fromproperty #'toc:page
-    }
-  }
-  tocActMarkup = \markup \large \italic \column {
-    \vspace #1
-    \fontsize #2 \fill-line { \fromproperty #'toc:text }
-    \vspace #1
-  }
-}
 
 #(define-markup-list-command (didascalie layout props args) (markup-list?)
    (map (lambda (stil)
