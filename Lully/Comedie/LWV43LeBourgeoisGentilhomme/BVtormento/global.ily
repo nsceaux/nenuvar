@@ -1,6 +1,6 @@
 \oldKey re \minor
 \newKey sol \minor
-\midiTempo #108 \fractionTime \time 2/2
+\midiTempo #108 \digitTime \time 2/2
 s1*14 
 \alternatives s1 { \time 3/4 s2. }
 s2. \bar ".|:" s2.*27
