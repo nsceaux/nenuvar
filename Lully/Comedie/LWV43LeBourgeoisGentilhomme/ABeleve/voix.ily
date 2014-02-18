@@ -1,4 +1,4 @@
-s1*0^\markup \character "L'élève du maître de musique" R1*2 |
+\clef "vbas-dessus" R1*2 |
 r4 re''4 re''4 ( dod''4 )|
 re''2 r2 |
 R1 |
@@ -41,12 +41,12 @@ la'2 r2 |
 r2 r4 mi''8[ si'8] |
 do''2. do''8 do''8 |
 re''4. mi''8 sold'4. fad'16[ sold'16] |
-la'4. si'8 si'4. la'8 |
+la'4. si'?8 si'4. la'8 |
 la'2 r2 |
 r2 r4 mi''8[ si'8] |
 do''2 r2 |
 R1 |
-r4 r8 sib'8 sib'4. la'8 |
+r4 r8 si'?8 si'4. la'8 |
 la'2 r4 r8 fa'8 |
 fa'4. sol'8 la'4 sol'8 fa'8 |
 do''2. r8 fa'8 |

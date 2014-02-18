@@ -59,11 +59,10 @@
         #:key "Lully/Comedie/LWV43LeBourgeoisGentilhomme"
         #:opus "LWV-43"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=7"
-        #:main ((#f "Conducteur")
-                (concert #f #:options "-d use-rehearsal-numbers"
-                           #:score-file "main-rehearsal-short.ly"))
-        #:parts ((dessus1 "Dessus I")
-                 (dessus2 "Dessus II")
+        #:main ((#f "Livre complet")
+                (conducteur "Conducteur"
+                            #:score-file "main-rehearsal-short.ly"))
+        #:parts ((dessus "Dessus")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
                  (quinte "Quinte")

@@ -212,30 +212,24 @@ Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee-all: \
 .PHONY: Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee-delivery Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee-clean Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee-all
 
 ### Le Bourgeois Gentilhomme
-# Conducteur
+# Livre complet
 Lully/Comedie/LWV43LeBourgeoisGentilhomme:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme  \
 	Lully/Comedie/LWV43LeBourgeoisGentilhomme/main.ly
 .PHONY: Lully/Comedie/LWV43LeBourgeoisGentilhomme
-# concert
-Lully/Comedie/LWV43LeBourgeoisGentilhomme-concert:
+# Conducteur
+Lully/Comedie/LWV43LeBourgeoisGentilhomme-conducteur:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-concert -d use-rehearsal-numbers \
+	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-conducteur  \
 	Lully/Comedie/LWV43LeBourgeoisGentilhomme/main-rehearsal-short.ly
-.PHONY: Lully/Comedie/LWV43LeBourgeoisGentilhomme-concert
-# Dessus I
-Lully/Comedie/LWV43LeBourgeoisGentilhomme-dessus1:
+.PHONY: Lully/Comedie/LWV43LeBourgeoisGentilhomme-conducteur
+# Dessus
+Lully/Comedie/LWV43LeBourgeoisGentilhomme-dessus:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus1 -dpart=dessus1  \
+	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus -dpart=dessus  \
 	Lully/Comedie/LWV43LeBourgeoisGentilhomme/part.ly
-.PHONY: Lully/Comedie/LWV43LeBourgeoisGentilhomme-dessus1
-# Dessus II
-Lully/Comedie/LWV43LeBourgeoisGentilhomme-dessus2:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus2 -dpart=dessus2  \
-	Lully/Comedie/LWV43LeBourgeoisGentilhomme/part.ly
-.PHONY: Lully/Comedie/LWV43LeBourgeoisGentilhomme-dessus2
+.PHONY: Lully/Comedie/LWV43LeBourgeoisGentilhomme-dessus
 # Haute-contre
 Lully/Comedie/LWV43LeBourgeoisGentilhomme-haute-contre:
 	$(LILYPOND_CMD) \
@@ -264,9 +258,8 @@ Lully/Comedie/LWV43LeBourgeoisGentilhomme-basse:
 Lully/Comedie/LWV43LeBourgeoisGentilhomme-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme
 	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
-	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-concert.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
-	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus1.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus1.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
-	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus2.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus2.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
+	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-conducteur.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-conducteur.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
+	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-dessus.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
 	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
 	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-taille.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
 	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-quinte.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-quinte.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
@@ -279,9 +272,8 @@ Lully/Comedie/LWV43LeBourgeoisGentilhomme-clean:
 
 Lully/Comedie/LWV43LeBourgeoisGentilhomme-all: \
 	Lully/Comedie/LWV43LeBourgeoisGentilhomme \
-	Lully/Comedie/LWV43LeBourgeoisGentilhomme-concert \
-	Lully/Comedie/LWV43LeBourgeoisGentilhomme-dessus1 \
-	Lully/Comedie/LWV43LeBourgeoisGentilhomme-dessus2 \
+	Lully/Comedie/LWV43LeBourgeoisGentilhomme-conducteur \
+	Lully/Comedie/LWV43LeBourgeoisGentilhomme-dessus \
 	Lully/Comedie/LWV43LeBourgeoisGentilhomme-haute-contre \
 	Lully/Comedie/LWV43LeBourgeoisGentilhomme-taille \
 	Lully/Comedie/LWV43LeBourgeoisGentilhomme-quinte \
