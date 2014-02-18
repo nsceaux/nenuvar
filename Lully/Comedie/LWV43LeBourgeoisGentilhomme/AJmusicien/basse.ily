@@ -1,4 +1,4 @@
-re1 |
+\clef "basse" re1 |
 dod1 |
 re2 si,2 |
 la,2 fad,2 |

@@ -1,4 +1,4 @@
-r2^\markup \character "Deuxième musicien" la8 la16 sol16 fad8 mi16 [ re16 ]|
+\clef "vtaille" r2 la8 la16 sol16 fad8 mi16 [ re16 ]|
 la4 r16 mi16 mi16 fad16 sol4 ( fad8 ) sol8 |
 fad4 r16 la16 la16 la16 si8 si16 dod'16 re'16 re'16 [ dod'16 ] re'16 |
 dod'4 mi'4 ~ mi'8. la16 la16 la16 [ sold16 ] la16 |

@@ -1,21 +1,39 @@
 \score {
   \new StaffGroupNoBar <<
     \new GrandStaff <<
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus2" >>
+      \new Staff << \global \includeNotes "dessus1" >>
+      \new Staff << \global \includeNotes "dessus2" >>
     >>
     \new ChoirStaff <<
       \new Staff \withLyrics <<
-        \global \clef "vbas-dessus" \includeNotes "bas-dessus"
-      >>  \includeLyrics "paroles1"
+        \global \keepWithTag #'vdessus \includeNotes "voix"
+      >>  \keepWithTag #'vdessus \includeLyrics "paroles"
       \new Staff \withLyrics <<
-        \global \clef "vpetite-haute-contre" \includeNotes "petite-haute-contre"
-      >>  \includeLyrics "paroles2"
+        \global \keepWithTag #'vhaute-contre \includeNotes "voix"
+      >>  \keepWithTag #'vhaute-contre \includeLyrics "paroles"
       \new Staff \withLyrics <<
-        \global \clef "basse" \includeNotes "voix-basse"
-      >> \includeLyrics "paroles3"
+        \global \keepWithTag #'vbasse \includeNotes "voix"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout {
+        s1.*8\pageBreak
+        s1.*6\break s1.*6\pageBreak
+        s1.*6\break s1.*6\pageBreak
+        s1.*4 s1 s1.\break s1.*6\pageBreak
+        s1.*4 s1*2\break s1 s1.*5\pageBreak
+        s1.*6\break s1.*6\pageBreak
+        s1.*6\break s1.*7\pageBreak
+        s1.*6\break s1.*6\pageBreak
+        s1.*6\break s1.*6\pageBreak
+        s1.*6\break s1.*6\pageBreak
+        s1.*6\break s1.*6\pageBreak
+        s1.*6\break s1.*6\pageBreak
+        s1.*6\break s1.*6\pageBreak
+        s1.*6\break
+      }
+    >>
   >>
   \layout { }
   \midi { }

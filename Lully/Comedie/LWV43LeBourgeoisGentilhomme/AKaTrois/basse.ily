@@ -1,4 +1,4 @@
-re1 re2 |
+\clef "basse" re1 re2 |
 la2 re'2 re2 |
 sol2. sol4 do'2 |
 fa2 sib1 |
@@ -101,7 +101,7 @@ re2 re'1 |
 do'1 re'2 |
 sib1. |
 la1 sol2 |
-fa1. |
+fa1. | \allowPageTurn
 mi1 re2 |
 la2 la,1 |
 re2 re'1 |

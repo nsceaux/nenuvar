@@ -60,7 +60,8 @@
    (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
    (taille "Taille" () (#:notes "taille" #:clef "alto"))
    (quinte "Quinte" () (#:notes "quinte" #:clef "alto"))
-   (basse "Basses" () (#:notes "basse" #:clef "basse" #:tag-notes basse)))
+   (basse "Basses et basse continue" ()
+          (#:notes "basse" #:clef "basse" #:tag-notes basse)))
 
 %%%
 

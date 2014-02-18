@@ -1,4 +1,3 @@
 \piecePartSpecs
-#`((voix)
-   (basse #:score "score-basse")
-   (silence #:on-the-fly-markup , #{ \markup\lyrics { \tacet #30 } #}))
+#`((basse #:score-template "score-basse-voix")
+   (silence #:on-the-fly-markup , #{ \markup\lyrics { \tacet #15 } #}))
