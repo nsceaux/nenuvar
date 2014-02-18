@@ -1,1 +1,0 @@
-R1.*8\noBreak R1.\noBreak R1.\noBreak R1.*14\noBreak R1.\noBreak R1.

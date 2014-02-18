@@ -1,6 +1,5 @@
 \piecePartSpecs
-#`((dessus1 #:notes "dessus1")
-   (dessus2 #:notes "dessus2")
+#`((dessus #:score "score-dessus")
    (basse)
-   (silence #:on-the-fly-markup , #{ \markup\lyrics { \tacet #7 } #}))
+   (silence #:on-the-fly-markup , #{ \markup\lyrics { \tacet #8 } #}))
   

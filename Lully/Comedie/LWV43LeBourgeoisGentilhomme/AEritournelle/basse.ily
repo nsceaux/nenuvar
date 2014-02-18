@@ -1,4 +1,4 @@
-re8 |
+\clef "basse" re8 |
 re4 re'4. re'8 |
 re'4 dod'2 |
 re'4 re2 |

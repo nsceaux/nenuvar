@@ -1,8 +1,13 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \global \clef "dessus" \includeNotes "dessus1" >>
-    \new Staff << \global \clef "dessus" \includeNotes "dessus2" >>
-    \new Staff << \global \clef "basse" \includeNotes "basse" >>
+    \new GrandStaff <<
+      \new Staff << \global \includeNotes "dessus1" >>
+      \new Staff << \global \includeNotes "dessus2" >>
+    >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout { s1.*8\break }
+    >>
   >>
   \layout { }
   \midi { }

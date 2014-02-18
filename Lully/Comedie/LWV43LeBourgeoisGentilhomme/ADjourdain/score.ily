@@ -1,6 +1,8 @@
 \score {
   \new Staff \withLyrics <<
-    \global \clef "vhaute-contre" \includeNotes "haute-contre"
+    \origLayout { s2.*7\break s2.*8\break }
+    <>^\markup { \smallCaps "Monsieur Jourdain" chante }
+    \global \includeNotes "voix"
   >> \includeLyrics "paroles"
   \layout { }
   \midi { }

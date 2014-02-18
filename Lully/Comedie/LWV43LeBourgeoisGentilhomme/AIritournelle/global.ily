@@ -1,3 +1,1 @@
-\keys re \major
-\midiTempo #120 \time 4/4
-s1*7
+\key re \major \midiTempo #112 \time 4/4 s1*7

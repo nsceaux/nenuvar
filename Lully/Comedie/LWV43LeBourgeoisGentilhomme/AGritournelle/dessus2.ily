@@ -1,4 +1,4 @@
-R1.*4 |
+\clef "dessus" R1.*4 |
 r1 fa''4. fa''8 |
 fa''2 mi''2. mi''4 |
 mi''2 re''2. re''4 |

@@ -119,7 +119,7 @@ staffStart =
                         (basse bass . bass)
                         (vdessus treble . treble)
                         (vbas-dessus soprano . treble)
-                        (vpetite-haute-contre mezzosoprano . treble)
+                        (vpetite-haute-contre mezzosoprano . G_8)
                         (vhaute-contre alto . G_8)
                         (vtaille tenor . G_8)
                         (vbasse-taille varbaritone . bass)

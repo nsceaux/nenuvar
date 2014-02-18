@@ -1,4 +1,4 @@
-re1 re'2 ~|
+\clef "basse" re1 re'2 ~|
 re'2 dod'2 do'2 |
 si2 sib1 |
 la2 la,1 |
@@ -23,4 +23,5 @@ sol1. |
 la1 dod2 |
 re4 sol,4 la,1 |
 re,2 re2 mi2 |
+fa1 fa,2
 re,1. |

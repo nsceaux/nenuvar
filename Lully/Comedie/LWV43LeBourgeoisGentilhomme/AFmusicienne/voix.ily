@@ -1,4 +1,4 @@
-r2^\markup \character "Musicienne" r8 la'8  |
+\clef "vbas-dessus" r2 r8 la'8  |
 la'4. la'8 si'8 dod''8  |
 re''2  ( dod''8.  ) re''16  |
 dod''4 dod''4 r4  |
