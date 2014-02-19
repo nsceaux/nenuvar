@@ -1,4 +1,4 @@
-sib'2 la'2 |
+\clef "haute-contre" sib'2 la'2 |
 sol'2. sib'4 |
 sib'4. do''8 la'4 la'8 sib'8 |
 do''4 la'4 sib'2 |

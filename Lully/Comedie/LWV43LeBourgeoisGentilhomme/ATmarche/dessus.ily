@@ -1,4 +1,4 @@
-re''2 re''2 |
+\clef "dessus" re''2 re''2 |
 sib'4. la'8 sol'4 sol''4 |
 re''4. mi''8 fa''4 fa''4 |
 fa''2 re''4. do''16 re''16 |

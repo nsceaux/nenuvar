@@ -1,12 +1,13 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new Staff <<
       \context Voice <<
         \global \clef "vbasse"
-        s1*0^\markup \character \line { Le mufti parlant aux Turcs de la suite }
-        \hideNotes \notemode {
-          sol8 sol8 sol8 sol8 sol2 
-          sol8 sol8 sol8 sol8 sol2 
+        \origLayout { s1*7\break s1*8\pageBreak s1*3 s1.*4\break }
+        <>^\markup\italic { Le mufti parlant aux Turcs de la suitte }
+        \hideNotes\notemode {
+          sol8 sol8 sol8 sol8 sol2 |
+          sol8 sol8 sol8 sol8 sol2 |
           sol8 sol8 sol8 sol8 sol2 |
           sol8 sol8 sol8 sol8 sol2 |
           %% 5
@@ -22,14 +23,13 @@
           sol2 sol8 sol8 sol16 sol16 sol16 sol16 |
           sol2 sol8 sol8 sol16 sol16 sol16 sol16 |
           %% 15
-          s1 |
-          sol8 sol8 sol8 sol8 sol8 sol8 sol8 sol8 |
-          sol8 sol8 sol8 sol8 sol2 |
-          s1
-          s2 sol4 sol4 |
-          %% 20
-          sol2 sol16 sol16 sol16 sol16 sol16 sol16 sol16 sol16 |
-          sol16 sol16 sol16 sol16 sol16 sol16 sol16 sol16 sol1 |
+          sol2 sol8 sol8 sol16 sol16 sol16 sol16 |
+          sol4 sol16 sol16 sol16 sol16
+          sol16 sol16 sol16 sol16 sol16 sol16 sol16 sol16 |
+          sol1 |
+          sol2 sol8 sol8 sol8 sol8 |
+          sol16 sol16 sol16 sol16 sol16 sol16 sol16 sol16
+          sol16 sol16 sol16 sol16 sol2. |
         }
       >>
       \new Lyrics {
@@ -38,16 +38,16 @@
       }
     >>
     \new Staff \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "haute-contre"
+      \global \includeNotes "voix-haute-contre"
     >>  \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vtaille" \includeNotes "taille1"
+      \global \includeNotes "voix-taille1"
     >>  \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vtaille" \includeNotes "taille2"
+      \global \includeNotes "voix-taille2"
     >>  \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "basse"
+      \global \includeNotes "voix-basse"
     >> \includeLyrics "paroles"
   >>
   \layout { }

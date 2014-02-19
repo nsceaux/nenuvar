@@ -1,4 +1,4 @@
-r2 sib'8 do''8 |
+\clef "dessus" r2 sib'8 do''8 |
 re''4. do''8 sib'4 |
 do''4 la'4 re''4 |
 re''4. mib''8 do''4 |

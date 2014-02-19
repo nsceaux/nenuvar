@@ -1,4 +1,4 @@
-r2 r4 si4 |
+\clef "vtaille" r2 r4 si4 |
 si2 r4 si4 |
 si2 r4 si4 |
 si2 r4 si4 |

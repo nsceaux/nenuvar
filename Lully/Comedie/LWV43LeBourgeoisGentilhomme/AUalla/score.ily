@@ -1,16 +1,18 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new Staff \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "haute-contre"
+      <>^\markup\italic { Tous a genoux }
+      \global \includeNotes "voix-haute-contre"
     >> \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vtaille" \includeNotes "taille1"
+      \global \includeNotes "voix-taille1"
     >> \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vtaille" \includeNotes "taille2"
+      \global \includeNotes "voix-taille2"
     >> \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "basse"
+      \global \includeNotes "voix-basse"
+      \origLayout { s1*6\break }
     >> \includeLyrics "paroles"
   >>
   \layout { }

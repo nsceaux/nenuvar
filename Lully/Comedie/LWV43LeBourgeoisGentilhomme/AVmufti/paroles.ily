@@ -1,11 +1,26 @@
-Se ti sa -- bir
-ti res -- pon -- dir
-se ti sa -- bir
-ti res -- pon -- dir
-ti res -- pon -- "dir ;"
+\tag #'(couplet1 basse) {
+  Se ti sa -- bir
+  Ti res -- pon -- dir
+  Se ti sa -- bir
+  Ti res -- pon -- dir
+  Ti res -- pon -- dir ;
 
-se non sa -- bir
-ta -- zir ta -- zir
-se non sa -- bir
-ta -- zir ta -- zir
-ta -- zir ta -- zir.
+  Se non sa -- bir
+  Ta -- zir, ta -- zir
+  Se non sa -- bir
+  Ta -- zir, ta -- zir
+  Ta -- zir, ta -- zir.
+}
+\tag #'couplet2 {
+  Mi star Muf -- ti
+  Ti qui star ti
+  Mi star Muf -- ti
+  Ti qui star ti
+  Ti qui star ti ?
+
+  Non in -- ten -- dir
+  Ta -- zir ta -- zir
+  Non in -- ten -- dir
+  Ta -- zir ta -- zir
+  Ta -- zir ta -- zir.
+}
