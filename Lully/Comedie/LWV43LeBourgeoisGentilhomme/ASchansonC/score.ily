@@ -1,15 +1,18 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "haute-contre"
-    >>  \includeLyrics "haute-contre-paroles"
+      \global \includeNotes "voix"
+    >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
     \new Staff \withLyrics << 
-      \global \clef "vtaille" \includeNotes "taille"
-    >>  \includeLyrics "taille-paroles"
+      \global \includeNotes "voix-taille"
+    >>  \keepWithTag #'vtaille \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "voix-basse"
-    >> \includeLyrics "basse-paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse" >>
+      \global \includeNotes "voix-basse"
+    >> \keepWithTag #'vbasse \includeLyrics "paroles"
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout { s1*7\break s1*7\break }
+    >>
   >>
   \layout { indent = \noindent }
   \midi { }

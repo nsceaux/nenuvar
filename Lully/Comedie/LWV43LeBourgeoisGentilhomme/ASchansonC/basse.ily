@@ -1,4 +1,4 @@
-sol,2. sol4 |
+\clef "basse" sol,2. sol4 |
 re'4 re4 sol2 |
 do2 re2 |
 mi2. mi4 |

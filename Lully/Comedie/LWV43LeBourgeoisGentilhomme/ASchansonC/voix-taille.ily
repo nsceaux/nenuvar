@@ -1,4 +1,4 @@
-r2 r4 sol4 |
+\clef "vtaille" r2 r4 sol4 |
 re'4 re'4 si4 si4 |
 do'4 do'4 si4. la8 |
 sol2. sol4 |

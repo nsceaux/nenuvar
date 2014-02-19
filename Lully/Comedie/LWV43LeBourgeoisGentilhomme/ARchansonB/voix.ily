@@ -1,4 +1,4 @@
-r2 r4 r8 re'8 |
+\clef "vtaille" r2 r4 r8 re'8 |
 re'1 |
 mi'4 mi'4 re'4. do'8 |
 si2. si4 |

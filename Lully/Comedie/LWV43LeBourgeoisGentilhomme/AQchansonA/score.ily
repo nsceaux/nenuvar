@@ -1,20 +1,30 @@
 \score {
-  \new StaffGroupNoBar <<
-    << 
+  \new ChoirStaff <<
+    \new Staff << 
       \context Voice = "haute-contre" \with { autoBeaming = ##f } <<
-        \global \clef "vhaute-contre" \includeNotes "haute-contre"
+        \global \includeNotes "voix"
       >>
-      \lyricsto "haute-contre" \new Lyrics \includeLyrics "haute-contre-paroles1"
-      \lyricsto "haute-contre" \new Lyrics \includeLyrics "haute-contre-paroles2"
+      \lyricsto "haute-contre" \new Lyrics
+      \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+      \lyricsto "haute-contre" \new Lyrics
+      \keepWithTag #'couplet2 \includeLyrics "paroles"
     >>
-    << 
+    \new Staff << 
       \context Voice = "basse" \with { autoBeaming = ##f } << 
-        \global \clef "vbasse" \includeNotes "voix-basse"
+        \global \includeNotes "voix-basse"
       >>
-      \lyricsto "basse" \new Lyrics \includeLyrics "basse-paroles1"
-      \lyricsto "basse" \new Lyrics \includeLyrics "basse-paroles2"
+      \lyricsto "basse" \new Lyrics
+      \keepWithTag #'vbasse \includeLyrics "paroles"
+      \lyricsto "basse" \new Lyrics
+      \keepWithTag #'couplet2 \includeLyrics "paroles"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse" >> 
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout {
+        s1*8\break
+        s1*7\break s1 s2.*8\break s2.*9\break
+      }
+    >> 
   >>
   \layout { }
   \midi { }

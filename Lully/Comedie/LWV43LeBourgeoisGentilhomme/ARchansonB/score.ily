@@ -1,20 +1,27 @@
 \score {
   \new StaffGroupNoBar <<
-    << 
+    \new Staff << 
       \context Voice = "taille" \with { autoBeaming = ##f } <<
-        \global \clef "vtaille" \includeNotes "taille"
+        \global \includeNotes "voix"
       >>
-      \lyricsto "taille" \new Lyrics \includeLyrics "taille-paroles1"
-      \lyricsto "taille" \new Lyrics \includeLyrics "taille-paroles2"
+      \lyricsto "taille" \new Lyrics
+      \keepWithTag #'vtaille \includeLyrics "paroles"
+      \lyricsto "taille" \new Lyrics
+      \keepWithTag #'vtaille2 \includeLyrics "paroles"
     >>
     << 
       \context Voice = "basse" \with { autoBeaming = ##f } << 
-        \global \clef "vbasse" \includeNotes "voix-basse"
+        \global \includeNotes "voix-basse"
       >>
-      \lyricsto "basse" \new Lyrics \includeLyrics "basse-paroles1"
-      \lyricsto "basse" \new Lyrics \includeLyrics "basse-paroles2"
+      \lyricsto "basse" \new Lyrics
+      \keepWithTag #'vbasse \includeLyrics "paroles"
+      \lyricsto "basse" \new Lyrics
+      \keepWithTag #'vbasse2 \includeLyrics "paroles"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse" >> 
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout { s1*7\break s1*7\break s1*6\break }
+    >> 
   >>
   \layout { }
   \midi { }
