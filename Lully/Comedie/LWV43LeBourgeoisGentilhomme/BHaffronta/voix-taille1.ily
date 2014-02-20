@@ -1,4 +1,4 @@
-R2.*8 |
+\clef "vtaille" R2.*8 |
 re'4 re'4 re'4 |
 re'2 re'4 |
 si4 si4 si4 |

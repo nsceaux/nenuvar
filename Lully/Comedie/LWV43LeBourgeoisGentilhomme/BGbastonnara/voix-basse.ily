@@ -1,6 +1,6 @@
-r2. |
+\clef "vbasse" r2*3/2 |
 R1.*3 |
-r2. r4 sol4 sol4 |
+r2*3/2 r4 sol4 sol4 |
 re2 re4 r4 re4 re4 |
 mi2 mi4 r4 si,4 si,4 |
 do2 si,4 la,2 sol,4 |

@@ -1,4 +1,4 @@
-si4 si4 sol4 |
+\clef "vbasse" si4 si4 sol4 |
 re'2 re'4 |
 sol4 mi4 la4 |
 fad2 fad4 |

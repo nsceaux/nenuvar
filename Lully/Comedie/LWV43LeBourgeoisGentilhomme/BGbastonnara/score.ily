@@ -1,22 +1,24 @@
 \score {
   \new StaffGroupNoBar <<
-    \newHaraKiriStaffB \withLyrics << 
-      \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-    >>  \includeLyrics "paroles"
-    \newHaraKiriStaffB \withLyrics << 
-      \global \clef "vtaille" \includeNotes "voix-taille1"
-    >>  \includeLyrics "paroles"
-    \newHaraKiriStaffB \withLyrics << 
-      \global \clef "vtaille" \includeNotes "voix-taille2"
-    >>  \includeLyrics "paroles"
-    \newHaraKiriStaffB \withLyrics << 
-      \global \clef "vbasse" \includeNotes "voix-basse"
-    >>  \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics << 
+      \global \includeNotes "voix-haute-contre"
+    >> \keepWithTag #'turcs \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics << 
+      \global \includeNotes "voix-taille1"
+    >> \keepWithTag #'turcs \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics << 
+      \global \includeNotes "voix-taille2"
+    >> \keepWithTag #'turcs \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics << 
+      \global \includeNotes "voix-basse"
+    >> \keepWithTag #'turcs \includeLyrics "paroles"
     \new Staff \withLyrics << 
-      { s2. s1.*3 \break }
-      \global \clef "vbasse" \includeNotes "mufti"
-    >>  \includeLyrics "paroles-mufti"
-    \new Staff << \global \clef "basse" \includeNotes "basse" >> 
+      \global \includeNotes "voix"
+    >> \keepWithTag #'mufti \includeLyrics "paroles"
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout { s2. s1.*5\break }
+    >>
   >>
   \layout { }
   \midi { }
