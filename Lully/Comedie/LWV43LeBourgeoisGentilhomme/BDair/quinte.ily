@@ -1,4 +1,4 @@
-si4 si4 si4 |
+\clef "quinte" si4 si4 si4 |
 la2 si4 |
 si2 sol4 ~|
 sol4 la2 |

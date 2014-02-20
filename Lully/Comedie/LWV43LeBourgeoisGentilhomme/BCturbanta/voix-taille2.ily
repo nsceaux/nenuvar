@@ -1,4 +1,4 @@
-R1. |
+\clef "vtaille" R1. |
 sol2 sol2 sol2 |
 R1. |
 la2 la2 la2 |

@@ -1,21 +1,24 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new Staff \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-    >>  \includeLyrics "paroles"
+      \global \includeNotes "voix-haute-contre"
+    >> \keepWithTag #'turcs \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vtaille" \includeNotes "voix-taille1"
-    >>  \includeLyrics "paroles"
+      \global \includeNotes "voix-taille1"
+    >> \keepWithTag #'turcs \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vtaille" \includeNotes "voix-taille2"
-    >>  \includeLyrics "paroles"
+      \global \includeNotes "voix-taille2"
+    >> \keepWithTag #'turcs \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "voix-basse"
-    >>  \includeLyrics "paroles"
+      \global \includeNotes "voix-basse"
+    >> \keepWithTag #'turcs \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "mufti"
-    >>  \includeLyrics "paroles-mufti"
-    \new Staff << \global \clef "basse" \includeNotes "basse" >> 
+      \global \includeNotes "voix"
+    >> \keepWithTag #'mufti \includeLyrics "paroles"
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout { s1.*6\break s1.*5\break s1.*5\pageBreak }
+    >>
   >>
   \layout { }
   \midi { }

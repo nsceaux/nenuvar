@@ -1,4 +1,4 @@
-si4 si8 do'8 re'4 |
+\clef "taille" si4 si8 do'8 re'4 |
 re'2 re'4 |
 re'2 mi'4 ~|
 mi'4 mi'2 |

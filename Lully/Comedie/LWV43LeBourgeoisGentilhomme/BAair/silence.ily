@@ -1,1 +1,0 @@
-r4.\noBreak r2.\noBreak R1.*16\noBreak r4.\noBreak R1.

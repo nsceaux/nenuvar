@@ -1,4 +1,4 @@
-sol'4 sol'8 la'8 si'8 do''8 |
+\clef "dessus" sol'4 sol'8 la'8 si'8 do''8 |
 re''4. do''8 si'4 |
 sol''2 mi''4 ~|
 mi''4 la''2 |

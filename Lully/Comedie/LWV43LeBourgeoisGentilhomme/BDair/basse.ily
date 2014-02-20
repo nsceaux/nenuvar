@@ -1,4 +1,4 @@
-sol4 sol4 sol4 |
+\clef "basse" sol4 sol4 sol4 |
 fad2 sol4 |
 si,2 do4 ~|
 do4 la,2 %{sol,2%} |
