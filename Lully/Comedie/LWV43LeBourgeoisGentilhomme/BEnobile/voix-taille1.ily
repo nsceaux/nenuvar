@@ -1,5 +1,5 @@
-R1.*9 |
-r2. re'4 si2 |
+\clef "vtaille" R1.*9 |
+r2*3/2 re'4 si2 |
 do'4. do'8 do'4 mi'4 re'2 |
 si4. si8 si4 si4 re'2 |
 do'4. do'8 do'4 do'4 la2 |

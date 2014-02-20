@@ -1,5 +1,5 @@
-R1.*9 |
-r2. sol4 sol2 |
+\clef "vbasse" R1.*9 |
+r2*3/2 sol4 sol2 |
 do4. do8 do4 do4 re2 |
 mi4. mi8 mi4 mi4 si,2 |
 do4. do8 do4 la,4 re2 |

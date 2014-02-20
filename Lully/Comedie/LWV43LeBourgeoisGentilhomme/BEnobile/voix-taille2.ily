@@ -1,5 +1,5 @@
-R1.*9 |
-r2. si4 sol2 |
+\clef "vtaille" R1.*9 |
+r2*3/2 si4 sol2 |
 sol4. sol8 sol4 do'4 la2 |
 sol4. sol8 sol4 sol4 sol2 |
 sol4. sol8 mi4 mi4 re2 |

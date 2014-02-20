@@ -1,5 +1,5 @@
-R1.*9 |
-r2. sol'4 re'2 |
+\clef "vhaute-contre" R1.*9 |
+r2*3/2 sol'4 re'2 |
 mi'4. mi'8 mi'4 mi'4 fad'2 |
 sol'4. sol'8 sol'4 sol'4 fa'2 |
 mi'4. mi'8 mi'4 la'4 fad'2 |
