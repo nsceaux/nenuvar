@@ -1,7 +1,7 @@
 \keys sol \major
 \midiTempo #144 \digitTime \time 2/2
 \partial 8 s8 s1*20
-\midiTempo #80 \time 4/4 s1*13
+\midiTempo #80 \time 4/4 s4 \endMark "[Fin]" s2. s1*12
 \digitTime \time 2/2 s1*7
 \time 4/4 s1*9
 \digitTime \time 2/2 s1*13
@@ -20,5 +20,6 @@
 \midiTempo #80 \digitTime \time 2/2 s1*1
 \midiTempo #160 \digitTime\time 3/4 s2.*10
 \midiTempo #80 \digitTime \time 2/2 s1*20
-\digitTime \time 2/2 s1*22 \bar "|."
+\digitTime \time 2/2 s2. \bar "|."
+\endMark\markup { On reprend le chœur : \normal-text { A moy, Monsieur } }
 

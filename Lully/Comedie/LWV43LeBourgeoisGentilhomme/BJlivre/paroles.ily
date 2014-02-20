@@ -1,161 +1,213 @@
+\tag #'(vdessus vhaute-contre vtaille vbasse) {
+  A moy, \tag #'(vhaute-contre vbasse) { a moy, }
+  Mon -- sieur, à moy de grace, à moy Mon -- sieur,
+  Un Li -- vre, s’il vous plaist, à vos -- tre Ser -- vi -- teur.
+  A moy,
+  \tag #'vhaute-contre { à moy, Mon -- sieur, }
+  \tag #'vdessus { à moy, à moy, à moy, Mon -- sieur, }
+  \tag #'vtaille { Mon -- sieur, }
+  à moy de grace, à moy Mon -- sieur,
+  \tag #'vbasse { de grace, à moy Mon -- sieur, }
+  \tag #'vtaille { à moy, à moy, }
+  \tag #'vhaute-contre { Un Li -- vre, }
+  Un Li -- vre, s’il vous plaist, à vos -- tre Ser -- vi -- teur.
+  \tag #'vdessus { A moy, Mon -- sieur, }
+  A moy,
+  \tag #'vbasse { Mon -- sieur, à moy }
+  \tag #'vtaille { à moy, à moy, à moy }
+  de grace, à moy Mon -- sieur,
+  Un Li -- vre, s’il vous plaist,
+  \tag #'(vhaute-contre vtaille) { s’il vous plaist, }
+  à vos -- tre Ser -- vi -- teur.
+  de grace, à moy, Mon -- sieur
+  \tag #'vhaute-contre { de grace, à moy, Mon -- sieur }
+  \tag #'(vdessus vtaille vbasse) {
+    Un Li -- vre, s’il vous plaist, à vos -- tre Ser -- vi -- teur.
+  }
+  A moy, \tag #'vhaute-contre { à moy, }
+  \tag #'(vdessus vhaute-contre vbasse) { Mon -- sieur, à moy }
+  de grace, à moy Mon -- sieur,
+  Un Li -- vre, s’il vous plaist,
+  \tag #'(vhaute-contre vtaille) { s’il vous plaist, }
+  à vos -- tre Ser -- vi -- teur.
+}
 %% HOMME DU BEL AIR
-Mon -- sieur dis -- tin -- guez- nous par -- mi les gens qui cri -- ent
-quel -- ques li -- vres i -- ci les da -- mes vous en pri -- ent.
-
+\tag #'(vtaille basse) {
+  Mon -- sieur, dis -- tin -- guez- nous par -- my les Gens qui cri -- ent.
+  Quel -- ques Li -- vres i -- cy, les Da -- mes vous en pri -- ent.
+}
 %% AUTRE HOMME DU BEL AIR
-Ho -- là mon -- sieur mon -- sieur ay -- ez la cha -- ri -- té
-d'en je -- ter de no -- tre cô -- té.
-
+\tag #'(vtaille2 basse) {
+  Ho -- la Mon -- sieur, Mon -- sieur, ay -- ez la cha -- ri -- té
+  D’en jet -- ter de nos -- tre cos -- té.
+}
 %% FEMME DU BEL AIR
-Mon Dieu qu'aux per -- son -- nes bien fai -- tes
-on sait peu rendre hon -- neur cé -- ans.
-
+\tag #'(vdessus basse) {
+  Mon Dieu qu’aux Per -- son -- nes bien fai -- tes,
+  On sçait peu rendre hon -- neur ce -- ans.
+}
 %% AUTRE FEMME DU BEL AIR
-Ils n'ont des li -- vres et des bancs
-que pour mes -- da -- mes les gri -- set -- tes.
-
+\tag #'(vbas-dessus basse) {
+  Ils n’ont des Li -- vres et des Bancs
+  Que pour Mes -- da -- mes les Gri -- set -- tes.
+}
 %% GASCON
-A -- ho l'homme aux li -- bres qu'on m'en vail -- le
-j'ai dé -- jà lé po -- umon u -- sé
-bous bo -- yez qué cha -- cun mé rail -- le
-et jé suis es -- can -- da -- li -- sé
-de boir és mains dé la ca -- nail -- le
-cé qui m'est par bous re -- fu -- sé.
-
+\tag #'(vtaille basse) {
+  A -- ho ! l’Homme aux Li -- bres, qu’on m’en vail -- le,
+  J’ay dé -- ja le po -- umon u -- sé,
+  Bous bo -- yez que cha -- cun mé rail -- le,
+  Et jé suis es -- can -- da -- li -- sé
+  De boir és mains de la Ca -- nail -- le
+  Ce qui m’est par bous re -- fu -- sé.
+}
 %% AUTRE GASCON
-Eh ca -- dé -- dis mon -- seu boy -- ez qui l'on pût ê -- tre
-un li -- bret je bous pri -- e au va -- ron d'As -- ba -- rat
-jé pen -- se mor -- dy qué lé fat
-n'a pas l'hon -- nur dé mé con -- naî -- tre
-jé pen -- se mor -- dy jé pen -- se mor -- dy 
-jé pen -- se mor -- dy qué lé fat
-n'a pas l'hon -- nur dé mé con -- naî -- tre.
-
+\tag #'(vtaille2 basse) {
+  Eh ca -- de -- dis, Mon -- seu, boy -- ez qui l’on pût es -- tre ;
+  Un Li -- bret, je bous pri -- e, au va -- ron d’As -- ba -- rat.
+  Jé pen -- se, mor -- dy, que le fat
+  N’a pas l’hon -- nur dé mé con -- nois -- tre.
+  Jé pen -- se, mor -- dy,
+  Jé pen -- se, mor -- dy, 
+  Jé pen -- se, mor -- dy, que le fat
+  N’a pas l’hon -- nur dé mé con -- nois -- tre.
+}
 %% LE SUISSE
-Mon' sieur le don -- neur de pa -- pieir
-que veul dir sti fa -- çon de fi -- "fre ?"
-moy l'é -- cor -- chair tout mon go -- sieir
-à cri -- eir
-sans que je pouvre a -- foir ein li -- fre
-par -- dy mon foi mon' sieur je pen -- se fous l'être i -- fre
-moy l'é -- cor -- chair tout mon go -- sieir
-à cri -- eir
-sans que je pouvre a -- foir ein li -- fre
-par -- dy mon foi mon' sieur je pen -- se fous l'être i -- fre
-par -- dy mon foi mon' sieur je pen -- se fous l'être i -- fre.
-
+\tag #'(vtaille basse) {
+  Mon’ -- sieur le don -- neur de pa -- pieir
+  Que veul dire sti fa -- çon de fi -- fre,
+  Moy l’é -- cor -- chair tout mon go -- sieir
+  A cri -- eir,
+  Sans que je pouvre a -- foir ein Li -- fre ;
+  Par -- dy, mon foy, Mon’ siur, je pen -- se fous l’estre i -- fre,
+  Moy l’é -- cor -- chair tout mon go -- sieir
+  A cri -- eir,
+  Sans que je pouvre a -- foir ein Li -- fre ;
+  Par -- dy, mon foy, Mon’ siur, je pen -- se fous l’être i -- fre,
+  Par -- dy, mon foy, Mon’ siur, je pen -- se fous l’être i -- fre.
+}
 %% VIEUX BOURGEOIS BABILLARD
-De tout ce -- ci franc et net
-je suis mal sa -- tis -- fait
-et ce -- la sans doute est laid
-que notre fil -- le
-si bien fai -- te et si gen -- til -- le
-de tant d'a -- mou -- reux l'ob -- jet
-n'ait pas à son sou -- hait
-un li -- vre de bal -- let
-pour li -- re le su -- jet
-du di -- ver -- tis -- se -- ment qu'on fait
-et que tou -- te no -- tre fa -- mil -- le
-si pro -- pre -- ment s'ha -- bil -- le
-pour ê -- tre pla -- cée au som -- met
-de la sal -- le où l'on met
-les gens de Lan -- tri -- guet
-de tout ce -- ci franc et net
-je suis mal sa -- tis -- fait
-et ce -- la sans doute est laid.
-
+\tag #'(vtaille2 basse) {
+  De tout ce -- cy franc et net,
+  Je suis mal sa -- tis -- fait ;
+  Et ce -- la sans doute est laid,
+  Que nostre Fil -- le
+  Si bien fai -- te et si gen -- til -- le,
+  De tant d’A -- mou -- reux l’Ob -- jet,
+  N’ait pas à son sou -- hait
+  Un li -- vre de Bal -- let,
+  Pour li -- re le Su -- jet
+  Du Di -- ver -- tis -- se -- ment qu’on fait,
+  Et que tou -- te nos -- tre Fa -- mil -- le
+  Si pro -- pre -- ment s’ha -- bil -- le,
+  Pour es -- tre pla -- cée au som -- met
+  De la Sal -- le, où l’on met
+  Les Gens de L’en -- tri -- guet :
+  De tout ce -- cy franc et net
+  Je suis mal sa -- tis -- fait,
+  Et ce -- la sans doute est laid.
+}
 %% VIEILLE BOURGEOISE BABILLARDE
-Il est vrai que c'est u -- ne hon -- te
-le sang au vi -- sa -- ge me mon -- te
-et ce je -- teur de vers qui manque au ca -- pi -- tal
-l'en -- tend fort mal
-c'est un bru -- tal
-un vrai che -- val
-franc a -- ni -- mal
-de fai -- re si peu de comp -- te
-d'un -- e fil -- le qui fait l'or -- ne -- ment prin -- ci -- pal
-du quar -- tier du Pa -- lais Roy -- al
-et que ces jours pas -- sés un com -- te
-fut pren -- dre la prem -- ière au bal
-et que ces jours pas -- sés un com -- te
-fut pren -- dre la prem -- ière au bal.
-Il l'en -- tend mal
-c'est un bru -- tal
-un vrai che -- val
-franc a -- ni -- mal
-il l'en -- tend mal
-c'est un bru -- tal
-un vrai che -- val
-franc a -- ni -- mal.
-
+\tag #'(vhaute-contre basse) {
+  Il est vray que c’est u -- ne hon -- te,
+  Le sang au vi -- sa -- ge me mon -- te,
+  Et ce je -- teur de Vers qui manque au ca -- pi -- tal,
+  L’en -- tend fort mal ;
+  C’est un bru -- tal,
+  Un vray Che -- val,
+  Franc a -- ni -- mal,
+  De fai -- re si peu de con -- te
+  D’un -- e Fil -- le qui fait l’or -- ne -- ment prin -- ci -- pal
+  Du Quar -- tier du Pa -- lais Roy -- al,
+  Et que ces jours pas -- sez un Com -- te
+  Fut pren -- dre la prem -- iere au Bal.
+  Et que ces jours pas -- sez un Com -- te
+  Fut pren -- dre la prem -- iere au Bal.
+  Il l’en -- tend mal,
+  C’est un bru -- tal,
+  Un vray Che -- val,
+  Franc a -- ni -- mal.
+  Il l’en -- tend mal,
+  C’est un bru -- tal,
+  Un vray Che -- val,
+  Franc a -- ni -- mal.
+}
 %% HOMMES ET FEMMES DU BEL AIR
-Ah quel bruit
-quel fra -- cas
-quel cha -- os
-quel mé -- lan -- ge
-quel -- le con -- fu -- si -- on
-quel -- le co -- hue é -- tran -- ge
-quel dé -- sor -- dre
-quel em -- bar -- ras
-on y sè -- che
-l'on n'y tient pas.
+\tag #'(vtaille basse) { Ah ! quel bruit ! }
+\tag #'(vbas-dessus basse) { Quel fra -- cas ! }
+\tag #'(vdessus basse) { Quel cha -- os ! }
+\tag #'(vhaute-contre basse) { Quel mé -- lan -- ge ! }
+\tag #'(vtaille2 basse) { Quel -- le con -- fu -- si -- on ! }
+\tag #'(vtaille basse) { Quel -- le co -- huë é -- tran -- ge ! }
+\tag #'(vhaute-contre basse) { Quel des -- or -- dre ! }
+\tag #'(vtaille2 basse) { Quel em -- bar -- ras ! }
+\tag #'(vdessus basse) { On y se -- che. }
+\tag #'(vbas-dessus basse) { L’on n’y tient pas. }
 
 %% GASCON
-Ben -- tré jé suis à vout.
-
+\tag #'(vtaille2 basse) {
+  Ben -- tre je suis à vout.
+}
 %% AUTRE GASCON
-J'en -- ra -- ge Diou mé da -- "mne !"
-
+\tag #'(vtaille basse) {
+  J’en -- ra -- ge, Diou me da -- mne.
+}
 %% SUISSE
-Ah que ly fai -- re saif dans sty sal de ci -- "ans !"
-
+\tag #'(vtaille2 basse) {
+  Ah que ly fai -- re saif dans sty sal de ci -- ans.
+}
 %% GASCON
-Jé murs.
-
+\tag #'(vtaille basse) {
+  Jé murs.
+}
 %% AUTRE GASCON
-Jé perds la tra -- mon -- ta -- ne.
-
+\tag #'(vtaille2 basse) {
+  Jé pers la tra -- mon -- ta -- ne.
+}
 %% SUISSE
-Mon foi moi le fou -- drais ê -- tre hors de de -- dans.
-
+\tag #'(vtaille basse) {
+  Mon foy moy le fou -- drois es -- tre hors de de -- dans.
+}
 %% VIEUX BOURGEOIS BABILLARD
-Al -- lons ma mi -- e
-sui -- vez mes pas
-je vous en prie
-et ne me quit -- tez pas
-on fait de nous trop peu de cas
-et je suis las
-de ce tra -- cas
-tout ce fa -- tras
-cet em -- bar -- ras
-me pè -- se par trop sur les bras
-s'il me prend ja -- mais en -- vi -- e
-de re -- tour -- ner de ma vi -- e
-à bal -- let ni co -- mé -- di -- e
-je veux bien qu'on m'es -- tro -- pi -- e.
-Al -- lons ma mi -- e
-sui -- vez mes pas
-je vous en prie
-et ne me quit -- tez pas
-on fait de nous trop peu de cas
-al -- lons al -- lons al -- lons ma mi -- e
-sui -- vez mes pas
-je vous en prie
-et ne me quit -- tez pas.
-
+\tag #'(vtaille2 basse) {
+  Al -- lons, ma Mi -- e,
+  Sui -- vez mes pas,
+  Je vous en prie,
+  Et ne me quit -- tez pas,
+  On fait de nous trop peu de cas,
+  Et je suis las
+  De ce tra -- cas :
+  Tout ce fa -- tras,
+  Cet em -- bar -- ras
+  Me pe -- se par trop sur les bras :
+  S’il me prend ja -- mais en -- vi -- e
+  De re -- tour -- ner de ma vi -- e
+  A Bal -- let ny Co -- me -- di -- e,
+  Je veux bien qu’on m’es -- tro -- pi -- e.
+  Al -- lons, ma Mi -- e,
+  Sui -- vez mes pas,
+  Je vous en prie,
+  Et ne me quit -- tez pas,
+  On fait de nous trop peu de cas.
+  Al -- lons, al -- lons, al -- lons, ma Mi -- e,
+  Sui -- vez mes pas,
+  Je vous en prie,
+  Et ne me quit -- tez pas.
+}
 %% VIEILLE BOURGEOISE BABILLARDE
-Al -- lons, mon mi -- gnon, mon fils
-re -- ga -- gnons no -- tre lo -- gis
-et so -- rtons de ce tau -- dis
-où l'on ne peut être as -- sis
-ils se -- ront bien é -- bau -- bis
-quand ils nous ver -- ront par -- tis.
-Trop de con -- fu -- si -- on rè -- gne dans cet -- te sal -- le
-et j'ai -- me -- rais mieux être au mi -- lieu de la hal -- le.
-Si ja -- mais je re -- viens à sem -- bla -- ble ré -- ga -- le
-je veux bien re -- ce -- voir des souf -- flets plus de six.
-Al -- lons mon mi -- gnon mon fils
-mon mi -- gnon mon mi -- gnon mon mi -- gnon mi -- gnon mon fils
-re -- ga -- gnons no -- tre lo -- gis
-et sor -- tons de ce tau -- dis
-où l'on ne peut être as -- sis.
+\tag #'(vhaute-contre basse) {
+  Al -- lons mon Mi -- gnon, mon Fils,
+  Re -- ga -- gnons nos -- tre lo -- gis,
+  Et so -- rtons de ce tau -- dis,
+  Où l’on ne peut estre as -- sis ;
+  Ils se -- ront bien é -- bo -- bis
+  Quand ils nous ver -- ront par -- tis.
+  Trop de con -- fu -- si -- on re -- gne dans cet -- te Sal -- le,
+  Et j’ai -- me -- rois mieux estre au mi -- lieu de la Hal -- le ;
+  Si ja -- mais je re -- viens a sem -- bla -- ble Re -- ga -- le,
+  Je veux bien re -- ce -- voir des souf -- flets plus de six.
+  Al -- lons mon Mi -- gnon, mon Fils,
+  mon Mi -- gnon, mon Mi -- gnon, mon Mi -- gnon, Mi -- gnon, mon Fils,
+  Re -- ga -- gnons nos -- tre lo -- gis,
+  Et sor -- tons de ce tau -- dis,
+  Où l’on ne peut estre as -- sis.
+}
