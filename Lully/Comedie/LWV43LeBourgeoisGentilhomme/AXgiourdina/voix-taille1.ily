@@ -1,4 +1,4 @@
-R1 |
+\clef "vtaille" R1 |
 R1 |
 r2 r4 re'4 |
 re'2 re'4 re'4 |

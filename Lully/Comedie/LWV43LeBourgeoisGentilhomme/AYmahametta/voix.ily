@@ -1,8 +1,9 @@
-r1 r8 sol8 sol4 |
-sol2 sol4 sib2 sol4 |
-re'2 re'4 sib2 sol4 |
-mib'2 do'4 re'4 re2 |
-sol2 sol2 r8 sol8 sol4 |
+\clef "vbasse" r2 r \repeat unfold 2 { r8 sol8 sol4 |
+  sol2 sol4 sib2 sol4 |
+  re'2 re'4 sib2 sol4 |
+  mib'2 do'4 re'4 re2 |
+  sol2 sol2
+} r8 sol8 sol4 |
 re2. mib4 mib4 do4 |
 fa2. fa4 r8 sib8 re4 |
 mib2 mib4 do4 fa2 |
@@ -26,4 +27,4 @@ sol2 sol4 r4 r8 sol8 sol4 |
 sol2 sol4 sib2 sol4 |
 re'2 re'4 sib2 sol4 |
 mib'2 do'4 re'2 re4 |
-sol2 sol2 
+sol2 sol4

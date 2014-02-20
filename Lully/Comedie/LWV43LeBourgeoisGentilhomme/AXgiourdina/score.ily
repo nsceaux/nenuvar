@@ -1,9 +1,10 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new Staff <<
       \context Voice <<
         \global \clef bass
-        \hideNotes \notemode {
+        \origLayout { s1*6\break }
+        \hideNotes\notemode {
           sol8 sol8 sol8 sol8 sol8 sol8 sol8 sol8 
           sol8 sol8 sol8 sol8 sol8 sol8 sol8 sol8 |
           s1 s1 s1 |
@@ -19,16 +20,16 @@
       }
     >>
     \new Staff \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "haute-contre"
+      \global \includeNotes "voix-haute-contre"
     >>  \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vtaille" \includeNotes "taille1"
+      \global \includeNotes "voix-taille1"
     >>  \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vtaille" \includeNotes "taille2"
+      \global \includeNotes "voix-taille2"
     >>  \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "basse"
+      \global \includeNotes "voix-basse"
     >> \includeLyrics "paroles"
   >>
   \layout { }

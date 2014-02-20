@@ -1,4 +1,4 @@
-R1 |
+\clef "vhaute-contre" R1 |
 R1 |
 r2 r4 sol'4 |
 sol'2 fad'4 sol'4 |

@@ -1,8 +1,10 @@
-sol,2. sol4 ~ sol2 |
-sol2. sib2 sol4 |
-re'2. sib2 sol4 |
-mib'2 do'4 re'4 re2 |
-sol,2. sol4 ~ sol2 |
+\clef "basse" sol,2. \repeat unfold 2 {
+  sol2. |
+  sol2. sib2 sol4 |
+  re'2. sib2 sol4 |
+  mib'2 do'4 re'4 re2 |
+  sol,2.
+} sol2. |
 re2. mib2 do4 |
 fa2. re2. |
 mib2 mib4 do4 fa2 |
@@ -26,4 +28,4 @@ sol2 sol4 r4 r8 sol8 sol4 |
 sol2 sol4 sib2 sol4 |
 re'2 re'4 sib2 sol4 |
 mib'2 do'4 re'2 re4 |
-sol2 sol2
+sol2 sol4
