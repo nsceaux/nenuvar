@@ -12,13 +12,13 @@
         la'4. la'8 si'8 si'8 si'8 si'8 |
         do''4. do''8 re''8 re''8 re''8 re''8 |
         mi''4. mi''8 fad''8 fad''8 fad''8 fad''8 |
-        re''4. re''8 mi''8 mi''8 mi''8 red''8 |
+        red''4. red''8 mi''8 mi''8 mi''8 red''8 |
         mi''4. si'8 do''8 do''8 do''8 do''8 |
         re''4. la'8 si'8 si'8 si'8 si'8 |
         do''4. do''8 do''8 do''8 re''8 re''8 |
         si'4. si'8 do''8 re''8 si'8. do''16 |
         do''4. mi''8 re''8 re''8 re''8 re''8 |
-        mi''4. mi''8 fad''8 fad''8 re''8. do''16 |
+        mi''4. mi''8 fa''?8 fa''8 re''8. do''16 |
         si'4. si'8 do''8 do''8 si'8. mi''16 |
         dod''4. dod''8 re''8 re''8 re''8 re''8 |
         re''4. re''8 mi''8 mi''8 mi''8 mi''8 |
@@ -31,7 +31,7 @@
     >> <>^\markup \character "Femme du bel air"
     r8 mi''8 do''8 do''16 do''16 do''8 do''16 si'16 |
     si'4 si'4 r8 si'8 do''8 re''8 |
-    mi''8. mi''16 mi''16 [ re''16 ] mi''8 red''8
+    mi''8. mi''16 mi''16 [ red''?16 ] mi''8 red''!8
     <<
       \tag #'basse {
         s4. s1*31 s1.*6 s1*13 s1.*6 s2.*8 s1*4 s1.*14 s1*5 s2.
@@ -71,7 +71,7 @@
     >> si'8. do''16 la'4 <<
       \tag #'basse { s4 s1*4 s2 }
       \tag #'vbas-dessus { r4 | R1*4 | r2 }
-    >> r8 do''8 la'8 si'8 |
+    >> r8 re''8 la'8 si'8 |
     sol'2
     \tag #'vbas-dessus { r2 | R1*7 R2.*7 R1*8 R2.*8 R1 R2.*10 R1*20 r2 r4 }
   }
@@ -117,7 +117,7 @@
     sol'4 mi'4 la'4 |
     fad'4 fad'8 fad'8 sol'8 sol'8 sol'8 fad'8 |
     mi'4. mi'8 fad'8 fad'8 fad'8 mi'8 |
-    red'8. mi'16 mi'8. red'16 dod'8. la'16 la'8. sol'16 |
+    red'8. mi'16 mi'8. re'?16 dod'8. la'16 la'8. sol'16 |
     fad'8 fad'8 fad'8. mi'16 re'8 re'8 re'8 dod'8 |
     re'2 r8 re'8 la4 la4 si4 |
     do'2 re'4 mi'2 mi'4 |
@@ -160,12 +160,12 @@
     sol'4 si'8 si'8 si'8 si'8 la'8 sol'8 |
     fad'4 sol'8 sol'8 fad'8 mi'8 mi'8 red'8 |
     mi'4. sold'8 sold'8 sold'8 sold'8 sold'8 |
-    la'4. la'8 la'8 sold'8 sold'8 la'8 |
+    la'4. la'8 la'8 sol'8 sol'8 la'8 |
     fad'8 re'4 re'8 re'8 si8 do'8 re'8 |
     mi'4 mi'8 fad'8 sol'4 fad'8 sol'8 |
     la'8 la'8 la'8 la'8 si'4 si'8 la'8 |
     sol'4 sol'8 fad'8 mi'4 mi'8 fad'8 |
-    red'8 si4 si8 mi'8 mi'8 mi'8 re'8 |
+    red'8 si4 si8 mi'8 mi'8 mi'8 re'?8 |
     dod'4 re'8 mi'8 fad'4 mi'8 fad'8 |
     re'4 re'8 re'8 re'8 re'8 mi'8 fad'8 |
     sol'4 sol'8 sol'8 mi'4 mi'8 mi'8 |
@@ -228,10 +228,10 @@
     >> <>^\markup \character "Le Suisse"
     r4 r8 re8 re8 re16 mi16 fa8 fa16 sol16 |
     la4 re'8 re'8 la8 la16 la16 la8 si8 |
-    do'8 do'8 la16 la16 si16 do'16 do'8 do'16 re'16 mi'8 mi'16 mi'16 |
+    do'8 do'8. la16 la si do' do' do' re' mi'8 mi'16 mi' |
     mi'4 si8 si16 si16 re'8. re'16 re'8. dod'16 |
     dod'4 dod'8 la8 la8 la8 la8 la8 |
-    sib8. la16 sol8 fa8 mi8 re8 la4 |
+    sib8. la16 sol8 fa?8 mi8 re8 la4 |
     re4 r16 re16 re16 mi16 fad16 fad16 fad16 sol16 la8 la16 la16 |
     re'4 la8 la16 la16 do'8 do'8 do'8. si16 |
     si4 si8 sol8 do'8 do'8 do'8 do'8 |
@@ -278,7 +278,7 @@
     >> <>^\markup \character "Autre homme du bel air"
     r8 la8 fad8. re'16 la8. re'16 |
     si4. sol8 do'8 do'8 re'8. mi'16 |
-    la4 si8. do'16 sol8 la8 la8 la16 sold16 |
+    la4 si8. do'16 sold?8 la8 la8 la16 sold16 |
     la4 <<
       \tag #'basse { s2. s1*11 s4 \forcedClef "vtaille" }
       \tag #'vtaille2 { r4 r2 | R1*11 | r4 }
