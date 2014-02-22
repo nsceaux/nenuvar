@@ -1,4 +1,4 @@
-r4 r8 re''8 sib'8. sib'16 |
+\clef "dessus" r4 r8 re''8 sib'8. sib'16 |
 do''4. do''8 sib'8. la'16 |
 sib'4 sib'4. do''8 |
 la'2 r4 |
@@ -15,7 +15,7 @@ r4 sib'4. do''8 |
 la'2 la'4 |
 sib'4. do''8 re''4 ~ |
 re''8 do''16 sib'16 la'4. sib'8 |
-sib'2. |
+sib'2. | \once\set Staff.whichBar = "||"
 
 R2.*33
 
@@ -64,12 +64,4 @@ si'4 do''2 |
 fa'4 sib'4 sib'4 |
 sib'4 la'4. sib'8 |
 sib'2. |
-re''4 re''4 re''4 |
-do''2 fa''8 mib''8 |
-re''8 do''8 sib'4. do''8 |
-la'2 si'4 ~ |
-si'4 do''2 |
-fa'4 sib'4 sib'4 |
-sib'4 la'4. sib'8 |
-sib'2. |
-sib'4 
+sib'4

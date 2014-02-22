@@ -1,20 +1,27 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus1" >>
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus2" >>
+  \new ChoirStaff <<
+    \new GrandStaff <<
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus1" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "dessus2" >>
     >>
-    \newHaraKiriStaffB <<
+    \new Staff \with { \haraKiriFirst } <<
       \context Voice = "haute-contre" \with { autoBeaming = ##f } <<
-        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
+        \global \includeNotes "voix"
       >>
-      \lyricsto "haute-contre" \new Lyrics \includeLyrics "paroles1"
-      \lyricsto "haute-contre" \new Lyrics \includeLyrics "paroles2"
+      \lyricsto "haute-contre" \new Lyrics
+      \keepWithTag #'(vhaute-contre1 vbasse) \includeLyrics "paroles"
+      \lyricsto "haute-contre" \new Lyrics
+      \keepWithTag #'vhaute-contre2 \includeLyrics "paroles"
     >>
-    \newHaraKiriStaffB \withLyrics << 
-      \global \clef "vbasse" \includeNotes "voix-basse"
-    >>  \includeLyrics "paroles3"
-    \new Staff << \global \clef "basse" \includeNotes "basse" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout {
+        s2.*10\break s2.*8\break s2.*5\pageBreak
+        s2.*7\break s2.*7\break s2.*7\break
+        s2.*9\break s2.*8\break s2.*10\pageBreak
+        s2.*9\break s2.*9\break s2.*9\pageBreak
+      }
+    >>
   >>
   \layout { }
   \midi { }

@@ -1,4 +1,4 @@
-sib4 la4 |
+\clef "basse" sib4 la4 |
 sib4 la4 sol4 |
 fa4 mib4 re4 |
 do4 sib,2 |

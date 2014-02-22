@@ -1,4 +1,4 @@
-r2. r4 r8 fa'8 mib'4 |
+\clef "vhaute-contre" r2*3/2 r4 r8 fa'8 mib'4 |
 re'4. mib'8 fa'4 mib'4. re'8 ( do'4 )|
 re'4 do'4 sib4 sib4. do'8 ( la4 )|
 sib2. ~ sib4. re'4*3/2 |

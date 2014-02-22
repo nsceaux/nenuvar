@@ -1,1 +1,0 @@
-r2\noBreak R2.*15\noBreak r4\noBreak r2\noBreak R2.*7\noBreak r4

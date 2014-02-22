@@ -1,9 +1,12 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics << 
-      \global \clef "vhaute-contre" \includeNotes "haute-contre"
+      \global \includeNotes "voix"
     >>  \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse" >> 
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout { s1.*7\break }
+    >>
   >>
   \layout { }
   \midi { }

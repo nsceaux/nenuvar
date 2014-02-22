@@ -1,5 +1,14 @@
 \score {
-  \dessusHauteContreTailleQuinteBasse
-  \layout { }
+  \new StaffGroup <<
+    \new Staff << \global \includeNotes "dessus" >>
+    \new Staff << \global \includeNotes "haute-contre" >>
+    \new Staff << \global \includeNotes "taille" >>
+    \new Staff << \global \includeNotes "quinte" >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout { s4. s1.*7\break }
+    >>
+  >>
+  \layout { }  
   \midi { }
 }

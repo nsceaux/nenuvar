@@ -1,4 +1,4 @@
-fa'4 fa'4 |
+\clef "haute-contre" fa'4 fa'4 |
 fa'2 sol'4 |
 la'2 sib'4 |
 la'4 sib'4. do''8 |
@@ -9,11 +9,11 @@ la'4 sib'4. do''8 |
 la'4 %{%} la'4 la'4 |
 sib'4 sol'2 |
 fa'2 fa'4 ~ |
-fa'4 fa'4. mi'8 |
+fa'4 fa'4. mib'?8 |
 re'4 %{%} la'4 la'4 |
 sib'4 sol'2 |
 fa'2 fa'4 ~ |
-fa'4 fa'4. mi'8 |
+fa'4 fa'4. mib'?8 |
 re'4 %{%} re''4 re''4 |
 do''4 sib'4 la'4 |
 sol'4 sib'4 sib'4 |

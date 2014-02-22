@@ -1,4 +1,4 @@
-sib,2. ~ sib,4. sib8 la4 |
+\clef "basse" sib,2. ~ sib,4. sib8 la4 |
 sib2. mib2 fa4 |
 re2 mib4 fa4 fa,2 |
 sib,2. ~ sib,4. sib4*3/2 ~ |

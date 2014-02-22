@@ -1,4 +1,4 @@
-re'4 do'4 |
+\clef "quinte" re'4 do'4 |
 sib2. |
 do'2 sib4 |
 do'4 re'4 sib4 |
@@ -8,12 +8,14 @@ do'2 sib4 |
 do'4 re'4 sib4 |
 do'4 %{%} do'4 do'4 |
 sib2 do'4 |
-s2. |
-s2. |
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : une tache d’encre ne permet pas de lire ces deux mesures
+  de la partie de quinte.
+}
+\new CueVoice { la2 sib4~ | sib fa4. } fa8 |
 fa4 sib4 do'4 |
 sib2 do'4 |
-s2. |
-s2. |
+\new CueVoice { la2 sib4~ | sib fa4. } fa8 |
 sib4 sib4 sib4 |
 do'4 re'2 |
 do'2 mib'4 ~ |
