@@ -1,10 +1,10 @@
-r2. r2 fa4 |
+\clef "vbasse" r2*3/2 r4 r fa4 |
 sib4 sib4 sib4 sib4 sib,2 |
-fa2 fa4 r2 fa4 |
+fa2 fa4 r4 r fa4 |
 sol4 sol4 sol4 sol4 sol,2 |
-re2. r2 re'4 |
+re2. r4 r re'4 |
 sol4 sol4 sol4 sol2 la8[ si8] |
-do'2 do'4 r2 do'4 |
+do'2 do'4 r4 r do'4 |
 fa4 fa4 fa4 fa4 do2 |
 re2 la,4 sib,4 do2 |
 fa,2. ~ fa,4 fa4 re4 |

@@ -1,15 +1,18 @@
 \score {
   \new StaffGroupNoBar <<
     \new Staff \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "voix-haute-contre1"
-    >>  \includeLyrics "paroles1"
+      \global \includeNotes "voix"
+    >> \keepWithTag #'vhaute-contre1 \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "voix-haute-contre2"
-    >>  \includeLyrics "paroles2"
+      \global \includeNotes "voix-haute-contre2"
+    >> \keepWithTag #'vhaute-contre2 \includeLyrics "paroles"
     \new Staff \withLyrics <<
-      \global \clef "vbasse" \includeNotes "voix-basse"
-    >>  \includeLyrics "paroles3"
-    \new Staff << \global \clef "basse" \includeNotes "basse" >> 
+      \global \includeNotes "voix-basse"
+    >> \keepWithTag #'vbasse \includeLyrics "paroles"
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout { s2.*8\break s2.*9\pageBreak s2.*9\break s2.*9\break }
+    >>
   >>
   \layout { }
   \midi { }
