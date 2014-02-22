@@ -1,4 +1,4 @@
-r2 r4 sol'8 la'8 |
+\clef "dessus" r2 r4 sol'8 la'8 |
 sib'4. sib'8 do''8 sib'8 la'8 sol'8 |
 fad'2 r4 sib'8 sib'8 |
 la'4. sol'8 sol'4 fad'4 |

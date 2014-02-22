@@ -1,9 +1,15 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new Staff \withLyrics << 
-      \global \clef "vbas-dessus" \includeNotes "bas-dessus"
+      \global \includeNotes "voix"
     >>  \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse" >> 
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout {
+        s1*6\break s1*5\break s1*4 s2.*2\break
+        s2.*8\break s2.*8\break s2.*8\break
+      }
+    >>
   >>
   \layout { }
   \midi { }
