@@ -1,11 +1,11 @@
-sib'4. la'8 sol'2 |
+\clef "haute-contre" sib'4. la'8 sol'2 |
 sol'2 sol'4. la'8 |
 sib'2 la'2 |
 sol'2 fa'4. fa'8 |
 sol'4. lab'8 sol'4. fa'8 |
 mib'8 fa'8 sol'4 fa'2 |
 fa'2 fa'4 fa'4 |
-sol'2 fa'4. mi'8 |
+sol'2 fa'4. mib'?8 |
 re'1 |
 re'2 fa'4 fa'4 |
 fa'2 mib'4 mib'4 |
