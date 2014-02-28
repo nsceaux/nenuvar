@@ -1,13 +1,28 @@
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/common.ily"
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
   %% Title page
   \header {
     title = \markup \column {
-      \fill-line { "Le Bourgeois" }
-      \fill-line { Gentilhomme }
+      \fill-line { "LE BOURGEOIS" }
+      \fill-line { GENTILHOMME }
     }
+  }
+  \markup \null
+  \pageBreak
+  
+  %% Table of contents
+  \markuplist
+  \abs-fontsize-lines #8
+  \override-lines #'(use-rehearsal-numbers . #t)
+  \override-lines #'(column-number . 2)
+  \table-of-contents
+  \pageBreak
+}
+
+%% TODO : notes
+%{
     notes = \markup \column {
       \line { Documents originaux :}
       \hspace #1
@@ -31,17 +46,9 @@
       }
     }
   }
-  \markup \null
-  \pageBreak
+%}
   
-  %% notes
-  \markup \null
-  \pageBreak
-  
-  %% Table of contents
-  \markuplist \table-of-contents
-  \pageBreak
-  
+\bookpart {
   %% Acteurs
   \markup \fill-line {
     \null
@@ -85,7 +92,7 @@
 %% Ouverture
 %% Acte 1
 %% Premier intermède
-\include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body01.ily"
+\include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/acte1.ily"
 %% Acte 2
 \bookpart {
   %% scènes 1-3

@@ -136,6 +136,11 @@
 #(define-markup-command (livretVerC layout props args) (markup-list?)
    (livret-verse-aux layout props (make-line-markup args) 2))
 
+#(define-markup-command (livretText layout props args) (markup-list?)
+   (interpret-markup
+    layout props
+    #{ \markup\justify $args #}))
+
 #(define-markup-command (livretRef layout props ref next)
      (symbol? markup?)
    (interpret-markup

@@ -564,6 +564,20 @@ scene =
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
 
+sceneNoMarkup =
+#(define-music-function (parser location title toc-title) (string? markup?)
+  (add-toc-item parser 'tocSceneMarkup (if (and (string? toc-title)
+                                                (string-null? toc-title))
+                                           (string-upper-case title)
+                                           toc-title))
+  (add-odd-page-header-text
+    parser
+    (format #f "~a, ~a."
+           (string-upper-case (*act-title*))
+           (string-upper-case title))
+    #t)
+  (make-music 'Music 'void #t))
+
 inMusicScene =
 #(define-music-function (parser location title toc-title) (string? markup?)
    (add-toc-item parser 'tocSceneMarkup toc-title)
