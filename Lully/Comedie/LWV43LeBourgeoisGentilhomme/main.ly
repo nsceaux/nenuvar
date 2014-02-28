@@ -49,43 +49,36 @@
 %}
   
 \bookpart {
+  \notesSection "Acteurs"
   %% Acteurs
-  \markup \fill-line {
-    \null
-    \center-column { 
-      \null
-      \vspace #17
-      \fontsize #6 \fill-line { ACTEURS }
-      \vspace #3
-      \fill-line {
-        \null
-        \override #'(linewidth . 50) \column {
-          \line { Monsieur Jourdain, bourgeois, }
-          \line { Madame Jourdain, sa femme, }
-          \line { Lucile, fille de Monsieur Jourdain, }
-          \line { Nicole, servante, }
-          \line { Cléonte, amoureux de Lucile, }
-          \line { Covielle, valet de Cléonte, }
-          \line { Dorante, compte, amant de Dorimène, }
-          \line { Dorimène, marquise, }
-          \line { Maître de musique, }
-          \line { Élève du maître de musique, }
-          \line { Maître à danser, }
-          \line { Maître d'armes, }
-          \line { Maître de philosophie, }
-          \line { Maître tailleur, }
-          \line { Garçon tailleur, }
-          \line { Deux laquais, }
-          \line { Plusieurs musiciens, musiciennes, joueurs d'instruments, }
-          \line { danseurs, cuisiniers, garçons tailleurs, }
-          \line { et autres personnages des intermèdes et du ballet. }
-        }
-        \null 
+  \markup\fontsize #1 \fill-line { \center-column {
+      \vspace #5
+      \act { ACTEURS }
+      \vspace #5
+      \column {
+        \line { MONSIEUR JOURDAIN, Bourgeois. }
+        \line { MADAME JOURDAIN, sa femme. }
+        \line { LUCILE, Fille de Monsieur Jourdain. }
+        \line { NICOLE, Servante. }
+        \line { CLEONTE, Amoureux de Lucile. }
+        \line { COVIELLE, Valet de Cleonte. }
+        \line { DORANTE, Compte, Amant de Dorimene. }
+        \line { DORIMENE, Marquise. }
+        \line { MAISTRE DE MUSIQUE. }
+        \line { ELEVE DU MAISTRE DE MUSIQUE. }
+        \line { MAISTRE A DANSER. }
+        \line { MAISTRE D’ARMES. }
+        \line { MAISTRE DE PHILOSOPHIE. }
+        \line { MAISTRE TAILLEUR. }
+        \line { GARCON TAILLEUR. }
+        \line { DEUX LAQUAIS. }
+        \line { Plusieurs musiciens, musiciennes, joueurs d’instruments, }
+        \line { danseurs, cuisiniers, garcons tailleurs, }
+        \line { et autres personnages des Intermedes & du Ballet. }
       }
-      \vspace #2
-      \italic \fill-line {\null \line { La scène est à Paris. } \null }
+      \vspace #3
+      \italic\line { La Scene est à Paris. }
     }
-    \null
   }
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

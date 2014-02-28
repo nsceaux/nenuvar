@@ -78,6 +78,11 @@
     layout props
     (markup #:fontsize 0 #:italic text)))
 
+#(define-markup-command (livretDidasPC layout props text) (markup?)
+   (interpret-markup
+    layout props
+    #{ \markup\fontsize #0 \italic \fill-line { $text } #}))
+
 #(define-markup-command (livretPers layout props text next) (markup? markup?)
    #:properties ((line-width)
                  (gap 9)

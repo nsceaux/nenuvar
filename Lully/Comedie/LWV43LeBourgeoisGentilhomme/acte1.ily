@@ -1,13 +1,14 @@
 %%% Ouverture
 \bookpart {
   \paper { #(define page-breaking ly:optimal-breaking) }
+  \actnNoMarkup "Le Bourgeois Gentilhomme"
   \markup\act\center-column {
     LE BOURGEOIS GENTILHOMME
     \fontsize #-3 \italic COMEDIE-BALLET
   }
   \sceneDescription\markup\justify {
     L’Ouverture se fait par un grand assemblage d’instrumens ; 
-    & dans le milieu du Theatre, on voit un Eléve du Maistre de Musique,
+    & dans le milieu du Theatre, on voit un Eléve du Maistre de Musique,
     qui compose sur une Table, un Air que le Bourgeois a demandé pour 
     une Serenade.
   }
@@ -22,7 +23,7 @@
   \scene "Scene Premiere" "Scene I"
   \sceneDescription\markup\wordwrap-center {
     Maistre de musique, maistre a danser, trois musiciens,
-    deux violons, quatre danseurs.
+    deux violons, quatre danceurs.
   }
   %% 1-1
   \pieceToc\markup\wordwrap {
@@ -32,294 +33,259 @@
   \includeScore "ABeleve"
   
   \markuplist\livret {
-    \livretPers "Maître de musique"
-    \livretDidasP\line { parlant à ses musiciens. }
+    \livretPers "Maistre de musique"
+    \livretDidasPC\line { parlant à ses Musiciens. }
     \livretText {
-      Venez, entrez dans cette salle, et vous reposez là,
+      Venez, entrez dans cette Salle, & vous reposez là,
       en attendant qu’il vienne.
     }
-    \livretPers "Maître à danser"
-    \livretDidasP\line { parlant aux danseurs. }
-    \livretText { Et vous aussi, de ce côté. }
-    \livretPers "Maître de musique"
-    \livretDidasP\line { à l’élève. }
-    \livretText { Est-ce fait ? }
+    \livretPers "maistre a dancer"
+    \livretDidasPC\line { parlant aux Danceurs. }
+    \livretText { Et vous aussi, de ce costé. }
+    \livretPers "Maistre de musique"
+    \livretDidasPC\line { à l’Eléve. }
+    \livretText { Est-ce fait ? }
     \livretPers "L’élève."
-    \livretText { Oui. }
-    \livretPers "Maître de musique."
-    \livretText { Voyons... Voilà qui est bien. }
-    \livretPers "Maître à danser."
-    \livretText { Est-ce quelque chose de nouveau ? }
-    \livretPers "Maître de musique."
+    \livretText { Oüy. }
+    \livretPers "Maistre de musique."
+    \livretText { Voyons… Voila qui est bien. }
+    \livretPers "Maistre a dancer."
+    \livretText { Est-ce quelque chose de nouveau ? }
+    \livretPers "Maistre de musique."
     \livretText {
-      Oui, c’est un air pour une sérénade, que je lui ai fait
-      composer ici, en attendant que notre homme fût éveillé.
+      Oüy, c’est un Air pour une Serenade, que je luy ay fait
+      composer icy, en attendant que nostre Homme fut éveillé.
     }
-    \livretPers "Maître à danser."
-    \livretText { Peut-on voir ce que c’est ? }
-    \livretPers "Maître de musique."
+    \livretPers "Maistre a dancer."
+    \livretText { Peut-on voir ce que c’est ? }
+    \livretPers "Maistre de musique."
     \livretText {
-      Vous l’allez entendre, avec le dialogue, quand il viendra.
-      Il ne tardera guère.
+      Vous l’allez entendre, avec le Dialogue, quand il viendra.
+      Il ne tardera guére.
     }
     \column-break
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Nos occupations, à vous, et à moi, ne sont pas petites
+      Nos occupations, à vous, & à moi, ne sont pas petites
       maintenant.
     }
-    \livretPers "Maître de musique."
+    \livretPers "Maistre de musique."
     \livretText {
-      Il est vrai. Nous avons trouvé ici un homme comme
-      il nous le faut à tous deux ; ce nous est une douce rente
-      que ce monsieur Jourdain, avec les visions de noblesse
-      et de galanterie qu’il est allé se mettre en tête ; et votre
-      danse et ma musique auroient à souhaiter que tout le
-      monde lui ressemblât.
+      Il est vray. Nous avons trouvé icy un Homme comme
+      il nous le faut à tous deux. Ce nous est une douce rente
+      que ce Monsieur Jourdain, avec les visions de Noblesse
+      & de Galanterie qu’il est allé se mettre en teste. Et vostre
+      Dance, & ma Musique, auroient à souhaiter que tout le
+      Monde luy ressemblast.
     }
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Non pas entièrement ; et je voudrais pour lui qu’il se
-      connût mieux qu’il ne fait aux choses que nous lui donnons.
+      Non pas entierement ; & je voudrois pour luy, qu’il se
+      connust mieux qu’il ne fait aux choses que nous luy donnons.
     }
-    \livretPers "Maître de musique."
+    \livretPers "Maistre de musique."
     \livretText {
-      Il est vrai qu’il les connaît mal, mais il les paye
-      bien ; et c’est de quoi maintenant nos arts ont plus
-      besoin que de toute autre chose.
+      Il est vray qu’il les connoist mal, mais il les paye
+      bien ; & c’est dequoy maintenant nos Arts ont plus
+      besoin, que de toute autre chose.
     }
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Pour moi, je vous l’avoue, je me repais un peu de
-      gloire ; les applaudissements me touchent ; et je tiens que,
-      dans tous les beaux arts, c’est un supplice assez fâcheux
-      que de se produire à des sots, que d’essuyer sur des
-      compositions la barbarie d’un stupide. Il y a plaisir, ne
-      m’en parlez point, à travailler pour des personnes qui
-      soient capables de sentir les délicatesses d’un art, qui
-      sachent faire un doux accueil aux beautés d’un ouvrage,
-      et par de chatouillantes approbations vous régaler de
-      votre travail. Oui, la récompense la plus agréable qu’on
+      Pour moy, je vous l’avouë, je me repais un peu de
+      gloire. Les applaudissemens me touchent ; & je tiens que
+      dans tous les beaux Arts, c’est un suplice assez fâcheux,
+      que de se produire à des Sots ; que d’essuyer sur des
+      Compositions, la barbarie d’un Stupide. Il y a plaisir, ne
+      m’en parlez point, à travailler pour des Personnes qui
+      soient capables de sentir les délicatesses d’un Art ; qui
+      sçachent faire un doux accueil aux beautez d’un Ouvrage ;
+      & par de chatoüillantes aprobations, vous régaler de
+      vostre travail. Oüy, la récompense la plus agreable qu’on
       puisse recevoir des choses que l’on fait, c’est de les voir
-      connues, de les voir caressées d’un applaudissement
+      connuës ; de les voir caressées d’un aplaudissement
       qui vous honore. Il n’y a rien, à mon avis, qui nous
-      paye mieux que cela de toutes nos fatigues ; et ce sont
-      des douceurs exquises que des louanges éclairées.
+      paye mieux que cela de toutes nos fatigues ; & ce sont
+      des douceurs exquises, que des loüanges éclairées.
     }
   }
 }
 \sceneNoMarkup "Scene II" "Scene II"
 \markuplist\livret {
-  \livretPers "Maître de musique."
+  \livretPers "Maistre de musique."
   \livretText {
-    J’en demeure d’accord, et je les goûte comme vous.
-    Il n’y a rien assurément qui chatouille davantage que
-    les applaudissements que vous dites. Mais cet encens
-    ne fait pas vivre ; des louanges toutes pures ne mettent
-    point un homme à son aise : il y faut mêler du solide ;
-    et la meilleure façon de louer, c’est de louer avec les
-    mains. C’est un homme, à la vérité, dont les lumières
-    sont petites, qui parle à tort et à travers de toutes choses,
-    et n’applaudit qu’à contre-sens ; mais son argent
-    redresse les jugements de son esprit ; il a du discernement
-    dans sa bourse ; ses louanges sont monnoyées ;
-    et ce bourgeois ignorant nous vaut mieux, comme vous
-    voyez, que le grand seigneur éclairé qui nous a introduits
-    ici.
+    J’en demeure d’accord, & je les goûte comme vous.
+    Il n’y a rien assurément qui chatoüille davantage que
+    les aplaudissements que vous dites ; mais cet Encens
+    ne fait pas vivre. Des loüanges toutes pures, ne mettent
+    point un Homme à son aise : Il y faut mesler du solide ;
+    & la meilleure façon de loüer, c’est de loüer avec les
+    mains. C’est un Homme à la vérité dont les lumieres
+    sont petites, qui parle à tort & à travers de toutes choses,
+    & n’aplaudit qu’à contre-sens ; mais son argent
+    redresse les jugemens de son Esprit. Il a du discernement
+    dans sa bourse. Ses loüanges sont monnoyées ;
+    & ce Bourgeois ignorant, nous vaut mieux, comme vous
+    voyez, que le grand Seigneur éclairé qui nous a introduits
+    icy.
   }
-  \livretPers "Maître à danser."
+  \livretPers "Maistre a dancer."
   \livretText {
-    Il y a quelque chose de vrai dans ce que vous dites ;
-    mais je trouve que vous appuyez un peu trop sur l’argent ;
-    et l’intérêt est quelque chose de si bas, qu’il ne
-    faut jamais qu’un honnête homme montre pour lui de
+    Il y a quelque chose de vray dans ce que vous dites ;
+    mais je trouve que vous appuyez un peu trop sur l’argent ;
+    & l’interest est quelque chose de si bas, qu’il ne
+    faut jamais qu’un honneste Homme montre pour luy de
     l’attachement.
   }
-  \livretPers "Maître de musique."
+  \livretPers "Maistre de musique."
   \livretText {
-    Vous recevez fort bien pourtant l’argent que notre
-    homme vous donne.
+    Vous recevez fort bien pourtant l’argent que nostre
+    Homme vous donne.
   }
-  \livretPers "Maître à danser."
+  \livretPers "Maistre a dancer."
   \livretText {
-    Assurément ; mais je n’en fais pas tout mon bonheur,
-    et je voudrais qu’avec son bien, il eût encore quelque
-    bon goût des choses.
+    Assurément ; mais je n’en fais pas tout mon bonheur,
+    & je voudrois qu’avec son bien, il eust encore quelque
+    bon goust des choses.
   }
-  \livretPers "Maître de musique."
+  \livretPers "Maistre de musique."
   \livretText {
-    Je le voudrais aussi, et c’est à quoi nous travaillons
-    tous deux autant que nous pouvons. Mais, en tout cas,
-    il nous donne moyen de nous faire connoître dans le
-    monde ; et il payera pour les autres ce que les autres
-    loueront pour lui.
+    Je le voudrois aussi, & c’est à quoy nous travaillons
+    tous deux autant que nous pouvons. Mais en tout cas
+    il nous donne moyen de nous faire connoistre dans le
+    Monde ; & il payera pour les autres, ce que les autres
+    loüeront pour luy.
   }
-  \livretPers "Maître à danser."
+  \livretPers "Maistre a dancer."
   \livretText {
-    Le voilà qui vient.
+    Le voila qui vient.
   }
   
   %%%%%%%%%%%%%%% SCENE II. %%%%%%%%%%%%%%%
   \livretScene "SCENE II"
   \livretDescAtt\wordwrap-center {
-    Monsieur Jourdain, deux laquais, Maître de musique,
-    Maître à danser, violons, musique et danseurs.
+    Monsieur Jourdain, deux laquais, Maistre de musique,
+    maistre a dancer, violons, music. & danceurs.
   }
   \livretPers "Monsieur Jourdain."
   \livretText {
-    Hé bien, messieurs ? Qu’est-ce ? Me ferez-vous voir
-    votre petite drôlerie ?
+    Hé bien, Messieurs ? Qu’est-ce ? Me ferez-vous voir
+    vostre petite drôlerie ?
   }
-  \livretPers "Maître à danser."
+  \livretPers "Maistre a dancer."
   \livretText {
-    Comment ? Quelle petite drôlerie ?
-  }
-  \livretPers "Monsieur Jourdain."
-  \livretText {
-    Eh la... Comment appelez-vous cela ? Votre prologue
-    ou dialogue de chansons et de danse.
-  }
-  \livretPers "Maître à danser."
-  \livretText {
-    Ah, ah !
-  }
-  \livretPers "Maître de musique."
-  \livretText {
-    Vous nous y voyez préparés.
+    Comment ? Quelle petite drôlerie ?
   }
   \livretPers "Monsieur Jourdain."
   \livretText {
-    Je vous ai fait un peu attendre, mais c’est que je me
-    fais habiller aujourd’hui comme les gens de qualité ; et
-    mon tailleur m’a envoyé des bas de soie que j’ai pensé
+    Eh la… Comment appellez-vous cela ? Vostre Prologue,
+    ou Dialogue de Chansons & de danse.
+  }
+  \livretPers "Maistre a dancer."
+  \livretText { Ah, ah. }
+  \livretPers "Maistre de musique."
+  \livretText { Vous nous y voyez préparez. }
+  \livretPers "Monsieur Jourdain."
+  \livretText {
+    Je vous ay fait un peu attendre, mais c’est que je me
+    fais habiller aujourd’huy comme les Gens de Qualité ;
+    & mon Tailleur m’a envoyé des Bas de soye que j’ay pensé
     ne mettre jamais.
   }
-  \livretPers "Maître de musique."
+  \livretPers "Maistre de musique."
   \livretText {
-    Nous ne sommes ici que pour attendre votre loisir.
+    Nous ne sommes icy que pour attendre vostre loisir.
   }
   \livretPers "Monsieur Jourdain."
   \livretText {
     Je vous prie tous deux de ne vous point en aller, qu’on
-    ne m’ait apporté mon habit, afin que vous me puissiez
+    ne m’ait apporté mon Habit, afin que vous me puissiez
     voir.
   }
-  \livretPers "Maître à danser."
-  \livretText {
-    Tout ce qu’il vous plaira.
-  }
+  \livretPers "Maistre a dancer."
+  \livretText { Tout ce qu’il vous plaira. }
   \livretPers "Monsieur Jourdain."
   \livretText {
     Vous me verrez équipé comme il faut, depuis les
-    pieds jusqu’à la tête.
+    pieds jusqu’à la teste.
   }
-  \livretPers "Maître de musique."
-  \livretText {
-    Nous n’en doutons point.
-  }
+  \livretPers "Maistre de musique."
+  \livretText { Nous n’en doutons point. }
+  \livretPers "Monsieur Jourdain."
+  \livretText { Je me suis fait faire cette Indienne-cy. }
+  \livretPers "Maistre a dancer."
+  \livretText { Elle est fort belle. }
   \livretPers "Monsieur Jourdain."
   \livretText {
-    Je me suis fait faire cette indienne-ci.
-  }
-  \livretPers "Maître à danser."
-  \livretText {
-    Elle est fort belle.
-  }
-  \livretPers "Monsieur Jourdain."
-  \livretText {
-    Mon tailleur m’a dit que les gens de qualité étoient
+    Mon Tailleur m’a dit que les Gens de Qualité estoient
     comme cela le matin.
   }
-  \livretPers "Maître de musique."
-  \livretText {
-    Cela vous sied à merveille.
-  }
+  \livretPers "Maistre de musique."
+  \livretText { Cela vous sied à merveille. }
   \livretPers "Monsieur Jourdain."
-  \livretText {
-    Laquais ! Holà, mes deux laquais !
-  }
+  \livretText { Laquais, hola, mes deux Laquais. }
   \livretPers "Premier laquais."
-  \livretText {
-    Que voulez-vous, monsieur ?
-  }
+  \livretText { Que voulez-vous, Monsieur ? }
   \livretPers "Monsieur Jourdain."
   \livretText {
     Rien. C’est pour voir si vous m’entendez bien.
-    \italic { (Aux deux maîtres.) }
-    Que dites-vous de mes livrées ?
+    \italic { (Aux deux Maistres.) }
+    Que dites-vous de mes Livrées ?
   }
-  \livretPers "Maître à danser."
-  \livretText {
-    Elles sont magnifiques.
-  }
+  \livretPers "Maistre a dancer."
+  \livretText { Elles sont magnifiques. }
   \livretPers "Monsieur Jourdain."
   \livretDidasP\justify {
-    (il entr’ouvre sa robe, et fait voir un haut-de-chausses étroit
-    de velours rouge, et une camisole de velours vert, dont il est vêtu.)
+    (Il entr’ouvre sa Robe, & fait voir un Haut-de-chausses étroit
+    de velours rouge, & une Camisole de velours vert, dont il est vestu.)
   }
-  \null
   \livretText { 
-    Voici encore un petit déshabillé pour faire le matin
-    mes exercices.
+    Voicy encore un petit Des-habillé pour faire le matin
+    mes Exercices.
   }
-  \livretPers "Maître de musique."
-  \livretText {
-    Il est galant.
-  }
+  \livretPers "Maistre de musique."
+  \livretText { Il est galant. }
   \livretPers "Monsieur Jourdain."
-  \livretText {
-    Laquais !
-  }
+  \livretText { Laquais. }
   \livretPers "Premier laquais."
-  \livretText {
-    Monsieur.
-  }
+  \livretText { Monsieur. }
   \livretPers "Monsieur Jourdain."
-  \livretText {
-    L’autre laquais !
-  }
+  \livretText { L’autre Laquais. }
   \livretPers "Second laquais."
-  \livretText {
-    Monsieur.
-  }
+  \livretText { Monsieur. }
   \livretPers "Monsieur Jourdain."
   \livretText {
-    Tenez ma robe. Me trouvez-vous bien comme cela ?
+    Tenez ma Robe. Me trouvez-vous bien comme cela ?
   }
-  \livretPers "Maître à danser."
-  \livretText {
-    Fort bien. On ne peut pas mieux.
-  }
+  \livretPers "Maistre a dancer."
+  \livretText { Fort bien. On ne peut pas mieux. }
   \livretPers "Monsieur Jourdain."
-  \livretText {
-    Voyons un peu votre affaire.
-  }
+  \livretText { Voyons un peu vostre Affaire. }
   \column-break
-  \livretPers "Maître de musique."
+  \livretPers "Maistre de musique."
   \livretText {
-    Je voudrais bien auparavant vous faire entendre un
-    air qu’il vient de composer pour la sérénade que vous
-    m’avez demandée. C’est un de mes écoliers, qui a pour
+    Je voudrois bien auparavant vous faire entendre un
+    Air qu’il vient de composer pour la Serenade que vous
+    m’avez demandée. C’est un de mes Ecoliers, qui a pour
     ces sortes de choses un talent admirable.
   }
   \livretPers "Monsieur Jourdain."
   \livretText {
-    Oui ; mais il ne fallait pas faire faire cela par un
-    écolier ; et vous n’étiez pas trop bon vous-même pour
+    Oüy ; mais il ne falloit pas faire faire cela par un
+    Ecolier ; & vous n’estiez pas trop bon vous-mesme pour
     cette besogne-là.
   }
-  \livretPers "Maître de musique."
+  \livretPers "Maistre de musique."
   \livretText {
-    Il ne faut pas, monsieur, que le nom d’écolier vous
-    abuse. Ces sortes d’écoliers en savent autant que les
-    plus grands maîtres, et l’air est aussi beau qu’il s’en
-    puisse faire. écoutez seulement.
+    Il ne faut pas, Monsieur, que le nom d’Ecolier vous
+    abuse. Ces sortes d’Ecoliers en sçavent autant que les
+    plus grands Maistres, & l’Air est aussi beau qu’il s’en
+    puisse faire. Ecoutez seulement.
   }
   \livretPers "Monsieur Jourdain."
   \livretText {
-    Donnez-moi ma robe pour mieux entendre... Attendez,
-    je crois que je serai mieux sans robe... Non ;
-    redonnez-la-moi, cela ira mieux.
+    Donnez-moy ma Robe pour mieux entendre… Attendez,
+    je croy que je seray mieux sans Robe… Non,
+    redonnez-la-moy, cela ira mieux.
   }
 }
 %% 1-2
@@ -331,36 +297,36 @@
 \markuplist\livret {
   \livretPers "Monsieur Jourdain."
   \livretText {
-    Cette chanson me semble un peu lugubre, elle endort,
-    et je voudrais que vous la pussiez un peu ragaillardir
-    par-ci, par-là.
+    Cette Chanson me semble un peu lugubre, elle endort,
+    & je voudrois que vous la pûssiez un peu ragaillardir
+    par-cy, par-là.
   }
-  \livretPers "Maître de musique."
+  \livretPers "Maistre de musique."
   \livretText {
-    Il faut, monsieur, que l’air soit accommodé aux
-    paroles.
+    Il faut, Monsieur, que l’Air soit accommodé aux
+    Paroles.
   }
   \livretPers "Monsieur Jourdain."
   \livretText {
-    On m’en apprit un tout à fait joli, il y a quelque
-    temps. Attendez... La... Comment est-ce qu’il dit ?
+    On m’en aprit un tout-à-fait joly il y a quelque
+    temps. Attendez… La… Comment est-ce qu’il dit ?
   }
   \column-break
-  \livretPers "Maître à danser."
+  \livretPers "Maistre a dancer."
   \livretText {
-    Par ma foi, Je ne sais.
+    Par ma foy, Je ne sçay.
   }
   \livretPers "Monsieur Jourdain."
   \livretText {
-    Il y a du mouton dedans.
+    Il y a du Mouton dedans.
   }
-  \livretPers "Maître à danser."
+  \livretPers "Maistre a dancer."
   \livretText {
-    Du mouton ?
+    Du Mouton ?
   }
   \livretPers "Monsieur Jourdain."
   \livretText {
-    Oui. Ah !
+    Oüy. Ah.
   }
 }
 \bookpart {
@@ -375,158 +341,154 @@
     \layout { }
     \midi { }
   } {
-    \livretText { N’est-il pas joli ? }
-    \livretPers "Maître de musique."
-    \livretText { Le plus joli du monde. }
-    \livretPers "Maître à danser."
+    \livretText { N’est-il pas joly ? }
+    \livretPers "Maistre de musique."
+    \livretText { Le plus joly du monde. }
+    \livretPers "Maistre a dancer."
     \livretText { Et vous le chantez bien. }
     \livretPers "Monsieur Jourdain."
-    \livretText { C’est sans avoir appris la musique. }
-    \livretPers "Maître de musique."
+    \livretText { C’est sans avoir appris la Musique. }
+    \livretPers "Maistre de musique."
     \livretText {
-      Vous devriez l’apprendre, monsieur, comme vous
-      faites la danse. Ce sont deux arts qui ont une étroite
+      Vous devriez l’aprendre, Monsieur, comme vous
+      faites la Dance. Ce sont deux Arts qui ont une étroite
       liaison ensemble.
     }
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Et qui ouvrent l’esprit d’un homme aux belles choses.
+      Et qui ouvrent l’esprit d’un Homme aux belles choses.
     }
     \livretPers "Monsieur Jourdain."
     \livretText {
-      Est-ce que les gens de qualité apprennent aussi la
-      musique ?
+      Est-ce que les Gens de Qualité aprennent aussi la
+      Musique ?
     }
-    \livretPers "Maître de musique."
-    \livretText { Oui, monsieur. }
+    \livretPers "Maistre de musique."
+    \livretText { Oüy, Monsieur. }
     \livretPers "Monsieur Jourdain."
     \livretText {
-      Je l’apprendrai donc. Mais je ne sais quel temps je
-      pourrai prendre ; car, outre le maître d’armes qui me
-      montre, j’ai arrêté encore un maître de philosophie,
+      Je l’pprendray donc. Mais je ne sçay quel temps je
+      pouray prendre ; car, outre le Maistre d’Armes qui me
+      montre, j’ay arresté encore un Maistre de Philosophie
       qui doit commencer ce matin.
     }
-    \livretPers "Maître de musique."
+    \livretPers "Maistre de musique."
     \livretText {
-      La philosophie est quelque chose ; mais la musique,
-      monsieur, la musique...
+      La Philosophie est quelque chose ; mais la Musique,
+      Monsieur, la Musique…
     }
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      La musique et la danse... La musique et la danse,
+      La Musique & la Dance… La Musique & la Dance,
       c’est là tout ce qu’il faut.
     }
-    \livretPers "Maître de musique."
+    \livretPers "Maistre de musique."
     \livretText {
-      Il n’y a rien qui soit si utile dans un état que la
-      musique.
+      Il n’y a rien qui soit si utile dans un Etat, que la
+      Musique.
     }
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Il n’y a rien qui soit si nécessaire aux hommes que
-      la danse.
+      Il n’y a rien qui soit si necessaire aux Hommes, que
+      la Dance.
     }
-
-    \livretPers "Maître de musique."
+    \livretPers "Maistre de musique."
     \livretText {
-      Sans la musique, un état ne peut subsister.
+      Sans la Musique, un Etat ne peut subsister.
     }
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Sans la danse, un homme ne saurait rien faire.
+      Sans la Dance, un Homme ne sçauroit rien faire.
     }
-    \livretPers "Maître de musique."
+    \livretPers "Maistre de musique."
     \livretText {
-      Tous les désordres, toutes les guerres qu’on voit dans
-      le monde, n’arrivent que pour n’apprendre pas la
-      musique.
+      Tous les desordres, toutes les guerres qu’on voit dans
+      le Monde, n’arrivent que pour n’aprendre pas la Musique.
     }
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Tous les malheurs des hommes, tous les revers funestes
-      dont les histoires sont remplies, les bévues des
-      politiques, et les manquements des grands capitaines,
-      tout cela n’est venu que faute de savoir danser.
+      Tous les malheurs des Hommes, tous les revers funestes
+      dont les Histoires sont remplies, les béveuës des
+      Politiques, & les manquements des grands Capitaines,
+      tout cela n’est venu que faute de sçavoir dancer.
     }
     \livretPers "Monsieur Jourdain."
-    \livretText { Comment cela ? }
-    \livretPers "Maître de musique."
+    \livretText { Comment cela ? }
+    \livretPers "Maistre de musique."
     \livretText {
-      La guerre ne vient-elle pas d’un manque d’union
-      entre les hommes ?
+      La Guerre ne vient-elle pas d’un manque d’union
+      entre les Hommes ?
     }
     \livretPers "Monsieur Jourdain."
-    \livretText { Cela est vrai. }
-    \livretPers "Maître de musique."
+    \livretText { Cela est vray. }
+    \livretPers "Maistre de musique."
     \livretText {
-      Et si tous les hommes apprenaient la musique, ne
-      serait-ce pas le moyen de s’accorder ensemble, et de
-      voir dans le monde la paix universelle ?
+      Et si tous les Hommes aprenoient la Musique, ne
+      seroit-ce pas le moyen de s’accorder ensemble, & de
+      voir dans le Monde la Paix universelle ?
     }
     \livretPers "Monsieur Jourdain."
     \livretText { Vous avez raison. }
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Lorsqu’un homme a commis un manquement dans
-      sa conduite, soit aux affaires de sa famille, ou au gouvernement
-      d’un état, ou au commandement d’une armée,
-      ne dit-on pas toujours : “un tel a fait un mauvais
-      pas dans une telle affaire” ?
+      Lorsqu’un Homme a commis un Manquement dans
+      sa conduite, soit aux Affaires de sa Famille, ou au Gouvernement
+      d’un Etat, ou au Commandement d’une Armée,
+      ne dit-on pas toûjours, un Tel a fait un mauvais
+      pas dans une telle Affaire ?
     }
     \livretPers "Monsieur Jourdain."
-    \livretText { Oui, on dit cela. }
-    \livretPers "Maître à danser."
+    \livretText { Oüy, on dit cela. }
+    \livretPers "Maistre a dancer."
     \livretText {
-      Et faire un mauvais pas peut-il procéder d’autre
-      chose que de ne savoir pas danser ?
-    }
-    \livretPers "Monsieur Jourdain."
-    \livretText {
-      Cela est vrai, vous avez raison tous deux.
-    }
-    \livretPers "Maître à danser."
-    \livretText {
-      C’est pour vous faire voir l’excellence et l’utilité de
-      la danse et de la musique.
+      Et faire un mauvais pas, peut-il proceder d’autre
+      chose que de ne sçavoir pas dancer ?
     }
     \livretPers "Monsieur Jourdain."
     \livretText {
-      Je comprends cela à cette heure.
+      Cela est vray, vous avez raison tous deux.
     }
-    \livretPers "Maître de musique."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Voulez-vous voir nos deux affaires ?
+      C’est pour vous faire voir l’excellence & l’utilité de
+      la Danse & de la Musique.
     }
     \livretPers "Monsieur Jourdain."
-    \livretText { Oui. }
-    \livretPers "Maître de musique."
     \livretText {
-      Je vous l’ai déjà dit, c’est un petit essai que j’ai fait
+      Je comprens cela à cette heure.
+    }
+    \livretPers "Maistre de musique."
+    \livretText {
+      Voulez-vous voir nos deux Affaires ?
+    }
+    \livretPers "Monsieur Jourdain."
+    \livretText { Oüy. }
+    \livretPers "Maistre de musique."
+    \livretText {
+      Je vous l’ay déja dit, c’est un petit essay que j’ay fait
       autrefois des diverses passions que peut exprimer la
-      musique.
+      Musique.
+    }
+    \livretPers "Monsieur Jourdain."
+    \livretText { Fort-bien. }
+    \livretPers "Maistre de musique."
+    \livretText {
+      Allons, avancez. Il faut vous figurer qu’ils sont habillez
+      en Bergers.
     }
     \livretPers "Monsieur Jourdain."
     \livretText {
-      Fort bien.
-    }
-    \livretPers "Maître de musique."
-    \livretText {
-      Allons, avancez. Il faut vous figurer qu’ils sont habillés
-      en bergers.
-    }
-    \livretPers "Monsieur Jourdain."
-    \livretText {
-      Pourquoi toujours des bergers ? On ne voit que cela
-      partout.
+      Pourquoy toûjours des Bergers ? On ne voit que cela
+      par tout.
     }
     \column-break
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Lorsqu’on a des personnes à faire parler en musique,
-      il faut bien que, pour la vraisemblance, on donne dans
-      la bergerie. Le chant a été de tout temps affecté aux
-      bergers ; et il n’est guère naturel en dialogue que des
-      princes ou des bourgeois chantent leurs passions.
+      Lors qu’on a des Personnes à faire parler en Musique,
+      il faut bien que pour la vray-semblance, on donne dans
+      la Bergerie. Le Chant a esté de tout temps affecté aux
+      Bergers ; & il n’est guére naturel en Dialogue, que des
+      Princes, ou des Bourgeois, chantent leurs passions.
     }
     \livretPers "Monsieur Jourdain."
     \livretText {
@@ -539,7 +501,7 @@
   \includeScore "AEritournelle"
   %% 1-4
   \pieceToc\markup\wordwrap {
-    Une musicienne : \italic { Un cœur dans l’amoureux Empire }
+    Une musicienne : \italic { Un cœur dans l’amoureux Empire }
   }
   \includeScore "AFmusicienne"
   %% 1-5
@@ -569,34 +531,32 @@
 
   \markuplist\livret {
     \livretPers "Monsieur Jourdain."
-    \livretText { Est-ce tout ? }
-    \livretPers "Maître de musique."
-    \livretText { Oui. }
+    \livretText { Est-ce tout ? }
+    \livretPers "Maistre de musique."
+    \livretText { Oüy. }
     \livretPers "Monsieur Jourdain."
     \livretText {
-      Je trouve cela bien troussé, et il y a là dedans de
+      Je trouve cela bien troussé, & il y a là-dedans de
       petits dictons assez jolis.
     }
     \column-break
-    \livretPers "Maître à danser."
+    \livretPers "Maistre a dancer."
     \livretText {
-      Voici, pour mon affaire, un petit essai des plus beaux
-      mouvements et des plus belles attitudes dont une
-      danse puisse être variée.
+      Voicy pour mon affaire, un petit essay des plus beaux
+      mouvemens, & des plus belles atitudes dont une
+      Dance puisse estre variée.
     }
     \livretPers "Monsieur Jourdain."
-    \livretText { Sont-ce encore des bergers ? }
-    \livretPers "Maître à danser."
-    \livretText {
-      C’est ce qu’il vous plaira. Allons.
-    }
+    \livretText { Sont-ce encore des Bergers ? }
+    \livretPers "Maistre a dancer."
+    \livretText { C’est ce qu’il vous plaira. Allons. }
   }
 
   \intermede "Premier Intermede"
   \sceneDescription\markup\justify {
-    Quatre danseurs exécutent tous les mouvements différents, 
-    et toutes les fortes de pas que le maître à danser leur
-    commande ; et cette danse fait le premier intermède.
+    Quatre danceurs executent tous les mouvemens diferens, 
+    & toutes les fortes de pas que le Maistre à dancer leur
+    commande : Et cette Dance fait le premier Intermede.
   }
   %% 1-10
   \pieceToc\markup Air
