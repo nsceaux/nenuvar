@@ -222,7 +222,7 @@ Lully/Comedie/LWV43LeBourgeoisGentilhomme:
 Lully/Comedie/LWV43LeBourgeoisGentilhomme-conducteur:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-conducteur  \
-	Lully/Comedie/LWV43LeBourgeoisGentilhomme/main-rehearsal-short.ly
+	Lully/Comedie/LWV43LeBourgeoisGentilhomme/part.ly
 .PHONY: Lully/Comedie/LWV43LeBourgeoisGentilhomme-conducteur
 # Dessus
 Lully/Comedie/LWV43LeBourgeoisGentilhomme-dessus:

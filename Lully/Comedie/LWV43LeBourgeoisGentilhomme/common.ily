@@ -104,4 +104,7 @@ intermede =
 #(define-music-function (parser location title) (string?)
    (add-toc-item parser 'tocSceneMarkup title)
    (add-odd-page-header-text parser (string-upper-case title) #t)
+   (add-toplevel-markup parser
+                        (markup #:scene (string-upper-case title)))
+   (add-no-page-break parser)
    (make-music 'Music 'void #t))

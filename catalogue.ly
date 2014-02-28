@@ -61,7 +61,7 @@
         #:url "http://nicolas.sceaux.free.fr/index.php?p=7"
         #:main ((#f "Livre complet")
                 (conducteur "Conducteur"
-                            #:score-file "main-rehearsal-short.ly"))
+                            #:score-file "part.ly"))
         #:parts ((dessus "Dessus")
                  (haute-contre "Haute-contre")
                  (taille "Taille")
