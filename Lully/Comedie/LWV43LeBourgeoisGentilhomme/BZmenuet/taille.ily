@@ -1,4 +1,4 @@
-mi'4. fa'8 sol'4 |
+\clef "taille" mi'4. fa'8 sol'4 |
 fa'4 sol'2 |
 sol'4. fa'8 mi'4 |
 re'2 mi'4 |
@@ -21,6 +21,6 @@ do'2 do'4 |
 si4. do'8 re'4 |
 do'4 mi'4 mi'4 |
 re'2 do'4 ~ |
-do'4 si4. si8 |
+do'4 si4.\trill si8 |
 do'2. |
 do'2. |

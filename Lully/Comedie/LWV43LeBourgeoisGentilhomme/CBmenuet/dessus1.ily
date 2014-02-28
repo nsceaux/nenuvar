@@ -1,4 +1,4 @@
-sol''4 mi''4 fa''4 |
+\clef "dessus" sol''4 mi''4 fa''4 |
 sol''2 sol''4 |
 la''4 sib''8 la''8 sol''8 fa''8 |
 sol''2 sol''4 |

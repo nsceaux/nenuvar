@@ -1,4 +1,4 @@
-do2. ~ |
+\clef "basse" do2. ~ |
 do2 do'4 |
 fa2. |
 do2 do'4 ~ |
@@ -13,7 +13,15 @@ la2 sol4 |
 fa2. |
 mi2 sold,4 |
 la,4 mi,2 |
-la,2 mi4 |
+la,2 \footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : \score {
+    \new Staff {
+      \tinyQuote \clef "bass" \time 3/4
+      la,2 <mi la>4 | la4.
+    }
+    \layout { \quoteLayout }
+  }
+} mi4 |
 la4. sol8 fa4 |
 mi2 la4 |
 re4 mi4. fa8 |
