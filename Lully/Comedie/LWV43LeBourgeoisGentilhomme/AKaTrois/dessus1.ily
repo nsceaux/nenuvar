@@ -22,7 +22,7 @@ re''2. re''4 sol''2 |
 mi''2 dod''2. dod''4 |
 re''4. mi''8 re''2 dod''4. si'16 dod''16 |
 re''1 r2 |
-R1.*12 |
+R1.*12 | \allowPageTurn
 R1 |
 r1 r4 la''4 |
 la''2 sol''2. r8 sol''8 |

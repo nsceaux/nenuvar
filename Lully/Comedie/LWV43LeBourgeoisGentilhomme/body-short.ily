@@ -21,7 +21,7 @@
 }
 \includeScore "ACmusicienne"
 
-\newBookPart #'(full)
+\newBookPart #'(full basse)
 \scene "Dialogue en musique" "Dialogue en musique"
 %% 1-3
 \pieceTocTitle "Ritournelle"
