@@ -1,4 +1,4 @@
-r4 sol'4 sol'4 |
+\clef "vhaute-contre" r4 sol'4 sol'4 |
 la'4 la'4 la'4 |
 sol'4 sol'4 sol'4 |
 mi'4 fa'4 re'4 |

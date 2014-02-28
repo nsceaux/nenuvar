@@ -1,4 +1,4 @@
-r4 do4 do4 |
+\clef "vbasse" r4 do4 do4 |
 fa4 fa4 re4 |
 sol4 sol4 mi4 |
 la4 fa4 sol4 |
@@ -17,8 +17,8 @@ sol2. |
 R2. |
 r4 fa4 fa4 |
 sib4 sib4 sol4 |
-la2. |
-r4 re4 re4 |
+la4 la, la, |
+re4 re4 re4 |
 sol4 sol4 sol4 |
 do4 re4 re4 |
 sol,2. |

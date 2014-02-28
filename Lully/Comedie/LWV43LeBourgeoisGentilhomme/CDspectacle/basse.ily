@@ -1,4 +1,4 @@
-R2.*11 |
+\clef "basse" R2.*11 |
 r4 do4 do4 |
 re2 re4 |
 mi2 mi4 |

@@ -1,4 +1,4 @@
-R2.*11 |
+\clef "quinte" R2.*11 |
 r4 do'4 do'4 |
 la4 re'4 re'4 |
 si2 si4 |

@@ -1,4 +1,4 @@
-R2.*11 |
+\clef "taille" R2.*11 |
 r4 sol'4 sol'4 |
 fa'2 fa'4 |
 mi'2 mi'4 |

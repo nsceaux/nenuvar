@@ -1,4 +1,4 @@
-r4 mi''4 mi''4 |
+\clef "vdessus" r4 mi''4 mi''4 |
 fa''4 fa''4 fa''4 |
 re''4 re''4 mi''4 |
 do''4 re''4 si'4 |

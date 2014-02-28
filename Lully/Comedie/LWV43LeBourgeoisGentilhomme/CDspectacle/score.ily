@@ -1,27 +1,37 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new StaffGroup <<
-      \newHaraKiriStaffB << \global \clef "dessus" \includeNotes "dessus"  >>
-      \newHaraKiriStaffB << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaffB << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaffB << \global \clef "quinte" \includeNotes "quinte" >>
-      \newHaraKiriStaffB << \global \clef "basse" \includeNotes "basse" >>
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff << \global \includeNotes "basse" >>
     >>
     \new ChoirStaff <<
       \new Staff \withLyrics <<
-        \global \clef "vdessus" \includeNotes "voix-dessus"
-      >>  \includeLyrics "paroles1"
+        \global \includeNotes "voix-dessus"
+      >> \keepWithTag #'vdessus \includeLyrics "paroles"
       \new Staff \withLyrics <<
-        \global \clef "vhaute-contre" \includeNotes "voix-haute-contre"
-      >>  \includeLyrics "paroles1"
+        \global \includeNotes "voix-haute-contre"
+      >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
       \new Staff \withLyrics <<
-        \global \clef "vtaille" \includeNotes "voix-taille"
-      >>  \includeLyrics "paroles1"
+        \global \includeNotes "voix-taille"
+      >> \keepWithTag #'vtaille \includeLyrics "paroles"
       \new Staff \withLyrics <<
-        \global \clef "basse" \includeNotes "voix-basse"
-      >>  \includeLyrics "paroles1"
+        \global \includeNotes "voix-basse"
+      >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue" >>
+    \new Staff <<
+      \global \includeNotes "basse-continue"
+      \origLayout {
+        s2.*8\pageBreak
+        s2.*8\pageBreak
+        s2.*8\pageBreak
+        s2.*8\pageBreak
+        s2.*8\pageBreak
+        s2.*8\pageBreak
+      }
+    >>
   >>
   \layout { }
   \midi { }
