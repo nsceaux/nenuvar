@@ -58,7 +58,8 @@ staffStart =
   \once\override Staff.InstrumentName.stencil = 
   #(lambda (grob)
      (let* ((clef (ly:grob-property grob 'clef))
-            (forbid-key-modification (eqv? #t (ly:get-option 'forbid-key-modification)))
+            (forbid-key-modification
+             (eqv? #t (ly:get-option 'forbid-key-modification)))
             (key (if forbid-key-modification
                      (ly:make-music 'Music)
                      (ly:grob-property grob 'key))))
@@ -67,26 +68,27 @@ staffStart =
                   (layout (ly:output-def-clone (ly:grob-layout grob)))
                   (music (make-music
                           'SequentialMusic
-                          'elements (list (make-music
-                                           'ContextSpeccedMusic
-                                           'context-type 'Staff
-                                           'property-operations
-                                           '((remove "Time_signature_engraver")
-                                             (push VerticalAxisGroup (-2 . 2) Y-extent)
-                                             (push InstrumentName 0 self-alignment-X)
-                                             (push InstrumentName 0.3 padding))
-                                           'element (make-music
-                                                     'PropertySet
-                                                     'symbol 'instrumentName
-                                                     'value instrument-name))
-                                          clef
-                                          (if (ly:music? key)
-                                              key
-                                              (make-music 'Music))
-                                          (make-music
-                                           'SkipMusic
-                                           'duration
-                                           (ly:make-duration 3 0 1 1)))))
+                          'elements
+                          (list
+                           (make-music
+                            'ContextSpeccedMusic
+                            'context-type 'Staff
+                            'property-operations
+                            '((remove "Time_signature_engraver")
+                              (push VerticalAxisGroup (-2 . 2) Y-extent)
+                              (push InstrumentName 0 self-alignment-X)
+                              (push InstrumentName 0.3 padding))
+                            'element (make-music
+                                      'PropertySet
+                                      'symbol 'instrumentName
+                                      'value instrument-name))
+                           clef
+                           (if (ly:music? key)
+                               key
+                               (make-music 'Music))
+                           (make-music
+                            'SkipMusic
+                            'duration (ly:make-duration 3 0 1 1)))))
                   (score (ly:make-score music))
                   (mm (ly:output-def-lookup layout 'mm))
                   (indent (ly:output-def-lookup layout 'indent 0))
@@ -99,7 +101,8 @@ staffStart =
              (ly:output-def-set-variable! layout 'indent indent)
              (ly:output-def-set-variable! layout 'ragged-right #f)
              (ly:score-add-output-def! score layout)
-             (set! (ly:grob-property grob 'long-text) (markup #:score score)))))
+             (set! (ly:grob-property grob 'long-text)
+                   (markup #:score score)))))
      ;; hack. Why are Staff.InstrumentName overrides permanent,
      ;; even with \once, and non re-overridable?
      (let ((short-text (ly:grob-property grob 'text)))
