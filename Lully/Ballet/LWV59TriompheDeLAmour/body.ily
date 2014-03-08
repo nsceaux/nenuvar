@@ -288,11 +288,19 @@
 }
 \includeScore "DGindienne"
 %% 4-8
+\pieceTocTitle "Chaconne"
+\reIncludeScore "DEchaconne" "DHchaconne"
+%% 4-9
+\pieceToc\markup\wordwrap {
+  (Chœur d’Indiens) \italic { Quelle heureuse foiblesse }
+}
+\includeScore "DIchoeur"
+%% 4-10
 \pieceToc\markup\wordwrap {
   (L’Indien et les deux Indiennes)
   \italic { Ses douleurs font verser de douces larmes }
 }
-\includeScore "DHindiens"
+\includeScore "DJindiens"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newPart

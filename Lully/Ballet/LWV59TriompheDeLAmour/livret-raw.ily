@@ -419,18 +419,19 @@
 %# Tous les biens, sans l'Amour, sont des biens imparfaits ;
 %# On se lasse d'un cœur toûjours paisible,
 %# On s'ennuie à la fin d'une trop longue paix.
-\livretRef #'DFchoeur
 \livretPers "TOUS"
 %# Pourquoy tant se contraindre
 %# Pour garder son cœur ?
 %# Hé quel mal peut-on craindre
 %# De l'Amour vainqueur ?
+% DHchaconne
 \null
+\livretRef #'DIchoeur
 %# Quelle heureuse foiblesse !
 %# Quel heureux tourment !
 %# Non l'amour ne nous blesse
 %# Que d'un trait charmant.
-\livretRef #'DHindiens
+\livretRef #'DJindiens
 \livretPers "UNE INDIENNNE"
 %# Ses douleurs font verser de douces larmes,
 %# Il accroist les plaisirs par ses allarmes,

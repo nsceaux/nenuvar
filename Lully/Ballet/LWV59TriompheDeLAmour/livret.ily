@@ -421,18 +421,19 @@
 \livretVerse#12 { Tous les biens, sans l’Amour, sont des biens imparfaits ; }
 \livretVerse#10 { On se lasse d’un cœur toûjours paisible, }
 \livretVerse#11 { On s’ennuie à la fin d’une trop longue paix. }
-\livretRef #'DFchoeur
 \livretPers "TOUS"
 \livretVerse#6 { Pourquoy tant se contraindre }
 \livretVerse#5 { Pour garder son cœur ? }
 \livretVerse#6 { Hé quel mal peut-on craindre }
 \livretVerse#5 { De l’Amour vainqueur ? }
+% DHchaconne
 \null
+\livretRef #'DIchoeur
 \livretVerse#7 { Quelle heureuse foiblesse ! }
 \livretVerse#5 { Quel heureux tourment ! }
 \livretVerse#6 { Non l’amour ne nous blesse }
 \livretVerse#5 { Que d’un trait charmant. }
-\livretRef #'DHindiens
+\livretRef #'DJindiens
 \livretPers "UNE INDIENNNE"
 \livretVerse#10 { Ses douleurs font verser de douces larmes, }
 \livretVerse#10 { Il accroist les plaisirs par ses allarmes, }
