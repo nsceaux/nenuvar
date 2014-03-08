@@ -429,7 +429,7 @@
 % DHchaconne
 \null
 \livretRef #'DIchoeur
-\livretVerse#7 { Quelle heureuse foiblesse ! }
+\livretVerse#6 { Quelle heureuse foiblesse ! }
 \livretVerse#5 { Quel heureux tourment ! }
 \livretVerse#6 { Non l’amour ne nous blesse }
 \livretVerse#5 { Que d’un trait charmant. }

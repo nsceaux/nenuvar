@@ -427,7 +427,7 @@
 % DHchaconne
 \null
 \livretRef #'DIchoeur
-%# Quelle heureuse foiblesse !
+%# Quelle *heureuse foiblesse !
 %# Quel heureux tourment !
 %# Non l'amour ne nous blesse
 %# Que d'un trait charmant.
