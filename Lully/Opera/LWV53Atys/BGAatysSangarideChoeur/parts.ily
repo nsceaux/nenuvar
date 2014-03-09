@@ -10,4 +10,4 @@
                     s2.*49\break
                     s1 s1. s1 s2.*71\break
                     #})
-                   (silence #:score "score-silence"))
+                   (silence #:on-the-fly-markup , #{ \markup\fontsize #2 { \hspace #10 Tacet } #}))

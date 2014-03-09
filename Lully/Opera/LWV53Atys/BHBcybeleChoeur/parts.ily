@@ -6,4 +6,4 @@
                    (basse-continue
                     #:score-template "score-basse-continue-voix"
                     #:notes "basse-continue")
-                   (silence #:score "score-silence"))
+                   (silence #:on-the-fly-markup , #{ \markup\fontsize #2 { \hspace #10 Tacet } #}))

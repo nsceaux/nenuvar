@@ -1,5 +1,5 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
                    (basse-continue #:notes "basse-continue"
                                    #:score-template "score-basse-continue-voix")
-                   (silence #:score "score-silence"))
+                   (silence #:on-the-fly-markup , #{ \markup\fontsize #2 { \hspace #10 Tacet } #}))
 
