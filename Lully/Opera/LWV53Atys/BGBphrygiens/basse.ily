@@ -17,7 +17,7 @@ do'4 si8 la sold2\trill |
 la4 la8 sol fad2\trill |
 sol4. fa8 mi re do re |
 %{ mi4. fa8 %} mi4 fa sol4 sol, |
-\footnoteHereFull #'(0 . 2.5) \markup {
+\footnoteHereFull #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key do \major \clef "basse"

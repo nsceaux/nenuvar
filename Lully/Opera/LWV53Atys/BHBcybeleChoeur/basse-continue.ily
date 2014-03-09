@@ -87,7 +87,7 @@ la sol fa re |
 mi re do la, |
 re mi fa re |
 mi re mi mi, |
-\footnoteHereFull #'(3 . -1) \markup\justify {
+\footnoteHereFull #'(0 . 0) \markup\justify {
   L'édition Baussen 1709 indique de jouer pour l'entr'acte le second
   air des Phrygiens (page \page-refIII #'BGCphrygiens .)
 }

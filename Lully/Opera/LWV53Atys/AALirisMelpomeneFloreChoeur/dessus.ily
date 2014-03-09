@@ -12,7 +12,7 @@
     sol''2
   }
   \tag #'dessus2 {
-    \footnoteHereFull #'(0 . 2)
+    \footnoteHereFull #'(0 . 0)
     \markup\column {
       \wordwrap {
         Manuscrit : la partie de deuxième dessus est différente dans la
