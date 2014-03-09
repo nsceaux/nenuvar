@@ -1,4 +1,2 @@
 \piecePartSpecs #`((basse-continue #:indent 0)
-                   (silence #:score "score-silence"
-                            #:indent 0
-                            #:tag-global silence))
+                   (silence #:on-the-fly-markup , #{ \markup\fontsize #1 \column { \line { \hspace #10 Tacet } \null } #}))

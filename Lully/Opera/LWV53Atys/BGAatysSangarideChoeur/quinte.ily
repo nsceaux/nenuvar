@@ -59,7 +59,7 @@ la sol2 |
 sol4 r r2 |
 R1. |
 R1 |
-R2.*7 |
+R2.*7 | \allowPageTurn
 r4 r do'4 |
 do'2. |
 re'4 la si |
