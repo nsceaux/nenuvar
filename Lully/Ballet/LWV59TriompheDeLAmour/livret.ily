@@ -567,8 +567,8 @@
 % ESprelude Jupiter
 \livretRef #'ETjupiterChoeur
 \livretPers JUPITER
-\livretVerse#7 { Triomphez, Amour victorieux, }
-\livretVerse#8 { Triomphez des Mortels & des Dieux. }
+\livretVerse#9 { Triomphez, Amour victorieux, }
+\livretVerse#9 { Triomphez des Mortels & des Dieux. }
 \livretVerse#12 { Vous imposez des loix à toute la Nature }
 \livretVerse#8 { Vous enflammez le sein des Mers ; }
 \livretVerse#8 { Vos feux percent la nuit obscure }
@@ -576,11 +576,11 @@
 \livretVerse#12 { Vostre chaîne s’estend aux deux bouts de la Terre ; }
 \livretVerse#8 { Vos traits s’eslevent jusqu’aux Cieux : }
 \livretVerse#12 { Vos coups sont plus puissants que les coups du Tonnerre ; }
-\livretVerse#7 { Triomphez, Amour victorieux, }
-\livretVerse#8 { Triomphez des Mortels & des Dieux. }
+\livretVerse#8 { Triomphez, Amour victorieux, }
+\livretVerse#9 { Triomphez des Mortels & des Dieux. }
 \livretPers "CHŒUR DES DIVINITEZ"
-\livretVerse#7 { Triomphez, Amour victorieux, }
-\livretVerse#8 { Triomphez des Mortels & des Dieux. }
+\livretVerse#9 { Triomphez, Amour victorieux, }
+\livretVerse#9 { Triomphez des Mortels & des Dieux. }
 \livretVerse#12 { Vous imposez des loix à toute la Nature }
 \livretVerse#8 { Vous enflammez le sein des Mers ; }
 \livretVerse#8 { Vos feux percent la nuit obscure }
@@ -588,7 +588,7 @@
 \livretVerse#12 { Vostre chaîne s’estend aux deux bouts de la Terre ; }
 \livretVerse#8 { Vos traits s’eslevent jusqu’aux Cieux : }
 \livretVerse#12 { Vos coups sont plus puissants que les coups du Tonnerre ; }
-\livretVerse#7 { Triomphez, Amour victorieux, }
-\livretVerse#8 { Triomphez des Mortels & des Dieux. }
+\livretVerse#8 { Triomphez, Amour victorieux, }
+\livretVerse#9 { Triomphez des Mortels & des Dieux. }
 
 }

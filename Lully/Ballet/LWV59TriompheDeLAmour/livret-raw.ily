@@ -565,8 +565,8 @@
 % ESprelude Jupiter
 \livretRef #'ETjupiterChoeur
 \livretPers JUPITER
-%# Triomphez, Amour victorieux,
-%# Triomphez des Mortels & des Dieux.
+%# Tri=omphez, Amour victori=eux,
+%# Tri=omphez des Mortels & des Dieux.
 %# Vous imposez des loix à toute la Nature
 %# Vous enflammez le sein des Mers ;
 %# Vos feux percent la nuit obscure
@@ -574,11 +574,11 @@
 %# Vostre chaîne s'estend aux deux bouts de la Terre ;
 %# Vos traits s'eslevent jusqu'aux Cieux :
 %# Vos coups sont plus puissants que les coups du Tonnerre ;
-%# Triomphez, Amour victorieux,
-%# Triomphez des Mortels & des Dieux.
+%# Tri=omphez, Amour victorieux,
+%# Tri=omphez des Mortels & des Dieux.
 \livretPers "CHŒUR DES DIVINITEZ"
-%# Triomphez, Amour victorieux,
-%# Triomphez des Mortels & des Dieux.
+%# Tri=omphez, Amour victori=eux,
+%# Tri=omphez des Mortels & des Dieux.
 %# Vous imposez des loix à toute la Nature
 %# Vous enflammez le sein des Mers ;
 %# Vos feux percent la nuit obscure
@@ -586,6 +586,6 @@
 %# Vostre chaîne s'estend aux deux bouts de la Terre ;
 %# Vos traits s'eslevent jusqu'aux Cieux :
 %# Vos coups sont plus puissants que les coups du Tonnerre ;
-%# Triomphez, Amour victorieux,
-%# Triomphez des Mortels & des Dieux.
+%# Tri=omphez, Amour victorieux,
+%# Tri=omphez des Mortels & des Dieux.
 

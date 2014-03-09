@@ -389,10 +389,7 @@
 \includeScore "ERair"
 
 %% 5-19
-\pieceTocTitle "Prelude pour Jupiter"
-\includeScore "ESprelude"
-%% 5-20
 \pieceToc\markup\wordwrap {
   (Jupiter, chœur des Divinitez) Triomphez, Amour victorieux
 }
-\includeScore "ETjupiterChoeur"
+\includeScore "ESjupiterChoeur"
