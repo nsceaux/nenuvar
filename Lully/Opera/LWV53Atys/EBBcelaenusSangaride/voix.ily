@@ -13,7 +13,7 @@
     r8-\tag #'sangaride ^\markup\orig-version\character "[Sangaride]"
     mi'' si'8.\trill si'16 mi''8. si'16 |
     do''4 r8 do''16 si' la'8\trill la'16 sol' |
-    \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+    \footnoteHere #'(0 . 3.5) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \time 3/4 \set autoBeaming = ##f
@@ -46,7 +46,7 @@
     do'4 do'8 re' si4\trill si8 do' |
     re'4 r8 sol re8.\trill re16 re8. mi16 |
     fa4 r16 fa fa sol la8. si16 |
-    do'4 r8 do'16 \myfootnote #'NoteHead #'(0 . 1) \markup {
+    do'4 r8 do'16 \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \time 3/4 \set autoBeaming = ##f

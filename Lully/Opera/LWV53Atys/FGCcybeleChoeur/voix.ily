@@ -51,7 +51,7 @@
     mib''4 do''8 do'' fa''4. fa''8 |
     re''2\trill r4 sib'8 sib' |
     lab'4\trill lab'8 sol' fa'4.\trill sol'8 |
-    mib'4 mib' r \myfootnote #'NoteHead #'(0 . 2) \markup\wordwrap {
+    mib'4 mib' r \footnoteHere #'(0 . 2) \markup\wordwrap {
       Les vers de Cybèle :
       \italic { Que cet arbre sacré soit révéré De toute la nature }
       (mesures 59 à 63)

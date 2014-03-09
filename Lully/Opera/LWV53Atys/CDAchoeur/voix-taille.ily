@@ -57,7 +57,7 @@ r2 re'4 re' |
 re'2 %{ re'4. re'8 %} re'4 re' |
 re'2. re'4 |
 re'2 re'4 mi' |
-\myfootnote #'NoteHead #'(0 . 1) \markup {
+\footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \time 2/2

@@ -32,7 +32,7 @@ si'4^\markup\whiteout "Violons" si' si' |
 do''2 do''8 sib' |
 lab'4 lab' sol' |
 sol'2 sol'4 |
-\myfootnote #'NoteHead #'(0 . -2) \markup {
+\footnoteHere #'(0 . -2) \markup {
   Manuscrit : \raise #3 \score {
     \new ChoirStaff <<
       \new Staff \with { instrumentName = "h-c. hb." } {
@@ -56,7 +56,7 @@ sib'4 la'4.\trill sib'8 |
 sib'2 sib'4 |
 sib'8^\markup\whiteout "Hautbois" la' sib' do'' sib' do'' |
 la'4\trill la' la' |
-\myfootnote #'NoteHead #'(0 . 2) \markup {
+\footnoteHere #'(0 . 2) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 3/4
       \key re \minor \clef "soprano"
@@ -82,7 +82,7 @@ do''2. |
 do''8 sib' do'' re'' do'' sib' |
 la'2 sib'4 |
 sib' do'' la' |
-\myfootnote #'NoteHead #'(0 . 2) \markup {
+\footnoteHere #'(0 . 2) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 3/4
       \key re \minor \clef "soprano"

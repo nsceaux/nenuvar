@@ -4,7 +4,7 @@ re4\trill re8. re16 re4 re8 mib |
 fa8 fa fa sol mib8.\trill re16 do8\tr do16 re |
 sib,4 r8 re16 mi fa8 sol16 la |
 % Manuscrit : sib8 sib16 sib sib8 sib16 la la8\trill la r fa |
-\myfootnote #'NoteHead #'(0 . 1)
+\footnoteHere #'(0 . 1)
 \markup { Manuscrit : 
   \raise #2.5 \score {
     { \tinyQuote
@@ -25,7 +25,7 @@ mi4\trill mi8. fa16 re4\trill r8 la16 la |
 sib4 sib8. sib16 sol4.\trill do'8 |
 do'8. si16 si8.\trill do'16 do'4 do' |
 % Manuscrit : sol8 sol mib do re4 re16[ do] re8 |
-\myfootnote #'NoteHead #'(0 . 2)
+\footnoteHere #'(0 . 2)
 \markup { Manuscrit : 
   \raise #2.5 \score {
     <<

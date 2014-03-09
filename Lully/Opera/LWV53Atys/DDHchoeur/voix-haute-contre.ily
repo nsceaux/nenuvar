@@ -6,7 +6,7 @@ re' re' re' mib' re'4. re'8 |
 re'2 re'4 re' re' re' |
 mi' mi' mi' fa' sol' sol' |
 fa' fa' fa' fa' fa' fa' |
-mib' mib' mib' \myfootnote #'NoteHead #'(0 . 1) \markup {
+mib' mib' mib' \footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \time 3/2 \key re \minor \clef "alto"
@@ -26,7 +26,7 @@ mib'2. mib'4 mib' mib' |
 re'1. |
 sol'4 sol'8 sol' sol'4 sol' sol' sol' |
 sol'2 sol' r |
-\myfootnote #'NoteHead #'(0 . 1) \markup {
+\footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \time 3/2 \key re \minor \clef "alto"

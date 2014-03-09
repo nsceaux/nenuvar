@@ -1,7 +1,7 @@
 \clef "dessus" mi''2. mi''4 |
 re''2.\trill re''4 |
 re''4. do''8 do''4. re''8 |
-si'2\trill si'4. \myfootnote #'NoteHead #'(0 . 4) \markup {
+si'2\trill si'4. \footnoteHere #'(0 . 4) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key do \major \clef "french" \time 2/2
       si'2 si'4. do''8 | la'4.

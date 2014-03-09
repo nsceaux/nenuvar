@@ -15,7 +15,7 @@ sib2 sib,4 |
 mib2 re4. do8 |
 si,2.\trill |
 do |
-\myfootnote #'NoteHead #'(0 . 2) \markup {
+\footnoteHere #'(0 . 2) \markup {
   Manuscrit : \raise #2.5 \score {
     { \tinyQuote \key sol \minor \clef "bass"
       \digitTime\time 3/4 fa2. |
@@ -92,7 +92,7 @@ fa,1 |
 sib,2 sib |
 do'1 |
 re' |
-\myfootnote #'NoteHead #'(0 . 0.5) \markup\column {
+\footnoteHere #'(0 . 0.5) \markup\column {
   \line {
     Ballard : \raise #3.5 \score {
       { \tinyQuote \key sol \minor \clef "bass" \time 2/2
@@ -131,7 +131,7 @@ do |
 sol |
 << \origVersion { mi2~ mi } \modVersion mi1 >> |
 fa2 re4 |
-\myfootnote #'NoteHead #'(0 . 1) \markup {
+\footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key sol \minor \clef "bass" \time 3/4
       sol8 mib lab fa sol sol, | do2. \bar "|." }

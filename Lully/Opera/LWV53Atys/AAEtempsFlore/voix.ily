@@ -5,7 +5,7 @@
     sol4 sol8. re16 mib4. mib8 |
     %{ re8. re16 %} re8\trill re re8 mib fa4. fa8 |
     sol8. sol16 sol8. la16 sib8. do'16 |
-    la8\trill la r8 \myfootnote #'NoteHead #'(0 . 1)
+    la8\trill la r8 \footnoteHere #'(0 . 1)
     \markup { Manuscrit : 
       \raise #2.5 \score {
         \new Staff {
@@ -44,7 +44,7 @@
     fad' sol'8 la' sib'4( la')\trill |
     sol'1 |
     % r2 sib'4. re''8 | sib'2\trill sib'4. sib'8 | sol'2.\trill sol'4 |
-   \myfootnote #'Rest #'(0 . 2.5)
+   \footnoteHere #'(0 . 2.5)
     \markup {
       À partir de la mesure 26, le manuscrit comporte
       une mesure de plus que Ballard : 

@@ -6,7 +6,7 @@ mi''2.\trill |
 do''4 do''4. re''8 |
 do''2.\trill |
 % Manuscrit : do''4 do''4. fa''8 |
-\myfootnote #'NoteHead #'(0 . 1)
+\footnoteHere #'(0 . 1)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new StaffGroupNoBar <<
@@ -60,7 +60,7 @@ re''4( do''2)\trill |
 sib'4 re''4. re''8 |
 do''4\trill do'' re'' |
 % mib''4 mib''4. fa''8 |
-\myfootnote #'NoteHead #'(0 . 1)
+\footnoteHere #'(0 . 1)
 \markup { Manuscrit : 
   \raise #4 \score {
     { \tinyQuote \set autoBeaming = ##f

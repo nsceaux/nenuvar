@@ -22,7 +22,7 @@ sol2 sol4 do |
 re2 re, |
 sol,1~ |
 sol, |
-sol4 fa mi \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+sol4 fa mi \footnoteHere #'(0 . 3.5) \markup {
   Manuscrit : \raise #2.5 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "bass"

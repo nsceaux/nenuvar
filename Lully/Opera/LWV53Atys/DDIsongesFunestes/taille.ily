@@ -20,7 +20,7 @@ mib'2 sol'4 sol'8 fa' mib'4 mib'8 re' |
 do'2 re' re' |
 re'4 re'8 do' sib2 do'4. do'8 |
 do' sib la4 la re' re'8 mib' fa'4 |
-\myfootnote #'NoteHead #'(0 . 1.5) \markup {
+\footnoteHere #'(0 . 1.5) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 3/2 \key re \minor \clef "mezzosoprano"
       do'8 sib la4 la re'4. re'8 mi' fa' | fa'1. | \bar ":|"

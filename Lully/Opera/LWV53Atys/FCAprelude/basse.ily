@@ -1,6 +1,6 @@
 \clef "basse" fa2 mi\trill |
 re do4 fa, |
-do16 \myfootnote #'NoteHead #'(0 . 4) \markup {
+do16 \footnoteHere #'(0 . 4) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key fa \major \clef "bass" \time 4/4
       do16 sib, do re mi re mi do fa mi fa sol la sol la fa |

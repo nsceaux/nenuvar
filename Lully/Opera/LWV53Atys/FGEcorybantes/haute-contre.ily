@@ -1,7 +1,7 @@
 \clef "haute-contre" do''4 do'' do'' do'' re'' si' |
 do''2 sol'4 sol'2 sol'4 |
 sol'2 sol'4 la' la'2 |
-\myfootnote #'NoteHead #'(0 . 1) \markup {
+\footnoteHere #'(0 . 1) \markup {
   Ballard : \raise #3.5 \score {
     { \tinyQuote \key do \major \clef "soprano" \time 6/4
       la'4 si'2 dod''4 dod''4.( si'16 dod'') | re''4.

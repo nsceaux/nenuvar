@@ -5,7 +5,7 @@ re' re' re' |
 re' mi'2 |
 re'2. |
 la'8 sol' fad'4 mi' |
-\myfootnote #'NoteHead #'(0 . 3.5)
+\footnoteHere #'(0 . 3.5)
 \markup {
   Manuscrit :
   \raise #3 \score {
@@ -23,7 +23,7 @@ mi'4 mi' mi' |
 mi' la2 |
 si si4 |
 do'2 do'4 |
-\myfootnote #'NoteHead #'(0 . 3.5)
+\footnoteHere #'(0 . 3.5)
 \markup {
   Manuscrit :
   \raise #3 \score {

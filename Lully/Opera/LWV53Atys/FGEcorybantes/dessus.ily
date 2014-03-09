@@ -2,7 +2,7 @@
 mi''4 do''8 re'' mi'' do'' re''4 sol'8 la' si' sol' |
 do''4 do''8 re'' mi''4 la' fa''2 |
 re''4 sol''2 mi''4 la''2 |
-fad''4. \myfootnote #'NoteHead #'(0 . 2) \markup {
+fad''4. \footnoteHere #'(0 . 2) \markup {
   Manuscrit : \raise #3 \score {
     <<
       \new Staff {

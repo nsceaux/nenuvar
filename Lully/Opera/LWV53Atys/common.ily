@@ -267,9 +267,17 @@ baussenFiguresAlt =
 
 %% Footnotes
 
-myfootnoteAll =
-#(define-music-function (parser location grob offset text)
-     (symbol? number-pair? markup?)
+footnoteHereFull =
+#(define-music-function (parser this-location offset note)
+     (number-pair? markup?)
    (if (not (symbol? (ly:get-option 'part)))
-       #{ \footnote $offset $grob $text #}
+       (let ((foot-mus (make-music
+                        'FootnoteEvent
+                        'X-offset (car offset)
+                        'Y-offset (cdr offset)
+                        'automatically-numbered #t
+                        'text (make-null-markup)
+                        'footnote-text note)))
+         (set! location #f)
+         #{ <>-\tweak footnote-music #foot-mus ^\markup\transparent\box "1" #})
        (make-music 'Music 'void #t)))

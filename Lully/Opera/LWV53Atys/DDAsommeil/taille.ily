@@ -8,7 +8,7 @@ R1*4 |
 \afterGrace re'1( mib'16) |
 re'1 |
 mib'4( fa') mib'( re') |
-do'2 fa'4 \myfootnote #'NoteHead #'(0 . 1.5) \markup {
+do'2 fa'4 \footnoteHere #'(0 . 1.5) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "mezzosoprano"
@@ -21,7 +21,7 @@ re' r r2 |
 R1*5 |
 <<
   \new CueVoice {
-    \myfootnote #'NoteHead #'(0 . 2.5) \markup\column {
+    \footnoteHere #'(0 . 2.5) \markup\column {
       \line {
         Ballard : \raise #3 \score {
           { \tinyQuote \time 2/2

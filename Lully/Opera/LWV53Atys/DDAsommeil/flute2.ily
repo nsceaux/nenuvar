@@ -53,7 +53,7 @@ la'2\trill sib'~ |
 sib'2 la'4.(\trill sol'16 la') |
 sib'4. do''8 re''2 |
 sol'4 sol'' fa''4. sol''8 |
-mib''4. re''8 \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+mib''4. re''8 \footnoteHere #'(0 . 3.5) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "french"

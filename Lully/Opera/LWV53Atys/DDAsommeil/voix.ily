@@ -14,13 +14,13 @@
     sol' |
     r4 sol' sol' sol' |
     sol'2( fad'4.) sol'8 |
-    \myfootnoteAll #'NoteHead #'(0 . 1) \markup {
+    \footnoteHereFull #'(0 . 1) \markup {
       Le manuscrit contient une barre de reprise à la fin de la mesure 70 :
       les vers du Sommeil (mesures 58 à 70) sont chantés deux fois.
     }
     sol'1 |
     << { s1*63 } \tag #'sommeil { R1*63 } >>
-    \myfootnoteAll #'Rest #'(0 . -2.5) \markup\wordwrap {
+    \footnoteHereFull #'(0 . -2.5) \markup\wordwrap {
       Le manuscrit ne comporte pas la reprise des premiers vers du Sommeil
       (mesures 134 à 145).
       \orig-version {
@@ -76,7 +76,7 @@
     sib2 re'4. re'8 |
     re'4. mi'8 fa'2 |
     mi'4.\trill mi'8 mi'4. mi'8 |
-    \myfootnote #'NoteHead #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \hspace #2 \raise #3 \score {
         \new ChoirStaff <<
           \new Staff {
@@ -108,7 +108,7 @@
     re'2. re'4 |
     do'4.\trill do'8 do'2 |
     re'4. re'8 mib'4. mib'8 |
-    fa'4 fa' fa' \myfootnote #'NoteHead #'(0 . 2) \markup {
+    fa'4 fa' fa' \footnoteHere #'(0 . 2) \markup {
       Manuscrit : \raise #3 \score {
         << { \tinyQuote \time 2/2 \set autoBeaming = ##f
             \key re \minor \clef "alto" fa'4 fa' fa' mib'8[ re'] | mib'2.
@@ -156,7 +156,7 @@
     la\trill re'~ |
     re'4. do'8 do'4. do'8 |
     do'4. do'8 sib4. sib8 |
-    \myfootnote #'NoteHead #'(0 . 2) \markup {
+    \footnoteHere #'(0 . 2) \markup {
       Manuscrit : \raise #3 \score {
         << { \tinyQuote \time 2/2 \set autoBeaming = ##f
             \key re \minor \clef "tenor" sib4( la8) sib la4. la8 | sid4.
@@ -168,7 +168,7 @@
     sib4. sib8 la4.\trill la8 |
     si4. si8 do'2 |
     re'4 re' re'2~ |
-    re'4 do' \myfootnote #'NoteHead #'(0 . 1.5) \markup {
+    re'4 do' \footnoteHere #'(0 . 1.5) \markup {
       Manuscrit : \raise #3 \score {
         << { \tinyQuote \time 2/2 \set autoBeaming = ##f
             \key re \minor \clef "tenor" re'4 do' do'8[( sib] do'4) | sid4
@@ -180,7 +180,7 @@
     si4 mib' re' do' |
     si do' re'2~ |
     re'4 do' do'2~ |
-    \myfootnote #'NoteHead #'(0 . 1.5) \markup {
+    \footnoteHere #'(0 . 1.5) \markup {
       Manuscrit : \raise #3 \score {
         << { \tinyQuote \time 2/2 \set autoBeaming = ##f
             \key re \minor \clef "tenor"
@@ -280,7 +280,7 @@
       re |
       sol |
       fa |
-      mib4. mib8 \myfootnote #'NoteHead #'(0 . 2) \markup {
+      mib4. mib8 \footnoteHere #'(0 . 2) \markup {
         Manuscrit \raise #3 \score {
           << { \tinyQuote \time 2/2 \set autoBeaming = ##f
               \key re \minor \clef "bass"

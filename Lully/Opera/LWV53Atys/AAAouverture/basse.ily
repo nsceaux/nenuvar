@@ -18,7 +18,7 @@ re,1 |
 R1.*3 |
 % Manuscrit : sol8 fad sol la sol la fad mi fad sol fad sol |
 % Manuscrit : mi re mib fa mib fa re2. |
-\myfootnote #'NoteHead #'(0 . 1)
+\footnoteHere #'(0 . 1)
 \markup { Manuscrit : 
   \raise #2.5 \score {
     { \tinyQuote \key re \minor \clef "bass" \time 6/4
@@ -37,7 +37,7 @@ sib,4. sib8 la sol fad2.\trill |
 sol la8 sol la sib la sol |
 fa4 sol8 fa mi re dod2.\trill |
 % Manuscrit : re8 do re mi re do sib, la, sib, do sib, do |
-\myfootnote #'NoteHead #'(0 . 3)
+\footnoteHere #'(0 . 3)
 \markup { Manuscrit : 
   \raise #2.5 \score {
     { \tinyQuote \key re \minor \clef "bass" \time 6/4
@@ -50,7 +50,7 @@ re8 do re mib re do sib, la, sib, do sib, do |
 la,2.\trill la8 sol la sib la sol |
 fad\trill mi fad re mi fad sol fa? sol la sol fa |
 % Manuscrit : mi re mi do re mi fa mi fa sol fa mib |
-\myfootnote #'NoteHead #'(0 . 3)
+\footnoteHere #'(0 . 3)
 \markup { Manuscrit : 
   \raise #2.5 \score {
     { \tinyQuote \key re \minor \clef "bass" \time 6/4

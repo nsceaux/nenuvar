@@ -8,7 +8,7 @@ fa,1 |
 do |
 sol,4 do re2 |
 sol4 si,\trill do2 |
-fa4. \myfootnote #'NoteHead #'(0 . 2) \markup {
+fa4. \footnoteHere #'(0 . 2) \markup {
   Manuscrit : \raise #2.5 \score {
     { \tinyQuote \time 4/4 \key re \minor \clef "bass"
       fa4. mid?8 re4 la, | sib,4.

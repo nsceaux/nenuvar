@@ -1,5 +1,5 @@
 \clef "quinte" do'2 si4 |
-\myfootnote #'NoteHead #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 3.5) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote
       \key la \minor \clef "alto" \time 3/4

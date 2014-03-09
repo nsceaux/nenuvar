@@ -5,7 +5,7 @@
     la'4\trill la' fad'8 fad'16 fad' fad'8. fad'16 |
     sol'8 sol'16 si' sol'8\trill sol'16 sol' mi'4\trill r8 do''16 do'' |
     % mi'8\trill mi'16 fad' sold'8. sold'16 la'8. si'16 do''8. re''16 |
-    mi'8\trill mi'16 fad' \myfootnote #'NoteHead #'(0 . 2) \markup {
+    mi'8\trill mi'16 fad' \footnoteHere #'(0 . 2) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -39,7 +39,7 @@
     \tag #'basse \cybeleMark r8 fad'16 fad' fad'8 fad'16 fad' |
     sol'4 sol'8 la'16 si' do''8. re''16 |
     si'4\trill si' r sol'8 sol' |
-    \myfootnote #'NoteHead #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -87,7 +87,7 @@
       \tag #'celaenus { \celaenusMark R1*5 | R2.*2 | R1*3 | R2.*4 | R1*4 | R2. | r4 } >>
     \tag #'basse \celaenusMark re'8. re'16 sol2 |
     do'8. do'16 do'8. mi'16 la8.\trill la16 si8. do'16 |
-    si4\trill r8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+    si4\trill r8 \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \set autoBeaming = ##f \tinyQuote

@@ -1,5 +1,5 @@
 \clef "basse" % do1~ |
-\myfootnote #'NoteHead #'(0 . 4)
+\footnoteHere #'(0 . 4)
 \markup { Manuscrit : 
   \raise #3.5 \score {
     \new Staff {

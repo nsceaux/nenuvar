@@ -75,7 +75,7 @@
     mi''4 r r8 mi'' mi'' mi'' |
     do'' do'' do'' re'' si'4.\trill mi''8 |
     dod''4\trill dod'' r8 dod'' dod'' dod'' |
-    re''4 r r8 re'' re'' \myfootnote #'NoteHead #'(0 . 1) \markup {
+    re''4 r r8 re'' re'' \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #2.5 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f

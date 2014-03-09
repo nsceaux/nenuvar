@@ -60,7 +60,7 @@ re''2 fad'4. fad'8 |
 sol'2 sol'4. sol'8 |
 sol'2 la'8 si' la' sol' |
 fad'4. fad'8 sol'4. sol'8 |
-\myfootnote #'NoteHead #'(0 . 2) \markup {
+\footnoteHere #'(0 . 2) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "soprano"

@@ -6,7 +6,7 @@ mi'4 mi' la' la' |
 sol' la' la' la' |
 sol'2 sol'4 la' |
 la' sol' sol' la' |
-\myfootnote #'NoteHead #'(0 . 1) \markup {
+\footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key la \minor \clef "mezzosoprano" \time 2/2
       sol'8 fa' mi'4 mi'4. mi'8 | re'4

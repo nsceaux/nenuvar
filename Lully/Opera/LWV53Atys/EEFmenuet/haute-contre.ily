@@ -1,6 +1,6 @@
 \clef "haute-contre" la'4 mi'2 |
 fa'8 sol' la'4. si'8 |
-do'' si' do'' re'' \myfootnote #'NoteHead #'(0 . 1) \markup {
+do'' si' do'' re'' \footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote
       \key la \minor \clef "soprano" \time 3/4

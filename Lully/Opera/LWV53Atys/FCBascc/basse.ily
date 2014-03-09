@@ -12,7 +12,7 @@ sib,1~ |
 sib,2 si,4 |
 do1 |
 fa4 fad\trill sol |
-mi2 \myfootnote #'NoteHead #'(0 . 1) \markup {
+mi2 \footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #2.5 \score {
     { \tinyQuote \key fa \major \clef "bass" \time 4/4
       mi2 fad4 la, | }

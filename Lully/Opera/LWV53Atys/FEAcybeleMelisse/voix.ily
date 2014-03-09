@@ -11,7 +11,7 @@ fad'8 fad' r sib' do'' re'' la'8.\trill sib'16 |
 sol'4 r8 re'' re'' mib'' fa'' re'' |
 mib''4 mib''8 mib''16 re'' do''8. sib'16 |
 la'8\trill la' r sib' do'' re'' la'8.\trill sib'16 |
-sol'4 r8 re'' re'' re''16 \myfootnote #'NoteHead #'(0 . 1) \markup {
+sol'4 r8 re'' re'' re''16 \footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #3.5 \score {
     <<
       { \tinyQuote \set autoBeaming = ##f

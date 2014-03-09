@@ -11,7 +11,7 @@ fa''2 la'2. re''4 |
 si'2 sol''2. si'4 |
 do''2 do''( re''4) mib'' |
 re''2\trill fa''( mib''4)\tr re'' |
-\myfootnote #'NoteHead #'(0 . 2) \markup {
+\footnoteHere #'(0 . 2) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key sol \minor \clef "french" \time 3/2
       mib''4. fa''8 re''2. r8 do'' | do''1.~ | do'' \bar "|."
@@ -19,7 +19,7 @@ re''2\trill fa''( mib''4)\tr re'' |
     \layout { \quoteLayout }
   }
 } mib''2\trill re''2. do''4 |
-\myfootnoteAll #'NoteHead #'(4 . 3) \markup {
+\footnoteHereFull #'(4 . 3) \markup {
   Dans le matériel Philidor 1703, la deuxième partie
   de l'air se joue deux fois.
 } do''1. |

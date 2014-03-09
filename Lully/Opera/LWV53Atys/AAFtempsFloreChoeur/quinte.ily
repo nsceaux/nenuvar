@@ -32,7 +32,7 @@ r re'4. re'8 |
 do'4 do'4. do'8 |
 sib4 fa'8 mib' re' fa' |
 mib'4 mib'4. mib'8 |
-\myfootnote #'NoteHead #'(0 . 2)
+\footnoteHere #'(0 . 2)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new Staff {

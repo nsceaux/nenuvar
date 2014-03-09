@@ -1,4 +1,4 @@
-\clef "dessus" \myfootnoteAll #'Rest #'(0 . 2) \markup {
+\clef "dessus" \footnoteHereFull #'(0 . 2) \markup {
   Dans le manuscrit et le matériel Philidor 1703, les mesures 1 à 5 sont
   jouées deux fois.
 }

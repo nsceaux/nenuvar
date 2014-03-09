@@ -7,7 +7,7 @@ sol'2 si'4. si'8 |
 la'4 re'' mi''4. mi''8 |
 la'2 la'4. la'8 |
 sol'4 re'' re'' dod'' |
-\myfootnote #'NoteHead #'(0 . 1)
+\footnoteHere #'(0 . 1)
 \markup {
   Manuscrit : \raise #3 \score {
     \new Staff {

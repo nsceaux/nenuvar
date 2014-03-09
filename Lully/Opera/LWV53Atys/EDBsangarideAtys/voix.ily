@@ -2,7 +2,7 @@
   %% Sangaride
   \tag #'(sangaride basse) {
     << { s1 s2. s1*4 s4 } \tag #'sangaride { \sangarideMark R1 | R2. | R1*4 | r4 } >>
-    \tag #'basse \sangarideMark r8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+    \tag #'basse \sangarideMark r8 \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -58,7 +58,7 @@
     << { s2 s1 s2.*4 s1*2 s4 } \tag #'sangaride { r2 | R1 | R2.*4 | R1*2 | r4 } >>
     \tag #'basse \sangarideMark sib'8 sib' si'8 si'16 si' si'8 do'' |
     re''8. re''16 re''8. re''16 mib''4 mib''8 fa''16 sol'' |
-    do''8 do''16 do'' \myfootnote #'NoteHead #'(0 . 1) \markup {
+    do''8 do''16 do'' \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -117,7 +117,7 @@
         do''1 |
       } >>
     \tag #'basse \sangarideMark
-    \myfootnote #'Rest #'(0 . 2) \markup {
+    \footnoteHere #'(0 . 2) \markup {
       Mesures 97-103 : le manuscrit a un ou deux bémols à la clé.
     } r4 r8 do'' sol'8. sol'16 sol'8. sol'16 |
     mi'4\trill
@@ -147,7 +147,7 @@
     sol4
     << { s2.*2 s1*5 s4 } \tag #'atys {
         r8 sol' fa'8.\trill fa'16 fa'8.
-        \myfootnote #'NoteHead #'(0 . 1) \markup {
+        \footnoteHere #'(0 . 1) \markup {
           Manuscrit : \raise #3 \score {
             <<
               { \tinyQuote \set autoBeaming = ##f
@@ -200,7 +200,7 @@
     << \tag #'atys { sol4\trill sol } \tag #'basse { sol8\trill sol s4 } >>
     << { s2 s1 s2. s2 } \tag #'atys { r2 | R1 | R2. | r2 } >>
     \tag #'basse \atysMark si4 si8 si |
-    do'4 r \myfootnote #'Rest #'(0 . 2) \markup {
+    do'4 r \footnoteHere #'(0 . 2) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -212,7 +212,7 @@
       }
     } r8 sol'8 sol' sol' |
     do'4 r8 fa' sib8. sib16 sib sib sib sib |
-    sol4\trill r8 sol' \myfootnote #'NoteHead #'(0 . 1) \markup {
+    sol4\trill r8 sol' \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -262,7 +262,7 @@
     fa'2 mib'4( re'8) mib' |
     re'2.\trill sol'4 |
     lab'2 fa'4 fa'8 fa' |
-    re'2\trill mib'4. \myfootnote #'NoteHead #'(0 . 0.5) \markup {
+    re'2\trill mib'4. \footnoteHere #'(0 . 0.5) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f

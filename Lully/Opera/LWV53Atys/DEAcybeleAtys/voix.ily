@@ -53,7 +53,7 @@
   }
   %% Atys
   \tag #'(atys basse) {
-    \atysMark r4 r8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+    \atysMark r4 r8 \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f

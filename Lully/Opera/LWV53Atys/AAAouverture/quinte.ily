@@ -5,7 +5,7 @@ re'2. re'4 |
 do' do' re'4. re'8 |
 sol2 do' |
 % Manuscrit : sib4. sib8 sib la sol4
-\myfootnote #'NoteHead #'(0 . 3)
+\footnoteHere #'(0 . 3)
 \markup { Manuscrit : 
   \raise #3 \score {
     { \tinyQuote \key re \minor \clef "alto"
@@ -33,7 +33,7 @@ re'2. re'2 re'4 |
 do'2 do'4 do'2 do'4 |
 sib2 fa4 fa2 fa'4 |
 % Manuscrit : fa'4. re'8 mib'4 re'2. |
-\myfootnote #'NoteHead #'(0 . 1)
+\footnoteHere #'(0 . 1)
 \markup { Manuscrit : 
   \raise #3 \score {
     { \tinyQuote \key re \minor \clef "alto" \time 6/4

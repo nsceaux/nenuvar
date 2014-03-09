@@ -1,5 +1,5 @@
 \clef "basse"
-\myfootnote #'NoteHead #'(0 . 4) \markup\column {
+\footnoteHere #'(0 . 4) \markup\column {
   \wordwrap {
     Dans le manuscrit, la partie de basse continue contient
     d'un bout à l'autre des rythmes différents.

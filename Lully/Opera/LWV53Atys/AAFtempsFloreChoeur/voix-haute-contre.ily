@@ -14,7 +14,7 @@ sol'2 r4 |
 r fa'4. fa'8 |
 sib4 sib fa'8. fa'16 |
 sol'4 sol'4. sol'8 |
-\myfootnote #'NoteHead #'(0 . 1)
+\footnoteHere #'(0 . 1)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new Staff {
@@ -45,7 +45,7 @@ fa'4 fa' sib'8. sib'16 |
 sol'4 la'4. la'8 |
 fad'4 fad' sol' |
 sol'4( fad'2) |
-\myfootnote #'NoteHead #'(0 . 1)
+\footnoteHere #'(0 . 1)
 \markup {
   Ballard : la partie de haute-contre chantante termine par un \italic fa,
   corrigé en \italic sol dans cette édition.

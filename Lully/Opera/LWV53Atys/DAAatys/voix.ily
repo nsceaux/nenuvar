@@ -19,7 +19,7 @@ do'4( sib)\trill la8 sib |
 la4\trill la re'8. mib'16 |
 do'2\trill sib4 |
 la2\trill la8. sib16 |
-\myfootnoteAll #'NoteHead #'(0 . 4) \markup {
+\footnoteHereFull #'(0 . 4) \markup {
   Dans le manuscrit et le matériel Philidor 1703,
   on reprend la ritournelle sur la dernière mesure.
 }

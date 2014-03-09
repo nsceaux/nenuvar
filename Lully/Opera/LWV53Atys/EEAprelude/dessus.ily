@@ -6,7 +6,7 @@ si'2\trill~ si'4. si'8 |
 do''8( re'') mi''( do'') fa''( sol'') fa''( mi'') |
 re''( mi'') fa''( re'') sol''( la'') sol''( fa'') |
 mi''( fa'') sol''( mi'') la''(
-\myfootnote #'NoteHead #'(0 . 1) \markup {
+\footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #4 \score {
     { \tinyQuote \key do \major \clef "french" \time 2/2
       mi''8 fa'' sol'' mi'' la'' sib'' la'' sol'' | fad''2
@@ -16,7 +16,7 @@ mi''( fa'') sol''( mi'') la''(
 } si''8) la''( sol'') |
 fad''2 sol''4. sol''8 |
 sol''4. la''8 fad''4.\trill
-\myfootnote #'NoteHead #'(0 . 1) \markup {
+\footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key do \major \clef "french" \time 2/2
       sol''4. la''8 fad''4. mi''16 fad'' | sol''4

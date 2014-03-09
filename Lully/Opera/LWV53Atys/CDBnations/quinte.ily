@@ -1,7 +1,7 @@
 \clef "quinte" sol4 sol si la |
 sol si la re' |
 do'2 re' |
-sol4 re' \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+sol4 re' \footnoteHere #'(0 . 3.5) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "alto"

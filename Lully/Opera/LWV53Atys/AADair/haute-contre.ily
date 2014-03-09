@@ -9,7 +9,7 @@ la'4. sol'8 fa'4 |
 sib'8 do'' re''4.( do''16 re'') |
 mib''4. re''8 do'' sib' |
 % sib' la' la'4. sib'8 |
-\myfootnote #'NoteHead #'(0 . 1)
+\footnoteHere #'(0 . 1)
 \markup { Manuscrit : 
   \raise #3 \score {
     { \tinyQuote \key re \minor \clef "soprano" \time 3/4

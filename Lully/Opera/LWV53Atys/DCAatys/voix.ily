@@ -15,7 +15,7 @@ sol4\trill mib'8 re' do'4\trill do'8 re' |
 sib2 re'8. re'16 re'8. la16 |
 sib4 sib8. do'16 la4\trill r8 do'16 re' |
 % mib'4 mib'8 fa' sol' sol'16 fa' mib'8\trill mib'16 re' |
-mib'4 \myfootnote #'NoteHead #'(0 . 1) \markup {
+mib'4 \footnoteHere #'(0 . 1) \markup {
   Manuscrit : \raise #3 \score {
     << { \tinyQuote \time 4/4 \set autoBeaming = ##f
         \key re \minor \clef "alto"

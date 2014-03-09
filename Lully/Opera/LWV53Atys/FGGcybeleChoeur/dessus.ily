@@ -6,7 +6,7 @@ re''4 r r2 |
 R1 |
 r2 r4 re''8 re'' |
 mi''4 mi''8 mi'' fa''4. fa''8 |
-\myfootnote #'NoteHead #'(0 . 2) \markup {
+\footnoteHere #'(0 . 2) \markup {
   Manuscrit : \raise #3 \score {
     <<
       \new Staff {

@@ -44,7 +44,7 @@ sol' fa'4. fa'8 |
 fa'4 fa' sol' |
 fad'2 fad'8 fad' |
 % sol'4 sol'4. sol'8 |
-\myfootnote #'NoteHead #'(0 . 1)
+\footnoteHere #'(0 . 1)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new StaffGroupNoBar <<

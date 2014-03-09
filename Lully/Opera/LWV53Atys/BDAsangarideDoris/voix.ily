@@ -10,7 +10,7 @@
     \tag #'basse \sangarideMark r4 r la'4 |
     re''2. |
     r8 re'' re''4 dod'' |
-    re''2 la'8 %{ sib' %} \myfootnote #'NoteHead #'(0 . 1)
+    re''2 la'8 %{ sib' %} \footnoteHere #'(0 . 1)
     \markup {
       Manuscrit : \raise #4.5 \score {
         <<
@@ -35,7 +35,7 @@
     mi''2 mi''8 fa'' |
     re''2 dod''8 re'' |
     dod''4\trill %{ la'4. %} la'4 r8 mi'8 |
-    fa'4. sol'8 la' %{ sib' %} \myfootnote #'NoteHead #'(0 . 1)
+    fa'4. sol'8 la' %{ sib' %} \footnoteHere #'(0 . 1)
     \markup {
       Manuscrit : \raise #4.5 \score {
         <<
@@ -89,7 +89,7 @@
     re''8 re'' re'' la' sib'4. re''8 |
     sol'4\trill sol'8 la'16 sib' do''8 do''16 do'' sol'8\trill la'16 sib' |
     la'4\trill la'8 r16 do'' %{ fa''8. fa''16 la'8. sib'16 %}
-    \myfootnote #'NoteHead #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3.5 \score {
         <<
           \new Staff {
@@ -110,7 +110,7 @@
     fa''4 %{ fa''8 r %} fa''4 r8 la' la' si' |
     do'' do'' do'' re'' si'4\trill re'' |
     % mi''4 mi'' re''8 do'' si'8. la'16 |
-    \myfootnote #'NoteHead #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3.5 \score {
         <<
           \new Staff {
@@ -173,7 +173,7 @@
     << { s2.*8 s1 } \tag #'doris { \dorisMark R2.*8 | R1 } >>
     \tag #'basse \dorisMark
     r8^\markup\orig-version\character Doris fa'16 sol' la'8\trill la'16
-    \myfootnote #'NoteHead #'(0 . 1)
+    \footnoteHere #'(0 . 1)
     \markup {
       Manuscrit : \raise #4.5 \score {
         <<
@@ -193,7 +193,7 @@
     la'4\trill r8 do''16 do'' dod''8 dod''16 dod'' dod''8. re''16 |
     re''4 re'' r8 sib'16 sib' sib'8 sib'16 la' |
     la'8.\trill la'16 la' sol' fa' mi' fa'4 fa' |
-    re'' r8 re''16 re'' la'8. %{ sib'16 %} \myfootnote #'NoteHead #'(0 . 1)
+    re'' r8 re''16 re'' la'8. %{ sib'16 %} \footnoteHere #'(0 . 1)
     \markup {
       Manuscrit : \raise #4.5 \score {
         <<
@@ -215,7 +215,7 @@
     R2. |
     << { s2.*27 s4 } \tag #'doris { R2.*27 | r4 } >>
     \tag #'basse \dorisMark r8 re'' %{ si'4\trill si'8 si'16 si' %}
-    \myfootnote #'NoteHead #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #2.5 \score {
         <<
           \new Staff {
@@ -237,7 +237,7 @@
     << { s2 s1 s2.*18 s2 } \tag #'doris { r2 | R1 | R2.*18 | r2 } >>
     \tag #'basse \dorisMark la'8 la'16 la' la'8. la'16 |
     % fad'4 r re''8 re''16 re'' la'8 si' |
-    \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+    \footnoteHere #'(0 . 3.5) \markup {
       Manuscrit : \raise #4.5 \score {
         <<
           \new Staff {

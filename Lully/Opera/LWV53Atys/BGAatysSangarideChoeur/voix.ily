@@ -17,7 +17,7 @@
     re''4 re''( dod'') |
     re''4. re''8 do''4 |
     si'2\trill si'4 |
-    do''4. do''8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+    do''4. do''8 \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3 \score {
         <<
           \new Staff {
@@ -34,7 +34,7 @@
     do''2 re''4 |
     do''4( si'4.\trill) do''8 |
     do''4. sol'8 la'4 |
-    sib'4. sib'8 \myfootnote #'NoteHead #'(0 . 1) \markup {
+    sib'4. sib'8 \footnoteHere #'(0 . 1) \markup {
       Manuscrit : \raise #3 \score {
         <<
           \new Staff {
@@ -112,7 +112,7 @@
     mi'' do'' re'' |
     si' si' do'' |
     do''2( si'4\trill) | % do''4( si'2)
-    \myfootnote #'NoteHead #'(0 . 1) \markup\justify {
+    \footnoteHere #'(0 . 1) \markup\justify {
       Le manuscrit comporte une indication de reprise mesure 91, puis
       s'interrompt à la fin de la mesure 105 : le feuillet suivant comporte
       l'entrée des Phrygiens. La numérotation des feuillets est continue,
@@ -358,7 +358,7 @@
         r4 r8 fad' fad'4 |
         sol'4. sol'8 sol'4 |
         mi'2 la'4 |
-        \myfootnote #'NoteHead #'(0 . 1) \markup {
+        \footnoteHere #'(0 . 1) \markup {
           Manuscrit : \hspace #2 \raise #3 \score {
             \new StaffGroupNoBar <<
               \new Staff \with { instrumentName = "h-c. ch." } {
