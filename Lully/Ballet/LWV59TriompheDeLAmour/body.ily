@@ -253,9 +253,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newPart
 %% 4-1
-\pieceToc\markup\wordwrap {
-  Prelude pour un indien qui vient annoncer la venuë de Bachus & d’Ariane.
+\pieceTocAndTitle\markup {
+  (L’Indien)
   \italic { Bachus revient vainqueur des climats de l’Aurore }
+} \markup\wordwrap {
+  Prelude pour un indien qui vient annoncer la venuë de Bachus & d’Ariane.
+  (L’Indien) \italic { Bachus revient vainqueur des climats de l’Aurore }
 }
 \includeScore "DAindien"
 %% 4-2
@@ -389,7 +392,10 @@
 \includeScore "ERair"
 
 %% 5-19
-\pieceToc\markup\wordwrap {
-  (Jupiter, chœur des Divinitez) Triomphez, Amour victorieux
+\pieceTocAndTitle\markup\wordwrap {
+  (Jupiter, chœur des Divinitez) \italic { Triomphez, Amour victorieux }
+} \markup\wordwrap {
+  Prélude pour Jupiter.
+  (Jupiter, chœur des Divinitez) \italic { Triomphez, Amour victorieux }
 }
 \includeScore "ESjupiterChoeur"

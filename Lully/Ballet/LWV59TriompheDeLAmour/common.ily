@@ -1,8 +1,10 @@
 \header {
   copyrightYear = "2014"
   composer = "Jean-Baptiste Lully"
-  poet = "Quinault, Benserade"
+  poet = "Philippe Quinault"
   subtitle = "Ballet Royal"
+  opus = "LWV 59"
+  date = "1681"
 }
 
 #(ly:set-option 'ancient-style (eqv? (ly:get-option 'urtext) #t))

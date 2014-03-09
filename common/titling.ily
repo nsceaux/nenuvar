@@ -701,3 +701,10 @@ partPageTurn =
   (if (memq (*part*) parts)
       (add-page-turn parser))
   (make-music 'Music 'void #t))
+
+
+markupCond =
+#(define-music-function (parser location condition markp) (boolean? markup?)
+   (if condition
+       (add-toplevel-markup parser markp))
+   (make-music 'Music 'void #t))

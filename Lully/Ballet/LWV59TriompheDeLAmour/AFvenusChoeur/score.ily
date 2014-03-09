@@ -39,8 +39,8 @@
       \includeFigures "chiffres"
       %% Vertical tweaks
       \modVersion {
-        s2.*36\break
-        \repeat unfold 47 {
+        s2.*41\break
+        \repeat unfold 42 {
           \verticalTweak
           #'((Y-offset . 25)
              (alignment-distances . (12 12 12 12  15  14 14 14  15  15)))

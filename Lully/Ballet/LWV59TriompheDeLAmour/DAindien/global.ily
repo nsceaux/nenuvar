@@ -1,4 +1,7 @@
 \key do \major
+\beginMark\markup\smaller {
+  PRELUDE pour un indien qui vient annoncer la venuë de Bachus & d’Ariane.
+}
 \midiTempo#160
 \digitTime\time 2/2 \partial 4 s4 s1*11
 \bar ".|:" s1*7 \alternatives s1*2 s1 s1*15
