@@ -8,7 +8,7 @@ re'' do''4.\trill re''8 |
 re''2. |
 re''4 re'' mi'' |
 fa''2 fa''4 |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscit : \hspace #2 \raise #3 \score {
     \new ChoirStaff <<
       \new Staff \with { instrumentName = "d. ch." } {

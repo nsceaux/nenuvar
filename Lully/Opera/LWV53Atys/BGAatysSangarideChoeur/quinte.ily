@@ -12,7 +12,7 @@ la mi'2 |
 dod' r4 |
 R2.*2 |
 r4 r8 mi' mi'4 |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 3/4 \key do \major \clef "alto"
       re'4. re'8 re'4 | re'2

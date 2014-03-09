@@ -65,7 +65,7 @@ re'2 re'4 re' |
 re'2 re'4 re' |
 %re'2 re'4 re' | re'2. re'4 | re'2. re'4 |
 re'2. re'4 |
-\footnoteHere #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "mezzosoprano"

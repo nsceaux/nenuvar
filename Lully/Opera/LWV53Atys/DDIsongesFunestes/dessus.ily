@@ -5,7 +5,7 @@ la'2.\trill r8 do'' fa''4. fa''8 |
 re''2.\trill r8 re'' sol''4. sol''8 |
 mi''8\trill mi'' fa'' sol'' la''4. la''8 fa''4. fa''8 |
 sib''2. r8 la'' la''2~ |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 3/2 \key re \minor \clef "french"
       sib''2. r8 sib'' la''2 | r4 r8 sol''8 sol''2. r8 la''
@@ -29,7 +29,7 @@ la'2\trill fa''4 fa''8 mib'' re''4 re''8 do'' |
 sib'4 sib'8 la' sol'2\trill mib''4 mib''8 re'' |
 do''2\trill fa''4 fa''8 mib'' re''2\trill |
 sib''4 sib''8 fa'' sol'' fa'' mib'' re'' do''4.\trill sib'8 |
-\footnoteHere #'(0 . -1.5) \markup\column {
+\footnoteHere #'(0 . 0) \markup\column {
   \wordwrap {
     La reprise et les mesures de première et seconde fois ne sont pas
     explicitées sur Ballard 1689 :

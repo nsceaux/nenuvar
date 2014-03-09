@@ -1,6 +1,6 @@
 \clef "vtaille" do'4 do' |
 do' la sold la |
-sold2\trill la4 \footnoteHere #'(0 . 3) \markup {
+sold2\trill la4 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \key la \minor \clef "tenor" \time 2/2

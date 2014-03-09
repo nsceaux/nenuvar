@@ -11,7 +11,7 @@ lad'4 dod''8 re'' si'4 si'8 lad' |
 si' si' r red''16 red'' mi''8 mi''16 si' |
 do''!8. do''16 do''8. do''16 re''8. mi''16 |
 la'4\trill re''8 re''16 re'' re''8 si' |
-do''4 si'8 si'16 si' si'8 \footnoteHere #'(0 . 1.5) \markup {
+do''4 si'8 si'16 si' si'8 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2.5 \score {
     <<
       { \set autoBeaming = ##f

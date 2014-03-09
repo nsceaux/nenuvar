@@ -1,4 +1,4 @@
-\clef "vhaute-contre" mi'4 \footnoteHere #'(0 . 1) \markup {
+\clef "vhaute-contre" mi'4 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \key la \minor \clef "alto" \time 2/2 \partial 2
@@ -19,7 +19,7 @@ sol'2 sol'4 sol' |
 mi' fa' sol' la' |
 la' fa' la'4. la'8 |
 sol'4 sol' la'4. la'8 |
-sold'2 mi'4 \footnoteHere #'(0 . 1) \markup {
+sold'2 mi'4 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \key la \minor \clef "alto" \time 2/2 \partial 2

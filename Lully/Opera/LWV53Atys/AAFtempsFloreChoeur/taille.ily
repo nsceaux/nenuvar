@@ -14,7 +14,7 @@ mib'2 r4 |
 r fa'4. fa'8 |
 fa'2 fa'4 |
 % re'4 fa' sol' | la' re'4. re'8 | mib'2 mib'4 |
-\footnoteHere #'(0 . 2)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new Staff {
@@ -36,7 +36,7 @@ mi' fa'4. fa'8 |
 fa'4 fa' sib' |
 sol' la'4. la'8 |
 la'4 re' re' |
-\footnoteHere #'(0 . 3.2)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new StaffGroupNoBar <<

@@ -3,7 +3,7 @@
   \tag #'(cybele basse) {
     << { s1 s2.*2 s4 } \tag #'cybele { \cybeleMark R1 | R2.*2 | r4 } >>
     \tag #'basse \cybeleMark fa''4 sib'8. sib'16 sib'8. re''16 |
-    sol'8\trill sol' r re'' \footnoteHere #'(0 . 1) \markup {
+    sol'8\trill sol' r re'' \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f

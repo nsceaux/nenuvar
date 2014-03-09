@@ -1,5 +1,5 @@
 \clef "dessus" fa'16 mi' fa' sol' la' sol' la' fa' do''
-\footnoteHere #'(0 . 4) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key fa \major \clef "french" \time 4/4
       fa'16 mi' fa' sol' la' sol' la' fa' \bar "|"
@@ -13,7 +13,7 @@ sol''4 r16 fa'' sol'' mi'' la''4. la''8 |
 re''16 re'' mi'' fa'' sol'' la'' sol'' fa'' mi'' fa'' sol'' fa'' mi'' re'' do'' sib' |
 la'8.\trill la'16 sib'8. sib'16 do''4. do''16 do'' |
 re''16 do'' re'' mib'' re'' do'' sib' la' sib' la' sol' la' sib' do'' re'' mi'' |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       \new Staff {

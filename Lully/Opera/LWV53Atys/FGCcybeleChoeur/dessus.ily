@@ -3,7 +3,7 @@
 r2 do''4 do''8 fa'' |
 re''4\trill re'' r2 |
 r mib''4 mib''8 mib'' |
-do''4\trill do'' fa'' fa''8 \footnoteHere #'(0 . 1) \markup {
+do''4\trill do'' fa'' fa''8 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key re \minor \clef "french" \time 4/4
       do''4 do'' fa'' fa''8 mib''? | re''4 re''

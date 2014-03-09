@@ -3,7 +3,7 @@ r2 sib''4( la'') |
 sol''( la'') sol''( fa'') |
 mi''( fa'') sol''( la''8 sol'') |
 fa''2. sol''8 la'' |
-\footnoteHere #'(0 . 1.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "french"

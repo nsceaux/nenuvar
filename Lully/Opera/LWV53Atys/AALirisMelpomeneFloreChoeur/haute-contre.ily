@@ -5,7 +5,7 @@ R2.*27 |
 r2 si'4. si'8 |
 do''4 do''8 do'' do''4. do''8 |
 la'4 la' re''4. re''8 |
-\footnoteHere #'(0 . 1)
+\footnoteHere #'(0 . 0)
 \markup {
   Manuscrit :
   \raise #3 \score {

@@ -12,7 +12,7 @@ sold'4\trill sold' do''4. do''8 |
 la'4 si' sold'4.\trill la'8 |
 la'2 dod''4. dod''8 |
 re''4 re'' do''!4. re''8 |
-si'4\trill si' \footnoteHere #'(0 . 1) \markup {
+si'4\trill si' \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \set autoBeaming = ##f
@@ -26,7 +26,7 @@ si'4\trill si' \footnoteHere #'(0 . 1) \markup {
 dod''4 re'' dod''4.\trill re''8 |
 re''2 la'4. la'8 |
 si'4 si' do''4. do''8 |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \set autoBeaming = ##f

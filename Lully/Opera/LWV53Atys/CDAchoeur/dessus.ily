@@ -21,7 +21,7 @@ do''2. do''4 |
 si'2\trill si'4 do'' |
 si'2( la')\trill |
 sol'2 sol''4 fa'' |
-\footnoteHere #'(0 . 2) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "french"
@@ -32,7 +32,7 @@ sol'2 sol''4 fa'' |
 }
 % mi''4 re''8 mi'' fa'' mi'' re'' do'' |
 mi''4 fa''8 mi'' re'' mi'' do'' re'' |
-\footnoteHere #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "french"
@@ -67,7 +67,7 @@ do''4 do'' do'' re'' |
 do''2( si'4.)\trill la'8 |
 la'2 la''4 sol'' |
 fa''4 mi''8 fa'' sol'' fa'' mi'' re'' |
-\footnoteHere #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "french"
@@ -90,12 +90,12 @@ mi''2. mi''4 |
 la'2 re''4. re''8 |
 re''2( dod'')\trill |
 re'' re''4 do'' |
-\footnoteHere #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Le manuscrit ne comporte pas les mesures 50 à 58.
 }
 si'4\trill sol' sol'' fa'' |
 mi''8 fa'' mi'' re'' do'' re'' do'' si' |
-\footnoteHere #'(0 . 4) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "french"

@@ -135,7 +135,7 @@
     si'4. si'8 do''4. do''8 |
     do''4 si'8[ la'] la'4( sold') |
     la'4. mi'8 mi'4. mi'8 |
-    \footnoteHere #'(0 . 3.5)
+    \footnoteHere #'(0 . 0)
     \markup {
       Manuscrit : \raise #3 \score {
         <<
@@ -174,7 +174,7 @@
         fa'?4 mi' re'2\trill |
         do' do'4. do'8 |
         re'2 re'4. re'8 |
-        \footnoteHere #'(0 . 1.5)
+        \footnoteHere #'(0 . 0)
         \markup {
           Manuscrit : \raise #3 \score {
             <<
@@ -196,7 +196,7 @@
         la4. do'8 do'4. do'8 |
         fa'4. re'8 re'[ mi'] re'[ do'] |
         si4. sold8 la4. la8 |
-        \footnoteHere #'(0 . 3.5)
+        \footnoteHere #'(0 . 0)
         \markup {
           Manuscrit : \raise #3 \score {
             <<
@@ -288,7 +288,7 @@
     si2\trill~ si8 do' |
     la2\trill re'4 |
     % sol4. sol8 la si | si4( la2)\trill |
-    \footnoteHere #'(0 . 3.5)
+    \footnoteHere #'(0 . 0)
     \markup {
       Manuscrit : \hspace #2 \raise #3 \score {
         \new ChoirStaff <<
@@ -333,7 +333,7 @@
     si( la2)\trill |
     sol2. |
     r4 re'8. re'16 %{ re'8 re' %} sol4 sol8 sol |
-    \footnoteHere #'(0 . 3.5)
+    \footnoteHere #'(0 . 0)
     \markup {
       Manuscrit : \raise #3 \score {
         <<

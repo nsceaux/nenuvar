@@ -15,7 +15,7 @@ do'2.\trill la4 la si |
 do'2. do'4 do' do' |
 sib1. |
 re'4 re'8 re' re'4 re' re' re' |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \time 3/2 \key re \minor \clef "tenor"

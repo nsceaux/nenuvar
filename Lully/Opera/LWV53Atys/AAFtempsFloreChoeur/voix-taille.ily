@@ -33,7 +33,7 @@ do'4 do'4. fa'8 |
 fa'4 re' re'8. fa'16 | % fa'8. fa'16 |
 mib'4 mib'4. mib'8 |
 re'4 re' re' |
-\footnoteHere #'(0 . 1.5)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #3.5 \score {
     \new StaffGroupNoBar <<

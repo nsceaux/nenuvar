@@ -46,7 +46,7 @@
     << { s4 s1*3 s4 } \tag #'sangaride { r4 | R1*3 | r4 } >>
     \tag #'basse \sangarideMark r8 re'' sol'16 sol' sol' sol' sol'8[ fad'?16] sol' |
     fad'8 fad' r16 la' la' si'
-    \footnoteHere #'(0 . 2) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           \new Staff {
@@ -88,7 +88,7 @@
     re''4 dod''4.\trill dod''8 |
     re''4 re'' r8 la' |
     si'4. si'8 do''8. si'16 |
-    \footnoteHere #'(0 . 1.5) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \hspace #2 \raise #3 \score {
         \new ChoirStaff <<
           \new Staff {
@@ -225,7 +225,7 @@
     << { s2. s1*3 s4 } \tag #'atys { r4 r2 | R1*3 | r4 } >>
     \tag #'basse \atysMark mi'8. mi'16 la4 re'8. si16 |
     sold4 r8 sold16 sold
-    \footnoteHere #'(0 . 4) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           \new Staff {
@@ -252,7 +252,7 @@
         re'2 re'4 |
         mi'8[ fa'] re'4.\trill do'8 |
         do'2 r8 sol' |
-        \footnoteHere #'(0 . 1) \markup {
+        \footnoteHere #'(0 . 0) \markup {
           Manuscrit : \raise #3 \score {
             <<
               \new Staff {
@@ -305,7 +305,7 @@
     r mi' fa' |
     sol'2 mi'4 |
     fa' re'2\trill |
-    \footnoteHereFull #'(0 . 2) \markup\column {
+    \footnoteHereFull #'(0 . 0) \markup\column {
       \wordwrap {
         Dans le manuscrit, les vers
         \italic { Aimons un bien plus durable Que l'éclat de la Beauté }

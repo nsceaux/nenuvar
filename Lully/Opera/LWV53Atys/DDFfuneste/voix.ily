@@ -1,5 +1,5 @@
 \songeFunesteMark r4 sib8 sib re4\trill re8 mib |
-fa4 fa8. sol16 lab4 lab8. \footnoteHere #'(0 . 1) \markup {
+fa4 fa8. sol16 lab4 lab8. \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \set autoBeaming = ##f
@@ -20,7 +20,7 @@ sib4. la16 sol fad4\trill r8 re' |
 sib8. la16 sol8. fa16 mi4\trill r8 do' |
 la8.\trill la16 la8 do' fa4 fa8 fa re8.\trill re16 re8 fa sib,4 sib, |
 re8. re16 mib8. fa16 sol4 la8 sib |
-la4\trill la8 \footnoteHere #'(0 . 1) \markup {
+la4\trill la8 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \set autoBeaming = ##f

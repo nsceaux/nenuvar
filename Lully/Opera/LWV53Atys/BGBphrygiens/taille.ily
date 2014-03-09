@@ -11,7 +11,7 @@ sol'4 sol'8 fa' mi'4 sol' |
 fa'2 fa'4. fa'8 |
 mi'2 mi'4 mi' |
 mi'4 fa' mi' mi'8 re' |
-\footnoteHere #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2.5 \score {
     { \tinyQuote \time 2/2
       \key do \major \clef "mezzosoprano"

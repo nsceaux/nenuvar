@@ -28,7 +28,7 @@
     sold'4 mi''16 mi'' mi'' si' do''8 do''16 do'' |
     la'8\trill la'16 la' la'8 si'16 do'' re''8 re'' la'16\trill la' si' do'' |
     si'8\trill si' re''16 re'' si'\trill do'' la'8\trill la'16 sol' |
-    \footnoteHere #'(0 . 3.5) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \set autoBeaming = ##f
@@ -64,7 +64,7 @@
     mi'' si' do'' re'' |
     do''\trill la' do'' si' |
     la'\trill sol' fad'4.\trill mi'8 |
-    \footnoteHereFull #'(0 . 4) \markup\column {
+    \footnoteHereFull #'(0 . 0) \markup\column {
       \wordwrap {
         Manuscrit : les vers de Melisse
         \italic { Ce n'est pas un si grand crime De ne s'exprimer pas bien }

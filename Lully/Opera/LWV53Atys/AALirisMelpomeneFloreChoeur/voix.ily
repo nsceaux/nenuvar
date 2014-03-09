@@ -42,7 +42,7 @@
       [Iris remonte au Ciel sur son Arc, & la Suite de
       Melpomene s'accorde avec le Suite de Flore.]
     }
-    \footnoteHere #'(-0.1 . 1)
+    \footnoteHere #'(0 . 0)
     \markup {
       Manuscrit : \hspace #2
       \raise #6 \score {

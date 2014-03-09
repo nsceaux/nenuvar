@@ -30,7 +30,7 @@
         \sangarideMark R1*5 R2.*2 R1*2 R2. R1 R2. R1 R2. R1*3 R2.*3 r8 } >>
     \tag #'basse \sangarideMark sol''-\tag #'sangaride ^\markup\character "Sangaride"
     do''16 do'' do'' do'' sol'\trill sol' sol'
-    \footnoteHere #'(0 . 1.5) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3.5 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -47,7 +47,7 @@
     << { s2. s2. s1 s2. s4. }
       \tag #'sangaride { r4 r2 | R2. | R1 | R2. | r4 r8 } >>
     \tag #'basse \sangarideMark
-    \footnoteHere #'(-1 . 0) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #4 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -93,7 +93,7 @@
     la4 la r8 do'16 do' do'8 re'16 mi' |
     fa'4 r8 re'16 re' si4 r8 si16 re' |
     sol8 sol r sol' mi'8.\trill mi'16 mi'8. mi'16 |
-    \footnoteHere #'(0 . 2) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -159,7 +159,7 @@
         R2.*3 R1*2 R2. R1 R2. R1*2 r4 } >>
     \tag #'basse \celaenusMark r8 si
     -\tag #'celaenus ^\markup\character [Celænus]
-    do' do'16 do' \footnoteHere #'(0 . 1.5) \markup {
+    do' do'16 do' \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           \new Staff <<

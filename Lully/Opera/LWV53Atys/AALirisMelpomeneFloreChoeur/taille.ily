@@ -9,7 +9,7 @@ sol'2 fad'4 la' |
 sol'2 si'4. si'8 |
 la'2 la'4. la'8 |
 la'2 r |%}
-r2 \footnoteHere #'(0 . 1)
+r2 \footnoteHere #'(0 . 0)
 \markup {
   Manuscrit :
   \raise #3 \score {

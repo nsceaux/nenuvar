@@ -1,4 +1,4 @@
-\clef "quinte" sol4( \footnoteHere #'(0 . 4) \markup {
+\clef "quinte" sol4( \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "alto"

@@ -16,7 +16,7 @@
     << { s2. s1*2 s4 } \tag #'atys { r4 r2 | R1*2 | r4 } >>
     \tag #'basse \atysMark r8 mi'16 si %{ do'4. %} do'4 r8 do'16 do' |
     la4.\trill la16 si do'4. do'16 re' |
-    si4.\trill %{ la16 %} \footnoteHere #'(0 . 3.5) \markup {
+    si4.\trill %{ la16 %} \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \time 4/4 \set autoBeaming = ##f
@@ -34,7 +34,7 @@
     << \tag #'atys sib4 \tag #'basse { sib8 s } >>
     << { s2.*2 s1*3 s2.*5 s4 } \tag #'atys { r4 r2 | R2. | R1*3 | R2.*5 | r4 } >>
     \tag #'basse \atysMark r8 fa' la8. la16 la8 si |
-    do'4 r8 \footnoteHere #'(0 . 2) \markup {
+    do'4 r8 \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #2.5 \score {
         <<
           { \tinyQuote \time 4/4 \set autoBeaming = ##f
@@ -61,7 +61,7 @@
     << \tag #'atys { la8\trill la } \tag #'basse { la16\trill la s8 } >>
     << { s2. s1 } \tag #'atys { r4 r2 | R1 } >>
     \tag #'basse \atysMark
-    \footnoteHereFull #'(0 . 1) \markup\column {
+    \footnoteHereFull #'(0 . 0) \markup\column {
       \wordwrap {
         Dans le manuscrit, les vers :
         \italic { Qu'un indifférent est heureux ! /
@@ -152,7 +152,7 @@
     do'4 do'8 do' re'4 re'8[ do'16] re' |
     mi'4 mi'8 mi fad8. fad16 fad8. fad16 |
     sold4\trill sold8. sold16
-    \footnoteHere #'(0 . 1.5) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #2 \score {
         <<
           { \tinyQuote \time 4/4 \set autoBeaming = ##f
@@ -173,7 +173,7 @@
     \tag #'basse \celaenusMark r8 sol mi\trill mi mi sol |
     do4 r8 do'16 do' fa4 fa8. fa16 |
     re8\trill re r re'16 re' sib8 sib16 sib |
-    \footnoteHere #'(0 . 1.5) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \time 3/4 \set autoBeaming = ##f
@@ -203,7 +203,7 @@
     << { s2. s1*4 s4 } \tag #'celaenus { r4 r2 | R1*4 | r4 } >>
     \tag #'basse \celaenusMark r8 re' sib8. sib16 sib8. sib16 |
     % sol4.\trill do'8 do'4 do'8 sib16 la |
-    sol4.\trill do'8 \footnoteHere #'(0 . 1) \markup {
+    sol4.\trill do'8 \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \time 4/4 \set autoBeaming = ##f
@@ -233,7 +233,7 @@
       { s1*21 s2 }
       \tag #'celaenus {
         R1*21 |
-        \footnoteHereFull #'(0 . 2) \markup\column {
+        \footnoteHereFull #'(0 . 0) \markup\column {
           \wordwrap {
             Dans le manuscrit, les vers
             \italic { Quand on aime bien tendrement, /
@@ -286,7 +286,7 @@
     re'4.\trill re'8 re'4. do'8 |
     si2\trill %{ si4. do'8 %} si4 do' |
     % la2 la4( sold8) la |
-    la2 la4 \footnoteHere #'(0 . 1) \markup {
+    la2 la4 \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #2.5 \score {
         <<
           { \tinyQuote \time 4/4 \set autoBeaming = ##f
@@ -312,7 +312,7 @@
     re2 la4 fa16 fa fa sol |
     mi4.\trill mi8 fa8. fa16 fa8. sol16 |
     % la4 la8. la16 la4 si8. do'16 |
-    la4 \footnoteHere #'(0 . 2) \markup {
+    la4 \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #2.5 \score {
         <<
           { \tinyQuote \time 4/4 \set autoBeaming = ##f

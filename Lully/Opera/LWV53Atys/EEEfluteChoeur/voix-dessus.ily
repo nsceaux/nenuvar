@@ -1,5 +1,5 @@
 \clef "vdessus" R2.*24 |
-\footnoteHere #'(0 . 1) \markup\column {
+\footnoteHere #'(0 . 0) \markup\column {
   \justify {
     De même que dans la pièce précédente, dans le manuscrit, le trio chanté
     est placé avant le trio pour flûtes, qui n'est pas du tout noté (les

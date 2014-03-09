@@ -1,4 +1,4 @@
-\clef "quinte" sol'8 \footnoteHere #'(0 . 2) \markup {
+\clef "quinte" sol'8 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key do \major \clef "alto" \digitTime\time 2/2
       sol'8 mi' do' do' re' re' si si | do' do' la la si si sol sol |
@@ -39,7 +39,7 @@ sol2~ sol8 sol |
 la2 r8 la la la |
 re' re'16 re' re'8 re' re' si sol sol |
 sol sol do' do' do' la sol8. sol16 |
-\footnoteHere #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Ballard : \raise #3 \score {
     { \tinyQuote \key do \major \clef "alto" \time 2/2
       sol8 sol do' do' do' la sol8. sol16 | si1 | \bar "|."

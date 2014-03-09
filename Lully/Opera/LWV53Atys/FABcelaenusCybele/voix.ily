@@ -41,7 +41,7 @@
     re''4
     << { s2. s2.. } \tag #'cybele { r4 r2 | r2 r4 r8 } >>
     \tag #'basse \cybeleMark mi''8 dod''8.\trill dod''16 dod''8. mi''16 la'8 la'16 la' mi'8 fad'16 sol' |
-    fad'8.\trill la'16 la' la' la' si' \footnoteHere #'(0 . 1)
+    fad'8.\trill la'16 la' la' la' si' \footnoteHere #'(0 . 0)
     \markup\column {
       \line {
         Ballard : \raise #3 \score {

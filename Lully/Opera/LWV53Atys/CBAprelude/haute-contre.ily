@@ -6,7 +6,7 @@ sol'4. fad'8 mi'2 |
 la'2. re''8 re'' |
 si'2 do''4. do''8 |
 re''2. mi''4 |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "soprano"

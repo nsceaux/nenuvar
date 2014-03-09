@@ -6,7 +6,7 @@ r sib'4 sib'8 sib' |
 lab'4 lab' do'' do''8 do'' |
 sib'4 sib' r2 |
 R1 |
-r2 \footnoteHere #'(0 . 0.5) \markup {
+r2 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       \new Staff {

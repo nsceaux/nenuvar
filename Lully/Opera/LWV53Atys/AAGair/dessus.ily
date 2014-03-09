@@ -5,7 +5,7 @@ re''4 do''8 si' do''4 si'8 la' |
 si' la' si' do'' la'4.\trill sol'8 |
 sol'2 re''4 sol'' |
 fad'' sol''8 la'' sol''4 fad''8 mi'' |
-fad''4 mi''8 re'' mi''4 re''8 \footnoteHere #'(0 . 4)
+fad''4 mi''8 re'' mi''4 re''8 \footnoteHere #'(0 . 0)
 \markup {
   Manuscrit : \raise #3 \score {
     \new Staff {

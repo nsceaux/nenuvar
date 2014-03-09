@@ -14,7 +14,7 @@ re4 sol, mib |
 mi!2.\trill |
 fa2 la,8. sib,16 fa,4 |
 sib,1 |
-\footnoteHere #'(0 . 2) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 4/4
       \key re \minor \clef "bass"
@@ -62,7 +62,7 @@ si2. |
 do'4 sib! la |
 fad\trill sol sol, |
 re2 sol4 |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 3/4
       \key re \minor \clef "bass"

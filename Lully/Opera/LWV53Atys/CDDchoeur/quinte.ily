@@ -21,7 +21,7 @@ sib2 sib4 |
 do' fa' fa' |
 mib' sib do' |
 re' re' la |
-\footnoteHere #'(0 . 3) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 3/4
       \key re \minor \clef "alto"

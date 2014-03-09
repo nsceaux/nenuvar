@@ -20,7 +20,7 @@ sib2. |
 sol4. sol8 sol8. sol16 |
 la4 la re |
 la,2. |
-re4 \footnoteHere #'(0 . 1)
+re4 \footnoteHere #'(0 . 0)
 \markup\justify {
   Ballard : les basses de violons jouent comme la basse continue sur
   les paroles \italic { "\"Chaque" "jour\"" } tandis que les autres parties

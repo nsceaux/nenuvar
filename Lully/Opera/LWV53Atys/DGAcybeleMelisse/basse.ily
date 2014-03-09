@@ -5,7 +5,7 @@ la |
 sold2\trill sol |
 fad\trill fa |
 mi la4 la, |
-re4. mi8 \footnoteHere #'(0 . 1.5) \markup {
+re4. mi8 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2 \score {
     { \tinyQuote \time 2/2 \key do \major \clef "bass"
       re4. mi8 red2 | sol4
@@ -78,7 +78,7 @@ la,2 mi4 dod\trill |
 re1 |
 mi4 do8 si,16 la, mi8 mi, |
 la,2~ la,8 la, sol,\trill
-\footnoteHere #'(0 . 4.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2 \score {
     { \tinyQuote \key do \major \clef "bass"
       la,2~ la,8 la, sol, fa, | mi,1 }

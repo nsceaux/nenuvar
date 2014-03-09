@@ -1,6 +1,6 @@
 \clef "quinte" sol' sol'8 fa' mi'4. mi'8 |
 re'2 re'4. re'8 |
-\footnoteHere #'(0 . 2) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2.5 \score {
     { \tinyQuote \time 2/2 \key do \major \clef "alto"
       do'4 sol sol sol | la2

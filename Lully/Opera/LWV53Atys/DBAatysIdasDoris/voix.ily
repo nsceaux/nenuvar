@@ -36,7 +36,7 @@
     dod''2 re''8[ dod''] |
     re''4 %{ re''4. dod''8 %} re'' dod'' |
     re''2. |
-    \footnoteHere #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         << { \tinyQuote \time 3/4 \set autoBeaming = ##f
             \key re \minor \clef "soprano"
@@ -56,7 +56,7 @@
     re'' re''4.\trill re''8 |
     mib''4 re'' do'' |
     % re'' sib'4.(\trill la'16) sib' |
-    re''4 sib'4. \footnoteHere #'(0 . 1) \markup {
+    re''4 sib'4. \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         << { \tinyQuote \time 3/4 \set autoBeaming = ##f
             \key re \minor \clef "soprano"
@@ -88,7 +88,7 @@
     la'4.\trill la'8 la'4 si' |
     do''2. la'4 |
     sib'4. sib'8 sib'4. sib'8 |
-    la'4 sib' \footnoteHere #'(0 . 2) \markup {
+    la'4 sib' \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         << { \tinyQuote #76 \time 2/2 \set autoBeaming = ##f
             \key re \minor \clef "soprano"
@@ -122,7 +122,7 @@
     re'4\trill << \tag #'atys re'4 \tag #'basse { re'8 s } >>
     << { s2 s2. s4 } \tag #'atys { r2 | R2. | r4 } >>
     \tag #'basse \atysMark r8 re'16 do' si8 si16
-    \footnoteHere #'(0 . 3.5) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         << { \tinyQuote \time 3/4 \set autoBeaming = ##f
             \key re \minor \clef "alto"
@@ -141,7 +141,7 @@
     sib4 r
     << { s2 s1 s4 } \tag #'atys { r2 | R1 | r4 } >>
     \tag #'basse \atysMark r8 re' re'8. re'16 re'8
-    \footnoteHere #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #2 \score {
         << { \tinyQuote \time 4/4 \set autoBeaming = ##f
             \key re \minor \clef "alto"
@@ -156,7 +156,7 @@
     << { s2 s2.*2 s1 s4 } \tag #'atys { r2 | R2.*2 | R1 | r4 } >>
     \tag #'basse \atysMark r8 fa' re'\trill re'16 re' sib8\trill sib16 la |
     la8\trill la r fa'16 fa' re'8\trill re'16 re' |
-    si8. re'16 re'8 \footnoteHere #'(0 . 2) \markup {
+    si8. re'16 re'8 \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         << { \tinyQuote \time 4/4 \set autoBeaming = ##f
             \key re \minor \clef "alto"
@@ -177,7 +177,7 @@
     sol4
     << { s2.*2 } \tag #'atys { r4 r2 | r2 r4 } >>
     \tag #'basse \atysMark r8 re'16 re' |
-    \footnoteHere #'(0 . 3.5) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         << { \tinyQuote \time 3/4 \partial 4 \set autoBeaming = ##f
             \key re \minor \clef "alto"
@@ -201,7 +201,7 @@
         re'4 re' re'( do') |
         re'2. re'4 |
         re' re' mib' fa' |
-        sol'4. sol'8 sol'4 \footnoteHere #'(0 . 1) \markup {
+        sol'4. sol'8 sol'4 \footnoteHere #'(0 . 0) \markup {
           Manuscrit : \raise #3 \score {
             << { \tinyQuote \time 2/2 \set autoBeaming = ##f
                 \key re \minor \clef "alto"
@@ -277,7 +277,7 @@
       do sol sol, | % do sol4. sol,8 |
       do2 do8 do |
       sol2 fa4 |
-      mib4 \footnoteHere #'(0 . 2) \markup {
+      mib4 \footnoteHere #'(0 . 0) \markup {
         Manuscrit : \raise #2.5 \score {
           << { \tinyQuote \time 3/4 \set autoBeaming = ##f
               \key re \minor \clef "bass"
@@ -297,7 +297,7 @@
       re'( re2) |
       sol sol8 sol |
       do2 do4 |
-      \footnoteHere #'(0 . 2) \markup {
+      \footnoteHere #'(0 . 0) \markup {
         Manuscrit : \raise #3 \score {
           << { \tinyQuote \time 3/4 \set autoBeaming = ##f
               \key re \minor \clef "bass"

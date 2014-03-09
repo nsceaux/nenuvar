@@ -14,7 +14,7 @@ re' re' do' sol'8 fa' |
 mi'( fa') mi'( re') do'( re') do'( sib) |
 la2 re'4 re' |
 re'4. re'8 mi'4. mi'8 |
-re'8 \footnoteHere #'(0 . 2.5) \markup {
+re'8 \footnoteHere #'(0 . 0) \markup {
   Mansucrit : \raise #3 \score {
     { \tinyQuote \key do \major \clef "alto" \time 2/2
       re'4 si do' la | si

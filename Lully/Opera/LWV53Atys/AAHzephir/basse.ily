@@ -14,7 +14,7 @@ do4. re8 mi fad |
 sol4 la si |
 fad2\trill sol4 |
 do re re, |
-\footnoteHere #'(0 . 4)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #3.5 \score {
     \new Staff {

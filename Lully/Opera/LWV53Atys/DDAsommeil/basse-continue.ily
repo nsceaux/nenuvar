@@ -9,7 +9,7 @@ la |
 la, |
 la |
 re |
-sol4( \footnoteHere #'(0 . 1.5) \markup {
+sol4( \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "bass"
@@ -54,7 +54,7 @@ sol,2 sol4( la) |
 sib( do') re'( sib) |
 mib'( re') mib'( do') |
 re'( mib') re'( do') |
-sib( la) sol( \footnoteHere #'(0 . 2) \markup {
+sib( la) sol( \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3.5 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "bass"
@@ -74,7 +74,7 @@ sol,( la,) sib,( do) |%%%
 re( mi) fad( re) |
 sol( la) sib( sol) |
 fad\trill( mi) fad( re) |
-sol( \footnoteHere #'(0 . 2) \markup {
+sol( \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "bass"
@@ -86,7 +86,7 @@ sol( \footnoteHere #'(0 . 2) \markup {
 re( mib) re( do) |
 sib,( la,) sib,( sol,) |
 do( sib,) do( la,) |
-re( do) sib,( \footnoteHere #'(0 . 4) \markup {
+re( do) sib,( \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "bass"
@@ -100,7 +100,7 @@ sib( la) sib( sol) |
 mib'( re') mib'( do') |
 re'( do') re'( re) |
 sol( la) sib( sol) |
-fad( mi) \footnoteHere #'(0 . 2) \markup {
+fad( mi) \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2.5 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "bass"
@@ -122,7 +122,7 @@ mib |
 re4( la,) sib,( sol,) |
 fad,1\trill |
 sol,4( re) sol( fa) |
-\footnoteHere #'(0 . 2) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2.5 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "bass"
@@ -148,7 +148,7 @@ do2 dod\trill |
 re4( la,) re( do) |
 sib,( la,) sib,( sol,) |
 re( do) re( re,) |
-\footnoteHere #'(0 . 1.5) \markup\wordwrap {
+\footnoteHere #'(0 . 0) \markup\wordwrap {
   Le manuscrit ne comporte pas les mesures de transition entre
   les vers de Morphée et Phobetor (mesures 102 à 104.)
 }
@@ -230,7 +230,7 @@ fa |
 mib |
 re |
 re, |
-\footnoteHereFull #'(0 . 4) \markup {
+\footnoteHereFull #'(0 . 0) \markup {
   Le manuscrit ne comporte pas d'indication de reprise du prélude du Sommeil.
 }
 sol,1 |

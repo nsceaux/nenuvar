@@ -1,7 +1,7 @@
 \clef "dessus" re''4 re'' fa'' |
 sib' sib' mib'' |
 do''\trill do'' fa'' |
-\footnoteHere #'(0 . 2) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Philidor 1703 : \raise #3 \score {
     { \tinyQuote \time 3/4
       \key re \minor \clef "french"
@@ -24,7 +24,7 @@ mi'' fa'' re'' |
 mi'' dod''4.\trill re''8 |
 re''2. |
 re''4 sol'' re'' |
-\footnoteHere #'(0 . 2) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Philidor 1703 : \raise #3 \score {
     { \tinyQuote \time 3/4
       \key re \minor \clef "french"

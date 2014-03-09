@@ -31,7 +31,7 @@ sib'2 do'' |
 la'4( sib') do''( re'') |
 sib'2 r |
 R1*3 |
-\footnoteHere #'(0 . 2.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key re \minor \clef "soprano"

@@ -13,7 +13,7 @@ r2 r4 sol'8. sol'16 |
 sol'2 sol'4. sol'8 |
 fa'2 la'4 la'8 la' |
 re'2. sol'4 |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       \new Staff <<

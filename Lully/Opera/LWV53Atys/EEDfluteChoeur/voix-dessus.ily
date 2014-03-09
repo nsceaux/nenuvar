@@ -3,7 +3,7 @@ R1*3 |
 r2 r |
 R1*11 |
 r2
-\footnoteHereFull #'(0 . 1) \markup\column {
+\footnoteHereFull #'(0 . 0) \markup\column {
   \orig-version\justify {
     Dans le manuscrit, le trio chanté est placé avant le trio pour
     flûtes, dont seules les premières mesure de la partie de première
@@ -72,7 +72,7 @@ mi''4 fa'' mi''4.\trill re''8 |
 re''2 fa''4. fa''8 |
 fa''4 fa'' mi''4. mi''8 |
 mi''4 mi'' re''4. re''8 |
-re''4 \footnoteHere #'(0 . 1) \markup { 
+re''4 \footnoteHere #'(0 . 0) \markup { 
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \set autoBeaming = ##f

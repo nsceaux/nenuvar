@@ -36,7 +36,7 @@
     la8. la16 la8. la16 si8 do' do'[ si] |
     do'2 r |
     mi4. mi16 mi fa8. fa16 sol8. la16 |
-    re4 \footnoteHere #'(0 . 2) \markup {
+    re4 \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f

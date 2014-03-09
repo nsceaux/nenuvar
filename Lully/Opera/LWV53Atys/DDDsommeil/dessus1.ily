@@ -1,5 +1,5 @@
 \clef "dessus" r2 re''4 sol'' |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2 \key re \minor \clef "french"
       r2 re''4 sol'' | fa''2 fa''4. fa''8 |

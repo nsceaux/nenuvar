@@ -11,7 +11,7 @@ mi'4 la' la'4. la'8 |
 la'2 sol'4. sol'8 |
 sol'2 mi'4. mi'8 |
 re'2 re'~ |
-re' re'4. \footnoteHere #'(0 . 3.5) \markup {
+re' re'4. \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "mezzosoprano"
@@ -23,7 +23,7 @@ re' re'4. \footnoteHere #'(0 . 3.5) \markup {
 si4. sol'8 sol'2~ |
 sol'2. re'4 |
 mi'2 mi'4. mi'8 |
-\footnoteHere #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "mezzosoprano"

@@ -1,5 +1,5 @@
 \clef "dessus" sol''2~ sol''8 sol'' fad'' sol'' |
-si'4\trill \footnoteHere #'(0 . 4) \markup {
+si'4\trill \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "french"

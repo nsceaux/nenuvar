@@ -64,7 +64,7 @@
     sol'4 << \tag #'sangaride sol'4 \tag #'basse { sol'16 s8. } >>
     << { s2 s4. } \tag #'sangaride { r2 | r4 r8 } >>
     \tag #'basse \sangarideMark la'8 la'8. la'16 la'8. si'16 |
-    \footnoteHere #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #2.5 \score {
         <<
           \new Staff <<
@@ -151,7 +151,7 @@
     sol'4 fa'!8. mi'16 re'8 re'16 mi' |
     dod'2 dod' |
     fa'8. fa'16 mi'8.\trill re'16 re'4
-    \footnoteHere #'(0 . 1.5) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #2 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f

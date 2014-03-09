@@ -4,7 +4,7 @@ mi''2.\trill |
 R2.*2 |
 do''4 do''4. fa''8 |
 re''2.\trill |
-\footnoteHere #'(0 . 2)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #3 \score {
       \new StaffGroupNoBar <<
@@ -38,7 +38,7 @@ re''2\trill do''4 |
 re''2. |
 R2.*2 |
 % Manuscrit : R2.*2
-\footnoteHere #'(0 . 2)
+\footnoteHere #'(0 . 0)
 \markup\wordwrap {
   Manuscrit : les violons ne jouent pas sur
   \italic { "\"Ses" grands "Exploits\"" }

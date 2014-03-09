@@ -1,5 +1,5 @@
 \clef "basse" 
-\footnoteHere #'(0 . 2.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key do \major \clef "bass" \time 4/4
       do4. si,8 la,8. sol,16 fad,4 | sol,4
@@ -17,7 +17,7 @@ la4 si8 do' sol sol, |
 do1 |
 do'4. do'8 do'4 si\trill |
 do'2 si\trill |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key do \major \clef "bass" \time 4/4
       la4 la, la8 si do' fa | sol2

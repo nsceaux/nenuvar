@@ -5,7 +5,7 @@ do'4. la8 fad\trill fad fad8. sol16 |
 sol2 r8 re16 re re8 re16 mi |
 fa8. fa16 fa8. fa16 fa8. mi16 |
 mi4\trill r8 do' la8.\trill la16 mi8.
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \set autoBeaming = ##f

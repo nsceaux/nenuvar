@@ -1,5 +1,5 @@
 \cybeleMark % r8 mi''16 mi'' do''8\trill do''16 mi'' la'8 la'16 la' mi'8 fa'16 sol' |
-r8 mi''16 mi'' do''8 do''16 mi'' \footnoteHere #'(0 . 2) \markup {
+r8 mi''16 mi'' do''8 do''16 mi'' \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       \new Staff {
@@ -22,7 +22,7 @@ si'8\trill si'16 si' do''8 re''16 mi'' mi''4( re'')\trill |
 do'' r8 sol'16 la' fa'4.\trill fa'16 mi' |
 mi'4.\trill do''16 do'' sol'4 sol'8 la' |
 si'8. sol'16 sol' la' si' dod'' re'' re'' re'' re'' mi''8. mi''16 |
-\footnoteHere #'(0 . 2) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2.5 \score {
     <<
       \new Staff {
@@ -72,7 +72,7 @@ R1*2 |
 r2 r4 mi'' |
 fa''2 re''4.\trill do''8 |
 do''2( si'4.)\trill la'8 |
-\footnoteHere #'(0 . 2) \markup\justify {
+\footnoteHere #'(0 . 0) \markup\justify {
   Le manuscrit s'interrompt à la fin de la mesure 49, et ne contient
   pas le chœur \italic { Nous devons nous animer d'une ardeur nouvelle. }
   La page suivante commence le deuxième acte.

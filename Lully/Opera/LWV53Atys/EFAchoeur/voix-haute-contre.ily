@@ -8,7 +8,7 @@ mi'4 fa' mi'4. mi'8 |
 mi'2. la'4 |
 la'2. la'4 |
 sol'4. sol'8 sol'4. sol'8 |
-\footnoteHere #'(0 . 1.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2.5 \score {
     <<
       { \tinyQuote \set autoBeaming = ##f

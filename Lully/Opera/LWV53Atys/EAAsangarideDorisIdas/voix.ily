@@ -14,7 +14,7 @@
     << { s2. | s1 | s4. } \tag #'sangaride { r4 r2 | R1 | r4 r8 } >>
     \tag #'basse \sangarideMark re''8 si'4\trill do''8 do''16 re'' |
     mi''8 mi'' r do''16 mi'' la'8\trill la'16 si' |
-    sol'4 r8 si'16 \footnoteHere #'(0 . 1) \markup {
+    sol'4 r8 si'16 \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \time 4/4 \set autoBeaming = ##f
@@ -45,7 +45,7 @@
     re''4. do''16 si' do''8 do''16 si' la'8\trill la'16 sol' |
     fad'4\trill r8 si' sold' sold' sold'8. sold'16 |
     la'4 r8 mi'' la'8. la'16 la'8. la'16 |
-    fad'8\trill fad' \footnoteHere #'(0 . 2) \markup {
+    fad'8\trill fad' \footnoteHere #'(0 . 0) \markup {
        Manuscrit : \raise #4 \score {
          <<
            { \tinyQuote \time 3/4 \set autoBeaming = ##f
@@ -62,7 +62,7 @@
     re''2 re''4 r |
     << { s2.*21 | s1 } \tag #'sangaride { R2.*21 | R1 } >>
     \tag #'basse \sangarideMark r4 sol'8 la' si' si' si'\trill si'16 la' |
-    si'8 si' mi''8. si'16 dod''8 \footnoteHere #'(0 . 1) \markup {
+    si'8 si' mi''8. si'16 dod''8 \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \time 4/4 \set autoBeaming = ##f
@@ -81,7 +81,7 @@
     re''4 mi''8 fa'' mi''2\trill |
     r4 do''8 si' la'4\trill la'8 si' |
     sol'4\trill r8 si'16 si' mi''8 mi''16 si' |
-    \footnoteHere #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \time 3/4 \set autoBeaming = ##f
@@ -152,7 +152,7 @@
     \tag #'basse \dorisMark la'16 la' fad'4\trill
     << { s4 | s4 } \tag #'doris { r4 | r4 } >>
     \tag #'basse \dorisIdasMark r8 si' si'8. si'16
-    \footnoteHere #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \time 4/4 \set autoBeaming = ##f
@@ -236,7 +236,7 @@
       mi'4.\trill mi'8 mi'4 la' |
       fad'4\trill fad' sol'4. la'8 |
       fad'4\trill fad'8 fad' fad'4 fad' |
-      \footnoteHere #'(0 . 2) \markup {
+      \footnoteHere #'(0 . 0) \markup {
         Manuscrit : \raise #2.5 \score {
           <<
             { \tinyQuote \time 2/2 \set autoBeaming = ##f
@@ -271,7 +271,7 @@
       r2 |
       R1 |
       r2 r8 sol sold sold |
-      la fad16 fad \footnoteHere #'(0 . 1) \markup {
+      la fad16 fad \footnoteHere #'(0 . 0) \markup {
         Manuscrit : \raise #2.5 \score {
           <<
             { \tinyQuote \time 4/4 \set autoBeaming = ##f
@@ -352,7 +352,7 @@
       r2 sol4 sol8 sol |
       do4 do re4. re8 |
       mi4 mi si,4. si,8 |
-      do4 do8 do \footnoteHere #'(0 . 2) \markup {
+      do4 do8 do \footnoteHere #'(0 . 0) \markup {
         Manuscrit : \raise #3 \score {
           <<
             { \tinyQuote \time 2/2 \set autoBeaming = ##f

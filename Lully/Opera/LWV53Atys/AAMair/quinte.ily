@@ -16,7 +16,7 @@ sol2 sol4 |
 sol2 la4 |
 si8 do' re'4. re'8 |
 re'2. |
-\footnoteHere #'(0 . 3.5)
+\footnoteHere #'(0 . 0)
 \markup {
   Manuscrit :
   \raise #3 \score {

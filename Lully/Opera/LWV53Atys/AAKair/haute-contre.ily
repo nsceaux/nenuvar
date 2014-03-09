@@ -9,7 +9,7 @@ mi''2. mi''4 |
 la'2 sol'4. sol'8 |
 sol'2 fad'4.( mi'16 fad') |
 sol'1 |
-\footnoteHere #'(0 . 2)
+\footnoteHere #'(0 . 0)
 \markup {
   Manuscrit :
   \raise #2.5 \score {
@@ -34,7 +34,7 @@ la'4. la'8 la' fad' fad' fad' |
 sol'4 sol'8 sol' %{ sol' sol' %} sol'4 sol'8 sol' |
 fa'2. la'4 |
 la' re'' do''4. do''8 |
-\footnoteHere #'(0 . 1)
+\footnoteHere #'(0 . 0)
 \markup {
   Manuscrit :
   \raise #2.5 \score {

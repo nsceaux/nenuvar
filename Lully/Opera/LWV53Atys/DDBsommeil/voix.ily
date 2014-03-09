@@ -21,7 +21,7 @@
     mib'2 re'4. re'8 |
     sol'2 sol'4 sol' |
     fa'2 fa'4. fa'8 |
-    \footnoteHere #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #4 \score {
         \new ChoirStaff <<
           \new Staff \with { autoBeaming = ##f instrumentName = "Morphée" } {

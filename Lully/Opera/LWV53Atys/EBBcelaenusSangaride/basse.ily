@@ -2,7 +2,7 @@
 do2 si, |
 do la,4 mi, |
 fa, fa2 |
-mi4 \footnoteHere #'(0 . 1) \markup {
+mi4 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key do \major \clef "bass"
@@ -30,7 +30,7 @@ re2 re8 do |
 si,4 fad,2\trill |
 sol,4 sol dod2 |
 re sib, |
-la,2. \footnoteHere #'(0 . 1) \markup {
+la,2. \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2.5 \score {
     { \tinyQuote \time 4/4
       \key do \major \clef "bass"

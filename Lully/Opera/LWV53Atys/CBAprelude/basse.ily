@@ -1,6 +1,6 @@
 \clef "basse" sol,2 sol~ |
 sol8 sol fad sol si,4\trill sol, |
-\footnoteHere #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #'3 \score {
     { \tinyQuote \time 2/2
       \key sol \major \clef "bass"

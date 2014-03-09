@@ -66,7 +66,7 @@
     re'2. |
     fa'4 fa' re' |
     mib'2. |
-    \footnoteHere #'(0 . 2)
+    \footnoteHere #'(0 . 0)
     \markup {
       Manuscrit : \raise #3 \score {
         <<
@@ -105,7 +105,7 @@
     \tag #'basse \atysMark r4 r8-\tag #'atys ^\markup\character [Atys] re' |
     sib4. mib'8 mib'4. mib'8 |
     do'2.\trill fa'4 |
-    \footnoteHere #'(0 . 1)
+    \footnoteHere #'(0 . 0)
     \markup {
       Manuscrit : \raise #3 \score {
         <<
@@ -157,7 +157,7 @@
     fa4. fa8 fa4. fa8 |
     sol4 sol2 la8 sib |
     la4 la fa4. fa8 |
-    \footnoteHere #'(0 . 4)
+    \footnoteHere #'(0 . 0)
     \markup {
       Manuscrit :
       \raise #3 \score {
@@ -236,7 +236,7 @@
     fa4 mi\trill fa fa |
     r do'8 do' do'4 re'8 la |
     sib4. la8 sol fa mi re |
-    \footnoteHere #'(0 . 3.5)
+    \footnoteHere #'(0 . 0)
     \markup {
       Manuscrit : \raise #3 \score {
         <<

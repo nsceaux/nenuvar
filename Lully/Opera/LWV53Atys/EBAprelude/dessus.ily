@@ -10,7 +10,7 @@ sol''4. si'8 si'4.\trill do''8 |
 re''4. mi''8 fa'' mi'' fa'' sol'' |
 mi''4.\trill mi''8 mi''4. fa''8 |
 sol''4 do'' do'''4. sol''8 |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 2/2
       \key do \major \clef "french"

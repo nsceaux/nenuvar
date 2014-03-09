@@ -6,7 +6,7 @@ la'4. re''8 dod''4. si'16 dod'' |
 re''4 la' sol'4. sol'8 |
 sol'2 la'8 sib' do''4 |
 re''2 do''4. sib'8 |
-\footnoteHere #'(0 . 2)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #2.5 \score {
     \new Staff {

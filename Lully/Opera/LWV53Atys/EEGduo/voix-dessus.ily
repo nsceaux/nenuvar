@@ -1,5 +1,5 @@
 \clef "vdessus"
-\footnoteHere #'(0 . 3.5) \markup\column {
+\footnoteHere #'(0 . 0) \markup\column {
   \justify {
     Dans Ballard 1689, le duo est chanté par un dessus et une
     haute-contre, tandis que dans le manuscrit, il est chanté par un
@@ -64,7 +64,7 @@ dod''\trill dod''4 |
 re''4. re''8 re''4 |
 re'' dod''2\trill |
 re''2. |
-\footnoteHere #'(0 . 2) \markup\justify {
+\footnoteHere #'(0 . 0) \markup\justify {
   Dans le matériel Philidor 1703, les six dernières mesures :
   \italic { Et du moment que j'aime C'est pour aimer toujours, }
   sont jouées deux fois.

@@ -1,6 +1,6 @@
 \atysMark r4 r8 re' mib'8. mib'16 mib'8. mib'16 |
 si4. si16 si do'4 do'8. sol16 |
-la4 la8 fa \footnoteHere #'(0 . 3.5) \markup {
+la4 la8 fa \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \time 4/4 \set autoBeaming = ##f
@@ -15,7 +15,7 @@ do'4. do'8 do'8. do'16 do'8 si |
 do'4 do' mib'8. mib'16 sol8\trill sol16 la |
 sib8. sib16 sib8. do'16 do'8.\trill re'16 |
 re'4 r8 la16 sib do'8. do'16 re'8. la16 |
-\footnoteHere #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \set autoBeaming = ##f

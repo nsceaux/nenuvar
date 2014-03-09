@@ -4,7 +4,7 @@ re'2. |
 sol4 sol8 la si sol |
 do'2. |
 % Manuscrit : fa4 fa4. fa8 |
-\footnoteHere #'(0 . 1)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #2.5 \score {
     { \tinyQuote \key re \minor \clef "bass" \time 3/4

@@ -5,7 +5,7 @@ la'4 si'8 do'' re'' do'' si' la' |
 sold'4 la' do'' do''8 re'' |
 mi''4 dod'' re'' re''8 do''? |
 si'2 si'4 dod'' |
-re'' si' \footnoteHere #'(0 . 1) \markup {
+re'' si' \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \key la \minor \clef "soprano" \time 2/2
       re''4 si' do''4 do''8 re'' | si'4
@@ -16,7 +16,7 @@ re'' si' \footnoteHere #'(0 . 1) \markup {
 si'4 do'' la'4. la'8 |
 la'4 la' sol'4. sol'8 |
 sol'4 sol' sol' la' |
-\footnoteHere #'(0 . 1) \markup {
+\footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #2.5 \score {
     { \tinyQuote \key la \minor \clef "soprano" \time 2/2
       sold'4 la' mi'2~ | mi'

@@ -1,7 +1,7 @@
 \melpomeneMarkText\markup { [parlant à Flore] }
 r4 r16 sol' sol' sol' do''4 r8 mi' | % do''4. mi'8
 fa'4 r16 fa' sol' la' sib'8. do''16 |
-\footnoteHere #'(0 . 1.5)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new Staff {

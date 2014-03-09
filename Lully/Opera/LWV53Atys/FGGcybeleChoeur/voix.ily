@@ -15,7 +15,7 @@
     re''2 do''4 do''8 do'' do''4 si' |
     la'2\trill la' re''4. re''8 |
     re''2 do''4. do''8 |
-    do''2 \footnoteHere #'(0 . 1) \markup {
+    do''2 \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           \new Staff {
@@ -59,7 +59,7 @@
     r8 re'' re'' re'' |
     mi''4. mi''8 fa''4. fa''8 |
     sol''[ la'' sol'' fa'' mi'' re'' do''
-    \footnoteHere #'(0 . 2) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #4 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -73,7 +73,7 @@
     la'2) la'4 do''8 do'' |
     fa''2 fa''4 fa'' |
     mi''2.\trill mi''4 |
-    \footnoteHere #'(0 . 1.5) \markup\column {
+    \footnoteHere #'(0 . 0) \markup\column {
       \wordwrap {
         Mesures 23 à 28 : la version du manuscrit, qui diffère de la
         version Ballard 1689 sur la plupart des parties, est donnée

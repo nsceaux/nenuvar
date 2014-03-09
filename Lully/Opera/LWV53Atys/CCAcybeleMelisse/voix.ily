@@ -14,7 +14,7 @@
     sol'4 sol'8 sol'16 sol' %{ sol'8 sol' %} sol'8. sol'16 |
     mi'8\trill mi' do'' do''16 do'' do''8. do''16 |
     la'8\trill la'16 la' mi'8 fad'16 sol' fad'4\trill fad' |
-    r8 re'16 mi' fad'8 fad'16 \footnoteHere #'(0 . 2) \markup {
+    r8 re'16 mi' fad'8 fad'16 \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \set autoBeaming = ##f \tinyQuote \time 4/4
@@ -41,7 +41,7 @@
     la' sol'4. %{ fad'8 %} sol'8 |
     fad'2\trill r8 re'' |
     re''4 do''4.\trill do''8 |
-    \footnoteHere #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \set autoBeaming = ##f \tinyQuote \time 3/4
@@ -60,7 +60,7 @@
     re''4 do''4.\trill do''8 |
     do''2 r8 si' |
     si'4 la'4.\trill la'8 |
-    \footnoteHere #'(0 . 2) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \set autoBeaming = ##f \tinyQuote \time 3/4
@@ -202,7 +202,7 @@
     mi''4
     << { s2. s1*3 s2. } \tag #'melisse {  r4 r2 | R1*3 | R2. } >>
     \tag #'basse \melisseMark
-    \footnoteHereFull #'(0 . 2) \markup\column {
+    \footnoteHereFull #'(0 . 0) \markup\column {
       \wordwrap { Dans le manuscrit, les vers
         \italic { Vous braviez à tord l'Amour qui vous blesse }
         sont chantés deux fois.
@@ -251,7 +251,7 @@
     si'( la'2)\trill |
     sol'2 si'4 |
     %si' dod'' re'' | dod''2. |
-    \footnoteHere #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit, Baussen 1709 :
       \raise #3 \score {
         <<

@@ -3,7 +3,7 @@ r2 r4 si8 si |
 do'2 do'8. do'16 do'8. do'16 |
 sib4 r8 re' re'4 r8 re' |
 do'4 mib'8 mib' re'4 re'8 re' |
-re'4 re' r r8 \footnoteHere #'(0 . 2) \markup {
+re'4 re' r r8 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \set autoBeaming = ##f

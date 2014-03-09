@@ -2,7 +2,7 @@
 re' mi' mi' re' |
 re'8 do' si4 re' mi' |
 re' mi' mi' re' |
-\footnoteHere #'(0 . 3)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new Staff {
@@ -20,7 +20,7 @@ la' sol'8 fad' mi'4. la'8 |
 fad'4 si mi'4. re'8 | % mi'4. mi'8 |
 re'2 re'4 mi' | % re'4 re' re' mi' |
 re' mi' mi' re' |
-\footnoteHere #'(0 . 3)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new Staff {
@@ -38,7 +38,7 @@ si2 sol'4 sol' |
 sol'4. sol'8 sol'4 la' | % sol' sol' sol' la' |
 sol'4. sol'8 sol' fad' mi'4 |
 mi' mi' re' re' |
-\footnoteHere #'(0 . 3.5)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new Staff {
@@ -53,7 +53,7 @@ re'4 re' re' mi' | % re' mi' re' mi' |
 re' mi' mi' re' |
 re'8 do' si4 re' mi' |
 re' mi' mi' re' |
-\footnoteHere #'(0 . 3.5)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #3 \score {
     \new Staff {

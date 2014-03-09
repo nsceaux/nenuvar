@@ -13,7 +13,7 @@ do2 re4 re, |
 \tieDashed sol,1.~ |
 sol,1 sol2 |\tieSolid
 la1. |
-\footnoteHere #'(0 . 1)
+\footnoteHere #'(0 . 0)
 \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \time 3/2
@@ -115,7 +115,7 @@ re4. re8 mi fad |
 sol2 fa4 |
 mi4. re8 do4 |
 fa4. sol8 fa mi |
-\footnoteHere #'(0 . 2)
+\footnoteHere #'(0 . 0)
 \markup {
   Manuscrit : \raise #'3 \score {
     { \tinyQuote \time 3/4
@@ -227,7 +227,7 @@ sib sib8 la sol fa mib re |
 do4 mib8 re do sib, la, sol, |
 re2 sib, |
 do re4 re, |
-\footnoteHere #'(0 . 4)
+\footnoteHere #'(0 . 0)
 \markup {
   Manuscrit : \raise #3 \score {
     { \tinyQuote \digitTime\time 2/2

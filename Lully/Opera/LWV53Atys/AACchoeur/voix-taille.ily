@@ -1,7 +1,7 @@
 \clef "vtaille" re'4 re'4. re'8 |
 re'2. |
 % Manuscrit : sib4 sib8[ do'] re'[ sib] |
-\footnoteHere #'(0 . 2)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #2.5 \score {
     \new StaffGroupNoBar <<
@@ -37,7 +37,7 @@ sib4. sib8 sib8. do'16 |
 la4 la sib |
 sib2( do'4) |
 % Manuscrit : re'2. |
-\footnoteHere #'(0 . 3.5)
+\footnoteHere #'(0 . 0)
 \markup { Manuscrit : 
   \raise #2.5 \score {
     { \tinyQuote \set autoBeaming = ##f

@@ -63,7 +63,7 @@
     sol'8\trill sol' r16 sol' sol' la' sib'4 sib'8 sib'16 la' |
     la'4\trill r16 fa'' fa'' mi'' re''8.\trill do''16 |
     si'4\trill si' do'' re''8 mi'' |
-    sold' sold' \footnoteHere #'(0 . 2) \markup {
+    sold' sold' \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \set autoBeaming = ##f
@@ -130,7 +130,7 @@
         R1*4 |
         r2 r4 fa'4 |
         re'1 |
-        \footnoteHere #'(0 . 1.5) \markup {
+        \footnoteHere #'(0 . 0) \markup {
           Manuscrit : \raise #3 \score {
             <<
               { \set autoBeaming = ##f
@@ -150,7 +150,7 @@
       }
     >>
     \tag #'basse \atysMark fa'2-\tag #'atys ^\markup\character "[Atys]" re'8 re' |
-    \footnoteHere #'(0 . 3.5) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \set autoBeaming = ##f

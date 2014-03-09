@@ -86,7 +86,7 @@
     r4 r8 re'16 re' si8\trill si mi' mi'16 si |
     do'8 do' r4 fa'8. fa'16 fa'8 fa'16 fa' |
     re'8\trill re' r sol' sol'8. sol'16 sol'8[ fa'16]\trill mi' |
-    fa'4 r16 re' re' re' \footnoteHere #'(0 . 4) \markup {
+    fa'4 r16 re' re' re' \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -106,7 +106,7 @@
     re'4
     << { s4 s1 } \tag #'atys { r4 r2 | r2 } >>
     \tag #'basse \atysMark sol'4 re'16 re' re' re' |
-    \footnoteHere #'(0 . 4) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Ballard : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
@@ -155,7 +155,7 @@
     \tag #'basse \atysMark mib'8-\tag #'atys ^\markup\mod-version\character Atys
     sol\trill sol r mib'16 mib' |
     do'8\trill do'16 do' sol8\trill sol16 la sib8. sib16 sib sib do' re' |
-    \footnoteHere #'(0 . 1.5) \markup {
+    \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
         <<
           { \tinyQuote \set autoBeaming = ##f
