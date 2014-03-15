@@ -38,7 +38,7 @@
 \pieceToc\markup\wordwrap { \smallCaps { Atys, Sangaride : }
   \italic { Sangaride ce jour est un grand jour pour vous } }
 \includeScore "BFAatysSangaride"
-%{ n°7 %}\newBookPart #'(basse haute-contre taille quinte)
+%{ n°7 %}
 \scene "Scene VII" "SCENE 7 : Sangaride, Atys, chœur de Phrygiens"
 \sceneDescription\markup\column {
   \wordwrap-center\smallCaps { Sangaride, Atys, les Phrygiens. }
@@ -59,7 +59,7 @@
 %{ n°8 %}\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entrée de Phrygiens"
 \includeScore "BGBphrygiens"
-%{ n°9 %}\newBookPart #'(haute-contre taille quinte)
+%{ n°9 %}
 \pieceTocTitle "Second air des Phrygiens"
 \includeScore "BGCphrygiens"
 %{ n°10 %}\newBookPart #'(full-rehearsal)

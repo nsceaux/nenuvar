@@ -1,8 +1,8 @@
-\clef "vhaute-contre" R1*11 |
+\clef "vhaute-contre2" R1*11 |
 R2.*4 |
 R1 |
 R2.*27 |
-r4 r sol'4. sol'8 |
+r2 sol'4. sol'8 |
 sol'4 sol'8 sol' la'4. la'8 |
 fad'4 fad' fad'4. fad'8 |
 sol'2 la'4. la'8 |

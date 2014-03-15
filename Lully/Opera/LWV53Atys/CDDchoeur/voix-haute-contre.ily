@@ -1,4 +1,4 @@
-\clef "vhaute-contre" sol'4 sol' fa' |
+\clef "vhaute-contre2" sol'4 sol' fa' |
 mib' mib' sol' |
 fa' fa' fa' |
 fa'2 re'4 |

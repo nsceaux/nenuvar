@@ -1,4 +1,4 @@
-\clef "vhaute-contre" mi'4 \footnoteHere #'(0 . 0) \markup {
+\clef "vhaute-contre2" mi'4 \footnoteHere #'(0 . 0) \markup {
   Manuscrit : \raise #3 \score {
     <<
       { \tinyQuote \key la \minor \clef "alto" \time 2/2 \partial 2

@@ -51,7 +51,7 @@ do'' si'2 |
 do''4 r r2 |
 R1. |
 R1 |
-R2.*7 |
+R2.*7 | \allowPageTurn
 r4 r do''4 |
 la'2. |
 re''4 re'' re'' |

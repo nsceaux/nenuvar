@@ -1,4 +1,4 @@
-\clef "vhaute-contre" R1 |
+\clef "vhaute-contre2" R1 |
 R2. |
 R1 |
 R1*9 |

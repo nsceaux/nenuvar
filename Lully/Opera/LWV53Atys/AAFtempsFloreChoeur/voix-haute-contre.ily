@@ -1,4 +1,4 @@
-\clef "vhaute-contre" R2.*40 |
+\clef "vhaute-contre2" R2.*40 |
 r4 sol'4. sol'8 |
 fa'4 fa' sol' |
 fa'2 r4 |

@@ -1,9 +1,8 @@
 %{ n°1 %}\newBookPart #'()
 \actn "Prologue"
-\markup\orig-version\vspace #20
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
-%{ n°2 %}\newBookPart #'(full-rehearsal)
+%{ n°2 %}
 \pieceToc\markup\wordwrap {
   \smallCaps { Le Temps : }
   \italic { En vain j'ay respecté la celebre memoire } }

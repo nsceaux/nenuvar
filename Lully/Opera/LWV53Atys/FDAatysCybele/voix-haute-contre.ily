@@ -1,4 +1,4 @@
-\clef "vhaute-contre" R1 R2.*2 R1 R2. R1 R2. R1 R1 R1*6 R2. R1*4
+\clef "vhaute-contre2" R1 R2.*2 R1 R2. R1 R2. R1 R1 R1*6 R2. R1*4
 R2. R1 R2. R1 R1 R1*2 R1 |
 r2 r4 sol' |
 sol'2 r4 sol' |

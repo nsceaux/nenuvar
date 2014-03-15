@@ -1,4 +1,4 @@
-\clef "vhaute-contre" fad'4 fad'4. sol'8 |
+\clef "vhaute-contre2" fad'4 fad'4. sol'8 |
 fad'2. |
 sol'4 sol'4. sol'8 |
 sol'2. |

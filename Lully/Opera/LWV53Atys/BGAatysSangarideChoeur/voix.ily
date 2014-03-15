@@ -331,7 +331,7 @@
         re'2 sol'4 |
         mi'2 fa'4 |
         mi'( re'4.) do'8 |
-        do'4 r8 mi'8 mi'4 |
+        do'4 r8 \forceFullClef\clef "vhaute-contre2" mi'8 mi'4 |
         re'4. re'8 mi'4 |
         fa'2 fa'4 |
         mi'2 mi'4 |
@@ -406,7 +406,7 @@
         sol' mi' fa' |
         re' re' mi' |
         mi'( re'2) |
-        do'2 %{%} sol'4 |
+        do'2 %{%} \clef "vhaute-contre2" sol'4 |
         fa'2. |
         fa'4 re' re' |
         mi'2 la'4 |
@@ -479,7 +479,7 @@
     do'2( si4) |
     do'2
     \tag #'haute-contre {
-      r8 sol' |
+      \clef "vhaute-contre2" r8 sol' |
       sol'2. |
       sol'4 sol' sol' |
       fad'2 r8 fad' |
@@ -489,7 +489,7 @@
       sol'4 sol' fa' |
       fa' fa' sol' |
       sol'4.( fa'8[ mi' fa']) |
-      mi'2 \forceFullClef\clef "vhaute-contre" mi'4.^\markup\character [Atys] mi'8 |
+      mi'2 \clef "vhaute-contre" mi'4.^\markup\character [Atys] mi'8 |
       re'2\trill re'4. mi'8 |
       do'2 do'4. do'8 |
       do'2 do'4 re' |
@@ -497,7 +497,7 @@
       do'2 do'4. re'8 |
       si2\trill re'4. re'8 |
       re'2 do'4. si8 |
-      la2 %{%} fad'4. fad'8 |
+      la2 %{%} \clef "vhaute-contre2" fad'4. fad'8 |
       sol'2. sol'4 |
       la'2 la'4 re' |
       sol'1 |

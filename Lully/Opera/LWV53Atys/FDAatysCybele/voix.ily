@@ -121,7 +121,7 @@
       \hspace #2
       Manuscrit : \raise #3 \score {
         <<
-          { \tinyQuote #19 \set autoBeaming = ##f
+          { \tinyQuote \set autoBeaming = ##f
             \key do \major \clef "alto" \time 4/4 \partial 2
             sol'4 re'16 re' re' re' | sol8 sol
           } \addlyrics { Ah quel -- le bar -- ba -- ri -- "e !" }
