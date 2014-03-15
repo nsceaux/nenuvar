@@ -1,0 +1,5 @@
+\piecePartSpecs #`((dessus #:tag-notes conducteur)
+                   (parties)
+                   (basse)
+                   (basse-continue #:score-template "score-basse-continue")
+                   (silence #:score "score-silence"))

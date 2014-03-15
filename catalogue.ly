@@ -406,6 +406,17 @@ O Emmanuel")
                  (timbales "Timbales"
                            #:score-file "part-trompette-timbales.ly")
                  (basse-continue "Basse continue")))
+       ("Les Indes Galantes (1735)"
+        #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1735.")
+        #:key "Rameau/Opera/IndesGalantes1735"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p=46"
+        #:main ((#f "Conducteur"))
+        #:parts ((dessus "Violons, Flûtes, Hautbois")
+                 (trompette-timbales "Trompette et Timbales"
+                                     #:score-file "part-tt.ly")
+                 (parties "Hautes-contre et Tailles")
+                 (basse "Basses")
+                 (basse-continue "Basse continue")))
        ("Les Indes Galantes (1736)"
         #:description ,(markup #:wordwrap-string  "Opéra ballet, livret de L. Fuzelier, version de 1736.")
         #:key "Rameau/Opera/IndesGalantes1736"

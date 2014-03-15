@@ -1,0 +1,1 @@
+r8\noBreak R1*24\noBreak R2.*18\noBreak R1*6\noBreak r2

@@ -33,7 +33,7 @@
   maintainerEmail = "nicolas.sceaux@free.fr"
   maintainerWeb = "http://nicolas.sceaux.free.fr"
   copyright = \markup\copyright
-  license = "Licensed under the Creative Commons Attribution-ShareAlike 3.0 License"
+  license = "Licensed under the Creative Commons Attribution-ShareAlike 4.0 License"
   shortcopyright = \markup { \copyright — \license }
   longcopyright = \markup\column {
     \vspace #1
@@ -71,10 +71,10 @@
       }
       \smaller\fill-line {
         \line {
-          Licensed under the Creative Commons Attribution-ShareAlike 3.0 License,
+          Licensed under the Creative Commons Attribution-ShareAlike 4.0 License,
           for details see: \hspace #-0.5 
-          \with-url #"http://creativecommons.org/licenses/by-sa/3.0" 
-          http://creativecommons.org/licenses/by-sa/3.0
+          \with-url #"http://creativecommons.org/licenses/by-sa/4.0"
+          http://creativecommons.org/licenses/by-sa/4.0
         }
       }
     }

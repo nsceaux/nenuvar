@@ -1,0 +1,7 @@
+\piecePartSpecs #`((dessus #:instrument "Hautbois" #:tag-notes hautbois)
+                   ,@(if (eqv? 'v1735 (ly:get-option 'indes-version))
+                         '((parties))
+                         '())
+                   (basse #:score "score-basse")
+                   (basse-continue #:score-template "score-basse-continue-voix")
+                   (silence #:score "score-silence"))

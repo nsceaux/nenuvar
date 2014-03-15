@@ -1,0 +1,1 @@
+R1*16\noBreak \vA R1*26 \vB R1*25
