@@ -29,7 +29,7 @@
     source principale.
   }
 }
-\include "SimphonieDuMarais/IndesGalantes1735/notes-prologue.ily"
-\include "SimphonieDuMarais/IndesGalantes1735/notes-turc.ily"
-\include "SimphonieDuMarais/IndesGalantes1735/notes-incas.ily"
-\include "SimphonieDuMarais/IndesGalantes1735/notes-fleurs.ily"
+\include "Rameau/Opera/IndesGalantes1735/notes-prologue.ily"
+\include "Rameau/Opera/IndesGalantes1735/notes-turc.ily"
+\include "Rameau/Opera/IndesGalantes1735/notes-incas.ily"
+\include "Rameau/Opera/IndesGalantes1735/notes-fleurs.ily"

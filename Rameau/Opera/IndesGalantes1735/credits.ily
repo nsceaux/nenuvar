@@ -27,6 +27,4 @@
     }
     \line { par la radio autrichienne (Österreichischer Rundfunk) }
   }
-  \pageBreak
-  \markup\null
 }

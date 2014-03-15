@@ -11,8 +11,6 @@
     date = "Version août 1735"
   }
   \markup\null
-  \pageBreak
-  \markup\null
 }
 
 %% Crédits
@@ -41,6 +39,7 @@
     ragged-bottom = ##t
     score-markup-spacing = #'((basic-distance . 8) (padding . 1) (minimum-distance . 8))
   }
+  \actn "Annexes"
   \include "Rameau/Opera/IndesGalantes1735/notes.ily"
 }
 %% Livret 1735
