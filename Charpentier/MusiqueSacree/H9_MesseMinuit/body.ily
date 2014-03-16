@@ -24,7 +24,7 @@
 \newBookPart #'(dessus)
 \pieceTocAndTitleNb "Gloria in Excelsis Deo" ""
 \markup\wordwrap {
-  Les bourgeois de Chastre — Ou s’en vont ces guays bergers
+  Les bourgeois de Chastre – Ou s’en vont ces guays bergers
 }
 \includeScore "Gloria"
 

@@ -64,9 +64,7 @@
     \modVersion\new StaffGroupNoBar <<
       \new StaffGroupNoBracket <<
         \new GrandStaff \with {
-          instrumentName = \markup {
-            \center-column { [Flutes Violons] } \hspace #6
-          }
+          instrumentName = \markup\center-column { [Flutes Violons] }
         } <<
           \new Staff <<
             \global
@@ -98,7 +96,7 @@
           \keepWithTag #'basse \includeNotes "basse"
         >>
       >>
-      \new ChoirStaff \with { instrumentName = \markup { [Chœur] \hspace #7 } }
+      \new ChoirStaff \with { instrumentName = "[Chœur]" }
       <<
         \new Staff \with { \haraKiriFirst } \withLyrics <<
           \global \keepWithTag #'vdessus1 \includeNotes "voix"

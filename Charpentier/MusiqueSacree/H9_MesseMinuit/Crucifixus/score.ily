@@ -33,7 +33,7 @@
     >>
 
     \modVersion\new StaffGroupNoBar <<
-      \new GrandStaff \with { instrumentName = \markup { Violons \hspace #6 } }
+      \new GrandStaff \with { instrumentName = "Violons" }
       <<
         \new Staff << \global \includeNotes "dessus1" >>
         \new Staff << \global \includeNotes "dessus2" >>

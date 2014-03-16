@@ -27,8 +27,8 @@
         re''4 re''8 re'' dod''4 re'' |
         si'8 dod'' re'' mi'' la'4 sol'8[ fad'] |
         si'8 si' fad'' fad'' mi''4 mi'' |
-        \footnoteHere #'(0 . 0) \markup {
-          Source : \raise #3 \score {
+        %{ \footnoteHere #'(0 . 0) \markup {
+          Source : \score {
             <<
               \new Voice \withLyrics {
                 \tinyQuote \clef "treble" \key re \major \time 2/2
@@ -37,7 +37,7 @@
             >>
             \layout { \quoteLayout }
           }
-        }
+        } %}
         fad''2 r |
         R1*4 |
         sol'4 sol'8 sol' sol'4 la'8 si' |

@@ -19,7 +19,7 @@
           (#:notes "basse" #:clef "basse" #:tag-notes basse-continue
                    #:score-template "score-basse-continue2")))
 
-\include "common/precipitations.ily"
+%%\include "common/precipitations.ily"
 \setOpus "Charpentier/MusiqueSacree/H9_MesseMinuit"
 
 #(set-global-staff-size
