@@ -406,9 +406,7 @@ pieceTocTitleNb =
                         (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
                             (markup #:rehearsal-number number
                                     #:hspace 1
-                                    #:huge (if (string? title)
-                                               (string-upper-case title)
-                                               title))
+                                    #:huge title)
                             (markup #:title (if (string? title)
                                                (string-upper-case title)
                                                title))))

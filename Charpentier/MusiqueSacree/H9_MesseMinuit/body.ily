@@ -41,7 +41,7 @@
 \markup\on-the-fly
 #(lambda (layout props arg)
    (if (symbol? (*part*))
-       empty-stencil
+       (interpret-markup layout props " ")
        (interpret-markup layout props arg)))
 \huge\wordwrap {
   A l’offertoire les vi[ol]ons joueront
@@ -49,18 +49,15 @@
   en d la re sol \raise #1 \musicglyph #"accidentals.sharp"
 }
 
+%% Offertoire : Laissez paître vos bêtes
 %% Programme Précipitations : à la venue de Noël
-\pieceTocAndTitleNbCond #(eqv? (ly:get-option 'precipitations) #t)
-"Offertoire"
-\markup { A la venue de Noel }
-\markup { A la venue de Noel }
-\includeScoreCond #(eqv? (ly:get-option 'precipitations) #t) "VenueNoel"
-%% Laissez paître vos bêtes
-\pieceTocAndTitleNbCond #(not (eqv? (ly:get-option 'precipitations) #t))
-"Offertoire"
-\markup { Laissez paitre vos bestes }
-\markup { Laissez paitre vos bestes }
-\includeScoreCond #(not (eqv? (ly:get-option 'precipitations) #t)) "LaissezPaitre"
+\pieceTocTitleNb "Offertoire"
+#(if (eqv? (ly:get-option 'precipitations) #t)
+     "A la venue de Noel"
+     "Laissez paitre vos beste")
+\includeScore #(if (eqv? (ly:get-option 'precipitations) #t)
+                   "VenueNoel"
+                   "LaissezPaitre")
 \noPageBreak\markup\huge { Passez au Sanctus }
 \noPageBreak\markup\vspace #2
 
