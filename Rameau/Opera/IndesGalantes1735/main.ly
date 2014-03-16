@@ -39,11 +39,13 @@
     ragged-bottom = ##t
     score-markup-spacing = #'((basic-distance . 8) (padding . 1) (minimum-distance . 8))
   }
-  \actn "Annexes"
+  \annexe "Annexes"
   \include "Rameau/Opera/IndesGalantes1735/notes.ily"
 }
 %% Livret 1735
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Rameau/Opera/IndesGalantes1735/livret.ily"
+  \pageBreak
+  \markup\null
 }
