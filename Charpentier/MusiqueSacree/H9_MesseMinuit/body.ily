@@ -3,7 +3,6 @@
 \noPageBreak\markup\huge { Icy l’orgue joue le mesme Noël }
 \noPageBreak\markup\vspace #2
 
-%\newBookPart #'(dessus)
 \pieceTocTitleNb "" \markup { Or nous dites Marie }
 \includeScore "Christe"
 
@@ -21,14 +20,12 @@
   pendant que le celebrant l’entonne
 }
 
-\newBookPart #'(dessus)
 \pieceTocAndTitleNb "Gloria in Excelsis Deo" ""
 \markup\wordwrap {
   Les bourgeois de Chastre – Ou s’en vont ces guays bergers
 }
 \includeScore "Gloria"
 
-\newBookPart #'(dessus)
 \pieceTocAndTitleNb "Credo in unum Deum" ""
 \markup { Vous qui désirez sans fin }
 \includeScore "Credo"

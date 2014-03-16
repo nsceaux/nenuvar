@@ -48,7 +48,7 @@
     sol''4. sol''8 sol''4 la''8 si'' |
     la''4.\prall la''8 la''4. la''8 |
     fad'' sol'' la''4 sol''4.\prall fad''8 |
-    mi''2\prall re'' |
+    mi''2\prall re'' | \allowPageTurn
   }
   \tag #'(haute-contre orig2) {
     \clef "haute-contre" re''4 re'' fad' sol' |
