@@ -90,7 +90,7 @@
     sib'4. sib'8 sib'4. sib'8 |
     la'4 sib' \footnoteHere #'(0 . 0) \markup {
       Manuscrit : \raise #3 \score {
-        << { \tinyQuote #76 \time 2/2 \set autoBeaming = ##f
+        << { \tinyQuote \time 2/2 \set autoBeaming = ##f
             \key re \minor \clef "soprano"
             la'4 sib' sol'4.( la'8) | fad'2.
           } \addlyrics { -con -- nais -- can -- ce }

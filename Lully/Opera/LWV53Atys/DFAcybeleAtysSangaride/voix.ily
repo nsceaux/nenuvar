@@ -134,7 +134,7 @@
           Manuscrit : \raise #3 \score {
             <<
               { \set autoBeaming = ##f
-                \tinyQuote #23 \time 2/2 \key do \major \clef "alto"
+                \tinyQuote \time 2/2 \key do \major \clef "alto"
                 <mi' sol'>4. q8 q4. <re' fa'>8 | fa'2
               } \addlyrics { sont les pro -- tec -- teurs }
             >>
@@ -154,7 +154,7 @@
       Manuscrit : \raise #3 \score {
         <<
           { \set autoBeaming = ##f
-            \tinyQuote #33 \time 4/4 \key do \major \clef "alto"
+            \tinyQuote \time 4/4 \key do \major \clef "alto"
             r4 fa'2 re'8. re'16 | si4
           } \addlyrics { "Ah !" c'en est trop... }
         >>

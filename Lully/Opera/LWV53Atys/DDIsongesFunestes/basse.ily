@@ -22,8 +22,8 @@ sol,2 mib4 mib8 re do2\trill |
 fa4 fa8 mib re2\trill sib4 sib8 la |
 sol4 re mib2 fa4 fa, |
 sib,2. sib,8 do re4 re8 \footnoteHere #'(0 . 0) \markup {
-  Manuscrit : \raise #3 \score {
-    { \tinyQuote #24 \time 3/2 \key re \minor \clef "bass"
+  Manuscrit : \score {
+    { \tinyQuote \time 3/2 \key re \minor \clef "bass"
       sib,2. sib,8 do re4 re8 mib | \bar ":|"
     }
     \layout { \quoteLayout }

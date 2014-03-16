@@ -90,7 +90,7 @@ R2.*21 |
     mi''4 fa''8 sol'' fa'' mi'' |
     re''2\trill s4 |
     s2.*4 |
-    s4 s8 %{mi''8%} fa''8 fad''4 |
+    s4 s8 %{mi''8%} fad''8 fad''4 |
     sol'' la''8 sib'' la'' sol'' |
     fad''4.\trill fad''8 sol'' fad'' |
     sol'' la'' fad''4.\trill sol''8 |
