@@ -1,15 +1,15 @@
-la, la, la, la, la, la, la, la, la, la, la, la, 
-la, la, la, la, la, la, la, la, la, la, la, la, 
-la, la, la, la, la, la, 
-en ca -- den -- ce s'il vous plaist,
-la, la, la, la, 
-la jam -- be droi -- te,
-la, la, la, 
-ne re -- muez point tant les e -- pau -- les,
-la, la, la, la, la, la, la, la, la, la,
-vos deux bras sont es -- tro -- piez,
-la, la, la, la, la,
-haus -- sez la tes -- te,
-tour -- nez la poin -- te du pied en de -- hors,
-la, la, la,
-dres -- sez vos -- tre corps.
+la, la, la, la, la, la, la, la, la, la, la, la,
+la, la, la, la, la, la, la, la, la, la, la, la,
+la, la, la, la, la, la.
+En ca -- den -- ce, s'il vous plaist.
+La, la, la, la.
+La jam -- be droi -- te.
+La, la, la.
+Ne re -- muez point tant les é -- pau -- les.
+La, la, la, la, la, la, la, la, la, la.
+Vos deux bras sont es -- tro -- piez.
+La, la, la, la, la.
+Haus -- sez la tes -- te.
+Tour -- nez la poin -- te du pied en de -- hors.
+La, la, la.
+Dres -- sez vos -- tre corps.

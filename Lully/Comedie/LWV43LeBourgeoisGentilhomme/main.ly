@@ -82,19 +82,9 @@
   }
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Ouverture
-%% Acte 1
-%% Premier intermède
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/acte1.ily"
-%% Acte 2
-\bookpart {
-  %% scènes 1-3
-  \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body02.ily"
-  %% scène 4-5
-  \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body03.ily"
-}
-%% Deuxième intermède
-\include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body04.ily"
+\include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/acte2.ily"
+%{
 %% Acte 3
 \bookpart {
   %% scènes 1-3
@@ -119,3 +109,4 @@
 }
 %% Ballet
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body13.ily"
+%}

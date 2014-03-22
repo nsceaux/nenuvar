@@ -33,9 +33,9 @@
 %%  optimal   for lead sheets
 %%  page-turn for instruments and vocal parts
 \paper {
-  #(define page-breaking (if (eqv? (ly:get-option 'part) #f)
-                             ly:minimal-breaking
-                             ly:page-turn-breaking))
+  #(define page-breaking (if (symbol? (ly:get-option 'part))
+                             ly:page-turn-breaking
+                             ly:minimal-breaking))
 }
 
 \layout { reference-incipit-width = #(* 1/2 mm) }

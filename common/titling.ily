@@ -522,6 +522,18 @@ act =
   (add-no-page-break parser)
   (make-music 'Music 'void #t))
 
+actNoMarkup =
+#(define-music-function (parser location act-title) (string?)
+  (increase-rehearsal-major-number)
+  (add-toc-item parser 'tocActMarkup act-title)
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
+  (*act-title* act-title)
+  (add-odd-page-header-text
+    parser
+    (format #f "~a" (string-upper-case (*act-title*)))
+    #f)
+  (make-music 'Music 'void #t))
+
 actn =
 #(define-music-function (parser location act-title) (string?)
   (add-page-break parser)
