@@ -83,6 +83,11 @@
     layout props
     #{ \markup\fontsize #0 \italic \fill-line { $text } #}))
 
+#(define-markup-command (livretDidascalies layout props text) (markup-list?)
+   (interpret-markup
+    layout props
+    #{ \markup\fontsize #0 \italic\justify { \hspace #4 $text } #}))
+
 #(define-markup-command (livretPers layout props text next) (markup? markup?)
    #:properties ((line-width)
                  (gap 9)

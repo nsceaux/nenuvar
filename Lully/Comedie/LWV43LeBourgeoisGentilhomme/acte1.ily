@@ -234,7 +234,7 @@
   \livretPers "Maistre a dancer."
   \livretText { Elles sont magnifiques. }
   \livretPers "Monsieur Jourdain."
-  \livretDidasP\justify {
+  \livretDidascalies {
     (Il entr’ouvre sa Robe, & fait voir un Haut-de-chausses étroit
     de velours rouge, & une Camisole de velours vert, dont il est vestu.)
   }

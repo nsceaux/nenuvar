@@ -84,6 +84,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/acte1.ily"
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/acte2.ily"
+\include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/acte3.ily"
 %{
 %% Acte 3
 \bookpart {

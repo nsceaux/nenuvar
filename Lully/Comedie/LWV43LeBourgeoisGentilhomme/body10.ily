@@ -1,11 +1,11 @@
 \bookpart {
   \paper { #(define page-breaking ly:optimal-breaking) }
   \markuplist \columns {
-    \didascalie {
+    \livretDidasP\justify {
       La cérémonie turque pour ennoblir le bourgeois se fait en danse
       et en musique, et compose le quatrième intermède.
     }
-    \didascalie {
+    \livretDidasP\justify {
       Le mufti, quatre dervis, six Turcs dansants, six Turcs
       musiciens, et autres joueurs d'instruments à la turque, sont les acteurs
       de cette cérémonie.
@@ -18,9 +18,9 @@
   \includeScore "AUalla"
 
   \markuplist \columns {
-    \didascalie {
+    \livretDidasP\justify {
       Le mufti invoque Mahomet avec les douze Turcs et les quatre
-      dervis ; après on lui amène le bourgeois, vêtu à la turque, sans
+      dervis ; après on lui amène le bourgeois, vêtu à la turque, sans
       turban et sans sabre, auquel il chante ces paroles.
     }
   }
@@ -29,7 +29,7 @@
   \includeScore "AVmufti"
 
   \markuplist \columns {
-    \didascalie {
+    \livretDidasP\justify {
       Le mufti demande, en même langue, aux Turcs assistants de
       quelle religion est le bourgeois, et ils l'assurent qu'il est
       mahométan. Le mufti invoque Mahomet en langue franque, et chante
@@ -45,7 +45,7 @@
   \includeScore "AYmahametta"
 
   \markuplist \columns {
-    \didascalie {
+    \livretDidasP\justify {
       Le mufti demande aux Turcs si le bourgeois sera ferme dans
       la religion mahométane, et leur chante ces paroles.
     }
@@ -59,7 +59,7 @@
   \includeScore "BBou"
 
   \markuplist \columns {
-    \didascalie {
+    \livretDidasP\justify {
       Le mufti propose de donner le turban au bourgeois, et chante
       les paroles qui suivent.
     }
@@ -71,12 +71,12 @@
   \includeScore "BDair"
 
   \markuplist \columns {
-    \didascalie {
+    \livretDidasP\justify {
       Les Turcs répètent tout ce qu'a dit le mufti pour donner le
       turban au bourgeois. Le mufti et les dervis se coiffent avec des
       turbans de cérémonies, et l'on présente au mufti l'alcoran, qui
       fait une seconde invocation avec tout le reste des Turcs
-      assistants ; après son invocation, il donne au bourgeois l'épée, et chante
+      assistants ; après son invocation, il donne au bourgeois l'épée, et chante
       ces paroles.
     }
   }
@@ -85,7 +85,7 @@
   \includeScore "BEnobile"
 
   \markuplist \columns {
-    \didascalie {
+    \livretDidasP\justify {
       Les Turcs répètent les mêmes vers, mettant tous le sabre à la
       main, et six d'entre eux dansent autour du bourgeois, auquel ils
       feignent de donner plusieurs coups de sabre.
@@ -96,7 +96,7 @@
   \includeScore "BFair"
 
   \markuplist \columns {
-    \didascalie {
+    \livretDidasP\justify {
       Le mufti commande aux Turcs de bâtonner le bourgeois, et
       chante les paroles qui suivent.
     }
@@ -106,7 +106,7 @@
   \includeScore "BGbastonnara"
 
   \markuplist \columns {
-    \didascalie {
+    \livretDidasP\justify {
       Les Turcs répètent les mêmes vers, et lui donnent plusieurs
       coups de bâton en cadence.
     }
@@ -116,8 +116,8 @@
   \reIncludeScore "BDair" "BGair"
 
   \markuplist \columns {
-    \didascalie {
-      Le mufti, après l'avoir fait bâtonner, lui dit en chantant :
+    \livretDidasP\justify {
+      Le mufti, après l'avoir fait bâtonner, lui dit en chantant :
     }
   }
 
@@ -125,10 +125,10 @@
   \includeScore "BHaffronta"
 
   \markuplist \columns {
-    \didascalie {
+    \livretDidasP\justify {
       Les Turcs répètent les mêmes vers.
     }
-    \didascalie {
+    \livretDidasP\justify {
       Le mufti recommence une invocation, et se retire après la
       cérémonie avec tous les Turcs, en dansant et chantant avec plusieurs
       instruments à la turquesque.

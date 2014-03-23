@@ -156,7 +156,7 @@
     deux laquais.
   }
   \livretPers "Maistre d’armes"
-  \livretDidasP\justify { apres luy avoir mis le Fleuret à la main. }
+  \livretDidascalies { apres luy avoir mis le Fleuret à la main. }
   \livretText {
     Allons, Monsieur, la reverence. Vostre corps droit.
     Un peu panché sur la cuisse gauche. Les jambes point
@@ -176,7 +176,7 @@
     Un saut en arriere. En garde, Monsieur, en
     garde.
   }
-  \livretDidasP\justify {
+  \livretDidascalies {
     Le Maistre d’Armes luy pousse deux ou trois Bottes, en luy
     disant : "\"En garde.\""
   }
@@ -254,7 +254,7 @@
     Mestier.
   }
   \livretPers "Monsieur Jourdain"
-  \livretDidasP\justify { au Maistre à Dancer. }
+  \livretDidascalies { au Maistre à Dancer. }
   \livretText {
     Estes-vous fou de l’aller quereller, luy qui entend la
     tierce & la quarte, & qui sçait tuer un Homme par raison
@@ -424,7 +424,7 @@
   \livretText {
     Comment ? Marauts que vous estes...
   }
-  \livretDidasP\justify {
+  \livretDidascalies {
     Le Philosophe se jette sur eux, & tous trois le chargent de
     coups, & sortent en se battant.
   }
@@ -484,7 +484,7 @@
   \livretText {
     Fripons ! gueux ! traistres ! imposteurs !
   }
-  \livretDidasP\justify { Ils sortent. }
+  \livretDidascalies { Ils sortent. }
   \livretPers "Monsieur Jourdain."
   \livretText {
     Monsieur le Philosophe, Messieurs, Monsieur le Philosophe,
@@ -501,7 +501,7 @@
     Maistre de Philosophie, Monsieur Jourdain.
   }
   \livretPers "Maistre de philosophie"
-  \livretDidasP\justify { En raccommodant son Colet. }
+  \livretDidascalies { En raccommodant son Colet. }
   \livretText {
     Venons à nostre Leçon.
   }
@@ -1075,7 +1075,7 @@
     Tout est bien.
   }
   \livretPers "Monsieur Jourdain"
-  \livretDidasP\justify { en regardant l’Habit du Tailleur. }
+  \livretDidascalies { en regardant l’Habit du Tailleur. }
   \livretText {
     Ah, ah ! Monsieur le Tailleur, voila de mon étoffe du
     dernier Habit que vous m’avez fait. Je la reconnoy bien.
@@ -1104,7 +1104,7 @@
     autres. Mettez cet Habit à Monsieur, de la maniere que
     vous faites aux Personnes de Qualité.
   }
-  \livretDidasP\justify {
+  \livretDidascalies {
     Quatre Garçons Tailleurs entrent, dont deux luy arrachent le
     Haut-de-chausses de ses Exercices, & deux autres la Camisole,
     puis ils luy mettent son Habit neuf ; & Monsieur Jourdain se
@@ -1169,7 +1169,7 @@
   \livretText {
     Il a bien fait, je luy allois tout donner.
   }
-  \livretDidasP\justify {
+  \livretDidascalies {
     Les quatre Garçons Tailleurs se réjouïssent par une dance,
     qui fait le second Intermede.
   }
