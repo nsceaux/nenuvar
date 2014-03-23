@@ -100,8 +100,6 @@
 \pieceTocTitle "Seconde chanson a boire"
 \includeScore "ARchansonB"
 \newBookPart #'(full)
-%% 4-3
-\pieceTocTitle "[Troisieme chanson a boire]"
 \includeScore "ASchansonC"
 
 %% Quatrième intermède
