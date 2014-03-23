@@ -539,3 +539,144 @@
     & en Musique, & compose le quatriéme Intermede.
   }
 }
+\bookpart {
+  \paper { #(define page-breaking ly:optimal-breaking) }
+  \intermede "Quatriéme Intermede"
+  \markup\intermedeText {
+    Le Mufti, quatre Dervis, six Turcs dançans, six Turcs Musiciens,
+    & autres Joüeurs d’Instruments à la Turque, sont les Acteurs de
+    cette Ceremonie.
+  }
+  %% 4-3
+  \pieceTocTitle "Marche pour la Ceremonie des Turcs"
+  \includeScore "ATmarche"
+  %% 4-4
+  \pieceToc\markup [prière]
+  \includeScore "AUalla"
+
+  \markup\intermedeText {
+    Le Mufti invoque Mahomet avec les douze Turcs & les quatre
+    Dervis ; apres on luy amene le Bourgeois vestu à la Turque, sans
+    Turban & sans Sabre, auquel il chante ces paroles.
+  }
+  %% 4-5
+  \pieceToc\markup\wordwrap { Le Mufti : \italic { Seti sabir } }
+  \includeScore "AVmufti"
+
+  \markup\intermedeText {
+    Le Mufti demande en mesme langue aux Turcs assistans, de
+    quelle Religion est le Bourgeois, & ils l’assurent qu’il est
+    Mahometan. Le Mufti invoque Mahomet en langue Franque, & chante
+    les paroles qui suivent.
+  }
+  %% 4-6
+  \pieceToc\markup\wordwrap {
+    Le Mufti, les Turcs : \italic { Dice mi Turque }
+  }
+  \includeScore "AWmuftiSuite"
+  %% 4-7
+  \pieceToc\markup\wordwrap {
+    Le Mufti, les Turcs : \italic { Como chiamara }
+  }
+  \includeScore "AXgiourdina"
+  %% 4-8
+  \pieceToc\markup\wordwrap {
+    Le Mufti : \italic { Mahametta per Giourdina }
+  }
+  \includeScore "AYmahametta"
+  
+  \markup\intermedeText {
+    Le Mufti demande aux Turcs si le Bourgeois sera ferme dans
+    la Religion Mahometane, & leur chante ces paroles.
+  }
+  %% 4-9
+  \pieceToc\markup\wordwrap {
+    Le Mufti, les Turcs : \italic { Star bon turca, Giourdina }
+  }
+  \includeScore "AZbonTurca"
+  %% 4-10
+  \pieceTocTitle "Deuxieme air"
+  \includeScore "BAair"
+  %% 4-11
+  \pieceToc\markup Prière
+  \includeScore "BBou"
+
+  \markup\intermedeText {
+    Le Mufti propose de donner le Turban au Bourgeois, & chante
+    les paroles qui suivent.
+  }
+  %% 4-12
+  \pieceToc\markup\wordwrap {
+    Le Mufti, les Turcs : \italic { Ti non star Furba }
+  }
+  \includeScore "BCturbanta"
+  %% 4-13
+  \pieceTocTitle "Troisieme air"
+  \includeScore "BDair"
+
+  \markup\intermedeText {
+    Les Turcs repetent tout ce qu’a dit le Mufti pour donner le Turban
+    au Bourgeois. Le Mufti & les Dervis se coiffent avec des Turbans
+    de Ceremonies, & l’on presente au Mufti l’Alcoran, qui fait une
+    seconde Invocation avec tout le reste des Turcs assistants ; apres
+    son Invocation il donne au Bourgeois l’Epée, & chante ces paroles.
+  }
+  %% 4-14
+  \pieceToc\markup\wordwrap {
+    Le Mufti, les Turcs : \italic { Ti star nobilé é non star fabbola }
+  }
+  \includeScore "BEnobile"
+
+  \markup\intermedeText {
+    Les Turcs repetent les mesmes Vers, mettant tous le sabre à la
+    main, & six d’entre eux dançent autour du Bourgeois, auquel ils
+    feignent de donner plusieurs coups de Sabre.
+  }
+  %% 4-15
+  \pieceTocTitle "Quatrieme air"
+  \includeScore "BFair"
+
+  \markup\intermedeText {
+    Le Mufti commande aux Turcs de bastonner le Bourgeois, &
+    chante les paroles qui suivent.
+  }
+  %% 4-16
+  \pieceToc\markup\wordwrap {
+    Le Mufti, les Turcs : \italic { Dara bastonnara }
+  }
+  \includeScore "BGbastonnara"
+
+  \markup\intermedeText {
+    Les Turcs repetent les mesmes Vers, & luy donnent plusieurs
+    coups de Baston en cadance.
+  }
+
+  %% 4-17
+  \pieceTocTitle "Troisième air"
+  \reIncludeScore "BDair" "BGair"
+
+  \markup\intermedeText {
+    Le Mufti apres l’avoir fait bastonner, luy dit en chantant :
+  }
+  %% 4-18
+  \pieceToc\markup\wordwrap {
+    Le Mufti, les Turcs : \italic { Non tener honta }
+  }
+  \includeScore "BHaffronta"
+  \markup\intermedeText { Les Turcs repetent les mesmes Vers. }
+
+  \markup\intermedeText {
+    Le Mufti recommence une Invocation, & se retire apres la
+    Ceremonie avec tous les Turcs, en dançant & chantant avec plusieurs
+    Instruments à la Turquesque.
+  }
+
+  %% 4-19
+  \pieceTocTitle "Deuxieme air"
+  \reIncludeScore "BAair" "BIair"
+  %% 4-20
+  \pieceToc\markup\wordwrap {
+    Le Mufti, les Turcs : \italic { Star bon turca, Giourdina }
+  }
+  \reIncludeScore "AZbonTurca" "BHbonTurca"
+}

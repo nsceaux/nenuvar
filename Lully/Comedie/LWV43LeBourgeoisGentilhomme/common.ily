@@ -75,6 +75,12 @@ intermede =
    (add-no-page-break parser)
    (make-music 'Music 'void #t))
 
+#(define-markup-command (intermedeText layout props text) (markup-list?)
+   (interpret-markup
+    layout props
+    #{ \markup\fontsize #1 \fill-line {
+  \line-width-ratio #0.7 \justify { $text } } #}))
+
 #(define-markup-list-command (livret layout props lines) (markup-list?)
    (interpret-markup-list
     layout props
