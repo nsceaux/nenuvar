@@ -1,13 +1,12 @@
 \newBookPart #'()
-%% 0-1
-\pieceTocTitle "Ouverture"
-\includeScore "AAouverture"
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% ACTE I
 \act "Acte Premier"
-\scene "Scene Premiere" "Scene I"
 %% 1-1
+\pieceTocTitle "Ouverture"
+\includeScore "AAouverture"
+\scene "Scene Premiere" "Scene I"
+%% 1-2
 \pieceToc\markup\wordwrap {
   L’eleve du Maistre de musique :
   \italic { Je languis nuit et jour }
@@ -15,7 +14,7 @@
 \includeScore "ABeleve"
 
 \scene "Scene II" "Scene II"
-%% 1-2
+%% 1-3
 \pieceToc\markup\wordwrap {
   Musicienne chantante : \italic { Je languis nuit et jour }
 }
@@ -23,35 +22,35 @@
 
 \newBookPart #'(full basse)
 \scene "Dialogue en musique" "Dialogue en musique"
-%% 1-3
+%% 1-4
 \pieceTocTitle "Ritournelle"
 \includeScore "AEritournelle"
-%% 1-4
+%% 1-5
 \pieceToc\markup\wordwrap {
   Une musicienne : \italic { Un cœur dans l’amoureux Empire }
 }
 \includeScore "AFmusicienne"
-%% 1-5
+%% 1-6
 \pieceTocTitle "Ritournelle"
 \includeScore "AGritournelle"
-%% 1-6
+%% 1-7
 \pieceToc\markup\wordwrap {
   Un musicien :
   \italic { Il n’est rien de si doux que les tendres ardeurs }
 }
 \includeScore "AHmusicien"
 \newBookPart #'(full)
-%% 1-7
+%% 1-8
 \pieceTocTitle "Ritournelle"
 \includeScore "AIritournelle"
-%% 1-8
+%% 1-9
 \pieceToc\markup\wordwrap {
   Deuxiesme musicien :
   \italic { Il seroit doux d’entrer sous l’amoureuse Loy }
 }
 \includeScore "AJmusicien"
 \newBookPart #'(full)
-%% 1-9
+%% 1-10
 \pieceToc\markup\wordwrap {
   La musiciennes et les deux musiciens :
   \italic { Aimable ardeur }
@@ -60,10 +59,10 @@
 
 %% Premier intermède
 \intermede "Premier Intermede"
-%% 1-10
+%% 1-11
 \pieceToc\markup Air
 \includeScore "ALdanceurs"
-%% 1-11
+%% 1-12
 \pieceTocTitle "Canarie"
 \includeScore "AMcanarie"
 

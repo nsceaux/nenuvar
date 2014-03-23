@@ -1,7 +1,7 @@
 %%% Ouverture
 \bookpart {
   \paper { #(define page-breaking ly:optimal-breaking) }
-  \actnNoMarkup "Le Bourgeois Gentilhomme"
+  \actNoMarkup "Acte Premier"
   \markup\act\center-column {
     LE BOURGEOIS GENTILHOMME
     \fontsize #-3 \italic COMEDIE-BALLET
@@ -12,6 +12,7 @@
     qui compose sur une Table, un Air que le Bourgeois a demandé pour 
     une Serenade.
   }
+  % 1-1
   \pieceTocTitle "Ouverture"
   \includeScore "AAouverture"
 }
@@ -19,13 +20,13 @@
 %%%%%%%%%%%%% Act Premier %%%%%%%%%%%%%%%
 \bookpart {
   \paper { #(define page-breaking ly:optimal-breaking) }
-  \act "Acte Premier"
+  \markup\act "ACTE PREMIER"
   \scene "Scene Premiere" "Scene I"
   \sceneDescription\markup\wordwrap-center {
     Maistre de musique, maistre a danser, trois musiciens,
     deux violons, quatre danceurs.
   }
-  %% 1-1
+  %% 1-2
   \pieceToc\markup\wordwrap {
     L’eleve du Maistre de musique :
     \italic { Je languis nuit et jour }
@@ -288,7 +289,7 @@
     redonnez-la-moy, cela ira mieux.
   }
 }
-%% 1-2
+%% 1-3
 \pieceToc\markup\wordwrap {
   Musicienne chantante : \italic { Je languis nuit et jour }
 }
@@ -496,33 +497,33 @@
     }
   }
   \scene "Dialogue en musique" "Dialogue en musique"
-  %% 1-3
+  %% 1-4
   \pieceTocTitle "Ritournelle"
   \includeScore "AEritournelle"
-  %% 1-4
+  %% 1-5
   \pieceToc\markup\wordwrap {
     Une musicienne : \italic { Un cœur dans l’amoureux Empire }
   }
   \includeScore "AFmusicienne"
-  %% 1-5
+  %% 1-6
   \pieceTocTitle "Ritournelle"
   \includeScore "AGritournelle"
-  %% 1-6
+  %% 1-7
   \pieceToc\markup\wordwrap {
     Un musicien :
     \italic { Il n’est rien de si doux que les tendres ardeurs }
   }
   \includeScore "AHmusicien"
-  %% 1-7
+  %% 1-8
   \pieceTocTitle "Ritournelle"
   \includeScore "AIritournelle"
-  %% 1-8
+  %% 1-9
   \pieceToc\markup\wordwrap {
     Deuxiesme musicien :
     \italic { Il seroit doux d’entrer sous l’amoureuse Loy }
   }
   \includeScore "AJmusicien"
-  %% 1-9
+  %% 1-10
   \pieceToc\markup\wordwrap {
     La musiciennes et les deux musiciens :
     \italic { Aimable ardeur }
@@ -558,10 +559,10 @@
     & toutes les fortes de pas que le Maistre à dancer leur
     commande : Et cette Dance fait le premier Intermede.
   }
-  %% 1-10
+  %% 1-11
   \pieceToc\markup Air
   \includeScore "ALdanceurs"
-  %% 1-11
+  %% 1-12
   \pieceTocTitle "Canarie"
   \includeScore "AMcanarie"
 }

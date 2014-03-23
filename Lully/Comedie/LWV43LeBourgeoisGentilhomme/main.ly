@@ -86,9 +86,8 @@
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/acte2.ily"
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/acte3.ily"
 \include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/acte4.ily"
+%\include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/acte5.ily"
 %{
-%% 4eme intermede
-\include "Lully/Comedie/LWV43LeBourgeoisGentilhomme/body10.ily"
 %% Acte 5
 \bookpart {
   %% scènes 1-4
