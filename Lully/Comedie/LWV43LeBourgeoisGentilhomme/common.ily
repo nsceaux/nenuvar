@@ -66,6 +66,16 @@
 
 %%%
 
+\paper {
+  tocActMarkup = \markup\column {
+    \vspace #1
+    \toc-filled-line
+    ""
+    \fontsize #2 \italic\fromproperty #'toc:text
+    \fontsize #2 \fromproperty #'toc:page
+  }
+}
+
 intermede =
 #(define-music-function (parser location title) (string?)
    (add-toc-item parser 'tocSceneMarkup title)

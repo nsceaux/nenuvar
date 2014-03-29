@@ -1872,5 +1872,7 @@
   }
 }
 
-\intermede "Troisiéme Intermede"
-\markup\italic { [Il manque un passepied et deux rigaudons.] }
+\markup\column {
+  \scene "TROISIÉME INTERMEDE"
+  \italic\line { [Il manque un passepied et deux rigaudons.] }
+}

@@ -30,7 +30,7 @@
 %%%
 \header {
   maintainer = "Nicolas Sceaux"
-  maintainerEmail = "nicolas.sceaux@free.fr"
+  maintainerEmail = "nicolas.sceaux@gmail.com"
   maintainerWeb = "http://nicolas.sceaux.free.fr"
   copyright = \markup\copyright
   license = "Licensed under the Creative Commons Attribution-ShareAlike 4.0 License"
@@ -48,7 +48,7 @@
         \line {
           \copyright
           \concat {
-            \with-url #"http://nicolas.sceaux.free.fr" \smaller "<nicolas.sceaux@free.fr>"
+            \with-url #"http://nicolas.sceaux.free.fr" \smaller "<nicolas.sceaux@gmail.com>"
             .
           }
         }
