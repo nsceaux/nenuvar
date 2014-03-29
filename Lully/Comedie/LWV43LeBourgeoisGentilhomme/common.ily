@@ -78,8 +78,9 @@ intermede =
 #(define-markup-command (intermedeText layout props text) (markup-list?)
    (interpret-markup
     layout props
-    #{ \markup\fontsize #1 \fill-line {
-  \line-width-ratio #0.7 \justify { $text } } #}))
+    #{ \markup\fontsize #1 \column {
+  \fill-line { \line-width-ratio #0.7 \justify { $text } }
+  \vspace #1 } #}))
 
 #(define-markup-list-command (livret layout props lines) (markup-list?)
    (interpret-markup-list
