@@ -642,35 +642,17 @@ Lully/Opera/LWV71Armide:
 	-o $(OUTPUT_DIR)/LWV71Armide  \
 	Lully/Opera/LWV71Armide/main.ly
 .PHONY: Lully/Opera/LWV71Armide
-# concert
-Lully/Opera/LWV71Armide-concert:
+# Dessus
+Lully/Opera/LWV71Armide-dessus:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV71Armide-concert -d use-rehearsal-numbers \
-	Lully/Opera/LWV71Armide/main.ly
-.PHONY: Lully/Opera/LWV71Armide-concert
-# Dessus I
-Lully/Opera/LWV71Armide-dessus1:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV71Armide-dessus1 -dpart=dessus1  \
+	-o $(OUTPUT_DIR)/LWV71Armide-dessus -dpart=dessus  \
 	Lully/Opera/LWV71Armide/part.ly
-.PHONY: Lully/Opera/LWV71Armide-dessus1
-# Dessus II
-Lully/Opera/LWV71Armide-dessus2:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV71Armide-dessus2 -dpart=dessus2  \
-	Lully/Opera/LWV71Armide/part.ly
-.PHONY: Lully/Opera/LWV71Armide-dessus2
-# Haute-contre (clé de sol)
-Lully/Opera/LWV71Armide-haute-contre-treble:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV71Armide-haute-contre-treble -dpart=haute-contre-treble  \
-	Lully/Opera/LWV71Armide/part2.ly
-.PHONY: Lully/Opera/LWV71Armide-haute-contre-treble
-# Haute-contre (clé d'ut)
+.PHONY: Lully/Opera/LWV71Armide-dessus
+# Haute-contre
 Lully/Opera/LWV71Armide-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-haute-contre -dpart=haute-contre  \
-	Lully/Opera/LWV71Armide/part2.ly
+	Lully/Opera/LWV71Armide/part.ly
 .PHONY: Lully/Opera/LWV71Armide-haute-contre
 # Taille
 Lully/Opera/LWV71Armide-taille:
@@ -682,13 +664,13 @@ Lully/Opera/LWV71Armide-taille:
 Lully/Opera/LWV71Armide-quinte:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-quinte -dpart=quinte  \
-	Lully/Opera/LWV71Armide/part2.ly
+	Lully/Opera/LWV71Armide/part.ly
 .PHONY: Lully/Opera/LWV71Armide-quinte
 # Basses
 Lully/Opera/LWV71Armide-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV71Armide-basse -dpart=basse  \
-	Lully/Opera/LWV71Armide/part2.ly
+	Lully/Opera/LWV71Armide/part.ly
 .PHONY: Lully/Opera/LWV71Armide-basse
 # Basse continue
 Lully/Opera/LWV71Armide-basse-continue:
@@ -696,26 +678,16 @@ Lully/Opera/LWV71Armide-basse-continue:
 	-o $(OUTPUT_DIR)/LWV71Armide-basse-continue -dpart=basse-continue  \
 	Lully/Opera/LWV71Armide/part.ly
 .PHONY: Lully/Opera/LWV71Armide-basse-continue
-# Parties vocales
-Lully/Opera/LWV71Armide-voix:
-	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/LWV71Armide-voix -dpart=voix  \
-	Lully/Opera/LWV71Armide/part.ly
-.PHONY: Lully/Opera/LWV71Armide-voix
 
 Lully/Opera/LWV71Armide-delivery:
 	@mkdir -p $(DELIVERY_DIR)/Lully/LWV71Armide
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
-	@if [ -e $(OUTPUT_DIR)/LWV71Armide-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-concert.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
-	@if [ -e $(OUTPUT_DIR)/LWV71Armide-dessus1.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-dessus1.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
-	@if [ -e $(OUTPUT_DIR)/LWV71Armide-dessus2.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-dessus2.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
-	@if [ -e $(OUTPUT_DIR)/LWV71Armide-haute-contre-treble.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-haute-contre-treble.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
+	@if [ -e $(OUTPUT_DIR)/LWV71Armide-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-dessus.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-taille.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-quinte.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-quinte.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-basse.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-basse-continue.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
-	@if [ -e $(OUTPUT_DIR)/LWV71Armide-voix.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-voix.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV71Armide/LWV71Armide-midi.tar.gz $(OUTPUT_DIR)/LWV71Armide.midi $(OUTPUT_DIR)/LWV71Armide-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV71Armide.midi ]; then cp $(OUTPUT_DIR)/LWV71Armide.midi $(DELIVERY_DIR)/Lully/LWV71Armide/ ; fi
 	git archive --prefix=LWV71Armide/ HEAD Lully/Opera/LWV71Armide common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV71Armide/LWV71Armide.tar.gz
 
@@ -724,16 +696,12 @@ Lully/Opera/LWV71Armide-clean:
 
 Lully/Opera/LWV71Armide-all: \
 	Lully/Opera/LWV71Armide \
-	Lully/Opera/LWV71Armide-concert \
-	Lully/Opera/LWV71Armide-dessus1 \
-	Lully/Opera/LWV71Armide-dessus2 \
-	Lully/Opera/LWV71Armide-haute-contre-treble \
+	Lully/Opera/LWV71Armide-dessus \
 	Lully/Opera/LWV71Armide-haute-contre \
 	Lully/Opera/LWV71Armide-taille \
 	Lully/Opera/LWV71Armide-quinte \
 	Lully/Opera/LWV71Armide-basse \
-	Lully/Opera/LWV71Armide-basse-continue \
-	Lully/Opera/LWV71Armide-voix\
+	Lully/Opera/LWV71Armide-basse-continue\
 	Lully/Opera/LWV71Armide-delivery\
 	Lully/Opera/LWV71Armide-clean
 

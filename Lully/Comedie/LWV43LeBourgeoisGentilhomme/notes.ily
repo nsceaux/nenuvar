@@ -48,7 +48,7 @@
       Le texte de la comédie restitué dans cette édition est celui
       du \concat { \bold [Texte imprimé] . }
       Le matériel d'orchestre est constitué des parties séparées
-      suivantes : dessus, hautes-contre, tailles, quintes, basses,
+      suivantes : dessus, hautes-contre, tailles, quintes, basses et
       basse continue.
     }
     \vspace#5

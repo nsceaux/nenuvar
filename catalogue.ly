@@ -133,17 +133,13 @@
         #:key "Lully/Opera/LWV71Armide"
         #:opus "LWV-71"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=21"
-        #:main ((#f "Conducteur")
-                (concert #f #:options "-d use-rehearsal-numbers"))
-        #:parts ((dessus1 "Dessus I")
-                 (dessus2 "Dessus II")
-                 (haute-contre-treble "Haute-contre (clé de sol)" #:score-file "part2.ly")
-                 (haute-contre "Haute-contre (clé d'ut)" #:score-file "part2.ly")
+        #:main ((#f "Conducteur"))
+        #:parts ((dessus "Dessus")
+                 (haute-contre "Haute-contre")
                  (taille "Taille")
-                 (quinte "Quinte" #:score-file "part2.ly")
-                 (basse "Basses" #:score-file "part2.ly")
-                 (basse-continue "Basse continue")
-                 (voix "Parties vocales")))))
+                 (quinte "Quinte")
+                 (basse "Basses")
+                 (basse-continue "Basse continue")))))
 
      ;;;
      ;;; CHARPENTIER

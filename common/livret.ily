@@ -78,6 +78,16 @@
     layout props
     (markup #:fontsize 0 #:italic text)))
 
+#(define-markup-command (livretDidasPPage layout props text) (markup?)
+   #:properties ((line-width)
+                 (gap 9)
+                 (word-space 0))
+   (interpret-markup
+    layout props
+    (markup #:hspace gap
+            #:override `(line-width . ,(- line-width gap word-space 2))
+            #:fontsize 0 #:italic text)))
+
 #(define-markup-command (livretDidasPC layout props text) (markup?)
    (interpret-markup
     layout props
