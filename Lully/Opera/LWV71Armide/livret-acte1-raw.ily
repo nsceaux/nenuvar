@@ -241,6 +241,7 @@
 %#- O Ciel! c'est Renaud.
 \livretPers ARONTE
 %#= C'est lui-mesme.
+\livretRef #'BDBarmideHidraot
 \livretPers ARMIDE & HIDRAOT
 %# Poursuivons jusqu'aux trepas
 %# L'ennemi qui nous offense.

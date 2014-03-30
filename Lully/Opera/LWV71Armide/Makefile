@@ -3,7 +3,11 @@ livret_py = ../../../scripts/livret.py
 paroles_py = ../../../scripts/paroles.py
 
 livret_src = livret-prologue-raw.ily \
-		livret-acte1-raw.ily
+		livret-acte1-raw.ily \
+		livret-acte2-raw.ily \
+		livret-acte3-raw.ily \
+		livret-acte4-raw.ily \
+		livret-acte5-raw.ily
 
 livret.ily: $(livret_src)
 	echo '\\notesSection "Livret"\n\\markuplist\\page-columns-title \\act\\line { LIVRET } {' > $@
