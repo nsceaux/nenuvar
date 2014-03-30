@@ -1044,4 +1044,276 @@
 \livretRef #'FAAarmideRenaud
 \livretPers RENAUD
 \livretVerse#8 { Armide, vous m’allez quitter ! }
+\livretPers ARMIDE
+\livretVerse#12 { J’ay besoin des Enfers, je vai les consulter ; }
+\livretVerse#8 { Mon art veut de la solitude : }
+\livretVerse#11 { L’amour que j’ai pour vous cause l’inquietude }
+\livretVerse#8 { Dont me cœur se sent agiter. }
+\livretPers RENAUD
+\livretVerse#8 { Armide vous m’aller quitter ? }
+\livretPers ARMIDE
+\livretVerse#8 { Voyez en quel lieux je vous laisse. }
+\livretPers RENAUD
+\livretVerse#8 { Puis-je rien voir que vos appas ! }
+\livretPers ARMIDE
+\livretVerse#8 { Les plaisirs vous suivrons sans cesse. }
+\livretPers RENAUD
+\livretVerse#8 { En est-il où vous n’estes pas ? }
+\livretPers ARMIDE
+\livretVerse#12 { Un noir pressentiment me trouble & me tourmente, }
+\livretVerse#12 { Il m’annonce un malheur que je veux prevenir ; }
+\livretVerse#8 { Et plus nostre bonheur m’enchante, }
+\livretVerse#8 { Plus je crains de le voir finir. }
+\livretPers RENAUD
+\livretVerse#12 { D’une vaine terreur pouvez-vous être atteinte, }
+\livretVerse#12 { Vous qui faites trembler le tenebreux Sejour ? }
+\livretPers ARMIDE
+\livretVerse#10 { Vous m’aprenez à connoistre l’Amour, }
+\livretVerse#10 { L’Amour m’aprend à connoistre la crainte, }
+\livretVerse#12 { Vous brûliez pour la Gloire avant que de m’aimer, }
+\livretVerse#12 { Vous la cherchiez par tout d’une ardeur sans égale. }
+\livretVerse#7 { La Gloire est une Rivale }
+\livretVerse#7 { Qui doit toûjours m’alarmer. }
+\livretPers RENAUD
+\livretVerse#8 { Que j’étois insensé de croire }
+\livretVerse#10 { Qu’un vain Laurier donné par la Victoire, }
+\livretVerse#10 { De tous les biens fût le plus précieux ? }
+\livretVerse#8 { Tout l’éclat dont brille la Gloire, }
+\livretVerse#8 { Vaut il un regard de vos yeux ? }
+\livretVerse#10 { Est-il un bien si charmant & si rare }
+\livretVerse#12 { Que celuy dont l’Amour veut combler mon espoir ? }
+\livretPers ARMIDE
+\livretVerse#12 { La severe Raison & le devoir barbare, }
+\livretVerse#10 { Sur les Heros n’ont que trop de pouvoir. }
+\livretPers RENAUD
+\livretVerse#12 { J’en suis plus amoureux plus la raison m’éclaire. }
+\livretVerse#12 { Vous aimer, belle Armide, est mon premier devoir ; }
+\livretVerse#8 { Je fais ma gloire de vous plaire }
+\livretVerse#8 { Et tout mon bonheur de vous voir. }
+\livretPers ARMIDE
+\livretVerse#12 { Que sous d’aimables loix mon ame est asservie ! }
+\livretPers RENAUD
+\livretVerse#12 { Qu’il est doux de vous voir partager ma langueur ! }
+\livretPers ARMIDE
+\livretVerse#12 { Qu’il m’est doux d’enchaîner un si fameux Vainqueur ! }
+\livretPers RENAUD
+\livretVerse#8 { Que mes fers sont dignes d’envie ! }
+\livretPers RENAUD & ARMIDE ensemble
+\livretVerse#8 { Aimons-nous, tout nous y convie }
+\livretVerse#8 { Ah ! si vous aviez la rigueur }
+\livretVerse#6 { De m’ôter vôtre cœur, }
+\livretVerse#6 { Vous m’ôteriez la vie. }
+\livretPers RENAUD
+\livretVerse#8 { Non, je perdrai plutost le jour, }
+\livretVerse#6 { Que d’éteindre ma flâme. }
+\livretPers ARMIDE
+\livretVerse#8 { Non, rien ne peut changer mon ame. }
+\livretPers RENAUD
+\livretVerse#8 { Non, je perdrai plutost le jour. }
+\livretDidasPPage\justify {
+  Renaud & Armide chantent ensemble les Derniers Vers qu'ils ont
+  chantez séparement.
+}
+\livretVerse#8 { Non je perdray plutost le jour, }
+\livretVerse#6 { Que d’éteindre ma flâme ; }
+\livretVerse#8 { Non rien ne peut changer mon ame. }
+\livretVerse#8 { Non, je perdray plutost le jour, }
+\livretVerse#12 { Que de me dégager d’un si charmant Amour. }
+\livretPers ARMIDE
+\livretVerse#8 { Témoins de nostre amour extreme, }
+\livretVerse#12 { Vous, qui suivez mes loix dans ce sejour heureux }
+\livretVerse#12 { Jusques à mon retour par d’agreables Jeux : }
+\livretVerse#8 { Occupez le Heros que j’aime. }
+\null
+\livretRef #'FBApassacaille
+\livretDidasPPage\justify {
+  Les Plaisirs, & une Troupe d’Amants fortunez, & d’Amantes heureuses,
+  viennent divertir Renaud par des Chants & par des Danses.
+}
+
+\livretScene SCENE II
+\livretDescAtt\wordwrap-center {
+  RENAUD. Les Plaisirs. Troupe d’Amans fortunez, & d’Amantes heureuses.
+}
+\livretRef #'FBBamant
+\livretPers\line { Un Amant fortuné & les Chœurs }
+\livretVerse#9 { Les plaisirs ont choisi pour azile }
+\livretVerse#9 { Ce sejour agreable & tranquille : }
+\livretVerse#6 { Que ces lieux sont charmants, }
+\livretVerse#6 { Pour les heureux Amans ! }
+\livretVerse#9 { C’est l’Amour qui retient dans ses chaines }
+\livretVerse#12 { Mille Oiseaux qu’en nos bois nuit & jour on entend. }
+\livretVerse#9 { Si l’Amour ne sausoit que des peines, }
+\livretVerse#12 { Les Oiseaux amoureux ne chanteroient pas tant. }
+\livretVerse#9 { Jeunes Cœurs, tout vous est favorable, }
+\livretVerse#9 { Profitez d’un bonheur peu durable. }
+\livretVerse#12 { Dans l’hyver de nos ans, L’Amour ne regne plus ; }
+\livretVerse#12 { Les beaux jours que l’on perd sont pour jamais perdu. }
+\livretVerse#9 { Les plaisirs ont choisi pour Azile }
+\livretVerse#9 { Ce sejour agreable & tranquille. }
+\livretVerse#6 { Que ces lieux sont charmants, }
+\livretVerse#6 { Pour les heureux Amants ! }
+\livretRef #'FBCrenaud
+\livretPers RENAUD
+\livretVerse#8 { Allez, éloignés-vous de moi, }
+\livretVerse#12 { Doux plaisirs, attendez qu’Armide vous rameine. }
+\livretVerse#10 { Sans la beauté qui me tient sous sa loi, }
+\livretVerse#10 { Rien ne me plait, tout augmente ma peine, }
+\livretVerse#8 { Allez, éloignez-vous de moi, }
+\livretVerse#12 { Doux plaisirs, attendez qu’Armide vous rameine. }
+\livretDidasP\justify {
+  Les plaisirs, les Amants fortunez, & les Amantes heureuses se retirent.
+}
+
+\livretScene SCENE III
+\livretDescAtt\wordwrap-center { RENAUD, UBALDE, Le Chevalier Danois. }
+\livretRef #'FCBrenaudUbaldeChevalier
+\livretPers UBALDE
+\livretVerse#12 { Il est seul ; profitons d’un temps si precieux. }
+\livretDidasP\justify {
+  Ubalde presente le Bouclier de Diamans aux yeux de Renaud.
+}
+\livretPers RENAUD
+\livretVerse#12 { Que vois-je ? quel éclat me vient fraper les yeux ? }
+\livretPers UBALDE
+\livretVerse#8 { Le Ciel veut vous faire connoître }
+\livretVerse#8 { L’erreur dont vos sens sont seduits. }
+\livretPers RENAUD
+\livretVerse#8 { Ciel quelle honte de paroître }
+\livretVerse#8 { Dans l’indigne estat ou je suis ? }
+\livretPers UBALDE
+\livretVerse#8 { Nostre General vous rapelle : }
+\livretVerse#12 { La Victoire vous garde une palme immortelle. }
+\livretVerse#8 { Tout doit presser vostre retour ; }
+\livretVerse#12 { De cent divers Climats chacun court à la Guerre ; }
+\livretVerse#8 { Renaud seul au bout de la Terre, }
+\livretVerse#8 { Caché dans un charmant sejour, }
+\livretVerse#8 { Veut-il suivre un honteux Amour. }
+\livretPers RENAUD
+\livretVerse#10 { Vains ornemens d’une indigne molesse, }
+\livretVerse#10 { Ne m’offrez plus vos frivoles attraits : }
+\livretVerse#8 { Restez honteux de ma foiblesse, }
+\livretVerse#8 { Allez quittez-moi pour jamais. }
+\livretDidasP\justify {
+  Renaud arrache les Guirlandes de fleurs & les autres ornemens inutiles
+  dont il est paré. Il reçoit le Bouclier de Diamans que luy donne Ubalde,
+  & une Epée que luy presente le Chevalier Danois.
+}
+\livretPers Le Chevalier Danois
+\livretVerse#8 { Dérobés vous aux pleurs d’Armide, }
+\livretVerse#12 { C’est l’unique danger dont vostre ame intrepide }
+\livretVerse#8 { A besoin de se garentir. }
+\livretVerse#12 { Dans ces lieux enchantez la Volupté preside, }
+\livretVerse#8 { Vous n’en sçauriez trop-tost sortir. }
+\livretPers RENAUD
+\livretVerse#8 { Allons, hâtons-nous de partir. }
+
+\livretScene SCENE IV
+\livretDescAtt\wordwrap-center {
+  ARMIDE, RENAUD, UBALDE, Le Chevalier Danois.
+}
+\livretRef #'FDAarmideRenaudUbladeChevalier
+\livretPers\line { ARMIDE \smaller { suivans Renaud } }
+\livretVerse#8 { Renaud ; Ciel ; ô mortelle peine ; }
+\livretVerse#8 { Vous partez ; Renaud ; vous partez ; }
+\livretVerse#12 { Demons, suivez ses pas, volez, & l’arrestez. }
+\livretVerse#12 { Helas ; tout me trahit, & ma puissance est vaine. }
+\livretVerse#8 { Renaud ! Ciel ! ô mortelle peine ! }
+\livretVerse#8 { Mes cris ne sont pas ecoutez, }
+\livretVerse#8 { Vous partez : Renaud, vous partez. }
+\livretDidasP\justify {
+  Renaud s'arrête pour êcouter Armide qui continue à luy parler.
+}
+\livretVerse#12 { Si je ne vous vois plus, croyez-vous que je vive ? }
+\livretVerse#12 { Ay je pû meriter un si cruel tourment ? }
+\livretVerse#12 { Au moins comme ennemy, si ce n’est comme Amant, }
+\livretVerse#8 { Emmenez Armide captive. }
+\livretVerse#12 { J’irai dans les Combats, j’irai m’offrir aux coups }
+\livretVerse#8 { Qui seront destinez pour vous : }
+\livretVerse#8 { Renaud, pourveu que je vous suive }
+\livretVerse#12 { Le sort le plus affreux me paroistra trop doux. }
+\livretPers RENAUD
+\livretVerse#8 { Armide, il est temps que j’évite }
+\livretVerse#12 { Le peril trop charmant que je trouve à vous voir. }
+\livretVerse#8 { La Gloire veut que je vous quitte, }
+\livretVerse#12 { Elle ordonne à l’Amour de ceder au Devoir : }
+\livretVerse#8 { Si vous souffrez, vous pouvez croire }
+\livretVerse#10 { Que je m’éloigne à regret de vos yeux ; }
+\livretVerse#10 { Vous regnerez toûjours dans la memoire, }
+\livretVerse#6 { Vous serz aprés la Gloire }
+\livretVerse#7 { Ce que j’aimerai le mieux. }
+\livretPers ARMIDE
+\livretVerse#12 { Non, jamais de l’Amour tu n’as senti le charme ; }
+\livretVerse#12 { Tu te plais à causer de funestes malheurs, }
+\livretVerse#12 { Tu m’entends soupirer, tu vois coulez mes pleurs, }
+\livretVerse#12 { Sans me rendre un soûpir, sans verser une larme. }
+\livretVerse#12 { Par les nœuds les plus doux je te conjure en vain ; }
+\livretVerse#12 { Tu fuis un fier Devoir, tu veux qu’il nous separe. }
+\livretVerse#8 { Non, non ; ton cœur n’a rien d’humain, }
+\livretVerse#8 { Le cœur d’un Tigre est moins barbare. }
+\livretVerse#11 { Je mourrai si tu parts, tu n’en peut douter ; }
+\livretVerse#8 { Ingrat, sans toi je ne puis vivre : }
+\livretVerse#12 { Mais aprés mon trépas ne crois pas éviter }
+\livretVerse#7 { Mon Ombre obstinée à te suivre ; }
+\livretVerse#12 { Tu la verras s’armer contre ton cœur sans foi : }
+\livretVerse#7 { Tu la trouvera inflexible, }
+\livretVerse#8 { Comme tu l’as été pour moi ; }
+\livretVerse#8 { Et sa fureur, s’il est possible, }
+\livretVerse#12 { Egalera l’amour dont j’ai brûlé pour toi... }
+\livretVerse#8 { Ah la lumiere m’est ravie ; }
+\livretVerse#6 { Barbare ; es tu content ? }
+\livretVerse#6 { Tu joüis en partant, }
+\livretVerse#8 { Du plaisir de m’ôter la vie. }
+\livretDidasP\justify { Armide tombe & s'évanoüit. }
+\livretPers RENAUD
+\livretVerse#9 { Trop malheureuse Armide, helas ! }
+\livretVerse#8 { Que ton destin est déplorable. }
+\livretPers UBALDE & le Chevalier Danois
+\livretVerse#8 { Il faut partir, hâtez vos pas, }
+\livretVerse#12 { La gloire attend de vous un cœur inébranlable. }
+\livretPers RENAUD
+\livretVerse#8 { Non, la Gloire n’ordonne pas }
+\livretVerse#7 { Qu’un grand Cœur soit impitoyable. }
+\livretPers\wordwrap-center {
+  UBALDE & le Chevalier Danois emmenent Renaud malgré lui.
+}
+\livretVerse#12 { Il faut vous arracher aux dangeureux appas }
+\livretVerse#6 { D’un Objet trop aimable. }
+\livretPers RENAUD
+\livretVerse#9 { Trop malheureuse Armide, helas ! }
+\livretVerse#8 { Que ton destin est déplorable ! }
+
+\livretScene SCENE V ET DERNIERE
+\livretDescAtt\wordwrap-center { ARMIDE seule. }
+\livretRef #'FEAarmide
+\livretVerse#8 { Le perfide Renaud me fuit ? }
+\livretVerse#12 { Tout perfide qu’il est, mon lasche cœur le suit. }
+\livretVerse#12 { Il me laisse mourante, il veut que je perisse, }
+\livretVerse#12 { A regret, je revoy la clarté qui me luit : }
+\livretVerse#8 { L’horreur de l’éternelle Nuit }
+\livretVerse#8 { Cede à l’horreur de mon supplice. }
+\livretVerse#8 { Le perfide Renaud me fuit ? }
+\livretVerse#12 { Tout perfide qu’il est, mon lasche cœur le suit. }
+\livretVerse#10 { Quand le Barbare estoit en ma puissance, }
+\livretVerse#10 { Que n’ai-je crû la Haine & la Vengeance ? }
+\livretVerse#8 { Que n’ai-je suivi leurs transports ? }
+\livretVerse#12 { Je m’échape, il s’éloigne, il va quitter ces Bords ; }
+\livretVerse#8 { Il brave l’Enfer & ma rage, }
+\livretVerse#8 { Il est déja prés du Rivage, }
+\livretVerse#12 { Je fais pour m’y traîner d’inutiles efforts. }
+\livretVerse#12 { Traistre, attent... je le tiens... je tiens son cœur perfide... }
+\livretVerse#8 { Ah ! je l’immole à ma fureur... }
+\livretVerse#12 { Que dis je, où fuis-je ! helas ; Infortunée Armide ! }
+\livretVerse#8 { Où t’emporte une aveugle erreur ? }
+\livretVerse#12 { L’espoir de ma vengeance est le seul qui me reste. }
+\livretVerse#12 { Fuyez, Plaisirs, fuyez, perdez tous vos attraits. }
+\livretVerse#8 { Demons, détruisez ce Palais, }
+\livretVerse#12 { Partons, & s’il se peut, que mon Amour funeste }
+\livretVerse#12 { Demeure enseveli dans ces lieux pour jamais. }
+\livretRef #'FEBprelude
+\livretDidasPPage\justify {
+  Les Demons détruisent le Palais enchanté & Armide part sur un
+  char volant.
+}
+\livretFinAct Fin du cinquiéme & dernier Acte
 }
