@@ -370,50 +370,51 @@
 }
 \livretRef #'CAArenaudArtemidore
 \livretPers ARTEMIDORE
-\livretVerse#12 { Invicible Heros, c’est par vôtre courage }
-\livretVerse#12 { Que j’échape aux rigueurs d’un funeste esclavage ? }
+\livretVerse#12 { Invicible Heros, c’est par vostre courage }
+\livretVerse#12 { Que j’échape aux rigueurs d’un funeste esclavage. }
 \livretVerse#8 { Aprés ce genereux secours, }
-\livretVerse#12 { Puis-je me dispenser du vous suivre toujours ? }
+\livretVerse#12 { Puis-je me dispenser du vous suivre toûjours ? }
 \livretPers RENAUD
-\livretVerse#8 { Allez, allez remplir ma place. }
+\livretVerse#8 { Allez, allez remplir ma place }
 \livretVerse#8 { Aux lieux d’où mon malheur me chasse. }
 \livretVerse#10 { Le fier Gernand m’a contraint à punir }
 \livretVerse#6 { Sa temeraire audace : }
 \livretVerse#12 { D’une indigne prison Godefroy me menace }
 \livretVerse#10 { Et de son Camp m’oblige à me bannir. }
-\livretVerse#8 { Je m’en éloigne avec contrainte. }
-\livretVerse#12 { Heureux ! si j’avois pû consacrer mes explois }
-\livretVerse#8 { A délivrer la Cité sainte }
-\livretVerse#8 { Qui gemit sous des dures loix : }
+\livretVerse#8 { Je m’en esloigne avec contrainte. }
+\livretVerse#12 { Heureux si j’avois pû consacrer mes exploits }
+\livretVerse#8 { A délivrer la Cité Sainte }
+\livretVerse#8 { Qui gemit sous de dures loix : }
 \livretVerse#8 { Suivez les Guerriers qu’un beau zele }
 \livretVerse#12 { Presse de signaler leur valeur & leur foy : }
 \livretVerse#8 { Cherchez une gloire immortelle, }
-\livretVerse#12 { Je veux dans mon exil n’enveloper que moi. }
+\livretVerse#12 { Je veux dans mon exil n’enveloper que moy. }
 \livretPers ARTEMIDORE
-\livretVerse#8 { Sans vous que peut on entreprendre ; }
-\livretVerse#12 { Celuy qui vous bannit ne pourra s’en déffendre }
-\livretVerse#8 { De souhaiter vôtre retour. }
-\livretVerse#12 { S’il faut que je vous quite ; au moins ne puis-je apprendre }
-\livretVerse#12 { En quels lieux vous allez choisir vôtre sejours ; }
+\livretVerse#8 { Sans vous, que peut-on entreprendre ? }
+\livretVerse#12 { Celuy qui vous bannit ne pourra se deffendre }
+\livretVerse#8 { De souhaiter vostre retour. }
+\livretVerse#12 { S’il faut que je vous quite au moins ne puis-je apprendre }
+\livretVerse#12 { En quels lieux vous allez choisir vostre sejour. }
 \livretPers RENAUD
-\livretVerse#8 { Le repos me fait violence, }
-\livretVerse#10 { La seule Gloire à pour moi des appas : }
-\livretVerse#8 { Je pretend adresser mes pas }
-\livretVerse#8 { Où la Justice & l’innocence }
-\livretVerse#10 { Auront besoin du secours de mes bras. }
+\livretVerse#8 { Le repos me fait violence. }
+\livretVerse#10 { La seule Gloire a pour moi des appas. }
+\livretVerse#8 { Je pretends adresser mes pas }
+\livretVerse#8 { Où la Justice & l’Innocence }
+\livretVerse#10 { Auront besoin du secours de mon bras. }
 \livretPers ARTEMIDORE
-\livretVerse#8 { Fuyez les lieux où regne Armyde, }
-\livretVerse#8 { Si vous cherchez à vivre heureux ; }
-\livretVerse#8 { Pour le Cœur le plus intrepide }
-\livretVerse#8 { Elle a des charmes dangereux, }
+\livretVerse#8 { Fuyez les lieux où regne Armide, }
+\livretVerse#8 { Si vous cherchez à vivre heureux. }
+\livretVerse#8 { Pour le cœur le plus intrepide, }
+\livretVerse#8 { Elle a des charmes dangereux. }
 \livretVerse#8 { C’est une ennemie implacable, }
-\livretVerse#8 { Evitez ses ressentimens ; }
+\livretVerse#8 { Evitez ses ressentiments. }
 \livretVerse#10 { Puisse le Ciel à mes vœux favorable }
-\livretVerse#10 { Vous garentir de ses enchantemens. }
+\livretVerse#10 { Vous garentir de ses enchantements. }
+\livretPers RENAUD
 \livretVerse#8 { Par une heureuse indifference }
 \livretVerse#12 { Mon cœur s’est dérobé sans peine à sa puissance, }
 \livretVerse#12 { Je la vis seulement d’un regard curieux. }
-\livretVerse#12 { Est-il plus mal aisé d’éviter sa vengeance, }
+\livretVerse#12 { Est-il plus mal aisé d’éviter sa vengeance }
 \livretVerse#10 { Que d’échaper au pouvoir de ses yeux ? }
 \livretVerse#12 { J’aime la liberté, rien ne m’a pû contraindre }
 \livretVerse#8 { A m’engager jusqu’à ce jour. }
@@ -424,7 +425,7 @@
 \livretDescAtt\wordwrap-center { HIDRAOT, ARMIDE. }
 \livretRef #'CBAarmideHidraot
 \livretPers HIDRAOT
-\livretVerse#12 { Arrestons-nous ici, c’est dans ce lieu fatal }
+\livretVerse#12 { Arrestons-nous icy, c’est dans ce lieu fatal }
 \livretVerse#8 { Que la fureur qui nous anime }
 \livretVerse#8 { Ordonne à l’Empire infernal }
 \livretVerse#8 { De conduire nostre victime. }
@@ -433,37 +434,37 @@
 \livretPers HIDRAOT
 \livretVerse#12 { Pour achever le charme il faut unir nos voix. }
 \livretPers HIDRAOT & ARMIDE
-\livretVerse#7 { Esprit de haine & de rage, }
-\livretVerse#6 { Demons, obeïssez-nous. }
-\livretVerse#7 { Livrez à nostre courroux }
+\livretVerse#7 { Esprits de haine & de rage, }
+\livretVerse#7 { Demons, obeïssez-nous. }
+\livretVerse#7 { Livrez à nostre couroux }
 \livretVerse#7 { L’Ennemy qui nous outrage. }
-\livretVerse#7 { Esprit de haine & de rage, }
-\livretVerse#6 { Demons, obeïssez-nous. }
+\livretVerse#7 { Esprits de haine & de rage, }
+\livretVerse#7 { Demons, obeïssez-nous. }
 \livretPers ARMIDE
 \livretVerse#7 { Demons affreux, cachez-vous }
-\livretVerse#6 { Sous une agreable image, }
+\livretVerse#7 { Sous une agreable image : }
 \livretVerse#7 { Enchantez ce fier courage }
 \livretVerse#7 { Par les charmes les plus doux. }
 \livretPers HIDRAOT & ARMIDE
-\livretVerse#7 { Esprit de haine & de rage, }
-\livretVerse#6 { Demons, obeïssez-nous. }
-\livretDidasPPage\justify {
+\livretVerse#7 { Esprits de haine & de rage, }
+\livretVerse#7 { Demons, obeïssez-nous. }
+\livretDidasP\justify {
   Armide aperçoit Renaud qui s'aproche des bords de la riviere.
 }
 \livretRef #'CBBarmideHidraot
 \livretPers ARMIDE
-\livretVerse#12 { Dans le piege fatal nostre Ennemi s’engage. }
+\livretVerse#12 { Dans le piege fatal nostre Ennemy s’engage. }
 \livretPers HIDRAOT
-\livretVerse#12 { Nos Soldats sont cachez dans le prochain Boccage, }
+\livretVerse#12 { Nos Soldats sont cachez dans le prochain Boccage ; }
 \livretVerse#12 { Il faut que sur Renaud ils viennent fondre tous. }
 \livretPers ARMIDE
 \livretVerse#8 { Cette victime est mon partage ; }
 \livretVerse#12 { Laissez-moy l’immoler, laissez-moy l’avantage }
 \livretVerse#12 { De voir ce cœur superbe expirer de mes coups. }
-\livretDidasPPage\justify {
+\livretDidasP\justify {
   Hidraot & Armide se retirent.
 }
-\livretDidasPPage\justify {
+\livretDidasP\justify {
   Renaud s'arrête pour considere les bords du Fleuve, & quitte une
   de ses armes pour prendre le frais.
 }
@@ -471,18 +472,18 @@
 \livretScene SCENE III
 \livretDescAtt\wordwrap-center { RENAUD, seul. }
 \livretRef #'CCArenaud
-\livretVerse#12 { Plus j’observe ces lieux, & plus je les admire, }
-\livretVerse#8 { Ce Fleuve coule lentement }
+\livretVerse#12 { Plus j’observe ces lieux, & plus je les admire. }
+\livretVerse#8 { Ce Fleuve coule lentement, }
 \livretVerse#12 { Et s’éloigne à regret d’un sejour si charmant. }
-\livretVerse#12 { Les plus aimables Fleurs, & le plus doux Zephirs }
+\livretVerse#12 { Les plus aimables fleurs & le plus doux zephire }
 \livretVerse#8 { Parfument l’air qu’on y respire. }
-\livretVerse#12 { Non, je ne puis quitter des Rivages si beaux, }
-\livretVerse#12 { Un son armonieux se mêle au bruit des eaux ; }
-\livretVerse#12 { Les Oiseaux enchantez se taisent pour l’entendre. }
-\livretVerse#12 { Des charmes du sommeil j’ay peine à me défendre. }
-\livretVerse#8 { Ce Gazon, cet ombrage frais, }
-\livretVerse#12 { Tout m’invite au repos sous ce feüillage épais. }
-\livretDidasPPage\justify {
+\livretVerse#12 { Non, je ne puis quitter des rivages si beaux. }
+\livretVerse#12 { Un son harmonieux se mesle au bruit des eaux. }
+\livretVerse#12 { Les Oyseaux enchantez se taisent pour l’entendre. }
+\livretVerse#12 { Des charmes du sommeil j’ay peine à me deffendre. }
+\livretVerse#8 { Ce gazon, cét ombrage frais, }
+\livretVerse#12 { Tout m’invite au repos sous ce feüillage espais. }
+\livretDidasP\justify {
   Renaud s'endort sur un Gazon, au bord de la Riviere.
 }
 
@@ -493,17 +494,17 @@
 }
 \livretRef #'CDAnymphe
 \livretPers Une Nayade
-\livretVerse#8 { Au temps heureux où l’on sçait plaire }
-\livretVerse#8 { Qu’il est douc d’aimer tendrement, }
+\livretVerse#8 { Au temps heureux ou l’on sçait plaire }
+\livretVerse#8 { Qu’il est doux d’aimer tendrement ! }
 \livretVerse#12 { Pourquoy dans les perils avec empressement }
-\livretVerse#12 { Chercher d’un vain honneur l’éclat imaginaire ? }
+\livretVerse#12 { Chercher d’un vain honneur l’esclat imaginaire ? }
 \livretVerse#8 { Pour une trompeuse chimere }
 \livretVerse#8 { Faut-il quitter un bien charmant ? }
-\livretVerse#8 { Au temps heureux où l’on sçait plaire }
+\livretVerse#8 { Au temps heureux ou l’on sçait plaire }
 \livretVerse#8 { Qu’il est doux d’aimer tendrement ! }
 \livretRef #'CDBchoeur
 \livretPers Le Chœur
-\livretVerse#8 { Ha ! qu’elle erreur ! qu’elle folie ! }
+\livretVerse#8 { Ah ! quelle erreur ! quelle folie ! }
 \livretVerse#8 { De ne pas jouïr de la vie ! }
 \livretVerse#7 { C’est aux Jeux, c’est aux Amours, }
 \livretVerse#7 { Qu’il faut donner les beaux jours. }
@@ -516,19 +517,19 @@
 }
 \livretRef #'CDEbergere
 \livretPers Une Bergere
-\livretVerse#12 { On s’étonneroit moins que la saison nouvelle }
-\livretVerse#12 { Revint sans amener les fleurs & les zephirs, }
-\livretVerse#12 { Que de voir de nos ans la Saison le plus belle }
-\livretVerse#8 { Sans l’Amour & sans les plaisirs. }
+\livretVerse#12 { On s’estonneroit moins que la saison nouvelle }
+\livretVerse#12 { Revinst sans ramener les fleurs & les zephirs ; }
+\livretVerse#12 { Que de voir de nos ans la saison la plus belle }
+\livretVerse#8 { Sans l’amour & sans les plaisirs. }
 \livretRef #'CDFbergere
-\livretVerse#12 { Laissons au tendre Amour la jeunesse en partage ; }
-\livretVerse#12 { La Sagesse a son tems, il ne vient que trop tost : }
+\livretVerse#12 { Laissons au tendre amour la Jeunesse en partage, }
+\livretVerse#12 { La Sagesse a son temps, il ne vient que trop tost : }
 \livretVerse#6 { Ce n’est pas estre sage, }
 \livretVerse#8 { D’estre plus sage qu’il ne faut. }
 \livretRef #'CDGchoeur
 \livretPers Les Chœurs
-\livretVerse#8 { Ah ! quelle erreur ! qu’elle folie ! }
-\livretVerse#8 { De ne pas joüir de la vie ! }
+\livretVerse#8 { Ah ! quelle erreur ! quelle folie ! }
+\livretVerse#8 { De ne pas jouïr de la vie ! }
 \livretVerse#7 { C’est aux Jeux, c’est aux Amours, }
 \livretVerse#7 { Qu’il faut donner les beaux jours. }
 
@@ -536,38 +537,38 @@
 \livretDescAtt\wordwrap-center { ARMIDE, RENAUD endormy. }
 \livretRef #'CEAarmide
 \livretPers\line { ARMIDE, tenant un dard à la main }
-\livretVerse#8 { Enfin, il est en ma puissance, }
-\livretVerse#12 { Ce fatal ennemi, ce superbe Vainqueur, }
-\livretVerse#12 { Le charme du sommeil le livre à ma vengeance. }
-\livretVerse#10 { Je vais percer son invincible Cœur. }
-\livretVerse#12 { Par lui, tous mes Captifs sont sortis d’esclavage, }
-\livretVerse#8 { Qu’il éprouve toute ma rage... }
-\livretDidasPPage\justify {
+\livretVerse#8 { Enfin il est en ma puissance, }
+\livretVerse#12 { Ce fatal Ennemy, ce superbe Vainqueur. }
+\livretVerse#12 { Le charme du sommeil le livre à ma vengeance ; }
+\livretVerse#10 { Je vais percer son invincible cœur. }
+\livretVerse#12 { Par luy tous mes Captifs sont sortis d’esclavage ; }
+\livretVerse#8 { Qu’il éprouve toute ma rage. }
+\livretDidasP\justify {
   Armide va pour fraper Renaud, & ne peut executer le dessein
   qu’elle a de lui ôter la vie.
 }
-\livretVerse#12 { Quel trouble me saisi ? qui me fait hesiter ? }
+\livretVerse#12 { Quel trouble me saisit ? qui me fait hesiter ? }
 \livretVerse#12 { Qu’est-ce qu’en sa faveur la pitié me veut dire ? }
-\livretVerse#8 { Frapons... Ciel ! qui peut m’arréter ; }
-\livretVerse#12 { Achevons... je fremis ! Vangeons-nous... je soûpire ; }
-\livretVerse#12 { Est-ce ainsi que je doy me venger aujourd’huy ? }
-\livretVerse#12 { Ma colere s’éteint quand j’aproche de lui. }
-\livretVerse#10 { Plus je le vois plus ma colere est vaine, }
-\livretVerse#10 { Mon bras tremblant se refuse à ma haine, }
+\livretVerse#8 { Frapons... Ciel ! qui peut m’arrester ? }
+\livretVerse#12 { Achevons... je fremis ! Vangeons-nous... je soûpire ! }
+\livretVerse#12 { Est-ce ainsi que je doy me vanger aujourd’huy ! }
+\livretVerse#12 { Ma colere s’éteint quand j’approche de luy. }
+\livretVerse#10 { Plus je le voy ; plus ma vengeance est vaine ; }
+\livretVerse#10 { Mon bras tremblant se refuse à ma haine. }
 \livretVerse#12 { Ah ! quelle cruauté de luy ravir le jour ! }
 \livretVerse#12 { A ce jeune Heros tout cede sur la Terre. }
-\livretVerse#12 { Qui croiroit qu’il fut né seulement pour la Guerre ? }
-\livretVerse#8 { Il semble estre fait pour l’Amour. }
-\livretVerse#12 { Ne puis-je me venger à moins qu’il ne perisse ; }
-\livretVerse#12 { Hé ne suffit-il pas que l’Amour le punisse ! }
-\livretVerse#12 { Puisqu’il n’a pû trouver mes yeux assez charmans, }
-\livretVerse#10 { Qu’il aime au moins par mes enchantemens, }
-\livretVerse#7 { Que s’il se peut, je le haïsse. }
-\livretVerse#8 { Venez, secondez mes desirs, }
-\livretVerse#12 { Demons, transformez vous en d’aimables Zephirs. }
-\livretVerse#12 { Je cede à ce Vainqueur, la pitié me surmonte, }
+\livretVerse#12 { Qui croiroit qu’il fust né seulement pour la Guerre ? }
+\livretVerse#8 { Il semble estre fait pour l’amour. }
+\livretVerse#12 { Ne puis-je me vanger à moins qu’il ne perisse ? }
+\livretVerse#12 { Hé ne suffit-il pas que l’amour le punisse ? }
+\livretVerse#12 { Puisqu’il n’a pû trouver mes yeux assez charmants, }
+\livretVerse#10 { Qu’il aime au moins par mes enchantements, }
+\livretVerse#8 { Que, s’il se peut, je le haïsse. }
+\livretVerse#8 { Venez seconder mes desirs, }
+\livretVerse#12 { Demons, transformez-vous en d’aimables zephirs : }
+\livretVerse#12 { Je cede à ce vainqueur, la pitié me surmonte, }
 \livretVerse#8 { Cachez ma foiblesse & ma honte }
-\livretVerse#8 { Dans les plus reculez Desers. }
+\livretVerse#8 { Dans les plus reculez deserts, }
 \livretVerse#12 { Volez, conduisez-nous au bout de l’Univers. }
 \null
 \livretRef #'CEBentract
@@ -583,117 +584,118 @@
 \livretScene SCENE I
 \livretDescAtt\wordwrap-center { ARMIDE, seule. }
 \livretRef #'DAAarmide
-\livretVerse#12 { Ah ! si la liberté me doit estre ravie }
-\livretVerse#8 { Est-ce à toy d’estre mon Vainqueur ! }
-\livretVerse#12 { Trop funeste Ennemi du bon-heur de ma vie, }
+\livretVerse#12 { Ah ! si la liberté me doit estre ravie, }
+\livretVerse#8 { Est-ce à toy d’estre mon Vainqueur ? }
+\livretVerse#12 { Trop funeste Ennemy du bonheur de ma vie, }
 \livretVerse#12 { Faut-il que malgré moy tu regnes dans mon cœur ? }
-\livretVerse#12 { Le desir de ta mort fut ma plus chere envie, }
+\livretVerse#12 { Le desir de ta mort fut ma plus chere envie ; }
 \livretVerse#12 { Comment as-tu changé ma colere en langueur ? }
-\livretVerse#12 { En vain, de mille Amans je me voyois suivie, }
-\livretVerse#8 { Aucun n’a fléchy ma rigueur, }
+\livretVerse#12 { En vain de mille Amants je me voyois suivie, }
+\livretVerse#8 { Aucun n’a fléchy ma rigueur. }
 \livretVerse#12 { Se peut-il que Renaud tienne Armide asservie ? }
-\livretVerse#12 { Ah ! si la liberté me doit estre ravie }
-\livretVerse#8 { Est-ce à toy d’estre mon Vainqueur ! }
-\livretVerse#12 { Trop funeste Ennemy du bon-heur de ma vie, }
+\livretVerse#12 { Ah ! si la liberté me doit estre ravie, }
+\livretVerse#8 { Est-ce à toy d’estre mon Vainqueur ? }
+\livretVerse#12 { Trop funeste Ennemy du bonheur de ma vie, }
 \livretVerse#12 { Faut-il que malgré moy tu regnes dans mon cœur ? }
 
 \livretScene SCENE II
 \livretDescAtt\wordwrap-center { ARMIDE, PHENICE, SIDONIE. }
 \livretRef #'DBAarmidePheniceSidonie
 \livretPers PHENICE
-\livretVerse#12 { Que ne peut point vostre Art ? la force en est extrême. }
+\livretVerse#12 { Que ne peut point vostre art ? la force en est extréme. }
 \livretVerse#8 { Quel prodige ! quel changement ! }
-\livretVerse#8 { Renaud qui fut si fier, vous aime ; }
+\livretVerse#8 { Renaud qui fut si fier, vous aime, }
 \livretVerse#10 { On n’a jamais aimé si tendrement. }
 \livretPers SIDONIE
-\livretVerse#12 { Montrez vous à ses yeux, soyez témoin vous-même, }
+\livretVerse#12 { Montrez-vous à ses yeux, soyez témoin vous-mesme }
 \livretVerse#12 { Du merveilleux effet de vostre enchantement. }
 \livretPers ARMIDE
-\livretVerse#13 { L’Enfer n’a pas encore rempli mon esperance. }
-\livretVerse#12 { Il faut qu’un nouveau charme asseure ma vengeance. }
+\livretVerse#12 { L’Enfer n’a pas encor remply mon esperance, }
+\livretVerse#12 { Il faut qu’un nouveau charme acheve ma vengeance. }
 \livretPers SIDONIE
-\livretVerse#12 { Sur des bords separez du sejour des humains, }
+\livretVerse#12 { Sur des bords separez du sejour des Humains, }
 \livretVerse#8 { Qui peut arracher de vos mains }
-\livretVerse#8 { Un ennemi qui vous adore ? }
+\livretVerse#8 { Un Ennemy qui vous adore ? }
 \livretVerse#12 { Vous enchantez Renaud, que craignez vous encore ? }
 \livretPers ARMIDE
-\livretVerse#8 { Helas ! c’est mon cœur que je crains }
-\livretVerse#10 { Vostre amitié dans mon sort s’interesse : }
-\livretVerse#12 { Je vous ai fait conduire avec moi dans ces lieux. }
+\livretVerse#8 { Helas ! c’est mon cœur que je crains. }
+\livretVerse#10 { Vostre amitié dans mon sort s’interesse, }
+\livretVerse#12 { Je vous ay fait conduire avec moy dans ces lieux : }
 \livretVerse#12 { Au reste des Mortels je cache ma foiblesse, }
 \livretVerse#8 { Je n’en veux rougir qu’à vos yeux. }
-\livretVerse#12 { De mes plus doux regards Renaud sçeut se défendre, }
-\livretVerse#12 { Je ne pûs engager ce cœur fier à se rendre, }
-\livretVerse#8 { Il m’échapa malgré mes soins. }
+\livretVerse#12 { De mes plus doux regards Renaud sçeut se deffendre. }
+\livretVerse#12 { Je ne pûs engager ce cœur fier à se rendre ; }
+\livretVerse#8 { Il m’échapa malgré mes soins : }
 \livretVerse#12 { Sous le nom du Dépit l’Amour vint me surprendre }
-\livretVerse#8 { Lorsque je m’en gardois le moins : }
-\livretVerse#12 { Plus Renaud m’aimera, moins je seray tranquille ; }
-\livretVerse#8 { J’ay resolu de la haïr : }
-\livretVerse#12 { Je n’ai tenté jamais rien de si difficile : }
-\livretVerse#12 { Je crains que pour forcer son cœur à m’obeïr, }
+\livretVerse#8 { Lorsque je m’en gardois le moins. }
+\livretVerse#12 { Plus Renaud m’aimera moins je seray tranquille ; }
+\livretVerse#8 { J’ay resolu de la haïr. }
+\livretVerse#12 { Je n’ay tenté jamais rien de si difficile : }
+\livretVerse#12 { Je crains que pour forcer son cœur à m’obeïr }
 \livretVerse#7 { Tout mon Art soit inutile. }
 \livretPers PHENICE
-\livretVerse#12 { Que vôtre Art seroit beau ! qu’il seroit admiré ! }
-\livretVerse#12 { S’il sçavoit garentir des troubles de la vie ! }
-\livretVerse#10 { De disposer de son cœur à son gré ! }
+\livretVerse#12 { Que vostre art seroit beau ! qu’il seroit admiré ! }
+\livretVerse#12 { S’il sçavoit garentir des troubles de la vie. }
+\livretVerse#8 { Heureux qui peut estre asseuré }
+\livretVerse#10 { De disposer de son cœur à son gré ; }
 \livretVerse#8 { C’est un secret digne d’envie, }
-\livretVerse#12 { Mais de tous les secrets c’est les plus ignoré. }
+\livretVerse#12 { Mais de tous les secrets c’est le plus ignoré. }
 \livretPers SIDONIE
-\livretVerse#8 { La Haine est affreuse, & barbare }
-\livretVerse#10 { L’Amour contraint les Cœurs dont il s’empare }
-\livretVerse#8 { A souffrir des maux rigoureux : }
-\livretVerse#10 { Si vôtre sort est en vôtre puissance, }
-\livretVerse#8 { Faites choix de l’indifference, }
+\livretVerse#8 { La Haine est affreuse & barbare, }
+\livretVerse#10 { L’Amour contraint les cœurs dont il s’empare }
+\livretVerse#8 { A souffrir des maux rigoureux. }
+\livretVerse#10 { Si vostre sort est en vostre puissance, }
+\livretVerse#8 { Faites choix de l’Indifference, }
 \livretVerse#8 { Elle asseure un repos heureux. }
 \livretPers ARMIDE
 \livretVerse#8 { Non, non, il ne m’est plus possible }
-\livretVerse#12 { De passer de mon trouble en un état paisible, }
-\livretVerse#8 { Mon cœur ne se peut plus calmer }
-\livretVerse#12 { Renaud m’offense trop, il n’est que trop aimable, }
-\livretVerse#12 { C’est pour moy desormais un choix indispensable, }
+\livretVerse#12 { De passer de mon trouble en un estat paisible ; }
+\livretVerse#8 { Mon cœur ne se peut plus calmer. }
+\livretVerse#12 { Renaud m’offence trop, il n’est que trop aimable, }
+\livretVerse#12 { C’est pour moy desormais un choix indispensable }
 \livretVerse#8 { De le haïr ou de l’aimer. }
 \livretPers PHENICE
 \livretVerse#12 { Vous n’avez pû haïr ce Heros invincible }
 \livretVerse#8 { Lorsqu’il estoit le plus terrible }
 \livretVerse#6 { De tous vos Ennemis. }
 \livretVerse#8 { Il vous aime, l’Amour l’enchaîne ; }
-\livretVerse#8 { Garderiez-vous mieux vôtre haine }
-\livretVerse#10 { Contre un Amant si tendre & si soûmis ? }
+\livretVerse#8 { Garderiez-vous mieux vostre haine }
+\livretVerse#10 { Contre un Amant si tendre & si soûmis. }
 \livretPers ARMIDE
-\livretVerse#12 { Il m’aime, quel amour ! ma honte s’en augmente, }
-\livretVerse#12 { Dois-je estre aimée ainsi ? puis-je en estre contente ? }
+\livretVerse#12 { Il m’aime ! quel amour ! ma honte s’en augmente ! }
+\livretVerse#12 { Dois-je estre aimée ainsi ! puis-je en estre contente ? }
 \livretVerse#8 { C’est un vain triomphe, un faux bien. }
 \livretVerse#12 { Helas ! que son amour est different du mien ! }
-\livretVerse#12 { J’ay recours aux Enfers pour allumer sa flame }
-\livretVerse#12 { C’est l’effort de mon Art qui peut tout sur son ame, }
-\livretVerse#8 { Ma foible Beauté n’y peut rien. }
-\livretVerse#12 { Par son propre Merite il suspend ma vengeance, }
-\livretVerse#12 { Sans secours, sans effort, même sans qu’il y pense, }
-\livretVerse#12 { Il enchaine mon cœur d’un trop charmant lien. }
-\livretVerse#12 { Helas ! que mon amour est différent du sien ; }
-\livretVerse#8 { Qu’elle vengeance ay-je à pretendre }
-\livretVerse#8 { Si je le veux aimer toûjours ? }
-\livretVerse#8 { Quoy, ceder dans rien entreprendre ? }
+\livretVerse#12 { J’ay recours aux Enfers pour allumer sa flame. }
+\livretVerse#12 { C’est l’effort de mon Art qui peut tout sur son ame ; }
+\livretVerse#8 { Ma foible beauté n’y peut rien. }
+\livretVerse#12 { Par son propre merite il suspend ma vengeance ; }
+\livretVerse#12 { Sans secours, sans effort, mesme sans qu’il y pense, }
+\livretVerse#12 { Il enchaîne mon cœur d’un trop charmant lien. }
+\livretVerse#12 { Helas ! que mon amour est different du sien ! }
+\livretVerse#8 { Quelle vengeance ai-je à pretendre }
+\livretVerse#8 { Si je le veux aimer toujours. }
+\livretVerse#8 { Quoy ; ceder dans rien entreprendre ? }
 \livretVerse#12 { Non, il faut appeller la Haine à mon secours. }
 \livretVerse#8 { L’horreur de ces lieux solitaires }
-\livretVerse#8 { Par mon Art va se redoubler. }
-\livretVerse#12 { Détournez vos regards de mes affreux misteres. }
-\livretVerse#12 { Et sur tout empêchez Renaud de me troubler. }
+\livretVerse#8 { Par mon art va se redoubler. }
+\livretVerse#12 { Destournez vos regards de mes affreux mysteres, }
+\livretVerse#12 { Et sur tout empéchez Renaud de me troubler. }
 
 \livretScene SCENE III
 \livretDescAtt\wordwrap-center { ARMIDE seule }
 \livretRef #'DCAarmide
 \livretVerse#8 { Venez, venez, Haine implacable, }
-\livretVerse#8 { Sortez du Goufre épouvantable }
-\livretVerse#13 { Où vous faites regner une éternelle horreur. }
-\livretVerse#12 { Sauvez-moi de l’Amour, rien n’est si redoutable, }
-\livretVerse#8 { Contre un Ennemi trop aimable : }
-\livretVerse#12 { Rendez-moi mon couroux, rallumez ma fureur. }
+\livretVerse#8 { Sortez du Gouffre épouventable }
+\livretVerse#13 { Ou vous faites regner une éternelle horreur. }
+\livretVerse#12 { Sauvez-moy de l’Amour, rien n’est si redoutable : }
+\livretVerse#8 { Contre un Ennemy trop aimable }
+\livretVerse#12 { Rendez-moy mon couroux, rallumez ma fureur. }
 \livretVerse#8 { Venez, venez, Haine implacable, }
-\livretVerse#8 { Sortez du Goufre épouvantable }
-\livretVerse#13 { Où vous faites regner une éternelle horreur. }
+\livretVerse#8 { Sortez du Gouffre épouventable }
+\livretVerse#13 { Ou vous faites regner une éternelle horreur. }
 \null
-\livretDidasPPage\justify {
+\livretDidasP\justify {
   La Haine sort des Enfers, accompagnée des Furies, de la Cruauté,
   Vengeance, de la Rage, & des Passions qui dépendent de la Haine.
 }
@@ -702,22 +704,21 @@
 \livretDescAtt\wordwrap-center { ARMIDE, la HAYNE, Suite de la HAINE }
 \livretRef #'DDAhaine
 \livretPers La HAYNE
-\livretVerse#12 { Je répons à tes vœux, ta voix s’est fait entendre }
-\livretVerse#8 { Jusques dans le fond des Enfers. }
-\livretVerse#12 { Pour toy, contre l’Amour, je vai tout entreprendre, }
-\livretVerse#8 { Et quand on veut bien s’en défendre }
+\livretVerse#12 { Je responds à tes vœux, ta voix s’est fait entendre, }
+\livretVerse#8 { Jusques dans le fonds des Enfers. }
+\livretVerse#12 { Pour toy, contre l’Amour, je vais tout entreprendre, }
+\livretVerse#8 { Et quand on veut bien s’en deffendre }
 \livretVerse#12 { On peut se garentir de ses indignes fers. }
 \livretPers La HAINE & sa Suite
-\livretVerse#12 { Plus on connoit l’Amour, & plus on le deteste ; }
-\livretVerse#8 { Détruisons son pouvoir funeste, }
-\livretVerse#10 { Rompons ses nœuds, déchirons son Bandeau, }
-\livretVerse#10 { Brûlons ses Traits, éteignons son Flambeau. }
-\null
-\livretDidasPPage\justify { Le Chœur repete ces quatre derniers Vers. }
-\livretVerse#12 { Plus on connoit l’Amour, & plus on le deteste ; }
-\livretVerse#8 { Détruisons son pouvoir funeste, }
-\livretVerse#10 { Rompons ses nœuds, déchirons son Bandeau, }
-\livretVerse#10 { Brûlons ses Traits, éteignons son Flambeau. }
+\livretVerse#12 { Plus on connoist l’Amour, & plus on le deteste : }
+\livretVerse#8 { Destruisons son pouvoir funeste. }
+\livretVerse#10 { Rompons ses nœuds, deschirons son Bandeau ; }
+\livretVerse#10 { Brulons ses traits, esteignons son Flambeau. }
+\livretDidasP\justify { Le Chœur repete ces quatre derniers Vers. }
+\livretVerse#12 { Plus on connoist l’Amour, & plus on le deteste : }
+\livretVerse#8 { Destruisons son pouvoir funeste. }
+\livretVerse#10 { Rompons ses nœuds, deschirons son Bandeau ; }
+\livretVerse#10 { Brulons ses traits, esteignons son Flambeau. }
 \null
 \livretRef #'DDBritournelle
 \livretDidasPPage\justify {
@@ -726,10 +727,10 @@
 }
 \livretRef #'DDChaine
 \livretPers La Haine & sa Suite
-\livretVerse#12 { Amours, sort pour jamais, sort d’un Cœur qui te chasse, }
-\livretVerse#8 { Que la Haine regne en ta place, }
-\livretVerse#8 { Tu fais trop souffrir sous ta loi ; }
-\livretVerse#12 { Non, tout l’Enfer n’a rien de si cruel que toi. }
+\livretVerse#12 { Amour, sors pour jamais, sors d’un cœur qui te chasse : }
+\livretVerse#8 { Laisse-moy regner en ta place. }
+\livretVerse#8 { Tu faits trop souffrir sous ta loy, }
+\livretVerse#12 { Non, tout l’Enfer n’a rien de si cruel que toy. }
 \null
 \livretRef #'DDDair
 \livretDidasPPage\justify {
@@ -738,33 +739,33 @@
 }
 \livretRef #'DDEarmideHaine
 \livretPers\line { La Haine \smaller { approchant d’Armide. } }
-\livretVerse#12 { Sors, sors du sein d’Armide, Amour brise ta chaîne. }
+\livretVerse#12 { Sors, sors du sein d’Armide, Amour, brise ta chaîne. }
 \livretPers ARMIDE
 \livretVerse#8 { Arreste, arreste, affreuse Haine, }
-\livretVerse#12 { Laisse-moy sous les loix d’un si charmant Vainqueur. }
-\livretVerse#12 { Laisse-moi, je renonce à ton secours horrible, }
-\livretVerse#12 { Non, non, n’acheve pas ; non il n’est pas possible }
+\livretVerse#12 { Laisse-moy sous les Loix d’un si charmant Vainqueur. }
+\livretVerse#12 { Laisse-moy, je renonce à ton secours horrible. }
+\livretVerse#12 { Non, non, n’acheve pas, non il n’est pas possible }
 \livretVerse#12 { De m’oster mon amour sans m’arracher le cœur. }
 \livretPers La Haine
 \livretVerse#8 { N’implores-tu mon assistance }
-\livretVerse#8 { Que pour mépriser ma puissance ? }
-\livretVerse#8 { Suis l’amour, puisque tu le veux, }
-\livretVerse#5 { Infortunée Armide, }
-\livretVerse#6 { Suis l’Amour qui te guide }
-\livretVerse#6 { Dans un abisme affreux. }
-\livretVerse#12 { Sur ces bords écartez c’est en vain que tu caches }
-\livretVerse#12 { Le Heros dont ton cœur s’est trop laissé toucher }
-\livretVerse#7 { La Gloire à qui tu l’arraches, }
-\livretVerse#7 { Doit bien-tost te l’arracher, }
-\livretVerse#10 { Malgré tes soins, au mépris de tes larmes }
-\livretVerse#10 { Tu le verras échaper à tes charmes. }
-\livretVerse#12 { Tu me rappelleras, peut-estre, dés ce jour : }
-\livretVerse#8 { Et ton attente sera vaine : }
-\livretVerse#8 { Je vais te quiter sans retour, }
-\livretVerse#12 { Je ne puis te punir d’une plus rude peine, }
+\livretVerse#8 { Que pour mépriser ma puissance ; }
+\livretVerse#8 { Suy l’Amour, puisque tu le veux. }
+\livretVerse#6 { Infortunée Armide, }
+\livretVerse#6 { Suy l’Amour qui te guide }
+\livretVerse#6 { Dans un abysme affreux. }
+\livretVerse#12 { Sur ces bords écartez c’est en vain que tu cache }
+\livretVerse#12 { Le Heros dont ton cœur s’est trop laissé toucher. }
+\livretVerse#7 { La Gloire à qui tu l’arrache }
+\livretVerse#7 { Doit bien-tost te l’arracher. }
+\livretVerse#10 { Malgré tes soins, au mépris de tes larmes, }
+\livretVerse#10 { Tu le verras échaper à tes charmes, }
+\livretVerse#12 { Tu me rappelleras peut-estre dés ce jour, }
+\livretVerse#8 { Et ton attente sera vaine, }
+\livretVerse#8 { Je vais te quitter sans retour ; }
+\livretVerse#12 { Je ne puis te punir d’une plus rude peine }
 \livretVerse#12 { Que de t’abandonner pour jamais à l’Amour. }
 \null
-\livretDidasPPage\justify { La Haine & sa Suite s'abisme. }
+\livretDidasP\justify { La Haine & sa Suite s'abisme. }
 \livretFinAct Fin du troisiéme Acte
 \sep
 \livretAct ACTE IV
