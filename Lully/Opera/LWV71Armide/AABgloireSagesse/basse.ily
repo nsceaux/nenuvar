@@ -43,7 +43,7 @@
     sol4. sol8 fa8 mi8 |
     re4. re8 fa8 re8 |
     la8 fa8 sol4 sol,4 |
-    do2 do4^"viste" |
+    do2 do4_\viste |
     sol2 sol4 |
     sol4 fad2 |
     sol4 fad4 mi4 |
@@ -105,8 +105,8 @@ do2
   \tag #'basse-continue {
     \clef "alto" do''4 |
     la'4 la'8 si'8 do''8 la'8 |
-    re''2 \myfootnote #'NoteHead #'(0 . 1) \markup {
-      Ballard : \raise #4 \score {
+    re''2 \footnoteHere #'(0 . 0) \markup\wordwrap {
+      Source : \score {
         { \tinyQuote \clef "alto" \time 3/4
           re''2 si'4 | }
         \layout { \quoteLayout }

@@ -41,15 +41,15 @@ withLyrics =
 #(define-music-function (parser location music lyrics) (ly:music? ly:music?)
    (let ((name (symbol->string (gen-unique-context))))
      #{  << \context Voice = $name \with { autoBeaming = ##f } $music
-            \lyricsto $name \new Lyrics $lyrics
+            \new Lyrics \lyricsto #name { #lyrics }
             >> #}))
 
 withLyricsB =
 #(define-music-function (parser location music lyrics1 lyrics2) (ly:music? ly:music? ly:music?)
    (let ((name (symbol->string (gen-unique-context))))
      #{  << \context Voice = $name \with { autoBeaming = ##f } $music
-            \lyricsto $name \new Lyrics $lyrics1
-            \lyricsto $name \new Lyrics $lyrics2
+            \new Lyrics \lyricsto #name { #lyrics1 }
+            \new Lyrics \lyricsto #name { #lyrics2 }
             >> #}))
 
 withRecit =
@@ -73,7 +73,7 @@ withRecit =
                 clef key-cancellation key-signature staff-bar
                 time-signature custos))
             $music >>
-            \lyricsto $name \new Lyrics $lyrics
+            \new Lyrics \lyricsto #name { #lyrics }
           >> #}))
 
 newHaraKiriStaff =

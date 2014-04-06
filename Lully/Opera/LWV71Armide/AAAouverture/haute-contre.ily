@@ -20,24 +20,8 @@ mi'4 sol'4 sol'4 sol'4 do''4 do''4 |
 la'4\tr re''4 re''4 si'4 si'8 do''8 re''4 |
 sol'4 la'4 la'4 la'2 la'4 |
 la'4 \footnoteHere #'(0 . 0) \markup\wordwrap {
-  \line {
-    Ballard : \score {
-      { \tinyQuote \time 6/4 \key do \major \clef "soprano"
-        la'4  sol'4 sol'4. la'8 fad'4. sol'8 |
-      }
-      \layout { \quoteLayout }
-    }
-    la deuxième noire étant raturée et corrigée en \italic la.
-    \hspace #2
-  }
-  \line {
-    Manuscrit : \score {
-      { \tinyQuote \time 6/4 \key do \major \clef "soprano"
-        la'4  sol'4 sol'4. la'8 fad'4. sol'8 |
-      }
-      \layout { \quoteLayout }
-    }
-  }
+  Source : la deuxième noire \italic (sol) est raturée et corrigée
+  en \italic la.
 } sol'4 sol'4. la'8 fad'4. sol'8 |
 sol'2. mi'2 mi'4 |
 mi'2 mi'4 fa'4 do''4 do''4 |

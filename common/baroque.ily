@@ -420,3 +420,7 @@ tresfortSug =
              'text (markup #:whiteout #:italic #:general-align X -0.75
                            "[tres fort]"))
 
+viste =
+#(make-music
+  'TextScriptEvent
+  'text #{\markup\whiteout\italic\general-align #X #-0.5 viste #})

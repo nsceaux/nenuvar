@@ -1,7 +1,7 @@
 <<
   \tag #'(dessus1 dessus2 dessus) {
     \clef "dessus" R2.*53 |
-    r4 r re''4^\markup\huge Violons |
+    r4 r re''4^\markup Violons |
     sol''2 sol''4 |
     do''4 do''4 re''4 |
     mi''4 re''4.\tr do''8 |

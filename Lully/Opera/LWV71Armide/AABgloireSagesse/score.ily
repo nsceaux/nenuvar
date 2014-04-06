@@ -80,10 +80,10 @@
       \new StaffGroup <<
         \new Staff \with { \haraKiriFirst } <<
           { s2.*50 \noHaraKiri }
-          \global \keepWithTag #'dessus1 \includeNotes "dessus-haute-contre" >>
+          \global \keepWithTag #'dessus \includeNotes "dessus-haute-contre" >>
         \new Staff \with { \haraKiriFirst } <<
           { s2.*50 \noHaraKiri }
-          \global  \keepWithTag #'haute-contre-dessus2
+          \global  \keepWithTag #'haute-contre
           \includeNotes "dessus-haute-contre" >>
         \new Staff \with { \haraKiriFirst } <<
           { s2.*50 \noHaraKiri }

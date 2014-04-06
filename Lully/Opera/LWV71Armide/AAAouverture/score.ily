@@ -8,13 +8,9 @@
       \new Staff <<
         \global \includeNotes "basse"
         \origLayout {
-          s2 s1*5\break
-          s1*5 s1.\pageBreak
-          s1.*4\break
-          s1.*5\pageBreak
-          s1.*4\break
-          s1.*2 s1*5\pageBreak
-          s1*4 s2. s2.\break
+          s2 s1*5\break s1*5 s1.\pageBreak
+          s1.*4\break s1.*5\pageBreak
+          s1.*4\break s1.*2 s1*5\pageBreak
         }
       >>
     >>

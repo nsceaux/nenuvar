@@ -8,13 +8,13 @@
      (markup?)
   (interpret-markup
    paper props
-   #{ \markup\translate #'(-2 . 2) \characteri $name #}))
+   #{ \markup\translate #'(-1 . 1) \characteri $name #}))
 
 #(define-markup-command (character-text paper props name text)
      (markup? markup?)
   (interpret-markup
    paper props
-   #{ \markup\translate #'(-2 . 2) \line {
+   #{ \markup\translate #'(-1 . 1) \line {
   \characteri $name \italic $text } #}))
 
 #(define-markup-command (character-text-col paper props name text)

@@ -80,7 +80,7 @@
         do''8 re''8 do''4( si'4\tr) |
         do''2
       }
-    >> mi''4^"viste" |
+    >> mi''4^\viste |
     re''2 re''4 |
     do''4 do''4 re''4 si'4 la'4 sol'4 |
     fad'2
@@ -142,8 +142,8 @@
     sold'2 s4 |
     s2.*7 |
     s2 \clef "vbas-dessus" si'4 |
-    si'4 \myfootnote #'NoteHead #'(0 . 1) \markup {
-      Ballard : \raise #2.5 \score {
+    si'4 \footnoteHere #'(0 . 0) \markup\wordwrap {
+      Source : \score {
         <<
           { \tinyQuote \clef "soprano" \time 3/4 \partial 4
             si'4 | si'4  do''4 do''4 | }
@@ -186,15 +186,15 @@
     sol'2. ~|
     sol'2 mi'4 |
     la'2 fa'4 |
-    \myfootnote #'NoteHead #'(0 . 1) \markup {
-      Ballard : \raise #3 \score {
+    \footnoteHere #'(0 . 0) \markup\wordwrap {
+      Source : \score {
         <<
           { \tinyQuote \clef "alto" \time 3/4
             fa' fa' sol' | mi' fa' fa' | do'2
           } \addlyrics { -tons la dou -- ceur de ses loix. }
         >>
         \layout { \quoteLayout }
-      } corrigé manuellement en : \raise #3 \score {
+      } corrigé manuellement en : \score {
         <<
           { \tinyQuote \clef "alto" \time 3/4
             sol'4 sol'4 la'4 | fa'4 sol'4 sol'4 | do'2
@@ -282,8 +282,8 @@
     s2.*6 |
     s2 \clef "vhaute-contre" sol'4 |
     la'2 la'4 |
-    \myfootnote #'NoteHead #'(0 . 1) \markup {
-      Ballard : \raise #3 \score {
+    \footnoteHere #'(0 . 0) \markup\wordwrap {
+      Source : \score {
         <<
           { \tinyQuote \clef "alto" \time 3/4
             sol'4. si'8 fad'4 |
