@@ -17,6 +17,7 @@
 }
 \includeScore "AABgloireSagesse"
 %% 0-3
+\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   \smallCaps { La Gloire, la Sagesse, chœurs : }
   \italic { D'une esgale tendresse }

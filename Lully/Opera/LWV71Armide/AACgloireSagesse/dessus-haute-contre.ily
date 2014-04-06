@@ -2,7 +2,7 @@
   \tag #'(dessus1 dessus2 dessus) {
     \clef "dessus"
     R1*43 R1.*3 R1*3 R1. R1*9 R1. R1*2 R2.*30 |
-    mi''4^\markup\huge Violons mi''4 do''4 |
+    mi''4^\markup Violons mi''4 do''4 |
     fa''2 fa''4 |
     mi''2\tr do''8 do''8 |
     si'4 si'4 dod''4 |

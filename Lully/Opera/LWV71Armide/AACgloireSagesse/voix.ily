@@ -108,43 +108,18 @@
     do''2 sib'4( la'8) sib'8 |
     la'2 la'4 si'4 |
     do''2 do''4 re''4 |
-    si'2\tr r4 \myfootnote #'NoteHead #'(0 . 1) \markup\column {
-      \line {
-        Ballard : \raise #3.5 \score {
-          <<
-            { \tinyQuote \clef "soprano" \time 3/2
-              si'2 r4 sol''4 mi'' sol'' |
-              la'4 
-            } \addlyrics { -mains, Il fait tom -- ber }
-          >>
-          \layout { \quoteLayout }
-        }
-        corrigé de façon manuscrite en :
-        \raise #3.5 \score {
-          <<
-            { \tinyQuote \clef "soprano" \time 3/2
-              si'2 r4 sol''4 do'' mi'' |
-              la'4 
-            } \addlyrics { -mains, Il fait tom -- ber }
-          >>
-          \layout { \quoteLayout }
-        }
-      }
-      \line {
-        Le manuscrit contient à l'origine la version imprimée dans Ballard,
-        mais les notes sont grattées et corrigées ainsi :
-        \raise #3.5 \score {
-          <<
-            { \tinyQuote \clef "soprano" \time 3/2
-              si'2 r4 mi''4 do'' mi'' |
-              la'4 
-            } \addlyrics { -mains, Il fait tom -- ber }
-          >>
-          \layout { \quoteLayout }
-        }
-      }
+    si'2\tr r4 \footnoteHere #'(0 . 0) \markup\justify {
+      Sur l’édition Ballard, les trois noires sont : \italic { sol mi sol, }
+      les deux dernières étant corrigées de façon manuscrite en :
+      \italic { do mi. }
+      Le manuscrit contient à l'origine la version imprimée dans 
+      Ballard, mais les notes sont gratées et corrigées en :
+      \italic { mi do mi.}
+      C’est la version conservée ici, estimant que les intervalles
+      des trois noires imprimées originellement sont corrects, mais les
+      notes placés une tierce trop haut.
     }
-    sol''4 mi'' sol'' |
+    mi''4 do'' mi'' |
     la'4 la'4 la'4. do''8 fa'4( mi'8) fa'8 |
     mi'4 sol'4 do''4 do''4 dod''4 dod''4 |
     re''4 re''8 re''8 mi''4 mi''8 mi''8 |
@@ -201,7 +176,7 @@
   %% Suite de la Gloire
   \tag #'gloire-dessus {
     \clef "vdessus" s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*30 |
-    mi''4^\markup\character "[Suite de la Gloire]" mi''4 do''4 |
+    mi''4 mi''4 do''4 |
     fa''2 fa''4 |
     mi''4 mi''4 do''8 do''8 |
     si'4 si'4 dod''4 |
@@ -449,7 +424,7 @@
   \tag #'sagesse-dessus {
     \clef "vdessus" s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*30 |
     s2.*8 s4 s
-    \clef "vdessus" re''4^\markup\character "[Suite de la Sagesse]" |
+    \clef "vdessus" re''4 |
     mi''4 fa''4 sol''4 |
     fa''4\tr mi''4 re''4 |
     mi''4 re''4.\tr do''8 |

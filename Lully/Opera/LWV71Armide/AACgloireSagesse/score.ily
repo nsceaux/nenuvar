@@ -66,35 +66,20 @@
       \new Staff <<
         \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
-        { s1*6\break
-          s1*6\break
-          s1*6\break
-          s1*6\pageBreak
-          s1*7\break
-          s1*5\break
-          s1*7\break
-          s1.*3 s1\pageBreak
-          s1*2 s1. s1*3\break
-          s1*6 s1.\break
-          s1*2 s2.*5\break
-          s2.*7\pageBreak
-          s2.*8\break
-          s2.*6\break
-          s2.*4\pageBreak
-          s2.*7\pageBreak
-          s2.*8\pageBreak
-          s2.*7\pageBreak
-          s2.*8\pageBreak
-          s2.*8\pageBreak
-          s2.*8\pageBreak
-          s2.*8\pageBreak
-          s2.*8\pageBreak
-          s2.*4\pageBreak
+        { s1*6\break s1*6\break s1*6\break s1*6\pageBreak
+          s1*7\break s1*5\break s1*7\break s1.*3 s1\pageBreak
+          s1*2 s1. s1*3\break s1*6 s1.\break
+          s1*2 s2.*5\break s2.*7\pageBreak
+          s2.*8\break s2.*6\break s2.*4\pageBreak
+          s2.*7\pageBreak s2.*8\pageBreak s2.*7\pageBreak
+          s2.*8\pageBreak s2.*8\pageBreak s2.*8\pageBreak
+          s2.*8\pageBreak s2.*8\pageBreak s2.*4\pageBreak
         }
       >>
     >>
 
     \modVersion <<
+      %% Violons
       \new StaffGroup <<
         \new Staff \with { \haraKiriFirst } <<
           { s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*31 \noHaraKiri }
@@ -119,35 +104,36 @@
           \global \keepWithTag #'basse \includeNotes "basse"
         >>
       >>
+      %% Chœurs
       \new ChoirStaff <<
         \new Staff \with { \haraKiriFirst } \withLyrics <<
-          { s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*31 \noHaraKiri
-            s2.*8\noBreak }
-          \global \keepWithTag #'(sagesse-dessus
-                                  sagesse-silence) \includeNotes "voix"
-        >>  \keepWithTag #'sagesse-choeur \includeLyrics "paroles"
+          \global
+          { s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*31
+            \noHaraKiri s2.*7 s2
+            \voiceOne s4 s2.*3 s2
+            \oneVoice s4 s2.*3 s2
+            \voiceOne s4 s2.*3 s4
+            \oneVoice s2 s2.*14 s2
+            \voiceOne s4 s2.*3 s2
+            \oneVoice s4 s2.*17 s2
+            \voiceOne s4 s2.*3 s2 \oneVoice }
+          \keepWithTag #'(sagesse-dessus
+                          gloire-dessus
+                          gloire-sagesse-silence) \includeNotes "voix"
+          \new Voice \with { autoBeaming = ##f } {
+            \voiceTwo
+            \keepWithTag #'sagesse-bas-dessus \includeNotes "voix"
+          }
+        >>  \keepWithTag #'(sagesse-choeur
+                            gloire-choeur) \includeLyrics "paroles"
         \new Staff \with { \haraKiriFirst } \withLyrics <<
           { s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*31 \noHaraKiri }
-          \global \keepWithTag #'(sagesse-bas-dessus
-                                  sagesse-silence) \includeNotes "voix"
-        >>  \keepWithTag #'sagesse-choeur \includeLyrics "paroles"
-        \new Staff \with { \haraKiriFirst } \withLyrics <<
-          { s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*31 \noHaraKiri }
-          \global \keepWithTag #'(sagesse-haute-contre
-                                  sagesse-silence) \includeNotes "voix"
-        >>  \keepWithTag #'sagesse-choeur \includeLyrics "paroles"
-      >>
-      \new ChoirStaff <<
-        \new Staff \with { \haraKiriFirst } \withLyrics <<
-          { s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*31 \noHaraKiri }
-          \global \keepWithTag #'(gloire-dessus
-                                  gloire-silence) \includeNotes "voix"
-        >>  \keepWithTag #'gloire-choeur \includeLyrics "paroles"
-        \new Staff \with { \haraKiriFirst } \withLyrics <<
-          { s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*31 \noHaraKiri }
-          \global \keepWithTag #'(gloire-haute-contre
-                                  gloire-silence) \includeNotes "voix"
-        >> \keepWithTag #'gloire-choeur \includeLyrics "paroles"
+          \global
+          \keepWithTag #'(gloire-haute-contre
+                          sagesse-haute-contre
+                          gloire-sagesse-silence) \includeNotes "voix"
+        >> \keepWithTag #'(sagesse-choeur
+                           gloire-choeur) \includeLyrics "paroles"
         \new Staff \with { \haraKiriFirst } \withLyrics <<
           { s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*31 \noHaraKiri }
           \global \keepWithTag #'(gloire-taille
@@ -171,18 +157,18 @@
         \global \keepWithTag #'sagesse \includeNotes "voix"
       >> \keepWithTag #'sagesse \includeLyrics "paroles"
       \new Staff <<
-        { s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*30\break }
         \instrumentName "Basse Continue"
         \global \keepWithTag #'basse-continue \includeNotes "basse"
         \includeFigures "chiffres"
+        \modVersion {
+          s1*43 s1.*3 s1*3 s1. s1*9 s1. s1*2 s2.*30\break
+          \override Score.NonMusicalPaperColumn.page-break-permission = ##f
+          s2.*8\pageBreak s2.*17\pageBreak
+          s2.*16\pageBreak s2.*16\pageBreak
+        }
       >>
     >>
   >>
-  \layout {
-    ragged-last = #(eqv? #t (ly:get-option 'urtext))
-    indent = #(if (eqv? #t (ly:get-option 'urtext))
-                  smallindent
-                  largeindent)
-  }
+  \layout { indent = \largeindent }
   \midi { }
 }

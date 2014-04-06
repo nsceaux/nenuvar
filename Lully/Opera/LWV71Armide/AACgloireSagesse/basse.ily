@@ -22,7 +22,7 @@
     la4 sol8 fa8 mi8 fa8 mi8 re8 |
     do4 do4 si,4. la,8 |
     sol,2 do2 |
-    dod2 re4 la,4 |
+    dod2 re4 do?4 |
     si,4 do4 re4 re,4 |
     sol,2 sol4 fa8 mi8 |
     re4 re8 mi8 fa4 re4 |

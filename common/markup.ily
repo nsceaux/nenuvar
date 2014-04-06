@@ -628,32 +628,35 @@ characterAmbitus =
   footnote-footer-padding = 1\mm
 }
 
+#(define (make-footnote-here-music offset note)
+   (make-music 'FootnoteEvent
+               'X-offset (car offset)
+               'Y-offset (cdr offset)
+               'automatically-numbered #t
+               'text (make-null-markup)
+               'footnote-text note))
 footnoteHere =
 #(define-music-function (parser this-location offset note)
      (number-pair? markup?)
-   (let ((foot-mus (make-music
-                    'FootnoteEvent
-                    'X-offset (car offset)
-                    'Y-offset (cdr offset)
-                    'automatically-numbered #t
-                    'text (make-null-markup)
-                    'footnote-text note)))
      (set! location #f)
-     #{ <>-\tweak footnote-music #foot-mus ^\markup\transparent\box "1" #}))
+   #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
+       ^\markup\transparent\box "1" #})
+
+footnoteHereFull =
+#(define-music-function (parser this-location offset note)
+     (number-pair? markup?)
+   (set! location #f)
+   (if (symbol? (ly:get-option 'part))
+       (make-music 'Music 'void #t)
+       #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
+          ^\markup\transparent\box "1" #}))
 
 footnoteHereNoSpace =
 #(define-music-function (parser this-location offset note)
      (number-pair? markup?)
-   (let ((foot-mus (make-music
-                    'FootnoteEvent
-                    'X-offset (car offset)
-                    'Y-offset (cdr offset)
-                    'automatically-numbered #t
-                    'text (make-null-markup)
-                    'footnote-text note)))
      (set! location #f)
-     #{ <>-\tweak footnote-music #foot-mus ^\markup\null #}))
-
+     #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
+        ^\markup\null #})
 
 
 textSpanner =

@@ -51,30 +51,28 @@ si2\tr r4 |
 R2.*3 |
 r4 r do'4 |
 do'4 do'4 do'4 |
-si2 \myfootnote #'NoteHead #(if (eqv? #t (ly:get-option 'urtext))
-                                '(0 . 4)
-                                '(0 . 2)) \markup {
-  Ballard : \hspace #2 \raise #3 \score {
+si2 \footnoteHereFull #'(0 . 0) \markup\wordwrap {
+  Source : \raise #-4 \score {
     <<
-      \new Staff \with { instrumentName = "t." } {
+      \new Staff \with { instrumentName = "taille" } {
         \tinyQuote \clef "mezzosoprano" \time 3/4
         si2 do'4 | re'4 si4. do'8 | do'2. | \bar "|."
       }
-      \new Staff \with { instrumentName = "q." } {
+      \new Staff \with { instrumentName = "quinte" } {
         \tinyQuote \clef "alto" \time 3/4
         si2 la4 | fa'4 mi'4. mi'8 | mi'2. |
       }
     >>
     \layout { \quoteLayout }
   }
-  ratturé et corrigé manuellement ainsi : \hspace #2
-  \raise #3 \score {
+  raturé et corrigé manuellement ainsi :
+  \raise #-4 \score {
     <<
-      \new Staff \with { instrumentName = "t." } {
+      \new Staff {
         \tinyQuote \clef "mezzosoprano" \time 3/4
         si2 la4 | si4 si4. do'8 | do'2. | \bar "|."
       }
-      \new Staff \with { instrumentName = "q." } {
+      \new Staff {
         \tinyQuote \clef "alto" \time 3/4
         si2 do'4 | fa4 mi4. mi8 | mi2. |
       }
