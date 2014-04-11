@@ -7,7 +7,7 @@
       \global \keepWithTag #'dessus2 \includeNotes "dessus-haute-contre"
     >>
     \new Staff \with { \tinyStaff } <<
-      s4*0^"[Tailles]"
+      <>^"[Tailles]"
       \global \includeNotes "taille"
     >>
   >>
