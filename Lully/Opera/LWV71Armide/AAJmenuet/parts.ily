@@ -1,2 +1,5 @@
-\piecePartSpecs #`((dessus #:score "score-dessus")
-                   (basse-continue #:score-template "score"))
+\piecePartSpecs
+#`((dessus #:score "score-dessus")
+   (basse)
+   (basse-continue #:score-template "score")
+   (silence #:on-the-fly-markup , #{ \markup\tacet #28 #}))

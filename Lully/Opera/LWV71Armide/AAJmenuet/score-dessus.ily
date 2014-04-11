@@ -1,7 +1,7 @@
 \score {
-  \new GrandStaff <<
-    \new Staff << \global \clef "dessus" \includeNotes "dessus1" >>
-    \new Staff << \global \clef "dessus" \includeNotes "dessus2" >>
+  \new GrandStaff \with { instrumentName = "Hautbois" } <<
+    \new Staff << \global \includeNotes "dessus1" >>
+    \new Staff << \global \includeNotes "dessus2" >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
 }

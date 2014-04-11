@@ -1,4 +1,4 @@
-do'2 do'4 |
+\clef "basse" do'2 do'4 |
 si4 do'4 la4 |
 sol2 sol,4 |
 do2. |

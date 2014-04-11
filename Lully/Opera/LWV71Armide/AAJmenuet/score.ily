@@ -1,9 +1,14 @@
 \score {
   \new StaffGroup <<
-    \new Staff << \global \clef "dessus" \includeNotes "dessus1" >>
-    \new Staff << \global \clef "dessus" \includeNotes "dessus2" >>
-    \new Staff << \global \clef "basse" \includeNotes "basse" >>
+    \new GrandStaff \with { instrumentName = "Hautbois" } <<
+      \new Staff << \global \includeNotes "dessus1" >>
+      \new Staff << \global \includeNotes "dessus2" >>
+    >>
+    \new Staff <<
+      \global \includeNotes "basse"
+      \origLayout { s2.*9\break s2.*10\pageBreak }
+    >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
   \midi { }
 }
