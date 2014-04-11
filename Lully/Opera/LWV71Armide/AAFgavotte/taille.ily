@@ -1,4 +1,4 @@
-la'4. la'8 |
+\clef "taille" la'4. la'8 |
 re'4. re'8 mi'4. mi'8 |
 mi'2 re'4. re'8 |
 si4 do'8 re'8 mi'4 si4 |
@@ -13,7 +13,7 @@ si4 do'8. re'16 mi'4. mi'8 |
 mi'2 la'4. la'8 |
 si'4. si'8 la'4. la'8 |
 fad'4 red'4 sol'4 sol'4 |
-sol'4 fad'4 fad'4. mi'8 |
+sol'4 fad'4 fad'4.\tr mi'8 |
 red'4 mi'4 la'4. la'8 |
 re'4. re'8 mi'4. mi'8 |
 mi'2 re'4. re'8 |

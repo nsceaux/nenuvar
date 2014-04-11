@@ -1,5 +1,5 @@
-mi'4. mi'8 |
-fa'4. fa'8 mi'4. mi'8 |
+\clef "haute-contre" mi'4. mi'8 |
+fa'4. fa'8 mi'4.\tr mi'8 |
 fa'2 fa'4. la'8 |
 sold'4 la'8. si'16 sold'4. la'8 |
 la'2 do''4. do''8 |
@@ -15,7 +15,7 @@ mi''4. mi''8 do''4. do''8 |
 si'2 si'4 si'4 |
 do''4 do''4 si'4. si'8 |
 si'4 sold'4 mi'4. mi'8 |
-fa'4. fa'8 mi'4. mi'8 |
+fa'4. fa'8 mi'4.\tr mi'8 |
 fa'2 fa'4. la'8 |
 sold'4 la'8. si'16 sold'4. la'8 |
 la'2 r4
