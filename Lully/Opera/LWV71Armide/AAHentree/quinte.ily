@@ -1,4 +1,4 @@
-do'2 do'4 do'4 |
+\clef "quinte" do'2 do'4 do'4 |
 la4. la8 la4 fa4 |
 mi4. do'8 do'4 si4 |
 do'4. do'8 re'4. sol8 |
@@ -17,6 +17,6 @@ fa'4. fa'8 mi'8. mi'16 mi'8. fa'16 |
 do'4. do'8 do'4 do'4 |
 re'4. re'8 re'4. re'8 |
 mi'8. mi'16 mi'8. mi'16 mi'4 fa'8. fa'16 |
-re'4 mi'8. re'16 re'8 do'16 re'16 re'8. mi'16 |
+re'4 mi'8. re'16 re'8 do'16 re'16 re'8.\tr mi'16 |
 mi'2 re'8. re'16 mi'4 |
 mi'1 |
