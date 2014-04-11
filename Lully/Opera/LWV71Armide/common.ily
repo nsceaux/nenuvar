@@ -92,10 +92,6 @@ sagesseMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "La Sagesse"))
 
-sagesseMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "La Sagesse"))
-
 %%
 pheniceMarkNoClef =
 #(define-music-function (parser location) ()

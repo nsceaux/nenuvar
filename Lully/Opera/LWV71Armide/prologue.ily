@@ -39,9 +39,10 @@
 \pieceTocTitle "Gavotte"
 \includeScore "AAFgavotte"
 %% 0-7
-\pieceToc \markup {
-  La Gloire, la Sagesse, chœurs :
-  \italic { Suivons notre Héros, que rien ne nous sépare. } }
+\pieceToc\markup\wordwrap {
+  \smallCaps { La Gloire, la Sagesse, chœurs : }
+  \italic { Suivons nostre Heros, que rien ne nous separe }
+}
 \includeScore "AAGgloireSagesse"
 %% 0-8
 \pieceTocTitle "Entrée"
