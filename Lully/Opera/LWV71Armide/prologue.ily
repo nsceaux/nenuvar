@@ -48,10 +48,12 @@
 \pieceTocTitle "Entrée"
 \includeScore "AAHentree"
 %% 0-9
-\pieceTocTitle "Menuets"
-\includeScore "AAImenuet" \noPageTurn
-\includeScore "AAJmenuet"
+\pieceTitle ""
+\includeScore "AAImenuet"
 %% 0-10
+\pieceTocTitle "Menuet"
+\includeScore "AAJmenuet"
+%% 0-11
 \pieceToc \markup {
   Chœur :
   \italic { Que dans le temple de Mémoire son nom soit pour jamais gravé. } }
