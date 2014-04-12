@@ -40,11 +40,12 @@
 \includeScore "AAFgavotte"
 %% 0-7
 \pieceToc\markup\wordwrap {
-  \smallCaps { La Gloire, la Sagesse, chœurs : }
+  \smallCaps { La Gloire, la Sagesse, chœurs : }
   \italic { Suivons nostre Heros, que rien ne nous separe }
 }
 \includeScore "AAGgloireSagesse"
 %% 0-8
+\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entrée"
 \includeScore "AAHentree"
 %% 0-9
@@ -54,8 +55,9 @@
 \pieceTocTitle "Menuet"
 \includeScore "AAJmenuet"
 %% 0-11
-\pieceToc \markup {
-  Chœur :
-  \italic { Que dans le temple de Mémoire son nom soit pour jamais gravé. } }
+\newBookPart #'(full-rehearsal)
+\pieceToc\markup\wordwrap {
+  \smallCaps Chœurs : \italic { Que dans le Temple de Memoire }
+}
 \includeScore "AAKchoeur"
 \actEnd \markup { FIN DU PROLOGUE }

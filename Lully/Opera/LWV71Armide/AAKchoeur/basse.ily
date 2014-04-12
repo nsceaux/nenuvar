@@ -1,4 +1,4 @@
-do4 do4 do4 |
+\clef "basse" do4 do4 do4 |
 fa4. fa8 fa8 fa8 |
 re2 re4 |
 la4 la4 la4 |
