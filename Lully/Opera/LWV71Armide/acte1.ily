@@ -1,10 +1,14 @@
 \newBookPart #'()
 \act "Acte Premier"
-\scene "Scène Première"
-\sceneDescription \markup \smallCaps { Armide, Phénice, Sidonie. }
-\pieceToc \markup { Armide, Phénice, Sidonie }
+\scene "Scene Premiere" "Scene I"
+\sceneDescription\markup\smallCaps { Armide, Phenice, Sidonie. }
+\pieceToc\markup\wordwrap {
+  \smallCaps { Armide, Phenice, Sidonie : }
+  \italic { Dans un jour de triomphe, au milieu des plaisirs }
+}
 \includeScore "BAAarmidePheniceSidonie"
 
+\newBookPart #'(full-rehearsal)
 \scene "Scène II"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Hidraot, suite d'Hidraot,

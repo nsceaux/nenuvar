@@ -93,25 +93,13 @@ sagesseMark =
   (make-character-mark "vbas-dessus" "La Sagesse"))
 
 %%
-pheniceMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Phénice"))
-
-sidonieMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Sidonie"))
-
-armideMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Armide"))
-
 pheniceMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vdessus" "Phénice"))
+  (make-character-mark "vbas-dessus" "Phenice"))
 
 sidonieMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vdessus" "Sidonie"))
+  (make-character-mark "vbas-dessus" "Sidonie"))
 
 armideMark =
 #(define-music-function (parser location) ()
@@ -121,10 +109,6 @@ hidraotMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Hidraot"))
 
-hidraotMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Hidraot"))
-
 aronteMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Aronte"))
@@ -133,58 +117,28 @@ renaudMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Renaud"))
 
-renaudMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Renaud"))
-
 artemidoreMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vtaille" "Artémidore"))
+  (make-character-mark "vtaille" "Artemidore"))
 
-choeurBergersMark =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Chœur de bergers et bergères héroïques"))
 %%
 haineMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vtaille" "La Haine"))
 
-haineMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "La Haine"))
 %%
 chevalierMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Le Chevalier"))
 
-chevalierMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Le Chevalier"))
-
 ubaldeMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbasse" "Ubalde"))
-
-ubaldeMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Ubalde"))
 
 lucindeMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vdessus" "Lucinde"))
 
-lucindeMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Lucinde"))
-
 melisseMark =
 #(define-music-function (parser location) ()
-  (make-character-mark "vbas-dessus" "Mélisse"))
-
-melisseMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Mélisse"))
-%%
-amantMarkNoClef =
-#(define-music-function (parser location) ()
-  (make-character-mark "" "Un Amant fortuné"))
+  (make-character-mark "vbas-dessus" "Melisse"))

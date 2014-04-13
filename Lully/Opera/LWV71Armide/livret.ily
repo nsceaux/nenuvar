@@ -124,7 +124,7 @@
 \livretVerse#6 { Qui regne dans vostre ame. }
 \livretPers PHENICE & SIDONIE ensemble
 \livretVerse#6 { Quel sort a plus d’appas }
-\livretVerse#13 { Et qui peut estre heureux si vous ne l’estes pas ? }
+\livretVerse#12 { Et qui peut estre heureux si vous ne l’estes pas ? }
 \livretPers PHENICE
 \livretVerse#12 { Si la guerre aujourd’huy fait craindre ses ravages, }
 \livretVerse#12 { C’est aux bords du Jourdain qu’ils doivent s’arrester, }
@@ -177,7 +177,7 @@
 \livretVerse#12 { Je suis tombée aux pieds de ce cruel vainqueur ; }
 \livretVerse#8 { Rien ne fléchissoit sa rigueur, }
 \livretVerse#8 { Et par un charme inconcevable }
-\livretVerse#12 { Je me sentois contrainte à la trouver aimable }
+\livretVerse#12 { Je me sentois contrainte à le trouver aimable }
 \livretVerse#12 { Dans le fatal moment qu’il me perçoit le cœur. }
 \livretPers SIDONIE
 \livretVerse#10 { Vous troublez-vous d’une image legere }

@@ -19,7 +19,7 @@
 %# Qui regne dans vostre ame.
 \livretPers PHENICE & SIDONIE ensemble
 %# Quel sort a plus d'appas
-%# Et qui peut estre heureux si vous ne l'estes pas?
+%# Et qui peut estre *heureux si vous ne l'estes pas?
 \livretPers PHENICE
 %# Si la guerre aujourd'huy fait craindre ses ravages,
 %# C'est aux bords du Jourdain qu'ils doivent s'arrester,
@@ -72,7 +72,7 @@
 %# Je suis tombée =aux pieds de ce cru=el vainqueur;
 %# Rien ne fléchissoit sa rigueur,
 %# Et par un charme inconcevable
-%# Je me sentois contrainte à la trouver aimable
+%# Je me sentois contrainte à le trouver aimable
 %# Dans le fatal moment qu'il me perçoit le cœur.
 \livretPers SIDONIE
 %# Vous troublez-vous d'une image legere
