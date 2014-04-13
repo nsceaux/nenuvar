@@ -106,12 +106,8 @@ do2
     \clef "alto" do''4 |
     la'4 la'8 si'8 do''8 la'8 |
     re''2 \footnoteHere #'(0 . 0) \markup\wordwrap {
-      Source : \score {
-        { \tinyQuote \clef "alto" \time 3/4
-          re''2 si'4 | }
-        \layout { \quoteLayout }
-      }
-      le \italic si est manuellement corrigé en \italic sol.
+      Source : la noire imprimée est un \italic si, manuellement
+      corrigée en \italic sol.
     } sol'4 |
     fad'4 fad'4 sol'4 |
     re''2 \clef "basse"

@@ -7,6 +7,7 @@
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
 %% 0-2
+%\newBookPart #'(full-rehearsal)
 \sceneDescription\markup\center-column {
   \line { \smallCaps { La Gloire. } Suitte de la Gloire. }
   \line { \smallCaps { La Sagesse. } Suitte de la Sagesse. }
@@ -39,6 +40,7 @@
 \pieceTocTitle "Gavotte"
 \includeScore "AAFgavotte"
 %% 0-7
+\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   \smallCaps { La Gloire, la Sagesse, chœurs : }
   \italic { Suivons nostre Heros, que rien ne nous separe }
@@ -55,7 +57,6 @@
 \pieceTocTitle "Menuet"
 \includeScore "AAJmenuet"
 %% 0-11
-\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   \smallCaps Chœurs : \italic { Que dans le Temple de Memoire }
 }

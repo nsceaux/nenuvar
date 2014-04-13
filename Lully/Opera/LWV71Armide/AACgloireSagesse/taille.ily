@@ -52,8 +52,8 @@ R2.*3 |
 r4 r do'4 |
 do'4 do'4 do'4 |
 si2 \footnoteHereFull #'(0 . 0) \markup\wordwrap {
-  Source : \raise #-4 \score {
-    <<
+  Source : \raise #-3 \score {
+    \new StaffGroup <<
       \new Staff \with { instrumentName = "taille" } {
         \tinyQuote \clef "mezzosoprano" \time 3/4
         si2 do'4 | re'4 si4. do'8 | do'2. | \bar "|."
@@ -66,8 +66,8 @@ si2 \footnoteHereFull #'(0 . 0) \markup\wordwrap {
     \layout { \quoteLayout }
   }
   raturé et corrigé manuellement ainsi :
-  \raise #-4 \score {
-    <<
+  \raise #-3 \score {
+    \new StaffGroup <<
       \new Staff {
         \tinyQuote \clef "mezzosoprano" \time 3/4
         si2 la4 | si4 si4. do'8 | do'2. | \bar "|."

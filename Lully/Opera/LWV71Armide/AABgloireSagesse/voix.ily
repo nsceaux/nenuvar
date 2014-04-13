@@ -88,19 +88,14 @@
   }
   %% Suite de la Sagesse
   \tag #'sagesse-silence {
-    s2.*53 | s2
-    r4 | R2.*3 | r4 r
-    s4 | s2.*3 | s2
-    r4 | R2.*7 | r4 r
-    s4 | s2.*6 | s2
-    r4 | R2.*15 | r4 r
-    s4 | s2.*3 | s2
-    r4 | R2.*4
+    R2.*49 | r4 r s | s2.*3 | s2 r4 | R2.*3 | r4 r s4 | s2.*3 | s2 r4 |
+    R2.*7 | r4 r s4 | s2.*6 | s2 r4 | R2.*15 | r4 r s4 | s2.*3 |
+    s2 r4 | R2.*4
   }
   \tag #'sagesse-dessus {
-    \clef "vdessus" R2.*49 |
-    r4 r re''4^\markup\character "Suitte de la Sagesse" |
-    sol''2 sol''4 |
+    \clef "vdessus" s2.*49 |
+    s2 re''4^\markup\character "Suitte de la Sagesse" |
+    \noBreak sol''2 sol''4 |
     do''4 do''4 re''4 |
     mi''4 mi''4 fa''4 |
     re''2\tr s4 |
@@ -128,8 +123,8 @@
     s2.*4 |
   }
   \tag #'sagesse-bas-dessus {
-    \clef "vbas-dessus" R2.*49 |
-    \clef "vbas-dessus" r4 r si'4 |
+    \clef "vbas-dessus" s2.*49 |
+    \clef "vbas-dessus" s2 si'4 |
     mi''2 mi''4 |
     la'4 la'4 si'4 |
     do''4 do''4 re''4 |
@@ -143,15 +138,8 @@
     s2.*7 |
     s2 \clef "vbas-dessus" si'4 |
     si'4 \footnoteHere #'(0 . 0) \markup\wordwrap {
-      Source : \score {
-        <<
-          { \tinyQuote \clef "soprano" \time 3/4 \partial 4
-            si'4 | si'4  do''4 do''4 | }
-          \addlyrics { Chan -- tons la dou- }
-        >>
-        \layout { \quoteLayout }
-      }
-      le premier \italic do est manuellement corrigé en \italic si.
+      Source : au bas-dessus, la deuxième noire imprimée est
+      un \italic do, corrigé de façon manuscrite en \italic si.
     } si'4 do''4 |
     re''4 re''4 do''4 |
     si'2\tr si'4 |
@@ -168,8 +156,8 @@
     s2.*4 |
   }
   \tag #'sagesse-haute-contre {
-    \clef "vhaute-contre" R2.*49 |
-    \clef "vhaute-contre" r4 r sol'4 |
+    \clef "vhaute-contre" s2.*49 |
+    \clef "vhaute-contre" s2 sol'4 |
     mi'2 mi'4 |
     fa'4 fa'4 re'4 |
     la'4 la'4 fa'4 |
@@ -187,21 +175,9 @@
     sol'2 mi'4 |
     la'2 fa'4 |
     \footnoteHere #'(0 . 0) \markup\wordwrap {
-      Source : \score {
-        <<
-          { \tinyQuote \clef "alto" \time 3/4
-            fa' fa' sol' | mi' fa' fa' | do'2
-          } \addlyrics { -tons la dou -- ceur de ses loix. }
-        >>
-        \layout { \quoteLayout }
-      } corrigé manuellement en : \score {
-        <<
-          { \tinyQuote \clef "alto" \time 3/4
-            sol'4 sol'4 la'4 | fa'4 sol'4 sol'4 | do'2
-          } \addlyrics { -tons la dou -- ceur de ses loix. }
-        >>
-        \layout { \quoteLayout }
-      }
+      Source : mesures 75 et 76, les six noires imprimées
+      sont notées une seconde plus bas, et corrigées manuellement
+      pour correspondre à la basse continue.
     }
     sol'4 sol'4 la'4 |
     fa'4 sol'4 sol'4 |
@@ -230,7 +206,7 @@
     \clef "vdessus" R2.*49 |
     s2.*4
     s2 \clef "vdessus" re''4^\markup\character "Suitte de la Gloire" |
-    sol''2 sol''4 |
+    \noBreak sol''2 sol''4 |
     do''4 do''4 re''4 |
     mi''4 re''4.\tr do''8 |
     do''2 s4 |
@@ -283,14 +259,8 @@
     s2 \clef "vhaute-contre" sol'4 |
     la'2 la'4 |
     \footnoteHere #'(0 . 0) \markup\wordwrap {
-      Source : \score {
-        <<
-          { \tinyQuote \clef "alto" \time 3/4
-            sol'4. si'8 fad'4 |
-          } \addlyrics { -tons ses glo- }
-        >>
-        \layout { \quoteLayout }
-      }
+      Source : la noire pointée imprimée est un \italic sol
+      corrigé manuellement en \italic la.
     }
     la'4. si'8 fad'4 |
     sol'4 fad'4. sol'8 |
@@ -376,6 +346,6 @@
     do2. |
   }
   \tag #'sagesse-gloire-silence {
-    s2.*84 | s2 r4 | R2.*7 | r4 r
+    R2.*49 | r4 r s | s2.*34 | s2 r4 | R2.*7 | r4 r
   }
 >>

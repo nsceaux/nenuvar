@@ -115,9 +115,11 @@
       >>
       %% Gloire & Sagesse
       \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s2.*8\break s2. \noHaraKiri s2.*72 \revertNoHaraKiri }
         \global \keepWithTag #'gloire \includeNotes "voix"
       >> \keepWithTag #'gloire \includeLyrics "paroles"
       \new Staff \with { \haraKiriFirst } \withLyrics <<
+        { s2.*9 \noHaraKiri s2.*72 \revertNoHaraKiri }
         \global \keepWithTag #'sagesse \includeNotes "voix"
       >> \keepWithTag #'sagesse \includeLyrics "paroles"
       \new Staff <<

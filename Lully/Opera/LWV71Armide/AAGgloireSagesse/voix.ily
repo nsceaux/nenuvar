@@ -39,7 +39,7 @@
     do''2. |
     <<
       \tag #'basse { s2.*25 s2 \sagesseMark }
-      \tag #'sagesse { R2.*25 | r4 r <>^\markup\character "La Sagesse" }
+      \tag #'sagesse { R2.*25 | r4 r }
     >> mi''4 |
     re''2\tr re''4 |
     do''4 do''4 re''4 |
@@ -61,7 +61,8 @@
     <<
       \tag #'basse { s2.*44 \gloireMark }
       \tag #'gloire {
-        \clef "vbas-dessus" R2.*44 <>^\markup\character "La Gloire"
+        \clef "vbas-dessus" R2.*8
+        <>^\markup\character "La Gloire" R2.*36
       }
     >>
     r4 sol'4 sol'4 |

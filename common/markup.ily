@@ -466,7 +466,11 @@ quoteLayout = \layout {
   ragged-right = ##t
   \context { \Staff \remove "Time_signature_engraver" }
   \context { \Voice \override Script #'avoid-slur = #'outside }
-  \context { \Score \override BarNumber.break-visibility = #'#(#f #f #t) }
+  \context {
+    \Score
+    \override StaffGrouper.staff-staff-spacing.basic-distance = #1
+    \override BarNumber.break-visibility = #'#(#f #f #t)
+  }
 }
 
 tinyLayout = \layout {
