@@ -36,7 +36,7 @@
 }
 \includeScore "BCBhidraot"
 %% 1-5
-\pieceTocTitle "Rondeau"
+\pieceTocTitle "[Sarabande]"
 \includeScore "BCCrondeau"
 %% 1-6
 \newBookPart #'(full-rehearsal)
@@ -46,11 +46,10 @@
 }
 \includeScore "BCDphenice"
 %% 1-7
-\markup \title \fill-line {
-  \line { On reprend le rondeau page \page-refII #'BCCrondeau . }
-}
+\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Sarabande"
 \includeScore "BCEsarabande"
+%% 1-8
 \pieceToc \markup {
   Sidonie, chœur :
   \italic { Que la douceur d'un triomphe est extrême. } }
