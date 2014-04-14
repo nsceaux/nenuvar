@@ -203,23 +203,23 @@
 \livretVerse#10 { Je voy de prés la Mort qui me menace, }
 \livretVerse#8 { Et bientost l’age qui me glace }
 \livretVerse#10 { Va m’accabler sous son pesent fardeau. }
-\livretVerse#8 { C’est le dernier bien ou j’aspire, }
-\livretVerse#13 { Que de voir vostre Himen prometre à cét Empire, }
+\livretVerse#8 { C’est le dernier bien ou j’aspire }
+\livretVerse#12 { Que de voir vostre Himen prometre à cét Empire, }
 \livretVerse#8 { Des Roys formez d’un sang si beau. }
 \livretVerse#12 { Sans me plaindre du sort je cesseray de vivre }
 \livretVerse#8 { Si ce doux espoir peut me suivre }
 \livretVerse#8 { Dans l’affreuse nuit du Tombeau. }
 \livretPers ARMIDE
 \livretVerse#8 { La chaîne de l’Hymen m’estonne, }
-\livretVerse#8 { Je crains ses plus aimables nœuds. }
-\livretVerse#8 { Ah qu’un cœur devient mal’heureux }
+\livretVerse#8 { Je crains ses plus aimables nœuds : }
+\livretVerse#8 { Ah ! qu’un cœur devient mal’heureux }
 \livretVerse#8 { Quand la liberté l’abandonne. }
 \livretPers HIDRAOT
 \livretVerse#12 { Pour vous, quand il vous plaist, tout l’Enfer est armé : }
 \livretVerse#12 { Vous estes plus sçavante en mon art que moy-mesme, }
 \livretVerse#12 { Des grands Roys à vos pieds mettent leur Diadême ; }
 \livretVerse#12 { Qui vous void un moment, est pour jamais charmé ; }
-\livretVerse#12 { Pouvez-vous mieux gouster vostre plaisir extrême }
+\livretVerse#12 { Pouvez-vous mieux gouster vostre bonheur extrême }
 \livretVerse#8 { Qu’avec un Espoux qui vous ayme, }
 \livretVerse#8 { Et qui soit digne d’estre aymé ? }
 \livretPers ARMIDE

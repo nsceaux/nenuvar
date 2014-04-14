@@ -1,11 +1,11 @@
-do2 do'4 sol4 |
+\clef "basse" do2 do'4 sol4 |
 la2 la4 mi4 |
 fa2 fa4 re4 |
 sol4 do4 sol,2 |
 do1 ~|
 do1 ~|
 do2 si,2 |
-do2 ( sib,4 )|
+do2 sib,4 |
 la,2 mi,2 |
 fa,2 fa2 |
 mi2 re2 ~|
@@ -14,6 +14,9 @@ la,2. ~|
 la,2 re2 ~|
 re4. si,8 mi8 do8 re8 re,8 |
 sol,2. ~ sol,16 sol,16 fa,16 mi,16 |
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : un \italic si est imprimé, corrigé en \italic ré.
+}
 re,4 re4 ~ re2 |
 do2. |
 fa4 re4 mi4 |
@@ -38,7 +41,7 @@ sol,4. sol8 do'8 si8 |
 sol4 mi4 la4 |
 re8 mi8 fa8 sol8 la8 fa8 |
 sib8 do'8 sib8 la8 sol4 |
-la4 ( sol2 )|
+la4 sol2 |
 fa4 mi4 re4 |
 la8 sib8 la8 sol8 fa8 mi8 |
 re2 re4 |
@@ -77,9 +80,12 @@ mi2 mi4 |
 la,2 la8 la8 |
 si4 si4 si4 |
 do'4 sib4 la4 |
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : un \italic fa est imprimé, corrigé en \italic sol.
+}
 sol4 fa4 mi4 |
 fa2 re4 |
-la4 ( sol4 ) fa4 |
+la4 sol4 fa4 |
 mi4 re4 do4 |
 sol2 sol4 |
 mi4 mi4 fa4 |
@@ -130,7 +136,7 @@ la8 sib8 la8 sol8 fa8 fa8 mi8 re8 |
 la4 la,4 re4 re8 mi8 |
 fa4. re8 la4 la,8 si,8 |
 do4. do8 re8 mi8 fa8 re8 |
-mi4 ( re8 ) do8 si,4. la,8 |
+mi4 re8 do8 si,4. la,8 |
 mi4 mi,4 la,4 mi4 |
 la4 la8 si8 do'4. do'8 si8 la8 sol8 fa8 mi4 do4 |
 re4 mi4 fa4. sol8 |

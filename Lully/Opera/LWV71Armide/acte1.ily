@@ -9,13 +9,16 @@
 \includeScore "BAAarmidePheniceSidonie"
 
 \newBookPart #'(full-rehearsal)
-\scene "Scène II"
+\scene "Scene II" "Scene II"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Hidraot, suite d'Hidraot,
   \smallCaps Armide, \smallCaps Phenice,
   \smallCaps Sidonie.
 }
-\pieceToc \markup { Armide, Hidraot }
+\pieceToc\markup\wordwrap {
+  \smallCaps { Armide, Hidraot : }
+  \italic { Armide, que le sang qui m'unit avec vous }
+}
 \includeScore "BBAarmideHidraot"
 
 \scene "Scène III"

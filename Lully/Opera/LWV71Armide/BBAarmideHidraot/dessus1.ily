@@ -1,4 +1,4 @@
-R1*5 |
+\clef "dessus" R1*5 |
 R1*2 |
 R2. |
 R1*4 |
@@ -12,14 +12,14 @@ R2.*7 |
 R2. |
 R2. |
 R2.*11 |
-r2^"Violons" mi''8 fa''8 |
+r4 r <>^"Violons" mi''8 fa''8 |
 sol''4. sol''8 sol''8 sol''8 |
 do''4 do''4 fa''4 |
 fa''4 fa''4 mi''4 |
-re''2 re''4 |
+re''2\tr re''4 |
 sol''4. sol''8 sol''8 sol''8 |
 mi''4 mi''4 la''4 |
-re''4. re''8 mi''8 fa''8 |
+re''4.\tr re''8 mi''8 fa''8 |
 mi''2 sol''8 sol''8 |
 sol''4 fad''4 sol''4 |
 la''4 la''4 la''4 |
@@ -34,25 +34,25 @@ mi''4 mi''4 fad''4 |
 sol''4 la''4. si''8 |
 sold''2 si'4 |
 do''4 re''4 mi''4 |
-re''4 re''4 do''4 |
-si'2 si'4 |
+re''4\tr re''4 do''4 |
+si'2\tr si'4 |
 mi''4 fa''4 sol''4 |
 do''2 fa''4 |
 si'8 la'8 si'8 do''8 re''8 si'8 |
-do''4 mi''4 la''4 |
-la''4 sol''4. sol''8 |
+do''2 mi''8 la'' |
+la''4 sol''4.\tr sol''8 |
 sol''4 sol''4 la''4 |
 sib''4 la''4 sib''4 |
 la''4 la''8 sol''8 fa''4 |
 mi''4 mi''4 fa''4 |
 sol''4 fa''4 mi''4 |
-re''2 re''4 |
+re''2\tr re''4 |
 sol''4 mi''4 do''4 |
 fa''2 mi''4 |
-re''4 re''4. do''8 |
+re''4 re''4.\tr do''8 |
 do''1 |
 R1*18 |
-r2. r4 sol''4 mi''4 |
+r2*3/2 r4 sol''4 mi''4 |
 mi''4 mi''8 fa''8 sol''4 do''4 do''4 re''4 |
 mi''4 mi''4 fa''4 sol''4 sol''4 la''4 |
 fad''4 si''4 fad''4 sol''4 fad''4. sol''8 |
@@ -60,10 +60,10 @@ sol''2. r4 sol''4 mi''4 |
 sol''4. re''8 re''8 re''8 sol''4. fa''8 mi''8 re''8 |
 do''4 do''4 re''4 mi''4 re''4 do''4 |
 si'2 mi''8 mi''8 mi''4 mi''4 re''4 |
-do''2 do''4 si'4 si'4. la'8 |
+do''2 do''4 si'4 si'4.\tr la'8 |
 la'4. mi''8 mi''8 fa''8 sol''4. fa''8 mi''8 re''8 |
 do''4 do''4 re''4 mi''4 fa''4 mi''4 |
-re''4 sol''4 sol''4 sol''4 fa''4. fa''8 |
-fa''2 mi''4 re''4 re''4. do''8 |
+re''4\tr sol''4 sol''4 sol''4 fa''4.\tr fa''8 |
+fa''2 mi''4 re''4 re''4.\tr do''8 |
 do''2 r2 |
 R1*19 |

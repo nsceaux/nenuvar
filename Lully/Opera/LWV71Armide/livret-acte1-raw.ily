@@ -98,23 +98,23 @@
 %# Je voy de prés la Mort qui me menace,
 %# Et bientost l'age qui me glace
 %# Va m'accabler sous son pesent fardeau.
-%# C'est le dernier bien ou j'aspire,
-%# Que de voir vostre Himen prometre à cét Empire,
+%# C'est le dernier bien ou j'aspire
+%# Que de voir vostre *Himen prometre à cét Empire,
 %# Des Roys formez d'un sang si beau.
 %# Sans me plaindre du sort je cesseray de vivre
 %# Si ce doux espoir peut me suivre
 %# Dans l'affreuse nuit du Tombeau.
 \livretPers ARMIDE
-%# La chaîne de l'Hymen m'estonne,
-%# Je crains ses plus aimables nœuds.
-%# Ah qu'un cœur devient mal'heureux
+%# La chaîne de l'*Hymen m'estonne,
+%# Je crains ses plus aimables nœuds:
+%# Ah! qu'un cœur devient mal'heureux
 %# Quand la liberté l'abandonne.
 \livretPers HIDRAOT
 %# Pour vous, quand il vous plaist, tout l'Enfer est armé:
 %# Vous estes plus sçavante en mon art que moy-mesme,
 %# Des grands Roys à vos pieds mettent leur Di=adême;
 %# Qui vous void un moment, est pour jamais charmé;
-%# Pouvez-vous mieux gouster vostre plaisir extrême
+%# Pouvez-vous mieux gouster vostre bonheur extrême
 %# Qu'avec un Espoux qui vous ayme,
 %# Et qui soit digne d'estre aymé?
 \livretPers ARMIDE
