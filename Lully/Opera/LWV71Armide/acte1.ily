@@ -50,24 +50,25 @@
 \pieceTocTitle "Sarabande"
 \includeScore "BCEsarabande"
 %% 1-8
+\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   \smallCaps { Sidonie, chœur : }
   \italic { Que la douceur d’un triomphe est extréme }
 }
 \includeScore "BCFsidonie"
 
-\markup \title \fill-line {
-  \line { On reprend la sarabande page \page-refII #'BCEsarabande . }
-}
-
-\scene "Scène IV"
+%% 1-9
+\newBookPart #'(full-rehearsal)
+\scene "Scene IV" "Scene IV"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Aronte, et les acteurs de la scène précédente.
 }
 \pieceToc \markup { Aronte, Armide, Hidraot }
 \includeScore "BDAarmideHidraotAronte"
+%% 1-10
 \pieceToc \markup { Armide, Hidraot, chœur : \italic { Poursuivons jusqu'au trépas. } }
 \includeScore "BDBarmideHidraot"
+%% 1-11
 \pieceTocTitle "Entr'acte"
 \reIncludeScore "BCAritournelle" "BDCentracte"
 \actEnd \markup { FIN DU PREMIER ACTE }

@@ -190,7 +190,7 @@
 \livretRef #'BCFsidonie
 \livretPers SIDONIE & le Chœur
 %# Que la douceur d'un tri=omphe est extréme
-%# Quand on n'en doit tout l'honneur qu'à soy-mesme.
+%# Quand on n'en doit tout l'*honneur qu'à soy-mesme.
 \livretPers SIDONIE
 %# Nous n'avons point fait armer nos soldats:
 %# Sans leur secours Armide est tri=omphante.
@@ -198,7 +198,7 @@
 %# Rien n'est si fort que sa beauté charmante.
 \livretPers Le Chœur
 %# Que la douceur d'un tri=omphe est extréme
-%# Quand on n'en doit tout l'honneur qu'à soy-mesme.
+%# Quand on n'en doit tout l'*honneur qu'à soy-mesme.
 \livretPers SIDONIE
 %# La belle Armide a sceu vaincre aisément
 %# De fiers Guerriers plus craints que le Tonnerre,
@@ -206,7 +206,7 @@
 %# Donné des Loix aux Vainqueurs de la Terre.
 \livretPers Le Chœur
 %# Que la douceur d'un tri=omphe est extréme
-%# Quand on n'en doit tout l'honneur qu'à soy-mesme.
+%# Quand on n'en doit tout l'*honneur qu'à soy-mesme.
 \null
 \livretDidasP\justify {
   Le triomphe d’Armide est interrompu par l'arrivée d’Aronte,
