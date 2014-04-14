@@ -28,17 +28,17 @@
 \scene "Scene III" "Scene III"
 \pieceToc\markup [Entrée]
 \includeScore "BCAritournelle"
-
 %% 1-4
 \newBookPart #'(full-rehearsal)
-\pieceToc \markup { 
-  Hidraot, chœur :
-  \italic { Armide est encor plus aimable Qu'elle n'est redoutable. }
+\pieceToc\markup\wordwrap { 
+  \smallCaps { Hidraot, chœur : }
+  \italic { Armide est encor plus aymable }
 }
-
 \includeScore "BCBhidraot"
+%% 1-5
 \pieceTocTitle "Rondeau"
 \includeScore "BCCrondeau"
+%% 1-6
 \pieceToc \markup {
   Phénice, chœur :
   \italic { Suivons Armide, et chantons sa victoire. } }

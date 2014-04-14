@@ -9,12 +9,14 @@
       >>
     >>
     \new Staff \withLyrics <<
+      \characterName "Armide"
       \global \keepWithTag #'armide \includeNotes "voix"
     >> \keepWithTag #'armide \includeLyrics "paroles"
     \new Staff \withLyrics <<
+      \characterName "Hidraot"
       \global \keepWithTag #'hidraot \includeNotes "voix"
     >> \keepWithTag #'hidraot \includeLyrics "paroles"
-    \new Staff <<
+    \new Staff \with { instrumentName = "[B.C.]" } <<
       \global \includeNotes "basse"
       \includeFigures "chiffres"
       \origLayout {
@@ -30,6 +32,6 @@
       }
     >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
   \midi { }
 }

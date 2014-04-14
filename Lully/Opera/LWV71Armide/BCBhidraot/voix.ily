@@ -1,4 +1,4 @@
-sol4 |
+\clef "vbasse" sol4 |
 do'4 do'4 mi4 |
 fa4 fa4 re4 |
 la4 la4 la8 mi8 |
@@ -14,7 +14,7 @@ do4 re4 re4 |
 sol,2. |
 sol4 sol4 mi4 |
 fa8[ mi8 fa8 sol8 la8 si8]( |
-do'4. ) mi8 re8 do8 |
+do'4.) mi8 re8\tr do8 |
 sol2 do'4 |
 la4. la8 la8 mi8 |
 fa4 mi4 re4 |
@@ -37,6 +37,9 @@ sol,2 sol4 |
 do'4 do'4 mi4 |
 fa4 fa4 re4 |
 la4 la4 la8 mi8 |
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : un \italic ré est imprimé, corrigé en \italic fa.
+}
 fa4 re4 sol4 |
 do2 do4 |
 sol4 sol4 mi4 |
@@ -49,7 +52,7 @@ do4 re4 re4 |
 sol,2. |
 sol4 sol4 mi4 |
 fa8[ mi8 fa8 sol8 la8 si8]( |
-do'4. ) mi8 re8 do8 |
+do'4.) mi8 re8\tr do8 |
 sol2 do'4 |
 la4. la8 la8 mi8 |
 fa4 mi4 re4 |

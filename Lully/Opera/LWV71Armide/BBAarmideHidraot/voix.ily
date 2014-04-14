@@ -6,7 +6,7 @@
         s1*7 s2. s1*4 s2. s1*4 s2.*2 s1 s2.*3 s1*6 s2 \armideMark
       }
       \tag #'armide {
-        \armideMark R1*7 R2. R1*4 R2. R1*4 R2.*2 R1 R2.*3 R1*6
+        \clef "vbas-dessus" R1*7 R2. R1*4 R2. R1*4 R2.*2 R1 R2.*3 R1*6
         r4 r
       }
     >> r8 sol'8 |
@@ -77,7 +77,7 @@
   }
   %% Hidraot
   \tag #'(hidraot basse) {
-    \hidraotMark
+    \clef "vbasse"
     R1*4 |
     r2 r4 do'4 |
     sol4 sol4 r4 sol8 do'8 |

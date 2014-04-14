@@ -457,8 +457,8 @@ startQuote =
       \set Score.currentBarNumber = #bar-num #})
 
 tinyQuote = {
-  \override Score.StaffSymbol #'staff-space = #(magstep -2)
-  \set Score . fontSize = #-2
+  \override Score.StaffSymbol #'staff-space = #(magstep -3)
+  \set Score . fontSize = #-3
 }
 
 quoteLayout = \layout {
@@ -486,10 +486,10 @@ tinyQuoteLayout = \layout {
   \quoteLayout
   \context {
     \Score
-    \override StaffSymbol #'staff-space = #(magstep -2)
-    fontSize = #-2
+    \override StaffSymbol #'staff-space = #(magstep -3)
+    fontSize = #-3
   }
-  \context { \FiguredBass \override BassFigure.font-size = #-2 }
+  \context { \FiguredBass \override BassFigure.font-size = #-3 }
 }
 
 quoteEmptyLayout = \layout {

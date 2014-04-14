@@ -1,4 +1,4 @@
-\clef "basse" do2 do'4 sol4 |
+\clef "basse" <>^"PRELUDE" do2 do'4 sol4 |
 la2 la4 mi4 |
 fa2 fa4 re4 |
 sol4 do4 sol,2 |
