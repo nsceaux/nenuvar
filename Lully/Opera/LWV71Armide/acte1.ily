@@ -39,10 +39,13 @@
 \pieceTocTitle "Rondeau"
 \includeScore "BCCrondeau"
 %% 1-6
-\pieceToc \markup {
-  Phénice, chœur :
-  \italic { Suivons Armide, et chantons sa victoire. } }
+\newBookPart #'(full-rehearsal)
+\pieceToc\markup\wordwrap {
+  \smallCaps { Phenice, chœur : }
+  \italic { Suivons Armide, & chantons sa Victoire }
+}
 \includeScore "BCDphenice"
+%% 1-7
 \markup \title \fill-line {
   \line { On reprend le rondeau page \page-refII #'BCCrondeau . }
 }
