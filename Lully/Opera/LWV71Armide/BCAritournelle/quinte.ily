@@ -1,12 +1,12 @@
-sol2 sol4 do'4 |
+\clef "quinte" sol2 sol4 do'4 |
 re'4 re'8 si8 do'2 |
 do'4 do'8 do'8 do'4. re'8 |
 si4 si4 do'4 do'4 |
 do'4 la4 la4 re'4 |
 do'4 la4 la4 sol4 |
 sol4 la4 la4 re'4 |
-re'4. do'8 si4 si4 |
-re'4. do'8 si4 si4 |
+re'4.\tr do'8 si4 si4 |
+re'4.\tr do'8 si4 si4 |
 si4 si4 si4 la4 |
 la4 re'4 re'4 re'4 |
 do'4 do'4 do'4 si4 |
@@ -19,6 +19,6 @@ re'4 re'4 do'4 do'4 |
 si4 si8 la8 sol4 do'4 |
 do'4. do'8 re'4 re'8 la8 |
 si4 si4 do'4 re'4 |
-re'4 do'4 si4. do'8 |
+re'4 do'4 si4.\tr do'8 |
 do'1 |
 do'1 |

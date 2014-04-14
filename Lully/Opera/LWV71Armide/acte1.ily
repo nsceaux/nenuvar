@@ -1,4 +1,5 @@
 \newBookPart #'()
+%% 1-1
 \act "Acte Premier"
 \scene "Scene Premiere" "Scene I"
 \sceneDescription\markup\smallCaps { Armide, Phenice, Sidonie. }
@@ -8,6 +9,7 @@
 }
 \includeScore "BAAarmidePheniceSidonie"
 
+%% 1-2
 \newBookPart #'(full-rehearsal)
 \scene "Scene II" "Scene II"
 \sceneDescription \markup \wordwrap-center {
@@ -21,12 +23,19 @@
 }
 \includeScore "BBAarmideHidraot"
 
-\scene "Scène III"
-\pieceToc \markup Ritournelle
+%% 1-3
+\newBookPart #'(full-rehearsal)
+\scene "Scene III" "Scene III"
+\pieceToc\markup [Entrée]
 \includeScore "BCAritournelle"
+
+%% 1-4
+\newBookPart #'(full-rehearsal)
 \pieceToc \markup { 
   Hidraot, chœur :
-  \italic { Armide est encor plus aimable Qu'elle n'est redoutable. } }
+  \italic { Armide est encor plus aimable Qu'elle n'est redoutable. }
+}
+
 \includeScore "BCBhidraot"
 \pieceTocTitle "Rondeau"
 \includeScore "BCCrondeau"
