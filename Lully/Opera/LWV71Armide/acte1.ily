@@ -75,6 +75,7 @@
 }
 \includeScore "BDBarmideHidraot"
 %% 1-11
+\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entr'acte"
 \reIncludeScore "BCAritournelle" "BDCentracte"
 \actEnd\markup { FIN DU PREMIER ACTE }
