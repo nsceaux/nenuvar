@@ -1,4 +1,4 @@
-R1*16 |
+\clef "taille" R1*16 |
 r4 mi'8 re'8 do'4 do'8 do'8 |
 do'8 do'8 fa'8 mi'8 re'4 re'8 mi'8 |
 do'8 mi'8 mi'8 fa'8 sol'4 sol'8 sol'8 |
@@ -15,4 +15,4 @@ re'8 sol8 si8 do'8 re'4 re'8 sol'8 |
 fa'8 re'8 re'8 re'8 mi'4 mi'8 mi'8 |
 fa'8 fa'8 sol'4 sol'8 sol'8 sol'8 sol'8 |
 fa'4 fa'8 fa'8 fa'8 mi'16 fa'16 sol'8. sol'16 |
-mi'1 |
+mi'1\tr |

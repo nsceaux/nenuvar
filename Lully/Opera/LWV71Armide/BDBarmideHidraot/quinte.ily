@@ -1,4 +1,4 @@
-R1*16 |
+\clef "quinte" R1*16 |
 r4 do'8 si8 la4 do'8 do'8 |
 la8 la8 fa8 sol8 sol4 si8 si8 |
 la8 do'8 do'8 fa'8 mi'4 mi'8 re'8 |

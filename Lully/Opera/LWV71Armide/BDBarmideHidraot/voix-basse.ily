@@ -1,11 +1,14 @@
-R1*16 |
+\clef "vbasse" R1*16 |
 r4 do'8 sol8 la4 la8 mi8 |
 fa8 mi8 re8 do8 sol,4 sol8 mi8 |
 la8 la8 la8 fa8 do'8 do'8 do'8 si8 |
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : le \italic sol imprimé est corrigé en \italic la.
+}
 la8 sol8 re'4 si8 si8 la8 sol8 |
 re4 sol,4 sol8 fa8 mi4 |
 mi8 mi8 fa8 fa8 mi8 re8 do4 |
-do'8 si8 la8 la8 la8 sol8 fa8 fa8 |
+do'8 sib8 la8 la8 la8 sol8 fa8 fa8 |
 fa8 fa8 sib8 sol8 la4 fa8 fa8 |
 mi8 re8 la,4 re4 re'8 re'8 |
 si8 sol8 do'4 do'8 la8 re'8 si8 |
