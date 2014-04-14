@@ -61,14 +61,20 @@
 \newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene IV"
 \sceneDescription \markup \wordwrap-center {
-  \smallCaps Aronte, et les acteurs de la scène précédente.
+  \smallCaps Aronte, & les Acteurs de la Scene precedente.
 }
-\pieceToc \markup { Aronte, Armide, Hidraot }
+\pieceToc\markup\wordwrap {
+  \smallCaps { Aronte, Armide, Hidraot : }
+  \italic { O Ciel ! ô disgrace cruelle }
+}
 \includeScore "BDAarmideHidraotAronte"
 %% 1-10
-\pieceToc \markup { Armide, Hidraot, chœur : \italic { Poursuivons jusqu'au trépas. } }
+\pieceToc\markup\wordwrap {
+  \smallCaps { Armide, Hidraot, chœur : }
+  \italic { Poursuivons jusqu'au trépas }
+}
 \includeScore "BDBarmideHidraot"
 %% 1-11
 \pieceTocTitle "Entr'acte"
 \reIncludeScore "BCAritournelle" "BDCentracte"
-\actEnd \markup { FIN DU PREMIER ACTE }
+\actEnd\markup { FIN DU PREMIER ACTE }
