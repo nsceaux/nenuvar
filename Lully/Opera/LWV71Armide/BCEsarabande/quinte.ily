@@ -1,9 +1,12 @@
-mib'4 re'4 do'4 |
-do'4 fa'4 fa4 |
-sol4 si4 re'4 |
-do'4 fa4 sol4 |
-sol2 sol4 |
-
+\clef "quinte"
+\setMusic #'rondeau {
+  mib'4 re'4 do'4 |
+  do'4 fa'4 fa4 |
+  sol4 si4 re'4 |
+  do'4 fa4 sol4 |
+  sol2 sol4 |
+}
+\keepWithTag #'() \rondeau
 do'4 do'2 |
 sib4 sib4 do'4 |
 do'4 fa'4 mib'4 |
@@ -11,14 +14,8 @@ re'4 mib'4 mib'4 |
 mib'4 fa'4. fa'8 |
 re'4 mib'4 mib'4 |
 mib'4 re'4 sib4 |
-sib4. lab8 sol4 |
-
-mib'4 re'4 do'4 |
-do'4 fa'4 fa4 |
-sol4 si4 re'4 |
-do'4 fa4 sol4 |
-sol2 sol4 |
-
+sib4.\tr lab8 sol4 |
+\modVersion\keepWithTag #'() \rondeau
 do'4 do'4. do'8 |
 fa'4 do'4 sib4 |
 lab8 sib8 do'4. do'8 |
@@ -29,9 +26,4 @@ mib'4 mib'4. mib'8 |
 re'4 re'4 re'4 |
 re'4 do'4 sib8 do'8 |
 re'2 re'4 |
-
-mib'4 re'4 do'4 |
-do'4 fa'4 fa4 |
-sol4 si4 re'4 |
-do'4 fa4 sol4 |
-sol2 sol4 |
+\modVersion\keepWithTag #'() \rondeau

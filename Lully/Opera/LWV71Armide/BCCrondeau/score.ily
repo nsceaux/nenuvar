@@ -8,7 +8,6 @@
       \new Staff <<
         \global \includeNotes "basse"
         \origLayout { s2.*8\break s2.*9\pageBreak s2.*7\break s2.*9\pageBreak }
-        \modVersion { s2.*8\break s2.*16\break s2.*16\break }
       >>
     >>
     \origVersion \new StaffGroupNoBar \group
