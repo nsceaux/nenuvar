@@ -1,4 +1,4 @@
-do1 ~ |
+\clef "basse" do1 ~ |
 do4 do4 la,4 fa,4 |
 sol,4 sol4 mi4 do4 |
 re4. re8 sol4 sol8 fa8 |
@@ -16,7 +16,7 @@ sol,2. |
 do4. la,8 re4. do8 |
 si,1 |
 la,4 re4 re,4 |
-sol,2 sol4 ( fa8 ) mi8 |
+sol,2 sol4 fa8 mi8 |
 re1 |\allowPageTurn
 la4. sol8 fa4. re8 |
 mi4. do8 re8 do8 si,8 la,8 |
@@ -60,7 +60,7 @@ fa,2 sol,2 |
 do4. do'8 si8 sol8 |
 do'8 sol8 mib8 do8 sol8 sol,8 |
 do2 do4 |
-si,8 sol,8 do8 sib,8 lab,8 fa,8 |
+si,8 sol,8 do8 sib,?8 lab,8 fa,8 |
 do2 do8 sib,8 |
 lab,8 sol,8 fa,8 mib,8 sib,8 sib,,8 |
 mib,4 mib8 re8 do4 |
@@ -100,7 +100,7 @@ mib2 si,4 |
 do8 sib,8 la,4. sol,8 |
 re4 sib,2 |
 mib4 do4 re8 re,8 |
-sol,4 sol8 la8 sib8 sol8 |
+sol,4 sol8 la8 si8 sol8 |
 do'4. sib8 lab8 sol8 |
 fa4. sol8 lab4 |
 sol2 la4 |

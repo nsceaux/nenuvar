@@ -9,7 +9,7 @@
 }
 \livretRef #'CAArenaudArtemidore
 \livretPers ARTEMIDORE
-%# Invicible Heros, c'est par vostre courage
+%# Invincible Heros, c'est par vostre courage
 %# Que j'échape aux rigueurs d'un funeste esclavage.
 %# Aprés ce genereux secours,
 %# Puis-je me dispenser du vous suivre toûjours?
@@ -32,7 +32,7 @@
 %# Sans vous, que peut-on entreprendre?
 %# Celuy qui vous bannit ne pourra se deffendre
 %# De souhaiter vostre retour.
-%# S'il faut que je vous quite au moins ne puis-je apprendre
+%# S'il faut que je vous quitte au moins ne puis-je apprendre
 %# En quels lieux vous allez choisir vostre sejour.
 \livretPers RENAUD
 %# Le repos me fait vi=olence.
@@ -55,7 +55,7 @@
 %# Je la vis seulement d'un regard curi=eux.
 %# Est-il plus mal aisé d'éviter sa vengeance
 %# Que d'échaper au pouvoir de ses yeux?
-%# J'aime la liberté, rien ne m'a pû contraindre
+%# J'aime la liberté, rien n'a pû me contraindre
 %# A m'engager jusqu'à ce jour.
 %# Quand on peut mépriser le charme de l'Amour,
 %# Quels enchantemens peut-on craindre?

@@ -1,4 +1,4 @@
-\keys do \major 
+\key do \major 
 \midiTempo #80 \time 4/4 s1*7
 \digitTime\time 3/4 s2.*2
 \midiTempo #160 \digitTime \time 2/2 s1
@@ -19,14 +19,12 @@
 \midiTempo #80 \time 4/4 s1
 \digitTime\time 3/4 s2.*2
 \midiTempo #160 \digitTime \time 2/2 s1*27
-\oldKey sol \minor
-\newKey do \minor
+\key sol \minor
 \midiTempo #80 \digitTime\time 3/4 s2.*14
 \key do \major
 \midiTempo #160 s2.*17
-\oldKey sol \minor
-\newKey do \minor
+\key sol \minor
 s2.*19
 \key do \major
 s2.*18
-\time 2/2 s1 \bar "|."
+\digitTime\time 2/2 s1 \bar "|."

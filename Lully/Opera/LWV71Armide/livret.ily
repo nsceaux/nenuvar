@@ -370,7 +370,7 @@
 }
 \livretRef #'CAArenaudArtemidore
 \livretPers ARTEMIDORE
-\livretVerse#12 { Invicible Heros, c’est par vostre courage }
+\livretVerse#12 { Invincible Heros, c’est par vostre courage }
 \livretVerse#12 { Que j’échape aux rigueurs d’un funeste esclavage. }
 \livretVerse#8 { Aprés ce genereux secours, }
 \livretVerse#12 { Puis-je me dispenser du vous suivre toûjours ? }
@@ -393,7 +393,7 @@
 \livretVerse#8 { Sans vous, que peut-on entreprendre ? }
 \livretVerse#12 { Celuy qui vous bannit ne pourra se deffendre }
 \livretVerse#8 { De souhaiter vostre retour. }
-\livretVerse#12 { S’il faut que je vous quite au moins ne puis-je apprendre }
+\livretVerse#12 { S’il faut que je vous quitte au moins ne puis-je apprendre }
 \livretVerse#12 { En quels lieux vous allez choisir vostre sejour. }
 \livretPers RENAUD
 \livretVerse#8 { Le repos me fait violence. }
@@ -416,7 +416,7 @@
 \livretVerse#12 { Je la vis seulement d’un regard curieux. }
 \livretVerse#12 { Est-il plus mal aisé d’éviter sa vengeance }
 \livretVerse#10 { Que d’échaper au pouvoir de ses yeux ? }
-\livretVerse#12 { J’aime la liberté, rien ne m’a pû contraindre }
+\livretVerse#12 { J’aime la liberté, rien n’a pû me contraindre }
 \livretVerse#8 { A m’engager jusqu’à ce jour. }
 \livretVerse#12 { Quand on peut mépriser le charme de l’Amour, }
 \livretVerse#8 { Quels enchantemens peut-on craindre ? }

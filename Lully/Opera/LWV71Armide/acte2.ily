@@ -1,16 +1,21 @@
 \newBookPart #'()
+%% 2-1
 \act "Acte Second"
-\scene "Scène Première"
-\sceneDescription \markup \column {
-  \fill-line { "Le théâtre change et représente une île agréable." }
-  \fill-line { \line \smallCaps { Artemidore, Renaud. } }
+\scene "Scene Premiere" "Scene I"
+\sceneDescription\markup\column {
+  \fill-line { "Le Theatre change & represente une Isle agreable." }
+  \fill-line { \line\smallCaps { Artemidore, Renaud. } }
 }
-\pieceToc \markup { Artemidore, Renaud }
+\pieceToc\markup\wordwrap {
+  \smallCaps { Artemidore, Renaud : }
+  \italic { Invincible Heros, c’est par vostre courage }
+}
 \includeScore "CAArenaudArtemidore"
-
-\scene "Scène II"
-\sceneDescription \markup \smallCaps { Hidraot, Armide. }
-\pieceToc \markup { Armide, Hidraot : \italic { Esprits de haine et de rage } }
+%% 2-2
+\newBookPart #'(full-rehearsal)
+\scene "Scene II" "Scene II"
+\sceneDescription\markup\smallCaps { Hidraot, Armide. }
+\pieceToc\markup\wordwrap { Armide, Hidraot : \italic { Esprits de haine et de rage } }
 \includeScore "CBAarmideHidraot"
 \includeScore "CBBarmideHidraot"
 
