@@ -35,7 +35,7 @@
 %%% Musique
 \include "Lully/Opera/LWV71Armide/prologue.ily"
 \include "Lully/Opera/LWV71Armide/acte1.ily"
-%\include "Lully/Opera/LWV71Armide/acte2.ily"
+\include "Lully/Opera/LWV71Armide/acte2.ily"
 %\include "Lully/Opera/LWV71Armide/acte3.ily"
 %\include "Lully/Opera/LWV71Armide/acte4.ily"
 %\include "Lully/Opera/LWV71Armide/acte5.ily"
