@@ -71,14 +71,22 @@
 }
 \includeScore "CDFbergere"
 %% 2-10
-\includeScore "CDGchoeur"
-
-\scene "Scène V"
-\sceneDescription \markup {
-  \smallCaps Armide, \smallCaps Renaud endormi.
+\pieceToc\markup\wordwrap {
+  \smallCaps Chœur : \italic { Ah ! quelle erreur ! quelle folie ! }
 }
-\pieceToc \markup { Armide : \italic { Enfin, il est en ma puissance } }
+\includeScore "CDGchoeur"
+%% 2-11
+\newBookPart #'(full-rehearsal)
+\scene "Scene V" "Scene V"
+\sceneDescription\markup {
+  \smallCaps Armide, \smallCaps Renaud endormy.
+}
+\pieceToc\markup\wordwrap {
+  \smallCaps Armide :
+  \italic { Enfin il est en ma puissance }
+}
 \includeScore "CEAarmide"
+%% 2-12
 \pieceTocTitle "Entr'acte"
 \reIncludeScore "AADentree" "CEBentract"
 \actEnd \markup { FIN DU SECOND ACTE }
