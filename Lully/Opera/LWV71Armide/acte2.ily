@@ -42,8 +42,11 @@
 }
 \includeScore "CDAnymphe"
 %% 2-5
-\pieceToc \markup { Chœur : \italic { Ah ! quelle erreur, quelle folie ! } }
+\pieceToc\markup\wordwrap {
+  \smallCaps Chœur : \italic { Ah ! quelle erreur ! quelle folie ! }
+}
 \includeScore "CDBchoeur"
+%% 2-6
 \pieceTocTitle "Premier Air"
 \includeScore "CDCair"
 \pieceTocTitle "Second Air"
