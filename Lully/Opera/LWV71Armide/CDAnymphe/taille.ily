@@ -1,4 +1,4 @@
-sol4 do4 sol4 |
+\clef "taille" sol4 do4 sol4 |
 sol4. sol8 fad8 sol8 |
 la2 fad8 sib8 |
 la2 la4 |

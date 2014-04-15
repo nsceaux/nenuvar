@@ -1,4 +1,4 @@
-sib4 la4 re4 |
+\clef "quinte" sib4 la4 re4 |
 do4. re8 la8 re8 |
 re2 re8 re8 |
 fad2 fad8 la8 |

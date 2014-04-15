@@ -1,4 +1,4 @@
-sol,4 la,4 sib,4 |
+\clef "basse" sol,4 la,4 sib,4 |
 do4. sib,8 la,8 sol,8 |
 re2 re8 sol,8 |
 fad,8. mi,16 re,4 re8 do8 |

@@ -1,18 +1,35 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new Staff << \global \clef "dessus" \includeNotes "dessus" >>
-      \new Staff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \new Staff << \global \clef "taille" \includeNotes "taille" >>
-      \new Staff << \global \clef "quinte" \includeNotes "quinte" >>
+  <<
+    \origVersion\new ChoirStaff <<
+      \new Staff \withLyrics <<
+        \characterName "La Nymphe"
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+        \origLayout { s2.*6\pageBreak s2.*5\break s2.*5\pageBreak }
+      >>
     >>
-    \new Staff \withLyrics <<
-      \characterName \markup "La Nymphe"
-      \global \clef "vdessus" \includeNotes "nymphe"
-    >> \includeLyrics "paroles"
-    \new Staff <<
-      \global \clef "basse" \includeNotes "basse"
-      \includeFigures "chiffres"
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff << \global \includeNotes "dessus" >>
+        \new Staff << \global \includeNotes "haute-contre" >>
+        \new Staff << \global \includeNotes "taille" >>
+        \new Staff << \global \includeNotes "quinte" >>
+      >>
+      \new Staff \withLyrics <<
+        \characterName "La Nymphe"
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
     >>
   >>
   \layout { indent = \largeindent }
