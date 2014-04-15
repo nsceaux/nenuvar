@@ -1,4 +1,4 @@
-sib4 sib4 |
+\clef "haute-contre" sib4 sib4 |
 sib2 sib4 sib4 sib4 sib4 |
 la4 la4 sib4 re'2 re'4 |
 re'2 re'8 sol'8 fa'4 re'4 mib'4 |

@@ -1,4 +1,4 @@
-re4 re4 |
+\clef "quinte" re4 re4 |
 re2 fa4 mib4 sol4 sol4 |
 do'4 la4 sol8 re8 re2 fad8 sib8 |
 sol2 ~ sol8 sol8 re'4 sib4 do'4 |

@@ -53,16 +53,24 @@
 \pieceTocTitle "Second Air"
 \includeScore "CDDair"
 %% 2-8
-\pieceToc \markup {
-  Une bergère héroïque :
-  \italic { On s'étonnerait moins que la saison nouvelle } }
+\newBookPart #'(full-rehearsal)
+\pieceToc\markup\wordwrap {
+  \smallCaps { Une Bergere heroïque : }
+  \italic { On s’estonneroit moins que la saison nouvelle }
+}
 \includeScore "CDEbergere"
-\markup \title \wordwrap-center {
-  On reprend le second air page \page-refIII #'CDDair ,
-  et le premier air page \page-refIII #'CDCair " ;"
-  puis on enchaîne ce qui suit sur la finale de l'air.
+\markup\italic\wordwrap {
+  On reprend le second Air en bé mol page \page-refII #'CDDair .
+  & aprés le premier en bé quarre [page \page-refIII #'CDCair ] ;
+  puis la Bergere chante ce qui suit sur la finale de l’air.
+}
+%% 2-9
+\pieceToc\markup\wordwrap {
+  \smallCaps { La Bergere : }
+  \italic { Laissons au tendre amour la Jeunesse en partage }
 }
 \includeScore "CDFbergere"
+%% 2-10
 \includeScore "CDGchoeur"
 
 \scene "Scène V"

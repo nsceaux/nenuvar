@@ -1,18 +1,37 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new Staff << \global \clef "dessus" \includeNotes "dessus" >>
-      \new Staff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \new Staff << \global \clef "taille" \includeNotes "taille" >>
-      \new Staff << \global \clef "quinte" \includeNotes "quinte" >>
+  <<
+    \origVersion\new ChoirStaff <<
+      \new Staff \withLyrics <<
+        <>^\markup\character { Une Bergere heroïque }
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+        \origLayout { s2 s1.*3\pageBreak s1.*4\break s1.*4\pageBreak }
+      >>
     >>
-    \new Staff \withLyrics <<
-      \characterName \markup \center-column \character { "Une Bergère" Héroïque }
-      \global \clef "vdessus" \includeNotes "bergere"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff << \global \includeNotes "dessus" >>
+        \new Staff << \global \includeNotes "haute-contre" >>
+        \new Staff << \global \includeNotes "taille" >>
+        \new Staff << \global \includeNotes "quinte" >>
+      >>
+      \new Staff \withLyrics <<
+        <>^\markup\character { Une Bergere heroïque }
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
+    >>
   >>
-  \layout { indent = \largeindent }
+  \layout { }
   \midi { }
 }

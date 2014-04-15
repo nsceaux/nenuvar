@@ -1,10 +1,13 @@
-sol,4 sol,4 |
+\clef "basse" sol,4 sol,4 |
 re4. re8 sib,4 mib4 mib4 re4 |
 do4 re4 sol,4 re,2 re4 |
 sol4. sol8 fa8 mib8 re4 re4 do4 |
 sib,4 fa4 fa,4 sib,4 sib4 la4 |
 sol4 sol,4 sol,4 re4 re4 sib,4 |
 mib4 mib4 re4 do4 re4 sol,4 |
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : un \italic fa est imprimé, corrigé en \italic ré.
+}
 re,2 re4 sol4. sol8 fa8 mib8 |
 re4 re4 do4 sib,4 fa4 fa,4 |
 sib,4. sol,8 re4 sol4 mib4 re4 |
