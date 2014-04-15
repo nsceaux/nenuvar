@@ -49,8 +49,10 @@
 %% 2-6
 \pieceTocTitle "Premier Air"
 \includeScore "CDCair"
+%% 2-7
 \pieceTocTitle "Second Air"
 \includeScore "CDDair"
+%% 2-8
 \pieceToc \markup {
   Une bergère héroïque :
   \italic { On s'étonnerait moins que la saison nouvelle } }

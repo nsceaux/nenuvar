@@ -1,4 +1,4 @@
-sol4_"sourdines" la4 si4 si4 |
+\clef "basse" sol4_"sourdines" la4 si4 si4 |
 do'4 la4 re'4 re4 |
 sol4 mi4 re4 do4 |
 si,4 sol,4 do4 la,4 |

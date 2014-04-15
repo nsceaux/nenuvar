@@ -1,11 +1,11 @@
-r2 |
+\clef "quinte" r4 r |
 R1. |
-r2*3/2 r4 sol4 sol4 |
-re'4 la4. la8 sol4 sol2 |
+r2*3/2 r4 <>_\markup\whiteout sourdines sol4 sol4 |
+re'4 la4.\tr la8 sol4 sol2 |
 sol4 sol'4. sol'8 fa'4 do'4. do'8 |
 re'4 re'4. re'8 sib4 mib4 sib4 |
 do'4 re'4 re'4 mib'4 do'4. fa'8 |
-re'2. ~ re'4 r4 r4 |
+re'2.\tr ~ re'4 |
 re'2 sib4 mib'2 sib4 |
 do'2 do'4 do'2 re'4 |
 re'4 sol4 sol4 fa2 fa4 |
@@ -19,4 +19,4 @@ fa'4 fa'8 sol'8 fa'8 mib'8 re'4 mib'8 re'8 do'8 sib8 |
 do'4 la4. la8 sol4. re'8 do'8 si8 |
 do'8 si8 do'8 re'8 mib'4 re'4 re'4. re'8 |
 re'2 re'4 do'4 sib2 |
-re'2. ~ re'4 
+re'2.~ re'4

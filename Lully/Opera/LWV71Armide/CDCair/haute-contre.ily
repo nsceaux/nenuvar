@@ -1,4 +1,4 @@
-re''4_"sourdines" do''4 si'4 si'4 |
+\clef "haute-contre" re''4_"sourdines" do''4 si'4 si'4 |
 sol'4 sol'4 sol'4 fad'4 |
 sol'2 sol'4 la'4 |
 si'4 si'4 do''4 do''4 |
@@ -14,11 +14,11 @@ si'4 si'4 red''4 mi''4 |
 red''2 si'4 fad'4 |
 sol'4 sol'4 la'4 si'4 |
 la'4 sol'4 sol'4 la'4 |
-fad'4 si'4 la'4 fad'4 |
+fad'4 si'4 la'4\tr fad'4 |
 sol'4 sol'4 la'4 si'4 |
 do''4 sol'4 la'4 si'4 |
 fad'4 sol'4 la'4 sol'4 |
-fad'4 fad'4 mi'4 mi'4 |
+fad'4 fad'4 mi'4\tr mi'4 |
 fad'4 si'4 mi'4 mi'4 |
-fad'4 sol'4 fad'4. sol'8 |
+fad'4 sol'4 fad'4.\tr sol'8 |
 sol'1 

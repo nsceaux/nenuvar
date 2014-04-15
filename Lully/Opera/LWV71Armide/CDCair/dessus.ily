@@ -1,4 +1,4 @@
-sol''4_"sourdines" fad''4 sol''4 re''4 |
+\clef "dessus" sol''4_"sourdines" fad''4 sol''4 re''4 |
 mi''4 do''4 la'4 re''4 |
 si'4 sol'4 si'4 do''4 |
 re''4 re''4 mi''4 fad''4 |
@@ -8,7 +8,7 @@ dod''4 la''4 dod''4 mi''4 |
 la'4 la''4 sol''4 fad''4 |
 mi''4 la''4 re''4 sol''4 |
 mi''4 fad''4 sol''4 la''4 |
-fad''1 |
+fad''1\tr |
 re''4 sol''4 mi''4 fad''4 |
 red''4 si''4 la''4 sol''4 |
 fad''4 si''4 red''4 fad''4 |
@@ -17,7 +17,7 @@ fad''4 sol''4 mi''4 fad''4 |
 red''4 mi''4 fad''4 red''4 |
 mi''4 si'4 do''4 re''4 |
 mi''4 re''4 do''4 si'4 |
-la'4 si'4 do''4 si'4 |
+la'4 si'4 do''4 si'4\tr |
 la'4 re''4 sol'4 do''4 |
 la'4 re''4 sol'4 do''4 |
 do''4 si'4 la'4. sol'8 |
