@@ -1,23 +1,25 @@
-R2.*3 |
-
-
-sol8_"sourdines" fa8 sol8 fa8 mib8 re8 |
-mib4 re8 mib8 re8 mib8 |
-do4 fa4 fa,4 |
-sib,8 la,8 sib,8 do8 sib,8 la,8 |
-sol,2 sol4 |
-la8 sol8 la8 sol8 fa8 mi8 |
-fa8 mi8 re8 la,8 sib,8 sol,8 |
-la,2 ~ la,8 la,8 |
-re4 re,2 |
-sol,2 sol,4 |
-do2 do4 |
-re8 do8 re8 do8 sib,8 la,8 |
-sib,4 fad,2 |
-sol,4 sol4 fa4 |
-mib4 si,4 do4 |
-sol,8 fad,8 sol,8 la,8 sib,8 sib,8 |
-do8 sib,8 la,8 sol,8 re,4 |
+\clef "basse" <>_\markup\italic\smaller sourdines
+\setMusic #'prelude {
+  R2.*3 |
+  sol8 fa8 sol8 fa8 mib8 re8 |
+  mib4 re8 mib8 re8 mib8 |
+  do4 fa4 fa,4 |
+  sib,8 la,8 sib,8 do8 sib,8 la,8 |
+  sol,2 sol4 |
+  la8 sol8 la8 sol8 fa8 mi8 |
+  fa8 mi8 re8 la,8 sib,8 sol,8 |
+  la,2 ~ la,8 la,8 |
+  re4 re,2 |
+  sol,2 sol,4 |
+  do2 do4 |
+  re8 do8 re8 do8 sib,8 la,8 |
+  sib,4 fad,2 |
+  sol,4 sol4 fa4 |
+  mib4 si,4 do4 |
+  sol,8 fad,8 sol,8 la,8 sib,8 sib,8 |
+  do8 sib,8 la,8 sol,8 re,4 |
+}
+\keepWithTag #'() \prelude
 sol,8 %{%} fad,8 sol,8 la,8 sib,8 sol,8 |
 fad,8 sol,8 fad,8 mi,8 fad,8 re,8 |
 sol,8 fad,8 sol,8 la,8 sib,8 sol,8 |
@@ -39,6 +41,9 @@ mib8 re8 mib8 do8 si,8 sol,8 |
 do8 sib,8 lab,8 sol,8 fa,8 re,8 |
 sol,8 re8 sol8 sol8 mib8 do8 |
 fa8 mib8 re8 do8 sol8 sol,8 |
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : un \italic sol est imprimé, corrigé en \italic do.
+}
 do4 sol4 sol4 |
 sol4 sol4 sol4 |
 sol8 fa8 mib8 re8 mib8 do8 |
@@ -88,3 +93,4 @@ fad,8 sol,8 fad,8 mi,8 fad,8 re,8 |
 sol,8 fad,8 sol,8 la,8 sib,8 sib,8 |
 la,8 sol,8 re8 do8 re8 re,8 |
 sol,2. | %{%}
+\modVersion { \keepWithTag #'() \prelude sol,2. }

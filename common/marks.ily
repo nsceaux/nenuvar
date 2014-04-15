@@ -110,9 +110,17 @@ endMark =
 #(define-music-function (parser location text) (markup?)
    #{ \dacapoOverrides\mark\markup\right-align\italic $text #})
 
+endMarkSmall =
+#(define-music-function (parser location text) (markup?)
+   #{ \dacapoOverrides\mark\markup\right-align\italic\fontsize#-2 $text #})
+
 beginMark =
 #(define-music-function (parser location text) (markup?)
    #{ \markUpBegin\mark\markup $text #})
+
+beginMarkSmall =
+#(define-music-function (parser location text) (markup?)
+   #{ \markUpBegin\mark\markup\italic\fontsize#-2 $text #})
 
 beginMarkDown =
 #(define-music-function (parser location text) (markup?)

@@ -1,24 +1,27 @@
-R2.*2 |
-
-r4 r4 re'8_"sourdines" do'8 |
-sib8 la8 sol8 re'8 do'8 fa8 |
-sol4 fa4 fa8 sol8 |
-mib4 fa4. fa8 |
-fa2 fa8 fa8 |
-sol4 sol8 la8 sib4 |
-la2 la8 sol8 |
-la4 la8. la16 fa8 sib8 |
-la4 la4. la8 |
-la4. la8 re'8 do'8 |
-sib2 sib8 sib8 |
-sol4 la2 |
-la4 la8 la8 sol8 do8 |
-re4 re4. re8 |
-re4 sib8 sib8 la8. sib16 |
-sol4 sol8 re'8 do'4 |
-sib8 la8 sol2 |
-sol8 sol8 la8 re8 re8. re16 |
-re4 %{%} re4 re4 |
+\clef "quinte" <>_\markup\italic\smaller sourdines
+\setMusic #'prelude {
+  R2.*2 |
+  r4 r4 re'8 do'8 |
+  sib8 la8 sol8 re'8 do'8 fa8 |
+  sol4 fa4 fa8 sol8 |
+  mib4 fa4. fa8 |
+  fa2 fa8 fa8 |
+  sol4 sol8 la8 sib4 |
+  la2 la8 sol8 |
+  la4 la8. la16 fa8 sib8 |
+  la4 la4. la8 |
+  la4. la8 re'8 do'8 |
+  sib2 sib8 sib8 |
+  sol4 la2 |
+  la4 la8 la8 sol8 do8 |
+  re4 re4. re8 |
+  re4 sib8 sib8 la8. sib16 |
+  sol4 sol8 re'8 do'4 |
+  sib8 la8 sol2 |
+  sol8 sol8 la8 re8 re8. re16 |
+}
+\keepWithTag #'() \prelude
+re4 %{%} re4\doux re4 |
 re2 re4 |
 re2 re4 |
 mib2 mib8 mib8 |
@@ -67,7 +70,7 @@ do'4 do'2 |
 do'2 la8 fa8 |
 sol4. la8 la8 la8 |
 la4. re'8 sol8 mi8 |
-la8 sol8 sol8 fa8 mi4 |
+la8 sol8 sol8 fa8 mi4\tr |
 re2 re'8 re'8 |
 do'2. |
 do'4 sib4. sol8 |
@@ -88,3 +91,4 @@ re4 re4 re4 |
 re2 ~ re8 sol8 |
 do8 re8 re4. re8 |
 re2. | %{%}
+\modVersion { \keepWithTag #'() \prelude re2. }

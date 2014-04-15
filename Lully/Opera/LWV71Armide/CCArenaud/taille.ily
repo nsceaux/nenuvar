@@ -1,24 +1,27 @@
-R2.*2 |
-
-re'8_"sourdines" do'8 re'8 do'8 sib8 la8 |
-sib4 re'8. re'16 mib'8 si8 |
-do'4 re'4 sib4 |
-do'4 do'2 |
-sib2 re'8 re'8 |
-re'4 re'4 mi'4 |
-mi'4. mi'8 la'8 dod'8 |
-re'4 re'8 do'8 re'8 re'8 |
-la'4 la'4. la'8 |
-la'8. fad'16 fad'8 fad'8 sol'8 la'8 |
-sol'2 sol'8 fa'8 |
-mib'2 mib'8. mib'16 |
-re'4. re'8 re'8 do'8 |
-sib8 sol8 la8 la8 re'8 re'8 |
-re'2 re'8 fa'8 |
-sib4 re'8 re'8 mib'8 do'8 |
-re'2 re'4 |
-do'4 do'8 re'8 re'8 la8 |
-sib4 %{%} re'4. re'8 |
+\clef "taille" <>_\markup\italic\smaller sourdines
+\setMusic #'prelude {
+  R2.*2 |
+  re'8 do'8 re'8 do'8 sib8 la8 |
+  sib4 re'8. re'16 mib'8 si8 |
+  do'4 re'4 sib4 |
+  do'4 do'2\tr |
+  sib2 re'8 re'8 |
+  re'4 re'4 mi'4 |
+  mi'4. mi'8 la'8 dod'8 |
+  re'4 re'8 do'8 re'8 re'8 |
+  la'4 la'4. la'8 |
+  la'8. fad'16 fad'8 fad'8 sol'8 la'8 |
+  sol'2 sol'8 fa'8 |
+  mib'2 mib'8. mib'16 |
+  re'4.\tr re'8 re'8 do'8 |
+  sib8 sol8 la8 la8 re'8 re'8 |
+  re'2 re'8 fa'8 |
+  sib4 re'8 re'8 mib'8 do'8 |
+  re'2 re'4 |
+  do'4 do'8 re'8 re'8 la8 |
+}
+\keepWithTag #'() \prelude
+sib4 %{%} re'4.\doux re'8 |
 fad'2 fad'8 fad'8 |
 sol'2 sol4 |
 sol2 sol8 sol8 |
@@ -88,3 +91,4 @@ la2 la8 la8 |
 sol2 ~ sol8 sol8 |
 la8 re'8 re'4 la4 |
 sib2. | %{%}
+\modVersion { \keepWithTag #'() \prelude sib2. }

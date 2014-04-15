@@ -30,13 +30,18 @@
 }
 \includeScore "CCArenaud"
 %% 2-4
+\newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene IV"
-\sceneDescription \markup \column {
-  \fill-line { "Une nymphe des eaux." }
-  \fill-line { "Troupe de bergers et bergères héroïques." }
+\sceneDescription\markup\column {
+  \fill-line { "Une Nymphe des Eaux." }
+  \fill-line { "Troupe de Bergers & Bergeres heroïques." }
 }
-\pieceToc \markup { Une Nymphe : \italic { Ah, temps heureux où l'on sait plaire. } }
-\includeScore "CDAnymphe"   
+\pieceToc\markup\wordwrap {
+  \smallCaps { La Nymphe : }
+  \italic { Au temps heureux ou l’on sçait plaire }
+}
+\includeScore "CDAnymphe"
+%% 2-5
 \pieceToc \markup { Chœur : \italic { Ah ! quelle erreur, quelle folie ! } }
 \includeScore "CDBchoeur"
 \pieceTocTitle "Premier Air"
