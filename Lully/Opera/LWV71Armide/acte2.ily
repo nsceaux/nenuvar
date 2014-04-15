@@ -15,16 +15,22 @@
 \newBookPart #'(full-rehearsal)
 \scene "Scene II" "Scene II"
 \sceneDescription\markup\smallCaps { Hidraot, Armide. }
-\pieceToc\markup\wordwrap { Armide, Hidraot : \italic { Esprits de haine et de rage } }
+\pieceToc\markup\wordwrap {
+  \smallCaps { Armide, Hidraot : }
+  \italic { Arrestons-nous icy, c'est dans ce lieu fatal }
+}
 \includeScore "CBAarmideHidraot"
-\includeScore "CBBarmideHidraot"
-
-\scene "Scène III"
-\sceneDescription \markup { \smallCaps Renaud, seul. }
-\pieceToc \markup { Renaud : \italic { Plus j'observe ces lieux, et plus je les admire. } }
+%% 2-3
+\newBookPart #'(full-rehearsal)
+\scene "Scene III" "Scene III"
+\sceneDescription\markup { \smallCaps Renaud, seul. }
+\pieceToc\markup\wordwrap {
+  \smallCaps Renaud :
+  \italic { Plus j'observe ces lieux, & plus je les admire }
+}
 \includeScore "CCArenaud"
-
-\scene "Scène IV"
+%% 2-4
+\scene "Scene IV" "Scene IV"
 \sceneDescription \markup \column {
   \fill-line { "Une nymphe des eaux." }
   \fill-line { "Troupe de bergers et bergères héroïques." }

@@ -1,19 +1,19 @@
-sol'2. ~ sol'8. sol'16 |
-mi'2 fad'4 ~ fad'8. la'16 |
-re'4 ~ re'8. re'16 re'2 |
-re'2 re'4 ~ re'8. re'16 |
-mi'2. ~ mi'16 mi'16 mi'16 mi'16 |
-re'2. ~ re'8. re'16 |
+\clef "taille" sol'2.~ sol'8. sol'16 |
+mi'2 fad'4~ fad'8. la'16 |
+re'4~ re'8. re'16 re'2 |
+re'2 re'4~ re'8. re'16 |
+mi'2.~ mi'16 mi'16 mi'16 mi'16 |
+re'2.~ re'8. re'16 |
 re'2 re'4 mi'4 |
-mi'2 fa'2 ~|
-fa'4 ~ fa'8. sol'16 mi'4 ~ mi'8. re'16 |
+mi'2 fa'2~|
+fa'4~ fa'8. sol'16 mi'4\tr~ mi'8. re'16 |
 re'2. re'4 |
 re'2 mi'4. mi'16 re'16 |
-re'2. ~ re'16 do'16 si16 la16 |
-si2 do'4 ~ do'16 si16 la16 sol16 |
-re'2 re'4 ~ re'16 si16 do'16 re'16 |
-do'4 ~ do'8. mi'16 re'4 ~ re'8. re'16 |
-re'4. re'8 re'8 si8 re'8 si8 |
+re'2.~ re'16 do'16 si16 la16 |
+si2 do'4~ do'16 si16 la16 sol16 |
+re'2 re'4~ re'16 si16 do'16 re'16 |
+do'4~ do'8. mi'16 re'4\tr~ re'8. re'16 |
+re'4. re'8\doux re'8 si8 re'8 si8 |
 sol2 mi4 sol4 |
 sol4 sol4 la2 |
 re2 re'8. re'16 si8. si16 |
@@ -24,7 +24,7 @@ mi'4. mi'8 mi'4 mi'8 mi'8 |
 re'8 fad'8 mi'8 mi'8 re'8. re'16 |
 re'4 r4 r2 |
 R1 |
-r4 re'4 re'4 re'4 |
+r4 re'4\viste re'4 re'4 |
 sol'4 sol'4 re'4. re'8 |
 re'4 la4 la4 re'4 |
 re'2 re'4 re'4 |
@@ -37,8 +37,9 @@ mi'2 mi'4 la'4 |
 sol'8 la'8 si'8 do''8 si'8 la'8 sol'4 |
 sol'2 sol'4 re'4 |
 mi'2 mi'4 mi'4 |
-fad'4 sol'4 fad'4. sol'8 |
-sol'4 %{segno%} sol'4 sol'4. sol'8 |
+fad'4 sol'4 fad'4.\tr sol'8 |
+sol'4 %{segno%} sol'4\doux sol'4. sol'8 |
+\setMusic #'reprise {
 la'2 la'4. la'8 |
 sol'2 sol'4 sol'4 |
 sol'2 mi'4 do'4 |
@@ -67,10 +68,12 @@ do'2 do'4 do'4 |
 fad2 si4 si4 |
 si2. la4 |
 la2 la4. re'8 |
+}
+\keepWithTag #'() \reprise
 si4 %{fin%} re'4 re'4 re'4 |
 mi'2 mi'4 la'4 |
 red'2 red'4 sol'4 |
-sol'4 fad'4 fad'4. fad'8 |
+sol'4 fad'4 fad'4.\tr fad'8 |
 mi'2 mi'4 si4 |
 dod'4 la4 re'4 re'4 |
 re'2 si4 si4 |
@@ -96,32 +99,5 @@ mi2 mi4 la4 |
 si2 si4 do'4 |
 do'4 si8 do'8 re'4. re'8 |
 si4 sol'4 sol'4. sol'8 |
-%{%} la'2 la'4. la'8 |
-sol'2 sol'4 sol'4 |
-sol'2 mi'4 do'4 |
-do'2 mi'4 do'4 |
-re'2 re'4 la4 |
-si2 si4 si4 |
-si2 si4. si8 |
-la2. dod'4 |
-dod'4 dod'4 dod'4 dod'4 |
-si2. fad'4 |
-sol'2. re'4 |
-la'2 la'4 la'4 |
-la'4 la4 re'4. re'8 |
-do'2 do'4 do'8 re'8 |
-mi'2 si4 si8 do'8 |
-re'2 re'4 re'4 |
-re'2. re'4 |
-mi'2 mi'4 mi'4 |
-mi'2 mi'4. mi'8 |
-fad'2 fad'4 la'4 |
-re'2 mi'4 si4 |
-fad'2 fad'4 fad'4 |
-si2 mi'4 mi'4 |
-la2 si4. si8 |
-do'2 do'4 do'4 |
-fad2 si4 si4 |
-si2. la4 |
-la2 la4. re'8 |
-si1 
+\modVersion { \keepWithTag #'() \reprise si1 }
+\tag #'recit { R2.*4 R1 R2. R1 R2.*2 R1*2 R1 }

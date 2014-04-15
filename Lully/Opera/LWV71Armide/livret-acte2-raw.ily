@@ -90,7 +90,6 @@
 \livretDidasP\justify {
   Armide aperçoit Renaud qui s'aproche des bords de la riviere.
 }
-\livretRef #'CBBarmideHidraot
 \livretPers ARMIDE
 %# Dans le piege fatal nostre Ennemy s'engage.
 \livretPers HIDRAOT
