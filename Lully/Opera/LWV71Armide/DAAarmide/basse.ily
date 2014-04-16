@@ -1,16 +1,16 @@
-re4 re8 mi8 fa2 |
+\clef "basse" re4 re8 mi8 fa2 |
 mi4 fad4 sol4. mi8 |
 la4. sol8 fa4 ~ fa16 fa16 mi16 re16 |
 la,4 la4 re4. re8 |
 sol4 mi4 fa4 re4 |
-sol4. mi8 la4 ( sol4 )|
+sol4. mi8 la4 sol4 |
 fa16 mi16 re16 do16 sib,16 la,16 sol,8 la,4 |
-re,4 re8 mi8 fa2 |
+re,4 re8\doux mi8 fa2 |
 mi4 fad4 sol4. mi8 |
-la4 ( sol4 ) fa4 ~ fa16 fa16 mi16 re16 |
+la4 sol4 fa4~ fa16 fa16 mi16 re16 |
 la,4 la4 re4. re8 |
 sol4 mi4 fa4 re4 |
-sol4. mi8 la4 ( sol4 )|
+sol4. mi8 la4 sol4 |
 fa16 mi16 re16 do16 sib,16 la,16 sol,8 la,4 |
 re,4 re2 dod4 |
 re4. re8 do8 si,8 |
@@ -24,9 +24,18 @@ mi,4 fad,4 sol,4 re8 do8 |
 sib,2 la,4. la,8 |
 re,4 re8 mi8 fa2 |
 mi4 fad4 sol4. mi8 |
-la4 ( sol4 ) fa4 ~ fa16 fa16 mi16 re16 |
+la4 sol4 fa4 ~ fa16 fa16 mi16 re16 |
 la,4 la4 re4. re8 |
 sol4 mi4 fa4 re4 |
-sol4. mi8 la4 ( sol4 )|
+sol4. mi8 la4 sol4 |
 fa16 mi16 re16 do16 sib,16 la,16 sol,8 la,4 |
-re,2 r2 |
+<<
+  \tag #'basse { re,2 r | }
+  \tag #'basse-continue {
+    <>^\markup\large Prelude
+    re,8 re16 mi fad8 re sol8. sol16 fa?8 sol |
+    \once\set Staff.whichBar = "|"
+    mib \unset Staff.whichBar re mib do re sol, re,4 |
+    \custosNote sol,
+  }
+>>

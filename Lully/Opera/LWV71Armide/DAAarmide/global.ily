@@ -1,5 +1,6 @@
-\keys la \minor
-\midiTempo #80 \time 4/4 s1*6
+\key la \minor \midiTempo#80
+\beginMark "Prelude"
+\time 4/4 s1*6
 \digitTime\time 3/4 s2.
 \time 4/4 s1*6
 \digitTime\time 3/4 s2.

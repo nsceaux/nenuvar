@@ -200,7 +200,7 @@
 %# Ne puis-je me vanger à moins qu'il ne perisse?
 %# Hé ne suffit-il pas que l'amour le punisse?
 %# Puisqu'il n'a pû trouver mes yeux assez charmants,
-%# Qu'il aime au moins par mes enchantements,
+%# Qu'il m'aime au moins par mes enchantements,
 %# Que, s'il se peut, je le ha=ïsse.
 %# Venez seconder mes desirs,
 %# Demons, transformez-vous en d'aimables zephirs:

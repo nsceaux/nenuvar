@@ -23,7 +23,7 @@ Il semble es -- tre fait pour l’a -- mour.
 Ne puis- je me van -- ger à moins qu’il ne pe -- ris -- se ?
 Hé ne suf -- fit- il pas que l’a -- mour le pu -- nis -- se ?
 Puis -- qu’il n’a pû trou -- ver mes yeux as -- sez char -- mants,
-Qu’il aime au moins par mes en -- chan -- te -- ments,
+Qu’il m’aime au moins par mes en -- chan -- te -- ments,
 Que, s’il se peut, je le ha -- ïs -- se.
 Ve -- nez, ve -- nez se -- con -- der mes de -- sirs,
 De -- mons, trans -- for -- mez- vous en d’ai -- ma -- bles ze -- phirs :

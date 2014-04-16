@@ -1,24 +1,27 @@
 \newBookPart #'()
-\act "Acte Troisième"
-\scene "Scène Première"
-\sceneDescription \markup \column {
-  \fill-line { \line { Le théâtre change et représente un désert. } }
+%% 3-1
+\act "Acte Troisiesme"
+\scene "Scene Premiere" "Scene I"
+\sceneDescription\markup\column {
+  \fill-line { \line { Le Theatre change & represente un Desert. } }
   \fill-line { \line { \smallCaps Armide, seule. } }
 }
-\pieceToc \markup { Armide : \italic { Ah, si la liberté doit m'être ravie. } }
+\pieceToc\markup\wordwrap {
+  \smallCaps Armide : \italic { Ah ! si la liberté me doit estre ravie }
+}
 \includeScore "DAAarmide"
-
-\scene "Scène II"
+%% 3-2
+\scene "Scene II" "Scene II"
 \sceneDescription \markup \smallCaps { Armide, Phenice, Sidonie }
 \pieceToc \markup { Armide, Phénice, Sidonie : \italic { Que ne peut point votre art } }
 \includeScore "DBAarmidePheniceSidonie"
 
-\scene "Scène III"
+\scene "Scene III" "Scene III"
 \sceneDescription \markup { \smallCaps Armide, seule. }
 \pieceToc \markup { Armide : \italic { Venez, Haine implacable. } }
 \includeScore "DCAarmide"
 
-\scene "Scène IV"
+\scene "Scene IV" "Scene IV"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Armide, \smallCaps { La Haine, } Suite de la Haine.
 }

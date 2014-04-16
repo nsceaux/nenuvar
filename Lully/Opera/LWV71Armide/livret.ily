@@ -561,7 +561,7 @@
 \livretVerse#12 { Ne puis-je me vanger à moins qu’il ne perisse ? }
 \livretVerse#12 { Hé ne suffit-il pas que l’amour le punisse ? }
 \livretVerse#12 { Puisqu’il n’a pû trouver mes yeux assez charmants, }
-\livretVerse#10 { Qu’il aime au moins par mes enchantements, }
+\livretVerse#10 { Qu’il m’aime au moins par mes enchantements, }
 \livretVerse#8 { Que, s’il se peut, je le haïsse. }
 \livretVerse#8 { Venez seconder mes desirs, }
 \livretVerse#12 { Demons, transformez-vous en d’aimables zephirs : }
