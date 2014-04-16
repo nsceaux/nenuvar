@@ -52,8 +52,8 @@
 %# Plus Renaud m'aimera moins je seray tranquille;
 %# J'ay resolu de la ha=ïr.
 %# Je n'ay tenté jamais rien de si difficile:
-%# Je crains que pour forcer son cœur à m'obe=ïr
-%# Tout mon Art soit inutile.
+%# Je crains que pour forcer mon cœur à m'obe=ïr
+%# Tout mon Art ne soit inutile.
 \livretPers PHENICE
 %# Que vostre art seroit beau! qu'il seroit admiré!
 %# S'il sçavoit garentir des troubles de la vie.
@@ -96,7 +96,7 @@
 %# Helas! que mon amour est different du sien!
 %# Quelle vengeance ai-je à pretendre
 %# Si je le veux aimer toujours.
-%# Quoy; ceder dans rien entreprendre?
+%# Quoy; ceder sans rien entreprendre?
 %# Non, il faut appeller la Haine à mon secours.
 %# L'*horreur de ces lieux solitaires
 %# Par mon art va se redoubler.

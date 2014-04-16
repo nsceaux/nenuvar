@@ -96,10 +96,16 @@ sagesseMark =
 pheniceMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Phenice"))
+pheniceMarkD =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Phenice"))
 
 sidonieMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Sidonie"))
+sidonieMarkD =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Sidonie"))
 
 armideMark =
 #(define-music-function (parser location) ()

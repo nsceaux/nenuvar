@@ -12,10 +12,14 @@
 \includeScore "DAAarmide"
 %% 3-2
 \scene "Scene II" "Scene II"
-\sceneDescription \markup \smallCaps { Armide, Phenice, Sidonie }
-\pieceToc \markup { Armide, Phénice, Sidonie : \italic { Que ne peut point votre art } }
+\sceneDescription\markup\smallCaps { Armide, Phenice, Sidonie }
+\pieceToc\markup\wordwrap {
+  \smallCaps { Armide, Phénice, Sidonie : }
+  \italic { Que ne peut point vostre art ? la force en est extréme }
+}
 \includeScore "DBAarmidePheniceSidonie"
-
+%% 3-3
+\newBookPart #'(full-rehearsal)
 \scene "Scene III" "Scene III"
 \sceneDescription \markup { \smallCaps Armide, seule. }
 \pieceToc \markup { Armide : \italic { Venez, Haine implacable. } }

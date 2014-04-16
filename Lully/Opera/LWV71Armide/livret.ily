@@ -630,8 +630,8 @@
 \livretVerse#12 { Plus Renaud m’aimera moins je seray tranquille ; }
 \livretVerse#8 { J’ay resolu de la haïr. }
 \livretVerse#12 { Je n’ay tenté jamais rien de si difficile : }
-\livretVerse#12 { Je crains que pour forcer son cœur à m’obeïr }
-\livretVerse#7 { Tout mon Art soit inutile. }
+\livretVerse#12 { Je crains que pour forcer mon cœur à m’obeïr }
+\livretVerse#8 { Tout mon Art ne soit inutile. }
 \livretPers PHENICE
 \livretVerse#12 { Que vostre art seroit beau ! qu’il seroit admiré ! }
 \livretVerse#12 { S’il sçavoit garentir des troubles de la vie. }
@@ -674,7 +674,7 @@
 \livretVerse#12 { Helas ! que mon amour est different du sien ! }
 \livretVerse#8 { Quelle vengeance ai-je à pretendre }
 \livretVerse#8 { Si je le veux aimer toujours. }
-\livretVerse#8 { Quoy ; ceder dans rien entreprendre ? }
+\livretVerse#8 { Quoy ; ceder sans rien entreprendre ? }
 \livretVerse#12 { Non, il faut appeller la Haine à mon secours. }
 \livretVerse#8 { L’horreur de ces lieux solitaires }
 \livretVerse#8 { Par mon art va se redoubler. }
