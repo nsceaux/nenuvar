@@ -1,4 +1,4 @@
-r4 r8 fa8 fa2 |
+\clef "quinte" r4\douxSug r8 fa8 fa2 |
 do4 fa4 fa2 |
 re4. re8 do4 mi8 mi8 |
 re2 la4 la8 re'8 |
@@ -8,13 +8,16 @@ re2 sol4. sol8 |
 mib4 mib8 mib8 re2 |
 re8 do16 sol16 la8 re8 re4 sol4 |
 sol2 fa4. do8 |
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : un \italic mi est imprimé, corrigé en \italic do.
+}
 do2 do8 sol16 do16 do8. do16 |
-do4. la8 do'2 |
+mi4. la8 do'2 |
 sib4 sib8 sib8 sib2 |
 re'4. fa'8 fa'4 sol'8 sol'8 |
 fa'2 la16 la16 la16 la16 la8 re16 mi16 |
 sol2 sol16 sol16 sol16 sol16 la8 re'16 re'16 |
-do'2. r2 do'4 |
+do'2.^\viste r4 r do'4 |
 la4 la4 la4 sib4 re'4 mi'4 |
 mi'4 re'2 re'4 sib2 |
 do'4 la4 sol4 sib2 la4 |
@@ -37,6 +40,6 @@ sol4 sib4 mib8 do8 re8. mib16 fa4. fa8 |
 fa4 sib2 do'4 do'4 fa4 |
 sol4 do'2 re'4 sol'4 sol'4 |
 fa'4 fa'2 re'4 sib2 |
-do'4 do'4 la4 sol2 fa4 |
-fa4 fa4 la4 sol4 sol4. fa8 |
-fa2. ~ fa2 
+do'4 do'4 la4 sol2\tr fa4 |
+fa4 fa4 la4 sol4 sol4.\tr fa8 |
+fa2.~ fa2

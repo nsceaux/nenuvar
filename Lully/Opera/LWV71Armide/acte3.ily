@@ -42,10 +42,14 @@
 \pieceToc\markup [Entrée]
 \includeScore "DDBritournelle"
 %% 3-6
-\pieceToc \markup {
-  La Haine, chœur :
-  \italic { Amour, sors pour jamais d'un cœur qui te chasse. } }
+\newBookPart #'(full-rehearsal)
+\pieceToc\markup\wordwrap {
+  \smallCaps { La Haine, chœur : }
+  \italic { Amour, sors pour jamais, sors d'un cœur qui te chasse }
+}
 \includeScore "DDChaine"
+%% 3-7
+\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Air"
 \includeScore "DDDair"
 \pieceToc \markup {

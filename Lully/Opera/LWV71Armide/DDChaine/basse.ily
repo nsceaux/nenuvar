@@ -1,20 +1,20 @@
-fa,2 fa4. fa8 |
+\clef "basse" fa,2 fa4. fa8 |
 la,4 fa8 mib8 re8. mib16 re8 do8 |
 sib,4. sib,8 do4. do8 |
 re2 re8. mi16 fa4 |
 mi4 re8 sol8 do8. re16 mi8 do8 |
 fa8 mib8 re8 sib,8 mib8 re8 mib8 do8 |
 re8 mib8 re8 do8 sib,8 la,8 sib,8 sol,8 |
-do8 re8 mib8 do8 re4 ( do4 )|
+do8 re8 mib8 do8 re4 do4 |
 sib,8 la,16 sol,16 re8 re,8 sol,4 sol8 fa8 |
 mi8 re8 do8 sib,8 la,8 sol,8 fa,4 |
-do4 ( sib,4 ) la,8 sol,16 fa,16 do8 do,8 |
+do4 sib,4 la,8 sol,16 fa,16 do8 do,8 |
 fa,4. fa8 fa2 |
 sib4 sib8 sib8 sol2 |
 re'4. la8 sib4 sol8 do'8 |
 fa2 fa16 fa16 fa16 mi16 re8 re16 do16 |
 sol2 sol16 sol16 mi16 mi16 la8 fa16 sol16 |
-do2. ~ do2 do'4 |
+do2.^\viste ~ do2 do'4 |
 fa4 fa4 fa4 sib4 sib4 sol4 |
 la4 re'2 sib4 sib2 |
 fad4 fad4 sol4 mib2 do4 |
