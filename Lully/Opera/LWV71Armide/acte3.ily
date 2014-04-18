@@ -39,8 +39,9 @@
 \includeScore "DDAhaine"
 %% 3-5
 \newBookPart #'(full-rehearsal)
-\pieceToc\markup [Ritournelle]
+\pieceToc\markup [Entrée]
 \includeScore "DDBritournelle"
+%% 3-6
 \pieceToc \markup {
   La Haine, chœur :
   \italic { Amour, sors pour jamais d'un cœur qui te chasse. } }
