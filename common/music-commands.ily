@@ -167,45 +167,43 @@ unHideVoice = {
 %%% smaller notes
 %%%
 
-smallNotes = 
+smallNotes =
 #(define-music-function (parser location music) (ly:music?)
-  (let ((first-chord-already-found #f)
-        (last-chord #f)
-        (start-beam (make-music 'BeamEvent
-                                'span-direction -1))
-        (end-beam (make-music 'BeamEvent
-                              'span-direction 1))
+  (let ((first-note #f)
+        (last-note #f)
         (note-count 0))
-    ;; Add [ beaming directive to the first chord
-    (music-map (lambda (event)
-                 (cond ((memq (ly:music-property event 'name)
-                              '(EventChord NoteEvent))
-                        (cond ((not first-chord-already-found)
-                               ;; the first ChordEvent: add start beam
-                               (set! first-chord-already-found #t)
-                               (set! (ly:music-property event 'elements)
-                                     (cons start-beam
-                                           (ly:music-property event 'elements))))
-                              (else (set! last-chord event))))
-                       ((eqv? (ly:music-property event 'name) 'NoteEvent)
-                        (set! note-count (1+ note-count))))
-                 event)
-               music)
-    ;; Add ] beaming directive to the last chord
-    (if last-chord
-        (set! (ly:music-property last-chord 'elements)
-              (cons end-beam (ly:music-property last-chord 'elements))))
+    ;; count the notes, and get first and last ones.
+    (music-map
+     (lambda (event)
+       (if (eqv? (ly:music-property event 'name) 'NoteEvent)
+           (begin
+             (if first-note
+                 (set! last-note event)
+                 (set! first-note event))
+             (set! note-count (1+ note-count))))
+       event)
+     music)
+    ;; Add [ and ] beaming directive to the first and last note
+    (if (> note-count 1)
+        (begin
+          (set! (ly:music-property first-note 'articulations)
+                (cons (make-music 'BeamEvent 'span-direction -1)
+                      (ly:music-property first-note 'articulations)))
+          (set! (ly:music-property last-note 'articulations)
+                (cons (make-music 'BeamEvent 'span-direction 1)
+                      (ly:music-property last-note 'articulations)))))
     ;; If there are 3 notes, add a *2/3 duration factor
     (if (= note-count 3)
-        (music-map (lambda (event)
-                     (if (eqv? (ly:music-property event 'name) 'NoteEvent)
-                         (let* ((duration (ly:music-property event 'duration))
-                                (dot-count (ly:duration-dot-count duration))
-                                (log (ly:duration-log duration)))
-                           (set! (ly:music-property event 'duration)
-                                 (ly:make-duration log dot-count 2 3))))
-                     event)
-                   music)))
+        (music-map
+         (lambda (event)
+           (if (eqv? (ly:music-property event 'name) 'NoteEvent)
+               (let* ((duration (ly:music-property event 'duration))
+                      (dot-count (ly:duration-dot-count duration))
+                      (log (ly:duration-log duration)))
+                 (set! (ly:music-property event 'duration)
+                       (ly:make-duration log dot-count 2 3))))
+           event)
+         music)))
   #{
   \override Voice.NoteHead.font-size = #-3
   \override Voice.Flag.font-size = #-3

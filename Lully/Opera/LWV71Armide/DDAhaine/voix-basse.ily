@@ -1,4 +1,4 @@
-R1*17 R2. R1 R1*22 |
+\clef "vbasse" R1*17 R2. R1 R1*22 |
 r2 fa8 fa16 fa16 la8 fa8 |
 do'4. do'8 la8 la8 la8 sib8 |
 fa4 fa8 fa16 fa16 sib8 sib16 la16 sol8 fa8 |

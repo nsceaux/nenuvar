@@ -29,14 +29,17 @@
 %% 3-4
 \newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene IV"
-\sceneDescription \markup \wordwrap-center {
-  \smallCaps Armide, \smallCaps { La Haine, } Suite de la Haine.
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps { Armide, La Haine, } Suite de la Haine.
 }
-\pieceToc \markup {
-  La Haine, chœur :
-  \italic { Plus on connait l'Amour et plus on le déteste. } }
+\pieceToc\markup\wordwrap {
+  \smallCaps { La Haine, chœur : }
+  \italic { Je responds à tes vœux, ta voix s’est fait entendre }
+}
 \includeScore "DDAhaine"
-\pieceToc \markup Ritournelle
+%% 3-5
+\newBookPart #'(full-rehearsal)
+\pieceToc\markup [Ritournelle]
 \includeScore "DDBritournelle"
 \pieceToc \markup {
   La Haine, chœur :

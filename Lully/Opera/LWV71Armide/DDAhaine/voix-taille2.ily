@@ -1,7 +1,7 @@
-R1*17 R2. R1 R1*22 |
+\clef "vtaille" R1*17 R2. R1 R1*22 |
 r2 do'8 do'16 do'16 do'8 do'8 |
 do'4. do'8 do'8 do'8 do'8 sib8 |
-la4 la8 la16 la16 sib8 sib16 sib16 sib8 do'8 |
+la4\tr la8 la16 la16 sib8 sib16 sib16 sib8 do'8 |
 do'4 do'4 r8 do'8 do'8 do'8 |
 sib2 r8 do'16 do'16 do'8 do'16 do'16 |
 do'2 r8 sib8 re'8 re'8 |
@@ -19,4 +19,4 @@ sol4 r8 do'8 do'8 do'8 sib8 sib8 |
 do'4 r8 do'16 do'16 do'8 sib16 do'16 do'8 do'16 do'16 |
 la4 r8 do'8 do'8 do'8 sib8 sib8 |
 do'4 r8 do'16 do'16 do'8 sib16 do'16 do'8 do'16 do'16 |
-la2 
+la2\tr 

@@ -1,11 +1,9 @@
-\oldKey la \minor
-\newKey re \minor
-\midiTempo #160
+\key la \minor \midiTempo#160
+\beginMark "Prelude"
 \time 2/2 s1*17
-\midiTempo #80 \digitTime\time 3/4 s2.
-\midiTempo #160 \digitTime \time 2/2 s1
-\oldKey re \minor
-\midiTempo #80 \time 2/2
-s1*22 s2
-\bar ".|:" s2 s1*2 s2 \bar ":|."
+\midiTempo#80 \digitTime\time 3/4 s2.
+\midiTempo#160 \digitTime\time 2/2 s1
+\key re \minor \midiTempo#80
+\time 2/2 \beginMark "Prelude" s1*22 s2
+\beginMark "Chœurs" \bar " .|:" s2 s1*2 s2 \bar ":|."
 s2 s1*16 s2 \bar "|."

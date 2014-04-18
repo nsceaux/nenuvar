@@ -1,11 +1,11 @@
-R1*8 |
-r2 r4 \haineMarkNoClef re'8 la8 |
-sib4 sib8 do'8 la4. la8 |
+\clef "vtaille" R1*8 |
+r2 r4 re'8 la8 |
+sib4 sib8 do'8 la4.\tr la8 |
 re'8 re'8 re'8 mi'8 fa'4 fa'4 |
 re'8 do'8 sib8 la8 sol4 sol8 do'8 |
 fa4 r8 fa'8 do'2 |
 sol4 sol8 la8 sib4 la8 la8 |
-re'4 re'8 re'8 si4 si4 |
+re'4 re'8 re'8 si4\tr si4 |
 si8 si8 si8 mi'8 dod'4 dod'8 re'8 |
 mi'4 mi'8 la8 fa'8 mi'8 re'8 do'8 |
 sib8 la8 sol8 fa8 mi8. fa16 |
