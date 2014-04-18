@@ -686,13 +686,13 @@
 \livretRef #'DCAarmide
 \livretVerse#8 { Venez, venez, Haine implacable, }
 \livretVerse#8 { Sortez du Gouffre épouventable }
-\livretVerse#13 { Ou vous faites regner une éternelle horreur. }
+\livretVerse#12 { Ou vous faites regner une éternelle horreur. }
 \livretVerse#12 { Sauvez-moy de l’Amour, rien n’est si redoutable : }
 \livretVerse#8 { Contre un Ennemy trop aimable }
 \livretVerse#12 { Rendez-moy mon couroux, rallumez ma fureur. }
 \livretVerse#8 { Venez, venez, Haine implacable, }
 \livretVerse#8 { Sortez du Gouffre épouventable }
-\livretVerse#13 { Ou vous faites regner une éternelle horreur. }
+\livretVerse#12 { Ou vous faites regner une éternelle horreur. }
 \null
 \livretDidasP\justify {
   La Haine sort des Enfers, accompagnée des Furies, de la Cruauté,

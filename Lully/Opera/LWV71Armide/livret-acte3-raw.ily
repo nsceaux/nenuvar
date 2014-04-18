@@ -108,13 +108,13 @@
 \livretRef #'DCAarmide
 %# Venez, venez, Haine implacable,
 %# Sortez du Gouffre épouventable
-%# Ou vous faites regner une éternelle horreur.
+%# Ou vous faites regner une éternelle *horreur.
 %# Sauvez-moy de l'Amour, rien n'est si redoutable:
 %# Contre un Ennemy trop aimable
 %# Rendez-moy mon couroux, rallumez ma fureur.
 %# Venez, venez, Haine implacable,
 %# Sortez du Gouffre épouventable
-%# Ou vous faites regner une éternelle horreur.
+%# Ou vous faites regner une éternelle *horreur.
 \null
 \livretDidasP\justify {
   La Haine sort des Enfers, accompagnée des Furies, de la Cruauté,

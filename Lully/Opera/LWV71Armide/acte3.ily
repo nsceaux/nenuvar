@@ -21,10 +21,13 @@
 %% 3-3
 \newBookPart #'(full-rehearsal)
 \scene "Scene III" "Scene III"
-\sceneDescription \markup { \smallCaps Armide, seule. }
-\pieceToc \markup { Armide : \italic { Venez, Haine implacable. } }
+\sceneDescription\markup { \smallCaps Armide seule. }
+\pieceToc\markup {
+ \smallCaps Armide : \italic { Venez, venez, Haine implacable }
+}
 \includeScore "DCAarmide"
-
+%% 3-4
+\newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene IV"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Armide, \smallCaps { La Haine, } Suite de la Haine.

@@ -1,17 +1,40 @@
 \score {
-  \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new Staff << \global \clef "dessus" \includeNotes "dessus" >>
-      \new Staff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \new Staff << \global \clef "taille" \includeNotes "taille" >>
-      \new Staff << \global \clef "quinte" \includeNotes "quinte" >>
+  <<
+    \origVersion\new ChoirStaff <<
+      \new Staff \withLyrics <<
+        \characterName "Armide"
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+      \new Staff \with { instrumentName = "Basse-Continue" } <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+        \origLayout {
+          s1*4\pageBreak s1*4\break s1*4\pageBreak
+          s1*4\break s1*4\pageBreak s1*4\break s1*3\pageBreak s1*4\break
+        }
+      >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vbas-dessus" \includeNotes "armide"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
+    \modVersion\new StaffGroupNoBar <<
+      \new StaffGroupNoBracket <<
+        \new Staff << \global \includeNotes "dessus" >>
+        \new Staff << \global \includeNotes "haute-contre" >>
+        \new Staff << \global \includeNotes "taille" >>
+        \new Staff << \global \includeNotes "quinte" >>
+      >>
+      \new Staff \withLyrics <<
+        \characterName "Armide"
+        \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+      \new Staff \with { instrumentName = "Basse-Continue" } <<
+        \global \includeNotes "basse"
+        \includeFigures "chiffres"
+      >>
+    >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
   \midi { }
 }

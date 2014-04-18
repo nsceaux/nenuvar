@@ -1,4 +1,4 @@
-r4 r8 r16 re'16 re'4 ~ re'8. re'16 |
+\clef "haute-contre" r4^\viste r8 r16 re'16 re'4 ~ re'8. re'16 |
 mi'2 fad'4 fad'8 la'8 |
 sol'2 ~ sol'4. sol'16 sol'16 |
 mi'2 fad'4 fad'8 fad'8 |
@@ -8,7 +8,7 @@ mi'8 mi'16 mi'16 mi'8 mi'16 fad'16 sol'8 sol'16 sol'16 sol'8 sol'8 |
 re'8 re'16 re'16 re'8 re'16 mi'16 fad'8 fad'16 fad'16 fad'8 fad'8 |
 re'8 re'16 re'16 re'8 mi'8 mi'8 mi'16 mi'16 mi'8 mi'8 |
 fad'4 ~ fad'8. fad'16 sol'16 fad'16 mi'16 re'16 dod'8. re'16 |
-re'4. r16 la16 la4. r16 la16 |
+re'4. r16 la16\doux la4. r16 la16 |
 dod'2 re'4 re'8 re'8 |
 re'2 re'4 re'4 |
 mi'4. re'8 re'8 si8 si8 si8 |
