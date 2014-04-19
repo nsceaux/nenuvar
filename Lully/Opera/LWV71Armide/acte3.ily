@@ -52,10 +52,13 @@
 \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Air"
 \includeScore "DDDair"
-\pieceToc \markup {
-  La Haine, Armide :
-  \italic { Sort du sein d'Armide, Amour, brise ta chaîne } }
+%% 3-8
+\pieceToc\markup\wordwrap {
+  \smallCaps { La Haine, Armide : }
+  \italic { Sors, sors du sein d’Armide, Amour, brise ta chaîne }
+}
 \includeScore "DDEarmideHaine"
+%% 3-9
 \pieceTocTitle "Entr'acte"
 \reIncludeScore "DDDair" "DDFair"
 \actEnd \markup { FIN DU TROISIÈME ACTE }

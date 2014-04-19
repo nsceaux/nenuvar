@@ -1,4 +1,4 @@
-fa4 |
+\clef "basse" fa4 |
 re4 mi4 fa4 sib,4 do4 do,4 |
 fa,4 fa8 mi8 re8 mi8 fa8 re8 sol8 la8 sol8 fa8 |
 mi8 fa8 mi8 re8 do4 fa8 sol8 fa8 mi8 re4 |
@@ -16,4 +16,7 @@ fa,2. fa4 mib8 re8 do8 sib,8 |
 la,4 fa,2 sib,8 do8 sib,8 la,8 sol,8 fa,8 |
 do8 sib,8 la,8 sib,8 do8 la,8 re8 do8 sib,8 do8 re8 sib,8 |
 do4 la,2 sol,8 fa,8 do4 do,4 |
-fa,2. ~ fa,2 
+fa,2. ~ fa,2 s4 |
+\forceFullClef\clef "basse" \digitTime\time 2/2 \bar ""
+fa,2_"Fin de l’Entrée."~ fa,8 sol, fa, mi, |
+\custosNote re,4 
