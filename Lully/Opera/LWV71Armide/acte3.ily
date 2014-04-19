@@ -52,13 +52,26 @@
 \newBookPart #'(full-rehearsal)
 \pieceTocTitle "Air"
 \includeScore "DDDair"
+\score {
+  \new Staff {
+    \clef "basse" \digitTime\time 2/2
+    fa,2_"Fin de l’Entrée."~ fa,8 sol, fa, mi, |
+    \custosNote re,4 
+  }
+  \layout {
+    ragged-right = ##t
+    indent = 0
+  }
+}
 %% 3-8
+\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   \smallCaps { La Haine, Armide : }
   \italic { Sors, sors du sein d’Armide, Amour, brise ta chaîne }
 }
 \includeScore "DDEarmideHaine"
 %% 3-9
+\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Entr'acte"
 \reIncludeScore "DDDair" "DDFair"
 \actEnd \markup { FIN DU TROISIÈME ACTE }
