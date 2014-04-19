@@ -1,6 +1,5 @@
-\oldKey la \minor
-\newKey re \minor
-\midiTempo #100 \time 4/4 s1*9
+\key la \minor \midiTempo#100
+\time 4/4 s1*8
 \digitTime\time 3/4 s2.
 \time 4/4 s1*9
 \digitTime\time 3/4 s2.*2

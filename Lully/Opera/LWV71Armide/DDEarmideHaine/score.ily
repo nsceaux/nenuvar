@@ -1,22 +1,35 @@
 \score {
   \new StaffGroupNoBar <<
-    \new StaffGroupNoBracket <<
-      \new Staff << \global \clef "dessus" \includeNotes "dessus" >>
-      \new Staff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \new Staff << \global \clef "taille" \includeNotes "taille" >>
-      \new Staff << \global \clef "quinte" \includeNotes "quinte" >>
+    \modVersion\new StaffGroupNoBracket <<
+      \new Staff << <>^"Violons" \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
     >>
-    \newHaraKiriStaff \withLyrics <<
-      \global \clef "vbas-dessus" \includeNotes "armide"
-    >> \includeLyrics "paroles-armide"
-    \newHaraKiriStaff \withLyrics <<
-      \global \clef "vtaille" \includeNotes "haine"
-    >> \includeLyrics "paroles-haine"
-    \new Staff <<
-      \global \clef "basse" \includeNotes "basse"
+    \new Staff \with { \haraKiri }\withLyrics <<
+      \characterName "Armide"
+      \global \keepWithTag #'armide \includeNotes "voix"
+    >> \keepWithTag #'armide \includeLyrics "paroles"
+    \origVersion <<
+      \new Staff << <>^"Violons" \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+      \new Staff << \global \includeNotes "quinte" >>
+    >>
+    \new Staff \withLyrics <<
+      \characterName "La Haine"
+      \global \keepWithTag #'haine \includeNotes "voix"
+    >> \keepWithTag #'haine \includeLyrics "paroles"
+    \new Staff \with { instrumentName = "Basse-Continue" } <<
+      \global \includeNotes "basse"
       \includeFigures "chiffres"
+      \origLayout {
+        s1*5\pageBreak s1*3 s2.\break s1*3\pageBreak
+        s1*3\break s1*3 s2.\pageBreak s2. s1*2\break s1 s2. s1\pageBreak
+        s1*3\break s1*3\pageBreak s1*3\break
+      }
     >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
   \midi { }
 }

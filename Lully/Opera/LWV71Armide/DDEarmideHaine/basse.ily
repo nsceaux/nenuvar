@@ -1,5 +1,4 @@
-fa,2 ~ fa,8 sol,8 fa,8 mi,8 |
-re,1 |
+\clef "basse" re,1 |
 re2 fad,2 |
 sol,2 la,2 |
 re,2 re4 la,4 |
@@ -19,7 +18,9 @@ re4. re8 fad,2 |
 sol,2 sol4 mi4 |
 fa4. la,8 sib,16 la,16 sol,16 fa,16 |
 do4 la,8. sib,16 do8 do,8 |
-fa,2 fa2 |
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : un \italic sol est imprimé.
+} fa,2 fa2 |
 mi2 re2 |
 do2. sib,8 la,8 |
 sol,4. re8 sib,4 |
@@ -34,4 +35,7 @@ re2 fad,2 |
 sol,4 sol4 mi2 |
 fa4 fad4 sol4 sol,4 |
 la,4 la,8 sol,8 fa,8 mi,16 re,16 la,4 |
-re,2. ~ re,2 
+\footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : un \italic si est imprimé, corrigé en \italic ré.
+}
+re,2.~ re,2

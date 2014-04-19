@@ -1,5 +1,4 @@
-R1 |
-r2 fa2 |
+\clef "quinte" r2 fa2\doux |
 fa2 re4. re8 |
 re4. r16 sib16 la4 la8. la16 |
 la4. la8 la4 la4 |
@@ -34,4 +33,4 @@ fa4 fa8 fa8 re4. re8 |
 re4 sol4 sol4 sol8. sol16 |
 fa4 la8. la16 sol4 sib8 mi8 |
 mi2 re8 sol16 fa16 la8. la16 |
-la2. r2 
+la2. r4 r
