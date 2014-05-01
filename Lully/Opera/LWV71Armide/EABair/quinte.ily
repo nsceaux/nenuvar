@@ -1,4 +1,4 @@
-r2 r4 mi'4 |
+\clef "quinte" r4 r r mi'4 |
 fa'4 re'4 do'4 do'4 re'4 sol4 |
 sol2 sol4 sol4 fa4 mi4 |
 la4 sol4 sol4 fa4 sol4 sol4 |
@@ -10,4 +10,4 @@ re4 si4 do'4 do'4 si4 mi'4 |
 mi'4 re'4 do'4 do'4 fa4 mi8 fa8 |
 sol4 si4 do'4 do'4 si4 mi'4 |
 do'4 fa4 mi4 la4 fa4 sol4 |
-sol2 
+sol2
