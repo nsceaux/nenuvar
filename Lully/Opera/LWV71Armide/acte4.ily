@@ -28,6 +28,7 @@
 %% 4-5
 \pieceTocTitle "Canaries"
 \includeScore "EBCcanaries"
+%% 4-6
 \pieceToc \markup { Lucinde, le Chevalier danois, Ubalde }
 \includeScore "EBDlucindeChevalierUbalde"
 
