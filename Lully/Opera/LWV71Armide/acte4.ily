@@ -12,16 +12,20 @@
 \pieceTocTitle "Air"
 \includeScore "EABair"
 %% 4-3
+\newBookPart #'(full-rehearsal)
 \scene "Scene II" "Scene II"
-\sceneDescription \markup {
+\sceneDescription\markup {
   \smallCaps Lucinde, \smallCaps Ubalde, et \smallCaps { Le Chevalier Danois }
 }
-\pieceToc \markup {
-  Lucinde, chœur :
-  \italic { Voici la charmante retraite de la félicité parfaite. } }
+\pieceToc\markup\wordwrap {
+  \smallCaps { Lucinde, chœur : }
+  \italic { Voicy la charmante Retraite }
+}
 \includeScore "EBAlucinde"
+%% 4-4
 \pieceTocTitle "Gavotte"
 \includeScore "EBBgavotte"
+%% 4-5
 \pieceTocTitle "Canaries"
 \includeScore "EBCcanaries"
 \pieceToc \markup { Lucinde, le Chevalier danois, Ubalde }

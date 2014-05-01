@@ -1031,7 +1031,6 @@
 \livretVerse#8 { Heureux qui n’en est pas seduit ! }
 \livretFinAct Fin du quatriéme Acte
 \sep
-
 \livretAct ACTE V
 \livretDescAtt\wordwrap-center {
   Le Theatre change, & represente le Palais enchanté d’Armide.

@@ -80,12 +80,12 @@
 \livretPers LUCINDE
 %# Voicy la charmante Retraite
 %# De la felicité parfaite:
-%# Voicy l'heureux sejour
+%# Voicy l'*heureux sejour
 %# Des Jeux & de l'Amour.
 \livretPers Le Chœur
 %# Voicy la charmante Retraite
 %# De la felicité parfaite:
-%# Voicy l'heureux sejour
+%# Voicy l'*heureux sejour
 %# Des Jeux & de l'Amour.
 \null
 \livretRef #'EBBgavotte
