@@ -31,7 +31,7 @@
 %% 4-6
 \pieceToc \markup { Lucinde, le Chevalier danois, Ubalde }
 \includeScore "EBDlucindeChevalierUbalde"
-
+%% 4-7
 \scene "Scene III" "Scene III"
 \sceneDescription \markup \smallCaps { Ubalde, Le Chevalier Danois }
 \pieceToc \markup { Le Chevalier danois, Ubalde }

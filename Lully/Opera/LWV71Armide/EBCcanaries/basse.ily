@@ -1,4 +1,4 @@
-r4. |
+\clef "basse" r2*3/4 |
 do'8. si16 do'8 la8. si16 do'8 |
 sol8. fad16 sol8 mi8. re16 do8 |
 si,4 do8 sol8. fa16 sol8 |
