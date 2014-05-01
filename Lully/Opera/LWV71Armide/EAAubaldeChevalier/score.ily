@@ -1,20 +1,50 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus" \includeNotes "dessus" >>
-      \newHaraKiriStaff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaff << \global \clef "quinte" \includeNotes "quinte" >>
-      %%\newHaraKiriStaff << \global \clef "basse" \includeNotes "basse" >>
+      \new Staff \with { \haraKiri } <<
+        { \noHaraKiri s1*42 \revertNoHaraKiri }
+        \global \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiri } <<
+        { \noHaraKiri s1*42 \revertNoHaraKiri }
+        \global \includeNotes "haute-contre"
+      >>
+      \new Staff \with { \haraKiri } <<
+        { \noHaraKiri s1*42 \revertNoHaraKiri }
+        \global \includeNotes "taille"
+      >>
+      \new Staff \with { \haraKiri } <<
+        { \noHaraKiri s1*42 \revertNoHaraKiri }
+        \global \includeNotes "quinte"
+      >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "chevalier"
-    >> \includeLyrics "paroles-chevalier"
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vbasse" \includeNotes "ubalde"
-    >> \includeLyrics "paroles-ubalde"
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      { s1*8 \noHaraKiri s1*36 s2. s1*2 s2. s1*3 s2. s1*2
+        \revertNoHaraKiri s1*13 \noHaraKiri }
+      \global \keepWithTag #'chevalier \includeNotes "voix"
+    >> \keepWithTag #'chevalier \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      { s1*8 \noHaraKiri s1*36 s2. s1*2 s2. s1*3 s2. s1*2
+        \revertNoHaraKiri s1*13 \noHaraKiri }
+      \global \keepWithTag #'ubalde \includeNotes "voix"
+    >> \keepWithTag #'ubalde \includeLyrics "paroles"
+    \new Staff <<
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      \includeFigures "chiffres"
+      \origLayout {
+        s1*4\break s1*3\pageBreak s1*4\pageBreak
+        s1*4\break s1*4\pageBreak s1*3\break s1*4\pageBreak
+        s1*4\break s1*3\pageBreak s1*4\break s1*3\pageBreak
+        s1*4\break s2. s1*2\break s2. s1\pageBreak
+        s1*2 s2.\break s1*3\break s1*6\break s1*3 s2.\pageBreak
+        s2. s1 s2.*2\break s2.*5\break s1*4\break s1*4\pageBreak
+        s1*4\break s1*4\break s1*3\break s1 s2. s1\pageBreak
+        s1*3 s2.\break s1 s2. s1\break
+      }
+      \modVersion {
+        s1*44 s2. s1*2 s2. s1*3 s2. s1*3\break
+      }
+    >>
   >>
   \layout { }
   \midi { }

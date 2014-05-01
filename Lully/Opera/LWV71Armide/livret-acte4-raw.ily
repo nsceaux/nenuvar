@@ -262,4 +262,3 @@
 %# Heureux qui n'en est pas seduit!
 \livretFinAct Fin du quatriéme Acte
 \sep
-
