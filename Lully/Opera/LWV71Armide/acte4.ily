@@ -29,9 +29,13 @@
 \pieceTocTitle "Canaries"
 \includeScore "EBCcanaries"
 %% 4-6
-\pieceToc \markup { Lucinde, le Chevalier danois, Ubalde }
+\pieceToc\markup\wordwrap {
+  \smallCaps { Lucinde, le Chevalier Danois, Ubalde : }
+  \italic { Allons, qui vous retient encore ? }
+}
 \includeScore "EBDlucindeChevalierUbalde"
 %% 4-7
+\newBookPart #'(full-rehearsal)
 \scene "Scene III" "Scene III"
 \sceneDescription \markup \smallCaps { Ubalde, Le Chevalier Danois }
 \pieceToc \markup { Le Chevalier danois, Ubalde }

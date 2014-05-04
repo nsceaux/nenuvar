@@ -1,5 +1,5 @@
 R1*5 R2. R1*16 R1.*7 R2.*64 R1 R2.*4 R1 R2.*5 |
-\lucindeMarkNoClef r2 do''8 do''8 |
+ r2 do''8 do''8 |
 la'4 la'8 la'8 si'8 sold'8 |
 la'2 la'4 |
 do''4 r8 do''8 do''8 re''8 |

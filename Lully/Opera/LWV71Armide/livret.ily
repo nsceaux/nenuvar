@@ -874,9 +874,9 @@
 \livretVerse#8 { Et pour l’avoir trouvé sans peine }
 \livretVerse#8 { Nous ne l’en trouvons pas moins doux. }
 \livretPers Le Chœur
-\livretVerse#8 { Voici la charmante Retraite }
+\livretVerse#8 { Voicy la charmante Retraite }
 \livretVerse#8 { De la felicité parfaite ; }
-\livretVerse#6 { Voici l’heureux sejour }
+\livretVerse#6 { Voicy l’heureux sejour }
 \livretVerse#6 { Des Jeux & de l’Amour. }
 \livretPers\line { LUCINDE \smaller { parlant au Chevalier Danois } }
 \livretVerse#12 { Enfin je voy l’Amant pour qui mon cœur soûpire, }

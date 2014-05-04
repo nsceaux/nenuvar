@@ -105,9 +105,9 @@
 %# Et pour l'avoir trouvé sans peine
 %# Nous ne l'en trouvons pas moins doux.
 \livretPers Le Chœur
-%# Voici la charmante Retraite
+%# Voicy la charmante Retraite
 %# De la felicité parfaite;
-%# Voici l'heureux sejour
+%# Voicy l'*heureux sejour
 %# Des Jeux & de l'Amour.
 \livretPers\line { LUCINDE \smaller { parlant au Chevalier Danois } }
 %# Enfin je voy l'Amant pour qui mon cœur soûpire,

@@ -1,4 +1,4 @@
-R1*5 R2. R1*8 |
+\clef "vtaille" R1*5 R2. R1*8 |
 r4 r8 mi'8 do'8 do'8 si8 si8 |
 do'4 do'8 do'8 do'4 do'8 re'8 |
 re'4 re'8 r16 mi'16 mi'8 mi'8 fa'8 dod'8 |
@@ -6,7 +6,8 @@ re'4. la8 do'8 do'8 si8 do'8 |
 si8 re'8 re'8. re'16 do'8 do'8 do'8 re'8 |
 si8 si8 la8 la16 la16 si8 do'16 [ re'16 ] mi'8. mi'16 |
 mi'8 mi'8 fa'8 dod'8 re'8 sol8 sol8 sol16 [ la16 ]|
-si8 sol8 sol8 sol16 do'16 si8 do'8 si8. do'16 |
-do'2 r1 |
-R1.*6 |
+si8 sol8 sol8 sol16 do'16 si8 do'8 si8.\tr do'16 |
+do'2
+\origVersion { s1 }
+\modVersion { \includeNotes "../EBAlucinde/voix-taille" s2 }
 R2.*64 R1 R2.*4 R1 R2.*30 R1*6
