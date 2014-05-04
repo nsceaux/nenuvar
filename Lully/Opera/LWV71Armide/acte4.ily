@@ -37,10 +37,14 @@
 %% 4-7
 \newBookPart #'(full-rehearsal)
 \scene "Scene III" "Scene III"
-\sceneDescription \markup \smallCaps { Ubalde, Le Chevalier Danois }
-\pieceToc \markup { Le Chevalier danois, Ubalde }
+\sceneDescription\markup\smallCaps { Ubalde, Le Chevalier Danois }
+\pieceToc\markup\wordwrap {
+  \smallCaps { Le Chevalier Danois, Ubalde : }
+  \italic { Je tourne en vain les yeux de toutes parts }
+}
 \includeScore "ECAchevalierUbalde"
-
+%% 4-8
+\newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene IV"
 \sceneDescription \markup { \smallCaps Mélisse, \smallCaps Ubalde,
   et \smallCaps { Le Chevalier Danois } }

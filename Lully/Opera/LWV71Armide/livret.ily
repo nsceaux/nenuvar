@@ -934,7 +934,7 @@
 \livretVerse#7 { Comme une vapeur legere. }
 \livretPers UBALDE
 \livretVerse#8 { Ce que l’Amour a de charmant }
-\livretVerse#11 { N’est qu’une illusion qui ne laisse apres elle }
+\livretVerse#12 { N’est qu’une illusion qui ne laisse apres elle }
 \livretVerse#6 { Qu’une honte éternelle. }
 \livretVerse#8 { Ce que l’Amour a de charmant }
 \livretVerse#8 { N’est qu’un funeste enchantement. }

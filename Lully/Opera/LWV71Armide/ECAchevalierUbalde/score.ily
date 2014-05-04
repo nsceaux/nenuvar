@@ -1,25 +1,51 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \newHaraKiriStaff << \global \clef "dessus" 
-                           { \includeNotes "dessus-a"
-                             \includeNotes "dessus-b1" } >>
-      \newHaraKiriStaffB << \global \clef "dessus" 
-                            { R1*9 R2.*14
-                              \includeNotes "dessus-b2" } >>
-      \newHaraKiriStaff << \global \clef "haute-contre" \includeNotes "haute-contre" >>
-      \newHaraKiriStaff << \global \clef "taille" \includeNotes "taille" >>
-      \newHaraKiriStaff << \global \clef "quinte" \includeNotes "quinte" >>
-      %%\newHaraKiriStaff << \global \clef "basse" \includeNotes "basse" >>
+      \new Staff \with { \haraKiri } <<
+        { s1*9 s2. \startHaraKiri }
+        \global \keepWithTag #'dessus1 \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "haute-contre" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "taille" >>
+      \new Staff \with { \haraKiri } << \global \includeNotes "quinte" >>
+      \new Staff \with { \haraKiri } <<
+        { s1*9 s4 \bar "" \break s2 \startHaraKiri }
+        \global \keepWithTag #'basse \includeNotes "basse"
+      >>
     >>
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vhaute-contre" \includeNotes "chevalier"
-    >> \includeLyrics "paroles-chevalier"
-    \newHaraKiriStaffB \withLyrics <<
-      \global \clef "vbasse" \includeNotes "ubalde"
-    >> \includeLyrics "paroles-ubalde"
-    \new Staff << \global \clef "basse" \includeNotes "basse-continue"
-                  \includeFigures "chiffres" >>
+    \new GrandStaff <<
+      \new Staff \with { \haraKiriFirst } <<
+        { \startHaraKiri s1*9 s2. \stopHaraKiri }
+        \global \keepWithTag #'dessus1 \includeNotes "dessus"
+      >>
+      \new Staff \with { \haraKiriFirst } <<
+        { \startHaraKiri s1*9 s2. \stopHaraKiri }
+        \global \keepWithTag #'dessus2 \includeNotes "dessus"
+      >>
+    >>
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      { s1*9 s2. \noHaraKiri }
+      \global \keepWithTag #'chevalier \includeNotes "voix"
+    >> \keepWithTag #'chevalier \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } \withLyrics <<
+      { s1*9 s2. \noHaraKiri }
+      \global \keepWithTag #'ubalde \includeNotes "voix"
+    >> \keepWithTag #'ubalde \includeLyrics "paroles"
+    \new Staff \with { \haraKiriFirst } <<
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
+      { \startHaraKiri s1*9 s4 \stopHaraKiri }
+      \includeFigures "chiffres"
+      \origLayout {
+        s1*4\break s1*4\pageBreak
+        s1 s2.*6\break s2.*6\pageBreak
+        s2.*2\break s1*6\pageBreak
+        s1*6\break s1*5 s2.\pageBreak
+        s1.*4\break s1.*4\break s1.*4\break s1.*3\pageBreak
+        s1*5\break s1*6\pageBreak
+        s1*5\break s1*3\pageBreak
+        s1*3\break
+      }
+    >>
   >>
   \layout { }
   \midi { }

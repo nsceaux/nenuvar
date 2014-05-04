@@ -165,7 +165,7 @@
 %# Comme une vapeur legere.
 \livretPers UBALDE
 %# Ce que l'Amour a de charmant
-%# N'est qu'une illusion qui ne laisse apres elle
+%# N'est qu'une illusi=on qui ne laisse apres elle
 %# Qu'une honte éternelle.
 %# Ce que l'Amour a de charmant
 %# N'est qu'un funeste enchantement.

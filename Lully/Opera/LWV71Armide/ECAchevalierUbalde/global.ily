@@ -1,5 +1,5 @@
-\keys do \major
-\markUpBegin \mark "Vite"
+\key do \major
+\beginMark "Prelude"
 \midiTempo #120 \digitTime \time 2/2 s1*9 
 \midiTempo #80 \digitTime\time 3/4 s2.*14
 \midiTempo #160 \digitTime \time 2/2 s1*17
