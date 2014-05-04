@@ -46,9 +46,15 @@
 %% 4-8
 \newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene IV"
-\sceneDescription \markup { \smallCaps Mélisse, \smallCaps Ubalde,
-  et \smallCaps { Le Chevalier Danois } }
-\pieceToc \markup { Mélisse, Ubalde, le Chevalier danois }
+\sceneDescription\markup\wordwrap {
+  \smallCaps Melisse, \smallCaps Ubalde, et
+  \smallCaps { Le Chevalier Danois }
+}
+\pieceToc\markup\wordwrap {
+  \smallCaps { Melisse, Ubalde, le Chevalier Danois : }
+  \italic { D’où vient que vous vous destournez }
+}
 \includeScore "EDAmelisseChevalierUbalde"
+%% 4-9
 \reIncludeScore "EABair" "EDBentracte"
 \actEnd \markup { FIN DU QUATRIÈME ACTE }

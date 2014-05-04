@@ -964,7 +964,7 @@
 \livretVerse#12 { Goustez un doux repos, Estrangers fortunez, }
 \livretVerse#12 { Delassez-vous icy d’un penible voyage. }
 \livretVerse#12 { Un favorable sort vous appelle au partage }
-\livretVerse#8 { Des biens qui nous sont destinez. }
+\livretVerse#8 { Des biens qui vous sont destinez. }
 \livretPers UBALDE
 \livretVerse#8 { Est-ce vous, charmante Melisse ? }
 \livretPers MELISSE
@@ -982,7 +982,7 @@
 \livretVerse#8 { Fuyez, faites vous violence. }
 \livretPers MELISSE
 \livretVerse#12 { Pourquoy faut-il encor m’arracher mon Amant ? }
-\livretVerse#8 { Faut-il ne vous voir qu’un moment }
+\livretVerse#8 { Faut-il ne nous voir qu’un moment }
 \livretVerse#8 { Apres une si longue absence ? }
 \livretVerse#12 { Je ne puis consentir à vostre esloignement. }
 \livretVerse#12 { Je n’ay que trop souffert un si cruel tourment, }
@@ -995,7 +995,7 @@
 \livretVerse#8 { Dont vous vous estes tant vanté ? }
 \livretVerse#12 { Sortez de vostre erreur, la Raison vous appelle. }
 \livretPers UBALDE
-\livretVerse#7 { Ah ! que le Raison est cruelle ! }
+\livretVerse#8 { Ah ! que le Raison est cruelle ! }
 \livretVerse#12 { Si je suis abusé, pourquoy m’en avertir ? }
 \livretVerse#8 { Que mon erreur me paroist belle ! }
 \livretVerse#12 { Que je serois heureux de n’en jamais sortir ! }
@@ -1006,13 +1006,13 @@
   il en touche Melisse, & la fait disparoistre.
 }
 \livretPers UBALDE
-\livretVerse#8 { Que devient l’Objet qui m’enflame ? }
+\livretVerse#8 { Que devient l’objet qui m’enflame ? }
 \livretVerse#8 { Melisse disparoist soudain ! }
-\livretVerse#8 { Ciel ! faut-il qu’un fantôme vain }
+\livretVerse#8 { Ciel ! faut-il qu’un fantosme vain }
 \livretVerse#8 { Cause tant de trouble à mon ame ? }
 \livretPers Le Chevalier Danois
 \livretVerse#8 { Ce que l’amour a de charmant }
-\livretVerse#11 { N’est qu’une illusion qui ne laisse apres elle }
+\livretVerse#12 { N’est qu’une illusion qui ne laisse apres elle }
 \livretVerse#6 { Qu’une honte éternelle. }
 \livretVerse#8 { Ce que l’Amour a de charmant }
 \livretVerse#8 { N’est qu’un funeste enchantement. }

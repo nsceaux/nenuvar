@@ -195,7 +195,7 @@
 %# Goustez un doux repos, Estrangers fortunez,
 %# Delassez-vous icy d'un penible voy=age.
 %# Un favorable sort vous appelle au partage
-%# Des biens qui nous sont destinez.
+%# Des biens qui vous sont destinez.
 \livretPers UBALDE
 %# Est-ce vous, charmante Melisse?
 \livretPers MELISSE
@@ -213,7 +213,7 @@
 %# Fuy=ez, faites vous vi=olence.
 \livretPers MELISSE
 %# Pourquoy faut-il encor m'arracher mon Amant?
-%# Faut-il ne vous voir qu'un moment
+%# Faut-il ne nous voir qu'un moment
 %# Apres une si longue absence?
 %# Je ne puis consentir à vostre esloignement.
 %# Je n'ay que trop souffert un si cru=el tourment,
@@ -226,7 +226,7 @@
 %# Dont vous vous estes tant vanté?
 %# Sortez de vostre erreur, la Raison vous appelle.
 \livretPers UBALDE
-%# Ah! que le Raison est cruelle!
+%# Ah! que le Raison est cru=elle!
 %# Si je suis abusé, pourquoy m'en avertir?
 %# Que mon erreur me paroist belle!
 %# Que je serois heureux de n'en jamais sortir!
@@ -237,13 +237,13 @@
   il en touche Melisse, & la fait disparoistre.
 }
 \livretPers UBALDE
-%# Que devient l'Objet qui m'enflame?
+%# Que devient l'objet qui m'enflame?
 %# Melisse disparoist soudain!
-%# Ciel! faut-il qu'un fantôme vain
+%# Ciel! faut-il qu'un fantosme vain
 %# Cause tant de trouble à mon ame?
 \livretPers Le Chevalier Danois
 %# Ce que l'amour a de charmant
-%# N'est qu'une illusion qui ne laisse apres elle
+%# N'est qu'une illusi=on qui ne laisse apres elle
 %# Qu'une honte éternelle.
 %# Ce que l'Amour a de charmant
 %# N'est qu'un funeste enchantement.
