@@ -1,6 +1,6 @@
 \piecePartSpecs #`((dessus)
                    (haute-contre)
-                   (taille #:notes "taille-part")
+                   (taille)
                    (quinte)
                    (basse)
                    (basse-continue))

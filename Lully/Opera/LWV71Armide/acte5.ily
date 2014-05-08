@@ -16,6 +16,7 @@
 \scene "Scene II" "Scene II"
 \pieceTocTitle "Passacaille"
 \includeScore "FBApassacaille"
+%% 5-3
 \pieceToc \markup {
   Un amant fortuné, chœur :
   \italic { Les plaisirs ont choisi pour asile ce séjour agréable et tranquille }
