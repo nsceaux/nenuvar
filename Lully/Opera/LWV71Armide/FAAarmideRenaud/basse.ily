@@ -1,3 +1,4 @@
+\clef "basse" <>^"Basse-Continue" _\markup\italic tous
 do4 do,4 fa,4 fa8 sol8 |
 lab4. fa8 sol4. sol8 |
 lab4 la4 sib4. sol8 |
@@ -21,7 +22,10 @@ mib2 mib4. mib8 |
 re8. mib16 re8 do8 sib,4. sol,8 |
 do8 sib,8 la,8 sol,8 re8 re,8 |
 sol,2 sol8 fa8 |
-mib4. mib8 re8 do8 |
+mib4. mib8 \footnoteHere #'(0 . 0) \markup\wordwrap {
+  Source : les deux dernière croches imprimée sont \italic { mi ré, }
+  corrigée en \italic { ré do. }
+} re8 do8 |
 sol4. sol,8 do8. re16 mib4 |
 re4 mib8 re8 do4 fa8 fa,8 |
 sib,4. sib8 sol4. sol8 |
@@ -53,7 +57,7 @@ la4. la8 fa8 mi8 |
 re8 sol,8 la,2 |
 re,4. re8 sol8 fa8 |
 mi8 re8 do4 fa4 |
-re4 sol4 ( fa4 )|
+re4 sol4 fa4 |
 mi8 do8 sol4 sol,4 |
 do2 sol4 |
 do'8 sib8 la8 sol8 fa4 |
@@ -92,7 +96,7 @@ mib2 mib4 |
 re4 mi2 |
 fa2 fa8 mib8 |
 re2 re4 |
-sol2 ( fa4 )|
+sol2 fa4 |
 mib8 fa8 sol4 mib4 |
 lab8 fa8 sol4 sol,4 |
 do2 do'4 |
@@ -121,7 +125,7 @@ do2 do'8 sib8 |
 lab4. sol8 fa4 |
 sol2 sol4 |\allowPageTurn
 do'4 la4 fa4 |
-sib4. sib8 sib8 la8 |
+sib4. sib8 la8 sol8 |
 re'4 re8 do8 sib,4 |
 do2 la,4 |
 re4 re,2 |
@@ -130,7 +134,7 @@ fa2 sib4. sol8 |
 lab2 fa4 fa8 sol8 |
 lab4 fa4 do'4 sib8 lab8 |
 sol4 lab8 lab8 fa4 fa8 fa8 |
-sib4 ( lab4 ) sol8 lab8 sib8 sib,8 |
+sib4 lab4 sol8 lab8 sib8 sib,8 |
 mib4. mib8 sib4. sib8 |
 lab4. sol8 fa4. sol8 |
 lab4 fa4 sol4. sol8 |
@@ -158,11 +162,11 @@ sib4 sib,4 mib2 |
 sib4 si4 do'4 do4 |
 sol4 sol,4 re4. re8 |
 sol4 do4 fa4 fad4 |
-sol4. sol8 ( fa2 )|
+sol4. sol8 fa2 |
 mib4. re16 do16 sol4 sol,4 |
-do2 ~ do8 do8 sib,8 la,8 |
-sol,2. sol4 ~|
-sol4 fad4 sol2 ~|
+do2~ do8 do8 sib,8 la,8 |
+sol,2. sol4~ |
+sol4 fad4 sol2~ |
 sol2 fa8 mib8 |
 re4. mib8 do4 |
 sib,1 |

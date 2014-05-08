@@ -1,14 +1,19 @@
 \newBookPart #'()
-\act "Acte Cinquième"
+\act "Acte Cinquiesme"
 \sceneDescription \markup \wordwrap-center {
-  Le théâtre change et représente le palais enchanté d'Armide.
+  Le Theatre change & represente le Palais enchanté d’Armide.
 }
-\scene "Scène Première"
+\scene "Scene Premiere" "Scene I"
 \sceneDescription \markup \smallCaps { Renaud, Armide. }
-\pieceToc \markup { Armide, Renaud }
+%% 5-1
+\pieceToc\markup\wordwrap {
+  \smallCaps { Armide, Renaud : }
+  \italic { Armide, vous m'allez quitter }
+}
 \includeScore "FAAarmideRenaud"
-
-\scene "Scène II"
+%% 5-2
+\newBookPart #'(full-rehearsal)
+\scene "Scene II" "Scene II"
 \pieceTocTitle "Passacaille"
 \includeScore "FBApassacaille"
 \pieceToc \markup {
@@ -26,22 +31,22 @@
 \pieceToc \markup { Renaud : \italic { Allez, éloignez-vous de moi doux plaisirs. } }
 \includeScore "FBCrenaud"
 
-\scene "Scène III"
+\scene "Scene III" "Scene III"
 \sceneDescription \markup \smallCaps { Renaud, Ubalde, le Chevalier Danois. }
 \pieceToc \markup { Renaud, Ubalde, le Chevalier danois }
 \includeScore "FCAprelude"
 \includeScore "FCBrenaudUbaldeChevalier"
 
-\scene "Scène IV" 
+\scene "Scene IV" "Scene IV" 
 \sceneDescription \markup \smallCaps { Armide, Renaud, Ubalde, le Chevalier Danois. }
 \pieceToc \markup { Armide, Renaud, le Chevalier Danois, Ubalde }
 \includeScore "FDAarmideRenaudUbladeChevalier"
 
-\scene "Scène V"
+\scene "Scene V" "Scene V"
 \sceneDescription \markup { \smallCaps Armide, seule. }
 \pieceToc \markup { Armide : \italic { Le perfide Renaud me fuit } }
 \includeScore "FEAarmide"
 \pieceToc \markup Prélude
 \reIncludeScore "FCAprelude" "FEBprelude"
 \includeScore "FECritournelle"
-\actEnd \markup { FIN DU CINQUIÈME ET DERNIER ACTE. }
+\actEnd\markup { FIN DU CINQUIÈME ET DERNIER ACTE. }

@@ -56,5 +56,6 @@
 }
 \includeScore "EDAmelisseChevalierUbalde"
 %% 4-9
+\pieceTocTitle "Entr’acte"
 \reIncludeScore "EABair" "EDBentracte"
-\actEnd \markup { FIN DU QUATRIÈME ACTE }
+\actEnd\markup { FIN DU QUATRIÈME ACTE }
