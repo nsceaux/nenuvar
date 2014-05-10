@@ -45,6 +45,7 @@
 }
 \includeScore "FCBrenaudUbaldeChevalier"
 %% 5-7
+\newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene IV" 
 \sceneDescription\markup\smallCaps {
   Armide, Renaud, Ubalde, le Chevalier Danois.
@@ -55,11 +56,17 @@
 }
 \includeScore "FDAarmideRenaudUbladeChevalier"
 %% 5-8
+\newBookPart #'(full-rehearsal)
 \scene "Scene V" "Scene V"
-\sceneDescription \markup { \smallCaps Armide, seule. }
-\pieceToc \markup { Armide : \italic { Le perfide Renaud me fuit } }
+\sceneDescription\markup { \smallCaps Armide, seule. }
+\pieceToc\markup\wordwrap {
+  \smallCaps Armide : \italic { Le perfide Renaud me fuit }
+}
 \includeScore "FEAarmide"
-\pieceToc \markup Prélude
+%% 5-9
+\pieceToc "Prelude"
 \reIncludeScore "FCAprelude" "FEBprelude"
+%% 5-10
+\pieceToc "[Air]"
 \includeScore "FECritournelle"
 \actEnd\markup { FIN DU CINQUIÈME ET DERNIER ACTE. }

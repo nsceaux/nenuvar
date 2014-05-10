@@ -261,7 +261,7 @@
 %# Il me laisse mourante, il veut que je perisse.
 %# A regret je revoy la clarté qui me luit;
 %# L'*horreur de l'éternelle Nuit
-%# Cede à l'horreur de mon suplice.
+%# Cede à l'*horreur de mon suplice.
 %# Le perfide Renaud me fuit,
 %# Tout perfide qu'il est mon lasche cœur le suit.
 %# Quand le Barbare estoit en ma puissance,
@@ -272,11 +272,11 @@
 %# Il est déja prés du Rivage,
 %# Je faits pour m'y traisner d'inutiles efforts.
 \null
-%# Traistre, atten... je le tien... je tien son cœur perfide.
+%# Traistre, atten... je le tiens... je tiens son cœur perfide.
 %# Ah! je l'immole à ma fureur.
-%# Que dis-je? où fuis-je? helas! Infortunée Armide!
+%# Que dis-je? où suis-je? helas! Infortunée =Armide!
 %# Où t'emporte une aveugle erreur?
-%# L'espoir de ma vengeance est le seul qui me reste.
+%# L'espoir de la vengeance est le seul qui me reste.
 %# Fuy=ez Plaisirs, fuy=ez, perdez tous vos attraits.
 %# Demons détruisez ce Palais.
 %# Partons, & s'il se peut, que mon amour funeste

@@ -1,4 +1,4 @@
-sol,1 |
+\clef "basse" sol,1^\doux |
 sol2 sib,4 sol,4 |
 mib1 |
 re2 re4. re8 |
@@ -20,7 +20,7 @@ sol16 fa16 mib16 re16 do8 sib,8 la,8 sol,8 re8 re,8 |
 sol,4 sol4 re2 |
 mib2 do2 |
 fa1 |
-fad2 sol4. fa8 |
+fad2 sol4. fa?8 |
 mib2 re2 |
 do2. |
 sib,4 sol,8 mib,8 fa,4 fa4 |
@@ -73,8 +73,8 @@ mi4 mi8 fad8 sold4 mi4 |
 la4 mi4 la4 la8. sol16 |
 fad4 re4 sol4 sol8 fad8 |
 mi2 mi8 fad8 sol8 mi8 |
-la4 ( mi4 la4 ) la8 sol8 |
-fad2 ~ fad8 sol8 fad8 mi8 |
+la4 mi4 la4 la8 sol8 |
+fad2~ fad8 sol8 fad8 mi8 |
 re1 |
 do1 |
 si,1 |

@@ -1305,11 +1305,11 @@
 \livretVerse#8 { Il est déja prés du Rivage, }
 \livretVerse#12 { Je faits pour m’y traisner d’inutiles efforts. }
 \null
-\livretVerse#12 { Traistre, atten... je le tien... je tien son cœur perfide. }
+\livretVerse#12 { Traistre, atten... je le tiens... je tiens son cœur perfide. }
 \livretVerse#8 { Ah ! je l’immole à ma fureur. }
-\livretVerse#12 { Que dis-je ? où fuis-je ? helas ! Infortunée Armide ! }
+\livretVerse#13 { Que dis-je ? où suis-je ? helas ! Infortunée Armide ! }
 \livretVerse#8 { Où t’emporte une aveugle erreur ? }
-\livretVerse#12 { L’espoir de ma vengeance est le seul qui me reste. }
+\livretVerse#12 { L’espoir de la vengeance est le seul qui me reste. }
 \livretVerse#12 { Fuyez Plaisirs, fuyez, perdez tous vos attraits. }
 \livretVerse#8 { Demons détruisez ce Palais. }
 \livretVerse#12 { Partons, & s’il se peut, que mon amour funeste }
