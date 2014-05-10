@@ -64,9 +64,12 @@
 }
 \includeScore "FEAarmide"
 %% 5-9
+\newBookPart #'(full-rehearsal)
 \pieceToc "Prelude"
+\markup\italic { On reprend [ce] Prelude & on le jouë tres viste }
+\noPageBreak
 \reIncludeScore "FCAprelude" "FEBprelude"
 %% 5-10
 \pieceToc "[Air]"
 \includeScore "FECritournelle"
-\actEnd\markup { FIN DU CINQUIÈME ET DERNIER ACTE. }
+\actEnd\markup { FIN DU CINQUIESME ET DERNIER ACTE. }
