@@ -1,13 +1,13 @@
-r4 r8 \ubaldeMarkNoClef sib16 sib16 fa4 r8 fa16 sib16 |
+r4 r8  sib16 sib16 fa4 r8 fa16 sib16 |
 mib8 mib8 mib8. mib16 mib8 re8 |
 re2 r2 |
 R1*2 |
-r4 r8 \ubaldeMarkNoClef la8 re'4 sib8 sib8 |
+r4 r8  la8 re'4 sib8 sib8 |
 sol4 sol8 la8 fad4 fad8 re8 |
 sol4 la8 sib8 la4 la8 sib8 |
 sol4 r4 r4 |
 R1*2 |
-r4 \ubaldeMarkNoClef sib,16 do16 re16 mib16 fa8 sol16 la16 |
+r4  sib,16 do16 re16 mib16 fa8 sol16 la16 |
 sib8 sib8 r8 sol16 sol16 re'8 re'16 re'16 |
 si8 si16 si16 do'8 do'16 re'16 mib'8 mib'8 r8 do'8 |
 la8 sib8 sol4 sol8 sol16 la16 |

@@ -18,7 +18,7 @@ R1 |
 R1 |
 R2. |
 R1*5 |
-r4 r8 \chevalierMarkNoClef re'8 re'4 fa'4 |
+r4 r8  re'8 re'4 fa'4 |
 sib4 sib4 sib4 re'4 |
 sol4 sol4 mib'4 mib'4 |
 mib'2 mib'4 fa'4 |
