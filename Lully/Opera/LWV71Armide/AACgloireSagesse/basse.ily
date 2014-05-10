@@ -202,5 +202,5 @@ mi2
 \clef "basse" la4 |
 fa4 fa4 re4 |
 mi2 do4 |
-re4 mi4 mi4 |
+re4 mi4 << \tag #'basse mi4 \tag #'basse-continue mi,4 >> |
 la,2. |

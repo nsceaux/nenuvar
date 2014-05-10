@@ -178,9 +178,9 @@
 %% Prélude
 \tag #'(basse-continue basse prelude) {
   fa,1 |\allowPageTurn
-  fa4. \smallNotes { fa16*2/3 mi re } do4. \smallNotes { do16*2/3 sib, la, } |
-  sol,4. \smallNotes { sol16*2/3 fa mi } re4. \smallNotes { re16*2/3 do sib,} |
-  la,4 ~ la,8. la,16 sib,4. \smallNotes { sib,16*2/3 la, sol, } |
+  fa4.*7/6 \smallNotes { fa32 mi re } do4.*7/6 \smallNotes { do32 sib, la, } |
+  sol,4.*7/6 \smallNotes { sol32 fa mi } re4.*7/6 \smallNotes { re32 do sib,} |
+  la,4~ la,8. la,16 sib,4.*7/6 \smallNotes { sib,32 la, sol, } |
   fa,2 fa2 mib2 |
   re1. |\allowPageTurn
   mib1 re2 |

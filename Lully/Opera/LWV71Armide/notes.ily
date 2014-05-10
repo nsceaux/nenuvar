@@ -32,23 +32,10 @@
     }
     \line { Livret imprimé. }
     \null
-
-    %% MANUSCRIT
-    \line\bold { [Manuscrit] }
-    \line { \italic Armide. }
-    \wordwrap-lines {
-      University of North Texas, M1500.L95 A7 1600z.
-      \with-url #"http://digital.library.unt.edu/ark:/67531/metadc53"
-      \smaller\typewriter "http://digital.library.unt.edu/ark:/67531/metadc53"
-    }
-    \line { Partition complète manuscrite, non datée, signée Conteuille. }
-    \null
   }
   \paragraph {
     Cette édition \concat { d' \italic Armide } est basée
-    sur l'édition [Ballard].  Le document [Manuscrit]
-    a été consulté en cas de doute sur des passages corrigés
-    de façon manuscrite sur la source [Ballard].
+    sur l'édition [Ballard].
     Dans ce matériel, les clés sont modernisées ;
     les altérations qui ne sont pas explicites dans [Ballard 1686]
     sont suggérées entre parenthèses.  En effet, les altérations

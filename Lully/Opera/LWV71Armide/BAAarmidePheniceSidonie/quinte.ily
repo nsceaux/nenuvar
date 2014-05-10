@@ -8,7 +8,8 @@
 \tag #'prelude {
   \noHaraKiri
   R1*3 |
-  r4 r8 \smallNotes { fa'16*2/3 mib' fa' } re'4. \smallNotes { re16*2/3 fa sol } |
+  r4 r8*3/2 \smallNotes { fa'32 mib' fa' }
+  re'4.*7/6 \smallNotes { re32 fa sol } |
   do2 fa1 |
   fa1 fa2 |
   mib2. sol4 fa4 fa4 |

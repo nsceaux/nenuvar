@@ -56,10 +56,14 @@
 }
 %% Prélude
 \tag #'(dessus prelude) {
-  r4 r8 \smallNotes { fa''16*2/3 mi'' re'' } do''4. \smallNotes { re''16*2/3 do'' sib' } |
-  la'4. \smallNotes { la'16*2/3 sol' fa' } sol'4. \smallNotes { sol'16*2/3 sol' la' } |
-  sib'4. \smallNotes { sib'16*2/3 la' sol' } la'4. \smallNotes { la'16*2/3 la' sib' } |
-  do''4. \smallNotes { sib'16*2/3 do'' la' } re''4. \smallNotes { re''16*2/3 do'' sib' } |
+  r4 r8*3/2 \smallNotes { fa''32 mi'' re'' }
+  do''4.*7/6 \smallNotes { re''32 do'' sib' } |
+  la'4.*7/6 \smallNotes { la'32 sol' fa' }
+  sol'4.*7/6 \smallNotes { sol'32 sol' la' } |
+  sib'4.*7/6 \smallNotes { sib'32 la' sol' }
+  la'4.*7/6 \smallNotes { la'32 la' sib' } |
+  do''4.*7/6 \smallNotes { sib'32 do'' la' }
+  re''4.*7/6 \smallNotes { re''32 do'' sib' } |
   la'2. fa'4 do'4 do'4 |
   re'1 re'2 |
   sib2 sib4 mib'4 fa'4 fa'4 |

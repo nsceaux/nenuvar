@@ -112,7 +112,9 @@
       Sur l’édition Ballard, les trois noires sont : \italic { sol mi sol, }
       les deux dernières étant corrigées de façon manuscrite en :
       \italic { do mi. }
-      Le manuscrit contient à l'origine la version imprimée dans 
+      Le manuscrit [University of North Texas, M1500.L95 A7 1600z,
+      \smaller\typewriter "http://digital.library.unt.edu/ark:/67531/metadc53"]
+      contient à l'origine la version imprimée dans 
       Ballard, mais les notes sont gratées et corrigées en :
       \italic { mi do mi.}
       C’est la version conservée ici, estimant que les intervalles

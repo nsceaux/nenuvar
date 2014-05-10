@@ -6,10 +6,12 @@
   R1 R2.*3 R1 R1*2 R2. R1*5 R2. R1.*4 |
 }
 \tag #'prelude {
-  r2 r4 r8 \smallNotes { fa'16*2/3 mi' re' } |
-  do'4. \smallNotes { do'16*2/3 do' re' } mi'4. \smallNotes { mi'16*2/3 mi' fad' } |
-  sol'4. \smallNotes { re'16*2/3 re' mi' } fa'4. \smallNotes { fa'16*2/3 fa' sol' } |
-  la'4 ~ la'8. la'16 fa'4. \smallNotes { fa'16*2/3 fa' mi' } |
+  r2 r4 r8*3/2 \smallNotes { fa'32 mi' re' } |
+  do'4.*7/6 \smallNotes { do'32 do' re' }
+  mi'4.*7/6 \smallNotes { mi'32 mi' fad' } |
+  sol'4.*7/6 \smallNotes { re'32 re' mi' }
+  fa'4.*7/6 \smallNotes { fa'32 fa' sol' } |
+  la'4~ la'8. la'16 fa'4.*7/6 \smallNotes { fa'32 fa' mi' } |
   fa'2. la4 la4 la4 |
   sib1 sib2 |
   sib1 si4 re'4 |

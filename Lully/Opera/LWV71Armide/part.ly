@@ -1,4 +1,4 @@
-\setOpus "Lully/Opera/LWV71Armide"
+\include "Lully/Opera/LWV71Armide/common.ily"
 
 %% Title page
 \bookpart {
@@ -9,7 +9,11 @@
 %% Table of contents
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
-  \markuplist \abs-fontsize-lines #8 \table-of-contents
+  \markuplist
+  \abs-fontsize-lines #8
+  \override-lines #'(use-rehearsal-numbers . #t)
+  \override-lines #'(column-number . 2)
+  \table-of-contents
 }
 
 \include "Lully/Opera/LWV71Armide/prologue.ily"

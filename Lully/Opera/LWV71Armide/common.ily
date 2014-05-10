@@ -70,7 +70,7 @@
     "Haute-contre" ((haute-contre #f "treble"))
     (#:notes "haute-contre" #:clef "treble"))
    (taille
-    "Tailles" ()
+    "Tailles de violons, flûtes" ()
     (#:notes "taille" #:clef "alto"))
    (quinte
     "Quintes" ()

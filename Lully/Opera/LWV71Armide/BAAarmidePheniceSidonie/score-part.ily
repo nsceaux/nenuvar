@@ -77,6 +77,7 @@
 
 \score {
   \new Staff <<
+    \set Score.currentBarNumber = #155
     \keepWithTag #'prelude \global
     \keepWithTag #'prelude \includeNotes #(*note-filename*)
     \clef #(*clef*)

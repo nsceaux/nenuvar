@@ -7,7 +7,6 @@
 \pieceTocTitle "Ouverture"
 \includeScore "AAAouverture"
 %% 0-2
-%\newBookPart #'(full-rehearsal)
 \sceneDescription\markup\center-column {
   \line { \smallCaps { La Gloire. } Suitte de la Gloire. }
   \line { \smallCaps { La Sagesse. } Suitte de la Sagesse. }

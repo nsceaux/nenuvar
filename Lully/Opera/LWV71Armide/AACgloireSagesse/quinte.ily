@@ -51,6 +51,10 @@ si2 r4 |
 R2.*3 |
 r4 r la4 |
 la4 la4 re'4 |
-si2 la4 |
-fa'4 mi'4. mi'8 |
-mi'2. |
+si2 <<
+  { la4 | fa'4 mi'4.\tr mi'8 | mi'2. | }
+  \\ \new CueVoice {
+    \voiceTwo <>_\markup\whiteout "[variante manuscrite]"
+    do'4 | fa mi4. mi8 | mi2. |
+  }
+>>
