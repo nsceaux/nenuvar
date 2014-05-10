@@ -4,7 +4,7 @@
   Le Theatre change & represente le Palais enchanté d’Armide.
 }
 \scene "Scene Premiere" "Scene I"
-\sceneDescription \markup \smallCaps { Renaud, Armide. }
+\sceneDescription\markup\smallCaps { Renaud, Armide. }
 %% 5-1
 \pieceToc\markup\wordwrap {
   \smallCaps { Armide, Renaud : }
@@ -14,21 +14,21 @@
 %% 5-2
 \newBookPart #'(full-rehearsal)
 \scene "Scene II" "Scene II"
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps Renaud, les Plaisirs,
+  Troupe d’Amans fortunez, & d’Amantes heureuses.
+}
 \pieceTocTitle "Passacaille"
 \includeScore "FBApassacaille"
 %% 5-3
-\pieceToc \markup {
-  Un amant fortuné, chœur :
-  \italic { Les plaisirs ont choisi pour asile ce séjour agréable et tranquille }
+\newBookPart #'(full-rehearsal)
+\pieceToc\markup\wordwrap {
+  \smallCaps { Un amant fortuné, chœur : }
+  \italic { Les plaisirs ont choisi pour azile }
 }
 \includeScore "FBBamant"
-\markup \title \wordwrap-center {
-  On reprend le premier récit et le premier couplet du chœur
-  de la passacaille page \page-refIII #'FBBamant " "
-  jusqu'au mot \italic fin. Puis on joue la passacaille de violons 
-  page \page-refIII #'FBApassacaille ,
-  et on reprend encore le premier récit et le premier couplet du chœur.
-}
+%% 5-4
+\newBookPart #'(full-rehearsal)
 \pieceToc \markup { Renaud : \italic { Allez, éloignez-vous de moi doux plaisirs. } }
 \includeScore "FBCrenaud"
 

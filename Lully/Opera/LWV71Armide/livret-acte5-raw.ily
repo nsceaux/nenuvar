@@ -116,7 +116,7 @@
 \null
 %# Jeunes Cœurs, tout vous est favorable.
 %# Profitez d'un bonheur peu durable.
-%# Dans l'hyver de nos ans, L'Amour ne regne plus.
+%# Dans l'*hyver de nos ans, L'Amour ne regne plus.
 %# Les beaux jours que l'on perd sont pour jamais perdus.
 \null
 %# Les plaisirs ont choisi pour azile

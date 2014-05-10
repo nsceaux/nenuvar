@@ -1,5 +1,0 @@
-\includeNotes "dessus-a"
-s4*0^"Flûtes" \includeNotes "dessus-b1"
-s4*0^"Violons" \includeNotes "dessus-c"
-s4*0^"Flûtes" \includeNotes "dessus-d1"
-s4*0^"Violons" \includeNotes "dessus-e"

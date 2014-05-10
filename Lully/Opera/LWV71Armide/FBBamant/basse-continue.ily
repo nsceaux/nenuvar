@@ -1,4 +1,4 @@
-sol2 |
+\clef "basse" sol2 |
 fa2. |
 mib2. |
 re4 re,2 |
@@ -94,7 +94,7 @@ sol,4 sol4 la4 |
 sib4 si4. si8 |
 do'4 sib4 la4 |
 sol4 re4 re,4 |
-sol,4 \clef "mezzosoprano/treble" sol'8 la'8 sib'8 sol'8 |
+sol,4 \clef "alto/treble" sol'8 la'8 sib'8 sol'8 |
 la'4 la'8 sib'8 do''8 la'8 |
 sib'4 la'4. la'8 |
 sol'4 re'4 re'4 |
