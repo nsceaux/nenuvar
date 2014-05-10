@@ -149,7 +149,7 @@
 \livretRef #'BCAritournelle
 \livretDidasPPage\justify {
   Les Peuples du Royaume de Damas témoignent par des danses & par des
-  chants la joye qy'ils ont de l'avantage que la beauté de cette
+  chants la joye qu’ils ont de l'avantage que la beauté de cette
   Princesse a remporté sur les Chevaliers du Camp de Godefroy.
 }
 \livretRef #'BCBhidraot
@@ -211,7 +211,7 @@
 \livretDidasP\justify {
   Le triomphe d’Armide est interrompu par l'arrivée d’Aronte,
   qui avoit été chargé de la conduite des Chevaliers captifs,
-  & qui revient blessé, & tenant à la main un tronçon d'épée.
+  & qui revient blessé, & tenant à la main un tronçon d’épée.
 }
 
 \livretScene SCENE IV

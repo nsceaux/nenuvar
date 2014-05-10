@@ -186,6 +186,6 @@
 %# Je ne puis te punir d'une plus rude peine
 %# Que de t'abandonner pour jamais à l'Amour.
 \null
-\livretDidasP\justify { La Haine & sa Suite s'abisme. }
+\livretDidasP\justify { La Haine & sa Suite s’abisme. }
 \livretFinAct Fin du troisiéme Acte
 \sep

@@ -1,4 +1,4 @@
-\tocItem "NOTES"
+\tocItem "Notes"
 \markuplist\column-lines {
   \act { NOTES }
   \paragraph {
@@ -51,7 +51,7 @@
   \paragraph {
     La matériel d'orchestre est constitué des parties
     séparées suivantes : dessus (violons, flûtes, hautbois),
-    hautes-contre, tailles, quintes, basses et bassons, basse continue.
+    hautes-contre, tailles, quintes, basses, basse continue.
   }
   \null
   \paragraph {

@@ -4,7 +4,9 @@
   Le Theatre change & represente le Palais enchanté d’Armide.
 }
 \scene "Scene Premiere" "Scene I"
-\sceneDescription\markup\smallCaps { Renaud, Armide. }
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps { Armide, Renaud } sans armes, & paré de Guirlandes de fleurs.
+}
 %% 5-1
 \pieceToc\markup\wordwrap {
   \smallCaps { Armide, Renaud : }
@@ -14,9 +16,15 @@
 %% 5-2
 \newBookPart #'(full-rehearsal)
 \scene "Scene II" "Scene II"
-\sceneDescription\markup\wordwrap-center {
-  \smallCaps Renaud, les Plaisirs,
-  Troupe d’Amans fortunez, & d’Amantes heureuses.
+\sceneDescription\markup\column {
+  \wordwrap-center {
+    \smallCaps [Renaud, les Plaisirs,
+    Troupe d’Amans fortunez, & d’Amantes heureuses.]
+  }
+  \smaller\italic\justify {
+    [Les Plaisirs, & une Troupe d’Amants fortunez, & d’Amantes heureuses,
+    viennent divertir Renaud par des Chants & par des Danses.]
+  }
 }
 \pieceTocTitle "Passacaille"
 \includeScore "FBApassacaille"

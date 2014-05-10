@@ -24,6 +24,11 @@
     sib4 sib8. re'16 sol'8. sol'16 |
     mi'4 do'8 do'8 fa'4 fa'8 mi'8 |
     fa'2 r2 |
+    <>_\markup\italic\column {
+      \line { [Renaud arrache les Guirlandes de fleurs & les autres ornemens }
+      \line { inutiles dont il est paré. Il reçoit le Bouclier de Diamans que luy }
+      \line { donne Ubalde, & une Epée que luy presente le Chevalier Danois.] }
+    }
     R1*3 |
     <<
       \tag #'basse { s1*14 s4. \renaudMark }
@@ -66,6 +71,10 @@
   \tag #'(ubalde basse) {
     \clef "vbasse" r4 r8  sib16 sib16 fa4 r8 fa16 sib16 |
     mib8 mib8 mib8.\tr mib16 mib8 re8 |
+    \tag #'ubalde <>^\markup\italic\column {
+      \line { [Ubalde presente le Bouclier de }
+      \line { Diamans aux yeux de Renaud.] }
+    }
     re2 r2 |
     <<
       \tag #'basse { s1*2 s4. \ubaldeMark }

@@ -2,9 +2,14 @@
 %% 2-1
 \act "Acte Second"
 \scene "Scene Premiere" "Scene I"
-\sceneDescription\markup\column {
-  \fill-line { "Le Theatre change & represente une Isle agreable." }
-  \fill-line { \line\smallCaps { Artemidore, Renaud. } }
+\sceneDescription\markup\center-column {
+  \fill-line {
+    \wordwrap-center {
+      Le Theatre change, & represente [une Campagne, ou une Riviere
+      forme] une Isle agreable.
+    }
+  }
+  \fill-line { \smallCaps Artemidore, Renaud. }
 }
 \pieceToc\markup\wordwrap {
   \smallCaps { Artemidore, Renaud : }
@@ -20,15 +25,25 @@
   \italic { Arrestons-nous icy, c'est dans ce lieu fatal }
 }
 \includeScore "CBAarmideHidraot"
+\sceneDescription\markup\smaller\italic\center-column {
+ \line { [Hidraot & Armide se retirent. }
+ \justify {
+   Renaud s’arrête pour considerer les bords du Fleuve,
+   & quitte une de ses armes pour prendre le frais.]
+ }
+}
 %% 2-3
 \newBookPart #'(full-rehearsal)
 \scene "Scene III" "Scene III"
 \sceneDescription\markup { \smallCaps Renaud, seul. }
 \pieceToc\markup\wordwrap {
   \smallCaps Renaud :
-  \italic { Plus j'observe ces lieux, & plus je les admire }
+  \italic { Plus j’observe ces lieux, & plus je les admire }
 }
 \includeScore "CCArenaud"
+\sceneDescription\markup\smaller\italic\justify {
+  [Renaud s’endort sur un Gazon, au bord de la Riviere.]
+}
 %% 2-4
 \newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene IV"
@@ -47,6 +62,11 @@
 }
 \includeScore "CDBchoeur"
 %% 2-6
+\sceneDescription\markup\smaller\italic\justify {
+  [Les Demons sous la figure des Nymphes, des Bergers & des Bergeres,
+  enchantent Renaud, & l’enchaînent durant son sommeil avec des
+  Guirlandes de fleurs.]
+}
 \pieceTocTitle "Premier Air"
 \includeScore "CDCair"
 %% 2-7
@@ -87,6 +107,9 @@
 }
 \includeScore "CEAarmide"
 %% 2-12
+\sceneDescription\markup\smaller\italic\justify {
+  [Les Demons transformez en Zephirs, enlevent Renaud & Armide.]
+}
 \pieceTocTitle "Entr'acte"
 \reIncludeScore "AADentree" "CEBentract"
 \actEnd \markup { FIN DU SECOND ACTE }

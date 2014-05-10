@@ -73,6 +73,7 @@
     la'2 re''4 re''4 |
     mib''2 do''4 la'4 |
     fad'4 sol'4 sol'4( fad'4) |
+    \tag #'armide <>^\markup\italic { [Armide tombe & s'évanoüit.] }
     sol'1 |
     \tag #'armide { R1 R2.*3 R1*2 R2. R1 R2.*3 R1 R2. R1*3 R2.*2 R1 }
   }
@@ -81,7 +82,12 @@
     <<
       \tag #'basse { s1*4 s2. s1*6 s2.*2 s1*5 s2. s1 s2.*2 s1*7 s2 \renaudMark }
       \tag #'renaud {
-        \clef "vhaute-contre" R1*4 R2. R1*6 R2.*2 R1*5 R2. R1 R2.*2 R1*7 | r2
+        \clef "vhaute-contre" R1*4 R2. R1*6 R2.*2 R1*2
+        <>^\markup\italic\column {
+          \line { [Renaud s'arrête pour êcouter Armide }
+          \line { qui continue à luy parler.] }
+        }
+        R1*3 R2. R1 R2.*2 R1*7 | r2
       }
     >>
     r4 r8 sol'8 |
@@ -118,7 +124,13 @@
     re'4 re'8 re'8 re'8 dod'8 |
     re'4 <<
       \tag #'basse { re'8 s s2 s2. s1*2 \renaudMark }
-      \tag #'renaud { re'4 r2 | R2. | R1*2 | }
+      \tag #'renaud {
+        re'4 <>_\markup\italic\column {
+          \line { [Ubalde & le Chevalier Danois }
+          \line { emmenent Renaud malgré lui.] }
+        }
+        r2 | R2. | R1*2 |
+      }
     >>
     re'8 re'16 re'16 sol'8 re'8 mib'8 mib'8 r8 do'8 |
     la4 r8 fad'8 fad'8 la'8 |

@@ -26,6 +26,10 @@
  \smallCaps Armide : \italic { Venez, venez, Haine implacable }
 }
 \includeScore "DCAarmide"
+\sceneDescription\markup\smaller\italic\justify {
+  [La Haine sort des Enfers, accompagnée des Furies, de la Cruauté,
+  Vengeance, de la Rage, & des Passions qui dépendent de la Haine.]
+}
 %% 3-4
 \newBookPart #'(full-rehearsal)
 \scene "Scene IV" "Scene IV"

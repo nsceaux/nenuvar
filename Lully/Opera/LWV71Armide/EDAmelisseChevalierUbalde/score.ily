@@ -32,6 +32,12 @@
     \new Staff <<
       \global \includeNotes "basse-continue"
       \includeFigures "chiffres"
+      { s4 s2.*43 s1 s2.*50
+        <>^\markup\italic\column {
+          \line { Le Chevalier Danois oste le Sceptre d’or des mains }
+          \line { d’Ubalde, il en touche Melisse, & la fait disparoistre. }
+        }
+      }
       \origLayout {
         s4 s2.*5\pageBreak
         s2.*6\break s2.*6\break s2.*7\pageBreak

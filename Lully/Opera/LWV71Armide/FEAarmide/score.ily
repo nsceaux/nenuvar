@@ -16,6 +16,12 @@
     \new Staff \with { instrumentName = "Basse-Continue" } <<
       \global \includeNotes "basse"
       \includeFigures "chiffres"
+      { s1*24 s2. s1*76
+        \endMarkSmall\markup\right-column {
+          \line { [Les Demons détruisent le Palais enchanté }
+          \line { & Armide part sur un char volant.] }
+        }
+      }
       \origLayout {
         s1*8\break s1*8\pageBreak s1*3\break s1*4\pageBreak
         s1 s2. s1\break s1*3\pageBreak s1*4\break s1*3\pageBreak

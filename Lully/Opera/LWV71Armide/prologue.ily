@@ -25,10 +25,9 @@
 \includeScore "AACgloireSagesse"
 %% 0-4
 \sceneDescription\markup\smaller\italic\justify {
-  [La Suite de la gloire & celle de la Sagesse
-  témoignent par des Danses la joye qu'elles ont
-  de voir ces deux Divinitez dans une intelligence
-  parfaite.]
+  [La Suite de la Gloire & celle de la Sagesse témoignent par des
+  Danses la joye qu'elles ont de voir ces deux Divinitez dans une
+  intelligence parfaite.]
 }
 \pieceTocTitle "Entrée"
 \includeScore "AADentree"
@@ -47,6 +46,10 @@
 \includeScore "AAGgloireSagesse"
 %% 0-8
 \newBookPart #'(full-rehearsal)
+\sceneDescription\markup\smaller\italic\justify {
+  [La suite de la Gloire & celle de la Sagesse continüent leur
+  rejoüissance.]
+}
 \pieceTocTitle "Entrée"
 \includeScore "AAHentree"
 %% 0-9

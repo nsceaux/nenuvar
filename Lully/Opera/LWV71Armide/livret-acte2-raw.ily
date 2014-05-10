@@ -88,7 +88,7 @@
 %# Esprits de haine & de rage,
 %# Demons, obe=ïssez-nous.
 \livretDidasP\justify {
-  Armide aperçoit Renaud qui s'aproche des bords de la riviere.
+  Armide aperçoit Renaud qui s’aproche des bords de la riviere.
 }
 \livretPers ARMIDE
 %# Dans le piege fatal nostre Ennemy s'engage.
@@ -103,7 +103,7 @@
   Hidraot & Armide se retirent.
 }
 \livretDidasP\justify {
-  Renaud s'arrête pour considere les bords du Fleuve, & quitte une
+  Renaud s’arrête pour considerer les bords du Fleuve, & quitte une
   de ses armes pour prendre le frais.
 }
 
@@ -122,7 +122,7 @@
 %# Ce gazon, cét ombrage frais,
 %# Tout m'invite au repos sous ce feüillage espais.
 \livretDidasP\justify {
-  Renaud s'endort sur un Gazon, au bord de la Riviere.
+  Renaud s’endort sur un Gazon, au bord de la Riviere.
 }
 
 \livretScene SCENE IV
@@ -150,7 +150,7 @@
 \livretRef #'CDCair
 \livretDidasPPage\justify {
   Les Demons sous la figure des Nymphes, des Bergers & des Bergeres,
-  enchantent Renaud, & l'enchaînent durant son sommeil avec des
+  enchantent Renaud, & l’enchaînent durant son sommeil avec des
   Guirlandes de fleurs.
 }
 \livretRef #'CDEbergere

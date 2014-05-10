@@ -150,6 +150,10 @@
 %% Récit
 <<
   \tag #'(armide basse) {
+    \tag #'armide <>^\markup\italic\column {
+      \line { [Armide aperçoit Renaud qui }
+      \line { s’aproche des bords de la riviere.] }
+    }
     r4 r8 si'16 re''16 sol'8 sol'16 sol'16 |
     do''4 la'8 la'16 la'16 re''8 re''8 |
     si'8\tr si'8 <<

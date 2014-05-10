@@ -254,7 +254,7 @@
 \livretRef #'BCAritournelle
 \livretDidasPPage\justify {
   Les Peuples du Royaume de Damas témoignent par des danses & par des
-  chants la joye qy'ils ont de l'avantage que la beauté de cette
+  chants la joye qu’ils ont de l'avantage que la beauté de cette
   Princesse a remporté sur les Chevaliers du Camp de Godefroy.
 }
 \livretRef #'BCBhidraot
@@ -316,7 +316,7 @@
 \livretDidasP\justify {
   Le triomphe d’Armide est interrompu par l'arrivée d’Aronte,
   qui avoit été chargé de la conduite des Chevaliers captifs,
-  & qui revient blessé, & tenant à la main un tronçon d'épée.
+  & qui revient blessé, & tenant à la main un tronçon d’épée.
 }
 
 \livretScene SCENE IV
@@ -449,7 +449,7 @@
 \livretVerse#7 { Esprits de haine & de rage, }
 \livretVerse#7 { Demons, obeïssez-nous. }
 \livretDidasP\justify {
-  Armide aperçoit Renaud qui s'aproche des bords de la riviere.
+  Armide aperçoit Renaud qui s’aproche des bords de la riviere.
 }
 \livretPers ARMIDE
 \livretVerse#12 { Dans le piege fatal nostre Ennemy s’engage. }
@@ -464,7 +464,7 @@
   Hidraot & Armide se retirent.
 }
 \livretDidasP\justify {
-  Renaud s'arrête pour considere les bords du Fleuve, & quitte une
+  Renaud s’arrête pour considerer les bords du Fleuve, & quitte une
   de ses armes pour prendre le frais.
 }
 
@@ -483,7 +483,7 @@
 \livretVerse#8 { Ce gazon, cét ombrage frais, }
 \livretVerse#12 { Tout m’invite au repos sous ce feüillage espais. }
 \livretDidasP\justify {
-  Renaud s'endort sur un Gazon, au bord de la Riviere.
+  Renaud s’endort sur un Gazon, au bord de la Riviere.
 }
 
 \livretScene SCENE IV
@@ -511,7 +511,7 @@
 \livretRef #'CDCair
 \livretDidasPPage\justify {
   Les Demons sous la figure des Nymphes, des Bergers & des Bergeres,
-  enchantent Renaud, & l'enchaînent durant son sommeil avec des
+  enchantent Renaud, & l’enchaînent durant son sommeil avec des
   Guirlandes de fleurs.
 }
 \livretRef #'CDEbergere
@@ -764,7 +764,7 @@
 \livretVerse#12 { Je ne puis te punir d’une plus rude peine }
 \livretVerse#12 { Que de t’abandonner pour jamais à l’Amour. }
 \null
-\livretDidasP\justify { La Haine & sa Suite s'abisme. }
+\livretDidasP\justify { La Haine & sa Suite s’abisme. }
 \livretFinAct Fin du troisiéme Acte
 \sep
 \livretAct ACTE IV

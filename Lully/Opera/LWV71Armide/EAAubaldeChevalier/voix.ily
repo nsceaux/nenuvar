@@ -28,13 +28,24 @@
     } sib8 re'8 |
     sol8 sol8 sib8 mib'8 do'4\tr do'8 fa'8 |
     re'4\tr re'4 r2 |
+    \tag #'chevalier <>_\markup\italic\column {
+      \line { [Le Chevalier Danois attaque les Monstres, Ubalde le }
+      \line { retient, & lui montre le Sceptre d'or qu'il porte, & qui }
+      \line { leur a été donné pour dissiper les Enchantemens.] }
+    }
     R1*5 |
     <<
       \tag #'basse {
         s1*3 s2. s1*2 s2. s1*3 s2. s1*3 \modVersion s1*8 s1*4 \chevalierMark
       }
       \tag #'chevalier {
-        R1*3 | R2. R1*2 R2. R1*3 R2. R1*3 \modVersion R1*8 R1*4 |
+        R1*3 | R2. R1*2 R2. R1*3 R2. R1*3 \modVersion R1*8
+        <>_\markup\italic\column {
+          \line { [Les Monstres s’abisment, la vapeur se dissipe, le Desert }
+          \line { disparoit, & se change en une Campagne agreable, bordée }
+          \line { d’arbres chargez de fruits & arrosée de Ruisseaux.] }
+        }
+        R1*4 |
       }
     >>
     r4 r8 fa'8 do'8 do'8 do'8 do'8 |
