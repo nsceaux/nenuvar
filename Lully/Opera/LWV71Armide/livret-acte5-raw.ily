@@ -218,7 +218,7 @@
 %# Tu m'entends soûpirer, tu vois coulez mes pleurs,
 %# Sans me rendre un soûpir, sans verser une larme.
 %# Par les nœuds les plus doux je te conjure en vain;
-%# Tu fuis un fier Devoir, tu veux qu'il nous separe:
+%# Tu suis un fier Devoir, tu veux qu'il nous separe:
 %# Non, non, ton cœur n'a rien d'humain,
 %# Le cœur d'un Tigre est moins barbare.
 %# Je mourray si tu parts, & tu n'en peut douter,

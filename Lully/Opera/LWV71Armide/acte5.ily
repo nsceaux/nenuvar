@@ -46,10 +46,15 @@
 \includeScore "FCBrenaudUbaldeChevalier"
 %% 5-7
 \scene "Scene IV" "Scene IV" 
-\sceneDescription \markup \smallCaps { Armide, Renaud, Ubalde, le Chevalier Danois. }
-\pieceToc \markup { Armide, Renaud, le Chevalier Danois, Ubalde }
+\sceneDescription\markup\smallCaps {
+  Armide, Renaud, Ubalde, le Chevalier Danois.
+}
+\pieceToc\markup\wordwrap {
+  \smallCaps { Armide, Renaud, le Chevalier Danois, Ubalde : }
+  \italic { Renaud ? Ciel ! ô mortelle peine ! }
+}
 \includeScore "FDAarmideRenaudUbladeChevalier"
-
+%% 5-8
 \scene "Scene V" "Scene V"
 \sceneDescription \markup { \smallCaps Armide, seule. }
 \pieceToc \markup { Armide : \italic { Le perfide Renaud me fuit } }
