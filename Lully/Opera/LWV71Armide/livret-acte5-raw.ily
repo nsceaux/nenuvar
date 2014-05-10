@@ -125,7 +125,7 @@
 %# Pour les heureux Amants!
 \livretRef #'FBCrenaud
 \livretPers RENAUD
-%# Allez, =éloignés-vous de moy
+%# Allez, =éloignez-vous de moy
 %# Doux Plaisirs, attendez qu'Armide vous rameine:
 %# Sans la Beauté qui me tient sous sa loy
 %# Rien ne me plaist, tout augmente ma peine.

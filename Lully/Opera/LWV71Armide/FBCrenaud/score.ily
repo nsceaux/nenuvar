@@ -1,11 +1,15 @@
 \score {
-  \new StaffGroupNoBar <<
+  \new ChoirStaff <<
     \new Staff \withLyrics <<
-      \global \clef "vhaute-contre" { s2 \renaudMarkNoClef } \includeNotes "renaud"
-    >> \includeLyrics "paroles"
-    \new Staff << \global \clef "basse" \includeNotes "basse"
-                  \includeFigures "chiffres" >>
+      \characterName "Renaud"
+      \global \includeNotes "voix"
+      >> \includeLyrics "paroles"
+    \new Staff \with { instrumentName = "Basse-Continue" } <<
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
+      \origLayout { s1*3\break s1*4\break s1*3\break }
+    >>
   >>
-  \layout { }
+  \layout { indent = \largeindent }
   \midi { }
 }

@@ -1158,7 +1158,7 @@
 \livretVerse#6 { Pour les heureux Amants ! }
 \livretRef #'FBCrenaud
 \livretPers RENAUD
-\livretVerse#8 { Allez, éloignés-vous de moy }
+\livretVerse#8 { Allez, éloignez-vous de moy }
 \livretVerse#12 { Doux Plaisirs, attendez qu’Armide vous rameine : }
 \livretVerse#10 { Sans la Beauté qui me tient sous sa loy }
 \livretVerse#10 { Rien ne me plaist, tout augmente ma peine. }
