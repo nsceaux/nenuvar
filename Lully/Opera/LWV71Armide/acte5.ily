@@ -29,15 +29,22 @@
 \includeScore "FBBamant"
 %% 5-4
 \newBookPart #'(full-rehearsal)
-\pieceToc \markup { Renaud : \italic { Allez, éloignez-vous de moi doux plaisirs. } }
+\pieceToc\markup\wordwrap {
+  \smallCaps Renaud : \italic { Allez, éloignez-vous de moy }
+}
 \includeScore "FBCrenaud"
-
+%% 5-5
 \scene "Scene III" "Scene III"
-\sceneDescription \markup \smallCaps { Renaud, Ubalde, le Chevalier Danois. }
-\pieceToc \markup { Renaud, Ubalde, le Chevalier danois }
+\sceneDescription\markup\smallCaps { Renaud, Ubalde, le Chevalier Danois. }
+\pieceTocTitle "Prelude"
 \includeScore "FCAprelude"
+%% 5-6
+\pieceToc\markup\wordwrap {
+  \smallCaps { Renaud, Ubalde, le Chevalier Danois : }
+  \italic { Il est seul ; profitons d'un temps si precieux }
+}
 \includeScore "FCBrenaudUbaldeChevalier"
-
+%% 5-7
 \scene "Scene IV" "Scene IV" 
 \sceneDescription \markup \smallCaps { Armide, Renaud, Ubalde, le Chevalier Danois. }
 \pieceToc \markup { Armide, Renaud, le Chevalier Danois, Ubalde }
