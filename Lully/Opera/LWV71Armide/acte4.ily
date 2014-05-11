@@ -27,7 +27,7 @@
 %% 4-3
 \newBookPart #'(full-rehearsal)
 \scene "Scene II" "Scene II"
-\sceneDescription\markup\center-colum {
+\sceneDescription\markup\center-column {
   \wordwrap-center {
     [Un Demon sous la figure de Lucinde, fille Danoise, aimée du
     Chevalier Danois. Troupe de Demons transformez en habitans

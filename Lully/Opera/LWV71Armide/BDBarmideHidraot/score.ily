@@ -63,7 +63,7 @@
       \new ChoirStaff <<
         \new Staff \withLyrics <<
           \characterName "Armide"
-          \global \includeNotes "voix"
+          \global \keepWithTag #'armide-choeur \includeNotes "voix"
         >> \keepWithTag #'(armide vdessus) \includeLyrics "paroles"
         \new Staff \with { \haraKiriFirst } \withLyrics <<
           \global \includeNotes "voix-haute-contre"

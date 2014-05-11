@@ -84,7 +84,7 @@ la4 la4 mi4 |
 fa8 sol8 fa8 mi8 re4 |
 sol4 fa8 mi8 re4 |
 do4 sol4 sol,4 |
-do2. |
+do2. | %\allowPageTurn
 do'2 do'4 |
 sib2. |
 la4 la8 sol8 fa4 |
@@ -123,7 +123,7 @@ sol,2 sol8 fa8 |
 mib4. fa8 mib8 re8 |
 do2 do'8 sib8 |
 lab4. sol8 fa4 |
-sol2 sol4 |\allowPageTurn
+sol2 sol4 |
 do'4 la4 fa4 |
 sib4. sib8 la8 sol8 |
 re'4 re8 do8 sib,4 |
@@ -139,7 +139,7 @@ mib4. mib8 sib4. sib8 |
 lab4. sol8 fa4. sol8 |
 lab4 fa4 sol4. sol8 |
 sol8 do8 si,8 do8 sol,2 |
-do2 sib,2 |
+do2 sib,2 | \allowPageTurn
 lab,2 sol,4 lab,4 |
 sib,2 mib4. re8 |
 do4. re8 mib4 do4 |

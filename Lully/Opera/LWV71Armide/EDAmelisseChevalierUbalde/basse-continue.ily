@@ -80,7 +80,7 @@ mi2 re4 |
 do2 do4 |
 dod2. |
 re2 re,4 |
-sol,2. |
+sol,2. | \allowPageTurn
 do,4 do4 la,4 |
 re4. do8 si,8 la,8 |
 mi2 mi4 |

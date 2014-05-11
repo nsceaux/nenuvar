@@ -76,7 +76,7 @@
     "Quintes" ()
     (#:notes "quinte" #:clef "alto"))
    (basse
-    "Basses, bassons" ()
+    "Basses" ()
     (#:notes "basse" #:clef "basse"))
    (basse-continue
     "Basse continue" ()

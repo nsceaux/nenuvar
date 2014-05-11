@@ -137,7 +137,7 @@ fa4 mi8 re8 la8 la,8 |
 re8 re'8 sib8 sol8 re'4 re4 |
 sib,4 do8 sib,8 la,8 sol,8 re8 re,8 |
 sol,2 sol4. sol8 |
-sol4 fad4 sol2 |
+sol4 fad4 sol2 | \allowPageTurn
 sold4. mi8 la4. la8 |
 sol2 fad4 dod4 |
 re4. mi8 fad4 sol4~ |
