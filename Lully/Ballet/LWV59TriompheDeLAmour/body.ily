@@ -42,14 +42,15 @@
 \pieceTocTitle "Menuet pour les mesmes"
 \includeScore "AHmenuet"
 %% 1-9
+\pieceToc\markup\wordwrap {
+  Deuxième Menüet pour les mesmes.
+  \line { \smallCaps{ Venus : }
+    \italic { Si quelquefois l’amour cause des peines } }
+}
 \markup\italic {
   Venus chante l’air qui suit et les violons le jouent ensuite.
 }
 \noPageBreak
-\pieceToc\markup\wordwrap {
-  Deuxième Menüet pour les mesmes.
-  \line { \smallCaps{Venus :} \italic { Si quelquefois l’amour cause des peines } }
-}
 \includeScore "AIvenus"
 \noPageBreak
 \markup\italic\justify {
