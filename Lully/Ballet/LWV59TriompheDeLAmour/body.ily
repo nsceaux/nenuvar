@@ -65,7 +65,8 @@
 \includeScore "AJentree"
 %% 1-11
 \pieceToc\markup\wordwrap {
-  \smallCaps{Deux Plaisirs :} \italic { Un cœur toûjours en paix, sans amour, sans desirs }
+  \smallCaps { Deux Plaisirs : }
+  \italic { Un cœur toûjours en paix, sans amour, sans desirs }
 }
 \includeScore "AKplaisirs"
 %% 1-12

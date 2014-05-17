@@ -59,11 +59,11 @@
 %# Un cœur toûjours en paix, sans amour, sans desirs,
 %# Est moins heureux que l'on ne pense ;
 %# Les plaisirs de l'indifference,
-%# Sont d'ennuyeux plaisirs.
+%# Sont d'ennuy=eux plaisirs.
 %# Les maux que fait l'Amour, ses chagrins, ses soupirs,
 %# Ne sont des maux qu'en apparence ;
 %# Les plaisirs de l'indifference,
-%# Sont d'ennuyeux plaisirs.
+%# Sont d'ennuy=eux plaisirs.
 % ALmenuet
 \livretRef #'AMvenusPlaisirsChoeur
 \livretPers "VENUS, & LES PLAISIRS"

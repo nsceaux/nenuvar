@@ -61,11 +61,11 @@
 \livretVerse#12 { Un cœur toûjours en paix, sans amour, sans desirs, }
 \livretVerse#8 { Est moins heureux que l’on ne pense ; }
 \livretVerse#8 { Les plaisirs de l’indifference, }
-\livretVerse#5 { Sont d’ennuyeux plaisirs. }
+\livretVerse#6 { Sont d’ennuyeux plaisirs. }
 \livretVerse#12 { Les maux que fait l’Amour, ses chagrins, ses soupirs, }
 \livretVerse#8 { Ne sont des maux qu’en apparence ; }
 \livretVerse#8 { Les plaisirs de l’indifference, }
-\livretVerse#5 { Sont d’ennuyeux plaisirs. }
+\livretVerse#6 { Sont d’ennuyeux plaisirs. }
 % ALmenuet
 \livretRef #'AMvenusPlaisirsChoeur
 \livretPers "VENUS, & LES PLAISIRS"
