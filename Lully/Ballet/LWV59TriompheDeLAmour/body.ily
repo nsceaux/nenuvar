@@ -7,7 +7,7 @@
 
 %% 1-2
 \pieceToc\markup\wordwrap {
-  (Venus) \italic { Un Heros que le Ciel fit naistre }
+  \smallCaps{Venus :} \italic { Un Heros que le Ciel fit naistre }
 }
 \includeScore "ABvenus"
 %% 1-3
@@ -15,7 +15,7 @@
 \includeScore "ACritournelle"
 %% 1-4
 \pieceToc\markup\wordwrap {
-  (Venus) \italic { Tranquiles cœurs, preparez-vous }
+  \smallCaps{Venus :} \italic { Tranquiles cœurs, preparez-vous }
 }
 \includeScore "ADvenus"
 %% 1-5
@@ -23,7 +23,7 @@
 \includeScore "AEritournelle"
 %% 1-6
 \pieceToc\markup\wordwrap {
-  (Venus, chœur) \italic { Nimphes des Eaux, Nimphes de ce Boccage, }
+  \smallCaps{Venus, chœur :} \italic { Nimphes des Eaux, Nimphes de ce Boccage, }
 }
 \includeScore "AFvenusChoeur"
 
@@ -47,7 +47,7 @@
 \noPageBreak
 \pieceToc\markup\wordwrap {
   Deuxième Menüet pour les mesmes.
-  \line { (Venus) \italic { Si quelquefois l’amour cause des peines } }
+  \line { \smallCaps{Venus :} \italic { Si quelquefois l’amour cause des peines } }
 }
 \includeScore "AIvenus"
 \noPageBreak
@@ -63,7 +63,7 @@
 \includeScore "AJentree"
 %% 1-11
 \pieceToc\markup\wordwrap {
-  (Deux Plaisirs) \italic { Un cœur toûjours en paix, sans amour, sans desirs }
+  \smallCaps{Deux Plaisirs :} \italic { Un cœur toûjours en paix, sans amour, sans desirs }
 }
 \includeScore "AKplaisirs"
 %% 1-12
@@ -77,7 +77,7 @@
 
 %% 1-13
 \pieceToc\markup\wordwrap {
-  (Venus, les Plaisirs) \italic { Non, non, il n’est pas possible }
+  \smallCaps{Venus, les Plaisirs :} \italic { Non, non, il n’est pas possible }
 }
 \includeScore "AMvenusPlaisirsChoeur"
 
@@ -102,7 +102,7 @@
 \includeScore "BAamphitrite"
 %% 2-2
 \pieceToc\markup\wordwrap {
-  (Neptune, Amphitrite)
+  \smallCaps{Neptune, Amphitrite :}
   \italic { Cedez, belle Amphitrite à mes soins amoureux }
 }
 \includeScore "BBneptuneAmphitrite"
@@ -113,7 +113,7 @@
 \includeScore "BCentree"
 %% 2-4
 \pieceToc\markup\wordwrap {
-  (Amphitrite et Neptune)
+  \smallCaps{Amphitrite et Neptune :}
   \italic { C'est en vain qu'à l'amour on se veut opposer }
 }
 \includeScore "BDneptuneAmphitrite"
@@ -125,7 +125,7 @@
 \includeScore "BFair"
 %% 2-7
 \pieceToc\markup\wordwrap {
-  (Amphitrite, Nepture) \italic { Un cœur qui veut estre volage }
+  \smallCaps{Amphitrite, Nepture :} \italic { Un cœur qui veut estre volage }
 }
 \includeScore "BGneptuneAmphitrite"
 
@@ -161,7 +161,7 @@
 \includeScore "CBentree"
 %% 3-3
 \pieceToc\markup\wordwrap {
-  (Diane) : \italic { Un cœur maistre de luy-mesme }
+  \smallCaps{Diane :} : \italic { Un cœur maistre de luy-mesme }
 }
 \includeScore "CCdiane"
 %% 3-4
@@ -169,7 +169,7 @@
 \includeScore "CDair"
 %% 3-5
 \pieceToc\markup\wordwrap {
-  (Diane) : \italic { Dans ces forests venez suivre nos pas }
+  \smallCaps{Diane :} : \italic { Dans ces forests venez suivre nos pas }
 }
 \includeScore "CEdiane"
 
@@ -206,17 +206,17 @@
 \includeScore "CKprelude"
 %% 3-12
 \pieceToc\markup\wordwrap {
-  (Diane) \italic { Je ne puis plus braver l’Amour & sa puissance }
+  \smallCaps{Diane :} \italic { Je ne puis plus braver l’Amour & sa puissance }
 }
 \includeScore "CLdiane"
 %% 3-13
 \pieceToc\markup\wordwrap {
-  (Diane, la Nuit) \italic { Nuit charmante & paisible }
+  \smallCaps{Diane, la Nuit :} \italic { Nuit charmante & paisible }
 }
 \includeScore "CMdianeNuit"
 %% 3-14
 \pieceToc\markup\wordwrap {
-  (Diane) \italic { Sombre Nuit, cache-moy s'il se peut à moy-mesme }
+  \smallCaps{Diane :} \italic { Sombre Nuit, cache-moy s'il se peut à moy-mesme }
 }
 \includeScore "CNdiane"
 %% 3-15
@@ -238,12 +238,12 @@
 
 %% 3-18
 \pieceToc\markup\wordwrap {
-  (Chœur des Cariens) \italic { Diane dissipez nos craintes }
+  \smallCaps{Chœur des Cariens :} \italic { Diane dissipez nos craintes }
 }
 \includeScore "CRchoeur"
 %% 3-19
 \pieceToc\markup\wordwrap {
-  (Un Carien) \italic { De quel funeste mal sentez-vous les atteintes }
+  \smallCaps{Un Carien :} \italic { De quel funeste mal sentez-vous les atteintes }
 }
 \includeScore "CScarien"
 %% 3-20
@@ -254,16 +254,16 @@
 \newPart
 %% 4-1
 \pieceTocAndTitle\markup {
-  (L’Indien)
+  \smallCaps{L’Indien :}
   \italic { Bachus revient vainqueur des climats de l’Aurore }
 } \markup\wordwrap {
   Prelude pour un indien qui vient annoncer la venuë de Bachus & d’Ariane.
-  (L’Indien) \italic { Bachus revient vainqueur des climats de l’Aurore }
+  \smallCaps{L’Indien :} \italic { Bachus revient vainqueur des climats de l’Aurore }
 }
 \includeScore "DAindien"
 %% 4-2
 \pieceToc\markup\wordwrap {
-  (Deux Indiennes, un Indien) \italic { Non, la plus fiere Liberté }
+  \smallCaps{Deux Indiennes, un Indien :} \italic { Non, la plus fiere Liberté }
 }
 \includeScore "DBindiens"
 
@@ -282,12 +282,12 @@
 
 %% 4-6
 \pieceToc\markup\wordwrap {
-  (Chœur d’Indiens) \italic { Pourquoy tant se contraindre }
+  \smallCaps{Chœur d’Indiens :} \italic { Pourquoy tant se contraindre }
 }
 \includeScore "DFchoeur"
 %% 4-7
 \pieceToc\markup\wordwrap {
-  (Une Indienne) \italic { On se plaint sans raison d'estre sensible }
+  \smallCaps{Une Indienne :} \italic { On se plaint sans raison d'estre sensible }
 }
 \includeScore "DGindienne"
 %% 4-8
@@ -295,12 +295,12 @@
 \reIncludeScore "DEchaconne" "DHchaconne"
 %% 4-9
 \pieceToc\markup\wordwrap {
-  (Chœur d’Indiens) \italic { Quelle heureuse foiblesse }
+  \smallCaps{Chœur d’Indiens :} \italic { Quelle heureuse foiblesse }
 }
 \includeScore "DIchoeur"
 %% 4-10
 \pieceToc\markup\wordwrap {
-  (L’Indien et les deux Indiennes)
+  \smallCaps{L’Indien et les deux Indiennes :}
   \italic { Ses douleurs font verser de douces larmes }
 }
 \includeScore "DJindiens"
@@ -312,12 +312,12 @@
 \includeScore "EAprelude"
 %% 5-2
 \pieceToc\markup\wordwrap {
-  (Mercure) \italic { D’une affreuse fureur Mars n'est plus animé }
+  \smallCaps{Mercure :} \italic { D’une affreuse fureur Mars n'est plus animé }
 }
 \includeScore "EBmercure"
 %% 5-3
 \pieceToc\markup\wordwrap {
-  (Mercure, chœur des Divinitez)
+  \smallCaps{Mercure, chœur des Divinitez :}
   \italic { Suivons l’Amour, portons sa chaisne }
 }
 \includeScore "ECmercureChoeur"
@@ -336,18 +336,18 @@
 \includeScore "EFentree"
 %% 5-7
 \pieceToc\markup\wordwrap {
-  (Arcas, chœur des Sylvains)
+  \smallCaps{Arcas, chœur des Sylvains :}
   \italic { Que l’Empire amoureux }
 }
 \includeScore "EGarcasChoeur"
 %% 5-8
 \pieceToc\markup\wordwrap {
-  (Arcas) \italic { Il faut qu’un Amant persevere }
+  \smallCaps{Arcas :} \italic { Il faut qu’un Amant persevere }
 }
 \includeScore "EHarcas"
 %% 5-9
 \pieceToc\markup\wordwrap {
-  (Arcas) \italic { Si le changement vous offence }
+  \smallCaps{Arcas :} \italic { Si le changement vous offence }
 }
 \includeScore "EIarcas"
 
@@ -367,7 +367,7 @@
 \includeScore "ELentree"
 %% 5-13
 \pieceToc\markup\wordwrap {
-  (Une Nimphe de Flore) \italic { Que de fleurs vont esclore }
+  \smallCaps{Une Nimphe de Flore :} \italic { Que de fleurs vont esclore }
 }
 \includeScore "EMnimphe"
 
@@ -376,7 +376,7 @@
 \includeScore "ENprelude"
 %% 5-15
 \pieceToc\markup\wordwrap {
-  (L’Amour) \italic { Tout ce que j’attaque se rend }
+  \smallCaps{L’Amour :} \italic { Tout ce que j’attaque se rend }
 }
 \includeScore "EOamour"
 %% 5-16
@@ -384,7 +384,7 @@
 \includeScore "EPair"
 %% 5-17
 \pieceToc\markup\wordwrap {
-  (La Jeunesse) Ne troublez pas nos jeux, importune raison
+  \smallCaps{La Jeunesse :} Ne troublez pas nos jeux, importune raison
 }
 \includeScore "EQjeunesse"
 %% 5-18
@@ -393,9 +393,9 @@
 
 %% 5-19
 \pieceTocAndTitle\markup\wordwrap {
-  (Jupiter, chœur des Divinitez) \italic { Triomphez, Amour victorieux }
+  \smallCaps{Jupiter, chœur des Divinitez :} \italic { Triomphez, Amour victorieux }
 } \markup\wordwrap {
   Prélude pour Jupiter.
-  (Jupiter, chœur des Divinitez) \italic { Triomphez, Amour victorieux }
+  \smallCaps{Jupiter, chœur des Divinitez :} \italic { Triomphez, Amour victorieux }
 }
 \includeScore "ESjupiterChoeur"
