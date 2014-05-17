@@ -23,7 +23,8 @@
 \includeScore "AEritournelle"
 %% 1-6
 \pieceToc\markup\wordwrap {
-  \smallCaps{Venus, chœur :} \italic { Nimphes des Eaux, Nimphes de ce Boccage, }
+  \smallCaps{Venus, chœur :}
+  \italic { Nimphes des Eaux, Nimphes de ce Boccage }
 }
 \includeScore "AFvenusChoeur"
 
