@@ -11,7 +11,7 @@
 \livretVerse#10 { Pour le bonheur de cent Peuples divers, }
 \livretVerse#8 { Aime mieux calmer l’Univers, }
 \livretVerse#10 { Que d’achever de s’en rendre le Maistre ; }
-\livretVerse#13 { Il cherche a rendre heureux jusqu’à ses Ennemis, }
+\livretVerse#12 { Il cherche a rendre heureux jusqu’à ses Ennemis, }
 \livretVerse#12 { Tout est par ses travaux dans une Paix profonde, }
 \livretVerse#12 { Ce n’est plus qu’à l’amour qu’il peut estre permis }
 \livretVerse#8 { De troubler le repos du Monde. }

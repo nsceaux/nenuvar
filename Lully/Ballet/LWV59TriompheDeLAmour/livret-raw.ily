@@ -9,7 +9,7 @@
 %# Pour le bonheur de cent Peuples divers,
 %# Aime mieux calmer l'Univers,
 %# Que d'achever de s'en rendre le Maistre ;
-%# Il cherche a rendre heureux jusqu'à ses Ennemis,
+%# Il cherche a rendre *heureux jusqu'à ses Ennemis,
 %# Tout est par ses travaux dans une Paix profonde,
 %# Ce n'est plus qu'à l'amour qu'il peut estre permis
 %# De troubler le repos du Monde.
