@@ -6,16 +6,18 @@
 \includeScore "AAouverture"
 
 %% 1-2
+\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
-  \smallCaps{Venus :} \italic { Un Heros que le Ciel fit naistre }
+  \smallCaps Venus : \italic { Un Heros que le Ciel fit naistre }
 }
 \includeScore "ABvenus"
 %% 1-3
 \pieceTocTitle "Ritournelle"
 \includeScore "ACritournelle"
 %% 1-4
+\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
-  \smallCaps{Venus :} \italic { Tranquiles cœurs, preparez-vous }
+  \smallCaps Venus : \italic { Tranquiles cœurs, preparez-vous }
 }
 \includeScore "ADvenus"
 %% 1-5
@@ -23,12 +25,13 @@
 \includeScore "AEritournelle"
 %% 1-6
 \pieceToc\markup\wordwrap {
-  \smallCaps{Venus, chœur :}
+  \smallCaps { Venus, chœur : }
   \italic { Nimphes des Eaux, Nimphes de ce Boccage }
 }
 \includeScore "AFvenusChoeur"
 
 %% 1-7
+\newBookPart #'(full-rehearsal)
 \entree\markup\wordwrap {
   [Entrée des Graces, des Driades & des Nayades]
 }
@@ -39,12 +42,13 @@
 }
 \includeScore "AGentree"
 %% 1-8
+\newBookPart #'(full-rehearsal)
 \pieceTocTitle "Menuet pour les mesmes"
 \includeScore "AHmenuet"
 %% 1-9
 \pieceToc\markup\wordwrap {
   Deuxième Menüet pour les mesmes.
-  \line { \smallCaps{ Venus : }
+  \line { \smallCaps Venus :
     \italic { Si quelquefois l’amour cause des peines } }
 }
 \markup\italic {
@@ -79,12 +83,14 @@
 }
 
 %% 1-13
+\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   \smallCaps{Venus, les Plaisirs :} \italic { Non, non, il n’est pas possible }
 }
 \includeScore "AMvenusPlaisirsChoeur"
 
 %% 1-14
+\newBookPart #'(full-rehearsal)
 \entree "Entrée de Mars et de Guerriers"
 \pieceTocTitle "Air"
 \includeScore "ANentree"
@@ -94,7 +100,6 @@
 %% 1-16
 \pieceTocTitle "Entrée de Mars et des Amours"
 \includeScore "APair"
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newPart
 %% 2-1

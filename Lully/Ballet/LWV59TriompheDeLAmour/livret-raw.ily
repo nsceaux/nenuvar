@@ -94,7 +94,7 @@
 \livretPers NEPTUNE
 %# Cedez, belle Amphitrite à mes soins amoureux,
 %# Cedez à ma perseverance.
-%# Je tiens la vaste Mer sous mon obeïssance,
+%# Je tiens la vaste Mer sous mon obe=ïssance,
 %# J'ouvre & ferme à mon gré ses goufres les plus creux,
 %# Je souleve les flots, & je puis quand je veux
 %# Calmer leur violence ;
@@ -104,7 +104,7 @@
 \livretPers AMPHITRITE
 %# Ah ! qu'un fidelle Amant est redoutable !
 %# J'avois juré de fuïr un tendre engagement,
-%# Je ne le croyois pas un mal inévitable,
+%# Je ne le croy=ois pas un mal inévitable,
 %# Pourquoy m'obligez-vous à rompre mon serment ?
 %# Ah ! qu'un fidele Amant est redoutable !
 %# Que n'aimiez vous moins constament !
