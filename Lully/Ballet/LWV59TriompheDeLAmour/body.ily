@@ -1,3 +1,4 @@
+%%%%%%%%%%%%%%%% FA
 %% 1-1
 \firstPart
 \markup\act "LE TRIOMPHE DE L’AMOUR"
@@ -63,6 +64,7 @@
   \concat { 1 \super er } menuet.
 }
 
+%%%%%%%%%%%%%%%% RÉ
 %% 1-10
 \entree "Entrée des Plaisirs"
 \pieceTocTitle "Premier Air"
@@ -100,9 +102,11 @@
 %% 1-16
 \pieceTocTitle "Entrée de Mars et des Amours"
 \includeScore "APair"
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%% SOL
 \newPart
 %% 2-1
+\newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
   Ritournelle pour Amphitrite.
   \italic { Fierté, severe honneur, vous deffendez d'aimer }

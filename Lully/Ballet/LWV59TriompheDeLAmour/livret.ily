@@ -88,7 +88,7 @@
 %%%
 \livretRef #'BAamphitrite
 \livretPers AMPHITRITE
-\livretVerse#13 { Fierté, severe honneur, vous deffendez d’aimer ; }
+\livretVerse#12 { Fierté, severe honneur, vous deffendez d’aimer ; }
 \livretVerse#12 { Mais pour garder nos cœurs, nous donnez-vous des armes ? }
 \livretVerse#12 { Ah ! que n’empeschez-vous que l’amour ait des charmes, }
 \livretVerse#12 { Si vous ne voulez pas qu’il puisse nous charmer ! }
@@ -96,7 +96,7 @@
 \livretPers NEPTUNE
 \livretVerse#12 { Cedez, belle Amphitrite à mes soins amoureux, }
 \livretVerse#8 { Cedez à ma perseverance. }
-\livretVerse#11 { Je tiens la vaste Mer sous mon obeïssance, }
+\livretVerse#12 { Je tiens la vaste Mer sous mon obeïssance, }
 \livretVerse#12 { J’ouvre & ferme à mon gré ses goufres les plus creux, }
 \livretVerse#12 { Je souleve les flots, & je puis quand je veux }
 \livretVerse#5 { Calmer leur violence ; }
@@ -106,7 +106,7 @@
 \livretPers AMPHITRITE
 \livretVerse#10 { Ah ! qu’un fidelle Amant est redoutable ! }
 \livretVerse#12 { J’avois juré de fuïr un tendre engagement, }
-\livretVerse#11 { Je ne le croyois pas un mal inévitable, }
+\livretVerse#12 { Je ne le croyois pas un mal inévitable, }
 \livretVerse#12 { Pourquoy m’obligez-vous à rompre mon serment ? }
 \livretVerse#10 { Ah ! qu’un fidele Amant est redoutable ! }
 \livretVerse#8 { Que n’aimiez vous moins constament ! }

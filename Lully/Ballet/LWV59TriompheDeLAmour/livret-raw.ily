@@ -86,7 +86,7 @@
 %%%
 \livretRef #'BAamphitrite
 \livretPers AMPHITRITE
-%# Fierté, severe honneur, vous deffendez d'aimer ;
+%# Fierté, severe *honneur, vous deffendez d'aimer ;
 %# Mais pour garder nos cœurs, nous donnez-vous des armes ?
 %# Ah ! que n'empeschez-vous que l'amour ait des charmes,
 %# Si vous ne voulez pas qu'il puisse nous charmer !
