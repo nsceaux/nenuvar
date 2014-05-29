@@ -545,6 +545,9 @@ ru =
    (if (eqv? #t (ly:get-option 'use-tremolo-repeat))
        (make-repeat "tremolo" times music '())
        (make-repeat "unfold" times music '())))
+rt =
+#(define-music-function (parser location times music) (number? ly:music?)
+   (make-repeat "tremolo" times music '()))
 
 rp =
 #(define-music-function (parser location times music) (number? ly:music?)
