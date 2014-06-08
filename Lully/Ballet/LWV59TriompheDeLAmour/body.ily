@@ -123,13 +123,13 @@
 \entree "Entrée des Dieux Marins et des Nercides"
 \pieceTocTitle "[Premier Air]"
 \includeScore "BCentree"
-
 %% 2-4
 \pieceToc\markup\wordwrap {
   \smallCaps{ Amphitrite et Neptune : }
   \italic { C'est en vain qu'à l'amour on se veut opposer }
 }
 \includeScore "BDneptuneAmphitrite"
+
 %% 2-5
 \pieceTocTitle "Menuet pour les mesmes"
 \includeScore "BEmenuet"
@@ -174,7 +174,7 @@
 \includeScore "CBentree"
 %% 3-3
 \pieceToc\markup\wordwrap {
-  \smallCaps{Diane :} : \italic { Un cœur maistre de luy-mesme }
+  \smallCaps Diane : \italic { Un cœur maistre de luy-mesme }
 }
 \includeScore "CCdiane"
 %% 3-4
@@ -182,7 +182,7 @@
 \includeScore "CDair"
 %% 3-5
 \pieceToc\markup\wordwrap {
-  \smallCaps{Diane :} : \italic { Dans ces forests venez suivre nos pas }
+  \smallCaps Diane : \italic { Dans ces forests venez suivre nos pas }
 }
 \includeScore "CEdiane"
 
@@ -219,17 +219,19 @@
 \includeScore "CKprelude"
 %% 3-12
 \pieceToc\markup\wordwrap {
-  \smallCaps{Diane :} \italic { Je ne puis plus braver l’Amour & sa puissance }
+  \smallCaps Diane :
+  \italic { Je ne puis plus braver l’Amour & sa puissance }
 }
 \includeScore "CLdiane"
 %% 3-13
 \pieceToc\markup\wordwrap {
-  \smallCaps{Diane, la Nuit :} \italic { Nuit charmante & paisible }
+  \smallCaps{ Diane, la Nuit : } \italic { Nuit charmante & paisible }
 }
 \includeScore "CMdianeNuit"
 %% 3-14
 \pieceToc\markup\wordwrap {
-  \smallCaps{Diane :} \italic { Sombre Nuit, cache-moy s'il se peut à moy-mesme }
+  \smallCaps Diane :
+  \italic { Sombre Nuit, cache-moy s'il se peut à moy-mesme }
 }
 \includeScore "CNdiane"
 %% 3-15
@@ -256,7 +258,8 @@
 \includeScore "CRchoeur"
 %% 3-19
 \pieceToc\markup\wordwrap {
-  \smallCaps{Un Carien :} \italic { De quel funeste mal sentez-vous les atteintes }
+  \smallCaps{Un Carien :}
+  \italic { De quel funeste mal sentez-vous les atteintes }
 }
 \includeScore "CScarien"
 %% 3-20
@@ -271,12 +274,14 @@
   \italic { Bachus revient vainqueur des climats de l’Aurore }
 } \markup\wordwrap {
   Prelude pour un indien qui vient annoncer la venuë de Bachus & d’Ariane.
-  \smallCaps{L’Indien :} \italic { Bachus revient vainqueur des climats de l’Aurore }
+  \smallCaps{L’Indien :}
+  \italic { Bachus revient vainqueur des climats de l’Aurore }
 }
 \includeScore "DAindien"
 %% 4-2
 \pieceToc\markup\wordwrap {
-  \smallCaps{Deux Indiennes, un Indien :} \italic { Non, la plus fiere Liberté }
+  \smallCaps{Deux Indiennes, un Indien :}
+  \italic { Non, la plus fiere Liberté }
 }
 \includeScore "DBindiens"
 
@@ -300,7 +305,8 @@
 \includeScore "DFchoeur"
 %% 4-7
 \pieceToc\markup\wordwrap {
-  \smallCaps{Une Indienne :} \italic { On se plaint sans raison d'estre sensible }
+  \smallCaps{Une Indienne :}
+  \italic { On se plaint sans raison d'estre sensible }
 }
 \includeScore "DGindienne"
 %% 4-8
@@ -325,7 +331,8 @@
 \includeScore "EAprelude"
 %% 5-2
 \pieceToc\markup\wordwrap {
-  \smallCaps{Mercure :} \italic { D’une affreuse fureur Mars n'est plus animé }
+  \smallCaps{Mercure :}
+  \italic { D’une affreuse fureur Mars n'est plus animé }
 }
 \includeScore "EBmercure"
 %% 5-3
@@ -397,7 +404,8 @@
 \includeScore "EPair"
 %% 5-17
 \pieceToc\markup\wordwrap {
-  \smallCaps{La Jeunesse :} Ne troublez pas nos jeux, importune raison
+  \smallCaps{La Jeunesse :}
+  \italic { Ne troublez pas nos jeux, importune raison }
 }
 \includeScore "EQjeunesse"
 %% 5-18
@@ -406,9 +414,11 @@
 
 %% 5-19
 \pieceTocAndTitle\markup\wordwrap {
-  \smallCaps{Jupiter, chœur des Divinitez :} \italic { Triomphez, Amour victorieux }
+  \smallCaps{Jupiter, chœur des Divinitez :}
+  \italic { Triomphez, Amour victorieux }
 } \markup\wordwrap {
   Prélude pour Jupiter.
-  \smallCaps{Jupiter, chœur des Divinitez :} \italic { Triomphez, Amour victorieux }
+  \smallCaps{Jupiter, chœur des Divinitez :}
+  \italic { Triomphez, Amour victorieux }
 }
 \includeScore "ESjupiterChoeur"
