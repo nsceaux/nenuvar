@@ -1,31 +1,31 @@
-s1 <_->2 \naturalFig <6+ 4> <6> <6> <_-> <6> s <6>
-s1. \naturalFig <6+>2 <_-> \naturalFig <_+> <_->1 <7>2 <6> \naturalFig { <_+> <6+> <6> <_+> }
+s1 <_->2 \naturalFig{<6+ 4>} <6> <6> <_-> <6> s <6>
+s1. \naturalFig{<6+>2} <_-> \naturalFig{<_+>} <_->1 <7>2 <6> \naturalFig{ <_+> <6+> <6> <_+> }
 <_->2 <6-> s <_->1 s <5-> s1.
-\naturalFig <_+>2. <5>4 s1 <_+>4. <6>8 \naturalFig <5->1 s <6 4 2>4 <4>
-<7>2 <6> <4> <_+> \naturalFig <_+>1 <_->4 \naturalFig { <_+> s4. <6+>8 } <_->1 <6>4 <6>2.
+\naturalFig{<_+>2.} <5>4 s1 <_+>4. <6>8 \naturalFig{<5->1} s <6 4 2>4 <4>
+<7>2 <6> <4> <_+> \naturalFig{<_+>1} <_->4 \naturalFig{ <_+> s4. <6+>8 } <_->1 <6>4 <6>2.
 s1 <_->4 <6>2. <_->1 s <4 2>1 s
-s1. <6>2 s <5-> s \naturalFig <5-> s1
-s2 <5>4 <6>8 <5> \naturalFig <_+>1 <6> <_->2 \naturalFig <_+>
+s1. <6>2 s <5-> s \naturalFig{<5->} s1
+s2 <5>4 <6>8 <5> \naturalFig{<_+>1} <6> <_->2 \naturalFig{<_+>}
 s2 <6> s1*3 <_->2 s
-s1 \naturalFig <_+> s <7>4 <6>8 <5> s2 s1*2
-<7>2 <6 4> \naturalFig { <_+> <6 4>4 <_+> } <_->2 \naturalFig <_+> <_->1 <7>2 <6 4> <4>1 s <6 4 2>2 <6> <7>
-s1 \naturalFig <6 4+ 2>2 <6> <4> <_->1 <6>1. s1 <7>2 <6 4>
-\naturalFig { <7 _+>1 <_+> } <6> <7>2 <6> \naturalFig <7 _+>2 <6 4> <4>1 s <6>
+s1 \naturalFig{<_+>} s <7>4 <6>8 <5> s2 s1*2
+<7>2 <6 4> \naturalFig{ <_+> <6 4>4 <_+> } <_->2 \naturalFig{<_+>} <_->1 <7>2 <6 4> <4>1 s <6 4 2>2 <6> <7>
+s1 \naturalFig{<6 4+ 2>2} <6> <4> <_->1 <6>1. s1 <7>2 <6 4>
+\naturalFig{ <7 _+>1 <_+> } <6> <7>2 <6> \naturalFig{<7 _+>2} <6 4> <4>1 s <6>
 s2 <6>4. <5>8 s1 <7 _+> s <6 4>2. <6+>4 s1 <6 5>1
 s1*3 s2 <6>4. <5>8 <_+>2 <6> <6+> <_+>
-<_+>1 s1*3 \naturalFig <5->1 s
-s2 s4. \naturalFig <6+ 4>8 s1*3 <6>2
+<_+>1 s1*3 \naturalFig{<5->1} s
+s2 s4. \naturalFig{<6+ 4>8} s1*3 <6>2
 <7>4 <6> <7> <6> <7>4. <6>8 <7>4 <6> <7> <6>
-s2 s4. <6 4>8 s4. <6 4>8 <"">4\figExtOn <"">8\figExtOff <6>8 <6>1 s2 \naturalFig <5->
+s2 s4. <6 4>8 s4. <6 4>8 <"">4\figExtOn <"">8\figExtOff <6>8 <6>1 s2 \naturalFig{<5->}
 s1 <7>4 <6> s2 s1 <6>4 <6> s2
-s1 <7>2 <6> <_+>1 <6>4. <6+>8 \naturalFig <_->1 <_+>2 s1
-s2 <6 4>4 <6+> \naturalFig <_->2 <6>1 s1 s2 <6>4 <6> s2 <"">4\figExtOn <"">8\figExtOff <6>8
+s1 <7>2 <6> <_+>1 <6>4. <6+>8 \naturalFig{<_->1} <_+>2 s1
+s2 <6 4>4 <6+> \naturalFig{<_->2} <6>1 s1 s2 <6>4 <6> s2 <"">4\figExtOn <"">8\figExtOff <6>8
 s2 <4>4 <3> s1*4 s4 <6>8 <6+> s2
 s1 <6>2 <4>
 s1*2 s2. <6>4 <6>1 s2. <6>4 <6>1 s
-<7>2 <6> <_+>2. <6>4 s <6> <_+>2 <_+>1 <7>2 <6> \naturalFig <6 5->1 s1*2
-s1 <4 2>2 \naturalFig <5-> s1 <_+>2 <7> s1
-s1*3 s2. <6>4 <7 _+>4. <6 4>8 <_+>2 <_+>1 s2 \naturalFig <5->
-s2. <_+>4 s1*2 <7>2 <6> \naturalFig <7 5->2 <6> s1 <_+>1 <_+>
-<6>2 \naturalFig <5-> s1 <7>2 <6> s1*2 <_+>1 <_+>2 <6> \naturalFig <5->1
+<7>2 <6> <_+>2. <6>4 s <6> <_+>2 <_+>1 <7>2 <6> \naturalFig{<6 5->1} s1*2
+s1 <4 2>2 \naturalFig{<5->} s1 <_+>2 <7> s1
+s1*3 s2. <6>4 <7 _+>4. <6 4>8 <_+>2 <_+>1 s2 \naturalFig{<5->}
+s2. <_+>4 s1*2 <7>2 <6> \naturalFig{<7 5->2} <6> s1 <_+>1 <_+>
+<6>2 \naturalFig{<5->} s1 <7>2 <6> s1*2 <_+>1 <_+>2 <6> \naturalFig{<5->1}
 s1 s4 <6>

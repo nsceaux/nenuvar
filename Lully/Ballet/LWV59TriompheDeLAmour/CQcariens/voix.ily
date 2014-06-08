@@ -50,10 +50,10 @@
   \tag #'(vpetite-haute-contre basse) {
     <<
       \tag #'basse {
-        s1*13 s1. s1*2 s1. s1*2 s1.*2 s1*31 \clef "mezzosoprano/G_8"
+        s1*13 s1. s1*2 s1. s1*2 s1.*2 s1*31 \clef "vpetite-haute-contre"
       }
       \tag #'vpetite-haute-contre {
-        \clef "mezzosoprano/G_8" R1*13 R1. R1*2 R1. R1*2 R1.*2 R1*31 |
+        \clef "vpetite-haute-contre" R1*13 R1. R1*2 R1. R1*2 R1.*2 R1*31 |
       }
     >> r2 sol'~ |
     sol'4. fa'8 fa'4 fa' |
@@ -63,7 +63,7 @@
     lab'2 sol' fa'2. sol'4 |
     mib'2. <<
       \tag #'basse {
-        s4 s1. s1 s1. s1 s1. s2 \clef "mezzosoprano/G_8"
+        s4 s1. s1 s1. s1 s1. s2 \clef "vpetite-haute-contre"
       }
       \tag #'vpetite-haute-contre {
         r4 | R1. R1 R1. R1 R1. | r2
@@ -78,7 +78,7 @@
     re'2. mib'4 |
     do'2 <<
       \tag #'basse {
-        r2 R1*8 s1*19 s4. \clef "mezzosoprano/G_8"
+        r2 R1*8 s1*19 s4. \clef "vpetite-haute-contre"
       }
       \tag #'vpetite-haute-contre {
         r2 | R1*27 | r4 r8
@@ -93,7 +93,7 @@
     sol' sol' fa'\trill mi' re'4.\trill do'8 |
     do'2 <<
       \tag #'basse {
-        s2 s1 s1.*2 s1*2 s1. s2. \forcedClef "mezzosoprano/G_8"
+        s2 s1 s1.*2 s1*2 s1. s2. \forcedClef "vpetite-haute-contre"
       }
       \tag #'vpetite-haute-contre {
         r2 | R1 R1.*2 R1*2 R1. | r2 r4
