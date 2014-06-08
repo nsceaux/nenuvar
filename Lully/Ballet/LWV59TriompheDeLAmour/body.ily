@@ -114,7 +114,7 @@
 \includeScore "BAamphitrite"
 %% 2-2
 \pieceToc\markup\wordwrap {
-  \smallCaps{Neptune, Amphitrite :}
+  \smallCaps{ Neptune, Amphitrite : }
   \italic { Cedez, belle Amphitrite à mes soins amoureux }
 }
 \includeScore "BBneptuneAmphitrite"

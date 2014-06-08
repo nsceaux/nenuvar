@@ -99,10 +99,10 @@
 \livretVerse#12 { Je tiens la vaste Mer sous mon obeïssance, }
 \livretVerse#12 { J’ouvre & ferme à mon gré ses goufres les plus creux, }
 \livretVerse#12 { Je souleve les flots, & je puis quand je veux }
-\livretVerse#5 { Calmer leur violence ; }
+\livretVerse#6 { Calmer leur violence ; }
 \livretVerse#8 { Mais quelle que soit ma puissance, }
 \livretVerse#12 { Si je ne puis fléchir vostre cœur rigoureux, }
-\livretVerse#9 { Je ne puis jamais estre heureux. }
+\livretVerse#8 { Je ne puis jamais estre heureux. }
 \livretPers AMPHITRITE
 \livretVerse#10 { Ah ! qu’un fidelle Amant est redoutable ! }
 \livretVerse#12 { J’avois juré de fuïr un tendre engagement, }
@@ -114,7 +114,7 @@
 \livretVerse#8 { Je goutois un bien si charmant, }
 \livretVerse#10 { Ah ! qu’un fidele Amant est redoutable ! }
 \livretPers NEPTUNE
-\livretVerse#13 { Quoy je ne puis voir enfin cesser vostre rigueur ? }
+\livretVerse#12 { Quoy je puis voir enfin cesser vostre rigueur ? }
 \livretPers AMPHITRITE
 \livretVerse#8 { Malgré moy vostre amour vainqueur, }
 \livretVerse#6 { Me reduit à me rendre ; }

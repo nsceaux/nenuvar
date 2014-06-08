@@ -97,10 +97,10 @@
 %# Je tiens la vaste Mer sous mon obe=ïssance,
 %# J'ouvre & ferme à mon gré ses goufres les plus creux,
 %# Je souleve les flots, & je puis quand je veux
-%# Calmer leur violence ;
+%# Calmer leur vi=olence ;
 %# Mais quelle que soit ma puissance,
 %# Si je ne puis fléchir vostre cœur rigoureux,
-%# Je ne puis jamais estre heureux.
+%# Je ne puis jamais estre *heureux.
 \livretPers AMPHITRITE
 %# Ah ! qu'un fidelle Amant est redoutable !
 %# J'avois juré de fuïr un tendre engagement,
@@ -112,7 +112,7 @@
 %# Je goutois un bien si charmant,
 %# Ah ! qu'un fidele Amant est redoutable !
 \livretPers NEPTUNE
-%# Quoy je ne puis voir enfin cesser vostre rigueur ?
+%# Quoy je puis voir enfin cesser vostre rigueur ?
 \livretPers AMPHITRITE
 %# Malgré moy vostre amour vainqueur,
 %# Me reduit à me rendre ;

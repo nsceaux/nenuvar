@@ -124,3 +124,11 @@ entree =
 venusMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Venus"))
+
+amphitriteMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vdessus" "Amphitrite"))
+
+neptuneMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbasse" "Neptune"))
