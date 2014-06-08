@@ -87,7 +87,8 @@
 %% 1-13
 \newBookPart #'(full-rehearsal)
 \pieceToc\markup\wordwrap {
-  \smallCaps{Venus, les Plaisirs :} \italic { Non, non, il n’est pas possible }
+  \smallCaps{Venus, les Plaisirs :}
+  \italic { Non, non, il n’est pas possible }
 }
 \includeScore "AMvenusPlaisirsChoeur"
 
@@ -118,14 +119,14 @@
   \italic { Cedez, belle Amphitrite à mes soins amoureux }
 }
 \includeScore "BBneptuneAmphitrite"
-
 %% 2-3
 \entree "Entrée des Dieux Marins et des Nercides"
 \pieceTocTitle "[Premier Air]"
 \includeScore "BCentree"
+
 %% 2-4
 \pieceToc\markup\wordwrap {
-  \smallCaps{Amphitrite et Neptune :}
+  \smallCaps{ Amphitrite et Neptune : }
   \italic { C'est en vain qu'à l'amour on se veut opposer }
 }
 \includeScore "BDneptuneAmphitrite"

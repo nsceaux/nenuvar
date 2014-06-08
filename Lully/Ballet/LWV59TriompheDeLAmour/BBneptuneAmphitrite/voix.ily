@@ -51,7 +51,9 @@
     r8 fad' fad' fad' sol' la' |
     si'4 sol''8 fad'' mi'' dod'' |
     re''4 mi'' fad'' |
-    fad''( mi'') mi'' |
+    fad''( mi'') \footnoteHere #'(0 . 0) \markup\wordwrap {
+      Source : un \italic mi est imprimé.
+    } re''4 |
     r8 la' la' si' do'' re'' |
     si'4 sol''8 fad'' mi'' re'' |
     do''4\trill do'' si' |
