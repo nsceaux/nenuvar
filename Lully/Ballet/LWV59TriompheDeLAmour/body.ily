@@ -129,7 +129,6 @@
   \italic { C'est en vain qu'à l'amour on se veut opposer }
 }
 \includeScore "BDneptuneAmphitrite"
-
 %% 2-5
 \pieceTocTitle "Menuet pour les mesmes"
 \includeScore "BEmenuet"
@@ -138,7 +137,8 @@
 \includeScore "BFair"
 %% 2-7
 \pieceToc\markup\wordwrap {
-  \smallCaps{Amphitrite, Nepture :} \italic { Un cœur qui veut estre volage }
+  \smallCaps{ Amphitrite, Nepture : }
+  \italic { Un cœur qui veut estre volage }
 }
 \includeScore "BGneptuneAmphitrite"
 
