@@ -149,6 +149,7 @@
 %% 2-9
 \pieceTocTitle "Gavotte pour Orithie et ses Nymphes"
 \includeScore "BIgavotte"
+%%%%%%%%%%%%%%%% SI b
 %% 2-10
 \pieceToc "[Air]"
 \includeScore "BJair"
