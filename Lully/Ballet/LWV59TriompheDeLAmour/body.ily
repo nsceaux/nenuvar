@@ -163,9 +163,11 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newPart
+%%%%%%%%%%%%%%%% SOL
 %% 3-1
 \pieceToc\markup\wordwrap {
   Ritournelle pour Diane.
+  \smallCaps Diane :
   \italic { Va, dangeureux Amour, va, fuis loin de ces bois }
 }
 \includeScore "CAdiane"
