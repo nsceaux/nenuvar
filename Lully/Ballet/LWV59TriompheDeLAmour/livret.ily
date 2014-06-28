@@ -209,11 +209,11 @@
 \livretPers "LA NUIT"
 \livretVerse#8 { Voicy le favorable temps }
 \livretVerse#10 { Où tous les cœurs doivent estre paisibles. }
-\livretVerse#11 { Le silence revient, fuyez, bruits éclatants, }
+\livretVerse#12 { Le silence revient, fuyez, bruits éclatants, }
 \livretVerse#8 { Reposez-vous, Travaux paisibles. }
 \livretVerse#12 { Cœurs agitez de soins, & de desirs flotans, }
-\livretVerse#9 { Soyez calmez dans ces heureux instans. }
-\livretVerse#11 { Oubliez vos ennuis, cœurs tendres, cœurs sensibles, }
+\livretVerse#10 { Soyez calmez dans ces heureux instans. }
+\livretVerse#12 { Oubliez vos ennuis, cœurs tendres, cœurs sensibles, }
 \livretVerse#8 { Que l’Amour ne rend pas contens. }
 \livretVerse#8 { Voicy le favorable temps, }
 \livretVerse#10 { Où tous les cœurs doivent estre paisibles. }

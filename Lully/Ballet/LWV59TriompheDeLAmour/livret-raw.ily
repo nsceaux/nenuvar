@@ -207,11 +207,11 @@
 \livretPers "LA NUIT"
 %# Voicy le favorable temps
 %# Où tous les cœurs doivent estre paisibles.
-%# Le silence revient, fuyez, bruits éclatants,
+%# Le silence revient, fuy=ez, bruits éclatants,
 %# Reposez-vous, Travaux paisibles.
 %# Cœurs agitez de soins, & de desirs flotans,
-%# Soyez calmez dans ces heureux instans.
-%# Oubliez vos ennuis, cœurs tendres, cœurs sensibles,
+%# Soy=ez calmez dans ces heureux instans.
+%# Oubli=ez vos ennuis, cœurs tendres, cœurs sensibles,
 %# Que l'Amour ne rend pas contens.
 %# Voicy le favorable temps, 
 %# Où tous les cœurs doivent estre paisibles.

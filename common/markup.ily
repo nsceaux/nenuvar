@@ -113,11 +113,14 @@
         empty-stencil)))
 
 #(define-markup-command (line-width-ratio layout props width-ratio arg)
-  (number? markup?)
-  (interpret-markup layout props
-   (markup #:override (cons 'line-width (* width-ratio
-                                           (chain-assoc-get 'line-width props)))
-           arg)))
+     (number? markup?)
+   (interpret-markup
+    layout props
+    #{ \markup\override
+         #`(line-width . ,(* width-ratio
+                             (or (chain-assoc-get 'line-width props)
+                                 (ly:output-def-lookup layout 'line-width))))
+         $arg #}))
 
 #(define-markup-list-command (line-width-ratio-lines layout props width-ratio args)
   (number? markup-list?)
