@@ -190,7 +190,7 @@
 \livretVerse#10 { Dans ces forests venez suivre nos pas, }
 \livretVerse#10 { Vous qui voulez fuïr l’Amour & ses flames, }
 \livretVerse#10 { C’est vainement qu’il menace nos ames, }
-\livretVerse#8 { Tous ses efforts n’en triomphent pas : }
+\livretVerse#9 { Tous ses efforts n’en triomphent pas : }
 \livretVerse#10 { Malgré l’amour, au mépris de ses armes, }
 \livretVerse#9 { Nostre fierté ne se rend jamais ; }
 \livretVerse#10 { Malgré ses traits nous vivons sans allarmes, }

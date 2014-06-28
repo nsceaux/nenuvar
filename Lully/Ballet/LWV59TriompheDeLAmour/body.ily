@@ -188,7 +188,10 @@
   \smallCaps Diane : \italic { Dans ces forests venez suivre nos pas }
 }
 \includeScore "CEdiane"
-
+\markup\italic\justify {
+  On reprend le second Air de Nymphes de Diane, & Diane chante le second
+  couplet, & l’on reprend encore le second Air des Nymphes de Diane.
+}
 %% 3-6
 \entree "Entrée d’Endimion"
 \pieceTocTitle "Premier Air"

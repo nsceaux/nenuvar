@@ -188,7 +188,7 @@
 %# Dans ces forests venez suivre nos pas,
 %# Vous qui voulez fuïr l'Amour & ses flames,
 %# C'est vainement qu'il menace nos ames,
-%# Tous ses efforts n'en triomphent pas :
+%# Tous ses efforts n'en tri=omphent pas :
 %# Malgré l'amour, au mépris de ses armes,
 %# Nostre fierté ne se rend jamais ;
 %# Malgré ses traits nous vivons sans allarmes,
