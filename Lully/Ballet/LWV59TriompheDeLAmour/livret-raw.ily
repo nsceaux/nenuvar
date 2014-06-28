@@ -179,7 +179,7 @@
 %# Elle comble tous mes vœux ;
 %# Un cœur maistre de luy-mesme
 %# Est toûjours heureux.
-%# Fuyons la contrainte extrême
+%# Fuy=ons la contrainte extrême
 %# D'un esclavage amoureux :
 %# Un cœur maistre de luy-mesme
 %# Est toûjours heureux.

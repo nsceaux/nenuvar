@@ -181,7 +181,7 @@
 \livretVerse#7 { Elle comble tous mes vœux ; }
 \livretVerse#7 { Un cœur maistre de luy-mesme }
 \livretVerse#5 { Est toûjours heureux. }
-\livretVerse#6 { Fuyons la contrainte extrême }
+\livretVerse#7 { Fuyons la contrainte extrême }
 \livretVerse#7 { D’un esclavage amoureux : }
 \livretVerse#7 { Un cœur maistre de luy-mesme }
 \livretVerse#5 { Est toûjours heureux. }
