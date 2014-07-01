@@ -106,4 +106,87 @@ sol'2 la'2. la'4 |
 la'2 la' mi' |
 fa' r r |
 R1.*12 |
-r2
+%%%
+r2 fa'2. sol'4 |
+la'2 la'2. sol'8 fa' |
+mi'2 mi'2. fa'4 |
+sol'2 sol'2. fa'8 mi' |
+re'2 re'2. mi'4 |
+fa'2 fa'2. fa'4 |
+re'2 sol'2. sol'4 |
+mi'2 la'2. la'4 |
+fa'4 sol' mi'2. mi'4 |
+fa'2 re'' dod'' |
+re'' sib' la' |
+la' la' la' |
+la' la' mi' |
+fa'1 re''2 |
+sib'2. sib'4 re'' re'' |
+do''1 do''2 |
+do''1 sol'2 |
+la' la' la' |
+sib'1 sib'4 do'' |
+do''2 do'' do''4 do'' |
+sib'1 sib'2 |
+do''2 do''2. sib'4 |
+la'2 re'' dod'' |
+re''2 sib' la' |
+la' la' la' |
+la' la'2. la'4 |
+fad'1. |
+re''1 re''2 |
+re'' dod'' la' |
+si'1 si'2 |
+sold'1 sold'2 |
+la'2. la'4 la' sol' |
+fad'2 si' sol' |
+la'1. |
+re'2 fad' fad' |
+mi'1 mi'2 |
+fad' re'1 |
+mi'2 mi'1\trill |
+re'2 la' la' |
+la' la' la' |
+fad' re'1 |
+la'2 la'2. la'4 |
+la'2. fad'4 si' do'' |
+re''1 si'2 |
+sol' sol' la' |
+la'1 la'2 |
+si' la'2. la'4 |
+la'2. sold'4 la' si' |
+dod''1. |
+re''1 re''2 |
+re''1 re''4 dod'' |
+si'2 sol'4 si' si' si' |
+la'2. la'4 la' la' |
+si'1 mi'2 |
+fad'4. sol'8 la'1 |
+si' si'2 |
+si'2. si'4 si'4. si'8 |
+la'2 si' mi'' |
+dod'' la'2. la'4 |
+la'2. fad'4 si' do'' |
+re''1 si'2 |
+sol' sol' la' |
+la'1 la'2 |
+si' la'2. la'4 |
+la'1. |
+r4 fad' fad'2 si' |
+la' la'2. la'4 |
+la'1 la'2 |
+r re' fad' |
+sol'1 la'2 |
+la'1 la'2 |
+re''2. re''4 si'2 |
+dod''4 re'' mi''2. re''4 |
+dod''1. |
+dod''2 la' la' |
+si'1 si'2 |
+r si' si' |
+la' la' fad' |
+mi'2 mi'2. mi'4 |
+fad'1. |
+r2 la' la' |
+fad'1. |
+

@@ -205,7 +205,9 @@
 \entree "[La Nuit]"
 \pieceToc\markup\wordwrap {
   Prelude pour la Nuict.
-  \italic { Voicy le favorable temps }
+  \italic { Voicy le favorable temps. }
+  Prelude pour le Mistere.
+  \italic { On ne peut trop cacher les secrets amoureux }
 }
 \includeScore "CHnuit"
 %% 3-9

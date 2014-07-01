@@ -18,7 +18,7 @@
       \modVersion\new Staff \with { \haraKiri } <<
         \global \keepWithTag #'dessus \includeNotes "dessus"
         { s1.*10\break s1.*36
-          \break \startHaraKiri s1.*16 \stopHaraKiri\break }
+          \break \startHaraKiri s1.*16 \noHaraKiri\break }
       >>
       \new Staff << \global \includeNotes "haute-contre" >>
       \new Staff << \global \includeNotes "taille" >>
@@ -28,7 +28,7 @@
       \global \includeNotes "voix"
     >> \includeLyrics "paroles"
     \new Staff <<
-      \global \includeNotes "basse"
+      \global \keepWithTag #'basse-continue \includeNotes "basse"
       \includeFigures "chiffres"
       \origLayout {
         s1.*10\break s1.*8\break s1.*7\pageBreak
@@ -40,6 +40,12 @@
         s1.*7\break s1.*7\pageBreak
         s1.*6\break s1.*7\pageBreak
         s1.*7\break s1.*8\pageBreak
+        s1.*7\break s1.*8\pageBreak
+        s1.*8\break s1.*6\pageBreak
+        s1.*8\break s1.*8\pageBreak
+        s1.*9\break s1.*5\pageBreak
+        s1.*7\break s1.*5\pageBreak
+        s1.*8\break
       }
     >>
   >>
