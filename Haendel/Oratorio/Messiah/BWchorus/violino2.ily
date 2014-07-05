@@ -67,9 +67,9 @@ la'4 r r8 fad'' sold'' la'' |
 re'' dod'' re'' mi''16 re'' dod''8 mi' la' sol' |
 fad'4. mi'8 re'4. re''8 |
 re'' dod'' re'' re'' re''4 dod'' |
-re''2 re'4-| re'-| |
-re'-| r8 re'' sol'' fad'' r re'' |
-sol'' fad'' r re' -| re'4 -| re'-| |
+re''2 re'4-! re'-! |
+re'-! r8 re'' sol'' fad'' r re'' |
+sol'' fad'' r re' -! re'4 -! re'-! |
 re' r8 re''16 re'' sol''8 fad'' r re''16 re'' |
 sol''8 fad'' r la'' fad''16 mi'' fad'' sol'' la'' sol'' fad'' mi'' |
 re'' dod'' re'' mi'' re'' dod'' si' la' sol' la' si' sol' la'8 la'' |

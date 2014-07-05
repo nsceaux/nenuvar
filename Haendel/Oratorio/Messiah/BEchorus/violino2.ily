@@ -41,8 +41,8 @@ re'' do'' sib' re'' do'' re'' mib'' do'' re''8 sib' fa'' fa'' |
 fa''4 fa'' fa'' fa'' |
 fa''2. la'8 sib' |
 do'' la' fa' la' sib'4 fa' |
-r sib'8 mib'' mib''4-| re''-| |
-do''-| do''-| re''-| r |
+r sib'8 mib'' mib''4-! re''-! |
+do''-! do''-! re''-! r |
 r re'8 mib' fa' re' fa' sol' |
 do'4 r r2 |
 r r4 mi'8 fa' |
@@ -65,8 +65,8 @@ re'16 do' sib re' do' sib la do' sib8 re' do'' do''' |
 sib''16 la'' sol'' sib'' la'' sol'' fa'' la'' sol'' fa'' mi'' sol'' fa'' sol'' la'' fa'' |
 sib'' la'' sib'' la'' sol'' fa'' sol'' fa'' mi''8 mi'' do' re' |
 mi' do' r4 r la'8 sib' |
-do'' la' la' la' sol'4-| la'-| |
-sol'-| sol'-| la'-| la''8 la'' |
+do'' la' la' la' sol'4-! la'-! |
+sol'-! sol'-! la'-! la''8 la'' |
 sol'' sol'' sol'' sol'' fa''4 mi'' |
 re''2 re'' |
 mi'' r |

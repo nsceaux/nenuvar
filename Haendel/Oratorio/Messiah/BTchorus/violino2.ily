@@ -1,4 +1,4 @@
-r4 sol''8-| re''-| mi''-| si'-| |
+r4 sol''8-! re''-! mi''-! si'-! |
 do'' sol' la'16 si' do''8 si'16 do'' re''8 |
 sol'4 do'''8 sol'' la'' mi'' |
 fa'' re'' mi''16 fad'' sol''8 fad''16 sol'' la''8 |
@@ -9,13 +9,13 @@ re'''8 la'' si'' fad'' sol'' mi'' |
 fad'4 la''8 mi'' fad'' dod'' |
 re''4 r2 |
 R2. |
-la'4-| fad'-| re'-| |
+la'4-! fad'-! re'-! |
 si8 sol' ~ sol'16 la' sol' fad' mi' fad' mi' re' |
 dod'8 la' ~ la'16 si' la' sol' fad' sol' fad' mi' |
 re'4 r8 re' re' re' |
 mi'4 r8 mi' mi' mi' |
 fad'4 r8 fad' fad' fad' |
-sol''4-| la''-| fad''-| |
+sol''4-! la''-! fad''-! |
 re''16 mi'' re'' do'' si' do'' si' la' sol' la' sol' fad' |
 mi'8 dod'' mi''4 r8 mi'' |
 re''4 r8 fad'' sol'' la'' |
@@ -34,7 +34,7 @@ si' fad' sol' re' mi' do' |
 re'4 re'''8 la'' si'' fad'' |
 sol''4 r2 |
 R2.*4 |
-sol''4-| mi''-| do''-| |
+sol''4-! mi''-! do''-! |
 la'8 fa'' ~ fa''16 sol'' fa'' mi'' re'' mi'' re'' do'' |
 si' do'' si' la' sol'4 r8 sol'' |
 mi''16 fad'' sol''8 sol''4 fad'' |

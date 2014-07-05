@@ -1,9 +1,9 @@
-la,4 r r8 la-| |
-sol4-| r r8 fa-| |
-mi4-| r r8 re |
+la,4 r r8 la-! |
+sol4-! r r8 fa-! |
+mi4-! r r8 re |
 do do' si4 la |
-sold-| sol-| r8 sol |
-fad4-| fa-| r8 fa |
+sold-! sol-! r8 sol |
+fad4-! fa-! r8 fa |
 mi4 r2 |
 r4 r8 sold la do' |
 re' re mi4 mi, |

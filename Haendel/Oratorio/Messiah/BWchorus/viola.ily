@@ -69,9 +69,9 @@ r8 la' si' dod'' fad' la' mi' la' |
 la'4 sold' la' r |
 r8 la re' dod' si4. la'8 |
 sol'4 la'8 si' la'2 |
-la' re'4-| re'-| |
-re'-| r8 re' re'' re'' r re' |
-re'' re'' r re'-| re'4-| re'-| |
+la' re'4-! re'-! |
+re'-! r8 re' re'' re'' r re' |
+re'' re'' r re'-! re'4-! re'-! |
 re' r8 re'16 re' re'8 re' r re'16 re' |
 re'8 re' r fad' la'4 re' |
 fad' fad' re' re' |

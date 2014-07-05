@@ -71,10 +71,10 @@ R1 |
 r2 r4 la'' |
 re''' fad'' si'' re'' |
 sol'' fad''8 mi'' fad''4 mi''8. re''16 |
-re''2 re'4-| re'-| |
-re'-| r8 la'' si'' la'' r la'' |
-si'' la'' r re' -| re'4 -| re' -| |
-re' -| r8 la''16 la'' si''8 la'' r la''16 la'' |
+re''2 re'4-! re'-! |
+re'-! r8 la'' si'' la'' r la'' |
+si'' la'' r re' -! re'4 -! re' -! |
+re' -! r8 la''16 la'' si''8 la'' r la''16 la'' |
 si''8 la'' r4 r la'' |
 re''' fad'' si'' re'' |
 sol'' fad''8 mi'' mi''4. -\trill la''8 |
