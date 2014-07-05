@@ -138,6 +138,7 @@
   shortBookTitleMarkup =  \markup {
     \override #'(baseline-skip . 3.5) \column {
       \huge \larger \bold \fill-line { \larger \fromproperty #'header:title }
+      \huge \fill-line { \fromproperty #'header:subtitle }
       \fill-line {
         \fromproperty #'header:poet
         \on-the-fly #(lambda (layout props arg)
