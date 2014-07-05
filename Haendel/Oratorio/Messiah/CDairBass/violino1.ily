@@ -116,7 +116,7 @@ r4 r8 mi'' re'' mi'' |
 fad'' sol'' la''4 r |
 r r8 mi'' re'' mi'' |
 fad'' sol'' la'' mi'' re'' mi'' |
-fad'' re'' sol''4-| sol''-| |
+fad'' re'' sol''4-! sol''-! |
 sol''4. la''8 fad'' mi'' |
 fad'' sol'' mi''4. re''8 |
 re''2 \fermata r4 |

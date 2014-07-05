@@ -1,7 +1,7 @@
 R1*25 |
 la'4. si'8 dod'' re'' mi'' si' |
-dod'' la' fad''2 mi''4-| |
-la'-| re''2 dod''4 |
+dod'' la' fad''2 mi''4-! |
+la'-! re''2 dod''4 |
 fad''4. sold''16 fad'' sold''8 mi'' la''4 ~|
 la''8 re'' sol''4 ~ sol''8 sol'' fad'' mi'' |
 fad''4 r8 sol'' la''4 dod'' |

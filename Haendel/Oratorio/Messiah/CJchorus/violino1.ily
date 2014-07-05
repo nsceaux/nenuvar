@@ -5,7 +5,7 @@ re'' sol''2 fad''4 |
 si''4. dod'''16 si'' dod'''8 la'' re''' fad'' |
 sol'' mi'' la'' sol'' fad'' re'' fad'' sold'' |
 la'' mi'' la''2 sold''4 |
-la'' r8 la'' sold''4-| dod'''-| |
+la'' r8 la'' sold''4-! dod'''-! |
 r8 dod''' si'' la'' sold'' si'' mi''4 r8 la'' re'''2 dod'''4 |
 si''2 la'' |
 re'''4 r8 dod''' re'''4 la'' ~|

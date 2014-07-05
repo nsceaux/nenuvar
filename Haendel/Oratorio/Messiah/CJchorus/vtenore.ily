@@ -6,11 +6,11 @@ fad4. fad8 sold [ mi ] la4 ~|
 la8 [ sold la si ] dod' [ re' mi' sol ]|
 fad [ si la sol ] re'4 \melismaEnd dod' |
 re' re r2 |
-r4 si-|\melisma la-|\melismaEnd re'-| |
+r4 si-!\melisma la-!\melismaEnd re'-! |
 r2 r4 re' ~\melisma |
 re' dod'\melismaEnd re'2 |
 R1 |
-r4 la-|\melisma sold-|\melismaEnd dod' |
+r4 la-!\melisma sold-!\melismaEnd dod' |
 R1 |
 r4 fad' \melisma sold' \melismaEnd mi' |
 fad' \melisma mi'8 [ re' ] \melismaEnd mi'2 |
@@ -22,7 +22,7 @@ re'2 mi'4 fad' |
 sol'2 \melismaEnd fad' |
 R1*2 |
 dod'4. \melisma re'8 mi'4. re'8 |
-mi' \melismaEnd dod' la4-|\melisma sold-| dod' ~|
+mi' \melismaEnd dod' la4-!\melisma sold-! dod' ~|
 dod' si8 [ la ] sold [ fad ]\melismaEnd mi4 |
 r la \melisma si \melismaEnd dod' |
 re'2 dod'4 la ~\melisma |

@@ -6,7 +6,7 @@ si4. \melismaEnd si8 dod' [\melisma la ] la'4 |
 sol'2 \melismaEnd fad'4 fad'8 [\melisma mi' ]|
 re' [ mi' fad' sol' ] mi' [ re' dod' re' ]|
 mi'4 \melismaEnd dod' r2 |
-r4 fad'-|\melisma mi'-|\melismaEnd la' |
+r4 fad'-!\melisma mi'-!\melismaEnd la' |
 r la' \melisma si' \melismaEnd la' |
 la' ( sold' ) la'2 |
 R1*10 |

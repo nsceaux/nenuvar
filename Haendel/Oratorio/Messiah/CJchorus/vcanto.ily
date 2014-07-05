@@ -6,7 +6,7 @@ fad''2 \melisma mi'' |
 re'' \melismaEnd dod'' |
 R1*10 |
 re''4. \melisma dod''8 re''4 \melismaEnd la' |
-re''8 la' re''4-|\melisma dod''-|\melismaEnd fad''-| |
+re''8 la' re''4-!\melisma dod''-!\melismaEnd fad''-! |
 r mi'' \melisma la' la'' |
 re'' sol''2 fad''4 |
 mi''2 \melismaEnd re'' |

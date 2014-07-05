@@ -1,5 +1,5 @@
 s1*30 |
-fad''4-| s8 sol'' la''4 la'' |
+fad''4-! s8 sol'' la''4 la'' |
 la'' s2 fad''4 |
 re'' s2 la''4 ~|
 la'' sol''2 fad''4 |
