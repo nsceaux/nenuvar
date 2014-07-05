@@ -30,7 +30,7 @@ la'' sol'' la'' sol'' fad'' sol'' fad'' sol'' la'' sol'' la'' sol'' fad'' sol'' 
 la'' sol'' la'' sol'' fad'' sol'' fad'' sol'' la'' sol'' la'' sol'' fad'' sol'' fad'' sol'' |
 la'' sol'' la'' sol'' fad'' sol'' fad'' sol'' la'' sol'' la'' sol'' fad'' la'' sol'' la'' |
 si'' la'' si'' dod''' si'' dod''' si'' dod''' re'''8 la'' re'''4 ~|
-re''' dod'''-| re'''-| r |
+re''' dod'''-! re'''-! r |
 r2 r8 re''\p sol''4 |
 r8 mi'' la'' re'' re''4 sol'' |
 r mi'' r la'' |

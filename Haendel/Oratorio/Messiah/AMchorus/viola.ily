@@ -29,7 +29,7 @@ re''8. la'16 la'4 r2 |
 re''8. la'16 la'4 r2 |
 r8 la' la' la' re''4 r8 re'' |
 re' re' re' sol' la' la' r la' |
-si'4-| la'-| la'-| r |
+si'4-! la'-! la'-! r |
 r2 r8 fad' \p si'4 |
 r8 la' re' fad' sol'4 re' |
 r do' r mi' |

@@ -20,7 +20,7 @@ re''8. la'16 la'4 r2 |
 re''8. la'16 la'4 r2 |
 r8 la' la' la' re''4 r8 re'' |
 re'' re'' sol'' sol'' fad'' fad'' r re'' |
-re''4-| dod''-| re''-| r |
+re''4-! dod''-! re''-! r |
 R1*3 |
 r4 re''8 si' sol' mi'' do'' la' |
 fad'4 r r2 |

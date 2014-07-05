@@ -51,17 +51,17 @@ sol'' sol'' do'' do'' sib' sib' la' la' sol' sol' sol' sol' la' la' sib' sib' |
 \repeat unfold 8 la' \repeat unfold 8 re'' |
 \repeat unfold 8 dod'' \repeat unfold 8 mi'' |
 la'4 r re'''8 (\p la'' ) fa''( re'' )|
-la'4-|\f r sol''8 (\p mi'' ) dod'' ( la' )|
-fa''4-|\f r re'''8 (\p la'' ) fa'' ( re'' )|
-la'4-|\f r sol''8 (\p mi'' ) dod'' ( la' )|
-fa''4-|\f r re''8 \p la' fa' re' |
+la'4-!\f r sol''8 (\p mi'' ) dod'' ( la' )|
+fa''4-!\f r re'''8 (\p la'' ) fa'' ( re'' )|
+la'4-!\f r sol''8 (\p mi'' ) dod'' ( la' )|
+fa''4-!\f r re''8 \p la' fa' re' |
 si'4 \f r mi''8 (\p si' ) sold' ( mi' )|
 mi''4 \f r mi''8 (\p do'' ) mi'' ( la'' )|
 la' \p re' fa' la' do'' la' do'' mi'' |
 fa''16 \f fa'' fa'' fa'' fa' fa' fa' fa' fa'' fa'' fa'' fa'' fa' fa' fa' fa' |
 mi'' mi'' mi'' mi'' mi' mi' mi' mi' mi'' mi'' mi'' mi'' la'' la'' la'' la'' |
 la'' la'' la'' la'' la' la' la' la' sold'' sold'' sold'' sold'' sold' sold' sold' sold' |
-la''8 \p mi'' do'' la' sold'4-|\f r |
+la''8 \p mi'' do'' la' sold'4-!\f r |
 la''8 \p mi'' do'' la' si4 \f r |
 si''8 \p sold'' mi'' si' mi'4 \f r |
 R1*3 |

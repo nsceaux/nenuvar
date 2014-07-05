@@ -21,7 +21,7 @@
 \pieceToc \markup \wordwrap { Recitative: \italic { Comfort ye, my people } (tenor) }
 \includeScore "ABrecitTenor"
 %{ n°3 %}\newBookPart #'(full vocal-keyboard)
-\pieceToc \markup \wordwrap { Air: \italic { Every valley shall be exhalted } (tenor) }
+\pieceToc \markup \wordwrap { Air: \italic { Every valley shall be exalted } (tenor) }
 \includeScore "ACairTenor"
 %{ n°4 %}\newBookPart #'(full vocal vocal-keyboard keyboard)
 \pieceToc \markup \wordwrap { Chorus: \italic { And the glory of the Lord } }

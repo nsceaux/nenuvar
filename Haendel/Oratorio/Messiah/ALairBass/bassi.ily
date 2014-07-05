@@ -1,14 +1,14 @@
 fad8 |
-si ( lad ) si ( lad ) si ( dod' re' ) lad-| |
-si-| sol ( fad mid ) fad ( red ) mi-| dod-| |
-re-| si, ( lad, si, ) sol mi lad si |
+si ( lad ) si ( lad ) si ( dod' re' ) lad-! |
+si-! sol ( fad mid ) fad ( red ) mi-! dod-! |
+re-! si, ( lad, si, ) sol mi lad si |
 fad4. fad8 si,4 r8 fad\p |
 si lad si lad si dod' re' lad |
 si sol fad mid fad red mi dod |
-re-| si, ( lad, si, ) mi re sol fad |
+re-! si, ( lad, si, ) mi re sol fad |
 sol,2 fad,4 r |
 r2 r4 r8 fad |
-sol ( red mi ) sold-| la ( mid fad ) lad-| |
+sol ( red mi ) sold-! la ( mid fad ) lad-! |
 si4 dod'8 re' fad4 fad8 la |
 si sol mi dod' re' re fad la |
 si sol mi dod' re'4 r8 re |
@@ -20,7 +20,7 @@ do4 re mi fad |
 sol8 mi do re sol,4 r8 si, \p |
 mi red mi red mi fad sol red |
 mi do' si lad si sold la fad |
-sol-| mi ( red mi ) do la, si, sol, |
+sol-! mi ( red mi ) do la, si, sol, |
 la,2 si,4 r8 si |
 do' sold la dod' re' lad si red' |
 mi' si do' sold la fad sol red |

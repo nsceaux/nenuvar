@@ -3,7 +3,7 @@ sold''8 si' dod'' mi'' fad'8. ( red''16 ) red''8 fad'' |
 si' dod''16 si' la'8 sold' fad'4 r8 si' |
 dod''-\trill si' dod''-\trill si' dod''-\trill si' r mi'' |
 red'' mi'' red'' mi'' red'' mi'' r sold'' \p |
-la'' ( sold'' ) la'' ( sold'' ) la'' ( sold'' ) la'' red'' -|\f |
+la'' ( sold'' ) la'' ( sold'' ) la'' ( sold'' ) la'' red'' -!\f |
 mi'' mi''4 red''8 mi''4 r8 sold' \p |
 la' sold' la' sold' la' sold' la' red' \f |
 mi' mi'4 red'8 mi'4 r |
@@ -39,7 +39,7 @@ si' si' si' si' si' si' si' si' |
 dod'' si' lad' si' dod'' si' lad' si' |
 dod''4 si' r2 |
 r8 red' \p mi' ( red' ) mi' ( red' ) mi' ( red' )|
-mi'' ( red'' ) mi'' ( red'' ) mi'' ( red'' ) mi'' lad'-|\f |
+mi'' ( red'' ) mi'' ( red'' ) mi'' ( red'' ) mi'' lad'-!\f |
 si' si'4 lad'8 si'4 r |
 R1 |
 sold'4 \f si' mi'' r |
@@ -68,7 +68,7 @@ la' sold' fad' sold' la' sold' fad' sold' |
 la'4 si' r2 |
 R1 |
 r8 sold'' la'' ( sold'' ) la'' ( sold'' ) la'' ( sold'' )|
-la'' ( sold'' ) la'' ( sold'' ) la'' ( sold'' ) la'' red''-| |
+la'' ( sold'' ) la'' ( sold'' ) la'' ( sold'' ) la'' red''-! |
 mi'' mi''4 red''8 mi''4 r |
 mi'' r red'' \fermata r |
 R1*2 |
@@ -77,7 +77,7 @@ sold''8 si' dod'' mi'' fad'8. ( red''16 ) red''8 fad'' |
 si' dod''16 si' la'8 sold' fad'4 r8 si' |
 dod''-\trill si' dod''-\trill si' dod''-\trill si' r mi'' |
 red''( mi'') red''( mi'') red'' mi'' r sold'' \p |
-la'' ( sold'' ) la'' ( sold'' ) la'' ( sold'' ) la'' red'' -|\f |
+la'' ( sold'' ) la'' ( sold'' ) la'' ( sold'' ) la'' red'' -!\f |
 mi'' mi''4 red''8 mi''4 r8 sold' \p |
 la'( sold') la'( sold') la'( sold') la' red' \f |
 mi' mi'4 red'8 mi'4\fermata r |
