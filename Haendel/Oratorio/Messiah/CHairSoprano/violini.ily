@@ -1,4 +1,4 @@
-r2 sol'4 |
+r4 r sol'4 |
 sib' la' sol' |
 re''2 sol''4 |
 fa''4. sol''8 mib''4 |
