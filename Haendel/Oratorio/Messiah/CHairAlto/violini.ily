@@ -21,7 +21,7 @@ lab' fa' do'' lab' fa'' do'' |
 lab'' fa'' do''' lab'' fa'' do'' |
 reb'' do'' reb'' do'' fa'' do'' |
 si'4. r16 sol'' fa''4~ |
-fa''8. do'''16 mib''4 re''8. do''16 |
+fa''8 r16 do'''16 mib''4 re''8. do''16 |
 do''2 r4 |
 R2.*3 |
 r4 r do''4 |
