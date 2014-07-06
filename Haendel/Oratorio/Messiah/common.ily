@@ -10,16 +10,24 @@
   }
 }
 \paper {
-  #(define page-breaking (cond ((eqv? #f (ly:get-option 'part)) ly:optimal-breaking)
-                               ((memq (ly:get-option 'part) '(vocal vocal-keyboard choir)) ly:optimal-breaking)
-                               (else ly:page-turn-breaking)))
+  #(define page-breaking
+     (cond ((eqv? #f (ly:get-option 'part)) ly:optimal-breaking)
+           ((memq (ly:get-option 'part)
+                  '(vocal vocal-keyboard choir))
+            ly:optimal-breaking)
+           (else ly:page-turn-breaking)))
 }
 
-#(set-global-staff-size (cond ((eqv? #f (ly:get-option 'part)) 14)
-                              ((memq (ly:get-option 'part) '(vocal vocal-keyboard keyboard choir)) 16)
-                              (else 18)))
+#(set-global-staff-size
+  (cond ((eqv? #f (ly:get-option 'part)) 14)
+        ((memq (ly:get-option 'part)
+               '(vocal vocal-keyboard keyboard choir))
+         16)
+        (else 18)))
 #(ly:set-option 'non-incipit #t)
 #(ly:set-option 'use-rehearsal-numbers #t)
+#(ly:set-option 'original-layout
+                (eqv? #t (ly:get-option 'urtext)))
 
 \include "italiano.ly"
 \include "common/common.ily"
@@ -79,3 +87,5 @@ partNoBreak=
   (make-music 'Music 'void #t))
 
 fineMark = { \dacapoOverrides \mark \markup \right-align \italic Fine. }
+
+trill = #(make-articulation "trill")
