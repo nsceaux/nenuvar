@@ -1,0 +1,1 @@
+../BKairTenor/lyrics.ily

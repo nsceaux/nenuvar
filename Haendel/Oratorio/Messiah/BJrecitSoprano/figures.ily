@@ -1,0 +1,1 @@
+../BJrecitTenor/figures.ily

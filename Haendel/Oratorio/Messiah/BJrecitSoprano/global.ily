@@ -1,0 +1,1 @@
+../BJrecitTenor/global.ily

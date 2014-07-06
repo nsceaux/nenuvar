@@ -1,0 +1,1 @@
+../BKairTenor/global.ily

@@ -1,0 +1,1 @@
+../BJrecitTenor/lyrics.ily
