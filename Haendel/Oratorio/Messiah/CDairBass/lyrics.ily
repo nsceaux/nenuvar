@@ -2,15 +2,16 @@ The trum -- pet shall sound, __
 and the dead shall be rais'd,
 and the dead shall be rais'd __ in cor -- rup -- ti -- ble,
 the trum -- pet shall sound, __
-and the dead shall be rais'd in cor -- rup -- ti -- ble,
-in cor -- rup -- ti -- ble,
+and the dead shall be rais'd
+be rais'd in cor -- rup -- ti -- ble,
+be rais'd in cor -- rup -- ti -- ble,
 and we shall be chang'd, __
 and we shall be chang'd.
 The trum -- pet shall sound, __
 the trum -- pet shall sound, __
 and the dead shall be rais'd, __
-in cor -- rup -- ti -- ble,
-in cor -- rup -- ti -- ble,
+be rais'd in cor -- rup -- ti -- ble,
+be rais'd in cor -- rup -- ti -- ble,
 and we shall be chang'd, be chang'd, __
 and we shall be chang'd,
 and we shall be chang'd, __

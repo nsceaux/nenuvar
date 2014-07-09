@@ -27,4 +27,4 @@ si16 si si8 la sol do'8. do'16 do'4 |
 r8 fa sol re mi mi r4 |
 r r8 mi si4 r8 si16 mi |
 do'4 r r la8 la |
-sold4. la8 mi4 s r |
+sold4. la8 mi4 r |

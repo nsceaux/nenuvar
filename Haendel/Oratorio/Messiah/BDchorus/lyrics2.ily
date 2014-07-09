@@ -1,8 +1,9 @@
-And with his stripes are we hea -- led,
-and with his stripes are we hea -- led,
-and with his stripes are we hea -- led,
-and with his stripes are we hea -- led,
-and with his stripes are we hea -- led,
-and with his stripes are we hea -- led,
-and with his stripes are we hea -- led,
-and with his stripes are we hea -- led.
+And with his stripes we are hea -- led,
+and with his stripes we are hea -- led,
+and with his stripes we are hea -- led,
+and with his stripes we are hea -- led,
+and with his stripes we are hea -- led,
+and with his stripes we are hea -- led,
+and with his stripes we are hea -- led, we are hea -- led,
+and with __ his stripes
+and with his stripes we are hea -- led.

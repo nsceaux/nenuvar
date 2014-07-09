@@ -1,6 +1,6 @@
 R1*8 |
 r4 r8 la' re'4 mi' |
-fa'8. [ sol'16 ] mi'4 re' r |
+fa'8 [ sol' ] mi'4 re' r |
 R1 |
 r2 r4 r8 re' |
 sol' sol' sol' sol' fa'16 [\melisma sol' fa' mib' ] fa' [ re' do' re' ]|

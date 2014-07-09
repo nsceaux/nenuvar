@@ -2,7 +2,7 @@ R1*5 |
 la4. \melisma si8 dod' [ re' mi' si | dod' ]\melismaEnd
 la fad'2 \melisma mi'4 |
 la re'2 dod'4 |
-fad4. fad8 sold [ mi ] la4 ~|
+fad4.\melismaEnd fad8 sold[ mi]\melisma la4 ~|
 la8 [ sold la si ] dod' [ re' mi' sol ]|
 fad [ si la sol ] re'4 \melismaEnd dod' |
 re' re r2 |

@@ -1,7 +1,7 @@
 r2 do'' |
 lab' reb'' |
 mi'1 |
-fa'2. sol'4 |
+fa'2 sol' |
 lab'2. sib'4 |
 do''1 |
 r4 re'' sol'' fa'' |

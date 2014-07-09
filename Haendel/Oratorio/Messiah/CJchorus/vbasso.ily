@@ -2,8 +2,8 @@ re4. \melisma mi8 fad [ sol la mi | fad ]\melismaEnd
 re si2 \melisma la4 |
 re sol2 fad4 |
 si4. \melismaEnd si8 dod' [\melisma la ] re'4 ~|
-re' dod' re' fad8[ mi ]|
-re [ mi fad sold ] la4 \melismaEnd la, |
+re' dod'\melismaEnd re' fad8[ mi]\melisma |
+re[ mi fad sold] la4 \melismaEnd la, |
 r la-!\melisma sold-! dod'-! |
 r fad-! mi-! la-! |
 r re2 \melismaEnd dod4 |

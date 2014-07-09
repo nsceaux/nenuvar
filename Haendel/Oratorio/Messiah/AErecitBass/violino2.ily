@@ -27,4 +27,4 @@ r2 do''4 r |
 fa' r r8 sol' sol'8. sol'16 |
 si'4 r r2 |
 do''8. mi'16 mi'8. mi'16 fad'4 r |
-r2 s4 si' dod'' |
+r2 si'4 dod'' |

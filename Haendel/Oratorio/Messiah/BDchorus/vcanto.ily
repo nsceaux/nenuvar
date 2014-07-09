@@ -1,7 +1,7 @@
 r2 do'' |
 lab' reb'' |
 mi'1 |
-fa'2. sol'4 |
+fa'2 sol' |
 lab'2.\melisma sib'4\melismaEnd |
 do''1 |
 r4 re'' sol'' fa'' |
@@ -61,10 +61,10 @@ r2 fa'' mib'' lab'' |
 si'1 |
 do''2 re'' |
 mib''\melisma mi'' |
-fa''1 |
-do'' ~|
+fa''1\melismaEnd |
+do'' |
 do''2 sib' |
-lab'4 sol' lab' sib' |
+lab'4\melisma sol' lab' sib' |
 do''1 |
 do'' |
 sib' \melismaEnd |

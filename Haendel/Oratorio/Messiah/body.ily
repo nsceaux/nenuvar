@@ -56,7 +56,7 @@
 \pieceTocTitle "Pifa"
 \includeScore "ANpifa"
 %{ n°14 %}\newBookPart #'(full vocal-keyboard)
-\pieceToc \markup \wordwrap { Recitative: \italic { There were sheperds abiding in the fields } (soprano) }
+\pieceToc \markup \wordwrap { Recitative: \italic { There were shepherds abiding in the fields } (soprano) }
 \includeScore "AOrecitSoprano"
 \newBookPart #'(keyboard)
 \includeScore "APrecitSoprano"

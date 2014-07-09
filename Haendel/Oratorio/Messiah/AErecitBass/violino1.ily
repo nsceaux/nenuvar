@@ -27,4 +27,4 @@ r2 sol''4 r |
 si' r r8 do'' do''8. do''16 |
 mi''4 r r2 |
 mi''8. do''16 do''8. do''16 do''4 r |
-r2 s4 sold'' la'' |
+r2 sold''4 la'' |

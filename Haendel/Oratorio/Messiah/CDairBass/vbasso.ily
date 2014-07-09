@@ -10,9 +10,9 @@ la2 r4 |
 R2. |
 r4 la la |
 si dod' re' |
-mi'8 [ re' mi' la ] si [ dod' ]|
-re' [( dod' ] re'4 ) re |
-la la r |
+mi'8 [ re' mi' la]\melisma si [ dod' ]|
+re'[ dod']\melismaEnd re'4 re |
+la8. la16 la4 r |
 R2.*3 |
 r2 mi4 |
 la la8 [ si ] dod' [ re' ]|
@@ -22,11 +22,11 @@ r mi'8 [ re' ] dod' [ si ]|
 la [ sold ] la [ si ] dod' [ re' ]|
 mi'2. |
 r2 si4 |
-dod'8 [( re' ] mi'4 ) sold |
-la mi r |
+dod'8[ re'] mi'4 sold |
+la8 mi mi4 r |
 r2 dod'4 |
-re' ( dod' ) la |
-re' la r |
+re' dod' la |
+re'8 la la4 r |
 R2. |
 r2 mi'4 |
 si si dod' |
@@ -54,11 +54,11 @@ re'2. ~|
 re' ~|
 re' |
 r2 la4 |
-si8 ([ dod' ] re'4 ) fad |
-sol re r |
+si8[ dod'] re'4 fad |
+sol8 re re4 r |
 r2 la4 |
-re' ( dod' ) la |
-re' la r |
+re' dod' la |
+re'8 la la4 r |
 R2.*2 |
 r2 la4 |
 mi mi4. fad8 |

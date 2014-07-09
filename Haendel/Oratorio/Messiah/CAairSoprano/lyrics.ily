@@ -4,7 +4,7 @@ I know that my Re -- deem -- er liv -- eth,
 and that he shall stand __ at the lat -- ter day up -- on the earth, __
 up -- on the earth;
 I know __ that my Re -- deem -- er liv -- eth,
-and that he shall __ stand at the lat -- ter day up -- on the earth, __
+and he shall stand __ at the lat -- ter day up -- on the earth, __
 up -- on the earth.
 And though worms de -- stroy this bo -- dy,
 yet in my flesh shall I see God,

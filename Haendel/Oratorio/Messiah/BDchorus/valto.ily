@@ -45,22 +45,22 @@ fa2 ( sib )|
 sol r |
 R1*3 |
 r4 re' sol' fa' |
-mib' lab' ( sol' ) fa' |
+mib'( lab') sol' fa' |
 sol'\melisma << { \voiceOne do'' } \new Voice { \voiceTwo do' } >> \oneVoice sol' lab' |
 sib'2. lab'8 [ sol' ]|
 lab'1 |
-la' |
-sib'4 sib' fa' sol' |
-lab'2. sol'8 [ fa' ]|
+la'\melismaEnd |
+sib'4 sib' fa'\melisma sol'\melismaEnd |
+lab'2.\melisma sol'8 [ fa' ]\melismaEnd |
 sol'1 ~|
 sol'2 sol' |
-lab'1 |
-sol'2 fa'4 mib' \melismaEnd |
+lab'1\melisma |
+sol'2\melismaEnd fa'4\melisma mib' \melismaEnd |
 re'2 r |
 R1*3 |
 r4 sol' do'' sib' |
 lab' ( sol' ) fa' mi' |
-fa' \melisma mi' fa' sol' |
+fa'\melisma mi' fa' sol' |
 lab'2. sol'4 |
 fa'1 ~|
 fa' \melismaEnd |

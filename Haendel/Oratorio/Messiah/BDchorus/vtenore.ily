@@ -51,28 +51,28 @@ lab sol\melismaEnd |
 lab1 |
 R1 |
 r4 sol do' sib |
-lab reb' ( do' ) sib |
+lab( reb') do' sib |
 do' \melisma fa' do' re' |
 mib' re' do'2 |
 re'1 |
 do'2 si \melismaEnd |
 do'1 |
 R1 |
-r4 fa' do' re' |
-mib'2. reb'8 [( do' ]|
-reb'1 )|
-re' |
-mib'4 \melisma mib' sib do' |
-reb'2. do'8 [ sib ]\melismaEnd |
+r4 fa' do'( re') |
+mib'2.\melisma reb'8[ do'] |
+reb'1 |
+re'\melismaEnd |
+mib'4 mib' sib\melisma do'\melismaEnd |
+reb'2.\melisma do'8[ sib]\melismaEnd |
 do'1 |
 R1 |
 r4 sol sol' fa' |
 mib' ( re' ) do' si |
 do'1 ~|
-do'2 \melisma sib |
+do'2 \melisma sib\melismaEnd |
 sol'1 |
 fa'2 sib |
-do'2. sib4 |
+do'2.\melisma sib4 |
 lab sib do'2 |
 reb'1 ~|
 reb' \melismaEnd |

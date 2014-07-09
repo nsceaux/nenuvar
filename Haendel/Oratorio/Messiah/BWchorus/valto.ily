@@ -38,7 +38,7 @@ re'4. mi'8 fad'4 sold' |
 la'4. la'8 sol'4 sol' |
 la'2 r |
 R1*4 |
-r4 la' re' fad' |
+r4 la' re'' fad' |
 si' re' sol' fad'8 mi' |
 fad'4 \melisma mi'8. [ re'16 ]\melismaEnd re'8 la' fad' re' |
 r mi' la' mi' r4 r8 dod' |
@@ -71,7 +71,7 @@ re' r8 la' si' la' r la' |
 si' la' r re' re'4 re' |
 re' r8 la'16 la' si'8 la' r la'16 la' |
 si'8 la' r4 r la' |
-re' la' si' re' |
+re'' la' si' re' |
 sol' fad'8 mi' mi'2 |
 fad'4 r fad' fad'8. [ sol'16 ]|
 la'4 r8 fad' fad'4 fad'8. [ sol'16 ]|

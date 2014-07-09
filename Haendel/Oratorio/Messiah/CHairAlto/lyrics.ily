@@ -11,11 +11,11 @@ who is he that con -- demn -- eth?
 It is Christ that di -- ed,
 yea ra -- ther, that is ri -- sen a -- gain,
 who is at the right hand of God,
-who maketh in -- ter -- ces -- sion for us,
-who maketh in -- ter -- ces -- sion for us,
+who makes in -- ter -- ces -- sion for us,
+who makes in -- ter -- ces -- sion for us,
 in -- ter -- ces -- sion for us,
-who maketh in -- ter -- ces -- sion,
-who maketh in -- ter -- ces -- sion for us,
+who makes in -- ter -- ces -- sion,
+who makes in -- ter -- ces -- sion for us,
 who is at the right hand of God,
 who is at the right hand of God, at the right hand of God,
-who maketh in -- ter -- ces -- sion for us.
+who makes in -- ter -- ces -- sion for us.

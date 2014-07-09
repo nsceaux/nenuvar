@@ -27,4 +27,4 @@ r2 mi4 r |
 re r r8 do do8. do16 |
 sold,4 r r2 |
 la,8. la16 la8. la16 red4 r |
-r2 s4 mi la, |
+r2 mi4 la, |

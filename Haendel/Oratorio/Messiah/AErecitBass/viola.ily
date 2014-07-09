@@ -27,4 +27,4 @@ r2 sol'4 r |
 re' r r8 mi' mi'8. mi'16 |
 mi'4 r r2 |
 la'8. la'16 la'8. la'16 la'4 r |
-r2 s4 mi' mi' |
+r2 mi'4 mi' |

@@ -36,7 +36,7 @@ si'4. sold'8 fad' mi' |
 mi''2 ~ mi''8 mi'' |
 mi''8. [ fad''16 ] sold''8 mi'' red'' dod'' |
 si'2. ~|
-si'4. dod''8 la' sold' |
+si'4.\melisma dod''8\melismaEnd la' sold' |
 la'2. ~|
 la'4. si'8 sold' [ fad' ]|
 sold' [ la' ] fad'4. mi'8 |
