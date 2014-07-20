@@ -39,7 +39,7 @@
   }
   \pieceToc\markup\wordwrap {
     Camille, une suivante :
-    \italic { D’où nait le trou -- ble qui vous pres -- se }
+    \italic { D’où nait le trouble qui vous presse }
   }
   \includeScore "AABcamille"
 }

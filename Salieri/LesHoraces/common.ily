@@ -133,7 +133,8 @@
              (#:notes "violini" #:tag-notes violino2))
    (alto "Alto" () (#:notes "alto" #:clef "alto"))
    (basso "Basso, Contrabasso" ()
-          (#:notes "bassi" #:clef "bass" #:tag-notes basso))
+          (#:notes "bassi" #:clef "bass" #:tag-notes basso
+           #:instrument , #{ \markup\center-column { Basso Contrabasso } #}))
 
    (timpani "Timpani" ()
             (#:notes "timpani" #:clef "bass")))
@@ -147,10 +148,15 @@ oboiInstr = \with {
   instrumentName = "Oboi"
   shortInstrumentName = "Ob."
 }
+clarinettiInstr = \with {
+  instrumentName = "Clarinetti"
+  shortInstrumentName = "Cl."
+}
 fagottiInstr = \with {
   instrumentName = "Fagotti"
   shortInstrumentName = "Fg."
 }
+
 violiniInstr = \with {
   instrumentName = "VViolini"
   shortInstrumentName = "Vn."
@@ -159,16 +165,6 @@ altoInstr = \with {
   instrumentName = "Alto"
   shortInstrumentName = "Vla."
 }
-%{
-bassoInstr = \with {
-  instrumentName = "Basso"
-  shortInstrumentName = "B."
-}
-contrabassoInstr = \with {
-  instrumentName = "Contrabasso"
-  shortInstrumentName = "Cb."
-}
-%}
 bcbInstr = \with {
   instrumentName = \markup\center-column {
     Basso Contrabasso
