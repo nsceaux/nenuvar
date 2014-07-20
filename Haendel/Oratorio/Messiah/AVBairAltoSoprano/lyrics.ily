@@ -8,10 +8,10 @@ and gent -- ly lead, __
 and gent -- ly lead those that are __ with young.
 
 Come un -- to him, all ye that la -- bour
-come un -- to him __ that are hea -- vy la -- den,
+come un -- to him, all ye __ that are hea -- vy la -- den,
 and he will give you rest;
 come un -- to him, all ye that la -- bour
-come un -- to him that are hea -- vy la -- den,
+come un -- to him, all ye that are hea -- vy la -- den,
 and he will give you rest.
 
 Take his yoke up -- on you, and learn of him,

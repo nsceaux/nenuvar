@@ -5,4 +5,4 @@ fa!2 mi ~|
 mi re |
 do1 ~|
 do2 re |
-s4 mi la, r2 |
+mi4 la, r2 |

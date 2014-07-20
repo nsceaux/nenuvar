@@ -24,13 +24,13 @@ R1. |
 r2 *3/2 r4 r8 r4^\markup \character Soprano fa''8 |
 fa''4 ( mib''8 ) re''4 ( do''8 ) sib'4. ~ sib'4 la'8 |
 sib'4 do''8 re''8. [ mib''16 fa''8 ] fa'4. r4 fa''8 |
-fa''4 ( mib''8 ) re''4 ( do''8 ) sib'4. ~ sib'4 sib'8 |
+fa''4 mib''8 re''4 do''8 sib'4. ~ sib'4 sib'8 |
 sol''4 ( fa''8 ) mi'' [ re'' ] do'' sib'16 [ la' ] sib'4 ~ sib' do''8 |
 la' [ sol' ] sib' la' [ sib' ] sol' fa'2. |
 r2*3/2 r4 r8 r4 fa''8 |
 fa''4 ( mib''8 ) re''4 ( do''8 ) sib'4. ~ sib'4 la'8 |
 sib'4 do''8 re''8. [ mib''16 fa''8 ] fa'4. r4 fa''8 |
-fa''4 ( mib''8 ) re''4 ( do''8 ) sib'4. r4 sib'8 |
+fa''4 mib''8 re''4 do''8 sib'4. r4 sib'8 |
 sol''4 ( fa''8 ) mi'' [ re'' ] do'' sib'16 [ la' ] sib'4 ~ sib' do''8 |
 la' [ sol' ] sib' la' [ sib' ] sol' fa'2. |
 R1. |
