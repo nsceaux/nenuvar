@@ -2549,3 +2549,150 @@ Haendel/Oratorio/Messiah-all: \
 
 .PHONY: Haendel/Oratorio/Messiah-delivery Haendel/Oratorio/Messiah-clean Haendel/Oratorio/Messiah-all
 
+###
+### Salieri
+###
+### Les Horaces
+# Partition complète
+Salieri/LesHoraces:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces  \
+	Salieri/LesHoraces/main.ly
+.PHONY: Salieri/LesHoraces
+# Hautbois I
+Salieri/LesHoraces-oboe1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-oboe1 -dpart=oboe1  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-oboe1
+# Hautbois II
+Salieri/LesHoraces-oboe2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-oboe2 -dpart=oboe2  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-oboe2
+# Flûte I
+Salieri/LesHoraces-flauto1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-flauto1 -dpart=flauto1  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-flauto1
+# Flûte II
+Salieri/LesHoraces-flauto2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-flauto2 -dpart=flauto2  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-flauto2
+# Clarinette I
+Salieri/LesHoraces-clarinetto1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-clarinetto1 -dpart=clarinetto1  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-clarinetto1
+# Clarinette II
+Salieri/LesHoraces-clarinetto2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-clarinetto2 -dpart=clarinetto2  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-clarinetto2
+# Basson I
+Salieri/LesHoraces-fagotto1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-fagotto1 -dpart=fagotto1  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-fagotto1
+# Basson II
+Salieri/LesHoraces-fagotto2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-fagotto2 -dpart=fagotto2  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-fagotto2
+# Violon I
+Salieri/LesHoraces-violino1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-violino1 -dpart=violino1  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-violino1
+# Violon II
+Salieri/LesHoraces-violino2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-violino2 -dpart=violino2  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-violino2
+# Alto
+Salieri/LesHoraces-alto:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-alto -dpart=alto  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-alto
+# Basses
+Salieri/LesHoraces-basso:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-basso -dpart=basso  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-basso
+# Tromba I
+Salieri/LesHoraces-tromba1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-tromba1 -dpart=tromba1  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-tromba1
+# Tromba II
+Salieri/LesHoraces-tromba2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-tromba2 -dpart=tromba2  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-tromba2
+# Timpani
+Salieri/LesHoraces-timpani:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-timpani -dpart=timpani  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-timpani
+
+Salieri/LesHoraces-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Salieri/LesHoraces
+	@if [ -e $(OUTPUT_DIR)/LesHoraces.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-oboe1.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-oboe1.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-oboe2.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-oboe2.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-flauto1.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-flauto1.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-flauto2.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-flauto2.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-clarinetto1.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-clarinetto1.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-clarinetto2.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-clarinetto2.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-fagotto1.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-fagotto1.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-fagotto2.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-fagotto2.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-violino1.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-violino1.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-violino2.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-violino2.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-alto.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-alto.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-basso.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-basso.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-tromba1.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-tromba1.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-tromba2.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-tromba2.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-timpani.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-timpani.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-1.midi ]; then tar zcf $(DELIVERY_DIR)/Salieri/LesHoraces/LesHoraces-midi.tar.gz $(OUTPUT_DIR)/LesHoraces.midi $(OUTPUT_DIR)/LesHoraces-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LesHoraces.midi ]; then cp $(OUTPUT_DIR)/LesHoraces.midi $(DELIVERY_DIR)/Salieri/LesHoraces/ ; fi
+	git archive --prefix=LesHoraces/ HEAD Salieri/LesHoraces common out templates Makefile README | gzip > $(DELIVERY_DIR)/Salieri/LesHoraces/LesHoraces.tar.gz
+
+Salieri/LesHoraces-clean:
+	@rm -f $(OUTPUT_DIR)/LesHoraces-* $(OUTPUT_DIR)/LesHoraces.*
+
+Salieri/LesHoraces-all: \
+	Salieri/LesHoraces \
+	Salieri/LesHoraces-oboe1 \
+	Salieri/LesHoraces-oboe2 \
+	Salieri/LesHoraces-flauto1 \
+	Salieri/LesHoraces-flauto2 \
+	Salieri/LesHoraces-clarinetto1 \
+	Salieri/LesHoraces-clarinetto2 \
+	Salieri/LesHoraces-fagotto1 \
+	Salieri/LesHoraces-fagotto2 \
+	Salieri/LesHoraces-violino1 \
+	Salieri/LesHoraces-violino2 \
+	Salieri/LesHoraces-alto \
+	Salieri/LesHoraces-basso \
+	Salieri/LesHoraces-tromba1 \
+	Salieri/LesHoraces-tromba2 \
+	Salieri/LesHoraces-timpani\
+	Salieri/LesHoraces-delivery\
+	Salieri/LesHoraces-clean
+
+.PHONY: Salieri/LesHoraces-delivery Salieri/LesHoraces-clean Salieri/LesHoraces-all
+

@@ -1,3 +1,8 @@
+\header {
+  copyrightYear = "2014"
+  composer = "Antonio Salieri"
+  poet = "Nicholas-François Guillard"
+}
 
 %% LilyPond options:
 %%  urtext  if true, then print urtext score
@@ -128,7 +133,10 @@
              (#:notes "violini" #:tag-notes violino2))
    (alto "Alto" () (#:notes "alto" #:clef "alto"))
    (basso "Basso, Contrabasso" ()
-          (#:notes "bassi" #:clef "bass" #:tag-notes basso)))
+          (#:notes "bassi" #:clef "bass" #:tag-notes basso))
+
+   (timpani "Timpani" ()
+            (#:notes "timpani" #:clef "bass")))
 
 
 trombeInstr = \with {

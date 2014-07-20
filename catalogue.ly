@@ -528,7 +528,31 @@ O Emmanuel")
                  (choir "Chœurs")
                  (tromba1 "Tromba I" #:score-file "part-tromba.ly")
                  (tromba2 "Tromba II" #:score-file "part-tromba.ly")
-                 (tympani "Timpani" #:score-file "part-tympani.ly")))))))
+                 (tympani "Timpani" #:score-file "part-tympani.ly")))))
+     ;;;
+     ;;; SALIERI
+     ;;;
+     ("Salieri"
+      (("Les Horaces"
+        #:description "Opera"
+        #:key "Salieri/LesHoraces"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p="
+        #:main ((#f "Partition complète"))
+        #:parts ((oboe1 "Hautbois I")
+                 (oboe2 "Hautbois II")
+                 (flauto1 "Flûte I")
+                 (flauto2 "Flûte II")
+                 (clarinetto1 "Clarinette I")
+                 (clarinetto2 "Clarinette II")
+                 (fagotto1 "Basson I")
+                 (fagotto2 "Basson II")
+                 (violino1 "Violon I")
+                 (violino2 "Violon II")
+                 (alto "Alto")
+                 (basso "Basses")
+                 (tromba1 "Tromba I")
+                 (tromba2 "Tromba II")
+                 (timpani "Timpani")))))))
 
 #(export-makefile "Makefile" nenuvar-catalog)
 
