@@ -515,8 +515,8 @@ O Emmanuel")
                 (concert #f)
                 (keyboard "Réduction"
                           #:options "-dpart=keyboard")
-                (keyboard-vocal "Réduction et parties vocales"
-                                #:options "-dpart=keyboard-vocal"))
+                (vocal-keyboard "Réduction et parties vocales"
+                                #:options "-dpart=vocal-keyboard"))
         #:parts ((oboe1 "Hautbois I")
                  (oboe2 "Hautbois II")
                  (violino1 "Violon I")

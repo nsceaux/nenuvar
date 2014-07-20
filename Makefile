@@ -2425,11 +2425,11 @@ Haendel/Oratorio/Messiah-keyboard:
 	Haendel/Oratorio/Messiah/main.ly
 .PHONY: Haendel/Oratorio/Messiah-keyboard
 # Réduction et parties vocales
-Haendel/Oratorio/Messiah-keyboard-vocal:
+Haendel/Oratorio/Messiah-vocal-keyboard:
 	$(LILYPOND_CMD) \
-	-o $(OUTPUT_DIR)/Messiah-keyboard-vocal -dpart=keyboard-vocal \
+	-o $(OUTPUT_DIR)/Messiah-vocal-keyboard -dpart=vocal-keyboard \
 	Haendel/Oratorio/Messiah/main.ly
-.PHONY: Haendel/Oratorio/Messiah-keyboard-vocal
+.PHONY: Haendel/Oratorio/Messiah-vocal-keyboard
 # Hautbois I
 Haendel/Oratorio/Messiah-oboe1:
 	$(LILYPOND_CMD) \
@@ -2508,7 +2508,7 @@ Haendel/Oratorio/Messiah-delivery:
 	@if [ -e $(OUTPUT_DIR)/Messiah.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-concert.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-keyboard.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-keyboard.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
-	@if [ -e $(OUTPUT_DIR)/Messiah-keyboard-vocal.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-keyboard-vocal.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
+	@if [ -e $(OUTPUT_DIR)/Messiah-vocal-keyboard.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-vocal-keyboard.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-oboe1.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-oboe1.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-oboe2.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-oboe2.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-violino1.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-violino1.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
@@ -2531,7 +2531,7 @@ Haendel/Oratorio/Messiah-all: \
 	Haendel/Oratorio/Messiah \
 	Haendel/Oratorio/Messiah-concert \
 	Haendel/Oratorio/Messiah-keyboard \
-	Haendel/Oratorio/Messiah-keyboard-vocal \
+	Haendel/Oratorio/Messiah-vocal-keyboard \
 	Haendel/Oratorio/Messiah-oboe1 \
 	Haendel/Oratorio/Messiah-oboe2 \
 	Haendel/Oratorio/Messiah-violino1 \
