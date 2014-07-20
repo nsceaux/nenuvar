@@ -1,6 +1,7 @@
 \piecePartSpecs
 #`((clarinetti)
    (fagotti)
-   (violini)
+   (violino1)
+   (violino2)
    (alto)
    (basso))

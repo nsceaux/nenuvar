@@ -494,7 +494,7 @@ opusTitle =
 ouverture =
 #(define-music-function (parser location title) (string?)
   (let ((rehearsal (rehearsal-number)))
-    (add-page-break parser)
+    ;(add-page-break parser)
     (add-toc-item parser 'tocPieceMarkup title rehearsal)
     (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
     (add-odd-page-header-text parser (string-upper-case title) #f)
@@ -509,7 +509,7 @@ ouverture =
 act =
 #(define-music-function (parser location act-title) (string?)
   (increase-rehearsal-major-number)
-  (add-page-break parser)
+  ;(add-page-break parser)
   (add-toc-item parser 'tocActMarkup act-title)
   (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
   (*act-title* act-title)
@@ -536,7 +536,7 @@ actNoMarkup =
 
 actn =
 #(define-music-function (parser location act-title) (string?)
-  (add-page-break parser)
+  ;(add-page-break parser)
   (add-toc-item parser 'tocActMarkup act-title)
   (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
   (*act-title* act-title)

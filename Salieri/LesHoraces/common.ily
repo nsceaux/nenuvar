@@ -41,14 +41,14 @@
 \include "common/alterations.ily"
 \include "common/toc-columns.ily"
 \include "common/livret.ily"
-\setOpus "TalensLyriques/Salieri/LesHoraces"
+\setOpus "Salieri/LesHoraces"
 \opusTitle "Les Horaces"
 
 \layout {
   indent = #(if (symbol? (ly:get-option 'part))
                 smallindent
                 largeindent)
-  short-indent = 0
+  short-indent = 7\mm
   ragged-last = ##f
 }
 
@@ -58,12 +58,116 @@
   }
 }
 
-\opusPartSpecs
-#`((flutes "Flûtes" () (#:notes "flauti"))
-   (oboe "Hautbois" () (#:notes "oboe"))
-   (clarinetti "Clarinettes" () (#:notes "clarinetti"))
-   (fagotti "Bassons" () (#:notes "fagotti"))
+\header {
+  maintainer = \markup {
+    Nicolas Sceaux,
+    \with-url #"http://www.lestalenslyriques.com" \line {
+      Les Talens Lyriques – Christophe Rousset,
+    }
+    \with-url #"http://www.cmbv.fr" CMBV
+  }
+  license = "Licensed under the Creative Commons Attribution-ShareAlike 4.0 License"
+  tagline = \markup { 
+    \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7)
+    \box\column {
+      \fill-line { \line { \copyright } }
+      \fill-line {
+        \line {
+          Sheet music from
+          \with-url #"http://nicolas.sceaux.free.fr"
+          \typewriter\smaller http://nicolas.sceaux.free.fr
+          typeset using \with-url #"http://lilypond.org" LilyPond
+          $(string-append "version " (lilypond-version))
+          on \concat { \today . }
+        }
+      }
+      \fill-line {
+        \line {
+          \italic Free to download, with the \italic freedom
+          to distribute, modify and perform.
+        }
+      }
+      \smaller\fill-line {
+        \line {
+          Licensed under the Creative Commons Attribution-ShareAlike 4.0 License,
+          for details see: \hspace #-0.5 
+          \with-url #"http://creativecommons.org/licenses/by-sa/4.0"
+          http://creativecommons.org/licenses/by-sa/4.0
+        }
+      }
+    }
+  }
+}
 
-   (violini "Violons" () (#:notes "violini"))
+
+\opusPartSpecs
+#`((tromba1 "Tromba e Corno I" ()
+            (#:notes "trombe" #:tag-notes tromba1))
+   (tromba2 "Tromba e Corno II" ()
+            (#:notes "trombe" #:tag-notes tromba2))
+   (flauto1 "Flauto I" ()
+            (#:notes "flauti" #:tag-notes flauto1))
+   (flauto2 "Flauto II" ()
+            (#:notes "flauti" #:tag-notes flauto2))
+   (oboe1 "Oboe I" ()
+          (#:notes "oboi" #:tag-notes oboe1))
+   (oboe2 "Oboe II" ()
+          (#:notes "oboi" #:tag-notes oboe2))
+   (clarinetto1 "Clarinetto I" ()
+                (#:notes "clarinetti" #:tag-notes clarinetto1))
+   (clarinetto2 "Clarinetto II" ()
+                (#:notes "clarinetti" #:tag-notes clarinetto2))
+   (fagotto1 "Fagotto I" ()
+             (#:clef "bass" #:notes "bassi" #:tag-notes fagotto1))
+   (fagotto2 "Fagotto II" ()
+             (#:clef "bass" #:notes "bassi" #:tag-notes fagotto2))
+
+   (violino1 "Violono I" ()
+             (#:notes "violini" #:tag-notes violino1))
+   (violino2 "Violono II" ()
+             (#:notes "violini" #:tag-notes violino2))
    (alto "Alto" () (#:notes "alto" #:clef "alto"))
-   (basso "Basses" () (#:notes "basso" #:clef "bass")))
+   (basso "Basso, Contrabasso" ()
+          (#:notes "bassi" #:clef "bass" #:tag-notes basso)))
+
+
+trombeInstr = \with {
+  instruments = "Trombe"
+  shortInstrumentName = "Tr."
+}
+oboiInstr = \with {
+  instrumentName = "Oboi"
+  shortInstrumentName = "Ob."
+}
+fagottiInstr = \with {
+  instrumentName = "Fagotti"
+  shortInstrumentName = "Fg."
+}
+violiniInstr = \with {
+  instrumentName = "VViolini"
+  shortInstrumentName = "Vn."
+}
+altoInstr = \with {
+  instrumentName = "Alto"
+  shortInstrumentName = "Vla."
+}
+%{
+bassoInstr = \with {
+  instrumentName = "Basso"
+  shortInstrumentName = "B."
+}
+contrabassoInstr = \with {
+  instrumentName = "Contrabasso"
+  shortInstrumentName = "Cb."
+}
+%}
+bcbInstr = \with {
+  instrumentName = \markup\center-column {
+    Basso Contrabasso
+  }
+  shortInstrumentName = \markup\center-column { B. Cb. }
+}
+timpaniInstr = \with {
+  instrumentName = "Timpani"
+  shortInstrumentName = "Timp."
+}
