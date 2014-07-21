@@ -1,6 +1,6 @@
 \livretAct ACTE PREMIER
 \livretDescAtt\wordwrap-center {
-  Le théâtre représente l’extérieur du Temple d’Egérie,
+  Le Théâtre représente l’extérieur du Temple d’Egérie,
   au milieu de l’enceinte qui lui est consacrée.
 }
 \livretScene SCÈNE PREMIÈRE
@@ -243,7 +243,89 @@
 \livretPers\line { LE VIEIL HORACE, LE JEUNE HORACE }
 %# O Ciel sur Rome & ma famille
 %# Verse tes bienfaits en ce jour.
-\livretScene DIVERTISSEMENT GÉNÉRAL
+\livretDescAtt\wordwrap-center{ DIVERTISSEMENT GÉNÉRAL }
 \livretFinAct Fin du premier acte
 \sep
-
+\livretAct PREMIER INTERMEDE
+\livretDescAtt\column {
+  \justify {
+    Le Théâtre représente le Temple de Jupiter-Capitolin.
+    On voit dans le fond, l’Autel & la Statue de ce Dieu.
+    Le Roi, les principaux Chefs de l’Armée, & le Sénat Romain
+    occupent le Sanctuaire. Le peuple est sur
+    la partie extérieure.
+  }
+  \justify {
+    Les Prêtres entrent sur une marche noble & imposante.
+  }
+}
+\livretPers LE GRAND PRÊTRE
+%# Le Sénat, rassemblé sous ces voutes sacrées,
+%# Va choisir trois Héros pour être nos vengeurs:
+%# Puissent nos voix, par les Dieux inspirées,
+%# Nommer à cet état de dignes défenseurs?
+%# Vous, Romains, à nos vœux unissez vos pri=ères,
+%# Le salut de l'Etat dépend de ce grand choix:
+%# Pri=ez les Dieux protecteurs de nos loix,
+%# De verser sur nous leurs lumières.
+\livretPers LE GRAND PRÊTRE
+%# Puissant moteur de l'univers,
+%# O toi dont l'essence suprême
+%# Assujettit le Destin même,
+%# Que sur nous, tes yeux soient ouverts.
+\livretPers LE PEUPLE
+%#8 Puissant moteur, &c.
+\livretPers LE GRAND PRÊTRE
+%# Les jours tristes, les jours sereins,
+%# La douce paix, l'affreuse guerre,
+%# Et la rosée =& le tonnerre,
+%# Tout, part de tes puissantes mains.
+\livretPers LE PEUPLE
+%#8 Puissant moteur, &c.
+\livretPers LE GRAND PRÊTRE
+%# Hélas! devant ton trône auguste
+%# Que sont tous les foibles humains?
+%# Mais ta voix règle leurs destins,
+%# Et c'est l'espérance du juste.
+\livretPers LE PEUPLE
+%#8 Puissant moteur, &c.
+\null
+\livretDidasPPage\justify {
+  Après l’Hymne, on brûle l’encens, on fait les libations, &c.
+  Les cérémonies finies avec la pompe convenable, le Grand-Prêtre
+  s’avance du côté du peuple & chante l’air suivant.
+}
+\livretPers LE GRAND PRÊTRE
+%# O Rome! ô ma patrie!
+%# Choisis, on te présente ou le sceptre, ou des fers.
+%# Eveille ton puissant génie,
+%# Souviens-toi que les Dieux t'ont promis l'univers,
+%# L'espoir de tes enfans sur leurs décrets se fonde,
+%# Jupiter même a réglé ton destin:
+%# Tes ennemis t'attaqueront en vain,
+%# Rome doit être un jour la maîtresse du monde.
+\livretPers LE PEUPLE
+%# Ses ennemis l'attaqueront en vain,
+%# Rome doit être un jour la maîtresse du monde.
+\null
+\livretDidasPPage\justify {
+  Le Grand-Prêtre revient à l’Autel, finit les sacrifices,
+  puis se retournant du côté du sénat, il dit :
+}
+\livretPers LE GRAND PRÊTRE
+%# Roi, Pontifes, Sénat, ré=unissez-vous tous:
+%# Que nos trois défenseurs soient nommés ce jour même !
+%# Sur le grand choix que Rome attend de vous,
+%# Je vous promets des Dieux l'assistance suprême.
+\null
+\livretDidasPPage\justify {
+  Le Roi, les Prêtres, les Chefs de l’armée, le Sénat
+  se retirent sur une marche regulière & sont supposés
+  aller dans la Salle du Capitole, destinée aux assemblées
+  du Sénat.
+}
+\livretPers LE PEUPLE
+%# O Dieux, défenseurs de nos loix
+%# Inspirez le Sénat & parlez par sa voix!
+\livretFinAct Fin de l’intermède
+\sep
