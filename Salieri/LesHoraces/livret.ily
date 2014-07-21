@@ -2,7 +2,7 @@
 \markuplist\page-columns-title \act\line { LIVRET } {
 \livretAct ACTE PREMIER
 \livretDescAtt\wordwrap-center {
-  Le théâtre représente l’extérieur du Temple d’Egérie,
+  Le Théâtre représente l’extérieur du Temple d’Egérie,
   au milieu de l’enceinte qui lui est consacrée.
 }
 \livretScene SCÈNE PREMIÈRE
@@ -330,5 +330,347 @@
 \livretVerse#8 { O Dieux, défenseurs de nos loix }
 \livretVerse#12 { Inspirez le Sénat & parlez par sa voix ! }
 \livretFinAct Fin de l’intermède
+\sep
+\livretAct ACTE II
+\livretDescAtt\wordwrap-center {
+  Le Théâtre représente un appartement du Palais d’Horace.
+}
+\livretScene SCENE PREMIERE
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Camille, Curiace, } le jeune \smallCaps Horace.
+}
+\livretPers CAMILLE
+\livretVerse#10 { Ainsi le Ciel pour jamais nous rassemble ! }
+\livretPers LE JEUNE HORACE
+\livretVerse#12 { Sur le bonheur public le nôtre est affermi. }
+\livretPers CURIACE
+\livretVerse#12 { Que mon sort est heureux ! Ce jour me rend ensemble }
+\livretVerse#8 { Et ma maîtresse & mon ami. }
+\livretPers HORACE
+\livretVerse#10 { Il unira d’une chaine éternelle }
+\livretVerse#8 { Nos familles & nos états. }
+\livretPers CURIACE
+\livretVerse#10 { Quel Dieu propice, après tant de débats, }
+\livretVerse#9 { A pu former une union si belle ? }
+\livretPers HORACE
+\livretVerse#12 { Que ce Dieu bienfaisant en bénisse le cours ! }
+\livretPers CAMILLE
+\livretVerse#12 { Qui l’eût dit, que ce jour, marqué par tant d’alarmes, }
+\livretVerse#8 { Seroit le plus beau de mes jours ! }
+\livretPers ENSEMBLE
+\livretVerse#8 { Douce paix, transports pleins de charmes, }
+\livretVerse#8 { Ah ! puissiez-vous durer toujours ! }
+\livretPers\line { CHŒUR \smaller\italic { derrière le Théatre } }
+\livretVerse#8 { Vive à jamais le nom d’Horace }
+\livretPers HORACE
+\livretVerse#11 { Qu’entends-je ? }
+\livretScene SCÈNE II
+\livretDescAtt\wordwrap-center {
+  Le vieil \smallCaps Horace, Chevaliers Romains, les Précédens.
+}
+\livretPers LE VIEIL HORACE
+\livretVerse#11 { \transparent { Qu’entends-je ? } Viens, mon fils, que ton père t’embrasse. }
+\livretPers CAMILLE
+\livretVerse#12 { Ah ! Rome l’a choisi pour notre défenseur ! }
+\livretPers CURIACE & LES ROMAINS
+\livretVerse#12 { Rome a rendu justice à sa haute valeur. }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { Tes deux frères & toi partagent ce bonheur. }
+\livretPers HORACE
+\livretVerse#13 { A ce suprême honneur eussions-nous pu prétendre ? }
+\livretPers LES CHEVALIERS
+\livretVerse#12 { Les Dieux ont fait ce choix : seuls ils l’ont pu dicter. }
+\livretPers LE VIEIL HORACE
+\livretVerse#6 { Moins nous devions l’attendre, }
+\livretVerse#8 { Plus il faudra le mériter. }
+\livretPers HORACE
+\livretVerse#12 { Mon père ! ah ! je le jure à vous, à la patrie }
+\livretVerse#12 { Ou Rome sera libre, ou je ne serai plus. }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { Mourant pour son pays, on meurt digne d’envie. }
+\livretPers LES CHEVALIERS
+\livretVerse#8 { Nos vœux ne seront point déçus. }
+\livretPers HORACE
+\livretVerse#6 { Dieux, protecteurs du Tibre ! }
+\livretVerse#9 { Tranchez mes jours & sauvez mon pays ! }
+\livretVerse#12 { Je reçois de ma vie un assez digne prix, }
+\livretVerse#12 { Si Rome par ma mort est triomphante & libre. }
+\livretPers LE VIEIL HORACE
+\livretVerse#8 { O de Rome heureux défenseur, }
+\livretVerse#8 { Cours, vole où la gloire t’appelle ! }
+\livretVerse#8 { Tes frères, pleins du même zèle, }
+\livretVerse#8 { T’attendent aux champs de l’honneur. }
+\livretPers LES CHEVALIERS
+\livretVerse#8 { O de Rome heureux défenseur, }
+\livretVerse#8 { Cours, vole où la gloire t’appelle ! }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { Quel Romain n’envieroit cet immortel honneur ! }
+\livretVerse#12 { Tous brigueroient en foule une mort aussi belle. }
+\livretPers LES CHEVALIERS
+\livretVerse#8 { O de Rome heureux défenseur, }
+\livretVerse#8 { Cours, vole où la gloire t’appelle ! }
+\livretPers HORACE
+\livretVerse#8 { Amis, vous embrasez mon cœur ! }
+\livretVerse#8 { Je vole où la gloire m’appelle... }
+\livretVerse#12 { Mais un soldat Albain s’avance ici vers nous. }
+\livretScene SCÈNE III
+\livretDescAtt\wordwrap-center {
+  Un envoyé d’Albe, les Précédens.
+}
+\livretPers\line { CURIACE \smaller\italic { à l’Albain } }
+\livretVerse#12 { Quels sont les trois guerriers que le choix d’Albe honore ? }
+\livretPers L’ALBAIN
+\livretVerse#8 { Seigneur ! l’ignorez-vous encore ? }
+\livretPers CURIACE
+\livretVerse#10 { Achevez, qui ? }
+\livretPers L’ALBAIN
+\livretVerse#10 { \transparent { Achevez, qui ? } Vos deux frères & vous. }
+\livretPers CAMILLE
+\livretVerse#11 { Curiace ! }
+\livretPers\line { CURIACE & LES ROMAINS \smaller\italic { à voix basse } }
+\livretVerse#11 { \transparent { Curiace ! } Grands Dieux ! }
+\livretPers L’ALBAIN
+\livretVerse#11 { \transparent { Curiace ! Grands Dieux ! } Vous craignez de répondre : }
+\livretVerse#12 { Blâmeriez-vous ce choix ? }
+\livretPers CURIACE
+\livretVerse#12 { \transparent { Blâmeriez-vous ce choix ? } Il a dû me confondre. }
+\livretVerse#12 { Je m’estimois trop peu pour un si grand honneur. }
+\livretVerse#12 { Ah ! Camille ! }
+\livretPers L’ALBAIN
+\livretVerse#12 { \transparent { Ah ! Camille ! } Au Sénat que dirai-je, seigneur ? }
+\livretPers CURIACE
+\livretVerse#12 { Que mon cœur, pénétré de cette grace insigne, }
+\livretVerse#12 { N’osoit pas y compter... mais qu’il s’en rendra digne. }
+\livretScene SCÈNE IV
+\livretDescAtt\wordwrap-center {
+  Les mêmes excepté l’Albain.
+}
+\livretPers LES CHEVALIERS
+\livretVerse#12 { O déplorable choix ! triste & funeste honneur ! }
+\livretPers CURIACE
+\livretVerse#12 { O devoir rigoureux que l’honneur nous impose ! }
+\livretPers\line { CAMILLE \smaller\italic { à Horace & à Curiace } }
+\livretVerse#6 { Ciel ! & quoi votre cœur }
+\livretVerse#12 { Ne se révolte pas à la loi qu’on propose ! }
+\livretPers LES CHEVALIERS
+\livretVerse#12 { O déplorable choix ! triste & funeste honneur ! }
+\livretPers CAMILLE
+\livretVerse#13 { Ah ! c’est un crime affreux qui doit vous faire horreur. }
+\livretPers HORACE
+\livretVerse#12 { Appellez-vous forfait de servir sa patrie ? }
+\livretPers CAMILLE
+\livretVerse#12 { Appellez-vous vertu, cet attentat impie ? }
+\livretPers LES CHEVALIERS
+\livretVerse#12 { O déplorable choix ! triste & funeste honneur ! }
+\livretPers HORACE
+\livretVerse#8 { Je conçois tout notre malheur ; }
+\livretVerse#12 { Il peut nous étonner, mais non pas nous abattre. }
+\livretVerse#12 { Toi, reste, Curiace, & console ma sœur : }
+\livretVerse#12 { Je viendrai te rejoindre, & nous irons combattre. }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { Vertu digne de Rome ! ô mon fils ! mon cher fils ! }
+\livretVerse#12 { Voilà les sentimens que mon sang t’a transmis ! }
+\livretDidasPPage\line { (A Curiace & à Horace.) }
+\livretVerse#10 { Oui, mes enfans, votre infortune est grande, }
+\livretVerse#12 { Mon cœur, comme le vôtre, en a senti les coups : }
+\livretVerse#8 { Mais l’effort est digne de vous, }
+\livretVerse#12 { Et tout cède à l’honneur alors qu’il nous commande. }
+\livretVerse#10 { Je plains Camille, & permets sa douleur ; }
+\livretVerse#8 { Son malheur, sans doute, est extrême : }
+\livretVerse#12 { C’est à toi, Curiace, à raffermir son cœur ; }
+\livretVerse#12 { Rends-la digne de nous & digne de toi-même. }
+\livretDidasPPage\line { (Il sort, les Chevaliers & Horace le suivent.) }
+\livretScene SCÈNE V
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Camille, Curiace. }
+}
+\livretPers CAMILLE
+\livretVerse#12 { Iras-tu, Curiace ! }
+\livretPers CURIACE
+\livretVerse#12 { \transparent { Iras-tu, Curiace ! } Ah ! dans ce jour fatal, }
+\livretVerse#8 { Je n’ai plus que le choix du crime ; }
+\livretVerse#8 { Pour moi le malheur est égal, }
+\livretVerse#12 { Et partout, sous mes pas, le sort creuse un abîme. }
+\livretVerse#12 { Victime de l’amour, victime de l’honneur, }
+\livretVerse#12 { Il faut trahir Camille, ou trahir ma patrie. }
+\livretVerse#12 { L’un & l’autre est affreux, l’un & l’autre est impie... }
+\livretVerse#12 { Tout mon cœur se révolte, & j’en frémis d’horreur. }
+\livretVerse#8 { Je sens mas vertu qui chancelle, }
+\livretVerse#8 { Ne cherche point à m’attendrir ; }
+\livretVerse#8 { C’est l’honneur même qui m’appelle, }
+\livretVerse#8 { Camille, il lui faut obéir. }
+\livretPers CAMILLE
+\livretVerse#12 { Non, je te connois mieux ; non, tu n’es point barbare. }
+\livretVerse#12 { L’amitié, la nature, & l’hymen & l’amour, }
+\livretVerse#10 { Appelleront ta raison qui s’égare : }
+\livretVerse#12 { Tu ne trahiras point tant de droits en un jour. }
+\livretPers CURIACE
+\livretVerse#8 { Hélas ! }
+\livretPers CAMILLE
+\livretVerse#8 { \transparent { Hélas ! } Et que prétends-tu faire ? }
+\livretVerse#12 { As-tu conçu l’horreur de cet ordre inhumain ? }
+\livretVerse#8 { Tu viendras donc m’offrir ta main }
+\livretVerse#8 { Fumante du sang de mon frère ? }
+\livretPers CURIACE
+\livretVerse#8 { Ah ! laissez-moi, Camille ! }
+\livretPers CAMILLE
+\livretVerse#8 { \transparent { Ah ! laissez-moi, Camille ! } Eh ! quoi ! }
+\livretVerse#8 { Ton nom consacré par la gloire, }
+\livretVerse#12 { N’est-il donc pas fameux par plus d’une victoire ? }
+\livretVerse#12 { Albe n’a-t-elle enfin d’autres guerriers que toi ? }
+\livretPers CURIACE
+\livretVerse#12 { Ciel ! que proposes-tu ? tu veux que Curiace }
+\livretVerse#12 { D’un opprobre éternel se souille lâchement, }
+\livretVerse#10 { Qu’il déshonore & lui-même & sa race ?... }
+\livretVerse#8 { Ah ! tu l’espère vainement. }
+\livretVerse#8 { La vertu rentre dans mon ame, }
+\livretVerse#8 { L’honneur doit surmonter l’amour : }
+\livretVerse#8 { Camille, il vaut mieux, en ce jour, }
+\livretVerse#12 { Mourir en te perdant, que de vivre en infâme. }
+\livretPers CAMILLE
+\livretVerse#8 { Eh bien ! je ne te retiens plus : }
+\livretVerse#12 { Cours, acheter l’honneur au prix d’un parricide, }
+\livretVerse#8 { Cède à la fureur qui te guide, }
+\livretVerse#12 { Mais que du moins avant tous nos nœuds soient rompus, }
+\livretVerse#8 { Frappe, ingrat ! }
+\livretPers CURIACE
+\livretVerse#8 { \transparent { Frappe, ingrat ! } Je n’entends plus rien ; }
+\livretVerse#12 { Je vous fuis... }
+\livretPers\wordwrap-center {
+  CAMILLE \smaller\italic { arrêtant Curiace & se jettant à ses pieds. }
+}
+\livretVerse#12 { \transparent { Je vous fuis... } A tes pieds tu veux donc que je meure ? }
+\livretPers CURIACE
+\livretVerse#12 { Camille ! vous pleurez ! }
+\livretPers CAMILLE
+\livretVerse#12 { \transparent { Camille ! vous pleurez ! } Hélas ! il le faut bien ; }
+\livretVerse#12 { Quand ta main m’assassine, il faut bien que je pleure ! }
+\livretDidasPPage\wordwrap {
+  (Curiace la relève ; il est attendri, elle continue :)
+}
+\livretVerse#8 { Par l’amour & par l’amitié, }
+\livretVerse#8 { Par ce nœud si doux qui nous lie ! }
+\livretVerse#8 { Ne te montre pas sans pitié, }
+\livretVerse#8 { C’est Camille en pleurs, qui te prie. }
+\livretPers CURIACE
+\livretVerse#8 { Hélas ! tu déchire mon cœur, }
+\livretVerse#8 { Camille, ta douleur m’accable : }
+\livretVerse#8 { Laisse ton amant déplorable }
+\livretVerse#8 { Mourir, victime de l’honneur. }
+\livretPers CAMILLE
+\livretVerse#8 { O Ciel ! quoi, ma prière est vaine ; }
+\livretVerse#8 { Je n’ai plus sur toi de pouvoir ! }
+\livretPers CURIACE
+\livretVerse#8 { Tu sais qu’un barbare devoir }
+\livretVerse#8 { Commande à mon cœur & l’entraîne. }
+\livretPers CAMILLE
+\livretVerse#12 { Tu ne te souviens plus que ton cœur est à moi ? }
+\livretPers CURIACE
+\livretVerse#11 { J’étois à mon pays avant que d’être à toi. }
+\livretPers ENSEMBLE
+\livretPers CURIACE
+\livretVerse#8 { O sort cruel ! devoir barbare }
+\livretVerse#8 { Hélas ! faut-il vous obéïr ? }
+\livretVerse#6 { Camille, il faut me fuir, }
+\livretVerse#8 { Le Ciel pour jamais nous sépare : }
+\livretVerse#8 { Oui, c’en est fait il faut partir. }
+\livretPers CAMILLE
+\livretVerse#8 { Cœur insensible ! amant barbare ! }
+\livretVerse#8 { Ainsi rien ne peut te fléchir ! }
+\livretVerse#6 { Cruel, peux-tu me fuir ! }
+\livretVerse#8 { Je sens que ma raison s’égare, }
+\livretVerse#8 { C’en est fait : je me sens mourir. }
+\livretScene SCÈNE VI
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Horace, Curiace, Camille. }
+}
+\livretPers HORACE
+\livretVerse#9 { Ne tardons plus : viens, suis-moi, Curiace ! }
+\livretPers CURIACE
+\livretVerse#12 { Marchons ! }
+\livretPers CAMILLE
+\livretVerse#12 { \transparent { Marchons ! } Non, demeurez ; je ne vous quitte pas. }
+\livretPers HORACE
+\livretVerse#8 { Ma sœur, quelle est donc cette audace ? }
+\livretVerse#12 { Ah ! marchons... }
+\livretPers CAMILLE
+\livretVerse#12 { \transparent { Ah ! marchons... } Non, cruels, je m’attache à vos pas. }
+\livretVerse#12 { Vous ne commettrez pas ce crime abominable. }
+\livretPers CURIACE
+\livretVerse#12 { Horace ! ah ! retenez ces terribles éclats. }
+\livretPers HORACE
+\livretVerse#12 { Cet excès d’insolence, ô Ciel ! est-il croyable. }
+\livretPers CAMILLE
+\livretVerse#12 { Je veux intéresser Albe & Rome à mes cris. }
+\livretVerse#8 { Voyez quelle rage est la vôtre ! }
+\livretVerse#8 { O Ciel ! deux frères, deux amis }
+\livretVerse#12 { Brûlent de se baigner dans le sang l’un de l’autre. }
+\livretScene SCÈNE VII
+\livretDescAtt\wordwrap-center {
+  \smallCaps { Le vieil Horace, } les Précédens.
+}
+\livretPers HORACE
+\livretVerse#11 { Mon père !... }
+\livretPers LE VIEIL HORACE
+\livretVerse#11 { \transparent { Mon père !... } Mes enfans, il est temps de partir. }
+\livretPers HORACE
+\livretVerse#12 { Par ses vaines clameurs, ma sœurs nous désespère. }
+\livretPers CURIACE
+\livretVerse#8 { Seigneur, daignez la retenir. }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { Allons, rentrez Camille. }
+\livretPers CAMILLE
+\livretVerse#12 { \transparent { Allons, rentrez Camille. } Et vous aussi, mon père ! }
+\livretVerse#12 { Quoi ! sur vous la nature a si peu de pouvoir ? }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { La nature se taît où parle le devoir. }
+\livretPers ENSEMBLE
+\livretPersVerse LE VIEIL HORACE \line {
+  \hspace#7 \column {
+    \livretVerse#8 { Oui mes enfans partez sur l’heure. }
+    \livretVerse#8 { Allez remplir votre devoir }
+    \livretVerse#10 { Laissez Camille, & son vain désespoir. }
+  }
+}
+\livretPersVerse CURIACE & HORACE \line {
+  \hspace#7 \column {
+    \livretVerse#8 { Allons, ami, partons sur l’heure }
+    \livretVerse#8 { Allons remplir notre devoir : }
+  }
+}
+\livretPersVerse HORACE \line {
+  \hspace#7 \livretVerse#10 { Laissons Camille, & son vain désespoir. }
+}
+\livretPersVerse CURIACE \line {
+  \hspace#7 \livretVerse#10 { Allons éteindre un amour sans espoir. }
+}
+\livretPersVerse CAMILLE \line {
+  \hspace#7 \column {
+    \livretVerse#8 { Quoi c'est donc en vain que je pleure ! }
+    \livretVerse#8 { Quoi ? rien ne peut vous émouvoir : }
+    \livretVerse#8 { On méprise mon désespoir. }
+  }
+}
+\livretPers\line { CURIACE \smaller\italic { au vieil Horace } }
+\livretVerse#8 { Seigneur, en ce moment funeste, }
+\livretVerse#12 { Puis-je encor ?... }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { \transparent { Puis-je encor ?... } Je t’entends : ne viens point m’attendrir }
+\livretVerse#12 { Va : remplis ton devoir... les Dieux feront le reste. }
+\livretPers CAMILLE
+\livretVerse#12 { Tigres, allez combattre, & moi je vais mourir. }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { Ma fille, allons, rentrez & laissez-les partir, }
+\livretPers ENSEMBLE
+\livretPersVerse LE VIEIL HORACE \line {
+  \hspace#7 \livretVerse#8 { Oui mes enfans, &c. }
+}
+\livretPersVerse HORACE & CURIACE \line {
+  \hspace#7 \livretVerse#8 { Allons, ami, partons, &c. }
+}
+\livretPersVerse CAMILLE \line {
+  \hspace#7 \livretVerse#8 { Quoi c'est donc, &c. }
+}
+\livretFinAct Fin du second acte
 \sep
 }
