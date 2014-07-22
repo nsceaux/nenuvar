@@ -5,5 +5,6 @@
    (violino1)
    (violino2)
    (alto)
-   (basso #:notes "basso")
+   (basso #:notes "basso"
+          #:instrument , #{ \markup\center-column { Basso Contrabasso } #})
    (silence #:on-the-fly-markup , #{ \markup\tacet#81 #}))

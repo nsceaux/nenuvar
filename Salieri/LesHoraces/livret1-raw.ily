@@ -68,12 +68,13 @@
 \livretPers CAMILLE
 %#= Je frémis, vous, soutenez mes pas,
 %# Allons, je vais chercher la vie =ou le trépas.
+\livretRef #'AAEsinfonia
 \livretDidasPPage\wordwrap {
   (Les jeunes filles portant les offrandes, précedent & suivent
   Camille sur une marche religieuse. Elles déposent leurs dons au pied
   de l’autel.)
 }
-\livretRef #'AAEcamille
+\livretRef #'AAFcamille
 %# Dé=esse secourable,
 %# Je t'invoque en tremblant;
 %# Du doute qui m'accable
@@ -87,14 +88,14 @@
 %# À la plus tendre ardeur?
 %# Hélas! tout son bonheur
 %# Dépend de ta réponse.
-\livretRef #'AAForacle
+\livretRef #'AAGoracle
 \livretPers L’ORACLE
 %# La guerre entre Albe & Rome aujourd'hui doit finir:
 %# Ce jour à ton amant va pour jamais t'unir.
 \livretDidasPPage\wordwrap {
   (La statue se recouvre.)
 }
-\livretRef #'AAGcamille
+\livretRef #'AAHcamille
 \livretPers CAMILLE
 %# Ce jour à ton amant va pour jamais t'unir;
 %# Pour jamais… mon cher Curiace!
@@ -105,7 +106,7 @@
 %# Je l'ai bien entendu, ce n'est point une erreur,
 %# Quand le Ciel a parlé, le doute est un blasphême.
 \null
-\livretRef #'AAHcamille
+\livretRef #'AAIcamille
 %# Oui, mon bonheur est assuré
 %# Je ne puis en douter sans crime.
 %# Mon cœur, de plaisir enivré,

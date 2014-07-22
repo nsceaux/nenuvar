@@ -165,6 +165,10 @@ altoInstr = \with {
   instrumentName = "Alto"
   shortInstrumentName = "Vla."
 }
+bassoInstr = \with {
+  instrumentName = "Basso"
+  shortInstrumentName = "B."
+}
 bcbInstr = \with {
   instrumentName = \markup\center-column {
     Basso Contrabasso

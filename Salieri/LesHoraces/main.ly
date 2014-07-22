@@ -52,6 +52,15 @@
   }
   \includeScore "AACcamille"
 }
+%% 1-3
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Camille, une suivante : \italic { Déja le sanctuaire s’ouvre }
+  }
+  \includeScore "AADcamille"
+}
+
+
 \scene "Scène II" "Scène II"
 \sceneDescription\markup\wordwrap-center {
   Le peuple en foule inonde les portiques du temple :

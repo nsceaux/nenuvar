@@ -36,3 +36,8 @@
   Camille : \italic { Pour Albe, hélas ! quels vœux me sont permis }
 }
 \includeScore "AACcamille"
+%% 1-3
+\pieceToc\markup\wordwrap {
+  Camille, une suivante : \italic { Déja le sanctuaire s’ouvre }
+}
+\includeScore "AADcamille"
