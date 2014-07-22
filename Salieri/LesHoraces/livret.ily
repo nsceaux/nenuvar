@@ -55,7 +55,7 @@
 \livretVerse#12 { Je ne puis séparer sa cause de la nôtre : }
 \livretVerse#12 { Mon cœur, entre les deux, flotte encore indécis, }
 \livretVerse#12 { Mes frères sont pour l’une & mon amant pour l’autre ; }
-\livretVerse#13 { D’un & d’autre côté je ne vois que des malheurs ; }
+\livretVerse#12 { D’un & d’autre côté je ne vois que malheurs ; }
 \livretVerse#8 { N’espérez pas que j’y survive. }
 \livretVerse#8 { Ah ! je devrai, quoi qu’il arrive, }
 \livretVerse#12 { Mes larmes aux vaincus & ma haine aux vainqueurs. }

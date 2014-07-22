@@ -44,7 +44,38 @@
   }
   \includeScore "AABcamille"
 }
+%% 1-2
+\bookpart {
+  \paper { systems-per-page = 1 }
+  \pieceToc\markup\wordwrap {
+    Camille : \italic { Pour Albe, hélas ! quels vœux me sont permis ? }
+  }
+  \includeScore "AACcamille"
+}
+\scene "Scène II" "Scène II"
+\sceneDescription\wordwrap-center {
+  Le peuple en foule inonde les portiques du temple :
+  il doit être composé de femmes, d’enfans & de vieillards.
+}
+\scene "Scène III" "Scène III"
+\sceneDescription\wordwrap-center {
+  Le vieil \smallCaps { Horace, Horace, Curiace, }
+  Chevaliers d’Albe & de Rome, les Précédents.
+}
 
+\act "Premier intermède"
+\sceneDescription\column {
+  \justify {
+    Le Théâtre représente le Temple de Jupiter-Capitolin.
+    On voit dans le fond, l’Autel & la Statue de ce Dieu.
+    Le Roi, les principaux Chefs de l’Armée, & le Sénat Romain
+    occupent le Sanctuaire. Le peuple est sur
+    la partie extérieure.
+  }
+  \justify {
+    Les Prêtres entrent sur une marche noble & imposante.
+  }
+}
 
 %% Livret
 \bookpart {

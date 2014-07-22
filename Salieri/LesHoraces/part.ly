@@ -31,3 +31,8 @@
   \italic { D’où nait le trouble qui vous presse }
 }
 \includeScore "AABcamille"
+%% 1-2
+\pieceToc\markup\wordwrap {
+  Camille : \italic { Pour Albe, hélas ! quels vœux me sont permis ? }
+}
+\includeScore "AACcamille"

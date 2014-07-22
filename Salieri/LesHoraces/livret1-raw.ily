@@ -53,7 +53,7 @@
 %# Je ne puis séparer sa cause de la nôtre:
 %# Mon cœur, entre les deux, flotte encore indécis,
 %# Mes frères sont pour l'une & mon amant pour l'autre;
-%# D'un & d'autre côté je ne vois que des malheurs;
+%# D'un & d'autre côté je ne vois que malheurs;
 %# N'espérez pas que j'y survive.
 %# Ah! je devrai, quoi qu'il arrive,
 %# Mes larmes aux vaincus & ma haine aux vainqueurs.
