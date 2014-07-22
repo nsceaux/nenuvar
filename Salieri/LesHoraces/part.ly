@@ -33,6 +33,6 @@
 \includeScore "AABcamille"
 %% 1-2
 \pieceToc\markup\wordwrap {
-  Camille : \italic { Pour Albe, hélas ! quels vœux me sont permis ? }
+  Camille : \italic { Pour Albe, hélas ! quels vœux me sont permis }
 }
 \includeScore "AACcamille"

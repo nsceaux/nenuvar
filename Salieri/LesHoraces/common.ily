@@ -106,9 +106,9 @@
 
 
 \opusPartSpecs
-#`((tromba1 "Tromba e Corno I" ()
+#`((tromba1 "Tromba, Corno I" ()
             (#:notes "trombe" #:tag-notes tromba1))
-   (tromba2 "Tromba e Corno II" ()
+   (tromba2 "Tromba, Corno II" ()
             (#:notes "trombe" #:tag-notes tromba2))
    (flauto1 "Flauto I" ()
             (#:notes "flauti" #:tag-notes flauto1))

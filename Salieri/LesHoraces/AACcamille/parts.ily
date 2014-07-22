@@ -1,0 +1,12 @@
+\piecePartSpecs
+#`((tromba1 #:instrument "Corno" #:notes "corni" #:tag-notes corno1)
+   (tromba2 #:instrument "Corno" #:notes "corni" #:tag-notes corno2)
+   (clarinetto1 #:notes "clarinetto1")
+   (clarinetto2 #:notes "clarinetto2")
+   (fagotto1)
+   (fagotto2)
+   (violino1 #:notes "violino1")
+   (violino2 #:notes "violino2")
+   (alto)
+   (basso)
+   (silence #:on-the-fly-markup , #{ \markup\tacet#54 #}))
