@@ -27,8 +27,8 @@ R2. |
 r8 sol\f( fa mi re fa) |
 \rt#4 sol8 sol, sol, |
 << \rt#6 do8 { s2 s4\cresc } >> |
-<< \rt#6 do8 { s2 s8 s\!\p } >> |
-re4 r sib,8.\f re16 |
+<< \rt#6 do8 { s4. s4\! s8\p } >> |
+fa4 r sib,8.\f re16 |
 fa8. fa,16 fa8. fa16 mi8. do16 |
 fa4\p fa fa |
 fa fa fa |

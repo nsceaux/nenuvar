@@ -1,4 +1,4 @@
-\clef "soprano" R2.*4 |
+\clef "soprano/treble" R2.*4 |
 r4 r8 sol' mi''8. re''16 |
 re''4( do'') r8 do'' |
 la'4. si'8 do'' si'16[ la'] |
