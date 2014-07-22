@@ -29,17 +29,25 @@
 \bookpart {
   \act "Acte Premier"
   \sceneDescription\markup\wordwrap-center {
-    Le théâtre représente le temple d’Egérie.
+    Le Théâtre représente l’extérieur du Temple d’Egérie,
+    au milieu de l’enceinte qui lui est consacrée.
   }
   \scene "Scène Première" "Scène I"
   \sceneDescription\markup\wordwrap-center {
     \smallCaps Camille suivie de ses femmes, jeunes filles
-    qui portent des offrandes. Elles entrent au fond du théâtre.
-    Camille s’avance avec ses filles.
+    qui portent des offrandes : elles restent au fond du Théatre,
+    Camille s’avance avec ses femmes.
   }
   \pieceToc\markup\wordwrap {
     Camille, une suivante :
     \italic { D’où nait le trouble qui vous presse }
   }
   \includeScore "AABcamille"
+}
+
+
+%% Livret
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Rameau/Opera/DaphnisEtEgle/livret.ily"
 }

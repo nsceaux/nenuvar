@@ -2,11 +2,10 @@
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
       \new Staff \with {
-        instrumentName = "Clarinetti" \haraKiri
+        \clarinettiInstr \haraKiri
         \consists "Metronome_mark_engraver"
-       
       } << \global \includeNotes "clarinetti" >>
-      \new GrandStaff \with { instrumentName = "Fagotti" \haraKiri } <<
+      \new GrandStaff \with { \fagottiInstr \haraKiri } <<
         \new Staff <<
           \global \keepWithTag #'fagotto1 \includeNotes "fagotti"
         >>
@@ -16,7 +15,7 @@
       >>
     >>
     \new StaffGroupNoBracket <<
-      \new GrandStaff \with { instrumentName = "VViolini" } <<
+      \new GrandStaff \with { \violiniInstr } <<
         \new Staff \with { \consists "Metronome_mark_engraver" } <<
           \global \keepWithTag #'violino1 \includeNotes "violini"
         >>
@@ -24,7 +23,7 @@
           \global \keepWithTag #'violino2 \includeNotes "violini"
         >>
       >>
-      \new Staff \with { instrumentName = "Alto" } <<
+      \new Staff \with { \altoInstr } <<
         \global \includeNotes "alto"
       >>
     >>
@@ -33,20 +32,19 @@
         instrumentName = \markup\center-column\smallCaps {
           "Une suivante" "de Camille"
         }
+        shortInstrumentName = "S."
         \consists "Metronome_mark_engraver"
       } \withLyrics <<
         \global \includeNotes "suivante"
       >> \keepWithTag #'suivante \includeLyrics "paroles"
       \new Staff \with {
         instrumentName = \markup\smallCaps Camille
+        shortInstrumentName = "C."
       } \withLyrics <<
         \global \includeNotes "camille"
       >> \keepWithTag #'camille \includeLyrics "paroles"
     >>
-    \new Staff \with {
-      instrumentName = \markup\center-column { Basso Contrabbasso }
-      \consists "Metronome_mark_engraver"
-    } <<
+    \new Staff \with { \bcbInstr \consists "Metronome_mark_engraver" } <<
       \global \includeNotes "basso"
       \origLayout {
         s1*5\pageBreak

@@ -27,7 +27,7 @@
 %#= Que faut-il que j’espère?
 \livretPers UNE DES FEMMES
 %# Qu’Albe ou Rome tri=omphe en ce moment fatal,
-%#- Votre père pourra..
+%#- Votre père pourra…
 \livretPers CAMILLE
 %#= Que tu le connois mal!
 %# Ces noms si doux & de fille & de père

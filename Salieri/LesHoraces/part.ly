@@ -25,15 +25,7 @@
 
 %% 1-1
 \act "Acte Premier"
-\sceneDescription\markup\wordwrap-center {
-  Le théâtre représente le temple d’Egérie.
-}
 \scene "Scène Première" "Scène I"
-\sceneDescription\markup\wordwrap-center {
-  \smallCaps Camille suivie de ses femmes, jeunes filles
-  qui portent des offrandes. Elles entrent au fond du théâtre.
-  Camille s’avance avec ses filles.
-}
 \pieceToc\markup\wordwrap {
   Camille, une suivante :
   \italic { D’où nait le trouble qui vous presse }

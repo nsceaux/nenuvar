@@ -29,9 +29,9 @@
 \livretVerse#12 { \transparent { Fuyons. Non, demeurez. } Que faut-il que j’espère ? }
 \livretPers UNE DES FEMMES
 \livretVerse#12 { Qu’Albe ou Rome triomphe en ce moment fatal, }
-\livretVerse#12 { Votre père pourra.. }
+\livretVerse#12 { Votre père pourra… }
 \livretPers CAMILLE
-\livretVerse#12 { \transparent { Votre père pourra.. } Que tu le connois mal ! }
+\livretVerse#12 { \transparent { Votre père pourra… } Que tu le connois mal ! }
 \livretVerse#10 { Ces noms si doux & de fille & de père }
 \livretVerse#12 { Dans son cœur tout Romain sont des noms sans pouvoir. }
 \livretVerse#8 { Et sur quoi fonder mon espoir ? }
