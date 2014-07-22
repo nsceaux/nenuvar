@@ -782,4 +782,351 @@
 }
 \livretFinAct Fin de l’intermède
 \sep
+\livretAct ACTE III
+\livretDescAtt\wordwrap-center {
+  Le Théâtre représente la cour du Palais d’Horace.
+}
+\livretScene SCÈNE PREMIERE
+\livretPers\line { CAMILLE \smaller\italic seule }
+\livretVerse#12 { Que je vous dois d’encens, ô mes Dieux tutélaires ! }
+\livretVerse#8 { Unique appui des malheureux, }
+\livretVerse#8 { Vous avez exaucé mes vœux, }
+\livretVerse#12 { Je retrouve par vous mon amant & mes frères. }
+\livretVerse#8 { Sans espoir sous les coups du sort, }
+\livretVerse#8 { J’étois restée anéantie. }
+\livretVerse#8 { Vous m’avez fait trouver la vie }
+\livretVerse#8 { Dans le sein même de la mort. }
+\livretScene SCÈNE II
+\livretDescAtt\wordwrap-center {
+  Le vieil \smallCaps Horace, Chevaliers Romains,
+  \smallCaps Camille.
+}
+\livretPers CAMILLE
+\livretVerse#12 { Mon père, ah ! prenez part à la publique joie, }
+\livretVerse#12 { Et souffrez qu’à vos yeux la mienne se déploie. }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { Ma fille, devant vous je dois en convenir, }
+\livretVerse#12 { Je chéris Curiace & j’estime ses frères : }
+\livretVerse#8 { Mon cœur n’a pu sans déplaisir }
+\livretVerse#12 { Voir combattre aujourd’hui des personnes si chères ; }
+\livretVerse#12 { Mais Rome commandoit, il falloit obéir. }
+\livretPers CAMILLE
+\livretVerse#8 { Ah ! que son choix m’a fait souffrir ! }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { Le Ciel va prononcer sur la cause commune, }
+\livretVerse#12 { Il peut ou réprouver ou confirmer ce choix. }
+\livretPers CAMILLE
+\livretVerse#9 { Ah ! loin de moi cette idée importune : }
+\livretVerse#12 { Non, les Dieux ne sauront dicter d’injustes loix. }
+\livretVerse#12 { Ils inspiroient le peuple, ils parloient par sa voix. }
+\livretScene SCÈNE III
+\livretDescAtt\wordwrap-center {
+  Un Romain, les Précédens.
+}
+\livretPers LE ROMAIN
+\livretVerse#12 { Vos trois fils sont aux mains, seigneur, & les Dieux mêmes }
+\livretVerse#10 { D’Albe & de Rome ont confirmé le choix. }
+\livretPers CAMILLE
+\livretVerse#7 { Qu’entends-je ? }
+\livretPers LE VIEIL HORACE
+\livretVerse#7 { \transparent { Qu’entends-je ? } Adorons leurs loix. }
+\livretVerse#12 { Soumettons-nous, Romains, à leurs décrêts suprêmes. }
+\livretPers LES ROMAINS
+\livretVerse#8 { Pour ces illustres défenseurs }
+\livretVerse#8 { Adressons aux Dieux nos prieres. }
+\livretPers\line { CAMILLE \smaller\italic à part }
+\livretVerse#8 { Comment leur dérober mes pleurs ! }
+\livretPers LE VIEIL HORACE
+\livretVerse#8 { Grands Dieux ramenez-les vainqueurs. }
+\livretPers LES ROMAINS
+\livretVerse#8 { Exaucez-nous Dieux tutélaires ! }
+\livretPers\line { CAMILLE \smaller\italic à part }
+\livretVerse#8 { Ciel ! confonds leurs vœux sanguinaires ! }
+\livretPers\line { LE VIEIL HORACE \smaller\italic à Camille }
+\livretVerse#8 { Je vois tes pleurs prêts à couler ; }
+\livretVerse#12 { Quand les Dieux ont parlé toute plainte est coupable. }
+\livretPers CAMILLE
+\livretVerse#12 { Les Dieux n’ont point dicté cet ordre abominable }
+\livretVerse#8 { Vos prêtres les ont fait parler. }
+\livretPers LE VIEIL HORACE
+\livretVerse#8 { Malheureuse ! qu’ose-tu dire ? }
+\livretPers CAMILLE
+\livretVerse#8 { Hélas ! mon ame se déchire, }
+\livretVerse#8 { La frayeur trouble ma raison. }
+\livretPers LE VIEIL HORACE
+\livretVerse#8 { Songe à l’honneur de ma maison. }
+\livretPers LES ROMAINS
+\livretVerse#8 { Songez que vous êtes Romaine. }
+\livretPers CAMILLE
+\livretVerse#8 { Hélas ! pour mériter ce nom }
+\livretVerse#8 { Faut-il donc cesser d’être humaine ? }
+\livretPers LE VIEIL HORACE
+\livretVerse#8 { Cache-moi ces indignes pleurs ; }
+\livretVerse#8 { Sois Romaine, imite tes frères. }
+\livretPers LES ROMAINS
+\livretVerse#8 { Pour ces illustres défenseurs }
+\livretVerse#8 { Adressons aux Dieux nos prières. }
+\livretPers CAMILLE
+\livretVerse#8 { Eh ! comment retenir mes pleurs ? }
+\livretPers LE VIEIL HORACE
+\livretVerse#8 { Grands Dieux ! ramenez-les vainqueurs ! }
+\livretPers\line { ENSEMBLE avec les Chevaliers }
+\livretVerse#8 { Exaucez-nous Dieux tutélaires ! }
+\livretPers\line { CAMILLE \smaller\italic à part }
+\livretVerse#8 { Ciel ! confonds leurs vœux sanguinaires ! }
+\livretPers\line { FEMMES \smaller\italic { derrière le Théatre } }
+\livretVerse#8 { O sort cruel ! destins contraires ! }
+\livretPers LE VIEIL HORACE
+\livretVerse#8 { D’où viennent ces tristes clameurs ? }
+\livretPers ENSEMBLE
+\livretVerse#8 { Veillez sur nous, Dieux tutélaires ! }
+
+\livretScene SCÈNE IV
+\livretDescAtt\wordwrap-center {
+  Plusieurs femmes entrant effrayées sur la scène, les Précédens.
+}
+\livretPers LES FEMMES
+\livretVerse#8 { O sort cruel ! destins contraires ! }
+\livretPers LE VIEIL HORACE & LES ROMAINS
+\livretVerse#8 { Ciel ! que présagent ces douleurs ? }
+\livretPers LES FEMMES
+\livretVerse#10 { Albe triomphe & Rome est asservie. }
+\livretPers TOUS
+\livretVerse#12 { O funeste combat ! malheureuse patrie ! }
+\livretPers LE VIEIL HORACE
+\livretVerse#13 { Mes fils ne sont donc plus ? }
+\livretPers UNE FEMME
+\livretVerse#13 { \transparent { Mes fils ne sont donc plus ? } Un seul vous reste, hélas ! }
+\livretVerse#12 { Ses frères, à nos yeux, ont reçu le trépas. }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { Quoi ? lorsqu’Albe triomphe un de mes fils respire ! }
+\livretVerse#8 { On vous a fait un faux rapport, }
+\livretVerse#12 { Si Rome a succombé, mon dernier fils est mort. }
+\livretPers UNE FEMME
+\livretVerse#10 { Ainsi que moi, tous pourront vous le dire, }
+\livretVerse#12 { Long-temps, avec courage, il avoit combattu ; }
+\livretVerse#10 { Mais resté seul contre trois adversaires, }
+\livretVerse#12 { Et n’espérant plus rien de sa haute vertu, }
+\livretVerse#12 { Sa fuite l’a sauvé du destin de ses frères. }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { O crime, dont la honte en rejaillit sur nous ! }
+\livretVerse#12 { O fils lâche & perfide ; opprobre de ma vie ! }
+\livretPers CAMILLE
+\livretVerse#11 { Mes frères ! }
+\livretPers LE VIEIL HORACE
+\livretVerse#11 { \transparent { Mes frères ! } Arrêtez, ne les pleurez pas tous. }
+\livretVerse#12 { Deux jouissent d’un sort trop digne qu’on l’envie. }
+\livretVerse#12 { Que des plus nobles fleurs leurs tombeaux soient couverts ! }
+\livretVerse#12 { Que Rome leur consacre un éternel hommage ! }
+\livretVerse#12 { Que leur noms, révérés en cent climats divers, }
+\livretVerse#12 { A nos neveux surpris soient cités d’âge en âge ! }
+\livretVerse#12 { Mais leur indigne frère, après sa lâcheté, }
+\livretVerse#12 { Qu’il traîne, avec mépris, sa honte & sa misère ! }
+\livretVerse#12 { Qu’il soit partout errant, & partout rebuté, }
+\livretVerse#12 { Maudit du monde entier comme il l’est de son père ! }
+\livretPers CAMILLE
+\livretVerse#12 { Daignez prendre pour lui de plus doux sentimens }
+\livretVerse#13 { Voulez-vous rendre, hélas ! notre sort plus funeste ? }
+\livretPers UN ROMAIN
+\livretVerse#12 { Craingez de vous livrer à vos ressentimens }
+\livretVerse#12 { C’est votre fils enfin, c’est le seul qui vous reste. }
+\livretPers LE VIEIL HORACE
+\livretVerse#8 { Mon fils ! jamais il ne le fut. }
+\livretVerse#12 { S’il eût été mon sang il l’eût mieux fait connoître. }
+\livretPers UN ROMAIN
+\livretVerse#8 { A tort, vous l’accusez peut-être }
+\livretVerse#12 { Que vouliez-vous qu’il fit contre trois ? }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { \transparent { Que vouliez-vous qu’il fit contre trois ? } Qu’il mourût. }
+\livretVerse#11 { Vous cherchez vainement à pallier son crime : }
+\livretVerse#12 { J’en atteste les Dieux & l’honneur qui m’anime ; }
+\livretVerse#12 { Avant la fin du jour, ces mains, ces propres mains, }
+\livretVerse#12 { Laveront dans son sang la honte des Romains. }
+\livretPers\line { CHŒUR \smaller\italic { derrière le théatre } }
+\livretVerse#8 { Du vainqueur, célébrons la gloire ; }
+\livretVerse#8 { Portons son nom jusques aux Cieux. }
+\livretPers ENSEMBLE
+\livretPersVerse LE VIEIL HORACE \line {
+  \hspace#13 \smaller\livretVerse#12 {
+    De quels cris d’allégresse ont retentit ces lieux ?
+  }
+}
+\livretPersVerse LES ROMAINS \line {
+  \hspace#13
+  \smaller\livretVerse#10 { L’air retentit des chants de la victoire ! }
+}
+\livretScene SCENE V
+\livretDescAtt\wordwrap-center {
+  VALERE, Suite, les Précédens.
+}
+\livretPers\line { VALERE \smaller\italic { au vieil Horace } }
+\livretVerse#8 { Tandis qu’un fils victorieux }
+\livretVerse#12 { D’un triomphe si beau va rendre grace aux Dieux, }
+\livretVerse#12 { Souffrez qu’au nom du Roi, qu’au nom de Rome entière. }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { Que prétendez-vous dire ? Expliquez-vous, Valère. }
+\livretVerse#12 { Quoi ! lorsqu’Albe à ses loix vous soumet aujourd’hui, }
+\livretVerse#12 { Quand mon fils !… }
+\livretPers VALERE
+\livretVerse#12 { \transparent { Quand mon fils !… } De l’état c’est le Dieu tutélaire ! }
+\livretVerse#12 { Il nous a sauvé tous, nous triomphons par lui. }
+\livretPers LE VIEIL HORACE
+\livretVerse#11 { Eh, quoi ? sa fuite ?… }
+\livretPers VALERE
+\livretVerse#11 { \transparent { Eh, quoi ? sa fuite ?… } A fait notre victoire. }
+\livretVerse#13 { Ignorez-vous encore la moitié du combat. }
+\livretPers\line { CAMILLE \smaller\italic à part }
+\livretVerse#12 { Je tremble. }
+\livretPers VALERE
+\livretVerse#12 { \transparent { Je tremble. } Apprenez donc le bonheur de l’état ; }
+\livretVerse#12 { Et d’un fils immortel le courage à la gloire. }
+\livretVerse#12 { Resté seul, n’osant plus compter sur sa valeur, }
+\livretVerse#8 { Il feint de fuir ; les Curiaces }
+\livretVerse#8 { Le poursuivent avec fureur, }
+\livretVerse#12 { Mais d’un pas inégal chacun d’eux suit ses traces : }
+\livretVerse#12 { Il les voit divisés, se retourne, & d’abord }
+\livretVerse#8 { Sous ses coups votre gendre expire. }
+\livretDidasPPage\justify {
+  (Camille jette un cri & s’évanouit. Ses femmes l’emmènent.)
+}
+\livretPers CAMILLE
+\livretVerse#9 { Ciel ! }
+\livretPers VALERE
+\livretVerse#9 { \transparent { Ciel ! } Le seond éprouve un même sort, }
+\livretVerse#12 { Et la mort du troisième assure notre empire. }
+\livretPers LE VIEIL HORACE
+\livretVerse#8 { O noble appui de ton pays ! }
+\livretVerse#8 { Gloire éternelle de ta race ! }
+\livretVerse#8 { O mon fils, ô mon cher Horace ! }
+\livretVerse#8 { Reviens, que ma tendresse efface }
+\livretVerse#12 { La honte du soupçon qui trompa nos esprits ! }
+\livretVerse#8 { Les honneurs que Rome t’apprête }
+\livretVerse#12 { De ta haute valeur seront le digne prix : }
+\livretVerse#8 { Nous allons couronner ta tête }
+\livretVerse#12 { Des lauriers immortels que ta main a conquis. }
+\livretPers\line { LES ROMAINS \smaller\italic reprennent }
+\livretVerse#8 { Nous allons couronner sa tête }
+\livretVerse#12 { Des lauriers immortels, &c. }
+\livretScene SCENE VI
+\livretDescAtt\column {
+  \wordwrap-center { \smallCaps Horace, Peuple, les Précédens. }
+  \wordwrap-center { \smallCaps Horace est porté en triomphe. }
+}
+\livretPers CHŒURS DU PEUPLE
+\livretVerse#8 { Du vainqueur célébrons la gloire, }
+\livretVerse#8 { Portons son nom jusques aux Cieux. }
+\livretPers LE VIEIL HORACE
+\livretVerse#8 { Mon cher fils ! }
+\livretPers HORACE
+\livretVerse#8 { \transparent { Mon cher fils ! } Heureuse victoire ! }
+\livretVerse#12 { J’en reçois dans vos bras un prix bien glorieux. }
+\livretPers LE CHŒUR
+\livretVerse#8 { Du vainqueur célébrons la gloire, }
+\livretVerse#8 { Portons son nom jusques aux Cieux. }
+\livretPers\line { HORACE \smaller\italic { à son père } }
+\livretVerse#12 { Peu content des honneurs dont sa bonté m’accable }
+\livretVerse#10 { Le roi, chez vous, veut lui-même venir ; }
+\livretVerse#12 { Et peut-être aujourd’hui… }
+\livretPers LE VIEIL HORACE
+\livretVerse#12 { \transparent { Et peut-être aujourd’hui… } Je cours le prévenir : }
+\livretVerse#12 { Jamais à ses sujets un roi n’est redevable ; }
+\livretVerse#12 { Et l’on est trop payé d’avoir pu le servir. }
+\livretDidasPPage\justify { (Le vieil Horace sort. On danse.) }
+\livretDescAtt\wordwrap-center { DIVERTISSEMENT }
+\livretPers CHŒUR
+\livretVerse#12 { Les Dieux, de l’univers, nous ont promis l’empire : }
+\livretVerse#10 { Le bras d’Horace accomplit leurs décrets ! }
+\livretVerse#12 { Sa gloire est leur ouvrage ; ils ont daigné l’élire : }
+\livretVerse#8 { Nous devons tout à ses succès. }
+\livretDidasPPage\justify { (On danse.) }
+
+\livretScene SCENE VII
+\livretDescAtt\wordwrap-center {
+  CAMILLE, les Précédens.
+}
+\livretDidasPPage\justify { (Elle entre avec beaucoup de fureur.) }
+\livretVerse#8 { Ou suis-je ? & quel transport coupable ! }
+\livretVerse#12 { Quoi ? Rome au fraticide élève des autels ! }
+\livretDidasPPage\justify {
+  (La fête s’interrompt : les personnages qui la composent s’écartent
+  avec surprise.)
+}
+\livretPers UNE PARTIE DU CHŒUR
+\livretVerse#8 { C’est Camille ! }
+\livretPers\line { UNE AUTRE \smaller\italic { cherchant à l’éloigner } }
+\livretVerse#8 { \transparent { C’est Camille ! } Arrêtez ! }
+\livretPers\line { CAMILLE \smaller\italic { les repoussant } }
+\livretVerse#8 { \transparent { C’est Camille ! Arrêtez ! } Cruels ! }
+\livretVerse#12 { Laissez-moi contempler cette fête exécrable. }
+\livretPers HORACE
+\livretVerse#12 { Qu’on l’éloigne, Romains ! }
+\livretPers\wordwrap-center {
+  CAMILLE \smaller\italic {
+    les repoussant avec plus de force, & s'approchant du char de triomphe
+  }
+}
+\livretVerse#12 { \transparent { Qu’on l’éloigne, Romains ! } Perfides laissez-moi. }
+\livretPers HORACE
+\livretVerse#12 { O, d’une indigne sœur, insuportable audace ! }
+\livretPers\wordwrap-center {
+  CAMILLE \smaller\italic {
+    appercevant les dépouilles de Curiace, qui ornent le char de triomphe
+  }
+}
+\livretVerse#6 { Ciel ! qu’est-ce que je voi ? }
+\livretDidasPPage\justify {
+  (Elle les arrache & les embrasse avec transports.)
+}
+\livretVerse#12 { O dépouille sacrée ! ô mon cher Curiace ! }
+\livretVerse#12 { Voilà donc aujourd’hui ce qui reste de toi ! }
+\livretDidasPPage\justify {
+  (Elle pleure sur les dépouilles.)
+}
+\livretPers HORACE
+\livretVerse#12 { O honte de mon sang ! ô coupable insolence ! }
+\livretDidasPPage\line { (A Camille.) }
+\livretVerse#12 { Bannis d’un lâche amour le honteux souvenir, }
+\livretVerse#8 { Et sois digne de ta naissance. }
+\livretPers\line { CAMILLE \smaller\italic { toujours pleurant } }
+\livretVerse#8 { Hélas ! }
+\livretPers HORACE
+\livretVerse#8 { \transparent { Hélas ! } Ne nous fais plus rougir ; }
+\livretVerse#12 { Et préfère du moins à l’amour d’un seul homme }
+\livretVerse#12 { La gloire de ton sang & l’intérêt de Rome. }
+\livretPers CAMILLE
+\livretVerse#12 { Rome ! Je la déteste, ainsi que ta valeur ; }
+\livretVerse#12 { Plus tu blâmes mes pleurs, plus j’y trouve de charmes ! }
+\livretVerse#12 { Rome élève un trophée au succès de tes armes, }
+\livretVerse#12 { Plus elle t’applaudit, plus tu me fais horreur. }
+\livretVerse#10 { Puissent les Dieux, lançant sur vous la foudre, }
+\livretVerse#12 { Et sur elle & sur toi, me venger aujourd’hui ! }
+\livretVerse#8 { Puissé-je voir réduire en poudre }
+\livretVerse#12 { Ces féroces Romains dont ton bras fut l’appui ! }
+\livretVerse#12 { Qu’à vos justes tourmens l’univers applaudisse ! }
+\livretVerse#12 { Qu’on oublie à jamais Rome & son défenseur ! }
+\livretVerse#12 { Qu’enfin de tant de maux seule je sois l’auteur }
+\livretVerse#12 { Pour accroître à la fois ma joie & ton supplice ! }
+\livretPers\wordwrap-center {
+  HORACE \smaller\italic {
+    mettent l’epée à la main & s’avançant pour frapper Camille.
+  }
+}
+\livretVerse#10 { C’est trop souffrir un mortel déshonneur }
+\livretVerse#10 { Et tout ton sang… }
+\livretPers\line { CAMILLE \smaller\italic { saisissant un poignard } }
+\livretVerse#10 { \transparent { Et tout ton sang… } Ose frapper ta sœur : }
+\livretVerse#9 { C’est exploit digne de ton grand cœur. }
+\livretDidasPPage\line { (Elle se frappe.) }
+\livretVerse#12 { Je te l’épargne. }
+\livretPers LES ROMAINS
+\livretVerse#12 { \transparent { Je te l’épargne. } Ciel ! }
+\livretPers HORACE
+\livretVerse#12 { \transparent { Je te l’épargne. Ciel ! } Elle s’est fait justice… }
+\livretVerse#12 { Pourquoi faut-il, hélas ! que mon cœur en gémisse ? }
+\livretPers LES ROMAINS
+\livretVerse#12 { Détournez vos regards de ce spectacle affreux… }
+\livretDidasPPage\line { (On l’emmène.) }
+\livretPers HORACE
+\livretVerse#12 { Rome est libre, il suffit, rendons graces aux Dieux. }
+\livretFinAct FIN
 }
