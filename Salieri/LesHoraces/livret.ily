@@ -99,10 +99,10 @@
 \livretRef #'AAGcamille
 \livretPers CAMILLE
 \livretVerse#12 { Ce jour à ton amant va pour jamais t’unir ; }
-\livretVerse#7 { Pour jamais... mon cher Curiace ! }
+\livretVerse#7 { Pour jamais… mon cher Curiace ! }
 \livretVerse#10 { Mais où m’emporte un espoir trop flatteur ! }
 \livretVerse#12 { Quand de tous ces fléaux la guerre nous menace, }
-\livretVerse#12 { Malheureuse ! est-ce à moi d’oser croire au bonheur ?... }
+\livretVerse#12 { Malheureuse ! est-ce à moi d’oser croire au bonheur ?… }
 \livretVerse#10 { Mais quoi ! l’oracle est la voix des Dieux même. }
 \livretVerse#12 { Je l’ai bien entendu, ce n’est point une erreur, }
 \livretVerse#12 { Quand le Ciel a parlé, le doute est un blasphême. }
@@ -170,7 +170,7 @@
 \livretPers LE VIEIL HORACE
 \livretVerse#12 { Un Dieux, qui parle aux cœurs. Déja les deux armées }
 \livretVerse#12 { D’une égale fureur paroissoient animées ; }
-\livretVerse#8 { On alloit en venir aux mains... }
+\livretVerse#8 { On alloit en venir aux mains… }
 \livretVerse#12 { Entre les deux partis soudain Tulle s’avance : }
 \livretVerse#12 { On s’arrête, on l’entoure, on l’écoute en silence : }
 \livretVerse#12 { Albains, dit-il, & vous, écoutez-moi Romains ? }
@@ -411,7 +411,7 @@
 \livretVerse#8 { Cours, vole où la gloire t’appelle ! }
 \livretPers HORACE
 \livretVerse#8 { Amis, vous embrasez mon cœur ! }
-\livretVerse#8 { Je vole où la gloire m’appelle... }
+\livretVerse#9 { Je vole où la gloire m’appelle… }
 \livretVerse#12 { Mais un soldat Albain s’avance ici vers nous. }
 \livretScene SCÈNE III
 \livretDescAtt\wordwrap-center {
@@ -440,7 +440,7 @@
 \livretVerse#12 { \transparent { Ah ! Camille ! } Au Sénat que dirai-je, seigneur ? }
 \livretPers CURIACE
 \livretVerse#12 { Que mon cœur, pénétré de cette grace insigne, }
-\livretVerse#12 { N’osoit pas y compter... mais qu’il s’en rendra digne. }
+\livretVerse#12 { N’osoit pas y compter… mais qu’il s’en rendra digne. }
 \livretScene SCÈNE IV
 \livretDescAtt\wordwrap-center {
   Les mêmes excepté l’Albain.
@@ -493,7 +493,7 @@
 \livretVerse#12 { Et partout, sous mes pas, le sort creuse un abîme. }
 \livretVerse#12 { Victime de l’amour, victime de l’honneur, }
 \livretVerse#12 { Il faut trahir Camille, ou trahir ma patrie. }
-\livretVerse#12 { L’un & l’autre est affreux, l’un & l’autre est impie... }
+\livretVerse#12 { L’un & l’autre est affreux, l’un & l’autre est impie… }
 \livretVerse#12 { Tout mon cœur se révolte, & j’en frémis d’horreur. }
 \livretVerse#8 { Je sens mas vertu qui chancelle, }
 \livretVerse#8 { Ne cherche point à m’attendrir ; }
@@ -521,7 +521,7 @@
 \livretPers CURIACE
 \livretVerse#12 { Ciel ! que proposes-tu ? tu veux que Curiace }
 \livretVerse#12 { D’un opprobre éternel se souille lâchement, }
-\livretVerse#10 { Qu’il déshonore & lui-même & sa race ?... }
+\livretVerse#11 { Qu’il déshonore & lui-même & sa race ?… }
 \livretVerse#8 { Ah ! tu l’espère vainement. }
 \livretVerse#8 { La vertu rentre dans mon ame, }
 \livretVerse#8 { L’honneur doit surmonter l’amour : }
@@ -535,11 +535,11 @@
 \livretVerse#8 { Frappe, ingrat ! }
 \livretPers CURIACE
 \livretVerse#8 { \transparent { Frappe, ingrat ! } Je n’entends plus rien ; }
-\livretVerse#12 { Je vous fuis... }
+\livretVerse#12 { Je vous fuis… }
 \livretPers\wordwrap-center {
   CAMILLE \smaller\italic { arrêtant Curiace & se jettant à ses pieds. }
 }
-\livretVerse#12 { \transparent { Je vous fuis... } A tes pieds tu veux donc que je meure ? }
+\livretVerse#12 { \transparent { Je vous fuis… } A tes pieds tu veux donc que je meure ? }
 \livretPers CURIACE
 \livretVerse#12 { Camille ! vous pleurez ! }
 \livretPers CAMILLE
@@ -592,9 +592,9 @@
 \livretVerse#12 { \transparent { Marchons ! } Non, demeurez ; je ne vous quitte pas. }
 \livretPers HORACE
 \livretVerse#8 { Ma sœur, quelle est donc cette audace ? }
-\livretVerse#12 { Ah ! marchons... }
+\livretVerse#12 { Ah ! marchons… }
 \livretPers CAMILLE
-\livretVerse#12 { \transparent { Ah ! marchons... } Non, cruels, je m’attache à vos pas. }
+\livretVerse#12 { \transparent { Ah ! marchons… } Non, cruels, je m’attache à vos pas. }
 \livretVerse#12 { Vous ne commettrez pas ce crime abominable. }
 \livretPers CURIACE
 \livretVerse#12 { Horace ! ah ! retenez ces terribles éclats. }
@@ -610,9 +610,9 @@
   \smallCaps { Le vieil Horace, } les Précédens.
 }
 \livretPers HORACE
-\livretVerse#11 { Mon père !... }
+\livretVerse#12 { Mon père !… }
 \livretPers LE VIEIL HORACE
-\livretVerse#11 { \transparent { Mon père !... } Mes enfans, il est temps de partir. }
+\livretVerse#12 { \transparent { Mon père !… } Mes enfans, il est temps de partir. }
 \livretPers HORACE
 \livretVerse#12 { Par ses vaines clameurs, ma sœurs nous désespère. }
 \livretPers CURIACE
@@ -646,17 +646,17 @@
 }
 \livretPersVerse CAMILLE \line {
   \hspace#7 \column {
-    \livretVerse#8 { Quoi c'est donc en vain que je pleure ! }
+    \livretVerse#8 { Quoi c’est donc en vain que je pleure ! }
     \livretVerse#8 { Quoi ? rien ne peut vous émouvoir : }
     \livretVerse#8 { On méprise mon désespoir. }
   }
 }
 \livretPers\line { CURIACE \smaller\italic { au vieil Horace } }
 \livretVerse#8 { Seigneur, en ce moment funeste, }
-\livretVerse#12 { Puis-je encor ?... }
+\livretVerse#12 { Puis-je encor ?… }
 \livretPers LE VIEIL HORACE
-\livretVerse#12 { \transparent { Puis-je encor ?... } Je t’entends : ne viens point m’attendrir }
-\livretVerse#12 { Va : remplis ton devoir... les Dieux feront le reste. }
+\livretVerse#12 { \transparent { Puis-je encor ?… } Je t’entends : ne viens point m’attendrir }
+\livretVerse#12 { Va : remplis ton devoir… les Dieux feront le reste. }
 \livretPers CAMILLE
 \livretVerse#12 { Tigres, allez combattre, & moi je vais mourir. }
 \livretPers LE VIEIL HORACE
@@ -669,8 +669,117 @@
   \hspace#7 \livretVerse#8 { Allons, ami, partons, &c. }
 }
 \livretPersVerse CAMILLE \line {
-  \hspace#7 \livretVerse#8 { Quoi c'est donc, &c. }
+  \hspace#7 \livretVerse#8 { Quoi c’est donc, &c. }
 }
 \livretFinAct Fin du second acte
+\sep
+\livretAct SECOND INTERMÈDE
+\livretDescAtt\column {
+  \justify {
+    Le Théâtre représente une campagne des environs de Rome
+    où les armées de Rome & d’Albe sont en présence.
+    Les trois Horaces sont auprès du roi de Rome, & les
+    trois Curiaces auprès du dictateur d’Albe.
+  }
+  \justify {
+    Un autel est placé au milieu des deux armées. Il est
+    censé situé sur la ligne qui sépare les territoires
+    des deux différens états.
+  }
+  \justify {
+    Un Grand-Sacrificateur, & plusieurs Prêtres inférieurs
+    entourent l’Autel.
+  }
+}
+\livretPers LE GRAND SACRIFICATEUR
+\livretVerse#11 { Romains, Albains ! ce jour prévient votre ruine. }
+\livretVerse#7 { Ce pays inculte & désert, }
+\livretVerse#12 { De vos longs différens a trop long-temps souffert ; }
+\livretVerse#8 { Le Ciel à jamais les termine. }
+\livretVerse#8 { Six guerriers choisis parmi vous, }
+\livretVerse#12 { Vont décider du sort de l’un & l’autre empire : }
+\livretVerse#8 { Ce jour même la guerre expire, }
+\livretVerse#12 { Et ce dernier combat nous réunira tous. }
+\livretVerse#12 { Jurez au nom des Dieux, par l’honneur & la gloire, }
+\livretVerse#12 { D’étouffer tout esprit de vengeance & d’aigreur : }
+\livretVerse#12 { Qu’Albe ou Rome en ce jour emporte la victoire, }
+\livretVerse#12 { Jurez tous d’obéir au parti du vainqueur. }
+\livretPers\line { LES CHEFS des deux armées }
+\livretVerse#12 { Nous jurons tous aux Dieux, par l’honneur & la gloire }
+\livretVerse#12 { D’étouffer tout esprit de vengeance & d’aigreur. }
+\livretVerse#12 { Qu’Albe ou Rome en ce jour emporte la victoire, }
+\livretVerse#12 { Nous jurons d’obéir au parti du vainqueur. }
+\livretPers TOUS
+\livretVerse#12 { Nous jurons d’obéir au parti du vainqueur. }
+\null
+\livretDidasPPage\justify {
+  Après le serment, on donne le signal du combat dans les
+  deux camps. Les six Champions sont conduits en présence.
+  Dès qu'ils paroissent, les deux armées s’écrient en même temps :
+}
+\livretVerse#8 { Ciel ! }
+\livretDidasPPage\justify {
+  Le signal recommence.
+}
+\livretPers LES DEUX ARMÉES
+\livretVerse#8 { \transparent { Ciel ! } O crime ! ô honte éternelle ! }
+\livretVerse#10 { La guerre même étoit moins criminelle }
+\livretVerse#6 { Que cet horrible choix. }
+\livretPers LES HORACES & LES CURIACES
+\livretVerse#10 { Allons, volons où l’honneur nous appelle. }
+\livretPers LES DEUX ARMÉES
+\livretVerse#12 { De la terre & du Ciel c’est outrager les loix. }
+\livretPers LES HORACES & LES CURIACES
+\livretVerse#10 { Allons, volons où l’honneur nous appelle. }
+\livretPers LES DEUX ARMÉES
+\livretVerse#12 { Nous ne souffrirons pas ce combat plein d’horreur. }
+\livretPers LES HORACES & LES CURIACES
+\livretVerse#12 { Avançons… }
+\livretPers LES DEUX ARMÉES
+\livretVerse#12 { \transparent { Avançons… } Arrêtez ! }
+\livretDidasPPage\justify {
+  Une foule de soldats des deux Armées quittent ses rangs.
+  Ils se précipitent malgré les efforts des chefs pour les
+  retenir. Ils veulent séparer les Champions qui s’obstinent
+  au combat.
+}
+\livretDidasPPage\line {
+  Pendant cette Pantommime.
+}
+\livretPers LES CHEFS DE L’ARMÉE
+\livretVerse#12 { \transparent { Avançons… Arrêtez ! } Révolte punissable ! }
+\livretPers LES HORACES & LES CURIACES
+\livretVerse#12 { Laissez-nous. }
+\livretPers LES CHEFS DE L’ARMÉE
+\livretVerse#12 { \transparent { Laissez-nous. } De vos chefs reconnoissez la voix. }
+\livretPers LES DEUX ARMÉES
+\livretVerse#9 { Romains, qu’Albe fasse un autre choix ! }
+\livretVerse#10 { Albains, que Rome fasse un autre choix ! }
+\livretPers LES HORACES & LES CURIACES
+\livretVerse#12 { Laissez-nous. }
+\livretPers LES CHEFS DE L’ARMÉE
+\livretVerse#12 { \transparent { Laissez-nous. } De vos chefs reconnoissez la voix. }
+\livretPers LES DEUX ARMÉES
+\livretVerse#12 { Nous ne souffrirons point ce meurtre abominable }
+\livretVerse#8 { Oui, la guerre étoit moins coupable }
+\livretVerse#6 { Que cet horrible choix. }
+\livretDidasPPage\justify {
+  La guerre est prête à s'allumer ; les deux rois s’approchent
+  du Grand-Prêtre, ainsi que les principaux chefs de l’armée :
+  ils délibèrent un moment ; & le grand Prêtre s’écrie :
+}
+\livretVerse#12 { Héros d’Albe & de Rome, & vous chefs & soldats, }
+\livretVerse#12 { Ecoutez !… & cessez d’inutiles débats. }
+\livretVerse#8 { Si le choix du Sénat vous blesse, }
+\livretVerse#8 { Allez tous consulter vos Dieux : }
+\livretVerse#10 { Qu’ils soit ou non désaprouvé par eux ; }
+\livretVerse#12 { Quel profane osera condamner leur sagesse ! }
+\livretPers LES DEUX ARMÉES
+\livretVerse#10 { Oui, que les Dieux décident entre-nous ! }
+\livretVerse#12 { Quoi qu’il puisse arriver, nous obéirons tous. }
+\livretDidasPPage\justify {
+  On sépare les six Champions. On les emmène & l’intermède finit.
+}
+\livretFinAct Fin de l’intermède
 \sep
 }

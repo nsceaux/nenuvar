@@ -97,10 +97,10 @@
 \livretRef #'AAGcamille
 \livretPers CAMILLE
 %# Ce jour à ton amant va pour jamais t'unir;
-%# Pour jamais... mon cher Curiace!
+%# Pour jamais… mon cher Curiace!
 %# Mais où m'emporte un espoir trop flatteur!
 %# Quand de tous ces flé=aux la guerre nous menace,
-%# Malheureuse! est-ce à moi d'oser croire au bonheur?...
+%# Malheureuse! est-ce à moi d'oser croire au bonheur?…
 %# Mais quoi! l'oracle est la voix des Dieux même.
 %# Je l'ai bien entendu, ce n'est point une erreur,
 %# Quand le Ciel a parlé, le doute est un blasphême.
@@ -168,7 +168,7 @@
 \livretPers LE VIEIL HORACE
 %# Un Dieux, qui parle aux cœurs. Déja les deux armées
 %# D'une égale fureur paroissoient animées;
-%# On alloit en venir aux mains...
+%# On alloit en venir aux mains…
 %# Entre les deux partis soudain Tulle s'avance:
 %# On s'arrête, on l'entoure, on l'écoute en silence:
 %# Albains, dit-il, & vous, écoutez-moi Romains?

@@ -78,7 +78,7 @@
 %# Cours, vole où la gloire t'appelle!
 \livretPers HORACE
 %# Amis, vous embrasez mon cœur!
-%# Je vole où la gloire m'appelle...
+%# Je vole où la gloire m'appelle…
 %# Mais un soldat Albain s'avance ici vers nous.
 \livretScene SCÈNE III
 \livretDescAtt\wordwrap-center {
@@ -107,7 +107,7 @@
 %#= Au Sénat que dirai-je, seigneur?
 \livretPers CURIACE
 %# Que mon cœur, pénétré de cette grace insigne,
-%# N'osoit pas y compter... mais qu'il s'en rendra digne.
+%# N'osoit pas y compter… mais qu'il s'en rendra digne.
 \livretScene SCÈNE IV
 \livretDescAtt\wordwrap-center {
   Les mêmes excepté l’Albain.
@@ -160,7 +160,7 @@
 %# Et partout, sous mes pas, le sort creuse un abîme.
 %# Victime de l'amour, victime de l'*honneur,
 %# Il faut trahir Camille, ou trahir ma patrie.
-%# L'un & l'autre est affreux, l'un & l'autre est impie...
+%# L'un & l'autre est affreux, l'un & l'autre est impie…
 %# Tout mon cœur se révolte, & j'en frémis d'*horreur.
 %# Je sens mas vertu qui chancelle,
 %# Ne cherche point à m'attendrir;
@@ -188,7 +188,7 @@
 \livretPers CURIACE
 %# Ciel! que proposes-tu? tu veux que Curi=ace
 %# D'un opprobre éternel se souille lâchement,
-%# Qu'il déshonore & lui-même & sa race?...
+%# Qu'il déshonore & lui-même & sa race?…
 %# Ah! tu l'espère vainement.
 %# La vertu rentre dans mon ame,
 %# L'*honneur doit surmonter l'amour:
@@ -202,7 +202,7 @@
 %#- Frappe, ingrat!
 \livretPers CURIACE
 %#= Je n'entends plus rien;
-%#- Je vous fuis...
+%#- Je vous fuis…
 \livretPers\wordwrap-center {
   CAMILLE \smaller\italic { arrêtant Curiace & se jettant à ses pieds. }
 }
@@ -259,7 +259,7 @@
 %#= Non, demeurez; je ne vous quitte pas.
 \livretPers HORACE
 %# Ma sœur, quelle est donc cette audace?
-%#- Ah! marchons...
+%#- Ah! marchons…
 \livretPers CAMILLE
 %#= Non, cru=els, je m'attache à vos pas.
 %# Vous ne commettrez pas ce crime abominable.
@@ -277,7 +277,7 @@
   \smallCaps { Le vieil Horace, } les Précédens.
 }
 \livretPers HORACE
-%#- Mon père!...
+%#- Mon père!…
 \livretPers LE VIEIL HORACE
 %#= Mes enfans, il est temps de partir.
 \livretPers HORACE
@@ -313,17 +313,17 @@
 }
 \livretPersVerse CAMILLE \line {
   \hspace#7 \column {
-    \livretVerse#8 { Quoi c'est donc en vain que je pleure ! }
+    \livretVerse#8 { Quoi c’est donc en vain que je pleure ! }
     \livretVerse#8 { Quoi ? rien ne peut vous émouvoir : }
     \livretVerse#8 { On méprise mon désespoir. }
   }
 }
 \livretPers\line { CURIACE \smaller\italic { au vieil Horace } }
 %# Seigneur, en ce moment funeste,
-%#- Puis-je encor?...
+%#- Puis-je encor?…
 \livretPers LE VIEIL HORACE
 %#= Je t'entends: ne viens point m'attendrir
-%# Va: remplis ton devoir... les Dieux feront le reste.
+%# Va: remplis ton devoir… les Dieux feront le reste.
 \livretPers CAMILLE
 %# Tigres, allez combattre, & moi je vais mourir.
 \livretPers LE VIEIL HORACE
@@ -336,7 +336,116 @@
   \hspace#7 \livretVerse#8 { Allons, ami, partons, &c. }
 }
 \livretPersVerse CAMILLE \line {
-  \hspace#7 \livretVerse#8 { Quoi c'est donc, &c. }
+  \hspace#7 \livretVerse#8 { Quoi c’est donc, &c. }
 }
 \livretFinAct Fin du second acte
+\sep
+\livretAct SECOND INTERMÈDE
+\livretDescAtt\column {
+  \justify {
+    Le Théâtre représente une campagne des environs de Rome
+    où les armées de Rome & d’Albe sont en présence.
+    Les trois Horaces sont auprès du roi de Rome, & les
+    trois Curiaces auprès du dictateur d’Albe.
+  }
+  \justify {
+    Un autel est placé au milieu des deux armées. Il est
+    censé situé sur la ligne qui sépare les territoires
+    des deux différens états.
+  }
+  \justify {
+    Un Grand-Sacrificateur, & plusieurs Prêtres inférieurs
+    entourent l’Autel.
+  }
+}
+\livretPers LE GRAND SACRIFICATEUR
+%# Romains, Albains! ce jour prévient votre ruine.
+%# Ce pays inculte & désert,
+%# De vos longs différens a trop long-temps souffert;
+%# Le Ciel à jamais les termine.
+%# Six guerriers choisis parmi vous,
+%# Vont décider du sort de l'un & l'autre empire:
+%# Ce jour même la guerre expire,
+%# Et ce dernier combat nous ré=unira tous.
+%# Jurez au nom des Dieux, par l'*honneur & la gloire,
+%# D'étouffer tout esprit de vengeance & d'aigreur:
+%# Qu'Albe ou Rome en ce jour emporte la victoire,
+%# Jurez tous d'obé=ir au parti du vainqueur.
+\livretPers\line { LES CHEFS des deux armées }
+%# Nous jurons tous aux Dieux, par l'*honneur & la gloire
+%# D'étouffer tout esprit de vengeance & d'aigreur.
+%# Qu'Albe ou Rome en ce jour emporte la victoire,
+%# Nous jurons d'obé=ir au parti du vainqueur.
+\livretPers TOUS
+%# Nous jurons d'obé=ir au parti du vainqueur.
+\null
+\livretDidasPPage\justify {
+  Après le serment, on donne le signal du combat dans les
+  deux camps. Les six Champions sont conduits en présence.
+  Dès qu'ils paroissent, les deux armées s’écrient en même temps :
+}
+%#- Ciel!
+\livretDidasPPage\justify {
+  Le signal recommence.
+}
+\livretPers LES DEUX ARMÉES
+%#= O crime! ô honte éternelle!
+%# La guerre même étoit moins criminelle
+%# Que cet horrible choix.
+\livretPers LES HORACES & LES CURIACES
+%# Allons, volons où l'*honneur nous appelle.
+\livretPers LES DEUX ARMÉES
+%# De la terre & du Ciel c'est outrager les loix.
+\livretPers LES HORACES & LES CURIACES
+%# Allons, volons où l'*honneur nous appelle.
+\livretPers LES DEUX ARMÉES
+%# Nous ne souffrirons pas ce combat plein d'*horreur.
+\livretPers LES HORACES & LES CURIACES
+%#- Avançons…
+\livretPers LES DEUX ARMÉES
+%#- Arrêtez!
+\livretDidasPPage\justify {
+  Une foule de soldats des deux Armées quittent ses rangs.
+  Ils se précipitent malgré les efforts des chefs pour les
+  retenir. Ils veulent séparer les Champions qui s’obstinent
+  au combat.
+}
+\livretDidasPPage\line {
+  Pendant cette Pantommime.
+}
+\livretPers LES CHEFS DE L’ARMÉE
+%#= Révolte punissable!
+\livretPers LES HORACES & LES CURIACES
+%#- Laissez-nous.
+\livretPers LES CHEFS DE L’ARMÉE
+%#= De vos chefs reconnoissez la voix.
+\livretPers LES DEUX ARMÉES
+%# Romains, qu'Albe fasse un autre choix!
+%# Albains, que Rome fasse un autre choix!
+\livretPers LES HORACES & LES CURIACES
+%#- Laissez-nous.
+\livretPers LES CHEFS DE L’ARMÉE
+%#= De vos chefs reconnoissez la voix.
+\livretPers LES DEUX ARMÉES
+%# Nous ne souffrirons point ce meurtre abominable
+%# Oui, la guerre étoit moins coupable
+%# Que cet horrible choix.
+\livretDidasPPage\justify {
+  La guerre est prête à s'allumer ; les deux rois s’approchent
+  du Grand-Prêtre, ainsi que les principaux chefs de l’armée :
+  ils délibèrent un moment ; & le grand Prêtre s’écrie :
+}
+%# Héros d’Albe & de Rome, & vous chefs & soldats,
+%# Ecoutez!… =& cessez d'inutiles débats.
+%# Si le choix du Sénat vous blesse,
+%# Allez tous consulter vos Dieux:
+%# Qu'ils soit ou non désaprouvé par eux;
+%# Quel profane osera condamner leur sagesse!
+\livretPers LES DEUX ARMÉES
+%# Oui, que les Dieux décident entre-nous!
+%# Quoi qu'il puisse arriver, nous obé=irons tous.
+\livretDidasPPage\justify {
+  On sépare les six Champions. On les emmène & l’intermède finit.
+}
+\livretFinAct Fin de l’intermède
 \sep
