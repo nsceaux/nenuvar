@@ -41,3 +41,6 @@
   Camille, une suivante : \italic { Déja le sanctuaire s’ouvre }
 }
 \includeScore "AADcamille"
+%% 1-4
+\pieceToc "[Sinfonia]"
+\includeScore "AAEsinfonia"

@@ -70,12 +70,13 @@
 \livretPers CAMILLE
 \livretVerse#12 { \transparent { Avancez. } Je frémis, vous, soutenez mes pas, }
 \livretVerse#12 { Allons, je vais chercher la vie ou le trépas. }
+\livretRef #'AAEsinfonia
 \livretDidasPPage\wordwrap {
   (Les jeunes filles portant les offrandes, précedent & suivent
   Camille sur une marche religieuse. Elles déposent leurs dons au pied
   de l’autel.)
 }
-\livretRef #'AAEcamille
+\livretRef #'AAFcamilleChoeur
 \livretVerse#6 { Déesse secourable, }
 \livretVerse#6 { Je t’invoque en tremblant ; }
 \livretVerse#6 { Du doute qui m’accable }
@@ -89,14 +90,14 @@
 \livretVerse#6 { À la plus tendre ardeur ? }
 \livretVerse#6 { Hélas ! tout son bonheur }
 \livretVerse#6 { Dépend de ta réponse. }
-\livretRef #'AAForacle
+\livretRef #'AAGoracle
 \livretPers L’ORACLE
 \livretVerse#12 { La guerre entre Albe & Rome aujourd’hui doit finir : }
 \livretVerse#12 { Ce jour à ton amant va pour jamais t’unir. }
 \livretDidasPPage\wordwrap {
   (La statue se recouvre.)
 }
-\livretRef #'AAGcamille
+\livretRef #'AAHcamille
 \livretPers CAMILLE
 \livretVerse#12 { Ce jour à ton amant va pour jamais t’unir ; }
 \livretVerse#7 { Pour jamais… mon cher Curiace ! }
@@ -107,7 +108,7 @@
 \livretVerse#12 { Je l’ai bien entendu, ce n’est point une erreur, }
 \livretVerse#12 { Quand le Ciel a parlé, le doute est un blasphême. }
 \null
-\livretRef #'AAHcamille
+\livretRef #'AAIcamille
 \livretVerse#8 { Oui, mon bonheur est assuré }
 \livretVerse#8 { Je ne puis en douter sans crime. }
 \livretVerse#8 { Mon cœur, de plaisir enivré, }

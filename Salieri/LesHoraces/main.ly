@@ -59,7 +59,18 @@
   }
   \includeScore "AADcamille"
 }
-
+%% 1-4
+\bookpart {
+  \pieceToc "[Sinfonia]"
+  \includeScore "AAEsinfonia"
+}
+%% 1-5
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Camille, chœur : \italic { Déesse secourable }
+  }
+  \includeScore "AAFcamilleChoeur"
+}
 
 \scene "Scène II" "Scène II"
 \sceneDescription\markup\wordwrap-center {

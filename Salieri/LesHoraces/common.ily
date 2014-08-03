@@ -53,7 +53,9 @@
   indent = #(if (symbol? (ly:get-option 'part))
                 smallindent
                 largeindent)
-  short-indent = 7\mm
+  short-indent = #(if (symbol? (ly:get-option 'part))
+                      0
+                      (* 7 mm))
   ragged-last = ##f
 }
 
@@ -165,6 +167,10 @@ altoInstr = \with {
   instrumentName = "Alto"
   shortInstrumentName = "Vla."
 }
+violaInstr = \with {
+  instrumentName = "Viola"
+  shortInstrumentName = "Vla."
+}
 bassoInstr = \with {
   instrumentName = "Basso"
   shortInstrumentName = "B."
@@ -179,3 +185,14 @@ timpaniInstr = \with {
   instrumentName = "Timpani"
   shortInstrumentName = "Timp."
 }
+
+
+
+footnoteHere =
+#(define-music-function (parser this-location offset note)
+     (number-pair? markup?)
+   (set! location #f)
+   (if (ly:get-option 'print-footnotes)
+       #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
+          ^\markup\transparent\box "1" #}
+       (make-music 'Music 'void #t)))

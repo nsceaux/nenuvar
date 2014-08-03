@@ -74,7 +74,7 @@
   Camille sur une marche religieuse. Elles déposent leurs dons au pied
   de l’autel.)
 }
-\livretRef #'AAFcamille
+\livretRef #'AAFcamilleChoeur
 %# Dé=esse secourable,
 %# Je t'invoque en tremblant;
 %# Du doute qui m'accable
