@@ -44,3 +44,13 @@
 %% 1-4
 \pieceToc "[Sinfonia]"
 \includeScore "AAEsinfonia"
+%% 1-5
+\pieceToc\markup\wordwrap {
+  Camille, chœur : \italic { Déesse secourable }
+}
+\includeScore "AAFcamilleChoeur"
+%% 1-6
+\pieceToc\markup\wordwrap {
+  L’oracle : \italic { La guerre entre Albe & Rome aujourd'hui doit finir }
+}
+\includeScore "AAGoracle"

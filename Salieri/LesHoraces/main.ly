@@ -71,6 +71,13 @@
   }
   \includeScore "AAFcamilleChoeur"
 }
+%% 1-6
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    L’oracle : \italic { La guerre entre Albe & Rome aujourd'hui doit finir }
+  }
+  \includeScore "AAGoracle"
+}
 
 \scene "Scène II" "Scène II"
 \sceneDescription\markup\wordwrap-center {
