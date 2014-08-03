@@ -98,11 +98,11 @@
 \livretRef #'AAHcamille
 \livretPers CAMILLE
 %# Ce jour à ton amant va pour jamais t'unir;
-%# Pour jamais… mon cher Curiace!
+%# Pour jamais… mon cher Curi=ace!
 %# Mais où m'emporte un espoir trop flatteur!
 %# Quand de tous ces flé=aux la guerre nous menace,
 %# Malheureuse! est-ce à moi d'oser croire au bonheur?…
-%# Mais quoi! l'oracle est la voix des Dieux même.
+%# Mais quoi! l'oracle est la voix des Dieux mêmes.
 %# Je l'ai bien entendu, ce n'est point une erreur,
 %# Quand le Ciel a parlé, le doute est un blasphême.
 \null
@@ -122,8 +122,8 @@
 }
 \livretRef #'ABAchoeurCamille
 \livretPers CHŒUR
-%# Secoure-nous, ô puissante Egérie,
-%# Protège de Numa le peuple infortuné.
+%# Secourez-nous, ô puissante Egérie,
+%# Protègez de Numa le peuple infortuné.
 \livretPers CAMILLE
 %#- Ciel! & quoi?
 \livretPers UN CORIPHÉE

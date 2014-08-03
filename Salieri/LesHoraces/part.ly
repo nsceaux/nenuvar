@@ -54,3 +54,8 @@
   L’oracle : \italic { La guerre entre Albe & Rome aujourd'hui doit finir }
 }
 \includeScore "AAGoracle"
+%% 1-7
+\pieceToc\markup\wordwrap {
+  Camille : \italic { Ce jour à ton amant va pour jamais t’unir }
+}
+\includeScore "AAHcamille"

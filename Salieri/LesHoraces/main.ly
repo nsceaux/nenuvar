@@ -78,6 +78,14 @@
   }
   \includeScore "AAGoracle"
 }
+%% 1-7
+\bookpart {
+  \paper { systems-per-page = 3 }
+  \pieceToc\markup\wordwrap {
+    Camille : \italic { Ce jour à ton amant va pour jamais t’unir }
+  }
+  \includeScore "AAHcamille"
+}
 
 \scene "Scène II" "Scène II"
 \sceneDescription\markup\wordwrap-center {

@@ -100,11 +100,11 @@
 \livretRef #'AAHcamille
 \livretPers CAMILLE
 \livretVerse#12 { Ce jour à ton amant va pour jamais t’unir ; }
-\livretVerse#7 { Pour jamais… mon cher Curiace ! }
+\livretVerse#8 { Pour jamais… mon cher Curiace ! }
 \livretVerse#10 { Mais où m’emporte un espoir trop flatteur ! }
 \livretVerse#12 { Quand de tous ces fléaux la guerre nous menace, }
 \livretVerse#12 { Malheureuse ! est-ce à moi d’oser croire au bonheur ?… }
-\livretVerse#10 { Mais quoi ! l’oracle est la voix des Dieux même. }
+\livretVerse#10 { Mais quoi ! l’oracle est la voix des Dieux mêmes. }
 \livretVerse#12 { Je l’ai bien entendu, ce n’est point une erreur, }
 \livretVerse#12 { Quand le Ciel a parlé, le doute est un blasphême. }
 \null
