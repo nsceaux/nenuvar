@@ -38,23 +38,16 @@
     } \withLyrics <<
       \global \includeNotes "camille"
     >> \keepWithTag #'camille \includeLyrics "paroles"
-    \new StaffGroupNoBracket <<
-      \new Staff \with {
-        instrumentName = "Violoncelli"
-        shortInstrumentName = "Vc."
-        \consists "Metronome_mark_engraver"
-      } << \global \keepWithTag #'cello \includeNotes "bassi" >>
-      \new Staff \with {
-        instrumentName = "Contrabasso"
-        shortInstrumentName = "Cb."
-      } <<
-        \global \keepWithTag #'cb \includeNotes "bassi"
-        \origLayout {
-          s8 s2.*3\pageBreak s2.*4\pageBreak s2.*4\pageBreak
-          s2.*4\pageBreak \grace s4 s2.*4\pageBreak s2.*4\pageBreak
-          s2.*4\pageBreak \grace s8
-        }
-      >>
+    \new Staff \with {
+      \vccbInstr
+      \consists "Metronome_mark_engraver"
+    } <<
+      \global \keepWithTag #'bassi \includeNotes "bassi"
+      \origLayout {
+        s8 s2.*3\pageBreak s2.*4\pageBreak s2.*4\pageBreak
+        s2.*4\pageBreak \grace s4 s2.*4\pageBreak s2.*4\pageBreak
+        s2.*4\pageBreak \grace s8
+      }
     >>
   >>
   \layout {

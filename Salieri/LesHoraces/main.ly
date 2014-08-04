@@ -66,6 +66,7 @@
 }
 %% 1-5
 \bookpart {
+  \paper { systems-per-page = 2 }
   \pieceToc\markup\wordwrap {
     Camille, chœur : \italic { Déesse secourable }
   }
