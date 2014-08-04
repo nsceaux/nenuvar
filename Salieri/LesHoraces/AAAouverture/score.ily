@@ -1,18 +1,13 @@
 \score {
   \new StaffGroupNoBar \notemode <<
     \new StaffGroupNoBracket <<
-      \new GrandStaff \with {
+      \new Staff \with {
         instrumentName = \markup\center-column { Trombe col Corni }
         shortInstrumentName = \markup\center-column { Tr. Cor. }
+        \consists "Metronome_mark_engraver"
       } <<
-        \new Staff \with { \consists "Metronome_mark_engraver" } <<
-          \transpose re do \global
-          \keepWithTag #'tromba1 \includeNotes "trombe"
-        >>
-        \new Staff <<
-          \transpose re do \global
-          \keepWithTag #'tromba2 \includeNotes "trombe"
-        >>
+        \transpose re do \global
+        \keepWithTag #'tromba1 \includeNotes "trombe"
       >>
       \new GrandStaff \with { \oboiInstr } <<
         \new Staff <<
@@ -22,13 +17,8 @@
           \global \keepWithTag #'oboe2-conducteur \includeNotes "oboi"
         >>
       >>
-      \new GrandStaff \with { \fagottiInstr } <<
-        \new Staff <<
-          \global \keepWithTag #'fagotto1 \includeNotes "bassi"
-        >>
-        \new Staff <<
-          \global \keepWithTag #'fagotto2 \includeNotes "bassi"
-        >>
+      \new Staff \with { \fagottiInstr } <<
+        \global \keepWithTag #'fagotti \includeNotes "bassi"
       >>
     >>
     \new StaffGroupNoBracket <<
