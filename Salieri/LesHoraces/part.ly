@@ -59,3 +59,8 @@
   Camille : \italic { Ce jour à ton amant va pour jamais t’unir }
 }
 \includeScore "AAHcamille"
+%% 1-8
+\pieceToc\markup\wordwrap {
+  Camille : \italic { Oui, mon bonheur est assuré }
+}
+\includeScore "AAIcamille"

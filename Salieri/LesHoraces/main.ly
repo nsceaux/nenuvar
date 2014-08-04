@@ -21,7 +21,7 @@
 
 %% 0-1
 \bookpart {
-  \paper { systems-per-page = 1 }
+  \paper { systems-per-page = 2 }
   \ouverture "Ouverture"
   \includeScore "AAAouverture"
 }
@@ -46,7 +46,7 @@
 }
 %% 1-2
 \bookpart {
-  \paper { systems-per-page = 1 }
+  \paper { systems-per-page = 2 }
   \pieceToc\markup\wordwrap {
     Camille : \italic { Pour Albe, hélas ! quels vœux me sont permis }
   }
@@ -95,10 +95,17 @@
   \includeScore "AAIcamille"
 }
 
-\scene "Scène II" "Scène II"
-\sceneDescription\markup\wordwrap-center {
-  Le peuple en foule inonde les portiques du temple :
-  il doit être composé de femmes, d’enfans & de vieillards.
+\bookpart {
+  \scene "Scène II" "Scène II"
+  \sceneDescription\markup\wordwrap-center {
+    Le peuple en foule inonde les portiques du temple :
+    il doit être composé de femmes, d’enfans & de vieillards.
+  }
+  %% 1-9
+  \pieceToc\markup\wordwrap {
+    Camille, chœur : \italic { Secourez-nous, ô puissante Egérie }
+  }
+  %\includeScore "ABAchoeurCamille"
 }
 \scene "Scène III" "Scène III"
 \sceneDescription\markup\wordwrap-center {

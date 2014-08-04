@@ -1,35 +1,17 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \new GrandStaff \with {
+      \new Staff \with {
         instrumentName = "Corni"
         shortInstrumentName = "Cor."
-      } <<
-        \new Staff \with { \consists "Metronome_mark_engraver" } <<
-          \global \keepWithTag #'corno1 \includeNotes "corni"
-        >>
-        \new Staff <<
-          \global \keepWithTag #'corno2 \includeNotes "corni"
-          \origLayout {
-            s2.*4\pageBreak s2.*4\pageBreak s2.*4\pageBreak
-            s2.*4\pageBreak s2.*4\pageBreak s2.*4\pageBreak
-            s2.*4\pageBreak s2.*3\pageBreak s2.*4\pageBreak
-            s2.*4\pageBreak s2.*4\pageBreak s2.*4\pageBreak
-            s2.*4\pageBreak
-          }
-        >>
-      >>
+        \consists "Metronome_mark_engraver"
+      } << \global \keepWithTag #'corni \includeNotes "corni" >>
       \new GrandStaff \with { \clarinettiInstr } <<
         \new Staff << \global \includeNotes "clarinetto1" >>
         \new Staff << \global \includeNotes "clarinetto2" >>
       >>
-      \new GrandStaff \with { \fagottiInstr } <<
-        \new Staff <<
-          \global \keepWithTag #'fagotto1 \includeNotes "fagotti"
-        >>
-        \new Staff <<
-          \global \keepWithTag #'fagotto2 \includeNotes "fagotti"
-        >>
+      \new Staff \with { \fagottiInstr } <<
+        \global \keepWithTag #'fagotti \includeNotes "fagotti"
       >>
     >>
     \new StaffGroupNoBracket <<
@@ -49,6 +31,13 @@
     >> \includeLyrics "paroles"
     \new Staff \with { \bcbInstr \consists "Metronome_mark_engraver" } <<
       \global \includeNotes "bassi"
+      \origLayout {
+        s2.*4\pageBreak s2.*4\pageBreak s2.*4\pageBreak
+        s2.*4\pageBreak s2.*4\pageBreak s2.*4\pageBreak
+        s2.*4\pageBreak s2.*3\pageBreak s2.*4\pageBreak
+        s2.*4\pageBreak s2.*4\pageBreak s2.*4\pageBreak
+        s2.*4\pageBreak
+      }
     >>
   >>
   \layout {

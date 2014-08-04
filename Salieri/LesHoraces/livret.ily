@@ -124,8 +124,8 @@
 }
 \livretRef #'ABAchoeurCamille
 \livretPers CHŒUR
-\livretVerse#10 { Secoure-nous, ô puissante Egérie, }
-\livretVerse#12 { Protège de Numa le peuple infortuné. }
+\livretVerse#10 { Secourez-nous, ô puissante Egérie, }
+\livretVerse#12 { Protègez de Numa le peuple infortuné. }
 \livretPers CAMILLE
 \livretVerse#12 { Ciel ! & quoi ? }
 \livretPers UN CORIPHÉE
