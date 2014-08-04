@@ -181,6 +181,12 @@ bcbInstr = \with {
   }
   shortInstrumentName = \markup\center-column { B. Cb. }
 }
+vccbInstr = \with {
+  instrumentName = \markup\center-column {
+    Violoncelli Contrabasso
+  }
+  shortInstrumentName = \markup\center-column { Vc. Cb. }
+}
 timpaniInstr = \with {
   instrumentName = "Timpani"
   shortInstrumentName = "Timp."

@@ -730,3 +730,19 @@ ratureMmRest = {
   \once\override MultiMeasureRest #'stencil =
   #(make-erased-mmrest-print ly:multi-measure-rest::print)
 }
+
+%%% Suggested dynamics
+
+sug =
+#(define-music-function (parser loc arg) (ly:music?)
+   (cond ((eqv? (ly:music-property arg 'name) 'AbsoluteDynamicEvent)
+          (set! (ly:music-property arg 'text)
+                #{ \markup\bracket #(ly:music-property arg 'text) #}))
+          ((eqv? (ly:music-property arg 'name) 'CrescendoEvent)
+           (set! (ly:music-property arg 'span-text)
+                 #{ \markup\concat {
+    \normal-text\italic [
+    #(ly:music-property arg 'span-text)
+    \normal-text\italic ] }#})))
+          arg)
+          

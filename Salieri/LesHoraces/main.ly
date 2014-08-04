@@ -86,6 +86,14 @@
   }
   \includeScore "AAHcamille"
 }
+%% 1-8
+\bookpart {
+  \paper { systems-per-page = 2 }
+  \pieceToc\markup\wordwrap {
+    Camille : \italic { Oui, mon bonheur est assuré }
+  }
+  \includeScore "AAIcamille"
+}
 
 \scene "Scène II" "Scène II"
 \sceneDescription\markup\wordwrap-center {
