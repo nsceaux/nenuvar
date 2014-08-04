@@ -33,12 +33,12 @@
     re' |
     <>\fp do'8-.( do'-. do'-. do'-.) re'8-.( re'-. re'-. re'-.) |
     <>\fp do'8-.( do'-. do'-. do'-.) re'8-.( re'-. re'-. re'-.) |
-    re'4..-\parenthesize\f lab'16 lab'4.. re''16 |
+    re'4..-\sug\f lab'16 lab'4.. re''16 |
     re''1~ |
     re'' |
     r4 sol(\cresc lab sib) |
-    do' sib2-\parenthesize\f sib4-\parenthesize\p~ |
-    sib8 sib sib sib sib4. sib8-\parenthesize\f |
+    do' sib2-\sug\f sib4-\sug\p~ |
+    sib8 sib sib sib sib4. sib8-\sug\f |
     sib8. sib16 sib8. sib16 sib2\p~ |
     sib1 |
     <>\fp lab8-.( lab-. lab-. lab-.) sib-.( sib-. sib-. sib-.) |
@@ -69,7 +69,7 @@ re'4\fermata r8 <<
     mi''1 |
   }
   \tag #'violino2 {
-    re'4-\parenthesize\f re' re'8 |
+    re'4-\sug\f re' re'8 |
     re'4 r r2 |
     R1 |
     r4 dod''2.\fp~ |
@@ -109,7 +109,7 @@ r8. << { sol''16 sol''8. sol''16 sol''4 } \\ { do''16 do''8. do''16 do''4 } >> r
     si''4 r r2 |
   }
   \tag #'violino2 {
-    r2 sol'-\parenthesize\p |
+    r2 sol'-\sug\p |
     fa'1~ |
     <fa' mib''>~ |
     q~ |
@@ -121,12 +121,12 @@ r8. << { sol''16 sol''8. sol''16 sol''4 } \\ { do''16 do''8. do''16 do''4 } >> r
     r8 la'\p r la' r la' r la' |
     r la' r la' r si'! r la' |
     r <<si' \\ sold'>> r <<si' \\ sold'>> r <<si' \\ sold'>> r <<si' \\ sold'>> |
-    << { si'2~ si' | si' <si' mi'>_\parenthesize\f | mi''4 } \\ { sold'2-\parenthesize\fp~ sold' | sold' s | do''4 } >> r r2 |
+    << { si'2~ si' | si' <si' mi'>-\sug_\f | mi''4 } \\ { sold'2-\sug\fp~ sold' | sold' s | do''4 } >> r r2 |
     R1*2 |
     la'1\fp |
     lad'1~ |
     lad' |
-    si'8 fad'-\parenthesize\pp[ fad' fad'] \rt#4 fad'8 |
+    si'8 fad'-\sug\pp[ fad' fad'] \rt#4 fad'8 |
     \rt#4 fad'8 \rt#4 fad'8 |
     fad'4 r r2 |
     la'2\p r |

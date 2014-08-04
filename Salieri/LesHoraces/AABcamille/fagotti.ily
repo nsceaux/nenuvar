@@ -13,8 +13,8 @@ si, |
   }
   \tag #'fagotto2 {
     do'2\fp( re') |
-    do'-\parenthesize\fp( re')~ |
-    re'1-\parenthesize\f~ |
+    do'-\sug\fp( re')~ |
+    re'1-\sug\f~ |
     re'4 r r2 |
   }
 >>
@@ -31,7 +31,7 @@ R1 |
     sib\fp~ sib |
   }
   \tag #'fagotto2 {
-    fa2-\parenthesize\fp sol |
+    fa2-\sug\fp sol |
     fa sol |
     sol\fp~ sol |
   }

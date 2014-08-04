@@ -41,14 +41,14 @@ la'16 <<
     si1~ |
     si4 si8. si16 si4. si8 |
     la1 |
-    dod'4-\parenthesize-\f dod'8. dod'16 dod'4 dod' |
+    dod'4-\sug\f dod'8. dod'16 dod'4 dod' |
     re'1 |
     la'4 la'8. la'16 la'4. la'8 |
     si'1~ |
     si'4 si'8. si'16 si'4. si'8 |
     la'1 |
-    <>-\parenthesize-\f dod''4 dod''8. dod''16 dod''4 dod'' |
-    <>-\parenthesize-\ff <<
+    <>-\sug\f dod''4 dod''8. dod''16 dod''4 dod'' |
+    <>-\sug\ff <<
       { \repeat unfold 16 \rt#4 fad''16 | fad''2 }
       \\ { \repeat unfold 4 \rt#16 re''16 | re''2 }
     >>
@@ -116,7 +116,7 @@ q2 <<
     R1*7 |
   }
   \tag #'violino2 {
-    sold'2-\parenthesize-\sf( |
+    sold'2-\sug\sf( |
     la' si') |
     mi'4 r r2 |
     R1*19 |
@@ -213,7 +213,7 @@ re'2. la8 si16 dod' |
     si1~ |
     si4 si8. si16 si4. si8 |
     la1 |
-    dod'4-\parenthesize-\f dod'8. dod'16 dod'4 dod' |
+    dod'4-\sug\f dod'8. dod'16 dod'4 dod' |
     re'1 |
     la'4 la'8. la'16 la'4. la'8 |
     si'1~ |

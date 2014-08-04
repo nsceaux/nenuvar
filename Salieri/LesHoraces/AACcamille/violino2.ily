@@ -6,13 +6,13 @@ la'4.( sol'8 fa'8. la'16) |
 mi'4( re') sol'8. fa'16 |
 fa'4( mi'8) mi'[ mi' mi'] |
 fa'8 fa'4 fa'8 fa' fa' |
-fa'4( mi'8) r8 r8. fa'16-\parenthesize-\f |
+fa'4( mi'8) r8 r8. fa'16-\sug\f |
 fa'4( mi') do'~ |
 do'2 r4 |
 la'4. sol'8 fa'8. la'16 |
 mi'4( re'8.)\ff <re' si>16[ q8. q16] |
 <do' mib'>4.. do'16[ do'8. do'16] |
-si4 r8 sol'-\parenthesize-\p sol' sol'
+si4 r8 sol'-\sug\p sol' sol'
 \rt#6 sol'8 |
 sol' sol'4 sol'8 sol' sol' |
 fad'4 r8 r16 la\ff[ la8. la16] |

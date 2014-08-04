@@ -5,17 +5,17 @@ r4 sib( re' do') |
 fa'1 |
 fa' |
 <>\fp mib'8-.( mib'-. mib'-. mib'-.) fa'-.( fa'-. fa'-. fa'-.) |
-<>-\parenthesize\fp mib'8-.( mib'-. mib'-. mib'-.) fa'-.( fa'-. fa'-. fa'-.) |
+<>-\sug\fp mib'8-.( mib'-. mib'-. mib'-.) fa'-.( fa'-. fa'-. fa'-.) |
 fa'4..\f fa'16 fa'4.. lab'16 |
 lab'1~ |
 lab'1 |
 r4 mib(-\cresc fa sol) |
-lab sol2-\parenthesize\f sol4-\parenthesize\p~ |
-sol8 sol sol sol sol4. sol8-\parenthesize\f |
+lab sol2-\sug\f sol4-\sug\p~ |
+sol8 sol sol sol sol4. sol8-\sug\f |
 sol8. sol16 sol8. sol16 sol2\p~ |
 sol1 |
-fa8-\parenthesize\fp -.( fa-. fa-. fa-.) sol-.( sol-. sol-. sol-.) |
-<>-\parenthesize\sf fa8-.( fa-. fa-. fa-.) sol-.( sol-. sol-. sol-.) |
+fa8-\sug\fp -.( fa-. fa-. fa-.) sol-.( sol-. sol-. sol-.) |
+<>-\sug\sf fa8-.( fa-. fa-. fa-.) sol-.( sol-. sol-. sol-.) |
 sol2\fp~ sol~ |
 sol1 |
 %%
@@ -31,33 +31,33 @@ r4 do''(\< re'' mib'')\! |
 fad'1~ |
 fad' |
 sol'4\fermata r8 sol\p( sib4) r8\fermata \grace re'16 sib la32 sib |
-re'4\fermata r8 re'4-\parenthesize\f la8( sol fad) |
+re'4\fermata r8 re'4-\sug\f la8( sol fad) |
 sol4 r r2 |
 R1 |
 r4 la'2.\fp~ la'1 |
 la'4 r r2 |
 r8. << { sol''16 sol''4 } \\ { si'!16\f si'4 } >> r2 |
 r8. << { sol''16 sol''8. sol''16 sol''4 } \\ { do''16 do''8. do''16 do''4 } >> r4 |
-r2 do'-\parenthesize\p |
+r2 do'-\sug\p |
 do'1~ |
 do'~ |
 do'~ |
 do' |
 sib4 r sib'( la') |
 sol'2 sol4 sol |
-la1-\parenthesize\p~ |
+la1-\sug\p~ |
 la |
 r8 fa'\p r fa' r fa' r fa' |
 r fa' r fa' r fa' r fa' |
 r mi' r mi' r mi' r mi' |
-mi'2-\parenthesize\fp~ mi'~ |
-mi' sold'2-\parenthesize\f |
+mi'2-\sug\fp~ mi'~ |
+mi' sold'2-\sug\f |
 mi'4 r r2 |
 R1*2 |
 mi'1\fp |
 fad'1~ |
 fad' |
-re'8 re'-\parenthesize\pp[ re' re'] \rt#4 re' |
+re'8 re'-\sug\pp[ re' re'] \rt#4 re' |
 \rt#4 mi' \rt#4 dod' |
 re'4 r r2 |
 re'2 r |
@@ -68,7 +68,7 @@ R1 |
 r4 do'\f~ do'8 re'16 mi' fa' sol' la' si' |
 do''4 r r2 |
 r8. do'16 do'2. |
-r2 r8. do'16-\parenthesize\ff do'8. do'16 |
+r2 r8. do'16-\sug\ff do'8. do'16 |
 do'4 r r2 |
 r8. re'16 re'4 r2 |
 r8. <sol'' do''>16 q8. q16 q4 r |

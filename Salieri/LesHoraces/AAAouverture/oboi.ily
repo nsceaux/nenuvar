@@ -218,7 +218,7 @@ la''4\f la''8 la'' la''4 la'' |
     re''4. re''8 re''4. re''8 |
     re''1 |
     dod'' |
-    si'-\parenthesize_\sf |
+    si'-\sug_\sf |
     dod'' |
     re''4. re''8 re''4. re''8 |
     re''4. re''8 re''4. re''8 |

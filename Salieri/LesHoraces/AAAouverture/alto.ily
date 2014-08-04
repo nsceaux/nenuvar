@@ -47,7 +47,7 @@ do''( si'4 la') |
 >>
 mi2~ mi8 fad16 sold la si dod' red' |
 mi'4 mi'8 mi' mi'4 mi' |
-mi'2 mi'-\parenthesize-\sf( |
+mi'2 mi'-\sug\sf( |
 red' re' |
 dod') r |
 R1*19 |
@@ -101,7 +101,7 @@ fad4 fad8. fad16 fad4. fad8 |
 sol1~ |
 sol4 sol8. sol16 sol4. sol8 |
 sol1~ |
-sol4-\parenthesize-\f sol8. sol16 sol4. sol8 |
+sol4-\sug\f sol8. sol16 sol4. sol8 |
 fad1 |
 fad'4 fad'8. fad'16 fad'4. fad'8 |
 sol'1~ |

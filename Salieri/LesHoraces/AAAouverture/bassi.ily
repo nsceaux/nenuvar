@@ -40,7 +40,7 @@ si4 si8 si si4 si |
 si2 si, |
 <<
   \tag #'basso {
-    <>-\parenthesize-\ff \repeat unfold 4 \rt#4 sold8 |
+    <>-\sug\ff \repeat unfold 4 \rt#4 sold8 |
     \repeat unfold 4 \rt#4 la8 |
     \repeat unfold 4 \rt#4 sold8 |
   }
@@ -84,7 +84,7 @@ mi2 <<
     re'2 fad'4 re' | r2 dod'~ | dod' re' | dod'4 \clef "bass"
   }
   \tag #'fagotto2 {
-    mi2-\parenthesize-\sf( | fad sold | la1) | R1*12 |
+    mi2-\sug\sf( | fad sold | la1) | R1*12 |
     \clef "tenor" do'1\f | si\p | sold | la2 dod' |
     re' re | r mi~ | mi1 | la4 \clef "bass"
   }

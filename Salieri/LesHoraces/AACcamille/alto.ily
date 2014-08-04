@@ -5,7 +5,7 @@ fa'4.( mi'8 re'8. fa'16) |
 sol'4 sol r |
 r8 do' do' do' do' do' |
 do' do'4 do'8 do' do' |
-do'2 r8. re'16-\parenthesize-\f |
+do'2 r8. re'16-\sug\f |
 re'4( do'2) |
 fa'4 fa r |
 fa'4. mi'8 re'8. fa'16 |
