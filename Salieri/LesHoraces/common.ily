@@ -142,9 +142,17 @@
             (#:notes "timpani" #:clef "bass")))
 
 
+corniInstr = \with {
+  instrumentName = "Corni"
+  shortInstrumentName = "Cor."
+}
 trombeInstr = \with {
-  instruments = "Trombe"
+  instrumentName = "Trombe"
   shortInstrumentName = "Tr."
+}
+flautiInstr = \with {
+  instrumentName = "Flauti"
+  shortInstrumentName = "Fl."
 }
 oboiInstr = \with {
   instrumentName = "Oboi"
@@ -191,7 +199,22 @@ timpaniInstr = \with {
   instrumentName = "Timpani"
   shortInstrumentName = "Timp."
 }
-
+choeurInstr = \with {
+  instrumentName = \markup\smallCaps Chœur
+  shortInstrumentName = \markup\smallCaps Ch.
+}
+camilleInstr = \with {
+  instrumentName = \markup\smallCaps Camille
+  shortInstrumentName = \markup\smallCaps Ca.
+}
+curiaceInstr = \with {
+  instrumentName = \markup\smallCaps Curiace
+  shortInstrumentName = \markup\smallCaps Cu.
+}
+vieilHoraceInstr = \with {
+  instrumentName = \markup\center-column\smallCaps { Le vieil Horace }
+  shortInstrumentName = \markup\smallCaps VH.
+}
 
 
 footnoteHere =

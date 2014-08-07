@@ -143,11 +143,11 @@
 \livretVerse#13 { Dieux vains ! tremblante, hélas ! devant vos tabernacles, }
 \livretVerse#12 { J’aurois cru faire un crime en ne vous croyant pas. }
 \livretVerse#12 { Voilà donc le bonheur dont je m’étois flattée ! }
-\livretVerse#7 { Hélas ! }
+\livretVerse#8 { Hélas ! }
 \livretPers LE CHŒUR
-\livretVerse#7 { \transparent { Hélas ! } Déesse redoutée, }
+\livretVerse#8 { \transparent { Hélas ! } Déesse redoutée, }
 \livretVerse#10 { Dans ce moment peut-être on est aux mains }
-\livretVerse#10 { Veille sur nous, combat pour les Romains. }
+\livretVerse#10 { Veille sur nous, combats pour les Romains. }
 \livretScene SCÈNE III
 \livretDescAtt\wordwrap-center {
   Le vieil \smallCaps { Horace, Horace, Curiace, }

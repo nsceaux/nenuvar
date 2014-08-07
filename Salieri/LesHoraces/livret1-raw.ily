@@ -143,9 +143,9 @@
 %# Voilà donc le bonheur dont je m'étois flattée!
 %#- Hélas!
 \livretPers LE CHŒUR
-%#= Déesse redoutée,
+%#= Dé=esse redoutée,
 %# Dans ce moment peut-être on est aux mains
-%# Veille sur nous, combat pour les Romains.
+%# Veille sur nous, combats pour les Romains.
 \livretScene SCÈNE III
 \livretDescAtt\wordwrap-center {
   Le vieil \smallCaps { Horace, Horace, Curiace, }

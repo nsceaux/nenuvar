@@ -6,5 +6,6 @@
    (violino1 #:notes "violino1")
    (violino2 #:notes "violino2")
    (alto #:score "score-viola")
-   (basso #:score "score-bassi")
+   (basso #:tag-notes bassi
+          #:instrument , #{\markup\center-column { Violoncelli C.b. }#})
    (silence #:on-the-fly-markup , #{ \markup\tacet#33 #}))

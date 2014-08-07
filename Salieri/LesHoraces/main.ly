@@ -98,15 +98,11 @@
 
 \bookpart {
   \scene "Scène II" "Scène II"
-  \sceneDescription\markup\wordwrap-center {
-    Le peuple en foule inonde les portiques du temple :
-    il doit être composé de femmes, d’enfans & de vieillards.
-  }
   %% 1-9
   \pieceToc\markup\wordwrap {
     Camille, chœur : \italic { Secourez-nous, ô puissante Egérie }
   }
-  %\includeScore "ABAchoeurCamille"
+  \includeScore "ABAcamilleChoeur"
 }
 \scene "Scène III" "Scène III"
 \sceneDescription\markup\wordwrap-center {
@@ -132,4 +128,5 @@
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
   \include "Salieri/LesHoraces/livret.ily"
+  \pageBreak\markup\null
 }

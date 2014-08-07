@@ -64,3 +64,10 @@
   Camille : \italic { Oui, mon bonheur est assuré }
 }
 \includeScore "AAIcamille"
+
+\scene "Scène II" "Scène II"
+%% 1-9
+\pieceToc\markup\wordwrap {
+  Camille, chœur : \italic { Secourez-nous, ô puissante Egérie }
+}
+\includeScore "ABAcamilleChoeur"
