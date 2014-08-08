@@ -67,30 +67,10 @@ sol''1 |
 <<
   \tag #'(flauto1 flauti) \new Voice {
     \tag #'flauti \voiceOne sib''2 sol'' | fad''4 la''2 re'''4~ |
-    re''' la''2 fad''4 | re''2
+    re''' la''2 fad''4 | \custosNote re''
   }
   \tag #'(flauto2 flauti) \new Voice {
     \tag #'flauti \voiceTwo sib'2 sol'' | fad''4 fad''2 fad''4~ |
-    fad'' fad''2 fad''4 | fad''2
+    fad'' fad''2 fad''4 | \custosNote fad''
   }
->> r2 |
-R1*11 |
-r8 sib'4 sib' sib' sib'8 |
-<<
-  \tag #'(flauto1 flauti) \new Voice {
-    \tag #'flauti \voiceOne re''8 re''4 re'' re'' re''8 |
-    lab''8 lab''4 lab'' lab'' lab''8 | sol''2
-  }
-  \tag #'(flauto2 flauti) \new Voice {
-    \tag #'flauti \voiceTwo lab'8 lab'4 lab' lab' lab'8 |
-    re''8 re''4 re'' re'' re''8 | mib''2
-  }
->> r8. <<
-  \tag #'(flauto1 flauti) \new Voice {
-    \tag #'flauti \voiceOne sol''16 sol''8. sol''16 | si''2
-  }
-  \tag #'(flauto2 flauti) \new Voice {
-    \tag #'flauti \voiceTwo sib'16 sib'8. sib'16 | fa''2
-  }
->> r2 |
-R1 |
+>>

@@ -65,9 +65,17 @@
 }
 \includeScore "AAIcamille"
 
-\scene "Scène II" "Scène II"
 %% 1-9
+\scene "Scène II" "Scène II"
 \pieceToc\markup\wordwrap {
   Camille, chœur : \italic { Secourez-nous, ô puissante Egérie }
 }
 \includeScore "ABAcamilleChoeur"
+
+%% 1-10
+\scene "Scène III" "Scène III"
+\pieceToc\markup\wordwrap {
+  Le vieil Horace, Curiace, Camille, chœur :
+  \italic { Peuples, dissipez vos alarmes }
+}
+\includeScore "ACAhccChoeur"

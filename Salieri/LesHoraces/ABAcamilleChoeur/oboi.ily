@@ -37,35 +37,14 @@ mi''2 <<
     \tag #'oboi \voiceOne la''2 | la''1 | la'' | la''~ |
     la'' | sol''~ | sol'' | sol'' |
     sib''2 sol'' | fad''1~ | fad'' | sol'' |
-    sol'2 sol'' | fad''4 la''2 la''4( | fad''4) fad''2 fad''4 | fad''2
+    sol'2 sol'' | fad''4 la''2 la''4( | fad''4) fad''2 fad''4 |
+    \custosNote fad''
   }
   \tag #'(oboe2 oboi) \new Voice {
     \tag #'oboi \voiceTwo mi''2 | fa''1 | fa'' | fad''~ |
     fad'' | re''~ | re'' | sib' |
     sib'1 | la'~ | la' | sol' |
-    sol'2 dod'' | re''4 re''2 re''4~ | re'' re''2 re''4 | la'2
+    sol'2 dod'' | re''4 re''2 re''4~ | re'' re''2 re''4 |
+    \custosNote la'
   }
->> r2 |
-R1*11 |
-r8 <<
-  \tag #'(oboe1 oboi) \new Voice {
-    \tag #'oboi \voiceOne sib'4 sib' sib' sib'8 |
-    re''8 re''4 re'' re'' re''8 |
-    lab''8 lab''4 lab'' lab'' lab''8 |
-    sol''2
-  }
-  \tag #'(oboe2 oboi) \new Voice {
-    \tag #'oboi \voiceTwo re'4 re' re' re'8 |
-    lab'8 lab'4 lab' lab' lab'8 |
-    re''8 re''4 re'' re'' re''8 |
-    mib''2
-  }
->> r8. <<
-  \tag #'(oboe1 oboi) \new Voice {
-    \tag #'oboi \voiceOne sol''16 sol''8. sol''16 | si''2
-  }
-  \tag #'(oboe2 oboi) \new Voice {
-    \tag #'oboi \voiceTwo sib'16 sib'8. sib'16 | fa''2
-  }
->> r2 |
-R1 |
+>>

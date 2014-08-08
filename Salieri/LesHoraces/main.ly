@@ -96,20 +96,28 @@
   \includeScore "AAIcamille"
 }
 
+%% 1-9
 \bookpart {
   \scene "Scène II" "Scène II"
-  %% 1-9
   \pieceToc\markup\wordwrap {
     Camille, chœur : \italic { Secourez-nous, ô puissante Egérie }
   }
   \includeScore "ABAcamilleChoeur"
 }
-\scene "Scène III" "Scène III"
-\sceneDescription\markup\wordwrap-center {
-  Le vieil \smallCaps { Horace, Horace, Curiace, }
-  Chevaliers d’Albe & de Rome, les Précédents.
-}
 
+%% 1-10
+\bookpart {
+  \scene "Scène III" "Scène III"
+  \sceneDescription\markup\wordwrap-center {
+    Le vieil \smallCaps { Horace, Horace, Curiace, }
+    Chevaliers d’Albe & de Rome, les Précédents.
+  }
+  \pieceToc\markup\wordwrap {
+    Le vieil Horace, Curiace, Camille, chœur :
+    \italic { Peuples, dissipez vos alarmes }
+  }
+  \includeScore "ACAhccChoeur"
+}
 \act "Premier intermède"
 \sceneDescription\markup\column {
   \justify {

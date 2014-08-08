@@ -120,7 +120,7 @@
   Le peuple en foule inonde les portiques du temple :
   il doit être composé de femmes, d’enfans & de vieillards.
 }
-\livretRef #'ABAchoeurCamille
+\livretRef #'ABAcamilleChoeur
 \livretPers CHŒUR
 %# Secourez-nous, ô puissante Egérie,
 %# Protègez de Numa le peuple infortuné.
@@ -151,6 +151,7 @@
   Le vieil \smallCaps { Horace, Horace, Curiace, }
   Chevaliers d’Albe & de Rome, les Précédents.
 }
+\livretRef #'ACAhccChoeur
 \livretPers LE VIEIL HORACE
 %# Peuples, dissipez vos alarmes,
 %# Les Dieux nous ont donné la paix.

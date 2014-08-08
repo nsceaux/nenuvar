@@ -17,12 +17,4 @@ do''4 do''8 re'' sib'4^! r8 re''16 re'' |
 re''4 re''8 mi'' dod''4^! r8 dod'' |
 dod'' dod'' dod'' re'' la'4^! fa'' |
 \grace mi''?4 re''2.\fermata r4 |
-R1*21 |
-r4 r8 mi'' dod''4 sol''~ |
-sol'' mi''8 re'' dod''4^! la'8 si' |
-dod''4 dod''8 re'' la'4^! r4 |
-R1*2 |
-r2 mib''!~ |
-mib''8 la' la' sib' do''4 do''8 re'' |
-sib'^! sib' r4 r2 |
-R1*5 |
+R1*16 |

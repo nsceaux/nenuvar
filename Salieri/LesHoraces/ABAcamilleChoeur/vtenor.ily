@@ -45,12 +45,4 @@ sol' sol' |
 sol' sol' |
 re'1~ |
 re'~ |
-re'2 r |
-R1*2 |
-r2 si |
-R1*8 |
-r2 r4 sib!8 sib |
-sib4 sib r sib8 sib |
-sib4. fa'8 fa' fa' fa' re' |
-mib'!4 r r2 |
-R1*2 |
+\custosNote re'4
