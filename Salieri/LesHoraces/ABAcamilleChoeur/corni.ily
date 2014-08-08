@@ -61,8 +61,8 @@ mi'' |
   }
 >> r2\fermata |
 R1*10 |
-r2\fermata r |
-mi'' r |
+r2\fermata r4 r |
+mi''2 r |
 R1 |
 r4 mi''2 mi''4 |
 mi''1 |

@@ -33,7 +33,7 @@ re' <fad' la'> q q \rt#4 q |
 q2 r\fermata |
 R1 |
 r8. sol16-\sug\f sol4 r2 |
-re'1 |
+re'1_\markup\bracket\dynamic mfp |
 mib'2 re'~ |
 re'1~ |
 re'~ |
