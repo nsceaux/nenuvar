@@ -84,3 +84,9 @@
   Le vieil Horace, chœur : \italic { Déja les deux armées }
 }
 \includeScore "ACBhoraceChoeur"
+%% 1-12
+\pieceToc\markup\wordwrap {
+  Le vieil Horace :
+  \italic { Vous eussiez vu soudain dans l'une & l'autre armée }
+}
+\includeScore "ACChorace"

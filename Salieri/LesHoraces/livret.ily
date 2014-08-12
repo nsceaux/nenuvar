@@ -189,6 +189,7 @@
 \livretPers LE PEUPLE
 \livretVerse#8 { O roi, le modèle des rois ! }
 \livretVerse#12 { Oui, les Dieux t’inspiroient, ils parloient par ta voix ! }
+\livretRef #'ACChorace
 \livretPers LE VIEIL HORACE
 \livretVerse#12 { Vous eussiez vu soudain dans l’une & l’autre armée }
 \livretVerse#12 { La joie & la concorde enflammer tous les cœurs. }
@@ -212,7 +213,7 @@
 \livretVerse#11 { \transparent { Mon père ! } Tu le peux, sans hasarder ma gloire }
 \livretVerse#12 { Soit que Rome triomphe ou qu’Albe ait la victoire }
 \livretVerse#12 { Le vaincu du vainqueur reconnoîtra les loix, }
-\livretVerse#8 { Sans honte, sans tributs serviles ; }
+\livretVerse#8 { Sans honte, sans tributs servils ; }
 \livretVerse#8 { Et nos états, unis par choix, }
 \livretVerse#12 { Ne seront qu’un empire & qu’un peuple en deux villes. }
 \livretPers LE PEUPLE

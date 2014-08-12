@@ -18,20 +18,20 @@ r8. << { re'16 re'4 } \\ { si16 si4 } >> r2 |
 la1~ |
 la2-\sug\p sib~ |
 sib1 |
-la4. do'8 la4 fa |
+la4.-\sug\f do'8 la4 fa |
 do'4. sol'8 sol'4. fa'32 mi' re' do' |
 si1\fp |
 do'2. r4 |
-sol8 sol4 sol sol sol8 |
+sol8-\sug\f sol4 sol sol sol8 |
 fa fa4 fa do' do'8 |
-sol sol4 sol sol sol8 |
-do'4. do'8 do'4. do'8 |
+sol-\sug\p sol4 sol sol sol8 |
+do'4.-\sug\fp do'8 do'4. do'8 |
 reb'4. reb'8 do'4. do'8 |
-re'!1 |
-mi' |
+re'!1-\sug\fp |
+mi'-\sug\ff |
 \rt#16 fa'32 \rt#16 re' |
 \rt#16 re' \rt#16 do' |
-fa8 la la la \rt#4 la |
+fa8 la-\sug\p la la \rt#4 la |
 <>-\sug\f \rt#4 sib \rt#4 sib |
 \rt#4 la <>-\sug\p \rt#4 la |
 \rt#4 sol \rt#4 sol |
@@ -40,11 +40,11 @@ fa la la la \rt#4 la |
 \rt#4 la \rt#4 la |
 \rt#4 sol \rt#4 sol |
 fa8 fa4 fa fa' fa'8 |
-re'8 si4 si si re'8 |
+re'8-\sug\cresc si4 si si re'8 |
 do' do'4 do' do' do'8 |
 sol re'4 re' re' re'8 |
-do' mi'4 mi' mi' mi'8 |
-mib'4 mib'2 re'4 |
+do' mi'4 mi' mi' mi'8\! |
+mib'4-\sug\f mib'2 re'4 |
 re'4. si8 do'4 re' |
 mib' mib'2 re'4 |
 re'4. si8 do'2 |
@@ -58,14 +58,14 @@ fa'4.\prall mi'16 fa' sol'4 sol |
 do'4\f do'8 do' do'4 sib! |
 la2 r |
 r4 la la sol |
-fad fad8 fad fad4 fad |
+fad fad8-\sug\f fad fad4 fad |
 fad1 |
 sol2 r\fermata |
-r2 sol |
+r2 sol-\sug\p |
 sol' do'4 do' |
 do'2 r4 la |
-sib2 do'4 do |
-fa8 do'[ do' do'] \rt#4 do' |
+sib2-\sug\f do'4 do |
+fa8 do'[-\sug\ff do' do'] \rt#4 do' |
 \rt#4 re' \rt#4 re' |
 \rt#4 re' \rt#4 re' |
 \rt#4 sol' \rt#4 sol' |

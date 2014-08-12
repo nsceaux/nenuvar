@@ -223,6 +223,10 @@ vieilHoraceInstr = \with {
   instrumentName = \markup\center-column\smallCaps { Le vieil Horace }
   shortInstrumentName = \markup\smallCaps VH.
 }
+jeuneHoraceInstr = \with {
+  instrumentName = \markup\center-column\smallCaps { Le jeune Horace }
+  shortInstrumentName = \markup\smallCaps JH.
+}
 
 
 footnoteHere =

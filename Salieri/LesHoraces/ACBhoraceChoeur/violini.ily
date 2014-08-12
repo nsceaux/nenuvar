@@ -36,7 +36,7 @@ re''1 |
     fa'8.
   }
   \tag #'violino2 {
-    do''4.\f do'8 do'4 do' |
+    do''4. do'8\f do'4 do' |
     do'1~ |
     do'2\p do'~ |
     do'1 |
@@ -44,7 +44,7 @@ re''1 |
     <sol' sol>1 |
     <sol fa'>\fp |
     mi'2. r4 |
-    reb'8 reb'4 reb' reb' reb'8 |
+    reb'8-\sug\f reb'4 reb' reb' reb'8 |
     do'8.
   }
 >> do'16 reb'8. do'16 fa'8. fa'16 lab'8. do''16 |
@@ -56,8 +56,8 @@ re''1 |
     sol'1\fp |
   }
   \tag #'violino2 {
-    reb'8 reb'4 reb' reb' reb'8 |
-    <fa' lab>16 fa' fa' fa' \rt#4 fa' \rt#8 fa' |
+    reb'8-\sug\p reb'4 reb' reb' reb'8 |
+    <fa' lab>16-\sug\fp fa' fa' fa' \rt#4 fa' \rt#8 fa' |
     \rt#8 fa'16 \rt#8 <mi' do''> |
     <fa' si'>1\fp |
   }

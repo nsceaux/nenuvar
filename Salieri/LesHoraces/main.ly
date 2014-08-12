@@ -125,6 +125,14 @@
   }
   \includeScore "ACBhoraceChoeur"
 }
+%% 1-12
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Le vieil Horace :
+    \italic { Vous eussiez vu soudain dans l'une & l'autre armée }
+  }
+  \includeScore "ACChorace"
+}
 
 \act "Premier intermède"
 \sceneDescription\markup\column {
