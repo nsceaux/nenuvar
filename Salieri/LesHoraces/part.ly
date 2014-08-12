@@ -79,3 +79,8 @@
   \italic { Peuples, dissipez vos alarmes }
 }
 \includeScore "ACAhccChoeur"
+%% 1-11
+\pieceToc\markup\wordwrap {
+  Le vieil Horace, chœur : \italic { Déja les deux armées }
+}
+\includeScore "ACBhoraceChoeur"

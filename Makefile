@@ -2559,61 +2559,61 @@ Salieri/LesHoraces:
 	-o $(OUTPUT_DIR)/LesHoraces  \
 	Salieri/LesHoraces/main.ly
 .PHONY: Salieri/LesHoraces
-# Hautbois I
+# Oboe I
 Salieri/LesHoraces-oboe1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-oboe1 -dpart=oboe1  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-oboe1
-# Hautbois II
+# Oboe II
 Salieri/LesHoraces-oboe2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-oboe2 -dpart=oboe2  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-oboe2
-# Flûte I
+# Flauto I
 Salieri/LesHoraces-flauto1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-flauto1 -dpart=flauto1  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-flauto1
-# Flûte II
+# Flauto II
 Salieri/LesHoraces-flauto2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-flauto2 -dpart=flauto2  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-flauto2
-# Clarinette I
+# Clarinetto I
 Salieri/LesHoraces-clarinetto1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-clarinetto1 -dpart=clarinetto1  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-clarinetto1
-# Clarinette II
+# Clarinetto II
 Salieri/LesHoraces-clarinetto2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-clarinetto2 -dpart=clarinetto2  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-clarinetto2
-# Basson I
+# Fagotto I
 Salieri/LesHoraces-fagotto1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-fagotto1 -dpart=fagotto1  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-fagotto1
-# Basson II
+# Fagotto II
 Salieri/LesHoraces-fagotto2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-fagotto2 -dpart=fagotto2  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-fagotto2
-# Violon I
+# Violino I
 Salieri/LesHoraces-violino1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-violino1 -dpart=violino1  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-violino1
-# Violon II
+# Violino II
 Salieri/LesHoraces-violino2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-violino2 -dpart=violino2  \
@@ -2625,12 +2625,24 @@ Salieri/LesHoraces-alto:
 	-o $(OUTPUT_DIR)/LesHoraces-alto -dpart=alto  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-alto
-# Basses
+# Bassi
 Salieri/LesHoraces-basso:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LesHoraces-basso -dpart=basso  \
 	Salieri/LesHoraces/part.ly
 .PHONY: Salieri/LesHoraces-basso
+# Corno I
+Salieri/LesHoraces-corno1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-corno1 -dpart=corno1  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-corno1
+# Corno II
+Salieri/LesHoraces-corno2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LesHoraces-corno2 -dpart=corno2  \
+	Salieri/LesHoraces/part.ly
+.PHONY: Salieri/LesHoraces-corno2
 # Tromba I
 Salieri/LesHoraces-tromba1:
 	$(LILYPOND_CMD) \
@@ -2665,6 +2677,8 @@ Salieri/LesHoraces-delivery:
 	@if [ -e $(OUTPUT_DIR)/LesHoraces-violino2.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-violino2.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
 	@if [ -e $(OUTPUT_DIR)/LesHoraces-alto.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-alto.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
 	@if [ -e $(OUTPUT_DIR)/LesHoraces-basso.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-basso.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-corno1.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-corno1.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
+	@if [ -e $(OUTPUT_DIR)/LesHoraces-corno2.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-corno2.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
 	@if [ -e $(OUTPUT_DIR)/LesHoraces-tromba1.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-tromba1.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
 	@if [ -e $(OUTPUT_DIR)/LesHoraces-tromba2.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-tromba2.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
 	@if [ -e $(OUTPUT_DIR)/LesHoraces-timpani.pdf ]; then mv -fv $(OUTPUT_DIR)/LesHoraces-timpani.pdf $(DELIVERY_DIR)/Salieri/LesHoraces; fi
@@ -2688,6 +2702,8 @@ Salieri/LesHoraces-all: \
 	Salieri/LesHoraces-violino2 \
 	Salieri/LesHoraces-alto \
 	Salieri/LesHoraces-basso \
+	Salieri/LesHoraces-corno1 \
+	Salieri/LesHoraces-corno2 \
 	Salieri/LesHoraces-tromba1 \
 	Salieri/LesHoraces-tromba2 \
 	Salieri/LesHoraces-timpani\

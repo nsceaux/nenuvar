@@ -167,6 +167,7 @@
 %# Ah! tu m'as coûté bien des larmes!
 \livretPers LE PEUPLE
 %# Quel miracle a produit ces étonnans effets?
+\livretRef #'ACBhoraceChoeur
 \livretPers LE VIEIL HORACE
 %# Un Dieux, qui parle aux cœurs. Déja les deux armées
 %# D'une égale fureur paroissoient animées;

@@ -118,6 +118,14 @@
   }
   \includeScore "ACAhccChoeur"
 }
+%% 1-11
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Le vieil Horace, chœur : \italic { Déja les deux armées }
+  }
+  \includeScore "ACBhoraceChoeur"
+}
+
 \act "Premier intermède"
 \sceneDescription\markup\column {
   \justify {

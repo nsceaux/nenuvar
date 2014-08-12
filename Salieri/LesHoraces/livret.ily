@@ -122,7 +122,7 @@
   Le peuple en foule inonde les portiques du temple :
   il doit être composé de femmes, d’enfans & de vieillards.
 }
-\livretRef #'ABAchoeurCamille
+\livretRef #'ABAcamilleChoeur
 \livretPers CHŒUR
 \livretVerse#10 { Secourez-nous, ô puissante Egérie, }
 \livretVerse#12 { Protègez de Numa le peuple infortuné. }
@@ -153,6 +153,7 @@
   Le vieil \smallCaps { Horace, Horace, Curiace, }
   Chevaliers d’Albe & de Rome, les Précédents.
 }
+\livretRef #'ACAhccChoeur
 \livretPers LE VIEIL HORACE
 \livretVerse#8 { Peuples, dissipez vos alarmes, }
 \livretVerse#8 { Les Dieux nous ont donné la paix. }
@@ -168,6 +169,7 @@
 \livretVerse#8 { Ah ! tu m’as coûté bien des larmes ! }
 \livretPers LE PEUPLE
 \livretVerse#12 { Quel miracle a produit ces étonnans effets ? }
+\livretRef #'ACBhoraceChoeur
 \livretPers LE VIEIL HORACE
 \livretVerse#12 { Un Dieux, qui parle aux cœurs. Déja les deux armées }
 \livretVerse#12 { D’une égale fureur paroissoient animées ; }

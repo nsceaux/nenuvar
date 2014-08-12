@@ -108,10 +108,14 @@
 
 
 \opusPartSpecs
-#`((tromba1 "Tromba, Corno I" ()
+#`((tromba1 "Tromba I" ()
             (#:notes "trombe" #:tag-notes tromba1))
-   (tromba2 "Tromba, Corno II" ()
+   (tromba2 "Tromba II" ()
             (#:notes "trombe" #:tag-notes tromba2))
+   (corno1 "Corno I" ()
+            (#:notes "corni" #:tag-notes corno1))
+   (corno2 "Corno II" ()
+            (#:notes "corni" #:tag-notes corno2))
    (flauto1 "Flauto I" ()
             (#:notes "flauti" #:tag-notes flauto1))
    (flauto2 "Flauto II" ()
@@ -182,6 +186,10 @@ violaInstr = \with {
 bassoInstr = \with {
   instrumentName = "Basso"
   shortInstrumentName = "B."
+}
+cbInstr = \with {
+  instrumentName = "Contrabasso"
+  shortInstrumentName = "Cb."
 }
 bcbInstr = \with {
   instrumentName = \markup\center-column {
