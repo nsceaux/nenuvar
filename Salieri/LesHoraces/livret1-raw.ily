@@ -187,7 +187,6 @@
 \livretPers LE PEUPLE
 %# O roi, le modèle des rois!
 %# Oui, les Dieux t'inspiroient, ils parloient par ta voix!
-\livretRef #'ACChorace
 \livretPers LE VIEIL HORACE
 %# Vous eussiez vu soudain dans l'une & l'autre armée
 %# La joie =& la concorde enflammer tous les cœurs.
@@ -214,6 +213,7 @@
 %# Sans honte, sans tributs servils;
 %# Et nos états, unis par choix,
 %# Ne seront qu'un empire & qu'un peuple en deux villes.
+\livretRef #'ACCquatuorChoeur
 \livretPers LE PEUPLE
 %# O du sort trop heureux retour?
 \livretPers CAMILLE & CURIACE

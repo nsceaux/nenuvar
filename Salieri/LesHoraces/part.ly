@@ -86,7 +86,6 @@
 \includeScore "ACBhoraceChoeur"
 %% 1-12
 \pieceToc\markup\wordwrap {
-  Le vieil Horace :
-  \italic { Vous eussiez vu soudain dans l'une & l'autre armée }
+  Quatuor & chœur : \italic { O du sort trop heureux retour }
 }
-\includeScore "ACChorace"
+\includeScore "ACCquatuorChoeur"
