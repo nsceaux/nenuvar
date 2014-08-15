@@ -6,7 +6,7 @@ R1*4 |
 fad'8( la' fad' la' fad' la' fad' la') |
 sol'( la' sol' la' sol' la' sol' la') |
 mi'( sol' la' sol') mi'( sol' la' sol') |
-sol' la' fad' sol' fad' la' fad' la' |
+sol' la' fad' la' fad' la' fad' la' |
 fad'8 la' fad' la' fad' la' fad' la' |
 sol' la' sol' la' sol' la' sol' la' |
 mi' sol' la' sol' mi' sol' la' sol' |
@@ -20,7 +20,7 @@ dod''' la''(\f dod''' mi''') |
 mi'''1~ |
 mi'''4 fad''(\p re''' dod''') |
 si''2 si''4. la''8 |
-sold''2\cresc si''4. re'''8 |
+<< sold''2 { s4 s\cresc } >> si''4. re'''8 |
 dod'''4 mi''' dod''' la''\! |
 sold''4\f mi'8. mi'16 mi'4 mi' |
 mi'2~ mi'4 r |
@@ -36,8 +36,8 @@ sold''4 mi'' mi'' mi'' |
 mi''2\f si'4.\p si'8 |
 la'( dod'' mi'' dod'' mi'' dod'' mi'' dod'') |
 re''4.\prall dod''16 re'' si'4 si' |
-dod''8-. la'-.\f si'-. dod''-. re''-. mi''-. fad''-. sold''-. |
-la''-. sold''-. fad''-. mi''-. re''-. dod''-. si'-. la'-. |
+dod''8-.\f la'-. si'-. dod''-. re''-. mi''-. fad''-. sold''-. |
+la''-. sold''-. fad''-. mi''-. re''-.\p dod''-. si'-. la'-. |
 fad''4 fad''2 fad''4~ |
 fad''4 la''( fad'' re'') |
 dod''2 dod''~ |
@@ -57,7 +57,7 @@ r2 r4 re''8\f mi''16 fad'' |
 sol''2. si''4 |
 do'''4 \grace do'''8 si'' la''16 si'' do'''4 la'' |
 si'' si''( sol'' mi'') |
-\grace re'' dod''!4.\prall si'16 dod'' la'4 sol' |
+\grace re'' dod''!4.\prall si'16 dod'' la'4 la' |
 \grace { re'16[ la'] } fad''1~ |
 fad''4 fad''2 fad''4~ |
 fad'' la''( sol'' mi'') |
@@ -73,10 +73,10 @@ mi' sol' la' sol' mi' sol' la' sol' |
 fad'1\fermata |
 mi'1\p |
 \grace mi''4 re''( dod''8 re'' mi''4 re'') |
-<< dod''1 { s2 s\< } >> |
-dod''4\!( re'' mi'' fad'' |
+<< dod''1~ { s2 s\< } >> |
+dod''4( re''\! mi'' fad'' |
 sol''1) |
-\grace la''8 sol''4( fad''8 sol'' la''4 sol'') |
+\grace la''8 sol''4\p( fad''8 sol'' la''4 sol'') |
 fad''2.\fermata la'4 |
 re''2.( re''4 |
 dod'' si' la' sol') |
@@ -96,7 +96,7 @@ r2 r4 la'\f |
 <si fad' re''>2. re''4 |
 dod''8 re'' si' dod'' la' si' sol' la' |
 fad'2 r |
-R1 | <>\f
+R1 | <>\ff
 <<
   { la''4 la''2 la''4~ | la'' la''2 la''4~ | la'' } \\
   { la'4 la'2 la'4~ | la' la'2 la'4~ | la' }
@@ -118,7 +118,7 @@ la' \grace dod''8 si' la'16 si' dod''4 la' |
 >>
 re'''4\ff re''2 fad''8 sol'' |
 la''2.( fad''8 re'') |
-re'' dod'' dod''2( dod''8 re'' |
+re'' dod'' dod''2 dod''8( re'' |
 mi''4 dod'' la' mi'') |
 mi''( fad'' re'') fad''8 sol'' |
 la''4( fad'' re'' do''') |

@@ -24,7 +24,7 @@ R1 |
 r2 r4 si^\p |
 la1 |
 R1*2 |
-r2 r4 la |
+r2 r4 la^\p |
 re'2.\fermata r4 |
 R1*4 |
 fad'1^\f~ |

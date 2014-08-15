@@ -90,7 +90,7 @@ la'1 |
 fad''~ |
 fad''4 la' si' sol' |
 fad'2 mi' |
-fad'4 re''2 re''4~ |
+fad'4-\sug\p re''2 re''4~ |
 re'' re''2 re''4 |
 re'' re''2 re''4 |
 dod'' dod''2 dod''4 |
@@ -108,11 +108,11 @@ sol''8 re''4 re'' re'' re''8~ |
 re'' re''4 re'' re'' re''8~ |
 re''1 |
 re''2 dod'' |
-re''4 re''2 re''4~ |
+re''4-\sug\p re''2 re''4~ |
 re'' re''2 re''4 |
 re'' re''2 re''4 |
 dod'' dod''2 dod''4 |
-re'' re''2 re''4 |
+re''-\sug\ff re''2 re''4~ |
 re'' re''2 re''4~ |
 re'' re''2 re''4 |
 dod'' dod''2 dod''4 |

@@ -66,7 +66,7 @@ R1 |
 r2 r4 sold^\p |
 la1 |
 R1*2 |
-r2 r4 dod' |
+r2 r4 dod'^\p |
 re'2.\fermata \grace sol8 fad4 |
 si2. si4 |
 la( sol) fad( mi) |
@@ -75,7 +75,7 @@ R1*2 |
 re'1^\f~ |
 re'4 re' sol sol |
 la2 la4. la8 |
-re'2 r |
+re2 r |
 R1*6 |
 r2 r4 la |
 si2. si4 |

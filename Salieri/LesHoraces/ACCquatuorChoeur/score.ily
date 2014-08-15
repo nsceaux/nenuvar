@@ -28,20 +28,24 @@
       >>
       \new Staff \with { \altoInstr } << \global \includeNotes "alto" >>
     >>
-    \new Staff \with { \camilleInstr } \withLyrics <<
-      \global \includeNotes "camille"
-    >> \keepWithTag #'camille \includeLyrics "paroles"
-    \new Staff \with { \curiaceInstr } \withLyrics <<
-      \global \includeNotes "curiace"
-    >> \keepWithTag #'curiace \includeLyrics "paroles"
-    \new Staff \with { \jeuneHoraceInstr } \withLyrics <<
-      \global \includeNotes "jhorace"
-    >> \keepWithTag #'jhorace \includeLyrics "paroles"
-    \new Staff \with { \vieilHoraceInstr } \withLyrics <<
-      \global \includeNotes "vhorace"
-    >> \keepWithTag #'vhorace \includeLyrics "paroles"
+    \new ChoirStaff <<
+      \new Staff \with {
+        \camilleInstr \consists "Metronome_mark_engraver"
+      } \withLyrics <<
+        \global \includeNotes "camille"
+      >> \keepWithTag #'camille \includeLyrics "paroles"
+      \new Staff \with { \curiaceInstr } \withLyrics <<
+        \global \includeNotes "curiace"
+      >> \keepWithTag #'curiace \includeLyrics "paroles"
+      \new Staff \with { \jeuneHoraceInstr } \withLyrics <<
+        \global \includeNotes "jhorace"
+      >> \keepWithTag #'jhorace \includeLyrics "paroles"
+      \new Staff \with { \vieilHoraceInstr } \withLyrics <<
+        \global \includeNotes "vhorace"
+      >> \keepWithTag #'vhorace \includeLyrics "paroles"
+    >>
     \new ChoirStaff \with { \choeurInstr } <<
-      \new Staff \with { \consists "Metronome_mark_engraver" } \withLyrics <<
+      \new Staff \withLyrics <<
         \global \includeNotes "vsoprano"
       >> \keepWithTag #'vsoprano \includeLyrics "paroles"
       \new Staff \withLyrics <<
@@ -54,31 +58,29 @@
         \global \includeNotes "vbasso"
       >> \keepWithTag #'vbasso \includeLyrics "paroles"
     >>
-    \new StaffGroupNoBracket <<
-      \new Staff \with {
-        \bassoInstr \consists "Metronome_mark_engraver"
-      } <<
-        \global \includeNotes "bassi"
-        \origLayout {
-          s1*4\pageBreak
-          s1*4\pageBreak s1*4\pageBreak
-          s1*4\pageBreak s1*4\pageBreak
-          s1*5\pageBreak s1*5\pageBreak
-          s1*4\pageBreak s1*5\pageBreak
-          s1*5\pageBreak s1*4\pageBreak
-          s1*5\pageBreak s1*4\pageBreak
-          s1*4\pageBreak s1*5\pageBreak
-          s1*5\pageBreak \grace s8 s1*4\pageBreak
-          s1*5\pageBreak s1*4\pageBreak
-          s1*4\pageBreak s1*5\pageBreak
-          s1*5\pageBreak s1*4\pageBreak
-          s1*4\pageBreak s1*4\pageBreak
-          s1*4\pageBreak s1*4\pageBreak
-          s1*4\pageBreak s1*4\pageBreak
-          s1*4\pageBreak s1*5\pageBreak
-          s1*5\pageBreak s1*5\pageBreak
-        }
-      >>
+    \new Staff \with {
+      \bassoInstr \consists "Metronome_mark_engraver"
+    } <<
+      \global \includeNotes "bassi"
+      \origLayout {
+        s1*4\pageBreak
+        s1*4\pageBreak s1*4\pageBreak
+        s1*4\pageBreak s1*4\pageBreak
+        s1*5\pageBreak s1*5\pageBreak
+        s1*4\pageBreak s1*5\pageBreak
+        s1*5\pageBreak s1*4\pageBreak
+        s1*5\pageBreak s1*4\pageBreak
+        s1*4\pageBreak s1*5\pageBreak
+        s1*5\pageBreak \grace s8 s1*4\pageBreak
+        s1*5\pageBreak s1*4\pageBreak
+        s1*4\pageBreak s1*5\pageBreak
+        s1*5\pageBreak s1*4\pageBreak
+        s1*4\pageBreak s1*4\pageBreak
+        s1*4\pageBreak s1*4\pageBreak
+        s1*4\pageBreak s1*4\pageBreak
+        s1*4\pageBreak s1*5\pageBreak
+        s1*5\pageBreak s1*5\pageBreak
+      }
     >>
   >>
   \layout {

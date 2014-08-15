@@ -24,7 +24,7 @@ R1 |
 r2 r4 sold^\p |
 la1 |
 R1*2 |
-r2 r4 dod' |
+r2 r4 dod'^\p |
 re'2.\fermata r4 |
 R1 |
 r2 r4 la^\p |

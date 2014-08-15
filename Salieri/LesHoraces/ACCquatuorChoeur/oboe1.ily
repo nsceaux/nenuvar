@@ -6,12 +6,12 @@ sol''2. fad''4 |
 \grace fad''8 mi''2 r4 fad''8( sol'' |
 la''2. fad''8 re'' |
 re'' dod'' dod''2 dod''8 re'' |
-mi''4 dod'' la') mi''( |
+mi''4 dod'' la' mi'')( |
 mi'' fad'' re'' fad''8 sol'' |
 la''2. fad''8 re'') |
 re''8( dod'' dod''2 dod''8 re'' |
-mi''4 dod'' la') mi'' |
-mi''( fad'' re'' re'') |
+mi''4 dod'' la' mi'') |
+mi''( fad'' re'') re'' |
 si'( dod'' re'' red'') |
 mi''( fad'' sol'' mi'') |
 re''2. mi''4 |
@@ -19,7 +19,7 @@ mi''2( fad''4.) re''8 |
 la''2.\fp sol''8 fad'' |
 mi''4 mi''( fad'' sol'') |
 re''2. dod''4 |
-re''1~ |
+re''1-\sug\f~ |
 re''~ |
 re''4( re'''2) si''4 |
 sold''1 |
@@ -115,19 +115,19 @@ mi''~ |
 mi'' |
 re''2. fad''8 sol'' |
 la''2.( fad''8 re'') |
-re'' dod'' dod''2 dod''8 re''( |
+re'' dod'' dod''2 dod''8( re'' |
 mi''4 dod'' la' mi'') |
 mi''( fad'' re'') fad''8 sol'' |
 la''4( fad'' re'' do''') |
-si''8 si''4 si'' si'' si''8 |
+si''8 si''4 si'' si'' \once\tieDashed si''8~ |
 si'' si''4 si'' si'' si''8 |
-si''4 re''' \grace do'''8 si''4 la''8 sol'' |
+si''4 re''' \grace dod'''8 si''4 la''8 sol'' |
 fad''2 mi'' |
 re''4\p fad''2 fad''4~ |
 fad'' fad''2 fad''4 |
 mi'' mi''2 mi''4 |
 la'' la''2 la''4 |
-fad'' fad''2-\sug\f fad''4
+fad''-\sug\ff fad''2 \once\tieDashed fad''4~ |
 fad'' fad''2 fad''4 |
 mi'' mi''2 mi''4 |
 la'' la''2 la''4 |

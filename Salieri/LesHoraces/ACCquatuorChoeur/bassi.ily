@@ -20,7 +20,7 @@ re'4 la fad re |
 la4\f la,( si, dod) |
 <>\p \rt#4 re8 \rt#4 re |
 \rt#4 re \rt#4 re |
-\rt#4 re <>\cresc \rt#4 re |
+<< \rt#4 mi { s4 s\cresc } >> \rt#4 mi8 |
 \rt#4 mi \rt#4 mi |
 mi4\f\! mi8. mi16 mi4 mi |
 mi2~ mi4 r |
@@ -74,7 +74,7 @@ mi' |
 si,1\fermata |
 <>^"Tutti" mi4\p mi mi mi |
 mi mi mi mi |
-la la,\< la, la, |
+la la, la,\< la, |
 la, la,\! la, la, |
 la, la, la, la, |
 la,\p la, la, la, |
@@ -82,7 +82,7 @@ re1\fermata~ |
 re~ |
 re~ |
 re4 re'2( re'4 |
-dod') si la sol |
+dod' si la sol) |
 fad4\f re-! fad-! la-! |
 re' la fad la |
 re2 sol4. sol8 |
@@ -102,11 +102,11 @@ fad\ff re fad la |
 re' la fad la |
 re re sol sol |
 la la la, la, |
-re'\p dod' si la |
+re'-.\p dod'-. si-. la-. |
 si la sol fad |
 sol mi fad sol |
 la si dod' la |
-re'\ff dod' si la |
+re'-.\ff dod'-. si-. la-. |
 si la sol fad |
 sol mi fad sol |
 la mi dod la, |

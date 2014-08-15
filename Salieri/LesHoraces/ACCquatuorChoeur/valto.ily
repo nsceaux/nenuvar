@@ -10,7 +10,7 @@ la2 r |
 R1*5 |
 r2 r4 la' |
 si'2. si'4 |
-fad'4 sol' mi' la' |
+fad'4 sol' re' la' |
 re'2 sol' |
 mi' dod' |
 la'1~ |
@@ -24,7 +24,7 @@ R1 |
 r2 r4 mi'^\p |
 mi'1 |
 R1*2 |
-r2 r4 la' |
+r2 r4 la'^\p |
 la'2.\fermata r4 |
 R1*4 |
 la'1^\f~ |

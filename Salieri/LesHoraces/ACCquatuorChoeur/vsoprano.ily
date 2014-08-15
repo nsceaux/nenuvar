@@ -24,7 +24,7 @@ R1 |
 r2 r4 re''^\p |
 dod''1 |
 R1*2 |
-r2 r4 mi'' |
+r2 r4 mi''^\p |
 fad''2.\fermata r4 |
 R1 |
 r2 r4 la'^\p |

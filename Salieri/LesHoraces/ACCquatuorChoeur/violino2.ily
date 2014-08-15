@@ -18,12 +18,12 @@ re''4 la' fad' re' |
 mi'8 <<
   { si'8 si' si' \rt#4 si' | \rt#4 si' \rt#4 si' |
     \rt#4 dod'' \rt#4 dod'' | dod''4 } \\
-  { sold'8 sold' sold' \rt#4 sold' | \rt#4 sold' \rt#4 sold' |
-    \rt#4 la' \rt#4 la' | la'4 }
+  { sold'8 sold' sold' <>-\sug\p \rt#4 sold' | \rt#4 sold' \rt#4 sold' |
+    \rt#4 la' \rt#4 la' | <>-\sug\f la'4 }
 >> dod''( sold' la') |
-fad'1~ |
+<>-\sug\p fad'1~ |
 fad'8 fad' fad' fad' fad' re' fad' re' |
-si si'-\sug\cresc si' si' sold' si' mi'' si' |
+si si' si'-\sug\cresc si' sold' si' mi'' si' |
 la' dod'' mi'' dod'' la' dod'' mi'' dod''\! |
 si'4-\sug\f mi'8. mi'16 mi'4 mi' |
 mi'2~ mi'4 r |
@@ -35,20 +35,11 @@ si mi' si mi' si mi' si mi' |
 la( dod' mi' dod') la( dod' mi' dod') |
 la'2 fad' |
 si2 r | <>\fp
-<<
-  { mi''1~ |
-    mi''~ |
-    mi''~ |
-    mi''4 mi'2 mi'4~ |
-    mi' mi'2 mi'4 |
-  } \\
-  { mi'1~ |
-    mi'~ |
-    mi'~ |
-    mi'4 dod'2 dod'4~ |
-    dod' dod'2 dod'4 |
-  }
->>
+<mi'' mi'>1~ |
+q~ |
+q~ |
+q4 <mi' dod'>2-\sug\f q4~ |
+q q2 q4\p |
 re'8 re'[ fad' la'] re'' la' fad' la' |
 re'' la' fad' si' re'' la' fad' si' |
 la' mi' la' mi' la' mi' la' mi' |
@@ -56,10 +47,10 @@ la' mi' la' mi' sold' mi' re' mi' |
 dod' mi' dod'-\sug\cresc mi' dod' mi' dod' mi' |
 fad' la' re'' la' fad' la' re'' la' |
 fad' la' re'' la' re''( la' fad' si')\! |
-mi'8 <dod'' la''> q q \rt#4 q |
+mi'8-\sug\f <dod'' la''> q q \rt#4 q |
 \rt#4 q \rt#4 <si' sold''> |
 <la'' la'>2 r\fermata |
-fad'1\p |
+fad'1-\sug\p |
 sol'2 si'4. la'8 |
 sol'2. sol'4 |
 fad'2 r |
@@ -70,7 +61,7 @@ r2 r4 la'8\f si'16 dod'' |
 \rt#4 q \rt#4 q |
 \rt#4 q \rt#4 q |
 re''4 re''( si' sol') |
-mi'8 mi' la' mi' dod' mi' dod' dod' |
+mi'8 mi' la' mi' dod'! mi' dod' dod' |
 \grace { re'16[ fad'] } la'1~ |
 la'4 la'2 la'4 |
 la' la'( si' sol') |
@@ -85,18 +76,18 @@ re''8 dod'' dod''2 dod''8 re'' |
 mi''4( dod'' la' dod') |
 re'1\fermata |
 mi'1\p |
-la' |
+sold' |
 la'1~ |
 la'2 sol'4 fad' |
 <mi' dod'>1~ |
-q |
+q-\sug\p |
 re'2.\fermata r4 |
 R1 |
 r2 r4 la' |
 fad''2. fad''4 |
 mi''( re'' dod'' si') |
 la'2 r |
-<la' fad''>1~ |
+<la' fad''>1-\sug\p~ |
 q4 la' si'4. sol'8 |
 fad' la' fad' la' mi' la' mi' mi' |
 re' fad' fad' fad' fad' fad' fad' fad' |

@@ -48,10 +48,10 @@ la r\fermata |
 fad'2.^\p fad'4 |
 sol'2 si4. si8 |
 si2. la4 |
-la2 r4 re' |
-re'( mi'2) mi'4 |
-re' re' dod' si |
-la2. si4 |
+la2 r4 fad'4 |
+fad'( sol'2) sol'4 |
+fad' fad' mi' re' |
+dod'2. re'4 |
 dod'2 r |
 R1 |
 r2 r4 re'4 |
@@ -73,7 +73,7 @@ R1 |
 r2 r4 mi'^\p |
 mi'1 |
 R1*2 |
-r2 r4 la' |
+r2 r4 la'^\p |
 la'2.\fermata r4 |
 R1*4 |
 fad'1^\f~ |

@@ -10,7 +10,7 @@ mi'2 mi' |
 mi'4. dod'8 sold4 la |
 fad2 fad'4. fad'8 |
 fad'2 fad'4. fad'8 |
-dod'2 sold4 sold |
+si2 sold4 sold |
 la2 mi'4. dod'8 |
 si2 r |
 R1*15 |
@@ -38,7 +38,7 @@ r2 r4 re' |
 re'2. re'4 |
 do'4 si do' la |
 si2 si |
-sol mi' |
+la mi' |
 re'1~ |
 re'~ |
 re'4 re' re' si |
@@ -50,7 +50,7 @@ R1 |
 r2 r4 si^\p |
 la1 |
 R1*2 |
-r2 r4 la |
+r2 r4 la^\p |
 re'2.\fermata la4 |
 re'2. re'4 |
 dod'( si) la( sol) |

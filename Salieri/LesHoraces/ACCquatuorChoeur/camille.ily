@@ -60,7 +60,7 @@ r2 r4 re''4^\f |
 sol''2. re''4 |
 re'' re'' re'' re'' |
 re''2 re'' |
-dod''2 la' |
+dod''!2 la' |
 fad''1~ |
 fad''~ |
 fad''4 la'' sol'' mi'' |
@@ -77,7 +77,7 @@ R1 |
 r2 r4 re''^\p |
 dod''1 |
 R1*2 |
-r2 r4 mi''4 |
+r2 r4 mi''4^\p |
 fad''2.\fermata r4 |
 R1*4 |
 la''1^\f~ |
