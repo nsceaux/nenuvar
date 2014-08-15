@@ -11,5 +11,4 @@ sib'2 sol'4 sol' |
 la'2 la'4 la' |
 sib'2 sol'4 sol' |
 la'2 r |
-R1*2 |
-r4
+R1*41 |

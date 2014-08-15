@@ -7,5 +7,4 @@ R1*2 |
 \rt#8 do \rt#8 do |
 do2 r8 do16 do do8 do |
 sol,2 r |
-R1*72 |
-r4
+R1*111 |

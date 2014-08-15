@@ -110,4 +110,5 @@ r4
   \tag #'(oboe2 oboi) \new Voice {
     \tag #'oboi \voiceTwo fad''8. fad''16 fad''4 fad'' | fad''
   }
->>
+>> r4 r2 |
+R1*38 |

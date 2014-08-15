@@ -109,5 +109,4 @@ do''2 sol'4 sol' |
     \tag #'corni \voiceTwo mi'2
   }
 >> r2 |
-R1*2 |
-r4
+R1*41 |

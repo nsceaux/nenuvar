@@ -11,5 +11,5 @@ sib2 do'4 do' |
 fa2 fa4 fa |
 sib2 do'4 do' |
 fa2 r |
-R1*2 |
-r4
+R1*41 |
+

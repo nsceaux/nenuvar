@@ -65,4 +65,5 @@ re''2 do''4 do'' |
 do''4 r r2 |
 R1 |
 r4 re''8. re''16 re''4 re'' |
-re''
+re'' r r2 |
+R1*38 |

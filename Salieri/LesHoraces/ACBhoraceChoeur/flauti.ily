@@ -36,4 +36,5 @@ r4 <<
   \tag #'(flauto2 flauti) \new Voice {
     \tag #'flauti \voiceTwo fad''8. fad''16 fad''4 fad'' | fad''4
   }
->>
+>> r4 r2 |
+R1*38 |

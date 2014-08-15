@@ -11,5 +11,4 @@ fa'2 do'4 do' |
 do'2 fa'4 fa' |
 fa'2 mi'4 mi' |
 fa'2 r |
-R1*2 |
-r4
+R1*41 |

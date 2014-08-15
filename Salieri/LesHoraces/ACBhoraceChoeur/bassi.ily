@@ -10,7 +10,7 @@ dod2~ dod |
 re8 mi16 fa sol la si dod' re' re re re \rt#4 re16 |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) { re4 r r2 | R1 | }
-  \tag #'(basso cb bassi) {
+  \tag #'(basso basso-conducteur) {
     \rt#8 re16 <>\p \rt#4 re \rt#4 re |
     \rt#8 re \rt#8 re |
   }
@@ -29,7 +29,7 @@ r8. mi16 mi4 r2 |
     \tag #'fagotti \voiceTwo
     s8 si16 si si8 si \rt#4 si8 | si2 s | s4.
   }
-  \tag #'(basso cb bassi) {
+  \tag #'(basso basso-conducteur) {
     \rt#8 mi16 \rt#8 mi | mi1 | la4. <>\f
   }
 >> la,8 la,4 la, |
@@ -39,7 +39,7 @@ r8. mi16 mi4 r2 |
     R1*2 |
     fa4.
   }
-  \tag #'(basso cb bassi) {
+  \tag #'(basso basso-conducteur) {
     la,1~ |
     la,2\p sol,~ |
     sol,1 |
@@ -47,7 +47,7 @@ r8. mi16 mi4 r2 |
   }
 >> do'8 la4 fa |
 mi1 |
-re-\tag #'(basso cb bassi) \fp |
+re-\tag #'(basso basso-conducteur) \fp |
 do2. <<
   \tag #'(fagotto1 fagotto2 fagotti) \new Voice {
     do'4 |
@@ -61,7 +61,7 @@ do2. <<
     fa'2 re' |
     sib2 do' |
   }
-  \tag #'(basso cb bassi) {
+  \tag #'(basso basso-conducteur) {
     r4 |
     sib,8\f sib, sib, sib, \rt#4 sib, |
     \rt#4 lab, \rt#4 lab, |
@@ -115,26 +115,18 @@ do2. <<
       \new Voice { \voiceTwo r4 | R1*6 }
     >>
   }
-  \tag #'(basso cb bassi) {
+  \tag #'(basso basso-conducteur) {
     <<
-      \tag #'(basso bassi) \new Voice {
-        \tag #'bassi { \voiceOne <>^"[Basso]" }
-        fa,8 la8\p la la \rt#4 la |
+      { <>^"[Basso]" fa,8 la8\p la la \rt#4 la |
         <>-\sug\f \rt#4 sib \rt#4 sib |
         \rt#4 la <>-\sug\p \rt#4 la |
         mi1 |
         fa8 la la la \rt#4 la |
         <>-\sug\f \rt#4 sib8 \rt#4 sib |
         \rt#4 la8 \rt#4 la |
-      }
-      \tag #'(cb bassi) \new Voice {
-        \tag #'bassi { \voiceTwo <>_"[C.b.]" }
-        fa,4 r r2 |
-        R1*2 |
-        mi1 |
-        fa4 r r2 |
-        R1*2 |
-      }
+      } \\
+      { <>_"[C.b.]" fa,4 r r2 | R1*2 |
+        mi1 | fa4 r r2 | R1*2 | }
     >>
     mi1-\sug\p |
     fa4 fa fa fa |
@@ -150,7 +142,7 @@ do2. <<
     sol2 r |
   }
 >>
-\tag #'basso <>^"Retenir" do4\ff do8 do mi4 mi |
+<>^"Retenir" do4\ff do8 do mi4 mi |
 sol2 sol4.\p sol8 |
 fad2 fa |
 mi2 la4. la8 |
@@ -179,7 +171,7 @@ sib,2\f do4 do |
     do' la |
     sib do' |
   }
-  \tag #'(basso cb bassi) {
+  \tag #'(basso basso-conducteur) {
     <>\ff \rt#4 fa8 \rt#4 fa |
     \rt#4 re \rt#4 re |
     \rt#4 re \rt#4 re |
@@ -198,9 +190,43 @@ mib'8. re'16 do'8. sib16 la8. do'16 la8. sol16 |
 fad4 re8. re16 re4 re |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    re4
+    re4 r r2 | R1*38 |
   }
-  \tag #'(basso cb bassi) {
-    \custosNote re4
+  \tag #'(basso basso-conducteur) {
+    <<
+      \tag #'basso { re1~ | }
+      \tag #'basso-conducteur { re2~ re~ | }
+    >>
+    re1~ | re~ | re |
+    r8. sol,16 la,8. si,!16 do8. re16 mi8. fad16 |
+    sol4 si8. sol16 fad8. sol16 fad8. mi16 |
+    red1~ | red | mi | mi4 r r fad |
+    sol4. sol,8 sol,2 |
+    R1*2 |
+    fa4 r r2 |
+    mi8 mi mi mi \rt#4 mi |
+    \rt#4 si, \rt#4 si, |
+    do4 r r2 |
+    r4 mi2.\f |
+    fa4 r r2 |
+    R1*2 |
+    r8. sib,16 do8. re16 mib8. fa16 sol8. la16 |
+    sib4 r r2 |
+    mib4 r r2 |
+    R1 |
+    r2 reb4 r |
+    r2 r4 mib |
+    lab,2~ lab,4 r |
+    mi! r r2 |
+    r8. fa16 fa4 r2 |
+    r8. mi16 mi4 r2 |
+    r8. re16 re4 r2 |
+    r8. re16 re4 r2 |
+    R1 |
+    r2 r8. do16 do8. do16 |
+    do4 r red r |
+    r8. mi16 mi4 r2 |
+    r2 mi4 r |
+    r fad si,2 |
   }
 >>
