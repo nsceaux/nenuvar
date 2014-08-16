@@ -227,7 +227,10 @@ jeuneHoraceInstr = \with {
   instrumentName = \markup\center-column\smallCaps { Le jeune Horace }
   shortInstrumentName = \markup\smallCaps JH.
 }
-
+pretreInstr = \with {
+  instrumentName = \markup\center-column\smallCaps { Le Grand Prêtre }
+  shortInstrumentName = \markup\smallCaps GP.
+}
 
 footnoteHere =
 #(define-music-function (parser this-location offset note)
@@ -237,3 +240,18 @@ footnoteHere =
        #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
           ^\markup\transparent\box "1" #}
        (make-music 'Music 'void #t)))
+
+
+intermede =
+#(define-music-function (parser location title) (string?)
+  (add-toc-item parser 'tocActMarkup title)
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
+  (*act-title* title)
+  (add-odd-page-header-text
+    parser
+    (format #f "~a" (string-upper-case (*act-title*)))
+    #f)
+  (add-toplevel-markup parser
+    (markup #:act (string-upper-case title)))
+  (add-no-page-break parser)
+  (make-music 'Music 'void #t))

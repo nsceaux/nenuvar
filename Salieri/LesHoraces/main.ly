@@ -133,18 +133,26 @@
   \includeScore "ACCquatuorChoeur"
 }
 
-\act "Premier intermède"
-\sceneDescription\markup\column {
-  \justify {
-    Le Théâtre représente le Temple de Jupiter-Capitolin.
-    On voit dans le fond, l’Autel & la Statue de ce Dieu.
-    Le Roi, les principaux Chefs de l’Armée, & le Sénat Romain
-    occupent le Sanctuaire. Le peuple est sur
-    la partie extérieure.
+%% 1-13
+\bookpart {
+  \intermede "Premier intermède"
+  \sceneDescription\markup\column {
+    \justify {
+      Le Théâtre représente le Temple de Jupiter-Capitolin.
+      On voit dans le fond, l’Autel & la Statue de ce Dieu.
+      Le Roi, les principaux Chefs de l’Armée, & le Sénat Romain
+      occupent le Sanctuaire. Le peuple est sur
+      la partie extérieure.
+    }
+    \justify {
+      Les Prêtres entrent sur une marche noble & imposante.
+    }
   }
-  \justify {
-    Les Prêtres entrent sur une marche noble & imposante.
+  \pieceToc\markup\wordwrap {
+    Le Grand Prêtre :
+    \italic { Le Sénat, rassemblé sous ces voutes sacrées }
   }
+  \includeScore "ADApretre"
 }
 
 %% Livret

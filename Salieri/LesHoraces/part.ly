@@ -89,3 +89,11 @@
   Quatuor & chœur : \italic { O du sort trop heureux retour }
 }
 \includeScore "ACCquatuorChoeur"
+
+%% 1-13
+\intermede "Premier intermède"
+\pieceToc\markup\wordwrap {
+  Le Grand Prêtre :
+  \italic { Le Sénat, rassemblé sous ces voutes sacrées }
+}
+\includeScore "ADApretre"
