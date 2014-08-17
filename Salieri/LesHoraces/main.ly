@@ -162,6 +162,11 @@
   }
   \includeScore "ADBpretreChoeur"
 }
+% 1-15
+\bookpart {
+  \pieceTocTitle "Marche"
+  \includeScore "ADCmarche"
+}
 
 %% Livret
 \bookpart {

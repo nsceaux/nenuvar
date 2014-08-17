@@ -103,3 +103,6 @@
   \italic { Puissant moteur de l’univers }
 }
 \includeScore "ADBpretreChoeur"
+% 1-15
+\pieceTocTitle "Marche"
+\includeScore "ADCmarche"
