@@ -189,7 +189,6 @@
 \livretPers LE PEUPLE
 \livretVerse#8 { O roi, le modèle des rois ! }
 \livretVerse#12 { Oui, les Dieux t’inspiroient, ils parloient par ta voix ! }
-\livretRef #'ACChorace
 \livretPers LE VIEIL HORACE
 \livretVerse#12 { Vous eussiez vu soudain dans l’une & l’autre armée }
 \livretVerse#12 { La joie & la concorde enflammer tous les cœurs. }
@@ -216,6 +215,7 @@
 \livretVerse#8 { Sans honte, sans tributs servils ; }
 \livretVerse#8 { Et nos états, unis par choix, }
 \livretVerse#12 { Ne seront qu’un empire & qu’un peuple en deux villes. }
+\livretRef #'ACCquatuorChoeur
 \livretPers LE PEUPLE
 \livretVerse#8 { O du sort trop heureux retour ? }
 \livretPers CAMILLE & CURIACE
@@ -249,7 +249,7 @@
 \livretPers\line { LE VIEIL HORACE, LE JEUNE HORACE }
 \livretVerse#8 { O Ciel sur Rome & ma famille }
 \livretVerse#8 { Verse tes bienfaits en ce jour. }
-\livretDescAtt\wordwrap-center{ DIVERTISSEMENT GÉNÉRAL }
+\Livretdescatt\wordwrap-center{ DIVERTISSEMENT GÉNÉRAL }
 \livretFinAct Fin du premier acte
 \sep
 \livretAct PREMIER INTERMEDE
@@ -265,6 +265,7 @@
     Les Prêtres entrent sur une marche noble & imposante.
   }
 }
+\livretRef #'ADApretre
 \livretPers LE GRAND PRÊTRE
 \livretVerse#12 { Le Sénat, rassemblé sous ces voutes sacrées, }
 \livretVerse#12 { Va choisir trois Héros pour être nos vengeurs : }
@@ -274,11 +275,17 @@
 \livretVerse#12 { Le salut de l’Etat dépend de ce grand choix : }
 \livretVerse#10 { Priez les Dieux protecteurs de nos loix, }
 \livretVerse#8 { De verser sur nous leurs lumières. }
+\livretRef #'ADBpretreChoeur
 \livretPers LE GRAND PRÊTRE
 \livretVerse#8 { Puissant moteur de l’univers, }
 \livretVerse#8 { O toi dont l’essence suprême }
 \livretVerse#8 { Assujettit le Destin même, }
 \livretVerse#8 { Que sur nous, tes yeux soient ouverts. }
+\livretPers LE GRAND PRÊTRE
+\livretVerse#8 { Foibles jouets des destinées, }
+\livretVerse#8 { Que pouvons-nous sans son secours ? }
+\livretVerse#8 { C’est lui seul qui de nos années }
+\livretVerse#8 { Arrête & prolonge le cours. }
 \livretPers LE PEUPLE
 \livretVerse#8 { Puissant moteur, &c. }
 \livretPers LE GRAND PRÊTRE

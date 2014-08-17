@@ -247,7 +247,7 @@
 \livretPers\line { LE VIEIL HORACE, LE JEUNE HORACE }
 %# O Ciel sur Rome & ma famille
 %# Verse tes bienfaits en ce jour.
-\livretDescAtt\wordwrap-center{ DIVERTISSEMENT GÉNÉRAL }
+\Livretdescatt\wordwrap-center{ DIVERTISSEMENT GÉNÉRAL }
 \livretFinAct Fin du premier acte
 \sep
 \livretAct PREMIER INTERMEDE
@@ -263,6 +263,7 @@
     Les Prêtres entrent sur une marche noble & imposante.
   }
 }
+\livretRef #'ADApretre
 \livretPers LE GRAND PRÊTRE
 %# Le Sénat, rassemblé sous ces voutes sacrées,
 %# Va choisir trois Héros pour être nos vengeurs:
@@ -272,11 +273,17 @@
 %# Le salut de l'Etat dépend de ce grand choix:
 %# Pri=ez les Dieux protecteurs de nos loix,
 %# De verser sur nous leurs lumières.
+\livretRef #'ADBpretreChoeur
 \livretPers LE GRAND PRÊTRE
 %# Puissant moteur de l'univers,
 %# O toi dont l'essence suprême
 %# Assujettit le Destin même,
 %# Que sur nous, tes yeux soient ouverts.
+\livretPers LE GRAND PRÊTRE
+%# Foibles jou=ets des destinées,
+%# Que pouvons-nous sans son secours?
+%# C'est lui seul qui de nos années
+%# Arrête & prolonge le cours.
 \livretPers LE PEUPLE
 %#8 Puissant moteur, &c.
 \livretPers LE GRAND PRÊTRE
