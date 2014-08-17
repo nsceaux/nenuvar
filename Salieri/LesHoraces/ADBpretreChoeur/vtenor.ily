@@ -5,7 +5,7 @@ do'4. sol8 sol4. sol8 |
 sol2 r4 r8 si |
 si4 si8. si16 si4 si8. si16 |
 si4 si r8 si si8. si16 |
-si4. si8 si4. do'8 |
+si4. si8 si4. si8 |
 la4 la r la8. la16 |
 re'2~ re'4. re'8 |
 do'2 do'4 si |

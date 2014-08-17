@@ -19,12 +19,20 @@
         \new Staff << \global \keepWithTag #'flauto1 \includeNotes "flauti" >>
         \new Staff << \global \keepWithTag #'flauto2 \includeNotes "flauti" >>
       >>
-      \new Staff \with {
+      \new GrandStaff \with {
         instrumentName = \markup\center-column { Oboi col Clarinetti }
         shortInstrumentName = \markup\center-column { Ob. Cl. }
-      } << \global \keepWithTag #'oboi \includeNotes "oboi" >>
-      \new Staff \with { \fagottiInstr } <<
-        \global \keepWithTag #'fagotti \includeNotes "fagotti"
+      } <<
+        \new Staff << \global \keepWithTag #'oboe1 \includeNotes "oboi" >>
+        \new Staff << \global \keepWithTag #'oboe2 \includeNotes "oboi" >>
+      >>
+      \new GrandStaff \with { \fagottiInstr } <<
+        \new Staff <<
+          \global \keepWithTag #'fagotto1 \includeNotes "fagotti"
+        >>
+        \new Staff <<
+          \global \keepWithTag #'fagotto2-conducteur \includeNotes "fagotti"
+        >>
       >>
     >>
     \new StaffGroupNoBracket <<

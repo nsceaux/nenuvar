@@ -31,7 +31,7 @@ r4 <>\f <<
   \tag #'(oboe1 oboi) \new Voice {
     \tag #'oboi \voiceOne
     fad''2 fad''4 |
-    sol'' \once\slurDashed sol''( la'' sol'') |
+    sol'' \once\slurDashed sol''( la''\sf sol'') |
     do'''8( la'' fad'' mi'' red'' fad'' la'' do''') |
     si''-\sug\p sol'' mi''8. mi''16 re''4 fad'' |
     sol''2
@@ -39,12 +39,12 @@ r4 <>\f <<
   \tag #'(oboe2 oboi) \new Voice {
     \tag #'oboi \voiceTwo
     la'2 la'4 |
-    do''4 do''2\sf do''4 |
+    do''4 do''2 do''4 |
     do''1\f |
     si'4-\tag #'oboe2 -\sug\p do''( si' la') |
     sol'2
   }
->> r8. sol'16 la'8. si'16 |
+>> r8. sol'16[ la'8. si'16] |
 do''4 <<
   \tag #'(oboe1 oboi) \new Voice {
     \tag #'oboi \voiceOne
@@ -80,11 +80,11 @@ r2 r8
   }
   \tag #'(oboe2 oboi) \new Voice {
     \tag #'oboi \voiceTwo
-    re''8 re'' re'' | do''4 mib''2 mib''4 | mib''2. do''4 | re''
+    re''8 re'' re'' | do''4 mib''2 mib''4 | mib''2. do''4 | re''2
   }
 >> r2 |
 R1*4 |
-r2 r8 r16 sol'16-\sug\f la'8. si'16 |
+r2 r8 r16 sol'16[-\sug\f la'8. si'16] |
 do''4 <<
   \tag #'(oboe1 oboi) \new Voice {
     \tag #'oboi \voiceOne

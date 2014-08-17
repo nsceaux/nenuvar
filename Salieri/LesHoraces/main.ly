@@ -154,6 +154,14 @@
   }
   \includeScore "ADApretre"
 }
+% 1-14
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Les Grand Prêtre, chœur :
+    \italic { Puissant moteur de l’univers }
+  }
+  \includeScore "ADBpretreChoeur"
+}
 
 %% Livret
 \bookpart {

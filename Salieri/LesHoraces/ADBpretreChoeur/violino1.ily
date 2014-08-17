@@ -27,7 +27,7 @@ r8 mi'\f do''( la' mi'' do'' la' do''\p) |
 si'( re'' do'' la') sol'( si la fad') |
 sol'4 <la fad' re''>2\f r4 |
 R1*3 |
-r2 r8. sol''16\f la''8. si''16 |
+r2 r8. sol''16[\f la''8. si''16] |
 do'''4. do'''8 do'''4. do'''8 |
 sol'' sol''4 sol'' sol'' sol''8 |
 <re' si' si''>4 si''8. do'''16 re'''4 si''8. sol''16 |
@@ -42,7 +42,7 @@ lab'8(\p do'' mib'' lab'') lab'' mib'( lab' do'') |
 sib'8. <>\f << { sib''16[ sib''8. sib''16] } \\ { sib'16[ sib'8. sib'16] } >>
 \rt#16 sib''32 |
 \rt#16 <mib''' mib''> q8 sol''-.[\p sib''-. sol'']-. |
-fa''8-. si''16 si'' re'''8 si'' re''' sol16\p[ sol sol8 sol] |
+fa''8-. si''16-. si''-. re'''8-. si''-. re''' sol16\p[ sol sol8 sol] |
 <>\cresc \rt#24 lab32 lab16 sib32 do' reb' mib' fa' sol'\! |
 lab'8.\f <mib' mib''>16 q8. q16 q8. do'16 mib'8. do'16 |
 si8( re') sol' sol' r8\p sol'( sol sol') |

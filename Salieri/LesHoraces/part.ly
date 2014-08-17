@@ -97,3 +97,9 @@
   \italic { Le Sénat, rassemblé sous ces voutes sacrées }
 }
 \includeScore "ADApretre"
+%% 1-14
+\pieceToc\markup\wordwrap {
+  Les Grand Prêtre, chœur :
+  \italic { Puissant moteur de l’univers }
+}
+\includeScore "ADBpretreChoeur"

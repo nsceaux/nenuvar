@@ -18,28 +18,28 @@ re' re'4 re' si re'8 |
 sol-\sug\p do'4 do' fa'8 re' re' |
 mi' sol'4 mi' do' sol8 |
 sol2 r |
-<mi' do'>1 |
+<mi' do'>1-\sug\fp |
 <fad' la> |
-sol'2 la' |
-re'1 |
-sol'2 sold' |
-la'2. la'4 |
+sol'2-\sug\cresc la' |
+re'1\!-\sug\f |
+sol'2-\sug\p sold' |
+la'2.-\sug\f la'4-\sug\p |
 sol' la' sol' fad' |
-sol' re'2 r4 |
+sol' re'2-\sug\f r4 |
 R1*3 |
-r2 r8. sol16 la8. si16 |
+r2 r8. sol16-\sug\f[ la8. si16] |
 do'8 do'4 do' do' do'8 |
 si si4 si si si8 |
 sol8 sol4 sol sol sol8 |
 sol sol4 sol sol sol8 |
 mi'8 mi'4 mi' mi' mi'8 |
-mi' la4 la la8 fa' fa' |
+mi' la4 la la8 fa'-\sug\mf fa' |
 re' re'4 re' si re'8 |
-sol8 do'4 do' fa'8 re' re' |
+sol8-\sug\p do'4 do' fa'8 re' re' |
 mi' sol'4 mi' do' sol8 |
 do'8\f do' do'8. do'16 do'8 do'[ do' do'] |
 do'4 r r2 |
-r r8 sib16 sib sib8 sib |
+r r8 sib16-\sug\ff sib sib8 sib |
 \rt#16 <mib' mib>32 q8 r r4 |
 r2 r8 <<
   { sol'8\p sol' sol' |

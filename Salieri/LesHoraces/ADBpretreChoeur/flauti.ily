@@ -24,7 +24,7 @@ r2 r8 sol''[ la''8. si''16] |
     do'''8( sol'' do'''_\markup\italic cresc dod''') re'''4. do'''8 |
     si''8-. si''( re''' si'') sol''-. sol''( si'' sol'') |
     r8 sol'-.\p mi''( do'') r8 re''-. si''( sold'') |
-    r8 mi''-. do'''( la'' mi''' do''' la''\p do''') |
+    r8 mi''-.\f do'''( la'' mi''' do''' la'' do'''\p) |
     do'''( re''' do''' la'') sol''( si' la' fad'') |
     sol''4 re'''2\f re'''4 |
     do'''4 do'''2 do'''4 |
@@ -42,7 +42,7 @@ r2 r8 sol''[ la''8. si''16] |
     sol''4-\sug\p sol''8. mi''16 re''8( si' do'' la') |
     sol'2
   }
->> r8. sol''16 la''8. si''16 |
+>> r8. sol''16[ la''8. si''16] |
 <<
   \tag #'(flauto1 flauti) \new Voice {
     \tag #'flauti \voiceOne
@@ -107,7 +107,7 @@ R1*2
     \tag #'flauti \voiceTwo
     R1*2 | r2 r8
   }
->> r16 sol''\f la''8. si''16 |
+>> r16 sol''[\f la''8. si''16] |
 <<
   \tag #'(flauto1 flauti) \new Voice {
     \tag #'flauti \voiceOne

@@ -112,7 +112,7 @@ do'' |
   }
 >> r2 |
 R1*4 |
-r2 r8. sol'16-\sug\f sol'8. sol'16
+r2 r8. sol'16[-\sug\f sol'8. sol'16]
 <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne
@@ -148,6 +148,6 @@ do''2. sol'4 |
     \tag #'corni \voiceOne do''1~ | do'' |
   }
   \tag #'(corno2 corni) \new Voice {
-    \tag #'corni \voiceTwo sol'1~ | sol' |
+    \tag #'corni \voiceTwo mi'1~ | mi' |
   }
 >>

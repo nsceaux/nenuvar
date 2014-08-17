@@ -3,7 +3,7 @@ do4\fp do do do |
 si, si, si, si, |
 sol, sol, sol, sol, |
 sol, sol, sol, sol, |
-fad, sol\cresc sol sol\! |
+sold, sold\cresc sold sold\! |
 la\f la la fa\mf~ |
 fa fa fa fa |
 mi\p mi fa sol |
@@ -27,13 +27,13 @@ la,2.\f fad4\p |
 sol do re re, |
 sol, re,2\f r4 |
 R1*3 |
-r2 r8. sol,16\f la,8. si,16 |
+r2 r8. sol,16[\f la,8. si,16] |
 do4 do do do |
 si, si, si, si, |
 sol, sol, sol, sol, |
 sol, sol, sol, sol, |
 sold, sold sold sold |
-la la la\mf fa |
+la la la fa\mf |
 fa fa fa fa |
 mi\p mi fa sol |
 do do do do |

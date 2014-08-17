@@ -68,7 +68,7 @@ R1*8 |
   }
 >> r2 |
 R1*4 |
-r2 r8. sol'16\f sol'8. sol'16 |
+r2 r8. sol'16[\f sol'8. sol'16] |
 <<
   \tag #'(tromba1 trombe) \new Voice {
     \tag #'trombe \voiceOne
