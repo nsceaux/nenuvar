@@ -301,11 +301,13 @@
 \livretPers LE PEUPLE
 %#8 Puissant moteur, &c.
 \null
+\livretRef #'ADCmarche
 \livretDidasPPage\justify {
   Après l’Hymne, on brûle l’encens, on fait les libations, &c.
   Les cérémonies finies avec la pompe convenable, le Grand-Prêtre
   s’avance du côté du peuple & chante l’air suivant.
 }
+\livretRef #'ADDpretreChoeur
 \livretPers LE GRAND PRÊTRE
 %# O Rome! ô ma patrie!
 %# Choisis, on te présente ou le sceptre, ou des fers.

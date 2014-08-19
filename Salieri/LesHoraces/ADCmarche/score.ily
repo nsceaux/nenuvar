@@ -4,7 +4,12 @@
       \new Staff \with {
         instrumentName = \markup\center-column { Flauto solo }
         shortInstrumentName = "Fl."
-      } << \global \keepWithTag #'flauto1 \includeNotes "violino1" >>
+      } <<
+        \once\override Staff.TextScript.outside-staff-priority = #9999
+        <>^\markup\large\italic {
+          Pendant la Marche, on brule l’encens et l’ont fait les libations.
+        }
+        \global \keepWithTag #'flauto1 \includeNotes "violino1" >>
       \new Staff  \with {
         instrumentName = \markup\center-column { Fagotto solo }
         shortInstrumentName = "Fg."
