@@ -158,7 +158,7 @@ r <<
   }
   \tag #'(oboe2 oboi) \new Voice {
     \tag #'oboi \voiceTwo
-    do''4. mib''8 |
+    re''4. mib''8 |
   }
 >>
 mib''1~ |

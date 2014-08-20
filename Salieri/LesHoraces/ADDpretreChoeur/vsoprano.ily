@@ -18,7 +18,7 @@ do''2 lab' |
 sib'1~ |
 sib' |
 do'1\fermata |
-do''2\mf do''4. do''8 |
+do''2^\mf do''4. do''8 |
 do''2 do'' |
 do''1 |
 r2 sib'4. sib'8 |

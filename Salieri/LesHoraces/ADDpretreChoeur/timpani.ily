@@ -18,7 +18,7 @@ r2 sib,4. sib,8 |
 \rt#16 sib, |
 mib1\fermata |
 R1*3 |
-r2 sib,4. sib,8 |
+r2 sib,4. sib,8\! |
 \rt#16 mib16 |
 \rt#16 mib16 |
 \rt#16 sib, |

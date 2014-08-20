@@ -1,4 +1,5 @@
-\clef "treble" r8 |
+\clef "treble" \transposition mib
+r8 |
 R1 |
 r2 r4 r8 sol' |
 do''4 sol' r2 |
@@ -110,7 +111,7 @@ r2 <<
   }
   \tag #'(corno2 corni) \new Voice {
     \tag #'corni \voiceTwo
-    sol'2 | do''1~ | do'' | do''~ |
+    sol'2 | do''1 | do'' | do''~ |
     do''2 sol' | mi'1\fermata |
   }
 >>
@@ -123,7 +124,7 @@ r2 <<
   }
   \tag #'(corno2 corni) \new Voice {
     \tag #'corni \voiceTwo
-    sol'2 | do''1~ | do'' | do''~ |
+    sol'2 | do''1 | do'' | do''~ |
     do''2 sol' |
   }
 >> <>\p
@@ -142,7 +143,7 @@ r2 <<
     \tag #'corni \voiceTwo
     do'4 do'8. do'16 do'4 do' | do'1~ |
     do'4 sol' mi' do' | sol1 |
-    s4 do'8 do' do'4 do' | do'1~ |
+    s4 do'8. do'16 do'4 do' | do'1~ |
     do'4 sol' mi' do' | sol1 |
     do'~ | do'~ | do'~ | do'~ | do'~ | do' |
     do'2 do' | do'

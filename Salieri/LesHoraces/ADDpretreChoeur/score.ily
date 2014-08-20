@@ -6,7 +6,8 @@
         shortInstrumentName = "Cor."
         \consists "Metronome_mark_engraver"
         \consists "Mark_engraver"
-      } << \keepWithTag #'() \global
+      } <<
+        \keepWithTag #'() \global
         \keepWithTag #'corni \includeNotes "corni"
       >>
       \new Staff \with { \oboiInstr } <<
@@ -35,7 +36,7 @@
     } \withLyrics <<
       \global \includeNotes "pretre"
     >> \keepWithTag #'pretre \includeLyrics "paroles"
-    \new ChoirStaff \with { \choeurInstr } <<
+    \new ChoirStaff \with { \haraKiriFirst \choeurInstr } <<
       \new Staff \withLyrics <<
         \global \includeNotes "vsoprano"
       >> \keepWithTag #'vsoprano \includeLyrics "paroles"
@@ -56,6 +57,7 @@
         \consists "Mark_engraver"
       } <<
         \global \keepWithTag #'basso \includeNotes "bassi"
+        \modVersion { s8 s1*8\break }
         \origLayout {
           s8 s1*2\pageBreak
           s1*3\pageBreak s1*3\pageBreak

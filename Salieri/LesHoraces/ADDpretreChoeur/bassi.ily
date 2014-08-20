@@ -96,7 +96,7 @@ do |
     mi4\mf mi mi mi |
     mi mi mi mi |
     fa fa\cresc fa fa |
-    fa4 fa sib,4. sib,8 |
+    fa4 fa sib,4. sib,8\! |
   }
 >>
 mib2\ff mib' |
@@ -110,12 +110,12 @@ do' lab |
     \rt#4 sib8 \rt#4 sib |
     \rt#4 sib8 \rt#4 sib |
     do1\fermata |
-    mi4 mi mi mi |
+    mi4-\sug\mf mi mi mi |
     mi mi mi mi |
     fa fa\cresc fa fa |
     fa4 fa
   }
->> sib,4. sib,8 |
+>> sib,4. sib,8\! |
 mib2\ff mib' |
 do' lab |
 <<
@@ -145,7 +145,7 @@ mib4 r r2 |
     r2 r4 <<
       \tag #'(fagotto1 fagotti) \new Voice {
         \tag #'fagotti \voiceOne
-        sol'8. fa'16 | fa'1 | sib2
+        sol'8. fa'16 | fa'1 | sol2
       }
       \tag #'(fagotto2 fagotti) \new Voice {
         \tag #'fagotti \voiceTwo

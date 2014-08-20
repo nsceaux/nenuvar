@@ -11,8 +11,8 @@ sib'2-\sug\ff fa'4 re' |
 sib2 sib8 do'16 re' mib' fa' sol' la' |
 sib'16 fa'-\sug\p fa' fa' \rt#4 fa' \rt#4 fa' \rt#4 fa' |
 <>-\sug\fp \rt#4 fa' \rt#8 sib' \rt#4 sib |
-fa'16 <do' lab'> q q \rt#4 q \rt#8 q |
-<< { s4 s-\sug\p } { \rt#8 q16 } >> \rt#8 q |
+fa'16 <do' la'?> <do' la'> q \rt#4 q \rt#8 q |
+<< { s4 s-\sug\p } { \rt#8 <do' la'?>16 } >> \rt#8 <do' la'> |
 \rt#8 <do' mib'> \rt#8 <sib re'> |
 \rt#16 <la fa'> |
 \rt#16 <la fa'> |
@@ -44,30 +44,30 @@ do'8-\sug\p do'4 do' do' do'8~ |
 do' do'4 do' do' do'8~ |
 do' do'4 do'-\sug\cresc do' do'8~ |
 do' fa'4 fa' fa' fa'8\! |
-mib2 mib' |
+mib2-\sug\f mib' |
 do'2 lab |
 sib4 sib sib sib |
 sib sib sib sib |
-\rt#8 <mib sib>16 \rt#8 q |
+<>-\sug\ff \rt#8 <mib sib>16 \rt#8 q |
 \rt#8 q \rt#8 q |
 \rt#8 q \rt#8 q |
 \rt#8 q \rt#8 q |
 \rt#8 <mib do'> \rt#8 q |
 \rt#8 q \rt#8 q |
-sol'8 sol'4 sol' sol' sol'8~ |
+sol'8-\sug\mf sol'4 sol' sol' sol'8~ |
 sol' sol'4 sol' sol' sol'8 |
-fa' fa'4 fa' fa' fa'8~ |
-fa' fa'4 fa' fa' fa'8 |
-mib2 mib' |
+fa' fa'4 fa'-\sug\cresc fa' fa'8~ |
+fa' fa'4 fa' fa' fa'8\! |
+mib2-\sug\ff mib' |
 do' lab |
 sib16 sib' sib' sib' \rt#4 sib' \rt#8 sib' |
 \rt#8 sib' \rt#8 sib' |
 do'1\fermata |
-do''8 do''4 do'' do'' do''8~ |
+do''8-\sug\mf do''4 do'' do'' do''8~ |
 do'' do''4 do'' do'' do''8 |
-do'' do''4 do'' do'' do''8~ |
-do'' do''4 do''8 sib'4. sib'8 |
-mib2 mib' |
+do'' do''4-\sug\cresc do'' do'' do''8~ |
+do'' do''4 do''8 sib'4. sib'8\! |
+mib2-\sug\ff mib' |
 do' lab |
 \rt#8 sib16 \rt#8 sib |
 \rt#8 sib \rt#8 sib |
@@ -91,7 +91,7 @@ R1*2 |
 la1\fp |
 sib4 r r2 |
 re'1\f |
-sib'-\sug\p |
+sib'-\sug\p~ |
 sib'2 sib'~ |
 sib' do''4 r |
 sib2\f sib'4. sib'8 |

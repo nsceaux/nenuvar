@@ -105,7 +105,7 @@ r4 r8 sib' sib'4. sib'8 |
     sol' sol'4 sol' sol' sol'8 |
     lab' lab'4 lab'-\sug\cresc lab' lab'8~ |
     lab' lab'4 lab' lab' lab'8\! |
-    sib'16 <mib'' mib'> q q \rt#4 q \rt#8 q |
+    sib'16-\sug\f <mib'' mib'> q q \rt#4 q \rt#8 q |
     \rt#8 q \rt#8 q |
   }
 >>
@@ -133,11 +133,11 @@ mib''16\ff <mib' sol> q q \rt#4 q \rt#8 q |
   \tag #'violino2 {
     \rt#8 <lab mib'>16 \rt#8 q |
     \rt#8 q \rt#8 q |
-    do''8 do''4 do'' do'' do''8~ |
+    do''8-\sug\mf do''4 do'' do'' do''8~ |
     do'' do''4 do'' do'' do''8~ |
-    do'' do''4 do'' do'' do''8~ |
-    do''8 do''4 do''8 re''4. re''8 |
-    \rt#8 <mib'' mib'>16 \rt#8 q |
+    do'' do''4 do''-\sug\cresc do'' do''8~ |
+    do''8 do''4 do''8 re''4. re''8\! |
+    <>-\sug\ff \rt#8 <mib'' mib'>16 \rt#8 q |
     \rt#8 q \rt#8 q |
   }
 >>
@@ -154,7 +154,7 @@ mib''16\ff <mib' sol> q q \rt#4 q \rt#8 q |
     do'''8\mf do'''4 do''' do''' do'''8~ |
     do''' do'''4 do''' do''' do'''8 |
     do''' do'''4\cresc do''' do''' do'''8~ |
-    do'''8 do'''4 do'''8 re'''4. re'''8 |
+    do'''8 do'''4 do'''8 re'''4. re'''8\! |
     <>\ff <<
       { \rt#8 mib'''16 \rt#8 mib''' |
         \rt#8 mib''' \rt#8 mib''' |
@@ -176,7 +176,7 @@ mib''16\ff <mib' sol> q q \rt#4 q \rt#8 q |
     fa'4( sib'2\sf re'4) |
     sol'2 lab'4. sol'8 |
     sol'2 fa'4.\sf mib'8 |
-    mib'2 lab'4. lab'8 |
+    mib'2 lab'4. sol'8 |
     sol'2 fa'4.(\sf mib'8) |
     mib'1~ |
     mib' |
@@ -193,11 +193,11 @@ mib''16\ff <mib' sol> q q \rt#4 q \rt#8 q |
     mib''4 r r2 |
   }
   \tag #'violino2 {
-    sol''8 sol''4 sol'' sol'' sol''8~ |
+    sol''8-\sug\mf sol''4 sol'' sol'' sol''8~ |
     sol'' sol''4 sol'' sol'' sol''8 |
-    lab'' lab''4 lab'' lab'' lab''8~ |
-    lab'' lab''4 lab'' lab'' lab''8 |
-    \rt#8 sol''16 \rt#8 sol'' |
+    lab'' lab''4-\sug\cresc lab'' lab'' lab''8~ |
+    lab'' lab''4 lab'' lab'' lab''8\! |
+    <>-\sug\ff \rt#8 sol''16 \rt#8 sol'' |
     \rt#8 lab'' \rt#8 do''' |
     <<
       { \rt#8 sol'' \rt#8 sol'' |
@@ -206,11 +206,11 @@ mib''16\ff <mib' sol> q q \rt#4 q \rt#8 q |
         \rt#8 mib'' \rt#8 re'' | }
     >>
     mib''4 r r2 |
-    do'2.( sib8) lab |
+    do'2.-\sug\p( sib8) lab |
     sol2. mib'8. re'16 |
     re'2. re'4 |
     mib' r r2 |
-    do'2.( sib8) lab |
+    do'2.-\sug\p( sib8) lab |
     sol2. mib'8 re' |
     re'2. lab4 |
     mib'1~ |
@@ -228,7 +228,7 @@ mib''16\ff <mib' sol> q q \rt#4 q \rt#8 q |
     re''\p~ |
     re''2 mib''~ |
     mib'' mib''4 r |
-    re''2 re''4. re''8 |
+    re''2\f re''4. re''8 |
     mib''4 r r2 |
   }
 >>

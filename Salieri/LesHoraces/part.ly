@@ -106,3 +106,8 @@
 % 1-15
 \pieceTocTitle "Marche"
 \includeScore "ADCmarche"
+% 1-16
+\pieceToc\markup\wordwrap {
+  Le Grand Prêtre, chœur : \italic { O Rome ! ô ma patrie ! }
+}
+\includeScore "ADDpretreChoeur"

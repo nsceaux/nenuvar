@@ -54,10 +54,10 @@ R1^\fermataMarkup |
 R1*24 |
 sib2 r4 sib |
 sol2 sol8 r r do' |
-la4^! r8 fa fa sol la8. sib16 |
+la4^! r8 fa fa sol la!8. sib16 |
 fa4^! r8 sib16 sib sib4 do'8 re' |
 la4^! r8 la16 sib do'4 la8 sib |
-sol8^! sol r16 sib sib do' lab4^! r8 fa |
+sol8^! sol r16 sib sib do' lab!4^! r8 fa |
 lab8 lab lab sib sol4^! r8 sib |
 sib sib do' reb' do'4^! r8 do'16 do' |
 fa2^! sib4. sib8 |
