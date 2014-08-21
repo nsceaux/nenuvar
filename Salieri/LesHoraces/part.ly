@@ -111,3 +111,6 @@
   Le Grand Prêtre, chœur : \italic { O Rome ! ô ma patrie ! }
 }
 \includeScore "ADDpretreChoeur"
+% 1-17
+\pieceToc\markup { [Sinfonia] }
+\includeScore "ADEsinfonia"
