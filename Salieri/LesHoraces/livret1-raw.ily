@@ -331,12 +331,14 @@
 %# Sur le grand choix que Rome attend de vous,
 %# Je vous promets des Dieux l'assistance suprême.
 \null
+\livretRef #'ADEsinfonia
 \livretDidasPPage\justify {
   Le Roi, les Prêtres, les Chefs de l’armée, le Sénat
   se retirent sur une marche regulière & sont supposés
   aller dans la Salle du Capitole, destinée aux assemblées
   du Sénat.
 }
+\livretRef #'ADFchoeur
 \livretPers LE PEUPLE
 %# O Dieux, défenseurs de nos loix
 %# Inspirez le Sénat & parlez par sa voix!

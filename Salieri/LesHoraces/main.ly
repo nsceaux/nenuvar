@@ -175,6 +175,18 @@
   }
   \includeScore "ADDpretreChoeur"
 }
+% 1-17
+\bookpart {
+  \pieceToc\markup "[Sinfonia]"
+  \includeScore "ADEsinfonia"
+}
+% 1-18
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Chœur : \italic { O Dieux, défenseurs de nos loix }
+  }
+  \includeScore "ADFchoeur"
+}
 
 %% Livret
 \bookpart {

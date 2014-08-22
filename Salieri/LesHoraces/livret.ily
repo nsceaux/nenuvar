@@ -333,12 +333,14 @@
 \livretVerse#10 { Sur le grand choix que Rome attend de vous, }
 \livretVerse#12 { Je vous promets des Dieux l’assistance suprême. }
 \null
+\livretRef #'ADEsinfonia
 \livretDidasPPage\justify {
   Le Roi, les Prêtres, les Chefs de l’armée, le Sénat
   se retirent sur une marche regulière & sont supposés
   aller dans la Salle du Capitole, destinée aux assemblées
   du Sénat.
 }
+\livretRef #'ADFchoeur
 \livretPers LE PEUPLE
 \livretVerse#8 { O Dieux, défenseurs de nos loix }
 \livretVerse#12 { Inspirez le Sénat & parlez par sa voix ! }

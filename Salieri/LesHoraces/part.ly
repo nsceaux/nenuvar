@@ -114,3 +114,8 @@
 % 1-17
 \pieceToc\markup { [Sinfonia] }
 \includeScore "ADEsinfonia"
+% 1-18
+\pieceToc\markup\wordwrap {
+  Chœur : \italic { O Dieux, défenseurs de nos loix }
+}
+\includeScore "ADFchoeur"
