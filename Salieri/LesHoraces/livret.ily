@@ -377,6 +377,7 @@
 \livretPers ENSEMBLE
 \livretVerse#8 { Douce paix, transports pleins de charmes, }
 \livretVerse#8 { Ah ! puissiez-vous durer toujours ! }
+\livretRef #'BBAchoeur
 \livretPers\line { CHŒUR \smaller\italic { derrière le Théatre } }
 \livretVerse#8 { Vive à jamais le nom d’Horace }
 \livretPers HORACE
@@ -394,7 +395,7 @@
 \livretPers LE VIEIL HORACE
 \livretVerse#12 { Tes deux frères & toi partagent ce bonheur. }
 \livretPers HORACE
-\livretVerse#13 { A ce suprême honneur eussions-nous pu prétendre ? }
+\livretVerse#12 { A ce suprême honneur eussions-nous pu prétendre ? }
 \livretPers LES CHEVALIERS
 \livretVerse#12 { Les Dieux ont fait ce choix : seuls ils l’ont pu dicter. }
 \livretPers LE VIEIL HORACE
