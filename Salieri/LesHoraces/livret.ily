@@ -370,6 +370,7 @@
 \livretVerse#9 { A pu former une union si belle ? }
 \livretPers HORACE
 \livretVerse#12 { Que ce Dieu bienfaisant en bénisse le cours ! }
+\livretRef #'BABcacujh
 \livretPers CAMILLE
 \livretVerse#12 { Qui l’eût dit, que ce jour, marqué par tant d’alarmes, }
 \livretVerse#8 { Seroit le plus beau de mes jours ! }

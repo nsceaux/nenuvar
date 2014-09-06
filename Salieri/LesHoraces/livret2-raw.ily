@@ -22,6 +22,7 @@
 %# A pu former une union si belle?
 \livretPers HORACE
 %# Que ce Dieu bienfaisant en bénisse le cours!
+\livretRef #'BABcacujh
 \livretPers CAMILLE
 %# Qui l'eût dit, que ce jour, marqué par tant d'alarmes,
 %# Seroit le plus beau de mes jours!
