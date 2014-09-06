@@ -119,3 +119,15 @@
   Chœur : \italic { O Dieux, défenseurs de nos loix }
 }
 \includeScore "ADFchoeur"
+
+%%%%%%%%%%%%%%% ACTE II %%%%%%%%%%%%%%%%%%
+\newBookPart #'()
+\act "Acte Deuxième"
+\scene "Scène Première" "Scène I"
+% 2-1
+\pieceToc\markup\wordwrap {
+  Camille, Curiace, le jeune Horace :
+  \italic { Ainsi le Ciel pour jamais nous rassemble }
+}
+\includeScore "BAAcacujh"
+

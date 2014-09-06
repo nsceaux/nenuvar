@@ -6,6 +6,7 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Camille, Curiace, } le jeune \smallCaps Horace.
 }
+\livretRef #'BAAcacujh
 \livretPers CAMILLE
 %# Ainsi le Ciel pour jamais nous rassemble!
 \livretPers LE JEUNE HORACE

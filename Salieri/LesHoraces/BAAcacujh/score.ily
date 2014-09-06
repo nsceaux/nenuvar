@@ -11,7 +11,7 @@
           \consists "Mark_engraver"
         } <<
           \keepWithTag #'() \global
-          \keepWithTag #'corni \includeNotes "corni"
+          \keepWithTag #'corno1 \includeNotes "corni"
         >>
         \new Staff <<
           \keepWithTag #'() \global
@@ -71,9 +71,10 @@
           s1\break s1*2\pageBreak s2*3\break s1*2\pageBreak
           s1*2\break
         }
+        \modVersion { s16 s2*12 s1*4 s2*4 s1*2\pageBreak }
       >>
       \new Staff \with { \cbInstr \haraKiri } <<
-        { s2*12 s1*4 s2*4 s1*2 \startHaraKiri }
+        { s16 s2*12 s1*4 s2*4 s1*2 \startHaraKiri }
         \global \keepWithTag #'cb \includeNotes "bassi"
       >>
     >>

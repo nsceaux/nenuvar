@@ -188,6 +188,25 @@
   \includeScore "ADFchoeur"
 }
 
+%%%%%%%%%%%%%%% ACTE II %%%%%%%%%%%%%%%%%%
+% 2-1
+\bookpart {
+  \act "Acte Deuxième"
+  \sceneDescription\markup\wordwrap-center {
+    Le Théâtre représente un appartement du Palais d’Horace.
+  }
+  \scene "Scène Première" "Scène I"
+  \sceneDescription\markup\wordwrap-center {
+    \smallCaps { Camille, Curiace, }
+    le jeune \smallCaps Horace.
+  }
+  \pieceToc\markup\wordwrap {
+    Camille, Curiace, le jeune Horace :
+    \italic { Ainsi le Ciel pour jamais nous rassemble }
+  }
+  \includeScore "BAAcacujh"
+}
+
 %% Livret
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
