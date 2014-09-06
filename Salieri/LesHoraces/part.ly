@@ -130,4 +130,8 @@
   \italic { Ainsi le Ciel pour jamais nous rassemble }
 }
 \includeScore "BAAcacujh"
-
+% 2-2
+\pieceToc\markup\wordwrap {
+  Camille, Curiace, le jeune Horace :
+  \italic { Qui l'eût dit, que ce jour, marqué par tant d'alarmes }
+}

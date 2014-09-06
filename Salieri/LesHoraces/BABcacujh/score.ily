@@ -1,24 +1,13 @@
 \score {
   \new StaffGroupNoBar \notemode <<
     \new StaffGroupNoBracket <<
-      \new GrandStaff \with { \oboiInstr } <<
-        \new Staff \with {
-          \consists "Metronome_mark_engraver"
-          \consists "Mark_engraver"
-        } <<
-          \global \keepWithTag #'oboe1 \includeNotes "oboi"
-        >>
-        \new Staff <<
-          \global \keepWithTag #'oboe2 \includeNotes "oboi"
-        >>
-      >>
-      \new GrandStaff \with { \clarinettiInstr } <<
-        \new Staff <<
-          \global \keepWithTag #'clarinetto1 \includeNotes "clarinetti"
-        >>
-        \new Staff <<
-          \global \keepWithTag #'clarinetto2 \includeNotes "clarinetti"
-        >>
+      \new Staff \with {
+        \oboiInstr
+        \consists "Metronome_mark_engraver"
+        \consists "Mark_engraver"
+      } << \global \keepWithTag #'oboi \includeNotes "oboi" >>
+      \new Staff \with { \clarinettiInstr } <<
+        \global \keepWithTag #'clarinetti \includeNotes "clarinetti"
       >>
       \new Staff \with { \fagottiInstr } <<
         \global \includeNotes "fagotti"

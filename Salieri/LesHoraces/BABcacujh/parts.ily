@@ -1,0 +1,12 @@
+\piecePartSpecs
+#`((oboe1)
+   (oboe2)
+   (clarinetto1)
+   (clarinetto2)
+   (fagotto1 #:notes "fagotti")
+   (fagotto2 #:notes "fagotti")
+   (violino1 #:notes "violino1")
+   (violino2 #:notes "violino2")
+   (alto)
+   (basso)
+   (silence #:on-the-fly-markup , #{ \markup\tacet#34 #}))

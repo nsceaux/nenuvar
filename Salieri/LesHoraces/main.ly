@@ -206,6 +206,15 @@
   }
   \includeScore "BAAcacujh"
 }
+% 2-2
+\bookpart {
+  \paper { systems-per-page = 2 }
+  \pieceToc\markup\wordwrap {
+    Camille, Curiace, le jeune Horace :
+    \italic { Qui l'eût dit, que ce jour, marqué par tant d'alarmes }
+  }
+  \includeScore "BABcacujh"
+}
 
 %% Livret
 \bookpart {

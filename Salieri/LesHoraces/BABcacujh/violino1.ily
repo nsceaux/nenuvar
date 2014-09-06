@@ -14,7 +14,7 @@ fa'' mib''2 re''8 do'' |
 q2 fa''4.\p mib''8 |
 \grace mib''4 re''2\fp do''4 sib' |
 mib'' mib'2 mib''4~ |
-mib''8( re'' re'' la'' la'' fa'' re'' do'')~ |
+mib''8( re'' re'' la'' la'' fad''? re'' do'')~ |
 do''4 sib'2 r8 sib' |
 mi''4\fp sib''2\cresc \grace la''16 sol''8 fa''16 mi'' |
 fa''4 fa''2 fad''4 |

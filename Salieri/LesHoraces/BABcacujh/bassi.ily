@@ -25,7 +25,9 @@ fa2 r |
 r4 fa fa fa |
 sib2 sib, |
 \clef "tenor" <>^"Violoncelli" sol'2 sol'4. fa'8 |
-mib'4 \clef "bass" <>^"Tutti" mib2\f mib4\p |
+mib'4 \clef "bass" <>^"Tutti" mib2\f
+\footnoteHere #'(0 . 0) \markup\wordwrap { Source : \italic mi♭ }
+sib,4\p |
 fa2 fa, |
 sib,1 |
 \clef "tenor" <>^"Violoncelli" sol'2 sol'4. fa'8 |
