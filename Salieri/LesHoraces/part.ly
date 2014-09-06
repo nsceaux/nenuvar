@@ -135,3 +135,11 @@
   Camille, Curiace, le jeune Horace :
   \italic { Douce paix, transports pleins de charmes }
 }
+% 2-3
+\scene "Scène II" "Scène II"
+\pieceToc\markup\wordwrap {
+  Le jeune Horace, le vieil Horace, Camille, chœur :
+  \italic { Vive à jamais le nom d’Horace }
+}
+\includeScore "BBAchoeur"
+

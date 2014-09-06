@@ -215,6 +215,19 @@
   }
   \includeScore "BABcacujh"
 }
+% 2-3
+\bookpart {
+  \scene "Scène II" "Scène II"
+  \sceneDescription\markup\wordwrap-center {
+    Le vieil \smallCaps Horace, Chevaliers Romains,
+    les Précédens.
+  }
+  \pieceToc\markup\wordwrap {
+    Le jeune Horace, le vieil Horace, Camille, chœur :
+    \italic { Vive à jamais le nom d’Horace }
+  }
+  \includeScore "BBAchoeur"
+}
 
 %% Livret
 \bookpart {

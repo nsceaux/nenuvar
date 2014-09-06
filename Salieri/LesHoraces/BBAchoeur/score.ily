@@ -1,14 +1,21 @@
 \score {
   \new StaffGroupNoBar \notemode <<
     \new StaffGroupNoBracket <<
-      \new Staff \with {
+      \new GrandStaff \with {
         instrumentName = \markup\center-column { Corni in mi♭ }
         shortInstrumentName = "Cor."
-        \consists "Metronome_mark_engraver"
-        \consists "Mark_engraver"
       } <<
-        \keepWithTag #'() \global
-        \keepWithTag #'corni \includeNotes "corni"
+        \new Staff \with {
+          \consists "Metronome_mark_engraver"
+          \consists "Mark_engraver"
+        } <<
+          \keepWithTag #'() \global
+          \keepWithTag #'corno1 \includeNotes "corni"
+        >>
+        \new Staff <<
+          \keepWithTag #'() \global
+          \keepWithTag #'corno2 \includeNotes "corni"
+        >>
       >>
       \new GrandStaff \with { \flautiInstr } <<
         \new Staff <<
@@ -18,7 +25,7 @@
           \global \keepWithTag #'flauto2 \includeNotes "flauti"
         >>
       >>
-      \new Staff \with {
+      \new GrandStaff \with {
         instrumentName = \markup\center-column {
           Oboi col Clarinetti
         }
@@ -26,7 +33,8 @@
           Ob. Cl.
         }
       } <<
-        \global \keepWithTag #'oboi \includeNotes "oboi"
+        \new Staff << \global \keepWithTag #'oboe1 \includeNotes "oboi" >>
+        \new Staff << \global \keepWithTag #'oboe2 \includeNotes "oboi" >>
       >>
       \new Staff \with { \fagottiInstr } <<
         \global \keepWithTag #'fagotti \includeNotes "bassi"
