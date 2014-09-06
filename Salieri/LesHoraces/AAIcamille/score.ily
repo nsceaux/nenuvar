@@ -13,7 +13,7 @@
         instrumentName = "Corni en si"
         shortInstrumentName = "Cor."
       } <<
-        \transpose sib do \global
+        \keepWithTag #'() \global
         \keepWithTag #'corni \includeNotes "corni"
       >>
       \new Staff \with { \fagottiInstr } <<

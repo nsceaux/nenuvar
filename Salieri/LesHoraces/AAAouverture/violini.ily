@@ -113,13 +113,13 @@ q2 <<
     r la mi'( dod') |
     r la la'( fad') |
     r la la'( mi') |
-    R1*7 |
+    R1*7 | \allowPageTurn
   }
   \tag #'violino2 {
     sold'2-\sug\sf( |
     la' si') |
     mi'4 r r2 |
-    R1*19 |
+    R1*19 | \allowPageTurn
   }
 >>
 r4 la2\f si8 dod' |
@@ -181,7 +181,7 @@ R1 |
 r2 fad'4.\f fad'8 |
 sol'2.^\markup\italic trille _\mordent fad'8 sol' |
 fad'2 r |
-R1*9 |
+R1*9 | \allowPageTurn
 r2 r4 fad'\p |
 sol'!( mi' si dod') |
 re'2. la8 si16 dod' |

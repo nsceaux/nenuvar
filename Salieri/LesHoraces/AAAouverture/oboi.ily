@@ -180,7 +180,7 @@ R1*5
   >>
   \tag #'oboe2-conducteur R1*25
 >>
-R1*4 |
+R1*4 |  \allowPageTurn
 la'4 la'8 la' la'4 la' |
 re''1 |
 R1*4 |

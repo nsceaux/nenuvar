@@ -180,7 +180,7 @@ mi2 <<
     r2 fad4.\f fad8 |
     sol2.\mordent fad8 sol |
     fad2 r |
-    R1*9 |
+    R1*9 | \allowPageTurn
     r2 r4 fad\p |
     sol( mi si, dod) |
     \repeat unfold 10 \rt#4 re8 |

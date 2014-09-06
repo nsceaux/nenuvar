@@ -7,7 +7,7 @@
         \consists "Metronome_mark_engraver"
       } <<
         \transpose re do \global
-        \keepWithTag #'tromba1 \includeNotes "trombe"
+        \keepWithTag #'trombe \includeNotes "trombe"
       >>
       \new GrandStaff \with { \oboiInstr } <<
         \new Staff <<

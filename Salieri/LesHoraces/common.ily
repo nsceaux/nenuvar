@@ -1,7 +1,7 @@
 \header {
   copyrightYear = "2014"
   composer = "Antonio Salieri"
-  poet = "Nicholas-François Guillard"
+  poet = "Nicolas-François Guillard"
 }
 
 %% LilyPond options:
@@ -187,6 +187,10 @@ bassoInstr = \with {
   instrumentName = "Basso"
   shortInstrumentName = "B."
 }
+violoncelliInstr = \with {
+  instrumentName = "Violoncelli"
+  shortInstrumentName = "Vc."
+}
 cbInstr = \with {
   instrumentName = "Contrabasso"
   shortInstrumentName = "Cb."
@@ -254,4 +258,16 @@ intermede =
   (add-toplevel-markup parser
     (markup #:act (string-upper-case title)))
   (add-no-page-break parser)
+  (make-music 'Music 'void #t))
+
+annexe =
+#(define-music-function (parser location title) (string?)
+  (add-page-break parser)
+  (add-toc-item parser 'tocActMarkup title)
+  (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
+  (*act-title* title)
+  (add-odd-page-header-text
+    parser
+    (format #f "~a" (string-upper-case (*act-title*)))
+    #f)
   (make-music 'Music 'void #t))

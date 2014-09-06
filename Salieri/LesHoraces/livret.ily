@@ -249,7 +249,7 @@
 \livretPers\line { LE VIEIL HORACE, LE JEUNE HORACE }
 \livretVerse#8 { O Ciel sur Rome & ma famille }
 \livretVerse#8 { Verse tes bienfaits en ce jour. }
-\Livretdescatt\wordwrap-center{ DIVERTISSEMENT GÉNÉRAL }
+\livretDescAtt\wordwrap-center{ DIVERTISSEMENT GÉNÉRAL }
 \livretFinAct Fin du premier acte
 \sep
 \livretAct PREMIER INTERMEDE

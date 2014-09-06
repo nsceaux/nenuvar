@@ -93,7 +93,7 @@ R1 |
 r2 r4 lad'\f |
 si' re''2 dod''8 si' |
 si'4 lad' r2 |
-R1*9 |
+R1*9 | \allowPageTurn
 r2 r4 fad'\p |
 sol'( mi' si dod') |
 \repeat unfold 2 \rt#4 re'8 |

@@ -191,6 +191,7 @@
 %% Livret
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }
+  \annexe ""
   \include "Salieri/LesHoraces/livret.ily"
   \pageBreak\markup\null
 }

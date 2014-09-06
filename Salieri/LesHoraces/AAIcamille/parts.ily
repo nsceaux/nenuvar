@@ -1,6 +1,6 @@
 \piecePartSpecs
-#`((corno1)
-   (corno2)
+#`((corno1 #:tag-global () #:instrument "Corno I en si♭")
+   (corno2 #:tag-global () #:instrument "Corno II en si♭")
    (oboe1)
    (oboe2)
    (fagotto1 #:notes "fagotti")
