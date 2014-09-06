@@ -116,7 +116,7 @@ modAlternatives =
 #(define-music-function (parser location first second) (ly:music? ly:music?)
    #{ \set Score.repeatCommands = #'((volta "1."))
       $first
-      \bar ":|"
+      \bar ":|."
       \set Score.repeatCommands = #'((volta #f) (volta "2."))
       $second
       \set Score.repeatCommands = #'((volta #f)) #})
