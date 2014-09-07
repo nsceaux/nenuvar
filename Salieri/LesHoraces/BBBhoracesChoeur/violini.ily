@@ -26,8 +26,8 @@ sol'8 r16 re'' sol''16. sol''32 re''16. re''32 si'16. si'32 sol'16. sol'32 |
     si'
   }
   \tag #'violino2 {
-    si'16 \trill <si' sol''>32 q q16 q q4 <re' la' fad''> |
-    <re' si' sol''>16 sol' fad' sol' la' sol' fad' sol' \rt#4 mi'16 \rt#4 fad' |
+    si'16 <si' sol''>32 q q16 q q4 <re' la' fad''> |
+    <re' si' sol''>16-\sug\fp sol' fad' sol' la' sol' fad' sol' \rt#4 mi'16 \rt#4 fad' |
     sol'
   }
 >> re' mi' fad' sol' la' si' do'' re'' si' sol' si' re'' si' re'' si' |
@@ -39,14 +39,14 @@ mi'' do'' si' do'' re'' do'' si' do'' si' sol' la' si' do'' sol' mi' do' |
 si\ff sol la si do' re' mi' fad' sol' la' si' do'' re'' mi'' fa''! sol'' |
 <<
   \tag #'violino1 {
-    mi'16 do'' si' do'' re'' do'' si' do'' fa'' fa'' mi'' fa'' sol'' fa'' mi'' fa''
-    mi'' sol' la' si'
+    mi'16 do'' si' do'' re'' do'' si' do'' fa'' fa'' mi'' fa'' sol'' fa'' mi'' fa'' |
+    mi''
   }
   \tag #'violino2 {
     \rt#8 mi'16 \rt#4 la' \rt#4 si' |
-    \rt#4 do''
+    do''
   }
->> do''16 re'' mi'' fa'' sol'' mi'' do'' mi'' sol'' mi'' sol'' mi'' |
+>> sol'16 la' si' do'' re'' mi'' fa'' sol'' mi'' do'' mi'' sol'' mi'' sol'' mi'' |
 fa'' re'' mi'' fa'' sol'' la'' si'' do''' re''' do''' si'' la'' sol'' fa'' mi'' re'' |
 do'' do'' si' do'' sol' do'' mi' sol' do' do'' si' do'' sol' do'' mi' sol' |
 <<
@@ -57,9 +57,9 @@ do'' do'' si' do'' sol' do'' mi' sol' do' do'' si' do'' sol' do'' mi' sol' |
     fa'8
   }
   \tag #'violino2 {
-    do'16 mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' |
+    do'16-\sug\p mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' |
     sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' |
-    do' fa' la' fa' la' fa' la' fa' la' fa' la' fa' la' fa' la' fa' |
+    do'-\sug\f fa' la' fa' la' fa' la' fa' la' fa' la' fa' la' fa' la' fa' |
     <fa' la>8
   }
 >>
@@ -76,25 +76,25 @@ do'' do'' si' do'' sol' do'' mi' sol' do' do'' si' do'' sol' do'' mi' sol' |
       { re''16 re''16 re''8 re'' }
     >>
     la''16 re'' si'' re'' do''' re'' re''' re'' |
-    si''8
+    si''8\ff
   }
   \tag #'violino2 {
     sol''16 sol'' sol''8 sol'' |
     r8 << { fa''16 fa'' fa''8 re'' }
       \\ { la'16 la' la'8 re'' } >> re'2~ |
-    re'8
+    re'8-\sug\ff
   }
->> sol8\ff sol sol sol16 la si do' re' mi' fa' sol' |
+>> sol8 sol sol sol16 la si do' re' mi' fa'! sol' |
 mi' do'' si' do'' re'' do'' si' do'' <<
   \tag #'violino1 {
     fa'' fa'' mi'' fa'' sol'' fa'' mi'' fa'' |
-    mi'' sol' la' si'
+    mi''
   }
   \tag #'violino2 {
     \rt#4 la'16 \rt#4 si' |
-    \rt#4 do''
+    do''
   }
->> do'' re'' mi'' fa'' sol'' mi'' do'' mi'' sol'' mi'' sol'' mi'' |
+>> sol'16 la' si' do'' re'' mi'' fa'' sol'' mi'' do'' mi'' sol'' mi'' sol'' mi'' |
 fa'' re'' mi'' fa'' sol'' la'' si'' do''' re''' do''' si'' la'' sol'' fa'' mi'' re'' |
 do'' do'' si' do'' sol' do'' mi' sol' do'4 r |
 sol16 sol' fad' sol' re' sol' si re' sol4 r |

@@ -3,37 +3,37 @@ re'16 sol32 sol sol16. sol32 sol8. sol'16 sol'8. sol'16 |
 sol'8 do'4 la'16. fa'32 re'8 <sol re' si'> |
 <sol mi' do''>4. sol'16. sol'32 mi'16 do' mi' sol' |
 do'8. do16 do4 r |
-<sol mi'>8 r q r q r |
+<sol mi'>8-\sug\p r q r q r |
 re' r <la fad'> r q r |
 q r q r q r |
 <si sol'> r <si re'> r q r |
 <sol re'> r q r q r |
-<sol mi' do''>8. do16 do''16. do''32 si'16. si'32 la'16. la'32 sol'16. sol'32 |
-fad'16 re'32 re' re'16 re' re'4 r |
+<sol mi' do''>8.-\sug\f do16 do''16. do''32 si'16. si'32 la'16. la'32 sol'16. sol'32 |
+fad'16 re'32 re' re'16 re' re'4 r | <>-\sug\p
 <<
   { fad'2. | sol' | mi' | fad'~ | fad' | sol'8. } \\
-  { la2. | la | la | la~ | la | si8. }
+  { la2. | la | la | la~ | la | si8.-\sug\f }
 >> re'16 sol'8. re'16 si8. sol16 |
 re' sol'32 si' re''16 re'' re''4 re' |
-sol8 sol' sol' sol' \rt#4 sol' |
+sol8-\sug\fp sol' sol' sol' \rt#4 sol' |
 \rt#4 sol \rt#4 re' |
 fad'8 fad' fad' sol' \rt#4 re' |
-re'4 r r16 sol' fad' sol' re' sol' si re' |
+re'4-\sug\f r r16 sol' fad' sol' re' sol' si re' |
 sol8 la16 si do' re' mi' fad' sol'8 sol sol sol |
 fad2 fa |
 mi si |
 do'16 mi' re' mi' fa' mi' re' mi' fa'4 mi' |
-re' r sol16 la si do' re' mi' fa' sol' |
+re' r sol16-\sug\ff la si do' re' mi' fa'! sol' |
 mi'2 la4 si |
 do'8 mi' mi' mi' \rt#4 mi' |
 << re'2. \\ sol >> si4 |
 do'16 do' si do' sol do' mi sol do do'' si' do'' sol' do'' mi' sol' |
-do' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' |
+do'-\sug\p mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' |
 sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' sol' mi' |
-do' fa' la' fa' la' fa' la' fa' la' fa' la' fa' la' fa' la' fa' |
+do'-\sug\f fa' la' fa' la' fa' la' fa' la' fa' la' fa' la' fa' la' fa' |
 do'8 fa'16 fa' fa'8 fa' r mi'16 mi' mi'8 mi' |
 re'4. re8 fad4.\trill mi16 fad |
-sol8 sol sol sol sol16 la si do' re' mi' fa'! sol' |
+sol8-\sug\ff sol sol sol sol16 la si do' re' mi' fa'! sol' |
 mi'2 la4 si |
 do'8 sol mi' mi' \rt#4 mi' |
 << re'2. \\ sol >> si4 |

@@ -1,0 +1,13 @@
+\piecePartSpecs
+#`((tromba1 #:tag-global () #:instrument "Tromba I en do")
+   (tromba2 #:tag-global () #:instrument "Tromba II en do")
+   (oboe1)
+   (oboe2)
+   (fagotto1)
+   (fagotto2)
+   (violino1)
+   (violino2)
+   (alto)
+   (basso #:instrument "Basso")
+   (timpani)
+   (silence #:on-the-fly-markup , #{ \markup\tacet#56 #}))

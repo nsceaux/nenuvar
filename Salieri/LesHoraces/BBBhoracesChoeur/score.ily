@@ -1,17 +1,32 @@
 \score {
   \new StaffGroupNoBar \notemode <<
     \new StaffGroupNoBracket <<
-      \new Staff \with {
+      \new GrandStaff \with {
         instrumentName = \markup\center-column { Trombe [en do] }
         shortInstrumentName = "Tr."
-        \consists "Metronome_mark_engraver"
-        \consists "Mark_engraver"
       } <<
-        \keepWithTag #'() \global
-        \keepWithTag #'trombe \includeNotes "trombe"
+        \new Staff \with {
+          \consists "Metronome_mark_engraver"
+          \consists "Mark_engraver"
+        } <<
+          \keepWithTag #'() \global
+          \keepWithTag #'tromba1 \includeNotes "trombe"
+        >>
+        \new Staff <<
+          \keepWithTag #'() \global
+          \keepWithTag #'tromba2 \includeNotes "trombe"
+        >>
       >>
-      \new Staff \with { \oboiInstr } <<
-        \global \keepWithTag #'oboi \includeNotes "oboi"
+      \new GrandStaff \with { \oboiInstr } <<
+        \new Staff <<
+          \global \keepWithTag #'oboe1 \includeNotes "oboi"
+        >>
+        \new Staff <<
+          \global \keepWithTag #'oboe2 \includeNotes "oboi"
+        >>
+      >>
+      \new Staff \with { \fagottiInstr } <<
+        \global \keepWithTag #'fagotti \includeNotes "bassi"
       >>
     >>
     \new StaffGroupNoBracket <<
@@ -34,7 +49,7 @@
         \global \includeNotes "vhorace"
       >> \keepWithTag #'vhorace \includeLyrics "paroles"
     >>
-    \new ChoirStaff \with { \choeurInstr \haraKiriFirst } <<
+    \new ChoirStaff \with { \choeurInstr } <<
       \new Staff \withLyrics <<
         { s2.*19 s1*8\noHaraKiri }
         \global \includeNotes "vhaute-contre"
@@ -54,7 +69,7 @@
         \consists "Metronome_mark_engraver"
         \consists "Mark_engraver"
       } <<
-        \global \includeNotes "bassi"
+        \global \keepWithTag #'basso \includeNotes "bassi"
         \origLayout {
           s2.*4\break s2.*5\pageBreak
           s2.*2\break s2.*3\pageBreak s2.*3\break s2.*2 s1 \pageBreak s1*3\pageBreak

@@ -134,7 +134,7 @@ sol'4 r <>\ff
     \tag #'trombe \voiceTwo
     sol'8 sol'16 sol' sol'8 sol' |
     do'' sol' mi' sol' do'' re'' mi'' do'' |
-    sol'
+    sol'4
   }
 >> r4 <<
   \tag #'(tromba1 trombe) \new Voice {

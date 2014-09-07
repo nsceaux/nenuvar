@@ -142,4 +142,10 @@
   \italic { Vive à jamais le nom d’Horace }
 }
 \includeScore "BBAchoeur"
-
+\partNoPageTurn #'(violino1 violino2 alto basso fagotto1 fagotto2)
+% 2-4
+\pieceToc\markup\wordwrap {
+  Le jeune Horace, le vieil Horace, chœur :
+  \italic { Dieux protecteurs du Tibre }
+}
+\includeScore "BBBhoracesChoeur"

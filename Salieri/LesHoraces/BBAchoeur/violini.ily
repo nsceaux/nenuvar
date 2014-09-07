@@ -100,4 +100,4 @@ r8 r16 <<
     \rt#4 <re' si'> \rt#4 q |
   }
 >>
-\custosNote <sol mi' do''>8 \stopStaff
+\stopStaff

@@ -12,7 +12,7 @@ r16
 <<
   \tag #'(oboe1 oboi) \new Voice {
     \tag #'oboi \voiceOne
-    sol''16 \grace la''32 sol''16 fa''32 sol'' la''8. la'16 si'8. si'16 |
+    sol''16 \grace la''16 sol''16 fa''32 sol'' la''8. la'16 si'8. si'16 |
     do''4
   }
   \tag #'(oboe2 oboi) \new Voice {
@@ -45,7 +45,7 @@ fad'16 re'32 re' re'16 re' re'4 r |
 <>\p <<
   \tag #'(oboe1 oboi) \new Voice {
     \tag #'oboi \voiceOne
-    fa''2. | sol''~ | sol'' | fad'' |
+    fad''?2. | sol''~ | sol'' | fad'' |
     la''2 do''4 | si'8. re''16
   }
   \tag #'(oboe2 oboi) \new Voice {

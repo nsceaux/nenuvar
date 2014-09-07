@@ -34,4 +34,4 @@ r8 r16 sol' sol'4 r2 |
 \rt#4 la \rt#4 la' |
 \rt#4 sol'! \rt#4 sol' |
 \rt#4 sol' \rt#4 sol' |
-\custosNote do'8 \stopStaff
+\stopStaff

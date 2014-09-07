@@ -63,4 +63,4 @@ mib2 r |
 \rt#4 la, \rt#4 la |
 \rt#4 sol! \rt#4 sol |
 \rt#4 sol \rt#4 sol |
-\custosNote do8 \stopStaff
+\stopStaff

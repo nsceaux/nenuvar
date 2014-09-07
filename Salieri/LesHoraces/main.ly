@@ -228,6 +228,14 @@
   }
   \includeScore "BBAchoeur"
 }
+% 2-4
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Le jeune Horace, le vieil Horace, chœur :
+    \italic { Dieux protecteurs du Tibre }
+  }
+  \includeScore "BBBhoracesChoeur"
+}
 
 %% Livret
 \bookpart {
