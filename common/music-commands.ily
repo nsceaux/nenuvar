@@ -226,6 +226,30 @@ smallNotes =
   \revert Voice.AccidentalCautionary.font-size
   #})
 
+sugNotes =
+#(define-music-function (parser location music) (ly:music?)
+  #{
+  \override NoteHead.font-size = #-3
+  \override Flag.font-size = #-3
+  \override Dots.font-size = #-3
+  \override Stem.font-size = #-3
+  \override Stem.length-fraction = #0.8
+  \override Beam.beam-thickness = #0.384
+  \override Beam.length-fraction = #0.8
+  \override Accidental.font-size = #-4
+  \override AccidentalCautionary.font-size = #-4
+  $music
+  \revert NoteHead.font-size
+  \revert Flag.font-size
+  \revert Dots.font-size
+  \revert Stem.font-size
+  \revert Stem.length-fraction
+  \revert Beam.beam-thickness
+  \revert Beam.length-fraction
+  \revert Accidental.font-size
+  \revert AccidentalCautionary.font-size
+  #})
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%
 %%% Custos note heads

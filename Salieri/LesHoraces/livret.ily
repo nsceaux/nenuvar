@@ -476,7 +476,7 @@
 \livretPers LES CHEVALIERS
 \livretVerse#12 { O déplorable choix ! triste & funeste honneur ! }
 \livretPers CAMILLE
-\livretVerse#13 { Ah ! c’est un crime affreux qui doit vous faire horreur. }
+\livretVerse#12 { Ah ! c’est un crime affreux qui doit vous faire horreur. }
 \livretPers HORACE
 \livretVerse#12 { Appellez-vous forfait de servir sa patrie ? }
 \livretPers CAMILLE

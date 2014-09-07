@@ -128,7 +128,7 @@
 \livretPers LES CHEVALIERS
 %# O déplorable choix! triste & funeste *honneur!
 \livretPers CAMILLE
-%# Ah! c'est un crime affreux qui doit vous faire horreur.
+%# Ah! c'est un crime affreux qui doit vous faire *horreur.
 \livretPers HORACE
 %# Appellez-vous forfait de servir sa patrie?
 \livretPers CAMILLE
