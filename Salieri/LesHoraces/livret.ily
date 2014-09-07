@@ -408,9 +408,10 @@
 \livretVerse#12 { Mourant pour son pays, on meurt digne d’envie. }
 \livretPers LES CHEVALIERS
 \livretVerse#8 { Nos vœux ne seront point déçus. }
+\livretRef #'BBBhoracesChoeur
 \livretPers HORACE
 \livretVerse#6 { Dieux, protecteurs du Tibre ! }
-\livretVerse#9 { Tranchez mes jours & sauvez mon pays ! }
+\livretVerse#10 { Tranchez mes jours & sauvez mon pays ! }
 \livretVerse#12 { Je reçois de ma vie un assez digne prix, }
 \livretVerse#12 { Si Rome par ma mort est triomphante & libre. }
 \livretPers LE VIEIL HORACE

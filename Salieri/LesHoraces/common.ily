@@ -55,7 +55,7 @@
                 largeindent)
   short-indent = #(if (symbol? (ly:get-option 'part))
                       0
-                      (* 7 mm))
+                      (* 8 mm))
   ragged-last = ##f
 }
 

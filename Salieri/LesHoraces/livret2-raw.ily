@@ -60,9 +60,10 @@
 %# Mourant pour son pa=ys, on meurt digne d'envie.
 \livretPers LES CHEVALIERS
 %# Nos vœux ne seront point déçus.
+\livretRef #'BBBhoracesChoeur
 \livretPers HORACE
 %# Dieux, protecteurs du Tibre!
-%# Tranchez mes jours & sauvez mon pays!
+%# Tranchez mes jours & sauvez mon pa=ys!
 %# Je reçois de ma vie =un assez digne prix,
 %# Si Rome par ma mort est tri=omphante & libre.
 \livretPers LE VIEIL HORACE
