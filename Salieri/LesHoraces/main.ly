@@ -236,6 +236,30 @@
   }
   \includeScore "BBBhoracesChoeur"
 }
+% 2-5
+\bookpart {
+  \scene "Scène III" "Scène III"
+  \sceneDescription\markup\wordwrap-center {
+    Un envoyé d’Albe, les Précédens.
+  }
+  \pieceToc\markup\wordwrap {
+    Curiace, un Albain, Camille, chœur :
+    \italic { Quels sont les trois guerriers que le choix d’Albe honore }
+  }
+  \includeScore "BCArecit"
+}
+% 2-6
+\bookpart {
+  \scene "Scène IV" "Scène IV"
+  \sceneDescription\markup\wordwrap-center {
+    Les mêmes excepté l’Albain.
+  }
+  \pieceToc\markup\wordwrap {
+    Curiace, le jeune Horace, le vieil Horace, Camille, chœur :
+    \italic { O déplorable choix ! triste & funeste honneur }
+  }
+  \includeScore "BDArecit"
+}
 
 %% Livret
 \bookpart {

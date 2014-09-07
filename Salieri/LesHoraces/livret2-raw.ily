@@ -88,6 +88,7 @@
 \livretDescAtt\wordwrap-center {
   Un envoyé d’Albe, les Précédens.
 }
+\livretRef #'BCArecit
 \livretPers\line { CURIACE \smaller\italic { à l’Albain } }
 %# Quels sont les trois guerriers que le choix d’Albe *honore?
 \livretPers L’ALBAIN
@@ -116,6 +117,7 @@
 \livretDescAtt\wordwrap-center {
   Les mêmes excepté l’Albain.
 }
+\livretRef #'BDArecit
 \livretPers LES CHEVALIERS
 %# O déplorable choix! triste & funeste *honneur!
 \livretPers CURIACE
