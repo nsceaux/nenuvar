@@ -55,6 +55,52 @@ setMusic =
    (ly:parser-define! parser sym music)
    (make-music 'Music 'void #t))
 
+%%% Two voices construct
+twoVoices =
+#(define-music-function (parser location tags music)
+     (list? ly:music?)
+   "Example:
+  \\twoVoices #'(flauto1 flauto2 flauti) <<
+    { music-voice1 }
+    { music-voice2 }
+    { optional-common-music }
+  >>
+=>
+  <<
+    \\tag #'(flauto1 flauti) \\new Voice {
+      \\tag #'flauti \\voiceOne
+      music-voice1
+    }
+    \\tag #'(flauto2 flauti) \\new Voice {
+      \\tag #'flauti \\voiceTwo
+      music-voice2
+    }
+    { optional-common-music }
+  >>
+
+Then, use:
+   \\keepWithTag #'flauto1 <this-music>   for flauto1 alone
+   \\keepWithTag #'flauto2 <this-music>   for flauto2 alone
+   \\keepWithTag #'flauti  <this-music>   for flauto1 & flauto2
+"
+   (let ((tag1 (car tags))
+         (tag2 (cadr tags))
+         (tag-all (caddr tags))
+         (music1 (car (ly:music-property music 'elements)))
+         (music2 (cadr (ly:music-property music 'elements)))
+         (rest-music (make-music
+                      'SimultaneousMusic
+                      'elements (cddr (ly:music-property music 'elements)))))
+     #{ <<
+  \tag #(list tag1 tag-all) \new Voice {
+    \tag #tag-all \voiceOne $music1
+  }
+  \tag #(list tag2 tag-all) \new Voice {
+    \tag #tag-all \voiceTwo $music2
+  }
+  $rest-music
+>> #}))
+
 %% Force clef printing, with full size
 forceFullClef = {
   \set Staff.forceClef = ##t

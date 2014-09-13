@@ -260,6 +260,18 @@
   }
   \includeScore "BDArecit"
 }
+% 2-7
+\bookpart {
+  \paper { systems-per-page = 2 }
+  \scene "Scène V" "Scène V"
+  \sceneDescription\markup\wordwrap-center {
+    \smallCaps { Camille, Curiace. }
+  }
+  \pieceToc\markup\wordwrap {
+    Camille, Curiace : \italic { Iras-tu, Curiace }
+  }
+  \includeScore "BEAcamilleCuriace"
+}
 
 %% Livret
 \bookpart {

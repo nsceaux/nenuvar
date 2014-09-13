@@ -157,6 +157,7 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Camille, Curiace. }
 }
+\livretRef #'BEAcamilleCuriace
 \livretPers CAMILLE
 %#- Iras-tu, Curi=ace!
 \livretPers CURIACE

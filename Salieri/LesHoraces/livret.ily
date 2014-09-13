@@ -505,6 +505,7 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Camille, Curiace. }
 }
+\livretRef #'BEAcamilleCuriace
 \livretPers CAMILLE
 \livretVerse#12 { Iras-tu, Curiace ! }
 \livretPers CURIACE

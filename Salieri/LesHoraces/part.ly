@@ -149,3 +149,27 @@
   \italic { Dieux protecteurs du Tibre }
 }
 \includeScore "BBBhoracesChoeur"
+
+% 2-5
+\scene "Scène III" "Scène III"
+\pieceToc\markup\wordwrap {
+  Curiace, un Albain, Camille, chœur :
+  \italic { Quels sont les trois guerriers que le choix d’Albe honore }
+}
+\includeScore "BCArecit"
+\partNoPageTurn #'(violino1 violino2 alto basso fagotto1 fagotto2)
+
+% 2-6
+\scene "Scène IV" "Scène IV"
+\pieceToc\markup\wordwrap {
+  Curiace, le jeune Horace, le vieil Horace, Camille, chœur :
+  \italic { O déplorable choix ! triste & funeste honneur }
+}
+\includeScore "BDArecit"
+
+% 2-7
+\scene "Scène V" "Scène V"
+\pieceToc\markup\wordwrap {
+  Camille, Curiace : \italic { Iras-tu, Curiace }
+}
+\includeScore "BEAcamilleCuriace"
