@@ -165,11 +165,12 @@
 %# Je n'ai plus que le choix du crime;
 %# Pour moi le malheur est égal,
 %# Et partout, sous mes pas, le sort creuse un abîme.
+\livretRef #'BEBcuriace
 %# Victime de l'amour, victime de l'*honneur,
 %# Il faut trahir Camille, ou trahir ma patrie.
 %# L'un & l'autre est affreux, l'un & l'autre est impie…
 %# Tout mon cœur se révolte, & j'en frémis d'*horreur.
-%# Je sens mas vertu qui chancelle,
+%# Je sens ma vertu qui chancelle,
 %# Ne cherche point à m'attendrir;
 %# C'est l'*honneur même qui m'appelle,
 %# Camille, il lui faut obé=ir.

@@ -513,11 +513,12 @@
 \livretVerse#8 { Je n’ai plus que le choix du crime ; }
 \livretVerse#8 { Pour moi le malheur est égal, }
 \livretVerse#12 { Et partout, sous mes pas, le sort creuse un abîme. }
+\livretRef #'BEBcuriace
 \livretVerse#12 { Victime de l’amour, victime de l’honneur, }
 \livretVerse#12 { Il faut trahir Camille, ou trahir ma patrie. }
 \livretVerse#12 { L’un & l’autre est affreux, l’un & l’autre est impie… }
 \livretVerse#12 { Tout mon cœur se révolte, & j’en frémis d’horreur. }
-\livretVerse#8 { Je sens mas vertu qui chancelle, }
+\livretVerse#8 { Je sens ma vertu qui chancelle, }
 \livretVerse#8 { Ne cherche point à m’attendrir ; }
 \livretVerse#8 { C’est l’honneur même qui m’appelle, }
 \livretVerse#8 { Camille, il lui faut obéir. }
