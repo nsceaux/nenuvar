@@ -10,12 +10,18 @@
         \keepWithTag #'() \global
         \keepWithTag #'trombe \includeNotes "trombe"
       >>
-      \new Staff \with {
+      \new GrandStaff \with {
         instrumentName = \markup\center-column { Corni mi♭ }
         shortInstrumentName = "Cor."
       } <<
-        \keepWithTag #'() \global
-        \keepWithTag #'corni \includeNotes "corni"
+        \new Staff <<
+          \keepWithTag #'() \global
+          \keepWithTag #'corno1 \includeNotes "corni"
+        >>
+        \new Staff <<
+          \keepWithTag #'() \global
+          \keepWithTag #'corno2 \includeNotes "corni"
+        >>
       >>
       \new Staff \with {
         instrumentName = "Flauto solo"

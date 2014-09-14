@@ -173,3 +173,8 @@
   Camille, Curiace : \italic { Iras-tu, Curiace }
 }
 \includeScore "BEAcamilleCuriace"
+% 2-8
+\pieceToc\markup\wordwrap {
+  Curiace : \italic { Victime de l’amour, victime de l’honneur }
+}
+\includeScore "BEBcuriace"

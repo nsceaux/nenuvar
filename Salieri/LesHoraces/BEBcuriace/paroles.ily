@@ -1,4 +1,4 @@
-Vic -- ti -- me de l’a -- mour, __ vic -- ti -- me de l’hon -- neur,
+Vic -- ti -- me de l’a -- mour, vic -- ti -- me de l’hon -- neur,
 Il faut tra -- hir Ca -- mil -- le, ou tra -- hir ma pa -- tri -- e.
 Il faut tra -- hir Ca -- mil -- le, ou tra -- hir ma pa -- tri -- e.
 L’un & l’autre est af -- freux, l’un & l’autre est im -- pi -- e…
