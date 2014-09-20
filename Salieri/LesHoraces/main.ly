@@ -280,6 +280,15 @@
   }
   \includeScore "BEBcuriace"
 }
+% 2-9
+\bookpart {
+  \paper { systems-per-page = 3 }
+  \pieceToc\markup\wordwrap {
+    Camille, Curiace :
+    \italic { Non, je te connois mieux ; non, tu n'es point barbare }
+  }
+  \includeScore "BECcamilleCuriace"
+}
 
 %% Livret
 \bookpart {

@@ -522,6 +522,7 @@
 \livretVerse#8 { Ne cherche point à m’attendrir ; }
 \livretVerse#8 { C’est l’honneur même qui m’appelle, }
 \livretVerse#8 { Camille, il lui faut obéir. }
+\livretRef #'BECcamilleCuriace
 \livretPers CAMILLE
 \livretVerse#12 { Non, je te connois mieux ; non, tu n’es point barbare. }
 \livretVerse#12 { L’amitié, la nature, & l’hymen & l’amour, }

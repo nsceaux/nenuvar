@@ -174,6 +174,7 @@
 %# Ne cherche point à m'attendrir;
 %# C'est l'*honneur même qui m'appelle,
 %# Camille, il lui faut obé=ir.
+\livretRef #'BECcamilleCuriace
 \livretPers CAMILLE
 %# Non, je te connois mieux; non, tu n'es point barbare.
 %# L'amitié, la nature, & l'*hymen & l'amour,
