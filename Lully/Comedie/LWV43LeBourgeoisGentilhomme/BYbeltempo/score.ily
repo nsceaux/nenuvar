@@ -1,23 +1,15 @@
 \score {
   \new StaffGroupNoBar <<
-    \new Staff <<
-      \new Voice = "bas-dessus" \with { autoBeaming = ##f } << 
-        \global \keepWithTag #'vbas-dessus \includeNotes "voix"
-      >>
-      \lyricsto "bas-dessus" \new Lyrics
-      \keepWithTag #'vbas-dessus1 \includeLyrics "paroles"
-      \lyricsto "bas-dessus" \new Lyrics
-      \keepWithTag #'vbas-dessus2 \includeLyrics "paroles"
+    \new Staff \withLyricsB <<
+      \global \keepWithTag #'vbas-dessus \includeNotes "voix"
     >>
-    \new Staff << 
-      \new Voice = "taille" \with { autoBeaming = ##f } << 
-        \global \keepWithTag #'vtaille \includeNotes "voix"
-      >>
-      \lyricsto "taille" \new Lyrics
-      \keepWithTag #'vtaille1 \includeLyrics "paroles"
-      \lyricsto "taille" \new Lyrics
-      \keepWithTag #'vtaille2 \includeLyrics "paroles"
+    \keepWithTag #'vbas-dessus1 \includeLyrics "paroles"
+    \keepWithTag #'vbas-dessus2 \includeLyrics "paroles"
+    \new Staff \withLyricsB << 
+      \global \keepWithTag #'vtaille \includeNotes "voix"
     >>
+    \keepWithTag #'vtaille1 \includeLyrics "paroles"
+    \keepWithTag #'vtaille2 \includeLyrics "paroles"
     \new Staff <<
       \global \includeNotes "basse"
       \origLayout {

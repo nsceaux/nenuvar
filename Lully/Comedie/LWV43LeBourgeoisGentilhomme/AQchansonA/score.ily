@@ -1,23 +1,15 @@
 \score {
   \new ChoirStaff <<
-    \new Staff << 
-      \context Voice = "haute-contre" \with { autoBeaming = ##f } <<
-        \global \includeNotes "voix"
-      >>
-      \lyricsto "haute-contre" \new Lyrics
-      \keepWithTag #'vhaute-contre \includeLyrics "paroles"
-      \lyricsto "haute-contre" \new Lyrics
-      \keepWithTag #'couplet2 \includeLyrics "paroles"
+    \new Staff \withLyricsB <<
+      \global \includeNotes "voix"
     >>
-    \new Staff << 
-      \context Voice = "basse" \with { autoBeaming = ##f } << 
-        \global \includeNotes "voix-basse"
-      >>
-      \lyricsto "basse" \new Lyrics
-      \keepWithTag #'vbasse \includeLyrics "paroles"
-      \lyricsto "basse" \new Lyrics
-      \keepWithTag #'couplet2 \includeLyrics "paroles"
+    \keepWithTag #'vhaute-contre \includeLyrics "paroles"
+    \keepWithTag #'couplet2 \includeLyrics "paroles"
+    \new Staff \withLyricsB << 
+      \global \includeNotes "voix-basse"
     >>
+    \keepWithTag #'vbasse \includeLyrics "paroles"
+    \keepWithTag #'couplet2 \includeLyrics "paroles"
     \new Staff <<
       \global \includeNotes "basse"
       \origLayout {
