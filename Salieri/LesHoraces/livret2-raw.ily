@@ -234,6 +234,7 @@
 %# Camille, ta douleur m'accable:
 %# Laisse ton amant déplorable
 %# Mourir, victime de l'*honneur.
+\livretRef #'BEEcamilleCuriace
 \livretPers CAMILLE
 %# O Ciel! quoi, ma pri=ère est vaine;
 %# Je n'ai plus sur toi de pouvoir!
@@ -243,7 +244,7 @@
 \livretPers CAMILLE
 %# Tu ne te souviens plus que ton cœur est à moi?
 \livretPers CURIACE
-%# J'étois à mon pays avant que d'être à toi.
+%# J'étois à mon pa=ys avant que d'être à toi.
 \livretPers ENSEMBLE
 \livretPers CURIACE
 %# O sort cru=el! devoir barbare

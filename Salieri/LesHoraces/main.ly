@@ -298,6 +298,15 @@
   }
   \includeScore "BEDcamilleCuriace"
 }
+% 2-11
+\bookpart {
+  \paper { systems-per-page = 2 }
+  \pieceToc\markup\wordwrap {
+    Camille, Curiace :
+    \italic { O Ciel ! quoi, ma prière est vaine }
+  }
+  \includeScore "BEEcamilleCuriace"
+}
 
 %% Livret
 \bookpart {

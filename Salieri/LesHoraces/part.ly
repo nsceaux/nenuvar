@@ -189,3 +189,8 @@
   Camille, Curiace : \italic { Par l’amour & par l’amitié }
 }
 \includeScore "BEDcamilleCuriace"
+% 2-11
+\pieceToc\markup\wordwrap {
+  Camille, Curiace : \italic { O Ciel ! quoi, ma prière est vaine }
+}
+\includeScore "BEEcamilleCuriace"

@@ -572,6 +572,7 @@
 \livretDidasPPage\wordwrap {
   (Curiace la relève ; il est attendri, elle continue :)
 }
+\livretRef #'BEDcamilleCuriace
 \livretVerse#8 { Par l’amour & par l’amitié, }
 \livretVerse#8 { Par ce nœud si doux qui nous lie ! }
 \livretVerse#8 { Ne te montre pas sans pitié, }
@@ -581,6 +582,7 @@
 \livretVerse#8 { Camille, ta douleur m’accable : }
 \livretVerse#8 { Laisse ton amant déplorable }
 \livretVerse#8 { Mourir, victime de l’honneur. }
+\livretRef #'BEEcamilleCuriace
 \livretPers CAMILLE
 \livretVerse#8 { O Ciel ! quoi, ma prière est vaine ; }
 \livretVerse#8 { Je n’ai plus sur toi de pouvoir ! }
@@ -590,7 +592,7 @@
 \livretPers CAMILLE
 \livretVerse#12 { Tu ne te souviens plus que ton cœur est à moi ? }
 \livretPers CURIACE
-\livretVerse#11 { J’étois à mon pays avant que d’être à toi. }
+\livretVerse#12 { J’étois à mon pays avant que d’être à toi. }
 \livretPers ENSEMBLE
 \livretPers CURIACE
 \livretVerse#8 { O sort cruel ! devoir barbare }
