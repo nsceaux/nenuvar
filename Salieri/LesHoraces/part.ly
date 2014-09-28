@@ -184,3 +184,8 @@
   \italic { Non, je te connois mieux ; non, tu n'es point barbare }
 }
 \includeScore "BECcamilleCuriace"
+% 2-10
+\pieceToc\markup\wordwrap {
+  Camille, Curiace : \italic { Par l’amour & par l’amitié }
+}
+\includeScore "BEDcamilleCuriace"

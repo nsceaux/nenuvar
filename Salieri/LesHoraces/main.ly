@@ -289,6 +289,15 @@
   }
   \includeScore "BECcamilleCuriace"
 }
+% 2-10
+\bookpart {
+  \paper { systems-per-page = 2 }
+  \pieceToc\markup\wordwrap {
+    Camille, Curiace :
+    \italic { Par l’amour & par l’amitié }
+  }
+  \includeScore "BEDcamilleCuriace"
+}
 
 %% Livret
 \bookpart {

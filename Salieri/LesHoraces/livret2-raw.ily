@@ -224,6 +224,7 @@
 \livretDidasPPage\wordwrap {
   (Curiace la relève ; il est attendri, elle continue :)
 }
+\livretRef #'BEDcamilleCuriace
 %# Par l'amour & par l'amitié,
 %# Par ce nœud si doux qui nous lie!
 %# Ne te montre pas sans pitié,
