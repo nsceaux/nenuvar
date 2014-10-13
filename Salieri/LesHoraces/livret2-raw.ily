@@ -245,6 +245,7 @@
 %# Tu ne te souviens plus que ton cœur est à moi?
 \livretPers CURIACE
 %# J'étois à mon pa=ys avant que d'être à toi.
+\livretRef #'BEFcamilleCuriace
 \livretPers ENSEMBLE
 \livretPers CURIACE
 %# O sort cru=el! devoir barbare

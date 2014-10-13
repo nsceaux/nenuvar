@@ -593,6 +593,7 @@
 \livretVerse#12 { Tu ne te souviens plus que ton cœur est à moi ? }
 \livretPers CURIACE
 \livretVerse#12 { J’étois à mon pays avant que d’être à toi. }
+\livretRef #'BEFcamilleCuriace
 \livretPers ENSEMBLE
 \livretPers CURIACE
 \livretVerse#8 { O sort cruel ! devoir barbare }
