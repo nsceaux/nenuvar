@@ -39,8 +39,8 @@
     R1*6 |
     <>\fp \rt#4 sib,8 \rt#4 sib, |
     <>\cresc \rt#4 sib, \rt#4 sib, |
-    \rt#4 sib, \rt#4 sib, |
-    <>\! mib4
+    <>\! \rt#4 sib, \rt#4 sib, |
+    mib4
   }
 >> mib8. mib16 mib2 |
 lab\f lab, |
@@ -84,7 +84,7 @@ mib' mib fa fa, |
     <>\fp \rt#4 sib,8 \rt#4 sib, |
     \rt#4 mib \rt#4 mib |
     \rt#4 re \rt#4 re |
-    <>\fp \rt#4 mib <>\fp \rt#4 la, |
+    <>\fp \rt#4 mib <>\fp \rt#4 si, |
   }
 >>
 do8\ff do mib sol do' sol mib sol |
@@ -146,7 +146,7 @@ mib' mib fa fa, |
         s sib sib sib |
         s sib sib sib |
         s sib sib sib |
-        sib sib do' la | }
+        sib \once\slurDashed sib( do' la) | }
       { r4 s2.\p | r4 s2. | r4 s2. | r4 s2. | r4 s2. | }
     >>
     sib2 sib |
@@ -160,13 +160,13 @@ mib' mib fa fa, |
         s do' do' do' |
         s reb' reb' reb' |
         s re'! re' re' |
-        re' re'( mib' do') | }
+        re'-. re'( mib' do') | }
       { s4 sib( la sib) |
         s sib sib sib |
         s sib sib sib |
         s sib sib sib |
         s sib sib sib |
-        sib sib do' la | }
+        sib-. sib( do' la) | }
       { r4 s2.\p | r4 s2. | r4 s2. | r4 s2. | r4 s2. | }
     >>
     sib4 r mib'2\p~ |
@@ -176,7 +176,7 @@ mib' mib fa fa, |
     re'4 r \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { re'2 | mib' do' | re'4 }
       { sib2 | do' la | sib4 }
-      { s2\< | s\! }
+      { s2\< | s\! s\p }
     >> r4 mib'2~ |
     mib' fa'4 sol' |
     sol'1 |

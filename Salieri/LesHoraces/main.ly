@@ -307,6 +307,14 @@
   }
   \includeScore "BEEcamilleCuriace"
 }
+% 2-12
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Camille, Curiace :
+    \italic { Cœur insensible, amant barbare }
+  }
+  \includeScore "BEFcamilleCuriace"
+}
 
 %% Livret
 \bookpart {

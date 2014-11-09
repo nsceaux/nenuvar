@@ -7,7 +7,7 @@ fa''4\!\fp fa''2 fa'4 |
 mi' mi'( sol' do'') |
 la'4 <>\cresc \rt#4 la'16 \rt#4 sib' \rt#4 do'' |
 \rt#4 re'' \rt#4 do'' \rt#4 re'' \rt#4 mi'' |
-fa''4 <fa' la>8. q16 q4 q |
+<>\! fa''4 <fa' la>8. q16 q4 q |
 q2. r4 |
 R1*6 |
 <>\fp \rt#4 sib'16 \rt#4 fa' \rt#4 sib' \rt#4 do'' |
@@ -31,7 +31,7 @@ mib'' << { sol''4 fa'' la' } \\ { sib'4 sib' mib' } >> |
 <re' sib'>2. sib'8( lab'') |
 lab''2\fp fa''4 re'' |
 mib''8 r mib''4( re'' do'') |
-sib'( lab''2\fp re''4) |
+sib'\fp( lab''2 re''4) |
 mib''8 r mib''4( re'' do'') |
 si'4 si'2 si'8 lab'' |
 sol''\fp sol''4 sol''\fp sol'' sol''8~ |
@@ -59,7 +59,7 @@ mib'' << { sol''4 fa'' la' } \\ { sib' sib' mib' } >> |
 fa''1~ |
 fa''4 lab''\sf( sol'' fa'') |
 mi''2. mi''4 |
-fa''( mib'') mib''2 |
+fa''( mib''!) mib''2 |
 r4 re''\p( dod'' re'') |
 r4 re'' re'' re'' |
 r do'' do'' do'' |

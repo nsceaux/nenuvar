@@ -194,3 +194,8 @@
   Camille, Curiace : \italic { O Ciel ! quoi, ma prière est vaine }
 }
 \includeScore "BEEcamilleCuriace"
+% 2-12
+\pieceToc\markup\wordwrap {
+  Camille, Curiace : \italic { Cœur insensible, amant barbare }
+}
+\includeScore "BEFcamilleCuriace"

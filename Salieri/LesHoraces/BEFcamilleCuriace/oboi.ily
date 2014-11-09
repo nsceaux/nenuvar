@@ -94,14 +94,14 @@ R1*7 |
     fa''4( mib''!) mib''2 | }
   { re''2. do''4 |
     si'1 |
-    sib'4 reb'' do'' sib' |
+    sib'!4 reb'' do'' sib' |
     la'( do'') do''2 | }
 >>
 R1*10 |
 r2 \twoVoices #'(oboe1 oboe2 oboi) <<
   { re''2 | mib'' do'' | sib'4 }
   { sib'2 | do'' la' | sib'4 }
-  { s2\< | s\! }
+  { s2\< | s\! s\p }
 >> r4 r2 |
 R1*3 |
 r2 \twoVoices #'(oboe1 oboe2 oboi) <<

@@ -23,7 +23,7 @@ r2\fermata r4
     sib'( do'' reb'' mib'') |
     fa''2.\fp reb''8 sib' |
     \grace sib'4 la'2 la'4 la' |
-    la'2. mib''4 |
+    la'2 mib'' |
     r4 reb'' r solb'' |
     r fa'' r do'' |
     sib'4 do'' reb'' mib'' |
@@ -31,7 +31,7 @@ r2\fermata r4
     \grace sib'4 la'2 la' | }
   { r4 |
     R1 |
-    fa'1 |
+    fa'1-\sug\fp |
     solb' |
     solb'2 fa' |
     r4 sib' r mib'' |
@@ -71,7 +71,7 @@ r2 <>\p \twoVoices #'(clarinetto1 clarinetto2 clarinetti) <<
     la''4( sol'' fa'' mi'') |
     fa''1~ |
     fa''~ |
-    fa''4 r sol''2 |
+    fa''4 r sol''2~ |
     sol'' la''4 sib'' |
     sib''1 |
     la''4 sol'' fa'' mi'' |
@@ -87,8 +87,8 @@ r2 <>\p \twoVoices #'(clarinetto1 clarinetto2 clarinetti) <<
     sib'1 |
     la'4( sol' fa' mi') |
     fa'1~ |
-    fa'~ |
-    fa'4 r sol'2~ |
+    fa' |
+    sib'4 r sol'2~ |
     sol' la'4 sib' |
     sib'1 |
     la'4 sol' fa' mi' |

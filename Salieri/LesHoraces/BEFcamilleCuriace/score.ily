@@ -25,8 +25,9 @@
           \global \keepWithTag #'clarinetto2 \includeNotes "clarinetti"
         >>
       >>
-      \new Staff \with { \oboiInstr } <<
-        \global \keepWithTag #'oboi \includeNotes "oboi"
+      \new GrandStaff \with { \oboiInstr } <<
+        \new Staff << \global \keepWithTag #'oboe1 \includeNotes "oboi" >>
+        \new Staff << \global \keepWithTag #'oboe2 \includeNotes "oboi" >>
       >>
       \new GrandStaff \with { \fagottiInstr } <<
         \new Staff <<
@@ -66,7 +67,7 @@
       \origLayout {
         s1*5\pageBreak s1*4\pageBreak
         s1*5\pageBreak s1*5\pageBreak
-        s1*5\pageBreak s1*5\pageBreak
+        s1*5\pageBreak \grace s4 s1*5\pageBreak
         s1*5\pageBreak s1*5\pageBreak
         s1*4\pageBreak s1*4\pageBreak
         s1*4\pageBreak s1*5\pageBreak

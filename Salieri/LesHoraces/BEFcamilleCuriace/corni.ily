@@ -32,9 +32,9 @@ re''2 r |
 R1 |
 \twoVoices #'(corno1 corno2 corni) <<
   { re''1 | mi'' | re'' | mi'' | fa'' |
-    mi''~ | mi''~ | mi''2~ mi'' | }
+    mi''~ | mi''~ | mi'' | }
   { sol'1 | do'' | sol' | do'' | re''1 |
-    mi''2. re''4 | do''1~ | do''2~ do''4 mi'' | }
+    mi''2. re''4 | do''1~ | do''2. mi''4 | }
 >>
 re''1 |
 R1*3 |
