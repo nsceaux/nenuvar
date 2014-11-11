@@ -337,6 +337,14 @@
   }
   \includeScore "BGArecit"
 }
+% 2-15
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Ensemble : \italic { Oui mes enfans partez sur l’heure }
+  }
+  \includeScore "BGBensemble"
+}
+
 
 %% Livret
 \bookpart {

@@ -2,7 +2,7 @@
 r4 r8 la re'4. re'8 |
 si si re' sol re'2 |
 si4 r r8 mi' sol' mi' |
-do'2 do'4 do'8 do' |
+do'2 re'4 re'8 re' |
 sol4 r r8 re' re' mi' |
 fa'!4 re'8 re' re'4 si8 la |
 sold4 r r2 |
@@ -14,8 +14,8 @@ re'4 re'8 re' re'4 re'8 re' |
 do'4 r r2 |
 R1*2 |
 r4 r8 do' do'4. do'8 |
-do'4. do'8 fa'4. fa'8 |
-mi'4 do' r2 |
+do'4. do'8 do'4. do'8 |
+do'4 sol r2 |
 R1*2 |
 r2 r4 r8 sol |
 do'4. do'8 do'4 do' |

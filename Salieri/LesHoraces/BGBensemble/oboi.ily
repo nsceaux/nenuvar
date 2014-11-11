@@ -19,7 +19,7 @@ R1 |
 >>
 sol'8 la'16 si' do'' re'' mi'' fad'' sol''4 r |
 \twoVoices #'(oboe1 oboe2 oboi) <<
-  { fa''1 |
+  { fa''!1 |
     mi''~ |
     mi''4( la'' sib''4. dod''8) |
     re''8 re' fa' la' re''4 }
@@ -31,7 +31,7 @@ sol'8 la'16 si' do'' re'' mi'' fad'' sol''4 r |
 R1 |
 \twoVoices #'(oboe1 oboe2 oboi) <<
   { do''2~ do''4 sol''8\sf sold'' |
-    la''( mi'' fa'' dod'') re''4 }
+    la'' mi''( fa'' dod'') re''4 }
   { la'2 sol'!8 mi' do' do''~ |
     do'' la'4 la'8 la'4 }
 >> r4 |
@@ -43,8 +43,7 @@ r2 \twoVoices #'(oboe1 oboe2 oboi) <<
     si''8. re'''16 re'''8. si''16 si''8. sol''16 sol''8. re''16 |
     si'4 si'' sol'' }
   { do''2 |
-    si' |
-    re'' |
+    si' re'' |
     mib''1~ |
     mib'' |
     re''8. si'16 si'8. re''16 re''8. si'16 si'8. si'16 |
@@ -112,9 +111,9 @@ mi''4. mi''8 la''4. la''8 |
     do'' s2. | }
   { sol''4 sol'2 sol'4 |
     la'2 si' |
-    do'' la'4 fa' |
+    do'' lab'?4 fa' |
     s4 sol'2 sol'4 |
-    mi''1 |
+    mi''!1 |
     re'' |
     re'' |
     mi'' |
@@ -124,8 +123,8 @@ mi''4. mi''8 la''4. la''8 |
     do''~ |
     do'' |
     s8 do'' do'' do'' s si' si' si' |
-    r4 do''2 do''4 |
-    re''2.\fermata lab'4 |
+    s4 do''2 do''4 |
+    do''2.\fermata lab'4 |
     s4 sol' s sol' |
     do''1~ |
     do''4 do'' re'' mib'' |

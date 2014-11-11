@@ -219,3 +219,8 @@
   Récit : Horace, Camille, le vieil Horace
 }
 \includeScore "BGArecit"
+% 2-15
+\pieceToc\markup\wordwrap {
+  Ensemble : \italic { Oui mes enfans partez sur l’heure }
+}
+\includeScore "BGBensemble"
