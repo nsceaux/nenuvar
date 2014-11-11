@@ -199,3 +199,14 @@
   Camille, Curiace : \italic { Cœur insensible, amant barbare }
 }
 \includeScore "BEFcamilleCuriace"
+
+\scene "Scène V" "Scène V"
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps { Horace, Camille, Curiace. }
+}
+% 2-13
+\pieceToc\markup\wordwrap {
+  Horace, Camille, Curiace :
+  \italic { Ne tardons plus : viens, suis-moi, Curiace }
+}
+\includeScore "BFArecit"

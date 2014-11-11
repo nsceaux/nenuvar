@@ -315,6 +315,19 @@
   }
   \includeScore "BEFcamilleCuriace"
 }
+% 2-13
+\bookpart {
+  \paper { systems-per-page = 2 }
+  \scene "Scène V" "Scène V"
+  \sceneDescription\markup\wordwrap-center {
+    \smallCaps { Horace, Camille, Curiace. }
+  }
+  \pieceToc\markup\wordwrap {
+    Horace, Camille, Curiace :
+    \italic { Ne tardons plus : viens, suis-moi, Curiace }
+  }
+  \includeScore "BFArecit"
+}
 
 %% Livret
 \bookpart {

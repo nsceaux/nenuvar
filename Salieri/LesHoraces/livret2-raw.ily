@@ -263,8 +263,9 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Horace, Curiace, Camille. }
 }
+\livretRef #'BFArecit
 \livretPers HORACE
-%# Ne tardons plus: viens, suis-moi, Curiace!
+%# Ne tardons plus: viens, suis-moi, Curi=ace!
 \livretPers CURIACE
 %#- Marchons!
 \livretPers CAMILLE
