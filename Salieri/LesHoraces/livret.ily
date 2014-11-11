@@ -637,6 +637,7 @@
 \livretDescAtt\wordwrap-center {
   \smallCaps { Le vieil Horace, } les Précédens.
 }
+\livretRef #'BGArecit
 \livretPers HORACE
 \livretVerse#12 { Mon père !… }
 \livretPers LE VIEIL HORACE
@@ -652,6 +653,7 @@
 \livretVerse#12 { Quoi ! sur vous la nature a si peu de pouvoir ? }
 \livretPers LE VIEIL HORACE
 \livretVerse#12 { La nature se taît où parle le devoir. }
+\livretRef #'BGBensemble
 \livretPers ENSEMBLE
 \livretPersVerse LE VIEIL HORACE \line {
   \hspace#7 \column {

@@ -25,19 +25,5 @@
   Je veux in -- té -- res -- ser Albe & Rome à mes cris.
   Voy -- ez quel -- le rage est la vô -- tre !
   O Ciel ! deux frè -- res, deux a -- mis
-  Brû -- lent de se bai -- gner dans le sang l’un de l’au -- tre.
-}
-\tag #'jhorace {
-  Mon pè -- re !…
-}
-\tag #'vhorace {
-  Mes en -- fans, il est temps de par -- tir.
-  Vous, Ca -- mil -- le, ren -- trez.
-}
-\tag #'camille {
-  Mon pè -- re !
-  Quoi ! sur vous la na -- tu -- re a si peu de pou -- voir ?
-}
-\tag #'vhorace {
-  La na -- tu -- re se taît où par -- le le de -- voir.
+  Brû -- lent de se bai -- gner dans le sang l’un de % l’au -- tre.
 }

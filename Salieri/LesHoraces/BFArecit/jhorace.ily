@@ -11,5 +11,3 @@ r4 r8 sib16 sib sib4 sib8 do' |
 re' re' r fa' re' re' do' sib |
 mib'^! mib' r4 r2 |
 R1*6 |
-r4 r8 sol do' do' r4 |
-R1*8 |

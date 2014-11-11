@@ -16,12 +16,12 @@
       \new Staff \with { \camilleInstr } \withLyrics <<
         \global \includeNotes "camille"
       >> \keepWithTag #'camille \includeLyrics "paroles"
-      \new Staff \with { \curiaceInstr } \withLyrics <<
-        \global \includeNotes "curiace"
-      >> \keepWithTag #'curiace \includeLyrics "paroles"
       \new Staff \with { \jeuneHoraceInstr } \withLyrics <<
         \global \includeNotes "jhorace"
       >> \keepWithTag #'jhorace \includeLyrics "paroles"
+      \new Staff \with { \vieilHoraceInstr } \withLyrics <<
+        \global \includeNotes "vhorace"
+      >> \keepWithTag #'vhorace \includeLyrics "paroles"
     >>
     \new Staff \with {
       \bassoInstr

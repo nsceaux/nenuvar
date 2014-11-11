@@ -200,13 +200,22 @@
 }
 \includeScore "BEFcamilleCuriace"
 
-\scene "Scène V" "Scène V"
+\scene "Scène VI" "Scène VI"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps { Horace, Camille, Curiace. }
 }
 % 2-13
 \pieceToc\markup\wordwrap {
-  Horace, Camille, Curiace :
-  \italic { Ne tardons plus : viens, suis-moi, Curiace }
+  Récit : Horace, Camille, Curiace
 }
 \includeScore "BFArecit"
+
+\scene "Scène VII" "Scène VII"
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps { Le vieil Horace, } les Précédens.
+}
+% 2-14
+\pieceToc\markup\wordwrap {
+  Récit : Horace, Camille, le vieil Horace
+}
+\includeScore "BGArecit"

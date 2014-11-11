@@ -14,10 +14,3 @@ sol''4 sib'8 do'' lab'^! lab' r8 do'' |
 fa''4^! r8 re''! si'!^! si' si' do'' |
 re''4 r sol''8 re''16 re'' re''8 re'' |
 si'!4 re''8 mib'' fa''4 re''8 mib'' |
-do''^! do'' r4 r2 |
-R1*2 |
-r2 r4 r8 sib' |
-sol'4 sol'8 r mib''4. sib'8 |
-sib'?4 sib'8 do'' reb'' reb'' r reb''16 sib' |
-mib''4 mib''8 sib'? do''4 r |
-R1*2 |
