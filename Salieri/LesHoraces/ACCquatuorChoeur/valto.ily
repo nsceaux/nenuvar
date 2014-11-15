@@ -1,4 +1,4 @@
-\clef "alto/treble" fad'2. fad'4 |
+\clef "vhaute-contre" fad'2. fad'4 |
 sol'2 si4. si8 |
 si2. la4 |
 la2 r |

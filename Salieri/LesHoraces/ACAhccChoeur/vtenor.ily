@@ -1,4 +1,4 @@
-\clef "tenor/G_8" re'2\repeatTie r |
+\clef "vtaille" re'2\repeatTie r |
 R1*2 |
 r2 si |
 R1*8 |

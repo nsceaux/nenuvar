@@ -1,4 +1,4 @@
-\clef "alto/treble" r8 |
+\clef "vhaute-contre" r8 |
 R1*7 |
 r2 r\fermata |
 R1*32 |

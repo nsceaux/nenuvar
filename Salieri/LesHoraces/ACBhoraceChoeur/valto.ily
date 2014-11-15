@@ -1,4 +1,4 @@
-\clef "alto/treble" R1*68 |
+\clef "vhaute-contre" R1*68 |
 r4 la'2. |
 si'2 si'4. si'8 |
 si'2 si'4 si' |

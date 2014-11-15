@@ -1,4 +1,4 @@
-\clef "alto/treble" la'2\repeatTie r |
+\clef "vhaute-contre" la'2\repeatTie r |
 R1*2 |
 r2 mi' |
 R1*8 |

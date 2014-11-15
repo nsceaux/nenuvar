@@ -1,4 +1,4 @@
-\clef "tenor/G_8" sol8^\f |
+\clef "vtaille" sol8^\f |
 mib'4 mib'8. mib'16 mib'4 mib'8. mib'16 |
 fa'2 r4 fa'8. fa'16 |
 sib2 sib4. mib'8 |

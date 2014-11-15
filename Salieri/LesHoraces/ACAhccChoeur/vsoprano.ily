@@ -1,4 +1,4 @@
-\clef "soprano/treble" fad''2\repeatTie r |
+\clef "vbas-dessus" fad''2\repeatTie r |
 R1*2 |
 r2 mi'' |
 R1*8 |

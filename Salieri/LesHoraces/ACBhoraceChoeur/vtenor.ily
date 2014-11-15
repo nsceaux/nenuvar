@@ -1,4 +1,4 @@
-\clef "tenor/G_8" R1*68 |
+\clef "vtaille" R1*68 |
 r4 do'2. |
 fa'2 fa'4. fa'8 |
 fa'2 fa'4 fa' |

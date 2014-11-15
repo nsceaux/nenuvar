@@ -1,4 +1,4 @@
-\clef "soprano/treble" r8 |
+\clef "vbas-dessus" r8 |
 R1*7 |
 r2 r\fermata |
 R1*32 |

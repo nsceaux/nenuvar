@@ -1,4 +1,4 @@
-\clef "tenor/G_8" r8 |
+\clef "vtaille" r8 |
 R1*7 |
 r2 r\fermata |
 R1*32 |

@@ -1,4 +1,4 @@
-\clef "soprano/treble" re''2. re''4 |
+\clef "vbas-dessus" re''2. re''4 |
 dod''4( si') mi''4. fad''8 |
 sol''2. dod''4 |
 re''2 r |

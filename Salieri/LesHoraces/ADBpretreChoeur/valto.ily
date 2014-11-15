@@ -1,4 +1,4 @@
-\clef "alto/treble" r2 |
+\clef "vhaute-contre" r2 |
 R1*8 |
 r2 r8 sol la8. si16 |
 do'4. mi'8 mi'4. mi'8 |

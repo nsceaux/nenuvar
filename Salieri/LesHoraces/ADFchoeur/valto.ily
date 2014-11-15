@@ -1,4 +1,4 @@
-\clef "alto/treble" sol'8^\f |
+\clef "vhaute-contre" sol'8^\f |
 sol'4 sol'8. sol'16 sol'4 sol'8. mib'16 |
 re'2 r4 re'8. re'16 |
 mib'2 mib'4. mib'8 |

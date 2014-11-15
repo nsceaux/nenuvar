@@ -1,4 +1,4 @@
-\clef "soprano/treble" r2 |
+\clef "vbas-dessus" r2 |
 R1*8 |
 r2 r8 sol' la'8. si'16 |
 do''4. do''8 do''4. do''8 |

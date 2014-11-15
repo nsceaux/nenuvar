@@ -1,4 +1,4 @@
-\clef "alto/treble" r4 sib' sib' sib' |
+\clef "vhaute-contre" r4 sib' sib' sib' |
 sib'2 sib'4 sib' |
 sib'2 sib'4 sib' |
 la'1~ |

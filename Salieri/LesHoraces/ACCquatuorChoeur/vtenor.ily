@@ -1,4 +1,4 @@
-\clef "tenor/G_8" la2. re'4 |
+\clef "vtaille" la2. re'4 |
 re'2 si4. la8 |
 sol2. sol4 |
 fad2 r |

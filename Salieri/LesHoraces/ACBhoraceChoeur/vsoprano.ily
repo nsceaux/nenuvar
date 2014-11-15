@@ -1,4 +1,4 @@
-\clef "soprano/treble" R1*68 |
+\clef "vbas-dessus" R1*68 |
 r4 fa''2. |
 fa''2 fa''4. fa''8 |
 fa''2 fa''4 fa'' |
