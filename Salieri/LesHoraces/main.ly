@@ -38,10 +38,7 @@
     qui portent des offrandes : elles restent au fond du Théatre,
     Camille s’avance avec ses femmes.
   }
-  \pieceToc\markup\wordwrap {
-    Camille, une suivante :
-    \italic { D’où nait le trouble qui vous presse }
-  }
+  \pieceToc\markup\wordwrap { Récit : Camille, une suivante }
   \includeScore "AABcamille"
 }
 %% 1-2
@@ -54,9 +51,7 @@
 }
 %% 1-3
 \bookpart {
-  \pieceToc\markup\wordwrap {
-    Camille, une suivante : \italic { Déja le sanctuaire s’ouvre }
-  }
+  \pieceToc\markup\wordwrap { Récit : Camille, une suivante }
   \includeScore "AADcamille"
 }
 %% 1-4
@@ -82,9 +77,7 @@
 %% 1-7
 \bookpart {
   \paper { systems-per-page = 3 }
-  \pieceToc\markup\wordwrap {
-    Camille : \italic { Ce jour à ton amant va pour jamais t’unir }
-  }
+  \pieceToc\markup\wordwrap { Récit : Camille }
   \includeScore "AAHcamille"
 }
 %% 1-8
@@ -113,8 +106,7 @@
     Chevaliers d’Albe & de Rome, les Précédents.
   }
   \pieceToc\markup\wordwrap {
-    Le vieil Horace, Curiace, Camille, chœur :
-    \italic { Peuples, dissipez vos alarmes }
+    Récit : Le vieil Horace, Curiace, Camille, chœur
   }
   \includeScore "ACAhccChoeur"
 }
@@ -128,7 +120,8 @@
 %% 1-12
 \bookpart {
   \pieceToc\markup\wordwrap {
-    Quatuor & chœur : \italic { O du sort trop heureux retour }
+    Camille, Curiace, Horace, le vieil Horace, chœur :
+    \italic { O du sort trop heureux retour }
   }
   \includeScore "ACCquatuorChoeur"
 }
@@ -148,10 +141,7 @@
       Les Prêtres entrent sur une marche noble & imposante.
     }
   }
-  \pieceToc\markup\wordwrap {
-    Le Grand Prêtre :
-    \italic { Le Sénat, rassemblé sous ces voutes sacrées }
-  }
+  \pieceToc\markup\wordwrap { Récit : Le Grand Prêtre }
   \includeScore "ADApretre"
 }
 % 1-14
@@ -201,8 +191,7 @@
     le jeune \smallCaps Horace.
   }
   \pieceToc\markup\wordwrap {
-    Camille, Curiace, le jeune Horace :
-    \italic { Ainsi le Ciel pour jamais nous rassemble }
+    Récit : Camille, Curiace, le jeune Horace
   }
   \includeScore "BAAcacujh"
 }
@@ -243,8 +232,7 @@
     Un envoyé d’Albe, les Précédens.
   }
   \pieceToc\markup\wordwrap {
-    Curiace, un Albain, Camille, chœur :
-    \italic { Quels sont les trois guerriers que le choix d’Albe honore }
+    Récit : Curiace, un Albain, Camille, chœur
   }
   \includeScore "BCArecit"
 }
@@ -255,8 +243,7 @@
     Les mêmes excepté l’Albain.
   }
   \pieceToc\markup\wordwrap {
-    Curiace, le jeune Horace, le vieil Horace, Camille, chœur :
-    \italic { O déplorable choix ! triste & funeste honneur }
+    Récit : Curiace, le jeune Horace, le vieil Horace, Camille, chœur
   }
   \includeScore "BDArecit"
 }
@@ -267,9 +254,7 @@
   \sceneDescription\markup\wordwrap-center {
     \smallCaps { Camille, Curiace. }
   }
-  \pieceToc\markup\wordwrap {
-    Camille, Curiace : \italic { Iras-tu, Curiace }
-  }
+  \pieceToc\markup\wordwrap { Récit : Camille, Curiace }
   \includeScore "BEAcamilleCuriace"
 }
 % 2-8
@@ -283,28 +268,21 @@
 % 2-9
 \bookpart {
   \paper { systems-per-page = 3 }
-  \pieceToc\markup\wordwrap {
-    Camille, Curiace :
-    \italic { Non, je te connois mieux ; non, tu n'es point barbare }
-  }
+  \pieceToc\markup\wordwrap { Récit : Camille, Curiace }
   \includeScore "BECcamilleCuriace"
 }
 % 2-10
 \bookpart {
   \paper { systems-per-page = 2 }
   \pieceToc\markup\wordwrap {
-    Camille, Curiace :
-    \italic { Par l’amour & par l’amitié }
+    Camille, Curiace : \italic { Par l’amour & par l’amitié }
   }
   \includeScore "BEDcamilleCuriace"
 }
 % 2-11
 \bookpart {
   \paper { systems-per-page = 2 }
-  \pieceToc\markup\wordwrap {
-    Camille, Curiace :
-    \italic { O Ciel ! quoi, ma prière est vaine }
-  }
+  \pieceToc\markup\wordwrap { Récit : Camille, Curiace }
   \includeScore "BEEcamilleCuriace"
 }
 % 2-12
@@ -322,9 +300,7 @@
     \smallCaps { Horace, Camille, Curiace. }
   }
   % 2-13
-  \pieceToc\markup\wordwrap {
-    Récit : Horace, Camille, Curiace
-  }
+  \pieceToc\markup\wordwrap { Récit : Horace, Camille, Curiace }
   \includeScore "BFArecit"
 
   \scene "Scène VII" "Scène VII"
@@ -343,6 +319,36 @@
     Ensemble : \italic { Oui mes enfans partez sur l’heure }
   }
   \includeScore "BGBensemble"
+}
+
+%% 2-16
+\bookpart {
+  \intermede "Second intermède"
+  \sceneDescription\markup\column {
+    \justify {
+      Le Théâtre représente une campagne des environs de Rome
+      où les armées de Rome & d’Albe sont en présence.
+      Les trois Horaces sont auprès du roi de Rome, & les
+      trois Curiaces auprès du dictateur d’Albe.
+    }
+    \justify {
+      Un autel est placé au milieu des deux armées. Il est
+      censé situé sur la ligne qui sépare les territoires
+      des deux différens états.
+    }
+    \justify {
+      Un Grand-Sacrificateur, & plusieurs Prêtres inférieurs
+      entourent l’Autel.
+    }
+  }
+  \pieceToc\markup\wordwrap {
+    Le Grand Sacrificateur, chœur :
+    \italic {
+      Romains, Albains, ce jour prévient votre ruine
+    }
+  }
+  \pieceToc\markup\wordwrap { Récit : Le Grand Sacrificateur }
+  \includeScore "BHAsacrificateur"
 }
 
 

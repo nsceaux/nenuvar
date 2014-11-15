@@ -373,9 +373,10 @@
     entourent l’Autel.
   }
 }
+\livretRef #'BHAsacrificateurChoeur
 \livretPers LE GRAND SACRIFICATEUR
 %# Romains, Albains! ce jour prévient votre ruine.
-%# Ce pays inculte & désert,
+%# Ce pa=ys inculte & désert,
 %# De vos longs différens a trop long-temps souffert;
 %# Le Ciel à jamais les termine.
 %# Six guerriers choisis parmi vous,

@@ -26,10 +26,7 @@
 %% 1-1
 \act "Acte Premier"
 \scene "Scène Première" "Scène I"
-\pieceToc\markup\wordwrap {
-  Camille, une suivante :
-  \italic { D’où nait le trouble qui vous presse }
-}
+\pieceToc\markup\wordwrap { Récit : Camille, une suivante }
 \includeScore "AABcamille"
 %% 1-2
 \pieceToc\markup\wordwrap {
@@ -37,9 +34,7 @@
 }
 \includeScore "AACcamille"
 %% 1-3
-\pieceToc\markup\wordwrap {
-  Camille, une suivante : \italic { Déja le sanctuaire s’ouvre }
-}
+\pieceToc\markup\wordwrap { Récit : Camille, une suivante }
 \includeScore "AADcamille"
 %% 1-4
 \pieceToc "[Sinfonia]"
@@ -55,9 +50,7 @@
 }
 \includeScore "AAGoracle"
 %% 1-7
-\pieceToc\markup\wordwrap {
-  Camille : \italic { Ce jour à ton amant va pour jamais t’unir }
-}
+\pieceToc\markup\wordwrap { Récit : Camille }
 \includeScore "AAHcamille"
 %% 1-8
 \pieceToc\markup\wordwrap {
@@ -75,8 +68,7 @@
 %% 1-10
 \scene "Scène III" "Scène III"
 \pieceToc\markup\wordwrap {
-  Le vieil Horace, Curiace, Camille, chœur :
-  \italic { Peuples, dissipez vos alarmes }
+  Récit : Le vieil Horace, Curiace, Camille, chœur
 }
 \includeScore "ACAhccChoeur"
 %% 1-11
@@ -86,16 +78,14 @@
 \includeScore "ACBhoraceChoeur"
 %% 1-12
 \pieceToc\markup\wordwrap {
-  Quatuor & chœur : \italic { O du sort trop heureux retour }
+  Camille, Curiace, Horace, le vieil Horace, chœur :
+  \italic { O du sort trop heureux retour }
 }
 \includeScore "ACCquatuorChoeur"
 
 %% 1-13
 \intermede "Premier intermède"
-\pieceToc\markup\wordwrap {
-  Le Grand Prêtre :
-  \italic { Le Sénat, rassemblé sous ces voutes sacrées }
-}
+\pieceToc\markup\wordwrap { Récit : Le Grand Prêtre }
 \includeScore "ADApretre"
 %% 1-14
 \pieceToc\markup\wordwrap {
@@ -126,8 +116,7 @@
 \scene "Scène Première" "Scène I"
 % 2-1
 \pieceToc\markup\wordwrap {
-  Camille, Curiace, le jeune Horace :
-  \italic { Ainsi le Ciel pour jamais nous rassemble }
+  Récit : Camille, Curiace, le jeune Horace
 }
 \includeScore "BAAcacujh"
 % 2-2
@@ -153,8 +142,7 @@
 % 2-5
 \scene "Scène III" "Scène III"
 \pieceToc\markup\wordwrap {
-  Curiace, un Albain, Camille, chœur :
-  \italic { Quels sont les trois guerriers que le choix d’Albe honore }
+  Récit : Curiace, un Albain, Camille, chœur
 }
 \includeScore "BCArecit"
 \partNoPageTurn #'(violino1 violino2 alto basso fagotto1 fagotto2)
@@ -162,16 +150,13 @@
 % 2-6
 \scene "Scène IV" "Scène IV"
 \pieceToc\markup\wordwrap {
-  Curiace, le jeune Horace, le vieil Horace, Camille, chœur :
-  \italic { O déplorable choix ! triste & funeste honneur }
+  Récit : Curiace, le jeune Horace, le vieil Horace, Camille, chœur
 }
 \includeScore "BDArecit"
 
 % 2-7
 \scene "Scène V" "Scène V"
-\pieceToc\markup\wordwrap {
-  Camille, Curiace : \italic { Iras-tu, Curiace }
-}
+\pieceToc\markup\wordwrap { Récit : Camille, Curiace }
 \includeScore "BEAcamilleCuriace"
 % 2-8
 \pieceToc\markup\wordwrap {
@@ -179,10 +164,7 @@
 }
 \includeScore "BEBcuriace"
 % 2-9
-\pieceToc\markup\wordwrap {
-  Camille, Curiace :
-  \italic { Non, je te connois mieux ; non, tu n'es point barbare }
-}
+\pieceToc\markup\wordwrap { Récit : Camille, Curiace }
 \includeScore "BECcamilleCuriace"
 % 2-10
 \pieceToc\markup\wordwrap {
@@ -190,9 +172,7 @@
 }
 \includeScore "BEDcamilleCuriace"
 % 2-11
-\pieceToc\markup\wordwrap {
-  Camille, Curiace : \italic { O Ciel ! quoi, ma prière est vaine }
-}
+\pieceToc\markup\wordwrap { Récit : Camille, Curiace }
 \includeScore "BEEcamilleCuriace"
 % 2-12
 \pieceToc\markup\wordwrap {
@@ -205,9 +185,7 @@
   \smallCaps { Horace, Camille, Curiace. }
 }
 % 2-13
-\pieceToc\markup\wordwrap {
-  Récit : Horace, Camille, Curiace
-}
+\pieceToc\markup\wordwrap { Récit : Horace, Camille, Curiace }
 \includeScore "BFArecit"
 
 \scene "Scène VII" "Scène VII"

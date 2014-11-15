@@ -721,9 +721,10 @@
     entourent l’Autel.
   }
 }
+\livretRef #'BHAsacrificateurChoeur
 \livretPers LE GRAND SACRIFICATEUR
 \livretVerse#11 { Romains, Albains ! ce jour prévient votre ruine. }
-\livretVerse#7 { Ce pays inculte & désert, }
+\livretVerse#8 { Ce pays inculte & désert, }
 \livretVerse#12 { De vos longs différens a trop long-temps souffert ; }
 \livretVerse#8 { Le Ciel à jamais les termine. }
 \livretVerse#8 { Six guerriers choisis parmi vous, }
