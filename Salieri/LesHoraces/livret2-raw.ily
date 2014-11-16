@@ -373,7 +373,7 @@
     entourent l’Autel.
   }
 }
-\livretRef #'BHAsacrificateurChoeur
+\livretRef #'BHAsacrificateur
 \livretPers LE GRAND SACRIFICATEUR
 %# Romains, Albains! ce jour prévient votre ruine.
 %# Ce pa=ys inculte & désert,

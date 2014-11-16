@@ -12,7 +12,7 @@ si4 r r2 |
       \\ { do''8. do''16 do''4 do'' | re''2 }
     >> r2 |
     r4 mi'8.\p mi'16 mi'4 mi' |
-    re'4. <>\f << { si''8 si''4. } \\ { si'16 si'4. }
+    re'4. <>\f << { si''8 si''4. } \\ { si'8 si'4. }
     >> <sol' si>8 |
     << q1~ { s2. s4\p } >> |
     q1~ |
@@ -24,8 +24,8 @@ si4 r r2 |
     r4 << { mi''8. mi''16 mi''4 mi'' | sol''2 }
       \\ { do''8. do''16 do''4 do'' | si'2 }
     >> r2 |
-    r4 do'8. do'16 do'4 do' |
-    si4. <re' si'>8 q4. <re' si>8 |
+    r4 do'8.-\sug\p do'16 do'4 do' |
+    si4. <re' si'>8-\sug\f q4. <re' si>8 |
     << q1~ { s2. s4\p } >> |
     q1~ |
     q~ |
@@ -54,12 +54,12 @@ re'4. <<
     << <do''' mi''>4. \\ sol' >>
   }
   \tag #'violino2 {
-    << { fad''8 fad''4 fad'' | fad''1~ | fad'' | fad'' |
-        fad'' | sol'' | mi''2
+    << { fad''8 fad''4 fad'' | fad''1~ | fad'' |
+        \once\tieDashed fad''~ | fad'' | sol'' | mi''2
       } \\
-      { la'8 la'4 la' | la'1~ | la'~ | la' |
-        si' | si' | dod''2 }  
-    >> r4 << mi'' \\ dod'' >> |
+      { la'8 la'4 la' | << la'1~ { s2. s4-\sug\p } >> |
+        la'1~ | la' | \once\tieDashed si'~ | si' | dod''2 }  
+    >> r4 << mi'' \\ dod''-\sug\f >> |
     re''4. re'8 <si fad'>4 <re' si'> |
     << { \voiceOne re''1~ | re''~ | re''2~ \oneVoice re''~ |
         re'' re''~ | re''1~ | re''~ | re''2 }
@@ -73,7 +73,7 @@ re'4. <<
   \tag #'violino2 { mi'2 }
 >> r2 |
 R1*2 |
-r2 r4 la'8. la'16 |
+r2 r4 la'8.\f la'16 |
 <<
   \tag #'violino1 {
     si'!4 si'8. si'16 do''4 do''8. do''16 |
@@ -97,7 +97,7 @@ R1*4 |
   }
   \tag #'violino2 {
     <si re'>1 |
-    <do' mi'>2 do'~ |
+    <do' mi'>2 do'-\sug\p~ |
     do' si |
   }
 >>

@@ -84,6 +84,7 @@
 \includeScore "ACCquatuorChoeur"
 
 %% 1-13
+\newBookPart #'()
 \intermede "Premier intermède"
 \pieceToc\markup\wordwrap { Récit : Le Grand Prêtre }
 \includeScore "ADApretre"
@@ -202,3 +203,9 @@
   Ensemble : \italic { Oui mes enfans partez sur l’heure }
 }
 \includeScore "BGBensemble"
+
+% 2-16
+\newBookPart #'()
+\intermede "Second intermède"
+\pieceToc\markup\wordwrap { Récit : Le Grand Sacrificateur }
+\includeScore "BHAsacrificateur"

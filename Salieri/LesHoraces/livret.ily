@@ -721,7 +721,7 @@
     entourent l’Autel.
   }
 }
-\livretRef #'BHAsacrificateurChoeur
+\livretRef #'BHAsacrificateur
 \livretPers LE GRAND SACRIFICATEUR
 \livretVerse#11 { Romains, Albains ! ce jour prévient votre ruine. }
 \livretVerse#8 { Ce pays inculte & désert, }

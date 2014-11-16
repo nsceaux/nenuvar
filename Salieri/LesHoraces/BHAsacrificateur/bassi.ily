@@ -1,12 +1,7 @@
 \clef "bass" do2 r |
 do r |
 do r |
-<<
-  \tag #'(fagotto1 fagotto2 fagotti) {
-    do4. do8 do4. si,16 do |
-  }
-  \tag #'basso { do2 r | }
->>
+do4. do8 do4.\prall si,16 do |
 la,4 si,8. si,16 do4 dod8. dod16 |
 re4. mi8 mi4.\prall re16 mi |
 fa4 mi8. mi16 re4 do8. do16 |
@@ -31,8 +26,8 @@ sol |
 do4.\f do8 do4.\trill si,16 do |
 la,4 si,8. si,16 do4 dod8. dod16 |
 re4. re8 re4 re |
+<< re1~ { s2. s4-\sug\p } >> |
 re1~ |
-re~ |
 re |
 red |
 mi~ |
@@ -84,7 +79,7 @@ do4
     r4 r do |
     do r r2 |
     do4 r r2 |
-    fa4 r r fa8. fa16 |
+    fa4 r r fa8.-\sug\f fa16 |
     mi2 mi |
     mi mi4. mi8 |
     la,2 r |
@@ -93,7 +88,7 @@ do4
     re r |
     sol4 sol,8. sol,16 sol,4 r |
     fa!1 |
-    mi2
+    mi2 <>-\sug\p
   }
 >> do4 mi |
 sol2 sol, |

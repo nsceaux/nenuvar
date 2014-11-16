@@ -341,12 +341,6 @@
       entourent l’Autel.
     }
   }
-  \pieceToc\markup\wordwrap {
-    Le Grand Sacrificateur, chœur :
-    \italic {
-      Romains, Albains, ce jour prévient votre ruine
-    }
-  }
   \pieceToc\markup\wordwrap { Récit : Le Grand Sacrificateur }
   \includeScore "BHAsacrificateur"
 }

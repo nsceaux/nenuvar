@@ -1,5 +1,5 @@
 \piecePartSpecs
-#`((tromba1 #:tag-global () #:instrument "Corno I in C")
+#`((tromba1 #:tag-global () #:instrument "Tromba I in C")
    (tromba2 #:tag-global () #:instrument "Tromba II in C")
    (oboe1)
    (oboe2)

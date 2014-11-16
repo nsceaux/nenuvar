@@ -10,7 +10,7 @@ re'4. la8 la4 la8 la |
 fad4 r8 la16 la la4 si8 do' |
 si4.^! si8 si si la si |
 sol4^! r8 si mi'4 si8 dod' |
-lad4^! lad8 si fad fad^! r4 |
+lad4^! lad8 si fad fad r4 |
 R1 |
 r4 r8 fad16 fad si4. si8 |
 si4 si8 re' si4 r8 si |
