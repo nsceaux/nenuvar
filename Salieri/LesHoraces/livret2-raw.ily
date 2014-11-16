@@ -458,6 +458,7 @@
 %# Allez tous consulter vos Dieux:
 %# Qu'ils soit ou non désaprouvé par eux;
 %# Quel profane osera condamner leur sagesse!
+\livretRef #'BHCchoeur
 \livretPers LES DEUX ARMÉES
 %# Oui, que les Dieux décident entre-nous!
 %# Quoi qu'il puisse arriver, nous obé=irons tous.

@@ -215,3 +215,8 @@
   \italic { Jurer au nom des Dieux, par l’honneur & la gloire }
 }
 \includeScore "BHBchoeur"
+% 2-18
+\pieceToc\markup\wordwrap {
+  Chœur : \italic { Oui, que les Dieux décident entre-nous }
+}
+\includeScore "BHCchoeur"

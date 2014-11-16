@@ -806,6 +806,7 @@
 \livretVerse#8 { Allez tous consulter vos Dieux : }
 \livretVerse#10 { Qu’ils soit ou non désaprouvé par eux ; }
 \livretVerse#12 { Quel profane osera condamner leur sagesse ! }
+\livretRef #'BHCchoeur
 \livretPers LES DEUX ARMÉES
 \livretVerse#10 { Oui, que les Dieux décident entre-nous ! }
 \livretVerse#12 { Quoi qu’il puisse arriver, nous obéirons tous. }

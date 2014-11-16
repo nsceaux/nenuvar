@@ -352,6 +352,14 @@
   }
   \includeScore "BHBchoeur"
 }
+% 2-18
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Chœur : \italic { Oui, que les Dieux décident entre-nous }
+  }
+  \includeScore "BHCchoeur"
+}
+
 
 %% Livret
 \bookpart {
