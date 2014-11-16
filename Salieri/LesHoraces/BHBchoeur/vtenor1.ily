@@ -1,4 +1,5 @@
-\clef "vtaille" r2 r4 <>^\markup\smallCaps "[Les chefs des deux armées]"
+\clef "vtaille" R1*15 |
+r2 r4 <>^\markup\smallCaps "[Les chefs des deux armées]"
 sol8. sol16 |
 do'2 do'4. do'8 |
 do'2. do'8 do' |

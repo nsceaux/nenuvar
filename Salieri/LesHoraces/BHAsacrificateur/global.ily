@@ -1,2 +1,2 @@
-\key do \major \tempo "Maestoso" \midiTempo#160
-\time 2/2 s1*48
+\key do \major \tempo "Maestoso" \midiTempo#120
+\time 2/2 s1*33

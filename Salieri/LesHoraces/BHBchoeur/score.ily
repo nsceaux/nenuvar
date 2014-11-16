@@ -2,9 +2,7 @@
   \new StaffGroupNoBar \notemode <<
     \new StaffGroupNoBracket <<
       \new Staff \with {
-        instrumentName = \markup\center-column {
-          Corni col Trombe in C
-        }
+        instrumentName = \markup\center-column { Cor. Tr. }
         shortInstrumentName = \markup\center-column { Cor. Tr. }
         \consists "Metronome_mark_engraver"
         \consists "Mark_engraver"
@@ -13,20 +11,23 @@
         \keepWithTag #'corni \includeNotes "corni"
       >>
       \new Staff \with {
-        instrumentName = \markup\center-column {
-          Oboi col Clarinetti
-        }
+        instrumentName = \markup\center-column { Ob. Cl. }
         shortInstrumentName = \markup\center-column { Ob. Cl. }
       } << \global \keepWithTag #'oboi \includeNotes "oboi" >>
-      \new Staff \with { \flautiInstr } <<
-        \global \keepWithTag #'flauti \includeNotes "flauti"
-      >>
-      \new Staff \with { \fagottiInstr } <<
-        \global \keepWithTag #'fagotti \includeNotes "bassi"
-      >>
+      \new Staff \with {
+        instrumentName = "Fl."
+        shortInstrumentName = "Fl."
+      } << \global \keepWithTag #'flauti \includeNotes "flauti" >>
+      \new Staff \with {
+        instrumentName = "Fg."
+        shortInstrumentName = "Fg."
+      } << \global \keepWithTag #'fagotti \includeNotes "bassi" >>
     >>
     \new StaffGroupNoBracket <<
-      \new GrandStaff \with { \violiniInstr } <<
+      \new GrandStaff \with {
+        instrumentName = "Vn."
+        shortInstrumentName = "Vn."
+      } <<
         \new Staff \with {
           \consists "Metronome_mark_engraver" 
           \consists "Mark_engraver"
@@ -35,7 +36,10 @@
           \global \keepWithTag #'violino2 \includeNotes "violini"
         >>
       >>
-      \new Staff \with { \altoInstr } << \global \includeNotes "alto" >>
+      \new Staff \with {
+        instrumentName = "Vla."
+        shortInstrumentName = "Vla."
+      } << \global \includeNotes "alto" >>
     >>
     \new ChoirStaff <<
       \new Staff \with {
@@ -51,7 +55,10 @@
         \global \includeNotes "vbasse2"
       >> \keepWithTag #'vbasse2 \includeLyrics "paroles"
     >>
-    \new ChoirStaff \with { \choeurInstr } <<
+    \new ChoirStaff \with {
+      instrumentName = \markup\smallCaps Ch.
+      shortInstrumentName = \markup\smallCaps Ch.
+    } <<
       \new Staff \with {
         \consists "Metronome_mark_engraver" 
         \consists "Mark_engraver"
@@ -70,13 +77,16 @@
     >>
     \new StaffGroupNoBracket <<
       \new Staff \with {
-        \bassoInstr
+        instrumentName = "B."
+        shortInstrumentName = "B."
         \consists "Metronome_mark_engraver"
         \consists "Mark_engraver"
         } <<
         \global \keepWithTag #'basso \includeNotes "bassi"
         \origLayout {
           s1*4\pageBreak
+          s1*3\pageBreak s1*4\pageBreak
+          s1*4\pageBreak s1*4\pageBreak
           s1*4\pageBreak s1*4\pageBreak
           s1*3\pageBreak s1*4\pageBreak
           s1*4\pageBreak s1*5\pageBreak
@@ -93,15 +103,23 @@
           s1*3\pageBreak s1*2\pageBreak
         }
       >>
-      \new Staff \with { \cbInstr } <<
+      \new Staff \with {
+        instrumentName = "Cb."
+        shortInstrumentName = "Cb."
+        \haraKiriFirst
+      } <<
+        { \startHaraKiri s1*16 \stopHaraKiri
+          s1*11 \startHaraKiri }
         \global \keepWithTag #'cb \includeNotes "bassi"
       >>
-      \new Staff \with { \timpaniInstr } <<
-        \global \includeNotes "timpani"
-      >>
+      \new Staff \with {
+        instrumentName = "Timp."
+        shortInstrumentName = "Timp."
+      } << \global \includeNotes "timpani" >>
     >>
   >>
   \layout {
+    indent = #(* 8 mm)
     \context {
       \Score
       \remove "Metronome_mark_engraver"

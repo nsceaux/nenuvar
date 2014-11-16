@@ -1,4 +1,15 @@
-\clef "alto" do'4.\f do'8 mi'4 sol' |
+\clef "alto" do'4. do8 mi4 sol |
+do'2 r |
+R1*2 |
+r2 r4 fa'-\sug\f |
+mi' mi'2 mi'4~ |
+mi' mi'2 mi'4 |
+mi'2 r |
+R1*4 |
+fa'!1 |
+mi'2 do'4-\sug\p mi' |
+sol'2 sol |
+do'4. do'8\f mi'4 sol' |
 do' <<
   { mi'8. mi'16 mi'4 fa' |
     sol' sol'8. sol'16 sol'4 la' |
@@ -27,20 +38,20 @@ mi'2 do'4\p mi' |
 sol'2 sol'4\f sol' |
 do'2 do'4. do'8 |
 do'2 do'4\p mi' |
-sol'2 sol'4 sol' |
+sol'2 sol |
 do'4.\fermata r8 r2 |
 R1*4 |
 R1^\fermataMarkup |
-r8. do'16 do'8. do'16 do'4\fermata r |
+r8. do'16-\sug\p do'8. do'16 do'4\fermata r | \allowPageTurn
 r8. la16 la8. la16 la4\fermata r |
 r8. do'16 do'8. do'16 do'4\fermata r |
 r8. do'16 do'8. do'16 do'4 r\fermata |
 la'2.\fermata\ff la4 |
 la'8 la'4 la' la' la'8~ |
 la' la'4 la' la' la'8 |
-sol' sol'4 sol'8 sol' re' re' si |
+sol' sol'4 sol'8 sol' re'[ re' si] |
 si sol'4 sol' sol' sol'8 |
-sol' si16[ do'] re' do' si la \rt#8 sol16 |
+sol' si16[ do'] re' do' si la \rt#4 sol8 |
 sol4 sol8. sol16 sol4 <sol re' si'> |
 <sol mi' do''>4. sol'16 mi' do'8 do' do' do' |
 do''4. sol'16 mi' do'8 do' do' do' |
@@ -53,7 +64,7 @@ sol8 sol'[ sol' sol'] sol' sol' sol' sol' |
 sol' sol'4 sol' sol' sol'8 |
 sol' sol16 sol sol8 sol sol4 sol8 sol |
 do'4 << { do''8 do'' } \\ { mi'! mi' } >> do4 r |
-r4 << { do''8 do'' } \\ { mi'! mi' } >> do4 << { do''8 do'' } \\ { mi'! mi' } >> |
+r4 << { do''8 do'' } \\ { mi' mi' } >> do4 << { do''8 do'' } \\ { mi' mi' } >> |
 << { \rt#8 mi'16 \rt#8 mi' |
     \rt#8 mi'16 \rt#8 mi' |
     \rt#8 mi'16 \rt#8 mi' |
@@ -86,12 +97,12 @@ r4 re' re' re' |
 \rt#4 sib16 \rt#4 sib16 \rt#4 sib16 \rt#4 sib16 |
 sib4 sib sib la |
 sol16 sol' sol' sol' \rt#4 sol' \rt#8 sol' |
-\rt#8 sol' \rt#8 sol' |
-mib'2. \rt#4 sol16 |
-\rt#4 lab \rt#4 la \rt#4 sib \rt#4 si |
-\rt#8 do' \rt#4 sib \rt#4 la |
-\rt#4 sib \rt#4 si \rt#4 do' \rt#4 re' |
-mib'4 <sol mib' sib'>4 q q |
+\rt#8 fa' \rt#8 fa' |
+mib'2. <>-\sug\p \rt#4 sol16 |
+<>\< \rt#4 lab \rt#4 la \rt#4 sib \rt#4 si |
+<>\!-\sug\ff \rt#8 do' \rt#4 sib <>-\sug\p \rt#4 la |
+<>\< \rt#4 sib \rt#4 si \rt#4 do' \rt#4 re' |
+<>\! mib'4 <sol mib' sib'>4-\sug\ff q q |
 q2 r |
 r4 q q q |
 q2 \rt#8 sol'16 |
@@ -112,7 +123,7 @@ mi'8. mi'16 mi'8. mi'16 mi'4 sol'( |
 sib' re') la2~ |
 la1~ |
 la~ |
-la |
+\once\tieDashed la~ |
 la2 mi' |
 mi'1 |
 mi'2 r |

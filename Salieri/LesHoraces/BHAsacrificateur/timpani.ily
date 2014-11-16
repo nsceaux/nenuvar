@@ -8,4 +8,4 @@ sol,2 r |
 r4 sol,8.\p sol,16 sol,4 sol, |
 sol,4. sol,8\f sol,4. sol,8 |
 sol,2 r |
-R1*35 |
+R1*20 |

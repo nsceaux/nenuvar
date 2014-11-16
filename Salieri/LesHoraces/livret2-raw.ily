@@ -383,6 +383,7 @@
 %# Vont décider du sort de l'un & l'autre empire:
 %# Ce jour même la guerre expire,
 %# Et ce dernier combat nous ré=unira tous.
+\livretRef #'BHBchoeur
 %# Jurez au nom des Dieux, par l'*honneur & la gloire,
 %# D'étouffer tout esprit de vengeance & d'aigreur:
 %# Qu'Albe ou Rome en ce jour emporte la victoire,

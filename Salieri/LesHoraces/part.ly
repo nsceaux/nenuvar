@@ -208,4 +208,10 @@
 \newBookPart #'()
 \intermede "Second intermède"
 \pieceToc\markup\wordwrap { Récit : Le Grand Sacrificateur }
-\includeScore "BHAsacrificateur"
+\includeScore "BHAsacrificateur" \noPageTurn
+% 2-17
+\pieceToc\markup\wordwrap {
+  Le Grand Sacrificateur, chœur :
+  \italic { Jurer au nom des Dieux, par l’honneur & la gloire }
+}
+\includeScore "BHBchoeur"

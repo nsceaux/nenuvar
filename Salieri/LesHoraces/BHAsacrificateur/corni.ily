@@ -35,20 +35,6 @@ R1*7 |
 la''2 r |
 R1*2 |
 r2 r4 \twoVoices #'(corno1 corno2 corni) <<
-  { re''4 | mi''4. }
-  { sol'4 | do''4. }
->> <>^"Il corni soli" do'8 mi'4 sol' |
-do'' do''8. do''16 do''4 do'' |
-do'' do''8. do''16 do''4 do''~ |
-do'' do''2 do''4~ |
-do'' do'8. do'16 do'4 r |
-mi'2 mi' |
-mi' mi' |
-mi' r4 do'' |
-re'' re''8. re''16 re''4 re'' |
-re'' re''8. re''16 re''4 re'' |
-re'' re''2 re''4~ |
-re'' sol'8. sol'16 sol'4 r |
-sol'1~ |
-sol'4 r r2 |
-R1 |
+  { re''4 | }
+  { sol'4 | }
+>>

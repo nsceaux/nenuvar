@@ -731,6 +731,7 @@
 \livretVerse#12 { Vont décider du sort de l’un & l’autre empire : }
 \livretVerse#8 { Ce jour même la guerre expire, }
 \livretVerse#12 { Et ce dernier combat nous réunira tous. }
+\livretRef #'BHBchoeur
 \livretVerse#12 { Jurez au nom des Dieux, par l’honneur & la gloire, }
 \livretVerse#12 { D’étouffer tout esprit de vengeance & d’aigreur : }
 \livretVerse#12 { Qu’Albe ou Rome en ce jour emporte la victoire, }

@@ -321,7 +321,7 @@
   \includeScore "BGBensemble"
 }
 
-%% 2-16
+% 2-16
 \bookpart {
   \intermede "Second intermède"
   \sceneDescription\markup\column {
@@ -344,7 +344,14 @@
   \pieceToc\markup\wordwrap { Récit : Le Grand Sacrificateur }
   \includeScore "BHAsacrificateur"
 }
-
+% 2-17
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Le Grand Sacrificateur, chœur :
+    \italic { Jurer au nom des Dieux, par l’honneur & la gloire }
+  }
+  \includeScore "BHBchoeur"
+}
 
 %% Livret
 \bookpart {

@@ -1,4 +1,46 @@
-\clef "treble" do'4.\f do'8 mi'4 sol' |
+\clef "treble"
+<<
+  \tag #'violino1 {
+    << <do''' mi''>4. \\ sol' >>
+  }
+  \tag #'violino2 {
+    << mi''4. \\ do'' >>
+  }
+>> do'8 mi'4 sol' |
+<<
+  \tag #'violino1 { do''2 }
+  \tag #'violino2 { mi'2 }
+>> r2 |
+R1*2 |
+r2 r4 la'8.\f la'16 |
+<<
+  \tag #'violino1 {
+    si'!4 si'8. si'16 do''4 do''8. do''16 |
+    re''4. re''8 si'4. si'8 |
+    do''2
+  }
+  \tag #'violino2 {
+    sold'4 sold'8. sold'16 la'4 la'8. la'16 |
+    si'4. si'8 sold'4. sold'8 |
+    la'2
+  }
+>> r2 |
+R1*4 |
+<<
+  \tag #'violino1 {
+    \once\tieUp <sol'' si' re'>1~ |
+    << { \once\stemUp \smallNotes sol''2 }
+      \new Voice { \voiceTwo do''2 }
+    >> mi'4\p mi' |
+    re'2 re'4 re' |
+  }
+  \tag #'violino2 {
+    <si re'>1 |
+    <do' mi'>2 do'-\sug\p~ |
+    do' si |
+  }
+>>
+do'4. do'8\f mi'4 sol' |
 <sol mi' do''>4 r r2 |
 q4 r r <<
   \tag #'violino1 {
@@ -45,14 +87,14 @@ q4 r r <<
   }
 >>
 <sol mi' do''>2 <do'' mi'>4. q8 |
-<sol mi' do'' mi''>2 <mi' do'>4 q |
+<sol mi' do'' mi''>2 <mi' do'>4-\sug\p q |
 << re'2 \\ do' >> <re' si>4 q |
 do'4.\fermata r8 r2 |
 R1*4 |
-R1^\fermataMarkup |
+R1^\fermataMarkup | \allowPageTurn
 <<
   \tag #'violino1 {
-    r8. <sol sol'>16 q8. q16 q4\fermata r4 |
+    r8. <sol sol'>16\p q8. q16 q4\fermata r4 |
     r8. <mi' do''>16 q8. q16 q4\fermata r4 |
     r8. mi''16 mi''8. mi''16 mi''4\fermata r4 |
     r8. fa''16 fa''8. fa''16 fa''4 r4\fermata |
@@ -60,13 +102,13 @@ R1^\fermataMarkup |
     re''4. fad''16 la'' re'''8 re''' re''' re''' |
     re'''2 do'4. do'8 |
     si8 << { sol''4 sol''8 } \\ { si'4 si'8 }
-    >> <sol'' si'>8 si' si' do'' |
+    >> <sol'' si'>8 si'[ si' do''] |
     re''8 si''4 si''8 do''' mi''4 mi''8 |
-    re'' si16 do' re' do' si la sol8 re'' mi'' mi'' |
+    re'' si16[ do'] re' do' si la sol8 re'' mi'' mi'' |
     fa'' si''4 re'''8 re'''4
   }
   \tag #'violino2 {
-    r8. <sol mi'>16 q8. q16 q4\fermata r4 |
+    r8. <sol mi'>16-\sug\p q8. q16 q4\fermata r4 |
     r8. <la mi'>16 q8. q16 q4\fermata r4 |
     r8. sib'16 sib'8. sib'16 sib'4\fermata r4 |
     r8. la'16 la'8. la'16 la'4 r4\fermata |
@@ -79,7 +121,7 @@ R1^\fermataMarkup |
         si }
     >> <re' si'>4 q8 q sol'[ sol' la'] |
     si' re''4 re''8 mi'' do''4 do''8 |
-    si' si16 do' re' do' si la sol8 si' do'' do'' |
+    si' si16[ do'] re' do' si la sol8 si' do'' do'' |
     re'' << { fa''4 fa''8 fa''4 } \\ { re''4 re''8 re''4 }
     >>
   }
@@ -95,7 +137,7 @@ R1^\fermataMarkup |
   }
 >> \rt#4 sol16 sol4 <<
   \tag #'violino1 {
-    <re' si sol'>4 |
+    <re' si' sol''>4 |
     mi''4. do'''16 re''' mi'''8 mi'''4 mi'''8~ |
     mi''' << { mi'''4 mi''' mi''' mi'''8 | mi'''8 }
       \\ { mi''4 mi'' mi'' mi''8 | mi'' }
@@ -108,12 +150,12 @@ R1^\fermataMarkup |
     do''8
   }
 >> do'16 re' mi' re' do' si la4 << la''4 \\ la' >> |
-<re' la' fa''>16 re' re' re' \rt#4 re' re'4 <re' la' fa''> |
+<re' la' fad''>16 re' re' re' \rt#4 re' re'4 <re' la' fad''> |
 <re' si' sol''>8
 <<
   \tag #'violino1 {
-     re'''8 re''' re''' re''' re''' re''' re''' |
-     mib''' mib'''4~ mib''' mib''' mib'''8 |
+     re'''8[ re''' re'''] re''' re''' re''' re''' |
+     mib''' mib'''4 mib''' mib''' mib'''8 |
      re'''
   }
   \tag #'violino2 {
@@ -155,8 +197,8 @@ fad'' fad'' la'' la'' re''' re''' la'' la'' fad'' fad'' re'' re'' la' la' fad' f
         la'' la''4 la'' la'' la''8 |
         \rt#4 re'''16 \rt#4 re'''16 \rt#4 re'''16 }
       \\ { la'4 la' la' la'8 |
-        la' la'4 la' la' la'8 |
-        la' la'4 la' la' la'8 |
+        la' la'4 la'8 la'2 |
+        la'1 |
         <>\ff \rt#4 re''16 \rt#4 re'' \rt#4 re'' }
     >> \rt#4 la''16 |
     \rt#4 re''' \rt#4 la'' \rt#4 re''' \rt#4 fa''' |
@@ -172,12 +214,11 @@ fad'' fad'' la'' la'' re''' re''' la'' la'' fad'' fad'' re'' re'' la' la' fad' f
   \tag #'violino2 {
     sol'16 <re' si!> <re' si> q \rt#4 q <<
       { \rt#8 mib'16 |
-        \rt#8 fa' \rt#8 mib' |
-        \rt#8 re' \rt#8 re' | } \\
+        \rt#8 fa' \rt#8 mib' | } \\
       { \rt#8 do' |
-        \rt#8 re' \rt#8 do' |
-        \rt#8 si \rt#8 si | }
+        \rt#8 re' \rt#8 do' | }
     >>
+    \rt#8 <re' si>16 \rt#8 <re' si>16 |
     <do' mi'!>4 <<
       { mi''!8 mi'' mi''4 } \\ { sol'8 sol' sol'4 }
     >> re''8 re'' |
@@ -189,7 +230,7 @@ fad'' fad'' la'' la'' re''' re''' la'' la'' fad'' fad'' re'' re'' la' la' fad' f
       { mi''4 mi'' mi'' mi''8 |
         fa'' fa''4 fa'' fa'' fa''8 |
         mi'' mi''4 mi'' mi'' mi''8 |
-        \rt#4 re'16 \rt#4 re' \rt#4 re' }
+        <>\ff \rt#4 re'16 \rt#4 re' \rt#4 re' }
     >> \rt#4 la'16 |
     \rt#4 re'' \rt#4 la' \rt#4 re'' \rt#4 fa'' |
     \rt#8 re'' <<
@@ -239,9 +280,9 @@ q4 <mib' sib' sol''>4 q q |
     \rt#8 sol''16 \rt#8 sol'' |
     \rt#8 sol''16 \rt#8 sol'' |
     \rt#8 sol''16 \rt#8 sol'' |
-    sol''8 << { si''!4 si'' si'' si''8 |
+    sol''8 << { si''!4 si'' si'' \once\tieDashed si''8~ |
         si'' si''4 si'' si'' si''8 | } \\
-      { re''4 re'' re'' re''8 |
+      { re''4 re'' re'' \once\tieDashed re''8~ |
         re'' re''4 re'' re'' re''8 | }
     >>
     <re'' si''>2~ q~ |

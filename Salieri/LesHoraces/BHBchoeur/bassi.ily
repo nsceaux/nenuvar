@@ -1,28 +1,79 @@
 \clef "bass" do4. do8 mi4 sol |
 do4 <<
+  \tag #'(fagotto1 fagotto2 fagotti) {
+    \twoVoices #'(fagotto1 fagotto2 fagotti) <<
+      { mi8. mi16 mi4 fa |
+        sol sol8. sol16 sol4 la |
+        sib la sol4. sol8 |
+        la4 la8. la16 la4 s |
+        si!2 do' |
+        re' si |
+        do' s |
+        s4 fad8. fad16 fad4 sol |
+        la4 la8. la16 la4 si |
+        do' si la4. la8 |
+        si4 si8. si16 si4 s |
+        \clef "tenor" re'1 |
+        mi'2 }
+      { do8. do16 do4 re |
+        mi mi8. mi16 mi4 fa |
+        sol fa mi4. mi8 |
+        fa4 fa8. fa16 fa4 s |
+        sold2 la |
+        si sold |
+        la s |
+        s4 re8. re16 re4 mi |
+        fad4 fad8. fad16 fad4 sol |
+        la sol fad4. fad8 |
+        sol4 sol8. sol16 sol4 s |
+        \clef "tenor" si1 |
+        do'2 }
+      { s2. | s1*2 | s2. r4 | s1*2 |
+        s2 r | r4 s2. | s1*2 | s2. r4 | }
+    >> \clef "bass" 
+  }
+  \tag #'(basso cb) {
+    r4 r do |
+    do r r2 |
+    do4 r r2 |
+    fa4 r r fa8.-\sug\f fa16 |
+    mi2 mi |
+    mi mi4. mi8 |
+    la,2 r |
+    re r |
+    re r |
+    re r |
+    sol4 sol,8. sol,16 sol,4 r |
+    fa!1 |
+    mi2 <>-\sug\p
+  }
+>> do4 mi |
+sol2 sol, |
+do4. do8\f mi4 sol |
+do4 <<
   \tag #'basso <>^"Violoncelli"
   \tag #'(fagotto1 basso fagotti) \new Voice {
     \tag #'(basso fagotti) \voiceOne
     mi8. mi16 mi4 fa |
     sol sol8. sol16 sol4 la |
     sib la sol4. sol8 |
-    la4 la8. la16 la4 fa |
+    la4 la8. la16 la4
   }
   \tag #'(fagotto2 basso fagotti) \new Voice {
     \tag #'(basso fagotti) \voiceTwo
     do8. do16 do4 re |
     mi mi8. mi16 mi4 fa |
     sol fa mi4. mi8 |
-    fa4 fa8. fa16 fa4 fa |
+    fa4 fa8. fa16 fa4
   }
   \tag #'cb {
     <>^"C.Basso"
     r r2 |
     do4 r r2 |
     do4 r r do |
-    fa4 r r fa |
+    fa4 r r
   }
->>
+>> fa4 |
 mi2 mi |
 mi4. mi8 mi4. mi8 |
 la,2 r4 la |
@@ -69,7 +120,7 @@ re4 <<
   \tag #'(basso cb) {
     fa1 |
     mi2 do4\p mi |
-    sol2 << { sol4 sol } \\ { sol,4 sol, } >> |
+    sol2 << { sol4 sol } \\ { sol,4\f sol, } >> |
   }
 >>
 do2 do4. do8 |
@@ -101,10 +152,10 @@ R1^\fermataMarkup |
         si2. do'4 |
         si1 | }
       { s1*3 | s2. r4 | r }
-    >>
+    >> \clef "bass"
   }
   \tag #'(basso cb) {
-    r8. do16\p do8. do16 do4\fermata r4 |
+    \allowPageTurn r8. do16\p do8. do16 do4\fermata r4 |
     r8. la,16 la,8. la,16 la,4\fermata r4 |
     r8. sol16 sol8. sol16 sol4\fermata r4 |
     r8. fa16 fa8. fa16 fa4 r4\fermata |
@@ -125,15 +176,14 @@ sol4
     sol,2 sol4 |
     do4 do'2 do'4 |
     sold1 |
-    la8
   }
   \tag #'(basso cb) {
     r4 r sol4 |
     \rt#8 do'8 |
     \rt#8 sold |
-    la8
   }
->> do16 re mi re do si, la,4 r |
+>>
+la8 do16 re mi re do si, la,4 r |
 re2 r4 re |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
@@ -144,7 +194,7 @@ re2 r4 re |
     >> r4 | \clef "bass"
   }
   \tag #'(basso cb) {
-    sol,8 sol sol sol \rt#4 sol |
+    sol,8 sol[ sol sol] \rt#4 sol |
     \rt#4 sol \rt#4 sol |
     sol8 sol,16 sol, sol,8 sol, sol,4 r |
   }
@@ -168,14 +218,14 @@ r4 do8 do do4 do |
     >> \clef "bass"
   }
   \tag #'(basso cb) {
-    \rt#4 do8 \rt#4 do8 |
-    \rt#4 do8 \rt#4 do8 |
-    \rt#4 do8 \rt#4 do8 |
-    \rt#4 fa \rt#4 fa |
-    \rt#4 fa \rt#4 fa |
-    \rt#4 fa \rt#4 mib |
-    \rt#4 re \rt#4 re |
-    \rt#4 re \rt#4 re |
+    \rt#8 do16 \rt#8 do16 |
+    \rt#8 do16 \rt#8 do16 |
+    \rt#8 do \rt#8 do |
+    \rt#8 fa \rt#8 fa |
+    \rt#8 fa \rt#8 fa |
+    \rt#8 fa \rt#8 mib |
+    \rt#8 re \rt#8 re |
+    \rt#8 re \rt#8 re |
     sol,1~ |
     sol,~ |
     sol, |
@@ -198,9 +248,9 @@ re4 la, re fa |
         sol'1 | re' | mib'2. }
       { re'4. re'8 | sib4 re'2 do'4 |
         sib1 | lab | sol2. }
-    >> \clef "bass" sol4 |
-    lab la sib si |
-    do'2 sib4 la |
+    >> \clef "bass" sol4-\sug\p |
+    lab\< la sib si |
+    do'2\! sib4 la |
     sib si do' re' |
     \clef "tenor" mib' mib' mib' mib' |
     mib' r \twoVoices #'(fagotto1 fagotto2 fagotti) <<
@@ -209,7 +259,7 @@ re4 la, re fa |
     >> r2 |
     r mib' |
     re' do' |
-    si do' |
+    si! do' |
     re' do' |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { re'1 | re'~ | re'~ | re'~ |
@@ -229,7 +279,7 @@ re4 la, re fa |
     r4 sib sib la |
     \rt#4 sol8 \rt#4 sol |
     \rt#4 fa \rt#4 fa |
-    mi2. <>\p \rt#4 sol16 |
+    mib?2. <>\p \rt#4 sol16 |
     <>\< \rt#4 lab \rt#4 la \rt#4 sib \rt#4 si |
     <>\! \rt#8 do' \rt#4 sib <>\p \rt#4 la |
     <>\< \rt#4 sib \rt#4 si \rt#4 do' \rt#4 re' |
@@ -238,7 +288,7 @@ re4 la, re fa |
     \rt#4 mib8 \rt#4 mib |
     \rt#4 mib8 \rt#4 mib |
     \rt#4 re \rt#4 do |
-    \rt#4 si, \rt#4 do |
+    \rt#4 si,! \rt#4 do |
     \rt#4 re \rt#4 do |
     sol,8 sol sol sol \rt#4 sol |
     \rt#4 sol \rt#4 sol |

@@ -31,14 +31,3 @@ si2 do''!~ |
 \smallNotes si'1~ |
 \once\tieDashed si'~ |
 si'2 r4 sol' |
-do'4. do8 mi4 sol |
-do'2 r |
-R1*2 |
-r2 r4 fa'-\sug\f |
-mi' mi'2 mi'4~ |
-mi' mi'2 mi'4 |
-mi'2 r |
-R1*4 |
-fa'!1 |
-mi'2 do'4-\sug\p mi' |
-sol'2 sol |

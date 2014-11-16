@@ -1,10 +1,11 @@
-\clef "vbasse" r2 r4 sol8. sol16 |
+\clef "vbasse" R1*15 |
+r2 r4 sol8. sol16 |
 do'2 do'4. do'8 |
 do'2. do'8 do' |
 do'2 do'4 do' |
 la2 la8 r la8. la16 |
 sold4 sold8 sold la4 la8 la |
-si2 sold4.\prall sold8 |
+si2 sold4. sold8 |
 la2 r4 do'8. la16 |
 re'2 re'4. re'8 |
 re'2. re'4 |
@@ -15,7 +16,7 @@ do'2 do'4 do' |
 sol2 sol4 sol |
 do2 r |
 R1*7 |
-r2 r4^\fermataMarkup mi8. fa16 |
+r2 r4^\fermata mi8. fa16 |
 sol4 sol r\fermata r |
 r2 r4\fermata r8 do' |
 sib4 sib r2\fermata |

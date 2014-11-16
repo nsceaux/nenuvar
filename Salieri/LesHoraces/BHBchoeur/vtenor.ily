@@ -1,4 +1,4 @@
-\clef "vtaille" R1*14 |
+\clef "vtaille" R1*29 |
 r2 sol4. sol8 |
 mi'2 mi'4. mi'8 |
 sol'2 do'4^\p do' |
@@ -24,7 +24,7 @@ mi' mi' mi' mi' si4 mi' |
 mi'2 r |
 R1 |
 r4 re'8 re' re'4 re'8 re' |
-do'4 do'8 mi' sol'4 sol'8 sol' |
+do'4 do'8 mib'? sol'4 sol'8 sol' |
 sol2 r |
 r4 mi'8 mi' sol'2 |
 r4 mi'8 mi' sol'4 mi'8 mi' |

@@ -1,4 +1,4 @@
-\clef "bass" R1*18 |
+\clef "bass" R1*33 |
 r4 r8\fermata sol,16\ff sol, do8 do do do |
 do8 do16 do do8 do do do[ do do] |
 do4 r8 do16 do do4 r8 do16 do |

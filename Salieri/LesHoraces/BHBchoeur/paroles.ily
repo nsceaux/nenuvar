@@ -1,5 +1,8 @@
 \tag #'vbasse2 {
-  - queur.
+  Ju -- rez au nom des Dieux, par l’hon -- neur & la gloi -- re,
+  D’é -- touf -- fer tout es -- prit de ven -- geance & d’ai -- greur :
+  Qu’Albe ou Rome en ce jour ob -- tien -- ne la vic -- toi -- re,
+  Ju -- rez tous d’o -- bé -- ir au par -- ti du vain -- queur.
 }
 \tag #'(vtenor1 vbasse1) {
   Nous ju -- rons tous aux Dieux, par l’hon -- neur & la gloi -- re
@@ -65,10 +68,10 @@
   Lais -- sez- nous.
 }
 \tag #'(vsoprano vtenor vbasso) {
-  Nous ne souf -- fri -- rons point ce meurtre a -- bo -- mi -- na -- ble
+  Nous ne souf -- fri -- rons pas ce meurtre a -- bo -- mi -- na -- ble
 }
 \tag #'(valto) {
-  De la terre & du Ciel c’est ou -- tra -- ger les loix.
+  De la terre & du Ciel c’est ou -- tra -- ger les loix. __
 }
 \tag #'(vsoprano valto vtenor vbasso) {
   Oui, la guerre é -- toit moins cou -- pa -- ble

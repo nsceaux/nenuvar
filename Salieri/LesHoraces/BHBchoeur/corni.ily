@@ -1,4 +1,22 @@
 \clef "treble"
+\twoVoices #'(corno1 corno2 corni) <<
+  { mi''4. }
+  { do''4. }
+>> <>^"Il corni soli" do'8 mi'4 sol' |
+do'' do''8. do''16 do''4 do'' |
+do'' do''8. do''16 do''4 do''~ |
+do'' do''2 do''4~ |
+do'' do'8. do'16 do'4 r |
+mi'2 mi' |
+mi' mi' |
+mi' r4 do'' |
+re'' re''8. re''16 re''4 re'' |
+re'' re''8. re''16 re''4 re'' |
+re'' re''2 re''4~ |
+re'' sol'8. sol'16 sol'4 r |
+sol'1~ |
+sol'4 r r2 |
+R1 |
 r4 r8 do' mi'4 sol' |
 do'' do''8. do''16 do''4 do'' |
 do'' do''8. do''16 do''4 do''~ |
@@ -23,7 +41,8 @@ r sol'4.\f sol'8 |
   { sol'1 | }
   { sol1 | }
 >>
-do'4 r8\fermata <>^"Cors tacet" sol'16 sol' mi'8 do' mi' sol' |
+do'4 r8\fermata <>^"Cors tacet" _"Fièrement"
+sol'16 sol' mi'8 do' mi' sol' |
 do''8 sol'16 sol' sol'8 sol' \twoVoices #'(corno1 corno2 corni) <<
   { sol'8 mi' sol' do'' |
     mi''4 s8 sol''16 sol'' sol''4 s8 mi''16 mi'' |

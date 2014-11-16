@@ -1,9 +1,9 @@
-\clef "vbas-dessus" R1*14 |
+\clef "vbas-dessus" R1*29 |
 r2 <>^\markup\smallCaps [Tous] sol'4. sol'8 |
 do''2 do''4. do''8 |
 mi''2 do''4^\p do'' |
 sol'2 sol'4 sol' |
-mi'2 r\fermata |
+do'2 r\fermata |
 R1*4 |
 R1^\fermataMarkup |
 R1*4 |

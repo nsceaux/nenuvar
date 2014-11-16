@@ -1,4 +1,4 @@
-\clef "vbasse" R1*14 |
+\clef "vbasse" R1*29 |
 r2 sol4. sol8 |
 do'2 do'4. do'8 |
 do'2 do4^\p mi |
@@ -47,7 +47,7 @@ sib1~ |
 sib4 sib sib la |
 sol2 sol |
 re' re' |
-mib' r4 sol8 sol |
+mib' r4 sol8^\sug\p sol |
 lab4 la sib si |
 do'2 sib4 la8 la |
 sib4 si do' re' |
@@ -56,7 +56,7 @@ mib'1~ |
 mib'4 mib' mib' mib' |
 mib'2 mib' |
 re' do' |
-si do' |
+si! do' |
 re' do' |
 sol1~ |
 sol~ |

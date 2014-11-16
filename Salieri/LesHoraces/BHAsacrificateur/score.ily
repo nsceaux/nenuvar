@@ -18,9 +18,6 @@
         }
         shortInstrumentName = \markup\center-column { Ob. Cl. }
       } << \global \keepWithTag #'oboi \includeNotes "oboi" >>
-      \new Staff \with { \flautiInstr } <<
-        \global \keepWithTag #'flauti \includeNotes "flauti"
-      >>
       \new Staff \with { \fagottiInstr } <<
         \global \keepWithTag #'fagotti \includeNotes "bassi"
       >>
@@ -60,9 +57,6 @@
           s1*4\pageBreak s1*4\pageBreak
           s1*3\pageBreak s1*2\pageBreak
           s1*3\pageBreak s1*2\pageBreak
-          s1*3\pageBreak s1*3\pageBreak
-          s1*3\pageBreak s1*4\pageBreak
-          s1*4\pageBreak
         }
       >>
       \new Staff \with { \timpaniInstr } <<
