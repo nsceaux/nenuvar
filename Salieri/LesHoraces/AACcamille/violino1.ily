@@ -27,7 +27,7 @@ si'4 r8. <re' si>16\f[ <do' mi'>8. q16] |
 sol'8 sib''\f([ la'' sol'' fa'' la'']) |
 do''2\p re''4 |
 do''16( sol' mi' sol') do''( sol' mi' sol') do''(\cresc sol' do'' re'') |
-mi''( do'' mi'' fa'') sol''8\! sol''4\f sib'8\p |
+mi''( do'' mi'' fa'') sol''8\!\f sol''4 sib'8\p |
 la'4 r8. do'16[\f re'8. re'16] |
 do'4 r8. <fa' la'>16 <sol' sib'>8. q16 |
 <fa' la'>8 do''\p[ do'' do'' do'' do''] |
@@ -43,8 +43,8 @@ do''16 sol''([ fa'' mib''] re'' do'' si' do'' mib'' do'' mib'' do'') |
 r16 sol''( fa'' mib'' re'' do'' si' do'' mib'' do'' mib'' do'') |
 r16 do'''( sib'' lab'' sol'' fa'' mi''! fa'' fa'' re'' fa'' re'') |
 r16 sol''( mib'' do'') r sol''( mib'' do'') r re''( si' sol') |
-sol'\p do'' mib'' mib'' <>\cresc \rt#4 mib''16 fa''( fa'' sol'' lab''\!) |
-sol''16\f do'''8 do''' do''' do'''16 si''16 si''8 si''16 |
+sol'\p do'' mib'' mib'' <>\cresc \rt#4 mib''16 fa''( fa'' sol'' lab'') |
+sol''16\!\f do'''8 do''' do''' do'''16 si''16 si''8 si''16 |
 do'''8\ff do'''4 do'''8 mib''' do''' |
 do'''2( si''4) |
 re'''4. si''8( sol'' fa'') |

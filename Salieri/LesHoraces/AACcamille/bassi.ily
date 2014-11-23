@@ -7,7 +7,7 @@ r do\p do |
 do do do |
 do2 r8. re16\f |
 re4( do2) |
-fa4 fa, r |
+fa4-\sug\p fa, r |
 fa4. mi8\cresc re8 fa\! |
 sol4 sol, r |
 r8. sol,16\ff sol,2 |
@@ -25,9 +25,9 @@ r8. sol,16\ff sol,4~ sol,8. sol16 |
 do4 r r |
 R2. |
 r8 sol\f( fa mi re fa) |
-\rt#4 sol8 sol, sol, |
+<>-\sug\p \rt#4 sol8 sol, sol, |
 << \rt#6 do8 { s2 s4\cresc } >> |
-<< \rt#6 do8 { s4. s4\! s8\p } >> |
+<< \rt#6 do8 { s4 s\! s\p } >> |
 fa4 r sib,8.\f re16 |
 fa8. fa,16 fa8. fa16 mi8. do16 |
 fa4\p fa fa |
@@ -37,7 +37,7 @@ re2\f( fa4)\p |
 sol sol fad |
 sol2( fa!4)\sf |
 mib8\p mib mib mib mib mib |
-<< \rt#6 fa8 { s8 s\cresc s4. s8\! } >> |
+<< \rt#6 fa8 { s8 s\cresc s2 <>\! } >> |
 <>\f \rt#6 fa8 |
 <>\p \rt#6 mib8 |
 \rt#6 mib |
