@@ -1,5 +1,5 @@
 \clef "alto" re'8-\sug\f fa' re' fa' re'-\sug\p fa' re' fa' |
-mib' sib-\sug\cresc mib' sib mib' sib sol'-\!-\sug\f fa' |
+mib'-\sug\cresc sib mib' sib mib' sib sol'-\!-\sug\f fa' |
 mib' sib sol' mib' sol'-\sug\p mib' re' do' |
 sib re' sib-\sug\ff re' sib re'-\sug\p sib re' |
 do' mib' do' mib' sib re' sib re' |
@@ -16,8 +16,8 @@ fa'\f la' fa' la' fa' la' fa' la' |
 mi' mi'4 mi' mi' mi'8 |
 fa' fa'4 fa' fa' fa'8 |
 mi'8 mi'4 mi' mi' mi'8 |
-fa'4 fa la do' |
-la fa la do' |
+fa'4 fa-\sug\f la do' |
+la fa-\sug\p la do' |
 fa' sib'8. sib'16 la'8.-\sug\cresc la'16 sol'8. sol'16 |
 fa'8. fa'16 sib'8. sib'16 la'8. la'16 sol'8. sol'16\! |
 fa'2.-\sug\f sib4-\sug\p |

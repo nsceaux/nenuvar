@@ -1,5 +1,5 @@
 \clef "treble" re'8-\sug\f fa' re' fa' re'-\sug\p fa' re' fa' |
-mib' sib\cresc mib' sib mib' sib sol'\!-\sug\f fa' |
+mib'\cresc sib mib' sib mib' sib sol'\!-\sug\f fa' |
 mib' sib sol' mib' sol'-\sug\p mib' re' do' |
 re' fa' re'-\sug\ff fa' re' fa'-\sug\p re' fa' |
 mib' fa' mib' fa' re' fa' re' fa' |
@@ -55,7 +55,7 @@ do' r r mib''( |
 re''2.) mib''4( |
 re''2.) mib''4 |
 re'' re'(-\sug\sf mib' fa') |
-sol'8 sol'4-\sug\mf sol'8 la'8 la'4-\sug\cresc la'8 |
+sol'8 sol'4-\sug\mf sol'8 la'8-\sug\cresc la'4 la'8 |
 sib'4 sol''8. sol''16 fa''8. fa''16 mib''8. mib''16 |
 re''8. re''16 sol''8. sol''16 fa''8. fa''16 mib''8. mib''16 |
 <>-\sug\f \rt#4 re''8 \rt#4 mib'' |

@@ -55,7 +55,7 @@ r mi''8\sf( fa'') fa''2~ |
 fa''4 mi''8\sf( fa'') fa''2~ |
 fa''4 mi''8\sf( fa'') fa''2~ |
 fa''4 re''\sf( mib'' fa'') |
-sol''8 sol''4\mf sol''8 la'' la''4\cresc la''8 |
+sol''8 sol''4\mf sol''8 la''\cresc la''4 la''8 |
 <<
   \new Voice {
     \voiceOne sib''8 sib''4 sib'' sib'' sib''8~ |
@@ -71,7 +71,7 @@ sib'4 mi''8\sf( fa'') fa''2~ |
 fa''4 mi''8\sf( fa'') fa''2~ |
 fa''4 mi''8\sf( fa'') fa''2~ |
 fa''4 fa''(\sf re'' do'') |
-si'1 |
+si'1-\sug\p |
 do''4 do'' r re'' |
 r mib'' r do'' |
 r4 sib'(\sf fa'' re'') |
