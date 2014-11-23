@@ -1,4 +1,4 @@
-\clef "treble" <>-\markup\italic { con sordini }
+\clef "treble" <>^\markup\italic { con sordini }
 sol'16(\> mi' re' do' si do')\! |
 la8( si do') |
 sol'16(\> mi' re' do' si do')\! |
