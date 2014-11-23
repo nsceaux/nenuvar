@@ -2,7 +2,7 @@
 r2 sib'~ |
 sib' do''~ |
 do''1~ |
-do''4 do''2\mf do''4 |
+do''4 do''2\rmf do''4 |
 do''1~ |
 do''8.[ do''16\f do''8. do''16] si'!2~ |
 si'1~ |

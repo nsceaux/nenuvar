@@ -2,7 +2,7 @@
 r2 sol~ |
 sol lab~ |
 lab1~ |
-lab4 lab\mf( sol fa) |
+lab4 lab\rmf( sol fa) |
 mi!1 |
 fa8.[ fa16\f fa8. fa16] sol2~ |
 sol1~ |

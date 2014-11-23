@@ -816,3 +816,4 @@ sug =
     \normal-text\italic ] }#})))
           arg)
           
+rmf = #(make-dynamic-script "rmf")
