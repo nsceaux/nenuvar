@@ -1,5 +1,5 @@
 \clef "alto" r8 |
-r2 do'4 r |
+r2 do'4-\sug\p r |
 r2 fa'4 r |
 r2 fa8\f la16 do' fa'8 sol' |
 la'4 la r2 |

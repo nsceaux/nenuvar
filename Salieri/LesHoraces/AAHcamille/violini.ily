@@ -1,5 +1,5 @@
 \clef "treble" r8 |
-r2 << \tag #'violino1 do''4\p \tag #'violino2 sol'4 >> r4 |
+r2 << \tag #'violino1 do''4\p \tag #'violino2 sol'4-\sug\p >> r4 |
 r2 << \tag #'violino1 la'4 \tag #'violino2 do' >> r4 |
 r2 <fa' do'' la''!>4.\f \grace do'''16 sib''16 la''32 sib'' |
 do'''8. la''16 fa''4 r2 |
