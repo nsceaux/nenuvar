@@ -27,7 +27,7 @@ R1*4 |
 la'4\ff la'8. la'16 la'4 la' |
 re''1 |
 R1*4 |
-la''4 la''8. la''16 la''4 la'' |
+la''4-\sug\ff la''8. la''16 la''4 la'' |
 <<
   \tag #'oboe1 {
     re'''1~ | re'''~ | re'''~ | re''' | re'''2
@@ -181,7 +181,7 @@ R1*5
   \tag #'oboe2-conducteur R1*25
 >>
 R1*4 |  \allowPageTurn
-la'4 la'8 la' la'4 la' |
+la'4-\sug\f la'8 la' la'4 la' |
 re''1 |
 R1*4 |
 la''4\f la''8 la'' la''4 la'' |
@@ -193,14 +193,14 @@ la''4\f la''8 la'' la''4 la'' |
     re'''4 fad''8 fad'' fad''4 fad'' |
     fad''1~ |
     fad'' |
-    mi'' |
-    la'' |
+    mi''-\sug\sf |
+    la''-\sug\sf |
     la''4. la''8 la''4. la''8 |
     si''4. si''8 si''4. si''8 |
     fad''1 |
     mi'' |
     mi''\sf |
-    la'' |
+    la''-\sug\sf |
     la''4. la''8 la''4. la''8 |
     si''4. si''8 si''4. si''8 |
     fad''1 |
@@ -213,13 +213,14 @@ la''4\f la''8 la'' la''4 la'' |
     fad''4 re''8 re'' re''4 re'' |
     red''1~ |
     red'' |
-    si' dod'' |
+    si'-\sug\sf |
+    dod''-\sug\sf |
     re''4. re''8 re''4. re''8 |
     re''4. re''8 re''4. re''8 |
     re''1 |
     dod'' |
     si'-\sug_\sf |
-    dod'' |
+    dod''-\sug\sf |
     re''4. re''8 re''4. re''8 |
     re''4. re''8 re''4. re''8 |
     re''1 |

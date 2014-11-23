@@ -8,18 +8,15 @@ R1*6 |
 r2 r4 la,8 si,16 dod |
 re1 |
 <<
-  \tag #'(fagotto1 fagotti) \new Voice {
-    \tag #'fagotti \voiceOne
-    la1 | si~ | si | la~ |
-    la | la~ | la | si~ |
-    si | la~ | la |
-  }
-  \tag #'(fagotto2 fagotti) \new Voice {
-    \tag #'fagotti \voiceTwo
-    fad1 | sol~ | sol | fad~ |
-    fad | fad~ | fad | sol~ |
-    sol | sol~ | sol |
-  }
+  \twoVoices #'(fagotto1 fagotto2 fagotti) <<
+    { la1 | si~ | si | la~ |
+      la | la~ | la | si~ |
+      si | la~ | la | }
+    { fad1 | sol~ | sol | fad~ |
+      fad | fad~ | fad | sol~ |
+      sol | sol~ | sol | }
+    { <>-\sug\p s1*4 <>-\sug\ff s1*2 <>-\sug\p s1*4 <>-\sug\ff }
+  >>
   \tag #'basso {
     <>\p \repeat unfold 8 \rt#4 re8
     <>\f \repeat unfold 4 \rt#4 re8
@@ -42,7 +39,7 @@ si4 si8 si si4 si |
 si2 si, |
 <<
   \tag #'basso {
-    <>-\sug\ff \repeat unfold 4 \rt#4 sold8 |
+    <>\ff \repeat unfold 4 \rt#4 sold8 |
     \repeat unfold 4 \rt#4 la8 |
     \repeat unfold 4 \rt#4 sold8 |
   }
@@ -83,29 +80,19 @@ mi2~ mi8 fad16 sold la si dod' red' |
 mi'4 mi8 mi mi4 mi |
 mi2 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    <<
-      \tag #'(fagotto1 fagotti) \new Voice {
-        \tag #'fagotti \voiceOne
-        sold\sf( | la si | la1) |
-      }
-      \tag #'(fagotto2 fagotti) \new Voice {
-        \tag #'fagotti \voiceTwo
-        mi2-\tag #'fagotto2 -\sug\sf( | fad sold | la1) |
-      }
+    \twoVoices #'(fagotto1 fagotto2 fagotti) <<
+      { sold2( | la si | la1) | }
+      { mi2( | fad sold | \tag #'fagotti \once\hideNotes la1) | }
+      { <>\sf }
     >>
-    R1*12 |
-    <<
-      \tag #'(fagotto1 fagotti) \new Voice {
-        \tag #'fagotti \voiceOne
-        \clef "tenor" mi'1\f | fad'2\p fa'~ | fa' mi' | mi'1 |
-        re'2 fad'4 re' | r2 dod'~ | dod' re' | dod'4 \clef "bass"
-      }
-      \tag #'(fagotto2 fagotti) \new Voice {
-        \tag #'fagotti \voiceTwo
-        \clef "tenor" do'1\f | si\p | sold | la2 dod' |
-        re' re | r mi~ | mi1 | la4 \clef "bass"
-      }
-    >>
+    R1*12 | \clef "tenor"
+    \twoVoices #'(fagotto1 fagotto2 fagotti) <<
+      { mi'1 | fad'2 fa'~ | fa' mi' | mi'1 |
+        re'2 fad'4 re' | r2 dod'~ | dod' re' | dod'4 }
+      { do'1 | si | sold | la2 dod' |
+        re' re | r mi~ | mi1 | la4 }
+      { s1\f | s\p }
+    >> \clef "bass"
   }
   \tag #'basso {
     mi2\sf( | fad sold) | la,4-\markup\italic Pizzicato r r2 | R1 |
@@ -198,47 +185,27 @@ mi2 <<
     R1 |
     r2 fad' |
     sol'1 |
-    fad'2 <<
-      \tag #'(fagotto1 fagotti) \new Voice {
-        \tag #'fagotti \voiceOne
-        fad'2\f~ |
-        fad' mi'4\p re' |
-        dod'2 re'\f~ |
-        re' dod'4\p si |
-        lad2 fad'\f~ |
-        fad' mi'4\p re' |
-        dod'2 re'\f~ |
-        re' dod'4\p si |
-        lad2
-      }
-      \tag #'(fagotto2 fagotti) \new Voice {
-        \tag #'fagotti \voiceTwo
-        re'2-\tag #'fagotto2 \f~ |
-        re' dod'4-\tag #'fagotto2 \p si |
-        lad2 si-\tag #'fagotto2 \f~ |
-        si dod'4-\tag #'fagotto2 \p re' |
-        dod'2 re'-\tag #'fagotto2 \f~ |
-        re'2 dod'4-\tag #'fagotto2 \p si |
-        lad2 si-\tag #'fagotto2 \f~ |
-        si dod'4-\tag #'fagotto2 \p re' |
-        dod'2
-      }
+    fad'2
+    \twoVoices #'(fagotto1 fagotto2 fagotti) <<
+      { fad'2~ | fad' mi'4 re' | dod'2 re'~ | re' dod'4 si |
+        lad2 fad'~ | fad' mi'4 re' | dod'2 re'~ | re' dod'4 si |
+        lad2 }
+      { re'2~ | re' dod'4 si | lad2 si~ | si dod'4 re' |
+        dod'2 re'~ | re'2 dod'4 si | lad2 si~ | si dod'4 re' |
+        dod'2 }
+      { s2\f | s s\p | s s\f | s s\p |
+        s s\f | s s\p | s s\f | s s\p }
     >> fad'2 |
     sol'!1 |
-    fad'4 r r2 |
-    \clef "bass" <<
-      \tag #'(fagotto1 fagotti) \new Voice {
-        \tag #'fagotti \voiceOne
-        la1 | si~ | si | la~ |
+    fad'4 r r2 | \clef "bass"
+    \twoVoices #'(fagotto1 fagotto2 fagotti) <<
+      { la1 | si~ | si | la~ |
         la | la~ | la | si~ |
-        si | la~ | la | la |
-      }
-      \tag #'(fagotto2 fagotti) \new Voice {
-        \tag #'fagotti \voiceTwo
-        fad1 | sol~ | sol | sol~ |
+        si | la~ | la | la | }
+      { fad1 | sol~ | sol | sol~ |
         sol | fad~ | fad | sol~ |
-        sol | sol~ | sol | fad
-      }
+        sol | sol~ | sol | fad }
+      { s1*4 <>-\sug\f s1*2 <>-\sug\p s1*4 <>-\sug\f }
     >>
   }
 >>

@@ -98,7 +98,7 @@ Then, use:
   \tag #(list tag2 tag-all) \new Voice {
     \tag #tag-all \voiceTwo $music2
   }
-  $rest-music
+  \tag #(list tag1 tag2 tag-all) $rest-music
 >> #}))
 
 %% Force clef printing, with full size

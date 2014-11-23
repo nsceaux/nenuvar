@@ -132,7 +132,7 @@ R1*14 |
 re''2\f re''4. re''8 |
 re''1 |
 R1*27 |
-sol'4 sol'8 sol' sol'4 sol' |
+sol'4-\sug\f sol'8 sol' sol'4 sol' |
 do''1 |
 R1*4 |
 sol'4\f sol'8 sol' sol'4 sol' |

@@ -4,13 +4,13 @@ la2 r |
 R1*6 |
 r2 r4 la8 si16 dod' |
 re'1 |
-fad4 fad8 fad fad4. fad8 |
+fad4-\sug\p fad8 fad fad4. fad8 |
 sol1~ |
 sol4 sol8. sol16 sol4. sol8 |
 sol1~ |
-sol4 sol8. sol16 sol4 sol |
+sol4-\sug\f sol8. sol16 sol4 sol |
 fad1 |
-fad'4 fad'8. fad'16 fad'4. fad'8 |
+fad'4-\sug\p fad'8. fad'16 fad'4. fad'8 |
 sol'1~ |
 sol'4 sol'8. sol'16 sol'4. sol'8 |
 sol'1~ |
@@ -86,7 +86,7 @@ sol4 fad8 mi fad2~ |
 fad4 mi8 re mi4. mi8 |
 mi'2 r |
 R1*5 |
-r2 r4 lad' |
+r2 r4 lad'-\sug\f |
 si' re''2 dod''8 si' |
 si'4( lad') r2 |
 R1 |
@@ -103,7 +103,7 @@ sol4 sol8. sol16 sol4. sol8 |
 sol1~ |
 sol4-\sug\f sol8. sol16 sol4. sol8 |
 fad1 |
-fad'4 fad'8. fad'16 fad'4. fad'8 |
+fad'4-\sug\p fad'8. fad'16 fad'4. fad'8 |
 sol'1~ |
 sol'4 sol'8. sol'16 sol'4. sol'8 |
 sol'1~ |

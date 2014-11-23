@@ -1,5 +1,5 @@
 \clef "bass" R1*3 |
-\repeat unfold 3 \rt#4 re16 la,4 |
+<>-\sug\ff \repeat unfold 3 \rt#4 re16 la,4 |
 re r r2 |
 r4 re8 re re4 la, |
 re4. la,8 re2 |
@@ -8,10 +8,10 @@ re4 re8 re re4 la, |
 re4 re8 re re4 la, |
 re2 r |
 R1*4 |
-la,4 la,8. la,16 la,4 la, |
+<>-\sug\ff la,4 la,8. la,16 la,4 la, |
 re2 r |
 R1*4 |
-la,4 la,8 la, la,4 la, |
+<>-\sug\ff la,4 la,8 la, la,4 la, |
 \repeat unfold 2 \rt#8 re16 |
 re4 re8 re re4 re |
 re2 \rt#8 re16 |
@@ -29,7 +29,7 @@ R1*6 |
 \repeat unfold 4 \rt#16 la,16 |
 re4 r r2 |
 R1*33 |
-la,2 r |
+la,2-\sug\f r |
 re r |
 la, r |
 re r |
@@ -41,7 +41,7 @@ re4 re8 re re4 re |
 re re8 re re4 la, |
 re4. la,8 re2 |
 R1*43 |
-la,4 la,8 la, la,4 la, |
+la,4-\sug\f la,8 la, la,4 la, |
 re2 r |
 R1*4 |
 la,4\f la,8 la, la,4 la, |
@@ -64,7 +64,7 @@ re4. re8 re4. re8 |
 \rt#16 la,16 |
 re4 r r2 |
 R1*5 |
-re2 r |
+re2-\sug\f r |
 la, r |
 re r |
 la, r |
