@@ -14,7 +14,7 @@ re4 re8( fad re fad) |
 re2 fad4 |
 sol4. sol8 sib sol |
 do8.\fp do16 do2 |
-fa4 fa,8 fa([_\markup\dynamic rmf sol la]) |
+fa4 fa,8 fa([\rmf sol la]) |
 sib4 sib, sib, |
 \rt#6 do8 |
 fa,4 r r |
@@ -36,7 +36,7 @@ sol sol,
 <<
   \tag #'(cello bassi) \new Voice {
     \tag #'bassi \voiceOne
-    do'4. re'8 mi' re' | do'2 do'4
+    do'4.-\sug\f re'8 mi' re' | do'2 do'4
   }
   \tag #'(cb bassi) \new Voice {
     \tag #'bassi \voiceTwo R2.*2
