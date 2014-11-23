@@ -9,7 +9,7 @@ sol' fa'!~ |
 fa' la'~ |
 la'~ la' |
 sib' fad'-\sug\f~ |
-fad'1 r8 sib'4 sib' sib' sib'8~ |
+fad'1 r8 sib'4-\sug\f sib' sib' sib'8~ |
 sib' sib'4 sib' sib' sib'8~ |
 sib' fa'4 re' sib sib8 |
 sib2 r8. mib'16 mib'8. mib'16 |

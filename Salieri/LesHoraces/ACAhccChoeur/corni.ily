@@ -8,7 +8,7 @@
   }
 >> r2 |
 R1*11 |
-do''1 |
+do''1-\sug\f |
 <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne mi''1~ | mi'' | mi''4

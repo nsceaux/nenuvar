@@ -8,7 +8,7 @@
   }
 >> r2 |
 R1*11 |
-r8 sib'4 sib' sib' sib'8 |
+r8 sib'4-\sug\f sib' sib' sib'8 |
 <<
   \tag #'(flauto1 flauti) \new Voice {
     \tag #'flauti \voiceOne re''8 re''4 re'' re'' re''8 |

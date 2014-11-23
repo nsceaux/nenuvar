@@ -8,7 +8,7 @@
   }
 >> r2 |
 R1*11 |
-r8 <<
+r8 <>-\sug\f <<
   \tag #'(oboe1 oboi) \new Voice {
     \tag #'oboi \voiceOne sib'4 sib' sib' sib'8 |
     re''8 re''4 re'' re'' re''8 |
