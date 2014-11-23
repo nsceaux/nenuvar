@@ -12,7 +12,7 @@ re' |
 sol' |
 sol'4 r r2 |
 R1*3 |
-r4 mib' mib' mib' |
+r4 mib'-\sug\ff mib' mib' |
 mib'1~ |
 mib' |
 re'~ |
@@ -26,11 +26,11 @@ fad'1 |
 sol' |
 do' |
 re' |
-sol'~ |
+sol'-\sug\ff~ |
 sol'~ |
 sol'2 r\fermata |
 R1*10 |
-r2\fermata r4 la |
+r2\fermata r4 la-\sug\f |
 fa'!2. mi'8 re' |
 dod'1 |
 re' |

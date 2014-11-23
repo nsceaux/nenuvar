@@ -10,7 +10,7 @@ sol'2. do''4 |
 la'2. la'4 |
 sib'1 |
 R1*5 |
-r2*3/4 s8\f sol'4 sol' |
+r2 sol'4^\f sol' |
 sib'1 |
 sol'2. sol'4 |
 la'1 |

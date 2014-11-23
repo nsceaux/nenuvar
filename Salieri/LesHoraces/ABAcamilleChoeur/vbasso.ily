@@ -15,7 +15,7 @@ mib'2 sib4 sib |
 sib2 sib4 sib |
 sol2 r |
 R1*4 |
-r4*1/2 s8\f re'4 re' re' |
+r4 re'4^\f re' re' |
 do'2 do'4 do' |
 do'2 do'4 do' |
 do'1~ |

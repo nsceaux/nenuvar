@@ -10,7 +10,7 @@ mib''2. mib''4 |
 re''2. re''4 |
 re''1 |
 R1*5 |
-r2*3/4 s8\f sol''4 sol'' |
+r2 sol''4^\f sol'' |
 sol''1 |
 sol''2. sol''4 |
 fad''1 |

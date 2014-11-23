@@ -13,13 +13,9 @@
   }
 >> r4 r2 |
 R1*3 |
-r4 <<
-  \tag #'(flauto1 flauti) \new Voice {
-    \tag #'flauti \voiceOne sol''4 sol'' sol'' | sol''4 sib''2
-  }
-  \tag #'(flauto2 flauti) \new Voice {
-    \tag #'flauti \voiceTwo sib'4 sib' sib' | sib' sib''2
-  }
+r4 <>-\sug\ff \twoVoices #'(flauto1 flauto2 flauti) <<
+  { sol''4 sol'' sol'' | sol''4 sib''2 }
+  { sib'4 sib' sib' | sib' sib''2 }
 >> sol''4~ |
 sol'' dod'''2 dod'''4 |
 re'''1~ |
@@ -28,26 +24,19 @@ mib''' |
 mib'''~ |
 mib'''~ |
 mib''' |
-mib'''2 <<
-  \tag #'(flauto1 flauti) \new Voice {
-    \tag #'flauti \voiceOne mib'''2~ | mib''' re'''~ | re'''1 | mib''' |
-    re'''~ | re'''~ | re''' | re'''2
-  }
-  \tag #'(flauto2 flauti) \new Voice {
-    \tag #'flauti \voiceTwo do'''2~ | do'''1 | sib''2 sol'' | sol''1 |
-    fad'' | sol''2 sib''~ | sib'' sib'' | sib''
-  }
+mib'''2 \twoVoices #'(flauto1 flauto2 flauti) <<
+  { mib'''2~ | mib''' re'''~ | re'''1 | mib''' |
+    re'''~ | re'''~ | re''' | re'''2 }
+  { do'''2~ | do'''1 | sib''2 sol'' | sol''1 |
+    fad'' | sol''2 sib''~ | sib'' sib'' | sib'' }
+  { s2 | s1*4 | <>-\sug\ff }
 >> r2\fermata |
 R1*10 |
-r2\fermata r4 la'' |
+r2\fermata r4 la''-\sug\f |
 re'''1 |
-<<
-  \tag #'(flauto1 flauti) \new Voice {
-    \tag #'flauti \voiceOne mi'''1 | fa''' | fa''' |
-  }
-  \tag #'(flauto2 flauti) \new Voice {
-    \tag #'flauti \voiceTwo la''1~ | la'' | la'' |    
-  }
+\twoVoices #'(flauto1 flauto2 flauti) <<
+  { mi'''1 | fa''' | fa''' | }
+  { la''1~ | la'' | la'' | }
 >>
 r4 la''2 la''4~ |
 la'' mib'''2 mib'''4 |

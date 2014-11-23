@@ -32,7 +32,7 @@ mi'' |
   }
 >> r4 r2 |
 R1*3 |
-r4 do'' do'' do'' |
+r4 do''-\sug\ff do'' do'' |
 do''1~ |
 do''4 do''2 do''4 |
 mi''1~ |
@@ -52,7 +52,7 @@ re''2 <<
 >>
 re''1 |
 mi'' |
-<<
+<>-\sug\ff <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne mi''1~ | mi'' | mi''2
   }
@@ -62,7 +62,7 @@ mi'' |
 >> r2\fermata |
 R1*10 |
 r2\fermata r4 r |
-mi''2 r |
+mi''2-\sug\f r |
 R1 |
 r4 mi''2 mi''4 |
 mi''1 |

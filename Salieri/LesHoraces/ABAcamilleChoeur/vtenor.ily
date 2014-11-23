@@ -10,7 +10,7 @@ do'2. sol'4 |
 fad'2. fad'4 |
 sol'1 |
 R1*5 |
-r2*3/4 s8\f mib'4 mib' |
+r2 mib'4^\f mib' |
 mib'1 |
 mib'2. mib'4 |
 re'1 |

@@ -14,7 +14,7 @@ sol8 sib-\sug\f[ sib sib] \rt#4 sib |
 mib' mib' sol' mib' \rt#4 sib |
 \rt#4 sib \rt#4 sib |
 <>\p \rt#4 sib \rt#4 sib |
-sib mib' mib' mib' \rt#4 mib' |
+sib mib'-\sug\ff mib' mib' \rt#4 mib' |
 \rt#4 mib' \rt#4 mib' |
 \rt#4 mib' \rt#4 mib' |
 re' <fad' la'> q q \rt#4 q |
