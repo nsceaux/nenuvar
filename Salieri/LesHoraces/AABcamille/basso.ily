@@ -8,7 +8,7 @@ R1*2 |
 sib,!4..\f sib,16 sib,4.. sib,16 |
 sib,1 |
 sib, |
-r4 mib\cresc( fa sol) |
+r4 mib-\sug\p\cresc( fa sol) |
 lab sol2.\f~ |
 sol8\p sol sol sol sol4. sol8\f |
 mi8. mi16 mi8. mi16 mi2\p~ |
@@ -43,7 +43,7 @@ fa1~ |
 \once\tieDashed fa~ |
 fa~ |
 fa |
-sib,4 r sib( la) |
+sib,4 r sib-\sug\f( la) |
 sol2 sol,4 sol |
 la1\p~ |
 la |
@@ -65,7 +65,7 @@ fad2\p r |
 \rt#4 la \rt#4 fad |
 sol4 r r2 |
 R1 |
-r4 do~ do8 re16 mi fa sol la si |
+r4 do-\sug\f~ do8 re16 mi fa sol la si |
 do'4 r r2 |
 r8. do16 do2. |
 r2 r8. fa16\ff fa8. fa16 |

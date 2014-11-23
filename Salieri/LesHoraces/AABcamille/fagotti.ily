@@ -1,7 +1,7 @@
 \clef "tenor/tenor" r4 mib\f( fa sol) |
-lab sol2. |
+lab sol2.-\sug\fp |
 fa1 |
-r4 sib,\f re do |
+r4 \once\slurDashed sib,(\f re do) |
 sib,1 |
 si, |
 <<
@@ -19,9 +19,9 @@ si, |
   }
 >>
 R1 |
-r4 mib(\cresc fa sol) |
+r4 mib-\sug\p(\cresc fa sol) |
 lab! sol2.\f~ |
-sol8 sol sol sol sol4. sol8 |
+sol8-\sug\p sol sol sol sol4. sol8-\sug\f |
 mi8. mi16 mi8. mi16 mi4 r |
 R1 |
 <<

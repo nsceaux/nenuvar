@@ -1,7 +1,7 @@
 \clef "soprano/treble" R1*23 |
 r2 fa'8 fa' fa' fa' |
 sib'2. lab'8 sib' |
-sol'-! sol' r4 r2 |
+sol'^! sol' r4 r2 |
 r4 r8 sol' sol' sol' sol' la' |
 si'4. sol'8 re'' re'' re'' mib'' |
 do''-! do'' r4 r2 |

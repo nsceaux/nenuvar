@@ -10,7 +10,7 @@ lab'1\f ~ |
 lab'4 r r2 |
 R1*2 |
 r4 sib'2\f lab'16\p sol' fa' mib' |
-mib'8 reb'' reb'' reb'' reb''4. reb''8 |
+mib'8 reb'' reb'' reb'' reb''4. reb''8-\sug\f |
 do''8. do''16 do''8. do''16 do''4 r |
 R1 |
 r8 lab''4\sf sol''16 fa'' mi''8 do''( reb'' do'') |

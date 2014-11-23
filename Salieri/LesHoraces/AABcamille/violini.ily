@@ -25,10 +25,10 @@
     do'4 r r2 |
   }
   \tag #'violino2 {
-    r4 sol( lab sib) |
-    do' sib2 sib4 |
+    r4 sol-\sug\f( lab sib) |
+    do' sib2-\sug\fp sib4 |
     lab1 |
-    r4 re'( fa' mib') |
+    r4 re'-\sug\f( fa' mib') |
     re'1~ |
     re' |
     <>\fp do'8-.( do'-. do'-. do'-.) re'8-.( re'-. re'-. re'-.) |
@@ -36,7 +36,7 @@
     re'4..-\sug\f lab'16 lab'4.. re''16 |
     re''1~ |
     re'' |
-    r4 sol(\cresc lab sib) |
+    r4 sol(-\sug\p\cresc lab sib) |
     do' sib2-\sug\f sib4-\sug\p~ |
     sib8 sib sib sib sib4. sib8-\sug\f |
     sib8. sib16 sib8. sib16 sib2\p~ |
@@ -114,7 +114,7 @@ r8. << { sol''16 sol''8. sol''16 sol''4 } \\ { do''16 do''8. do''16 do''4 } >> r
     <fa' mib''>~ |
     q~ |
     q |
-    <fa' re''>4 r re''( do'') |
+    <fa' re''>4 r re''-\sug\f( do'') |
     sib'4 <sib' re'>2 sib'4 |
     mi'!1\p~ |
     mi' |

@@ -1,7 +1,7 @@
 \clef "alto/alto" r4 mib\f( fa sol) |
-lab sol2. |
+lab sol2.-\sug\fp |
 fa1 |
-r4 sib( re' do') |
+r4 sib-\sug\f( re' do') |
 fa'1 |
 fa' |
 <>\fp mib'8-.( mib'-. mib'-. mib'-.) fa'-.( fa'-. fa'-. fa'-.) |
@@ -9,7 +9,7 @@ fa' |
 fa'4..\f fa'16 fa'4.. lab'16 |
 lab'1~ |
 lab'1 |
-r4 mib(-\cresc fa sol) |
+r4 mib(-\sug\p\cresc fa sol) |
 lab sol2-\sug\f sol4-\sug\p~ |
 sol8 sol sol sol sol4. sol8-\sug\f |
 sol8. sol16 sol8. sol16 sol2\p~ |
@@ -21,7 +21,7 @@ sol1 |
 %%
 lab4 r r2 |
 R1 |
-r4 lab( sib do') |
+r4 lab(-\sug\< sib do'\!) |
 re1\p~ |
 re |
 r4 mib'(\< fa' sol')\! |
@@ -43,7 +43,7 @@ do'1~ |
 do'~ |
 do'~ |
 do' |
-sib4 r sib'( la') |
+sib4 r sib'-\sug\f( la') |
 sol'2 sol4 sol |
 la1-\sug\p~ |
 la |
@@ -60,7 +60,7 @@ fad' |
 re'8 re'-\sug\pp[ re' re'] \rt#4 re' |
 \rt#4 mi' \rt#4 dod' |
 re'4 r r2 |
-re'2 r |
+re'2-\sug\p r |
 <>\f \rt#4 sol'8 \rt#4 sol' |
 \rt#4 la' \rt#4 fad' |
 sol'4 r r2 |
