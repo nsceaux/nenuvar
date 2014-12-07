@@ -1,6 +1,6 @@
 \clef "treble" R2.*2 |
 sol'8\p sol'4 lab'8( sol' fa') |
-mib' do'([_\markup\dynamic rmf re' mib' fa' sol']) |
+mib' do'([\rmf re' mib' fa' sol']) |
 lab'8\f lab'4 lab' lab'8 |
 lab'8\p( fa' re' sib la sib) |
 sol'8\f sol'4 sol' sol'8 |
