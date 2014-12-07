@@ -33,7 +33,7 @@ r4 <<
 >> r4 |
 R1*2 |
 r4 <<
-  { s1 s\f }
+  { s2. s\f }
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne
     mi''2 re''4 | do''1~ | do''2. mi''4 |
@@ -44,21 +44,16 @@ r4 <<
   }
 >>
 re''1~ |
-re'' |
+re''-\sug\p |
 sol'4 sol'8 sol' sol'4 sol' |
-<<
-  \tag #'(corno1 corni) \new Voice {
-    \tag #'corni \voiceOne
-    re''1~ | re''4 mi' mi' mi' | mi'2. mi''4 |
-  }
-  \tag #'(corno2 corni) \new Voice {
-    \tag #'corni \voiceTwo
-    R1 | r4 do' do' do' | do'2. do''4 |
-  }
+\twoVoices #'(corno1 corno2 corni) <<
+  { re''1-\sug\f~ | re''4 mi' mi' mi' | mi'2. mi''4 | }
+  { R1 | r4 do' do' do' | do'2. do''4 | }
+  { s1 | s4 <>-\sug\p }
 >>
-re''1~ |
+re''1-\sug\cresc~ |
 re'' |
-re''4 re''8. re''16 re''4 re'' |
+re''4\!-\sug\f re''8. re''16 re''4 re'' |
 re''2~ re''4 r |
 <<
   \tag #'(corno1 corni) \new Voice {
@@ -76,32 +71,23 @@ R1*7 |
 re''1\fp~ |
 re''~ |
 re'' |
-re''4
-<<
-  \tag #'(corno1 corni) \new Voice {
-    \tag #'corni \voiceOne
-    sol'8 sol' sol'4 sol' | sol'4 sol' sol' sol' | mi''1 | mi'' |
-  }
-  \tag #'(corno2 corni) \new Voice {
-    \tag #'corni \voiceTwo
-    sol8 sol sol4 sol | sol sol sol sol | do''1 | do'' |
-  }
+re''4-\sug\f \twoVoices #'(corno1 corno2 corni) <<
+  { sol'8 sol' sol'4 sol' | sol'4 sol' sol' sol' | mi''1 | mi'' | }
+  { sol8 sol sol4 sol | sol sol sol sol | do''1 | do'' | }
+  { s2. | s2 <>-\sug\p }
 >>
 re''1~ |
 re'' |
-<<
-  \tag #'(corno1 corni) \new Voice {
-    \tag #'corni \voiceOne re''1 | mi'' | mi'' |
-  }
-  \tag #'(corno2 corni) \new Voice {
-    \tag #'corni \voiceTwo sol'1 | do'' | do'' |
-  }
+\twoVoices #'(corno1 corno2 corni) <<
+  { re''1 | mi'' | mi'' | }
+  { sol'1 | do'' | do'' | }
+  { s2 s-\sug\cresc }
 >>
-re''1~ |
+re''1\!-\sug\f~ |
 re'' |
 sol'2 r\fermata |
 R1*3 |
-r2 r4 sol' |
+r2 r4 sol'-\sug\p |
 sol'1~ |
 sol'~ |
 sol'4 <<
@@ -113,7 +99,7 @@ sol'4 <<
   }
 >> r2 |
 R1*2 |
-r4 do''2 do''4 |
+r4 do''2-\sug\f do''4 |
 do''1 |
 do''2 r |
 R1 |
@@ -151,7 +137,7 @@ R1*5 | <>\f
   }
 >> r2 |
 R1*6 |
-<<
+<>-\sug\f <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne mi''2. re''4 | do''2
     
@@ -161,10 +147,8 @@ R1*6 |
   }
 >> r2 |
 R1*4 |
-<<
-  \tag #'(corno1 corni) \new Voice {
-    \tag #'corni \voiceOne
-    do''1~ |
+<>-\sug\f \twoVoices #'(corno1 corno2 corni) <<
+  { do''1~ |
     do''4 do'' do'' re'' |
     mi''2 re'' |
     do''4 mi''2 mi''4~ |
@@ -174,11 +158,8 @@ R1*4 |
     mi''4 mi''2 mi''4~ |
     mi'' mi''2 mi''4 |
     re'' re''2 re''4 |
-    re'' re''2 re''4 |
-  }
-  \tag #'(corno2 corni) \new Voice {
-    \tag #'corni \voiceTwo
-    do'1~ |
+    re'' re''2 re''4 | }
+  { do'1~ |
     do'4 do'' do'' re'' |
     do''2 sol' |
     mi'4 do''2 do''4~ |
@@ -188,9 +169,8 @@ R1*4 |
     do'' do''2 do''4~ |
     do'' do''2 do''4 |
     do'' do''2 do''4 |
-    sol' sol'2 sol'4 |
-  }
-  { s1*3 <>\p }
+    sol' sol'2 sol'4 | }
+  { s1*3 <>\p s1*4 <>-\sug\ff }
 >>
 do''2 do''4. sol'8 |
 sol'1 |

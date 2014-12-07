@@ -19,8 +19,8 @@ mi'8 <<
   { si'8 si' si' \rt#4 si' | \rt#4 si' \rt#4 si' |
     \rt#4 dod'' \rt#4 dod'' | dod''4 } \\
   { sold'8 sold' sold' <>-\sug\p \rt#4 sold' | \rt#4 sold' \rt#4 sold' |
-    \rt#4 la' \rt#4 la' | <>-\sug\f la'4 }
->> dod''( sold' la') |
+    \rt#4 la' \rt#4 la' | la'4 }
+>> dod''4-\sug\f( sold' la') |
 <>-\sug\p fad'1~ |
 fad'8 fad' fad' fad' fad' re' fad' re' |
 si si' si'-\sug\cresc si' sold' si' mi'' si' |
@@ -77,17 +77,16 @@ mi''4( dod'' la' dod') |
 re'1\fermata |
 mi'1\p |
 sold' |
-la'1~ |
-la'2 sol'4 fad' |
+<< { la'1~ | la'2 } { s2 s\< s4 s\!} >> sol'4 fad' |
 <mi' dod'>1~ |
 q-\sug\p |
 re'2.\fermata r4 |
 R1 |
-r2 r4 la' |
+r2 r4 la'-\sug\p |
 fad''2. fad''4 |
 mi''( re'' dod'' si') |
 la'2 r |
-<la' fad''>1-\sug\p~ |
+<la' fad''>1-\sug\f~ |
 q4 la' si'4. sol'8 |
 fad' la' fad' la' mi' la' mi' mi' |
 re' fad' fad' fad' fad' fad' fad' fad' |

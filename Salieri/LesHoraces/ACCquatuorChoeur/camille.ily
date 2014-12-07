@@ -85,7 +85,7 @@ la''~ |
 la''4 fad'' sol'' mi'' |
 re''2 dod''4. dod''8 |
 re''2. red''4 |
-mi''2. fad''8[ re''] |
+mi''2. fad''8[ re''!] |
 dod''4 la'' sold'' fad'' |
 mi''2. re''4 |
 dod''2 r4 la' |

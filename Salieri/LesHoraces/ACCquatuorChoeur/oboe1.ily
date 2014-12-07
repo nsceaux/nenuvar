@@ -21,15 +21,15 @@ mi''4 mi''( fad'' sol'') |
 re''2. dod''4 |
 re''1-\sug\f~ |
 re''~ |
-re''4( re'''2) si''4 |
+re''4( re'''2) si''4-\sug\p |
 sold''1 |
-la''4 la'( dod'' mi'') |
+la''4 la'-\sug\f( dod'' mi'') |
 mi''2 sold''4 la'' |
-fad''1~ |
+fad''1-\sug\p~ |
 fad''4 si''2 la''4 |
-sold''1 |
+sold''1-\sug\cresc |
 la'' |
-sold''4 mi'8. mi'16 mi'4 mi' |
+sold''4\!-\sug\f mi'8. mi'16 mi'4 mi' |
 mi'2 r4 mi''\p |
 mi''2 dod''4. re''8 |
 mi''2 fad''4. mi''8 |
@@ -40,29 +40,29 @@ mi''4 la''( sold'' la'') |
 fad''2. sold'4 |
 la'2 r |
 R1*6 |
-mi''1~ |
+mi''1-\sug\fp~ |
 mi''~ |
 mi'' |
-mi''~ |
-mi'' |
-fad''~ |
+mi''-\sug\f~ |
+<< mi''1 { s2 <>-\sug\p } >> |
+fad''1~ |
 fad''4 la''( fad'' re'') |
 dod''1~ |
 dod''2 dod'' |
-dod'' mi'' |
+dod'' mi''-\sug\cresc |
 \once\slurDashed fad''1~ |
 fad''4 la''( fad'' re'') |
-dod''2 dod'''~ |
+dod''2\!-\sug\f dod'''~ |
 dod''' si'' |
 la'' r\fermata |
 R1*3 |
-r2 r4 re'' |
+r2 r4 re''-\sug\p |
 re'' dod''2 dod''4 |
 re'' re'' mi'' fad'' |
 sol''2. fad''4 |
 mi''2 r |
 R1 |
-r2 r4 re''8 mi''16 fad'' |
+r2 r4 re''8-\sug\f mi''16 fad'' |
 sol''2. si''4 |
 do''' si'' do''' la'' |
 si'' si''( sol'' mi'') |
@@ -81,13 +81,13 @@ re''8 dod'' dod''2 dod''8 re'' |
 mi''4( dod'' la' sol') |
 fad'1\fermata |
 R1*2 |
-r2 dod''~ |
-dod''4 re'' mi'' fad'' |
+r2 dod''-\sug\p\<~ |
+dod''4 re''\! mi'' fad'' |
 sol''1 |
-sol''4 fad''8 sol'' la''4 sol'' |
+sol''4-\sug\p fad''8 sol'' la''4 sol'' |
 fad''2.\fermata r4 |
 R1*4 |
-la''1~ |
+la''1-\sug\f~ |
 la''~ |
 la''4 fad'' mi''8 fad'' sol'' mi'' |
 re''2 dod'' |
@@ -101,7 +101,7 @@ fad'' mi''( fad'' sol'') |
 re''2. dod''4 |
 re''2 r |
 R1*3 |
-la''1 |
+la''1-\sug\f |
 la''~ |
 la''4 fad'' sol'' mi'' |
 re''2 dod'' |
@@ -109,7 +109,7 @@ re''4-\sug\p fad''2 fad''4~ |
 fad'' fad''2 fad''4 |
 mi'' mi''2 mi''4~ |
 mi'' la''2 la''4 |
-fad''1~ |
+fad''1-\sug\ff~ |
 fad'' |
 mi''~ |
 mi'' |

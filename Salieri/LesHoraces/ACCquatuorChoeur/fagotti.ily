@@ -1,4 +1,4 @@
-\clef "tenor"
+\clef "tenor" <>-\sug\p
 <<
   \tag #'(fagotto1 fagotti) \new Voice {
     \tag #'fagotti \voiceOne
@@ -38,27 +38,18 @@ la2 la, |
 re2 r4 la8-\sug\f si16 dod' |
 re'4 la fad re |
 mi4
-<<
-  \tag #'(fagotto1 fagotti) \new Voice {
-    \tag #'fagotti \voiceOne
-    re'2 re'4~ | re'1 | dod' |
-  }
-  \tag #'(fagotto2 fagotti) \new Voice {
-    \tag #'fagotti \voiceTwo
-    si2 si4~ | si1 | la |
-  }
+\twoVoices #'(fagotto1 fagotto2 fagotti) <<
+  { re'2 re'4~ | re'1 | dod' | }
+  { si2 si4~ | si1 | la | }
+  { s2 <>-\sug\p }
 >>
-r4 la, si, dod re1~ |
+r4 la,-\sug\f si, dod |
+re1-\sug\p~ |
 re4 re'2 re'4 |
-<<
-  \tag #'(fagotto1 fagotti) \new Voice {
-    \tag #'fagotti \voiceOne
-    re'1 | dod' | si4
-  }
-  \tag #'(fagotto2 fagotti) \new Voice {
-    \tag #'fagotti \voiceTwo
-    si1 | la | sold4
-  }
+\twoVoices #'(fagotto1 fagotto2 fagotti) <<
+  { re'1 | dod' | si4 }
+  { si1 | la | sold4 }
+  { <>-\sug\cresc s1*2 | <>\!-\sug\f }
 >> mi8. mi16 mi4 mi |
 mi2~ mi4 r | <>\p
 <<
@@ -77,30 +68,24 @@ mi2~ mi4 r | <>\p
     la2 fad | mi mi |
   }
 >>
-r2 sold |
+r2 sold-\sug\p |
 la1 |
 si2 sold |
-la1~ |
-la1~ |
+la1-\sug\f~ |
+<< la1~ { s2 <>-\sug\p } >> |
 la4 re' re' re' |
 re'1 |
 mi'~ |
 mi'~ |
-mi'4 dod'( la) la4~ |
+mi'4 dod'-\sug\cresc( la) la4~ |
 la re' re' re' |
 re'1 |
-mi'1~ |
+mi'1\!-\sug\f~ |
 mi' |
 la2 r\fermata |
-<<
-  \tag #'(fagotto1 fagotti) \new Voice {
-    \tag #'fagotti \voiceOne
-    la2. re'4 | re'2 si4. la8 | sol2. sol4 | fad2.
-  }
-  \tag #'(fagotto2 fagotti) \new Voice {
-    \tag #'fagotti \voiceTwo
-    fad1 | sol2 sol4. fad8 | mi2. mi4 | re2.
-  }
+<>-\sug\p \twoVoices #'(fagotto1 fagotto2 fagotti) <<
+  { la2. re'4 | re'2 si4. la8 | sol2. sol4 | fad2. }
+  { fad1 | sol2 sol4. fad8 | mi2. mi4 | re2. }
 >> fad'4 |
 fad' sol'2 sol'4 |
 fad' fad' mi' re' |
@@ -125,13 +110,13 @@ R1 |
 r2 r4 dod'8 re' |
 mi'4( dod' la sol) |
 fad1\fermata |
-mi1~ |
+mi1-\sug\p~ |
 mi |
 la,2 sol'\< ~ |
 sol'4 fad'\! mi' re' |
 dod'1~ |
-dod' |
-re'2.\fermata la4 |
+dod'-\sug\p |
+re'2.\fermata la4-\sug\p |
 si2. si4 |
 la( sol fad mi) |
 re
@@ -145,7 +130,7 @@ re
     re'2 re'4 | dod' si la sol | fad2
   }
 >> r2 |
-la1~ |
+la1-\sug\f~ |
 la4 re re re |
 la, la2 la4 |
 si1 |
@@ -169,7 +154,7 @@ fad re fad la |
 re1~ |
 re4 re sol, sol, |
 la,2 la |
-re'4 <<
+re'4-\sug\p <<
   \tag #'(fagotto1 fagotti) \new Voice {
     \tag #'fagotti \voiceOne
     fad'2 fad'4~ |

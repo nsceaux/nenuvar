@@ -15,7 +15,7 @@ re'4 la fad re |
 mi8 mi' mi' mi' <>-\sug\p \rt#4 mi' |
 \rt#4 mi' \rt#4 mi' |
 \rt#4 mi' \rt#4 mi' |
-<>-\sug\f mi'4 la( si dod') |
+mi'4 la-\sug\f( si dod') |
 <>-\sug\p \rt#4 re'8 \rt#4 re' |
 \rt#4 re' \rt#4 re' |
 << \rt#4 mi' { s4 s-\sug\cresc } >> \rt#4 mi'8 |
@@ -72,8 +72,8 @@ q |
 <si re'>\fermata |
 mi1\p |
 si |
-la2 sol'~ |
-sol'4( fad' mi' re' |
+la2 sol'\<~ |
+sol'4( fad'\! mi' re' |
 dod'1)~ |
 dod'-\sug\p |
 re'2.\fermata la4\p |
@@ -81,7 +81,7 @@ si2. si4 |
 la( sol fad mi) |
 re re'2 re'4 |
 dod'( si la sol) |
-fad-\sug\p re fad la |
+fad-\sug\f re fad la |
 re' la fad la |
 re re sol sol |
 \rt#4 la'8 \rt#4 la |
@@ -91,7 +91,7 @@ dod'4 la' sold' fad' |
 mi'2. re'4 |
 dod'2 r |
 R1*2 |
-r2 r4 la |
+r2 r4 la-\sug\f |
 si2. si4 |
 la sol fad mi |
 re-\sug\f re'2 re'4 |
@@ -108,7 +108,7 @@ re'-.\ff dod'-. si-. la-. |
 si la sol fad |
 sol mi fad sol |
 la mi dod la |
-re'8 <<
+re'8-\sug\ff <<
   { fad'8 fad' fad' \rt#4 fad' |
     \rt#4 fad' \rt#4 fad' |
     \rt#4 sol' \rt#4 sol' |

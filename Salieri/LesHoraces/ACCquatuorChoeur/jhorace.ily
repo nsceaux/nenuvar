@@ -18,7 +18,7 @@ mi'2. mi'4 |
 dod'( mi') dod' la |
 sold( si) mi' mi' |
 dod'2 la4.^\f la8 |
-<< la1~ { s2 s_\p} >> |
+<< la1~ { s2 s^\p} >> |
 la2 la |
 la la4 fad |
 mi2\melisma mi'~ |

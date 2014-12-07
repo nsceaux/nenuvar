@@ -77,7 +77,7 @@ mi'1\p |
 dod''4( re''\! mi'' fad'' |
 sol''1) |
 \grace la''8 sol''4\p( fad''8 sol'' la''4 sol'') |
-fad''2.\fermata la'4 |
+fad''2.\fermata la'4-\sug\p |
 re''2.( re''4 |
 dod'' si' la' sol') |
 fad'2 r |

@@ -17,7 +17,7 @@ re'4 la fad re |
 \rt#4 mi8 <>\p \rt#4 mi |
 \rt#4 mi \rt#4 mi |
 \rt#4 la \rt#4 la |
-la4\f la,( si, dod) |
+la4 la,\f( si, dod) |
 <>\p \rt#4 re8 \rt#4 re |
 \rt#4 re \rt#4 re |
 << \rt#4 mi { s4 s\cresc } >> \rt#4 mi8 |
