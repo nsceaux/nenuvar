@@ -1,16 +1,11 @@
 \clef "bass" sib4\f sib,8. re16 fa4. fad8 |
 sol8( sib sol re) mib2\fermata |
 mib'4 mib8. sol16 sib4. <<
-  \tag #'(fagotto1 fagotti) \new Voice {
-    \tag #'fagotti \voiceOne
-    sib16. si32 |
-    si8 si si si do'2\fermata |
-  }
-  \tag #'(fagotto2 fagotti) \new Voice {
-    \tag #'fagotti \voiceTwo
-    sol16. fa32 |
-    fa8 fa fa fa mib2\fermata |
-  }
+  \twoVoices #'(fagotto1 fagotto2 fagotti) <<
+    { sib16. si32 | si8 si si si do'2\fermata | }
+    { sol16. fa32 | fa8 fa fa fa mib2\fermata | }
+    { <>-\sug\p }
+  >>
   \tag #'basso {
     mib16.\p re32 |
     re8 re re re do2\fermata |
@@ -18,10 +13,10 @@ mib'4 mib8. sol16 sib4. <<
 >>
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    do'2 sib4 mib' |
+    do'2-\sug\f sib4 mib' |
     lab8\p( sib do' la) sib2 |
     sib?1~ |
-    sib2 sib~ |
+    sib2 sib-\sug\fp~ |
     sib1~ |
     sib2 lab4\f
     
