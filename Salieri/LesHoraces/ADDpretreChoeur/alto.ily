@@ -5,13 +5,13 @@ mib''4 sib' r8 sol'( lab' do'') |
 re'4( mib') sib4.\f lab8 |
 sol4 r r2 |
 r8 lab16. lab32 do'8-. mib'-. lab'2 |
-sol'4 r8. sol'16 lab'4 sib'8. sib16 |
+sol'4 r8. sol'16-\sug\p lab'4 sib'8. sib16 |
 mib'2 r\fermata |
 sib'2-\sug\ff fa'4 re' |
 sib2 sib8 do'16 re' mib' fa' sol' la' |
 sib'16 fa'-\sug\p fa' fa' \rt#4 fa' \rt#4 fa' \rt#4 fa' |
 <>-\sug\fp \rt#4 fa' \rt#8 sib' \rt#4 sib |
-fa'16 <do' la'?> <do' la'> q \rt#4 q \rt#8 q |
+fa'16-\sug\ff <do' la'?> <do' la'> q \rt#4 q \rt#8 q |
 << { s4 s-\sug\p } { \rt#8 <do' la'?>16 } >> \rt#8 <do' la'> |
 \rt#8 <do' mib'> \rt#8 <sib re'> |
 \rt#16 <la fa'> |
@@ -80,9 +80,9 @@ r4 lab8.\p lab16 lab4 lab |
 mib'2 r |
 r4 sib\mf sib sib |
 << sol2 \\ mib >> do'4. sib8 |
-sib2 lab4. sol8 |
+sib2 lab4.-\sug\sf sol8 |
 sol2 do'4. sib8 |
-sib2 lab4. sol8 |
+sib2 lab4.-\sug\sf sol8 |
 sol2 lab4. sol8 |
 sol2 lab4. sol8 |
 sol2 sol |

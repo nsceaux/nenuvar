@@ -214,9 +214,9 @@ mib''16\ff <mib' sol> q q \rt#4 q \rt#8 q |
     sol2. mib'8 re' |
     re'2. lab4 |
     mib'1~ |
-    mib'2 re'4. mib'8 |
+    mib'2 re'4.-\sug\sf mib'8 |
     mib'1~ |
-    mib'2 re'4. mib'8 |
+    mib'2 re'4.-\sug\sf mib'8 |
     mib'2 do'4. sib8 |
     sib2 do'4. sib8 |
     sib2 sib |

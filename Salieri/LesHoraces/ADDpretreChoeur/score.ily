@@ -57,7 +57,17 @@
         \consists "Mark_engraver"
       } <<
         \global \keepWithTag #'basso \includeNotes "bassi"
-        \modVersion { s8 s1*8\break }
+        \modVersion {
+          s8 s1*8\pageBreak
+          s1*12\pageBreak
+          s1*14\pageBreak
+          s1*16\pageBreak
+          s1*7\pageBreak
+          s1*7\pageBreak
+          s1*8\pageBreak
+          s1*6\pageBreak
+          s1*13\pageBreak
+        }
         \origLayout {
           s8 s1*2\pageBreak
           s1*3\pageBreak s1*3\pageBreak
@@ -84,6 +94,7 @@
       \Score
       \remove "Metronome_mark_engraver"
       \remove "Mark_engraver"
+      \override NonMusicalPaperColumn #'page-break-permission = ##f
     }
   }
   \midi {
