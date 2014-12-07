@@ -9,14 +9,14 @@ do'''2 sib''8( la'' sol'' fa'') |
 sol''4.( la''8 sib''4. do'''8) |
 la''2. r4 |
 R1*4 |
-do'''8 mib''' mib'''2 re'''4 |
+do'''8-\sug\f mib''' mib'''2 re'''4 |
 re'''4. si''8 do'''4 r8 sol'' |
-do'''8( mib''') mib'''2 re'''4 |
+do'''8-\sug\sf( mib''') mib'''2 re'''4-\sug\p |
 re'''4. si''8 do'''4. do'''8 |
 mib'''4. do'''8 do'''4. fad''8 |
 sol''2 r |
 R1*14 |
-r2 r4 <<
+r2 r4 <>-\sug\f <<
   \tag #'(flauto1 flauti) \new Voice {
     \tag #'flauti \voiceOne mi''4 | fa'' fa''2 fa''4 | fa'' si''2 si''4 |
     si''1 | do''' | sol'' | la'' | sib'' |

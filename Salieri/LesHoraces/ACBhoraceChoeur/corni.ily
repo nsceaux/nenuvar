@@ -1,6 +1,6 @@
 \clef "treble" \transposition fa
 R1*21 |
-<<
+<>-\sug\f <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne do''4. sol'8
   }
@@ -16,12 +16,12 @@ R1*21 |
     \tag #'corni \voiceTwo sol'1 |
   }
 >>
-do''1 |
+do''1-\sug\fp |
 sol'2. r4 |
-re''1 |
+re''1-\sug\f |
 do''2. sol'4 |
-re''1 |
-do''4. do''8 do''4. do''8 |
+re''1-\sug\p |
+do''4.-\sug\fp do''8 do''4. do''8 |
 <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne re''4. re''8 re''4. re''8 |
@@ -39,14 +39,14 @@ do''1\ff |
     \tag #'corni \voiceTwo sol'1 | do'' | do''2 sol' |
   }
 >>
-r4 sol'2 sol'4 |
+r4 sol'2-\sug\p sol'4 |
 sol'1~ |
 sol'~ |
 sol'~ |
 sol'~ |
 sol'~ |
 sol'~ |
-sol' |
+sol'-\sug\p |
 <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne do''2. mi''4 |
@@ -55,12 +55,12 @@ sol' |
     \tag #'corni \voiceTwo do'2. mi''4 |
   }
 >>
-re''1~ |
+re''1-\sug\cresc~ |
 re''~ |
 re''~ |
-re'' |
+<< re''1 { s2. <>\! } >> |
 R1*11 |
-r4 <<
+r4-\sug\f <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne re''8 re'' re''4 re'' | do''2
   }
@@ -80,7 +80,7 @@ r <>\p <<
     \tag #'corni \voiceTwo sol'2 | sol' sol' | do''2
   }
 >> r4 do'' |
-r2 r4 <<
+r2 r4 <>-\sug\f <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne re''4 | mi'' mi''2 mi''4 |
   }

@@ -74,7 +74,7 @@ re''1 |
     la'2 r4 fa' |
     mi'8\sf( sol' re'' do'') do''4 do'' |
     do''2 sib'8( la' sol' fa') |
-    sol'4. la'8 sib'4. do''8 |
+    sol'4.-\sug\p la'8 sib'4. do''8 |
     la'8 do''4 do'' do'' do''8 |
     si'8\cresc re''4 sol'' re'' si'8 |
     do'' mi''4 sol'' mi'' do''8 |
@@ -91,12 +91,12 @@ re''1 |
   \tag #'(violino2 violino2-conducteur) {
     <fa' la>8 do'\p do' do' \rt#4 do' |
     <>-\sug\f \rt#4 do' \rt#4 do' |
-    \rt#4 do' <>-\sug\p \rt#4 do'8 |
+    \rt#4 do' \rt#4 do'8 |
+    <>-\sug\p \rt#4 do' \rt#4 do' |
     \rt#4 do' \rt#4 do' |
     \rt#4 do' \rt#4 do' |
     \rt#4 do' \rt#4 do' |
-    \rt#4 do' \rt#4 do' |
-    \rt#4 do' \rt#4 do' |
+    <>-\sug\p \rt#4 do' \rt#4 do' |
     do'8 la'4 la' la' la'8 |
     sol'8-\sug\cresc sol'4 sol' sol' sol'8~ |
     sol' sol'4 sol' sol' sol'8~ |
@@ -104,7 +104,7 @@ re''1 |
     sol' sol'4 sol' sol' sol'8\! |
     mib'-\sug\f sol' sol' sol' \rt#4 sol' |
     lab'8 mib' mib' mib' mib' do' si si |
-    do' sol' sol' sol' \rt#4 sol' |
+    do' sol' sol' sol' <>-\sug\p \rt#4 sol' |
     lab' mib' mib' mib' \rt#4 mib' |
     \rt#4 do' mib' mib' mib' do' |
     si2 r |

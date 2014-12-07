@@ -8,7 +8,7 @@ do' re' mi' fa' sol' fa' mi' re' do' re' mi' fa' sol' fa' mi' re' |
 do'8 do'16 re' mi' fa' sol' la' sib'8 sol' mi' sol' |
 dod'2~ dod' |
 re8 mi16 fa sol la si dod' re'8 mi'16 fa' sol' la' si' dod'' |
-re'' la' la' la' \rt#4 la' \rt#4 la' \rt#4 la' |
+re'' la' la' la' \rt#4 la' <>-\sug\p \rt#4 la' \rt#4 la' |
 \rt#8 la' \rt#8 la' |
 mi8\f fad16 sold la si dod' red' mi'4 r |
 r8. << { re'16 re'4 } \\ { si16 si4 } >> r2 |
@@ -33,12 +33,12 @@ mi'-\sug\ff |
 \rt#16 re' \rt#16 do' |
 fa8 la-\sug\p la la \rt#4 la |
 <>-\sug\f \rt#4 sib \rt#4 sib |
-\rt#4 la <>-\sug\p \rt#4 la |
-\rt#4 sol \rt#4 sol |
+\rt#4 la \rt#4 la |
+<>-\sug\p \rt#4 sol \rt#4 sol |
 fa la la la \rt#4 la |
 \rt#4 sib \rt#4 sib |
 \rt#4 la \rt#4 la |
-\rt#4 sol \rt#4 sol |
+<>-\sug\p \rt#4 sol \rt#4 sol |
 fa8 fa4 fa fa' fa'8 |
 re'8-\sug\cresc si4 si si re'8 |
 do' do'4 do' do' do'8 |
@@ -46,7 +46,7 @@ sol re'4 re' re' re'8 |
 do' mi'4 mi' mi' mi'8\! |
 mib'4-\sug\f mib'2 re'4 |
 re'4. si8 do'4 re' |
-mib' mib'2 re'4 |
+mib' mib'2 re'4-\sug\p |
 re'4. si8 do'2 |
 lab8 lab4 lab lab lab8 |
 sol2 r |
