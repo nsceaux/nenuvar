@@ -1,6 +1,6 @@
 \clef "treble" r2 |
 R1*8 |
-r2 r8 sol'[ sol'8. sol'16] |
+r2 r8 sol'-\sug\f[ sol'8. sol'16] |
 <<
   \tag #'(tromba1 trombe) \new Voice {
     \tag #'trombe \voiceOne
@@ -32,9 +32,9 @@ R1*2 |
   }
 >> r2 |
 R1*7 |
-r4 re''2 r4 |
+r4 re''2-\sug\f r4 |
 R1*3 |
-r8. sol'16 sol'8. sol'16 sol'8. sol'16 sol'8. sol'16 |
+r8. sol'16-\sug\f sol'8. sol'16 sol'8. sol'16 sol'8. sol'16 |
 <<
   \tag #'(tromba1 trombe) \new Voice {
     \tag #'trombe \voiceOne
@@ -57,15 +57,10 @@ mi'1 |
   }
 >> r4 |
 R1*8 |
-<<
-  \tag #'(tromba1 trombe) \new Voice {
-    \tag #'trombe \voiceOne
-    do''1~ | do'' | sol''2
-  }
-  \tag #'(tromba2 trombe) \new Voice {
-    \tag #'trombe \voiceTwo
-    do'1~ | do' | sol'2
-  }
+\twoVoices #'(tromba1 tromba2 trombe) <<
+  { do''1~ | do'' | sol''2 }
+  { do'1~ | do' | sol'2 }
+  { s4-\sug\p s2.-\sug\cresc | s1\!-\sug\f }
 >> r2 |
 R1*4 |
 r2 r8. sol'16[\f sol'8. sol'16] |

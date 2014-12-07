@@ -12,7 +12,7 @@ r4 <<
   }
 >>
 R1*6 |
-r2 r8 sol'8[ sol'8. sol'16] |
+r2 r8 sol'8-\sug\f[ sol'8. sol'16] |
 <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne
@@ -32,10 +32,11 @@ r2 r8 sol'8[ sol'8. sol'16] |
     mi'4 mi'2 mi'4~ |
     mi'2~ mi'4
   }
->> r4 | <>\mf
-<<
-  \tag #'(corno1 corni) \new Voice { \tag #'corni \voiceOne re'1 | }
-  \tag #'(corno2 corni) \new Voice { \tag #'corni \voiceTwo sol'1 | }
+>> r4 |
+\twoVoices #'(corno1 corno2 corni) <<
+  { re'1 | }
+  { sol'1 | }
+  { s1\mf }
 >>
 do''2.\p sol'4 |
 <<
@@ -50,12 +51,12 @@ do''2.\p sol'4 |
 >> r2 |
 R1*7 |
 r4 <<
-  { s2. | s1*2 | r4 s2. | }
+  { s2.-\sug\f | s1*2 | r4 s2.-\sug\p | }
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne
     re''2 re''4 |
-    mi''4 mi'' fad'' mi'' |
-    fad''1 |
+    mi''4 \once\slurDashed mi''( fad''-\sug\sf mi'') |
+    fad''1-\sug\f |
     s4 mi'' re''2 |
   }
   \tag #'(corno2 corni) \new Voice {
@@ -65,7 +66,7 @@ r4 <<
     s4 do'' re''2 |
   }
 >>
-r8. sol'16 sol'8. sol'16 sol'4. sol'8 |
+r8. sol'16-\sug\f sol'8. sol'16 sol'4. sol'8 |
 <<
   \tag #'(corno1 corni) \new Voice {
     \tag #'corni \voiceOne
@@ -85,31 +86,18 @@ r8. sol'16 sol'8. sol'16 sol'4. sol'8 |
     mi'4 mi'2 mi'4 |
     mi'2~ mi'4
   }
->> r4 | <>\mf
-<<
-  \tag #'(corno1 corni) \new Voice {
-    \tag #'corni \voiceOne
-    re''1 |
-    do''2. sol'4 |
-    do''2~ do''4
-  }
-  \tag #'(corno2 corni) \new Voice {
-    \tag #'corni \voiceTwo
-    sol'1 |
-    do''2. sol'4 |
-    mi'2~ mi'4
-  }
+>> r4 |
+\twoVoices #'(corno1 corno2 corni) <<
+  { re''1 | do''2. sol'4 | do''2~ do''4 }
+  { sol'1 | do''2. sol'4 | mi'2~ mi'4 }
+  { s1\mf | s-\sug\p }
 >> r4 |
 R1*5 |
-do''1~ |
-do'' |
-<<
-  \tag #'(corno1 corni) \new Voice {
-    \tag #'corni \voiceOne sol''2
-  }
-  \tag #'(corno2 corni) \new Voice {
-    \tag #'corni \voiceTwo sol'2
-  }
+<< do''1~ { s4-\sug\p s2.-\sug\cresc } >> |
+do''1\!-\sug\f |
+\twoVoices #'(corno1 corno2 corni) <<
+  { sol''2 }
+  { sol'2 }
 >> r2 |
 R1*4 |
 r2 r8. sol'16[-\sug\f sol'8. sol'16]

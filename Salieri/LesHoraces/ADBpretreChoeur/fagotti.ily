@@ -1,5 +1,5 @@
 \clef "tenor" r2 |
-<<
+<>-\sug\fp <<
   \tag #'(fagotto1 fagotti) \new Voice {
     \tag #'fagotti \voiceOne
     do'1 | sol | si | re' | re'2 si |
@@ -16,6 +16,7 @@
     sol2 la4 sol |
     sol2~ sol4
   }
+  { s1*4 s1-\sug\cresc s2.\!-\sug\f s4-\sug\mf s1 s1-\sug\p }
 >> r4 |
 <<
   \tag #'(fagotto1 fagotti) \new Voice {
@@ -36,16 +37,17 @@
     \tag #'fagotti \voiceTwo
     si1 | do'2 la4 sol | sol1~ | sol2
   }
+  { s1-\sug\mf s1-\sug\p }
 >>
 <<
   \setMusic #'solo {
     <>^"Solo" do'8 mi' do' si |
     la mi([ mi' do']) la mi([ do' la]) |
     fad fad( la fad) re( fad la re') |
-    do'( sol do' dod') re'4. do'8 |
+    do'( sol do'_\markup\italic [cresc] dod') re'4. do'8 |
     si-. si( re' si) sol-. sol( si sol) |
-    r8 sol,( mi do) r8 re( si sold) |
-    r8 mi( do' la) mi'( do' la do') |
+    r8 sol,-\sug\p( mi do) r8 re( si sold) |
+    r8 mi-\sug\f( do' la) mi'( do' la do')-\sug\p |
     si( re' do' la) sol si, la, fad |
     sol4
   }
@@ -57,7 +59,7 @@
 mi' mi'( fad'\sf mi') |
 red'1\f |
 mi'4 do\p( re re) |
-\clef "bass" sol,2 r8. sol,16[ la,8. si,16] |
+\clef "bass" sol,2 r8. sol,16-\sug\f[ la,8. si,16] |
 do4 <<
   \tag #'(fagotto1 fagotti) \new Voice {
     \tag #'fagotti \voiceOne
@@ -69,6 +71,7 @@ do4 <<
     do2 do4 | si,1 | sol, | sol | sold |
     \clef "tenor" la2~ la4 la | si1 | do'2 la4 sol | sol2~ sol4
   }
+  { s2. | s1*4 | s2. s4-\sug\mf | s1 | s1-\sug\p }
 >> r4 |
 <<
   \tag #'(fagotto1 fagotti) \new Voice {
@@ -79,15 +82,16 @@ do4 <<
     \tag #'fagotti \voiceTwo
     mib2~ mib8 do'[-\tag #'(fagotto2 fagotto2-conducteur) \f do' do'] | do'1 | re'2
   }
->> r8 sib, sib, sib, |
+  { s1 | s1-\sug\p | }
+>> r8 sib,-\sug\ff sib, sib, |
 mib2~ mib8
 <<
   \tag #'(fagotto1 fagotti) \new Voice {
     \tag #'fagotti \voiceOne
     sol'8[ sol' sol'] | fa'1 | mib' | mib'2. do'4 |
     re'2. \clef "bass" re4 | mib2 fa4 mib | re2. sol4 |
-    \clef "tenor" mib8 do'([ re' mib'] mib' si do' do') |
-    r do'( re' mib' mib' si do' do') | si2~ si8
+    \clef "tenor" mib8 do'-\sug\sf([ re' mib'] mib' si do' do') |
+    r do'-\sug\sf( re' mib' mib' si do' do') | si2~ si8
   }
   \tag #'(fagotto2 fagotto2-conducteur fagotti) \new Voice {
     \tag #'fagotti \voiceTwo
@@ -95,6 +99,7 @@ mib2~ mib8
     si2. \clef "bass" si,!4 | do2 re4 do | si,2. si,4 |
     do1 | fad | sol2~ sol8
   }
+  { s4.-\sug\p | s1 | s4 s2.-\sug\cresc | s1\!-\sug\f | s2. s4-\sug\p }
 >> r8 r4 | \clef "bass"
 <<
   \tag #'(fagotto1 fagotti) \new Voice {
@@ -110,6 +115,7 @@ mib2~ mib8
     << \modVersion sold1 \origVersion { sold2~ sold } >> |
     la2~ la4 la | si1 | do'2 la4 sol | do1~ | do |
   }
+  { s1*5 | s2. s4-\sug\mf }
 >>
 <<
   \tag #'(fagotto1 fagotti) \new Voice {
