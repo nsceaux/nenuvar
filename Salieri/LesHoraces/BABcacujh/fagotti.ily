@@ -4,24 +4,24 @@ fa'2 r |
 r4 do'2 do'4 |
 \grace do'4 sib2 sib |
 sol'2 sol'4. fa'8 |
-mib'2. sib4 |
+mib'2.-\sug\f sib4-\sug\p |
 fa'1~ |
 fa' |
 sol'2 sol'4. fa'8 |
-mib'2. sib4 |
+mib'2.-\sug\f sib4-\sug\p |
 fa'1~ |
-fa'4 fa'8. fa'16 fa'4 fa' |
+fa'4-\sug\f fa'8. fa'16 fa'4 fa' |
 fa'2 r |
 R1*8 |
-r4 fa'2 fa'4 |
+r4 fa'2-\sug\p fa'4 |
 fa'2 r |
 r4 do'2 do'4 |
 do' sib sib2 |
 sol'2 sol'4. fa'8 |
-mib'2. sib4 |
+mib'2.-\sug\f sib4-\sug\p |
 fa'1 |
 fa' |
 sol'2 sol'4. fa'8 |
-mib'2. sib4 |
+mib'2.-\sug\f sib4-\sug\p |
 fa'1~ |
 fa' |

@@ -8,7 +8,7 @@ sib'2.-\sug\f re''4-\sug\p |
 re'' do''2 sib'8 la' |
 \grace la'4 sib'1 |
 sib'~ |
-sib'2. re''4-\sug\p |
+sib'2.-\sug\f re''4-\sug\p |
 re'' do''2 sib'8 la' |
 <sib' re'>4\f q8. q16 q4 q |
 q2 r |
@@ -28,10 +28,10 @@ la'2 r |
 r4 la'2 la'4 |
 la'( sib') sib'2 |
 sib'1~ |
-sib'2. re''4-\sug\p |
+sib'2.-\sug\f re''4-\sug\p |
 re'' do''2 sib'8 la' |
 \grace la'4 sib'1 |
 sib'~ |
-sib'2. re''4-\sug\p |
+sib'2.-\sug\f re''4-\sug\p |
 re'' do''2 sib'8 la' |
 <sib' re'>1 |

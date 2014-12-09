@@ -10,7 +10,7 @@ fa' |
 sol'2 sol'4. fa'8 |
 mib'2.-\sug\f sib4-\sug\p |
 fa'1~ |
-fa'4 fa'8.-\sug\f fa'16 fa'4 fa' |
+fa'4-\sug\f fa'8. fa'16 fa'4 fa' |
 fa'2 r |
 lab1-\sug\fp |
 sol2 sol' |
