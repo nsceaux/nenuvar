@@ -47,7 +47,7 @@ fad1\fp~ |
 fad2 sol~ |
 sol r8. fa!16\f fa4 |
 r2 r4 sol |
-do2 si,4 la, |
+do2-\sug\f si,4 la, |
 sol, fa, mi,8 do, sol, sol |
 do4 r8 do do4 do |
 do1\fermata |

@@ -47,7 +47,7 @@ fad1-\sug\fp~ |
 fad2 sol~ |
 sol r8. <sol re'>16-\sug\f q4 |
 r2 r4 sol |
-do'4. do'8 si16. sol'32 sol'8\mordent la16. fa'32 fa'8\mordent |
+do'4.-\sug\f do'8 si16. sol'32 sol'8\mordent la16. fa'32 fa'8\mordent |
 sol16. mi'32 mi'8\mordent r16 re' re'8\prall do' do sol sol |
 do4 r8 do do4 do |
 do1\fermata |
