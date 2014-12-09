@@ -15,10 +15,10 @@ sol'1~ |
 sol' |
 << \modVersion { sol'1~ } \origVersion { sol'2~ sol'~ } >> |
 sol'4 r r2 |
-fa16( do' la do' la do' la do') |
+fa16-\sug\f( do'-\sug\p la do' la do' la do') |
 sib( do' sib do' sib do' sib do') |
-la( do' la do' la do' la do') |
-la8 la'16. la'32 la'8 la' |
+la-\sug\< ( do' la do' la do' la do'\!) |
+la8-\sug\f la'16. la'32 la'8 la' |
 la'1 |
 sib'4 r r2 |
 r2 fa' |

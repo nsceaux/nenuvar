@@ -35,7 +35,7 @@ sol |
 do4 r r2 |
 <<
   \tag #'cello {
-    fa16\f do' la do' la do' la do' |
+    fa16\f do'-\sug\p la do' la do' la do' |
     sib do' sib do' sib do' sib do' |
     la\< do' la do' la do' la do'\! |
     la\f do' la do' la do' la do' |
