@@ -1,7 +1,7 @@
 <<
   \tag #'fagotti {
     \clef "tenor"
-    mib'2~ mib' |
+    mib'2-\sug\p~ mib' |
     mib'~ mib' |
     re'8 sib re' sib re' sib re' sib |
     mib'2~ mib' |
