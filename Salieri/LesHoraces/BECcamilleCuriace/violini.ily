@@ -37,7 +37,7 @@ r2 <<
     la'4 r r2 |
     r <re' si!>-\sug\fp~ |
     <re' si> do' |
-    sib~ sib4. sib'8 |
+    sib~ sib4. sib'8-\sug\f |
     sib'2 <>-\sug\p \rt#8 la16 |
     \rt#16 la |
     la4 r r8. <re' si'!>16[-\sug\f <re' si'>8. q16] |

@@ -11,7 +11,7 @@ R1 |
 fa'4 r r2 |
 r2 mi!-\sug\fp~ |
 mi mi'~ |
-mi'~ mi'4. mi'8 |
+mi'~ mi'4. mi'8-\sug\f |
 mi'2 <>-\sug\p \rt#8 fa'16 |
 \rt#16 fa' |
 fa'4 r r8. sol'16[-\sug\f sol'8. sol'16] |
