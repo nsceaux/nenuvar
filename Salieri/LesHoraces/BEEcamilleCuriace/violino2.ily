@@ -1,7 +1,7 @@
-\clef "treble" r8. la16[( do'8 la)] |
-r8. sol'16[ sol'8 sol'] |
-r8. fa'16[ fa'8 fa'] |
-r8. sol'16[ sol'8 sol'] |
+\clef "treble" r8. la16[( do'8-\sug\sf la)] |
+r8. \slurDashed sol'16([ sol'8-\sug\sf sol']) |
+r8. fa'16[( fa'8-\sug\sf fa')] |
+r8. sol'16[( sol'8-\sug\sf sol')] | \slurSolid
 r8. <>^\markup\italic { [plus serré] } fa'16[ la'8-. do'']-. |
 la'4 la'-\sug\p |
 re'8. re'16 re'8( sib) |

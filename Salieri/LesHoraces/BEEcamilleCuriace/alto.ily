@@ -1,7 +1,7 @@
 \clef "alto" fa4 r |
-r8. mi'16[ mi'8 mi'] |
-r8. re'16[ re'8 re'] |
-r8. do'16[ do'8 do'] |
+r8. \slurDashed mi'16[( mi'8-\sug\sf mi')] |
+r8. re'16[( re'8-\sug\sf re')] |
+r8. do'16[( do'8-\sug\sf do')] | \slurSolid
 r8. <>^\markup\italic { plus serré } fa'16[ fa'8 la] |
 re'4 re'-\sug\p |
 sol'4. sol8 |
