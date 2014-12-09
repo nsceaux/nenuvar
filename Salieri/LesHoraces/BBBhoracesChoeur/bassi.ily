@@ -10,7 +10,7 @@ sol sol sol |
 si, si, si, |
 do8.\f do16 do'8-. si-. la-. sol-. |
 fad8 re16. re32 re4 r |
-re re re |
+re-\sug\p re re |
 mi mi mi |
 la, la, la, |
 re re re |
@@ -35,17 +35,17 @@ sol,8 la,16 si, do re mi fad
         \tag #'fagotti \voiceTwo re'4 do'
       }
     >> |
-    \clef "bass" sol,8 la,16 si, do re mi fad sol la si do' re' mi' fa'! sol' |
+    \clef "bass" sol,8-\sug\ff la,16 si, do re mi fad sol la si do' re' mi' fa'! sol' |
     do2 do4 do |
     do2. do'4 |
     sol1 |
     \rt#4 do8 do4 r |
-    do1~ |
+    do1-\sug\p~ |
     do |
-    fa |
+    fa-\sug\f |
     fa2 mi |
     re fad4.\prall mi16 fad |
-    sol8 sol, sol, sol, sol,4 sol |
+    sol8-\sug\ff sol, sol, sol, sol,4 sol |
     do1 |
     do2. do'4 |
     si1 |

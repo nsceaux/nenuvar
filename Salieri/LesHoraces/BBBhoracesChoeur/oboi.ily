@@ -6,6 +6,7 @@
   \tag #'(oboe2 oboi) \new Voice {
     \tag #'oboi \voiceTwo mi'4
   }
+  { s4-\sug\f }
 >> r r |
 r16 sol'32 sol' sol'16 sol' sol'4 r |
 r16
@@ -39,8 +40,9 @@ r8. <<
     si'8. si'16 si'8. si'16 si'8. si'16 |
     re''8. sol'16
   }
+  { s16-\sug\p }
 >> sol'8. sol'16 sol'8. sol'16 |
-mi''8. mi''16 do''8 si' la' sol' |
+mi''8.-\sug\f mi''16 do''8-. si'-. la'-. sol'-. |
 fad'16 re'32 re' re'16 re' re'4 r |
 <>\p <<
   \tag #'(oboe1 oboi) \new Voice {
@@ -53,6 +55,7 @@ fad'16 re'32 re' re'16 re' re'4 r |
     la'2. | dod''~ | dod'' | re'' |
     do''!2 fad'?4 | sol'8. re''16
   }
+  { s2.*4 | s2 s4-\sug\f }
 >> sol''8 re'' si' sol' |
 <<
   \tag #'(oboe1 oboi) \new Voice {
@@ -67,6 +70,7 @@ fad'16 re'32 re' re'16 re' re'4 r |
     si'2 do'' |
     si' re'' | do''1 | si' | si'2
   }
+  { s2. | s1-\sug\fp | s1*2 | s2-\sug\f }
 >> r |
 <<
   \tag #'(oboe1 oboi) \new Voice {
@@ -79,7 +83,7 @@ fad'16 re'32 re' re'16 re' re'4 r |
     fad'2 fa' | mi' si' |
     do''4 do''8. do''16 si'4 do'' | si'
   }
->> r4 r sol'8. sol'16 |
+>> r4 r sol'8.-\sug\ff sol'16 |
 <<
   \tag #'(oboe1 oboi) \new Voice {
     \tag #'oboi \voiceOne
@@ -103,8 +107,9 @@ do'4 <<
     sol'8. sol'16 sol'4 sol' | sib'1 |
     la' | do''2 dod'' | re''4
   }
+  { s2.-\sug\p | s1 | s1-\sug\f }
 >> r4 r2 |
-r2 r4 sol'8. sol'16 |
+r2 r4 sol'8.-\sug\ff sol'16 |
 <<
   \tag #'(oboe1 oboi) \new Voice {
     \tag #'oboi \voiceOne
@@ -155,6 +160,7 @@ r4 r8 sol'' do''' sol'' mi'' do'' |
     do'' sol' mi' sol' do'' re'' mi'' do'' |
     si'4
   }
+  { <>-\sug\ff }
 >> r4 <<
   \tag #'(oboe1 oboi) \new Voice {
     \tag #'oboi \voiceOne
