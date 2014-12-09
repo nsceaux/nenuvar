@@ -1,7 +1,7 @@
 \clef "treble" \transposition mib
 r8 |
 R2.*2 |
-r8 r16 re'' re''2 |
+r8 r16 re''-\sug\f re''2 |
 r8. \twoVoices #'(corno1 corno2 corni) <<
   { re''16 re''2 }
   { sol'16 sol'2 }
@@ -12,9 +12,10 @@ R2.*2 |
     do''8. sol'16 do''4 }
   { mi''4. do''8 sol'8. sol'16 |
     mi'4 mi' }
+  { <>-\sug\f }
 >> r4 |
 R2.*2 |
-r8. re''16 re''2 |
+r8. re''16-\sug\f re''2 |
 r8. \twoVoices #'(corno1 corno2 corni) <<
   { re''16 re''2 }
   { sol'16 sol'2 }
@@ -25,53 +26,57 @@ r8 \twoVoices #'(corno1 corno2 corni) <<
     fa''8. mi''16 mi''4 }
   { mi''4 mi'' re''8 |
     re''8. do''16 do''4 }
+  { s8-\sug\mf s2 | <>-\sug\f }
 >> r4 |
 R2.*2 |
 r8 \twoVoices #'(corno1 corno2 corni) <<
   { do''4 mi''8 re'' re'' |
     do''4. do''8 \grace fa''16 mi''8 re''16 do'' |
     re''8 re''4 re'' re''8 |
-    do''4. do''8 \grace fa''16 mi''8 re''16 do'' |
+    do''4. do''8-\sug\f \grace fa''16 mi''8 re''16 do'' |
     re''8 re''4 re'' re''8 | }
   { mi'4 do''8 sol' sol' |
     mi'2. |
     r8 sol'4 sol' sol'8 |
     mi'2. |
     r8 sol'4 sol' sol'8 | }
+  { s8-\sug\mf s2 | s2.-\sug\f | s8 s-\sug\p s2 | s2. | s8 s-\sug\p s2 | }
 >>
-do''8 do''4 do'' do''8 |
-do''2.~ |
-do'' |
+do''8-\sug\cresc do''4 do'' do''8 |
+do''2.\!-\sug\fp~ |
+do''-\sug\f |
 \twoVoices #'(corno1 corno2 corni) <<
   { sol''2. | fa''8 }
   { mi''2. | re''8 }
+  { s2.-\sug\mf -\sug\cresc | s8\!-\sug\f }
 >> re''4 re'' re''8 |
 R2. |
-mi''4 r8 mi'' sol''8. mi''16 |
+mi''4-\sug\f r8 mi'' sol''8. mi''16 |
 do''4 r r |
 \twoVoices #'(corno1 corno2 corni) <<
   { do''8 do''16. do''32 do''2 }
   { do'8 do'16. do'32 do'2 }
+  { s8-\sug\ff }
 >> |
 R2. |
 R2.^\fermataMarkup |
 R2.*2 |
-r8. re''16 re''2 |
+r8. re''16-\sug\f re''2 |
 r8. \twoVoices #'(corno1 corno2 corni) <<
   { re''16 re''2 }
   { sol'16 sol'2 }
 >> |
 R2.*2 |
 r8 \twoVoices #'(corno1 corno2 corni) <<
-  { sol''4 sol''4 fa''8 |
-    fa''8. mi''16 mi''4 }
-  { mi''4 mi''4 re''8 |
-    re''8. do''16 do''4 }
+  { sol''4 sol''4 fa''8 | fa''8. mi''16 mi''4 }
+  { mi''4 mi''4 re''8 | re''8. do''16 do''4 }
+  { s4-\sug\mf }
 >> r4 |
 R2.*2 |
 r8 \twoVoices #'(corno1 corno2 corni) <<
   { sol''4 mi''8 re'' re'' | do''4 }
   { mi''4 do''8 sol' sol' | do'4 }
+  { s4-\sug\mf }
 >> r r |
 \twoVoices #'(corno1 corno2 corni) <<
   { s8 re'' s re'' s re'' |
@@ -94,10 +99,12 @@ r4 r\fermata r8\fermata
 \twoVoices #'(corno1 corno2 corni) <<
   { do''8 | do''2\fermata }
   { mi'8 | mi'2\fermata }
+  { s8-\sug\f }
 >> r4 |
 r r \twoVoices #'(corno1 corno2 corni) <<
   { re''4 | do''2 }
   { sol'4 | mi'2 }
+  { s4-\sug\p }
 >> r8\fermata r |
 \twoVoices #'(corno1 corno2 corni) <<
   { mi''2\fermata mi''8. mi''16 |
@@ -108,5 +115,6 @@ r r \twoVoices #'(corno1 corno2 corni) <<
     do''8. do''16 do''8. do''16 sol'8. sol'16 |
     mi'4~ mi'8 mi' mi' mi' |
     mi'4 mi' }
+  { s2-\sug\f s4-\sug\p | s2-\sug\cresc s4\!-\sug\f | }
 >> r4 |
 

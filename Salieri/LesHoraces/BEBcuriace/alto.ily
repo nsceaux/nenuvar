@@ -67,7 +67,7 @@ re''2\fermata r8.\fermata mib'16\f |
 mib'2\fermata sib8.-\sug\p sib16 |
 do'8. do'16 do'8. do'16 sib8. sib16 |
 sol2 r8\fermata r |
-mib'2\fermata sib8.-\sug\p sib16 |
+mib'2-\sug\f\fermata sib8.-\sug\p sib16 |
 do'2-\sug\cresc sib8.\!-\sug\f sib16 |
 sib8. <sib sol'>16 q8 q q <sol mib'> |
 q8. sib16 q4 r |

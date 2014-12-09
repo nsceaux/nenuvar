@@ -22,9 +22,9 @@
     r4 r mib''8.\mf do''16 |
     sib'8 sib4 sib'8 sib'8. lab'16 |
     sol'8\f mib'~ mib'16 mib' re' mib' \grace lab'16 sol'8 fa'16 mib' |
-    do'' sib' sib'8~ sib'16\p sib( re' fa' sib' fa' re' sib) |
-    mib'4~ mib'16\f mib'( re' mib' \grace lab'16 sol'8 fa'16 mib') |
-    do'' sib' sib'8~ sib'(\p sib'16 do'' \grace mib''16 re''8 do''16 sib') |
+    do'' sib' sib'8\p~ sib'16 sib( re' fa' sib' fa' re' sib) |
+    mib'4~ mib'16 mib'\f( re' mib' \grace lab'16 sol'8 fa'16 mib') |
+    do'' sib' sib'8\p~ sib'( sib'16 do'' \grace mib''16 re''8 do''16 sib') |
     mib''8 mib'4\cresc mib' mib''8 |
     reb''8.\fp reb'16 reb'8. reb'16 reb'8. reb'16 |
     do'8 do'''4\f lab''8 mib'' do'' |
