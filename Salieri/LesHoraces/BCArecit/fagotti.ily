@@ -11,4 +11,4 @@ r2 r4 <>-\sug\f <<
   { s4 s1 <>-\sug\p }
 >> r4 |
 R1*11 |
-r2 r4 sol4 |
+r2 r4 sol4-\sug\f |
