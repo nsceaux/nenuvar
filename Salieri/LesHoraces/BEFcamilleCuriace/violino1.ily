@@ -5,7 +5,7 @@ la'2. do''4 |
 si'4.\cresc do''8 re''4. mi''8 |
 fa''4\!\fp fa''2 fa'4 |
 mi' mi'( sol' do'') |
-la'4 <>\cresc \rt#4 la'16 \rt#4 sib' \rt#4 do'' |
+la'4\cresc \rt#4 la'16 \rt#4 sib' \rt#4 do'' |
 \rt#4 re'' \rt#4 do'' \rt#4 re'' \rt#4 mi'' |
 <>\! fa''4 <fa' la>8. q16 q4 q |
 q2. r4 |

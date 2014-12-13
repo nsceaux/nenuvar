@@ -1,13 +1,13 @@
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    \clef "tenor" fa1 | fa | mi | fa |
-    si4. do'8 re'4. mi'8 |
-    fa'1 | mi' |
-    fa'4 \twoVoices #'(fagotto1 fagotto2 fagotti) <<
+    \clef "tenor" fa1-\sug\fp | fa | mi-\sug\f | fa-\sug\p |
+    si4.-\sug\cresc do'8 re'4. mi'8 |
+    fa'1\!-\sug\fp | mi' |
+    fa'4-\sug\cresc \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { la4 sib do' | re' do' re' mi' | }
       { fa4 sol la | sib la sib sol | }
     >>
-    fa'4 fa8. fa16 fa4 fa |
+    fa'4\! fa8. fa16 fa4 fa |
     fa2. r4 |
     R1 |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
@@ -16,11 +16,12 @@
       { s1\f | s\p }
     >> solb4 mib |
     fa2 fa |
-    sib1~ |
-    sib |
+    sib1-\sug\fp~ |
+    sib-\sug\cresc |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { fa'1 | }
       { re'1 | }
+      { s1\!-\sug\f }
     >>
     mib'4 \clef "bass"
   }
@@ -32,14 +33,14 @@
     <>\cresc \rt#4 re \rt#4 re |
     <>\!\fp \rt#4 re \rt#4 re |
     \rt#4 do \rt#4 do |
-    \rt#4 fa <>\cresc \rt#4 fa |
+    <>\cresc \rt#4 fa \rt#4 fa |
     \rt#4 fa \rt#4 fa |
     <>\! fa4 fa8. fa16 fa4 fa |
     fa2. r4 |
     R1*6 |
     <>\fp \rt#4 sib,8 \rt#4 sib, |
     <>\cresc \rt#4 sib, \rt#4 sib, |
-    <>\! \rt#4 sib, \rt#4 sib, |
+    <>\!-\sug\f \rt#4 sib, \rt#4 sib, |
     mib4
   }
 >> mib8. mib16 mib2 |
@@ -54,6 +55,7 @@ mib r |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { fa4 do'2 do'4 | reb'1 | sib | la1 | la2 }
       { fa4 la2 la4 | sib1 | sol | fa1 | fa2 }
+      { s1-\sug\fp | s-\sug\cresc | s-\sug\f }
     >>
     \clef "bass"
   }
@@ -75,8 +77,9 @@ mib' mib fa fa, |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { re'1 | sol | lab | sol | lab1 | }
       { lab1 | mib | fa | mib | fa | }
+      { s1-\sug\fp | s1 | s1-\sug\fp }
     >>
-    sol1 | \clef "bass"
+    sol1-\sug\fp | \clef "bass"
   }
   \tag #'basso {
     <>\fp \rt#4 sib,8 \rt#4 sib, |
@@ -91,9 +94,9 @@ do8\ff do mib sol do' sol mib sol |
 \rt#4 do8 mib mib mi mi |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    \clef "tenor" fa4( la do' fa') |
+    \clef "tenor" fa4 la-\sug\sf( do' fa') |
     mi'1 |
-    fa'4( la do' fa') |
+    fa'4 la-\sug\sf( do' fa') |
     mi'1~ |
     mi' |
     mib'!~ |
@@ -130,7 +133,7 @@ mib' mib fa fa, |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
     \clef "tenor" sib1 |
-    sib2. lab4 |
+    sib2.-\sug\ff lab4 |
     sol1~ |
     sol1 |
     fa |
@@ -150,8 +153,8 @@ mib' mib fa fa, |
       { r4 s2.\p | r4 s2. | r4 s2. | r4 s2. | r4 s2. | }
     >>
     sib2 sib |
-    sib2. lab4 |
-    sol1 |
+    sib2.-\sug\ff lab4 |
+    sol1-\sug\p |
     sol |
     fa |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
@@ -170,9 +173,9 @@ mib' mib fa fa, |
       { r4 s2.\p | r4 s2. | r4 s2. | r4 s2. | r4 s2. | }
     >>
     sib4 r mib'2\p~ |
-    mib'2 fa'4 sol' |
+    mib'2-\sug\< fa'4 sol'\! |
     sol'1 |
-    fa'4( mib' re' dod') |
+    fa'4-\sug\p( mib' re' dod') |
     re'4 r \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { re'2 | mib' do' | re'4 }
       { sib2 | do' la | sib4 }
@@ -207,9 +210,9 @@ mib' mib fa fa, |
     fa,1 |
     sib,4 r r2 |
     R1*4 |
-    fa,1 | sib,~ | sib,~ | sib,~ | sib, | sib,4
+    fa,1 | sib,~ | sib,-\sug\f~ | sib,~ | sib,-\sug\p | sib,4
   }
->> sib,2 do8 re |
+>> sib,2-\sug\ff do8 re |
 mib do re mib fa4 mib |
 re sib8 sib sib4 do' |
 re' sib la sol |

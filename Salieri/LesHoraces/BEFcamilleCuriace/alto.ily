@@ -5,7 +5,7 @@
 <>-\sug\cresc \rt#8 fa' \rt#8 fa' |
 <>\!-\sug\fp \rt#8 fa' \rt#8 fa' |
 \rt#4 mi' \rt#8 do' \rt#4 do' |
-\rt#4 do' <>-\sug\cresc \rt#4 la \rt#4 sib \rt#4 do' |
+\rt#4 do'-\sug\cresc \rt#4 la \rt#4 sib \rt#4 do' |
 \rt#4 re' \rt#4 do' \rt#4 re' \rt#4 mi' |
 <>\! fa'4 do'8. do'16 do'4 do' |
 do'2. r4 |
@@ -46,10 +46,10 @@ fa'2.\fermata r4 |
 R1*9 |
 R1^\fermataMarkup |
 <>-\sug\fp sib1 |
-mib'4 mib sol sib |
+mib'4 mib-\sug\f sol sib |
 mib' mib' fa' fa |
 sib1 |
-re'~ |
+re'-\sug\ff~ |
 re' |
 reb'4 sib( do' reb') |
 do'( la') la'2 |
@@ -60,8 +60,8 @@ sol' |
 fa'~ |
 fa'2. mib'4 |
 re'1~ |
-re'~ |
-re' |
+re'-\sug\ff~ |
+re'-\sug\p |
 reb'4( sib do' reb') |
 do'( la') la'2 |
 R1 |
@@ -71,9 +71,9 @@ sol' |
 fa'~ |
 fa'2 mib' |
 re'4 r <>-\sug\p sol'2~ |
-sol' la'4 sib' |
+sol'-\sug\< la'4 sib'\! |
 sib'1 |
-la'4( sol' fa' mi') |
+la'4-\sug\p( sol' fa' mi') |
 fa'4 r sib2\< |
 do'\! la-\sug\p |
 sib4 r <>-\sug\p sol'2~ |
@@ -85,7 +85,7 @@ do' la |
 sib r |
 <>\f << { sol'2. fa'4 | fa'1 | mib'2. re'4 | re' }
   \\ { mib'2. re'4 | re'1 | do'2.-\p sib4 | sib }
->> sib2 do'8 re' |
+>> sib2-\sug\ff do'8 re' |
 mib' do' re' mib' fa'4 mib' |
 re' sib'8 sib' sib'4 do'' |
 re'' sib' la' sol' |

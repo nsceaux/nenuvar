@@ -5,7 +5,7 @@
 <>-\sug\cresc \rt#8 <re' si'> \rt#8 q |
 <>\!-\sug\fp \rt#8 q \rt#8 q |
 \rt#4 <mi' do''> \rt#8 <mi' sol> \rt#4 q |
-\rt#4 <la fa'> <>-\sug\cresc \rt#4 fa' \rt#4 sol' \rt#4 la' |
+\rt#4 <la fa'>-\sug\cresc \rt#4 fa' \rt#4 sol' \rt#4 la' |
 \rt#4 sib' \rt#4 la' \rt#4 sib' \rt#4 sol' |
 <>\! <la' fa'>4 <fa' la>8. q16 q4 q |
 q2. r4 |
@@ -52,7 +52,7 @@ mib'' mib'' re'' do'' |
 sib'2.( <>-\sug\ff re''4) |
 re''2.( do''4) |
 si'1 |
-sib'!4 reb''' do''' sib'' |
+sib'!4 \once\slurDashed reb'''( do''' sib'') |
 la''( do''') do'''2 |
 r4 sib'(-\sug\p la' sib') |
 r sib' sib' sib' |
@@ -74,7 +74,7 @@ sib'-. \once\slurDashed sib'( do'' la') |
 sib' r <>-\sug\p mib'2~ |
 mib'( fa'4 sol') |
 sol'1 |
-fa'4( mib' re' dod') |
+fa'4-\sug\p( mib' re' dod') |
 re' r re'2\< |
 mib'2\! do'\p |
 re'4 r <>-\sug\p mib'2~ |
