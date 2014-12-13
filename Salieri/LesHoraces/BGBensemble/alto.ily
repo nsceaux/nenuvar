@@ -11,10 +11,10 @@ do'4 do8. do16 re2 |
 sol8 la16 si do' re' mi' fad' sol'4 r |
 r8 re'16 re' re'8 re' \rt#4 re' |
 mi8\ff fad16 sold la si dod' red' mi'4 r |
-mi'4 do'8 do' mi'2-\sug\f |
+mi'4-\sug\p do'8 do' mi'2-\sug\f |
 fa'8 re16 re fa8 la re' la'-\sug\p la' la' |
 la'4 la'8 fa' mi'4 mi'8 mi' |
-mi'-\sug\fp mi'16( do' mi' do' mi' do') sol do' sol do' \rt#4 do' |
+mi'-\sug\fp mi'16( do' mi' do' mi' do') sol-\sug\cresc do' sol do' \rt#4 do' |
 do'16 la do' la fa la' la' la' la'-\sug\f fa' la' fa' la' fa' la' fa' |
 la' fa' la' fa' la'-\sug\p fa' la' fa' la' fad' la' fad' la' fad' la' fad' |
 \rt#8 sol' <>-\sug\cresc \rt#8 sol' |
@@ -48,11 +48,11 @@ mi-\sug\f do'16 do' do'8 do' do'2-\sug\p |
 la4 re'2 re'4 |
 do'2( fa'4 lab') |
 sol'1 |
-do'8 sol'16 do'' mi''8 mi'' mi''16 re'' do'' si' la' sol' fa' mi' |
+do'8-\sug\fp sol'16 do'' mi''8 mi'' mi''16 re'' do'' si' la' sol' fa' mi' |
 re'8 re'16 fa' la'8 la' la'16 sol' fa' mi' re' do' si la |
 sol8 sol'16 si' re''8 re'' re''16 do'' si' la' sol' fa' mi' re' |
 mi'8 sol'16 do'' mi''8 mi'' mi''16 re'' do'' si' la' sol' fa' mi' |
-re'8 re'16 fa' la'8 la' la'16 sol' fa' mi' re' do' si la |
+re'8-\sug\ff re'16 fa' la'8 la' la'16 sol' fa' mi' re' do' si la |
 sol8 si16 re' sol'8 sol' sol'16 fa' mi' re' do' si la sol |
 do'1( |
 sol'1)\fp |

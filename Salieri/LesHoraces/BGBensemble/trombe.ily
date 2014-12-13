@@ -1,4 +1,4 @@
-\clef "treble" r2 do''4 sol'8 sol' |
+\clef "treble" r2 do''4-\sug\mf sol'8 sol' |
 mi'4 r r2 |
 R1 |
 r2 r4 \twoVoices #'(tromba1 tromba2 trombe) <<
@@ -6,7 +6,7 @@ r2 r4 \twoVoices #'(tromba1 tromba2 trombe) <<
   { sol'8 sol' | mi'4 }
 >> r4 r2 |
 R1 |
-r2 r8 re''16 re'' re''8 re'' |
+r2 r8 re''16-\sug\f re'' re''8 re'' |
 sol'4 r r8 re''16 re'' re''8 re'' |
 sol'4 r r2 |
 r8 \twoVoices #'(tromba1 tromba2 trombe) <<
@@ -15,26 +15,26 @@ r8 \twoVoices #'(tromba1 tromba2 trombe) <<
 >> re''4 re''8 re'' |
 sol' sol'16 sol' sol'8 sol' sol'4 r |
 re''1 |
-mi''8 \twoVoices #'(tromba1 tromba2 trombe) <<
+mi''8-\sug\ff \twoVoices #'(tromba1 tromba2 trombe) <<
   { mi''16 mi'' mi''8 mi'' mi''4 }
   { mi'16 mi' mi'8 mi' mi'4 }
 >> r4 |
 R1*2 |
 r2 r8 mi''16\f mi'' mi''8 mi'' |
 mi''4 r r2 |
-r r8 re''16 re'' re''8 re'' |
+r r8 re''16-\sug\f re'' re''8 re'' |
 re''4 r r2 |
 r8 <>\f \twoVoices #'(tromba1 tromba2 trombe) <<
   { sol'16 sol' sol'8 sol' \rt#4 sol'8 | sol'1~ | sol' | }
   { sol16 sol sol8 sol \rt#4 sol8 | sol1~ | sol | }
 >>
-sol'8. sol'16 sol'8. sol'16 sol'8. sol'16 sol'8. sol'16 |
+sol'8.-\sug\ff sol'16 sol'8. sol'16 sol'8. sol'16 sol'8. sol'16 |
 sol'4 sol' sol' r\fermata |
 R1*6 |
-r2 mi' |
+r2 mi'-\sug\f |
 do'4 r r2 |
 R1*4 |
-r8 sol'16 sol' sol'8 sol' \rt#4 sol' |
+r8 sol'16-\sug\f sol' sol'8 sol' \rt#4 sol' |
 \twoVoices #'(tromba1 tromba2 trombe) <<
   { do''4 }
   { mi'4 }
@@ -48,7 +48,7 @@ r2 \twoVoices #'(tromba1 tromba2 trombe) <<
   { do''8 do'' do'' | sol'1 | mi'8 sol'16 sol' }
 >> sol'8 sol' sol'2 |
 R1*2 |
-r8 do''16 do'' do''8 do'' do'' do''16 do'' do''8 do'' |
+r8 do''16-\sug\f do'' do''8 do'' do'' do''16 do'' do''8 do'' |
 do'' do''16 do'' do''8 do'' do'' do''16 do'' do''8 do'' |
 do'' do''16 do'' do''8 do'' do''4 r |
 R1*3 |

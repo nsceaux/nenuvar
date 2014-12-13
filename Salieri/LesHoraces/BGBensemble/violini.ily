@@ -32,7 +32,7 @@ sol8 la16 si do' re' mi' fad' sol'8 re''16[ re''] re''8 mi'' |
   \tag #'violino1 {
     <re' la' fa''!>4 re''8 re'' re'''4 si''8 la'' |
     sold''4 r r8 si'\p( mi'' re'') |
-    do''4 la'8 la' dod''2 |
+    do''4 la'8 la' dod''2-\sug\f |
     re''8\f re'16 re' fa'8 la' re'' la'\p re'' mi'' |
     fa''4 re''8 re'' si'!4 si'8 si' |
     do''4 r r sol''8\sf( sold'' |
@@ -47,10 +47,10 @@ sol8 la16 si do' re' mi' fad' sol'8 re''16[ re''] re''8 mi'' |
   \tag #'violino2 {
     <re' la' fa''!>8 <fa' la'>16[ q] q8 q q4 fa'' |
     mi'8\ff fad'16 sold' la' si' dod'' red'' mi''4 r |
-    mi''4 la''8 la'' si''4.\f si'8 |
+    mi''4-\sug\p la''8 la'' si''4.\f si'8 |
     la'8 re'16 re' fa'8 la' re'' re'-\sug\p la' sol' |
     fa'4 fa'8 la' sold'4 sold'8 sold' |
-    la'\fp do''16( la' do'' la' do'' la') do'' sol' do'' sol' do'' sol' mi' do' |
+    la'\fp do''16( la' do'' la' do'' la') do''-\sug\cresc sol' do'' sol' do'' sol' mi' do' |
     do' fa' la' do'' do'' la' dod'' la' re''\f la' re'' la' re'' la' re'' la' |
     re'' la' re'' la' re''\p la' re'' la' do''! la' do'' la' do'' la' do'' la' |
     \rt#8 <re' si'>16 <>-\sug\cresc \rt#8 q |
@@ -84,7 +84,7 @@ sol8 la16 si do' re' mi' fad' sol'8 re''16[ re''] re''8 mi'' |
     la'2 si!-\sug\sf |
   }
 >>
-r2 <mi' si' sold''> |
+r2 <mi' si' sold''>-\sug\f |
 la16 si do' re' mi' do' si la sold4 r |
 la16 si do' re' mi' re' do' si la8 <<
   \tag #'violino1 {
@@ -170,15 +170,15 @@ sol''\f do''16 do'' do''8 do''
     la'2 si' |
     do''( lab'4 fa') |
     r8 mib' mib' mib' r re' re' re' |
-    mi'!8 sol'16 do'' mi''8 mi'' mi''16 re'' do'' si' la' sol' fa' mi' |
+    mi'!8-\sug\fp sol'16 do'' mi''8 mi'' mi''16 re'' do'' si' la' sol' fa' mi' |
     re'8 re''16 fa'' la''8 la'' la''16 sol'' fa'' mi'' re'' do'' si' la' |
     sol'8 sol''16 si'' re'''8 re''' re'''16 do''' si'' la'' sol'' fa'' mi'' re'' |
     mi''8 sol'16 do'' mi''8 mi'' mi''16 re'' do'' si' la' sol' fa' mi' |
-    re'8 re''16 fa'' la''8 la'' la''16 sol'' fa'' mi'' re'' do'' si' la' |
+    re'8-\sug\ff re''16 fa'' la''8 la'' la''16 sol'' fa'' mi'' re'' do'' si' la' |
     << { \rt#8 sol''16 \rt#8 sol'' }
       \\ { \rt#8 si' \rt#8 si' } >> |
     do''8 do'' do'' do'' do'' do'' do'' do'' |
-    \rt#4 do'' \rt#4 do'' |
+    <>-\sug\fp \rt#4 do'' \rt#4 do'' |
     do''(-. do''-. do''-. do''-.) do''(-. do''-. do''-. do''-.) |
     r8 do'' do'' do'' r si' si' si' |
     r4 do''\< do'' do''\! |
@@ -189,8 +189,8 @@ sol''\f do''16 do'' do''8 do''
     re''1 |
     sol'2 r4 fa'-\sug\p |
     r mib' r re' |
-    do' r mib'2( |
-    do'4) r sol2~ |
+    do' r mib'2-\sug\sf( |
+    do'4) r sol2-\sug\sf~ |
     sol4 r r2 |
     sol4-\sug\p r sol r |
     sol r r2 |
