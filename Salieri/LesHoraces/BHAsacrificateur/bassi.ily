@@ -15,6 +15,7 @@ sol2 r |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { mi'8. mi'16 mi'4 mi' | re'4. }
       { do'8. do'16 do'4 do' | si4. }
+      { s4-\sug\p }
     >> \clef "bass"
   }
   \tag #'basso { r4 do8.\p re16 mi4 fa | sol4. }

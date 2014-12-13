@@ -25,7 +25,7 @@ fa'4 mi'8. mi'16 re'4 do'8. do'16 |
     s4 do''8. do''16 do''4 do'' |
     si'4. si'8 si'4. si'8 |
     si'1~ | si'~ | si'~ | si' | do''4 }
-  { s1*2 | s2 r | r4 s2. | s4. s8\f s2 | s2. s4\p | }
+  { s1*2 | s2 r | r4 s2.-\sug\p | s4. s8\f s2 | s2. s4\p | }
 >> r4 r2 |
 R1 |
 r4 r8 \twoVoices #'(oboe1 oboe2 oboi) <<
@@ -33,7 +33,7 @@ r4 r8 \twoVoices #'(oboe1 oboe2 oboi) <<
     fad'' | sol'' | lad''2 s4 lad'' | si''4. }
   { la'8 la'4 la' | la'1~ | la'~ | la' |
     si'~ | si' | dod''2 s4 dod'' | re''4. }
-  { s8 s2 | s2. s4\p | s1*4 | s2 r4 }
+  { s8-\sug\f s2 | s2. s4\p | s1*4 | s2 r4 s4-\sug\f }
 >> fad'8 si'4 re'' |
 \twoVoices #'(oboe1 oboe2 oboi) <<
   { fad''1~ | fad''~ | fad''2 la''~ | la'' si''~ |
