@@ -7,6 +7,7 @@ do'2 r\fermata |
 R1*4 |
 R1^\fermataMarkup |
 R1*4 |
+\once\override TextScript.outside-staff-priority = #9999
 <>^\markup\smallCaps [Les deux armées]
 do''2.\fermata mib''4 |
 re''2. re''4 |

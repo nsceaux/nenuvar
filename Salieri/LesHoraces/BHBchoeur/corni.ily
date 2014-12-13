@@ -7,7 +7,7 @@ do'' do''8. do''16 do''4 do'' |
 do'' do''8. do''16 do''4 do''~ |
 do'' do''2 do''4~ |
 do'' do'8. do'16 do'4 r |
-mi'2 mi' |
+mi'2-\sug\f mi' |
 mi' mi' |
 mi' r4 do'' |
 re'' re''8. re''16 re''4 re'' |
@@ -17,7 +17,7 @@ re'' sol'8. sol'16 sol'4 r |
 sol'1~ |
 sol'4 r r2 |
 R1 |
-r4 r8 do' mi'4 sol' |
+r4 r8 do'-\sug\f mi'4 sol' |
 do'' do''8. do''16 do''4 do'' |
 do'' do''8. do''16 do''4 do''~ |
 do'' do''2 do''4~ |
@@ -56,7 +56,7 @@ do''8 sol'16 sol' sol'8 sol' \twoVoices #'(corno1 corno2 corni) <<
 >> r8 do' do'4 do' |
 do'2 r\fermata |
 R1*4 |
-do'2.\fermata r4 |
+do'2.-\sug\ff\fermata r4 |
 <>^"Corni soli" re''1~ |
 re'' |
 sol' |
@@ -105,7 +105,7 @@ re'' re'' re'' re'' |
 >> r2 |
 mi''1 |
 R1*2 |
-re''2. r4 |
+re''2.-\sug\ff r4 |
 R1*3 |
 r2 re''4. re''8 |
 re''1 |

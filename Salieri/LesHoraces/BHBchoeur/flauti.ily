@@ -24,7 +24,7 @@
     fad'' fad''8. fad''16 fad''4 sol'' |
     la'' sol'' fad''4. fad''8 |
     sol''4 re''8. re''16 re''4 s | }
-  { s4 r4 r2 | r4 s2. | s1*2 | s2. r4 | s1*2 | s2 r | r4 s2. |
+  { s4 r4 r2 | r4 s2. | s1*2 | s2. r4 | s1-\sug\f | s | s2 r | r4 s2. |
     s1*2 | s2. r4 | }
 >>
 R1*4 |
@@ -51,7 +51,7 @@ R1*4 |
     fad'' fad''8. fad''16 fad''4 sol'' |
     la'' sol'' fad''4. fad''8 |
     sol''4 re''8. re''16 re''4 s | }
-  { r4 s2. | s1*2 | s2. r4 |
+  { r4 s2.-\sug\f | s1*2 | s2. r4 |
     s1*2 | s2 r | r4 s2. | s1*2 | s2. r4 | }
 >>
 %%%
@@ -68,6 +68,7 @@ R1*4 |
 \twoVoices #'(flauto1 flauto2 flauti) <<
   { do'''2.\fermata }
   { mib''2.\fermata }
+  { s-\sug\ff }
 >> r4 |
 re''4. fad''16 la'' re'''8 re''' re''' re''' |
 re'''1 |
@@ -106,7 +107,7 @@ dod'''1 |
   { re'''1 | dod''' | }
   { fa''1 | mi'' | }
 >>
-re'''2. la''4 |
+re'''2.-\sug\ff la''4 |
 re''' la'' re''' fa''' |
 re'''2. la''4 |
 sib''2 dod''4 la'' |
@@ -119,7 +120,8 @@ r2 \twoVoices #'(flauto1 flauto2 flauti) <<
   { sib''?2 | lab''1 | sol''~ | sol''~ |
     sol''~ | sol'' | sol''4 mib''' mib''' mib''' |
     mib'''1~ | mib'''4 mib''' mib''' mib''' | mib'''2 }
-  { s2 | s1 | s2. s4-\sug\p | s1\< | s2.\! s4\p | s1\< | <>\! }
+  { s2 | s1 | s2. s4-\sug\p | s1\< | s2.\!-\sug\ff s4\p |
+    s1\< | s4\! s2.-\sug\ff }
 >> sol''2 |
 si''! do''' |
 re''' mib''' |

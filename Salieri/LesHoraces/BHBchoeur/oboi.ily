@@ -30,8 +30,8 @@
     re'1 |
     do'2 mi'4 mi' |
     re'1 | }
-  { s4 r4 r2 | r4 s2. | s1*2 | s2. r4 | s1*2 | s2 r | r4 s2. |
-    s1*2 | s2. r4 | s1*3 | }
+  { s4 r4 r2 | r4 s2. | s1*2 | s2. r4 | s1-\sug\f | s1 | s2 r | r4 s2. |
+    s1*2 | s2. r4 | s1 | s2 s-\sug\p }
 >>
 \twoVoices #'(oboe1 oboe2 oboi) <<
   { do''4 s2. |
@@ -58,7 +58,7 @@
     fad' fad'8. fad'16 fad'4 sol' |
     la' sol' fad'4. fad'8 |
     sol'4 re'8. re'16 re'4 s | }
-  { s4 r r2 | r4 s2. | s1*2 | s2. r4 | s1*2 |
+  { s4 r r2 | r4 s2.-\sug\f | s1*2 | s2. r4 | s1*2 |
     s2 r | r4 s2. | s1*2 | s2. r4 | }
 >>
 %%%
@@ -84,6 +84,7 @@ R1*4 |
 \twoVoices #'(oboe1 oboe2 oboi) <<
   { mib''2.\fermata }
   { la'2.\fermata }
+  { s-\sug\ff }
 >> r4 |
 \twoVoices #'(oboe1 oboe2 oboi) <<
   { re''1 | la'' | sol''2~ sol''8 si''[ si'' do'''] |
@@ -120,7 +121,7 @@ sol'' |
 la''~ |
 la''~ |
 la'' |
-re''2. la'4 |
+re''2.-\sug\ff la'4 |
 re''4 la' re'' fa'' |
 re''2. \twoVoices #'(oboe1 oboe2 oboi) <<
   { fa''4 | mi''1 | re''2 re''4. re''8 | fa''1 |
@@ -137,8 +138,8 @@ re''2. \twoVoices #'(oboe1 oboe2 oboi) <<
     s1*2 |
     s2. s4\p |
     s1\< |
-    s2.\! s4\p |
-    s1\< | <>\! }
+    s2.\!-\sug\ff s4\p |
+    s1\< | s4\! s2.-\sug\ff }
 >> sol''2 |
 fa'' mib'' |
 re'' do'' |

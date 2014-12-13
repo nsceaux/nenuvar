@@ -28,7 +28,7 @@ do4 <<
         sol4 sol8. sol16 sol4 s |
         \clef "tenor" si1 |
         do'2 }
-      { s2. | s1*2 | s2. r4 | s1*2 |
+      { s2. | s1*2 | s2. r4 | s1-\sug\f | s1 |
         s2 r | r4 s2. | s1*2 | s2. r4 | }
     >> \clef "bass" 
   }
@@ -45,9 +45,9 @@ do4 <<
     re r |
     sol4 sol,8. sol,16 sol,4 r |
     fa!1 |
-    mi2 <>-\sug\p
+    mi2
   }
->> do4 mi |
+>> do4-\sug\p mi |
 sol2 sol, |
 do4. do8\f mi4 sol |
 do4 <<
@@ -151,7 +151,7 @@ R1^\fermataMarkup |
         s si do'4. do'8 |
         si2. do'4 |
         si1 | }
-      { s1*3 | s2. r4 | r }
+      { s2.-\sug\ff s4 | s1*2 | s2. r4 | r }
     >> \clef "bass"
   }
   \tag #'(basso cb) {
@@ -250,9 +250,9 @@ re4 la, re fa |
         sib1 | lab | sol2. }
     >> \clef "bass" sol4-\sug\p |
     lab\< la sib si |
-    do'2\! sib4 la |
-    sib si do' re' |
-    \clef "tenor" mib' mib' mib' mib' |
+    do'2\!-\sug\ff sib4 la-\sug\p |
+    sib-\sug\< si do' re' |
+    \clef "tenor" mib'\! mib'-\sug\ff mib' mib' |
     mib' r \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { sol'4. sol'8 | mib'2 }
       { sib4. sib8 | sol2 }
