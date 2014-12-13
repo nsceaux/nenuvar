@@ -21,7 +21,7 @@ si,2. sol,4 |
         si4. si8 si4. do'8 | do'4. do'8 do'4. si8 |
         si4. si8 si4. do'8 | do'2. do'4 |
         do'2~ do'4. do'8 | do'2. si4 }
-      { s1*4 | s4. s8-\sug\f }
+      { s1*4 | s4. s8-\sug\f s2 | s1*2 | s2 s-\sug\p | }
     >>
   }
   \tag #'basso {
