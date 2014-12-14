@@ -820,6 +820,7 @@
   Le Théâtre représente la cour du Palais d’Horace.
 }
 \livretScene SCÈNE PREMIERE
+\livretRef #'CAAcamille
 \livretPers\line { CAMILLE \smaller\italic seule }
 \livretVerse#12 { Que je vous dois d’encens, ô mes Dieux tutélaires ! }
 \livretVerse#8 { Unique appui des malheureux, }
