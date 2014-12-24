@@ -39,7 +39,7 @@ re''2 r8 do''! do'' do'' |
 si'2~ si'8 do'' si' la' |
 sold'4 sold' r8 mi'' mi'' mi'' |
 la''1~ |
-la''4 fa'' mi'' red'' |
+la''4\fermata fa'' mi'' red'' |
 mi''1~ |
 mi''~ |
 mi''4 mi''2\fermata mi''8 re'' |

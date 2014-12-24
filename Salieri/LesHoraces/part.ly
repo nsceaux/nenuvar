@@ -220,3 +220,12 @@
   Chœur : \italic { Oui, que les Dieux décident entre-nous }
 }
 \includeScore "BHCchoeur"
+
+%%%%%%%%%%%%%%% ACTE III %%%%%%%%%%%%%%%%%%
+\act "Acte Troisième"
+\scene "Scène Première" "Scène I"
+% 3-1
+\pieceToc\markup\wordwrap {
+  Camille : \italic { Que je vous dois d’encens, ô mes Dieux tutélaires }
+}
+\includeScore "CAAcamille"

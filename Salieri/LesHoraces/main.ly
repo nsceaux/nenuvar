@@ -360,6 +360,23 @@
   \includeScore "BHCchoeur"
 }
 
+%%%%%%%%%%%%%%% ACTE III %%%%%%%%%%%%%%%%%%
+% 3-1
+\bookpart {
+  \act "Acte Troisième"
+  \sceneDescription\markup\wordwrap-center {
+    Le Théâtre représente la cour du Palais d’Horace.
+  }
+  \scene "Scène Première" "Scène I"
+  \sceneDescription\markup\wordwrap-center {
+    \smallCaps Camille seule
+  }
+  \pieceToc\markup\wordwrap {
+    Camille : \italic { Que je vous dois d’encens, ô mes Dieux tutélaires }
+  }
+  \includeScore "CAAcamille"
+}
+
 
 %% Livret
 \bookpart {

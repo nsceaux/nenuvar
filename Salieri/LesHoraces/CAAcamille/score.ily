@@ -1,37 +1,20 @@
 \score {
   \new StaffGroupNoBar \notemode <<
     \new StaffGroupNoBracket <<
-      \new GrandStaff \with {
+      \new Staff \with {
         instrumentName = \markup\center-column { Corni en la }
         shortInstrumentName = "Cor."
+        \consists "Metronome_mark_engraver"
+        \consists "Mark_engraver"
       } <<
-        \new Staff \with {
-          \consists "Metronome_mark_engraver"
-          \consists "Mark_engraver"
-        } <<
-          \keepWithTag #'() \global
-          \keepWithTag #'corno1 \includeNotes "corni"
-        >>
-        \new Staff <<
-          \keepWithTag #'() \global
-          \keepWithTag #'corno2 \includeNotes "corni"
-        >>
+        \keepWithTag #'() \global
+        \keepWithTag #'corni \includeNotes "corni"
       >>
-      \new GrandStaff \with { \oboiInstr } <<
-        \new Staff <<
-          \global \keepWithTag #'oboe1 \includeNotes "oboi"
-        >>
-        \new Staff <<
-          \global \keepWithTag #'oboe2 \includeNotes "oboi"
-        >>
+      \new Staff \with { \oboiInstr } <<
+        \global \keepWithTag #'oboi \includeNotes "oboi"
       >>
-      \new GrandStaff \with { \fagottiInstr } <<
-        \new Staff <<
-          \global \keepWithTag #'fagotto1 \includeNotes "bassi"
-        >>
-        \new Staff <<
-          \global \keepWithTag #'fagotto2 \includeNotes "bassi"
-        >>
+      \new Staff \with { \fagottiInstr } <<
+        \global \keepWithTag #'fagotti \includeNotes "bassi"
       >>
     >>
     \new StaffGroupNoBracket <<
@@ -44,14 +27,14 @@
       >>
       \new Staff \with { \altoInstr } << \global \includeNotes "alto" >>
     >>
-    \new Staff \with { \camilleInstr } \withLyrics <<
-      \global \includeNotes "camille"
-    >> \keepWithTag #'camille \includeLyrics "paroles"
     \new Staff \with {
-      \vccbInstr
+      \camilleInstr
       \consists "Metronome_mark_engraver"
       \consists "Mark_engraver"
-    } <<
+    } \withLyrics <<
+      \global \includeNotes "camille"
+    >> \keepWithTag #'camille \includeLyrics "paroles"
+    \new Staff \with { \vccbInstr } <<
       \global \keepWithTag #'basso \includeNotes "bassi"
       \origLayout {
         s4 s1*3\pageBreak

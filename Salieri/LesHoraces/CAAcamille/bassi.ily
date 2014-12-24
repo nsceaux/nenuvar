@@ -11,7 +11,7 @@ la4 la, la, r |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
     R1 | \clef "tenor"
-    r4 \twoVoices #'(fagotto1 fagotto2 fagotti) <<
+    \grace s4 r4 \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { dod' dod' }
       { la la }
     >> r |
@@ -19,15 +19,16 @@ la4 la, la, r |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { la1 | si | }
       { fad | sold | }
+      { s1 | s-\sug\mf | }
     >>
-    la4 fad'8 re' dod'4. sold8 |
+    la4-\sug\p fad'8 re' dod'4. sold8 |
     r4 \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { dod'8. mi'16 dod'4 }
       { la8. dod'16 la4 }
     >> r4 |
-    r4 fad4 fa2 |
-    mi4 re!2\fermata r4 |
-    r4 la8( dod' mi'2) |
+    r4 fad4-\sug\cresc fa2 |
+    mi4 re!2-\sug\f\fermata r4 |
+    r4 la8(-\sug\p dod' mi'2) |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { s8 mi' mi' mi' s mi' mi' mi' |
         s fad' s fad' s re' s re' |
@@ -37,12 +38,13 @@ la4 la, la, r |
         s dod' dod' dod' s dod' dod' dod' | }
       { r8 s4. r8 s4. | r8 s r s r s r s | r s4. r8 s4. }
     >>
-    fad'2 red' |
-    mi'4 r8 mi mi4 mi |
+    fad'2-\sug\cresc red' |
+    mi'4-\sug\f r8 mi mi4 mi |
     mi mi8. mi16 mi4 r |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { do'1 | mi'~ | mi'2 do' | mi'1~ | mi'4 re'2 re'4 | }
       { la1 | si | do'2 la | si1~ | si | }
+      { s1*2 | s1-\sug\p }
     >>
     fa'2 fad' |
     mi'2 r |
@@ -57,7 +59,7 @@ la4 la, la, r |
     la\p la fad re \rt#4 mi |
     la, la la la la la([\cresc sold! sol]) |
     \rt#4 fad8 \rt#4 fa |
-    mi4 re!2\fermata\f red4\p |
+    mi4 re!2\fermata\f re4\p |
     \rt#4 mi8 \rt#4 mi |
     \rt#4 la \rt#4 la |
     \rt#4 la \rt#4 la |
@@ -66,7 +68,7 @@ la4 la, la, r |
     mi4.\!-\sug\f mi8 mi8. mi16 mi8. mi16 |
     mi4 mi8. mi16 mi4 r |
     la8\sf r do' r fa' r la\sf r |
-    sold r mi r sold r mi\p r |
+    sold! r mi r sold r mi\p r |
     la\sf r do' r fa' r la\sf r |
     sold r mi r sold r mi r |
     fa fa fa fa \rt#4 fa |
@@ -78,23 +80,25 @@ la4 la, la, r |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
     R1*6 |
-    mi8 do mi do fa re fa re |
-    mi2 r |
+    mi8-\sug\cresc do mi do fa re fa re |
+    mi2-\sug\f r |
     R1 |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { do'2. mi'8 re' | dod'1 | re'2 do'! | si1 | si1 | }
       { mi2. sol4 | sol1 | la | la | sold | }
+      { s1-\sug\p | s1*3 | s4 s2.-\sug\cresc | <>-\sug\f }
     >>
-    la1~ | la\fermata |
+    la1~ | la-\sug\p\fermata |
     sold2 \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { re'2 | do' si | do'4 si }
       { si2 | la sold | la4 sold }
+      { s2-\sug\sf | s1 | s2-\sug\f }
     >> r2\fermata |
   }
   \tag #'basso {
-    do!8 do do do \rt#4 do |
+    do!8\f do[ do do] \rt#4 do |
     \rt#4 re \rt#4 re |
-    \rt#4 sol \rt#4 sol, |
+    <>\p \rt#4 sol \rt#4 sol, |
     \rt#4 do \rt#4 do |
     \rt#4 mi \rt#4 mi |
     \rt#4 fa \rt#4 fa |
@@ -116,15 +120,17 @@ la4 la, la, r |
 %%
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    R1 | \clef "bass"
+    R1 |
     r4 \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { la8. dod'16 la4 }
-      { si,8. re16 si,4 }
+      { fad8. la16 fad4 }
+      { s4-\sug\p }
     >> r4 |
-    R1*2 | \clef "tenor"
+    R1*2 |
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { la1 | si | }
       { fad1 | sold | }
+      { s1 | s-\sug\mf | }
     >>
     r4 fad'8 re' dod'4. sold8 |
     r4 \twoVoices #'(fagotto1 fagotto2 fagotti) <<
@@ -132,12 +138,13 @@ la4 la, la, r |
       { la8. dod'16 la4 }
     >> r4 |
     R1 |
-    r4 re2\fermata r4 |
-    r la8( dod' mi'2) |
+    r4 re2-\sug\f\fermata r4 |
+    r la8-\sug\p( dod' mi'2) |
+    \clef "bass"
   }
   \tag #'basso {
     <>\p \rt#4 la8 \rt#4 mi |
-    \rt#4 fad \rt#4 fa |
+    \rt#4 fad \rt#4 fad |
     \rt#4 fad \rt#4 re |
     \rt#4 mi \rt#4 mi |
     \rt#4 fad \rt#4 fad |
@@ -151,7 +158,7 @@ la4 la, la, r |
 >>
 la,8\f la,([ si, dod]) re fad( mi re) |
 <>\p \rt#4 dod8 \rt#4 re |
-<< { \rt#4 mi \rt#4 mi } { s4 s2.\cresc } >> |
+<>\cresc \rt#4 mi \rt#4 mi |
 <>\!\f \rt#4 la,8 mi mi re re |
 dod mi dod la, sold, sold sold sold |
 la la, si, dod re fad mi re |
