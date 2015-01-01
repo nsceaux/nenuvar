@@ -18,6 +18,7 @@
   Le vieil \smallCaps Horace, Chevaliers Romains,
   \smallCaps Camille.
 }
+\livretRef #'CBArecit
 \livretPers CAMILLE
 %# Mon père, ah! prenez part à la publique joie,
 %# Et souffrez qu'à vos yeux la mienne se déploie.
@@ -33,13 +34,14 @@
 %# Le Ciel va prononcer sur la cause commune,
 %# Il peut ou réprouver ou confirmer ce choix.
 \livretPers CAMILLE
-%# Ah! loin de moi cette idée importune:
+%# Ah! loin de moi cette idée =importune:
 %# Non, les Dieux ne sauront dicter d'injustes loix.
 %# Ils inspiroient le peuple, ils parloient par sa voix.
 \livretScene SCÈNE III
 \livretDescAtt\wordwrap-center {
   Un Romain, les Précédens.
 }
+\livretRef #'CCArecit
 \livretPers LE ROMAIN
 %# Vos trois fils sont aux mains, seigneur, & les Dieux mêmes
 %# D'Albe & de Rome ont confirmé le choix.
@@ -48,6 +50,7 @@
 \livretPers LE VIEIL HORACE
 %#= Adorons leurs loix.
 %# Soumettons-nous, Romains, à leurs décrêts suprêmes.
+\livretRef #'CCBcamilleHoraceChoeur
 \livretPers LES ROMAINS
 %# Pour ces illustres défenseurs
 %# Adressons aux Dieux nos pri=eres.
@@ -102,6 +105,7 @@
 \livretDescAtt\wordwrap-center {
   Plusieurs femmes entrant effrayées sur la scène, les Précédens.
 }
+\livretRef #'CDAhoraceChoeur
 \livretPers LES FEMMES
 %# O sort cru=el! destins contraires!
 \livretPers LE VIEIL HORACE & LES ROMAINS
@@ -110,6 +114,7 @@
 %# Albe tri=omphe & Rome est asservie.
 \livretPers TOUS
 %# O funeste combat! malheureuse patrie!
+\livretRef #'CDBrecit
 \livretPers LE VIEIL HORACE
 %#- Mes fils ne sont donc plus?
 \livretPers UNE FEMME
@@ -133,14 +138,17 @@
 \livretPers LE VIEIL HORACE
 %#= Arrêtez, ne les pleurez pas tous.
 %# Deux jou=issent d'un sort trop digne qu'on l'envie.
+\livretRef #'CDChorace
 %# Que des plus nobles fleurs leurs tombeaux soient couverts!
 %# Que Rome leur consacre un éternel hommage!
 %# Que leur noms, révérés en cent climats divers,
 %# A nos neveux surpris soient cités d'âge en âge!
+\livretRef #'CDDhorace
 %# Mais leur indigne frère, après sa lâcheté,
 %# Qu'il traîne, avec mépris, sa honte & sa misère!
 %# Qu'il soit partout errant, & partout rebuté,
 %# Maudit du monde entier comme il l'est de son père!
+\livretRef #'CDErecit
 \livretPers CAMILLE
 %# Daignez prendre pour lui de plus doux sentimens
 %# Voulez-vous rendre, hélas! notre sort plus funeste?
@@ -159,6 +167,7 @@
 %# J'en atteste les Dieux & l'*honneur qui m'anime;
 %# Avant la fin du jour, ces mains, ces propres mains,
 %# Laveront dans son sang la honte des Romains.
+\livretRef #'CDFchoeur
 \livretPers\line { CHŒUR \smaller\italic { derrière le théatre } }
 %# Du vainqueur, célébrons la gloire;
 %# Portons son nom jusques aux Cieux.
@@ -176,6 +185,7 @@
 \livretDescAtt\wordwrap-center {
   VALERE, Suite, les Précédens.
 }
+\livretRef #'CEArecit
 \livretPers\line { VALERE \smaller\italic { au vieil Horace } }
 %# Tandis qu'un fils victori=eux
 %# D'un tri=omphe si beau va rendre grace aux Dieux,
@@ -197,6 +207,7 @@
 \livretPers VALERE
 %#= Apprenez donc le bonheur de l'état;
 %# Et d'un fils immortel le courage à la gloire.
+\livretRef #'CEBrecit
 %# Resté seul, n'osant plus compter sur sa valeur,
 %# Il feint de fuir; les Curi=aces
 %# Le poursuivent avec fureur,
@@ -211,6 +222,7 @@
 \livretPers VALERE
 %#= Le seond éprouve un même sort,
 %# Et la mort du troisième assure notre empire.
+\livretRef #'CEChoraceChoeur
 \livretPers LE VIEIL HORACE
 %# O noble appui de ton pa=ys!
 %# Gloire éternelle de ta race!
@@ -229,6 +241,7 @@
   \wordwrap-center { \smallCaps Horace, Peuple, les Précédens. }
   \wordwrap-center { \smallCaps Horace est porté en triomphe. }
 }
+\livretRef #'CFAhoracesChoeur
 \livretPers CHŒURS DU PEUPLE
 %# Du vainqueur célébrons la gloire,
 %# Portons son nom jusques aux Cieux.
@@ -249,7 +262,9 @@
 %# Jamais à ses sujets un roi n'est redevable;
 %# Et l'on est trop pay=é d'avoir pu le servir.
 \livretDidasPPage\justify { (Le vieil Horace sort. On danse.) }
+\livretRef #'CFBdivertissement
 \livretDescAtt\wordwrap-center { DIVERTISSEMENT }
+\livretRef #'CFChoeur
 \livretPers CHŒUR
 %# Les Dieux, de l'univers, nous ont promis l'empire:
 %# Le bras d'Horace accomplit leurs décrets!

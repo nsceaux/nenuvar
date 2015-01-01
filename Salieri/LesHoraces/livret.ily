@@ -835,6 +835,7 @@
   Le vieil \smallCaps Horace, Chevaliers Romains,
   \smallCaps Camille.
 }
+\livretRef #'CBArecit
 \livretPers CAMILLE
 \livretVerse#12 { Mon père, ah ! prenez part à la publique joie, }
 \livretVerse#12 { Et souffrez qu’à vos yeux la mienne se déploie. }
@@ -850,13 +851,14 @@
 \livretVerse#12 { Le Ciel va prononcer sur la cause commune, }
 \livretVerse#12 { Il peut ou réprouver ou confirmer ce choix. }
 \livretPers CAMILLE
-\livretVerse#9 { Ah ! loin de moi cette idée importune : }
+\livretVerse#10 { Ah ! loin de moi cette idée importune : }
 \livretVerse#12 { Non, les Dieux ne sauront dicter d’injustes loix. }
 \livretVerse#12 { Ils inspiroient le peuple, ils parloient par sa voix. }
 \livretScene SCÈNE III
 \livretDescAtt\wordwrap-center {
   Un Romain, les Précédens.
 }
+\livretRef #'CCArecit
 \livretPers LE ROMAIN
 \livretVerse#12 { Vos trois fils sont aux mains, seigneur, & les Dieux mêmes }
 \livretVerse#10 { D’Albe & de Rome ont confirmé le choix. }
@@ -865,6 +867,7 @@
 \livretPers LE VIEIL HORACE
 \livretVerse#7 { \transparent { Qu’entends-je ? } Adorons leurs loix. }
 \livretVerse#12 { Soumettons-nous, Romains, à leurs décrêts suprêmes. }
+\livretRef #'CCBcamilleHoraceChoeur
 \livretPers LES ROMAINS
 \livretVerse#8 { Pour ces illustres défenseurs }
 \livretVerse#8 { Adressons aux Dieux nos prieres. }
@@ -919,6 +922,7 @@
 \livretDescAtt\wordwrap-center {
   Plusieurs femmes entrant effrayées sur la scène, les Précédens.
 }
+\livretRef #'CDAhoraceChoeur
 \livretPers LES FEMMES
 \livretVerse#8 { O sort cruel ! destins contraires ! }
 \livretPers LE VIEIL HORACE & LES ROMAINS
@@ -927,6 +931,7 @@
 \livretVerse#10 { Albe triomphe & Rome est asservie. }
 \livretPers TOUS
 \livretVerse#12 { O funeste combat ! malheureuse patrie ! }
+\livretRef #'CDBrecit
 \livretPers LE VIEIL HORACE
 \livretVerse#13 { Mes fils ne sont donc plus ? }
 \livretPers UNE FEMME
@@ -950,14 +955,17 @@
 \livretPers LE VIEIL HORACE
 \livretVerse#11 { \transparent { Mes frères ! } Arrêtez, ne les pleurez pas tous. }
 \livretVerse#12 { Deux jouissent d’un sort trop digne qu’on l’envie. }
+\livretRef #'CDChorace
 \livretVerse#12 { Que des plus nobles fleurs leurs tombeaux soient couverts ! }
 \livretVerse#12 { Que Rome leur consacre un éternel hommage ! }
 \livretVerse#12 { Que leur noms, révérés en cent climats divers, }
 \livretVerse#12 { A nos neveux surpris soient cités d’âge en âge ! }
+\livretRef #'CDDhorace
 \livretVerse#12 { Mais leur indigne frère, après sa lâcheté, }
 \livretVerse#12 { Qu’il traîne, avec mépris, sa honte & sa misère ! }
 \livretVerse#12 { Qu’il soit partout errant, & partout rebuté, }
 \livretVerse#12 { Maudit du monde entier comme il l’est de son père ! }
+\livretRef #'CDErecit
 \livretPers CAMILLE
 \livretVerse#12 { Daignez prendre pour lui de plus doux sentimens }
 \livretVerse#13 { Voulez-vous rendre, hélas ! notre sort plus funeste ? }
@@ -976,6 +984,7 @@
 \livretVerse#12 { J’en atteste les Dieux & l’honneur qui m’anime ; }
 \livretVerse#12 { Avant la fin du jour, ces mains, ces propres mains, }
 \livretVerse#12 { Laveront dans son sang la honte des Romains. }
+\livretRef #'CDFchoeur
 \livretPers\line { CHŒUR \smaller\italic { derrière le théatre } }
 \livretVerse#8 { Du vainqueur, célébrons la gloire ; }
 \livretVerse#8 { Portons son nom jusques aux Cieux. }
@@ -993,6 +1002,7 @@
 \livretDescAtt\wordwrap-center {
   VALERE, Suite, les Précédens.
 }
+\livretRef #'CEArecit
 \livretPers\line { VALERE \smaller\italic { au vieil Horace } }
 \livretVerse#8 { Tandis qu’un fils victorieux }
 \livretVerse#12 { D’un triomphe si beau va rendre grace aux Dieux, }
@@ -1014,6 +1024,7 @@
 \livretPers VALERE
 \livretVerse#12 { \transparent { Je tremble. } Apprenez donc le bonheur de l’état ; }
 \livretVerse#12 { Et d’un fils immortel le courage à la gloire. }
+\livretRef #'CEBrecit
 \livretVerse#12 { Resté seul, n’osant plus compter sur sa valeur, }
 \livretVerse#8 { Il feint de fuir ; les Curiaces }
 \livretVerse#8 { Le poursuivent avec fureur, }
@@ -1028,6 +1039,7 @@
 \livretPers VALERE
 \livretVerse#9 { \transparent { Ciel ! } Le seond éprouve un même sort, }
 \livretVerse#12 { Et la mort du troisième assure notre empire. }
+\livretRef #'CEChoraceChoeur
 \livretPers LE VIEIL HORACE
 \livretVerse#8 { O noble appui de ton pays ! }
 \livretVerse#8 { Gloire éternelle de ta race ! }
@@ -1046,6 +1058,7 @@
   \wordwrap-center { \smallCaps Horace, Peuple, les Précédens. }
   \wordwrap-center { \smallCaps Horace est porté en triomphe. }
 }
+\livretRef #'CFAhoracesChoeur
 \livretPers CHŒURS DU PEUPLE
 \livretVerse#8 { Du vainqueur célébrons la gloire, }
 \livretVerse#8 { Portons son nom jusques aux Cieux. }
@@ -1066,7 +1079,9 @@
 \livretVerse#12 { Jamais à ses sujets un roi n’est redevable ; }
 \livretVerse#12 { Et l’on est trop payé d’avoir pu le servir. }
 \livretDidasPPage\justify { (Le vieil Horace sort. On danse.) }
+\livretRef #'CFBdivertissement
 \livretDescAtt\wordwrap-center { DIVERTISSEMENT }
+\livretRef #'CFChoeur
 \livretPers CHŒUR
 \livretVerse#12 { Les Dieux, de l’univers, nous ont promis l’empire : }
 \livretVerse#10 { Le bras d’Horace accomplit leurs décrets ! }
