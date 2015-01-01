@@ -395,7 +395,14 @@
   \pieceToc\markup\wordwrap { Récit : un Romain, Camille, le vieil Horace }
   \includeScore "CCArecit"
 }
-
+% 3-4
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Camille, le vieil Horace, chœur :
+    \italic { Pour ces illustres défenseurs }
+  }
+  \includeScore "CCBcamilleHoraceChoeur"
+}
 
 %% Livret
 \bookpart {
