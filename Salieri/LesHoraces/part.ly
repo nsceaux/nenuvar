@@ -229,3 +229,11 @@
   Camille : \italic { Que je vous dois d’encens, ô mes Dieux tutélaires }
 }
 \includeScore "CAAcamille"
+% 3-2
+\scene "Scène II" "Scène II"
+\pieceToc\markup\wordwrap { Récit : Camille, le vieil Horace }
+\includeScore "CBArecit"
+% 3-3
+\scene "Scène III" "Scène III"
+\pieceToc\markup\wordwrap { Récit : un Romain, Camille, le vieil Horace }
+\includeScore "CCArecit"
