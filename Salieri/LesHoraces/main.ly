@@ -403,6 +403,18 @@
   }
   \includeScore "CCBcamilleHoraceChoeur"
 }
+% 3-5
+\bookpart {
+  \scene "Scène IV" "Scène IV"
+  \sceneDescription\markup\wordwrap-center {
+    Plusieurs femmes entrant effrayées sur la scène, les Précédens.
+  }
+  \pieceToc\markup\wordwrap {
+    Le vieil Horace, chœur :
+    \italic { O sort cruel ! destins contraires }
+  }
+  \includeScore "CDAHoraceChoeur"
+}
 
 %% Livret
 \bookpart {
@@ -411,3 +423,4 @@
   \include "Salieri/LesHoraces/livret.ily"
   \pageBreak\markup\null
 }
+

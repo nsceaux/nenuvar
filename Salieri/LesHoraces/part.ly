@@ -243,3 +243,10 @@
   \italic { Pour ces illustres défenseurs }
 }
 \includeScore "CCBcamilleHoraceChoeur"
+% 3-5
+\scene "Scène IV" "Scène IV"
+\pieceToc\markup\wordwrap {
+  Le vieil Horace, chœur :
+  \italic { O sort cruel ! destins contraires }
+}
+\includeScore "CDAHoraceChoeur"
