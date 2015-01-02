@@ -255,3 +255,9 @@
   Récit : une femme, Camille, le vieil Horace
 }
 \includeScore "CDBrecit"
+% 3-7
+\pieceToc\markup\wordwrap {
+  Le vieil Horace :
+  \italic { Que des plus nobles fleurs leurs tombeaux soient couverts }
+}
+\includeScore "CDChorace"

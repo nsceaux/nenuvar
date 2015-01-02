@@ -970,7 +970,7 @@
 \livretVerse#12 { Daignez prendre pour lui de plus doux sentimens }
 \livretVerse#13 { Voulez-vous rendre, hélas ! notre sort plus funeste ? }
 \livretPers UN ROMAIN
-\livretVerse#12 { Craingez de vous livrer à vos ressentimens }
+\livretVerse#12 { Craignez de vous livrer à vos ressentimens }
 \livretVerse#12 { C’est votre fils enfin, c’est le seul qui vous reste. }
 \livretPers LE VIEIL HORACE
 \livretVerse#8 { Mon fils ! jamais il ne le fut. }

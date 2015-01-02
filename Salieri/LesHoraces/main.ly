@@ -376,23 +376,24 @@
   }
   \includeScore "CAAcamille"
 }
-% 3-2
 \bookpart {
   \scene "Scène II" "Scène II"
   \sceneDescription\markup\wordwrap-center {
     Le vieil \smallCaps Horace, Chevaliers Romains,
     \smallCaps Camille.
   }
+  % 3-2
   \pieceToc\markup\wordwrap { Récit : Camille, le vieil Horace }
   \includeScore "CBArecit"
-}
-% 3-3
-\bookpart {
+
   \scene "Scène III" "Scène III"
   \sceneDescription\markup\wordwrap-center {
     Un Romain, les Précédens.
   }
-  \pieceToc\markup\wordwrap { Récit : un Romain, Camille, le vieil Horace }
+  % 3-3
+  \pieceToc\markup\wordwrap {
+    Récit : un Romain, Camille, le vieil Horace
+  }
   \includeScore "CCArecit"
 }
 % 3-4
@@ -421,6 +422,14 @@
     Récit : une femme, Camille, le vieil Horace
   }
   \includeScore "CDBrecit"
+}
+\bookpart {
+  % 3-7
+  \pieceToc\markup\wordwrap {
+    Le vieil Horace :
+    \italic { Que des plus nobles fleurs leurs tombeaux soient couverts }
+  }
+  \includeScore "CDChorace"
 }
 
 %% Livret
