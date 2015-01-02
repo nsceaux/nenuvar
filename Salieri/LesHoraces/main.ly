@@ -415,6 +415,13 @@
   }
   \includeScore "CDAHoraceChoeur"
 }
+% 3-6
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Récit : une femme, Camille, le vieil Horace
+  }
+  \includeScore "CDBrecit"
+}
 
 %% Livret
 \bookpart {

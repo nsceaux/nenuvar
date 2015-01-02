@@ -250,3 +250,8 @@
   \italic { O sort cruel ! destins contraires }
 }
 \includeScore "CDAHoraceChoeur"
+% 3-6
+\pieceToc\markup\wordwrap {
+  Récit : une femme, Camille, le vieil Horace
+}
+\includeScore "CDBrecit"

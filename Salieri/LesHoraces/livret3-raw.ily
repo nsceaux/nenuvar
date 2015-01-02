@@ -153,7 +153,7 @@
 %# Daignez prendre pour lui de plus doux sentimens
 %# Voulez-vous rendre, hélas! notre sort plus funeste?
 \livretPers UN ROMAIN
-%# Craingez de vous livrer à vos ressentimens
+%# Craignez de vous livrer à vos ressentimens
 %# C'est votre fils enfin, c'est le seul qui vous reste.
 \livretPers LE VIEIL HORACE
 %# Mon fils! jamais il ne le fut.
