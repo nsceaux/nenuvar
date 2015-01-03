@@ -261,3 +261,8 @@
   \italic { Que des plus nobles fleurs leurs tombeaux soient couverts }
 }
 \includeScore "CDChorace"
+% 3-8
+\pieceToc\markup\wordwrap {
+  Récit : un Romain, Camille, le vieil Horace
+}
+\includeScore "CDDrecit"

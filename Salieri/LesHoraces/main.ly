@@ -432,6 +432,13 @@
   }
   \includeScore "CDChorace"
 }
+% 3-8
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Récit : un Romain, Camille, le vieil Horace
+  }
+  \includeScore "CDDrecit"
+}
 
 %% Livret
 \bookpart {

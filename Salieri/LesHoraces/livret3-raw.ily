@@ -162,7 +162,7 @@
 %#- Que vouliez-vous qu'il fit contre trois?
 \livretPers LE VIEIL HORACE
 %#= Qu'il mourût.
-%# Vous cherchez vainement à pallier son crime:
+%# Vous cherchez vainement à palli=er son crime:
 %# J'en atteste les Dieux & l'*honneur qui m'anime;
 %# Avant la fin du jour, ces mains, ces propres mains,
 %# Laveront dans son sang la honte des Romains.

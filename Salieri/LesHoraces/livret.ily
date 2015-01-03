@@ -979,7 +979,7 @@
 \livretVerse#12 { Que vouliez-vous qu’il fit contre trois ? }
 \livretPers LE VIEIL HORACE
 \livretVerse#12 { \transparent { Que vouliez-vous qu’il fit contre trois ? } Qu’il mourût. }
-\livretVerse#11 { Vous cherchez vainement à pallier son crime : }
+\livretVerse#12 { Vous cherchez vainement à pallier son crime : }
 \livretVerse#12 { J’en atteste les Dieux & l’honneur qui m’anime ; }
 \livretVerse#12 { Avant la fin du jour, ces mains, ces propres mains, }
 \livretVerse#12 { Laveront dans son sang la honte des Romains. }
