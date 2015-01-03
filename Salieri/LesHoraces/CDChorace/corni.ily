@@ -29,3 +29,17 @@ r4 \twoVoices #'(corno1 corno2 corni) <<
   { s2 | s4 }
 >> r4 r |
 R2.^\fermataMarkup |
+%%
+re''1\fp |
+mi''4 r r2 |
+mi''1\fp |
+re''4 r r2 |
+R1*9 |
+r2\fermata r |
+re''2-\sug\ff re''4 re'' |
+\twoVoices #'(corno1 corno2 corni) <<
+  { re''2 mi'' | re'' re'' | }
+  { sol'2 sol' | sol' sol' | }
+>>
+sol'2 sol'4 sol' |
+sol'2 r |

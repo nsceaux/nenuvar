@@ -960,12 +960,11 @@
 \livretVerse#12 { Que Rome leur consacre un éternel hommage ! }
 \livretVerse#12 { Que leur noms, révérés en cent climats divers, }
 \livretVerse#12 { A nos neveux surpris soient cités d’âge en âge ! }
-\livretRef #'CDDhorace
 \livretVerse#12 { Mais leur indigne frère, après sa lâcheté, }
 \livretVerse#12 { Qu’il traîne, avec mépris, sa honte & sa misère ! }
 \livretVerse#12 { Qu’il soit partout errant, & partout rebuté, }
 \livretVerse#12 { Maudit du monde entier comme il l’est de son père ! }
-\livretRef #'CDErecit
+\livretRef #'CDDrecit
 \livretPers CAMILLE
 \livretVerse#12 { Daignez prendre pour lui de plus doux sentimens }
 \livretVerse#13 { Voulez-vous rendre, hélas ! notre sort plus funeste ? }
@@ -984,7 +983,7 @@
 \livretVerse#12 { J’en atteste les Dieux & l’honneur qui m’anime ; }
 \livretVerse#12 { Avant la fin du jour, ces mains, ces propres mains, }
 \livretVerse#12 { Laveront dans son sang la honte des Romains. }
-\livretRef #'CDFchoeur
+\livretRef #'CDEchoeur
 \livretPers\line { CHŒUR \smaller\italic { derrière le théatre } }
 \livretVerse#8 { Du vainqueur, célébrons la gloire ; }
 \livretVerse#8 { Portons son nom jusques aux Cieux. }

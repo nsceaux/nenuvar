@@ -423,8 +423,9 @@
   }
   \includeScore "CDBrecit"
 }
+% 3-7
 \bookpart {
-  % 3-7
+  \paper { systems-per-page = 2 }
   \pieceToc\markup\wordwrap {
     Le vieil Horace :
     \italic { Que des plus nobles fleurs leurs tombeaux soient couverts }

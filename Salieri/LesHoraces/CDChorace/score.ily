@@ -20,6 +20,9 @@
       \new Staff \with { \oboiInstr } <<
         \global \keepWithTag #'oboi \includeNotes "oboi"
       >>
+      \new Staff \with { \fagottiInstr } <<
+        \global \keepWithTag #'fagotti \includeNotes "bassi"
+      >>
     >>
     \new StaffGroupNoBracket <<
       \new GrandStaff \with { \violiniInstr } <<
@@ -38,17 +41,18 @@
       \global \includeNotes "vhorace"
     >> \keepWithTag #'vhorace \includeLyrics "paroles"
     \new StaffGroupNoBracket <<
-      \new Staff \with { 
-        instrumentName = \markup\center-column { Fagotti Basso }
-        shortInstrumentName = \markup\center-column { Fg. B. }
-      } <<
-        \global \includeNotes "bassi"
+      \new Staff \with { \bassoInstr } <<
+        \global \keepWithTag #'basso \includeNotes "bassi"
         \origLayout {
           s2.*2\break s2.*3\pageBreak s2.*2\break s2.*2\pageBreak
-          s2.*2\break s2.*3\pageBreak \grace s8
+          s2.*2\break s2.*3\pageBreak \grace s8 s2.*4\pageBreak
+          %%
+          s1*4\pageBreak
+          s1*4\pageBreak s1*4\pageBreak
+          s1*4\pageBreak
         }
       >>
-      \new Staff \with { \timpaniInstr } <<
+      \new Staff \with { \timpaniInstr \haraKiri } <<
         \global \includeNotes "timpani"
       >>
     >>

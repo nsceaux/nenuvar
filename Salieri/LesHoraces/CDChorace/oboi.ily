@@ -30,3 +30,25 @@ sib'' sol'' la''8. fa''16 |
   { mi''8 mi''16 mi'' mi''8 mi'' fa'' fa'' | mi''4 }
   { s2.-\sug\ff }
 >> r4 r\fermata |
+%%
+fa'1\fp |
+sol' |
+sol'-\sug\fp |
+la'2. la'4 |
+sib'( sol' mi' dod') |
+re' fa'-\sug\sf( sol' la' |
+sib'-\sug\p sol' mi' dod') |
+re' fa'(-\sug\f la' re'' |
+mib''!-\sug\p re'' do'' sib') |
+\once\slurDashed la'( fa'-\sug\cresc la' sib') |
+do''2-\sug\f mib' |
+re'2. r4 |
+R1 |
+r2\fermata r |
+R1 |
+\twoVoices #'(oboe1 oboe2 oboi) <<
+  { re'''2 sib'' | fa'' re'' | sib' }
+  { fa''2 re'' | sib' fa' | re' }
+  { s1-\sug\ff }
+>> sib'4 sib' |
+sib'2 r |

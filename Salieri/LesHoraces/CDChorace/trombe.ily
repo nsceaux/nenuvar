@@ -27,3 +27,14 @@ re''2. |
 r8. re''16 re''4 re'' |
 re''8-\sug\ff re''16 re'' re''8 re'' re'' re'' |
 re''4 r r\fermata |
+%%
+R1*13 |
+r2\fermata r |
+R1 |
+\twoVoices #'(tromba1 tromba2 trombe) <<
+  { mi''2 do'' | sol'' mi'' | do'' }
+  { sol'2 mi' | mi'' do'' | mi' }
+  { s1-\sug\ff }
+>> do'4 do' |
+do'2 r |
+

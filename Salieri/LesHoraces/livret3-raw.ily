@@ -143,12 +143,11 @@
 %# Que Rome leur consacre un éternel hommage!
 %# Que leur noms, révérés en cent climats divers,
 %# A nos neveux surpris soient cités d'âge en âge!
-\livretRef #'CDDhorace
 %# Mais leur indigne frère, après sa lâcheté,
 %# Qu'il traîne, avec mépris, sa honte & sa misère!
 %# Qu'il soit partout errant, & partout rebuté,
 %# Maudit du monde entier comme il l'est de son père!
-\livretRef #'CDErecit
+\livretRef #'CDDrecit
 \livretPers CAMILLE
 %# Daignez prendre pour lui de plus doux sentimens
 %# Voulez-vous rendre, hélas! notre sort plus funeste?
@@ -167,7 +166,7 @@
 %# J'en atteste les Dieux & l'*honneur qui m'anime;
 %# Avant la fin du jour, ces mains, ces propres mains,
 %# Laveront dans son sang la honte des Romains.
-\livretRef #'CDFchoeur
+\livretRef #'CDEchoeur
 \livretPers\line { CHŒUR \smaller\italic { derrière le théatre } }
 %# Du vainqueur, célébrons la gloire;
 %# Portons son nom jusques aux Cieux.

@@ -65,4 +65,66 @@
     <sol mi' do''>4
   }
 >> r4 r\fermata |
-
+%%%
+<<
+  \tag #'violino1 {
+    do'16\fp( fa' mi' fa' sol' fa' mi' fa') la'( fa' mi' fa' sol' fa' mi' fa') |
+    sol' fa' mi' re' do'8 do' do' do' do'16 re' mi' fa' |
+    sol'\fp do' si do' re' do' si do' do' sol' fad' sol' la' sol' fad' sol' |
+    la'8\f do''16 fa'' la''8 la'' la''4
+  }
+  \tag #'violino2 {
+    la8-\sug\fp la4 la la la8 |
+    sol sol4 sol sol sol8 |
+    sol-\sug\fp sol4 sol sol sol8 |
+    la-\sug\f do'16 fa' la'8 la' la'4
+  }
+  \tag #'alto {
+    do'8-\sug\fp do'4 do' do' do'8 |
+    do' do'4 do' do' do'8 |
+    do'-\sug\fp do'4 do' do' do'8 |
+    do'2 r4
+  }
+>>
+<<
+  \tag #'(violino1 violino2) {
+    \rt#4 la'16 |
+    \rt#4 sib' \rt#4 sol' \rt#4 mi' \rt#4 dod' |
+    \rt#4 re' \rt#4 fa'\sf \rt#4 sol' \rt#4 la' |
+    \rt#4 sib'\p \rt#4 sol' \rt#4 mi' \rt#4 dod' |
+    \rt#4 re' \rt#4 fa'\f \rt#4 la' \rt#4 re'' |
+    \rt#4 mib''!\p \rt#4 re'' \rt#4 do'' \rt#4 sib' |
+    \rt#4 la' \rt#4 fa'\cresc \rt#4 la' \rt#4 sib' |
+    \rt#4 do''\f \rt#4 mib'' \rt#8 <mib' do'> |
+    <re' sib>2. sib16\f do'32 re' mib' fa' sol' la' |
+    sib'4. <sib' re'>8 <re' sib'>4 q |
+    <sib fa' re''>2\fermata mi''4\f mi'' |
+    fa''2 <fa' do'' la''>4 q |
+    re''8*2/3\ff[ fa'' sib''] re'''[ sib'' fa''] sib'[ re'' fa''] sib''[ fa'' re''] |
+    fa'[ sib' re''] fa''[ re'' sib'] re'[ fa' sib'] re''[ sib' fa'] |
+    sib8 do'16 re' mib' fa' sol' la' sib'4 sib |
+    sib <<
+      \tag #'violino1 { re''2 re''4 | }
+      \tag #'violino2 { sib'2 sib'4 | }
+    >>
+  }
+  \tag #'alto {
+    la4 |
+    sib( sol mi dod) |
+    re \once\override Slur.positions = #'(2 . 2)
+    fa-\sug\sf^( sol la |
+    sib-\sug\p sol mi dod) |
+    re fa-\sug\f( la re' |
+    mib'!-\sug\p re' do' sib) |
+    la( fa\cresc la sib) |
+    do'\f mib' la2 |
+    sib2. sib16\f do'32 re' mib' fa' sol' la' |
+    sib'4. sib8 sib4 sib |
+    sib2\fermata mi'4\ff mi' |
+    fa'2 fa'4 fa' |
+    sib2\ff sib |
+    << { <fa' re''>2 q } \\ { sib sib } >> |
+    sib8 do'16 re' mib' fa' sol' la' sib'4 sib |
+    sib fa'2 sol'4 |
+  }
+>>
