@@ -130,6 +130,8 @@
 \opusPartSpecs
 #`((dessus "Violons, Flûtes, Hautbois" ()
            (#:notes "dessus" #:tag-notes dessus))
+   (haute-contre-sol2 "Hautes-contre" ()
+            (#:notes "haute-contre" #:tag-notes haute-contre))
    (parties "Hautes-contre et Tailles" ()
             (#:notes "parties" #:tag-notes parties #:clef "alto"))
    (trompette-timbales "Trompettes et Timbales" ()

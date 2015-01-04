@@ -1,5 +1,6 @@
 \piecePartSpecs #`(,@(if (eqv? 'v1735 (ly:get-option 'indes-version))
                          `((dessus #:tag-notes conducteur #:instrument "Violons")
+                           (haute-contre-sol2 #:notes "parties")
                            (parties))
                          '())
                      (basse)

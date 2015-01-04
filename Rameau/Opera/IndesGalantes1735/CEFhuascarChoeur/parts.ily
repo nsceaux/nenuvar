@@ -1,6 +1,7 @@
 \piecePartSpecs #`((dessus #:instrument "Violons"
                            #:music ,#{ s4 s2.*23 s2 \break #})
                    (parties #:music ,#{ s4 s2.*22 \break #})
+                   (haute-contre-sol2 #:notes "parties" #:music ,#{ s4 s2.*22 \break #})
                    (basse #:tag-notes basse
                           #:music ,#{ s4 s2.*22 \break #})
                    (basse-continue

@@ -1,5 +1,6 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
                    (parties #:score "score-parties")
+                   (haute-contre-sol2)
                    (basse #:score "score-basse")
                    (basse-continue #:score-template "score-basse-continue")
                    (silence #:score "score-silence"))

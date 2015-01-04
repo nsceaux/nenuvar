@@ -1,5 +1,8 @@
 \piecePartSpecs #`((dessus #:score "score-silence"
                            #:ragged #f)
+                   (haute-contre-sol2 #:score "score-silence"
+                                      #:notes "parties"
+                                      #:ragged #t)
                    (parties #:score "score-silence"
                             #:ragged #t)
                    (basse #:score "score-silence"

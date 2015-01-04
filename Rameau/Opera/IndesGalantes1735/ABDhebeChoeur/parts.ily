@@ -1,4 +1,5 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
+                   (haute-contre-sol2 #:notes "parties" #:music ,#{ s8 s2.*30\noBreak #})
                    (parties #:music ,#{ s8 s2.*30\noBreak #})
                    (basse #:score "score-basses")
                    (basse-continue #:tag-notes basse-part)

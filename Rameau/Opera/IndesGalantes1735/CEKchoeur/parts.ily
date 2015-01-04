@@ -1,4 +1,5 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
                    (parties #:tag-notes (parties part))
+                   (haute-contre-sol2 #:notes "parties")
                    (basse #:score "score-basse")
                    (basse-continue))

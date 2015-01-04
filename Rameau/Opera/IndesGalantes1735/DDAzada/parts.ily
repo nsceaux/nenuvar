@@ -6,6 +6,10 @@
                             #:notes "parties"
                             #:tag-notes ()
                             #:tag-global ())
+                   (haute-contre-sol2 #:score "score-silence"
+                                      #:notes "parties"
+                                      #:tag-notes ()
+                                      #:tag-global ())
                    (basse-continue #:score-template "score-basse-continue-voix")
                    (basse #:score "score-silence"
                           #:tag-global ()
