@@ -266,3 +266,9 @@
   Récit : un Romain, Camille, le vieil Horace
 }
 \includeScore "CDDrecit"
+% 3-9
+\pieceToc\markup\wordwrap {
+  Le vieil Horace, chœur :
+  \italic { Du vainqueur, célébrons la gloire }
+}
+\includeScore "CDEchoeur"

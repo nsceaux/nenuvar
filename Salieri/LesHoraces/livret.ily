@@ -1034,9 +1034,9 @@
   (Camille jette un cri & s’évanouit. Ses femmes l’emmènent.)
 }
 \livretPers CAMILLE
-\livretVerse#9 { Ciel ! }
+\livretVerse#10 { Ciel ! }
 \livretPers VALERE
-\livretVerse#9 { \transparent { Ciel ! } Le seond éprouve un même sort, }
+\livretVerse#10 { \transparent { Ciel ! } Le second éprouve un même sort, }
 \livretVerse#12 { Et la mort du troisième assure notre empire. }
 \livretRef #'CEChoraceChoeur
 \livretPers LE VIEIL HORACE
@@ -1080,7 +1080,7 @@
 \livretDidasPPage\justify { (Le vieil Horace sort. On danse.) }
 \livretRef #'CFBdivertissement
 \livretDescAtt\wordwrap-center { DIVERTISSEMENT }
-\livretRef #'CFChoeur
+\livretRef #'CFDhoeur
 \livretPers CHŒUR
 \livretVerse#12 { Les Dieux, de l’univers, nous ont promis l’empire : }
 \livretVerse#10 { Le bras d’Horace accomplit leurs décrets ! }

@@ -439,6 +439,14 @@
   }
   \includeScore "CDDrecit"
 }
+% 3-9
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Le vieil Horace, chœur :
+    \italic { Du vainqueur, célébrons la gloire }
+  }
+  \includeScore "CDEchoeur"
+}
 
 %% Livret
 \bookpart {

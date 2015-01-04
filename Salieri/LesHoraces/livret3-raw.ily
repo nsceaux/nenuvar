@@ -219,7 +219,7 @@
 \livretPers CAMILLE
 %#- Ciel!
 \livretPers VALERE
-%#= Le seond éprouve un même sort,
+%#= Le second éprouve un même sort,
 %# Et la mort du troisième assure notre empire.
 \livretRef #'CEChoraceChoeur
 \livretPers LE VIEIL HORACE
@@ -263,7 +263,7 @@
 \livretDidasPPage\justify { (Le vieil Horace sort. On danse.) }
 \livretRef #'CFBdivertissement
 \livretDescAtt\wordwrap-center { DIVERTISSEMENT }
-\livretRef #'CFChoeur
+\livretRef #'CFDhoeur
 \livretPers CHŒUR
 %# Les Dieux, de l'univers, nous ont promis l'empire:
 %# Le bras d'Horace accomplit leurs décrets!
