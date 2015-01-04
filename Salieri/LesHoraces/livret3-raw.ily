@@ -182,7 +182,7 @@
 }
 \livretScene SCENE V
 \livretDescAtt\wordwrap-center {
-  VALERE, Suite, les Précédens.
+  \smallCaps Valere, Suite, les Précédens.
 }
 \livretRef #'CEArecit
 \livretPers\line { VALERE \smaller\italic { au vieil Horace } }
@@ -191,7 +191,7 @@
 %# Souffrez qu'au nom du Roi, qu'au nom de Rome entière.
 \livretPers LE VIEIL HORACE
 %# Que prétendez-vous dire? Expliquez-vous, Valère.
-%# Quoi! lorsqu'Albe à ses loix vous soumet aujourd'hui,
+%# Quoi! lorsqu'Albe à ses loix nous soumet aujourd'hui,
 %#- Quand mon fils!…
 \livretPers VALERE
 %#= De l'état c'est le Dieu tutélaire!
@@ -200,7 +200,7 @@
 %#- Eh, quoi? sa fuite?…
 \livretPers VALERE
 %#= A fait notre victoire.
-%# Ignorez-vous encore la moitié du combat.
+%# Ignorez-vous encor la moitié du combat.
 \livretPers\line { CAMILLE \smaller\italic à part }
 %#- Je tremble.
 \livretPers VALERE

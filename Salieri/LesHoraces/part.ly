@@ -272,3 +272,10 @@
   \italic { Du vainqueur, célébrons la gloire }
 }
 \includeScore "CDEchoeur"
+
+% 3-10
+\scene "Scène V" "Scène V"
+\pieceToc\markup\wordwrap {
+  Récit : Valere, Camille, le vieil Horace
+}
+\includeScore "CEArecit"

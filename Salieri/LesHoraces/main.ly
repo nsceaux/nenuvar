@@ -447,6 +447,17 @@
   }
   \includeScore "CDEchoeur"
 }
+% 3-10
+\bookpart {
+  \scene "Scène V" "Scène V"
+  \sceneDescription\markup\wordwrap-center {
+    \smallCaps Valere, Suite, les Précédens.
+  }
+  \pieceToc\markup\wordwrap {
+    Récit : Valere, Camille, le vieil Horace
+  }
+  \includeScore "CEArecit"
+}
 
 %% Livret
 \bookpart {
