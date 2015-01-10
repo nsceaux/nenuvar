@@ -458,6 +458,12 @@
   }
   \includeScore "CEArecit"
 }
+% 3-11
+\bookpart {
+  \paper { systems-per-page = 2 }
+  \pieceToc\markup\wordwrap { Récit : Valere, Camille }
+  \includeScore "CEBrecit"
+}
 
 %% Livret
 \bookpart {

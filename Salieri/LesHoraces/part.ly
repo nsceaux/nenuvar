@@ -279,3 +279,6 @@
   Récit : Valere, Camille, le vieil Horace
 }
 \includeScore "CEArecit"
+% 3-11
+\pieceToc\markup\wordwrap { Récit : Valere, Camille }
+\includeScore "CEBrecit"
