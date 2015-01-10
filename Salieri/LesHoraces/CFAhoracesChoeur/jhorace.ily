@@ -1,5 +1,4 @@
-\clef "vtaille" R1*13 |
-r2 r4 r |
+\clef "vtaille" R1*14 |
 R1*16 |
 r2 r4 r8 do' |
 mi'2 re'4 mi' |

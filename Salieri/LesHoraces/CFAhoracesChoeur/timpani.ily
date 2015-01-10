@@ -18,7 +18,7 @@ do4 do8. do16 do4. do8 |
 do4 sol, do sol,8. sol,16 |
 do4 do8. do16 do4. do8 |
 do4 sol, do r |
-\rt#16 do16 |
+\rt#16 do16-\sug\f |
 do8 do16 do do8 do do do do do |
 sol,2 sol,4. sol,8 |
 do4 do8. do16 do4 do |

@@ -287,3 +287,11 @@
   Le vieil Horace, chœur : \italic { O noble appui de ton pays }
 }
 \includeScore "CEChoraceChoeur"
+
+% 3-13
+\scene "Scène VI" "Scène VI"
+\pieceToc\markup\wordwrap {
+  Le jeune Horace, le vieil Horace, chœur :
+  \italic { Du vainqueur célébrons la gloire }
+}
+\includeScore "CFAhoracesChoeur"

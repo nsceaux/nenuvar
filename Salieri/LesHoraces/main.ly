@@ -469,6 +469,19 @@
   }
   \includeScore "CEChoraceChoeur"
 }
+% 3-13
+\bookpart {
+  \scene "Scène VI" "Scène VI"
+  \sceneDescription\markup\column {
+    \wordwrap-center { \smallCaps Horace, Peuple, les Précédens. }
+    \wordwrap-center { \smallCaps Horace est porté en triomphe. }
+  }
+  \pieceToc\markup\wordwrap {
+    Le jeune Horace, le vieil Horace, chœur :
+    \italic { Du vainqueur célébrons la gloire }
+  }
+  \includeScore "CFAhoracesChoeur"
+}
 
 %% Livret
 \bookpart {

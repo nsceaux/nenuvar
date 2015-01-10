@@ -26,7 +26,7 @@ sol'16 sol' fad' sol' la' sol' fad' sol' sol8 sol' sol sol' |
 re'4 re'8. re'16 re'8 fad fad fad |
 \rt#4 sol sol4 r |
 R1 |
-r4 sol16 sol sol sol do'4 r |
+r4 sol16-\sug\p sol sol sol do'4 r |
 R1 |
 r4 sol4 do'8 do''[ sol' mi'] |
 \rt#8 <mi' do''>16\ff \rt#8 q |
@@ -39,7 +39,7 @@ sol'4 \rt#4 <mi' do''>16 \rt#8 q |
 <mi' do''>4 do8. do16 do4 sol |
 %%%
 <mi' do''>4 r r r8 sol' |
-sol'1~ |
+sol'1-\sug\fp~ |
 sol' |
 mi' |
 la'4 la8. la16 la4 la' |

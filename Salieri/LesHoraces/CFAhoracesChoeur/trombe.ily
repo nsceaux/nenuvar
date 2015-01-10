@@ -16,7 +16,7 @@ do'1~ |
 do'4 do''2 re''4 |
 do'' \twoVoices #'(tromba1 tromba2 trombe) <<
   { mi''4 mi'' re'' | re''1 | }
-  { do''4 do'' do'' | sol'1 | }
+  { do''4 do'' re'' | sol'1 | }
 >>
 re''2 re''4. re''8 |
 sol'4 r r sol' |

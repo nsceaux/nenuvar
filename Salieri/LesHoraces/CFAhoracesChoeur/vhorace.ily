@@ -1,5 +1,4 @@
-\clef "vbasse" R1*13 |
-r2 r4 r |
+\clef "vbasse" R1*14 |
 R1*16 |
 r4 sol8 sol do'4^! r |
 R1*17 |

@@ -28,7 +28,7 @@ sol4 sol8. sol16 si4 si |
     do2 r |
     r4 sol, do sol, |
     do,2 r |
-    r4 sol, do8 do' sol mi |
+    r4 sol, do8 do'[ sol mi] |
     do do' do' do' \rt#4 do' |
     \rt#4 do' la8 la si si |
     \rt#4 do' \rt#4 do' |
@@ -50,12 +50,12 @@ sol2~ sol8 sol sol sol |
     \rt#4 re8 \rt#4 re |
     sol sol, sol, sol, sol,4 r |
     R1 |
-    r4 sol,16 sol, sol, sol, do4 r |
+    r4 sol,16-\sug\p sol, sol, sol, do4 r |
   }
 >>
 R1 |
 r4 sol, do8 do'[ sol mi] |
-\rt#4 do \rt#4 do |
+\rt#4 do-\sug\f \rt#4 do |
 \rt#4 fa \rt#4 fa |
 \rt#4 sol \rt#4 sol, |
 <<

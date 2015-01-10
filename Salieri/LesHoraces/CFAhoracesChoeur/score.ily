@@ -1,14 +1,21 @@
 \score {
   \new StaffGroupNoBar \notemode <<
     \new StaffGroupNoBracket <<
-      \new Staff \with {
+      \new GrandStaff \with {
         instrumentName = \markup\center-column { Trombe in C }
         shortInstrumentName = "Tr."
-        \consists "Metronome_mark_engraver"
-        \consists "Mark_engraver"
       } <<
-        \keepWithTag #'() \global
-        \keepWithTag #'trombe \includeNotes "trombe"
+        \new Staff \with {
+          \consists "Metronome_mark_engraver"
+          \consists "Mark_engraver"
+        } <<
+          \keepWithTag #'() \global
+          \keepWithTag #'tromba1 \includeNotes "trombe"
+        >>
+        \new Staff <<
+          \keepWithTag #'() \global
+          \keepWithTag #'tromba2 \includeNotes "trombe"
+        >>
       >>
       \new GrandStaff \with { 
         instrumentName = \markup\center-column {

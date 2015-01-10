@@ -7,7 +7,7 @@ re''2. sol'8. sol'16 |
     do''8. do''16 do''4. mi''8 |
     mi''4. re''8 do''4 re'' |
     <sol mi' do'' mi''>4 mi''8. mi''16 mi''4. sol''8 |
-    sol''4.( fa''8) mi'' do''[ sol' mi'] |
+    sol''4.( fa''8) mi'' do''-.[ sol'-. mi'-.] |
     do'4 <sol mi' do''> <la' fa''> <fa' do'' la''> |
     <mi' do'' sol''>4 mi''8. sol''16 fa''4 fa''8. sol''16 |
     mi''4
@@ -16,7 +16,7 @@ re''2. sol'8. sol'16 |
     mi'8. mi'16 mi'4. do''8 |
     do''4. sol'8 mi'4 sol' |
     <sol mi' do''>4 do''8. do''16 do''4. mi''8 |
-    mi''4.( re''8) do'' do''[ sol' mi'] |
+    mi''4.( re''8) do'' do''-.[ sol'-. mi'-.] |
     do'16 do'' si' do'' re'' do'' si' do'' la' do'' si' do'' fa' do'' si' do'' |
     mi' do'' si' do'' re'' do'' si' do'' do'' la' do'' la' re'' sol' re'' sol' |
     do''4
@@ -81,7 +81,7 @@ si'4 <si' si''>16 q q q \rt#8 q |
   }
   \tag #'violino2 {
     sol''8 |
-    mi''1~ |
+    mi''1-\sug\fp~ |
     mi'' |
     <mi'' si'> |
     mi''4
