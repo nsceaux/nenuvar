@@ -458,11 +458,16 @@
   }
   \includeScore "CEArecit"
 }
-% 3-11
 \bookpart {
+  % 3-11
   \paper { systems-per-page = 2 }
   \pieceToc\markup\wordwrap { Récit : Valere, Camille }
   \includeScore "CEBrecit"
+  % 3-12
+  \pieceToc\markup\wordwrap {
+    Le vieil Horace, chœur : \italic { O noble appui de ton pays }
+  }
+  \includeScore "CEChoraceChoeur"
 }
 
 %% Livret

@@ -1,0 +1,12 @@
+\piecePartSpecs
+#`((corno1 #:instrument "Corno I in A" #:tag-global ())
+   (corno2 #:instrument "Corno II in A" #:tag-global ())
+   (oboe1)
+   (oboe2)
+   (fagotto1)
+   (fagotto2)
+   (violino1)
+   (violino2)
+   (alto)
+   (basso #:instrument "Basso")
+   (silence #:on-the-fly-markup , #{ \markup\tacet#55 #}))
