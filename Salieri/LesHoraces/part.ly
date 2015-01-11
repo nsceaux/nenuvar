@@ -295,3 +295,6 @@
   \italic { Du vainqueur célébrons la gloire }
 }
 \includeScore "CFAhoracesChoeur"
+% 3-14
+\pieceToc "[Divertissement]"
+\includeScore "CFBdivertissement"

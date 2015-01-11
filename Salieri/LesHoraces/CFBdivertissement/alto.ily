@@ -16,19 +16,19 @@ si re' sol' re' si re' sol' si |
 do'4 r |
 <sol re' si'>4\ff r |
 r8 re''[ si' sol'] |
-re'8 re'16 re' re'8 re' |
+re'8 re'16[ re'] re'8 re' |
 re' re' re' re' |
-re re'16 re' re'8 re' |
+re re'16[ re'] re'8 re' |
 re' re'[ re' re'] |
 re'4 do'8. do'16 |
 re'4 re |
 si'16-\sug\p re'' si' re'' si' re'' si' re'' |
 fad' re'' fad' re'' fad' re'' fad' re'' |
-sol' re'' si' re'' si' re'' si' re'' |
+sol'-\sug\ff re'' si' re'' si' re'' si' re'' |
 la' re'' la' re'' la' re'' la' re'' |
-si' re'' si' re'' si' re'' si' re'' |
+si'-\sug\p re'' si' re'' si' re'' si' re'' |
 fad' re'' fad' re'' fad' re'' fad' re'' |
-sol' re'' si' re'' si' re'' si' re'' |
+sol'-\sug\f re'' si' re'' si' re'' si' re'' |
 la' re'' la' re'' la' re'' la' re'' |
 si'4 sol8. sol16 |
 sol4 r |
@@ -58,7 +58,7 @@ fa'8 do' la fa |
 re' dod'16 si la sol fad mi |
 re mi fad sol la si do' re' |
 \rt#8 sol16 |
-\rt#8 sol16 |
+\rt#8 sol16-\sug\p |
 \rt#8 sol16 |
 \rt#8 sol16 |
 do'\ff re' mi' fa' sol' la' si' do'' |
@@ -67,9 +67,9 @@ do'8. mi'16 fa'8. la'16 |
 sol'4 sol |
 do'16\p sol' mi' sol' mi' sol' mi' sol' |
 si sol' si sol' si sol' si sol' |
-do' sol' mi''8 sol'16 mi'' sol' mi'' |
+do' sol' mi''8 sol'16-\sug\f mi'' sol' mi'' |
 sol' re'' sol' re'' sol'8 la'16 si' |
-do''16 <sol' sol> q q \rt#4 q |
+do''16-\sug\ff <sol' sol> q q \rt#4 q |
 \rt#4 q \rt#4 q |
 do' <sol' mi''> q q \rt#4 q |
 \rt#4 <sol' re''> \rt#4 <re' si'> |

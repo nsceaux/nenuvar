@@ -4,13 +4,13 @@ do8 do16 do do8 do |
 do4 r |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    la2^"solo" | sol4. la8 | fa2 | mi8
+    la2(^"solo" | sol2) | fa2 | mi8
   }
   \tag #'basso {
     la16\p do' la do' la do' la do' |
     sol do' sol do' sol do' sol do' |
     fa si re' si fa si re' fa |
-    mi8
+    mi8 <>^"[Tutti]"
   }
   \tag #'cb { R2*3 | r8 }
 >> sol8[\f la si] |
@@ -20,7 +20,7 @@ do8 do16 do do8 do |
 do2 |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    fa2^"Solo" | mi | si, | do4 r |
+    fa2(^"Solo" | mi | si,) | do4 r |
   }
   \tag #'basso {
     fa16\p la do' la fa la do' la |
@@ -33,25 +33,25 @@ do2 |
 sol,4\ff r |
 r8 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    sol8 sol, sol |
+    sol8[ sol, sol] |
   }
   \tag #'(basso cb) {
-    sol8 sol sol |
+    sol8[ sol sol] |
   }
 >>
 re4 r |
 R2 |
 re4 r |
-r8 re re re |
+r8 re[ re re] |
 sol8. sol16 do'8. do'16 |
 re'4 re |
 sol,\p r |
 R2 |
-r8 sol\ff sol sol |
+r8 sol[\ff sol sol] |
 \rt#4 fad |
 sol4 r |
 R2 |
-r8 sol\f sol sol |
+r8 sol[\f sol sol] |
 fad fad fad fad |
 sol4 sol,8. sol,16 |
 sol,4 r |
@@ -88,14 +88,14 @@ fa!\sf |
       \tag #'cb { R2*7 | r8 }
     >>
   }
->> sol8\f la si |
+>> sol8[\f la si] |
 do'2 |
 sol4 mi |
 do8 do16 do do8 do |
 do2 |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    la2^"Solo" | sol | fa | mi4 r | <>^"[Tutti]"
+    la2(^"Solo" | sol | fa | mi4) r | <>^"[Tutti]"
   }
   \tag #'basso {
     la16\p do' la do' la do' la do' |
@@ -117,7 +117,7 @@ re mi fad sol la si do' re' |
   }
   \tag #'(basso cb) {
     sol8 sol, sol, sol, |
-    \rt#4 sol, |
+    \rt#4 sol,-\sug\p |
     \rt#4 sol, |
     \rt#4 sol, |
   }
@@ -128,7 +128,7 @@ do8. mi16 fa8. la16 |
 sol4 sol, |
 do\p r |
 R2 |
-r8 do\f do do |
+r8 do[\f do do] |
 si,8 sol, sol, la,16 si, |
 do\ff mi mi mi \rt#4 mi |
 \rt#8 si, |

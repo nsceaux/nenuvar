@@ -482,6 +482,11 @@
   }
   \includeScore "CFAhoracesChoeur"
 }
+% 3-14
+\bookpart {
+  \pieceToc "[Divertissement]"
+  \includeScore "CFBdivertissement"
+}
 
 %% Livret
 \bookpart {
