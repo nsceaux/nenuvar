@@ -339,7 +339,7 @@
 %# Pour accroître à la fois ma joie =& ton supplice!
 \livretPers\wordwrap-center {
   HORACE \smaller\italic {
-    mettent l’epée à la main & s’avançant pour frapper Camille.
+    mettant l’epée à la main & s’avançant pour frapper Camille.
   }
 }
 %# C'est trop souffrir un mortel déshonneur
