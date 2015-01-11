@@ -10,6 +10,6 @@
    (violino1)
    (violino2)
    (alto)
-   (basso #:score "score-basso")
+   (basso)
    (timpani)
    (silence #:on-the-fly-markup , #{ \markup\tacet#156 #}))

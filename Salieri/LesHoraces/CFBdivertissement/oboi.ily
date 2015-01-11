@@ -3,24 +3,29 @@
   { do'''2 | sol''4 mi'' | do''8 do''16 do'' do''8 do'' | do''2 | }
   { do''2 | sol'4 mi' | do'8 do'16 do' do'8 do' | do'2 | }
 >>
-\twoVoices #'(oboe1 oboe2 oboi) <<
-  { fa''2(^"Oboe solo" | mi''4. fa''8) | \grace mi''4 re''2 | do''4 r | }
-  { R2*4 | }
+<<
+  \tag #'(oboe1 oboi) {
+    fa''2(^"Oboe solo" | mi''4. fa''8) |
+    \grace mi''4 re''2 | do''4 r^\markup\whiteout Tutti |
+  }
+  \tag #'oboe2 { R2*4 | }
 >>
 \twoVoices #'(oboe1 oboe2 oboi) <<
-  { do'''2\f^"Tutti" | }
+  { do'''2-\tag #'oboe1 -\f | }
   { do''2\f | }
 >>
 sol''4 mi'' |
 do''8 do''16 do'' do''8 do'' |
 do''2 |
-\twoVoices #'(oboe1 oboe2 oboi) <<
-  { la''2^"Oboe solo" | sol''8( la'' si'' do''' |
-    sol''4. fa''8) | mi''4 r | }
-  { R2*4 | }
+<<
+  \tag #'(oboe1 oboi) {
+    la''2^"Oboe solo" | sol''8( la'' si'' do''' |
+    sol''4. fa''8) | mi''4 r^\markup\whiteout Tutti |
+  }
+  \tag #'oboe2 { R2*4 | }
 >> <>-\sug\ff
 \twoVoices #'(oboe1 oboe2 oboi) <<
-  { sol''4^"Tutti" }
+  { sol''4 }
   { si'4 }
 >> r4 |
 r8 \twoVoices #'(oboe1 oboe2 oboi) <<
@@ -78,7 +83,7 @@ do''2 |
     fa''2(^"Solo" |
     mi''4. fa''8 |
     \grace mi''4 re''2 |
-    do''4) r | <>^"[Tutti]"
+    do''4) r^"[Tutti]" |
   }
   \tag #'oboe2 { R2*4 | }
 >>
@@ -98,7 +103,8 @@ r8 <>-\sug\ff \twoVoices #'(oboe1 oboe2 oboi) <<
     re'''4. fa''8 |
     mi''8. sol''16 la''8. fa''16 |
     mi''4 re'' |
-    do''4. \grace re''16 do'' si'32 do'' |
+    \mergeDifferentlyDottedOn do''4. \grace re''16 do'' si'32 do'' |
+    \mergeDifferentlyDottedOff
     re''4. \grace mi''16 re'' do''32 re'' |
     mi''8 sol''[-\tag #'oboe1 -\sug\f sol'' sol''] |
     sol'' sol'' sol'' la''16 si'' |

@@ -4,10 +4,10 @@ do8 do16 do do8 do |
 do4 r |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    la2(^"solo" | sol2) | fa2 | mi8
+    la2(^"Solo" | sol2 | fa2) | mi8 <>^"[Tutti]"
   }
   \tag #'basso {
-    la16\p do' la do' la do' la do' |
+    <>^"[Violoncelli]" la16\p do' la do' la do' la do' |
     sol do' sol do' sol do' sol do' |
     fa si re' si fa si re' fa |
     mi8 <>^"[Tutti]"
@@ -23,10 +23,10 @@ do2 |
     fa2(^"Solo" | mi | si,) | do4 r |
   }
   \tag #'basso {
-    fa16\p la do' la fa la do' la |
+    <>^"[Violoncelli]" fa16\p la do' la fa la do' la |
     mi sol do' sol mi sol do' sol |
     si, re sol re si, re sol si, |
-    do4 r |
+    do4 r | <>^"[Tutti]"
   }
   \tag #'cb { R2*4 | }
 >>
@@ -76,14 +76,14 @@ fa!\sf |
     mi2 |
     <<
       \tag #'basso {
-        la16\p do' mi' do' la do' mi' do' |
+        <>^"[Violoncelli]" la16\p do' mi' do' la do' mi' do' |
         si re' mi' re' si re' mi' re' |
         sold si mi' si sold si mi' si |
         la do' mi' do' la do' mi' do' |
         la8. si16 si8.\trill la32 si |
         do'2 |
         la8. si16 si8.\trill la32 si |
-        do'8
+        do'8 <>^"[Tutti]"
       }
       \tag #'cb { R2*7 | r8 }
     >>
@@ -95,13 +95,13 @@ do8 do16 do do8 do |
 do2 |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    la2(^"Solo" | sol | fa | mi4) r | <>^"[Tutti]"
+    la2(^"Solo" | sol | fa | mi4) r^"[Tutti]" |
   }
   \tag #'basso {
-    la16\p do' la do' la do' la do' |
+    <>^"[Violoncelli]" la16\p do' la do' la do' la do' |
     sol do' sol do' sol do' sol do' |
     fa si re' si fa si re' fa |
-    mi4 r |
+    mi4 r^"[Tutti]" |
   }
   \tag #'cb { R2*4 | }
 >>

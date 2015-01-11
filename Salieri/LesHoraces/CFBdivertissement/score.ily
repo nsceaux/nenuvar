@@ -12,10 +12,7 @@
       >>
       \new GrandStaff \with { \flautiInstr } <<
         \new Staff <<
-          \global \keepWithTag #'flauto1 \includeNotes "flauti"
-        >>
-        \new Staff <<
-          \global \keepWithTag #'flauto2 \includeNotes "flauti"
+          \global \keepWithTag #'flauti \includeNotes "flauti"
         >>
       >>
       \new GrandStaff \with { 
@@ -25,10 +22,7 @@
         shortInstrumentName = \markup\center-column { Ob. Cl. }
       } <<
         \new Staff <<
-          \global \keepWithTag #'oboe1 \includeNotes "oboi"
-        >>
-        \new Staff <<
-          \global \keepWithTag #'oboe2 \includeNotes "oboi"
+          \global \keepWithTag #'oboi \includeNotes "oboi"
         >>
       >>
       \new Staff \with { \fagottiInstr } <<
@@ -38,15 +32,15 @@
     \new StaffGroupNoBracket <<
       \new GrandStaff \with { \violiniInstr } <<
         \new Staff \with {
-          \consists "Metronome_mark_engraver" 
-          \consists "Mark_engraver"
+          %\consists "Metronome_mark_engraver" 
+          %\consists "Mark_engraver"
         } << \global \keepWithTag #'violino1 \includeNotes "violini" >>
         \new Staff <<
           \global \keepWithTag #'violino2 \includeNotes "violini"
         >>
       >>
       \new Staff \with { \altoInstr } << \global \includeNotes "alto" >>
-      \new Staff \with { \violoncelliInstr } <<
+      \new Staff \with { \vccbInstr } <<
         \global \keepWithTag #'basso \includeNotes "bassi"
         \origLayout {
           s2*6\pageBreak
@@ -57,9 +51,6 @@
           s2*5\pageBreak s2*6\pageBreak
           s2*6\pageBreak s2*6\pageBreak
         }
-      >>
-      \new Staff \with { \cbInstr } <<
-        \global \keepWithTag #'cb \includeNotes "bassi"
       >>
       \new Staff \with { \timpaniInstr } <<
         \global \includeNotes "timpani"
