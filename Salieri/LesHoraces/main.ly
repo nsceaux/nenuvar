@@ -414,7 +414,7 @@
     Le vieil Horace, chœur :
     \italic { O sort cruel ! destins contraires }
   }
-  \includeScore "CDAHoraceChoeur"
+  \includeScore "CDAhoraceChoeur"
 }
 % 3-6
 \bookpart {
@@ -484,6 +484,7 @@
 }
 % 3-14
 \bookpart {
+  \paper { systems-per-page = #2 }
   \pieceToc "[Divertissement]"
   \includeScore "CFBdivertissement"
 }
