@@ -1080,7 +1080,7 @@
 \livretDidasPPage\justify { (Le vieil Horace sort. On danse.) }
 \livretRef #'CFBdivertissement
 \livretDescAtt\wordwrap-center { DIVERTISSEMENT }
-\livretRef #'CFDhoeur
+\livretRef #'CFDchoeur
 \livretPers CHŒUR
 \livretVerse#12 { Les Dieux, de l’univers, nous ont promis l’empire : }
 \livretVerse#10 { Le bras d’Horace accomplit leurs décrets ! }
@@ -1156,7 +1156,7 @@
 \livretVerse#12 { Pour accroître à la fois ma joie & ton supplice ! }
 \livretPers\wordwrap-center {
   HORACE \smaller\italic {
-    mettent l’epée à la main & s’avançant pour frapper Camille.
+    mettant l’epée à la main & s’avançant pour frapper Camille.
   }
 }
 \livretVerse#10 { C’est trop souffrir un mortel déshonneur }

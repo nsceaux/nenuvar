@@ -263,7 +263,7 @@
 \livretDidasPPage\justify { (Le vieil Horace sort. On danse.) }
 \livretRef #'CFBdivertissement
 \livretDescAtt\wordwrap-center { DIVERTISSEMENT }
-\livretRef #'CFDhoeur
+\livretRef #'CFDchoeur
 \livretPers CHŒUR
 %# Les Dieux, de l'univers, nous ont promis l'empire:
 %# Le bras d'Horace accomplit leurs décrets!
