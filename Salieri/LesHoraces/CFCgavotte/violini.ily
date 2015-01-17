@@ -64,7 +64,7 @@ do'' r fa'4( fa''\sf mi'') |
     sol''8 sol'' \grace la'' sol'' fa''16 sol'' fa''8 fa'' \grace sol'' fa'' mi''16 fa'' |
     mi''2 re''8 re'' \grace mi'' re'' dod''16 re'' |
     dod''8 dod'' \grace re'' dod'' si'16 dod'' re''8 re'' \grace mi'' re'' dod''16 re'' |
-    <sib' mi''>1~\f\> |
+    <sib'! mi''>1~\f\> |
     mi''4 sib''\! la''8( sol'' fa'' mi'') |
     fa''4 fa'2 sol'4 |
     fa'2
@@ -93,7 +93,7 @@ do'' r fa'4( fa''\sf mi'') |
     dod''8\p dod'' \grace re'' dod'' si'?16 dod'' re''8 re'' \grace mi'' re'' dod''16 re'' |
     mi''8 mi'' \grace fa'' mi'' re''16 mi'' fad''8 fad'' \grace sol'' fad'' mi''16 fad'' |
     sol''8 sol'' \grace la'' sol'' fad''16 sol'' sold''8 sold'' \grace la'' sold'' fad''16 sold'' |
-    la''8 la'' \grace si'' la'' sold''16 la'' dod'''8 dod''' \grace re''' dod''' si''16 dod''' |
+    la''8 la'' \grace si'' la'' sold''16 la'' dod'''8 dod''' \grace re''' dod''' si''!16 dod''' |
     re'''8 la'' fa'' re'' re''4 \grace fa''4 mi'' |
     re''2
   }
@@ -149,7 +149,7 @@ sol''( mi'') re''-. do''-. si' do'' re'' fa'' |
 \grace do'''8 si''4 la''8 sol'' do'''4 do''' |
 <si'' re''>2 sol''8 si'' re''' si'' |
 do''' sol'' la'' fa'' mi'' sol'' si' re'' |
-do''2 la'8(\p sib' la' sib') |
+do''2 la'8(\p sib'! la' sib') |
 do'' r fa'4( fa''\sf mi'') |
 \grace mi''4 re''2 sib''8(\mf la'' sol'' fa'') |
 fa''( mi'') re''-. do''-. do''( sib') la'-. sol'-. |

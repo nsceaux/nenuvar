@@ -45,7 +45,7 @@ sol'2 fa'!4.\prall mi'16 fa' |
 mi'4 fa' sol' sol |
 do'2 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    la8-\sug\p sib la sib | do' r fa4( fa'-\sug\sf mi') |
+    la8-\sug\p sib! la sib | do' r fa4( fa'-\sug\sf mi') |
     \grace mi'4 re'2-\sug\mf sol4 r | do'4 r do r |
     fa r la8-\sug\p( sib la sib) | do' r fa4( fa'\sf mi') |
     re'1-\sug\f~ | re' | do'~ | do' | sib | do'2 do | fa

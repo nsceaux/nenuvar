@@ -488,6 +488,12 @@
   \pieceToc "[Divertissement]"
   \includeScore "CFBdivertissement"
 }
+% 3-15
+\bookpart {
+  \paper { systems-per-page = #2 }
+  \pieceToc "Gavotte"
+  \includeScore "CFCgavotte"
+}
 
 %% Livret
 \bookpart {

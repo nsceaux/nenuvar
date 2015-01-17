@@ -296,5 +296,8 @@
 }
 \includeScore "CFAhoracesChoeur"
 % 3-14
-\pieceToc "[Divertissement]"
+\pieceTocTitle "[Divertissement]"
 \includeScore "CFBdivertissement"
+% 3-15
+\pieceTocTitle "Gavotte"
+\includeScore "CFCgavotte"

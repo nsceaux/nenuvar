@@ -1,0 +1,10 @@
+\piecePartSpecs
+#`((oboe1)
+   (oboe2)
+   (fagotto1 #:clef "tenor")
+   (fagotto2 #:clef "tenor")
+   (violino1)
+   (violino2)
+   (alto)
+   (basso)
+   (silence #:on-the-fly-markup , #{ \markup\tacet#87 #}))

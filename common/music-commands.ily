@@ -815,3 +815,5 @@ sug =
           arg)
           
 rmf = #(make-dynamic-script "rmf")
+
+\defineBarLine "|.|:" #'("|." ".|:" "|.| ")
