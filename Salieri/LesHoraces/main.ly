@@ -512,6 +512,15 @@
   }
   \includeScore "CGArecit"
 }
+% 3-18
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Chœur : \italic {
+      Rome est libre, il suffit, rendons graces aux Dieux
+    }
+  }
+  \includeScore "CGBchoeur"
+}
 
 %% Livret
 \bookpart {
