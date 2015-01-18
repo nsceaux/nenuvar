@@ -1,4 +1,4 @@
-\clef "alto" r8 sib re' fa' sib4 r |
+\clef "alto" r8 sib-\sug\ff re' fa' sib4 r |
 r8 do' mib' do' la4 r |
 r8 sib re' fa' sib'4 r8 sib |
 <sol mib'>4 r r2 |
@@ -10,7 +10,7 @@ R1 |
 r8 sib re' fa' sib4 r |
 r8 re' fad' la' fad4 re'' |
 re'8 <re' sib'> q q \rt#4 q |
-<< mi''!4 \\ dod'' >> r r2 |
+<< mi'!4 \\ dod' >> r r2 |
 R1 |
 r2 re'16 mi' fa' re' mi' fa' sol' mi' |
 fa'4 r r2 |
@@ -19,17 +19,17 @@ r8 re fa la re' fa'16 mi' re' do' si la |
 q1~ |
 q |
 la8 si16 do' re' mi' fad' sold' la'8. mi'16 do'8. mi'16 |
-la4 do''2 do''4 |
+la4 do''2-\sug\sf do''4 |
 re''1-\sug\sf |
-r4 re'2 re'4 |
-do'2 do' |
-mib''1~ |
+r4 re'2-\sug\p re'4 |
+do'2-\sug\sf do' |
+mib''1-\sug\p~ |
 mib'' |
 re''~ |
 re'' |
 do''4 r r2 |
 <sol mi'!>1 |
-<< fa'8 \\ lab >> lab' do'' lab' fa' lab' re' fa' |
+<< fa'8 \\ lab >> lab'-\sug\ff do'' lab' fa' lab' re' fa' |
 sib4 r r2 |
 R1 |
 mib'4.\ff sol'16 sib' mib''4 <sol sol'>4 |

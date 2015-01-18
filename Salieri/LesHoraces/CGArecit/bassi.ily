@@ -1,7 +1,7 @@
 \clef "bass"
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    sib,4 r r16 sib re' do' sib la sol fa |
+    sib,4-\sug\ff r r16 sib re' do' sib la sol fa |
     mib4 r r16 mib' do' sib la sol fa mib |
     re4 r r16 re' fa' mib' re' do' sib lab |
     sol4
@@ -20,7 +20,7 @@ fa4 r r2 |
 R1 |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    sib4 r \clef "tenor" r16 re' mib' re' do' sib la sol |
+    sib,4 r \clef "tenor" r16 re' mib' re' do' sib la sol |
     fad4 r la16 sol fad mib' re' do' sib la |
     sib sol la sib do' re' mi'! fad' sol'4~ sol'16 fa' mi' re' |
     \clef "bass" la4
@@ -52,7 +52,8 @@ la,4 <<
     r4 r2 | R1 |
   }
   \tag #'basso {
-    <>^"Violoncelli" \clef "tenor" la'2\sf la'4 | sold'1 | \clef "bass" <>^"Tutti"
+    <>^"Violoncelli" \clef "tenor" la'2\sf la'4 |
+    sold'1-\sug\sf | \clef "bass" <>^"Tutti"
   }
 >>
 r4 sol!2\p sol4 |
@@ -73,10 +74,10 @@ do4 r r2 |
   \tag #'basso {
     sib1\sf | lab8
   }
->> lab8\ff do' lab fa lab re fa |
+>> lab8[\ff do' lab] fa lab re fa |
 sib,4 r r2 |
 R1 |
-mib4. sol16 sib mib'4 mib |
+mib4.-\sug\ff sol16 sib mib'4 mib |
 mi! r r2 |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
@@ -84,10 +85,10 @@ mi! r r2 |
     \clef "tenor" r4 fa'4.\sf mib'8(\p reb' do') |
     reb'1 | reb'~ | reb'2 do'4 r | r2 mi'4 r |
     R1*14 |
-    fa'1~ | fa'~ | fa' | fad' |
-    sol'~ | sol'2 do'~ | do'1 | sib |
-    \clef "bass" la1 | sol | si! | do'~ | do' |
-    fa'1 | re'~ | re'4 r r2 |
+    fa'1-\sug\fp~ | fa'~ | fa' | fad' |
+    sol'~ | sol'2 do'-\sug\fp~ | do'1 | sib |
+    \clef "bass" la1-\sug\fp | sol | si!-\sug\fp | do'~ | do'-\sug\fp |
+    fa'1 | re'-\sug\ff~ | re'4 r r2 |
   }
   \tag #'basso {
     R1 |
@@ -101,7 +102,7 @@ mi! r r2 |
     \rt#8 sol \rt#8 sol | \rt#8 sol \rt#8 fa!\fp |
     \rt#8 fa \rt#8 fa | \rt#8 sib, \rt#8 sib, |
     la,16\fp la la la \rt#4 la \rt#8 la |
-    \rt#8 sol \rt#8 sol | \rt#8 si,\fp \rt#8 si, |
+    \rt#8 sol \rt#8 sol | \rt#8 si,!\fp \rt#8 si, |
     \rt#8 do \rt8 do | \rt#8 sib\fp \rt#8 sib |
     \rt#8 lab \rt#8 lab | \rt#8 fa\ff \rt#8 fa | fa4 r r2 |
   }

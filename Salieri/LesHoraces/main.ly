@@ -501,6 +501,17 @@
   }
   \includeScore "CFDchoeur"
 }
+% 3-17
+\bookpart {
+  \scene "Scène dernière" "Scène dernière"
+  \sceneDescription\markup\wordwrap-center {
+    \smallCaps CAMILLE, les Précédens.
+  }
+  \pieceToc\markup\wordwrap {
+    Récit : Camille, le jeune Horace, Valère, chœur.
+  }
+  \includeScore "CGArecit"
+}
 
 %% Livret
 \bookpart {

@@ -1,4 +1,4 @@
-\key do \major \midiTempo#80
+\key do \major \midiTempo#112
 \tempo\markup { Allegro assai \smaller { et toujours le meme mouvement } }
 \time 4/4 s1*16
 \tempo "Allegro assai" s1*4

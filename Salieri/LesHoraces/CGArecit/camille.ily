@@ -1,4 +1,7 @@
-\clef "vbas-dessus" R1*3 |
+\clef "vbas-dessus" <>^\markup\italic {
+  Elle entre avec beaucoup de précipitation et de fureur
+}
+R1*3 |
 r2 r4 r8 sib' |
 mib''4^! mib''8 r r2 |
 r4 r8 mib'' mib'' mib'' fa'' sol'' |

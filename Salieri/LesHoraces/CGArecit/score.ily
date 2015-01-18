@@ -33,7 +33,7 @@
       >>
       \new Staff \with { \altoInstr } << \global \includeNotes "alto" >>
     >>
-    \new ChoirStaff \with { } <<
+    \new ChoirStaff \with { \haraKiri } <<
       \new Staff \with {
         \camilleInstr
         \consists "Metronome_mark_engraver"
@@ -41,14 +41,14 @@
       } \withLyrics <<
         \global \includeNotes "camille"
       >> \keepWithTag #'camille \includeLyrics "paroles"
-      \new Staff \with { \jeuneHoraceInstr \haraKiri } \withLyrics <<
+      \new Staff \with { \jeuneHoraceInstr } \withLyrics <<
         \global \includeNotes "jhorace"
       >> \keepWithTag #'jhorace \includeLyrics "paroles"
-      \new Staff \with { \valereInstr \haraKiri } \withLyrics <<
+      \new Staff \with { \valereInstr } \withLyrics <<
         \global \includeNotes "valere"
       >> \keepWithTag #'valere \includeLyrics "paroles"
     >>
-    \new ChoirStaff \with { \choeurInstr } <<
+    \new ChoirStaff \with { \choeurInstr \haraKiri } <<
       \new Staff \withLyrics <<
         \global \includeNotes "vsoprano"
       >> \keepWithTag #'choeur \includeLyrics "paroles"

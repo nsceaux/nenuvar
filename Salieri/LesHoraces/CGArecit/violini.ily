@@ -9,7 +9,7 @@ fa''4 r r2 |
 R1 |
 <re' sib' sib''>8 sib16[ sib] re' re' fa' fa' sib re''[ mib'' re''] do'' sib' la' sol' |
 fad'8 re'16[ re'] fad' fad' la' la' la'' sol'' fad'' mib'' re'' do'' sib' la' |
-sib' sol' la' sib' do'' re'' mi'' fad'' sol'' la'' sib'' la'' sol'' fad'' mi'' re'' |
+sib' sol' la' sib' do'' re'' mi'' fad'' sol'' la'' sib'' la'' sol'' fa''? mi'' re'' |
 dod''4 r r2 |
 R1 |
 r2 <<
@@ -32,11 +32,11 @@ la4 <<
     r4 fa''2\p fa''4 | mib''( lab''2\sf sol''4) |
     fad''1\p ~ | fad'' | fa''!~ | fa'' |
     mib''8 r do'''4-.(\< do'''-. do'''-.)\! |
-    reb'''4.(\sf do'''16 sib'' lab''8 sol'' fa'' mi'') | fa''8
+    reb'''4.(\sf do'''16 sib'' lab''8 sol'' fa'' mi''!) | fa''8
   }
   \tag #'violino2 {
-    r4 r2 | si''1\sf | r4 si'2-\sug\p si'4 | do''2 do'' |
-    do''1~ | do'' | si'!~ | si' |
+    r4 r2 | si''1\sf | r4 si'2-\sug\p si'4 | do''2-\sug\sf do'' |
+    do''1-\sug\p~ | do'' | si'!~ | si' |
     do''8 r do''4-.( do''-. do''-.) | reb''1 | lab'8
   }
 >> lab'16\ff[ lab'] do'' do'' lab' lab' fa' fa' lab' lab' re' re' fa' fa' |

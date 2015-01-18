@@ -306,3 +306,10 @@
   Chœur : \italic { Les Dieux, de l’univers, nous ont promis l’empire }
 }
 \includeScore "CFDchoeur"
+
+% 3-17
+\scene "Scène dernière" "Scène dernière"
+\pieceToc\markup\wordwrap {
+  Récit : Camille, le jeune Horace, Valère, chœur.
+}
+\includeScore "CGArecit"
