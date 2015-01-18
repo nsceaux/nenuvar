@@ -235,6 +235,10 @@ pretreInstr = \with {
   instrumentName = \markup\center-column\smallCaps { Le Grand Prêtre }
   shortInstrumentName = \markup\smallCaps GP.
 }
+valereInstr = \with {
+  instrumentName = \markup\smallCaps Valere
+  shortInstrumentName = \markup\smallCaps Va.
+}
 
 footnoteHere =
 #(define-music-function (parser this-location offset note)

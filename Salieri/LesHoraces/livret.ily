@@ -1092,9 +1092,10 @@
 \livretDescAtt\wordwrap-center {
   CAMILLE, les Précédens.
 }
+\livretRef #'CGArecit
 \livretDidasPPage\justify { (Elle entre avec beaucoup de fureur.) }
 \livretVerse#8 { Ou suis-je ? & quel transport coupable ! }
-\livretVerse#12 { Quoi ? Rome au fraticide élève des autels ! }
+\livretVerse#12 { Quoi ? Rome au fratricide élève des autels ! }
 \livretDidasPPage\justify {
   (La fête s’interrompt : les personnages qui la composent s’écartent
   avec surprise.)
