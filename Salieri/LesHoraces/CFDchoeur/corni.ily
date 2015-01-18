@@ -27,9 +27,9 @@ r2 r8 \twoVoices #'(corno1 corno2 corni) <<
     mi'4 }
 >> r4 r2 |
 \twoVoices #'(corno1 corno2 corni) <<
-  { do''2 sol'' | mi''8 do''[ do'' do''] }
-  { R1 | do'2 }
->> sol'2 |
+  { do''2 sol'' | mi''8 do''[ do'' do''] sol'2 | }
+  { R1 | do'2 sol'2 | }
+>>
 mi'4 r r2 |
 r4 re'' re''2~ |
 re''1~ |
@@ -72,7 +72,7 @@ r2 r8 \twoVoices #'(corno1 corno2 corni) <<
 >> do''8 do'' \rt#4 do'' |
 \twoVoices #'(corno1 corno2 corni) <<
   { re''2. }
-  { sol'2 re''4 }
+  { sol'2. }
 >> sol4 |
 do'2 sol' |
 do''4 r r2 |

@@ -10,15 +10,21 @@
           \consists "Mark_engraver"
         } <<
           \keepWithTag #'() \global
-          \keepWithTag #'corni \includeNotes "corni"
+          \keepWithTag #'corno1 \includeNotes "corni"
+          { s8 s1*40 \break }
         >>
-        %\new Staff <<
-        %  \keepWithTag #'() \global
-        %  \keepWithTag #'corno2 \includeNotes "corni"
-        %>>
+        \new Staff <<
+          \keepWithTag #'() \global
+          \keepWithTag #'corno2 \includeNotes "corni"
+        >>
       >>
-      \new Staff \with { \flautiInstr } <<
-        \global \keepWithTag #'flauti \includeNotes "flauti"
+      \new GrandStaff \with { \flautiInstr } <<
+        \new Staff <<
+          \global \keepWithTag #'flauto1 \includeNotes "flauti"
+        >>
+        \new Staff <<
+          \global \keepWithTag #'flauto2 \includeNotes "flauti"
+        >>
       >>
       \new GrandStaff \with { 
         instrumentName = \markup\center-column {
@@ -64,7 +70,11 @@
       >> \keepWithTag #'vbasso \includeLyrics "paroles"
     >>
     \new StaffGroupNoBracket <<
-      \new Staff \with { \bassoInstr } <<
+      \new Staff \with {
+        \bcbInstr
+        \consists "Metronome_mark_engraver" 
+        \consists "Mark_engraver"
+      } <<
         \global \keepWithTag #'basso \includeNotes "bassi"
         \origLayout {
           s8 s1*2\pageBreak
@@ -81,9 +91,6 @@
           s1*3\pageBreak s1*3\pageBreak
           s1*3\pageBreak s1*3\pageBreak
         }
-      >>
-      \new Staff \with { \cbInstr } <<
-        \global \keepWithTag #'cb \includeNotes "bassi"
       >>
       \new Staff \with { \timpaniInstr } <<
         \global \includeNotes "timpani"

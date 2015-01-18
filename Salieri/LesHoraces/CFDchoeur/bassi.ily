@@ -7,22 +7,38 @@ r8. re16 re8. re16 re2 |
     mi4. sol8 sol4. sold8 |
     \sugNotes { la8 la,16. la,32 la,8 la, la,2\fermata } |
   }
-  \tag #'(basso cb) {
+  \tag #'basso {
     R1*2 | R1^\fermataMarkup |
   }
 >>
 <<
-  \tag #'(fagotto1 fagotto2 fagotti basso) {
-    re16 mi fad sol la si dod' re' la,8 la16 la la8 la |
-    re16 mi fad sol la si dod' re' la,8 la16 la la8 la |
-    re16 mi fad sol la si dod' re' si, dod re mi fad sold lad si |
-    sol, la, si, do re mi fad sol re mi fad sol la si dod' re' |
-    la, si, dod re mi fad sol la la, si, dod re mi fad sol la |
+  \new Voice {
+    \tag #'basso { \voiceOne <>^"[Violoncelli]" }
+    re16 mi fad sol la si dod' re'
   }
-  \tag #'cb {
-    re8 fad la re' la,8 la16 la la8 la |
-    re fad la re' la, la16 la la8 la |
-    re fad la re' si, re fad si |
+  \tag #'basso \new Voice {
+    \voiceTwo <>_"[C.b.]" re8 fad la re'
+  }
+>> la,8 la16 la la8 la |
+<<
+  \new Voice {
+    \tag #'basso { \voiceOne <>^"[Violoncelli]" }
+    re16 mi fad sol la si dod' re'
+  }
+  \tag #'basso \new Voice {
+    \voiceTwo <>_"[C.b.]" re8 fad la re'
+  }
+>> la,8 la16 la la8 la |
+<<
+  \new Voice {
+    \tag #'basso { \voiceOne <>^"[Violoncelli]" }
+    re16 mi fad sol la si dod' re' si, dod re mi fad sold lad si |
+    sol, la, si, do re mi fad sol re mi fad sol la si dod'! re' |
+    la, si, dod re mi fad sold? la la, si, dod re mi fad sold la |
+  }
+  \tag #'basso \new Voice {
+    \voiceTwo <>_"[C.b.]"
+    re8 fad la re' si, re fad si |
     sol,8 si, re sol re fad la re' |
     la, dod mi la la, dod mi la |
   }
@@ -42,7 +58,7 @@ la4 r <<
       { s4 | s1 | s2 r4 s | }
     >> r2 |
   }
-  \tag #'(basso cb) {
+  \tag #'basso {
     r2 |
     r2 r4 r8 mi16 fad32 sold |
     la4 mi dod la, |
@@ -64,7 +80,7 @@ re8 re' re' re' \rt#4 re' |
         dod'2~ dod'4. dod'8 | re' }
     >> fad8[ fad fad] \rt#4 fad |
   }
-  \tag #'(basso cb) {
+  \tag #'basso {
     la16\ff la, la, la, \rt#4 la, \rt#8 la, |
     \rt#8 la, \rt#8 la, |
     \rt#8 la, \rt#8 la, |
@@ -77,50 +93,61 @@ si,8 re16 fad si8 si si re' si sold |
     la2 re' | mi'1 | fad'4 fad' mi' re' |
     dod'2 re' | mi'1 |
   }
-  \tag #'(basso cb) {
+  \tag #'basso {
     \rt#4 la8 \rt#4 re | \rt#4 mi \rt#4 mi | \rt#4 fad mi mi re re |
-    \rt#4 dod \rt#4 mi | \rt#4 mi \rt#4 mi |
+    \rt#4 dod \rt#4 re | \rt#4 mi \rt#4 mi |
   }
 >>
 <<
-  \tag #'(fagotto1 fagotto2 fagotti basso) {
-    la2 mi' | fad' mi' |
+  \new Voice {
+    \tag #'basso { \voiceOne <>^"[Violoncelli]" }
+    la2 mi' |
+    fad' mi' |
   }
-  \tag #'cb { la,2 r | R1 | }
+  \tag #'basso \new Voice {
+    \voiceTwo <>_"[C.b.]"
+    la,2 r | R1 |
+  }
 >>
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
     la,2 dod' | re'4.
   }
-  \tag #'(basso cb) { la,2\ff mi | re4. }
+  \tag #'basso { <>^"[Tutti]" la,2\ff mi | re4. }
 >> re8 fad4.\prall mi16 re |
 la4. la,8 dod4.\prall si,16 la, |
 re4. re8 fad4.\prall mi16 re |
 la4 la,8. la,16 la,4 la, |
 la,1\mordent\fermata |
 <<
-  \tag #'(fagotto1 fagotto2 fagotti basso) {
+  \new Voice {
+    \tag #'basso { \voiceOne <>^"[Violoncelli]" }
     si,16 dod re mi fad sold lad si
   }
-  \tag #'cb {
+  \tag #'basso \new Voice {
+    \voiceTwo <>_"[C.b.]"
     si,8 re fad si
   }
->> fad,8 fad16 fad fad8 fad |
+>> fad,8 fad16[ fad] fad8 fad |
 <<
-  \tag #'(fagotto1 fagotto2 fagotti basso) {
+  \new Voice {
+    \tag #'basso { \voiceOne <>^"[Violoncelli]" }
     si,16 dod re mi fad sold lad si
   }
-  \tag #'cb {
+  \tag #'basso \new Voice {
+    \voiceTwo <>_"[C.b.]"
     si,8 re fad si
   }
->> fad,8 fad16 fad fad8 fad |
+>> fad,8 fad16[ fad] fad8 fad |
 <<
-  \tag #'(fagotto1 fagotto2 fagotti basso) {
+  \new Voice {
+    \tag #'basso { \voiceOne <>^"[Violoncelli]" }
     si,16 dod re mi fad sold lad si si, dod re mi fad sold lad si |
-    sol, la, si, do re mi fad sol re mi fad sol la si do' re' |
-    la, si, do re mi fad sold la la, si, dod re mi fad sold la |
+    sol, la, si, do re mi fad sol re mi fad sol la si dod'! re' |
+    la, si, dod re mi fad sold la la, si, dod re mi fad sold la |
   }
-  \tag #'cb {
+  \tag #'basso \new Voice {
+    \voiceTwo <>_"[C.b.]"
     si,8 re fad si si, re fad si |
     sol, si, re sol re fad la re' |
     la, dod mi la la, dod mi la |
@@ -151,7 +178,7 @@ la2 <<
     >> r2 |
     \clef "bass" la,8 si,16 dod re mi fad sold la8 la, la, la, |
   }
-  \tag #'(basso cb) {
+  \tag #'basso {
     r2 |
     r r4 r8 mi16 fad32 sold |
     la4 mi dod la, |

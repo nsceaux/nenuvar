@@ -24,12 +24,12 @@ dod'4 la r r8 dod' |
 dod'4. la8 la4. dod'8 |
 dod'4 dod' r2 |
 r4 re' re' re' |
+dod'2 fad' |
+mi'2. mi'4 |
+re' re' dod' re' |
 mi'2 la |
-si2. si4 |
-dod' dod' si la |
-sol2 la |
-si2. si4 |
-mi' r r2 |
+mi'2. mi'4 |
+dod' r r2 |
 R1 |
 r2 r4 r8 la |
 re'4. re8 fad4. re8 |

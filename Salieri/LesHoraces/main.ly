@@ -494,6 +494,13 @@
   \pieceToc "Gavotte"
   \includeScore "CFCgavotte"
 }
+% 3-16
+\bookpart {
+  \pieceToc\markup\wordwrap {
+    Chœur : \italic { Les Dieux, de l’univers, nous ont promis l’empire }
+  }
+  \includeScore "CFDchoeur"
+}
 
 %% Livret
 \bookpart {

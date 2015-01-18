@@ -1,4 +1,4 @@
 \tag #'all \key re \major
-\tempo "Maestoso" \midiTempo#120
 \time 4/4 \partial 8
-s8 s1*77 \bar "|."
+\tempo "Maestoso" \midiTempo#60 s8 s1*5
+\tempo "Allegro spiritoso" \midiTempo#120 s1*72 \bar "|."

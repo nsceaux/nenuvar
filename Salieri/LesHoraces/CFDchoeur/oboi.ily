@@ -10,7 +10,7 @@ re''4.\fermata r16 re'32*1/2 mi' fad' sol' la'4.\fermata r8 |
     si'4. si'8 si'4. si'8 |
     mi'8 la'16. la'32 }
   { r8. s16 s2. | r8. s16 s2. | }
->> la'8 la' la'2\prall\fermata |
+>> la'8 la' la'2\mordent\fermata |
 r2 r8 \twoVoices #'(oboe1 oboe2 oboi) <<
   { dod''16 dod'' dod''8 dod'' |
     re'' la' fad' re' s mi''16 mi'' mi''8 mi'' |
@@ -54,18 +54,18 @@ la''4 la'8. la'16 la'4 la' |
 la'1\mordent\fermata |
 r2 r8 \twoVoices #'(oboe1 oboe2 oboi) <<
   { lad''16 lad'' lad''8 lad'' |
-    si'' fad'' re'' si' s8 dod'''16 dod''' dod'''8 dod''' |
-    re''' la'' fad'' re'' s8 fad''16 fad'' fad''8 fad'' |
+    si'' s4. s8 dod'''16 dod''' dod'''8 dod''' |
+    re''' s4. s8 fad''16 fad'' fad''8 fad'' |
     sol''2 fad'' | mi''1 |
     r8 fad'' fad'' fad'' mi''16 fad'' re'' mi'' dod''8 mi'' |
     re''4 }
   { dod''16 dod'' dod''8 dod'' |
-    re'' fad'' re'' si' s lad''16 lad'' lad''8 lad'' |
-    re''' la'' fad'' re'' s re''16 re'' re''8 re'' |
+    re'' s4. s8 lad''16 lad'' lad''8 lad'' |
+    re''' s4. s8 re''16 re'' re''8 re'' |
     si'2 la' | dod''1 |
     s8 re'' re'' re'' dod''16 re'' si' dod'' la'8 sol' |
     fad'4 }
-  { s4. | s2 r8 s4. | s2 r8 s4. | s1*2 | r8 }
+  { s4. | s8 fad''[ re'' si'] r8 s4. | s8 la'' fad'' re'' r8 s4. | s1*2 | r8 }
 >> r4 r2 |
 r8 \twoVoices #'(oboe1 oboe2 oboi) <<
   { sol''8 sol'' sol'' fad''16 sol'' mi'' fad'' re'' mi'' do'' re'' |

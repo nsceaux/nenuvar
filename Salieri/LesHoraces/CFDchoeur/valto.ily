@@ -30,7 +30,7 @@ la'2 la' |
 sold'2. sold'4 |
 la'4 r r2 |
 R1 |
-r2 r4 r8 la8 |
+r2 r4 r8 \sugNotes { la8 } |
 re'4. re'8 fad'4. re'8 |
 la'2 r4 r8 la' |
 re'4. re'8 fad'4. re'8 |
