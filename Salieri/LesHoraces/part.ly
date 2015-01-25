@@ -70,6 +70,7 @@
 \includeScore "AAIcamille"
 
 %% 1-9
+\partNoPageTurn #'(violino1 violino2 alto basso)
 \scene "Scène II" "Scène II"
 \pieceToc\markup\wordwrap {
   Camille, chœur : \italic { Secourez-nous, ô puissante Egérie }
@@ -238,8 +239,8 @@
 
 % 2-16
 \newBookPart #'(;;
-                tromba1 tromba2
-                corno1 corno2
+                ;tromba1 tromba2
+                ;corno1 corno2
                 ;flauto1 flauto2
                 oboe1 oboe2
                 clarinetto1 clarinetto2
@@ -296,7 +297,14 @@
   \italic { Pour ces illustres défenseurs }
 }
 \includeScore "CCBcamilleHoraceChoeur"
-\partNoPageTurn #'(fagotto1 fagotto2)
+\partNoPageTurn #'(;;
+                   corno1 corno2
+                   oboe1 oboe2
+                   clarinetto1 clarinetto2
+                   fagotto1 fagotto2
+                   violino1 violino2
+                   alto
+                   basso)
 % 3-5
 \scene "Scène IV" "Scène IV"
 \pieceToc\markup\wordwrap {
