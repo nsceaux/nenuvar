@@ -28,12 +28,18 @@
 
 %%% Title page
 %%%
+
+#(define-markup-command (tagline-vspacer layout props) ()
+   (interpret-markup
+    layout props
+    #{ \markup\abs-fontsize #10 \with-color #white \char ##x01C0 #}))
+
 \header {
   maintainer = "Nicolas Sceaux"
   maintainerEmail = "nicolas.sceaux@gmail.com"
   maintainerWeb = "http://nicolas.sceaux.free.fr"
   copyright = \markup\copyright
-  license = "Licensed under the Creative Commons Attribution-ShareAlike 4.0 License"
+  license = "Creative Commons Attribution-ShareAlike 4.0 License"
   shortcopyright = \markup { \copyright — \license }
   longcopyright = \markup\column {
     \vspace #1
@@ -41,41 +47,28 @@
     \fill-line { \license }
   }
   
-  tagline = \markup { 
-    \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7)
-    \box\column {
-      \fill-line {
-        \line {
-          \copyright
-          \concat {
-            \with-url #"http://nicolas.sceaux.free.fr" \smaller "<nicolas.sceaux@gmail.com>"
-            .
-          }
-        }
+  tagline = \markup\sans\abs-fontsize #8 \override #'(baseline-skip . 0) {
+    \right-column\bold {
+      \with-url #"http://nicolas.sceaux.free.fr" {
+        \concat { Éditions \tagline-vspacer }
+        \concat { Nicolas \tagline-vspacer }
+        \concat { Sceaux \tagline-vspacer }
       }
-      \fill-line {
-        \line {
-          Sheet music from
-          \with-url #"http://nicolas.sceaux.free.fr"
-          \typewriter\smaller http://nicolas.sceaux.free.fr
-          typeset using \with-url #"http://lilypond.org" LilyPond
-          $(string-append "version " (lilypond-version))
-          on \concat { \today . }
-        }
+    }
+    \abs-fontsize #9 \with-color #(x11-color 'grey40) \raise #-0.7 \musicglyph #"clefs.petrucci.f"
+    \column {
+      \line { \tagline-vspacer \copyright }
+      \smaller\line {
+        \tagline-vspacer
+        Sheet music from
+        \with-url #"http://nicolas.sceaux.free.fr"
+        \typewriter\smaller http://nicolas.sceaux.free.fr
+        typeset using \with-url #"http://lilypond.org" LilyPond
+        on \concat { \today . }
       }
-      \fill-line {
-        \line {
-          \italic Free to download, with the \italic freedom
-          to distribute, modify and perform.
-        }
-      }
-      \smaller\fill-line {
-        \line {
-          Licensed under the Creative Commons Attribution-ShareAlike 4.0 License,
-          for details see: \hspace #-0.5 
-          \with-url #"http://creativecommons.org/licenses/by-sa/4.0"
-          http://creativecommons.org/licenses/by-sa/4.0
-        }
+      \smaller\line {
+        \tagline-vspacer \license
+        — free to download, distribute, modify and perform.
       }
     }
   }

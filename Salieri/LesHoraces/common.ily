@@ -73,37 +73,7 @@
     }
     \with-url #"http://www.cmbv.fr" CMBV
   }
-  license = "Licensed under the Creative Commons Attribution-ShareAlike 4.0 License"
-  tagline = \markup { 
-    \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7)
-    \box\column {
-      \fill-line { \line { \copyright } }
-      \fill-line {
-        \line {
-          Sheet music from
-          \with-url #"http://nicolas.sceaux.free.fr"
-          \typewriter\smaller http://nicolas.sceaux.free.fr
-          typeset using \with-url #"http://lilypond.org" LilyPond
-          $(string-append "version " (lilypond-version))
-          on \concat { \today . }
-        }
-      }
-      \fill-line {
-        \line {
-          \italic Free to download, with the \italic freedom
-          to distribute, modify and perform.
-        }
-      }
-      \smaller\fill-line {
-        \line {
-          Licensed under the Creative Commons Attribution-ShareAlike 4.0 License,
-          for details see: \hspace #-0.5 
-          \with-url #"http://creativecommons.org/licenses/by-sa/4.0"
-          http://creativecommons.org/licenses/by-sa/4.0
-        }
-      }
-    }
-  }
+  license = "Creative Commons Attribution-ShareAlike 4.0 License"
 }
 
 
