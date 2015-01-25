@@ -84,13 +84,11 @@
                           (chain-assoc-get 'page:is-last-bookpart
                                            props #f))))
            ;; Book first page
-           #{ \markup\fill-line {
-  \abs-fontsize #10 \fromproperty #'header:longcopyright } #})
+           #{ \markup\fill-line { \fromproperty #'header:tagline } #})
           ((and (chain-assoc-get 'page:is-bookpart-last-page props #f)
                 (chain-assoc-get 'page:is-last-bookpart props #f))
            ;; book last page
-           #{ \markup\fill-line {
-  \abs-fontsize #8 \fromproperty #'header:tagline } #})
+           #{ \markup\fill-line { \fromproperty #'header:tagline } #})
           ((= side LEFT)
            ;; even pages
            #{ \markup\fill-line {
