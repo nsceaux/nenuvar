@@ -18,7 +18,7 @@ mib''8 mib'4\p mib'8 |
 re' re'4 re'8 |
 re' re'4 re'8 |
 re'4 r\fermata |
-R2*3 |
+R2*3 | \allowPageTurn
 r4 r8 sib'16\f sib' |
 mib''8 sib' sol' mib' |
 re'4. sib'16. sib'32 |

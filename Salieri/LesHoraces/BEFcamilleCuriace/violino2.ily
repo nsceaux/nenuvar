@@ -91,4 +91,4 @@ q sib2\ff do'8 re' |
 mib' do' re' mib' fa' sol' mib' fa' |
 re'4 sib'8 sib' sib'4 do'' |
 re'' sib' la' sol' |
-\custosNote fad'4
+\custosNote <la fad' re''>4

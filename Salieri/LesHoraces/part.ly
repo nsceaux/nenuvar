@@ -312,6 +312,7 @@
   \italic { O sort cruel ! destins contraires }
 }
 \includeScore "CDAHoraceChoeur"
+\partNoPageTurn #'(violino1 violino2)
 % 3-6
 \pieceToc\markup\wordwrap {
   Récit : une femme, Camille, le vieil Horace

@@ -18,7 +18,7 @@ sol'8 sol4\p sol8 |
 la8 la4 la8 |
 la la4 la8 |
 sib4 r\fermata |
-R2*3 |
+R2*3 | \allowPageTurn
 r4 r8 sib'16-\sug\f sib' |
 mib''8 sib' sol' mib' |
 re'2 |
