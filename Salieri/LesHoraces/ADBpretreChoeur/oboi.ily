@@ -8,7 +8,7 @@
     mi'2. la'4 | sol'1 | sol'2 la'4 sol' |
     sol'2~ sol'8 }
   { s1*4 s1-\sug\cresc s2.\!-\sug\f s4-\sug\mf s1 s1-\sug\p }
->> <>^"Tuti" sol'8-\sug\f[ la'8. si'16] |
+>> <>^"Tutti" sol'8-\sug\f[ la'8. si'16] |
 <<
   \tag #'(oboe1 oboi) \new Voice {
     \tag #'oboi \voiceOne

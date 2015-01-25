@@ -29,7 +29,7 @@
                 corno1 corno2
                 ;flauto1 flauto2
                 oboe1 oboe2
-                clarinetto1 clarinetto2
+                ;clarinetto1 clarinetto2
                 fagotto1 fagotto2
                 violino1 violino2
                 alto
@@ -361,7 +361,7 @@
 \includeScore "CFDchoeur"
 
 % 3-17
-\newBookPart #'(flauto1 flauto2)
+\newBookPart #'(flauto1 flauto2 clarinetto2)
 \scene "Scène dernière" "Scène dernière"
 \pieceToc\markup\wordwrap {
   Récit : Camille, le jeune Horace, Valère, chœur.
