@@ -14,5 +14,5 @@
    (alto #:tag-notes alto #:tag-global all)
    (basso #:instrument , #{ \markup\center-column { Basso C.b. } #}
           #:tag-global all)
-   (timpani #:tag-global part)
+   (timpani #:tag-global part #:system-count 3)
    (silence #:on-the-fly-markup , #{ \markup\tacet#121 #}))

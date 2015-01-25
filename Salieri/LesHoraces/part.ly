@@ -27,14 +27,14 @@
 \newBookPart #'(;;
                 tromba1 tromba2
                 corno1 corno2
+                ;timpani
                 ;flauto1 flauto2
                 oboe1 oboe2
                 ;clarinetto1 clarinetto2
                 fagotto1 fagotto2
                 violino1 violino2
                 alto
-                basso
-                timpani)
+                basso)
 \act "Acte Premier"
 \scene "Scène Première" "Scène I"
 \pieceToc\markup\wordwrap { Récit : Camille, une suivante }
@@ -99,14 +99,14 @@
 \newBookPart #'(;;
                 tromba1 tromba2
                 corno1 corno2
+                ;timpani
                 ;flauto1 flauto2
                 oboe1 oboe2
                 clarinetto1 clarinetto2
                 fagotto1 fagotto2
                 violino1 violino2
                 alto
-                basso
-                timpani)
+                basso)
 \intermede "Premier intermède"
 \pieceToc\markup\wordwrap { Récit : Le Grand Prêtre }
 \includeScore "ADApretre"
@@ -137,14 +137,14 @@
 \newBookPart #'(;;
                 tromba1 tromba2
                 corno1 corno2
+                ;timpani
                 flauto1 flauto2
                 oboe1 oboe2
                 clarinetto1 clarinetto2
                 fagotto1 fagotto2
                 violino1 violino2
                 alto
-                basso
-                timpani)
+                basso)
 \act "Acte Deuxième"
 \scene "Scène Première" "Scène I"
 % 2-1
@@ -241,14 +241,14 @@
 \newBookPart #'(;;
                 ;tromba1 tromba2
                 ;corno1 corno2
+                ;timpani
                 ;flauto1 flauto2
                 oboe1 oboe2
                 clarinetto1 clarinetto2
                 fagotto1 fagotto2
                 violino1 violino2
                 alto
-                basso
-                timpani)
+                basso)
 \intermede "Second intermède"
 \pieceToc\markup\wordwrap { Récit : Le Grand Sacrificateur }
 \includeScore "BHAsacrificateur" \noPageTurn
