@@ -1,8 +1,12 @@
 \piecePartSpecs
-#`((tromba1 #:tag-global () #:instrument "Tromba I en do")
-   (tromba2 #:tag-global () #:instrument "Tromba II en do")
-   (corno1 #:tag-global () #:instrument "Corno I en do")
-   (corno2 #:tag-global () #:instrument "Corno II en do")
+#`((tromba1 #:tag-global () #:instrument "Tromba I en do"
+           #:system-count 5)
+   (tromba2 #:tag-global () #:instrument "Tromba II en do"
+           #:system-count 5)
+   (corno1 #:tag-global () #:instrument "Corno I en do"
+           #:system-count 6)
+   (corno2 #:tag-global () #:instrument "Corno II en do"
+           #:system-count 6)
    (flauto1)
    (flauto2)
    (oboe1)

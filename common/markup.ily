@@ -208,7 +208,12 @@
      (ly:score-add-output-def! score #{ \layout {
       indent = 0
       ragged-right = ##t
-      \context { \Score skipBars = ##t }
+      \context {
+        \Score
+        skipBars = ##t
+        fontSize = #-4
+        \override StaffSymbol.staff-space = #(magstep -4)
+      }
       \context {
         \Staff
         \remove "Time_signature_engraver"
@@ -220,7 +225,8 @@
     } #})
      (interpret-markup
       layout props
-      #{ \markup { \hspace #10 Tacet $(make-score-markup score) } #})))
+      #{ \markup { \hspace #10 Tacet
+          \with-dimensions #'(-1 . 1) #'(-1 . 2) $(make-score-markup score) } #})))
 
 #(define-markup-command (lyrics layout props text)
      (markup-list?)

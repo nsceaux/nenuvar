@@ -1,6 +1,6 @@
 \piecePartSpecs
-#`((flauto1 #:notes "oboi")
-   (flauto2 #:notes "oboi")
+#`((flauto1 #:notes "oboi" #:system-count 8)
+   (flauto2 #:notes "oboi" #:system-count 8)
    (oboe1)
    (oboe2)
    (clarinetto1 #:notes "oboi" #:tag-notes oboe1)

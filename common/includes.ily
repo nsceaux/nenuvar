@@ -158,6 +158,7 @@ toplevel bookparts."
 #(define *note-filename* (make-parameter #f))
 #(define *instrument-name* (make-parameter #f))
 #(define *score-ragged* (make-parameter #f))
+#(define *system-count* (make-parameter #f))
 #(define *score-indent* (make-parameter #f))
 #(define *score-extra-music* (make-parameter #f))
 #(define *score-extra-music2* (make-parameter #f))
@@ -200,6 +201,7 @@ toplevel bookparts."
                       notes
                       (instrument #f)
                       (ragged #f)
+                      (system-count #f)
                       (clef "treble")
                       (figures "chiffres")
                       (tag-global #f)
@@ -210,9 +212,11 @@ toplevel bookparts."
                    Default: \"score\"
  - from-template should the score filename be found in templates directory?
                    Is #t when #:score has been explicitely specified, #f otherwise.
- - ragged        the value of the layout ragged-last variable
+ - ragged        the value of the ragged-last layout variable
                    Default: #f
- - indent        the value of the layout indent variable
+ - system-count  the value of the system-count layout variable
+                   Default: #f
+ - indent        the value of the indent layout variable
                    Default: #f (which means that the globally defined indent is used)
  - tag-global    the tag to be used when including the 'global.ily' file:
                    \\keepWithTag #tag \\global
@@ -227,13 +231,14 @@ toplevel bookparts."
 `piece-spec' should be a list, which first-element is the piece name,
 then consisting of alterning keywords and values, the keywords being any
 combination from the following list:
-  #:score #:score-template #:ragged #:indent #:tag-global #:tag-notes
-  #:notes #:instrument #:music
+  #:score #:score-template #:ragged #:system-count #:indent #:tag-global
+  #:tag-notes #:notes #:instrument #:music
 #:music allows to include some extra music
 The keyword arguments give default values to be used when non-specified in `piece-spec'."
   (let ((score (or score score-template))
         (from-templates (not score))
         (ragged ragged)
+        (system-count system-count)
         (indent #f)
         (tag-global tag-global)
         (tag-notes tag-notes)
@@ -251,6 +256,7 @@ The keyword arguments give default values to be used when non-specified in `piec
               ((#:notes) (set! notes (cadr props)))
               ((#:clef) (set! clef (cadr props)))
               ((#:ragged) (set! ragged (cadr props)))
+              ((#:system-count) (set! system-count (cadr props)))
               ((#:indent) (set! indent (cadr props)))
               ((#:tag-global) (set! tag-global (cadr props)))
               ((#:tag-notes) (set! tag-notes (cadr props)))
@@ -268,6 +274,7 @@ The keyword arguments give default values to be used when non-specified in `piec
     `((score . ,score)
       (from-templates . ,from-templates)
       (ragged . ,ragged)
+      (system-count . ,system-count)
       (indent . ,indent)
       (tag-global . ,tag-global)
       (tag-notes . ,tag-notes)
@@ -452,6 +459,7 @@ setOpus =
                                           (assoc-ref piece 'on-the-fly-markup)
                                           label)
                      (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
+                                    (*system-count* (assoc-ref piece 'system-count))
                                     (*note-filename* (assoc-ref piece 'notes))
                                     (*instrument-name* (assoc-ref piece 'instrument))
                                     (*score-indent* (assoc-ref piece 'indent))

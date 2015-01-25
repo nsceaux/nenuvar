@@ -1,6 +1,8 @@
 \piecePartSpecs
-#`((corno1 #:instrument "Corno I en do")
-   (corno2 #:instrument "Corno II en do")
+#`((corno1 #:instrument "Corno I en do"
+           #:system-count 3)
+   (corno2 #:instrument "Corno II en do"
+           #:system-count 3)
    (clarinetto1 #:notes "clarinetto1")
    (clarinetto2 #:notes "clarinetto2")
    (fagotto1)

@@ -520,6 +520,7 @@
     }
   }
   \includeScore "CGBchoeur"
+  \actEnd "FIN"
 }
 
 %% Livret

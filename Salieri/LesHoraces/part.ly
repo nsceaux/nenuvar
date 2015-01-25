@@ -24,6 +24,17 @@
 \includeScore "AAAouverture"
 
 %% 1-1
+\newBookPart #'(;;
+                tromba1 tromba2
+                corno1 corno2
+                ;flauto1 flauto2
+                oboe1 oboe2
+                clarinetto1 clarinetto2
+                fagotto1 fagotto2
+                violino1 violino2
+                alto
+                basso
+                timpani)
 \act "Acte Premier"
 \scene "Scène Première" "Scène I"
 \pieceToc\markup\wordwrap { Récit : Camille, une suivante }
@@ -84,7 +95,17 @@
 \includeScore "ACCquatuorChoeur"
 
 %% 1-13
-\newBookPart #'()
+\newBookPart #'(;;
+                tromba1 tromba2
+                corno1 corno2
+                ;flauto1 flauto2
+                oboe1 oboe2
+                clarinetto1 clarinetto2
+                fagotto1 fagotto2
+                violino1 violino2
+                alto
+                basso
+                timpani)
 \intermede "Premier intermède"
 \pieceToc\markup\wordwrap { Récit : Le Grand Prêtre }
 \includeScore "ADApretre"
@@ -112,7 +133,17 @@
 \includeScore "ADFchoeur"
 
 %%%%%%%%%%%%%%% ACTE II %%%%%%%%%%%%%%%%%%
-\newBookPart #'()
+\newBookPart #'(;;
+                tromba1 tromba2
+                corno1 corno2
+                flauto1 flauto2
+                oboe1 oboe2
+                clarinetto1 clarinetto2
+                fagotto1 fagotto2
+                violino1 violino2
+                alto
+                basso
+                timpani)
 \act "Acte Deuxième"
 \scene "Scène Première" "Scène I"
 % 2-1
@@ -125,6 +156,7 @@
   Camille, Curiace, le jeune Horace :
   \italic { Douce paix, transports pleins de charmes }
 }
+\includeScore "BABcacujh"
 % 2-3
 \scene "Scène II" "Scène II"
 \pieceToc\markup\wordwrap {
@@ -205,7 +237,17 @@
 \includeScore "BGBensemble"
 
 % 2-16
-\newBookPart #'()
+\newBookPart #'(;;
+                tromba1 tromba2
+                corno1 corno2
+                ;flauto1 flauto2
+                oboe1 oboe2
+                clarinetto1 clarinetto2
+                fagotto1 fagotto2
+                violino1 violino2
+                alto
+                basso
+                timpani)
 \intermede "Second intermède"
 \pieceToc\markup\wordwrap { Récit : Le Grand Sacrificateur }
 \includeScore "BHAsacrificateur" \noPageTurn
@@ -222,6 +264,17 @@
 \includeScore "BHCchoeur"
 
 %%%%%%%%%%%%%%% ACTE III %%%%%%%%%%%%%%%%%%
+\newBookPart #'(;;
+                tromba1 tromba2
+                corno1 corno2
+                flauto1 flauto2
+                oboe1 oboe2
+                clarinetto1 clarinetto2
+                fagotto1 fagotto2
+                violino1 violino2
+                alto
+                basso
+                timpani)
 \act "Acte Troisième"
 \scene "Scène Première" "Scène I"
 % 3-1
@@ -308,6 +361,7 @@
 \includeScore "CFDchoeur"
 
 % 3-17
+\newBookPart #'(flauto1 flauto2)
 \scene "Scène dernière" "Scène dernière"
 \pieceToc\markup\wordwrap {
   Récit : Camille, le jeune Horace, Valère, chœur.
@@ -320,3 +374,4 @@
   }
 }
 \includeScore "CGBchoeur"
+\actEnd "FIN"

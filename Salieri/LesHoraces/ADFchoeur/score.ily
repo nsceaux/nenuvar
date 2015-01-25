@@ -26,10 +26,10 @@
         }
       } <<
         \new Staff <<
-          \global \keepWithTag #'oboe1 \includeNotes "oboi"
+          \global \keepWithTag #'tous1 \includeNotes "oboi"
         >>
         \new Staff <<
-          \global \keepWithTag #'oboe2 \includeNotes "oboi"
+          \global \keepWithTag #'tous2 \includeNotes "oboi"
         >>
       >>
       \new GrandStaff \with { \fagottiInstr } <<

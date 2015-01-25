@@ -9,7 +9,7 @@
    (oboe2)
    (clarinetto1 #:notes "oboi" #:tag-notes oboe1)
    (clarinetto2 #:notes "oboi" #:tag-notes oboe2)
-   (flauto1)
+   (flauto1 #:system-count 11)
    (flauto2)
    (fagotto1)
    (fagotto2)

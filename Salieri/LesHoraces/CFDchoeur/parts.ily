@@ -5,8 +5,8 @@
             #:instrument "Tromba I in D" #:tag-global ())
    (tromba2 #:notes "corni" #:tag-notes corno2
             #:instrument "Tromba II in D" #:tag-global ())
-   (flauto1)
-   (flauto2)
+   (flauto1 #:system-count 11)
+   (flauto2 #:system-count 11)
    (oboe1)
    (oboe2)
    (clarinetto1 #:notes "oboi" #:tag-notes oboe1)

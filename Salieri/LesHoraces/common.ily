@@ -245,3 +245,10 @@ annexe =
     (format #f "~a" (string-upper-case (*act-title*)))
     #f)
   (make-music 'Music 'void #t))
+
+%{
+#(define-markup-command (tacet layout props num) (number?)
+   (interpret-markup
+    layout props
+    #{ \markup { \hspace #10 Tacet } #}))
+%}

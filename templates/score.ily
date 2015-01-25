@@ -13,6 +13,7 @@
     $(or (*score-extra-music*) (make-music 'Music))
   >>
   \layout {
+    system-count = #(*system-count*)
     indent = #(if (*instrument-name*)
                   largeindent
                   (or (*score-indent*) smallindent))
