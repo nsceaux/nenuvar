@@ -318,6 +318,7 @@
   Récit : une femme, Camille, le vieil Horace
 }
 \includeScore "CDBrecit"
+\partNoPageTurn #'(basso)
 % 3-7
 \pieceToc\markup\wordwrap {
   Le vieil Horace :

@@ -41,8 +41,8 @@ do'2 do'4\p mi' |
 sol'2 sol |
 do'4.\fermata r8 r2 |
 R1*4 |
-R1^\fermataMarkup |
-r8. do'16-\sug\p do'8. do'16 do'4\fermata r | \allowPageTurn
+R1^\fermataMarkup | \allowPageTurn
+r8. do'16-\sug\p do'8. do'16 do'4\fermata r |
 r8. la16 la8. la16 la4\fermata r |
 r8. do'16 do'8. do'16 do'4\fermata r |
 r8. do'16 do'8. do'16 do'4 r\fermata |
