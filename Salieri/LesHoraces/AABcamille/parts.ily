@@ -1,7 +1,7 @@
 \piecePartSpecs
 #`((clarinetto1)
-   (fagotto1 #:notes "fagotti")
-   (fagotto2 #:notes "fagotti")
+   (fagotto1 #:notes "fagotti" #:clef "tenor")
+   (fagotto2 #:notes "fagotti" #:clef "tenor")
    (violino1)
    (violino2)
    (alto)

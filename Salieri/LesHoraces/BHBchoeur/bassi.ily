@@ -134,7 +134,7 @@ R1*4 |
 R1^\fermataMarkup |
 <<
   \tag #'(fagotto1 fagotto2 fagotti) {
-    R1*4 |
+    \allowPageTurn R1*4 |
     \clef "tenor" 
     \twoVoices #'(fagotto1 fagotto2 fagotti) <<
       { mib'2.\fermata mib'4 |

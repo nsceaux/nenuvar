@@ -1,8 +1,8 @@
 \piecePartSpecs
 #`((oboe1)
    (oboe2)
-   (fagotto1)
-   (fagotto2)
+   (fagotto1 #:clef "tenor")
+   (fagotto2 #:clef "tenor")
    (violino1)
    (violino2)
    (alto)

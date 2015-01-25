@@ -296,6 +296,7 @@
   \italic { Pour ces illustres défenseurs }
 }
 \includeScore "CCBcamilleHoraceChoeur"
+\partNoPageTurn #'(fagotto1 fagotto2)
 % 3-5
 \scene "Scène IV" "Scène IV"
 \pieceToc\markup\wordwrap {

@@ -3,7 +3,7 @@
    (clarinetto2 #:notes "oboe2")
    (oboe1 #:notes "oboe1")
    (oboe2 #:notes "oboe2")
-   (fagotto1 #:notes "fagotti")
+   (fagotto1 #:notes "fagotti" #:clef "tenor")
    (fagotto2 #:notes "fagotti")
    (violino1 #:notes "violino1")
    (violino2 #:notes "violino2")

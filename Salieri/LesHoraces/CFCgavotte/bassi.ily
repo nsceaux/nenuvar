@@ -154,9 +154,9 @@ do'2 <<
     sol4^"Pizzicato" r sol r |
     do r r2 |
     sol4 r sol r |
-    do r 
+    do r <>^"Arco"
   }
->> do8\ff^"Arco" re mi fad |
+>> do8\ff re mi fad |
 sol sol la si do' re' mi' fad' |
 sol'2 fa'4.\prall mi'16 fa' |
 mi'4 fa' sol' sol |

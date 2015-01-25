@@ -3,7 +3,7 @@
    (tromba2 #:tag-global () #:instrument "Tromba II en do")
    (oboe1)
    (oboe2)
-   (fagotto1)
+   (fagotto1 #:music , #{ s2.*6\break #})
    (fagotto2)
    (violino1)
    (violino2)
