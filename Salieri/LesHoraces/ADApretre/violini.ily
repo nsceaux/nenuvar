@@ -33,7 +33,8 @@ mib'4~ mib'16. mib'32 \grace fa'32 mib'16[ re'32 mib'] lab'8 do''4 lab'16. fa'32
 >> r32 do'\f re' mi'! fa'16. sol'32 lab'16. do'32
 <<
   \tag #'violino1 {
-    << re'4 si'! sol''2~ >> |
+    < \tweak duration-log #2 re'
+    \tweak duration-log #2 si'! sol''~ >2 |
     sol''1~ |
     sol''~ |
     sol'' |

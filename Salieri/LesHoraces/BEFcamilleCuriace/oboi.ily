@@ -33,7 +33,7 @@ R1*6 |
 r4 r8 \twoVoices #'(oboe1 oboe2 oboi) <<
   { do'''8 do'''4. do'''8 | fa''4. fa''8 fa''4. fa''8 | sol''2 }
   { mib''8 mib''4. mib''8 | re''4. re''8 re''4. re''8 | mib''2 }
-  { s8-\sug\f | }
+  { s8-\sug\f }
 >> r2 |
 \twoVoices #'(oboe1 oboe2 oboi) <<
   { r4 \once\slurDashed mib''(-\sug\sf sol'' mib'') |
