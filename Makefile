@@ -1463,6 +1463,73 @@ Charpentier/MusiqueSacree/H73_Magnificat-all: \
 .PHONY: Charpentier/MusiqueSacree/H73_Magnificat-delivery Charpentier/MusiqueSacree/H73_Magnificat-clean Charpentier/MusiqueSacree/H73_Magnificat-all
 
 ###
+### André Cardinal Destouches
+###
+### Semiramis
+# Conducteur
+Destouches/Semiramis:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Semiramis  \
+	Destouches/Semiramis/main.ly
+.PHONY: Destouches/Semiramis
+# Violons, Flûtes, Hautbois
+Destouches/Semiramis-dessus:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Semiramis-dessus -dpart=dessus  \
+	Destouches/Semiramis/part.ly
+.PHONY: Destouches/Semiramis-dessus
+# Hautes-contre
+Destouches/Semiramis-haute-contre:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Semiramis-haute-contre -dpart=haute-contre  \
+	Destouches/Semiramis/part.ly
+.PHONY: Destouches/Semiramis-haute-contre
+# Tailles
+Destouches/Semiramis-taille:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Semiramis-taille -dpart=taille  \
+	Destouches/Semiramis/part.ly
+.PHONY: Destouches/Semiramis-taille
+# Basses
+Destouches/Semiramis-basse:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Semiramis-basse -dpart=basse  \
+	Destouches/Semiramis/part.ly
+.PHONY: Destouches/Semiramis-basse
+# Basse continue
+Destouches/Semiramis-basse-continue:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/Semiramis-basse-continue -dpart=basse-continue  \
+	Destouches/Semiramis/part.ly
+.PHONY: Destouches/Semiramis-basse-continue
+
+Destouches/Semiramis-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Destouches/Semiramis
+	@if [ -e $(OUTPUT_DIR)/Semiramis.pdf ]; then mv -fv $(OUTPUT_DIR)/Semiramis.pdf $(DELIVERY_DIR)/Destouches/Semiramis; fi
+	@if [ -e $(OUTPUT_DIR)/Semiramis-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/Semiramis-dessus.pdf $(DELIVERY_DIR)/Destouches/Semiramis; fi
+	@if [ -e $(OUTPUT_DIR)/Semiramis-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/Semiramis-haute-contre.pdf $(DELIVERY_DIR)/Destouches/Semiramis; fi
+	@if [ -e $(OUTPUT_DIR)/Semiramis-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/Semiramis-taille.pdf $(DELIVERY_DIR)/Destouches/Semiramis; fi
+	@if [ -e $(OUTPUT_DIR)/Semiramis-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/Semiramis-basse.pdf $(DELIVERY_DIR)/Destouches/Semiramis; fi
+	@if [ -e $(OUTPUT_DIR)/Semiramis-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/Semiramis-basse-continue.pdf $(DELIVERY_DIR)/Destouches/Semiramis; fi
+	@if [ -e $(OUTPUT_DIR)/Semiramis-1.midi ]; then tar zcf $(DELIVERY_DIR)/Destouches/Semiramis/Semiramis-midi.tar.gz $(OUTPUT_DIR)/Semiramis.midi $(OUTPUT_DIR)/Semiramis-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/Semiramis.midi ]; then cp $(OUTPUT_DIR)/Semiramis.midi $(DELIVERY_DIR)/Destouches/Semiramis/ ; fi
+	git archive --prefix=Semiramis/ HEAD Destouches/Semiramis common out templates Makefile README | gzip > $(DELIVERY_DIR)/Destouches/Semiramis/Semiramis.tar.gz
+
+Destouches/Semiramis-clean:
+	@rm -f $(OUTPUT_DIR)/Semiramis-* $(OUTPUT_DIR)/Semiramis.*
+
+Destouches/Semiramis-all: \
+	Destouches/Semiramis \
+	Destouches/Semiramis-dessus \
+	Destouches/Semiramis-haute-contre \
+	Destouches/Semiramis-taille \
+	Destouches/Semiramis-basse \
+	Destouches/Semiramis-basse-continue\
+	Destouches/Semiramis-delivery\
+	Destouches/Semiramis-clean
+
+.PHONY: Destouches/Semiramis-delivery Destouches/Semiramis-clean Destouches/Semiramis-all
+
+###
 ### François Couperin (1668-1733)
 ###
 ### Motets à voix seule, deux ou trois parties

@@ -312,6 +312,20 @@ O Emmanuel")
                  (basse "Basses et basse continue")))))
 
      ;;;
+     ;;; DESTOUCHES
+     ;;;
+     ("André Cardinal Destouches"
+      (("Semiramis"
+        #:key "Destouches/Semiramis"
+        #:url ""
+        #:description ""
+        #:main ((#f "Conducteur"))
+        #:parts ((dessus "Violons, Flûtes, Hautbois")
+                 (haute-contre "Hautes-contre")
+                 (taille "Tailles")
+                 (basse "Basses")
+                 (basse-continue "Basse continue")))))
+     ;;;
      ;;; COUPERIN
      ;;;
      ("François Couperin (1668-1733)"
