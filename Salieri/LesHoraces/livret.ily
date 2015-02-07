@@ -1164,7 +1164,7 @@
 \livretVerse#10 { Et tout ton sang… }
 \livretPers\line { CAMILLE \smaller\italic { saisissant un poignard } }
 \livretVerse#10 { \transparent { Et tout ton sang… } Ose frapper ta sœur : }
-\livretVerse#9 { C’est exploit digne de ton grand cœur. }
+\livretVerse#10 { C’est un exploit digne de ton grand cœur. }
 \livretDidasPPage\line { (Elle se frappe.) }
 \livretVerse#12 { Je te l’épargne. }
 \livretPers LES ROMAINS

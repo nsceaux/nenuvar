@@ -347,7 +347,7 @@
 %#- Et tout ton sang…
 \livretPers\line { CAMILLE \smaller\italic { saisissant un poignard } }
 %#= Ose frapper ta sœur:
-%# C'est exploit digne de ton grand cœur.
+%# C'est un exploit digne de ton grand cœur.
 \livretDidasPPage\line { (Elle se frappe.) }
 %#- Je te l'épargne.
 \livretPers LES ROMAINS
