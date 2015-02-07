@@ -5,14 +5,14 @@
 \newBookPart #'()
 \act "ACTE I"
 \sceneDescription\markup\wordwrap-center {
-  Le théâtre représente un grand salon orné pour le couronnement
-  \concat { d’ \smallCaps Arsane }
-  et de ses noces avec \smallCaps Semiramis.
+  Le Théâtre représente un grand Sallon orné pour le Couronnement
+  \concat { d’ \smallCaps Arsane } & de ses Nôces avec
+  \smallCaps Semiramis.
 }
-\scene "Scène Première" "Scène I"
+\scene "Scene Premiere" "Scene I"
 \sceneDescription\markup\wordwrap-center { \smallCaps Semiramis seule }
 % 1-1
 \pieceToc\markup\wordwrap {
-  Semiramis : \italic { Pompeux apprêts, fête éclatante }
+  Semiramis : \italic { Pompeux Aprêts, Fête éclatante }
 }
 \includeScore "AABsemiramis"

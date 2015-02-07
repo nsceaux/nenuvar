@@ -161,6 +161,11 @@
     layout props
     #{ \markup\justify $args #}))
 
+#(define-markup-command (livretParagraph layout props args) (markup-list?)
+   (interpret-markup
+    layout props
+    #{ \markup\justify { \hspace#3 $args } #}))
+
 #(define-markup-command (livretRef layout props ref next)
      (symbol? markup?)
    (interpret-markup
