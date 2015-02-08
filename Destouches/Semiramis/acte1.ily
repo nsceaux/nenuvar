@@ -16,3 +16,11 @@
   Semiramis : \italic { Pompeux Aprêts, Fête éclatante }
 }
 \includeScore "AABsemiramis"
+
+\scene "SCENE DEUXIÉME" "Scene II"
+\sceneDescription\markup\wordwrap-center\smallCaps {
+  Amestris, Semiramis.
+}
+% 1-2
+\pieceToc\markup { [Ritournelle] }
+\includeScore "AACritournelle"
