@@ -59,7 +59,7 @@
 \livretParagraph { \smallCaps { Un Babylonien. } }
 \livretParagraph { \smallCaps { Une Babylonienne. } }
 \livretParagraph { \smallCaps { Une Prestresse de Jupiter. } }
-\livretParagraph { \smallCaps { L'Odonnateur } des Jeux funebres. }
+\livretParagraph { \smallCaps { L'Ordonnateur } des Jeux funebres. }
 \livretParagraph { Chœur de Babyloniens. }
 \livretParagraph { Chœur de Genies Elementaires. }
 \livretParagraph { Chœur de Demons & de Magiciens. }

@@ -14,7 +14,7 @@
 \livretParagraph { \smallCaps { Un Babylonien. } }
 \livretParagraph { \smallCaps { Une Babylonienne. } }
 \livretParagraph { \smallCaps { Une Prestresse de Jupiter. } }
-\livretParagraph { \smallCaps { L'Odonnateur } des Jeux funebres. }
+\livretParagraph { \smallCaps { L'Ordonnateur } des Jeux funebres. }
 \livretParagraph { Chœur de Babyloniens. }
 \livretParagraph { Chœur de Genies Elementaires. }
 \livretParagraph { Chœur de Demons & de Magiciens. }
@@ -67,7 +67,7 @@
 \livretDescAtt\wordwrap-center\smallCaps {
   Amestris, Semiramis.
 }
-\livretRef #'AADas
+\livretRef #'ABBas
 \livretPers AMESTRIS
 %# Reine, je vais remplir le destin qui m'appelle;
 %# A mon serment vous me verrez fidelle.
@@ -116,6 +116,7 @@
 %# Que du Bandeau sacré vos main ornent sa Tête.
 
 \livretScene SCENE TROISIÉME
+\livretRef #'ACAamestris
 \livretPers AMESTRIS
 %# Mes yeux, mes tristes yeux, laissez couler vos larmes,
 %# Foible secours des malheureux.

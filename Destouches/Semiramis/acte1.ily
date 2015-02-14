@@ -23,9 +23,10 @@
 }
 % 1-2
 \pieceToc\markup { [Ritournelle] }
-\includeScore "AACritournelle"
+\includeScore "ABAritournelle"
 % 1-3
 \pieceToc\markup\wordwrap {
-  Récit : Amestris, Semiramis
+  Amestris, Semiramis :
+  \italic { Reine, je vais remplir le destin qui m’appelle }
 }
-\includeScore "AADas"
+\includeScore "ABBas"
