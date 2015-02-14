@@ -42,7 +42,7 @@ mib4. reb8 do sib, |
 lab,2. |
 sib, |
 mib4. fa8 sol1 |
-fad8 mib fa2 |
+fad8 mi fa2 |
 mi8 re mib2 |
 re8 mib re do sib, la, |
 sol,2. |

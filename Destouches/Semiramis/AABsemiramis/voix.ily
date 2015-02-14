@@ -5,12 +5,12 @@ la'2 la'8 la' |
 re''2 re''4 |
 r4 r8 si' do'' re'' |
 \appoggiatura re''8 mib''4. r8 lab'4 |
-lab'?2 sol'4 |
+lab'2 sol'4 |
 sol'4.( fa'8)\trill[ mib'] fa'8 |
 \appoggiatura fa'8 sol'2. |
 r4 r8 sol' la' sib' |
 la'4.\trill la'8 si' do'' |
-si'2 si'4 |
+si'2\trill si'4 |
 r r8 do'' re'' mib'' |
 fa''2( mib''8)\trill re''16[ do''] |
 do''4( si'4.) do''8 |
@@ -40,15 +40,15 @@ la'2 la'8 la' |
 re''2 re''4 |
 r4 r8 si' do'' re'' |
 \appoggiatura re''8 mib''4. r8 lab'4 |
-lab'?2 sol'4 |
+lab'2 sol'4 |
 sol'4.( fa'8)\trill[ mib'] fa' |
 \appoggiatura fa'8 sol'2. |
 r4 r8 sol' la' sib' |
 la'4.\trill la'8 si' do'' |
-si'2 si'4 |
+si'2\trill si'4 |
 r4 r8 do'' re'' mib'' |
 fa''2( mib''8)\trill re''16[ do''] |
-do''4( si'4.) do''8 |
+do''4( si'4.\trill) do''8 |
 do''2 r4 |
 R2.*3 |
 r4 sol'4. sol'8 |
@@ -63,7 +63,7 @@ re''4\trill re'' r re''8 re'' |
 \appoggiatura re''8 mib''4 do'' la' la'8 sib' |
 sib'2. re''4 |
 do''\trill do''8 sib' la'4\trill sib'8 sol' |
-fad'2 fad'4 |
+fad'2\trill fad'4 |
 sib'4 sib'8 sib' la' sol' |
 mib''2 la'4 |
 la'8 sib' la'4.\trill sol'8 |
@@ -91,7 +91,7 @@ r2 r4 sol' |
 mib'2 lab'4 lab'8 lab' |
 fa'2\trill r8 sib' |
 sol'4. sol'8 la' sib' |
-la'4 la'8 r re''4 |
+la'4\trill la'8 r re''4 |
 re''4. la'8 si' do'' |
 si'2 si'4 |
 do''4. do''8 re'' mib'' |
