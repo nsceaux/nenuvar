@@ -40,7 +40,7 @@ sol mi1 |
 fa2 fad4 sol8 do |
 sol,2. |
 do~ |
-do |
+do | \allowPageTurn
 fa |
 mi4. re8 do4 sol sol,2 |
 do2. |
@@ -79,7 +79,7 @@ sol sol8 la si4 sol |
 do fa re8 mi fa re |
 la4 mi fa mi |
 re re8 do sol4 sol, |
-do2. r4 |
+do2. r4 | \allowPageTurn
 r2 r4 do |
 fa2. fa4 |
 mi8 fa sol fa mi fa mi re |

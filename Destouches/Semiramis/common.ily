@@ -90,3 +90,7 @@ semiramisMark =
 amestrisMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Amestris"))
+
+arsaneMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vhaute-contre" "Arsane"))

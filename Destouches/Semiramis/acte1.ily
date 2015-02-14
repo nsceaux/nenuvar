@@ -41,3 +41,14 @@
   \italic { Mes yeux, mes tristes yeux, laissez couler vos larmes }
 }
 \includeScore "ACAamestris"
+
+\scene "SCENE QUATRIÉME" "Scene IV"
+\sceneDescription\markup\wordwrap-center\smallCaps {
+  Arsane, Amestris.
+}
+% 1-5
+\pieceToc\markup\wordwrap {
+  Arsane, Amestris :
+  \italic { Vous, Princesse, en ces lieux ! quel sort vous y ramene }
+}
+\includeScore "ADArecit"

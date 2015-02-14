@@ -136,6 +136,7 @@
 \livretDescAtt\wordwrap-center\smallCaps {
   Arsane, Amestris.
 }
+\livretRef #'AADrecit
 \livretPers ARSANE
 %# Vous, Princesse, en ces lieux! quel sort vous y ramene?
 \livretPers AMESTRIS
@@ -152,7 +153,7 @@
 %# Comblé de tant d'honneurs, n'êtes-vous pas content?
 \livretPers ARSANE
 %# Mon cœur ne l'eût été qu'à vaincre vôtre haine.
-%# Je n'adorois que vous; tant de soins tant de pleurs,
+%# Je n'adorois que vous; tant de soins, tant de pleurs,
 %# De si tendres soupirs, une ardeur si sincere,
 %# Rien n'a pû fléchir vos rigueurs:
 %# C'est vous qui m'enchaînez à ces tristes honneurs,
@@ -162,7 +163,7 @@
 \livretPers ARSANE
 %#= Mon cœur plus que jamais épris...
 \livretPers AMESTRIS
-%= Adieu, Seigneur, oubli=ez Amestris.
+%# Adieu, Seigneur, oubli=ez Amestris.
 \livretPers ARSANE
 %# Vous me fuy=ez... arrêtez Inhumaine.
 \livretPers AMESTRIS

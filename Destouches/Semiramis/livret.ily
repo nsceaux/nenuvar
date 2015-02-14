@@ -181,6 +181,7 @@
 \livretDescAtt\wordwrap-center\smallCaps {
   Arsane, Amestris.
 }
+\livretRef #'AADrecit
 \livretPers ARSANE
 \livretVerse#12 { Vous, Princesse, en ces lieux ! quel sort vous y ramene ? }
 \livretPers AMESTRIS
@@ -197,7 +198,7 @@
 \livretVerse#12 { Comblé de tant d’honneurs, n’êtes-vous pas content ? }
 \livretPers ARSANE
 \livretVerse#12 { Mon cœur ne l’eût été qu’à vaincre vôtre haine. }
-\livretVerse#12 { Je n’adorois que vous ; tant de soins tant de pleurs, }
+\livretVerse#12 { Je n’adorois que vous ; tant de soins, tant de pleurs, }
 \livretVerse#12 { De si tendres soupirs, une ardeur si sincere, }
 \livretVerse#8 { Rien n’a pû fléchir vos rigueurs : }
 \livretVerse#12 { C’est vous qui m’enchaînez à ces tristes honneurs, }
@@ -207,7 +208,7 @@
 \livretPers ARSANE
 \livretVerse#12 { \transparent { Adieu, Seigneur... } Mon cœur plus que jamais épris... }
 \livretPers AMESTRIS
-%= Adieu, Seigneur, oubli=ez Amestris.
+\livretVerse#10 { Adieu, Seigneur, oubliez Amestris. }
 \livretPers ARSANE
 \livretVerse#10 { Vous me fuyez... arrêtez Inhumaine. }
 \livretPers AMESTRIS
