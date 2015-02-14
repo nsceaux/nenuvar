@@ -81,4 +81,12 @@
      #:notes "basse"
      #:clef "basse"
      #:tag-notes basse-continue
-     #:score-template "score-basse-continue-voix")))
+     #:score-template "score-basse-continue")))
+
+semiramisMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Semiramis"))
+
+amestrisMark =
+#(define-music-function (parser location) ()
+  (make-character-mark "vbas-dessus" "Amestris"))

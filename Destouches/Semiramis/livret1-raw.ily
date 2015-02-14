@@ -67,6 +67,7 @@
 \livretDescAtt\wordwrap-center\smallCaps {
   Amestris, Semiramis.
 }
+\livretRef #'AADas
 \livretPers AMESTRIS
 %# Reine, je vais remplir le destin qui m'appelle;
 %# A mon serment vous me verrez fidelle.
@@ -76,7 +77,7 @@
 \livretPers SEMIRAMIS
 %# Au repos de ces lieux vôtre cœur s'interesse,
 %# Nôtre félicité ne dépend que de vous,
-%# Fille de Jupiter, vous serez la Prêtresse,
+%# Fille de Jupiter, vous serez sa Prêtresse,
 %# Ses faveurs par vos mains vont descendre sur nous.
 %# Babylonne est l'objet du couroux qui l'anime,
 %# Et ce Dieu tant de fois invoqué par mes pleurs,

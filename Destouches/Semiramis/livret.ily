@@ -112,6 +112,7 @@
 \livretDescAtt\wordwrap-center\smallCaps {
   Amestris, Semiramis.
 }
+\livretRef #'AADas
 \livretPers AMESTRIS
 \livretVerse#12 { Reine, je vais remplir le destin qui m’appelle ; }
 \livretVerse#10 { A mon serment vous me verrez fidelle. }
@@ -121,7 +122,7 @@
 \livretPers SEMIRAMIS
 \livretVerse#12 { Au repos de ces lieux vôtre cœur s’interesse, }
 \livretVerse#12 { Nôtre félicité ne dépend que de vous, }
-\livretVerse#12 { Fille de Jupiter, vous serez la Prêtresse, }
+\livretVerse#12 { Fille de Jupiter, vous serez sa Prêtresse, }
 \livretVerse#12 { Ses faveurs par vos mains vont descendre sur nous. }
 \livretVerse#12 { Babylonne est l’objet du couroux qui l’anime, }
 \livretVerse#12 { Et ce Dieu tant de fois invoqué par mes pleurs, }

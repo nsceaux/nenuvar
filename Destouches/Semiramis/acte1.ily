@@ -24,3 +24,8 @@
 % 1-2
 \pieceToc\markup { [Ritournelle] }
 \includeScore "AACritournelle"
+% 1-3
+\pieceToc\markup\wordwrap {
+  Récit : Amestris, Semiramis
+}
+\includeScore "AADas"
