@@ -11,11 +11,11 @@ la''4.*13/12 sib''32 fad'' sol'' sol''4.(\trill fad''16 sol'') |
 la''1 |
 la'' |
 re''4. la'16 sol' la' sib' do'' la' |
-sib'8 sol' sol''8. la''16 la''8.\trill sol''16 |
-fad''4. la'16 sib' do''8 do''8.*1/3\trill( sib'32 la') |
-sib'8 sib''8. sib''16 sib''8 la''8. la''16 |
+sib'8[ sol'] sol''8.[ la''16] la''8.[\trill sol''16] |
+fad''4 la'16 sib' do''8 do''8.\trill( sib'32 do'') |
+re''8 sib''8. sib''16 sib''8 la''8. la''16 |
 la''4 sol'' fad''8.(\trill mi''32 fad'') |
-sol''8. fa''16 mib'' re'' mib''8 do''8. do''16 |
+sol''8. fa''16 mib'' re'' mib''8 do''8.\trill do''16 |
 do''8. sib'16 do'' la' re''4. |
 sol''16 fa'' sol'' lab'' sol'' fa'' mib'' fa'' mib'' re'' do'' sib' |
 la'4 fa'' do''8.\trill( sib'32 do'') |
@@ -24,7 +24,7 @@ sib'8 sib''4 la''16 sib'' la'' sol'' fa'' mib'' |
 re'' do'' re'' mi'' fa'' re'' sol''4. |
 mi''16 re'' mi'' fa'' sol'' mi'' la''4. |
 fa''16 mi'' fa'' sol'' la'' fa'' sib'' la'' sol'' fa'' mi'' re'' |
-dod''8[ si'16 la'] fa''8.[ mi''16] mi''8.[\trill re''16] |
+dod''8\trill[ si'16 la'] fa''8.[ mi''16] mi''8.[\trill re''16] |
 re''8 fa''4 re''16 do'' re'' mib'' fa'' re'' |
 mib''4. do''16 sib' do'' re'' mib'' do'' |
 re''8. do''16 sib' la' sol'8 mib''4 |
