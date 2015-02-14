@@ -30,3 +30,14 @@
   \italic { Reine, je vais remplir le destin qui m’appelle }
 }
 \includeScore "ABBas"
+
+\scene "SCENE TROISIÉME" "Scene III"
+\sceneDescription\markup\wordwrap-center\smallCaps {
+  Amestris.
+}
+% 1-4
+\pieceToc\markup\wordwrap {
+  Amestris :
+  \italic { Mes yeux, mes tristes yeux, laissez couler vos larmes }
+}
+\includeScore "ACAamestris"

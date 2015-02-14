@@ -112,7 +112,7 @@
 \livretDescAtt\wordwrap-center\smallCaps {
   Amestris, Semiramis.
 }
-\livretRef #'AADas
+\livretRef #'ABBas
 \livretPers AMESTRIS
 \livretVerse#12 { Reine, je vais remplir le destin qui m’appelle ; }
 \livretVerse#10 { A mon serment vous me verrez fidelle. }
@@ -161,6 +161,7 @@
 \livretVerse#12 { Que du Bandeau sacré vos main ornent sa Tête. }
 
 \livretScene SCENE TROISIÉME
+\livretRef #'ACAamestris
 \livretPers AMESTRIS
 \livretVerse#12 { Mes yeux, mes tristes yeux, laissez couler vos larmes, }
 \livretVerse#8 { Foible secours des malheureux. }
