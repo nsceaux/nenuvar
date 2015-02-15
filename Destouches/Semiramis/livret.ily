@@ -219,6 +219,7 @@
 \livretVerse#12 { Je n’écoute plus rien, je vais suivre la Reine. }
 
 \livretScene SCENE CINQUIÉME
+\livretRef #'AEAarsane
 \livretPers ARSANE
 \livretVerse#12 { Je vous entends Cruelle, & je perds tout espoir. }
 \livretVerse#12 { Dieux ! si d’un sang obscur j’ai reçû la naissance, }

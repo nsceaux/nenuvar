@@ -174,6 +174,7 @@
 %# Je n'écoute plus rien, je vais suivre la Reine.
 
 \livretScene SCENE CINQUIÉME
+\livretRef #'AEAarsane
 \livretPers ARSANE
 %# Je vous entends Cru=elle, & je perds tout espoir.
 %# Dieux! si d'un sang obscur j'ai reçû la naissance,

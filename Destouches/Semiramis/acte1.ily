@@ -32,8 +32,8 @@
 \includeScore "ABBas"
 
 \scene "SCENE TROISIÉME" "Scene III"
-\sceneDescription\markup\wordwrap-center\smallCaps {
-  Amestris.
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps Amestris seule.
 }
 % 1-4
 \pieceToc\markup\wordwrap {
@@ -52,3 +52,13 @@
   \italic { Vous, Princesse, en ces lieux ! quel sort vous y ramene }
 }
 \includeScore "ADArecit"
+
+\scene "SCENE CINQUIÉME" "Scene V"
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps Arsane seul.
+}
+% 1-6
+\pieceToc\markup\wordwrap {
+  Arsane : \italic { Je vous entends Cruelle, & je perds tout espoir }
+}
+\includeScore "AEAarsane"
