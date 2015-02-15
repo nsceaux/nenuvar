@@ -62,3 +62,12 @@
   Arsane : \italic { Je vous entends Cruelle, & je perds tout espoir }
 }
 \includeScore "AEAarsane"
+
+\scene "SCENE SIXIÉME" "Scene VI"
+\sceneDescription\markup\wordwrap-center {
+  \smallCaps { Semiramis, Arsane, Amestris, }
+  et les Peuples de Babilonne.
+}
+% 1-7
+\pieceTocTitle "Marche des Babylonniens"
+\includeScore "AFAmarche"
