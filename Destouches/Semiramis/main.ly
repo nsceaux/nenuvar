@@ -17,6 +17,11 @@
   \override-lines #'(column-number . 2)
   \table-of-contents
 }
+%% Notes
+\bookpart {
+  \paper { #(define page-breaking ly:minimal-breaking) }
+  \include "Destouches/Semiramis/notes.ily"
+}
 %% Livret
 \bookpart {
   \paper { #(define page-breaking ly:minimal-breaking) }

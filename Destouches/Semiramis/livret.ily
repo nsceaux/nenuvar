@@ -181,7 +181,7 @@
 \livretDescAtt\wordwrap-center\smallCaps {
   Arsane, Amestris.
 }
-\livretRef #'AADrecit
+\livretRef #'ADArecit
 \livretPers ARSANE
 \livretVerse#12 { Vous, Princesse, en ces lieux ! quel sort vous y ramene ? }
 \livretPers AMESTRIS
@@ -232,6 +232,7 @@
   \smallCaps { Semiramis, Arsane, Amestris, }
   et les Peuples de Babilonne.
 }
+\livretRef #'AFBrecit
 \livretPers SEMIRAMIS
 \livretVerse#12 { Enfin, voici l’instant si cher à mes souhaits ! }
 \livretVerse#12 { Venez, jeune Heros, venez, que mes sujets }
@@ -240,7 +241,7 @@
 \livretPers ARSANE
 \livretVerse#12 { Croirai-je qu’en ce jour ces Peuples redoutez, }
 \livretVerse#13 { Aux loix d’un Inconnu, sans murmure obéïssent ? }
-\livretVerse#11 { Plus je vois pour moi prodiguer vos bontez, }
+\livretVerse#12 { Plus je vous vois pour moi prodiguer vos bontez, }
 \livretVerse#8 { Plus mes esprits sont agitez. }
 \livretVerse#8 { Peut-être les Dieux me punissent }
 \livretVerse#12 { D’usurper des honneurs que j’ai peu meritez. }

@@ -17,10 +17,12 @@
     \new Staff <<
       \global \keepWithTag #'basse \includeNotes "violon-basse"
       \includeFigures "chiffres"
-      { s2.*9\break \grace s8 s2.*6\break s2.*6\break s2.*4\pageBreak
+      \origLayout {
+        s2.*9\break \grace s8 s2.*6\break s2.*6\break s2.*4\pageBreak
         s2.*5\break s2.*4\break \grace s8 s2.*5\break \grace s8 s2.*6\pageBreak
         s2.*6\break s2.*4\break \grace s8 s1. s2.*2\break s1 s2.*2\pageBreak
-        s2.*4\break }
+        s2.*4\break
+      }
     >>
   >>
   \layout { }

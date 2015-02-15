@@ -136,7 +136,7 @@
 \livretDescAtt\wordwrap-center\smallCaps {
   Arsane, Amestris.
 }
-\livretRef #'AADrecit
+\livretRef #'ADArecit
 \livretPers ARSANE
 %# Vous, Princesse, en ces lieux! quel sort vous y ramene?
 \livretPers AMESTRIS
@@ -187,6 +187,7 @@
   \smallCaps { Semiramis, Arsane, Amestris, }
   et les Peuples de Babilonne.
 }
+\livretRef #'AFBrecit
 \livretPers SEMIRAMIS
 %# Enfin, voici l'instant si cher à mes souhaits!
 %# Venez, jeune Heros, venez, que mes sujets
@@ -195,7 +196,7 @@
 \livretPers ARSANE
 %# Croirai-je qu'en ce jour ces Peuples redoutez,
 %# Aux loix d'un Inconnu, sans murmure obé=ïssent?
-%# Plus je vois pour moi prodiguer vos bontez,
+%# Plus je vous vois pour moi prodiguer vos bontez,
 %# Plus mes esprits sont agitez.
 %#8 Peut-être les Dieux me punissent
 %# D'usurper des honneurs que j'ai peu meritez.

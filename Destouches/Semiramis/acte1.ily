@@ -17,6 +17,7 @@
 }
 \includeScore "AABsemiramis"
 
+\newBookPart #'(full-rehearsal)
 \scene "SCENE DEUXIÉME" "Scene II"
 \sceneDescription\markup\wordwrap-center\smallCaps {
   Amestris, Semiramis.
@@ -31,6 +32,7 @@
 }
 \includeScore "ABBas"
 
+\newBookPart #'(full-rehearsal)
 \scene "SCENE TROISIÉME" "Scene III"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps Amestris seule.
@@ -42,6 +44,7 @@
 }
 \includeScore "ACAamestris"
 
+\newBookPart #'(full-rehearsal)
 \scene "SCENE QUATRIÉME" "Scene IV"
 \sceneDescription\markup\wordwrap-center\smallCaps {
   Arsane, Amestris.
@@ -63,6 +66,7 @@
 }
 \includeScore "AEAarsane"
 
+\newBookPart #'(full-rehearsal)
 \scene "SCENE SIXIÉME" "Scene VI"
 \sceneDescription\markup\wordwrap-center {
   \smallCaps { Semiramis, Arsane, Amestris, }
@@ -71,3 +75,10 @@
 % 1-7
 \pieceTocTitle "Marche des Babylonniens"
 \includeScore "AFAmarche"
+\newBookPart #'(full-rehearsal)
+% 1-8
+\pieceToc\markup\wordwrap {
+  Semiramis, Arsane :
+  \italic { Enfin, voici l’instant si cher à mes souhaits }
+}
+\includeScore "AFBrecit"

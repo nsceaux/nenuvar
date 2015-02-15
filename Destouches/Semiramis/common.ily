@@ -83,6 +83,23 @@
      #:tag-notes basse-continue
      #:score-template "score-basse-continue")))
 
+%%%
+
+ouverture =
+#(define-music-function (parser location title) (string?)
+   (let ((rehearsal (rehearsal-number)))
+    (add-toc-item parser 'tocActMarkup #{ \markup\sep #})
+    (add-toc-item parser 'tocPieceMarkup title rehearsal)
+    (add-even-page-header-text parser (string-upper-case (*opus-title*)) #f)
+    (add-odd-page-header-text parser (string-upper-case title) #f)
+    (add-toplevel-markup parser (markup #:act (string-upper-case title)))
+    (add-no-page-break parser)
+    (if (eqv? #t (ly:get-option 'use-rehearsal-numbers))
+        (begin
+         (add-toplevel-markup parser (markup #:rehearsal-number rehearsal))
+         (add-no-page-break parser))))
+  (make-music 'Music 'void #t))
+
 semiramisMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vbas-dessus" "Semiramis"))
