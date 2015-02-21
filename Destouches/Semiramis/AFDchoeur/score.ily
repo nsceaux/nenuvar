@@ -1,5 +1,10 @@
 \score {
   \new ChoirStaff <<
+    \new StaffGroup <<
+      \new Staff << \global \includeNotes "dessus" >>
+      \new Staff << \global \includeNotes "haute-contre" >>
+      \new Staff << \global \includeNotes "taille" >>
+    >>
     \new ChoirStaff <<
       \new Staff \withLyrics <<
         \global \includeNotes "vdessus"
@@ -14,9 +19,6 @@
         \global \includeNotes "vbasse"
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
-    \new Staff << \global \includeNotes "dessus" >>
-    %\new Staff << \global \includeNotes "haute-contre" >>
-    %\new Staff << \global \includeNotes "taille" >>
     \new Staff <<
       \global
       \keepWithTag #'basse \includeNotes "basse"
@@ -34,6 +36,6 @@
       }
     >>
   >>
-  \layout { }
+  \layout { indent = \noindent }
   \midi { }
 }
