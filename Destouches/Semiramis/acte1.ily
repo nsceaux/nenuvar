@@ -92,3 +92,6 @@
   Chœur : \italic { Nous recevons un Roi des mains de la Victoire }
 }
 \includeScore "AFDchoeur"
+% 1-11
+\pieceTocTitle "Chaconne"
+\includeScore "AFEchaconne"

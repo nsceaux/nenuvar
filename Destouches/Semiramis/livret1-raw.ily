@@ -220,6 +220,7 @@
 %# Qu'il regne, qu'il nous donne une éternelle paix;
 %# Que les Dieux immortels ne séparent jamais
 %# Et nôtre bonheur & sa gloire.
+\livretRef #'AFEchaconne
 \livretDidasPPage On danse.
 \livretPers UNE BABILONIENNE
 %# Dieu charmant de Cythere,

@@ -265,6 +265,7 @@
 \livretVerse#12 { Qu’il regne, qu’il nous donne une éternelle paix ; }
 \livretVerse#12 { Que les Dieux immortels ne séparent jamais }
 \livretVerse#8 { Et nôtre bonheur & sa gloire. }
+\livretRef #'AFEchaconne
 \livretDidasPPage On danse.
 \livretPers UNE BABILONIENNE
 \livretVerse#6 { Dieu charmant de Cythere, }

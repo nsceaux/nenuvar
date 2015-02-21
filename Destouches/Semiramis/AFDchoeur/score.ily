@@ -20,9 +20,8 @@
       >> \keepWithTag #'vbasse \includeLyrics "paroles"
     >>
     \new Staff <<
-      \global
-      \keepWithTag #'basse \includeNotes "basse"
-      \keepWithTag #'basse \includeFigures "chiffres"
+      \global \includeNotes "basse"
+      \includeFigures "chiffres"
       \origLayout {
         s2.*4\break s2.*6\pageBreak
         s2.*5\break s2.*5\pageBreak
