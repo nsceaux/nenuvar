@@ -252,11 +252,13 @@
 \livretVerse#12 { Je crois vous le donner bien moins que vous le rendre. }
 \livretVerse#12 { Chantez, Peuples, chantez, réünissez vos voix, }
 \livretVerse#12 { Celebrez ce Heros, aplaudissez mon choix. }
+\livretRef #'AFCsemiramis
 \livretVerse#12 { Vous recevez un Roi des mains de la Victoire, }
 \livretVerse#12 { Qu’il répande sur vous mille nouveaux bienfaits, }
 \livretVerse#12 { Qu’il regne, qu’il vous donne une éternelle paix ; }
 \livretVerse#12 { Que les Dieux immortels ne séparent jamais }
 \livretVerse#8 { Et vôtre bonheur & sa gloire. }
+\livretRef #'AFDchoeur
 \livretPers CHŒUR
 \livretVerse#12 { Nous recevons un Roi des mains de la Victoire, }
 \livretVerse#12 { Qu’il répande sur nous mille nouveaux bienfaits, }

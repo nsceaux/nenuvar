@@ -82,3 +82,9 @@
   \italic { Enfin, voici l’instant si cher à mes souhaits }
 }
 \includeScore "AFBrecit"
+% 1-9
+\pieceToc\markup\wordwrap {
+  Semiramis, chœur :
+  \italic { Vous recevez un Roi des mains de la Victoire }
+}
+\includeScore "AFCsemiramis"

@@ -207,11 +207,13 @@
 %# Je crois vous le donner bien moins que vous le rendre.
 %# Chantez, Peuples, chantez, ré=ünissez vos voix,
 %# Celebrez ce Heros, aplaudissez mon choix.
+\livretRef #'AFCsemiramis
 %# Vous recevez un Roi des mains de la Victoire,
 %# Qu'il répande sur vous mille nouveaux bienfaits,
 %# Qu'il regne, qu'il vous donne une éternelle paix;
 %# Que les Dieux immortels ne séparent jamais
 %# Et vôtre bonheur & sa gloire.
+\livretRef #'AFDchoeur
 \livretPers CHŒUR
 %# Nous recevons un Roi des mains de la Victoire,
 %# Qu'il répande sur nous mille nouveaux bienfaits,

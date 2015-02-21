@@ -51,9 +51,7 @@
 \header {
   maintainer = \markup {
     Nicolas Sceaux,
-    \with-url #"http://www.les-ombres.fr" \line {
-      Les Ombres – Sylvain Sartre et Margaux Blanchard
-    }
+    \with-url #"http://www.les-ombres.fr" Les Ombres
   }
   license = "Creative Commons Attribution-ShareAlike 4.0 License"
 }
