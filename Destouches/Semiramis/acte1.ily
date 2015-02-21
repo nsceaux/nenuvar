@@ -84,7 +84,11 @@
 \includeScore "AFBrecit"
 % 1-9
 \pieceToc\markup\wordwrap {
-  Semiramis, chœur :
-  \italic { Vous recevez un Roi des mains de la Victoire }
+  Semiramis : \italic { Vous recevez un Roi des mains de la Victoire }
 }
 \includeScore "AFCsemiramis"
+% 1-10
+\pieceToc\markup\wordwrap {
+  Chœur : \italic { Nous recevons un Roi des mains de la Victoire }
+}
+\includeScore "AFDchoeur"
