@@ -38,7 +38,7 @@ r4 re'4. re'8 |
 fa'4 fa'4. sib'8 |
 sib'2 sib'4 |
 do''8 sib' la'4.\trill sib'8 |
-sib'4 %{%} sib'2 |
+sib'4 %{%} sib'2\douxSug |
 do''4 do''2 |
 sib'4 sib' sib' |
 sib' sib' la' |
@@ -78,7 +78,7 @@ sib'4 reb'' do'' |
 reb'' do'' sib' |
 la'2 sib'4 |
 sib' la'4. sib'8 |
-sib'4 %{%} sib'2 |
+sib'4 %{%} sib'2\fortSug |
 r4 do'' sib' |
 la' sib' fa' |
 fa' sol' fa' |
@@ -95,7 +95,7 @@ mib'' sib' la' |
 sib' fad' sol' |
 mib' re' re' |
 re' r r |
-R2.*11 |
+R2.*11 | \allowPageTurn
 r4 r8 sib' sib' sib' |
 re''4. la'8 la' fa' |
 sol'4. sol'8 sol' sol' |
@@ -161,5 +161,5 @@ mib'2\trill re'4 |
 fa'2 r4 |
 fa'2 r4 |
 fa'2 mib'4 |
-sib' la'4. sib'8 |
+sib' la'4.\trill sib'8 |
 sib'4

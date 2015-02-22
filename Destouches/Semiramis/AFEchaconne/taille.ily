@@ -38,7 +38,7 @@ r4 sib4. sib8 |
 do'4 fa'2 |
 sol'2 sol'4 |
 sol'4 fa'4. mib'8 |
-re'4 %{%} fa'2 |
+re'4 %{%} fa'2\douxSug |
 fa'4 mib'2 |
 reb'4 mib' fa' |
 solb' fa' fa' |
@@ -78,7 +78,7 @@ reb'4 sib do' |
 sib do' do' |
 do'2 reb'4 |
 solb' fa'4. do'8 |
-re'4 %{%} fa'2~ |
+re'!4 %{%} fa'2\fortSug~ |
 fa'4 fa' fa' |
 fa'2 mib'4 |
 re' fa' mib' |
@@ -95,7 +95,7 @@ sib sib do' |
 sol la sib |
 do' sib la |
 sib r r |
-R2.*11 |
+R2.*11 | \allowPageTurn
 r4 r8 sol' sol' sol' |
 la'4. la'8 re' re' |
 re'4. re'8 re' do' |

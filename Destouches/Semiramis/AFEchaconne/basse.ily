@@ -14,7 +14,7 @@ sib, sib sib |
 la la, la |
 sol sol, sol |
 fa fa, fa, |
-sib, <>^"Bassons" sib sib |
+sib, \once\override TextScript.outside-staff-priority = #999 <>^"Bassons" sib sib |
 <>^"Notes égales" la8 sol fa sol lab fa |
 sol fa mib fa sol mib |
 fa4 fa, fa, |
@@ -46,7 +46,7 @@ sib, <>^"Tous" sib2 |
 la4 lab2 |
 sol mib4~ |
 mib fa fa, |
-sib, %{%} <>^\markup\whiteout { Basses de violons } sib2 |
+sib, %{%} <>^\markup\whiteout { Basses de violons } sib2\douxSug |
 la4 fa2 |
 solb4 mib reb |
 do fa fa, |
@@ -86,7 +86,7 @@ sib, sib la |
 sib lab! solb |
 fa8 solb fa mib reb4 |
 mib4 fa fa, |
-%{%} sib,4 sib la |
+%{%} sib,4 <>^"Tous" sib\fortSug la |
 sol la sib |
 fa sol la |
 sib sol la |
@@ -162,7 +162,7 @@ sib,4 r r |
 r mib mib |
 re re8 do re mib |
 fa4 fa fa, |
-<>^"Notes égales" _"Bassons" sib,8 la, sib, do sib, do |
+<>^"Notes égales" ^"Bassons" sib,8 la, sib, do sib, do |
 la, sol, fa, sol, la, fa, |
 sib,4 la, sib, |
 fa8 mib fa sol la fa |

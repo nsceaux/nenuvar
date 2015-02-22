@@ -24,11 +24,11 @@ sib'2 r4 |
 sib'8.( do''16) do''4.\trill sib'8 |
 sib'4 <>^"Tous" sib'' sib'' |
 sib''4 la''8\trill sol'' fa'' mib'' |
-re''4 sol''8 fa'' mib'' re'' |
+re''4 sol''8 fa'' mib''\trill re'' |
 do'' fa'' re''4.\trill do''8 |
 sib'4 sib'' sib'' |
 sib'' la''8\trill sol'' fa'' mib'' |
-re''4 sol''8 fa'' mib'' re'' |
+re''4 sol''8 fa'' mib''\trill re'' |
 do'' fa'' re''4.\trill do''8 |
 sib'4 sol'' mib'' |
 do'' fa'' re'' |
@@ -86,7 +86,7 @@ sib'4 solb'' fa'' |
 solb'' fa'' mib'' |
 fa''2. |
 sib'8 do'' do''4.\trill sib'8 |
-%{%} <>^"Tous" sib'4\fort re''2 |
+%{%} sib'4 <>^"Tous" re''2\fort |
 r4 mib'' re'' |
 do''\trill sib' do'' |
 re'' sib'8.( do''16) do''8.(\trill sib'32 do'') |
@@ -140,7 +140,7 @@ sol'8 sib' mib'' mib''16 re'' do'' sib' la' sol' |
 fad'8 re'' sol'' sol''16 fad'' sol''8 la'' |
 sib''4 re''4. sol''8 |
 mi''4 mi''4. la''8 |
-fad''4.( mi''16 fad'') sol''4~ |
+fad''4.\trill( mi''16 fad'') sol''4~ |
 sol''8. sib'16 la'4.\trill sol'8 |
 sol'4 re''4. sol''8 |
 mi''4 mi''4. la''8 |
@@ -170,7 +170,7 @@ sib'2 r4 |
 do''2 r4 |
 re''8( mib''16 fa'') mib''4.\trill re''8 |
 do''2\trill sib'4 |
-fa'4. <>^"Tous" sol'8 fa' sol' |
+<>^"Tous" fa'4. sol'8 fa' sol' |
 fa'4. sol'8 fa' sol' |
 fa'4 mi'8 fa' sol' mi' |
 fa' sol' la' sib' do''4 |
