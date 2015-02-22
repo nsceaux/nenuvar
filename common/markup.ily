@@ -541,28 +541,14 @@ onlyNotesLayout = \layout {
   \context { \Score \remove "Bar_number_engraver" }
 }
 
-characterLayout = \layout {
-  \quoteLayout
-  line-width = #(if (eqv? #t (ly:get-option 'ancient-style))
-                    (* 10 mm)
-                    (* 18 mm))
-  ragged-right = ##f
-  \context {
-    \Staff
-    \override Clef #'full-size-change = ##t
-    \remove "Bar_engraver"
-  }
-  \context {
-    \Voice
-    \remove "Stem_engraver"
-  }
-}
-
-characterAmbitus =
-#(define-music-function (parser location clef1 clef2 low-note high-note)
-     (string? string? ly:music? ly:music?)
-   (let* ((low-pitch (ly:music-property low-note 'pitch))
-          (high-pitch (ly:music-property high-note 'pitch))
+#(define-markup-command (character-ambitus layout props old-clef new-clef ambitus)
+     (string? string? ly:music?)
+   (let* ((low-pitch (ly:music-property
+                      (car (ly:music-property ambitus 'elements))
+                      'pitch))
+          (high-pitch (ly:music-property
+                       (cadr (ly:music-property ambitus 'elements))
+                       'pitch))
           (chord (make-music
                   'EventChord
                   'elements (list (make-music
@@ -572,30 +558,38 @@ characterAmbitus =
                                   (make-music
                                    'NoteEvent
                                    'duration (ly:make-duration 2 0 1 1)
-                                   'pitch high-pitch)))))
-     (if (eqv? #t (ly:get-option 'ancient-style))
-         #{ \new Staff { \clef $clef1 $chord } #}
-         #{ \new Staff {
-  \clef $clef1 s16
-  \set Staff.forceClef = ##t
-  \clef $clef2 s8. $chord s2
-} #})))
-
-
-#(define-markup-command (character-ambitus layout props name ambitus)
-     (markup? markup?)
-   #:properties ((character-width-ratio 16/20)
-                 (ambitus-width-ratio 3/20))
-   (stack-lines
-    DOWN 0 0
-    (list empty-stencil
-          (interpret-markup layout props
-                            (markup 
-                             #:force-line-width-ratio ambitus-width-ratio
-                             #:vcenter #:fill-line (#:null #:left-align ambitus)
-                             #:hspace 2
-                             #:force-line-width-ratio character-width-ratio
-                             #:vcenter #:smallCaps name)))))
+                                   'pitch high-pitch))))
+          (score #{ \markup { \null \raise#1 \score {
+  \new Staff {
+    \clef $old-clef s8
+    \set Staff.forceClef = ##t \clef $new-clef s8
+    $chord
+  }
+  \layout {
+    \quoteLayout
+    line-width = #14
+    ragged-right = ##f
+    \context {
+      \Staff
+      \override Clef #'full-size-change = ##t
+      \remove "Bar_engraver"
+    }
+    \context {
+      \Voice
+      \remove "Stem_engraver"
+    }
+    \context {
+      \Score
+      \override StaffSymbol #'staff-space = #(magstep -2)
+      fontSize = #-2
+      \override NonMusicalPaperColumn #'line-break-permission = ##f
+    }
+  }
+} \hspace#1 } #})
+                 (score-stencil (interpret-markup layout props score)))
+          (ly:make-stencil (ly:stencil-expr score-stencil)
+                           (ly:stencil-extent score-stencil X)
+                           '(-2.5 . 4.5))))
 
 #(define-markup-command (character-two-columns layout props col1 col2)
      (markup? markup?)

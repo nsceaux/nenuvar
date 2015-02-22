@@ -1,5 +1,6 @@
 \notesSection "Livret"
-\markuplist\page-columns-title \act\line { LIVRET } {
+\markuplist\with-line-width-ratio #0.7 {
+\livretAct\larger LIVRET
 \livretAct AVERTISSEMENT
 \livretParagraph {
   Il est peu de Noms plus celebres que celui de Semiramis. Tous les
@@ -42,32 +43,69 @@
   elle sacrifie ses droits à la Couronne, & une passion
   légitime. Enfin, ses malheurs sont réparez, & sa vertu rénompensée.
 }
-\sep
 \livretAct\wordwrap-center {
   ACTEURS DE LA TRAGEDIE
 }
-\livretParagraph { \smallCaps Semiramis, Reine de Babylone. }
-\livretParagraph { \smallCaps Amestris, Princesse du Sang Royal. }
-\livretParagraph {
-  \smallCaps Arsane ou \smallCaps Ninus, Fils de \smallCaps Semiramis,
-  Amant \concat { d’ \smallCaps Amestris. }
+\fill-line {
+  \column {
+    \line {
+      \character-ambitus #"soprano" #"treble" ##{ re' fa'' #}
+      \smallCaps Semiramis, Reine de Babylone.
+    }
+    \line {
+      \character-ambitus #"soprano" #"treble" ##{ re' fa'' #}
+      \smallCaps Amestris, Princesse du Sang Royal.
+    }
+    \line {
+      \character-ambitus #"alto" #"G_8" ##{ sol si' #}
+      \smallCaps Arsane ou \smallCaps Ninus, Fils de \smallCaps Semiramis,
+      Amant \concat { d’ \smallCaps Amestris. }
+    }
+    \line {
+      \character-ambitus #"basse" #"basse" ##{ la, re' #}
+      \smallCaps Zoroastre, Roy de la Bactriance,
+      Amant de \smallCaps Semiramis.
+    }
+    \line {
+      \character-ambitus #"alto" #"G_8" ##{ sol si' #}
+      \smallCaps { Un Babylonien. }
+    }
+    \line {
+      \character-ambitus #"soprano" #"treble" ##{ re' fa'' #}
+      \smallCaps { Une Babylonienne. }
+    }
+    \line {
+      \character-ambitus #"soprano" #"treble" ##{ re' fa'' #}
+      \smallCaps { Une Prestresse de Jupiter. }
+    }
+    \line {
+      \character-ambitus #"basse" #"basse" ##{ la, re' #}
+      \smallCaps { L'Ordonnateur } des Jeux funebres.
+    }
+    \concat {
+      \left-brace#100 \raise#9.5 \line {
+        \column {
+          \character-ambitus #"soprano" #"treble" ##{ re' fa'' #}
+          \character-ambitus #"alto" #"G_8" ##{ sol si' #}
+          \character-ambitus #"tenor" #"G_8" ##{ mi fa' #}
+          \character-ambitus #"basse" #"basse" ##{ la, re' #}
+        }
+        \override #'(baseline-skip . 5) \column {
+          \line { Chœur de Babyloniens. }
+          \line { Chœur de Genies Elementaires. }
+          \line { Chœur de Demons & de Magiciens. }
+          \line { Chœur de Prêtres & Prêtresses de \smallCaps Jupiter. }
+          \line {
+            Chœur de Peuples pour les Jeux funestes de \smallCaps Ninus.
+          }
+        }
+      }
+    }
+  }
 }
-\livretParagraph {
-  \smallCaps Zoroastre, Roy de la Bactriance,
-  Amant de \smallCaps Semiramis.
 }
-\livretParagraph { \smallCaps { Un Babylonien. } }
-\livretParagraph { \smallCaps { Une Babylonienne. } }
-\livretParagraph { \smallCaps { Une Prestresse de Jupiter. } }
-\livretParagraph { \smallCaps { L'Ordonnateur } des Jeux funebres. }
-\livretParagraph { Chœur de Babyloniens. }
-\livretParagraph { Chœur de Genies Elementaires. }
-\livretParagraph { Chœur de Demons & de Magiciens. }
-\livretParagraph { Chœur de Prêtres & Prêtresses de \smallCaps Jupiter. }
-\livretParagraph {
-  Chœur de Peuples pour les Jeux funestes de \smallCaps Ninus.
-}
-\sep
+\markuplist\page-columns {
+
 \livretAct ACTE I
 \livretDescAtt\wordwrap-center {
   Le Théâtre représente un grand Sallon orné pour le Couronnement

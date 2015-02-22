@@ -1,28 +1,4 @@
-\livretAct\wordwrap-center {
-  ACTEURS DE LA TRAGEDIE
-}
-\livretParagraph { \smallCaps Semiramis, Reine de Babylone. }
-\livretParagraph { \smallCaps Amestris, Princesse du Sang Royal. }
-\livretParagraph {
-  \smallCaps Arsane ou \smallCaps Ninus, Fils de \smallCaps Semiramis,
-  Amant \concat { d’ \smallCaps Amestris. }
-}
-\livretParagraph {
-  \smallCaps Zoroastre, Roy de la Bactriance,
-  Amant de \smallCaps Semiramis.
-}
-\livretParagraph { \smallCaps { Un Babylonien. } }
-\livretParagraph { \smallCaps { Une Babylonienne. } }
-\livretParagraph { \smallCaps { Une Prestresse de Jupiter. } }
-\livretParagraph { \smallCaps { L'Ordonnateur } des Jeux funebres. }
-\livretParagraph { Chœur de Babyloniens. }
-\livretParagraph { Chœur de Genies Elementaires. }
-\livretParagraph { Chœur de Demons & de Magiciens. }
-\livretParagraph { Chœur de Prêtres & Prêtresses de \smallCaps Jupiter. }
-\livretParagraph {
-  Chœur de Peuples pour les Jeux funestes de \smallCaps Ninus.
-}
-\sep
+
 \livretAct ACTE I
 \livretDescAtt\wordwrap-center {
   Le Théâtre représente un grand Sallon orné pour le Couronnement
