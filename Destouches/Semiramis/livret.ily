@@ -41,11 +41,12 @@
   dans lesquelles la Princesse se dévoüe sortie d’une longue
   captivité, liée par un serment & par la necessité du bonheur public,
   elle sacrifie ses droits à la Couronne, & une passion
-  légitime. Enfin, ses malheurs sont réparez, & sa vertu rénompensée.
+  légitime. Enfin, ses malheurs sont réparez, & sa vertu récompensée.
 }
 \livretAct\wordwrap-center {
   ACTEURS DE LA TRAGEDIE
 }
+\line\with-color #red { TODO : ambitus }
 \fill-line {
   \column {
     \line {

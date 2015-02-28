@@ -1,3 +1,4 @@
 \notesSection "Notes"
 \markup\act NOTES
-\markup TODO
+\markup\with-color #red { TODO: décrire les sources }
+

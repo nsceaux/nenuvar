@@ -87,11 +87,13 @@
   Semiramis : \italic { Vous recevez un Roi des mains de la Victoire }
 }
 \includeScore "AFCsemiramis"
+\newBookPart #'(full-rehearsal)
 % 1-10
 \pieceToc\markup\wordwrap {
   Chœur : \italic { Nous recevons un Roi des mains de la Victoire }
 }
 \includeScore "AFDchoeur"
+\newBookPart #'(full-rehearsal)
 % 1-11
 \pieceTocTitle "Chaconne"
 \includeScore "AFEchaconne"

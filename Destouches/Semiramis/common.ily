@@ -22,6 +22,21 @@
         ((memq (ly:get-option 'part) '(basse-continue)) 16)
         (else 18)))
 
+%% Font
+
+\paper {
+  #(define fonts (set-global-fonts
+                  #:music "scorlatti"
+                  #:factor (/ staff-height pt 20)))
+}
+\layout {
+  \context {
+    \FiguredBass
+    \override BassFigure.font-name = #"Cochin Bold" 
+    \override BassFigure.font-size = #2
+  }
+}
+
 %% Line/page breaking algorithm
 %%  optimal   for lead sheets
 %%  page-turn for instruments and vocal parts
