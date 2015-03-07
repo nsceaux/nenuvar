@@ -9,7 +9,7 @@
     re''4 re'' sib' |
     do'' re''16[ do''8.] sib'16[ la'8.] |
     sib'4 sol' mib'' |
-    fa'' fa''16[ mib''8.] re''16[ do''8.] |
+    mib'' fa''16[ mib''8.] re''16[ do''8.] |
     re''4 fa'' mib'' |
     re'' sib' mib'' |
     do'' la' re'' |
@@ -57,7 +57,7 @@
     sib'8[ do''] re''4 |
     sib'2 la'4 |
     sib' la' sol' |
-    do'' do'' sib' |
+    sib' do'' sib' |
     la'\trill sib' re'' |
     sib'2\trill la'4 |
     sib' la' sol' |
@@ -116,7 +116,7 @@
             la' sol' fa' |
             sib' re'' re'' |
             re''4.(\melisma mib''8)[ re'' do'']( |
-            sib'4)\melismaEnd sol' sib' |
+            sib'4)\melismaEnd fa' sib' |
             la' sol' fa' |
             sib'
           }
