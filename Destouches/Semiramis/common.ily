@@ -124,3 +124,37 @@ amestrisMark =
 arsaneMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Arsane"))
+
+#(define-markup-command (triangle-up layout props a b c) (markup? markup? markup?)
+   (let ((base (interpret-markup
+                layout props
+                #{ \markup\fontsize #-2 { \number $b \number $c } #}))
+         (top (interpret-markup
+               layout props #{ \markup\fontsize #-2 \number $a #})))
+     (let* ((base-width (interval-length (ly:stencil-extent base X)))
+            (top-width (interval-length (ly:stencil-extent top X)))
+            (top-left-padding (/ (- base-width top-width) 2.0)))
+       (stack-lines
+        DOWN 0.0 2
+        (list (stack-stencil-line
+               0
+               (list (ly:make-stencil "" `(0 . ,top-left-padding) '(0 . 0))
+                     top))
+              base)))))
+
+#(define-markup-command (triangle-down layout props a b c) (markup? markup? markup?)
+   (let ((base (interpret-markup
+                layout props #{ \markup\fontsize #-2 { \number $a \number $b } #}))
+         (bottom (interpret-markup
+                  layout props #{ \markup\fontsize #-2 \number $c #})))
+     (let* ((base-width (interval-length (ly:stencil-extent base X)))
+            (bottom-width (interval-length (ly:stencil-extent bottom X)))
+            (bottom-left-padding (/ (- base-width bottom-width) 2.0)))
+       (stack-lines DOWN 0.0 2
+                    (list
+                     base
+                     (stack-stencil-line
+                      0 (list (ly:make-stencil ""
+                                               `(0 . ,bottom-left-padding)
+                                               '(0 . 0))
+                              bottom)))))))

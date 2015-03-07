@@ -198,6 +198,7 @@
 %# Et nôtre bonheur & sa gloire.
 \livretRef #'AFEchaconne
 \livretDidasPPage On danse.
+\livretRef #'AFFbabyloniens
 \livretPers UNE BABILONIENNE
 %# Dieu charmant de Cythere,
 %# Répand tes faveurs;

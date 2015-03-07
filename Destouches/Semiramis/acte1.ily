@@ -97,3 +97,10 @@
 % 1-11
 \pieceTocTitle "Chaconne"
 \includeScore "AFEchaconne"
+% 1-12
+\pieceToc\markup\wordwrap {
+  Une Babylonienne, un Babylonien, chœur :
+  \italic { Dieu charmant de Cythere }
+}
+\includeScore "AFFbabyloniens"
+% 1-13

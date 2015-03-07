@@ -306,6 +306,7 @@
 \livretVerse#8 { Et nôtre bonheur & sa gloire. }
 \livretRef #'AFEchaconne
 \livretDidasPPage On danse.
+\livretRef #'AFFbabyloniens
 \livretPers UNE BABILONIENNE
 \livretVerse#6 { Dieu charmant de Cythere, }
 \livretVerse#5 { Répand tes faveurs ; }
