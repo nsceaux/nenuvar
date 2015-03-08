@@ -115,6 +115,7 @@
   \italic { Quel tourbillon de feux s'éleve & nous sépare }
 }
 \includeScore "AFHtonnerre"
+\newBookPart #'(full-rehearsal)
 % 1-15
 \pieceTocTitle "Entr’acte"
 \reIncludeScore "AFAmarche" "AFIentracte"

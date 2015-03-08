@@ -384,7 +384,9 @@
 \livretVerse#12 { Quel présent ! quelle main vient ici me l’offrir ! }
 \livretDidasP\line { \hspace#30 à part. }
 \livretVerse#12 { Genereuse Amestris... Non, dussai-je perir... }
-\livretDidasP\line { L’Autel est brisé par le Tonnerre. }
+
+\livretRef #'AFHtonnerre
+\livretDidasPPage\line { L’Autel est brisé par le Tonnerre. }
 \livretPers SEMIRAMIS & ARSANE
 \livretVerse#12 { Quel tourbillon de feux s’éleve & nous sépare ? }
 \livretVerse#8 { Quelle horreur ! quels mugissemens ! }

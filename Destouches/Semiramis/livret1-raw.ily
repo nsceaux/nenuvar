@@ -278,7 +278,7 @@
 %# Genereuse Amestris... Non, dussai-je perir...
 
 \livretRef #'AFHtonnerre
-\livretDidasP\line { L’Autel est brisé par le Tonnerre. }
+\livretDidasPPage\line { L’Autel est brisé par le Tonnerre. }
 \livretPers SEMIRAMIS & ARSANE
 %# Quel tourbillon de feux s'éleve & nous sépare?
 %# Quelle *horreur! quels mugissemens!
