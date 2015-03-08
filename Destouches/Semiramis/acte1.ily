@@ -109,3 +109,12 @@
   \italic { C'est assez. Il est tems d'achever mon ouvrage }
 }
 \includeScore "AFGrecit"
+% 1-14
+\pieceToc\markup\wordwrap {
+  Semiramis, Arsane, chœur :
+  \italic { Quel tourbillon de feux s'éleve & nous sépare }
+}
+\includeScore "AFHtonnerre"
+% 1-15
+\pieceTocTitle "Entr’acte"
+\reIncludeScore "AFAmarche" "AFIentracte"

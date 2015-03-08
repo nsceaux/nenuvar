@@ -276,6 +276,8 @@
 %# Quel présent! quelle main vient ici me l'offrir!
 \livretDidasP\line { \hspace#30 à part. }
 %# Genereuse Amestris... Non, dussai-je perir...
+
+\livretRef #'AFHtonnerre
 \livretDidasP\line { L’Autel est brisé par le Tonnerre. }
 \livretPers SEMIRAMIS & ARSANE
 %# Quel tourbillon de feux s'éleve & nous sépare?
