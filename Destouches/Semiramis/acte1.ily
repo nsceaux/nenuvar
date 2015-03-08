@@ -104,3 +104,8 @@
 }
 \includeScore "AFFbabyloniens"
 % 1-13
+\pieceToc\markup\wordwrap {
+  Semiramis, Amestris, Arsane :
+  \italic { C'est assez. Il est tems d'achever mon ouvrage }
+}
+\includeScore "AFGrecit"

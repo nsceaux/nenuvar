@@ -125,6 +125,10 @@ arsaneMark =
 #(define-music-function (parser location) ()
   (make-character-mark "vhaute-contre" "Arsane"))
 
+arsaneMarkText =
+#(define-music-function (parser location text) (markup?)
+  (make-character-mark-text "vhaute-contre" "Arsane" text))
+
 #(define-markup-command (triangle-up layout props a b c) (markup? markup? markup?)
    (let ((base (interpret-markup
                 layout props

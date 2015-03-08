@@ -261,6 +261,7 @@
 %# Quel tri=omphe! que d'heureux instants!
 %# Quelle gloire! quels transports charmants!
 
+\livretRef #'AFGrecit
 \livretPers SEMIRAMIS
 %# C'est assez. Il est tems d'achever mon ouvrage;
 %# Amestris, approchez, faites vôtre devoir.

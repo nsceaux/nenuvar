@@ -369,6 +369,7 @@
 \livretVerse#9 { Quel triomphe ! que d’heureux instants ! }
 \livretVerse#9 { Quelle gloire ! quels transports charmants ! }
 
+\livretRef #'AFGrecit
 \livretPers SEMIRAMIS
 \livretVerse#12 { C’est assez. Il est tems d’achever mon ouvrage ; }
 \livretVerse#12 { Amestris, approchez, faites vôtre devoir. }
