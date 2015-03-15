@@ -15,7 +15,7 @@
         \new Staff << \global \includeNotes "hautbois2" >>
       >>
       \new GrandStaff \with {
-        instrumentName = "Corni en Sol"
+        instrumentName = "Corni en Re"
         shortInstrumentName = "Cor."
       } <<
         \new Staff << \keepWithTag #'() \global \includeNotes "cor1" >>
@@ -41,7 +41,7 @@
         shortInstrumentName = "B."
       } <<
         \global \includeNotes "basse"
-        { s1*133\break s1*35\break }
+        { s8 s2.*15 s4. s4 \break s8 s2.*28 s4. s4 \break }
       >>
     >>
   >>

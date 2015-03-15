@@ -7,7 +7,7 @@ re'4 r8 re'4 r8 |
 sol4.( re'8) r4 |
 re'8 fad' la' sol' la' la |
 re' fad' la' re'4 r8 |
-re'\f r8 re'4 r8 |
+re'4\f r8 re'4 r8 |
 dod'4.( re'4) r8 |
 re'4 r8 re'4 r8 |
 la'8-. mi'-. dod'-. la4 r8 |
@@ -16,7 +16,7 @@ sol4. re'8 r4 |
 \rt#3 re'8 \rt#3 la' |
 \rt#3 re'8\f re'4\fermata %{%} r8 |
 R2. |
-\rt#3 mi'8 mi'4 r8 |
+\rt#3 mi'8\p mi'4 r8 |
 R2. |
 \rt#3 mi'8 mi'4 r8 |
 \rt#3 mi'8 mi'4 r8 |
@@ -32,7 +32,7 @@ re'8-. fad'-. la'-. re''-. la'-. fad'-. |
 la'4. re'8 mi' mi' |
 la4 r8 r4 r8 |
 R2. |
-r8 la'-. la'-. \acciaccatura sol'8 fad'( mi' re') |
+r8 la'-.\f la'-. \acciaccatura sol'8 fad'( mi' re') |
 la4 r8 r4 r8 |
 R2. |
 r8 re'-.\f fad'-. la'-. fad'-. re'-. |
@@ -42,7 +42,7 @@ R2.*2 |
 mi'8 r4 r8 r4 |
 R2.*2 |
 mi'4 r8 r4 %{%} r8 |
-re'4.( mi') |
+re'4.\p( mi') |
 r8 la la la4 r8 |
 la4 r8 r4 la8 |
 la4 r8 r4 la8 |
