@@ -1,23 +1,53 @@
 \score {
   \new StaffGroupNoBar <<
     \new StaffGroupNoBracket <<
-      \new Staff \with { instrumentName = "Flageolet" } <<
+      \new Staff \with {
+        instrumentName = "Flageolet"
+        shortInstrumentName = "Fl."
+      } <<
         \global \includeNotes "flageolet"
+      >>
+      \new GrandStaff \with {
+        instrumentName = "Oboe"
+        shortInstrumentName = "Ob."
+      } <<
+        \new Staff << \global \includeNotes "hautbois1" >>
+        \new Staff << \global \includeNotes "hautbois2" >>
+      >>
+      \new GrandStaff \with {
+        instrumentName = "Corni en Sol"
+        shortInstrumentName = "Cor."
+      } <<
+        \new Staff << \keepWithTag #'() \global \includeNotes "cor1" >>
+        \new Staff << \keepWithTag #'() \global \includeNotes "cor2" >>
       >>
     >>
     \new StaffGroupNoBracket <<
-      \new GrandStaff \with { instrumentName = "Violioni" } <<
+      \new GrandStaff \with {
+        instrumentName = "Violioni"
+        shortInstrumentName = "Vn."
+      } <<
         \new Staff << \global \includeNotes "violon1" >>
         \new Staff << \global \includeNotes "violon2" >>
       >>
-      \new Staff \with { instrumentName = "Alto" } <<
+      \new Staff \with {
+        instrumentName = "Alto"
+        shortInstrumentName = "Vla."
+      } <<
         \global \includeNotes "alto"
       >>
-      \new Staff \with { instrumentName = "Basso" } <<
+      \new Staff \with {
+        instrumentName = "Basso"
+        shortInstrumentName = "B."
+      } <<
         \global \includeNotes "basse"
+        { s1*133\break s1*35\break }
       >>
     >>
   >>
-  \layout { indent = \largeindent }
+  \layout {
+    indent = \largeindent
+    short-indent = 8\mm
+  }
   \midi { }
 }

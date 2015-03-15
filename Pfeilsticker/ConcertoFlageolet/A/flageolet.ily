@@ -7,7 +7,7 @@ sol'' sol'' sol'' sol'' |
 r8 <>^"solo" sol'-. la'-. si'-. do''-. re''-. mi''-. fad''-. |
 sol''2 re''4. si'8 |
 sol'16( re'' do'' si' la' sol' fad' mi') re'8*2/3 sol' la' si' do'' dod'' |
-\appoggiatura dod''8. re''4 re''4. mi''16( re'') do''?( si' la' sol') |
+\appoggiatura dod''?8. re''4 re''4. mi''16( re'') do''?( si' la' sol') |
 sol'8( fad') fad'2 fad'8( sol') |
 la'-. sol'-. fad'-. mi'-. \acciaccatura re'8 re''4. do''8 |
 \acciaccatura re'' do''( si') si'4 r si'8 do'' |
@@ -108,7 +108,7 @@ sol'8-. sol''-. fad''-. mi''-. re''-. do''-. si'-. la'-. |
 sol'4 r r2 |
 la'4. si'8 do''-. do''-. do''-. do''-. |
 si' \acciaccatura do'' si'16 la' si'8 do'' re''4 r |
-la'16( si' la' sold') la'8-. si'-. do''-. do''-. do''-. do''-. |
+la'16( si' la' sol') la'8-. si'-. do''-. do''-. do''-. do''-. |
 si' \acciaccatura do'' si'16( la') si'8-. do''-. re''16 sol'' fad'' sol'' la'' sol'' fad'' sol'' |
 \acciaccatura mi''8 re''4 re''2 mi''16( re'' do'' si') |
 mi''4. fad''8 sol'' sol'' sol'' mi'' |

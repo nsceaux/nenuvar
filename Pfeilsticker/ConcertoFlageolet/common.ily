@@ -40,6 +40,13 @@
 
 trill = #(make-articulation "trill")
 
+dynamicsX = 
+#(define-music-function (parser location offset) (number?)
+  #{
+     \once\override DynamicText.X-offset = $offset
+     \once\override DynamicLineSpanner.Y-offset = #0
+  #})
+
 #(define-markup-command (losange layout props) ()
    (interpret-markup
     layout props

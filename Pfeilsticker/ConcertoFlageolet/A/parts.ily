@@ -1,0 +1,12 @@
+\piecePartSpecs
+#(let ((breaks #{ s1*133\break s1*35\break #}))
+  `((flageolet #:music ,breaks)
+    (hautbois1 #:music ,breaks)
+    (hautbois2 #:music ,breaks)
+    (cor1 #:music ,breaks #:tag-global () #:instrument "en sol")
+    (cor2 #:music ,breaks #:tag-global () #:instrument "en sol")
+    (violon1 #:music ,breaks)
+    (violon2 #:music ,breaks)
+    (alto #:music ,breaks)
+    (basse #:music ,breaks)
+    (silence #:on-the-fly-markup , #{ \markup\tacet#251 #})))
