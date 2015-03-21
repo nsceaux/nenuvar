@@ -2793,55 +2793,55 @@ Pfeilsticker/ConcertoFlageolet:
 Pfeilsticker/ConcertoFlageolet-flageolet:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/ConcertoFlageolet-flageolet -dpart=flageolet  \
-	Pfeilsticker/ConcertoFlageolet/part.ly
+	Pfeilsticker/ConcertoFlageolet/main
 .PHONY: Pfeilsticker/ConcertoFlageolet-flageolet
 # Hautbois I
 Pfeilsticker/ConcertoFlageolet-hautbois1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/ConcertoFlageolet-hautbois1 -dpart=hautbois1  \
-	Pfeilsticker/ConcertoFlageolet/part.ly
+	Pfeilsticker/ConcertoFlageolet/main
 .PHONY: Pfeilsticker/ConcertoFlageolet-hautbois1
 # Hautbois II
 Pfeilsticker/ConcertoFlageolet-hautbois2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/ConcertoFlageolet-hautbois2 -dpart=hautbois2  \
-	Pfeilsticker/ConcertoFlageolet/part.ly
+	Pfeilsticker/ConcertoFlageolet/main
 .PHONY: Pfeilsticker/ConcertoFlageolet-hautbois2
 # Cor I
 Pfeilsticker/ConcertoFlageolet-cor1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/ConcertoFlageolet-cor1 -dpart=cor1  \
-	Pfeilsticker/ConcertoFlageolet/part.ly
+	Pfeilsticker/ConcertoFlageolet/main
 .PHONY: Pfeilsticker/ConcertoFlageolet-cor1
 # Cor II
 Pfeilsticker/ConcertoFlageolet-cor2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/ConcertoFlageolet-cor2 -dpart=cor2  \
-	Pfeilsticker/ConcertoFlageolet/part.ly
+	Pfeilsticker/ConcertoFlageolet/main
 .PHONY: Pfeilsticker/ConcertoFlageolet-cor2
 # Violin I
 Pfeilsticker/ConcertoFlageolet-violon1:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/ConcertoFlageolet-violon1 -dpart=violon1  \
-	Pfeilsticker/ConcertoFlageolet/part.ly
+	Pfeilsticker/ConcertoFlageolet/main
 .PHONY: Pfeilsticker/ConcertoFlageolet-violon1
 # Violin II
 Pfeilsticker/ConcertoFlageolet-violon2:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/ConcertoFlageolet-violon2 -dpart=violon2  \
-	Pfeilsticker/ConcertoFlageolet/part.ly
+	Pfeilsticker/ConcertoFlageolet/main
 .PHONY: Pfeilsticker/ConcertoFlageolet-violon2
 # Alto
 Pfeilsticker/ConcertoFlageolet-alto:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/ConcertoFlageolet-alto -dpart=alto  \
-	Pfeilsticker/ConcertoFlageolet/part.ly
+	Pfeilsticker/ConcertoFlageolet/main
 .PHONY: Pfeilsticker/ConcertoFlageolet-alto
 # Basse
 Pfeilsticker/ConcertoFlageolet-basse:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/ConcertoFlageolet-basse -dpart=basse  \
-	Pfeilsticker/ConcertoFlageolet/part.ly
+	Pfeilsticker/ConcertoFlageolet/main
 .PHONY: Pfeilsticker/ConcertoFlageolet-basse
 
 Pfeilsticker/ConcertoFlageolet-delivery:
