@@ -94,7 +94,7 @@ r8 |
 r re'-.\p re'-. r |
 r sol'-. sol'-. r |
 la'-. r sol'-. r |
-fa' fa' fa' r |
+fad' fad' fad' r |
 r re'-. re'-. r |
 r sol'-. sol'-. r |
 do'4 re' |

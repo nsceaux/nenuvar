@@ -148,8 +148,8 @@ r4 r8 si\f |
 r4 r8 do'\f |
 r4 r8 la\f |
 R2 |
-fad''16-. mi'' re''( dod'' re'' dod'') re'' mi'' |
-fad'' mi'' re''( mi'' fad'' sol'') la'' sold'' |
-la'' sold'' la''( sold'' la'' sold'') la'' sold'' |
+fad''16( mi'' re'' dod'' re'' dod'' re'' mi'') |
+fad''( mi'' re'' mi'' fad'' sol'' la'' sold'') |
+la''( sold'' la'' sold'' la'' sold'' la'' sold'') |
 la''8 r r4 |
 r4 r8 si'16(\p do'') |

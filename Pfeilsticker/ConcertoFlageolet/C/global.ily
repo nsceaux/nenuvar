@@ -1,4 +1,4 @@
-\tag #'all \key sol \major
+\tag #'all \key sol \major \midiTempo#100
 \time 2/4 \partial 8 s8 \bar "||" \segnoMark s2*19 s4. \fineMark \bar "|."
 s16 \beginMarkSmall\markup { \concat { "[" 1 \super re } "reprise]" } s
 s2*48 \dalSegnoMark \bar "|."
