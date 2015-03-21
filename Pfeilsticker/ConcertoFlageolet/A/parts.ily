@@ -8,5 +8,5 @@
     (violon1 #:music ,breaks)
     (violon2 #:music ,breaks)
     (alto #:music ,breaks)
-    (basse #:music ,breaks)
+    (basse #:music , #{ s1*133 s1*35\break #})
     (silence #:on-the-fly-markup , #{ \markup\tacet#251 #})))

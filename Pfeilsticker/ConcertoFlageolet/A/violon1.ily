@@ -62,7 +62,7 @@ re'' mi'' do'' la' sol'4 fad' |
 <re' si' sol''>4 r r <re' la' fad''> |
 \dynamicsX#-2.5 <re' si' sol''>4\f q q q |
 q r r2 |
-R1*2 |
+R1*2 | \allowPageTurn
 <>\p \rt#8 si'16 \rt#8 si' |
 \rt#8 do'' \rt#8 do'' |
 \rt#8 do'' \rt#8 do'' |

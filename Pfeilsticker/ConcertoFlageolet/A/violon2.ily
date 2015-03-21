@@ -77,7 +77,7 @@ sol' r r2 |
 <si sol'>4\f <re' si' sol''> q r |
 R1 |
 r2 r8 la'-. fad'-. re'-. |
-R1*2 |
+R1*2 | \allowPageTurn
 r2 r8 re'-. fad'-. la'-. |
 \rt#4 si8 \rt#4 si |
 \rt#4 la \rt#4 la |

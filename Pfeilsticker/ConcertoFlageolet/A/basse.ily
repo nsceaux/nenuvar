@@ -113,7 +113,7 @@ re4 re8. re16 la4 la8. la16 |
 re'4 re la la, |
 re r r2 |
 re4\f re, r2 |
-R1*5 |
+R1*5 | \allowPageTurn
 sol,2\p r |
 do r |
 r re4 re, |

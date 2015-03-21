@@ -56,7 +56,7 @@ re'8 fad' la' re'' fad''4. fad'8 |
 si' sol' si' re'' sol''4. si''8 |
 la'2 mi''\trill |
 re''4 r r2 |
-R1*13 |
+R1*13 | \allowPageTurn
 %%%
 R1*5 |
 re''4\f re'' re'' r |

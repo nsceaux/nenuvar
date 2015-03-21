@@ -76,7 +76,7 @@ re' r r2 |
 r4 sol'4-.\f sol'-. \sugNotes { r } |
 R1 |
 r2 r8 la'-. fad'-. re'-. |
-R1*2 |
+R1*2 | \allowPageTurn
 r2 r8 re'-. fad'-. la'-. |
 re' re' re' re' \rt#4 re' |
 re' re' re' re' \rt#4 re' |
