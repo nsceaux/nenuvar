@@ -1,6 +1,6 @@
 \header {
   copyrightYear = "2015"
-  composer = "Fraçois Pfeilsticker"
+  composer = "François Pfeilsticker"
 }
 
 #(ly:set-option 'ancient-style #f)

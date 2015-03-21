@@ -568,7 +568,25 @@ O Emmanuel")
                  (corno2 "Corno II")
                  (tromba1 "Tromba I")
                  (tromba2 "Tromba II")
-                 (timpani "Timpani")))))))
+                 (timpani "Timpani")))))
+     ;;;
+     ;;; Pfeilsticker/ConcertoFlageolet
+     ;;;
+     ("Pfeilsticker"
+      (("Concerto pour flageolet"
+        #:description ""
+        #:key "Pfeilsticker/ConcertoFlageolet"
+        #:url "http://nicolas.sceaux.free.fr/index.php?p="
+        #:main ((#f "Conducteur"))
+        #:parts ((flageolet "Flageolet" #:score-file "main")
+                 (hautbois1 "Hautbois I" #:score-file "main")
+                 (hautbois2 "Hautbois II" #:score-file "main")
+                 (cor1 "Cor I" #:score-file "main")
+                 (cor2 "Cor II" #:score-file "main")
+                 (violon1 "Violin I" #:score-file "main")
+                 (violon2 "Violin II" #:score-file "main")
+                 (alto "Alto" #:score-file "main")
+                 (basse "Basse" #:score-file "main")))))))
 
 #(export-makefile "Makefile" nenuvar-catalog)
 

@@ -2779,3 +2779,102 @@ Salieri/LesHoraces-all: \
 
 .PHONY: Salieri/LesHoraces-delivery Salieri/LesHoraces-clean Salieri/LesHoraces-all
 
+###
+### Pfeilsticker
+###
+### Concerto pour flageolet
+# Conducteur
+Pfeilsticker/ConcertoFlageolet:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/ConcertoFlageolet  \
+	Pfeilsticker/ConcertoFlageolet/main.ly
+.PHONY: Pfeilsticker/ConcertoFlageolet
+# Flageolet
+Pfeilsticker/ConcertoFlageolet-flageolet:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/ConcertoFlageolet-flageolet -dpart=flageolet  \
+	Pfeilsticker/ConcertoFlageolet/part.ly
+.PHONY: Pfeilsticker/ConcertoFlageolet-flageolet
+# Hautbois I
+Pfeilsticker/ConcertoFlageolet-hautbois1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/ConcertoFlageolet-hautbois1 -dpart=hautbois1  \
+	Pfeilsticker/ConcertoFlageolet/part.ly
+.PHONY: Pfeilsticker/ConcertoFlageolet-hautbois1
+# Hautbois II
+Pfeilsticker/ConcertoFlageolet-hautbois2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/ConcertoFlageolet-hautbois2 -dpart=hautbois2  \
+	Pfeilsticker/ConcertoFlageolet/part.ly
+.PHONY: Pfeilsticker/ConcertoFlageolet-hautbois2
+# Cor I
+Pfeilsticker/ConcertoFlageolet-cor1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/ConcertoFlageolet-cor1 -dpart=cor1  \
+	Pfeilsticker/ConcertoFlageolet/part.ly
+.PHONY: Pfeilsticker/ConcertoFlageolet-cor1
+# Cor II
+Pfeilsticker/ConcertoFlageolet-cor2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/ConcertoFlageolet-cor2 -dpart=cor2  \
+	Pfeilsticker/ConcertoFlageolet/part.ly
+.PHONY: Pfeilsticker/ConcertoFlageolet-cor2
+# Violin I
+Pfeilsticker/ConcertoFlageolet-violon1:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/ConcertoFlageolet-violon1 -dpart=violon1  \
+	Pfeilsticker/ConcertoFlageolet/part.ly
+.PHONY: Pfeilsticker/ConcertoFlageolet-violon1
+# Violin II
+Pfeilsticker/ConcertoFlageolet-violon2:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/ConcertoFlageolet-violon2 -dpart=violon2  \
+	Pfeilsticker/ConcertoFlageolet/part.ly
+.PHONY: Pfeilsticker/ConcertoFlageolet-violon2
+# Alto
+Pfeilsticker/ConcertoFlageolet-alto:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/ConcertoFlageolet-alto -dpart=alto  \
+	Pfeilsticker/ConcertoFlageolet/part.ly
+.PHONY: Pfeilsticker/ConcertoFlageolet-alto
+# Basse
+Pfeilsticker/ConcertoFlageolet-basse:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/ConcertoFlageolet-basse -dpart=basse  \
+	Pfeilsticker/ConcertoFlageolet/part.ly
+.PHONY: Pfeilsticker/ConcertoFlageolet-basse
+
+Pfeilsticker/ConcertoFlageolet-delivery:
+	@mkdir -p $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-flageolet.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet-flageolet.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-hautbois1.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet-hautbois1.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-hautbois2.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet-hautbois2.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-cor1.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet-cor1.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-cor2.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet-cor2.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-violon1.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet-violon1.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-violon2.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet-violon2.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-alto.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet-alto.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet-basse.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
+	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-1.midi ]; then tar zcf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet/ConcertoFlageolet-midi.tar.gz $(OUTPUT_DIR)/ConcertoFlageolet.midi $(OUTPUT_DIR)/ConcertoFlageolet-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/ConcertoFlageolet.midi ]; then cp $(OUTPUT_DIR)/ConcertoFlageolet.midi $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet/ ; fi
+	git archive --prefix=ConcertoFlageolet/ HEAD Pfeilsticker/ConcertoFlageolet common out templates Makefile README | gzip > $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet/ConcertoFlageolet.tar.gz
+
+Pfeilsticker/ConcertoFlageolet-clean:
+	@rm -f $(OUTPUT_DIR)/ConcertoFlageolet-* $(OUTPUT_DIR)/ConcertoFlageolet.*
+
+Pfeilsticker/ConcertoFlageolet-all: \
+	Pfeilsticker/ConcertoFlageolet \
+	Pfeilsticker/ConcertoFlageolet-flageolet \
+	Pfeilsticker/ConcertoFlageolet-hautbois1 \
+	Pfeilsticker/ConcertoFlageolet-hautbois2 \
+	Pfeilsticker/ConcertoFlageolet-cor1 \
+	Pfeilsticker/ConcertoFlageolet-cor2 \
+	Pfeilsticker/ConcertoFlageolet-violon1 \
+	Pfeilsticker/ConcertoFlageolet-violon2 \
+	Pfeilsticker/ConcertoFlageolet-alto \
+	Pfeilsticker/ConcertoFlageolet-basse\
+	Pfeilsticker/ConcertoFlageolet-delivery\
+	Pfeilsticker/ConcertoFlageolet-clean
+
+.PHONY: Pfeilsticker/ConcertoFlageolet-delivery Pfeilsticker/ConcertoFlageolet-clean Pfeilsticker/ConcertoFlageolet-all
+
