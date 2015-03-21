@@ -49,9 +49,9 @@ r8 fa'-.\p fa'-. fa'4 r8 |
 mi'4 r8 r4 fa'8 |
 mi'4 r8 r4 fa'8 |
 fa' fa' fa' \acciaccatura sol' fa'-. mi'-. re'-. |
-re'4.( dod'4) do''8 |
+re'4.( dod'4) do''!8 |
 \rt#3 fa''8\f \acciaccatura sol''8 fa''16( mi'' fa'' sol'' la'' fa'') |
-\rt#3 re''8 sol''16( fad'' mi'' re'' do'' sib') |
+\rt#3 re''8 sol''16( fa'' mi'' re'' do'' sib') |
 la'8.( sib'16 do''8) \acciaccatura do''8 sib'8 la' sol' |
 sol'4.( fa'4) r8 |
 r8 fa'-.\p fa'-. r sol'-. sol'-. |

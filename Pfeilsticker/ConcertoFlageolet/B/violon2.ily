@@ -23,7 +23,7 @@ re'\f <fad' la'> q q4\fermata %{%} r8 |
 re'-. fad'-. la' re'-. fad'-. la'-. |
 la4. mi' |
 la8 r4 r r8 |
-\acciaccatura re'' dod'' si' la' \acciaccatura mi' mi' re' dod' |
+\acciaccatura re'' dod'' si' la' \acciaccatura fad' mi' re' dod' |
 si4 dod'8 re'4 si'8 |
 \acciaccatura dod'' si' la' sold' re' dod' si |
 dod'4 re'8 mi'4 r8 |

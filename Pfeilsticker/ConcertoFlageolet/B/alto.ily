@@ -49,7 +49,7 @@ la4 r8 r4 la8 |
 re' sol' re' la dod' re' |
 la4. la4 r8 |
 la'16\f( do''! la' do'' la' do'') la'8 r4 |
-sib'16( sol' sib' sol' sib' sol') sib'8 r4 |
+sib'16( fa' sib' fa' sib' fa') sib'8 r4 |
 \rt#6 do'8 |
 \rt#3 do' do'4 r8 |
 re'4.(\p mi') |
