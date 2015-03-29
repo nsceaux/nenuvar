@@ -183,6 +183,11 @@
                (basename key) delivery-dir (basename key) (basename key) (basename key)
                (basename key) (basename key) delivery-dir
                (basename key) key delivery-dir (basename key))
+       ;; -backup rule, for source archive (used for non-public projects)
+       (format #t "~%~a-backup:
+	git archive --prefix=~a/ HEAD ~a | gzip > ~~/Google\\ Drive/backup/~a.tar.gz~%"
+               key
+               (basename key) key (basename key))
        ;; -clean rule
        (format #t "~%~a-clean:
 	@rm -f $(OUTPUT_DIR)/~a-* $(OUTPUT_DIR)/~a.*~%"
