@@ -275,6 +275,7 @@ smallNotes =
 sugNotes =
 #(define-music-function (parser location music) (ly:music?)
   #{
+  \override Rest.font-size = #-3
   \override NoteHead.font-size = #-3
   \override Flag.font-size = #-3
   \override Dots.font-size = #-3
@@ -285,6 +286,7 @@ sugNotes =
   \override Accidental.font-size = #-4
   \override AccidentalCautionary.font-size = #-4
   $music
+  \revert Rest.font-size
   \revert NoteHead.font-size
   \revert Flag.font-size
   \revert Dots.font-size

@@ -52,6 +52,7 @@ markUpBegin = {
   \once\override Score.RehearsalMark.direction = #UP
   \once\override Score.RehearsalMark.self-alignment-X = #LEFT
   \once\override Score.RehearsalMark.padding = #2
+  \once\override Score.RehearsalMark.font-size = #1
 }
 
 markDownBegin = {
@@ -60,6 +61,7 @@ markDownBegin = {
   \once\override Score.RehearsalMark.direction = #DOWN
   \once\override Score.RehearsalMark.self-alignment-X = #LEFT
   \once\override Score.RehearsalMark.padding = #2
+  \once\override Score.RehearsalMark.font-size = #1
 }
 
 markDownEnd = {
@@ -68,6 +70,7 @@ markDownEnd = {
   \once\override Score.RehearsalMark.direction = #DOWN
   \once\override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once\override Score.RehearsalMark.padding = #2
+  \once\override Score.RehearsalMark.font-size = #1
 }
 segnoMark = { 
   \once\override Score.RehearsalMark.break-visibility =
@@ -104,6 +107,7 @@ dacapoOverrides = {
   \once\override Score.RehearsalMark.direction = #DOWN
   \once\override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once\override Score.RehearsalMark.padding = #2
+  \once\override Score.RehearsalMark.font-size = #1
 }
 
 endMark =
@@ -112,7 +116,7 @@ endMark =
 
 endMarkSmall =
 #(define-music-function (parser location text) (markup?)
-   #{ \dacapoOverrides\mark\markup\right-align\italic\fontsize#-2 $text #})
+   #{ \dacapoOverrides\mark\markup\right-align\italic\fontsize#-1 $text #})
 
 beginMark =
 #(define-music-function (parser location text) (markup?)
@@ -120,7 +124,7 @@ beginMark =
 
 beginMarkSmall =
 #(define-music-function (parser location text) (markup?)
-   #{ \markUpBegin\mark\markup\italic\fontsize#-2 $text #})
+   #{ \markUpBegin\mark\markup\italic\fontsize#-1 $text #})
 
 beginMarkDown =
 #(define-music-function (parser location text) (markup?)
@@ -129,6 +133,7 @@ beginMarkDown =
 #end-of-line-invisible
 \once\override Score.RehearsalMark.direction = #DOWN
 \once\override Score.RehearsalMark.self-alignment-X = #LEFT
+\once\override Score.RehearsalMark.font-size = #1
 \mark\markup $text #})
 
 fineMark = {
