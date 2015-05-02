@@ -176,6 +176,16 @@ toplevel bookparts."
                           'page-marker #t
                           'page-label (string->symbol (or label name))))
    (add-text parser markp))
+
+#(define*-public (include-part-music parser
+                                     name
+                                     music
+                                     #:optional label)
+   (add-music parser
+              (make-music 'Music
+                          'page-marker #t
+                          'page-label (string->symbol (or label name))))
+   (add-music parser music))
    
 #(define*-public (include-part-score parser
                                     name
@@ -247,6 +257,7 @@ The keyword arguments give default values to be used when non-specified in `piec
         (instrument instrument)
         (music #f)
         (music2 #f)
+        (on-the-fly-music #f)
         (on-the-fly-markup #f))
     (if clef (*clef* clef)) ;; hack: set *clef* for silence scores
     (let parse-props ((props piece-spec))
@@ -266,6 +277,7 @@ The keyword arguments give default values to be used when non-specified in `piec
               ((#:score-template)
                (set! score (cadr props))
                (set! from-templates #t))
+              ((#:on-the-fly-music) (set! on-the-fly-music (cadr props)))
               ((#:on-the-fly-markup) (set! on-the-fly-markup (cadr props)))
               ((#:instrument) (set! instrument (cadr props)))
               ((#:music) (set! music (cadr props)))
@@ -284,7 +296,8 @@ The keyword arguments give default values to be used when non-specified in `piec
       (figures . ,figures)
       (music . ,music)
       (music2 . ,music2)
-      (on-the-fly-markup . ,on-the-fly-markup))))
+      (on-the-fly-markup . ,on-the-fly-markup)
+      (on-the-fly-music . ,on-the-fly-music))))
 
 piecePartSpecs =
 #(define-music-function (parser location piece-specs) (list?)
@@ -451,29 +464,36 @@ setOpus =
                                        (format #f "\\include \"~a\""
                                                (include-pathname "parts")))
                (let ((piece (*piece-description*)))
-                 ;; special case: if on-the-fly-markup is set,
-                 ;; just include the markup
-                 (if (assoc-ref piece 'on-the-fly-markup)
-                     (include-part-markup parser
-                                          name
-                                          (assoc-ref piece 'on-the-fly-markup)
-                                          label)
-                     (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
-                                    (*system-count* (assoc-ref piece 'system-count))
-                                    (*note-filename* (assoc-ref piece 'notes))
-                                    (*instrument-name* (assoc-ref piece 'instrument))
-                                    (*score-indent* (assoc-ref piece 'indent))
-                                    (*tag-global* (assoc-ref piece 'tag-global))
-                                    (*tag-notes* (assoc-ref piece 'tag-notes))
-                                    (*figures* (assoc-ref piece 'figures))
-                                    (*clef* (or (assoc-ref piece 'clef) (*clef*) "treble"))
-                                    (*score-extra-music* (assoc-ref piece 'music))
-                                    (*score-extra-music2* (assoc-ref piece 'music2)))
-                       (include-part-score parser
-                                           name
-                                           (assoc-ref piece 'score)
-                                           (assoc-ref piece 'from-templates)
-                                           label))))
+                 ;; special cases: if on-the-fly-markup or
+                 ;; on-the-fly-music are set,
+                 ;; just include the markup/music
+                 (cond ((assoc-ref piece 'on-the-fly-markup)
+                        (include-part-markup parser
+                                             name
+                                             (assoc-ref piece 'on-the-fly-markup)
+                                             label))
+                       ((assoc-ref piece 'on-the-fly-music)
+                        (include-part-music parser
+                                            name
+                                            (assoc-ref piece 'on-the-fly-music)
+                                            label))
+                       (else
+                        (parameterize ((*score-ragged* (assoc-ref piece 'ragged))
+                                       (*system-count* (assoc-ref piece 'system-count))
+                                       (*note-filename* (assoc-ref piece 'notes))
+                                       (*instrument-name* (assoc-ref piece 'instrument))
+                                       (*score-indent* (assoc-ref piece 'indent))
+                                       (*tag-global* (assoc-ref piece 'tag-global))
+                                       (*tag-notes* (assoc-ref piece 'tag-notes))
+                                       (*figures* (assoc-ref piece 'figures))
+                                       (*clef* (or (assoc-ref piece 'clef) (*clef*) "treble"))
+                                       (*score-extra-music* (assoc-ref piece 'music))
+                                       (*score-extra-music2* (assoc-ref piece 'music2)))
+                          (include-part-score parser
+                                              name
+                                              (assoc-ref piece 'score)
+                                              (assoc-ref piece 'from-templates)
+                                              label)))))
                (if allow-page-turn
                    (add-allow-page-turn parser)))
              ;; conductor score
