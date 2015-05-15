@@ -1,5 +1,5 @@
 \score {
-  \new Staff <<
+  \new Staff = "basse" <<
     \keepWithTag #(*tag-global*) \global
     \keepWithTag #(*tag-notes*) \includeNotes #(*note-filename*)
     \clef #(*clef*)

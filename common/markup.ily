@@ -468,6 +468,7 @@ startQuote =
 tinyQuote = {
   \override Score.StaffSymbol #'staff-space = #(magstep -3)
   \set Score . fontSize = #-3
+  \override BassFigure.font-size = #-1
 }
 
 quoteLayout = \layout {
