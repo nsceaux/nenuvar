@@ -49,7 +49,7 @@
   }
   \null
   \paragraph {
-    La matériel d'orchestre est constitué des parties
+    Le matériel d’orchestre est constitué des parties
     séparées suivantes : dessus (violons, flûtes, hautbois),
     hautes-contre, tailles, quintes, basses, basse continue.
   }
@@ -58,8 +58,8 @@
     Cette édition est distribuée selon les termes de la
     licence Creative Commons Attribution-ShareAlike 4.0.
     Il est donc permis,
-    et encouragé, de jouer cette partition, de la distribuer,
-    l'imprimer.  Il est par ailleurs possible de créer aisément des
+    et encouragé, de jouer cette partition, la distribuer,
+    l’imprimer.  Il est par ailleurs possible de créer aisément des
     variantes de ce matériel, par exemple pour changer la clé utilisée
     pour un instrument.  En outre, afin d'améliorer cette édition, il
     est encouragé de remonter les erreurs qui pourront être décelées,
