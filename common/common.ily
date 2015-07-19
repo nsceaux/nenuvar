@@ -15,6 +15,20 @@
                           (* (/ 15.0 20.0) mm)))
 }
 
+%% Font
+\paper {
+  #(define fonts (set-global-fonts
+                  #:music "scorlatti"
+                  #:factor (/ staff-height pt 20)))
+}
+\layout {
+  \context {
+    \FiguredBass
+    \override BassFigure.font-name = #"Cochin Bold" 
+    \override BassFigure.font-size = #2
+  }
+}
+
 \include "common/includes.ily"
 \include "common/clef-key.ily"
 \include "common/titling.ily"
