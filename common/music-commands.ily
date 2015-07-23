@@ -815,6 +815,6 @@ sug =
                    #(ly:music-property arg 'span-text) #})))
    arg)
 
-rmf = #(make-dynamic-script "rmf")
+rinf = #(make-dynamic-script #{\markup\normal-text\italic rinf #})
 
 \defineBarLine "|.|:" #'("|." ".|:" "|.| ")
