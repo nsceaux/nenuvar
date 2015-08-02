@@ -31,7 +31,7 @@
 
   ragged-bottom = ##f
   ragged-last-bottom = ##f
-
+%{
   %% Note: these are not scaled; they are in staff-spaces.
   top-markup-spacing    = #'((basic-distance . 0)  (padding . 1) (minimum-distance . 0))
   score-markup-spacing  = #'((basic-distance . 14) (padding . 1) (minimum-distance . 8))
@@ -42,6 +42,7 @@
   system-system-spacing = #'((basic-distance . 12) (padding . 1) (minimum-distance . 8))
   last-bottom-spacing   = #'((basic-distance . 1)  (padding . 1) (minimum-distance . 0) (stretchability . 5))
   score-system-spacing  = #'((basic-distance . 16) (padding . 1) (minimum-distance . 8))
+%}
 }
 
 \layout {
