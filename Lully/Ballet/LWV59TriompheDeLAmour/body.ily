@@ -212,26 +212,17 @@
 \includeScore "CHnuit"
 %% 3-9
 \pieceToc\markup\wordwrap {
-  Prelude pour le Mistere.
-  \italic { On ne peut trop cacher les secrets amoureux }
-}
-\includeScore "CImistere"
-%% 3-10
-\pieceToc\markup\wordwrap {
   Prelude pour la Nuit, le Mistere, et le Silence.
   \italic { Amans ne craignez rien, l’ombre vous sert d'asile }
 }
-\includeScore "CJnuitMistereSilence"
-
-%% 3-11
-\pieceToc "Prelude pour Diane"
-\includeScore "CKprelude"
-%% 3-12
+\includeScore "CInuitMistereSilence"
+%% 3-10
 \pieceToc\markup\wordwrap {
-  \smallCaps Diane :
+  Prelude pour Diane.
   \italic { Je ne puis plus braver l’Amour & sa puissance }
 }
-\includeScore "CLdiane"
+\includeScore "CJdiane"
+
 %% 3-13
 \pieceToc\markup\wordwrap {
   \smallCaps{ Diane, la Nuit : } \italic { Nuit charmante & paisible }
