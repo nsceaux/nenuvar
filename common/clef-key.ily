@@ -234,3 +234,62 @@ keys =
                                      'once #t
                                      'symbol 'InstrumentName)))))))
 
+%%%%%%%%%%%%%%%%
+%%% print the ancient clef and the modern clef (side by side)
+clefWithOriginal =
+#(define-music-function (parser location clef-name) (string?)
+   (let* ((match (string-match "^(.*)/(.*)$" clef-name))
+          (clefs (assoc (string->symbol clef-name) french-clefs))
+          (ancient-clef (cond (match (match:substring match 1))
+                              (clefs (symbol->string (cadr clefs)))
+                              (else clef-name)))
+          (modern-clef (cond (match (match:substring match 2))
+                             (clefs (symbol->string (cddr clefs)))
+                             (else clef-name))))
+     (if (eqv? #t (ly:get-option 'ancient-style))
+         ;; ancient clef only
+         (make-clef-set ancient-clef)
+         ;; ancient clef + modern clef
+         (let ((clef-def (assoc ancient-clef supported-clefs)))
+           (if (not (pair? clef-def))
+               (ly:error "~a is not a supported clef" ancient-clef))
+           (let ((glyph (cadr clef-def))
+                 (position (caddr clef-def)))
+             #{
+\set Staff.forceClef = ##t
+\once\override Staff.Clef.orig-glyph = #glyph
+\once\override Staff.Clef.orig-clef-position = #position
+\once\override Staff.Clef.stencil = #print-clef-with-original-clef
+\once\override Staff.Clef.full-size-change = ##t
+\once\override Staff.ClefModifier.X-offset =
+#clef-modifier-with-original-clef-x-offset
+$(make-clef-set modern-clef)
+     #})))))
+
+#(define (original-clef-stencil clef)
+   (ly:stencil-translate-axis
+    (parenthesize-stencil
+     (ly:font-get-glyph (ly:grob-default-font clef)
+                        (string-append (ly:grob-property clef 'orig-glyph)
+                                       "_change"))
+     0.05 0.25 0.5 0.2)
+    (/ (- (ly:grob-property clef 'orig-clef-position)
+          (ly:grob-property clef 'staff-position))
+       2.0)
+    Y))
+   
+#(define (print-clef-with-original-clef clef)
+   (ly:stencil-combine-at-edge
+    (original-clef-stencil clef)
+    X RIGHT
+    (ly:clef::print clef)
+    0.2))
+
+#(define (clef-modifier-with-original-clef-x-offset clef-modifier)
+   (+ (ly:self-alignment-interface::x-aligned-on-self clef-modifier)
+      (ly:self-alignment-interface::centered-on-x-parent clef-modifier)
+      0.1 ;; padding / 2
+      (* 0.5 (interval-length
+               (ly:stencil-extent
+                (original-clef-stencil (ly:grob-parent clef-modifier Y))
+                X)))))
