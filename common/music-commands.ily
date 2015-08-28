@@ -104,8 +104,15 @@ Then, use:
 %% Force clef printing, with full size
 forceFullClef = {
   \set Staff.forceClef = ##t
-  \override Staff.Clef #'full-size-change = ##t
+  \once\override Staff.Clef #'full-size-change = ##t
 }
+
+ffclef =
+#(define-music-function (parser location type) (string?)
+   #{ \set Staff.forceClef = ##t
+      \once\override Staff.Clef #'full-size-change = ##t
+           $(make-clef-set type) #})
+
 
 %% Print clef in full size
 fullClef = \override Staff.Clef #'full-size-change = ##t
