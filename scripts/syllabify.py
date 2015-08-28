@@ -80,6 +80,7 @@ class SignTokenizer():
        Can be overriden with ignored_markers constructor keyword
     """
     def __init__(self,
+                 language = "fr",
                  word_separators = " -",
                  word_separator_markers = "°",
                  simple_punctuations = ".,",
@@ -96,6 +97,7 @@ class SignTokenizer():
                                             word_separator_markers))
         self.simple_punctuations = simple_punctuations
         self.double_punctuations = double_punctuations
+        self.space_before_double_punctuations = (language == "fr")
         self.apostrophes = apostrophes
         self.forced_syllable_end_marker = forced_syllable_end_marker
         self.mute_character_marker = mute_character_marker
@@ -160,7 +162,7 @@ class SignTokenizer():
             # punctuation
             elif punctuation_match:
                 punct = punctuation_match.group(1)
-                if punct in self.double_punctuations:
+                if self.space_before_double_punctuations and punct in self.double_punctuations:
                     self._add_text("\u00A0")
                 self._add_text(punct)
                 i += len(punctuation_match.group(0))

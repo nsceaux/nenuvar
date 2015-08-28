@@ -65,8 +65,9 @@ class LilyLine():
         return self._text
 
 class Lilybretto():
-    def __init__(self):
+    def __init__(self, language):
         self._lines = []
+        self.language = language
 
     def add_line(self, line):
         self._lines.append(line)
@@ -74,17 +75,20 @@ class Lilybretto():
     def get_lines(self):
         return self._lines
 
-    def syllabify(self,
-                  sign_tokenizer = SignTokenizer(),
-                  syllable_tokenizer = SyllableTokenizerWithWordSeparation()):
+    def syllabify(self):
+        sign_tokenizer = SignTokenizer(language = self.language)
+        syllable_tokenizer = SyllableTokenizerWithWordSeparation()
         for line in self._lines:
             line.syllabify(sign_tokenizer, syllable_tokenizer)
 
 
 class RawLibrettoReader():
-    def read(self, filename):
-        file = open(filename, 'r')
-        libretto = Lilybretto()
+    def __init__(self, language="fr"):
+        self.language = language
+
+    def read(self, file):
+        #file = open(filename, 'r')
+        libretto = Lilybretto(self.language)
         verse_parts = []
         for line in file:
             verse_match = re.match(r"^%#(\S*) (.*)$", line)
@@ -119,9 +123,22 @@ class RawLibrettoReader():
         return libretto
 
 if __name__ == '__main__':
-    for filename in sys.argv[1:]:
-        reader = RawLibrettoReader()
-        libretto = reader.read(filename)
+    parser = argparse.ArgumentParser(
+        description='LilPond libretto generation.',
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument(
+        '--language',
+        default='fr',
+        help='verse language (fr, it)')
+    parser.add_argument(
+        'files', metavar='FILE',
+        type=argparse.FileType('r'),
+        nargs='+',
+        help='input files')
+    args = vars(parser.parse_args())
+    for file in args['files']:
+        reader = RawLibrettoReader(args['language'])
+        libretto = reader.read(file)
         libretto.syllabify()
         for line in libretto.get_lines():
             print(line.get_lily_text())
