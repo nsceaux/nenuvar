@@ -101,26 +101,26 @@
 %%%
 
 #(define-public (add-page-break parser)
-  (add-music parser 
+  (add-music
    (make-music 'Music
 	       'page-marker #t
 	       'line-break-permission 'force
 	       'page-break-permission 'force)))
 
 #(define-public (add-no-page-break parser)
-  (add-music parser 
+  (add-music
    (make-music 'Music
 	       'page-marker #t
 	       'page-break-permission 'forbid)))
 
 #(define-public (add-no-page-turn parser)
-  (add-music parser 
+  (add-music
    (make-music 'Music
 	       'page-marker #t
 	       'page-turn-permission 'forbid)))
 
 #(define-public (add-page-turn parser)
-  (add-music parser 
+  (add-music
    (make-music 'Music
 	       'page-marker #t
 	       'line-break-permission 'force
@@ -128,17 +128,17 @@
 	       'page-turn-permission 'force)))
 
 #(define-public (add-allow-page-turn parser)
-  (add-music parser 
+  (add-music
    (make-music 'Music
 	       'page-marker #t
 	       'line-break-permission 'force
 	       'page-turn-permission 'allow)))
 
 #(define-public (add-toplevel-markup parser text)
-  (add-text parser text))
+  (add-text text))
 
 #(define-public (add-toc-item parser markup-symbol text . rest)
-  (add-music parser
+  (add-music
    (apply add-toc-item! markup-symbol text rest)))
 
 %%%

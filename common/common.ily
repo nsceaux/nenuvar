@@ -1,10 +1,9 @@
-\version "2.17.16"
+\version "2.29.15"
 
 #(use-modules (srfi srfi-39))
 #(define-public *staff-size*
   (make-parameter (let ((module (ly:output-def-scope
-                                 (ly:parser-lookup (eval 'parser (current-module))
-                                                   '$defaultpaper))))
+                                 (ly:parser-lookup '$defaultpaper))))
                     (/ (module-ref module 'staff-height)
                        (eval 'pt module)))))
 

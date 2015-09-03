@@ -109,12 +109,12 @@ toplevel bookparts."
   (if (and (or (null? targets)
                (memq (*target*) targets)
                (and (*target-full*) (memq 'full targets)))
-           (pair? (ly:parser-lookup parser 'toplevel-scores)))
+           (pair? (ly:parser-lookup 'toplevel-scores)))
       (begin
-        (ly:parser-define! parser 'toplevel-bookparts
-          (cons (ly:make-book-part (ly:parser-lookup parser 'toplevel-scores))
-                (ly:parser-lookup parser 'toplevel-bookparts)))
-	(ly:parser-define! parser 'toplevel-scores (list))))
+        (ly:parser-define! 'toplevel-bookparts
+          (cons (ly:make-book-part (ly:parser-lookup 'toplevel-scores))
+                (ly:parser-lookup 'toplevel-bookparts)))
+	(ly:parser-define! 'toplevel-scores (list))))
    (make-music 'Music 'void #t))
 
 #(define *composer* (make-parameter ""))
@@ -138,13 +138,13 @@ toplevel bookparts."
       ".ily")))
 
 #(define*-public (include-score parser name #:optional label)
-   (add-music parser
+   (add-music
               (make-music 'Music
                           'page-marker #t
                           'page-label (string->symbol (or label name))))
    (parameterize ((*piece* name))
      (ly:parser-parse-string
-      (ly:parser-clone parser)
+      (ly:parser-clone)
       (format #f "\\include \"~a\""
               (include-pathname "score")))))
 
@@ -171,7 +171,7 @@ toplevel bookparts."
                                       name
                                       markp
                                       #:optional label)
-   (add-music parser
+   (add-music
               (make-music 'Music
                           'page-marker #t
                           'page-label (string->symbol (or label name))))
@@ -181,24 +181,24 @@ toplevel bookparts."
                                      name
                                      music
                                      #:optional label)
-   (add-music parser
+   (add-music
               (make-music 'Music
                           'page-marker #t
                           'page-label (string->symbol (or label name))))
-   (add-music parser music))
+   (add-music music))
    
 #(define*-public (include-part-score parser
                                     name
                                     score-filename
                                     from-templates
                                     #:optional label)
-   (add-music parser
+   (add-music
               (make-music 'Music
                           'page-marker #t
                           'page-label (string->symbol (or label name))))
    (parameterize ((*piece* name))
      (ly:parser-parse-string
-      (ly:parser-clone parser)
+      (ly:parser-clone)
       (format #f "\\include \"~a\""
               (if from-templates
                   (string-append "templates/" score-filename ".ily")
@@ -371,40 +371,40 @@ opusPartSpecs =
 
 global = 
 #(define-music-function (parser this-location) ()
-   (set! location #f)
+   (with-location #f
   (let* ((global-symbol
           (string->symbol (format "global~a~a" (*opus*) (*piece*))))
-         (global-music (ly:parser-lookup parser global-symbol)))
+         (global-music (ly:parser-lookup global-symbol)))
    (if (not (ly:music? global-music))
        (let* ((global-file (include-pathname "global")))
          (set! global-music
                #{ \notemode { \staffStart \include $global-file } #})
-         (ly:parser-define! parser global-symbol global-music)))
-   (ly:music-deep-copy global-music)))
+         (ly:parser-define! global-symbol global-music)))
+   (ly:music-deep-copy global-music))))
 
 includeNotes = 
 #(define-music-function (parser this-location pathname) (string?)
    ;; use locations from the included file,
    ;; and not from where \includeNotes is called
-   (set! location #f)
+   (with-location #f
   (let ((include-file (include-pathname pathname)))
-   #{ \notemode { \include $include-file } #}))
+   #{ \notemode { \include $include-file } #})))
 
 includeLyrics = 
 #(define-music-function (parser this-location pathname) (string?)
    ;; use locations from the included file,
    ;; and not from where \includeNotes is called
-   (set! location #f)
+   (with-location #f
   (let ((include-file (include-pathname pathname)))
-   #{ \lyricmode { \include $include-file } #}))
+   #{ \lyricmode { \include $include-file } #})))
 
 includeFigures = 
 #(define-music-function (parser this-location pathname) (string?)
    ;; use locations from the included file,
    ;; and not from where \includeNotes is called
-   (set! location #f)
+   (with-location #f
   (let ((include-file (include-pathname pathname)))
-     #{ \new FiguredBass \figuremode { \include $include-file } #}))
+     #{ \new FiguredBass \figuremode { \include $include-file } #})))
 
 setComposer =
 #(define-music-function (parser location name) (string?)
@@ -444,7 +444,6 @@ setOpus =
    (if (eqv? #t (ly:get-option 'non-score-print))
        (let ((label (string->symbol (or label name))))
          (add-music
-          parser
           (make-music 'EventChord
                       'elements (list (make-music
                                        'LabelEvent
@@ -460,7 +459,7 @@ setOpus =
                ;; the parts defined for this piece.
                ;; It should contain a call to \piecePartSpec
                ;; which sets *piece-description*
-               (ly:parser-parse-string (ly:parser-clone parser)
+               (ly:parser-parse-string (ly:parser-clone)
                                        (format #f "\\include \"~a\""
                                                (include-pathname "parts")))
                (let ((piece (*piece-description*)))
@@ -529,12 +528,12 @@ reIncludeScoreCond =
 %%%
 %%%
 %%%
-#(define (toplevel-score-handler parser score)
-    (cond ((ly:parser-lookup parser '$current-bookpart)
-           ((ly:parser-lookup parser 'bookpart-score-handler)
-            (ly:parser-lookup parser '$current-bookpart) score))
-          ((ly:parser-lookup parser '$current-book)
-           ((ly:parser-lookup parser 'book-score-handler)
-            (ly:parser-lookup parser '$current-book) score))
+#(define (toplevel-score-handler score)
+    (cond ((ly:parser-lookup '$current-bookpart)
+           ((ly:parser-lookup 'bookpart-score-handler)
+            (ly:parser-lookup '$current-bookpart) score))
+          ((ly:parser-lookup '$current-book)
+           ((ly:parser-lookup 'book-score-handler)
+            (ly:parser-lookup '$current-book) score))
           (else
-           (collect-scores-for-book parser score))))
+           (collect-scores-for-book score))))
