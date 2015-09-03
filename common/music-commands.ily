@@ -52,7 +52,7 @@ property of @var{arg}."
 
 setMusic =
 #(define-music-function (parser location sym music) (symbol? ly:music?)
-   (ly:parser-define! parser sym music)
+   (ly:parser-define! sym music)
    (make-music 'Music 'void #t))
 
 %%% Two voices construct

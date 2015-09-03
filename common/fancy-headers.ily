@@ -101,7 +101,7 @@
        (set! odd-label-header-table
              (cons (list label text display-1st)
                    odd-label-header-table))
-       (add-music parser
+       (add-music
          (make-music 'Music
           'page-marker #t
           'page-label label)))))
@@ -121,7 +121,7 @@
        (set! even-label-header-table
              (cons (list label text display-1st)
                    even-label-header-table))
-       (add-music parser
+       (add-music
          (make-music 'Music
            'page-marker #t
            'page-label label)))))
