@@ -175,7 +175,7 @@ toplevel bookparts."
               (make-music 'Music
                           'page-marker #t
                           'page-label (string->symbol (or label name))))
-   (add-text parser markp))
+   (add-text markp))
 
 #(define*-public (include-part-music parser
                                      name

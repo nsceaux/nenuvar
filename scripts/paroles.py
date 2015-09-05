@@ -7,7 +7,12 @@ class Lyricsifier():
     def read_and_write(self, file):
         #file = open(filename, 'r')
         sign_tokenizer = SignTokenizer(language=self.language)
-        syllable_tokenizer = SyllableTokenizerWithWordSeparation()
+        if self.language == 'fr':
+            syllable_tokenizer = SyllableTokenizerWithWordSeparation()
+        elif self.language == 'it':
+            syllable_tokenizer = SyllableTokenizerIt()
+        else:
+            syllable_tokenizer = SyllableTokenizer()
         for line in file:
             verse_match = re.match(r"^%#(\S*) (.*)$", line)
             if verse_match:

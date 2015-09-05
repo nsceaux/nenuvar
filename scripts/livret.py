@@ -77,7 +77,12 @@ class Lilybretto():
 
     def syllabify(self):
         sign_tokenizer = SignTokenizer(language = self.language)
-        syllable_tokenizer = SyllableTokenizerWithWordSeparation()
+        if self.language == 'fr':
+            syllable_tokenizer = SyllableTokenizerWithWordSeparation()
+        elif self.language == 'it':
+            syllable_tokenizer = SyllableTokenizerIt()
+        else:
+            syllable_tokenizer = SyllableTokenizer()
         for line in self._lines:
             line.syllabify(sign_tokenizer, syllable_tokenizer)
 

@@ -430,6 +430,17 @@ class SyllableTokenizer():
                 i += 1
         return self.get_syllables()
 
+class SyllableTokenizerIt(SyllableTokenizer):
+    def __init__(self):
+        super(SyllableTokenizerIt, self).__init__(
+                 e_vowels = "",
+                 other_vowels = "aàâäeëéèêœiìïîoôòuùûüy&",
+                 consonants_sonority_levels = { 'liquid' : "lrh",
+                                                'nasal' : "mn",
+                                                'constrictive' : "çfjvxz",
+                                                'occlusive' : "bcdgkpqts" }
+                 )
+        
 
 class SyllableTokenizerWithWordSeparation(SyllableTokenizer):
     """
@@ -496,7 +507,8 @@ class Verse():
         return [syll.get_text() for syll in self._syllables]
 
     def get_text(self):
-        return "".join([syll.get_text() for syll in self._syllables])
+        #return "".join([syll.get_text() for syll in self._syllables])
+        return self._text
 
     def syllabify(self,
               sign_tokenizer = SignTokenizer(),
@@ -506,7 +518,10 @@ class Verse():
             sign_tokenizer.tokenize(self._text))
 
     def get_metric(self):
-        return len(self._syllables) - (1 if self._syllables[-1].is_feminine() else 0)
+        if not self._syllables:
+            return 1
+        else:
+            return len(self._syllables) - (1 if self._syllables[-1].is_feminine() else 0)
 
     def hyphenate(self, hyphen = "-", add_space = False):
         syllables = []
