@@ -657,25 +657,25 @@ onlyNotesLayout = \layout {
 footnoteHere =
 #(define-music-function (parser this-location offset note)
      (number-pair? markup?)
-     (set! location #f)
-   #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
-       ^\markup\transparent\box "1" #})
+   (with-location #f
+     #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
+        ^\markup\transparent\box "1" #}))
 
 footnoteHereFull =
 #(define-music-function (parser this-location offset note)
      (number-pair? markup?)
-   (set! location #f)
-   (if (symbol? (ly:get-option 'part))
-       (make-music 'Music 'void #t)
-       #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
-          ^\markup\transparent\box "1" #}))
+   (with-location #f
+     (if (symbol? (ly:get-option 'part))
+         (make-music 'Music 'void #t)
+         #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
+            ^\markup\transparent\box "1" #})))
 
 footnoteHereNoSpace =
 #(define-music-function (parser this-location offset note)
      (number-pair? markup?)
-     (set! location #f)
-     #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
-        ^\markup\null #})
+     (with-location #f
+       #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
+          ^\markup\null #}))
 
 
 textSpanner =
