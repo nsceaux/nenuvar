@@ -255,15 +255,19 @@ clefWithOriginal =
           (modern-clef (cond (match (match:substring match 2))
                              (clefs (symbol->string (cddr clefs)))
                              (else clef-name))))
-     (if (symbol? (*part*))
-         ;; part: modern clef only
-         (make-clef-set modern-clef)
-         (let ((clef-def (assoc ancient-clef supported-clefs)))
-           (if (not (pair? clef-def))
-               (ly:error "~a is not a supported clef" ancient-clef))
-           (let ((glyph (cadr clef-def))
-                 (position (caddr clef-def)))
-             #{ \set Staff.forceClef = ##t
+     (cond ((symbol? (*part*))
+            ;; part: modern clef only
+            (make-clef-set modern-clef))
+           ((eqv? #t (ly:get-option 'ancient-style))
+            ;; ancient clef only
+            (make-clef-set ancient-clef))
+           (else
+            (let ((clef-def (assoc ancient-clef supported-clefs)))
+              (if (not (pair? clef-def))
+                  (ly:error "~a is not a supported clef" ancient-clef))
+              (let ((glyph (cadr clef-def))
+                    (position (caddr clef-def)))
+                #{ \set Staff.forceClef = ##t
 \once\override Staff.Clef.orig-glyph = #glyph
 \once\override Staff.Clef.orig-clef-position = #position
 \once\override Staff.Clef.stencil = #print-clef-with-original-clef
@@ -271,7 +275,7 @@ clefWithOriginal =
 \once\override Staff.ClefModifier.X-offset =
 #clef-modifier-with-original-clef-x-offset
 $(make-clef-set modern-clef)
-                    #})))))
+                        #}))))))
 
 #(define (original-clef-stencil clef)
    (ly:stencil-translate-axis
