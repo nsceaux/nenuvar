@@ -11,13 +11,22 @@
    (haute-contre "Hautes-contre" ()
                  (#:notes "haute-contre"
                   #:tag-notes haute-contre
-                  #:clef "alto"))
+                  #:clef ,(if (eqv? (ly:get-option 'part) 'haute-contre-sol)
+                              "treble"
+                              "alto")))
+   (haute-contre-sol "Hautes-contre" ((haute-contre #f))
+                     (#:notes "haute-contre"
+                              #:tag-notes haute-contre
+                              #:clef "treble"))
    (taille "Tailles" () (#:notes "taille" #:clef "alto"))
    (basse "Basses" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basse))
    (basse-continue "Basse continue" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basse-continue
                    #:score-template "score-basse-continue2")))
+
+#(if (eqv? (ly:get-option 'part) 'haute-contre-sol)
+     (set-modern-clef! 'haute-contre (modern-clef 'dessus)))
 
 %%\include "common/precipitations.ily"
 \setOpus "Charpentier/MusiqueSacree/H9_MesseMinuit"

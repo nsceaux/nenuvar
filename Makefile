@@ -29,6 +29,9 @@ Monteverdi/LamentoNinfa-delivery:
 	@if [ -e $(OUTPUT_DIR)/LamentoNinfa-1.midi ]; then tar zcf $(DELIVERY_DIR)/Monteverdi/LamentoNinfa/LamentoNinfa-midi.tar.gz $(OUTPUT_DIR)/LamentoNinfa.midi $(OUTPUT_DIR)/LamentoNinfa-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LamentoNinfa.midi ]; then cp $(OUTPUT_DIR)/LamentoNinfa.midi $(DELIVERY_DIR)/Monteverdi/LamentoNinfa/ ; fi
 	git archive --prefix=LamentoNinfa/ HEAD Monteverdi/LamentoNinfa common out templates Makefile README | gzip > $(DELIVERY_DIR)/Monteverdi/LamentoNinfa/LamentoNinfa.tar.gz
 
+Monteverdi/LamentoNinfa-backup:
+	git archive --prefix=LamentoNinfa/ HEAD Monteverdi/LamentoNinfa | gzip > ~/Google\ Drive/backup/LamentoNinfa.tar.gz
+
 Monteverdi/LamentoNinfa-clean:
 	@rm -f $(OUTPUT_DIR)/LamentoNinfa-* $(OUTPUT_DIR)/LamentoNinfa.*
 
@@ -98,6 +101,9 @@ Lully/Ballet/LWV05LaReventeDesHabits-delivery:
 	@if [ -e $(OUTPUT_DIR)/LWV05LaReventeDesHabits-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV05LaReventeDesHabits-basse.pdf $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits; fi
 	@if [ -e $(OUTPUT_DIR)/LWV05LaReventeDesHabits-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits/LWV05LaReventeDesHabits-midi.tar.gz $(OUTPUT_DIR)/LWV05LaReventeDesHabits.midi $(OUTPUT_DIR)/LWV05LaReventeDesHabits-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV05LaReventeDesHabits.midi ]; then cp $(OUTPUT_DIR)/LWV05LaReventeDesHabits.midi $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits/ ; fi
 	git archive --prefix=LWV05LaReventeDesHabits/ HEAD Lully/Ballet/LWV05LaReventeDesHabits common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV05LaReventeDesHabits/LWV05LaReventeDesHabits.tar.gz
+
+Lully/Ballet/LWV05LaReventeDesHabits-backup:
+	git archive --prefix=LWV05LaReventeDesHabits/ HEAD Lully/Ballet/LWV05LaReventeDesHabits | gzip > ~/Google\ Drive/backup/LWV05LaReventeDesHabits.tar.gz
 
 Lully/Ballet/LWV05LaReventeDesHabits-clean:
 	@rm -f $(OUTPUT_DIR)/LWV05LaReventeDesHabits-* $(OUTPUT_DIR)/LWV05LaReventeDesHabits.*
@@ -171,6 +177,9 @@ Lully/Ballet/LWV08AmourMalade-delivery:
 	@if [ -e $(OUTPUT_DIR)/LWV08AmourMalade-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV08AmourMalade/LWV08AmourMalade-midi.tar.gz $(OUTPUT_DIR)/LWV08AmourMalade.midi $(OUTPUT_DIR)/LWV08AmourMalade-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV08AmourMalade.midi ]; then cp $(OUTPUT_DIR)/LWV08AmourMalade.midi $(DELIVERY_DIR)/Lully/LWV08AmourMalade/ ; fi
 	git archive --prefix=LWV08AmourMalade/ HEAD Lully/Ballet/LWV08AmourMalade common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV08AmourMalade/LWV08AmourMalade.tar.gz
 
+Lully/Ballet/LWV08AmourMalade-backup:
+	git archive --prefix=LWV08AmourMalade/ HEAD Lully/Ballet/LWV08AmourMalade | gzip > ~/Google\ Drive/backup/LWV08AmourMalade.tar.gz
+
 Lully/Ballet/LWV08AmourMalade-clean:
 	@rm -f $(OUTPUT_DIR)/LWV08AmourMalade-* $(OUTPUT_DIR)/LWV08AmourMalade.*
 
@@ -200,6 +209,9 @@ Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee-delivery:
 	@if [ -e $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee.pdf $(DELIVERY_DIR)/Lully/LWV22LesPlaisirsDeLIleEnchantee; fi
 	@if [ -e $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV22LesPlaisirsDeLIleEnchantee/LWV22LesPlaisirsDeLIleEnchantee-midi.tar.gz $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee.midi $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee.midi ]; then cp $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee.midi $(DELIVERY_DIR)/Lully/LWV22LesPlaisirsDeLIleEnchantee/ ; fi
 	git archive --prefix=LWV22LesPlaisirsDeLIleEnchantee/ HEAD Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV22LesPlaisirsDeLIleEnchantee/LWV22LesPlaisirsDeLIleEnchantee.tar.gz
+
+Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee-backup:
+	git archive --prefix=LWV22LesPlaisirsDeLIleEnchantee/ HEAD Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee | gzip > ~/Google\ Drive/backup/LWV22LesPlaisirsDeLIleEnchantee.tar.gz
 
 Lully/Ballet/LWV22LesPlaisirsDeLIleEnchantee-clean:
 	@rm -f $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee-* $(OUTPUT_DIR)/LWV22LesPlaisirsDeLIleEnchantee.*
@@ -266,6 +278,9 @@ Lully/Comedie/LWV43LeBourgeoisGentilhomme-delivery:
 	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-basse.pdf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme; fi
 	@if [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme/LWV43LeBourgeoisGentilhomme-midi.tar.gz $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme.midi $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme.midi ]; then cp $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme.midi $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme/ ; fi
 	git archive --prefix=LWV43LeBourgeoisGentilhomme/ HEAD Lully/Comedie/LWV43LeBourgeoisGentilhomme common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV43LeBourgeoisGentilhomme/LWV43LeBourgeoisGentilhomme.tar.gz
+
+Lully/Comedie/LWV43LeBourgeoisGentilhomme-backup:
+	git archive --prefix=LWV43LeBourgeoisGentilhomme/ HEAD Lully/Comedie/LWV43LeBourgeoisGentilhomme | gzip > ~/Google\ Drive/backup/LWV43LeBourgeoisGentilhomme.tar.gz
 
 Lully/Comedie/LWV43LeBourgeoisGentilhomme-clean:
 	@rm -f $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme-* $(OUTPUT_DIR)/LWV43LeBourgeoisGentilhomme.*
@@ -345,6 +360,9 @@ Lully/Opera/LWV53Atys-delivery:
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV53Atys-basse-continue.pdf $(DELIVERY_DIR)/Lully/LWV53Atys; fi
 	@if [ -e $(OUTPUT_DIR)/LWV53Atys-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV53Atys/LWV53Atys-midi.tar.gz $(OUTPUT_DIR)/LWV53Atys.midi $(OUTPUT_DIR)/LWV53Atys-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV53Atys.midi ]; then cp $(OUTPUT_DIR)/LWV53Atys.midi $(DELIVERY_DIR)/Lully/LWV53Atys/ ; fi
 	git archive --prefix=LWV53Atys/ HEAD Lully/Opera/LWV53Atys common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV53Atys/LWV53Atys.tar.gz
+
+Lully/Opera/LWV53Atys-backup:
+	git archive --prefix=LWV53Atys/ HEAD Lully/Opera/LWV53Atys | gzip > ~/Google\ Drive/backup/LWV53Atys.tar.gz
 
 Lully/Opera/LWV53Atys-clean:
 	@rm -f $(OUTPUT_DIR)/LWV53Atys-* $(OUTPUT_DIR)/LWV53Atys.*
@@ -461,6 +479,9 @@ Lully/Opera/LWV56Psyche-delivery:
 	@if [ -e $(OUTPUT_DIR)/LWV56Psyche-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV56Psyche/LWV56Psyche-midi.tar.gz $(OUTPUT_DIR)/LWV56Psyche.midi $(OUTPUT_DIR)/LWV56Psyche-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV56Psyche.midi ]; then cp $(OUTPUT_DIR)/LWV56Psyche.midi $(DELIVERY_DIR)/Lully/LWV56Psyche/ ; fi
 	git archive --prefix=LWV56Psyche/ HEAD Lully/Opera/LWV56Psyche common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV56Psyche/LWV56Psyche.tar.gz
 
+Lully/Opera/LWV56Psyche-backup:
+	git archive --prefix=LWV56Psyche/ HEAD Lully/Opera/LWV56Psyche | gzip > ~/Google\ Drive/backup/LWV56Psyche.tar.gz
+
 Lully/Opera/LWV56Psyche-clean:
 	@rm -f $(OUTPUT_DIR)/LWV56Psyche-* $(OUTPUT_DIR)/LWV56Psyche.*
 
@@ -538,6 +559,9 @@ Lully/Ballet/LWV59TriompheDeLAmour-delivery:
 	@if [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV59TriompheDeLAmour-basse-continue.pdf $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour; fi
 	@if [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour/LWV59TriompheDeLAmour-midi.tar.gz $(OUTPUT_DIR)/LWV59TriompheDeLAmour.midi $(OUTPUT_DIR)/LWV59TriompheDeLAmour-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV59TriompheDeLAmour.midi ]; then cp $(OUTPUT_DIR)/LWV59TriompheDeLAmour.midi $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour/ ; fi
 	git archive --prefix=LWV59TriompheDeLAmour/ HEAD Lully/Ballet/LWV59TriompheDeLAmour common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV59TriompheDeLAmour/LWV59TriompheDeLAmour.tar.gz
+
+Lully/Ballet/LWV59TriompheDeLAmour-backup:
+	git archive --prefix=LWV59TriompheDeLAmour/ HEAD Lully/Ballet/LWV59TriompheDeLAmour | gzip > ~/Google\ Drive/backup/LWV59TriompheDeLAmour.tar.gz
 
 Lully/Ballet/LWV59TriompheDeLAmour-clean:
 	@rm -f $(OUTPUT_DIR)/LWV59TriompheDeLAmour-* $(OUTPUT_DIR)/LWV59TriompheDeLAmour.*
@@ -618,6 +642,9 @@ Lully/Opera/LWV61Phaeton-delivery:
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV61Phaeton/LWV61Phaeton-midi.tar.gz $(OUTPUT_DIR)/LWV61Phaeton.midi $(OUTPUT_DIR)/LWV61Phaeton-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV61Phaeton.midi ]; then cp $(OUTPUT_DIR)/LWV61Phaeton.midi $(DELIVERY_DIR)/Lully/LWV61Phaeton/ ; fi
 	git archive --prefix=LWV61Phaeton/ HEAD Lully/Opera/LWV61Phaeton common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV61Phaeton/LWV61Phaeton.tar.gz
 
+Lully/Opera/LWV61Phaeton-backup:
+	git archive --prefix=LWV61Phaeton/ HEAD Lully/Opera/LWV61Phaeton | gzip > ~/Google\ Drive/backup/LWV61Phaeton.tar.gz
+
 Lully/Opera/LWV61Phaeton-clean:
 	@rm -f $(OUTPUT_DIR)/LWV61Phaeton-* $(OUTPUT_DIR)/LWV61Phaeton.*
 
@@ -690,6 +717,9 @@ Lully/Opera/LWV71Armide-delivery:
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV71Armide-basse-continue.pdf $(DELIVERY_DIR)/Lully/LWV71Armide; fi
 	@if [ -e $(OUTPUT_DIR)/LWV71Armide-1.midi ]; then tar zcf $(DELIVERY_DIR)/Lully/LWV71Armide/LWV71Armide-midi.tar.gz $(OUTPUT_DIR)/LWV71Armide.midi $(OUTPUT_DIR)/LWV71Armide-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LWV71Armide.midi ]; then cp $(OUTPUT_DIR)/LWV71Armide.midi $(DELIVERY_DIR)/Lully/LWV71Armide/ ; fi
 	git archive --prefix=LWV71Armide/ HEAD Lully/Opera/LWV71Armide common out templates Makefile README | gzip > $(DELIVERY_DIR)/Lully/LWV71Armide/LWV71Armide.tar.gz
+
+Lully/Opera/LWV71Armide-backup:
+	git archive --prefix=LWV71Armide/ HEAD Lully/Opera/LWV71Armide | gzip > ~/Google\ Drive/backup/LWV71Armide.tar.gz
 
 Lully/Opera/LWV71Armide-clean:
 	@rm -f $(OUTPUT_DIR)/LWV71Armide-* $(OUTPUT_DIR)/LWV71Armide.*
@@ -773,6 +803,9 @@ Charpentier/Opera/DavidEtJonathas-delivery:
 	@if [ -e $(OUTPUT_DIR)/DavidEtJonathas-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/DavidEtJonathas/DavidEtJonathas-midi.tar.gz $(OUTPUT_DIR)/DavidEtJonathas.midi $(OUTPUT_DIR)/DavidEtJonathas-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/DavidEtJonathas.midi ]; then cp $(OUTPUT_DIR)/DavidEtJonathas.midi $(DELIVERY_DIR)/Charpentier/DavidEtJonathas/ ; fi
 	git archive --prefix=DavidEtJonathas/ HEAD Charpentier/Opera/DavidEtJonathas common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/DavidEtJonathas/DavidEtJonathas.tar.gz
 
+Charpentier/Opera/DavidEtJonathas-backup:
+	git archive --prefix=DavidEtJonathas/ HEAD Charpentier/Opera/DavidEtJonathas | gzip > ~/Google\ Drive/backup/DavidEtJonathas.tar.gz
+
 Charpentier/Opera/DavidEtJonathas-clean:
 	@rm -f $(OUTPUT_DIR)/DavidEtJonathas-* $(OUTPUT_DIR)/DavidEtJonathas.*
 
@@ -817,6 +850,9 @@ Charpentier/MusiqueSacree/H13_Victimae-delivery:
 	@if [ -e $(OUTPUT_DIR)/H13_Victimae-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/H13_Victimae-basse-continue.pdf $(DELIVERY_DIR)/Charpentier/H13_Victimae; fi
 	@if [ -e $(OUTPUT_DIR)/H13_Victimae-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H13_Victimae/H13_Victimae-midi.tar.gz $(OUTPUT_DIR)/H13_Victimae.midi $(OUTPUT_DIR)/H13_Victimae-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H13_Victimae.midi ]; then cp $(OUTPUT_DIR)/H13_Victimae.midi $(DELIVERY_DIR)/Charpentier/H13_Victimae/ ; fi
 	git archive --prefix=H13_Victimae/ HEAD Charpentier/MusiqueSacree/H13_Victimae common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H13_Victimae/H13_Victimae.tar.gz
+
+Charpentier/MusiqueSacree/H13_Victimae-backup:
+	git archive --prefix=H13_Victimae/ HEAD Charpentier/MusiqueSacree/H13_Victimae | gzip > ~/Google\ Drive/backup/H13_Victimae.tar.gz
 
 Charpentier/MusiqueSacree/H13_Victimae-clean:
 	@rm -f $(OUTPUT_DIR)/H13_Victimae-* $(OUTPUT_DIR)/H13_Victimae.*
@@ -907,6 +943,9 @@ Charpentier/MusiqueSacree/H36_43_O-delivery:
 	@if [ -e $(OUTPUT_DIR)/H36_43_O-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H36_43_O/H36_43_O-midi.tar.gz $(OUTPUT_DIR)/H36_43_O.midi $(OUTPUT_DIR)/H36_43_O-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H36_43_O.midi ]; then cp $(OUTPUT_DIR)/H36_43_O.midi $(DELIVERY_DIR)/Charpentier/H36_43_O/ ; fi
 	git archive --prefix=H36_43_O/ HEAD Charpentier/MusiqueSacree/H36_43_O common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H36_43_O/H36_43_O.tar.gz
 
+Charpentier/MusiqueSacree/H36_43_O-backup:
+	git archive --prefix=H36_43_O/ HEAD Charpentier/MusiqueSacree/H36_43_O | gzip > ~/Google\ Drive/backup/H36_43_O.tar.gz
+
 Charpentier/MusiqueSacree/H36_43_O-clean:
 	@rm -f $(OUTPUT_DIR)/H36_43_O-* $(OUTPUT_DIR)/H36_43_O.*
 
@@ -974,6 +1013,9 @@ Charpentier/MusiqueSacree/H314_InNativitatem-delivery:
 	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H314_InNativitatem-basse.pdf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem; fi
 	@if [ -e $(OUTPUT_DIR)/H314_InNativitatem-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H314_InNativitatem/H314_InNativitatem-midi.tar.gz $(OUTPUT_DIR)/H314_InNativitatem.midi $(OUTPUT_DIR)/H314_InNativitatem-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H314_InNativitatem.midi ]; then cp $(OUTPUT_DIR)/H314_InNativitatem.midi $(DELIVERY_DIR)/Charpentier/H314_InNativitatem/ ; fi
 	git archive --prefix=H314_InNativitatem/ HEAD Charpentier/MusiqueSacree/H314_InNativitatem common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H314_InNativitatem/H314_InNativitatem.tar.gz
+
+Charpentier/MusiqueSacree/H314_InNativitatem-backup:
+	git archive --prefix=H314_InNativitatem/ HEAD Charpentier/MusiqueSacree/H314_InNativitatem | gzip > ~/Google\ Drive/backup/H314_InNativitatem.tar.gz
 
 Charpentier/MusiqueSacree/H314_InNativitatem-clean:
 	@rm -f $(OUTPUT_DIR)/H314_InNativitatem-* $(OUTPUT_DIR)/H314_InNativitatem.*
@@ -1066,6 +1108,9 @@ Charpentier/MusiqueSacree/H531_Noels-delivery:
 	@if [ -e $(OUTPUT_DIR)/H531_Noels-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H531_Noels-basse.pdf $(DELIVERY_DIR)/Charpentier/H531_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H531_Noels-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H531_Noels/H531_Noels-midi.tar.gz $(OUTPUT_DIR)/H531_Noels.midi $(OUTPUT_DIR)/H531_Noels-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H531_Noels.midi ]; then cp $(OUTPUT_DIR)/H531_Noels.midi $(DELIVERY_DIR)/Charpentier/H531_Noels/ ; fi
 	git archive --prefix=H531_Noels/ HEAD Charpentier/MusiqueSacree/H531_Noels common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H531_Noels/H531_Noels.tar.gz
+
+Charpentier/MusiqueSacree/H531_Noels-backup:
+	git archive --prefix=H531_Noels/ HEAD Charpentier/MusiqueSacree/H531_Noels | gzip > ~/Google\ Drive/backup/H531_Noels.tar.gz
 
 Charpentier/MusiqueSacree/H531_Noels-clean:
 	@rm -f $(OUTPUT_DIR)/H531_Noels-* $(OUTPUT_DIR)/H531_Noels.*
@@ -1162,6 +1207,9 @@ Charpentier/MusiqueSacree/H534_Noels-delivery:
 	@if [ -e $(OUTPUT_DIR)/H534_Noels-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H534_Noels-basse.pdf $(DELIVERY_DIR)/Charpentier/H534_Noels; fi
 	@if [ -e $(OUTPUT_DIR)/H534_Noels-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H534_Noels/H534_Noels-midi.tar.gz $(OUTPUT_DIR)/H534_Noels.midi $(OUTPUT_DIR)/H534_Noels-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H534_Noels.midi ]; then cp $(OUTPUT_DIR)/H534_Noels.midi $(DELIVERY_DIR)/Charpentier/H534_Noels/ ; fi
 	git archive --prefix=H534_Noels/ HEAD Charpentier/MusiqueSacree/H534_Noels common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H534_Noels/H534_Noels.tar.gz
+
+Charpentier/MusiqueSacree/H534_Noels-backup:
+	git archive --prefix=H534_Noels/ HEAD Charpentier/MusiqueSacree/H534_Noels | gzip > ~/Google\ Drive/backup/H534_Noels.tar.gz
 
 Charpentier/MusiqueSacree/H534_Noels-clean:
 	@rm -f $(OUTPUT_DIR)/H534_Noels-* $(OUTPUT_DIR)/H534_Noels.*
@@ -1266,6 +1314,9 @@ Charpentier/MusiqueSacree/AntiennesNoels-delivery:
 	@if [ -e $(OUTPUT_DIR)/AntiennesNoels-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/AntiennesNoels/AntiennesNoels-midi.tar.gz $(OUTPUT_DIR)/AntiennesNoels.midi $(OUTPUT_DIR)/AntiennesNoels-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/AntiennesNoels.midi ]; then cp $(OUTPUT_DIR)/AntiennesNoels.midi $(DELIVERY_DIR)/Charpentier/AntiennesNoels/ ; fi
 	git archive --prefix=AntiennesNoels/ HEAD Charpentier/MusiqueSacree/AntiennesNoels common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/AntiennesNoels/AntiennesNoels.tar.gz
 
+Charpentier/MusiqueSacree/AntiennesNoels-backup:
+	git archive --prefix=AntiennesNoels/ HEAD Charpentier/MusiqueSacree/AntiennesNoels | gzip > ~/Google\ Drive/backup/AntiennesNoels.tar.gz
+
 Charpentier/MusiqueSacree/AntiennesNoels-clean:
 	@rm -f $(OUTPUT_DIR)/AntiennesNoels-* $(OUTPUT_DIR)/AntiennesNoels.*
 
@@ -1317,6 +1368,12 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-haute-contre:
 	-o $(OUTPUT_DIR)/H9_MesseMinuit-haute-contre -dpart=haute-contre  \
 	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
 .PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-haute-contre
+# Hautes-contre
+Charpentier/MusiqueSacree/H9_MesseMinuit-haute-contre-sol:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H9_MesseMinuit-haute-contre-sol -dpart=haute-contre-sol  \
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
+.PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-haute-contre-sol
 # Tailles
 Charpentier/MusiqueSacree/H9_MesseMinuit-taille:
 	$(LILYPOND_CMD) \
@@ -1373,6 +1430,7 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-delivery:
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-precipitations.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-precipitations.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-dessus.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
+	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-haute-contre-sol.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-haute-contre-sol.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-taille.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-basse.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-basse-continue.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
@@ -1384,6 +1442,9 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-delivery:
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit/H9_MesseMinuit-midi.tar.gz $(OUTPUT_DIR)/H9_MesseMinuit.midi $(OUTPUT_DIR)/H9_MesseMinuit-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H9_MesseMinuit.midi ]; then cp $(OUTPUT_DIR)/H9_MesseMinuit.midi $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit/ ; fi
 	git archive --prefix=H9_MesseMinuit/ HEAD Charpentier/MusiqueSacree/H9_MesseMinuit common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit/H9_MesseMinuit.tar.gz
 
+Charpentier/MusiqueSacree/H9_MesseMinuit-backup:
+	git archive --prefix=H9_MesseMinuit/ HEAD Charpentier/MusiqueSacree/H9_MesseMinuit | gzip > ~/Google\ Drive/backup/H9_MesseMinuit.tar.gz
+
 Charpentier/MusiqueSacree/H9_MesseMinuit-clean:
 	@rm -f $(OUTPUT_DIR)/H9_MesseMinuit-* $(OUTPUT_DIR)/H9_MesseMinuit.*
 
@@ -1393,6 +1454,7 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-all: \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-dessus \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-haute-contre \
+	Charpentier/MusiqueSacree/H9_MesseMinuit-haute-contre-sol \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-taille \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-basse \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-basse-continue \
@@ -1447,6 +1509,9 @@ Charpentier/MusiqueSacree/H73_Magnificat-delivery:
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H73_Magnificat-basse.pdf $(DELIVERY_DIR)/Charpentier/H73_Magnificat; fi
 	@if [ -e $(OUTPUT_DIR)/H73_Magnificat-1.midi ]; then tar zcf $(DELIVERY_DIR)/Charpentier/H73_Magnificat/H73_Magnificat-midi.tar.gz $(OUTPUT_DIR)/H73_Magnificat.midi $(OUTPUT_DIR)/H73_Magnificat-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/H73_Magnificat.midi ]; then cp $(OUTPUT_DIR)/H73_Magnificat.midi $(DELIVERY_DIR)/Charpentier/H73_Magnificat/ ; fi
 	git archive --prefix=H73_Magnificat/ HEAD Charpentier/MusiqueSacree/H73_Magnificat common out templates Makefile README | gzip > $(DELIVERY_DIR)/Charpentier/H73_Magnificat/H73_Magnificat.tar.gz
+
+Charpentier/MusiqueSacree/H73_Magnificat-backup:
+	git archive --prefix=H73_Magnificat/ HEAD Charpentier/MusiqueSacree/H73_Magnificat | gzip > ~/Google\ Drive/backup/H73_Magnificat.tar.gz
 
 Charpentier/MusiqueSacree/H73_Magnificat-clean:
 	@rm -f $(OUTPUT_DIR)/H73_Magnificat-* $(OUTPUT_DIR)/H73_Magnificat.*
@@ -1514,6 +1579,9 @@ Destouches/Semiramis-delivery:
 	@if [ -e $(OUTPUT_DIR)/Semiramis-1.midi ]; then tar zcf $(DELIVERY_DIR)/Destouches/Semiramis/Semiramis-midi.tar.gz $(OUTPUT_DIR)/Semiramis.midi $(OUTPUT_DIR)/Semiramis-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/Semiramis.midi ]; then cp $(OUTPUT_DIR)/Semiramis.midi $(DELIVERY_DIR)/Destouches/Semiramis/ ; fi
 	git archive --prefix=Semiramis/ HEAD Destouches/Semiramis common out templates Makefile README | gzip > $(DELIVERY_DIR)/Destouches/Semiramis/Semiramis.tar.gz
 
+Destouches/Semiramis-backup:
+	git archive --prefix=Semiramis/ HEAD Destouches/Semiramis | gzip > ~/Google\ Drive/backup/Semiramis.tar.gz
+
 Destouches/Semiramis-clean:
 	@rm -f $(OUTPUT_DIR)/Semiramis-* $(OUTPUT_DIR)/Semiramis.*
 
@@ -1546,6 +1614,9 @@ Couperin/Motets-delivery:
 	@if [ -e $(OUTPUT_DIR)/Motets-1.midi ]; then tar zcf $(DELIVERY_DIR)/Couperin/Motets/Motets-midi.tar.gz $(OUTPUT_DIR)/Motets.midi $(OUTPUT_DIR)/Motets-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/Motets.midi ]; then cp $(OUTPUT_DIR)/Motets.midi $(DELIVERY_DIR)/Couperin/Motets/ ; fi
 	git archive --prefix=Motets/ HEAD Couperin/Motets common out templates Makefile README | gzip > $(DELIVERY_DIR)/Couperin/Motets/Motets.tar.gz
 
+Couperin/Motets-backup:
+	git archive --prefix=Motets/ HEAD Couperin/Motets | gzip > ~/Google\ Drive/backup/Motets.tar.gz
+
 Couperin/Motets-clean:
 	@rm -f $(OUTPUT_DIR)/Motets-* $(OUTPUT_DIR)/Motets.*
 
@@ -1569,6 +1640,9 @@ Couperin/Orgue/MesseCouvents-delivery:
 	@if [ -e $(OUTPUT_DIR)/MesseCouvents.pdf ]; then mv -fv $(OUTPUT_DIR)/MesseCouvents.pdf $(DELIVERY_DIR)/Couperin/MesseCouvents; fi
 	@if [ -e $(OUTPUT_DIR)/MesseCouvents-1.midi ]; then tar zcf $(DELIVERY_DIR)/Couperin/MesseCouvents/MesseCouvents-midi.tar.gz $(OUTPUT_DIR)/MesseCouvents.midi $(OUTPUT_DIR)/MesseCouvents-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/MesseCouvents.midi ]; then cp $(OUTPUT_DIR)/MesseCouvents.midi $(DELIVERY_DIR)/Couperin/MesseCouvents/ ; fi
 	git archive --prefix=MesseCouvents/ HEAD Couperin/Orgue/MesseCouvents common out templates Makefile README | gzip > $(DELIVERY_DIR)/Couperin/MesseCouvents/MesseCouvents.tar.gz
+
+Couperin/Orgue/MesseCouvents-backup:
+	git archive --prefix=MesseCouvents/ HEAD Couperin/Orgue/MesseCouvents | gzip > ~/Google\ Drive/backup/MesseCouvents.tar.gz
 
 Couperin/Orgue/MesseCouvents-clean:
 	@rm -f $(OUTPUT_DIR)/MesseCouvents-* $(OUTPUT_DIR)/MesseCouvents.*
@@ -1600,6 +1674,9 @@ Couperin/Nations-delivery:
 	@if [ -e $(OUTPUT_DIR)/Nations-clavier2.pdf ]; then mv -fv $(OUTPUT_DIR)/Nations-clavier2.pdf $(DELIVERY_DIR)/Couperin/Nations; fi
 	@if [ -e $(OUTPUT_DIR)/Nations-1.midi ]; then tar zcf $(DELIVERY_DIR)/Couperin/Nations/Nations-midi.tar.gz $(OUTPUT_DIR)/Nations.midi $(OUTPUT_DIR)/Nations-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/Nations.midi ]; then cp $(OUTPUT_DIR)/Nations.midi $(DELIVERY_DIR)/Couperin/Nations/ ; fi
 	git archive --prefix=Nations/ HEAD Couperin/Nations common out templates Makefile README | gzip > $(DELIVERY_DIR)/Couperin/Nations/Nations.tar.gz
+
+Couperin/Nations-backup:
+	git archive --prefix=Nations/ HEAD Couperin/Nations | gzip > ~/Google\ Drive/backup/Nations.tar.gz
 
 Couperin/Nations-clean:
 	@rm -f $(OUTPUT_DIR)/Nations-* $(OUTPUT_DIR)/Nations.*
@@ -1654,6 +1731,9 @@ Couperin/SonatesEnTrio-delivery:
 	@if [ -e $(OUTPUT_DIR)/SonatesEnTrio-1.midi ]; then tar zcf $(DELIVERY_DIR)/Couperin/SonatesEnTrio/SonatesEnTrio-midi.tar.gz $(OUTPUT_DIR)/SonatesEnTrio.midi $(OUTPUT_DIR)/SonatesEnTrio-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/SonatesEnTrio.midi ]; then cp $(OUTPUT_DIR)/SonatesEnTrio.midi $(DELIVERY_DIR)/Couperin/SonatesEnTrio/ ; fi
 	git archive --prefix=SonatesEnTrio/ HEAD Couperin/SonatesEnTrio common out templates Makefile README | gzip > $(DELIVERY_DIR)/Couperin/SonatesEnTrio/SonatesEnTrio.tar.gz
 
+Couperin/SonatesEnTrio-backup:
+	git archive --prefix=SonatesEnTrio/ HEAD Couperin/SonatesEnTrio | gzip > ~/Google\ Drive/backup/SonatesEnTrio.tar.gz
+
 Couperin/SonatesEnTrio-clean:
 	@rm -f $(OUTPUT_DIR)/SonatesEnTrio-* $(OUTPUT_DIR)/SonatesEnTrio.*
 
@@ -1682,6 +1762,9 @@ Couperin/Clavecin/lArtDeToucherLeClavecin-delivery:
 	@if [ -e $(OUTPUT_DIR)/lArtDeToucherLeClavecin-1.midi ]; then tar zcf $(DELIVERY_DIR)/Couperin/lArtDeToucherLeClavecin/lArtDeToucherLeClavecin-midi.tar.gz $(OUTPUT_DIR)/lArtDeToucherLeClavecin.midi $(OUTPUT_DIR)/lArtDeToucherLeClavecin-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/lArtDeToucherLeClavecin.midi ]; then cp $(OUTPUT_DIR)/lArtDeToucherLeClavecin.midi $(DELIVERY_DIR)/Couperin/lArtDeToucherLeClavecin/ ; fi
 	git archive --prefix=lArtDeToucherLeClavecin/ HEAD Couperin/Clavecin/lArtDeToucherLeClavecin common out templates Makefile README | gzip > $(DELIVERY_DIR)/Couperin/lArtDeToucherLeClavecin/lArtDeToucherLeClavecin.tar.gz
 
+Couperin/Clavecin/lArtDeToucherLeClavecin-backup:
+	git archive --prefix=lArtDeToucherLeClavecin/ HEAD Couperin/Clavecin/lArtDeToucherLeClavecin | gzip > ~/Google\ Drive/backup/lArtDeToucherLeClavecin.tar.gz
+
 Couperin/Clavecin/lArtDeToucherLeClavecin-clean:
 	@rm -f $(OUTPUT_DIR)/lArtDeToucherLeClavecin-* $(OUTPUT_DIR)/lArtDeToucherLeClavecin.*
 
@@ -1709,6 +1792,9 @@ Boismortier/SuitesADeuxMusettes-delivery:
 	@if [ -e $(OUTPUT_DIR)/SuitesADeuxMusettes-1.midi ]; then tar zcf $(DELIVERY_DIR)/Boismortier/SuitesADeuxMusettes/SuitesADeuxMusettes-midi.tar.gz $(OUTPUT_DIR)/SuitesADeuxMusettes.midi $(OUTPUT_DIR)/SuitesADeuxMusettes-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/SuitesADeuxMusettes.midi ]; then cp $(OUTPUT_DIR)/SuitesADeuxMusettes.midi $(DELIVERY_DIR)/Boismortier/SuitesADeuxMusettes/ ; fi
 	git archive --prefix=SuitesADeuxMusettes/ HEAD Boismortier/SuitesADeuxMusettes common out templates Makefile README | gzip > $(DELIVERY_DIR)/Boismortier/SuitesADeuxMusettes/SuitesADeuxMusettes.tar.gz
 
+Boismortier/SuitesADeuxMusettes-backup:
+	git archive --prefix=SuitesADeuxMusettes/ HEAD Boismortier/SuitesADeuxMusettes | gzip > ~/Google\ Drive/backup/SuitesADeuxMusettes.tar.gz
+
 Boismortier/SuitesADeuxMusettes-clean:
 	@rm -f $(OUTPUT_DIR)/SuitesADeuxMusettes-* $(OUTPUT_DIR)/SuitesADeuxMusettes.*
 
@@ -1735,6 +1821,9 @@ PancraceRoyer/PremierLivre-delivery:
 	@if [ -e $(OUTPUT_DIR)/PremierLivre.pdf ]; then mv -fv $(OUTPUT_DIR)/PremierLivre.pdf $(DELIVERY_DIR)/PancraceRoyer/PremierLivre; fi
 	@if [ -e $(OUTPUT_DIR)/PremierLivre-1.midi ]; then tar zcf $(DELIVERY_DIR)/PancraceRoyer/PremierLivre/PremierLivre-midi.tar.gz $(OUTPUT_DIR)/PremierLivre.midi $(OUTPUT_DIR)/PremierLivre-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/PremierLivre.midi ]; then cp $(OUTPUT_DIR)/PremierLivre.midi $(DELIVERY_DIR)/PancraceRoyer/PremierLivre/ ; fi
 	git archive --prefix=PremierLivre/ HEAD PancraceRoyer/PremierLivre common out templates Makefile README | gzip > $(DELIVERY_DIR)/PancraceRoyer/PremierLivre/PremierLivre.tar.gz
+
+PancraceRoyer/PremierLivre-backup:
+	git archive --prefix=PremierLivre/ HEAD PancraceRoyer/PremierLivre | gzip > ~/Google\ Drive/backup/PremierLivre.tar.gz
 
 PancraceRoyer/PremierLivre-clean:
 	@rm -f $(OUTPUT_DIR)/PremierLivre-* $(OUTPUT_DIR)/PremierLivre.*
@@ -1819,6 +1908,9 @@ Rameau/Opera/HippolyteEtAricie-delivery:
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie/HippolyteEtAricie-midi.tar.gz $(OUTPUT_DIR)/HippolyteEtAricie.midi $(OUTPUT_DIR)/HippolyteEtAricie-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/HippolyteEtAricie.midi ]; then cp $(OUTPUT_DIR)/HippolyteEtAricie.midi $(DELIVERY_DIR)/Rameau/HippolyteEtAricie/ ; fi
 	git archive --prefix=HippolyteEtAricie/ HEAD Rameau/Opera/HippolyteEtAricie common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/HippolyteEtAricie/HippolyteEtAricie.tar.gz
 
+Rameau/Opera/HippolyteEtAricie-backup:
+	git archive --prefix=HippolyteEtAricie/ HEAD Rameau/Opera/HippolyteEtAricie | gzip > ~/Google\ Drive/backup/HippolyteEtAricie.tar.gz
+
 Rameau/Opera/HippolyteEtAricie-clean:
 	@rm -f $(OUTPUT_DIR)/HippolyteEtAricie-* $(OUTPUT_DIR)/HippolyteEtAricie.*
 
@@ -1886,6 +1978,9 @@ Rameau/Opera/IndesGalantes1735-delivery:
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1735-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantes1735/IndesGalantes1735-midi.tar.gz $(OUTPUT_DIR)/IndesGalantes1735.midi $(OUTPUT_DIR)/IndesGalantes1735-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantes1735.midi ]; then cp $(OUTPUT_DIR)/IndesGalantes1735.midi $(DELIVERY_DIR)/Rameau/IndesGalantes1735/ ; fi
 	git archive --prefix=IndesGalantes1735/ HEAD Rameau/Opera/IndesGalantes1735 common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/IndesGalantes1735/IndesGalantes1735.tar.gz
 
+Rameau/Opera/IndesGalantes1735-backup:
+	git archive --prefix=IndesGalantes1735/ HEAD Rameau/Opera/IndesGalantes1735 | gzip > ~/Google\ Drive/backup/IndesGalantes1735.tar.gz
+
 Rameau/Opera/IndesGalantes1735-clean:
 	@rm -f $(OUTPUT_DIR)/IndesGalantes1735-* $(OUTPUT_DIR)/IndesGalantes1735.*
 
@@ -1950,6 +2045,9 @@ Rameau/Opera/IndesGalantes1736-delivery:
 	@if [ -e $(OUTPUT_DIR)/IndesGalantes1736-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantes1736/IndesGalantes1736-midi.tar.gz $(OUTPUT_DIR)/IndesGalantes1736.midi $(OUTPUT_DIR)/IndesGalantes1736-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantes1736.midi ]; then cp $(OUTPUT_DIR)/IndesGalantes1736.midi $(DELIVERY_DIR)/Rameau/IndesGalantes1736/ ; fi
 	git archive --prefix=IndesGalantes1736/ HEAD Rameau/Opera/IndesGalantes1736 common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/IndesGalantes1736/IndesGalantes1736.tar.gz
 
+Rameau/Opera/IndesGalantes1736-backup:
+	git archive --prefix=IndesGalantes1736/ HEAD Rameau/Opera/IndesGalantes1736 | gzip > ~/Google\ Drive/backup/IndesGalantes1736.tar.gz
+
 Rameau/Opera/IndesGalantes1736-clean:
 	@rm -f $(OUTPUT_DIR)/IndesGalantes1736-* $(OUTPUT_DIR)/IndesGalantes1736.*
 
@@ -2007,6 +2105,9 @@ Rameau/Concerts/IndesGalantesSuites-delivery:
 	@if [ -e $(OUTPUT_DIR)/IndesGalantesSuites-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantesSuites/IndesGalantesSuites-midi.tar.gz $(OUTPUT_DIR)/IndesGalantesSuites.midi $(OUTPUT_DIR)/IndesGalantesSuites-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantesSuites.midi ]; then cp $(OUTPUT_DIR)/IndesGalantesSuites.midi $(DELIVERY_DIR)/Rameau/IndesGalantesSuites/ ; fi
 	git archive --prefix=IndesGalantesSuites/ HEAD Rameau/Concerts/IndesGalantesSuites common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/IndesGalantesSuites/IndesGalantesSuites.tar.gz
 
+Rameau/Concerts/IndesGalantesSuites-backup:
+	git archive --prefix=IndesGalantesSuites/ HEAD Rameau/Concerts/IndesGalantesSuites | gzip > ~/Google\ Drive/backup/IndesGalantesSuites.tar.gz
+
 Rameau/Concerts/IndesGalantesSuites-clean:
 	@rm -f $(OUTPUT_DIR)/IndesGalantesSuites-* $(OUTPUT_DIR)/IndesGalantesSuites.*
 
@@ -2063,6 +2164,9 @@ Rameau/Concerts/IndesGalantesBuskaid-delivery:
 	@if [ -e $(OUTPUT_DIR)/IndesGalantesBuskaid-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid/IndesGalantesBuskaid-midi.tar.gz $(OUTPUT_DIR)/IndesGalantesBuskaid.midi $(OUTPUT_DIR)/IndesGalantesBuskaid-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/IndesGalantesBuskaid.midi ]; then cp $(OUTPUT_DIR)/IndesGalantesBuskaid.midi $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid/ ; fi
 	git archive --prefix=IndesGalantesBuskaid/ HEAD Rameau/Concerts/IndesGalantesBuskaid common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/IndesGalantesBuskaid/IndesGalantesBuskaid.tar.gz
 
+Rameau/Concerts/IndesGalantesBuskaid-backup:
+	git archive --prefix=IndesGalantesBuskaid/ HEAD Rameau/Concerts/IndesGalantesBuskaid | gzip > ~/Google\ Drive/backup/IndesGalantesBuskaid.tar.gz
+
 Rameau/Concerts/IndesGalantesBuskaid-clean:
 	@rm -f $(OUTPUT_DIR)/IndesGalantesBuskaid-* $(OUTPUT_DIR)/IndesGalantesBuskaid.*
 
@@ -2118,6 +2222,9 @@ Rameau/Opera/DaphnisEtEgle-delivery:
 	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/DaphnisEtEgle-basse.pdf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle; fi
 	@if [ -e $(OUTPUT_DIR)/DaphnisEtEgle-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/DaphnisEtEgle/DaphnisEtEgle-midi.tar.gz $(OUTPUT_DIR)/DaphnisEtEgle.midi $(OUTPUT_DIR)/DaphnisEtEgle-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/DaphnisEtEgle.midi ]; then cp $(OUTPUT_DIR)/DaphnisEtEgle.midi $(DELIVERY_DIR)/Rameau/DaphnisEtEgle/ ; fi
 	git archive --prefix=DaphnisEtEgle/ HEAD Rameau/Opera/DaphnisEtEgle common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/DaphnisEtEgle/DaphnisEtEgle.tar.gz
+
+Rameau/Opera/DaphnisEtEgle-backup:
+	git archive --prefix=DaphnisEtEgle/ HEAD Rameau/Opera/DaphnisEtEgle | gzip > ~/Google\ Drive/backup/DaphnisEtEgle.tar.gz
 
 Rameau/Opera/DaphnisEtEgle-clean:
 	@rm -f $(OUTPUT_DIR)/DaphnisEtEgle-* $(OUTPUT_DIR)/DaphnisEtEgle.*
@@ -2252,6 +2359,9 @@ Rameau/Opera/lesFetesDeRamire-delivery:
 	@if [ -e $(OUTPUT_DIR)/lesFetesDeRamire-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/lesFetesDeRamire/lesFetesDeRamire-midi.tar.gz $(OUTPUT_DIR)/lesFetesDeRamire.midi $(OUTPUT_DIR)/lesFetesDeRamire-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/lesFetesDeRamire.midi ]; then cp $(OUTPUT_DIR)/lesFetesDeRamire.midi $(DELIVERY_DIR)/Rameau/lesFetesDeRamire/ ; fi
 	git archive --prefix=lesFetesDeRamire/ HEAD Rameau/Opera/lesFetesDeRamire common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/lesFetesDeRamire/lesFetesDeRamire.tar.gz
 
+Rameau/Opera/lesFetesDeRamire-backup:
+	git archive --prefix=lesFetesDeRamire/ HEAD Rameau/Opera/lesFetesDeRamire | gzip > ~/Google\ Drive/backup/lesFetesDeRamire.tar.gz
+
 Rameau/Opera/lesFetesDeRamire-clean:
 	@rm -f $(OUTPUT_DIR)/lesFetesDeRamire-* $(OUTPUT_DIR)/lesFetesDeRamire.*
 
@@ -2375,6 +2485,9 @@ Rameau/Opera/Paladins-delivery:
 	@if [ -e $(OUTPUT_DIR)/Paladins-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/Paladins/Paladins-midi.tar.gz $(OUTPUT_DIR)/Paladins.midi $(OUTPUT_DIR)/Paladins-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/Paladins.midi ]; then cp $(OUTPUT_DIR)/Paladins.midi $(DELIVERY_DIR)/Rameau/Paladins/ ; fi
 	git archive --prefix=Paladins/ HEAD Rameau/Opera/Paladins common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/Paladins/Paladins.tar.gz
 
+Rameau/Opera/Paladins-backup:
+	git archive --prefix=Paladins/ HEAD Rameau/Opera/Paladins | gzip > ~/Google\ Drive/backup/Paladins.tar.gz
+
 Rameau/Opera/Paladins-clean:
 	@rm -f $(OUTPUT_DIR)/Paladins-* $(OUTPUT_DIR)/Paladins.*
 
@@ -2425,6 +2538,9 @@ Rameau/Concerts/PiecesDeClavecinEnConcerts-delivery:
 	@if [ -e $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts-1.midi ]; then tar zcf $(DELIVERY_DIR)/Rameau/PiecesDeClavecinEnConcerts/PiecesDeClavecinEnConcerts-midi.tar.gz $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts.midi $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts.midi ]; then cp $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts.midi $(DELIVERY_DIR)/Rameau/PiecesDeClavecinEnConcerts/ ; fi
 	git archive --prefix=PiecesDeClavecinEnConcerts/ HEAD Rameau/Concerts/PiecesDeClavecinEnConcerts common out templates Makefile README | gzip > $(DELIVERY_DIR)/Rameau/PiecesDeClavecinEnConcerts/PiecesDeClavecinEnConcerts.tar.gz
 
+Rameau/Concerts/PiecesDeClavecinEnConcerts-backup:
+	git archive --prefix=PiecesDeClavecinEnConcerts/ HEAD Rameau/Concerts/PiecesDeClavecinEnConcerts | gzip > ~/Google\ Drive/backup/PiecesDeClavecinEnConcerts.tar.gz
+
 Rameau/Concerts/PiecesDeClavecinEnConcerts-clean:
 	@rm -f $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts-* $(OUTPUT_DIR)/PiecesDeClavecinEnConcerts.*
 
@@ -2460,6 +2576,9 @@ Haendel/Opera/GiulioCesare-delivery:
 	@if [ -e $(OUTPUT_DIR)/GiulioCesare-reduction.pdf ]; then mv -fv $(OUTPUT_DIR)/GiulioCesare-reduction.pdf $(DELIVERY_DIR)/Haendel/GiulioCesare; fi
 	@if [ -e $(OUTPUT_DIR)/GiulioCesare-1.midi ]; then tar zcf $(DELIVERY_DIR)/Haendel/GiulioCesare/GiulioCesare-midi.tar.gz $(OUTPUT_DIR)/GiulioCesare.midi $(OUTPUT_DIR)/GiulioCesare-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/GiulioCesare.midi ]; then cp $(OUTPUT_DIR)/GiulioCesare.midi $(DELIVERY_DIR)/Haendel/GiulioCesare/ ; fi
 	git archive --prefix=GiulioCesare/ HEAD Haendel/Opera/GiulioCesare common out templates Makefile README | gzip > $(DELIVERY_DIR)/Haendel/GiulioCesare/GiulioCesare.tar.gz
+
+Haendel/Opera/GiulioCesare-backup:
+	git archive --prefix=GiulioCesare/ HEAD Haendel/Opera/GiulioCesare | gzip > ~/Google\ Drive/backup/GiulioCesare.tar.gz
 
 Haendel/Opera/GiulioCesare-clean:
 	@rm -f $(OUTPUT_DIR)/GiulioCesare-* $(OUTPUT_DIR)/GiulioCesare.*
@@ -2590,6 +2709,9 @@ Haendel/Oratorio/Messiah-delivery:
 	@if [ -e $(OUTPUT_DIR)/Messiah-tympani.pdf ]; then mv -fv $(OUTPUT_DIR)/Messiah-tympani.pdf $(DELIVERY_DIR)/Haendel/Messiah; fi
 	@if [ -e $(OUTPUT_DIR)/Messiah-1.midi ]; then tar zcf $(DELIVERY_DIR)/Haendel/Messiah/Messiah-midi.tar.gz $(OUTPUT_DIR)/Messiah.midi $(OUTPUT_DIR)/Messiah-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/Messiah.midi ]; then cp $(OUTPUT_DIR)/Messiah.midi $(DELIVERY_DIR)/Haendel/Messiah/ ; fi
 	git archive --prefix=Messiah/ HEAD Haendel/Oratorio/Messiah common out templates Makefile README | gzip > $(DELIVERY_DIR)/Haendel/Messiah/Messiah.tar.gz
+
+Haendel/Oratorio/Messiah-backup:
+	git archive --prefix=Messiah/ HEAD Haendel/Oratorio/Messiah | gzip > ~/Google\ Drive/backup/Messiah.tar.gz
 
 Haendel/Oratorio/Messiah-clean:
 	@rm -f $(OUTPUT_DIR)/Messiah-* $(OUTPUT_DIR)/Messiah.*
@@ -2752,6 +2874,9 @@ Salieri/LesHoraces-delivery:
 	@if [ -e $(OUTPUT_DIR)/LesHoraces-1.midi ]; then tar zcf $(DELIVERY_DIR)/Salieri/LesHoraces/LesHoraces-midi.tar.gz $(OUTPUT_DIR)/LesHoraces.midi $(OUTPUT_DIR)/LesHoraces-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/LesHoraces.midi ]; then cp $(OUTPUT_DIR)/LesHoraces.midi $(DELIVERY_DIR)/Salieri/LesHoraces/ ; fi
 	git archive --prefix=LesHoraces/ HEAD Salieri/LesHoraces common out templates Makefile README | gzip > $(DELIVERY_DIR)/Salieri/LesHoraces/LesHoraces.tar.gz
 
+Salieri/LesHoraces-backup:
+	git archive --prefix=LesHoraces/ HEAD Salieri/LesHoraces | gzip > ~/Google\ Drive/backup/LesHoraces.tar.gz
+
 Salieri/LesHoraces-clean:
 	@rm -f $(OUTPUT_DIR)/LesHoraces-* $(OUTPUT_DIR)/LesHoraces.*
 
@@ -2858,6 +2983,9 @@ Pfeilsticker/ConcertoFlageolet-delivery:
 	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/ConcertoFlageolet-basse.pdf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet; fi
 	@if [ -e $(OUTPUT_DIR)/ConcertoFlageolet-1.midi ]; then tar zcf $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet/ConcertoFlageolet-midi.tar.gz $(OUTPUT_DIR)/ConcertoFlageolet.midi $(OUTPUT_DIR)/ConcertoFlageolet-[0-9]*.midi; elif [ -e $(OUTPUT_DIR)/ConcertoFlageolet.midi ]; then cp $(OUTPUT_DIR)/ConcertoFlageolet.midi $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet/ ; fi
 	git archive --prefix=ConcertoFlageolet/ HEAD Pfeilsticker/ConcertoFlageolet common out templates Makefile README | gzip > $(DELIVERY_DIR)/Pfeilsticker/ConcertoFlageolet/ConcertoFlageolet.tar.gz
+
+Pfeilsticker/ConcertoFlageolet-backup:
+	git archive --prefix=ConcertoFlageolet/ HEAD Pfeilsticker/ConcertoFlageolet | gzip > ~/Google\ Drive/backup/ConcertoFlageolet.tar.gz
 
 Pfeilsticker/ConcertoFlageolet-clean:
 	@rm -f $(OUTPUT_DIR)/ConcertoFlageolet-* $(OUTPUT_DIR)/ConcertoFlageolet.*
