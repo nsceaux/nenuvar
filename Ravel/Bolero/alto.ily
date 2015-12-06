@@ -5,4 +5,8 @@
 \repeat unfold 18 { <do sol>4 <sol sol sol'> do | }
 %% 2
 <do sol>4 <sol sol sol'>\p do |
-\repeat unfold 35 { <do sol>4 <sol sol sol'> do | }
+\repeat unfold 17 { <do sol>4 <sol sol sol'> do | }
+%% 3
+\repeat unfold 18 { <do sol>4 <sol sol sol'> do | }
+%% 4
+\repeat unfold 18 { <do sol>4 do' <do do'> | }

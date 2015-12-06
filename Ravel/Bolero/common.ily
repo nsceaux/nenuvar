@@ -49,7 +49,16 @@
 
 \layout {
   \context {
-    \Voice \override Script.avoid-slur = #'inside
+    \Voice
+    \override Script.avoid-slur = #'inside
+  }
+  \context {
+    \Staff
+    \override TupletBracket.bracket-visibility = #'if-no-beam
+  }
+  \context {
+    \DrumStaff
+    \override TupletBracket.bracket-visibility = #'if-no-beam
   }
 }
 
@@ -63,4 +72,11 @@
 twoOpens = \markup\left-align\concat {
   \musicglyph#"scripts.open"
   \translate #'(0.9 . 0.5) \musicglyph#"scripts.open"
+}
+
+%%% Foot notes
+\paper {
+  footnote-numbering-function =
+  #(lambda (num)
+     #{ \markup\small\parenthesize $(number->string (+ 1 num)) #})
 }

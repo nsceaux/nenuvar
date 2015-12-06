@@ -16,4 +16,10 @@ sib->( lab sol8~ sol8)[ \clef "bass" \breathe fa]->~ fa4~ |
 fa~ fa16 sol( fa mib~ mib4~ |
 mib) fa16( mib fa reb~ reb4~ |
 reb~ reb16) reb( mib reb) fa( mib reb do~ |
+%% 3
 do4) r r |
+R2.*17 |
+%% 4
+\clef "tenor" r8\mp \tuplet 3/2 { sol'16 sol' sol' } sol'8-. sol'16*2/3 sol' sol' sol'8-. sol'-. |
+sol'8-. sol'16*2/3 sol' sol' sol'8-. sol'16*2/3 sol' sol' sol'8-. sol'16*2/3 sol' sol' |
+sol'8-. r r4 r |

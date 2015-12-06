@@ -1,6 +1,5 @@
 \drummode {
   <>\pp ^\markup "1°"
-  \override TupletBracket.bracket-visibility = #'if-no-beam
   \set subdivideBeams = ##t
   \set baseMoment = #(ly:make-moment 1/8)
   tamb8 \tuplet 3/2 { 16 16 16 } 8 \tuplet 3/2 { 16 16 16 } 8 8 |
@@ -12,7 +11,7 @@
   %% 2
   8 16*2/3\p 16*2/3 16*2/3 8 16*2/3 16*2/3 16*2/3 8 8 |
   8 16*2/3 16*2/3 16*2/3 8 16*2/3 16*2/3 16*2/3 16*2/3 16*2/3 16*2/3 16*2/3 16*2/3 16*2/3 |
-  \repeat unfold 18 {
+  \repeat unfold 28 {
     8 16*2/3 16*2/3 16*2/3 8 16*2/3 16*2/3 16*2/3 8 8 |
     8 16*2/3 16*2/3 16*2/3 8 16*2/3 16*2/3 16*2/3 16*2/3 16*2/3 16*2/3 16*2/3 16*2/3 16*2/3 |
   }

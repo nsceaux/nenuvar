@@ -17,7 +17,17 @@
 %% 2
 do4 r <sol, sol>\p |
 do4 r <sol, sol>8 sol |
-\repeat unfold 17 {
+\repeat unfold 8 {
   do4 r <sol, sol> |
   do4 r <sol, sol>8 sol |
+}
+%% 3
+\repeat unfold 9 {
+  <do, do>4 r <sol, sol> |
+  <do, do>4 r <sol, sol>8 sol |
+}
+%% 4
+\repeat unfold 9 {
+  <do, sol, mi>4 r <sol, sol> |
+  <do, sol, mi>4 r <sol, sol>8 sol |
 }
