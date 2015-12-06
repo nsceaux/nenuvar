@@ -32,6 +32,7 @@ footnoteHere =
 \includeScore "AEDair"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
+\newBookPart #'()
 \act "Second Concert"
 %% 2.1
 \pieceTocTitle "Air pour les Guerriers portans les drapeaux"
@@ -82,6 +83,7 @@ footnoteHere =
 \includeScore "EEAmarche"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
+\newBookPart #'()
 \act "Troisième Concert"
 %% 3.1
 \pieceTocTitle "Air pour les esclaves affricains"
@@ -96,6 +98,7 @@ footnoteHere =
 \includeScore "BFJtambourin"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
+\newBookPart #'()
 \act "Quatrième Concert"
 %% 4.1
 \pieceTocTitle "Ritournelle"
@@ -120,6 +123,7 @@ footnoteHere =
 \includeScore "CEJgavotte"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
+\newBookPart #'()
 \act "Entrée les Sauvages"
 %% 5.1
 \pieceTocAndTitle\markup\wordwrap {
@@ -137,6 +141,7 @@ footnoteHere =
 \includeScore "DFGchaconne"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
+\newBookPart #'()
 \act "Annexe"
 %% 6.1
 \pieceTocTitle "Contredanse"
