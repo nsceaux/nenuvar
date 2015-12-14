@@ -112,8 +112,8 @@ si'[ la' fa'' mi'' re'' do''] |
 si'2.\prall\breathe sold'8*2 sold'2 |
 \whiteNoteHeadsOff do'' \appoggiatura si'8 la'2 \appoggiatura sol'8 fad'2 |
 re''2 \appoggiatura do''8 si'2 \appoggiatura la'8 sold'2 |
-\whiteNoteHeadsOn mi''-| mi''-| mi''-| |
-mi''-| re''\prall re'' |
+\whiteNoteHeadsOn mi''-! mi''-! mi''-! |
+mi''-! re''\prall re'' |
 re''2. mi''8*2[ do''\prall si'] |
 do'' re'' si'2\prall mi'' |
 dod''\prall r r |

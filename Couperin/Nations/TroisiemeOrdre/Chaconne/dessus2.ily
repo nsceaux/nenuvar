@@ -22,11 +22,11 @@ re' fad' re' mi' fad' sol' |
 mi'4\prall la'4. la'8 |
 la'4 sol'\prall sol' |
 fad'8 sol' mi'4.\prall re'8 |
-re'8*3/2 \breathe re''16*1/2 mi'' fad''4-| fad''-| |
+re'8*3/2 \breathe re''16*1/2 mi'' fad''4-! fad''-! |
 fad''2.~ |
 fad''16 re''( mi'' fad'' fad''4.\prall mi''16 fad'') |
 sol''8 la'' si'' la'' sol'' fad'' |
-mi''8*3/2\prall \breathe fad''16*1/2 sol'' la''4-| la''-| |
+mi''8*3/2\prall \breathe fad''16*1/2 sol'' la''4-! la''-! |
 la''2.~ |
 la''16 fad''( sol'' la'' la''4.\prall sol''16 la'') |
 si''8 re'' dod''4.\prall re''8 |

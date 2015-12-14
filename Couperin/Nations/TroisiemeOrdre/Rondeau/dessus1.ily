@@ -23,8 +23,8 @@ r4 r8 fad'' si'' la'' si'' fad'' |
 \appoggiatura fad''8 sol''4.\mordent sol''8 sold''4.\prall( fad''16 sold'') |
 la''4. \breathe mi''8 la'' sol'' la'' mi'' |
 fad'' sol'' la'' sol'' fad'' mi'' re'' dod'' |
-si'4\prall dod''8 re'' mi''4-| mi''-| |
-mi''-| fad''8 sol'' fad''4( mi''8)\prall re'' |
+si'4\prall dod''8 re'' mi''4-! mi''-! |
+mi''-! fad''8 sol'' fad''4( mi''8)\prall re'' |
 mi''( fad'' mi'' fad'' fad''4.\prall mi''8) |
 mi''2 s4 \custosNote la' | %{%}
 re''4\fermata r4 r8 r2*3/4 |

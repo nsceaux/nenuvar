@@ -25,12 +25,12 @@ dod |
 si,2 la,4 |
 sol, la,2 |
 re2. |
-r8 la16-\arch( si-\arch) do'4-\arch-| do'-\arch-| |
-do'?-\arch-| la re' |
+r8 la16-\arch( si-\arch) do'4-\arch-! do'-\arch-! |
+do'?-\arch-! la re' |
 sol8 fad sol la si sol |
 la4 re2 |
-r8 la,16( si,-\arch) do4-\chif)-\arch-| do-\arch-| |
-do?-\arch-| la, re |
+r8 la,16( si,-\arch) do4-\chif)-\arch-! do-\arch-! |
+do?-\arch-! la, re |
 sol, la,2 |
 re8 dod re mi fad re |
 la sold, la, si, dod la, |

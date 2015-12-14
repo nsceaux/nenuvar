@@ -97,9 +97,9 @@ fa''2 \appoggiatura mi''8 re''2 \appoggiatura do''8 si'2 |
 sold'2.\prall\breathe mi''8*2 mi''2 |
 \whiteNoteHeadsOff la''2 \appoggiatura sol''8 fad''2 \appoggiatura mi''8 re''2 |
 si''2 \appoggiatura la''8 sold''2 \appoggiatura fad''8 mi''2 |
-\whiteNoteHeadsOn do'''2-| do'''-| do'''-| |
-do'''-| si''-| si''-| |
-si''2.-| do'''8*2[ la''\prall sold''] |
+\whiteNoteHeadsOn do'''2-! do'''-! do'''-! |
+do'''-! si''-! si''-! |
+si''2.-! do'''8*2[ la''\prall sold''] |
 la''8.*2 si''16*2 sold''2.\prall la''8*2 |
 la''8.*2\breathe mi''16*2 mi''2 la'' |
 \whiteNoteHeadsOff \appoggiatura sol''8 fa''2 r r |
