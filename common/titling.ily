@@ -131,8 +131,9 @@
   (add-music
    (make-music 'Music
 	       'page-marker #t
-	       'line-break-permission 'force
-	       'page-turn-permission 'allow)))
+	       'page-turn-permission 'allow
+               'elements (list (make-music 'PageTurnEvent
+                                           'break-permission 'allow)))))
 
 #(define-public (add-toplevel-markup parser text)
   (add-text text))
@@ -697,6 +698,12 @@ partBlankPageBreak =
        (add-page-break parser)
        (add-toplevel-markup parser (markup #:null))
        (add-page-break parser)))
+  (make-music 'Music 'void #t))
+
+partAllowPageTurn =
+#(define-music-function (parser location parts) (list?)
+  (if (memq (*part*) parts)
+      (add-allow-page-turn parser))
   (make-music 'Music 'void #t))
 
 partNoPageTurn =
