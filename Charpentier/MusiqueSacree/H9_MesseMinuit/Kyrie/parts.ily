@@ -1,5 +1,6 @@
 \piecePartSpecs #`((dessus #:score-template "score")
                    (haute-contre)
                    (taille)
+                   (bc-chant)
                    (basse)
                    (basse-continue))

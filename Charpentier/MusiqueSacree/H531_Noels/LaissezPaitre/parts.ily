@@ -2,4 +2,5 @@
                    (dessus-haute-contre)
                    (haute-contre #:notes "dessus-haute-contre")
                    (taille)
-                   (basse))
+                   (basse)
+                   (basse-continue))

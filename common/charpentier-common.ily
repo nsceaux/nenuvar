@@ -21,7 +21,7 @@
 %%  page-turn for instruments and vocal parts
 \paper {
   #(define page-breaking (if (or (eqv? (ly:get-option 'part) #f)
-                                 (memq (ly:get-option 'part) '(voix)))
+                                 (memq (ly:get-option 'part) '(voix bc-chant)))
                              ly:optimal-breaking
                              ly:page-turn-breaking))
 }

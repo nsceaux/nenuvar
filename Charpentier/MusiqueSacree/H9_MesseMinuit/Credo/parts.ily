@@ -2,4 +2,5 @@
                    (haute-contre)
                    (taille)
                    (basse)
-                   (basse-continue))
+                   (basse-continue)
+                   (bc-chant))
