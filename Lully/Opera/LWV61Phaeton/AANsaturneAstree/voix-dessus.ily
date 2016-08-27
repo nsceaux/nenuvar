@@ -72,7 +72,7 @@ fad''2 fad''4 |
 sol'' re''4. re''8 |
 mi''4 la'4.\tr sol'8 |
 %%% page lviii manquante ==> reprise des mesures 118 à 124
-\myfootnote #'NoteHead #'(0 . 3) \markup\wordwrap {
+\footnoteHere #'(0 . 3) \markup\wordwrap {
   Il manque la page couvrant les mesures 73 à 79 dans la copie
   de l'édition Ballard 1683 qui a servi à cette édition.
   Ce sont les mesures du manuscrit 107 de la bibliothèque de

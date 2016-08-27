@@ -10,7 +10,7 @@ la'4 la'8 |
 sol' do'' sib' |
 sol' re'' sib' |
 la' fa' sol' |
-\myfootnote #'NoteHead #'(0 . 3.5) \markup {
+\footnoteHere #'(0 . 3.5) \markup {
   Ballard : \raise #3 \score {
     { \tinyQuote \time 3/8 \key re \minor \clef "soprano"
       \set autoBeaming = ##f \stemUp

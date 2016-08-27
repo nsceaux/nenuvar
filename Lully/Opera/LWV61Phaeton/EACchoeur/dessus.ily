@@ -33,7 +33,7 @@ R2.*5 |
 r4 r re''4 |
 do'' do''8 do'' do'' re'' |
 mib''2 mib''4 |
-re'' re''8 re'' re'' \tag #'dessus1 \myfootnote #'NoteHead #'(0 . 1) \markup {
+re'' re''8 re'' re'' \tag #'dessus1 \footnoteHere #'(0 . 1) \markup {
   Ballard : \raise #3 \score {
     { \tinyQuote \time 3/4 \key sib \major \clef "french"
       re''4 re''8 re'' re'' fa''8 | fad''4.

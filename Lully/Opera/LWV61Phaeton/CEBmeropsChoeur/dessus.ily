@@ -115,7 +115,7 @@ lab''8 sol'' fa'' mib'' re'' do'' |
 si'4. la'16 si' do''4 ~|
 do''8 re'' re''4.\tr do''8 |
 do''4 mib''4. mib''8 |
-\myfootnote #'NoteHead #'(0 . 2) \markup {
+\footnoteHere #'(0 . 2) \markup {
   Ballard : \raise #3 \score {
     \new ChoirStaff <<
       \new Staff \with { instrumentName = "dessus" } {

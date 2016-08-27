@@ -3,8 +3,8 @@
     \new Staff <<
       \global
       \new Voice = "bergere" \with { autoBeaming = ##f } \includeNotes "voix"
-      \lyricsto "bergere" \new Lyrics \includeLyrics "paroles"
-      \lyricsto "bergere" \new Lyrics \includeLyrics "paroles2"
+      \new Lyrics \lyricsto "bergere" { \includeLyrics "paroles" }
+      \new Lyrics \lyricsto "bergere" { \includeLyrics "paroles2" }
     >>
     \new Staff <<
       \global \includeNotes "basse"

@@ -1,6 +1,6 @@
 \clef "quinte" R2.*2 R1 R1. |
 r2 r re'2 |
-re'1 \myfootnote #'NoteHead #'(0 . 3.5) \markup {
+re'1 \footnoteHere #'(0 . 3.5) \markup {
   Ballard : \raise #3 \score {
     { \tinyQuote \key sol \major \time 3/2 \clef "alto"
       re'1*1/2 la2. si4 |

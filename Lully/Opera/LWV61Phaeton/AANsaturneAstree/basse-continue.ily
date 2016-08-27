@@ -18,7 +18,7 @@ sol,2 sol8 sol |
 re do re mi fa sol |
 la sol la si do' la |
 re'4 re'8 do' si la |
-\myfootnote #'NoteHead #'(0 . 1.5) \markup\wordwrap {
+\footnoteHere #'(0 . 1.5) \markup\wordwrap {
   Sur Ballard 1683, deux \italic sol \figure-sharp sont imprimés,
   corrigés manuellement par des \italic mi. Le manuscrit 107 de
   la bibliothèque de Versailles ainsi que l'édition Baussen 1709

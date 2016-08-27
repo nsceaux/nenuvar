@@ -5,29 +5,29 @@
         \new Voice = "dessus" \with { autoBeaming = ##f } <<
           \global \includeNotes "voix-dessus"
         >>
-        \lyricsto "dessus" \new Lyrics { \includeLyrics "paroles1" }
-        \lyricsto "dessus" \new Lyrics { \includeLyrics "paroles2" }
+        \new Lyrics \lyricsto "dessus" { \includeLyrics "paroles1" }
+        \new Lyrics \lyricsto "dessus" { \includeLyrics "paroles2" }
       >>
       \new Staff <<
         \new Voice = "haute-contre" \with { autoBeaming = ##f } <<
           \global \includeNotes "voix-haute-contre"
         >>
-        \lyricsto "haute-contre" \new Lyrics { \includeLyrics "paroles1" }
-        \lyricsto "haute-contre" \new Lyrics { \includeLyrics "paroles2" }
+        \new Lyrics \lyricsto "haute-contre" { \includeLyrics "paroles1" }
+        \new Lyrics \lyricsto "haute-contre" { \includeLyrics "paroles2" }
       >>
       \new Staff <<
         \new Voice = "taille" \with { autoBeaming = ##f } <<
           \global \includeNotes "voix-taille"
         >>
-        \lyricsto "taille" \new Lyrics { \includeLyrics "paroles1" }
-        \lyricsto "taille" \new Lyrics { \includeLyrics "paroles2" }
+        \new Lyrics \lyricsto "taille" { \includeLyrics "paroles1" }
+        \new Lyrics \lyricsto "taille" { \includeLyrics "paroles2" }
       >>
       \new Staff <<
         \new Voice = "basse" \with { autoBeaming = ##f } <<
           \global \includeNotes "voix-basse"
         >>
-        \lyricsto "basse" \new Lyrics { \includeLyrics "paroles1" }
-        \lyricsto "basse" \new Lyrics { \includeLyrics "paroles2" }
+        \new Lyrics \lyricsto "basse" { \includeLyrics "paroles1" }
+        \new Lyrics \lyricsto "basse" { \includeLyrics "paroles2" }
       >>
       \new Staff << \global \includeNotes "dessus" >>
       \new Staff << \global \includeNotes "haute-contre" >>
@@ -53,29 +53,29 @@
           \new Voice = "dessus" \with { autoBeaming = ##f } <<
             \global \includeNotes "voix-dessus"
           >>
-          \lyricsto "dessus" \new Lyrics { \includeLyrics "paroles1" }
-          \lyricsto "dessus" \new Lyrics { \includeLyrics "paroles2" }
+          \new Lyrics \lyricsto "dessus" { \includeLyrics "paroles1" }
+          \new Lyrics \lyricsto "dessus" { \includeLyrics "paroles2" }
         >>
         \new Staff <<
           \new Voice = "haute-contre" \with { autoBeaming = ##f } <<
             \global \includeNotes "voix-haute-contre"
           >>
-          \lyricsto "haute-contre" \new Lyrics { \includeLyrics "paroles1" }
-          \lyricsto "haute-contre" \new Lyrics { \includeLyrics "paroles2" }
+          \new Lyrics \lyricsto "haute-contre" { \includeLyrics "paroles1" }
+          \new Lyrics \lyricsto "haute-contre" { \includeLyrics "paroles2" }
         >>
         \new Staff <<
           \new Voice = "taille" \with { autoBeaming = ##f } <<
             \global \includeNotes "voix-taille"
           >>
-          \lyricsto "taille" \new Lyrics { \includeLyrics "paroles1" }
-          \lyricsto "taille" \new Lyrics { \includeLyrics "paroles2" }
+          \new Lyrics \lyricsto "taille" { \includeLyrics "paroles1" }
+          \new Lyrics \lyricsto "taille" { \includeLyrics "paroles2" }
         >>
         \new Staff <<
           \new Voice = "basse" \with { autoBeaming = ##f } <<
             \global \includeNotes "voix-basse"
           >>
-          \lyricsto "basse" \new Lyrics { \includeLyrics "paroles1" }
-          \lyricsto "basse" \new Lyrics { \includeLyrics "paroles2" }
+          \new Lyrics \lyricsto "basse" { \includeLyrics "paroles1" }
+          \new Lyrics \lyricsto "basse" { \includeLyrics "paroles2" }
         >>
       >>
       \new Staff <<

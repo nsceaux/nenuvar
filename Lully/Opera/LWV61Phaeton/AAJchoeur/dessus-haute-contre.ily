@@ -14,7 +14,7 @@
     re''2 re''8 re'' |
     do''4 do'' do'' |
     sib' sib' sib' |
-    \myfootnote #'NoteHead #'(0 . 2) \markup\column {
+    \footnoteHere #'(0 . 2) \markup\column {
       \line {
         Ballard 1683 : \raise #2 \score {
           { \tinyQuote \clef "soprano" \key do \major \time 3/4

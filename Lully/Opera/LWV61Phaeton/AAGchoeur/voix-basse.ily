@@ -31,7 +31,7 @@ fa4. fa8 fa4 re |
 sol2 sol4 sol |
 do do do'2~ |
 %%% Manuscrit bibliothèque de Versailles
-\myfootnote #'NoteHead #'(0 . 1) \markup\wordwrap {
+\footnoteHere #'(0 . 1) \markup\wordwrap {
   La page contenant les mesures 52 à 57 est manquante dans la copie
   de Ballard 1683 qui a servi à cette édition.  Le manuscrit musical
   107 de la bibliothèque municipale de Versailles a été utilisé pour

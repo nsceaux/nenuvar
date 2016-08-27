@@ -120,7 +120,8 @@
         #:opus "LWV-61"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=39"
         #:main ((urtext "Version urtext" #:options "-durtext")
-                (concert "Version de concert"))
+                (concert "Version de concert")
+                (choeur "Chœur" #:score-file "choeur.ly"))
         #:parts ((dessus "Dessus")
                  (haute-contre "Hautes-contre")
                  (taille "Tailles")

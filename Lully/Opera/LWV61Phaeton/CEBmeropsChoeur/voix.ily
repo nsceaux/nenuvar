@@ -14,7 +14,7 @@
     mi2\tr mi4 r8 do |
     sol4. sol8 sol4 la |
     sib2 sol4 sol8 sol mi4\trill mi |
-    dod2 dod4 r8 \myfootnote #'NoteHead #'(0 . 2) \markup {
+    dod2 dod4 r8 \footnoteHere #'(0 . 2) \markup {
       Ballard : \raise #3 \score {
         { \set autoBeaming = ##f
           \tinyQuote \key re \minor \time 3/2 \clef "bass"

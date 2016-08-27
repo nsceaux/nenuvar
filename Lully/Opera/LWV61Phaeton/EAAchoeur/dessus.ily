@@ -115,7 +115,7 @@ mib''2 mib''4 |
 re'' re''8 re'' re''
 <<
   \tag #'dessus1 {
-    \myfootnote #'NoteHead #'(0 . 1) \markup {
+    \footnoteHere #'(0 . 1) \markup {
       Ballard : \raise #3 \score {
         { \tinyQuote \time 3/4 \key sib \major \clef "french"
           re''4 re''8 re'' re'' fa'' | fad''4.

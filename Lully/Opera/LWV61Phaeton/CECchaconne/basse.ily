@@ -1,5 +1,5 @@
 \clef "basse"
-\myfootnote #'NoteHead #'(0 . 2) \markup {
+\footnoteHere #'(0 . 2) \markup {
   La basse chiffrée rapportée ici est notée de façon manuscrite
   sur l'exemplaire de Ballard qui a servi à cette édition.
 }

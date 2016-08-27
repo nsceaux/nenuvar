@@ -8,7 +8,7 @@
             "[Baussen 1709 :" "flûtes Allemandes]"
           }
         }
-        \myfootnote #'InstrumentName #'(0 . 1) "flûtes Allemandes"
+        \footnoteHere #'(0 . 1) "flûtes Allemandes"
         \global \includeNotes "dessus1"
       >>
       \new Staff \with { \haraKiri } <<
