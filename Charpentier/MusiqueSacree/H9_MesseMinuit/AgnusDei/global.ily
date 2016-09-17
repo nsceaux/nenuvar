@@ -32,7 +32,7 @@ s2.*16
   \once\override Score.RehearsalMark.self-alignment-X = #LEFT
 }
 \modVersion {
-  \beginMark "Toisieme Agnus"
+  \beginMark "Troisieme Agnus"
   \bar ".|:" s2.*7 \alternatives s2. s2. s2.*8 \bar "|."
   \endMark "Fin de la Messe de Minuit"
 }
