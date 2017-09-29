@@ -4,4 +4,5 @@
                    (quinte)
                    (basse)
                    (basse-continue)
+                   (choeur)
                    (silence #:score "score-silence"))

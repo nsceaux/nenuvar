@@ -27,6 +27,7 @@
                       #:score-template "score-basse-continue-voix"
                       #:tag-notes basse-continue
                       #:clef "alto")
+                     (choeur)
                      (silence
                       #:music ,marks
                       #:tag-global part

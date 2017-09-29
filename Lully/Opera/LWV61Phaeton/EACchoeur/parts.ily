@@ -4,4 +4,5 @@
                    (quinte #:indent 0)
                    (basse #:indent 0 #:tag-notes basse)
                    (basse-continue #:indent 0 #:tag-notes basse-continue)
+                   (choeur)
                    (silence #:score "score-silence"))

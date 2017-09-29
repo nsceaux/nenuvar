@@ -27,14 +27,15 @@
 %%  18 for instruments
 #(set-global-staff-size
   (cond ((eqv? #f (ly:get-option 'part)) 14)
-        ((memq (ly:get-option 'part) '(basse-continue)) 16)
+        ((memq (ly:get-option 'part) '(basse-continue choeur)) 16)
         (else 18)))
 
 %% Line/page breaking algorithm
 %%  optimal   for lead sheets
 %%  page-turn for instruments and vocal parts
 \paper {
-  #(define page-breaking (if (eqv? (ly:get-option 'part) #f)
+  #(define page-breaking (if (or (eqv? (ly:get-option 'part) #f)
+                                 (eqv? (ly:get-option 'part) 'choeur))
                              ly:optimal-breaking
                              ly:page-turn-breaking))
 }
@@ -64,7 +65,8 @@
   (quinte "Quintes" () (#:notes "quinte" #:clef "alto"))
   (basse "Basses" () (#:notes "basse" #:clef "bass"))
   (basse-continue "Basse continue" ()
-   (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue")))
+   (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue"))
+  (choeur "Chœurs" () (#:score "score-choeur")))
 
 %% For better looking two-column TOC
 scene =

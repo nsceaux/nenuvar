@@ -69,6 +69,9 @@
    (haute-contre-treble
     "Haute-contre" ((haute-contre #f "treble"))
     (#:notes "haute-contre" #:clef "treble"))
+   (taille-treble
+    "taille" ((taille #f "treble"))
+    (#:notes "haute-contre" #:clef "treble"))
    (taille
     "Tailles de violons, flûtes" ()
     (#:notes "taille" #:clef "alto"))

@@ -22,4 +22,5 @@
         s4^\markup\whiteout "[Tous]" s2.*22 s4
         s2^\markup\whiteout "[Petit chœur]" \noBreak s2.*4 s2 s8
         s8^\markup\whiteout "[Tous]" #})
+                   (choeur)
                    (silence #:score "score-silence"))

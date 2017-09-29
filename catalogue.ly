@@ -120,14 +120,14 @@
         #:opus "LWV-61"
         #:url "http://nicolas.sceaux.free.fr/index.php?p=39"
         #:main ((urtext "Version urtext" #:options "-durtext")
-                (concert "Version de concert")
-                (choeur "Chœur" #:score-file "choeur.ly"))
+                (concert "Version de concert"))
         #:parts ((dessus "Dessus")
                  (haute-contre "Hautes-contre")
                  (taille "Tailles")
                  (quinte "Quintes")
                  (basse "Basses")
-                 (basse-continue "Basse continue")))
+                 (basse-continue "Basse continue")
+                 (choeur "Chœur" #:score-file "part-choeur.ly")))
 
        ("Armide"
         #:description "Tragédie lyrique, livret de Quinault, 1686."
