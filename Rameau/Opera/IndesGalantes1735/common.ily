@@ -68,13 +68,13 @@
       Nicolas Sceaux
       \with-url #"mailto:nicolas.sceaux@free.fr"
       \smaller\smaller\typewriter "<nicolas.sceaux@free.fr>" } #})
-    \copyright
+    \concat { \copyright  \tagline-vspacer }
     \override #'(header:copyrightYear . "2012")
     \override #`(header:maintainer
                  . , #{ \markup {
     \with-url #"http://www.simphonie-du-marais.org"
     \line { La Simphonie du Marais – Hugo Reyne } } #})
-    \copyright
+    \concat { \copyright  \tagline-vspacer }
   }
 
   longcopyright = \markup \center-column {
@@ -82,39 +82,33 @@
     \fromproperty #'header:copyrightIndes
     \line { \license }
   }
-  tagline = \markup {
-    \vspace #2
-    \column { 
-      \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7)
-      \box \column {
-        \small \fill-line { \fromproperty #'header:copyrightIndes }
-        \small \fill-line {
-          \line {
-            Sheet music from \with-url #"http://nicolas.sceaux.free.fr"
-            \typewriter \tiny http://nicolas.sceaux.free.fr
-            typeset using \with-url #"http://lilypond.org" 
-            \line { GNU LilyPond }
-            $(string-append "version " (lilypond-version))
-            on \concat { \today . }
-          }
-        }
-        \small \fill-line {
-          \line {
-            \italic Free to download, with the \italic freedom
-            to distribute, modify and perform.
-          }
-        }
-        \small \fill-line {
-          \line {
-            Licensed under the Creative Commons Attribution 3.0 License,
-            for details see: \hspace #-0.5 
-            \with-url #"http://creativecommons.org/licenses/by/3.0" 
-            http://creativecommons.org/licenses/by/3.0
-          }
-        }
+
+  
+  tagline = \markup\sans\abs-fontsize #8 \override #'(baseline-skip . 0) {
+    \right-column\bold {
+      \with-url #"http://nicolas.sceaux.free.fr" {
+        \concat { Éditions \tagline-vspacer }
+        \concat { Nicolas \tagline-vspacer }
+        \concat { Sceaux \tagline-vspacer }
+      }
+    }
+    \abs-fontsize #9 \with-color #(x11-color 'grey40) \raise #-0.7 \musicglyph #"clefs.petrucci.f"
+    \column {
+      \line { \tagline-vspacer \fromproperty #'header:copyrightIndes }
+      \smaller\line {
+        \tagline-vspacer
+        Sheet music from
+        \with-url #"http://nicolas.sceaux.free.fr"
+        http://nicolas.sceaux.free.fr
+        typeset using \with-url #"http://lilypond.org" LilyPond
+        on \concat { \today . }
+      }
+      \smaller\line {
+        \tagline-vspacer \license
       }
     }
   }
+  
   shortcopyright = \markup {
     Copyright © Nicolas Sceaux, La Simphonie du Marais – Hugo Reyne — \license
   }

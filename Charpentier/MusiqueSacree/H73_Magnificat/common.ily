@@ -18,3 +18,11 @@
    (basse "Basse continue" ()
           (#:notes "basse" #:clef "basse"
                    #:score-template "score-basse-continue-voix2")))
+
+includeNotes = 
+#(define-music-function (parser this-location pathname) (string?)
+   ;; use locations from the included file,
+   ;; and not from where \includeNotes is called
+   (with-location #f
+  (let ((include-file (include-pathname pathname)))
+   #{ \notemode { \transpose sol re { \include $include-file } } #})))

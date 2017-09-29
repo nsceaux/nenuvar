@@ -1,4 +1,4 @@
-\vB\clef "taille" \vA\clef "soprano/alto"
+\vB\clef "taille" \vA\clef "haute-contre"
 \vA\origVersion <>_"Taille"
 R2.*2 |
 sol'4 sol' re' |

@@ -148,7 +148,7 @@
 \livretScene\line { SCENE VI }
 \livretRef #'CFAthesee
 \livretPers\line { THESÉE }
-%# Qu'ai-je appris ? Tout mes sens en sont glacez d'horreur.
+%# Qu'ai-je appris ? Tous mes sens en sont glacez d'horreur.
 %# Vengeons-nous ; quel projet ! Je fremis quand j'y pense.
 %# Qu'il en va coûter à mon cœur !
 %# A punir un ingrat d'où vient que je balance ?

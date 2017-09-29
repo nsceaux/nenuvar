@@ -130,7 +130,7 @@
   \context {
     \PianoStaff
     \name PianoStaff
-    \override StaffGrouper #'staff-staff-spacing #'stretchability = #1
+    \override StaffGrouper.staff-staff-spacing.stretchability = #1
   }
   \context {
     \Voice

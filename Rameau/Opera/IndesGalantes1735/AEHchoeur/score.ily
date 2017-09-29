@@ -5,7 +5,7 @@
       \new Staff \withLyrics <<
         \global \keepWithTag #'conducteur \includeNotes "voix-dessus"
       >> \keepWithTag #'vdessus \includeLyrics "paroles"
-      \lyricsto "two" \new Lyrics \keepWithTag #'vdessus2 \includeLyrics "paroles"
+      \new Lyrics \lyricsto "two" { \keepWithTag #'vdessus2 \includeLyrics "paroles" }
       \new Staff \withLyrics <<
         \global \keepWithTag #'conducteur \includeNotes "voix-haute-contre"
       >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"
@@ -74,7 +74,7 @@
         \new Staff \withLyrics <<
           \global \keepWithTag #'conducteur \includeNotes "voix-dessus"
         >> \keepWithTag #'vdessus \includeLyrics "paroles"
-        \lyricsto "two" \new Lyrics \keepWithTag #'vdessus2 \includeLyrics "paroles"
+        \new Lyrics \lyricsto "two" { \keepWithTag #'vdessus2 \includeLyrics "paroles" }
         \new Staff \withLyrics <<
           \global \keepWithTag #'conducteur \includeNotes "voix-haute-contre"
           >> \keepWithTag #'vhaute-contre \includeLyrics "paroles"

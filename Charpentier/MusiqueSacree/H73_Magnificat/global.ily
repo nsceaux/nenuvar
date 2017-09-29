@@ -1,5 +1,4 @@
-\oldKey re \minor
-\newKey sol \minor
+\key re \minor
 \digitTime \time 3/4 \midiTempo #120
 <<
   s2.*357

@@ -54,7 +54,7 @@
     R2. |
     r4 r4 fa'4 |
     fa'4. sol'8 mi'4 |
-    \origVersion\footnote #'(-0.5 . 1) #'NoteHead \markup {
+    \origVersion\footnoteHere #'(-0.5 . 1) \markup {
       Haute-contre, mesures 158 à 160 : texte manquant sur trois mesures
     }
     la'4 la'4. la'8 |
@@ -102,7 +102,7 @@
     re'4 re' mib' |
     la4. la8 re'4~ |
     re'8[ do' si8. re'16 do'16
-    \origVersion\footnote #'(0 . 3.5) #'AccidentalCautionary \markup {
+    \origVersion\footnoteHere #'(0 . 3.5) \markup {
       Haute-contre, mesure 259 : altération non explicitée
     }
     sib?8\prall la16] | %% check
@@ -336,7 +336,7 @@
         sib2 do'4 |
         re'4. re'8 re'4 |
         r4 re' \tieDashed
-        \origVersion\footnote #'(0.7 . 2) #'NoteHead \markup {
+        \origVersion\footnoteHere #'(0.7 . 2) \markup {
           Haute-contre mesure 321 : pas de liaison sur le manuscrit
         }
         mib' ~ | %% tie ?
@@ -503,7 +503,7 @@
         re2 re4 |
         sol4. la8 sib4 |
         fa4. fa8 fa sol |
-        \origVersion\footnote #'(0 . 1) #'AccidentalCautionary \markup {
+        \origVersion\footnoteHere #'(0 . 1) \markup {
           Basse, mesure 311 : altération manquante.
         }
         mib?4. re8 do4 | %%  premier temps : mi bémol à la basse continue

@@ -67,7 +67,7 @@ fad''4. mi''8 fad''4 |
 sol''4 re'' mi'' |
 fa''4. mib''8 re''4 |
 re''4. mib''8
-\origVersion\footnote #'(0 . 1) #'Script \markup {
+\origVersion\footnoteHere #'(0 . 1) \markup {
   Violon I, mesure 115 : l'ornement n'apparaît pas clairement sur le manuscrit
 }
 do''4\prall |
@@ -79,7 +79,7 @@ fad'' fad'' fad'' |
 sol'' sol'' sol'' |
 la'' fa'' re'' |
 re''4.
-\origVersion\footnote #'(0 . 1) #'AccidentalCautionary \markup {
+\origVersion\footnoteHere #'(0 . 1) \markup {
   Violon I, mesure 123 : altération manquante.
  }
 mib''?8 do''4 | %%  mi bémol ?
@@ -91,7 +91,7 @@ sol''4. la''8 fad''4 |
 fa''!2 mi''4 |
 mib''2 re''4 |
 re''4.
-\origVersion\footnote #'(0 . 1) #'AccidentalCautionary \markup {
+\origVersion\footnoteHere #'(0 . 1) \markup {
   Violon I, mesure 131 : altération manquante.
 }
 mib''?8 do''4 | %%  mi bémol ?
