@@ -510,7 +510,9 @@ quoteEmptyLayout = \layout {
     \Staff
     \remove "Time_signature_engraver"
     \remove "Clef_engraver"
-    \remove "Staff_symbol_engraver"
+    %\remove "Staff_symbol_engraver"
+    \override BarLine.color = #white
+    \override StaffSymbol.line-count = 0
     \override MultiMeasureRest #'expand-limit = #2
   }
 }
