@@ -1,5 +1,6 @@
 \piecePartSpecs #`((dessus #:score "score-violons")
                    (parties #:score-template "score-parties")
+                   (dessus2-hc #:notes "violon2")
                    (basse)
                    (basse-continue)
                    (silence #:score "score-silence" #:tag-global silence))

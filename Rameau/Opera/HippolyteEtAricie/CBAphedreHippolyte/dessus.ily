@@ -12,6 +12,9 @@ r4 r
     { <>^"Violons" <mi' dod''>4 | <re' sib'>2 }
     \\ { <sol' la'>4_\markup\whiteout "un peu doux" | <fa' sib'>2 }
   >>
+  \tag #'violon2-part {
+    <sol' la'>4_\markup\whiteout "un peu doux" | <fa' sib'>2
+  }
 >> r4 |
 R1*2\allowPageTurn R1*3 R2. R1 R1
 r4 r8 do''^"Violons" do''8. do''16 la'8. fa'16 |

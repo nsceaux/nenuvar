@@ -1865,6 +1865,12 @@ Rameau/Opera/HippolyteEtAricie-dessus:
 	-o $(OUTPUT_DIR)/HippolyteEtAricie-dessus -dpart=dessus  \
 	Rameau/Opera/HippolyteEtAricie/part.ly
 .PHONY: Rameau/Opera/HippolyteEtAricie-dessus
+# Dessus II & haute-contre
+Rameau/Opera/HippolyteEtAricie-dessus2-hc:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/HippolyteEtAricie-dessus2-hc -dpart=dessus2-hc  \
+	Rameau/Opera/HippolyteEtAricie/part.ly
+.PHONY: Rameau/Opera/HippolyteEtAricie-dessus2-hc
 # Trompette
 Rameau/Opera/HippolyteEtAricie-trompette:
 	$(LILYPOND_CMD) \
@@ -1907,6 +1913,7 @@ Rameau/Opera/HippolyteEtAricie-delivery:
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-urtext.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-dessus.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
+	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-dessus2-hc.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-dessus2-hc.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-trompette.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-trompette.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-cor.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-cor.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
 	@if [ -e $(OUTPUT_DIR)/HippolyteEtAricie-parties.pdf ]; then mv -fv $(OUTPUT_DIR)/HippolyteEtAricie-parties.pdf $(DELIVERY_DIR)/Rameau/HippolyteEtAricie; fi
@@ -1926,6 +1933,7 @@ Rameau/Opera/HippolyteEtAricie-all: \
 	Rameau/Opera/HippolyteEtAricie-urtext \
 	Rameau/Opera/HippolyteEtAricie \
 	Rameau/Opera/HippolyteEtAricie-dessus \
+	Rameau/Opera/HippolyteEtAricie-dessus2-hc \
 	Rameau/Opera/HippolyteEtAricie-trompette \
 	Rameau/Opera/HippolyteEtAricie-cor \
 	Rameau/Opera/HippolyteEtAricie-parties \

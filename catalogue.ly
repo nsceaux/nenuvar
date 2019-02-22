@@ -410,6 +410,7 @@ O Emmanuel")
         #:main ((urtext "Version urtext" #:options "-durtext")
                 (#f "Version de concert, avec clés modernisées"))
         #:parts ((dessus "Flûtes, Hautbois, Violons")
+                 (dessus2-hc "Dessus II & haute-contre")
                  (trompette "Trompette"
                             #:score-file "part-trompette-timbales.ly")
                  (cor "Cor en ré" #:score-file "part-cor.ly")

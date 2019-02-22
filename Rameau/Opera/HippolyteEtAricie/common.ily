@@ -63,6 +63,8 @@
   ;; Dessus de violons, flutes, hautbois
   (dessus "Violons, Flûtes, Hautbois" ()
           (#:notes "dessus" #:tag-notes dessus))
+  (dessus2-hc "Dessus II & haute-contre" ()
+              (#:notes "haute-contre" #:tag-notes haute-contre #:clef "treble"))
   (trompette "Trompette" ()
              (#:notes "dessus" #:tag-notes trompette))
   (cor "Cors en ré" () (#:notes "cor"))

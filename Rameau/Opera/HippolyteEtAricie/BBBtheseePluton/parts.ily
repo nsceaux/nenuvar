@@ -1,5 +1,7 @@
 \piecePartSpecs #`((dessus #:score "score-violons")
+                   (dessus2-hc #:notes "violon2")
                    (parties)
+                   (dessus2-hc #:notes "parties")
                    (basse #:score "score-basse"
                     #:tag-notes basse #:music
                           ,#{ s1_"B.C. et contre-basse"

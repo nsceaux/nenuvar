@@ -1,4 +1,5 @@
 \piecePartSpecs #`((dessus #:score "score-dessus")
                    (parties)
+                   (dessus2-hc #:notes "dessus" #:tag-notes violon2)
                    (basse #:score "score-basse")
                    (silence #:score "score-silence" #:tag-global silence))

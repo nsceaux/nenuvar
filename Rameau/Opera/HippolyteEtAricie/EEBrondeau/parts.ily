@@ -1,5 +1,6 @@
 \piecePartSpecs #(let ((breaks #{ s2.*16 s4\break s2 s2.*8\break #}))
                    `((dessus #:score "score-dessus")
                      (parties #:score-template "score-parties" #:music ,breaks)
+                     (dessus2-hc #:music ,breaks)
                      (basse #:music ,breaks)
                      (silence #:tag-global silence)))

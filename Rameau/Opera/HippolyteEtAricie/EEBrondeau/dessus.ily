@@ -1,5 +1,5 @@
 \clef "dessus" r4 sol''4.( fad''8) |
-fad''4 si' mi''^| |
+fad''4 si' mi''^! |
 mi''( re''8.\trill) do''16 si'4 |
 do'' la'4.\trill( sol'16 la') |
 \appoggiatura la'8 si'2 \appoggiatura la'8 sol'4 |
@@ -17,7 +17,7 @@ do'' la'4.\trill( sol'16 la') |
     si'4
   }
 >> sol''4.(-\tag #'violons _"fort" fad''8) |
-fad''4 si' mi''-| |
+fad''4 si' mi''-! |
 mi''( re''8.\trill) do''16 si'4 |
 do'' la'4.\trill( sol'16 la') |
 \appoggiatura la'8 si'2 \appoggiatura la'8 sol'4 |

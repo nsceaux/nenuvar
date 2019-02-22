@@ -3,6 +3,7 @@
                         s2 s1*3 s2 s2 s1*3 s2 s2 s1*7 s2 s2 s1*7 s2 \break #}))
                   `((dessus #:music ,breaks)
                     (parties #:music ,breaks)
+                    (dessus2-hc #:notes "dessus" #:music ,breaks)
                     (basse #:score "score-basses")
                     (basse-continue #:score-template "score-basse-voix"
                                     #:tag-notes basse-continue
