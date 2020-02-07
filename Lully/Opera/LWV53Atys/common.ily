@@ -278,6 +278,6 @@ footnoteHereFull =
                         'automatically-numbered #t
                         'text (make-null-markup)
                         'footnote-text note)))
-         (set! location #f)
+         ;(set! location #f)
          #{ <>-\tweak footnote-music #foot-mus ^\markup\transparent\box "1" #})
        (make-music 'Music 'void #t)))

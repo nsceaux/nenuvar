@@ -58,8 +58,17 @@
 
 \opusPartSpecs
 #`((dessus "Dessus" () (#:notes "dessus"))
-   (haute-contre "Haute-contre" () (#:notes "haute-contre" #:clef "alto"))
-   (taille "Taille" () (#:notes "taille" #:clef "alto"))
+   (haute-contre "Haute-contre" ()
+                 (#:notes "haute-contre"
+                          #:clef
+                          ,(if (eqv? (ly:get-option 'violin-iso-alto) #t)
+                               "treble"
+                               "alto")))
+   (taille "Taille" ()
+           (#:notes "taille" #:clef 
+                          ,(if (eqv? (ly:get-option 'violin-iso-alto) #t)
+                               "treble"
+                               "alto")))
    (quinte "Quinte" () (#:notes "quinte" #:clef "alto"))
    (basse "Basses et basse continue" ()
           (#:notes "basse" #:clef "basse" #:tag-notes basse)))
@@ -108,3 +117,4 @@ intermede =
        \abs-fontsize-lines #9
        \override-lines #'(column-padding . 5)
        \page-columns-title $title $lines #}))
+
