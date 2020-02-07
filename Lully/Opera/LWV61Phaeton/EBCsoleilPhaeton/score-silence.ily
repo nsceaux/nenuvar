@@ -1,22 +1,5 @@
 \markup \line {
-  \force-line-width-ratio #9/20 \score {
-    \new Staff \with { \tinyStaff } <<
-      \keepWithTag #'(part) \global \includeNotes #(*note-filename*)
-      \clef #(*clef*)
-      $(or (*score-extra-music*) (make-music 'Music))
-    >>
-    \layout {
-      indent = #0
-      ragged-last = ##f
-      line-width = 4\cm
-      \context {
-        \Score
-        \remove "Bar_number_engraver"
-        \override RehearsalMark #'font-size = #-1
-        \override MetronomeMark #'font-size = #-2
-      }
-    }
-  }
+  
   \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold\line { Le Soleil }
     \sline { Tous mes Tresors vous sont ouverts, }
@@ -39,6 +22,8 @@
     \sline { Quand elle me paroît belle ; }
     \sline { Je suis content du trépas }
     \sline { S'il rend ma gloire immortelle. }
+  }
+  \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold\line { Le Soleil }
     \sline { J'ai fait un indiscret serment. }
     \line { Voiez mon triste cœur saisi d'étonnement ; }

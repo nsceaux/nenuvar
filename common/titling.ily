@@ -673,9 +673,11 @@ sceneDescription =
 
 sceneDescriptionBottom =
 #(define-music-function (parser location description) (markup?)
-  (add-toplevel-markup parser
-   (markup #:scene-description description))
-  (add-allow-page-turn parser)
+   (if (not (*part*))
+       (begin
+         (add-toplevel-markup parser
+                              (markup #:scene-description description))
+         (add-allow-page-turn parser)))
   (make-music 'Music 'void #t))
 
 %%% Conditionnal page breaks

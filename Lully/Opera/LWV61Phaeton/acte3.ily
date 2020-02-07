@@ -1,3 +1,4 @@
+\newBookPart#'()
 %{ n°1 %}
 \act "Acte Troisiesme"
 \sceneDescription \markup \wordwrap-center {

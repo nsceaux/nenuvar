@@ -1,22 +1,5 @@
 \markup \line {
-  \force-line-width-ratio #9/20 \score {
-    \new Staff \with { \tinyStaff } <<
-      \keepWithTag #'(part) \global \includeNotes #(*note-filename*)
-      \clef #(*clef*)
-      $(or (*score-extra-music*) (make-music 'Music))
-    >>
-    \layout {
-      indent = #0
-      ragged-last = ##t
-      line-width = 5\cm
-      \context {
-        \Score
-        \remove "Bar_number_engraver"
-        \override RehearsalMark #'font-size = #-1
-        \override MetronomeMark #'font-size = #-2
-      }
-    }
-  }
+  
   \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold Theone
     \line { Vous passez sans me voir ! craignés-vous ma presence ? }
@@ -48,6 +31,8 @@
     \line { Il m'a prédit cent fois le tourment que j'endure. }
     \line { Vous ne me parlés plus ni d'himen, ni d'amour. }
     \line { De tant de vains sermens vous perdés la memoire. }
+  }
+  \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold Phaeton
     \sline { Non, je vous aimerai toujours. }
     \bold Theone

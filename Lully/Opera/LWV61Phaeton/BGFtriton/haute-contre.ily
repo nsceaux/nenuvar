@@ -33,7 +33,7 @@ do''2 ~ do''8 do'' si' la' |
 si'4 sol' si'4. si'8 |
 la'4 la' sol'4. fa'8 |
 mi'2\tr r |
-R1*12 |
+R1*12 | \allowPageTurn
 mi'4 mi'8 fa' sol' la' sol' la' |
 si'4 si' do''4. re''8 |
 si'4 do''8 re'' do'' si' la' sol' |

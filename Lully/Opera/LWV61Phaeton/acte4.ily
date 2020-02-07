@@ -1,3 +1,4 @@
+\newBookPart#'()
 \act "Acte Quatriesme"
 \sceneDescription \markup \wordwrap-center {
   Le Theatre change, & represente le Palais du Soleil.

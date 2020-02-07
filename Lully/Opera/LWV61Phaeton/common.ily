@@ -58,16 +58,25 @@
 \setOpus "Lully/Opera/LWV61Phaeton"
 \opusTitle "Phaëton"
 
-\opusPartSpecs #`(
-  (dessus "Dessus" () (#:notes "dessus"))
-  (haute-contre "Hautes-contre" () (#:notes "haute-contre" #:clef "alto"))
-  (taille "Tailles" () (#:notes "taille" #:clef "alto"))
-  (quinte "Quintes" () (#:notes "quinte" #:clef "alto"))
-  (basse "Basses" () (#:notes "basse" #:clef "bass"))
-  (basse-continue "Basse continue" ()
-   (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue"))
-  (choeur "Chœurs" () (#:score "score-choeur")))
+\opusPartSpecs
+#`((dessus "Dessus" () (#:notes "dessus"))
+   (dessus2-hc "Second dessus / Haute-contre"
+               ((haute-contre #f))
+               (#:notes "dessus2" #:clef "treble"))
+   (haute-contre "Hautes-contre" ()
+                 (#:notes "haute-contre" #:clef ,(if (eqv? (ly:get-option 'part)
+                                                           'dessus2-hc)
+                                                     "treble"
+                                                     "alto")))
+   (haute-contre-sol "Hautes-contre" ((haute-contre #f "treble")) (#:notes "haute-contre" #:clef "treble"))
+   (taille "Tailles" () (#:notes "taille" #:clef "alto"))
+   (quinte "Quintes" () (#:notes "quinte" #:clef "alto"))
+   (basse "Basses" () (#:notes "basse" #:clef "bass"))
+   (basse-continue "Basse continue" ()
+                   (#:notes "basse" #:clef "bass" #:score-template "score-basse-continue"))
+   (choeur "Chœurs" () (#:score "score-choeur")))
 
+                    
 %% For better looking two-column TOC
 scene =
 #(define-music-function (parser location title toc-title) (string? markup?)

@@ -1,3 +1,4 @@
+\newBookPart#'()
 \act "Acte Cinquiesme"
 %{ n°1 %}
 \sceneDescription \markup \wordwrap-center {
@@ -52,6 +53,7 @@
 \pieceToc\markup\wordwrap { Clymène, Merops, chœur :
   \italic { Que l'on chante, que tout réponde } }
 \includeScore "FDAchoeur"
+\newBookPart#'(haute-contre-sol)
 %{ n°5 %}
 \sceneDescription\markup\justify {
   Les Pasteurs Egyptiens, & les Bergeres Egyptiennes

@@ -1,3 +1,4 @@
+\newBookPart#'()
 \actn "Prologue"
 \sceneDescription \markup \center-column {
   \line\fontsize #3 { LE RETOUR DE L'AGE D'OR. }

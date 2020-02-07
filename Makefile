@@ -598,12 +598,24 @@ Lully/Opera/LWV61Phaeton-dessus:
 	-o $(OUTPUT_DIR)/LWV61Phaeton-dessus -dpart=dessus  \
 	Lully/Opera/LWV61Phaeton/part.ly
 .PHONY: Lully/Opera/LWV61Phaeton-dessus
+# Dessus 2 / haute-contre
+Lully/Opera/LWV61Phaeton-dessus2-hc:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LWV61Phaeton-dessus2-hc -dpart=dessus2-hc  \
+	Lully/Opera/LWV61Phaeton/part.ly
+.PHONY: Lully/Opera/LWV61Phaeton-dessus2-hc
 # Hautes-contre
 Lully/Opera/LWV61Phaeton-haute-contre:
 	$(LILYPOND_CMD) \
 	-o $(OUTPUT_DIR)/LWV61Phaeton-haute-contre -dpart=haute-contre  \
 	Lully/Opera/LWV61Phaeton/part.ly
 .PHONY: Lully/Opera/LWV61Phaeton-haute-contre
+# Hautes-contre
+Lully/Opera/LWV61Phaeton-haute-contre-sol:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/LWV61Phaeton-haute-contre-sol -dpart=haute-contre-sol  \
+	Lully/Opera/LWV61Phaeton/part.ly
+.PHONY: Lully/Opera/LWV61Phaeton-haute-contre-sol
 # Tailles
 Lully/Opera/LWV61Phaeton-taille:
 	$(LILYPOND_CMD) \
@@ -640,7 +652,9 @@ Lully/Opera/LWV61Phaeton-delivery:
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-urtext.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-urtext.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-concert.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-concert.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-dessus.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
+	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-dessus2-hc.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-dessus2-hc.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-haute-contre.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
+	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-haute-contre-sol.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-haute-contre-sol.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-taille.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-quinte.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-quinte.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
 	@if [ -e $(OUTPUT_DIR)/LWV61Phaeton-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/LWV61Phaeton-basse.pdf $(DELIVERY_DIR)/Lully/LWV61Phaeton; fi
@@ -659,7 +673,9 @@ Lully/Opera/LWV61Phaeton-all: \
 	Lully/Opera/LWV61Phaeton-urtext \
 	Lully/Opera/LWV61Phaeton-concert \
 	Lully/Opera/LWV61Phaeton-dessus \
+	Lully/Opera/LWV61Phaeton-dessus2-hc \
 	Lully/Opera/LWV61Phaeton-haute-contre \
+	Lully/Opera/LWV61Phaeton-haute-contre-sol \
 	Lully/Opera/LWV61Phaeton-taille \
 	Lully/Opera/LWV61Phaeton-quinte \
 	Lully/Opera/LWV61Phaeton-basse \

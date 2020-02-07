@@ -1,5 +1,5 @@
 \piecePartSpecs #`((dessus)
-                   (haute-contre)
+                   (haute-contre #:system-count 2)
                    (taille)
                    (quinte)
                    (basse)

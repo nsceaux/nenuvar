@@ -1,22 +1,5 @@
 \markup \line {
-  \force-line-width-ratio #9/20 \score {
-    \new Staff \with { \tinyStaff } <<
-      \keepWithTag #'(part) \global \includeNotes #(*note-filename*)
-      \clef #(*clef*)
-      $(or (*score-extra-music*) (make-music 'Music))
-    >>
-    \layout {
-      indent = #0
-      ragged-last = ##t
-      line-width = 4\cm
-      \context {
-        \Score
-        \remove "Bar_number_engraver"
-        \override RehearsalMark #'font-size = #-1
-        \override MetronomeMark #'font-size = #-2
-      }
-    }
-  }
+  
   \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold Libie
     \sline { Que l'incertitude }
@@ -37,6 +20,8 @@
     \line { J'aime un Ingrat qui trahit nos amours : }
     \sline { Et je sens malgré ma colere }
     \line { Que tout ingrat qu'il est, je l'aimerai toujours. }
+  }
+  \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold Libye
     \sline { Mon sort étoit digne d'envie, }
     \line { Avant que par l'Amour mon cœur fût tourmenté. }

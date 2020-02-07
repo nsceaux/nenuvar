@@ -1,3 +1,4 @@
+\newBookPart#'()
 %{ n°1 %}
 \act "Acte Second"
 \sceneDescription \markup \wordwrap-center {
@@ -40,6 +41,7 @@
 }
 \pieceTocTitle "Prelude"
 \includeScore "CEAprelude"
+\partNoPageTurn#'(haute-contre-sol)  
 %{ n°7 %}
 \pieceToc\markup\wordwrap { Merops, chœur :
   \italic { Que de tous costez on entende } }

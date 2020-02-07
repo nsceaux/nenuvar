@@ -1,22 +1,5 @@
 \markup \line {
-  \force-line-width-ratio #9/20 \score {
-    \new Staff \with { \tinyStaff } <<
-      \keepWithTag #'(part) \global \includeNotes #(*note-filename*)
-      \clef #(*clef*)
-      $(or (*score-extra-music*) (make-music 'Music))
-    >>
-    \layout {
-      indent = #0
-      ragged-last = ##t
-      line-width = 4\cm
-      \context {
-        \Score
-        \remove "Bar_number_engraver"
-        \override RehearsalMark #'font-size = #-1
-        \override MetronomeMark #'font-size = #-2
-      }
-    }
-  }
+  
   \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold\line { Une Bergere Egyptienne }
     \line { Ce beau jour ne permet qu'à L'Aurore }
@@ -39,7 +22,8 @@
     \sline { N'aimez pas tant : }
     \sline { Un amour trop tendre }
     \sline { N'est jamais content. }
-    \null
+  }
+  \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \line { Puisqu'il faut qu'une chaîne nous lie, }
     \line { Ne faut-il pas choisir un nœud charmant ? }
     \line { Moquons-nous de souffrir constamment ; }

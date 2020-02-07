@@ -1,3 +1,4 @@
+\newBookPart#'()
 %{ n°1 %}
 \act "Acte Premier"
 \sceneDescription \markup \wordwrap-center {
@@ -22,6 +23,7 @@
 \pieceToc \markup { Phaëton, Theone :
   \italic { Vous passez sans me voir ? } }
 \includeScore "BCAphaetonTheone"
+\newBookPart #'(haute-contre-sol)  
 %{ n°4 %}
 \scene "Scene IV" "SCENE 4 : Clymène, Phaëton"
 \sceneDescription\markup\wordwrap-center \smallCaps { Clymène, Phaëton. }
@@ -45,7 +47,7 @@
   sur le rivage, où ils vont prendre soin des troupeaux de Neptune.
 }
 \origVersion\pageBreak
-%{ n°6 %}\newBookPart #'(full-rehearsal)
+%{ n°6 %}\newBookPart #'(full-rehearsal haute-contre-sol)
 \scene "Scene VI" "SCENE 6 : Clymène"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Clymène, \smallCaps Protée endormy.
@@ -66,7 +68,7 @@
   }
 }
 \pieceToc "Air"
-\includeScore "BGAair"
+\includeScore "BGAair"  
 %{ n°8 %}
 \pieceToc \markup { Triton : \italic { Que Protée avec nous partage } }
 \includeScore "BGBtriton"
