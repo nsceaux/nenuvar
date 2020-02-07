@@ -660,8 +660,10 @@ footnoteHere =
 #(define-music-function (parser this-location offset note)
      (number-pair? markup?)
    (with-location #f
-     #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
-        ^\markup\transparent\box "1" #}))
+      (if (eqv? (ly:get-option 'print-footnotes) #t)
+          #{ <>-\tweak footnote-music #(make-footnote-here-music offset note)
+^\markup\transparent\box "1" #}
+            (make-music 'Music 'void #t))))
 
 footnoteHereFull =
 #(define-music-function (parser this-location offset note)

@@ -1,6 +1,6 @@
 \markup \line {
   
-  \force-line-width-ratio #9/20 \fontsize #-2 \column {
+  \force-line-width-ratio #8/20 \fontsize #-2 \column {
     \bold\line { La Déesse de la Terre }
     \line { C'est votre secours que j'implore, }
     \line { Jupiter, sauvés-moi du feu qui me devore. }
@@ -11,6 +11,8 @@
     \sline { Grand Dieu, ne me refusez pas }
     \line { La gloire de perir d'un coup de votre bras. }
     \line { Roi des dieux, armés-vous, il n'est plus temps d'attendre, }
+  }
+  \force-line-width-ratio #8/20 \fontsize #-2 \column {
     \sline { Tout l'Empire qui suit vos loix }
     \line { Bien-tôt ne sera plus qu'un vain monceau de cendre. }
     \line { Les Fleuves vont tarir ; les Villes, & les Bois, }

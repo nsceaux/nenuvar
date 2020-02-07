@@ -11,7 +11,7 @@
 \pieceToc\markup\wordwrap { Théone, Phaëton :
   \italic { Ah ! Phaëton, est-il possible } }
 \includeScore "DAAtheonePhaeton"
-%{ n°2 %}
+%{ n°2 %} \newBookPart#'(dessus2-hc)
 \scene "Scene II" "SCENE 2 : Phaëton"
 \sceneDescription \markup \wordwrap-center {
   \smallCaps Phaëton, suivans de Phaëton.

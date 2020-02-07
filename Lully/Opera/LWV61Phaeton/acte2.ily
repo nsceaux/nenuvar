@@ -13,7 +13,7 @@
 \pieceToc\markup\wordwrap { Clymène, Phaëton :
   \italic { Protée en a trop dit, je fremis du danger } }
 \includeScore "CABclymenePhaeton"
-%{ n°3 %}
+%{ n°3 %} \newBookPart#'(dessus2-hc)
 \scene "Scene II" "SCENE 2 : Théone"
 \sceneDescription \markup \wordwrap-center { \smallCaps Théone, seule. }
 \pieceToc\markup\wordwrap { Théone :

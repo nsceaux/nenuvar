@@ -23,7 +23,7 @@
 \pieceToc \markup { Phaëton, Theone :
   \italic { Vous passez sans me voir ? } }
 \includeScore "BCAphaetonTheone"
-\newBookPart #'(haute-contre-sol)  
+\newBookPart #'(haute-contre-sol dessus2-hc)
 %{ n°4 %}
 \scene "Scene IV" "SCENE 4 : Clymène, Phaëton"
 \sceneDescription\markup\wordwrap-center \smallCaps { Clymène, Phaëton. }

@@ -83,6 +83,7 @@
 %{ n°8 %}
 \pieceToc\markup\wordwrap { Chœur : \italic { Dans cette demeure charmante } }
 \includeScore "EAHchoeur"
+\newBookPart#'(dessus2-hc)
 
 \scene "Scene II" "Scene 2 : Le Soleil, Phaëton"
 \sceneDescription \markup \center-column {

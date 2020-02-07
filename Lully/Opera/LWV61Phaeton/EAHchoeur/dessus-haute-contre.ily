@@ -17,7 +17,7 @@
     fa''( mi''4.) re''8 |
     re''
   }
-  \tag #'(haute-contre haute-contre-dessus2) {
+  \tag #'(haute-contre haute-contre-dessus2 dessus2-hc) {
     \clef "haute-contre" sol'4 |
     sol'4. sol'8 fa'4 |
     mib' mib' mib' |
@@ -61,8 +61,9 @@
       }
     >>
   }
-  \tag #'(dessus2 haute-contre-dessus2) {
+  \tag #'(dessus2 haute-contre-dessus2 dessus2-hc) {
     \tag #'haute-contre-dessus2 { \forceFullClef \clef "dessus" }
+    \tag #'dessus2-hc <>^"[Dessus]"
     fad'8 fad' sol' la' sol' |
     fad' sib' la' sib' la' sol' |
     fad' sib' la' sib' la' sol' |
@@ -78,14 +79,16 @@
     fad' la' la' sib' do'' la' |
     <<
       \new Voice {
-        \modVersion\voiceTwo sib'8. do''16 la'4.\tr sol'8 |
+        \tag #'(dessus2 haute-contre-dessus2) \modVersion\voiceTwo
+        sib'8. do''16 la'4.\tr sol'8 |
         sol'4.
       }
-      \modVersion\new CueVoice {
+      \tag #'(dessus2 haute-contre-dessus2) \modVersion\new CueVoice {
         \voiceOne sol''4\rest sol''\rest la' | sib'4.
       }
     >>
     \tag #'haute-contre-dessus2 { \forceFullClef \clef "haute-contre" }
+    \tag #'dessus2-hc <>^"[H-c]"
   }
   \tag #'haute-contre {
     s8 r4 r | R2.*12 | \new CueVoice { r4 r fad'4 | sol'4. }
@@ -109,7 +112,7 @@
     re''( do''4.\tr) sib'8 |
     sib'
   }
-  \tag #'(haute-contre haute-contre-dessus2) {
+  \tag #'(haute-contre haute-contre-dessus2 dessus2-hc) {
     sol'8 sol'4 |
     sol' fa' fa' |
     fa'2 fa'8 sol' |
@@ -145,8 +148,9 @@
       }
     >>
   }
-  \tag #'(dessus2 haute-contre-dessus2) {
+  \tag #'(dessus2 haute-contre-dessus2 dessus2-hc) {
     \tag #'haute-contre-dessus2 { \forceFullClef \clef "dessus" }
+    \tag #'dessus2-hc <>^"[Dessus]"
     re''8 re'' mib'' re'' mib'' |
     do''4 do''4. re''8 |
     sib' la' sol' la' sib' do'' |
@@ -155,13 +159,16 @@
     la' sol' la' sib' do'' la' |
     <<
       \new Voice {
-        \modVersion\voiceTwo sib'8. do''16 la'4.\tr sib'8 |
-        sib'4.      }
-      \modVersion\new CueVoice {
+        \tag #'(dessus2 haute-contre-dessus2) \modVersion\voiceTwo
+        sib'8. do''16 la'4.\tr sib'8 |
+        sib'4.
+      }
+      \tag #'(dessus2 haute-contre-dessus2) \modVersion\new CueVoice {
         \voiceOne sol''4\rest sol''\rest fa'' | re''4.
       }
     >>
     \tag #'haute-contre-dessus2 { \forceFullClef \clef "haute-contre" }
+    \tag #'dessus2-hc <>^"[H-c]"
   }
   \tag #'haute-contre { s8 r4 r | R2.*5 | \new CueVoice { r4 r la'4 | sib'4. } }
 >>
@@ -191,7 +198,7 @@
     sib' la'4.\tr sol'8 |
     sol'4
   }
-  \tag #'(haute-contre haute-contre-dessus2) {
+  \tag #'(haute-contre haute-contre-dessus2 dessus2-hc) {
     sib'8 sib'4 |
     lab' lab' lab' |
     sol'2~ sol'8 si' |
@@ -227,8 +234,9 @@
     sib''4 la''4.\tr sol''8 |
     sol''4.
   }
-  \tag #'(dessus2 haute-contre-dessus2) {
+  \tag #'(dessus2 haute-contre-dessus2 dessus2-hc) {
     \tag #'haute-contre-dessus2 { \forceFullClef \clef "dessus" }
+    \tag #'dessus2-hc <>^"[Dessus]"
     sol'8 la' sib'4 |
     la' si'8 do'' re'' si' |
     do'' sib' do'' re'' mib''4 |
@@ -237,6 +245,7 @@
     sol''4 fad''4.\tr sol''8 |
     sol''4.
     \tag #'haute-contre-dessus2 { \forceFullClef \clef "haute-contre" }
+    \tag #'dessus2-hc <>^"[H-c]"
   }
   \tag #'haute-contre { r4 r | R2.*4 | \new CueVoice { r4 r r8 fad' | sol'4. } }
 >>
@@ -247,7 +256,7 @@
     sib'( la'4.\tr) sol'8 |
     sol'2. |
   }
-  \tag #'(haute-contre haute-contre-dessus2) {
+  \tag #'(haute-contre haute-contre-dessus2 dessus2-hc) {
     sol'8 do'' si' |
     do''4 sol'2 |
     sol'4( fad'4.\tr) sol'8 |

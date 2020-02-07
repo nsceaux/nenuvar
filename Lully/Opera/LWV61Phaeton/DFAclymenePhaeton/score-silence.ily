@@ -1,6 +1,6 @@
 \markup \line {
   
-  \force-line-width-ratio #9/20 \fontsize #-2 \column {
+  \force-line-width-ratio #8/20 \fontsize #-2 \column {
     \bold Climene
     \sline { Le Ciel trouble votre bonheur ; }
     \sline { Un peril mortel vous menace. }
@@ -15,6 +15,8 @@
     \sline { O Dieux ! }
     \bold Phaeton
     \sline { \transparent { O Dieux ! } C'est de vous que j'attens }
+  }
+  \force-line-width-ratio #8/20 \fontsize #-2 \column {
     \sline { Des témoignages éclatans }
     \sline { De la grandeur de ma naissance. }
     \line { Je sens qu'elle est divine, & j'ai dû m'en vanter ; }
