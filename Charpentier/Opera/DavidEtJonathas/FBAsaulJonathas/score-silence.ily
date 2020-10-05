@@ -1,21 +1,4 @@
-\markup \line {
-  \force-line-width-ratio #9/20 \score {
-    \new Staff \with { \tinyStaff } <<
-      \keepWithTag #'() \global \includeNotes #(*note-filename*)
-      \clef #(*clef*)
-      $(or (*score-extra-music*) (make-music 'Music))
-    >>
-    \layout {
-      indent = #0
-      ragged-last = ##t
-      line-width = 5\cm
-      \context {
-        \Score
-        \remove "Bar_number_engraver"
-        \override RehearsalMark #'font-size = #-2
-      }
-    }
-  }
+\markup {
   \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold Saül
     \line { Que vois-je ? quoi je perds & mon Fils & l'Empire ! }
@@ -42,6 +25,8 @@
     \line { Qu'entends-je ? il va périr ! quelle fureur m'anime ? }
     \line { Où pourrai-je à mon tour trouver une victime ? }
     \line { David devant mes yeux ose se présenter ! }
+  }
+  \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \line { Le Perfide à mes maux vient encor insulter ! }
     \sline { A moi Gardes... reçoi Barbare, }
     \line { Reçoi le coup mortel que Saül te prèpare... }

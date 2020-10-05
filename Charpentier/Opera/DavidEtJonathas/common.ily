@@ -62,7 +62,7 @@
                                 "french"
                                 "treble")))
    (haute-contre "Hautes-contre" ()
-                 (#:notes "haute-contre" #:clef "alto"))
+                 (#:notes "haute-contre" #:clef "treble"))
    (taille "Tailles" ()
            (#:notes "taille" #:clef "alto"))
    (basse "Basses" ()
@@ -186,3 +186,8 @@ joadabMark =
       (make-hshift-lines-markup-list gap
         (make-override-lines-markup-list `(line-width . ,new-line-width)
           (make-justified-lines-markup-list (cons indentation args)))))))
+
+myfootnote =
+#(define-music-function (parser location grob offset text)
+     (symbol? pair? markup?)
+   (make-music 'Music 'void #t))

@@ -1,21 +1,4 @@
-\markup \line {
-  \force-line-width-ratio #9/20 \score {
-    \new Staff \with { \tinyStaff } <<
-      \keepWithTag #'() \global \includeNotes #(*note-filename*)
-      \clef #(*clef*)
-      $(or (*score-extra-music*) (make-music 'Music))
-    >>
-    \layout {
-      indent = #0
-      ragged-last = ##t
-      line-width = 5\cm
-      \context {
-        \Score
-        \remove "Bar_number_engraver"
-        \override RehearsalMark #'font-size = #-2
-      }
-    }
-  }
+\markup\fill-line {
   \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold Joanthas
     \line { A vostre bras Vainqueur rien ne peut résister, }
@@ -49,6 +32,8 @@
     \sline { Cessent pour jamais. }
     \sline { Goutons, goutons les charmes }
     \sline { D'une aimable Paix. }
+  }
+  \force-line-width-ratio #9/20 \fontsize #-2 \column {
     \bold David
     \line { Bergers, le Ciel enfin a calmé son couroux. }
     \bold\line { Trois bergers }
