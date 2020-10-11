@@ -290,6 +290,7 @@ O Emmanuel")
                  (taille "Tailles")
                  (basse "Basses")
                  (basse-continue "Basse continue")
+                 (bc-chant "Basse continue et chant")
                  (precipitations-dessus
                   "Dessus" #:part dessus
                   #:options "-ddessus-sol1 -dprecipitations")
