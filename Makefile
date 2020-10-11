@@ -1416,6 +1416,12 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-basse-continue:
 	-o $(OUTPUT_DIR)/H9_MesseMinuit-basse-continue -dpart=basse-continue  \
 	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
 .PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-basse-continue
+# Basse continue et chant
+Charpentier/MusiqueSacree/H9_MesseMinuit-bc-chant:
+	$(LILYPOND_CMD) \
+	-o $(OUTPUT_DIR)/H9_MesseMinuit-bc-chant -dpart=bc-chant  \
+	Charpentier/MusiqueSacree/H9_MesseMinuit/part.ly
+.PHONY: Charpentier/MusiqueSacree/H9_MesseMinuit-bc-chant
 # Dessus
 Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-dessus:
 	$(LILYPOND_CMD) \
@@ -1458,6 +1464,7 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-delivery:
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-taille.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-basse.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-basse.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-basse-continue.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-basse-continue.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
+	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-bc-chant.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-bc-chant.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-dessus.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-dessus.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-haute-contre.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-haute-contre.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
 	@if [ -e $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-taille.pdf ]; then mv -fv $(OUTPUT_DIR)/H9_MesseMinuit-precipitations-taille.pdf $(DELIVERY_DIR)/Charpentier/H9_MesseMinuit; fi
@@ -1482,6 +1489,7 @@ Charpentier/MusiqueSacree/H9_MesseMinuit-all: \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-taille \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-basse \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-basse-continue \
+	Charpentier/MusiqueSacree/H9_MesseMinuit-bc-chant \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-dessus \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-haute-contre \
 	Charpentier/MusiqueSacree/H9_MesseMinuit-precipitations-taille \
