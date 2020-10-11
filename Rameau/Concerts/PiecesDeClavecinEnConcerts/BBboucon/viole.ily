@@ -6,7 +6,7 @@ sol sol'8.( fa'16) |
 mi'2 fa'8.( mi'16) |
 re'2 mi'8.( re'16) |
 dod'2 re'8.( do'16) |
-<< { sib8.( re'8) sol'8. sib'16 } \\ { sib2 ~ sib8. <sol sib re' sib'>16 }>> |
+<< { sib4.( re'8) sol'8. sib'16 } \\ { sib2 ~ sib8. <sol sib re'>16 }>> |
 <la mi'>4.\trill r16 la sib8.( la16) |
 sol4.( la8) la8.(\trill sol32 la) |
 << { re'8.( mi'16) } \\ { sib4 }>> fa'4 fa |

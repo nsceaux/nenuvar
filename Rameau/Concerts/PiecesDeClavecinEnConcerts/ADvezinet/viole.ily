@@ -32,7 +32,7 @@ sol,4 r r2 |
 mi,8 fad, sol, la, si, do re mi |
 mi,4 r r2 |
 si,,8 do, re, mi, fad, sol, la, si, |
-si,,2 re, |
+do,2 re, |
 sol, sol |
 do' sol |
 do do' |

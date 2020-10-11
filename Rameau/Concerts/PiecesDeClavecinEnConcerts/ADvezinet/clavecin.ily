@@ -157,16 +157,16 @@
       <sol, sol,,> sol4( fad)\prall |
       \voiceOne mi2 \downup \voiceOne <mi'' sol''> |
       <sol'' do'''> \downdown \voiceOne <mi sol> |
-      \para fa \downup \voiceOne <fa'' la''> |
+      fa\para \downup \voiceOne <fa'' la''> |
       <la'' do'''> \downdown fa4( mi\prall) |
       \voiceOne re2 \downup \voiceOne <fad'' la''> |
       <la'' re'''> \downdown \voiceOne <fad la> |
-      \para sol2 \downup \voiceOne <sol'' si''> |
+      sol2\para \downup \voiceOne <sol'' si''> |
       <si'' re'''> \downdown sol4( fad\prall) |
       \voiceOne mi2 \downup \voiceOne <sold'' si''> |
       <si'' mi'''> \downdown \voiceOne <sold si> |
-      \para la2 \downup \voiceOne <la'' do'''> |
-      <do''' mi'''> \downdown \voiceOne \para la |
+      la2\para \downup \voiceOne <la'' do'''> |
+      <do''' mi'''> \downdown \voiceOne la\para |
       \oneVoice re4 mi fa re |
       mi fad sold mi |
       \voiceOne la2 mi |
@@ -174,7 +174,7 @@
       la,4 r r2 |
       mi,8 fa, sol, la, si, do re mi |
       mi,4 r r mi |
-      \voiceOne \para fa2 \downup \voiceOne <do'' fa''> |
+      \voiceOne fa2\para \downup \voiceOne <do'' fa''> |
       <fa'' la''> \downdown fa4 fa, |
       mi mi, \downup \voiceOne <do'' mi''>2 |
       <mi'' sol''> \downdown mi4 mi, |
