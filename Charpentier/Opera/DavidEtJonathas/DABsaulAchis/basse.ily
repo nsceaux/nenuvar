@@ -47,7 +47,7 @@ re2 sib,2. do4 |
 fa,2 fa |
 fa2 ~ fa |
 fa2 mi4 fa |
-sib,1 |
+sib,1 | \allowPageTurn
 mib4 lab8 fa sol4. fa8 |
 mi2. |
 fa4. mi8 fa sol |

@@ -21,7 +21,7 @@
     \midiTempo #160 \digitTime\time 2/2 s1*5
     \digitTime\time 3/4 s2.*29
     \tag #'no-silence {
-      s4
+      %s4
       \markDownEnd\mark\markup\smaller\italic "[page 211 du manuscrit manquante]"
     }
   }

@@ -1,5 +1,7 @@
-A- t-on ja -- mais souf -- fert
-a- t-on ja -- mais souf -- fert u -- ne plus ru -- de pei -- "ne ?"
+\tag #'jonathas {
+  A- t-on ja -- mais souf -- fert
+  a- t-on ja -- mais souf -- fert u -- ne plus ru -- de pei -- "ne ?"
+}
 Dois- je sui -- vre tes pas A -- mi trop mal -- heu -- "reux ?"
 Pe -- re trop ri -- gou -- reux
 dois- je ser -- vir ta hai -- "ne ?"

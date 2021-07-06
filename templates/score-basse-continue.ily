@@ -14,6 +14,7 @@
     \includeFigures "chiffres"
   >>
   \layout {
+    system-count = #(*system-count*)
     indent = #(if (*instrument-name*)
                   largeindent
                   (or (*score-indent*) smallindent))

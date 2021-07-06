@@ -17,7 +17,7 @@ mi4 fad sold la sol? fa |
 mi8 re mi fa mi re do si, la, si, do re |
 mi4 fad sold la re mi |
 la, la, si, dod si, dod |
-\myfootnoteNoLine #'NoteHead #'(0 . 2)
+\myfootnote #'NoteHead #'(0 . 2)
 \markup { Philidor : 
   \vcenter\score {
     \new Staff <<

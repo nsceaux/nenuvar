@@ -3,4 +3,4 @@
                                  #:notes "dessus-haute-contre")
                    (taille)
                    (basse)
-                   (basse-continue))
+                   (basse-continue #:system-count 5))

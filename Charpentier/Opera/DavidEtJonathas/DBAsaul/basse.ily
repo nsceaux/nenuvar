@@ -76,7 +76,7 @@ do2 do'4 sib |
 \parenthesize lab4 sol4 fa2 ~|
 fa mib |
 mib4 fa sol sol, |
-do1 | %{%}
+do1 | %{%} \allowPageTurn
 <<
   \tag #'basse { R1*8 }
   \tag #'basse-continue {
@@ -122,7 +122,7 @@ mib,1 | %{%}
     fa, fa4 |
     sib, sib4. lab8 sol4 do'4. sib8 |
     lab sib do'4 do |
-    fa2. |
+    fa2. | \allowPageTurn
     fa,1 |
     fa, |
     fa, |

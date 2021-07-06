@@ -4,16 +4,12 @@
     \time 4/4 \midiTempo #80 s1*8
     \midiTempo #160
     \digitTime\time 3/4 s2.*30 \modVersion\bar "|."
-    \time 4/4 \midiTempo #80 s1*9
-    \modVersion {
-      \segnoMarkEnd \bar "|."
-      s4
-      \dacapoOverrides \mark\markup%\override #'(font-size . 1)
-      \right-align\line {
-        Ritornel et \italic { Dépit jaloux }
-        comme cy-devant "[page" \page-refII #'CBAjoadab "]"
-      }
+    \time 4/4 \midiTempo #80 s1*8 s2.
+    \dacapoOverrides \mark\markup\right-align\line {
+      Ritornel et \italic { Dépit jaloux }
+      comme cy-devant "[page" \page-refII #'CBAjoadab "]"
     }
+    s4 \segnoMarkEnd \bar "|."
   }
   \origLayout {
     s1*4\break

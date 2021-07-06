@@ -21,7 +21,7 @@
     r4 lab8 sib do'4 do'8 re' |
     mib'4 mib' r2 |
     r2
-    \myfootnoteNoLine #'NoteHead #'(0 . 0.5)
+    \myfootnote #'NoteHead #'(0 . 0.5)
     \markup { Livret : 
       \italic { Ah ! que faut-il encor pour perdre un malheureux ? }
     }
@@ -80,7 +80,7 @@ mib1 |
 >>
 r4 do8 do fa4 fa8. lab16 |
 mi4
-\myfootnoteNoLine #'NoteHead #'(0 . 1)
+\myfootnote #'NoteHead #'(0 . 1)
 \markup { Livret : 
   \italic { David seul en secret espére me surprendre. }
 } sol4. lab16 sib mi8 fa |
@@ -93,7 +93,7 @@ lab4 sol4. sol8
       \new Voice = "saul" \with { autoBeaming = ##f } {
         \tinyQuote \key sib \major \time 4/4 \clef "bass"
         lab4 sol4. sol8 sol16*4/3 sol fa | sol2
-      } \lyricsto "saul" \new Lyrics \lyricmode {
+      } \new Lyrics \lyricsto "saul" {
         "- ché" frap -- pe plus su -- re -- ment
       }
     >>
@@ -119,7 +119,7 @@ sol2 r |
     mib mib r |
     R4.*3 |
     r2 r4 
-    \myfootnoteNoLine #'NoteHead #'(0 . 1.5)
+    \myfootnote #'NoteHead #'(0 . 1.5)
     \markup { Livret : 
       \italic { Du moins, s'il faut perir, perissons noblement. }
     } mib4 |

@@ -38,7 +38,7 @@
 re8 mi |
 fad4 fad4. fad8 |
 \tag #'basse {
-  \myfootnoteNoLine #'NoteHead #'(0 . 1)
+  \myfootnote #'NoteHead #'(0 . 1)
   \markup { Philidor :
     à partir de cette mesure, la ligne de basse de violon est omise.
   }
@@ -80,7 +80,7 @@ la,2
           \new Staff \new Voice = "basse" \with { autoBeaming = ##f } {
             \tinyQuote \key re \major \time 2/2 \clef "bass"
             sol8[ fab] mi[ re] dod[ re mib! dod] |
-          } \lyricsto "basse" \new Lyrics { "- sons" nos "chai -" }
+          } \new Lyrics \lyricsto "basse" { "- sons" nos "chai -" }
           \new Staff {
             \tinyQuote \key re \major \time 2/2 \clef "bass"
             sol8 fad mib re dod re mib! dod |

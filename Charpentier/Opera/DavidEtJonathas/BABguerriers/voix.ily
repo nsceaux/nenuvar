@@ -17,7 +17,7 @@
   R2. |
   r4 r r8 mi |
   la4. si8 la
-  \myfootnoteNoLine #'NoteHead #'(0 . 3)
+  \myfootnote #'NoteHead #'(0 . 3)
   \markup { Livret :
     \italic { Et vous qu'il a vaincus }
   }

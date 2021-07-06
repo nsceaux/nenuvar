@@ -15,6 +15,7 @@
   \italic { Dois-je enfin éprouver le secours } }
 \includeScore "ABAsaulPythonisse"
 
+\newBookPart#'(basse-continue)
 \scene "Scène Troisième" "SCÈNE 3 : la Pythonisse"
 \sceneDescription \markup \smallCaps { La Pythonisse. }
 \pieceToc \markup { La Pythonisse : \italic { Retirez-vous, affreux Tonnerre } }

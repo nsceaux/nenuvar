@@ -21,7 +21,7 @@ re' sol do' si8 la |
 sol4 sol la la, |
 re2 sol,4 sol |
 do4. si,8 la,4 sol, |
-re sol, sol2 ~|
+re sol, sol2 ~| \allowPageTurn
 sol2. sol4 |
 si,8 si, do re mi fa mi re |
 do4. sol,8 do2 |

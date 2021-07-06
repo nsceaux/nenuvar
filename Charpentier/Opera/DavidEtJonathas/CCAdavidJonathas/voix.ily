@@ -25,7 +25,7 @@
       }
     >>
     \tag #'basse \clef "vdessus"
-    \myfootnoteNoLine #'NoteHead #'(0 . 1)
+    \myfootnote #'NoteHead #'(0 . 1)
     \markup { Philidor : 
       \italic { Sy l'on est sans eux /
         Rien ne plait a nos cœurs, on ne peut vivre heureux. }

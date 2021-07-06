@@ -10,7 +10,7 @@
   \pageBreak
   
   %% Table of contents
-  \markuplist\abs-fontsize-lines #7 \table-of-contents
+  \markuplist\abs-fontsize-lines #6 \table-of-contents
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

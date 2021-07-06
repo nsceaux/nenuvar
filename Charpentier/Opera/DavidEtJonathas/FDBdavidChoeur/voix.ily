@@ -13,7 +13,7 @@ la'2 fa' re' |
 sol' mib'2. mib'8*2 |
 mib'1 re'2 |
 re' ( do'1 )|
-\myfootnoteNoLine #'NoteHead #'(0 . 2)
+\myfootnote #'NoteHead #'(0 . 2)
 \markup { Livret : \italic { L'objet le plus doux de mes vœux. } }
 sib1. |
 R1. |

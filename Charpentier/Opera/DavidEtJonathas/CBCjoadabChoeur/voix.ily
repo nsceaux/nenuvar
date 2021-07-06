@@ -9,12 +9,12 @@ r8 si re' si sol4. ( fad16 ) sol |
 fad2. |
 R2.*29 |
 r8
-\myfootnoteNoLine #'NoteHead #'(-2 . -3)
+\myfootnote #'NoteHead #'(-2 . -3)
 \markup { Livret : \italic { C'est trop ; à ma fureur je veux que tout réponde. } }
 re'^\markup\character Joabel la16 la la si dod'8. dod'16 dod' dod' re' mi' |
 fad'8 re' r4 r8 mi' do'16 do' do' mi' |
 sold8. sold16 sold sold sold la si8.
-\myfootnoteNoLine #'NoteHead #'(0 . 1)
+\myfootnote #'NoteHead #'(0 . 1)
 \markup { Livret : \italic { Il faut contre David que Saül me seconde. } }
 do'16 re' re' re' mi' |
 do'4
