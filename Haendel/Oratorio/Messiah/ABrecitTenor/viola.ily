@@ -1,11 +1,11 @@
-si8-.( si-. si-. si-.) si si si si |
+\override Script.avoid-slur = #'inside si8-.( si-. si-. si-.) si si si si |
 si si si si la la la la |
 si si la la si si la la |
 sold4 r mi'8. mi16 mi4 |
 si8-.( si-. si-. si-.) si si si si |
 si si si si si si fad' fad' |
 mi'8. si16 si4 mi'8. mi16 mi4 |
-R1^\fermataMarkup |
+R1^\fermata |
 si8 si si si si si si si |
 dod' dod' dod' dod' dod' dod' dod' dod' |
 red' red' red' red' si'8. si16 si4 |

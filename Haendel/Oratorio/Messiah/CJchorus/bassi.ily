@@ -98,7 +98,7 @@ re2 do |
 si,4 si2 fad4 |
 sol1 |
 sol |
-R1^\fermataMarkup |
+R1^\fermata |
 fad2 re |
 la la, |
 <re, re>\breve*1/2 |

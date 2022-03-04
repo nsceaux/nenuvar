@@ -62,7 +62,7 @@ re''4. mi''8 fad'' sol'' la''4 |
 sol''4. la''8 si'' dod''' re''' la'' |
 si'' la'' sol'' fad'' mi'' re''' dod''' si'' |
 dod'''2 dod''' |
-R1^\fermataMarkup |
+R1^\fermata |
 re'''2 re''' |
 re''' dod''' |
 re'''\breve*1/2 |

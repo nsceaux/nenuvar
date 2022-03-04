@@ -5,7 +5,7 @@ mi'4 r sold''8. fad''16 mi''4 |
 mi'8-.( mi'-. mi'-. mi'-.) mi' mi' mi' mi' |
 mi' mi' mi' mi' mi' mi' red' red' |
 sold'8. fad'16 mi'4 si'8. la'16 sold'4 |
-R1^\fermataMarkup |
+R1^\fermata |
 mi'8 mi' mi' mi' mi' mi' mi' mi' |
 mi'' mi'' mi'' mi'' mi'' mi'' mi'' mi'' |
 fad' fad' fad' fad' red''8. dod''16 si'4 |

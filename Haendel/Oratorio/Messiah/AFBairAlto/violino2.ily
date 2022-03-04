@@ -75,7 +75,7 @@ R4.*5 |
 r4 la'8 |
 sol'4 re''8 |
 dod''4 r8 |
-R4.^\fermataMarkup |
+R4.^\fermata |
 r4 fa'8 |
 mi'8. fa'16 re'8 |
 dod'4 r8 |

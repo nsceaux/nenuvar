@@ -84,7 +84,7 @@ r4 r8 <<
 sol''8 sol'' fa'' mi'' fa''2~ |
 fa''8 fa'' mib''! re'' mib'' sol'' mib'' re'' |
 dod''2 r |
-R1*2 |
+R1*2 | \allowPageTurn
 r4 r8 fa'\f sib'4 r8 fa' |
 do''4 r8 fa' re'' sib'16 do'' re''8 fa''16 mi'' |
 fa''8 fa' r4 r2 |

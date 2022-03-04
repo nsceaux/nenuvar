@@ -98,7 +98,7 @@
       r4 <la'' la' re''>8 |
       << { dod''8. mi''16 re''8 } \\ { <mi' sol'>4 sol'8 } >> |
       <mi'' dod''>8 la' r |
-      R4.^\fermataMarkup |
+      R4.^\fermata |
       r4 <la' fa' re'>8 |
       << { <sol' mi'>8. <la' fa'>16 <fa' re'>8 } \\ { sib4 la8 } >> |
       <mi' dod' la>4 r8 |

@@ -52,7 +52,7 @@ re' la' ~ la'8 sol' fad' mi' |
 re'4 sol' re' re' |
 sol' re' si' mi' |
 la'2 la' |
-R1^\fermataMarkup |
+R1^\fermata |
 la'2 la' |
 la'1 |
 la'\breve*1/2 |

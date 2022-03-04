@@ -5,7 +5,7 @@ mi,4 r r2 |
 mi8-.( mi-. mi-. mi-.) sold-.( sold-. sold-. sold-.)|
 si si si si si si si, si, |
 mi8. mi,16 mi,4 r2 |
-R1^\fermataMarkup |
+R1^\fermata |
 mi8 mi mi mi sold sold sold sold |
 dod dod dod dod dod dod dod dod |
 si,4 r r2 |

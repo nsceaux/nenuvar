@@ -70,7 +70,7 @@ re' do' |
 si2. fad4 |
 sol2. sol4 |
 sol2 sol |
-R1^\fermataMarkup |
+R1^\fermata |
 fad2 re |
 la1 |
 re\breve*1/2 |

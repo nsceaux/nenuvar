@@ -133,7 +133,7 @@
            re''4 mi''8 fad'' sol''4 la''8 re'' |
            re''4 sol''8 fad'' mi'' fad'' mi'' re'' | } >>
       <dod''' mi'' la''>2 <dod''' mi'' la''> |
-      R1\fermataMarkup |
+      R1\fermata |
       <re''' la'' re''>2 <re''' fad'' la''> |
       <re''' mi'' la''>2 <dod''' mi'' la''> |
       <re''' fad'' la''>\breve*1/2 |
@@ -234,7 +234,7 @@
       si,4 si2 fad4 |
       sol re si mi |
       sol1 |
-      R1^\fermataMarkup |
+      R1^\fermata |
       fad2 re |
       la la, |
       <re, re>\breve*1/2 |

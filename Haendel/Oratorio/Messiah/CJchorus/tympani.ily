@@ -23,7 +23,7 @@ re r re r |
 re4. re8 re4 re |
 re4. re8 re4 re |
 la,2 la, |
-R1^\fermataMarkup |
+R1^\fermata |
 re2 re |
 la,1 |
 re\breve*1/2 |

@@ -58,7 +58,7 @@ re''4 re'8 [ mi' ] fad' [ sol' ]\melismaEnd la'4 |
 sol'4. \melisma la'8 si' [ dod'' re'' la' ]|
 si'4 sol'' ~ sol''8 [ fad'' mi'' re'' ]|
 dod''2\melismaEnd dod'' |
-R1^\fermataMarkup |
+R1^\fermata |
 re''2 re'' |
 re'' ( dod'' )|
 re''\breve*1/2 |

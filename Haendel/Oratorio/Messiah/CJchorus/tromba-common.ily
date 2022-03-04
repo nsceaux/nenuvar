@@ -14,5 +14,5 @@ R1*2 |
 s2. r4 |
 R1*29 |
 s1*10 |
-R1^\fermataMarkup |
+R1^\fermata |
 s1*3 |

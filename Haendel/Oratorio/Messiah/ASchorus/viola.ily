@@ -1,3 +1,4 @@
+\override Script.avoid-slur = #'inside
 re'4 dod'8. si16 la4 r |
 si la8. sol16 re'4 re'8 re' |
 sol'1 |

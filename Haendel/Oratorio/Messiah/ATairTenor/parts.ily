@@ -3,5 +3,5 @@
                    (vocal)
                    (vocal-keyboard)
                    (keyboard)
-                   (bassi)
+                   (bassi #:score-template "score")
                    (silence #:score "score-silence"))

@@ -68,7 +68,7 @@ r4 la' ~ la'8 [ sol' ] fad' [ mi' ]|
 re'2. re'4 |
 re' \melisma mi'2 \melismaEnd mi'4 |
 mi'2 mi' |
-R1^\fermataMarkup |
+R1^\fermata |
 re'2 fad' |
 mi'1 |
 fad'\breve*1/2 |

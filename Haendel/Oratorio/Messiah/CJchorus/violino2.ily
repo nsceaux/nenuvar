@@ -58,7 +58,7 @@ la''8 sol'' fad'' mi'' re''4 re'' |
 re'' mi''8 fad'' sol''4 la''8 re'' |
 re''4 si''8 la'' sol'' fad'' mi'' re'' |
 mi''2 mi'' |
-R1^\fermataMarkup |
+R1^\fermata |
 la''2 fad'' |
 mi''1 |
 fad''\breve*1/2 |

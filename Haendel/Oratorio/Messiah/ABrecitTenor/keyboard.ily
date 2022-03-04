@@ -13,7 +13,7 @@
       << { si'4 ~ si'8. la'32 sold' } \\ { <mi' si>8 <mi' si> <mi' si> <mi' si> } >>|
       <mi' fad'> <mi' fad'> <mi' fad'> <mi' fad'> <mi' fad'> <mi' fad'> <red' si' fad'> <red' si' fad'> |
       <sold' si' mi'>8. <fad' la' si>16 <mi' sold' si>4 <si' sold''>8. <fad'' la'>16 <mi'' sold'>4
-      R1^\fermataMarkup |
+      R1^\fermata |
       <mi' sold' si>8 <mi' sold' si> <mi' sold' si> <mi' sold' si> <mi' si' si> <mi' si' si> <mi' si' si> <mi' si' si> |
       %% 10
       <mi'' si'>8 <mi'' si'> <mi'' si'> <mi'' si'> <lad' mi''> <lad' mi''> <lad' mi''> <lad' mi''> |
@@ -63,7 +63,7 @@
       mi8-.( mi-. mi-. mi-.) sold-.( sold-. sold-. sold-.)|
       si si si si si si si, si, |
       mi8. mi,16 mi,4  mi'8. mi16 mi4 |
-      R1^\fermataMarkup |
+      R1^\fermata |
       mi8 mi mi mi sold sold sold sold |
       %% 10
       <dod dod'> <dod dod'> <dod dod'> <dod dod'> <dod dod'> <dod dod'> <dod dod'> <dod dod'> |
